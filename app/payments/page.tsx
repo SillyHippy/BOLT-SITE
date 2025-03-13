@@ -37,7 +37,7 @@ export default function PaymentsPage() {
             <h2 className="text-2xl font-bold mb-4">Electronic Payment</h2>
             <p className="text-gray-700 mb-2">
               To pay online{' '}
-              <Link href="https://pay.justlegalsolutions.org" className="text-blue-600 hover:text-blue-800">
+              <Link href="https://buy.stripe.com/3cs17SbHS6h95nGaEE" className="text-blue-600 hover:text-blue-800">
                 Click here
               </Link>
               . Be sure to enter your case number with the payment.
