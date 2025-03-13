@@ -8,8 +8,8 @@ const nextConfig = {
   // Add trailing slash to match traditional .html behavior
   trailingSlash: true,
   // Configure for GitHub Pages deployment
-  basePath: '/BOLT-SITE',
-  assetPrefix: '/BOLT-SITE',
+  basePath: process.env.NODE_ENV === 'production' ? '/BOLT-SITE' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/BOLT-SITE' : '',
 };
 
 module.exports = nextConfig;
