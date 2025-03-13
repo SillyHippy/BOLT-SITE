@@ -1,15 +1,18 @@
 import { Button } from "@/components/ui/button";
 import { Mail, Phone, MapPin, Truck, FileText, Building2, Clock } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
+  const basePath = process.env.NODE_ENV === 'production' ? '/BOLT-SITE' : '';
+  
   return (
     <main className="min-h-screen pt-16">
       {/* Hero Section */}
       <section className="relative h-[calc(100vh-4rem)]">
         <div className="absolute inset-0">
           <img
-            src="/images/hero.webp"
+            src={`${basePath}/images/hero.webp`}
             alt="Professional legal services"
             className="object-cover w-full h-full"
           />
@@ -32,7 +35,7 @@ export default function Home() {
             <div className="text-center">
               <div className="aspect-w-16 aspect-h-9 mb-4">
                 <img
-                  src="/images/secure-delivery.webp"
+                  src={`${basePath}/images/secure-delivery.webp`}
                   alt="Secure Document Delivery"
                   className="w-full h-64 object-cover object-center rounded"
                 />
@@ -45,7 +48,7 @@ export default function Home() {
             <div className="text-center">
               <div className="aspect-w-16 aspect-h-9 mb-4">
                 <img
-                  src="/images/court-transfer.webp"
+                  src={`${basePath}/images/court-transfer.webp`}
                   alt="Court-Run Transfers"
                   className="w-full h-64 object-cover object-center rounded"
                 />
@@ -58,7 +61,7 @@ export default function Home() {
             <div className="text-center">
               <div className="aspect-w-16 aspect-h-9 mb-4">
                 <img
-                  src="/images/skip-trace.webp"
+                  src={`${basePath}/images/skip-trace.webp`}
                   alt="Skip Tracing"
                   className="w-full h-64 object-cover object-center rounded"
                 />
@@ -71,7 +74,7 @@ export default function Home() {
             <div className="text-center">
               <div className="aspect-w-16 aspect-h-9 mb-4">
                 <img
-                  src="/images/same-day.webp"
+                  src={`${basePath}/images/same-day.webp`}
                   alt="Same-Day Delivery"
                   className="w-full h-64 object-cover object-center rounded"
                 />
@@ -89,7 +92,7 @@ export default function Home() {
       <section id="courier-services" className="relative py-24">
         <div className="absolute inset-0">
           <img
-            src="/images/courier-bg.webp"
+            src={`${basePath}/images/courier-bg.webp`}
             alt="Legal office"
             className="object-cover w-full h-full"
           />
