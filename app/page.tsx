@@ -4,9 +4,9 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen pt-16">
       {/* Hero Section */}
-      <section className="relative h-screen">
+      <section className="relative h-[calc(100vh-4rem)]">
         <div className="absolute inset-0">
           <img
             src="/images/hero.webp"
@@ -16,8 +16,8 @@ export default function Home() {
           <div className="absolute inset-0 bg-black/50" />
         </div>
         <div className="relative h-full flex flex-col items-center justify-center text-white text-center px-4">
-          <h1 className="text-5xl font-bold mb-6">Efficient Process Serving Solutions</h1>
-          <p className="text-xl max-w-2xl">
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">Efficient Process Serving Solutions</h1>
+          <p className="text-lg md:text-xl max-w-2xl">
             At Just Legal Solutions, we offer comprehensive process serving services
             tailored to your needs. Whether it's routine, rush, or same-day service, we
             ensure Statewide coverage at reasonable rates.
@@ -27,50 +27,60 @@ export default function Home() {
 
       {/* Services Grid */}
       <section className="bg-black text-white py-16">
-        <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          <div className="text-center">
-            <img
-              src="/images/secure-delivery.webp"
-              alt="Secure Document Delivery"
-              className="w-full h-48 object-cover mb-4 rounded"
-            />
-            <h3 className="text-xl font-bold mb-2">Secure Document Delivery</h3>
-            <p className="text-gray-300">
-              Our secure document delivery ensures your documents arrive safely and on time, professionally and confidentially.
-            </p>
-          </div>
-          <div className="text-center">
-            <img
-              src="/images/court-transfer.webp"
-              alt="Court-Run Transfers"
-              className="w-full h-48 object-cover mb-4 rounded"
-            />
-            <h3 className="text-xl font-bold mb-2">Court-Run Transfers</h3>
-            <p className="text-gray-300">
-              We specialize in court-run document transfers, ensuring your files reach their destination without delay.
-            </p>
-          </div>
-          <div className="text-center">
-            <img
-              src="/images/skip-trace.webp"
-              alt="Skip Tracing"
-              className="w-full h-48 object-cover mb-4 rounded"
-            />
-            <h3 className="text-xl font-bold mb-2">Skip Tracing</h3>
-            <p className="text-gray-300">
-              Our skip trace service helps locate hard-to-find individuals efficiently and cost-effectively.
-            </p>
-          </div>
-          <div className="text-center">
-            <img
-              src="/images/same-day.webp"
-              alt="Same-Day Delivery"
-              className="w-full h-48 object-cover mb-4 rounded"
-            />
-            <h3 className="text-xl font-bold mb-2">Same-Day Delivery</h3>
-            <p className="text-gray-300">
-              Get your time-sensitive documents delivered quickly with our reliable same-day service.
-            </p>
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="text-center">
+              <div className="aspect-w-16 aspect-h-9 mb-4">
+                <img
+                  src="/images/secure-delivery.webp"
+                  alt="Secure Document Delivery"
+                  className="w-full h-64 object-cover object-center rounded"
+                />
+              </div>
+              <h3 className="text-xl font-bold mb-2">Secure Document Delivery</h3>
+              <p className="text-gray-300">
+                Our secure document delivery ensures your documents arrive safely and on time, professionally and confidentially.
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="aspect-w-16 aspect-h-9 mb-4">
+                <img
+                  src="/images/court-transfer.webp"
+                  alt="Court-Run Transfers"
+                  className="w-full h-64 object-cover object-center rounded"
+                />
+              </div>
+              <h3 className="text-xl font-bold mb-2">Court-Run Transfers</h3>
+              <p className="text-gray-300">
+                We specialize in court-run document transfers, ensuring your files reach their destination without delay.
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="aspect-w-16 aspect-h-9 mb-4">
+                <img
+                  src="/images/skip-trace.webp"
+                  alt="Skip Tracing"
+                  className="w-full h-64 object-cover object-center rounded"
+                />
+              </div>
+              <h3 className="text-xl font-bold mb-2">Skip Tracing</h3>
+              <p className="text-gray-300">
+                Our skip trace service helps locate hard-to-find individuals efficiently and cost-effectively.
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="aspect-w-16 aspect-h-9 mb-4">
+                <img
+                  src="/images/same-day.webp"
+                  alt="Same-Day Delivery"
+                  className="w-full h-64 object-cover object-center rounded"
+                />
+              </div>
+              <h3 className="text-xl font-bold mb-2">Same-Day Delivery</h3>
+              <p className="text-gray-300">
+                Get your time-sensitive documents delivered quickly with our reliable same-day service.
+              </p>
+            </div>
           </div>
         </div>
       </section>
