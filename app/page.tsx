@@ -9,8 +9,8 @@ export default function Home() {
       <section className="relative h-screen">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80"
-            alt="Professional in suit"
+            src="/images/hero.webp"
+            alt="Professional legal services"
             className="object-cover w-full h-full"
           />
           <div className="absolute inset-0 bg-black/50" />
@@ -30,7 +30,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="text-center">
             <img
-              src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+              src="/images/secure-delivery.webp"
               alt="Secure Document Delivery"
               className="w-full h-48 object-cover mb-4 rounded"
             />
@@ -41,7 +41,7 @@ export default function Home() {
           </div>
           <div className="text-center">
             <img
-              src="https://images.unsplash.com/photo-1557318041-1ce374d55ebf?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+              src="/images/court-transfer.webp"
               alt="Court-Run Transfers"
               className="w-full h-48 object-cover mb-4 rounded"
             />
@@ -52,7 +52,7 @@ export default function Home() {
           </div>
           <div className="text-center">
             <img
-              src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+              src="/images/skip-trace.webp"
               alt="Skip Tracing"
               className="w-full h-48 object-cover mb-4 rounded"
             />
@@ -63,7 +63,7 @@ export default function Home() {
           </div>
           <div className="text-center">
             <img
-              src="https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+              src="/images/same-day.webp"
               alt="Same-Day Delivery"
               className="w-full h-48 object-cover mb-4 rounded"
             />
@@ -79,8 +79,8 @@ export default function Home() {
       <section id="courier-services" className="relative py-24">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80"
-            alt="Legal office at night"
+            src="/images/courier-bg.webp"
+            alt="Legal office"
             className="object-cover w-full h-full"
           />
           <div className="absolute inset-0 bg-black/60" />
