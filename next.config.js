@@ -7,10 +7,9 @@ const nextConfig = {
   images: { unoptimized: true },
   // Add trailing slash to match traditional .html behavior
   trailingSlash: true,
-  // Remove basePath and assetPrefix if the site is served from root domain
-  // If serving from username.github.io/repo-name, uncomment and update these:
-  // basePath: '/repo-name',
-  // assetPrefix: '/repo-name',
+  // Configure for GitHub Pages deployment
+  basePath: '/BOLT-SITE',
+  assetPrefix: '/BOLT-SITE',
 };
 
 module.exports = nextConfig;
