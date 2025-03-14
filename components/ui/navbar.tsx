@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Menu, X } from 'lucide-react';
 import { Button } from './button';
 
@@ -23,7 +24,13 @@ export function Navbar() {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center">
-              <img src="https://github.com/SillyHippy/website1/raw/main/oPKyDQlOdjnFtEbtOfVCRpiYRmCLmZut/favicon1.svg" alt="JLS Logo" className="h-10 w-auto" />
+              <Image 
+                src="https://raw.githubusercontent.com/SillyHippy/BOLT-SITE/refs/heads/main/public/images/jls-logo.webp" 
+                alt="JLS Logo" 
+                width={100} 
+                height={40} 
+                className="h-10 w-auto" 
+              />
             </Link>
           </div>
 
