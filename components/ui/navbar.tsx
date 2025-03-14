@@ -2,12 +2,12 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Menu, X } from 'lucide-react';
 import { Button } from './button';
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-  const basePath = process.env.NODE_ENV === 'production' ? '/BOLT-SITE' : '';
 
   const scrollToFooter = () => {
     setIsOpen(false);
@@ -24,12 +24,13 @@ export function Navbar() {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center">
-              <img
-                src={`${basePath}/images/jls-logo.webp`}
-                alt="JLS Logo"
-                width={100}
-                height={40}
+              <Image 
+                src="/images/jls-logo.webp" 
+                alt="JLS Logo" 
+                width={100} 
+                height={40} 
                 className="h-10 w-auto"
+                priority
               />
             </Link>
           </div>
@@ -54,11 +55,8 @@ export function Navbar() {
 
           {/* Contact Button */}
           <div className="hidden md:flex items-center ml-8">
-            <Button 
-              onClick={scrollToFooter} 
-              className="bg-black text-white hover:bg-gray-800"
-            >
-              Contact Us
+            <Button asChild className="bg-black text-white hover:bg-gray-800">
+              <Link href="#contact">Contact Us</Link>
             </Button>
           </div>
 
