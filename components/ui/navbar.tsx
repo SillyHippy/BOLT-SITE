@@ -27,7 +27,14 @@ export function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center">
-            <Image src="/favicon1.svg" alt="JLS Logo" width={40} height={40} />
+            <Image 
+              src="https://raw.githubusercontent.com/SillyHippy/BOLT-SITE/refs/heads/main/public/images/jls-logo.webp" 
+              alt="JLS Logo" 
+              width={100} 
+              height={100}
+              className="object-contain"
+              priority
+            />
           </Link>
 
           {/* Desktop Navigation */}
