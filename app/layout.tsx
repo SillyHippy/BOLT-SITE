@@ -4,47 +4,41 @@ import { Inter } from 'next/font/google';
 
 const inter = Inter({ subsets: ['latin'] });
 
+const basePath = process.env.NODE_ENV === 'production' ? '/BOLT-SITE' : '';
+
 export const metadata: Metadata = {
   title: 'Just Legal Solutions - Professional Process Serving Services',
   description: 'Comprehensive process serving services including secure document delivery, court-run transfers, skip tracing, and same-day delivery.',
   icons: {
     icon: [
       {
-        url: '/Favicon/favicon.ico',
-        sizes: '32x32',
+        url: `${basePath}/Favicon/favicon-96x96.png`,
+        sizes: '96x96',
+        type: 'image/png',
+      },
+      {
+        url: `${basePath}/Favicon/favicon.svg`,
+        type: 'image/svg+xml',
+      },
+      {
+        url: `${basePath}/Favicon/favicon.ico`,
+        sizes: 'any',
         type: 'image/x-icon',
-      },
-      {
-        url: '/Favicon/favicon-16x16.png',
-        sizes: '16x16',
-        type: 'image/png',
-      },
-      {
-        url: '/Favicon/favicon-32x32.png',
-        sizes: '32x32',
-        type: 'image/png',
       },
     ],
     apple: [
       {
-        url: '/Favicon/apple-touch-icon.png',
+        url: `${basePath}/Favicon/apple-touch-icon.png`,
         sizes: '180x180',
         type: 'image/png',
       },
     ],
-    other: [
-      {
-        rel: 'mask-icon',
-        url: '/Favicon/safari-pinned-tab.svg',
-        color: '#0B132B',
-      },
-    ],
   },
-  manifest: '/Favicon/site.webmanifest',
+  manifest: `${basePath}/Favicon/site.webmanifest`,
   appleWebApp: {
     capable: true,
     statusBarStyle: 'default',
-    title: 'Just Legal Solutions',
+    title: 'JLS',
   },
   applicationName: 'Just Legal Solutions',
   themeColor: '#0B132B',
