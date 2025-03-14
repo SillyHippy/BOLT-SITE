@@ -5,9 +5,12 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { X } from 'lucide-react';
+import { useRouter, usePathname } from 'next/navigation';
 
 export function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const router = useRouter();
+  const pathname = usePathname();
 
   const scrollToFooter = () => {
     const footer = document.querySelector('footer');
@@ -15,6 +18,16 @@ export function Navbar() {
       footer.scrollIntoView({ behavior: 'smooth' });
       setIsMobileMenuOpen(false);
     }
+  };
+
+  const handleCourierServicesClick = (e: React.MouseEvent) => {
+    e.preventDefault();
+    if (pathname !== '/') {
+      router.push('/#courier-services');
+    } else {
+      document.getElementById('courier-services')?.scrollIntoView({ behavior: 'smooth' });
+    }
+    setIsMobileMenuOpen(false);
   };
 
   const toggleMobileMenu = () => {
@@ -45,9 +58,13 @@ export function Navbar() {
             <Link href="/pricing" className="text-gray-700 hover:text-gray-900">
               Pricing
             </Link>
-            <Link href="#courier-services" className="text-gray-700 hover:text-gray-900">
+            <a 
+              href="/#courier-services" 
+              className="text-gray-700 hover:text-gray-900 cursor-pointer"
+              onClick={handleCourierServicesClick}
+            >
               Courier Services
-            </Link>
+            </a>
             <Link href="/payments" className="text-gray-700 hover:text-gray-900">
               Payments
             </Link>
@@ -119,13 +136,13 @@ export function Navbar() {
             >
               Pricing
             </Link>
-            <Link
-              href="#courier-services"
-              className="px-6 py-3 text-gray-700 hover:bg-gray-100"
-              onClick={() => setIsMobileMenuOpen(false)}
+            <a
+              href="/#courier-services"
+              className="px-6 py-3 text-gray-700 hover:bg-gray-100 cursor-pointer"
+              onClick={handleCourierServicesClick}
             >
               Courier Services
-            </Link>
+            </a>
             <Link
               href="/payments"
               className="px-6 py-3 text-gray-700 hover:bg-gray-100"
