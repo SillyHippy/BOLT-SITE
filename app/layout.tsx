@@ -9,22 +9,21 @@ export const metadata: Metadata = {
   description: 'Comprehensive process serving services including secure document delivery, court-run transfers, skip tracing, and same-day delivery.',
   icons: {
     icon: [
-      { url: '/favicon.ico' },
-      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
-      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' }
+      { url: '/Favicon/favicon.ico' },
+      { url: '/Favicon/favicon-96x96.png', sizes: '96x96', type: 'image/png' }
     ],
     apple: [
-      { url: '/apple-touch-icon.png' }
+      { url: '/Favicon/apple-touch-icon.png' }
     ],
     other: [
       {
         rel: 'mask-icon',
-        url: '/safari-pinned-tab.svg',
+        url: '/Favicon/favicon.svg',
         color: '#0B132B'
       }
     ]
   },
-  manifest: '/site.webmanifest'
+  manifest: '/Favicon/site.webmanifest'
 };
 
 export default function RootLayout({
