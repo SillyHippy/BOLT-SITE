@@ -54,8 +54,11 @@ export function Navbar() {
 
           {/* Contact Button */}
           <div className="hidden md:flex items-center ml-8">
-            <Button asChild className="bg-black text-white hover:bg-gray-800">
-              <Link href="/contact">Contact Us</Link>
+            <Button 
+              onClick={scrollToFooter}
+              className="bg-black text-white hover:bg-gray-800"
+            >
+              Contact Us
             </Button>
           </div>
 
