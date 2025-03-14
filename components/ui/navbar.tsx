@@ -1,60 +1,54 @@
 "use client";
 
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { Menu, X } from 'lucide-react';
-import { Button } from './button';
+import { Button } from '@/components/ui/button';
+import { X } from 'lucide-react';
 
 export function Navbar() {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const scrollToFooter = () => {
-    setIsOpen(false);
     const footer = document.querySelector('footer');
     if (footer) {
       footer.scrollIntoView({ behavior: 'smooth' });
+      setIsMobileMenuOpen(false);
     }
   };
 
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
+
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-white shadow-sm">
-      <div className="max-w-7xl mx-auto px-4">
-        <div className="flex justify-between items-center h-16">
+    <nav className="fixed top-0 left-0 right-0 z-40 bg-white shadow-sm">
+      <div className="container mx-auto px-4">
+        <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex-shrink-0">
-            <Link href="/" className="flex items-center">
-              <Image 
-                src="https://raw.githubusercontent.com/SillyHippy/BOLT-SITE/refs/heads/main/public/images/jls-logo.webp" 
-                alt="JLS Logo" 
-                width={100} 
-                height={40} 
-                className="h-10 w-auto" 
-              />
+          <Link href="/" className="flex items-center">
+            <Image src="/favicon1.svg" alt="JLS Logo" width={40} height={40} />
+          </Link>
+
+          {/* Desktop Navigation */}
+          <div className="hidden md:flex items-center space-x-8">
+            <Link href="/" className="text-gray-700 hover:text-gray-900">
+              Home
+            </Link>
+            <Link href="/pricing" className="text-gray-700 hover:text-gray-900">
+              Pricing
+            </Link>
+            <Link href="#courier-services" className="text-gray-700 hover:text-gray-900">
+              Courier Services
+            </Link>
+            <Link href="/payments" className="text-gray-700 hover:text-gray-900">
+              Payments
             </Link>
           </div>
 
-          {/* Desktop Navigation - Centered */}
-          <div className="hidden md:flex items-center justify-center flex-1 ml-16">
-            <div className="flex space-x-8">
-              <Link href="/" className="text-gray-700 hover:text-gray-900">
-                Home
-              </Link>
-              <Link href="/pricing" className="text-gray-700 hover:text-gray-900">
-                Pricing
-              </Link>
-              <Link href="/#courier-services" className="text-gray-700 hover:text-gray-900">
-                Courier Services
-              </Link>
-              <Link href="/payments" className="text-gray-700 hover:text-gray-900">
-                Payments
-              </Link>
-            </div>
-          </div>
-
-          {/* Contact Button */}
-          <div className="hidden md:flex items-center ml-8">
-            <Button 
+          {/* Contact Us Button - Desktop */}
+          <div className="hidden md:block">
+            <Button
               onClick={scrollToFooter}
               className="bg-black text-white hover:bg-gray-800"
             >
@@ -62,80 +56,93 @@ export function Navbar() {
             </Button>
           </div>
 
-          {/* Mobile menu button */}
+          {/* Mobile Menu Button */}
           <div className="md:hidden">
             <button
-              onClick={() => setIsOpen(!isOpen)}
-              className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-black"
+              type="button"
+              onClick={toggleMobileMenu}
+              className="text-gray-500 hover:text-gray-600 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
             >
               <span className="sr-only">Open main menu</span>
-              {isOpen ? <X className="block h-6 w-6" /> : <Menu className="block h-6 w-6" />}
+              <svg
+                className="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="currentColor"
+                aria-hidden="true"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                />
+              </svg>
             </button>
           </div>
         </div>
-      </div>
 
-      {/* Mobile menu - Sliding from right */}
-      <div 
-        className={`fixed top-0 right-0 h-full w-64 bg-white transform transition-transform duration-300 ease-in-out md:hidden z-[60]`}
-        style={{
-          transform: isOpen ? 'translateX(0)' : 'translateX(100%)',
-          boxShadow: isOpen ? '-4px 0 6px -1px rgba(0, 0, 0, 0.1)' : 'none'
-        }}
-      >
-        <div className="flex justify-end p-4">
-          <button
-            onClick={() => setIsOpen(false)}
-            className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-black"
-          >
-            <X className="block h-6 w-6" />
-          </button>
+        {/* Mobile Menu */}
+        <div 
+          className={`fixed top-0 right-0 bottom-0 w-[250px] bg-white shadow-lg transform transition-transform duration-300 ease-in-out z-50 ${
+            isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'
+          } md:hidden`}
+        >
+          <div className="flex justify-between items-center p-4 border-b">
+            <h2 className="text-xl font-semibold">Menu</h2>
+            <button
+              onClick={toggleMobileMenu}
+              className="p-2 hover:bg-gray-100 rounded-full"
+            >
+              <X className="h-6 w-6" />
+            </button>
+          </div>
+          <div className="flex flex-col py-4">
+            <Link
+              href="/"
+              className="px-6 py-3 text-gray-700 hover:bg-gray-100"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              Home
+            </Link>
+            <Link
+              href="/pricing"
+              className="px-6 py-3 text-gray-700 hover:bg-gray-100"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              Pricing
+            </Link>
+            <Link
+              href="#courier-services"
+              className="px-6 py-3 text-gray-700 hover:bg-gray-100"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              Courier Services
+            </Link>
+            <Link
+              href="/payments"
+              className="px-6 py-3 text-gray-700 hover:bg-gray-100"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              Payments
+            </Link>
+            <button
+              onClick={scrollToFooter}
+              className="px-6 py-3 text-gray-700 hover:bg-gray-100 text-left"
+            >
+              Contact Us
+            </button>
+          </div>
         </div>
-        <div className="px-2 pt-2 pb-3 space-y-1">
-          <Link
-            href="/"
-            className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-            onClick={() => setIsOpen(false)}
-          >
-            Home
-          </Link>
-          <Link
-            href="/pricing"
-            className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-            onClick={() => setIsOpen(false)}
-          >
-            Pricing
-          </Link>
-          <Link
-            href="/#courier-services"
-            className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-            onClick={() => setIsOpen(false)}
-          >
-            Courier Services
-          </Link>
-          <Link
-            href="/payments"
-            className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-            onClick={() => setIsOpen(false)}
-          >
-            Payments
-          </Link>
-          <button
-            onClick={scrollToFooter}
-            className="block w-full text-left px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-          >
-            Contact
-          </button>
-        </div>
-      </div>
 
-      {/* Overlay when mobile menu is open */}
-      {isOpen && (
-        <div
-          className="fixed inset-0 bg-black bg-opacity-25 md:hidden z-[55]"
-          onClick={() => setIsOpen(false)}
-        />
-      )}
+        {/* Overlay */}
+        {isMobileMenuOpen && (
+          <div
+            className="fixed inset-0 bg-black bg-opacity-50 z-45 md:hidden"
+            onClick={toggleMobileMenu}
+          />
+        )}
+      </div>
     </nav>
   );
 }
