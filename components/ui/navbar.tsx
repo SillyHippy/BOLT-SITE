@@ -40,14 +40,15 @@ export function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center">
-            <Image 
-              src="https://raw.githubusercontent.com/SillyHippy/BOLT-SITE/refs/heads/main/public/images/jls-logo.webp" 
-              alt="JLS Logo" 
-              width={100} 
-              height={100}
-              className="object-contain"
-              priority
-            />
+            <div className="relative md:w-[150px] md:h-[50px] w-[100px] h-[40px] -ml-3 md:ml-0">
+              <Image 
+                src="https://raw.githubusercontent.com/SillyHippy/BOLT-SITE/refs/heads/main/public/favicon1.svg" 
+                alt="JLS Logo" 
+                fill
+                className="object-contain"
+                priority
+              />
+            </div>
           </Link>
 
           {/* Desktop Navigation */}
