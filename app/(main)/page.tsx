@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Mail, Phone, MapPin, Truck, FileText, Building2, Clock } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -18,10 +19,14 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative h-[calc(100vh-4rem)]" aria-label="Hero section">
         <div className="absolute inset-0">
-          <img
+          <Image
             src="/images/hero.webp"
             alt="Professional legal services office with modern workspace and legal documents"
-            className="object-cover w-full h-full"
+            className="object-cover"
+            fill
+            priority
+            sizes="100vw"
+            quality={90}
           />
           <div className="absolute inset-0 bg-black/50" />
         </div>
@@ -41,11 +46,14 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-center mb-12">Our Professional Services</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="aspect-w-16 aspect-h-9 mb-4">
-                <img
+              <div className="aspect-w-16 aspect-h-9 mb-4 relative h-64">
+                <Image
                   src="/images/secure-delivery.webp"
                   alt="Professional courier delivering legal documents securely"
-                  className="w-full h-64 object-cover object-center rounded"
+                  className="rounded object-cover"
+                  fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+                  loading="lazy"
                 />
               </div>
               <h3 className="text-xl font-bold mb-2">Secure Document Delivery</h3>
@@ -54,11 +62,14 @@ export default function Home() {
               </p>
             </div>
             <div className="text-center">
-              <div className="aspect-w-16 aspect-h-9 mb-4">
-                <img
+              <div className="aspect-w-16 aspect-h-9 mb-4 relative h-64">
+                <Image
                   src="/images/court-transfer.webp"
-                  alt="Court-Run Transfers"
-                  className="w-full h-64 object-cover object-center rounded"
+                  alt="Court document transfer service"
+                  className="rounded object-cover"
+                  fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+                  loading="lazy"
                 />
               </div>
               <h3 className="text-xl font-bold mb-2">Court-Run Transfers</h3>
@@ -67,11 +78,14 @@ export default function Home() {
               </p>
             </div>
             <div className="text-center">
-              <div className="aspect-w-16 aspect-h-9 mb-4">
-                <img
+              <div className="aspect-w-16 aspect-h-9 mb-4 relative h-64">
+                <Image
                   src="/images/skip-trace.webp"
-                  alt="Skip Tracing"
-                  className="w-full h-64 object-cover object-center rounded"
+                  alt="Skip tracing and investigation services"
+                  className="rounded object-cover"
+                  fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+                  loading="lazy"
                 />
               </div>
               <h3 className="text-xl font-bold mb-2">Skip Tracing</h3>
@@ -80,11 +94,14 @@ export default function Home() {
               </p>
             </div>
             <div className="text-center">
-              <div className="aspect-w-16 aspect-h-9 mb-4">
-                <img
+              <div className="aspect-w-16 aspect-h-9 mb-4 relative h-64">
+                <Image
                   src="/images/same-day.webp"
-                  alt="Same-Day Delivery"
-                  className="w-full h-64 object-cover object-center rounded"
+                  alt="Same day delivery service"
+                  className="rounded object-cover"
+                  fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+                  loading="lazy"
                 />
               </div>
               <h3 className="text-xl font-bold mb-2">Same-Day Delivery</h3>
@@ -99,10 +116,13 @@ export default function Home() {
       {/* Secure Courier Services */}
       <section id="courier-services" className="relative py-24">
         <div className="absolute inset-0">
-          <img
+          <Image
             src="/images/courier-bg.webp"
-            alt="Legal office"
-            className="object-cover w-full h-full"
+            alt="Legal office environment"
+            className="object-cover"
+            fill
+            sizes="100vw"
+            loading="lazy"
           />
           <div className="absolute inset-0 bg-black/60" />
         </div>

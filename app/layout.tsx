@@ -1,6 +1,8 @@
 import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
+import Script from 'next/script';
+import { organizationSchema } from '@/components/ui/schema';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -84,6 +86,12 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         <link rel="canonical" href="https://justlegalsolutions.org" />
+        <link rel="preload" href="/images/hero.webp" as="image" />
+        <Script
+          id="schema-org"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+        />
       </head>
       <body className={inter.className} suppressHydrationWarning>
         {children}
