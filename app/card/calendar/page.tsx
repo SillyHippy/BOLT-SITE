@@ -8,6 +8,7 @@ export default function CalendarPage() {
   const [date, setDate] = useState('');
   const [time, setTime] = useState('');
   const { toast } = useToast();
+  const basePath = process.env.NODE_ENV === 'production' ? '/BOLT-SITE' : '';
 
   const handleDownload = async () => {
     try {
@@ -115,7 +116,7 @@ END:VCALENDAR`;
         >
           <div className="absolute -left-5 top-1/2 -translate-y-1/2 w-[62px] h-[62px]">
             <img
-              src="/landingpage/icons/calendar-reminder-icon.svg"
+              src={`${basePath}/landingpage/icons/calendar-reminder-icon.svg`}
               alt="Calendar"
               className="w-full h-full"
             />
@@ -128,7 +129,7 @@ END:VCALENDAR`;
 
         {/* Back Button */}
         <a
-          href="/card"
+          href={`${basePath}/card`}
           className="mt-4 w-full flex items-center justify-center text-gray-400 hover:text-white transition-colors py-3"
         >
           ← Back to Contact Card

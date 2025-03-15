@@ -4,6 +4,8 @@ import React from 'react';
 import Image from 'next/image';
 
 export default function CardPage() {
+  const basePath = process.env.NODE_ENV === 'production' ? '/BOLT-SITE' : '';
+
   return (
     <div className="min-h-screen bg-[#0B132B] flex items-center justify-center p-4">
       <div className="bg-[#1C2541] rounded-[15px] p-6 max-w-[420px] w-full shadow-lg">
@@ -11,7 +13,7 @@ export default function CardPage() {
         <div className="flex items-center mb-4">
           <div className="w-[90px] h-[90px] bg-white rounded-full flex-shrink-0 mr-4 flex items-center justify-center overflow-hidden">
             <img
-              src="/favicon1.svg"
+              src={`${basePath}/favicon1.svg`}
               alt="Just Legal Solutions Logo"
               className="w-full h-full object-contain"
             />
@@ -37,10 +39,10 @@ export default function CardPage() {
         {/* Button Section */}
         <div className="space-y-3 mt-6">
           {/* Contact Details Button */}
-          <a href="/contact-details.vcf" download className="relative flex items-center justify-between bg-[#2D3748] text-white p-5 rounded-lg hover:bg-[#4A5568] transition-colors group">
+          <a href={`${basePath}/contact-details.vcf`} download className="relative flex items-center justify-between bg-[#2D3748] text-white p-5 rounded-lg hover:bg-[#4A5568] transition-colors group">
             <div className="absolute -left-5 top-1/2 -translate-y-1/2 w-[65px] h-[65px]">
               <img
-                src="/landingpage/icons/contact.svg"
+                src={`${basePath}/landingpage/icons/contact.svg`}
                 alt="Contact"
                 className="w-full h-full"
               />
@@ -53,7 +55,7 @@ export default function CardPage() {
           <a href="mailto:Info@JustLegalSolutions.org" className="relative flex items-center justify-between bg-[#2D3748] text-white p-5 rounded-lg hover:bg-[#4A5568] transition-colors group">
             <div className="absolute -left-5 top-1/2 -translate-y-1/2 w-[60px] h-[60px]">
               <img
-                src="/landingpage/icons/mail.svg"
+                src={`${basePath}/landingpage/icons/mail.svg`}
                 alt="Email"
                 className="w-full h-full"
               />
@@ -66,7 +68,7 @@ export default function CardPage() {
           <a href="tel:+15393676832" className="relative flex items-center justify-between bg-[#2D3748] text-white p-5 rounded-lg hover:bg-[#4A5568] transition-colors group">
             <div className="absolute -left-5 top-1/2 -translate-y-1/2 w-[56px] h-[66px]">
               <img
-                src="/landingpage/icons/phone.svg"
+                src={`${basePath}/landingpage/icons/phone.svg`}
                 alt="Phone"
                 className="w-full h-full"
               />
@@ -76,10 +78,10 @@ export default function CardPage() {
           </a>
 
           {/* Calendar Button */}
-          <a href="/card/calendar" className="relative flex items-center justify-between bg-[#2D3748] text-white p-5 rounded-lg hover:bg-[#4A5568] transition-colors group">
+          <a href={`${basePath}/card/calendar`} className="relative flex items-center justify-between bg-[#2D3748] text-white p-5 rounded-lg hover:bg-[#4A5568] transition-colors group">
             <div className="absolute -left-5 top-1/2 -translate-y-1/2 w-[62px] h-[62px]">
               <img
-                src="/landingpage/icons/calendar-reminder-icon.svg"
+                src={`${basePath}/landingpage/icons/calendar-reminder-icon.svg`}
                 alt="Calendar"
                 className="w-full h-full"
               />
@@ -92,7 +94,7 @@ export default function CardPage() {
           <a href="https://justlegalsolutions.org" className="relative flex items-center justify-between bg-[#2D3748] text-white p-5 rounded-lg hover:bg-[#4A5568] transition-colors group">
             <div className="absolute -left-5 top-1/2 -translate-y-1/2 w-[65px] h-[65px]">
               <img
-                src="/landingpage/icons/website1.svg"
+                src={`${basePath}/landingpage/icons/website1.svg`}
                 alt="Website"
                 className="w-full h-full"
               />
