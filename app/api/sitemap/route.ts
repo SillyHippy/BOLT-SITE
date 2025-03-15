@@ -1,10 +1,10 @@
-import { MetadataRoute } from 'next';
+import { NextResponse } from 'next/server';
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export async function GET() {
   const baseUrl = 'https://justlegalsolutions.org';
   const lastModified = new Date().toISOString();
 
-  return [
+  return NextResponse.json([
     {
       url: baseUrl,
       lastModified,
@@ -29,5 +29,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.7,
     },
-  ];
+  ]);
 }
