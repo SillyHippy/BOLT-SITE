@@ -41,10 +41,10 @@ export function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center">
             <Image 
-              src="https://raw.githubusercontent.com/SillyHippy/BOLT-SITE/refs/heads/main/public/images/jls-logo.webp" 
+              src="/favicon1.svg" 
               alt="JLS Logo" 
-              width={100} 
-              height={100}
+              width={48} 
+              height={48}
               className="object-contain"
               priority
             />
