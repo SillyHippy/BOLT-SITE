@@ -1,19 +1,26 @@
 import { Button } from "@/components/ui/button";
 import { Mail, Phone, MapPin, Truck, FileText, Building2, Clock } from "lucide-react";
 import Link from "next/link";
-import Image from "next/image";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Professional Process Serving & Legal Support Services',
+  description: 'Expert process serving, secure document delivery, court transfers, and skip tracing services in Oklahoma. Fast, reliable, and professional legal support.',
+  openGraph: {
+    title: 'Professional Process Serving & Legal Support Services | Just Legal Solutions',
+    description: 'Expert process serving, secure document delivery, court transfers, and skip tracing services in Oklahoma. Fast, reliable, and professional legal support.'
+  }
+};
 
 export default function Home() {
-  const basePath = process.env.NODE_ENV === 'production' ? '/BOLT-SITE' : '';
-  
   return (
     <main className="min-h-screen pt-16">
       {/* Hero Section */}
-      <section className="relative h-[calc(100vh-4rem)]">
+      <section className="relative h-[calc(100vh-4rem)]" aria-label="Hero section">
         <div className="absolute inset-0">
           <img
-            src={`${basePath}/images/hero.webp`}
-            alt="Professional legal services"
+            src="/images/hero.webp"
+            alt="Professional legal services office with modern workspace and legal documents"
             className="object-cover w-full h-full"
           />
           <div className="absolute inset-0 bg-black/50" />
@@ -29,14 +36,15 @@ export default function Home() {
       </section>
 
       {/* Services Grid */}
-      <section className="bg-black text-white py-16">
+      <section className="bg-black text-white py-16" aria-label="Our services">
         <div className="max-w-7xl mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12">Our Professional Services</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="aspect-w-16 aspect-h-9 mb-4">
                 <img
-                  src={`${basePath}/images/secure-delivery.webp`}
-                  alt="Secure Document Delivery"
+                  src="/images/secure-delivery.webp"
+                  alt="Professional courier delivering legal documents securely"
                   className="w-full h-64 object-cover object-center rounded"
                 />
               </div>
@@ -48,7 +56,7 @@ export default function Home() {
             <div className="text-center">
               <div className="aspect-w-16 aspect-h-9 mb-4">
                 <img
-                  src={`${basePath}/images/court-transfer.webp`}
+                  src="/images/court-transfer.webp"
                   alt="Court-Run Transfers"
                   className="w-full h-64 object-cover object-center rounded"
                 />
@@ -61,7 +69,7 @@ export default function Home() {
             <div className="text-center">
               <div className="aspect-w-16 aspect-h-9 mb-4">
                 <img
-                  src={`${basePath}/images/skip-trace.webp`}
+                  src="/images/skip-trace.webp"
                   alt="Skip Tracing"
                   className="w-full h-64 object-cover object-center rounded"
                 />
@@ -74,7 +82,7 @@ export default function Home() {
             <div className="text-center">
               <div className="aspect-w-16 aspect-h-9 mb-4">
                 <img
-                  src={`${basePath}/images/same-day.webp`}
+                  src="/images/same-day.webp"
                   alt="Same-Day Delivery"
                   className="w-full h-64 object-cover object-center rounded"
                 />
@@ -92,7 +100,7 @@ export default function Home() {
       <section id="courier-services" className="relative py-24">
         <div className="absolute inset-0">
           <img
-            src={`${basePath}/images/courier-bg.webp`}
+            src="/images/courier-bg.webp"
             alt="Legal office"
             className="object-cover w-full h-full"
           />

@@ -1,4 +1,14 @@
 import React from 'react';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Service Pricing & Packages',
+  description: 'Transparent pricing for process serving, document delivery, and legal support services. Competitive rates with standard, rush, and same-day service options.',
+  openGraph: {
+    title: 'Service Pricing & Packages | Just Legal Solutions',
+    description: 'Transparent pricing for process serving, document delivery, and legal support services. Competitive rates with standard, rush, and same-day service options.'
+  }
+};
 
 export default function PricingPage() {
   return (
