@@ -54,6 +54,7 @@ export default function Home() {
                   fill
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
                   loading="lazy"
+                  style={{ objectFit: 'cover', objectPosition: '50% 30%' }} // Adjust the position of the image // Adjust the fit and position of the image
                 />
               </div>
               <h3 className="text-xl font-bold mb-2">Secure Document Delivery</h3>
