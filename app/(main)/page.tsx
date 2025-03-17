@@ -50,7 +50,7 @@ export default function Home() {
                 <Image
                   src="/images/secure-delivery.webp"
                   alt="Professional courier delivering legal documents securely"
-                  className="rounded object-cover"
+                  className="rounded object-cover shadow-[0_0_10px_rgba(255,255,255,0.5)]"
                   fill
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
                   loading="lazy"
@@ -66,7 +66,7 @@ export default function Home() {
                 <Image
                   src="/images/court-transfer.webp"
                   alt="Court document transfer service"
-                  className="rounded object-cover"
+                  className="rounded object-cover shadow-[0_0_10px_rgba(255,255,255,0.5)]"
                   fill
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
                   loading="lazy"
@@ -82,7 +82,7 @@ export default function Home() {
                 <Image
                   src="/images/skip-trace.webp"
                   alt="Skip tracing and investigation services"
-                  className="rounded object-cover"
+                  className="rounded object-cover shadow-[0_0_10px_rgba(255,255,255,0.5)]"
                   fill
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
                   loading="lazy"
@@ -98,7 +98,7 @@ export default function Home() {
                 <Image
                   src="/images/same-day.webp"
                   alt="Same day delivery service"
-                  className="rounded object-cover"
+                  className="rounded object-cover shadow-[0_0_10px_rgba(255,255,255,0.5)]"
                   fill
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
                   loading="lazy"
