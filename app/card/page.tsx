@@ -1,12 +1,43 @@
 "use client";
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
+import ShareModal from './ShareModal';
 
 export default function CardPage() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleShareClick = () => {
+    console.log("Share icon clicked");
+    setIsModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    console.log("Modal closed");
+    setIsModalOpen(false);
+  };
+
+  useEffect(() => {
+    console.log("Modal state:", isModalOpen);
+  }, [isModalOpen]);
+
   return (
     <div className="min-h-screen bg-[#0B132B] flex items-center justify-center p-4">
-      <div className="bg-[#1C2541] rounded-[15px] p-6 max-w-[420px] w-full shadow-lg" itemScope itemType="https://schema.org/Person">
+      <div className="bg-[#1C2541] rounded-[15px] p-6 max-w-[420px] w-full shadow-lg relative" itemScope itemType="https://schema.org/Person">
+        {/* Share Icon - Added better click area */}
+        <button 
+          onClick={handleShareClick}
+          className="absolute top-4 right-4 w-[30px] h-[30px] z-10 cursor-pointer border-none bg-transparent p-0"
+          aria-label="Share"
+        >
+          <Image
+            src="/landingpage/icons/share.svg"
+            alt="Share"
+            width={30}
+            height={30}
+            className="w-full h-full"
+          />
+        </button>
         {/* Top Profile Section */}
         <div className="flex items-center mb-4">
           <div className="w-[90px] h-[90px] bg-white rounded-full flex-shrink-0 mr-4 flex items-center justify-center overflow-hidden">
@@ -115,6 +146,7 @@ export default function CardPage() {
           </a>
         </div>
       </div>
+      <ShareModal isOpen={isModalOpen} onClose={handleCloseModal} />
     </div>
   );
 }
