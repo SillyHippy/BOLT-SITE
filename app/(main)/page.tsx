@@ -43,14 +43,14 @@ export default function Home() {
       {/* Services Grid */}
       <section className="bg-black text-white py-16" aria-label="Our services">
         <div className="max-w-7xl mx-auto px-4">
-         
+       
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="aspect-w-16 aspect-h-9 mb-4 relative h-64">
                 <Image
                   src="/images/secure-delivery.webp"
                   alt="Professional courier delivering legal documents securely"
-                  className="rounded object-cover shadow-[0_0_10px_rgba(255,255,255,0.5)]"
+                   className="rounded object-cover shadow-[0_0_10px_rgba(255,255,255,0.5)]"
                   fill
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
                   loading="lazy"
