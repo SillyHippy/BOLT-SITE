@@ -86,7 +86,7 @@ export default function CardPage() {
           </a>
 
           {/* Email Button */}
-          <a href="mailto:Info@JustLegalSolutions.org" itemProp="email" className="relative flex items-center justify-between bg-[#2D3748] text-white p-5 rounded-lg hover:bg-[#4A5568] transition-colors group">
+          <a href="mailto:Joseph@JustLegalSolutions.org" itemProp="email" className="relative flex items-center justify-between bg-[#2D3748] text-white p-5 rounded-lg hover:bg-[#4A5568] transition-colors group">
             <div className="absolute -left-5 top-1/2 -translate-y-1/2 w-[60px] h-[60px]">
               <Image
                 src="/landingpage/icons/mail.svg"
