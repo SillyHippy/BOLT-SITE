@@ -62,6 +62,16 @@ export default function PricingPage() {
           <h2 className="text-2xl font-bold mb-8">Additional and Optional Services</h2>
           <div className="space-y-6">
             <div>
+              <h3 className="font-bold mb-2">SAME-DAY/RUSH:</h3>
+              <p className="text-gray-600">This specific service, which requires prompt action, requires an additional fee. This charge is strictly applied when you or your client requests that the respondent be served on the same day we receive your court documents or, alternatively, within a specific timeframe of 24 hours.</p>
+            </div>
+
+            <div>
+              <h3 className="font-bold mb-2">30 MILES INCLUDED:</h3>
+              <p className="text-gray-600">As part of our service fee, the first 30 miles of travel are included. If travel beyond this 30-mile range becomes necessary, it will be charged at the rate of $0.70 per mile for the excess distance.</p>
+            </div>
+
+            <div>
               <h3 className="font-bold mb-2">Evasive Respondent Stakeout:</h3>
               <p className="text-gray-600">If a respondent is actively evading service, we can conduct a stakeout for an additional $90.00 per hour, with a one-hour minimum. This service is only provided upon your request.</p>
             </div>
@@ -77,18 +87,23 @@ export default function PricingPage() {
             </div>
 
             <div>
-              <h3 className="font-bold mb-2">Posting Affidavits:</h3>
-              <p className="text-gray-600">For cases requiring posting rather than personal service (e.g., eviction notices), the fee remains $80.00.</p>
-            </div>
-
-            <div>
               <h3 className="font-bold mb-2">Certified Mailing of Affidavits:</h3>
-              <p className="text-gray-600">If an affidavit needs to be sent to the respondent via certified mail, the service fee is $40.00 plus the cost of certified mail. This charge is in addition to other services provided.</p>
+              <p className="text-gray-600">If an affidavit needs to be sent via certified mail, the service fee is $40.00 plus the cost of certified mail. This charge is in addition to other services provided.</p>
             </div>
 
             <div>
               <h3 className="font-bold mb-2">Skip Tracing Services:</h3>
               <p className="text-gray-600">If a respondent cannot be located, we offer skip tracing services at an additional fee, which will be discussed beforehand.</p>
+            </div>
+
+            <div>
+              <h3 className="font-bold mb-2">PRINTING OF DOCUMENTS:</h3>
+              <p className="text-gray-600">The first 10 pages are printed free when documents are emailed to us. Each additional page is $0.20.</p>
+            </div>
+
+            <div>
+              <h3 className="font-bold mb-2">SET TIME OF SERVICE:</h3>
+              <p className="text-gray-600">If service is required at a specific time and date, this request may incur an additional fee, similar to a rush service.</p>
             </div>
           </div>
         </div>
