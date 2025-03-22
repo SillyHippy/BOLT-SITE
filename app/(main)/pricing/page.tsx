@@ -45,7 +45,7 @@ export default function PricingPage() {
             {/* Rush Service */}
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold mb-4">Rush Service</h3>
-              <p className="text-3xl font-bold mb-4">$125</p>
+              <p className="text-3xl font-bold mb-4">$100</p>
               <p className="text-gray-600 mb-4">For urgent demands that need immediate attention.</p>
               <p className="text-sm text-gray-500">
                 A JLS Agent Will Attempt Service Within 72 Hours
@@ -55,7 +55,7 @@ export default function PricingPage() {
             {/* Same Day Service */}
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold mb-4">Same Day Service</h3>
-              <p className="text-3xl font-bold mb-4">$200</p>
+              <p className="text-3xl font-bold mb-4">$160</p>
               <p className="text-gray-600 mb-4">For urgent time-critical matters.</p>
               <p className="text-sm text-gray-500">
                 A JLS Agent Will Attempt Service Within 24 Hours
