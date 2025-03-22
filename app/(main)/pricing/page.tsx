@@ -136,7 +136,7 @@ export default function PricingPage() {
             While we strive to ensure the completion of our tasks swiftly and effectively, yet there may be instances when serving a respondent proves to be impossible for various reasons beyond our control. These reasons may include incorrect addresses provided to us, the respondent having moved, or instances in which the individual is actively evading service for various reasons, to name just a few. It is important to note that if we dedicate our time and efforts to serving a respondent, but ultimately are unsuccessful, we will still charge the flat fee of $75.00 for the service attempt. We pride ourselves on our high success rates, but we feel it is important to clearly communicate this potential issue to you in advance.
           </p>
           
-          <h3 className="text-xl font-bold mb-4">Due Diligence in Process Serving</h3>
+          <h3 className="text-xl font-bold mb-4">Due Diligence Policy</h3>
           <p className="text-gray-600">
             At Just Legal Solutions, we adhere to Oklahoma's due diligence standards to ensure proper service of process. While Oklahoma law does not specify an exact number of attempts required for due diligence, it emphasizes that service must be carried out with reasonable efforts to serve the defendant personally before considering alternative methods. Our process servers make multiple attempts at serving the individual at different times of the day and on different days of the week to demonstrate a thorough effort to effectuate personal service.
           </p>
