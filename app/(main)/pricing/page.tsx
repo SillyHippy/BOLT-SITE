@@ -14,11 +14,14 @@ export default function PricingPage() {
   return (
     <main className="min-h-screen bg-white">
       {/* Partner Section */}
-      <section className="py-16 px-4">
+      <section className="py-16 px-4 bg-gray-100 rounded-lg shadow-md">
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-3xl font-bold mb-6">JLS Wants to Partner with You:</h1>
+          <h2 className="text-3xl font-bold mb-4">JLS Wants to Partner with You</h2>
           <p className="text-gray-600 max-w-4xl mx-auto">
-          If you don’t see exactly what you’re looking for in our service offerings, have a particularly complex or unique situation, or need more competitive pricing, we encourage you to reach out before exploring alternatives. We’re happy to discuss your specific needs and create tailored solutions that work for you. Bulk and volume pricing is available upon request—contact us directly to learn more!
+            <strong>If you don't see exactly what you're looking for</strong> in our service offerings, have a particularly 
+            complex or unique situation, or <strong>need more competitive pricing</strong>, we encourage you to reach out <strong>before exploring alternatives.</strong> 
+            We're happy to discuss your specific needs and create tailored solutions that work for you. 
+            Bulk and volume pricing is available upon request—contact us directly to learn more!
           </p>
         </div>
       </section>
