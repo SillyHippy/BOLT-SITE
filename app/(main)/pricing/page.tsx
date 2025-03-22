@@ -18,7 +18,7 @@ export default function PricingPage() {
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-3xl font-bold mb-6">JLS Wants to Partner with You:</h1>
           <p className="text-gray-600 max-w-4xl mx-auto">
-            If you find that you do not see exactly what you&apos;re looking for in our service offerings, if your specific situation is particularly complex or unique, or if you feel that our prices might not be competitive enough for your needs, please do not hesitate to reach out, instead of seeking alternatives elsewhere. Simply contact us directly, and we&apos;ll work together closely to understand your requirements and develop tailored solutions to meet your process serving needs effectively.
+          If you don’t see exactly what you’re looking for in our service offerings, have a particularly complex or unique situation, or need more competitive pricing, we encourage you to reach out before exploring alternatives. We’re happy to discuss your specific needs and create tailored solutions that work for you. Bulk and volume pricing is available upon request—contact us directly to learn more!
           </p>
         </div>
       </section>
