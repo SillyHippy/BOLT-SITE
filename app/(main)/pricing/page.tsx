@@ -112,7 +112,7 @@ export default function PricingPage() {
 
             <div>
               <h3 className="font-bold mb-2">POSTING AFFIDAVITS:</h3>
-              <p className="text-gray-600">If you require us to post an affidavit and not personally serve the respondent, such as an eviction notice, then this service will still incur the same fee of $80.00.</p>
+              <p className="text-gray-600">If you require us to post an affidavit and not personally serve the respondent, such as an eviction notice, then this service will still incur the same fee of $75.00.</p>
             </div>
 
             <div>
