@@ -71,18 +71,43 @@ export default function PricingPage() {
           <h2 className="text-2xl font-bold mb-8">Additional and Optional Services</h2>
           <div className="space-y-6">
             <div>
+              <h3 className="font-bold mb-2">SAME-DAY/RUSH:</h3>
+              <p className="text-gray-600">This specific service, which requires prompt action, requires an additional fee. This charge is strictly applied when you or your client requests that the respondent be served on the same day we receive your court documents or, alternatively, within a specific timeframe of 24 hours (in circumstances where a Special Service is required, we will proceed to serve the respondent within a reasonable period).</p>
+            </div>
+
+            <div>
+              <h3 className="font-bold mb-2">30 MILES INCLUDED:</h3>
+              <p className="text-gray-600">As part of our service fee, the first 30 miles of travel are included. If travel beyond this 30-mile range becomes necessary, it will be charged at the rate of $0.70 per mile for the excess distance.</p>
+            </div>
+
+            <div>
+              <h3 className="font-bold mb-2">$75 PER SERVICE:</h3>
+              <p className="text-gray-600">The foundational fee for a single service starts at $75. This fee covers not only the effective service of documents in a timely manner but also includes the processing and filing of the original Return of Service Affidavit directly to you if you wish to handle the filing yourself. We will file the Return of Service Affidavit with the court for an additional fee of $40.00 plus the court&apos;s filing fee. We fully appreciate that you may have multiple addresses pertaining to a single respondent. In such cases, if those addresses are located within a close proximity (specifically within a 20-mile radius), we will attempt service at both addresses on the same day under the same service fee of $75.00.</p>
+            </div>
+
+            <div>
+              <h3 className="font-bold mb-2">PRINTING OF DOCUMENTS:</h3>
+              <p className="text-gray-600">Should you choose to email us your documents that need serving, we offer to print the first 10 pages at no charge. Any pages exceeding this limit will incur a fee of $0.20 per page.</p>
+            </div>
+
+            <div>
+              <h3 className="font-bold mb-2">SET TIME OF SERVICE:</h3>
+              <p className="text-gray-600">If you require that the service occurs at a predetermined specific time and date, this request can be treated similarly to a RUSH and may incur an additional fee. This extra charge will be implemented only if you or your client specifically mandate that the respondent MUST be served at that designated date and time. If no specific time is requested, we will execute the service within a reasonable period.</p>
+            </div>
+
+            <div>
               <h3 className="font-bold mb-2">EVASIVE RESPONDENT:</h3>
-              <p className="text-gray-600">Staking out an evasive respondent will incur a $90.00 per hour additional fee with a one-hour minimum. This is an additional fee and will only be used at your request.</p>
+              <p className="text-gray-600">Staking out an evasive respondent will incur a $90.00 per hour additional fee with a one hour minimum. Again this is an additional fee and will only be used at your request.</p>
             </div>
 
             <div>
               <h3 className="font-bold mb-2">MULTIPLE SERVICES AT SAME ADDRESS:</h3>
-              <p className="text-gray-600">If more than one person needs to be served at an address (i.e. husband and wife), then it is only $35.00 per extra person served.</p>
+              <p className="text-gray-600">If more than one person needs to be served at an address (i.e. husband and wife) then it is only $35.00 per extra person served.</p>
             </div>
 
             <div>
               <h3 className="font-bold mb-2">FILING AFFIDAVITS:</h3>
-              <p className="text-gray-600">If court is in Tulsa County, PPS can file at the courthouse for you for an additional $40 (other counties will be an additional charge and discussed with the client beforehand). If you would like this additional service, please discuss it when setting up your process service. Otherwise, the original Return of Service Affidavit will be mailed to you with the invoice once completed.</p>
+              <p className="text-gray-600">If court is in Tulsa County, PPS can file at the courthouse for you for additional $40 (other counties will be an additional charge and discussed with client beforehand). If you would like this additional service, please discuss when setting up your process service. Otherwise the original Return of Service Affidavit will be mailed to you with the invoice once completed.</p>
             </div>
 
             <div>
@@ -92,14 +117,24 @@ export default function PricingPage() {
 
             <div>
               <h3 className="font-bold mb-2">CERTIFIED MAILING OF AFFIDAVITS:</h3>
-              <p className="text-gray-600">If you require us to send the affidavit to the respondent via certified mail, then this service incurs a fee of $40.00 plus the price of the certified mail. This fee is in addition to any other services we provide to you.</p>
+              <p className="text-gray-600">If you require us to send the affidavit to the respondent via certified mail, then this service incurs a fee of $40.00 plus the price of the certified mail. This fee is additional to any other services we provide to you.</p>
             </div>
 
             <div>
               <h3 className="font-bold mb-2">SKIP TRACING SERVICES:</h3>
-              <p className="text-gray-600">Can be provided at an additional fee discussed beforehand.</p>
+              <p className="text-gray-600">Skip tracing services can be provided at an additional fee discussed beforehand.</p>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Non-Service Policy */}
+      <section className="py-16 px-4 bg-gray-50">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-2xl font-bold mb-8">Non-Service Policy</h2>
+          <p className="text-gray-600">
+            While we strive to ensure the completion of our tasks swiftly and effectively, yet there may be instances when serving a respondent proves to be impossible for various reasons beyond our control. These reasons may include incorrect addresses provided to us, the respondent having moved, or instances in which the individual is actively evading service for various reasons, to name just a few. It is important to note that if we dedicate our time and efforts to serving a respondent, but ultimately are unsuccessful, we will still charge the flat fee of $75.00 for the service attempt. We pride ourselves on our high success rates, but we feel it is important to clearly communicate this potential issue to you in advance.
+          </p>
         </div>
       </section>
     </main>
