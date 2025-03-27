@@ -48,7 +48,7 @@ export default function PricingPage() {
               <p className="text-3xl font-bold mb-4">$100</p>
               <p className="text-gray-600 mb-4">For urgent demands that need immediate attention.</p>
               <p className="text-sm text-gray-500">
-                A JLS Agent Will Attempt Service Within 72 Hours
+                A JLS Agent Will Attempt Service Within 72 Hours or Sooner based on availability
               </p>
             </div>
 
@@ -58,7 +58,7 @@ export default function PricingPage() {
               <p className="text-3xl font-bold mb-4">$150</p>
               <p className="text-gray-600 mb-4">For urgent time-critical matters.</p>
               <p className="text-sm text-gray-500">
-                A JLS Agent Will Attempt Service Within 24 Hours
+                A JLS Agent Will Attempt Service Within 24 Hours or Sooner based on availability
               </p>
             </div>
           </div>
