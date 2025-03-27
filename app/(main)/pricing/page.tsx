@@ -55,7 +55,7 @@ export default function PricingPage() {
             {/* Same Day Service */}
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold mb-4">Same Day Service</h3>
-              <p className="text-3xl font-bold mb-4">$160</p>
+              <p className="text-3xl font-bold mb-4">$150</p>
               <p className="text-gray-600 mb-4">For urgent time-critical matters.</p>
               <p className="text-sm text-gray-500">
                 A JLS Agent Will Attempt Service Within 24 Hours
@@ -81,8 +81,8 @@ export default function PricingPage() {
             </div>
 
             <div>
-              <h3 className="font-bold mb-2">$75 PER SERVICE:</h3>
-              <p className="text-gray-600">The foundational fee for a single service starts at $75. This fee covers not only the effective service of documents in a timely manner but also includes the processing and filing of the original Return of Service Affidavit directly to you if you wish to handle the filing yourself. We will file the Return of Service Affidavit with the court for an additional fee of $40.00 plus the court&apos;s filing fee. We fully appreciate that you may have multiple addresses pertaining to a single respondent. In such cases, if those addresses are located within a close proximity (specifically within a 20-mile radius), we will attempt service at both addresses on the same day under the same service fee of $75.00.</p>
+              <h3 className="font-bold mb-2">$60 PER SERVICE:</h3>
+              <p className="text-gray-600">The foundational fee for a single service starts at $60. This fee covers not only the effective service of documents in a timely manner but also includes the processing and filing of the original Return of Service Affidavit directly to you if you wish to handle the filing yourself. We will file the Return of Service Affidavit with the court for an additional fee of $40.00 plus the court&apos;s filing fee. We fully appreciate that you may have multiple addresses pertaining to a single respondent. In such cases, if those addresses are located within a close proximity (specifically within a 20-mile radius), we will attempt service at both addresses on the same day under the same service fee of $75.00.</p>
             </div>
 
             <div>
