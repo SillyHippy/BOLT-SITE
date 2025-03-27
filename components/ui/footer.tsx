@@ -46,7 +46,7 @@ export function Footer() {
        className="text-blue-600 hover:text-blue-800"
        download="contact-details.vcf" // Suggests the filename for download
      >
-       click here to download our contact details (VCF)
+       click here to download our contact details
      </a>
      {' '}and add us directly to your address book.
    </p>
