@@ -41,13 +41,14 @@ export function Footer() {
             {/* --- VCF Download Link in a new paragraph --- */}
    <p className="text-gray-600 mt-2"> {/* Added mt-2 for a little space */}
      Alternatively,{' '}
-     <a
-       href="https://raw.githubusercontent.com/SillyHippy/BOLT-SITE/refs/heads/main/public/contact-details.vcf"
-       className="text-blue-600 hover:text-blue-800"
-       download="contact-details.vcf" // Suggests the filename for download
-     >
-       click here to download our contact details
-     </a>
+     <a 
+  href="/contact-details.vcf" 
+  download="contact-details.vcf" 
+  className="text-blue-600 hover:text-blue-800"
+>
+  Click here to download our contact details
+</a>
+
      {' '}and add us directly to your address book.
    </p>
    {/* --- End VCF Download Link Section --- */}
