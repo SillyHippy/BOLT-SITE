@@ -28,7 +28,7 @@ export default function PricingPage() {
         <div className="max-w-7xl mx-auto">
           <h2 className="text-2xl font-bold text-center mb-4">Service Packages</h2>
           <p className="text-center text-gray-600 mb-12">
-            Explore our competitive pricing plans tailored for your legal needs. 75 Dollars per Service, 30 Miles Included, 70 Cents per Mile Over
+            Explore our competitive pricing plans tailored for your legal needs. 60 Dollars per Service, 30 Miles Included, 70 Cents per Mile Over
           </p>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
