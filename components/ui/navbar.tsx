@@ -43,8 +43,8 @@ export function Navbar() {
             <Image 
               src="/favicon1.svg" 
               alt="JLS Logo" 
-              width={48} 
-              height={48}
+              width={50} 
+              height={50}
               className="object-contain"
               priority
             />
