@@ -35,7 +35,7 @@ export default function PricingPage() {
             {/* Standard Service */}
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold mb-4">Standard Service</h3>
-              <p className="text-3xl font-bold mb-4">$75</p>
+              <p className="text-3xl font-bold mb-4">$60</p>
               <p className="text-gray-600 mb-4">Ideal for routine document delivery.</p>
               <p className="text-sm text-gray-500">
                 First Service Attempt Within 7 Business Days (usually sooner)
