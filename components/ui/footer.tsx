@@ -38,7 +38,21 @@ export function Footer() {
               </a>
               . We&apos;re here and ready to assist you with all your needs.
             </p>
-          </div>
+            {/* --- VCF Download Link in a new paragraph --- */}
+   <p className="text-gray-600 mt-2"> {/* Added mt-2 for a little space */}
+     Alternatively,{' '}
+     <a
+       href="https://raw.githubusercontent.com/SillyHippy/BOLT-SITE/refs/heads/main/public/contact-details.vcf"
+       className="text-blue-600 hover:text-blue-800"
+       download="contact-details.vcf" // Suggests the filename for download
+     >
+       click here to download our contact details (VCF)
+     </a>
+     {' '}and add us directly to your address book.
+   </p>
+   {/* --- End VCF Download Link Section --- */}
+ </div>
+        
 
           {/* Payments Section */}
           <div>
