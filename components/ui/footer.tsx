@@ -1,125 +1,72 @@
 "use client";
 
-import { useState } from "react";
+import Link from 'next/link';
+import { Mail, Phone, MapPin } from 'lucide-react';
 
 export function Footer() {
-  const [showForm, setShowForm] = useState(false);
-
   return (
-    <footer className="bg-white py-12" id="contact">
-      <div className="max-w-7xl mx-auto px-4 text-center">
-        <h2 className="text-3xl font-bold mb-4">GET IN TOUCH</h2>
-        <p className="text-gray-600 mb-6">
-          For any inquiries, please reach out via phone, text, or email. We're here to assist you.
+    <footer className="bg-white" id="contact">
+      <div className="max-w-7xl mx-auto px-4 py-12">
+        <h2 className="text-3xl font-bold mb-6">GET IN TOUCH</h2>
+        <p className="text-gray-600 mb-12">
+          For any inquiries, please reach out via phone, text, or email. We&apos;re here to assist you.
         </p>
 
-        <button
-          onClick={() => setShowForm(!showForm)}
-          className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-800 transition"
-        >
-          {showForm ? "Hide Service Request Form" : "Fill Out Service Request Form"}
-        </button>
-
-        {showForm && (
-          <form
-            action="https://formsubmit.co/info@JustLegalSolutions.org"
-            method="POST"
-            className="mt-6 bg-gray-100 p-6 rounded-lg shadow-md max-w-2xl mx-auto"
-          >
-            {/* Hidden Fields for FormSubmit */}
-            <input type="hidden" name="_captcha" value="false" />
-            <input type="hidden" name="_subject" value="New Service Request Form Submission" />
-            <input type="hidden" name="_template" value="table" />
-
-            {/* Form Fields */}
-            {[
-              { label: "Firm Name*", name: "firm_name", type: "text", required: true },
-              { label: "Contact First Name*", name: "contact_first_name", type: "text", required: true },
-              { label: "Contact Last Name*", name: "contact_last_name", type: "text", required: true },
-              { label: "Contact Email*", name: "contact_email", type: "email", required: true },
-              { label: "Contact Phone Number*", name: "contact_phone", type: "text", required: true },
-              { label: "Plaintiff Name*", name: "plaintiff_name", type: "text", required: true },
-              { label: "Recipient / Defendant Name*", name: "recipient_name", type: "text", required: true },
-              { label: "Recipient Phone Number", name: "recipient_phone", type: "text" },
-              { label: "Recipient Email", name: "recipient_email", type: "email" },
-              { label: "Recipient Street Address*", name: "recipient_address", type: "text", required: true },
-              { label: "Recipient City*", name: "recipient_city", type: "text", required: true },
-              { label: "Recipient State*", name: "recipient_state", type: "text", required: true },
-              { label: "Recipient Zip Code*", name: "recipient_zip", type: "text", required: true },
-              { label: "Court Date*", name: "court_date", type: "date", required: true },
-              { label: "Case Number*", name: "case_number", type: "text", required: true },
-              { label: "Court Name", name: "court_name", type: "text" },
-              { label: "Court State", name: "court_state", type: "text" },
-              { label: "Court County", name: "court_county", type: "text" },
-            ].map(({ label, name, type, required }) => (
-              <div key={name} className="mb-4">
-                <label className="block mb-2 font-bold">{label}</label>
-                <input
-                  type={type}
-                  name={name}
-                  required={required}
-                  className="w-full p-2 border rounded-md"
-                />
-              </div>
-            ))}
-
-            <label className="block mb-2 font-bold">Service Instruction</label>
-            <textarea
-              name="service_instruction"
-              className="w-full p-2 border rounded-md mb-4"
-            ></textarea>
-
-            <p className="text-red-600 font-bold mt-4">
-              Please email all required files separately to:{" "}
-              <a
-                href="mailto:info@JustLegalSolutions.org"
-                className="text-blue-600 hover:text-blue-800"
-              >
-                info@JustLegalSolutions.org
-              </a>
-            </p>
-
-            <button
-              type="submit"
-              className="bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-800 transition"
-            >
-              Submit Request
-            </button>
-          </form>
-        )}
-
-        {/* Contact Info */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12 text-left">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {/* Email Section */}
           <div>
-            <h3 className="text-xl font-bold mb-2">Email Us</h3>
+            <h3 className="text-xl font-bold mb-4">Email Us</h3>
             <p className="text-gray-600">
+              You can reach us at{' '}
               <a
                 href="mailto:info@JustLegalSolutions.org"
                 className="text-blue-600 hover:text-blue-800"
               >
                 info@JustLegalSolutions.org
               </a>
+              . We respond promptly to all inquiries.
             </p>
           </div>
+
+          {/* Call Us Section */}
           <div>
-            <h3 className="text-xl font-bold mb-2">Call Us</h3>
+            <h3 className="text-xl font-bold mb-4">Call Us</h3>
             <p className="text-gray-600">
-              <a
-                href="tel:539-367-6832"
-                className="text-blue-600 hover:text-blue-800"
-              >
+              Contact us anytime Call or Text at{' '}
+              <a href="tel:539-367-6832" className="text-blue-600 hover:text-blue-800">
                 539-367-6832
               </a>
+              . We&apos;re here and ready to assist you with all your needs.
             </p>
-          </div>
+            {/* --- VCF Download Link in a new paragraph --- */}
+   <p className="text-gray-600 mt-2"> {/* Added mt-2 for a little space */}
+     Alternatively,{' '}
+     <a 
+  href="/contact-details.vcf" 
+  download="contact-details.vcf" 
+  className="text-blue-600 hover:text-blue-800"
+>
+  Click here to download our contact details
+</a>
+
+     {' '}and add us directly to your address book.
+   </p>
+   {/* --- End VCF Download Link Section --- */}
+ </div>
+        
+
+          {/* Payments Section */}
           <div>
-            <h3 className="text-xl font-bold mb-2">Payments</h3>
+            <h3 className="text-xl font-bold mb-4">Payments</h3>
             <p className="text-gray-600">
-              We accept{" "}
-              <a href="#" className="text-blue-600 hover:text-blue-800">
+              At this time, we accept{' '}
+              <a
+                href="https://buy.stripe.com/3cs17SbHS6h95nGaEE"
+                className="text-blue-600 hover:text-blue-800"
+              >
                 electronic payments
               </a>
-              , cash, checks, or money orders.
+              , cash, checks, or money orders. Payments should be made payable to Joseph Iannazzi and mailed to: 564 E 138th Pl, Glenpool, OK 74033. Please ensure that payment is made in full within 10 days of the invoice date.
             </p>
           </div>
         </div>
