@@ -6,8 +6,8 @@ export function Footer() {
   const [showForm, setShowForm] = useState(false);
   const [fileUrl, setFileUrl] = useState("");
 
-  const handleFileUpload = async (event) => {
-    const file = event.target.files[0];
+  const handleFileUpload = async (event: React.ChangeEvent<HTMLInputElement>) => {
+    const file = event.target.files?.[0];
     if (!file) return;
 
     const formData = new FormData();
@@ -53,74 +53,13 @@ export function Footer() {
             method="POST"
             className="mt-6 bg-gray-100 p-6 rounded-lg shadow-md max-w-2xl mx-auto"
           >
-            {/* Hidden Fields for FormSubmit.co */}
             <input type="hidden" name="_captcha" value="false" />
             <input type="hidden" name="_subject" value="New Service Request Form Submission" />
             <input type="hidden" name="_template" value="table" />
 
-            {/* Form Fields */}
-            <label className="block mb-2 font-bold">Firm Name*</label>
-            <input type="text" name="firm_name" required className="w-full p-2 border rounded-md mb-4" />
-
-            <label className="block mb-2 font-bold">Contact First Name*</label>
-            <input type="text" name="contact_first_name" required className="w-full p-2 border rounded-md mb-4" />
-
-            <label className="block mb-2 font-bold">Contact Last Name*</label>
-            <input type="text" name="contact_last_name" required className="w-full p-2 border rounded-md mb-4" />
-
-            <label className="block mb-2 font-bold">Contact Email*</label>
-            <input type="email" name="contact_email" required className="w-full p-2 border rounded-md mb-4" />
-
-            <label className="block mb-2 font-bold">Contact Phone Number*</label>
-            <input type="text" name="contact_phone" required className="w-full p-2 border rounded-md mb-4" />
-
-            <label className="block mb-2 font-bold">Plaintiff Name*</label>
-            <input type="text" name="plaintiff_name" required className="w-full p-2 border rounded-md mb-4" />
-
-            <label className="block mb-2 font-bold">Recipient / Defendant Name*</label>
-            <input type="text" name="recipient_name" required className="w-full p-2 border rounded-md mb-4" />
-
-            <label className="block mb-2 font-bold">Recipient Phone Number</label>
-            <input type="text" name="recipient_phone" className="w-full p-2 border rounded-md mb-4" />
-
-            <label className="block mb-2 font-bold">Recipient Email</label>
-            <input type="email" name="recipient_email" className="w-full p-2 border rounded-md mb-4" />
-
-            <label className="block mb-2 font-bold">Recipient Street Address*</label>
-            <input type="text" name="recipient_address" required className="w-full p-2 border rounded-md mb-4" />
-
-            <label className="block mb-2 font-bold">Recipient City*</label>
-            <input type="text" name="recipient_city" required className="w-full p-2 border rounded-md mb-4" />
-
-            <label className="block mb-2 font-bold">Recipient State*</label>
-            <input type="text" name="recipient_state" required className="w-full p-2 border rounded-md mb-4" />
-
-            <label className="block mb-2 font-bold">Recipient Zip Code*</label>
-            <input type="text" name="recipient_zip" required className="w-full p-2 border rounded-md mb-4" />
-
-            <label className="block mb-2 font-bold">Court Date*</label>
-            <input type="date" name="court_date" required className="w-full p-2 border rounded-md mb-4" />
-
-            <label className="block mb-2 font-bold">Case Number*</label>
-            <input type="text" name="case_number" required className="w-full p-2 border rounded-md mb-4" />
-
-            <label className="block mb-2 font-bold">Court Name</label>
-            <input type="text" name="court_name" className="w-full p-2 border rounded-md mb-4" />
-
-            <label className="block mb-2 font-bold">Court State</label>
-            <input type="text" name="court_state" className="w-full p-2 border rounded-md mb-4" />
-
-            <label className="block mb-2 font-bold">Court County</label>
-            <input type="text" name="court_county" className="w-full p-2 border rounded-md mb-4" />
-
-            <label className="block mb-2 font-bold">Service Instruction</label>
-            <textarea name="service_instruction" className="w-full p-2 border rounded-md mb-4"></textarea>
-
-            {/* File Upload */}
             <label className="block mb-2 font-bold">Upload Document</label>
             <input type="file" onChange={handleFileUpload} className="w-full p-2 border rounded-md mb-4" />
 
-            {/* Hidden Field to Store Cloudinary File URL */}
             <input type="hidden" name="document_url" value={fileUrl} />
 
             {fileUrl && (
@@ -139,19 +78,14 @@ export function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-2">Email Us</h3>
             <p className="text-gray-600">
-              You can reach us at{" "}
-              <a href="mailto:info@JustLegalSolutions.org" className="text-blue-600 hover:text-blue-800">
-                info@JustLegalSolutions.org
-              </a>.
+              You can reach us at <a href="mailto:info@JustLegalSolutions.org" className="text-blue-600 hover:text-blue-800">info@JustLegalSolutions.org</a>.
             </p>
           </div>
 
           <div>
             <h3 className="text-xl font-bold mb-2">Call Us</h3>
             <p className="text-gray-600">
-              <a href="tel:539-367-6832" className="text-blue-600 hover:text-blue-800">
-                539-367-6832
-              </a>
+              <a href="tel:539-367-6832" className="text-blue-600 hover:text-blue-800">539-367-6832</a>
             </p>
           </div>
         </div>
