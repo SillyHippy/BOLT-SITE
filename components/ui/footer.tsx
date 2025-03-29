@@ -4,6 +4,33 @@ import { useState } from "react";
 
 export function Footer() {
   const [showForm, setShowForm] = useState(false);
+  const [fileUrl, setFileUrl] = useState("");
+
+  const handleFileUpload = async (event) => {
+    const file = event.target.files[0];
+    if (!file) return;
+
+    const formData = new FormData();
+    formData.append("file", file);
+    formData.append("upload_preset", "File upload"); // Replace with your actual Cloudinary upload preset
+
+    try {
+      const response = await fetch("https://api.cloudinary.com/v1_1/ddhzufnqe/upload", {
+        method: "POST",
+        body: formData,
+      });
+
+      const data = await response.json();
+      if (data.secure_url) {
+        setFileUrl(data.secure_url);
+      } else {
+        alert("File upload failed.");
+      }
+    } catch (error) {
+      console.error("Upload error:", error);
+      alert("An error occurred while uploading.");
+    }
+  };
 
   return (
     <footer className="bg-white" id="contact">
@@ -21,9 +48,9 @@ export function Footer() {
         </button>
 
         {showForm && (
-          <form 
-            action="https://formsubmit.co/info@JustLegalSolutions.org" 
-            method="POST" 
+          <form
+            action="https://formsubmit.co/info@JustLegalSolutions.org"
+            method="POST"
             className="mt-6 bg-gray-100 p-6 rounded-lg shadow-md max-w-2xl mx-auto"
           >
             {/* Hidden Fields for FormSubmit.co */}
@@ -89,13 +116,18 @@ export function Footer() {
             <label className="block mb-2 font-bold">Service Instruction</label>
             <textarea name="service_instruction" className="w-full p-2 border rounded-md mb-4"></textarea>
 
-            {/* File Upload Removed - Added Message Instead */}
-            <p className="text-red-600 font-bold mb-4">
-              Please email all required files separately to{" "}
-              <a href="mailto:info@JustLegalSolutions.org" className="text-blue-600 hover:text-blue-800">
-                info@JustLegalSolutions.org
-              </a>.
-            </p>
+            {/* File Upload */}
+            <label className="block mb-2 font-bold">Upload Document</label>
+            <input type="file" onChange={handleFileUpload} className="w-full p-2 border rounded-md mb-4" />
+
+            {/* Hidden Field to Store Cloudinary File URL */}
+            <input type="hidden" name="document_url" value={fileUrl} />
+
+            {fileUrl && (
+              <p className="text-green-600 font-bold mb-4">
+                File uploaded successfully! <a href={fileUrl} target="_blank" className="text-blue-600">View file</a>
+              </p>
+            )}
 
             <button type="submit" className="bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-800">
               Submit Request
@@ -110,27 +142,16 @@ export function Footer() {
               You can reach us at{" "}
               <a href="mailto:info@JustLegalSolutions.org" className="text-blue-600 hover:text-blue-800">
                 info@JustLegalSolutions.org
-              </a>. We respond promptly to all inquiries.
+              </a>.
             </p>
           </div>
 
           <div>
             <h3 className="text-xl font-bold mb-2">Call Us</h3>
             <p className="text-gray-600">
-              Contact us at{" "}
               <a href="tel:539-367-6832" className="text-blue-600 hover:text-blue-800">
                 539-367-6832
-              </a>. We're here to assist you.
-            </p>
-          </div>
-
-          <div>
-            <h3 className="text-xl font-bold mb-2">Payments</h3>
-            <p className="text-gray-600">
-              We accept{" "}
-              <a href="https://buy.stripe.com/3cs17SbHS6h95nGaEE" className="text-blue-600 hover:text-blue-800">
-                electronic payments
-              </a>, cash, checks, or money orders.
+              </a>
             </p>
           </div>
         </div>
