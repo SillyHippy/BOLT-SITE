@@ -24,10 +24,9 @@ export function Footer() {
         {/* Form (Hidden Until Clicked) */}
         {showForm && (
           <form 
-            action="https://formspree.io/f/meoalzyj" 
+            action="https://formsubmit.co/el/gakusi" 
             method="POST" 
             className="mt-6 bg-gray-100 p-6 rounded-lg shadow-md"
-            encType="multipart/form-data"
           >
             <label className="block mb-2 font-bold">Firm Name*</label>
             <input type="text" name="firm_name" required className="w-full p-2 border rounded-md mb-4" />
@@ -87,49 +86,27 @@ export function Footer() {
             <textarea name="service_instruction" className="w-full p-2 border rounded-md mb-4"></textarea>
 
             <label className="block mb-2 font-bold">Upload Document*</label>
-            <input type="file" name="document" required className="w-full p-2 border rounded-md mb-4" />
+            <input 
+              type="hidden" 
+              name="document" 
+              id="uploadcare-file" 
+              required 
+            />
+            <input 
+              type="file" 
+              data-public-key="72a1feb85e6dd86030e5" 
+              data-tabs="file url" 
+              data-preview-step="true" 
+              data-crop="free" 
+              className="w-full p-2 border rounded-md mb-4"
+              role="uploadcare-uploader"
+            />
 
             <button type="submit" className="bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-800">
               Submit Request
             </button>
           </form>
         )}
-
-        {/* Contact Sections */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-          <div>
-            <h3 className="text-xl font-bold mb-4">Email Us</h3>
-            <p className="text-gray-600">
-              You can reach us at{' '}
-              <a href="mailto:info@JustLegalSolutions.org" className="text-blue-600 hover:text-blue-800">
-                info@JustLegalSolutions.org
-              </a>
-              . We respond promptly to all inquiries.
-            </p>
-          </div>
-
-          <div>
-            <h3 className="text-xl font-bold mb-4">Call Us</h3>
-            <p className="text-gray-600">
-              Contact us at{' '}
-              <a href="tel:539-367-6832" className="text-blue-600 hover:text-blue-800">
-                539-367-6832
-              </a>
-              . We're here to assist you.
-            </p>
-          </div>
-
-          <div>
-            <h3 className="text-xl font-bold mb-4">Payments</h3>
-            <p className="text-gray-600">
-              We accept{' '}
-              <a href="https://buy.stripe.com/3cs17SbHS6h95nGaEE" className="text-blue-600 hover:text-blue-800">
-                electronic payments
-              </a>
-              , cash, checks, or money orders.
-            </p>
-          </div>
-        </div>
       </div>
     </footer>
   );
