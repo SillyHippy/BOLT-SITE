@@ -100,7 +100,7 @@ export function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-2">Email Us</h3>
             <p className="text-gray-600">
-              You can reach us at{' '}
+              You can reach us at{" "}
               <a href="mailto:info@JustLegalSolutions.org" className="text-blue-600 hover:text-blue-800">
                 info@JustLegalSolutions.org
               </a>. We respond promptly to all inquiries.
@@ -110,7 +110,7 @@ export function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-2">Call Us</h3>
             <p className="text-gray-600">
-              Contact us at{' '}
+              Contact us at{" "}
               <a href="tel:539-367-6832" className="text-blue-600 hover:text-blue-800">
                 539-367-6832
               </a>. We're here to assist you.
@@ -120,7 +120,7 @@ export function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-2">Payments</h3>
             <p className="text-gray-600">
-              We accept{' '}
+              We accept{" "}
               <a href="https://buy.stripe.com/3cs17SbHS6h95nGaEE" className="text-blue-600 hover:text-blue-800">
                 electronic payments
               </a>, cash, checks, or money orders.
