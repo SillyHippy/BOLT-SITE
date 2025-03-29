@@ -28,10 +28,6 @@ export function Footer() {
             method="POST" 
             className="mt-6 bg-gray-100 p-6 rounded-lg shadow-md max-w-2xl mx-auto"
           >
-            {/* Required Hidden Email Field */}
-            <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you" />
-            <input type="hidden" name="_captcha" value="false" />
-
             <label className="block mb-2 font-bold">Firm Name*</label>
             <input type="text" name="firm_name" required className="w-full p-2 border rounded-md mb-4" />
 
@@ -89,8 +85,16 @@ export function Footer() {
             <label className="block mb-2 font-bold">Service Instruction</label>
             <textarea name="service_instruction" className="w-full p-2 border rounded-md mb-4"></textarea>
 
+            {/* UploadCare File Upload */}
             <label className="block mb-2 font-bold">Upload Document*</label>
-            <input type="file" name="document" required className="w-full p-2 border rounded-md mb-4" />
+            <input 
+              type="hidden" 
+              role="uploadcare-uploader" 
+              name="document" 
+              data-public-key="72a1feb85e6dd86030e5" 
+              data-tabs="file url" 
+              className="w-full p-2 border rounded-md mb-4"
+            />
 
             <button type="submit" className="bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-800">
               Submit Request
@@ -131,6 +135,9 @@ export function Footer() {
           </div>
         </div>
       </div>
+
+      {/* UploadCare Script (Must be in <head>, but adding here as backup) */}
+      <script src="https://ucarecdn.com/libs/widget/3.x/uploadcare.full.min.js"></script>
     </footer>
   );
 }
