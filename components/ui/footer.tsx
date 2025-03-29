@@ -1,15 +1,26 @@
 "use client";
 
 import Link from 'next/link';
-import { Mail, Phone, MapPin } from 'lucide-react';
 
 export function Footer() {
   return (
     <footer className="bg-white" id="contact">
       <div className="max-w-7xl mx-auto px-4 py-12">
         <h2 className="text-3xl font-bold mb-6">GET IN TOUCH</h2>
-        <p className="text-gray-600 mb-12">
-          For any inquiries, please reach out via phone, text, or email. We&apos;re here to assist you.
+        <p className="text-gray-600 mb-6">
+          For any inquiries, please reach out via phone, text, or email. We're here to assist you.
+        </p>
+
+        {/* --- Add Form Link Here --- */}
+        <p className="mb-12">
+          <a 
+            href="https://formspree.io/f/meoalzyj" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-blue-600 font-semibold hover:text-blue-800 underline"
+          >
+            Click here to fill out our service request form
+          </a>
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -36,24 +47,20 @@ export function Footer() {
               <a href="tel:539-367-6832" className="text-blue-600 hover:text-blue-800">
                 539-367-6832
               </a>
-              . We&apos;re here and ready to assist you with all your needs.
+              . We're here and ready to assist you with all your needs.
             </p>
-            {/* --- VCF Download Link in a new paragraph --- */}
-   <p className="text-gray-600 mt-2"> {/* Added mt-2 for a little space */}
-     Alternatively,{' '}
-     <a 
-  href="/contact-details.vcf" 
-  download="contact-details.vcf" 
-  className="text-blue-600 hover:text-blue-800"
->
-  Click here to download our contact details
-</a>
-
-     {' '}and add us directly to your address book.
-   </p>
-   {/* --- End VCF Download Link Section --- */}
- </div>
-        
+            <p className="text-gray-600 mt-2">
+              Alternatively,{' '}
+              <a 
+                href="/contact-details.vcf" 
+                download="contact-details.vcf" 
+                className="text-blue-600 hover:text-blue-800"
+              >
+                Click here to download our contact details
+              </a>
+              and add us directly to your address book.
+            </p>
+          </div>
 
           {/* Payments Section */}
           <div>
