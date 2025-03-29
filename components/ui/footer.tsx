@@ -22,12 +22,72 @@ export function Footer() {
 
         {showForm && (
           <form 
-            action="https://formsubmit.co/el/gakusi" 
+            action="https://formsubmit.co/info@JustLegalSolutions.org" 
             method="POST" 
             className="mt-6 bg-gray-100 p-6 rounded-lg shadow-md max-w-2xl mx-auto"
           >
+            {/* Hidden Fields for FormSubmit.co */}
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_subject" value="New Service Request Form Submission" />
+            <input type="hidden" name="_template" value="table" />
+
+            {/* Form Fields */}
             <label className="block mb-2 font-bold">Firm Name*</label>
             <input type="text" name="firm_name" required className="w-full p-2 border rounded-md mb-4" />
+
+            <label className="block mb-2 font-bold">Contact First Name*</label>
+            <input type="text" name="contact_first_name" required className="w-full p-2 border rounded-md mb-4" />
+
+            <label className="block mb-2 font-bold">Contact Last Name*</label>
+            <input type="text" name="contact_last_name" required className="w-full p-2 border rounded-md mb-4" />
+
+            <label className="block mb-2 font-bold">Contact Email*</label>
+            <input type="email" name="contact_email" required className="w-full p-2 border rounded-md mb-4" />
+
+            <label className="block mb-2 font-bold">Contact Phone Number*</label>
+            <input type="text" name="contact_phone" required className="w-full p-2 border rounded-md mb-4" />
+
+            <label className="block mb-2 font-bold">Plaintiff Name*</label>
+            <input type="text" name="plaintiff_name" required className="w-full p-2 border rounded-md mb-4" />
+
+            <label className="block mb-2 font-bold">Recipient / Defendant Name*</label>
+            <input type="text" name="recipient_name" required className="w-full p-2 border rounded-md mb-4" />
+
+            <label className="block mb-2 font-bold">Recipient Phone Number</label>
+            <input type="text" name="recipient_phone" className="w-full p-2 border rounded-md mb-4" />
+
+            <label className="block mb-2 font-bold">Recipient Email</label>
+            <input type="email" name="recipient_email" className="w-full p-2 border rounded-md mb-4" />
+
+            <label className="block mb-2 font-bold">Recipient Street Address*</label>
+            <input type="text" name="recipient_address" required className="w-full p-2 border rounded-md mb-4" />
+
+            <label className="block mb-2 font-bold">Recipient City*</label>
+            <input type="text" name="recipient_city" required className="w-full p-2 border rounded-md mb-4" />
+
+            <label className="block mb-2 font-bold">Recipient State*</label>
+            <input type="text" name="recipient_state" required className="w-full p-2 border rounded-md mb-4" />
+
+            <label className="block mb-2 font-bold">Recipient Zip Code*</label>
+            <input type="text" name="recipient_zip" required className="w-full p-2 border rounded-md mb-4" />
+
+            <label className="block mb-2 font-bold">Court Date*</label>
+            <input type="date" name="court_date" required className="w-full p-2 border rounded-md mb-4" />
+
+            <label className="block mb-2 font-bold">Case Number*</label>
+            <input type="text" name="case_number" required className="w-full p-2 border rounded-md mb-4" />
+
+            <label className="block mb-2 font-bold">Court Name</label>
+            <input type="text" name="court_name" className="w-full p-2 border rounded-md mb-4" />
+
+            <label className="block mb-2 font-bold">Court State</label>
+            <input type="text" name="court_state" className="w-full p-2 border rounded-md mb-4" />
+
+            <label className="block mb-2 font-bold">Court County</label>
+            <input type="text" name="court_county" className="w-full p-2 border rounded-md mb-4" />
+
+            <label className="block mb-2 font-bold">Service Instruction</label>
+            <textarea name="service_instruction" className="w-full p-2 border rounded-md mb-4"></textarea>
 
             {/* File Upload Removed - Added Message Instead */}
             <p className="text-red-600 font-bold mb-4">
