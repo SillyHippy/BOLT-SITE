@@ -6,13 +6,13 @@ export function Footer() {
   const [showForm, setShowForm] = useState(false);
   const [fileUrl, setFileUrl] = useState("");
 
-  const handleFileUpload = async (event) => {
-    const file = event.target.files[0];
+  const handleFileUpload = async (event: React.ChangeEvent<HTMLInputElement>) => {
+    const file = event.target.files?.[0];
     if (!file) return;
 
     const formData = new FormData();
     formData.append("file", file);
-    formData.append("upload_preset", "File upload"); // Replace with your Cloudinary upload preset
+    formData.append("upload_preset", "File upload"); // Replace with actual Cloudinary preset
 
     try {
       const response = await fetch("https://api.cloudinary.com/v1_1/ddhzufnqe/upload", {
@@ -53,10 +53,12 @@ export function Footer() {
             method="POST"
             className="mt-6 bg-gray-100 p-6 rounded-lg shadow-md max-w-2xl mx-auto"
           >
+            {/* Hidden Fields for FormSubmit.co */}
             <input type="hidden" name="_captcha" value="false" />
             <input type="hidden" name="_subject" value="New Service Request Form Submission" />
             <input type="hidden" name="_template" value="table" />
 
+            {/* Form Fields */}
             {[
               { label: "Firm Name*", name: "firm_name", type: "text", required: true },
               { label: "Contact First Name*", name: "contact_first_name", type: "text", required: true },
@@ -76,26 +78,20 @@ export function Footer() {
               { label: "Court Name", name: "court_name", type: "text" },
               { label: "Court State", name: "court_state", type: "text" },
               { label: "Court County", name: "court_county", type: "text" },
-            ].map((field, index) => (
-              <div key={index}>
-                <label className="block mb-2 font-bold">{field.label}</label>
-                <input
-                  type={field.type}
-                  name={field.name}
-                  required={field.required || false}
-                  className="w-full p-2 border rounded-md mb-4"
-                />
+            ].map(({ label, name, type, required }) => (
+              <div key={name}>
+                <label className="block mb-2 font-bold">{label}</label>
+                <input type={type} name={name} required={required} className="w-full p-2 border rounded-md mb-4" />
               </div>
             ))}
 
             <label className="block mb-2 font-bold">Service Instruction</label>
             <textarea name="service_instruction" className="w-full p-2 border rounded-md mb-4"></textarea>
 
+            {/* File Upload */}
             <label className="block mb-2 font-bold">Upload Document</label>
             <input type="file" onChange={handleFileUpload} className="w-full p-2 border rounded-md mb-4" />
-
             <input type="hidden" name="document_url" value={fileUrl} />
-
             {fileUrl && (
               <p className="text-green-600 font-bold mb-4">
                 File uploaded successfully! <a href={fileUrl} target="_blank" className="text-blue-600">View file</a>
@@ -118,7 +114,6 @@ export function Footer() {
               </a>.
             </p>
           </div>
-
           <div>
             <h3 className="text-xl font-bold mb-2">Call Us</h3>
             <p className="text-gray-600">
