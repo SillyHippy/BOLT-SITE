@@ -1,36 +1,10 @@
+
 "use client";
 
 import { useState } from "react";
 
 export function Footer() {
   const [showForm, setShowForm] = useState(false);
-  const [fileUrl, setFileUrl] = useState("");
-
-  const handleFileUpload = async (event: React.ChangeEvent<HTMLInputElement>) => {
-    const file = event.target.files?.[0];
-    if (!file) return;
-
-    const formData = new FormData();
-    formData.append("file", file);
-    formData.append("upload_preset", "File upload"); // Replace with actual Cloudinary preset
-
-    try {
-      const response = await fetch("https://api.cloudinary.com/v1_1/ddhzufnqe/upload", {
-        method: "POST",
-        body: formData,
-      });
-
-      const data = await response.json();
-      if (data.secure_url) {
-        setFileUrl(data.secure_url);
-      } else {
-        alert("File upload failed.");
-      }
-    } catch (error) {
-      console.error("Upload error:", error);
-      alert("An error occurred while uploading.");
-    }
-  };
 
   return (
     <footer className="bg-white" id="contact">
@@ -88,9 +62,10 @@ export function Footer() {
             <label className="block mb-2 font-bold">Service Instruction</label>
             <textarea name="service_instruction" className="w-full p-2 border rounded-md mb-4"></textarea>
 
-            <p className="text-gray-600 font-bold mb-4">
-              Please email any relevant documents to {" "}
-              <a href="mailto:info@JustLegalSolutions.org" className="text-blue-600">info@JustLegalSolutions.org</a>
+            {/* File Upload Removed - Added Message Instead */}
+            <p className="text-red-600 font-bold mt-4">
+              Please email all required files separately to: 
+              <a href="mailto:info@JustLegalSolutions.org" className="text-blue-600"> info@JustLegalSolutions.org</a>
             </p>
 
             <button type="submit" className="bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-800">
