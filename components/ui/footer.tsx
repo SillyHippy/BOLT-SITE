@@ -27,18 +27,70 @@ export function Footer() {
             action="https://formspree.io/f/meoalzyj" 
             method="POST" 
             className="mt-6 bg-gray-100 p-6 rounded-lg shadow-md"
+            encType="multipart/form-data"
           >
-            <label className="block mb-2 font-bold">Full Name:</label>
-            <input type="text" name="name" required className="w-full p-2 border rounded-md mb-4" />
+            <label className="block mb-2 font-bold">Firm Name*</label>
+            <input type="text" name="firm_name" required className="w-full p-2 border rounded-md mb-4" />
 
-            <label className="block mb-2 font-bold">Email:</label>
-            <input type="email" name="email" required className="w-full p-2 border rounded-md mb-4" />
+            <label className="block mb-2 font-bold">Contact First Name*</label>
+            <input type="text" name="contact_first_name" required className="w-full p-2 border rounded-md mb-4" />
 
-            <label className="block mb-2 font-bold">Message:</label>
-            <textarea name="message" required className="w-full p-2 border rounded-md mb-4"></textarea>
+            <label className="block mb-2 font-bold">Contact Last Name*</label>
+            <input type="text" name="contact_last_name" required className="w-full p-2 border rounded-md mb-4" />
+
+            <label className="block mb-2 font-bold">Contact Email*</label>
+            <input type="email" name="contact_email" required className="w-full p-2 border rounded-md mb-4" />
+
+            <label className="block mb-2 font-bold">Contact Phone Number*</label>
+            <input type="text" name="contact_phone" required className="w-full p-2 border rounded-md mb-4" />
+
+            <label className="block mb-2 font-bold">Plaintiff Name*</label>
+            <input type="text" name="plaintiff_name" required className="w-full p-2 border rounded-md mb-4" />
+
+            <label className="block mb-2 font-bold">Recipient / Defendant Name*</label>
+            <input type="text" name="recipient_name" required className="w-full p-2 border rounded-md mb-4" />
+
+            <label className="block mb-2 font-bold">Recipient Phone Number</label>
+            <input type="text" name="recipient_phone" className="w-full p-2 border rounded-md mb-4" />
+
+            <label className="block mb-2 font-bold">Recipient Email</label>
+            <input type="email" name="recipient_email" className="w-full p-2 border rounded-md mb-4" />
+
+            <label className="block mb-2 font-bold">Recipient Street Address*</label>
+            <input type="text" name="recipient_address" required className="w-full p-2 border rounded-md mb-4" />
+
+            <label className="block mb-2 font-bold">Recipient City*</label>
+            <input type="text" name="recipient_city" required className="w-full p-2 border rounded-md mb-4" />
+
+            <label className="block mb-2 font-bold">Recipient State*</label>
+            <input type="text" name="recipient_state" required className="w-full p-2 border rounded-md mb-4" />
+
+            <label className="block mb-2 font-bold">Recipient Zip Code*</label>
+            <input type="text" name="recipient_zip" required className="w-full p-2 border rounded-md mb-4" />
+
+            <label className="block mb-2 font-bold">Court Date*</label>
+            <input type="date" name="court_date" required className="w-full p-2 border rounded-md mb-4" />
+
+            <label className="block mb-2 font-bold">Case Number*</label>
+            <input type="text" name="case_number" required className="w-full p-2 border rounded-md mb-4" />
+
+            <label className="block mb-2 font-bold">Court Name</label>
+            <input type="text" name="court_name" className="w-full p-2 border rounded-md mb-4" />
+
+            <label className="block mb-2 font-bold">Court State</label>
+            <input type="text" name="court_state" className="w-full p-2 border rounded-md mb-4" />
+
+            <label className="block mb-2 font-bold">Court County</label>
+            <input type="text" name="court_county" className="w-full p-2 border rounded-md mb-4" />
+
+            <label className="block mb-2 font-bold">Service Instruction</label>
+            <textarea name="service_instruction" className="w-full p-2 border rounded-md mb-4"></textarea>
+
+            <label className="block mb-2 font-bold">Upload Document*</label>
+            <input type="file" name="document" required className="w-full p-2 border rounded-md mb-4" />
 
             <button type="submit" className="bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-800">
-              Submit
+              Submit Request
             </button>
           </form>
         )}
