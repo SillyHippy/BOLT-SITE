@@ -1,8 +1,10 @@
 "use client";
 
-import Link from 'next/link';
+import { useState } from "react";
 
 export function Footer() {
+  const [showForm, setShowForm] = useState(false);
+
   return (
     <footer className="bg-white" id="contact">
       <div className="max-w-7xl mx-auto px-4 py-12">
@@ -11,69 +13,68 @@ export function Footer() {
           For any inquiries, please reach out via phone, text, or email. We're here to assist you.
         </p>
 
-        {/* --- Add Form Link Here --- */}
-        <p className="mb-12">
-          <a 
-            href="https://formspree.io/f/meoalzyj" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="text-blue-600 font-semibold hover:text-blue-800 underline"
-          >
-            Click here to fill out our service request form
-          </a>
-        </p>
+        {/* Button to Show Form */}
+        <button
+          onClick={() => setShowForm(!showForm)}
+          className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-800 transition"
+        >
+          Fill Out Service Request Form
+        </button>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {/* Email Section */}
+        {/* Form (Hidden Until Clicked) */}
+        {showForm && (
+          <form 
+            action="https://formspree.io/f/meoalzyj" 
+            method="POST" 
+            className="mt-6 bg-gray-100 p-6 rounded-lg shadow-md"
+          >
+            <label className="block mb-2 font-bold">Full Name:</label>
+            <input type="text" name="name" required className="w-full p-2 border rounded-md mb-4" />
+
+            <label className="block mb-2 font-bold">Email:</label>
+            <input type="email" name="email" required className="w-full p-2 border rounded-md mb-4" />
+
+            <label className="block mb-2 font-bold">Message:</label>
+            <textarea name="message" required className="w-full p-2 border rounded-md mb-4"></textarea>
+
+            <button type="submit" className="bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-800">
+              Submit
+            </button>
+          </form>
+        )}
+
+        {/* Contact Sections */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
           <div>
             <h3 className="text-xl font-bold mb-4">Email Us</h3>
             <p className="text-gray-600">
               You can reach us at{' '}
-              <a
-                href="mailto:info@JustLegalSolutions.org"
-                className="text-blue-600 hover:text-blue-800"
-              >
+              <a href="mailto:info@JustLegalSolutions.org" className="text-blue-600 hover:text-blue-800">
                 info@JustLegalSolutions.org
               </a>
               . We respond promptly to all inquiries.
             </p>
           </div>
 
-          {/* Call Us Section */}
           <div>
             <h3 className="text-xl font-bold mb-4">Call Us</h3>
             <p className="text-gray-600">
-              Contact us anytime Call or Text at{' '}
+              Contact us at{' '}
               <a href="tel:539-367-6832" className="text-blue-600 hover:text-blue-800">
                 539-367-6832
               </a>
-              . We're here and ready to assist you with all your needs.
-            </p>
-            <p className="text-gray-600 mt-2">
-              Alternatively,{' '}
-              <a 
-                href="/contact-details.vcf" 
-                download="contact-details.vcf" 
-                className="text-blue-600 hover:text-blue-800"
-              >
-                Click here to download our contact details
-              </a>
-              and add us directly to your address book.
+              . We're here to assist you.
             </p>
           </div>
 
-          {/* Payments Section */}
           <div>
             <h3 className="text-xl font-bold mb-4">Payments</h3>
             <p className="text-gray-600">
-              At this time, we accept{' '}
-              <a
-                href="https://buy.stripe.com/3cs17SbHS6h95nGaEE"
-                className="text-blue-600 hover:text-blue-800"
-              >
+              We accept{' '}
+              <a href="https://buy.stripe.com/3cs17SbHS6h95nGaEE" className="text-blue-600 hover:text-blue-800">
                 electronic payments
               </a>
-              , cash, checks, or money orders. Payments should be made payable to Joseph Iannazzi and mailed to: 564 E 138th Pl, Glenpool, OK 74033. Please ensure that payment is made in full within 10 days of the invoice date.
+              , cash, checks, or money orders.
             </p>
           </div>
         </div>
