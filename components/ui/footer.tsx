@@ -27,8 +27,11 @@ export function Footer() {
             action="https://formsubmit.co/el/gakusi" 
             method="POST" 
             className="mt-6 bg-gray-100 p-6 rounded-lg shadow-md max-w-2xl mx-auto"
-            encType="multipart/form-data"
           >
+            {/* Required Hidden Email Field */}
+            <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you" />
+            <input type="hidden" name="_captcha" value="false" />
+
             <label className="block mb-2 font-bold">Firm Name*</label>
             <input type="text" name="firm_name" required className="w-full p-2 border rounded-md mb-4" />
 
