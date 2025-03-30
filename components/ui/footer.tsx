@@ -269,6 +269,19 @@ export function Footer() {
                 </div>
               </div>
 
+              {/* Service Instructions */}
+              <div>
+                <label className="block text-sm font-medium text-gray-700">
+                  Service Instructions
+                </label>
+                <textarea
+                  name="service_instructions"
+                  rows={4}
+                  className="w-full px-4 py-2 border border-gray-300 rounded-md"
+                  placeholder="Please provide any specific instructions for service..."
+                ></textarea>
+              </div>
+
               {/* Service Type Selection */}
               <div className="space-y-4">
                 <label className="block text-sm font-medium text-gray-700">
@@ -332,19 +345,6 @@ export function Footer() {
                     </div>
                   </div>
                 </div>
-              </div>
-
-              {/* Service Instructions */}
-              <div>
-                <label className="block text-sm font-medium text-gray-700">
-                  Service Instructions
-                </label>
-                <textarea
-                  name="service_instructions"
-                  rows={4}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-md"
-                  placeholder="Please provide any specific instructions for service..."
-                ></textarea>
               </div>
 
               {/* Submit Button */}
