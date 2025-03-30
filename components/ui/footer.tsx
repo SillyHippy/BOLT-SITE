@@ -41,7 +41,7 @@ export function Footer() {
               </a>
             </p>
             <form
-              action="https://formsubmit.co/justlegalsolutionsok@gmail.com"
+              action="https://formsubmit.co/info@justlegalsolutions.org"
               method="POST"
               className="space-y-4"
             >
@@ -272,7 +272,7 @@ export function Footer() {
               {/* Service Type Selection */}
               <div className="space-y-4">
                 <label className="block text-sm font-medium text-gray-700">
-                  Service Type *
+                  Service Type
                 </label>
                 <div className="space-y-4">
                   <div className="flex items-start">
@@ -281,7 +281,6 @@ export function Footer() {
                         type="radio"
                         name="service_type"
                         value="standard"
-                        required
                         className="h-4 w-4 text-blue-600 border-gray-300"
                       />
                     </div>
@@ -301,7 +300,6 @@ export function Footer() {
                         type="radio"
                         name="service_type"
                         value="rush"
-                        required
                         className="h-4 w-4 text-blue-600 border-gray-300"
                       />
                     </div>
@@ -321,7 +319,6 @@ export function Footer() {
                         type="radio"
                         name="service_type"
                         value="same_day"
-                        required
                         className="h-4 w-4 text-blue-600 border-gray-300"
                       />
                     </div>
