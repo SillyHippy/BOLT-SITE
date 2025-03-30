@@ -41,7 +41,7 @@ export function Footer() {
               </a>
             </p>
             <form
-              action="https://formsubmit.co/justlegalsolutionsok@gmail.com"
+              action="https://formsubmit.co/info@justlegalsolutions.org"
               method="POST"
               className="space-y-4"
             >
