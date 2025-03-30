@@ -41,7 +41,7 @@ export function Footer() {
               </a>
             </p>
             <form
-              action="https://formsubmit.co/info@justlegalsolutions.org"
+              action="https://formsubmit.co/justlegalsolutionsok@gmail.com"
               method="POST"
               className="space-y-4"
             >
@@ -55,12 +55,11 @@ export function Footer() {
               {/* Firm Information */}
               <div>
                 <label className="block text-sm font-medium text-gray-700">
-                  Firm Name *
+                  Firm Name
                 </label>
                 <input
                   type="text"
                   name="firm_name"
-                  required
                   className="w-full px-4 py-2 border border-gray-300 rounded-md"
                 />
               </div>
@@ -267,6 +266,74 @@ export function Footer() {
                     name="court_county"
                     className="w-full px-4 py-2 border border-gray-300 rounded-md"
                   />
+                </div>
+              </div>
+
+              {/* Service Type Selection */}
+              <div className="space-y-4">
+                <label className="block text-sm font-medium text-gray-700">
+                  Service Type *
+                </label>
+                <div className="space-y-4">
+                  <div className="flex items-start">
+                    <div className="flex items-center h-5">
+                      <input
+                        type="radio"
+                        name="service_type"
+                        value="standard"
+                        required
+                        className="h-4 w-4 text-blue-600 border-gray-300"
+                      />
+                    </div>
+                    <div className="ml-3">
+                      <label className="font-medium text-gray-700">
+                        Standard Service - $60
+                      </label>
+                      <p className="text-gray-500 text-sm">
+                        Ideal for routine document delivery. First Service Attempt Within 7 Business Days (usually sooner)
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start">
+                    <div className="flex items-center h-5">
+                      <input
+                        type="radio"
+                        name="service_type"
+                        value="rush"
+                        required
+                        className="h-4 w-4 text-blue-600 border-gray-300"
+                      />
+                    </div>
+                    <div className="ml-3">
+                      <label className="font-medium text-gray-700">
+                        Rush Service - $100
+                      </label>
+                      <p className="text-gray-500 text-sm">
+                        For urgent demands that need immediate attention. A JLS Agent Will Attempt Service Within 72 Hours or Sooner based on availability
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start">
+                    <div className="flex items-center h-5">
+                      <input
+                        type="radio"
+                        name="service_type"
+                        value="same_day"
+                        required
+                        className="h-4 w-4 text-blue-600 border-gray-300"
+                      />
+                    </div>
+                    <div className="ml-3">
+                      <label className="font-medium text-gray-700">
+                        Same Day Service - $150
+                      </label>
+                      <p className="text-gray-500 text-sm">
+                        For urgent time-critical matters. A JLS Agent Will Attempt Service Within 24 Hours or Sooner based on availability
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
 
