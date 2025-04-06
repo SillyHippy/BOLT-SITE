@@ -5,11 +5,13 @@ import Image from "next/image";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Professional Process Serving & Legal Support Services',
-  description: 'Expert process serving, secure document delivery, court transfers, and skip tracing services in Oklahoma. Fast, reliable, and professional legal support.',
+  title: 'Process Server Tulsa | Legal Support Services | Just Legal Solutions',
+  description: 'Need a reliable process server in Tulsa, OK? Just Legal Solutions offers fast, efficient process serving statewide, including rush & same-day service.',
   openGraph: {
-    title: 'Professional Process Serving & Legal Support Services | Just Legal Solutions',
-    description: 'Expert process serving, secure document delivery, court transfers, and skip tracing services in Oklahoma. Fast, reliable, and professional legal support.'
+    // 👇 Updated to match main title
+    title: 'Process Server Tulsa | Legal Support Services | Just Legal Solutions',
+    // 👇 Updated to match main description
+    description: 'Need a reliable process server in Tulsa, OK? Just Legal Solutions offers fast, efficient process serving statewide, including rush & same-day service.'
   }
 };
 
