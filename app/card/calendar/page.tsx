@@ -22,7 +22,7 @@ export default function CalendarPage() {
     const endDateTime = new Date(selectedDateTime.getTime() + 30 * 60000); // Fixed 30 minutes
     
     // Format dates for ICS file (in UTC format)
-    const formatDateForICS = (date) => {
+    const formatDateForICS = (date: Date) => {
       return date.toISOString().replace(/-|:|\.\d+/g, '');
     };
     
