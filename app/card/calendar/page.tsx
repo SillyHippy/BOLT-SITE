@@ -9,7 +9,7 @@ export default function CalendarPage() {
   const [date, setDate] = useState('');
   const [time, setTime] = useState('');
   
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     
     if (!date || !time) {
