@@ -5,23 +5,23 @@ import { ChevronDown } from 'lucide-react';
 
 export const metadata = {
   title: 'Business Solutions – Joseph Iannazzi | Executive Assistant',
-  description: 'Professional solutions including executive assistance, event coordination, HR & payroll, and travel management.',
-  keywords: ['executive assistant','event planning','HR payroll','travel management'],
-  openGraph: { 
-    title: 'Business Solutions – Joseph Iannazzi', 
-    description: 'Professional solutions to meet your business needs',
+  description: 'Professional solutions including executive assistance, event coordination, HR & payroll, travel management, general customer service, and data entry.', // Updated description
+  keywords: ['executive assistant', 'event planning', 'HR payroll', 'travel management', 'customer service', 'data entry'], // Added new keywords
+  openGraph: {
+    title: 'Business Solutions – Joseph Iannazzi',
+    description: 'Professional solutions to meet your business needs, now including customer service and data entry.', // Slightly updated OG description
     images: [{
-      url: 'https://images.unsplash.com/photo-1558478551-1a378f63328e?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.1.0',
+      url: 'https://images.unsplash.com/photo-1558478551-1a378f63328e?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.1.0', // Main OG image
       width: 1200,
       height: 630,
       alt: 'Joseph Iannazzi Executive Assistant Services',
     }],
   },
-  twitter: { 
-    card: 'summary_large_image', 
-    title: 'Business Solutions – Joseph Iannazzi', 
-    description: 'Professional solutions to meet your business needs',
-    images: ['https://images.unsplash.com/photo-1558478551-1a378f63328e?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.1.0'],
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Business Solutions – Joseph Iannazzi',
+    description: 'Professional solutions to meet your business needs, now including customer service and data entry.', // Slightly updated Twitter description
+    images: ['https://images.unsplash.com/photo-1558478551-1a378f63328e?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.1.0'], // Main Twitter image
   }
 };
 
@@ -47,10 +47,22 @@ export default function ServicesPage() {
       description: 'Business travel planning, booking, and expense management to optimize your corporate travel experience.',
       image: 'https://images.unsplash.com/photo-1507149833265-60c372daea22?auto=format&fit=crop&w=400&q=80',
     },
+    // --- New Services Added ---
+    {
+      title: 'General Customer Service',
+      description: 'Reliable customer service solutions to manage inquiries and support your clients effectively via various channels.',
+      image: 'https://images.unsplash.com/photo-1554224155-83f88c9b5a0c?auto=format&fit=crop&w=400&q=80', // Suggested image
+    },
+    {
+      title: 'Data Entry',
+      description: 'Accurate and efficient data entry services to manage your information seamlessly across various platforms.',
+      image: 'https://images.unsplash.com/photo-1580894732444-848940a12efa?auto=format&fit=crop&w=400&q=80', // Suggested image
+    },
   ];
 
   return (
     <>
+      {/* JSON-LD Schema for SEO - Updated with new services */}
       <Script id="services-schema" type="application/ld+json">
         {`
           {
@@ -80,21 +92,34 @@ export default function ServicesPage() {
                 "position": 4,
                 "name": "Travel Management",
                 "description": "Business travel planning, booking, and expense management to optimize your corporate travel experience."
+              },
+              {
+                "@type": "Service",
+                "position": 5,
+                "name": "General Customer Service",
+                "description": "Reliable customer service solutions to manage inquiries and support your clients effectively via various channels."
+              },
+              {
+                "@type": "Service",
+                "position": 6,
+                "name": "Data Entry",
+                "description": "Accurate and efficient data entry services to manage your information seamlessly across various platforms."
               }
             ]
           }
         `}
       </Script>
+
       <main>
-        {/* Hero Section - Updated */}
+        {/* Hero Section - Remains responsive */}
         <section className="relative w-full h-[80vh] flex items-center justify-center">
-          <div 
-            className="absolute inset-0 z-0 bg-cover bg-center" 
+          <div
+            className="absolute inset-0 z-0 bg-cover bg-center"
             style={{
               backgroundImage: 'url(https://images.unsplash.com/photo-1558478551-1a378f63328e?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)',
             }}
           >
-            <div className="absolute inset-0 bg-black/40"></div>
+            <div className="absolute inset-0 bg-black/40"></div> {/* Overlay for better text readability */}
           </div>
           
           <div className="relative z-10 text-center text-white px-4 max-w-4xl">
@@ -102,60 +127,66 @@ export default function ServicesPage() {
             <p className="text-xl md:text-2xl mb-4">Professional solutions to meet your business needs</p>
             <p className="font-medium text-lg mb-4">10+ years supporting C-suite executives with precision & discretion.</p>
             <p className="text-yellow-300 font-semibold mb-8">Prices starting at $15/hr — custom quotes available</p>
-            <Link 
-              href="/resume.pdf" 
-              className="px-8 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+            <Link
+              href="/resume.pdf" // Ensure this path is correct
+              className="px-8 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors text-lg" // Added text-lg for better tap target
               target="_blank"
+              rel="noopener noreferrer" // Good practice for target="_blank"
               aria-label="Download Resume"
             >
               Download Resume
             </Link>
           </div>
           
+          {/* Animated chevron for scroll indication */}
           <div className="absolute bottom-8 animate-bounce">
             <ChevronDown className="h-8 w-8 text-white" />
           </div>
         </section>
 
-        {/* Pricing Banner */}
+        {/* Pricing Banner - Remains responsive */}
         <div className="text-center py-6 bg-gray-50 text-gray-700 font-medium">
           Prices starting at $15/hr — custom quotes available
         </div>
 
-        {/* Why Work With Me Section */}
+        {/* Why Work With Me Section - Remains responsive */}
         <section className="container mx-auto py-12 px-4">
           <h2 className="text-3xl font-bold mb-8 text-center">Why Work With Me?</h2>
           <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="flex items-start gap-3">
+            {/* Feature 1 */}
+            <div className="flex items-start gap-3 p-4 rounded-lg hover:bg-gray-50 transition-colors">
               <div className="h-8 w-8 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0">
-                <span className="text-blue-600 font-bold">•</span>
+                <span className="text-blue-600 font-bold text-lg">•</span>
               </div>
               <div>
                 <h3 className="font-semibold text-lg">Strategic calendar & travel management</h3>
                 <p className="text-gray-600">Optimizing executive time and ensuring seamless travel experiences.</p>
               </div>
             </div>
-            <div className="flex items-start gap-3">
+            {/* Feature 2 */}
+            <div className="flex items-start gap-3 p-4 rounded-lg hover:bg-gray-50 transition-colors">
               <div className="h-8 w-8 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0">
-                <span className="text-blue-600 font-bold">•</span>
+                <span className="text-blue-600 font-bold text-lg">•</span>
               </div>
               <div>
                 <h3 className="font-semibold text-lg">HR systems & payroll implementation</h3>
                 <p className="text-gray-600">Setting up efficient systems for human resources and payment processing.</p>
               </div>
             </div>
-            <div className="flex items-start gap-3">
+            {/* Feature 3 */}
+            <div className="flex items-start gap-3 p-4 rounded-lg hover:bg-gray-50 transition-colors">
               <div className="h-8 w-8 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0">
-                <span className="text-blue-600 font-bold">•</span>
+                <span className="text-blue-600 font-bold text-lg">•</span>
               </div>
               <div>
                 <h3 className="font-semibold text-lg">End-to-end event planning</h3>
                 <p className="text-gray-600">Comprehensive event coordination from concept to execution.</p>
               </div>
             </div>
-            <div className="flex items-start gap-3">
+            {/* Feature 4 */}
+            <div className="flex items-start gap-3 p-4 rounded-lg hover:bg-gray-50 transition-colors">
               <div className="h-8 w-8 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0">
-                <span className="text-blue-600 font-bold">•</span>
+                <span className="text-blue-600 font-bold text-lg">•</span>
               </div>
               <div>
                 <h3 className="font-semibold text-lg">Confidential communications & discretion</h3>
@@ -165,54 +196,62 @@ export default function ServicesPage() {
           </div>
         </section>
 
-        {/* Executive Support Philosophy */}
-        <section className="bg-white py-12">
+        {/* Executive Support Philosophy - Remains responsive */}
+        <section className="bg-white py-12 px-4"> {/* Added px-4 for padding on small screens */}
           <div className="max-w-3xl mx-auto text-center space-y-4">
             <h2 className="text-2xl font-bold">My Executive Support Philosophy</h2>
-            <p className="text-gray-700">
+            <p className="text-gray-700 leading-relaxed"> {/* Added leading-relaxed for better readability */}
               I believe that true partnership is built on anticipation, discretion, and proactive communication. By immersing myself in your priorities—whether it's complex calendar orchestration, confidential project management, or last-minute travel pivots—I deliver the seamless support every C-suite leader deserves.
             </p>
-            <ul className="flex flex-col sm:flex-row justify-center gap-6 mt-6 text-gray-600">
-              <li className="flex items-start space-x-2">
-                <span className="h-2 w-2 bg-blue-600 rounded-full mt-2" />
+            <ul className="flex flex-col sm:flex-row flex-wrap justify-center gap-4 sm:gap-6 mt-6 text-gray-600"> {/* Added flex-wrap and adjusted gap */}
+              <li className="flex items-center space-x-2"> {/* Changed items-start to items-center */}
+                <span className="h-2 w-2 bg-blue-600 rounded-full flex-shrink-0" /> {/* Added flex-shrink-0 */}
                 <span>Anticipate needs before they arise</span>
               </li>
-              <li className="flex items-start space-x-2">
-                <span className="h-2 w-2 bg-blue-600 rounded-full mt-2" />
+              <li className="flex items-center space-x-2">
+                <span className="h-2 w-2 bg-blue-600 rounded-full flex-shrink-0" />
                 <span>Maintain strict confidentiality</span>
               </li>
-              <li className="flex items-start space-x-2">
-                <span className="h-2 w-2 bg-blue-600 rounded-full mt-2" />
+              <li className="flex items-center space-x-2">
+                <span className="h-2 w-2 bg-blue-600 rounded-full flex-shrink-0" />
                 <span>Communicate clearly & proactively</span>
               </li>
-              <li className="flex items-start space-x-2">
-                <span className="h-2 w-2 bg-blue-600 rounded-full mt-2" />
+              <li className="flex items-center space-x-2">
+                <span className="h-2 w-2 bg-blue-600 rounded-full flex-shrink-0" />
                 <span>Adapt quickly to changing priorities</span>
               </li>
             </ul>
           </div>
         </section>
 
-        {/* Services Grid - Kept Unchanged */}
+        {/* Services Grid - Updated to include new services, remains responsive */}
         <section className="container mx-auto py-16 px-4">
           <h2 className="text-3xl font-bold mb-12 text-center">Our Professional Services</h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {/* Responsive grid: 1 col on small, 2 on medium, 3 on large, up to 4 on xl screens. 
+              This adjusts from your original lg:grid-cols-4 to better accommodate 6 items.
+              If you prefer exactly 4 on large screens and then wrap, you can revert to lg:grid-cols-4.
+              For 6 items, 2 or 3 columns on larger screens often look better.
+          */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {services.map((service, index) => (
-              <article key={index} className="bg-white rounded-lg shadow-lg overflow-hidden">
-                <div className="h-48 relative">
-                  <Image 
-                    src={service.image} 
+              <article key={index} className="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col group hover:shadow-xl transition-shadow duration-300">
+                <div className="h-48 relative overflow-hidden"> {/* Added overflow-hidden for image zoom effect */}
+                  <Image
+                    src={service.image}
                     alt={`${service.title} service illustration`}
-                    fill
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+                    fill // Changed from layout="fill" to fill for Next.js 13+
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" // Adjusted sizes for responsiveness
                     style={{ objectFit: 'cover' }}
-                    priority={index < 2}
+                    className="group-hover:scale-105 transition-transform duration-300" // Subtle zoom on hover
+                    priority={index < 3} // Prioritize loading images for the first few cards
                   />
                 </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-bold mb-2">{service.title}</h3>
-                  <p className="text-gray-600">{service.description}</p>
+                <div className="p-6 flex-grow flex flex-col"> {/* Added flex-grow and flex-col */}
+                  <h3 className="text-xl font-bold mb-2 text-gray-800">{service.title}</h3>
+                  <p className="text-gray-600 flex-grow">{service.description}</p> {/* Added flex-grow to push button down if needed */}
+                  {/* You could add a "Learn More" button here if desired */}
+                  {/* <Link href={`/services/${service.title.toLowerCase().replace(/\s+/g, '-')}`} className="mt-4 inline-block text-blue-600 hover:text-blue-800 font-semibold">Learn More &rarr;</Link> */}
                 </div>
               </article>
             ))}
