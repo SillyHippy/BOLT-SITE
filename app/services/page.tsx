@@ -47,22 +47,20 @@ export default function ServicesPage() {
       description: 'Business travel planning, booking, and expense management to optimize your corporate travel experience.',
       image: 'https://images.unsplash.com/photo-1507149833265-60c372daea22?auto=format&fit=crop&w=400&q=80',
     },
-    // --- New Services Added with User Provided Images ---
     {
       title: 'General Customer Service',
       description: 'Reliable customer service solutions to manage inquiries and support your clients effectively via various channels.',
-      image: 'https://images.unsplash.com/photo-1590599605877-29fa62b1f143?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', // User's new image
+      image: 'https://images.unsplash.com/photo-1590599605877-29fa62b1f143?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     },
     {
       title: 'Data Entry',
       description: 'Accurate and efficient data entry services to manage your information seamlessly across various platforms.',
-      image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', // User's new image
+      image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     },
   ];
 
   return (
     <>
-      {/* JSON-LD Schema for SEO - Updated with new services */}
       <Script id="services-schema" type="application/ld+json">
         {`
           {
@@ -111,7 +109,7 @@ export default function ServicesPage() {
       </Script>
 
       <main>
-        {/* Hero Section */}
+        {/* Hero Section - Tagline Updated */}
         <section className="relative w-full h-[80vh] flex items-center justify-center">
           <div
             className="absolute inset-0 z-0 bg-cover bg-center"
@@ -124,7 +122,8 @@ export default function ServicesPage() {
           
           <div className="relative z-10 text-center text-white px-4 max-w-4xl">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">Business Solutions</h1>
-            <p className="text-xl md:text-2xl mb-4">Professional solutions to meet your business needs</p>
+            {/* --- Updated Tagline Below --- */}
+            <p className="text-xl md:text-2xl mb-4">Full-range support: From data entry & customer service to HR, payroll, and complete operational assistance.</p>
             <p className="font-medium text-lg mb-4">10+ years supporting C-suite executives with precision & discretion.</p>
             <p className="text-yellow-300 font-semibold mb-8">Prices starting at $15/hr — custom quotes available</p>
             <Link
