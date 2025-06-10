@@ -1,7 +1,6 @@
 import React from 'react';
 import { Metadata } from 'next';
 
-// Original meta data block
 export const metadata: Metadata = {
   title: 'Service Pricing & Packages',
   description: 'Transparent pricing for process serving, document delivery, and legal support services. Competitive rates with standard, rush, and same-day service options.',
@@ -24,25 +23,24 @@ export default function PricingPage() {
         </div>
       </section>
 
-      {/* County-Based Pricing Section */}
-      <section className="py-8 px-4">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-xl font-bold mb-2">County-Based Pricing</h2>
-          <ul className="list-disc pl-6 text-gray-700">
-            <li><strong>Tulsa County:</strong> No extra charge.</li>
-            <li><strong>Creek County (Sapulpa area):</strong> No extra charge for select locations. Please confirm your address with us.</li>
-            <li><strong>All Other Counties:</strong> An additional surcharge applies. Contact us for a quote.</li>
-          </ul>
-        </div>
-      </section>
-
       {/* Service Packages */}
       <section className="py-12 px-4 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-2xl font-bold text-center mb-4">Service Packages</h2>
-          <p className="text-center text-gray-600 mb-12">
+          <p className="text-center text-gray-600 mb-6">
             Explore our competitive pricing plans tailored for your legal needs.
           </p>
+
+          {/* County-Based Pricing Section */}
+          <div className="mb-8">
+            <h3 className="text-lg font-semibold mb-2 text-center">County-Based Pricing</h3>
+            <ul className="list-disc pl-6 text-gray-700 max-w-xl mx-auto">
+              <li><strong>Tulsa County:</strong> No extra charge.</li>
+              <li><strong>Creek County (Sapulpa area):</strong> No extra charge for select locations. Please confirm your address with us.</li>
+              <li><strong>All Other Counties:</strong> An additional surcharge applies. Contact us for a quote.</li>
+            </ul>
+          </div>
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Standard Service */}
             <div className="bg-white p-6 rounded-lg shadow-md">
@@ -50,7 +48,7 @@ export default function PricingPage() {
               <p className="text-3xl font-bold mb-4">$60</p>
               <p className="text-gray-600 mb-4">Ideal for routine document delivery.</p>
               <p className="text-sm text-gray-500">
-                First Service Attempt Within 7 Business Days (usually sooner)
+                First Service Attempt Within 5 Business Days (usually sooner)
               </p>
             </div>
             {/* Rush Service */}
@@ -86,7 +84,7 @@ export default function PricingPage() {
             </div>
             <div>
               <h3 className="font-bold mb-2">$60 PER SERVICE:</h3>
-              <p className="text-gray-600">The foundational fee for a single service starts at $60. This fee covers not only the effective service of documents in a timely manner but also includes the processing and filing of the original Return of Service Affidavit directly to you if you wish to handle the filing yourself. We will file the Return of Service Affidavit with the court for an additional fee of $35.00 plus the court&apos;s filing fee. We fully appreciate that you may have multiple addresses pertaining to a single respondent. In such cases, if those addresses are located within a close proximity (specifically within a 20-mile radius), we will attempt service at both addresses on the same day under the same service fee of $60.00.</p>
+              <p className="text-gray-600">The foundational fee for a single service starts at $60. This fee covers not only the effective service of documents in a timely manner but also includes the processing and filing of the original Return of Service Affidavit directly to you if you wish to handle the filing yourself. We will file the Return of Service Affidavit with the court for an additional fee of $35.00 plus the court's filing fee. We fully appreciate that you may have multiple addresses pertaining to a single respondent. In such cases, if those addresses are located within a close proximity (specifically within a 20-mile radius), we will attempt service at both addresses on the same day under the same service fee of $60.00.</p>
             </div>
             <div>
               <h3 className="font-bold mb-2">FILING AFFIDAVITS:</h3>
