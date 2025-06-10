@@ -404,7 +404,7 @@ export function Footer() {
               </a>
               , cash, checks, or money orders. Payments should be made payable
               to Joseph Iannazzi and mailed to: 564 E 138th Pl, Glenpool, OK
-              74033. Please ensure that payment is made in full within 10 days
+              74033. Please ensure that payment is made in full within 3 days
               of the invoice date.
             </p>
           </div>
