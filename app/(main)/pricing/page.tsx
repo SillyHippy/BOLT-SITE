@@ -1,6 +1,6 @@
 import React from 'react';
 import { Metadata } from 'next';
-import { CheckCircle, MapPin } from 'lucide-react';
+import { CheckCircle, MapPin, Truck } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Service Pricing & Packages | Just Legal Solutions',
@@ -27,7 +27,7 @@ const additionalServices = [
 export default function PricingPage() {
   return (
     <main className="min-h-screen bg-white font-sans">
-      {/* Partner Section (User's Version) */}
+      {/* Partner Section */}
       <section className="pt-24 pb-16 px-4 bg-gray-100">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">JLS Wants to Partner with You</h2>
@@ -37,18 +37,17 @@ export default function PricingPage() {
         </div>
       </section>
 
-      {/* Service Packages (User's Version) */}
+      {/* Service Packages Section */}
       <section className="py-12 px-4 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center">
-            <h2 className="text-3xl font-bold text-gray-900">Service Packages</h2>
+            <h2 className="text-3xl font-bold text-gray-900">Process Service Packages</h2>
             <p className="text-lg text-gray-600 mt-2 mb-6">
               Explore our competitive pricing plans tailored for your legal needs.
             </p>
-             {/* County-Based Pricing - Subtle Callout */}
             <div className="max-w-3xl mx-auto bg-blue-50/50 border border-blue-200 rounded-lg p-3 mb-12">
                 <p className="text-sm text-blue-800">
-                    <span className="font-semibold">Note on Service Area:</span> Standard rates apply to <strong>Tulsa County</strong> and select parts of <strong>Creek County (Sapulpa)</strong>. A mileage surcharge applies to all other counties. Please contact us for a precise quote.
+                    <span className="font-semibold">Note on Service Area:</span> Standard rates apply to <strong>Tulsa County</strong> and select parts of <strong>Creek County (Sapulpa)</strong> & <strong>Wagoner County (Broken Arrow)</strong>. A surcharge applies to all other counties. Please contact us for a precise quote.
                 </p>
             </div>
           </div>
@@ -85,8 +84,40 @@ export default function PricingPage() {
         </div>
       </section>
 
-      {/* Additional and Optional Services (Gemini's Version) */}
-       <section className="py-16 md:py-20 bg-white">
+      {/* Courier Service Pricing Section -- NEW */}
+      <section className="py-12 px-4 bg-white">
+        <div className="max-w-7xl mx-auto">
+            <div className="text-center mb-12">
+                <div className="inline-flex items-center justify-center bg-blue-100 rounded-full p-3 mb-4">
+                    <Truck className="h-8 w-8 text-blue-600" />
+                </div>
+                <h2 className="text-3xl font-bold text-gray-900">Courier Service Pricing</h2>
+                <p className="text-lg text-gray-600 mt-2">
+                    For fast and reliable document transportation.
+                </p>
+            </div>
+            <div className="max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+                {/* Standard Courier */}
+                <div className="bg-gray-50 p-8 rounded-xl border border-gray-200 text-center">
+                    <h3 className="text-2xl font-bold mb-2 text-gray-900">Standard Courier</h3>
+                    <p className="text-4xl font-bold mb-4 text-gray-800">$35</p>
+                    <p className="text-gray-600">Delivery within the same business day or next morning for non-urgent items.</p>
+                </div>
+                {/* Rush Courier */}
+                 <div className="bg-gray-50 p-8 rounded-xl border border-gray-200 text-center">
+                    <h3 className="text-2xl font-bold mb-2 text-gray-900">Rush Courier</h3>
+                    <p className="text-4xl font-bold mb-4 text-gray-800">$55</p>
+                    <p className="text-gray-600">Priority delivery guaranteed within 2-3 hours for time-sensitive documents.</p>
+                </div>
+            </div>
+             <p className="text-center text-sm text-gray-500 mt-8">
+                Courier pricing applies to Tulsa County, Broken Arrow, & the Sapulpa area. A surcharge applies to other locations.
+            </p>
+        </div>
+      </section>
+
+      {/* Additional and Optional Services Section */}
+       <section className="py-16 md:py-20 bg-gray-50">
         <div className="max-w-5xl mx-auto px-4">
             <div className="text-center mb-12">
                 <h2 className="text-3xl font-bold text-gray-900">Additional & Optional Services</h2>
@@ -106,7 +137,7 @@ export default function PricingPage() {
         </div>
       </section>
 
-      {/* Non-Service Policy */}
+      {/* Policies Section */}
       <section className="py-16 px-4 bg-gray-100">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-6 text-gray-900">Our Policies</h2>
