@@ -34,7 +34,7 @@ export default function Home() {
                 <img
                   src="/images/secure-delivery.webp"
                   alt="Professional courier delivering legal documents securely"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-top"
                 />
               </div>
               <h3 className="text-xl font-bold mb-2">Secure Document Delivery</h3>
@@ -48,7 +48,7 @@ export default function Home() {
                 <img
                   src="/images/court-transfer.webp"
                   alt="Court document transfer service"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-center"
                 />
               </div>
               <h3 className="text-xl font-bold mb-2">Court-Run Transfers</h3>
@@ -62,7 +62,7 @@ export default function Home() {
                 <img
                   src="/images/skip-trace.webp"
                   alt="Skip tracing and investigation services"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-center"
                 />
               </div>
               <h3 className="text-xl font-bold mb-2">Skip Tracing</h3>
@@ -76,7 +76,7 @@ export default function Home() {
                 <img
                   src="/images/same-day.webp"
                   alt="Same day delivery service"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-center"
                 />
               </div>
               <h3 className="text-xl font-bold mb-2">Same-Day Service</h3>
