@@ -1,6 +1,6 @@
 import React from 'react';
 import { Metadata } from 'next';
-import { CheckCircle } from 'lucide-react';
+import { CheckCircle, MapPin } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Service Pricing & Packages | Just Legal Solutions',
@@ -40,20 +40,16 @@ export default function PricingPage() {
       {/* Service Packages (User's Version) */}
       <section className="py-12 px-4 bg-gray-50">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-4 text-gray-900">Service Packages</h2>
-          <p className="text-center text-lg text-gray-600 mb-10">
-            Explore our competitive pricing plans tailored for your legal needs.
-          </p>
-
-          {/* County-Based Pricing Section */}
-          <div className="mb-12">
-            <div className="max-w-2xl mx-auto bg-white border border-gray-200 rounded-lg p-6">
-                <h3 className="text-xl font-semibold mb-3 text-center text-gray-800">County-Based Pricing</h3>
-                <ul className="list-disc pl-6 text-gray-700 space-y-2">
-                <li><strong>Tulsa County:</strong> No extra charge.</li>
-                <li><strong>Creek County (Sapulpa area):</strong> No extra charge for select locations. Please confirm your address with us.</li>
-                <li><strong>All Other Counties:</strong> An additional surcharge applies. Contact us for a quote.</li>
-                </ul>
+          <div className="text-center">
+            <h2 className="text-3xl font-bold text-gray-900">Service Packages</h2>
+            <p className="text-lg text-gray-600 mt-2 mb-6">
+              Explore our competitive pricing plans tailored for your legal needs.
+            </p>
+             {/* County-Based Pricing - Subtle Callout */}
+            <div className="max-w-3xl mx-auto bg-blue-50/50 border border-blue-200 rounded-lg p-3 mb-12">
+                <p className="text-sm text-blue-800">
+                    <span className="font-semibold">Note on Service Area:</span> Standard rates apply to <strong>Tulsa County</strong> and select parts of <strong>Creek County (Sapulpa)</strong>. A mileage surcharge applies to all other counties. Please contact us for a precise quote.
+                </p>
             </div>
           </div>
 
