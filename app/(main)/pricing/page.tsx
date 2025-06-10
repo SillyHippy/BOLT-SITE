@@ -28,7 +28,7 @@ export default function PricingPage() {
   return (
     <main className="min-h-screen bg-white font-sans">
       {/* Partner Section (User's Version) */}
-      <section className="py-16 px-4 bg-gray-100">
+      <section className="pt-24 pb-16 px-4 bg-gray-100">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">JLS Wants to Partner with You</h2>
           <p className="text-gray-700 text-lg font-medium max-w-4xl mx-auto">
