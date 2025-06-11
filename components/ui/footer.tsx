@@ -425,7 +425,7 @@ export function Footer() {
         </div>
 
         {/* Disclaimer Section */}
-        <div className="mt-12 pt-8 border-t border-gray-200">
+        <div className="mt-6 pt-8 border-t border-gray-200">
             <p className="text-center text-sm text-gray-500">
                 Disclaimer: Just Legal Solutions is not a law firm For legal questions, please consult a licensed attorney.
             </p>
