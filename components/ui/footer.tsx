@@ -13,7 +13,7 @@ export function Footer() {
   return (
     <footer className="bg-white" id="contact">
       {/* The pb-8 (padding-bottom) was changed to pb-4 to reduce the space below the disclaimer. */}
-      <div className="max-w-7xl mx-auto px-4 pt-12 pb-4">
+      <div className="max-w-7xl mx-auto px-4 pt-12 pb-1">
         <h2 className="text-3xl font-bold mb-6">GET IN TOUCH</h2>
         <p className="text-gray-600 mb-6">
           For any inquiries, please reach out via phone, text, or email. We&apos;re here to assist you.
