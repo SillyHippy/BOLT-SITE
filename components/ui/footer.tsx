@@ -422,7 +422,7 @@ export function Footer() {
         {/* Disclaimer Section */}
         <div className="mt-12 pt-8 border-t border-gray-200">
             <p className="text-center text-sm text-gray-500">
-                Disclaimer: Just Legal Solutions is not a law firm and does not provide legal advice. We offer professional support for legal document processing. For legal questions, please consult a licensed attorney.
+                Disclaimer: Just Legal Solutions is not a law firm and does not provide legal advice. For legal questions, please consult a licensed attorney.
             </p>
         </div>
       </div>
