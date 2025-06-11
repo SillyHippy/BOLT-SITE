@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-export function Footer() {
+export default function Footer() {
   const [showForm, setShowForm] = useState(false);
 
   const toggleForm = () => {
@@ -17,14 +17,22 @@ export function Footer() {
           For any inquiries, please reach out via phone, text, or email. We&apos;re here to assist you.
         </p>
 
-        {/* Button to toggle the form */}
-        <div className="mb-8">
+        {/* Buttons for Service Request and Google Review */}
+        <div className="flex flex-wrap gap-4 mb-8">
           <button
             onClick={toggleForm}
             className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
           >
             {showForm ? "Close Form" : "Service Request Form"}
           </button>
+          <a
+            href="https://g.page/r/Cb81H1j9UTYxEBM/review"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded inline-flex items-center"
+          >
+            Leave a Google Review
+          </a>
         </div>
 
         {/* Dropdown Form */}
@@ -302,7 +310,7 @@ export function Footer() {
                         Standard Service - $60
                       </label>
                       <p className="text-gray-500 text-sm">
-                        Ideal for routine document delivery. First Service Attempt Within 7 Business Days (usually sooner)
+                        Ideal for routine document delivery. First Service Attempt Within 5 Business Days (usually sooner)
                       </p>
                     </div>
                   </div>
@@ -408,6 +416,13 @@ export function Footer() {
               of the invoice date.
             </p>
           </div>
+        </div>
+
+        {/* Disclaimer Section */}
+        <div className="mt-12 pt-8 border-t border-gray-200">
+            <p className="text-center text-sm text-gray-500">
+                Disclaimer: Just Legal Solutions is not a law firm and does not provide legal advice. We offer professional support for legal document processing. For legal questions, please consult a licensed attorney.
+            </p>
         </div>
       </div>
     </footer>
