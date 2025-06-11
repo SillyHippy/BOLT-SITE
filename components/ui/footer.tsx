@@ -2,7 +2,8 @@
 
 import { useState } from "react";
 
-export default function Footer() {
+// Reverted to a named export to match the import statement in your layout files.
+export function Footer() {
   const [showForm, setShowForm] = useState(false);
 
   const toggleForm = () => {
@@ -310,7 +311,7 @@ export default function Footer() {
                         Standard Service - $60
                       </label>
                       <p className="text-gray-500 text-sm">
-                        Ideal for routine document delivery. First Service Attempt Within 5 Business Days (usually sooner)
+                        Ideal for routine document delivery. First Service Attempt Within 3 Business Days (usually sooner)
                       </p>
                     </div>
                   </div>
