@@ -27,12 +27,16 @@ export function Footer() {
           >
             {showForm ? "Close Form" : "Service Request Form"}
           </button>
+          {/* Updated Google Review button with a star icon and new colors */}
           <a
             href="https://g.page/r/Cb81H1j9UTYxEBM/review"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded inline-flex items-center"
+            className="bg-amber-500 hover:bg-amber-600 text-white font-bold py-2 px-4 rounded inline-flex items-center"
           >
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+            </svg>
             Leave a Google Review
           </a>
         </div>
@@ -312,7 +316,7 @@ export function Footer() {
                         Standard Service - $60
                       </label>
                       <p className="text-gray-500 text-sm">
-                        Ideal for routine document delivery. First Service Attempt Within 3 Business Days (usually sooner)
+                        Ideal for routine document delivery. First Service Attempt Within 5 Business Days (usually sooner)
                       </p>
                     </div>
                   </div>
