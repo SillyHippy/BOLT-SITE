@@ -12,7 +12,8 @@ export function Footer() {
 
   return (
     <footer className="bg-white" id="contact">
-      <div className="max-w-7xl mx-auto px-4 py-12">
+      {/* The py-12 (padding-y) was changed to pt-12 (padding-top) and pb-8 (padding-bottom) to reduce the space below the disclaimer. */}
+      <div className="max-w-7xl mx-auto px-4 pt-12 pb-8">
         <h2 className="text-3xl font-bold mb-6">GET IN TOUCH</h2>
         <p className="text-gray-600 mb-6">
           For any inquiries, please reach out via phone, text, or email. We&apos;re here to assist you.
@@ -422,7 +423,7 @@ export function Footer() {
         {/* Disclaimer Section */}
         <div className="mt-12 pt-8 border-t border-gray-200">
             <p className="text-center text-sm text-gray-500">
-                Disclaimer: Just Legal Solutions is not a law firm and does not provide legal advice. For legal questions, please consult a licensed attorney.
+                Disclaimer: Just Legal Solutions is not a law firm and does not provide legal advice. We offer professional support for legal document processing. For legal questions, please consult a licensed attorney.
             </p>
         </div>
       </div>
