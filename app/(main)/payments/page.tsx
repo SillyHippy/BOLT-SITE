@@ -6,7 +6,8 @@ import { CreditCard, DollarSign, ArrowRight } from 'lucide-react';
 export default function PaymentsPage() {
   return (
     <main className="min-h-screen bg-gray-50 font-sans">
-      <div className="pt-24 pb-10">
+      {/* --- EDITED --- Reduced bottom padding (pb-16 to pb-12) to close the gap */}
+      <div className="pt-24 pb-12">
         {/* Header */}
         <div className="text-center px-4">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Make a Payment</h1>
@@ -20,7 +21,6 @@ export default function PaymentsPage() {
           </p>
         </div>
 
-        {/* --- THIS SECTION IS NOW CORRECTED --- */}
         {/* Payment Options Grid */}
         <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 px-4">
           
@@ -69,7 +69,6 @@ export default function PaymentsPage() {
           </div>
 
         </div>
-        {/* --- END OF CORRECTED SECTION --- */}
       </div>
     </main>
   );
