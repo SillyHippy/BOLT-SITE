@@ -19,7 +19,7 @@ export function Footer() {
 
   return (
     <footer className="bg-white" id="contact">
-      <div className="max-w-7xl mx-auto px-4 pt-12 pb-1">
+      <div className="max-w-7xl mx-auto px-4 pt-12 pb-8"> {/* Increased bottom padding slightly for better balance */}
         <h2 className="text-3xl font-bold mb-6">GET IN TOUCH</h2>
         <p className="text-gray-600 mb-6">
           For any inquiries, please reach out via phone, text, or email. We&apos;re here to assist you.
@@ -106,9 +106,8 @@ export function Footer() {
         </div>
 
         {/* --- EDITED SECTION START --- */}
-        {/* Disclaimer Section */}
-        <div className="mt-6 pt-8 border-t border-gray-200">
-            {/* The standalone policy link that was here has been removed. */}
+        {/* Disclaimer Section - Reduced top margin and padding */}
+        <div className="mt-8 pt-6 border-t border-gray-200">
             <p className="text-center text-sm text-gray-500">
                 Disclaimer: Just Legal Solutions is not a law firm For legal questions, please consult a licensed attorney.
             </p>
