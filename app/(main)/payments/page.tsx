@@ -10,9 +10,16 @@ export default function PaymentsPage() {
         {/* Header */}
         <div className="text-center px-4">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Make a Payment</h1>
+          {/* --- EDITED SECTION START --- */}
           <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-16">
-            We offer several convenient ways to pay your invoice. For new clients, we require payment in advance. If you have any questions about your balance, please contact us.
+            We offer several convenient ways to pay your invoice. All payments are due within 3 days of the invoice date. Please be aware that past-due invoices are subject to fees as outlined in our{' '}
+            <a href="/payment-policy" className="text-blue-600 hover:underline font-medium">
+              Payment & Late Fee Policy
+            </a>.
+            <br/><br/>
+            For new clients, we require payment in advance. If you have any questions about your balance, please contact us.
           </p>
+          {/* --- EDITED SECTION END --- */}
         </div>
 
         {/* Payment Options Grid */}
@@ -67,3 +74,4 @@ export default function PaymentsPage() {
     </main>
   );
 }
+
