@@ -1,6 +1,6 @@
 import React from 'react';
 import { Metadata } from 'next';
-import { CheckCircle, MapPin, Truck } from 'lucide-react';
+import { CheckCircle, Truck } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Service Pricing & Packages | Just Legal Solutions',
@@ -154,12 +154,16 @@ export default function PricingPage() {
                 At Just Legal Solutions, we adhere to Oklahoma's due diligence standards. This means our process servers make multiple attempts at different times of day and on different days of the week to demonstrate a thorough and reasonable effort to effectuate personal service before considering alternatives.
                 </p>
             </div>
+            {/* --- EDITED SECTION START --- */}
             <div>
-                 <h3 className="text-xl font-bold mb-3 text-gray-800">Payment Policy</h3>
+                 <h3 className="text-xl font-bold mb-3 text-gray-800">Payment & Late Fee Policy</h3>
                 <p className="text-gray-700">
-                To ensure a seamless start to our partnership, prepayment is required for all new clients. This allows us to dedicate our resources to your case without delay. For our established clients, we offer flexible invoicing options based on our history together. We appreciate your understanding and cooperation.
+                    For new clients, prepayment is required to ensure we can dedicate our resources to your case without delay.
+                    <br /><br />
+                    For established clients, payment is due on the date specified on the invoice. If payment is not received in full by the due date, a one-time late fee of <strong>$40.00</strong> will be assessed. Furthermore, a service charge of <strong>0.5%</strong> of the total outstanding balance will be applied for each day the payment is late, beginning the day after the due date, until the balance is paid in full.
                 </p>
             </div>
+            {/* --- EDITED SECTION END --- */}
           </div>
         </div>
       </section>
