@@ -1,6 +1,7 @@
 "use client";
 
 import React from 'react';
+import Link from 'next/link'; // Import the Link component
 import { CreditCard, DollarSign, ArrowRight } from 'lucide-react';
 
 export default function PaymentsPage() {
@@ -10,16 +11,14 @@ export default function PaymentsPage() {
         {/* Header */}
         <div className="text-center px-4">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Make a Payment</h1>
-          {/* --- EDITED SECTION START --- */}
           <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-16">
             We offer several convenient ways to pay your invoice. Please note that payment is due on the date specified on the invoice. For our full payment terms, please see our{' '}
-            <a href="/pricing#policies" className="text-blue-600 hover:underline font-medium">
+            <Link href="/pricing#policies" className="text-blue-600 hover:underline font-medium">
               Payment & Late Fee Policy
-            </a>.
+            </Link>.
             <br/><br/>
             For new clients, we require payment in advance. If you have any questions about your balance, please contact us.
           </p>
-          {/* --- EDITED SECTION END --- */}
         </div>
 
         {/* Payment Options Grid */}
@@ -28,14 +27,12 @@ export default function PaymentsPage() {
           {/* Card 1: Electronic Payment */}
           <div 
             className="bg-white rounded-xl shadow-lg border border-gray-200 p-8 flex flex-col items-center text-center transform hover:scale-105 transition-transform duration-300"
-            itemScope 
-            itemType="https://schema.org/PaymentMethod"
           >
             <div className="flex-shrink-0 bg-blue-100 rounded-full p-4 mb-6">
               <CreditCard className="w-12 h-12 text-blue-600" />
             </div>
-            <h2 className="text-2xl font-bold text-gray-900 mb-3" itemProp="name">Pay Online</h2>
-            <p className="text-gray-600 mb-6 flex-grow" itemProp="description">
+            <h2 className="text-2xl font-bold text-gray-900 mb-3">Pay Online</h2>
+            <p className="text-gray-600 mb-6 flex-grow">
               Securely pay your invoice online using a credit or debit card. Please have your case number ready.
             </p>
             <a 
@@ -51,20 +48,18 @@ export default function PaymentsPage() {
           {/* Card 2: Cash/Check Option */}
            <div 
             className="bg-white rounded-xl shadow-lg border border-gray-200 p-8 flex flex-col items-center text-center transform hover:scale-105 transition-transform duration-300"
-            itemScope 
-            itemType="https://schema.org/PaymentMethod"
           >
             <div className="flex-shrink-0 bg-green-100 rounded-full p-4 mb-6">
               <DollarSign className="w-12 h-12 text-green-600" />
             </div>
-            <h2 className="text-2xl font-bold text-gray-900 mb-3" itemProp="name">Cash, Check, or Money Order</h2>
-            <p className="text-gray-600 mb-6 flex-grow" itemProp="description">
+            <h2 className="text-2xl font-bold text-gray-900 mb-3">Cash, Check, or Money Order</h2>
+            <p className="text-gray-600 mb-6 flex-grow">
               Checks and money orders can be made out to Joseph Iannazzi and mailed to the address below.
             </p>
             <div className="w-full bg-gray-100 p-4 rounded-lg">
-                <p className="text-gray-800 font-medium" itemProp="address" itemScope itemType="https://schema.org/PostalAddress">
-                  <span itemProp="streetAddress">564 E 138th Pl</span><br/>
-                  <span itemProp="addressLocality">Glenpool</span>, <span itemProp="addressRegion">OK</span> <span itemProp="postalCode">74033</span>
+                <p className="text-gray-800 font-medium">
+                  564 E 138th Pl<br/>
+                  Glenpool, OK 74033
                 </p>
             </div>
           </div>
