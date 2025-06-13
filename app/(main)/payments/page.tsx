@@ -6,7 +6,7 @@ import { CreditCard, DollarSign, ArrowRight } from 'lucide-react';
 export default function PaymentsPage() {
   return (
     <main className="min-h-screen bg-gray-50 font-sans">
-      {/* --- EDITED --- Reduced bottom padding (pb-16 to pb-12) to close the gap */}
+      {/* --- EDITED --- Reduced bottom padding (pb-12 to pb-8) to close the gap */}
       <div className="pt-24 pb-8">
         {/* Header */}
         <div className="text-center px-4">
