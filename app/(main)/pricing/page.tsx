@@ -1,15 +1,16 @@
-import React from 'react';
-import { Metadata } from 'next';
+"use client"; // This is required for the scrolling logic to work
+
+import React, { useEffect } from 'react';
 import { CheckCircle, Truck } from 'lucide-react';
 
+// NOTE: Metadata is typically handled in a parent 'layout.js' file in Next.js 13+
+// when a page is a client component. I'm leaving this commented out to prevent errors.
+/*
+import { Metadata } from 'next';
 export const metadata: Metadata = {
-  title: 'Service Pricing & Packages | Just Legal Solutions',
-  description: 'Transparent pricing for process serving, document delivery, and legal support services. Competitive rates with standard, rush, and same-day service options.',
-  openGraph: {
-    title: 'Service Pricing & Packages | Just Legal Solutions',
-    description: 'Transparent pricing for process serving, document delivery, and legal support services. Competitive rates with standard, rush, and same-day service options.'
-  }
+  // ... your metadata
 };
+*/
 
 // Data for additional services for easy management
 const additionalServices = [
@@ -25,8 +26,25 @@ const additionalServices = [
 
 
 export default function PricingPage() {
+  
+  // --- THIS IS THE NEW SCROLLING LOGIC ---
+  useEffect(() => {
+    // We check the URL for a hash (#)
+    const hash = window.location.hash;
+    if (hash) {
+      // Find the element on the page with that ID
+      const element = document.querySelector(hash);
+      if (element) {
+        // Scroll to that element smoothly
+        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
+  }, []); // This runs only once when the page loads
+
   return (
     <main className="min-h-screen bg-white font-sans">
+      {/* ... THE REST OF YOUR PAGE CONTENT REMAINS UNCHANGED ... */}
+      
       {/* Partner Section */}
       <section className="pt-24 pb-16 px-4 bg-gray-100">
         <div className="max-w-7xl mx-auto text-center">
@@ -138,7 +156,7 @@ export default function PricingPage() {
       </section>
 
       {/* Policies Section */}
-      <section className="py-16 px-4 bg-gray-100">
+      <section id="policies" className="py-16 px-4 bg-gray-100">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-6 text-gray-900">Our Policies</h2>
           <div className="text-left grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -154,7 +172,6 @@ export default function PricingPage() {
                 At Just Legal Solutions, we adhere to Oklahoma's due diligence standards. This means our process servers make multiple attempts at different times of day and on different days of the week to demonstrate a thorough and reasonable effort to effectuate personal service before considering alternatives.
                 </p>
             </div>
-            {/* --- EDITED SECTION START --- */}
             <div>
                  <h3 className="text-xl font-bold mb-3 text-gray-800">Payment & Late Fee Policy</h3>
                 <p className="text-gray-700">
@@ -163,7 +180,6 @@ export default function PricingPage() {
                     For established clients, payment is due on the date specified on the invoice. If payment is not received in full by the due date, a one-time late fee of <strong>$40.00</strong> will be assessed. Furthermore, a service charge of <strong>0.5%</strong> of the total outstanding balance will be applied for each day the payment is late, beginning the day after the due date, until the balance is paid in full.
                 </p>
             </div>
-            {/* --- EDITED SECTION END --- */}
           </div>
         </div>
       </section>
