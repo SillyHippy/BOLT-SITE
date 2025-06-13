@@ -139,9 +139,9 @@ export default function PricingPage() {
 
       {/* Policies Section */}
       <section className="py-16 px-4 bg-gray-100">
-        <div className="max-w-5xl mx-auto text-center">
+        <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-6 text-gray-900">Our Policies</h2>
-          <div className="text-left grid grid-cols-1 md:grid-cols-2 gap-10">
+          <div className="text-left grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
                 <h3 className="text-xl font-bold mb-3 text-gray-800">Non-Service Policy</h3>
                 <p className="text-gray-700">
@@ -154,9 +154,16 @@ export default function PricingPage() {
                 At Just Legal Solutions, we adhere to Oklahoma's due diligence standards. This means our process servers make multiple attempts at different times of day and on different days of the week to demonstrate a thorough and reasonable effort to effectuate personal service before considering alternatives.
                 </p>
             </div>
+            <div>
+                 <h3 className="text-xl font-bold mb-3 text-gray-800">Payment Policy</h3>
+                <p className="text-gray-700">
+                To ensure a seamless start to our partnership, prepayment is required for all new clients. This allows us to dedicate our resources to your case without delay. For our established clients, we offer flexible invoicing options based on our history together. We appreciate your understanding and cooperation.
+                </p>
+            </div>
           </div>
         </div>
       </section>
     </main>
   );
 }
+
