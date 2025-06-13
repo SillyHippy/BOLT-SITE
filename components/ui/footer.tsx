@@ -19,7 +19,7 @@ export function Footer() {
 
   return (
     <footer className="bg-white" id="contact">
-      <div className="max-w-7xl mx-auto px-4 pt-12 pb-8"> {/* Increased bottom padding slightly for better balance */}
+      <div className="max-w-7xl mx-auto px-4 pt-12 pb-1"> {/* Increased bottom padding slightly for better balance */}
         <h2 className="text-3xl font-bold mb-6">GET IN TOUCH</h2>
         <p className="text-gray-600 mb-6">
           For any inquiries, please reach out via phone, text, or email. We&apos;re here to assist you.
