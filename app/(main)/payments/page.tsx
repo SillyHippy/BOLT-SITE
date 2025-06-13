@@ -12,8 +12,8 @@ export default function PaymentsPage() {
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Make a Payment</h1>
           {/* --- EDITED SECTION START --- */}
           <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-16">
-            We offer several convenient ways to pay your invoice. All payments are due within 3 days of the invoice date. Please be aware that past-due invoices are subject to fees as outlined in our{' '}
-            <a href="/payment-policy" className="text-blue-600 hover:underline font-medium">
+            We offer several convenient ways to pay your invoice. Please note that payment is due on the date specified on the invoice. For our full payment terms, please see our{' '}
+            <a href="/pricing" className="text-blue-600 hover:underline font-medium">
               Payment & Late Fee Policy
             </a>.
             <br/><br/>
