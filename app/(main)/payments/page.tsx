@@ -5,13 +5,15 @@ import { CreditCard, DollarSign, ArrowRight } from 'lucide-react';
 
 export default function PaymentsPage() {
   return (
-    <main className="min-h-screen bg-gray-50 font-sans">
-      {/* --- EDITED --- Reduced bottom padding (pb-12 to pb-8) to close the gap */}
-      <div className="pt-24 pb-4">
+    // --- EDITED --- Removed the "min-h-screen" class to fix the large gap
+    <main className="bg-gray-50 font-sans">
+      {/* --- EDITED --- Adjusted bottom padding for better spacing */}
+      <div className="pt-24 pb-20">
         {/* Header */}
         <div className="text-center px-4">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Make a Payment</h1>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-16">
+          {/* --- EDITED --- Reduced bottom margin (mb-16 to mb-12) */}
+          <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-12">
             We offer several convenient ways to pay your invoice. Please note that payment is due on the date specified on the invoice. For our full payment terms, please see our{' '}
             <a href="/pricing#policies" className="text-blue-600 hover:underline font-medium">
               Payment & Late Fee Policy
