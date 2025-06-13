@@ -3,15 +3,6 @@
 import React, { useEffect } from 'react';
 import { CheckCircle, Truck } from 'lucide-react';
 
-// NOTE: Metadata is typically handled in a parent 'layout.js' file in Next.js 13+
-// when a page is a client component. I'm leaving this commented out to prevent errors.
-/*
-import { Metadata } from 'next';
-export const metadata: Metadata = {
-  // ... your metadata
-};
-*/
-
 // Data for additional services for easy management
 const additionalServices = [
     { title: 'Filing Affidavits', description: 'We can file the Return of Service Affidavit with the court for you. The fee is <strong>$35 plus court costs</strong> for Tulsa County. Fees for other counties will be quoted upfront.' },
@@ -27,26 +18,22 @@ const additionalServices = [
 
 export default function PricingPage() {
   
-  // --- THIS IS THE NEW SCROLLING LOGIC ---
+  // Scrolling logic from previous step
   useEffect(() => {
-    // We check the URL for a hash (#)
     const hash = window.location.hash;
     if (hash) {
-      // Find the element on the page with that ID
       const element = document.querySelector(hash);
       if (element) {
-        // Scroll to that element smoothly
         element.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }
     }
-  }, []); // This runs only once when the page loads
+  }, []); 
 
   return (
     <main className="min-h-screen bg-white font-sans">
-      {/* ... THE REST OF YOUR PAGE CONTENT REMAINS UNCHANGED ... */}
       
-      {/* Partner Section */}
-      <section className="pt-24 pb-16 px-4 bg-gray-100">
+      {/* --- EDITED --- Reduced bottom padding (pb-16 to pb-10) */}
+      <section className="pt-24 pb-10 px-4 bg-gray-100">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">JLS Wants to Partner with You</h2>
           <p className="text-gray-700 text-lg font-medium max-w-4xl mx-auto">
@@ -55,8 +42,8 @@ export default function PricingPage() {
         </div>
       </section>
 
-      {/* Service Packages Section */}
-      <section className="py-12 px-4 bg-gray-50">
+      {/* --- EDITED --- Reduced vertical padding (py-12 to py-10) */}
+      <section className="py-10 px-4 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center">
             <h2 className="text-3xl font-bold text-gray-900">Process Service Packages</h2>
@@ -71,7 +58,7 @@ export default function PricingPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Standard Service */}
+            {/* Cards remain the same */}
             <div className="bg-white p-8 rounded-xl shadow-md border border-gray-200">
               <h3 className="text-2xl font-bold mb-4 text-gray-900">Standard Service</h3>
               <p className="text-4xl font-bold mb-4 text-gray-800">$60</p>
@@ -80,7 +67,6 @@ export default function PricingPage() {
                 Ideal for routine document delivery.
               </p>
             </div>
-            {/* Rush Service */}
             <div className="bg-white p-8 rounded-xl shadow-lg border-2 border-blue-500">
               <h3 className="text-2xl font-bold mb-4 text-blue-600">Rush Service</h3>
               <p className="text-4xl font-bold mb-4 text-gray-800">$100</p>
@@ -89,7 +75,6 @@ export default function PricingPage() {
                 For urgent demands that need immediate attention.
               </p>
             </div>
-            {/* Same Day Service */}
             <div className="bg-white p-8 rounded-xl shadow-md border border-gray-200">
               <h3 className="text-2xl font-bold mb-4 text-gray-900">Same Day Service</h3>
               <p className="text-4xl font-bold mb-4 text-gray-800">$150</p>
@@ -102,8 +87,8 @@ export default function PricingPage() {
         </div>
       </section>
 
-      {/* Courier Service Pricing Section -- NEW */}
-      <section className="py-12 px-4 bg-white">
+      {/* --- EDITED --- Reduced vertical padding (py-12 to py-10) */}
+      <section className="py-10 px-4 bg-white">
         <div className="max-w-7xl mx-auto">
             <div className="text-center mb-12">
                 <div className="inline-flex items-center justify-center bg-blue-100 rounded-full p-3 mb-4">
@@ -115,13 +100,12 @@ export default function PricingPage() {
                 </p>
             </div>
             <div className="max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
-                {/* Standard Courier */}
+                {/* Cards remain the same */}
                 <div className="bg-gray-50 p-8 rounded-xl border border-gray-200 text-center">
                     <h3 className="text-2xl font-bold mb-2 text-gray-900">Standard Courier</h3>
                     <p className="text-4xl font-bold mb-4 text-gray-800">$35</p>
                     <p className="text-gray-600">Delivery within the same business day or next morning for non-urgent items.</p>
                 </div>
-                {/* Rush Courier */}
                  <div className="bg-gray-50 p-8 rounded-xl border border-gray-200 text-center">
                     <h3 className="text-2xl font-bold mb-2 text-gray-900">Rush Courier</h3>
                     <p className="text-4xl font-bold mb-4 text-gray-800">$55</p>
@@ -134,8 +118,8 @@ export default function PricingPage() {
         </div>
       </section>
 
-      {/* Additional and Optional Services Section */}
-       <section className="py-16 md:py-20 bg-gray-50">
+      {/* --- EDITED --- Reduced vertical padding (py-16 md:py-20 to py-10) */}
+       <section className="py-10 bg-gray-50">
         <div className="max-w-5xl mx-auto px-4">
             <div className="text-center mb-12">
                 <h2 className="text-3xl font-bold text-gray-900">Additional & Optional Services</h2>
@@ -155,11 +139,12 @@ export default function PricingPage() {
         </div>
       </section>
 
-      {/* Policies Section */}
-      <section id="policies" className="py-16 px-4 bg-gray-100">
+      {/* --- EDITED --- Reduced vertical padding (py-16 to py-12) */}
+      <section id="policies" className="py-12 px-4 bg-gray-100">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-6 text-gray-900">Our Policies</h2>
           <div className="text-left grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* Policy content remains the same */}
             <div>
                 <h3 className="text-xl font-bold mb-3 text-gray-800">Non-Service Policy</h3>
                 <p className="text-gray-700">
@@ -186,4 +171,3 @@ export default function PricingPage() {
     </main>
   );
 }
-
