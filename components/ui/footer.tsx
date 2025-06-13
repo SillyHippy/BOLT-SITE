@@ -405,6 +405,7 @@ export function Footer() {
             </p>
           </div>
 
+          {/* --- EDITED SECTION START --- */}
           {/* Payments Section */}
           <div>
             <h3 className="text-xl font-bold mb-4">Payments</h3>
@@ -418,19 +419,30 @@ export function Footer() {
               </a>
               , cash, checks, or money orders. Payments should be made payable
               to Joseph Iannazzi and mailed to: 564 E 138th Pl, Glenpool, OK
-              74033. Please ensure that payment is made in full within 3 days
-              of the invoice date.
+              74033. Past-due invoices are subject to our{' '}
+              <a href="/pricing#policies" className="text-blue-600 hover:text-blue-800">
+                Payment & Late Fee Policy
+              </a>.
             </p>
           </div>
+          {/* --- EDITED SECTION END --- */}
         </div>
 
         {/* Disclaimer Section */}
+        {/* --- EDITED SECTION START --- */}
         <div className="mt-6 pt-8 border-t border-gray-200">
+            <div className="text-center text-sm text-gray-500 mb-2">
+                <a href="/pricing#policies" className="text-gray-500 hover:text-gray-700 hover:underline">
+                    Payment & Late Fee Policy
+                </a>
+            </div>
             <p className="text-center text-sm text-gray-500">
                 Disclaimer: Just Legal Solutions is not a law firm For legal questions, please consult a licensed attorney.
             </p>
         </div>
+        {/* --- EDITED SECTION END --- */}
       </div>
     </footer>
   );
 }
+
