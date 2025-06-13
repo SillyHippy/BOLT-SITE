@@ -7,7 +7,7 @@ export default function PaymentsPage() {
   return (
     <main className="min-h-screen bg-gray-50 font-sans">
       {/* --- EDITED --- Reduced bottom padding (pb-16 to pb-12) to close the gap */}
-      <div className="pt-24 pb-12">
+      <div className="pt-24 pb-8">
         {/* Header */}
         <div className="text-center px-4">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Make a Payment</h1>
