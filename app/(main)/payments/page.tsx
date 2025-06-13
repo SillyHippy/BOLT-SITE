@@ -6,7 +6,7 @@ import { CreditCard, DollarSign, ArrowRight } from 'lucide-react';
 export default function PaymentsPage() {
   return (
     <main className="min-h-screen bg-gray-50 font-sans">
-      <div className="pt-24 pb-16">
+      <div className="pt-24 pb-10">
         {/* Header */}
         <div className="text-center px-4">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Make a Payment</h1>
