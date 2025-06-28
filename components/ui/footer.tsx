@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+// Removed useRouter as it was causing build issues and wasn't necessary for the button's function.
 
 export function Footer() {
   const [showForm, setShowForm] = useState(false);
@@ -108,7 +109,7 @@ export function Footer() {
               <h3 className="text-lg font-semibold leading-6 text-gray-900 border-b pb-2">Service Details</h3>
               <div>
                   <label htmlFor="docs-to-be-served" className="block text-sm font-bold text-gray-700">List Documents to Be Served <span className="bg-yellow-200 px-1 rounded">As To Be Listed on Affidavit</span> <span className="text-xs font-normal text-gray-500">(separated by semi-colons)</span> <span className="text-red-500">*</span></label>
-                  <textarea id="docs-to-be-served" name="documents_to_be_served" rows="4" required placeholder="e.g., Summons; Complaint; Notice of Hearing" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"></textarea>
+                  <textarea id="docs-to-be-served" name="documents_to_be_served" rows={4} required placeholder="e.g., Summons; Complaint; Notice of Hearing" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"></textarea>
                   <p className="mt-1 text-xs text-gray-500">This information will be copied and pasted for the affidavit. Please list it accordingly.</p>
               </div>
               <div><label htmlFor="servee-name" className="block text-sm font-bold text-gray-700">Name of Individual or Business to Be Served <span className="text-xs font-normal text-gray-500">(do not type all caps)</span> <span className="text-red-500">*</span></label><input type="text" id="servee-name" name="name_of_servee" required className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
@@ -133,7 +134,7 @@ export function Footer() {
               </div>
               <div>
                 <label htmlFor="instructions" className="block text-sm font-bold text-gray-700">Service Instructions and/or Notes? <span className="text-xs font-normal text-gray-500">(If any. Do not attach special instructions. Enter them here.)</span></label>
-                <textarea id="instructions" name="service_instructions" rows="4" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"></textarea>
+                <textarea id="instructions" name="service_instructions" rows={4} className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"></textarea>
               </div>
               <div>
                 <label className="block text-sm font-bold text-gray-700">Will the servee be cooperative to be served if we were to contact them in advance of service?</label>
