@@ -4,9 +4,38 @@ import { useState } from "react";
 
 export function Footer() {
   const [showForm, setShowForm] = useState(false);
+  const [submissionStatus, setSubmissionStatus] = useState("idle"); // 'idle', 'submitting', 'success', 'error'
 
   const toggleForm = () => {
     setShowForm((prev) => !prev);
+    setSubmissionStatus("idle"); // Reset status when toggling form
+  };
+  
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    setSubmissionStatus("submitting");
+
+    const form = event.target;
+    const data = new FormData(form);
+
+    try {
+      const response = await fetch(form.action, {
+        method: form.method,
+        body: data,
+        headers: {
+          'Accept': 'application/json'
+        }
+      });
+
+      if (response.ok) {
+        setSubmissionStatus("success");
+        form.reset();
+      } else {
+        setSubmissionStatus("error");
+      }
+    } catch (error) {
+      setSubmissionStatus("error");
+    }
   };
 
   return (
@@ -39,129 +68,149 @@ export function Footer() {
 
         {showForm && (
           <div className="bg-gray-50 p-6 rounded-lg mb-8 border border-gray-200">
-            <h3 className="text-2xl font-bold mb-4 text-center">Process Service E-Z Intake Information</h3>
-            <form
-              action="https://formsubmit.co/info@JustLegalSolutions.org"
-              method="POST"
-              className="space-y-6"
-            >
-              {/* FormSubmit Hidden Fields */}
-              <input type="hidden" name="_subject" value="New Service Request from Website Form" />
-              <input type="hidden" name="_captcha" value="false" />
-              <input type="hidden" name="_template" value="table" />
-              <input type="hidden" name="_next" value="https://justlegalsolutions.org" />
-
-              {/* Service Type */}
-              <div>
-                <label className="block text-sm font-bold text-gray-700">Is Personal Service required instead of a designee or sub service? <span className="text-xs font-normal text-gray-500">(Select all that apply)</span></label>
-                <div className="mt-2 flex flex-wrap gap-x-6 gap-y-2">
-                  <div className="flex items-center"><input id="personal-service-opt" name="service_type_personal" type="checkbox" className="h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500" /><label htmlFor="personal-service-opt" className="ml-2 block text-sm text-gray-900">Personal Service</label></div>
-                  <div className="flex items-center"><input id="sub-service-opt" name="service_type_sub" type="checkbox" className="h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500" /><label htmlFor="sub-service-opt" className="ml-2 block text-sm text-gray-900">Sub Service at a Residence Allowed</label></div>
-                  <div className="flex items-center"><input id="designee-service-opt" name="service_type_designee" type="checkbox" className="h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500" /><label htmlFor="designee-service-opt" className="ml-2 block text-sm text-gray-900">Authorized Designee</label></div>
+            {submissionStatus === 'success' ? (
+                <div className="text-center py-10">
+                    <h3 className="text-2xl font-bold text-green-600 mb-2">Thank You!</h3>
+                    <p className="text-gray-700">Your service request has been submitted successfully.</p>
                 </div>
-              </div>
+            ) : submissionStatus === 'error' ? (
+                <div className="text-center py-10">
+                    <h3 className="text-2xl font-bold text-red-600 mb-2">Something Went Wrong</h3>
+                    <p className="text-gray-700">We couldn't submit your form. Please try again later or email us directly.</p>
+                </div>
+            ) : (
+            <>
+              <h3 className="text-2xl font-bold mb-4 text-center">Process Service E-Z Intake Information</h3>
+              <form
+                action="https://formsubmit.co/info@JustLegalSolutions.org"
+                method="POST"
+                onSubmit={handleSubmit}
+                className="space-y-6"
+              >
+                {/* FormSubmit Hidden Fields */}
+                <input type="hidden" name="_subject" value="New Service Request from Website Form" />
+                <input type="hidden" name="_captcha" value="false" />
+                <input type="hidden" name="_template" value="table" />
+                
+                {/* Service Type */}
+                <div>
+                  <label className="block text-sm font-bold text-gray-700">Is Personal Service required instead of a designee or sub service? <span className="text-xs font-normal text-gray-500">(Select all that apply)</span></label>
+                  <div className="mt-2 flex flex-wrap gap-x-6 gap-y-2">
+                    <div className="flex items-center"><input id="personal-service-opt" name="service_type_personal" type="checkbox" className="h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500" /><label htmlFor="personal-service-opt" className="ml-2 block text-sm text-gray-900">Personal Service</label></div>
+                    <div className="flex items-center"><input id="sub-service-opt" name="service_type_sub" type="checkbox" className="h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500" /><label htmlFor="sub-service-opt" className="ml-2 block text-sm text-gray-900">Sub Service at a Residence Allowed</label></div>
+                    <div className="flex items-center"><input id="designee-service-opt" name="service_type_designee" type="checkbox" className="h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500" /><label htmlFor="designee-service-opt" className="ml-2 block text-sm text-gray-900">Authorized Designee</label></div>
+                  </div>
+                </div>
 
-              <hr/>
+                <hr/>
               
-              {/* New Service Type Section */}
-              <div>
-                <label className="block text-sm font-bold text-gray-700">Service Type</label>
-                <div className="mt-2 space-y-4">
-                    <div className="flex items-start"><div className="flex items-center h-5"><input id="service-standard" name="service_type" type="radio" value="Standard - $60" className="h-4 w-4 text-blue-600 border-gray-300 focus:ring-blue-500" /></div><div className="ml-3 text-sm"><label htmlFor="service-standard" className="font-medium text-gray-900">Standard Service - $60</label><p className="text-gray-500">Ideal for routine document delivery. First Service Attempt Within 5 Business Days (usually sooner)</p></div></div>
-                    <div className="flex items-start"><div className="flex items-center h-5"><input id="service-rush" name="service_type" type="radio" value="Rush - $100" className="h-4 w-4 text-blue-600 border-gray-300 focus:ring-blue-500" /></div><div className="ml-3 text-sm"><label htmlFor="service-rush" className="font-medium text-gray-900">Rush Service - $100</label><p className="text-gray-500">For urgent demands that need immediate attention. A JLS Agent Will Attempt Service Within 72 Hours or Sooner based on availability</p></div></div>
-                    <div className="flex items-start"><div className="flex items-center h-5"><input id="service-same-day" name="service_type" type="radio" value="Same Day - $150" className="h-4 w-4 text-blue-600 border-gray-300 focus:ring-blue-500" /></div><div className="ml-3 text-sm"><label htmlFor="service-same-day" className="font-medium text-gray-900">Same Day Service - $150</label><p className="text-gray-500">For urgent time-critical matters. A JLS Agent Will Attempt Service Within 24 Hours or Sooner based on availability</p></div></div>
-                    <div className="flex items-start"><div className="flex items-center h-5"><input id="service-other" name="service_type" type="radio" value="Other" className="h-4 w-4 text-blue-600 border-gray-300 focus:ring-blue-500" /></div><div className="ml-3 text-sm flex-grow"><label htmlFor="service-other" className="font-medium text-gray-900">Other</label><input type="text" name="service_type_other_details" placeholder="Please specify" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div></div>
+                {/* New Service Type Section */}
+                <div>
+                  <label className="block text-sm font-bold text-gray-700">Service Type</label>
+                  <div className="mt-2 space-y-4">
+                      <div className="flex items-start"><div className="flex items-center h-5"><input id="service-standard" name="service_type" type="radio" value="Standard - $60" className="h-4 w-4 text-blue-600 border-gray-300 focus:ring-blue-500" /></div><div className="ml-3 text-sm"><label htmlFor="service-standard" className="font-medium text-gray-900">Standard Service - $60</label><p className="text-gray-500">Ideal for routine document delivery. First Service Attempt Within 5 Business Days (usually sooner)</p></div></div>
+                      <div className="flex items-start"><div className="flex items-center h-5"><input id="service-rush" name="service_type" type="radio" value="Rush - $100" className="h-4 w-4 text-blue-600 border-gray-300 focus:ring-blue-500" /></div><div className="ml-3 text-sm"><label htmlFor="service-rush" className="font-medium text-gray-900">Rush Service - $100</label><p className="text-gray-500">For urgent demands that need immediate attention. A JLS Agent Will Attempt Service Within 72 Hours or Sooner based on availability</p></div></div>
+                      <div className="flex items-start"><div className="flex items-center h-5"><input id="service-same-day" name="service_type" type="radio" value="Same Day - $150" className="h-4 w-4 text-blue-600 border-gray-300 focus:ring-blue-500" /></div><div className="ml-3 text-sm"><label htmlFor="service-same-day" className="font-medium text-gray-900">Same Day Service - $150</label><p className="text-gray-500">For urgent time-critical matters. A JLS Agent Will Attempt Service Within 24 Hours or Sooner based on availability</p></div></div>
+                      <div className="flex items-start"><div className="flex items-center h-5"><input id="service-other" name="service_type" type="radio" value="Other" className="h-4 w-4 text-blue-600 border-gray-300 focus:ring-blue-500" /></div><div className="ml-3 text-sm flex-grow"><label htmlFor="service-other" className="font-medium text-gray-900">Other</label><input type="text" name="service_type_other_details" placeholder="Please specify" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div></div>
+                  </div>
                 </div>
-              </div>
 
-              {/* Your Information Section */}
-              <h3 className="text-lg font-semibold leading-6 text-gray-900 border-b pb-2">Your Information</h3>
-              <div>
-                <label htmlFor="firm-name" className="block text-sm font-bold text-gray-700">Your Firm or Company Name (Your Name if Pro Se) <span className="text-red-500">*</span></label>
-                <input type="text" id="firm-name" name="firm_or_company_name" required className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/>
-              </div>
-              <div>
-                 <label className="block text-sm font-bold text-gray-700">Your Address</label>
-                 <input type="text" name="your_address_street" placeholder="Street Address" className="mt-1 mb-2 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/>
-                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                    <input type="text" name="your_address_city" placeholder="City" className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/>
-                    <input type="text" name="your_address_state" placeholder="State/Region/Province" className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/>
-                    <input type="text" name="your_address_zip" placeholder="Postal / Zip Code" className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/>
-                 </div>
-              </div>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div><label htmlFor="phone" className="block text-sm font-bold text-gray-700">Your Phone Number <span className="text-red-500">*</span></label><input type="tel" id="phone" name="your_phone_number" required className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
-                <div><label htmlFor="email" className="block text-sm font-bold text-gray-700">Your Email Address <span className="text-red-500">*</span></label><input type="email" id="email" name="your_email_address" required className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
-              </div>
-              
-              {/* Case Information Section */}
-              <h3 className="text-lg font-semibold leading-6 text-gray-900 border-b pb-2">Case Information</h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div><label htmlFor="case-number" className="block text-sm font-bold text-gray-700">Case Number <span className="text-red-500">*</span></label><input type="text" id="case-number" name="case_number" required className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
-                <div><label htmlFor="deadline" className="block text-sm font-bold text-gray-700">Deadline for Service</label><input type="date" id="deadline" name="service_deadline" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
-                <div><label htmlFor="court-date" className="block text-sm font-bold text-gray-700">Court Date (if any)</label><input type="date" id="court-date" name="court_date" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
-                <div><label htmlFor="court-state" className="block text-sm font-bold text-gray-700">Originating Court - State <span className="text-red-500">*</span></label><input type="text" id="court-state" name="originating_court_state" required className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
-                <div><label htmlFor="court-county" className="block text-sm font-bold text-gray-700">County</label><input type="text" id="court-county" name="county" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
-                <div><label htmlFor="court-type" className="block text-sm font-bold text-gray-700">Type of Court <span className="text-xs font-normal text-gray-500">(e.g. Circuit, District, Superior)</span></label><input type="text" id="court-type" name="type_of_court" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
-              </div>
-              <div>
-                <label htmlFor="serving-for" className="block text-sm font-bold text-gray-700">We Are Serving This FOR/On Behalf of Plaintiff or Defendant</label>
-                <select id="serving-for" name="serving_for_plaintiff_or_defendant" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
-                    <option value="">-Select-</option><option value="Plaintiff/Petitioner">Plaintiff/Petitioner</option><option value="Defendant/Respondent">Defendant/Respondent</option><option value="Other">Other</option>
-                </select>
-              </div>
-              <div><label htmlFor="plaintiff" className="block text-sm font-bold text-gray-700">Plaintiff/ Petitioner <span className="text-red-500">*</span></label><input type="text" id="plaintiff" name="plaintiff_petitioner" required className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
-              <div><label htmlFor="defendant" className="block text-sm font-bold text-gray-700">Defendant/ Respondent <span className="text-red-500">*</span></label><input type="text" id="defendant" name="defendant_respondent" required className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
-
-              {/* Service Details Section */}
-              <h3 className="text-lg font-semibold leading-6 text-gray-900 border-b pb-2">Service Details</h3>
-              <div>
-                  <label htmlFor="docs-to-be-served" className="block text-sm font-bold text-gray-700">List Documents to Be Served <span className="bg-yellow-200 px-1 rounded">As To Be Listed on Affidavit</span> <span className="text-xs font-normal text-gray-500">(separated by semi-colons)</span> <span className="text-red-500">*</span></label>
-                  <textarea id="docs-to-be-served" name="documents_to_be_served" rows={4} required placeholder="e.g., Summons; Complaint; Notice of Hearing" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"></textarea>
-                  <p className="mt-1 text-xs text-gray-500">This information will be copied and pasted for the affidavit. Please list it accordingly.</p>
-              </div>
-              <div><label htmlFor="servee-name" className="block text-sm font-bold text-gray-700">Name of Individual or Business to Be Served <span className="text-red-500">*</span></label><input type="text" id="servee-name" name="name_of_servee" required className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
-              <div><label htmlFor="agent-name" className="block text-sm font-bold text-gray-700">If Serving a Business, Agent to Be Served/Title</label><input type="text" id="agent-name" name="agent_to_be_served" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
-              <div>
-                <label className="block text-sm font-bold text-gray-700">Type of Address</label>
-                <div className="mt-2 flex items-center gap-6">
-                  <div className="flex items-center"><input id="addr-home" name="addr_type_home" type="checkbox" className="h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500" /><label htmlFor="addr-home" className="ml-2 block text-sm text-gray-900">Home</label></div>
-                  <div className="flex items-center"><input id="addr-biz" name="addr_type_biz" type="checkbox" className="h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500" /><label htmlFor="addr-biz" className="ml-2 block text-sm text-gray-900">Business</label></div>
-                  <div className="flex items-center"><input id="addr-other" name="addr_type_other" type="checkbox" className="h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500" /><label htmlFor="addr-other" className="ml-2 block text-sm text-gray-900">Other</label></div>
+                {/* Your Information Section */}
+                <h3 className="text-lg font-semibold leading-6 text-gray-900 border-b pb-2">Your Information</h3>
+                <div>
+                  <label htmlFor="firm-name" className="block text-sm font-bold text-gray-700">Your Firm or Company Name (Your Name if Pro Se) <span className="text-red-500">*</span></label>
+                  <input type="text" id="firm-name" name="firm_or_company_name" required className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/>
                 </div>
-              </div>
-              <div>
-                <label className="block text-sm font-bold text-gray-700">Service Address <span className="text-red-500">*</span></label>
-                <input type="text" name="service_address_street" placeholder="Street Address" required className="mt-1 mb-2 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/>
-                <input type="text" name="service_address_line2" placeholder="Address Line 2 (Apt, Suite, etc.)" className="mb-2 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                  <input type="text" name="service_address_city" placeholder="City" required className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/>
-                  <input type="text" name="service_address_state" placeholder="State/Region/Province" required className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/>
-                  <input type="text" name="service_address_zip" placeholder="Postal / Zip Code" required className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/>
+                <div>
+                   <label className="block text-sm font-bold text-gray-700">Your Address</label>
+                   <input type="text" name="your_address_street" placeholder="Street Address" className="mt-1 mb-2 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/>
+                   <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                      <input type="text" name="your_address_city" placeholder="City" className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/>
+                      <input type="text" name="your_address_state" placeholder="State/Region/Province" className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/>
+                      <input type="text" name="your_address_zip" placeholder="Postal / Zip Code" className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/>
+                   </div>
                 </div>
-              </div>
-              <div>
-                <label htmlFor="instructions" className="block text-sm font-bold text-gray-700">Service Instructions and/or Notes? <span className="text-xs font-normal text-gray-500">(If any. Do not attach special instructions. Enter them here.)</span></label>
-                <textarea id="instructions" name="service_instructions" rows={4} className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"></textarea>
-              </div>
-              <div>
-                <label className="block text-sm font-bold text-gray-700">Will the servee be cooperative to be served if we were to contact them in advance of service?</label>
-                <div className="mt-2 flex items-center gap-6">
-                    <div className="flex items-center"><input id="cooperative-yes" name="is_servee_cooperative" type="radio" value="Yes" className="h-4 w-4 text-blue-600 border-gray-300 focus:ring-blue-500" /><label htmlFor="cooperative-yes" className="ml-2 block text-sm text-gray-900">Yes</label></div>
-                    <div className="flex items-center"><input id="cooperative-no" name="is_servee_cooperative" type="radio" value="No" className="h-4 w-4 text-blue-600 border-gray-300 focus:ring-blue-500" /><label htmlFor="cooperative-no" className="ml-2 block text-sm text-gray-900">No</label></div>
-                    <div className="flex items-center"><input id="cooperative-unknown" name="is_servee_cooperative" type="radio" value="Unknown" className="h-4 w-4 text-blue-600 border-gray-300 focus:ring-blue-500" /><label htmlFor="cooperative-unknown" className="ml-2 block text-sm text-gray-900">Unknown</label></div>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div><label htmlFor="phone" className="block text-sm font-bold text-gray-700">Your Phone Number <span className="text-red-500">*</span></label><input type="tel" id="phone" name="your_phone_number" required className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
+                  <div><label htmlFor="email" className="block text-sm font-bold text-gray-700">Your Email Address <span className="text-red-500">*</span></label><input type="email" id="email" name="your_email_address" required className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
                 </div>
-              </div>
+                
+                {/* Case Information Section */}
+                <h3 className="text-lg font-semibold leading-6 text-gray-900 border-b pb-2">Case Information</h3>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div><label htmlFor="case-number" className="block text-sm font-bold text-gray-700">Case Number <span className="text-red-500">*</span></label><input type="text" id="case-number" name="case_number" required className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
+                  <div><label htmlFor="deadline" className="block text-sm font-bold text-gray-700">Deadline for Service</label><input type="date" id="deadline" name="service_deadline" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
+                  <div><label htmlFor="court-date" className="block text-sm font-bold text-gray-700">Court Date (if any)</label><input type="date" id="court-date" name="court_date" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
+                  <div><label htmlFor="court-state" className="block text-sm font-bold text-gray-700">Originating Court - State <span className="text-red-500">*</span></label><input type="text" id="court-state" name="originating_court_state" required className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
+                  <div><label htmlFor="court-county" className="block text-sm font-bold text-gray-700">County</label><input type="text" id="court-county" name="county" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
+                  <div><label htmlFor="court-type" className="block text-sm font-bold text-gray-700">Type of Court <span className="text-xs font-normal text-gray-500">(e.g. Circuit, District, Superior)</span></label><input type="text" id="court-type" name="type_of_court" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
+                </div>
+                <div>
+                  <label htmlFor="serving-for" className="block text-sm font-bold text-gray-700">We Are Serving This FOR/On Behalf of Plaintiff or Defendant</label>
+                  <select id="serving-for" name="serving_for_plaintiff_or_defendant" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                      <option value="">-Select-</option><option value="Plaintiff/Petitioner">Plaintiff/Petitioner</option><option value="Defendant/Respondent">Defendant/Respondent</option><option value="Other">Other</option>
+                  </select>
+                </div>
+                <div><label htmlFor="plaintiff" className="block text-sm font-bold text-gray-700">Plaintiff/ Petitioner <span className="text-red-500">*</span></label><input type="text" id="plaintiff" name="plaintiff_petitioner" required className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
+                <div><label htmlFor="defendant" className="block text-sm font-bold text-gray-700">Defendant/ Respondent <span className="text-red-500">*</span></label><input type="text" id="defendant" name="defendant_respondent" required className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
 
-              {/* Submit Documents Section */}
-              <h3 className="text-lg font-semibold leading-6 text-gray-900 border-b pb-2">Submit Documents</h3>
-              <div className="bg-blue-50 border border-blue-200 text-blue-800 text-center p-4 rounded-md">
-                  Please email all documents to:<br/>
-                  <a href="mailto:info@JustLegalSolutions.org" className="font-bold underline">info@JustLegalSolutions.org</a>
-              </div>
+                {/* Service Details Section */}
+                <h3 className="text-lg font-semibold leading-6 text-gray-900 border-b pb-2">Service Details</h3>
+                <div>
+                    <label htmlFor="docs-to-be-served" className="block text-sm font-bold text-gray-700">List Documents to Be Served <span className="bg-yellow-200 px-1 rounded">As To Be Listed on Affidavit</span> <span className="text-xs font-normal text-gray-500">(separated by semi-colons)</span> <span className="text-red-500">*</span></label>
+                    <textarea id="docs-to-be-served" name="documents_to_be_served" rows={4} required placeholder="e.g., Summons; Complaint; Notice of Hearing" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"></textarea>
+                    <p className="mt-1 text-xs text-gray-500">This information will be copied and pasted for the affidavit. Please list it accordingly.</p>
+                </div>
+                <div><label htmlFor="servee-name" className="block text-sm font-bold text-gray-700">Name of Individual or Business to Be Served <span className="text-red-500">*</span></label><input type="text" id="servee-name" name="name_of_servee" required className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
+                <div><label htmlFor="agent-name" className="block text-sm font-bold text-gray-700">If Serving a Business, Agent to Be Served/Title</label><input type="text" id="agent-name" name="agent_to_be_served" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
+                <div>
+                  <label className="block text-sm font-bold text-gray-700">Type of Address</label>
+                  <div className="mt-2 flex items-center gap-6">
+                    <div className="flex items-center"><input id="addr-home" name="addr_type_home" type="checkbox" className="h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500" /><label htmlFor="addr-home" className="ml-2 block text-sm text-gray-900">Home</label></div>
+                    <div className="flex items-center"><input id="addr-biz" name="addr_type_biz" type="checkbox" className="h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500" /><label htmlFor="addr-biz" className="ml-2 block text-sm text-gray-900">Business</label></div>
+                    <div className="flex items-center"><input id="addr-other" name="addr_type_other" type="checkbox" className="h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500" /><label htmlFor="addr-other" className="ml-2 block text-sm text-gray-900">Other</label></div>
+                  </div>
+                </div>
+                <div>
+                  <label className="block text-sm font-bold text-gray-700">Service Address <span className="text-red-500">*</span></label>
+                  <input type="text" name="service_address_street" placeholder="Street Address" required className="mt-1 mb-2 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/>
+                  <input type="text" name="service_address_line2" placeholder="Address Line 2 (Apt, Suite, etc.)" className="mb-2 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/>
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <input type="text" name="service_address_city" placeholder="City" required className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/>
+                    <input type="text" name="service_address_state" placeholder="State/Region/Province" required className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/>
+                    <input type="text" name="service_address_zip" placeholder="Postal / Zip Code" required className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/>
+                  </div>
+                </div>
+                <div>
+                  <label htmlFor="instructions" className="block text-sm font-bold text-gray-700">Service Instructions and/or Notes? <span className="text-xs font-normal text-gray-500">(If any. Do not attach special instructions. Enter them here.)</span></label>
+                  <textarea id="instructions" name="service_instructions" rows={4} className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"></textarea>
+                </div>
+                <div>
+                  <label className="block text-sm font-bold text-gray-700">Will the servee be cooperative to be served if we were to contact them in advance of service?</label>
+                  <div className="mt-2 flex items-center gap-6">
+                      <div className="flex items-center"><input id="cooperative-yes" name="is_servee_cooperative" type="radio" value="Yes" className="h-4 w-4 text-blue-600 border-gray-300 focus:ring-blue-500" /><label htmlFor="cooperative-yes" className="ml-2 block text-sm text-gray-900">Yes</label></div>
+                      <div className="flex items-center"><input id="cooperative-no" name="is_servee_cooperative" type="radio" value="No" className="h-4 w-4 text-blue-600 border-gray-300 focus:ring-blue-500" /><label htmlFor="cooperative-no" className="ml-2 block text-sm text-gray-900">No</label></div>
+                      <div className="flex items-center"><input id="cooperative-unknown" name="is_servee_cooperative" type="radio" value="Unknown" className="h-4 w-4 text-blue-600 border-gray-300 focus:ring-blue-500" /><label htmlFor="cooperative-unknown" className="ml-2 block text-sm text-gray-900">Unknown</label></div>
+                  </div>
+                </div>
 
-              <button type="submit" className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-md transition duration-300">Submit Your Job</button>
-            </form>
+                {/* Submit Documents Section */}
+                <h3 className="text-lg font-semibold leading-6 text-gray-900 border-b pb-2">Submit Documents</h3>
+                <div className="bg-blue-50 border border-blue-200 text-blue-800 text-center p-4 rounded-md">
+                    Please email all documents to:<br/>
+                    <a href="mailto:info@JustLegalSolutions.org" className="font-bold underline">info@JustLegalSolutions.org</a>
+                </div>
+
+                <button 
+                  type="submit" 
+                  disabled={submissionStatus === 'submitting'}
+                  className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-md transition duration-300 disabled:bg-gray-400"
+                >
+                  {submissionStatus === 'submitting' ? 'Submitting...' : 'Submit Your Job'}
+                </button>
+              </form>
+            </>
+            )}
           </div>
         )}
 
