@@ -11,11 +11,11 @@ export function Footer() {
     setSubmissionStatus("idle"); // Reset status when toggling form
   };
   
-  const handleSubmit = async (event) => {
+  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     setSubmissionStatus("submitting");
 
-    const form = event.target;
+    const form = event.currentTarget;
     const data = new FormData(form);
 
     try {
@@ -31,9 +31,12 @@ export function Footer() {
         setSubmissionStatus("success");
         form.reset();
       } else {
+        const errorData = await response.json();
+        console.error("Form submission failed:", errorData);
         setSubmissionStatus("error");
       }
     } catch (error) {
+      console.error("An unexpected error occurred:", error);
       setSubmissionStatus("error");
     }
   };
@@ -42,8 +45,11 @@ export function Footer() {
     <footer className="bg-white" id="contact">
       <div className="max-w-7xl mx-auto px-4 pt-8 pb-6">
         <h2 className="text-3xl font-bold mb-6">GET IN TOUCH</h2>
-        <p className="text-gray-600 mb-6">
+        <p className="text-gray-600 mb-2">
           For any inquiries, please reach out via phone, text, or email. We&apos;re here to assist you.
+        </p>
+        <p className="text-blue-700 font-medium mb-6">
+          For Courier Services or other business solutions, please call or text for urgent matters. For non-time-sensitive inquiries, feel free to email.
         </p>
 
         <div className="flex flex-wrap gap-4 mb-8">
@@ -51,7 +57,7 @@ export function Footer() {
             onClick={toggleForm}
             className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
           >
-            {showForm ? "Close Form" : "Service Request Form"}
+            {showForm ? "Close Form" : "Serve Request Form"}
           </button>
           <a
             href="https://g.page/r/Cb81H1j9UTYxEBM/review"
@@ -213,13 +219,6 @@ export function Footer() {
             )}
           </div>
         )}
-
-        <div className="text-center mt-10 pt-6 border-t border-gray-200">
-            <h3 className="text-xl font-bold mb-4">Other Business Solutions</h3>
-            <p className="text-gray-600 px-4">
-                For Courier Services or other business solutions, please call or text for urgent matters. For non-time-sensitive inquiries, feel free to email.
-            </p>
-        </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
           {/* Email Section */}
