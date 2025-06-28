@@ -1,18 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import { useRouter } from 'next/navigation';
 
 export function Footer() {
   const [showForm, setShowForm] = useState(false);
-  const router = useRouter();
 
   const toggleForm = () => {
     setShowForm((prev) => !prev);
-  };
-
-  const handleNav = (path) => {
-    router.push(path);
   };
 
   return (
@@ -162,7 +156,6 @@ export function Footer() {
           </div>
         )}
 
-        {/* --- NEW SECTION FOR OTHER SERVICES --- */}
         <div className="text-center mt-10 pt-6 border-t border-gray-200">
             <h3 className="text-xl font-bold mb-4">Other Business Solutions</h3>
             <p className="text-gray-600">
