@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-// Removed useRouter as it was causing build issues and wasn't necessary for the button's function.
 
 export function Footer() {
   const [showForm, setShowForm] = useState(false);
@@ -50,7 +49,7 @@ export function Footer() {
               <input type="hidden" name="_subject" value="New Service Request from Website Form" />
               <input type="hidden" name="_captcha" value="false" />
               <input type="hidden" name="_template" value="table" />
-              <input type="hidden" name="_next" value="https://justlegalsolutions.org/thank-you" />
+              <input type="hidden" name="_next" value="https://justlegalsolutions.org" />
 
               {/* Service Type */}
               <div>
@@ -63,13 +62,24 @@ export function Footer() {
               </div>
 
               <hr/>
+              
+              {/* New Service Type Section */}
+              <div>
+                <label className="block text-sm font-bold text-gray-700">Service Type</label>
+                <div className="mt-2 space-y-4">
+                    <div className="flex items-start"><div className="flex items-center h-5"><input id="service-standard" name="service_type" type="radio" value="Standard - $60" className="h-4 w-4 text-blue-600 border-gray-300 focus:ring-blue-500" /></div><div className="ml-3 text-sm"><label htmlFor="service-standard" className="font-medium text-gray-900">Standard Service - $60</label><p className="text-gray-500">Ideal for routine document delivery. First Service Attempt Within 5 Business Days (usually sooner)</p></div></div>
+                    <div className="flex items-start"><div className="flex items-center h-5"><input id="service-rush" name="service_type" type="radio" value="Rush - $100" className="h-4 w-4 text-blue-600 border-gray-300 focus:ring-blue-500" /></div><div className="ml-3 text-sm"><label htmlFor="service-rush" className="font-medium text-gray-900">Rush Service - $100</label><p className="text-gray-500">For urgent demands that need immediate attention. A JLS Agent Will Attempt Service Within 72 Hours or Sooner based on availability</p></div></div>
+                    <div className="flex items-start"><div className="flex items-center h-5"><input id="service-same-day" name="service_type" type="radio" value="Same Day - $150" className="h-4 w-4 text-blue-600 border-gray-300 focus:ring-blue-500" /></div><div className="ml-3 text-sm"><label htmlFor="service-same-day" className="font-medium text-gray-900">Same Day Service - $150</label><p className="text-gray-500">For urgent time-critical matters. A JLS Agent Will Attempt Service Within 24 Hours or Sooner based on availability</p></div></div>
+                    <div className="flex items-start"><div className="flex items-center h-5"><input id="service-other" name="service_type" type="radio" value="Other" className="h-4 w-4 text-blue-600 border-gray-300 focus:ring-blue-500" /></div><div className="ml-3 text-sm flex-grow"><label htmlFor="service-other" className="font-medium text-gray-900">Other</label><input type="text" name="service_type_other_details" placeholder="Please specify" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div></div>
+                </div>
+              </div>
+
 
               {/* Your Information Section */}
               <h3 className="text-lg font-semibold leading-6 text-gray-900 border-b pb-2">Your Information</h3>
               <div>
                 <label htmlFor="firm-name" className="block text-sm font-bold text-gray-700">Your Firm or Company Name (Your Name if Pro Se) <span className="text-red-500">*</span></label>
                 <input type="text" id="firm-name" name="firm_or_company_name" required className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/>
-                <p className="mt-1 text-xs text-gray-500">If you are submitting multiple requests, you only have to fill this out on the first request.</p>
               </div>
               <div>
                  <label className="block text-sm font-bold text-gray-700">Your Address</label>
@@ -112,7 +122,7 @@ export function Footer() {
                   <textarea id="docs-to-be-served" name="documents_to_be_served" rows={4} required placeholder="e.g., Summons; Complaint; Notice of Hearing" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"></textarea>
                   <p className="mt-1 text-xs text-gray-500">This information will be copied and pasted for the affidavit. Please list it accordingly.</p>
               </div>
-              <div><label htmlFor="servee-name" className="block text-sm font-bold text-gray-700">Name of Individual or Business to Be Served <span className="text-xs font-normal text-gray-500">(do not type all caps)</span> <span className="text-red-500">*</span></label><input type="text" id="servee-name" name="name_of_servee" required className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
+              <div><label htmlFor="servee-name" className="block text-sm font-bold text-gray-700">Name of Individual or Business to Be Served <span className="text-red-500">*</span></label><input type="text" id="servee-name" name="name_of_servee" required className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
               <div><label htmlFor="agent-name" className="block text-sm font-bold text-gray-700">If Serving a Business, Agent to Be Served/Title</label><input type="text" id="agent-name" name="agent_to_be_served" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
               <div>
                 <label className="block text-sm font-bold text-gray-700">Type of Address</label>
