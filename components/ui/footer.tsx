@@ -74,7 +74,6 @@ export function Footer() {
                 </div>
               </div>
 
-
               {/* Your Information Section */}
               <h3 className="text-lg font-semibold leading-6 text-gray-900 border-b pb-2">Your Information</h3>
               <div>
@@ -99,13 +98,12 @@ export function Footer() {
               <h3 className="text-lg font-semibold leading-6 text-gray-900 border-b pb-2">Case Information</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div><label htmlFor="case-number" className="block text-sm font-bold text-gray-700">Case Number <span className="text-red-500">*</span></label><input type="text" id="case-number" name="case_number" required className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
-                <div><label htmlFor="your-file-number" className="block text-sm font-bold text-gray-700">Your File Number</label><input type="text" id="your-file-number" name="your_file_number" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
                 <div><label htmlFor="deadline" className="block text-sm font-bold text-gray-700">Deadline for Service</label><input type="date" id="deadline" name="service_deadline" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
                 <div><label htmlFor="court-date" className="block text-sm font-bold text-gray-700">Court Date (if any)</label><input type="date" id="court-date" name="court_date" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
                 <div><label htmlFor="court-state" className="block text-sm font-bold text-gray-700">Originating Court - State <span className="text-red-500">*</span></label><input type="text" id="court-state" name="originating_court_state" required className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
                 <div><label htmlFor="court-county" className="block text-sm font-bold text-gray-700">County</label><input type="text" id="court-county" name="county" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
+                <div><label htmlFor="court-type" className="block text-sm font-bold text-gray-700">Type of Court <span className="text-xs font-normal text-gray-500">(e.g. Circuit, District, Superior)</span></label><input type="text" id="court-type" name="type_of_court" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
               </div>
-              <div><label htmlFor="court-type" className="block text-sm font-bold text-gray-700">Type of Court <span className="text-xs font-normal text-gray-500">(e.g. Circuit, District, Superior)</span></label><input type="text" id="court-type" name="type_of_court" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
               <div>
                 <label htmlFor="serving-for" className="block text-sm font-bold text-gray-700">We Are Serving This FOR/On Behalf of Plaintiff or Defendant</label>
                 <select id="serving-for" name="serving_for_plaintiff_or_defendant" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
@@ -169,8 +167,8 @@ export function Footer() {
 
         <div className="text-center mt-10 pt-6 border-t border-gray-200">
             <h3 className="text-xl font-bold mb-4">Other Business Solutions</h3>
-            <p className="text-gray-600">
-                For Courier Services or other business needs, please call, text if urgent, or email.
+            <p className="text-gray-600 px-4">
+                For Courier Services or other business solutions, please call or text for urgent matters. For non-time-sensitive inquiries, feel free to email.
             </p>
         </div>
 
