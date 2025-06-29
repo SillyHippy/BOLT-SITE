@@ -4,15 +4,6 @@ import { Inter } from 'next/font/google';
 import Script from 'next/script';
 import { organizationSchema } from '@/components/ui/schema';
 import { faqSchema } from '@/components/ui/faq-schema';
-import { PerformanceOptimizer } from '@/components/ui/performance-optimizer';
-import { CriticalCSS } from '@/components/ui/critical-css-inline';
-import { MobileOptimizer } from '@/components/ui/mobile-optimizer';
-import { MobilePerformanceBoost } from '@/components/ui/mobile-performance-boost';
-import { ServiceWorkerRegistration } from '@/components/ui/service-worker-registration';
-import AdvancedMobileOptimizer from '@/components/ui/advanced-mobile-optimizer';
-import CoreWebVitals from '@/components/ui/core-web-vitals';
-import MobileLocalSEO from '@/components/ui/mobile-local-seo';
-import MobileFastLoad from '@/components/ui/mobile-fast-load';
 
 const inter = Inter({ 
   subsets: ['latin'],
@@ -187,15 +178,6 @@ export default function RootLayout({
         </Script>
       </head>
       <body className={inter.className} suppressHydrationWarning>
-        <CriticalCSS />
-        <PerformanceOptimizer />
-        <MobileOptimizer />
-        <MobilePerformanceBoost />
-        <AdvancedMobileOptimizer />
-        <CoreWebVitals />
-        <MobileLocalSEO />
-        <MobileFastLoad />
-        <ServiceWorkerRegistration />
         {children}
       </body>
     </html>
