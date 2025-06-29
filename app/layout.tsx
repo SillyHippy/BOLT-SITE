@@ -16,14 +16,15 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://justlegalsolutions.org'),
   title: {
     template: '%s | Just Legal Solutions',
-    default: 'Just Legal Solutions - Process Serving Oklahoma'
+    default: 'Process Server Tulsa County Oklahoma | Just Legal Solutions'
   },
-  description: 'Expert process serving in Tulsa County, Broken Arrow (Wagoner County), and Sapulpa (Creek County). Same-day, rush, and standard service with statewide Oklahoma coverage. Starting at $60.',
+  description: 'Professional process serving in Tulsa County, Broken Arrow, Sapulpa. Same-day service $150, rush $100, standard $60. Statewide Oklahoma coverage with expert legal document delivery.',
   keywords: [
-    'process server', 'legal services', 'document delivery', 'court transfers', 'skip tracing', 
-    'Oklahoma process server', 'Tulsa County process server', 'Broken Arrow process server', 
-    'Sapulpa process server', 'Wagoner County legal services', 'Creek County process serving',
-    'legal support', 'same day service', 'rush service', 'statewide coverage'
+    'process server Tulsa County', 'process server Broken Arrow', 'process server Sapulpa', 'legal document delivery',
+    'court transfers Oklahoma', 'skip tracing services', 'Oklahoma process server', 'Tulsa County legal services',
+    'Broken Arrow legal services', 'Sapulpa process serving', 'Wagoner County process server', 'Creek County process serving',
+    'same day process serving', 'rush process serving', 'statewide process server Oklahoma', 'legal support services',
+    'document serving Tulsa', 'court document delivery', 'process server near me', 'Oklahoma legal services'
   ],
   authors: [{ name: 'Joseph Iannazzi' }],
   creator: 'Just Legal Solutions',
@@ -96,7 +97,6 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="canonical" href="https://justlegalsolutions.org" />
         <link rel="preload" href="/images/hero.webp" as="image" />
         <link rel="preload" href="/Favicon/favicon.ico" as="image" type="image/x-icon" />
         <link rel="preload" href="/_next/static/css/app/layout.css" as="style" />
@@ -104,7 +104,7 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="//fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
-        <meta name="cache-version" content="2025-06-28-v2" />
+        <meta name="cache-version" content="2025-01-15-v3" />
         <Script
           id="schema-org"
           type="application/ld+json"
@@ -126,6 +126,21 @@ export default function RootLayout({
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'G-984ZD882EX');
+          `}
+        </Script>
+        {/* Facebook Pixel */}
+        <Script id="facebook-pixel" strategy="afterInteractive">
+          {`
+            !function(f,b,e,v,n,t,s)
+            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', 'YOUR_PIXEL_ID');
+            fbq('track', 'PageView');
           `}
         </Script>
       </head>

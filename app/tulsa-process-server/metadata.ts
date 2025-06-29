@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Tulsa Process Server | Same-Day Legal Document Delivery | Just Legal Solutions',
-  description: 'Professional process server in Tulsa, Oklahoma offering same-day service, rush delivery, and standard legal document serving. Serving Tulsa County, Broken Arrow, Glenpool, and surrounding areas.',
+  title: 'Tulsa County Process Server | Same-Day $150 | Just Legal Solutions',
+  description: 'Professional process server Tulsa County, Broken Arrow, Sapulpa. Same-day $150, rush $100, standard $60. Expert legal document delivery throughout Oklahoma with certified service.',
   keywords: [
     'Tulsa process server',
     'process server Tulsa Oklahoma', 

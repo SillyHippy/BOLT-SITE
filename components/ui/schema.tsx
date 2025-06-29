@@ -5,10 +5,11 @@ export const organizationSchema: WithContext<Organization> = {
   "@type": "LegalService",
   "name": "Just Legal Solutions",
   "legalName": "Just Legal Solutions",
+  "alternateName": "JLS Process Server Tulsa",
   "url": "https://justlegalsolutions.org",
   "logo": "https://justlegalsolutions.org/images/jls-logo.webp",
   "image": "https://justlegalsolutions.org/images/jls-logo.webp",
-  "description": "Expert process serving, secure document delivery, court transfers, and skip tracing services in the Tulsa Metropolitan Area with statewide coverage available. Specializing in Tulsa County, Broken Arrow (Wagoner County), and Sapulpa (Creek County) with competitive rates and same-day service options.",
+  "description": "Professional process server in Tulsa County, Broken Arrow (Wagoner County), and Sapulpa (Creek County). Expert legal document delivery, court transfers, and skip tracing services throughout Oklahoma. Same-day service starting at $150, rush service $100, standard service $60.",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "564 E 138th Pl",
@@ -176,9 +177,47 @@ export const organizationSchema: WithContext<Organization> = {
         },
         "offers": {
           "@type": "Offer",
-          "price": "65.00",
+          "price": "60.00",
           "priceCurrency": "USD",
-          "description": "Standard process serving starting at $65"
+          "description": "Standard process serving starting at $60 in Tulsa County"
+        }
+      },
+      {
+        "@type": "Service",
+        "name": "Rush Process Serving",
+        "description": "Expedited process serving for urgent legal documents in Tulsa County",
+        "provider": {
+          "@type": "LegalService",
+          "name": "Just Legal Solutions"
+        },
+        "areaServed": {
+          "@type": "State",
+          "name": "Oklahoma"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "100.00",
+          "priceCurrency": "USD",
+          "description": "Rush process serving $100 in Tulsa County area"
+        }
+      },
+      {
+        "@type": "Service",
+        "name": "Same-Day Process Serving",
+        "description": "Same-day legal document delivery in Tulsa County, Broken Arrow, and Sapulpa",
+        "provider": {
+          "@type": "LegalService",
+          "name": "Just Legal Solutions"
+        },
+        "areaServed": {
+          "@type": "State",
+          "name": "Oklahoma"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "150.00",
+          "priceCurrency": "USD",
+          "description": "Same-day process serving $150 in Tulsa County area"
         }
       },
       {

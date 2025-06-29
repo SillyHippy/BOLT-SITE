@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 
 export async function GET() {
   const baseUrl = 'https://justlegalsolutions.org';
-  const lastModified = new Date().toISOString();
+  const lastModified = '2025-01-15T00:00:00.000Z'; // Fixed date for SEO optimization
 
   return NextResponse.json([
     {
