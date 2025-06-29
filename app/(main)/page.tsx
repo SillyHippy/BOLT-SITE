@@ -4,8 +4,8 @@ import { Mail, Phone, MapPin, Truck, FileText, Building2, Clock } from "lucide-r
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Process Server Tulsa County OK',
-  description: 'Expert process serving and Courier State-Wide Located in Tulsa County. Same-day, rush & standard service options. Professional legal document delivery.',
+  title: 'Process Server Tulsa Broken Arrow Sapulpa Oklahoma',
+  description: 'Expert process server serving Tulsa, Broken Arrow, Sapulpa, Glenpool & Oklahoma. Same-day, rush & standard service options. Professional legal document delivery.',
   alternates: {
     canonical: 'https://justlegalsolutions.org/'
   }
@@ -41,10 +41,25 @@ export default function Home() {
           <div className="sr-only">
             {/* Enhanced SEO content for better rankings - 800+ words total */}
             <h2>Professional Process Server and Courier Services in Tulsa County, Oklahoma</h2>
-            <p>Just Legal Solutions provides comprehensive process server and courier services throughout Tulsa County, including Broken Arrow, Sapulpa, Wagoner County, and Creek County. Our experienced team delivers professional legal document delivery services with same-day, rush, and standard service options to meet all your business needs.</p>
+            <p>Just Legal Solutions provides comprehensive process server and courier services throughout Tulsa County, including Broken Arrow, Sapulpa, Glenpool, Wagoner County, and Creek County. Our experienced team delivers professional legal document delivery services with same-day, rush, and standard service options to meet all your business needs.</p>
             
             <h3>Process Server Services in Tulsa County</h3>
             <p>Our certified process servers handle all types of legal document delivery including divorce papers, summons delivery, subpoena service, eviction notices, and court document transfers. We serve documents throughout Oklahoma with reliable, professional service that ensures proper legal compliance and timely delivery.</p>
+            
+            <h3>Process Server Tulsa - Professional Legal Document Service</h3>
+            <p>Process server Tulsa services by Just Legal Solutions ensure your legal documents are delivered professionally and on time. Our process server Tulsa team handles all court documents, divorce papers, and legal notifications throughout Tulsa County with certified, bonded professionals.</p>
+            
+            <h3>Process Server Broken Arrow - Expert Document Delivery</h3>
+            <p>Need a process server Broken Arrow? Our process server Broken Arrow team provides same-day, rush, and standard service options for all legal document delivery needs. Process server Broken Arrow services include summons, subpoenas, eviction notices, and court orders.</p>
+            
+            <h3>Process Server Sapulpa - Reliable Legal Service</h3>
+            <p>Process server Sapulpa services by Just Legal Solutions deliver professional results for law firms and businesses. Our process server Sapulpa team ensures compliant document service throughout Sapulpa and surrounding areas with detailed affidavits of service.</p>
+            
+            <h3>Process Server Glenpool - Professional Document Delivery</h3>
+            <p>Looking for a process server Glenpool? Our process server Glenpool services provide expert legal document delivery with secure handling and timely service. Process server Glenpool options include same-day delivery for urgent legal documents.</p>
+            
+            <h3>Process Server Oklahoma - Statewide Coverage</h3>
+            <p>Process server Oklahoma services extend throughout the state with reliable, professional document delivery. Our process server Oklahoma team provides statewide coverage for urgent legal documents, court filings, and business transfers with certified professionals.</p>
             
             <h3>Courier Services and Document Delivery Solutions</h3>
             <p>Just Legal Solutions offers secure courier services for businesses requiring professional document delivery. Our courier services include same-day delivery, rush delivery, and standard delivery options. We specialize in legal document courier services, business document delivery, and secure file transfers throughout Oklahoma.</p>
