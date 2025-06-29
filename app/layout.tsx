@@ -21,15 +21,16 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://justlegalsolutions.org/'),
   title: {
     template: '%s | Just Legal Solutions',
-    default: 'Process Server Tulsa County Oklahoma | Just Legal Solutions'
+    default: 'Process Server Tulsa County OK | Just Legal Solutions'
   },
-  description: 'Expert process server in Tulsa County, Professional legal document delivery throughout Oklahoma.',
+  description: 'Professional process server in Tulsa County, Broken Arrow, Sapulpa. Same-day service $150, rush $100, standard $60. Expert legal document delivery throughout Oklahoma.',
   keywords: [
     'process server Tulsa County', 'process server Broken Arrow', 'process server Sapulpa', 'legal document delivery',
     'court transfers Oklahoma', 'skip tracing services', 'Oklahoma process server', 'Tulsa County legal services',
     'Broken Arrow legal services', 'Sapulpa process serving', 'Wagoner County process server', 'Creek County process serving',
     'same day process serving', 'rush process serving', 'statewide process server Oklahoma', 'legal support services',
-    'document serving Tulsa', 'court document delivery', 'process server near me', 'Oklahoma legal services'
+    'document serving Tulsa', 'court document delivery', 'process server near me', 'Oklahoma legal services',
+    'divorce papers served', 'summons delivery', 'subpoena service', 'eviction notice service', 'court filing assistance'
   ],
   authors: [{ name: 'Joseph Iannazzi' }],
   creator: 'Just Legal Solutions',
@@ -118,7 +119,7 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="//fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
-        <meta name="cache-version" content="2025-01-15-v8-mobile-optimized" />
+        <meta name="cache-version" content="2025-06-29-v9-final-seo-optimization" />
         <Script
           id="schema-org"
           type="application/ld+json"

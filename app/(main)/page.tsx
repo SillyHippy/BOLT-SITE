@@ -4,8 +4,8 @@ import { Mail, Phone, MapPin, Truck, FileText, Building2, Clock } from "lucide-r
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Process Server Tulsa County Oklahoma | Just Legal Solutions',
-  description: 'Expert process server in Tulsa County, Professional legal document delivery throughout Oklahoma.'
+  title: 'Process Server Tulsa County OK | Just Legal Solutions',
+  description: 'Expert process server and Courier in Tulsa County Serving Oklahoma State Wide. Same-day service, rush , standard.'
 };
 
 export default function Home() {
@@ -27,14 +27,15 @@ export default function Home() {
           <div className="absolute inset-0 bg-black/60" />
         </div>
         <div className="relative h-full flex flex-col items-center justify-center text-white text-center px-4">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 drop-shadow-lg">Efficient Process Serving Solutions</h1>
+          <h1 className="text-4xl md:text-6xl font-bold mb-6 drop-shadow-lg">Professional Process Server Tulsa County</h1>
           <p className="text-lg md:text-xl max-w-3xl drop-shadow-md mb-8">
-            At Just Legal Solutions, we offer comprehensive process serving services tailored to your needs. Whether it&apos;s routine, rush, or same-day service, we ensure statewide Oklahoma coverage at reasonable rates.
+            At Just Legal Solutions, we provide expert legal document delivery services throughout Tulsa County, Broken Arrow, and Sapulpa. From routine legal papers to urgent same-day process serving, we deliver professional results at competitive rates.
           </p>
           {/* SEO-visible pricing and service areas - hidden from users */}
           <div className="sr-only">
             <span>Standard service $60, Rush service $100, Same-day service $150</span>
-            <span>Serving Tulsa County, Broken Arrow, Sapulpa, and statewide Oklahoma</span>
+            <span>Process server serving Tulsa County, Broken Arrow, Sapulpa, Wagoner County, Creek County, and statewide Oklahoma</span>
+            <span>Divorce papers, summons delivery, subpoena service, eviction notices, court document transfers</span>
           </div>
         </div>
       </section>

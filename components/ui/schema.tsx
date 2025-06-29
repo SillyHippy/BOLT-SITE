@@ -9,7 +9,7 @@ export const organizationSchema: WithContext<Organization> = {
   "url": "https://justlegalsolutions.org",
   "logo": "https://justlegalsolutions.org/images/jls-logo.webp",
   "image": "https://justlegalsolutions.org/images/jls-logo.webp",
-  "description": "Professional process server in Tulsa County, Serving all of Oklahoma, Expert legal document delivery, court transfers, and skip tracing services throughout Oklahoma.",
+  "description": "Professional process server services in Tulsa County. Same-day, secure delivery of legal documents, court transfers, and skip tracing services throughout Oklahoma.",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "564 E 138th Pl",
