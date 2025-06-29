@@ -50,7 +50,7 @@ export default function Home() {
                 <img
                   src="/images/secure-delivery.webp"
                   alt="Professional courier delivering legal documents securely"
-                  className="w-full h-full object-cover object-center"
+                  className="w-full h-full object-cover object-position-upper-center"
                   loading="lazy"
                   decoding="async"
                 />
@@ -98,7 +98,7 @@ export default function Home() {
                 <img
                   src="/images/same-day.webp"
                   alt="Same-day process serving and urgent document delivery services"
-                  className="w-full h-full object-cover object-center"
+                  className="w-full h-full object-cover object-position-same-day"
                   loading="lazy"
                   decoding="async"
                 />

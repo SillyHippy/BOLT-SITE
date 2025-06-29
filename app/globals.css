@@ -80,3 +80,14 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Custom image positioning for service cards */
+@layer utilities {
+  .object-position-upper-center {
+    object-position: 50% 30%;
+  }
+  
+  .object-position-same-day {
+    object-position: 50% 30%;
+  }
+}
