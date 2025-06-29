@@ -4,6 +4,11 @@ import { Inter } from 'next/font/google';
 import Script from 'next/script';
 import { organizationSchema } from '@/components/ui/schema';
 import { faqSchema } from '@/components/ui/faq-schema';
+import { PerformanceOptimizer } from '@/components/ui/performance-optimizer';
+import { CriticalCSS } from '@/components/ui/critical-css-inline';
+import { MobileOptimizer } from '@/components/ui/mobile-optimizer';
+import { MobilePerformanceBoost } from '@/components/ui/mobile-performance-boost';
+import { ServiceWorkerRegistration } from '@/components/ui/service-worker-registration';
 
 const inter = Inter({ 
   subsets: ['latin'],
@@ -60,20 +65,6 @@ export const metadata: Metadata = {
     ]
   },
   manifest: '/Favicon/site.webmanifest',
-  other: {
-    'mobile-web-app-capable': 'yes',
-    'apple-mobile-web-app-capable': 'yes',
-    'apple-mobile-web-app-status-bar-style': 'black-translucent',
-    'apple-mobile-web-app-title': 'Just Legal Solutions',
-    'application-name': 'JLS Process Server',
-    'msapplication-TileColor': '#3b82f6',
-    'theme-color': '#3b82f6',
-    'color-scheme': 'light dark',
-    'format-detection': 'telephone=yes, address=yes, email=yes',
-    'HandheldFriendly': 'true',
-    'MobileOptimized': '320',
-    'cache-version': '20250629-mobile'
-  },
   openGraph: {
     type: 'website',
     locale: 'en_US',
@@ -178,6 +169,11 @@ export default function RootLayout({
         </Script>
       </head>
       <body className={inter.className} suppressHydrationWarning>
+        <CriticalCSS />
+        <PerformanceOptimizer />
+        <MobileOptimizer />
+        <MobilePerformanceBoost />
+        <ServiceWorkerRegistration />
         {children}
       </body>
     </html>

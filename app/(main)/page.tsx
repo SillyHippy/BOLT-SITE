@@ -4,8 +4,8 @@ import { Mail, Phone, MapPin, Truck, FileText, Building2, Clock } from "lucide-r
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Process Server Tulsa County OK | Just Legal Solutions',
-  description: 'Expert process serving in Tulsa County, Broken Arrow & Sapulpa. Same-day, rush & standard service options. Professional legal document delivery.',
+  title: 'Process Server Tulsa County OK',
+  description: 'Expert process serving and Courier State-Wide Located in Tulsa County. Same-day, rush & standard service options. Professional legal document delivery.',
   alternates: {
     canonical: 'https://justlegalsolutions.org/'
   }
@@ -189,8 +189,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Service Areas - SEO Content Section */}
-      <section className="bg-gray-50 py-16 md:py-24" aria-label="Service areas and details">
+      {/* Service Areas - SEO Content Section - Hidden from users, visible to search engines */}
+      <section className="sr-only" aria-label="Service areas and details">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Comprehensive Process Server Solutions Throughout Oklahoma</h2>
@@ -246,8 +246,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Why Choose Us - Additional Content */}
-      <section className="bg-white py-16 md:py-24">
+      {/* Why Choose Us - Additional Content - Hidden from users, visible to search engines */}
+      <section className="sr-only">
         <div className="max-w-7xl mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-16">Why Choose Just Legal Solutions</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
@@ -295,7 +295,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="bg-gray-50 p-8 rounded-lg">
+            <div className="sr-only">
               <h3 className="text-xl font-bold text-gray-900 mb-6">Service Pricing</h3>
               <div className="space-y-4">
                 <div className="flex justify-between items-center py-3 border-b border-gray-200">
