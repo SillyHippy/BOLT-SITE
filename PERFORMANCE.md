@@ -33,6 +33,32 @@
 
 ### Expected Post-Deployment Score: 82-88
 
+## 🔄 **Cache Clearing for SEO Updates**
+
+### **Immediate Actions After Deployment:**
+1. **Google Search Console**: Submit sitemap `https://justlegalsolutions.org/sitemap.xml`
+2. **Request Re-indexing**: Use "URL Inspection" tool for key pages
+3. **Cloudflare Cache**: Purge everything in Cloudflare dashboard
+4. **Test with Cache Busting**: Add `?v=20250628` to URLs when testing
+
+### **SEO Tools Cache Refresh:**
+- **PageSpeed Insights**: Test with fresh timestamp parameter
+- **GTmetrix**: Use "Test from different location" option  
+- **Lighthouse**: Run in incognito mode with cache disabled
+- **Search Console**: Request fresh crawl for updated pages
+
+### **Verification Steps:**
+- Check page source for cache-version meta tag: `2025-06-28-v2`
+- Confirm GA4 tracking ID `G-984ZD882EX` is present
+- Verify updated meta descriptions and schema data
+- Test performance improvements are applied
+
+### **Timeline for Fresh SEO Data:**
+- **CDN Cache**: 5-15 minutes
+- **SEO Tools**: 1-6 hours
+- **Search Engine Crawling**: 24-48 hours
+- **Full Index Refresh**: 1-2 weeks
+
 ## New Performance Optimizations Applied:
 
 ### ⚡ **Critical Loading Improvements**
