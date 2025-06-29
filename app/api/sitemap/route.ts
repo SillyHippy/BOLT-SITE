@@ -30,6 +30,18 @@ export async function GET() {
       priority: 0.9,
     },
     {
+      url: `${baseUrl}/process-server-tulsa/`,
+      lastModified,
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/courier-services-tulsa/`,
+      lastModified,
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
+    {
       url: `${baseUrl}/payments/`,
       lastModified,
       changeFrequency: 'monthly',

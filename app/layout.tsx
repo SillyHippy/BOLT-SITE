@@ -7,6 +7,7 @@ import { faqSchema } from '@/components/ui/faq-schema';
 import { PerformanceOptimizer } from '@/components/ui/performance-optimizer';
 import { CriticalCSS } from '@/components/ui/critical-css-inline';
 import { MobileOptimizer } from '@/components/ui/mobile-optimizer';
+import { MobilePerformanceBoost } from '@/components/ui/mobile-performance-boost';
 import { ServiceWorkerRegistration } from '@/components/ui/service-worker-registration';
 
 const inter = Inter({ 
@@ -21,9 +22,9 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://justlegalsolutions.org/'),
   title: {
     template: '%s | Just Legal Solutions',
-    default: 'Process Server Tulsa County OK | Just Legal Solutions'
+    default: 'Process Server & Courier Services Tulsa County OK'
   },
-  description: 'Professional process server in Tulsa County, Broken Arrow, Sapulpa. Same-day service $150, rush $100, standard $60. Expert legal document delivery throughout Oklahoma.',
+  description: 'Expert process server and courier services in Tulsa County. Same-day, rush, and standard service options. Professional legal document delivery solutions throughout Oklahoma.',
   keywords: [
     'process server Tulsa County', 'process server Broken Arrow', 'process server Sapulpa', 'legal document delivery',
     'court transfers Oklahoma', 'skip tracing services', 'Oklahoma process server', 'Tulsa County legal services',
@@ -133,10 +134,10 @@ export default function RootLayout({
         {/* Google Analytics - Optimized Loading */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-984ZD882EX"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
           defer
         />
-        <Script id="google-analytics" strategy="afterInteractive">
+        <Script id="google-analytics" strategy="lazyOnload">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
@@ -144,20 +145,21 @@ export default function RootLayout({
             gtag('config', 'G-984ZD882EX', {
               page_title: document.title,
               page_location: window.location.href,
-              send_page_view: true,
+              send_page_view: false,
               cookie_flags: 'SameSite=None;Secure',
               anonymize_ip: true
             });
           `}
         </Script>
-        {/* Facebook Pixel */}
-        <Script id="facebook-pixel" strategy="afterInteractive">
+        {/* Facebook Pixel - Deferred */}
+        <Script id="facebook-pixel" strategy="lazyOnload">
           {`
             !function(f,b,e,v,n,t,s)
             {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
             n.callMethod.apply(n,arguments):n.queue.push(arguments)};
             if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
             n.queue=[];t=b.createElement(e);t.async=!0;
+            t.defer=!0;
             t.src=v;s=b.getElementsByTagName(e)[0];
             s.parentNode.insertBefore(t,s)}(window, document,'script',
             'https://connect.facebook.net/en_US/fbevents.js');
@@ -170,6 +172,7 @@ export default function RootLayout({
         <CriticalCSS />
         <PerformanceOptimizer />
         <MobileOptimizer />
+        <MobilePerformanceBoost />
         <ServiceWorkerRegistration />
         {children}
       </body>
