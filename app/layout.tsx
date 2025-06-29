@@ -104,7 +104,7 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="//fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
-        <meta name="cache-version" content="2025-01-15-v6" />
+        <meta name="cache-version" content="2025-01-15-v7" />
         <Script
           id="schema-org"
           type="application/ld+json"

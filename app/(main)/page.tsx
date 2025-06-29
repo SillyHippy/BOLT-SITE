@@ -17,13 +17,13 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative h-[calc(100vh-4rem)]" aria-label="Hero section">
         <div className="absolute inset-0">
-          <img
+          <Image
             src="/images/hero.webp"
             alt="Professional legal services office with modern workspace and legal documents"
-            className="w-full h-full object-cover"
-            loading="eager"
-            fetchPriority="high"
-            decoding="async"
+            fill
+            className="object-cover"
+            priority
+            sizes="100vw"
           />
           <div className="absolute inset-0 bg-black/60" />
         </div>
@@ -47,12 +47,12 @@ export default function Home() {
             {/* Service 1 */}
             <div className="text-center flex flex-col">
               <div className="mb-4 relative h-48 sm:h-56 w-full rounded-lg overflow-hidden shadow-[0_0_20px_rgba(255,255,255,0.4)] hover:shadow-[0_0_25px_rgba(255,255,255,0.5)] transition-shadow duration-300">
-                <img
+                <Image
                   src="/images/secure-delivery.webp"
                   alt="Professional courier delivering legal documents securely"
-                  className="w-full h-full object-cover object-position-upper-center"
-                  loading="lazy"
-                  decoding="async"
+                  fill
+                  className="object-cover object-position-upper-center"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                 />
               </div>
               <h3 className="text-lg md:text-xl font-bold mb-2">Secure Document Delivery</h3>
@@ -63,12 +63,12 @@ export default function Home() {
             {/* Service 2 */}
             <div className="text-center flex flex-col">
               <div className="mb-4 relative h-48 sm:h-56 w-full rounded-lg overflow-hidden shadow-[0_0_20px_rgba(255,255,255,0.4)] hover:shadow-[0_0_25px_rgba(255,255,255,0.5)] transition-shadow duration-300">
-                <img
+                <Image
                   src="/images/court-transfer.webp"
                   alt="Court document transfer service"
-                  className="w-full h-full object-cover object-center"
-                  loading="lazy"
-                  decoding="async"
+                  fill
+                  className="object-cover object-center"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                 />
               </div>
               <h3 className="text-lg md:text-xl font-bold mb-2">Court-Run Transfers</h3>
@@ -79,12 +79,12 @@ export default function Home() {
             {/* Service 3 */}
             <div className="text-center flex flex-col">
               <div className="mb-4 relative h-48 sm:h-56 w-full rounded-lg overflow-hidden shadow-[0_0_20px_rgba(255,255,255,0.4)] hover:shadow-[0_0_25px_rgba(255,255,255,0.5)] transition-shadow duration-300">
-                <img
+                <Image
                   src="/images/skip-trace.webp"
                   alt="Professional skip tracing and investigation services for locating individuals in Oklahoma"
-                  className="w-full h-full object-cover object-center"
-                  loading="lazy"
-                  decoding="async"
+                  fill
+                  className="object-cover object-center"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                 />
               </div>
               <h3 className="text-lg md:text-xl font-bold mb-2">Skip Tracing Services</h3>
@@ -95,12 +95,12 @@ export default function Home() {
             {/* Service 4 */}
             <div className="text-center flex flex-col">
               <div className="mb-4 relative h-48 sm:h-56 w-full rounded-lg overflow-hidden shadow-[0_0_25px_rgba(255,255,255,0.5)] hover:shadow-[0_0_30px_rgba(255,255,255,0.6)] transition-shadow duration-300">
-                <img
+                <Image
                   src="/images/same-day.webp"
                   alt="Same-day process serving and urgent document delivery services"
-                  className="w-full h-full object-cover object-position-same-day"
-                  loading="lazy"
-                  decoding="async"
+                  fill
+                  className="object-cover object-position-same-day"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                 />
               </div>
               <h3 className="text-lg md:text-xl font-bold mb-2">Same-Day Service</h3>
@@ -115,12 +115,12 @@ export default function Home() {
       {/* Secure Courier Services */}
       <section id="courier-services" className="relative py-24">
         <div className="absolute inset-0">
-          <img
+          <Image
             src="/images/courier-bg.webp"
             alt="Legal office environment"
-            className="w-full h-full object-cover"
-            loading="lazy"
-            decoding="async"
+            fill
+            className="object-cover"
+            sizes="100vw"
           />
           <div className="absolute inset-0 bg-black/70" />
         </div>
