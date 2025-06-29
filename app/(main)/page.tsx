@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import { Mail, Phone, MapPin, Truck, FileText, Building2, Clock } from "lucide-react";
 
 export default function Home() {
@@ -11,6 +12,9 @@ export default function Home() {
             src="/images/hero.webp"
             alt="Professional legal services office with modern workspace and legal documents"
             className="w-full h-full object-cover"
+            loading="eager"
+            fetchPriority="high"
+            decoding="async"
           />
           <div className="absolute inset-0 bg-black/60" />
         </div>
@@ -34,6 +38,8 @@ export default function Home() {
                   alt="Professional courier delivering legal documents securely"
                   className="w-full h-full object-cover"
                   style={{ objectPosition: '50% 30%' }}
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
               <h3 className="text-xl font-bold mb-2">Secure Document Delivery</h3>
@@ -48,6 +54,8 @@ export default function Home() {
                   src="/images/court-transfer.webp"
                   alt="Court document transfer service"
                   className="w-full h-full object-cover"
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
               <h3 className="text-xl font-bold mb-2">Court-Run Transfers</h3>
@@ -62,6 +70,8 @@ export default function Home() {
                   src="/images/skip-trace.webp"
                   alt="Professional skip tracing and investigation services for locating individuals in Oklahoma"
                   className="w-full h-full object-cover"
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
               <h3 className="text-xl font-bold mb-2">Skip Tracing Services</h3>
@@ -77,6 +87,8 @@ export default function Home() {
                   alt="Same-day process serving and urgent document delivery services"
                   className="w-full h-full object-cover"
                   style={{ objectPosition: '50% 30%' }}
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
               <h3 className="text-xl font-bold mb-2">Same-Day Service</h3>
@@ -95,6 +107,8 @@ export default function Home() {
             src="/images/courier-bg.webp"
             alt="Legal office environment"
             className="w-full h-full object-cover"
+            loading="lazy"
+            decoding="async"
           />
           <div className="absolute inset-0 bg-black/70" />
         </div>
