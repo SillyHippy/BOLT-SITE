@@ -21,9 +21,9 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://justlegalsolutions.org'),
   title: {
     template: '%s | Just Legal Solutions',
-    default: 'Process Server Tulsa County | Same-Day $150 | Just Legal Solutions'
+    default: 'Process Server Tulsa County Oklahoma | Just Legal Solutions'
   },
-  description: 'Expert process serving in Tulsa County, Broken Arrow, Sapulpa. Same-day $150, rush $100, standard $60. Statewide Oklahoma coverage and professional service.',
+  description: 'Expert process server in Tulsa County, Professional legal document delivery throughout Oklahoma.',
   keywords: [
     'process server Tulsa County', 'process server Broken Arrow', 'process server Sapulpa', 'legal document delivery',
     'court transfers Oklahoma', 'skip tracing services', 'Oklahoma process server', 'Tulsa County legal services',
