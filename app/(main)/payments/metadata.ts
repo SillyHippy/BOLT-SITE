@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   description: 'Secure and convenient payment options for legal services. Accept cash, check, money orders, and electronic payments. New clients require payment in advance.',
   keywords: ['legal services payment', 'process server payment', 'online payment', 'Oklahoma legal services payment'],
   alternates: {
-    canonical: 'https://justlegalsolutions.org/payments'
+    canonical: 'https://justlegalsolutions.org/payments/'
   },
   openGraph: {
     title: 'Payment Options | Just Legal Solutions',

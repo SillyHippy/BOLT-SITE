@@ -8,9 +8,6 @@ export default function MainLayout({
 }) {
   return (
     <>
-      <head>
-        <link rel="canonical" href="https://justlegalsolutions.org" />
-      </head>
       <Navbar />
       {children}
       <Footer />

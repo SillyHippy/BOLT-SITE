@@ -1,6 +1,15 @@
 import React from 'react';
 import Image from 'next/image';
 import { Mail, Phone, MapPin, Truck, FileText, Building2, Clock } from "lucide-react";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Process Server Tulsa County Oklahoma | Same-Day Service $150',
+  description: 'Expert process serving in Tulsa County, Broken Arrow, Sapulpa. Same-day $150, rush $100, standard $60. Professional legal document delivery statewide.',
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/'
+  }
+};
 
 export default function Home() {
   return (
@@ -19,45 +28,41 @@ export default function Home() {
           <div className="absolute inset-0 bg-black/60" />
         </div>
         <div className="relative h-full flex flex-col items-center justify-center text-white text-center px-4">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 drop-shadow-lg">Professional Process Server Tulsa County Oklahoma</h1>
+          <h1 className="text-4xl md:text-6xl font-bold mb-6 drop-shadow-lg">Efficient Process Serving Solutions</h1>
           <p className="text-lg md:text-xl max-w-3xl drop-shadow-md mb-8">
-            Expert process serving in Tulsa County, Broken Arrow (Wagoner County), and Sapulpa (Creek County). Same-day, rush, and standard legal document delivery starting at $60. Statewide Oklahoma coverage with professional service.
+            At Just Legal Solutions, we offer comprehensive process serving services tailored to your needs. Whether it&apos;s routine, rush, or same-day service, we ensure statewide Oklahoma coverage at reasonable rates.
           </p>
-          <div className="flex flex-wrap gap-4 justify-center text-sm md:text-base">
-            <span className="bg-white/20 px-4 py-2 rounded-lg backdrop-blur-sm">Standard Service: $60</span>
-            <span className="bg-white/20 px-4 py-2 rounded-lg backdrop-blur-sm">Rush Service: $100</span>
-            <span className="bg-white/20 px-4 py-2 rounded-lg backdrop-blur-sm">Same-Day: $150</span>
+          {/* SEO-visible pricing and service areas - hidden from users */}
+          <div className="sr-only">
+            <span>Standard service $60, Rush service $100, Same-day service $150</span>
+            <span>Serving Tulsa County, Broken Arrow, Sapulpa, and statewide Oklahoma</span>
           </div>
         </div>
       </section>
 
       {/* Services Grid */}
-      <section className="bg-black text-white py-16 md:py-24" aria-label="Process serving services in Tulsa County">
+      <section className="bg-black text-white py-16 md:py-24" aria-label="Our services">
         <div className="max-w-7xl mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Professional Process Serving Services</h2>
-            <p className="text-gray-300 text-lg max-w-3xl mx-auto">Serving Tulsa County, Broken Arrow (Wagoner County), Sapulpa (Creek County), and throughout Oklahoma with reliable legal document delivery.</p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-10">
             {/* Service 1 */}
             <div className="text-center flex flex-col">
-              <div className="mb-4 relative h-56 w-full rounded-lg overflow-hidden shadow-[0_0_20px_rgba(255,255,255,0.4)] hover:shadow-[0_0_25px_rgba(255,255,255,0.5)] transition-shadow duration-300">
+              <div className="mb-4 relative h-48 sm:h-56 w-full rounded-lg overflow-hidden shadow-[0_0_20px_rgba(255,255,255,0.4)] hover:shadow-[0_0_25px_rgba(255,255,255,0.5)] transition-shadow duration-300">
                 <img
                   src="/images/secure-delivery.webp"
                   alt="Professional courier delivering legal documents securely"
-                  className="w-full h-full object-cover object-[50%_30%]"
+                  className="w-full h-full object-cover object-center"
                   loading="lazy"
                   decoding="async"
                 />
               </div>
-              <h3 className="text-xl font-bold mb-2">Secure Legal Document Delivery</h3>
-              <p className="text-gray-400">
-                Professional process serving in Tulsa County with secure document delivery. Our certified process servers ensure your legal documents reach their destination safely and on time with complete confidentiality.
+              <h3 className="text-lg md:text-xl font-bold mb-2">Secure Document Delivery</h3>
+              <p className="text-gray-400 text-sm md:text-base">
+                Our secure document delivery ensures your documents arrive safely and on time, handled with professional confidentiality.
               </p>
             </div>
             {/* Service 2 */}
             <div className="text-center flex flex-col">
-              <div className="mb-4 relative h-56 w-full rounded-lg overflow-hidden shadow-[0_0_20px_rgba(255,255,255,0.4)] hover:shadow-[0_0_25px_rgba(255,255,255,0.5)] transition-shadow duration-300">
+              <div className="mb-4 relative h-48 sm:h-56 w-full rounded-lg overflow-hidden shadow-[0_0_20px_rgba(255,255,255,0.4)] hover:shadow-[0_0_25px_rgba(255,255,255,0.5)] transition-shadow duration-300">
                 <img
                   src="/images/court-transfer.webp"
                   alt="Court document transfer service"
@@ -66,14 +71,14 @@ export default function Home() {
                   decoding="async"
                 />
               </div>
-              <h3 className="text-xl font-bold mb-2">Court Document Transfers</h3>
-              <p className="text-gray-400">
-                Expert court document transfer services throughout Oklahoma. We handle court filings, transfers, and legal document exchanges between courts in Tulsa County, Wagoner County, and Creek County.
+              <h3 className="text-lg md:text-xl font-bold mb-2">Court-Run Transfers</h3>
+              <p className="text-gray-400 text-sm md:text-base">
+                We specialize in court-run document transfers, ensuring your critical files reach their destination without delay.
               </p>
             </div>
             {/* Service 3 */}
             <div className="text-center flex flex-col">
-              <div className="mb-4 relative h-56 w-full rounded-lg overflow-hidden shadow-[0_0_20px_rgba(255,255,255,0.4)] hover:shadow-[0_0_25px_rgba(255,255,255,0.5)] transition-shadow duration-300">
+              <div className="mb-4 relative h-48 sm:h-56 w-full rounded-lg overflow-hidden shadow-[0_0_20px_rgba(255,255,255,0.4)] hover:shadow-[0_0_25px_rgba(255,255,255,0.5)] transition-shadow duration-300">
                 <img
                   src="/images/skip-trace.webp"
                   alt="Professional skip tracing and investigation services for locating individuals in Oklahoma"
@@ -82,25 +87,25 @@ export default function Home() {
                   decoding="async"
                 />
               </div>
-              <h3 className="text-xl font-bold mb-2">Skip Tracing Services Oklahoma</h3>
-              <p className="text-gray-400">
-                Professional skip tracing services to locate individuals throughout Oklahoma. Our investigators use advanced techniques to find defendants in Tulsa County, Broken Arrow, Sapulpa, and surrounding areas when traditional methods fail.
+              <h3 className="text-lg md:text-xl font-bold mb-2">Skip Tracing Services</h3>
+              <p className="text-gray-400 text-sm md:text-base">
+                Professional skip tracing services to locate individuals throughout Oklahoma when traditional methods fail.
               </p>
             </div>
             {/* Service 4 */}
             <div className="text-center flex flex-col">
-              <div className="mb-4 relative h-56 w-full rounded-lg overflow-hidden shadow-[0_0_25px_rgba(255,255,255,0.5)] hover:shadow-[0_0_30px_rgba(255,255,255,0.6)] transition-shadow duration-300">
+              <div className="mb-4 relative h-48 sm:h-56 w-full rounded-lg overflow-hidden shadow-[0_0_25px_rgba(255,255,255,0.5)] hover:shadow-[0_0_30px_rgba(255,255,255,0.6)] transition-shadow duration-300">
                 <img
                   src="/images/same-day.webp"
                   alt="Same-day process serving and urgent document delivery services"
-                  className="w-full h-full object-cover object-[50%_30%]"
+                  className="w-full h-full object-cover object-center"
                   loading="lazy"
                   decoding="async"
                 />
               </div>
-              <h3 className="text-xl font-bold mb-2">Same-Day Process Serving</h3>
-              <p className="text-gray-400">
-                Urgent same-day process serving in Tulsa County starting at $150. When time is critical, our same-day service ensures your legal documents are delivered quickly throughout Broken Arrow, Sapulpa, and greater Tulsa area.
+              <h3 className="text-lg md:text-xl font-bold mb-2">Same-Day Service</h3>
+              <p className="text-gray-400 text-sm md:text-base">
+                Get your time-sensitive documents delivered quickly with our reliable same-day process serving.
               </p>
             </div>
           </div>

@@ -35,6 +35,6 @@ export const metadata: Metadata = {
     images: ['/images/jls-logo.webp']
   },
   alternates: {
-    canonical: 'https://justlegalsolutions.org/tulsa-process-server'
+    canonical: 'https://justlegalsolutions.org/tulsa-process-server/'
   }
 };

@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   description: 'Connect with Joseph Iannazzi at Just Legal Solutions. Download contact details, schedule reminders, and get in touch easily. Process serving and legal support services in Oklahoma.',
   keywords: ['Joseph Iannazzi contact', 'digital business card', 'Just Legal Solutions contact', 'process server contact Oklahoma'],
   alternates: {
-    canonical: 'https://justlegalsolutions.org/card'
+    canonical: 'https://justlegalsolutions.org/card/'
   },
   openGraph: {
     title: 'Digital Business Card | Just Legal Solutions',

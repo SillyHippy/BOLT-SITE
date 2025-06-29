@@ -16,9 +16,9 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://justlegalsolutions.org'),
   title: {
     template: '%s | Just Legal Solutions',
-    default: 'Process Server Tulsa County Oklahoma | Just Legal Solutions'
+    default: 'Process Server Tulsa County | Same-Day $150 | Just Legal Solutions'
   },
-  description: 'Professional process serving in Tulsa County, Broken Arrow, Sapulpa. Same-day service $150, rush $100, standard $60. Statewide Oklahoma coverage with expert legal document delivery.',
+  description: 'Expert process serving in Tulsa County, Broken Arrow, Sapulpa. Same-day $150, rush $100, standard $60. Statewide Oklahoma coverage and professional service.',
   keywords: [
     'process server Tulsa County', 'process server Broken Arrow', 'process server Sapulpa', 'legal document delivery',
     'court transfers Oklahoma', 'skip tracing services', 'Oklahoma process server', 'Tulsa County legal services',
@@ -104,7 +104,7 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="//fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
-        <meta name="cache-version" content="2025-01-15-v3" />
+        <meta name="cache-version" content="2025-01-15-v4" />
         <Script
           id="schema-org"
           type="application/ld+json"

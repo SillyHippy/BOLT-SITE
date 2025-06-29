@@ -36,6 +36,6 @@ export const metadata: Metadata = {
     images: ['/images/jls-logo.webp']
   },
   alternates: {
-    canonical: 'https://justlegalsolutions.org/services'
+    canonical: 'https://justlegalsolutions.org/services/'
   }
 };

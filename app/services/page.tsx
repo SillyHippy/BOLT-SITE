@@ -8,7 +8,7 @@ export const metadata = {
   description: 'Professional executive assistant services including event coordination, HR & payroll, travel management, customer service, and data entry solutions in Oklahoma.',
   keywords: ['executive assistant', 'event planning', 'HR payroll', 'travel management', 'customer service', 'data entry', 'business solutions Oklahoma'],
   alternates: {
-    canonical: 'https://justlegalsolutions.org/services'
+    canonical: 'https://justlegalsolutions.org/services/'
   },
   openGraph: {
     title: 'Business Solutions & Executive Support Services | Just Legal Solutions',

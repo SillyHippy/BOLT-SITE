@@ -6,43 +6,43 @@ export async function GET() {
 
   return NextResponse.json([
     {
-      url: baseUrl,
+      url: `${baseUrl}/`,
       lastModified,
       changeFrequency: 'weekly',
       priority: 1,
     },
     {
-      url: `${baseUrl}/tulsa-process-server`,
+      url: `${baseUrl}/tulsa-process-server/`,
       lastModified,
       changeFrequency: 'weekly',
       priority: 0.9,
     },
     {
-      url: `${baseUrl}/pricing`,
+      url: `${baseUrl}/pricing/`,
       lastModified,
       changeFrequency: 'monthly',
       priority: 0.9,
     },
     {
-      url: `${baseUrl}/services`,
+      url: `${baseUrl}/services/`,
       lastModified,
       changeFrequency: 'monthly',
       priority: 0.9,
     },
     {
-      url: `${baseUrl}/payments`,
+      url: `${baseUrl}/payments/`,
       lastModified,
       changeFrequency: 'monthly',
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/card`,
+      url: `${baseUrl}/card/`,
       lastModified,
       changeFrequency: 'monthly',
       priority: 0.7,
     },
     {
-      url: `${baseUrl}/card/calendar`,
+      url: `${baseUrl}/card/calendar/`,
       lastModified,
       changeFrequency: 'monthly',
       priority: 0.6,
