@@ -4,7 +4,7 @@ import { Mail, Phone, MapPin, Truck, FileText, Building2, Clock } from "lucide-r
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Just Legal Solutions - Process Serving Oklahoma',
+  title: 'Process Server Tulsa County - Just Legal Solutions Oklahoma',
   description: 'Expert process server serving Tulsa, Broken Arrow, Sapulpa, Glenpool & Oklahoma. Same-day, rush & standard service options.',
   alternates: {
     canonical: 'https://justlegalsolutions.org/'

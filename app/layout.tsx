@@ -20,7 +20,10 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://justlegalsolutions.org/'),
-  title: 'Process Server Tulsa County Oklahoma',
+  title: {
+    default: 'Just Legal Solutions - Process Serving Oklahoma',
+    template: '%s | Just Legal Solutions'
+  },
   description: 'Expert process server serving Tulsa, Broken Arrow, Sapulpa, Glenpool & Oklahoma. Same-day, rush & standard service options.',
   keywords: [
     'process server Tulsa County', 'process server Broken Arrow', 'process server Sapulpa', 'legal document delivery',
@@ -67,7 +70,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: 'https://justlegalsolutions.org/',
     title: 'Just Legal Solutions - Professional Process Serving in Oklahoma',
-    description: 'Expert process serving in Tulsa County, Broken Arrow, and Sapulpa. Same-day service available. Standard rates apply to Tulsa County and select parts of Creek County & Wagoner County.',
+    description: 'Expert process serving in Tulsa County, Broken Arrow, and Sapulpa. Same-day, rush, and standard service options available.',
     siteName: 'Just Legal Solutions',
     images: [
       {
@@ -81,7 +84,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Just Legal Solutions - Professional Process Serving in Oklahoma',
-    description: 'Expert process serving in Tulsa County, Broken Arrow, and Sapulpa. Same-day service available starting at $60.',
+    description: 'Expert process serving in Tulsa County, Broken Arrow, and Sapulpa. Same-day, rush, and standard service options.',
     images: ['/images/jls-logo.webp']
   },
   robots: {
