@@ -12,10 +12,22 @@ export async function GET() {
       priority: 1,
     },
     {
+      url: `${baseUrl}/tulsa-process-server`,
+      lastModified,
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
       url: `${baseUrl}/pricing`,
       lastModified,
       changeFrequency: 'monthly',
-      priority: 0.8,
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/services`,
+      lastModified,
+      changeFrequency: 'monthly',
+      priority: 0.9,
     },
     {
       url: `${baseUrl}/payments`,
@@ -28,6 +40,12 @@ export async function GET() {
       lastModified,
       changeFrequency: 'monthly',
       priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/card/calendar`,
+      lastModified,
+      changeFrequency: 'monthly',
+      priority: 0.6,
     },
   ]);
 }

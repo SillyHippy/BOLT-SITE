@@ -4,14 +4,18 @@ import Script from 'next/script';
 import { ChevronDown } from 'lucide-react';
 
 export const metadata = {
-  title: 'Business Solutions – Joseph Iannazzi | Executive Assistant',
-  description: 'Professional solutions including executive assistance, event coordination, HR & payroll, travel management, general customer service, and data entry.',
-  keywords: ['executive assistant', 'event planning', 'HR payroll', 'travel management', 'customer service', 'data entry'],
+  title: 'Business Solutions & Executive Support Services',
+  description: 'Professional executive assistant services including event coordination, HR & payroll, travel management, customer service, and data entry solutions in Oklahoma.',
+  keywords: ['executive assistant', 'event planning', 'HR payroll', 'travel management', 'customer service', 'data entry', 'business solutions Oklahoma'],
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/services'
+  },
   openGraph: {
-    title: 'Business Solutions – Joseph Iannazzi',
-    description: 'Professional solutions to meet your business needs, now including customer service and data entry.',
+    title: 'Business Solutions & Executive Support Services | Just Legal Solutions',
+    description: 'Professional executive assistant services including event coordination, HR & payroll, travel management, customer service, and data entry solutions.',
+    url: 'https://justlegalsolutions.org/services',
     images: [{
-      url: 'https://images.unsplash.com/photo-1558478551-1a378f63328e?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.1.0',
+      url: '/images/jls-logo.webp',
       width: 1200,
       height: 630,
       alt: 'Joseph Iannazzi Executive Assistant Services',
@@ -19,9 +23,9 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Business Solutions – Joseph Iannazzi',
-    description: 'Professional solutions to meet your business needs, now including customer service and data entry.',
-    images: ['https://images.unsplash.com/photo-1558478551-1a378f63328e?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.1.0'],
+    title: 'Business Solutions & Executive Support Services | Just Legal Solutions',
+    description: 'Professional executive assistant services including event coordination, HR & payroll, travel management, customer service, and data entry solutions.',
+    images: ['/images/jls-logo.webp'],
   }
 };
 

@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import Script from 'next/script';
 import { organizationSchema } from '@/components/ui/schema';
+import { faqSchema } from '@/components/ui/faq-schema';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -12,8 +13,13 @@ export const metadata: Metadata = {
     template: '%s | Just Legal Solutions',
     default: 'Just Legal Solutions - Professional Process Serving in Oklahoma'
   },
-  description: 'Expert process serving, secure document delivery, court transfers, and skip tracing services in Oklahoma. Fast, reliable, and professional legal support services.',
-  keywords: ['process server', 'legal services', 'document delivery', 'court transfers', 'skip tracing', 'Oklahoma process server', 'legal support', 'same day service'],
+  description: 'Expert process serving in Tulsa County, Broken Arrow (Wagoner County), and Sapulpa (Creek County). Same-day, rush, and standard service with statewide Oklahoma coverage. Starting at $60.',
+  keywords: [
+    'process server', 'legal services', 'document delivery', 'court transfers', 'skip tracing', 
+    'Oklahoma process server', 'Tulsa County process server', 'Broken Arrow process server', 
+    'Sapulpa process server', 'Wagoner County legal services', 'Creek County process serving',
+    'legal support', 'same day service', 'rush service', 'statewide coverage'
+  ],
   authors: [{ name: 'Joseph Iannazzi' }],
   creator: 'Just Legal Solutions',
   publisher: 'Just Legal Solutions',
@@ -44,7 +50,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: 'https://justlegalsolutions.org',
     title: 'Just Legal Solutions - Professional Process Serving in Oklahoma',
-    description: 'Expert process serving, secure document delivery, court transfers, and skip tracing services in Oklahoma. Fast, reliable, and professional legal support services.',
+    description: 'Expert process serving in Tulsa County, Broken Arrow, and Sapulpa. Same-day service available. Standard rates apply to Tulsa County and select parts of Creek County & Wagoner County.',
     siteName: 'Just Legal Solutions',
     images: [
       {
@@ -58,7 +64,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Just Legal Solutions - Professional Process Serving in Oklahoma',
-    description: 'Expert process serving, secure document delivery, court transfers, and skip tracing services in Oklahoma.',
+    description: 'Expert process serving in Tulsa County, Broken Arrow, and Sapulpa. Same-day service available starting at $60.',
     images: ['/images/jls-logo.webp']
   },
   robots: {
@@ -91,6 +97,11 @@ export default function RootLayout({
           id="schema-org"
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+        />
+        <Script
+          id="faq-schema"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
         />
       </head>
       <body className={inter.className} suppressHydrationWarning>

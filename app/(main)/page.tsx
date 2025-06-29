@@ -17,9 +17,7 @@ export default function Home() {
         <div className="relative h-full flex flex-col items-center justify-center text-white text-center px-4">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 drop-shadow-lg">Efficient Process Serving Solutions</h1>
           <p className="text-lg md:text-xl max-w-3xl drop-shadow-md">
-            At Just Legal Solutions, we offer comprehensive process serving services
-            tailored to your needs. Whether it's routine, rush, or same-day service, we
-            ensure statewide coverage at reasonable rates.
+            At Just Legal Solutions, we offer comprehensive process serving services tailored to your needs. Whether it&apos;s routine, rush, or same-day service, we ensure statewide Oklahoma coverage at reasonable rates.
           </p>
         </div>
       </section>
@@ -62,13 +60,13 @@ export default function Home() {
               <div className="mb-4 relative h-56 w-full rounded-lg overflow-hidden shadow-[0_0_15px_rgba(255,255,255,0.3)]">
                 <img
                   src="/images/skip-trace.webp"
-                  alt="Skip tracing and investigation services"
+                  alt="Professional skip tracing and investigation services for locating individuals in Oklahoma"
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="text-xl font-bold mb-2">Skip Tracing</h3>
+              <h3 className="text-xl font-bold mb-2">Skip Tracing Services</h3>
               <p className="text-gray-400">
-                Our skip trace service helps locate hard-to-find individuals efficiently and cost-effectively.
+                Professional skip tracing services to locate individuals throughout Oklahoma when traditional methods fail.
               </p>
             </div>
             {/* Service 4 */}
@@ -76,8 +74,9 @@ export default function Home() {
               <div className="mb-4 relative h-56 w-full rounded-lg overflow-hidden shadow-[0_0_15px_rgba(255,255,255,0.3)]">
                 <img
                   src="/images/same-day.webp"
-                  alt="Same day delivery service"
+                  alt="Same-day process serving and urgent document delivery services"
                   className="w-full h-full object-cover"
+                  style={{ objectPosition: '50% 30%' }}
                 />
               </div>
               <h3 className="text-xl font-bold mb-2">Same-Day Service</h3>
