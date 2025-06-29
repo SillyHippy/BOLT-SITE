@@ -32,9 +32,20 @@ export default function Home() {
           <div className="absolute inset-0 bg-black/60" />
         </div>
         <div className="relative h-full flex flex-col items-center justify-center text-white text-center px-4">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 drop-shadow-lg">Professional Process Server Tulsa County</h1>
-          <p className="text-lg md:text-xl max-w-3xl drop-shadow-md mb-8">
+          {/* SEO-optimized H1 - Hidden from users, visible to search engines */}
+          <h1 className="sr-only">Professional Process Server Tulsa County</h1>
+          
+          {/* Visual heading - What users see */}
+          <div className="text-4xl md:text-6xl font-bold mb-6 drop-shadow-lg">Efficient Process Serving & Courier Solutions</div>
+          
+          {/* SEO-optimized description - Hidden from users, visible to search engines */}
+          <p className="sr-only">
             At Just Legal Solutions, we provide expert legal document delivery services throughout Tulsa County, Broken Arrow, and Sapulpa. From routine legal papers to urgent same-day process serving, we deliver professional results at competitive rates.
+          </p>
+          
+          {/* Visual description - What users see */}
+          <p className="text-lg md:text-xl max-w-3xl drop-shadow-md mb-8">
+            At Just Legal Solutions, we offer comprehensive process serving, courier, &amp; other business services tailored to your needs. Whether it&apos;s routine, rush, or same-day service, we ensure statewide Oklahoma coverage at reasonable rates.
           </p>
           
           {/* SEO-ONLY Content - Hidden from users but visible to search engines */}
