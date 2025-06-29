@@ -91,3 +91,85 @@
     object-position: 50% 30%;
   }
 }
+
+/* Mobile Performance Optimizations */
+@media (max-width: 768px) {
+  /* Reduce expensive properties on mobile */
+  * {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  /* Optimize touch scrolling */
+  body {
+    -webkit-overflow-scrolling: touch;
+    overflow-scrolling: touch;
+  }
+  
+  /* Reduce motion for better performance */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+  
+  /* Optimize images for mobile */
+  img {
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: optimize-contrast;
+  }
+}
+
+/* Connection-aware optimizations */
+.slow-connection * {
+  animation: none !important;
+  transition: none !important;
+}
+
+.slow-connection img {
+  filter: none !important;
+}
+
+/* Low memory device optimizations */
+.low-memory * {
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+/* Low battery optimizations */
+.low-battery * {
+  animation-play-state: paused !important;
+}
+
+/* Touch target optimization */
+@media (pointer: coarse) {
+  button,
+  a,
+  [role="button"],
+  input[type="button"],
+  input[type="submit"] {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+/* Critical loading states */
+.loading-placeholder {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}

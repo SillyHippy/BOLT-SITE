@@ -5,11 +5,16 @@ import Script from 'next/script';
 import { organizationSchema } from '@/components/ui/schema';
 import { faqSchema } from '@/components/ui/faq-schema';
 import { PerformanceOptimizer } from '@/components/ui/performance-optimizer';
+import { CriticalCSS } from '@/components/ui/critical-css-inline';
+import { MobileOptimizer } from '@/components/ui/mobile-optimizer';
+import { ServiceWorkerRegistration } from '@/components/ui/service-worker-registration';
 
 const inter = Inter({ 
   subsets: ['latin'],
   display: 'swap',
-  preload: true
+  preload: true,
+  weight: ['400', '700'],
+  fallback: ['system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'sans-serif']
 });
 
 export const metadata: Metadata = {
@@ -29,6 +34,13 @@ export const metadata: Metadata = {
   authors: [{ name: 'Joseph Iannazzi' }],
   creator: 'Just Legal Solutions',
   publisher: 'Just Legal Solutions',
+  viewport: {
+    width: 'device-width',
+    initialScale: 1,
+    maximumScale: 1,
+    userScalable: false,
+    viewportFit: 'cover'
+  },
   formatDetection: {
     email: false,
     address: false,
@@ -100,11 +112,13 @@ export default function RootLayout({
         <link rel="preload" href="/images/hero.webp" as="image" />
         <link rel="preload" href="/Favicon/favicon.ico" as="image" type="image/x-icon" />
         <link rel="preload" href="/_next/static/css/app/layout.css" as="style" />
+        <link rel="preload" href="/fonts/inter-regular.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+        <link rel="preload" href="/fonts/inter-bold.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="//www.googletagmanager.com" />
         <link rel="dns-prefetch" href="//fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
-        <meta name="cache-version" content="2025-01-15-v7" />
+        <meta name="cache-version" content="2025-01-15-v8-mobile-optimized" />
         <Script
           id="schema-org"
           type="application/ld+json"
@@ -115,17 +129,24 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
         />
-        {/* Google Analytics */}
+        {/* Google Analytics - Optimized Loading */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-984ZD882EX"
           strategy="afterInteractive"
+          defer
         />
         <Script id="google-analytics" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-984ZD882EX');
+            gtag('config', 'G-984ZD882EX', {
+              page_title: document.title,
+              page_location: window.location.href,
+              send_page_view: true,
+              cookie_flags: 'SameSite=None;Secure',
+              anonymize_ip: true
+            });
           `}
         </Script>
         {/* Facebook Pixel */}
@@ -145,7 +166,10 @@ export default function RootLayout({
         </Script>
       </head>
       <body className={inter.className} suppressHydrationWarning>
+        <CriticalCSS />
         <PerformanceOptimizer />
+        <MobileOptimizer />
+        <ServiceWorkerRegistration />
         {children}
       </body>
     </html>
