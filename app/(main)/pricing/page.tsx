@@ -5,6 +5,8 @@ import { CheckCircle, Truck } from 'lucide-react';
 
 // Data for additional services for easy management
 const additionalServices = [
+    { title: 'Immediate Action Service', description: 'Critical emergency service for time-sensitive legal situations requiring service within <strong>2-4 hours</strong>. Additional fee of <strong>$100</strong> on top of base service rate. Subject to availability and confirmation.' },
+    { title: 'Holiday Service', description: 'Service available on holidays with an additional surcharge of <strong>$25-50</strong> depending on the specific date and urgency. Contact us for availability and exact pricing.' },
     { title: 'Filing Affidavits', description: 'We can file the Return of Service Affidavit with the court for you. The fee is <strong>$35 plus court costs</strong> for Tulsa County. Fees for other counties will be quoted upfront.' },
     { title: 'Printing Documents', description: 'The first 10 pages are printed free of charge. Additional pages are <strong>$0.20 per page</strong>.' },
     { title: 'Set Time of Service', description: 'If you require service at a specific time and date, an additional rush fee may apply. This will be confirmed with you beforehand.' },
@@ -37,9 +39,18 @@ export default function PricingPage() {
       <section className="pt-24 pb-10 px-4 bg-gray-100">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">JLS Wants to Partner with You</h2>
-          <p className="text-gray-700 text-lg font-medium max-w-4xl mx-auto">
-            <strong>If you don't see exactly what you're looking for</strong> in our service offerings, have a particularly complex or unique situation, or <strong>need more competitive pricing</strong>, we encourage you to reach out <strong>before exploring alternatives.</strong> We're happy to discuss your specific needs and create tailored solutions that work for you. <span className="text-blue-600 font-semibold">Bulk and volume pricing available upon request</span>—contact us directly to learn more!
+          <p className="text-gray-700 text-lg font-medium max-w-4xl mx-auto mb-6">
+            <strong>If you don't see exactly what you're looking for</strong> in our service offerings, have a particularly complex or unique situation, or <strong>need more competitive pricing</strong>, we encourage you to reach out <strong>before exploring alternatives.</strong> We're happy to discuss your specific needs and create tailored solutions that work for you.
           </p>
+          
+          <div className="max-w-4xl mx-auto text-gray-700 text-base leading-relaxed">
+            <p className="mb-4">
+              <strong className="text-blue-600">Volume Discounts:</strong> We offer automatic monthly discounts based on service volume. No contracts required.
+            </p>
+            <p>
+              <strong className="text-blue-600">Partnership Opportunities:</strong> Dedicated account management with priority scheduling and custom billing arrangements. Streamlined processes for businesses requiring regular document delivery and service. Established clients with consistent business receive priority service and preferential rates.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -58,30 +69,37 @@ export default function PricingPage() {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Cards remain the same */}
-            <div className="bg-white p-8 rounded-xl shadow-md border border-gray-200">
-              <h3 className="text-2xl font-bold mb-4 text-gray-900">Standard Service</h3>
-              <p className="text-4xl font-bold mb-4 text-gray-800">$60</p>
-              <p className="text-gray-600 mb-4">First Service Attempt Within 5 Business Days (usually sooner).</p>
-              <p className="text-base text-gray-500">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200">
+              <h3 className="text-xl font-bold mb-3 text-gray-900">Standard Service</h3>
+              <p className="text-3xl font-bold mb-3 text-gray-800">$60</p>
+              <p className="text-gray-600 mb-3 text-sm">First Service Attempt Within 5 Business Days (usually sooner).</p>
+              <p className="text-sm text-gray-500">
                 Ideal for routine document delivery.
               </p>
             </div>
-            <div className="bg-white p-8 rounded-xl shadow-lg border-2 border-blue-500">
-              <h3 className="text-2xl font-bold mb-4 text-blue-600">Rush Service</h3>
-              <p className="text-4xl font-bold mb-4 text-gray-800">$100</p>
-              <p className="text-gray-600 mb-4">A JLS Agent Will Attempt Service Within 72 Hours or Sooner.</p>
-              <p className="text-base text-gray-500">
+            <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200">
+              <h3 className="text-xl font-bold mb-3 text-gray-900">Rush Service</h3>
+              <p className="text-3xl font-bold mb-3 text-gray-800">$100</p>
+              <p className="text-gray-600 mb-3 text-sm">A JLS Agent Will Attempt Service Within 72 Hours or Sooner.</p>
+              <p className="text-sm text-gray-500">
                 For urgent demands that need immediate attention.
               </p>
             </div>
-            <div className="bg-white p-8 rounded-xl shadow-md border border-gray-200">
-              <h3 className="text-2xl font-bold mb-4 text-gray-900">Same Day Service</h3>
-              <p className="text-4xl font-bold mb-4 text-gray-800">$150</p>
-              <p className="text-gray-600 mb-4">A JLS Agent Will Attempt Service Within 24 Hours or Sooner.</p>
-              <p className="text-base text-gray-500">
+            <div className="bg-white p-6 rounded-xl shadow-lg border-2 border-blue-500">
+              <h3 className="text-xl font-bold mb-3 text-blue-600">Same-Day Rush</h3>
+              <p className="text-3xl font-bold mb-3 text-gray-800">$150</p>
+              <p className="text-gray-600 mb-3 text-sm">A JLS Agent Will Attempt Service Within 24 Hours or Sooner.</p>
+              <p className="text-sm text-gray-500">
                 For the most urgent, time-critical matters.
+              </p>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200">
+              <h3 className="text-xl font-bold mb-3 text-gray-900">Triple-Attempt Rush</h3>
+              <p className="text-3xl font-bold mb-3 text-gray-800">$200</p>
+              <p className="text-gray-600 mb-3 text-sm">Guaranteed 3 service attempts within 72 hours with detailed reporting.</p>
+              <p className="text-sm text-gray-500">
+                For evasive or hard-to-serve respondents.
               </p>
             </div>
           </div>
