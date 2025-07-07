@@ -173,7 +173,7 @@ export default function PricingPage() {
             <div>
                  <h3 className="text-xl font-bold mb-3 text-gray-800">Due Diligence Policy</h3>
                 <p className="text-gray-700">
-                At Just Legal Solutions, we adhere to Oklahoma's due diligence standards. This means our process servers make multiple attempts at different times of day and on different days of the week to demonstrate a thorough and reasonable effort to effectuate personal service before considering alternatives.
+                At Just Legal Solutions, we adhere to Oklahoma's due diligence standards and exceed minimum requirements. Our process servers make <strong>a minimum of 3 service attempts</strong> at different times of day and on different days of the week to demonstrate a thorough and reasonable effort to effectuate personal service before considering alternatives.
                 </p>
             </div>
             <div>

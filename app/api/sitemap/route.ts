@@ -5,6 +5,7 @@ export async function GET() {
   const lastModified = '2025-01-15T00:00:00.000Z'; // Fixed date for SEO optimization
 
   return NextResponse.json([
+    // High Priority Pages (1.0-0.9)
     {
       url: `${baseUrl}/`,
       lastModified,
@@ -18,11 +19,19 @@ export async function GET() {
       priority: 0.9,
     },
     {
-      url: `${baseUrl}/pricing/`,
+      url: `${baseUrl}/process-server-tulsa/`,
       lastModified,
-      changeFrequency: 'monthly',
+      changeFrequency: 'weekly',
       priority: 0.9,
     },
+    {
+      url: `${baseUrl}/courier-services-tulsa/`,
+      lastModified,
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    
+    // Service Pages (0.9-0.8)
     {
       url: `${baseUrl}/services/`,
       lastModified,
@@ -30,13 +39,7 @@ export async function GET() {
       priority: 0.9,
     },
     {
-      url: `${baseUrl}/process-server-tulsa/`,
-      lastModified,
-      changeFrequency: 'monthly',
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/courier-services-tulsa/`,
+      url: `${baseUrl}/pricing/`,
       lastModified,
       changeFrequency: 'monthly',
       priority: 0.9,
@@ -47,6 +50,16 @@ export async function GET() {
       changeFrequency: 'monthly',
       priority: 0.8,
     },
+    
+    // Security & Policy Pages (0.7-0.6)
+    {
+      url: `${baseUrl}/security-policy/`,
+      lastModified,
+      changeFrequency: 'yearly',
+      priority: 0.7,
+    },
+    
+    // Contact & Card Pages (0.7-0.6)
     {
       url: `${baseUrl}/card/`,
       lastModified,
