@@ -35,6 +35,18 @@ export default function PricingPage() {
   return (
     <main className="min-h-screen bg-white font-sans">
       
+      {/* LIMITED TIME SALE BANNER */}
+      <div className="bg-gradient-to-r from-red-600 to-red-700 text-white py-3 px-4 relative overflow-hidden">
+        <div className="max-w-7xl mx-auto text-center relative z-10">
+          <div className="flex items-center justify-center space-x-2 text-sm md:text-base font-semibold">
+            <span className="animate-pulse">🔥</span>
+            <span>LIMITED TIME: 20% OFF ALL PROCESS SERVING SERVICES</span>
+            <span className="animate-pulse">🔥</span>
+          </div>
+        </div>
+        <div className="absolute inset-0 bg-red-800 opacity-20 animate-pulse"></div>
+      </div>
+      
       {/* --- EDITED --- Reduced bottom padding (pb-16 to pb-10) */}
       <section className="pt-24 pb-10 px-4 bg-gray-100">
         <div className="max-w-7xl mx-auto text-center">
@@ -70,33 +82,49 @@ export default function PricingPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200">
+            <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200 relative">
+              <div className="absolute -top-2 -right-2 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded-full">20% OFF</div>
               <h3 className="text-xl font-bold mb-3 text-gray-900">Standard Service</h3>
-              <p className="text-3xl font-bold mb-3 text-gray-800">$60</p>
+              <div className="mb-3">
+                <p className="text-lg text-gray-400 line-through">$60</p>
+                <p className="text-3xl font-bold text-green-600">$48</p>
+              </div>
               <p className="text-gray-600 mb-3 text-sm">First Service Attempt Within 5 Business Days (usually sooner).</p>
               <p className="text-sm text-gray-500">
                 Ideal for routine document delivery.
               </p>
             </div>
-            <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200">
+            <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200 relative">
+              <div className="absolute -top-2 -right-2 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded-full">20% OFF</div>
               <h3 className="text-xl font-bold mb-3 text-gray-900">Rush Service</h3>
-              <p className="text-3xl font-bold mb-3 text-gray-800">$100</p>
+              <div className="mb-3">
+                <p className="text-lg text-gray-400 line-through">$100</p>
+                <p className="text-3xl font-bold text-green-600">$80</p>
+              </div>
               <p className="text-gray-600 mb-3 text-sm">A JLS Agent Will Attempt Service Within 72 Hours or Sooner.</p>
               <p className="text-sm text-gray-500">
                 For urgent demands that need immediate attention.
               </p>
             </div>
-            <div className="bg-white p-6 rounded-xl shadow-lg border-2 border-blue-500">
+            <div className="bg-white p-6 rounded-xl shadow-lg border-2 border-red-500 relative">
+              <div className="absolute -top-3 -right-3 bg-red-500 text-white text-sm font-bold px-3 py-2 rounded-full animate-pulse">BEST DEAL!</div>
               <h3 className="text-xl font-bold mb-3 text-blue-600">Same-Day Rush</h3>
-              <p className="text-3xl font-bold mb-3 text-gray-800">$150</p>
+              <div className="mb-3">
+                <p className="text-lg text-gray-400 line-through">$150</p>
+                <p className="text-3xl font-bold text-green-600">$120</p>
+              </div>
               <p className="text-gray-600 mb-3 text-sm">A JLS Agent Will Attempt Service Within 24 Hours or Sooner.</p>
               <p className="text-sm text-gray-500">
                 For the most urgent, time-critical matters.
               </p>
             </div>
-            <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200">
+            <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200 relative">
+              <div className="absolute -top-2 -right-2 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded-full">20% OFF</div>
               <h3 className="text-xl font-bold mb-3 text-gray-900">Triple-Attempt Rush</h3>
-              <p className="text-3xl font-bold mb-3 text-gray-800">$200</p>
+              <div className="mb-3">
+                <p className="text-lg text-gray-400 line-through">$200</p>
+                <p className="text-3xl font-bold text-green-600">$160</p>
+              </div>
               <p className="text-gray-600 mb-3 text-sm">Guaranteed 3 service attempts within 72 hours with detailed reporting.</p>
               <p className="text-sm text-gray-500">
                 For evasive or hard-to-serve respondents.
