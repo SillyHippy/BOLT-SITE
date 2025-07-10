@@ -35,24 +35,12 @@ export default function PricingPage() {
   return (
     <main className="min-h-screen bg-white font-sans">
       
-      {/* LIMITED TIME SALE BANNER */}
-      <div className="bg-gradient-to-r from-red-600 to-red-700 text-white py-3 px-4 relative overflow-hidden">
-        <div className="max-w-7xl mx-auto text-center relative z-10">
-          <div className="flex items-center justify-center space-x-2 text-sm md:text-base font-semibold">
-            <span className="animate-pulse">🔥</span>
-            <span>LIMITED TIME: 20% OFF ALL PROCESS SERVING SERVICES</span>
-            <span className="animate-pulse">🔥</span>
-          </div>
-        </div>
-        <div className="absolute inset-0 bg-red-800 opacity-20 animate-pulse"></div>
-      </div>
-      
       {/* --- EDITED --- Reduced bottom padding (pb-16 to pb-10) */}
       <section className="pt-24 pb-10 px-4 bg-gray-100">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">JLS Wants to Partner with You</h2>
           <p className="text-gray-700 text-lg font-medium max-w-4xl mx-auto mb-6">
-            <strong>If you don't see exactly what you're looking for</strong> in our service offerings, have a particularly complex or unique situation, or <strong>need more competitive pricing</strong>, we encourage you to reach out <strong>before exploring alternatives.</strong> We're happy to discuss your specific needs and create tailored solutions that work for you.
+            <strong>If you don&apos;t see exactly what you&apos;re looking for</strong> in our service offerings, have a particularly complex or unique situation, or <strong>need more competitive pricing</strong>, we encourage you to reach out <strong>before exploring alternatives.</strong> We&apos;re happy to discuss your specific needs and create tailored solutions that work for you.
           </p>
           
           <div className="max-w-4xl mx-auto text-gray-700 text-base leading-relaxed">
@@ -201,7 +189,7 @@ export default function PricingPage() {
             <div>
                  <h3 className="text-xl font-bold mb-3 text-gray-800">Due Diligence Policy</h3>
                 <p className="text-gray-700">
-                At Just Legal Solutions, we adhere to Oklahoma's due diligence standards and exceed minimum requirements. Our process servers make <strong>a minimum of 3 service attempts</strong> at different times of day and on different days of the week to demonstrate a thorough and reasonable effort to effectuate personal service before considering alternatives.
+                At Just Legal Solutions, we adhere to Oklahoma&apos;s due diligence standards and exceed minimum requirements. Our process servers make <strong>a minimum of 3 service attempts</strong> at different times of day and on different days of the week to demonstrate a thorough and reasonable effort to effectuate personal service before considering alternatives.
                 </p>
             </div>
             <div>
