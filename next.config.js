@@ -20,7 +20,8 @@ const nextConfig = {
   trailingSlash: true,
   // Optimize for Cloudflare Pages
   experimental: {
-    optimizeCss: true,
+    // Disabled optimizeCss to prevent critters dependency issues
+    // optimizeCss: true,
   },
 };
 
