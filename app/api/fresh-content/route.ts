@@ -1,5 +1,7 @@
 import { NextResponse } from 'next/server';
 
+export const dynamic = 'force-dynamic';
+
 // Provides fresh content snippets that rotate daily for SEO
 export async function GET() {
   const today = new Date();

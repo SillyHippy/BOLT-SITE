@@ -1,5 +1,7 @@
 import { NextResponse } from 'next/server';
 
+export const dynamic = 'force-dynamic';
+
 // Auto-generates fresh meta descriptions with current date for SEO freshness
 export async function GET() {
   const today = new Date().toLocaleDateString('en-US', { 

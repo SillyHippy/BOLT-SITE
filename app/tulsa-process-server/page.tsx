@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function TulsaProcessServer() {
   return (
     <main className="min-h-screen bg-white">
@@ -10,6 +12,19 @@ export default function TulsaProcessServer() {
           <p className="text-xl mb-8">
             Fast, reliable legal document delivery throughout Tulsa County, Broken Arrow, Glenpool, and surrounding communities. Same-day service available.
           </p>
+          
+          {/* Professional Image */}
+          <div className="mb-8 flex justify-center">
+            <Image
+              src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&h=300&fit=crop&auto=format"
+              alt="Professional legal document delivery service in Tulsa Oklahoma"
+              width={600}
+              height={300}
+              className="rounded-lg shadow-lg"
+              priority
+            />
+          </div>
+          
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
             <div className="bg-white/10 p-3 rounded-lg">
               <div className="font-bold">Same-Day</div>

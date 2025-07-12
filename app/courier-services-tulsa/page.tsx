@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { ArrowLeft, Truck, Clock, FileText, Shield, MapPin } from 'lucide-react';
@@ -33,6 +34,18 @@ export default function CourierServicesTulsaPage() {
 
       {/* Main Content */}
       <div className="max-w-7xl mx-auto px-4 py-16">
+        {/* Professional Image */}
+        <div className="mb-12 text-center">
+          <Image
+            src="https://images.unsplash.com/photo-1553413077-190dd305871c?w=800&h=400&fit=crop&auto=format"
+            alt="Professional courier service delivering legal documents in Tulsa County Oklahoma"
+            width={800}
+            height={400}
+            className="rounded-lg shadow-lg mx-auto"
+            priority
+          />
+        </div>
+        
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
           {/* Main Content */}
           <div className="lg:col-span-2">

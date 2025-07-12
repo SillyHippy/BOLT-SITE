@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { ArrowLeft, MapPin, Clock, FileText, Shield } from 'lucide-react';
@@ -33,6 +34,18 @@ export default function ProcessServerTulsaPage() {
 
       {/* Main Content */}
       <div className="max-w-7xl mx-auto px-4 py-16">
+        {/* Professional Image */}
+        <div className="mb-12 text-center">
+          <Image
+            src="https://images.unsplash.com/photo-1589578527966-fdac0f44566c?w=800&h=400&fit=crop&auto=format"
+            alt="Professional process server delivering legal documents in Tulsa County Oklahoma"
+            width={800}
+            height={400}
+            className="rounded-lg shadow-lg mx-auto"
+            priority
+          />
+        </div>
+        
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
           {/* Main Content */}
           <div className="lg:col-span-2">
