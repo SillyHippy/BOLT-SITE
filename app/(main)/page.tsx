@@ -2,6 +2,9 @@ import React from 'react';
 import Image from 'next/image';
 import { Mail, Phone, MapPin, Truck, FileText, Building2, Clock } from "lucide-react";
 import { Metadata } from 'next';
+import BusinessSchema from '../../components/BusinessSchema';
+import FAQSchema from '../../components/FAQSchema';
+import ServiceSchema from '../../components/ServiceSchema';
 
 export const metadata: Metadata = {
   title: {
@@ -346,6 +349,11 @@ export default function Home() {
           </div>
         </div>
       </section>
+      
+      {/* SEO Schema Markup for Maximum Rankings */}
+      <BusinessSchema />
+      <FAQSchema />
+      <ServiceSchema />
     </main>
   );
 }

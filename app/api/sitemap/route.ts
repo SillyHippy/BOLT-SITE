@@ -31,6 +31,12 @@ export async function GET() {
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
+  <url>
+    <loc>${baseUrl}/urgent-process-server/</loc>
+    <lastmod>${lastModified}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+  </url>
   
   <!-- Service Pages -->
   <url>
