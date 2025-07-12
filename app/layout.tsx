@@ -9,6 +9,7 @@ import { CriticalCSS } from '@/components/ui/critical-css-inline';
 import { MobileOptimizer } from '@/components/ui/mobile-optimizer';
 import { MobilePerformanceBoost } from '@/components/ui/mobile-performance-boost';
 import { ServiceWorkerRegistration } from '@/components/ui/service-worker-registration';
+import LocalBusinessSchema from '@/components/ui/local-business-schema';
 
 const inter = Inter({ 
   subsets: ['latin'],
@@ -174,6 +175,7 @@ export default function RootLayout({
         <MobileOptimizer />
         <MobilePerformanceBoost />
         <ServiceWorkerRegistration />
+        <LocalBusinessSchema />
         {children}
       </body>
     </html>
