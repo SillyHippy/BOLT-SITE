@@ -21,4 +21,4 @@ Crawl-delay: 1
 # User-agent: SemrushBot
 # Disallow: /
 
-Sitemap: https://justlegalsolutions.org/sitemap.xml
+Sitemap: https://justlegalsolutions.org/api/sitemap

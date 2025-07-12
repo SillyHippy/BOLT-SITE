@@ -1,0 +1,37 @@
+name: Update Sitemap Dates
+
+on:
+  schedule:
+    # Run every Monday at 9 AM UTC
+    - cron: '0 9 * * 1'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  update-sitemap:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Update sitemap dates
+      run: |
+        # Get current date in YYYY-MM-DD format
+        CURRENT_DATE=$(date +%Y-%m-%d)
+        
+        # Update all lastmod dates in sitemap.xml
+        sed -i "s/<lastmod>[0-9-]*<\/lastmod>/<lastmod>$CURRENT_DATE<\/lastmod>/g" public/sitemap.xml
+        
+    - name: Commit and push if changed
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add public/sitemap.xml
+        
+        # Only commit if there are changes
+        if ! git diff --cached --quiet; then
+          git commit -m "🤖 Auto-update sitemap dates to $(date +%Y-%m-%d)"
+          git push
+        else
+          echo "No changes to sitemap"
+        fi
