@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Cloudflare Pages supports dynamic API routes, so no static export needed
-  // Force redeploy with critters dependency fix
+  // Enable static export for Cloudflare Pages free tier
+  output: 'export',
+  // Force redeploy with static export fix
   eslint: {
     ignoreDuringBuilds: true,
   },
