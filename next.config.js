@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Enable static export for Cloudflare Pages free tier
-  output: 'export',
-  // Force redeploy with static export fix
+  // Removed static export for Cloudflare Pages with API routes
+  // output: 'export',
+  // Force redeploy with API route support
   eslint: {
     ignoreDuringBuilds: true,
   },
