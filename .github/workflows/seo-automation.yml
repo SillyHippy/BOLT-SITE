@@ -1,0 +1,144 @@
+name: Daily SEO Updates
+
+on:
+  schedule:
+    # Run daily at 9 AM UTC (4 AM EST)
+    - cron: '0 9 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  update-seo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+          
+      - name: Install dependencies
+        run: npm ci
+        
+      - name: Update SEO Content
+        run: |
+          # Create comprehensive SEO update script
+          cat > update-seo.js << 'EOF'
+          const fs = require('fs');
+          const path = require('path');
+          
+          const today = new Date();
+          const currentDate = today.toLocaleDateString();
+          const isoDate = today.toISOString().split('T')[0];
+          
+          console.log(`🚀 Starting SEO automation for ${currentDate}`);
+          
+          // 1. Update sitemap with current date
+          const sitemapPath = 'public/sitemap.xml';
+          if (fs.existsSync(sitemapPath)) {
+            let sitemap = fs.readFileSync(sitemapPath, 'utf8');
+            sitemap = sitemap.replace(/<lastmod>[^<]+<\/lastmod>/g, `<lastmod>${isoDate}</lastmod>`);
+            fs.writeFileSync(sitemapPath, sitemap);
+            console.log('✅ Sitemap updated with current date');
+          }
+          
+          // 2. Update meta descriptions in all SEO pages
+          function updateMetaDescriptions(dir) {
+            const items = fs.readdirSync(dir);
+            
+            items.forEach(item => {
+              const fullPath = path.join(dir, item);
+              const stat = fs.statSync(fullPath);
+              
+              if (stat.isDirectory()) {
+                updateMetaDescriptions(fullPath);
+              } else if (item.endsWith('.tsx') || item.endsWith('.ts')) {
+                let content = fs.readFileSync(fullPath, 'utf8');
+                let updated = false;
+                
+                // Update meta descriptions with current date
+                content = content.replace(
+                  /(description:\s*['"`].*?Updated:?\s*)[0-9]{1,2}\/[0-9]{1,2}\/[0-9]{4}(.*?['"`])/g,
+                  `$1${currentDate}$2`
+                );
+                
+                // Update "Last updated" text in content
+                content = content.replace(
+                  /(Last updated:?\s*)[0-9]{1,2}\/[0-9]{1,2}\/[0-9]{4}/g,
+                  `$1${currentDate}`
+                );
+                
+                // Update "Updated" in page content
+                content = content.replace(
+                  /(Updated:?\s*)[0-9]{1,2}\/[0-9]{1,2}\/[0-9]{4}/g,
+                  `$1${currentDate}`
+                );
+                
+                // Update page title dates
+                content = content.replace(
+                  /(title:\s*['"`].*?\s*-\s*)[0-9]{1,2}\/[0-9]{1,2}\/[0-9]{4}(.*?['"`])/g,
+                  `$1${currentDate}$2`
+                );
+                
+                fs.writeFileSync(fullPath, content);
+                console.log(`✅ Updated: ${fullPath}`);
+              }
+            });
+          }
+          
+          // Update all app directory files
+          updateMetaDescriptions('app');
+          
+          // 3. Create daily content rotation
+          const dayOfYear = Math.floor((today.getTime() - new Date(today.getFullYear(), 0, 0).getTime()) / (1000 * 60 * 60 * 24));
+          
+          const tips = [
+            "Professional process servers ensure legal compliance and accurate documentation.",
+            "Same-day service available for urgent legal documents throughout Tulsa County.",
+            "Licensed professionals handle sensitive legal documents with complete confidentiality.",
+            "GPS tracking and photo documentation ensure transparent service delivery.",
+            "Certified process servers provide reliable court document delivery services."
+          ];
+          
+          const dailyTip = tips[dayOfYear % tips.length];
+          
+          // 4. Update homepage with fresh content
+          const homePath = 'app/(main)/page.tsx';
+          if (fs.existsSync(homePath)) {
+            let homeContent = fs.readFileSync(homePath, 'utf8');
+            
+            // Update any "daily tip" sections
+            homeContent = homeContent.replace(
+              /(Daily Tip.*?<p[^>]*>)[^<]+(.*?<\/p>)/g,
+              `$1${dailyTip}$2`
+            );
+            
+            fs.writeFileSync(homePath, homeContent);
+            console.log('✅ Homepage updated with fresh daily content');
+          }
+          
+          console.log(`🎉 SEO automation completed successfully!`);
+          console.log(`📊 Updates applied:
+          - Sitemap timestamps: ${isoDate}
+          - Meta descriptions: ${currentDate}
+          - Page content dates: ${currentDate}
+          - Daily tip rotation: Day ${dayOfYear}
+          `);
+          EOF
+          
+          # Run the SEO update script
+          node update-seo.js
+          
+          echo "✅ Comprehensive SEO automation completed for $(date)"
+          
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "SEO Bot"
+          git add .
+          git diff --staged --quiet || git commit -m "🤖 Daily SEO update - $(date +%Y-%m-%d)"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

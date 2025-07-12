@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Enable static export for Cloudflare Pages deployment
+  // Enable static export for Cloudflare Pages free tier deployment
   output: 'export',
-  // Static site generation for CF Pages free tier
+  // Static site generation with GitHub Actions SEO automation
   eslint: {
     ignoreDuringBuilds: true,
   },
