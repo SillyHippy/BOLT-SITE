@@ -101,8 +101,6 @@ jobs:
               "description": `Urgent document delivery available now. Current response time: ${dynamicStats.responseTime}`,
               "offers": {
                 "@type": "Offer",
-                "price": "150",
-                "priceCurrency": "USD",
                 "availability": "https://schema.org/InStock"
               }
             }
@@ -230,7 +228,7 @@ jobs:
         - $(shuf -i 2-8 -n 1) same-day requests completed
         - $(shuf -i 3-12 -n 1) new client consultations
         
-        **Need process serving in ${SELECTED_CITY}? Call (918) 000-0000**
+        **Need process serving in ${SELECTED_CITY}? Call/text (539) 367-6832**
         EOF
         
         echo "✅ Local micro-update generated for ${SELECTED_CITY}"

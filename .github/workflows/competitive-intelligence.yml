@@ -54,10 +54,10 @@ jobs:
             'Weekend and holiday service'
           ],
           pricingStrategy: {
-            'standardService': { price: 75, advantage: 'Most competitive in Tulsa' },
-            'sameDayService': { price: 150, advantage: 'Fastest response time' },
-            'emergencyService': { price: 200, advantage: '24/7 availability' },
-            'courtFiling': { price: 50, advantage: 'Full-service legal support' }
+            'standardService': { advantage: 'Most competitive in Tulsa - view pricing page' },
+            'sameDayService': { advantage: 'Fastest response time - transparent rates' },
+            'emergencyService': { advantage: '24/7 availability - no hidden fees' },
+            'courtFiling': { advantage: 'Full-service legal support - competitive pricing' }
           },
           serviceAreas: [
             'Tulsa County', 'Creek County', 'Osage County', 'Rogers County',
@@ -77,7 +77,7 @@ jobs:
             feature: 'Availability', 
             ourAdvantage: 'True 24/7/365 emergency service',
             marketClaim: 'Only Oklahoma process server with verified overnight service',
-            proof: 'Emergency hotline: (918) 000-0000'
+            proof: 'Emergency hotline: Call/text (539) 367-6832'
           },
           {
             feature: 'Technology',
@@ -156,8 +156,8 @@ jobs:
                     <div className="bg-red-500 text-white rounded-2xl p-8 mb-8">
                       <h3 className="text-2xl font-bold mb-4">Ready to Experience the Difference?</h3>
                       <p className="text-lg mb-6">Join 2,800+ satisfied clients who chose Oklahoma's #1 process server</p>
-                      <a href="tel:9180000000" className="inline-block bg-white text-red-500 px-8 py-3 rounded-lg font-semibold text-lg hover:bg-gray-100 transition">
-                        Call (918) 000-0000 Now
+                      <a href="tel:5393676832" className="inline-block bg-white text-red-500 px-8 py-3 rounded-lg font-semibold text-lg hover:bg-gray-100 transition">
+                        Call (539) 367-6832 Now
                       </a>
                     </div>
                   </div>
@@ -292,8 +292,8 @@ jobs:
                 
                 <div className="text-center mt-12">
                   <p className="text-xl text-gray-600 mb-6">Ready to experience the difference?</p>
-                  <a href="tel:9180000000" className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition">
-                    Call (918) 000-0000 - See Why We're #1 in Oklahoma
+                  <a href="tel:5393676832" className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition">
+                    Call (539) 367-6832 - See Why We're #1 in Oklahoma
                   </a>
                 </div>
               </div>
@@ -335,7 +335,7 @@ jobs:
         
         export const metadata: Metadata = {
           title: 'Best Process Server in ${city}, Oklahoma | Just Legal Solutions - Glenpool Based',
-          description: 'Local ${city} process server based in nearby Glenpool. Same-day service, 15-minute response time, serving Tulsa County. Call (918) 000-0000.',
+          description: 'Local ${city} process server based in nearby Glenpool. Same-day service, 15-minute response time, serving Tulsa County. Call (539) 367-6832.',
           keywords: '${city} process server, process serving ${city}, legal documents ${city}, court papers ${city}, glenpool process server',
           openGraph: {
             title: 'Local Process Server: ${city}, Oklahoma',
@@ -389,8 +389,8 @@ jobs:
                     <div className="bg-red-500 text-white rounded-xl p-6">
                       <h3 className="text-2xl font-bold mb-4">Need Process Serving in ${city} Today?</h3>
                       <p className="text-lg mb-4">Local Glenpool server can be in ${city} in minutes!</p>
-                      <a href="tel:9180000000" className="inline-block bg-white text-red-500 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
-                        Call (918) 000-0000 - Local ${city} Service
+                      <a href="tel:5393676832" className="inline-block bg-white text-red-500 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
+                        Call (539) 367-6832 - Local ${city} Service
                       </a>
                     </div>
                   </div>
@@ -403,7 +403,7 @@ jobs:
                   "@type": "LocalBusiness",
                   "name": "Just Legal Solutions - ${city} Process Server",
                   "url": "https://justlegalsolutions.org/best-process-server-${city,,}",
-                  "telephone": "(918) 000-0000",
+                  "telephone": "(539) 367-6832",
                   "address": {
                     "@type": "PostalAddress",
                     "addressLocality": "Glenpool",
@@ -436,7 +436,7 @@ jobs:
         
         export const metadata: Metadata = {
           title: 'Oklahoma Process Server - ${city} | Statewide Service | Just Legal Solutions',
-          description: 'Professional process server serving ${city}, Oklahoma. Statewide coverage, licensed professionals, same-day service available. Call (918) 000-0000.',
+          description: 'Professional process server serving ${city}, Oklahoma. Statewide coverage, licensed professionals, same-day service available. Call (539) 367-6832.',
           keywords: '${city} process server, oklahoma process serving, statewide process server, legal documents ${city}',
           openGraph: {
             title: 'Oklahoma Process Server - ${city}',
@@ -490,8 +490,8 @@ jobs:
                     <div className="bg-blue-500 text-white rounded-xl p-6">
                       <h3 className="text-2xl font-bold mb-4">Statewide Oklahoma Process Serving</h3>
                       <p className="text-lg mb-4">Professional service in ${city} and beyond!</p>
-                      <a href="tel:9180000000" className="inline-block bg-white text-blue-500 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
-                        Call (918) 000-0000 - Statewide Service
+                      <a href="tel:5393676832" className="inline-block bg-white text-blue-500 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
+                        Call (539) 367-6832 - Statewide Service
                       </a>
                     </div>
                   </div>

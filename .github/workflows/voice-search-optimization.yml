@@ -43,7 +43,7 @@ jobs:
           },
           {
             pattern: "What is the cost of process serving in {city}?",
-            answer: "Process serving in {city} starts at $60 for standard service, $100 for rush, and $150 for same-day delivery."
+            answer: "Process serving in {city} is competitively priced with transparent rates. Visit justlegalsolutions.org/pricing for current pricing and service options."
           },
           {
             pattern: "Who can serve legal papers in {city}?",
@@ -64,11 +64,91 @@ jobs:
           },
           {
             pattern: "Process server {city} phone number",
-            answer: "Call Just Legal Solutions at (918) 000-0000 for process serving in {city} and throughout Oklahoma."
+            answer: "Call or text Just Legal Solutions at (539) 367-6832 for process serving in {city} and throughout Oklahoma."
           },
           {
             pattern: "Emergency process serving {city}",
             answer: "Just Legal Solutions offers emergency same-day process serving in {city} for urgent legal documents."
+          },
+          // NEW SERVICE TYPE KEYWORDS
+          {
+            pattern: "Court document delivery {city}",
+            answer: "Professional court document delivery in {city} by licensed process servers. Same-day service available for urgent legal paperwork."
+          },
+          {
+            pattern: "Legal paperwork service {city}",
+            answer: "Expert legal paperwork service in {city}. We handle all types of legal documents with professional delivery and proof of service."
+          },
+          {
+            pattern: "Divorce papers served {city}",
+            answer: "Confidential divorce papers service in {city}. Licensed process servers handle sensitive documents with discretion and professionalism."
+          },
+          {
+            pattern: "Eviction notice service {city}",
+            answer: "Legal eviction notice service in {city}. Proper service ensures your eviction process meets all court requirements."
+          },
+          {
+            pattern: "Small claims serving {city}",
+            answer: "Small claims document serving in {city}. Fast, reliable service for small claims court documents and summons."
+          },
+          {
+            pattern: "Child support papers {city}",
+            answer: "Professional child support document service in {city}. Sensitive handling of family court documents with care."
+          },
+          {
+            pattern: "Restraining order service {city}",
+            answer: "Urgent restraining order service in {city}. Emergency serving available for protective orders and restraining orders."
+          },
+          // NEW PROBLEM-BASED KEYWORDS
+          {
+            pattern: "Can't find person to serve {city}",
+            answer: "Skip tracing and locate services in {city}. We find hard-to-locate individuals for legal document service."
+          },
+          {
+            pattern: "Skip tracing service {city}",
+            answer: "Professional skip tracing service in {city}. Advanced location services for difficult-to-find defendants and witnesses."
+          },
+          {
+            pattern: "Difficult to serve {city}",
+            answer: "Specialized service for difficult serves in {city}. Expert process servers handle evasive defendants and challenging situations."
+          },
+          {
+            pattern: "Multiple attempt service {city}",
+            answer: "Multiple attempt process serving in {city}. Persistent service until successful delivery with detailed documentation."
+          },
+          {
+            pattern: "Evasive defendant {city}",
+            answer: "Expert handling of evasive defendants in {city}. Skilled process servers with experience serving difficult individuals."
+          },
+          // NEW COMPARISON KEYWORDS
+          {
+            pattern: "Process server vs sheriff {city}",
+            answer: "Private process servers in {city} offer faster service than sheriff departments. Same-day service available vs weeks of waiting."
+          },
+          {
+            pattern: "Private vs court serving {city}",
+            answer: "Private process servers in {city} provide faster, more reliable service than court-based serving with detailed tracking."
+          },
+          {
+            pattern: "Certified mail vs process server {city}",
+            answer: "Process servers in {city} ensure proper legal service where certified mail fails. Personal service required for most legal documents."
+          },
+          // NEW LOCAL AUTHORITY KEYWORDS
+          {
+            pattern: "Tulsa county courthouse approved {city}",
+            answer: "Tulsa County courthouse approved process servers in {city}. Licensed and bonded professionals meeting all court requirements."
+          },
+          {
+            pattern: "Oklahoma licensed server {city}",
+            answer: "Oklahoma state licensed process servers in {city}. Fully certified professionals ensuring compliant legal document service."
+          },
+          {
+            pattern: "Bonded process server {city}",
+            answer: "Bonded and insured process servers in {city}. Professional liability coverage protects your legal document service."
+          },
+          {
+            pattern: "Court certified serving {city}",
+            answer: "Court certified process serving in {city}. Meet all legal requirements with properly licensed and certified professionals."
           }
         ];
         
@@ -155,7 +235,7 @@ jobs:
         
         export const metadata: Metadata = {
           title: 'Process Server ${city} - Legal Document Delivery | Just Legal Solutions',
-          description: 'Professional process serving in ${city}, Oklahoma. Same-day service available. Licensed process servers for legal document delivery. Call (918) 000-0000.',
+          description: 'Professional process serving in ${city}, Oklahoma. Same-day service available. Licensed process servers for legal document delivery. Call/text (539) 367-6832.',
           keywords: ['process server ${city}', 'legal documents ${city}', 'same day service ${city}', 'process serving near me'],
           alternates: {
             canonical: 'https://justlegalsolutions.org/voice-search/${citySlug}/'
@@ -218,13 +298,13 @@ jobs:
                   <p>Same-day document service is available in ${city} through Just Legal Solutions. We can serve urgent legal documents within hours of receiving your request.</p>
                   
                   <h2>Where to find a process server near me in ${city}?</h2>
-                  <p>Just Legal Solutions provides licensed process servers near you in ${city} with same-day service available. Call us at nine one eight, triple zero for immediate assistance.</p>
+                  <p>Just Legal Solutions provides licensed process servers near you in ${city} with same-day service available. Call or text us at (539) 367-6832 for immediate assistance.</p>
                 </div>
                 
                 <div className="mt-12 bg-blue-50 p-8 rounded-lg">
                   <h3 className="text-2xl font-bold mb-4">Contact Just Legal Solutions ${city}</h3>
                   <p className="text-lg mb-4">Professional process serving in ${city}, Oklahoma</p>
-                  <p className="text-xl font-semibold text-blue-600">Call: (918) 000-0000</p>
+                  <p className="text-xl font-semibold text-blue-600">Call/Text: (539) 367-6832</p>
                   <p className="text-gray-600">Same-day service available • Licensed & bonded • Serving ${city} and surrounding areas</p>
                 </div>
               </div>
@@ -306,7 +386,7 @@ jobs:
           },
           {
             question: "How much does process serving cost in Tulsa?",
-            answer: "Process serving in Tulsa costs $60 for standard service (3-5 days), $100 for rush service (24-48 hours), and $150 for same-day service. Additional fees may apply for difficult serves or multiple attempts."
+            answer: "Process serving in Tulsa offers competitive pricing with multiple service levels available. Visit justlegalsolutions.org/pricing for current rates and service options. All pricing is transparent with no hidden fees."
           },
           {
             question: "How long does process serving take in Oklahoma?",
@@ -386,7 +466,7 @@ jobs:
         - GPS tracking and photo documentation
         - Detailed affidavits of service provided
         
-        **Call nine one eight, triple zero for immediate assistance.**
+        **Call or text (539) 367-6832 for immediate assistance.**
         
         ## Voice Search: "How much does process serving cost?"
         
