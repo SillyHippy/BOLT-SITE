@@ -40,11 +40,15 @@ jobs:
             node comprehensive-seo-test.js
             echo "✅ SEO validation completed"
           fi
-          
-      - name: Commit and Push Changes
+
+      - name: Set up GitHub credentials
         run: |
           git config --global user.name "ranking-blitz-bot"
           git config --global user.email "info@justlegalsolutions.org"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          
+      - name: Commit and Push Changes
+        run: |
           git add .
           git diff --staged --quiet || git commit -m "🚀 Ultimate Ranking Blitz: $(date '+%Y-%m-%d %H:%M UTC')"
           git push

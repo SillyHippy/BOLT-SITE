@@ -56,12 +56,15 @@ jobs:
           echo "⚡ Emergency ranking acceleration complete"
           echo "📈 Expected ranking boost: 15-30 minutes"
           
-      - name: Commit Emergency Updates
+      - name: Set up GitHub credentials
         run: |
           git config --global user.name "emergency-ranking-bot"
           git config --global user.email "info@justlegalsolutions.org"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          
+      - name: Commit Emergency Updates
+        run: |
+          current_time=$(date '+%Y-%m-%d %H:%M UTC')
           git add .
           git diff --staged --quiet || git commit -m "🚨 Emergency Ranking Boost: $current_time"
           git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
