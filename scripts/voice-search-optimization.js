@@ -150,13 +150,13 @@ function generateVoiceSearchContent() {
   const timeStamp = today.toISOString().split('T')[0];
   
   return `
-<!-- Voice Search Optimization Generated: ${timeStamp} -->
-<script type="application/ld+json">
+{/* Voice Search Optimization Generated: ${timeStamp} */}
+<Script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(
 ${JSON.stringify(voiceSearchSchema, null, 2)}
-</script>
+) }} />
 
-<!-- Voice Search Conversation Patterns -->
-<div className="voice-conversation-data" style="display: none;">
+{/* Voice Search Conversation Patterns */}
+<div className="voice-conversation-data" style={{ display: none; }}>
   ${voiceConversationPatterns.map(pattern => `
     <div data-voice-query="${pattern.query}" 
          data-voice-response="${pattern.response}" 
@@ -164,34 +164,34 @@ ${JSON.stringify(voiceSearchSchema, null, 2)}
   `).join('')}
 </div>
 
-<!-- Alexa Skills Optimization -->
-<div className="alexa-optimization" style="display: none;">
+{/* Alexa Skills Optimization */}
+<div className="alexa-optimization" style={{ display: none; }}>
   <div data-alexa-invocation="${alexaOptimization.invocationName}"></div>
   ${alexaOptimization.sampleUtterances.map(utterance => `
     <div data-alexa-utterance="${utterance}"></div>
   `).join('')}
 </div>
 
-<!-- Google Assistant Actions -->
-<div className="google-assistant-data" style="display: none;">
+{/* Google Assistant Actions */}
+<div className="google-assistant-data" style={{ display: none; }}>
   <div data-assistant-action="${googleAssistantOptimization.actionName}"></div>
   ${googleAssistantOptimization.intentPatterns.map(pattern => `
     <div data-assistant-intent="${pattern}"></div>
   `).join('')}
 </div>
 
-<!-- Siri Shortcuts -->
-<div className="siri-shortcuts-data" style="display: none;">
+{/* Siri Shortcuts */}
+<div className="siri-shortcuts-data" style={{ display: none; }}>
   <div data-siri-shortcut="${siriShortcutsOptimization.shortcutName}"></div>
   ${siriShortcutsOptimization.phrases.map(phrase => `
     <div data-siri-phrase="${phrase}"></div>
   `).join('')}
 </div>
 
-<!-- Voice Search Meta Tags -->
-<meta name="voice-search-optimized" content="true">
-<meta name="voice-queries" content="${voiceConversationPatterns.map(p => p.query).join(', ')}">
-<meta name="voice-assistant-ready" content="Alexa, Google Assistant, Siri, Cortana">
+{/* Voice Search Meta Tags */}
+<meta name="voice-search-optimized" content="true" />
+<meta name="voice-queries" content="${voiceConversationPatterns.map(p = /> p.query).join(', ')}">
+<meta name="voice-assistant-ready" content="Alexa, Google Assistant, Siri, Cortana" />
 `;
 }
 

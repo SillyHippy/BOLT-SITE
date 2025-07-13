@@ -165,13 +165,13 @@ function generateMultiSearchMeta() {
   const timeStamp = today.toISOString().split('T')[0];
   
   let metaTags = `
-<!-- Multi-Search Engine Optimization Generated: ${timeStamp} -->
+{/* Multi-Search Engine Optimization Generated: ${timeStamp} */}
 `;
   
   // Add meta tags for each search engine
   Object.entries(searchEngineOptimizations).forEach(([engine, config]) => {
     metaTags += `
-<!-- ${config.name} Optimization -->
+{/* ${config.name} Optimization */}
 `;
     Object.entries(config.metaTags).forEach(([name, content]) => {
       metaTags += `<meta name="${name}" content="${content}" />
@@ -181,7 +181,7 @@ function generateMultiSearchMeta() {
   
   // Add regional and language meta tags
   metaTags += `
-<!-- Regional Optimization -->
+{/* Regional Optimization */}
 <meta name="geo.region" content="US-OK" />
 <meta name="geo.placename" content="Tulsa, Oklahoma" />
 <meta name="geo.position" content="36.1540;-95.9928" />
@@ -190,7 +190,7 @@ function generateMultiSearchMeta() {
 <meta name="country" content="United States" />
 <meta name="language" content="English" />
 
-<!-- Multi-Language Support -->
+{/* Multi-Language Support */}
 <link rel="alternate" hreflang="en-us" href="https://justlegalsolutions.org/" />
 <link rel="alternate" hreflang="es-us" href="https://justlegalsolutions.org/es/" />
 <link rel="alternate" hreflang="x-default" href="https://justlegalsolutions.org/" />
@@ -220,9 +220,9 @@ function generateSearchEngineSchema() {
   });
   
   return `
-<script type="application/ld+json">
+<Script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(
 ${JSON.stringify(combinedSchema, null, 2)}
-</script>
+) }} />
 `;
 }
 
@@ -297,10 +297,10 @@ function updateSitemapForMultiSearch() {
       let sitemap = fs.readFileSync(sitemapPath, 'utf8');
       
       // Add search engine specific annotations
-      if (!sitemap.includes('<!-- Multi-Search Optimized -->')) {
+      if (!sitemap.includes('{/* Multi-Search Optimized */}')) {
         sitemap = sitemap.replace(
           '<urlset',
-          '<!-- Multi-Search Optimized -->\n<urlset'
+          '{/* Multi-Search Optimized */}\n<urlset'
         );
         
         // Add priority and changefreq optimizations

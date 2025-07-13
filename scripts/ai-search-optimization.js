@@ -132,29 +132,31 @@ function generateAIOptimizedContent() {
   const timeStamp = today.toISOString().split('T')[0];
   
   return `
-<!-- AI Search Optimization Generated: ${timeStamp} -->
-<script type="application/ld+json">
-${JSON.stringify(aiOptimizedSchema, null, 2)}
-</script>
+{/* AI Search Optimization Generated: ${timeStamp} */}
+<Script
+  id="ai-search-optimization"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{ __html: JSON.stringify(${JSON.stringify(aiOptimizedSchema, null, 2)}) }}
+/>
 
-<!-- AI Conversation Optimization -->
-<div className="ai-conversation-data" style="display: none;">
+{/* AI Conversation Optimization */}
+<div className="ai-conversation-data" style={{ display: 'none' }}>
   ${aiConversationalFAQ.map(faq => `
     <div data-ai-question="${faq.question}" data-ai-answer="${faq.answer}"></div>
   `).join('')}
 </div>
 
-<!-- Voice Search Optimization -->
-<div className="voice-search-targets" style="display: none;">
+{/* Voice Search Optimization */}
+<div className="voice-search-targets" style={{ display: 'none' }}>
   ${voiceSearchQueries.map(query => `
     <span data-voice-query="${query}">Tulsa process server - Just Legal Solutions</span>
   `).join('')}
 </div>
 
-<!-- AI Search Engine Hints -->
-<meta name="ai-search-optimized" content="true">
-<meta name="conversational-queries" content="${voiceSearchQueries.join(', ')}">
-<meta name="ai-context" content="Professional process serving in Tulsa, Oklahoma">
+{/* AI Search Engine Hints */}
+<meta name="ai-search-optimized" content="true" />
+<meta name="conversational-queries" content="${voiceSearchQueries.join(', ')}" />
+<meta name="ai-context" content="Professional process serving in Tulsa, Oklahoma" />
 `;
 }
 

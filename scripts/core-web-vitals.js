@@ -199,28 +199,28 @@ function generatePerformanceOptimizations() {
   const timeStamp = today.toISOString().split('T')[0];
   
   return `
-<!-- Core Web Vitals Optimization Generated: ${timeStamp} -->
+{/* Core Web Vitals Optimization Generated: ${timeStamp} */}
 
-<!-- Critical CSS (inline for faster FCP) -->
+{/* Critical CSS (inline for faster FCP) */}
 <style>
 ${criticalCSS}
 </style>
 
-<!-- Resource Hints for Better Performance -->
+{/* Resource Hints for Better Performance */}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="dns-prefetch" href="https://www.google-analytics.com">
 
-<!-- Font Optimization -->
+{/* Font Optimization */}
 <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"></noscript>
 
-<!-- Performance Monitoring -->
+{/* Performance Monitoring */}
 <script>
 ${performanceMonitoringScript}
-</script>
+) }} />
 
-<!-- Web Vitals Library -->
+{/* Web Vitals Library */}
 <script type="module">
   import { getCLS, getFID, getFCP, getLCP, getTTFB } from 'https://unpkg.com/web-vitals@3/dist/web-vitals.js';
   
@@ -229,11 +229,11 @@ ${performanceMonitoringScript}
   getFCP(console.log);
   getLCP(console.log);
   getTTFB(console.log);
-</script>
+) }} />
 
-<!-- Performance Meta Tags -->
-<meta name="performance-optimized" content="true">
-<meta name="core-web-vitals" content="LCP, FID, CLS, FCP, TTFB">
+{/* Performance Meta Tags */}
+<meta name="performance-optimized" content="true" />
+<meta name="core-web-vitals" content="LCP, FID, CLS, FCP, TTFB" />
 `;
 }
 
