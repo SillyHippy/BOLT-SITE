@@ -68,12 +68,6 @@ export default function ProcessServerBrokenArrow() {
                     Professional process serving throughout Broken Arrow and surrounding areas. 
                     Fast, reliable service with GPS tracking and photo documentation.
                   </p>
-                  <div className="bg-blue-50 border border-blue-200 rounded-lg p-3 mb-3">
-                    <p className="text-sm text-blue-800">
-                      <strong>Service Area Note:</strong> Standard rates apply to Tulsa County including Broken Arrow. 
-                      No surcharge for 74012 ZIP code area.
-                    </p>
-                  </div>
                   <a href="/pricing" className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg inline-block font-semibold">
                     View Pricing Details
                   </a>

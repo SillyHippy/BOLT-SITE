@@ -68,12 +68,6 @@ export default function ProcessServerGovernment() {
                     Professional government document delivery with security protocol awareness. 
                     Specialized rates for federal contractors and government agencies.
                   </p>
-                  <div className="bg-blue-50 border border-blue-200 rounded-lg p-3 mb-3">
-                    <p className="text-sm text-blue-800">
-                      <strong>Service Area Note:</strong> Standard rates apply to Tulsa County and select parts of 
-                      Creek County (Sapulpa) & Wagoner County (Broken Arrow). A surcharge applies to all other areas.
-                    </p>
-                  </div>
                   <a href="/pricing" className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg inline-block font-semibold">
                     View Government Pricing
                   </a>
@@ -137,7 +131,6 @@ export default function ProcessServerGovernment() {
               </div>
             </div>
           </div>
-
 
         </div>
       </div>

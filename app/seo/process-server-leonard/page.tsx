@@ -55,12 +55,6 @@ export default function ProcessServerLeonard() {
                   <p className="text-green-700 mb-3">
                     Professional process serving with transparent pricing. Rates vary by service type and urgency.
                   </p>
-                  <div className="bg-blue-50 border border-blue-200 rounded-lg p-3 mb-3">
-                    <p className="text-sm text-blue-800">
-                      <strong>Service Area Note:</strong> Standard rates apply to Tulsa County and select parts of 
-                      Creek County (Sapulpa) & Wagoner County (Broken Arrow). A surcharge applies to all other areas.
-                    </p>
-                  </div>
                   <a href="/pricing" className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg inline-block font-semibold">
                     View Complete Pricing
                   </a>
