@@ -12,7 +12,7 @@ export default function ProcessServingFAQ() {
   
   return (
     <div className="min-h-screen bg-white">
-      <div className="max-w-4xl mx-auto px-4 py-16">
+      <div className="max-w-4xl mx-auto px-4 py-16 pt-24">
         <h1 className="text-4xl font-bold text-gray-900 mb-6">
           Process Serving FAQ - Frequently Asked Questions
         </h1>
@@ -285,3 +285,4 @@ export default function ProcessServingFAQ() {
     </div>
   );
 }
+
