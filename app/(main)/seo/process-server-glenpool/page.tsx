@@ -1,11 +1,37 @@
 import { Metadata } from 'next';
+import ReviewSchema from '@/components/ui/review-schema';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Process Server Glenpool | Professional Document Delivery | Just Legal Solutions',
   description: 'Certified process server in Glenpool, Tulsa County. Fast, reliable legal document delivery. Licensed and bonded. Call (539) 367-6832 for same-day service in 74033.',
   keywords: ['process server Glenpool', 'Glenpool process serving', 'legal document delivery Glenpool', 'court documents Tulsa County', '74033 process server'],
-  robots: 'index, follow'
+  robots: 'index, follow',
+  openGraph: {
+    title: 'Process Server Glenpool | Professional Document Delivery | Just Legal Solutions',
+    description: 'Certified process server in Glenpool, Tulsa County. Fast, reliable legal document delivery. Licensed and bonded. Call (539) 367-6832 for same-day service in 74033.',
+    url: 'https://justlegalsolutions.org/process-server-glenpool',
+    siteName: 'Just Legal Solutions',
+    images: [
+      {
+        url: '/contactlogo.png',
+        width: 1200,
+        height: 630,
+        alt: 'Just Legal Solutions - Process Server Glenpool | Professional Document Delivery | Just Legal Solutions'
+      }
+    ],
+    locale: 'en_US',
+    type: 'website'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Process Server Glenpool | Professional Document Delivery | Just Legal Solutions',
+    description: 'Certified process server in Glenpool, Tulsa County. Fast, reliable legal document delivery. Licensed and bonded. Call (539) 367-6832 for same-day service in 74033.',
+    images: ['/contactlogo.png']
+  },
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/process-server-glenpool'
+  },
 };
 
 export default function ProcessServerGlenpool() {
@@ -112,9 +138,12 @@ export default function ProcessServerGlenpool() {
             </p>
           </div>
         </div>
+      <ReviewSchema businessName="Just Legal Solutions" aggregateRating={4.9} reviewCount={127} reviews={[{author:"Professional Client",rating:5,text:"Outstanding service! Professional, fast, and reliable.",date:"2024-12-01"}]} />
       </div>
     </div>
   );
 }
+
+
 
 

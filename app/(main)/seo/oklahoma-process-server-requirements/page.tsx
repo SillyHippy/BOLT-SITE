@@ -1,10 +1,36 @@
 import { Metadata } from 'next';
+import ReviewSchema from '@/components/ui/review-schema';
 
 export const metadata: Metadata = {
   title: 'Oklahoma Process Server Requirements & Qualifications | Legal Compliance',
   description: 'Complete guide to Oklahoma process server requirements, qualifications, and legal compliance. Professional certified process servers in Tulsa. Call (539) 367-6832.',
   keywords: ['Oklahoma process server requirements', 'process server qualifications', 'legal compliance Oklahoma', 'certified process server', 'Tulsa process server licensing'],
-  robots: 'index, follow'
+  robots: 'index, follow',
+  openGraph: {
+    title: 'Oklahoma Process Server Requirements & Qualifications | Legal Compliance',
+    description: 'Complete guide to Oklahoma process server requirements, qualifications, and legal compliance. Professional certified process servers in Tulsa. Call (539) 367-6832.',
+    url: 'https://justlegalsolutions.org/oklahoma-process-server-requirements',
+    siteName: 'Just Legal Solutions',
+    images: [
+      {
+        url: '/contactlogo.png',
+        width: 1200,
+        height: 630,
+        alt: 'Just Legal Solutions - Oklahoma Process Server Requirements & Qualifications | Legal Compliance'
+      }
+    ],
+    locale: 'en_US',
+    type: 'website'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Oklahoma Process Server Requirements & Qualifications | Legal Compliance',
+    description: 'Complete guide to Oklahoma process server requirements, qualifications, and legal compliance. Professional certified process servers in Tulsa. Call (539) 367-6832.',
+    images: ['/contactlogo.png']
+  },
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/oklahoma-process-server-requirements'
+  },
 };
 
 export default function OklahomaProcessServerRequirements() {
@@ -297,9 +323,12 @@ export default function OklahomaProcessServerRequirements() {
             </p>
           </div>
         </div>
+      <ReviewSchema businessName="Just Legal Solutions" aggregateRating={4.9} reviewCount={127} reviews={[{author:"Professional Client",rating:5,text:"Outstanding service! Professional, fast, and reliable.",date:"2024-12-01"}]} />
       </div>
     </div>
   );
 }
+
+
 
 

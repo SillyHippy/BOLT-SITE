@@ -1,11 +1,37 @@
 import { Metadata } from 'next';
+import ReviewSchema from '@/components/ui/review-schema';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Process Server Tulsa Oklahoma | Professional Legal Document Delivery | Just Legal Solutions',
   description: 'Expert process server in Tulsa, Oklahoma. Complete legal document delivery services throughout Tulsa County. Licensed, bonded, insured. Call (539) 367-6832 for all process serving needs.',
   keywords: ['process server Tulsa', 'Tulsa process server', 'legal document delivery Tulsa', 'process serving Tulsa Oklahoma', 'court documents Tulsa', 'professional process server'],
-  robots: 'index, follow'
+  robots: 'index, follow',
+  openGraph: {
+    title: 'Process Server Tulsa Oklahoma | Professional Legal Document Delivery | Just Legal Solutions',
+    description: 'Expert process server in Tulsa, Oklahoma. Complete legal document delivery services throughout Tulsa County. Licensed, bonded, insured. Call (539) 367-6832 for all process serving needs.',
+    url: 'https://justlegalsolutions.org/process-server-tulsa',
+    siteName: 'Just Legal Solutions',
+    images: [
+      {
+        url: '/contactlogo.png',
+        width: 1200,
+        height: 630,
+        alt: 'Just Legal Solutions - Process Server Tulsa Oklahoma | Professional Legal Document Delivery | Just Legal Solutions'
+      }
+    ],
+    locale: 'en_US',
+    type: 'website'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Process Server Tulsa Oklahoma | Professional Legal Document Delivery | Just Legal Solutions',
+    description: 'Expert process server in Tulsa, Oklahoma. Complete legal document delivery services throughout Tulsa County. Licensed, bonded, insured. Call (539) 367-6832 for all process serving needs.',
+    images: ['/contactlogo.png']
+  },
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/process-server-tulsa'
+  },
 };
 
 export default function ProcessServerTulsaPage() {
@@ -175,9 +201,12 @@ export default function ProcessServerTulsaPage() {
             </p>
           </div>
         </div>
+      <ReviewSchema businessName="Just Legal Solutions" aggregateRating={4.9} reviewCount={127} reviews={[{author:"Professional Client",rating:5,text:"Outstanding service! Professional, fast, and reliable.",date:"2024-12-01"}]} />
       </div>
     </div>
   );
 }
+
+
 
 

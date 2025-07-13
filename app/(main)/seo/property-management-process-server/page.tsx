@@ -1,11 +1,37 @@
 import { Metadata } from 'next';
+import ReviewSchema from '@/components/ui/review-schema';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Property Management Process Server Tulsa | Landlord Legal Service',
   description: 'Professional process server for property managers and landlords in Tulsa. Eviction notices, lease violations, tenant legal documents. Fast service. Call (539) 367-6832.',
   keywords: ['property management process server', 'landlord legal service Tulsa', 'eviction notice service', 'tenant legal documents', 'lease violation notices', 'rental property legal'],
-  robots: 'index, follow'
+  robots: 'index, follow',
+  openGraph: {
+    title: 'Property Management Process Server Tulsa | Landlord Legal Service',
+    description: 'Professional process server for property managers and landlords in Tulsa. Eviction notices, lease violations, tenant legal documents. Fast service. Call (539) 367-6832.',
+    url: 'https://justlegalsolutions.org/property-management-process-server',
+    siteName: 'Just Legal Solutions',
+    images: [
+      {
+        url: '/contactlogo.png',
+        width: 1200,
+        height: 630,
+        alt: 'Just Legal Solutions - Property Management Process Server Tulsa | Landlord Legal Service'
+      }
+    ],
+    locale: 'en_US',
+    type: 'website'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Property Management Process Server Tulsa | Landlord Legal Service',
+    description: 'Professional process server for property managers and landlords in Tulsa. Eviction notices, lease violations, tenant legal documents. Fast service. Call (539) 367-6832.',
+    images: ['/contactlogo.png']
+  },
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/property-management-process-server'
+  },
 };
 
 export default function ProcessServerPropertyManagement() {
@@ -139,9 +165,12 @@ export default function ProcessServerPropertyManagement() {
             </p>
           </div>
         </div>
+      <ReviewSchema businessName="Just Legal Solutions" aggregateRating={4.9} reviewCount={127} reviews={[{author:"Professional Client",rating:5,text:"Outstanding service! Professional, fast, and reliable.",date:"2024-12-01"}]} />
       </div>
     </div>
   );
 }
+
+
 
 

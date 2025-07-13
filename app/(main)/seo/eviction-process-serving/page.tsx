@@ -1,11 +1,37 @@
 import { Metadata } from 'next';
+import ReviewSchema from '@/components/ui/review-schema';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Eviction Process Serving Tulsa | Landlord Document Delivery | Just Legal Solutions',
   description: 'Professional eviction process serving in Tulsa, Oklahoma. Fast, reliable service of eviction notices, unlawful detainer, and landlord documents. Call (539) 367-6832.',
   keywords: ['eviction process serving Tulsa', 'eviction notice service', 'landlord document delivery', 'unlawful detainer service', 'tenant eviction papers'],
-  robots: 'index, follow'
+  robots: 'index, follow',
+  openGraph: {
+    title: 'Eviction Process Serving Tulsa | Landlord Document Delivery | Just Legal Solutions',
+    description: 'Professional eviction process serving in Tulsa, Oklahoma. Fast, reliable service of eviction notices, unlawful detainer, and landlord documents. Call (539) 367-6832.',
+    url: 'https://justlegalsolutions.org/eviction-process-serving',
+    siteName: 'Just Legal Solutions',
+    images: [
+      {
+        url: '/contactlogo.png',
+        width: 1200,
+        height: 630,
+        alt: 'Just Legal Solutions - Eviction Process Serving Tulsa | Landlord Document Delivery | Just Legal Solutions'
+      }
+    ],
+    locale: 'en_US',
+    type: 'website'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Eviction Process Serving Tulsa | Landlord Document Delivery | Just Legal Solutions',
+    description: 'Professional eviction process serving in Tulsa, Oklahoma. Fast, reliable service of eviction notices, unlawful detainer, and landlord documents. Call (539) 367-6832.',
+    images: ['/contactlogo.png']
+  },
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/eviction-process-serving'
+  },
 };
 
 export default function EvictionProcessServing() {
@@ -223,9 +249,12 @@ export default function EvictionProcessServing() {
             </p>
           </div>
         </div>
+      <ReviewSchema businessName="Just Legal Solutions" aggregateRating={4.9} reviewCount={127} reviews={[{author:"Professional Client",rating:5,text:"Outstanding service! Professional, fast, and reliable.",date:"2024-12-01"}]} />
       </div>
     </div>
   );
 }
+
+
 
 

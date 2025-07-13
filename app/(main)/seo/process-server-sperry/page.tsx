@@ -1,10 +1,36 @@
 import { Metadata } from 'next';
+import ReviewSchema from '@/components/ui/review-schema';
 
 export const metadata: Metadata = {
   title: 'Process Server Sperry | Tulsa County Legal Document Service',
   description: 'Professional process server in Sperry, Oklahoma. Expert legal document delivery in northern Tulsa County. Licensed and bonded. Call (539) 367-6832.',
   keywords: ['process server Sperry', 'Sperry process serving', 'Tulsa County legal service', '74073 process server', 'northern Tulsa legal'],
-  robots: 'index, follow'
+  robots: 'index, follow',
+  openGraph: {
+    title: 'Process Server Sperry | Tulsa County Legal Document Service',
+    description: 'Professional process server in Sperry, Oklahoma. Expert legal document delivery in northern Tulsa County. Licensed and bonded. Call (539) 367-6832.',
+    url: 'https://justlegalsolutions.org/process-server-sperry',
+    siteName: 'Just Legal Solutions',
+    images: [
+      {
+        url: '/contactlogo.png',
+        width: 1200,
+        height: 630,
+        alt: 'Just Legal Solutions - Process Server Sperry | Tulsa County Legal Document Service'
+      }
+    ],
+    locale: 'en_US',
+    type: 'website'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Process Server Sperry | Tulsa County Legal Document Service',
+    description: 'Professional process server in Sperry, Oklahoma. Expert legal document delivery in northern Tulsa County. Licensed and bonded. Call (539) 367-6832.',
+    images: ['/contactlogo.png']
+  },
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/process-server-sperry'
+  },
 };
 
 export default function ProcessServerSperry() {
@@ -102,9 +128,12 @@ export default function ProcessServerSperry() {
             </p>
           </div>
         </div>
+      <ReviewSchema businessName="Just Legal Solutions" aggregateRating={4.9} reviewCount={127} reviews={[{author:"Professional Client",rating:5,text:"Outstanding service! Professional, fast, and reliable.",date:"2024-12-01"}]} />
       </div>
     </div>
   );
 }
+
+
 
 

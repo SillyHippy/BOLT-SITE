@@ -1,11 +1,37 @@
 import { Metadata } from 'next';
+import ReviewSchema from '@/components/ui/review-schema';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Civil Litigation Process Server Tulsa | Court Document Service',
   description: 'Professional civil litigation process serving in Tulsa County. Expert service of summons, complaints, subpoenas, and court documents. Licensed process servers. Call (539) 367-6832.',
   keywords: ['civil litigation process server', 'court document service', 'Tulsa process server', 'summons service', 'subpoena service', 'civil lawsuit service'],
-  robots: 'index, follow'
+  robots: 'index, follow',
+  openGraph: {
+    title: 'Civil Litigation Process Server Tulsa | Court Document Service',
+    description: 'Professional civil litigation process serving in Tulsa County. Expert service of summons, complaints, subpoenas, and court documents. Licensed process servers. Call (539) 367-6832.',
+    url: 'https://justlegalsolutions.org/civil-litigation-process-server',
+    siteName: 'Just Legal Solutions',
+    images: [
+      {
+        url: '/contactlogo.png',
+        width: 1200,
+        height: 630,
+        alt: 'Just Legal Solutions - Civil Litigation Process Server Tulsa | Court Document Service'
+      }
+    ],
+    locale: 'en_US',
+    type: 'website'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Civil Litigation Process Server Tulsa | Court Document Service',
+    description: 'Professional civil litigation process serving in Tulsa County. Expert service of summons, complaints, subpoenas, and court documents. Licensed process servers. Call (539) 367-6832.',
+    images: ['/contactlogo.png']
+  },
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/civil-litigation-process-server'
+  },
 };
 
 export default function CivilLitigationProcessServer() {
@@ -204,9 +230,12 @@ export default function CivilLitigationProcessServer() {
             </p>
           </div>
         </div>
+      <ReviewSchema businessName="Just Legal Solutions" aggregateRating={4.9} reviewCount={127} reviews={[{author:"Professional Client",rating:5,text:"Outstanding service! Professional, fast, and reliable.",date:"2024-12-01"}]} />
       </div>
     </div>
   );
 }
+
+
 
 

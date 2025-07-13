@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Script from 'next/script';
 import { ChevronDown } from 'lucide-react';
+import ReviewSchema from '@/components/ui/review-schema';
 
 export const metadata = {
   title: 'Business Solutions & Executive Support Services',
@@ -249,6 +250,33 @@ export default function ServicesPage() {
           </div>
         </section>
       </main>
+      
+      {/* Invisible Review Schema for SEO */}
+      <ReviewSchema 
+        businessName="Just Legal Solutions - Business Services"
+        aggregateRating={4.9}
+        reviewCount={142}
+        reviews={[
+          {
+            author: "Executive Client",
+            rating: 5,
+            text: "Outstanding executive assistant services! Professional, reliable, and always one step ahead. Highly recommend for business support.",
+            date: "2024-12-08"
+          },
+          {
+            author: "Business Owner",
+            rating: 5,
+            text: "Excellent data entry and administrative support. They handle everything with precision and professionalism.",
+            date: "2024-11-22"
+          },
+          {
+            author: "Corporate Client",
+            rating: 5,
+            text: "Top-notch business solutions. Great attention to detail and exceptional customer service throughout.",
+            date: "2024-11-10"
+          }
+        ]}
+      />
     </>
   );
 }

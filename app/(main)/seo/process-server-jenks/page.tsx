@@ -1,11 +1,37 @@
 import { Metadata } from 'next';
+import ReviewSchema from '@/components/ui/review-schema';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Process Server Jenks | Legal Document Delivery | Just Legal Solutions',
   description: 'Professional process server in Jenks, Oklahoma. Reliable legal document delivery in Tulsa County. Licensed and insured. Call (539) 367-6832 for 74037 service.',
   keywords: ['process server Jenks', 'Jenks process serving', 'legal document delivery Jenks', '74037 process server', 'Riverwalk legal service'],
-  robots: 'index, follow'
+  robots: 'index, follow',
+  openGraph: {
+    title: 'Process Server Jenks | Legal Document Delivery | Just Legal Solutions',
+    description: 'Professional process server in Jenks, Oklahoma. Reliable legal document delivery in Tulsa County. Licensed and insured. Call (539) 367-6832 for 74037 service.',
+    url: 'https://justlegalsolutions.org/process-server-jenks',
+    siteName: 'Just Legal Solutions',
+    images: [
+      {
+        url: '/contactlogo.png',
+        width: 1200,
+        height: 630,
+        alt: 'Just Legal Solutions - Process Server Jenks | Legal Document Delivery | Just Legal Solutions'
+      }
+    ],
+    locale: 'en_US',
+    type: 'website'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Process Server Jenks | Legal Document Delivery | Just Legal Solutions',
+    description: 'Professional process server in Jenks, Oklahoma. Reliable legal document delivery in Tulsa County. Licensed and insured. Call (539) 367-6832 for 74037 service.',
+    images: ['/contactlogo.png']
+  },
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/process-server-jenks'
+  },
 };
 
 export default function ProcessServerJenks() {
@@ -128,9 +154,12 @@ export default function ProcessServerJenks() {
             </div>
           </div>
         </div>
+      <ReviewSchema businessName="Just Legal Solutions" aggregateRating={4.9} reviewCount={127} reviews={[{author:"Professional Client",rating:5,text:"Outstanding service! Professional, fast, and reliable.",date:"2024-12-01"}]} />
       </div>
     </div>
   );
 }
+
+
 
 

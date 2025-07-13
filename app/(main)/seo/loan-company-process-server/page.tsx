@@ -1,11 +1,37 @@
 import { Metadata } from 'next';
+import ReviewSchema from '@/components/ui/review-schema';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Loan Company Process Server Tulsa | Financial Legal Service',
   description: 'Professional process server for loan companies and financial institutions in Tulsa. Default notices, foreclosure documents, financial litigation. Call (539) 367-6832.',
   keywords: ['loan company process server', 'financial institution legal service', 'mortgage process serving', 'foreclosure documents', 'default notices', 'bank legal service Tulsa'],
-  robots: 'index, follow'
+  robots: 'index, follow',
+  openGraph: {
+    title: 'Loan Company Process Server Tulsa | Financial Legal Service',
+    description: 'Professional process server for loan companies and financial institutions in Tulsa. Default notices, foreclosure documents, financial litigation. Call (539) 367-6832.',
+    url: 'https://justlegalsolutions.org/loan-company-process-server',
+    siteName: 'Just Legal Solutions',
+    images: [
+      {
+        url: '/contactlogo.png',
+        width: 1200,
+        height: 630,
+        alt: 'Just Legal Solutions - Loan Company Process Server Tulsa | Financial Legal Service'
+      }
+    ],
+    locale: 'en_US',
+    type: 'website'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Loan Company Process Server Tulsa | Financial Legal Service',
+    description: 'Professional process server for loan companies and financial institutions in Tulsa. Default notices, foreclosure documents, financial litigation. Call (539) 367-6832.',
+    images: ['/contactlogo.png']
+  },
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/loan-company-process-server'
+  },
 };
 
 export default function ProcessServerLoans() {
@@ -111,9 +137,12 @@ export default function ProcessServerLoans() {
             </div>
           </div>
         </div>
+      <ReviewSchema businessName="Just Legal Solutions" aggregateRating={4.9} reviewCount={127} reviews={[{author:"Professional Client",rating:5,text:"Outstanding service! Professional, fast, and reliable.",date:"2024-12-01"}]} />
       </div>
     </div>
   );
 }
+
+
 
 

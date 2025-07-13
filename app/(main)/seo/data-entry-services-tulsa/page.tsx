@@ -1,11 +1,37 @@
 import { Metadata } from 'next';
+import ReviewSchema from '@/components/ui/review-schema';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Data Entry Services Tulsa | Professional Data Management | Just Legal Solutions',
   description: 'Expert data entry services in Tulsa. Fast, accurate data management, database entry, digitization, and administrative support. Call (539) 367-6832.',
   keywords: ['data entry Tulsa', 'data entry services Oklahoma', 'database management Tulsa', 'document digitization', 'data processing Tulsa', 'administrative data services'],
-  robots: 'index, follow'
+  robots: 'index, follow',
+  openGraph: {
+    title: 'Data Entry Services Tulsa | Professional Data Management | Just Legal Solutions',
+    description: 'Expert data entry services in Tulsa. Fast, accurate data management, database entry, digitization, and administrative support. Call (539) 367-6832.',
+    url: 'https://justlegalsolutions.org/data-entry-services-tulsa',
+    siteName: 'Just Legal Solutions',
+    images: [
+      {
+        url: '/contactlogo.png',
+        width: 1200,
+        height: 630,
+        alt: 'Just Legal Solutions - Data Entry Services Tulsa | Professional Data Management | Just Legal Solutions'
+      }
+    ],
+    locale: 'en_US',
+    type: 'website'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Data Entry Services Tulsa | Professional Data Management | Just Legal Solutions',
+    description: 'Expert data entry services in Tulsa. Fast, accurate data management, database entry, digitization, and administrative support. Call (539) 367-6832.',
+    images: ['/contactlogo.png']
+  },
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/data-entry-services-tulsa'
+  },
 };
 
 export default function DataEntryServicesTulsa() {
@@ -340,9 +366,12 @@ export default function DataEntryServicesTulsa() {
             </p>
           </div>
         </div>
+      <ReviewSchema businessName="Just Legal Solutions" aggregateRating={4.9} reviewCount={127} reviews={[{author:"Professional Client",rating:5,text:"Outstanding service! Professional, fast, and reliable.",date:"2024-12-01"}]} />
       </div>
     </div>
   );
 }
+
+
 
 

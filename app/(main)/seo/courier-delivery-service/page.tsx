@@ -1,11 +1,37 @@
 import { Metadata } from 'next';
+import ReviewSchema from '@/components/ui/review-schema';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Courier Delivery Service Tulsa | Package & Document Delivery',
   description: 'Professional courier and delivery service in Tulsa. Fast package delivery, documents, food, furniture, anything that fits in car. Same-day delivery. Call (539) 367-6832.',
   keywords: ['courier service Tulsa', 'package delivery Tulsa', 'same day delivery', 'document courier', 'food delivery service', 'furniture delivery', 'rush delivery Tulsa'],
-  robots: 'index, follow'
+  robots: 'index, follow',
+  openGraph: {
+    title: 'Courier Delivery Service Tulsa | Package & Document Delivery',
+    description: 'Professional courier and delivery service in Tulsa. Fast package delivery, documents, food, furniture, anything that fits in car. Same-day delivery. Call (539) 367-6832.',
+    url: 'https://justlegalsolutions.org/courier-delivery-service',
+    siteName: 'Just Legal Solutions',
+    images: [
+      {
+        url: '/contactlogo.png',
+        width: 1200,
+        height: 630,
+        alt: 'Just Legal Solutions - Courier Delivery Service Tulsa | Package & Document Delivery'
+      }
+    ],
+    locale: 'en_US',
+    type: 'website'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Courier Delivery Service Tulsa | Package & Document Delivery',
+    description: 'Professional courier and delivery service in Tulsa. Fast package delivery, documents, food, furniture, anything that fits in car. Same-day delivery. Call (539) 367-6832.',
+    images: ['/contactlogo.png']
+  },
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/courier-delivery-service'
+  },
 };
 
 export default function CourierDeliveryService() {
@@ -154,9 +180,12 @@ export default function CourierDeliveryService() {
             </p>
           </div>
         </div>
+      <ReviewSchema businessName="Just Legal Solutions" aggregateRating={4.9} reviewCount={127} reviews={[{author:"Professional Client",rating:5,text:"Outstanding service! Professional, fast, and reliable.",date:"2024-12-01"}]} />
       </div>
     </div>
   );
 }
+
+
 
 

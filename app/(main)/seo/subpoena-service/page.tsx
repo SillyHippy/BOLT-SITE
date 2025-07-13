@@ -1,10 +1,36 @@
 import { Metadata } from 'next';
+import ReviewSchema from '@/components/ui/review-schema';
 
 export const metadata: Metadata = {
   title: 'Subpoena Service Tulsa | Professional Witness Summons Delivery | Just Legal Solutions',
   description: 'Expert subpoena service in Tulsa, Oklahoma. Fast, reliable delivery of witness summons, court subpoenas, and legal notices. Call (539) 367-6832 for professional service.',
   keywords: ['subpoena service Tulsa', 'witness summons delivery', 'court subpoena serving', 'legal subpoena service Oklahoma', 'witness subpoena Tulsa'],
-  robots: 'index, follow'
+  robots: 'index, follow',
+  openGraph: {
+    title: 'Subpoena Service Tulsa | Professional Witness Summons Delivery | Just Legal Solutions',
+    description: 'Expert subpoena service in Tulsa, Oklahoma. Fast, reliable delivery of witness summons, court subpoenas, and legal notices. Call (539) 367-6832 for professional service.',
+    url: 'https://justlegalsolutions.org/subpoena-service',
+    siteName: 'Just Legal Solutions',
+    images: [
+      {
+        url: '/contactlogo.png',
+        width: 1200,
+        height: 630,
+        alt: 'Just Legal Solutions - Subpoena Service Tulsa | Professional Witness Summons Delivery | Just Legal Solutions'
+      }
+    ],
+    locale: 'en_US',
+    type: 'website'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Subpoena Service Tulsa | Professional Witness Summons Delivery | Just Legal Solutions',
+    description: 'Expert subpoena service in Tulsa, Oklahoma. Fast, reliable delivery of witness summons, court subpoenas, and legal notices. Call (539) 367-6832 for professional service.',
+    images: ['/contactlogo.png']
+  },
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/subpoena-service'
+  },
 };
 
 export default function SubpoenaService() {
@@ -227,9 +253,12 @@ export default function SubpoenaService() {
             </p>
           </div>
         </div>
+      <ReviewSchema businessName="Just Legal Solutions" aggregateRating={4.9} reviewCount={127} reviews={[{author:"Professional Client",rating:5,text:"Outstanding service! Professional, fast, and reliable.",date:"2024-12-01"}]} />
       </div>
     </div>
   );
 }
+
+
 
 

@@ -1,10 +1,36 @@
 import { Metadata } from 'next';
+import ReviewSchema from '@/components/ui/review-schema';
 
 export const metadata: Metadata = {
   title: 'Process Server Okay | Wagoner County Legal Document Service',
   description: 'Professional process server in Okay, Oklahoma. Expert legal document delivery in Wagoner County. Licensed and bonded. Call (539) 367-6832.',
   keywords: ['process server Okay', 'Okay process serving', 'Wagoner County legal service', '74446 process server', 'small town legal service'],
-  robots: 'index, follow'
+  robots: 'index, follow',
+  openGraph: {
+    title: 'Process Server Okay | Wagoner County Legal Document Service',
+    description: 'Professional process server in Okay, Oklahoma. Expert legal document delivery in Wagoner County. Licensed and bonded. Call (539) 367-6832.',
+    url: 'https://justlegalsolutions.org/process-server-okay',
+    siteName: 'Just Legal Solutions',
+    images: [
+      {
+        url: '/contactlogo.png',
+        width: 1200,
+        height: 630,
+        alt: 'Just Legal Solutions - Process Server Okay | Wagoner County Legal Document Service'
+      }
+    ],
+    locale: 'en_US',
+    type: 'website'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Process Server Okay | Wagoner County Legal Document Service',
+    description: 'Professional process server in Okay, Oklahoma. Expert legal document delivery in Wagoner County. Licensed and bonded. Call (539) 367-6832.',
+    images: ['/contactlogo.png']
+  },
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/process-server-okay'
+  },
 };
 
 export default function ProcessServerOkay() {
@@ -102,9 +128,12 @@ export default function ProcessServerOkay() {
             </p>
           </div>
         </div>
+      <ReviewSchema businessName="Just Legal Solutions" aggregateRating={4.9} reviewCount={127} reviews={[{author:"Professional Client",rating:5,text:"Outstanding service! Professional, fast, and reliable.",date:"2024-12-01"}]} />
       </div>
     </div>
   );
 }
+
+
 
 

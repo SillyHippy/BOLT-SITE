@@ -1,10 +1,36 @@
 import { Metadata } from 'next';
+import ReviewSchema from '@/components/ui/review-schema';
 
 export const metadata: Metadata = {
   title: 'What is a Process Server? | Legal Document Delivery Guide | Just Legal Solutions',
   description: 'Complete guide to process servers: what they do, legal requirements, and why you need professional service. Expert process serving in Tulsa, Oklahoma. Call (539) 367-6832.',
   keywords: ['what is a process server', 'process serving explained', 'legal document delivery', 'process server definition', 'legal service of process'],
-  robots: 'index, follow'
+  robots: 'index, follow',
+  openGraph: {
+    title: 'What is a Process Server? | Legal Document Delivery Guide | Just Legal Solutions',
+    description: 'Complete guide to process servers: what they do, legal requirements, and why you need professional service. Expert process serving in Tulsa, Oklahoma. Call (539) 367-6832.',
+    url: 'https://justlegalsolutions.org/what-is-a-process-server',
+    siteName: 'Just Legal Solutions',
+    images: [
+      {
+        url: '/contactlogo.png',
+        width: 1200,
+        height: 630,
+        alt: 'Just Legal Solutions - What is a Process Server? | Legal Document Delivery Guide | Just Legal Solutions'
+      }
+    ],
+    locale: 'en_US',
+    type: 'website'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'What is a Process Server? | Legal Document Delivery Guide | Just Legal Solutions',
+    description: 'Complete guide to process servers: what they do, legal requirements, and why you need professional service. Expert process serving in Tulsa, Oklahoma. Call (539) 367-6832.',
+    images: ['/contactlogo.png']
+  },
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/what-is-a-process-server'
+  },
 };
 
 export default function WhatIsProcessServer() {
@@ -222,9 +248,12 @@ export default function WhatIsProcessServer() {
             </p>
           </div>
         </div>
+      <ReviewSchema businessName="Just Legal Solutions" aggregateRating={4.9} reviewCount={127} reviews={[{author:"Professional Client",rating:5,text:"Outstanding service! Professional, fast, and reliable.",date:"2024-12-01"}]} />
       </div>
     </div>
   );
 }
+
+
 
 

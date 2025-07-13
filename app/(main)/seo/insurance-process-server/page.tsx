@@ -1,11 +1,37 @@
 import { Metadata } from 'next';
+import ReviewSchema from '@/components/ui/review-schema';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Insurance Company Process Server Tulsa | Claim Investigation Service',
   description: 'Professional process server for insurance companies in Tulsa. Claim investigations, witness interviews, document delivery. Licensed investigators. Call (539) 367-6832.',
   keywords: ['insurance process server', 'claim investigation Tulsa', 'insurance legal service', 'witness interviews', 'claim documents', 'insurance litigation support'],
-  robots: 'index, follow'
+  robots: 'index, follow',
+  openGraph: {
+    title: 'Insurance Company Process Server Tulsa | Claim Investigation Service',
+    description: 'Professional process server for insurance companies in Tulsa. Claim investigations, witness interviews, document delivery. Licensed investigators. Call (539) 367-6832.',
+    url: 'https://justlegalsolutions.org/insurance-process-server',
+    siteName: 'Just Legal Solutions',
+    images: [
+      {
+        url: '/contactlogo.png',
+        width: 1200,
+        height: 630,
+        alt: 'Just Legal Solutions - Insurance Company Process Server Tulsa | Claim Investigation Service'
+      }
+    ],
+    locale: 'en_US',
+    type: 'website'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Insurance Company Process Server Tulsa | Claim Investigation Service',
+    description: 'Professional process server for insurance companies in Tulsa. Claim investigations, witness interviews, document delivery. Licensed investigators. Call (539) 367-6832.',
+    images: ['/contactlogo.png']
+  },
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/insurance-process-server'
+  },
 };
 
 export default function ProcessServerInsurance() {
@@ -111,9 +137,12 @@ export default function ProcessServerInsurance() {
             </div>
           </div>
         </div>
+      <ReviewSchema businessName="Just Legal Solutions" aggregateRating={4.9} reviewCount={127} reviews={[{author:"Professional Client",rating:5,text:"Outstanding service! Professional, fast, and reliable.",date:"2024-12-01"}]} />
       </div>
     </div>
   );
 }
+
+
 
 

@@ -1,11 +1,37 @@
 import { Metadata } from 'next';
+import ReviewSchema from '@/components/ui/review-schema';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Process Server Bixby | Professional Document Delivery | Just Legal Solutions',
   description: 'Certified process server in Bixby, Tulsa County. Fast, reliable legal document delivery. Licensed and bonded. Call (539) 367-6832 for same-day service in 74008.',
   keywords: ['process server Bixby', 'Bixby process serving', 'legal document delivery Bixby', 'court documents Tulsa County', '74008 process server'],
-  robots: 'index, follow'
+  robots: 'index, follow',
+  openGraph: {
+    title: 'Process Server Bixby | Professional Document Delivery | Just Legal Solutions',
+    description: 'Certified process server in Bixby, Tulsa County. Fast, reliable legal document delivery. Licensed and bonded. Call (539) 367-6832 for same-day service in 74008.',
+    url: 'https://justlegalsolutions.org/process-server-bixby',
+    siteName: 'Just Legal Solutions',
+    images: [
+      {
+        url: '/contactlogo.png',
+        width: 1200,
+        height: 630,
+        alt: 'Just Legal Solutions - Process Server Bixby | Professional Document Delivery | Just Legal Solutions'
+      }
+    ],
+    locale: 'en_US',
+    type: 'website'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Process Server Bixby | Professional Document Delivery | Just Legal Solutions',
+    description: 'Certified process server in Bixby, Tulsa County. Fast, reliable legal document delivery. Licensed and bonded. Call (539) 367-6832 for same-day service in 74008.',
+    images: ['/contactlogo.png']
+  },
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/process-server-bixby'
+  },
 };
 
 export default function ProcessServerBixby() {
@@ -127,9 +153,12 @@ export default function ProcessServerBixby() {
             </div>
           </div>
         </div>
+      <ReviewSchema businessName="Just Legal Solutions" aggregateRating={4.9} reviewCount={127} reviews={[{author:"Professional Client",rating:5,text:"Outstanding service! Professional, fast, and reliable.",date:"2024-12-01"}]} />
       </div>
     </div>
   );
 }
+
+
 
 

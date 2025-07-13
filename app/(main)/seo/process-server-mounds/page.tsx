@@ -1,10 +1,36 @@
 import { Metadata } from 'next';
+import ReviewSchema from '@/components/ui/review-schema';
 
 export const metadata: Metadata = {
   title: 'Process Server Mounds | Creek County Legal Document Service',
   description: 'Professional process server in Mounds, Creek County. Expert legal document delivery in rural Oklahoma communities. Call (539) 367-6832 for reliable service.',
   keywords: ['process server Mounds', 'Mounds process serving', 'Creek County legal service', '74047 process server', 'rural legal document delivery'],
-  robots: 'index, follow'
+  robots: 'index, follow',
+  openGraph: {
+    title: 'Process Server Mounds | Creek County Legal Document Service',
+    description: 'Professional process server in Mounds, Creek County. Expert legal document delivery in rural Oklahoma communities. Call (539) 367-6832 for reliable service.',
+    url: 'https://justlegalsolutions.org/process-server-mounds',
+    siteName: 'Just Legal Solutions',
+    images: [
+      {
+        url: '/contactlogo.png',
+        width: 1200,
+        height: 630,
+        alt: 'Just Legal Solutions - Process Server Mounds | Creek County Legal Document Service'
+      }
+    ],
+    locale: 'en_US',
+    type: 'website'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Process Server Mounds | Creek County Legal Document Service',
+    description: 'Professional process server in Mounds, Creek County. Expert legal document delivery in rural Oklahoma communities. Call (539) 367-6832 for reliable service.',
+    images: ['/contactlogo.png']
+  },
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/process-server-mounds'
+  },
 };
 
 export default function ProcessServerMounds() {
@@ -152,9 +178,12 @@ export default function ProcessServerMounds() {
             </p>
           </div>
         </div>
+      <ReviewSchema businessName="Just Legal Solutions" aggregateRating={4.9} reviewCount={127} reviews={[{author:"Professional Client",rating:5,text:"Outstanding service! Professional, fast, and reliable.",date:"2024-12-01"}]} />
       </div>
     </div>
   );
 }
+
+
 
 

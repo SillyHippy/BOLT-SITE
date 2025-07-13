@@ -1,13 +1,27 @@
-# Block sensitive areas and API endpoints
+# Optimized Robots.txt for Just Legal Solutions
 User-agent: *
 Allow: /
+Allow: /api/sitemap
+Allow: /api/robots
 Disallow: /api/
 Disallow: /_next/
 Disallow: /admin/
 Disallow: /.well-known/
+Disallow: /security-policy/
 Crawl-delay: 1
 
 # Optimize for Google
+User-agent: Googlebot
+Allow: /
+Allow: /api/sitemap
+Disallow: /api/
+Disallow: /security-policy/
+
+# Sitemap location
+Sitemap: https://justlegalsolutions.org/api/sitemap
+Sitemap: https://justlegalsolutions.org/sitemap.xml
+
+# SEO optimized for process serving in Tulsa County
 User-agent: Googlebot
 Crawl-delay: 0.5
 

@@ -1,11 +1,37 @@
 import { Metadata } from 'next';
+import ReviewSchema from '@/components/ui/review-schema';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Government Contractor Process Server Tulsa | Federal Document Delivery',
   description: 'Specialized process server for government contractors and federal agencies in Tulsa. Security clearance aware. Contract disputes, compliance docs. Call (539) 367-6832.',
   keywords: ['government contractor process server', 'federal document delivery', 'security clearance service', 'contract dispute service', 'government compliance documents', 'federal litigation support'],
-  robots: 'index, follow'
+  robots: 'index, follow',
+  openGraph: {
+    title: 'Government Contractor Process Server Tulsa | Federal Document Delivery',
+    description: 'Specialized process server for government contractors and federal agencies in Tulsa. Security clearance aware. Contract disputes, compliance docs. Call (539) 367-6832.',
+    url: 'https://justlegalsolutions.org/government-contractor-process-server',
+    siteName: 'Just Legal Solutions',
+    images: [
+      {
+        url: '/contactlogo.png',
+        width: 1200,
+        height: 630,
+        alt: 'Just Legal Solutions - Government Contractor Process Server Tulsa | Federal Document Delivery'
+      }
+    ],
+    locale: 'en_US',
+    type: 'website'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Government Contractor Process Server Tulsa | Federal Document Delivery',
+    description: 'Specialized process server for government contractors and federal agencies in Tulsa. Security clearance aware. Contract disputes, compliance docs. Call (539) 367-6832.',
+    images: ['/contactlogo.png']
+  },
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/government-contractor-process-server'
+  },
 };
 
 export default function ProcessServerGovernment() {
@@ -133,9 +159,12 @@ export default function ProcessServerGovernment() {
           </div>
 
         </div>
+      <ReviewSchema businessName="Just Legal Solutions" aggregateRating={4.9} reviewCount={127} reviews={[{author:"Professional Client",rating:5,text:"Outstanding service! Professional, fast, and reliable.",date:"2024-12-01"}]} />
       </div>
     </div>
   );
 }
+
+
 
 

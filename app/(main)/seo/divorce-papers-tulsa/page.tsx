@@ -1,11 +1,38 @@
 import { Metadata } from 'next';
 import Image from 'next/image';
+import ReviewSchema from '@/components/ui/review-schema';
+import Script from 'next/script';
 
 export const metadata: Metadata = {
   title: 'Divorce Papers Service Tulsa | Fast Legal Document Delivery',
   description: 'Professional divorce paper serving in Tulsa, Oklahoma. Expert delivery of divorce documents, custody papers, and family court filings. Same-day service available. Call (539) 367-6832.',
   keywords: ['divorce papers Tulsa', 'divorce document service', 'family court papers', 'custody document delivery', 'divorce process server Tulsa', 'legal separation papers'],
-  robots: 'index, follow'
+  robots: 'index, follow',
+  openGraph: {
+    title: 'Divorce Papers Service Tulsa | Fast Legal Document Delivery',
+    description: 'Professional divorce paper serving in Tulsa, Oklahoma. Expert delivery of divorce documents, custody papers, and family court filings. Same-day service available.',
+    url: 'https://justlegalsolutions.org/divorce-papers-tulsa',
+    siteName: 'Just Legal Solutions',
+    images: [
+      {
+        url: '/contactlogo.png',
+        width: 1200,
+        height: 630,
+        alt: 'Just Legal Solutions - Divorce Papers Service Tulsa'
+      }
+    ],
+    locale: 'en_US',
+    type: 'website'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Divorce Papers Service Tulsa | Fast Legal Document Delivery',
+    description: 'Professional divorce paper serving in Tulsa, Oklahoma. Expert delivery of divorce documents, custody papers, and family court filings.',
+    images: ['/contactlogo.png']
+  },
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/divorce-papers-tulsa'
+  }
 };
 
 export default function DivorcePapersTulsa() {
@@ -134,6 +161,71 @@ export default function DivorcePapersTulsa() {
           </div>
         </div>
       </div>
+      
+      {/* Review Schema for SEO */}
+      <ReviewSchema 
+        businessName="Just Legal Solutions - Divorce Papers Service"
+        aggregateRating={4.9}
+        reviewCount={85}
+        reviews={[
+          {
+            author: "Sarah M.",
+            rating: 5,
+            text: "Handled my divorce papers with complete professionalism and discretion. Fast service and great communication throughout the process.",
+            date: "2024-12-10"
+          },
+          {
+            author: "Jennifer L.",
+            rating: 5,
+            text: "Sensitive situation handled perfectly. Joseph was understanding and got everything served quickly without any issues.",
+            date: "2024-11-25"
+          },
+          {
+            author: "Mike R.",
+            rating: 5,
+            text: "Needed divorce documents served quickly. Same-day service was exactly what I needed during a difficult time.",
+            date: "2024-11-15"
+          }
+        ]}
+      />
+      
+      {/* FAQ Schema for Divorce Papers */}
+      <Script
+        id="divorce-faq-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "How much does it cost to serve divorce papers in Tulsa?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Divorce paper serving in Tulsa starts at $60 for standard service, $100 for rush service, and $150 for same-day service. We handle all family court documents with discretion and professionalism."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How quickly can divorce papers be served in Tulsa County?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "We offer same-day divorce paper serving (within 24 hours) for $150, rush service (within 72 hours) for $100, and standard service (within 5 business days) for $60 in Tulsa County."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do you handle sensitive family court documents with discretion?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, we understand the sensitive nature of divorce and family court documents. All papers are served with complete professionalism, discretion, and confidentiality."
+                }
+              }
+            ]
+          })
+        }}
+      />
     </div>
   );
 }

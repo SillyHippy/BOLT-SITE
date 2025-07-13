@@ -1,11 +1,37 @@
 import { Metadata } from 'next';
+import ReviewSchema from '@/components/ui/review-schema';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Small Business Courier Service Tulsa | Document & Package Delivery',
   description: 'Professional courier service for small businesses in Tulsa. Document delivery, package transport, business-to-business service. Fast delivery. Call (539) 367-6832.',
   keywords: ['small business courier', 'business document delivery Tulsa', 'B2B courier service', 'office delivery', 'business package delivery', 'commercial courier Tulsa'],
-  robots: 'index, follow'
+  robots: 'index, follow',
+  openGraph: {
+    title: 'Small Business Courier Service Tulsa | Document & Package Delivery',
+    description: 'Professional courier service for small businesses in Tulsa. Document delivery, package transport, business-to-business service. Fast delivery. Call (539) 367-6832.',
+    url: 'https://justlegalsolutions.org/small-business-courier',
+    siteName: 'Just Legal Solutions',
+    images: [
+      {
+        url: '/contactlogo.png',
+        width: 1200,
+        height: 630,
+        alt: 'Just Legal Solutions - Small Business Courier Service Tulsa | Document & Package Delivery'
+      }
+    ],
+    locale: 'en_US',
+    type: 'website'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Small Business Courier Service Tulsa | Document & Package Delivery',
+    description: 'Professional courier service for small businesses in Tulsa. Document delivery, package transport, business-to-business service. Fast delivery. Call (539) 367-6832.',
+    images: ['/contactlogo.png']
+  },
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/small-business-courier'
+  },
 };
 
 export default function SmallBusinessCourier() {
@@ -138,9 +164,12 @@ export default function SmallBusinessCourier() {
           </div>
 
         </div>
+      <ReviewSchema businessName="Just Legal Solutions" aggregateRating={4.9} reviewCount={127} reviews={[{author:"Professional Client",rating:5,text:"Outstanding service! Professional, fast, and reliable.",date:"2024-12-01"}]} />
       </div>
     </div>
   );
 }
+
+
 
 

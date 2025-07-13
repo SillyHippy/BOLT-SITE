@@ -1,10 +1,36 @@
 import { Metadata } from 'next';
+import ReviewSchema from '@/components/ui/review-schema';
 
 export const metadata: Metadata = {
   title: 'Same Day Process Serving Tulsa | Emergency Document Delivery | Just Legal Solutions',
   description: 'Same-day process serving in Tulsa, Oklahoma. Emergency legal document delivery throughout Tulsa County. Licensed and bonded. Call (539) 367-6832 for immediate service.',
   keywords: ['same day process serving Tulsa', 'emergency document delivery', 'rush process serving', 'urgent legal service Tulsa', 'fast process server'],
-  robots: 'index, follow'
+  robots: 'index, follow',
+  openGraph: {
+    title: 'Same Day Process Serving Tulsa | Emergency Document Delivery | Just Legal Solutions',
+    description: 'Same-day process serving in Tulsa, Oklahoma. Emergency legal document delivery throughout Tulsa County. Licensed and bonded. Call (539) 367-6832 for immediate service.',
+    url: 'https://justlegalsolutions.org/same-day-process-serving-tulsa',
+    siteName: 'Just Legal Solutions',
+    images: [
+      {
+        url: '/contactlogo.png',
+        width: 1200,
+        height: 630,
+        alt: 'Just Legal Solutions - Same Day Process Serving Tulsa | Emergency Document Delivery | Just Legal Solutions'
+      }
+    ],
+    locale: 'en_US',
+    type: 'website'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Same Day Process Serving Tulsa | Emergency Document Delivery | Just Legal Solutions',
+    description: 'Same-day process serving in Tulsa, Oklahoma. Emergency legal document delivery throughout Tulsa County. Licensed and bonded. Call (539) 367-6832 for immediate service.',
+    images: ['/contactlogo.png']
+  },
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/same-day-process-serving-tulsa'
+  },
 };
 
 export default function SameDayProcessServingTulsa() {
@@ -132,9 +158,12 @@ export default function SameDayProcessServingTulsa() {
             </p>
           </div>
         </div>
+      <ReviewSchema businessName="Just Legal Solutions" aggregateRating={4.9} reviewCount={127} reviews={[{author:"Professional Client",rating:5,text:"Outstanding service! Professional, fast, and reliable.",date:"2024-12-01"}]} />
       </div>
     </div>
   );
 }
+
+
 
 

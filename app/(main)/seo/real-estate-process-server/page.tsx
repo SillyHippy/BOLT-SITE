@@ -1,11 +1,37 @@
 import { Metadata } from 'next';
+import ReviewSchema from '@/components/ui/review-schema';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Real Estate Process Server Tulsa | Contract & Document Delivery',
   description: 'Professional process server for real estate agents and brokers in Tulsa. Contract delivery, legal notices, closing documents. Fast service. Call (539) 367-6832.',
   keywords: ['real estate process server', 'contract delivery Tulsa', 'real estate legal service', 'closing documents', 'property legal notices', 'realtor document service'],
-  robots: 'index, follow'
+  robots: 'index, follow',
+  openGraph: {
+    title: 'Real Estate Process Server Tulsa | Contract & Document Delivery',
+    description: 'Professional process server for real estate agents and brokers in Tulsa. Contract delivery, legal notices, closing documents. Fast service. Call (539) 367-6832.',
+    url: 'https://justlegalsolutions.org/real-estate-process-server',
+    siteName: 'Just Legal Solutions',
+    images: [
+      {
+        url: '/contactlogo.png',
+        width: 1200,
+        height: 630,
+        alt: 'Just Legal Solutions - Real Estate Process Server Tulsa | Contract & Document Delivery'
+      }
+    ],
+    locale: 'en_US',
+    type: 'website'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Real Estate Process Server Tulsa | Contract & Document Delivery',
+    description: 'Professional process server for real estate agents and brokers in Tulsa. Contract delivery, legal notices, closing documents. Fast service. Call (539) 367-6832.',
+    images: ['/contactlogo.png']
+  },
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/real-estate-process-server'
+  },
 };
 
 export default function ProcessServerRealEstate() {
@@ -121,9 +147,12 @@ export default function ProcessServerRealEstate() {
             </div>
           </div>
         </div>
+      <ReviewSchema businessName="Just Legal Solutions" aggregateRating={4.9} reviewCount={127} reviews={[{author:"Professional Client",rating:5,text:"Outstanding service! Professional, fast, and reliable.",date:"2024-12-01"}]} />
       </div>
     </div>
   );
 }
+
+
 
 

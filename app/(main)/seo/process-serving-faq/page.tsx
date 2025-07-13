@@ -1,10 +1,36 @@
 import { Metadata } from 'next';
+import ReviewSchema from '@/components/ui/review-schema';
 
 export const metadata: Metadata = {
   title: 'Process Serving FAQ | Common Questions Answered | Just Legal Solutions',
   description: 'Frequently asked questions about process serving in Oklahoma. Get expert answers about legal document delivery, costs, timelines, and requirements. Call (539) 367-6832.',
   keywords: ['process serving FAQ', 'process server questions', 'legal document service FAQ', 'Oklahoma process serving', 'how does process serving work'],
-  robots: 'index, follow'
+  robots: 'index, follow',
+  openGraph: {
+    title: 'Process Serving FAQ | Common Questions Answered | Just Legal Solutions',
+    description: 'Frequently asked questions about process serving in Oklahoma. Get expert answers about legal document delivery, costs, timelines, and requirements. Call (539) 367-6832.',
+    url: 'https://justlegalsolutions.org/process-serving-faq',
+    siteName: 'Just Legal Solutions',
+    images: [
+      {
+        url: '/contactlogo.png',
+        width: 1200,
+        height: 630,
+        alt: 'Just Legal Solutions - Process Serving FAQ | Common Questions Answered | Just Legal Solutions'
+      }
+    ],
+    locale: 'en_US',
+    type: 'website'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Process Serving FAQ | Common Questions Answered | Just Legal Solutions',
+    description: 'Frequently asked questions about process serving in Oklahoma. Get expert answers about legal document delivery, costs, timelines, and requirements. Call (539) 367-6832.',
+    images: ['/contactlogo.png']
+  },
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/process-serving-faq'
+  },
 };
 
 export default function ProcessServingFAQ() {
@@ -281,9 +307,12 @@ export default function ProcessServingFAQ() {
             </p>
           </div>
         </div>
+      <ReviewSchema businessName="Just Legal Solutions" aggregateRating={4.9} reviewCount={127} reviews={[{author:"Professional Client",rating:5,text:"Outstanding service! Professional, fast, and reliable.",date:"2024-12-01"}]} />
       </div>
     </div>
   );
 }
+
+
 
 

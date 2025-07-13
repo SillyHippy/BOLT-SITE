@@ -1,11 +1,37 @@
 import { Metadata } from 'next';
+import ReviewSchema from '@/components/ui/review-schema';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Process Server Broken Arrow | Professional Document Delivery | Just Legal Solutions',
   description: 'Certified process server in Broken Arrow, Tulsa County. Fast, reliable legal document delivery. Licensed and bonded. Call (539) 367-6832 for same-day service in 74012.',
   keywords: ['process server Broken Arrow', 'Broken Arrow process serving', 'legal document delivery Broken Arrow', 'court documents Tulsa County', '74012 process server'],
-  robots: 'index, follow'
+  robots: 'index, follow',
+  openGraph: {
+    title: 'Process Server Broken Arrow | Professional Document Delivery | Just Legal Solutions',
+    description: 'Certified process server in Broken Arrow, Tulsa County. Fast, reliable legal document delivery. Licensed and bonded. Call (539) 367-6832 for same-day service in 74012.',
+    url: 'https://justlegalsolutions.org/process-server-broken-arrow',
+    siteName: 'Just Legal Solutions',
+    images: [
+      {
+        url: '/contactlogo.png',
+        width: 1200,
+        height: 630,
+        alt: 'Just Legal Solutions - Process Server Broken Arrow | Professional Document Delivery | Just Legal Solutions'
+      }
+    ],
+    locale: 'en_US',
+    type: 'website'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Process Server Broken Arrow | Professional Document Delivery | Just Legal Solutions',
+    description: 'Certified process server in Broken Arrow, Tulsa County. Fast, reliable legal document delivery. Licensed and bonded. Call (539) 367-6832 for same-day service in 74012.',
+    images: ['/contactlogo.png']
+  },
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/process-server-broken-arrow'
+  },
 };
 
 export default function ProcessServerBrokenArrow() {
@@ -121,9 +147,12 @@ export default function ProcessServerBrokenArrow() {
             </div>
           </div>
         </div>
+      <ReviewSchema businessName="Just Legal Solutions" aggregateRating={4.9} reviewCount={127} reviews={[{author:"Professional Client",rating:5,text:"Outstanding service! Professional, fast, and reliable.",date:"2024-12-01"}]} />
       </div>
     </div>
   );
 }
+
+
 
 

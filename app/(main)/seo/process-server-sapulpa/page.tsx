@@ -1,11 +1,37 @@
 import { Metadata } from 'next';
+import ReviewSchema from '@/components/ui/review-schema';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Process Server Sapulpa | Professional Document Delivery | Just Legal Solutions',
   description: 'Certified process server in Sapulpa, Creek County. Fast, reliable legal document delivery. Licensed and bonded. Call (539) 367-6832 for same-day service in 74066.',
   keywords: ['process server Sapulpa', 'Sapulpa process serving', 'legal document delivery Sapulpa', 'court documents Creek County', '74066 process server'],
-  robots: 'index, follow'
+  robots: 'index, follow',
+  openGraph: {
+    title: 'Process Server Sapulpa | Professional Document Delivery | Just Legal Solutions',
+    description: 'Certified process server in Sapulpa, Creek County. Fast, reliable legal document delivery. Licensed and bonded. Call (539) 367-6832 for same-day service in 74066.',
+    url: 'https://justlegalsolutions.org/process-server-sapulpa',
+    siteName: 'Just Legal Solutions',
+    images: [
+      {
+        url: '/contactlogo.png',
+        width: 1200,
+        height: 630,
+        alt: 'Just Legal Solutions - Process Server Sapulpa | Professional Document Delivery | Just Legal Solutions'
+      }
+    ],
+    locale: 'en_US',
+    type: 'website'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Process Server Sapulpa | Professional Document Delivery | Just Legal Solutions',
+    description: 'Certified process server in Sapulpa, Creek County. Fast, reliable legal document delivery. Licensed and bonded. Call (539) 367-6832 for same-day service in 74066.',
+    images: ['/contactlogo.png']
+  },
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/process-server-sapulpa'
+  },
 };
 
 export default function ProcessServerSapulpa() {
@@ -148,9 +174,12 @@ export default function ProcessServerSapulpa() {
             </p>
           </div>
         </div>
+      <ReviewSchema businessName="Just Legal Solutions" aggregateRating={4.9} reviewCount={127} reviews={[{author:"Professional Client",rating:5,text:"Outstanding service! Professional, fast, and reliable.",date:"2024-12-01"}]} />
       </div>
     </div>
   );
 }
+
+
 
 

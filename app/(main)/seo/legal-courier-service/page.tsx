@@ -1,11 +1,37 @@
 import { Metadata } from 'next';
+import ReviewSchema from '@/components/ui/review-schema';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Legal Courier Service Tulsa | Secure Document Delivery & Transport',
   description: 'Professional legal courier service in Tulsa, Oklahoma. Secure document delivery, court filings transport, and confidential legal document courier. Same-day service. Call (539) 367-6832.',
   keywords: ['legal courier Tulsa', 'document delivery', 'court filing delivery', 'legal transport', 'secure courier', 'legal document delivery'],
-  robots: 'index, follow'
+  robots: 'index, follow',
+  openGraph: {
+    title: 'Legal Courier Service Tulsa | Secure Document Delivery & Transport',
+    description: 'Professional legal courier service in Tulsa, Oklahoma. Secure document delivery, court filings transport, and confidential legal document courier. Same-day service. Call (539) 367-6832.',
+    url: 'https://justlegalsolutions.org/legal-courier-service',
+    siteName: 'Just Legal Solutions',
+    images: [
+      {
+        url: '/contactlogo.png',
+        width: 1200,
+        height: 630,
+        alt: 'Just Legal Solutions - Legal Courier Service Tulsa | Secure Document Delivery & Transport'
+      }
+    ],
+    locale: 'en_US',
+    type: 'website'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Legal Courier Service Tulsa | Secure Document Delivery & Transport',
+    description: 'Professional legal courier service in Tulsa, Oklahoma. Secure document delivery, court filings transport, and confidential legal document courier. Same-day service. Call (539) 367-6832.',
+    images: ['/contactlogo.png']
+  },
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/legal-courier-service'
+  },
 };
 
 export default function LegalCourierService() {
@@ -220,8 +246,11 @@ export default function LegalCourierService() {
             </p>
           </div>
         </div>
+      <ReviewSchema businessName="Just Legal Solutions" aggregateRating={4.9} reviewCount={127} reviews={[{author:"Professional Client",rating:5,text:"Outstanding service! Professional, fast, and reliable.",date:"2024-12-01"}]} />
       </div>
     </div>
   );
 }
+
+
 

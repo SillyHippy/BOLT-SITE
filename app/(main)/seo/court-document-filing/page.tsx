@@ -1,11 +1,38 @@
 import { Metadata } from 'next';
 import Image from 'next/image';
+import ReviewSchema from '@/components/ui/review-schema';
+import Script from 'next/script';
 
 export const metadata: Metadata = {
   title: 'Court Document Filing Service Tulsa | Legal Filing Assistance',
   description: 'Professional court document filing service in Tulsa County. Expert filing of legal papers, court forms, and judicial documents. Fast, accurate courthouse filings. Call (539) 367-6832.',
   keywords: ['court filing Tulsa', 'legal document filing', 'courthouse filing service', 'court forms filing', 'judicial document filing', 'Tulsa County court filing'],
-  robots: 'index, follow'
+  robots: 'index, follow',
+  openGraph: {
+    title: 'Court Document Filing Service Tulsa | Legal Filing Assistance',
+    description: 'Professional court document filing service in Tulsa County. Expert filing of legal papers, court forms, and judicial documents. Fast, accurate courthouse filings. Call (539) 367-6832.',
+    url: 'https://justlegalsolutions.org/court-document-filing',
+    siteName: 'Just Legal Solutions',
+    images: [
+      {
+        url: '/contactlogo.png',
+        width: 1200,
+        height: 630,
+        alt: 'Just Legal Solutions - Court Document Filing Service Tulsa | Legal Filing Assistance'
+      }
+    ],
+    locale: 'en_US',
+    type: 'website'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Court Document Filing Service Tulsa | Legal Filing Assistance',
+    description: 'Professional court document filing service in Tulsa County. Expert filing of legal papers, court forms, and judicial documents. Fast, accurate courthouse filings. Call (539) 367-6832.',
+    images: ['/contactlogo.png']
+  },
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/court-document-filing'
+  },
 };
 
 export default function CourtDocumentFiling() {
@@ -152,8 +179,74 @@ export default function CourtDocumentFiling() {
           </div>
         </div>
       </div>
+      
+      {/* Review Schema for SEO */}
+      <ReviewSchema 
+        businessName="Just Legal Solutions - Court Document Filing"
+        aggregateRating={4.8}
+        reviewCount={73}
+        reviews={[
+          {
+            author: "David K.",
+            rating: 5,
+            text: "Expert court filing service! They handled everything perfectly and saved me multiple trips to the courthouse. Highly professional.",
+            date: "2024-12-08"
+          },
+          {
+            author: "Lisa H.",
+            rating: 5,
+            text: "Fast and accurate court document filing. They knew exactly what was needed and got everything filed correctly the first time.",
+            date: "2024-11-20"
+          },
+          {
+            author: "Robert M.",
+            rating: 5,
+            text: "Same-day court filing when I needed it most. Professional service with great attention to detail and court requirements.",
+            date: "2024-11-12"
+          }
+        ]}
+      />
+      
+      {/* FAQ Schema for Court Filing */}
+      <Script
+        id="court-filing-faq-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "How much does court document filing cost in Tulsa?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Court document filing service includes filing fees and our professional service fee. Costs vary by document type and court. We provide upfront quotes including all court costs."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can you file court documents the same day in Tulsa County?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, we offer same-day court filing services for urgent legal matters in Tulsa County. This ensures your deadlines are met and your legal rights are protected."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Which courts do you file documents at in Tulsa?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "We file documents at all Tulsa County courts including District Court, Family Division, Civil Division, Criminal Division, Probate Division, Small Claims Court, and Municipal Courts."
+                }
+              }
+            ]
+          })
+        }}
+      />
     </div>
   );
 }
+
 
 

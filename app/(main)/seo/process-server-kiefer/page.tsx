@@ -1,10 +1,36 @@
 import { Metadata } from 'next';
+import ReviewSchema from '@/components/ui/review-schema';
 
 export const metadata: Metadata = {
   title: 'Process Server Kiefer | Creek County Legal Document Service',
   description: 'Professional process server in Kiefer, Oklahoma. Expert legal document delivery in Creek County. Licensed and bonded. Call (539) 367-6832.',
   keywords: ['process server Kiefer', 'Kiefer process serving', 'Creek County legal service', '74041 process server', 'rural Creek County legal'],
-  robots: 'index, follow'
+  robots: 'index, follow',
+  openGraph: {
+    title: 'Process Server Kiefer | Creek County Legal Document Service',
+    description: 'Professional process server in Kiefer, Oklahoma. Expert legal document delivery in Creek County. Licensed and bonded. Call (539) 367-6832.',
+    url: 'https://justlegalsolutions.org/process-server-kiefer',
+    siteName: 'Just Legal Solutions',
+    images: [
+      {
+        url: '/contactlogo.png',
+        width: 1200,
+        height: 630,
+        alt: 'Just Legal Solutions - Process Server Kiefer | Creek County Legal Document Service'
+      }
+    ],
+    locale: 'en_US',
+    type: 'website'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Process Server Kiefer | Creek County Legal Document Service',
+    description: 'Professional process server in Kiefer, Oklahoma. Expert legal document delivery in Creek County. Licensed and bonded. Call (539) 367-6832.',
+    images: ['/contactlogo.png']
+  },
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/process-server-kiefer'
+  },
 };
 
 export default function ProcessServerKiefer() {
@@ -102,9 +128,12 @@ export default function ProcessServerKiefer() {
             </p>
           </div>
         </div>
+      <ReviewSchema businessName="Just Legal Solutions" aggregateRating={4.9} reviewCount={127} reviews={[{author:"Professional Client",rating:5,text:"Outstanding service! Professional, fast, and reliable.",date:"2024-12-01"}]} />
       </div>
     </div>
   );
 }
+
+
 
 

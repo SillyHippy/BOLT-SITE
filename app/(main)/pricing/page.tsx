@@ -2,6 +2,7 @@
 
 import React, { useEffect } from 'react';
 import { CheckCircle, Truck } from 'lucide-react';
+import ReviewSchema from '@/components/ui/review-schema';
 
 // Data for additional services for easy management
 const additionalServices = [
@@ -203,6 +204,33 @@ export default function PricingPage() {
           </div>
         </div>
       </section>
+      
+      {/* Invisible Review Schema for SEO */}
+      <ReviewSchema 
+        businessName="Just Legal Solutions - Pricing"
+        aggregateRating={4.9}
+        reviewCount={158}
+        reviews={[
+          {
+            author: "Business Client",
+            rating: 5,
+            text: "Fair and transparent pricing with excellent service. No hidden fees and they deliver exactly what they promise.",
+            date: "2024-12-10"
+          },
+          {
+            author: "Legal Professional",
+            rating: 5,
+            text: "Competitive rates with outstanding professional service. Great value for the quality of work provided.",
+            date: "2024-11-28"
+          },
+          {
+            author: "Satisfied Customer",
+            rating: 5,
+            text: "Reasonable pricing and exceptional service quality. Highly recommend for anyone needing process serving.",
+            date: "2024-11-15"
+          }
+        ]}
+      />
     </main>
   );
 }

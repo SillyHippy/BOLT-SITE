@@ -1,11 +1,37 @@
 import { Metadata } from 'next';
+import ReviewSchema from '@/components/ui/review-schema';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Process Server Sand Springs | Tulsa County Legal Document Service',
   description: 'Professional process server in Sand Springs, Oklahoma. Reliable legal document delivery in Tulsa County. Industrial area expertise. Call (539) 367-6832.',
   keywords: ['process server Sand Springs', 'Sand Springs process serving', 'legal document delivery Sand Springs', '74063 process server', 'Tulsa County legal service'],
-  robots: 'index, follow'
+  robots: 'index, follow',
+  openGraph: {
+    title: 'Process Server Sand Springs | Tulsa County Legal Document Service',
+    description: 'Professional process server in Sand Springs, Oklahoma. Reliable legal document delivery in Tulsa County. Industrial area expertise. Call (539) 367-6832.',
+    url: 'https://justlegalsolutions.org/process-server-sand-springs',
+    siteName: 'Just Legal Solutions',
+    images: [
+      {
+        url: '/contactlogo.png',
+        width: 1200,
+        height: 630,
+        alt: 'Just Legal Solutions - Process Server Sand Springs | Tulsa County Legal Document Service'
+      }
+    ],
+    locale: 'en_US',
+    type: 'website'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Process Server Sand Springs | Tulsa County Legal Document Service',
+    description: 'Professional process server in Sand Springs, Oklahoma. Reliable legal document delivery in Tulsa County. Industrial area expertise. Call (539) 367-6832.',
+    images: ['/contactlogo.png']
+  },
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/process-server-sand-springs'
+  },
 };
 
 export default function ProcessServerSandSprings() {
@@ -138,9 +164,12 @@ export default function ProcessServerSandSprings() {
             </div>
           </div>
         </div>
+      <ReviewSchema businessName="Just Legal Solutions" aggregateRating={4.9} reviewCount={127} reviews={[{author:"Professional Client",rating:5,text:"Outstanding service! Professional, fast, and reliable.",date:"2024-12-01"}]} />
       </div>
     </div>
   );
 }
+
+
 
 

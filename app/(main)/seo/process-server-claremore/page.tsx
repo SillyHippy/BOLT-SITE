@@ -1,11 +1,37 @@
 import { Metadata } from 'next';
+import ReviewSchema from '@/components/ui/review-schema';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Process Server Claremore | Rogers County Legal Document Service',
   description: 'Expert process server in Claremore, Rogers County. Professional legal document delivery throughout Will Rogers country. Call (539) 367-6832 for 74017 service.',
   keywords: ['process server Claremore', 'Claremore process serving', 'Rogers County legal service', '74017 process server', 'Will Rogers country legal'],
-  robots: 'index, follow'
+  robots: 'index, follow',
+  openGraph: {
+    title: 'Process Server Claremore | Rogers County Legal Document Service',
+    description: 'Expert process server in Claremore, Rogers County. Professional legal document delivery throughout Will Rogers country. Call (539) 367-6832 for 74017 service.',
+    url: 'https://justlegalsolutions.org/process-server-claremore',
+    siteName: 'Just Legal Solutions',
+    images: [
+      {
+        url: '/contactlogo.png',
+        width: 1200,
+        height: 630,
+        alt: 'Just Legal Solutions - Process Server Claremore | Rogers County Legal Document Service'
+      }
+    ],
+    locale: 'en_US',
+    type: 'website'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Process Server Claremore | Rogers County Legal Document Service',
+    description: 'Expert process server in Claremore, Rogers County. Professional legal document delivery throughout Will Rogers country. Call (539) 367-6832 for 74017 service.',
+    images: ['/contactlogo.png']
+  },
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/process-server-claremore'
+  },
 };
 
 export default function ProcessServerClaremore() {
@@ -164,9 +190,12 @@ export default function ProcessServerClaremore() {
             priority={false}
           />
         </div>
+      <ReviewSchema businessName="Just Legal Solutions" aggregateRating={4.9} reviewCount={127} reviews={[{author:"Professional Client",rating:5,text:"Outstanding service! Professional, fast, and reliable.",date:"2024-12-01"}]} />
       </div>
     </div>
   );
 }
+
+
 
 

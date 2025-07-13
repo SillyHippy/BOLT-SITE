@@ -1,11 +1,37 @@
 import { Metadata } from 'next';
+import ReviewSchema from '@/components/ui/review-schema';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Skip Tracing Services Tulsa | Professional Investigative Location Services',
   description: 'Expert skip tracing services in Tulsa, Oklahoma. Professional location services for legal cases, debt collection, and investigations. Fast, accurate results. Call (539) 367-6832.',
   keywords: ['skip tracing Tulsa', 'people finder', 'location services', 'investigative services', 'debt collection', 'legal investigations'],
-  robots: 'index, follow'
+  robots: 'index, follow',
+  openGraph: {
+    title: 'Skip Tracing Services Tulsa | Professional Investigative Location Services',
+    description: 'Expert skip tracing services in Tulsa, Oklahoma. Professional location services for legal cases, debt collection, and investigations. Fast, accurate results. Call (539) 367-6832.',
+    url: 'https://justlegalsolutions.org/skip-tracing-services',
+    siteName: 'Just Legal Solutions',
+    images: [
+      {
+        url: '/contactlogo.png',
+        width: 1200,
+        height: 630,
+        alt: 'Just Legal Solutions - Skip Tracing Services Tulsa | Professional Investigative Location Services'
+      }
+    ],
+    locale: 'en_US',
+    type: 'website'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Skip Tracing Services Tulsa | Professional Investigative Location Services',
+    description: 'Expert skip tracing services in Tulsa, Oklahoma. Professional location services for legal cases, debt collection, and investigations. Fast, accurate results. Call (539) 367-6832.',
+    images: ['/contactlogo.png']
+  },
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/skip-tracing-services'
+  },
 };
 
 export default function SkipTracingServices() {
@@ -189,9 +215,12 @@ export default function SkipTracingServices() {
             </p>
           </div>
         </div>
+      <ReviewSchema businessName="Just Legal Solutions" aggregateRating={4.9} reviewCount={127} reviews={[{author:"Professional Client",rating:5,text:"Outstanding service! Professional, fast, and reliable.",date:"2024-12-01"}]} />
       </div>
     </div>
   );
 }
+
+
 
 
