@@ -27,7 +27,7 @@ export default function LocalBusinessSchema({
     addressRegion: "Oklahoma",
     postalCode: "74101"
   },
-  phone = "+1-539-367-6832",
+  phone = "+1-(539) 367-6832",
   email = "info@justlegalsolutions.org",
   url = "https://justlegalsolutions.org",
   serviceArea = ["Tulsa", "Broken Arrow", "Owasso", "Bixby", "Jenks", "Sand Springs", "Sapulpa"],

@@ -245,10 +245,10 @@ export function Footer() {
             <p className="text-gray-600">
               Contact us anytime Call or Text at{" "}
               <a
-                href="tel:539-367-6832"
+                href="tel:5393676832"
                 className="text-blue-600 hover:text-blue-800"
               >
-                539-367-6832
+                (539) 367-6832
               </a>
               . We&apos;re here and ready to assist you with all your needs.
             </p>
