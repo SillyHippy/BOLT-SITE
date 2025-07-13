@@ -70,9 +70,9 @@ export default function UrgentProcessServer() {
                className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded-lg text-2xl">
               📞 CALL NOW: (539) 367-6832
             </a>
-            <a href="/card/calendar" 
+            <a href="/card" 
                className="bg-white text-blue-600 hover:bg-gray-100 font-bold py-4 px-8 rounded-lg text-xl">
-              Schedule Online
+              Get Quote Now
             </a>
           </div>
         </div>

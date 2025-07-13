@@ -142,8 +142,8 @@ export default function ProcessServerTulsaPage() {
                 <p className="text-green-700">📧 info@justlegalsolutions.org</p>
               </div>
               <div className="mt-4 md:mt-0">
-                <a href="/card/calendar" className="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-lg inline-block">
-                  Schedule Service Online
+                <a href="/card" className="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-lg inline-block">
+                  Contact Us Now
                 </a>
               </div>
             </div>
@@ -178,3 +178,4 @@ export default function ProcessServerTulsaPage() {
     </div>
   );
 }
+

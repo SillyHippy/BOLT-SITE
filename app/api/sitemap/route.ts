@@ -377,7 +377,7 @@ export async function GET() {
   
   <!-- Additional Bonus Industry Pages -->
   <url>
-    <loc>${baseUrl}/seo/insurance-company-process-server/</loc>
+    <loc>${baseUrl}/seo/insurance-process-server/</loc>
     <lastmod>${lastModified}</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
