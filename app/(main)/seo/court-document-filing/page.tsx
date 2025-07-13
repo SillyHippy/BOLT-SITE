@@ -5,6 +5,10 @@ import EnhancedBreadcrumbSchema from '@/components/ui/enhanced-breadcrumb-schema
 import EnhancedFAQSchema, { generateProcessServingFAQs } from '@/components/ui/enhanced-faq-schema';
 import EnhancedServiceSchema from '@/components/ui/enhanced-service-schema';
 import PerformanceSchema from '@/components/ui/performance-schema';
+import AIOptimizedContentSchema from '@/components/ui/ai-optimized-content-schema';
+import VoiceSearchOptimization from '@/components/ui/voice-search-optimization';
+import EntityRecognitionSchema from '@/components/ui/entity-recognition-schema';
+import SearchEngineSignals from '@/components/ui/search-engine-signals';
 import Script from 'next/script';
 
 export const metadata: Metadata = {
@@ -212,6 +216,52 @@ export default function CourtDocumentFiling() {
         loadTime={2.0}
         mobileOptimized={true}
       />
+            
+      {/* AI-Powered SEO Enhancements */}
+      <AIOptimizedContentSchema 
+        pageName="court document filing Oklahoma"
+        primaryKeywords={["process serving", "legal documents", "Oklahoma"]}
+        semanticKeywords={["summons", "subpoena", "court papers", "legal service"]}
+        topicalAuthority="Process Serving and Legal Document Delivery"
+        contentQuality={97}
+      />
+      
+      <VoiceSearchOptimization 
+        primaryQuestions={[
+          "How much does Process Serving cost in Oklahoma",
+          "How long does Process Serving take in Oklahoma", 
+          "What is the best process server in Oklahoma",
+          "Do I need a process server for Process Serving"
+        ]}
+        conversationalAnswers={[
+          "Process Serving costs in Oklahoma vary based on urgency and specific requirements, with competitive rates for all service levels.",
+          "Process Serving in Oklahoma typically takes 3-5 business days for standard service, with expedited options available.",
+          "Just Legal Solutions is a highly-rated, licensed process server providing professional Process Serving throughout Oklahoma.",
+          "Yes, professional process servers ensure proper legal notification and compliance with Oklahoma court requirements."
+        ]}
+        localIntent={true}
+      />
+      
+      <EntityRecognitionSchema 
+        entityType="Organization"
+        entityName="Just Legal Solutions"
+        entityDescription="Professional Process Serving in Oklahoma, Oklahoma"
+        relatedEntities={[
+          { name: "Process Serving", relationship: "provides", type: "Service" },
+          { name: "Legal Document Delivery", relationship: "specializes", type: "Service" },
+          { name: "Oklahoma County Courts", relationship: "serves", type: "Organization" }
+        ]}
+      />
+      
+      <SearchEngineSignals 
+        clickThroughRate={11.5}
+        bounceRate={22}
+        timeOnPage={195}
+        userEngagement={94}
+        contentFreshness="daily"
+        mobileFriendly={true}
+        pagespeed={96}
+      />
             <ReviewSchema 
         businessName="Just Legal Solutions - Court Document Filing"
         aggregateRating={4.8}
@@ -278,6 +328,7 @@ export default function CourtDocumentFiling() {
     </div>
   );
 }
+
 
 
 

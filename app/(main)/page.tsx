@@ -1,3 +1,8 @@
+import GoogleSpecificOptimization from '@/components/ui/google-specific-optimization';
+import BingYahooOptimization from '@/components/ui/bing-yahoo-optimization';
+import DuckDuckGoOptimization from '@/components/ui/duckduckgo-optimization';
+import SearchEngineUniversalOptimization from '@/components/ui/search-engine-universal-optimization';
+
 import React from 'react';
 import Image from 'next/image';
 import { Mail, Phone, MapPin, Truck, FileText, Building2, Clock } from "lucide-react";

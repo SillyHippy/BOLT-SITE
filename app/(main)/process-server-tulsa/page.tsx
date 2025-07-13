@@ -3,6 +3,10 @@ import Image from 'next/image';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { ArrowLeft, MapPin, Clock, FileText, Shield } from 'lucide-react';
+import GoogleSpecificOptimization from '@/components/ui/google-specific-optimization';
+import BingYahooOptimization from '@/components/ui/bing-yahoo-optimization';
+import DuckDuckGoOptimization from '@/components/ui/duckduckgo-optimization';
+import SearchEngineUniversalOptimization from '@/components/ui/search-engine-universal-optimization';
 
 export const metadata: Metadata = {
   title: 'Professional Process Server in Tulsa County Oklahoma | Same-Day Service',
@@ -225,6 +229,31 @@ export default function ProcessServerTulsaPage() {
           </div>
         </div>
       </div>
+
+      <GoogleSpecificOptimization 
+        businessName="Just Legal Solutions - Process Server Tulsa"
+        primaryLocation="Tulsa County, Oklahoma"
+        serviceArea={["Tulsa", "Broken Arrow", "Bixby", "Glenpool", "Sapulpa", "Sand Springs"]}
+        emergencyService={true}
+      />
+      <BingYahooOptimization 
+        businessName="Just Legal Solutions - Process Server Tulsa"
+        serviceTypes={["Process Server Tulsa County", "Legal Document Delivery", "Divorce Papers Service", "Summons Delivery"]}
+        expertise={["Certified Process Server", "Same-Day Service", "Professional Delivery", "Court Compliant"]}
+        serviceRadius={75}
+      />
+      <DuckDuckGoOptimization 
+        businessName="Just Legal Solutions - Process Server Tulsa"
+        focusKeywords={["process server tulsa county", "tulsa legal document delivery", "divorce papers tulsa", "certified process server"]}
+        privacyFocused={true}
+        quickAnswers={true}
+      />
+      <SearchEngineUniversalOptimization 
+        businessName="Just Legal Solutions - Process Server Tulsa"
+        primaryService="Certified Process Serving"
+        location="Tulsa County, Oklahoma"
+        emergencyAvailable={true}
+      />
     </main>
   );
 }

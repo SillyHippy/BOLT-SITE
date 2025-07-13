@@ -3,6 +3,10 @@
 import React, { useEffect } from 'react';
 import { CheckCircle, Truck } from 'lucide-react';
 import ReviewSchema from '@/components/ui/review-schema';
+import GoogleSpecificOptimization from '@/components/ui/google-specific-optimization';
+import BingYahooOptimization from '@/components/ui/bing-yahoo-optimization';
+import DuckDuckGoOptimization from '@/components/ui/duckduckgo-optimization';
+import SearchEngineUniversalOptimization from '@/components/ui/search-engine-universal-optimization';
 import EnhancedBreadcrumbSchema from '@/components/ui/enhanced-breadcrumb-schema';
 import EnhancedFAQSchema from '@/components/ui/enhanced-faq-schema';
 import EnhancedServiceSchema from '@/components/ui/enhanced-service-schema';

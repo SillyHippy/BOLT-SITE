@@ -1,4 +1,8 @@
 import Image from 'next/image';
+import GoogleSpecificOptimization from '@/components/ui/google-specific-optimization';
+import BingYahooOptimization from '@/components/ui/bing-yahoo-optimization';
+import DuckDuckGoOptimization from '@/components/ui/duckduckgo-optimization';
+import SearchEngineUniversalOptimization from '@/components/ui/search-engine-universal-optimization';
 
 export default function TulsaProcessServer() {
   return (
@@ -82,6 +86,31 @@ export default function TulsaProcessServer() {
           </div>
         </div>
       </section>
+
+      <GoogleSpecificOptimization 
+        businessName="Just Legal Solutions - Tulsa Process Server"
+        primaryLocation="Tulsa, Oklahoma"
+        serviceArea={["Tulsa County", "Broken Arrow", "Glenpool", "Bixby", "Sapulpa"]}
+        emergencyService={true}
+      />
+      <BingYahooOptimization 
+        businessName="Just Legal Solutions - Tulsa Process Server"
+        serviceTypes={["Process Serving Tulsa", "Legal Document Delivery", "Same-Day Service", "Emergency Process Serving"]}
+        expertise={["Tulsa County Coverage", "Professional Delivery", "Same-Day Service", "Licensed Process Server"]}
+        serviceRadius={50}
+      />
+      <DuckDuckGoOptimization 
+        businessName="Just Legal Solutions - Tulsa Process Server"
+        focusKeywords={["tulsa process server", "process serving tulsa", "legal document delivery tulsa", "same day process server"]}
+        privacyFocused={true}
+        quickAnswers={true}
+      />
+      <SearchEngineUniversalOptimization 
+        businessName="Just Legal Solutions - Tulsa Process Server"
+        primaryService="Process Serving"
+        location="Tulsa, Oklahoma"
+        emergencyAvailable={true}
+      />
     </main>
   );
 }
