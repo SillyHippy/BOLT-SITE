@@ -47,3 +47,6 @@ User-agent: ChatGPT-User
 Allow: /
 User-agent: Claude-Web
 Allow: /
+
+# Voice Search Optimization - Sun Jul 13 16:42:32 UTC 2025
+# Optimized for Alexa, Google Assistant, Siri
