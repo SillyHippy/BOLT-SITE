@@ -190,7 +190,7 @@ ${JSON.stringify(voiceSearchSchema, null, 2)}
 
 {/* Voice Search Meta Tags */}
 <meta name="voice-search-optimized" content="true" />
-<meta name="voice-queries" content="${voiceConversationPatterns.map(p = /> p.query).join(', ')}">
+<meta name="voice-queries" content="${voiceConversationPatterns.map(p => p.query).join(', ')}" />
 <meta name="voice-assistant-ready" content="Alexa, Google Assistant, Siri, Cortana" />
 `;
 }
