@@ -102,7 +102,7 @@ jobs:
         ).join('\n')}
         
         ## 🚀 Automation Status
-        - **Voice Search Pages:** 12 cities × 26 patterns = 312 optimized pages
+        - **Voice Search Pages:** 80+ cities × 26 patterns = 2,080+ optimized pages
         - **Rapid Ranking:** 43 keywords rotating 3x daily
         - **Content Freshness:** Updated every 4 hours
         - **Competitive Intel:** Running 2x daily

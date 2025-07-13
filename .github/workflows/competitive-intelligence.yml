@@ -321,8 +321,27 @@ jobs:
         echo "📍 Creating location-specific competitive responses..."
         
         # Target Tulsa County first (your local area), then major Oklahoma markets
-        declare -a LOCAL_CITIES=("Glenpool" "Tulsa" "Broken Arrow" "Bixby" "Jenks" "Sand Springs" "Owasso" "Sapulpa")
-        declare -a STATEWIDE_CITIES=("Oklahoma City" "Norman" "Edmond" "Lawton" "Stillwater" "Enid" "Moore" "Midwest City")
+        # COMPREHENSIVE OKLAHOMA CITIES FOR TOTAL MARKET DOMINATION 🏆
+        declare -a LOCAL_CITIES=(
+          "Glenpool" "Tulsa" "Broken Arrow" "Bixby" "Jenks" "Sand Springs" "Owasso" "Sapulpa"
+          "Claremore" "Skiatook" "Collinsville" "Catoosa" "Coweta" "Wagoner" "Mounds" "Kiefer"
+          "Leonard" "Oakhurst" "Berryhill" "Turley" "Sperry" "Vera" "Dawson" "Kellyville"
+        )
+        declare -a STATEWIDE_CITIES=(
+          "Oklahoma City" "Norman" "Edmond" "Lawton" "Stillwater" "Enid" "Moore" "Midwest City"
+          "Del City" "Mustang" "Yukon" "Bethany" "Warr Acres" "The Village" "Nichols Hills"
+          "Piedmont" "Spencer" "Jones" "Ponca City" "Bartlesville" "Muskogee" "Shawnee"
+          "McAlester" "Ardmore" "Duncan" "Ada" "Tahlequah" "Durant" "El Reno" "Miami"
+          "Altus" "Chickasha" "Guthrie" "Woodward" "Elk City" "Weatherford" "Clinton"
+          "Pryor Creek" "Sallisaw" "Poteau" "Henryetta" "Okmulgee" "Seminole" "Tecumseh"
+          "Holdenville" "Pauls Valley" "Purcell" "Noble" "Blanchard" "Newcastle" "Tuttle"
+          "Cushing" "Perkins" "Cache" "Fletcher" "Medicine Park" "Dewey" "Copan" "Inola"
+          "Chelsea" "Drumright" "Bristow" "Mannford" "Porter" "Okay" "Pawhusha" "Hominy"
+          "Fairfax" "Barnsdall" "Fort Gibson" "Oktaha" "Haskell" "Blackwell" "Newkirk"
+          "Tonkawa" "Hartshorne" "Krebs" "Healdton" "Lone Grove" "Marlow" "Comanche"
+          "Stratford" "Keys" "Park Hill" "Calera" "Caddo" "Commerce" "Fairland" "Blair"
+          "Duke" "Minco" "Pocasset" "Crescent" "Mulhall" "Marshall" "Coyle"
+        )
         declare -a COMPETITOR_KEYWORDS=("process server" "legal documents" "court papers" "subpoena service")
         
         

@@ -84,6 +84,32 @@ jobs:
           'court certified serving oklahoma'
         ];
         
+        // ALL OKLAHOMA CITIES FOR COMPLETE DOMINATION 🚀
+        const allOklahomaCities = [
+          // TULSA METRO (Primary Market)
+          'Tulsa', 'Broken Arrow', 'Owasso', 'Bixby', 'Jenks', 'Sand Springs',
+          'Glenpool', 'Sapulpa', 'Claremore', 'Skiatook', 'Collinsville', 'Catoosa',
+          'Coweta', 'Wagoner', 'Mounds', 'Kiefer', 'Leonard', 'Oakhurst',
+          
+          // OKLAHOMA CITY METRO (Major Market)  
+          'Oklahoma City', 'Norman', 'Edmond', 'Moore', 'Midwest City', 'Del City',
+          'Mustang', 'Yukon', 'Bethany', 'Warr Acres', 'The Village', 'Nichols Hills',
+          'Piedmont', 'Deer Creek', 'Lake Aluma', 'Spencer', 'Jones', 'Arcadia',
+          
+          // MAJOR CITIES (High Value)
+          'Lawton', 'Stillwater', 'Enid', 'Ponca City', 'Bartlesville', 'Muskogee',
+          'Shawnee', 'McAlester', 'Ardmore', 'Duncan', 'Ada', 'Tahlequah',
+          'Durant', 'El Reno', 'Miami', 'Altus', 'Chickasha', 'Guthrie',
+          
+          // REGIONAL CENTERS
+          'Woodward', 'Elk City', 'Weatherford', 'Clinton', 'Pryor Creek', 'Sallisaw',
+          'Poteau', 'Henryetta', 'Okmulgee', 'Seminole', 'Tecumseh', 'Holdenville',
+          'Pauls Valley', 'Purcell', 'Noble', 'Blanchard', 'Newcastle', 'Tuttle'
+        ];
+        
+        // Rotate through cities for geographic coverage
+        const currentCity = allOklahomaCities[hour % allOklahomaCities.length];
+        
         // Time-sensitive content for immediate indexing
         const currentKeyword = urgentKeywords[hour % urgentKeywords.length];
         const urgencyLevel = ['URGENT', 'IMMEDIATE', 'EMERGENCY', 'RUSH'][hour % 4];
@@ -93,9 +119,9 @@ jobs:
         import type { Metadata } from 'next';
         
         export const metadata: Metadata = {
-          title: '${urgencyLevel}: ${currentKeyword.charAt(0).toUpperCase() + currentKeyword.slice(1)} | Just Legal Solutions',
-          description: '${urgencyLevel} process serving available RIGHT NOW in Oklahoma. Call (539) 367-6832 for immediate dispatch. 15-minute response time guaranteed.',
-          keywords: '${currentKeyword}, urgent process server, emergency legal documents, same day service tulsa',
+          title: '${urgencyLevel}: ${currentKeyword.charAt(0).toUpperCase() + currentKeyword.slice(1)} ${currentCity} | Just Legal Solutions',
+          description: '${urgencyLevel} process serving available RIGHT NOW in ${currentCity}, Oklahoma. Call (539) 367-6832 for immediate dispatch. 15-minute response time guaranteed.',
+          keywords: '${currentKeyword}, urgent process server ${currentCity.toLowerCase()}, emergency legal documents ${currentCity.toLowerCase()}, same day service ${currentCity.toLowerCase()}, ${currentCity.toLowerCase()} process server',
           openGraph: {
             title: '${urgencyLevel} Process Serving Available NOW',
             description: 'Immediate legal document delivery. Call (539) 367-6832 - servers dispatched in 15 minutes.',

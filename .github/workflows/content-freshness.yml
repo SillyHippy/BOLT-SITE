@@ -208,9 +208,33 @@ jobs:
         echo "🗺️ Generating local SEO micro-updates..."
         
         # Create location-specific fresh content - Focus on Tulsa County (your local area)
-        CITIES=("Glenpool" "Tulsa" "Broken Arrow" "Bixby" "Jenks" "Sand Springs" "Owasso" "Sapulpa")
+        # ALL OKLAHOMA CITIES - COMPREHENSIVE STATE COVERAGE 🌟
+        CITIES=(
+          # TULSA METRO (Primary Market - 80% of business)
+          "Glenpool" "Tulsa" "Broken Arrow" "Bixby" "Jenks" "Sand Springs" "Owasso" "Sapulpa"
+          "Claremore" "Skiatook" "Collinsville" "Catoosa" "Coweta" "Wagoner" "Mounds" "Kiefer"
+          
+          # OKLAHOMA CITY METRO (Major Market)
+          "Oklahoma City" "Norman" "Edmond" "Moore" "Midwest City" "Del City" "Mustang" "Yukon"
+          "Bethany" "Warr Acres" "The Village" "Nichols Hills" "Piedmont" "Spencer" "Jones"
+          
+          # MAJOR OKLAHOMA CITIES (High Value Markets)
+          "Lawton" "Stillwater" "Enid" "Ponca City" "Bartlesville" "Muskogee" "Shawnee" "McAlester"
+          "Ardmore" "Duncan" "Ada" "Tahlequah" "Durant" "El Reno" "Miami" "Altus" "Chickasha" "Guthrie"
+          
+          # REGIONAL CENTERS (Growing Markets)
+          "Woodward" "Elk City" "Weatherford" "Clinton" "Pryor Creek" "Sallisaw" "Poteau" "Henryetta"
+          "Okmulgee" "Seminole" "Tecumseh" "Holdenville" "Pauls Valley" "Purcell" "Noble" "Blanchard"
+          "Newcastle" "Tuttle" "Cushing" "Perkins" "Cache" "Fletcher" "Medicine Park" "Dewey"
+          "Copan" "Inola" "Chelsea" "Drumright" "Bristow" "Mannford" "Porter" "Okay" "Pawhusha"
+          "Hominy" "Fairfax" "Barnsdall" "Fort Gibson" "Oktaha" "Haskell" "Blackwell" "Newkirk"
+          "Tonkawa" "Hartshorne" "Krebs" "Healdton" "Lone Grove" "Marlow" "Comanche" "Stratford"
+          "Keys" "Park Hill" "Calera" "Caddo" "Commerce" "Fairland" "Blair" "Duke" "Minco" "Pocasset"
+          "Crescent" "Mulhall" "Marshall" "Coyle" "Waukomis" "Kremlin" "Lahoma"
+        )
         HOUR=$(date +%H)
-        SELECTED_CITY=${CITIES[$((HOUR % 8))]}
+        SELECTED_CITY=${CITIES[$((HOUR % ${#CITIES[@]}))]}
+        echo "🎯 Selected city for this hour: $SELECTED_CITY (Hour: $HOUR, Total cities: ${#CITIES[@]})"
         
         cat > "local-update-${SELECTED_CITY,,}.md" << EOF
         # Fresh Local Update: ${SELECTED_CITY} Process Serving
