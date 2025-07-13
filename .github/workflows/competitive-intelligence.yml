@@ -320,23 +320,26 @@ jobs:
       run: |
         echo "📍 Creating location-specific competitive responses..."
         
-        # Target major Oklahoma cities where competitors operate
-        declare -a CITIES=("Tulsa" "Oklahoma City" "Norman" "Broken Arrow" "Lawton" "Edmond")
+        # Target Tulsa County first (your local area), then major Oklahoma markets
+        declare -a LOCAL_CITIES=("Glenpool" "Tulsa" "Broken Arrow" "Bixby" "Jenks" "Sand Springs" "Owasso" "Sapulpa")
+        declare -a STATEWIDE_CITIES=("Oklahoma City" "Norman" "Edmond" "Lawton" "Stillwater" "Enid" "Moore" "Midwest City")
         declare -a COMPETITOR_KEYWORDS=("process server" "legal documents" "court papers" "subpoena service")
         
-        for city in "${CITIES[@]}"; do
-          echo "Creating competitive content for ${city}..."
+        
+        # Focus on local Tulsa County cities first (80% of business)
+        for city in "${LOCAL_CITIES[@]}"; do
+          echo "Creating LOCAL competitive content for ${city}..."
           
           cat > "app/(main)/best-process-server-${city,,}/page.tsx" << EOF
         import type { Metadata } from 'next';
         
         export const metadata: Metadata = {
-          title: 'Best Process Server in ${city}, Oklahoma | Just Legal Solutions',
-          description: 'Rated #1 process server in ${city}. Same-day service, 99.8% success rate, licensed professionals. Call (918) 000-0000 for immediate service.',
-          keywords: '${city} process server, best process server ${city}, legal documents ${city}, court papers ${city}',
+          title: 'Best Process Server in ${city}, Oklahoma | Just Legal Solutions - Glenpool Based',
+          description: 'Local ${city} process server based in nearby Glenpool. Same-day service, 15-minute response time, serving Tulsa County. Call (918) 000-0000.',
+          keywords: '${city} process server, process serving ${city}, legal documents ${city}, court papers ${city}, glenpool process server',
           openGraph: {
-            title: 'Best Process Server in ${city}, Oklahoma',
-            description: 'Same-day process serving in ${city}. Licensed, bonded, and ready to serve your legal documents today.',
+            title: 'Local Process Server: ${city}, Oklahoma',
+            description: 'Glenpool-based process server serving ${city} daily. Fastest response in Tulsa County.',
             url: 'https://justlegalsolutions.org/best-process-server-${city,,}',
             type: 'website'
           }
@@ -347,54 +350,48 @@ jobs:
             <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
               <div className="container mx-auto px-4 py-16">
                 <div className="max-w-4xl mx-auto text-center">
-                  <div className="inline-flex items-center px-4 py-2 bg-yellow-100 text-yellow-800 rounded-full text-sm font-bold mb-6">
-                    🏆 #1 Rated Process Server in ${city}
+                  <div className="inline-flex items-center px-4 py-2 bg-green-100 text-green-800 rounded-full text-sm font-bold mb-6">
+                    📍 Local ${city} Process Server - Based in Glenpool
                   </div>
                   
                   <h1 className="text-5xl font-bold text-gray-900 mb-6">
-                    Best Process Server in ${city}, Oklahoma
+                    Process Server in ${city}, Oklahoma
                   </h1>
                   
                   <p className="text-xl text-gray-600 mb-8">
-                    Serving ${city} with the fastest, most reliable process serving in Oklahoma. 
-                    Same-day service available - call now!
+                    Local Glenpool-based process server serving ${city} daily. 
+                    We know the area, the courts, and get your documents served fast!
                   </p>
                   
                   <div className="bg-white rounded-2xl shadow-xl p-8 mb-12">
-                    <h2 className="text-3xl font-bold text-gray-900 mb-8">Why ${city} Chooses Just Legal Solutions</h2>
+                    <h2 className="text-3xl font-bold text-gray-900 mb-8">Why ${city} Residents Choose Us</h2>
                     
                     <div className="grid md:grid-cols-3 gap-6 mb-8">
                       <div className="text-center">
-                        <div className="text-4xl font-bold text-blue-600 mb-2">15min</div>
-                        <div className="text-sm text-gray-600">Average Response Time in ${city}</div>
+                        <div className="text-4xl font-bold text-blue-600 mb-2">5min</div>
+                        <div className="text-sm text-gray-600">Drive Time to ${city}</div>
                       </div>
                       <div className="text-center">
-                        <div className="text-4xl font-bold text-green-600 mb-2">99.8%</div>
-                        <div className="text-sm text-gray-600">Success Rate in ${city}</div>
+                        <div className="text-4xl font-bold text-green-600 mb-2">Same Day</div>
+                        <div className="text-sm text-gray-600">${city} Service Available</div>
                       </div>
                       <div className="text-center">
-                        <div className="text-4xl font-bold text-purple-600 mb-2">24/7</div>
-                        <div className="text-sm text-gray-600">Emergency Service in ${city}</div>
+                        <div className="text-4xl font-bold text-purple-600 mb-2">Local</div>
+                        <div className="text-sm text-gray-600">Tulsa County Expert</div>
                       </div>
+                    </div>
+                    
+                    <div className="bg-blue-50 p-6 rounded-xl mb-6">
+                      <h3 className="text-xl font-bold text-blue-900 mb-3">Local Advantage in ${city}</h3>
+                      <p className="text-blue-800">Based right here in Glenpool, we serve ${city} multiple times daily. We know every street, every business, and every courthouse in Tulsa County.</p>
                     </div>
                     
                     <div className="bg-red-500 text-white rounded-xl p-6">
                       <h3 className="text-2xl font-bold mb-4">Need Process Serving in ${city} Today?</h3>
-                      <p className="text-lg mb-4">Don't wait! Our ${city} process servers are standing by.</p>
+                      <p className="text-lg mb-4">Local Glenpool server can be in ${city} in minutes!</p>
                       <a href="tel:9180000000" className="inline-block bg-white text-red-500 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
-                        Call (918) 000-0000 Now
+                        Call (918) 000-0000 - Local ${city} Service
                       </a>
-                    </div>
-                  </div>
-                  
-                  <div className="grid md:grid-cols-2 gap-8 mb-12">
-                    <div className="bg-white p-6 rounded-xl shadow-lg">
-                      <h3 className="text-xl font-bold mb-4">Same-Day Service in ${city}</h3>
-                      <p className="text-gray-600">Need it served today? We guarantee same-day service throughout ${city} and surrounding areas.</p>
-                    </div>
-                    <div className="bg-white p-6 rounded-xl shadow-lg">
-                      <h3 className="text-xl font-bold mb-4">Licensed & Bonded in ${city}</h3>
-                      <p className="text-gray-600">Fully licensed process servers with local knowledge of ${city} courts and procedures.</p>
                     </div>
                   </div>
                 </div>
@@ -404,20 +401,21 @@ jobs:
                 __html: JSON.stringify({
                   "@context": "https://schema.org",
                   "@type": "LocalBusiness",
-                  "name": "Just Legal Solutions - ${city}",
+                  "name": "Just Legal Solutions - ${city} Process Server",
                   "url": "https://justlegalsolutions.org/best-process-server-${city,,}",
                   "telephone": "(918) 000-0000",
                   "address": {
                     "@type": "PostalAddress",
-                    "addressLocality": "${city}",
+                    "addressLocality": "Glenpool",
                     "addressRegion": "Oklahoma",
                     "addressCountry": "US"
                   },
-                  "description": "Best process server in ${city}, Oklahoma. Same-day service, 99.8% success rate.",
-                  "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.9",
-                    "reviewCount": "127"
+                  "areaServed": ["${city}", "Tulsa County", "Oklahoma"],
+                  "description": "Local process server based in Glenpool serving ${city}, Oklahoma. Same-day service available.",
+                  "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": "35.9553",
+                    "longitude": "-96.0086"
                   }
                 })
               }} />
@@ -427,6 +425,84 @@ jobs:
         EOF
           
           mkdir -p "app/(main)/best-process-server-${city,,}"
+        done
+        
+        # Then target major statewide markets (20% expansion opportunity)
+        for city in "${STATEWIDE_CITIES[@]}"; do
+          echo "Creating STATEWIDE competitive content for ${city}..."
+          
+          cat > "app/(main)/oklahoma-process-server-${city,,}/page.tsx" << EOF
+        import type { Metadata } from 'next';
+        
+        export const metadata: Metadata = {
+          title: 'Oklahoma Process Server - ${city} | Statewide Service | Just Legal Solutions',
+          description: 'Professional process server serving ${city}, Oklahoma. Statewide coverage, licensed professionals, same-day service available. Call (918) 000-0000.',
+          keywords: '${city} process server, oklahoma process serving, statewide process server, legal documents ${city}',
+          openGraph: {
+            title: 'Oklahoma Process Server - ${city}',
+            description: 'Professional statewide process serving in ${city}, Oklahoma. Licensed and ready to serve.',
+            url: 'https://justlegalsolutions.org/oklahoma-process-server-${city,,}',
+            type: 'website'
+          }
+        };
+        
+        export default function OklahomaProcessServer${city}() {
+          return (
+            <div className="min-h-screen bg-gradient-to-br from-green-50 to-blue-100">
+              <div className="container mx-auto px-4 py-16">
+                <div className="max-w-4xl mx-auto text-center">
+                  <div className="inline-flex items-center px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-bold mb-6">
+                    🏛️ Oklahoma Statewide Process Server - ${city} Coverage
+                  </div>
+                  
+                  <h1 className="text-5xl font-bold text-gray-900 mb-6">
+                    Oklahoma Process Server - ${city}
+                  </h1>
+                  
+                  <p className="text-xl text-gray-600 mb-8">
+                    Professional statewide process serving in ${city}, Oklahoma. 
+                    Licensed, bonded, and ready to serve your legal documents.
+                  </p>
+                  
+                  <div className="bg-white rounded-2xl shadow-xl p-8 mb-12">
+                    <h2 className="text-3xl font-bold text-gray-900 mb-8">Statewide Oklahoma Coverage</h2>
+                    
+                    <div className="grid md:grid-cols-3 gap-6 mb-8">
+                      <div className="text-center">
+                        <div className="text-4xl font-bold text-green-600 mb-2">77</div>
+                        <div className="text-sm text-gray-600">Oklahoma Counties</div>
+                      </div>
+                      <div className="text-center">
+                        <div className="text-4xl font-bold text-blue-600 mb-2">Same Day</div>
+                        <div className="text-sm text-gray-600">${city} Service</div>
+                      </div>
+                      <div className="text-center">
+                        <div className="text-4xl font-bold text-purple-600 mb-2">Licensed</div>
+                        <div className="text-sm text-gray-600">Statewide Authority</div>
+                      </div>
+                    </div>
+                    
+                    <div className="bg-green-50 p-6 rounded-xl mb-6">
+                      <h3 className="text-xl font-bold text-green-900 mb-3">Statewide Network</h3>
+                      <p className="text-green-800">Our Oklahoma-wide network ensures professional service in ${city} and throughout the state. One call covers all your process serving needs.</p>
+                    </div>
+                    
+                    <div className="bg-blue-500 text-white rounded-xl p-6">
+                      <h3 className="text-2xl font-bold mb-4">Statewide Oklahoma Process Serving</h3>
+                      <p className="text-lg mb-4">Professional service in ${city} and beyond!</p>
+                      <a href="tel:9180000000" className="inline-block bg-white text-blue-500 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
+                        Call (918) 000-0000 - Statewide Service
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          );
+        }
+        EOF
+          
+          mkdir -p "app/(main)/oklahoma-process-server-${city,,}"
         done
         
         echo "✅ Location-based competitive pages generated"

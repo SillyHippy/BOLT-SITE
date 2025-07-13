@@ -209,10 +209,10 @@ jobs:
       run: |
         echo "🗺️ Generating local SEO micro-updates..."
         
-        # Create location-specific fresh content
-        CITIES=("Tulsa" "Broken Arrow" "Owasso" "Bixby" "Jenks" "Sand Springs")
+        # Create location-specific fresh content - Focus on Tulsa County (your local area)
+        CITIES=("Glenpool" "Tulsa" "Broken Arrow" "Bixby" "Jenks" "Sand Springs" "Owasso" "Sapulpa")
         HOUR=$(date +%H)
-        SELECTED_CITY=${CITIES[$((HOUR % 6))]}
+        SELECTED_CITY=${CITIES[$((HOUR % 8))]}
         
         cat > "local-update-${SELECTED_CITY,,}.md" << EOF
         # Fresh Local Update: ${SELECTED_CITY} Process Serving
