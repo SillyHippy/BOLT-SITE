@@ -1,7 +1,5 @@
 import { NextResponse } from 'next/server';
 
-export const dynamic = 'force-dynamic';
-
 export async function GET() {
   const today = new Date();
   const currentDate = today.toLocaleDateString('en-US', { 
