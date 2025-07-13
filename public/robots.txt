@@ -25,5 +25,5 @@ Allow: /api/sitemap
 Disallow: /api/
 Crawl-delay: 1
 
-# Primary Sitemap (Dynamic with Current Timestamps)
-Sitemap: https://justlegalsolutions.org/api/sitemap
+# Primary Sitemap (Static XML with Current Timestamps)
+Sitemap: https://justlegalsolutions.org/sitemap.xml
