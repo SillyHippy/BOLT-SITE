@@ -70,7 +70,7 @@ export default function ProcessServerGlenpool() {
               Contact Our Glenpool Process Servers
             </h3>
             <p className="text-green-700 mb-3">
-              Need professional document service in Glenpool? Contact us today!
+              Need professional document service in Glenpool? View Pricing today!
             </p>
             <p className="text-2xl font-bold text-green-800">
               📞 (539) 367-6832
@@ -116,4 +116,5 @@ export default function ProcessServerGlenpool() {
     </div>
   );
 }
+
 

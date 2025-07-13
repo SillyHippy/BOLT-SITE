@@ -258,8 +258,8 @@ export default function ${location.name.replace(/\s+/g, '')}ProcessServer() {
                 <p className="text-green-700">📍 Serving ${location.name}, ${location.county}</p>
               </div>
               <div className="mt-4 md:mt-0">
-                <a href="/card" className="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-lg inline-block">
-                  Contact Us Now
+                <a href="/pricing" className="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-lg inline-block">
+                  View Pricing
                 </a>
               </div>
             </div>
@@ -326,8 +326,8 @@ export default function ${service.slug.split('-').map((word: string) => word.cha
                 <p className="text-green-700">📧 info@justlegalsolutions.org</p>
               </div>
               <div className="mt-4 md:mt-0">
-                <a href="/card" className="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-lg inline-block">
-                  Contact Us Now
+                <a href="/pricing" className="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-lg inline-block">
+                  View Pricing
                 </a>
               </div>
             </div>

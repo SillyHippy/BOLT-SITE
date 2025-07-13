@@ -145,7 +145,7 @@ export default function ProcessServerCoweta() {
                 <p className="text-green-700">📍 Serving Coweta, Wagoner County</p>
               </div>
               <div className="mt-4 md:mt-0">
-                <a href="/card" className="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-lg inline-block">
+                <a href="/pricing" className="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-lg inline-block">
                   Schedule Service
                 </a>
               </div>
@@ -163,4 +163,5 @@ export default function ProcessServerCoweta() {
     </div>
   );
 }
+
 

@@ -142,8 +142,8 @@ export default function ProcessServerTulsaPage() {
                 <p className="text-green-700">📧 info@justlegalsolutions.org</p>
               </div>
               <div className="mt-4 md:mt-0">
-                <a href="/card" className="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-lg inline-block">
-                  Contact Us Now
+                <a href="/pricing" className="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-lg inline-block">
+                  View Pricing
                 </a>
               </div>
             </div>
@@ -159,7 +159,7 @@ export default function ProcessServerTulsaPage() {
               <p className="text-sm text-blue-800">
                 <strong>Service Area Note:</strong> Standard rates apply to Tulsa County and select parts of 
                 Creek County (Sapulpa) & Wagoner County (Broken Arrow). A surcharge applies to all other areas. 
-                Please contact us for a precise quote.
+                Please View Pricing for a precise quote.
               </p>
             </div>
             <a href="/pricing" className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg inline-block font-semibold">
@@ -178,4 +178,5 @@ export default function ProcessServerTulsaPage() {
     </div>
   );
 }
+
 
