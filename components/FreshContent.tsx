@@ -3,9 +3,7 @@ import React from 'react';
 
 export default function FreshContent() {
   return (
-    
-<!-- Generated: Sunday, July 13, 2025 -->
-<div className="fresh-content" data-updated="2025-07-13T16:19:05.988Z">
+    <div className="fresh-content" data-updated="2025-07-13T16:19:05.988Z">
   <div className="urgency-banner bg-red-50 border border-red-200 p-4 mb-6">
     <div className="flex items-center">
       <span className="text-red-500 text-xl mr-2">⚡</span>
@@ -35,6 +33,5 @@ export default function FreshContent() {
     </div>
   </div>
 </div>
-
   );
 }
