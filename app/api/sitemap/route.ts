@@ -13,7 +13,10 @@ export async function GET() {
   const recentUpdate = cstDate.toISOString().split('T')[0]; // Force fresh timestamp for SEO pages (CST)
   
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <!-- High Priority Pages -->
   <url>
     <loc>${baseUrl}/</loc>
@@ -417,8 +420,12 @@ export async function GET() {
 
   return new NextResponse(sitemap, {
     headers: {
-      'Content-Type': 'application/xml',
-      'Cache-Control': 'public, max-age=3600, s-maxage=3600', // Cache for 1 hour
+      'Content-Type': 'application/xml; charset=utf-8',
+      'Cache-Control': 'public, max-age=3600, s-maxage=21600',
+      'X-Robots-Tag': 'index, follow',
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Methods': 'GET',
+      'Vary': 'Accept-Encoding'
     },
   });
 }

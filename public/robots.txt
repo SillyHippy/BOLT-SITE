@@ -16,23 +16,14 @@ Allow: /
 Allow: /api/sitemap
 Disallow: /api/
 Disallow: /security-policy/
-
-# Sitemap location
-Sitemap: https://justlegalsolutions.org/api/sitemap
-Sitemap: https://justlegalsolutions.org/sitemap.xml
-
-# SEO optimized for process serving in Tulsa County
-User-agent: Googlebot
 Crawl-delay: 0.5
 
 # Optimize for Bing
 User-agent: Bingbot
+Allow: /
+Allow: /api/sitemap
+Disallow: /api/
 Crawl-delay: 1
 
-# Block bad bots (optional - uncomment if needed)
-# User-agent: AhrefsBot
-# Disallow: /
-# User-agent: SemrushBot
-# Disallow: /
-
+# Primary Sitemap (Dynamic with Current Timestamps)
 Sitemap: https://justlegalsolutions.org/api/sitemap
