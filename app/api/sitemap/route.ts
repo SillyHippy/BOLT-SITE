@@ -418,7 +418,8 @@ export async function GET() {
   </url>
 </urlset>`;
 
-  return new NextResponse(sitemap, {
+  const response = new NextResponse(sitemap, {
+    status: 200,
     headers: {
       'Content-Type': 'application/xml; charset=utf-8',
       'Cache-Control': 'public, max-age=3600, s-maxage=21600',
@@ -428,4 +429,9 @@ export async function GET() {
       'Vary': 'Accept-Encoding'
     },
   });
+  
+  // Force XML content type
+  response.headers.set('Content-Type', 'application/xml; charset=utf-8');
+  
+  return response;
 }
