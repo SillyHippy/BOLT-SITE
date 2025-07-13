@@ -267,7 +267,7 @@ export default function ExecutiveAssistantServices() {
               <div>
                 <h3 className="text-xl font-semibold mb-3">Get Started Today</h3>
                 <div className="space-y-3">
-                  <a href="/card/calendar" className="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold inline-block hover:bg-gray-100">
+                  <a href="/card/" className="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold inline-block hover:bg-gray-100">
                     Schedule Consultation
                   </a>
                   <p className="text-blue-100">
