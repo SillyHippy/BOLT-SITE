@@ -16,6 +16,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: AI Search Optimization Updates
         run: |
@@ -48,4 +50,5 @@ jobs:
           git config --local user.name "GitHub Action"
           git add .
           git diff --staged --quiet || git commit -m "🤖 AI Search Optimization Update - $(date)"
+          git push
           git push

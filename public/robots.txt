@@ -1,122 +1,48 @@
-# Optimized Robots.txt for Just Legal Solutions
+
+# Multi-Search Engine Robots.txt
 User-agent: *
 Allow: /
-Allow: /api/sitemap
-Allow: /api/robots
-Disallow: /api/
-Disallow: /_next/
 Disallow: /admin/
-Disallow: /.well-known/
-Disallow: /security-policy/
-Crawl-delay: 1
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /*?*print=
 
-# Optimize for Google
+# Google
 User-agent: Googlebot
 Allow: /
-Allow: /api/sitemap
-Disallow: /api/
-Disallow: /security-policy/
-Crawl-delay: 0.5
-
-# Optimize for Bing
-User-agent: Bingbot
-Allow: /
-Allow: /api/sitemap
-Disallow: /api/
 Crawl-delay: 1
 
-# Primary Sitemap (Static XML with Current Timestamps)
+# Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Yahoo
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+# DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 1
+
+# Brave
+User-agent: BraveBot
+Allow: /
+Crawl-delay: 1
+
+# Yandex
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 1
+
+# Baidu
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 1
+
+# Sitemaps
 Sitemap: https://justlegalsolutions.org/sitemap.xml
-Sitemap: https://justlegalsolutions.org/voice-search-sitemap.xml
-# Last updated: Sun Jul 13 16:13:02 UTC 2025
-# Last updated: Sun Jul 13 16:15:03 UTC 2025
-# Last updated: Sun Jul 13 16:15:13 UTC 2025
-# Voice Search Keywords Updated: Sun Jul 13 16:15:40 UTC 2025
-# Oklahoma process server, legal document delivery
-# Same day service, licensed process servers
-# Last updated: Sun Jul 13 16:18:06 UTC 2025
-# Last updated: Sun Jul 13 16:31:04 UTC 2025
-# Last updated: Sun Jul 13 16:33:16 UTC 2025
-# Last updated: Sun Jul 13 16:36:37 UTC 2025
-
-# AI Assistant Integration - Sun Jul 13 16:41:52 UTC 2025
-# Optimized for ChatGPT, Alexa, Google Assistant
-
-# AI Search Optimization - Sun Jul 13 16:42:01 UTC 2025
-User-agent: ChatGPT-User
-Allow: /
-User-agent: Claude-Web
-Allow: /
-
-# Voice Search Optimization - Sun Jul 13 16:42:32 UTC 2025
-# Optimized for Alexa, Google Assistant, Siri
-
-# Competitive Intelligence Update - Sun Jul 13 16:42:45 UTC 2025
-# Market leader in Oklahoma process serving
-
-# Emerging AI Platform Ready - Sun Jul 13 16:43:22 UTC 2025
-# Future-proofed for next-gen AI systems
-
-# Local Events Awareness - Sun Jul 13 16:43:34 UTC 2025
-# Active in Tulsa legal community
-
-# Local Events Awareness - Sun Jul 13 16:43:44 UTC 2025
-# Active in Tulsa legal community
-# Last updated: Sun Jul 13 16:48:53 UTC 2025
-# Last updated: Sun Jul 13 16:52:07 UTC 2025
-
-# AI Search Optimization - Sun Jul 13 16:52:47 UTC 2025
-User-agent: ChatGPT-User
-Allow: /
-User-agent: Claude-Web
-Allow: /
-
-# Competitive Intelligence Update - Sun Jul 13 16:53:31 UTC 2025
-# Market leader in Oklahoma process serving
-
-# Emerging AI Platform Ready - Sun Jul 13 16:53:40 UTC 2025
-# Future-proofed for next-gen AI systems
-# Last updated: Sun Jul 13 16:57:46 UTC 2025
-# Last updated: Sun Jul 13 17:06:09 UTC 2025
-# Last updated: Sun Jul 13 17:08:19 UTC 2025
-# Last updated: Sun Jul 13 17:14:13 UTC 2025
-# Voice Search Keywords Updated: Sun Jul 13 17:14:25 UTC 2025
-# Oklahoma process server, legal document delivery
-# Same day service, licensed process servers
-
-# AI Search Optimization - Sun Jul 13 17:17:55 UTC 2025
-User-agent: ChatGPT-User
-Allow: /
-User-agent: Claude-Web
-Allow: /
-
-# Weekend Evening Blitz - 2025-07-13 17:18:04
-# Active weekend optimization for urgent services
-
-# Voice Search Optimization - Sun Jul 13 17:19:46 UTC 2025
-# Optimized for Alexa, Google Assistant, Siri
-
-# Competitive Intelligence Update - Sun Jul 13 17:19:54 UTC 2025
-# Market leader in Oklahoma process serving
-
-# Local Events Awareness - Sun Jul 13 17:21:36 UTC 2025
-# Active in Tulsa legal community
-
-# AI Assistant Integration - Sun Jul 13 17:21:46 UTC 2025
-# Optimized for ChatGPT, Alexa, Google Assistant
-
-# Emerging AI Platform Ready - Sun Jul 13 17:21:56 UTC 2025
-# Future-proofed for next-gen AI systems
-# Last updated: Sun Jul 13 17:45:34 UTC 2025
-
-# AI Search Optimization - Sun Jul 13 18:26:01 UTC 2025
-User-agent: ChatGPT-User
-Allow: /
-User-agent: Claude-Web
-Allow: /
-
-# Emerging AI Platform Ready - Sun Jul 13 20:11:03 UTC 2025
-# Future-proofed for next-gen AI systems
-
-# AI Assistant Integration - Sun Jul 13 20:27:12 UTC 2025
-# Optimized for ChatGPT, Alexa, Google Assistant
+Sitemap: https://justlegalsolutions.org/sitemap-images.xml
+Sitemap: https://justlegalsolutions.org/sitemap-news.xml
