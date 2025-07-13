@@ -6,6 +6,11 @@ on:
     - cron: '0 8,10,12,14,16,18 * * 1-5'
   workflow_dispatch:
 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
   dominate-competitors:
     runs-on: ubuntu-latest
@@ -14,6 +19,8 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
       
     - name: Real-Time Competitor Analysis & Domination
       run: |

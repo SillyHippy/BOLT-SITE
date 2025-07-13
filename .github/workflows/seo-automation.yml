@@ -13,6 +13,11 @@ on:
       - 'public/sitemap.xml'
     # Only run on significant changes, not every commit
 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
   update-seo:
     runs-on: ubuntu-latest
@@ -21,6 +26,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
         
       - name: Setup Node.js
         uses: actions/setup-node@v4
