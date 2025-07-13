@@ -1,0 +1,221 @@
+name: Local Events & News Automation
+
+on:
+  schedule:
+    # Run daily at 7 AM to catch morning news cycle
+    - cron: '0 7 * * *'
+  workflow_dispatch:
+
+jobs:
+  local-events-content:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        
+    - name: Generate Local Event Content
+      run: |
+        cat > local-events.js << 'EOF'
+        const fs = require('fs');
+        
+        console.log('🎯 Generating Local Event Content...');
+        
+        const today = new Date();
+        const dayOfWeek = today.getDay();
+        const month = today.getMonth();
+        const date = today.getDate();
+        
+        // Local events and seasons in Tulsa area
+        const localEvents = [
+          {
+            season: 'summer',
+            events: ['Tulsa State Fair preparation', 'University of Tulsa summer session', 'Gathering Place events'],
+            content: 'Summer legal activity increases in Tulsa. Students, businesses, and families often need process serving during busy summer months.'
+          },
+          {
+            season: 'fall', 
+            events: ['Back to school legal matters', 'Holiday court deadlines', 'Year-end business disputes'],
+            content: 'Fall brings increased legal activity as courts prepare for holiday breaks. Process serving deadlines become critical.'
+          },
+          {
+            season: 'winter',
+            events: ['Holiday court closures', 'New Year legal filings', 'Winter weather service challenges'],
+            content: 'Winter weather can complicate process serving in Oklahoma. Our local knowledge ensures successful delivery.'
+          },
+          {
+            season: 'spring',
+            events: ['Spring court calendar', 'Tax season disputes', 'Property management issues'],
+            content: 'Spring brings renewal and resolution. Many legal matters move forward as weather improves in Oklahoma.'
+          }
+        ];
+        
+        // Weekly legal tips tied to local events
+        const weeklyTips = [
+          {
+            day: 'Monday',
+            tip: 'Start of Business Week',
+            content: 'Monday is the best day for business service. Offices are staffed and receptive to legal documents.'
+          },
+          {
+            day: 'Tuesday', 
+            tip: 'Peak Service Day',
+            content: 'Tuesday through Thursday are optimal for process serving. Higher success rates during mid-week.'
+          },
+          {
+            day: 'Wednesday',
+            tip: 'Mid-Week Advantage', 
+            content: 'Wednesday offers the highest success rates for difficult serves. People are settled into weekly routines.'
+          },
+          {
+            day: 'Thursday',
+            tip: 'Pre-Weekend Rush',
+            content: 'Thursday is ideal for urgent serves before weekend court deadlines approach.'
+          },
+          {
+            day: 'Friday',
+            tip: 'Weekend Preparation',
+            content: 'Friday afternoon serves help ensure weekend deadlines are met for Monday court filings.'
+          },
+          {
+            day: 'Saturday',
+            tip: 'Weekend Service',
+            content: 'Saturday service catches people at home. Ideal for residential serves and evasive defendants.'
+          },
+          {
+            day: 'Sunday', 
+            tip: 'Emergency Availability',
+            content: 'Sunday emergency service available for urgent legal matters that cannot wait until Monday.'
+          }
+        ];
+        
+        const currentSeason = ['winter', 'winter', 'spring', 'spring', 'spring', 'summer', 'summer', 'summer', 'fall', 'fall', 'fall', 'winter'][month];
+        const currentEvent = localEvents.find(event => event.season === currentSeason);
+        const todayTip = weeklyTips[dayOfWeek];
+        
+        const localContentPage = \`
+        import type { Metadata } from 'next';
+        
+        export const metadata: Metadata = {
+          title: 'Local Tulsa Process Server - \${currentEvent.events[0]} | Just Legal Solutions',
+          description: 'Local process serving in Tulsa during \${currentEvent.events[0]}. Expert knowledge of local courts, businesses, and residential areas. Call/text (539) 367-6832.',
+          keywords: ['local process server tulsa', '\${currentEvent.events[0]}', 'tulsa legal services', 'local court knowledge'],
+        };
+        
+        export default function LocalEventsPage() {
+          return (
+            <div className="min-h-screen bg-white">
+              <div className="container mx-auto px-4 py-16">
+                <div className="max-w-4xl mx-auto">
+                  
+                  <div className="text-center mb-12">
+                    <h1 className="text-5xl font-bold text-gray-900 mb-6">
+                      Local Tulsa Process Server - \${new Date().toLocaleDateString()}
+                    </h1>
+                    <p className="text-xl text-gray-600">
+                      Your local advantage in Tulsa legal document delivery
+                    </p>
+                  </div>
+                  
+                  {/* Today's Local Tip */}
+                  <div className="bg-blue-50 rounded-xl p-8 mb-12">
+                    <h2 className="text-3xl font-bold text-blue-900 mb-4">\${todayTip.day} Local Tip: \${todayTip.tip}</h2>
+                    <p className="text-lg text-blue-800">\${todayTip.content}</p>
+                  </div>
+                  
+                  {/* Seasonal Local Knowledge */}
+                  <div className="bg-white border rounded-xl p-8 mb-12 shadow-lg">
+                    <h3 className="text-2xl font-bold text-gray-900 mb-6">Local Tulsa Expertise - \${currentSeason.charAt(0).toUpperCase() + currentSeason.slice(1)} 2025</h3>
+                    <div className="grid md:grid-cols-2 gap-8">
+                      <div>
+                        <h4 className="text-xl font-semibold text-blue-600 mb-4">Current Local Events:</h4>
+                        <ul className="space-y-2">
+                          \${currentEvent.events.map(event => \`<li className="flex items-center"><span className="text-green-500 mr-2">✓</span>\${event}</li>\`).join('')}
+                        </ul>
+                      </div>
+                      <div>
+                        <h4 className="text-xl font-semibold text-blue-600 mb-4">Local Legal Impact:</h4>
+                        <p className="text-gray-700">\${currentEvent.content}</p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  {/* Local Service Areas */}
+                  <div className="bg-gray-50 rounded-xl p-8 mb-12">
+                    <h3 className="text-2xl font-bold text-gray-900 mb-6">Serving All Tulsa Area Communities</h3>
+                    <div className="grid md:grid-cols-4 gap-4">
+                      <div className="text-center">
+                        <h4 className="font-semibold text-blue-600">Central Tulsa</h4>
+                        <p className="text-sm text-gray-600">Downtown, Arts District, Pearl District</p>
+                      </div>
+                      <div className="text-center">
+                        <h4 className="font-semibold text-blue-600">South Tulsa</h4>
+                        <p className="text-sm text-gray-600">Brookside, Cherry Street, Riverside</p>
+                      </div>
+                      <div className="text-center">
+                        <h4 className="font-semibold text-blue-600">Suburbs</h4>
+                        <p className="text-sm text-gray-600">Broken Arrow, Bixby, Jenks, Owasso</p>
+                      </div>
+                      <div className="text-center">
+                        <h4 className="font-semibold text-blue-600">Surrounding Areas</h4>
+                        <p className="text-sm text-gray-600">Glenpool, Sand Springs, Sapulpa</p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  {/* Contact Section */}
+                  <div className="text-center bg-blue-600 text-white rounded-xl p-8">
+                    <h3 className="text-3xl font-bold mb-4">Your Local Process Server Advantage</h3>
+                    <p className="text-xl mb-6">Based in Glenpool, serving all of Tulsa County with local expertise</p>
+                    <div className="grid md:grid-cols-3 gap-6 mb-8">
+                      <div>
+                        <div className="text-3xl font-bold text-yellow-400">Local</div>
+                        <div>Knowledge</div>
+                      </div>
+                      <div>
+                        <div className="text-3xl font-bold text-yellow-400">Same-Day</div>
+                        <div>Service</div>
+                      </div>
+                      <div>
+                        <div className="text-3xl font-bold text-yellow-400">24/7</div>
+                        <div>Availability</div>
+                      </div>
+                    </div>
+                    <a href="tel:5393676832" className="inline-block bg-white text-blue-600 px-8 py-4 rounded-lg text-xl font-bold hover:bg-gray-100 transition">
+                      Call/Text (539) 367-6832
+                    </a>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          );
+        }
+        \`;
+        
+        const todaySlug = today.toISOString().split('T')[0];
+        const pageDir = \`app/(main)/local-tulsa-\${todaySlug}\`;
+        
+        fs.mkdirSync(pageDir, { recursive: true });
+        fs.writeFileSync(\`\${pageDir}/page.tsx\`, localContentPage);
+        
+        console.log(\`✅ Generated local content for \${todaySlug}\`);
+        EOF
+        
+        node local-events.js
+        
+    - name: Commit local event content
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "Local Events Bot"
+        git add .
+        git diff --staged --quiet || git commit -m "🎯 Local Tulsa content update - $(date +%Y-%m-%d)"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
