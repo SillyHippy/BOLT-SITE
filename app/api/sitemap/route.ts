@@ -3,6 +3,7 @@ import { NextResponse } from 'next/server';
 export async function GET() {
   const baseUrl = 'https://justlegalsolutions.org';
   const lastModified = new Date().toISOString().split('T')[0]; // Format as YYYY-MM-DD
+  const recentUpdate = new Date().toISOString().split('T')[0]; // Force fresh timestamp for SEO pages
   
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
