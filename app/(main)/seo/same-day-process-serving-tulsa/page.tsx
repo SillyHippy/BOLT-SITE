@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 };
 
 export default function SameDayProcessServingTulsa() {
-  const lastUpdated = new Date().toLocaleDateString();
+  const lastUpdated = new Date().toLocaleDateString('en-US', { month: 'numeric', day: 'numeric', year: 'numeric', timeZone: 'America/Chicago' });
   const currentTime = new Date().toLocaleTimeString();
   
   return (
@@ -136,4 +136,5 @@ export default function SameDayProcessServingTulsa() {
     </div>
   );
 }
+
 

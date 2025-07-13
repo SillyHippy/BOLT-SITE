@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 };
 
 export default function ProcessServerJenks() {
-  const lastUpdated = new Date().toLocaleDateString();
+  const lastUpdated = new Date().toLocaleDateString('en-US', { month: 'numeric', day: 'numeric', year: 'numeric', timeZone: 'America/Chicago' });
   
   return (
     <div className="min-h-screen bg-white">
@@ -132,4 +132,5 @@ export default function ProcessServerJenks() {
     </div>
   );
 }
+
 

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 };
 
 export default function SEODashboard() {
-  const lastUpdated = new Date().toLocaleDateString();
+  const lastUpdated = new Date().toLocaleDateString('en-US', { month: 'numeric', day: 'numeric', year: 'numeric', timeZone: 'America/Chicago' });
   const totalPages = 55; // Approximate total SEO pages
   
   return (
@@ -136,4 +136,5 @@ export default function SEODashboard() {
     </div>
   );
 }
+
 
