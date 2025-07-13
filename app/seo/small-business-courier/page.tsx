@@ -43,37 +43,7 @@ export default function SmallBusinessCourier() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 mb-8">
-            <div className="bg-gray-50 rounded-lg p-6">
-              <h2 className="text-2xl font-semibold text-gray-900 mb-4">
-                Business Courier Services
-              </h2>
-              <ul className="space-y-2 text-gray-700">
-                <li><strong>Document Delivery:</strong> Contracts, proposals, legal papers</li>
-                <li><strong>Bank Runs:</strong> Deposits, check delivery, financial documents</li>
-                <li><strong>Client Deliveries:</strong> Products, samples, presentation materials</li>
-                <li><strong>Office Supplies:</strong> Emergency supply runs and equipment</li>
-                <li><strong>Inter-office Mail:</strong> Multi-location business delivery</li>
-                <li><strong>Court Filings:</strong> Legal document filing and retrieval</li>
-              </ul>
-            </div>
-
-            <div className="bg-green-50 rounded-lg p-6">
-              <h2 className="text-2xl font-semibold text-green-800 mb-4">
-                Small Business Pricing
-              </h2>
-              <div className="space-y-4">
-                <div className="bg-white rounded-lg p-4 border border-green-200">
-                  <h3 className="font-semibold text-green-800 mb-2">Affordable Business Rates</h3>
-                  <p className="text-green-700 mb-3">
-                    Cost-effective courier rates designed for small businesses. 
-                    Regular service discounts and flexible scheduling available.
-                  </p>
-                  <div className="bg-blue-50 border border-blue-200 rounded-lg p-3 mb-3">
-                    <p className="text-sm text-blue-800">
-                      <strong>Service Area Note:</strong> Standard rates apply to Tulsa County and select parts of 
-                      Creek County (Sapulpa) & Wagoner County (Broken Arrow). A surcharge applies to all other areas.
-                    </p>
-                  </div>
+            
                   <a href="/pricing" className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg inline-block font-semibold">
                     View Business Pricing
                   </a>

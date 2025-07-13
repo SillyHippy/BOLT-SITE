@@ -31,42 +31,7 @@ export default function ProcessServerHaskell() {
           </p>
 
           <div className="grid md:grid-cols-2 gap-8 mb-8">
-            <div className="bg-gray-50 rounded-lg p-6">
-              <h2 className="text-2xl font-semibold text-gray-900 mb-4">
-                Haskell Service Coverage
-              </h2>
-              <ul className="space-y-2 text-gray-700">
-                <li><strong>Town of Haskell:</strong> Complete community</li>
-                <li><strong>Rural Routes:</strong> Country properties</li>
-                <li><strong>Muskogee County:</strong> Extended coverage</li>
-                <li><strong>School District:</strong> Haskell Public Schools</li>
-                <li><strong>Agricultural Areas:</strong> Farm properties</li>
-                <li><strong>Residential:</strong> All neighborhoods</li>
-              </ul>
-            </div>
-
-            <div className="bg-green-50 rounded-lg p-6">
-              <h2 className="text-2xl font-semibold text-green-800 mb-4">
-                Service Pricing
-              </h2>
-              <div className="space-y-3">
-                <div className="flex justify-between items-center border-b border-green-200 pb-2">
-                  <span className="text-green-700">Standard Service (3-5 days)</span>
-                  <span className="font-bold text-green-800">$40</span>
-                </div>
-                <div className="flex justify-between items-center border-b border-green-200 pb-2">
-                  <span className="text-green-700">Rush Service (1-2 days)</span>
-                  <span className="font-bold text-green-800">$60</span>
-                </div>
-                <div className="flex justify-between items-center border-b border-green-200 pb-2">
-                  <span className="text-green-700">Same-Day Service</span>
-                  <span className="font-bold text-green-800">$75</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-green-700">Emergency (2 hours)</span>
-                  <span className="font-bold text-green-800">$100</span>
-                </div>
-              </div>
+            
             </div>
           </div>
 
@@ -152,12 +117,6 @@ export default function ProcessServerHaskell() {
             </div>
           </div>
 
-          <div className="bg-gray-50 p-6 rounded-lg mt-8">
-            <p className="text-sm text-gray-600">
-              <strong>Content Freshness:</strong> This Haskell process serving page updates daily 
-              for search optimization. Professional consultation: (539) 367-6832.
-            </p>
-          </div>
         </div>
       </div>
     </div>

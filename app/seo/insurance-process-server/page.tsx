@@ -43,37 +43,7 @@ export default function ProcessServerInsurance() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 mb-8">
-            <div className="bg-gray-50 rounded-lg p-6">
-              <h2 className="text-2xl font-semibold text-gray-900 mb-4">
-                Insurance Services
-              </h2>
-              <ul className="space-y-2 text-gray-700">
-                <li><strong>Claim Investigations:</strong> Witness interviews and statements</li>
-                <li><strong>Fraud Investigations:</strong> Document gathering and verification</li>
-                <li><strong>Litigation Support:</strong> Subpoenas and court documents</li>
-                <li><strong>Witness Service:</strong> Expert and lay witness subpoenas</li>
-                <li><strong>Medical Records:</strong> Hospital and clinic document service</li>
-                <li><strong>Property Inspections:</strong> Damage assessment coordination</li>
-              </ul>
-            </div>
-
-            <div className="bg-green-50 rounded-lg p-6">
-              <h2 className="text-2xl font-semibold text-green-800 mb-4">
-                Insurance Company Pricing
-              </h2>
-              <div className="space-y-4">
-                <div className="bg-white rounded-lg p-4 border border-green-200">
-                  <h3 className="font-semibold text-green-800 mb-2">Investigative Rates</h3>
-                  <p className="text-green-700 mb-3">
-                    Professional investigative and process serving rates for insurance companies. 
-                    Volume pricing available for ongoing claim investigations.
-                  </p>
-                  <div className="bg-blue-50 border border-blue-200 rounded-lg p-3 mb-3">
-                    <p className="text-sm text-blue-800">
-                      <strong>Service Area Note:</strong> Standard rates apply to Tulsa County and select parts of 
-                      Creek County (Sapulpa) & Wagoner County (Broken Arrow). A surcharge applies to all other areas.
-                    </p>
-                  </div>
+            
                   <a href="/pricing" className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg inline-block font-semibold">
                     View Insurance Pricing
                   </a>

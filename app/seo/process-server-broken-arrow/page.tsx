@@ -43,37 +43,7 @@ export default function ProcessServerBrokenArrow() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 mb-8">
-            <div className="bg-gray-50 rounded-lg p-6">
-              <h2 className="text-2xl font-semibold text-gray-900 mb-4">
-                Broken Arrow Services
-              </h2>
-              <ul className="space-y-2 text-gray-700">
-                <li><strong>Court Documents:</strong> Summons, complaints, subpoenas</li>
-                <li><strong>Same-Day Service:</strong> Rush delivery available</li>
-                <li><strong>GPS Tracking:</strong> Real-time location updates</li>
-                <li><strong>Photo Proof:</strong> Digital documentation</li>
-                <li><strong>Legal Courier:</strong> Law firm document delivery</li>
-                <li><strong>Affidavits:</strong> Professional service documentation</li>
-              </ul>
-            </div>
-
-            <div className="bg-green-50 rounded-lg p-6">
-              <h2 className="text-2xl font-semibold text-green-800 mb-4">
-                Broken Arrow Pricing
-              </h2>
-              <div className="space-y-4">
-                <div className="bg-white rounded-lg p-4 border border-green-200">
-                  <h3 className="font-semibold text-green-800 mb-2">Standard Service</h3>
-                  <p className="text-green-700 mb-3">
-                    Professional process serving throughout Broken Arrow and surrounding areas. 
-                    Fast, reliable service with GPS tracking and photo documentation.
-                  </p>
-                  <div className="bg-blue-50 border border-blue-200 rounded-lg p-3 mb-3">
-                    <p className="text-sm text-blue-800">
-                      <strong>Service Area Note:</strong> Standard rates apply to Tulsa County including Broken Arrow. 
-                      No surcharge for 74012 ZIP code area.
-                    </p>
-                  </div>
+            
                   <a href="/pricing" className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg inline-block font-semibold">
                     View Pricing Details
                   </a>

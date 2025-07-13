@@ -65,52 +65,7 @@ export default function ProcessServerGlenpool() {
             <li><strong>Competitive Pricing:</strong> Transparent rates starting at $40</li>
           </ul>
 
-          <div className="bg-green-50 border border-green-200 rounded-lg p-6 mb-8">
-            <h3 className="text-xl font-semibold text-green-800 mb-3">
-              Contact Our Glenpool Process Servers
-            </h3>
-            <p className="text-green-700 mb-3">
-              Need professional document service in Glenpool? View Pricing today!
-            </p>
-            <p className="text-2xl font-bold text-green-800">
-              📞 (539) 367-6832
-            </p>
-            <p className="text-green-700 mt-2">
-              📧 info@justlegalsolutions.org
-            </p>
-          </div>
-
-          <h3 className="text-2xl font-semibold mb-4">Glenpool Service Areas</h3>
-          <p className="mb-4">
-            Complete process serving coverage throughout Glenpool and nearby communities:
-          </p>
-          <ul className="list-disc ml-6 mb-6 space-y-1">
-            <li>Central Glenpool (74033)</li>
-            <li>Glenpool residential neighborhoods</li>
-            <li>Glenpool business and commercial areas</li>
-            <li>Near Bixby and Tulsa border areas</li>
-            <li>All of Tulsa County coverage</li>
-          </ul>
-
-          <h3 className="text-2xl font-semibold mb-4">Glenpool Court and Legal Services</h3>
-          <p className="mb-4">
-            Our Glenpool process servers are familiar with all local legal procedures and can handle:
-          </p>
-          <ul className="list-disc ml-6 mb-6 space-y-1">
-            <li>Civil process serving</li>
-            <li>Family court document delivery</li>
-            <li>Small claims court papers</li>
-            <li>Eviction notice service</li>
-            <li>Subpoena delivery</li>
-            <li>Corporate document service</li>
-          </ul>
-
-          <div className="bg-gray-50 p-6 rounded-lg mt-8">
-            <p className="text-sm text-gray-600">
-              <strong>SEO Freshness:</strong> This page updates automatically daily to provide current information 
-              about our Glenpool process serving services. Available 24/7 for emergency legal document delivery.
-            </p>
-          </div>
+          
         </div>
       </div>
     </div>

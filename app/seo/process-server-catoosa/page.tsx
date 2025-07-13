@@ -43,41 +43,7 @@ export default function ProcessServerCatoosa() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 mb-8">
-            <div className="bg-gray-50 rounded-lg p-6">
-              <h2 className="text-2xl font-semibold text-gray-900 mb-4">
-                Catoosa Service Coverage
-              </h2>
-              <ul className="space-y-2 text-gray-700">
-                <li><strong>Port of Catoosa:</strong> Industrial and shipping facilities</li>
-                <li><strong>Downtown Catoosa:</strong> Business district</li>
-                <li><strong>Residential Areas:</strong> All neighborhoods</li>
-                <li><strong>Industrial Corridor:</strong> Manufacturing zones</li>
-                <li><strong>Transportation Hub:</strong> Logistics facilities</li>
-                <li><strong>Hard Rock Casino:</strong> Entertainment district</li>
-              </ul>
-            </div>
-
-            <div className="bg-green-50 rounded-lg p-6">
-              <h2 className="text-2xl font-semibold text-green-800 mb-4">
-                Service Pricing
-              </h2>
-              <div className="space-y-4">
-                <div className="bg-white rounded-lg p-4 border border-green-200">
-                  <h3 className="font-semibold text-green-800 mb-2">Competitive Rates</h3>
-                  <p className="text-green-700 mb-3">
-                    Professional process serving with transparent pricing. Rates vary by service type and urgency.
-                  </p>
-                  <div className="bg-blue-50 border border-blue-200 rounded-lg p-3 mb-3">
-                    <p className="text-sm text-blue-800">
-                      <strong>Service Area Note:</strong> Standard rates apply to Tulsa County and select parts of 
-                      Creek County (Sapulpa) & Wagoner County (Broken Arrow). A surcharge applies to all other areas.
-                    </p>
-                  </div>
-                  <a href="/pricing" className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg inline-block font-semibold">
-                    View Complete Pricing
-                  </a>
-                </div>
-              </div>
+            
             </div>
           </div>
 

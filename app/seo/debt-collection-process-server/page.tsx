@@ -43,37 +43,7 @@ export default function ProcessServerCollections() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 mb-8">
-            <div className="bg-gray-50 rounded-lg p-6">
-              <h2 className="text-2xl font-semibold text-gray-900 mb-4">
-                Collection Services
-              </h2>
-              <ul className="space-y-2 text-gray-700">
-                <li><strong>Collection Lawsuits:</strong> Summons and complaints</li>
-                <li><strong>Judgment Documents:</strong> Post-judgment service</li>
-                <li><strong>Garnishment Papers:</strong> Wage and bank garnishments</li>
-                <li><strong>Asset Discovery:</strong> Information subpoenas</li>
-                <li><strong>Debtor Examinations:</strong> Court-ordered appearances</li>
-                <li><strong>Demand Letters:</strong> Pre-litigation notices</li>
-              </ul>
-            </div>
-
-            <div className="bg-green-50 rounded-lg p-6">
-              <h2 className="text-2xl font-semibold text-green-800 mb-4">
-                Collection Agency Pricing
-              </h2>
-              <div className="space-y-4">
-                <div className="bg-white rounded-lg p-4 border border-green-200">
-                  <h3 className="font-semibold text-green-800 mb-2">Volume Discounts Available</h3>
-                  <p className="text-green-700 mb-3">
-                    Competitive rates for collection agencies with volume pricing for 
-                    multiple serves. Professional service with fast turnaround times.
-                  </p>
-                  <div className="bg-blue-50 border border-blue-200 rounded-lg p-3 mb-3">
-                    <p className="text-sm text-blue-800">
-                      <strong>Service Area Note:</strong> Standard rates apply to Tulsa County and select parts of 
-                      Creek County (Sapulpa) & Wagoner County (Broken Arrow). A surcharge applies to all other areas.
-                    </p>
-                  </div>
+            
                   <a href="/pricing" className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg inline-block font-semibold">
                     View Collection Pricing
                   </a>

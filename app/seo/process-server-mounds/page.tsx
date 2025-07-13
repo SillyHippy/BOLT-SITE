@@ -44,30 +44,6 @@ export default function ProcessServerMounds() {
                 <li><strong>Residential:</strong> All neighborhoods</li>
               </ul>
             </div>
-
-            <div className="bg-green-50 rounded-lg p-6">
-              <h2 className="text-2xl font-semibold text-green-800 mb-4">
-                Service Pricing
-              </h2>
-              <div className="space-y-3">
-                <div className="flex justify-between items-center border-b border-green-200 pb-2">
-                  <span className="text-green-700">Standard Service (3-5 days)</span>
-                  <span className="font-bold text-green-800">$40</span>
-                </div>
-                <div className="flex justify-between items-center border-b border-green-200 pb-2">
-                  <span className="text-green-700">Rush Service (1-2 days)</span>
-                  <span className="font-bold text-green-800">$60</span>
-                </div>
-                <div className="flex justify-between items-center border-b border-green-200 pb-2">
-                  <span className="text-green-700">Same-Day Service</span>
-                  <span className="font-bold text-green-800">$75</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-green-700">Emergency (2 hours)</span>
-                  <span className="font-bold text-green-800">$100</span>
-                </div>
-              </div>
-            </div>
           </div>
 
           <h3 className="text-2xl font-semibold text-gray-800 mb-4">
@@ -130,6 +106,19 @@ export default function ProcessServerMounds() {
             </div>
           </div>
 
+          <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-8">
+            <h3 className="text-xl font-semibold text-blue-800 mb-3">
+              Service Pricing Information
+            </h3>
+            <p className="text-blue-700 mb-4">
+              For detailed pricing information on all our process serving and legal document delivery services, 
+              please visit our comprehensive pricing page.
+            </p>
+            <a href="/pricing" className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg inline-block font-semibold">
+              View Pricing Details
+            </a>
+          </div>
+
           <div className="bg-green-50 border border-green-200 rounded-lg p-6">
             <h3 className="text-xl font-semibold text-green-800 mb-3">
               Contact Mounds Process Server
@@ -152,12 +141,6 @@ export default function ProcessServerMounds() {
             </div>
           </div>
 
-          <div className="bg-gray-50 p-6 rounded-lg mt-8">
-            <p className="text-sm text-gray-600">
-              <strong>Content Freshness:</strong> This Mounds process serving page updates daily 
-              for SEO optimization. Professional consultation: (539) 367-6832.
-            </p>
-          </div>
         </div>
       </div>
     </div>

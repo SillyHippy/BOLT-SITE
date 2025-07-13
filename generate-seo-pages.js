@@ -166,29 +166,7 @@ export default function ${location.name.replace(/\s+/g, '')}ProcessServer() {
               </ul>
             </div>
 
-            <div className="bg-green-50 rounded-lg p-6">
-              <h2 className="text-2xl font-semibold text-green-800 mb-4">
-                Service Pricing
-              </h2>
-              <div className="space-y-3">
-                <div className="flex justify-between items-center border-b border-green-200 pb-2">
-                  <span className="text-green-700">Standard Service (3-5 days)</span>
-                  <span className="font-bold text-green-800">$40</span>
-                </div>
-                <div className="flex justify-between items-center border-b border-green-200 pb-2">
-                  <span className="text-green-700">Rush Service (1-2 days)</span>
-                  <span className="font-bold text-green-800">$60</span>
-                </div>
-                <div className="flex justify-between items-center border-b border-green-200 pb-2">
-                  <span className="text-green-700">Same-Day Service</span>
-                  <span className="font-bold text-green-800">$75</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-green-700">Emergency (2 hours)</span>
-                  <span className="font-bold text-green-800">$100</span>
-                </div>
-              </div>
-            </div>
+
           </div>
 
           <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-8">
@@ -311,6 +289,19 @@ export default function ${service.slug.split('-').map((word: string) => word.cha
             <ul className="list-disc ml-6 text-gray-700 space-y-2">
               ${service.content.services.map((s: string) => `<li>${s}</li>`).join('\n              ')}
             </ul>
+          </div>
+
+          <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-8">
+            <h3 className="text-xl font-semibold text-blue-800 mb-3">
+              Service Pricing Information
+            </h3>
+            <p className="text-blue-700 mb-4">
+              For detailed pricing information on all our process serving and legal document delivery services, 
+              please visit our comprehensive pricing page.
+            </p>
+            <a href="/pricing" className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg inline-block font-semibold">
+              View Pricing Details
+            </a>
           </div>
 
           <div className="bg-green-50 border border-green-200 rounded-lg p-6">
