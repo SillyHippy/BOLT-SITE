@@ -135,3 +135,53 @@ export default function LocalBusinessSchema({
 
   return null; // This component doesn't render anything visible
 }
+
+// Enhanced Local Business Schema for SEO pages
+export function LocalSEOSchema({ city, service }: { city?: string; service?: string }) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": `Just Legal Solutions${city ? ` - ${city}` : ''}`,
+    "description": `Professional process serving${service ? ` and ${service}` : ''} in ${city || 'Oklahoma'}${city ? `, Oklahoma` : ''}. Licensed and bonded process servers.`,
+    "url": "https://justlegalsolutions.org",
+    "telephone": "(539) 367-6832",
+    "email": "info@justlegalsolutions.org",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": city || "Tulsa",
+      "addressRegion": "Oklahoma",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": city === "Tulsa" ? "36.1540" : "36.0766",
+      "longitude": city === "Tulsa" ? "-95.9928" : "-95.8395"
+    },
+    "openingHours": [
+      "Mo-Fr 08:00-17:00",
+      "Sa 09:00-14:00"
+    ],
+    "serviceArea": {
+      "@type": "GeoCircle",
+      "geoMidpoint": {
+        "@type": "GeoCoordinates",
+        "latitude": "36.1540",
+        "longitude": "-95.9928"
+      },
+      "geoRadius": "50000"
+    },
+    "priceRange": "$$",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "127"
+    }
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
