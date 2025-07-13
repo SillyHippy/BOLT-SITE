@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Data Entry Services Tulsa | Professional Data Management | Just Legal Solutions',
@@ -21,6 +22,17 @@ export default function DataEntryServicesTulsa() {
           <p className="text-lg text-blue-800">
             <strong>Accurate & Efficient</strong> | Updated: {lastUpdated} | Serving Tulsa Area Businesses
           </p>
+        </div>
+
+        <div className="mb-8">
+          <Image 
+            src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop&auto=format" 
+            alt="Professional data entry services and database management in Tulsa, Oklahoma"
+            width={800}
+            height={400}
+            className="w-full h-64 object-cover rounded-lg shadow-md"
+            priority={false}
+          />
         </div>
 
         <div className="prose max-w-none">

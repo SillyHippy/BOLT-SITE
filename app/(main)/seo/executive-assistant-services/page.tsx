@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Executive Assistant & Business Support Services | Data Entry | Just Legal Solutions',
@@ -21,6 +22,17 @@ export default function ExecutiveAssistantServices() {
           <p className="text-lg text-blue-800">
             <strong>Professional Excellence</strong> | Updated: {lastUpdated} | Comprehensive Business Support Solutions
           </p>
+        </div>
+
+        <div className="mb-8">
+          <Image 
+            src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=800&h=400&fit=crop&auto=format" 
+            alt="Professional executive assistant and business support services in Tulsa"
+            width={800}
+            height={400}
+            className="w-full h-64 object-cover rounded-lg shadow-md"
+            priority={false}
+          />
         </div>
 
         <div className="prose max-w-none">

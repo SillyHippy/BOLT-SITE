@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Courier Delivery Service Tulsa | Package & Document Delivery',
@@ -21,6 +22,17 @@ export default function CourierDeliveryService() {
           <p className="text-lg text-blue-800">
             <strong>Last Updated:</strong> {lastUpdated} | <strong>Service:</strong> Anything That Fits in Car
           </p>
+        </div>
+
+        <div className="mb-8">
+          <Image 
+            src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=400&fit=crop&auto=format" 
+            alt="Professional courier and delivery service for packages and documents in Tulsa"
+            width={800}
+            height={400}
+            className="w-full h-64 object-cover rounded-lg shadow-md"
+            priority={false}
+          />
         </div>
 
         <div className="prose max-w-none">

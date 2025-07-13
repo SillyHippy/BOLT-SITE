@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Process Server Claremore | Rogers County Legal Document Service',
@@ -151,6 +152,17 @@ export default function ProcessServerClaremore() {
               for SEO optimization. Professional consultation: (539) 367-6832.
             </p>
           </div>
+        </div>
+
+        <div className="mb-8">
+          <Image 
+            src="https://images.unsplash.com/photo-1494526585095-c41746248156?w=800&h=400&fit=crop&auto=format" 
+            alt="Professional process server delivering legal documents in Claremore, Rogers County"
+            width={800}
+            height={400}
+            className="w-full h-64 object-cover rounded-lg shadow-md"
+            priority={false}
+          />
         </div>
       </div>
     </div>

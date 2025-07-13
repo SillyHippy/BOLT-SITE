@@ -69,7 +69,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/insurance-process-server',
     '/medical-office-process-server',
     '/government-contractor-process-server',
-    '/process-server-lawyers'
+    '/process-server-lawyers',
+    '/divorce-papers-tulsa',
+    '/court-document-filing',
+    '/skip-tracing-services',
+    '/civil-litigation-process-server',
+    '/notary-services-tulsa',
+    '/legal-courier-service'
   ]
 
   const currentDate = new Date().toISOString()

@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Eviction Process Serving Tulsa | Landlord Document Delivery | Just Legal Solutions',
@@ -21,6 +22,17 @@ export default function EvictionProcessServing() {
           <p className="text-lg text-red-800">
             <strong>Urgent Service Available!</strong> Last Updated: {lastUpdated} | Same-Day Eviction Notice Service
           </p>
+        </div>
+
+        <div className="mb-8">
+          <Image 
+            src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&h=400&fit=crop&auto=format" 
+            alt="Professional eviction notice process serving and landlord document delivery in Tulsa"
+            width={800}
+            height={400}
+            className="w-full h-64 object-cover rounded-lg shadow-md"
+            priority={false}
+          />
         </div>
 
         <h2 className="text-3xl font-semibold text-gray-800 mb-4">
