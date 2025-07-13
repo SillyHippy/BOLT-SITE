@@ -49,16 +49,12 @@ export default function UrgentProcessServer() {
               <h3 className="text-xl font-semibold mb-3 text-green-800">EMERGENCY PRICING</h3>
               <div className="space-y-2">
                 <div className="flex justify-between">
-                  <span>2-Hour Service:</span>
-                  <span className="font-bold text-2xl text-green-700">$100</span>
+                  <span>2-Hour Attempt:</span>
+                  <span className="font-bold text-2xl text-green-700">$265</span>
                 </div>
                 <div className="flex justify-between">
-                  <span>Same-Day Service:</span>
-                  <span className="font-bold text-xl">$75</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>Next-Day Rush:</span>
-                  <span className="font-bold">$60</span>
+                  <span>Same-Day Rush:</span>
+                  <span className="font-bold text-xl">$150</span>
                 </div>
               </div>
             </div>
