@@ -49,22 +49,21 @@ export default function ProcessServerMounds() {
               <h2 className="text-2xl font-semibold text-green-800 mb-4">
                 Service Pricing
               </h2>
-              <div className="space-y-3">
-                <div className="flex justify-between items-center border-b border-green-200 pb-2">
-                  <span className="text-green-700">Standard Service (3-5 days)</span>
-                  <span className="font-bold text-green-800"></span>
-                </div>
-                <div className="flex justify-between items-center border-b border-green-200 pb-2">
-                  <span className="text-green-700">Rush Service (1-2 days)</span>
-                  <span className="font-bold text-green-800"></span>
-                </div>
-                <div className="flex justify-between items-center border-b border-green-200 pb-2">
-                  <span className="text-green-700">Same-Day Service</span>
-                  <span className="font-bold text-green-800"></span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-green-700">Emergency (2 hours)</span>
-                  <span className="font-bold text-green-800"></span>
+              <div className="space-y-4">
+                <div className="bg-white rounded-lg p-4 border border-green-200">
+                  <h3 className="font-semibold text-green-800 mb-2">Professional Process Serving</h3>
+                  <p className="text-green-700 mb-3">
+                    Professional process serving with transparent pricing. Rates vary by service type and urgency.
+                  </p>
+                  <div className="bg-blue-50 border border-blue-200 rounded-lg p-3 mb-3">
+                    <p className="text-sm text-blue-800">
+                      <strong>Service Area Note:</strong> Standard rates apply to Tulsa County and select parts of 
+                      Creek County (Sapulpa) & Wagoner County (Broken Arrow). A surcharge applies to all other areas.
+                    </p>
+                  </div>
+                  <a href="/pricing" className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg inline-block font-semibold">
+                    View Complete Pricing
+                  </a>
                 </div>
               </div>
             </div>

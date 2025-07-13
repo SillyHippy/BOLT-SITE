@@ -52,19 +52,19 @@ export default function ProcessServerCoweta() {
               <div className="space-y-3">
                 <div className="flex justify-between items-center border-b border-green-200 pb-2">
                   <span className="text-green-700">Standard Service (3-5 days)</span>
-                  <span className="font-bold text-green-800"></span>
+                  <a href="/pricing" className="text-blue-600 hover:text-blue-800 underline font-semibold">View Pricing</a>
                 </div>
                 <div className="flex justify-between items-center border-b border-green-200 pb-2">
                   <span className="text-green-700">Rush Service (1-2 days)</span>
-                  <span className="font-bold text-green-800"></span>
+                  <a href="/pricing" className="text-blue-600 hover:text-blue-800 underline font-semibold">View Pricing</a>
                 </div>
                 <div className="flex justify-between items-center border-b border-green-200 pb-2">
                   <span className="text-green-700">Same-Day Service</span>
-                  <span className="font-bold text-green-800"></span>
+                  <a href="/pricing" className="text-blue-600 hover:text-blue-800 underline font-semibold">View Pricing</a>
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="text-green-700">Emergency (2 hours)</span>
-                  <span className="font-bold text-green-800"></span>
+                  <a href="/pricing" className="text-blue-600 hover:text-blue-800 underline font-semibold">View Pricing</a>
                 </div>
               </div>
             </div>
