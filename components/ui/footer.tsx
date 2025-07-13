@@ -4,10 +4,7 @@ import { useState } from "react";
 
 export function Footer() {
   const [showForm, setShowForm] = useState(false);
-  const [submissionStatus, setSubmissionStatus] = useState("idle"); // 'idle', 'submitting', 's                href="mailto:info@justlegalsolutions.org"
-                className="text-gray-600 hover:text-blue-600"
-              >
-                info@justlegalsolutions.orgss', 'error'
+  const [submissionStatus, setSubmissionStatus] = useState("idle"); // 'idle', 'submitting', 'success', 'error'
 
   const toggleForm = () => {
     setShowForm((prev) => !prev);
@@ -85,7 +82,7 @@ export function Footer() {
             ) : submissionStatus === 'error' ? (
                 <div className="text-center py-10">
                     <h3 className="text-2xl font-bold text-red-600 mb-2">Something Went Wrong</h3>
-                    <p className="text-gray-700">We couldn't submit your form. Please try again later or email us directly.</p>
+                    <p className="text-gray-700">We couldn&apos;t submit your form. Please try again later or email us directly.</p>
                 </div>
             ) : (
             <>
