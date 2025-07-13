@@ -115,10 +115,38 @@ export default function SameDayProcessServingTulsa() {
           <h3 className="text-2xl font-semibold mb-4">Same-Day Service Pricing</h3>
           <div className="bg-green-50 border border-green-200 rounded-lg p-6 mb-8">
             <ul className="space-y-2">
-              <li><strong>Standard Same-Day:</strong> $75 (served by 5 PM)</li>
-              <li><strong>2-Hour Rush:</strong> $100 (served within 2 hours)</li>
-              <li><strong>Emergency Weekend:</strong> $125 (Saturday/Sunday)</li>
-              <li><strong>Holiday Service:</strong> $150 (major holidays)</li>
+              <li><strong>Standard Same-Day:</strong> <div className="mt-8 text-center">
+  <a 
+    href="/pricing" 
+    className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-colors duration-200"
+  >
+    View Pricing 
+  </a>
+</div> (served by 5 PM)</li>
+              <li><strong>2-Hour Rush:</strong> <div className="mt-8 text-center">
+  <a 
+    href="/pricing" 
+    className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-colors duration-200"
+  >
+    View Pricing 
+  </a>
+</div> (served within 2 hours)</li>
+              <li><strong>Emergency Weekend:</strong> <div className="mt-8 text-center">
+  <a 
+    href="/pricing" 
+    className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-colors duration-200"
+  >
+    View Pricing 
+  </a>
+</div> (Saturday/Sunday)</li>
+              <li><strong>Holiday Service:</strong> <div className="mt-8 text-center">
+  <a 
+    href="/pricing" 
+    className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-colors duration-200"
+  >
+    View Pricing 
+  </a>
+</div> (major holidays)</li>
             </ul>
             <p className="text-sm text-green-700 mt-3">
               All pricing includes GPS tracking, photo documentation, and digital affidavit.

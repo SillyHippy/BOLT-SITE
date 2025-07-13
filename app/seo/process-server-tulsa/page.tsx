@@ -42,7 +42,14 @@ export default function ProcessServerTulsaPage() {
                 <li>✓ Family court papers</li>
                 <li>✓ Small claims summons</li>
                 <li>✓ Business litigation</li>
-                <li>✓ Starting at $40</li>
+                <li>✓ Starting at <div className="mt-8 text-center">
+  <a 
+    href="/pricing" 
+    className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-colors duration-200"
+  >
+    View Pricing 
+  </a>
+</div></li>
               </ul>
             </div>
             
@@ -53,7 +60,14 @@ export default function ProcessServerTulsaPage() {
                 <li>✓ Same-day guarantee</li>
                 <li>✓ Weekend availability</li>
                 <li>✓ Holiday service</li>
-                <li>✓ Starting at $75</li>
+                <li>✓ Starting at <div className="mt-8 text-center">
+  <a 
+    href="/pricing" 
+    className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-colors duration-200"
+  >
+    View Pricing 
+  </a>
+</div></li>
               </ul>
             </div>
           </div>
@@ -151,7 +165,14 @@ export default function ProcessServerTulsaPage() {
 
           <h3 className="text-2xl font-semibold mb-4">Tulsa Process Serving Pricing</h3>
           <div className="bg-green-50 border border-green-200 rounded-lg p-6 mb-6">
-            <h4 className="font-semibold text-green-800 mb-3">Competitive Rates for Tulsa Area</h4>
+            <h4 className="font-semibold text-green-800 mb-3"><div className="mt-8 text-center">
+  <a 
+    href="/pricing" 
+    className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-colors duration-200"
+  >
+    View Pricing 
+  </a>
+</div> for Tulsa Area</h4>
             <p className="text-green-700 mb-4">
               Professional process serving with transparent pricing. Rates vary by service type, urgency, and location.
             </p>

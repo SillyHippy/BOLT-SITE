@@ -51,7 +51,14 @@ export default function ProcessServerDrumright() {
               </h2>
               <div className="space-y-4">
                 <div className="bg-white rounded-lg p-4 border border-green-200">
-                  <h3 className="font-semibold text-green-800 mb-2">Competitive Rates</h3>
+                  <h3 className="font-semibold text-green-800 mb-2"><div className="mt-8 text-center">
+  <a 
+    href="/pricing" 
+    className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-colors duration-200"
+  >
+    View Pricing 
+  </a>
+</div></h3>
                   <p className="text-green-700 mb-3">
                     Professional process serving with transparent pricing. Rates vary by service type and urgency.
                   </p>

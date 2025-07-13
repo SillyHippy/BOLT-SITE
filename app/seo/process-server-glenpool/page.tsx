@@ -62,7 +62,14 @@ export default function ProcessServerGlenpool() {
             <li><strong>Fast Turnaround:</strong> Same-day and rush services available</li>
             <li><strong>Licensed Professionals:</strong> Bonded and insured process servers</li>
             <li><strong>Reliable Documentation:</strong> Complete service records and proof</li>
-            <li><strong>Competitive Pricing:</strong> Transparent rates starting at $40</li>
+            <li><strong>Competitive Pricing:</strong> Transparent rates starting at <div className="mt-8 text-center">
+  <a 
+    href="/pricing" 
+    className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-colors duration-200"
+  >
+    View Pricing 
+  </a>
+</div></li>
           </ul>
 
           <div className="bg-green-50 border border-green-200 rounded-lg p-6 mb-8">

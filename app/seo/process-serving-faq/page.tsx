@@ -39,10 +39,38 @@ export default function ProcessServingFAQ() {
                 Process serving costs vary based on service type and urgency:
               </p>
               <ul className="list-disc ml-6 text-gray-700 space-y-1">
-                <li><strong>Standard service (3-5 days):</strong> $40</li>
-                <li><strong>Rush service (1-2 days):</strong> $60</li>
-                <li><strong>Same-day service:</strong> $75</li>
-                <li><strong>Emergency service (2 hours):</strong> $100</li>
+                <li><strong>Standard service (3-5 days):</strong> <div className="mt-8 text-center">
+  <a 
+    href="/pricing" 
+    className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-colors duration-200"
+  >
+    View Pricing 
+  </a>
+</div></li>
+                <li><strong>Rush service (1-2 days):</strong> <div className="mt-8 text-center">
+  <a 
+    href="/pricing" 
+    className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-colors duration-200"
+  >
+    View Pricing 
+  </a>
+</div></li>
+                <li><strong>Same-day service:</strong> <div className="mt-8 text-center">
+  <a 
+    href="/pricing" 
+    className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-colors duration-200"
+  >
+    View Pricing 
+  </a>
+</div></li>
+                <li><strong>Emergency service (2 hours):</strong> <div className="mt-8 text-center">
+  <a 
+    href="/pricing" 
+    className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-colors duration-200"
+  >
+    View Pricing 
+  </a>
+</div></li>
               </ul>
               <p className="text-gray-700 mt-3">
                 All pricing includes multiple service attempts, GPS tracking, and professional affidavits.

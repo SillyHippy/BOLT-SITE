@@ -176,7 +176,14 @@ export default function ExecutiveAssistantServices() {
                   <li>✓ Basic data entry</li>
                   <li>✓ Document formatting</li>
                 </ul>
-                <p className="text-yellow-800 font-semibold">Starting at $25/hour</p>
+                <p className="text-yellow-800 font-semibold">Starting at <div className="mt-8 text-center">
+  <a 
+    href="/pricing" 
+    className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-colors duration-200"
+  >
+    View Pricing 
+  </a>
+</div></p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-yellow-300">
                 <h3 className="text-xl font-semibold text-yellow-800 mb-3">Professional Package</h3>
@@ -187,7 +194,14 @@ export default function ExecutiveAssistantServices() {
                   <li>✓ Client communication</li>
                   <li>✓ Advanced data management</li>
                 </ul>
-                <p className="text-yellow-800 font-semibold">Starting at $35/hour</p>
+                <p className="text-yellow-800 font-semibold">Starting at <div className="mt-8 text-center">
+  <a 
+    href="/pricing" 
+    className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-colors duration-200"
+  >
+    View Pricing 
+  </a>
+</div></p>
               </div>
               <div className="bg-white rounded-lg p-6 border border-yellow-300">
                 <h3 className="text-xl font-semibold text-yellow-800 mb-3">Executive Support</h3>
@@ -198,7 +212,14 @@ export default function ExecutiveAssistantServices() {
                   <li>✓ Travel & event coordination</li>
                   <li>✓ Comprehensive business support</li>
                 </ul>
-                <p className="text-yellow-800 font-semibold">Starting at $50/hour</p>
+                <p className="text-yellow-800 font-semibold">Starting at <div className="mt-8 text-center">
+  <a 
+    href="/pricing" 
+    className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-colors duration-200"
+  >
+    View Pricing 
+  </a>
+</div></p>
               </div>
             </div>
           </div>
