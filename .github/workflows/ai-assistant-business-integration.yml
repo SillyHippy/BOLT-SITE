@@ -44,10 +44,14 @@ jobs:
           echo "Q: Do you provide same-day service?" >> public/ai-assistant/faq.txt
           echo "A: Yes, Just Legal Solutions offers same-day and emergency process serving." >> public/ai-assistant/faq.txt
           
-          # Update robots.txt for AI crawlers
-          echo "" >> public/robots.txt
-          echo "# AI Assistant Integration - $(date)" >> public/robots.txt
-          echo "# Optimized for ChatGPT, Alexa, Google Assistant" >> public/robots.txt
+          # Update robots.txt for AI crawlers (with error handling)
+          if [ -f "public/robots.txt" ]; then
+            echo "" >> public/robots.txt || echo "Warning: Could not update robots.txt"
+            echo "# AI Assistant Integration - $(date)" >> public/robots.txt || echo "Warning: Could not update robots.txt"
+            echo "# Optimized for ChatGPT, Alexa, Google Assistant" >> public/robots.txt || echo "Warning: Could not update robots.txt"
+          else
+            echo "Warning: robots.txt not found, skipping update"
+          fi
           
           # Create AI-friendly business page
           echo "<!DOCTYPE html>" > public/ai-business-info.html
@@ -64,6 +68,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add .
-          git diff --staged --quiet || git commit -m "🤖 AI Assistant Integration Update - $(date)"
-          git push
+          git add . || echo "Warning: git add failed"
+          git diff --staged --quiet || git commit -m "🤖 AI Assistant Integration Update - $(date)" || echo "Warning: commit failed"
+          git push || echo "Warning: push failed"
