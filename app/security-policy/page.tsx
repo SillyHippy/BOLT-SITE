@@ -20,7 +20,7 @@ export default function SecurityPolicyPage() {
           </p>
           <h2 className="text-2xl font-semibold mt-8 mb-4">Reporting Security Issues</h2>
           <p className="mb-4">
-            If you discover a security vulnerability, please report it to Info@JustLegalSolutions.org. We will investigate all legitimate reports and do our best to quickly fix the problem.
+            If you discover a security vulnerability, please report it to info@justlegalsolutions.org. We will investigate all legitimate reports and do our best to quickly fix the problem.
           </p>
           <h2 className="text-2xl font-semibold mt-8 mb-4">Security Measures</h2>
           <ul className="list-disc pl-6 mb-4">

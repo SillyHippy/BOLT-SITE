@@ -154,7 +154,7 @@ export default function SocialProof({
         <p className="mb-4">Join 800+ satisfied clients who trust us with their legal document delivery</p>
         <div className="space-y-2">
           <button className="bg-white text-blue-600 font-bold py-3 px-8 rounded-lg hover:bg-gray-100 transition-colors">
-            📞 Call Now: (918) 000-0000
+            📞 Call/Text Now: (539) 367-6832
           </button>
           <div className="text-sm opacity-90">Free quote in under 5 minutes!</div>
         </div>

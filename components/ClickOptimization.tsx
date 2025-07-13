@@ -20,7 +20,7 @@ export default function ClickOptimization({
     "description": "Oklahoma's fastest process serving company. Same-day service, professional staff, competitive rates.",
     "url": url,
     "image": image,
-    "telephone": "+1-918-000-0000",
+    "telephone": "(539) 367-6832",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Tulsa",

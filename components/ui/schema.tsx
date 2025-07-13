@@ -126,7 +126,7 @@ export const organizationSchema: WithContext<Organization> = {
     }
   ],
   "telephone": "+15393676832",
-  "email": "Info@JustLegalSolutions.org",
+  "email": "info@justlegalsolutions.org",
   "founder": {
     "@type": "Person",
     "name": "Joseph Iannazzi",

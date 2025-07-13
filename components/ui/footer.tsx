@@ -4,7 +4,10 @@ import { useState } from "react";
 
 export function Footer() {
   const [showForm, setShowForm] = useState(false);
-  const [submissionStatus, setSubmissionStatus] = useState("idle"); // 'idle', 'submitting', 'success', 'error'
+  const [submissionStatus, setSubmissionStatus] = useState("idle"); // 'idle', 'submitting', 's                href="mailto:info@justlegalsolutions.org"
+                className="text-gray-600 hover:text-blue-600"
+              >
+                info@justlegalsolutions.orgss', 'error'
 
   const toggleForm = () => {
     setShowForm((prev) => !prev);
@@ -88,7 +91,7 @@ export function Footer() {
             <>
               <h3 className="text-2xl font-bold mb-4 text-center">Process Service E-Z Intake Information</h3>
               <form
-                action="https://formsubmit.co/info@JustLegalSolutions.org"
+                action="https://formsubmit.co/info@justlegalsolutions.org"
                 method="POST"
                 onSubmit={handleSubmit}
                 className="space-y-6"
@@ -204,7 +207,7 @@ export function Footer() {
                 <h3 className="text-lg font-semibold leading-6 text-gray-900 border-b pb-2">Submit Documents</h3>
                 <div className="bg-blue-50 border border-blue-200 text-blue-800 text-center p-4 rounded-md">
                     Please email all documents to:<br/>
-                    <a href="mailto:info@JustLegalSolutions.org" className="font-bold underline">info@JustLegalSolutions.org</a>
+                    <a href="mailto:info@justlegalsolutions.org" className="font-bold underline">info@justlegalsolutions.org</a>
                 </div>
 
                 <button 
@@ -227,10 +230,10 @@ export function Footer() {
             <p className="text-gray-600">
               You can reach us at{" "}
               <a
-                href="mailto:info@JustLegalSolutions.org"
+                href="mailto:info@justlegalsolutions.org"
                 className="text-blue-600 hover:text-blue-800"
               >
-                info@JustLegalSolutions.org
+                info@justlegalsolutions.org
               </a>
               . We respond promptly to all inquiries.
             </p>
