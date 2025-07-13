@@ -31,7 +31,37 @@ export default function CourierDeliveryService() {
           </p>
 
           <div className="grid md:grid-cols-2 gap-8 mb-8">
-            
+            <div className="bg-gray-50 rounded-lg p-6">
+              <h2 className="text-2xl font-semibold text-gray-900 mb-4">
+                What We Deliver
+              </h2>
+              <ul className="space-y-2 text-gray-700">
+                <li><strong>Legal Documents:</strong> Contracts, court papers, legal files</li>
+                <li><strong>Business Packages:</strong> Important documents, supplies</li>
+                <li><strong>Food Delivery:</strong> Restaurant orders, catering, groceries</li>
+                <li><strong>Personal Items:</strong> Gifts, packages, personal documents</li>
+                <li><strong>Small Furniture:</strong> Chairs, small tables, office supplies</li>
+                <li><strong>Emergency Delivery:</strong> Medication, keys, urgent items</li>
+              </ul>
+            </div>
+
+            <div className="bg-green-50 rounded-lg p-6">
+              <h2 className="text-2xl font-semibold text-green-800 mb-4">
+                Delivery Pricing
+              </h2>
+              <div className="space-y-4">
+                <div className="bg-white rounded-lg p-4 border border-green-200">
+                  <h3 className="font-semibold text-green-800 mb-2">Flexible Rates</h3>
+                  <p className="text-green-700 mb-3">
+                    Professional courier service with competitive pricing. Rates vary by 
+                    distance, urgency, and item type. Same-day and rush delivery available.
+                  </p>
+                  <div className="bg-blue-50 border border-blue-200 rounded-lg p-3 mb-3">
+                    <p className="text-sm text-blue-800">
+                      <strong>Service Area Note:</strong> Standard rates apply to Tulsa County and select parts of 
+                      Creek County (Sapulpa) & Wagoner County (Broken Arrow). A surcharge applies to all other areas.
+                    </p>
+                  </div>
                   <a href="/pricing" className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg inline-block font-semibold">
                     View Delivery Pricing
                   </a>
@@ -104,17 +134,21 @@ export default function CourierDeliveryService() {
                 <p className="text-green-700">📍 Serving Greater Tulsa Area</p>
               </div>
               <div className="mt-4 md:mt-0">
-                <a href="/pricing" className="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-lg inline-block">
+                <a href="/card/calendar" className="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-lg inline-block">
                   Schedule Delivery
                 </a>
               </div>
             </div>
           </div>
 
+          <div className="bg-gray-50 p-6 rounded-lg mt-8">
+            <p className="text-sm text-gray-600">
+              <strong>Content Freshness:</strong> This courier delivery page updates daily 
+              for SEO optimization. Professional consultation: (539) 367-6832.
+            </p>
+          </div>
         </div>
       </div>
     </div>
   );
 }
-
-

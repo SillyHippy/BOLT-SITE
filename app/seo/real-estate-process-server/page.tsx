@@ -43,7 +43,37 @@ export default function ProcessServerRealEstate() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 mb-8">
-            
+            <div className="bg-gray-50 rounded-lg p-6">
+              <h2 className="text-2xl font-semibold text-gray-900 mb-4">
+                Real Estate Services
+              </h2>
+              <ul className="space-y-2 text-gray-700">
+                <li><strong>Contract Delivery:</strong> Purchase agreements and amendments</li>
+                <li><strong>Legal Notices:</strong> Property notices and disclosures</li>
+                <li><strong>Closing Documents:</strong> Last-minute document delivery</li>
+                <li><strong>Eviction Notices:</strong> Tenant notifications for landlords</li>
+                <li><strong>Lien Documents:</strong> Mechanic&apos;s lien and foreclosure papers</li>
+                <li><strong>Court Filings:</strong> Real estate litigation support</li>
+              </ul>
+            </div>
+
+            <div className="bg-green-50 rounded-lg p-6">
+              <h2 className="text-2xl font-semibold text-green-800 mb-4">
+                Real Estate Pricing
+              </h2>
+              <div className="space-y-4">
+                <div className="bg-white rounded-lg p-4 border border-green-200">
+                  <h3 className="font-semibold text-green-800 mb-2">Agent & Broker Rates</h3>
+                  <p className="text-green-700 mb-3">
+                    Professional document delivery rates for real estate professionals. 
+                    Same-day and emergency service available for time-sensitive transactions.
+                  </p>
+                  <div className="bg-blue-50 border border-blue-200 rounded-lg p-3 mb-3">
+                    <p className="text-sm text-blue-800">
+                      <strong>Service Area Note:</strong> Standard rates apply to Tulsa County and select parts of 
+                      Creek County (Sapulpa) & Wagoner County (Broken Arrow). A surcharge applies to all other areas.
+                    </p>
+                  </div>
                   <a href="/pricing" className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg inline-block font-semibold">
                     View Real Estate Pricing
                   </a>
@@ -90,7 +120,7 @@ export default function ProcessServerRealEstate() {
                 <p className="text-green-700">📍 Serving Real Estate Professionals</p>
               </div>
               <div className="mt-4 md:mt-0">
-                <a href="/pricing" className="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-lg inline-block">
+                <a href="/card/calendar" className="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-lg inline-block">
                   Schedule Real Estate Service
                 </a>
               </div>
@@ -101,5 +131,3 @@ export default function ProcessServerRealEstate() {
     </div>
   );
 }
-
-

@@ -31,7 +31,42 @@ export default function ProcessServingFAQ() {
 
           <div className="space-y-8">
             {/* FAQ Item 1 */}
-            
+            <div className="bg-gray-50 rounded-lg p-6">
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                1. How much does process serving cost in Oklahoma?
+              </h3>
+              <p className="text-gray-700 mb-4">
+                Process serving costs vary based on service type and urgency:
+              </p>
+              <ul className="list-disc ml-6 text-gray-700 space-y-1">
+                <li><strong>Standard service (3-5 days):</strong> $40</li>
+                <li><strong>Rush service (1-2 days):</strong> $60</li>
+                <li><strong>Same-day service:</strong> $75</li>
+                <li><strong>Emergency service (2 hours):</strong> $100</li>
+              </ul>
+              <p className="text-gray-700 mt-3">
+                All pricing includes multiple service attempts, GPS tracking, and professional affidavits.
+              </p>
+            </div>
+
+            {/* FAQ Item 2 */}
+            <div className="bg-gray-50 rounded-lg p-6">
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                2. How long does it take to serve legal documents?
+              </h3>
+              <p className="text-gray-700 mb-4">
+                Service timeframes depend on the urgency level you choose:
+              </p>
+              <ul className="list-disc ml-6 text-gray-700 space-y-1">
+                <li><strong>Standard service:</strong> 3-5 business days</li>
+                <li><strong>Rush service:</strong> 1-2 business days</li>
+                <li><strong>Same-day service:</strong> Within 8 hours</li>
+                <li><strong>Emergency service:</strong> Within 2 hours</li>
+              </ul>
+              <p className="text-gray-700 mt-3">
+                Most standard documents are successfully served within 3 business days.
+              </p>
+            </div>
 
             {/* FAQ Item 3 */}
             <div className="bg-gray-50 rounded-lg p-6">
@@ -232,7 +267,7 @@ export default function ProcessServingFAQ() {
                 <p className="text-green-700">📧 info@justlegalsolutions.org</p>
               </div>
               <div className="mt-4 md:mt-0">
-                <a href="/pricing" className="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-lg inline-block">
+                <a href="/card/calendar" className="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-lg inline-block">
                   Schedule Service
                 </a>
               </div>
@@ -250,5 +285,3 @@ export default function ProcessServingFAQ() {
     </div>
   );
 }
-
-

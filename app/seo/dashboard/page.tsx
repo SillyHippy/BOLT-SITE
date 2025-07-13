@@ -136,5 +136,3 @@ export default function SEODashboard() {
     </div>
   );
 }
-
-

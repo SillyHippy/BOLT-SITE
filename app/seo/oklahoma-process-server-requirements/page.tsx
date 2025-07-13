@@ -283,7 +283,7 @@ export default function OklahomaProcessServerRequirements() {
                 <p className="text-blue-700">📧 info@justlegalsolutions.org</p>
               </div>
               <div className="mt-4 md:mt-0">
-                <a href="/pricing" className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg inline-block">
+                <a href="/card/calendar" className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg inline-block">
                   Professional Service
                 </a>
               </div>
@@ -301,5 +301,3 @@ export default function OklahomaProcessServerRequirements() {
     </div>
   );
 }
-
-

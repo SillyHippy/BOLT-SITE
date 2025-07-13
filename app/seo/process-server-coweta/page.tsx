@@ -31,7 +31,42 @@ export default function ProcessServerCoweta() {
           </p>
 
           <div className="grid md:grid-cols-2 gap-8 mb-8">
-            
+            <div className="bg-gray-50 rounded-lg p-6">
+              <h2 className="text-2xl font-semibold text-gray-900 mb-4">
+                Coweta Service Coverage
+              </h2>
+              <ul className="space-y-2 text-gray-700">
+                <li><strong>Downtown Coweta:</strong> Main business district</li>
+                <li><strong>Residential Areas:</strong> All neighborhoods</li>
+                <li><strong>Rural Routes:</strong> Outlying properties</li>
+                <li><strong>School District:</strong> Coweta Public Schools area</li>
+                <li><strong>Industrial Areas:</strong> Manufacturing zones</li>
+                <li><strong>County Coverage:</strong> All Wagoner County</li>
+              </ul>
+            </div>
+
+            <div className="bg-green-50 rounded-lg p-6">
+              <h2 className="text-2xl font-semibold text-green-800 mb-4">
+                Service Pricing
+              </h2>
+              <div className="space-y-3">
+                <div className="flex justify-between items-center border-b border-green-200 pb-2">
+                  <span className="text-green-700">Standard Service (3-5 days)</span>
+                  <span className="font-bold text-green-800">$40</span>
+                </div>
+                <div className="flex justify-between items-center border-b border-green-200 pb-2">
+                  <span className="text-green-700">Rush Service (1-2 days)</span>
+                  <span className="font-bold text-green-800">$60</span>
+                </div>
+                <div className="flex justify-between items-center border-b border-green-200 pb-2">
+                  <span className="text-green-700">Same-Day Service</span>
+                  <span className="font-bold text-green-800">$75</span>
+                </div>
+                <div className="flex justify-between items-center">
+                  <span className="text-green-700">Emergency (2 hours)</span>
+                  <span className="font-bold text-green-800">$100</span>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -110,17 +145,21 @@ export default function ProcessServerCoweta() {
                 <p className="text-green-700">📍 Serving Coweta, Wagoner County</p>
               </div>
               <div className="mt-4 md:mt-0">
-                <a href="/pricing" className="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-lg inline-block">
+                <a href="/card/calendar" className="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-lg inline-block">
                   Schedule Service
                 </a>
               </div>
             </div>
           </div>
 
+          <div className="bg-gray-50 p-6 rounded-lg mt-8">
+            <p className="text-sm text-gray-600">
+              <strong>Content Freshness:</strong> This Coweta process serving page updates daily 
+              for search optimization. Professional consultation: (539) 367-6832.
+            </p>
+          </div>
         </div>
       </div>
     </div>
   );
 }
-
-

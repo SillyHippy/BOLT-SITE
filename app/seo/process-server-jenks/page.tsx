@@ -43,7 +43,42 @@ export default function ProcessServerJenks() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 mb-8">
-            
+            <div className="bg-gray-50 rounded-lg p-6">
+              <h2 className="text-2xl font-semibold text-gray-900 mb-4">
+                Jenks Area Services
+              </h2>
+              <ul className="space-y-2 text-gray-700">
+                <li><strong>Riverwalk District:</strong> Commercial and residential service</li>
+                <li><strong>Court Summons:</strong> Legal complaint delivery</li>
+                <li><strong>Subpoenas:</strong> Witness and document requests</li>
+                <li><strong>Eviction Notices:</strong> Landlord-tenant documents</li>
+                <li><strong>Divorce Papers:</strong> Family law documents</li>
+                <li><strong>Business Documents:</strong> Commercial legal papers</li>
+              </ul>
+            </div>
+
+            <div className="bg-green-50 rounded-lg p-6">
+              <h2 className="text-2xl font-semibold text-green-800 mb-4">
+                Jenks Service Pricing
+              </h2>
+              <div className="space-y-4">
+                <div className="bg-white rounded-lg p-4 border border-green-200">
+                  <h3 className="font-semibold text-green-800 mb-2">Local Service Rates</h3>
+                  <p className="text-green-700 mb-3">
+                    Professional process serving throughout Jenks and Riverwalk area. 
+                    Standard Tulsa County rates apply with no additional fees for 74037.
+                  </p>
+                  <div className="bg-blue-50 border border-blue-200 rounded-lg p-3 mb-3">
+                    <p className="text-sm text-blue-800">
+                      <strong>Coverage Area:</strong> All of Jenks including Riverwalk Crossing, 
+                      residential neighborhoods, and business districts.
+                    </p>
+                  </div>
+                  <a href="/pricing" className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg inline-block font-semibold">
+                    Get Jenks Pricing
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -86,7 +121,7 @@ export default function ProcessServerJenks() {
                 <p className="text-green-700">📍 Serving Jenks & Riverwalk (74037)</p>
               </div>
               <div className="mt-4 md:mt-0">
-                <a href="/pricing" className="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-lg inline-block">
+                <a href="/card/calendar" className="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-lg inline-block">
                   Schedule Jenks Service
                 </a>
               </div>
@@ -97,5 +132,3 @@ export default function ProcessServerJenks() {
     </div>
   );
 }
-
-

@@ -43,7 +43,37 @@ export default function ProcessServerSandSprings() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 mb-8">
-            
+            <div className="bg-gray-50 rounded-lg p-6">
+              <h2 className="text-2xl font-semibold text-gray-900 mb-4">
+                Sand Springs Services
+              </h2>
+              <ul className="space-y-2 text-gray-700">
+                <li><strong>Industrial Service:</strong> Manufacturing and business documents</li>
+                <li><strong>Residential Areas:</strong> Family law and civil documents</li>
+                <li><strong>Court Papers:</strong> Legal summons and complaints</li>
+                <li><strong>Property Documents:</strong> Real estate legal notices</li>
+                <li><strong>Employment Papers:</strong> Workplace legal documents</li>
+                <li><strong>Rush Delivery:</strong> Same-day emergency service</li>
+              </ul>
+            </div>
+
+            <div className="bg-green-50 rounded-lg p-6">
+              <h2 className="text-2xl font-semibold text-green-800 mb-4">
+                Sand Springs Pricing
+              </h2>
+              <div className="space-y-4">
+                <div className="bg-white rounded-lg p-4 border border-green-200">
+                  <h3 className="font-semibold text-green-800 mb-2">Local Service Rates</h3>
+                  <p className="text-green-700 mb-3">
+                    Professional process serving throughout Sand Springs at competitive Tulsa County rates. 
+                    No additional fees for industrial or residential areas.
+                  </p>
+                  <div className="bg-blue-50 border border-blue-200 rounded-lg p-3 mb-3">
+                    <p className="text-sm text-blue-800">
+                      <strong>Complete Coverage:</strong> All Sand Springs areas including industrial districts, 
+                      residential neighborhoods, and business locations.
+                    </p>
+                  </div>
                   <a href="/pricing" className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg inline-block font-semibold">
                     View Sand Springs Rates
                   </a>
@@ -101,7 +131,7 @@ export default function ProcessServerSandSprings() {
                 <p className="text-green-700">📍 Serving Sand Springs (74063)</p>
               </div>
               <div className="mt-4 md:mt-0">
-                <a href="/pricing" className="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-lg inline-block">
+                <a href="/card/calendar" className="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-lg inline-block">
                   Schedule Sand Springs Service
                 </a>
               </div>
@@ -112,5 +142,3 @@ export default function ProcessServerSandSprings() {
     </div>
   );
 }
-
-

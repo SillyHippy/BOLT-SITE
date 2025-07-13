@@ -35,7 +35,133 @@ export default function ProcessServerTulsaPage() {
           </p>
 
           <div className="grid md:grid-cols-2 gap-6 mb-8">
+            <div className="bg-green-50 border border-green-200 rounded-lg p-6">
+              <h3 className="text-xl font-semibold text-green-800 mb-3">Standard Process Serving</h3>
+              <ul className="text-green-700 space-y-1">
+                <li>✓ Civil court documents</li>
+                <li>✓ Family court papers</li>
+                <li>✓ Small claims summons</li>
+                <li>✓ Business litigation</li>
+                <li>✓ Starting at $40</li>
+              </ul>
+            </div>
             
+            <div className="bg-orange-50 border border-orange-200 rounded-lg p-6">
+              <h3 className="text-xl font-semibold text-orange-800 mb-3">Rush & Same-Day Service</h3>
+              <ul className="text-orange-700 space-y-1">
+                <li>✓ 2-hour emergency service</li>
+                <li>✓ Same-day guarantee</li>
+                <li>✓ Weekend availability</li>
+                <li>✓ Holiday service</li>
+                <li>✓ Starting at $75</li>
+              </ul>
+            </div>
+          </div>
+
+          <h3 className="text-2xl font-semibold mb-4">Complete Tulsa Process Serving Services</h3>
+          <div className="grid md:grid-cols-2 gap-4 mb-6">
+            <div>
+              <h4 className="font-semibold mb-2">Document Types:</h4>
+              <ul className="list-disc ml-6 space-y-1">
+                <li>Divorce papers and family court documents</li>
+                <li>Civil litigation and business disputes</li>
+                <li>Eviction notices and landlord documents</li>
+                <li>Subpoenas and witness summons</li>
+                <li>Small claims court papers</li>
+                <li>Restraining orders and protective orders</li>
+                <li>Corporate and commercial documents</li>
+                <li>Bankruptcy and collection papers</li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="font-semibold mb-2">Service Areas:</h4>
+              <ul className="list-disc ml-6 space-y-1">
+                <li>Downtown Tulsa (74103, 74120, 74114)</li>
+                <li>South Tulsa (74104, 74105, 74135, 74137)</li>
+                <li>North Tulsa (74106, 74110, 74115, 74126)</li>
+                <li>East Tulsa (74112, 74116, 74128, 74129)</li>
+                <li>West Tulsa (74107, 74127, 74131, 74132)</li>
+                <li>Midtown Tulsa (74114, 74119, 74120)</li>
+                <li>All surrounding Tulsa County areas</li>
+              </ul>
+            </div>
+          </div>
+
+          <h3 className="text-2xl font-semibold mb-4">Why Choose Just Legal Solutions in Tulsa?</h3>
+          <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-6">
+            <div className="grid md:grid-cols-3 gap-4">
+              <div>
+                <h4 className="font-semibold text-blue-800 mb-2">📍 Local Expertise</h4>
+                <p className="text-blue-700 text-sm">Deep knowledge of Tulsa courts, procedures, and local requirements</p>
+              </div>
+              <div>
+                <h4 className="font-semibold text-blue-800 mb-2">⚡ Fast Service</h4>
+                <p className="text-blue-700 text-sm">Same-day, rush, and standard service options available</p>
+              </div>
+              <div>
+                <h4 className="font-semibold text-blue-800 mb-2">🛡️ Professional</h4>
+                <p className="text-blue-700 text-sm">Licensed, bonded, and insured process servers</p>
+              </div>
+            </div>
+          </div>
+
+          <h3 className="text-2xl font-semibold mb-4">Tulsa Court Locations We Serve</h3>
+          <div className="bg-gray-50 p-6 rounded-lg mb-6">
+            <div className="grid md:grid-cols-2 gap-4">
+              <div>
+                <h4 className="font-semibold mb-2">Tulsa County Courts:</h4>
+                <ul className="space-y-1 text-sm">
+                  <li>• Tulsa County District Court</li>
+                  <li>• Tulsa County Family Court</li>
+                  <li>• Tulsa County Small Claims</li>
+                  <li>• Municipal Court of Tulsa</li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="font-semibold mb-2">Specialized Services:</h4>
+                <ul className="space-y-1 text-sm">
+                  <li>• Court document filing</li>
+                  <li>• Document retrieval</li>
+                  <li>• Skip tracing assistance</li>
+                  <li>• Legal courier services</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-green-50 border border-green-200 rounded-lg p-6 mb-8">
+            <h3 className="text-xl font-semibold text-green-800 mb-3">
+              Contact Tulsa&apos;s Top Process Servers
+            </h3>
+            <p className="text-green-700 mb-3">
+              Ready to serve your legal documents in Tulsa? Get professional, reliable service today!
+            </p>
+            <div className="flex flex-col md:flex-row md:items-center md:justify-between">
+              <div>
+                <p className="text-2xl font-bold text-green-800">📞 (539) 367-6832</p>
+                <p className="text-green-700">📧 info@justlegalsolutions.org</p>
+              </div>
+              <div className="mt-4 md:mt-0">
+                <a href="/card/calendar" className="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-lg inline-block">
+                  Schedule Service Online
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <h3 className="text-2xl font-semibold mb-4">Tulsa Process Serving Pricing</h3>
+          <div className="bg-green-50 border border-green-200 rounded-lg p-6 mb-6">
+            <h4 className="font-semibold text-green-800 mb-3">Competitive Rates for Tulsa Area</h4>
+            <p className="text-green-700 mb-4">
+              Professional process serving with transparent pricing. Rates vary by service type, urgency, and location.
+            </p>
+            <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-4">
+              <p className="text-sm text-blue-800">
+                <strong>Service Area Note:</strong> Standard rates apply to Tulsa County and select parts of 
+                Creek County (Sapulpa) & Wagoner County (Broken Arrow). A surcharge applies to all other areas. 
+                Please contact us for a precise quote.
+              </p>
+            </div>
             <a href="/pricing" className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg inline-block font-semibold">
               View Complete Pricing & Packages
             </a>
@@ -52,5 +178,3 @@ export default function ProcessServerTulsaPage() {
     </div>
   );
 }
-
-

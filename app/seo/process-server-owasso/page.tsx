@@ -43,7 +43,37 @@ export default function ProcessServerOwasso() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 mb-8">
-            
+            <div className="bg-gray-50 rounded-lg p-6">
+              <h2 className="text-2xl font-semibold text-gray-900 mb-4">
+                Owasso Area Services
+              </h2>
+              <ul className="space-y-2 text-gray-700">
+                <li><strong>Residential Service:</strong> Family and civil documents</li>
+                <li><strong>Business Documents:</strong> Commercial legal papers</li>
+                <li><strong>Court Summons:</strong> Legal complaint delivery</li>
+                <li><strong>Property Notices:</strong> Real estate documents</li>
+                <li><strong>Emergency Service:</strong> Same-day rush delivery</li>
+                <li><strong>Digital Proof:</strong> GPS tracking and photos</li>
+              </ul>
+            </div>
+
+            <div className="bg-green-50 rounded-lg p-6">
+              <h2 className="text-2xl font-semibold text-green-800 mb-4">
+                Owasso Service Rates
+              </h2>
+              <div className="space-y-4">
+                <div className="bg-white rounded-lg p-4 border border-green-200">
+                  <h3 className="font-semibold text-green-800 mb-2">Local Area Pricing</h3>
+                  <p className="text-green-700 mb-3">
+                    Professional process serving throughout Owasso with standard Tulsa County rates. 
+                    No additional charges for 74055 service area.
+                  </p>
+                  <div className="bg-blue-50 border border-blue-200 rounded-lg p-3 mb-3">
+                    <p className="text-sm text-blue-800">
+                      <strong>Full Coverage:</strong> All Owasso neighborhoods, business districts, 
+                      and residential areas included.
+                    </p>
+                  </div>
                   <a href="/pricing" className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg inline-block font-semibold">
                     Get Owasso Rates
                   </a>
@@ -90,7 +120,7 @@ export default function ProcessServerOwasso() {
                 <p className="text-green-700">📍 Serving Owasso (74055)</p>
               </div>
               <div className="mt-4 md:mt-0">
-                <a href="/pricing" className="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-lg inline-block">
+                <a href="/card/calendar" className="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-lg inline-block">
                   Schedule Owasso Service
                 </a>
               </div>
@@ -101,5 +131,3 @@ export default function ProcessServerOwasso() {
     </div>
   );
 }
-
-
