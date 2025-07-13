@@ -65,14 +65,7 @@ export default function ProcessServerLoans() {
                 <div className="bg-white rounded-lg p-4 border border-green-200">
                   <h3 className="font-semibold text-green-800 mb-2">Volume Pricing Available</h3>
                   <p className="text-green-700 mb-3">
-                    <div className="mt-8 text-center">
-  <a 
-    href="/pricing" 
-    className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-colors duration-200"
-  >
-    View Pricing 
-  </a>
-</div> for financial institutions with bulk service discounts. 
+                     for financial institutions with bulk service discounts. 
                     Professional handling of sensitive financial documents.
                   </p>
                   <div className="bg-blue-50 border border-blue-200 rounded-lg p-3 mb-3">
