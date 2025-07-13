@@ -1,0 +1,55 @@
+name: Local SEO Domination
+
+on:
+  schedule:
+    - cron: '20 */12 * * *'  # Every 12 hours, offset by 20 minutes
+  workflow_dispatch:
+
+jobs:
+  local-seo-boost:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          
+      - name: Local SEO Optimization
+        run: |
+          echo "📍 LOCAL SEO DOMINATION ACTIVATED"
+          echo "================================="
+          
+          # Run local SEO optimization script
+          if [ -f "scripts/local-seo-domination.js" ]; then
+            node scripts/local-seo-domination.js
+            echo "✅ Local SEO optimization completed"
+          fi
+          
+          # Update local SEO optimization markers
+          echo "🗺️ Updating local SEO optimizations..."
+          current_date=$(date +%Y-%m-%d)
+          
+          # Create local SEO optimization markers
+          echo "<!-- Local SEO Optimized: $current_date -->" >> public/local-seo-marker.html
+          
+          echo "✅ Local SEO domination complete"
+          
+      - name: Set up GitHub credentials
+        run: |
+          git config --global user.name "local-seo-bot"
+          git config --global user.email "info@justlegalsolutions.org"
+          
+      - name: Commit Local SEO Updates
+        run: |
+          git add .
+          git diff --staged --quiet || git commit -m "📍 Local SEO Domination: $(date '+%Y-%m-%d %H:%M UTC')"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
