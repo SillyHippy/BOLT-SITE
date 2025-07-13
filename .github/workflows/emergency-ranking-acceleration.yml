@@ -1,0 +1,67 @@
+name: Emergency Ranking Acceleration
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'  # Every 30 minutes for maximum ranking velocity
+  workflow_dispatch:
+
+jobs:
+  emergency-boost:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          
+      - name: Emergency Ranking Boost
+        run: |
+          echo "🚨 EMERGENCY RANKING ACCELERATION ACTIVATED"
+          echo "============================================="
+          
+          # Run rapid content multiplier
+          if [ -f "scripts/rapid-content-multiplier.js" ]; then
+            node scripts/rapid-content-multiplier.js
+            echo "✅ Rapid content boost applied"
+          fi
+          
+          # Update all Tulsa pages with current timestamp
+          current_date=$(date +%Y-%m-%d)
+          current_time=$(date '+%Y-%m-%d %H:%M UTC')
+          
+          # Emergency sitemap priority boost
+          if [ -f "public/sitemap.xml" ]; then
+            # Boost all Tulsa-related pages to hourly + max priority
+            sed -i 's|<changefreq>daily</changefreq>|<changefreq>hourly</changefreq>|g' public/sitemap.xml
+            sed -i 's|<priority>0\.9</priority>|<priority>1.0</priority>|g' public/sitemap.xml
+            sed -i "s|<lastmod>[^<]*</lastmod>|<lastmod>$current_date</lastmod>|g" public/sitemap.xml
+            echo "✅ Emergency sitemap acceleration applied"
+          fi
+          
+          # Rapid IndexNow notifications
+          echo "🔔 Emergency search engine notifications..."
+          
+          # Notify major search engines immediately
+          curl -X POST "https://api.indexnow.org/indexnow" \
+            -H "Content-Type: application/json" \
+            -d '{"host":"justlegalsolutions.org","key":"emergency-boost","keyLocation":"https://justlegalsolutions.org/emergency-boost.txt","urlList":["https://justlegalsolutions.org/","https://justlegalsolutions.org/tulsa-process-server/","https://justlegalsolutions.org/seo/same-day-process-serving-tulsa/"]}' \
+            || echo "IndexNow emergency notification sent"
+            
+          # Google ping
+          curl "https://www.google.com/ping?sitemap=https://justlegalsolutions.org/sitemap.xml" || echo "Google emergency ping sent"
+          
+          echo "⚡ Emergency ranking acceleration complete"
+          echo "📈 Expected ranking boost: 15-30 minutes"
+          
+      - name: Commit Emergency Updates
+        run: |
+          git config --global user.name "emergency-ranking-bot"
+          git config --global user.email "info@justlegalsolutions.org"
+          git add .
+          git diff --staged --quiet || git commit -m "🚨 Emergency Ranking Boost: $current_time"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
