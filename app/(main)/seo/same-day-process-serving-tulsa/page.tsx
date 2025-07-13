@@ -43,7 +43,7 @@ export const metadata: Metadata = {
 
 export default function SameDayProcessServingTulsa() {
   const lastUpdated = new Date().toLocaleDateString('en-US', { month: 'numeric', day: 'numeric', year: 'numeric', timeZone: 'America/Chicago' });
-  const currentTime = new Date().toLocaleTimeString();
+  const currentTime = new Date().toLocaleTimeString('en-US', { timeZone: 'America/Chicago' });
   
   return (
     <div className="min-h-screen bg-white">
