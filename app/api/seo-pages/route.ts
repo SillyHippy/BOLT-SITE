@@ -1,5 +1,9 @@
 import { NextResponse } from 'next/server';
 
+// Configure for static export compatibility
+export const dynamic = 'force-static';
+export const revalidate = 86400; // 24 hours
+
 // Generates SEO-optimized location and topic pages automatically
 export async function GET() {
   const today = new Date();
