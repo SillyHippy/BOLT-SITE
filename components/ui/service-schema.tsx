@@ -12,7 +12,7 @@ export default function ServiceSchema({
   serviceName,
   serviceDescription,
   serviceArea,
-  priceRange = "$60-150",
+  priceRange = "See pricing at justlegalsolutions.org/pricing",
   serviceType = "Process Serving"
 }: ServiceSchemaProps) {
   const serviceSchema = {

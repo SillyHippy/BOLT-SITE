@@ -179,7 +179,7 @@ export const organizationSchema: WithContext<Organization> = {
           "@type": "Offer",
           "price": "60.00",
           "priceCurrency": "USD",
-          "description": "Standard process serving starting at $60 in Tulsa County"
+          "description": "Standard process serving - see pricing at justlegalsolutions.org/pricing in Tulsa County"
         }
       },
       {
@@ -217,7 +217,7 @@ export const organizationSchema: WithContext<Organization> = {
           "@type": "Offer",
           "price": "150.00",
           "priceCurrency": "USD",
-          "description": "Same-day process serving $150 in Tulsa County area"
+          "description": "Same-day process serving - see pricing at justlegalsolutions.org/pricing in Tulsa County area"
         }
       },
       {

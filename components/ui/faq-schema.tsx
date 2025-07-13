@@ -7,7 +7,7 @@ export const faqSchema = {
       "name": "How much does a process server cost in Oklahoma?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Process serving in the Tulsa area starts at $60 for standard service in Tulsa County, Creek County (Sapulpa), and Wagoner County (Broken Arrow). Rush service is $100, and same-day service is $150. A significant surcharge applies to areas outside our primary service zone."
+        "text": "Process serving in the Tulsa area pricing varies by service type and location. For detailed pricing information including standard service, rush service, and same-day service rates for Tulsa County, Creek County (Sapulpa), and Wagoner County (Broken Arrow), please visit our pricing page at justlegalsolutions.org/pricing. A significant surcharge applies to areas outside our primary service zone."
       }
     },
     {
@@ -23,7 +23,7 @@ export const faqSchema = {
       "name": "How fast can you serve legal documents in Tulsa?",
       "acceptedAnswer": {
         "@type": "Answer", 
-        "text": "In our primary service area (Tulsa County, Broken Arrow, Sapulpa), we offer same-day service (within 24 hours) for $150, rush service (within 72 hours) for $100, and standard service (within 5 business days) for $60."
+        "text": "In our primary service area (Tulsa County, Broken Arrow, Sapulpa), we offer same-day service (within 24 hours), rush service (within 72 hours), and standard service (within 5 business days). For current pricing information, please visit our pricing page at justlegalsolutions.org/pricing."
       }
     },
     {

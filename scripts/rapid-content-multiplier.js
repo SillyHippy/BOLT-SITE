@@ -1,7 +1,16 @@
 #!/usr/bin/env node
 
 /**
- * Rapid Content Multiplier - Emergency Ranking Boost
+ * Rapid Con// Generate emergency landing page content
+const emergencyContent = `
+<!-- EMERGENCY RANKING BOOST: ${today.toISOString()} -->
+<div className="urgent-service-banner bg-red-600 text-white p-4 text-center">
+  <h2 className="text-xl font-bold">${timeVariations.emergency}</h2>
+  <p>${timeVariations.urgency} - Call (539) 367-6832</p>
+</div>
+
+<!-- Time-Sensitive Keywords: ${urgentKeywords.join(', ')} -->
+<div className="sr-only">`;plier - Emergency Ranking Boost
  * Generates time-sensitive content variations for maximum SEO impact
  */
 
@@ -43,7 +52,7 @@ const emergencyContent = `
 <!-- EMERGENCY RANKING BOOST: ${today.toISOString()} -->
 <div className="urgent-service-banner bg-red-600 text-white p-4 text-center">
   <h2 className="text-xl font-bold">${timeVariations.emergency}</h2>
-  <p>${timeVariations.urgency} - Call (918) 408-7207</p>
+  <p>${timeVariations.urgency} - Call (539) 367-6832</p>
 </div>
 
 <!-- Time-Sensitive Keywords: ${urgentKeywords.join(', ')} -->
