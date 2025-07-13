@@ -3,6 +3,10 @@
 import React, { useEffect } from 'react';
 import { CheckCircle, Truck } from 'lucide-react';
 import ReviewSchema from '@/components/ui/review-schema';
+import EnhancedBreadcrumbSchema from '@/components/ui/enhanced-breadcrumb-schema';
+import EnhancedFAQSchema from '@/components/ui/enhanced-faq-schema';
+import EnhancedServiceSchema from '@/components/ui/enhanced-service-schema';
+import PerformanceSchema from '@/components/ui/performance-schema';
 
 // Data for additional services for easy management
 const additionalServices = [
@@ -230,6 +234,53 @@ export default function PricingPage() {
             date: "2024-11-15"
           }
         ]}
+      />
+      
+      {/* Enhanced Schema Components for Maximum SEO */}
+      <EnhancedBreadcrumbSchema items={[
+        { name: "Home", url: "/" },
+        { name: "Pricing", url: "/pricing" }
+      ]} />
+      
+      <EnhancedFAQSchema 
+        pageTitle="Process Serving Pricing"
+        faqs={[
+          {
+            question: "What factors affect process serving pricing?",
+            answer: "Process serving costs vary based on service urgency, location distance, document complexity, and specific timing requirements. We offer standard, rush, same-day, and emergency service options with transparent pricing."
+          },
+          {
+            question: "Are there any hidden fees in your pricing?",
+            answer: "No hidden fees! Our pricing is completely transparent. We quote all costs upfront including any additional services, travel surcharges, or special timing requirements before beginning service."
+          },
+          {
+            question: "Do you offer discounts for multiple services?",
+            answer: "Yes! We offer reduced rates for multiple services at the same address and volume discounts for law firms and businesses with regular process serving needs. Contact us for custom pricing."
+          },
+          {
+            question: "What's included in your standard pricing?",
+            answer: "Standard pricing includes multiple service attempts, GPS tracking, photo documentation, professional affidavit of service, and digital delivery of completion documents."
+          },
+          {
+            question: "How do I get a quote for my specific needs?",
+            answer: "Call (539) 367-6832 or use our online scheduling system. We provide instant quotes based on your location, urgency, and specific service requirements."
+          }
+        ]}
+      />
+      
+      <EnhancedServiceSchema 
+        serviceName="Process Serving Pricing & Services"
+        serviceDescription="Transparent pricing for professional process serving throughout Oklahoma with flexible service options"
+        serviceArea="Oklahoma (Tulsa County, Statewide Coverage)"
+        serviceType="Legal Document Service Pricing"
+        additionalServices={["Volume Discounts", "Law Firm Packages", "Emergency Service"]}
+      />
+      
+      <PerformanceSchema 
+        pageName="Process Serving Pricing - Oklahoma"
+        pageUrl="/pricing"
+        loadTime={1.8}
+        mobileOptimized={true}
       />
     </main>
   );

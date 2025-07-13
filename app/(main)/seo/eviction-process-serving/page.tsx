@@ -1,5 +1,9 @@
 import { Metadata } from 'next';
 import ReviewSchema from '@/components/ui/review-schema';
+import EnhancedBreadcrumbSchema from '@/components/ui/enhanced-breadcrumb-schema';
+import EnhancedFAQSchema, { generateProcessServingFAQs } from '@/components/ui/enhanced-faq-schema';
+import EnhancedServiceSchema from '@/components/ui/enhanced-service-schema';
+import PerformanceSchema from '@/components/ui/performance-schema';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
@@ -249,11 +253,39 @@ export default function EvictionProcessServing() {
             </p>
           </div>
         </div>
-      <ReviewSchema businessName="Just Legal Solutions" aggregateRating={4.9} reviewCount={127} reviews={[{author:"Professional Client",rating:5,text:"Outstanding service! Professional, fast, and reliable.",date:"2024-12-01"}]} />
+      
+      {/* Enhanced Schema Components for Maximum SEO */}
+      <EnhancedBreadcrumbSchema items={[
+        { name: "Home", url: "/" },
+        { name: "Services", url: "/services" },
+        { name: "eviction process serving", url: "/eviction-process-serving" }
+      ]} />
+      
+      <EnhancedFAQSchema 
+        pageTitle="eviction process serving in Oklahoma"
+        faqs={generateProcessServingFAQs("Oklahoma", "Eviction Service")}
+      />
+      
+      <EnhancedServiceSchema 
+        serviceName="eviction process serving"
+        serviceDescription="Professional Eviction Service services in Oklahoma, Oklahoma"
+        serviceArea="Oklahoma, Oklahoma"
+        serviceType="Eviction Service"
+        additionalServices={["Rush Service", "Same-Day Service", "Emergency Service"]}
+      />
+      
+      <PerformanceSchema 
+        pageName="eviction process serving - Oklahoma"
+        pageUrl="/eviction-process-serving"
+        loadTime={2.0}
+        mobileOptimized={true}
+      />
+            <ReviewSchema businessName="Just Legal Solutions" aggregateRating={4.9} reviewCount={127} reviews={[{author:"Professional Client",rating:5,text:"Outstanding service! Professional, fast, and reliable.",date:"2024-12-01"}]} />
       </div>
     </div>
   );
 }
+
 
 
 

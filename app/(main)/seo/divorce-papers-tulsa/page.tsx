@@ -1,6 +1,10 @@
 import { Metadata } from 'next';
 import Image from 'next/image';
 import ReviewSchema from '@/components/ui/review-schema';
+import EnhancedBreadcrumbSchema from '@/components/ui/enhanced-breadcrumb-schema';
+import EnhancedFAQSchema from '@/components/ui/enhanced-faq-schema';
+import EnhancedServiceSchema from '@/components/ui/enhanced-service-schema';
+import PerformanceSchema from '@/components/ui/performance-schema';
 import Script from 'next/script';
 
 export const metadata: Metadata = {
@@ -162,6 +166,54 @@ export default function DivorcePapersTulsa() {
         </div>
       </div>
       
+      {/* Enhanced Schema Components for Maximum SEO */}
+      <EnhancedBreadcrumbSchema items={[
+        { name: "Home", url: "/" },
+        { name: "Services", url: "/services" },
+        { name: "Divorce Papers Serving", url: "/divorce-papers-tulsa" }
+      ]} />
+      
+      <EnhancedFAQSchema 
+        pageTitle="Divorce Papers Serving in Tulsa"
+        faqs={[
+          {
+            question: "How much does it cost to serve divorce papers in Tulsa?",
+            answer: "Divorce paper serving in Tulsa pricing varies based on service urgency and specific requirements. We offer standard, rush, same-day, and emergency service options. Contact us at (539) 367-6832 for a personalized quote. We handle all family court documents with discretion and professionalism."
+          },
+          {
+            question: "How quickly can divorce papers be served in Tulsa County?",
+            answer: "We offer flexible timing options for divorce paper serving in Tulsa County. Standard service typically takes 3-5 business days, with expedited rush, same-day, and emergency 2-hour service available when time-sensitive family court situations require immediate attention."
+          },
+          {
+            question: "Do you handle sensitive family court documents with discretion?",
+            answer: "Yes, we understand the sensitive nature of divorce and family court documents. All papers are served with complete professionalism, discretion, and confidentiality."
+          },
+          {
+            question: "What divorce documents can you serve in Oklahoma?",
+            answer: "We serve all divorce-related documents including petitions for dissolution, divorce summons, custody papers, child support documents, property division orders, restraining orders, and modification papers."
+          },
+          {
+            question: "Do you provide proof of service for divorce papers?",
+            answer: "Yes! We provide comprehensive documentation including professional affidavit of service, photo verification, GPS tracking data, and detailed service reports for immediate court filing."
+          }
+        ]}
+      />
+      
+      <EnhancedServiceSchema 
+        serviceName="Divorce Papers Serving"
+        serviceDescription="Professional and discreet divorce document serving in Tulsa County, Oklahoma"
+        serviceArea="Tulsa County, Oklahoma (Tulsa, Broken Arrow, Bixby, Jenks)"
+        serviceType="Family Court Document Service"
+        additionalServices={["Child Custody Papers", "Support Documents", "Property Orders"]}
+      />
+      
+      <PerformanceSchema 
+        pageName="Divorce Papers Serving - Tulsa County"
+        pageUrl="/divorce-papers-tulsa"
+        loadTime={1.9}
+        mobileOptimized={true}
+      />
+      
       {/* Review Schema for SEO */}
       <ReviewSchema 
         businessName="Just Legal Solutions - Divorce Papers Service"
@@ -189,7 +241,7 @@ export default function DivorcePapersTulsa() {
         ]}
       />
       
-      {/* FAQ Schema for Divorce Papers */}
+      {/* Legacy FAQ Schema - Keeping for compatibility */}
       <Script
         id="divorce-faq-schema"
         type="application/ld+json"

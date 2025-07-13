@@ -1,5 +1,9 @@
 import { Metadata } from 'next';
 import ReviewSchema from '@/components/ui/review-schema';
+import EnhancedBreadcrumbSchema from '@/components/ui/enhanced-breadcrumb-schema';
+import EnhancedFAQSchema, { generateProcessServingFAQs } from '@/components/ui/enhanced-faq-schema';
+import EnhancedServiceSchema from '@/components/ui/enhanced-service-schema';
+import PerformanceSchema from '@/components/ui/performance-schema';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
@@ -147,11 +151,39 @@ export default function ProcessServerBrokenArrow() {
             </div>
           </div>
         </div>
-      <ReviewSchema businessName="Just Legal Solutions" aggregateRating={4.9} reviewCount={127} reviews={[{author:"Professional Client",rating:5,text:"Outstanding service! Professional, fast, and reliable.",date:"2024-12-01"}]} />
+      
+      {/* Enhanced Schema Components for Maximum SEO */}
+      <EnhancedBreadcrumbSchema items={[
+        { name: "Home", url: "/" },
+        { name: "Services", url: "/services" },
+        { name: "process server broken arrow", url: "/process-server-broken-arrow" }
+      ]} />
+      
+      <EnhancedFAQSchema 
+        pageTitle="process server broken arrow in Broken Arrow"
+        faqs={generateProcessServingFAQs("Broken Arrow", "Process Serving")}
+      />
+      
+      <EnhancedServiceSchema 
+        serviceName="process server broken arrow"
+        serviceDescription="Professional Process Serving services in Broken Arrow, Oklahoma"
+        serviceArea="Broken Arrow, Oklahoma"
+        serviceType="Process Serving"
+        additionalServices={["Rush Service", "Same-Day Service", "Emergency Service"]}
+      />
+      
+      <PerformanceSchema 
+        pageName="process server broken arrow - Broken Arrow"
+        pageUrl="/process-server-broken-arrow"
+        loadTime={2.0}
+        mobileOptimized={true}
+      />
+            <ReviewSchema businessName="Just Legal Solutions" aggregateRating={4.9} reviewCount={127} reviews={[{author:"Professional Client",rating:5,text:"Outstanding service! Professional, fast, and reliable.",date:"2024-12-01"}]} />
       </div>
     </div>
   );
 }
+
 
 
 

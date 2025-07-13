@@ -3,6 +3,10 @@ import Link from 'next/link';
 import Script from 'next/script';
 import { ChevronDown } from 'lucide-react';
 import ReviewSchema from '@/components/ui/review-schema';
+import EnhancedBreadcrumbSchema from '@/components/ui/enhanced-breadcrumb-schema';
+import EnhancedFAQSchema from '@/components/ui/enhanced-faq-schema';
+import EnhancedServiceSchema from '@/components/ui/enhanced-service-schema';
+import PerformanceSchema from '@/components/ui/performance-schema';
 
 export const metadata = {
   title: 'Business Solutions & Executive Support Services',
@@ -276,6 +280,53 @@ export default function ServicesPage() {
             date: "2024-11-10"
           }
         ]}
+      />
+      
+      {/* Enhanced Schema Components for Maximum SEO */}
+      <EnhancedBreadcrumbSchema items={[
+        { name: "Home", url: "/" },
+        { name: "Services", url: "/services" }
+      ]} />
+      
+      <EnhancedFAQSchema 
+        pageTitle="Business Solutions & Executive Services"
+        faqs={[
+          {
+            question: "What types of business support services do you offer?",
+            answer: "We provide comprehensive business solutions including executive assistant services, event coordination, HR & payroll support, travel management, customer service, and professional data entry solutions throughout Oklahoma."
+          },
+          {
+            question: "How do your executive assistant services work?",
+            answer: "Our executive assistant services are tailored to your specific business needs. We handle calendar management, correspondence, travel arrangements, meeting coordination, and administrative tasks to streamline your operations."
+          },
+          {
+            question: "Do you handle confidential business information securely?",
+            answer: "Absolutely. We maintain strict confidentiality protocols and security measures for all client information. Our team is experienced in handling sensitive business data with complete discretion and professionalism."
+          },
+          {
+            question: "Can you provide ongoing support or just one-time projects?",
+            answer: "We offer both ongoing partnership arrangements and one-time project support. Whether you need regular administrative assistance or help with specific business initiatives, we can accommodate your requirements."
+          },
+          {
+            question: "What geographic areas do you serve for business services?",
+            answer: "We primarily serve the Tulsa metropolitan area and surrounding Oklahoma regions. For certain services, we can provide remote support statewide and coordinate with local partners as needed."
+          }
+        ]}
+      />
+      
+      <EnhancedServiceSchema 
+        serviceName="Business Solutions & Executive Support"
+        serviceDescription="Comprehensive executive assistant and business support services in Oklahoma including event coordination, HR support, and administrative solutions"
+        serviceArea="Oklahoma (Tulsa Metropolitan Area, Remote Support Available)"
+        serviceType="Executive Assistant Services"
+        additionalServices={["Event Planning", "HR & Payroll Support", "Travel Management", "Data Entry"]}
+      />
+      
+      <PerformanceSchema 
+        pageName="Business Solutions & Executive Services - Oklahoma"
+        pageUrl="/services"
+        loadTime={2.2}
+        mobileOptimized={true}
       />
     </>
   );

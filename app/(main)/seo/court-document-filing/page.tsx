@@ -1,6 +1,10 @@
 import { Metadata } from 'next';
 import Image from 'next/image';
 import ReviewSchema from '@/components/ui/review-schema';
+import EnhancedBreadcrumbSchema from '@/components/ui/enhanced-breadcrumb-schema';
+import EnhancedFAQSchema, { generateProcessServingFAQs } from '@/components/ui/enhanced-faq-schema';
+import EnhancedServiceSchema from '@/components/ui/enhanced-service-schema';
+import PerformanceSchema from '@/components/ui/performance-schema';
 import Script from 'next/script';
 
 export const metadata: Metadata = {
@@ -181,7 +185,34 @@ export default function CourtDocumentFiling() {
       </div>
       
       {/* Review Schema for SEO */}
-      <ReviewSchema 
+      
+      {/* Enhanced Schema Components for Maximum SEO */}
+      <EnhancedBreadcrumbSchema items={[
+        { name: "Home", url: "/" },
+        { name: "Services", url: "/services" },
+        { name: "court document filing", url: "/court-document-filing" }
+      ]} />
+      
+      <EnhancedFAQSchema 
+        pageTitle="court document filing in Oklahoma"
+        faqs={generateProcessServingFAQs("Oklahoma", "Process Serving")}
+      />
+      
+      <EnhancedServiceSchema 
+        serviceName="court document filing"
+        serviceDescription="Professional Process Serving services in Oklahoma, Oklahoma"
+        serviceArea="Oklahoma, Oklahoma"
+        serviceType="Process Serving"
+        additionalServices={["Rush Service", "Same-Day Service", "Emergency Service"]}
+      />
+      
+      <PerformanceSchema 
+        pageName="court document filing - Oklahoma"
+        pageUrl="/court-document-filing"
+        loadTime={2.0}
+        mobileOptimized={true}
+      />
+            <ReviewSchema 
         businessName="Just Legal Solutions - Court Document Filing"
         aggregateRating={4.8}
         reviewCount={73}
@@ -247,6 +278,7 @@ export default function CourtDocumentFiling() {
     </div>
   );
 }
+
 
 
 

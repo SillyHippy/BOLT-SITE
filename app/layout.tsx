@@ -10,6 +10,7 @@ import { MobileOptimizer } from '@/components/ui/mobile-optimizer';
 import { MobilePerformanceBoost } from '@/components/ui/mobile-performance-boost';
 import { ServiceWorkerRegistration } from '@/components/ui/service-worker-registration';
 import LocalBusinessSchema from '@/components/ui/local-business-schema';
+import WebsiteSchema from '@/components/ui/website-schema';
 
 const inter = Inter({ 
   subsets: ['latin'],
@@ -176,6 +177,7 @@ export default function RootLayout({
         <MobilePerformanceBoost />
         <ServiceWorkerRegistration />
         <LocalBusinessSchema />
+        <WebsiteSchema />
         {children}
       </body>
     </html>

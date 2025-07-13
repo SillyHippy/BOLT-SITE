@@ -1,5 +1,9 @@
 import { Metadata } from 'next';
 import ReviewSchema from '@/components/ui/review-schema';
+import EnhancedBreadcrumbSchema from '@/components/ui/enhanced-breadcrumb-schema';
+import EnhancedFAQSchema from '@/components/ui/enhanced-faq-schema';
+import EnhancedServiceSchema from '@/components/ui/enhanced-service-schema';
+import PerformanceSchema from '@/components/ui/performance-schema';
 
 export const metadata: Metadata = {
   title: 'Process Serving FAQ | Common Questions Answered | Just Legal Solutions',
@@ -307,6 +311,75 @@ export default function ProcessServingFAQ() {
             </p>
           </div>
         </div>
+      
+      {/* Enhanced Schema Components for Maximum SEO */}
+      <EnhancedBreadcrumbSchema items={[
+        { name: "Home", url: "/" },
+        { name: "Services", url: "/services" },
+        { name: "Process Serving FAQ", url: "/process-serving-faq" }
+      ]} />
+      
+      <EnhancedFAQSchema 
+        pageTitle="Process Serving FAQ"
+        faqs={[
+          {
+            question: "How much does process serving cost in Oklahoma?",
+            answer: "Process serving pricing in Oklahoma varies based on service urgency, location, and specific requirements. We offer competitive rates for standard, rush, same-day, and emergency service options. Contact us at (539) 367-6832 for a customized quote. All service includes multiple attempts, GPS tracking, and professional affidavits."
+          },
+          {
+            question: "How long does process serving take in Oklahoma?",
+            answer: "We offer flexible timing options for process serving in Oklahoma. Standard service typically takes 3-5 business days, with expedited rush, same-day, and emergency 2-hour service available when time-sensitive legal situations require immediate attention."
+          },
+          {
+            question: "What areas do you serve in Oklahoma?",
+            answer: "We provide comprehensive coverage throughout Tulsa County, including Tulsa, Broken Arrow, Bixby, Jenks, Sand Springs, Sapulpa, Glenpool, and surrounding areas. We also serve Rogers County, Wagoner County, Creek County, and statewide with travel surcharge."
+          },
+          {
+            question: "What types of documents can you serve?",
+            answer: "We serve all legal documents including divorce papers, civil lawsuit documents, eviction notices, small claims papers, restraining orders, subpoenas, business litigation papers, debt collection documents, and court orders."
+          },
+          {
+            question: "Do you provide proof of service?",
+            answer: "Yes! We provide comprehensive documentation including professional affidavit of service, photo documentation, GPS tracking data, detailed service reports, and digital delivery for immediate court filing."
+          },
+          {
+            question: "Are you licensed process servers in Oklahoma?",
+            answer: "Yes, Just Legal Solutions operates in full compliance with Oklahoma state requirements. Our process servers follow all Oklahoma due diligence standards and court rules for legal document service."
+          },
+          {
+            question: "Can anyone serve legal documents in Oklahoma?",
+            answer: "While Oklahoma law allows certain individuals to serve documents, professional service is recommended for higher success rates, legal expertise, proper documentation, and compliance with all court requirements."
+          },
+          {
+            question: "Do you serve documents on weekends and holidays?",
+            answer: "Yes! We offer flexible scheduling including weekend service, holiday service, evening service, and 24/7 emergency availability for urgent legal matters. Additional fees may apply for after-hours service."
+          },
+          {
+            question: "What information do you need to serve documents?",
+            answer: "We need complete documents to be served, full name of person to be served, current address, physical description if available, best times for service attempts, and any special instructions or security concerns."
+          },
+          {
+            question: "How do I get started with process serving?",
+            answer: "Getting started is easy: Call (539) 367-6832, provide document details and service requirements, receive instant quote, submit documents via email or in-person pickup, track progress with real-time updates, and receive completion documentation."
+          }
+        ]}
+      />
+      
+      <EnhancedServiceSchema 
+        serviceName="Process Serving FAQ and Consultation"
+        serviceDescription="Comprehensive FAQ and professional consultation for process serving in Oklahoma"
+        serviceArea="Oklahoma (Tulsa County, Broken Arrow, Sapulpa, Statewide)"
+        serviceType="Legal Document Service FAQ"
+        additionalServices={["Phone Consultation", "Email Support", "Service Planning"]}
+      />
+      
+      <PerformanceSchema 
+        pageName="Process Serving FAQ - Oklahoma"
+        pageUrl="/process-serving-faq"
+        loadTime={2.1}
+        mobileOptimized={true}
+      />
+      
       <ReviewSchema businessName="Just Legal Solutions" aggregateRating={4.9} reviewCount={127} reviews={[{author:"Professional Client",rating:5,text:"Outstanding service! Professional, fast, and reliable.",date:"2024-12-01"}]} />
       </div>
     </div>

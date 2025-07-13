@@ -1,5 +1,9 @@
 import { Metadata } from 'next';
 import ReviewSchema from '@/components/ui/review-schema';
+import EnhancedBreadcrumbSchema from '@/components/ui/enhanced-breadcrumb-schema';
+import EnhancedFAQSchema, { generateProcessServingFAQs } from '@/components/ui/enhanced-faq-schema';
+import EnhancedServiceSchema from '@/components/ui/enhanced-service-schema';
+import PerformanceSchema from '@/components/ui/performance-schema';
 
 export const metadata: Metadata = {
   title: 'Same Day Process Serving Tulsa | Emergency Document Delivery | Just Legal Solutions',
@@ -158,11 +162,39 @@ export default function SameDayProcessServingTulsa() {
             </p>
           </div>
         </div>
-      <ReviewSchema businessName="Just Legal Solutions" aggregateRating={4.9} reviewCount={127} reviews={[{author:"Professional Client",rating:5,text:"Outstanding service! Professional, fast, and reliable.",date:"2024-12-01"}]} />
+      
+      {/* Enhanced Schema Components for Maximum SEO */}
+      <EnhancedBreadcrumbSchema items={[
+        { name: "Home", url: "/" },
+        { name: "Services", url: "/services" },
+        { name: "same day process serving tulsa", url: "/same-day-process-serving-tulsa" }
+      ]} />
+      
+      <EnhancedFAQSchema 
+        pageTitle="same day process serving tulsa in Tulsa"
+        faqs={generateProcessServingFAQs("Tulsa", "Process Serving")}
+      />
+      
+      <EnhancedServiceSchema 
+        serviceName="same day process serving tulsa"
+        serviceDescription="Professional Process Serving services in Tulsa, Oklahoma"
+        serviceArea="Tulsa, Oklahoma"
+        serviceType="Process Serving"
+        additionalServices={["Rush Service", "Same-Day Service", "Emergency Service"]}
+      />
+      
+      <PerformanceSchema 
+        pageName="same day process serving tulsa - Tulsa"
+        pageUrl="/same-day-process-serving-tulsa"
+        loadTime={2.0}
+        mobileOptimized={true}
+      />
+            <ReviewSchema businessName="Just Legal Solutions" aggregateRating={4.9} reviewCount={127} reviews={[{author:"Professional Client",rating:5,text:"Outstanding service! Professional, fast, and reliable.",date:"2024-12-01"}]} />
       </div>
     </div>
   );
 }
+
 
 
 

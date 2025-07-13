@@ -1,5 +1,9 @@
 import { Metadata } from 'next';
 import ReviewSchema from '@/components/ui/review-schema';
+import EnhancedBreadcrumbSchema from '@/components/ui/enhanced-breadcrumb-schema';
+import EnhancedFAQSchema, { generateProcessServingFAQs } from '@/components/ui/enhanced-faq-schema';
+import EnhancedServiceSchema from '@/components/ui/enhanced-service-schema';
+import PerformanceSchema from '@/components/ui/performance-schema';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
@@ -201,11 +205,39 @@ export default function ProcessServerTulsaPage() {
             </p>
           </div>
         </div>
-      <ReviewSchema businessName="Just Legal Solutions" aggregateRating={4.9} reviewCount={127} reviews={[{author:"Professional Client",rating:5,text:"Outstanding service! Professional, fast, and reliable.",date:"2024-12-01"}]} />
+      
+      {/* Enhanced Schema Components for Maximum SEO */}
+      <EnhancedBreadcrumbSchema items={[
+        { name: "Home", url: "/" },
+        { name: "Services", url: "/services" },
+        { name: "process server tulsa", url: "/process-server-tulsa" }
+      ]} />
+      
+      <EnhancedFAQSchema 
+        pageTitle="process server tulsa in Tulsa"
+        faqs={generateProcessServingFAQs("Tulsa", "Process Serving")}
+      />
+      
+      <EnhancedServiceSchema 
+        serviceName="process server tulsa"
+        serviceDescription="Professional Process Serving services in Tulsa, Oklahoma"
+        serviceArea="Tulsa, Oklahoma"
+        serviceType="Process Serving"
+        additionalServices={["Rush Service", "Same-Day Service", "Emergency Service"]}
+      />
+      
+      <PerformanceSchema 
+        pageName="process server tulsa - Tulsa"
+        pageUrl="/process-server-tulsa"
+        loadTime={2.0}
+        mobileOptimized={true}
+      />
+            <ReviewSchema businessName="Just Legal Solutions" aggregateRating={4.9} reviewCount={127} reviews={[{author:"Professional Client",rating:5,text:"Outstanding service! Professional, fast, and reliable.",date:"2024-12-01"}]} />
       </div>
     </div>
   );
 }
+
 
 
 

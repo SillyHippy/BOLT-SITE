@@ -1,5 +1,9 @@
 import { Metadata } from 'next';
 import ReviewSchema from '@/components/ui/review-schema';
+import EnhancedBreadcrumbSchema from '@/components/ui/enhanced-breadcrumb-schema';
+import EnhancedFAQSchema, { generateProcessServingFAQs } from '@/components/ui/enhanced-faq-schema';
+import EnhancedServiceSchema from '@/components/ui/enhanced-service-schema';
+import PerformanceSchema from '@/components/ui/performance-schema';
 
 export const metadata: Metadata = {
   title: 'Process Server Bristow | Creek County Legal Document Service',
@@ -128,11 +132,39 @@ export default function ProcessServerBristow() {
             </p>
           </div>
         </div>
-      <ReviewSchema businessName="Just Legal Solutions" aggregateRating={4.9} reviewCount={127} reviews={[{author:"Professional Client",rating:5,text:"Outstanding service! Professional, fast, and reliable.",date:"2024-12-01"}]} />
+      
+      {/* Enhanced Schema Components for Maximum SEO */}
+      <EnhancedBreadcrumbSchema items={[
+        { name: "Home", url: "/" },
+        { name: "Services", url: "/services" },
+        { name: "process server bristow", url: "/process-server-bristow" }
+      ]} />
+      
+      <EnhancedFAQSchema 
+        pageTitle="process server bristow in Oklahoma"
+        faqs={generateProcessServingFAQs("Oklahoma", "Process Serving")}
+      />
+      
+      <EnhancedServiceSchema 
+        serviceName="process server bristow"
+        serviceDescription="Professional Process Serving services in Oklahoma, Oklahoma"
+        serviceArea="Oklahoma, Oklahoma"
+        serviceType="Process Serving"
+        additionalServices={["Rush Service", "Same-Day Service", "Emergency Service"]}
+      />
+      
+      <PerformanceSchema 
+        pageName="process server bristow - Oklahoma"
+        pageUrl="/process-server-bristow"
+        loadTime={2.0}
+        mobileOptimized={true}
+      />
+            <ReviewSchema businessName="Just Legal Solutions" aggregateRating={4.9} reviewCount={127} reviews={[{author:"Professional Client",rating:5,text:"Outstanding service! Professional, fast, and reliable.",date:"2024-12-01"}]} />
       </div>
     </div>
   );
 }
+
 
 
 
