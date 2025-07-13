@@ -108,3 +108,9 @@ Allow: /
 # Emerging AI Platform Ready - Sun Jul 13 17:21:56 UTC 2025
 # Future-proofed for next-gen AI systems
 # Last updated: Sun Jul 13 17:45:34 UTC 2025
+
+# AI Search Optimization - Sun Jul 13 18:26:01 UTC 2025
+User-agent: ChatGPT-User
+Allow: /
+User-agent: Claude-Web
+Allow: /
