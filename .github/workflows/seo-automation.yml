@@ -2,7 +2,7 @@ name: Advanced SEO Automation
 
 on:
   schedule:
-    # Run daily at 6 AM UTC (1 AM CST)
+    # Run daily at 6 AM UTC (1 AM CST) - EFFICIENT SCHEDULE
     - cron: '0 6 * * *'
   workflow_dispatch: # Allow manual trigger
   push:
@@ -11,10 +11,13 @@ on:
       - 'app/**'
       - 'components/**'
       - 'public/sitemap.xml'
+    # Only run on significant changes, not every commit
 
 jobs:
   update-seo:
     runs-on: ubuntu-latest
+    # TIMEOUT to prevent runaway processes (saves money)
+    timeout-minutes: 15
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -26,7 +29,10 @@ jobs:
           cache: 'npm'
           
       - name: Install dependencies
-        run: npm ci
+        run: |
+          # FAST INSTALL - Only production dependencies
+          npm ci --production --silent
+          echo "✅ Dependencies installed efficiently"
         
       - name: Check sitemap health
         run: |
