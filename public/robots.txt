@@ -28,3 +28,4 @@ Crawl-delay: 1
 # Primary Sitemap (Static XML with Current Timestamps)
 Sitemap: https://justlegalsolutions.org/sitemap.xml
 Sitemap: https://justlegalsolutions.org/voice-search-sitemap.xml
+# Last updated: Sun Jul 13 16:13:02 UTC 2025
