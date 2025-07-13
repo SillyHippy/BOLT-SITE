@@ -8,9 +8,13 @@ on:
 jobs:
   emergency-boost:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
         
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -60,7 +64,6 @@ jobs:
         run: |
           git config --global user.name "emergency-ranking-bot"
           git config --global user.email "info@justlegalsolutions.org"
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           
       - name: Commit Emergency Updates
         run: |
@@ -68,3 +71,5 @@ jobs:
           git add .
           git diff --staged --quiet || git commit -m "🚨 Emergency Ranking Boost: $current_time"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

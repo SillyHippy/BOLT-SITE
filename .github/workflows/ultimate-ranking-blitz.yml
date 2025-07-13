@@ -10,10 +10,14 @@ on:
 jobs:
   ranking-acceleration:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-        
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -45,7 +49,6 @@ jobs:
         run: |
           git config --global user.name "ranking-blitz-bot"
           git config --global user.email "info@justlegalsolutions.org"
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           
       - name: Commit and Push Changes
         run: |
@@ -53,4 +56,5 @@ jobs:
           git diff --staged --quiet || git commit -m "🚀 Ultimate Ranking Blitz: $(date '+%Y-%m-%d %H:%M UTC')"
           git push
         env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
