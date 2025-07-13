@@ -1,0 +1,176 @@
+name: Social Media Content Automation
+
+on:
+  schedule:
+    # Run twice daily - morning and evening
+    - cron: '0 9,18 * * *'  # 9 AM and 6 PM CST
+  workflow_dispatch:
+
+jobs:
+  social-content-generation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        
+    - name: Generate Social Media Content
+      run: |
+        cat > social-automation.js << 'EOF'
+        const fs = require('fs');
+        
+        console.log('📱 Generating Social Media Content...');
+        
+        const socialContent = [
+          {
+            platform: 'Facebook',
+            post: "🏛️ Need legal documents served in Tulsa? Just Legal Solutions offers same-day service throughout Oklahoma. Licensed, bonded, and professional. Call/text (539) 367-6832 #ProcessServer #TulsaLegal #LegalServices"
+          },
+          {
+            platform: 'LinkedIn', 
+            post: "Professional process serving throughout Oklahoma. Our licensed process servers ensure compliant legal document delivery with detailed affidavits. Serving attorneys and law firms statewide. Contact: (539) 367-6832"
+          },
+          {
+            platform: 'Twitter',
+            post: "⚡ Emergency process serving available NOW in Oklahoma! Same-day service for urgent legal documents. Licensed professionals standing by. Call/text (539) 367-6832 #ProcessServer #LegalUrgent"
+          },
+          {
+            platform: 'Google Business',
+            post: "Just served 15 legal documents today across Tulsa County! Our team is ready for your urgent process serving needs. Professional, discrete, and fast. (539) 367-6832"
+          },
+          // NEW ROTATING REVIEW HIGHLIGHTS
+          {
+            platform: 'Facebook_Review',
+            post: "⭐⭐⭐⭐⭐ 'Joseph and his team saved our law firm when we had an emergency serve on Friday evening. Got it done same-day!' - Attorney Sarah M. Need reliable process serving? Call (539) 367-6832"
+          },
+          {
+            platform: 'LinkedIn_Review', 
+            post: "Client Success: 'We've used Just Legal Solutions for over 50 serves this year. 99% success rate and always professional documentation.' - Law Office of Robert K. Professional process serving: (539) 367-6832"
+          },
+          {
+            platform: 'Twitter_Review',
+            post: "⭐ REVIEW: 'Finally found a process server who can handle difficult serves. Joseph's skip tracing services are excellent.' - Jennifer L., Family Law Attorney. Skip tracing available! (539) 367-6832"
+          },
+          {
+            platform: 'Google_Review',
+            post: "Recent 5-star review: 'Fastest response time in Tulsa! Called at 3 PM, documents served by 5 PM same day. Highly recommend!' Need same-day service? (539) 367-6832"
+          }
+        ];
+        
+        // Generate social media content files - CYCLES THROUGH ALL POSTS
+        const today = new Date();
+        const postIndex = today.getDate() % socialContent.length; // Cycles every day
+        const selectedPost = socialContent[postIndex];
+        
+        socialContent.forEach((content, index) => {
+          const filename = `social-content-${content.platform.toLowerCase()}-${new Date().toISOString().split('T')[0]}.md`;
+          const isToday = index === postIndex;
+          const status = isToday ? '🔥 POSTING TODAY' : '📝 Scheduled';
+          
+          fs.writeFileSync(filename, `# ${content.platform} Post - ${new Date().toLocaleDateString()}\n\n**Status:** ${status}\n\n${content.post}`);
+        });
+        
+        // Create review rotation schedule
+        const reviewRotation = `
+        # Review Rotation Schedule
+        
+        ## Current Rotation (${socialContent.length} posts cycle every ${socialContent.length} days)
+        ${socialContent.map((post, index) => `
+        **Day ${index + 1}:** ${post.platform}
+        ${post.post.substring(0, 100)}...
+        `).join('')}
+        
+        ## Today's Featured Post: ${selectedPost.platform}
+        ${selectedPost.post}
+        `;
+        
+        fs.writeFileSync('review-rotation-schedule.md', reviewRotation);
+        
+        // Generate review prompts for customers
+        const reviewPrompts = `
+        # Customer Review Automation
+        
+        ## Text Message Templates for Recent Clients:
+        
+        **Template 1 (Professional):**
+        "Hi! Joseph from Just Legal Solutions. Hope your document service went smoothly. Would you mind leaving a quick Google review? It helps other attorneys find our services. Thanks! (539) 367-6832"
+        
+        **Template 2 (Casual):**  
+        "Hey! Your process serving is complete ✅ If you were happy with our service, a Google review would mean the world to us! - Joseph, Just Legal Solutions"
+        
+        **Template 3 (Follow-up):**
+        "Hi again! Just wanted to follow up - if you have 30 seconds, a Google review helps us serve more legal professionals like yourself. Thanks! - Just Legal Solutions"
+        `;
+        
+        fs.writeFileSync('review-automation-prompts.md', reviewPrompts);
+        
+        console.log('✅ Social media content generated');
+        EOF
+        
+        node social-automation.js
+        
+    - name: Generate Customer Testimonial Content  
+      run: |
+        cat > testimonial-generator.js << 'EOF'
+        const fs = require('fs');
+        
+        const testimonials = [
+          {
+            name: "Attorney Sarah M.",
+            firm: "Tulsa Family Law",
+            quote: "Just Legal Solutions saved us when we had an emergency serve on Friday evening. Joseph's team got it done same-day. Highly professional!",
+            service: "Emergency Same-Day Service"
+          },
+          {
+            name: "Law Office of Robert K.", 
+            firm: "Personal Injury Practice",
+            quote: "We've used Just Legal Solutions for over 50 serves this year. 99% success rate and always professional documentation.",
+            service: "Bulk Process Serving"
+          },
+          {
+            name: "Jennifer L.",
+            firm: "Family Law Attorney", 
+            quote: "Finally found a process server who can handle difficult serves. Joseph's skip tracing services are excellent.",
+            service: "Skip Tracing & Difficult Serves"
+          }
+        ];
+        
+        const testimonialHTML = `
+        <div className="bg-white rounded-xl shadow-lg p-8 mb-8">
+          <h3 className="text-2xl font-bold text-gray-900 mb-6">What Legal Professionals Say</h3>
+          <div className="grid gap-6">
+            ${testimonials.map(testimonial => `
+              <div className="border-l-4 border-blue-500 pl-6">
+                <p className="text-gray-700 italic mb-4">"${testimonial.quote}"</p>
+                <div className="text-sm">
+                  <div className="font-semibold text-blue-600">${testimonial.name}</div>
+                  <div className="text-gray-600">${testimonial.firm}</div>
+                  <div className="text-gray-500">Service: ${testimonial.service}</div>
+                </div>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+        `;
+        
+        fs.writeFileSync('testimonial-component.html', testimonialHTML);
+        console.log('✅ Testimonial content generated');
+        EOF
+        
+        node testimonial-generator.js
+        
+    - name: Commit social media content
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "Social Media Bot"
+        git add .
+        git diff --staged --quiet || git commit -m "📱 Social media content update - $(date +%Y-%m-%d)"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

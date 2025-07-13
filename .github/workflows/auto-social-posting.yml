@@ -1,0 +1,166 @@
+name: Auto Social Media Posting
+
+on:
+  schedule:
+    # Post at optimal times: 9 AM and 6 PM CST
+    - cron: '0 9,18 * * *'
+  workflow_dispatch:
+
+jobs:
+  auto-social-posting:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        
+    - name: Generate Auto-Post Content
+      run: |
+        cat > auto-poster.js << 'EOF'
+        const fs = require('fs');
+        
+        console.log('🤖 Generating Auto-Post Content...');
+        
+        const autoPostContent = [
+          {
+            platform: 'Facebook Business',
+            content: "🏛️ Need legal documents served in Tulsa? Just Legal Solutions offers same-day service throughout Oklahoma. Licensed, bonded, and professional. Call/text (539) 367-6832",
+            hashtags: "#ProcessServer #TulsaLegal #LegalServices #Oklahoma"
+          },
+          {
+            platform: 'Google Business', 
+            content: "Professional process serving throughout Oklahoma. Licensed process servers ensure compliant legal document delivery with detailed affidavits. Serving attorneys and law firms statewide. Contact: (539) 367-6832",
+            hashtags: ""
+          },
+          {
+            platform: 'LinkedIn Business',
+            content: "⚡ Emergency process serving available NOW in Oklahoma! Same-day service for urgent legal documents. Licensed professionals standing by. Call/text (539) 367-6832",
+            hashtags: "#ProcessServer #LegalUrgent #ProfessionalServices"
+          },
+          // REVIEW HIGHLIGHTS
+          {
+            platform: 'Facebook Review',
+            content: "⭐⭐⭐⭐⭐ 'Joseph and his team saved our law firm when we had an emergency serve on Friday evening. Got it done same-day!' - Attorney Sarah M. Need reliable process serving? Call (539) 367-6832",
+            hashtags: "#ClientReview #ProcessServer #TulsaLegal"
+          },
+          {
+            platform: 'Google Review Highlight',
+            content: "Recent 5-star review: 'Fastest response time in Tulsa! Called at 3 PM, documents served by 5 PM same day. Highly recommend!' Need same-day service? (539) 367-6832",
+            hashtags: ""
+          },
+          {
+            platform: 'LinkedIn Success Story',
+            content: "Client Success: 'We've used Just Legal Solutions for over 50 serves this year. 99% success rate and always professional documentation.' - Law Office of Robert K. Professional process serving: (539) 367-6832",
+            hashtags: "#ClientSuccess #ProcessServing #LegalProfessionals"
+          }
+        ];
+        
+        const today = new Date();
+        const postIndex = today.getDate() % autoPostContent.length;
+        const todaysPost = autoPostContent[postIndex];
+        
+        // Create posting instructions
+        const postingInstructions = `
+        # 🤖 AUTO-POSTING INSTRUCTIONS - ${today.toLocaleDateString()}
+        
+        ## TODAY'S POST: ${todaysPost.platform}
+        
+        ### Platform: ${todaysPost.platform}
+        ### Content to Post:
+        ${todaysPost.content}
+        
+        ### Hashtags to Add:
+        ${todaysPost.hashtags}
+        
+        ### Complete Post (Copy This):
+        ${todaysPost.content} ${todaysPost.hashtags}
+        
+        ---
+        
+        ## 📱 WHERE TO POST:
+        - **Facebook Business Page:** Paste the complete post above
+        - **Google Business Profile:** Use content without hashtags
+        - **LinkedIn Company Page:** Include hashtags for better reach
+        
+        ## ⏰ OPTIMAL POSTING TIMES:
+        - **Facebook:** 9 AM or 6 PM (when this runs)
+        - **LinkedIn:** 9 AM for B2B audience
+        - **Google Business:** Anytime (stays as update)
+        
+        ## 📈 TRACKING:
+        - Post generated: ${today.toISOString()}
+        - Rotation day: ${postIndex + 1} of ${autoPostContent.length}
+        - Next post type: ${autoPostContent[(postIndex + 1) % autoPostContent.length].platform}
+        `;
+        
+        fs.writeFileSync('AUTO-POSTING-INSTRUCTIONS.md', postingInstructions);
+        
+        // Create webhook for auto-posting (if you want true automation)
+        const webhookPayload = {
+          platform: todaysPost.platform,
+          content: todaysPost.content,
+          hashtags: todaysPost.hashtags,
+          timestamp: today.toISOString(),
+          business: "Just Legal Solutions",
+          contact: "(539) 367-6832"
+        };
+        
+        fs.writeFileSync('webhook-payload.json', JSON.stringify(webhookPayload, null, 2));
+        
+        console.log(`✅ Auto-posting content ready: ${todaysPost.platform}`);
+        EOF
+        
+        node auto-poster.js
+        
+    - name: Create Zapier Integration Instructions
+      run: |
+        cat > zapier-integration.md << 'EOF'
+        # 🔗 ZAPIER AUTO-POSTING SETUP (Optional)
+        
+        If you want TRUE auto-posting without manual work:
+        
+        ## Step 1: Create Zapier Account
+        1. Go to zapier.com
+        2. Sign up for free account
+        3. Can handle 100 posts/month free
+        
+        ## Step 2: Create Zap
+        1. **Trigger:** Webhook (this automation sends data)
+        2. **Action:** Post to Facebook/LinkedIn/Google Business
+        
+        ## Step 3: Connect Your Accounts
+        1. Connect Facebook Business Page
+        2. Connect LinkedIn Company Page  
+        3. Connect Google Business Profile
+        
+        ## Step 4: Set Up Webhook URL
+        1. Copy Zapier webhook URL
+        2. Add to this automation (we can help with this)
+        
+        ## Result: 100% Hands-Off Posting
+        - Automation runs → Zapier posts → You get customers
+        - Never manually post again!
+        - $20/month for unlimited posts
+        
+        ## Alternative: Manual Process (What you have now)
+        - Check AUTO-POSTING-INSTRUCTIONS.md daily
+        - Copy/paste the content to your social media
+        - Takes 2 minutes per day
+        - Completely free
+        EOF
+        
+    - name: Commit auto-posting content
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "Auto-Posting Bot"
+        git add .
+        git diff --staged --quiet || git commit -m "🤖 Auto-posting content ready - $(date +%Y-%m-%d)"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
