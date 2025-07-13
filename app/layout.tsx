@@ -11,6 +11,8 @@ import { MobilePerformanceBoost } from '@/components/ui/mobile-performance-boost
 import { ServiceWorkerRegistration } from '@/components/ui/service-worker-registration';
 import LocalBusinessSchema from '@/components/ui/local-business-schema';
 import WebsiteSchema from '@/components/ui/website-schema';
+import ReviewSchema from '@/components/ReviewSchema';
+import ClickOptimization from '@/components/ClickOptimization';
 
 const inter = Inter({ 
   subsets: ['latin'],
@@ -178,6 +180,8 @@ export default function RootLayout({
         <ServiceWorkerRegistration />
         <LocalBusinessSchema />
         <WebsiteSchema />
+        <ReviewSchema />
+        <ClickOptimization />
         {children}
       </body>
     </html>

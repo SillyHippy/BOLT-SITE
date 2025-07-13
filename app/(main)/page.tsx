@@ -10,6 +10,7 @@ import { Metadata } from 'next';
 import BusinessSchema from '../../components/BusinessSchema';
 import FAQSchema from '../../components/FAQSchema';
 import ServiceSchema from '../../components/ServiceSchema';
+import SocialProof from '@/components/SocialProof';
 
 export const metadata: Metadata = {
   title: {

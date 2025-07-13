@@ -1,10 +1,16 @@
-name: Daily SEO Updates
+name: Advanced SEO Automation
 
 on:
   schedule:
-    # Run daily at 9 AM UTC (4 AM EST)
-    - cron: '0 9 * * *'
+    # Run daily at 6 AM UTC (1 AM CST)
+    - cron: '0 6 * * *'
   workflow_dispatch: # Allow manual trigger
+  push:
+    branches: [ main ]
+    paths:
+      - 'app/**'
+      - 'components/**'
+      - 'public/sitemap.xml'
 
 jobs:
   update-seo:
@@ -22,6 +28,73 @@ jobs:
       - name: Install dependencies
         run: npm ci
         
+      - name: Check sitemap health
+        run: |
+          echo "🔍 Checking sitemap accessibility..."
+          curl -f -s "https://justlegalsolutions.org/sitemap.xml" > /dev/null
+          if [ $? -eq 0 ]; then
+            echo "✅ Sitemap is accessible"
+          else
+            echo "❌ Sitemap check failed"
+            exit 1
+          fi
+          
+      - name: Verify IndexNow key
+        run: |
+          echo "🔑 Checking IndexNow key file..."
+          EXPECTED_KEY="6CC946BF0B766479F1E3E6C484F82A12"
+          ACTUAL_KEY=$(curl -s "https://justlegalsolutions.org/$EXPECTED_KEY.txt")
+          if [ "$ACTUAL_KEY" = "$EXPECTED_KEY" ]; then
+            echo "✅ IndexNow key is valid and accessible"
+          else
+            echo "❌ IndexNow key validation failed"
+            exit 1
+          fi
+          
+      - name: Generate fresh reviews
+        run: |
+          echo "⭐ Generating fresh review schema..."
+          if [ -f "scripts/review-generator.js" ]; then
+            node scripts/review-generator.js
+            echo "✅ Fresh reviews generated"
+          else
+            echo "⚠️ Review generator not found, skipping"
+          fi
+          
+      - name: Submit to IndexNow
+        run: |
+          echo "📤 Submitting URLs to IndexNow..."
+          curl -X POST "https://api.indexnow.org/indexnow" \
+            -H "Content-Type: application/json" \
+            -d '{
+              "host": "justlegalsolutions.org",
+              "key": "6CC946BF0B766479F1E3E6C484F82A12",
+              "urlList": [
+                "https://justlegalsolutions.org/",
+                "https://justlegalsolutions.org/services/",
+                "https://justlegalsolutions.org/process-server-tulsa/",
+                "https://justlegalsolutions.org/process-server-broken-arrow/",
+                "https://justlegalsolutions.org/process-server-sapulsa/"
+              ]
+            }'
+          echo "✅ IndexNow submission completed"
+          
+      - name: Performance check
+        run: |
+          echo "⚡ Checking site performance..."
+          START_TIME=$(date +%s%N)
+          curl -s "https://justlegalsolutions.org/" > /dev/null
+          END_TIME=$(date +%s%N)
+          LOAD_TIME=$(( (END_TIME - START_TIME) / 1000000 ))
+          echo "📊 Page load time: ${LOAD_TIME}ms"
+          
+          # Check if site is fast enough (under 3 seconds)
+          if [ $LOAD_TIME -lt 3000 ]; then
+            echo "✅ Site performance is good"
+          else
+            echo "⚠️ Site performance could be improved"
+          fi
+          
       - name: Update SEO Content
         run: |
           # Create comprehensive SEO update script
