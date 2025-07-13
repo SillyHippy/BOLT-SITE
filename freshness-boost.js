@@ -86,7 +86,7 @@ fs.writeFileSync('public/fresh-business-schema.json', JSON.stringify(freshSchema
 
 // Generate time-sensitive landing page content
 const freshContent = `
-<!-- Generated: ${readableDate} -->
+{/* Generated: ${readableDate} */}
 <div className="fresh-content" data-updated="${timeStamp}">
   <div className="urgency-banner bg-red-50 border border-red-200 p-4 mb-6">
     <div className="flex items-center">
