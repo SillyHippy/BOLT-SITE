@@ -61,7 +61,13 @@ const businessData = {
     'Weekend availability',
     'Emergency service',
     'Free consultation',
-    '24/7 availability'
+    '24/7 availability',
+    'Veteran-owned',
+    'Locally owned',
+    'Serves Tulsa County',
+    'Mobile service',
+    'Contactless service',
+    'Accepts credit cards'
   ],
   hours: {
     monday: '00:00-23:59',
