@@ -52,6 +52,7 @@ function generateSmartSchema(pageType: string, location: string, service: string
       },
       geoRadius: 50000
     }
+    areaServed: {} as any
   };
 
   // Add service-specific schema
