@@ -111,7 +111,7 @@ const TulsaProcessServerPage = () => {
                     </div>
                 </div>
             </main>
-            <Footer />
+            
         </>
     );
 };

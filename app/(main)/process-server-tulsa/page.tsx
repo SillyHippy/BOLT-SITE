@@ -64,7 +64,7 @@ export default function ProcessServerTulsaPage() {
             </div>
         </div>
       </main>
-      <Footer />
+      {/* The duplicate Footer component that was here has been removed. */}
     </>
   );
 }

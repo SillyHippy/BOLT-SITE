@@ -79,7 +79,7 @@ const ResourcesPage = () => {
           </div>
         </div>
       </main>
-      <Footer />
+      
     </>
   );
 };

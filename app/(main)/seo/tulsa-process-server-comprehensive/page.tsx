@@ -11,7 +11,6 @@ export const metadata: Metadata = {
   keywords: 'process server tulsa, tulsa county process server, legal document delivery tulsa, court papers served tulsa, subpoena service tulsa county, process serving broken arrow, legal notice delivery oklahoma',
 };
 
-// FIX: Removed address from schema
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'LegalService',
@@ -20,6 +19,7 @@ const jsonLd = {
   url: 'https://justlegalsolutions.org/seo/tulsa-process-server-comprehensive',
   telephone: '(539) 367-6832',
   email: 'info@justlegalsolutions.org',
+  // FIX: The entire address object has been removed from the schema.
   geo: {
     '@type': 'GeoCoordinates',
     latitude: 36.1539,
@@ -93,7 +93,6 @@ export default function TulsaProcessServerComprehensive() {
             </div>
         </div>
         
-        {/* NEW: FAQ Section for SEO */}
         <div className="bg-white py-16">
             <div className="container mx-auto px-4 max-w-4xl">
                 <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Frequently Asked Questions</h2>
@@ -117,12 +116,12 @@ export default function TulsaProcessServerComprehensive() {
                 </div>
             </div>
         </div>
-
+        {/* FIX: The visible contact section with the address has been removed. */}
       </div>
       <BusinessSchema />
       <ServiceSchema />
       <FAQSchema />
-      <Footer />
+      
     </>
   );
 }

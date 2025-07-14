@@ -109,7 +109,8 @@ export default function CourierServicesTulsaPage() {
           emergencyAvailable={true}
         />
       </main>
-      <Footer />
+      {/* The <Footer /> component is now removed from this page. 
+          The main footer from your layout file will be used instead. */}
     </>
   );
 }
