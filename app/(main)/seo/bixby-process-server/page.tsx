@@ -1,9 +1,9 @@
 import { Metadata } from 'next';
+import { Navbar } from '@/components/ui/navbar';
+import { Footer } from '@/components/ui/footer';
 import BusinessSchema from '@/components/BusinessSchema';
 import ServiceSchema from '@/components/ServiceSchema';
 import FAQSchema from '@/components/FAQSchema';
-import { Navbar } from '@/components/ui/navbar';
-import { Footer } from '@/components/ui/footer';
 
 export const metadata: Metadata = {
   title: 'Process Server Bixby Oklahoma - Expert Legal Document Delivery',
@@ -64,11 +64,11 @@ const BixbyProcessServer = () => {
           </div>
         </div>
 
-        {/* Pricing Button Instead of List */}
-        <div className="bg-gray-50 p-6 rounded-lg mb-8 max-w-3xl mx-auto">
+        {/* Pricing Button */}
+        <div className="bg-gray-50 p-6 rounded-lg my-8 max-w-3xl mx-auto">
           <h3 className="text-xl font-bold text-gray-900 mb-4">Service Rates</h3>
-          <a 
-            href="/pricing" 
+          <a
+            href="/pricing"
             className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors w-full text-center font-bold text-lg"
           >
             View Pricing
@@ -78,7 +78,7 @@ const BixbyProcessServer = () => {
           </p>
         </div>
 
-        {/* Service Hours Updated to 24/7 */}
+        {/* Service Hours */}
         <div className="bg-blue-50 p-6 rounded-lg mb-8 max-w-3xl mx-auto">
           <h3 className="text-xl font-bold text-gray-900 mb-4">Service Hours</h3>
           <div className="space-y-2 text-gray-600">
@@ -89,7 +89,7 @@ const BixbyProcessServer = () => {
           </div>
         </div>
 
-        {/* Contact Info Updated */}
+        {/* Contact Info */}
         <div className="bg-blue-50 p-6 rounded-lg mb-8 max-w-3xl mx-auto">
           <h3 className="text-xl font-bold text-gray-900 mb-4">Contact Information</h3>
           <div className="space-y-3">
@@ -114,11 +114,11 @@ const BixbyProcessServer = () => {
           <p className="text-gray-700 mb-4">
             Timely delivery of eviction notices, foreclosure notices, and legal documents.
           </p>
-          <ul className="text-sm text-gray-600 space-y-1">
-            <li>• Eviction Notices</li>
-            <li>• Notice to Quit</li>
-            <li>• Foreclosure Notices</li>
-            <li>• Demand Letters</li>
+          <ul className="list-disc list-inside text-sm text-gray-600 space-y-1">
+            <li>Eviction Notices</li>
+            <li>Notice to Quit</li>
+            <li>Foreclosure Notices</li>
+            <li>Demand Letters</li>
           </ul>
         </div>
 
@@ -130,8 +130,8 @@ const BixbyProcessServer = () => {
             </h2>
             <div className="max-w-4xl mx-auto text-center">
               <p className="text-lg text-gray-700 mb-8">
-                Our experienced process server provides professional legal document delivery throughout 
-                Bixby, Oklahoma and the greater Tulsa County area. We understand the local court systems 
+                Our experienced process server provides professional legal document delivery throughout
+                Bixby, Oklahoma and the greater Tulsa County area. We understand the local court systems
                 and ensure timely, accurate service of all legal documents.
               </p>
               <div className="grid md:grid-cols-2 gap-8">
@@ -182,9 +182,10 @@ const BixbyProcessServer = () => {
         <ServiceSchema />
         <FAQSchema />
       </div>
-      <Footer />
+      {/* FIX: The duplicate footer was here. It has been removed. */}
     </>
   );
 }
 
+// FIX: Added the required default export to fix the build error.
 export default BixbyProcessServer;

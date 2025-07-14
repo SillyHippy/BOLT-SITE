@@ -3,106 +3,107 @@ import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Why Choose Just Legal Solutions Over Competitors | Oklahoma Process Server',
-  keywords: 'oklahoma process server comparison, best process server tulsa, competitive process server rates',
-  openGraph: {
-    title: "Oklahoma's #1 Process Server - Just Legal Solutions",
-    description: 'Faster, more reliable, and more affordable than any competitor. Same-day service across all 77 Oklahoma counties.',
-    type: 'website',
-    url: 'https://justlegalsolutions.org/competitor-analysis'
-  }
+  title: 'Fast Process Server Tulsa | Same-Day Legal Document Delivery - Call Now',
+  description: 'URGENT process serving in Tulsa? Get documents served TODAY! Licensed process servers covering all of Tulsa County. Call (539) 367-6832 for immediate service.',
+  keywords: ['urgent process server tulsa', 'same day process serving', 'emergency document delivery', 'fast process server oklahoma', 'tulsa county legal services'],
+  robots: 'index, follow'
 };
 
-const CompetitorAnalysisPage = () => {
+const UrgentProcessServerPage = () => {
   return (
     <>
       <Navbar />
-      <main className="min-h-screen bg-white">
-        <div className="bg-gray-50 py-16">
-          <div className="max-w-7xl mx-auto px-4">
-            <h1 className="text-4xl font-bold mb-8">Why Just Legal Solutions Dominates Oklahoma Process Serving</h1>
+      <main className="min-h-screen pt-12 bg-white">
+        {/* Emergency Alert Banner */}
+        <div className="bg-red-600 text-white py-3 text-center">
+          <div className="container mx-auto px-4">
+            <p className="font-bold">
+              URGENT PROCESS SERVING AVAILABLE 24/7 - CALL NOW: (539) 367-6832
+            </p>
+          </div>
+        </div>
+        <div className="max-w-6xl mx-auto px-4 py-16">
+          <div className="text-center mb-12">
+            <h1 className="text-5xl font-bold text-gray-900 mb-6">
+              SAME-DAY Process Server Tulsa
+            </h1>
+            <p className="text-2xl text-red-600 mb-4 font-semibold">
+              Need Documents Served TODAY? We&apos;re Ready!
+            </p>
+            <p className="text-xl text-gray-700 max-w-3xl mx-auto">
+              Licensed Oklahoma process servers serving Tulsa County with
+              <span className="font-bold text-green-600"> 2-HOUR EMERGENCY SERVICE</span> when you need it most.
+            </p>
+          </div>
+          {/* Urgency Section */}
+          <div className="bg-yellow-50 border-l-8 border-yellow-400 p-8 mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">Court Deadline Tomorrow?</h2>
             <div className="grid md:grid-cols-2 gap-8">
-              <div className="bg-green-50 p-6 rounded-lg">
-                <h2 className="text-2xl font-bold text-green-800 mb-4">✅ Just Legal Solutions</h2>
-                <ul className="space-y-2">
-                  <li>• Same-day service guaranteed</li>
-                  <li>• 24/7 emergency availability</li>
-                  <li>• All 77 Oklahoma counties</li>
-                  <li>• Real-time GPS tracking</li>
-                  <li>• Digital proof of service</li>
-                  <li>• Transparent pricing</li>
-                  <li>• Direct contact: <span className="font-bold">(539) 367-6832</span></li>
+              <div>
+                <h3 className="text-xl font-semibold mb-3 text-red-600">We Handle URGENT Situations:</h3>
+                <ul className="space-y-2 text-gray-700">
+                  <li>Last-minute court filings</li>
+                  <li>Emergency restraining orders</li>
+                  <li>Time-sensitive evictions</li>
+                  <li>Divorce papers before hearings</li>
+                  <li>Subpoenas for tomorrow&apos;s court</li>
                 </ul>
               </div>
-              <div className="bg-red-50 p-6 rounded-lg">
-                <h2 className="text-2xl font-bold text-red-800 mb-4">❌ Typical Competitors</h2>
-                <ul className="space-y-2">
-                  <li>• 3-5 business day delays</li>
-                  <li>• Business hours only</li>
-                  <li>• Limited coverage areas</li>
-                  <li>• Manual tracking systems</li>
-                  <li>• Paper-based processes</li>
-                  <li>• Hidden fees and charges</li>
-                  <li>• Call center phone trees</li>
-                </ul>
+              {/* Pricing Button Instead of List */}
+              <div className="bg-green-100 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold mb-3 text-green-800">EMERGENCY PRICING</h3>
+                <a
+                  href="/pricing"
+                  className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors w-full text-center font-bold text-lg mb-4"
+                >
+                  View Pricing
+                </a>
+                <div className="space-y-2">
+                  <div className="flex justify-between">
+                    <span>2-Hour Attempt:</span>
+                    <span className="font-bold text-2xl text-green-700">$265</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span>Same-Day Rush:</span>
+                    <span className="font-bold text-xl">$150</span>
+                  </div>
+                </div>
               </div>
             </div>
-            <div className="mt-12 text-center">
-              <h2 className="text-3xl font-bold mb-4">Ready to Experience the Difference?</h2>
-              <p className="text-xl mb-6">Join thousands of satisfied clients who chose Oklahoma's #1 process server.</p>
-              <p className="text-xl mb-6">Join thousands of satisfied clients who chose Oklahoma&apos;s #1 process server.</p>
-              <a href="tel:5393676832" className="bg-blue-600 text-white px-8 py-4 rounded-lg text-xl font-bold hover:bg-blue-700">
-                Call Now: (539) 367-6832
-              </a>
+          </div>
+          {/* Service Hours Updated to 24/7 */}
+          <div className="bg-blue-50 p-6 rounded-lg mb-8">
+            <h3 className="text-xl font-bold text-gray-900 mb-4">Service Hours</h3>
+            <div className="space-y-2 text-gray-600">
+              <div className="flex justify-between">
+                <span>Open:</span>
+                <span>24/7 Emergency Service Available</span>
+              </div>
             </div>
-            {/* New Section: Competitive Comparison Table */}
-            <div className="mt-16">
-              <h2 className="text-2xl font-bold mb-6 text-center">Competitive Comparison Table</h2>
-              <div className="overflow-x-auto">
-                <table className="min-w-full bg-white border border-gray-200 rounded-lg">
-                  <thead>
-                    <tr>
-                      <th className="px-4 py-2 border-b">Feature</th>
-                      <th className="px-4 py-2 border-b">Just Legal Solutions</th>
-                      <th className="px-4 py-2 border-b">Competitors</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td className="px-4 py-2 border-b">Service Speed</td>
-                      <td className="px-4 py-2 border-b">Same-day</td>
-                      <td className="px-4 py-2 border-b">3-5 days</td>
-                    </tr>
-                    <tr>
-                      <td className="px-4 py-2 border-b">Coverage</td>
-                      <td className="px-4 py-2 border-b">Statewide (77 counties)</td>
-                      <td className="px-4 py-2 border-b">Limited</td>
-                    </tr>
-                    <tr>
-                      <td className="px-4 py-2 border-b">Tracking</td>
-                      <td className="px-4 py-2 border-b">Real-time GPS</td>
-                      <td className="px-4 py-2 border-b">Manual</td>
-                    </tr>
-                    <tr>
-                      <td className="px-4 py-2 border-b">Proof of Service</td>
-                      <td className="px-4 py-2 border-b">Digital</td>
-                      <td className="px-4 py-2 border-b">Paper</td>
-                    </tr>
-                    <tr>
-                      <td className="px-4 py-2 border-b">Pricing</td>
-                      <td className="px-4 py-2 border-b">Transparent</td>
-                      <td className="px-4 py-2 border-b">Hidden fees</td>
-                    </tr>
-                  </tbody>
-                </table>
+          </div>
+          {/* Contact Info Updated */}
+          <div className="bg-blue-50 p-6 rounded-lg mb-8">
+            <h3 className="text-xl font-bold text-gray-900 mb-4">Contact Information</h3>
+            <div className="space-y-3">
+              <div>
+                <strong className="text-gray-900">Phone:</strong>
+                <p className="text-gray-600">(539) 367-6832</p>
+              </div>
+              <div>
+                <strong className="text-gray-900">Email:</strong>
+                <p className="text-gray-600">info@justlegalsolutions.org</p>
+              </div>
+              <div>
+                <strong className="text-gray-900">Coverage:</strong>
+                <p className="text-gray-600">Tulsa County & Statewide Oklahoma</p>
               </div>
             </div>
           </div>
         </div>
       </main>
-    <Footer />
-  </>
+      <Footer />
+    </>
   );
-};
+}
 
-export default CompetitorAnalysisPage;
+export default UrgentProcessServerPage;

@@ -1,14 +1,11 @@
 import React from 'react';
-import Image from 'next/image';
 import { Metadata } from 'next';
-import Link from 'next/link';
-import { ArrowLeft, MapPin, Clock, FileText, Shield } from 'lucide-react';
+import { Navbar } from '@/components/ui/navbar';
+import { Footer } from '@/components/ui/footer';
 import GoogleSpecificOptimization from '@/components/ui/google-specific-optimization';
 import BingYahooOptimization from '@/components/ui/bing-yahoo-optimization';
 import DuckDuckGoOptimization from '@/components/ui/duckduckgo-optimization';
 import SearchEngineUniversalOptimization from '@/components/ui/search-engine-universal-optimization';
-import { Navbar } from '@/components/ui/navbar';
-import { Footer } from '@/components/ui/footer';
 
 export const metadata: Metadata = {
   title: 'Professional Process Server in Tulsa County Oklahoma | Same-Day Service',
@@ -19,19 +16,14 @@ export const metadata: Metadata = {
   }
 };
 
-
 export default function ProcessServerTulsaPage() {
   return (
     <>
       <Navbar />
       <main className="min-h-screen pt-12 bg-white">
-        {/* Header Section with More Padding */}
+        {/* Header Section */}
         <div className="bg-gray-50 py-16">
           <div className="max-w-7xl mx-auto px-4">
-            <Link href="/" className="inline-flex items-center text-blue-600 hover:text-blue-800 mb-4">
-              <ArrowLeft className="w-4 h-4 mr-2" />
-              Back to Home
-            </Link>
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
               Professional Process Server in Tulsa County, Oklahoma
             </h1>
@@ -40,43 +32,36 @@ export default function ProcessServerTulsaPage() {
             </p>
           </div>
         </div>
-        <div className="max-w-4xl mx-auto px-4 py-12">
-    <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">Your Trusted Partner for Legal Services in Tulsa</h2>
-    <p className="text-lg text-gray-700 mb-6">
-        At Just Legal Solutions, we provide fast, reliable, and professional process serving throughout Tulsa and surrounding communities, including Broken Arrow, Glenpool, and Sapulpa. Our experienced servers ensure your legal documents are delivered accurately and on time, every time.
-    </p>
-    <div className="grid md:grid-cols-2 gap-8 text-left">
-        <div className="bg-gray-100 p-6 rounded-lg">
-            <h3 className="text-xl font-semibold text-gray-900 mb-3">Our Services Include:</h3>
-            <ul className="list-disc list-inside space-y-2 text-gray-700">
-                <li>Serving Summons and Complaints</li>
-                <li>Subpoena Delivery</li>
-                <li>Eviction & Foreclosure Notices</li>
-                <li>Court Filings</li>
-                <li>Document Retrieval</li>
-            </ul>
-        </div>
-        <div className="bg-gray-100 p-6 rounded-lg">
-            <h3 className="text-xl font-semibold text-gray-900 mb-3">Why Choose Us?</h3>
-            <ul className="list-disc list-inside space-y-2 text-gray-700">
-                <li>Same-Day & Rush Service Available</li>
-                <li>Licensed & Bonded Professionals</li>
-                <li>Real-Time GPS Tracking</li>
-                <li>Digital Proof of Service</li>
-                <li>Transparent and Competitive Pricing</li>
-            </ul>
-        </div>
-    </div>
-    <div className="text-center mt-12">
-        <a
-          href="/pricing"
-          className="inline-block bg-blue-600 text-white px-10 py-4 rounded-lg hover:bg-blue-700 transition-colors font-bold text-lg shadow-lg"
-        >
-          View Our Competitive Pricing
-        </a>
-    </div>
-</div>
 
+        {/* New Content Section */}
+        <div className="max-w-4xl mx-auto px-4 py-12">
+            <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">Your Trusted Partner for Legal Services in Tulsa</h2>
+            <p className="text-lg text-gray-700 mb-6">
+                At Just Legal Solutions, we provide fast, reliable, and professional process serving throughout Tulsa and surrounding communities, including Broken Arrow, Glenpool, and Sapulpa. Our experienced servers ensure your legal documents are delivered accurately and on time, every time.
+            </p>
+            <div className="grid md:grid-cols-2 gap-8 text-left">
+                <div className="bg-gray-100 p-6 rounded-lg">
+                    <h3 className="text-xl font-semibold text-gray-900 mb-3">Our Services Include:</h3>
+                    <ul className="list-disc list-inside space-y-2 text-gray-700">
+                        <li>Serving Summons and Complaints</li>
+                        <li>Subpoena Delivery</li>
+                        <li>Eviction & Foreclosure Notices</li>
+                        <li>Court Filings & Document Retrieval</li>
+                    </ul>
+                </div>
+                <div className="bg-gray-100 p-6 rounded-lg">
+                    <h3 className="text-xl font-semibold text-gray-900 mb-3">Why Choose Us?</h3>
+                    <ul className="list-disc list-inside space-y-2 text-gray-700">
+                        <li>Same-Day & Rush Service Available</li>
+                        <li>Licensed & Bonded Professionals</li>
+                        <li>Real-Time GPS Tracking</li>
+                        <li>Transparent and Competitive Pricing</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        {/* SEO Components */}
         <GoogleSpecificOptimization 
           businessName="Just Legal Solutions - Process Server Tulsa"
           primaryLocation="Tulsa County, Oklahoma"
