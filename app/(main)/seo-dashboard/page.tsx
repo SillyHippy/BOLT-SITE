@@ -27,4 +27,4 @@ const SeoDashboardPage = () => {
   );
 };
 
-
+export default SeoDashboardPage;

@@ -105,7 +105,7 @@ const UrgentProcessServerPage = () => {
       </main>
       <Footer />
     </>
-  );
+  )
 }
 
 export default UrgentProcessServerPage;

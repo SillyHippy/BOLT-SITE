@@ -58,8 +58,9 @@ const CompetitorAnalysisPage = () => {
           </div>
         </div>
       </main>
-     <Footer />
-   </>
+    <Footer />
+  </>
   );
-      <Footer />
+};
 
+export default CompetitorAnalysisPage;
