@@ -44,7 +44,7 @@ import Footer from '@/components/Footer';
 const BixbyProcessServer = () => {
   return (
     <>
-      <Header />
+      <Navbar />
       <div className="min-h-screen bg-gradient-to-br from-green-50 via-white to-blue-50">
         {/* Hero Section */}
         <div className="bg-gradient-to-r from-green-700 to-blue-700 text-white">
@@ -186,6 +186,9 @@ const BixbyProcessServer = () => {
       <Footer />
     </>
   );
+};
+
+export default BixbyProcessServer;
 }
 
 export default BixbyProcessServer;

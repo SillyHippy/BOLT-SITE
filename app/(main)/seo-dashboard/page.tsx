@@ -7,11 +7,13 @@ export const metadata: Metadata = {
   title: 'SEO Dashboard - Just Legal Solutions',
   description: 'Monitor SEO performance and page health for all Just Legal Solutions pages.',
   robots: 'noindex, nofollow'
-};
+    };
+}
 
+const SeoDashboardPage = () => {
   return (
     <>
-      <Header />
+      <Navbar />
       <main className="min-h-screen bg-gray-50 py-8">
         <div className="max-w-6xl mx-auto px-4">
           <h1 className="text-3xl font-bold text-gray-900 mb-8">
@@ -20,9 +22,12 @@ export const metadata: Metadata = {
           {/* ...existing code... */}
         </div>
       </main>
-      <Footer />
-    </>
+     <Footer />
+   </>
   );
+};
+
+export default SeoDashboardPage;
               
               <div className="flex items-start space-x-3">
                 <span className="text-green-500 font-bold">✓</span>

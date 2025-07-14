@@ -61,9 +61,12 @@ export const metadata: Metadata = {
         { title: "Court Document Filing", url: null, preview: "Professional courthouse filing assistance" },
       ]
     }
+}
+
+const ResourcesPage = () => {
   return (
     <>
-      <Header />
+      <Navbar />
       <main className="min-h-screen bg-white">
         <div className="bg-gray-50 py-16">
           <div className="max-w-7xl mx-auto px-4">
@@ -117,6 +120,9 @@ export const metadata: Metadata = {
       <Footer />
     </>
   );
+};
+
+export default ResourcesPage;
         </div>
 
         {/* ...existing code... */}

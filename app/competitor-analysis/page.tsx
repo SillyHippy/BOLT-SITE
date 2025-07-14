@@ -12,11 +12,13 @@ export const metadata: Metadata = {
     type: 'website',
     url: 'https://justlegalsolutions.org/competitor-analysis'
   }
-};
+    };
+}
 
+const CompetitorAnalysisPage = () => {
   return (
     <>
-      <Header />
+      <Navbar />
       <main className="min-h-screen bg-white">
         <div className="bg-gray-50 py-16">
           <div className="max-w-7xl mx-auto px-4">
@@ -57,7 +59,10 @@ export const metadata: Metadata = {
           </div>
         </div>
       </main>
-      <Footer />
-    </>
+     <Footer />
+   </>
   );
+};
+
+export default CompetitorAnalysisPage;
 }
