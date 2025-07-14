@@ -2,6 +2,8 @@ import { Metadata } from 'next';
 import BusinessSchema from '@/components/BusinessSchema';
 import ServiceSchema from '@/components/ServiceSchema';
 import FAQSchema from '@/components/FAQSchema';
+import { Navbar } from '@/components/ui/navbar';
+import { Footer } from '@/components/ui/footer';
 
 export const metadata: Metadata = {
   title: 'Process Server Bixby Oklahoma - Expert Legal Document Delivery',
@@ -38,8 +40,7 @@ export const metadata: Metadata = {
   },
 };
 
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
+// Removed duplicate imports
 
 const BixbyProcessServer = () => {
   return (
@@ -186,9 +187,8 @@ const BixbyProcessServer = () => {
       <Footer />
     </>
   );
-};
+// Removed stray closing brace
 
-export default BixbyProcessServer;
-}
+// Removed stray closing brace
 
 export default BixbyProcessServer;

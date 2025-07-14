@@ -65,5 +65,3 @@ const CompetitorAnalysisPage = () => {
   );
       <Footer />
 
-export default CompetitorAnalysisPage;
-}

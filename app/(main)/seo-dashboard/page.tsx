@@ -1,7 +1,7 @@
 
 import { Metadata } from 'next';
-import Header from '@/components/ui/Header';
-import Footer from '@/components/ui/Footer';
+import { Navbar } from '@/components/ui/navbar';
+import { Footer } from '@/components/ui/footer';
 
 export const metadata: Metadata = {
   title: 'SEO Dashboard - Just Legal Solutions',
@@ -28,25 +28,15 @@ const SeoDashboardPage = () => {
 };
 
 export default SeoDashboardPage;
-              
-              <div className="flex items-start space-x-3">
-                <span className="text-green-500 font-bold">✓</span>
-                <div>
-                  <h4 className="font-medium text-gray-800">Schema Markup</h4>
-                  <p className="text-sm text-gray-600">LocalBusiness schema on all pages</p>
-                </div>
-              </div>
-              
-              <div className="flex items-start space-x-3">
                 <span className="text-green-500 font-bold">✓</span>
                 <div>
                   <h4 className="font-medium text-gray-800">Image Optimization</h4>
-                  <p className="text-sm text-gray-600">External images with Next.js optimization</p>
-                </div>
-              </div>
-              
-              <div className="flex items-start space-x-3">
+      <Footer />
+    </>
+  );
+};
                 <span className="text-green-500 font-bold">✓</span>
+export default SeoDashboardPage;
                 <div>
                   <h4 className="font-medium text-gray-800">Health Monitoring</h4>
                   <p className="text-sm text-gray-600">Automated page status checking</p>

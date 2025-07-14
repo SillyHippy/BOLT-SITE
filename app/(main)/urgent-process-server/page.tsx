@@ -1,7 +1,7 @@
 
 import { Metadata } from 'next';
-import Header from '@/components/ui/Header';
-import Footer from '@/components/ui/Footer';
+import { Navbar } from '@/components/ui/navbar';
+import { Footer } from '@/components/ui/footer';
 
 export const metadata: Metadata = {
   title: 'Fast Process Server Tulsa | Same-Day Legal Document Delivery - Call Now',
@@ -19,10 +19,11 @@ const UrgentProcessServerPage = () => {
         {/* Emergency Alert Banner */}
         <div className="bg-red-600 text-white py-3 text-center">
           <div className="container mx-auto px-4">
-            <p className="font-bold"> URGENT PROCESS SERVING AVAILABLE 24/7 - CALL NOW: (539) 367-6832 </p>
+            <p className="font-bold">
+              URGENT PROCESS SERVING AVAILABLE 24/7 - CALL NOW: (539) 367-6832
+            </p>
           </div>
         </div>
-
         <div className="max-w-6xl mx-auto px-4 py-16">
           <div className="text-center mb-12">
             <h1 className="text-5xl font-bold text-gray-900 mb-6">
@@ -36,30 +37,29 @@ const UrgentProcessServerPage = () => {
               <span className="font-bold text-green-600"> 2-HOUR EMERGENCY SERVICE</span> when you need it most.
             </p>
           </div>
-
           {/* Urgency Section */}
           <div className="bg-yellow-50 border-l-8 border-yellow-400 p-8 mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4"> Court Deadline Tomorrow?</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">Court Deadline Tomorrow?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-xl font-semibold mb-3 text-red-600">We Handle URGENT Situations:</h3>
                 <ul className="space-y-2 text-gray-700">
-                  <li> Last-minute court filings</li>
-                  <li> Emergency restraining orders</li>
-                  <li> Time-sensitive evictions</li>
-                  <li> Divorce papers before hearings</li>
-                  <li> Subpoenas for tomorrow&apos;s court</li>
+                  <li>Last-minute court filings</li>
+                  <li>Emergency restraining orders</li>
+                  <li>Time-sensitive evictions</li>
+                  <li>Divorce papers before hearings</li>
+                  <li>Subpoenas for tomorrow&apos;s court</li>
                 </ul>
               </div>
               {/* Pricing Button Instead of List */}
               <div className="bg-green-100 p-6 rounded-lg">
                 <h3 className="text-xl font-semibold mb-3 text-green-800">EMERGENCY PRICING</h3>
-                <Link 
-                  href="/pricing" 
+                <a
+                  href="/pricing"
                   className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors w-full text-center font-bold text-lg mb-4"
                 >
                   View Pricing
-                </Link>
+                </a>
                 <div className="space-y-2">
                   <div className="flex justify-between">
                     <span>2-Hour Attempt:</span>
@@ -73,7 +73,6 @@ const UrgentProcessServerPage = () => {
               </div>
             </div>
           </div>
-
           {/* Service Hours Updated to 24/7 */}
           <div className="bg-blue-50 p-6 rounded-lg mb-8">
             <h3 className="text-xl font-bold text-gray-900 mb-4">Service Hours</h3>
@@ -84,7 +83,6 @@ const UrgentProcessServerPage = () => {
               </div>
             </div>
           </div>
-
           {/* Contact Info Updated */}
           <div className="bg-blue-50 p-6 rounded-lg mb-8">
             <h3 className="text-xl font-bold text-gray-900 mb-4">Contact Information</h3>
@@ -105,65 +103,14 @@ const UrgentProcessServerPage = () => {
           </div>
         </div>
       </main>
-     <Footer />
+      <Footer />
+    </>
+  );
+}
+    };
+    
+    export default UrgentProcessServerPage;
    </>
   );
 };
 
-export default UrgentProcessServerPage;
-          </div>
-        </div>
-
-        {/* Call to Action */}
-        <div className="bg-blue-600 text-white p-12 rounded-lg text-center mb-12">
-          <h2 className="text-4xl font-bold mb-4">Don&apos;t Risk Missing Your Deadline!</h2>
-          <p className="text-xl mb-8">Our licensed process servers are standing by RIGHT NOW</p>
-          <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
-            <a href="tel:5393676832" 
-               className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded-lg text-2xl">
-              📞 CALL NOW: (539) 367-6832
-            </a>
-            <a href="/card" 
-               className="bg-white text-blue-600 hover:bg-gray-100 font-bold py-4 px-8 rounded-lg text-xl">
-              Get Quote Now
-            </a>
-          </div>
-        </div>
-
-        {/* Trust Signals */}
-        <div className="grid md:grid-cols-3 gap-8 mb-12">
-          <div className="text-center">
-            <h3 className="text-2xl font-bold text-green-600 mb-2">⚡ FAST</h3>
-            <p className="text-gray-700">2-hour emergency service available throughout Tulsa County</p>
-          </div>
-          <div className="text-center">
-            <h3 className="text-2xl font-bold text-blue-600 mb-2">🏆 LICENSED</h3>
-            <p className="text-gray-700">Fully licensed & bonded Oklahoma process servers</p>
-          </div>
-          <div className="text-center">
-            <h3 className="text-2xl font-bold text-purple-600 mb-2">📋 GUARANTEED</h3>
-            <p className="text-gray-700">Complete affidavit of service for all deliveries</p>
-          </div>
-        </div>
-
-        {/* Coverage Area */}
-        <div className="bg-gray-50 p-8 rounded-lg">
-          <h2 className="text-3xl font-bold text-center mb-6">🗺️ EMERGENCY SERVICE COVERAGE</h2>
-          <div className="grid md:grid-cols-4 gap-4 text-center">
-            <div><strong>Tulsa</strong></div>
-            <div><strong>Broken Arrow</strong></div>
-            <div><strong>Owasso</strong></div>
-            <div><strong>Bixby</strong></div>
-            <div><strong>Jenks</strong></div>
-            <div><strong>Sand Springs</strong></div>
-            <div><strong>Sapulpa</strong></div>
-            <div><strong>Glenpool</strong></div>
-          </div>
-          <p className="text-center mt-4 text-gray-600">
-            + All surrounding Tulsa County communities
-          </p>
-        </div>
-      </div>
-    </div>
-  );
-}
