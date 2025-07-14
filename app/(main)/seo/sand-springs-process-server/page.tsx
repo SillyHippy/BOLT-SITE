@@ -41,7 +41,7 @@ export const metadata: Metadata = {
 export default function SandSpringsProcessServer() {
   return (
     <>
-      <div className="min-h-screen bg-gradient-to-br from-teal-50 via-white to-cyan-50">
+      <div className="min-h-screen pt-12 bg-gradient-to-br from-teal-50 via-white to-cyan-50">
         {/* Hero Section */}
         <div className="bg-gradient-to-r from-teal-700 to-cyan-700 text-white">
           <div className="container mx-auto px-4 py-16">

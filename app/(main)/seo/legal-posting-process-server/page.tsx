@@ -41,7 +41,7 @@ export const metadata: Metadata = {
 export default function LegalPostingProcessServer() {
   return (
     <>
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
+      <div className="min-h-screen pt-12 bg-gradient-to-br from-blue-50 via-white to-purple-50">
         {/* Hero Section */}
         <div className="bg-gradient-to-r from-blue-700 to-purple-700 text-white">
           <div className="container mx-auto px-4 py-16">
@@ -49,6 +49,7 @@ export default function LegalPostingProcessServer() {
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
                 Legal Posting Process Server Tulsa County
               </h1>
+              <p className="text-xl text-center text-gray-600 mt-4">24/7 Emergency Service Available</p>
               <p className="text-xl md:text-2xl mb-8 text-blue-100">
                 Professional Notice & Publication Service • Licensed & Bonded • Court Approved
               </p>

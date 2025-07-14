@@ -98,7 +98,7 @@ export default function BrokenArrowProcessServer() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-gray-50">
+      <div className="min-h-screen pt-12 bg-gradient-to-br from-blue-50 via-white to-gray-50">
         {/* Hero Section */}
         <div className="bg-gradient-to-r from-green-800 to-blue-800 text-white">
           <div className="container mx-auto px-4 py-16">

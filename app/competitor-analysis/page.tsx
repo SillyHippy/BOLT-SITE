@@ -1,4 +1,3 @@
-
 import { Metadata } from 'next';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
@@ -51,9 +50,52 @@ const CompetitorAnalysisPage = () => {
             <div className="mt-12 text-center">
               <h2 className="text-3xl font-bold mb-4">Ready to Experience the Difference?</h2>
               <p className="text-xl mb-6">Join thousands of satisfied clients who chose Oklahoma's #1 process server.</p>
+              <p className="text-xl mb-6">Join thousands of satisfied clients who chose Oklahoma&apos;s #1 process server.</p>
               <a href="tel:5393676832" className="bg-blue-600 text-white px-8 py-4 rounded-lg text-xl font-bold hover:bg-blue-700">
                 Call Now: (539) 367-6832
               </a>
+            </div>
+            {/* New Section: Competitive Comparison Table */}
+            <div className="mt-16">
+              <h2 className="text-2xl font-bold mb-6 text-center">Competitive Comparison Table</h2>
+              <div className="overflow-x-auto">
+                <table className="min-w-full bg-white border border-gray-200 rounded-lg">
+                  <thead>
+                    <tr>
+                      <th className="px-4 py-2 border-b">Feature</th>
+                      <th className="px-4 py-2 border-b">Just Legal Solutions</th>
+                      <th className="px-4 py-2 border-b">Competitors</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td className="px-4 py-2 border-b">Service Speed</td>
+                      <td className="px-4 py-2 border-b">Same-day</td>
+                      <td className="px-4 py-2 border-b">3-5 days</td>
+                    </tr>
+                    <tr>
+                      <td className="px-4 py-2 border-b">Coverage</td>
+                      <td className="px-4 py-2 border-b">Statewide (77 counties)</td>
+                      <td className="px-4 py-2 border-b">Limited</td>
+                    </tr>
+                    <tr>
+                      <td className="px-4 py-2 border-b">Tracking</td>
+                      <td className="px-4 py-2 border-b">Real-time GPS</td>
+                      <td className="px-4 py-2 border-b">Manual</td>
+                    </tr>
+                    <tr>
+                      <td className="px-4 py-2 border-b">Proof of Service</td>
+                      <td className="px-4 py-2 border-b">Digital</td>
+                      <td className="px-4 py-2 border-b">Paper</td>
+                    </tr>
+                    <tr>
+                      <td className="px-4 py-2 border-b">Pricing</td>
+                      <td className="px-4 py-2 border-b">Transparent</td>
+                      <td className="px-4 py-2 border-b">Hidden fees</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
           </div>
         </div>
