@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   },
 };
 
-// Removed duplicate imports
+
 
 const BixbyProcessServer = () => {
   return (
@@ -187,8 +187,6 @@ const BixbyProcessServer = () => {
       <Footer />
     </>
   );
-// Removed stray closing brace
-
-// Removed stray closing brace
+}
 
 export default BixbyProcessServer;

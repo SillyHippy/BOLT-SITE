@@ -1,20 +1,18 @@
+
 import { Metadata } from 'next';
-import Header from '@/components/ui/Header';
-import Footer from '@/components/ui/Footer';
+import { Navbar } from '@/components/ui/navbar';
+import { Footer } from '@/components/ui/footer';
 
 export const metadata: Metadata = {
   title: 'Why Choose Just Legal Solutions Over Competitors | Oklahoma Process Server',
-import { Footer } from "../components/ui/footer";
-import Navbar from "../components/ui/navbar";
   keywords: 'oklahoma process server comparison, best process server tulsa, competitive process server rates',
   openGraph: {
-    title: 'Oklahoma\'s #1 Process Server - Just Legal Solutions',
+    title: "Oklahoma's #1 Process Server - Just Legal Solutions",
     description: 'Faster, more reliable, and more affordable than any competitor. Same-day service across all 77 Oklahoma counties.',
     type: 'website',
     url: 'https://justlegalsolutions.org/competitor-analysis'
   }
-    };
-}
+};
 
 const CompetitorAnalysisPage = () => {
   return (

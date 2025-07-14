@@ -1,3 +1,4 @@
+
 import { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -5,9 +6,11 @@ import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 import BreadcrumbSchema, { VisualBreadcrumbs } from '@/components/ui/breadcrumb-schema';
 import ServiceSchema from '@/components/ui/service-schema';
-      ]
-    }
-  ];
+
+export const metadata: Metadata = {
+  title: 'Resources | Just Legal Solutions',
+  description: 'Explore legal resources, guides, and FAQs for Oklahoma process serving and legal document delivery.',
+  keywords: ['legal resources', 'oklahoma process server guides', 'document delivery faqs', 'court papers info'],
   robots: 'index, follow'
 };
 
@@ -56,63 +59,12 @@ import ServiceSchema from '@/components/ui/service-schema';
       description: "Specialized services for legal professionals and businesses",
       articles: [
         { title: "Skip Tracing Services", url: null, preview: "Professional people location and investigation services" },
-        { title: "Court Document Filing", url: null, preview: "Professional courthouse filing assistance" },
+        { title: "Court Document Filing", url: null, preview: "Professional courthouse filing assistance" }
       ]
     }
+  ];
 
 const ResourcesPage = () => {
-  return (
-    <>
-      <Navbar />
-      <main className="min-h-screen bg-white">
-        <div className="bg-gray-50 py-16">
-          <div className="max-w-7xl mx-auto px-4">
-            <h1 className="text-4xl font-bold mb-8">Process Serving Resources & Legal Guides</h1>
-            <p className="text-xl text-gray-600 mb-6">Expert legal guides, process serving tips, and Oklahoma legal resources. Professional insights from licensed process servers in Tulsa County.</p>
-          </div>
-        </div>
-        {/* Pricing Button Instead of List */}
-        <div className="bg-gray-50 p-6 rounded-lg mb-8 max-w-3xl mx-auto">
-          <h3 className="text-xl font-bold text-gray-900 mb-4">Service Rates</h3>
-          <a 
-            href="/pricing" 
-            className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors w-full text-center font-bold text-lg"
-          >
-            View Pricing
-          </a>
-          <p className="text-sm text-gray-600 mt-4">
-            Rates vary by distance and urgency. Court filing services include additional handling fees.
-          </p>
-        </div>
-        {/* Service Hours Updated to 24/7 */}
-        <div className="bg-blue-50 p-6 rounded-lg mb-8 max-w-3xl mx-auto">
-    }
-  ];
-  
-export default ResourcesPage;
-            <div className="flex justify-between">
-              <span>Open:</span>
-              <span>24/7 Emergency Service Available</span>
-            </div>
-          </div>
-        </div>
-        {/* Contact Info Updated */}
-        <div className="bg-blue-50 p-6 rounded-lg mb-8 max-w-3xl mx-auto">
-          <h3 className="text-xl font-bold text-gray-900 mb-4">Contact Information</h3>
-          <div className="space-y-3">
-            <div>
-              <strong className="text-gray-900">Phone:</strong>
-              <p className="text-gray-600">(539) 367-6832</p>
-            </div>
-            <div>
-              <strong className="text-gray-900">Email:</strong>
-              <p className="text-gray-600">info@justlegalsolutions.org</p>
-            </div>
-            <div>
-              <strong className="text-gray-900">Coverage:</strong>
-              <p className="text-gray-600">Tulsa County & Statewide Oklahoma</p>
-            </div>
-          </div>
   return (
     <>
       <Navbar />
@@ -169,5 +121,7 @@ export default ResourcesPage;
     </>
   );
 }
+
+export default ResourcesPage;
 
 

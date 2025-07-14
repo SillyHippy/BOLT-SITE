@@ -8,8 +8,7 @@ export const metadata: Metadata = {
   description: 'URGENT process serving in Tulsa? Get documents served TODAY! Licensed process servers covering all of Tulsa County. Call (539) 367-6832 for immediate service.',
   keywords: ['urgent process server tulsa', 'same day process serving', 'emergency document delivery', 'fast process server oklahoma', 'tulsa county legal services'],
   robots: 'index, follow'
-    };
-}
+};
 
 const UrgentProcessServerPage = () => {
   return (
@@ -102,15 +101,12 @@ const UrgentProcessServerPage = () => {
             </div>
           </div>
         </div>
+
       </main>
       <Footer />
     </>
   );
 }
-    };
-    
-    export default UrgentProcessServerPage;
-   </>
-  );
-};
+
+export default UrgentProcessServerPage;
 
