@@ -2,8 +2,8 @@ name: Content Freshness & Ranking Boost
 
 on:
   schedule:
-    # Run every 4 hours for maximum freshness
-    - cron: '0 */4 * * *'
+    # Run every 2 hours for TURBO freshness
+    - cron: '0 */2 * * *'
   workflow_dispatch:
 
 permissions:
@@ -29,6 +29,11 @@ jobs:
         
     - name: Dynamic Content Updates
       run: |
+        echo "🚀 TURBO MODE: CONTENT FRESHNESS ACCELERATION"
+        echo "============================================="
+        echo "⚡ TURBO FREQUENCY: Every 2 hours"
+        echo "🎯 MAXIMUM CONTENT VELOCITY ENABLED"
+        echo ""
         cat > freshness-boost.js << 'EOF'
         const fs = require('fs');
         const path = require('path');
