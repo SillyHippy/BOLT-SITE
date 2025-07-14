@@ -80,6 +80,31 @@ const businessData = {
   }
 };
 
+// Photo optimization recommendations
+const photoStrategy = {
+  required: [
+    'Logo/Profile photo',
+    'Cover photo showing Tulsa skyline or courthouse',
+    'Team photo in professional attire',
+    'Service area map highlighting Tulsa County'
+  ],
+  recommended: [
+    'Vehicle with company branding',
+    'Professional headshots',
+    'Office or workspace photos',
+    'Before/after document delivery photos',
+    'Customer testimonial graphics',
+    'Service process infographics'
+  ],
+  competitive: [
+    'Photos showing 24/7 availability (night photos)',
+    'Same-day service timeline graphics',
+    'Local Tulsa landmarks in background',
+    'Emergency service vehicle photos',
+    'Customer service interaction photos'
+  ]
+};
+
 // Review generation templates
 const reviewTemplates = {
   sms: `Hi [Name], thank you for choosing Just Legal Solutions for your process serving needs! If you were satisfied with our service, would you mind leaving a quick review on Google? It helps other people in Tulsa find reliable process servers. Here's the link: [Google Review Link]
@@ -145,6 +170,7 @@ export async function GET(request: NextRequest) {
   if (action === 'optimize') {
     return NextResponse.json({
       businessProfile: businessData,
+      photoStrategy: photoStrategy,
       reviewStrategy: {
         templates: reviewTemplates,
         targetReviews: 5,
