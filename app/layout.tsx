@@ -1,5 +1,5 @@
 import './globals.css';
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import { Inter } from 'next/font/google';
 import Script from 'next/script';
 import { organizationSchema } from '@/components/ui/schema';
@@ -40,13 +40,6 @@ export const metadata: Metadata = {
   authors: [{ name: 'Joseph Iannazzi' }],
   creator: 'Just Legal Solutions',
   publisher: 'Just Legal Solutions',
-  viewport: {
-    width: 'device-width',
-    initialScale: 1,
-    maximumScale: 1,
-    userScalable: false,
-    viewportFit: 'cover'
-  },
   formatDetection: {
     email: false,
     address: false,
@@ -105,6 +98,15 @@ export const metadata: Metadata = {
   verification: {
     google: 'your-google-verification-code', // Replace with actual code
   }
+};
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
+  viewportFit: 'cover',
+  themeColor: '#0B132B'
 };
 
 export default function RootLayout({
