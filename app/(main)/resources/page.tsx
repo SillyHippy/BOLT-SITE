@@ -29,36 +29,36 @@ export default function LegalResources() {
       title: "Process Serving Guides",
       description: "Everything you need to know about legal document delivery",
       articles: [
-        { title: "What is a Process Server?", url: "/seo/what-is-a-process-server", preview: "Complete guide to process servers and legal document delivery" },
-        { title: "Oklahoma Process Server Requirements", url: "/seo/oklahoma-process-server-requirements", preview: "Legal requirements for process servers in Oklahoma" },
-        { title: "Process Serving FAQ", url: "/seo/process-serving-faq", preview: "Frequently asked questions about process serving" }
+        { title: "What is a Process Server?", url: null, preview: "Complete guide to process servers and legal document delivery" },
+        { title: "Oklahoma Process Server Requirements", url: null, preview: "Legal requirements for process servers in Oklahoma" },
+        { title: "Process Serving FAQ", url: null, preview: "Frequently asked questions about process serving" }
       ]
     },
     {
       title: "Court Document Types",
       description: "Understanding different legal documents and their service requirements",
       articles: [
-        { title: "Divorce Papers Service", url: "/seo/divorce-papers-tulsa", preview: "Professional divorce document delivery in Tulsa" },
-        { title: "Eviction Process Serving", url: "/seo/eviction-process-serving", preview: "Landlord document delivery and eviction notices" },
-        { title: "Subpoena Service", url: "/seo/subpoena-service", preview: "Court-ordered document delivery and witness service" }
+        { title: "Divorce Papers Service", url: null, preview: "Professional divorce document delivery in Tulsa" },
+        { title: "Eviction Process Serving", url: null, preview: "Landlord document delivery and eviction notices" },
+        { title: "Subpoena Service", url: null, preview: "Court-ordered document delivery and witness service" }
       ]
     },
     {
       title: "Service Areas",
       description: "Process serving coverage throughout Oklahoma",
       articles: [
-        { title: "Tulsa County Process Server", url: "/seo/process-server-tulsa", preview: "Professional service throughout Tulsa County" },
-        { title: "Broken Arrow Process Server", url: "/seo/process-server-broken-arrow", preview: "Document delivery in Broken Arrow and Wagoner County" },
-        { title: "Sapulpa Process Server", url: "/seo/process-server-sapulpa", preview: "Legal document service in Sapulpa and Creek County" }
+        { title: "Tulsa County Process Server", url: null, preview: "Professional service throughout Tulsa County" },
+        { title: "Broken Arrow Process Server", url: null, preview: "Document delivery in Broken Arrow and Wagoner County" },
+        { title: "Sapulpa Process Server", url: null, preview: "Legal document service in Sapulpa and Creek County" }
       ]
     },
     {
       title: "Business Services",
       description: "Specialized services for legal professionals and businesses",
       articles: [
-        { title: "Skip Tracing Services", url: "/seo/skip-tracing-services", preview: "Professional people location and investigation services" },
-        { title: "Court Document Filing", url: "/seo/court-document-filing", preview: "Professional courthouse filing assistance" },
-        { title: "Legal Courier Service", url: "/seo/legal-courier-service", preview: "Secure legal document transport and delivery" }
+        { title: "Skip Tracing Services", url: null, preview: "Professional people location and investigation services" },
+        { title: "Court Document Filing", url: null, preview: "Professional courthouse filing assistance" },
+        { title: "Legal Courier Service", url: null, preview: "Secure legal document transport and delivery" }
       ]
     }
   ];
@@ -118,18 +118,14 @@ export default function LegalResources() {
                 
                 <div className="space-y-3">
                   {category.articles.map((article, articleIndex) => (
-                    <Link 
-                      key={articleIndex}
-                      href={article.url}
-                      className="block p-3 bg-white border border-gray-200 rounded hover:border-blue-300 hover:shadow-sm transition-all"
-                    >
-                      <h3 className="font-semibold text-blue-600 hover:text-blue-800 mb-1">
+                    <div key={articleIndex} className="block p-3 bg-white border border-gray-200 rounded">
+                      <h3 className="font-semibold text-gray-800 mb-1">
                         {article.title}
                       </h3>
                       <p className="text-sm text-gray-600">
                         {article.preview}
                       </p>
-                    </Link>
+                    </div>
                   ))}
                 </div>
               </div>

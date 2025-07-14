@@ -44,7 +44,7 @@ export default function TulsaProcessServer() {
             </div>
             <div className="bg-white/10 p-3 rounded-lg">
               <div className="font-bold">Starting at</div>
-              <div className="text-blue-200">$65</div>
+              <div className="text-blue-200">$60</div>
             </div>
           </div>
         </div>
