@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     description: 'Professional process server and legal support services by Joseph Iannazzi at Just Legal Solutions.',
     images: [
       {
-        url: 'https://justlegalsolutions.org/og-image.png', // Create this image (1200x630px)
+        url: 'https://justlegalsolutions.org/jls-logo.png', // Create this image (1200x630px)
         width: 1200,
         height: 630,
         alt: 'Joseph Iannazzi - Just Legal Solutions',
