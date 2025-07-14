@@ -51,7 +51,7 @@ function generateSmartSchema(pageType: string, location: string, service: string
         longitude: -95.9928
       },
       geoRadius: 50000
-    }
+    },
     areaServed: {} as any
   };
 
