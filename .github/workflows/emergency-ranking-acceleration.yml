@@ -2,7 +2,7 @@ name: Emergency Ranking Acceleration
 
 on:
   schedule:
-    - cron: '*/10 * * * *'  # Every 10 minutes for TURBO ranking velocity
+    - cron: '*/5 * * * *'  # Every 5 minutes for HYPER-TURBO ranking velocity
   workflow_dispatch:
 
 jobs:

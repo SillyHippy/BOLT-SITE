@@ -2,7 +2,7 @@ name: Hourly IndexNow Push
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Every hour
+    - cron: '*/30 * * * *'  # Every 30 minutes for HYPER indexing
   workflow_dispatch:
 
 jobs:
