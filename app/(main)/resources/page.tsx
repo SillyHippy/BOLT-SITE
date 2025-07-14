@@ -61,7 +61,6 @@ export const metadata: Metadata = {
         { title: "Court Document Filing", url: null, preview: "Professional courthouse filing assistance" },
       ]
     }
-}
 
 const ResourcesPage = () => {
   return (

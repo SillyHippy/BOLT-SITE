@@ -4,7 +4,8 @@ import Footer from '@/components/ui/Footer';
 
 export const metadata: Metadata = {
   title: 'Why Choose Just Legal Solutions Over Competitors | Oklahoma Process Server',
-  description: 'Discover why Just Legal Solutions outperforms all Oklahoma process servers. Same-day service, 24/7 availability, and statewide coverage. Call (539) 367-6832.',
+import { Footer } from "../components/ui/footer";
+import Navbar from "../components/ui/navbar";
   keywords: 'oklahoma process server comparison, best process server tulsa, competitive process server rates',
   openGraph: {
     title: 'Oklahoma\'s #1 Process Server - Just Legal Solutions',
@@ -62,7 +63,7 @@ const CompetitorAnalysisPage = () => {
      <Footer />
    </>
   );
-};
+      <Footer />
 
 export default CompetitorAnalysisPage;
 }
