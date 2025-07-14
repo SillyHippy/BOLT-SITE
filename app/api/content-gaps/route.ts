@@ -88,7 +88,7 @@ async function findKeywordOpportunities() {
 }
 
 function generateContentStrategy(gaps: any[], opportunities: any[]) {
-  const strategies = [];
+  const strategies: any[] = [];
 
   // High-opportunity gaps
   gaps.forEach(gap => {
