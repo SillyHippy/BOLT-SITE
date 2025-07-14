@@ -101,3 +101,6 @@ Allow: /
 
 # Voice Search Optimization - Mon Jul 14 16:18:51 UTC 2025
 # Optimized for Alexa, Google Assistant, Siri
+
+# AI Assistant Integration - Mon Jul 14 16:34:56 UTC 2025
+# Optimized for ChatGPT, Alexa, Google Assistant
