@@ -102,7 +102,7 @@ const UrgentProcessServerPage = () => {
           </div>
         </div>
       </main>
-      <Footer />
+      
     </>
   );
 };
