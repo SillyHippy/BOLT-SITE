@@ -72,7 +72,7 @@ export default function SEOCommandCenter() {
             {contentGaps && (
               <div className="space-y-2">
                 <div className="text-sm text-gray-600">High-Priority Opportunities:</div>
-                {contentGaps.content_gaps.slice(0, 3).map((gap, i) => (
+                {contentGaps.content_gaps.slice(0, 3).map((gap: any, i: number) => (
                   <div key={i} className="text-sm">
                     <div className="font-semibold">{gap.topic}</div>
                     <div className="text-gray-500">Score: {gap.opportunity_score}/100</div>
@@ -87,7 +87,7 @@ export default function SEOCommandCenter() {
             {competitorData && (
               <div className="space-y-2">
                 <div className="text-sm text-gray-600">Active Threats:</div>
-                {competitorData.competitors.filter(c => c.threats > 0).map((comp, i) => (
+                {competitorData.competitors.filter((c: any) => c.threats > 0).map((comp: any, i: number) => (
                   <div key={i} className="text-sm">
                     <div className="font-semibold">{comp.competitor}</div>
                     <div className="text-red-500">Threats: {comp.threats}</div>
@@ -102,7 +102,7 @@ export default function SEOCommandCenter() {
         <div className="bg-white p-6 rounded-lg shadow-lg mb-8">
           <h3 className="text-2xl font-bold text-purple-600 mb-4">🚨 Priority Actions</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {contentGaps?.priority_actions.map((action, i) => (
+            {contentGaps?.priority_actions.map((action: any, i: number) => (
               <div key={i} className="border-l-4 border-blue-500 pl-4">
                 <div className="font-bold text-blue-600">{action.action}</div>
                 <div className="text-sm text-gray-600">{action.topic || action.keyword}</div>
@@ -117,7 +117,7 @@ export default function SEOCommandCenter() {
           <div className="bg-white p-6 rounded-lg shadow-lg mb-8">
             <h3 className="text-2xl font-bold text-red-600 mb-4">⚠️ Performance Issues</h3>
             <div className="space-y-4">
-              {performance.issues_found.map((issue, i) => (
+              {performance.issues_found.map((issue: any, i: number) => (
                 <div key={i} className="border-l-4 border-red-500 pl-4">
                   <div className="font-bold text-red-600">{issue.issue}</div>
                   <div className="text-sm text-gray-600">{issue.impact}</div>
