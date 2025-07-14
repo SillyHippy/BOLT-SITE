@@ -114,15 +114,21 @@ const postTemplates = [
   },
   {
     type: 'update',
-    title: 'Extended Weekend Hours',
-    description: 'Now offering extended hours on Saturdays for your convenience. Emergency service available 24/7.',
+    title: '24/7 Emergency Service Now Available',
+    description: 'Unlike our competitors, we offer true 24/7 emergency process serving. Available weekends and holidays when others are closed.',
     cta: 'Learn More'
   },
   {
     type: 'service',
-    title: 'Eviction Notice Service',
-    description: 'Professional eviction notice delivery throughout Tulsa County. Fast, reliable, and legally compliant.',
+    title: 'Business Solutions for Tulsa Companies',
+    description: 'Complete business administration services including corporate document delivery, contract service, and business compliance support.',
     cta: 'Get Quote'
+  },
+  {
+    type: 'competitive',
+    title: 'Why Choose Just Legal Solutions?',
+    description: 'Local Tulsa business with 24/7 availability, same-day service, and personal attention. Licensed, bonded, and insured.',
+    cta: 'Contact Us'
   },
   {
     type: 'tip',
@@ -160,9 +166,22 @@ export async function GET(request: NextRequest) {
       competitorAnalysis: {
         yourserved: {
           strengths: ['Brand recognition', 'Multiple locations'],
-          weaknesses: ['Generic service', 'Higher pricing', 'Slower response'],
-          opportunities: ['Better local focus', 'Faster service', 'More personal touch']
+          weaknesses: ['Generic service', 'Higher pricing', 'Slower response', 'Limited local focus', 'No 24/7 availability'],
+          opportunities: ['Better local focus', 'Faster service', 'More personal touch', '24/7 availability advantage', 'Lower pricing'],
+          attackStrategy: [
+            'Emphasize 24/7 availability vs their business hours',
+            'Highlight local Tulsa focus vs national chain',
+            'Promote same-day service guarantee',
+            'Showcase personal customer service',
+            'Leverage business solutions category they likely don\'t have'
+          ]
         }
+      },
+      keywordTargeting: {
+        primary: ['process server tulsa', 'tulsa process server', 'legal document delivery tulsa'],
+        secondary: ['process serving tulsa county', 'court papers served tulsa', 'subpoena service tulsa'],
+        business: ['business process serving tulsa', 'corporate document delivery', 'business solutions tulsa'],
+        competitive: ['yourserved alternative tulsa', 'better than yourserved', 'local process server tulsa']
       }
     });
   }
