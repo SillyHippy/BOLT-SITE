@@ -59,12 +59,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 0.7,
     },
-    {
-      url: `${baseUrl}/seo-dashboard`,
-      lastModified: currentDate,
-      changeFrequency: 'daily',
-      priority: 0.5,
-    },
+    // {  // REMOVED - This page was deleted
+    //   url: `${baseUrl}/seo-dashboard`,
+    //   lastModified: currentDate,
+    //   changeFrequency: 'daily',
+    //   priority: 0.5,
+    // },
     {
       url: `${baseUrl}/seo/tulsa-process-server-comprehensive`,
       lastModified: currentDate,
@@ -131,12 +131,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 0.5,
     },
-    {
-      url: `${baseUrl}/platform-supremacy`,
-      lastModified: currentDate,
-      changeFrequency: 'weekly',
-      priority: 0.5,
-    },
+    // { // REMOVED - This page was deleted
+    //   url: `${baseUrl}/platform-supremacy`,
+    //   lastModified: currentDate,
+    //   changeFrequency: 'weekly',
+    //   priority: 0.5,
+    // },
     {
       url: `${baseUrl}/security-policy`,
       lastModified: currentDate,

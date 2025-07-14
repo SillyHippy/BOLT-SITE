@@ -2,40 +2,45 @@ import React from 'react';
 import { Metadata } from 'next';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
+import Link from 'next/link';
+import { BookOpen, Gavel, MapPin } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Resources | Just Legal Solutions',
-  description: 'Explore legal resources, guides, and FAQs for Oklahoma process serving and legal document delivery.',
-  keywords: ['legal resources', 'oklahoma process server guides', 'document delivery faqs', 'court papers info'],
-  robots: 'index, follow'
+  title: 'Oklahoma Process Serving Resources & Legal Guides | Just Legal Solutions',
+  description: 'Explore our comprehensive library of legal resources, guides, and FAQs for Oklahoma process serving, court filing, and legal document delivery in Tulsa.',
+  keywords: ['legal resources oklahoma', 'oklahoma process server guides', 'tulsa document delivery faqs', 'court papers info', 'legal guides tulsa'],
 };
 
 const ResourcesPage = () => {
-  // FIX: All constants have been moved inside the component to resolve the build error.
-  const lastUpdated = new Date().toLocaleDateString('en-US', {
-    month: 'numeric',
-    day: 'numeric',
-    year: 'numeric',
-    timeZone: 'America/Chicago'
-  });
-
   const resourceCategories = [
     {
+      icon: BookOpen,
       title: "Process Serving Guides",
-      description: "Everything you need to know about legal document delivery",
+      description: "Everything you need to know about legal document delivery.",
       articles: [
-        { title: "What is a Process Server?", url: null, preview: "Complete guide to process servers and legal document delivery" },
-        { title: "Oklahoma Process Server Requirements", url: null, preview: "Legal requirements for process servers in Oklahoma" },
-        { title: "Process Serving FAQ", url: null, preview: "Frequently asked questions about process serving" }
+        { title: "What is a Process Server?", url: null, preview: "A complete guide to the role and responsibilities of a process server." },
+        { title: "Oklahoma Rules of Civil Procedure", url: null, preview: "Understanding the state laws that govern service of process." },
+        { title: "Serving an Evasive Defendant", url: null, preview: "Strategies and legal methods for serving hard-to-find individuals." }
       ]
     },
     {
+      icon: Gavel,
       title: "Court Document Types",
-      description: "Understanding different legal documents and their service requirements",
+      description: "Understanding different legal documents and their service requirements.",
       articles: [
-        { title: "Divorce Papers Service", url: null, preview: "Professional divorce document delivery in Tulsa" },
-        { title: "Eviction Process Serving", url: null, preview: "Landlord document delivery and eviction notices" },
-        { title: "Subpoena Service", url: null, preview: "Court-ordered document delivery and witness service" }
+        { title: "Serving Divorce Papers in Tulsa", url: null, preview: "The specific requirements for serving family law documents." },
+        { title: "How to Serve an Eviction Notice", url: null, preview: "A step-by-step guide for landlords in Oklahoma." },
+        { title: "The Power of a Subpoena", url: null, preview: "Ensuring witnesses and documents are legally compelled to appear." }
+      ]
+    },
+    {
+      icon: MapPin,
+      title: "Service of Process by County",
+      description: "Learn about specific rules and challenges in different Oklahoma counties.",
+      articles: [
+        { title: "Process Serving in Tulsa County", url: null, preview: "Navigating the busiest judicial district in Oklahoma." },
+        { title: "Serving Documents in Oklahoma County", url: null, preview: "Key differences for serving in the OKC metro area." },
+        { title: "Rural County Process Serving", url: null, preview: "Tips for successful service in less populated areas." }
       ]
     }
   ];
@@ -43,59 +48,40 @@ const ResourcesPage = () => {
   return (
     <>
       <Navbar />
-      {/* FIX: Added pt-12 for spacing below the navbar */}
-      <main className="min-h-screen pt-12 bg-white">
-        <div className="bg-gray-50 py-16">
-          <div className="max-w-7xl mx-auto px-4">
-            <h1 className="text-4xl font-bold mb-8">Process Serving Resources & Legal Guides</h1>
-            <p className="text-xl text-gray-600 mb-6">Expert legal guides, process serving tips, and Oklahoma legal resources. Professional insights from licensed process servers in Tulsa County.</p>
+      <main className="min-h-screen bg-gray-50">
+        <div className="container mx-auto px-4 py-16 pt-24">
+          <div className="text-center mb-16">
+            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Legal Resources & Guides</h1>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">Your expert source for navigating the complexities of process serving in Oklahoma.</p>
           </div>
-        </div>
 
-        <div className="bg-white py-12">
-          <div className="max-w-3xl mx-auto text-center">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">View Our Service Rates</h3>
-            <a
-              href="/pricing"
-              className="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition-colors font-bold text-lg"
-            >
-              View Pricing
-            </a>
-            <p className="text-sm text-gray-600 mt-4">
-              Rates vary by distance and urgency. Court filing services include additional handling fees.
-            </p>
-          </div>
-        </div>
-
-        <div className="bg-blue-50 p-8 my-8 max-w-3xl mx-auto rounded-lg">
-          <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">Service Hours</h3>
-          <div className="flex justify-between items-center text-lg">
-            <span className="font-semibold">Availability:</span>
-            <span className="font-bold text-green-600">24/7 Emergency Service Available</span>
-          </div>
-        </div>
-
-        <div className="bg-gray-100 p-8 my-8 max-w-3xl mx-auto rounded-lg">
-          <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">Contact Information</h3>
-          <div className="space-y-4 text-lg">
-            <div className="flex justify-between">
-              <strong className="text-gray-900">Phone:</strong>
-              <p className="text-gray-700">(539) 367-6832</p>
-            </div>
-            <div className="flex justify-between">
-              <strong className="text-gray-900">Email:</strong>
-              <p className="text-gray-700">info@justlegalsolutions.org</p>
-            </div>
-            <div className="flex justify-between">
-              <strong className="text-gray-900">Coverage:</strong>
-              <p className="text-gray-700">Tulsa County & Statewide Oklahoma</p>
-            </div>
+          <div className="space-y-16">
+            {resourceCategories.map((category) => (
+              <div key={category.title}>
+                <div className="flex items-center mb-6">
+                  <category.icon className="h-8 w-8 text-blue-600 mr-4" />
+                  <h2 className="text-3xl font-bold text-gray-800">{category.title}</h2>
+                </div>
+                <p className="text-lg text-gray-600 mb-8 ml-12">{category.description}</p>
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 ml-12">
+                  {category.articles.map((article) => (
+                    <div key={article.title} className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                      <h3 className="font-semibold text-xl mb-2 text-blue-800">{article.title}</h3>
+                      <p className="text-gray-600 mb-4">{article.preview}</p>
+                      <span className="text-blue-600 font-semibold hover:underline">
+                        {article.url ? <Link href={article.url}>Read More &rarr;</Link> : "Coming Soon"}
+                      </span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </main>
-      {/* FIX: The duplicate footer that was here has been removed. The main one is in layout.tsx */}
+      <Footer />
     </>
   );
-}
+};
 
 export default ResourcesPage;

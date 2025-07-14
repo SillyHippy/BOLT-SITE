@@ -13,7 +13,8 @@ const UrgentProcessServerPage = () => {
   return (
     <>
       <Navbar />
-      <main className="min-h-screen pt-12 bg-white">
+      {/* FIX: The main content now starts below the navbar */}
+      <main className="min-h-screen bg-white">
         {/* Emergency Alert Banner */}
         <div className="bg-red-600 text-white py-3 text-center">
           <div className="container mx-auto px-4">
@@ -104,6 +105,6 @@ const UrgentProcessServerPage = () => {
       <Footer />
     </>
   );
-}
+};
 
 export default UrgentProcessServerPage;
