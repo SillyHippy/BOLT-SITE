@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
-import Header from '@/components/ui/Header';
-import Footer from '@/components/ui/Footer';
+import { Navbar } from '@/components/ui/navbar';
+import { Footer } from '@/components/ui/footer';
 import BreadcrumbSchema, { VisualBreadcrumbs } from '@/components/ui/breadcrumb-schema';
 import ServiceSchema from '@/components/ui/service-schema';
 
@@ -61,8 +61,6 @@ export const metadata: Metadata = {
         { title: "Court Document Filing", url: null, preview: "Professional courthouse filing assistance" },
       ]
     }
-  ];
-
   return (
     <>
       <Header />
@@ -73,21 +71,19 @@ export const metadata: Metadata = {
             <p className="text-xl text-gray-600 mb-6">Expert legal guides, process serving tips, and Oklahoma legal resources. Professional insights from licensed process servers in Tulsa County.</p>
           </div>
         </div>
-
         {/* Pricing Button Instead of List */}
         <div className="bg-gray-50 p-6 rounded-lg mb-8 max-w-3xl mx-auto">
           <h3 className="text-xl font-bold text-gray-900 mb-4">Service Rates</h3>
-          <Link 
+          <a 
             href="/pricing" 
             className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors w-full text-center font-bold text-lg"
           >
             View Pricing
-          </Link>
+          </a>
           <p className="text-sm text-gray-600 mt-4">
             Rates vary by distance and urgency. Court filing services include additional handling fees.
           </p>
         </div>
-
         {/* Service Hours Updated to 24/7 */}
         <div className="bg-blue-50 p-6 rounded-lg mb-8 max-w-3xl mx-auto">
           <h3 className="text-xl font-bold text-gray-900 mb-4">Service Hours</h3>
@@ -98,7 +94,6 @@ export const metadata: Metadata = {
             </div>
           </div>
         </div>
-
         {/* Contact Info Updated */}
         <div className="bg-blue-50 p-6 rounded-lg mb-8 max-w-3xl mx-auto">
           <h3 className="text-xl font-bold text-gray-900 mb-4">Contact Information</h3>
@@ -116,6 +111,12 @@ export const metadata: Metadata = {
               <p className="text-gray-600">Tulsa County & Statewide Oklahoma</p>
             </div>
           </div>
+        </div>
+        {/* ...existing code... */}
+      </main>
+      <Footer />
+    </>
+  );
         </div>
 
         {/* ...existing code... */}

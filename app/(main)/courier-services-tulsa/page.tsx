@@ -7,8 +7,8 @@ import GoogleSpecificOptimization from '@/components/ui/google-specific-optimiza
 import BingYahooOptimization from '@/components/ui/bing-yahoo-optimization';
 import DuckDuckGoOptimization from '@/components/ui/duckduckgo-optimization';
 import SearchEngineUniversalOptimization from '@/components/ui/search-engine-universal-optimization';
-import Header from '@/components/ui/Header';
-import Footer from '@/components/ui/Footer';
+import { Navbar } from '@/components/ui/navbar';
+import { Footer } from '@/components/ui/footer';
 
 export const metadata: Metadata = {
   title: 'Professional Courier Services Tulsa County | Legal Document Delivery',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 export default function CourierServicesTulsaPage() {
   return (
     <>
-      <Header />
+      <Navbar />
       <main className="min-h-screen bg-white">
         {/* Header Section with More Padding */}
         <div className="bg-gray-50 py-16">

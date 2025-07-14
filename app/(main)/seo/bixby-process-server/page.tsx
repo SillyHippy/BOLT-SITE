@@ -186,6 +186,6 @@ const BixbyProcessServer = () => {
       <Footer />
     </>
   );
-};
+}
 
 export default BixbyProcessServer;
