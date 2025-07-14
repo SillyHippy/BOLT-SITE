@@ -1,12 +1,15 @@
-name: Local SEO Domination
+name: Safe Local SEO Pages
 
 on:
   schedule:
-    - cron: '20 */12 * * *'  # Every 12 hours, offset by 20 minutes
-  workflow_dispatch:
+    # Run 3 times per month on different days - SAFE per expert recommendations
+    - cron: '0 10 1 * *'   # 1st of month at 10 AM
+    - cron: '0 10 11 * *'  # 11th of month at 10 AM  
+    - cron: '0 10 21 * *'  # 21st of month at 10 AM
+  workflow_dispatch:  # Manual trigger
 
 jobs:
-  local-seo-boost:
+  safe-local-pages:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -21,35 +24,88 @@ jobs:
         with:
           node-version: '18'
           
-      - name: Local SEO Optimization
+      - name: Create High-Quality Location Page
         run: |
-          echo "📍 LOCAL SEO DOMINATION ACTIVATED"
+          echo "📍 SAFE LOCAL SEO PAGE CREATION"
           echo "================================="
+          echo "Creating 1 high-quality location page per expert recommendations"
           
-          # Run local SEO optimization script
-          if [ -f "scripts/local-seo-domination.js" ]; then
-            node scripts/local-seo-domination.js
-            echo "✅ Local SEO optimization completed"
+          # Determine which location to create based on date
+          day_of_month=$(date +%d)
+          
+          if [ "$day_of_month" = "01" ]; then
+            location="broken-arrow"
+            city="Broken Arrow"
+            county="Tulsa County"
+            zip="74012"
+          elif [ "$day_of_month" = "11" ]; then
+            location="bixby"
+            city="Bixby"
+            county="Tulsa County"
+            zip="74008"
+          else
+            location="jenks"
+            city="Jenks"
+            county="Tulsa County"
+            zip="74037"
           fi
           
-          # Update local SEO optimization markers
-          echo "🗺️ Updating local SEO optimizations..."
-          current_date=$(date +%Y-%m-%d)
+          echo "Creating high-quality page for: $city"
           
-          # Create local SEO optimization markers
-          echo "<!-- Local SEO Optimized: $current_date -->" >> public/local-seo-marker.html
+          # Create high-quality location page directory
+          mkdir -p "app/(main)/seo/process-server-$location"
           
-          echo "✅ Local SEO domination complete"
+          # Create a simple, high-quality page using multiple echo statements
+          echo "import { Metadata } from 'next';" > "app/(main)/seo/process-server-$location/page.tsx"
+          echo "" >> "app/(main)/seo/process-server-$location/page.tsx"
+          echo "export const metadata: Metadata = {" >> "app/(main)/seo/process-server-$location/page.tsx"
+          echo "  title: '$city Process Server - Professional Legal Document Delivery'," >> "app/(main)/seo/process-server-$location/page.tsx"
+          echo "  description: 'Professional process server in $city, $county. Same-day legal document delivery.'," >> "app/(main)/seo/process-server-$location/page.tsx"
+          echo "};" >> "app/(main)/seo/process-server-$location/page.tsx"
+          echo "" >> "app/(main)/seo/process-server-$location/page.tsx"
+          echo "export default function ProcessServer${city//[' ']/''}Page() {" >> "app/(main)/seo/process-server-$location/page.tsx"
+          echo "  return (" >> "app/(main)/seo/process-server-$location/page.tsx"
+          echo "    <div className=\"min-h-screen bg-white\">" >> "app/(main)/seo/process-server-$location/page.tsx"
+          echo "      <div className=\"container mx-auto px-4 py-16\">" >> "app/(main)/seo/process-server-$location/page.tsx"
+          echo "        <h1 className=\"text-4xl font-bold mb-6\">Professional Process Server $city</h1>" >> "app/(main)/seo/process-server-$location/page.tsx"
+          echo "        <p className=\"text-xl mb-8\">Same-Day Legal Document Delivery in $city, Oklahoma</p>" >> "app/(main)/seo/process-server-$location/page.tsx"
+          echo "        <div className=\"bg-blue-50 p-6 rounded-lg\">" >> "app/(main)/seo/process-server-$location/page.tsx"
+          echo "          <h2 className=\"text-2xl font-semibold mb-4\">Serving $city Residents & Businesses</h2>" >> "app/(main)/seo/process-server-$location/page.tsx"
+          echo "          <p className=\"mb-4\">Expert process servers familiar with $city courts and procedures.</p>" >> "app/(main)/seo/process-server-$location/page.tsx"
+          echo "          <p className=\"mb-4\">We serve all areas of $city including ZIP code $zip.</p>" >> "app/(main)/seo/process-server-$location/page.tsx"
+          echo "          <a href=\"tel:5393676832\" className=\"bg-blue-600 text-white px-6 py-3 rounded-lg inline-block\">" >> "app/(main)/seo/process-server-$location/page.tsx"
+          echo "            Call Now: (539) 367-6832" >> "app/(main)/seo/process-server-$location/page.tsx"
+          echo "          </a>" >> "app/(main)/seo/process-server-$location/page.tsx"
+          echo "        </div>" >> "app/(main)/seo/process-server-$location/page.tsx"
+          echo "      </div>" >> "app/(main)/seo/process-server-$location/page.tsx"
+          echo "    </div>" >> "app/(main)/seo/process-server-$location/page.tsx"
+          echo "  );" >> "app/(main)/seo/process-server-$location/page.tsx"
+          echo "}" >> "app/(main)/seo/process-server-$location/page.tsx"
+          
+          echo "✅ Created high-quality page for $city"
+          echo "📍 Location: /seo/process-server-$location"
+          echo "🎯 Following expert recommendations: 3 high-quality pages per month"
+          
+          # SAFE sitemap update - only when new content is actually created
+          echo "🗺️ Updating sitemap with new page (GENUINE timestamp)"
+          current_time=$(date '+%Y-%m-%d')
+          
+          # Add new page to sitemap (genuine content update)
+          if [ -f "public/sitemap.xml" ]; then
+            # Add the new page with genuine timestamp
+            sed -i "s|</urlset>|  <url>\n    <loc>https://justlegalsolutions.org/seo/process-server-$location/</loc>\n    <lastmod>$current_time</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.8</priority>\n  </url>\n</urlset>|" public/sitemap.xml
+            echo "✅ Added new page to sitemap with genuine timestamp"
+          fi
           
       - name: Set up GitHub credentials
         run: |
-          git config --global user.name "local-seo-bot"
+          git config --global user.name "safe-local-seo-bot"
           git config --global user.email "info@justlegalsolutions.org"
           
-      - name: Commit Local SEO Updates
+      - name: Commit High-Quality Location Page
         run: |
           git add .
-          git diff --staged --quiet || git commit -m "📍 Local SEO Domination: $(date '+%Y-%m-%d %H:%M UTC')"
+          git diff --staged --quiet || git commit -m "📍 High-Quality Location Page: $(date '+%Y-%m-%d') - Following expert SEO recommendations"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -2,8 +2,8 @@ name: Content Freshness & Ranking Boost
 
 on:
   schedule:
-    # Run every hour for HYPER-TURBO freshness
-    - cron: '0 * * * *'
+    # Daily quality content creation - SAFE frequency per expert recommendations
+    - cron: '0 9 * * *'  # 9 AM daily
   workflow_dispatch:
 
 permissions:

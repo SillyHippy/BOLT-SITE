@@ -2,7 +2,7 @@ name: Ultimate Ranking Blitz
 
 on:
   schedule:
-    - cron: '0 */3 * * *'  # Every 3 hours for maximum impact
+    - cron: '0 10 * * 1'  # Weekly Monday at 10 AM - SAFE frequency per expert recommendations
   workflow_dispatch:
   push:
     branches: [ main ]
@@ -25,13 +25,10 @@ jobs:
           
       - name: Run SEO Automation Scripts
         run: |
-          echo "🚀 Starting Ultimate Ranking Blitz..."
+          echo "🚀 Starting Technical SEO Audit..."
           
-          # Update sitemap timestamps
-          if [ -f "public/sitemap.xml" ]; then
-            sed -i "s/<lastmod>[^<]*<\/lastmod>/<lastmod>$(date +%Y-%m-%d)<\/lastmod>/g" public/sitemap.xml
-            echo "✅ Sitemap timestamps updated"
-          fi
+          # REMOVED: Artificial timestamp updates (violates Google guidelines)
+          # Per expert recommendations: Only update timestamps when content actually changes
           
           # Run manual SEO update if available
           if [ -f "manual-seo-update.js" ]; then
