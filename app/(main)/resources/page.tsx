@@ -7,8 +7,38 @@ import { BookOpen, Gavel, MapPin } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Oklahoma Process Serving Resources & Legal Guides | Just Legal Solutions',
-  description: 'Explore our comprehensive library of legal resources, guides, and FAQs for Oklahoma process serving, court filing, and legal document delivery in Tulsa.',
-  keywords: ['legal resources oklahoma', 'oklahoma process server guides', 'tulsa document delivery faqs', 'court papers info', 'legal guides tulsa'],
+  description: 'Comprehensive legal resources, guides, and FAQs for Oklahoma process serving, court filing, and legal document delivery. Expert guidance for Tulsa County and statewide Oklahoma.',
+  keywords: ['legal resources oklahoma', 'oklahoma process server guides', 'tulsa document delivery faqs', 'court papers info', 'legal guides tulsa', 'oklahoma civil procedure', 'tulsa county court rules', 'process server training oklahoma'],
+  authors: [{ name: 'Just Legal Solutions' }],
+  creator: 'Just Legal Solutions',
+  publisher: 'Just Legal Solutions',
+  category: 'Legal Services',
+  robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
+  openGraph: {
+    title: 'Oklahoma Process Serving Resources & Legal Guides | Just Legal Solutions',
+    description: 'Comprehensive legal resources, guides, and FAQs for Oklahoma process serving, court filing, and legal document delivery. Expert guidance for Tulsa County and statewide Oklahoma.',
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://justlegalsolutions.org/resources',
+    siteName: 'Just Legal Solutions',
+    images: [
+      {
+        url: 'https://justlegalsolutions.org/images/legal-resources-og.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Oklahoma Legal Resources and Process Serving Guides'
+      }
+    ]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Oklahoma Process Serving Resources & Legal Guides | Just Legal Solutions',
+    description: 'Comprehensive legal resources, guides, and FAQs for Oklahoma process serving, court filing, and legal document delivery.',
+    images: ['https://justlegalsolutions.org/images/legal-resources-og.jpg']
+  },
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/resources'
+  }
 };
 
 const ResourcesPage = () => {

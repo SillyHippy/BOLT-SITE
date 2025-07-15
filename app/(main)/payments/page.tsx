@@ -1,7 +1,7 @@
-"use client";
-
 import React from 'react';
 import { CreditCard, DollarSign, ArrowRight } from 'lucide-react';
+
+export { metadata } from './metadata';
 
 export default function PaymentsPage() {
   return (

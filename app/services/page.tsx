@@ -13,28 +13,36 @@ import EnhancedServiceSchema from '@/components/ui/enhanced-service-schema';
 import PerformanceSchema from '@/components/ui/performance-schema';
 
 export const metadata = {
-  title: 'Business Solutions & Executive Support Services',
-  description: 'Professional executive assistant services including event coordination, HR & payroll, travel management, customer service, and data entry solutions in Oklahoma.',
-  keywords: ['executive assistant', 'event planning', 'HR payroll', 'travel management', 'customer service', 'data entry', 'business solutions Oklahoma'],
+  title: 'Business Solutions & Executive Support Services | Just Legal Solutions',
+  description: 'Professional executive assistant services including event coordination, HR & payroll, travel management, customer service, and data entry solutions in Oklahoma. Starting at $15/hr.',
+  keywords: ['executive assistant oklahoma', 'event planning tulsa', 'HR payroll services', 'travel management', 'customer service oklahoma', 'data entry services', 'business solutions oklahoma', 'administrative support tulsa'],
+  authors: [{ name: 'Just Legal Solutions' }],
+  creator: 'Just Legal Solutions',
+  publisher: 'Just Legal Solutions',
+  category: 'Business Services',
+  robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   alternates: {
-    canonical: 'https://justlegalsolutions.org/services/'
+    canonical: 'https://justlegalsolutions.org/services'
   },
   openGraph: {
     title: 'Business Solutions & Executive Support Services | Just Legal Solutions',
-    description: 'Professional executive assistant services including event coordination, HR & payroll, travel management, customer service, and data entry solutions.',
+    description: 'Professional executive assistant services including event coordination, HR & payroll, travel management, customer service, and data entry solutions in Oklahoma. Starting at $15/hr.',
+    type: 'website',
+    locale: 'en_US',
     url: 'https://justlegalsolutions.org/services',
+    siteName: 'Just Legal Solutions',
     images: [{
-      url: '/images/jls-logo.webp',
+      url: 'https://justlegalsolutions.org/images/business-services-og.jpg',
       width: 1200,
       height: 630,
-      alt: 'Joseph Iannazzi Executive Assistant Services',
+      alt: 'Business Solutions & Executive Support Services in Oklahoma',
     }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Business Solutions & Executive Support Services | Just Legal Solutions',
-    description: 'Professional executive assistant services including event coordination, HR & payroll, travel management, customer service, and data entry solutions.',
-    images: ['/images/jls-logo.webp'],
+    description: 'Professional executive assistant services including event coordination, HR & payroll, travel management, customer service, and data entry solutions in Oklahoma.',
+    images: ['https://justlegalsolutions.org/images/business-services-og.jpg'],
   }
 };
 

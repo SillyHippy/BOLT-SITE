@@ -6,7 +6,11 @@ import { Footer } from '@/components/ui/footer';
 export const metadata: Metadata = {
   title: 'SEO Dashboard - Just Legal Solutions',
   description: 'Monitor SEO performance and page health for all Just Legal Solutions pages.',
-  robots: 'noindex, nofollow'
+  keywords: ['SEO dashboard', 'website performance monitoring', 'search engine optimization analytics'],
+  robots: 'noindex, nofollow',
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/seo-dashboard'
+  }
 };
 
 const SeoDashboardPage = () => {
