@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
 
 export function Footer() {
   const [showForm, setShowForm] = useState(false);
@@ -32,9 +31,12 @@ export function Footer() {
         setSubmissionStatus("success");
         form.reset();
       } else {
+        const errorData = await response.json();
+        console.error("Form submission failed:", errorData);
         setSubmissionStatus("error");
       }
     } catch (error) {
+      console.error("An unexpected error occurred:", error);
       setSubmissionStatus("error");
     }
   };
@@ -91,11 +93,12 @@ export function Footer() {
                 onSubmit={handleSubmit}
                 className="space-y-6"
               >
-                {/* Your full, original form is preserved below */}
+                {/* FormSubmit Hidden Fields */}
                 <input type="hidden" name="_subject" value="New Service Request from Website Form" />
                 <input type="hidden" name="_captcha" value="false" />
                 <input type="hidden" name="_template" value="table" />
                 
+                {/* Service Type */}
                 <div>
                   <label className="block text-sm font-bold text-gray-700">Is Personal Service required instead of a designee or sub service? <span className="text-xs font-normal text-gray-500">(Select all that apply)</span></label>
                   <div className="mt-2 flex flex-wrap gap-x-6 gap-y-2">
@@ -107,6 +110,7 @@ export function Footer() {
 
                 <hr/>
               
+                {/* New Service Type Section */}
                 <div>
                   <label className="block text-sm font-bold text-gray-700">Service Type</label>
                   <div className="mt-2 space-y-4">
@@ -117,25 +121,27 @@ export function Footer() {
                   </div>
                 </div>
 
+                {/* Your Information Section */}
                 <h3 className="text-lg font-semibold leading-6 text-gray-900 border-b pb-2">Your Information</h3>
                 <div>
                   <label htmlFor="firm-name" className="block text-sm font-bold text-gray-700">Your Firm or Company Name (Your Name if Pro Se) <span className="text-red-500">*</span></label>
                   <input type="text" id="firm-name" name="firm_or_company_name" required className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/>
                 </div>
                 <div>
-                    <label className="block text-sm font-bold text-gray-700">Your Address</label>
-                    <input type="text" name="your_address_street" placeholder="Street Address" className="mt-1 mb-2 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                        <input type="text" name="your_address_city" placeholder="City" className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/>
-                        <input type="text" name="your_address_state" placeholder="State/Region/Province" className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/>
-                        <input type="text" name="your_address_zip" placeholder="Postal / Zip Code" className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/>
-                    </div>
+                   <label className="block text-sm font-bold text-gray-700">Your Address</label>
+                   <input type="text" name="your_address_street" placeholder="Street Address" className="mt-1 mb-2 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/>
+                   <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                      <input type="text" name="your_address_city" placeholder="City" className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/>
+                      <input type="text" name="your_address_state" placeholder="State/Region/Province" className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/>
+                      <input type="text" name="your_address_zip" placeholder="Postal / Zip Code" className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/>
+                   </div>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div><label htmlFor="phone" className="block text-sm font-bold text-gray-700">Your Phone Number <span className="text-red-500">*</span></label><input type="tel" id="phone" name="your_phone_number" required className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
                   <div><label htmlFor="email" className="block text-sm font-bold text-gray-700">Your Email Address <span className="text-red-500">*</span></label><input type="email" id="email" name="your_email_address" required className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
                 </div>
                 
+                {/* Case Information Section */}
                 <h3 className="text-lg font-semibold leading-6 text-gray-900 border-b pb-2">Case Information</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div><label htmlFor="case-number" className="block text-sm font-bold text-gray-700">Case Number <span className="text-red-500">*</span></label><input type="text" id="case-number" name="case_number" required className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
@@ -154,6 +160,7 @@ export function Footer() {
                 <div><label htmlFor="plaintiff" className="block text-sm font-bold text-gray-700">Plaintiff/ Petitioner <span className="text-red-500">*</span></label><input type="text" id="plaintiff" name="plaintiff_petitioner" required className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
                 <div><label htmlFor="defendant" className="block text-sm font-bold text-gray-700">Defendant/ Respondent <span className="text-red-500">*</span></label><input type="text" id="defendant" name="defendant_respondent" required className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
 
+                {/* Service Details Section */}
                 <h3 className="text-lg font-semibold leading-6 text-gray-900 border-b pb-2">Service Details</h3>
                 <div>
                     <label htmlFor="docs-to-be-served" className="block text-sm font-bold text-gray-700">List Documents to Be Served <span className="bg-yellow-200 px-1 rounded">As To Be Listed on Affidavit</span> <span className="text-xs font-normal text-gray-500">(separated by semi-colons)</span> <span className="text-red-500">*</span></label>
@@ -165,9 +172,9 @@ export function Footer() {
                 <div>
                   <label className="block text-sm font-bold text-gray-700">Type of Address</label>
                   <div className="mt-2 flex items-center gap-6">
-                      <div className="flex items-center"><input id="addr-home" name="addr_type_home" type="checkbox" className="h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500" /><label htmlFor="addr-home" className="ml-2 block text-sm text-gray-900">Home</label></div>
-                      <div className="flex items-center"><input id="addr-biz" name="addr_type_biz" type="checkbox" className="h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500" /><label htmlFor="addr-biz" className="ml-2 block text-sm text-gray-900">Business</label></div>
-                      <div className="flex items-center"><input id="addr-other" name="addr_type_other" type="checkbox" className="h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500" /><label htmlFor="addr-other" className="ml-2 block text-sm text-gray-900">Other</label></div>
+                    <div className="flex items-center"><input id="addr-home" name="addr_type_home" type="checkbox" className="h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500" /><label htmlFor="addr-home" className="ml-2 block text-sm text-gray-900">Home</label></div>
+                    <div className="flex items-center"><input id="addr-biz" name="addr_type_biz" type="checkbox" className="h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500" /><label htmlFor="addr-biz" className="ml-2 block text-sm text-gray-900">Business</label></div>
+                    <div className="flex items-center"><input id="addr-other" name="addr_type_other" type="checkbox" className="h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500" /><label htmlFor="addr-other" className="ml-2 block text-sm text-gray-900">Other</label></div>
                   </div>
                 </div>
                 <div>
@@ -193,6 +200,7 @@ export function Footer() {
                   </div>
                 </div>
 
+                {/* Submit Documents Section */}
                 <h3 className="text-lg font-semibold leading-6 text-gray-900 border-b pb-2">Submit Documents</h3>
                 <div className="bg-blue-50 border border-blue-200 text-blue-800 text-center p-4 rounded-md">
                     Please email all documents to:<br/>
@@ -213,55 +221,112 @@ export function Footer() {
         )}
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+          {/* Email Section */}
           <div>
             <h3 className="text-xl font-bold mb-4">Email Us</h3>
             <p className="text-gray-600">
               You can reach us at{" "}
-              <a href="mailto:info@justlegalsolutions.org" className="text-blue-600 hover:text-blue-800">
+              <a
+                href="mailto:info@justlegalsolutions.org"
+                className="text-blue-600 hover:text-blue-800"
+              >
                 info@justlegalsolutions.org
               </a>
               . We respond promptly to all inquiries.
             </p>
           </div>
+
+          {/* Call Us Section */}
           <div>
             <h3 className="text-xl font-bold mb-4">Call or Text Us</h3>
             <p className="text-gray-600">
               Contact us anytime Call or Text at{" "}
-              <a href="tel:5393676832" className="text-blue-600 hover:text-blue-800">
+              <a
+                href="tel:5393676832"
+                className="text-blue-600 hover:text-blue-800"
+              >
                 (539) 367-6832
               </a>
               . We&apos;re here and ready to assist you with all your needs.
             </p>
           </div>
+
+          {/* Payments Section */}
           <div>
             <h3 className="text-xl font-bold mb-4">Payments</h3>
             <p className="text-gray-600">
               At this time, we accept{" "}
-              <a href="https://buy.stripe.com/3cs17SbHS6h95nGaEE" className="text-blue-600 hover:text-blue-800">
+              <a
+                href="https://buy.stripe.com/3cs17SbHS6h95nGaEE"
+                className="text-blue-600 hover:text-blue-800"
+              >
                 electronic payments
               </a>
-              , cash, checks, or money orders.
+              , cash, checks, or money orders. Payments should be made payable
+              to Joseph Iannazzi and mailed to: 564 E 138th Pl, Glenpool, OK
+              74033. Past-due invoices are subject to our{' '}
+              <a href="/pricing#policies" className="text-blue-600 hover:text-blue-800 underline">
+                Payment & Late Fee Policy
+              </a>.
             </p>
           </div>
         </div>
 
+        {/* Disclaimer Section */}
         <div className="mt-8 pt-6 border-t border-gray-200">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-center md:text-left text-sm text-gray-500">
-              Disclaimer: Just Legal Solutions is not a law firm. For legal questions, please consult a licensed attorney.
+          <div className="flex flex-col md:flex-row justify-center items-center gap-4">
+            <p className="text-center text-sm text-gray-500 order-2 md:order-1">
+              Disclaimer: Just Legal Solutions is not a law firm For legal questions, please consult a licensed attorney.
             </p>
-            <div className="flex space-x-4 items-center">
-                <div className="flex space-x-4">
-                    <a href="https://www.facebook.com/people/Just-Legal-Solutions/61574881736527/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-600"><svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
-                    <a href="https://www.linkedin.com/company/justlegalsolutionsok/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-600"><svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
-                    <a href="https://g.co/kgs/vMgnxex" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-600"><svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg></a>
-                    <a href="https://www.yelp.com/biz/just-legal-solutions-glenpool" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-600"><svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm4.5 8.5h-4v4c0 .276-.224.5-.5.5s-.5-.224-.5-.5v-4h-4c-.276 0-.5-.224-.5-.5s.224-.5.5-.5h4v-4c0-.276.224-.5.5-.5s.5.224.5.5v4h4c.276 0 .5.224.5.5s-.224.5-.5.5z"/></svg></a>
-                </div>
-                <div className="text-center md:text-right">
-                    <Link href="/sitemap" className="text-sm text-gray-500 hover:text-blue-600 underline">
-                        Sitemap
-                    </Link>
-                </div>
+            {/* Social Media Links */}
+            <div className="flex space-x-4 order-1 md:order-2">
+              <a
+                href="https://www.facebook.com/people/Just-Legal-Solutions/61574881736527/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-600 hover:text-blue-600 transition-colors"
+                aria-label="Facebook"
+              >
+                <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                </svg>
+              </a>
+              <a
+                href="https://www.linkedin.com/company/justlegalsolutionsok/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-600 hover:text-blue-600 transition-colors"
+                aria-label="LinkedIn"
+              >
+                <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                </svg>
+              </a>
+              <a
+                href="https://g.co/kgs/vMgnxex"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-600 hover:text-blue-600 transition-colors"
+                aria-label="Google My Business"
+              >
+                <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                  <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                  <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
+                  <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
+                </svg>
+              </a>
+              <a
+                href="https://www.yelp.com/biz/just-legal-solutions-glenpool"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-600 hover:text-blue-600 transition-colors"
+                aria-label="Yelp"
+              >
+                <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm4.5 8.5h-4v4c0 .276-.224.5-.5.5s-.5-.224-.5-.5v-4h-4c-.276 0-.5-.224-.5-.5s.224-.5.5-.5h4v-4c0-.276.224-.5.5-.5s.5.224.5.5v4h4c.276 0 .5.224.5.5s-.224.5-.5.5z"/>
+                </svg>
+              </a>
             </div>
           </div>
         </div>
