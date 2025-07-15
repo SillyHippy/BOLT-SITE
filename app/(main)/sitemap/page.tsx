@@ -94,7 +94,7 @@ const SitemapPage = () => {
           </div>
         </div>
       </main>
-      <Footer />
+      
     </>
   );
 };
