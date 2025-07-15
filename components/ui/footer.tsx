@@ -274,12 +274,22 @@ export function Footer() {
 
         {/* Disclaimer Section */}
         <div className="mt-8 pt-6 border-t border-gray-200">
-          <div className="flex flex-col md:flex-row justify-center items-center gap-4">
-            <p className="text-center text-sm text-gray-500 order-2 md:order-1">
-              Disclaimer: Just Legal Solutions is not a law firm For legal questions, please consult a licensed attorney.
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+            {/* Sitemap Link - left side */}
+            <div className="order-1 md:order-1 w-full md:w-auto text-center md:text-left">
+              <a
+                href="/sitemap"
+                className="text-blue-600 hover:text-blue-800 underline font-semibold text-sm"
+              >
+                Sitemap
+              </a>
+            </div>
+            {/* Disclaimer - center */}
+            <p className="text-center text-sm text-gray-500 order-2 md:order-2 w-full md:w-auto">
+              Disclaimer: Just Legal Solutions is not a law firm. For legal questions, please consult a licensed attorney.
             </p>
-            {/* Social Media Links */}
-            <div className="flex space-x-4 order-1 md:order-2">
+            {/* Social Media Links - right side */}
+            <div className="flex space-x-4 order-3 md:order-3">
               <a
                 href="https://www.facebook.com/people/Just-Legal-Solutions/61574881736527/"
                 target="_blank"
