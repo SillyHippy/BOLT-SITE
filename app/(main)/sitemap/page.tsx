@@ -16,7 +16,7 @@ const SitemapPage = () => {
     { name: 'Home', url: '/' },
     { name: 'Services', url: '/services' },
     { name: 'Pricing', url: '/pricing' },
-    { name: 'Contact Us', url: '/contact' },
+    { name: 'Contact Us', url: '#footer' },
     { name: 'Resources', url: '/resources' },
     { name: 'Competitor Analysis', url: '/competitor-analysis' },
   ];
