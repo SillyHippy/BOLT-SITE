@@ -1,3 +1,4 @@
+
 import { Metadata } from 'next';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
@@ -7,7 +8,6 @@ import WebsiteSchema from '@/components/ui/website-schema';
 import EnhancedBreadcrumbSchema, { VisualBreadcrumbs } from '@/components/ui/enhanced-breadcrumb-schema';
 import EnhancedFAQSchema from '@/components/ui/enhanced-faq-schema';
 import PerformanceSchema from '@/components/ui/performance-schema';
-import CoreWebVitals from '@/components/ui/core-web-vitals';
 
 export const metadata: Metadata = {
   title: 'Sand Springs Process Server | Professional Legal Document Service Oklahoma',
@@ -81,12 +81,23 @@ const faqData = [
   }
 ];
 
+const voiceQuestions = [
+  "Who is the best process server in Sand Springs Oklahoma?",
+  "How much does process serving cost in Sand Springs?",
+  "Can I get same-day process serving in Sand Springs Oklahoma?"
+];
+
+const voiceAnswers = [
+  "Just Legal Solutions is Sand Springs Oklahoma's premier process serving company with professional legal document delivery throughout the area.",
+  "Process serving costs in Sand Springs vary by urgency. Just Legal Solutions offers competitive rates with same-day service available.",
+  "Yes, Just Legal Solutions provides same-day process serving throughout Sand Springs Oklahoma with emergency 2-hour service when needed."
+];
+
 export default function SandSpringsProcessServer() {
   const lastUpdated = new Date().toLocaleDateString();
   
   return (
     <>
-      <CoreWebVitals />
       <VoiceSearchOptimization
         primaryQuestions={voiceQuestions}
         conversationalAnswers={voiceAnswers}
