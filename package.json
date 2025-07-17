@@ -73,11 +73,11 @@
     "typescript": "5.2.2",
     "vaul": "^0.9.9",
     "zod": "^3.23.8",
-    "@types/react": "^18.3.23"
+    "@types/react": "^18.3.23",
+    "vite": "^7.0.5"
   },
   "devDependencies": {
     "@types/react-router-dom": "^5.3.3",
-    "lovable-tagger": "^1.1.8",
-    "vite": "^7.0.5"
+    "lovable-tagger": "^1.1.8"
   }
 }
