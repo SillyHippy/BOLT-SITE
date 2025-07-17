@@ -1,13 +1,8 @@
+
 import React from 'react';
 import Image from 'next/image';
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { Navbar } from '@/components/ui/navbar';
-import { Footer } from '@/components/ui/footer';
-import GoogleSpecificOptimization from '@/components/ui/google-specific-optimization';
-import BingYahooOptimization from '@/components/ui/bing-yahoo-optimization';
-import DuckDuckGoOptimization from '@/components/ui/duckduckgo-optimization';
-import SearchEngineUniversalOptimization from '@/components/ui/search-engine-universal-optimization';
 
 export const metadata: Metadata = {
   title: 'Professional Courier Services Tulsa County | Legal Document Delivery',
@@ -21,7 +16,6 @@ export const metadata: Metadata = {
 export default function CourierServicesTulsaPage() {
   return (
     <>
-      <Navbar />
       <main className="min-h-screen pt-12 bg-white">
         <div className="bg-gray-50 py-16">
           <div className="max-w-7xl mx-auto px-4">
@@ -83,34 +77,7 @@ export default function CourierServicesTulsaPage() {
             </div>
           </div>
         </div>
-
-        <GoogleSpecificOptimization
-          businessName="Just Legal Solutions - Courier Services Tulsa"
-          primaryLocation="Tulsa County, Oklahoma"
-          serviceArea={["Tulsa", "Oklahoma City", "Broken Arrow", "Norman", "Edmond", "Lawton"]}
-          emergencyService={true}
-        />
-        <BingYahooOptimization
-          businessName="Just Legal Solutions - Courier Services Tulsa"
-          serviceTypes={["Courier Services Tulsa", "Legal Document Delivery", "Court Filing Services", "Secure Document Transport"]}
-          expertise={["Same-Day Delivery", "Legal Courier", "Court Filings", "Secure Transport"]}
-          serviceRadius={100}
-        />
-        <DuckDuckGoOptimization
-          businessName="Just Legal Solutions - Courier Services Tulsa"
-          focusKeywords={["courier services tulsa", "legal document delivery oklahoma", "court filing services", "secure courier tulsa"]}
-          privacyFocused={true}
-          quickAnswers={true}
-        />
-        <SearchEngineUniversalOptimization
-          businessName="Just Legal Solutions - Courier Services Tulsa"
-          primaryService="Courier Services"
-          location="Tulsa County, Oklahoma"
-          emergencyAvailable={true}
-        />
       </main>
-      {/* The <Footer /> component is now removed from this page. 
-          The main footer from your layout file will be used instead. */}
     </>
   );
 }
