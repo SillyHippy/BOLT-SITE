@@ -1,0 +1,10 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/(main)/page": "app/(main)/page.js",
+  "/(main)/pricing/page": "app/(main)/pricing/page.js",
+  "/(main)/payments/page": "app/(main)/payments/page.js",
+  "/card/page": "app/card/page.js",
+  "/services/page": "app/services/page.js",
+  "/(main)/sitemap/page": "app/(main)/sitemap/page.js",
+  "/(main)/seo/bixby-process-server/page": "app/(main)/seo/bixby-process-server/page.js"
+}

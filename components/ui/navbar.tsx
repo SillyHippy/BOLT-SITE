@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useState } from 'react';
@@ -180,3 +181,6 @@ export function Navbar() {
     </nav>
   );
 }
+
+// Also export as default for compatibility
+export default Navbar;
