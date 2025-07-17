@@ -182,5 +182,5 @@ export function Navbar() {
   );
 }
 
-// Also export as default for compatibility
+// Default export for compatibility
 export default Navbar;

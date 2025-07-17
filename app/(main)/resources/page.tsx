@@ -1,7 +1,6 @@
+
 import React from 'react';
 import { Metadata } from 'next';
-import { Navbar } from '@/components/ui/navbar';
-import { Footer } from '@/components/ui/footer';
 import Link from 'next/link';
 import { BookOpen, Gavel, MapPin } from 'lucide-react';
 
@@ -76,41 +75,37 @@ const ResourcesPage = () => {
   ];
 
   return (
-    <>
-      <Navbar />
-      <main className="min-h-screen bg-gray-50">
-        <div className="container mx-auto px-4 py-16 pt-24">
-          <div className="text-center mb-16">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Legal Resources & Guides</h1>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">Your expert source for navigating the complexities of process serving in Oklahoma.</p>
-          </div>
-
-          <div className="space-y-16">
-            {resourceCategories.map((category) => (
-              <div key={category.title}>
-                <div className="flex items-center mb-6">
-                  <category.icon className="h-8 w-8 text-blue-600 mr-4" />
-                  <h2 className="text-3xl font-bold text-gray-800">{category.title}</h2>
-                </div>
-                <p className="text-lg text-gray-600 mb-8 ml-12">{category.description}</p>
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 ml-12">
-                  {category.articles.map((article) => (
-                    <div key={article.title} className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow">
-                      <h3 className="font-semibold text-xl mb-2 text-blue-800">{article.title}</h3>
-                      <p className="text-gray-600 mb-4">{article.preview}</p>
-                      <span className="text-blue-600 font-semibold hover:underline">
-                        {article.url ? <Link href={article.url}>Read More &rarr;</Link> : "Coming Soon"}
-                      </span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            ))}
-          </div>
+    <main className="min-h-screen bg-gray-50">
+      <div className="container mx-auto px-4 py-16 pt-24">
+        <div className="text-center mb-16">
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Legal Resources & Guides</h1>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">Your expert source for navigating the complexities of process serving in Oklahoma.</p>
         </div>
-      </main>
-      
-    </>
+
+        <div className="space-y-16">
+          {resourceCategories.map((category) => (
+            <div key={category.title}>
+              <div className="flex items-center mb-6">
+                <category.icon className="h-8 w-8 text-blue-600 mr-4" />
+                <h2 className="text-3xl font-bold text-gray-800">{category.title}</h2>
+              </div>
+              <p className="text-lg text-gray-600 mb-8 ml-12">{category.description}</p>
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 ml-12">
+                {category.articles.map((article) => (
+                  <div key={article.title} className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                    <h3 className="font-semibold text-xl mb-2 text-blue-800">{article.title}</h3>
+                    <p className="text-gray-600 mb-4">{article.preview}</p>
+                    <span className="text-blue-600 font-semibold hover:underline">
+                      {article.url ? <Link href={article.url}>Read More &rarr;</Link> : "Coming Soon"}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </main>
   );
 };
 
