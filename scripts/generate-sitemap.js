@@ -43,7 +43,12 @@ function generateSitemap() {
     return `  <url>\n    <loc>${url}</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>1.0</priority>\n  </url>`;
   });
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.join('\n')}\n</urlset>\n`;
+  // Always write to public for local dev
   fs.writeFileSync(path.join(PUBLIC_DIR, 'sitemap.xml'), sitemap);
+  // Also write to out/ for deploys if it exists
+  if (fs.existsSync(OUT_DIR)) {
+    fs.writeFileSync(path.join(OUT_DIR, 'sitemap.xml'), sitemap);
+  }
   console.log(`🗺️ Sitemap generated with ${urls.length} URLs.`);
 }
 
