@@ -1,6 +1,6 @@
-
 import { MetadataRoute } from 'next'
-import siteMetadata from '@/data/siteMetadata'
+// FIX 1: Use a direct relative path instead of the '@/' alias.
+import siteMetadata from '../data/siteMetadata'
 import fs from 'fs'
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -18,9 +18,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Manually add the homepage route ('/')
   staticRoutes.push({
     url: siteUrl,
-    lastModified: new aDate().toISOString().split('T')[0],
+    // FIX 2: Corrected the "new aDate()" typo to "new Date()"
+    lastModified: new Date().toISOString().split('T')[0],
   })
 
-  // Returns ONLY the static pages, ignoring the blog for now.
+  // Returns ONLY the static pages
   return staticRoutes
 }
