@@ -1,16 +1,8 @@
-"use client"; // This is required for the scrolling logic to work
+
+"use client";
 
 import React, { useEffect } from 'react';
 import { CheckCircle, Truck } from 'lucide-react';
-import ReviewSchema from '@/components/ui/review-schema';
-import GoogleSpecificOptimization from '@/components/ui/google-specific-optimization';
-import BingYahooOptimization from '@/components/ui/bing-yahoo-optimization';
-import DuckDuckGoOptimization from '@/components/ui/duckduckgo-optimization';
-import SearchEngineUniversalOptimization from '@/components/ui/search-engine-universal-optimization';
-import EnhancedBreadcrumbSchema from '@/components/ui/enhanced-breadcrumb-schema';
-import EnhancedFAQSchema from '@/components/ui/enhanced-faq-schema';
-import EnhancedServiceSchema from '@/components/ui/enhanced-service-schema';
-import PerformanceSchema from '@/components/ui/performance-schema';
 
 // Data for additional services for easy management
 const additionalServices = [
@@ -22,11 +14,10 @@ const additionalServices = [
     { title: 'Evasive Respondent Stakeout', description: 'For difficult-to-serve individuals, stakeout services are available at <strong>$90 per hour</strong> (one-hour minimum). This is only performed at your request.' },
     { title: 'Multiple Services at Same Address', description: 'When serving multiple individuals at the same location, each additional person is only <strong>$30</strong>.' },
     { title: 'Posting Affidavits', description: 'For services that require posting a notice (e.g., eviction notices) instead of personal delivery, the fee is <strong>$40</strong>.' },
-    { title: 'Single Serve Attempt', description: 'Reduced Rate for only a single serve attempt, the fee starts as low as <strong>$40</strong>.' },
+    { title: 'Single Serve Attempt', description: 'Reduced Rate for only a single serve attempt, the fee starts as low as <strong>$30</strong>.' },
     { title: 'Certified Mailing', description: 'We can send affidavits via certified mail for <strong>$35 plus postage costs</strong>.' },
     { title: 'Skip Tracing', description: 'Need to locate an individual? We offer skip tracing services. Please contact us for a quote.' },
 ];
-
 
 export default function PricingPage() {
   
@@ -44,7 +35,6 @@ export default function PricingPage() {
   return (
     <main className="min-h-screen bg-white font-sans">
       
-      {/* --- EDITED --- Reduced bottom padding (pb-16 to pb-10) */}
       <section className="pt-24 pb-10 px-4 bg-gray-100">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">JLS Wants to Partner with You</h2>
@@ -63,7 +53,6 @@ export default function PricingPage() {
         </div>
       </section>
 
-      {/* --- EDITED --- Reduced vertical padding (py-12 to py-10) */}
       <section className="py-10 px-4 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center">
@@ -131,7 +120,6 @@ export default function PricingPage() {
         </div>
       </section>
 
-      {/* --- EDITED --- Reduced vertical padding (py-12 to py-10) */}
       <section className="py-10 px-4 bg-white">
         <div className="max-w-7xl mx-auto">
             <div className="text-center mb-12">
@@ -144,7 +132,6 @@ export default function PricingPage() {
                 </p>
             </div>
             <div className="max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
-                {/* Cards remain the same */}
                 <div className="bg-gray-50 p-8 rounded-xl border border-gray-200 text-center">
                     <h3 className="text-2xl font-bold mb-2 text-gray-900">Standard Courier</h3>
                     <p className="text-4xl font-bold mb-4 text-gray-800">$35</p>
@@ -162,7 +149,6 @@ export default function PricingPage() {
         </div>
       </section>
 
-      {/* --- EDITED --- Reduced vertical padding (py-16 md:py-20 to py-10) */}
        <section className="py-10 bg-gray-50">
         <div className="max-w-5xl mx-auto px-4">
             <div className="text-center mb-12">
@@ -183,12 +169,10 @@ export default function PricingPage() {
         </div>
       </section>
 
-      {/* --- EDITED --- Reduced vertical padding (py-16 to py-12) */}
       <section id="policies" className="py-12 px-4 bg-gray-100">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-6 text-gray-900">Our Policies</h2>
           <div className="text-left grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Policy content remains the same */}
             <div>
                 <h3 className="text-xl font-bold mb-3 text-gray-800">Non-Service Policy</h3>
                 <p className="text-gray-700">
@@ -212,80 +196,6 @@ export default function PricingPage() {
           </div>
         </div>
       </section>
-      
-      {/* Invisible Review Schema for SEO */}
-      <ReviewSchema 
-        businessName="Just Legal Solutions - Pricing"
-        aggregateRating={4.9}
-        reviewCount={158}
-        reviews={[
-          {
-            author: "Business Client",
-            rating: 5,
-            text: "Fair and transparent pricing with excellent service. No hidden fees and they deliver exactly what they promise.",
-            date: "2024-12-10"
-          },
-          {
-            author: "Legal Professional",
-            rating: 5,
-            text: "Competitive rates with outstanding professional service. Great value for the quality of work provided.",
-            date: "2024-11-28"
-          },
-          {
-            author: "Satisfied Customer",
-            rating: 5,
-            text: "Reasonable pricing and exceptional service quality. Highly recommend for anyone needing process serving.",
-            date: "2024-11-15"
-          }
-        ]}
-      />
-      
-      {/* Enhanced Schema Components for Maximum SEO */}
-      <EnhancedBreadcrumbSchema items={[
-        { name: "Home", url: "/" },
-        { name: "Pricing", url: "/pricing" }
-      ]} />
-      
-      <EnhancedFAQSchema 
-        pageTitle="Process Serving Pricing"
-        faqs={[
-          {
-            question: "What factors affect process serving pricing?",
-            answer: "Process serving costs vary based on service urgency, location distance, document complexity, and specific timing requirements. We offer standard, rush, same-day, and emergency service options with transparent pricing."
-          },
-          {
-            question: "Are there any hidden fees in your pricing?",
-            answer: "No hidden fees! Our pricing is completely transparent. We quote all costs upfront including any additional services, travel surcharges, or special timing requirements before beginning service."
-          },
-          {
-            question: "Do you offer discounts for multiple services?",
-            answer: "Yes! We offer reduced rates for multiple services at the same address and volume discounts for law firms and businesses with regular process serving needs. Contact us for custom pricing."
-          },
-          {
-            question: "What's included in your standard pricing?",
-            answer: "Standard pricing includes multiple service attempts, GPS tracking, photo documentation, professional affidavit of service, and digital delivery of completion documents."
-          },
-          {
-            question: "How do I get a quote for my specific needs?",
-            answer: "Call (539) 367-6832 or use our online scheduling system. We provide instant quotes based on your location, urgency, and specific service requirements."
-          }
-        ]}
-      />
-      
-      <EnhancedServiceSchema 
-        serviceName="Process Serving Pricing & Services"
-        serviceDescription="Transparent pricing for professional process serving throughout Oklahoma with flexible service options"
-        serviceArea="Oklahoma (Tulsa County, Statewide Coverage)"
-        serviceType="Legal Document Service Pricing"
-        additionalServices={["Volume Discounts", "Law Firm Packages", "Emergency Service"]}
-      />
-      
-      <PerformanceSchema 
-        pageName="Process Serving Pricing - Oklahoma"
-        pageUrl="/pricing"
-        loadTime={1.8}
-        mobileOptimized={true}
-      />
     </main>
   );
 }
