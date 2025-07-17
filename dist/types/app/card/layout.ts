@@ -1,4 +1,4 @@
-// File: C:\Users\ianna\OneDrive\Desktop\GitHub\DEL5\app\card\layout.tsx
+// File: C:\Users\ianna\OneDrive\Desktop\GitHub\BOLT-SITE1\app\card\layout.tsx
 import * as entry from '../../../../app/card/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

@@ -1,4 +1,4 @@
-// File: C:\Users\ianna\OneDrive\Desktop\GitHub\DEL5\app\(main)\payments\page.tsx
+// File: C:\Users\ianna\OneDrive\Desktop\GitHub\BOLT-SITE1\app\(main)\payments\page.tsx
 import * as entry from '../../../../../app/(main)/payments/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

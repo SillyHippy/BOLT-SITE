@@ -1,11 +1,5 @@
 {
   "pages": {
-    "/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/layout.css",
-      "static/chunks/app/layout.js"
-    ],
     "/(main)/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -16,10 +10,11 @@
       "static/chunks/main-app.js",
       "static/chunks/app/(main)/layout.js"
     ],
-    "/(main)/pricing/page": [
+    "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(main)/pricing/page.js"
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
     ],
     "/card/page": [
       "static/chunks/webpack.js",
@@ -31,6 +26,16 @@
       "static/chunks/main-app.js",
       "static/chunks/app/card/layout.js"
     ],
+    "/(main)/payments/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(main)/payments/page.js"
+    ],
+    "/(main)/pricing/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(main)/pricing/page.js"
+    ],
     "/services/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -40,21 +45,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/services/layout.js"
-    ],
-    "/(main)/payments/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(main)/payments/page.js"
-    ],
-    "/(main)/sitemap/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(main)/sitemap/page.js"
-    ],
-    "/(main)/seo/bixby-process-server/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(main)/seo/bixby-process-server/page.js"
     ],
     "/_not-found/page": [
       "static/chunks/webpack.js",
