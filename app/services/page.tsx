@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import Link from 'next/link';
 import Script from 'next/script';
@@ -216,7 +217,7 @@ export default function ServicesPage() {
           <div className="max-w-3xl mx-auto text-center space-y-4">
             <h2 className="text-2xl font-bold">My Executive Support Philosophy</h2>
             <p className="text-gray-700 leading-relaxed">
-              I believe that true partnership is built on anticipation, discretion, and proactive communication. By immersing myself in your priorities—whether it's complex calendar orchestration, confidential project management, or last-minute travel pivots—I deliver the seamless support every C-suite leader deserves.
+              I believe that true partnership is built on anticipation, discretion, and proactive communication. By immersing myself in your priorities—whether it&apos;s complex calendar orchestration, confidential project management, or last-minute travel pivots—I deliver the seamless support every C-suite leader deserves.
             </p>
             <ul className="flex flex-col sm:flex-row flex-wrap justify-center gap-4 sm:gap-6 mt-6 text-gray-600">
               <li className="flex items-center space-x-2">

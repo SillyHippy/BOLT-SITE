@@ -1,3 +1,4 @@
+
 import React, { useEffect, useState, useRef } from 'react';
 import Image from 'next/image';
 
@@ -61,7 +62,7 @@ export default function ShareModal({ isOpen, onClose }: ShareModalProps) {
   // Email sharing - using mailto link
   const handleEmailShare = (e: React.MouseEvent) => {
     e.preventDefault();
-    const mailtoUrl = `mailto:?subject=Check out this digital business card&body=Here is Joseph Iannazzi's digital business card: ${cardUrl}`;
+    const mailtoUrl = `mailto:?subject=Check out this digital business card&body=Here is Joseph Iannazzi&apos;s digital business card: ${cardUrl}`;
     window.location.href = mailtoUrl;
   };
   
@@ -78,7 +79,7 @@ export default function ShareModal({ isOpen, onClose }: ShareModalProps) {
     <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
       <div ref={modalRef} className="bg-[#1B2738] rounded-[24px] p-6 max-w-[420px] w-full shadow-[0_20px_50px_rgba(0,0,0,0.8)] border border-[#2A3653]">
         <h2 className="text-[22px] font-semibold text-white mb-4">
-          Share Joseph Iannazzi's Digital Business Card
+          Share Joseph Iannazzi&apos;s Digital Business Card
         </h2>
         <div className="space-y-3">
           {/* Copy Card Link */}

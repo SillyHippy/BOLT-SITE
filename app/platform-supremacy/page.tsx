@@ -1,3 +1,4 @@
+
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -16,7 +17,7 @@ export default function PlatformSupremacy() {
   return (
     <div className="container mx-auto px-4 py-8">
       <div className="text-center mb-12">
-        <h1 className="text-5xl font-bold mb-4 text-blue-900">👑 Oklahoma's Supreme Process Server</h1>
+        <h1 className="text-5xl font-bold mb-4 text-blue-900">👑 Oklahoma&apos;s Supreme Process Server</h1>
         <p className="text-2xl text-gray-600">Dominating Every Platform, Delivering Every Time</p>
         <div className="mt-6">
           <a href="tel:5393676832" className="bg-blue-600 text-white px-8 py-4 rounded-lg text-xl font-bold hover:bg-blue-700 mr-4">
@@ -71,7 +72,7 @@ export default function PlatformSupremacy() {
           <div>
             <h3 className="text-xl font-bold mb-4">🗣️ Voice Assistants</h3>
             <ul className="space-y-2">
-              <li>✅ Siri: "Process server near me"</li>
+              <li>✅ Siri: &ldquo;Process server near me&rdquo;</li>
               <li>✅ Alexa: Oklahoma recommendations</li>
               <li>✅ Google Assistant: Top choice</li>
               <li>✅ Cortana: Prime selection</li>
@@ -92,7 +93,7 @@ export default function PlatformSupremacy() {
       
       <div className="text-center bg-blue-900 text-white p-8 rounded-lg">
         <h2 className="text-3xl font-bold mb-4">Experience Supreme Service Today</h2>
-        <p className="text-xl mb-6">Join thousands who chose Oklahoma's supreme process server</p>
+        <p className="text-xl mb-6">Join thousands who chose Oklahoma&apos;s supreme process server</p>
         <div className="space-y-4">
           <p className="text-2xl font-bold">📞 (539) 367-6832</p>
           <p className="text-xl">📧 info@justlegalsolutions.org</p>

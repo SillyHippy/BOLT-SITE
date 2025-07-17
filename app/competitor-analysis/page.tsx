@@ -1,3 +1,4 @@
+
 import { Metadata } from 'next';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
@@ -36,7 +37,7 @@ const CompetitorAnalysisPage = () => {
                   <CheckCircle className="h-6 w-6 text-green-500 mr-3 mt-1 flex-shrink-0" />
                   <div>
                     <h3 className="font-semibold text-lg">24/7 Emergency Availability</h3>
-                    <p className="text-gray-600">Legal emergencies don't wait for business hours, and neither do we. Available anytime.</p>
+                    <p className="text-gray-600">Legal emergencies don&apos;t wait for business hours, and neither do we. Available anytime.</p>
                   </div>
                 </li>
                 <li className="flex items-start">
@@ -71,7 +72,7 @@ const CompetitorAnalysisPage = () => {
                   <XCircle className="h-6 w-6 text-red-500 mr-3 mt-1 flex-shrink-0" />
                   <div>
                     <h3 className="font-semibold text-lg">9-to-5 Business Hours Only</h3>
-                    <p className="text-gray-600">If your emergency happens after hours, you're out of luck until the next day.</p>
+                    <p className="text-gray-600">If your emergency happens after hours, you&apos;re out of luck until the next day.</p>
                   </div>
                 </li>
                 <li className="flex items-start">
