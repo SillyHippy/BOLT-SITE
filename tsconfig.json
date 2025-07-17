@@ -40,7 +40,8 @@
     "src/**/*.ts",
     "vite.config.ts",
     ".next/types/**/*.ts",
-    "dist/types/**/*.ts"
+    "dist/types/**/*.ts",
+    "out/types/**/*.ts"
   ],
   "exclude": [
     "node_modules",
