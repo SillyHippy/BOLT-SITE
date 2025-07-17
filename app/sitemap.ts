@@ -1,10 +1,10 @@
 import { MetadataRoute } from 'next'
-// FIX 1: Use a direct relative path instead of the '@/' alias.
-import siteMetadata from '../data/siteMetadata'
+// We are removing the import that was causing the error.
 import fs from 'fs'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const siteUrl = siteMetadata.siteUrl
+  // We are hardcoding your site URL directly here.
+  const siteUrl = 'https://justlegalsolutions.org'
 
   // This code reads your 'app/(main)' directory to find all static pages
   const staticPageFiles = fs.readdirSync('./app/(main)', { withFileTypes: true })
@@ -18,7 +18,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Manually add the homepage route ('/')
   staticRoutes.push({
     url: siteUrl,
-    // FIX 2: Corrected the "new aDate()" typo to "new Date()"
     lastModified: new Date().toISOString().split('T')[0],
   })
 
