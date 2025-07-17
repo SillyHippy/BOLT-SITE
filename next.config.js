@@ -3,7 +3,7 @@
 const nextConfig = {
   trailingSlash: true,
   output: 'export',
-  distDir: 'out', // Changed from 'dist' to match Cloudflare Pages expectation
+  distDir: 'out',
   images: {
     unoptimized: true,
   },
@@ -11,19 +11,26 @@ const nextConfig = {
     missingSuspenseWithCSRBailout: false,
   },
   typescript: {
-    // During builds, ignore TypeScript errors for faster deployment
     ignoreBuildErrors: false,
   },
   eslint: {
-    // During builds, ignore ESLint errors for faster deployment
     ignoreDuringBuilds: false,
   },
-  webpack: (config) => {
+  poweredByHeader: false,
+  generateEtags: false,
+  compress: false,
+  webpack: (config, { isServer }) => {
     config.resolve.alias = {
       ...config.resolve.alias,
       '@': require('path').resolve(__dirname, './'),
     };
+    
+    config.resolve.extensions = ['.tsx', '.ts', '.js', '.jsx', ...config.resolve.extensions];
+    
     return config;
+  },
+  env: {
+    NEXT_PUBLIC_STATIC_EXPORT: 'true',
   },
 };
 

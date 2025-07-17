@@ -183,5 +183,3 @@ export default function AIOptimizedContentSchema({
   );
 }
 
-// Export the component for use in city pages
-export { AIOptimizedContentSchema };

@@ -1,7 +1,7 @@
 
 import React from 'react';
 import Image from 'next/image';
-import { Metadata } from 'next/metadata';
+import type { Metadata } from 'next';
 import BusinessSchema from '@/components/BusinessSchema';
 import EnhancedFAQSchema, { generateProcessServingFAQs } from '@/components/ui/enhanced-faq-schema';
 import EnhancedServiceSchema from '@/components/ui/enhanced-service-schema';

@@ -1,7 +1,7 @@
 
-import { EnhancedLocationFAQ } from './enhanced-location-faq';
-import { AIOptimizedContentSchema } from './ai-optimized-content-schema';
-import { VoiceSearchOptimization } from './voice-search-optimization';
+import EnhancedLocationFAQ from './enhanced-location-faq';
+import AIOptimizedContentSchema from './ai-optimized-content-schema';
+import VoiceSearchOptimization from './voice-search-optimization';
 
 interface MissingCityPageProps {
   city: string;

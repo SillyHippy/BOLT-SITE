@@ -3,25 +3,21 @@ import react from '@vitejs/plugin-react'
 import path from 'path'
 
 // Latest Lovable Vite configuration with enhanced optimizations
-export default defineConfig(({ mode }) => ({
-  plugins: [
-    react(),
-    // Enhanced component tagger for latest Lovable features (conditional loading)
-    ...(mode === 'development' ? [
-      {
-        name: 'lovable-tagger-loader',
-        configResolved: async () => {
-          try {
-            const { componentTagger } = await import('lovable-tagger')
-            return componentTagger()
-          } catch (error) {
-            console.warn('lovable-tagger not available, skipping...')
-            return null
-          }
-        }
-      }
-    ] : [])
-  ].filter(Boolean),
+export default defineConfig(({ mode }) => {
+  const plugins = [react()];
+  // Enhanced component tagger for latest Lovable features (conditional loading)
+  if (mode === 'development') {
+    try {
+      // Dynamically require the plugin only if available
+      // eslint-disable-next-line @typescript-eslint/no-var-requires
+      const { componentTagger } = require('lovable-tagger');
+      plugins.push(componentTagger());
+    } catch (error) {
+      console.warn('lovable-tagger not available, skipping...');
+    }
+  }
+  return {
+    plugins,
   
   // Enhanced path resolution with latest aliases
   resolve: {
@@ -106,9 +102,11 @@ export default defineConfig(({ mode }) => ({
     ]
   },
   
+
   // Enhanced define for environment variables
-  define: {
-    __DEV__: mode === 'development',
-    __PROD__: mode === 'production'
-  }
-}))
+    define: {
+      __DEV__: mode === 'development',
+      __PROD__: mode === 'production'
+    }
+  };
+});
