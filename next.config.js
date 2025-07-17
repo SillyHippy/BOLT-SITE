@@ -20,10 +20,40 @@ const nextConfig = {
   },
   // Add trailing slash to match traditional .html behavior
   trailingSlash: true,
-  // Optimize for Cloudflare Pages
+  // Optimize for Cloudflare Pages free tier
   experimental: {
-    // Disabled optimizeCss to prevent critters dependency issues
-    // optimizeCss: true,
+    // Build optimizations for Cloudflare Pages
+    optimizePackageImports: ['lucide-react'],
+    // Memory optimization for 20-minute build limit
+    workerThreads: false,
+  },
+  // Cloudflare Pages specific optimizations
+  poweredByHeader: false,
+  generateEtags: false,
+  compress: true,
+  // Reduce bundle size for faster builds
+  webpack: (config, { isServer }) => {
+    if (!isServer) {
+      config.resolve.fallback = {
+        ...config.resolve.fallback,
+        fs: false,
+      };
+    }
+    // Optimize for Cloudflare build limits
+    config.optimization = {
+      ...config.optimization,
+      splitChunks: {
+        chunks: 'all',
+        cacheGroups: {
+          vendor: {
+            test: /[\\/]node_modules[\\/]/,
+            name: 'vendors',
+            chunks: 'all',
+          },
+        },
+      },
+    };
+    return config;
   },
 };
 

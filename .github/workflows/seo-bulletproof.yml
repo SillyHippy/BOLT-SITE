@@ -1,11 +1,10 @@
-name: SEO Automation - Bulletproof
+
+name: SEO Automation - Safe & Compliant
 
 on:
   schedule:
-    - cron: '0 6 * * *'  # Daily at 6 AM UTC
+    - cron: '0 14 * * 3'  # Weekly on Wednesday at 2 PM UTC (safe timing)
   workflow_dispatch:
-  push:
-    branches: [ main ]
 
 permissions:
   contents: write
@@ -13,7 +12,7 @@ permissions:
   id-token: write
 
 jobs:
-  seo-optimization:
+  safe-seo-optimization:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     
@@ -23,28 +22,31 @@ jobs:
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         
-    - name: Update SEO Content
+    - name: Safe SEO Content Update
       run: |
-        # Simple, bulletproof SEO updates
-        echo "🔍 SEO Automation - $(date)" >> seo-log.txt
+        # Conservative, quality-focused SEO updates
+        echo "🔍 Safe SEO Automation - $(date)" >> seo-safe-log.txt
         
-        # Update robots.txt with current date
-        echo "# Last updated: $(date)" >> public/robots.txt
+        # Only update robots.txt weekly (not daily)
+        if [ ! -f "robots-last-update.txt" ] || [ $(find robots-last-update.txt -mtime +7) ]; then
+          echo "# Last updated: $(date)" >> public/robots.txt
+          echo "$(date)" > robots-last-update.txt
+          echo "✅ Weekly robots.txt update"
+        else
+          echo "⏳ Robots.txt recently updated - maintaining natural patterns"
+        fi
         
-        # Create simple sitemap ping
-        echo "Sitemap updated: $(date)" > sitemap-status.txt
+        echo "✅ Safe SEO optimization completed"
         
-        echo "✅ SEO optimization completed"
-        
-    - name: Commit changes
+    - name: Commit conservative changes
       run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "SEO Bot"
+        git config --local user.email "seo@justlegalsolutions.org"
+        git config --local user.name "Safe SEO Bot"
         git add .
         if git diff --staged --quiet; then
-          echo "No changes to commit"
+          echo "No changes to commit - following natural patterns"
         else
-          git commit -m "🔍 SEO update - $(date +%Y-%m-%d)"
+          git commit -m "🔍 Weekly SEO maintenance - $(date +%Y-%m-%d)"
           git push
         fi
       env:

@@ -1,301 +1,54 @@
-name: Content Freshness & Ranking Boost
+
+name: Content Optimization & Freshness
 
 on:
   schedule:
-    # Daily quality content creation - SAFE frequency per expert recommendations
-    - cron: '0 9 * * *'  # 9 AM daily
+    # Every 3 days - Content freshness updates
+    - cron: '0 14 */3 * *'
   workflow_dispatch:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 jobs:
-  content-freshness:
+  content-optimization:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
-    
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-      
-    - name: Setup Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: '18'
-        
-    - name: Dynamic Content Updates
-      run: |
-        echo "🚀 TURBO MODE: CONTENT FRESHNESS ACCELERATION"
-        echo "============================================="
-        echo "⚡ TURBO FREQUENCY: Every 2 hours"
-        echo "🎯 MAXIMUM CONTENT VELOCITY ENABLED"
-        echo ""
-        cat > freshness-boost.js << 'EOF'
-        const fs = require('fs');
-        const path = require('path');
-        
-        console.log('🔄 Starting Content Freshness Boost...');
-        
-        const now = new Date();
-        const timeStamp = now.toISOString();
-        const readableDate = now.toLocaleDateString('en-US', { 
-          weekday: 'long', 
-          year: 'numeric', 
-          month: 'long', 
-          day: 'numeric' 
-        });
-        
-        // Dynamic statistics that update every 4 hours
-        const currentHour = now.getHours();
-        const dayOfYear = Math.floor((now - new Date(now.getFullYear(), 0, 0)) / (1000 * 60 * 60 * 24));
-        
-        // Rotating content for freshness
-        const dynamicStats = {
-          documentsServed: 2847 + Math.floor(dayOfYear * 2.3), // Grows daily
-          clientsSatisfied: 892 + Math.floor(dayOfYear * 0.7),
-          responseTime: ['15 minutes', '12 minutes', '18 minutes', '14 minutes'][currentHour % 4],
-          serversAvailable: [3, 4, 2, 5][currentHour % 4],
-          recentActivity: [
-            'Document served in Tulsa',
-            'New client in Broken Arrow', 
-            'Same-day service completed',
-            'Subpoena delivered in Owasso',
-            'Court filing in Sand Springs',
-            'Process server dispatched to Jenks'
-          ]
-        };
-        
-        // Time-sensitive urgency messages
-        const urgencyMessages = {
-          morning: "Early morning process serving available - get ahead of your legal schedule!",
-          afternoon: "Afternoon rush service - same-day delivery still possible!",
-          evening: "Evening consultations available - plan tomorrow's process serving now!",
-          night: "24/7 emergency process serving - urgent documents served overnight!"
-        };
-        
-        let currentUrgency;
-        if (currentHour >= 6 && currentHour < 12) currentUrgency = urgencyMessages.morning;
-        else if (currentHour >= 12 && currentHour < 17) currentUrgency = urgencyMessages.afternoon;
-        else if (currentHour >= 17 && currentHour < 22) currentUrgency = urgencyMessages.evening;
-        else currentUrgency = urgencyMessages.night;
-        
-        // Update sitemap with current timestamp (search engines love fresh sitemaps)
-        const sitemapPath = 'public/sitemap.xml';
-        if (fs.existsSync(sitemapPath)) {
-          let sitemap = fs.readFileSync(sitemapPath, 'utf8');
-          sitemap = sitemap.replace(/<lastmod>[^<]+<\/lastmod>/g, `<lastmod>${timeStamp.split('T')[0]}</lastmod>`);
-          fs.writeFileSync(sitemapPath, sitemap);
-          console.log('✅ Sitemap freshness updated');
-        }
-        
-        // Create dynamic schema updates
-        const freshSchema = {
-          "@context": "https://schema.org",
-          "@type": "LocalBusiness",
-          "name": "Just Legal Solutions",
-          "url": "https://justlegalsolutions.org",
-          "dateModified": timeStamp,
-          "description": `Professional process serving in Oklahoma. ${currentUrgency}`,
-          "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": 4.9,
-            "reviewCount": Math.floor(127 + (dayOfYear * 0.1))
-          },
-          "openingHours": "Mo-Fr 08:00-18:00",
-          "availableService": [
-            {
-              "@type": "Service", 
-              "name": "Same-Day Process Serving",
-              "description": `Urgent document delivery available now. Current response time: ${dynamicStats.responseTime}`,
-              "offers": {
-                "@type": "Offer",
-                "availability": "https://schema.org/InStock"
-              }
-            }
-          ]
-        };
-        
-        fs.writeFileSync('public/fresh-business-schema.json', JSON.stringify(freshSchema, null, 2));
-        
-        // Generate time-sensitive landing page content
-        const freshContent = `
-        {/* Generated: ${readableDate} */}
-        <div className="fresh-content" data-updated="${timeStamp}">
-          <div className="urgency-banner bg-red-50 border border-red-200 p-4 mb-6">
-            <div className="flex items-center">
-              <span className="text-red-500 text-xl mr-2">⚡</span>
-              <div>
-                <div className="font-semibold text-red-800">Live Update - ${readableDate}</div>
-                <div className="text-sm text-red-600">${currentUrgency}</div>
-              </div>
-            </div>
-          </div>
-          
-          <div className="live-stats grid grid-cols-4 gap-4 mb-8">
-            <div className="text-center">
-              <div className="text-2xl font-bold text-blue-600">${dynamicStats.documentsServed.toLocaleString()}</div>
-              <div className="text-sm text-gray-600">Documents Served</div>
-            </div>
-            <div className="text-center">
-              <div className="text-2xl font-bold text-green-600">${dynamicStats.clientsSatisfied.toLocaleString()}</div>
-              <div className="text-sm text-gray-600">Happy Clients</div>
-            </div>
-            <div className="text-center">
-              <div className="text-2xl font-bold text-purple-600">${dynamicStats.responseTime}</div>
-              <div className="text-sm text-gray-600">Avg Response</div>
-            </div>
-            <div className="text-center">
-              <div className="text-2xl font-bold text-orange-600">${dynamicStats.serversAvailable}</div>
-              <div className="text-sm text-gray-600">Available Now</div>
-            </div>
-          </div>
-        </div>
-        `;
-        
-        fs.writeFileSync('components/FreshContent.tsx', `
-        import React from 'react';
-        
-        export default function FreshContent() {
-          return (
-            <>
-            ${freshContent}
-            </>
-          );
-        }
-        `);
-        
-        // Update meta descriptions with current data
-        const metaUpdate = `Expert process serving in Oklahoma. ${currentUrgency} ${dynamicStats.documentsServed.toLocaleString()}+ documents served. Call now!`;
-        
-        console.log(`🎉 Content Freshness Update Complete!`);
-        console.log(`📊 Updates:
-        - Documents served: ${dynamicStats.documentsServed.toLocaleString()}
-        - Response time: ${dynamicStats.responseTime}
-        - Servers available: ${dynamicStats.serversAvailable}
-        - Urgency message: ${currentUrgency}
-        - Last updated: ${readableDate}
-        `);
-        EOF
-        
-        node freshness-boost.js
-        
-    - name: Google Business Profile Updates
-      run: |
-        echo "📍 Updating Google Business Profile signals..."
-        
-        # Generate Google Business Profile optimized content
-        cat > google-business-update.json << 'EOF'
-        {
-          "businessName": "Just Legal Solutions",
-          "lastUpdated": "'$(date -Iseconds)'",
-          "posts": [
-            {
-              "type": "offer",
-              "title": "Same-Day Process Serving Available Today",
-              "description": "Urgent legal documents? We can serve them today in Tulsa County. Licensed professionals ready now.",
-              "callToAction": "Call Now",
-              "validUntil": "'$(date -d '+7 days' -Iseconds)'"
-            },
-            {
-              "type": "update", 
-              "title": "Fresh Service Update - '$(date +%B\ %d)'",
-              "description": "Our process servers have successfully delivered '$(shuf -i 15-25 -n 1)' legal documents today across Oklahoma.",
-              "timestamp": "'$(date -Iseconds)'"
-            }
-          ],
-          "attributes": {
-            "serviceAvailability": "24/7 Emergency Service",
-            "responseTime": "15 minutes average",
-            "coverage": "Statewide Oklahoma"
-          }
-        }
-        EOF
-        
-        echo "✅ Google Business Profile content generated"
-        
-    - name: Local SEO Micro-Updates
-      run: |
-        echo "🗺️ Generating local SEO micro-updates..."
-        
-        # Create location-specific fresh content - Focus on Tulsa County (your local area)
-        # ALL OKLAHOMA CITIES - COMPREHENSIVE STATE COVERAGE 🌟
-        CITIES=(
-          # TULSA METRO (Primary Market - 80% of business)
-          "Glenpool" "Tulsa" "Broken Arrow" "Bixby" "Jenks" "Sand Springs" "Owasso" "Sapulpa"
-          "Claremore" "Skiatook" "Collinsville" "Catoosa" "Coweta" "Wagoner" "Mounds" "Kiefer"
-          
-          # OKLAHOMA CITY METRO (Major Market)
-          "Oklahoma City" "Norman" "Edmond" "Moore" "Midwest City" "Del City" "Mustang" "Yukon"
-          "Bethany" "Warr Acres" "The Village" "Nichols Hills" "Piedmont" "Spencer" "Jones"
-          
-          # MAJOR OKLAHOMA CITIES (High Value Markets)
-          "Lawton" "Stillwater" "Enid" "Ponca City" "Bartlesville" "Muskogee" "Shawnee" "McAlester"
-          "Ardmore" "Duncan" "Ada" "Tahlequah" "Durant" "El Reno" "Miami" "Altus" "Chickasha" "Guthrie"
-          
-          # REGIONAL CENTERS (Growing Markets)
-          "Woodward" "Elk City" "Weatherford" "Clinton" "Pryor Creek" "Sallisaw" "Poteau" "Henryetta"
-          "Okmulgee" "Seminole" "Tecumseh" "Holdenville" "Pauls Valley" "Purcell" "Noble" "Blanchard"
-          "Newcastle" "Tuttle" "Cushing" "Perkins" "Cache" "Fletcher" "Medicine Park" "Dewey"
-          "Copan" "Inola" "Chelsea" "Drumright" "Bristow" "Mannford" "Porter" "Okay" "Pawhusha"
-          "Hominy" "Fairfax" "Barnsdall" "Fort Gibson" "Oktaha" "Haskell" "Blackwell" "Newkirk"
-          "Tonkawa" "Hartshorne" "Krebs" "Healdton" "Lone Grove" "Marlow" "Comanche" "Stratford"
-          "Keys" "Park Hill" "Calera" "Caddo" "Commerce" "Fairland" "Blair" "Duke" "Minco" "Pocasset"
-          "Crescent" "Mulhall" "Marshall" "Coyle" "Waukomis" "Kremlin" "Lahoma"
-        )
-        HOUR=$(date +%H)
-        SELECTED_CITY=${CITIES[$((HOUR % ${#CITIES[@]}))]}
-        echo "🎯 Selected city for this hour: $SELECTED_CITY (Hour: $HOUR, Total cities: ${#CITIES[@]})"
-        
-        cat > "local-update-${SELECTED_CITY,,}.md" << EOF
-        # Fresh Local Update: ${SELECTED_CITY} Process Serving
-        
-        **Updated: $(date '+%B %d, %Y at %I:%M %p')**
-        
-        ## Current Status in ${SELECTED_CITY}:
-        - ✅ Process servers available now
-        - ⚡ $(shuf -i 2-5 -n 1) servers active in ${SELECTED_CITY} area
-        - 📍 Same-day service available
-        - 📞 Average response: $(shuf -i 10-20 -n 1) minutes
-        
-        ## Today's ${SELECTED_CITY} Activity:
-        - $(shuf -i 5-15 -n 1) documents served this morning
-        - $(shuf -i 2-8 -n 1) same-day requests completed
-        - $(shuf -i 3-12 -n 1) new client consultations
-        
-        **Need process serving in ${SELECTED_CITY}? Call/text (539) 367-6832**
-        EOF
-        
-        echo "✅ Local micro-update generated for ${SELECTED_CITY}"
-        
-    - name: Submit Fresh Content to Search Engines
-      run: |
-        echo "🚀 Submitting fresh content to search engines..."
-        
-        # Immediate IndexNow submission for fresh content discovery
-        curl -X POST "https://api.indexnow.org/indexnow" \
-          -H "Content-Type: application/json" \
-          -d '{
-            "host": "justlegalsolutions.org",
-            "key": "6CC946BF0B766479F1E3E6C484F82A12",
-            "urlList": [
-              "https://justlegalsolutions.org/",
-              "https://justlegalsolutions.org/services/",
-              "https://justlegalsolutions.org/sitemap.xml"
-            ]
-          }'
-        
-        echo "✅ Fresh content submitted to search engines"
-        
-    - name: Commit freshness updates
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "Freshness Bot"
-        git add .
-        git diff --staged --quiet || git commit -m "🔄 Content freshness update - $(date '+%Y-%m-%d %H:%M')"
-        git push
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Update sitemap with new cities
+        run: node scripts/update-sitemap.js
+
+      - name: Validate all schema markup
+        run: node scripts/validate-schema.js
+
+      - name: Optimize internal linking
+        run: node scripts/optimize-internal-links.js
+
+      - name: Update FAQ content
+        run: node scripts/update-faq-content.js
+
+      - name: Update business schema with fresh data
+        run: node scripts/update-business-schema.js
+
+      - name: Commit content updates
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          if git diff --staged --quiet; then
+            echo "No content changes to commit"
+          else
+            git commit -m "🔄 Content freshness update - $(date +'%Y-%m-%d')"
+            git push
+          fi
