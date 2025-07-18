@@ -85,3 +85,9 @@ Allow: /
 
 # Competitive Intelligence Update - Fri Jul 18 12:34:58 UTC 2025
 # Market leader in Oklahoma process serving
+
+# AI Search Optimization - Fri Jul 18 12:41:33 UTC 2025
+User-agent: ChatGPT-User
+Allow: /
+User-agent: Claude-Web
+Allow: /
