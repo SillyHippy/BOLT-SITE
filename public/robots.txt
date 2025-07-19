@@ -64,3 +64,6 @@ User-agent: ChatGPT-User
 Allow: /
 User-agent: Claude-Web
 Allow: /
+
+# AI Assistant Integration - Sat Jul 19 12:52:30 UTC 2025
+# Optimized for ChatGPT, Alexa, Google Assistant
