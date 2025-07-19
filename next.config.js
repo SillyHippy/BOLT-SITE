@@ -8,7 +8,7 @@ const nextConfig = {
     unoptimized: true,
   },
   experimental: {
-    missingSuspenseWithCSRBailout: false,
+    // No unrecognized keys
   },
   typescript: {
     ignoreBuildErrors: false,
