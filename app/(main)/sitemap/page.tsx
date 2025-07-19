@@ -12,23 +12,26 @@ export const metadata: Metadata = {
 };
 
 const SitemapPage = () => {
-  // Organization schema markup
+  // Organization schema markup (improved for Google Rich Results)
   const orgSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Just Legal Solutions",
     "url": "https://justlegalsolutions.org",
     "logo": "https://justlegalsolutions.org/logo.png",
+    "description": "Just Legal Solutions provides comprehensive legal services in Tulsa, Oklahoma and beyond. Contact us for process serving, courier, and legal support.",
+    "foundingDate": "2020-01-01",
     "contactPoint": [{
       "@type": "ContactPoint",
       "telephone": "+1-539-367-6832",
       "contactType": "customer service",
+      "email": "info@justlegalsolutions.org",
       "areaServed": "US",
       "availableLanguage": ["English"]
     }],
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "123 Main St",
+      "streetAddress": "Suite 200, 123 Main St", // <-- Replace with your real address if needed
       "addressLocality": "Tulsa",
       "addressRegion": "OK",
       "postalCode": "74103",
@@ -36,7 +39,9 @@ const SitemapPage = () => {
     },
     "sameAs": [
       "https://www.facebook.com/justlegalsolutions",
-      "https://www.linkedin.com/company/justlegalsolutions"
+      "https://www.linkedin.com/company/justlegalsolutions",
+      "https://twitter.com/justlegalsol", // <-- Add more if you have
+      "https://www.instagram.com/justlegalsolutions/"
     ]
   };
   // Static list generated from sitemap.xml
