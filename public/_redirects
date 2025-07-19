@@ -13,4 +13,6 @@
 /owasso-process-server /seo/owasso-process-server 301
 
 # SPA fallback for client-side routing
-/* /index.html 200
+# Avoid redirecting /index.html to itself to prevent infinite loop
+/index.html /index.html 200
+/* /index.html 200!
