@@ -12,6 +12,33 @@ export const metadata: Metadata = {
 };
 
 const SitemapPage = () => {
+  // Organization schema markup
+  const orgSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Just Legal Solutions",
+    "url": "https://justlegalsolutions.org",
+    "logo": "https://justlegalsolutions.org/logo.png",
+    "contactPoint": [{
+      "@type": "ContactPoint",
+      "telephone": "+1-539-367-6832",
+      "contactType": "customer service",
+      "areaServed": "US",
+      "availableLanguage": ["English"]
+    }],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "123 Main St",
+      "addressLocality": "Tulsa",
+      "addressRegion": "OK",
+      "postalCode": "74103",
+      "addressCountry": "US"
+    },
+    "sameAs": [
+      "https://www.facebook.com/justlegalsolutions",
+      "https://www.linkedin.com/company/justlegalsolutions"
+    ]
+  };
   // Static list generated from sitemap.xml
   const sitemapLinks = [
     { url: '/404/' },
@@ -64,6 +91,8 @@ const SitemapPage = () => {
   return (
     <>
       <Navbar />
+      {/* Organization Schema Markup for SEO */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }} />
       <main className="min-h-screen bg-gray-50">
         <div className="container mx-auto px-4 py-16 pt-24">
           <div className="text-center mb-16">
