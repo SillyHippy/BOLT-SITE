@@ -34,7 +34,6 @@ export const metadata: Metadata = {
 
 const breadcrumbItems = [
   { name: 'Home', url: '/' },
-  { name: 'Service Areas', url: '/service-areas' },
   { name: 'Sand Springs Process Server', url: '/seo/process-server-sand-springs' }
 ];
 
@@ -126,16 +125,15 @@ export default function SandSpringsProcessServer() {
       />
 
       <Navbar />
-      
-      <div className="min-h-screen bg-white">
+      <div className="min-h-screen bg-white pt-16">
         <div className="max-w-4xl mx-auto px-4 py-16">
-          <VisualBreadcrumbs items={breadcrumbItems} />
-          
+          <div className="mb-8">
+            <VisualBreadcrumbs items={breadcrumbItems} />
+          </div>
           <header className="mb-8">
             <h1 className="text-4xl font-bold text-gray-900 mb-4 voice-optimized">
               Sand Springs Process Server | Professional Legal Document Delivery
             </h1>
-            
             <div className="bg-green-50 border-l-4 border-green-500 p-4 mb-6">
               <p className="text-lg text-green-800 voice-answer">
                 <strong>Licensed Professional Service</strong> | Serving Sand Springs, Tulsa County | 
@@ -149,7 +147,6 @@ export default function SandSpringsProcessServer() {
               Professional process server in Sand Springs, Oklahoma. Fast, reliable legal document 
               delivery throughout Sand Springs and surrounding Tulsa County areas with 24/7 emergency service availability.
             </p>
-
             <div className="grid md:grid-cols-2 gap-8 mb-8">
               <div className="bg-gray-50 rounded-lg p-6">
                 <h2 className="text-2xl font-semibold text-gray-900 mb-4">
@@ -163,7 +160,6 @@ export default function SandSpringsProcessServer() {
                   <li><strong>Emergency Service:</strong> Available 24/7</li>
                   <li><strong>Response Time:</strong> Under 2 hours for urgent matters</li>
                 </ul>
-                
                 <h3 className="text-lg font-semibold text-gray-800 mt-4 mb-2">Area Highlights:</h3>
                 <ul className="list-disc ml-6 text-gray-700">
                   <li>Historic downtown Sand Springs district</li>
@@ -173,7 +169,6 @@ export default function SandSpringsProcessServer() {
                   <li>Industrial and commercial zones</li>
                 </ul>
               </div>
-
               <div className="bg-blue-50 rounded-lg p-6">
                 <h2 className="text-2xl font-semibold text-blue-800 mb-4">
                   Why Choose Our Sand Springs Process Servers
@@ -190,6 +185,9 @@ export default function SandSpringsProcessServer() {
                   <li>Real-time status updates</li>
                   <li>Court deadline compliance expertise</li>
                 </ul>
+                <div className="relative mt-6">
+                  <img src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Sand Springs Oklahoma legal documents" className="rounded-lg shadow-lg w-full h-auto" />
+                </div>
               </div>
             </div>
           </section>
