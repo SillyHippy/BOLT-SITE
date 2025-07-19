@@ -29,24 +29,14 @@ const SitemapPage = () => {
       "areaServed": "US",
       "availableLanguage": ["English"]
     }],
-    "address": [
-      {
-        "@type": "PostalAddress",
-        "streetAddress": "564 E 138th PL",
-        "addressLocality": "Glenpool",
-        "addressRegion": "OK",
-        "postalCode": "74033",
-        "addressCountry": "US"
-      },
-      {
-        "@type": "PostalAddress",
-        "streetAddress": "Suite 200, 123 Main St",
-        "addressLocality": "Tulsa",
-        "addressRegion": "OK",
-        "postalCode": "74103",
-        "addressCountry": "US"
-      }
-    ],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "564 E 138th PL",
+      "addressLocality": "Glenpool",
+      "addressRegion": "OK",
+      "postalCode": "74033",
+      "addressCountry": "US"
+    },
     "sameAs": [
       "https://www.facebook.com/justlegalsolutions",
       "https://www.linkedin.com/company/justlegalsolutions",
