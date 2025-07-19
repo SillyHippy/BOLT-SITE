@@ -19,7 +19,7 @@ export default function PlatformSupremacy() {
   return (
     <>
       <Navbar />
-      <div className="container mx-auto px-4 py-8">
+      <div className="container mx-auto px-4 py-8 mt-12">
         <div className="text-center mb-12">
           <h1 className="text-5xl font-bold mb-4 text-blue-900">👑 Oklahoma&apos;s Supreme Process Server</h1>
           <p className="text-2xl text-gray-600">Dominating Every Platform, Delivering Every Time</p>

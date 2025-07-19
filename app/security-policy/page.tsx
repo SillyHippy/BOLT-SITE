@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 export default function SecurityPolicyPage() {
   return (
-    <main className="min-h-screen py-16 px-4">
+    <main className="min-h-screen py-16 px-4 mt-12">
       <div className="max-w-4xl mx-auto">
         <h1 className="text-4xl font-bold mb-8">Security Policy</h1>
         <div className="prose max-w-none">
