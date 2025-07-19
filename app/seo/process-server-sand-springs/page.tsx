@@ -1,5 +1,6 @@
 
 import { Metadata } from 'next';
+import Image from 'next/image';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 import VoiceSearchOptimization from '@/components/ui/voice-search-optimization';
@@ -186,7 +187,14 @@ export default function SandSpringsProcessServer() {
                   <li>Court deadline compliance expertise</li>
                 </ul>
                 <div className="relative mt-6">
-                  <img src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Sand Springs Oklahoma legal documents" className="rounded-lg shadow-lg w-full h-auto" />
+                  <Image
+                    src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                    alt="Sand Springs Oklahoma legal documents"
+                    width={800}
+                    height={533}
+                    className="rounded-lg shadow-lg w-full h-auto"
+                    priority
+                  />
                 </div>
               </div>
             </div>
