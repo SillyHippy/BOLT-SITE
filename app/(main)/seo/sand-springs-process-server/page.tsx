@@ -29,28 +29,38 @@ export default function SandSpringsProcessServer() {
   return (
     <>
       <BusinessSchema />
-      <EnhancedBreadcrumbSchema 
-        items={[
-          { name: "Home", url: "/" },
-          { name: "Process Server Sand Springs Oklahoma", url: "/seo/sand-springs-process-server" }
-        ]}
-      />
-      <div style={{ paddingTop: '2.5rem', paddingBottom: '2.5rem', textAlign: 'center', background: '#1a3396', color: '#fff' }}>
-        <h1 style={{ fontSize: '3rem', fontWeight: 700, marginBottom: '1rem', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.5rem' }}>
-          <span role="img" aria-label="rocket">🚀</span> Professional Process Server in Sand Springs Oklahoma
-        </h1>
-        <div style={{ fontSize: '1.5rem', marginBottom: '1.5rem' }}>
-          <span role="img" aria-label="lightning">⚡</span> Same-Day Service Available | Licensed & Bonded | Emergency Options
+      <header className="bg-blue-900 text-white py-16 mb-0">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto text-center">
+            <EnhancedBreadcrumbSchema 
+              items={[
+                { name: "Home", url: "/" },
+                { name: "Process Server Sand Springs Oklahoma", url: "/seo/sand-springs-process-server" }
+              ]}
+            />
+            <h1 className="text-4xl md:text-6xl font-bold mb-6 flex items-center justify-center gap-2">
+              <span role="img" aria-label="rocket">🚀</span> Professional Process Server in Sand Springs Oklahoma
+            </h1>
+            <p className="text-xl md:text-2xl mb-8">
+              <span role="img" aria-label="lightning">⚡</span> Same-Day Service Available | Licensed & Bonded | Emergency Options
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a 
+                href="/pricing" 
+                className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors"
+              >
+                📞 Get Instant Quote
+              </a>
+              <a 
+                href="tel:5393676832" 
+                className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors"
+              >
+                📞 Call (539) 367-6832
+              </a>
+            </div>
+          </div>
         </div>
-        <div style={{ display: 'flex', justifyContent: 'center', gap: '1rem' }}>
-          <a href="/contact" style={{ background: '#e3342f', color: '#fff', padding: '1rem 2rem', borderRadius: '0.5rem', fontWeight: 600, textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-            <span role="img" aria-label="phone">📞</span> Get Instant Quote
-          </a>
-          <a href="tel:5393676832" style={{ background: '#38c172', color: '#fff', padding: '1rem 2rem', borderRadius: '0.5rem', fontWeight: 600, textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-            <span role="img" aria-label="phone">📞</span> Call (539) 367-6832
-          </a>
-        </div>
-      </div>
+      </header>
       <EnhancedFAQSchema 
         faqs={sandSpringsProcessServingFAQs}
         pageTitle="Process Server Sand Springs Oklahoma"
