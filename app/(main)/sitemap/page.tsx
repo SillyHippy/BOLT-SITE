@@ -12,31 +12,53 @@ export const metadata: Metadata = {
 };
 
 const SitemapPage = () => {
-  const mainPages = [
-    { name: 'Home', url: '/' },
-    { name: 'Services', url: '/services' },
-    { name: 'Pricing', url: '/pricing' },
-    { name: 'Contact Us', url: '#footer' },
-    { name: 'Resources', url: '/resources' },
-    { name: 'Competitor Analysis', url: '/competitor-analysis' },
-  ];
-
-  const servicePages = [
-    { name: 'Urgent Process Server', url: '/urgent-process-server' },
-    { name: 'Tulsa Process Server', url: '/tulsa-process-server' },
-    { name: 'Tulsa County Process Server', url: '/process-server-tulsa' },
-    { name: 'Courier Services Tulsa', url: '/courier-services-tulsa' },
-  ];
-  
-  const seoPages = [
-    { name: 'Bixby Process Server', url: '/seo/bixby-process-server' },
-    { name: 'Broken Arrow Process Server', url: '/seo/broken-arrow-process-server' },
-    { name: 'Jenks Process Server', url: '/seo/jenks-process-server' },
-    { name: 'Owasso Process Server', url: '/seo/owasso-process-server' },
-    { name: 'Sand Springs Process Server', url: '/seo/sand-springs-process-server' },
-    { name: 'Comprehensive Tulsa Process Server', url: '/seo/tulsa-process-server-comprehensive' },
-    { name: 'Eviction Notice Process Server', url: '/seo/eviction-notice-process-server' },
-    { name: 'Legal Posting Process Server', url: '/seo/legal-posting-process-server' },
+  // Static list generated from sitemap.xml
+  const sitemapLinks = [
+    { url: '/404/' },
+    { url: '/404' },
+    { url: '/ai-business-info' },
+    { url: '/backlinks/' },
+    { url: '/card/calendar/' },
+    { url: '/card/' },
+    { url: '/competitor-analysis/' },
+    { url: '/courier-services-tulsa/' },
+    { url: '/future-ai-ready' },
+    { url: '/' },
+    { url: '/local-legal-events' },
+    { url: '/local-seo-marker/' },
+    { url: '/local-seo-marker' },
+    { url: '/multi-search-marker/' },
+    { url: '/multi-search-marker' },
+    { url: '/payments/' },
+    { url: '/performance-marker/' },
+    { url: '/performance-marker' },
+    { url: '/platform-supremacy/' },
+    { url: '/pricing/' },
+    { url: '/process-server-tulsa/' },
+    { url: '/resources/' },
+    { url: '/security-policy/' },
+    { url: '/seo/bixby-process-server/' },
+    { url: '/seo/broken-arrow-process-server/' },
+    { url: '/seo/eviction-notice-process-server/' },
+    { url: '/seo/glenpool-process-server/' },
+    { url: '/seo/jenks-process-server/' },
+    { url: '/seo/legal-posting-process-server/' },
+    { url: '/seo/owasso-process-server/' },
+    { url: '/seo/process-server-sand-springs/' },
+    { url: '/seo/sand-springs-process-server/' },
+    { url: '/seo/tulsa-process-server-comprehensive/' },
+    { url: '/seo-dashboard/' },
+    { url: '/services/' },
+    { url: '/sitemap/' },
+    { url: '/tulsa-process-server/' },
+    { url: '/urgent-process-server/' },
+    { url: '/voice-friendly' },
+    { url: '/voice-search-marker/' },
+    { url: '/voice-search-marker' },
+    { url: '/weekend-emergency/' },
+    { url: '/weekend-emergency' },
+    { url: '/why-choose-us/' },
+    { url: '/why-choose-us' },
   ];
 
   return (
@@ -49,52 +71,21 @@ const SitemapPage = () => {
             <p className="text-xl text-gray-600">A complete guide to all pages on our website.</p>
           </div>
 
-          <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
-            <div>
-              <h2 className="text-2xl font-bold text-blue-800 mb-6 border-b-2 border-blue-200 pb-2">Main Pages</h2>
-              <ul className="space-y-3">
-                {mainPages.map((page) => (
-                  <li key={page.name}>
-                    <Link href={page.url} className="flex items-center text-gray-700 hover:text-blue-600 hover:underline">
-                      <ChevronRight className="h-5 w-5 mr-2" />
-                      {page.name}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            
-            <div>
-              <h2 className="text-2xl font-bold text-blue-800 mb-6 border-b-2 border-blue-200 pb-2">Our Services</h2>
-               <ul className="space-y-3">
-                {servicePages.map((page) => (
-                  <li key={page.name}>
-                    <Link href={page.url} className="flex items-center text-gray-700 hover:text-blue-600 hover:underline">
-                      <ChevronRight className="h-5 w-5 mr-2" />
-                      {page.name}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            <div className="md:col-span-2">
-                <h2 className="text-2xl font-bold text-blue-800 mb-6 border-b-2 border-blue-200 pb-2">Service Area Pages</h2>
-                 <ul className="space-y-3 grid grid-cols-1 sm:grid-cols-2">
-                  {seoPages.map((page) => (
-                    <li key={page.name}>
-                      <Link href={page.url} className="flex items-center text-gray-700 hover:text-blue-600 hover:underline">
-                        <ChevronRight className="h-5 w-5 mr-2" />
-                        {page.name}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-            </div>
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-2xl font-bold text-blue-800 mb-6 border-b-2 border-blue-200 pb-2">All Pages</h2>
+            <ul className="space-y-3 grid grid-cols-1 sm:grid-cols-2">
+              {sitemapLinks.map((page, idx) => (
+                <li key={page.url + idx}>
+                  <Link href={page.url} className="flex items-center text-gray-700 hover:text-blue-600 hover:underline">
+                    <ChevronRight className="h-5 w-5 mr-2" />
+                    {page.url}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </main>
-      
     </>
   );
 };
