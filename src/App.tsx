@@ -4,7 +4,7 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Index from "./pages/Index";
+// ...existing code...
 
 // Enhanced query client configuration for latest features
 const queryClient = new QueryClient({
@@ -25,7 +25,8 @@ function App() {
         <Sonner />
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<Index />} />
+            {/* Home route placeholder. Add your main page component here. */}
+            <Route path="/" element={<div />} />
           </Routes>
         </BrowserRouter>
       </TooltipProvider>
