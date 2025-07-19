@@ -35,6 +35,22 @@ export default function SandSpringsProcessServer() {
           { name: "Process Server Sand Springs Oklahoma", url: "/seo/sand-springs-process-server" }
         ]}
       />
+      <div style={{ paddingTop: '2.5rem', paddingBottom: '2.5rem', textAlign: 'center', background: '#1a3396', color: '#fff' }}>
+        <h1 style={{ fontSize: '3rem', fontWeight: 700, marginBottom: '1rem', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.5rem' }}>
+          <span role="img" aria-label="rocket">🚀</span> Professional Process Server in Sand Springs Oklahoma
+        </h1>
+        <div style={{ fontSize: '1.5rem', marginBottom: '1.5rem' }}>
+          <span role="img" aria-label="lightning">⚡</span> Same-Day Service Available | Licensed & Bonded | Emergency Options
+        </div>
+        <div style={{ display: 'flex', justifyContent: 'center', gap: '1rem' }}>
+          <a href="/contact" style={{ background: '#e3342f', color: '#fff', padding: '1rem 2rem', borderRadius: '0.5rem', fontWeight: 600, textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+            <span role="img" aria-label="phone">📞</span> Get Instant Quote
+          </a>
+          <a href="tel:5393676832" style={{ background: '#38c172', color: '#fff', padding: '1rem 2rem', borderRadius: '0.5rem', fontWeight: 600, textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+            <span role="img" aria-label="phone">📞</span> Call (539) 367-6832
+          </a>
+        </div>
+      </div>
       <EnhancedFAQSchema 
         faqs={sandSpringsProcessServingFAQs}
         pageTitle="Process Server Sand Springs Oklahoma"
