@@ -1,4 +1,6 @@
 import { Metadata } from 'next';
+import { Navbar } from '@/components/ui/navbar';
+import { Footer } from '@/components/ui/footer';
 
 export const metadata: Metadata = {
   title: 'Security Policy',
@@ -31,6 +33,8 @@ export default function SecurityPolicyPage() {
           </ul>
         </div>
       </div>
+      <Navbar />
+      <Footer />
     </main>
   );
 }
