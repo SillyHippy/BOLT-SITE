@@ -251,9 +251,10 @@ export default function ServicesPage() {
                   <Image
                     src={service.image}
                     alt={`${service.title} service illustration`}
-                    width={800}
-                    height={400}
-                    className="block w-full h-auto transition-transform duration-300 hover:scale-105"
+                    fill
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    style={{ objectFit: 'cover' }}
+                    className="group-hover:scale-105 transition-transform duration-300"
                     priority={index < 3}
                   />
                 </div>
