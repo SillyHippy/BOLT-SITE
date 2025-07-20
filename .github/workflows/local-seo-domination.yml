@@ -91,35 +91,33 @@ jobs:
             file_path="app/(main)/seo/process-server-$location/page.tsx"
 
             if [ -f "$file_path" ]; then
-              echo "✅ SKIPPING: Page for $city_name already exists."
-            else
               echo "🚀 CREATING: New page for $city_name."
               # --- Create the Page ---
               mkdir -p "$(dirname "$file_path")"
               cat <<EOF > "$file_path"
-import { Metadata } from 'next';
-export const metadata: Metadata = {
-  title: '$city_name Process Server - Just Legal Solutions',
-  description: 'Professional process server in $city_name, Oklahoma. Licensed, bonded, and insured for reliable legal document delivery.',
-};
-export default function ProcessServer${city_name//[' ']/''}Page() {
-  return (
-    <div className="min-h-screen bg-white">
-      <div className="container mx-auto px-4 py-16">
-        <h1 className="text-4xl font-bold mb-6">Process Server in $city_name, Oklahoma</h1>
-        <p className="text-xl mb-8">Fast, Reliable, and Professional Service in $city_name.</p>
-        <div className="bg-gray-100 p-8 rounded-lg">
-          <h2 className="text-2xl font-semibold mb-4">Serving the $city_name Area (ZIP: $zip)</h2>
-          <p className="mb-4">Our experienced process servers are familiar with $city_name and provide legally compliant service for all document types.</p>
-          <a href="tel:5393676832" className="bg-blue-600 text-white px-6 py-3 rounded-lg inline-block font-bold">
-            Call for a Quote: (539) 367-6832
-          </a>
-        </div>
-      </div>
-    </div>
-  );
-}
-EOF
+              import { Metadata } from 'next';
+              export const metadata: Metadata = {
+                title: '$city_name Process Server - Just Legal Solutions',
+                description: 'Professional process server in $city_name, Oklahoma. Licensed, bonded, and insured for reliable legal document delivery.',
+              };
+              export default function ProcessServer${city_name//[' ']/''}Page() {
+                return (
+                  <div className="min-h-screen bg-white">
+                    <div className="container mx-auto px-4 py-16">
+                      <h1 className="text-4xl font-bold mb-6">Process Server in $city_name, Oklahoma</h1>
+                      <p className="text-xl mb-8">Fast, Reliable, and Professional Service in $city_name.</p>
+                      <div className="bg-gray-100 p-8 rounded-lg">
+                        <h2 className="text-2xl font-semibold mb-4">Serving the $city_name Area (ZIP: $zip)</h2>
+                        <p className="mb-4">Our experienced process servers are familiar with $city_name and provide legally compliant service for all document types.</p>
+                        <a href="tel:5393676832" className="bg-blue-600 text-white px-6 py-3 rounded-lg inline-block font-bold">
+                          Call for a Quote: (539) 367-6832
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                );
+              }
+              EOF
               # --- Update Sitemaps ---
               current_time=$(date '+%Y-%m-%d')
               sitemap_entry="  <url>\n    <loc>https://justlegalsolutions.org/seo/process-server-$location/</loc>\n    <lastmod>$current_time</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.8</priority>\n  </url>"
