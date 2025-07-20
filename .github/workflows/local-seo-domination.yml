@@ -121,7 +121,7 @@ jobs:
             );
           }
 EOF
-              # --- Update Sitemaps ---
+              # --- Update Sitemaps --- #
               current_time=\$(date '+%Y-%m-%d')
               sitemap_entry="  <url>\n    <loc>https://justlegalsolutions.org/seo/process-server-$location/</loc>\n    <lastmod>$current_time</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.8</priority>\n  </url>\n</urlset>"
               sed -i "s|</urlset>|$sitemap_entry|" public/sitemap.xml
