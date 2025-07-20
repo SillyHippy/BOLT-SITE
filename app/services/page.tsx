@@ -42,17 +42,18 @@ export default function ServicesPage() {
         </div>
 
         <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
-          {services.map((service) => (
+{services.map((service, index) => (
             <div key={service.title} className="bg-gray-50 rounded-lg overflow-hidden shadow-lg">
-              <div className="relative h-64 w-full">
-                <Image
-                  src={service.image}
-                  alt={service.title}
-                  width={800}
-                  height={400}
-                  className="transition-transform duration-300 hover:scale-105"
-                />
-              </div>
+                <div>
+                  <Image
+                    src={service.image}
+                    alt={`${service.title} service illustration`}
+                    width={400}
+                    height={300}
+                    className="group-hover:scale-105 transition-transform duration-300 w-full h-auto"
+                    priority={index < 3}
+                  />
+                </div>
               <div className="p-6">
                 <h2 className="text-2xl font-bold mb-2">{service.title}</h2>
                 <p className="text-gray-600">{service.description}</p>
