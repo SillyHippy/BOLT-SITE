@@ -1,12 +1,12 @@
-name: Safe Local SEO Pages
+name: Safe Local SEO Pages and Sitemap Sync
 
 on:
   schedule:
-    # Run 3 times per month on different days - SAFE per expert recommendations
+    # Run 3 times per month on different days
     - cron: '0 10 1 * *'   # 1st of month at 10 AM
-    - cron: '0 10 11 * *'  # 11th of month at 10 AM  
+    - cron: '0 10 11 * *'  # 11th of month at 10 AM
     - cron: '0 10 21 * *'  # 21st of month at 10 AM
-  workflow_dispatch:  # Manual trigger
+  workflow_dispatch:
 
 jobs:
   safe-local-pages:
@@ -18,21 +18,15 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '18'
-          
+
       - name: Create High-Quality Location Page
         run: |
-          echo "📍 SAFE LOCAL SEO PAGE CREATION"
-          echo "================================="
-          echo "Creating 1 high-quality location page per expert recommendations"
-          
-          # Determine which location to create based on date
           day_of_month=$(date +%d)
-          
           if [ "$day_of_month" = "01" ]; then
             location="broken-arrow"
             city="Broken Arrow"
@@ -51,61 +45,52 @@ jobs:
           fi
           
           echo "Creating high-quality page for: $city"
-          
-          # Create high-quality location page directory
           mkdir -p "app/(main)/seo/process-server-$location"
           
-          # Create a simple, high-quality page using multiple echo statements
-          echo "import { Metadata } from 'next';" > "app/(main)/seo/process-server-$location/page.tsx"
-          echo "" >> "app/(main)/seo/process-server-$location/page.tsx"
-          echo "export const metadata: Metadata = {" >> "app/(main)/seo/process-server-$location/page.tsx"
-          echo "  title: '$city Process Server - Professional Legal Document Delivery'," >> "app/(main)/seo/process-server-$location/page.tsx"
-          echo "  description: 'Professional process server in $city, $county. Same-day legal document delivery.'," >> "app/(main)/seo/process-server-$location/page.tsx"
-          echo "};" >> "app/(main)/seo/process-server-$location/page.tsx"
-          echo "" >> "app/(main)/seo/process-server-$location/page.tsx"
-          echo "export default function ProcessServer${city//[' ']/''}Page() {" >> "app/(main)/seo/process-server-$location/page.tsx"
-          echo "  return (" >> "app/(main)/seo/process-server-$location/page.tsx"
-          echo "    <div className=\"min-h-screen bg-white\">" >> "app/(main)/seo/process-server-$location/page.tsx"
-          echo "      <div className=\"container mx-auto px-4 py-16\">" >> "app/(main)/seo/process-server-$location/page.tsx"
-          echo "        <h1 className=\"text-4xl font-bold mb-6\">Professional Process Server $city</h1>" >> "app/(main)/seo/process-server-$location/page.tsx"
-          echo "        <p className=\"text-xl mb-8\">Same-Day Legal Document Delivery in $city, Oklahoma</p>" >> "app/(main)/seo/process-server-$location/page.tsx"
-          echo "        <div className=\"bg-blue-50 p-6 rounded-lg\">" >> "app/(main)/seo/process-server-$location/page.tsx"
-          echo "          <h2 className=\"text-2xl font-semibold mb-4\">Serving $city Residents & Businesses</h2>" >> "app/(main)/seo/process-server-$location/page.tsx"
-          echo "          <p className=\"mb-4\">Expert process servers familiar with $city courts and procedures.</p>" >> "app/(main)/seo/process-server-$location/page.tsx"
-          echo "          <p className=\"mb-4\">We serve all areas of $city including ZIP code $zip.</p>" >> "app/(main)/seo/process-server-$location/page.tsx"
-          echo "          <a href=\"tel:5393676832\" className=\"bg-blue-600 text-white px-6 py-3 rounded-lg inline-block\">" >> "app/(main)/seo/process-server-$location/page.tsx"
-          echo "            Call Now: (539) 367-6832" >> "app/(main)/seo/process-server-$location/page.tsx"
-          echo "          </a>" >> "app/(main)/seo/process-server-$location/page.tsx"
-          echo "        </div>" >> "app/(main)/seo/process-server-$location/page.tsx"
-          echo "      </div>" >> "app/(main)/seo/process-server-$location/page.tsx"
-          echo "    </div>" >> "app/(main)/seo/process-server-$location/page.tsx"
-          echo "  );" >> "app/(main)/seo/process-server-$location/page.tsx"
-          echo "}" >> "app/(main)/seo/process-server-$location/page.tsx"
-          
-          echo "✅ Created high-quality page for $city"
-          echo "📍 Location: /seo/process-server-$location"
-          echo "🎯 Following expert recommendations: 3 high-quality pages per month"
-          
-          # SAFE sitemap update - only when new content is actually created
-          echo "🗺️ Updating sitemap with new page (GENUINE timestamp)"
-          current_time=$(date '+%Y-%m-%d')
-          
-          # Add new page to sitemap (genuine content update)
-          if [ -f "public/sitemap.xml" ]; then
-            # Add the new page with genuine timestamp
-            sed -i "s|</urlset>|  <url>\n    <loc>https://justlegalsolutions.org/seo/process-server-$location/</loc>\n    <lastmod>$current_time</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.8</priority>\n  </url>\n</urlset>|" public/sitemap.xml
-            echo "✅ Added new page to sitemap with genuine timestamp"
-          fi
-          
-      - name: Set up GitHub credentials
+          # Create the page content
+          cat <<EOF > "app/(main)/seo/process-server-$location/page.tsx"
+          import { Metadata } from 'next';
+          export const metadata: Metadata = {
+            title: '$city Process Server - Professional Legal Document Delivery',
+            description: 'Professional process server in $city, $county. Same-day legal document delivery.',
+          };
+          export default function ProcessServer${city//[' ']/''}Page() {
+            return (
+              <div className="min-h-screen bg-white">
+                <div className="container mx-auto px-4 py-16">
+                  <h1 className="text-4xl font-bold mb-6">Professional Process Server $city</h1>
+                  <p className="text-xl mb-8">Same-Day Legal Document Delivery in $city, Oklahoma</p>
+                  <div className="bg-blue-50 p-6 rounded-lg">
+                    <h2 className="text-2xl font-semibold mb-4">Serving $city Residents & Businesses</h2>
+                    <p className="mb-4">Expert process servers familiar with $city courts and procedures.</p>
+                    <p className="mb-4">We serve all areas of $city including ZIP code $zip.</p>
+                    <a href="tel:5393676832" className="bg-blue-600 text-white px-6 py-3 rounded-lg inline-block">
+                      Call Now: (539) 367-6832
+                    </a>
+                  </div>
+                </div>
+              </div>
+            );
+          }
+          EOF
+
+          # Update the main sitemap
+          current_time=\$(date '+%Y-%m-%d')
+          sed -i "s|</urlset>|  <url>\n    <loc>https://justlegalsolutions.org/seo/process-server-$location/</loc>\n    <lastmod>$current_time</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.8</priority>\n  </url>\n</urlset>|" public/sitemap.xml
+          echo "✅ Created page and updated sitemap for $city"
+
+      - name: Create Mirrored AI Sitemap
+        run: |
+          echo "🤖 Creating a mirrored AI Sitemap for maximum AI context..."
+          cp public/sitemap.xml public/ai-sitemap.xml
+          echo "✅ Mirrored AI Sitemap created successfully."
+
+      - name: Commit and Push Changes
         run: |
           git config --global user.name "safe-local-seo-bot"
           git config --global user.email "info@justlegalsolutions.org"
-          
-      - name: Commit High-Quality Location Page
-        run: |
           git add .
-          git diff --staged --quiet || git commit -m "📍 High-Quality Location Page: $(date '+%Y-%m-%d') - Following expert SEO recommendations"
+          git diff --staged --quiet || git commit -m "📍 SEO Update: Added new location page and synced sitemaps"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
