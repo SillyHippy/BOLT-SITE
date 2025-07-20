@@ -3,7 +3,8 @@ set -e
 
 page_created="false"
 locations=(
-  "fart-town,99999" "broken-arrow,74012" "bixby,74008" "jenks,74037" "owasso,74055"
+  "fart-town,77777" # This is the test town
+  "broken-arrow,74012" "bixby,74008" "jenks,74037" "owasso,74055"
   "sand-springs,74063" "sapulpa,74066" "glenpool,74033" "catoosa,74015"
   "collinsville,74021" "skiatook,74070" "coweta,74429" "claremore,74017"
   "bartlesville,74003" "nowata,74048" "vinita,74301" "pryor-creek,74361"
@@ -29,7 +30,6 @@ for item in "${locations[@]}"; do
     echo "🚀 CREATING: New page for $city_name."
     mkdir -p "$(dirname "$file_path")"
     
-    # Create Page Content - EOF must not be indented
     cat > "$file_path" <<EOF
 import { Metadata } from 'next';
 export const metadata: Metadata = {
@@ -54,12 +54,13 @@ export default function ProcessServer${city_name// /}Page() {
   );
 }
 EOF
-    # --- Update Sitemaps ---
     current_time=$(date '+%Y-%m-%d')
     sitemap_entry="  <url>\n    <loc>https://justlegalsolutions.org/seo/process-server-$location/</loc>\n    <lastmod>$current_time</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.8</priority>\n  </url>"
-    awk -v entry="$sitemap_entry" '/<\/urlset>/ { print entry } 1' public/sitemap.xml > public/sitemap.xml.tmp && mv public/sitemap.xml.tmp public/sitemap.xml
-    cp public/sitemap.xml public/ai-sitemap.xml
-    echo "🗺️ Sitemaps updated for $city_name."
+    
+    sitemap_content=$(cat public/sitemap.xml | sed '$d')
+    echo -e "$sitemap_content\n$sitemap_entry\n</urlset>" > public/sitemap.xml
+
+    echo "🗺️ Sitemap updated for $city_name."
     page_created="true"
     break
   fi
