@@ -1,8 +1,5 @@
 import { Metadata } from 'next';
-import Hero from '@/components/ui/hero';
-import Features from '@/components/ui/features';
-import Testimonials from '@/components/ui/testimonials';
-import CTA from '@/components/ui/cta';
+import Image from 'next/image';
 import BusinessSchema from '@/components/BusinessSchema';
 import FAQSchema from '@/components/FAQSchema';
 import ServiceSchema from '@/components/ServiceSchema';
@@ -20,11 +17,53 @@ export default function HomePage() {
       <FAQSchema />
       <ServiceSchema />
 
-      {/* Main Page Content */}
-      <Hero />
-      <Features />
-      <Testimonials />
-      <CTA />
+      {/* Main Page Content - Direct Images */}
+      <section>
+        <Image
+          src="/images/hero.webp"
+          alt="Professional legal services office with modern workspace and legal documents"
+          width={1920}
+          height={600}
+          style={{ width: '100%', height: 'auto' }}
+          priority
+        />
+      </section>
+      <section>
+        <Image
+          src="/images/secure-delivery.webp"
+          alt="Professional courier delivering legal documents securely"
+          width={800}
+          height={600}
+          style={{ width: '100%', height: 'auto' }}
+        />
+      </section>
+      <section>
+        <Image
+          src="/images/court-transfer.webp"
+          alt="Court document transfer service"
+          width={800}
+          height={600}
+          style={{ width: '100%', height: 'auto' }}
+        />
+      </section>
+      <section>
+        <Image
+          src="/images/skip-trace.webp"
+          alt="Professional skip tracing and investigation services for locating individuals in Oklahoma"
+          width={800}
+          height={600}
+          style={{ width: '100%', height: 'auto' }}
+        />
+      </section>
+      <section>
+        <Image
+          src="/images/same-day.webp"
+          alt="Same-day process serving and urgent document delivery services"
+          width={800}
+          height={600}
+          style={{ width: '100%', height: 'auto' }}
+        />
+      </section>
 
       {/* Hidden, SEO-rich content for search engines.
         Wrapped in a single div to prevent hydration errors.

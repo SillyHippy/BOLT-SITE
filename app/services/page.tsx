@@ -48,8 +48,8 @@ export default function ServicesPage() {
                 <Image
                   src={service.image}
                   alt={service.title}
-                  layout="fill"
-                  objectFit="cover"
+                  fill
+                  style={{ objectFit: 'cover' }}
                   className="transition-transform duration-300 hover:scale-105"
                 />
               </div>
