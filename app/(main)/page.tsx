@@ -24,7 +24,6 @@ export default function HomePage() {
           alt="Professional legal services office with modern workspace and legal documents"
           width={1920}
           height={600}
-          style={{ width: '100%', height: 'auto' }}
           priority
         />
       </section>
@@ -34,7 +33,6 @@ export default function HomePage() {
           alt="Professional courier delivering legal documents securely"
           width={800}
           height={600}
-          style={{ width: '100%', height: 'auto' }}
         />
       </section>
       <section>
@@ -43,7 +41,6 @@ export default function HomePage() {
           alt="Court document transfer service"
           width={800}
           height={600}
-          style={{ width: '100%', height: 'auto' }}
         />
       </section>
       <section>
@@ -52,7 +49,6 @@ export default function HomePage() {
           alt="Professional skip tracing and investigation services for locating individuals in Oklahoma"
           width={800}
           height={600}
-          style={{ width: '100%', height: 'auto' }}
         />
       </section>
       <section>
@@ -61,7 +57,6 @@ export default function HomePage() {
           alt="Same-day process serving and urgent document delivery services"
           width={800}
           height={600}
-          style={{ width: '100%', height: 'auto' }}
         />
       </section>
 
