@@ -45,84 +45,72 @@ const SitemapPage = () => {
     ]
   };
   // Static list generated from sitemap.xml
+  // Static list of unique URLs (no duplicates, no trailing slash)
   const sitemapLinks = [
-    { url: '/404/' },
     { url: '/404' },
     { url: '/ai-business-info' },
-    { url: '/backlinks/' },
-    { url: '/card/calendar/' },
-    { url: '/card/' },
-    { url: '/competitor-analysis/' },
-    { url: '/courier-services-tulsa/' },
+    { url: '/backlinks' },
+    { url: '/card/calendar' },
+    { url: '/card' },
+    { url: '/competitor-analysis' },
+    { url: '/courier-services-tulsa' },
     { url: '/future-ai-ready' },
     { url: '/' },
     { url: '/local-legal-events' },
-    { url: '/local-seo-marker/' },
     { url: '/local-seo-marker' },
-    { url: '/multi-search-marker/' },
     { url: '/multi-search-marker' },
-    { url: '/payments/' },
-    { url: '/performance-marker/' },
+    { url: '/payments' },
     { url: '/performance-marker' },
-    { url: '/platform-supremacy/' },
-    { url: '/pricing/' },
-    { url: '/process-server-tulsa/' },
-    { url: '/resources/' },
-    { url: '/security-policy/' },
-    { url: '/seo/bixby-process-server/' },
-    { url: '/seo/broken-arrow-process-server/' },
-    { url: '/seo/eviction-notice-process-server/' },
-    { url: '/seo/glenpool-process-server/' },
-    { url: '/seo/jenks-process-server/' },
-    { url: '/seo/legal-posting-process-server/' },
-    { url: '/seo/owasso-process-server/' },
-    { url: '/seo/process-server-sand-springs/' },
-    { url: '/seo/sand-springs-process-server/' },
-    { url: '/seo/what-is-a-process-server/' },
-    { url: '/seo/tulsa-process-server-comprehensive/' },
-    { url: '/seo-dashboard/' },
-    { url: '/services/' },
-    { url: '/sitemap/' },
-    { url: '/tulsa-process-server/' },
-    { url: '/urgent-process-server/' },
+    { url: '/platform-supremacy' },
+    { url: '/pricing' },
+    { url: '/process-server-tulsa' },
+    { url: '/resources' },
+    { url: '/security-policy' },
+    { url: '/seo/bixby-process-server' },
+    { url: '/seo/broken-arrow-process-server' },
+    { url: '/seo/eviction-notice-process-server' },
+    { url: '/seo/glenpool-process-server' },
+    { url: '/seo/jenks-process-server' },
+    { url: '/seo/legal-posting-process-server' },
+    { url: '/seo/owasso-process-server' },
+    { url: '/seo/process-server-sand-springs' },
+    { url: '/seo/sand-springs-process-server' },
+    { url: '/seo/what-is-a-process-server' },
+    { url: '/seo/tulsa-process-server-comprehensive' },
+    { url: '/seo-dashboard' },
+    { url: '/services' },
+    { url: '/sitemap' },
+    { url: '/tulsa-process-server' },
+    { url: '/urgent-process-server' },
     { url: '/voice-friendly' },
-    { url: '/voice-search-marker/' },
     { url: '/voice-search-marker' },
-    { url: '/weekend-emergency/' },
     { url: '/weekend-emergency' },
-    { url: '/why-choose-us/' },
     { url: '/why-choose-us' },
   ];
 
   return (
     <>
       <Navbar />
-      {/* Organization Schema Markup for SEO */}
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }} />
-      <main className="min-h-screen bg-gray-50">
-        <div className="container mx-auto px-4 py-16 pt-24">
-          <div className="text-center mb-16">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Website Sitemap</h1>
-            <p className="text-xl text-gray-600">A complete guide to all pages on our website.</p>
-          </div>
-
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-2xl font-bold text-blue-800 mb-6 border-b-2 border-blue-200 pb-2">All Pages</h2>
-            <ul className="space-y-3 grid grid-cols-1 sm:grid-cols-2">
-              {sitemapLinks.map((page, idx) => (
-                <li key={page.url + idx}>
-                  <Link href={page.url} className="flex items-center text-gray-700 hover:text-blue-600 hover:underline">
-                    <ChevronRight className="h-5 w-5 mr-2" />
-                    {page.url}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
+      <main className="container mx-auto px-4 py-12">
+        <h1 className="text-3xl font-bold mb-8 flex items-center gap-2">
+          <Map className="inline-block mr-2" /> All Pages
+        </h1>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {sitemapLinks.map(({ url }) => (
+            <div key={url} className="mb-2 flex items-center">
+              <ChevronRight className="w-5 h-5 mr-2 text-blue-600" />
+              <Link href={url} className="text-blue-700 hover:underline text-lg">
+                {url}
+              </Link>
+            </div>
+          ))}
         </div>
       </main>
+      <Footer />
+      {/* Organization Schema for SEO */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }} />
     </>
   );
-};
+}
 
 export default SitemapPage;

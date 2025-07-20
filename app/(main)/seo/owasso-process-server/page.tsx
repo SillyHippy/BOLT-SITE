@@ -33,10 +33,7 @@ export default function OwassoProcessServer() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <EnhancedBreadcrumbSchema 
-              items={[
-                { name: "Home", url: "/" },
-                { name: "Process Server Owasso Oklahoma", url: "/seo/owasso-process-server" }
-              ]}
+              items={[{ name: "Home", url: "/" },{ name: "Process Server Owasso Oklahoma", url: "/seo/owasso-process-server" }]}
             />
             <h1 className="text-4xl md:text-6xl font-bold mb-6 flex items-center justify-center gap-2">
               <span role="img" aria-label="rocket">🚀</span> Professional Process Server in Owasso Oklahoma
@@ -61,9 +58,9 @@ export default function OwassoProcessServer() {
           </div>
         </div>
       </header>
-      <EnhancedFAQSchema 
-        faqs={owassoProcessServingFAQs}
-        pageTitle="Process Server Owasso Oklahoma"
+      {/* ...rest of page content... */}
+    </>
+  );
       />
       <EnhancedServiceSchema 
         serviceName="Process Serving & Legal Document Delivery in Owasso Oklahoma"
@@ -73,7 +70,6 @@ export default function OwassoProcessServer() {
         serviceType="Legal Process Serving"
         additionalServices={["Skip Tracing", "Court Filing", "Emergency Service", "Document Preparation"]}
       />
-      
       {/* SEO Optimization Components */}
       <GoogleSpecificOptimization 
         businessName="Just Legal Solutions - Owasso Process Server"
@@ -116,36 +112,8 @@ export default function OwassoProcessServer() {
         mobileFriendly={true}
         pagespeed={98}
       />
-
+      {/* Main Content Sections */}
       <div className="min-h-screen bg-white">
-        {/* Header */}
-        <header className="bg-blue-900 text-white py-16">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                🚀 Professional Process Server in Owasso Oklahoma
-              </h1>
-              <p className="text-xl md:text-2xl mb-8">
-                ⚡ Same-Day Service Available | Licensed & Bonded | Emergency Options
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a 
-                  href="/pricing" 
-                  className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors"
-                >
-                  📞 Get Instant Quote
-                </a>
-                <a 
-                  href="tel:5393676832" 
-                  className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors"
-                >
-                  📞 Call (539) 367-6832
-                </a>
-              </div>
-            </div>
-          </div>
-        </header>
-
         {/* Hero Section */}
         <section className="py-16 bg-gray-50">
           <div className="container mx-auto px-4">
@@ -196,7 +164,6 @@ export default function OwassoProcessServer() {
             </div>
           </div>
         </section>
-
         {/* Services Section */}
         <section className="py-16">
           <div className="container mx-auto px-4">
@@ -227,7 +194,36 @@ export default function OwassoProcessServer() {
             </div>
           </div>
         </section>
-
+        {/* CTA Section */}
+        <section className="py-16 bg-blue-900 text-white">
+          <div className="container mx-auto px-4 text-center">
+            <div className="max-w-4xl mx-auto">
+              <h2 className="text-3xl font-bold mb-6">
+                Ready for Professional Process Serving in Owasso?
+              </h2>
+              <p className="text-xl mb-8">
+                Same-day service available. Licensed, bonded, and professional throughout Owasso Oklahoma.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <a 
+                  href="/pricing" 
+                  className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors"
+                >
+                  📋 View Pricing & Get Quote
+                </a>
+                <a 
+                  href="tel:5393676832" 
+                  className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors"
+                >
+                  📞 Call Now: (539) 367-6832
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </>
+  );
         {/* CTA Section */}
         <section className="py-16 bg-blue-900 text-white">
           <div className="container mx-auto px-4 text-center">

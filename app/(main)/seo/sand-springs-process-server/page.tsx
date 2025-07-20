@@ -33,10 +33,7 @@ export default function SandSpringsProcessServer() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <EnhancedBreadcrumbSchema 
-              items={[
-                { name: "Home", url: "/" },
-                { name: "Process Server Sand Springs Oklahoma", url: "/seo/sand-springs-process-server" }
-              ]}
+              items={[{ name: "Home", url: "/" },{ name: "Process Server Sand Springs Oklahoma", url: "/seo/sand-springs-process-server" }]}
             />
             <h1 className="text-4xl md:text-6xl font-bold mb-6 flex items-center justify-center gap-2">
               <span role="img" aria-label="rocket">🚀</span> Professional Process Server in Sand Springs Oklahoma
