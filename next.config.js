@@ -3,10 +3,9 @@ const nextConfig = {
   // trailingSlash: true, // This line is correctly removed
   output: 'export',
   distDir: 'out',
-  
-  // The 'images' block has been removed to re-enable optimization.
-  // Next.js will now automatically handle image optimization.
-
+  images: {
+    unoptimized: true, // This line disables image optimization to fix the build
+  },
   experimental: {
     // No unrecognized keys
   },
