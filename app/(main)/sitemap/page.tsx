@@ -78,6 +78,7 @@ const SitemapPage = () => {
     { url: '/seo/owasso-process-server/' },
     { url: '/seo/process-server-sand-springs/' },
     { url: '/seo/sand-springs-process-server/' },
+    { url: '/seo/what-is-a-process-server/' },
     { url: '/seo/tulsa-process-server-comprehensive/' },
     { url: '/seo-dashboard/' },
     { url: '/services/' },
