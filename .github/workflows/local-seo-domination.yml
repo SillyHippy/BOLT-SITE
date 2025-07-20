@@ -148,6 +148,5 @@ EOF
           git add .
           git commit -m "🚀 SEO Engine: Deployed new local landing page and synced sitemaps"
           git push
-        # The 'env' block below was indented incorrectly. It has been fixed.
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
