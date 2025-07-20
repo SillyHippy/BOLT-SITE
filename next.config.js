@@ -1,11 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // trailingSlash: true, // This line is removed to fix the resource loading errors
+  // trailingSlash: true, // This line is correctly removed
   output: 'export',
   distDir: 'out',
-  images: {
-    unoptimized: true,
-  },
+  
+  // The 'images' block has been removed to re-enable optimization.
+  // Next.js will now automatically handle image optimization.
+
   experimental: {
     // No unrecognized keys
   },
@@ -24,7 +25,7 @@ const nextConfig = {
       '@': require('path').resolve(__dirname, './'),
     };
 
-    config.resolve.extensions = ['.tsx', '.ts', 'js', '.jsx', ...config.resolve.extensions];
+    config.resolve.extensions = ['.tsx', '.ts', '.js', '.jsx', ...config.resolve.extensions];
 
     return config;
   },
