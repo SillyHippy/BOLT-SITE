@@ -1,15 +1,13 @@
-name: Safe Local SEO Pages and Sitemap Sync
+name: Intelligent Local SEO Engine
 
 on:
   schedule:
-    # Run 3 times per month on different days
-    - cron: '0 10 1 * *'   # 1st of month at 10 AM
-    - cron: '0 10 11 * *'  # 11th of month at 10 AM
-    - cron: '0 10 21 * *'  # 21st of month at 10 AM
+    # Runs on the 1st, 11th, and 21st of each month at 10:00 AM UTC
+    - cron: '0 10 1,11,21 * *'
   workflow_dispatch:
 
 jobs:
-  safe-local-pages:
+  local-seo-engine:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -19,78 +17,137 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '18'
-
-      - name: Create High-Quality Location Page
+      - name: Run Intelligent Page Creator
+        id: page_creator
         run: |
-          day_of_month=$(date +%d)
-          if [ "$day_of_month" = "01" ]; then
-            location="broken-arrow"
-            city="Broken Arrow"
-            county="Tulsa County"
-            zip="74012"
-          elif [ "$day_of_month" = "11" ]; then
-            location="bixby"
-            city="Bixby"
-            county="Tulsa County"
-            zip="74008"
-          else
-            location="jenks"
-            city="Jenks"
-            county="Tulsa County"
-            zip="74037"
-          fi
-          
-          echo "Creating high-quality page for: $city"
-          mkdir -p "app/(main)/seo/process-server-$location"
-          
-          # Create the page content
-          cat <<EOF > "app/(main)/seo/process-server-$location/page.tsx"
+          # --- Expanded List of Over 50 Target Locations ---
+          locations=(
+            # Tulsa Metro Core
+            "broken-arrow,74012"
+            "bixby,74008"
+            "jenks,74037"
+            "owasso,74055"
+            "sand-springs,74063"
+            "sapulpa,74066"
+            "glenpool,74033"
+            "catoosa,74015"
+            "collinsville,74021"
+            "skiatook,74070"
+            "coweta,74429"
+            "claremore,74017"
+            # Expanding North
+            "bartlesville,74003"
+            "skiatook,74070"
+            "nowata,74048"
+            "vinita,74301"
+            "pryor-creek,74361"
+            # Expanding East
+            "tahlequah,74464"
+            "muskogee,74401"
+            "wagoner,74467"
+            "stilwell,74960"
+            "sallisaw,74955"
+            # Expanding South
+            "okmulgee,74447"
+            "henryetta,74437"
+            "eufaula,74432"
+            "mcalester,74501"
+            "durant,74701"
+            "ada,74820"
+            "ardmore,73401"
+            # Expanding West
+            "stillwater,74074"
+            "ponca-city,74601"
+            "cushing,74023"
+            "bristow,74010"
+            "drumright,74030"
+            "perry,73077"
+            # Oklahoma City Area
+            "oklahoma-city,73102"
+            "edmond,73013"
+            "norman,73069"
+            "moore,73160"
+            "midwest-city,73110"
+            "del-city,73115"
+            "yukon,73099"
+            "mustang,73064"
+            "choctaw,73020"
+            "guthrie,73044"
+            # Farther Reaches
+            "enid,73701"
+            "woodward,73801"
+            "lawton,73501"
+            "duncan,73533"
+            "chickasha,73018"
+            "weatherford,73096"
+            "elk-city,73644"
+            "guymon,73942"
+          )
+
+          # --- Logic to Select a NEW Location ---
+          page_created="false"
+          for item in "${locations[@]}"; do
+            IFS=',' read -r location zip <<< "$item"
+            city_name=$(echo "$location" | sed 's/-/ /g' | sed -e "s/\b\(.\)/\u\1/g")
+            file_path="app/(main)/seo/process-server-$location/page.tsx"
+
+            if [ -f "$file_path" ]; then
+              echo "✅ SKIPPING: Page for $city_name already exists."
+            else
+              echo "🚀 CREATING: New page for $city_name."
+              
+              # --- Create the Page ---
+              mkdir -p "$(dirname "$file_path")"
+              cat <<EOF > "$file_path"
           import { Metadata } from 'next';
           export const metadata: Metadata = {
-            title: '$city Process Server - Professional Legal Document Delivery',
-            description: 'Professional process server in $city, $county. Same-day legal document delivery.',
+            title: '$city_name Process Server - Just Legal Solutions',
+            description: 'Professional process server in $city_name, Oklahoma. Licensed, bonded, and insured for reliable legal document delivery.',
           };
-          export default function ProcessServer${city//[' ']/''}Page() {
+          export default function ProcessServer${city_name//[' ']/''}Page() {
             return (
               <div className="min-h-screen bg-white">
                 <div className="container mx-auto px-4 py-16">
-                  <h1 className="text-4xl font-bold mb-6">Professional Process Server $city</h1>
-                  <p className="text-xl mb-8">Same-Day Legal Document Delivery in $city, Oklahoma</p>
-                  <div className="bg-blue-50 p-6 rounded-lg">
-                    <h2 className="text-2xl font-semibold mb-4">Serving $city Residents & Businesses</h2>
-                    <p className="mb-4">Expert process servers familiar with $city courts and procedures.</p>
-                    <p className="mb-4">We serve all areas of $city including ZIP code $zip.</p>
-                    <a href="tel:5393676832" className="bg-blue-600 text-white px-6 py-3 rounded-lg inline-block">
-                      Call Now: (539) 367-6832
+                  <h1 className="text-4xl font-bold mb-6">Process Server in $city_name, Oklahoma</h1>
+                  <p className="text-xl mb-8">Fast, Reliable, and Professional Service in $city_name.</p>
+                  <div className="bg-gray-100 p-8 rounded-lg">
+                    <h2 className="text-2xl font-semibold mb-4">Serving the $city_name Area (ZIP: $zip)</h2>
+                    <p className="mb-4">Our experienced process servers are familiar with $city_name and provide legally compliant service for all document types.</p>
+                    <a href="tel:5393676832" className="bg-blue-600 text-white px-6 py-3 rounded-lg inline-block font-bold">
+                      Call for a Quote: (539) 367-6832
                     </a>
                   </div>
                 </div>
               </div>
             );
           }
-          EOF
+EOF
+              # --- Update Sitemaps ---
+              current_time=\$(date '+%Y-%m-%d')
+              sitemap_entry="  <url>\n    <loc>https://justlegalsolutions.org/seo/process-server-$location/</loc>\n    <lastmod>$current_time</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.8</priority>\n  </url>\n</urlset>"
+              sed -i "s|</urlset>|$sitemap_entry|" public/sitemap.xml
+              cp public/sitemap.xml public/ai-sitemap.xml
+              echo "🗺️ Sitemaps updated for $city_name."
 
-          # Update the main sitemap
-          current_time=\$(date '+%Y-%m-%d')
-          sed -i "s|</urlset>|  <url>\n    <loc>https://justlegalsolutions.org/seo/process-server-$location/</loc>\n    <lastmod>$current_time</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.8</priority>\n  </url>\n</urlset>|" public/sitemap.xml
-          echo "✅ Created page and updated sitemap for $city"
+              page_created="true"
+              break # Exit loop after creating one page
+            fi
+          done
 
-      - name: Create Mirrored AI Sitemap
-        run: |
-          echo "🤖 Creating a mirrored AI Sitemap for maximum AI context..."
-          cp public/sitemap.xml public/ai-sitemap.xml
-          echo "✅ Mirrored AI Sitemap created successfully."
+          if [ "$page_created" = "false" ]; then
+            echo "👍 All location pages already exist. No new pages created."
+          fi
+          
+          # --- Set GitHub Action Output ---
+          echo "page_created=$page_created" >> $GITHUB_OUTPUT
 
       - name: Commit and Push Changes
+        if: steps.page_creator.outputs.page_created == 'true'
         run: |
-          git config --global user.name "safe-local-seo-bot"
+          git config --global user.name "seo-automation-bot"
           git config --global user.email "info@justlegalsolutions.org"
           git add .
-          git diff --staged --quiet || git commit -m "📍 SEO Update: Added new location page and synced sitemaps"
+          git commit -m "🚀 SEO Engine: Deployed new local landing page and synced sitemaps"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
