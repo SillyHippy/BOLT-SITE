@@ -1,5 +1,4 @@
-
-"use client"
+"use client";
 
 import { useState } from "react";
 
@@ -345,4 +344,8 @@ export function Footer() {
     </footer>
   );
 }
-export default Footer
+
+// Default export for compatibility
+export default Footer;
+
+"}
