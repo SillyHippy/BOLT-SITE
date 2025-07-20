@@ -57,8 +57,7 @@ EOF
     # --- Update Sitemaps ---
     current_time=$(date '+%Y-%m-%d')
     sitemap_entry="  <url>\n    <loc>https://justlegalsolutions.org/seo/process-server-$location/</loc>\n    <lastmod>$current_time</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.8</priority>\n  </url>"
-    sitemap_content=$(cat public/sitemap.xml)
-    echo -e "${sitemap_content/<\/urlset>/$sitemap_entry\n<\/urlset>}" > public/sitemap.xml
+    awk -v entry="$sitemap_entry" '/<\/urlset>/ { print entry } 1' public/sitemap.xml > public/sitemap.xml.tmp && mv public/sitemap.xml.tmp public/sitemap.xml
     cp public/sitemap.xml public/ai-sitemap.xml
     echo "🗺️ Sitemaps updated for $city_name."
     page_created="true"
