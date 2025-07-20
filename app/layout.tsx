@@ -2,15 +2,12 @@ import './globals.css';
 import type { Metadata, Viewport } from 'next';
 import { Inter } from 'next/font/google';
 import Script from 'next/script';
-import { organizationSchema } from '@/components/ui/schema';
 import { PerformanceOptimizer } from '@/components/ui/performance-optimizer';
 import { CriticalCSS } from '@/components/ui/critical-css-inline';
 import { MobileOptimizer } from '@/components/ui/mobile-optimizer';
 import { MobilePerformanceBoost } from '@/components/ui/mobile-performance-boost';
 import { ServiceWorkerRegistration } from '@/components/ui/service-worker-registration';
-import LocalBusinessSchema from '@/components/ui/local-business-schema';
 import WebsiteSchema from '@/components/ui/website-schema';
-import ReviewSchema from '@/components/ReviewSchema';
 import ClickOptimization from '@/components/ClickOptimization';
 
 const inter = Inter({
@@ -126,11 +123,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
         <meta name="cache-version" content="2025-06-29-v9-final-seo-optimization" />
-        <Script
-          id="schema-org"
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
-        />
+
         {/* Google Analytics - Optimized Loading */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-984ZD882EX"
@@ -200,9 +193,7 @@ export default function RootLayout({
         <MobileOptimizer />
         <MobilePerformanceBoost />
         <ServiceWorkerRegistration />
-        <LocalBusinessSchema />
         <WebsiteSchema />
-        <ReviewSchema />
         <ClickOptimization />
         {children}
       </body>
