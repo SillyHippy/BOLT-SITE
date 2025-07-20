@@ -345,6 +345,4 @@ export function Footer() {
     </footer>
   );
 }
-
-// Default export for compatibility
 export default Footer
