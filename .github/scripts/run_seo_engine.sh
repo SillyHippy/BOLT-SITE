@@ -2,21 +2,9 @@
 set -e
 
 page_created="false"
+# The list now ONLY contains our test town.
 locations=(
-  "fart-town,77777" # This is the test town
-  "broken-arrow,74012" "bixby,74008" "jenks,74037" "owasso,74055"
-  "sand-springs,74063" "sapulpa,74066" "glenpool,74033" "catoosa,74015"
-  "collinsville,74021" "skiatook,74070" "coweta,74429" "claremore,74017"
-  "bartlesville,74003" "nowata,74048" "vinita,74301" "pryor-creek,74361"
-  "tahlequah,74464" "muskogee,74401" "wagoner,74467" "stilwell,74960"
-  "sallisaw,74955" "okmulgee,74447" "henryetta,74437" "eufaula,74432"
-  "mcalester,74501" "durant,74701" "ada,74820" "ardmore,73401"
-  "stillwater,74074" "ponca-city,74601" "cushing,74023" "bristow,74010"
-  "drumright,74030" "perry,73077" "oklahoma-city,73102" "edmond,73013"
-  "norman,73069" "moore,73160" "midwest-city,73110" "del-city,73115"
-  "yukon,73099" "mustang,73064" "choctaw,73020" "guthrie,73044"
-  "enid,73701" "woodward,73801" "lawton,73501" "duncan,73533"
-  "chickasha,73018" "weatherford,73096" "elk-city,73644" "guymon,73942"
+  "fart-town,77777"
 )
 
 for item in "${locations[@]}"; do
