@@ -110,7 +110,7 @@ const SitemapPage = () => {
       {/* Organization Schema for SEO */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }} />
     </>
-  );
+  )
 }
 
 export default SitemapPage;
