@@ -347,4 +347,4 @@ export function Footer() {
 }
 
 // Default export for compatibility
-export default Footer;
+export default Footer
