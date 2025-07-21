@@ -46,18 +46,3 @@ Crawl-delay: 1
 Sitemap: https://justlegalsolutions.org/sitemap.xml
 Sitemap: https://justlegalsolutions.org/sitemap-images.xml
 Sitemap: https://justlegalsolutions.org/sitemap-news.xml
-
-# Voice Search Optimization - Mon Jul 21 01:17:48 UTC 2025
-# Optimized for Alexa, Google Assistant, Siri
-
-# Competitive Intelligence Update - Mon Jul 21 01:26:30 UTC 2025
-# Market leader in Oklahoma process serving
-
-# AI Assistant Integration - Mon Jul 21 02:27:34 UTC 2025
-# Optimized for ChatGPT, Alexa, Google Assistant
-
-# AI Assistant Integration - Mon Jul 21 04:49:38 UTC 2025
-# Optimized for ChatGPT, Alexa, Google Assistant
-
-# Local Events Awareness - Mon Jul 21 06:14:39 UTC 2025
-# Active in Tulsa legal community
