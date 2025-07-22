@@ -1,292 +1,163 @@
 import type { Metadata } from 'next';
+import { Navbar } from '@/components/ui/navbar';
+import { Footer } from '@/components/ui/footer';
 import BusinessSchema from '@/components/BusinessSchema';
 import ServiceSchema from '@/components/ServiceSchema';
 import FAQSchema from '@/components/FAQSchema';
 
+// SEO Metadata optimized for the Eviction Notice page
 export const metadata: Metadata = {
-  title: 'Eviction Notice Process Server Tulsa County - Expert Legal Document Delivery',
-  description: 'Professional eviction notice service in Tulsa County. Fast, reliable delivery of eviction notices, notice to quit, and landlord-tenant legal documents. Licensed process server available 24/7.',
-  keywords: 'eviction notice process server tulsa, eviction service tulsa county, notice to quit tulsa, landlord tenant legal documents, property management process server',
+  title: 'Eviction Notice Process Server Tulsa County | Same-Day Service',
+  description: 'Expert process server for eviction notices in Tulsa County. We ensure fast, legally compliant delivery of Notice to Quit and all landlord-tenant documents. 24/7 service for property managers.',
+  keywords: 'eviction notice process server tulsa, eviction service tulsa county, notice to quit tulsa, landlord tenant legal documents, property management process server oklahoma',
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/seo/eviction-notice-process-server'
+  },
   openGraph: {
-    title: 'Eviction Notice Process Server Tulsa County - Expert Legal Document Delivery',
-    description: 'Professional eviction notice service in Tulsa County. Fast, reliable delivery of eviction notices and landlord-tenant legal documents.',
+    title: 'Tulsa County Eviction Notice Process Server | Just Legal Solutions',
+    description: 'Fast, reliable delivery of eviction notices for landlords and property managers in Tulsa County.',
     url: 'https://justlegalsolutions.org/seo/eviction-notice-process-server',
     siteName: 'Just Legal Solutions',
-    images: [
-      {
-        url: 'https://justlegalsolutions.org/images/jls-logo.png',
-        width: 1200,
-        height: 630,
-        alt: 'Eviction Notice Process Server Tulsa County'
-      }
-    ],
+    images: [{
+      url: 'https://justlegalsolutions.org/images/jls-logo.png',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions Logo'
+    }],
     locale: 'en_US',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Eviction Notice Process Server Tulsa County - Expert Legal Document Delivery',
-    description: 'Professional eviction notice service in Tulsa County. Fast, reliable delivery of eviction notices and landlord-tenant legal documents.',
+    title: 'Tulsa County Eviction Notice Process Server | Just Legal Solutions',
+    description: 'Fast, reliable delivery of eviction notices for landlords and property managers in Tulsa County.',
     images: ['https://justlegalsolutions.org/images/jls-logo.png'],
-  },
-  alternates: {
-    canonical: 'https://justlegalsolutions.org/seo/eviction-notice-process-server',
-  },
-  robots: {
-    index: true,
-    follow: true,
-  },
+  }
+};
+
+// Detailed JSON-LD Schema for Eviction Service
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'LegalService',
+  name: 'Just Legal Solutions - Eviction Notice Process Server Tulsa',
+  description: 'Specialized process serving for eviction notices and landlord-tenant documents in Tulsa County.',
+  url: 'https://justlegalsolutions.org/seo/eviction-notice-process-server',
+  telephone: '(539) 367-6832',
+  email: 'info@justlegalsolutions.org',
+  areaServed: [
+    { '@type': 'AdministrativeArea', name: 'Tulsa County' }
+  ],
+  serviceType: [
+    'Eviction Notice Service',
+    'Landlord-Tenant Document Delivery',
+    'Notice to Quit Service'
+  ],
+  openingHours: 'Mo-Su 00:00-23:59',
+  priceRange: '$60 - $150',
+};
+
+// --- High-Quality, Unique Content for Eviction Services ---
+const evictionData = {
+    intro: `The eviction process is legally sensitive and time-critical. Improper service of an eviction notice can lead to costly delays, dismissals, and financial losses for landlords and property managers. As Tulsa County's trusted eviction process server, we specialize in the correct, legal, and prompt delivery of all landlord-tenant documents, ensuring your case can proceed with a solid legal foundation.`,
+    oklahomaProcess: {
+        title: 'The Oklahoma Eviction Process: A Step-by-Step Overview',
+        steps: [
+            { name: 'Step 1: The Written Notice', detail: 'The process begins with serving the tenant a written notice, such as a 5-Day Notice to Pay or Quit for non-payment of rent, or a 15-Day Notice for lease violations. Proper service of this notice is mandatory.' },
+            { name: 'Step 2: Filing the Forcible Entry & Detainer', detail: 'If the tenant does not comply, the landlord can file a Forcible Entry and Detainer action (an eviction lawsuit) with the Tulsa County Courthouse.' },
+            { name: 'Step 3: Serving the Summons', detail: 'A court summons must then be professionally served to the tenant, officially notifying them of the court date. This is a critical step where our professional service is essential.' },
+            { name: 'Step 4: Court Hearing and Judgment', detail: 'The case is heard by a judge. If the landlord wins, a judgment for possession is granted.' },
+            { name: 'Step 5: Writ of Execution', detail: 'If the tenant still does not vacate, a Writ of Execution is issued, allowing law enforcement to forcibly remove the tenant. We can assist in serving any associated notices.' }
+        ]
+    },
+    serviceAreas: [
+        'Tulsa', 'Broken Arrow', 'Bixby', 'Jenks', 'Owasso', 'Sand Springs', 'Glenpool', 'Sapulpa'
+    ],
+    faqs: [
+        {
+            q: 'Why can\'t I just tape the eviction notice to the door?',
+            a: 'While "posting" is a method of service, it has strict legal requirements in Oklahoma, often requiring a follow-up mailing. Improper posting can invalidate your notice. Professional personal service provides a much stronger legal standing with a notarized Affidavit of Service as proof.'
+        },
+        {
+            q: 'How quickly can you serve a 5-Day Notice to Quit in Tulsa?',
+            a: 'We offer same-day and 24-hour rush service for all time-sensitive eviction notices. We understand that every day counts, and we prioritize these serves to help you start the legal clock as soon as possible.'
+        },
+        {
+            q: 'Do you work with large apartment complexes and property management companies?',
+            a: 'Yes. We specialize in providing bulk-rate and ongoing services for property managers and apartment complexes throughout Tulsa County. We can handle all your eviction and tenant-related service needs efficiently.'
+        },
+        {
+            q: 'What happens if the tenant has already abandoned the property?',
+            a: 'If a tenant has clearly abandoned the property, the legal requirements for service may change. Our servers can document the condition of the property (e.g., empty, utilities off) to support your case for abandonment, in addition to performing the required legal service.'
+        }
+    ]
 };
 
 export default function EvictionNoticeProcessServer() {
   return (
     <>
-      <div className="min-h-screen pt-12 bg-gradient-to-br from-red-50 via-white to-orange-50">
-        {/* Hero Section */}
-        <div className="bg-gradient-to-r from-red-700 to-orange-700 text-white">
-          <div className="container mx-auto px-4 py-16">
-            <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                Eviction Notice Process Server Tulsa County
-              </h1>
-              <p className="text-xl md:text-2xl mb-8 text-red-100">
-                Expert Legal Document Delivery • Same-Day Service • Licensed & Bonded
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="tel:5393676832" className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
-                  Call Now: (539) 367-6832
-                </a>
-                <a href="#services" className="bg-white text-red-700 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
-                  View Services
-                </a>
-              </div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      {/* Navbar and Footer are handled by the main layout */}
+      <div className="min-h-screen bg-gray-50 pt-16">
+        <div className="bg-red-800 text-white">
+            <div className="container mx-auto px-4 py-20 pt-12 text-center">
+                <h1 className="text-4xl md:text-5xl font-extrabold">Eviction Notice Process Server for Tulsa County</h1>
+                <p className="mt-4 text-xl text-red-100 max-w-3xl mx-auto">Ensuring Landlords & Property Managers Meet Oklahoma&apos;s Strict Legal Service Requirements</p>
             </div>
-          </div>
         </div>
 
-        {/* Property Manager Services */}
-        <div className="py-16 bg-white">
-          <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center mb-12 text-gray-800">
-              Professional Eviction Services for Property Managers
-            </h2>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto" id="services">
-              
-              <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-red-500">
-                <h3 className="text-xl font-semibold mb-4 text-red-800">Eviction Notices</h3>
-                <p className="text-gray-700 mb-4">
-                  Professional service of eviction notices and unlawful detainer actions throughout Tulsa County.
-                </p>
-                <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• 3-Day Notice to Quit</li>
-                  <li>• 5-Day Notice to Pay</li>
-                  <li>• 30-Day Notice to Vacate</li>
-                  <li>• Unlawful Detainer Summons</li>
-                </ul>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-orange-500">
-                <h3 className="text-xl font-semibold mb-4 text-orange-800">Lease Violations</h3>
-                <p className="text-gray-700 mb-4">
-                  Expert service of lease violation notices and cure or quit demands for property managers.
-                </p>
-                <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• Lease Violation Notices</li>
-                  <li>• Cure or Quit Demands</li>
-                  <li>• Pet Policy Violations</li>
-                  <li>• Noise Complaints</li>
-                </ul>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-yellow-500">
-                <h3 className="text-xl font-semibold mb-4 text-yellow-800">Tenant Documents</h3>
-                <p className="text-gray-700 mb-4">
-                  Reliable service of tenant-related legal documents and property management notices.
-                </p>
-                <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• Rental Agreements</li>
-                  <li>• Security Deposit Demands</li>
-                  <li>• Property Inspection Notices</li>
-                  <li>• Lease Renewal Documents</li>
-                </ul>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-green-500">
-                <h3 className="text-xl font-semibold mb-4 text-green-800">Court Filings</h3>
-                <p className="text-gray-700 mb-4">
-                  Complete eviction court filing services and legal document preparation assistance.
-                </p>
-                <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• Eviction Court Filings</li>
-                  <li>• Small Claims Court</li>
-                  <li>• Judgment Enforcement</li>
-                  <li>• Writ of Possession</li>
-                </ul>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-blue-500">
-                <h3 className="text-xl font-semibold mb-4 text-blue-800">Same-Day Service</h3>
-                <p className="text-gray-700 mb-4">
-                  Emergency same-day eviction notice service when time is critical for your property.
-                </p>
-                <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• Emergency Service</li>
-                  <li>• Rush Orders</li>
-                  <li>• Weekend Service</li>
-                  <li>• Holiday Service</li>
-                </ul>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-purple-500">
-                <h3 className="text-xl font-semibold mb-4 text-purple-800">Skip Tracing</h3>
-                <p className="text-gray-700 mb-4">
-                  Professional skip tracing services to locate difficult-to-find tenants and defendants.
-                </p>
-                <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• Tenant Location Services</li>
-                  <li>• Address Verification</li>
-                  <li>• Employment Verification</li>
-                  <li>• Asset Searches</li>
-                </ul>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-        {/* Service Areas */}
-        <div className="py-16 bg-gray-50">
-          <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center mb-12 text-gray-800">
-              Eviction Notice Service Areas
-            </h2>
-            <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-              <div className="text-center p-6 bg-white rounded-lg shadow-md">
-                <h3 className="text-xl font-semibold mb-4 text-red-800">Primary Service Areas</h3>
-                <ul className="space-y-2 text-gray-700">
-                  <li>• Tulsa</li>
-                  <li>• Broken Arrow</li>
-                  <li>• Bixby</li>
-                  <li>• Jenks</li>
-                  <li>• Owasso</li>
-                  <li>• Sand Springs</li>
-                </ul>
-              </div>
-              <div className="text-center p-6 bg-white rounded-lg shadow-md">
-                <h3 className="text-xl font-semibold mb-4 text-orange-800">Extended Areas</h3>
-                <ul className="space-y-2 text-gray-700">
-                  <li>• Glenpool</li>
-                  <li>• Sapulpa</li>
-                  <li>• Coweta</li>
-                  <li>• Wagoner</li>
-                  <li>• Mounds</li>
-                  <li>• Kiefer</li>
-                </ul>
-              </div>
-              <div className="text-center p-6 bg-white rounded-lg shadow-md">
-                <h3 className="text-xl font-semibold mb-4 text-yellow-800">Surrounding Areas</h3>
-                <ul className="space-y-2 text-gray-700">
-                  <li>• Catoosa</li>
-                  <li>• Collinsville</li>
-                  <li>• Skiatook</li>
-                  <li>• Claremore</li>
-                  <li>• Pryor Creek</li>
-                  <li>• All of Tulsa County</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Why Choose Us */}
-        <div className="py-16 bg-white">
-          <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center mb-12 text-gray-800">
-              Why Property Managers Choose Our Eviction Services
-            </h2>
-            <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
-              <div>
-                <h3 className="text-2xl font-semibold mb-6 text-red-800">Experience & Expertise</h3>
-                <div className="space-y-4 text-gray-700">
-                  <p>
-                    With extensive experience in landlord-tenant law and eviction procedures, we understand 
-                    the critical timelines and proper service requirements for eviction notices in Oklahoma.
-                  </p>
-                  <p>
-                    Our team knows the local court systems and ensures all eviction documents are served 
-                    correctly and on time to protect your legal rights as a property owner.
-                  </p>
-                </div>
-              </div>
-              <div>
-                <h3 className="text-2xl font-semibold mb-6 text-orange-800">Same-Day Service Guarantee</h3>
-                <div className="space-y-4 text-gray-700">
-                  <p>
-                    Eviction situations often require immediate action. Our same-day service guarantee 
-                    ensures your urgent eviction notices are served promptly to meet legal deadlines.
-                  </p>
-                  <p>
-                    Available 24/7 for emergency eviction service, we&apos;re here when you need us most 
-                    to protect your property investment.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Contact Section */}
-        <div className="py-16 bg-gradient-to-r from-red-700 to-orange-700 text-white">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center">
-              <h2 className="text-3xl font-bold mb-6">
-                Professional Eviction Notice Service
-              </h2>
-              <p className="text-xl mb-8 text-red-100">
-                Licensed, bonded, and available 24/7 for emergency eviction service
-              </p>
-              <div className="grid md:grid-cols-2 gap-8">
-                <div className="bg-red-600 p-6 rounded-lg">
-                  <h3 className="text-xl font-semibold mb-4">Contact Information</h3>
-                  <div className="space-y-3 text-left">
-                    <p className="flex items-center">
-                      <span className="font-semibold mr-2">Phone:</span>
-                      <a href="tel:5393676832" className="text-red-200 hover:text-white">(539) 367-6832</a>
+        <main className="container mx-auto px-4 py-16">
+            <div className="max-w-4xl mx-auto">
+                <section className="mb-12">
+                    <h2 className="text-3xl font-bold text-gray-800 mb-6">The Critical Importance of Proper Eviction Service</h2>
+                    <p className="text-lg text-gray-700 mb-4">
+                        {evictionData.intro}
                     </p>
-                    <p className="flex items-center">
-                      <span className="font-semibold mr-2">Email:</span>
-                      <a href="mailto:info@justlegalsolutions.org" className="text-red-200 hover:text-white">info@justlegalsolutions.org</a>
-                    </p>
-                    <p className="flex items-start">
-                      <span className="font-semibold mr-2">Service Area:</span>
-                      <span className="text-red-200">All of Tulsa County<br />and surrounding areas</span>
-                    </p>
-                  </div>
-                </div>
-                <div className="bg-orange-600 p-6 rounded-lg">
-                  <h3 className="text-xl font-semibold mb-4">Service Hours</h3>
-                  <div className="space-y-2 text-left">
-                    <p><span className="font-semibold">Monday - Friday:</span> 8:00 AM - 6:00 PM</p>
-                    <p><span className="font-semibold">Saturday:</span> 9:00 AM - 4:00 PM</p>
-                    <p><span className="font-semibold">Sunday:</span> Emergency service available</p>
-                    <p className="text-yellow-200 font-semibold mt-4">24/7 Emergency Eviction Service</p>
-                  </div>
-                </div>
-              </div>
-              <div className="mt-8">
-                <a href="tel:5393676832" className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors inline-block">
-                  Call Now for Emergency Service: (539) 367-6832
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
+                </section>
 
+                <section className="bg-white p-8 rounded-lg shadow-md mb-12">
+                    <h3 className="text-2xl font-bold text-red-800 mb-6">{evictionData.oklahomaProcess.title}</h3>
+                    <div className="space-y-4">
+                        {evictionData.oklahomaProcess.steps.map((step, index) => (
+                            <div key={index}>
+                                <h4 className="font-bold text-lg text-gray-900">{step.name}</h4>
+                                <p className="text-gray-700">{step.detail}</p>
+                            </div>
+                        ))}
+                    </div>
+                </section>
+
+                 <section className="mb-12">
+                    <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">Serving All of Tulsa County</h2>
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+                        {evictionData.serviceAreas.map(city => (
+                            <div key={city} className="bg-red-50 p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                                <p className="font-semibold text-red-900">{city}</p>
+                            </div>
+                        ))}
+                    </div>
+                 </section>
+
+                <section className="bg-white py-16">
+                    <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Eviction Service FAQ for Tulsa Landlords</h2>
+                    <div className="space-y-8">
+                        {evictionData.faqs.map((faq, index) => (
+                            <div key={index}>
+                                <h3 className="text-xl font-semibold text-gray-900">{faq.q}</h3>
+                                <p className="mt-2 text-gray-700">{faq.a}</p>
+                            </div>
+                        ))}
+                    </div>
+                </section>
+            </div>
+        </main>
       </div>
-
       <BusinessSchema />
       <ServiceSchema />
       <FAQSchema />
     </>
   );
 }
+
