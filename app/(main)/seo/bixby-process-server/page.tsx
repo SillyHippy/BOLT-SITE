@@ -5,187 +5,166 @@ import BusinessSchema from '@/components/BusinessSchema';
 import ServiceSchema from '@/components/ServiceSchema';
 import FAQSchema from '@/components/FAQSchema';
 
+// SEO Metadata optimized for the Bixby page
 export const metadata: Metadata = {
-  title: 'Process Server Bixby Oklahoma - Expert Legal Document Delivery',
-  description: 'Professional process server in Bixby, Oklahoma offering same-day legal document delivery. Serving court papers, subpoenas, and legal notices throughout Bixby and surrounding areas.',
-  keywords: 'process server bixby, bixby process server, legal document service bixby oklahoma, court papers bixby, subpoena service bixby',
+  title: 'Bixby Process Server | Same-Day Service in Tulsa & Wagoner County',
+  description: 'Professional process server in Bixby, Oklahoma. We offer same-day service for all legal documents, including court papers, subpoenas, and notices. Licensed, bonded, and available 24/7 for Bixby and surrounding areas.',
+  keywords: 'process server bixby, bixby process server, legal document delivery bixby, court papers bixby, subpoena service bixby oklahoma, wagoner county process server',
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/seo/bixby-process-server'
+  },
   openGraph: {
-    title: 'Process Server Bixby Oklahoma - Expert Legal Document Delivery',
-    description: 'Professional process server in Bixby, Oklahoma offering same-day legal document delivery service.',
+    title: 'Bixby, OK Process Server | Just Legal Solutions',
+    description: 'Reliable and fast process serving in Bixby. We ensure your legal documents are served correctly and on time.',
     url: 'https://justlegalsolutions.org/seo/bixby-process-server',
     siteName: 'Just Legal Solutions',
-    images: [
-      {
-        url: 'https://justlegalsolutions.org/images/jls-logo.png',
-        width: 1200,
-        height: 630,
-        alt: 'Process Server Bixby Oklahoma'
-      }
-    ],
+    images: [{
+      url: 'https://justlegalsolutions.org/images/jls-logo.png',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions Logo'
+    }],
     locale: 'en_US',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Process Server Bixby Oklahoma - Expert Legal Document Delivery',
-    description: 'Professional process server in Bixby, Oklahoma offering same-day legal document delivery service.',
+    title: 'Bixby, OK Process Server | Same-Day & Rush Service',
+    description: 'Need a process server in Bixby? We offer professional, same-day service for all legal documents.',
     images: ['https://justlegalsolutions.org/images/jls-logo.png'],
-  },
-  alternates: {
-    canonical: 'https://justlegalsolutions.org/seo/bixby-process-server',
-  },
-  robots: {
-    index: true,
-    follow: true,
-  },
+  }
+};
+
+// Detailed JSON-LD Schema for Bixby Service
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'LegalService',
+  name: 'Just Legal Solutions - Process Server Bixby',
+  description: 'Professional process server for Bixby and surrounding areas in Tulsa and Wagoner counties.',
+  url: 'https://justlegalsolutions.org/seo/bixby-process-server',
+  telephone: '(539) 367-6832',
+  email: 'info@justlegalsolutions.org',
+  areaServed: [
+    { '@type': 'City', name: 'Bixby' },
+    { '@type': 'AdministrativeArea', name: 'Tulsa County' },
+    { '@type': 'AdministrativeArea', name: 'Wagoner County' }
+  ],
+  openingHours: 'Mo-Su 00:00-23:59',
+  priceRange: '$60 - $150',
+};
+
+// --- High-Quality, Unique Local Content for Bixby, OK ---
+const bixbyData = {
+    history: `Known as "The Garden Spot of Oklahoma," Bixby was founded in 1899 and has a deep history rooted in agriculture along the fertile Arkansas River valley. Today, it is one of the fastest-growing suburbs of Tulsa, known for its excellent schools and family-oriented communities. This rapid growth means a mix of established rural properties and new, large-scale residential developments, requiring a process server with versatile local knowledge.`,
+    courthouse: {
+        name: 'Bixby Municipal Court (City Hall)',
+        address: '116 W Needles Ave, Bixby, OK 74008',
+        phone: '(918) 366-4430',
+        website: 'https://www.bixbyok.gov/170/Municipal-Court',
+        note: 'Bixby spans both Tulsa and Wagoner counties. We are licensed to serve and file documents in both county courthouses as required for your specific case.'
+    },
+    processServingLaw: `Service of process in Bixby must comply with Oklahoma State Statutes. As Bixby is located in both Tulsa and Wagoner counties, it is crucial to file the Affidavit of Service with the correct county court. We verify jurisdiction and ensure all legal paperwork is handled correctly for both counties.`,
+    serviceAreas: [
+        'Downtown Bixby',
+        'White Hawk',
+        'The Estates at Stonebrooke',
+        'Bixby North',
+        'South Bixby (near the river)',
+        'Leonard',
+        'County Line Road areas',
+        'Rural Bixby addresses'
+    ],
+    faqs: [
+        {
+            q: 'My case is in Wagoner County but the person is in Bixby. Can you handle that?',
+            a: 'Yes. We are fully licensed to serve in both Tulsa and Wagoner counties. We regularly handle cross-county serves for Bixby residents and ensure the Affidavit of Service is filed correctly with the appropriate court.'
+        },
+        {
+            q: 'How do you serve documents in newer, gated communities in Bixby like White Hawk?',
+            a: 'Our process servers are experienced with the protocols of gated communities. We use professional and legal methods to gain access and effectuate service in a discreet and timely manner.'
+        },
+        {
+            q: 'Do you serve in the rural parts of Bixby?',
+            a: 'Absolutely. We cover all of Bixby, including rural routes and properties that may be difficult to locate. Our servers are equipped to handle service in less-developed areas.'
+        },
+        {
+            q: 'What is the turnaround time for standard service in Bixby?',
+            a: 'Standard service in Bixby is typically attempted within 24-48 hours and completed within 3-5 business days. We also offer same-day and emergency rush services for urgent matters.'
+        }
+    ]
 };
 
 const BixbyProcessServer = () => {
   return (
     <>
-      <Navbar />
-      <div className="min-h-screen pt-12 bg-gradient-to-br from-green-50 via-white to-blue-50">
-        {/* Hero Section */}
-        <div className="bg-gradient-to-r from-green-700 to-blue-700 text-white">
-          <div className="container mx-auto px-4 py-16">
-            <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                Process Server Bixby, Oklahoma
-              </h1>
-              <p className="text-xl md:text-2xl mb-8 text-green-100">
-                Expert Legal Document Delivery • Same-Day Service • Licensed & Bonded
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="tel:5393676832" className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
-                  Call Now: (539) 367-6832
-                </a>
-              </div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      {/* The main layout handles the Navbar, Footer, and top padding */}
+      <div className="min-h-screen bg-gray-50">
+        <div className="bg-blue-900 text-white">
+            <div className="container mx-auto px-4 py-20 pt-20 text-center"> {/* SPACING FIX */}
+                <h1 className="text-4xl md:text-5xl font-extrabold">Bixby, Oklahoma Process Server</h1>
+                <p className="mt-4 text-xl text-blue-200 max-w-3xl mx-auto">Expert Legal Document Delivery in Tulsa & Wagoner Counties</p>
             </div>
-          </div>
         </div>
 
-        {/* Pricing Button */}
-        <div className="bg-gray-50 p-6 rounded-lg my-8 max-w-3xl mx-auto">
-          <h3 className="text-xl font-bold text-gray-900 mb-4">Service Rates</h3>
-          <a
-            href="/pricing"
-            className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors w-full text-center font-bold text-lg"
-          >
-            View Pricing
-          </a>
-          <p className="text-sm text-gray-600 mt-4">
-            Rates vary by distance and urgency. Court filing services include additional handling fees.
-          </p>
-        </div>
+        <main className="container mx-auto px-4 py-16">
+            <div className="max-w-4xl mx-auto">
+                <section className="mb-12">
+                    <h2 className="text-3xl font-bold text-gray-800 mb-6">Local Expertise in Bixby</h2>
+                    <p className="text-lg text-gray-700 mb-4">
+                        {bixbyData.history}
+                    </p>
+                </section>
 
-        {/* Service Hours */}
-        <div className="bg-blue-50 p-6 rounded-lg mb-8 max-w-3xl mx-auto">
-          <h3 className="text-xl font-bold text-gray-900 mb-4">Service Hours</h3>
-          <div className="space-y-2 text-gray-600">
-            <div className="flex justify-between">
-              <span>Open:</span>
-              <span>24/7 Emergency Service Available</span>
-            </div>
-          </div>
-        </div>
+                <section className="grid md:grid-cols-2 gap-8 mb-12">
+                    <div className="bg-white border rounded-lg p-6 shadow-md">
+                        <h3 className="text-2xl font-semibold mb-3">Local Courthouse Info</h3>
+                        <p className="font-bold">{bixbyData.courthouse.name}</p>
+                        <p>{bixbyData.courthouse.address}</p>
+                        <p>Phone: {bixbyData.courthouse.phone}</p>
+                        <a href={bixbyData.courthouse.website} className="text-blue-700 underline" target="_blank" rel="noopener noreferrer">Official Website</a>
+                        <p className="text-sm text-gray-600 mt-2"><em>{bixbyData.courthouse.note}</em></p>
+                    </div>
+                    <div className="bg-white border rounded-lg p-6 shadow-md">
+                        <h3 className="text-2xl font-semibold mb-3">Oklahoma Law Compliance</h3>
+                        <p>{bixbyData.processServingLaw}</p>
+                    </div>
+                </section>
 
-        {/* Contact Info */}
-        <div className="bg-blue-50 p-6 rounded-lg mb-8 max-w-3xl mx-auto">
-          <h3 className="text-xl font-bold text-gray-900 mb-4">Contact Information</h3>
-          <div className="space-y-3">
-            <div>
-              <strong className="text-gray-900">Phone:</strong>
-              <p className="text-gray-600">(539) 367-6832</p>
-            </div>
-            <div>
-              <strong className="text-gray-900">Email:</strong>
-              <p className="text-gray-600">info@justlegalsolutions.org</p>
-            </div>
-            <div>
-              <strong className="text-gray-900">Coverage:</strong>
-              <p className="text-gray-600">Bixby, Tulsa County & Statewide Oklahoma</p>
-            </div>
-          </div>
-        </div>
+                 <section className="mb-12">
+                    <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">Serving All of Bixby and Beyond</h2>
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+                        {bixbyData.serviceAreas.map(city => (
+                            <div key={city} className="bg-blue-50 p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                                <p className="font-semibold text-blue-900">{city}</p>
+                            </div>
+                        ))}
+                    </div>
+                 </section>
 
-        {/* Legal Notices Section */}
-        <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-purple-500 mt-8 max-w-3xl mx-auto">
-          <h3 className="text-xl font-semibold mb-4 text-purple-800">Legal Notices</h3>
-          <p className="text-gray-700 mb-4">
-            Timely delivery of eviction notices, foreclosure notices, and legal documents.
-          </p>
-          <ul className="list-disc list-inside text-sm text-gray-600 space-y-1">
-            <li>Eviction Notices</li>
-            <li>Notice to Quit</li>
-            <li>Foreclosure Notices</li>
-            <li>Demand Letters</li>
-          </ul>
-        </div>
-
-        {/* Local Focus */}
-        <div className="py-16 bg-gray-50">
-          <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center mb-12 text-gray-800">
-              Serving Bixby and Surrounding Areas
-            </h2>
-            <div className="max-w-4xl mx-auto text-center">
-              <p className="text-lg text-gray-700 mb-8">
-                Our experienced process server provides professional legal document delivery throughout
-                Bixby, Oklahoma and the greater Tulsa County area. We understand the local court systems
-                and ensure timely, accurate service of all legal documents.
-              </p>
-              <div className="grid md:grid-cols-2 gap-8">
-                <div className="bg-white p-6 rounded-lg shadow-md">
-                  <h3 className="text-xl font-semibold mb-4 text-green-800">Same-Day Service</h3>
-                  <p className="text-gray-700">
-                    Emergency same-day process service available throughout Bixby for urgent legal matters.
-                  </p>
-                </div>
-                <div className="bg-white p-6 rounded-lg shadow-md">
-                  <h3 className="text-xl font-semibold mb-4 text-blue-800">Licensed & Bonded</h3>
-                  <p className="text-gray-700">
-                    Fully licensed and bonded process server providing secure, professional service.
-                  </p>
-                </div>
-              </div>
+                <section className="bg-white py-16">
+                    <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Frequently Asked Questions</h2>
+                    <div className="space-y-8">
+                        {bixbyData.faqs.map((faq, index) => (
+                            <div key={index}>
+                                <h3 className="text-xl font-semibold text-gray-900">{faq.q}</h3>
+                                <p className="mt-2 text-gray-700">{faq.a}</p>
+                            </div>
+                        ))}
+                    </div>
+                </section>
             </div>
-          </div>
-        </div>
-
-        {/* Contact Section */}
-        <div className="py-16 bg-gradient-to-r from-green-700 to-blue-700 text-white">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center">
-              <h2 className="text-3xl font-bold mb-6">
-                Contact Our Bixby Process Server
-              </h2>
-              <p className="text-xl mb-8 text-green-100">
-                Professional legal document delivery service in Bixby, Oklahoma
-              </p>
-              <div className="bg-green-600 p-6 rounded-lg max-w-md mx-auto">
-                <p className="text-lg mb-4">
-                  <strong>Phone:</strong> <a href="tel:5393676832" className="text-green-200 hover:text-white">(539) 367-6832</a>
-                </p>
-                <p className="text-lg mb-4">
-                  <strong>Email:</strong> <a href="mailto:info@justlegalsolutions.org" className="text-green-200 hover:text-white">info@justlegalsolutions.org</a>
-                </p>
-                <p className="text-lg">
-                  <strong>Service Area:</strong> Bixby and all of Tulsa County
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Schema Components */}
-        <BusinessSchema />
-        <ServiceSchema />
-        <FAQSchema />
+        </main>
       </div>
-      {/* FIX: The duplicate footer was here. It has been removed. */}
+      <BusinessSchema />
+      <ServiceSchema />
+      <FAQSchema />
     </>
   );
 }
 
-// FIX: Added the required default export to fix the build error.
 export default BixbyProcessServer;
+
