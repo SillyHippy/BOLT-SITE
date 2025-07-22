@@ -1,5 +1,6 @@
 
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 import BusinessSchema from '@/components/BusinessSchema';
@@ -9,7 +10,7 @@ import FAQSchema from '@/components/FAQSchema';
 export const metadata: Metadata = {
   title: 'Comprehensive Process Server Tulsa County | Same Day Legal Document Delivery',
   description: 'Your comprehensive guide to process serving in Tulsa County. We offer same-day service for all legal documents, including court papers, subpoenas, and notices across Tulsa, Broken Arrow, and more. Licensed, bonded, and available 24/7.',
-  keywords: 'process server tulsa, tulsa county process server, legal document delivery tulsa, court papers served tulsa, subpoena service tulsa county, process serving broken arrow, legal notice delivery oklahoma',
+  keywords: 'process server tulsa, tulsa county process server, legal document delivery tulsa, court papers served tulsa, subpoena service tulsa county, process serving broken arrow, legal notice delivery oklahoma, same day process server tulsa, tulsa courthouse service, serve papers tulsa, golden driller, oral roberts university',
 };
 
 const jsonLd = {
@@ -54,17 +55,19 @@ export default function TulsaProcessServerComprehensive() {
       />
       <Navbar />
       <div className="min-h-screen bg-gray-50">
-        {/* Hero Section with Local Image */}
+        {/* Hero Section */}
         <div className="bg-blue-900 text-white">
           <div className="container mx-auto px-4 py-20 pt-32 text-center">
             <h1 className="text-4xl md:text-5xl font-extrabold">Comprehensive Process Serving in Tulsa County</h1>
             <p className="mt-4 text-xl text-blue-200 max-w-3xl mx-auto">The definitive resource for professional, reliable, and swift legal document service in the greater Tulsa area.</p>
             <div className="flex justify-center mt-8">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Downtown_Tulsa_Skyline.jpg/640px-Downtown_Tulsa_Skyline.jpg"
-                alt="Downtown Tulsa Skyline"
-                className="rounded-lg shadow-lg max-h-64 object-cover"
-                loading="lazy"
+              <Image
+                src="/images/Tulsa_skyline_aerial,_April_2023.jpg"
+                alt="Aerial view of the Tulsa skyline"
+                width={800}
+                height={320}
+                className="rounded-lg shadow-lg max-h-80 object-cover"
+                priority={false}
               />
             </div>
           </div>
@@ -86,17 +89,32 @@ export default function TulsaProcessServerComprehensive() {
         <div className="container mx-auto px-4 py-8">
           <div className="bg-white rounded-lg shadow-md p-6 mb-10">
             <h2 className="text-2xl font-bold text-blue-800 mb-2">Neighborhoods & Landmarks We Serve</h2>
-            <p className="text-gray-700 mb-2">We provide process serving throughout Tulsa, including:</p>
-            <ul className="list-disc list-inside text-gray-700 mb-2">
-              <li>Downtown Tulsa (Blue Dome, Deco District)</li>
-              <li>Brookside & Riverside</li>
-              <li>Cherry Street & Midtown</li>
-              <li>South Tulsa (Woodland Hills, Union)</li>
-              <li>East Tulsa (Admiral Place, McClure Park)</li>
-              <li>North Tulsa (Greenwood, Gilcrease)</li>
-              <li>Landmarks: Gathering Place, BOK Center, Tulsa County Courthouse</li>
-            </ul>
-            <p className="text-gray-700">We also serve Broken Arrow, Bixby, Jenks, Owasso, Sand Springs, Sapulpa, Glenpool, and surrounding communities.</p>
+            <p className="text-gray-700 mb-4">Our process servers have intimate knowledge of every Tulsa neighborhood, from the bustling streets of Downtown&apos;s Blue Dome and Deco Districts to the serene paths along Riverside and the vibrant shops of Brookside. Whether your legal documents need to reach a residence in South Tulsa near Woodland Hills, a business on Cherry Street, or an address in historic Greenwood, we ensure prompt and successful service. We are familiar with all major landmarks, including the Gathering Place, BOK Center, and of course, the Tulsa County Courthouse.</p>
+            <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="text-center">
+                <Image
+                  src="/images/Golden_Driller,Tulsa_USA-_panoramio.jpg"
+                  alt="The Golden Driller statue in Tulsa"
+                  width={500}
+                  height={240}
+                  className="rounded-lg shadow-md mx-auto max-h-60 w-full object-cover"
+                  priority={false}
+                />
+                <p className="text-sm text-gray-600 mt-2">The iconic Golden Driller statue.</p>
+              </div>
+              <div className="text-center">
+                <Image
+                  src="/images/Prayer_Tower_on_the_campus_of_Oral_Roberts_University.jpg"
+                  alt="Prayer Tower on the Oral Roberts University campus"
+                  width={500}
+                  height={240}
+                  className="rounded-lg shadow-md mx-auto max-h-60 w-full object-cover"
+                  priority={false}
+                />
+                <p className="text-sm text-gray-600 mt-2">The Prayer Tower at Oral Roberts University.</p>
+              </div>
+            </div>
+            <p className="text-gray-700 mt-6">We also serve Broken Arrow, Bixby, Jenks, Owasso, Sand Springs, Sapulpa, Glenpool, and surrounding communities.</p>
           </div>
         </div>
 
@@ -112,13 +130,15 @@ export default function TulsaProcessServerComprehensive() {
         <div className="container mx-auto px-4 py-8">
           <div className="bg-white rounded-lg shadow-md p-6 mb-10 text-center">
             <h2 className="text-2xl font-bold text-blue-800 mb-2">Tulsa Service Area Map</h2>
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Tulsa_County_Oklahoma_Incorporated_and_Unincorporated_areas_Tulsa_Highlighted_4075000.svg/600px-Tulsa_County_Oklahoma_Incorporated_and_Unincorporated_areas_Tulsa_Highlighted_4075000.svg.png"
-              alt="Tulsa County Service Area Map"
-              className="rounded-lg shadow max-h-72 mx-auto"
-              loading="lazy"
+            <p className="text-gray-700 mb-4 max-w-3xl mx-auto">Our comprehensive knowledge of Tulsa is built on years of experience navigating its streets. This historical map illustrates our deep connection to the city&apos;s layout and history.</p>
+            <Image
+              src="/images/Tulsa_OK_Map_1920.jpg"
+              alt="Historical Map of Tulsa from 1920"
+              width={600}
+              height={400}
+              className="rounded-lg shadow max-h-96 mx-auto"
+              priority={false}
             />
-            <p className="text-gray-600 mt-2 text-sm">Map: Tulsa County and City of Tulsa (Wikimedia Commons)</p>
           </div>
         </div>
 
@@ -139,6 +159,7 @@ export default function TulsaProcessServerComprehensive() {
         {/* Serving Every Corner of Tulsa County (existing section) */}
         <div className="container mx-auto px-4 py-8">
           <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Serving Every Corner of Tulsa County</h2>
+          <p className="text-center text-gray-700 max-w-3xl mx-auto mb-8">From the largest city to the smallest town, our reach extends across all of Tulsa County. We guarantee the same level of professional service whether you need papers served in a dense urban area or a quiet suburban community.</p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
             {['Tulsa', 'Broken Arrow', 'Bixby', 'Jenks', 'Owasso', 'Sand Springs', 'Sapulpa', 'Glenpool'].map(city => (
               <div key={city} className="bg-blue-50 p-4 rounded-lg">
