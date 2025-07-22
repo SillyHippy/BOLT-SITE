@@ -175,7 +175,7 @@ const TulsaProcessServerPage = () => {
                 {testimonials.map((t, idx) => (
                   <div key={idx} className="bg-gray-50 p-6 rounded-lg shadow flex flex-col items-center">
                     <Star className="h-8 w-8 text-yellow-400 mb-2" />
-                    <p className="text-gray-700 italic mb-4">"{t.text}"</p>
+                    <p className="text-gray-700 italic mb-4">&quot;{t.text}&quot;</p>
                     <span className="font-semibold text-blue-900">- {t.name}</span>
                   </div>
                 ))}
