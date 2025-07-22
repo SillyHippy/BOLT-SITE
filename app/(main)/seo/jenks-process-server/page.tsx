@@ -1,9 +1,6 @@
 import type { Metadata } from 'next';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
-import BusinessSchema from '@/components/BusinessSchema';
-import ServiceSchema from '@/components/ServiceSchema';
-import FAQSchema from '@/components/FAQSchema';
 
 // SEO Metadata optimized for the Jenks page
 export const metadata: Metadata = {
@@ -34,6 +31,10 @@ export const metadata: Metadata = {
     images: ['https://justlegalsolutions.org/images/jls-logo.png'],
   }
 };
+
+import BusinessSchema from '@/components/BusinessSchema';
+import ServiceSchema from '@/components/ServiceSchema';
+import FAQSchema from '@/components/FAQSchema';
 
 // Detailed JSON-LD Schema for Jenks Service
 const jsonLd = {

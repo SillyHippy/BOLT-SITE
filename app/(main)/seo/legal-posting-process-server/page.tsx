@@ -1,9 +1,6 @@
 import type { Metadata } from 'next';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
-import BusinessSchema from '@/components/BusinessSchema';
-import ServiceSchema from '@/components/ServiceSchema';
-import FAQSchema from '@/components/FAQSchema';
 
 export const metadata: Metadata = {
   title: 'Legal Notice Posting Service | Tulsa County, Oklahoma',
@@ -13,6 +10,10 @@ export const metadata: Metadata = {
     canonical: 'https://justlegalsolutions.org/seo/legal-posting-process-server'
   }
 };
+
+import BusinessSchema from '@/components/BusinessSchema';
+import ServiceSchema from '@/components/ServiceSchema';
+import FAQSchema from '@/components/FAQSchema';
 
 const jsonLd = {
   '@context': 'https://schema.org',

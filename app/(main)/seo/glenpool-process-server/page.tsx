@@ -34,6 +34,10 @@ export const metadata: Metadata = {
   }
 };
 
+import BusinessSchema from '@/components/BusinessSchema';
+import ServiceSchema from '@/components/ServiceSchema';
+import FAQSchema from '@/components/FAQSchema';
+
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'LegalService',
