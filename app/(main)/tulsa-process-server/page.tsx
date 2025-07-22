@@ -155,7 +155,7 @@ const TulsaProcessServerPage = () => {
           <div className="py-16 bg-gray-50 border-t">
             <div className="container mx-auto px-4 max-w-3xl">
               <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8 text-center">Frequently Asked Questions</h2>
-              <FAQSchema faqs={faqs} />
+              <FAQSchema />
               <ul className="space-y-6 mt-8">
                 {faqs.map((faq, idx) => (
                   <li key={idx} className="bg-white p-6 rounded-lg shadow border-l-4 border-blue-500">
