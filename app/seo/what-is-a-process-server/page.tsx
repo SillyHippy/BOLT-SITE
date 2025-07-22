@@ -56,7 +56,7 @@ export default function WhatIsAProcessServerPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
       <Navbar />
-      <main className="min-h-screen bg-white text-gray-900 font-sans">
+      <main className="min-h-screen bg-white text-gray-900 font-sans pt-16"> {/* Added pt-16 for spacing */}
         <div className="max-w-4xl mx-auto px-4 py-16">
           <article className="prose max-w-none">
             <header>
@@ -149,6 +149,7 @@ export default function WhatIsAProcessServerPage() {
           </article>
         </div>
       </main>
+      <Footer />
     </>
   );
 }
