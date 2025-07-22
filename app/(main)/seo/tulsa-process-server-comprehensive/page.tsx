@@ -117,10 +117,13 @@ export default function TulsaProcessServerComprehensive() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      {/* Navbar and Footer are handled by the main layout */}
-      <div className="min-h-screen bg-gray-50 pt-16">
+      {/* The main layout now handles the Navbar, Footer, and top padding */}
+      <div className="min-h-screen bg-gray-50">
         <div className="bg-blue-900 text-white">
-            <div className="container mx-auto px-4 py-20 pt-12 text-center">
+            {/* This is the fix on the page. 
+              Removed the extra top padding (pt-32) so it respects the layout's padding.
+            */}
+            <div className="container mx-auto px-4 py-20 text-center">
                 <h1 className="text-4xl md:text-5xl font-extrabold">Comprehensive Process Serving in Tulsa County</h1>
                 <p className="mt-4 text-xl text-blue-200 max-w-3xl mx-auto">The definitive resource for professional, reliable, and swift legal document service in the greater Tulsa area.</p>
             </div>
