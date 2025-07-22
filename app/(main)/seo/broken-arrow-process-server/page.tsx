@@ -1,93 +1,97 @@
 import type { Metadata } from 'next';
+import { Navbar } from '@/components/ui/navbar';
+import { Footer } from '@/components/ui/footer';
 import BusinessSchema from '@/components/BusinessSchema';
 import ServiceSchema from '@/components/ServiceSchema';
 import FAQSchema from '@/components/FAQSchema';
 
+// SEO Metadata optimized for the Broken Arrow page
 export const metadata: Metadata = {
-  title: 'Process Server Broken Arrow OK - Same Day Legal Document Service',
-  description: 'Professional process server in Broken Arrow, Oklahoma. Same-day service for court papers, subpoenas, and legal notices. Licensed, bonded, and serving all of Tulsa County.',
+  title: 'Process Server Broken Arrow, OK | Same-Day Service',
+  description: 'Top-rated process server in Broken Arrow, Oklahoma. We offer same-day service for all legal documents, including subpoenas and court papers. Licensed, bonded, and serving Tulsa & Wagoner Counties.',
   keywords: 'process server broken arrow, broken arrow process server, legal document service broken arrow, court papers broken arrow, subpoena service broken arrow oklahoma',
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/seo/broken-arrow-process-server'
+  },
   openGraph: {
-    title: 'Process Server Broken Arrow OK - Same Day Legal Document Service',
-    description: 'Professional process server in Broken Arrow, Oklahoma. Same-day service for court papers, subpoenas, and legal notices.',
+    title: 'Process Server Broken Arrow, OK | Just Legal Solutions',
+    description: 'Reliable and fast process serving in Broken Arrow. We ensure your legal documents are served correctly and on time.',
     url: 'https://justlegalsolutions.org/seo/broken-arrow-process-server',
     siteName: 'Just Legal Solutions',
-    images: [
-      {
-        url: 'https://justlegalsolutions.org/images/jls-logo.png',
-        width: 1200,
-        height: 630,
-        alt: 'Process Server Broken Arrow Oklahoma'
-      }
-    ],
+    images: [{
+      url: 'https://justlegalsolutions.org/images/jls-logo.png',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions Logo'
+    }],
     locale: 'en_US',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Process Server Broken Arrow OK - Same Day Service',
-    description: 'Professional process server in Broken Arrow, Oklahoma. Same-day service for court papers and legal documents.',
+    title: 'Broken Arrow, OK Process Server | Same-Day & Rush Service',
+    description: 'Need a process server in Broken Arrow? We offer professional, same-day service for all legal documents.',
     images: ['https://justlegalsolutions.org/images/jls-logo.png'],
-  },
-  alternates: {
-    canonical: 'https://justlegalsolutions.org/seo/broken-arrow-process-server',
-  },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
-    },
-  },
+  }
 };
 
+// Detailed JSON-LD Schema for Broken Arrow Service
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'LegalService',
   name: 'Just Legal Solutions - Process Server Broken Arrow',
-  description: 'Professional process server serving Broken Arrow, Oklahoma with same-day legal document delivery.',
+  description: 'Professional process server for Broken Arrow and surrounding areas in Tulsa and Wagoner counties.',
   url: 'https://justlegalsolutions.org/seo/broken-arrow-process-server',
   telephone: '(539) 367-6832',
   email: 'info@justlegalsolutions.org',
-  address: {
-    '@type': 'PostalAddress',
-    streetAddress: '123 Main Street',
-    addressLocality: 'Broken Arrow',
-    addressRegion: 'OK',
-    postalCode: '74012',
-    addressCountry: 'US'
-  },
-  geo: {
-    '@type': 'GeoCoordinates',
-    latitude: 36.0526,
-    longitude: -95.7969
-  },
-  areaServed: {
-    '@type': 'City',
-    name: 'Broken Arrow',
-    containedInPlace: {
-      '@type': 'State',
-      name: 'Oklahoma'
-    }
-  },
-  serviceType: [
-    'Process Serving',
-    'Legal Document Delivery',
-    'Court Paper Service',
-    'Subpoena Service'
+  areaServed: [
+    { '@type': 'City', name: 'Broken Arrow' },
+    { '@type': 'AdministrativeArea', name: 'Tulsa County' },
+    { '@type': 'AdministrativeArea', name: 'Wagoner County' }
   ],
   openingHours: 'Mo-Su 00:00-23:59',
-  priceRange: '$',
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: '4.9',
-    reviewCount: '89',
-    bestRating: '5'
-  }
+  priceRange: '$60 - $150',
+};
+
+// --- High-Quality, Unique Local Content for Broken Arrow, OK ---
+const brokenArrowData = {
+    history: `Broken Arrow's name originates from a Muscogee (Creek) community who settled in the area after the Trail of Tears. Founded as a city in 1902, it has grown from a small agricultural community into Oklahoma's fourth-largest city. Its vibrant Rose District and sprawling residential neighborhoods create a diverse service area that requires local expertise.`,
+    courthouse: {
+        name: 'Broken Arrow Municipal Court (Justice Center)',
+        address: '2304 S 1st Pl, Broken Arrow, OK 74012',
+        phone: '(918) 451-8558',
+        website: 'https://www.brokenarrowok.gov/government/municipal-court',
+        note: 'Broken Arrow is primarily in Tulsa County, with a portion in Wagoner County. All major civil cases are handled at the respective county courthouses.'
+    },
+    processServingLaw: `Service of process in Broken Arrow must comply with Oklahoma State Statutes. This means a licensed server must make diligent efforts to effect personal service. We are experts in these statutes and ensure every service is legally sound for both Tulsa and Wagoner County District Courts.`,
+    serviceAreas: [
+        'Rose District',
+        'Downtown Broken Arrow',
+        'South Broken Arrow',
+        'Battle Creek',
+        'Forest Ridge',
+        'Indian Springs',
+        'Aspen Creek',
+        'Iron Horse Ranch'
+    ],
+    faqs: [
+        {
+            q: 'How do you handle service in large, gated communities in Broken Arrow?',
+            a: 'Our process servers are experienced with the protocols of gated communities like Forest Ridge. We use professional and legal methods to gain access and effectuate service in a discreet and timely manner.'
+        },
+        {
+            q: 'The person I need to serve lives in the Wagoner County part of Broken Arrow. Is that a problem?',
+            a: 'Not at all. We are fully licensed to serve in both Tulsa and Wagoner counties. We handle cross-county serves for Broken Arrow residents regularly and ensure the Affidavit of Service is filed with the correct court.'
+        },
+        {
+            q: 'What is your turnaround time for standard service in Broken Arrow?',
+            a: 'Standard service in Broken Arrow is typically attempted within 24-48 hours and completed within 3-5 business days. We also offer same-day and emergency rush services for urgent matters.'
+        },
+        {
+            q: 'Can you serve papers to someone at their job in Broken Arrow?',
+            a: 'Yes, we can serve documents at a place of employment, provided it is permitted by the location and can be done professionally. We have experience serving individuals in the commercial and industrial areas of Broken Arrow.'
+        }
+    ]
 };
 
 export default function BrokenArrowProcessServer() {
@@ -97,248 +101,68 @@ export default function BrokenArrowProcessServer() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      
-      <div className="min-h-screen pt-12 bg-gradient-to-br from-blue-50 via-white to-gray-50">
-        {/* Hero Section */}
-        <div className="bg-gradient-to-r from-green-800 to-blue-800 text-white">
-          <div className="container mx-auto px-4 py-16">
-            <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                Process Server Broken Arrow, Oklahoma
-              </h1>
-              <p className="text-xl md:text-2xl mb-8 text-blue-100">
-                Same-Day Legal Document Service • Licensed & Bonded • Serving All of Tulsa County
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="tel:5393676832" className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
-                  Call Now: (539) 367-6832
-                </a>
-                <a href="#contact" className="bg-white text-green-800 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
-                  Get Quote
-                </a>
-              </div>
+      {/* Navbar and Footer are handled by the main layout */}
+      <div className="min-h-screen bg-gray-50 pt-16">
+        <div className="bg-blue-900 text-white">
+            <div className="container mx-auto px-4 py-20 pt-12 text-center">
+                <h1 className="text-4xl md:text-5xl font-extrabold">Broken Arrow, Oklahoma Process Server</h1>
+                <p className="mt-4 text-xl text-blue-200 max-w-3xl mx-auto">Expert Legal Document Delivery in Tulsa & Wagoner Counties</p>
             </div>
-          </div>
         </div>
 
-        {/* Local Area Focus */}
-        <div className="py-16 bg-white">
-          <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center mb-12 text-gray-800">
-              Professional Process Service in Broken Arrow
-            </h2>
+        <main className="container mx-auto px-4 py-16">
             <div className="max-w-4xl mx-auto">
-              <div className="grid md:grid-cols-2 gap-8">
-                <div>
-                  <h3 className="text-2xl font-semibold mb-4 text-green-800">Local Expertise</h3>
-                  <p className="text-gray-700 mb-4">
-                    As a trusted process server in Broken Arrow, we know the local courts, neighborhoods, 
-                    and business districts. Our familiarity with the area ensures efficient and timely 
-                    service of your legal documents.
-                  </p>
-                  <p className="text-gray-700">
-                    We serve all areas of Broken Arrow including Rose District, downtown, and surrounding 
-                    residential and commercial areas.
-                  </p>
-                </div>
-                <div>
-                  <h3 className="text-2xl font-semibold mb-4 text-blue-800">Same-Day Service</h3>
-                  <p className="text-gray-700 mb-4">
-                    Need documents served today? Our same-day service guarantee ensures your legal 
-                    documents are delivered promptly, helping you meet critical deadlines.
-                  </p>
-                  <p className="text-gray-700">
-                    Available 24/7 for emergency service throughout Broken Arrow and all of Tulsa County.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Services */}
-        <div className="py-16 bg-gray-50">
-          <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center mb-12 text-gray-800">
-              Complete Process Server Services
-            </h2>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-              
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-semibold mb-4 text-green-800">Court Papers</h3>
-                <p className="text-gray-700 mb-4">
-                  Professional service of court papers, summons, and civil litigation documents in Broken Arrow.
-                </p>
-                <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• Civil Summons</li>
-                  <li>• Complaints & Petitions</li>
-                  <li>• Divorce Papers</li>
-                  <li>• Restraining Orders</li>
-                </ul>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-semibold mb-4 text-blue-800">Subpoenas</h3>
-                <p className="text-gray-700 mb-4">
-                  Reliable subpoena service for depositions, court appearances, and document production.
-                </p>
-                <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• Deposition Subpoenas</li>
-                  <li>• Trial Subpoenas</li>
-                  <li>• Records Subpoenas</li>
-                  <li>• Witness Subpoenas</li>
-                </ul>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-semibold mb-4 text-purple-800">Legal Notices</h3>
-                <p className="text-gray-700 mb-4">
-                  Timely delivery of eviction notices, foreclosure notices, and other legal documents.
-                </p>
-                <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• Eviction Notices</li>
-                  <li>• Notice to Quit</li>
-                  <li>• Foreclosure Notices</li>
-                  <li>• Demand Letters</li>
-                </ul>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-        {/* Why Choose Us */}
-        <div className="py-16 bg-white">
-          <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center mb-12 text-gray-800">
-              Why Choose Our Broken Arrow Process Server?
-            </h2>
-            <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-              <div className="text-center p-6">
-                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                </div>
-                <h3 className="text-xl font-semibold mb-3 text-green-800">Licensed & Bonded</h3>
-                <p className="text-gray-700">
-                  Fully licensed and bonded process server providing secure, professional service in Broken Arrow.
-                </p>
-              </div>
-              <div className="text-center p-6">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                </div>
-                <h3 className="text-xl font-semibold mb-3 text-blue-800">Same-Day Service</h3>
-                <p className="text-gray-700">
-                  Emergency same-day process service available throughout Broken Arrow and surrounding areas.
-                </p>
-              </div>
-              <div className="text-center p-6">
-                <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                  </svg>
-                </div>
-                <h3 className="text-xl font-semibold mb-3 text-purple-800">Local Knowledge</h3>
-                <p className="text-gray-700">
-                  Extensive knowledge of Broken Arrow neighborhoods, businesses, and local court procedures.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Service Areas */}
-        <div className="py-16 bg-gray-50">
-          <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center mb-12 text-gray-800">
-              Broken Arrow Areas We Serve
-            </h2>
-            <div className="max-w-4xl mx-auto">
-              <div className="grid md:grid-cols-2 gap-8">
-                <div>
-                  <h3 className="text-xl font-semibold mb-4 text-green-800">Residential Areas</h3>
-                  <ul className="space-y-2 text-gray-700">
-                    <li>• Rose District</li>
-                    <li>• Downtown Broken Arrow</li>
-                    <li>• Elm Creek</li>
-                    <li>• Stonebridge</li>
-                    <li>• Countryside</li>
-                    <li>• Broken Arrow North</li>
-                  </ul>
-                </div>
-                <div>
-                  <h3 className="text-xl font-semibold mb-4 text-blue-800">Commercial Districts</h3>
-                  <ul className="space-y-2 text-gray-700">
-                    <li>• Main Street Business District</li>
-                    <li>• Broken Arrow Expressway</li>
-                    <li>• 71st Street Commercial</li>
-                    <li>• Aspen Creek Shopping</li>
-                    <li>• Broken Arrow Plaza</li>
-                    <li>• Industrial Areas</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Contact Section */}
-        <div className="py-16 bg-gradient-to-r from-green-800 to-blue-800 text-white" id="contact">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center">
-              <h2 className="text-3xl font-bold mb-6">
-                Professional Process Server Ready to Help
-              </h2>
-              <p className="text-xl mb-8 text-green-100">
-                Same-day service available throughout Broken Arrow and Tulsa County
-              </p>
-              <div className="grid md:grid-cols-2 gap-8">
-                <div className="bg-green-700 p-6 rounded-lg">
-                  <h3 className="text-xl font-semibold mb-4">Contact Information</h3>
-                  <div className="space-y-3 text-left">
-                    <p className="flex items-center">
-                      <span className="font-semibold mr-2">Phone:</span>
-                      <a href="tel:5393676832" className="text-green-200 hover:text-white">(539) 367-6832</a>
+                <section className="mb-12">
+                    <h2 className="text-3xl font-bold text-gray-800 mb-6">Local Expertise in Broken Arrow</h2>
+                    <p className="text-lg text-gray-700 mb-4">
+                        {brokenArrowData.history}
                     </p>
-                    <p className="flex items-center">
-                      <span className="font-semibold mr-2">Email:</span>
-                      <a href="mailto:info@justlegalsolutions.org" className="text-green-200 hover:text-white">info@justlegalsolutions.org</a>
-                    </p>
-                    <p className="flex items-start">
-                      <span className="font-semibold mr-2">Serving:</span>
-                      <span className="text-green-200">All of Broken Arrow<br />and Tulsa County</span>
-                    </p>
-                  </div>
-                </div>
-                <div className="bg-blue-700 p-6 rounded-lg">
-                  <h3 className="text-xl font-semibold mb-4">Service Hours</h3>
-                  <div className="space-y-2 text-left">
-                    <p><span className="font-semibold">Monday - Friday:</span> 8:00 AM - 6:00 PM</p>
-                    <p><span className="font-semibold">Saturday:</span> 9:00 AM - 4:00 PM</p>
-                    <p><span className="font-semibold">Sunday:</span> Emergency service</p>
-                    <p className="text-orange-200 font-semibold mt-4">24/7 Emergency Service</p>
-                  </div>
-                </div>
-              </div>
-              <div className="mt-8">
-                <a href="tel:5393676832" className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors inline-block">
-                  Call Now: (539) 367-6832
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
+                </section>
 
+                <section className="grid md:grid-cols-2 gap-8 mb-12">
+                    <div className="bg-white border rounded-lg p-6 shadow-md">
+                        <h3 className="text-2xl font-semibold mb-3">Local Courthouse Info</h3>
+                        <p className="font-bold">{brokenArrowData.courthouse.name}</p>
+                        <p>{brokenArrowData.courthouse.address}</p>
+                        <p>Phone: {brokenArrowData.courthouse.phone}</p>
+                        <a href={brokenArrowData.courthouse.website} className="text-blue-700 underline" target="_blank" rel="noopener noreferrer">Official Website</a>
+                        <p className="text-sm text-gray-600 mt-2"><em>{brokenArrowData.courthouse.note}</em></p>
+                    </div>
+                    <div className="bg-white border rounded-lg p-6 shadow-md">
+                        <h3 className="text-2xl font-semibold mb-3">Oklahoma Law Compliance</h3>
+                        <p>{brokenArrowData.processServingLaw}</p>
+                    </div>
+                </section>
+
+                 <section className="mb-12">
+                    <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">Serving All of Broken Arrow and Beyond</h2>
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+                        {brokenArrowData.serviceAreas.map(city => (
+                            <div key={city} className="bg-blue-50 p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                                <p className="font-semibold text-blue-900">{city}</p>
+                            </div>
+                        ))}
+                    </div>
+                 </section>
+
+                <section className="bg-white py-16">
+                    <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Frequently Asked Questions</h2>
+                    <div className="space-y-8">
+                        {brokenArrowData.faqs.map((faq, index) => (
+                            <div key={index}>
+                                <h3 className="text-xl font-semibold text-gray-900">{faq.q}</h3>
+                                <p className="mt-2 text-gray-700">{faq.a}</p>
+                            </div>
+                        ))}
+                    </div>
+                </section>
+            </div>
+        </main>
       </div>
-
       <BusinessSchema />
       <ServiceSchema />
       <FAQSchema />
     </>
   );
 }
+
