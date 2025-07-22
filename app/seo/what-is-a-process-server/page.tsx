@@ -50,7 +50,7 @@ const articleSchema = {
 export default function WhatIsAProcessServerPage() {
   return (
     <>
-      <Script
+      <script
         id="article-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
