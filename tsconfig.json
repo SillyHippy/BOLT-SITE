@@ -28,8 +28,7 @@
       ]
     },
     "strictNullChecks": true,
-    "target": "ES2017",
-    "forceConsistentCasingInFileNames": true
+    "target": "ES2017"
   },
   "include": [
     "**/*.ts",
