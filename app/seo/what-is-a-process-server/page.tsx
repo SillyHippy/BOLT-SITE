@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     type: 'article',
   },
   twitter: {
-    card: 'summary', // No image, so 'summary' is the correct card type
+    card: 'summary',
     title: 'What Is a Process Server? A Complete Guide | Just Legal Solutions',
     description: 'Understand the critical role of a process server in the Oklahoma legal system.',
   }
@@ -40,7 +40,7 @@ const articleSchema = {
     "name": "Just Legal Solutions",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://justlegalsolutions.org/images/jls-logo.png" // Standard logo for publisher info
+      "url": "https://justlegalsolutions.org/images/jls-logo.png"
     }
   },
   "datePublished": new Date().toISOString().split('T')[0],
@@ -64,14 +64,14 @@ export default function WhatIsAProcessServerPage() {
                 What Is a Process Server? A Guide to Service of Process in Oklahoma
               </h1>
               <p className="text-lg text-gray-700 mb-6">
-                In the legal world, the term "process server" is fundamental. But what exactly do they do, and why is their role so critical? This guide breaks down the responsibilities of a process server and explains their importance in the Oklahoma justice system.
+                In the legal world, the term &quot;process server&quot; is fundamental. But what exactly do they do, and why is their role so critical? This guide breaks down the responsibilities of a process server and explains their importance in the Oklahoma justice system.
               </p>
             </header>
 
             <section>
               <h2 className="text-2xl font-bold mt-8 mb-4 text-blue-800">The Core Role: Upholding Due Process</h2>
               <p>
-                A process server is a trained and licensed professional responsible for delivering legal documents to individuals involved in a court case. This act is known as **"service of process."** Its primary purpose is to satisfy a cornerstone of the American legal system: **due process**. Due process ensures that all parties in a legal action are properly notified, giving them a fair opportunity to respond and present their case.
+                A process server is a trained and licensed professional responsible for delivering legal documents to individuals involved in a court case. This act is known as **&quot;service of process.&quot;** Its primary purpose is to satisfy a cornerstone of the American legal system: **due process**. Due process ensures that all parties in a legal action are properly notified, giving them a fair opportunity to respond and present their case.
               </p>
               <p>Without proper service of process, a court case cannot legally proceed, and any judgments made could be invalidated.</p>
             </section>
@@ -83,7 +83,7 @@ export default function WhatIsAProcessServerPage() {
                   <strong>Personal Delivery:</strong> The primary method is to personally hand the documents to the intended recipient. This requires persistence, professionalism, and often, investigative skill.
                 </li>
                 <li>
-                  <strong>Substitute Service:</strong> If personal delivery isn't possible, Oklahoma law allows for substitute service, such as leaving documents with a competent person at the individual's residence.
+                  <strong>Substitute Service:</strong> If personal delivery isn&apos;t possible, Oklahoma law allows for substitute service, such as leaving documents with a competent person at the individual&apos;s residence.
                 </li>
                 <li>
                   <strong>Affidavit of Service:</strong> After delivery, the process server completes a sworn statement called an Affidavit of Service. This legal document is filed with the court as official proof that the documents were served, detailing the time, date, and manner of service.
@@ -96,7 +96,6 @@ export default function WhatIsAProcessServerPage() {
 
             <section>
               <h2 className="text-2xl font-bold mt-8 mb-4 text-blue-800">Types of Documents We Serve in Oklahoma</h2>
-              <p>Our licensed servers handle all types of legal and court documents, including:</p>
               <div className="grid grid-cols-2 gap-x-8">
                 <ul className="list-disc ml-6 space-y-2">
                     <li>Summons and Complaints</li>
@@ -116,7 +115,7 @@ export default function WhatIsAProcessServerPage() {
             <section className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-lg my-8">
               <h3 className="text-xl font-bold text-blue-900">Why Not Just Use the Sheriff?</h3>
               <p className="mt-2 text-blue-800">
-                While the Sheriff's office can serve papers, they are often overburdened with other law enforcement duties. A professional process server's sole focus is serving your documents quickly and correctly. We offer speed, persistence, and specialized services like skip tracing that are typically outside the scope of a sheriff's department.
+                While the Sheriff&apos;s office can serve papers, they are often overburdened with other law enforcement duties. A professional process server&apos;s sole focus is serving your documents quickly and correctly. We offer speed, persistence, and specialized services like skip tracing that are typically outside the scope of a sheriff&apos;s department.
               </p>
             </section>
 
@@ -133,7 +132,7 @@ export default function WhatIsAProcessServerPage() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-blue-700 mb-2">What if the person is actively avoiding service?</h3>
-                  <p>This is where a professional shines. Our experienced servers use various legal methods and times of day to ensure service is completed, and we offer skip tracing if the person's location is unknown.</p>
+                  <p>This is where a professional shines. Our experienced servers use various legal methods and times of day to ensure service is completed, and we offer skip tracing if the person&apos;s location is unknown.</p>
                 </div>
               </div>
             </section>
@@ -150,7 +149,6 @@ export default function WhatIsAProcessServerPage() {
           </article>
         </div>
       </main>
-      
     </>
   );
 }
