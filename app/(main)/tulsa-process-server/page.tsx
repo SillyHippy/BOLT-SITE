@@ -84,8 +84,8 @@ const TulsaProcessServerPage = () => {
           <div className="relative bg-gray-900">
             <div className="absolute inset-0">
               <Image
-                src="https://images.unsplash.com/photo-1590650213165-3376a0a0b04a?fit=crop&w=1200&h=500&q=80"
-                alt="Downtown Tulsa skyline at dusk"
+                src="/images/tulsa-route66.jpg"
+                alt="Tulsa Route 66 Gateway and train crossing"
                 layout="fill"
                 objectFit="cover"
                 className="opacity-40"
