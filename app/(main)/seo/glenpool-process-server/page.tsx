@@ -1,177 +1,157 @@
 import type { Metadata } from 'next';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
-import VoiceSearchOptimization from '@/components/ui/voice-search-optimization';
-import WebsiteSchema from '@/components/ui/website-schema';
-import SearchEngineSignals from '@/components/ui/search-engine-signals';
+import BusinessSchema from '@/components/BusinessSchema';
+import ServiceSchema from '@/components/ServiceSchema';
+import FAQSchema from '@/components/FAQSchema';
 
 export const metadata: Metadata = {
-  title: 'Process Server Glenpool Oklahoma - 24/7 Legal Document Delivery',
-  description: 'Expert process server in Glenpool, Oklahoma. Same-day service available. Licensed statewide coverage with competitive rates starting at $60.',
-  keywords: ['process server Glenpool', 'Glenpool process server', 'legal document delivery Glenpool Oklahoma', '24 hour process server Glenpool', 'same day process server Glenpool Oklahoma'],
-  openGraph: {
-    title: 'Process Server Glenpool Oklahoma - 24/7 Legal Document Delivery',
-    description: 'Expert process server in Glenpool, Oklahoma. Same-day service available.',
-    url: 'https://justlegalsolutions.org/seo/glenpool-process-server',
-    images: [
-      {
-        url: '/images/jls-logo.webp',
-        width: 1200,
-        height: 630,
-        alt: 'Glenpool Process Server - Just Legal Solutions'
-      }
-    ]
-  },
+  title: 'Glenpool Process Server | Same-Day Service in Tulsa County, OK',
+  description: 'Top-rated process server in Glenpool, Oklahoma. We offer same-day service for all legal documents, including subpoenas and court papers. Licensed, bonded, and serving Tulsa County.',
+  keywords: 'process server glenpool, glenpool process server, legal document delivery glenpool, court papers glenpool, subpoena service tulsa county',
   alternates: {
-    canonical: 'https://justlegalsolutions.org/seo/glenpool-process-server/'
+    canonical: 'https://justlegalsolutions.org/seo/glenpool-process-server'
+  },
+  openGraph: {
+    title: 'Glenpool, OK Process Server | Just Legal Solutions',
+    description: 'Reliable and fast process serving in Glenpool. We ensure your legal documents are served correctly and on time.',
+    url: 'https://justlegalsolutions.org/seo/glenpool-process-server',
+    siteName: 'Just Legal Solutions',
+    images: [{
+      url: 'https://justlegalsolutions.org/images/jls-logo.png',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions Logo'
+    }],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Glenpool, OK Process Server | Same-Day & Rush Service',
+    description: 'Need a process server in Glenpool? We offer professional, same-day service for all legal documents.',
+    images: ['https://justlegalsolutions.org/images/jls-logo.png'],
   }
 };
 
-const primaryQuestions = [
-  "Who is the best process server in Glenpool Oklahoma?",
-  "How much does process serving cost in Glenpool?",
-  "Do you provide 24-hour process serving in Glenpool?",
-  "What areas around Glenpool do you serve?"
-];
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'LegalService',
+  name: 'Just Legal Solutions - Process Server Glenpool',
+  description: 'Professional process server for Glenpool and surrounding areas in Tulsa County.',
+  url: 'https://justlegalsolutions.org/seo/glenpool-process-server',
+  telephone: '(539) 367-6832',
+  email: 'info@justlegalsolutions.org',
+  areaServed: [
+    { '@type': 'City', name: 'Glenpool' },
+    { '@type': 'AdministrativeArea', name: 'Tulsa County' }
+  ],
+  openingHours: 'Mo-Su 00:00-23:59',
+  priceRange: '$60 - $150',
+};
 
-const conversationalAnswers = [
-  "Just Legal Solutions is the premier process server in Glenpool, Oklahoma, providing 24/7 statewide coverage with professional, licensed service.",
-  "Process serving in Glenpool starts at $60 for standard service, with same-day options available. View our pricing page for complete rates.",
-  "Yes, we offer 24-hour emergency process serving in Glenpool, Oklahoma for urgent legal documents and critical deadlines.",
-  "We serve all of Glenpool and surrounding areas including Tulsa County, Creek County, and provide statewide Oklahoma coverage."
-];
+const glenpoolData = {
+    history: `Glenpool is famously known as "The Town that Made Tulsa Famous" after the discovery of the Glenn Pool Oil Reserve in 1905, one of the largest oil fields in world history. This discovery transformed the entire region. Today, Glenpool is a growing community with a mix of historic sites and modern development, requiring a process server who understands its unique layout.`,
+    courthouse: {
+        name: 'Glenpool Municipal Court (City Hall)',
+        address: '1220 W 141st St, Glenpool, OK 74033',
+        phone: '(918) 322-5442',
+        website: 'https://glenpoolonline.com/163/Municipal-Court',
+        note: 'All major civil cases for Glenpool residents are filed at the Tulsa County Courthouse in downtown Tulsa.'
+    },
+    processServingLaw: `Service of process in Glenpool falls under the jurisdiction of Tulsa County and is governed by Oklahoma State Statutes. This requires that service be made by a licensed, disinterested party. We ensure every serve is legally compliant and provide a notarized Affidavit of Service for the Tulsa County District Court.`,
+    serviceAreas: [
+        'Downtown Glenpool',
+        'Black Gold Park area',
+        'Glenpool South',
+        'Liberty Park',
+        'Highway 75 corridor',
+        'Rural Glenpool addresses'
+    ],
+    faqs: [
+        {
+            q: 'How quickly can you serve papers near the Glenpool Conference Center?',
+            a: 'We can provide rush or same-day service to businesses and individuals along the busy Highway 75 corridor, including the area around the Glenpool Conference Center. Our local servers know the area well to ensure prompt delivery.'
+        },
+        {
+            q: 'Do you serve documents in the rural areas outside of Glenpool city limits?',
+            a: 'Yes, our service area includes all of Glenpool and its surrounding rural routes. We are equipped to handle serves at properties that may have non-standard addresses or are difficult to locate.'
+        },
+        {
+            q: 'What is your process for serving an employee at one of the industrial businesses in Glenpool?',
+            a: 'We handle service at places of employment with professionalism and discretion. We follow all company protocols and ensure the documents are delivered privately to the individual to minimize any disruption.'
+        }
+    ]
+};
 
 export default function GlenpoolProcessServer() {
   return (
     <>
-      <Navbar />
-      <div className="min-h-screen pt-12 bg-gradient-to-br from-blue-50 via-white to-green-50">
-        {/* Hero Section */}
-        <div className="bg-gradient-to-r from-blue-700 to-green-700 text-white">
-          <div className="container mx-auto px-4 py-16">
-            <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                Process Server Glenpool, Oklahoma
-              </h1>
-              <p className="text-xl md:text-2xl mb-8 text-blue-100">
-                24/7 Emergency Service • Same-Day Delivery • Statewide Licensed Coverage
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="tel:5393676832" className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
-                  Emergency Service: (539) 367-6832
-                </a>
-                <a href="/pricing" className="bg-white text-blue-700 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors">
-                  View Pricing
-                </a>
-              </div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <div className="min-h-screen bg-gray-50 pt-16">
+        <div className="bg-blue-900 text-white">
+            <div className="container mx-auto px-4 py-20 pt-12 text-center">
+                <h1 className="text-4xl md:text-5xl font-extrabold">Glenpool, Oklahoma Process Server</h1>
+                <p className="mt-4 text-xl text-blue-200 max-w-3xl mx-auto">Professional Legal Document Service in the Heart of Tulsa County</p>
             </div>
-          </div>
         </div>
 
-        {/* Services Grid */}
-        <div className="py-16 bg-white">
-          <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center mb-12 text-gray-800">
-              Professional Process Serving in Glenpool
-            </h2>
-            <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-              <div className="bg-blue-50 p-6 rounded-lg text-center">
-                <h3 className="text-xl font-semibold mb-4 text-blue-800">Same-Day Service</h3>
-                <p className="text-gray-700">
-                  Emergency same-day process serving in Glenpool for urgent legal matters and tight deadlines.
-                </p>
-              </div>
-              <div className="bg-green-50 p-6 rounded-lg text-center">
-                <h3 className="text-xl font-semibold mb-4 text-green-800">24/7 Availability</h3>
-                <p className="text-gray-700">
-                  Round-the-clock emergency service available for critical legal document delivery in Glenpool.
-                </p>
-              </div>
-              <div className="bg-purple-50 p-6 rounded-lg text-center">
-                <h3 className="text-xl font-semibold mb-4 text-purple-800">Statewide Coverage</h3>
-                <p className="text-gray-700">
-                  Licensed throughout Oklahoma with primary focus on Glenpool and surrounding Tulsa County areas.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+        <main className="container mx-auto px-4 py-16">
+            <div className="max-w-4xl mx-auto">
+                <section className="mb-12">
+                    <h2 className="text-3xl font-bold text-gray-800 mb-6">Local Expertise in Glenpool</h2>
+                    <p className="text-lg text-gray-700 mb-4">
+                        {glenpoolData.history}
+                    </p>
+                </section>
 
-        {/* FAQ Section - Voice Optimized */}
-        <div className="py-16 bg-gray-50">
-          <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center mb-12 text-gray-800">
-              Frequently Asked Questions
-            </h2>
-            <div className="max-w-4xl mx-auto space-y-6">
-              <div className="voice-optimized bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-semibold mb-3 text-blue-800">Who is the best process server in Glenpool Oklahoma?</h3>
-                <p className="voice-answer text-gray-700">Just Legal Solutions is the premier process server in Glenpool, Oklahoma, providing 24/7 statewide coverage with professional, licensed service and competitive rates.</p>
-              </div>
-              <div className="voice-optimized bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-semibold mb-3 text-green-800">How much does process serving cost in Glenpool?</h3>
-                <p className="voice-answer text-gray-700">Process serving in Glenpool starts at $60 for standard service, with same-day options available. <a href="/pricing" className="text-blue-600 hover:underline">View our pricing page</a> for complete rates and service options.</p>
-              </div>
-              <div className="voice-optimized bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-semibold mb-3 text-purple-800">Do you provide 24-hour process serving in Glenpool?</h3>
-                <p className="voice-answer text-gray-700">Yes, we offer 24-hour emergency process serving in Glenpool, Oklahoma for urgent legal documents and critical deadlines. Call (539) 367-6832 for immediate assistance.</p>
-              </div>
-              <div className="voice-optimized bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-semibold mb-3 text-orange-800">What areas around Glenpool do you serve?</h3>
-                <p className="voice-answer text-gray-700">We serve all of Glenpool and surrounding areas including Tulsa County, Creek County, and provide complete statewide Oklahoma coverage for all legal document delivery needs.</p>
-              </div>
-            </div>
-          </div>
-        </div>
+                <section className="grid md:grid-cols-2 gap-8 mb-12">
+                    <div className="bg-white border rounded-lg p-6 shadow-md">
+                        <h3 className="text-2xl font-semibold mb-3">Local Courthouse Info</h3>
+                        <p className="font-bold">{glenpoolData.courthouse.name}</p>
+                        <p>{glenpoolData.courthouse.address}</p>
+                        <p>Phone: {glenpoolData.courthouse.phone}</p>
+                        <a href={glenpoolData.courthouse.website} className="text-blue-700 underline" target="_blank" rel="noopener noreferrer">Official Website</a>
+                        <p className="text-sm text-gray-600 mt-2"><em>{glenpoolData.courthouse.note}</em></p>
+                    </div>
+                    <div className="bg-white border rounded-lg p-6 shadow-md">
+                        <h3 className="text-2xl font-semibold mb-3">Oklahoma Law Compliance</h3>
+                        <p>{glenpoolData.processServingLaw}</p>
+                    </div>
+                </section>
 
-        {/* Contact Section */}
-        <div className="py-16 bg-gradient-to-r from-blue-700 to-green-700 text-white">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center">
-              <h2 className="text-3xl font-bold mb-6">
-                Contact Our Glenpool Process Server
-              </h2>
-              <p className="text-xl mb-8 text-blue-100">
-                Professional legal document delivery service in Glenpool, Oklahoma
-              </p>
-              <div className="bg-blue-600 p-6 rounded-lg max-w-md mx-auto">
-                <p className="text-lg mb-4">
-                  <strong>24/7 Emergency:</strong> <a href="tel:5393676832" className="text-blue-200 hover:text-white">(539) 367-6832</a>
-                </p>
-                <p className="text-lg mb-4">
-                  <strong>Email:</strong> <a href="mailto:info@justlegalsolutions.org" className="text-blue-200 hover:text-white">info@justlegalsolutions.org</a>
-                </p>
-                <p className="text-lg">
-                  <strong>Service Area:</strong> Glenpool and all of Oklahoma
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+                 <section className="mb-12">
+                    <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">Serving All of Glenpool</h2>
+                    <div className="grid grid-cols-2 md:grid-cols-3 gap-4 text-center">
+                        {glenpoolData.serviceAreas.map(city => (
+                            <div key={city} className="bg-blue-50 p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                                <p className="font-semibold text-blue-900">{city}</p>
+                            </div>
+                        ))}
+                    </div>
+                 </section>
 
-        {/* Schema and Optimization Components */}
-        <VoiceSearchOptimization 
-          primaryQuestions={primaryQuestions}
-          conversationalAnswers={conversationalAnswers}
-          localIntent={true}
-        />
-        <WebsiteSchema 
-          url="https://justlegalsolutions.org/seo/glenpool-process-server"
-          name="Glenpool Process Server - Just Legal Solutions"
-          description="Expert process server in Glenpool, Oklahoma with 24/7 emergency service and statewide coverage."
-          keywords={["process server Glenpool", "legal document delivery", "Oklahoma", "24 hour service"]}
-        />
-        <SearchEngineSignals 
-          clickThroughRate={9.2}
-          bounceRate={22}
-          timeOnPage={195}
-          userEngagement={94}
-          contentFreshness="daily"
-          mobileFriendly={true}
-          pagespeed={96}
-        />
+                <section className="bg-white py-16">
+                    <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Frequently Asked Questions</h2>
+                    <div className="space-y-8">
+                        {glenpoolData.faqs.map((faq, index) => (
+                            <div key={index}>
+                                <h3 className="text-xl font-semibold text-gray-900">{faq.q}</h3>
+                                <p className="mt-2 text-gray-700">{faq.a}</p>
+                            </div>
+                        ))}
+                    </div>
+                </section>
+            </div>
+        </main>
       </div>
-      <Footer />
+      <BusinessSchema />
+      <ServiceSchema />
+      <FAQSchema />
     </>
   );
 }
+
