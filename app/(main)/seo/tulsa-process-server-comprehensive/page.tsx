@@ -1,4 +1,3 @@
-
 import type { Metadata } from 'next';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
@@ -6,12 +5,37 @@ import BusinessSchema from '@/components/BusinessSchema';
 import ServiceSchema from '@/components/ServiceSchema';
 import FAQSchema from '@/components/FAQSchema';
 
+// SEO Metadata optimized for the comprehensive Tulsa County page
 export const metadata: Metadata = {
   title: 'Comprehensive Process Server Tulsa County | Same Day Legal Document Delivery',
   description: 'Your comprehensive guide to process serving in Tulsa County. We offer same-day service for all legal documents, including court papers, subpoenas, and notices across Tulsa, Broken Arrow, and more. Licensed, bonded, and available 24/7.',
-  keywords: 'process server tulsa, tulsa county process server, legal document delivery tulsa, court papers served tulsa, subpoena service tulsa county, process serving broken arrow, legal notice delivery oklahoma',
+  keywords: 'process server tulsa county, tulsa process server, legal document delivery tulsa, court papers served tulsa, subpoena service tulsa county, process serving broken arrow, legal notice delivery oklahoma',
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/seo/tulsa-process-server-comprehensive'
+  },
+  openGraph: {
+    title: 'Comprehensive Process Server for all of Tulsa County',
+    description: 'Same-day service for legal documents in Tulsa, Broken Arrow, Bixby, Jenks, and more.',
+    url: 'https://justlegalsolutions.org/seo/tulsa-process-server-comprehensive',
+    siteName: 'Just Legal Solutions',
+    images: [{
+      url: 'https://justlegalsolutions.org/images/jls-logo.png', // Logo for social sharing
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions Logo'
+    }],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Comprehensive Process Server for all of Tulsa County',
+    description: 'Same-day service for legal documents in Tulsa, Broken Arrow, Bixby, Jenks, and more.',
+    images: ['https://justlegalsolutions.org/images/jls-logo.png'],
+  }
 };
 
+// Detailed JSON-LD Schema for Local Service
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'LegalService',
@@ -42,7 +66,48 @@ const jsonLd = {
     'Legal Notice Delivery'
   ],
   openingHours: 'Mo-Su 00:00-23:59',
-  priceRange: '$',
+  priceRange: '$60 - $150',
+};
+
+// --- High-Quality, Unique Local Content for Tulsa County ---
+const tulsaData = {
+    history: `Known as the "Oil Capital of the World," Tulsa's history is rich with Art Deco architecture funded by the early 20th-century oil boom. This legacy creates a diverse urban landscape, from the historic downtown core to sprawling residential areas. Effective process serving here demands an understanding of both its business centers and its widespread suburban neighborhoods.`,
+    courthouse: {
+        name: 'Tulsa County Courthouse',
+        address: '500 S Denver Ave, Tulsa, OK 74103',
+        phone: '(918) 596-5000',
+        website: 'https://www.tulsacountydistrictcourt.org/',
+        note: 'This is the main courthouse for all civil and family law cases in Tulsa County, including for residents of surrounding suburbs.'
+    },
+    processServingLaw: `All service of process in Tulsa County is governed by Oklahoma State Statutes. This mandates that a licensed server must make diligent efforts to effect personal service. We are experts in these statutes and ensure every service is legally sound for the Tulsa County District Court.`,
+    serviceAreas: [
+        'Downtown Tulsa',
+        'Midtown',
+        'South Tulsa',
+        'Brookside',
+        'Cherry Street',
+        'Blue Dome District',
+        'Brady Arts District',
+        'Maple Ridge'
+    ],
+    faqs: [
+        {
+            q: 'How do you handle service in secure downtown Tulsa office buildings?',
+            a: 'Our servers are experienced in professionally navigating access protocols for high-security corporate offices and buildings in downtown Tulsa to ensure legal documents are served correctly and discreetly.'
+        },
+        {
+            q: 'What is your success rate for serving evasive individuals in Tulsa?',
+            a: 'We have a high success rate due to our persistence and local knowledge. We utilize multiple attempts at various times, including early mornings and late evenings, and offer skip tracing services to locate individuals anywhere in Tulsa County.'
+        },
+        {
+            q: 'Can you file my documents at the Tulsa County Courthouse?',
+            a: 'Yes. In addition to serving the documents, we offer court filing services. We can file your initial petition or the completed Affidavit of Service directly with the Tulsa County Court Clerk for your convenience.'
+        },
+        {
+            q: 'How quickly can you serve papers in an emergency in Tulsa?',
+            a: 'We offer emergency 2-hour rush service within the Tulsa metro area. When you have a critical deadline, we can prioritize your serve to ensure it gets completed immediately.'
+        }
+    ]
 };
 
 export default function TulsaProcessServerComprehensive() {
@@ -52,75 +117,68 @@ export default function TulsaProcessServerComprehensive() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <Navbar />
-      <div className="min-h-screen bg-gray-50">
+      {/* Navbar and Footer are handled by the main layout */}
+      <div className="min-h-screen bg-gray-50 pt-16">
         <div className="bg-blue-900 text-white">
-            <div className="container mx-auto px-4 py-20 pt-32 text-center">
+            <div className="container mx-auto px-4 py-20 pt-12 text-center">
                 <h1 className="text-4xl md:text-5xl font-extrabold">Comprehensive Process Serving in Tulsa County</h1>
                 <p className="mt-4 text-xl text-blue-200 max-w-3xl mx-auto">The definitive resource for professional, reliable, and swift legal document service in the greater Tulsa area.</p>
             </div>
         </div>
 
-        <div className="container mx-auto px-4 py-16">
+        <main className="container mx-auto px-4 py-16">
             <div className="max-w-4xl mx-auto">
-                <h2 className="text-3xl font-bold text-gray-800 mb-6">Your Guide to Professional Service of Process in Tulsa</h2>
-                <p className="text-lg text-gray-700 mb-4">
-                    Navigating the legal system requires precision at every step, especially when it comes to the official delivery of legal documents. As Tulsa County&apos;s premier process serving agency, Just Legal Solutions provides an exhaustive range of services designed to meet the rigorous demands of attorneys, businesses, and private citizens. Our deep understanding of Oklahoma&apos;s Rules of Civil Procedure ensures that every service is performed correctly, legally, and without delay.
-                </p>
-                <p className="text-lg text-gray-700 mb-10">
-                    This page serves as a comprehensive overview of our capabilities, service areas, and unwavering commitment to excellence in the field of legal support services.
-                </p>
+                <section className="mb-12">
+                    <h2 className="text-3xl font-bold text-gray-800 mb-6">Your Guide to Professional Service of Process in Tulsa</h2>
+                    <p className="text-lg text-gray-700 mb-4">
+                        {tulsaData.history}
+                    </p>
+                    <p className="text-lg text-gray-700">
+                        This page serves as a comprehensive overview of our capabilities, service areas, and unwavering commitment to excellence in the field of legal support services.
+                    </p>
+                </section>
 
-                <div className="bg-white p-8 rounded-lg shadow-md mb-12">
-                    <h3 className="text-2xl font-bold text-blue-800 mb-4">Core Services Offered</h3>
-                    <ul className="list-disc list-inside space-y-2 text-gray-700">
+                <section className="bg-white p-8 rounded-lg shadow-md mb-12">
+                    <h3 className="text-2xl font-bold text-blue-800 mb-4">Core Services Offered Across Tulsa County</h3>
+                    <ul className="list-disc list-inside space-y-3 text-gray-700">
                         <li><strong>Summons and Complaints:</strong> The critical first step in any lawsuit, served promptly to establish jurisdiction.</li>
                         <li><strong>Subpoenas:</strong> Legally compelling witnesses to testify or produce evidence, delivered with proof of service.</li>
                         <li><strong>Family Law Documents:</strong> Handling sensitive papers like divorce petitions and child custody orders with care and discretion.</li>
                         <li><strong>Eviction and Forcible Detainer:</strong> Serving notices to tenants in strict accordance with Oklahoma&apos;s landlord-tenant laws.</li>
                         <li><strong>Garnishments and Writs:</strong> Executing court orders for asset seizure and wage garnishment.</li>
+                        <li><strong>Skip Tracing:</strong> Professional location services for hard-to-find individuals.</li>
                     </ul>
-                </div>
+                </section>
 
-                 <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Serving Every Corner of Tulsa County</h2>
-                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
-                    {['Tulsa', 'Broken Arrow', 'Bixby', 'Jenks', 'Owasso', 'Sand Springs', 'Sapulpa', 'Glenpool'].map(city => (
-                        <div key={city} className="bg-blue-50 p-4 rounded-lg">
-                            <p className="font-semibold text-blue-900">{city}</p>
-                        </div>
-                    ))}
-                 </div>
+                 <section className="mb-12">
+                    <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">Serving Every Corner of Tulsa County</h2>
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+                        {tulsaData.serviceAreas.map(city => (
+                            <div key={city} className="bg-blue-50 p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                                <p className="font-semibold text-blue-900">{city}</p>
+                            </div>
+                        ))}
+                    </div>
+                 </section>
+
+                <section className="bg-white py-16">
+                    <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Frequently Asked Questions</h2>
+                    <div className="space-y-8">
+                        {tulsaData.faqs.map((faq, index) => (
+                            <div key={index}>
+                                <h3 className="text-xl font-semibold text-gray-900">{faq.q}</h3>
+                                <p className="mt-2 text-gray-700">{faq.a}</p>
+                            </div>
+                        ))}
+                    </div>
+                </section>
             </div>
-        </div>
-        
-        <div className="bg-white py-16">
-            <div className="container mx-auto px-4 max-w-4xl">
-                <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Frequently Asked Questions</h2>
-                <div className="space-y-8">
-                    <div>
-                        <h3 className="text-xl font-semibold text-gray-900">What exactly does a process server do?</h3>
-                        <p className="mt-2 text-gray-700">A process server is a professional who delivers legal documents (like lawsuits, subpoenas, and restraining orders) to individuals involved in a court case. This official notification, called &ldquo;service of process,&rdquo; is legally required to ensure the individual is aware of the legal action against them, upholding their right to due process.</p>
-                    </div>
-                    <div>
-                        <h3 className="text-xl font-semibold text-gray-900">How much does it cost to hire a process server in Tulsa?</h3>
-                        <p className="mt-2 text-gray-700">The cost varies based on urgency. Standard service in the Tulsa metro area starts at a competitive rate, while rush and same-day services are available for time-sensitive cases. We provide a full, transparent quote upfront with no hidden fees. Please see our <a href="/pricing" className="text-blue-600 underline">pricing page</a> for details.</p>
-                    </div>
-                    <div>
-                        <h3 className="text-xl font-semibold text-gray-900">What happens if the person is avoiding service?</h3>
-                        <p className="mt-2 text-gray-700">Our experienced process servers are trained in various techniques to handle evasive subjects. If direct personal service is not possible after multiple attempts, we can perform a &ldquo;substitute service&rdquo; as allowed by Oklahoma law, which may involve leaving the documents with a competent person at the residence or workplace and mailing a copy. We document all attempts meticulously.</p>
-                    </div>
-                     <div>
-                        <h3 className="text-xl font-semibold text-gray-900">Is your service legally valid in Tulsa County courts?</h3>
-                        <p className="mt-2 text-gray-700">Absolutely. We are fully licensed and bonded in the state of Oklahoma. Every service is performed in strict compliance with the Oklahoma Rules of Civil Procedure, and we provide a notarized Affidavit of Service that is ready for filing with the Tulsa County court clerk.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </main>
       </div>
       <BusinessSchema />
       <ServiceSchema />
       <FAQSchema />
-      
     </>
   );
 }
+
