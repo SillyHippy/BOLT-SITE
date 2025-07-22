@@ -1,158 +1,166 @@
-import React from 'react';
-import Image from 'next/image';
 import type { Metadata } from 'next';
+import { Navbar } from '@/components/ui/navbar';
+import { Footer } from '@/components/ui/footer';
 import BusinessSchema from '@/components/BusinessSchema';
-import EnhancedFAQSchema, { generateProcessServingFAQs } from '@/components/ui/enhanced-faq-schema';
-import EnhancedBreadcrumbSchema from '@/components/ui/enhanced-breadcrumb-schema';
-import GoogleSpecificOptimization from '@/components/ui/google-specific-optimization';
-import BingYahooOptimization from '@/components/ui/bing-yahoo-optimization';
-import VoiceSearchOptimization from '@/components/ui/voice-search-optimization';
-import AIAssistantOptimization from '@/components/ui/ai-assistant-optimization';
-import SearchEngineSignals from '@/components/ui/search-engine-signals';
+import ServiceSchema from '@/components/ServiceSchema';
+import FAQSchema from '@/components/FAQSchema';
 
+// SEO Metadata optimized for the Jenks page
 export const metadata: Metadata = {
-  title: "🚀 Process Server in Jenks Oklahoma | Same-Day Service | Just Legal Solutions",
-  description: "⚡ URGENT Process Serving in Jenks Oklahoma | ✅ Same-Day Service | 💯 Professional & Reliable | 📞 Call (539) 367-6832 for Instant Quote!",
-  keywords: "process server Jenks Oklahoma, legal document delivery Jenks, same day process serving Jenks, court documents Jenks OK",
-  openGraph: {
-    title: "🚀 Professional Process Server in Jenks Oklahoma",
-    description: "⚡ Same-day process serving throughout Jenks Oklahoma. Licensed, professional, reliable service with emergency options available.",
-    images: [{ url: '/images/jenks-process-server.jpg', width: 1200, height: 630 }],
+  title: 'Jenks Process Server | Same-Day Service in Tulsa County, OK',
+  description: 'Top-rated process server in Jenks, Oklahoma. We offer same-day service for all legal documents, including subpoenas and court papers. Licensed, bonded, and serving Tulsa County.',
+  keywords: 'process server jenks, jenks process server, legal document delivery jenks, court papers jenks, subpoena service tulsa county',
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/seo/jenks-process-server'
   },
+  openGraph: {
+    title: 'Jenks, OK Process Server | Just Legal Solutions',
+    description: 'Reliable and fast process serving in Jenks. We ensure your legal documents are served correctly and on time.',
+    url: 'https://justlegalsolutions.org/seo/jenks-process-server',
+    siteName: 'Just Legal Solutions',
+    images: [{
+      url: 'https://justlegalsolutions.org/images/jls-logo.png',
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions Logo'
+    }],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Jenks, OK Process Server | Same-Day & Rush Service',
+    description: 'Need a process server in Jenks? We offer professional, same-day service for all legal documents.',
+    images: ['https://justlegalsolutions.org/images/jls-logo.png'],
+  }
 };
 
-const jenksProcessServingFAQs = generateProcessServingFAQs("Jenks", "process serving");
+// Detailed JSON-LD Schema for Jenks Service
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'LegalService',
+  name: 'Just Legal Solutions - Process Server Jenks',
+  description: 'Professional process server for Jenks and surrounding areas in Tulsa County.',
+  url: 'https://justlegalsolutions.org/seo/jenks-process-server',
+  telephone: '(539) 367-6832',
+  email: 'info@justlegalsolutions.org',
+  areaServed: [
+    { '@type': 'City', name: 'Jenks' },
+    { '@type': 'AdministrativeArea', name: 'Tulsa County' }
+  ],
+  openingHours: 'Mo-Su 00:00-23:59',
+  priceRange: '$60 - $150',
+};
+
+// --- High-Quality, Unique Local Content for Jenks, OK ---
+const jenksData = {
+    history: `Once known as the "Antique Capital of Oklahoma," Jenks was founded in 1905 and developed alongside the Arkansas River. It has transformed from a small railroad town into a vibrant suburban community, famed for the Oklahoma Aquarium and its historic, walkable downtown. This unique blend of history and modern growth makes local knowledge crucial for effective process serving.`,
+    courthouse: {
+        name: 'Jenks City Hall / Municipal Court',
+        address: '211 N Elm St, Jenks, OK 74037',
+        phone: '(918) 299-5883',
+        website: 'https://www.jenks.com/214/Municipal-Court',
+        note: 'All major civil cases for Jenks residents are filed at the Tulsa County Courthouse in downtown Tulsa.'
+    },
+    processServingLaw: `Service of process in Jenks is governed by the Oklahoma Rules of Civil Procedure. This requires that service be made by a licensed, disinterested party over 18. We strictly adhere to these rules, ensuring that every service is legally defensible and properly documented with a notarized Affidavit of Service.`,
+    serviceAreas: [
+        'Downtown Jenks (Main Street)',
+        'River District (near Oklahoma Aquarium)',
+        'Elwood Crossing',
+        'Southern Lakes',
+        'South Tulsa ( bordering Jenks)',
+        'Glenpool (neighboring city)',
+        'Woodland South',
+        'The Reserve at Stonebrooke',
+    ],
+    faqs: [
+        {
+            q: 'What are your service hours in Jenks, OK?',
+            a: 'Our process servers operate 7 days a week, including early mornings and late evenings, to maximize the chances of successful service in residential areas like Southern Lakes and commercial districts.'
+        },
+        {
+            q: 'How do you handle service at the Oklahoma Aquarium or RiverWalk Crossing?',
+            a: 'Serving documents in crowded public places requires discretion. Our servers are trained to handle service professionally and quietly in high-traffic commercial areas to ensure privacy and compliance.'
+        },
+        {
+            q: 'Are you familiar with the local courts for Jenks?',
+            a: 'Yes. While we serve documents for any court, we have extensive experience with filings related to the Jenks Municipal Court and the Tulsa County Courthouse, which serves Jenks residents for higher-level civil matters.'
+        },
+        {
+            q: 'What happens if the person I need to serve lives in a gated community in Jenks?',
+            a: 'We have proven strategies for legally accessing gated communities in the Jenks area. Our experienced servers understand the necessary procedures to ensure your documents are served legally and without delay.'
+        }
+    ]
+};
 
 export default function JenksProcessServer() {
   return (
     <>
-      <BusinessSchema />
-      <header className="bg-blue-900 text-white py-16 mb-0">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center">
-            <EnhancedBreadcrumbSchema 
-              items={[{ name: "Home", url: "/" },{ name: "Process Server Jenks Oklahoma", url: "/seo/jenks-process-server" }]}
-            />
-            <h1 className="text-4xl md:text-6xl font-bold mb-6 flex items-center justify-center gap-2">
-              <span role="img" aria-label="rocket">🚀</span> Professional Process Server in Jenks Oklahoma
-            </h1>
-            <p className="text-xl md:text-2xl mb-8">
-              <span role="img" aria-label="lightning">⚡</span> Same-Day Service Available | Licensed & Bonded | Emergency Options
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a 
-                href="/pricing" 
-                className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors"
-              >
-                📞 Get Instant Quote
-              </a>
-              <a 
-                href="tel:5393676832" 
-                className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors"
-              >
-                📞 Call (539) 367-6832
-              </a>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <div className="min-h-screen bg-gray-50 pt-16">
+        <div className="bg-blue-900 text-white">
+            <div className="container mx-auto px-4 py-20 pt-12 text-center">
+                <h1 className="text-4xl md:text-5xl font-extrabold">Jenks, Oklahoma Process Server</h1>
+                <p className="mt-4 text-xl text-blue-200 max-w-3xl mx-auto">Professional Legal Document Service in Tulsa County</p>
             </div>
-          </div>
         </div>
-      </header>
-      <GoogleSpecificOptimization businessName="Just Legal Solutions - Jenks Process Server" primaryLocation="Jenks, Oklahoma" serviceArea={["Jenks", "Tulsa", "Broken Arrow", "Bixby", "Glenpool"]} emergencyService={true} />
-      <BingYahooOptimization businessName="Just Legal Solutions - Jenks Oklahoma Process Server" serviceTypes={["Process Serving Jenks Oklahoma", "Legal Document Delivery", "Court Filing Services", "Emergency Process Serving"]} expertise={["24/7 Emergency Service", "Licensed Professional", "Same-Day Delivery", "Jenks Area Specialist"]} serviceRadius={50} />
-      <VoiceSearchOptimization primaryQuestions={["Who is the best process server in Jenks Oklahoma?","How much does process serving cost in Jenks?","Can I get same-day process serving in Jenks Oklahoma?"]} conversationalAnswers={["Just Legal Solutions is Jenks Oklahoma's premier process serving company with professional legal document delivery throughout the area.","Process serving costs in Jenks vary by urgency. Just Legal Solutions offers competitive rates with same-day service available.","Yes, Just Legal Solutions provides same-day process serving throughout Jenks Oklahoma with emergency 2-hour service when needed."]} localIntent={true} />
-      <AIAssistantOptimization businessName="Just Legal Solutions - Jenks Oklahoma Process Server" expertise={["Process Serving", "Legal Document Delivery", "Court Filing", "Emergency Service"]} serviceLocation="Jenks Oklahoma" specializations={["Same-Day Service", "Emergency Delivery", "Licensed Professional", "Local Area Expert"]} emergencyAvailable={true} />
-      <SearchEngineSignals clickThroughRate={12.8} bounceRate={18} timeOnPage={245} userEngagement={94} contentFreshness="daily" mobileFriendly={true} pagespeed={96} />
-      <div className="min-h-screen bg-white">
-        {/* Hero Section with Professional Image */}
-        <section className="py-16 bg-gray-50">
-          <div className="container mx-auto px-4">
-            <div className="max-w-6xl mx-auto">
-              <div className="grid md:grid-cols-2 gap-12 items-center">
-                <div>
-                  <h2 className="text-3xl font-bold mb-6 text-gray-900">Why Choose Just Legal Solutions for Process Serving in Jenks?</h2>
-                  <div className="space-y-4 text-lg text-gray-700">
-                    <div className="flex items-start space-x-3">
-                      <span className="text-green-600 text-xl">✅</span>
-                      <div><strong>Licensed & Professional:</strong> Fully licensed throughout Oklahoma with extensive experience in Jenks area courts and procedures.</div>
-                    </div>
-                    <div className="flex items-start space-x-3">
-                      <span className="text-green-600 text-xl">⚡</span>
-                      <div><strong>Same-Day Service:</strong> Emergency and same-day process serving available throughout Jenks and surrounding areas.</div>
-                    </div>
-                    <div className="flex items-start space-x-3">
-                      <span className="text-green-600 text-xl">📍</span>
-                      <div><strong>Local Area Expert:</strong> Intimate knowledge of Jenks neighborhoods, businesses, and local court requirements.</div>
-                    </div>
-                    <div className="flex items-start space-x-3">
-                      <span className="text-green-600 text-xl">💯</span>
-                      <div><strong>Guaranteed Results:</strong> Professional service with detailed documentation and photo verification.</div>
-                    </div>
-                  </div>
-                </div>
-                <div className="relative">
-                  <Image src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Professional process server delivering legal documents in Jenks Oklahoma" width={600} height={400} className="rounded-lg shadow-lg" priority />
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        {/* Services Section */}
-        <section className="py-16">
-          <div className="container mx-auto px-4">
-            <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">Complete Process Serving Services in Jenks Oklahoma</h2>
-              <div className="grid md:grid-cols-3 gap-8">
-                <div className="bg-white p-8 rounded-lg shadow-lg border">
-                  <div className="text-4xl mb-4">📋</div>
-                  <h3 className="text-xl font-bold mb-4">Standard Process Serving</h3>
-                  <p className="text-gray-600 mb-4">Professional service of summons, complaints, subpoenas, and other legal documents throughout Jenks within 3-5 business days.</p>
-                  <a href="/pricing" className="text-blue-600 hover:text-blue-800 font-semibold">View Pricing →</a>
-                </div>
-                <div className="bg-white p-8 rounded-lg shadow-lg border">
-                  <div className="text-4xl mb-4">⚡</div>
-                  <h3 className="text-xl font-bold mb-4">Same-Day Service</h3>
-                  <p className="text-gray-600 mb-4">Urgent document delivery when time is critical. Same-day service available throughout Jenks and surrounding areas.</p>
-                  <a href="/pricing" className="text-blue-600 hover:text-blue-800 font-semibold">Get Quote →</a>
-                </div>
-                <div className="bg-white p-8 rounded-lg shadow-lg border">
-                  <div className="text-4xl mb-4">🚨</div>
-                  <h3 className="text-xl font-bold mb-4">Emergency Service</h3>
-                  <p className="text-gray-600 mb-4">2-hour emergency service available for critical legal situations requiring immediate document delivery in Jenks.</p>
-                  <a href="/pricing" className="text-blue-600 hover:text-blue-800 font-semibold">Emergency Quote →</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        {/* FAQ Section */}
-        <section className="py-16 bg-gray-50">
-          <div className="container mx-auto px-4">
+
+        <main className="container mx-auto px-4 py-16">
             <div className="max-w-4xl mx-auto">
-              <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">Frequently Asked Questions - Process Serving in Jenks</h2>
-              <div className="space-y-6">
-                {jenksProcessServingFAQs.map((faq, index) => (
-                  <div key={index} className="bg-white p-6 rounded-lg shadow-lg">
-                    <h3 className="text-lg font-bold mb-3 text-gray-900">{faq.question}</h3>
-                    <p className="text-gray-700">{faq.answer}</p>
-                  </div>
-                ))}
-              </div>
+                <section className="mb-12">
+                    <h2 className="text-3xl font-bold text-gray-800 mb-6">Local Expertise in Jenks</h2>
+                    <p className="text-lg text-gray-700 mb-4">
+                        {jenksData.history}
+                    </p>
+                </section>
+
+                <section className="grid md:grid-cols-2 gap-8 mb-12">
+                    <div className="bg-white border rounded-lg p-6 shadow-md">
+                        <h3 className="text-2xl font-semibold mb-3">Local Courthouse Info</h3>
+                        <p className="font-bold">{jenksData.courthouse.name}</p>
+                        <p>{jenksData.courthouse.address}</p>
+                        <p>Phone: {jenksData.courthouse.phone}</p>
+                        <a href={jenksData.courthouse.website} className="text-blue-700 underline" target="_blank" rel="noopener noreferrer">Official Website</a>
+                        <p className="text-sm text-gray-600 mt-2"><em>{jenksData.courthouse.note}</em></p>
+                    </div>
+                    <div className="bg-white border rounded-lg p-6 shadow-md">
+                        <h3 className="text-2xl font-semibold mb-3">Oklahoma Law Compliance</h3>
+                        <p>{jenksData.processServingLaw}</p>
+                    </div>
+                </section>
+
+                 <section className="mb-12">
+                    <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">Serving All of Jenks</h2>
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+                        {jenksData.serviceAreas.map(city => (
+                            <div key={city} className="bg-blue-50 p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                                <p className="font-semibold text-blue-900">{city}</p>
+                            </div>
+                        ))}
+                    </div>
+                 </section>
+
+                <section className="bg-white py-16">
+                    <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Frequently Asked Questions</h2>
+                    <div className="space-y-8">
+                        {jenksData.faqs.map((faq, index) => (
+                            <div key={index}>
+                                <h3 className="text-xl font-semibold text-gray-900">{faq.q}</h3>
+                                <p className="mt-2 text-gray-700">{faq.a}</p>
+                            </div>
+                        ))}
+                    </div>
+                </section>
             </div>
-          </div>
-        </section>
-        {/* CTA Section */}
-        <section className="py-16 bg-blue-900 text-white">
-          <div className="container mx-auto px-4 text-center">
-            <div className="max-w-4xl mx-auto">
-              <h2 className="text-3xl font-bold mb-6">Ready to Get Your Documents Served in Jenks?</h2>
-              <p className="text-xl mb-8">Professional process serving available now. Same-day service options available.</p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="/pricing" className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors">📋 View Pricing & Get Quote</a>
-                <a href="tel:5393676832" className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors">📞 Call Now: (539) 367-6832</a>
-              </div>
-            </div>
-          </div>
-        </section>
+        </main>
       </div>
+      <BusinessSchema />
+      <ServiceSchema />
+      <FAQSchema />
     </>
   );
 }
+
