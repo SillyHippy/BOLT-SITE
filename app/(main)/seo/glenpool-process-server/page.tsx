@@ -1,9 +1,6 @@
 import type { Metadata } from 'next';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
-import BusinessSchema from '@/components/BusinessSchema';
-import ServiceSchema from '@/components/ServiceSchema';
-import FAQSchema from '@/components/FAQSchema';
 
 export const metadata: Metadata = {
   title: 'Glenpool Process Server | Same-Day Service in Tulsa County, OK',
