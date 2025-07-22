@@ -1,6 +1,5 @@
-
-import { Metadata } from 'next';
-import Image from 'next/image';
+import React from 'react';
+import type { Metadata } from 'next';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 import VoiceSearchOptimization from '@/components/ui/voice-search-optimization';
@@ -10,27 +9,80 @@ import EnhancedBreadcrumbSchema, { VisualBreadcrumbs } from '@/components/ui/enh
 import EnhancedFAQSchema from '@/components/ui/enhanced-faq-schema';
 import PerformanceSchema from '@/components/ui/performance-schema';
 
+// Optimized metadata with social sharing images, but no images on the page itself.
 export const metadata: Metadata = {
-  title: 'Sand Springs Process Server | Professional Legal Document Service Oklahoma',
-  description: 'Professional process server in Sand Springs, Oklahoma. Fast, reliable legal document delivery throughout Tulsa County. 24/7 emergency service available. Call or text (539) 367-6832.',
-  keywords: ['Sand Springs process server', 'legal document delivery Sand Springs', 'process serving Tulsa County', 'emergency process server Sand Springs', '24 hour legal service Sand Springs'],
+  title: 'Sand Springs Process Server | Same-Day Service in Tulsa County, OK',
+  description: 'Professional process server in Sand Springs, Oklahoma. We offer fast, reliable, and legally compliant service for all legal documents. 24/7 emergency service available. Call (539) 367-6832.',
+  keywords: ['Sand Springs process server', 'legal document delivery Sand Springs', 'process serving Tulsa County', 'emergency process server Sand Springs', 'subpoena service Sand Springs'],
   robots: 'index, follow',
   alternates: {
     canonical: 'https://justlegalsolutions.org/seo/process-server-sand-springs'
   },
   openGraph: {
     title: 'Sand Springs Process Server | Just Legal Solutions',
-    description: 'Professional process server in Sand Springs, Oklahoma. Fast, reliable legal document delivery throughout Tulsa County.',
+    description: 'Fast, reliable, and professional process serving for Sand Springs and all of Tulsa County.',
     url: 'https://justlegalsolutions.org/seo/process-server-sand-springs',
     siteName: 'Just Legal Solutions',
+    images: [{
+      url: 'https://justlegalsolutions.org/images/jls-logo.png', // Logo for social sharing
+      width: 1200,
+      height: 630,
+      alt: 'Just Legal Solutions Logo'
+    }],
     locale: 'en_US',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Sand Springs Process Server | Just Legal Solutions',
-    description: 'Professional process server in Sand Springs, Oklahoma. Fast, reliable legal document delivery throughout Tulsa County.',
+    description: 'Fast, reliable, and professional process serving for Sand Springs and all of Tulsa County.',
+    images: ['https://justlegalsolutions.org/images/jls-logo.png'], // Logo for social sharing
   }
+};
+
+// --- High-Quality, Unique Local Content for Sand Springs ---
+const sandSpringsData = {
+    history: `Founded by philanthropist Charles Page in 1908, Sand Springs has a unique history as a planned industrial city and a home for orphaned children. Its development was tied to the Sand Springs Railway and key industries like Sheffield Steel. This deep-rooted community structure requires a process server with genuine local knowledge to navigate effectively.`,
+    courthouse: {
+        name: 'Sand Springs Municipal Court (City Hall)',
+        address: '100 E Broadway St, Sand Springs, OK 74063',
+        phone: '(918) 246-2500',
+        website: 'https://www.sandspringsok.org/172/Municipal-Court',
+        note: 'While we serve documents for the municipal court, most civil cases for Sand Springs residents are filed at the Tulsa County Courthouse.'
+    },
+    processServingLaw: `Process serving in Sand Springs must adhere strictly to Oklahoma State Statutes (Title 12, §2004). This means service must be performed by a licensed, disinterested party. We ensure every serve is legally compliant, providing a notarized Affidavit of Service that is admissible in the Tulsa County District Court.`,
+    serviceAreas: [
+        'Downtown Sand Springs',
+        'Prattville',
+        'Angus Valley',
+        'Keystone Lake Area',
+        'Berryhill',
+        'Rockefeller',
+        'Morrow Road',
+        'River West Festival Park Area'
+    ],
+    faqs: [
+      {
+        question: 'How much does process serving cost in Sand Springs, Oklahoma?',
+        answer: 'Our standard service in Sand Springs is competitively priced. For a full breakdown of costs, including rush and same-day options, please see our complete pricing guide. We offer transparent rates with no hidden fees.'
+      },
+      {
+        question: 'Do you offer same-day process serving in Sand Springs?',
+        answer: 'Yes, we specialize in same-day and emergency rush service throughout Sand Springs and the surrounding areas. We understand legal matters are time-sensitive and prioritize urgent requests.'
+      },
+      {
+        question: 'Are you licensed to serve court papers in Sand Springs?',
+        answer: 'Absolutely. Our process servers are fully licensed and bonded by the state of Oklahoma, ensuring that every service performed in Sand Springs is legally valid and professionally executed.'
+      },
+      {
+        question: 'What legal documents do you serve in Sand Springs?',
+        answer: 'We serve all types of legal documents, including summons, subpoenas, eviction notices, divorce papers, small claims filings, and protective orders. We handle each document with the required discretion and diligence.'
+      },
+      {
+        question: 'How do you handle difficult-to-serve individuals in the Sand Springs area?',
+        answer: 'Our servers are trained in skip tracing and surveillance techniques. We utilize our local knowledge of Sand Springs to successfully locate and serve individuals who may be avoiding service, ensuring your case can move forward.'
+      }
+    ]
 };
 
 const breadcrumbItems = [
@@ -38,280 +90,95 @@ const breadcrumbItems = [
   { name: 'Sand Springs Process Server', url: '/seo/process-server-sand-springs' }
 ];
 
-const faqData = [
-  {
-    question: 'How much does process serving cost in Sand Springs, Oklahoma?',
-    answer: 'Process serving in Sand Springs starts as low as $30 for bulk orders. For complete pricing information including standard, rush, and emergency service options, please visit our pricing page at justlegalsolutions.org/pricing. We offer transparent pricing with no hidden fees for Sand Springs and Tulsa County service.'
-  },
-  {
-    question: 'Do you offer same-day process serving in Sand Springs?',
-    answer: 'Yes! We provide same-day and emergency process serving in Sand Springs. For current pricing and availability, please visit our pricing page or call/text (539) 367-6832. Emergency 2-hour service is also available for critical legal deadlines.'
-  },
-  {
-    question: 'What areas do you cover around Sand Springs?',
-    answer: 'We provide comprehensive coverage throughout Sand Springs, all of Tulsa County, and statewide Oklahoma service. Our primary service area includes the entire Sand Springs metropolitan area with standard rates, plus surrounding communities.'
-  },
-  {
-    question: 'Are you licensed process servers in Sand Springs?',
-    answer: 'Yes, Just Legal Solutions is fully licensed and bonded for process serving throughout Sand Springs and all of Oklahoma. We comply with all state and local requirements, providing legally compliant service with professional affidavits.'
-  },
-  {
-    question: 'What legal documents can you serve in Sand Springs?',
-    answer: 'We serve all legal documents in Sand Springs including divorce papers, court summons, subpoenas, eviction notices, small claims documents, business litigation papers, restraining orders, and civil court documents. All services include professional handling and documentation.'
-  },
-  {
-    question: 'Do you provide emergency process serving in Sand Springs?',
-    answer: 'Yes! Emergency process serving is available 24/7 in Sand Springs for time-critical legal documents. We understand that legal deadlines don\'t follow business hours, so we\'re available around the clock for urgent service needs.'
-  },
-  {
-    question: 'How do I schedule process serving in Sand Springs?',
-    answer: 'Schedule process serving in Sand Springs by calling or texting (539) 367-6832 for immediate assistance. We provide real-time updates and professional communication throughout the service process.'
-  },
-  {
-    question: 'Do you offer skip tracing services in Sand Springs?',
-    answer: 'Yes, we provide professional skip tracing services in Sand Springs to locate difficult-to-find individuals. Our investigation services include database searches, social media analysis, and employment verification to ensure successful service completion.'
-  },
-  {
-    question: 'What makes your Sand Springs process servers different?',
-    answer: 'Our Sand Springs process servers offer statewide Oklahoma licensing, 24/7 emergency availability, GPS tracking, professional affidavits, multi-service capabilities, and local knowledge of Tulsa County procedures. We combine technology with personal service for optimal results.'
-  },
-  {
-    question: 'How quickly can you respond to process serving requests in Sand Springs?',
-    answer: 'We typically respond to process serving requests in Sand Springs within 30 minutes during business hours. Emergency service is available 24/7 with response times of 2 hours or less for critical legal documents and court deadlines.'
-  }
-];
-
-const voiceQuestions = [
-  "Who is the best process server in Sand Springs Oklahoma?",
-  "How much does process serving cost in Sand Springs?",
-  "Can I get same-day process serving in Sand Springs Oklahoma?"
-];
-
-const voiceAnswers = [
-  "Just Legal Solutions is Sand Springs Oklahoma's premier process serving company with professional legal document delivery throughout the area.",
-  "Process serving costs in Sand Springs vary by urgency. Just Legal Solutions offers competitive rates with same-day service available.",
-  "Yes, Just Legal Solutions provides same-day process serving throughout Sand Springs Oklahoma with emergency 2-hour service when needed."
-];
-
 export default function SandSpringsProcessServer() {
   const lastUpdated = new Date().toLocaleDateString();
-  
+
   return (
     <>
-      <VoiceSearchOptimization
-        primaryQuestions={voiceQuestions}
-        conversationalAnswers={voiceAnswers}
-        localIntent={true}
-      />
       <ServiceSchema
         serviceName="Sand Springs Process Serving"
-        serviceDescription="Professional process server in Sand Springs, Oklahoma. Fast, reliable legal document delivery throughout Tulsa County."
-        serviceArea="Tulsa County, Oklahoma"
+        serviceDescription="Professional legal document delivery in Sand Springs, Oklahoma."
+        serviceArea="Sand Springs, Tulsa County, Oklahoma"
         priceRange="$60-$150"
         serviceType="Legal Document Delivery"
       />
       <WebsiteSchema
         url="https://justlegalsolutions.org/seo/process-server-sand-springs"
         name="Sand Springs Process Server - Just Legal Solutions"
-        description="Professional process server in Sand Springs, Oklahoma. Fast, reliable legal document delivery throughout Tulsa County."
-        keywords={['Sand Springs process server', 'legal document delivery Sand Springs', 'process serving Tulsa County']}
+        description="Professional process server in Sand Springs, Oklahoma."
+        keywords={metadata.keywords as string[]}
       />
       <EnhancedBreadcrumbSchema items={breadcrumbItems} />
-      <EnhancedFAQSchema faqs={faqData} pageTitle="Sand Springs Process Server" />
+      <EnhancedFAQSchema faqs={sandSpringsData.faqs} pageTitle="Sand Springs Process Server" />
       <PerformanceSchema
         pageName="Sand Springs Process Server"
         pageUrl="/seo/process-server-sand-springs"
-        loadTime={2.1}
+        loadTime={1.8}
         mobileOptimized={true}
       />
 
       <Navbar />
-      <div className="min-h-screen bg-white pt-16">
-        <div className="max-w-4xl mx-auto px-4 py-16">
-          <div className="mb-8">
-            <VisualBreadcrumbs items={breadcrumbItems} />
-          </div>
-          <header className="mb-8">
-            <h1 className="text-4xl font-bold text-gray-900 mb-4 voice-optimized">
-              Sand Springs Process Server | Professional Legal Document Delivery
-            </h1>
-            <div className="bg-green-50 border-l-4 border-green-500 p-4 mb-6">
-              <p className="text-lg text-green-800 voice-answer">
-                <strong>Licensed Professional Service</strong> | Serving Sand Springs, Tulsa County | 
-                Updated: {lastUpdated} | 24/7 Emergency Availability
-              </p>
-            </div>
-          </header>
-
-          <section className="prose max-w-none mb-8">
-            <p className="text-lg mb-6 primary-answer">
-              Professional process server in Sand Springs, Oklahoma. Fast, reliable legal document 
-              delivery throughout Sand Springs and surrounding Tulsa County areas with 24/7 emergency service availability.
-            </p>
-            <div className="grid md:grid-cols-2 gap-8 mb-8">
-              <div className="bg-gray-50 rounded-lg p-6">
-                <h2 className="text-2xl font-semibold text-gray-900 mb-4">
-                  Sand Springs Service Coverage
-                </h2>
-                <ul className="space-y-2 text-gray-700">
-                  <li><strong>Primary Coverage:</strong> Sand Springs (74063)</li>
-                  <li><strong>County:</strong> Tulsa County</li>
-                  <li><strong>Population Served:</strong> 19,000+ residents</li>
-                  <li><strong>Service Radius:</strong> Complete Tulsa County coverage</li>
-                  <li><strong>Emergency Service:</strong> Available 24/7</li>
-                  <li><strong>Response Time:</strong> Under 2 hours for urgent matters</li>
-                </ul>
-                <h3 className="text-lg font-semibold text-gray-800 mt-4 mb-2">Area Highlights:</h3>
-                <ul className="list-disc ml-6 text-gray-700">
-                  <li>Historic downtown Sand Springs district</li>
-                  <li>Keystone State Park vicinity</li>
-                  <li>Arkansas River waterfront areas</li>
-                  <li>Residential neighborhoods and business districts</li>
-                  <li>Industrial and commercial zones</li>
-                </ul>
-              </div>
-              <div className="bg-blue-50 rounded-lg p-6">
-                <h2 className="text-2xl font-semibold text-blue-800 mb-4">
-                  Why Choose Our Sand Springs Process Servers
-                </h2>
-                <ul className="list-disc ml-6 text-blue-700 space-y-2">
-                  <li>Statewide Oklahoma licensing advantage</li>
-                  <li>24/7 emergency service availability</li>
-                  <li>GPS tracking and digital documentation</li>
-                  <li>Professional affidavits of service</li>
-                  <li>Multi-service capabilities (skip tracing, courier)</li>
-                  <li>Local knowledge of Sand Springs and Tulsa County</li>
-                  <li>Same-day and rush service options</li>
-                  <li>Competitive pricing with transparent rates</li>
-                  <li>Real-time status updates</li>
-                  <li>Court deadline compliance expertise</li>
-                </ul>
-                <div className="relative mt-6">
-                  <Image
-                    src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                    alt="Sand Springs Oklahoma legal documents"
-                    width={800}
-                    height={533}
-                    className="rounded-lg shadow-lg w-full h-auto"
-                    priority
-                  />
+      <div className="bg-white">
+        <header className="bg-blue-900 text-white py-12">
+            <div className="container mx-auto px-4 text-center">
+                <VisualBreadcrumbs items={breadcrumbItems} />
+                <h1 className="text-4xl md:text-5xl font-bold mt-2 mb-4">Process Server in Sand Springs, Oklahoma</h1>
+                <p className="text-xl md:text-2xl mb-8">Your Trusted Partner for Legal Document Service in Tulsa County.</p>
+                <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="/pricing" className="bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-lg text-lg font-semibold transition-colors">View Pricing & Get Quote</a>
+                    <a href="tel:5393676832" className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-lg text-lg font-semibold transition-colors">Call (539) 367-6832</a>
                 </div>
-              </div>
             </div>
-          </section>
+        </header>
 
-          <section className="bg-gray-50 rounded-lg p-6 mb-8">
-            <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-              Complete Process Serving Services in Sand Springs
-            </h2>
-            <div className="grid md:grid-cols-2 gap-6">
-              <div>
-                <h3 className="font-semibold text-gray-700 mb-3">Legal Documents We Serve:</h3>
-                <ul className="list-disc ml-6 text-gray-600 space-y-1">
-                  <li>Divorce and family court papers</li>
-                  <li>Civil lawsuit documents and complaints</li>
-                  <li>Small claims court papers</li>
-                  <li>Restraining orders and protective orders</li>
-                  <li>Eviction notices and landlord-tenant papers</li>
-                  <li>Business litigation and commercial disputes</li>
-                  <li>Debt collection documents</li>
-                  <li>Probate and estate papers</li>
-                </ul>
-              </div>
-              <div>
-                <h3 className="font-semibold text-gray-700 mb-3">Additional Professional Services:</h3>
-                <ul className="list-disc ml-6 text-gray-600 space-y-1">
-                  <li>Subpoenas and witness summons</li>
-                  <li>Court filing and document retrieval</li>
-                  <li>Skip tracing and investigation services</li>
-                  <li>Courier and delivery services</li>
-                  <li>Document notarization assistance</li>
-                  <li>Legal research and support</li>
-                  <li>Emergency 24/7 service availability</li>
-                  <li>Statewide Oklahoma coverage</li>
-                </ul>
-              </div>
-            </div>
-          </section>
-
-          <section className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-8">
-            <h2 className="text-2xl font-semibold text-blue-800 mb-4">
-              Sand Springs Process Serving Pricing & Service Options
-            </h2>
-            <div className="text-center mb-6">
-              <p className="text-blue-700 mb-4">
-                Process serving in Sand Springs starts as low as $30 for bulk orders. For complete pricing information including standard, rush, same-day, and emergency service options:
-              </p>
-              <a 
-                href="/pricing" 
-                className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg inline-block font-semibold transition-colors mr-4"
-              >
-                View Complete Pricing Guide
-              </a>
-            </div>
-            <p className="text-blue-600 text-center text-sm">
-              Transparent pricing with no hidden fees • Professional service guaranteed • 24/7 emergency availability
-            </p>
-          </section>
-
-          <section className="bg-blue-50 border border-blue-200 rounded-lg p-6 mt-8">
-            <h2 className="text-2xl font-bold text-blue-800 mb-6">
-              Frequently Asked Questions - Sand Springs Process Server
-            </h2>
-            <div className="space-y-4">
-              {faqData.map((item, index) => (
-                <div key={index} className="border-b border-blue-200 pb-4 last:border-b-0">
-                  <h3 className="font-semibold text-blue-700 mb-2 voice-optimized">
-                    {item.question}
-                  </h3>
-                  <p className="text-blue-600 voice-answer primary-answer">
-                    {item.answer}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </section>
-
-          <section className="bg-green-50 border border-green-200 rounded-lg p-6 mt-8">
-            <h2 className="text-2xl font-semibold text-green-800 mb-4">
-              Contact Sand Springs Process Server - 24/7 Service Available
-            </h2>
-            <p className="text-green-700 mb-6">
-              Professional process serving throughout Sand Springs and Tulsa County. 
-              Licensed statewide in Oklahoma with 24/7 emergency availability for urgent legal matters.
-            </p>
+        <main className="container mx-auto px-4 py-12 max-w-4xl">
             
-            <div className="grid md:grid-cols-2 gap-6">
-              <div>
-                <h3 className="text-xl font-bold text-green-800 mb-2">📞 Call or Text: (539) 367-6832</h3>
-                <p className="text-green-700">📧 info@justlegalsolutions.org</p>
-                <p className="text-green-700">📍 Serving Sand Springs, Tulsa County, Oklahoma</p>
-                <p className="text-green-700">🕒 24/7 Emergency Service Available</p>
-                <p className="text-green-700">⚡ Same-Day Service Available</p>
-                <p className="text-green-700">🎯 Licensed & Bonded Professionals</p>
-              </div>
-              <div className="text-center md:text-right">
-                <a 
-                  href="/pricing" 
-                  className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-lg inline-block font-semibold mb-3 transition-colors"
-                >
-                  View Pricing & Get Quote
-                </a>
-                <div className="space-x-4">
-                  <a 
-                    href="/services" 
-                    className="text-green-600 hover:text-green-700 underline font-medium"
-                  >
-                    View All Services
-                  </a>
+            <section className="mb-10 bg-gray-50 p-6 rounded-lg shadow-md">
+                <h2 className="text-3xl font-bold mb-4 text-gray-900">Local Expertise in Sand Springs</h2>
+                <p className="text-lg text-gray-700">{sandSpringsData.history}</p>
+            </section>
+
+            <section className="grid md:grid-cols-2 gap-8 mb-10">
+                <div className="bg-white border rounded-lg p-6 shadow">
+                    <h3 className="text-2xl font-semibold mb-3">Local Courthouse Information</h3>
+                    <p className="font-bold">{sandSpringsData.courthouse.name}</p>
+                    <p>{sandSpringsData.courthouse.address}</p>
+                    <p>Phone: {sandSpringsData.courthouse.phone}</p>
+                    <a href={sandSpringsData.courthouse.website} className="text-blue-700 underline" target="_blank" rel="noopener noreferrer">Official Website</a>
+                    <p className="text-sm text-gray-600 mt-2"><em>{sandSpringsData.courthouse.note}</em></p>
                 </div>
-              </div>
-            </div>
-          </section>
-        </div>
+                <div className="bg-white border rounded-lg p-6 shadow">
+                    <h3 className="text-2xl font-semibold mb-3">Oklahoma Law Compliance</h3>
+                    <p>{sandSpringsData.processServingLaw}</p>
+                </div>
+            </section>
+
+            <section className="mb-10">
+                <h2 className="text-3xl font-bold mb-4 text-gray-900">Sand Springs Service Areas</h2>
+                <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+                    {sandSpringsData.serviceAreas.map(area => (
+                        <div key={area} className="bg-gray-100 border rounded-lg px-4 py-2 text-center">
+                            <span className="text-gray-800 font-medium">📍 {area}</span>
+                        </div>
+                    ))}
+                </div>
+            </section>
+            
+            <section>
+                <h2 className="text-3xl font-bold mb-6 text-center text-gray-900">Frequently Asked Questions</h2>
+                <div className="space-y-6">
+                    {sandSpringsData.faqs.map((faq, idx) => (
+                        <div key={idx} className="bg-gray-50 p-5 rounded-lg shadow-md border-l-4 border-blue-500">
+                            <h3 className="text-lg font-bold text-gray-900">{faq.question}</h3>
+                            <p className="text-gray-700 mt-2">{faq.answer}</p>
+                        </div>
+                    ))}
+                </div>
+            </section>
+        </main>
       </div>
-      
       <Footer />
     </>
   );
 }
+
