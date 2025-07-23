@@ -1,25 +1,17 @@
 {
   "@context": "https://schema.org",
-  "@type": "LocalBusiness",
+  "@type": "ProfessionalService",
   "name": "Just Legal Solutions",
-  "url": "https://justlegalsolutions.org",
-  "dateModified": "2025-07-17T09:20:06.055Z",
-  "description": "Professional process serving in Oklahoma. Early morning process serving available - get ahead of your legal schedule!",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": 4.9,
-    "reviewCount": 146
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": {
+      "street": "Tulsa, OK",
+      "city": "Tulsa",
+      "state": "OK",
+      "zip": "74101"
+    },
+    "addressCountry": "US"
   },
-  "openingHours": "Mo-Fr 08:00-18:00",
-  "availableService": [
-    {
-      "@type": "Service",
-      "name": "Same-Day Process Serving",
-      "description": "Urgent document delivery available now. Current response time: 12 minutes",
-      "offers": {
-        "@type": "Offer",
-        "availability": "https://schema.org/InStock"
-      }
-    }
-  ]
+  "telephone": "(539) 367-6832",
+  "url": "https://justlegalsolutions.org"
 }
