@@ -1,54 +1,49 @@
+# A name for your workflow
+name: Update Sitemap
 
-name: Content Optimization & Freshness
-
+# Controls when the workflow will run
 on:
-  schedule:
-    # Every 3 days - Content freshness updates
-    - cron: '0 14 */3 * *'
-  workflow_dispatch:
+  # Triggers the workflow on push events to the main branch
+  push:
+    branches:
+      - main
 
-permissions:
-  contents: write
-
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  content-optimization:
+  # This workflow contains a single job called "update-sitemap"
+  update-sitemap:
+    # The type of runner that the job will run on
     runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - name: Checkout repository
+      # Step 1: Checks out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
+      # Step 2: Sets up Node.js so you can use npm and run your script
+      - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
-          cache: 'npm'
+          node-version: '20' # Use a long-term support (LTS) version of Node.js
+          cache: 'npm'      # Cache npm dependencies to speed up subsequent runs
 
-      - name: Install dependencies
-        run: npm ci
+      # Step 3: Installs the dependencies defined in your package.json file
+      - name: Install Dependencies
+        run: npm install
 
-      - name: Update sitemap with new cities
+      # Step 4: Runs your sitemap script
+      - name: Update Sitemap File
         run: node scripts/update-sitemap.js
 
-      - name: Validate all schema markup
-        run: node scripts/validate-schema.js
-
-      - name: Optimize internal linking
-        run: node scripts/optimize-internal-links.js
-
-      - name: Update FAQ content
-        run: node scripts/update-faq-content.js
-
-      - name: Update business schema with fresh data
-        run: node scripts/update-business-schema.js
-
-      - name: Commit content updates
+      # Step 5: Commits the updated sitemap.xml file to your repository
+      - name: Commit and Push Updated Sitemap
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add .
-          if git diff --staged --quiet; then
-            echo "No content changes to commit"
-          else
-            git commit -m "🔄 Content freshness update - $(date +'%Y-%m-%d')"
-            git push
-          fi
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          # Add the sitemap file. Change 'sitemap.xml' if your file has a different name.
+          git add sitemap.xml
+          # Commit the changes if there are any, otherwise do nothing.
+          git commit -m "Automated sitemap update" || echo "No changes to commit"
+          # Push the changes back to the main branch
+          git push
