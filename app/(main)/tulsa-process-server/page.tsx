@@ -1,7 +1,6 @@
 
 import { Metadata } from 'next';
 import { Navbar } from '@/components/ui/navbar';
-import { Footer } from '@/components/ui/footer';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Shield, Zap, Map, FileText, Star } from 'lucide-react';
@@ -215,13 +214,12 @@ const TulsaProcessServerPage = () => {
               <div className="flex flex-wrap justify-center gap-4">
                 <Link href="/pricing" className="text-blue-700 underline font-semibold">See Pricing</Link>
                 <Link href="/contact" className="text-blue-700 underline font-semibold">Contact Us</Link>
-                <Link href="/faq" className="text-blue-700 underline font-semibold">General FAQ</Link>
-                <Link href="/about" className="text-blue-700 underline font-semibold">About Just Legal Solutions</Link>
+                {/* Removed General FAQ and About Just Legal Solutions links */}
               </div>
             </div>
           </div>
         </main>
-        <Footer />
+        
       </>
     );
 };

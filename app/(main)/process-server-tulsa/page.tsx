@@ -1,5 +1,7 @@
 
 import React from 'react';
+import Image from 'next/image';
+import FAQSchema from '@/components/FAQSchema';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { Check } from 'lucide-react';
@@ -14,52 +16,124 @@ export const metadata: Metadata = {
 };
 
 export default function ProcessServerTulsaPage() {
+  const faqs = [
+    {
+      question: 'How fast can you serve legal documents in Tulsa County?',
+      answer: 'We offer same-day, rush, and standard service. Most documents in Tulsa County are attempted within hours of your request.'
+    },
+    {
+      question: 'Are your process servers licensed and insured?',
+      answer: 'Yes, all our Tulsa County process servers are fully licensed, bonded, and insured for your protection.'
+    },
+    {
+      question: 'What types of documents do you serve?',
+      answer: 'We serve summons, subpoenas, divorce papers, eviction notices, small claims, restraining orders, and more.'
+    },
+    {
+      question: 'Do you provide proof of service?',
+      answer: 'Yes, you receive a digital, court-admissible Affidavit of Service immediately after completion.'
+    },
+    {
+      question: 'Can you serve evasive or hard-to-find individuals?',
+      answer: 'Absolutely. We use skip tracing and advanced techniques to locate and serve even evasive subjects.'
+    },
+    {
+      question: 'What are your service areas?',
+      answer: 'We serve all of Tulsa County, including Broken Arrow, Bixby, Jenks, Owasso, Sand Springs, and every Tulsa neighborhood.'
+    }
+  ];
   return (
     <main className="min-h-screen bg-white">
-      <div className="bg-blue-800 text-white">
-        <div className="container mx-auto px-4 py-20 pt-32 text-center">
+      {/* Hero Section with Tulsa Image */}
+      <div className="relative bg-blue-800">
+        <div className="absolute inset-0">
+          <Image
+            src="/images/Tulsa_skyline_aerial,_April_2023.jpg"
+            alt="Tulsa Skyline Aerial View 2023"
+            fill
+            style={{ objectFit: 'cover', opacity: 0.35 }}
+            priority
+          />
+        </div>
+        <div className="relative container mx-auto px-4 py-20 pt-32 text-center">
           <h1 className="text-4xl md:text-5xl font-extrabold">Your Certified Process Server for Tulsa County</h1>
           <p className="mt-4 text-xl text-blue-200 max-w-3xl mx-auto">Ensuring your legal documents are served with precision, speed, and full compliance with Oklahoma law.</p>
         </div>
       </div>
 
-      <div className="py-20">
+      {/* Google Maps Section */}
+      <div className="container mx-auto px-4 py-12 text-center">
+        <h2 className="text-2xl font-bold mb-4 text-gray-900">Serving All of Tulsa County</h2>
+        <div className="flex justify-center">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d206181.1129303917!2d-95.87809005!3d36.15244105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b692b8ddd12e8f%3A0xe76910c81bd96af7!2sTulsa%2C%20OK!5e0!3m2!1sen!2sus!4v1753397857366!5m2!1sen!2sus" width="600" height="450" style={{border:0}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+      {/* Why Us Section */}
+      <div className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Comprehensive Service Across Tulsa County</h2>
-            <p className="text-lg text-gray-700 mb-10 text-center">
-              From the busiest downtown law firms to the quietest rural addresses, Just Legal Solutions provides complete and reliable process serving across all of Tulsa County. We understand the local courts and the importance of timely service for your legal case.
-            </p>
-            <div className="grid md:grid-cols-2 gap-8">
-              <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="font-semibold text-xl mb-3 text-blue-900">Services We Offer:</h3>
-                <ul className="space-y-3">
-                  <li className="flex items-start"><Check className="h-5 w-5 text-green-500 mr-2 mt-1" /><span>Serving Summons & Complaints</span></li>
-                  <li className="flex items-start"><Check className="h-5 w-5 text-green-500 mr-2 mt-1" /><span>Subpoena & Citation Delivery</span></li>
-                  <li className="flex items-start"><Check className="h-5 w-5 text-green-500 mr-2 mt-1" /><span>Family Law & Divorce Papers</span></li>
-                  <li className="flex items-start"><Check className="h-5 w-5 text-green-500 mr-2 mt-1" /><span>Eviction & Forcible Detainer Notices</span></li>
-                  <li className="flex items-start"><Check className="h-5 w-5 text-green-500 mr-2 mt-1" /><span>Court Filings at the Tulsa County Courthouse</span></li>
-                </ul>
-              </div>
-              <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="font-semibold text-xl mb-3 text-blue-900">Why Just Legal Solutions?</h3>
-                <ul className="space-y-3">
-                  <li className="flex items-start"><Check className="h-5 w-5 text-green-500 mr-2 mt-1" /><span>**Speed:** Same-day and rush services available.</span></li>
-                  <li className="flex items-start"><Check className="h-5 w-5 text-green-500 mr-2 mt-1" /><span>**Reliability:** High success rate, even with evasive subjects.</span></li>
-                  <li className="flex items-start"><Check className="h-5 w-5 text-green-500 mr-2 mt-1" /><span>**Compliance:** Strict adherence to all Oklahoma statutes.</span></li>
-                  <li className="flex items-start"><Check className="h-5 w-5 text-green-500 mr-2 mt-1" /><span>**Communication:** Regular status updates and prompt proof of service.</span></li>
-                  <li className="flex items-start"><Check className="h-5 w-5 text-green-500 mr-2 mt-1" /><span>**Professionalism:** Our servers are experienced and discreet.</span></li>
-                </ul>
-              </div>
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900">The Gold Standard in Tulsa Process Serving</h2>
+            <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">We combine speed, technology, and local expertise to offer unparalleled service.</p>
+          </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="text-center">
+              <span className="inline-block h-12 w-12 bg-yellow-100 rounded-full mb-2" />
+              <h3 className="mt-4 text-xl font-semibold">Same-Day Service</h3>
+              <p className="mt-2 text-gray-600">Urgent documents are our specialty. We guarantee same-day attempts for all rush orders in Tulsa County.</p>
             </div>
-            <div className="text-center mt-16">
-              <Link href="/pricing" className="bg-blue-600 text-white px-10 py-4 rounded-lg text-lg font-bold hover:bg-blue-700 transition-colors">
-                View Our Competitive Pricing
-              </Link>
+            <div className="text-center">
+              <span className="inline-block h-12 w-12 bg-green-100 rounded-full mb-2" />
+              <h3 className="mt-4 text-xl font-semibold">Licensed & Insured</h3>
+              <p className="mt-2 text-gray-600">Our process servers are fully licensed and insured in Oklahoma for your complete peace of mind.</p>
+            </div>
+            <div className="text-center">
+              <span className="inline-block h-12 w-12 bg-blue-100 rounded-full mb-2" />
+              <h3 className="mt-4 text-xl font-semibold">Tulsa County Coverage</h3>
+              <p className="mt-2 text-gray-600">We serve documents in Tulsa, Broken Arrow, Bixby, Jenks, Owasso, and all surrounding areas.</p>
+            </div>
+            <div className="text-center">
+              <span className="inline-block h-12 w-12 bg-purple-100 rounded-full mb-2" />
+              <h3 className="mt-4 text-xl font-semibold">Digital Proof of Service</h3>
+              <p className="mt-2 text-gray-600">Receive a legally compliant, digital affidavit of service as soon as the job is complete.</p>
             </div>
           </div>
         </div>
       </div>
+
+      {/* FAQ Section */}
+      <div className="py-16 bg-gray-50 border-t">
+        <div className="container mx-auto px-4 max-w-3xl">
+          <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8 text-center">Tulsa County Frequently Asked Questions</h2>
+          <FAQSchema />
+          <ul className="space-y-6 mt-8">
+            {faqs.map((faq, idx) => (
+              <li key={idx} className="bg-white p-6 rounded-lg shadow border-l-4 border-blue-500">
+                <h3 className="text-lg font-bold text-gray-900">{faq.question}</h3>
+                <p className="text-gray-700 mt-2">{faq.answer}</p>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+
+      {/* Speakable Schema for Voice Search */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'WebPage',
+          'name': 'Tulsa County Process Server | Fast & Reliable | Just Legal Solutions',
+          'speakable': {
+            '@type': 'SpeakableSpecification',
+            'xpath': [
+              '/html/head/title',
+              '/html/body//h1',
+              '/html/body//section[contains(@class, "faq")]//h3'
+            ]
+          },
+          'url': 'https://justlegalsolutions.org/process-server-tulsa'
+        })
+      }} />
     </main>
   );
 }
