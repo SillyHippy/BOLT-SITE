@@ -6,8 +6,8 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from '@/components/ui/accordion';
-// Use a direct relative path to guarantee the component is found
-import JsonLd from '../JsonLd'; 
+// Use a direct relative path WITH the file extension for maximum compatibility
+import JsonLd from '../JsonLd.tsx'; 
 import defaultFaqs from '@/data/default-faqs.json';
 
 interface Faq {
