@@ -6,7 +6,6 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from '@/components/ui/accordion';
-// Remove the .tsx extension to fix the build error
 import JsonLd from '../JsonLd'; 
 import defaultFaqs from '@/data/default-faqs.json';
 
@@ -17,11 +16,10 @@ interface Faq {
 
 interface EnhancedFaqSchemaProps {
   faqs?: Faq[];
-  pageTitle?: string; // Kept for backward compatibility
+  pageTitle?: string; 
 }
 
 export default function EnhancedFaqSchema({ faqs }: EnhancedFaqSchemaProps) {
-  // Use the provided faqs, or use the defaultFaqs if none are provided
   const finalFaqs = faqs && faqs.length > 0 ? faqs : defaultFaqs;
 
   if (!finalFaqs || finalFaqs.length === 0) {
@@ -45,6 +43,7 @@ export default function EnhancedFaqSchema({ faqs }: EnhancedFaqSchemaProps) {
     <div>
       <JsonLd data={faqSchema} />
       <Accordion type="single" collapsible className="w-full">
+        {/* This line has been corrected. It was '(index, faq)' before. */}
         {finalFaqs.map((faq, index) => (
           <AccordionItem value={`item-${index}`} key={index}>
             <AccordionTrigger>{faq.question}</AccordionTrigger>
