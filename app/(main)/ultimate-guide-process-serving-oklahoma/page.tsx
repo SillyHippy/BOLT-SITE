@@ -3,7 +3,7 @@ import path from 'path';
 import Image from 'next/image';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
-import { Terminal, Book, Users, Briefcase, Award, Scale } from 'lucide-react';
+import { Terminal, Book, Users, Briefcase, Award, Scale, Map, Video, User } from 'lucide-react';
 import MinimalSocialProof from '@/components/MinimalSocialProof';
 
 // We are keeping the FAQ data directly in this file for simplicity and reliability
@@ -18,11 +18,11 @@ const pageFaqs = [
   },
   {
     "question": "What is the fastest way to get legal documents served?",
-    "answer": "Most professional process servers offer 'Rush' or 'Same-Day' service for an additional fee. This prioritizes your case to ensure the quickest possible delivery, often within a few hours."
+    "answer": "Most professional process servers offer &apos;Rush&apos; or &apos;Same-Day&apos; service for an additional fee. This prioritizes your case to ensure the quickest possible delivery, often within a few hours."
   },
   {
     "question": "How much does it cost to hire a process server?",
-    "answer": "Pricing varies based on location, type of service, and attempts required. For a detailed breakdown, please see our centralized <a href='/pricing'>Pricing Page</a>."
+    "answer": "Pricing varies based on location, type of service, and attempts required. For a detailed breakdown, please see our centralized <a href=&apos;/pricing&apos;>Pricing Page</a>."
   }
 ];
 
@@ -57,23 +57,20 @@ export default function UltimateGuidePage() {
           <CardContent><p>A process server is a licensed professional responsible for delivering legal documents to individuals involved in court cases. Proper service of process is a constitutional requirement that ensures the defendant&apos;s officially notified of the legal action against them, giving them the opportunity to respond. In Oklahoma, these professionals must be licensed, bonded, and adhere to strict legal standards.</p></CardContent>
         </Card>
 
-        {/* --- NEW SECTION: Key Oklahoma Statutes --- */}
         <Card className="mb-8">
           <CardHeader><CardTitle className="flex items-center"><Scale className="mr-2 h-6 w-6" />Key Oklahoma Statutes for Process Serving</CardTitle></CardHeader>
           <CardContent>
-            <p>Oklahoma's rules for civil procedure directly govern the service of process. Understanding these statutes is critical for ensuring service is valid. Here are the most important ones:</p>
+            <p>Oklahoma&apos;s rules for civil procedure directly govern the service of process. Understanding these statutes is critical for ensuring service is valid. Here are the most important ones:</p>
             <ul className="list-disc pl-5 my-4">
                 <li>
-                  <strong><a href="https://law.justia.com/codes/oklahoma/2022/title-12/section-2004/" target="_blank" rel="noopener noreferrer">Title 12, § 2004 - Process</a>:</strong> This is the core statute, detailing who can be served and how (personal delivery, leaving at dwelling, etc.). It outlines the methods for serving individuals, corporations, and other entities.
+                  <strong><a href="https://law.justia.com/codes/oklahoma/2022/title-12/section-2004/" target="_blank" rel="noopener noreferrer">Title 12, § 2004 - Process</a>:</strong> This is the core statute, detailing who can be served and how (personal delivery, leaving at dwelling, etc.).
                 </li>
                 <li>
-                  <strong><a href="https://law.justia.com/codes/oklahoma/2014/title-12/section-158.1/" target="_blank" rel="noopener noreferrer">Title 12, § 158.1 - Licensing of Private Process Servers</a>:</strong> This statute mandates that all private process servers must be licensed by the district court. It sets the requirements, including age (18+), residency, and the necessity of a bond.
+                  <strong><a href="https://law.justia.com/codes/oklahoma/2014/title-12/section-158.1/" target="_blank" rel="noopener noreferrer">Title 12, § 158.1 - Licensing of Private Process Servers</a>:</strong> This statute mandates that all private process servers must be licensed by the district court.
                 </li>
                 <li>
-                  <strong>Fines and Penalties:</strong> You are correct, fines can be significant. Impersonating an officer of the court or failing to comply with statutes can lead to fines up to $1,000 and the invalidation of the service. These penalties ensure the integrity of the legal process.
+                  <strong>Fines and Penalties:</strong> Impersonating an officer of the court or failing to comply with statutes can lead to fines up to $1,000 and the invalidation of the service.
                 </li>
-                <li>
-                  <strong>Affidavit of Service:</strong> After service is complete, the process server must file a sworn "Affidavit of Service" with the court. This document, required by law, serves as the official proof that the documents were delivered according to legal standards.</li>
             </ul>
           </CardContent>
         </Card>
@@ -81,12 +78,12 @@ export default function UltimateGuidePage() {
         <Card className="mb-8">
           <CardHeader><CardTitle className="flex items-center"><Briefcase className="mr-2 h-6 w-6" />Types of Documents We Serve</CardTitle></CardHeader>
           <CardContent>
-            <p>Our expertise covers all forms of legal document delivery. We handle each with the specific care and legal diligence it requires, including:</p>
+            <p>Our expertise covers all forms of legal document delivery, including:</p>
             <ul className="list-disc pl-5 my-4">
-                <li><strong>Summons and Complaints:</strong> The initial documents that begin a lawsuit.</li>
-                <li><strong>Subpoenas:</strong> A writ ordering a person to attend a court proceeding or produce documents.</li>
-                <li><strong><a href="/seo/eviction-notice-process-server">Eviction Notices</a>:</strong> Time-critical delivery of eviction notices and forcible entry actions.</li>
-                <li><strong>Court Filings:</strong> Reliable courier services for filing documents directly with the court clerk.</li>
+                <li><strong>Summons and Complaints</strong></li>
+                <li><strong>Subpoenas</strong></li>
+                <li><strong><a href="/seo/eviction-notice-process-server">Eviction Notices</a></strong></li>
+                <li><strong>Court Filings</strong></li>
             </ul>
           </CardContent>
         </Card>
@@ -94,7 +91,7 @@ export default function UltimateGuidePage() {
         <Card className="mb-8">
           <CardHeader><CardTitle className="flex items-center"><Award className="mr-2 h-6 w-6" />Expert Insights From Our Blog</CardTitle></CardHeader>
           <CardContent>
-            <p>We believe in educating our clients. For a deeper dive into specific topics, read our expert articles on Medium:</p>
+            <p>For a deeper dive into specific topics, read our expert articles on Medium:</p>
             <ul className="list-disc pl-5 my-4">
                 <li>
                   <strong><a href="https://medium.com/@justlegalsolutionsok/why-you-need-a-professional-process-server-in-oklahoma-fast-reliable-service-from-just-legal-195dc334cc8e" target="_blank" rel="noopener noreferrer">Why You Need a Professional Process Server in Oklahoma</a></strong>
@@ -105,42 +102,48 @@ export default function UltimateGuidePage() {
             </ul>
           </CardContent>
         </Card>
-        
-        <Card className="mb-8">
-          <CardHeader><CardTitle className="flex items-center"><Users className="mr-2 h-6 w-6" />Who We Serve</CardTitle></CardHeader>
-          <CardContent>
-            <p>We provide services tailored to the needs of our diverse clientele.</p>
-            <ul className="list-disc pl-5 my-4">
-                <li><strong>Attorneys and Law Firms:</strong> A reliable extension of your firm for fast, accurate service.</li>
-                <li><strong>Businesses and Corporations:</strong> Professional and discreet handling of corporate legal service.</li>
-                <li><strong>Property Management Companies:</strong> A key partner for eviction notices and landlord/tenant disputes.</li>
-                <li><strong>Individuals:</strong> Assisting private citizens with sensitivity and respect.</li>
-            </ul>
+
+        {/* --- Author Bio Card --- */}
+        <Card className="mb-8 bg-slate-50">
+          <CardHeader>
+            <CardTitle className="flex items-center"><User className="mr-2 h-6 w-6" />About the Author</CardTitle>
+          </CardHeader>
+          <CardContent className="flex items-center">
+            <div className="mr-4 flex-shrink-0">
+              <Image 
+                src="/1000005212.jpg" 
+                alt="Author Headshot, Just Legal Solutions" 
+                width={100} 
+                height={100} 
+                className="rounded-full" 
+              />
+            </div>
+            <div>
+              <p className="font-semibold">[Your Name], Founder</p>
+              <p className="text-sm">
+                With over [X] years of experience serving legal documents across Oklahoma, [Your Name] is a licensed and bonded expert in the field. This guide was written to provide attorneys and individuals with the clear, authoritative information they need to navigate the process serving system.
+              </p>
+            </div>
           </CardContent>
         </Card>
 
+        {/* --- Service Area Map --- */}
         <Card className="mb-8">
-          <CardHeader><CardTitle className="flex items-center"><Book className="mr-2 h-6 w-6" />Glossary of Common Terms</CardTitle></CardHeader>
+          <CardHeader>
+            <CardTitle className="flex items-center"><Map className="mr-2 h-6 w-6" />Our Primary Service Area</CardTitle>
+          </CardHeader>
           <CardContent>
-            <ul className="list-none my-4">
-                <li><strong>Affidavit of Service:</strong> Your sworn, official proof that documents were delivered.</li>
-                <li><strong>Due Diligence:</strong> The reasonable effort required to locate and serve a person.</li>
-                <li><strong>Personal Service:</strong> Physically handing the documents directly to the named person.</li>
-                <li><strong>Substituted Service:</strong> Leaving documents with a competent adult at the defendant’s home.</li>
-            </ul>
-          </CardContent>
-        </Card>
-
-        <Card className="mb-8">
-          <CardHeader><CardTitle>Process Serving Services Across Oklahoma</CardTitle></CardHeader>
-          <CardContent>
-            <p>We serve across the state, including:</p>
-            <ul className="list-disc pl-5 my-4">
-              <li><a href="/seo/tulsa-process-server">Process Serving in Tulsa</a></li>
-              <li><a href="/seo/jenks-process-server">Process Serving in Jenks</a></li>
-              <li><a href="/seo/sand-springs-process-server">Process Serving in Sand Springs</a></li>
-              <li><a href="/seo/owasso-process-server">Process Serving in Owasso</a></li>
-            </ul>
+            <div className="w-full h-80 rounded-lg overflow-hidden">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d412235.1229762693!2d-96.2239487441333!3d36.13012920197728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b69324e23801f7%3A0x4296e34c3835c065!2sTulsa%20County%2C%20OK!5e0!3m2!1sen!2sus!4v1690222882674!5m2!1sen!2sus"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen={false}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
           </CardContent>
         </Card>
         
