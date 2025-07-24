@@ -1,4 +1,3 @@
-import EnhancedFaqSchema from '@/components/ui/enhanced-faq-schema';
 import { promises as fs } from 'fs';
 import path from 'path';
 import Image from 'next/image';
@@ -7,22 +6,28 @@ import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
 import { Terminal, Book, Users, Briefcase } from 'lucide-react';
 import MinimalSocialProof from '@/components/MinimalSocialProof';
 
-interface FaqItem {
-  question: string;
-  answer: string;
-}
+// We are keeping the FAQ data here
+const pageFaqs = [
+  {
+    "question": "Do I have to accept papers from a process server in Oklahoma?",
+    "answer": "While you can refuse to physically take the papers, it does not stop the legal process. The server can note your refusal and may be permitted to leave the documents nearby, and the service is still considered valid."
+  },
+  {
+    "question": "What is an Affidavit of Service and why is it important?",
+    "answer": "An Affidavit of Service is a notarized document signed by the process server that proves the legal documents were delivered. It details the date, time, location, and manner of service. This document is filed with the court and serves as your official proof that the other party was notified."
+  },
+  {
+    "question": "What is the fastest way to get legal documents served?",
+    "answer": "Most professional process servers offer 'Rush' or 'Same-Day' service for an additional fee. This prioritizes your case to ensure the quickest possible delivery, often within a few hours."
+  },
+  {
+    "question": "How much does it cost to hire a process server?",
+    "answer": "Pricing varies based on location, type of service, and attempts required. For a detailed breakdown, please see our centralized <a href='/pricing'>Pricing Page</a>."
+  }
+];
 
-interface PageMeta {
-  title: string;
-  description: string;
-  keywords: string[];
-  faq: FaqItem[];
-}
-
-export default async function UltimateGuidePage() {
-  const metaPath = path.join(process.cwd(), 'app', '(main)', 'ultimate-guide-process-serving-oklahoma', 'meta.json');
-  const metaFile = await fs.readFile(metaPath, 'utf8');
-  const meta: PageMeta = JSON.parse(metaFile);
+export default function UltimateGuidePage() {
+  const pageTitle = "The Ultimate Guide to Process Serving in Oklahoma";
 
   return (
     <div className="container mx-auto px-4 py-8">
@@ -36,7 +41,7 @@ export default async function UltimateGuidePage() {
           priority
         />
         <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-          <h1 className="text-4xl font-bold text-white text-center px-4">{meta.title}</h1>
+          <h1 className="text-4xl font-bold text-white text-center px-4">{pageTitle}</h1>
         </div>
       </div>
 
@@ -124,7 +129,17 @@ export default async function UltimateGuidePage() {
         
         <Card>
           <CardHeader><CardTitle>Frequently Asked Questions</CardTitle></CardHeader>
-          <CardContent><EnhancedFaqSchema faqs={meta.faq} /></CardContent>
+          <CardContent>
+            {/* --- This is the new, simple list that will work correctly --- */}
+            <div className="space-y-4">
+              {pageFaqs.map((faq, index) => (
+                <div key={index} className="border-b pb-4">
+                  <p className="font-semibold">{faq.question}</p>
+                  <div className="text-gray-700" dangerouslySetInnerHTML={{ __html: faq.answer }} />
+                </div>
+              ))}
+            </div>
+          </CardContent>
         </Card>
 
       </div>
