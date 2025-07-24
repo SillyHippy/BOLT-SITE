@@ -1,12 +1,18 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // trailingSlash: true, // This line is correctly removed
   output: 'export',
   distDir: 'out',
   images: {
-    unoptimized: true, // This line disables image optimization to fix the build
-    // --- Add this 'remotePatterns' section to allow external images ---
+    unoptimized: true,
+    // Add the new domain to the remotePatterns
     remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'www.okbar.org',
+        port: '',
+        pathname: '/**',
+      },
+      // You can keep the old one or remove it
       {
         protocol: 'http',
         hostname: 'googleusercontent.com',
@@ -15,9 +21,7 @@ const nextConfig = {
       },
     ],
   },
-  experimental: {
-    // No unrecognized keys
-  },
+  experimental: {},
   typescript: {
     ignoreBuildErrors: false,
   },
@@ -32,9 +36,7 @@ const nextConfig = {
       ...config.resolve.alias,
       '@': require('path').resolve(__dirname, './'),
     };
-
     config.resolve.extensions = ['.tsx', '.ts', '.js', '.jsx', ...config.resolve.extensions];
-
     return config;
   },
   env: {
