@@ -3,7 +3,7 @@ import path from 'path';
 import Image from 'next/image';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
-import { Terminal, Book, Users, Briefcase, Award } from 'lucide-react';
+import { Terminal, Book, Users, Briefcase, Award, Scale } from 'lucide-react';
 import MinimalSocialProof from '@/components/MinimalSocialProof';
 
 // We are keeping the FAQ data directly in this file for simplicity and reliability
@@ -57,6 +57,27 @@ export default function UltimateGuidePage() {
           <CardContent><p>A process server is a licensed professional responsible for delivering legal documents to individuals involved in court cases. Proper service of process is a constitutional requirement that ensures the defendant&apos;s officially notified of the legal action against them, giving them the opportunity to respond. In Oklahoma, these professionals must be licensed, bonded, and adhere to strict legal standards.</p></CardContent>
         </Card>
 
+        {/* --- NEW SECTION: Key Oklahoma Statutes --- */}
+        <Card className="mb-8">
+          <CardHeader><CardTitle className="flex items-center"><Scale className="mr-2 h-6 w-6" />Key Oklahoma Statutes for Process Serving</CardTitle></CardHeader>
+          <CardContent>
+            <p>Oklahoma's rules for civil procedure directly govern the service of process. Understanding these statutes is critical for ensuring service is valid. Here are the most important ones:</p>
+            <ul className="list-disc pl-5 my-4">
+                <li>
+                  <strong><a href="https://law.justia.com/codes/oklahoma/2022/title-12/section-2004/" target="_blank" rel="noopener noreferrer">Title 12, § 2004 - Process</a>:</strong> This is the core statute, detailing who can be served and how (personal delivery, leaving at dwelling, etc.). It outlines the methods for serving individuals, corporations, and other entities.
+                </li>
+                <li>
+                  <strong><a href="https://law.justia.com/codes/oklahoma/2014/title-12/section-158.1/" target="_blank" rel="noopener noreferrer">Title 12, § 158.1 - Licensing of Private Process Servers</a>:</strong> This statute mandates that all private process servers must be licensed by the district court. It sets the requirements, including age (18+), residency, and the necessity of a bond.
+                </li>
+                <li>
+                  <strong>Fines and Penalties:</strong> You are correct, fines can be significant. Impersonating an officer of the court or failing to comply with statutes can lead to fines up to $1,000 and the invalidation of the service. These penalties ensure the integrity of the legal process.
+                </li>
+                <li>
+                  <strong>Affidavit of Service:</strong> After service is complete, the process server must file a sworn "Affidavit of Service" with the court. This document, required by law, serves as the official proof that the documents were delivered according to legal standards.</li>
+            </ul>
+          </CardContent>
+        </Card>
+
         <Card className="mb-8">
           <CardHeader><CardTitle className="flex items-center"><Briefcase className="mr-2 h-6 w-6" />Types of Documents We Serve</CardTitle></CardHeader>
           <CardContent>
@@ -70,11 +91,8 @@ export default function UltimateGuidePage() {
           </CardContent>
         </Card>
         
-        {/* --- Expert Insights Section with Medium Links --- */}
         <Card className="mb-8">
-          <CardHeader>
-            <CardTitle className="flex items-center"><Award className="mr-2 h-6 w-6" />Expert Insights From Our Blog</CardTitle>
-          </CardHeader>
+          <CardHeader><CardTitle className="flex items-center"><Award className="mr-2 h-6 w-6" />Expert Insights From Our Blog</CardTitle></CardHeader>
           <CardContent>
             <p>We believe in educating our clients. For a deeper dive into specific topics, read our expert articles on Medium:</p>
             <ul className="list-disc pl-5 my-4">
@@ -85,25 +103,6 @@ export default function UltimateGuidePage() {
                   <strong><a href="https://medium.com/@justlegalsolutionsok/my-doctor-or-theirs-the-workers-comp-choice-that-defined-my-life-after-injury-b3f1a53b4e9b" target="_blank" rel="noopener noreferrer">My Doctor or Theirs? The Workers’ Comp Choice That Defined My Life</a></strong>
                 </li>
             </ul>
-          </CardContent>
-        </Card>
-
-        <Card className="mb-8">
-          <CardHeader><CardTitle>Understanding Oklahoma&apos;s Process Serving Laws</CardTitle></CardHeader>
-          <CardContent>
-            <Alert>
-              <Terminal className="h-4 w-4" />
-              <AlertTitle>Critical Legal Information</AlertTitle>
-              <AlertDescription>
-                <p>Oklahoma has specific statutes governing how legal documents must be served. Key points include:</p>
-                <ul className="list-disc pl-5 my-4">
-                  <li><strong>Licensing is Mandatory:</strong> Process servers must be licensed, at least 18, with no felony convictions.</li>
-                  <li><strong>Ethical Conduct:</strong> Impersonating a law enforcement officer is illegal.</li>
-                  <li><strong>Alternative Service:</strong> Allowed with court permission if a person avoids service.</li>
-                  <li><strong>Fines & Penalties:</strong> Can be as high as $1,000 for improper service.</li>
-                </ul>
-              </AlertDescription>
-            </Alert>
           </CardContent>
         </Card>
         
