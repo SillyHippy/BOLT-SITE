@@ -6,8 +6,8 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from '@/components/ui/accordion';
-import { JsonLd } from '@/components/JsonLd';
-// Import your new comprehensive default FAQs
+// Import JsonLd without curly braces to match its export style
+import JsonLd from '@/components/JsonLd';
 import defaultFaqs from '@/data/default-faqs.json';
 
 interface Faq {
@@ -16,14 +16,11 @@ interface Faq {
 }
 
 interface EnhancedFaqSchemaProps {
-  // Make the faqs prop optional
   faqs?: Faq[];
 }
 
 export default function EnhancedFaqSchema({ faqs }: EnhancedFaqSchemaProps) {
-  // This is the smart logic:
-  // Use the specific faqs if they are provided for a page,
-  // otherwise, use the comprehensive defaultFaqs.
+  // Use the provided faqs, or use the defaultFaqs if none are provided
   const finalFaqs = faqs && faqs.length > 0 ? faqs : defaultFaqs;
 
   if (!finalFaqs || finalFaqs.length === 0) {
