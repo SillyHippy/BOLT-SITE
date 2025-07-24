@@ -27,19 +27,19 @@ export default async function UltimateGuidePage() {
     <div className="prose lg:prose-xl mx-auto px-4 py-8">
       <h1>{meta.title}</h1>
       <p>
-        Welcome to the most comprehensive resource for understanding process serving in Oklahoma. Whether you're an attorney, a business, or an individual navigating the legal system, this guide covers everything you need to know about the laws, procedures, and best practices for legal document delivery in the Sooner State.
+        Welcome to the most comprehensive resource for understanding process serving in Oklahoma. Whether you&apos;re an attorney, a business, or an individual navigating the legal system, this guide covers everything you need to know about the laws, procedures, and best practices for legal document delivery in the Sooner State.
       </p>
 
       <hr className="my-8" />
 
       <h2>What is a Process Server?</h2>
       <p>
-        A process server is a licensed professional responsible for delivering legal documents—such as summons, subpoenas, and complaints—to individuals involved in court cases. Proper service of process is a constitutional requirement that ensures the defendant is officially notified of the legal action against them, giving them the opportunity to respond. In Oklahoma, these professionals must be licensed, bonded, and adhere to strict legal standards.
+        A process server is a licensed professional responsible for delivering legal documents—such as summons, subpoenas, and complaints—to individuals involved in court cases. Proper service of process is a constitutional requirement that ensures the defendant&apos;s officially notified of the legal action against them, giving them the opportunity to respond. In Oklahoma, these professionals must be licensed, bonded, and adhere to strict legal standards.
       </p>
 
       <hr className="my-8" />
 
-      <h2>Understanding Oklahoma's Process Serving Laws</h2>
+      <h2>Understanding Oklahoma&apos;s Process Serving Laws</h2>
       <p>
         Oklahoma has specific statutes governing how legal documents must be served. Failure to comply with these rules can jeopardize a case. Key points include:
       </p>
