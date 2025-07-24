@@ -70,7 +70,7 @@ export default function UltimateGuidePage() {
           </CardContent>
         </Card>
         
-        {/* --- Expert Insights Section with Correct Links --- */}
+        {/* --- Expert Insights Section with Medium Links --- */}
         <Card className="mb-8">
           <CardHeader>
             <CardTitle className="flex items-center"><Award className="mr-2 h-6 w-6" />Expert Insights From Our Blog</CardTitle>
@@ -80,11 +80,9 @@ export default function UltimateGuidePage() {
             <ul className="list-disc pl-5 my-4">
                 <li>
                   <strong><a href="https://medium.com/@justlegalsolutionsok/why-you-need-a-professional-process-server-in-oklahoma-fast-reliable-service-from-just-legal-195dc334cc8e" target="_blank" rel="noopener noreferrer">Why You Need a Professional Process Server in Oklahoma</a></strong>
-                  <p className="text-sm">Explore how GPS tracking, photo proof, and digital reporting are increasing reliability and transparency in the process serving industry.</p>
                 </li>
                 <li>
                   <strong><a href="https://medium.com/@justlegalsolutionsok/my-doctor-or-theirs-the-workers-comp-choice-that-defined-my-life-after-injury-b3f1a53b4e9b" target="_blank" rel="noopener noreferrer">My Doctor or Theirs? The Workers’ Comp Choice That Defined My Life</a></strong>
-                  <p className="text-sm">Learn the critical questions to ask and the red flags to look for to ensure your legal documents are served correctly and ethically the first time.</p>
                 </li>
             </ul>
           </CardContent>
