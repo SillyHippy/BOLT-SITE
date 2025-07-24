@@ -6,7 +6,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from '@/components/ui/accordion';
-import JsonLd from '../JsonLd'; 
+// We no longer import JsonLd
 import defaultFaqs from '@/data/default-faqs.json';
 
 interface Faq {
@@ -41,9 +41,13 @@ export default function EnhancedFaqSchema({ faqs }: EnhancedFaqSchemaProps) {
 
   return (
     <div>
-      <JsonLd data={faqSchema} />
+      {/* The logic from JsonLd.tsx is now directly included here */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      
       <Accordion type="single" collapsible className="w-full">
-        {/* This line has been corrected. It was '(index, faq)' before. */}
         {finalFaqs.map((faq, index) => (
           <AccordionItem value={`item-${index}`} key={index}>
             <AccordionTrigger>{faq.question}</AccordionTrigger>
