@@ -6,7 +6,6 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from '@/components/ui/accordion';
-// Use a direct relative path WITH the file extension for maximum compatibility
 import JsonLd from '../JsonLd.tsx'; 
 import defaultFaqs from '@/data/default-faqs.json';
 
@@ -15,12 +14,14 @@ interface Faq {
   answer: string;
 }
 
+// This is the corrected interface that makes pageTitle optional
 interface EnhancedFaqSchemaProps {
   faqs?: Faq[];
+  pageTitle?: string; // Make the pageTitle prop optional
 }
 
-export default function EnhancedFaqSchema({ faqs }: EnhancedFaqSchemaProps) {
-  // Use the provided faqs, OR use the defaultFaqs if none are provided
+export default function EnhancedFaqSchema({ faqs, pageTitle }: EnhancedFaqSchemaProps) {
+  // Use the provided faqs, or use the defaultFaqs if none are provided
   const finalFaqs = faqs && faqs.length > 0 ? faqs : defaultFaqs;
 
   if (!finalFaqs || finalFaqs.length === 0) {
@@ -44,7 +45,7 @@ export default function EnhancedFaqSchema({ faqs }: EnhancedFaqSchemaProps) {
     <div>
       <JsonLd data={faqSchema} />
       <Accordion type="single" collapsible className="w-full">
-        {finalFaqs.map((faq, index) => (
+        {finalFaqs.map((index, faq) => (
           <AccordionItem value={`item-${index}`} key={index}>
             <AccordionTrigger>{faq.question}</AccordionTrigger>
             <AccordionContent>
