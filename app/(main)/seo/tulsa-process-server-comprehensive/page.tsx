@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
+
+import Image from 'next/image';
 import BusinessSchema from '@/components/BusinessSchema';
 import ServiceSchema from '@/components/ServiceSchema';
 import FAQSchema from '@/components/FAQSchema';
@@ -117,65 +119,96 @@ export default function TulsaProcessServerComprehensive() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      {/* The main layout now handles the Navbar, Footer, and top padding */}
+      {/* Speakable Schema for Voice Search */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'WebPage',
+          'name': 'Comprehensive Process Server Tulsa County | Same Day Legal Document Delivery',
+          'speakable': {
+            '@type': 'SpeakableSpecification',
+            'xpath': [
+              '/html/head/title',
+              '/html/body//h1',
+              '/html/body//section[contains(@class, "faq")]//h3'
+            ]
+          },
+          'url': 'https://justlegalsolutions.org/seo/tulsa-process-server-comprehensive'
+        })
+      }} />
       <div className="min-h-screen bg-gray-50">
-        <div className="bg-blue-900 text-white">
-            {/* This is the fix on the page. 
-              Removed the extra top padding (pt-32) so it respects the layout's padding.
-            */}
-            <div className="container mx-auto px-4 py-20 text-center">
-                <h1 className="text-4xl md:text-5xl font-extrabold">Comprehensive Process Serving in Tulsa County</h1>
-                <p className="mt-4 text-xl text-blue-200 max-w-3xl mx-auto">The definitive resource for professional, reliable, and swift legal document service in the greater Tulsa area.</p>
-            </div>
+        {/* Tulsa Image Banner */}
+        <div className="relative bg-blue-900 text-white">
+          <div className="absolute inset-0">
+            <Image
+              src="/images/Tulsa_11.jpg"
+              alt="Tulsa downtown legal district"
+              fill
+              style={{ objectFit: 'cover', opacity: 0.35 }}
+              priority
+            />
+          </div>
+          <div className="relative container mx-auto px-4 py-20 text-center">
+            <h1 className="text-4xl md:text-5xl font-extrabold">Comprehensive Process Serving in Tulsa County</h1>
+            <p className="mt-4 text-xl text-blue-200 max-w-3xl mx-auto">The definitive resource for professional, reliable, and swift legal document service in the greater Tulsa area.</p>
+          </div>
+        </div>
+
+        {/* Google Maps Section */}
+        <div className="container mx-auto px-4 py-12 text-center">
+          <h2 className="text-2xl font-bold mb-4 text-gray-900">Serving All of Tulsa County</h2>
+          <div className="flex justify-center">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d206181.1129303917!2d-95.87809005!3d36.15244105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b692b8ddd12e8f%3A0xe76910c81bd96af7!2sTulsa%2C%20OK!5e0!3m2!1sen!2sus!4v1753397857366!5m2!1sen!2sus" width="600" height="450" style={{border:0}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+          </div>
         </div>
 
         <main className="container mx-auto px-4 py-16">
-            <div className="max-w-4xl mx-auto">
-                <section className="mb-12">
-                    <h2 className="text-3xl font-bold text-gray-800 mb-6">Your Guide to Professional Service of Process in Tulsa</h2>
-                    <p className="text-lg text-gray-700 mb-4">
-                        {tulsaData.history}
-                    </p>
-                    <p className="text-lg text-gray-700">
-                        This page serves as a comprehensive overview of our capabilities, service areas, and unwavering commitment to excellence in the field of legal support services.
-                    </p>
-                </section>
+          <div className="max-w-4xl mx-auto">
+            <section className="mb-12">
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">Your Guide to Professional Service of Process in Tulsa</h2>
+              <p className="text-lg text-gray-700 mb-4">
+                {tulsaData.history}
+              </p>
+              <p className="text-lg text-gray-700">
+                This page serves as a comprehensive overview of our capabilities, service areas, and unwavering commitment to excellence in the field of legal support services.
+              </p>
+            </section>
 
-                <section className="bg-white p-8 rounded-lg shadow-md mb-12">
-                    <h3 className="text-2xl font-bold text-blue-800 mb-4">Core Services Offered Across Tulsa County</h3>
-                    <ul className="list-disc list-inside space-y-3 text-gray-700">
-                        <li><strong>Summons and Complaints:</strong> The critical first step in any lawsuit, served promptly to establish jurisdiction.</li>
-                        <li><strong>Subpoenas:</strong> Legally compelling witnesses to testify or produce evidence, delivered with proof of service.</li>
-                        <li><strong>Family Law Documents:</strong> Handling sensitive papers like divorce petitions and child custody orders with care and discretion.</li>
-                        <li><strong>Eviction and Forcible Detainer:</strong> Serving notices to tenants in strict accordance with Oklahoma&apos;s landlord-tenant laws.</li>
-                        <li><strong>Garnishments and Writs:</strong> Executing court orders for asset seizure and wage garnishment.</li>
-                        <li><strong>Skip Tracing:</strong> Professional location services for hard-to-find individuals.</li>
-                    </ul>
-                </section>
+            <section className="bg-white p-8 rounded-lg shadow-md mb-12">
+              <h3 className="text-2xl font-bold text-blue-800 mb-4">Core Services Offered Across Tulsa County</h3>
+              <ul className="list-disc list-inside space-y-3 text-gray-700">
+                <li><strong>Summons and Complaints:</strong> The critical first step in any lawsuit, served promptly to establish jurisdiction.</li>
+                <li><strong>Subpoenas:</strong> Legally compelling witnesses to testify or produce evidence, delivered with proof of service.</li>
+                <li><strong>Family Law Documents:</strong> Handling sensitive papers like divorce petitions and child custody orders with care and discretion.</li>
+                <li><strong>Eviction and Forcible Detainer:</strong> Serving notices to tenants in strict accordance with Oklahoma&apos;s landlord-tenant laws.</li>
+                <li><strong>Garnishments and Writs:</strong> Executing court orders for asset seizure and wage garnishment.</li>
+                <li><strong>Skip Tracing:</strong> Professional location services for hard-to-find individuals.</li>
+              </ul>
+            </section>
 
-                 <section className="mb-12">
-                    <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">Serving Every Corner of Tulsa County</h2>
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
-                        {tulsaData.serviceAreas.map(city => (
-                            <div key={city} className="bg-blue-50 p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-                                <p className="font-semibold text-blue-900">{city}</p>
-                            </div>
-                        ))}
-                    </div>
-                 </section>
+            <section className="mb-12">
+              <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">Serving Every Corner of Tulsa County</h2>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+                {tulsaData.serviceAreas.map(city => (
+                  <div key={city} className="bg-blue-50 p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                    <p className="font-semibold text-blue-900">{city}</p>
+                  </div>
+                ))}
+              </div>
+            </section>
 
-                <section className="bg-white py-16">
-                    <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Frequently Asked Questions</h2>
-                    <div className="space-y-8">
-                        {tulsaData.faqs.map((faq, index) => (
-                            <div key={index}>
-                                <h3 className="text-xl font-semibold text-gray-900">{faq.q}</h3>
-                                <p className="mt-2 text-gray-700">{faq.a}</p>
-                            </div>
-                        ))}
-                    </div>
-                </section>
-            </div>
+            <section className="bg-white py-16">
+              <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Tulsa-Specific Frequently Asked Questions</h2>
+              <div className="space-y-8">
+                {tulsaData.faqs.map((faq, index) => (
+                  <div key={index}>
+                    <h3 className="text-xl font-semibold text-gray-900">{faq.q}</h3>
+                    <p className="mt-2 text-gray-700">{faq.a}</p>
+                  </div>
+                ))}
+              </div>
+            </section>
+          </div>
         </main>
       </div>
       <BusinessSchema />

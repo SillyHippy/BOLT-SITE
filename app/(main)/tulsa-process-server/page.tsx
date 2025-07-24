@@ -34,32 +34,28 @@ const TulsaProcessServerPage = () => {
     ];
     const faqs = [
       {
-        question: 'How fast can you serve legal documents in Tulsa?',
-        answer: 'We offer same-day, rush, and standard service. Most documents in Tulsa are attempted within hours of your request.'
+        question: 'What makes your Tulsa process serving different from others?',
+        answer: 'We are locally based, know every Tulsa neighborhood, and offer true same-day service with real-time updates. Our team is trusted by Tulsa attorneys and residents alike.'
       },
       {
-        question: 'Are your process servers licensed and insured?',
-        answer: 'Yes, all our Tulsa process servers are fully licensed, bonded, and insured for your protection.'
+        question: 'Can you deliver legal documents to businesses in downtown Tulsa high-rises?',
+        answer: 'Yes! We are experienced with secure access protocols and can deliver to any business, law firm, or government office in downtown Tulsa.'
       },
       {
-        question: 'What types of documents do you serve?',
-        answer: 'We serve summons, subpoenas, divorce papers, eviction notices, small claims, restraining orders, and more.'
+        question: 'How do you handle urgent or after-hours serves in Tulsa?',
+        answer: 'We offer 24/7 emergency process serving in Tulsa. If you have a rush or after-hours need, call us and we will prioritize your request.'
       },
       {
-        question: 'Do you provide proof of service?',
-        answer: 'Yes, you receive a digital, court-admissible Affidavit of Service immediately after completion.'
+        question: 'Do you serve eviction notices and family law documents in Tulsa County?',
+        answer: 'Absolutely. We handle all types of legal documents, including sensitive family law and eviction cases, with professionalism and discretion.'
       },
       {
-        question: 'Can you serve evasive or hard-to-find individuals?',
-        answer: 'Absolutely. We use skip tracing and advanced techniques to locate and serve even evasive subjects.'
+        question: 'Can you help if the person to be served is avoiding service?',
+        answer: 'Yes, we use skip tracing and advanced investigative techniques to locate and serve even evasive individuals anywhere in Tulsa County.'
       },
       {
-        question: 'What are your service areas?',
-        answer: 'We serve all of Tulsa County, including Broken Arrow, Bixby, Jenks, Owasso, Sand Springs, and every Tulsa neighborhood.'
-      },
-      {
-        question: 'How much does process serving cost in Tulsa?',
-        answer: 'Our rates are competitive and transparent. See our pricing page or call for a custom quote.'
+        question: 'How quickly can you serve papers in Tulsa?',
+        answer: 'Most serves are attempted within hours. Emergency 2-hour rush service is available for urgent cases.'
       }
     ];
     const testimonials = [
@@ -80,12 +76,12 @@ const TulsaProcessServerPage = () => {
       <>
         <Navbar />
         <main className="min-h-screen bg-white">
-          {/* Hero Section */}
+          {/* Hero Section with Tulsa Image */}
           <div className="relative bg-gray-900">
             <div className="absolute inset-0">
               <Image
-                src="/images/tulsa-route66.jpg"
-                alt="Tulsa Route 66 Gateway and train crossing"
+                src="/images/Tulsa_skyline_aerial,_April_2023.jpg"
+                alt="Tulsa Skyline Aerial View 2023"
                 layout="fill"
                 objectFit="cover"
                 className="opacity-40"
@@ -104,6 +100,14 @@ const TulsaProcessServerPage = () => {
                   Contact Us
                 </a>
               </div>
+            </div>
+          </div>
+
+          {/* Google Maps Section */}
+          <div className="container mx-auto px-4 py-12 text-center">
+            <h2 className="text-2xl font-bold mb-4 text-gray-900">Serving All of Tulsa County</h2>
+            <div className="flex justify-center">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d206181.1129303917!2d-95.87809005!3d36.15244105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b692b8ddd12e8f%3A0xe76910c81bd96af7!2sTulsa%2C%20OK!5e0!3m2!1sen!2sus!4v1753397857366!5m2!1sen!2sus" width="600" height="450" style={{border:0}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
 
@@ -154,7 +158,7 @@ const TulsaProcessServerPage = () => {
           {/* FAQ Section */}
           <div className="py-16 bg-gray-50 border-t">
             <div className="container mx-auto px-4 max-w-3xl">
-              <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8 text-center">Frequently Asked Questions</h2>
+              <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8 text-center">Tulsa-Specific Frequently Asked Questions</h2>
               <FAQSchema />
               <ul className="space-y-6 mt-8">
                 {faqs.map((faq, idx) => (
@@ -166,6 +170,24 @@ const TulsaProcessServerPage = () => {
               </ul>
             </div>
           </div>
+
+          {/* Speakable Schema for Voice Search */}
+          <script type="application/ld+json" dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'WebPage',
+              'name': 'Process Server Tulsa OK | Same-Day Service | Just Legal Solutions',
+              'speakable': {
+                '@type': 'SpeakableSpecification',
+                'xpath': [
+                  '/html/head/title',
+                  '/html/body//h1',
+                  '/html/body//section[contains(@class, "faq")]//h3'
+                ]
+              },
+              'url': 'https://justlegalsolutions.org/tulsa-process-server'
+            })
+          }} />
 
           {/* Testimonials Section */}
           <div className="py-16 bg-white border-t">
