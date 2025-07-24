@@ -78,6 +78,7 @@ export default function ProcessServerTulsaPage() {
         </div>
       </section>
 
+
       {/* Service Highlights / Recent Activity */}
       <section className="bg-blue-50 py-8 border-b">
         <div className="container mx-auto px-4 max-w-3xl">
@@ -85,7 +86,8 @@ export default function ProcessServerTulsaPage() {
           <ul className="list-disc list-inside text-gray-700">
             <li>Delivered court filings in Jenks this week</li>
             <li>Expedited eviction notice served in Midtown Tulsa</li>
-            <li>Rush subpoena delivered to downtown Tulsa law firm</li>
+            <li>Rush subpoena delivered to Broken Arrow business</li>
+            <li>Family law documents filed at Tulsa County Courthouse</li>
           </ul>
         </div>
       </section>
@@ -101,34 +103,10 @@ export default function ProcessServerTulsaPage() {
           </div>
           <div className="flex-1">
             <h4 className="font-bold text-blue-800 mb-2">Oklahoma Process Service Statutes</h4>
-            <a href="https://www.oscn.net/applications/oscn/Index.asp?ftdb=STOKST43&level=1" className="text-blue-700 underline" target="_blank" rel="noopener noreferrer">View Statutes</a>
+            <a href="https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=438505" className="text-blue-700 underline" target="_blank" rel="noopener noreferrer">View Statutes</a>
           </div>
         </div>
       </aside>
-
-      {/* Engagement Prompt */}
-      <section className="bg-white py-8 border-b">
-        <div className="container mx-auto px-4 max-w-3xl text-center">
-          <h3 className="text-xl font-semibold text-blue-900 mb-2">Have more Tulsa legal questions?</h3>
-          <p className="text-gray-700 mb-4">Suggest an FAQ or <a href="/contact" className="text-blue-700 underline">contact our experts today</a>!</p>
-        </div>
-      </section>
-      {/* Hero Section with Tulsa Image */}
-      <div className="relative bg-blue-800">
-        <div className="absolute inset-0">
-          <Image
-            src="/images/Tulsa_skyline_aerial,_April_2023.jpg"
-            alt="Tulsa Skyline Aerial View 2023"
-            fill
-            style={{ objectFit: 'cover', opacity: 0.35 }}
-            priority
-          />
-        </div>
-        <div className="relative container mx-auto px-4 py-20 pt-32 text-center">
-          <h1 className="text-4xl md:text-5xl font-extrabold">Your Certified Process Server for Tulsa County</h1>
-          <p className="mt-4 text-xl text-blue-200 max-w-3xl mx-auto">Ensuring your legal documents are served with precision, speed, and full compliance with Oklahoma law.</p>
-        </div>
-      </div>
 
       {/* Google Maps Section */}
       <div className="container mx-auto px-4 py-12 text-center">
