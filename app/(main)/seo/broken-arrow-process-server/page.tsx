@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
+import Image from "next/image";
+import Link from "next/link";
 import BusinessSchema from '@/components/BusinessSchema';
 import ServiceSchema from '@/components/ServiceSchema';
 import FAQSchema from '@/components/FAQSchema';
@@ -103,60 +105,103 @@ export default function BrokenArrowProcessServer() {
       />
       {/* Navbar and Footer are handled by the main layout */}
       <div className="min-h-screen bg-gray-50 pt-16">
+        {/* Hero with Local Image */}
         <div className="bg-blue-900 text-white">
-            <div className="container mx-auto px-4 py-20 pt-12 text-center">
-                <h1 className="text-4xl md:text-5xl font-extrabold">Broken Arrow, Oklahoma Process Server</h1>
-                <p className="mt-4 text-xl text-blue-200 max-w-3xl mx-auto">Expert Legal Document Delivery in Tulsa & Wagoner Counties</p>
+          <div className="container mx-auto px-4 py-20 pt-12 text-center">
+            <h1 className="text-4xl md:text-5xl font-extrabold">Broken Arrow, Oklahoma Process Server</h1>
+            <p className="mt-4 text-xl text-blue-200 max-w-3xl mx-auto">Expert Legal Document Delivery in Tulsa & Wagoner Counties</p>
+            <div className="flex justify-center mt-8">
+              <Image src="/images/broken-arrow-rose-district.jpg" width={600} height={350} alt="Broken Arrow Rose District legal process server" className="rounded-lg shadow-lg" />
             </div>
+            <p className="text-sm text-blue-100 mt-2">Serving the Rose District and all of Broken Arrow</p>
+          </div>
         </div>
 
         <main className="container mx-auto px-4 py-16">
-            <div className="max-w-4xl mx-auto">
-                <section className="mb-12">
-                    <h2 className="text-3xl font-bold text-gray-800 mb-6">Local Expertise in Broken Arrow</h2>
-                    <p className="text-lg text-gray-700 mb-4">
-                        {brokenArrowData.history}
-                    </p>
-                </section>
+          <div className="max-w-4xl mx-auto">
+            {/* About Broken Arrow / Local Expertise */}
+            <section className="mb-12">
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">Local Expertise in Broken Arrow</h2>
+              <p className="text-lg text-gray-700 mb-4">{brokenArrowData.history}</p>
+              <div className="flex justify-center mt-4">
+                <Image src="/images/broken-arrow-municipal-court.jpg" width={400} height={166} alt="Broken Arrow Municipal Court building" className="rounded shadow" />
+              </div>
+              <p className="text-xs text-gray-500 text-center mt-1">Broken Arrow Municipal Court – Trusted for legal document delivery</p>
+            </section>
 
-                <section className="grid md:grid-cols-2 gap-8 mb-12">
-                    <div className="bg-white border rounded-lg p-6 shadow-md">
-                        <h3 className="text-2xl font-semibold mb-3">Local Courthouse Info</h3>
-                        <p className="font-bold">{brokenArrowData.courthouse.name}</p>
-                        <p>{brokenArrowData.courthouse.address}</p>
-                        <p>Phone: {brokenArrowData.courthouse.phone}</p>
-                        <a href={brokenArrowData.courthouse.website} className="text-blue-700 underline" target="_blank" rel="noopener noreferrer">Official Website</a>
-                        <p className="text-sm text-gray-600 mt-2"><em>{brokenArrowData.courthouse.note}</em></p>
-                    </div>
-                    <div className="bg-white border rounded-lg p-6 shadow-md">
-                        <h3 className="text-2xl font-semibold mb-3">Oklahoma Law Compliance</h3>
-                        <p>{brokenArrowData.processServingLaw}</p>
-                    </div>
-                </section>
+            {/* Community Connection */}
+            <section className="bg-blue-50 p-6 rounded-lg mb-12">
+              <h3 className="text-xl font-semibold text-blue-900 mb-2">Community Connection</h3>
+              <p className="text-gray-700 mb-2">Just Legal Solutions officially opened in Broken Arrow in 2025, building on legal experience since 2020. We partner with local attorneys, participate in Chamber of Commerce events, and support Broken Arrow’s legal and civic community.</p>
+              <p className="text-gray-700">Our team understands the unique needs of Broken Arrow’s neighborhoods and businesses, providing fast, compliant service across Tulsa and Wagoner counties.</p>
+            </section>
 
-                 <section className="mb-12">
-                    <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">Serving All of Broken Arrow and Beyond</h2>
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
-                        {brokenArrowData.serviceAreas.map(city => (
-                            <div key={city} className="bg-blue-50 p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-                                <p className="font-semibold text-blue-900">{city}</p>
-                            </div>
-                        ))}
-                    </div>
-                 </section>
+            {/* Service Area Details & Featured Neighborhood */}
+            <section className="mb-12">
+              <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">Serving All of Broken Arrow and Beyond</h2>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center mb-4">
+                {brokenArrowData.serviceAreas.map(city => (
+                  <div key={city} className="bg-blue-50 p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                    <p className="font-semibold text-blue-900">{city}</p>
+                  </div>
+                ))}
+              </div>
+              <div className="flex justify-center mt-4">
+                <Image src="/images/forest-ridge-broken-arrow.jpg" width={400} height={250} alt="Forest Ridge neighborhood in Broken Arrow" className="rounded shadow" />
+              </div>
+              <p className="text-xs text-gray-500 text-center mt-1">Featured Neighborhood: Forest Ridge – Secure, professional process serving</p>
+            </section>
 
-                <section className="bg-white py-16">
-                    <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Frequently Asked Questions</h2>
-                    <div className="space-y-8">
-                        {brokenArrowData.faqs.map((faq, index) => (
-                            <div key={index}>
-                                <h3 className="text-xl font-semibold text-gray-900">{faq.q}</h3>
-                                <p className="mt-2 text-gray-700">{faq.a}</p>
-                            </div>
-                        ))}
-                    </div>
-                </section>
-            </div>
+            {/* Local CTAs */}
+            <section className="bg-white py-6 border-b mb-12 text-center">
+              <h3 className="text-xl font-bold text-blue-900 mb-2">Need a licensed process server in Broken Arrow?</h3>
+              <p className="text-gray-800 mb-2">Contact us for same-day legal document service or call for a quote!</p>
+              <a href="/contact" className="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-700 transition">Get Started</a>
+            </section>
+
+            {/* FAQs with Local Focus */}
+            <section className="bg-white py-16">
+              <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Frequently Asked Questions</h2>
+              <div className="space-y-8">
+                {brokenArrowData.faqs.map((faq, index) => (
+                  <div key={index}>
+                    <h3 className="text-xl font-semibold text-gray-900">{faq.q}</h3>
+                    <p className="mt-2 text-gray-700">{faq.a}</p>
+                  </div>
+                ))}
+                {/* Additional Local FAQs */}
+                <div>
+                  <h3 className="text-xl font-semibold text-gray-900">Do you offer same-day or rush service options in Broken Arrow?</h3>
+                  <p className="mt-2 text-gray-700">Yes, we provide same-day and emergency rush service for urgent legal matters throughout Broken Arrow and surrounding areas.</p>
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-gray-900">How do you handle legal document delivery during holidays or inclement weather?</h3>
+                  <p className="mt-2 text-gray-700">We monitor weather and holiday schedules closely and communicate with clients to ensure timely, secure delivery, even in challenging conditions.</p>
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-gray-900">Can you serve documents at workplaces or commercial locations in Broken Arrow?</h3>
+                  <p className="mt-2 text-gray-700">Absolutely. We regularly serve legal documents at offices, businesses, and commercial properties throughout Broken Arrow, always with professionalism and discretion.</p>
+                </div>
+              </div>
+            </section>
+
+            {/* Engagement CTA */}
+            <section className="bg-blue-100 py-8 border-t text-center">
+              <h3 className="text-xl font-bold text-blue-900 mb-2">Have more Broken Arrow legal questions?</h3>
+              <p className="text-gray-800 mb-4">Suggest an FAQ or <a href="/contact" className="underline text-blue-700 font-semibold">contact our experts today</a>!</p>
+            </section>
+
+            {/* Internal Links for SEO */}
+            <section className="py-8 text-center">
+              <h4 className="text-lg font-semibold mb-2">Explore More</h4>
+              <div className="flex flex-wrap justify-center gap-4">
+                <Link href="/tulsa-process-server" className="text-blue-700 underline font-semibold">Tulsa Process Server</Link>
+                <Link href="/courier-services-tulsa" className="text-blue-700 underline font-semibold">Courier Services Tulsa</Link>
+                <Link href="/pricing" className="text-blue-700 underline font-semibold">See Pricing</Link>
+                <Link href="/contact" className="text-blue-700 underline font-semibold">Contact Us</Link>
+              </div>
+            </section>
+          </div>
         </main>
       </div>
       <BusinessSchema />
