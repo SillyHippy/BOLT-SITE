@@ -36,6 +36,7 @@ export default function CourierServicesTulsaPage() {
       answer: 'Call us or use our online form to request a rush or after-hours delivery. We are available 24/7 for urgent needs.'
     }
   ];
+
   return (
     <>
       {/* Speakable Schema for Voice Search */}
@@ -56,48 +57,48 @@ export default function CourierServicesTulsaPage() {
         })
       }} />
       <main className="min-h-screen pt-12 bg-white">
-        {/* Tulsa Image Banner */}
-        <div className="relative bg-gray-900">
-          <div className="absolute inset-0">
-            <Image
-              src="/images/tulsadriller.png"
-              alt="Tulsa Driller Landmark Courier Service"
-              layout="fill"
-              objectFit="cover"
-              className="opacity-40"
-            />
+        {/* Unique Tulsa Courier History Section */}
+        <section className="bg-white py-10 border-b">
+          <div className="container mx-auto px-4 max-w-3xl">
+            <h2 className="text-2xl font-bold text-blue-900 mb-4">Tulsa’s Courier Tradition</h2>
+            <p className="text-lg text-gray-700">From the early “Oil Capital” days to the modern business corridor, Tulsa has always depended on reliable movement of documents. Law firms, medical offices, and corporate clients across Tulsa County trust local couriers to keep business flowing smoothly. Our service continues this tradition—adapting to changes in Tulsa’s bustling economy, embracing new neighborhoods, and delivering with security and speed to every sector, from downtown courthouses to lakeside offices.</p>
           </div>
-          <div className="relative max-w-7xl mx-auto px-4 py-20 text-center text-white">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">Professional Courier Services in Tulsa County, Oklahoma</h1>
-            <p className="text-xl text-gray-200 max-w-3xl mx-auto">
-              Secure, reliable courier services for legal documents, court filings, and business materials throughout Tulsa County and Oklahoma.
-            </p>
+        </section>
+        {/* By the Numbers Stats Bar */}
+        <section className="bg-blue-50 py-6 border-b">
+          <div className="container mx-auto flex flex-wrap justify-center gap-8 text-center">
+            <div>
+              <span className="block text-3xl font-bold text-blue-800">97%</span>
+              <span className="block text-gray-700">First-attempt serve success</span>
+            </div>
+            <div>
+              <span className="block text-3xl font-bold text-blue-800">6,000+</span>
+              <span className="block text-gray-700">Documents delivered countywide</span>
+            </div>
+            <div>
+              <span className="block text-3xl font-bold text-blue-800">Serving Tulsa</span>
+              <span className="block text-gray-700">since 2018</span>
+            </div>
           </div>
-        </div>
-
-        {/* Google Maps Section */}
-        <div className="container mx-auto px-4 py-12 text-center">
-          <h2 className="text-2xl font-bold mb-4 text-gray-900">Serving All of Tulsa County</h2>
-          <div className="flex justify-center">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d206181.1129303917!2d-95.87809005!3d36.15244105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b692b8ddd12e8f%3A0xe76910c81bd96af7!2sTulsa%2C%20OK!5e0!3m2!1sen!2sus!4v1753397857366!5m2!1sen!2sus" width="600" height="450" style={{border:0}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
-          </div>
-        </div>
-
-        <div className="max-w-7xl mx-auto px-4 py-16">
-          <div className="mb-12 text-center">
-            <Image
-              src="/images/secure-delivery.webp"
-              alt="Secure courier delivery in Tulsa County"
-              width={800}
-              height={400}
-              className="rounded-lg shadow-lg mx-auto"
-              priority
-            />
-          </div>
-
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">Reliable Legal & Professional Courier in Tulsa</h2>
-            <p className="text-lg text-gray-700 mb-6 text-center">
+        </section>
+      </main>
+    </>
+  );
+}
+                  <li>Professional & Uniformed Couriers</li>
+                  <li>Competitive Flat-Rate Pricing</li>
+                </ul>
+              </div>
+            </div>
+            <div className="text-center mt-12">
+              <a
+                href="/pricing"
+                className="inline-block bg-blue-600 text-white px-10 py-4 rounded-lg hover:bg-blue-700 transition-colors font-bold text-lg shadow-lg"
+              >
+      </main>
+    </>
+  );
+}
               When time-sensitive documents need to be delivered securely, Just Legal Solutions offers the premier courier service in Tulsa. We specialize in the swift and confidential transport of legal documents, courthouse filings, and professional packages.
             </p>
             <div className="grid md:grid-cols-2 gap-8 text-left mt-10">

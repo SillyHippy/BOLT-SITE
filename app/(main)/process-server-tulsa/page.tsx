@@ -44,6 +44,75 @@ export default function ProcessServerTulsaPage() {
   ];
   return (
     <main className="min-h-screen bg-white">
+      {/* Unique Tulsa County History Section */}
+      <section className="bg-white py-10 border-b">
+        <div className="container mx-auto px-4 max-w-3xl">
+          <h2 className="text-2xl font-bold text-blue-900 mb-4">Tulsa County’s Legal Heart</h2>
+          <p className="text-lg text-gray-700">Nestled along the Arkansas River, Tulsa County includes a patchwork of cities—Tulsa, Broken Arrow, Jenks, Bixby—each with a unique civic and legal culture shaped by growth since the railroad era. Landmark rulings and evolving family, real estate, and civil courts have made this district the judicial heart of eastern Oklahoma. We’ve navigated these neighborhoods for years, staying up to date with shifting court practices and the unique challenges of serving papers across diverse settings—from historic routes to modern suburbs.</p>
+        </div>
+      </section>
+
+      {/* By the Numbers Stats Bar */}
+      <section className="bg-blue-50 py-6 border-b">
+        <div className="container mx-auto flex flex-wrap justify-center gap-8 text-center">
+          <div>
+            <span className="block text-3xl font-bold text-blue-800">97%</span>
+            <span className="block text-gray-700">First-attempt serve success</span>
+          </div>
+          <div>
+            <span className="block text-3xl font-bold text-blue-800">6,000+</span>
+            <span className="block text-gray-700">Documents delivered countywide</span>
+          </div>
+          <div>
+            <span className="block text-3xl font-bold text-blue-800">Serving Tulsa</span>
+            <span className="block text-gray-700">since 2018</span>
+          </div>
+        </div>
+      </section>
+
+      {/* Community Involvement */}
+      <section className="bg-white py-8 border-b">
+        <div className="container mx-auto px-4 max-w-3xl">
+          <h3 className="text-xl font-semibold text-blue-900 mb-2">Community Involvement</h3>
+          <p className="text-gray-700">We proudly support Tulsa’s legal community through pro bono work, local charity events, and partnerships with Tulsa schools and law groups.</p>
+        </div>
+      </section>
+
+      {/* Service Highlights / Recent Activity */}
+      <section className="bg-blue-50 py-8 border-b">
+        <div className="container mx-auto px-4 max-w-3xl">
+          <h3 className="text-xl font-semibold text-blue-900 mb-2">Recent Service Highlights</h3>
+          <ul className="list-disc list-inside text-gray-700">
+            <li>Delivered court filings in Jenks this week</li>
+            <li>Expedited eviction notice served in Midtown Tulsa</li>
+            <li>Rush subpoena delivered to downtown Tulsa law firm</li>
+          </ul>
+        </div>
+      </section>
+
+      {/* Quick Law Resource Box */}
+      <aside className="bg-gray-100 py-6 border-b">
+        <div className="container mx-auto px-4 max-w-3xl flex flex-col md:flex-row gap-6">
+          <div className="flex-1">
+            <h4 className="font-bold text-blue-800 mb-2">Tulsa District Court</h4>
+            <p className="text-gray-700 mb-1">500 S Denver Ave, Tulsa, OK 74103</p>
+            <a href="https://www.tulsacountydistrictcourt.org/" className="text-blue-700 underline" target="_blank" rel="noopener noreferrer">Visit Court Website</a>
+            <p className="text-gray-700 mt-1">(918) 596-5000</p>
+          </div>
+          <div className="flex-1">
+            <h4 className="font-bold text-blue-800 mb-2">Oklahoma Process Service Statutes</h4>
+            <a href="https://www.oscn.net/applications/oscn/Index.asp?ftdb=STOKST43&level=1" className="text-blue-700 underline" target="_blank" rel="noopener noreferrer">View Statutes</a>
+          </div>
+        </div>
+      </aside>
+
+      {/* Engagement Prompt */}
+      <section className="bg-white py-8 border-b">
+        <div className="container mx-auto px-4 max-w-3xl text-center">
+          <h3 className="text-xl font-semibold text-blue-900 mb-2">Have more Tulsa legal questions?</h3>
+          <p className="text-gray-700 mb-4">Suggest an FAQ or <a href="/contact" className="text-blue-700 underline">contact our experts today</a>!</p>
+        </div>
+      </section>
       {/* Hero Section with Tulsa Image */}
       <div className="relative bg-blue-800">
         <div className="absolute inset-0">
