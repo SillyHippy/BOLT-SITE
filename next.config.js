@@ -5,6 +5,15 @@ const nextConfig = {
   distDir: 'out',
   images: {
     unoptimized: true, // This line disables image optimization to fix the build
+    // --- Add this 'remotePatterns' section to allow external images ---
+    remotePatterns: [
+      {
+        protocol: 'http',
+        hostname: 'googleusercontent.com',
+        port: '',
+        pathname: '/**',
+      },
+    ],
   },
   experimental: {
     // No unrecognized keys
