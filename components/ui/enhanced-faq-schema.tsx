@@ -6,8 +6,8 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from '@/components/ui/accordion';
-// Import JsonLd without curly braces to match its export style
-import JsonLd from '@/components/JsonLd';
+// Use a direct relative path to guarantee the component is found
+import JsonLd from '../JsonLd'; 
 import defaultFaqs from '@/data/default-faqs.json';
 
 interface Faq {
@@ -20,7 +20,7 @@ interface EnhancedFaqSchemaProps {
 }
 
 export default function EnhancedFaqSchema({ faqs }: EnhancedFaqSchemaProps) {
-  // Use the provided faqs, or use the defaultFaqs if none are provided
+  // Use the provided faqs, OR use the defaultFaqs if none are provided
   const finalFaqs = faqs && faqs.length > 0 ? faqs : defaultFaqs;
 
   if (!finalFaqs || finalFaqs.length === 0) {
