@@ -1,4 +1,4 @@
-import { EnhancedFaqSchema } from '@/components/ui/enhanced-faq-schema';
+import EnhancedFaqSchema from '@/components/ui/enhanced-faq-schema';
 import { promises as fs } from 'fs';
 import path from 'path';
 
@@ -34,7 +34,7 @@ export default async function UltimateGuidePage() {
 
       <h2>What is a Process Server?</h2>
       <p>
-        A process server is a licensed professional responsible for delivering legal documents—such as summons, subpoenas, and complaints—to individuals involved in court cases. Proper service of process is a constitutional requirement that ensures the defendant&apos;s officially notified of the legal action against them, giving them the opportunity to respond. In Oklahoma, these professionals must be licensed, bonded, and adhere to strict legal standards.
+        A process server is a licensed professional responsible for delivering legal documents—such as summons, subpoenas, and complaints—to individuals involved in court cases. Proper service of process is a constitutional requirement that ensures the defendant is officially notified of the legal action against them, giving them the opportunity to respond. In Oklahoma, these professionals must be licensed, bonded, and adhere to strict legal standards.
       </p>
 
       <hr className="my-8" />
