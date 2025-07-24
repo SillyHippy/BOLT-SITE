@@ -1,6 +1,7 @@
 import EnhancedFaqSchema from '@/components/ui/enhanced-faq-schema';
 import { promises as fs } from 'fs';
 import path from 'path';
+import Image from 'next/image';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
 import { Terminal, Book, Users, Briefcase } from 'lucide-react';
@@ -27,10 +28,12 @@ export default async function UltimateGuidePage() {
     <div className="container mx-auto px-4 py-8">
       
       <div className="relative w-full h-64 rounded-lg overflow-hidden mb-8">
-        <img
-          src="http://googleusercontent.com/image_collection/image_retrieval/6331469264717875101_0"
-          alt="The Ultimate Guide to Process Serving in Oklahoma"
-          className="absolute inset-0 w-full h-full object-cover"
+        <Image
+          src="https://www.okbar.org/wp-content/uploads/2019/02/Fotolia_173531621_Subscription_Monthly_M-gavel-books.jpg"
+          alt="Oklahoma Bar Association Gavel and Books - Legal Guide"
+          layout="fill"
+          objectFit="cover"
+          priority
         />
         <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
           <h1 className="text-4xl font-bold text-white text-center px-4">{meta.title}</h1>
