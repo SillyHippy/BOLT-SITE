@@ -7,30 +7,33 @@ import {
   AccordionTrigger,
 } from '@/components/ui/accordion';
 import { JsonLd } from '@/components/JsonLd';
+// Import your new comprehensive default FAQs
+import defaultFaqs from '@/data/default-faqs.json';
 
-// Define the type for a single FAQ item
 interface Faq {
   question: string;
   answer: string;
 }
 
-// Define the type for the component's props
 interface EnhancedFaqSchemaProps {
-  faqs: Faq[];
+  // Make the faqs prop optional
+  faqs?: Faq[];
 }
 
-// This is the updated, corrected component
 export default function EnhancedFaqSchema({ faqs }: EnhancedFaqSchemaProps) {
-  // Check if faqs array exists and has content
-  if (!faqs || faqs.length === 0) {
-    return null; // Don't render anything if there are no FAQs
+  // This is the smart logic:
+  // Use the specific faqs if they are provided for a page,
+  // otherwise, use the comprehensive defaultFaqs.
+  const finalFaqs = faqs && faqs.length > 0 ? faqs : defaultFaqs;
+
+  if (!finalFaqs || finalFaqs.length === 0) {
+    return null;
   }
 
-  // Format the FAQs for the JSON-LD schema
   const faqSchema = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
-    mainEntity: faqs.map((faq) => ({
+    mainEntity: finalFaqs.map((faq) => ({
       '@type': 'Question',
       name: faq.question,
       acceptedAnswer: {
@@ -44,7 +47,7 @@ export default function EnhancedFaqSchema({ faqs }: EnhancedFaqSchemaProps) {
     <div>
       <JsonLd data={faqSchema} />
       <Accordion type="single" collapsible className="w-full">
-        {faqs.map((faq, index) => (
+        {finalFaqs.map((faq, index) => (
           <AccordionItem value={`item-${index}`} key={index}>
             <AccordionTrigger>{faq.question}</AccordionTrigger>
             <AccordionContent>
