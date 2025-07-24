@@ -3,10 +3,10 @@ import path from 'path';
 import Image from 'next/image';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
-import { Terminal, Book, Users, Briefcase } from 'lucide-react';
+import { Terminal, Book, Users, Briefcase, Award } from 'lucide-react';
 import MinimalSocialProof from '@/components/MinimalSocialProof';
 
-// We are keeping the FAQ data here
+// We are keeping the FAQ data directly in this file for simplicity and reliability
 const pageFaqs = [
   {
     "question": "Do I have to accept papers from a process server in Oklahoma?",
@@ -60,16 +60,36 @@ export default function UltimateGuidePage() {
         <Card className="mb-8">
           <CardHeader><CardTitle className="flex items-center"><Briefcase className="mr-2 h-6 w-6" />Types of Documents We Serve</CardTitle></CardHeader>
           <CardContent>
-            <p>Our expertise covers all forms of legal document delivery. We handle each with the specific care and legal diligence it requires.</p>
+            <p>Our expertise covers all forms of legal document delivery. We handle each with the specific care and legal diligence it requires, including:</p>
             <ul className="list-disc pl-5 my-4">
                 <li><strong>Summons and Complaints:</strong> The initial documents that begin a lawsuit.</li>
                 <li><strong>Subpoenas:</strong> A writ ordering a person to attend a court proceeding or produce documents.</li>
-                <li><strong>Eviction Notices:</strong> Time-critical delivery of eviction notices and forcible entry actions.</li>
+                <li><strong><a href="/seo/eviction-notice-process-server">Eviction Notices</a>:</strong> Time-critical delivery of eviction notices and forcible entry actions.</li>
                 <li><strong>Court Filings:</strong> Reliable courier services for filing documents directly with the court clerk.</li>
             </ul>
           </CardContent>
         </Card>
         
+        {/* --- Expert Insights Section with Correct Links --- */}
+        <Card className="mb-8">
+          <CardHeader>
+            <CardTitle className="flex items-center"><Award className="mr-2 h-6 w-6" />Expert Insights From Our Blog</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <p>We believe in educating our clients. For a deeper dive into specific topics, read our expert articles on Medium:</p>
+            <ul className="list-disc pl-5 my-4">
+                <li>
+                  <strong><a href="https://medium.com/@justlegalsolutionsok/why-you-need-a-professional-process-server-in-oklahoma-fast-reliable-service-from-just-legal-195dc334cc8e" target="_blank" rel="noopener noreferrer">Why You Need a Professional Process Server in Oklahoma</a></strong>
+                  <p className="text-sm">Explore how GPS tracking, photo proof, and digital reporting are increasing reliability and transparency in the process serving industry.</p>
+                </li>
+                <li>
+                  <strong><a href="https://medium.com/@justlegalsolutionsok/my-doctor-or-theirs-the-workers-comp-choice-that-defined-my-life-after-injury-b3f1a53b4e9b" target="_blank" rel="noopener noreferrer">My Doctor or Theirs? The Workers’ Comp Choice That Defined My Life</a></strong>
+                  <p className="text-sm">Learn the critical questions to ask and the red flags to look for to ensure your legal documents are served correctly and ethically the first time.</p>
+                </li>
+            </ul>
+          </CardContent>
+        </Card>
+
         <Card className="mb-8">
           <CardHeader><CardTitle>Understanding Oklahoma&apos;s Process Serving Laws</CardTitle></CardHeader>
           <CardContent>
@@ -130,7 +150,6 @@ export default function UltimateGuidePage() {
         <Card>
           <CardHeader><CardTitle>Frequently Asked Questions</CardTitle></CardHeader>
           <CardContent>
-            {/* --- This is the new, simple list that will work correctly --- */}
             <div className="space-y-4">
               {pageFaqs.map((faq, index) => (
                 <div key={index} className="border-b pb-4">
