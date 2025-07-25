@@ -101,67 +101,86 @@ const BixbyProcessServer = () => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      {/* The main layout handles the Navbar, Footer, and top padding */}
-      <div className="min-h-screen bg-gray-50">
+      <div className="min-h-screen bg-gray-50 pt-16">
         <div className="bg-blue-900 text-white">
-            <div className="container mx-auto px-4 py-20 pt-20 text-center"> {/* SPACING FIX */}
-                <h1 className="text-4xl md:text-5xl font-extrabold">Bixby, Oklahoma Process Server</h1>
-                <p className="mt-4 text-xl text-blue-200 max-w-3xl mx-auto">Expert Legal Document Delivery in Tulsa & Wagoner Counties</p>
-            </div>
+          <div className="container mx-auto px-4 py-20 pt-12 text-center">
+            <h1 className="text-4xl md:text-5xl font-extrabold">Bixby, Oklahoma Process Server</h1>
+            <p className="mt-4 text-xl text-blue-200 max-w-3xl mx-auto">Professional Legal Document Service in Tulsa & Wagoner Counties</p>
+          </div>
         </div>
-
         <main className="container mx-auto px-4 py-16">
-            <div className="max-w-4xl mx-auto">
-                <section className="mb-12">
-                    <h2 className="text-3xl font-bold text-gray-800 mb-6">Local Expertise in Bixby</h2>
-                    <p className="text-lg text-gray-700 mb-4">
-                        {bixbyData.history}
-                    </p>
-                </section>
-
-                <section className="grid md:grid-cols-2 gap-8 mb-12">
-                    <div className="bg-white border rounded-lg p-6 shadow-md">
-                        <h3 className="text-2xl font-semibold mb-3">Local Courthouse Info</h3>
-                        <p className="font-bold">{bixbyData.courthouse.name}</p>
-                        <p>{bixbyData.courthouse.address}</p>
-                        <p>Phone: {bixbyData.courthouse.phone}</p>
-                        <a href={bixbyData.courthouse.website} className="text-blue-700 underline" target="_blank" rel="noopener noreferrer">Official Website</a>
-                        <p className="text-sm text-gray-600 mt-2"><em>{bixbyData.courthouse.note}</em></p>
-                    </div>
-                    <div className="bg-white border rounded-lg p-6 shadow-md">
-                        <h3 className="text-2xl font-semibold mb-3">Oklahoma Law Compliance</h3>
-                        <p>{bixbyData.processServingLaw}</p>
-                    </div>
-                </section>
-
-                 <section className="mb-12">
-                    <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">Serving All of Bixby and Beyond</h2>
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
-                        {bixbyData.serviceAreas.map(city => (
-                            <div key={city} className="bg-blue-50 p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-                                <p className="font-semibold text-blue-900">{city}</p>
-                            </div>
-                        ))}
-                    </div>
-                 </section>
-
-                <section className="bg-white py-16">
-                    <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Frequently Asked Questions</h2>
-                    <div className="space-y-8">
-                        {bixbyData.faqs.map((faq, index) => (
-                            <div key={index}>
-                                <h3 className="text-xl font-semibold text-gray-900">{faq.q}</h3>
-                                <p className="mt-2 text-gray-700">{faq.a}</p>
-                            </div>
-                        ))}
-                    </div>
-                </section>
-            </div>
+          <div className="max-w-4xl mx-auto">
+            <section className="mb-12">
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">Trusted Process Server in Bixby, OK</h2>
+              <p className="text-lg text-gray-700 mb-4">
+                {bixbyData.history}
+              </p>
+            </section>
+            <section className="bg-white p-8 rounded-lg shadow-md mb-12">
+              <h3 className="text-2xl font-bold text-blue-800 mb-6">Bixby Courthouse & Local Service Areas</h3>
+              <div className="mb-4">
+                <strong>{bixbyData.courthouse.name}</strong><br />
+                {bixbyData.courthouse.address}<br />
+                <a href={bixbyData.courthouse.website} className="text-blue-700 underline" target="_blank" rel="noopener noreferrer">Municipal Court Website</a><br />
+                <span className="text-gray-600 text-sm">{bixbyData.courthouse.note}</span>
+              </div>
+              <div className="mt-6">
+                <h4 className="font-semibold text-lg mb-2">Neighborhoods & Service Areas:</h4>
+                <ul className="list-disc list-inside text-gray-700">
+                  {bixbyData.serviceAreas.map((area, i) => (
+                    <li key={i}>{area}</li>
+                  ))}
+                </ul>
+              </div>
+            </section>
+            <section className="bg-white p-8 rounded-lg shadow-md mb-12">
+              <h3 className="text-2xl font-bold text-blue-800 mb-6">Oklahoma Process Serving Law in Bixby</h3>
+              <p className="text-gray-700 mb-4">{bixbyData.processServingLaw}</p>
+            </section>
+            <section className="bg-white py-16">
+              <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Frequently Asked Questions</h2>
+              <div className="space-y-8">
+                {bixbyData.faqs.map((faq, index) => (
+                  <div key={index}>
+                    <h3 className="text-xl font-semibold text-gray-900">{faq.q}</h3>
+                    <p className="mt-2 text-gray-700">{faq.a}</p>
+                  </div>
+                ))}
+              </div>
+            </section>
+            <section className="bg-blue-50 p-8 rounded-lg shadow-md mb-12">
+              <h3 className="text-2xl font-bold text-blue-800 mb-6">Contact & Service Area Map</h3>
+              <div className="mb-6">
+                <iframe
+                  title="Bixby Oklahoma Map"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.964234234234!2d-95.8831!3d35.9420!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b6e3e3e3e3e3e3%3A0x3e3e3e3e3e3e3e3e!2sBixby%2C%20OK!5e0!3m2!1sen!2sus!4v1689988888888!5m2!1sen!2sus"
+                  width="100%"
+                  height="300"
+                  style={{ border: 0 }}
+                  allowFullScreen={true}
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+              <div className="text-center">
+                <a href="/contact" className="inline-block bg-blue-700 text-white px-6 py-3 rounded-lg font-bold hover:bg-blue-800 transition">Request Service in Bixby</a>
+              </div>
+            </section>
+            <section className="bg-white p-8 rounded-lg shadow-md mb-12">
+              <h3 className="text-2xl font-bold text-blue-800 mb-6">Related Cities & Internal Links</h3>
+              <ul className="list-disc list-inside text-blue-700">
+                <li><a href="/seo/broken-arrow-process-server" className="underline">Broken Arrow Process Server</a></li>
+                <li><a href="/seo/jenks-process-server" className="underline">Jenks Process Server</a></li>
+                <li><a href="/seo/glenpool-process-server" className="underline">Glenpool Process Server</a></li>
+                <li><a href="/seo/owasso-process-server" className="underline">Owasso Process Server</a></li>
+                <li><a href="/seo/sand-springs-process-server" className="underline">Sand Springs Process Server</a></li>
+                <li><a href="/seo/legal-posting-process-server" className="underline">Legal Posting Service</a></li>
+                <li><a href="/seo/eviction-notice-process-server" className="underline">Eviction Notice Service</a></li>
+              </ul>
+            </section>
+          </div>
         </main>
       </div>
-      <BusinessSchema />
-      <ServiceSchema />
-      <FAQSchema />
     </>
   );
 }

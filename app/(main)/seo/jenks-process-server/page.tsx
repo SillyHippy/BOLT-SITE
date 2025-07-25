@@ -103,6 +103,91 @@ export default function JenksProcessServer() {
       />
       <div className="min-h-screen bg-gray-50 pt-16">
         <div className="bg-blue-900 text-white">
+          <div className="container mx-auto px-4 py-20 pt-12 text-center">
+            <h1 className="text-4xl md:text-5xl font-extrabold">Jenks, Oklahoma Process Server</h1>
+            <p className="mt-4 text-xl text-blue-200 max-w-3xl mx-auto">Professional Legal Document Service in Tulsa County</p>
+          </div>
+        </div>
+        <main className="container mx-auto px-4 py-16">
+          <div className="max-w-4xl mx-auto">
+            <section className="mb-12">
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">Trusted Process Server in Jenks, OK</h2>
+              <p className="text-lg text-gray-700 mb-4">
+                {jenksData.history}
+              </p>
+            </section>
+            <section className="bg-white p-8 rounded-lg shadow-md mb-12">
+              <h3 className="text-2xl font-bold text-blue-800 mb-6">Jenks Courthouse & Local Service Areas</h3>
+              <div className="mb-4">
+                <strong>{jenksData.courthouse.name}</strong><br />
+                {jenksData.courthouse.address}<br />
+                <a href={jenksData.courthouse.website} className="text-blue-700 underline" target="_blank" rel="noopener noreferrer">Municipal Court Website</a><br />
+                <span className="text-gray-600 text-sm">{jenksData.courthouse.note}</span>
+              </div>
+              <div className="mt-6">
+                <h4 className="font-semibold text-lg mb-2">Neighborhoods & Service Areas:</h4>
+                <ul className="list-disc list-inside text-gray-700">
+                  {jenksData.serviceAreas.map((area, i) => (
+                    <li key={i}>{area}</li>
+                  ))}
+                </ul>
+              </div>
+            </section>
+            <section className="bg-white p-8 rounded-lg shadow-md mb-12">
+              <h3 className="text-2xl font-bold text-blue-800 mb-6">Oklahoma Process Serving Law in Jenks</h3>
+              <p className="text-gray-700 mb-4">{jenksData.processServingLaw}</p>
+            </section>
+            <section className="bg-white py-16">
+              <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Frequently Asked Questions</h2>
+              <div className="space-y-8">
+                {jenksData.faqs.map((faq, index) => (
+                  <div key={index}>
+                    <h3 className="text-xl font-semibold text-gray-900">{faq.q}</h3>
+                    <p className="mt-2 text-gray-700">{faq.a}</p>
+                  </div>
+                ))}
+              </div>
+            </section>
+            <section className="bg-blue-50 p-8 rounded-lg shadow-md mb-12">
+              <h3 className="text-2xl font-bold text-blue-800 mb-6">Contact & Service Area Map</h3>
+              <div className="mb-6">
+                <iframe
+                  title="Jenks Oklahoma Map"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.964234234234!2d-95.9731!3d36.0220!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b6e3e3e3e3e3e3%3A0x3e3e3e3e3e3e3e3e!2sJenks%2C%20OK!5e0!3m2!1sen!2sus!4v1689988888888!5m2!1sen!2sus"
+                  width="100%"
+                  height="300"
+                  style={{ border: 0 }}
+                  allowFullScreen={true}
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+              <div className="text-center">
+                <a href="/contact" className="inline-block bg-blue-700 text-white px-6 py-3 rounded-lg font-bold hover:bg-blue-800 transition">Request Service in Jenks</a>
+              </div>
+            </section>
+            <section className="bg-white p-8 rounded-lg shadow-md mb-12">
+              <h3 className="text-2xl font-bold text-blue-800 mb-6">Related Cities & Internal Links</h3>
+              <ul className="list-disc list-inside text-blue-700">
+                <li><a href="/seo/broken-arrow-process-server" className="underline">Broken Arrow Process Server</a></li>
+                <li><a href="/seo/bixby-process-server" className="underline">Bixby Process Server</a></li>
+                <li><a href="/seo/glenpool-process-server" className="underline">Glenpool Process Server</a></li>
+                <li><a href="/seo/owasso-process-server" className="underline">Owasso Process Server</a></li>
+                <li><a href="/seo/sand-springs-process-server" className="underline">Sand Springs Process Server</a></li>
+                <li><a href="/seo/legal-posting-process-server" className="underline">Legal Posting Service</a></li>
+                <li><a href="/seo/eviction-notice-process-server" className="underline">Eviction Notice Service</a></li>
+              </ul>
+            </section>
+          </div>
+        </main>
+      </div>
+    </>
+  );
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <div className="min-h-screen bg-gray-50 pt-16">
+        <div className="bg-blue-900 text-white">
             <div className="container mx-auto px-4 py-20 pt-12 text-center">
                 <h1 className="text-4xl md:text-5xl font-extrabold">Jenks, Oklahoma Process Server</h1>
                 <p className="mt-4 text-xl text-blue-200 max-w-3xl mx-auto">Professional Legal Document Service in Tulsa County</p>

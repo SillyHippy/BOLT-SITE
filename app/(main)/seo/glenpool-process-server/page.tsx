@@ -1,3 +1,17 @@
+// Speakable Schema for voice search optimization
+const speakableSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  'name': 'Glenpool Process Server',
+  'speakable': {
+    '@type': 'SpeakableSpecification',
+    'xpath': [
+      '/html/body/div/main/div/section[1]/p',
+      '/html/body/div/main/div/section[4]'
+    ]
+  },
+  'url': 'https://justlegalsolutions.org/seo/glenpool-process-server'
+};
 import type { Metadata } from 'next';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
@@ -92,61 +106,87 @@ export default function GlenpoolProcessServer() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema) }}
+      />
       <div className="min-h-screen bg-gray-50 pt-16">
         <div className="bg-blue-900 text-white">
-            <div className="container mx-auto px-4 py-20 pt-12 text-center">
-                <h1 className="text-4xl md:text-5xl font-extrabold">Glenpool, Oklahoma Process Server</h1>
-                <p className="mt-4 text-xl text-blue-200 max-w-3xl mx-auto">Professional Legal Document Service in the Heart of Tulsa County</p>
-            </div>
+          <div className="container mx-auto px-4 py-20 pt-12 text-center">
+            <h1 className="text-4xl md:text-5xl font-extrabold">Glenpool, Oklahoma Process Server</h1>
+            <p className="mt-4 text-xl text-blue-200 max-w-3xl mx-auto">Professional Legal Document Service in the Heart of Tulsa County</p>
+          </div>
         </div>
-
         <main className="container mx-auto px-4 py-16">
-            <div className="max-w-4xl mx-auto">
-                <section className="mb-12">
-                    <h2 className="text-3xl font-bold text-gray-800 mb-6">Local Expertise in Glenpool</h2>
-                    <p className="text-lg text-gray-700 mb-4">
-                        {glenpoolData.history}
-                    </p>
-                </section>
-
-                <section className="grid md:grid-cols-2 gap-8 mb-12">
-                    <div className="bg-white border rounded-lg p-6 shadow-md">
-                        <h3 className="text-2xl font-semibold mb-3">Local Courthouse Info</h3>
-                        <p className="font-bold">{glenpoolData.courthouse.name}</p>
-                        <p>{glenpoolData.courthouse.address}</p>
-                        <p>Phone: {glenpoolData.courthouse.phone}</p>
-                        <a href={glenpoolData.courthouse.website} className="text-blue-700 underline" target="_blank" rel="noopener noreferrer">Official Website</a>
-                        <p className="text-sm text-gray-600 mt-2"><em>{glenpoolData.courthouse.note}</em></p>
-                    </div>
-                    <div className="bg-white border rounded-lg p-6 shadow-md">
-                        <h3 className="text-2xl font-semibold mb-3">Oklahoma Law Compliance</h3>
-                        <p>{glenpoolData.processServingLaw}</p>
-                    </div>
-                </section>
-
-                 <section className="mb-12">
-                    <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">Serving All of Glenpool</h2>
-                    <div className="grid grid-cols-2 md:grid-cols-3 gap-4 text-center">
-                        {glenpoolData.serviceAreas.map(city => (
-                            <div key={city} className="bg-blue-50 p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-                                <p className="font-semibold text-blue-900">{city}</p>
-                            </div>
-                        ))}
-                    </div>
-                 </section>
-
-                <section className="bg-white py-16">
-                    <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Frequently Asked Questions</h2>
-                    <div className="space-y-8">
-                        {glenpoolData.faqs.map((faq, index) => (
-                            <div key={index}>
-                                <h3 className="text-xl font-semibold text-gray-900">{faq.q}</h3>
-                                <p className="mt-2 text-gray-700">{faq.a}</p>
-                            </div>
-                        ))}
-                    </div>
-                </section>
-            </div>
+          <div className="max-w-4xl mx-auto">
+            <section className="mb-12">
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">Local Expertise in Glenpool</h2>
+              <p className="text-lg text-gray-700 mb-4">
+                {glenpoolData.history} If you need a process server in Glenpool or nearby communities like <a href="/seo/broken-arrow-process-server" className="text-blue-700 underline">Broken Arrow</a> or <a href="/seo/jenks-process-server" className="text-blue-700 underline">Jenks</a>, our team is ready to help.
+              </p>
+            </section>
+            <section className="bg-white p-8 rounded-lg shadow-md mb-12">
+              <h3 className="text-2xl font-bold text-blue-800 mb-6">Glenpool Courthouse & Local Service Areas</h3>
+              <div className="mb-4">
+                <strong>{glenpoolData.courthouse.name}</strong><br />
+                {glenpoolData.courthouse.address}<br />
+                <a href={glenpoolData.courthouse.website} className="text-blue-700 underline" target="_blank" rel="noopener noreferrer">Municipal Court Website</a><br />
+                <span className="text-gray-600 text-sm">{glenpoolData.courthouse.note}</span>
+              </div>
+              <div className="mt-6">
+                <h4 className="font-semibold text-lg mb-2">Neighborhoods & Service Areas:</h4>
+                <ul className="list-disc list-inside text-gray-700">
+                  {glenpoolData.serviceAreas.map((area, i) => (
+                    <li key={i}>{area}</li>
+                  ))}
+                </ul>
+              </div>
+            </section>
+            <section className="bg-white p-8 rounded-lg shadow-md mb-12">
+              <h3 className="text-2xl font-bold text-blue-800 mb-6">Oklahoma Process Serving Law in Glenpool</h3>
+              <p className="text-gray-700 mb-4">{glenpoolData.processServingLaw}</p>
+            </section>
+            <section className="bg-white py-16">
+              <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Frequently Asked Questions</h2>
+              <div className="space-y-8">
+                {glenpoolData.faqs.map((faq, index) => (
+                  <div key={index}>
+                    <h3 className="text-xl font-semibold text-gray-900">{faq.q}</h3>
+                    <p className="mt-2 text-gray-700">{faq.a}</p>
+                  </div>
+                ))}
+              </div>
+            </section>
+            <section className="bg-blue-50 p-8 rounded-lg shadow-md mb-12">
+              <h3 className="text-2xl font-bold text-blue-800 mb-6">Contact & Service Area Map</h3>
+              <div className="mb-6">
+                <iframe
+                  title="Glenpool Oklahoma Map"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.964234234234!2d-96.0086!3d35.9445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b6e3e3e3e3e3e3%3A0x3e3e3e3e3e3e3e3e!2sGlenpool%2C%20OK!5e0!3m2!1sen!2sus!4v1689988888888!5m2!1sen!2sus"
+                  width="100%"
+                  height="300"
+                  style={{ border: 0 }}
+                  allowFullScreen={true}
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+              <div className="text-center">
+                <a href="/contact" className="inline-block bg-blue-700 text-white px-6 py-3 rounded-lg font-bold hover:bg-blue-800 transition">Request Service in Glenpool</a>
+              </div>
+            </section>
+            <section className="bg-white p-8 rounded-lg shadow-md mb-12">
+              <h3 className="text-2xl font-bold text-blue-800 mb-6">Related Cities & Internal Links</h3>
+              <ul className="list-disc list-inside text-blue-700">
+                <li><a href="/seo/broken-arrow-process-server" className="underline">Broken Arrow Process Server</a></li>
+                <li><a href="/seo/jenks-process-server" className="underline">Jenks Process Server</a></li>
+                <li><a href="/seo/owasso-process-server" className="underline">Owasso Process Server</a></li>
+                <li><a href="/seo/sand-springs-process-server" className="underline">Sand Springs Process Server</a></li>
+                <li><a href="/seo/legal-posting-process-server" className="underline">Legal Posting Service</a></li>
+                <li><a href="/seo/eviction-notice-process-server" className="underline">Eviction Notice Service</a></li>
+              </ul>
+            </section>
+          </div>
         </main>
       </div>
       <BusinessSchema />

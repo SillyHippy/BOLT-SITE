@@ -1,3 +1,17 @@
+// Speakable Schema for voice search optimization
+const speakableSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  'name': 'Eviction Notice Process Server',
+  'speakable': {
+    '@type': 'SpeakableSpecification',
+    'xpath': [
+      '/html/body/div/main/div/section[1]/p',
+      '/html/body/div/main/div/section[4]'
+    ]
+  },
+  'url': 'https://justlegalsolutions.org/seo/eviction-notice-process-server'
+};
 import type { Metadata } from 'next';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
@@ -99,59 +113,67 @@ export default function EvictionNoticeProcessServer() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      {/* Navbar and Footer are handled by the main layout */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema) }}
+      />
       <div className="min-h-screen bg-gray-50 pt-16">
         <div className="bg-red-800 text-white">
-            <div className="container mx-auto px-4 py-20 pt-12 text-center">
-                <h1 className="text-4xl md:text-5xl font-extrabold">Eviction Notice Process Server for Tulsa County</h1>
-                <p className="mt-4 text-xl text-red-100 max-w-3xl mx-auto">Ensuring Landlords & Property Managers Meet Oklahoma&apos;s Strict Legal Service Requirements</p>
-            </div>
+          <div className="container mx-auto px-4 py-20 pt-12 text-center">
+            <h1 className="text-4xl md:text-5xl font-extrabold">Eviction Notice Process Server for Tulsa County</h1>
+            <p className="mt-4 text-xl text-red-100 max-w-3xl mx-auto">Ensuring Landlords &amp; Property Managers Meet Oklahoma&apos;s Strict Legal Service Requirements. If you need a process server for <a href="/seo/legal-posting-process-server" className="text-red-100 underline">legal posting</a> or <a href="/seo/broken-arrow-process-server" className="text-red-100 underline">Broken Arrow</a>, we can help.</p>
+          </div>
         </div>
-
         <main className="container mx-auto px-4 py-16">
-            <div className="max-w-4xl mx-auto">
-                <section className="mb-12">
-                    <h2 className="text-3xl font-bold text-gray-800 mb-6">The Critical Importance of Proper Eviction Service</h2>
-                    <p className="text-lg text-gray-700 mb-4">
-                        {evictionData.intro}
-                    </p>
-                </section>
-
-                <section className="bg-white p-8 rounded-lg shadow-md mb-12">
-                    <h3 className="text-2xl font-bold text-red-800 mb-6">{evictionData.oklahomaProcess.title}</h3>
-                    <div className="space-y-4">
-                        {evictionData.oklahomaProcess.steps.map((step, index) => (
-                            <div key={index}>
-                                <h4 className="font-bold text-lg text-gray-900">{step.name}</h4>
-                                <p className="text-gray-700">{step.detail}</p>
-                            </div>
-                        ))}
-                    </div>
-                </section>
-
-                 <section className="mb-12">
-                    <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">Serving All of Tulsa County</h2>
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
-                        {evictionData.serviceAreas.map(city => (
-                            <div key={city} className="bg-red-50 p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-                                <p className="font-semibold text-red-900">{city}</p>
-                            </div>
-                        ))}
-                    </div>
-                 </section>
-
-                <section className="bg-white py-16">
-                    <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Eviction Service FAQ for Tulsa Landlords</h2>
-                    <div className="space-y-8">
-                        {evictionData.faqs.map((faq, index) => (
-                            <div key={index}>
-                                <h3 className="text-xl font-semibold text-gray-900">{faq.q}</h3>
-                                <p className="mt-2 text-gray-700">{faq.a}</p>
-                            </div>
-                        ))}
-                    </div>
-                </section>
-            </div>
+          <div className="max-w-4xl mx-auto">
+            <section className="mb-12">
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">The Critical Importance of Proper Eviction Service</h2>
+              <p className="text-lg text-gray-700 mb-4">
+                {evictionData.intro}
+              </p>
+            </section>
+            <section className="bg-white p-8 rounded-lg shadow-md mb-12">
+              <h3 className="text-2xl font-bold text-red-800 mb-6">{evictionData.oklahomaProcess.title}</h3>
+              <div className="space-y-4">
+                {evictionData.oklahomaProcess.steps.map((step, index) => (
+                  <div key={index}>
+                    <h4 className="font-bold text-lg text-gray-900">{step.name}</h4>
+                    <p className="text-gray-700">{step.detail}</p>
+                  </div>
+                ))}
+              </div>
+            </section>
+            <section className="mb-12">
+              <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">Serving All of Tulsa County</h2>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+                {evictionData.serviceAreas.map(city => (
+                  <div key={city} className="bg-red-50 p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                    <p className="font-semibold text-red-900">{city}</p>
+                  </div>
+                ))}
+              </div>
+            </section>
+            <section className="bg-white py-16">
+              <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Eviction Service FAQ for Tulsa Landlords</h2>
+              <div className="space-y-8">
+                {evictionData.faqs.map((faq, index) => (
+                  <div key={index}>
+                    <h3 className="text-xl font-semibold text-gray-900">{faq.q}</h3>
+                    <p className="mt-2 text-gray-700">{faq.a}</p>
+                  </div>
+                ))}
+              </div>
+            </section>
+            <section className="bg-red-50 p-8 rounded-lg shadow-md mb-12">
+              <h3 className="text-2xl font-bold text-red-800 mb-6">Related Services & Internal Links</h3>
+              <ul className="list-disc list-inside text-red-700">
+                <li><a href="/seo/legal-posting-process-server" className="underline">Legal Posting Service</a></li>
+                <li><a href="/seo/broken-arrow-process-server" className="underline">Broken Arrow Process Server</a></li>
+                <li><a href="/seo/glenpool-process-server" className="underline">Glenpool Process Server</a></li>
+                <li><a href="/seo/owasso-process-server" className="underline">Owasso Process Server</a></li>
+              </ul>
+            </section>
+          </div>
         </main>
       </div>
       <BusinessSchema />
