@@ -39,7 +39,7 @@ export default function CourierServicesTulsaPage() {
 
   return (
     <>
-      {/* Speakable Schema for Voice Search */}
+      {/* Speakable Schema for Voice Search, SEO, AI */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{
         __html: JSON.stringify({
           '@context': 'https://schema.org',
@@ -50,12 +50,45 @@ export default function CourierServicesTulsaPage() {
             'xpath': [
               '/html/head/title',
               '/html/body//h1',
-              '/html/body//section[contains(@class, "faq")]//h3'
+              '/html/body//section[contains(@class, "faq")]//h3',
+              '/html/body//section[contains(@class, "service-area")]//a',
+              '/html/body//section[contains(@class, "narrative")]//a'
             ]
           },
-          'url': 'https://justlegalsolutions.org/courier-services-tulsa'
+          'url': 'https://justlegalsolutions.org/courier-services-tulsa',
+          'keywords': [
+            'tulsa county courier',
+            'legal document delivery tulsa',
+            'process server tulsa',
+            'courier services bixby',
+            'courier services jenks',
+            'courier services sand springs',
+            'courier services owasso',
+            'ai courier tulsa',
+            'voice search courier tulsa',
+            'same day courier tulsa',
+            'rush legal courier tulsa',
+            'tulsa county legal courier',
+            'serve papers tulsa',
+            'subpoena delivery tulsa county'
+          ]
         })
       }} />
+        {/* Service Coverage Narrative Section */}
+        <section className="bg-white py-10 border-b narrative">
+          <div className="container mx-auto px-4 max-w-3xl">
+            <h2 className="text-3xl font-bold text-blue-900 mb-4">Serving All of Tulsa County with Trusted Courier Solutions</h2>
+            <p className="text-lg text-gray-700 mb-4">
+              Our courier and legal document delivery services are trusted by law firms, businesses, and individuals across every city and community in Tulsa County. Whether you need urgent delivery in <Link href="/tulsa-process-server" className="text-blue-700 underline font-semibold">Tulsa</Link>, secure transport in <Link href="/seo/broken-arrow-process-server" className="text-blue-700 underline font-semibold">Broken Arrow</Link>, or fast service in <Link href="/seo/bixby-process-server" className="text-blue-700 underline font-semibold">Bixby</Link>, <Link href="/seo/jenks-process-server" className="text-blue-700 underline font-semibold">Jenks</Link>, <Link href="/seo/sand-springs-process-server" className="text-blue-700 underline font-semibold">Sand Springs</Link>, or <Link href="/seo/owasso-process-server" className="text-blue-700 underline font-semibold">Owasso</Link>, we have you covered.
+            </p>
+            <p className="text-lg text-gray-700 mb-4">
+              We understand the unique needs of each Tulsa County city, from the business corridors of Tulsa to the residential neighborhoods of Broken Arrow and the growing suburbs. Our <Link href="/courier-services-tulsa" className="text-blue-700 underline font-semibold">Courier Services Tulsa</Link> page details our same-day, secure courier options for every legal and business need.
+            </p>
+            <p className="text-lg text-gray-700">
+              By combining local expertise, advanced tracking, and AI-powered logistics, we ensure your documents are delivered quickly, securely, and with full compliance—no matter where in Tulsa County you need service.
+            </p>
+          </div>
+        </section>
       <main className="min-h-screen pt-12 bg-white">
         {/* Hero Section with Local Image */}
         <section className="bg-blue-900 text-white pb-12">
@@ -113,10 +146,36 @@ export default function CourierServicesTulsaPage() {
         <section className="py-10 border-b">
           <div className="container mx-auto px-4 max-w-4xl">
             <h2 className="text-2xl font-bold text-blue-900 mb-6 text-center">Service Areas in Tulsa County</h2>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center mb-4">
-              {['Tulsa', 'Broken Arrow', 'Bixby', 'Jenks', 'Owasso', 'Sand Springs', 'Collinsville', 'Glenpool', 'Skiatook', 'Sapulpa', 'Sperry', 'Liberty', 'Lotsee', 'Fair Oaks', 'Oakhurst', 'Turley', 'Berryhill', 'Mingo', 'Leonard', 'Garnett', 'Lake'].map(city => (
-                <div key={city} className="bg-blue-50 p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-                  <p className="font-semibold text-blue-900">{city}</p>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center mb-4 service-area">
+              {[
+                { name: 'Tulsa', href: '/tulsa-process-server' },
+                { name: 'Broken Arrow', href: '/seo/broken-arrow-process-server' },
+                { name: 'Bixby', href: '/seo/bixby-process-server' },
+                { name: 'Jenks', href: '/seo/jenks-process-server' },
+                { name: 'Sand Springs', href: '/seo/sand-springs-process-server' },
+                { name: 'Owasso', href: '/seo/owasso-process-server' },
+                { name: 'Glenpool', href: '/seo/glenpool-process-server' },
+                { name: 'Collinsville' },
+                { name: 'Skiatook' },
+                { name: 'Sapulpa' },
+                { name: 'Sperry' },
+                { name: 'Liberty' },
+                { name: 'Lotsee' },
+                { name: 'Fair Oaks' },
+                { name: 'Oakhurst' },
+                { name: 'Turley' },
+                { name: 'Berryhill' },
+                { name: 'Mingo' },
+                { name: 'Leonard' },
+                { name: 'Garnett' },
+                { name: 'Lake' }
+              ].map(city => (
+                <div key={city.name} className="bg-blue-50 p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                  {city.href ? (
+                    <Link href={city.href} className="text-blue-900 font-semibold underline block text-lg">{city.name}</Link>
+                  ) : (
+                    <span className="text-blue-900 font-semibold block text-lg opacity-60">{city.name}</span>
+                  )}
                 </div>
               ))}
             </div>
