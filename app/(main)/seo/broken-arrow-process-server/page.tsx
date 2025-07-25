@@ -161,7 +161,7 @@ export default function BrokenArrowProcessServer() {
                 ))}
               </div>
               <div className="flex justify-center mt-4">
-                <Image src="/images/forest-ridge-broken-arrow.jpg" width={400} height={250} alt="Forest Ridge neighborhood in Broken Arrow" className="rounded shadow" />
+                <Image src="/images/Building_in_Broken_Arrow_Oklahoma.jpg" width={400} height={250} alt="Downtown Broken Arrow Oklahoma Main Street" className="rounded shadow" />
               </div>
               <p className="text-xs text-gray-500 text-center mt-1">Featured Neighborhood: Forest Ridge – Secure, professional process serving</p>
             </section>
