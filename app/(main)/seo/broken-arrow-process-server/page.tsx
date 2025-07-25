@@ -111,7 +111,7 @@ export default function BrokenArrowProcessServer() {
             <h1 className="text-4xl md:text-5xl font-extrabold">Broken Arrow, Oklahoma Process Server</h1>
             <p className="mt-4 text-xl text-blue-200 max-w-3xl mx-auto">Expert Legal Document Delivery in Tulsa & Wagoner Counties</p>
             <div className="flex justify-center mt-8">
-              <Image src="/images/broken-arrow-rose-district.jpeg" width={600} height={350} alt="Broken Arrow Rose District legal process server" className="rounded-lg shadow-lg" />
+              <Image src="/images/broken-arrow-rose-district.jpg" width={600} height={350} alt="Broken Arrow Rose District legal process server" className="rounded-lg shadow-lg" />
             </div>
             {/* Google Maps Embed for Broken Arrow */}
             <div className="flex justify-center mt-6">
