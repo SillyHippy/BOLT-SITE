@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     images: [
       {
-        url: 'https://justlegalsolutions.org/images/tulsa-county-courthouse.jpg',
+        url: 'https://justlegalsolutions.org/images/tulsa-county-courthouse.jpeg',
         width: 1200,
         height: 630,
         alt: 'Tulsa County Courthouse Process Server',
