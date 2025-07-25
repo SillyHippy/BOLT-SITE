@@ -138,7 +138,7 @@ export default function BrokenArrowProcessServer() {
               <h2 className="text-3xl font-bold text-gray-800 mb-6">Local Expertise in Broken Arrow</h2>
                     <p className="text-lg text-gray-700 mb-4" dangerouslySetInnerHTML={{ __html: brokenArrowData.history }} />
               <div className="flex justify-center mt-4">
-                <Image src="/images/broken-arrow-municipal-court.jpg" width={400} height={166} alt="Broken Arrow Municipal Court building" className="rounded shadow" />
+                <Image src="/images/Broken-Arrow-Municipal-Court.jpeg" width={400} height={166} alt="Broken Arrow Municipal Court building" className="rounded shadow" />
               </div>
               <p className="text-xs text-gray-500 text-center mt-1">Broken Arrow Municipal Court – Trusted for legal document delivery</p>
             </section>

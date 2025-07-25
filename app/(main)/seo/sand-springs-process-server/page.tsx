@@ -64,41 +64,9 @@ const jsonLd = {
   priceRange: '$60 - $150',
 };
 
-const glenpoolData = {
-    history: `Glenpool is famously known as "The Town that Made Tulsa Famous" after the discovery of the Glenn Pool Oil Reserve in 1905, one of the largest oil fields in world history. This discovery transformed the entire region. Today, Glenpool is a growing community with a mix of historic sites and modern development, requiring a process server who understands its unique layout.`,
-    courthouse: {
-        name: 'Glenpool Municipal Court (City Hall)',
-        address: '1220 W 141st St, Glenpool, OK 74033',
-        phone: '(918) 322-5442',
-        website: 'https://glenpoolonline.com/163/Municipal-Court',
-        note: 'All major civil cases for Glenpool residents are filed at the Tulsa County Courthouse in downtown Tulsa.'
-    },
-    processServingLaw: `Service of process in Glenpool falls under the jurisdiction of Tulsa County and is governed by Oklahoma State Statutes. This requires that service be made by a licensed, disinterested party. We ensure every serve is legally compliant and provide a notarized Affidavit of Service for the Tulsa County District Court.`,
-    serviceAreas: [
-        'Downtown Glenpool',
-        'Black Gold Park area',
-        'Glenpool South',
-        'Liberty Park',
-        'Highway 75 corridor',
-        'Rural Glenpool addresses'
-    ],
-    faqs: [
-        {
-            q: 'How quickly can you serve papers near the Glenpool Conference Center?',
-            a: 'We can provide rush or same-day service to businesses and individuals along the busy Highway 75 corridor, including the area around the Glenpool Conference Center. Our local servers know the area well to ensure prompt delivery.'
-        },
-        {
-            q: 'Do you serve documents in the rural areas outside of Glenpool city limits?',
-            a: 'Yes, our service area includes all of Glenpool and its surrounding rural routes. We are equipped to handle serves at properties that may have non-standard addresses or are difficult to locate.'
-        },
-        {
-            q: 'What is your process for serving an employee at one of the industrial businesses in Glenpool?',
-            a: 'We handle service at places of employment with professionalism and discretion. We follow all company protocols and ensure the documents are delivered privately to the individual to minimize any disruption.'
-        }
-    ]
-};
+// Removed glenpoolData, not used for Sand Springs page
 
-export default function GlenpoolProcessServer() {
+export default function SandSpringsProcessServer() {
   return (
     <>
       <script

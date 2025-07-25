@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Tulsa County Process Server & Legal Document Services',
     description: 'Same-day process serving and legal document delivery for all Tulsa County cities and towns.',
-    images: ['https://justlegalsolutions.org/images/tulsa-county-courthouse.jpg'],
+    images: ['https://justlegalsolutions.org/images/tulsa-county-courthouse.jpeg'],
   },
 };
 
@@ -171,7 +171,7 @@ export default function TulsaCountyPage() {
               Reliable process serving and legal document delivery. We bring fast, professional service to every city and town in Tulsa County.
             </p>
             <div className="flex justify-center mt-8">
-              <Image src="/images/tulsa-county-courthouse.jpg" width={600} height={350} alt="Tulsa County courthouse process server" className="rounded-lg shadow-lg" />
+              <Image src="/images/tulsa-county-courthouse.jpeg" width={600} height={350} alt="Tulsa County courthouse process server" className="rounded-lg shadow-lg" />
             </div>
             <p className="text-sm text-blue-100 mt-2">
               Serving Tulsa, Broken Arrow, Bixby, Jenks, Sand Springs, Owasso, Glenpool, and all Tulsa County communities.
