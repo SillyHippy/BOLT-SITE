@@ -113,6 +113,20 @@ export default function BrokenArrowProcessServer() {
             <div className="flex justify-center mt-8">
               <Image src="/images/broken-arrow-rose-district.jpg" width={600} height={350} alt="Broken Arrow Rose District legal process server" className="rounded-lg shadow-lg" />
             </div>
+            {/* Google Maps Embed for Broken Arrow */}
+            <div className="flex justify-center mt-6">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d413067.7377439724!2d-96.05453081268737!3d36.01805403442873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b6623d6eab4e11%3A0x2825ab3846a6265c!2sBroken%20Arrow%2C%20OK!5e0!3m2!1sen!2sus!4v1753398960144!5m2!1sen!2sus"
+                width="600"
+                height="450"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Broken Arrow, OK Map"
+                className="rounded-lg shadow-lg w-full max-w-2xl"
+              ></iframe>
+            </div>
             <p className="text-sm text-blue-100 mt-2">Serving the Rose District and all of Broken Arrow</p>
           </div>
         </div>
