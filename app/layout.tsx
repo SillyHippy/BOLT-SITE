@@ -42,11 +42,11 @@ export const metadata: Metadata = {
     telephone: false,
   },
   icons: {
-    icon: '/jls-logo.png',
-    shortcut: '/jls-logo.png',
-    apple: '/jls-logo.png',
+    icon: '/images/jls-logo.png',
+    shortcut: '/images/jls-logo.png',
+    apple: '/images/jls-logo.png',
   },
-  manifest: '/Favicon/site.webmanifest', // Assuming this manifest file is correct
+  manifest: '/Favicon/site.webmanifest',
   openGraph: {
     type: 'website',
     locale: 'en_US',
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     images: [
       {
-        url: '/jls-logo.png', // Corrected Image
+        url: '/images/jls-logo.png', // Corrected Image Path
         width: 1200,
         height: 630,
         alt: 'Just Legal Solutions Logo'
@@ -67,7 +67,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Just Legal Solutions - Professional Process Serving in Oklahoma',
     description: 'Expert process serving in Tulsa County, Broken Arrow, and Sapulpa. Same-day, rush, and standard service options.',
-    images: ['/jls-logo.png'] // Corrected Image
+    images: ['/images/jls-logo.png'] // Corrected Image Path
   },
   robots: {
     index: true,
@@ -81,7 +81,7 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: 'your-google-verification-code', // Replace with actual code
+    google: 'your-google-verification-code',
   }
 };
 
