@@ -120,16 +120,28 @@ export default function SandSpringsProcessServer() {
               <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Frequently Asked Questions</h2>
               <div className="space-y-8">
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-900">Do you serve gated communities in Sand Springs?</h3>
-                  <p className="mt-2 text-gray-700">Yes, our process servers are experienced with the protocols of gated communities and rural addresses in Sand Springs. We use professional and legal methods to gain access and effectuate service discreetly and promptly.</p>
+                  <h3 className="text-xl font-semibold text-gray-900">Do you offer same-day process serving in Sand Springs?</h3>
+                  <p className="mt-2 text-gray-700">Yes, we offer same-day and rush process serving throughout Sand Springs and the Tulsa metro area. Contact us for urgent requests.</p>
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-gray-900">Are you licensed to serve court papers in Sand Springs?</h3>
+                  <p className="mt-2 text-gray-700">Yes, all of our process servers are licensed and bonded in Oklahoma, and we serve all courts in Sand Springs and Tulsa County.</p>
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-gray-900">What legal documents do you serve in Sand Springs?</h3>
+                  <p className="mt-2 text-gray-700">We serve subpoenas, summons, complaints, eviction notices, small claims, family law documents, and more for individuals, law firms, and businesses.</p>
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-gray-900">How do you handle difficult-to-serve individuals in the Sand Springs area?</h3>
+                  <p className="mt-2 text-gray-700">We use advanced skip tracing, surveillance, and creative tactics to locate and serve evasive individuals while remaining fully compliant with Oklahoma law.</p>
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-gray-900">Do you serve businesses, schools, and government offices in Sand Springs?</h3>
+                  <p className="mt-2 text-gray-700">Absolutely. We serve all types of locations, including businesses, schools, and public buildings, with professionalism and discretion.</p>
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-gray-900">How fast can you serve papers in Sand Springs?</h3>
                   <p className="mt-2 text-gray-700">Standard service is typically attempted within 24-48 hours and completed within 3-5 business days. Same-day and rush services are available for urgent matters.</p>
-                </div>
-                <div>
-                  <h3 className="text-xl font-semibold text-gray-900">Do you serve businesses and schools in Sand Springs?</h3>
-                  <p className="mt-2 text-gray-700">Absolutely. We serve all types of locations, including businesses, schools, and public buildings, with professionalism and discretion.</p>
                 </div>
               </div>
             </section>
