@@ -18,8 +18,15 @@ const inter = Inter({
   fallback: ['system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'sans-serif']
 });
 
+// ✅ THE FIX: Dynamically determine the base URL
+// Use the Cloudflare deployment URL if available, otherwise fall back to the custom domain.
+const VERCEL_URL = process.env.CF_PAGES_URL || 'https://justlegalsolutions.org';
+const baseUrl = VERCEL_URL.startsWith('http') ? VERCEL_URL : `https://${VERCEL_URL}`;
+const imageUrl = `${baseUrl}/images/jls-logo.png`;
+
 export const metadata: Metadata = {
-  metadataBase: new URL('https://justlegalsolutions.org/'),
+  // We can now set metadataBase reliably
+  metadataBase: new URL(baseUrl),
   title: {
     default: 'Just Legal Solutions - Process Serving Oklahoma',
     template: '%s | Just Legal Solutions'
@@ -67,7 +74,8 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     images: [
       {
-        url: '/images/jls-logo.png', // ✅ THE CORRECT PATH
+        // ✅ Use the dynamically generated, absolute image URL
+        url: imageUrl,
         width: 1200,
         height: 630,
         alt: 'Just Legal Solutions Logo'
@@ -78,7 +86,8 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Just Legal Solutions - Professional Process Serving in Oklahoma',
     description: 'Expert process serving in Tulsa County, Broken Arrow, and Sapulpa. Same-day, rush, and standard service options.',
-    images: ['/images/jls-logo.png'] // ✅ THE CORRECT PATH
+    // ✅ Use the dynamic URL here too
+    images: [imageUrl]
   },
   robots: {
     index: true,
