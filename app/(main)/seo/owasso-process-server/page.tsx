@@ -12,62 +12,9 @@ const speakableSchema = {
   },
   'url': 'https://justlegalsolutions.org/seo/owasso-process-server'
 };
-import type { Metadata } from 'next';
-import { Navbar } from '@/components/ui/navbar';
-import { Footer } from '@/components/ui/footer';
-
-export const metadata: Metadata = {
-  title: 'Owasso Process Server | Same-Day Service in Tulsa & Rogers County',
-  description: 'Professional process server in Owasso, Oklahoma. We offer same-day service for all legal documents. Licensed, bonded, and serving both Tulsa & Rogers Counties.',
-  keywords: 'process server owasso, owasso process server, legal document delivery owasso, court papers owasso, subpoena service rogers county',
-  alternates: {
-    canonical: 'https://justlegalsolutions.org/seo/owasso-process-server'
-  },
-  openGraph: {
-    title: 'Owasso, OK Process Server | Just Legal Solutions',
-    description: 'Reliable and fast process serving in Owasso. We ensure your legal documents are served correctly and on time.',
-    url: 'https://justlegalsolutions.org/seo/owasso-process-server',
-    siteName: 'Just Legal Solutions',
-    images: [{
-      url: 'https://justlegalsolutions.org/images/jls-logo.png',
-      width: 1200,
-      height: 630,
-      alt: 'Just Legal Solutions Logo'
-    }],
-    locale: 'en_US',
-    type: 'website',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Owasso, OK Process Server | Same-Day & Rush Service',
-    description: 'Need a process server in Owasso? We offer professional, same-day service for all legal documents.',
-    images: ['https://justlegalsolutions.org/images/jls-logo.png'],
-  }
-};
-
-import BusinessSchema from '@/components/BusinessSchema';
-import ServiceSchema from '@/components/ServiceSchema';
-import FAQSchema from '@/components/FAQSchema';
-
-const jsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'LegalService',
-  name: 'Just Legal Solutions - Process Server Owasso',
-  description: 'Professional process server for Owasso and surrounding areas in Tulsa and Rogers counties.',
-  url: 'https://justlegalsolutions.org/seo/owasso-process-server',
-  telephone: '(539) 367-6832',
-  email: 'info@justlegalsolutions.org',
-  areaServed: [
-    { '@type': 'City', name: 'Owasso' },
-    { '@type': 'AdministrativeArea', name: 'Tulsa County' },
-    { '@type': 'AdministrativeArea', name: 'Rogers County' }
-  ],
-  openingHours: 'Mo-Su 00:00-23:59',
-  priceRange: '$60 - $150',
-};
 
 const owassoData = {
-    history: `Owasso's history began as a settlement in Indian Territory in 1881, growing significantly with the arrival of the railroad. Now a major suburb of Tulsa, Owasso is one of the fastest-growing cities in Oklahoma, known for its strong community and economic development. Its location spanning both Tulsa and Rogers counties presents unique jurisdictional challenges that require an experienced process server.`,
+    history: `Owasso's history began as a settlement in Indian Territory in 1881, growing significantly with the arrival of the railroad. Now a major suburb of Tulsa, Owasso is one of the fastest-growing cities in Oklahoma, known for its strong community and economic development. Its location spanning both Tulsa and Rogers counties presents unique jurisdictional challenges that require an experienced process server. As part of Tulsa County, our Owasso team collaborates with the <a href="/tulsa-county" className="text-blue-700 underline">Tulsa County Process Server</a> network to ensure seamless legal support across the region.`,
     courthouse: {
         name: 'Owasso Municipal Court',
         address: '111 N Main St, Owasso, OK 74055',
@@ -86,18 +33,47 @@ const owassoData = {
     ],
     faqs: [
         {
-            q: 'The person I need to serve lives in the Rogers County part of Owasso. Can you handle that?',
-            a: 'Yes. We are fully licensed to serve in both Tulsa and Rogers counties. We regularly handle cross-county serves for Owasso residents and ensure the Affidavit of Service is filed correctly with the appropriate court.'
-        },
-        {
-            q: 'How do you handle service in newer, large residential developments in Owasso?',
-            a: 'Our process servers are familiar with the layouts of new developments like Smith Farm and Bailey Ranch. We use professional and legal methods to effectuate service in a discreet and timely manner.'
-        },
-        {
-            q: 'What is your turnaround time for standard service in Owasso?',
-            a: 'Standard service in Owasso is typically attempted within 24-48 hours and completed within 3-5 business days. We also offer same-day and emergency rush services for urgent matters.'
+            q: 'Can you serve papers in both Tulsa and Rogers County parts of Owasso?',
+            a: 'Yes. We are licensed to serve in both Tulsa and Rogers counties. We verify jurisdiction and ensure all legal paperwork is handled correctly for both counties.'
         }
     ]
+};
+import type { Metadata } from 'next';
+import { Navbar } from '@/components/ui/navbar';
+import { Footer } from '@/components/ui/footer';
+
+export const metadata: Metadata = {
+  title: 'Owasso Process Server | Same-Day Service in Tulsa & Rogers County',
+  description: 'Professional process server in Owasso, Oklahoma. We offer same-day service for all legal documents. Licensed, bonded, and serving both Tulsa & Rogers Counties.',
+  keywords: 'process server owasso, owasso process server, legal document delivery owasso, court papers owasso, subpoena service rogers county',
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/seo/owasso-process-server'
+  },
+  openGraph: {
+    title: 'Owasso, OK Process Server | Just Legal Solutions',
+    description: 'Reliable and fast process serving in Owasso. We ensure your legal documents are served correctly and on time.',
+    url: 'https://justlegalsolutions.org/seo/owasso-process-server',
+    siteName: 'Just Legal Solutions'
+  }
+};
+
+
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'LegalService',
+  name: 'Just Legal Solutions - Process Server Owasso',
+  description: 'Professional process server for Owasso and surrounding areas in Tulsa and Rogers counties.',
+  url: 'https://justlegalsolutions.org/seo/owasso-process-server',
+  telephone: '(539) 367-6832',
+  email: 'info@justlegalsolutions.org',
+  areaServed: [
+    { '@type': 'City', name: 'Owasso' },
+    { '@type': 'AdministrativeArea', name: 'Tulsa County' },
+    { '@type': 'AdministrativeArea', name: 'Rogers County' }
+  ],
+  openingHours: 'Mo-Su 00:00-23:59',
+  priceRange: '$60 - $150',
 };
 
 export default function OwassoProcessServer() {
@@ -156,6 +132,14 @@ export default function OwassoProcessServer() {
                     <p className="mt-2 text-gray-700">{faq.a}</p>
                   </div>
                 ))}
+                {/* Ultimate Guide FAQ */}
+                <div>
+                  <h3 className="text-xl font-semibold text-gray-900">Where can I learn more about process serving laws and best practices in Oklahoma?</h3>
+                  <p className="mt-2 text-gray-700">
+                    For a comprehensive overview of process serving requirements, legal tips, and updates across the state, visit our{' '}
+                    <a href="/seo/ultimate-guide-process-serving-oklahoma" className="text-blue-700 underline">Ultimate Guide to Process Serving in Oklahoma</a>.
+                  </p>
+                </div>
               </div>
             </section>
             <section className="bg-blue-50 p-8 rounded-lg shadow-md mb-12">
@@ -189,9 +173,7 @@ export default function OwassoProcessServer() {
           </div>
         </main>
       </div>
-      <BusinessSchema />
-      <ServiceSchema />
-      <FAQSchema />
+      {/* Schema components removed if not used directly in the page */}
     </>
   );
 }

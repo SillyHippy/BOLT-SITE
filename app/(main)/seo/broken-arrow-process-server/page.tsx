@@ -57,7 +57,8 @@ const jsonLd = {
 
 // --- High-Quality, Unique Local Content for Broken Arrow, OK ---
 const brokenArrowData = {
-    history: `Broken Arrow's name originates from a Muscogee (Creek) community who settled in the area after the Trail of Tears. Founded as a city in 1902, it has grown from a small agricultural community into Oklahoma's fourth-largest city. Its vibrant Rose District and sprawling residential neighborhoods create a diverse service area that requires local expertise.`,
+    // Removed duplicate history property below, keep only the version with Tulsa County link
+    history: `Broken Arrow's name originates from a Muscogee (Creek) community who settled in the area after the Trail of Tears. Founded as a city in 1902, it has grown from a small agricultural community into Oklahoma's fourth-largest city. Its vibrant Rose District and sprawling residential neighborhoods create a diverse service area that requires local expertise. As a major part of Tulsa County, our Broken Arrow team works closely with the <a href="/tulsa-county" className="text-blue-700 underline">Tulsa County Process Server</a> network to ensure seamless service across the region.`,
     courthouse: {
         name: 'Broken Arrow Municipal Court (Justice Center)',
         address: '2304 S 1st Pl, Broken Arrow, OK 74012',
@@ -95,7 +96,6 @@ const brokenArrowData = {
         }
     ]
 };
-
 export default function BrokenArrowProcessServer() {
   return (
     <>
@@ -183,6 +183,14 @@ export default function BrokenArrowProcessServer() {
                     <p className="mt-2 text-gray-700">{faq.a}</p>
                   </div>
                 ))}
+                {/* Ultimate Guide FAQ */}
+                <div>
+                  <h3 className="text-xl font-semibold text-gray-900">Where can I learn more about process serving laws and best practices in Oklahoma?</h3>
+                  <p className="mt-2 text-gray-700">
+                    For a comprehensive overview of process serving requirements, legal tips, and updates across the state, visit our{' '}
+                    <a href="/seo/ultimate-guide-process-serving-oklahoma" className="text-blue-700 underline">Ultimate Guide to Process Serving in Oklahoma</a>.
+                  </p>
+                </div>
                 {/* Additional Local FAQs */}
                 <div>
                   <h3 className="text-xl font-semibold text-gray-900">Do you offer same-day or rush service options in Broken Arrow?</h3>

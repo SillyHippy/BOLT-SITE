@@ -12,61 +12,9 @@ const speakableSchema = {
   },
   'url': 'https://justlegalsolutions.org/seo/glenpool-process-server'
 };
-import type { Metadata } from 'next';
-import { Navbar } from '@/components/ui/navbar';
-import { Footer } from '@/components/ui/footer';
-
-export const metadata: Metadata = {
-  title: 'Glenpool Process Server | Same-Day Service in Tulsa County, OK',
-  description: 'Top-rated process server in Glenpool, Oklahoma. We offer same-day service for all legal documents, including subpoenas and court papers. Licensed, bonded, and serving Tulsa County.',
-  keywords: 'process server glenpool, glenpool process server, legal document delivery glenpool, court papers glenpool, subpoena service tulsa county',
-  alternates: {
-    canonical: 'https://justlegalsolutions.org/seo/glenpool-process-server'
-  },
-  openGraph: {
-    title: 'Glenpool, OK Process Server | Just Legal Solutions',
-    description: 'Reliable and fast process serving in Glenpool. We ensure your legal documents are served correctly and on time.',
-    url: 'https://justlegalsolutions.org/seo/glenpool-process-server',
-    siteName: 'Just Legal Solutions',
-    images: [{
-      url: 'https://justlegalsolutions.org/images/jls-logo.png',
-      width: 1200,
-      height: 630,
-      alt: 'Just Legal Solutions Logo'
-    }],
-    locale: 'en_US',
-    type: 'website',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Glenpool, OK Process Server | Same-Day & Rush Service',
-    description: 'Need a process server in Glenpool? We offer professional, same-day service for all legal documents.',
-    images: ['https://justlegalsolutions.org/images/jls-logo.png'],
-  }
-};
-
-import BusinessSchema from '@/components/BusinessSchema';
-import ServiceSchema from '@/components/ServiceSchema';
-import FAQSchema from '@/components/FAQSchema';
-
-const jsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'LegalService',
-  name: 'Just Legal Solutions - Process Server Glenpool',
-  description: 'Professional process server for Glenpool and surrounding areas in Tulsa County.',
-  url: 'https://justlegalsolutions.org/seo/glenpool-process-server',
-  telephone: '(539) 367-6832',
-  email: 'info@justlegalsolutions.org',
-  areaServed: [
-    { '@type': 'City', name: 'Glenpool' },
-    { '@type': 'AdministrativeArea', name: 'Tulsa County' }
-  ],
-  openingHours: 'Mo-Su 00:00-23:59',
-  priceRange: '$60 - $150',
-};
 
 const glenpoolData = {
-    history: `Glenpool is famously known as "The Town that Made Tulsa Famous" after the discovery of the Glenn Pool Oil Reserve in 1905, one of the largest oil fields in world history. This discovery transformed the entire region. Today, Glenpool is a growing community with a mix of historic sites and modern development, requiring a process server who understands its unique layout.`,
+    history: `Glenpool is famously known as "The Town that Made Tulsa Famous" after the discovery of the Glenn Pool Oil Reserve in 1905, one of the largest oil fields in world history. This discovery transformed the entire region. Today, Glenpool is a growing community with a mix of historic sites and modern development, requiring a process server who understands its unique layout. As part of Tulsa County, our Glenpool team collaborates with the <a href="/tulsa-county" className="text-blue-700 underline">Tulsa County Process Server</a> network to ensure seamless legal support across the region.`,
     courthouse: {
         name: 'Glenpool Municipal Court (City Hall)',
         address: '1220 W 141st St, Glenpool, OK 74033',
@@ -85,18 +33,46 @@ const glenpoolData = {
     ],
     faqs: [
         {
-            q: 'How quickly can you serve papers near the Glenpool Conference Center?',
-            a: 'We can provide rush or same-day service to businesses and individuals along the busy Highway 75 corridor, including the area around the Glenpool Conference Center. Our local servers know the area well to ensure prompt delivery.'
-        },
-        {
-            q: 'Do you serve documents in the rural areas outside of Glenpool city limits?',
-            a: 'Yes, our service area includes all of Glenpool and its surrounding rural routes. We are equipped to handle serves at properties that may have non-standard addresses or are difficult to locate.'
-        },
-        {
-            q: 'What is your process for serving an employee at one of the industrial businesses in Glenpool?',
-            a: 'We handle service at places of employment with professionalism and discretion. We follow all company protocols and ensure the documents are delivered privately to the individual to minimize any disruption.'
+            q: 'What is your experience with Glenpool Municipal Court cases?',
+            a: 'We have extensive experience serving documents for Glenpool residents and businesses, and are familiar with the requirements of the Glenpool Municipal Court and Tulsa County District Court.'
         }
     ]
+};
+import type { Metadata } from 'next';
+import { Navbar } from '@/components/ui/navbar';
+import { Footer } from '@/components/ui/footer';
+
+export const metadata: Metadata = {
+  title: 'Glenpool Process Server | Same-Day Service in Tulsa County, OK',
+  description: 'Top-rated process server in Glenpool, Oklahoma. We offer same-day service for all legal documents, including subpoenas and court papers. Licensed, bonded, and serving Tulsa County.',
+  keywords: 'process server glenpool, glenpool process server, legal document delivery glenpool, court papers glenpool, subpoena service tulsa county',
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/seo/glenpool-process-server'
+  },
+  openGraph: {
+    title: 'Glenpool, OK Process Server | Just Legal Solutions',
+    description: 'Reliable and fast process serving in Glenpool. We ensure your legal documents are served correctly and on time.',
+    url: 'https://justlegalsolutions.org/seo/glenpool-process-server',
+    siteName: 'Just Legal Solutions'
+  }
+};
+
+
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'LegalService',
+  name: 'Just Legal Solutions - Process Server Glenpool',
+  description: 'Professional process server for Glenpool and surrounding areas in Tulsa County.',
+  url: 'https://justlegalsolutions.org/seo/glenpool-process-server',
+  telephone: '(539) 367-6832',
+  email: 'info@justlegalsolutions.org',
+  areaServed: [
+    { '@type': 'City', name: 'Glenpool' },
+    { '@type': 'AdministrativeArea', name: 'Tulsa County' }
+  ],
+  openingHours: 'Mo-Su 00:00-23:59',
+  priceRange: '$60 - $150',
 };
 
 export default function GlenpoolProcessServer() {
@@ -155,6 +131,14 @@ export default function GlenpoolProcessServer() {
                     <p className="mt-2 text-gray-700">{faq.a}</p>
                   </div>
                 ))}
+                {/* Ultimate Guide FAQ */}
+                <div>
+                  <h3 className="text-xl font-semibold text-gray-900">Where can I learn more about process serving laws and best practices in Oklahoma?</h3>
+                  <p className="mt-2 text-gray-700">
+                    For a comprehensive overview of process serving requirements, legal tips, and updates across the state, visit our{' '}
+                    <a href="/seo/ultimate-guide-process-serving-oklahoma" className="text-blue-700 underline">Ultimate Guide to Process Serving in Oklahoma</a>.
+                  </p>
+                </div>
               </div>
             </section>
             <section className="bg-blue-50 p-8 rounded-lg shadow-md mb-12">
@@ -189,9 +173,7 @@ export default function GlenpoolProcessServer() {
           </div>
         </main>
       </div>
-      <BusinessSchema />
-      <ServiceSchema />
-      <FAQSchema />
+      {/* Schema components removed if not used directly in the page */}
     </>
   );
 }

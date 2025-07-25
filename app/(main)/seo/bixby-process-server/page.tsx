@@ -5,6 +5,9 @@ import BusinessSchema from '@/components/BusinessSchema';
 import ServiceSchema from '@/components/ServiceSchema';
 import FAQSchema from '@/components/FAQSchema';
 
+
+// --- High-Quality, Unique Local Content for Bixby, OK ---
+
 // SEO Metadata optimized for the Bixby page
 export const metadata: Metadata = {
   title: 'Bixby Process Server | Same-Day Service in Tulsa & Wagoner County',
@@ -18,23 +21,8 @@ export const metadata: Metadata = {
     description: 'Reliable and fast process serving in Bixby. We ensure your legal documents are served correctly and on time.',
     url: 'https://justlegalsolutions.org/seo/bixby-process-server',
     siteName: 'Just Legal Solutions',
-    images: [{
-      url: 'https://justlegalsolutions.org/images/jls-logo.png',
-      width: 1200,
-      height: 630,
-      alt: 'Just Legal Solutions Logo'
-    }],
-    locale: 'en_US',
-    type: 'website',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Bixby, OK Process Server | Same-Day & Rush Service',
-    description: 'Need a process server in Bixby? We offer professional, same-day service for all legal documents.',
-    images: ['https://justlegalsolutions.org/images/jls-logo.png'],
   }
 };
-
 // Detailed JSON-LD Schema for Bixby Service
 const jsonLd = {
   '@context': 'https://schema.org',
@@ -55,7 +43,7 @@ const jsonLd = {
 
 // --- High-Quality, Unique Local Content for Bixby, OK ---
 const bixbyData = {
-    history: `Known as "The Garden Spot of Oklahoma," Bixby was founded in 1899 and has a deep history rooted in agriculture along the fertile Arkansas River valley. Today, it is one of the fastest-growing suburbs of Tulsa, known for its excellent schools and family-oriented communities. This rapid growth means a mix of established rural properties and new, large-scale residential developments, requiring a process server with versatile local knowledge.`,
+    history: `Known as "The Garden Spot of Oklahoma," Bixby was founded in 1899 and has a deep history rooted in agriculture along the fertile Arkansas River valley. Today, it is one of the fastest-growing suburbs of Tulsa, known for its excellent schools and family-oriented communities. This rapid growth means a mix of established rural properties and new, large-scale residential developments, requiring a process server with versatile local knowledge. As part of Tulsa County, our Bixby team collaborates with the <a href="/tulsa-county" className="text-blue-700 underline">Tulsa County Process Server</a> network to ensure seamless legal support across the region.`,
     courthouse: {
         name: 'Bixby Municipal Court (City Hall)',
         address: '116 W Needles Ave, Bixby, OK 74008',
@@ -75,6 +63,15 @@ const bixbyData = {
         'Rural Bixby addresses'
     ],
     faqs: [
+        {
+            q: 'Where can I learn more about process serving laws and best practices in Oklahoma?',
+            a: (
+                <>
+                  For a comprehensive overview of process serving requirements, legal tips, and updates across the state, visit our{' '}
+                  <a href="/seo/ultimate-guide-process-serving-oklahoma" className="text-blue-700 underline">Ultimate Guide to Process Serving in Oklahoma</a>.
+                </>
+            )
+        },
         {
             q: 'My case is in Wagoner County but the person is in Bixby. Can you handle that?',
             a: 'Yes. We are fully licensed to serve in both Tulsa and Wagoner counties. We regularly handle cross-county serves for Bixby residents and ensure the Affidavit of Service is filed correctly with the appropriate court.'
@@ -146,6 +143,14 @@ const BixbyProcessServer = () => {
                     <p className="mt-2 text-gray-700">{faq.a}</p>
                   </div>
                 ))}
+                {/* Ultimate Guide FAQ */}
+                <div>
+                  <h3 className="text-xl font-semibold text-gray-900">Where can I learn more about process serving laws and best practices in Oklahoma?</h3>
+                  <p className="mt-2 text-gray-700">
+                    For a comprehensive overview of process serving requirements, legal tips, and updates across the state, visit our{' '}
+                    <a href="/seo/ultimate-guide-process-serving-oklahoma" className="text-blue-700 underline">Ultimate Guide to Process Serving in Oklahoma</a>.
+                  </p>
+                </div>
               </div>
             </section>
             <section className="bg-blue-50 p-8 rounded-lg shadow-md mb-12">
