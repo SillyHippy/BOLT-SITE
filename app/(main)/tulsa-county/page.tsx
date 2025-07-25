@@ -223,7 +223,7 @@ export default function TulsaCountyPage() {
             <h1 className="text-4xl md:text-5xl font-extrabold">Tulsa County Process Server & Legal Document Delivery</h1>
             <p className="mt-4 text-xl text-blue-200 max-w-3xl mx-auto">Licensed, bonded, and fast process servers for every city and community in Tulsa County. Same-day and rush service available.</p>
             <div className="flex justify-center mt-8">
-              <Image src="/images/tulsa-county-courthouse.jpg" width={600} height={350} alt="Tulsa County courthouse process server" className="rounded-lg shadow-lg" />
+              <Image src="/images/tulsa-county-courthouse.jpeg" width={600} height={350} alt="Tulsa County courthouse process server" className="rounded-lg shadow-lg" />
             </div>
             <p className="text-sm text-blue-100 mt-2">Serving Tulsa, Broken Arrow, Bixby, Jenks, Sand Springs, and every Tulsa County community</p>
             {/* Google Maps Embed for Tulsa County */}
@@ -328,11 +328,11 @@ export default function TulsaCountyPage() {
             <h2 className="text-2xl font-bold text-blue-900 mb-6 text-center">Tulsa County in Action</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="flex flex-col items-center">
-                <Image src="/images/tulsa-county-courthouse.jpg" width={350} height={200} alt="Tulsa County courthouse process server" className="rounded shadow mb-2" />
+                <Image src="/images/tulsa-county-courthouse.jpeg" width={350} height={200} alt="Tulsa County courthouse process server" className="rounded shadow mb-2" />
                 <span className="text-xs text-gray-600">Tulsa County Courthouse</span>
               </div>
               <div className="flex flex-col items-center">
-                <Image src="/images/tulsa-downtown-legal.jpg" width={350} height={200} alt="Legal document delivery in downtown Tulsa" className="rounded shadow mb-2" />
+                <Image src="/images/Tulsa_skyline_aerial,_April_2023.jpg" width={350} height={200} alt="Tulsa skyline aerial April 2023" className="rounded shadow mb-2" />
                 <span className="text-xs text-gray-600">Downtown Tulsa Legal District</span>
               </div>
               <div className="flex flex-col items-center">

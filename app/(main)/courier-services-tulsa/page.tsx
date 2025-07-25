@@ -96,7 +96,7 @@ export default function CourierServicesTulsaPage() {
             <h1 className="text-4xl md:text-5xl font-extrabold">Tulsa County Courier Services</h1>
             <p className="mt-4 text-xl text-blue-200 max-w-3xl mx-auto">Same-day legal document delivery, court filings, and secure business transport across Tulsa County and all major cities.</p>
             <div className="flex justify-center mt-8">
-              <Image src="/images/tulsa-courier-downtown.jpg" width={600} height={350} alt="Tulsa County courier downtown legal delivery" className="rounded-lg shadow-lg" />
+              <Image src="/images/tulsa-courier-downtown.jpeg" width={600} height={350} alt="Tulsa County courier downtown legal delivery" className="rounded-lg shadow-lg" />
             </div>
             <p className="text-sm text-blue-100 mt-2">Serving Tulsa, Broken Arrow, Bixby, Jenks, Owasso, Sand Springs & more</p>
             {/* Google Maps Embed for Tulsa County */}
