@@ -44,11 +44,23 @@ export default function ProcessServerTulsaPage() {
   ];
   return (
     <main className="min-h-screen bg-white">
-      {/* Unique Tulsa County History Section */}
+      {/* Unique Tulsa County Hero Section with Images */}
       <section className="bg-white py-10 border-b">
-        <div className="container mx-auto px-4 max-w-3xl">
-          <h2 className="text-2xl font-bold text-blue-900 mb-4">Tulsa County’s Legal Heart</h2>
-          <p className="text-lg text-gray-700">Nestled along the Arkansas River, Tulsa County includes a patchwork of cities—Tulsa, Broken Arrow, Jenks, Bixby—each with a unique civic and legal culture shaped by growth since the railroad era. Landmark rulings and evolving family, real estate, and civil courts have made this district the judicial heart of eastern Oklahoma. We’ve navigated these neighborhoods for years, staying up to date with shifting court practices and the unique challenges of serving papers across diverse settings—from historic routes to modern suburbs.</p>
+        <div className="container mx-auto px-4 max-w-5xl">
+          <div className="flex flex-col md:flex-row items-center gap-8">
+            <div className="flex-1">
+              <h2 className="text-2xl font-bold text-blue-900 mb-4">Tulsa County’s Legal Heart</h2>
+              <p className="text-lg text-gray-700 mb-4">Nestled along the Arkansas River, Tulsa County includes a patchwork of cities—Tulsa, Broken Arrow, Jenks, Bixby—each with a unique civic and legal culture shaped by growth since the railroad era. Landmark rulings and evolving family, real estate, and civil courts have made this district the judicial heart of eastern Oklahoma. We’ve navigated these neighborhoods for years, staying up to date with shifting court practices and the unique challenges of serving papers across diverse settings—from historic routes to modern suburbs.</p>
+            </div>
+            <div className="flex-1 flex flex-col gap-4 items-center">
+              <Image src="/images/tulsa-county-courthouse.jpeg" width={400} height={250} alt="Tulsa County Courthouse - Trusted Process Server" className="rounded-lg shadow-lg" />
+              <span className="text-xs text-gray-500 text-center">Tulsa County Courthouse – Fast, reliable legal document delivery</span>
+              <Image src="/images/tulsadriller.png" width={320} height={320} alt="Golden Driller Tulsa landmark" className="rounded-full shadow-md" />
+              <span className="text-xs text-gray-500 text-center">The Golden Driller – Iconic Tulsa landmark</span>
+              <Image src="/images/Tulsa_skyline_aerial,_April_2023.jpg" width={400} height={220} alt="Tulsa skyline aerial view" className="rounded shadow" />
+              <span className="text-xs text-gray-500 text-center">Tulsa Skyline – Serving all neighborhoods and suburbs</span>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -92,14 +104,18 @@ export default function ProcessServerTulsaPage() {
         </div>
       </section>
 
-      {/* Quick Law Resource Box */}
+      {/* Quick Law Resource Box with Courthouse Image */}
       <aside className="bg-gray-100 py-6 border-b">
-        <div className="container mx-auto px-4 max-w-3xl flex flex-col md:flex-row gap-6">
+        <div className="container mx-auto px-4 max-w-5xl flex flex-col md:flex-row gap-6 items-center">
           <div className="flex-1">
             <h4 className="font-bold text-blue-800 mb-2">Tulsa District Court</h4>
             <p className="text-gray-700 mb-1">500 S Denver Ave, Tulsa, OK 74103</p>
             <a href="https://www.tulsacountydistrictcourt.org/" className="text-blue-700 underline" target="_blank" rel="noopener noreferrer">Visit Court Website</a>
             <p className="text-gray-700 mt-1">(918) 596-5000</p>
+          </div>
+          <div className="flex-1 flex flex-col items-center">
+            <Image src="/images/tulsa-courier-downtown.jpeg" width={350} height={220} alt="Downtown Tulsa legal courier and process server" className="rounded shadow" />
+            <span className="text-xs text-gray-500 text-center mt-2">Downtown Tulsa – Legal courier and process serving experts</span>
           </div>
           <div className="flex-1">
             <h4 className="font-bold text-blue-800 mb-2">Oklahoma Process Service Statutes</h4>

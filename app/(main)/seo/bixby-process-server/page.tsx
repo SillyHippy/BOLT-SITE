@@ -109,9 +109,7 @@ const BixbyProcessServer = () => {
           <div className="max-w-4xl mx-auto">
             <section className="mb-12">
               <h2 className="text-3xl font-bold text-gray-800 mb-6">Trusted Process Server in Bixby, OK</h2>
-              <p className="text-lg text-gray-700 mb-4">
-                {bixbyData.history}
-              </p>
+              <p className="text-lg text-gray-700 mb-4" dangerouslySetInnerHTML={{ __html: bixbyData.history }} />
             </section>
             <section className="bg-white p-8 rounded-lg shadow-md mb-12">
               <h3 className="text-2xl font-bold text-blue-800 mb-6">Bixby Courthouse & Local Service Areas</h3>

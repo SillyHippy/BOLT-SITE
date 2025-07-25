@@ -98,9 +98,7 @@ export default function OwassoProcessServer() {
           <div className="max-w-4xl mx-auto">
             <section className="mb-12">
               <h2 className="text-3xl font-bold text-gray-800 mb-6">Local Expertise in Owasso</h2>
-              <p className="text-lg text-gray-700 mb-4">
-                {owassoData.history} We also serve neighboring communities, so if you need a process server in <a href="/seo/broken-arrow-process-server" className="text-blue-700 underline">Broken Arrow</a> or <a href="/seo/glenpool-process-server" className="text-blue-700 underline">Glenpool</a>, our team is ready to help.
-              </p>
+              <p className="text-lg text-gray-700 mb-4" dangerouslySetInnerHTML={{ __html: owassoData.history + ' We also serve neighboring communities, so if you need a process server in <a href="/seo/broken-arrow-process-server" class="text-blue-700 underline">Broken Arrow</a> or <a href="/seo/glenpool-process-server" class="text-blue-700 underline">Glenpool</a>, our team is ready to help.' }} />
             </section>
             <section className="bg-white p-8 rounded-lg shadow-md mb-12">
               <h3 className="text-2xl font-bold text-blue-800 mb-6">Owasso Courthouse & Local Service Areas</h3>

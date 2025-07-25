@@ -100,9 +100,7 @@ export default function LegalPostingProcessServer() {
           <div className="max-w-4xl mx-auto">
             <section className="mb-12">
               <h2 className="text-3xl font-bold text-gray-800 mb-6">When Personal Service Isn&apos;t an Option</h2>
-              <p className="text-lg text-gray-700 mb-4">
-                {postingData.intro}
-              </p>
+              <p className="text-lg text-gray-700 mb-4" dangerouslySetInnerHTML={{ __html: postingData.intro }} />
             </section>
             <section className="bg-white p-8 rounded-lg shadow-md mb-12">
               <h3 className="text-2xl font-bold text-indigo-800 mb-6">{postingData.process.title}</h3>

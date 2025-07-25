@@ -137,9 +137,7 @@ export default function EvictionNoticeProcessServer() {
           <div className="max-w-4xl mx-auto">
             <section className="mb-12">
               <h2 className="text-3xl font-bold text-gray-800 mb-6">The Critical Importance of Proper Eviction Service</h2>
-              <p className="text-lg text-gray-700 mb-4">
-                {evictionData.intro}
-              </p>
+              <p className="text-lg text-gray-700 mb-4" dangerouslySetInnerHTML={{ __html: evictionData.intro }} />
             </section>
             <section className="bg-white p-8 rounded-lg shadow-md mb-12">
               <h3 className="text-2xl font-bold text-red-800 mb-6">{evictionData.oklahomaProcess.title}</h3>

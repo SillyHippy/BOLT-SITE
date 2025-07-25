@@ -136,7 +136,7 @@ export default function BrokenArrowProcessServer() {
             {/* About Broken Arrow / Local Expertise */}
             <section className="mb-12">
               <h2 className="text-3xl font-bold text-gray-800 mb-6">Local Expertise in Broken Arrow</h2>
-              <p className="text-lg text-gray-700 mb-4">{brokenArrowData.history}</p>
+                    <p className="text-lg text-gray-700 mb-4" dangerouslySetInnerHTML={{ __html: brokenArrowData.history }} />
               <div className="flex justify-center mt-4">
                 <Image src="/images/broken-arrow-municipal-court.jpg" width={400} height={166} alt="Broken Arrow Municipal Court building" className="rounded shadow" />
               </div>

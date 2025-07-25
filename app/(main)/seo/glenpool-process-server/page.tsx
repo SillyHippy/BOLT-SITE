@@ -97,9 +97,7 @@ export default function GlenpoolProcessServer() {
           <div className="max-w-4xl mx-auto">
             <section className="mb-12">
               <h2 className="text-3xl font-bold text-gray-800 mb-6">Local Expertise in Glenpool</h2>
-              <p className="text-lg text-gray-700 mb-4">
-                {glenpoolData.history} If you need a process server in Glenpool or nearby communities like <a href="/seo/broken-arrow-process-server" className="text-blue-700 underline">Broken Arrow</a> or <a href="/seo/jenks-process-server" className="text-blue-700 underline">Jenks</a>, our team is ready to help.
-              </p>
+              <p className="text-lg text-gray-700 mb-4" dangerouslySetInnerHTML={{ __html: glenpoolData.history + ' If you need a process server in Glenpool or nearby communities like <a href="/seo/broken-arrow-process-server" class="text-blue-700 underline">Broken Arrow</a> or <a href="/seo/jenks-process-server" class="text-blue-700 underline">Jenks</a>, our team is ready to help.' }} />
             </section>
             <section className="bg-white p-8 rounded-lg shadow-md mb-12">
               <h3 className="text-2xl font-bold text-blue-800 mb-6">Glenpool Courthouse & Local Service Areas</h3>
