@@ -57,6 +57,32 @@ export default function CourierServicesTulsaPage() {
         })
       }} />
       <main className="min-h-screen pt-12 bg-white">
+        {/* Hero Section with Local Image */}
+        <section className="bg-blue-900 text-white pb-12">
+          <div className="container mx-auto px-4 pt-16 text-center">
+            <h1 className="text-4xl md:text-5xl font-extrabold">Tulsa County Courier Services</h1>
+            <p className="mt-4 text-xl text-blue-200 max-w-3xl mx-auto">Same-day legal document delivery, court filings, and secure business transport across Tulsa County and all major cities.</p>
+            <div className="flex justify-center mt-8">
+              <Image src="/images/tulsa-courier-downtown.jpg" width={600} height={350} alt="Tulsa County courier downtown legal delivery" className="rounded-lg shadow-lg" />
+            </div>
+            <p className="text-sm text-blue-100 mt-2">Serving Tulsa, Broken Arrow, Bixby, Jenks, Owasso, Sand Springs & more</p>
+            {/* Google Maps Embed for Tulsa County */}
+            <div className="flex justify-center mt-6">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d412235.1229762693!2d-96.2239487441333!3d36.13012920197728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b69324e23801f7%3A0x4296e34c3835c065!2sTulsa%20County%2C%20OK!5e0!3m2!1sen!2sus!4v1690222882674!5m2!1sen!2sus"
+                width="600"
+                height="450"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Tulsa County, OK Map"
+                className="rounded-lg shadow-lg w-full max-w-2xl"
+              ></iframe>
+            </div>
+          </div>
+        </section>
+
         {/* Unique Tulsa Courier History Section */}
         <section className="bg-white py-10 border-b">
           <div className="container mx-auto px-4 max-w-3xl">
@@ -64,6 +90,7 @@ export default function CourierServicesTulsaPage() {
             <p className="text-lg text-gray-700">From the early “Oil Capital” days to the modern business corridor, Tulsa has always depended on reliable movement of documents. Law firms, medical offices, and corporate clients across Tulsa County trust local couriers to keep business flowing smoothly. Our service continues this tradition—adapting to changes in Tulsa’s bustling economy, embracing new neighborhoods, and delivering with security and speed to every sector, from downtown courthouses to lakeside offices.</p>
           </div>
         </section>
+
         {/* By the Numbers Stats Bar */}
         <section className="bg-blue-50 py-6 border-b">
           <div className="container mx-auto flex flex-wrap justify-center gap-8 text-center">
@@ -77,9 +104,44 @@ export default function CourierServicesTulsaPage() {
             </div>
             <div>
               <span className="block text-3xl font-bold text-blue-800">Serving Tulsa</span>
-              <span className="block text-gray-700">since 2018</span>
+              <span className="block text-gray-700">since 2020</span>
             </div>
           </div>
+        </section>
+
+        {/* Service Area Section */}
+        <section className="py-10 border-b">
+          <div className="container mx-auto px-4 max-w-4xl">
+            <h2 className="text-2xl font-bold text-blue-900 mb-6 text-center">Service Areas in Tulsa County</h2>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center mb-4">
+              {['Tulsa', 'Broken Arrow', 'Bixby', 'Jenks', 'Owasso', 'Sand Springs', 'Collinsville', 'Glenpool', 'Skiatook', 'Sapulpa', 'Sperry', 'Liberty', 'Lotsee', 'Fair Oaks', 'Oakhurst', 'Turley', 'Berryhill', 'Mingo', 'Leonard', 'Garnett', 'Lake'].map(city => (
+                <div key={city} className="bg-blue-50 p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                  <p className="font-semibold text-blue-900">{city}</p>
+                </div>
+              ))}
+            </div>
+            <p className="text-xs text-gray-500 text-center mt-1">We serve every city, town, and community in Tulsa County—no job too big or small.</p>
+          </div>
+        </section>
+
+        {/* Local CTAs */}
+        <section className="bg-white py-6 border-b mb-12 text-center">
+          <h3 className="text-xl font-bold text-blue-900 mb-2">Need a reliable courier in Tulsa County?</h3>
+          <p className="text-gray-800 mb-2">Contact us for same-day legal document delivery or call for a quote!</p>
+          <a href="/contact" className="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-700 transition">Get Started</a>
+        </section>
+
+        {/* FAQ Section */}
+        <section className="py-16 bg-gray-50 border-t mt-16">
+          <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8 text-center">Tulsa Courier Service FAQs</h2>
+          <ul className="space-y-6 mt-8">
+            {faqs.map((faq, idx) => (
+              <li key={idx} className="bg-white p-6 rounded-lg shadow border-l-4 border-blue-500">
+                <h3 className="text-lg font-bold text-gray-900">{faq.question}</h3>
+                <p className="text-gray-700 mt-2">{faq.answer}</p>
+              </li>
+            ))}
+          </ul>
         </section>
       </main>
     </>
