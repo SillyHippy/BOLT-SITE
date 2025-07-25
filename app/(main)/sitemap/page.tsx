@@ -47,25 +47,27 @@ const SitemapPage = () => {
   // Static list generated from sitemap.xml
   // Static list of unique URLs (no duplicates, no trailing slash)
   const sitemapLinks = [
+    // Static list generated from sitemap.xml
+    // Static list of unique URLs (no duplicates, no trailing slash)
+    { url: '/' },
     { url: '/404' },
     { url: '/ai-business-info' },
     { url: '/backlinks' },
-    { url: '/card/calendar' },
     { url: '/card' },
+    { url: '/card/calendar' },
     { url: '/competitor-analysis' },
     { url: '/courier-services-tulsa' },
     { url: '/future-ai-ready' },
-    { url: '/' },
     { url: '/local-legal-events' },
     { url: '/local-seo-marker' },
     { url: '/multi-search-marker' },
-    { url: '/payments' },
-    { url: '/performance-marker' },
-    { url: '/platform-supremacy' },
-    { url: '/pricing' },
     { url: '/process-server-tulsa' },
     { url: '/resources' },
     { url: '/security-policy' },
+    { url: '/tulsa-process-server' },
+    { url: '/tulsa-county' },
+    { url: '/ultimate-guide-process-serving-oklahoma' },
+    // SEO city/service pages (deduped and current)
     { url: '/seo/bixby-process-server' },
     { url: '/seo/broken-arrow-process-server' },
     { url: '/seo/eviction-notice-process-server' },
@@ -80,7 +82,6 @@ const SitemapPage = () => {
     { url: '/seo-dashboard' },
     { url: '/services' },
     { url: '/sitemap' },
-    { url: '/tulsa-process-server' },
     { url: '/urgent-process-server' },
     { url: '/voice-friendly' },
     { url: '/voice-search-marker' },

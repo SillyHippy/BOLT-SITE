@@ -102,31 +102,7 @@ export default function UltimateGuidePage() {
             </ul>
           </CardContent>
         </Card>
-
-        {/* --- Author Bio Card --- */}
-        <Card className="mb-8 bg-slate-50">
-          <CardHeader>
-            <CardTitle className="flex items-center"><User className="mr-2 h-6 w-6" />About the Author</CardTitle>
-          </CardHeader>
-          <CardContent className="flex items-center">
-            <div className="mr-4 flex-shrink-0">
-              <Image 
-                src="/1000005212.jpg" 
-                alt="Author Headshot, Just Legal Solutions" 
-                width={100} 
-                height={100} 
-                className="rounded-full" 
-              />
-            </div>
-            <div>
-              <p className="font-semibold">[Your Name], Founder</p>
-              <p className="text-sm">
-                With over [X] years of experience serving legal documents across Oklahoma, [Your Name] is a licensed and bonded expert in the field. This guide was written to provide attorneys and individuals with the clear, authoritative information they need to navigate the process serving system.
-              </p>
-            </div>
-          </CardContent>
-        </Card>
-
+       
         {/* --- Service Area Map --- */}
         <Card className="mb-8">
           <CardHeader>
