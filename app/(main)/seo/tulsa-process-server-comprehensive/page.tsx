@@ -213,7 +213,7 @@ export default function TulsaProcessServerComprehensive() {
                 <div>
                   <h3 className="text-xl font-semibold text-gray-900">Where can I learn more about process serving laws and best practices in Oklahoma?</h3>
                   <p className="mt-2 text-gray-700">
-                    For a deep dive into state-wide process serving requirements, tips, and legal updates, check out our <a href="/seo/ultimate-guide-process-serving-oklahoma" className="text-blue-700 underline">Ultimate Guide to Process Serving in Oklahoma</a>.
+                    For a deep dive into state-wide process serving requirements, tips, and legal updates, check out our <a href="/ultimate-guide-process-serving-oklahoma" className="text-blue-700 underline">Ultimate Guide to Process Serving in Oklahoma</a>.
                   </p>
                 </div>
               </div>

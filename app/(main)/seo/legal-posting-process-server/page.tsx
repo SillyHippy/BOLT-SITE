@@ -59,7 +59,7 @@ const postingData = {
             a: (
                 <>
                   For a comprehensive overview of process serving requirements, legal tips, and updates across the state, visit our{' '}
-                  <a href="/seo/ultimate-guide-process-serving-oklahoma" className="text-blue-700 underline">Ultimate Guide to Process Serving in Oklahoma</a>.
+                  <a href="/ultimate-guide-process-serving-oklahoma" className="text-blue-700 underline">Ultimate Guide to Process Serving in Oklahoma</a>.
                 </>
             )
         },
@@ -93,7 +93,7 @@ export default function LegalPostingProcessServer() {
         <div className="bg-indigo-900 text-white">
           <div className="container mx-auto px-4 py-20 pt-12 text-center">
             <h1 className="text-4xl md:text-5xl font-extrabold">Legal Notice Posting Service</h1>
-            <p className="mt-4 text-xl text-indigo-200 max-w-3xl mx-auto">Ensuring Compliance with Oklahoma&apos;s Alternative Service Rules. If you need a process server for legal posting in Tulsa, <a href="/seo/eviction-notice-process-server" className="text-indigo-200 underline">eviction notice service</a>, or <a href="/seo/broken-arrow-process-server" className="text-indigo-200 underline">Broken Arrow</a>, we can help.</p>
+            <p className="mt-4 text-xl text-indigo-200 max-w-3xl mx-auto">Ensuring Compliance with Oklahoma&apos;s Alternative Service Rules. If you need a process server for legal posting in Tulsa, we can help.</p>
           </div>
         </div>
         <main className="container mx-auto px-4 py-16">

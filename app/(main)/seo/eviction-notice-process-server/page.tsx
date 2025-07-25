@@ -92,7 +92,7 @@ const evictionData = {
             a: (
                 <>
                   For a comprehensive overview of process serving requirements, legal tips, and updates across the state, visit our{' '}
-                  <a href="/seo/ultimate-guide-process-serving-oklahoma" className="text-blue-700 underline">Ultimate Guide to Process Serving in Oklahoma</a>.
+                  <a href="/ultimate-guide-process-serving-oklahoma" className="text-blue-700 underline">Ultimate Guide to Process Serving in Oklahoma</a>.
                 </>
             )
         },
@@ -130,7 +130,7 @@ export default function EvictionNoticeProcessServer() {
         <div className="bg-red-800 text-white">
           <div className="container mx-auto px-4 py-20 pt-12 text-center">
             <h1 className="text-4xl md:text-5xl font-extrabold">Eviction Notice Process Server for Tulsa County</h1>
-            <p className="mt-4 text-xl text-red-100 max-w-3xl mx-auto">Ensuring Landlords &amp; Property Managers Meet Oklahoma&apos;s Strict Legal Service Requirements. If you need a process server for <a href="/seo/legal-posting-process-server" className="text-red-100 underline">legal posting</a> or <a href="/seo/broken-arrow-process-server" className="text-red-100 underline">Broken Arrow</a>, we can help.</p>
+            <p className="mt-4 text-xl text-red-100 max-w-3xl mx-auto">Ensuring Landlords &amp; Property Managers Meet Oklahoma&apos;s Strict Legal Service Requirements.</p>
           </div>
         </div>
         <main className="container mx-auto px-4 py-16">

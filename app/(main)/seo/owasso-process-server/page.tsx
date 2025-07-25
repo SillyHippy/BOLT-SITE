@@ -135,7 +135,7 @@ export default function OwassoProcessServer() {
                   <h3 className="text-xl font-semibold text-gray-900">Where can I learn more about process serving laws and best practices in Oklahoma?</h3>
                   <p className="mt-2 text-gray-700">
                     For a comprehensive overview of process serving requirements, legal tips, and updates across the state, visit our{' '}
-                    <a href="/seo/ultimate-guide-process-serving-oklahoma" className="text-blue-700 underline">Ultimate Guide to Process Serving in Oklahoma</a>.
+                    <a href="/ultimate-guide-process-serving-oklahoma" className="text-blue-700 underline">Ultimate Guide to Process Serving in Oklahoma</a>.
                   </p>
                 </div>
               </div>

@@ -111,7 +111,7 @@ export default function BrokenArrowProcessServer() {
             <h1 className="text-4xl md:text-5xl font-extrabold">Broken Arrow, Oklahoma Process Server</h1>
             <p className="mt-4 text-xl text-blue-200 max-w-3xl mx-auto">Expert Legal Document Delivery in Tulsa & Wagoner Counties</p>
             <div className="flex justify-center mt-8">
-              <Image src="/images/broken-arrow-rose-district.jpg" width={600} height={350} alt="Broken Arrow Rose District legal process server" className="rounded-lg shadow-lg" />
+              <Image src="/images/broken-arrow-rose-district.jpeg" width={600} height={350} alt="Broken Arrow Rose District legal process server" className="rounded-lg shadow-lg" />
             </div>
             {/* Google Maps Embed for Broken Arrow */}
             <div className="flex justify-center mt-6">
@@ -188,7 +188,7 @@ export default function BrokenArrowProcessServer() {
                   <h3 className="text-xl font-semibold text-gray-900">Where can I learn more about process serving laws and best practices in Oklahoma?</h3>
                   <p className="mt-2 text-gray-700">
                     For a comprehensive overview of process serving requirements, legal tips, and updates across the state, visit our{' '}
-                    <a href="/seo/ultimate-guide-process-serving-oklahoma" className="text-blue-700 underline">Ultimate Guide to Process Serving in Oklahoma</a>.
+                    <a href="/ultimate-guide-process-serving-oklahoma" className="text-blue-700 underline">Ultimate Guide to Process Serving in Oklahoma</a>.
                   </p>
                 </div>
                 {/* Additional Local FAQs */}
