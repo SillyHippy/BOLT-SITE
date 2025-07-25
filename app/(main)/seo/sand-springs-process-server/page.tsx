@@ -178,7 +178,7 @@ export default function SandSpringsProcessServer() {
       </div>
       <BusinessSchema />
       <ServiceSchema />
-      {/* <FAQSchema /> removed to prevent duplicate/stray FAQ rendering at the top */}
+      <Footer />
     </>
   );
 }
