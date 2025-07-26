@@ -1,34 +1,21 @@
-// Speakable Schema for voice search optimization
-const speakableSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'WebPage',
-  'name': 'Sand Springs Process Server',
-  'speakable': {
-    '@type': 'SpeakableSpecification',
-    'xpath': [
-      '/html/body/div/main/div/section[1]/p',
-      '/html/body/div/main/div/section[4]'
-    ]
-  },
-  'url': 'https://justlegalsolutions.org/seo/sand-springs-process-server'
-};
 import type { Metadata } from 'next';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 import BusinessSchema from '@/components/BusinessSchema';
 import ServiceSchema from '@/components/ServiceSchema';
 
+// Corrected metadata for Sand Springs
 export const metadata: Metadata = {
-  title: 'Glenpool Process Server | Same-Day Service in Tulsa County, OK',
-  description: 'Top-rated process server in Glenpool, Oklahoma. We offer same-day service for all legal documents, including subpoenas and court papers. Licensed, bonded, and serving Tulsa County.',
-  keywords: 'process server glenpool, glenpool process server, legal document delivery glenpool, court papers glenpool, subpoena service tulsa county',
+  title: 'Sand Springs Process Server | Same-Day Service in Tulsa County, OK',
+  description: 'Top-rated process server in Sand Springs, Oklahoma. We offer same-day service for all legal documents, including subpoenas and court papers. Licensed, bonded, and serving Tulsa & Creek Counties.',
+  keywords: 'process server sand springs, sand springs process server, legal document delivery sand springs, court papers sand springs, subpoena service tulsa county',
   alternates: {
-    canonical: 'https://justlegalsolutions.org/seo/glenpool-process-server'
+    canonical: 'https://justlegalsolutions.org/seo/sand-springs-process-server'
   },
   openGraph: {
-    title: 'Glenpool, OK Process Server | Just Legal Solutions',
-    description: 'Reliable and fast process serving in Glenpool. We ensure your legal documents are served correctly and on time.',
-    url: 'https://justlegalsolutions.org/seo/glenpool-process-server',
+    title: 'Sand Springs, OK Process Server | Just Legal Solutions',
+    description: 'Reliable and fast process serving in Sand Springs. We ensure your legal documents are served correctly and on time.',
+    url: 'https://justlegalsolutions.org/seo/sand-springs-process-server',
     siteName: 'Just Legal Solutions',
     images: [{
       url: 'https://justlegalsolutions.org/images/jls-logo.png',
@@ -41,29 +28,46 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Glenpool, OK Process Server | Same-Day & Rush Service',
-    description: 'Need a process server in Glenpool? We offer professional, same-day service for all legal documents.',
+    title: 'Sand Springs, OK Process Server | Same-Day & Rush Service',
+    description: 'Need a process server in Sand Springs? We offer professional, same-day service for all legal documents.',
     images: ['https://justlegalsolutions.org/images/jls-logo.png'],
   }
 };
 
+// Corrected LegalService Schema for Sand Springs
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'LegalService',
-  name: 'Just Legal Solutions - Process Server Glenpool',
-  description: 'Professional process server for Glenpool and surrounding areas in Tulsa County.',
-  url: 'https://justlegalsolutions.org/seo/glenpool-process-server',
+  name: 'Just Legal Solutions - Process Server Sand Springs',
+  description: 'Professional process server for Sand Springs and surrounding areas in Tulsa and Creek Counties.',
+  url: 'https://justlegalsolutions.org/seo/sand-springs-process-server',
   telephone: '(539) 367-6832',
   email: 'info@justlegalsolutions.org',
   areaServed: [
-    { '@type': 'City', name: 'Glenpool' },
-    { '@type': 'AdministrativeArea', name: 'Tulsa County' }
+    { '@type': 'City', name: 'Sand Springs' },
+    { '@type': 'AdministrativeArea', name: 'Tulsa County' },
+    { '@type': 'AdministrativeArea', name: 'Creek County' }
   ],
   openingHours: 'Mo-Su 00:00-23:59',
   priceRange: '$60 - $150',
 };
 
-// Removed glenpoolData, not used for Sand Springs page
+// Speakable Schema for voice search optimization
+const speakableSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  'name': 'Sand Springs Process Server',
+  'speakable': {
+    '@type': 'SpeakableSpecification',
+    // Using CSS selectors is more reliable than XPath
+    'cssSelector': [
+      '.speakable-section-1',
+      '.speakable-section-2'
+      ]
+  },
+  'url': 'https://justlegalsolutions.org/seo/sand-springs-process-server'
+};
+
 
 export default function SandSpringsProcessServer() {
   return (
@@ -86,7 +90,7 @@ export default function SandSpringsProcessServer() {
         </div>
         <main className="container mx-auto px-4 py-16">
           <div className="max-w-4xl mx-auto">
-            <section className="mb-12">
+            <section className="mb-12 speakable-section-1">
               <h2 className="text-3xl font-bold text-gray-800 mb-6">Local Expertise in Sand Springs</h2>
               <p className="text-lg text-gray-700 mb-4">
                 Sand Springs is a unique blend of historic neighborhoods and new developments along the Arkansas River. If you need a process server in Sand Springs or nearby <a href="/seo/broken-arrow-process-server" className="text-blue-700 underline">Broken Arrow</a> or <a href="/seo/owasso-process-server" className="text-blue-700 underline">Owasso</a>, our team is ready to help.
@@ -112,7 +116,7 @@ export default function SandSpringsProcessServer() {
                 </ul>
               </div>
             </section>
-            <section className="bg-white p-8 rounded-lg shadow-md mb-12">
+            <section className="bg-white p-8 rounded-lg shadow-md mb-12 speakable-section-2">
               <h3 className="text-2xl font-bold text-blue-800 mb-6">Oklahoma Process Serving Law in Sand Springs</h3>
               <p className="text-gray-700 mb-4">Service of process in Sand Springs is governed by Oklahoma State Statutes. Our team ensures every serve is legally compliant and provides a notarized Affidavit of Service for the Tulsa County District Court.</p>
             </section>
