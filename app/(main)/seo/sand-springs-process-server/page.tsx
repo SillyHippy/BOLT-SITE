@@ -172,7 +172,7 @@ export default function SandSpringsProcessServerPage() {
       </div>
       <BusinessSchema />
       <ServiceSchema />
-      <FAQSchema faqs={sandSpringsData.faqs} city="Sand Springs"/>
+      <FAQSchema />
     </>
   );
 }
