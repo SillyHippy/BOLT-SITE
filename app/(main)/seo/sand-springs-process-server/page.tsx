@@ -51,7 +51,7 @@ const jsonLd = {
   priceRange: '$60 - $150',
 };
 
-// Data object for the page content, including FAQs
+// Data object for the page content, including FAQs, structured like the working Broken Arrow page
 const sandSpringsData = {
     faqs: [
         {
