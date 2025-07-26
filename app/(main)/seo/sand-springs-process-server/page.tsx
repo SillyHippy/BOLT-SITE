@@ -1,6 +1,4 @@
 import type { Metadata } from 'next';
-import { Navbar } from '@/components/ui/navbar';
-import { Footer } from '@/components/ui/footer';
 import BusinessSchema from '@/components/BusinessSchema';
 import ServiceSchema from '@/components/ServiceSchema';
 
@@ -72,7 +70,6 @@ const speakableSchema = {
 export default function SandSpringsProcessServer() {
   return (
     <>
-      <Navbar />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -182,7 +179,6 @@ export default function SandSpringsProcessServer() {
       </div>
       <BusinessSchema />
       <ServiceSchema />
-      <Footer />
     </>
   );
 }
