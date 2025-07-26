@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import BusinessSchema from '@/components/BusinessSchema';
 import ServiceSchema from '@/components/ServiceSchema';
+import FAQSchema from '@/components/FAQSchema';
 
 // Corrected metadata for Sand Springs
 export const metadata: Metadata = {
@@ -50,33 +51,43 @@ const jsonLd = {
   priceRange: '$60 - $150',
 };
 
-// Speakable Schema for voice search optimization
-const speakableSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'WebPage',
-  'name': 'Sand Springs Process Server',
-  'speakable': {
-    '@type': 'SpeakableSpecification',
-    // Using CSS selectors is more reliable than XPath
-    'cssSelector': [
-      '.speakable-section-1',
-      '.speakable-section-2'
-      ]
-  },
-  'url': 'https://justlegalsolutions.org/seo/sand-springs-process-server'
+// Data object for the page content, including FAQs
+const sandSpringsData = {
+    faqs: [
+        {
+            q: 'Do you offer same-day process serving in Sand Springs?',
+            a: 'Yes, we offer same-day and rush process serving throughout Sand Springs and the Tulsa metro area. Contact us for urgent requests.'
+        },
+        {
+            q: 'Are you licensed to serve court papers in Sand Springs?',
+            a: 'Yes, all of our process servers are licensed and bonded in Oklahoma, and we serve all courts in Sand Springs and Tulsa County.'
+        },
+        {
+            q: 'What legal documents do you serve in Sand Springs?',
+            a: 'We serve subpoenas, summons, complaints, eviction notices, small claims, family law documents, and more for individuals, law firms, and businesses.'
+        },
+        {
+            q: 'How do you handle difficult-to-serve individuals in the Sand Springs area?',
+            a: 'We use advanced skip tracing, surveillance, and creative tactics to locate and serve evasive individuals while remaining fully compliant with Oklahoma law.'
+        },
+        {
+            q: 'Do you serve businesses, schools, and government offices in Sand Springs?',
+            a: 'Absolutely. We serve all types of locations, including businesses, schools, and public buildings, with professionalism and discretion.'
+        },
+        {
+            q: 'How fast can you serve papers in Sand Springs?',
+            a: 'Standard service is typically attempted within 24-48 hours and completed within 3-5 business days. Same-day and rush services are available for urgent matters.'
+        }
+    ]
 };
 
 
-export default function SandSpringsProcessServer() {
+export default function SandSpringsProcessServerPage() {
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema) }}
       />
       <div className="min-h-screen bg-gray-50 pt-16">
         <div className="bg-blue-900 text-white">
@@ -87,7 +98,7 @@ export default function SandSpringsProcessServer() {
         </div>
         <main className="container mx-auto px-4 py-16">
           <div className="max-w-4xl mx-auto">
-            <section className="mb-12 speakable-section-1">
+            <section className="mb-12">
               <h2 className="text-3xl font-bold text-gray-800 mb-6">Local Expertise in Sand Springs</h2>
               <p className="text-lg text-gray-700 mb-4">
                 Sand Springs is a unique blend of historic neighborhoods and new developments along the Arkansas River. If you need a process server in Sand Springs or nearby <a href="/seo/broken-arrow-process-server" className="text-blue-700 underline">Broken Arrow</a> or <a href="/seo/owasso-process-server" className="text-blue-700 underline">Owasso</a>, our team is ready to help.
@@ -113,37 +124,19 @@ export default function SandSpringsProcessServer() {
                 </ul>
               </div>
             </section>
-            <section className="bg-white p-8 rounded-lg shadow-md mb-12 speakable-section-2">
+            <section className="bg-white p-8 rounded-lg shadow-md mb-12">
               <h3 className="text-2xl font-bold text-blue-800 mb-6">Oklahoma Process Serving Law in Sand Springs</h3>
               <p className="text-gray-700 mb-4">Service of process in Sand Springs is governed by Oklahoma State Statutes. Our team ensures every serve is legally compliant and provides a notarized Affidavit of Service for the Tulsa County District Court.</p>
             </section>
             <section className="bg-white py-16">
               <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Frequently Asked Questions</h2>
               <div className="space-y-8">
-                <div>
-                  <h3 className="text-xl font-semibold text-gray-900">Do you offer same-day process serving in Sand Springs?</h3>
-                  <p className="mt-2 text-gray-700">Yes, we offer same-day and rush process serving throughout Sand Springs and the Tulsa metro area. Contact us for urgent requests.</p>
-                </div>
-                <div>
-                  <h3 className="text-xl font-semibold text-gray-900">Are you licensed to serve court papers in Sand Springs?</h3>
-                  <p className="mt-2 text-gray-700">Yes, all of our process servers are licensed and bonded in Oklahoma, and we serve all courts in Sand Springs and Tulsa County.</p>
-                </div>
-                <div>
-                  <h3 className="text-xl font-semibold text-gray-900">What legal documents do you serve in Sand Springs?</h3>
-                  <p className="mt-2 text-gray-700">We serve subpoenas, summons, complaints, eviction notices, small claims, family law documents, and more for individuals, law firms, and businesses.</p>
-                </div>
-                <div>
-                  <h3 className="text-xl font-semibold text-gray-900">How do you handle difficult-to-serve individuals in the Sand Springs area?</h3>
-                  <p className="mt-2 text-gray-700">We use advanced skip tracing, surveillance, and creative tactics to locate and serve evasive individuals while remaining fully compliant with Oklahoma law.</p>
-                </div>
-                <div>
-                  <h3 className="text-xl font-semibold text-gray-900">Do you serve businesses, schools, and government offices in Sand Springs?</h3>
-                  <p className="mt-2 text-gray-700">Absolutely. We serve all types of locations, including businesses, schools, and public buildings, with professionalism and discretion.</p>
-                </div>
-                <div>
-                  <h3 className="text-xl font-semibold text-gray-900">How fast can you serve papers in Sand Springs?</h3>
-                  <p className="mt-2 text-gray-700">Standard service is typically attempted within 24-48 hours and completed within 3-5 business days. Same-day and rush services are available for urgent matters.</p>
-                </div>
+                {sandSpringsData.faqs.map((faq, index) => (
+                  <div key={index}>
+                    <h3 className="text-xl font-semibold text-gray-900">{faq.q}</h3>
+                    <p className="mt-2 text-gray-700">{faq.a}</p>
+                  </div>
+                ))}
               </div>
             </section>
             <section className="bg-blue-50 p-8 rounded-lg shadow-md mb-12">
@@ -179,6 +172,8 @@ export default function SandSpringsProcessServer() {
       </div>
       <BusinessSchema />
       <ServiceSchema />
+      <FAQSchema faqs={sandSpringsData.faqs} city="Sand Springs"/>
     </>
   );
 }
+
