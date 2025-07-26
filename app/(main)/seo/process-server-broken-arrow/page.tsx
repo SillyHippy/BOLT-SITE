@@ -1,20 +1,21 @@
 import type { Metadata } from 'next';
+import Image from "next/image";
+import Link from "next/link";
 import BusinessSchema from '@/components/BusinessSchema';
 import ServiceSchema from '@/components/ServiceSchema';
 import FAQSchema from '@/components/FAQSchema';
 
-// Corrected metadata for Sand Springs
 export const metadata: Metadata = {
-  title: 'Sand Springs Process Server | Same-Day Service in Tulsa County, OK',
-  description: 'Top-rated process server in Sand Springs, Oklahoma. We offer same-day service for all legal documents, including subpoenas and court papers. Licensed, bonded, and serving Tulsa & Creek Counties.',
-  keywords: 'process server sand springs, sand springs process server, legal document delivery sand springs, court papers sand springs, subpoena service tulsa county',
+  title: 'Process Server Broken Arrow, OK | Same-Day Service',
+  description: 'Top-rated process server in Broken Arrow, Oklahoma. We offer same-day service for all legal documents, including subpoenas and court papers. Licensed, bonded, and serving Tulsa & Wagoner Counties.',
+  keywords: 'process server broken arrow, broken arrow process server, legal document service broken arrow, court papers broken arrow, subpoena service broken arrow oklahoma',
   alternates: {
-    canonical: 'https://justlegalsolutions.org/seo/sand-springs-process-server'
+    canonical: 'https://justlegalsolutions.org/seo/process-server-broken-arrow'
   },
   openGraph: {
-    title: 'Sand Springs, OK Process Server | Just Legal Solutions',
-    description: 'Reliable and fast process serving in Sand Springs. We ensure your legal documents are served correctly and on time.',
-    url: 'https://justlegalsolutions.org/seo/sand-springs-process-server',
+    title: 'Process Server Broken Arrow, OK | Just Legal Solutions',
+    description: 'Reliable and fast process serving in Broken Arrow. We ensure your legal documents are served correctly and on time.',
+    url: 'https://justlegalsolutions.org/seo/process-server-broken-arrow',
     siteName: 'Just Legal Solutions',
     images: [{
       url: 'https://justlegalsolutions.org/images/jls-logo.png',
@@ -27,62 +28,70 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Sand Springs, OK Process Server | Same-Day & Rush Service',
-    description: 'Need a process server in Sand Springs? We offer professional, same-day service for all legal documents.',
+    title: 'Broken Arrow, OK Process Server | Same-Day & Rush Service',
+    description: 'Need a process server in Broken Arrow? We offer professional, same-day service for all legal documents.',
     images: ['https://justlegalsolutions.org/images/jls-logo.png'],
   }
 };
 
-// Corrected LegalService Schema for Sand Springs
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'LegalService',
-  name: 'Just Legal Solutions - Process Server Sand Springs',
-  description: 'Professional process server for Sand Springs and surrounding areas in Tulsa and Creek Counties.',
-  url: 'https://justlegalsolutions.org/seo/sand-springs-process-server',
+  name: 'Just Legal Solutions - Process Server Broken Arrow',
+  description: 'Professional process server for Broken Arrow and surrounding areas in Tulsa and Wagoner counties.',
+  url: 'https://justlegalsolutions.org/seo/process-server-broken-arrow',
   telephone: '(539) 367-6832',
   email: 'info@justlegalsolutions.org',
   areaServed: [
-    { '@type': 'City', name: 'Sand Springs' },
+    { '@type': 'City', name: 'Broken Arrow' },
     { '@type': 'AdministrativeArea', name: 'Tulsa County' },
-    { '@type': 'AdministrativeArea', name: 'Creek County' }
+    { '@type': 'AdministrativeArea', name: 'Wagoner County' }
   ],
   openingHours: 'Mo-Su 00:00-23:59',
   priceRange: '$60 - $150',
 };
 
-// Data object for the page content, including FAQs
-const sandSpringsData = {
+const brokenArrowData = {
+    history: `Broken Arrow's name originates from a Muscogee (Creek) community who settled in the area after the Trail of Tears. Founded as a city in 1902, it has grown from a small agricultural community into Oklahoma's fourth-largest city. Its vibrant Rose District and sprawling residential neighborhoods create a diverse service area that requires local expertise.`,
+    courthouse: {
+        name: 'Broken Arrow Municipal Court (Justice Center)',
+        address: '2304 S 1st Pl, Broken Arrow, OK 74012',
+        phone: '(918) 451-8558',
+        website: 'https://www.brokenarrowok.gov/government/municipal-court',
+        note: 'Broken Arrow is primarily in Tulsa County, with a portion in Wagoner County. All major civil cases are handled at the respective county courthouses.'
+    },
+    processServingLaw: `Service of process in Broken Arrow must comply with Oklahoma State Statutes. This means a licensed server must make diligent efforts to effect personal service. We are experts in these statutes and ensure every service is legally sound for both Tulsa and Wagoner County District Courts.`,
+    serviceAreas: [
+        'Rose District',
+        'Downtown Broken Arrow',
+        'South Broken Arrow',
+        'Battle Creek',
+        'Forest Ridge',
+        'Indian Springs',
+        'Aspen Creek',
+        'Iron Horse Ranch'
+    ],
     faqs: [
         {
-            q: 'Do you offer same-day process serving in Sand Springs?',
-            a: 'Yes, we offer same-day and rush process serving throughout Sand Springs and the Tulsa metro area. Contact us for urgent requests.'
+            q: 'How do you handle service in large, gated communities in Broken Arrow?',
+            a: 'Our process servers are experienced with the protocols of gated communities like Forest Ridge. We use professional and legal methods to gain access and effectuate service in a discreet and timely manner.'
         },
         {
-            q: 'Are you licensed to serve court papers in Sand Springs?',
-            a: 'Yes, all of our process servers are licensed and bonded in Oklahoma, and we serve all courts in Sand Springs and Tulsa County.'
+            q: 'The person I need to serve lives in the Wagoner County part of Broken Arrow. Is that a problem?',
+            a: 'Not at all. We are fully licensed to serve in both Tulsa and Wagoner counties. We handle cross-county serves for Broken Arrow residents regularly and ensure the Affidavit of Service is filed with the correct court.'
         },
         {
-            q: 'What legal documents do you serve in Sand Springs?',
-            a: 'We serve subpoenas, summons, complaints, eviction notices, small claims, family law documents, and more for individuals, law firms, and businesses.'
+            q: 'What is your turnaround time for standard service in Broken Arrow?',
+            a: 'Standard service in Broken Arrow is typically attempted within 24-48 hours and completed within 3-5 business days. We also offer same-day and emergency rush services for urgent matters.'
         },
         {
-            q: 'How do you handle difficult-to-serve individuals in the Sand Springs area?',
-            a: 'We use advanced skip tracing, surveillance, and creative tactics to locate and serve evasive individuals while remaining fully compliant with Oklahoma law.'
-        },
-        {
-            q: 'Do you serve businesses, schools, and government offices in Sand Springs?',
-            a: 'Absolutely. We serve all types of locations, including businesses, schools, and public buildings, with professionalism and discretion.'
-        },
-        {
-            q: 'How fast can you serve papers in Sand Springs?',
-            a: 'Standard service is typically attempted within 24-48 hours and completed within 3-5 business days. Same-day and rush services are available for urgent matters.'
+            q: 'Can you serve papers to someone at their job in Broken Arrow?',
+            a: 'Yes, we can serve documents at a place of employment, provided it is permitted by the location and can be done professionally. We have experience serving individuals in the commercial and industrial areas of Broken Arrow.'
         }
     ]
 };
 
-
-export default function SandSpringsProcessServerPage() {
+export default function ProcessServerBrokenArrowPage() {
   return (
     <>
       <script
@@ -92,80 +101,90 @@ export default function SandSpringsProcessServerPage() {
       <div className="min-h-screen bg-gray-50 pt-16">
         <div className="bg-blue-900 text-white">
           <div className="container mx-auto px-4 py-20 pt-12 text-center">
-            <h1 className="text-4xl md:text-5xl font-extrabold">Sand Springs, Oklahoma Process Server</h1>
-            <p className="mt-4 text-xl text-blue-200 max-w-3xl mx-auto">Professional Legal Document Service for Sand Springs and the Tulsa Metro</p>
+            <h1 className="text-4xl md:text-5xl font-extrabold">Broken Arrow, Oklahoma Process Server</h1>
+            <p className="mt-4 text-xl text-blue-200 max-w-3xl mx-auto">Expert Legal Document Delivery in Tulsa & Wagoner Counties</p>
+            <div className="flex justify-center mt-8">
+              <Image src="/images/broken-arrow-rose-district.jpg" width={600} height={350} alt="Broken Arrow Rose District legal process server" className="rounded-lg shadow-lg" />
+            </div>
+            <p className="text-sm text-blue-100 mt-2">Serving the Rose District and all of Broken Arrow</p>
           </div>
         </div>
+
         <main className="container mx-auto px-4 py-16">
           <div className="max-w-4xl mx-auto">
             <section className="mb-12">
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">Local Expertise in Sand Springs</h2>
-              <p className="text-lg text-gray-700 mb-4">
-                Sand Springs is a unique blend of historic neighborhoods and new developments along the Arkansas River. If you need a process server in Sand Springs or nearby <a href="/seo/broken-arrow-process-server" className="text-blue-700 underline">Broken Arrow</a> or <a href="/seo/owasso-process-server" className="text-blue-700 underline">Owasso</a>, our team is ready to help.
-              </p>
-            </section>
-            <section className="bg-white p-8 rounded-lg shadow-md mb-12">
-              <h3 className="text-2xl font-bold text-blue-800 mb-6">Sand Springs Courthouse & Local Service Areas</h3>
-              <div className="mb-4">
-                <strong>Sand Springs Municipal Court</strong><br />
-                100 E Broadway St, Sand Springs, OK 74063<br />
-                <a href="https://sandspringsok.org/169/Municipal-Court" className="text-blue-700 underline" target="_blank" rel="noopener noreferrer">Municipal Court Website</a><br />
-                <span className="text-gray-600 text-sm">All major civil cases for Sand Springs residents are filed at the Tulsa County Courthouse in downtown Tulsa.</span>
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">Local Expertise in Broken Arrow</h2>
+              <p className="text-lg text-gray-700 mb-4">{brokenArrowData.history}</p>
+              <div className="flex justify-center mt-4">
+                <Image src="/images/broken-arrow-municipal-court.jpg" width={400} height={166} alt="Broken Arrow Municipal Court building" className="rounded shadow" />
               </div>
-              <div className="mt-6">
-                <h4 className="font-semibold text-lg mb-2">Neighborhoods & Service Areas:</h4>
-                <ul className="list-disc list-inside text-gray-700">
-                  <li>Prattville</li>
-                  <li>Downtown Sand Springs</li>
-                  <li>River West</li>
-                  <li>Charles Page Blvd</li>
-                  <li>Sand Springs North</li>
-                  <li>Rural Sand Springs</li>
-                </ul>
+              <p className="text-xs text-gray-500 text-center mt-1">Broken Arrow Municipal Court – Trusted for legal document delivery</p>
+            </section>
+
+            <section className="bg-blue-50 p-6 rounded-lg mb-12">
+              <h3 className="text-xl font-semibold text-blue-900 mb-2">Community Connection</h3>
+              <p className="text-gray-700 mb-2">Just Legal Solutions officially opened in Broken Arrow in 2025, building on legal experience since 2020. We partner with local attorneys, participate in Chamber of Commerce events, and support Broken Arrow’s legal and civic community.</p>
+              <p className="text-gray-700">Our team understands the unique needs of Broken Arrow’s neighborhoods and businesses, providing fast, compliant service across Tulsa and Wagoner counties.</p>
+            </section>
+
+            <section className="mb-12">
+              <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">Serving All of Broken Arrow and Beyond</h2>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center mb-4">
+                {brokenArrowData.serviceAreas.map(city => (
+                  <div key={city} className="bg-blue-50 p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                    <p className="font-semibold text-blue-900">{city}</p>
+                  </div>
+                ))}
               </div>
+              <div className="flex justify-center mt-4">
+                <Image src="/images/forest-ridge-broken-arrow.jpg" width={400} height={250} alt="Forest Ridge neighborhood in Broken Arrow" className="rounded shadow" />
+              </div>
+              <p className="text-xs text-gray-500 text-center mt-1">Featured Neighborhood: Forest Ridge – Secure, professional process serving</p>
             </section>
-            <section className="bg-white p-8 rounded-lg shadow-md mb-12">
-              <h3 className="text-2xl font-bold text-blue-800 mb-6">Oklahoma Process Serving Law in Sand Springs</h3>
-              <p className="text-gray-700 mb-4">Service of process in Sand Springs is governed by Oklahoma State Statutes. Our team ensures every serve is legally compliant and provides a notarized Affidavit of Service for the Tulsa County District Court.</p>
+
+            <section className="bg-white py-6 border-b mb-12 text-center">
+              <h3 className="text-xl font-bold text-blue-900 mb-2">Need a licensed process server in Broken Arrow?</h3>
+              <p className="text-gray-800 mb-2">Contact us for same-day legal document service or call for a quote!</p>
+              <a href="/contact" className="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-700 transition">Get Started</a>
             </section>
+
             <section className="bg-white py-16">
               <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Frequently Asked Questions</h2>
               <div className="space-y-8">
-                {sandSpringsData.faqs.map((faq, index) => (
+                {brokenArrowData.faqs.map((faq, index) => (
                   <div key={index}>
                     <h3 className="text-xl font-semibold text-gray-900">{faq.q}</h3>
                     <p className="mt-2 text-gray-700">{faq.a}</p>
                   </div>
                 ))}
+                <div>
+                  <h3 className="text-xl font-semibold text-gray-900">Do you offer same-day or rush service options in Broken Arrow?</h3>
+                  <p className="mt-2 text-gray-700">Yes, we provide same-day and emergency rush service for urgent legal matters throughout Broken Arrow and surrounding areas.</p>
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-gray-900">How do you handle legal document delivery during holidays or inclement weather?</h3>
+                  <p className="mt-2 text-gray-700">We monitor weather and holiday schedules closely and communicate with clients to ensure timely, secure delivery, even in challenging conditions.</p>
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-gray-900">Can you serve documents at workplaces or commercial locations in Broken Arrow?</h3>
+                  <p className="mt-2 text-gray-700">Absolutely. We regularly serve legal documents at offices, businesses, and commercial properties throughout Broken Arrow, always with professionalism and discretion.</p>
+                </div>
               </div>
             </section>
-            <section className="bg-blue-50 p-8 rounded-lg shadow-md mb-12">
-              <h3 className="text-2xl font-bold text-blue-800 mb-6">Contact & Service Area Map</h3>
-              <div className="mb-6">
-                <iframe
-                  title="Sand Springs Oklahoma Map"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.964234234234!2d-96.1086!3d36.1395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b6e3e3e3e3e3e3%3A0x3e3e3e3e3e3e3e3e!2sSand%20Springs%2C%20OK!5e0!3m2!1sen!2sus!4v1689988888888!5m2!1sen!2sus"
-                  width="100%"
-                  height="300"
-                  style={{ border: 0 }}
-                  allowFullScreen={true}
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                ></iframe>
-              </div>
-              <div className="text-center">
-                <a href="/contact" className="inline-block bg-blue-700 text-white px-6 py-3 rounded-lg font-bold hover:bg-blue-800 transition">Request Service in Sand Springs</a>
-              </div>
+
+            <section className="bg-blue-100 py-8 border-t text-center">
+              <h3 className="text-xl font-bold text-blue-900 mb-2">Have more Broken Arrow legal questions?</h3>
+              <p className="text-gray-800 mb-4">Suggest an FAQ or <a href="/contact" className="underline text-blue-700 font-semibold">contact our experts today</a>!</p>
             </section>
-            <section className="bg-white p-8 rounded-lg shadow-md mb-12">
-              <h3 className="text-2xl font-bold text-blue-800 mb-6">Related Cities & Internal Links</h3>
-              <ul className="list-disc list-inside text-blue-700">
-                <li><a href="/seo/broken-arrow-process-server" className="underline">Broken Arrow Process Server</a></li>
-                <li><a href="/seo/owasso-process-server" className="underline">Owasso Process Server</a></li>
-                <li><a href="/seo/glenpool-process-server" className="underline">Glenpool Process Server</a></li>
-                <li><a href="/seo/legal-posting-process-server" className="underline">Legal Posting Service</a></li>
-                <li><a href="/seo/eviction-notice-process-server" className="underline">Eviction Notice Service</a></li>
-              </ul>
+
+            <section className="py-8 text-center">
+              <h4 className="text-lg font-semibold mb-2">Explore More</h4>
+              <div className="flex flex-wrap justify-center gap-4">
+                <Link href="/tulsa-process-server" className="text-blue-700 underline font-semibold">Tulsa Process Server</Link>
+                <Link href="/courier-services-tulsa" className="text-blue-700 underline font-semibold">Courier Services Tulsa</Link>
+                <Link href="/pricing" className="text-blue-700 underline font-semibold">See Pricing</Link>
+                <Link href="/contact" className="text-blue-700 underline font-semibold">Contact Us</Link>
+              </div>
             </section>
           </div>
         </main>
