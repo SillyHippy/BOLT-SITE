@@ -81,7 +81,7 @@ export default function BacklinksPage() {
           ))}
         </ul>
       </main>
-      <Footer />
+      
     </>
   );
 }
