@@ -5,7 +5,7 @@
 ### **Quick Check:**
 1. Go to: https://github.com/SillyHippy/BOLT-SITE/settings/billing
 2. Click "Usage this month"
-3. See your Actions minutes used
+3. See your Actions minutes used 
 
 ### **Detailed Monitoring:**
 1. Visit: https://github.com/SillyHippy/BOLT-SITE/actions
