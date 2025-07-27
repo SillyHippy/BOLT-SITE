@@ -43,7 +43,23 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  
+  icons: {
+    icon: [
+      { url: '/Favicon/favicon.ico' },
+      { url: '/Favicon/favicon-96x96.png', sizes: '96x96', type: 'image/png' }
+    ],
+    apple: [
+      { url: '/Favicon/apple-touch-icon.png' }
+    ],
+    other: [
+      {
+        rel: 'mask-icon',
+        url: '/Favicon/favicon.svg',
+        color: '#0B132B'
+      }
+    ]
+  },
+  manifest: '/Favicon/site.webmanifest',
   openGraph: {
     type: 'website',
     locale: 'en_US',
@@ -78,23 +94,7 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: 'your-google-verification-code', // Replace with actual codeicons: {
-  icon: [
-    { url: '/favicon.ico' },
-    { url: '/favicon-96x96.png', sizes: '96x96', type: 'image/png' }
-  ],
-  apple: [
-    { url: '/apple-touch-icon.png' }
-  ],
-  other: [
-    {
-      rel: 'mask-icon',
-      url: '/favicon.svg',
-      color: '#0B132B'
-    }
-  ]
-},
-manifest: '/site.webmanifest',
+    google: 'your-google-verification-code', // Replace with actual code
   }
 };
 
