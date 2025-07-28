@@ -20,16 +20,16 @@ jobs:
       - name: Generate dynamic feed
         run: |
           node scripts/generate-feed.js
-      - name: Commit and push feed
+      - name: Commit and push feed and sitemap
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add public/feed.xml public/feed.json
-          git commit -m "Auto-generate dynamic content feeds before deploy"
+          git add public/feed.xml public/feed.json public/feed.rss public/sitemap.xml
+          git commit -m "Auto-generate dynamic content feeds and sitemap before deploy" || echo "No changes to commit"
           git push
-      - name: Ensure feed files are present before deploy
+      - name: Ensure feed and sitemap files are present before deploy
         run: |
-          if [ ! -f public/feed.xml ] || [ ! -f public/feed.json ]; then
-            echo "Feed files missing! Aborting deploy."
+          if [ ! -f public/feed.xml ] || [ ! -f public/feed.json ] || [ ! -f public/feed.rss ] || [ ! -f public/sitemap.xml ]; then
+            echo "Feed or sitemap files missing! Aborting deploy."
             exit 1
           fi
