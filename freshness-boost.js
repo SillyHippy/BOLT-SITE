@@ -61,6 +61,20 @@ const freshSchema = {
   "@type": "LocalBusiness",
   "name": "Just Legal Solutions",
   "url": "https://justlegalsolutions.org",
+  "telephone": "(539) 367-6832",
+  "sameAs": [
+    "https://www.facebook.com/justlegalsolutions",
+    "https://www.linkedin.com/company/justlegalsolutions",
+    "https://www.yelp.com/biz/just-legal-solutions-tulsa",
+    "https://www.manta.com/c/mx7w2qk/just-legal-solutions",
+    "https://www.showmelocal.com/profile.aspx?bid=23456789",
+    "https://www.crunchbase.com/organization/just-legal-solutions",
+    "https://www.alignable.com/glenpool-ok/just-legal-solutions",
+    "https://www.elocal.com/profile/just-legal-solutions-18927345",
+    "https://www.yellowpages.com/tulsa-ok/mip/just-legal-solutions-556789123",
+    "https://www.dnb.com/business-directory/company-profiles.just_legal_solutions.123456789.html",
+    "https://clutch.co/profile/just-legal-solutions"
+  ],
   "dateModified": timeStamp,
   "description": `Professional process serving in Oklahoma. ${currentUrgency}`,
   "aggregateRating": {

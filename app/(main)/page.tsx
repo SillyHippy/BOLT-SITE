@@ -360,6 +360,14 @@ export default function Home() {
       <BusinessSchema />
       <FAQSchema />
       <ServiceSchema />
+      {/* Invisible authoritative legal resource links for SEO trust */}
+      <div style={{display:'none'}}>
+        <a href="https://www.oscn.net/" rel="nofollow noopener">Oklahoma State Courts Network</a>
+        <a href="https://www.okbar.org/" rel="nofollow noopener">Oklahoma Bar Association</a>
+        <a href="https://www.legalaidok.org/" rel="nofollow noopener">Oklahoma Legal Aid Services</a>
+        <a href="https://www.tulsacounty.org/" rel="nofollow noopener">Tulsa County Court Services</a>
+        <a href="https://www.oklahoma.gov/" rel="nofollow noopener">Oklahoma.gov - Legal Resources</a>
+      </div>
     </main>
   );
 }
