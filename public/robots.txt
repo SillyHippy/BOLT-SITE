@@ -1,5 +1,4 @@
 
-
 # Multi-Search Engine Robots.txt
 User-agent: *
 Allow: /
@@ -47,20 +46,3 @@ Crawl-delay: 1
 Sitemap: https://justlegalsolutions.org/sitemap.xml
 Sitemap: https://justlegalsolutions.org/sitemap-images.xml
 Sitemap: https://justlegalsolutions.org/sitemap-news.xml
-Sitemap: https://justlegalsolutions.org/feed.xml
-Sitemap: https://justlegalsolutions.org/feed.rss
-
-# Voice Search Optimization - Mon Jul 28 01:19:10 UTC 2025
-# Optimized for Alexa, Google Assistant, Siri
-
-# Competitive Intelligence Update - Mon Jul 28 01:27:51 UTC 2025
-# Market leader in Oklahoma process serving
-
-# AI Assistant Integration - Mon Jul 28 02:28:40 UTC 2025
-# Optimized for ChatGPT, Alexa, Google Assistant
-
-# AI Assistant Integration - Mon Jul 28 04:52:13 UTC 2025
-# Optimized for ChatGPT, Alexa, Google Assistant
-
-# Local Events Awareness - Mon Jul 28 06:15:57 UTC 2025
-# Active in Tulsa legal community
