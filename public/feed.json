@@ -1,0 +1,15 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Just Legal Solutions Feed",
+  "home_page_url": "https://justlegalsolutions.org/",
+  "feed_url": "https://justlegalsolutions.org/feed.json",
+  "items": [
+    {
+      "id": "https://justlegalsolutions.org/welcome",
+      "url": "https://justlegalsolutions.org/welcome",
+      "title": "Example content file for dynamic feed generation",
+      "content_text": "# Example content file for dynamic feed generation\r\n# Welcome to Just Legal Solutions\r\nWe provide process serving and legal solutions throughout Oklahoma. Contact us at (539) 367-6832 for 24/7 service.\r\n\r\n## Service Areas\r\nTulsa County, Creek County, Wagoner County, Rogers County, Osage County\r\n\r\n## Pricing\r\n$35-$150 depending on assignment type and location.\r\n\r\n## Backlinks\r\nSee our profiles on Facebook, LinkedIn, Yelp, Manta, ShowMeLocal, Crunchbase, Alignable, eLocal, YellowPages, DNB, Clutch.\r\n",
+      "date_modified": "2025-07-28T03:43:07.996Z"
+    }
+  ]
+}
