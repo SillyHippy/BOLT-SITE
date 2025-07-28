@@ -4,12 +4,12 @@
   "phone": "(539) 367-6832",
   "website": "https://justlegalsolutions.org",
   "address": {
-    "street": "564 E 138th Pl",
-    "city": "Glenpool",
+    "street": "Tulsa, OK",
+    "city": "Tulsa",
     "state": "OK",
-    "zip": "74033"
+    "zip": "74101"
   },
-  "description": "Just Legal Solutions provides certified process serving, legal document delivery, same-day and rush service, executive business support, court filings, courier deliveries, HR/payroll, and more throughout Tulsa County, Broken Arrow, Sapulpa, Glenpool, Bixby, and all surrounding areas. Licensed, bonded, and locally trusted. Emergency and 24/7 process server available.",
+  "description": "Professional process serving and legal document delivery throughout Tulsa County. Licensed and bonded process servers offering same-day, rush, and standard service. Serving attorneys, law firms, and individuals with reliable court document delivery.",
   "services": [
     "Process Serving",
     "Legal Document Delivery",
@@ -18,10 +18,6 @@
     "Rush Service",
     "Subpoena Service",
     "Eviction Service",
-    "Business Courier Services",
-    "Payroll Support",
-    "Executive Assistant",
-    "HR/Staffing Assistance",
     "Emergency Service"
   ],
   "attributes": [
@@ -32,32 +28,21 @@
     "Weekend availability",
     "Emergency service",
     "Free consultation",
-    "24/7 availability",
-    "Locally owned",
-    "Tulsa County specialist"
+    "24/7 availability"
   ],
   "hours": {
-    "monday": "00:00-23:59",
-    "tuesday": "00:00-23:59",
-    "wednesday": "00:00-23:59",
-    "thursday": "00:00-23:59",
-    "friday": "00:00-23:59",
-    "saturday": "00:00-23:59",
-    "sunday": "00:00-23:59"
+    "monday": "08:00-17:00",
+    "tuesday": "08:00-17:00",
+    "wednesday": "08:00-17:00",
+    "thursday": "08:00-17:00",
+    "friday": "08:00-17:00",
+    "saturday": "09:00-15:00",
+    "sunday": "Emergency only"
   },
   "competitorAnalysis": {
     "yourserved.com": {
-      "weaknesses": [
-        "Generic service",
-        "Higher pricing",
-        "Slower response"
-      ],
-      "ourAdvantages": [
-        "Local focus",
-        "Certified professionals",
-        "Same-day emergency service",
-        "Personal customer support"
-      ]
+      "weaknesses": ["Generic service", "Higher pricing", "Slower response"],
+      "ourAdvantages": ["Local focus", "Same-day service", "Personal touch"]
     }
   }
 }
