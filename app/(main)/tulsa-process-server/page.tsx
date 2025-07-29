@@ -104,9 +104,9 @@ export default function TulsaProcessServerPage() {
       fileName: "tulsa-process-server-delivering-documents.jpg"
     },
     {
-      src: "https://raw.githubusercontent.com/SillyHippy/BOLT-SITE/main/public/images/broken-arrow-process-server-courthouse.jpg",
+      src: "https://raw.githubusercontent.com/SillyHippy/BOLT-SITE/main/public/images/Broken-Arrow-Municipal-Court.jpeg",
       alt: "The Broken Arrow Municipal Courthouse, a common location for a Broken Arrow process server.",
-      fileName: "broken-arrow-oklahoma-courthouse-processor.jpg"
+      fileName: "Broken-Arrow-Municipal-Court.jpeg"
     },
     {
       src: "https://raw.githubusercontent.com/SillyHippy/BOLT-SITE/main/public/images/tulsa-county-courthouse.jpeg",
