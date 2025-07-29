@@ -62,27 +62,34 @@ const countyCourtData = {
 const pagesDir = path.join(__dirname, '../app/(main)/seo');
 
 /**
- * Gets a list of all existing page slugs (e.g., 'tulsa-process-server').
+ * Gets a list of all existing page slugs by reading directory names.
  */
-function getExistingPages() {
+function getExistingPageSlugs() {
     if (!fs.existsSync(pagesDir)) {
         fs.mkdirSync(pagesDir, { recursive: true });
     }
-    const files = fs.readdirSync(pagesDir);
-    return files.map(file => file.replace('.tsx', ''));
+    return fs.readdirSync(pagesDir, { withFileTypes: true })
+        .filter(dirent => dirent.isDirectory())
+        .map(dirent => dirent.name);
 }
 
 /**
  * Generates the high-quality SEO page content for a given city.
  */
-function generateCityPage(city, county) {
-    const formattedCityName = city.name.toLowerCase().replace(/ /g, '-');
-    const pageSlug = `${formattedCityName}-process-server`;
-    const pagePath = path.join(pagesDir, `${pageSlug}.tsx`);
+function generateCityPage(city) {
+    const pageSlug = `${city.name.toLowerCase().replace(/ /g, '-')}-process-server`;
+    const cityPageDir = path.join(pagesDir, pageSlug);
+    
+    if (fs.existsSync(cityPageDir)) {
+        return; // Skip if directory already exists
+    }
+
+    fs.mkdirSync(cityPageDir, { recursive: true });
+    const pagePath = path.join(cityPageDir, 'page.tsx');
+
     const componentName = city.name.replace(/[^a-zA-Z0-9]/g, '') + 'ProcessServerPage';
-    const courtInfo = countyCourtData[city.county];
     const mapEmbedUrl = `https://maps.google.com/maps?q=${city.name.replace(/ /g, '+')}+OK&t=&z=13&ie=UTF8&iwloc=&output=embed`;
-    const countyPageUrl = `/seo/${city.county.toLowerCase()}-county-process-server`;
+    const countyPageUrl = `/seo/${city.county.toLowerCase().replace(/ /g, '-')}-county-process-server`;
 
     const content = `
 import { Metadata } from 'next';
@@ -92,6 +99,8 @@ import { Button } from '@/components/ui/button';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import JsonLd from '@/components/JsonLd';
 
+const countyCourtData = ${JSON.stringify(countyCourtData, null, 2)};
+
 export const metadata: Metadata = {
   title: '${city.name} Process Server | Reliable Process Serving in ${city.name}, OK',
   description: 'Need a licensed process server in ${city.name}, OK? We offer fast, affordable, and reliable service of process for all legal documents in ${city.name} and ${city.county} County.',
@@ -99,6 +108,7 @@ export const metadata: Metadata = {
 };
 
 export default function ${componentName}() {
+  const courtInfo = countyCourtData['${city.county}'];
   const faqData = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -144,7 +154,7 @@ export default function ${componentName}() {
       
       <section className="grid md:grid-cols-2 gap-8 mb-12 items-start">
         <div className="bg-gray-50 p-6 rounded-lg">
-            <h3 className="text-2xl font-bold mb-4">${courtInfo ? courtInfo.name : `${city.county} County Courthouse`}</h3>
+            <h3 className="text-2xl font-bold mb-4">{courtInfo ? courtInfo.name : \`${city.county} County Courthouse\`}</h3>
             {courtInfo ? (
                 <>
                     <p>{courtInfo.address}</p>
@@ -185,15 +195,22 @@ export default function ${componentName}() {
  * Generates a high-quality county hub page.
  */
 function generateCountyPage(county, citiesInCounty) {
-    const formattedCountyName = county.toLowerCase().replace(/ /g, '-');
-    const pageSlug = `${formattedCountyName}-county-process-server`;
-    const pagePath = path.join(pagesDir, `${pageSlug}.tsx`);
+    const pageSlug = `${county.toLowerCase().replace(/ /g, '-')}-county-process-server`;
+    const countyPageDir = path.join(pagesDir, pageSlug);
+
+    if (fs.existsSync(countyPageDir)) {
+        return; // Silently skip if it already exists.
+    }
+    
+    fs.mkdirSync(countyPageDir, { recursive: true });
+    const pagePath = path.join(countyPageDir, 'page.tsx');
+
     const componentName = county.replace(/[^a-zA-Z0-9]/g, '') + 'CountyProcessServerPage';
     const courtInfo = countyCourtData[county];
 
     const cityLinks = citiesInCounty.map(city => {
-        const citySlug = city.name.toLowerCase().replace(/ /g, '-');
-        return `<li><Link href="/seo/${citySlug}-process-server" className="underline">${city.name}</Link></li>`;
+        const citySlug = `${city.name.toLowerCase().replace(/ /g, '-')}-process-server`;
+        return `<li><Link href="/seo/${citySlug}" className="underline">${city.name}</Link></li>`;
     }).join('');
 
     const content = `
@@ -252,10 +269,9 @@ export default function ${componentName}() {
  * Main function to run the script.
  */
 function main() {
-    const existingPageSlugs = getExistingPages();
+    const existingPageSlugs = getExistingPageSlugs();
     const citiesByCounty = {};
 
-    // Group cities by county
     cityData.forEach(city => {
         if (!citiesByCounty[city.county]) {
             citiesByCounty[city.county] = [];
@@ -263,23 +279,43 @@ function main() {
         citiesByCounty[city.county].push(city);
     });
 
-    // Generate county pages first
+    let newPagesCreated = 0;
+    const pagesToCreate = [];
+
+    // Determine which county pages are missing
     for (const county in citiesByCounty) {
-        const countySlug = `${county.toLowerCase()}-county-process-server`;
+        const countySlug = `${county.toLowerCase().replace(/ /g, '-')}-county-process-server`;
         if (!existingPageSlugs.includes(countySlug)) {
-            generateCountyPage(county, citiesByCounty[county]);
+            pagesToCreate.push({ type: 'county', county, cities: citiesByCounty[county] });
         }
     }
 
-    // Generate city pages
+    // Determine which city pages are missing
     cityData.forEach(city => {
         const citySlug = `${city.name.toLowerCase().replace(/ /g, '-')}-process-server`;
         if (!existingPageSlugs.includes(citySlug)) {
-            generateCityPage(city);
+            pagesToCreate.push({ type: 'city', city });
         }
     });
 
-    console.log("🚀 Finished generating all new city and county pages.");
+    if (pagesToCreate.length === 0) {
+        console.log("🎉 All city and county pages are already generated. No new pages to create.");
+        return;
+    }
+
+    // Limit the number of pages created in a single run
+    const batch = pagesToCreate.slice(0, 2); // Create 2 pages per run
+
+    batch.forEach(item => {
+        if (item.type === 'county') {
+            generateCountyPage(item.county, item.cities);
+        } else {
+            generateCityPage(item.city);
+        }
+        newPagesCreated++;
+    });
+
+    console.log(`🚀 Finished generating ${newPagesCreated} new pages.`);
 }
 
 main();
