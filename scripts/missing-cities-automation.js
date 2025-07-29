@@ -1,225 +1,285 @@
-
-#!/usr/bin/env node
-
-/**
- * Missing Cities Automation Enhancement
- * Works with existing SEO automation workflows
- * Identifies and creates content for cities not yet covered
- */
-
 const fs = require('fs');
 const path = require('path');
 
-console.log('🏙️ MISSING CITIES AUTOMATION ENHANCEMENT');
-console.log('Working with existing workflows...\n');
+// --- Data Sources ---
 
-// Cities that need enhanced coverage (based on audit)
-const targetCities = [
-  {
-    name: 'Bartlesville',
-    county: 'Washington County',
-    zip: '74003',
-    population: '36,000',
-    features: [
-      'Oil industry hub',
-      'Historic downtown district',
-      'Corporate headquarters location',
-      'Educational institutions'
-    ],
-    keywords: [
-      'Bartlesville process server',
-      'Washington County legal service',
-      'process serving Bartlesville OK',
-      'legal document delivery Bartlesville'
-    ]
-  },
-  {
-    name: 'Muskogee',
-    county: 'Muskogee County',
-    zip: '74401',
-    population: '39,000',
-    features: [
-      'County seat',
-      'Federal court district',
-      'Military presence',
-      'Transportation hub'
-    ],
-    keywords: [
-      'Muskogee process server',
-      'Muskogee County legal service',
-      'federal court process serving',
-      'legal documents Muskogee OK'
-    ]
-  },
-  {
-    name: 'Tahlequah',
-    county: 'Cherokee County',
-    zip: '74464',
-    population: '17,000',
-    features: [
-      'Cherokee Nation capital',
-      'University town',
-      'Historic significance',
-      'Cultural center'
-    ],
-    keywords: [
-      'Tahlequah process server',
-      'Cherokee County legal service',
-      'tribal court process serving',
-      'legal documents Tahlequah'
-    ]
-  },
-  {
-    name: 'Pryor',
-    county: 'Mayes County',
-    zip: '74361',
-    population: '9,500',
-    features: [
-      'Industrial center',
-      'Manufacturing hub',
-      'Rural community',
-      'Agricultural area'
-    ],
-    keywords: [
-      'Pryor process server',
-      'Mayes County legal service',
-      'process serving Pryor Creek',
-      'rural process server Oklahoma'
-    ]
-  }
+const cityData = [
+    // Tulsa Metro
+    { name: "Tulsa", lat: 36.1540, lon: -95.9928, county: "Tulsa" },
+    { name: "Broken Arrow", lat: 36.0451, lon: -95.7897, county: "Tulsa" },
+    { name: "Jenks", lat: 36.0234, lon: -95.9769, county: "Tulsa" },
+    { name: "Bixby", lat: 35.9612, lon: -95.8817, county: "Tulsa" },
+    { name: "Owasso", lat: 36.2912, lon: -95.8572, county: "Tulsa" },
+    { name: "Sand Springs", lat: 36.1398, lon: -96.1094, county: "Tulsa" },
+    { name: "Glenpool", lat: 35.9934, lon: -96.0089, county: "Tulsa" },
+    { name: "Sapulpa", lat: 36.0023, lon: -96.1075, county: "Creek" },
+    { name: "Catoosa", lat: 36.1884, lon: -95.7483, county: "Rogers" },
+    { name: "Collinsville", lat: 36.3684, lon: -95.8369, county: "Tulsa" },
+    { name: "Claremore", lat: 36.3131, lon: -95.6175, county: "Rogers" },
+    { name: "Coweta", lat: 36.0526, lon: -95.6608, county: "Wagoner" },
+    { name: "Skiatook", lat: 36.3401, lon: -96.0003, county: "Tulsa" },
+    // OKC Metro
+    { name: "Oklahoma City", lat: 35.4676, lon: -97.5164, county: "Oklahoma" },
+    { name: "Edmond", lat: 35.6528, lon: -97.4781, county: "Oklahoma" },
+    { name: "Norman", lat: 35.2226, lon: -97.4395, county: "Cleveland" },
+    { name: "Moore", lat: 35.3395, lon: -97.4867, county: "Cleveland" },
+    { name: "Midwest City", lat: 35.4623, lon: -97.3884, county: "Oklahoma" },
+    { name: "Yukon", lat: 35.5037, lon: -97.7567, county: "Canadian" },
+    { name: "Shawnee", lat: 35.3290, lon: -96.9245, county: "Pottawatomie" },
+    // Other Major OK Cities
+    { name: "Lawton", lat: 34.6087, lon: -98.3903, county: "Comanche" },
+    { name: "Muskogee", lat: 35.7479, lon: -95.3697, county: "Muskogee" },
+    { name: "Bartlesville", lat: 36.7476, lon: -95.9780, county: "Washington" },
+    { name: "Pryor Creek", lat: 36.3079, lon: -95.3169, county: "Mayes" },
+    { name: "Okmulgee", lat: 35.6226, lon: -95.9689, county: "Okmulgee" },
+    { name: "Tahlequah", lat: 35.9154, lon: -94.9697, county: "Cherokee" },
+    { name: "Stillwater", lat: 36.1156, lon: -97.0584, county: "Payne" },
+    { name: "Wagoner", lat: 35.9576, lon: -95.3783, county: "Wagoner" },
+    { name: "Ardmore", lat: 34.1737, lon: -97.1436, county: "Carter" },
+    { name: "Ponca City", lat: 36.7061, lon: -97.0856, county: "Kay" },
 ];
 
-// Function to check if city page already exists
-function checkExistingCoverage(cityName) {
-  const possiblePaths = [
-    `app/seo/process-server-${cityName.toLowerCase()}/page.tsx`,
-    `app/seo/${cityName.toLowerCase()}-process-server/page.tsx`,
-    `pages/seo/process-server-${cityName.toLowerCase()}.tsx`
-  ];
-  
-  return possiblePaths.some(pathToCheck => fs.existsSync(pathToCheck));
-}
-
-// Generate missing city content
-function generateCityContent(city) {
-  return `import { Metadata } from 'next';
-import MissingCityPage from '@/components/ui/missing-cities-enhancer';
-
-export const metadata: Metadata = {
-  title: '${city.name} Process Server | 24/7 Legal Document Delivery Oklahoma',
-  description: 'Professional process server in ${city.name}, ${city.county}. Same-day legal document delivery, court filing, and statewide Oklahoma coverage. Call (539) 367-6832.',
-  keywords: [${city.keywords.map(k => `'${k}'`).join(', ')}],
-  robots: 'index, follow',
-  openGraph: {
-    title: '${city.name} Process Server | Just Legal Solutions',
-    description: 'Professional process serving in ${city.name}, Oklahoma with 24/7 availability and statewide coverage.',
-    type: 'website',
-    locale: 'en_US',
-  },
-  alternates: {
-    canonical: 'https://justlegalsolutions.org/seo/process-server-${city.name.toLowerCase()}'
-  }
+const countyCourtData = {
+    "Tulsa": { name: "Tulsa County Courthouse", address: "500 S Denver Ave, Tulsa, OK 74103", phone: "(918) 596-5000", website: "https://www.oscn.net/dockets/search.aspx?db=tulsa" },
+    "Rogers": { name: "Rogers County Courthouse", address: "200 S Lynn Riggs Blvd, Claremore, OK 74017", phone: "(918) 923-4961", website: "https://www.oscn.net/dockets/search.aspx?db=rogers" },
+    "Wagoner": { name: "Wagoner County Courthouse", address: "307 E Cherokee St, Wagoner, OK 74467", phone: "(918) 485-2146", website: "https://www.oscn.net/dockets/search.aspx?db=wagoner" },
+    "Creek": { name: "Creek County Courthouse", address: "222 E Dewey Ave, Sapulpa, OK 74066", phone: "(918) 224-3529", website: "https://www.oscn.net/dockets/search.aspx?db=creek" },
+    "Muskogee": { name: "Muskogee County Courthouse", address: "216 W Okmulgee Ave, Muskogee, OK 74401", phone: "(918) 682-7873", website: "https://www.oscn.net/dockets/search.aspx?db=muskogee" },
+    "Washington": { name: "Washington County Courthouse", address: "420 S Johnstone Ave, Bartlesville, OK 74003", phone: "(918) 337-2870", website: "https://www.oscn.net/dockets/search.aspx?db=washington" },
+    "Mayes": { name: "Mayes County Courthouse", address: "1 Court St, Pryor, OK 74361", phone: "(918) 825-2185", website: "https://www.oscn.net/dockets/search.aspx?db=mayes" },
+    "Okmulgee": { name: "Okmulgee County Courthouse", address: "314 W 7th St, Okmulgee, OK 74447", phone: "(918) 756-3062", website: "https://www.oscn.net/dockets/search.aspx?db=okmulgee" },
+    "Cherokee": { name: "Cherokee County Courthouse", address: "213 W Delaware St, Tahlequah, OK 74464", phone: "(918) 456-2271", website: "https://www.oscn.net/dockets/search.aspx?db=cherokee" },
+    "Payne": { name: "Payne County Courthouse", address: "606 S Husband St, Stillwater, OK 74074", phone: "(405) 372-4774", website: "https://www.oscn.net/dockets/search.aspx?db=payne" },
+    "Oklahoma": { name: "Oklahoma County Courthouse", address: "320 Robert S Kerr Ave, Oklahoma City, OK 73102", phone: "(405) 713-1705", website: "https://www.oscn.net/dockets/search.aspx?db=oklahoma" },
+    "Cleveland": { name: "Cleveland County Courthouse", address: "200 S Peters Ave, Norman, OK 73069", phone: "(405) 321-6420", website: "https://www.oscn.net/dockets/search.aspx?db=cleveland" },
+    "Canadian": { name: "Canadian County Courthouse", address: "301 N Choctaw Ave, El Reno, OK 73036", phone: "(405) 262-1070", website: "https://www.oscn.net/dockets/search.aspx?db=canadian" },
+    "Pottawatomie": { name: "Pottawatomie County Courthouse", address: "331 N Broadway Ave, Shawnee, OK 74801", phone: "(405) 273-3654", website: "https://www.oscn.net/dockets/search.aspx?db=pottawatomie" },
+    "Comanche": { name: "Comanche County Courthouse", address: "315 SW 5th St, Lawton, OK 73501", phone: "(580) 355-4017", website: "https://www.oscn.net/dockets/search.aspx?db=comanche" },
+    "Carter": { name: "Carter County Courthouse", address: "20 1st Ave SW, Ardmore, OK 73401", phone: "(580) 223-5253", website: "https://www.oscn.net/dockets/search.aspx?db=carter" },
+    "Kay": { name: "Kay County Courthouse", address: "201 S Main St, Newkirk, OK 74647", phone: "(580) 362-2571", website: "https://www.oscn.net/dockets/search.aspx?db=kay" },
 };
 
-export default function ${city.name}ProcessServerPage() {
+const pagesDir = path.join(__dirname, '../app/(main)/seo');
+
+/**
+ * Gets a list of all existing page slugs (e.g., 'tulsa-process-server').
+ */
+function getExistingPages() {
+    if (!fs.existsSync(pagesDir)) {
+        fs.mkdirSync(pagesDir, { recursive: true });
+    }
+    const files = fs.readdirSync(pagesDir);
+    return files.map(file => file.replace('.tsx', ''));
+}
+
+/**
+ * Generates the high-quality SEO page content for a given city.
+ */
+function generateCityPage(city, county) {
+    const formattedCityName = city.name.toLowerCase().replace(/ /g, '-');
+    const pageSlug = `${formattedCityName}-process-server`;
+    const pagePath = path.join(pagesDir, `${pageSlug}.tsx`);
+    const componentName = city.name.replace(/[^a-zA-Z0-9]/g, '') + 'ProcessServerPage';
+    const courtInfo = countyCourtData[city.county];
+    const mapEmbedUrl = `https://maps.google.com/maps?q=${city.name.replace(/ /g, '+')}+OK&t=&z=13&ie=UTF8&iwloc=&output=embed`;
+    const countyPageUrl = `/seo/${city.county.toLowerCase()}-county-process-server`;
+
+    const content = `
+import { Metadata } from 'next';
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import Link from 'next/link';
+import { Button } from '@/components/ui/button';
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import JsonLd from '@/components/JsonLd';
+
+export const metadata: Metadata = {
+  title: '${city.name} Process Server | Reliable Process Serving in ${city.name}, OK',
+  description: 'Need a licensed process server in ${city.name}, OK? We offer fast, affordable, and reliable service of process for all legal documents in ${city.name} and ${city.county} County.',
+  keywords: ['${city.name} process server', 'process server ${city.name}', 'process server in ${city.name}', '${city.name} ok processor', 'legal document delivery ${city.name}'],
+};
+
+export default function ${componentName}() {
+  const faqData = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What types of legal documents do you serve in ${city.name}, OK?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Our experienced ${city.name} process servers handle all types of legal documents, including summons, complaints, subpoenas, eviction notices, and family court papers. We ensure every service is performed according to Oklahoma state law." }
+      },
+      {
+        "@type": "Question",
+        "name": "How quickly can you serve documents in ${city.name}?",
+        "acceptedAnswer": { "@type": "Answer", "text": "We offer multiple service levels in ${city.name}, including standard (3-5 days), rush (24-48 hours), and same-day service for urgent matters. Our local process servers in ${city.name} are ready to meet your deadlines." }
+      },
+      {
+        "@type": "Question",
+        "name": "What areas in ${city.county} County do you cover?",
+        "acceptedAnswer": { "@type": "Answer", "text": "We serve all of ${city.name} and the entirety of ${city.county} County. Whether the service is in a dense urban area or a rural location, our servers are equipped to handle it." }
+      }
+    ]
+  };
+
   return (
-    <MissingCityPage
-      city="${city.name}"
-      county="${city.county}"
-      zipCode="${city.zip}"
-      population="${city.population}"
-      keyFeatures={${JSON.stringify(city.features, null, 8)}}
-      targetKeywords={${JSON.stringify(city.keywords, null, 8)}}
-    />
+    <div className="container mx-auto px-4 py-8">
+      <JsonLd data={faqData} />
+      <section className="text-center mb-12">
+        <h1 className="text-4xl font-bold mb-4">Professional Process Server in ${city.name}, OK</h1>
+        <p className="text-xl text-muted-foreground mb-6">Serving ${city.name} and greater <Link href="${countyPageUrl}" className="underline">${city.county} County</Link>.</p>
+        <div className="flex justify-center gap-4">
+          <Button asChild><Link href="/pricing">View Pricing</Link></Button>
+          <Button asChild variant="outline"><Link href="/contact">Contact Us</Link></Button>
+        </div>
+      </section>
+
+      <section className="mb-12">
+        <h2 className="text-3xl font-bold text-center mb-8">Why Choose Our ${city.name} Process Server?</h2>
+        <div className="grid md:grid-cols-3 gap-8">
+          <Card><CardHeader><CardTitle>Local Expertise</CardTitle></CardHeader><CardContent><p>Our process servers have extensive knowledge of ${city.name}, ensuring prompt and successful service.</p></CardContent></Card>
+          <Card><CardHeader><CardTitle>Speed and Efficiency</CardTitle></CardHeader><CardContent><p>We offer rush and same-day services in ${city.name} to meet your tight deadlines.</p></CardContent></Card>
+          <Card><CardHeader><CardTitle>Proof of Service</CardTitle></CardHeader><CardContent><p>You will receive a notarized affidavit of service promptly after completion for your records and court filings.</p></CardContent></Card>
+        </div>
+      </section>
+      
+      <section className="grid md:grid-cols-2 gap-8 mb-12 items-start">
+        <div className="bg-gray-50 p-6 rounded-lg">
+            <h3 className="text-2xl font-bold mb-4">${courtInfo ? courtInfo.name : `${city.county} County Courthouse`}</h3>
+            {courtInfo ? (
+                <>
+                    <p>{courtInfo.address}</p>
+                    <p>{courtInfo.phone}</p>
+                    <Button asChild variant="link" className="px-0"><a href={courtInfo.website} target="_blank" rel="noopener noreferrer">Visit Court Website</a></Button>
+                </>
+            ) : <p>Courthouse information coming soon.</p>}
+        </div>
+        <div><iframe width="100%" height="450" style={{ border: 0 }} loading="lazy" allowFullScreen src="${mapEmbedUrl}"></iframe></div>
+      </section>
+
+      <section id="faq" className="max-w-4xl mx-auto mb-12">
+        <h2 className="text-2xl font-bold text-center mb-6">Frequently Asked Questions for ${city.name} Process Serving</h2>
+        <Accordion type="single" collapsible className="w-full">
+          {faqData.mainEntity.map((faq, index) => (
+            <AccordionItem value={\`item-\${index + 1}\`} key={index}>
+              <AccordionTrigger>{faq.name}</AccordionTrigger>
+              <AccordionContent>{faq.acceptedAnswer.text}</AccordionContent>
+            </AccordionItem>
+          ))}
+        </Accordion>
+      </section>
+
+      <section className="text-center">
+          <h2 className="text-2xl font-bold mb-4">Get Started Today</h2>
+          <p className="mb-6">Ready to have your legal documents served in ${city.name}? Contact us now for a free quote.</p>
+          <Button asChild size="lg"><Link href="/contact">Contact a ${city.name} Process Server</Link></Button>
+      </section>
+    </div>
   );
-}`;
+}
+`;
+    fs.writeFileSync(pagePath, content.trim());
+    console.log(`✅ Created city page for ${city.name}`);
 }
 
-// Main automation function
-function runMissingCitiesAutomation() {
-  console.log('🔍 Analyzing existing coverage...\n');
-  
-  const missingCities = [];
-  const existingCities = [];
-  
-  targetCities.forEach(city => {
-    if (checkExistingCoverage(city.name)) {
-      existingCities.push(city.name);
-      console.log(`✅ ${city.name} - Already has coverage`);
-    } else {
-      missingCities.push(city);
-      console.log(`❌ ${city.name} - Needs coverage`);
+/**
+ * Generates a high-quality county hub page.
+ */
+function generateCountyPage(county, citiesInCounty) {
+    const formattedCountyName = county.toLowerCase().replace(/ /g, '-');
+    const pageSlug = `${formattedCountyName}-county-process-server`;
+    const pagePath = path.join(pagesDir, `${pageSlug}.tsx`);
+    const componentName = county.replace(/[^a-zA-Z0-9]/g, '') + 'CountyProcessServerPage';
+    const courtInfo = countyCourtData[county];
+
+    const cityLinks = citiesInCounty.map(city => {
+        const citySlug = city.name.toLowerCase().replace(/ /g, '-');
+        return `<li><Link href="/seo/${citySlug}-process-server" className="underline">${city.name}</Link></li>`;
+    }).join('');
+
+    const content = `
+import { Metadata } from 'next';
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import Link from 'next/link';
+import { Button } from '@/components/ui/button';
+
+export const metadata: Metadata = {
+  title: '${county} County Process Server | Serving All of ${county} County, OK',
+  description: 'Professional process server for all cities in ${county} County, OK. We provide reliable and fast service of process for attorneys, businesses, and individuals.',
+  keywords: ['${county} county process server', 'process server ${county} county', 'oklahoma process server ${county} county'],
+};
+
+export default function ${componentName}() {
+  return (
+    <div className="container mx-auto px-4 py-8">
+      <section className="text-center mb-12">
+        <h1 className="text-4xl font-bold mb-4">${county} County Process Server</h1>
+        <p className="text-xl text-muted-foreground mb-6">Your trusted partner for legal document delivery throughout ${county} County, Oklahoma.</p>
+      </section>
+
+      <section className="grid md:grid-cols-2 gap-8 mb-12 items-center">
+        <div>
+          <h2 className="text-3xl font-bold mb-4">Complete Coverage of ${county} County</h2>
+          <p className="mb-4">We serve every city, town, and rural area within ${county} County. Our local process servers have the expertise to ensure your legal documents are served quickly and according to all legal requirements.</p>
+          <Button asChild><Link href="/contact">Request Service in ${county} County</Link></Button>
+        </div>
+        <Card>
+          <CardHeader><CardTitle>Cities We Serve in ${county} County</CardTitle></CardHeader>
+          <CardContent>
+            <ul className="list-disc pl-5 grid grid-cols-2 gap-2">
+              ${cityLinks}
+            </ul>
+          </CardContent>
+        </Card>
+      </section>
+
+      {courtInfo && (
+        <section className="bg-gray-50 p-6 rounded-lg text-center">
+          <h3 className="text-2xl font-bold mb-4">${courtInfo.name}</h3>
+          <p>{courtInfo.address}</p>
+          <p>{courtInfo.phone}</p>
+          <Button asChild variant="link"><a href={courtInfo.website} target="_blank" rel="noopener noreferrer">Visit Court Website</a></Button>
+        </section>
+      )}
+    </div>
+  );
+}
+`;
+    fs.writeFileSync(pagePath, content.trim());
+    console.log(`✅ Created county hub page for ${county} County`);
+}
+
+/**
+ * Main function to run the script.
+ */
+function main() {
+    const existingPageSlugs = getExistingPages();
+    const citiesByCounty = {};
+
+    // Group cities by county
+    cityData.forEach(city => {
+        if (!citiesByCounty[city.county]) {
+            citiesByCounty[city.county] = [];
+        }
+        citiesByCounty[city.county].push(city);
+    });
+
+    // Generate county pages first
+    for (const county in citiesByCounty) {
+        const countySlug = `${county.toLowerCase()}-county-process-server`;
+        if (!existingPageSlugs.includes(countySlug)) {
+            generateCountyPage(county, citiesByCounty[county]);
+        }
     }
-  });
-  
-  console.log(`\n📊 Coverage Analysis:`);
-  console.log(`   Existing: ${existingCities.length} cities`);
-  console.log(`   Missing: ${missingCities.length} cities`);
-  
-  if (missingCities.length === 0) {
-    console.log('\n🎉 All target cities already have coverage!');
-    console.log('Consider expanding to additional markets or enhancing existing content.');
-    return;
-  }
-  
-  console.log(`\n🏗️ Creating content for ${missingCities.length} missing cities...\n`);
-  
-  missingCities.forEach(city => {
-    const dirPath = \`app/seo/process-server-\${city.name.toLowerCase()}\`;
-    const filePath = \`\${dirPath}/page.tsx\`;
-    
-    // Create directory if it doesn't exist
-    if (!fs.existsSync(dirPath)) {
-      fs.mkdirSync(dirPath, { recursive: true });
-    }
-    
-    // Generate and write content
-    const content = generateCityContent(city);
-    fs.writeFileSync(filePath, content);
-    
-    console.log(`✅ Created: ${filePath}`);
-  });
-  
-  // Update sitemap to include new cities
-  updateSitemapWithNewCities(missingCities);
-  
-  console.log(`\n🎯 Missing Cities Automation Complete!`);
-  console.log(`📈 Created ${missingCities.length} new city pages`);
-  console.log(`🔗 Updated sitemap with new URLs`);
-  console.log(`🚀 Ready for deployment and indexing`);
+
+    // Generate city pages
+    cityData.forEach(city => {
+        const citySlug = `${city.name.toLowerCase().replace(/ /g, '-')}-process-server`;
+        if (!existingPageSlugs.includes(citySlug)) {
+            generateCityPage(city);
+        }
+    });
+
+    console.log("🚀 Finished generating all new city and county pages.");
 }
 
-// Update sitemap function
-function updateSitemapWithNewCities(newCities) {
-  const sitemapPath = 'public/sitemap.xml';
-  
-  if (!fs.existsSync(sitemapPath)) {
-    console.log('⚠️ Sitemap not found, skipping sitemap update');
-    return;
-  }
-  
-  let sitemap = fs.readFileSync(sitemapPath, 'utf8');
-  const currentDate = new Date().toISOString().split('T')[0];
-  
-  // Add new city URLs before the closing </urlset> tag
-  const newUrls = newCities.map(city => \`
-  <url>
-    <loc>https://justlegalsolutions.org/seo/process-server-\${city.name.toLowerCase()}/</loc>
-    <lastmod>\${currentDate}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>\`).join('');
-  
-  sitemap = sitemap.replace('</urlset>', newUrls + '\n</urlset>');
-  fs.writeFileSync(sitemapPath, sitemap);
-  
-  console.log('✅ Sitemap updated with new city URLs');
-}
-
-// Export for use in other scripts
-module.exports = { runMissingCitiesAutomation, targetCities };
-
-// Run if called directly
-if (require.main === module) {
-  runMissingCitiesAutomation();
-}
+main();
