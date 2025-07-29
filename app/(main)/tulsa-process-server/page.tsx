@@ -140,8 +140,8 @@ export default function TulsaProcessServerPage() {
 
       {/* Hero Section */}
       <section className="text-center mb-12">
-        <h1 className="text-4xl font-bold mb-4">Premier Process Server in Tulsa, Oklahoma</h1>
-        <p className="text-xl text-muted-foreground mb-6">Your trusted partner for fast, accurate, and professional legal document delivery across Tulsa County.</p>
+        <h1 className="text-4xl font-bold mb-4">Tulsa Process Server & Broken Arrow Processor</h1>
+        <p className="text-xl text-muted-foreground mb-6">Your trusted partner for fast, accurate, and professional legal document delivery from a licensed process server in Tulsa County.</p>
         <div className="flex justify-center gap-4">
           <Button asChild>
             <Link href="/pricing">View Pricing & Services</Link>
@@ -154,7 +154,7 @@ export default function TulsaProcessServerPage() {
 
       {/* Gold Standard Section */}
       <section className="mb-12">
-        <h2 className="text-3xl font-bold text-center mb-8">The Gold Standard in Tulsa Process Serving</h2>
+        <h2 className="text-3xl font-bold text-center mb-8">The Gold Standard for a Process Server in Tulsa</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <Card>
             <CardHeader>
@@ -193,7 +193,7 @@ export default function TulsaProcessServerPage() {
       
       {/* Tulsa's Legal Legacy */}
       <section className="mb-12 bg-gray-100 p-8 rounded-lg">
-        <h2 className="text-3xl font-bold text-center mb-6">Tulsa’s Legal Legacy</h2>
+        <h2 className="text-3xl font-bold text-center mb-6">Tulsa’s Legal Legacy & Your Local Tulsa County Process Server</h2>
         <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
                 <p className="mb-4">Tulsa’s legal legacy runs deep—a city that evolved from a bustling 20th-century oil hub into Oklahoma’s second-largest legal and business center. The historic downtown is home to the Tulsa County Courthouse and iconic Art Deco skyscrapers, reflecting a century of change.</p>
@@ -242,7 +242,7 @@ export default function TulsaProcessServerPage() {
 
       {/* Neighborhoods Section */}
       <section className="mb-12">
-        <h2 className="text-2xl font-bold text-center mb-6">Tulsa Neighborhoods & Areas Served</h2>
+        <h2 className="text-2xl font-bold text-center mb-6">Areas Served by our Tulsa & Broken Arrow Process Servers</h2>
         <div className="flex flex-wrap justify-center gap-2">
             {neighborhoods.map(n => (
                 <span key={n} className="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">{n}</span>
@@ -253,7 +253,7 @@ export default function TulsaProcessServerPage() {
       {/* FAQ Section */}
       <section id="faq" className="max-w-4xl mx-auto mb-12">
         <h2 className="text-2xl font-bold text-center mb-6">
-          Frequently Asked Questions
+          Process Server in Tulsa & Broken Arrow OK: FAQ
         </h2>
         <Accordion type="single" collapsible className="w-full">
           {faqData.mainEntity.map((faq, index) => (
@@ -267,7 +267,7 @@ export default function TulsaProcessServerPage() {
 
       {/* Testimonials */}
       <section className="mb-12">
-        <h2 className="text-3xl font-bold text-center mb-8">What Our Clients Say</h2>
+        <h2 className="text-3xl font-bold text-center mb-8">What Our Clients Say About Our Tulsa Process Servers</h2>
         <div className="grid md:grid-cols-3 gap-8">
             <Card>
                 <CardContent className="pt-6">
