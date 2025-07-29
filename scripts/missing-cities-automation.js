@@ -206,8 +206,7 @@ function generateCountyPage(county, citiesInCounty) {
     const pagePath = path.join(countyPageDir, 'page.tsx');
 
     const componentName = county.replace(/[^a-zA-Z0-9]/g, '') + 'CountyProcessServerPage';
-    const courtInfo = countyCourtData[county];
-
+    
     const cityLinks = citiesInCounty.map(city => {
         const citySlug = `${city.name.toLowerCase().replace(/ /g, '-')}-process-server`;
         return `<li><Link href="/seo/${citySlug}" className="underline">${city.name}</Link></li>`;
@@ -219,6 +218,8 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 
+const countyCourtData = ${JSON.stringify(countyCourtData, null, 2)};
+
 export const metadata: Metadata = {
   title: '${county} County Process Server | Serving All of ${county} County, OK',
   description: 'Professional process server for all cities in ${county} County, OK. We provide reliable and fast service of process for attorneys, businesses, and individuals.',
@@ -226,6 +227,7 @@ export const metadata: Metadata = {
 };
 
 export default function ${componentName}() {
+  const courtInfo = countyCourtData['${county}'];
   return (
     <div className="container mx-auto px-4 py-8">
       <section className="text-center mb-12">
@@ -251,7 +253,7 @@ export default function ${componentName}() {
 
       {courtInfo && (
         <section className="bg-gray-50 p-6 rounded-lg text-center">
-          <h3 className="text-2xl font-bold mb-4">${courtInfo.name}</h3>
+          <h3 className="text-2xl font-bold mb-4">{courtInfo.name}</h3>
           <p>{courtInfo.address}</p>
           <p>{courtInfo.phone}</p>
           <Button asChild variant="link"><a href={courtInfo.website} target="_blank" rel="noopener noreferrer">Visit Court Website</a></Button>
