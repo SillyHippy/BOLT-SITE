@@ -15,6 +15,7 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 import JsonLd from "@/components/JsonLd";
+import { Button } from "@/components/ui/button";
 
 export default function TulsaProcessServerPage() {
   const faqData = {
@@ -129,16 +130,91 @@ export default function TulsaProcessServerPage() {
     }
   ];
 
+  const neighborhoods = [
+    "Downtown Tulsa", "Brookside", "Cherry Street", "Kendall-Whittier", "Maple Ridge", "Riverside", "Midtown", "East Tulsa", "South Tulsa", "North Tulsa", "West Tulsa", "Brady Arts District", "Greenwood", "Pearl District", "Utica Square", "Gilcrease", "Owen Park", "Swan Lake", "Sunnyside", "Red Fork", "Turley", "Carbondale", "Garden City", "Sunset Terrace", "Patrick Henry", "White City", "Yorktown", "Braden Park", "Lortondale", "Florence Park", "Highland Park", "Ranch Acres", "Woodland Acres", "Forest Park", "Sheridan Hills", "Park Plaza", "Southmoor", "Rolling Hills", "Country Club Heights", "Fairmont", "Parkview", "Briarwood", "Southgate", "Union", "Jenks", "Bixby", "Owasso", "Broken Arrow", "Sand Springs"
+  ];
 
   return (
     <div className="container mx-auto px-4 py-8">
       <JsonLd data={faqData} />
-      <h1 className="text-3xl font-bold text-center mb-6">
-        Your Trusted Tulsa and Broken Arrow Process Server
-      </h1>
-      <p className="text-lg text-center mb-8">
-        Reliable, fast, and professional service of process for Tulsa County and Broken Arrow, OK.
-      </p>
+
+      {/* Hero Section */}
+      <section className="text-center mb-12">
+        <h1 className="text-4xl font-bold mb-4">Premier Process Server in Tulsa, Oklahoma</h1>
+        <p className="text-xl text-muted-foreground mb-6">Your trusted partner for fast, accurate, and professional legal document delivery across Tulsa County.</p>
+        <div className="flex justify-center gap-4">
+          <Button asChild>
+            <Link href="/pricing">View Pricing & Services</Link>
+          </Button>
+          <Button asChild variant="outline">
+            <Link href="/contact">Contact Us</Link>
+          </Button>
+        </div>
+      </section>
+
+      {/* Gold Standard Section */}
+      <section className="mb-12">
+        <h2 className="text-3xl font-bold text-center mb-8">The Gold Standard in Tulsa Process Serving</h2>
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <Card>
+            <CardHeader>
+              <CardTitle>Same-Day Service</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <p>Urgent documents are our specialty. We guarantee same-day attempts for all rush orders in Tulsa.</p>
+            </CardContent>
+          </Card>
+          <Card>
+            <CardHeader>
+              <CardTitle>Licensed & Insured</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <p>Our process servers are fully licensed and insured in Oklahoma for your complete peace of mind.</p>
+            </CardContent>
+          </Card>
+          <Card>
+            <CardHeader>
+              <CardTitle>Tulsa County Coverage</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <p>We serve documents in Tulsa, Broken Arrow, Bixby, Jenks, Owasso, and all surrounding areas.</p>
+            </CardContent>
+          </Card>
+          <Card>
+            <CardHeader>
+              <CardTitle>Digital Proof of Service</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <p>Receive a legally compliant, digital affidavit of service as soon as the job is complete.</p>
+            </CardContent>
+          </Card>
+        </div>
+      </section>
+      
+      {/* Tulsa's Legal Legacy */}
+      <section className="mb-12 bg-gray-100 p-8 rounded-lg">
+        <h2 className="text-3xl font-bold text-center mb-6">Tulsa’s Legal Legacy</h2>
+        <div className="grid md:grid-cols-2 gap-8 items-center">
+            <div>
+                <p className="mb-4">Tulsa’s legal legacy runs deep—a city that evolved from a bustling 20th-century oil hub into Oklahoma’s second-largest legal and business center. The historic downtown is home to the Tulsa County Courthouse and iconic Art Deco skyscrapers, reflecting a century of change.</p>
+                <p>For generations, efficient legal document delivery has kept Tulsa’s courts, firms, and residents connected and protected. Our deep roots in this vibrant city enable us to serve legal documents with true local expertise for every Tulsa neighborhood, from Brookside to Greenwood.</p>
+            </div>
+            <div className="grid grid-cols-3 gap-4 text-center">
+                <div>
+                    <p className="text-4xl font-bold text-primary">97%</p>
+                    <p>First-attempt serve success</p>
+                </div>
+                <div>
+                    <p className="text-4xl font-bold text-primary">6,000+</p>
+                    <p>Documents delivered countywide</p>
+                </div>
+                <div>
+                    <p className="text-4xl font-bold text-primary">2018</p>
+                    <p>Serving Tulsa Since</p>
+                </div>
+            </div>
+        </div>
+      </section>
 
       <Carousel className="w-full max-w-4xl mx-auto mb-12">
         <CarouselContent>
@@ -153,7 +229,6 @@ export default function TulsaProcessServerPage() {
                       width={1200}
                       height={675}
                       className="w-full h-full object-cover"
-                      // The filename is already SEO friendly.
                     />
                   </CardContent>
                 </Card>
@@ -165,44 +240,18 @@ export default function TulsaProcessServerPage() {
         <CarouselNext />
       </Carousel>
 
-      <div className="grid md:grid-cols-2 gap-8 mb-12">
-        <Card>
-          <CardHeader>
-            <CardTitle>Process Server in Tulsa</CardTitle>
-          </CardHeader>
-          <CardContent>
-            <p>
-              When you need a reliable <strong>process server in Tulsa</strong>, look no further. We provide prompt and professional service of process throughout Tulsa County. Our experienced team understands the local courts and regulations, ensuring your legal documents are served correctly and on time. Whether it&apos;s a routine serve or an urgent matter, our <strong>Tulsa process server</strong> team is ready to assist.
-            </p>
-          </CardContent>
-        </Card>
-        <Card>
-          <CardHeader>
-            <CardTitle>Broken Arrow Process Server</CardTitle>
-          </CardHeader>
-          <CardContent>
-            <p>
-              We are the premier <strong>Broken Arrow process server</strong>. Our team of <strong>process servers in Broken Arrow</strong> provides dependable and efficient service throughout the city and surrounding areas. From standard serves to rush jobs, our <strong>Broken Arrow processor</strong> team has the experience to handle any request. We are the trusted choice for law firms, businesses, and individuals in need of a <strong>process server in Broken Arrow, OK</strong>.
-            </p>
-          </CardContent>
-        </Card>
-      </div>
-
+      {/* Neighborhoods Section */}
       <section className="mb-12">
-        <h2 className="text-2xl font-bold text-center mb-6">Neighborhoods & Areas Served</h2>
-        <div className="flex flex-wrap justify-center gap-4">
-            <span className="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">Downtown Tulsa</span>
-            <span className="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">Midtown Tulsa</span>
-            <span className="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">South Tulsa</span>
-            <span className="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">Rose District (Broken Arrow)</span>
-            <span className="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">South Broken Arrow</span>
-            <span className="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">Jenks</span>
-            <span className="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">Bixby</span>
-            <span className="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">Owasso</span>
+        <h2 className="text-2xl font-bold text-center mb-6">Tulsa Neighborhoods & Areas Served</h2>
+        <div className="flex flex-wrap justify-center gap-2">
+            {neighborhoods.map(n => (
+                <span key={n} className="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">{n}</span>
+            ))}
         </div>
       </section>
 
-      <section id="faq" className="max-w-4xl mx-auto">
+      {/* FAQ Section */}
+      <section id="faq" className="max-w-4xl mx-auto mb-12">
         <h2 className="text-2xl font-bold text-center mb-6">
           Frequently Asked Questions
         </h2>
@@ -216,6 +265,50 @@ export default function TulsaProcessServerPage() {
         </Accordion>
       </section>
 
+      {/* Testimonials */}
+      <section className="mb-12">
+        <h2 className="text-3xl font-bold text-center mb-8">What Our Clients Say</h2>
+        <div className="grid md:grid-cols-3 gap-8">
+            <Card>
+                <CardContent className="pt-6">
+                    <p className="italic">&quot;Just Legal Solutions served my divorce papers in Tulsa the same day I called. Professional, fast, and discreet!&quot;</p>
+                    <p className="text-right font-bold mt-4">- Sarah M.</p>
+                </CardContent>
+            </Card>
+            <Card>
+                <CardContent className="pt-6">
+                    <p className="italic">&quot;They handled a difficult serve for my law firm and provided perfect documentation. Highly recommended for Tulsa legal work.&quot;</p>
+                    <p className="text-right font-bold mt-4">- Attorney John D.</p>
+                </CardContent>
+            </Card>
+            <Card>
+                <CardContent className="pt-6">
+                    <p className="italic">&quot;I needed an eviction notice served urgently. The team at Just Legal Solutions got it done within hours.&quot;</p>
+                    <p className="text-right font-bold mt-4">- Mike R.</p>
+                </CardContent>
+            </Card>
+        </div>
+      </section>
+
+      {/* Legal Info & Links */}
+      <section className="grid md:grid-cols-2 gap-8 mb-12 text-center">
+          <div className="bg-gray-50 p-6 rounded-lg">
+              <h3 className="text-xl font-bold mb-2">Tulsa District Court</h3>
+              <p>500 S Denver Ave, Tulsa, OK 74103</p>
+              <p>(918) 596-5000</p>
+              <Button asChild variant="link">
+                <a href="https://www.oscn.net/dockets/search.aspx?db=tulsa" target="_blank" rel="noopener noreferrer">Visit Court Website</a>
+              </Button>
+          </div>
+          <div className="bg-gray-50 p-6 rounded-lg">
+              <h3 className="text-xl font-bold mb-2">Oklahoma Process Service Statutes</h3>
+               <Button asChild variant="link">
+                <a href="https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=430303" target="_blank" rel="noopener noreferrer">View Statutes</a>
+              </Button>
+          </div>
+      </section>
+
+      {/* Final CTA */}
       <section className="text-center mt-12">
           <h2 className="text-2xl font-bold mb-4">Have More Questions?</h2>
           <p className="mb-6">Our team is ready to help. Contact us for any inquiries or to get started with our services.</p>
