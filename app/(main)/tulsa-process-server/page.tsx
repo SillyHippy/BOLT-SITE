@@ -14,7 +14,7 @@ import {
 } from "@/components/ui/carousel";
 import Image from "next/image";
 import Link from "next/link";
-import { JsonLd } from "@/components/JsonLd";
+import JsonLd from "@/components/JsonLd";
 
 export default function TulsaProcessServerPage() {
   const faqData = {
@@ -172,7 +172,7 @@ export default function TulsaProcessServerPage() {
           </CardHeader>
           <CardContent>
             <p>
-              When you need a reliable <strong>process server in Tulsa</strong>, look no further. We provide prompt and professional service of process throughout Tulsa County. Our experienced team understands the local courts and regulations, ensuring your legal documents are served correctly and on time. Whether it's a routine serve or an urgent matter, our <strong>Tulsa process server</strong> team is ready to assist.
+              When you need a reliable <strong>process server in Tulsa</strong>, look no further. We provide prompt and professional service of process throughout Tulsa County. Our experienced team understands the local courts and regulations, ensuring your legal documents are served correctly and on time. Whether it&apos;s a routine serve or an urgent matter, our <strong>Tulsa process server</strong> team is ready to assist.
             </p>
           </CardContent>
         </Card>
