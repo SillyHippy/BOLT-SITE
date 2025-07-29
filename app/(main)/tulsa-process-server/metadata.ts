@@ -1,40 +1,43 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Tulsa County Process Server | Same-Day $150 | Just Legal Solutions',
-  description: 'Professional process server Tulsa County, Broken Arrow, Sapulpa. Same-day $150, rush $100, standard $60. Expert legal document delivery throughout Oklahoma with certified service.',
+  title: 'Tulsa Process Server | Process Server in Tulsa & Broken Arrow, OK',
+  description: 'Need a reliable Tulsa process server or Broken Arrow processor? We offer fast, licensed, and affordable service across Tulsa County. Get a quote from the top process server in Tulsa today.',
   keywords: [
-    'Tulsa process server',
-    'process server Tulsa Oklahoma', 
-    'Tulsa County process serving',
-    'Broken Arrow process server',
-    'Glenpool process server',
-    'same day process server Tulsa',
-    'legal document delivery Tulsa',
-    'summons service Tulsa',
-    'divorce papers Tulsa',
-    'eviction notice Tulsa'
+    'tulsa process server',
+    'process server tulsa',
+    'process server in tulsa',
+    'processor for tulsa county',
+    'tulsa county process server',
+    'broken arrow process server',
+    'process server broken arrow',
+    'broken arrow processor',
+    'processor for broken arrow',
+    'process server in broken arrow',
+    'broken arrow process servers',
+    'process servers broken arrow',
+    'broken arrow, ok process server',
+    'process server in broken arrow ok',
+    'broken arrow ok processor',
   ],
   openGraph: {
-    title: 'Tulsa Process Server - Same-Day Legal Document Delivery',
-    description: 'Expert process serving in Tulsa, Oklahoma with same-day service available. Serving Tulsa County, Broken Arrow, Glenpool, and metro area.',
-    url: 'https://justlegalsolutions.org/tulsa-process-server',
+    title: 'Tulsa Process Server | Process Server in Tulsa & Broken Arrow, OK',
+    description: 'Fast, reliable, and licensed process server for Tulsa County and Broken Arrow, OK. Rush and same-day service available.',
+    url: 'https://www.yourwebsite.com/tulsa-process-server', // Replace with your actual URL
+    type: 'website',
     images: [
       {
-        url: '/images/jls-logo.webp',
+        url: 'https://raw.githubusercontent.com/SillyHippy/BOLT-SITE/main/public/images/tulsa-process-server.jpg', // Replace with a relevant OG image
         width: 1200,
         height: 630,
-        alt: 'Tulsa Process Server Services'
-      }
-    ]
+        alt: 'Professional Process Server in Tulsa',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Professional Process Server in Tulsa, Oklahoma',
-    description: 'Same-day legal document delivery throughout Tulsa County and metro area.',
-    images: ['/images/jls-logo.webp']
+    title: 'Tulsa Process Server | Process Server in Tulsa & Broken Arrow, OK',
+    description: 'Your trusted partner for process serving in Tulsa and Broken Arrow. Licensed, insured, and available 24/7.',
+    images: ['https://raw.githubusercontent.com/SillyHippy/BOLT-SITE/main/public/images/tulsa-process-server.jpg'], // Replace with a relevant Twitter image
   },
-  alternates: {
-    canonical: 'https://justlegalsolutions.org/tulsa-process-server/'
-  }
 };
