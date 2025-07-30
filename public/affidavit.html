@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body { font-family: Arial, sans-serif; background: #f8f8f8; margin: 0; padding: 0; }
-    .container { background: #fff; max-width: 900px; margin: 2em auto; padding: 2em; border-radius: 8px; box-shadow: 0 2px 8px #0001; }
+    .container { background: #fff; max-width: 900px; margin: 0.5em auto; padding: 1em; border-radius: 8px; box-shadow: 0 2px 8px #0001; }
     h1 { text-align: center; margin-bottom: 1em; }
     table { width: 100%; border-collapse: collapse; margin-bottom: 1em; }
     th, td { padding: 0.5em; border: 1px solid #bbb; }
@@ -75,15 +75,15 @@
           <th>Attempt 4</th><th>Attempt 5 Date</th><th>Time</th>
         </tr>
         <tr>
-          <td><input name="Service attempt 1 Date" type="date"></td>
-          <td><input name="Service attempt 1 time"></td>
-          <td><input name="Service attempt 2 Date" type="date"></td>
-          <td><input name="Service attempt 2 time"></td>
-          <td><input name="Service attempt3 date" type="date"></td>
-          <td><input name="Service attempt 3 time"></td>
-          <td><input name="Service attempt number 4"></td>
-          <td><input name="Service attempt5 Date" type="date"></td>
-          <td><input name="Service attempt 5 time"></td>
+          <td><input name="Service attempt 1 Date" type="text" placeholder="mm/dd/yyyy"></td>
+          <td><input name="Service attempt 1 time" type="text" placeholder="time"></td>
+          <td><input name="Service attempt 2 Date" type="text" placeholder="mm/dd/yyyy"></td>
+          <td><input name="Service attempt 2 time" type="text" placeholder="time"></td>
+          <td><input name="Service attempt3 date" type="text" placeholder="mm/dd/yyyy"></td>
+          <td><input name="Service attempt 3 time" type="text" placeholder="time"></td>
+          <td><input name="Service attempt number 4" type="text" placeholder="Attempt 4"></td>
+          <td><input name="Service attempt5 Date" type="text" placeholder="mm/dd/yyyy"></td>
+          <td><input name="Service attempt 5 time" type="text" placeholder="time"></td>
         </tr>
         <tr>
           <td colspan="9" class="section">Additional Comments</td>
@@ -103,9 +103,9 @@
         </tr>
         <tr>
           <td><input name="JOSEPH IANNAZZI"></td>
-          <td><input name="Date" type="date"></td>
+          <td><input name="Date" type="text" placeholder="mm/dd/yyyy"></td>
           <td><input name="Notary Public"></td>
-          <td><input name="Date_2" type="date"></td>
+          <td><input name="Date_2" type="text" placeholder="mm/dd/yyyy"></td>
           <td><input name="Commission Expires"></td>
         </tr>
         <tr>
