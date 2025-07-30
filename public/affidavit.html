@@ -3,56 +3,120 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Fill Affidavit Form</title>
+  <title>Affidavit of Process Server</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    body { font-family: sans-serif; max-width: 700px; margin: 2em auto; }
-    label { display: block; margin-top: 1em; }
-    input, textarea { width: 100%; }
-    button { margin-top: 2em; padding: 0.5em 2em; }
+    body { font-family: Arial, sans-serif; background: #f8f8f8; margin: 0; padding: 0; }
+    .container { background: #fff; max-width: 900px; margin: 2em auto; padding: 2em; border-radius: 8px; box-shadow: 0 2px 8px #0001; }
+    h1 { text-align: center; margin-bottom: 1em; }
+    table { width: 100%; border-collapse: collapse; margin-bottom: 1em; }
+    th, td { padding: 0.5em; border: 1px solid #bbb; }
+    th { background: #eaeaea; text-align: left; }
+    .section { background: #eaeaea; font-weight: bold; text-align: left; padding: 0.5em; }
+    textarea { width: 100%; min-height: 80px; }
+    .center { text-align: center; }
+    .checkboxes label { display: inline-block; margin-right: 1em; }
+    .actions { text-align: center; margin-top: 2em; }
   </style>
 </head>
 <body>
-  <h1>Fill Out Affidavit</h1>
-  <form id="affidavit-form">
-    <label>JOSEPH IANNAZZI <input name="JOSEPH IANNAZZI" required></label>
-    <label>Date <input name="Date" type="date"></label>
-    <label>Notary Public <input name="Notary Public"></label>
-    <label>Date_2 <input name="Date_2" type="date"></label>
-    <label>Commission Expires <input name="Commission Expires"></label>
-    <label>Name of Court <input name="Name of Court"></label>
-    <label>Plaintiff/Petitioner <input name="Plaintiff/Petitioner"></label>
-    <label>Defendant/Respondent <input name="Defendant/Respondent"></label>
-    <label>Case Number <input name="Case Number"></label>
-    <label>Recipient Name <input name="Recipient Name"></label>
-    <label>Address <input name="Address"></label>
-    <label>Documents <input name="Documents"></label>
-    <label>Personal Service <input name="Personal Service"></label>
-    <label>Substituted at Residence <input name="Substituted at Residence"></label>
-    <label>Substituted at Business <input name="Substituted at Business"></label>
-    <label>Posting <input name="Posting"></label>
-    <label>Non-Service <input name="Non-Service"></label>
-    <label>Unknown at address <input name="Unknown at address"></label>
-    <label>Moved left no forwarding <input name="Moved left no forwarding"></label>
-    <label>Service canceled by litigant <input name="Service canceled by litigant"></label>
-    <label>Unable to serve in a timely fashion <input name="Unable to serve in a timely fashion"></label>
-    <label>Address does not exist <input name="Address does not exist"></label>
-    <label>other <input name="other"></label>
-    <label>other textbox <input name="other textbox"></label>
-    <label>Service attempt 1 Date <input name="Service attempt 1 Date" type="date"></label>
-    <label>Service attempt 2 Date <input name="Service attempt 2 Date" type="date"></label>
-    <label>Service attempt3 date <input name="Service attempt3 date" type="date"></label>
-    <label>Service attempt number 4 <input name="Service attempt number 4"></label>
-    <label>Service attempt5 Date <input name="Service attempt5 Date" type="date"></label>
-    <label>Service attempt 1 time <input name="Service attempt 1 time"></label>
-    <label>Service attempt 3 time <input name="Service attempt 3 time"></label>
-    <label>Service attempt 4 time <input name="Service attempt 4 time"></label>
-    <label>Service attempt 2 time <input name="Service attempt 2 time"></label>
-    <label>Service attempt 5 time <input name="Service attempt 5 time"></label>
-    <label>Comments <textarea name="Comments"></textarea></label>
-    <label>SubName <input name="SubName"></label>
-    <button type="submit">Generate PDF</button>
-  </form>
+  <div class="container">
+    <h1>Affidavit of Process Server</h1>
+    <form id="affidavit-form">
+      <table>
+        <tr>
+          <th>Name of Court</th>
+          <th>Plaintiff/Petitioner</th>
+          <th>Defendant/Respondent</th>
+          <th>Case Number</th>
+        </tr>
+        <tr>
+          <td><input name="Name of Court"></td>
+          <td><input name="Plaintiff/Petitioner"></td>
+          <td><input name="Defendant/Respondent"></td>
+          <td><input name="Case Number"></td>
+        </tr>
+      </table>
+      <table>
+        <tr>
+          <th>Recipient Name</th>
+          <th>Address</th>
+          <th>Documents</th>
+        </tr>
+        <tr>
+          <td><input name="Recipient Name"></td>
+          <td><input name="Address"></td>
+          <td><input name="Documents"></td>
+        </tr>
+      </table>
+      <div class="section">Manner of Service</div>
+      <div class="checkboxes">
+        <label><input type="checkbox" name="Personal Service"> Personal Service</label>
+        <label><input type="checkbox" name="Substituted at Residence"> Substituted at Residence</label>
+        <label><input type="checkbox" name="Substituted at Business"> Substituted at Business</label>
+        <label><input type="checkbox" name="Posting"> Posting</label>
+        <label><input type="checkbox" name="Non-Service"> Non-Service</label>
+        <label><input type="checkbox" name="Unknown at address"> Unknown at Address</label>
+        <label><input type="checkbox" name="Moved left no forwarding"> Moved left no forwarding</label>
+        <label><input type="checkbox" name="Service canceled by litigant"> Service canceled by litigant</label>
+        <label><input type="checkbox" name="Unable to serve in a timely fashion"> Unable to serve in a timely fashion</label>
+        <label><input type="checkbox" name="Address does not exist"> Address does not exist</label>
+        <label><input type="checkbox" name="other"> Other</label>
+      </div>
+      <div style="margin-top:1em;">
+        <label>Other textbox <input name="other textbox"></label>
+      </div>
+      <div class="section">Service Attempts</div>
+      <table>
+        <tr>
+          <th>Attempt 1 Date</th><th>Time</th>
+          <th>Attempt 2 Date</th><th>Time</th>
+          <th>Attempt 3 Date</th><th>Time</th>
+          <th>Attempt 4</th><th>Attempt 5 Date</th><th>Time</th>
+        </tr>
+        <tr>
+          <td><input name="Service attempt 1 Date" type="date"></td>
+          <td><input name="Service attempt 1 time"></td>
+          <td><input name="Service attempt 2 Date" type="date"></td>
+          <td><input name="Service attempt 2 time"></td>
+          <td><input name="Service attempt3 date" type="date"></td>
+          <td><input name="Service attempt 3 time"></td>
+          <td><input name="Service attempt number 4"></td>
+          <td><input name="Service attempt5 Date" type="date"></td>
+          <td><input name="Service attempt 5 time"></td>
+        </tr>
+        <tr>
+          <td colspan="9" class="section">Additional Comments</td>
+        </tr>
+        <tr>
+          <td colspan="9"><textarea name="Comments"></textarea></td>
+        </tr>
+      </table>
+      <div class="section">Server & Notary</div>
+      <table>
+        <tr>
+          <th>JOSEPH IANNAZZI</th>
+          <th>Date</th>
+          <th>Notary Public</th>
+          <th>Date_2</th>
+          <th>Commission Expires</th>
+        </tr>
+        <tr>
+          <td><input name="JOSEPH IANNAZZI"></td>
+          <td><input name="Date" type="date"></td>
+          <td><input name="Notary Public"></td>
+          <td><input name="Date_2" type="date"></td>
+          <td><input name="Commission Expires"></td>
+        </tr>
+        <tr>
+          <td colspan="5"><input name="SubName" placeholder="SubName" style="width:100%"></td>
+        </tr>
+      </table>
+      <div class="actions">
+        <button type="submit">Generate PDF</button>
+      </div>
+    </form>
+  </div>
   <script src="pdf-lib.min.js"></script>
   <script src="affidavit.js"></script>
 </body>
