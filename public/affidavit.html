@@ -1,16 +1,59 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Affidavit Form</title>
+  <title>Fill Affidavit Form</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    html, body { height: 100%; margin: 0; padding: 0; }
-    body { height: 100vh; width: 100vw; overflow: hidden; }
-    iframe { width: 100vw; height: 100vh; border: none; }
+    body { font-family: sans-serif; max-width: 700px; margin: 2em auto; }
+    label { display: block; margin-top: 1em; }
+    input, textarea { width: 100%; }
+    button { margin-top: 2em; padding: 0.5em 2em; }
   </style>
 </head>
 <body>
-  <iframe src="/Affidavit.pdf" allow="fullscreen" title="Affidavit PDF"></iframe>
+  <h1>Fill Out Affidavit</h1>
+  <form id="affidavit-form">
+    <label>JOSEPH IANNAZZI <input name="JOSEPH IANNAZZI" required></label>
+    <label>Date <input name="Date" type="date"></label>
+    <label>Notary Public <input name="Notary Public"></label>
+    <label>Date_2 <input name="Date_2" type="date"></label>
+    <label>Commission Expires <input name="Commission Expires"></label>
+    <label>Name of Court <input name="Name of Court"></label>
+    <label>Plaintiff/Petitioner <input name="Plaintiff/Petitioner"></label>
+    <label>Defendant/Respondent <input name="Defendant/Respondent"></label>
+    <label>Case Number <input name="Case Number"></label>
+    <label>Recipient Name <input name="Recipient Name"></label>
+    <label>Address <input name="Address"></label>
+    <label>Documents <input name="Documents"></label>
+    <label>Personal Service <input name="Personal Service"></label>
+    <label>Substituted at Residence <input name="Substituted at Residence"></label>
+    <label>Substituted at Business <input name="Substituted at Business"></label>
+    <label>Posting <input name="Posting"></label>
+    <label>Non-Service <input name="Non-Service"></label>
+    <label>Unknown at address <input name="Unknown at address"></label>
+    <label>Moved left no forwarding <input name="Moved left no forwarding"></label>
+    <label>Service canceled by litigant <input name="Service canceled by litigant"></label>
+    <label>Unable to serve in a timely fashion <input name="Unable to serve in a timely fashion"></label>
+    <label>Address does not exist <input name="Address does not exist"></label>
+    <label>other <input name="other"></label>
+    <label>other textbox <input name="other textbox"></label>
+    <label>Service attempt 1 Date <input name="Service attempt 1 Date" type="date"></label>
+    <label>Service attempt 2 Date <input name="Service attempt 2 Date" type="date"></label>
+    <label>Service attempt3 date <input name="Service attempt3 date" type="date"></label>
+    <label>Service attempt number 4 <input name="Service attempt number 4"></label>
+    <label>Service attempt5 Date <input name="Service attempt5 Date" type="date"></label>
+    <label>Service attempt 1 time <input name="Service attempt 1 time"></label>
+    <label>Service attempt 3 time <input name="Service attempt 3 time"></label>
+    <label>Service attempt 4 time <input name="Service attempt 4 time"></label>
+    <label>Service attempt 2 time <input name="Service attempt 2 time"></label>
+    <label>Service attempt 5 time <input name="Service attempt 5 time"></label>
+    <label>Comments <textarea name="Comments"></textarea></label>
+    <label>SubName <input name="SubName"></label>
+    <button type="submit">Generate PDF</button>
+  </form>
+  <script src="pdf-lib.min.js"></script>
+  <script src="affidavit.js"></script>
 </body>
 </html>
