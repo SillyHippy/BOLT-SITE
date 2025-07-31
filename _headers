@@ -4,6 +4,7 @@
   Referrer-Policy: strict-origin-when-cross-origin
   X-XSS-Protection: 1; mode=block
   Cache-Control: public, max-age=31536000
+  Content-Security-Policy: script-src 'self'
 
 *.html
   Cache-Control: public, max-age=86400
