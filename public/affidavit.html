@@ -24,98 +24,90 @@
   <div class="container">
     <h1>Affidavit of Process Server</h1>
     <form id="affidavit-form">
-      <table>
-        <tr>
-          <th>Name of Court</th>
-          <th>Plaintiff/Petitioner</th>
-          <th>Defendant/Respondent</th>
-          <th>Case Number</th>
-        </tr>
-        <tr>
-          <td><input name="Name of Court"></td>
-          <td><input name="Plaintiff/Petitioner"></td>
-          <td><input name="Defendant/Respondent"></td>
-          <td><input name="Case Number"></td>
-        </tr>
-      </table>
-      <table>
-        <tr>
-          <th>Recipient Name</th>
-          <th>Address</th>
-          <th>Documents</th>
-        </tr>
-        <tr>
-          <td><input name="Recipient Name"></td>
-          <td><input name="Address"></td>
-          <td><input name="Documents"></td>
-        </tr>
-      </table>
-      <div class="section">Manner of Service</div>
-      <div class="checkboxes">
+      <label>
+        Name of Court
+        <input name="Name of Court" type="text" required>
+      </label><br>
+      <label>
+        Plaintiff/Petitioner
+        <input name="Plaintiff/Petitioner" type="text" required>
+      </label><br>
+      <label>
+        Defendant/Respondent
+        <input name="Defendant/Respondent" type="text" required>
+      </label><br>
+      <label>
+        Case Number
+        <input name="Case Number" type="text" required>
+      </label><br>
+      <label>
+        Recipient Name
+        <input name="Recipient Name" type="text">
+      </label><br>
+      <label>
+        Address
+        <input name="Address" type="text">
+      </label><br>
+      <label>
+        Documents
+        <input name="Documents" type="text">
+      </label><br>
+      <fieldset>
+        <legend>Manner of Service</legend>
         <label><input type="checkbox" name="Personal Service"> Personal Service</label>
         <label><input type="checkbox" name="Substituted at Residence"> Substituted at Residence</label>
         <label><input type="checkbox" name="Substituted at Business"> Substituted at Business</label>
         <label><input type="checkbox" name="Posting"> Posting</label>
         <label><input type="checkbox" name="Non-Service"> Non-Service</label>
-        <label><input type="checkbox" name="Unknown at address"> Unknown at Address</label>
+        <label><input type="checkbox" name="Unknown at address"> Unknown at address</label>
         <label><input type="checkbox" name="Moved left no forwarding"> Moved left no forwarding</label>
         <label><input type="checkbox" name="Service canceled by litigant"> Service canceled by litigant</label>
         <label><input type="checkbox" name="Unable to serve in a timely fashion"> Unable to serve in a timely fashion</label>
         <label><input type="checkbox" name="Address does not exist"> Address does not exist</label>
         <label><input type="checkbox" name="other"> Other</label>
-      </div>
-      <div style="margin-top:1em;">
-        <label>Other textbox <input name="other textbox"></label>
-      </div>
-      <div class="section">Service Attempts</div>
-      <table>
-        <tr>
-          <th>Attempt 1 Date</th><th>Time</th>
-          <th>Attempt 2 Date</th><th>Time</th>
-          <th>Attempt 3 Date</th><th>Time</th>
-          <th>Attempt 4</th><th>Attempt 5 Date</th><th>Time</th>
-        </tr>
-        <tr>
-          <td><input name="Service attempt 1 Date" type="text" placeholder="mm/dd/yyyy"></td>
-          <td><input name="Service attempt 1 time" type="text" placeholder="time"></td>
-          <td><input name="Service attempt 2 Date" type="text" placeholder="mm/dd/yyyy"></td>
-          <td><input name="Service attempt 2 time" type="text" placeholder="time"></td>
-          <td><input name="Service attempt3 date" type="text" placeholder="mm/dd/yyyy"></td>
-          <td><input name="Service attempt 3 time" type="text" placeholder="time"></td>
-          <td><input name="Service attempt number 4" type="text" placeholder="Attempt 4"></td>
-          <td><input name="Service attempt5 Date" type="text" placeholder="mm/dd/yyyy"></td>
-          <td><input name="Service attempt 5 time" type="text" placeholder="time"></td>
-        </tr>
-        <tr>
-          <td colspan="9" class="section">Additional Comments</td>
-        </tr>
-        <tr>
-          <td colspan="9"><textarea name="Comments"></textarea></td>
-        </tr>
-      </table>
-      <div class="section">Server & Notary</div>
-      <table>
-        <tr>
-          <th>JOSEPH IANNAZZI</th>
-          <th>Date</th>
-          <th>Notary Public</th>
-          <th>Date_2</th>
-          <th>Commission Expires</th>
-        </tr>
-        <tr>
-          <td><input name="JOSEPH IANNAZZI"></td>
-          <td><input name="Date" type="text" placeholder="mm/dd/yyyy"></td>
-          <td><input name="Notary Public"></td>
-          <td><input name="Date_2" type="text" placeholder="mm/dd/yyyy"></td>
-          <td><input name="Commission Expires"></td>
-        </tr>
-        <tr>
-          <td colspan="5"><input name="SubName" placeholder="SubName" style="width:100%"></td>
-        </tr>
-      </table>
-      <div class="actions">
-        <button type="submit">Generate PDF</button>
-      </div>
+        <input name="Other textbox" type="text" placeholder="Other detail">
+      </fieldset>
+      <label>
+        Attempt 1 Date
+        <input name="Attempt 1 Date" type="text" placeholder="MM/DD/YYYY">
+      </label>
+      <label>
+        Time
+        <input name="Time" type="text" placeholder="HH:MM AM/PM">
+      </label><br>
+      <label>
+        Attempt 2 Date
+        <input name="Attempt 2 Date" type="text" placeholder="MM/DD/YYYY">
+      </label>
+      <label>
+        Time
+        <input name="Time2" type="text" placeholder="HH:MM AM/PM">
+      </label><br>
+      <label>
+        Additional Comments
+        <textarea name="Additional Comments"></textarea>
+      </label><br>
+      <label>
+        Server Name
+        <input name="JOSEPH IANNAZZI" type="text" placeholder="Server Name">
+      </label>
+      <label>
+        Date
+        <input name="Date" type="text" placeholder="MM/DD/YYYY">
+      </label>
+      <label>
+        Notary Public
+        <input name="Notary Public" type="text">
+      </label>
+      <label>
+        Date_2
+        <input name="Date_2" type="text" placeholder="MM/DD/YYYY">
+      </label>
+      <label>
+        Commission Expires
+        <input name="Commission Expires" type="text">
+      </label><br>
+      <button type="submit">Generate PDF</button>
     </form>
   </div>
   <script src="pdf-lib.min.js"></script>
