@@ -27,6 +27,10 @@ document.getElementById('affidavit-form').addEventListener('submit', async funct
   const existingPdfBytes = await fetch('Affidavit.pdf').then(res => res.arrayBuffer());
 
   // Load PDF with pdf-lib
+  if (!window.pdfLib || typeof window.pdfLib.PDFDocument !== 'function') {
+    alert('PDF library failed to load. Please check that pdf-lib.min.js is present, not blocked, and loaded before affidavit.js.');
+    return;
+  }
   const { PDFDocument } = window.pdfLib;
   const pdfDoc = await PDFDocument.load(existingPdfBytes);
 
