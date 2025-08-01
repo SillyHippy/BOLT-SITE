@@ -21,7 +21,10 @@ const nextConfig = {
       },
     ],
   },
-  experimental: {},
+  experimental: {
+    optimizeCss: true,
+    scrollRestoration: true,
+  },
   typescript: {
     ignoreBuildErrors: false,
   },
@@ -30,7 +33,7 @@ const nextConfig = {
   },
   poweredByHeader: false,
   generateEtags: false,
-  compress: false,
+  compress: true,
   webpack: (config, { isServer }) => {
     config.resolve.alias = {
       ...config.resolve.alias,

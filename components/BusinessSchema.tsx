@@ -1,4 +1,4 @@
-import Script from 'next/script';
+import React from 'react';
 
 export default function BusinessSchema() {
   const schema = {
@@ -11,14 +11,16 @@ export default function BusinessSchema() {
     "email": "info@justlegalsolutions.org",
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "Tulsa",
+      "streetAddress": "564 E 138th St",
+      "addressLocality": "Glenpool",
       "addressRegion": "OK",
+      "postalCode": "74033",
       "addressCountry": "US"
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": "36.1540",
-      "longitude": "-95.9928"
+      "latitude": "35.9553",
+      "longitude": "-95.9442"
     },
     "areaServed": [
       "Tulsa County",
@@ -35,10 +37,37 @@ export default function BusinessSchema() {
       "Skip Tracing"
     ],
     "priceRange": "$40-$150",
-    "openingHours": "Mo-Fr 08:00-17:00",
+    "openingHours": ["Mo-Fr 08:00-17:00", "Sa 09:00-15:00"],
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "08:00",
+        "closes": "17:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "09:00",
+        "closes": "15:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Sunday",
+        "description": "Emergency Service Available 24/7"
+      }
+    ],
     "sameAs": [
       "https://www.facebook.com/justlegalsolutions",
-      "https://www.linkedin.com/company/just-legal-solutions"
+      "https://www.linkedin.com/company/just-legal-solutions",
+      "https://www.manta.com/c/m1x7pgf/just-legal-solutions",
+      "https://www.showmelocal.com/38832951-just-legal-solutions-glenpool",
+      "https://www.crunchbase.com/organization/just-legal-solutions",
+      "https://www.alignable.com/glenpool-ok/just-legal-solutions",
+      "https://www.elocal.com/profile/just-legal-solutions-21951593",
+      "https://www.yellowpages.com/glenpool-ok/mip/just-legal-solutions-606085805",
+      "https://www.dnb.com/business-directory/company-profiles.just_legal_solutions_llc.html",
+      "https://clutch.co/profile/just-legal-solutions"
     ],
     "aggregateRating": {
       "@type": "AggregateRating",
@@ -64,10 +93,12 @@ export default function BusinessSchema() {
   };
 
   return (
-    <Script
-      id="business-schema"
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-    />
+    <>
+      <script
+        id="business-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
+    </>
   );
 }
