@@ -2,17 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Just Legal Solutions Feed</title>
   <link href="https://justlegalsolutions.org/feed.xml"/>
-  <updated>2025-08-03T05:33:18.013Z</updated>
+  <updated>2025-08-03T05:55:02.254Z</updated>
   <author>
     <name>Just Legal Solutions</name>
   </author>
   <id>https://justlegalsolutions.org/</id>
-  <entry>
-    <title>Example content file for dynamic feed generation</title>
-    <link href="https://justlegalsolutions.org/welcome"/>
-    <updated>2025-08-03T05:33:18.013Z</updated>
-    <id>https://justlegalsolutions.org/welcome</id>
-    <summary># Welcome to Just Legal Solutions</summary>
-    <author><name>Just Legal Solutions</name></author>
-  </entry>
+
 </feed>
