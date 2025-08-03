@@ -44,49 +44,36 @@ const SitemapPage = () => {
       "https://www.instagram.com/justlegalsolutions/"
     ]
   };
-  // Static list generated from sitemap.xml
-  // Static list of unique URLs (no duplicates, no trailing slash)
+  // Improved list with descriptive labels for each page
   const sitemapLinks = [
-    // Static list generated from sitemap.xml
-    // Static list of unique URLs (no duplicates, no trailing slash)
-    { url: '/' },
-    { url: '/404' },
-    { url: '/ai-business-info' },
-    { url: '/backlinks' },
-    { url: '/card' },
-    { url: '/card/calendar' },
-    { url: '/competitor-analysis' },
-    { url: '/courier-services-tulsa' },
-    { url: '/future-ai-ready' },
-    { url: '/local-legal-events' },
-    { url: '/local-seo-marker' },
-    { url: '/multi-search-marker' },
-    { url: '/process-server-tulsa' },
-    { url: '/resources' },
-    { url: '/security-policy' },
-    { url: '/tulsa-process-server' },
-    { url: '/tulsa-county' },
-    { url: '/ultimate-guide-process-serving-oklahoma' },
-    // SEO city/service pages (deduped and current)
-    { url: '/seo/bixby-process-server' },
-    { url: '/seo/broken-arrow-process-server' },
-    { url: '/seo/eviction-notice-process-server' },
-    { url: '/seo/glenpool-process-server' },
-    { url: '/seo/jenks-process-server' },
-    { url: '/seo/legal-posting-process-server' },
-    { url: '/seo/owasso-process-server' },
-    { url: '/seo/process-server-sand-springs' },
-    { url: '/seo/sand-springs-process-server' },
-    { url: '/seo/what-is-a-process-server' },
-    { url: '/seo/tulsa-process-server-comprehensive' },
-    { url: '/seo-dashboard' },
-    { url: '/services' },
-    { url: '/sitemap' },
-    { url: '/urgent-process-server' },
-    { url: '/voice-friendly' },
-    { url: '/voice-search-marker' },
-    { url: '/weekend-emergency' },
-    { url: '/why-choose-us' },
+    { url: '/', label: 'Home' },
+    { url: '/faq', label: 'FAQ (redirects to Ultimate Guide)' },
+    { url: '/pricing', label: 'Pricing' },
+    { url: '/resources', label: 'Resources' },
+    { url: '/payments', label: 'Payments' },
+    { url: '/backlinks', label: 'Backlinks' },
+    { url: '/courier-services-tulsa', label: 'Courier Services Tulsa' },
+    { url: '/tulsa-county', label: 'Tulsa County Process Server' },
+    { url: '/tulsa-process-server', label: 'Tulsa Process Server' },
+    { url: '/urgent-process-server', label: 'Urgent Process Server' },
+    { url: '/ultimate-guide-process-serving-oklahoma', label: 'Ultimate Guide to Process Serving Oklahoma' },
+    { url: '/seo-dashboard', label: 'SEO Dashboard' },
+    { url: '/process-server-tulsa', label: 'Process Server Tulsa' },
+    { url: '/services', label: 'Services' },
+    // SEO Pages
+    { url: '/seo/bixby-process-server', label: 'Bixby Process Server' },
+    { url: '/seo/broken-arrow-process-server', label: 'Broken Arrow Process Server' },
+    { url: '/seo/eviction-notice-process-server', label: 'Eviction Notice Process Server' },
+    { url: '/seo/glenpool-process-server', label: 'Glenpool Process Server' },
+    { url: '/seo/jenks-process-server', label: 'Jenks Process Server' },
+    { url: '/seo/legal-posting-process-server', label: 'Legal Notice Posting Service' },
+    { url: '/seo/owasso-process-server', label: 'Owasso Process Server' },
+    { url: '/seo/process-server-bixby', label: 'Process Server Bixby' },
+    { url: '/seo/process-server-broken-arrow', label: 'Process Server Broken Arrow' },
+    { url: '/seo/process-server-fart-town', label: 'Process Server Fart Town' },
+    { url: '/seo/sand-springs-process-server', label: 'Sand Springs Process Server' },
+    { url: '/seo/tulsa-process-server-comprehensive', label: 'Comprehensive Tulsa Process Server' },
+    // Add more as needed
   ];
 
   return (
@@ -97,11 +84,11 @@ const SitemapPage = () => {
           <Map className="inline-block mr-2" /> All Pages
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {sitemapLinks.map(({ url }) => (
+          {sitemapLinks.map(({ url, label }) => (
             <div key={url} className="mb-2 flex items-center">
               <ChevronRight className="w-5 h-5 mr-2 text-blue-600" />
-              <Link href={url} className="text-blue-700 hover:underline text-lg">
-                {url}
+              <Link href={url} className="text-blue-700 hover:underline text-lg" aria-label={label || url}>
+                {label || url}
               </Link>
             </div>
           ))}
