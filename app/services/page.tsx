@@ -15,7 +15,7 @@ import PerformanceSchema from '@/components/ui/performance-schema';
 
 export const metadata = {
   title: 'Business Solutions & Executive Support Services | Just Legal Solutions',
-  description: 'Professional executive assistant services including event coordination, HR & payroll, travel management, customer service, and data entry solutions in Oklahoma. Starting at $15/hr.',
+  description: 'Cheapest & Fastest Professional executive assistant services including event coordination, HR & payroll, travel management, customer service, and data entry solutions in Oklahoma. Starting at $15/hr.',
   keywords: ['executive assistant oklahoma', 'event planning tulsa', 'HR payroll services', 'travel management', 'customer service oklahoma', 'data entry services', 'business solutions oklahoma', 'administrative support tulsa'],
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -27,7 +27,7 @@ export const metadata = {
   },
   openGraph: {
     title: 'Business Solutions & Executive Support Services | Just Legal Solutions',
-    description: 'Professional executive assistant services including event coordination, HR & payroll, travel management, customer service, and data entry solutions in Oklahoma. Starting at $15/hr.',
+    description: 'Cheapest & Fastest Professional executive assistant services including event coordination, HR & payroll, travel management, customer service, and data entry solutions in Oklahoma. Starting at $15/hr.',
     type: 'website',
     locale: 'en_US',
     url: 'https://justlegalsolutions.org/services',
@@ -42,7 +42,7 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Business Solutions & Executive Support Services | Just Legal Solutions',
-    description: 'Professional executive assistant services including event coordination, HR & payroll, travel management, customer service, and data entry solutions in Oklahoma.',
+    description: 'Cheapest & Fastest Professional executive assistant services including event coordination, HR & payroll, travel management, customer service, and data entry solutions in Oklahoma.',
     images: ['https://justlegalsolutions.org/images/business-services-og.jpg'],
   }
 };
@@ -51,7 +51,7 @@ export default function ServicesPage() {
   const services = [
     {
       title: 'Executive Support',
-      description: 'Professional administrative assistance for executives, helping manage schedules, communications, and day-to-day operations.',
+      description: 'Cheapest & Fastest Professional administrative assistance for executives, helping manage schedules, communications, and day-to-day operations.',
       image: 'https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=400&q=80',
     },
     {
@@ -93,7 +93,7 @@ export default function ServicesPage() {
                 "@type": "Service",
                 "position": 1,
                 "name": "Executive Support",
-                "description": "Professional administrative assistance for executives, helping manage schedules, communications, and day-to-day operations."
+                "description": "Cheapest & Fastest Professional administrative assistance for executives, helping manage schedules, communications, and day-to-day operations."
               },
               {
                 "@type": "Service",
@@ -242,7 +242,7 @@ export default function ServicesPage() {
 
         {/* Services Grid */}
         <section className="container mx-auto py-16 px-4">
-          <h2 className="text-3xl font-bold mb-12 text-center">Our Professional Services</h2>
+          <h2 className="text-3xl font-bold mb-12 text-center">Our Cheapest & Fastest Professional Services</h2>
           
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {services.map((service, index) => (
@@ -277,7 +277,7 @@ export default function ServicesPage() {
           {
             author: "Executive Client",
             rating: 5,
-            text: "Outstanding executive assistant services! Professional, reliable, and always one step ahead. Highly recommend for business support.",
+            text: "Outstanding executive assistant services! Cheapest & Fastest Professional, reliable, and always one step ahead. Highly recommend for business support.",
             date: "2024-12-08"
           },
           {

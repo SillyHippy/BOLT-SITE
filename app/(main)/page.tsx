@@ -14,9 +14,9 @@ import SocialProof from '@/components/SocialProof';
 
 export const metadata: Metadata = {
   title: {
-    absolute: 'Process Server Tulsa County - Just Legal Solutions Oklahoma'
+    absolute: 'process server starting $30 Tulsa County - Just Legal Solutions Oklahoma'
   },
-  description: 'Expert process server serving Tulsa, Broken Arrow, Sapulpa, Glenpool & Oklahoma. Same-day, rush & standard service options.',
+  description: 'Expert process server starting $30 serving Tulsa, Broken Arrow, Sapulpa, Glenpool & Oklahoma. Same-day, rush & standard service options.',
   alternates: {
     canonical: 'https://justlegalsolutions.org/'
   }
@@ -30,7 +30,7 @@ export default function Home() {
         <div className="absolute inset-0">
           <Image
             src="/images/hero.webp"
-            alt="Professional legal services office with modern workspace and legal documents"
+            alt="Cheapest & Fastest Professional legal services office with modern workspace and legal documents"
             fill
             className="object-cover"
             priority
@@ -44,7 +44,7 @@ export default function Home() {
         </div>
         <div className="relative h-full flex flex-col items-center justify-center text-white text-center px-4">
           {/* SEO-optimized H1 - Hidden from users, visible to search engines */}
-          <h1 className="sr-only">Professional Process Server Tulsa County</h1>
+          <h1 className="sr-only">Cheapest & Fastest Professional process server starting $30 Tulsa County</h1>
           
           {/* Visual heading - What users see */}
           <div className="text-4xl md:text-6xl font-bold mb-6 drop-shadow-lg">Efficient Process Serving & Courier Solutions</div>
@@ -62,41 +62,41 @@ export default function Home() {
           {/* SEO-ONLY Content - Hidden from users but visible to search engines */}
           <div className="sr-only">
             {/* Enhanced SEO content for better rankings - 800+ words total */}
-            <h2>Professional Process Server and Courier Services in Tulsa County, Oklahoma</h2>
-            <p>Just Legal Solutions provides comprehensive process server and courier services throughout Tulsa County, including Tulsa, Broken Arrow, Sapulpa, Glenpool, Wagoner County, and Creek County. Our experienced team delivers professional legal document delivery services with same-day, rush, and standard service options to meet all your business needs.</p>
+            <h2>Cheapest & Fastest Professional process server starting $30 and Courier Services in Tulsa County, Oklahoma</h2>
+            <p>Just Legal Solutions provides comprehensive process server starting $30 and courier services throughout Tulsa County, including Tulsa, Broken Arrow, Sapulpa, Glenpool, Wagoner County, and Creek County. Our experienced team delivers professional legal document delivery services with same-day, rush, and standard service options to meet all your business needs.</p>
             
-            <h3>Process Server Services in Tulsa County</h3>
-            <p>Our certified process servers handle all types of legal document delivery including divorce papers, summons delivery, subpoena service, eviction notices, and court document transfers. We serve documents throughout Oklahoma with reliable, professional service that ensures proper legal compliance and timely delivery.</p>
+            <h3>process server starting $30 Services in Tulsa County</h3>
+            <p>Our certified process server starting $30s handle all types of legal document delivery including divorce papers, summons delivery, subpoena service, eviction notices, and court document transfers. We serve documents throughout Oklahoma with reliable, professional service that ensures proper legal compliance and timely delivery.</p>
             
-            <h3>Process Server Tulsa - Professional Legal Document Service</h3>
-            <p>Process server Tulsa services by Just Legal Solutions ensure your legal documents are delivered professionally and on time. Our process server Tulsa team handles all court documents, divorce papers, and legal notifications throughout Tulsa County with certified, bonded professionals.</p>
+            <h3>process server starting $30 Tulsa - Cheapest & Fastest Professional Legal Document Service</h3>
+            <p>process server starting $30 Tulsa services by Just Legal Solutions ensure your legal documents are delivered professionally and on time. Our process server starting $30 Tulsa team handles all court documents, divorce papers, and legal notifications throughout Tulsa County with certified, bonded professionals.</p>
             
-            <h3>Process Server Broken Arrow - Expert Document Delivery</h3>
-            <p>Need a process server Broken Arrow? Our process server Broken Arrow team provides same-day, rush, and standard service options for all legal document delivery needs. Process server Broken Arrow services include summons, subpoenas, eviction notices, and court orders.</p>
+            <h3>process server starting $30 Broken Arrow - Expert Document Delivery</h3>
+            <p>Need a process server starting $30 Broken Arrow? Our process server starting $30 Broken Arrow team provides same-day, rush, and standard service options for all legal document delivery needs. process server starting $30 Broken Arrow services include summons, subpoenas, eviction notices, and court orders.</p>
             
-            <h3>Process Server Sapulpa - Reliable Legal Service</h3>
-            <p>Process server Sapulpa services by Just Legal Solutions deliver professional results for law firms and businesses. Our process server Sapulpa team ensures compliant document service throughout Sapulpa and surrounding areas with detailed affidavits of service.</p>
+            <h3>process server starting $30 Sapulpa - Reliable Legal Service</h3>
+            <p>process server starting $30 Sapulpa services by Just Legal Solutions deliver professional results for law firms and businesses. Our process server starting $30 Sapulpa team ensures compliant document service throughout Sapulpa and surrounding areas with detailed affidavits of service.</p>
             
-            <h3>Process Server Glenpool - Professional Document Delivery</h3>
-            <p>Looking for a process server Glenpool? Our process server Glenpool services provide expert legal document delivery with secure handling and timely service. Process server Glenpool options include same-day delivery for urgent legal documents.</p>
+            <h3>process server starting $30 Glenpool - Cheapest & Fastest Professional Document Delivery</h3>
+            <p>Looking for a process server starting $30 Glenpool? Our process server starting $30 Glenpool services provide expert legal document delivery with secure handling and timely service. process server starting $30 Glenpool options include same-day delivery for urgent legal documents.</p>
             
-            <h3>Process Server Oklahoma - Statewide Coverage</h3>
-            <p>Process server Oklahoma services extend throughout the state with reliable, professional document delivery. Our process server Oklahoma team provides statewide coverage for urgent legal documents, court filings, and business transfers with certified professionals.</p>
+            <h3>process server starting $30 Oklahoma - Statewide Coverage</h3>
+            <p>process server starting $30 Oklahoma services extend throughout the state with reliable, professional document delivery. Our process server starting $30 Oklahoma team provides statewide coverage for urgent legal documents, court filings, and business transfers with certified professionals.</p>
             
             <h3>Courier Services and Document Delivery Solutions</h3>
             <p>Just Legal Solutions offers secure courier services for businesses requiring professional document delivery. Our courier services include same-day delivery, rush delivery, and standard delivery options. We specialize in legal document courier services, business document delivery, and secure file transfers throughout Oklahoma.</p>
             
             <h3>Service Areas and Coverage</h3>
-            <p>We provide process server and courier services throughout Tulsa County, Oklahoma, including Tulsa, Broken Arrow, Sapulpa, Bixby, Owasso, Sand Springs, Glenpool, and surrounding areas. Our statewide Oklahoma coverage ensures your documents reach their destination regardless of location.</p>
+            <p>We provide process server starting $30 and courier services throughout Tulsa County, Oklahoma, including Tulsa, Broken Arrow, Sapulpa, Bixby, Owasso, Sand Springs, Glenpool, and surrounding areas. Our statewide Oklahoma coverage ensures your documents reach their destination regardless of location.</p>
             
             <h3>Pricing and Service Options</h3>
-            <p>Process server services: Standard service $60, Rush service $100, Same-day service $150. Courier services available with competitive rates for businesses requiring regular document delivery. Contact Just Legal Solutions for custom pricing on bulk services and ongoing business solutions.</p>
+            <p>process server starting $30 services: Standard service $60, Rush service $100, Same-day service $150. Courier services available with competitive rates for businesses requiring regular document delivery. Contact Just Legal Solutions for custom pricing on bulk services and ongoing business solutions.</p>
             
             <h3>Why Choose Just Legal Solutions</h3>
-            <p>With years of experience serving Tulsa County, our team provides reliable process server and courier services with professional results. We understand the importance of timely legal document delivery and offer flexible service options to meet your specific needs. Our secure handling procedures ensure confidential documents are protected throughout the delivery process.</p>
+            <p>With years of experience serving Tulsa County, our team provides reliable process server starting $30 and courier services with professional results. We understand the importance of timely legal document delivery and offer flexible service options to meet your specific needs. Our secure handling procedures ensure confidential documents are protected throughout the delivery process.</p>
             
             <h3>Legal Document Types We Serve</h3>
-            <p>Our process servers handle divorce papers, summons, subpoenas, eviction notices, court documents, business papers, contracts, legal notifications, and other legal documents requiring professional service. We ensure proper service of process in compliance with Oklahoma state laws and court requirements.</p>
+            <p>Our process server starting $30s handle divorce papers, summons, subpoenas, eviction notices, court documents, business papers, contracts, legal notifications, and other legal documents requiring professional service. We ensure proper service of process in compliance with Oklahoma state laws and court requirements.</p>
             
             <h3>Business Solutions and Court Services</h3>
             <p>Just Legal Solutions provides business solutions for law firms, attorneys, courts, and businesses requiring regular document delivery services. Our court-run transfers, electronic filing assistance, and skip tracing services support the legal community throughout Oklahoma with reliable, professional results.</p>
@@ -113,7 +113,7 @@ export default function Home() {
               <div className="mb-4 relative h-48 sm:h-56 w-full rounded-lg overflow-hidden shadow-[0_0_20px_rgba(255,255,255,0.4)] hover:shadow-[0_0_25px_rgba(255,255,255,0.5)] transition-shadow duration-300">
                 <Image
                   src="/images/secure-delivery.webp"
-                  alt="Professional courier delivering legal documents securely"
+                  alt="Cheapest & Fastest Professional courier delivering legal documents securely"
                   fill
                   className="object-cover object-position-upper-center"
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
@@ -149,7 +149,7 @@ export default function Home() {
               <div className="mb-4 relative h-48 sm:h-56 w-full rounded-lg overflow-hidden shadow-[0_0_20px_rgba(255,255,255,0.4)] hover:shadow-[0_0_25px_rgba(255,255,255,0.5)] transition-shadow duration-300">
                 <Image
                   src="/images/skip-trace.webp"
-                  alt="Professional skip tracing and investigation services for locating individuals in Oklahoma"
+                  alt="Cheapest & Fastest Professional skip tracing and investigation services for locating individuals in Oklahoma"
                   fill
                   className="object-cover object-center"
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
@@ -159,7 +159,7 @@ export default function Home() {
               </div>
               <h3 className="text-lg md:text-xl font-bold mb-2">Skip Tracing Services</h3>
               <p className="text-gray-400 text-sm md:text-base">
-                Professional skip tracing services to locate individuals throughout Oklahoma when traditional methods fail.
+                Cheapest & Fastest Professional skip tracing services to locate individuals throughout Oklahoma when traditional methods fail.
               </p>
             </div>
             {/* Service 4 */}
@@ -230,7 +230,7 @@ export default function Home() {
       <section className="sr-only" aria-label="Service areas and details">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Comprehensive Process Server Solutions Throughout Oklahoma</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Comprehensive process server starting $30 Solutions Throughout Oklahoma</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               Just Legal Solutions provides professional process serving and courier services across Tulsa County and throughout Oklahoma. Our experienced team ensures timely, accurate, and compliant document delivery for law firms, businesses, and individuals.
             </p>
@@ -238,9 +238,9 @@ export default function Home() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Process Server Services</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">process server starting $30 Services</h3>
               <p className="text-gray-600 mb-4">
-                Our certified process servers handle all types of legal document service including summons, subpoenas, divorce papers, eviction notices, and court orders. We provide detailed affidavits of service and maintain strict compliance with Oklahoma state laws.
+                Our certified process server starting $30s handle all types of legal document service including summons, subpoenas, divorce papers, eviction notices, and court orders. We provide detailed affidavits of service and maintain strict compliance with Oklahoma state laws.
               </p>
               <ul className="text-sm text-gray-500 space-y-1">
                 <li>• Divorce document service</li>
@@ -254,7 +254,7 @@ export default function Home() {
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Courier Solutions</h3>
               <p className="text-gray-600 mb-4">
-                Professional courier services for urgent document delivery, court filings, and business-to-business transfers. Our secure handling ensures confidential materials reach their destination safely and on time.
+                Cheapest & Fastest Professional courier services for urgent document delivery, court filings, and business-to-business transfers. Our secure handling ensures confidential materials reach their destination safely and on time.
               </p>
               <ul className="text-sm text-gray-500 space-y-1">
                 <li>• Same-day delivery available</li>
@@ -289,7 +289,7 @@ export default function Home() {
           <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-16">Why Choose Just Legal Solutions</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Professional Legal Document Delivery You Can Trust</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">Cheapest & Fastest Professional Legal Document Delivery You Can Trust</h3>
               <p className="text-gray-600 mb-6">
                 With years of experience serving the Tulsa County legal community, Just Legal Solutions has built a reputation for reliable, professional process serving and courier services. Our team understands the critical importance of timely document delivery in legal proceedings.
               </p>
@@ -304,7 +304,7 @@ export default function Home() {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900">Certified Process Servers</h4>
+                    <h4 className="font-semibold text-gray-900">Certified process server starting $30s</h4>
                     <p className="text-gray-600 text-sm">Licensed and bonded professionals ensuring legal compliance</p>
                   </div>
                 </div>

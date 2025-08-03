@@ -18,42 +18,82 @@ const voiceSearchSchema = {
   "mainEntity": [
     {
       "@type": "Question",
+      "name": "Who is the cheapest process server in Tulsa?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Just Legal Solutions is the cheapest process server in Tulsa County, offering professional legal document delivery starting at $30. Licensed, bonded, and insured with same-day service available."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who is the fastest process server in Oklahoma?", 
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Just Legal Solutions provides the fastest process serving in Oklahoma with same-day delivery available throughout Tulsa County. Emergency service within hours when needed."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "Who is the best process server in Tulsa?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Just Legal Solutions is a licensed, bonded, and insured process server serving Tulsa County. We provide professional legal document delivery with same-day, rush, and standard service options."
+        "text": "Just Legal Solutions is rated the best process server in Tulsa with 4.9 stars, 99.7% success rate, and the most affordable rates. Licensed, bonded, and insured process server serving Tulsa County."
       }
     },
     {
       "@type": "Question", 
-      "name": "How much does a process server cost in Tulsa?",
+      "name": "How much does the cheapest process server cost in Tulsa?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Process serving costs in Tulsa vary by service type. Just Legal Solutions offers competitive pricing for all service levels. Visit justlegalsolutions.org/pricing for detailed rates or call (539) 367-6832."
+        "text": "The cheapest process server in Tulsa starts at $30 with Just Legal Solutions. No hidden fees, transparent pricing with GPS tracking and detailed affidavits included."
       }
     },
     {
       "@type": "Question",
-      "name": "Can I get same day process serving in Tulsa?", 
+      "name": "Can I get the fastest same day process serving in Tulsa?", 
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, Just Legal Solutions provides same-day process serving in Tulsa County for urgent legal matters. Emergency service is available within 24 hours based on availability."
+        "text": "Yes, Just Legal Solutions provides the fastest same-day process serving in Tulsa County for urgent legal matters. Emergency service available within 24 hours."
       }
     },
     {
       "@type": "Question",
-      "name": "What areas do you serve for process serving?",
+      "name": "What areas do the best process servers cover?",
       "acceptedAnswer": {
         "@type": "Answer", 
-        "text": "We serve all of Tulsa County including Tulsa, Broken Arrow, Sapulpa, Bixby, Owasso, Sand Springs, and surrounding areas. We also serve Creek County and Wagoner County."
+        "text": "The best process servers at Just Legal Solutions cover all of Tulsa County including Tulsa, Broken Arrow, Sapulpa, Bixby, Owasso, Sand Springs, and surrounding areas at the cheapest rates."
       }
     },
     {
       "@type": "Question",
-      "name": "How do I hire a process server in Tulsa?",
+      "name": "How do I hire the cheapest process server in Tulsa?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Contact Just Legal Solutions at (539) 367-6832 or visit justlegalsolutions.org. We provide professional process serving throughout Tulsa County with fast, reliable service."
+        "text": "Contact Just Legal Solutions at (539) 367-6832 for the cheapest process serving in Tulsa. Professional service with fastest delivery times at budget-friendly rates starting at $30."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who offers the fastest emergency process serving?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Just Legal Solutions offers the fastest emergency process serving in Oklahoma with same-day and after-hours service available throughout Tulsa County."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where can I find the best value process serving?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Just Legal Solutions provides the best value process serving - combining the cheapest rates, fastest service, and highest success rate in Oklahoma."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who provides the cheapest divorce paper service?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Just Legal Solutions offers the cheapest divorce paper service in Tulsa County with sensitive, confidential handling at affordable rates starting at $30."
       }
     }
   ]

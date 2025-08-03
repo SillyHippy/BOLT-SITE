@@ -91,28 +91,56 @@ const topicDatabase = {
   ]
 };
 
-// Long-tail keyword database
+// Enhanced long-tail keywords with competitive modifiers
 const longTailKeywords = [
-  'emergency process server tulsa oklahoma',
-  'same day legal document delivery tulsa',
-  'weekend process serving tulsa county',
-  'professional process server broken arrow',
-  'court document delivery sapulpa oklahoma',
-  'divorce papers service tulsa rush',
-  'eviction notice delivery bixby oklahoma',
-  'small claims process server owasso',
-  'restraining order service tulsa county',
-  'bankruptcy papers delivery sand springs',
-  'summons service jenks oklahoma',
-  'subpoena delivery glenpool tulsa',
-  'legal papers served collinsville oklahoma',
-  'process serving cost tulsa county',
-  'fastest process server tulsa oklahoma',
-  'licensed process server broken arrow',
-  'bonded process server sapulpa oklahoma',
-  'insured legal document delivery tulsa',
-  'affordable process serving tulsa county',
-  'experienced process server owasso oklahoma'
+  // Emergency + Competitive
+  'cheapest emergency process server tulsa oklahoma',
+  'fastest emergency legal document delivery tulsa',
+  'best emergency process serving tulsa county',
+  'same day legal document delivery tulsa cheapest',
+  'weekend process serving tulsa county fastest',
+  
+  // Location + Competitive
+  'cheapest professional process server broken arrow',
+  'fastest court document delivery sapulpa oklahoma',
+  'best process serving owasso tulsa county',
+  'affordable legal papers served tulsa rush',
+  'budget eviction notice delivery bixby oklahoma',
+  
+  // Service Type + Competitive
+  'cheapest divorce papers service tulsa county',
+  'fastest restraining order service tulsa oklahoma',
+  'best small claims process server owasso',
+  'affordable bankruptcy papers delivery sand springs',
+  'budget summons service jenks oklahoma',
+  'cheapest subpoena delivery glenpool tulsa',
+  
+  // Technology + Competitive
+  'fastest gps tracked process serving tulsa',
+  'best technology process server broken arrow',
+  'cheapest online process serving tulsa county',
+  'fastest digital proof process server oklahoma',
+  
+  // Professional + Competitive
+  'cheapest licensed process server tulsa oklahoma',
+  'fastest bonded process server broken arrow',
+  'best insured legal document delivery tulsa',
+  'affordable experienced process server owasso oklahoma',
+  'budget certified process serving tulsa county',
+  
+  // Speed Variations
+  'immediate process server tulsa oklahoma',
+  'instant legal document delivery broken arrow',
+  'rapid process serving sapulpa oklahoma',
+  'quick court document service bixby',
+  'urgent process server sand springs tulsa',
+  
+  // Value Propositions  
+  'cheapest process serving cost tulsa county',
+  'best value process server tulsa oklahoma',
+  'affordable legal document delivery rates',
+  'budget friendly process serving broken arrow',
+  'lowest price process server sapulpa oklahoma'
 ];
 
 // Content sections database

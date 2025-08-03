@@ -9,17 +9,28 @@ const generateCityPage = (cityData) => {
   const city = JSON.parse(cityData);
   const slug = `process-server-${city.name.toLowerCase().replace(/\s+/g, '-')}`;
   
+  // Enhanced voice questions with competitive keywords
   const voiceQuestions = [
+    `Who is the cheapest process server in ${city.name} Oklahoma?`,
+    `Who is the fastest process server in ${city.name}?`,
     `Who is the best process server in ${city.name} Oklahoma?`,
-    `Where can I find 24 hour legal document delivery in ${city.name}?`,
-    `How do I serve papers in ${city.name} Oklahoma quickly?`,
-    `What process server covers ${city.name} and ${city.county}?`,
-    `How much does process serving cost in ${city.name}?`,
-    `Do you offer same-day process serving in ${city.name}?`,
-    `What legal documents can you serve in ${city.name}?`,
-    `Are you licensed process servers in ${city.name}?`,
-    `Do you provide emergency process serving in ${city.name}?`,
-    `How do I schedule process serving in ${city.name}?`
+    `Where can I find the cheapest legal document delivery in ${city.name}?`,
+    `Where can I find the fastest 24 hour legal document delivery in ${city.name}?`,
+    `How do I find the best process server in ${city.name} Oklahoma quickly?`,
+    `What process server offers the cheapest rates in ${city.name} and ${city.county}?`,
+    `What process server is the fastest in ${city.name} for same day service?`,
+    `How much does the cheapest process serving cost in ${city.name}?`,
+    `Do you offer the fastest same-day process serving in ${city.name}?`,
+    `What legal documents can the best process server serve in ${city.name}?`,
+    `Are you the cheapest licensed process servers in ${city.name}?`,
+    `Do you provide the fastest emergency process serving in ${city.name}?`,
+    `How do I schedule the best process serving in ${city.name}?`,
+    `Who offers the cheapest divorce paper service in ${city.name}?`,
+    `Who provides the fastest eviction notice delivery in ${city.name}?`,
+    `Where can I find the best skip tracing service in ${city.name}?`,
+    `What company has the cheapest court filing service in ${city.name}?`,
+    `Who is the fastest process server for rush delivery in ${city.name}?`,
+    `Which company offers the best value process serving in ${city.name}?`
   ];
 
   const voiceAnswers = [

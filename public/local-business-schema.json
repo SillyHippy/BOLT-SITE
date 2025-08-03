@@ -6,7 +6,7 @@
   "@id": "https://justlegalsolutions.org/",
   "url": "https://justlegalsolutions.org/",
   "telephone": "(539) 367-6832",
-  "priceRange": "$35-$150",
+  "priceRange": "$30-$150",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "564 E 138th St",
@@ -39,7 +39,7 @@
     }
   ],
   "serviceArea": "Statewide, focused on Tulsa County, Creek County (Sapulpa, Kiefer, Mounds), Wagoner County (Broken Arrow portion), Rogers County (Claremore, Catoosa), Osage County (Sand Springs, Sperry, West Tulsa)",
-  "description": "Process serving and legal solutions throughout Oklahoma. Enhanced rates for non-clustered assignments.",
+  "description": "Process serving and legal solutions throughout Oklahoma. Enhanced rates for non-clustered assignments. Starting at just $30 - Oklahoma's cheapest, fastest, and best.",
   "sameAs": [
     "https://www.facebook.com/justlegalsolutions",
     "https://www.linkedin.com/company/justlegalsolutions",
