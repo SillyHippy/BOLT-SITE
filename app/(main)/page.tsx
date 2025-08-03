@@ -63,7 +63,7 @@ export default function Home() {
           <div className="sr-only">
             {/* Enhanced SEO content for better rankings - 800+ words total */}
             <h2>Professional Process Server and Courier Services in Tulsa County, Oklahoma</h2>
-            <p>Just Legal Solutions provides comprehensive process server and courier services throughout Tulsa County, including Broken Arrow, Sapulpa, Glenpool, Wagoner County, and Creek County. Our experienced team delivers professional legal document delivery services with same-day, rush, and standard service options to meet all your business needs.</p>
+            <p>Just Legal Solutions provides comprehensive process server and courier services throughout Tulsa County, including Tulsa, Broken Arrow, Sapulpa, Glenpool, Wagoner County, and Creek County. Our experienced team delivers professional legal document delivery services with same-day, rush, and standard service options to meet all your business needs.</p>
             
             <h3>Process Server Services in Tulsa County</h3>
             <p>Our certified process servers handle all types of legal document delivery including divorce papers, summons delivery, subpoena service, eviction notices, and court document transfers. We serve documents throughout Oklahoma with reliable, professional service that ensures proper legal compliance and timely delivery.</p>
