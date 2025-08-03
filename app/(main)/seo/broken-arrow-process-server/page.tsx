@@ -396,7 +396,7 @@ export default function BrokenArrowProcessServer() {
               <h4 className="text-lg font-semibold mb-4">Need service in other areas?</h4>
               <div className="flex flex-wrap justify-center gap-4">
                 <Link href="/tulsa-process-server" className="text-blue-700 underline font-semibold">Tulsa Process Server</Link>
-                <Link href="/" className="text-blue-700 underline font-semibold">Sapulpa Process Server</Link>
+                <Link href="https://justlegalsolutions.org/tulsa-county" className="text-blue-700 underline font-semibold">Sapulpa Process Server</Link>
                 <Link href="/seo/glenpool-process-server" className="text-blue-700 underline font-semibold">Glenpool Process Server</Link>
                 <Link href="/courier-services-tulsa" className="text-blue-700 underline font-semibold">Courier Services Tulsa</Link>
                 <Link href="/pricing" className="text-blue-700 underline font-semibold">See Pricing</Link>

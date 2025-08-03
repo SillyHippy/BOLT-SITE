@@ -173,6 +173,20 @@ export default function ProcessServerBrokenArrowPage() {
             <div className="flex justify-center mt-8">
               <Image src="/images/broken-arrow-rose-district.jpg" width={600} height={350} alt="Professional Broken Arrow process server serving legal documents in Rose District Oklahoma" className="rounded-lg shadow-lg" />
             </div>
+            {/* Google Maps Embed for Broken Arrow */}
+            <div className="flex justify-center mt-6">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d413067.7377439724!2d-96.05453081268737!3d36.01805403442873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b6623d6eab4e11%3A0x2825ab3846a6265c!2sBroken%20Arrow%2C%20OK!5e0!3m2!1sen!2sus!4v1753398960144!5m2!1sen!2sus"
+                width="600"
+                height="450"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Broken Arrow, OK Map"
+                className="rounded-lg shadow-lg w-full max-w-2xl"
+              ></iframe>
+            </div>
             <p className="text-sm text-blue-100 mt-2">Serving the Rose District and all of Broken Arrow with professional process serving</p>
           </div>
         </div>
@@ -183,7 +197,7 @@ export default function ProcessServerBrokenArrowPage() {
               <h2 className="text-3xl font-bold text-gray-800 mb-6">Local Expertise in Broken Arrow</h2>
               <p className="text-lg text-gray-700 mb-4">{brokenArrowData.history}</p>
               <div className="flex justify-center mt-4">
-                <Image src="/images/broken-arrow-municipal-court.jpg" width={400} height={166} alt="Broken Arrow Municipal Court building where process server delivers legal documents" className="rounded shadow" />
+                <Image src="/images/Broken-Arrow-Municipal-Court.jpeg" width={400} height={166} alt="Broken Arrow Municipal Court building where process server delivers legal documents" className="rounded shadow" />
               </div>
               <p className="text-xs text-gray-500 text-center mt-1">Broken Arrow Municipal Court – Trusted destination for legal document delivery</p>
             </section>
@@ -348,7 +362,7 @@ export default function ProcessServerBrokenArrowPage() {
               <h4 className="text-lg font-semibold mb-4">Need service in other areas?</h4>
               <div className="flex flex-wrap justify-center gap-4">
                 <Link href="/tulsa-process-server" className="text-blue-700 underline font-semibold">Tulsa Process Server</Link>
-                <Link href="/" className="text-blue-700 underline font-semibold">Sapulpa Process Server</Link>
+                <Link href="https://justlegalsolutions.org/tulsa-county" className="text-blue-700 underline font-semibold">Sapulpa Process Server</Link>
                 <Link href="/seo/glenpool-process-server" className="text-blue-700 underline font-semibold">Glenpool Process Server</Link>
                 <Link href="/courier-services-tulsa" className="text-blue-700 underline font-semibold">Courier Services Tulsa</Link>
                 <Link href="/pricing" className="text-blue-700 underline font-semibold">See Pricing</Link>
