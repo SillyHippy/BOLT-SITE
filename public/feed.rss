@@ -4,13 +4,13 @@
     <title>Just Legal Solutions Feed</title>
     <link>https://justlegalsolutions.org/</link>
     <description>Latest updates from Just Legal Solutions</description>
-    <lastBuildDate>Sun, 03 Aug 2025 04:18:14 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 03 Aug 2025 04:32:01 GMT</lastBuildDate>
     <generator>Custom Feed Script</generator>
     <item>
       <title>Example content file for dynamic feed generation</title>
       <link>https://justlegalsolutions.org/welcome</link>
       <description># Welcome to Just Legal Solutions</description>
-      <pubDate>2025-08-03T04:18:14.400Z</pubDate>
+      <pubDate>2025-08-03T04:32:01.432Z</pubDate>
       <guid>https://justlegalsolutions.org/welcome</guid>
     </item>
   </channel>
