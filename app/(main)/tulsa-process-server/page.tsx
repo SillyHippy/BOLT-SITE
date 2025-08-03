@@ -27,7 +27,7 @@ export default function TulsaProcessServerPage() {
         "name": "How quickly can your Broken Arrow process server or Tulsa process server deliver legal documents?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Our standard delivery for a Tulsa process server is typically within 3-5 business days. However, we understand some legal matters are time-sensitive. We offer rush and same-day service for urgent deliveries in both Tulsa and Broken Arrow. Our process servers in Tulsa are committed to providing the fastest and most reliable service possible. If you need an urgent processor for Tulsa County, contact us immediately."
+          "text": "Our standard delivery for a Tulsa process server is typically within 3-5 business days. However, we understand some legal matters are time-sensitive. We offer rush and same-day service for urgent deliveries in both Tulsa and Broken Arrow. Our process servers in Tulsa are committed to providing the fastest and most reliable service possible. If you need an urgent Process Server for Tulsa County, contact us immediately."
         }
       },
       {
@@ -51,7 +51,7 @@ export default function TulsaProcessServerPage() {
         "name": "What legal documents can you deliver as a Broken Arrow process server?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "As a leading Broken Arrow process server, we are experienced in serving all types of legal documents. This includes summons, complaints, subpoenas, writs, eviction notices, and family court documents like divorce papers and child support petitions. Our Broken Arrow processor team ensures that every document is served correctly according to Oklahoma law."
+          "text": "As a leading Broken Arrow process server, we are experienced in serving all types of legal documents. This includes summons, complaints, subpoenas, writs, eviction notices, and family court documents like divorce papers and child support petitions. Our Broken Arrow Process Server team ensures that every document is served correctly according to Oklahoma law."
         }
       },
       {
@@ -64,10 +64,10 @@ export default function TulsaProcessServerPage() {
       },
       {
         "@type": "Question",
-        "name": "How much does a processor for Broken Arrow or Tulsa process server cost?",
+        "name": "How much does a Process Server for Broken Arrow or Tulsa process server cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Our pricing is competitive and transparent. The cost for a processor for Broken Arrow or a Tulsa process server depends on the type of service (standard, rush, same-day) and the location of the serve. Please visit our pricing page or contact us for a specific quote. We offer affordable rates for reliable service."
+          "text": "Our pricing is competitive and transparent. The cost for a Process Server for Broken Arrow or a Tulsa process server depends on the type of service (standard, rush, same-day) and the location of the serve. Please visit our pricing page or contact us for a specific quote. We offer affordable rates for reliable service."
         }
       },
       {
@@ -80,10 +80,10 @@ export default function TulsaProcessServerPage() {
       },
       {
         "@type": "Question",
-        "name": "What should I expect from a Broken Arrow processor?",
+        "name": "What should I expect from a Broken Arrow Process Server?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "When you hire a Broken Arrow processor from our team, you can expect professionalism, diligence, and excellent communication. We will keep you updated throughout the entire process, from the initial attempt to the final proof of service. Our goal is to make the process of serving legal documents as smooth and stress-free as possible for our clients."
+          "text": "When you hire a Broken Arrow Process Server from our team, you can expect professionalism, diligence, and excellent communication. We will keep you updated throughout the entire process, from the initial attempt to the final proof of service. Our goal is to make the process of serving legal documents as smooth and stress-free as possible for our clients."
         }
       },
       {
@@ -91,7 +91,7 @@ export default function TulsaProcessServerPage() {
         "name": "Do you offer skip tracing services for hard-to-find individuals?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes, we do. If you are having trouble locating an individual for service, our experienced team can provide skip tracing services. We use advanced databases and investigative techniques to locate individuals quickly and accurately, ensuring your legal documents can be served. This is a crucial service offered by our processor for Tulsa County."
+          "text": "Yes, we do. If you are having trouble locating an individual for service, our experienced team can provide skip tracing services. We use advanced databases and investigative techniques to locate individuals quickly and accurately, ensuring your legal documents can be served. This is a crucial service offered by our Process Server for Tulsa County."
         }
       }
     ]
@@ -140,7 +140,7 @@ export default function TulsaProcessServerPage() {
 
       {/* Hero Section */}
       <section className="text-center mb-12">
-        <h1 className="text-4xl font-bold mb-4">Tulsa Process Server & Broken Arrow Processor</h1>
+        <h1 className="text-4xl font-bold mb-4">Tulsa Process Server & Broken Arrow Process Server</h1>
         <p className="text-xl text-muted-foreground mb-6">Your trusted partner for fast, accurate, and professional legal document delivery from a licensed process server in Tulsa County.</p>
         <div className="flex justify-center gap-4">
           <Button asChild>
