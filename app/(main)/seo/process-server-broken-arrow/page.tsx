@@ -312,7 +312,7 @@ export default function ProcessServerBrokenArrowPage() {
             <section className="bg-white py-6 border-b mb-12 text-center">
               <h3 className="text-xl font-bold text-blue-900 mb-2">Need a licensed Broken Arrow process server?</h3>
               <p className="text-gray-800 mb-2">Contact us for same-day legal document service or call for a quote! Our Broken Arrow process server team is ready to help.</p>
-              <a href="/contact" className="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-700 transition">Get Started</a>
+              <a href="#contact" className="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-700 transition">Get Started</a>
             </section>
 
             <section className="bg-white py-16">
@@ -341,18 +341,18 @@ export default function ProcessServerBrokenArrowPage() {
 
             <section className="bg-blue-100 py-8 border-t text-center">
               <h3 className="text-xl font-bold text-blue-900 mb-2">Have more Broken Arrow legal questions?</h3>
-              <p className="text-gray-800 mb-4">Suggest an FAQ or <a href="/contact" className="underline text-blue-700 font-semibold">contact our experts today</a>!</p>
+              <p className="text-gray-800 mb-4">Suggest an FAQ or <a href="#contact" className="underline text-blue-700 font-semibold">contact our experts today</a>!</p>
             </section>
 
             <section className="py-8 text-center">
               <h4 className="text-lg font-semibold mb-4">Need service in other areas?</h4>
               <div className="flex flex-wrap justify-center gap-4">
                 <Link href="/tulsa-process-server" className="text-blue-700 underline font-semibold">Tulsa Process Server</Link>
-                <Link href="/sapulpa-process-server" className="text-blue-700 underline font-semibold">Sapulpa Process Server</Link>
-                <Link href="/glenpool-process-server" className="text-blue-700 underline font-semibold">Glenpool Process Server</Link>
+                <Link href="/" className="text-blue-700 underline font-semibold">Sapulpa Process Server</Link>
+                <Link href="/seo/glenpool-process-server" className="text-blue-700 underline font-semibold">Glenpool Process Server</Link>
                 <Link href="/courier-services-tulsa" className="text-blue-700 underline font-semibold">Courier Services Tulsa</Link>
                 <Link href="/pricing" className="text-blue-700 underline font-semibold">See Pricing</Link>
-                <Link href="/contact" className="text-blue-700 underline font-semibold">Contact Us</Link>
+                <Link href="#contact" className="text-blue-700 underline font-semibold">Contact Us</Link>
               </div>
             </section>
           </div>
