@@ -4,6 +4,7 @@ import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, Chec
 import LocalBusinessSchema from '@/components/ui/local-business-schema';
 import ServiceSchema from '@/components/ui/service-schema';
 import BreadcrumbSchema from '@/components/ui/breadcrumb-schema';
+import GoogleMapsEmbed from '@/components/ui/google-maps-embed';
 import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
 
@@ -319,6 +320,22 @@ export default function PryorProcessServer() {
                   Schedule Service
                 </Link>
               </div>
+            </div>
+          </section>
+
+          {/* Google Maps Section */}
+          <section className="bg-white rounded-xl shadow-lg overflow-hidden mb-12">
+            <div className="p-6 bg-gradient-to-r from-blue-600 to-blue-700 text-white">
+              <h2 className="text-2xl font-bold mb-2">Pryor Service Area Map</h2>
+              <p className="text-blue-100">Professional process serving throughout Pryor, Oklahoma</p>
+            </div>
+            <div className="p-8">
+              <GoogleMapsEmbed 
+                countyName="Mayes County"
+                cityName="Pryor"
+                state="Oklahoma"
+                title="Pryor Process Server Service Area"
+              />
             </div>
           </section>
 
