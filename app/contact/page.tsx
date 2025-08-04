@@ -1,5 +1,6 @@
 import React from 'react';
 import Script from 'next/script';
+import Link from 'next/link';
 import { Mail, Phone, MapPin, Clock } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import GoogleSpecificOptimization from '@/components/ui/google-specific-optimization';
@@ -7,6 +8,8 @@ import BingYahooOptimization from '@/components/ui/bing-yahoo-optimization';
 import DuckDuckGoOptimization from '@/components/ui/duckduckgo-optimization';
 import SearchEngineUniversalOptimization from '@/components/ui/search-engine-universal-optimization';
 import EnhancedBreadcrumbSchema from '@/components/ui/enhanced-breadcrumb-schema';
+import { Navbar } from '@/components/ui/navbar';
+import { Footer } from '@/components/ui/footer';
 
 export const metadata = {
   title: 'Contact Just Legal Solutions - Process Server & Business Services in Oklahoma',
@@ -45,6 +48,7 @@ export const metadata = {
 export default function ContactPage() {
   return (
     <>
+      <Navbar />
       <Script id="contact-schema">
         {`
           {
@@ -217,14 +221,15 @@ export default function ContactPage() {
                 <CardTitle className="text-lg">Process Serving</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-600 mb-3">
+                <p className="text-gray-600 mb-4">
                   Professional legal document delivery throughout Oklahoma with certified, bonded process servers.
                 </p>
-                <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• Standard Service: $60</li>
-                  <li>• Rush Service: $100</li>
-                  <li>• Same-Day Service: $150</li>
-                </ul>
+                <Link 
+                  href="/pricing"
+                  className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors"
+                >
+                  View Pricing & Service Options
+                </Link>
               </CardContent>
             </Card>
 
@@ -264,6 +269,7 @@ export default function ContactPage() {
           </div>
         </div>
       </main>
+      <Footer />
     </>
   );
 }

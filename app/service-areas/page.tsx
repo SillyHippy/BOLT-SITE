@@ -198,7 +198,7 @@ export default function ServiceAreasHub() {
               <div className="text-center p-6 bg-orange-50 rounded-lg">
                 <Clock className="w-12 h-12 text-orange-600 mx-auto mb-4" />
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Service Speed</h3>
-                <p className="text-gray-700">$60 standard service, $100 rush, $150 same-day available throughout entire state with consistent pricing statewide.</p>
+                <p className="text-gray-700">Standard, rush, and same-day service available throughout entire state with consistent professional standards statewide. <Link href="/pricing" className="text-blue-600 hover:text-blue-800 font-medium">View pricing options →</Link></p>
               </div>
             </div>
           </div>
@@ -265,7 +265,7 @@ export default function ServiceAreasHub() {
             </div>
             <div className="text-center mt-8">
               <p className="text-gray-600">
-                Plus dozens of smaller communities, rural areas, and unincorporated locations throughout our 40-mile service radius.
+                Plus dozens of smaller communities, rural areas, and unincorporated locations throughout all 77 Oklahoma counties.
               </p>
             </div>
           </div>
@@ -295,8 +295,8 @@ export default function ServiceAreasHub() {
               </div>
               <div className="text-center">
                 <Clock className="w-12 h-12 text-blue-600 mx-auto mb-4" />
-                <h3 className="font-bold text-gray-900 mb-2">Unified Pricing</h3>
-                <p className="text-gray-600">Consistent $60 standard, $100 rush, $150 same-day pricing throughout entire service area.</p>
+                <h3 className="font-bold text-gray-900 mb-2">Transparent Pricing</h3>
+                <p className="text-gray-600">Consistent professional rates throughout entire state. <Link href="/pricing" className="text-blue-600 hover:text-blue-800 font-medium">View our pricing structure →</Link></p>
               </div>
             </div>
           </div>
@@ -309,7 +309,7 @@ export default function ServiceAreasHub() {
               Find Your Service Area
             </h2>
             <p className="text-xl text-gray-700 mb-8">
-              Not sure if we serve your location? We cover a 40-mile radius around Tulsa including urban, suburban, and rural areas across 9 Oklahoma counties.
+              Not sure if we serve your location? We provide statewide coverage throughout all of Oklahoma including urban, suburban, and rural areas across all 77 counties.
             </p>
             <div className="bg-gray-50 p-8 rounded-lg">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Areas We Serve Include:</h3>
