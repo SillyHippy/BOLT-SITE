@@ -21,8 +21,8 @@ export default function GoogleMapsEmbed({
   // URL encode the search query
   const encodedQuery = encodeURIComponent(searchQuery);
   
-  // Google Maps embed URL
-  const embedUrl = `https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dRWTU9yKLBOGFY&q=${encodedQuery}&zoom=11`;
+  // Google Maps iframe URL (no API key required)
+  const embedUrl = `https://www.google.com/maps?q=${encodedQuery}&hl=en&z=11&output=embed`;
 
   const mapTitle = title || `Map of ${countyName} - Process Server Service Area`;
 
