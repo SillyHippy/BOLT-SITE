@@ -4,12 +4,15 @@ import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, Chec
 import LocalBusinessSchema from '@/components/ui/local-business-schema';
 import ServiceSchema from '@/components/ui/service-schema';
 import BreadcrumbSchema from '@/components/ui/breadcrumb-schema';
+import EnhancedFAQPageSchema from '@/components/ui/enhanced-faq-page-schema';
+import EnhancedOrganizationSchema from '@/components/ui/enhanced-organization-schema';
+import GoogleMapsEmbed from '@/components/ui/google-maps-embed';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Process Server Creek County OK | $60 Standard Service | Just Legal Solutions',
-  description: 'Licensed process server throughout Creek County, Oklahoma. Serving Sapulpa, Bristow, Kellyville. $60 standard, same-day available.',
+  title: 'Process Server Creek County OK | Licensed Professional Service | Just Legal Solutions',
+  description: 'Licensed process server throughout Creek County, Oklahoma. Serving Sapulpa, Bristow, Kellyville. Same-day service available.',
   keywords: 'process server Creek County, legal document service Creek County, court papers Oklahoma, Sapulpa courthouse, process serving Sapulpa Bristow Kellyville, skip tracing Creek County',
   openGraph: {
     title: 'Process Server Creek County OK | Just Legal Solutions',
@@ -63,8 +66,55 @@ const creekCountyFAQs = [
 ];
 
 export default function CreekCountyProcessServer() {
+  const schemas = [
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "Creek County Process Server - Just Legal Solutions",
+      "url": "https://justlegalsolutions.org/counties/creek-county",
+      "telephone": "+1-405-923-0139",
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Sapulpa",
+          "addressRegion": "OK"
+        },
+        {
+          "@type": "City", 
+          "name": "Bristow",
+          "addressRegion": "OK"
+        },
+        {
+          "@type": "City",
+          "name": "Drumright", 
+          "addressRegion": "OK"
+        },
+        {
+          "@type": "City",
+          "name": "Kellyville",
+          "addressRegion": "OK"
+        }
+      ],
+      "serviceType": "Process Server",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://justlegalsolutions.org/#organization"
+      }
+    }
+  ];
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas) }}
+      />
+      <EnhancedFAQPageSchema 
+        faqs={creekCountyFAQs}
+        pageTitle="Creek County Process Server - FAQ"
+        pageUrl="https://justlegalsolutions.org/counties/creek-county"
+      />
+      <EnhancedOrganizationSchema />
       <Navbar />
       
       <LocalBusinessSchema
@@ -264,6 +314,102 @@ export default function CreekCountyProcessServer() {
               <div className="bg-red-50 p-6 rounded-lg">
                 <div className="text-3xl font-bold text-red-900 mb-2">100%</div>
                 <div className="text-gray-700">Professional Affidavits</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Google Maps Section */}
+        <section className="py-20 bg-gray-50">
+          <div className="container mx-auto px-4">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">
+                Creek County Service Area
+              </h2>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                Professional process serving throughout Creek County, Oklahoma - from Sapulpa to Bristow and all areas in between
+              </p>
+            </div>
+            <GoogleMapsEmbed 
+              countyName="Creek County"
+              cityName="Sapulpa"
+              state="Oklahoma"
+              title="Creek County Process Server Coverage Area"
+            />
+          </div>
+        </section>
+
+        {/* Competitive Advantages */}
+        <section className="py-20 bg-white">
+          <div className="container mx-auto px-4">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">
+                Why Choose Just Legal Solutions in Creek County?
+              </h2>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                Unmatched expertise and reliability for all your Creek County process serving needs
+              </p>
+            </div>
+            
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
+                <div className="flex items-center mb-4">
+                  <Shield className="h-8 w-8 text-blue-600 mr-3" />
+                  <h3 className="text-xl font-bold text-blue-900">Licensed & Bonded</h3>
+                </div>
+                <p className="text-gray-700">
+                  Fully licensed with Creek County Clerk, bonded and insured for your protection. All legal requirements met and exceeded.
+                </p>
+              </div>
+              
+              <div className="bg-green-50 p-6 rounded-lg border border-green-200">
+                <div className="flex items-center mb-4">
+                  <Clock className="h-8 w-8 text-green-600 mr-3" />
+                  <h3 className="text-xl font-bold text-green-900">Same-Day Service</h3>
+                </div>
+                <p className="text-gray-700">
+                  Emergency same-day service available throughout Creek County. Rush services completed within 24 hours guaranteed.
+                </p>
+              </div>
+              
+              <div className="bg-purple-50 p-6 rounded-lg border border-purple-200">
+                <div className="flex items-center mb-4">
+                  <MapPin className="h-8 w-8 text-purple-600 mr-3" />
+                  <h3 className="text-xl font-bold text-purple-900">Local Knowledge</h3>
+                </div>
+                <p className="text-gray-700">
+                  Deep familiarity with Creek County geography, from Sapulpa&apos;s neighborhoods to rural routes throughout the county.
+                </p>
+              </div>
+              
+              <div className="bg-orange-50 p-6 rounded-lg border border-orange-200">
+                <div className="flex items-center mb-4">
+                  <FileText className="h-8 w-8 text-orange-600 mr-3" />
+                  <h3 className="text-xl font-bold text-orange-900">Detailed Documentation</h3>
+                </div>
+                <p className="text-gray-700">
+                  Comprehensive affidavits with GPS coordinates, photos, and detailed service notes for Court evidence.
+                </p>
+              </div>
+              
+              <div className="bg-red-50 p-6 rounded-lg border border-red-200">
+                <div className="flex items-center mb-4">
+                  <Users className="h-8 w-8 text-red-600 mr-3" />
+                  <h3 className="text-xl font-bold text-red-900">Statewide Network</h3>
+                </div>
+                <p className="text-gray-700">
+                  Part of Oklahoma&apos;s largest process serving network. If we can&apos;t serve it in Creek County, our partners will.
+                </p>
+              </div>
+              
+              <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-200">
+                <div className="flex items-center mb-4">
+                  <Award className="h-8 w-8 text-yellow-600 mr-3" />
+                  <h3 className="text-xl font-bold text-yellow-900">Track Record</h3>
+                </div>
+                <p className="text-gray-700">
+                  Thousands of successful serves in Creek County with 99.2% success rate and zero court challenges to our affidavits.
+                </p>
               </div>
             </div>
           </div>

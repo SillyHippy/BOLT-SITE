@@ -4,13 +4,16 @@ import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, Chec
 import LocalBusinessSchema from '@/components/ui/local-business-schema';
 import ServiceSchema from '@/components/ui/service-schema';
 import BreadcrumbSchema from '@/components/ui/breadcrumb-schema';
+import EnhancedFAQPageSchema from '@/components/ui/enhanced-faq-page-schema';
+import EnhancedOrganizationSchema from '@/components/ui/enhanced-organization-schema';
+import GoogleMapsEmbed from '@/components/ui/google-maps-embed';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Process Server Tulsa County OK | $60 Standard Service | Just Legal Solutions',
-  description: 'Licensed process server throughout Tulsa County, Oklahoma. Serving Tulsa, Broken Arrow, Owasso, Bixby, Jenks, Sand Springs, Glenpool, Collinsville. $60 standard, same-day available.',
-  keywords: 'process server Tulsa County, legal document service Tulsa County, court papers Oklahoma, Tulsa County courthouse, process serving Broken Arrow Owasso Bixby, skip tracing Tulsa County',
+  title: 'Process Server Tulsa County OK | Licensed Professional Service | Just Legal Solutions',
+  description: 'Licensed process server throughout Tulsa County, Oklahoma. Serving Tulsa, Broken Arrow, Owasso, Bixby, Jenks, Sand Springs, Glenpool, Collinsville. Same-day service available.',
+  keywords: 'process server Tulsa County, legal document service Tulsa County, court papers Oklahoma, Tulsa County courthouse, process serving Broken Arrow Owasso Bixby, skip tracing Tulsa County, licensed process server Oklahoma, process server near me Tulsa, Tulsa County process serving, legal papers delivery Tulsa, subpoena service Tulsa County, divorce papers service Tulsa, eviction notice service Oklahoma, civil litigation support Tulsa, process server 74101 74103 74104 74105 74106 74107, legal document delivery Broken Arrow, court filing Tulsa County courthouse, professional process server Oklahoma',
   openGraph: {
     title: 'Process Server Tulsa County OK | Just Legal Solutions',
     description: 'Licensed process server throughout Tulsa County, Oklahoma. Professional legal document service in all cities and towns.',
@@ -126,6 +129,13 @@ export default function TulsaCountyProcessServer() {
     <>
       <Navbar />
       
+      <EnhancedOrganizationSchema countyName="Tulsa County" />
+      <EnhancedFAQPageSchema 
+        faqs={tulsaCountyFAQs} 
+        pageTitle="Tulsa County Process Server FAQs"
+        pageUrl="https://justlegalsolutions.org/counties/tulsa-county" 
+      />
+      
       <LocalBusinessSchema
         name="Just Legal Solutions - Tulsa County Process Server"
         address={{
@@ -143,7 +153,7 @@ export default function TulsaCountyProcessServer() {
         serviceName="Process Server Tulsa County"
         serviceDescription="Professional legal document service throughout Tulsa County, Oklahoma including all cities, towns, and unincorporated areas with same-day service available."
         serviceArea="Tulsa County, Oklahoma"
-        priceRange="$60-$150"
+        priceRange="$$"
         serviceType="Legal Services"
       />
       
@@ -233,6 +243,33 @@ export default function TulsaCountyProcessServer() {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Service Area Map */}
+        <section className="py-16 bg-gray-50">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">
+                Our Tulsa County Service Area
+              </h2>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                Professional process serving throughout all of Tulsa County including urban, suburban, and rural areas. 
+                Click on the map to explore our complete service coverage.
+              </p>
+            </div>
+            <div className="max-w-4xl mx-auto">
+              <GoogleMapsEmbed 
+                countyName="Tulsa County"
+                cityName="Tulsa"
+                title="Tulsa County Process Server Service Area"
+              />
+            </div>
+            <div className="text-center mt-8">
+              <p className="text-gray-600">
+                <strong>Complete Coverage:</strong> Tulsa • Broken Arrow • Owasso • Bixby • Jenks • Sand Springs • Glenpool • Collinsville
+              </p>
             </div>
           </div>
         </section>
@@ -370,6 +407,103 @@ export default function TulsaCountyProcessServer() {
                 <Building2 className="w-12 h-12 text-blue-600 mx-auto mb-4" />
                 <h3 className="font-bold text-gray-900 mb-2">Courthouse Expertise</h3>
                 <p className="text-gray-600">Deep knowledge of Tulsa County Courthouse procedures and all municipal court systems.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Competitive Advantages */}
+        <section className="py-16 bg-blue-50">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">
+                Why Tulsa County Attorneys Choose Just Legal Solutions
+              </h2>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                Unlike other process servers in Tulsa County, we combine technology, local expertise, and professional standards to deliver superior results.
+              </p>
+            </div>
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-6">Our Competitive Edge</h3>
+                <div className="space-y-6">
+                  <div className="flex items-start gap-4">
+                    <div className="flex-shrink-0 w-8 h-8 bg-green-500 rounded-full flex items-center justify-center">
+                      <CheckCircle className="w-5 h-5 text-white" />
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-gray-900 mb-1">Real-Time GPS Tracking</h4>
+                      <p className="text-gray-600">Unlike traditional process servers, we provide real-time location updates and progress tracking.</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-4">
+                    <div className="flex-shrink-0 w-8 h-8 bg-green-500 rounded-full flex items-center justify-center">
+                      <CheckCircle className="w-5 h-5 text-white" />
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-gray-900 mb-1">24/7 Emergency Service</h4>
+                      <p className="text-gray-600">When other companies are closed, we&apos;re available for urgent legal matters around the clock.</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-4">
+                    <div className="flex-shrink-0 w-8 h-8 bg-green-500 rounded-full flex items-center justify-center">
+                      <CheckCircle className="w-5 h-5 text-white" />
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-gray-900 mb-1">Advanced Skip Tracing</h4>
+                      <p className="text-gray-600">Professional investigators with access to databases other process servers don&apos;t have.</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-4">
+                    <div className="flex-shrink-0 w-8 h-8 bg-green-500 rounded-full flex items-center justify-center">
+                      <CheckCircle className="w-5 h-5 text-white" />
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-gray-900 mb-1">Local Courthouse Knowledge</h4>
+                      <p className="text-gray-600">Deep relationships with Tulsa County Clerk staff and understanding of local court procedures.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-white p-8 rounded-lg shadow-lg">
+                <h3 className="text-xl font-bold text-gray-900 mb-6 text-center">Process Server Comparison</h3>
+                <div className="space-y-4">
+                  <div className="flex justify-between items-center py-2 border-b">
+                    <span className="text-gray-600">Same-Day Service</span>
+                    <div className="flex gap-4">
+                      <span className="text-green-600 font-semibold">✓ Us</span>
+                      <span className="text-red-500">✗ Others</span>
+                    </div>
+                  </div>
+                  <div className="flex justify-between items-center py-2 border-b">
+                    <span className="text-gray-600">GPS Tracking</span>
+                    <div className="flex gap-4">
+                      <span className="text-green-600 font-semibold">✓ Us</span>
+                      <span className="text-red-500">✗ Others</span>
+                    </div>
+                  </div>
+                  <div className="flex justify-between items-center py-2 border-b">
+                    <span className="text-gray-600">24/7 Availability</span>
+                    <div className="flex gap-4">
+                      <span className="text-green-600 font-semibold">✓ Us</span>
+                      <span className="text-red-500">✗ Others</span>
+                    </div>
+                  </div>
+                  <div className="flex justify-between items-center py-2 border-b">
+                    <span className="text-gray-600">Digital Affidavits</span>
+                    <div className="flex gap-4">
+                      <span className="text-green-600 font-semibold">✓ Us</span>
+                      <span className="text-gray-400">△ Some</span>
+                    </div>
+                  </div>
+                  <div className="flex justify-between items-center py-2">
+                    <span className="text-gray-600">County-Wide Coverage</span>
+                    <div className="flex gap-4">
+                      <span className="text-green-600 font-semibold">✓ Us</span>
+                      <span className="text-gray-400">△ Limited</span>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
