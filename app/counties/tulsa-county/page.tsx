@@ -3,8 +3,9 @@ import Link from 'next/link';
 import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, CheckCircle, Star, Calendar, FileText, Scale, AlertCircle } from 'lucide-react';
 import LocalBusinessSchema from '@/components/ui/local-business-schema';
 import ServiceSchema from '@/components/ui/service-schema';
-import FAQSchema from '@/components/ui/enhanced-faq-schema';
 import BreadcrumbSchema from '@/components/ui/breadcrumb-schema';
+import { Navbar } from '@/components/ui/navbar';
+import { Footer } from '@/components/ui/footer';
 
 export const metadata: Metadata = {
   title: 'Process Server Tulsa County OK | $60 Standard Service | Just Legal Solutions',
@@ -123,6 +124,8 @@ const tulsaCountyCities = [
 export default function TulsaCountyProcessServer() {
   return (
     <>
+      <Navbar />
+      
       <LocalBusinessSchema
         name="Just Legal Solutions - Tulsa County Process Server"
         address={{
@@ -145,8 +148,6 @@ export default function TulsaCountyProcessServer() {
       />
       
       <BreadcrumbSchema items={breadcrumbItems} />
-      
-      <FAQSchema faqs={tulsaCountyFAQs} pageTitle="Process Server Tulsa County Oklahoma" />
 
       <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
         {/* Hero Section */}
@@ -161,14 +162,13 @@ export default function TulsaCountyProcessServer() {
                 County-Wide Legal Document Service • All Cities & Towns • Professional Excellence
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
-                <div className="flex items-center gap-2 bg-green-600 px-6 py-3 rounded-lg font-semibold">
-                  <DollarSign className="w-5 h-5" />
-                  Standard Service: $60
-                </div>
-                <div className="flex items-center gap-2 bg-orange-600 px-6 py-3 rounded-lg font-semibold">
-                  <Clock className="w-5 h-5" />
-                  Same-Day Available: $150
-                </div>
+                <Link 
+                  href="/pricing" 
+                  className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 px-8 py-4 rounded-lg font-bold text-lg transition-colors"
+                >
+                  <DollarSign className="w-6 h-6" />
+                  View Pricing & Service Options
+                </Link>
               </div>
               <a 
                 href="tel:5393676832" 
@@ -323,57 +323,23 @@ export default function TulsaCountyProcessServer() {
         {/* Services & Pricing Section */}
         <section className="py-16 bg-blue-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-              County-Wide Process Serving Services
-            </h2>
-            <div className="grid md:grid-cols-3 gap-8">
-              {/* Standard Service */}
-              <div className="bg-green-50 border-2 border-green-200 rounded-lg p-8 text-center">
-                <div className="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <DollarSign className="w-8 h-8 text-white" />
-                </div>
-                <h3 className="text-2xl font-bold text-green-800 mb-2">Standard Service</h3>
-                <p className="text-4xl font-bold text-green-600 mb-4">$60</p>
-                <ul className="text-left space-y-2 text-green-700">
-                  <li>• 3-5 business day service</li>
-                  <li>• All cities in Tulsa County</li>
-                  <li>• Professional affidavit included</li>
-                  <li>• Multiple attempt service</li>
-                  <li>• GPS tracking available</li>
-                </ul>
-              </div>
-
-              {/* Rush Service */}
-              <div className="bg-orange-50 border-2 border-orange-200 rounded-lg p-8 text-center">
-                <div className="w-16 h-16 bg-orange-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Clock className="w-8 h-8 text-white" />
-                </div>
-                <h3 className="text-2xl font-bold text-orange-800 mb-2">Rush Service</h3>
-                <p className="text-4xl font-bold text-orange-600 mb-4">$100</p>
-                <ul className="text-left space-y-2 text-orange-700">
-                  <li>• 24-hour service completion</li>
-                  <li>• Priority scheduling</li>
-                  <li>• Immediate status updates</li>
-                  <li>• Professional affidavit</li>
-                  <li>• Skip tracing included</li>
-                </ul>
-              </div>
-
-              {/* Emergency Service */}
-              <div className="bg-red-50 border-2 border-red-200 rounded-lg p-8 text-center">
-                <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <AlertCircle className="w-8 h-8 text-white" />
-                </div>
-                <h3 className="text-2xl font-bold text-red-800 mb-2">Same-Day Service</h3>
-                <p className="text-4xl font-bold text-red-600 mb-4">$150</p>
-                <ul className="text-left space-y-2 text-red-700">
-                  <li>• Same-day completion</li>
-                  <li>• Emergency priority</li>
-                  <li>• Real-time updates</li>
-                  <li>• Weekend availability</li>
-                  <li>• Urgent document filing</li>
-                </ul>
-              </div>
+            <div className="text-center">
+              <h2 className="text-3xl font-bold text-gray-900 mb-6">
+                Professional Process Serving Throughout Tulsa County
+              </h2>
+              <p className="text-xl text-gray-700 mb-8 max-w-3xl mx-auto">
+                Licensed, bonded, and insured process servers covering all cities in Tulsa County including Tulsa, Broken Arrow, Owasso, Bixby, Jenks, Sand Springs, Glenpool, and Collinsville. Same-day service available.
+              </p>
+              <Link 
+                href="/pricing" 
+                className="inline-flex items-center gap-3 bg-blue-600 hover:bg-blue-700 text-white px-10 py-5 rounded-lg text-xl font-bold transition-colors shadow-lg"
+              >
+                <DollarSign className="w-7 h-7" />
+                View Complete Pricing & Service Options
+              </Link>
+              <p className="text-sm text-gray-600 mt-4">
+                Transparent pricing • No hidden fees • Same professional standards county-wide
+              </p>
             </div>
           </div>
         </section>
@@ -483,7 +449,35 @@ export default function TulsaCountyProcessServer() {
             </div>
           </div>
         </section>
+
+        {/* FAQ Section */}
+        <section className="py-16 bg-gray-50">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
+              Frequently Asked Questions - Tulsa County Process Serving
+            </h2>
+            <div className="space-y-8">
+              {tulsaCountyFAQs.map((faq, index) => (
+                <div key={index} className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+                  <h3 className="text-lg font-semibold text-gray-900 mb-3">{faq.question}</h3>
+                  <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
+                </div>
+              ))}
+            </div>
+            <div className="text-center mt-12">
+              <Link 
+                href="/contact" 
+                className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors"
+              >
+                <Phone className="w-5 h-5" />
+                Have More Questions? Contact Us
+              </Link>
+            </div>
+          </div>
+        </section>
       </div>
+      
+      <Footer />
     </>
   );
 }

@@ -3,8 +3,9 @@ import Link from 'next/link';
 import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, CheckCircle, Star, Calendar, FileText, Scale, AlertCircle } from 'lucide-react';
 import LocalBusinessSchema from '@/components/ui/local-business-schema';
 import ServiceSchema from '@/components/ui/service-schema';
-import FAQSchema from '@/components/ui/enhanced-faq-schema';
 import BreadcrumbSchema from '@/components/ui/breadcrumb-schema';
+import { Navbar } from '@/components/ui/navbar';
+import { Footer } from '@/components/ui/footer';
 
 export const metadata: Metadata = {
   title: 'Process Server Creek County OK | $60 Standard Service | Just Legal Solutions',
@@ -64,6 +65,8 @@ const creekCountyFAQs = [
 export default function CreekCountyProcessServer() {
   return (
     <>
+      <Navbar />
+      
       <LocalBusinessSchema
         name="Just Legal Solutions - Creek County Process Server"
         address={{
@@ -86,8 +89,6 @@ export default function CreekCountyProcessServer() {
       />
       
       <BreadcrumbSchema items={breadcrumbItems} />
-      
-      <FAQSchema faqs={creekCountyFAQs} pageTitle="Process Server Creek County Oklahoma" />
 
       <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
         {/* Hero Section */}
@@ -102,14 +103,13 @@ export default function CreekCountyProcessServer() {
                 County-Wide Legal Document Service • All Cities & Towns • Professional Excellence
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
-                <div className="flex items-center gap-2 bg-green-600 px-6 py-3 rounded-lg font-semibold">
-                  <DollarSign className="w-5 h-5" />
-                  Standard Service: $60
-                </div>
-                <div className="flex items-center gap-2 bg-orange-600 px-6 py-3 rounded-lg font-semibold">
-                  <Clock className="w-5 h-5" />
-                  Same-Day Available: $150
-                </div>
+                <Link 
+                  href="/pricing" 
+                  className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 px-8 py-4 rounded-lg font-bold text-lg transition-colors"
+                >
+                  <DollarSign className="w-6 h-6" />
+                  View Pricing & Service Options
+                </Link>
               </div>
               <a 
                 href="tel:5393676832" 
@@ -354,7 +354,35 @@ export default function CreekCountyProcessServer() {
             </div>
           </div>
         </section>
+
+        {/* FAQ Section */}
+        <section className="py-16 bg-gray-50">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
+              Frequently Asked Questions - Creek County Process Serving
+            </h2>
+            <div className="space-y-8">
+              {creekCountyFAQs.map((faq, index) => (
+                <div key={index} className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+                  <h3 className="text-lg font-semibold text-gray-900 mb-3">{faq.question}</h3>
+                  <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
+                </div>
+              ))}
+            </div>
+            <div className="text-center mt-12">
+              <Link 
+                href="/contact" 
+                className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors"
+              >
+                <Phone className="w-5 h-5" />
+                Have More Questions? Contact Us
+              </Link>
+            </div>
+          </div>
+        </section>
 </div>
+      
+      <Footer />
     </>
   );
 }
