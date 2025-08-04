@@ -38,7 +38,7 @@ const breadcrumbItems = [
 const creekCountyFAQs = [
   {
     question: "How much does a process server cost in Creek County?",
-    answer: "Our Creek County process serving starts at $60 for standard service, $100 for rush service, and $150 for same-day emergency service throughout all cities including Sapulpa, Bristow, Kellyville."
+    answer: "We offer competitive rates for Creek County process serving with standard, rush, and same-day emergency service available throughout all cities including Sapulpa, Bristow, Kellyville. Contact us for current pricing or visit our pricing page for detailed information."
   },
   {
     question: "Which cities in Creek County do you serve?",
@@ -249,8 +249,13 @@ export default function CreekCountyProcessServer() {
                 <div className="text-gray-700">Emergency Service Available</div>
               </div>
               <div className="bg-green-50 p-6 rounded-lg">
-                <div className="text-3xl font-bold text-green-900 mb-2">$60</div>
-                <div className="text-gray-700">Starting Price Countywide</div>
+                <Link 
+                  href="/pricing"
+                  className="block text-center hover:bg-green-100 transition-colors rounded-lg"
+                >
+                  <div className="text-3xl font-bold text-green-900 mb-2">Pricing</div>
+                  <div className="text-gray-700">View All Rates →</div>
+                </Link>
               </div>
               <div className="bg-yellow-50 p-6 rounded-lg">
                 <div className="text-3xl font-bold text-yellow-900 mb-2">Licensed</div>

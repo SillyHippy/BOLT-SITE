@@ -38,7 +38,7 @@ const breadcrumbItems = [
 const mayesCountyFAQs = [
   {
     question: "How much does a process server cost in Mayes County?",
-    answer: "Our Mayes County process serving starts at $60 for standard service, $100 for rush service, and $150 for same-day emergency service throughout all cities including Pryor."
+    answer: "We offer competitive rates for Mayes County process serving with standard, rush, and same-day emergency service available throughout all cities including Pryor. Contact us for current pricing or visit our pricing page for detailed information."
   },
   {
     question: "Which cities in Mayes County do you serve?",

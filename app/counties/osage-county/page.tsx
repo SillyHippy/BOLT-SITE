@@ -38,7 +38,7 @@ const breadcrumbItems = [
 const osageCountyFAQs = [
   {
     question: "How much does a process server cost in Osage County?",
-    answer: "Our Osage County process serving starts at $60 for standard service, $100 for rush service, and $150 for same-day emergency service throughout all cities including Pawhuska, Skiatook."
+    answer: "We offer competitive rates for Osage County process serving with standard, rush, and same-day emergency service available throughout all cities including Pawhuska, Skiatook. Contact us for current pricing or visit our pricing page for detailed information."
   },
   {
     question: "Which cities in Osage County do you serve?",

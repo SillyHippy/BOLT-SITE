@@ -38,7 +38,7 @@ const breadcrumbItems = [
 const wagonerCountyFAQs = [
   {
     question: "How much does a process server cost in Wagoner County?",
-    answer: "Our Wagoner County process serving starts at $60 for standard service, $100 for rush service, and $150 for same-day emergency service throughout all cities including Wagoner, Coweta."
+    answer: "We offer competitive rates for Wagoner County process serving with standard, rush, and same-day emergency service available throughout all cities including Wagoner, Coweta. Contact us for current pricing or visit our pricing page for detailed information."
   },
   {
     question: "Which cities in Wagoner County do you serve?",
