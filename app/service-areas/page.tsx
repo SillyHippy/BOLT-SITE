@@ -3,14 +3,16 @@ import Link from 'next/link';
 import { Phone, MapPin, Clock, Search, Star, CheckCircle, Shield, Building2 } from 'lucide-react';
 import LocalBusinessSchema from '@/components/ui/local-business-schema';
 import BreadcrumbSchema from '@/components/ui/breadcrumb-schema';
+import { Navbar } from '@/components/ui/navbar';
+import { Footer } from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Process Server Service Areas Oklahoma | 40-Mile Tulsa Radius | Just Legal Solutions',
-  description: 'Professional process server serving 40-mile radius around Tulsa, Oklahoma. Complete coverage of Tulsa, Creek, Rogers, Wagoner, Washington, Mayes, Osage, Nowata, and Okmulgee counties.',
-  keywords: 'process server Oklahoma, service areas Tulsa, Oklahoma process serving, legal document service Oklahoma, court papers Oklahoma counties, skip tracing Oklahoma',
+  title: 'Process Server Service Areas Oklahoma | Statewide Coverage | Just Legal Solutions',
+  description: 'Professional process server serving statewide throughout Oklahoma. Complete coverage of all 77 counties with same-day service available. Licensed, bonded, and insured statewide.',
+  keywords: 'process server Oklahoma, statewide process serving, Oklahoma process serving, legal document service Oklahoma, court papers Oklahoma counties, skip tracing Oklahoma',
   openGraph: {
-    title: 'Process Server Service Areas Oklahoma | Just Legal Solutions',
-    description: 'Professional process server serving 40-mile radius around Tulsa, Oklahoma. Complete county coverage with same-day service available.',
+    title: 'Process Server Service Areas Oklahoma | Statewide Coverage | Just Legal Solutions',
+    description: 'Professional process server serving statewide throughout all of Oklahoma. Complete county coverage with same-day service available.',
     url: 'https://justlegalsolutions.org/service-areas',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -18,8 +20,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Process Server Service Areas Oklahoma',
-    description: 'Professional process server serving 40-mile radius around Tulsa, Oklahoma.',
+    title: 'Process Server Service Areas Oklahoma | Statewide Coverage',
+    description: 'Professional process server serving statewide throughout all of Oklahoma.',
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/service-areas',
@@ -120,17 +122,19 @@ const majorCities = [
 export default function ServiceAreasHub() {
   return (
     <>
+      <Navbar />
+      
       <LocalBusinessSchema
         name="Just Legal Solutions - Oklahoma Process Server"
         address={{
-          streetAddress: "40-Mile Service Radius",
-          addressLocality: "Tulsa Metro Area",
+          streetAddress: "Statewide Service",
+          addressLocality: "Oklahoma",
           addressRegion: "Oklahoma", 
           postalCode: "74101"
         }}
         phone="(539) 367-6832"
-        description="Professional process server serving 40-mile radius around Tulsa, Oklahoma including all major cities and counties with same-day service available."
-        serviceArea={["Oklahoma", "Tulsa Metro"]}
+        description="Professional process server serving statewide throughout all of Oklahoma including all 77 counties with same-day service available."
+        serviceArea={["Oklahoma", "Statewide"]}
       />
       
       <BreadcrumbSchema items={breadcrumbItems} />
@@ -145,12 +149,12 @@ export default function ServiceAreasHub() {
                 Oklahoma Process Server <span className="text-yellow-400">Service Areas</span>
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-blue-100">
-                40-Mile Radius Coverage • 9 Counties • 50+ Cities • Same-Day Service Available
+                Statewide Coverage • All 77 Counties • 500+ Cities • Same-Day Service Available
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
                 <div className="flex items-center gap-2 bg-green-600 px-6 py-3 rounded-lg font-semibold">
                   <MapPin className="w-5 h-5" />
-                  9 Counties Covered
+                  All 77 Counties Covered
                 </div>
                 <div className="flex items-center gap-2 bg-orange-600 px-6 py-3 rounded-lg font-semibold">
                   <Clock className="w-5 h-5" />
@@ -173,28 +177,28 @@ export default function ServiceAreasHub() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">
-                Complete Oklahoma Legal Document Service Coverage
+                Complete Oklahoma Statewide Legal Document Service Coverage
               </h2>
               <p className="text-xl text-gray-700 max-w-4xl mx-auto">
-                Professional process serving throughout a 40-mile radius of Tulsa, Oklahoma, covering 9 counties and 50+ cities and towns. From the Oil Capital to rural communities, we provide comprehensive legal document service with the same professional standards and competitive pricing.
+                Professional process serving throughout the entire state of Oklahoma, covering all 77 counties and 500+ cities and towns. From Oklahoma City and Tulsa to the smallest rural communities, we provide comprehensive legal document service with the same professional standards and competitive pricing statewide.
               </p>
             </div>
             
             <div className="grid md:grid-cols-3 gap-8 mb-12">
               <div className="text-center p-6 bg-blue-50 rounded-lg">
                 <MapPin className="w-12 h-12 text-blue-600 mx-auto mb-4" />
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Geographic Coverage</h3>
-                <p className="text-gray-700">40-mile radius from Tulsa covering urban centers, suburban communities, and rural areas across 9 Oklahoma counties.</p>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Statewide Coverage</h3>
+                <p className="text-gray-700">Complete Oklahoma coverage including all 77 counties, urban centers, suburban communities, and rural areas throughout the entire state.</p>
               </div>
               <div className="text-center p-6 bg-green-50 rounded-lg">
                 <CheckCircle className="w-12 h-12 text-green-600 mx-auto mb-4" />
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Professional Standards</h3>
-                <p className="text-gray-700">Licensed, bonded, and insured service with 95% success rate and same professional standards in every location.</p>
+                <p className="text-gray-700">Licensed, bonded, and insured statewide service with 95% success rate and same professional standards in every Oklahoma location.</p>
               </div>
               <div className="text-center p-6 bg-orange-50 rounded-lg">
                 <Clock className="w-12 h-12 text-orange-600 mx-auto mb-4" />
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Service Speed</h3>
-                <p className="text-gray-700">$60 standard service, $100 rush, $150 same-day available throughout entire service area with consistent pricing.</p>
+                <p className="text-gray-700">$60 standard service, $100 rush, $150 same-day available throughout entire state with consistent pricing statewide.</p>
               </div>
             </div>
           </div>
@@ -204,7 +208,7 @@ export default function ServiceAreasHub() {
         <section className="py-16 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-              Counties We Serve in Oklahoma
+              Primary Coverage Areas (Plus All 77 Oklahoma Counties)
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {counties.map((county, index) => (
@@ -338,7 +342,7 @@ export default function ServiceAreasHub() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl font-bold mb-8">Ready to Serve Your Legal Documents Anywhere in Oklahoma?</h2>
             <p className="text-xl mb-8 text-blue-100">
-              Professional process serving across 9 counties • 40-mile radius • Same-day service available
+              Professional process serving statewide throughout Oklahoma • All 77 counties • Same-day service available
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
               <a 
@@ -362,6 +366,8 @@ export default function ServiceAreasHub() {
           </div>
         </section>
       </div>
+      
+      <Footer />
     </>
   );
 }
