@@ -645,12 +645,12 @@ export default function WhatIsAProcessServerPage() {
                     <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/seo/bixby-process-server" className="text-blue-600 hover:underline font-medium">Bixby</a></li>
                     <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/seo/sand-springs-process-server" className="text-blue-600 hover:underline font-medium">Sand Springs</a></li>
                     <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/service-areas/sapulpa" className="text-blue-600 hover:underline font-medium">Sapulpa</a></li>
-                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/counties/washington-county" className="text-blue-600 hover:underline font-medium">Bartlesville</a></li>
-                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/service-areas/muskogee" className="text-blue-600 hover:underline font-medium">Muskogee</a></li>
-                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/service-areas/stillwater" className="text-blue-600 hover:underline font-medium">Stillwater</a></li>
-                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/counties/rogers-county" className="text-blue-600 hover:underline font-medium">Claremore</a></li>
-                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/service-areas/okmulgee" className="text-blue-600 hover:underline font-medium">Okmulgee</a></li>
-                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/counties/mayes-county" className="text-blue-600 hover:underline font-medium">Pryor</a></li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/service-areas/bartlesville" className="text-blue-600 hover:underline font-medium">Bartlesville</a></li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/service-areas/catoosa" className="text-blue-600 hover:underline font-medium">Catoosa</a></li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/service-areas/bristow" className="text-blue-600 hover:underline font-medium">Bristow</a></li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/service-areas/claremore" className="text-blue-600 hover:underline font-medium">Claremore</a></li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/service-areas/collinsville" className="text-blue-600 hover:underline font-medium">Collinsville</a></li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/service-areas/pryor" className="text-blue-600 hover:underline font-medium">Pryor</a></li>
                   </ul>
                 </div>
                 
@@ -659,12 +659,11 @@ export default function WhatIsAProcessServerPage() {
                   <p className="text-gray-700 mb-3">Professional process serving throughout all of Oklahoma:</p>
                   <ul className="text-gray-700 space-y-2">
                     <li className="flex items-center"><span className="text-blue-600 mr-2">•</span><strong><a href="/counties/tulsa-county" className="text-blue-600 hover:underline">All 77 Oklahoma Counties</a></strong></li>
-                    <li className="flex items-center"><span className="text-blue-600 mr-2">•</span><a href="/service-areas/oklahoma-city" className="text-blue-600 hover:underline font-medium">Oklahoma City Metro</a></li>
-                    <li className="flex items-center"><span className="text-blue-600 mr-2">•</span><a href="/service-areas/norman" className="text-blue-600 hover:underline font-medium">Norman & Moore</a></li>
-                    <li className="flex items-center"><span className="text-blue-600 mr-2">•</span><a href="/service-areas/lawton" className="text-blue-600 hover:underline font-medium">Lawton & Southwest Oklahoma</a></li>
-                    <li className="flex items-center"><span className="text-blue-600 mr-2">•</span><a href="/service-areas/enid" className="text-blue-600 hover:underline font-medium">Enid & Northwest Oklahoma</a></li>
-                    <li className="flex items-center"><span className="text-blue-600 mr-2">•</span><a href="/service-areas/durant" className="text-blue-600 hover:underline font-medium">Durant & Southeast Oklahoma</a></li>
-                    <li className="flex items-center"><span className="text-blue-600 mr-2">•</span><a href="/service-areas/mcalester" className="text-blue-600 hover:underline font-medium">McAlester & Eastern Oklahoma</a></li>
+                    <li className="flex items-center"><span className="text-blue-600 mr-2">•</span><a href="/service-areas/wagoner" className="text-blue-600 hover:underline font-medium">Wagoner & Creek County</a></li>
+                    <li className="flex items-center"><span className="text-blue-600 mr-2">•</span><a href="/service-areas/skiatook" className="text-blue-600 hover:underline font-medium">Skiatook & Osage County</a></li>
+                    <li className="flex items-center"><span className="text-blue-600 mr-2">•</span><a href="/service-areas/pawhuska" className="text-blue-600 hover:underline font-medium">Pawhuska & Osage County</a></li>
+                    <li className="flex items-center"><span className="text-blue-600 mr-2">•</span><a href="/service-areas/kellyville" className="text-blue-600 hover:underline font-medium">Kellyville & Creek County</a></li>
+                    <li className="flex items-center"><span className="text-blue-600 mr-2">•</span><a href="/service-areas/coweta" className="text-blue-600 hover:underline font-medium">Coweta & Wagoner County</a></li>
                     <li className="flex items-center"><span className="text-blue-600 mr-2">•</span>Rural & Remote Communities</li>
                     <li className="flex items-center"><span className="text-blue-600 mr-2">•</span>Small Towns & Counties</li>
                   </ul>
