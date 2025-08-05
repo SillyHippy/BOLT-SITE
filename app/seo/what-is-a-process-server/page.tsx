@@ -459,7 +459,7 @@ export default function WhatIsAProcessServerPage() {
               
               <div className="bg-blue-50 border-l-4 border-blue-600 p-8 rounded-r-lg mb-8">
                 <p className="text-xl text-gray-700 mb-4 leading-relaxed">
-                  In the legal world, the term <strong>"process server"</strong> is fundamental to our justice system. But what exactly do they do, and why is their role so critical? This comprehensive guide breaks down the responsibilities of a process server and explains their vital importance in the Oklahoma legal system.
+                  In the legal world, the term <strong>&ldquo;process server&rdquo;</strong> is fundamental to our justice system. But what exactly do they do, and why is their role so critical? This comprehensive guide breaks down the responsibilities of a process server and explains their vital importance in the Oklahoma legal system.
                 </p>
               </div>
             </section>
@@ -711,7 +711,7 @@ export default function WhatIsAProcessServerPage() {
               
               <div className="bg-yellow-50 border-l-4 border-yellow-500 p-8 rounded-r-lg">
                 <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                  While the Sheriff's office can serve papers, they are often overburdened with other law enforcement duties. A professional process server's sole focus is serving your documents quickly and correctly with specialized expertise.
+                  While the Sheriff&rsquo;s office can serve papers, they are often overburdened with other law enforcement duties. A professional process server&rsquo;s sole focus is serving your documents quickly and correctly with specialized expertise.
                 </p>
                 
                 <div className="grid lg:grid-cols-2 gap-8">
@@ -749,7 +749,7 @@ export default function WhatIsAProcessServerPage() {
                   
                   <div className="bg-red-50 p-6 rounded-lg border border-red-200">
                     <h4 className="font-bold text-red-800 mb-4 text-xl flex items-center">
-                      ❌ Sheriff's Department Limitations
+                      ❌ Sheriff&rsquo;s Department Limitations
                     </h4>
                     <ul className="text-gray-700 space-y-3">
                       <li className="flex items-start">
