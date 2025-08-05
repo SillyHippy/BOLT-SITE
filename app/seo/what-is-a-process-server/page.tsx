@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
 import Script from 'next/script';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
@@ -131,8 +132,10 @@ const localBusinessSchema = {
   "description": "Professional process server in Tulsa, Oklahoma with 10+ years legal field experience. Licensed and bonded. 24/7 emergency service available throughout Oklahoma.",
   "address": {
     "@type": "PostalAddress",
-    "addressLocality": "Tulsa",
+    "streetAddress": "564 E 138th PL",
+    "addressLocality": "Glenpool",
     "addressRegion": "OK",
+    "postalCode": "74033",
     "addressCountry": "US"
   },
   "areaServed": [
@@ -203,6 +206,22 @@ const localBusinessSchema = {
     {
       "@type": "City",
       "name": "Enid"
+    },
+    {
+      "@type": "City",
+      "name": "Durant"
+    },
+    {
+      "@type": "City",
+      "name": "McAlester"
+    },
+    {
+      "@type": "City",
+      "name": "Pryor"
+    },
+    {
+      "@type": "City",
+      "name": "Okmulgee"
     }
   ],
   "openingHoursSpecification": [
@@ -459,7 +478,7 @@ export default function WhatIsAProcessServerPage() {
               
               <div className="bg-blue-50 border-l-4 border-blue-600 p-8 rounded-r-lg mb-8">
                 <p className="text-xl text-gray-700 mb-4 leading-relaxed">
-                  In the legal world, the term <strong>&ldquo;process server&rdquo;</strong> is fundamental to our justice system. But what exactly do they do, and why is their role so critical? This comprehensive guide breaks down the responsibilities of a process server and explains their vital importance in the Oklahoma legal system.
+                  In the legal world, the term <strong>&ldquo;process server&rdquo;</strong> is fundamental to our justice system. But what exactly do they do, and why is their role so critical? This comprehensive guide breaks down the responsibilities of a <Link href="/process-server-tulsa" className="text-blue-600 hover:underline font-medium">process server in Tulsa</Link> and explains their vital importance in the <Link href="/counties/tulsa-county" className="text-blue-600 hover:underline font-medium">Oklahoma legal system</Link>.
                 </p>
               </div>
             </section>
@@ -618,20 +637,20 @@ export default function WhatIsAProcessServerPage() {
                   <h3 className="font-bold text-green-800 mb-4 text-xl">🚀 Same-Day Service Area (50-Mile Radius)</h3>
                   <p className="text-gray-700 mb-3">Emergency and same-day service available within 50 miles of Tulsa/Glenpool metro area:</p>
                   <ul className="text-gray-700 space-y-2 grid grid-cols-2 gap-x-4">
-                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span>Tulsa</li>
-                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span>Glenpool</li>
-                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span>Broken Arrow</li>
-                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span>Owasso</li>
-                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span>Jenks</li>
-                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span>Bixby</li>
-                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span>Sand Springs</li>
-                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span>Sapulpa</li>
-                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span>Bartlesville</li>
-                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span>Muskogee</li>
-                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span>Stillwater</li>
-                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span>Claremore</li>
-                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span>Okmulgee</li>
-                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span>Pryor</li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/process-server-tulsa" className="text-blue-600 hover:underline font-medium">Tulsa</a></li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/service-areas/glenpool" className="text-blue-600 hover:underline font-medium">Glenpool</a></li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/seo/broken-arrow-process-server" className="text-blue-600 hover:underline font-medium">Broken Arrow</a></li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/seo/owasso-process-server" className="text-blue-600 hover:underline font-medium">Owasso</a></li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/seo/jenks-process-server" className="text-blue-600 hover:underline font-medium">Jenks</a></li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/seo/bixby-process-server" className="text-blue-600 hover:underline font-medium">Bixby</a></li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/seo/sand-springs-process-server" className="text-blue-600 hover:underline font-medium">Sand Springs</a></li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/service-areas/sapulpa" className="text-blue-600 hover:underline font-medium">Sapulpa</a></li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/counties/washington-county" className="text-blue-600 hover:underline font-medium">Bartlesville</a></li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/service-areas/muskogee" className="text-blue-600 hover:underline font-medium">Muskogee</a></li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/service-areas/stillwater" className="text-blue-600 hover:underline font-medium">Stillwater</a></li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/counties/rogers-county" className="text-blue-600 hover:underline font-medium">Claremore</a></li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/service-areas/okmulgee" className="text-blue-600 hover:underline font-medium">Okmulgee</a></li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/counties/mayes-county" className="text-blue-600 hover:underline font-medium">Pryor</a></li>
                   </ul>
                 </div>
                 
@@ -639,13 +658,13 @@ export default function WhatIsAProcessServerPage() {
                   <h3 className="font-bold text-blue-800 mb-4 text-xl">🗺️ Statewide Oklahoma Coverage</h3>
                   <p className="text-gray-700 mb-3">Professional process serving throughout all of Oklahoma:</p>
                   <ul className="text-gray-700 space-y-2">
-                    <li className="flex items-center"><span className="text-blue-600 mr-2">•</span><strong>All 77 Oklahoma Counties</strong></li>
-                    <li className="flex items-center"><span className="text-blue-600 mr-2">•</span>Oklahoma City Metro</li>
-                    <li className="flex items-center"><span className="text-blue-600 mr-2">•</span>Norman & Moore</li>
-                    <li className="flex items-center"><span className="text-blue-600 mr-2">•</span>Lawton & Southwest Oklahoma</li>
-                    <li className="flex items-center"><span className="text-blue-600 mr-2">•</span>Enid & Northwest Oklahoma</li>
-                    <li className="flex items-center"><span className="text-blue-600 mr-2">•</span>Durant & Southeast Oklahoma</li>
-                    <li className="flex items-center"><span className="text-blue-600 mr-2">•</span>McAlester & Eastern Oklahoma</li>
+                    <li className="flex items-center"><span className="text-blue-600 mr-2">•</span><strong><a href="/counties/tulsa-county" className="text-blue-600 hover:underline">All 77 Oklahoma Counties</a></strong></li>
+                    <li className="flex items-center"><span className="text-blue-600 mr-2">•</span><a href="/service-areas/oklahoma-city" className="text-blue-600 hover:underline font-medium">Oklahoma City Metro</a></li>
+                    <li className="flex items-center"><span className="text-blue-600 mr-2">•</span><a href="/service-areas/norman" className="text-blue-600 hover:underline font-medium">Norman & Moore</a></li>
+                    <li className="flex items-center"><span className="text-blue-600 mr-2">•</span><a href="/service-areas/lawton" className="text-blue-600 hover:underline font-medium">Lawton & Southwest Oklahoma</a></li>
+                    <li className="flex items-center"><span className="text-blue-600 mr-2">•</span><a href="/service-areas/enid" className="text-blue-600 hover:underline font-medium">Enid & Northwest Oklahoma</a></li>
+                    <li className="flex items-center"><span className="text-blue-600 mr-2">•</span><a href="/service-areas/durant" className="text-blue-600 hover:underline font-medium">Durant & Southeast Oklahoma</a></li>
+                    <li className="flex items-center"><span className="text-blue-600 mr-2">•</span><a href="/service-areas/mcalester" className="text-blue-600 hover:underline font-medium">McAlester & Eastern Oklahoma</a></li>
                     <li className="flex items-center"><span className="text-blue-600 mr-2">•</span>Rural & Remote Communities</li>
                     <li className="flex items-center"><span className="text-blue-600 mr-2">•</span>Small Towns & Counties</li>
                   </ul>
@@ -653,7 +672,7 @@ export default function WhatIsAProcessServerPage() {
               </div>
               
               <p className="text-center text-gray-700 text-lg">
-                <strong>We serve every city, town, and county in Oklahoma.</strong> Same-day service available within 50 miles of Tulsa/Glenpool. 
+                <strong>We serve every city, town, and county in Oklahoma.</strong> Same-day service available within 50 miles of <Link href="/process-server-tulsa" className="text-blue-600 hover:underline font-medium">Tulsa</Link>/<Link href="/service-areas/glenpool" className="text-blue-600 hover:underline font-medium">Glenpool</Link>. 
                 Standard 24-48 hour service for all other Oklahoma locations.
               </p>
             </section>
