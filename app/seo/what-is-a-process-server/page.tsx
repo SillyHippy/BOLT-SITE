@@ -132,7 +132,6 @@ const localBusinessSchema = {
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Tulsa",
-    "@type": "PostalAddress",
     "addressRegion": "OK",
     "addressCountry": "US"
   },
