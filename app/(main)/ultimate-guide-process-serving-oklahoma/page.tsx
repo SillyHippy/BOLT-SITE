@@ -1,10 +1,77 @@
 import { promises as fs } from 'fs';
 import path from 'path';
+import { Metadata } from 'next';
 import Image from 'next/image';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
 import { Terminal, Book, Users, Briefcase, Award, Scale, Map, Video, User } from 'lucide-react';
 import MinimalSocialProof from '@/components/MinimalSocialProof';
+
+export const metadata: Metadata = {
+  title: 'Ultimate Guide to Process Serving in Oklahoma | Laws, Procedures & Best Practices',
+  description: 'Complete 2025 guide to Oklahoma process serving laws, procedures, and requirements. Expert insights on legal document delivery, affidavits of service, and compliance with Oklahoma statutes.',
+  keywords: [
+    'oklahoma process serving guide',
+    'oklahoma process server laws', 
+    'legal document delivery oklahoma',
+    'oklahoma civil procedure',
+    'process serving requirements oklahoma',
+    'affidavit of service oklahoma',
+    'oklahoma legal statutes process serving',
+    'how to serve legal papers oklahoma',
+    'oklahoma court document delivery',
+    'process server regulations oklahoma',
+    'legal service procedures oklahoma',
+    'oklahoma summons service guide'
+  ],
+  authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
+  creator: 'Just Legal Solutions',
+  publisher: 'Just Legal Solutions',
+  category: 'Legal Education',
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  openGraph: {
+    title: 'Ultimate Guide to Process Serving in Oklahoma | Complete Legal Resource',
+    description: 'Comprehensive 2025 guide to Oklahoma process serving laws, procedures, and best practices. Expert legal insights and professional guidance.',
+    url: 'https://justlegalsolutions.org/ultimate-guide-process-serving-oklahoma',
+    siteName: 'Just Legal Solutions',
+    images: [
+      {
+        url: 'https://www.okbar.org/wp-content/uploads/2019/02/Fotolia_173531621_Subscription_Monthly_M-gavel-books.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Oklahoma Legal Guide - Process Serving Laws and Procedures',
+      },
+    ],
+    locale: 'en_US',
+    type: 'article',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Ultimate Guide to Process Serving in Oklahoma',
+    description: 'Complete guide to Oklahoma process serving laws, procedures, and best practices for 2025.',
+    images: ['https://www.okbar.org/wp-content/uploads/2019/02/Fotolia_173531621_Subscription_Monthly_M-gavel-books.jpg'],
+  },
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/ultimate-guide-process-serving-oklahoma'
+  },
+  other: {
+    'article:published_time': '2024-01-01',
+    'article:modified_time': new Date().toISOString(),
+    'article:author': 'Just Legal Solutions',
+    'article:section': 'Legal Guides',
+    'article:tag': 'oklahoma process serving, legal procedures, civil process'
+  }
+};
 
 // We are keeping the FAQ data directly in this file for simplicity and reliability
 const pageFaqs = [

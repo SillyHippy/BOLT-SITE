@@ -1,6 +1,21 @@
 
+import { Metadata } from 'next';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
+
+export const metadata: Metadata = {
+  title: 'Professional Process Server Directory & Business Verification | Just Legal Solutions',
+  description: 'Verify Just Legal Solutions\' professional credentials and business listings. Trusted Oklahoma process server with established online presence across major business directories and legal platforms.',
+  keywords: 'process server verification oklahoma, just legal solutions directory, business verification tulsa, professional process server credentials, oklahoma legal services verification',
+  robots: {
+    index: false, // This is a utility page, not for search indexing
+    follow: true,  // But allow following links
+    noarchive: true
+  },
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/backlinks'
+  }
+};
 
 // Internal site URLs from sitemap.xml
 const internalUrls = [
