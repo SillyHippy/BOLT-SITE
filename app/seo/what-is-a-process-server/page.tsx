@@ -146,6 +146,10 @@ const localBusinessSchema = {
       "name": "Tulsa"
     },
     {
+      "@type": "City", 
+      "name": "Glenpool"
+    },
+    {
       "@type": "City",
       "name": "Broken Arrow"
     },
@@ -164,6 +168,42 @@ const localBusinessSchema = {
     {
       "@type": "City",
       "name": "Sand Springs"
+    },
+    {
+      "@type": "City",
+      "name": "Sapulpa"
+    },
+    {
+      "@type": "City", 
+      "name": "Bartlesville"
+    },
+    {
+      "@type": "City",
+      "name": "Muskogee"
+    },
+    {
+      "@type": "City",
+      "name": "Stillwater"
+    },
+    {
+      "@type": "City",
+      "name": "Claremore"
+    },
+    {
+      "@type": "City",
+      "name": "Oklahoma City"
+    },
+    {
+      "@type": "City",
+      "name": "Norman"
+    },
+    {
+      "@type": "City",
+      "name": "Lawton"
+    },
+    {
+      "@type": "City",
+      "name": "Enid"
     }
   ],
   "openingHoursSpecification": [
@@ -573,9 +613,49 @@ export default function WhatIsAProcessServerPage() {
                   className="mx-auto rounded-lg shadow-lg"
                 />
               </div>
-              <p className="text-center text-gray-700">
-                We proudly serve all of Oklahoma with primary focus on Tulsa County and surrounding metro areas. 
-                Same-day service available in Tulsa, Broken Arrow, Owasso, Sapulpa, Jenks, Bixby, and Sand Springs.
+              
+              <div className="grid md:grid-cols-2 gap-8 mb-6">
+                <div className="bg-green-50 p-6 rounded-lg border border-green-200">
+                  <h3 className="font-bold text-green-800 mb-4 text-xl">🚀 Same-Day Service Area (50-Mile Radius)</h3>
+                  <p className="text-gray-700 mb-3">Emergency and same-day service available within 50 miles of Tulsa/Glenpool metro area:</p>
+                  <ul className="text-gray-700 space-y-2 grid grid-cols-2 gap-x-4">
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span>Tulsa</li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span>Glenpool</li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span>Broken Arrow</li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span>Owasso</li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span>Jenks</li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span>Bixby</li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span>Sand Springs</li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span>Sapulpa</li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span>Bartlesville</li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span>Muskogee</li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span>Stillwater</li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span>Claremore</li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span>Okmulgee</li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span>Pryor</li>
+                  </ul>
+                </div>
+                
+                <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
+                  <h3 className="font-bold text-blue-800 mb-4 text-xl">🗺️ Statewide Oklahoma Coverage</h3>
+                  <p className="text-gray-700 mb-3">Professional process serving throughout all of Oklahoma:</p>
+                  <ul className="text-gray-700 space-y-2">
+                    <li className="flex items-center"><span className="text-blue-600 mr-2">•</span><strong>All 77 Oklahoma Counties</strong></li>
+                    <li className="flex items-center"><span className="text-blue-600 mr-2">•</span>Oklahoma City Metro</li>
+                    <li className="flex items-center"><span className="text-blue-600 mr-2">•</span>Norman & Moore</li>
+                    <li className="flex items-center"><span className="text-blue-600 mr-2">•</span>Lawton & Southwest Oklahoma</li>
+                    <li className="flex items-center"><span className="text-blue-600 mr-2">•</span>Enid & Northwest Oklahoma</li>
+                    <li className="flex items-center"><span className="text-blue-600 mr-2">•</span>Durant & Southeast Oklahoma</li>
+                    <li className="flex items-center"><span className="text-blue-600 mr-2">•</span>McAlester & Eastern Oklahoma</li>
+                    <li className="flex items-center"><span className="text-blue-600 mr-2">•</span>Rural & Remote Communities</li>
+                    <li className="flex items-center"><span className="text-blue-600 mr-2">•</span>Small Towns & Counties</li>
+                  </ul>
+                </div>
+              </div>
+              
+              <p className="text-center text-gray-700 text-lg">
+                <strong>We serve every city, town, and county in Oklahoma.</strong> Same-day service available within 50 miles of Tulsa/Glenpool. 
+                Standard 24-48 hour service for all other Oklahoma locations.
               </p>
             </section>
 
