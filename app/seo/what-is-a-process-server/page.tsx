@@ -697,7 +697,7 @@ export default function WhatIsAProcessServerPage() {
 
             {/* Professional vs Sheriff Comparison */}
             <section className="mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center">Why Choose a Professional Process Server Over the Sheriff's Department?</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center">Why Choose a Professional Process Server Over the Sheriff&rsquo;s Department?</h2>
               
               <div className="text-center mb-8">
                 <Image 
