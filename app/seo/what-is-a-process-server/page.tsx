@@ -530,7 +530,7 @@ export default function WhatIsAProcessServerPage() {
             <section>
               <h2 className="text-2xl font-bold mt-8 mb-4 text-blue-800">The Core Role: Upholding Due Process</h2>
               <p>
-                A process server is a trained and licensed professional responsible for delivering legal documents to individuals involved in a court case. This act is known as **&quot;service of process.&quot;** Its primary purpose is to satisfy a cornerstone of the American legal system: **due process**. Due process ensures that all parties in a legal action are properly notified, giving them a fair opportunity to respond and present their case.
+                A process server is a trained and licensed professional responsible for delivering legal documents to individuals involved in a court case. This act is known as **&ldquo;service of process.&rdquo;** Its primary purpose is to satisfy a cornerstone of the American legal system: **due process**. Due process ensures that all parties in a legal action are properly notified, giving them a fair opportunity to respond and present their case.
               </p>
               <p>Without proper service of process, a court case cannot legally proceed, and any judgments made could be invalidated.</p>
             </section>
@@ -802,7 +802,7 @@ export default function WhatIsAProcessServerPage() {
                     <div className="text-yellow-500">★★★★★</div>
                     <span className="ml-2 font-semibold text-gray-800">Sarah M., Attorney</span>
                   </div>
-                  <p className="text-gray-700 italic">&quot;Needed divorce papers served urgently before court deadline. Just Legal Solutions completed service same day with professional affidavit. Highly recommend!&quot;</p>
+                  <p className="text-gray-700 italic">&ldquo;Needed divorce papers served urgently before court deadline. Just Legal Solutions completed service same day with professional affidavit. Highly recommend!&rdquo;</p>
                 </div>
                 
                 <div className="bg-white p-6 rounded-lg shadow border-l-4 border-green-500">
@@ -810,7 +810,7 @@ export default function WhatIsAProcessServerPage() {
                     <div className="text-yellow-500">★★★★★</div>
                     <span className="ml-2 font-semibold text-gray-800">Mike R., Property Manager</span>
                   </div>
-                  <p className="text-gray-700 italic">&quot;Outstanding service for eviction notices. Professional, discreet, and always provides proper documentation. Has saved us time and legal headaches.&quot;</p>
+                  <p className="text-gray-700 italic">&ldquo;Outstanding service for eviction notices. Professional, discreet, and always provides proper documentation. Has saved us time and legal headaches.&rdquo;</p>
                 </div>
                 
                 <div className="bg-white p-6 rounded-lg shadow border-l-4 border-purple-500">
@@ -818,7 +818,7 @@ export default function WhatIsAProcessServerPage() {
                     <div className="text-yellow-500">★★★★★</div>
                     <span className="ml-2 font-semibold text-gray-800">Jennifer K., Small Business Owner</span>
                   </div>
-                  <p className="text-gray-700 italic">&quot;Skip tracing services helped locate a defendant who was avoiding service for months. Exceptional investigative skills and persistence.&quot;</p>
+                  <p className="text-gray-700 italic">&ldquo;Skip tracing services helped locate a defendant who was avoiding service for months. Exceptional investigative skills and persistence.&rdquo;</p>
                 </div>
                 
                 <div className="bg-white p-6 rounded-lg shadow border-l-4 border-red-500">
@@ -826,7 +826,7 @@ export default function WhatIsAProcessServerPage() {
                     <div className="text-yellow-500">★★★★★</div>
                     <span className="ml-2 font-semibold text-gray-800">David L., Law Firm Partner</span>
                   </div>
-                  <p className="text-gray-700 italic">&quot;Reliable, professional, and cost-effective. We&apos;ve used Just Legal Solutions for over 50 serves with 100% success rate. Our go-to process server.&quot;</p>
+                  <p className="text-gray-700 italic">&ldquo;Reliable, professional, and cost-effective. We&rsquo;ve used Just Legal Solutions for over 50 serves with 100% success rate. Our go-to process server.&rdquo;</p>
                 </div>
               </div>
             </section>
@@ -850,7 +850,7 @@ export default function WhatIsAProcessServerPage() {
               <div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white p-8 rounded-lg text-center">
                 <h2 className="text-3xl font-bold mb-4">Need a Professional Process Server in Oklahoma?</h2>
                 <p className="text-xl mb-6">
-                  Don&apos;t let improper service invalidate your case. Ensure your legal documents are served correctly and on time with our licensed, experienced team.
+                  Don&rsquo;t let improper service invalidate your case. Ensure your legal documents are served correctly and on time with our licensed, experienced team.
                 </p>
                 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
