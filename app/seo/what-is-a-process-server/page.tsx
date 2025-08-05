@@ -5,7 +5,6 @@ import Link from 'next/link';
 import Script from 'next/script';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
-import EnhancedFAQSchema from '@/components/ui/enhanced-faq-schema';
 import EnhancedBreadcrumbSchema, { VisualBreadcrumbs } from '@/components/ui/enhanced-breadcrumb-schema';
 import ServiceSchema from '@/components/ui/service-schema';
 import ReviewSchema from '@/components/ui/review-schema';
@@ -30,8 +29,25 @@ export const metadata: Metadata = {
     'affidavit of service',
     'hire process server Tulsa',
     'professional process server',
-    'licensed process server Oklahoma'
+    'licensed process server Oklahoma',
+    'process server cost Oklahoma',
+    'emergency process server',
+    'same day process server'
   ],
+  authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
+  creator: 'Just Legal Solutions',
+  publisher: 'Just Legal Solutions',
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
   alternates: {
     canonical: 'https://justlegalsolutions.org/seo/what-is-a-process-server'
   },
@@ -410,6 +426,25 @@ export default function WhatIsAProcessServerPage() {
         loadTime={2.0}
         mobileOptimized={true}
       />
+      <ReviewSchema 
+        businessName="Just Legal Solutions"
+        aggregateRating={5.0}
+        reviewCount={47}
+        reviews={[
+          {
+            author: "Sarah M., Attorney",
+            rating: 5,
+            text: "Needed divorce papers served urgently before court deadline. Just Legal Solutions completed service same day with professional affidavit. Highly recommend!",
+            date: "2024-12-15"
+          },
+          {
+            author: "Mike R., Property Manager", 
+            rating: 5,
+            text: "Outstanding service for eviction notices. Professional, discreet, and always provides proper documentation.",
+            date: "2024-11-28"
+          }
+        ]}
+      />
 
       <Navbar />
       
@@ -461,7 +496,26 @@ export default function WhatIsAProcessServerPage() {
             </div>
           </div>
 
-          <article className="max-w-4xl mx-auto prose prose-lg max-w-none">
+          <article className="max-w-none mx-auto prose prose-lg">
+            
+            {/* Table of Contents for Better Navigation */}
+            <nav className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-12 not-prose">
+              <h2 className="text-xl font-bold text-blue-900 mb-4">📋 Quick Navigation</h2>
+              <div className="grid md:grid-cols-2 gap-4">
+                <ul className="space-y-2 text-sm">
+                  <li><a href="#due-process" className="text-blue-700 hover:underline font-medium">→ What Is Due Process?</a></li>
+                  <li><a href="#workflow" className="text-blue-700 hover:underline font-medium">→ Process Server Workflow</a></li>
+                  <li><a href="#service-areas" className="text-blue-700 hover:underline font-medium">→ Oklahoma Service Areas</a></li>
+                  <li><a href="#document-types" className="text-blue-700 hover:underline font-medium">→ Types of Legal Documents</a></li>
+                </ul>
+                <ul className="space-y-2 text-sm">
+                  <li><a href="#vs-sheriff" className="text-blue-700 hover:underline font-medium">→ Professional vs Sheriff</a></li>
+                  <li><a href="#testimonials" className="text-blue-700 hover:underline font-medium">→ Client Reviews</a></li>
+                  <li><a href="#faq" className="text-blue-700 hover:underline font-medium">→ Frequently Asked Questions</a></li>
+                  <li><a href="/contact" className="text-blue-700 hover:underline font-medium">→ Get a Quote</a></li>
+                </ul>
+              </div>
+            </nav>
             
             {/* Introduction with Due Process Visual */}
             <section className="mb-12">
@@ -547,7 +601,7 @@ export default function WhatIsAProcessServerPage() {
           </section>
 
             <section>
-              <h2 className="text-2xl font-bold mt-8 mb-4 text-blue-800">The Core Role: Upholding Due Process</h2>
+              <h2 id="due-process" className="text-2xl font-bold mt-8 mb-4 text-blue-800">The Core Role: Upholding Due Process</h2>
               <p>
                 A process server is a trained and licensed professional responsible for delivering legal documents to individuals involved in a court case. This act is known as **&ldquo;service of process.&rdquo;** Its primary purpose is to satisfy a cornerstone of the American legal system: **due process**. Due process ensures that all parties in a legal action are properly notified, giving them a fair opportunity to respond and present their case.
               </p>
@@ -555,7 +609,7 @@ export default function WhatIsAProcessServerPage() {
             </section>
 
             {/* Professional Process Server Workflow */}
-            <section className="mb-12">
+            <section className="mb-12" id="workflow">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center voice-optimized">Professional Process Server Workflow</h2>
               
               <div className="text-center mb-8">
@@ -620,7 +674,7 @@ export default function WhatIsAProcessServerPage() {
             </section>
 
             {/* Service Area Map */}
-            <section className="mb-12">
+            <section className="mb-12" id="service-areas">
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Our Oklahoma Service Area</h2>
               <div className="text-center mb-6">
                 <Image 
@@ -677,7 +731,7 @@ export default function WhatIsAProcessServerPage() {
             </section>
 
             {/* Types of Documents with Visual */}
-            <section className="mb-12">
+            <section className="mb-12" id="document-types">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center">Legal Documents We Serve Throughout Oklahoma</h2>
               
               <div className="text-center mb-8">
@@ -714,7 +768,7 @@ export default function WhatIsAProcessServerPage() {
             </section>
 
             {/* Professional vs Sheriff Comparison */}
-            <section className="mb-12">
+            <section className="mb-12" id="vs-sheriff">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center">Why Choose a Professional Process Server Over the Sheriff&rsquo;s Department?</h2>
               
               <div className="text-center mb-8">
@@ -801,7 +855,7 @@ export default function WhatIsAProcessServerPage() {
             </section>
 
             {/* Client Testimonials */}
-            <section className="mb-12">
+            <section className="mb-12" id="testimonials">
               <h2 className="text-2xl font-bold text-gray-900 mb-6">What Our Clients Say</h2>
               
               <div className="text-center mb-6">
@@ -850,7 +904,7 @@ export default function WhatIsAProcessServerPage() {
             </section>
 
             {/* Enhanced FAQ Section */}
-            <section className="mb-12">
+            <section className="mb-12" id="faq">
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Frequently Asked Questions About Process Servers in Oklahoma</h2>
               
               <div className="space-y-6">
