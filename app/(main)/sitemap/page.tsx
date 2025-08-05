@@ -108,7 +108,6 @@ const SitemapPage = () => {
     { url: '/seo/owasso-process-server', label: 'Owasso Process Server SEO' },
     { url: '/seo/process-server-bixby', label: 'Process Server Bixby SEO' },
     { url: '/seo/process-server-broken-arrow', label: 'Process Server Broken Arrow SEO' },
-    { url: '/seo/process-server-fart-town', label: 'Process Server Fart Town' },
     { url: '/seo/sand-springs-process-server', label: 'Sand Springs Process Server SEO' },
     { url: '/seo/tulsa-process-server-comprehensive', label: 'Comprehensive Tulsa Process Server' },
     { url: '/seo/what-is-a-process-server', label: 'What is a Process Server?' },

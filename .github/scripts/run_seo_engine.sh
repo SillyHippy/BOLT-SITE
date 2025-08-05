@@ -2,9 +2,8 @@
 set -e
 
 page_created="false"
-# Test town is at the top to ensure it runs first for testing.
+# Test locations for SEO engine
 locations=(
-  "fart-town,77777"
   "broken-arrow,74012" "bixby,74008" "jenks,74037" "owasso,74055"
   "sand-springs,74063" "sapulpa,74066" "glenpool,74033" "catoosa,74015"
   "collinsville,74021" "skiatook,74070" "coweta,74429" "claremore,74017"
