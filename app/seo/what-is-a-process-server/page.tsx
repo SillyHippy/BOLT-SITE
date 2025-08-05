@@ -175,7 +175,7 @@ const localBusinessSchema = {
     }
   ],
   "serviceType": "Process Server",
-  "priceRange": "$60-$150",
+  "priceRange": "$30-$150",
   "foundingDate": "2025-03",
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
@@ -575,7 +575,7 @@ export default function WhatIsAProcessServerPage() {
               </div>
               <p className="text-center text-gray-700">
                 We proudly serve all of Oklahoma with primary focus on Tulsa County and surrounding metro areas. 
-                Same-day service available in Tulsa, Broken Arrow, Owasso, Jenks, Bixby, and Sand Springs.
+                Same-day service available in Tulsa, Broken Arrow, Owasso, Sapulpa, Jenks, Bixby, and Sand Springs.
               </p>
             </section>
 
@@ -799,6 +799,7 @@ export default function WhatIsAProcessServerPage() {
                 </div>
               </div>
             </section>
+          </article>
         </div>
       </main>
       <Footer />
