@@ -85,22 +85,7 @@ export default function ClickOptimization({
 
   return (
     <>
-      {/* High-CTR Meta Tags */}
-      <meta name="title" content={title} />
-      <meta name="description" content={description} />
-      
-      {/* Emotional CTR Optimization */}
-      <meta property="og:title" content={title} />
-      <meta property="og:description" content={description} />
-      <meta property="og:image" content={image} />
-      <meta property="og:url" content={url} />
-      <meta property="og:type" content="website" />
-      
-      {/* Twitter CTR Optimization */}
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content={title} />
-      <meta name="twitter:description" content={description} />
-      <meta name="twitter:image" content={image} />
+      {/* Schema markup only - meta tags handled by Next.js metadata */}
       
       {/* Enhanced Schema for Rich Results */}
       <script
