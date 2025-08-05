@@ -754,13 +754,13 @@ export default function WhatIsAProcessServerPage() {
 
             {/* Enhanced FAQ Section */}
             <section className="mb-12">
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Frequently Asked Questions</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">Frequently Asked Questions About Process Servers in Oklahoma</h2>
               
               <div className="space-y-6">
-                {comprehensiveFAQs.map((faq, index) => (
-                  <div key={index} className="bg-white border-l-4 border-blue-500 p-6 shadow-sm">
-                    <h3 className="font-bold text-lg text-blue-800 mb-3 voice-optimized">{faq.question}</h3>
-                    <p className="text-gray-700 voice-answer primary-answer">{faq.answer}</p>
+                {faqSchema.mainEntity.map((faq, index) => (
+                  <div key={index} className="bg-white border-l-4 border-blue-500 p-6 shadow-md rounded-r-lg hover:shadow-lg transition">
+                    <h3 className="font-bold text-xl text-blue-800 mb-3 voice-optimized">{faq.name}</h3>
+                    <p className="text-gray-700 leading-relaxed voice-answer primary-answer">{faq.acceptedAnswer.text}</p>
                   </div>
                 ))}
               </div>
