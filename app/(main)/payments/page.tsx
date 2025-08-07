@@ -13,7 +13,7 @@ export default function PaymentsPage() {
         <div className="text-center px-4">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Make a Payment</h1>
           {/* --- EDITED --- Reduced bottom margin (mb-16 to mb-12) */}
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-12">
+          <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
             We offer several convenient ways to pay your invoice. Please note that payment is due on the date specified on the invoice. For our full payment terms, please see our{' '}
             <a href="/pricing#policies" className="text-blue-600 hover:underline font-medium">
               Payment & Late Fee Policy
@@ -21,6 +21,46 @@ export default function PaymentsPage() {
             <br/><br/>
             For new clients, we require payment in advance. If you have any questions about your balance, please contact us.
           </p>
+
+          {/* Trust Badges for Payment Security */}
+          <div className="flex justify-center items-center gap-6 mb-12 flex-wrap">
+            <div className="flex flex-col items-center">
+              <img 
+                src="/badges/privacy-guaranteed-badge.png" 
+                alt="Privacy Guaranteed - Your Information is Protected" 
+                className="w-20 h-20 md:w-24 md:h-24 object-contain"
+                loading="lazy"
+              />
+              <span className="text-xs text-gray-600 mt-1">Privacy Protected</span>
+            </div>
+            <div className="flex flex-col items-center">
+              <img 
+                src="/badges/licensed-bonded-badge.png" 
+                alt="Licensed & Bonded Professional Service" 
+                className="w-20 h-20 md:w-24 md:h-24 object-contain"
+                loading="lazy"
+              />
+              <span className="text-xs text-gray-600 mt-1">Licensed & Bonded</span>
+            </div>
+            <div className="flex flex-col items-center">
+              <img 
+                src="/badges/5-star-google-rating-badge.png" 
+                alt="5 Star Google Rating - Trusted Service" 
+                className="w-20 h-20 md:w-24 md:h-24 object-contain"
+                loading="lazy"
+              />
+              <span className="text-xs text-gray-600 mt-1">5-Star Rated</span>
+            </div>
+            <div className="flex flex-col items-center">
+              <img 
+                src="/badges/secure-payment-processing-badge.png" 
+                alt="Secure Payment Processing with Bank-Level Encryption" 
+                className="w-20 h-20 md:w-24 md:h-24 object-contain"
+                loading="lazy"
+              />
+              <span className="text-xs text-gray-600 mt-1">Secure Payments</span>
+            </div>
+          </div>
         </div>
 
         {/* Payment Options Grid */}
