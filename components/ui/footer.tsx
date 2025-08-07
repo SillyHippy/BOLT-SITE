@@ -2,6 +2,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 
 export function Footer() {
   const [showForm, setShowForm] = useState(false);
@@ -270,6 +271,73 @@ export function Footer() {
                 Payment & Late Fee Policy
               </a>.
             </p>
+          </div>
+        </div>
+
+        {/* Trust & Credentials Section */}
+        <div className="mt-12 pt-8 border-t border-gray-200">
+          <h3 className="text-2xl font-bold text-center mb-6">Trust & Credentials</h3>
+          <div className="flex flex-wrap justify-center items-center gap-6 max-w-4xl mx-auto">
+            <div className="w-28 h-28 md:w-32 md:h-32 flex items-center justify-center">
+              <Image 
+                src="/badges/same-day-service-available-badge.png" 
+                alt="Same Day Service Available - Process Server Oklahoma" 
+                width={112}
+                height={112}
+                className="object-contain hover:scale-105 transition-transform duration-200"
+                title="Same Day Service Available"
+              />
+            </div>
+            <div className="w-28 h-28 md:w-32 md:h-32 flex items-center justify-center">
+              <Image 
+                src="/badges/99-9-percent-success-rate-badge.png" 
+                alt="99.9% Success Rate Process Server" 
+                width={112}
+                height={112}
+                className="object-contain hover:scale-105 transition-transform duration-200"
+                title="99.9% Success Rate"
+              />
+            </div>
+            <div className="w-28 h-28 md:w-32 md:h-32 flex items-center justify-center">
+              <Image 
+                src="/badges/5-star-google-rating-badge.png" 
+                alt="5 Star Google Rating Process Server" 
+                width={112}
+                height={112}
+                className="object-contain hover:scale-105 transition-transform duration-200"
+                title="5 Star Google Rating"
+              />
+            </div>
+            <div className="w-28 h-28 md:w-32 md:h-32 flex items-center justify-center">
+              <Image 
+                src="/badges/fastest-process-server-oklahoma-badge.png" 
+                alt="Fastest Process Server in Oklahoma" 
+                width={112}
+                height={112}
+                className="object-contain hover:scale-105 transition-transform duration-200"
+                title="Fastest Process Server Oklahoma"
+              />
+            </div>
+            <div className="w-28 h-28 md:w-32 md:h-32 flex items-center justify-center">
+              <Image 
+                src="/badges/24-7-emergency-service-badge.png" 
+                alt="24/7 Emergency Service Process Server" 
+                width={112}
+                height={112}
+                className="object-contain hover:scale-105 transition-transform duration-200"
+                title="24/7 Emergency Service"
+              />
+            </div>
+            <div className="w-28 h-28 md:w-32 md:h-32 flex items-center justify-center">
+              <Image 
+                src="/badges/ai-optimized-service-badge.png" 
+                alt="AI-Optimized Process Server Service" 
+                width={112}
+                height={112}
+                className="object-contain hover:scale-105 transition-transform duration-200"
+                title="AI-Optimized Service"
+              />
+            </div>
           </div>
         </div>
 
