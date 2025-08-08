@@ -77,7 +77,7 @@ export default function BusinessSchema() {
       "ratingValue": "4.9",
       "reviewCount": "127",
       "bestRating": "5",
-      "worstRating": "4",
+      "worstRating": "1",
       "description": "Combined reviews from Google, Yelp, Facebook, phone consultations, and direct client feedback"
     },
     "review": [
