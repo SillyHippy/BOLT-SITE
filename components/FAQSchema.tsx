@@ -7,10 +7,18 @@ export default function FAQSchema() {
     "mainEntity": [
       {
         "@type": "Question",
+        "name": "How much experience does Just Legal Solutions have in process serving?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Just Legal Solutions and our professional partner network have over 50 years' combined experience serving legal documents throughout Oklahoma. Our team brings decades of expertise in process serving, court filings, and legal document delivery across all 77 Oklahoma counties."
+        }
+      },
+      {
+        "@type": "Question",
         "name": "How much does process serving cost in Tulsa?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Process serving in Tulsa costs $40-$150 depending on urgency. Standard service (3-5 days) is $40, rush service (1-2 days) is $60, same-day service is $75, and emergency 2-hour service is $100."
+          "text": "Process serving in Tulsa typically costs $30-$200 depending on urgency, and complexity."
         }
       },
       {
