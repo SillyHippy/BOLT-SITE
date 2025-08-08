@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   title: {
     absolute: 'Professional Process Server Tulsa County - Just Legal Solutions Oklahoma'
   },
-  description: 'Expert process serving for Tulsa, Broken Arrow, Sapulpa, Glenpool & Oklahoma. 50+ years combined experience. Same-day, rush & standard service options starting at $60.',
+  description: 'Expert process serving for Tulsa, Broken Arrow, Sapulpa, Glenpool & Oklahoma. 50+ years combined experience. Service rates range from $30 to $200 for urgent matters',
   alternates: {
     canonical: 'https://justlegalsolutions.org/'
   }
