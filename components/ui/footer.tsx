@@ -46,6 +46,13 @@ export function Footer() {
   return (
     <footer className="bg-white" id="contact">
       <div className="max-w-7xl mx-auto px-4 pt-8 pb-6">
+        {/* Experience Trust Badge */}
+        <div className="text-center mb-6">
+          <div className="inline-block bg-gradient-to-r from-blue-100 to-green-100 text-blue-800 font-bold rounded-lg px-6 py-3 shadow-md border border-blue-200">
+            🏆 50+ Years&apos; Combined Experience • Oklahoma&apos;s Trusted Legal Document Experts
+          </div>
+        </div>
+        
         <h2 className="text-3xl font-bold mb-6">GET IN TOUCH</h2>
         <p className="text-gray-600 mb-2">
           For any inquiries, please reach out via phone, text, or email. We&apos;re here to assist you.
