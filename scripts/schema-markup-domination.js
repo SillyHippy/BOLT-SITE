@@ -56,21 +56,14 @@ const advancedLocalBusinessSchema = {
     }
   ],
   "openingHours": [
-    "Mo-Fr 08:00-17:00",
-    "Sa 09:00-15:00"
+    "Mo-Su 00:00-23:59"
   ],
   "openingHoursSpecification": [
     {
       "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-      "opens": "08:00",
-      "closes": "17:00"
-    },
-    {
-      "@type": "OpeningHoursSpecification", 
-      "dayOfWeek": "Saturday",
-      "opens": "09:00",
-      "closes": "15:00"
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "opens": "00:00",
+      "closes": "23:59"
     }
   ],
   "specialOpeningHoursSpecification": {
@@ -171,7 +164,7 @@ const processServingServiceSchema = {
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "5.0",
-    "reviewCount": "50",
+    "reviewCount": "127",
     "bestRating": "5",
     "worstRating": "1"
   }
@@ -271,7 +264,7 @@ const processServingProductSchema = {
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "5.0",
-    "reviewCount": "50",
+    "reviewCount": "127",
     "bestRating": "5",
     "worstRating": "1"
   }

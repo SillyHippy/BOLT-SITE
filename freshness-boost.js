@@ -83,7 +83,7 @@ const freshSchema = {
     "ratingValue": 4.9,
     "reviewCount": Math.floor(127 + (dayOfYear * 0.1))
   },
-  "openingHours": "Mo-Fr 08:00-18:00",
+  "openingHours": "Mo,Tu,We,Th,Fr,Sa,Su 00:00-23:59",
   "availableService": [
     {
       "@type": "Service", 

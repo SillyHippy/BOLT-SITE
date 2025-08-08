@@ -77,14 +77,14 @@ export default function LocalBusinessSchema({
         }
       }))
     },
-    "openingHours": "Mo-Fr 08:00-18:00",
+    "openingHours": "Mo,Tu,We,Th,Fr,Sa,Su 00:00-23:59",
     "currenciesAccepted": "USD",
     "paymentAccepted": "Cash, Credit Card, Check, Online Payment",
-    "priceRange": "$40-$200",
+    "priceRange": "$30-$200",
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "5.0",
-      "reviewCount": "25",
+      "reviewCount": "127",
       "bestRating": "5",
       "worstRating": "1"
     },
@@ -158,8 +158,7 @@ export function LocalSEOSchema({ city, service }: { city?: string; service?: str
       "longitude": city === "Tulsa" ? "-95.9928" : "-95.8395"
     },
     "openingHours": [
-      "Mo-Fr 08:00-17:00",
-      "Sa 09:00-14:00"
+      "Mo-Su 00:00-23:59"
     ],
     "serviceArea": {
       "@type": "GeoCircle",

@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import { CreditCard, DollarSign, ArrowRight } from 'lucide-react';
 
 export { metadata } from './metadata';
@@ -25,38 +26,42 @@ export default function PaymentsPage() {
           {/* Trust Badges for Payment Security */}
           <div className="flex justify-center items-center gap-6 mb-12 flex-wrap">
             <div className="flex flex-col items-center">
-              <img 
+              <Image 
                 src="/badges/privacy-guaranteed-badge.png" 
                 alt="Privacy Guaranteed - Your Information is Protected" 
+                width={96}
+                height={96}
                 className="w-20 h-20 md:w-24 md:h-24 object-contain"
-                loading="lazy"
               />
               <span className="text-xs text-gray-600 mt-1">Privacy Protected</span>
             </div>
             <div className="flex flex-col items-center">
-              <img 
+              <Image 
                 src="/badges/licensed-bonded-badge.png" 
                 alt="Licensed & Bonded Professional Service" 
+                width={96}
+                height={96}
                 className="w-20 h-20 md:w-24 md:h-24 object-contain"
-                loading="lazy"
               />
               <span className="text-xs text-gray-600 mt-1">Licensed & Bonded</span>
             </div>
             <div className="flex flex-col items-center">
-              <img 
+              <Image 
                 src="/badges/5-star-google-rating-badge.png" 
                 alt="5 Star Google Rating - Trusted Service" 
+                width={96}
+                height={96}
                 className="w-20 h-20 md:w-24 md:h-24 object-contain"
-                loading="lazy"
               />
               <span className="text-xs text-gray-600 mt-1">5-Star Rated</span>
             </div>
             <div className="flex flex-col items-center">
-              <img 
+              <Image 
                 src="/badges/secure-payment-processing-badge.png" 
                 alt="Secure Payment Processing with Bank-Level Encryption" 
+                width={96}
+                height={96}
                 className="w-20 h-20 md:w-24 md:h-24 object-contain"
-                loading="lazy"
               />
               <span className="text-xs text-gray-600 mt-1">Secure Payments</span>
             </div>

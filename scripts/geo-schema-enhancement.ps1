@@ -13,7 +13,7 @@ $enhancedLocationSchema = @"
   "@type": "LocalBusiness",
   "name": "Just Legal Solutions",
   "alternateName": "Tulsa Process Server",
-  "description": "Professional process serving and legal document delivery in Tulsa County, Oklahoma",
+  "description": "Professional process serving in $city. Starting $30.",
   "telephone": "(539) 367-6832",
   "email": "info@justlegalsolutions.org",
   "url": "https://justlegalsolutions.org",
@@ -47,7 +47,21 @@ $enhancedLocationSchema = @"
       "sameAs": "https://en.wikipedia.org/wiki/Bixby,_Oklahoma"
     }
   ],
-  "openingHours": "Mo,Tu,We,Th,Fr 08:00-17:00",
+  "openingHours": "Mo-Su 00:00-23:59",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "opens": "00:00",
+      "closes": "23:59",
+      "description": "24/7 Service Available"
+    }
+  ],
+  "additionalProperty": {
+    "@type": "PropertyValue",
+    "name": "Emergency Service",
+    "value": "Available 24/7"
+  },
   "priceRange": "See pricing page",
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
@@ -59,7 +73,7 @@ $enhancedLocationSchema = @"
     "ratingValue": "4.9",
     "bestRating": "5",
     "worstRating": "1",
-    "ratingCount": "47"
+    "ratingCount": "127"
   }
 }
 "@

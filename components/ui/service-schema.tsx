@@ -12,7 +12,7 @@ export default function ServiceSchema({
   serviceName,
   serviceDescription,
   serviceArea,
-  priceRange = "See pricing at justlegalsolutions.org/pricing",
+  priceRange = "$30-$200",
   serviceType = "Process Serving"
 }: ServiceSchemaProps) {
   const serviceSchema = {
@@ -54,9 +54,9 @@ export default function ServiceSchema({
           "itemOffered": {
             "@type": "Service",
             "name": "Standard Process Serving",
-            "description": "Professional legal document delivery within 5-7 business days"
+            "description": "Professional legal document delivery within 5-7 business days. Starting at $30 with bulk pricing and discounts available."
           },
-          "price": "30",
+          "priceRange": "$30-$60",
           "priceCurrency": "USD"
         },
         {
@@ -64,9 +64,9 @@ export default function ServiceSchema({
           "itemOffered": {
             "@type": "Service",
             "name": "Rush Process Serving",
-            "description": "Expedited legal document delivery within 24-48 hours"
+            "description": "Expedited legal document delivery within 24-48 hours. Discounts available for multiple orders."
           },
-          "price": "75",
+          "priceRange": "$60-$100",
           "priceCurrency": "USD"
         },
         {
@@ -74,9 +74,9 @@ export default function ServiceSchema({
           "itemOffered": {
             "@type": "Service", 
             "name": "Same-Day Process Serving",
-            "description": "Emergency legal document delivery within same business day"
+            "description": "Emergency legal document delivery within same business day. Volume discounts available."
           },
-          "price": "100",
+          "priceRange": "$80-$150",
           "priceCurrency": "USD"
         },
         {
@@ -84,9 +84,9 @@ export default function ServiceSchema({
           "itemOffered": {
             "@type": "Service", 
             "name": "Complex/Difficult Serves",
-            "description": "Specialized process serving for challenging cases or hard-to-locate individuals"
+            "description": "Specialized process serving for challenging cases or hard-to-locate individuals. Negotiable pricing based on complexity."
           },
-          "price": "200",
+          "priceRange": "$100-$200",
           "priceCurrency": "USD"
         }
       ]

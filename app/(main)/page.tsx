@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   title: {
     absolute: 'Professional Process Server Tulsa County - Just Legal Solutions Oklahoma'
   },
-  description: 'Expert process serving for Tulsa, Broken Arrow, Sapulpa, Glenpool & Oklahoma. 50+ years combined experience. Service rates range from $30 to $200 for urgent matters',
+  description: 'Expert process serving for Tulsa, Broken Arrow, Sapulpa, Glenpool & Oklahoma. 50+ years combined experience. Process serving starts at $30, with standard, rush and same-day options available',
   alternates: {
     canonical: 'https://justlegalsolutions.org/'
   }
@@ -218,7 +218,7 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Comprehensive Process Serving Solutions Throughout Oklahoma</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Just Legal Solutions provides professional process serving and courier services across Tulsa County and throughout Oklahoma. Our experienced team ensures timely, accurate, and compliant document delivery for law firms, businesses, and individuals with rates ranging from as low as $30 and up to $200 for urgent or complex cases.
+              Just Legal Solutions provides professional process serving and courier services across Tulsa County and throughout Oklahoma. Our experienced team ensures timely, accurate, and compliant document delivery for law firms, businesses, and individuals. Process serving starts at $60 for standard service, with rates up to $200 for urgent or complex cases.
             </p>
           </div>
           

@@ -99,7 +99,7 @@ const faqSchema = {
       "name": "How much does process serving cost in Tulsa, Oklahoma?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Standard service in the Tulsa metro starts around $60. Emergency and same-day service available. Costs depend on urgency, location, and complexity of service."
+        "text": "Service in the Tulsa metro starts from $30 for bulk orders, with standard service at $60. Emergency and same-day service available. Costs depend on urgency, location, and complexity of service."
       }
     },
     {
@@ -414,7 +414,7 @@ export default function WhatIsAProcessServerPage() {
         ]}
         conversationalAnswers={[
           "A process server is a licensed professional who delivers legal documents to ensure due process",
-          "Process serving costs vary by urgency and location, starting around $60 in Tulsa",
+          "Process serving costs vary by urgency and location, starting from $30 for bulk orders and standard service at $60 in Tulsa",
           "Yes, most legal proceedings require professional process service for validity",
           "Standard service takes 24-48 hours, same-day service available for urgent matters"
         ]}
@@ -429,7 +429,7 @@ export default function WhatIsAProcessServerPage() {
       <ReviewSchema 
         businessName="Just Legal Solutions"
         aggregateRating={5.0}
-        reviewCount={47}
+        reviewCount={127}
         reviews={[
           {
             author: "Sarah M., Attorney",

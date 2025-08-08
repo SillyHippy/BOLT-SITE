@@ -18,7 +18,7 @@ export default function FAQSchema() {
         "name": "How much does process serving cost in Tulsa?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Process serving in Tulsa typically costs $30-$200 depending on urgency, and complexity."
+          "text": "Process serving in Tulsa typically costs $30-$200 depending on urgency and complexity. Rates start at $30 for bulk orders and single attempts, with standard service from $60, rush service $100, and same-day service $150."
         }
       },
       {
@@ -42,7 +42,7 @@ export default function FAQSchema() {
         "name": "Do you provide same-day process serving?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes, we offer same-day process serving for $75 throughout Tulsa County. Emergency 2-hour service is available for $100 when you need urgent legal document delivery."
+          "text": "Yes, we offer same-day process serving for $150 throughout Tulsa County. Rush service is available for $100 within 1-2 business days for urgent legal document delivery."
         }
       },
       {

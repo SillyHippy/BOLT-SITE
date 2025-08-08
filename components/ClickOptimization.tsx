@@ -50,7 +50,7 @@ export default function ClickOptimization({
     "availableLanguage": ["English"],
     "currenciesAccepted": "USD",
     "paymentAccepted": ["Cash", "Credit Card", "Check"],
-    "openingHours": "Mo-Fr 08:00-18:00",
+    "openingHours": "Mo,Tu,We,Th,Fr,Sa,Su 00:00-23:59",
     "sameAs": [
       "https://www.facebook.com/justlegalsolutions",
       "https://www.linkedin.com/company/justlegalsolutions"
@@ -63,20 +63,30 @@ export default function ClickOptimization({
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "Same-Day Process Serving",
-            "description": "Urgent document delivery within 24 hours"
+            "name": "Standard Process Serving",
+            "description": "Professional document delivery within 3-5 business days. Starting at $30."
           },
-          "price": "75",
+          "priceRange": "$30-$60",
           "priceCurrency": "USD"
         },
         {
           "@type": "Offer", 
           "itemOffered": {
             "@type": "Service",
-            "name": "Standard Process Serving",
-            "description": "Professional document delivery within 3-5 business days"
+            "name": "Rush Process Serving",
+            "description": "Expedited document delivery within 1-2 business days. Starting at $30."
           },
-          "price": "45",
+          "priceRange": "$30-$100",
+          "priceCurrency": "USD"
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Same-Day Process Serving",
+            "description": "Urgent document delivery within 24 hours. Starting at $30."
+          },
+          "priceRange": "$30-$150",
           "priceCurrency": "USD"
         }
       ]

@@ -37,7 +37,7 @@ export default function ServiceSchema() {
             "name": "Standard Process Serving",
             "description": "Professional document delivery within 3-5 business days"
           },
-          "price": "40",
+          "price": "60",
           "priceCurrency": "USD"
         },
         {
@@ -47,7 +47,7 @@ export default function ServiceSchema() {
             "name": "Rush Process Serving",
             "description": "Expedited document delivery within 1-2 business days"
           },
-          "price": "60",
+          "price": "100",
           "priceCurrency": "USD"
         },
         {
@@ -57,7 +57,7 @@ export default function ServiceSchema() {
             "name": "Same-Day Process Serving",
             "description": "Urgent document delivery on the same day"
           },
-          "price": "75",
+          "price": "150",
           "priceCurrency": "USD"
         },
         {
@@ -67,7 +67,7 @@ export default function ServiceSchema() {
             "name": "Emergency Process Serving", 
             "description": "Critical document delivery within 2 hours"
           },
-          "price": "100",
+          "price": "200",
           "priceCurrency": "USD"
         }
       ]
