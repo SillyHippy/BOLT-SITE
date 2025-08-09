@@ -16,6 +16,7 @@ import Image from "next/image";
 import Link from "next/link";
 import JsonLd from "@/components/JsonLd";
 import { Button } from "@/components/ui/button";
+import ReviewSchema from '@/components/ReviewSchema';
 
 export default function TulsaProcessServerPage() {
   const faqData = {
@@ -135,6 +136,7 @@ export default function TulsaProcessServerPage() {
   ];
 
   return (
+    <>
     <div className="container mx-auto px-4 py-8">
       <JsonLd data={faqData} />
 
@@ -318,5 +320,7 @@ export default function TulsaProcessServerPage() {
       </section>
 
     </div>
+      <ReviewSchema />
+    </>
   );
 }

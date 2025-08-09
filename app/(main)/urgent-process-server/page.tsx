@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
+import ReviewSchema from '@/components/ReviewSchema';
 
 export const metadata: Metadata = {
   title: 'Emergency Process Server Tulsa | Same-Day Legal Document Delivery | Just Legal Solutions',
@@ -131,7 +132,7 @@ const UrgentProcessServerPage = () => {
           </div>
         </div>
       </main>
-      
+      <ReviewSchema />
     </>
   );
 };

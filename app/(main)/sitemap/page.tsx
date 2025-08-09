@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 import { Map, FileText, ChevronRight } from 'lucide-react';
+import ReviewSchema from '@/components/ReviewSchema';
 
 export const metadata: Metadata = {
   title: 'Sitemap | Just Legal Solutions',
@@ -232,6 +233,7 @@ const SitemapPage = () => {
       </main>
       {/* Organization Schema for SEO */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }} />
+      <ReviewSchema />
     </>
   )
 }

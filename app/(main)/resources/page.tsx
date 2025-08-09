@@ -3,6 +3,7 @@ import React from 'react';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { BookOpen, Gavel, MapPin } from 'lucide-react';
+import ReviewSchema from '@/components/ReviewSchema';
 
 export const metadata: Metadata = {
   title: 'Oklahoma Process Serving Resources & Legal Guides | Just Legal Solutions',
@@ -113,6 +114,7 @@ const ResourcesPage = () => {
         <a href="https://www.oklahoma.gov/" rel="nofollow noopener">Oklahoma.gov - Legal Resources</a>
       </div>
       </div>
+      <ReviewSchema />
     </main>
   );
 };

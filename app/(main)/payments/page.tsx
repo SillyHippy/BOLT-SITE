@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { CreditCard, DollarSign, ArrowRight } from 'lucide-react';
+import ReviewSchema from '@/components/ReviewSchema';
 
 export { metadata } from './metadata';
 
@@ -117,6 +118,7 @@ export default function PaymentsPage() {
 
         </div>
       </div>
+      <ReviewSchema />
     </main>
   );
 }

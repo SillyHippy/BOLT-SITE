@@ -13,6 +13,7 @@ const speakableSchema = {
   'url': 'https://justlegalsolutions.org/seo/legal-posting-process-server'
 };
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 
@@ -33,7 +34,7 @@ const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'LegalService',
   name: 'Just Legal Solutions - Legal Notice Posting Service',
-  description: 'Professional legal notice posting service in Tulsa County, compliant with Oklahoma state law.',
+  description: 'Professional legal notice posting service for Tulsa County when personal service is not possible. Court-approved alternative service including conspicuous posting and certified mailing for evictions, foreclosures, and property notices with full Oklahoma law compliance.',
   url: 'https://justlegalsolutions.org/seo/legal-posting-process-server',
   telephone: '(539) 367-6832',
   email: 'info@justlegalsolutions.org',
@@ -94,6 +95,38 @@ export default function LegalPostingProcessServer() {
           <div className="container mx-auto px-4 py-20 pt-12 text-center">
             <h1 className="text-4xl md:text-5xl font-extrabold">Legal Notice Posting Service</h1>
             <p className="mt-4 text-xl text-indigo-200 max-w-3xl mx-auto">Ensuring Compliance with Oklahoma&apos;s Alternative Service Rules. If you need a process server for legal posting in Tulsa, we can help.</p>
+            
+            {/* SEO Badges */}
+            <div className="flex flex-wrap justify-center gap-4 mt-8">
+              <Image 
+                src="/badges/court-certified-professional-badge.png" 
+                alt="Court Certified Legal Posting Service Professional" 
+                width={100}
+                height={64}
+                className="h-16 w-auto"
+              />
+              <Image 
+                src="/badges/privacy-guaranteed-badge.png" 
+                alt="Privacy Guaranteed Legal Notice Posting Service" 
+                width={100}
+                height={64}
+                className="h-16 w-auto"
+              />
+              <Image 
+                src="/badges/oklahoma-statewide-coverage-badge.png" 
+                alt="Oklahoma Statewide Legal Posting Coverage" 
+                width={100}
+                height={64}
+                className="h-16 w-auto"
+              />
+              <Image 
+                src="/badges/trusted-by-law-firms-badge.png" 
+                alt="Trusted by Law Firms Legal Notice Posting" 
+                width={100}
+                height={64}
+                className="h-16 w-auto"
+              />
+            </div>
           </div>
         </div>
         <main className="container mx-auto px-4 py-16">

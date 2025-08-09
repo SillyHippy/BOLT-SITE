@@ -4,6 +4,7 @@ import Link from 'next/link';
 import BusinessSchema from '@/components/BusinessSchema';
 import ServiceSchema from '@/components/ServiceSchema';
 import FAQSchema from '@/components/FAQSchema';
+import ReviewSchema from '@/components/ReviewSchema';
 
 export const metadata: Metadata = {
   title: 'Tulsa County Process Server & Legal Document Services | Same-Day Delivery',
@@ -280,6 +281,7 @@ export default function TulsaCountyPage() {
       <BusinessSchema />
       <ServiceSchema />
       <FAQSchema />
+      <ReviewSchema />
     </>
   );
 }

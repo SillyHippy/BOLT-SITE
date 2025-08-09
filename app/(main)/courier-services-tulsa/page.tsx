@@ -3,6 +3,7 @@ import React from 'react';
 import Image from 'next/image';
 import { Metadata } from 'next';
 import Link from 'next/link';
+import ReviewSchema from '@/components/ReviewSchema';
 
 export const metadata: Metadata = {
   title: 'Professional Courier Services Tulsa County | Legal Document Delivery',
@@ -203,6 +204,7 @@ export default function CourierServicesTulsaPage() {
           </ul>
         </section>
       </main>
+      <ReviewSchema />
     </>
   );
 }

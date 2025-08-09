@@ -3,6 +3,7 @@
 
 import React, { useEffect } from 'react';
 import { CheckCircle, Truck } from 'lucide-react';
+import ReviewSchema from '@/components/ReviewSchema';
 
 // Data for additional services for easy management
 const additionalServices = [
@@ -33,7 +34,13 @@ export default function PricingPage() {
   }, []); 
 
   return (
-    <main className="min-h-screen bg-white font-sans">
+    <>
+      <ReviewSchema 
+        businessName="Just Legal Solutions - Process Server Pricing"
+        averageRating={4.8}
+        reviewCount={156}
+      />
+      <main className="min-h-screen bg-white font-sans">
       
       <section className="pt-24 pb-10 px-4 bg-gray-100">
         <div className="max-w-7xl mx-auto text-center">
@@ -197,5 +204,6 @@ export default function PricingPage() {
         </div>
       </section>
     </main>
+    </>
   );
 }

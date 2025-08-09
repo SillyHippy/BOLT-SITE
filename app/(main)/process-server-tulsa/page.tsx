@@ -2,6 +2,7 @@
 import React from 'react';
 import Image from 'next/image';
 import FAQSchema from '@/components/FAQSchema';
+import ReviewSchema from '@/components/ReviewSchema';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { Check } from 'lucide-react';
@@ -197,6 +198,7 @@ export default function ProcessServerTulsaPage() {
           'url': 'https://justlegalsolutions.org/process-server-tulsa'
         })
       }} />
+      <ReviewSchema />
     </main>
   );
 }

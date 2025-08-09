@@ -6,6 +6,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
 import { Terminal, Book, Users, Briefcase, Award, Scale, Map, Video, User } from 'lucide-react';
 import MinimalSocialProof from '@/components/MinimalSocialProof';
+import ReviewSchema from '@/components/ReviewSchema';
 
 export const metadata: Metadata = {
   title: 'Ultimate Guide to Process Serving in Oklahoma | Laws, Procedures & Best Practices',
@@ -97,6 +98,7 @@ export default function UltimateGuidePage() {
   const pageTitle = "The Ultimate Guide to Process Serving in Oklahoma";
 
   return (
+    <>
     <div className="container mx-auto px-4 py-8">
       
       <div className="relative w-full h-64 rounded-lg overflow-hidden mb-8">
@@ -206,5 +208,7 @@ export default function UltimateGuidePage() {
 
       </div>
     </div>
+    <ReviewSchema />
+    </>
   );
 }

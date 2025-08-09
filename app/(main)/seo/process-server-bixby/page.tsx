@@ -1,9 +1,10 @@
 import { Metadata } from 'next';
+import Image from 'next/image';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
   title: 'Process Server in Bixby - Just Legal Solutions',
-  description: 'Need a reliable process server in Bixby, Oklahoma? Just Legal Solutions offers fast, professional, and compliant legal document delivery services. Contact us for same-day and rush service.',
+  description: 'Professional process server in Bixby, Oklahoma, the "Garden Spot of Oklahoma" serving both Tulsa and Wagoner counties. Expert delivery of summons, subpoenas, eviction notices, and all legal documents with same-day service available throughout the 74008 area.',
 };
 
 export default function ProcessServerBixbyPage() {
@@ -16,6 +17,32 @@ export default function ProcessServerBixbyPage() {
           <p className="text-lg md:text-xl text-gray-600 mb-8">
             Fast, Reliable, and Professional Legal Document Delivery Services for Bixby (ZIP: 74008).
           </p>
+          
+          {/* SEO Badges */}
+          <div className="flex flex-wrap justify-center gap-4 mb-8">
+            <Image 
+              src="/badges/locally-owned-operated-badge.png" 
+              alt="Locally Owned Process Server Bixby Oklahoma" 
+              width={100}
+              height={48}
+              className="h-12 w-auto"
+            />
+            <Image 
+              src="/badges/same-day-service-available-badge.png" 
+              alt="Same Day Process Service Bixby OK" 
+              width={100}
+              height={48}
+              className="h-12 w-auto"
+            />
+            <Image 
+              src="/badges/99-9-percent-success-rate-badge.png" 
+              alt="99.9% Success Rate Process Server Bixby" 
+              width={100}
+              height={48}
+              className="h-12 w-auto"
+            />
+          </div>
+          
           <a href="tel:5393676832" className="bg-blue-600 text-white px-8 py-4 rounded-lg inline-block font-bold text-lg hover:bg-blue-700 transition-colors">
             Call for a Quote: (539) 367-6832
           </a>
