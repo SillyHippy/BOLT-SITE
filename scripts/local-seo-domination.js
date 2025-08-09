@@ -164,7 +164,7 @@ function generateLocalBusinessSchema() {
       "closes": "23:59",
       "validFrom": "2025-01-01",
       "validThrough": "2025-12-31",
-      "description": "24/7 Emergency Service Available Starting at just $30 - Oklahoma's cheapest, fastest, and best."
+      "description": "24/7 Emergency Service Available - Licensed and bonded legal document delivery."
     },
     "areaServed": serviceAreas.map(area => ({
       "@type": "AdministrativeArea",

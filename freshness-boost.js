@@ -62,7 +62,7 @@ const freshSchema = {
   "name": "Just Legal Solutions",
   "url": "https://justlegalsolutions.org",
   "telephone": "(539) 367-6832",
-  "priceRange": "Starting at $30 - Cheapest in Oklahoma",
+  "priceRange": "Starting at $30 - Professional Oklahoma Service",
   "sameAs": [
     "https://www.facebook.com/justlegalsolutions",
     "https://www.linkedin.com/company/justlegalsolutions",

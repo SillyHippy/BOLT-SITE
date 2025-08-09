@@ -9,8 +9,8 @@ import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: '🚨 Professional Process Server Skiatook OK | 24/7 Service | Just Legal Solutions',
-  description: 'Professional process server in Skiatook, OK! Licensed & bonded. 24/7 emergency service available. Court documents, subpoenas, evictions served professionally. Call (539) 367-6832 now!',
+  title: 'Skiatook Process Server | Legal Document Service | Just Legal Solutions',
+  description: 'Rural process server serving Skiatook and surrounding Osage County. Expert navigation of rural addresses and remote locations.',
   keywords: 'process server skiatook, legal document service skiatook, serve papers skiatook, court documents skiatook, subpoena service skiatook, eviction notice skiatook, emergency process server skiatook, 24/7 process server oklahoma, licensed process server tulsa county, professional process server skiatook',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Professional Process Server Skiatook OK | 24/7 Emergency Service | Just Legal Solutions',
+    title: 'Skiatook Legal Document Service | Osage County Process Server',
     description: 'Professional process server in Skiatook, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability and competitive rates.',
     url: 'https://justlegalsolutions.org/service-areas/skiatook',
     siteName: 'Just Legal Solutions',
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Professional Process Server Skiatook OK | 24/7 Service | Just Legal Solutions',
+    title: 'Skiatook Divorce Papers & Family Court Documents | Legal Service',
     description: 'Licensed process server in Skiatook, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability.',
     images: ['https://justlegalsolutions.org/og-image.png'],
   },

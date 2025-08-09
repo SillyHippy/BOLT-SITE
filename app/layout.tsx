@@ -65,7 +65,7 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://justlegalsolutions.org/',
-    title: 'Just Legal Solutions - Cheapest & Fastest Professional Process Serving in Oklahoma',
+    title: 'Just Legal Solutions - Professional Process Serving in Oklahoma',
     description: 'Expert process serving in Tulsa County, Broken Arrow, and Sapulpa. Same-day, rush, and standard service options available.',
     siteName: 'Just Legal Solutions',
     images: [
@@ -79,7 +79,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Just Legal Solutions - Cheapest & Fastest Professional Process Serving in Oklahoma',
+    title: 'Just Legal Solutions - Professional Process Serving in Oklahoma',
     description: 'Expert process serving in Tulsa County, Broken Arrow, and Sapulpa. Same-day, rush, and standard service options.',
     images: [base64ImageUrl] 
   },
@@ -142,7 +142,7 @@ export default function RootLayout({
         </Script>
         <meta name="ai-search-optimized" content="true" />
         <meta name="conversational-queries" content="process server starting $30 near me, how to serve legal papers in Tulsa, find a process server starting $30 in Tulsa Oklahoma, same day process serving Tulsa, legal document delivery Tulsa, court papers served Tulsa County, process server starting $30 cost Tulsa, emergency process serving Oklahoma" />
-        <meta name="ai-context" content="Cheapest & Fastest Professional process serving in Tulsa, Oklahoma" />
+        <meta name="ai-context" content="Professional process serving in Tulsa, Oklahoma" />
       </head>
       <body className={inter.className} suppressHydrationWarning>
         <div className="ai-conversation-data" style={{ display: 'none' }}>

@@ -9,8 +9,8 @@ import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: '🚨 Professional Process Server Wagoner OK | 24/7 Service | Just Legal Solutions',
-  description: 'Professional process server in Wagoner, OK! Licensed & bonded. 24/7 emergency service available. Court documents, subpoenas, evictions served professionally. Call (539) 367-6832 now!',
+  title: 'Wagoner Process Server | Legal Document Service | Just Legal Solutions',
+  description: 'Process server for Wagoner County and surrounding communities. Reliable service for court documents and legal papers.',
   keywords: 'process server wagoner, legal document service wagoner, serve papers wagoner, court documents wagoner, subpoena service wagoner, eviction notice wagoner, emergency process server wagoner, 24/7 process server oklahoma, licensed process server wagoner county, professional process server wagoner',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Professional Process Server Wagoner OK | 24/7 Emergency Service | Just Legal Solutions',
+    title: 'Wagoner County Legal Papers & Court Documents | Process Server',
     description: 'Professional process server in Wagoner, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability and competitive rates.',
     url: 'https://justlegalsolutions.org/service-areas/wagoner',
     siteName: 'Just Legal Solutions',
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Professional Process Server Wagoner OK | 24/7 Service | Just Legal Solutions',
+    title: 'Wagoner Legal Documents & Court Papers | Same-Day Process Serving',
     description: 'Licensed process server in Wagoner, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability.',
     images: ['https://justlegalsolutions.org/og-image.png'],
   },

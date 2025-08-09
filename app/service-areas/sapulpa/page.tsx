@@ -9,8 +9,8 @@ import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: '🚨 Professional Process Server Sapulpa OK | 24/7 Service | Just Legal Solutions',
-  description: 'Professional process server in Sapulpa, OK! Licensed & bonded. 24/7 emergency service available. Court documents, subpoenas, evictions served professionally. Call (539) 367-6832 now!',
+  title: 'Sapulpa Legal Document Delivery | Process Serving Services | Just Legal Solutions',
+  description: 'Local process server covering Sapulpa and surrounding Creek County areas. Specializing in rural and suburban legal document service.',
   keywords: 'process server sapulpa, legal document service sapulpa, serve papers sapulpa, court documents sapulpa, subpoena service sapulpa, eviction notice sapulpa, emergency process server sapulpa, 24/7 process server oklahoma, licensed process server creek county, professional process server sapulpa',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Professional Process Server Sapulpa OK | 24/7 Emergency Service | Just Legal Solutions',
+    title: 'Sapulpa Process Server | Legal Document Service | Just Legal Solutions',
     description: 'Professional process server in Sapulpa, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability and competitive rates.',
     url: 'https://justlegalsolutions.org/service-areas/sapulpa',
     siteName: 'Just Legal Solutions',
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Professional Process Server Sapulpa OK | 24/7 Service | Just Legal Solutions',
+    title: 'Sapulpa Commercial Litigation & Subpoenas | Creek County Service',
     description: 'Licensed process server in Sapulpa, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability.',
     images: ['https://justlegalsolutions.org/og-image.png'],
   },

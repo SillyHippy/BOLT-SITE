@@ -11,11 +11,11 @@ import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Process Server Tulsa County OK | Licensed Professional Service | Just Legal Solutions',
+  title: 'Tulsa County Legal Document Service | Metropolitan Process Serving | Just Legal Solutions',
   description: 'Licensed process server throughout Tulsa County, Oklahoma. Serving Tulsa, Broken Arrow, Owasso, Bixby, Jenks, Sand Springs, Glenpool, Collinsville. Same-day service available.',
   keywords: 'process server Tulsa County, legal document service Tulsa County, court papers Oklahoma, Tulsa County courthouse, process serving Broken Arrow Owasso Bixby, skip tracing Tulsa County, licensed process server Oklahoma, process server near me Tulsa, Tulsa County process serving, legal papers delivery Tulsa, subpoena service Tulsa County, divorce papers service Tulsa, eviction notice service Oklahoma, civil litigation support Tulsa, process server 74101 74103 74104 74105 74106 74107, legal document delivery Broken Arrow, court filing Tulsa County courthouse, professional process server Oklahoma',
   openGraph: {
-    title: 'Process Server Tulsa County OK | Just Legal Solutions',
+    title: 'Tulsa County Metropolitan Legal Documents | Process Serving Service',
     description: 'Licensed process server throughout Tulsa County, Oklahoma. Professional legal document service in all cities and towns.',
     url: 'https://justlegalsolutions.org/counties/tulsa-county',
     siteName: 'Just Legal Solutions',
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Process Server Tulsa County OK',
+    title: 'Tulsa County Court Documents & Civil Litigation | Metro Area Service',
     description: 'Licensed process server throughout Tulsa County, Oklahoma. Professional service in all cities.',
   },
   alternates: {
@@ -324,7 +324,7 @@ export default function TulsaCountyProcessServer() {
                     <div className="flex items-start gap-3">
                       <Clock className="w-5 h-5 text-blue-600 mt-1" />
                       <div>
-                        <strong>Hours:</strong> Monday-Friday, 8:00 AM - 5:00 PM
+                        <strong>Hours:</strong> 24/7 Emergency Service Available
                       </div>
                     </div>
                     <div className="flex items-start gap-3">

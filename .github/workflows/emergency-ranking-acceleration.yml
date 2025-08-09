@@ -25,14 +25,8 @@ jobs:
         run: |
           echo "🚨 TURBO MODE: EMERGENCY RANKING ACCELERATION ACTIVATED"
           echo "============================================="
-          echo "⚡ TURBO FREQUENCY: Every 10 minutes"
-          echo "🎯 MAXIMUM RANKING VELOCITY ENABLED"
-          
-          # Run rapid content multiplier
-          if [ -f "scripts/rapid-content-multiplier.js" ]; then
-            node scripts/rapid-content-multiplier.js
-            echo "✅ Rapid content boost applied"
-          fi
+          echo "⚡ SITEMAP OPTIMIZATION & SEARCH ENGINE NOTIFICATIONS"
+          echo "🎯 MAXIMUM INDEXING VELOCITY ENABLED"
           
           # Update all Tulsa pages with current timestamp
           current_date=$(date +%Y-%m-%d)

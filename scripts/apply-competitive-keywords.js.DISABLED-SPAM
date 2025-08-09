@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
 /**
- * Apply Competitive Keywords to All Pages
- * Updates existing pages with "cheapest", "fastest", "best" keywords and $30 pricing
+ * Apply Professional Keywords to All Pages
+ * Updates existing pages with "professional", "licensed", "reliable" keywords and $30 pricing
  */
 
 const fs = require('fs');

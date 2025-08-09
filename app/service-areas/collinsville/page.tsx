@@ -9,8 +9,8 @@ import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: '🚨 Professional Process Server Collinsville OK | 24/7 Service | Just Legal Solutions',
-  description: 'Professional process server in Collinsville, OK! Licensed & bonded. 24/7 emergency service available. Court documents, subpoenas, evictions served professionally. Call (539) 367-6832 now!',
+  title: 'Collinsville Process Serving | Legal Document Delivery Oklahoma | Just Legal Solutions',
+  description: 'Process server covering Collinsville and northern Oklahoma areas. Specialized service for small town legal document needs.',
   keywords: 'process server collinsville, legal document service collinsville, serve papers collinsville, court documents collinsville, subpoena service collinsville, eviction notice collinsville, emergency process server collinsville, 24/7 process server oklahoma, licensed process server tulsa county, professional process server collinsville',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Professional Process Server Collinsville OK | 24/7 Emergency Service | Just Legal Solutions',
+    title: 'Collinsville Process Serving | Legal Document Delivery Service',
     description: 'Professional process server in Collinsville, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability and competitive rates.',
     url: 'https://justlegalsolutions.org/service-areas/collinsville',
     siteName: 'Just Legal Solutions',
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Professional Process Server Collinsville OK | 24/7 Service | Just Legal Solutions',
+    title: 'Collinsville Court Documents | Legal Paper Service Oklahoma',
     description: 'Licensed process server in Collinsville, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability.',
     images: ['https://justlegalsolutions.org/og-image.png'],
   },

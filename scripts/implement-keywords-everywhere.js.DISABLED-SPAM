@@ -16,11 +16,11 @@ console.log('==============================================');
 const priceData = JSON.parse(fs.readFileSync('price-domination-data.json', 'utf8'));
 
 // === CORE COMPETITIVE MESSAGING ===
-const competitiveMessages = {
-  priceLeadership: "Oklahoma's cheapest process server starting at just $30",
-  speedLeadership: "Fastest legal document delivery in Tulsa County",
-  qualityLeadership: "Best rated process serving with 4.9+ star reviews",
-  combinedValue: "Cheapest, fastest, and best process server - starting $30"
+const professionalMessages = {
+  priceLeadership: "Oklahoma's professional process server starting at just $30",
+  speedLeadership: "Reliable legal document delivery in Tulsa County",
+  qualityLeadership: "Top rated process serving with 4.9+ star reviews",
+  combinedValue: "Professional, reliable, and trusted process server - starting $30"
 };
 
 // === PAGE ENHANCEMENT TARGETS ===

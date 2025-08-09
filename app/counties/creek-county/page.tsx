@@ -11,11 +11,11 @@ import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Process Server Creek County OK | Licensed Professional Service | Just Legal Solutions',
+  title: 'Sapulpa Courthouse Filing & Bristow Divorce Papers | Creek County | Just Legal Solutions',
   description: 'Licensed process server throughout Creek County, Oklahoma. Serving Sapulpa, Bristow, Kellyville. Same-day service available.',
   keywords: 'process server Creek County, legal document service Creek County, court papers Oklahoma, Sapulpa courthouse, process serving Sapulpa Bristow Kellyville, skip tracing Creek County',
   openGraph: {
-    title: 'Process Server Creek County OK | Just Legal Solutions',
+    title: 'Bristow Skip Tracing & Sapulpa Court Filing | Creek County Services',
     description: 'Licensed process server throughout Creek County, Oklahoma. Professional legal document service in all cities and towns.',
     url: 'https://justlegalsolutions.org/counties/creek-county',
     siteName: 'Just Legal Solutions',
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Process Server Creek County OK',
+    title: 'Kellyville Subpoenas & Sapulpa Eviction Notice Service | Creek County',
     description: 'Licensed process server throughout Creek County, Oklahoma. Professional service in all cities.',
   },
   alternates: {

@@ -10,8 +10,8 @@ import BreadcrumbSchema from '@/components/ui/breadcrumb-schema';
 import GoogleMapsEmbed from '@/components/ui/google-maps-embed';
 
 export const metadata: Metadata = {
-  title: '🚨 Professional Process Server Kellyville OK | 24/7 Service | Just Legal Solutions',
-  description: 'Professional process server in Kellyville, OK! Licensed & bonded. 24/7 emergency service available. Court documents, subpoenas, evictions served professionally. Call (539) 367-6832 now!',
+  title: 'Kellyville Process Server | Legal Document Service | Just Legal Solutions',
+  description: 'Local service covering Kellyville and surrounding Creek County areas. Specialized in rural and small community service.',
   keywords: 'process server kellyville, legal document service kellyville, serve papers kellyville, court documents kellyville, subpoena service kellyville, eviction notice kellyville, emergency process server kellyville, 24/7 process server oklahoma, licensed process server creek county, professional process server kellyville',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Professional Process Server Kellyville OK | 24/7 Emergency Service | Just Legal Solutions',
+    title: 'Kellyville Legal Document Delivery | Creek County Process Server',
     description: 'Professional process server in Kellyville, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability and competitive rates.',
     url: 'https://justlegalsolutions.org/service-areas/kellyville',
     siteName: 'Just Legal Solutions',
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Professional Process Server Kellyville OK | 24/7 Service | Just Legal Solutions',
+    title: 'Kellyville Court Papers & Legal Documents | Creek County',
     description: 'Licensed process server in Kellyville, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability.',
     images: ['https://justlegalsolutions.org/og-image.png'],
   },

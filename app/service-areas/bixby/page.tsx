@@ -9,8 +9,8 @@ import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: '🚨 Professional Process Server Bixby OK | 24/7 Service | Just Legal Solutions',
-  description: 'Professional process server in Bixby, OK! Licensed & bonded. 24/7 emergency service available. Court documents, subpoenas, evictions served professionally. Call (539) 367-6832 now!',
+  title: 'Bixby Process Serving | Civil & Family Court Documents | Just Legal Solutions',
+  description: 'Professional document service in Bixby, Oklahoma. Covering residential and business districts with prompt legal paper delivery.',
   keywords: 'process server bixby, legal document service bixby, serve papers bixby, court documents bixby, subpoena service bixby, eviction notice bixby, emergency process server bixby, 24/7 process server oklahoma, licensed process server tulsa county, professional process server bixby',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Professional Process Server Bixby OK | 24/7 Emergency Service | Just Legal Solutions',
+    title: 'Bixby Civil & Family Court Documents | Process Serving Service',
     description: 'Professional process server in Bixby, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability and competitive rates.',
     url: 'https://justlegalsolutions.org/service-areas/bixby',
     siteName: 'Just Legal Solutions',
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Professional Process Server Bixby OK | 24/7 Service | Just Legal Solutions',
+    title: 'Bixby Court Papers & Legal Documents | 24/7 Process Serving',
     description: 'Licensed process server in Bixby, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability.',
     images: ['https://justlegalsolutions.org/og-image.png'],
   },

@@ -9,8 +9,8 @@ import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: '🚨 Professional Process Server Pawhuska OK | 24/7 Service | Just Legal Solutions',
-  description: 'Professional process server in Pawhuska, OK! Licensed & bonded. 24/7 emergency service available. Court documents, subpoenas, evictions served professionally. Call (539) 367-6832 now!',
+  title: 'Pawhuska Process Server | Legal Document Service | Just Legal Solutions',
+  description: 'Process server covering Pawhuska, Osage County seat. Expert service for tribal lands and rural Oklahoma areas.',
   keywords: 'process server pawhuska, legal document service pawhuska, serve papers pawhuska, court documents pawhuska, subpoena service pawhuska, eviction notice pawhuska, emergency process server pawhuska, 24/7 process server oklahoma, licensed process server osage county, professional process server pawhuska',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Professional Process Server Pawhuska OK | 24/7 Emergency Service | Just Legal Solutions',
+    title: 'Pawhuska Process Server | Osage County Legal Document Service',
     description: 'Professional process server in Pawhuska, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability and competitive rates.',
     url: 'https://justlegalsolutions.org/service-areas/pawhuska',
     siteName: 'Just Legal Solutions',
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Professional Process Server Pawhuska OK | 24/7 Service | Just Legal Solutions',
+    title: 'Pawhuska Legal Documents | Osage County Court Papers',
     description: 'Licensed process server in Pawhuska, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability.',
     images: ['https://justlegalsolutions.org/og-image.png'],
   },

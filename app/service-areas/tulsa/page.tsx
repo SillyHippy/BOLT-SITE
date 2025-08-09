@@ -9,8 +9,8 @@ import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: '🚨 Professional Process Server Tulsa OK | 24/7 Service | Just Legal Solutions',
-  description: 'Professional process server in Tulsa, OK! Licensed & bonded. 24/7 emergency service available. Court documents, subpoenas, evictions served professionally. Call (539) 367-6832 now!',
+  title: 'Tulsa Process Server | Legal Document Service | Just Legal Solutions',
+  description: 'Experienced process server serving Tulsa, Oklahoma\'s largest city. We handle all major court districts and legal firms throughout Tulsa County. Licensed and bonded service.',
   keywords: 'process server tulsa, legal document service tulsa, serve papers tulsa, court documents tulsa, subpoena service tulsa, eviction notice tulsa, emergency process server tulsa, 24/7 process server oklahoma, licensed process server tulsa county, professional process server tulsa',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Professional Process Server Tulsa OK | 24/7 Emergency Service | Just Legal Solutions',
+    title: 'Tulsa County Court Documents & Legal Papers | Process Server',
     description: 'Professional process server in Tulsa, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability and competitive rates.',
     url: 'https://justlegalsolutions.org/service-areas/tulsa',
     siteName: 'Just Legal Solutions',
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Professional Process Server Tulsa OK | 24/7 Service | Just Legal Solutions',
+    title: 'Tulsa Court Papers & Subpoenas | Emergency Process Serving',
     description: 'Licensed process server in Tulsa, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability.',
     images: ['https://justlegalsolutions.org/og-image.png'],
   },

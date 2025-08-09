@@ -9,8 +9,8 @@ import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: '🚨 Professional Process Server Owasso OK | 24/7 Service | Just Legal Solutions',
-  description: 'Professional process server in Owasso, OK! Licensed & bonded. 24/7 emergency service available. Court documents, subpoenas, evictions served professionally. Call (539) 367-6832 now!',
+  title: 'Owasso Court Document Service | Fast Process Serving | Just Legal Solutions',
+  description: 'Process server serving Owasso and northern Tulsa County. Quick response for court documents, subpoenas, and legal notices.',
   keywords: 'process server owasso, legal document service owasso, serve papers owasso, court documents owasso, subpoena service owasso, eviction notice owasso, emergency process server owasso, 24/7 process server oklahoma, licensed process server tulsa county, professional process server owasso',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Professional Process Server Owasso OK | 24/7 Emergency Service | Just Legal Solutions',
+    title: 'Owasso Court Document Service | Fast Process Serving Solutions',
     description: 'Professional process server in Owasso, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability and competitive rates.',
     url: 'https://justlegalsolutions.org/service-areas/owasso',
     siteName: 'Just Legal Solutions',
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Professional Process Server Owasso OK | 24/7 Service | Just Legal Solutions',
+    title: 'Owasso Legal Papers & Divorce Documents | Fast Service',
     description: 'Licensed process server in Owasso, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability.',
     images: ['https://justlegalsolutions.org/og-image.png'],
   },

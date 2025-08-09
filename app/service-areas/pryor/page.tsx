@@ -9,8 +9,8 @@ import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: '🚨 Professional Process Server Pryor OK | 24/7 Service | Just Legal Solutions',
-  description: 'Professional process server in Pryor, OK! Licensed & bonded. 24/7 emergency service available. Court documents, subpoenas, evictions served professionally. Call (539) 367-6832 now!',
+  title: 'Pryor Oklahoma Legal Papers Service | Divorce & Eviction Documents | Just Legal Solutions',
+  description: 'Professional service covering Pryor Creek and Mayes County. Experienced with local court systems and legal procedures.',
   keywords: 'process server pryor, legal document service pryor, serve papers pryor, court documents pryor, subpoena service pryor, eviction notice pryor, emergency process server pryor, 24/7 process server oklahoma, licensed process server mayes county, professional process server pryor',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Professional Process Server Pryor OK | 24/7 Emergency Service | Just Legal Solutions',
+    title: 'Pryor Oklahoma Legal Papers Service | Divorce & Eviction Documents',
     description: 'Professional process server in Pryor, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability and competitive rates.',
     url: 'https://justlegalsolutions.org/service-areas/pryor',
     siteName: 'Just Legal Solutions',
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Professional Process Server Pryor OK | 24/7 Service | Just Legal Solutions',
+    title: 'Pryor Court Documents & Eviction Papers | Mayes County',
     description: 'Licensed process server in Pryor, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability.',
     images: ['https://justlegalsolutions.org/og-image.png'],
   },

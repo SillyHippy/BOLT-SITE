@@ -9,8 +9,8 @@ import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: '🚨 Professional Process Server Glenpool OK | 24/7 Service | Just Legal Solutions',
-  description: 'Professional process server in Glenpool, OK! Licensed & bonded. 24/7 emergency service available. Court documents, subpoenas, evictions served professionally. Call (539) 367-6832 now!',
+  title: 'Glenpool Process Server | Legal Document Service | Just Legal Solutions',
+  description: 'Efficient process server in Glenpool, Oklahoma. Covering this oil industry hub with professional legal document service.',
   keywords: 'process server glenpool, legal document service glenpool, serve papers glenpool, court documents glenpool, subpoena service glenpool, eviction notice glenpool, emergency process server glenpool, 24/7 process server oklahoma, licensed process server tulsa county, professional process server glenpool',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Professional Process Server Glenpool OK | 24/7 Emergency Service | Just Legal Solutions',
+    title: 'Glenpool Court Documents | Tulsa County Process Server Service',
     description: 'Professional process server in Glenpool, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability and competitive rates.',
     url: 'https://justlegalsolutions.org/service-areas/glenpool',
     siteName: 'Just Legal Solutions',
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Professional Process Server Glenpool OK | 24/7 Service | Just Legal Solutions',
+    title: 'Glenpool Legal Papers & Subpoenas | Tulsa County Service',
     description: 'Licensed process server in Glenpool, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability.',
     images: ['https://justlegalsolutions.org/og-image.png'],
   },

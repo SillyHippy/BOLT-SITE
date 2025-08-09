@@ -17,7 +17,7 @@ export default function ClickOptimization({
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
     "name": "Just Legal Solutions - Tulsa Process Server",
-    "description": "Oklahoma's fastest process serving company. Same-day service, professional staff, competitive rates.",
+    "description": "Professional process serving company. Same-day service, licensed staff, competitive rates.",
     "url": url,
     "image": image,
     "telephone": "(539) 367-6832",

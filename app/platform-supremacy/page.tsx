@@ -4,12 +4,12 @@ import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Oklahoma\'s Supreme Process Server - Just Legal Solutions',
-  description: 'Dominating all platforms: Google, AI assistants, voice search, and social media. Same-day service across all 77 Oklahoma counties. Call (539) 367-6832.',
-  keywords: 'oklahoma supreme process server, best process server tulsa, AI voice search optimization',
+  title: 'Oklahoma Process Server - Just Legal Solutions',
+  description: 'Professional process serving across Oklahoma: Google optimization, AI assistants, voice search. Same-day service across all 77 Oklahoma counties. Call (539) 367-6832.',
+  keywords: 'oklahoma process server, professional process server tulsa, legal document delivery',
   openGraph: {
-    title: 'Oklahoma\'s Supreme Process Server - Total Platform Domination',
-    description: 'Fastest response, widest coverage, most advanced technology. Experience supreme process serving.',
+    title: 'Oklahoma Process Server - Professional Legal Services',
+    description: 'Professional response, statewide coverage, advanced technology. Professional process serving.',
     type: 'website',
     url: 'https://justlegalsolutions.org/platform-supremacy'
   }
@@ -21,7 +21,7 @@ export default function PlatformSupremacy() {
       <Navbar />
       <div className="container mx-auto px-4 py-8 mt-12">
         <div className="text-center mb-12">
-          <h1 className="text-5xl font-bold mb-4 text-blue-900">👑 Oklahoma&apos;s Supreme Process Server</h1>
+          <h1 className="text-5xl font-bold mb-4 text-blue-900">👑 Oklahoma&apos;s Professional Process Server</h1>
           <p className="text-2xl text-gray-600">Dominating Every Platform, Delivering Every Time</p>
           <div className="mt-6">
             <a href="tel:5393676832" className="bg-blue-600 text-white px-8 py-4 rounded-lg text-xl font-bold hover:bg-blue-700 mr-4">
@@ -49,7 +49,7 @@ export default function PlatformSupremacy() {
         </div>
         {/* ...existing code... */}
         <div className="bg-gray-50 p-8 rounded-lg mb-12">
-          <h2 className="text-3xl font-bold text-center mb-8">Platform Domination Status</h2>
+          <h2 className="text-3xl font-bold text-center mb-8">Platform Optimization Status</h2>
           <div className="grid md:grid-cols-2 gap-8">
             <div>
               <h3 className="text-xl font-bold mb-4">🔍 Search Engines</h3>
@@ -91,8 +91,8 @@ export default function PlatformSupremacy() {
         </div>
         {/* ...existing code... */}
         <div className="text-center bg-blue-900 text-white p-8 rounded-lg">
-          <h2 className="text-3xl font-bold mb-4">Experience Supreme Service Today</h2>
-          <p className="text-xl mb-6">Join thousands who chose Oklahoma&apos;s supreme process server</p>
+          <h2 className="text-3xl font-bold mb-4">Experience Professional Service Today</h2>
+          <p className="text-xl mb-6">Join thousands who chose Oklahoma&apos;s professional process server</p>
           <div className="space-y-4">
             <p className="text-2xl font-bold">📞 (539) 367-6832</p>
             <p className="text-xl">📧 info@justlegalsolutions.org</p>

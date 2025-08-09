@@ -9,8 +9,8 @@ import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: '🚨 Professional Process Server Jenks OK | 24/7 Service | Just Legal Solutions',
-  description: 'Professional process server in Jenks, OK! Licensed & bonded. 24/7 emergency service available. Court documents, subpoenas, evictions served professionally. Call (539) 367-6832 now!',
+  title: 'Jenks Legal Papers Service | Divorce & Court Documents | Just Legal Solutions',
+  description: 'Dedicated process server for Jenks, OK. Serving this riverside community with reliable legal document delivery services.',
   keywords: 'process server jenks, legal document service jenks, serve papers jenks, court documents jenks, subpoena service jenks, eviction notice jenks, emergency process server jenks, 24/7 process server oklahoma, licensed process server tulsa county, professional process server jenks',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Professional Process Server Jenks OK | 24/7 Emergency Service | Just Legal Solutions',
+    title: 'Jenks Legal Papers Service | Divorce & Court Document Delivery',
     description: 'Professional process server in Jenks, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability and competitive rates.',
     url: 'https://justlegalsolutions.org/service-areas/jenks',
     siteName: 'Just Legal Solutions',
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Professional Process Server Jenks OK | 24/7 Service | Just Legal Solutions',
+    title: 'Jenks Court Documents & Divorce Papers | Process Serving',
     description: 'Licensed process server in Jenks, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability.',
     images: ['https://justlegalsolutions.org/og-image.png'],
   },

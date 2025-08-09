@@ -9,8 +9,8 @@ import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: '🚨 CHEAPEST Process Server Bartlesville OK | Professional Service | Just Legal Solutions',
-  description: 'Professional process server in Bartlesville, OK! Licensed & bonded. Fast, reliable legal document service. Court documents, subpoenas, evictions served professionally. Call (539) 367-6832 now!',
+  title: 'Bartlesville Process Server | Legal Document Service | Just Legal Solutions',
+  description: 'Professional process server in Bartlesville, Washington County. Covering this historic oil city with reliable legal service.',
   keywords: 'process server bartlesville, legal document service bartlesville, serve papers bartlesville, court documents bartlesville, subpoena service bartlesville, eviction notice bartlesville, licensed process server oklahoma, professional process server tulsa county',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Professional Process Server Bartlesville OK | Just Legal Solutions',
+    title: 'Licensed Process Server Bartlesville | Washington County Legal Papers',
     description: 'Professional process server in Bartlesville, Oklahoma. Fast, reliable legal document service with transparent pricing.',
     url: 'https://justlegalsolutions.org/service-areas/bartlesville',
     siteName: 'Just Legal Solutions',
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Professional Process Server Bartlesville OK | Just Legal Solutions',
+    title: 'Bartlesville Legal Document Service | Washington County Process Server',
     description: 'Licensed process server in Bartlesville, Oklahoma. Fast, reliable legal document service with professional standards.',
     images: ['https://justlegalsolutions.org/og-image.png'],
   },

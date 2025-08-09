@@ -98,26 +98,15 @@ export const enhancedLocalBusinessSchema = {
   
   // Enhanced Business Hours
   "openingHours": [
-    "Mo-Fr 08:00-17:00",
-    "Sa 09:00-15:00"
+    "Mo-Su 00:00-23:59"
   ],
   "openingHoursSpecification": [
     {
       "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-      "opens": "08:00",
-      "closes": "17:00"
-    },
-    {
-      "@type": "OpeningHoursSpecification", 
-      "dayOfWeek": "Saturday",
-      "opens": "09:00",
-      "closes": "15:00"
-    },
-    {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": "Sunday",
-      "description": "Emergency Service Available 24/7"
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "opens": "00:00",
+      "closes": "23:59",
+      "description": "24/7 Emergency Service Available"
     }
   ],
   

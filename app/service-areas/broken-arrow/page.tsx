@@ -9,8 +9,8 @@ import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: '🚨 Professional Process Server Broken Arrow OK | 24/7 Service | Just Legal Solutions',
-  description: 'Professional process server in Broken Arrow, OK! Licensed & bonded. 24/7 emergency service available. Court documents, subpoenas, evictions served professionally. Call (539) 367-6832 now!',
+  title: 'Broken Arrow Process Server | Legal Document Service | Just Legal Solutions',
+  description: 'Reliable process server in Broken Arrow, OK. Serving this growing suburban community with efficient legal document delivery. Fast response times.',
   keywords: 'process server broken arrow, legal document service broken arrow, serve papers broken arrow, court documents broken arrow, subpoena service broken arrow, eviction notice broken arrow, emergency process server broken arrow, 24/7 process server oklahoma, licensed process server tulsa county, professional process server broken arrow',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Professional Process Server Broken Arrow OK | 24/7 Emergency Service | Just Legal Solutions',
+    title: 'Broken Arrow Legal Documents & Summons | Process Server Service',
     description: 'Professional process server in Broken Arrow, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability and competitive rates.',
     url: 'https://justlegalsolutions.org/service-areas/broken-arrow',
     siteName: 'Just Legal Solutions',
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Professional Process Server Broken Arrow OK | 24/7 Service | Just Legal Solutions',
+    title: 'Broken Arrow Court Papers & Divorce Documents | Process Serving',
     description: 'Licensed process server in Broken Arrow, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability.',
     images: ['https://justlegalsolutions.org/og-image.png'],
   },

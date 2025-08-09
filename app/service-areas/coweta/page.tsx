@@ -9,8 +9,8 @@ import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: '🚨 Professional Process Server Coweta OK | 24/7 Service | Just Legal Solutions',
-  description: 'Professional process server in Coweta, OK! Licensed & bonded. 24/7 emergency service available. Court documents, subpoenas, evictions served professionally. Call (539) 367-6832 now!',
+  title: 'Coweta Process Server | Legal Document Service | Just Legal Solutions',
+  description: 'Local process server covering Coweta and southern Wagoner County. Quick turnaround for legal document delivery.',
   keywords: 'process server coweta, legal document service coweta, serve papers coweta, court documents coweta, subpoena service coweta, eviction notice coweta, emergency process server coweta, 24/7 process server oklahoma, licensed process server wagoner county, professional process server coweta',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Professional Process Server Coweta OK | 24/7 Emergency Service | Just Legal Solutions',
+    title: 'Coweta Subpoenas & Legal Papers | Wagoner County Process Server',
     description: 'Professional process server in Coweta, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability and competitive rates.',
     url: 'https://justlegalsolutions.org/service-areas/coweta',
     siteName: 'Just Legal Solutions',
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Professional Process Server Coweta OK | 24/7 Service | Just Legal Solutions',
+    title: 'Coweta Legal Document Service | Wagoner County Court Papers',
     description: 'Licensed process server in Coweta, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability.',
     images: ['https://justlegalsolutions.org/og-image.png'],
   },

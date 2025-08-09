@@ -16,7 +16,7 @@ const advancedLocalBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "Just Legal Solutions",
-  "description": "Professional process server serving Tulsa County, Oklahoma. Licensed, bonded, and insured legal document delivery with same-day, rush, and standard service options. Starting at just $30 - Oklahoma's cheapest, fastest, and best.",
+  "description": "Licensed process server serving Tulsa County, Oklahoma. Bonded and insured court document service with same-day, rush, and standard options.",
   "url": "https://justlegalsolutions.org",
   "telephone": "(539) 367-6832",
   "email": "info@justlegalsolutions.org",
@@ -91,7 +91,7 @@ const advancedLocalBusinessSchema = {
         "itemOffered": {
           "@type": "Service",
           "name": "Same-Day Process Serving",
-          "description": "Emergency legal document delivery within 24 hours Starting at just $30 - Oklahoma's cheapest, fastest, and best."
+          "description": "Urgent court document service for time-sensitive deadlines and emergency situations."
         }
       },
       {
@@ -99,7 +99,7 @@ const advancedLocalBusinessSchema = {
         "itemOffered": {
           "@type": "Service", 
           "name": "Rush Process Serving",
-          "description": "Expedited legal document delivery within 48 hours Starting at just $30 - Oklahoma's cheapest, fastest, and best."
+          "description": "Priority service for important legal matters requiring quick turnaround within 48 hours."
         }
       },
       {
@@ -107,7 +107,7 @@ const advancedLocalBusinessSchema = {
         "itemOffered": {
           "@type": "Service",
           "name": "Standard Process Serving", 
-          "description": "Professional legal document delivery within 5-7 business days Starting at just $30 - Oklahoma's cheapest, fastest, and best."
+          "description": "Cost-effective document delivery for routine legal proceedings with 5-7 day completion."
         }
       }
     ]
@@ -119,7 +119,7 @@ const processServingServiceSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
   "name": "Process Serving Services",
-  "description": "Professional legal document delivery throughout Tulsa County, Oklahoma Starting at just $30 - Oklahoma's cheapest, fastest, and best.",
+  "description": "Court-authorized document service throughout Tulsa County, Oklahoma. Licensed, bonded, and insured.",
   "provider": {
     "@type": "LocalBusiness",
     "name": "Just Legal Solutions",
@@ -152,7 +152,7 @@ const processServingServiceSchema = {
       {
         "@type": "Offer",
         "name": "Same-Day Service",
-        "description": "Emergency process serving within 24 hours Starting at just $30 - Oklahoma's cheapest, fastest, and best.",
+        "description": "Immediate process serving within 24 hours for urgent legal matters and court deadlines.",
         "priceSpecification": {
           "@type": "PriceSpecification",
           "priceCurrency": "USD",
@@ -175,7 +175,7 @@ const howToSchema = {
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Hire a Process Server in Tulsa",
-  "description": "Step-by-step guide to hiring a professional process server in Tulsa County, Oklahoma Starting at just $30 - Oklahoma's cheapest, fastest, and best.",
+  "description": "Comprehensive guide to selecting and working with a qualified process server in Tulsa County.",
   "image": "https://justlegalsolutions.org/images/process-serving-guide.jpg",
   "totalTime": "PT30M",
   "estimatedCost": {
@@ -226,7 +226,7 @@ const processServingProductSchema = {
   "@context": "https://schema.org",
   "@type": "Product",
   "name": "Professional Process Serving Package",
-  "description": "Complete process serving solution including document delivery, proof of service, and notarized affidavit Starting at just $30 - Oklahoma's cheapest, fastest, and best.",
+  "description": "Complete process serving solution including document delivery, proof of service, and notarized affidavit.",
   "brand": {
     "@type": "Brand",
     "name": "Just Legal Solutions"
@@ -235,7 +235,7 @@ const processServingProductSchema = {
     {
       "@type": "Offer",
       "name": "Same-Day Process Serving",
-      "description": "Emergency legal document delivery within 24 hours Starting at just $30 - Oklahoma's cheapest, fastest, and best.",
+      "description": "Immediate document delivery for court deadlines requiring same-day completion.",
       "priceCurrency": "USD",
       "price": "Contact for pricing",
       "availability": "https://schema.org/InStock",
@@ -249,7 +249,7 @@ const processServingProductSchema = {
     {
       "@type": "Offer",
       "name": "Rush Process Serving",
-      "description": "Expedited legal document delivery within 48 hours Starting at just $30 - Oklahoma's cheapest, fastest, and best.", 
+      "description": "Expedited document service for time-sensitive legal matters within 48-hour window.",
       "priceCurrency": "USD",
       "price": "Contact for pricing",
       "availability": "https://schema.org/InStock",

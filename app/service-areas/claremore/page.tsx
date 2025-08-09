@@ -9,8 +9,8 @@ import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: '🚨 Professional Process Server Claremore OK | 24/7 Service | Just Legal Solutions',
-  description: 'Professional process server in Claremore, OK! Licensed & bonded. 24/7 emergency service available. Court documents, subpoenas, evictions served professionally. Call (539) 367-6832 now!',
+  title: 'Claremore Process Server | Legal Document Service | Just Legal Solutions',
+  description: 'Process server in Claremore, Rogers County seat. Covering courthouse proceedings and legal document delivery throughout the area.',
   keywords: 'process server claremore, legal document service claremore, serve papers claremore, court documents claremore, subpoena service claremore, eviction notice claremore, emergency process server claremore, 24/7 process server oklahoma, licensed process server rogers county, professional process server claremore',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Professional Process Server Claremore OK | 24/7 Emergency Service | Just Legal Solutions',
+    title: 'Claremore Legal Document Service | Rogers County Court Papers',
     description: 'Professional process server in Claremore, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability and competitive rates.',
     url: 'https://justlegalsolutions.org/service-areas/claremore',
     siteName: 'Just Legal Solutions',
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Professional Process Server Claremore OK | 24/7 Service | Just Legal Solutions',
+    title: 'Claremore Process Serving | Rogers County Legal Papers',
     description: 'Licensed process server in Claremore, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability.',
     images: ['https://justlegalsolutions.org/og-image.png'],
   },

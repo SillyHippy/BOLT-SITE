@@ -9,8 +9,8 @@ import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: '🚨 Professional Process Server Catoosa OK | 24/7 Service | Just Legal Solutions',
-  description: 'Professional process server in Catoosa, OK! Licensed & bonded. 24/7 emergency service available. Court documents, subpoenas, evictions served professionally. Call (539) 367-6832 now!',
+  title: 'Catoosa Court Papers & Evictions | Process Serving Service | Just Legal Solutions',
+  description: 'Process serving in Catoosa and eastern Tulsa County areas. Efficient service for industrial and residential districts.',
   keywords: 'process server catoosa, legal document service catoosa, serve papers catoosa, court documents catoosa, subpoena service catoosa, eviction notice catoosa, emergency process server catoosa, 24/7 process server oklahoma, licensed process server rogers county, professional process server catoosa',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Professional Process Server Catoosa OK | 24/7 Emergency Service | Just Legal Solutions',
+    title: 'Catoosa Process Server | Legal Document Service | Just Legal Solutions',
     description: 'Professional process server in Catoosa, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability and competitive rates.',
     url: 'https://justlegalsolutions.org/service-areas/catoosa',
     siteName: 'Just Legal Solutions',
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Professional Process Server Catoosa OK | 24/7 Service | Just Legal Solutions',
+    title: 'Catoosa Legal Document Delivery | Evictions & Court Papers',
     description: 'Licensed process server in Catoosa, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability.',
     images: ['https://justlegalsolutions.org/og-image.png'],
   },

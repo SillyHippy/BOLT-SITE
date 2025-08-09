@@ -11,11 +11,11 @@ import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Process Server Rogers County OK | Licensed Professional Service | Just Legal Solutions',
+  title: 'Claremore & Catoosa Legal Document Service | Rogers County Court Papers | Just Legal Solutions',
   description: 'Licensed process server throughout Rogers County, Oklahoma. Serving Claremore, Catoosa. Same-day service available.',
   keywords: 'process server Rogers County, legal document service Rogers County, court papers Oklahoma, Claremore courthouse, process serving Claremore Catoosa, skip tracing Rogers County',
   openGraph: {
-    title: 'Process Server Rogers County OK | Just Legal Solutions',
+    title: 'Claremore Courthouse & Rogers County Legal Service | Document Delivery',
     description: 'Licensed process server throughout Rogers County, Oklahoma. Professional legal document service in all cities and towns.',
     url: 'https://justlegalsolutions.org/counties/rogers-county',
     siteName: 'Just Legal Solutions',
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Process Server Rogers County OK',
+    title: 'Catoosa Legal Papers & Claremore Court Documents | Rogers County',
     description: 'Licensed process server throughout Rogers County, Oklahoma. Professional service in all cities.',
   },
   alternates: {
