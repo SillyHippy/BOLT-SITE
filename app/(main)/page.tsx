@@ -218,7 +218,7 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Comprehensive Process Serving Solutions Throughout Oklahoma</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Just Legal Solutions provides professional process serving and courier services across Tulsa County and throughout Oklahoma. Our experienced team ensures timely, accurate, and compliant document delivery for law firms, businesses, and individuals. Process serving starts at $60 for standard service, with rates up to $200 for urgent or complex cases.
+              Just Legal Solutions provides professional process serving and courier services across Tulsa County and throughout Oklahoma. Our experienced team ensures timely, accurate, and compliant document delivery for law firms, businesses, and individuals. Process serving starts at $30, with rates ranging from $30 to $200.
             </p>
           </div>
           

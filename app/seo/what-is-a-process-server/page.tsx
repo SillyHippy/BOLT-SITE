@@ -98,8 +98,8 @@ const faqSchema = {
       "@type": "Question",
       "name": "How much does process serving cost in Tulsa, Oklahoma?",
       "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Service in the Tulsa metro starts from $30 for bulk orders, with standard service at $60. Emergency and same-day service available. Costs depend on urgency, location, and complexity of service."
+  "@type": "Answer",
+  "text": "Service in the Tulsa metro starts at $30, with rates ranging from $30 to $200 depending on urgency, location, and complexity. Emergency and same-day service available."
       }
     },
     {

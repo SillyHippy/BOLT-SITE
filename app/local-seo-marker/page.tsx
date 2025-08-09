@@ -10,6 +10,9 @@ export const metadata = {
 export default function LocalSEOMarker() {
   return (
     <>
+      <head>
+        <meta name="robots" content="noindex" />
+      </head>
       <Navbar />
       <main className="container mx-auto px-4 py-8 mt-12">
         <h1 className="text-4xl font-bold mb-6 text-blue-900">Local SEO Marker</h1>
