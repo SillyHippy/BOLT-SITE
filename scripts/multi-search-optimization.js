@@ -275,7 +275,6 @@ Crawl-delay: 1
 # Sitemaps
 Sitemap: https://justlegalsolutions.org/sitemap.xml
 Sitemap: https://justlegalsolutions.org/sitemap-images.xml
-Sitemap: https://justlegalsolutions.org/sitemap-news.xml
 `;
   
   const robotsPath = path.join(process.cwd(), 'public', 'robots.txt');
