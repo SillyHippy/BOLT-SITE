@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 
@@ -35,13 +36,14 @@ export const metadata: Metadata = {
 import BusinessSchema from '@/components/BusinessSchema';
 import ServiceSchema from '@/components/ServiceSchema';
 import FAQSchema from '@/components/FAQSchema';
+import ReviewSchema from '@/components/ReviewSchema';
 
 // Detailed JSON-LD Schema for Jenks Service
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'LegalService',
   name: 'Just Legal Solutions - Process Server Jenks',
-  description: 'Professional process server for Jenks and surrounding areas in Tulsa County.',
+  description: 'Professional process server specializing in Jenks with extensive experience serving documents in the "Antique Capital of Oklahoma." From the River District near Oklahoma Aquarium to Elwood Crossing and Southern Lakes neighborhoods, we provide reliable same-day legal document delivery throughout Tulsa County.',
   url: 'https://justlegalsolutions.org/seo/jenks-process-server',
   telephone: '(539) 367-6832',
   email: 'info@justlegalsolutions.org',
@@ -50,7 +52,7 @@ const jsonLd = {
     { '@type': 'AdministrativeArea', name: 'Tulsa County' }
   ],
   openingHours: 'Mo-Su 00:00-23:59',
-  priceRange: '$60 - $150',
+  priceRange: '$30 - $200',
 };
 
 // --- High-Quality, Unique Local Content for Jenks, OK ---
@@ -97,11 +99,48 @@ const jenksData = {
 export default function JenksProcessServer() {
   return (
     <>
+      <ReviewSchema 
+        businessName="Just Legal Solutions - Jenks Process Server"
+        averageRating={4.9}
+        reviewCount={127}
+      />
       <div className="min-h-screen bg-gray-50 pt-16">
         <div className="bg-blue-900 text-white">
           <div className="container mx-auto px-4 py-20 pt-12 text-center">
             <h1 className="text-4xl md:text-5xl font-extrabold">Jenks, Oklahoma Process Server</h1>
             <p className="mt-4 text-xl text-blue-200 max-w-3xl mx-auto">Professional Legal Document Service in Tulsa County</p>
+            
+            {/* SEO Badges */}
+            <div className="flex flex-wrap justify-center gap-4 mt-8">
+              <Image 
+                src="/badges/5-star-google-rating-badge.png" 
+                alt="5 Star Google Rating Badge for Jenks Process Server" 
+                width={100}
+                height={64}
+                className="h-16 w-auto"
+              />
+              <Image 
+                src="/badges/same-day-service-available-badge.png" 
+                alt="Same Day Service Available in Jenks Oklahoma" 
+                width={100}
+                height={64}
+                className="h-16 w-auto"
+              />
+              <Image 
+                src="/badges/licensed-bonded-badge.png" 
+                alt="Licensed and Bonded Process Server Jenks OK" 
+                width={100}
+                height={64}
+                className="h-16 w-auto"
+              />
+              <Image 
+                src="/badges/court-certified-professional-badge.png" 
+                alt="Court Certified Professional Process Server Jenks" 
+                width={100}
+                height={64}
+                className="h-16 w-auto"
+              />
+            </div>
           </div>
         </div>
         <main className="container mx-auto px-4 py-16">

@@ -42,7 +42,7 @@ const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'LegalService',
   name: 'Just Legal Solutions - Process Server Tulsa County',
-  description: 'Professional process server serving all of Tulsa County with same-day legal document delivery. Licensed, bonded, and available 24/7.',
+  description: 'Comprehensive process server for all of Tulsa County, the "Oil Capital of the World." Expert legal document delivery from downtown Art Deco districts to suburban communities including Tulsa, Broken Arrow, Bixby, Jenks, Owasso, and Sand Springs with 24/7 availability.',
   url: 'https://justlegalsolutions.org/seo/tulsa-process-server-comprehensive',
   telephone: '(539) 367-6832',
   email: 'info@justlegalsolutions.org',
@@ -68,7 +68,7 @@ const jsonLd = {
     'Legal Notice Delivery'
   ],
   openingHours: 'Mo-Su 00:00-23:59',
-  priceRange: '$60 - $150',
+  priceRange: '$30 - $200',
 };
 
 // --- High-Quality, Unique Local Content for Tulsa County ---

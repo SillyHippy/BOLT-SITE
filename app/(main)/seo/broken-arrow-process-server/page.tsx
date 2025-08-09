@@ -42,7 +42,7 @@ const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'LegalService',
   name: 'Just Legal Solutions - Process Server Broken Arrow',
-  description: 'Professional process server for Broken Arrow and surrounding areas in Tulsa and Wagoner counties.',
+  description: 'Professional process server for Broken Arrow, Oklahoma\'s fourth-largest city spanning Tulsa and Wagoner counties. From Rose District downtown to the Arrowhead Pawn area and suburban neighborhoods, we provide expert legal document delivery with dual-county jurisdiction expertise.',
   url: 'https://justlegalsolutions.org/seo/broken-arrow-process-server',
   telephone: '(539) 367-6832',
   email: 'info@justlegalsolutions.org',
@@ -52,7 +52,7 @@ const jsonLd = {
     { '@type': 'AdministrativeArea', name: 'Wagoner County' }
   ],
   openingHours: 'Mo-Su 00:00-23:59',
-  priceRange: '$60 - $150',
+  priceRange: '$30 - $200',
 };
 
 const faqPageSchema = {

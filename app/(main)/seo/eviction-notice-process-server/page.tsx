@@ -13,11 +13,13 @@ const speakableSchema = {
   'url': 'https://justlegalsolutions.org/seo/eviction-notice-process-server'
 };
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 import BusinessSchema from '@/components/BusinessSchema';
 import ServiceSchema from '@/components/ServiceSchema';
 import FAQSchema from '@/components/FAQSchema';
+import ReviewSchema from '@/components/ReviewSchema';
 
 // SEO Metadata optimized for the Eviction Notice page
 export const metadata: Metadata = {
@@ -54,7 +56,7 @@ const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'LegalService',
   name: 'Just Legal Solutions - Eviction Notice Process Server Tulsa',
-  description: 'Specialized process serving for eviction notices and landlord-tenant documents in Tulsa County.',
+  description: 'Specialized eviction notice process server for Tulsa County landlords and property managers. Expert delivery of Notice to Quit, 5-Day Pay or Quit notices, and all landlord-tenant documents with legal compliance guaranteed. Fast, professional service for time-sensitive eviction proceedings.',
   url: 'https://justlegalsolutions.org/seo/eviction-notice-process-server',
   telephone: '(539) 367-6832',
   email: 'info@justlegalsolutions.org',
@@ -67,7 +69,7 @@ const jsonLd = {
     'Notice to Quit Service'
   ],
   openingHours: 'Mo-Su 00:00-23:59',
-  priceRange: '$60 - $150',
+  priceRange: '$30 - $200',
 };
 
 // --- High-Quality, Unique Content for Eviction Services ---
@@ -118,6 +120,11 @@ const evictionData = {
 export default function EvictionNoticeProcessServer() {
   return (
     <>
+      <ReviewSchema 
+        businessName="Just Legal Solutions - Eviction Notice Service"
+        averageRating={4.9}
+        reviewCount={89}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -131,6 +138,38 @@ export default function EvictionNoticeProcessServer() {
           <div className="container mx-auto px-4 py-20 pt-12 text-center">
             <h1 className="text-4xl md:text-5xl font-extrabold">Eviction Notice Process Server for Tulsa County</h1>
             <p className="mt-4 text-xl text-red-100 max-w-3xl mx-auto">Ensuring Landlords &amp; Property Managers Meet Oklahoma&apos;s Strict Legal Service Requirements.</p>
+            
+            {/* SEO Badges */}
+            <div className="flex flex-wrap justify-center gap-4 mt-8">
+              <Image 
+                src="/badges/24-7-emergency-service-badge.png" 
+                alt="24/7 Emergency Eviction Service Tulsa County" 
+                width={100}
+                height={64}
+                className="h-16 w-auto"
+              />
+              <Image 
+                src="/badges/court-certified-professional-badge.png" 
+                alt="Court Certified Eviction Notice Process Server" 
+                width={100}
+                height={64}
+                className="h-16 w-auto"
+              />
+              <Image 
+                src="/badges/fastest-process-server-oklahoma-badge.png" 
+                alt="Fastest Eviction Notice Process Server Oklahoma" 
+                width={100}
+                height={64}
+                className="h-16 w-auto"
+              />
+              <Image 
+                src="/badges/trusted-by-law-firms-badge.png" 
+                alt="Trusted by Property Management Law Firms" 
+                width={100}
+                height={64}
+                className="h-16 w-auto"
+              />
+            </div>
           </div>
         </div>
         <main className="container mx-auto px-4 py-16">

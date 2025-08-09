@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import BusinessSchema from '@/components/BusinessSchema';
 import ServiceSchema from '@/components/ServiceSchema';
 import FAQSchema from '@/components/FAQSchema';
@@ -38,7 +39,7 @@ const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'LegalService',
   name: 'Just Legal Solutions - Process Server Sand Springs',
-  description: 'Professional process server for Sand Springs and surrounding areas in Tulsa and Creek Counties.',
+  description: 'Professional process server for Sand Springs, Oklahoma, the historic "Sandstone Capital of the World" spanning Tulsa and Creek counties. From Keystone State Park area to downtown historic districts, we provide reliable legal document delivery with expertise in both county jurisdictions.',
   url: 'https://justlegalsolutions.org/seo/sand-springs-process-server',
   telephone: '(539) 367-6832',
   email: 'info@justlegalsolutions.org',
@@ -48,7 +49,7 @@ const jsonLd = {
     { '@type': 'AdministrativeArea', name: 'Creek County' }
   ],
   openingHours: 'Mo-Su 00:00-23:59',
-  priceRange: '$60 - $150',
+  priceRange: '$30 - $200',
 };
 
 // Data object for the page content, including FAQs
@@ -94,6 +95,38 @@ export default function SandSpringsProcessServerPage() {
           <div className="container mx-auto px-4 py-20 pt-12 text-center">
             <h1 className="text-4xl md:text-5xl font-extrabold">Sand Springs, Oklahoma Process Server</h1>
             <p className="mt-4 text-xl text-blue-200 max-w-3xl mx-auto">Professional Legal Document Service for Sand Springs and the Tulsa Metro</p>
+            
+            {/* SEO Badges */}
+            <div className="flex flex-wrap justify-center gap-4 mt-8">
+              <Image 
+                src="/badges/Trusted-by-Tulsa-Law-Firms-Badge.png" 
+                alt="Trusted by Tulsa Law Firms Process Server Sand Springs" 
+                width={100}
+                height={64}
+                className="h-16 w-auto"
+              />
+              <Image 
+                src="/badges/24-7-emergency-service-badge.png" 
+                alt="24/7 Emergency Process Service Sand Springs Oklahoma" 
+                width={100}
+                height={64}
+                className="h-16 w-auto"
+              />
+              <Image 
+                src="/badges/secure-payment-processing-badge.png" 
+                alt="Secure Payment Processing Sand Springs Process Server" 
+                width={100}
+                height={64}
+                className="h-16 w-auto"
+              />
+              <Image 
+                src="/badges/privacy-guaranteed-badge.png" 
+                alt="Privacy Guaranteed Process Server Sand Springs OK" 
+                width={100}
+                height={64}
+                className="h-16 w-auto"
+              />
+            </div>
           </div>
         </div>
         <main className="container mx-auto px-4 py-16">

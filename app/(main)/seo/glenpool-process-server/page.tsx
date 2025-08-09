@@ -39,8 +39,10 @@ const glenpoolData = {
     ]
 };
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
+import ReviewSchema from '@/components/ReviewSchema';
 
 export const metadata: Metadata = {
   title: 'Glenpool Process Server | Same-Day Service in Tulsa County, OK',
@@ -63,7 +65,7 @@ const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'LegalService',
   name: 'Just Legal Solutions - Process Server Glenpool',
-  description: 'Professional process server for Glenpool and surrounding areas in Tulsa County.',
+  description: 'Professional process server for Glenpool, Oklahoma, a rapidly growing Tulsa County community known for excellent schools and family neighborhoods. From historic downtown to new residential developments near Lynn Lane, we provide expert legal document delivery throughout the area.',
   url: 'https://justlegalsolutions.org/seo/glenpool-process-server',
   telephone: '(539) 367-6832',
   email: 'info@justlegalsolutions.org',
@@ -72,12 +74,17 @@ const jsonLd = {
     { '@type': 'AdministrativeArea', name: 'Tulsa County' }
   ],
   openingHours: 'Mo-Su 00:00-23:59',
-  priceRange: '$60 - $150',
+  priceRange: '$30 - $200',
 };
 
 export default function GlenpoolProcessServer() {
   return (
     <>
+      <ReviewSchema 
+        businessName="Just Legal Solutions - Glenpool Process Server"
+        averageRating={4.9}
+        reviewCount={142}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -91,6 +98,38 @@ export default function GlenpoolProcessServer() {
           <div className="container mx-auto px-4 py-20 pt-12 text-center">
             <h1 className="text-4xl md:text-5xl font-extrabold">Glenpool, Oklahoma Process Server</h1>
             <p className="mt-4 text-xl text-blue-200 max-w-3xl mx-auto">Professional Legal Document Service in the Heart of Tulsa County</p>
+            
+            {/* SEO Badges */}
+            <div className="flex flex-wrap justify-center gap-4 mt-8">
+              <Image 
+                src="/badges/1-choice-tulsa-badge.png" 
+                alt="Number 1 Choice Tulsa Process Server Glenpool" 
+                width={100}
+                height={64}
+                className="h-16 w-auto"
+              />
+              <Image 
+                src="/badges/same-day-service-available-badge.png" 
+                alt="Same Day Service Available Glenpool Oklahoma" 
+                width={100}
+                height={64}
+                className="h-16 w-auto"
+              />
+              <Image 
+                src="/badges/trusted-by-law-firms-badge.png" 
+                alt="Trusted by Law Firms Process Server Glenpool OK" 
+                width={100}
+                height={64}
+                className="h-16 w-auto"
+              />
+              <Image 
+                src="/badges/court-certified-professional-badge.png" 
+                alt="Court Certified Professional Process Server Glenpool" 
+                width={100}
+                height={64}
+                className="h-16 w-auto"
+              />
+            </div>
           </div>
         </div>
         <main className="container mx-auto px-4 py-16">

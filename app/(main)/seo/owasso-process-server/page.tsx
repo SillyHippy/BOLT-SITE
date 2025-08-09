@@ -39,6 +39,7 @@ const owassoData = {
     ]
 };
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 
@@ -63,7 +64,7 @@ const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'LegalService',
   name: 'Just Legal Solutions - Process Server Owasso',
-  description: 'Professional process server for Owasso and surrounding areas in Tulsa and Rogers counties.',
+  description: 'Professional process server for Owasso, known as the "Favored City" straddling Tulsa and Rogers counties. From Redbud Festival neighborhoods to modern developments, we provide expert legal document delivery across both county jurisdictions with same-day service availability.',
   url: 'https://justlegalsolutions.org/seo/owasso-process-server',
   telephone: '(539) 367-6832',
   email: 'info@justlegalsolutions.org',
@@ -73,7 +74,7 @@ const jsonLd = {
     { '@type': 'AdministrativeArea', name: 'Rogers County' }
   ],
   openingHours: 'Mo-Su 00:00-23:59',
-  priceRange: '$60 - $150',
+  priceRange: '$30 - $200',
 };
 
 export default function OwassoProcessServer() {
@@ -92,6 +93,38 @@ export default function OwassoProcessServer() {
           <div className="container mx-auto px-4 py-20 pt-12 text-center">
             <h1 className="text-4xl md:text-5xl font-extrabold">Owasso, Oklahoma Process Server</h1>
             <p className="mt-4 text-xl text-blue-200 max-w-3xl mx-auto">Expert Legal Document Delivery in Tulsa & Rogers Counties</p>
+            
+            {/* SEO Badges */}
+            <div className="flex flex-wrap justify-center gap-4 mt-8">
+              <Image 
+                src="/badges/trusted-statewide-oklahoma-badge.png" 
+                alt="Trusted Statewide Oklahoma Process Server Owasso" 
+                width={100}
+                height={64}
+                className="h-16 w-auto"
+              />
+              <Image 
+                src="/badges/fastest-process-server-oklahoma-badge.png" 
+                alt="Fastest Process Server in Owasso Oklahoma" 
+                width={100}
+                height={64}
+                className="h-16 w-auto"
+              />
+              <Image 
+                src="/badges/emergency-legal-documents-badge.png" 
+                alt="Emergency Legal Document Service Owasso OK" 
+                width={100}
+                height={64}
+                className="h-16 w-auto"
+              />
+              <Image 
+                src="/badges/law-firm-preferred-partner-badge.png" 
+                alt="Law Firm Preferred Partner Owasso Process Server" 
+                width={100}
+                height={64}
+                className="h-16 w-auto"
+              />
+            </div>
           </div>
         </div>
         <main className="container mx-auto px-4 py-16">

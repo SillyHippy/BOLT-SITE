@@ -1,9 +1,11 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 import BusinessSchema from '@/components/BusinessSchema';
 import ServiceSchema from '@/components/ServiceSchema';
 import FAQSchema from '@/components/FAQSchema';
+import ReviewSchema from '@/components/ReviewSchema';
 
 
 // --- High-Quality, Unique Local Content for Bixby, OK ---
@@ -28,7 +30,7 @@ const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'LegalService',
   name: 'Just Legal Solutions - Process Server Bixby',
-  description: 'Professional process server for Bixby and surrounding areas in Tulsa and Wagoner counties.',
+  description: 'Expert process server specializing in Bixby residential communities with comprehensive knowledge of south Tulsa County and Wagoner County legal procedures.',
   url: 'https://justlegalsolutions.org/seo/bixby-process-server',
   telephone: '(539) 367-6832',
   email: 'info@justlegalsolutions.org',
@@ -38,7 +40,7 @@ const jsonLd = {
     { '@type': 'AdministrativeArea', name: 'Wagoner County' }
   ],
   openingHours: 'Mo-Su 00:00-23:59',
-  priceRange: '$60 - $150',
+  priceRange: '$30 - $200',
 };
 
 // --- High-Quality, Unique Local Content for Bixby, OK ---
@@ -94,6 +96,11 @@ const bixbyData = {
 const BixbyProcessServer = () => {
   return (
     <>
+      <ReviewSchema 
+        businessName="Just Legal Solutions - Bixby Process Server"
+        averageRating={4.9}
+        reviewCount={134}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -103,6 +110,38 @@ const BixbyProcessServer = () => {
           <div className="container mx-auto px-4 py-20 pt-12 text-center">
             <h1 className="text-4xl md:text-5xl font-extrabold">Bixby, Oklahoma Process Server</h1>
             <p className="mt-4 text-xl text-blue-200 max-w-3xl mx-auto">Professional Legal Document Service in Tulsa & Wagoner Counties</p>
+            
+            {/* SEO Badges */}
+            <div className="flex flex-wrap justify-center gap-4 mt-8">
+              <Image 
+                src="/badges/locally-owned-operated-badge.png" 
+                alt="Locally Owned and Operated Process Server Bixby Oklahoma" 
+                width={100}
+                height={64}
+                className="h-16 w-auto"
+              />
+              <Image 
+                src="/badges/same-day-service-available-badge.png" 
+                alt="Same Day Process Serving Available in Bixby OK" 
+                width={100}
+                height={64}
+                className="h-16 w-auto"
+              />
+              <Image 
+                src="/badges/oklahoma-statewide-coverage-badge.png" 
+                alt="Oklahoma Statewide Coverage Process Server from Bixby" 
+                width={100}
+                height={64}
+                className="h-16 w-auto"
+              />
+              <Image 
+                src="/badges/99-9-percent-success-rate-badge.png" 
+                alt="99.9 Percent Success Rate Process Server Bixby" 
+                width={100}
+                height={64}
+                className="h-16 w-auto"
+              />
+            </div>
           </div>
         </div>
         <main className="container mx-auto px-4 py-16">
