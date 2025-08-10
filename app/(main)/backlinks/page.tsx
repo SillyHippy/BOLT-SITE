@@ -60,16 +60,21 @@ const internalUrls = [
 ];
 
 const backlinkUrls = [
-  // Original Links
   'https://www.manta.com/c/m1x7pgf/just-legal-solutions',
   'https://www.showmelocal.com/38832951-just-legal-solutions-glenpool',
   'https://www.crunchbase.com/organization/just-legal-solutions',
-  // Additional Links Found
   'https://www.alignable.com/glenpool-ok/just-legal-solutions',
   'https://www.elocal.com/profile/just-legal-solutions-21951593',
   'https://www.yellowpages.com/glenpool-ok/mip/just-legal-solutions-606085805',
   'https://www.dnb.com/business-directory/company-profiles.just_legal_solutions_llc.html',
-  'https://clutch.co/profile/just-legal-solutions'
+  'https://clutch.co/profile/just-legal-solutions',
+  'https://www.facebook.com/JustLegalSolutionsOK/',
+  'https://www.linkedin.com/company/justlegalsolutionsok/',
+  'https://g.co/kgs/vMgnxex',
+  'https://www.yelp.com/biz/just-legal-solutions-glenpool',
+  'https://www.issuewire.com/founders-five-year-battle-with-legal-system-inspires-5-star-rated-process-serving-firm-in-tulsa-1839846063085062',
+  'https://prfree.org/@iannazzi/founder-s-five-year-battle-with-legal-system-inspires-5-star-rated-process-serving-firm-in-tulsa-9aog0m6aveyg',
+  'https://www.prlog.org/13092231-founders-five-year-battle-with-legal-system-inspires-5-star-rated-process-serving-firm-in-tulsa.html'
 ];
 
 export default function BacklinksPage() {
@@ -79,14 +84,7 @@ export default function BacklinksPage() {
       <main className="container mx-auto px-4 py-8 mt-12">
         <h1 className="text-4xl font-bold mb-6 text-blue-900">Backlink Indexing & Internal Links Page</h1>
         <p className="text-lg text-gray-700 mb-8">This page is for search engine crawlers to discover our backlinks and for users to verify our online presence. It also provides internal links to every page on our site for SEO and navigation.</p>
-        <h2 className="text-2xl font-semibold mb-4 text-blue-800">Internal Links</h2>
-        <ul className="list-disc ml-6 text-gray-700 mb-8">
-          {internalUrls.map((url, index) => (
-            <li key={url}>
-              <a href={url} className="text-blue-600 hover:underline">{url}</a>
-            </li>
-          ))}
-        </ul>
+  {/* Internal Links section removed; see sitemap for full list of pages */}
         <h2 className="text-2xl font-semibold mb-4 text-blue-800">Backlinks</h2>
         <ul className="list-disc ml-6 text-gray-700 mb-8">
           {backlinkUrls.map((url, index) => (

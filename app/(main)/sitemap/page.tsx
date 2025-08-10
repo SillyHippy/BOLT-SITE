@@ -55,6 +55,7 @@ const SitemapPage = () => {
     { url: '/resources', label: 'Resources' },
     { url: '/payments', label: 'Payments' },
     { url: '/services', label: 'Services' },
+    { url: '/about', label: 'About / Our Story' },
     { url: '/why-choose-us', label: 'Why Choose Us' },
     
     // Process Server Pages
