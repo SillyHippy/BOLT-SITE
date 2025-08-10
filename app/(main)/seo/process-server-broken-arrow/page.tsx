@@ -318,7 +318,7 @@ export default function ProcessServerBrokenArrowPage() {
                 ))}
               </div>
               <div className="flex justify-center mt-4">
-                <Image src="/images/forest-ridge-broken-arrow.jpg" width={400} height={250} alt="Forest Ridge gated community Broken Arrow where process server provides secure legal document delivery" className="rounded shadow" />
+                <Image src="/images/broken-arrow-rose-district.jpg" width={400} height={250} alt="Broken Arrow Rose District main street with historic buildings and flower planter" className="rounded shadow" />
               </div>
               <p className="text-xs text-gray-500 text-center mt-1">Featured Neighborhood: Forest Ridge – Secure, professional Broken Arrow process serving</p>
             </section>
