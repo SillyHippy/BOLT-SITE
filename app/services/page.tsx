@@ -302,6 +302,7 @@ export default function ServicesPage() {
       ]} />
       
       <EnhancedFAQSchema 
+        className="hidden"
         pageTitle="Business Solutions & Executive Services"
         faqs={[
           {
