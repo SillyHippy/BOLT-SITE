@@ -48,7 +48,7 @@ const ResourcesPage = () => {
       title: "Process Serving Guides",
       description: "Everything you need to know about legal document delivery.",
       articles: [
-        { title: "What is a Process Server?", url: null, preview: "A complete guide to the role and responsibilities of a process server." },
+  { title: "What is a Process Server?", url: "/seo/what-is-a-process-server", preview: "A complete guide to the role and responsibilities of a process server." },
         { title: "Oklahoma Rules of Civil Procedure", url: null, preview: "Understanding the state laws that govern service of process." },
         { title: "Serving an Evasive Defendant", url: null, preview: "Strategies and legal methods for serving hard-to-find individuals." }
       ]
@@ -68,7 +68,7 @@ const ResourcesPage = () => {
       title: "Service of Process by County",
       description: "Learn about specific rules and challenges in different Oklahoma counties.",
       articles: [
-        { title: "Process Serving in Tulsa County", url: null, preview: "Navigating the busiest judicial district in Oklahoma." },
+  { title: "Process Serving in Tulsa County", url: "/tulsa-county", preview: "Navigating the busiest judicial district in Oklahoma." },
         { title: "Serving Documents in Oklahoma County", url: null, preview: "Key differences for serving in the OKC metro area." },
         { title: "Rural County Process Serving", url: null, preview: "Tips for successful service in less populated areas." }
       ]
