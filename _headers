@@ -3,7 +3,7 @@
   Referrer-Policy: strict-origin-when-cross-origin
   X-XSS-Protection: 1; mode=block
   Cache-Control: public, max-age=31536000
-  Content-Security-Policy: script-src 'self'
+  Content-Security-Policy: script-src 'self' https://www.google-analytics.com https://www.googletagmanager.com
 
 *.html
   Cache-Control: public, max-age=86400
