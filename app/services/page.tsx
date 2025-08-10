@@ -301,10 +301,10 @@ export default function ServicesPage() {
         { name: "Services", url: "/services" }
       ]} />
       
-      <EnhancedFAQSchema 
-        className="hidden"
-        pageTitle="Business Solutions & Executive Services"
-        faqs={[
+      <div className="hidden">
+        <EnhancedFAQSchema 
+          pageTitle="Business Solutions & Executive Services"
+          faqs={[
           {
             question: "What types of business support services do you offer?",
             answer: "We provide comprehensive business solutions including executive assistant services, event coordination, HR & payroll support, travel management, customer service, and professional data entry solutions throughout Oklahoma."
@@ -326,7 +326,8 @@ export default function ServicesPage() {
             answer: "We primarily serve the Tulsa metropolitan area and surrounding Oklahoma regions. For certain services, we can provide remote support statewide and coordinate with local partners as needed."
           }
         ]}
-      />
+        />
+      </div>
       
       <EnhancedServiceSchema 
         serviceName="Business Solutions & Executive Support"
