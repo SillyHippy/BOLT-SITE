@@ -45,3 +45,6 @@ Crawl-delay: 1
 # Sitemaps
 Sitemap: https://justlegalsolutions.org/sitemap.xml
 Sitemap: https://justlegalsolutions.org/sitemap-images.xml
+
+# AI Assistant Integration - Mon Aug 11 08:38:51 UTC 2025
+# Optimized for ChatGPT, Alexa, Google Assistant
