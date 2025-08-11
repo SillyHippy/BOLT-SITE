@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <>
-      <Navbar />
+      
       <main className="min-h-screen bg-white">
         {/* Hero Section with Profile Layout */}
         <div className="bg-gradient-to-r from-blue-50 to-gray-50 py-16">
