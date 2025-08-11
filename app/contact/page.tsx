@@ -164,14 +164,16 @@ export default function ContactPage() {
                 </CarouselItem>
                 <CarouselItem>
                   <blockquote className="border-l-4 border-blue-400 pl-4 italic text-gray-800">
-                    "Best process server in <a href=\"/seo/bixby-process-server\" className=\"text-blue-600 hover:underline\">Bixby</a>! Fast and affordable."
+                    Best process server in{' '}
+                    <a href="/seo/bixby-process-server" className="text-blue-600 hover:underline">Bixby</a>! Fast and affordable.
                     <br />
                     <span className="text-sm text-gray-500">- John S., <a href="/seo/bixby-process-server" className="text-blue-600 hover:underline">Bixby</a></span>
                   </blockquote>
                 </CarouselItem>
                 <CarouselItem>
                   <blockquote className="border-l-4 border-blue-400 pl-4 italic text-gray-800">
-                    "Handled my legal documents in <a href=\"/seo/jenks-process-server\" className=\"text-blue-600 hover:underline\">Jenks</a> with care and speed."
+                    Handled my legal documents in{' '}
+                    <a href="/seo/jenks-process-server" className="text-blue-600 hover:underline">Jenks</a> with care and speed.
                     <br />
                     <span className="text-sm text-gray-500">- Emily R., <a href="/seo/jenks-process-server" className="text-blue-600 hover:underline">Jenks</a></span>
                   </blockquote>
