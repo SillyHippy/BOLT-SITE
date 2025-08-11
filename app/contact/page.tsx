@@ -117,39 +117,27 @@ export default function ContactPage() {
         <section className="max-w-3xl mx-auto bg-white rounded-lg shadow-md p-6 mb-8">
           <h1 className="text-3xl font-bold mb-2 text-blue-900">Contact Just Legal Solutions</h1>
           <p className="mb-4 text-gray-700">Reach out for professional process serving, courier, and business services in Tulsa County and across Oklahoma. Fast, reliable, and confidential.</p>
-          {/* Large, slow-rotating badge carousel for trust and SEO */}
+          {/* Badge carousel: show all badges in a continuous row, smooth rotation */}
           <div className="mb-8">
             <Carousel className="w-full max-w-2xl mx-auto" opts={{ loop: true, duration: 6000 }}>
-              <CarouselContent>
-                <CarouselItem>
-                  <div className="flex justify-center">
-                    <Image src="/badges/5-star-google-rating-badge.png" alt="5-Star Google Rating" width={120} height={120} className="h-28 w-auto" priority />
-                  </div>
+              <CarouselContent className="flex gap-8 items-center">
+                <CarouselItem className="basis-auto flex-shrink-0 w-auto">
+                  <Image src="/badges/5-star-google-rating-badge.png" alt="5-Star Google Rating" width={110} height={110} className="h-24 w-auto" priority />
                 </CarouselItem>
-                <CarouselItem>
-                  <div className="flex justify-center">
-                    <Image src="/badges/licensed-bonded-badge.png" alt="Licensed & Bonded" width={120} height={120} className="h-28 w-auto" />
-                  </div>
+                <CarouselItem className="basis-auto flex-shrink-0 w-auto">
+                  <Image src="/badges/licensed-bonded-badge.png" alt="Licensed & Bonded" width={110} height={110} className="h-24 w-auto" />
                 </CarouselItem>
-                <CarouselItem>
-                  <div className="flex justify-center">
-                    <Image src="/badges/court-certified-professional-badge.png" alt="Court Certified Professional" width={120} height={120} className="h-28 w-auto" />
-                  </div>
+                <CarouselItem className="basis-auto flex-shrink-0 w-auto">
+                  <Image src="/badges/court-certified-professional-badge.png" alt="Court Certified Professional" width={110} height={110} className="h-24 w-auto" />
                 </CarouselItem>
-                <CarouselItem>
-                  <div className="flex justify-center">
-                    <Image src="/badges/oklahoma-statewide-coverage-badge.png" alt="Oklahoma Statewide Coverage" width={120} height={120} className="h-28 w-auto" />
-                  </div>
+                <CarouselItem className="basis-auto flex-shrink-0 w-auto">
+                  <Image src="/badges/oklahoma-statewide-coverage-badge.png" alt="Oklahoma Statewide Coverage" width={110} height={110} className="h-24 w-auto" />
                 </CarouselItem>
-                <CarouselItem>
-                  <div className="flex justify-center">
-                    <Image src="/badges/secure-payment-processing-badge.png" alt="Secure Payment Processing" width={120} height={120} className="h-28 w-auto" />
-                  </div>
+                <CarouselItem className="basis-auto flex-shrink-0 w-auto">
+                  <Image src="/badges/secure-payment-processing-badge.png" alt="Secure Payment Processing" width={110} height={110} className="h-24 w-auto" />
                 </CarouselItem>
-                <CarouselItem>
-                  <div className="flex justify-center">
-                    <Image src="/badges/locally-owned-operated-badge.png" alt="Locally Owned & Operated Oklahoma Badge" width={120} height={120} className="h-28 w-auto" />
-                  </div>
+                <CarouselItem className="basis-auto flex-shrink-0 w-auto">
+                  <Image src="/badges/locally-owned-operated-badge.png" alt="Locally Owned & Operated Oklahoma Badge" width={110} height={110} className="h-24 w-auto" />
                 </CarouselItem>
               </CarouselContent>
               <CarouselPrevious />
