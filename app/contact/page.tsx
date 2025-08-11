@@ -136,8 +136,9 @@ export default function ContactPage() {
             <a href="/resources" className="text-blue-600 hover:underline mr-4">Resources</a>
             <a href="/service-areas" className="text-blue-600 hover:underline">Service Areas</a>
           </div>
-          <div className="mb-4">
-            <Image src="/images/process-server-client-testimonials-reviews.png" alt="Client Reviews" width={300} height={128} className="rounded-lg shadow h-32 w-auto mx-auto" />
+          {/* Prominent testimonial image above carousel */}
+          <div className="mb-8 flex justify-center">
+            <Image src="/images/process-server-client-testimonials-reviews.png" alt="Client Reviews" width={500} height={213} className="rounded-lg shadow-lg w-auto h-48 md:h-56 lg:h-64" priority />
           </div>
           <div className="mb-4">
             <Carousel className="w-full max-w-xl mx-auto">
@@ -207,7 +208,6 @@ export default function ContactPage() {
             <a href="/services" className="inline-block bg-blue-700 text-white px-6 py-2 rounded shadow hover:bg-blue-800 font-semibold">Request Service</a>
             <a href="/urgent-process-server" className="inline-block bg-red-600 text-white px-6 py-2 rounded shadow hover:bg-red-700 font-semibold">Urgent Service</a>
             <a href="/weekend-emergency" className="inline-block bg-yellow-500 text-white px-6 py-2 rounded shadow hover:bg-yellow-600 font-semibold">Weekend Service</a>
-            <a href="/reviews" className="inline-block bg-green-700 text-white px-6 py-2 rounded shadow hover:bg-green-800 font-semibold">See More Reviews</a>
             <a href="/contact-details.vcf" download className="inline-block bg-gray-700 text-white px-6 py-2 rounded shadow hover:bg-gray-800 font-semibold">Download vCard</a>
           </div>
           {/* Unique Selling Points Section */}
