@@ -47,6 +47,7 @@ export const metadata = {
 };
 
 import React from 'react';
+import Image from 'next/image';
 import {
   Carousel,
   CarouselContent,
@@ -117,11 +118,11 @@ export default function ContactPage() {
           <h1 className="text-3xl font-bold mb-2 text-blue-900">Contact Just Legal Solutions</h1>
           <p className="mb-4 text-gray-700">Reach out for professional process serving, courier, and business services in Tulsa County and across Oklahoma. Fast, reliable, and confidential.</p>
           <div className="flex flex-wrap gap-3 mb-4">
-            <img src="/badges/5-star-google-rating-badge.png" alt="5-Star Google Rating" className="h-10" />
-            <img src="/badges/licensed-bonded-badge.png" alt="Licensed & Bonded" className="h-10" />
-            <img src="/badges/court-certified-professional-badge.png" alt="Court Certified Professional" className="h-10" />
-            <img src="/badges/oklahoma-statewide-coverage-badge.png" alt="Oklahoma Statewide Coverage" className="h-10" />
-            <img src="/badges/secure-payment-processing-badge.png" alt="Secure Payment Processing" className="h-10" />
+            <Image src="/badges/5-star-google-rating-badge.png" alt="5-Star Google Rating" width={40} height={40} className="h-10 w-auto" />
+            <Image src="/badges/licensed-bonded-badge.png" alt="Licensed & Bonded" width={40} height={40} className="h-10 w-auto" />
+            <Image src="/badges/court-certified-professional-badge.png" alt="Court Certified Professional" width={40} height={40} className="h-10 w-auto" />
+            <Image src="/badges/oklahoma-statewide-coverage-badge.png" alt="Oklahoma Statewide Coverage" width={40} height={40} className="h-10 w-auto" />
+            <Image src="/badges/secure-payment-processing-badge.png" alt="Secure Payment Processing" width={40} height={40} className="h-10 w-auto" />
           </div>
           <div className="mb-4">
             <a href="tel:5393676832" className="text-lg font-semibold text-blue-700 hover:underline">Call: (539) 367-6832</a><br />
@@ -136,65 +137,63 @@ export default function ContactPage() {
             <a href="/service-areas" className="text-blue-600 hover:underline">Service Areas</a>
           </div>
           <div className="mb-4">
-            <img src="/images/process-server-client-testimonials-reviews.png" alt="Client Reviews" className="rounded-lg shadow h-32 w-auto mx-auto" />
+            <Image src="/images/process-server-client-testimonials-reviews.png" alt="Client Reviews" width={300} height={128} className="rounded-lg shadow h-32 w-auto mx-auto" />
           </div>
           <div className="mb-4">
             <Carousel className="w-full max-w-xl mx-auto">
               <CarouselContent>
                 <CarouselItem>
                   <blockquote className="border-l-4 border-blue-400 pl-4 italic text-gray-800 mb-2">
-                    "Fast, professional, and reliable! Just Legal Solutions made the process easy and stress-free."
+                    &quot;Fast, professional, and reliable! Just Legal Solutions made the process easy and stress-free.&quot;
                     <br />
                     <span className="text-sm text-gray-500">- Sarah T., <a href="/seo/tulsa-process-server-comprehensive" className="text-blue-600 hover:underline">Tulsa</a></span>
                   </blockquote>
                 </CarouselItem>
                 <CarouselItem>
                   <blockquote className="border-l-4 border-blue-400 pl-4 italic text-gray-800 mb-2">
-                    "Highly recommend for anyone needing process serving in Oklahoma. Great communication and results."
+                    &quot;Highly recommend for anyone needing process serving in Oklahoma. Great communication and results.&quot;
                     <br />
                     <span className="text-sm text-gray-500">- Mark D., <a href="/seo/broken-arrow-process-server" className="text-blue-600 hover:underline">Broken Arrow</a></span>
                   </blockquote>
                 </CarouselItem>
                 <CarouselItem>
                   <blockquote className="border-l-4 border-blue-400 pl-4 italic text-gray-800">
-                    "Very knowledgeable and trustworthy. Will use again!"
+                    &quot;Very knowledgeable and trustworthy. Will use again!&quot;
                     <br />
                     <span className="text-sm text-gray-500">- Lisa W., <a href="/seo/owasso-process-server" className="text-blue-600 hover:underline">Owasso</a></span>
                   </blockquote>
                 </CarouselItem>
                 <CarouselItem>
                   <blockquote className="border-l-4 border-blue-400 pl-4 italic text-gray-800">
-                    Best process server in{' '}
-                    <a href="/seo/bixby-process-server" className="text-blue-600 hover:underline">Bixby</a>! Fast and affordable.
+                    &quot;Best process server in <a href="/seo/bixby-process-server" className="text-blue-600 hover:underline">Bixby</a>! Fast and affordable.&quot;
                     <br />
                     <span className="text-sm text-gray-500">- John S., <a href="/seo/bixby-process-server" className="text-blue-600 hover:underline">Bixby</a></span>
                   </blockquote>
                 </CarouselItem>
                 <CarouselItem>
                   <blockquote className="border-l-4 border-blue-400 pl-4 italic text-gray-800">
-                    Handled my legal documents in{' '}
-                    <a href="/seo/jenks-process-server" className="text-blue-600 hover:underline">Jenks</a> with care and speed.
+                    &quot;Handled my legal documents in <a href="/seo/jenks-process-server" className="text-blue-600 hover:underline">Jenks</a> with care and speed.&quot;
                     <br />
                     <span className="text-sm text-gray-500">- Emily R., <a href="/seo/jenks-process-server" className="text-blue-600 hover:underline">Jenks</a></span>
                   </blockquote>
                 </CarouselItem>
                 <CarouselItem>
                   <blockquote className="border-l-4 border-blue-400 pl-4 italic text-gray-800">
-                    "Sand Springs process serving was quick and professional."
+                    &quot;Sand Springs process serving was quick and professional.&quot;
                     <br />
                     <span className="text-sm text-gray-500">- Mike P., <a href="/seo/sand-springs-process-server" className="text-blue-600 hover:underline">Sand Springs</a></span>
                   </blockquote>
                 </CarouselItem>
                 <CarouselItem>
                   <blockquote className="border-l-4 border-blue-400 pl-4 italic text-gray-800">
-                    "Sapulpa service was excellent. Highly recommend."
+                    &quot;Sapulpa service was excellent. Highly recommend.&quot;
                     <br />
                     <span className="text-sm text-gray-500">- Rachel F., <a href="/service-areas/sapulpa" className="text-blue-600 hover:underline">Sapulpa</a></span>
                   </blockquote>
                 </CarouselItem>
                 <CarouselItem>
                   <blockquote className="border-l-4 border-blue-400 pl-4 italic text-gray-800">
-                    "Needed statewide service—Just Legal Solutions handled everything across Oklahoma."
+                    &quot;Needed statewide service—Just Legal Solutions handled everything across Oklahoma.&quot;
                     <br />
                     <span className="text-sm text-gray-500">- Statewide Client, <a href="/ultimate-guide-process-serving-oklahoma" className="text-blue-600 hover:underline">Oklahoma</a></span>
                   </blockquote>
