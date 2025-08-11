@@ -128,18 +128,18 @@ export default function ContactPage() {
             <a href="tel:5393676832" className="text-lg font-semibold text-blue-700 hover:underline">Call: (539) 367-6832</a><br />
             <a href="mailto:info@justlegalsolutions.org" className="text-blue-700 hover:underline">info@justlegalsolutions.org</a>
           </div>
-          <div className="mb-4">
-            <a href="/services" className="text-blue-600 hover:underline mr-4">Our Services</a>
-            <a href="/pricing" className="text-blue-600 hover:underline mr-4">Pricing</a>
-            <a href="/faq" className="text-blue-600 hover:underline mr-4">FAQ</a>
-            <a href="/about" className="text-blue-600 hover:underline mr-4">About Us</a>
-            <a href="/resources" className="text-blue-600 hover:underline mr-4">Resources</a>
-            <a href="/service-areas" className="text-blue-600 hover:underline">Service Areas</a>
-          </div>
+          <nav className="mb-6 flex flex-wrap justify-center gap-2 md:gap-4">
+            <a href="/services" className="text-blue-600 hover:underline font-medium">Our Services</a>
+            <a href="/pricing" className="text-blue-600 hover:underline font-medium">Pricing</a>
+            <a href="/faq" className="text-blue-600 hover:underline font-medium">FAQ</a>
+            <a href="/about" className="text-blue-600 hover:underline font-medium">About Us</a>
+            <a href="/resources" className="text-blue-600 hover:underline font-medium">Resources</a>
+            <a href="/service-areas" className="text-blue-600 hover:underline font-medium">Service Areas</a>
+          </nav>
           {/* Testimonial image and carousel side by side on desktop, stacked on mobile */}
           <div className="mb-8 flex flex-col md:flex-row md:items-center md:space-x-8">
             <div className="flex justify-center md:block mb-4 md:mb-0">
-              <Image src="/images/process-server-client-testimonials-reviews.png" alt="Client Reviews" width={260} height={260} className="rounded-lg shadow-lg w-auto h-40 md:h-56 lg:h-64" priority />
+              <Image src="/badges/locally-owned-operated-badge.png" alt="Locally Owned & Operated Oklahoma Badge" width={180} height={180} className="rounded-lg shadow-lg w-auto h-32 md:h-44 lg:h-52" priority />
             </div>
             <div className="flex-1">
               <Carousel className="w-full max-w-xl mx-auto">
