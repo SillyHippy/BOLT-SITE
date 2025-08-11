@@ -1,3 +1,50 @@
+// --- SEO Metadata for 2025 ---
+export const metadata = {
+  title: 'Contact Just Legal Solutions | Oklahoma Process Server & Legal Support 2025',
+  description: 'Contact Just Legal Solutions for 24/7 process serving, legal courier, and business support in Tulsa County and statewide Oklahoma. Fast, secure, and trusted by law firms. Call (539) 367-6832 or email for immediate help.',
+  keywords: [
+    'contact process server',
+    'oklahoma process server',
+    'tulsa process server contact',
+    'legal courier oklahoma',
+    'business services contact',
+    '2025 process serving',
+    'emergency process server',
+    'licensed bonded process server',
+    'just legal solutions contact'
+  ],
+  authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
+  creator: 'Just Legal Solutions',
+  publisher: 'Just Legal Solutions',
+  category: 'Contact Information',
+  robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/contact'
+  },
+  openGraph: {
+    title: 'Contact Just Legal Solutions | Oklahoma Process Server & Legal Support 2025',
+    description: 'Contact Just Legal Solutions for 24/7 process serving, legal courier, and business support in Tulsa County and statewide Oklahoma. Fast, secure, and trusted by law firms.',
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://justlegalsolutions.org/contact',
+    siteName: 'Just Legal Solutions',
+    images: [
+      {
+        url: 'https://justlegalsolutions.org/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Contact Just Legal Solutions - Oklahoma Process Server & Legal Support',
+      }
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Contact Just Legal Solutions | Oklahoma Process Server & Legal Support 2025',
+    description: 'Contact Just Legal Solutions for 24/7 process serving, legal courier, and business support in Tulsa County and statewide Oklahoma. Fast, secure, and trusted by law firms.',
+    images: ['https://justlegalsolutions.org/og-image.png'],
+    site: '@JustLegalOK',
+  }
+};
 
 import React from 'react';
 import {
