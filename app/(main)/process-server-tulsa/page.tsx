@@ -48,6 +48,7 @@ export default function ProcessServerTulsaPage() {
       {/* Unique Tulsa County Hero Section with Images */}
       <section className="bg-white py-10 border-b">
         <div className="container mx-auto px-4 max-w-5xl">
+          <h1 className="text-4xl md:text-5xl font-bold text-blue-900 mb-8 text-center">Tulsa County Process Server</h1>
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="flex-1">
               <h2 className="text-2xl font-bold text-blue-900 mb-4">Tulsa County’s Legal Heart</h2>

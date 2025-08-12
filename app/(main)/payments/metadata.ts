@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Payment Options | Just Legal Solutions',
     description: 'Secure and convenient payment options for legal services. Accept cash, check, money orders, and electronic payments.',
-    url: 'https://justlegalsolutions.org/payments',
+  url: 'https://justlegalsolutions.org/payments/',
     images: [
       {
         url: '/images/jls-logo.webp',

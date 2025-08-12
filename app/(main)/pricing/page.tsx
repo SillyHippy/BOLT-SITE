@@ -41,9 +41,9 @@ export default function PricingPage() {
         reviewCount={156}
       />
       <main className="min-h-screen bg-white font-sans">
-      
       <section className="pt-24 pb-10 px-4 bg-gray-100">
         <div className="max-w-7xl mx-auto text-center">
+          <h1 className="text-4xl md:text-5xl font-bold text-blue-900 mb-6">Process Server Pricing</h1>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">JLS Wants to Partner with You</h2>
           <p className="text-gray-700 text-lg font-medium max-w-4xl mx-auto mb-6">
             <strong>If you don&apos;t see exactly what you&apos;re looking for</strong> in our service offerings, have a particularly complex or unique situation, or <strong>need more competitive pricing</strong>, we encourage you to reach out <strong>before exploring alternatives.</strong> We&apos;re happy to discuss your specific needs and create tailored solutions that work for you.
