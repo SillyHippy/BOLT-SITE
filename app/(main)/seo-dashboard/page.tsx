@@ -9,17 +9,7 @@ export const metadata: Metadata = {
   }
 };
 
-import { Metadata } from 'next';
 
-export const metadata: Metadata = {
-  title: 'SEO Dashboard - Just Legal Solutions',
-  description: 'SEO dashboard—track website performance, search visibility, and page health for Just Legal Solutions.',
-  keywords: ['SEO dashboard', 'website performance monitoring', 'search engine optimization analytics'],
-  robots: 'noindex, nofollow',
-  alternates: {
-    canonical: 'https://justlegalsolutions.org/seo-dashboard'
-  }
-};
 
 const SeoDashboardPage = () => {
   return (
