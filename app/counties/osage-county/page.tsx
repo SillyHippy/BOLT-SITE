@@ -12,11 +12,11 @@ import { Footer } from '@/components/ui/footer';
 
 export const metadata: Metadata = {
   title: 'Pawhuska Tribal Court & Skiatook Civil Litigation Support | Osage County | Just Legal Solutions',
-  description: 'Licensed process server throughout Osage County, Oklahoma. Serving Pawhuska, Skiatook. Same-day service available.',
+  description: 'Osage County’s process server—serving Pawhuska, Skiatook, Hominy, and all tribal and rural communities. Local expertise for legal document delivery, court papers, and urgent legal needs.',
   keywords: 'process server Osage County, legal document service Osage County, court papers Oklahoma, Pawhuska courthouse, process serving Pawhuska Skiatook, skip tracing Osage County',
   openGraph: {
     title: 'Skiatook Emergency Summons & Pawhuska Federal Document Service',
-    description: 'Licensed process server throughout Osage County, Oklahoma. Professional legal document service in all cities and towns.',
+  description: 'Legal document service for every city and town in Osage County—trusted by attorneys, families, and businesses for reliable, local process serving.',
     url: 'https://justlegalsolutions.org/counties/osage-county',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Pawhuska Oil Rights Litigation & Native American Law Support | Osage',
-    description: 'Licensed process server throughout Osage County, Oklahoma. Professional service in all cities.',
+  description: 'Process serving in Osage County—covering Pawhuska, Skiatook, and rural areas with professional, prompt legal document delivery.',
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/counties/osage-county',

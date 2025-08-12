@@ -12,11 +12,11 @@ import { Footer } from '@/components/ui/footer';
 
 export const metadata: Metadata = {
   title: 'Washington County Legal Document Delivery | Bartlesville Court Papers | Just Legal Solutions',
-  description: 'Licensed process server throughout Washington County, Oklahoma. Serving Bartlesville. Same-day service available.',
+  description: 'Washington County’s trusted process server—serving Bartlesville, Dewey, and all communities with fast, licensed legal document delivery. Local expertise for court papers, evictions, and urgent legal needs.',
   keywords: 'process server Washington County, legal document service Washington County, court papers Oklahoma, Bartlesville courthouse, process serving Bartlesville, skip tracing Washington County',
   openGraph: {
     title: 'Bartlesville & Washington County Legal Service | Court Document Delivery',
-    description: 'Licensed process server throughout Washington County, Oklahoma. Professional legal document service in all cities and towns.',
+  description: 'Legal document service for every city and town in Washington County, Oklahoma—trusted by attorneys, families, and businesses for reliable, local process serving.',
     url: 'https://justlegalsolutions.org/counties/washington-county',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Bartlesville Court Papers & Legal Documents | Washington County Service',
-    description: 'Licensed process server throughout Washington County, Oklahoma. Professional service in all cities.',
+  description: 'Process serving in Washington County—covering Bartlesville, Dewey, and rural areas with professional, prompt legal document delivery.',
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/counties/washington-county',

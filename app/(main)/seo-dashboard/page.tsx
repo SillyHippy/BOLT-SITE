@@ -1,9 +1,19 @@
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'SEO Dashboard | Just Legal Solutions',
+  description: 'Monitor your legal website’s SEO performance, keyword rankings, and optimization progress with the Just Legal Solutions SEO Dashboard. Designed for attorneys and businesses in Oklahoma.',
+  keywords: 'seo dashboard, legal seo, keyword rankings, website optimization, just legal solutions',
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/seo-dashboard'
+  }
+};
 
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'SEO Dashboard - Just Legal Solutions',
-  description: 'Monitor SEO performance and page health for all Just Legal Solutions pages.',
+  description: 'SEO dashboard—track website performance, search visibility, and page health for Just Legal Solutions.',
   keywords: ['SEO dashboard', 'website performance monitoring', 'search engine optimization analytics'],
   robots: 'noindex, nofollow',
   alternates: {

@@ -14,7 +14,7 @@ import PerformanceSchema from '@/components/ui/performance-schema';
 // Enhanced metadata for maximum SEO impact
 export const metadata: Metadata = {
   title: 'What Is a Process Server? Professional Legal Document Delivery in Tulsa, Oklahoma | Just Legal Solutions',
-  description: 'Professional process server in Tulsa, Oklahoma with 10+ years legal experience. Licensed & bonded. Same-day service available 24/7. Call (539) 367-6832 for reliable service of process throughout Oklahoma.',
+  description: 'Learn what a process server does in Oklahoma—expert legal document delivery, court papers, and subpoenas. Trusted by law firms and individuals for fast, licensed, and reliable service.',
   keywords: [
     'what is a process server',
     'process server Tulsa',
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'What Is a Process Server? Professional Legal Document Delivery in Tulsa, Oklahoma',
-    description: 'Professional process server in Tulsa, Oklahoma with 10+ years legal experience. Licensed & bonded. 24/7 emergency service available.',
+  description: 'Oklahoma process server with 10+ years experience—licensed, bonded, and available 24/7 for urgent legal document delivery and court papers.',
     url: 'https://justlegalsolutions.org/seo/what-is-a-process-server',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',

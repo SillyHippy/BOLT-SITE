@@ -8,7 +8,7 @@ import ReviewSchema from '@/components/ReviewSchema';
 
 export const metadata: Metadata = {
   title: 'Sitemap | Just Legal Solutions',
-  description: 'A complete list of all pages on the Just Legal Solutions website. Easily navigate to any of our services or resources.',
+  description: 'Sitemap for Just Legal Solutions—navigate all services, resources, and legal support pages in one place.',
   robots: 'index, follow'
 };
 

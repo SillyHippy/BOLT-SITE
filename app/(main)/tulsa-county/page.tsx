@@ -9,13 +9,13 @@ import ReviewSchema from '@/components/ReviewSchema';
 export const metadata: Metadata = {
   title: 'Tulsa County Process Server & Legal Document Services | Same-Day Delivery',
   description:
-    'Tulsa County’s trusted process server: Same-day legal document delivery for every city, suburb, and rural community. Licensed, bonded, and experienced with Tulsa’s unique court system. Fast, secure, and locally connected—serving Tulsa, Broken Arrow, Bixby, Jenks, Sand Springs, and all neighborhoods.',
+    'Tulsa County’s trusted process server—same-day legal document delivery for every city, suburb, and rural community. Local expertise for court papers, evictions, and urgent legal needs. Serving Tulsa, Broken Arrow, Bixby, Jenks, Sand Springs, and all neighborhoods.',
   keywords:
     'tulsa county process server, legal document delivery tulsa county, process server tulsa, process server broken arrow, process server bixby, process server jenks, process server sand springs, serve papers tulsa, subpoena service tulsa county',
   alternates: { canonical: 'https://justlegalsolutions.org/tulsa-county' },
   openGraph: {
     title: 'Tulsa County Process Server & Legal Document Services | Just Legal Solutions',
-    description: 'Licensed, bonded, and fast process servers for every city and community in Tulsa County, Oklahoma.',
+  description: 'Process servers for every city and community in Tulsa County—licensed, bonded, and fast. Local, reliable, and trusted by attorneys and families.',
     url: 'https://justlegalsolutions.org/tulsa-county',
     siteName: 'Just Legal Solutions',
     images: [
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Tulsa County Process Server & Legal Document Services',
-    description: 'Same-day process serving and legal document delivery for all Tulsa County cities and towns.',
+  description: 'Same-day process serving and legal document delivery for all Tulsa County cities and towns—trusted by law firms, businesses, and individuals.',
     images: ['https://justlegalsolutions.org/images/tulsa-county-courthouse.jpeg'],
   },
 };

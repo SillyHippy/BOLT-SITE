@@ -9,7 +9,7 @@ import { Check } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Tulsa County Process Server | Fast & Reliable | Just Legal Solutions',
-  description: 'Certified process server for Tulsa County, OK. We provide fast, reliable, and compliant legal document delivery for attorneys, law firms, and the public. Same-day service available.',
+  description: 'Certified process server for Tulsa County—fast, reliable, and compliant legal document delivery for attorneys, law firms, and the public. Same-day and emergency service available.',
   keywords: 'process server tulsa county, tulsa county legal services, certified process server tulsa, reliable process serving',
   alternates: {
     canonical: 'https://justlegalsolutions.org/process-server-tulsa'

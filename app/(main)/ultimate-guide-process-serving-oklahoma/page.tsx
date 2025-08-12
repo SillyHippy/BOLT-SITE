@@ -10,7 +10,7 @@ import ReviewSchema from '@/components/ReviewSchema';
 
 export const metadata: Metadata = {
   title: 'Ultimate Guide to Process Serving in Oklahoma | Laws, Procedures & Best Practices',
-  description: 'Complete 2025 guide to Oklahoma process serving laws, procedures, and requirements. Expert insights on legal document delivery, affidavits of service, and compliance with Oklahoma statutes.',
+  description: '2025 guide to Oklahoma process serving—laws, procedures, and expert tips for legal document delivery, affidavits, and compliance. Trusted resource for attorneys and individuals.',
   keywords: [
     'oklahoma process serving guide',
     'oklahoma process server laws', 
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Ultimate Guide to Process Serving in Oklahoma | Complete Legal Resource',
-    description: 'Comprehensive 2025 guide to Oklahoma process serving laws, procedures, and best practices. Expert legal insights and professional guidance.',
+  description: 'Comprehensive 2025 guide to Oklahoma process serving—laws, procedures, and best practices. Expert legal insights and professional guidance for attorneys and the public.',
     url: 'https://justlegalsolutions.org/ultimate-guide-process-serving-oklahoma',
     siteName: 'Just Legal Solutions',
     images: [
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Ultimate Guide to Process Serving in Oklahoma',
-    description: 'Complete guide to Oklahoma process serving laws, procedures, and best practices for 2025.',
+  description: 'Complete guide to Oklahoma process serving—laws, procedures, and best practices for 2025. Everything you need to know for legal compliance.',
     images: ['https://www.okbar.org/wp-content/uploads/2019/02/Fotolia_173531621_Subscription_Monthly_M-gavel-books.jpg'],
   },
   alternates: {

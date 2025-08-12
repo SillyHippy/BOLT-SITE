@@ -5,7 +5,7 @@ import ReviewSchema from '@/components/ReviewSchema';
 
 export const metadata: Metadata = {
   title: 'Emergency Process Server Tulsa | Same-Day Legal Document Delivery | Just Legal Solutions',
-  description: 'URGENT process serving in Tulsa? Get documents served TODAY! Licensed Oklahoma process servers with 2-hour emergency service. Call (539) 367-6832 for immediate service throughout Tulsa County.',
+  description: 'Emergency process server in Tulsa—get legal documents served today! Licensed Oklahoma process servers with 2-hour emergency service for urgent court papers and subpoenas.',
   keywords: ['urgent process server tulsa', 'same day process serving', 'emergency document delivery', 'fast process server oklahoma', 'tulsa county legal services', '2 hour process serving', 'emergency court papers', 'urgent subpoena service', 'rush legal documents tulsa'],
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Emergency Process Server Tulsa | Same-Day Legal Document Delivery | Just Legal Solutions',
-    description: 'URGENT process serving in Tulsa? Get documents served TODAY! Licensed Oklahoma process servers with 2-hour emergency service. Call (539) 367-6832 for immediate service.',
+  description: 'Tulsa emergency process serving—2-hour rush service for urgent legal documents, court papers, and subpoenas. Fast, licensed, and reliable.',
     type: 'website',
     locale: 'en_US',
     url: 'https://justlegalsolutions.org/urgent-process-server',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Emergency Process Server Tulsa | Same-Day Legal Document Delivery',
-    description: 'URGENT process serving in Tulsa? Get documents served TODAY! Licensed Oklahoma process servers with 2-hour emergency service.',
+  description: 'Get documents served today in Tulsa—licensed emergency process servers with 2-hour rush service for urgent legal needs.',
     images: ['https://justlegalsolutions.org/images/urgent-process-server-og.jpg']
   },
   alternates: {

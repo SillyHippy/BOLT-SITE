@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 export const metadata = {
   title: 'Why Choose Us | Best Oklahoma Process Server | Just Legal Solutions',
-  description: 'Discover why Just Legal Solutions is Oklahoma’s most trusted, AI-powered process server. Fast, reliable, and professional service with 24/7 support, transparent pricing, and advanced technology.',
+  description: 'Why choose Just Legal Solutions? Oklahoma’s most trusted, AI-powered process server—fast, reliable, and professional with 24/7 support, transparent pricing, and advanced technology.',
   keywords: 'why choose us, best process server, oklahoma, AI legal solutions, 24/7 process server',
 };
 

@@ -12,11 +12,11 @@ import { Footer } from '@/components/ui/footer';
 
 export const metadata: Metadata = {
   title: 'Tulsa County Legal Document Service | Metropolitan Process Serving | Just Legal Solutions',
-  description: 'Licensed process server throughout Tulsa County, Oklahoma. Serving Tulsa, Broken Arrow, Owasso, Bixby, Jenks, Sand Springs, Glenpool, Collinsville. Same-day service available.',
+  description: 'Tulsa County’s process server—serving Tulsa, Broken Arrow, Owasso, Bixby, Jenks, Sand Springs, Glenpool, Collinsville, and all communities. Fast, local legal document delivery for every need.',
   keywords: 'process server Tulsa County, legal document service Tulsa County, court papers Oklahoma, Tulsa County courthouse, process serving Broken Arrow Owasso Bixby, skip tracing Tulsa County, licensed process server Oklahoma, process server near me Tulsa, Tulsa County process serving, legal papers delivery Tulsa, subpoena service Tulsa County, divorce papers service Tulsa, eviction notice service Oklahoma, civil litigation support Tulsa, process server 74101 74103 74104 74105 74106 74107, legal document delivery Broken Arrow, court filing Tulsa County courthouse, professional process server Oklahoma',
   openGraph: {
     title: 'Tulsa County Metropolitan Legal Documents | Process Serving Service',
-    description: 'Licensed process server throughout Tulsa County, Oklahoma. Professional legal document service in all cities and towns.',
+  description: 'Legal document service for every city and town in Tulsa County—trusted by law firms, families, and businesses for reliable, local process serving.',
     url: 'https://justlegalsolutions.org/counties/tulsa-county',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Tulsa County Court Documents & Civil Litigation | Metro Area Service',
-    description: 'Licensed process server throughout Tulsa County, Oklahoma. Professional service in all cities.',
+  description: 'Process serving in Tulsa County—covering all cities, suburbs, and rural areas with professional, prompt legal document delivery.',
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/counties/tulsa-county',

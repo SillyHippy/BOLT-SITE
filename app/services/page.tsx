@@ -15,7 +15,7 @@ import PerformanceSchema from '@/components/ui/performance-schema';
 
 export const metadata = {
   title: 'Business Solutions & Executive Support Services | Just Legal Solutions',
-  description: 'Professional executive assistant services including event coordination, HR & payroll, travel management, customer service, and data entry solutions in Oklahoma. Starting at $15/hr.',
+  description: 'Business solutions and executive support—event coordination, HR, payroll, travel, customer service, and data entry for Oklahoma businesses. Starting at $15/hr.',
   keywords: ['executive assistant oklahoma', 'event planning tulsa', 'HR payroll services', 'travel management', 'customer service oklahoma', 'data entry services', 'business solutions oklahoma', 'administrative support tulsa'],
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
