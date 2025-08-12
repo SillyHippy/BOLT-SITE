@@ -13,6 +13,18 @@ export const metadata: Metadata = {
 const CompetitorAnalysisPage = () => {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'WebPage',
+            name: 'Why Choose Just Legal Solutions Over Competitors | Oklahoma Process Server',
+            description: 'A clear comparison of Just Legal Solutions vs. other Oklahoma process servers. See why our guaranteed same-day service, 24/7 availability, and transparent pricing make us the #1 choice.',
+            url: 'https://justlegalsolutions.org/competitor-analysis'
+          })
+        }}
+      />
       <Navbar />
       <main className="min-h-screen bg-gray-50">
         <div className="container mx-auto px-4 py-16 pt-24">

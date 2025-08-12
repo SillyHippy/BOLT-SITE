@@ -12,6 +12,18 @@ export const metadata = {
 export default function WeekendEmergency() {
   return (
     <>
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                '@context': 'https://schema.org',
+                '@type': 'WebPage',
+                name: 'Weekend & Emergency Process Server | Oklahoma',
+                description: 'Need urgent legal documents served on weekends or after hours? Our Oklahoma process servers are available 24/7 for emergency service of process.',
+                url: 'https://justlegalsolutions.org/weekend-emergency'
+              })
+            }}
+          />
       <Navbar />
       <main className="container mx-auto px-4 py-8 mt-12">
         <section className="flex flex-col md:flex-row items-start gap-8 mb-10">

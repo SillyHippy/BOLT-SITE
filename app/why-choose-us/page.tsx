@@ -12,6 +12,18 @@ export const metadata = {
 export default function WhyChooseUs() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'WebPage',
+            name: 'Why Choose Us | Best Oklahoma Process Server | Just Legal Solutions',
+            description: 'Why choose Just Legal Solutions? Oklahoma’s most trusted, AI-powered process server—fast, reliable, and professional with 24/7 support, transparent pricing, and advanced technology.',
+            url: 'https://justlegalsolutions.org/why-choose-us'
+          })
+        }}
+      />
       <Navbar />
       <main className="container mx-auto px-4 py-8 mt-12">
         <section className="flex flex-col md:flex-row items-start gap-8 mb-10">
