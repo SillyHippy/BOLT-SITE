@@ -10,7 +10,7 @@ import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
   title: 'Owasso Court Document Service | Fast Process Serving | Just Legal Solutions',
-  description: 'Process server serving Owasso and northern Tulsa County. Quick response for court documents, subpoenas, and legal notices.',
+  description: 'Owasso’s process server for families, businesses, and attorneys—delivering court papers, subpoenas, and urgent legal documents in North Owasso, East Owasso, and every neighborhood with local care and professionalism.',
   keywords: 'process server owasso, legal document service owasso, serve papers owasso, court documents owasso, subpoena service owasso, eviction notice owasso, emergency process server owasso, 24/7 process server oklahoma, licensed process server tulsa county, professional process server owasso',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',

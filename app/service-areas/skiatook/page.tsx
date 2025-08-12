@@ -10,7 +10,7 @@ import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
   title: 'Skiatook Process Server | Legal Document Service | Just Legal Solutions',
-  description: 'Rural process server serving Skiatook and surrounding Osage County. Expert navigation of rural addresses and remote locations.',
+  description: 'Process serving in Skiatook, Oklahoma—covering Osage and Tulsa County, lakeside homes, and rural businesses. We deliver legal documents with insight into Skiatook Lake, local courts, and the needs of the community.',
   keywords: 'process server skiatook, legal document service skiatook, serve papers skiatook, court documents skiatook, subpoena service skiatook, eviction notice skiatook, emergency process server skiatook, 24/7 process server oklahoma, licensed process server tulsa county, professional process server skiatook',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',

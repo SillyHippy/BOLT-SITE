@@ -10,7 +10,7 @@ import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
   title: 'Collinsville Process Serving | Legal Document Delivery Oklahoma | Just Legal Solutions',
-  description: 'Process server covering Collinsville and northern Oklahoma areas. Specialized service for small town legal document needs.',
+  description: 'Collinsville’s process server—delivering legal documents and court papers to homes, farms, and businesses in Collinsville and rural northern Tulsa County. Local, reliable, and always available for your needs.',
   keywords: 'process server collinsville, legal document service collinsville, serve papers collinsville, court documents collinsville, subpoena service collinsville, eviction notice collinsville, emergency process server collinsville, 24/7 process server oklahoma, licensed process server tulsa county, professional process server collinsville',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',

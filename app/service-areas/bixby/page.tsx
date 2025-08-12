@@ -10,7 +10,7 @@ import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
   title: 'Bixby Process Serving | Civil & Family Court Documents | Just Legal Solutions',
-  description: 'Professional document service in Bixby, Oklahoma. Covering residential and business districts with prompt legal paper delivery.',
+  description: 'Bixby’s process server—handling court documents, family law, and urgent legal delivery for neighborhoods, schools, and businesses. Fast, licensed, and reliable with same-day and after-hours service.',
   keywords: 'process server bixby, legal document service bixby, serve papers bixby, court documents bixby, subpoena service bixby, eviction notice bixby, emergency process server bixby, 24/7 process server oklahoma, licensed process server tulsa county, professional process server bixby',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',

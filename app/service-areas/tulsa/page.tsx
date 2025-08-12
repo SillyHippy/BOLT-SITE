@@ -10,7 +10,7 @@ import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
   title: 'Tulsa Process Server | Legal Document Service | Just Legal Solutions',
-  description: 'Experienced process server serving Tulsa, Oklahoma\'s largest city. We handle all major court districts and legal firms throughout Tulsa County. Licensed and bonded service.',
+  description: 'Tulsa’s top process server—delivering urgent, routine, and court-ordered legal documents in downtown, Brookside, Midtown, and all neighborhoods. Trusted by law firms and individuals for fast, secure, 24/7 service.',
   keywords: 'process server tulsa, legal document service tulsa, serve papers tulsa, court documents tulsa, subpoena service tulsa, eviction notice tulsa, emergency process server tulsa, 24/7 process server oklahoma, licensed process server tulsa county, professional process server tulsa',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',

@@ -10,7 +10,7 @@ import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
   title: 'Broken Arrow Process Server | Legal Document Service | Just Legal Solutions',
-  description: 'Reliable process server in Broken Arrow, OK. Serving this growing suburban community with efficient legal document delivery. Fast response times.',
+  description: 'Broken Arrow’s process server—delivering legal documents, subpoenas, and urgent court papers in Rose District, New Orleans Square, and all neighborhoods. Fast, licensed, and local with same-day and emergency service.',
   keywords: 'process server broken arrow, legal document service broken arrow, serve papers broken arrow, court documents broken arrow, subpoena service broken arrow, eviction notice broken arrow, emergency process server broken arrow, 24/7 process server oklahoma, licensed process server tulsa county, professional process server broken arrow',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',

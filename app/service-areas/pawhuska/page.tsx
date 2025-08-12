@@ -10,7 +10,7 @@ import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
   title: 'Pawhuska Process Server | Legal Document Service | Just Legal Solutions',
-  description: 'Process server covering Pawhuska, Osage County seat. Expert service for tribal lands and rural Oklahoma areas.',
+  description: 'Pawhuska’s trusted process server—serving Osage County, tribal lands, and rural Oklahoma. We deliver legal documents with respect for local traditions, deep area knowledge, and a focus on Pawhuska’s unique needs.',
   keywords: 'process server pawhuska, legal document service pawhuska, serve papers pawhuska, court documents pawhuska, subpoena service pawhuska, eviction notice pawhuska, emergency process server pawhuska, 24/7 process server oklahoma, licensed process server osage county, professional process server pawhuska',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',

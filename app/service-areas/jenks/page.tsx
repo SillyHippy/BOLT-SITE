@@ -10,7 +10,7 @@ import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
   title: 'Jenks Legal Papers Service | Divorce & Court Documents | Just Legal Solutions',
-  description: 'Dedicated process server for Jenks, OK. Serving this riverside community with reliable legal document delivery services.',
+  description: 'Jenks process server—delivering divorce papers, family law documents, and court notices across Jenks schools, neighborhoods, and businesses. Rely on our local knowledge and 24/7 service for secure, prompt delivery.',
   keywords: 'process server jenks, legal document service jenks, serve papers jenks, court documents jenks, subpoena service jenks, eviction notice jenks, emergency process server jenks, 24/7 process server oklahoma, licensed process server tulsa county, professional process server jenks',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',

@@ -9,7 +9,7 @@ import ReviewSchema from '@/components/ReviewSchema';
 export const metadata: Metadata = {
   title: 'Tulsa County Process Server & Legal Document Services | Same-Day Delivery',
   description:
-    'Professional process server services for every city and community in Tulsa County. Licensed, bonded, fast turnaround, with coverage in Tulsa, Broken Arrow, Bixby, Jenks, Sand Springs, and more.',
+    'Tulsa County’s trusted process server: Same-day legal document delivery for every city, suburb, and rural community. Licensed, bonded, and experienced with Tulsa’s unique court system. Fast, secure, and locally connected—serving Tulsa, Broken Arrow, Bixby, Jenks, Sand Springs, and all neighborhoods.',
   keywords:
     'tulsa county process server, legal document delivery tulsa county, process server tulsa, process server broken arrow, process server bixby, process server jenks, process server sand springs, serve papers tulsa, subpoena service tulsa county',
   alternates: { canonical: 'https://justlegalsolutions.org/tulsa-county' },

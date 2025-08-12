@@ -10,7 +10,7 @@ import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
   title: 'Sand Springs Process Server | Legal Document Service | Just Legal Solutions',
-  description: 'Process serving throughout Sand Springs and west Tulsa County. Experienced with local court systems and legal requirements.',
+  description: 'Sand Springs legal document delivery—trusted by families, attorneys, and businesses. We serve Prattville, Wekiwa, and all neighborhoods with local expertise, fast response, and personal attention to every case.',
   keywords: 'process server sand springs, legal document service sand springs, serve papers sand springs, court documents sand springs, subpoena service sand springs, eviction notice sand springs, emergency process server sand springs, 24/7 process server oklahoma, licensed process server tulsa county, professional process server sand springs',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',

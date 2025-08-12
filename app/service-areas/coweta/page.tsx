@@ -10,7 +10,7 @@ import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
   title: 'Coweta Process Server | Legal Document Service | Just Legal Solutions',
-  description: 'Local process server covering Coweta and southern Wagoner County. Quick turnaround for legal document delivery.',
+  description: 'Coweta’s process server—delivering court papers, evictions, and legal documents for families, businesses, and rural properties in Tiger Ridge, downtown, and all neighborhoods. Trusted for local care and fast response in Wagoner County.',
   keywords: 'process server coweta, legal document service coweta, serve papers coweta, court documents coweta, subpoena service coweta, eviction notice coweta, emergency process server coweta, 24/7 process server oklahoma, licensed process server wagoner county, professional process server coweta',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',

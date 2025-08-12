@@ -10,7 +10,7 @@ import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
   title: 'Wagoner Process Server | Legal Document Service | Just Legal Solutions',
-  description: 'Process server for Wagoner County and surrounding communities. Reliable service for court documents and legal papers.',
+  description: 'Wagoner’s process server for families, businesses, and rural properties—serving all of Wagoner County, including Porter, Redbird, and Fort Gibson Lake. Fast, discreet, and always reliable with true local expertise.',
   keywords: 'process server wagoner, legal document service wagoner, serve papers wagoner, court documents wagoner, subpoena service wagoner, eviction notice wagoner, emergency process server wagoner, 24/7 process server oklahoma, licensed process server wagoner county, professional process server wagoner',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',

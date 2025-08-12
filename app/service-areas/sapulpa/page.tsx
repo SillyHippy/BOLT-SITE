@@ -10,7 +10,7 @@ import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
   title: 'Sapulpa Legal Document Delivery | Process Serving Services | Just Legal Solutions',
-  description: 'Local process server covering Sapulpa and surrounding Creek County areas. Specializing in rural and suburban legal document service.',
+  description: 'Sapulpa’s legal document specialists—serving historic downtown, neighborhoods, and rural addresses. We know Creek County courts and deliver court papers with local expertise and a commitment to Sapulpa’s unique community.',
   keywords: 'process server sapulpa, legal document service sapulpa, serve papers sapulpa, court documents sapulpa, subpoena service sapulpa, eviction notice sapulpa, emergency process server sapulpa, 24/7 process server oklahoma, licensed process server creek county, professional process server sapulpa',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',

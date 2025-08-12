@@ -10,7 +10,7 @@ import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
   title: 'Claremore Process Server | Legal Document Service | Just Legal Solutions',
-  description: 'Process server in Claremore, Rogers County seat. Covering courthouse proceedings and legal document delivery throughout the area.',
+  description: 'Claremore’s trusted process server—serving courthouse, neighborhoods, and lakeside communities. We deliver legal documents and evictions across Sequoyah State Park, Claremore Lake, and Rogers County with local expertise.',
   keywords: 'process server claremore, legal document service claremore, serve papers claremore, court documents claremore, subpoena service claremore, eviction notice claremore, emergency process server claremore, 24/7 process server oklahoma, licensed process server rogers county, professional process server claremore',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',

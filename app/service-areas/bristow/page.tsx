@@ -10,7 +10,7 @@ import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
   title: 'Bristow Process Server | Legal Document Service | Just Legal Solutions',
-  description: 'Process server covering Bristow and Creek County. Experienced with rural routes and small town legal requirements.',
+  description: 'Bristow’s legal document service—serving small towns, farms, and rural homes across Creek County. We focus on Bristow’s unique community, delivering court papers and legal documents with local care.',
   keywords: 'process server bristow, legal document service bristow, serve papers bristow, court documents bristow, subpoena service bristow, eviction notice bristow, emergency process server bristow, 24/7 process server oklahoma, licensed process server creek county, professional process server bristow',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',

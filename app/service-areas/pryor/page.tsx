@@ -10,7 +10,7 @@ import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
   title: 'Pryor Oklahoma Legal Papers Service | Divorce & Eviction Documents | Just Legal Solutions',
-  description: 'Professional service covering Pryor Creek and Mayes County. Experienced with local court systems and legal procedures.',
+  description: 'Legal document delivery in Pryor, Oklahoma—trusted by local families, businesses, and rural landowners. We serve Mayes County with deep knowledge of Pryor Creek, area courts, and fast, accurate service for every neighborhood.',
   keywords: 'process server pryor, legal document service pryor, serve papers pryor, court documents pryor, subpoena service pryor, eviction notice pryor, emergency process server pryor, 24/7 process server oklahoma, licensed process server mayes county, professional process server pryor',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',
