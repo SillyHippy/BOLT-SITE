@@ -208,7 +208,7 @@ export default function AboutPage() {
             <h3 className="text-2xl font-semibold text-gray-800 mb-4">1. Unmatched Speed with <Link href="/urgent-process-server" className="text-blue-600 hover:text-blue-800">24/7 Emergency Service</Link></h3>
 
             <p className="mb-6">
-              Legal emergencies don&apos;t keep business hours. Recognizing this, the company operates a dedicated <Link href="/urgent-process-server" className="text-blue-600 hover:text-blue-800">24/7 emergency</Link> hotline. Whether a client needs an emergency <Link href="/process-server-tulsa" className="text-blue-600 hover:text-blue-800">process server</Link> in <Link href="/tulsa-process-server" className="text-blue-600 hover:text-blue-800">Tulsa</Link> for a last-minute <Link href="/urgent-process-server" className="text-blue-600 hover:text-blue-800">restraining order</Link>, same-day legal document delivery in <Link href="/process-server-broken-arrow" className="text-blue-600 hover:text-blue-800">Broken Arrow</Link> for an urgent court filing, or weekend service for a hard-to-reach individual in <Link href="/service-areas/sapulpa" className="text-blue-600 hover:text-blue-800">Sapulpa</Link>, the team is always ready to respond.
+              Legal emergencies don&apos;t keep business hours. Recognizing this, the company operates a dedicated <Link href="/urgent-process-server" className="text-blue-600 hover:text-blue-800">24/7 emergency</Link> hotline. Whether a client needs an emergency <Link href="/process-server-tulsa" className="text-blue-600 hover:text-blue-800">process server</Link> in <Link href="/tulsa-process-server" className="text-blue-600 hover:text-blue-800">Tulsa</Link> for a last-minute <Link href="/urgent-process-server" className="text-blue-600 hover:text-blue-800">restraining order</Link>, same-day legal document delivery in <Link href="/seo/process-server-broken-arrow" className="text-blue-600 hover:text-blue-800">Broken Arrow</Link> for an urgent court filing, or weekend service for a hard-to-reach individual in <Link href="/service-areas/sapulpa" className="text-blue-600 hover:text-blue-800">Sapulpa</Link>, the team is always ready to respond.
             </p>
 
             <h3 className="text-2xl font-semibold text-gray-800 mb-4">2. <Link href="/process-server-tulsa" className="text-blue-600 hover:text-blue-800">AI-Powered Precision and Skip Tracing</Link></h3>
@@ -284,7 +284,7 @@ export default function AboutPage() {
                 <h4 className="text-lg font-semibold mb-3"><Link href="/tulsa-county" className="text-blue-600 hover:text-blue-800">Tulsa County</Link>:</h4>
                 <ul className="list-disc list-inside space-y-1">
                   <li><Link href="/tulsa-process-server" className="text-blue-600 hover:text-blue-800">Tulsa</Link></li>
-                  <li><Link href="/process-server-broken-arrow" className="text-blue-600 hover:text-blue-800">Broken Arrow</Link></li>
+                  <li><Link href="/seo/process-server-broken-arrow" className="text-blue-600 hover:text-blue-800">Broken Arrow</Link></li>
                   <li><Link href="/service-areas/bixby" className="text-blue-600 hover:text-blue-800">Bixby</Link></li>
                   <li><Link href="/service-areas/jenks" className="text-blue-600 hover:text-blue-800">Jenks</Link></li>
                   <li><Link href="/service-areas/owasso" className="text-blue-600 hover:text-blue-800">Owasso</Link></li>
