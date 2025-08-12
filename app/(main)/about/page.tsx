@@ -6,16 +6,74 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'About Us - The Fight That Forged a Business | Just Legal Solutions',
-  description: 'Learn how a 5-year legal battle inspired Just Legal Solutions, Oklahoma\'s premier process serving company. Founded by Joseph Iannazzi after experiencing systemic failure in workers\' compensation.',
+  description: "Learn how a 5-year legal battle inspired Just Legal Solutions, Oklahoma's premier process serving company. Founded by Joseph Iannazzi after experiencing systemic failure in workers' compensation.",
   keywords: 'about us, just legal solutions, joseph iannazzi, process server oklahoma, legal battle, workers compensation, tulsa process server',
   alternates: {
     canonical: 'https://justlegalsolutions.org/about'
+  },
+  openGraph: {
+    title: 'About Us - The Fight That Forged a Business | Just Legal Solutions',
+    description: "Learn how a 5-year legal battle inspired Just Legal Solutions, Oklahoma's premier process serving company. Founded by Joseph Iannazzi after experiencing systemic failure in workers' compensation.",
+    url: 'https://justlegalsolutions.org/about',
+    type: 'article',
+    siteName: 'Just Legal Solutions',
+    images: [
+      {
+        url: 'https://justlegalsolutions.org/images/Headshot.jpg',
+        width: 800,
+        height: 800,
+        alt: 'Joseph Iannazzi, Founder of Just Legal Solutions'
+      }
+    ]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'About Us - The Fight That Forged a Business | Just Legal Solutions',
+    description: "Learn how a 5-year legal battle inspired Just Legal Solutions, Oklahoma's premier process serving company. Founded by Joseph Iannazzi after experiencing systemic failure in workers' compensation.",
+    images: ['https://justlegalsolutions.org/images/Headshot.jpg']
   }
 };
 
 export default function AboutPage() {
   return (
     <>
+      {/* Article Structured Data for SEO, AI, and Voice Search */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'Article',
+            headline: 'About Us - The Fight That Forged a Business | Just Legal Solutions',
+            description: "Learn how a 5-year legal battle inspired Just Legal Solutions, Oklahoma's premier process serving company. Founded by Joseph Iannazzi after experiencing systemic failure in workers' compensation.",
+            author: {
+              '@type': 'Person',
+              name: 'Joseph Iannazzi',
+              url: 'https://justlegalsolutions.org/about'
+            },
+            publisher: {
+              '@type': 'Organization',
+              name: 'Just Legal Solutions',
+              logo: {
+                '@type': 'ImageObject',
+                url: 'https://justlegalsolutions.org/images/jls-logo.webp'
+              }
+            },
+            datePublished: '2023-04-01',
+            dateModified: '2025-08-11',
+            image: [
+              'https://justlegalsolutions.org/images/Headshot.jpg',
+              'https://justlegalsolutions.org/images/OklahomaFlag.jpg',
+              'https://justlegalsolutions.org/images/Tulsa_11.jpg',
+              'https://justlegalsolutions.org/images/Tulsa_skyline_aerial,_April_2023.jpg'
+            ],
+            mainEntityOfPage: {
+              '@type': 'WebPage',
+              '@id': 'https://justlegalsolutions.org/about'
+            }
+          })
+        }}
+      />
       
       <main className="min-h-screen bg-white">
         {/* Hero Section with Profile Layout */}
