@@ -79,7 +79,7 @@ export default function ProcessServerTulsaGuide() {
       <JsonLd data={enhancedLocalBusinessSchema} />
       <JsonLd data={articleSchema} />
       <JsonLd data={breadcrumbSchema} />
-      <main className="max-w-4xl mx-auto px-4 py-8">
+  <main className="max-w-4xl mx-auto px-4 py-8 pt-24">
       <h1 className="text-4xl font-bold mb-4">Complete Guide to Process Server Selection in Tulsa: 2025 Edition</h1>
       <p className="italic mb-6">Your complete resource for selecting, hiring, and working with professional process servers in Tulsa County</p>
       <section className="mb-8">
