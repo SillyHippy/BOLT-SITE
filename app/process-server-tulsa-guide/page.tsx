@@ -2,6 +2,8 @@ import Image from 'next/image';
 import Head from 'next/head';
 import JsonLd from '../../components/JsonLd';
 import enhancedLocalBusinessSchema from '../../components/enhanced-local-business-schema';
+import Navbar from '../../components/ui/navbar';
+import Footer from '../../components/ui/footer';
 
 const canonicalUrl = 'https://justlegalsolutions.org/process-server-tulsa-guide';
 const articleSchema = {
@@ -73,6 +75,7 @@ export default function ProcessServerTulsaGuide() {
         <meta name="language" content="en" />
         <meta name="publish_date" content="2025-08-13" />
       </Head>
+      <Navbar />
       <JsonLd data={enhancedLocalBusinessSchema} />
       <JsonLd data={articleSchema} />
       <JsonLd data={breadcrumbSchema} />
@@ -232,6 +235,7 @@ export default function ProcessServerTulsaGuide() {
         <p className="mt-2 text-sm italic">For more information about process serving requirements in Oklahoma, consult the Oklahoma Administrative Office of the Courts or speak with your attorney about specific case requirements.</p>
       </section>
       </main>
+      <Footer />
     </>
   );
 }
