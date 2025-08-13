@@ -1,8 +1,82 @@
 import Image from 'next/image';
+import Head from 'next/head';
+import JsonLd from '../../components/JsonLd';
+import enhancedLocalBusinessSchema from '../../components/enhanced-local-business-schema';
+
+const canonicalUrl = 'https://justlegalsolutions.org/process-server-tulsa-guide';
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Complete Guide to Process Server Selection in Tulsa: 2025 Edition",
+  "description": "Your complete resource for selecting, hiring, and working with professional process servers in Tulsa County. Learn about Oklahoma laws, pricing, and best practices for 2025.",
+  "image": [
+    "https://justlegalsolutions.org/imagesforblogpost/tulsa-county-courthouse-oklahoma-legal-system.png"
+  ],
+  "author": {
+    "@type": "Person",
+    "name": "JLS Legal Solutions"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Just Legal Solutions",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://justlegalsolutions.org/images/jls-logo.webp"
+    }
+  },
+  "datePublished": "2025-08-13",
+  "dateModified": "2025-08-13",
+  "mainEntityOfPage": canonicalUrl
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://justlegalsolutions.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Process Server Guide",
+      "item": canonicalUrl
+    }
+  ]
+};
 
 export default function ProcessServerTulsaGuide() {
   return (
-    <main className="max-w-4xl mx-auto px-4 py-8">
+    <>
+      <Head>
+        <title>Complete Guide to Process Server Selection in Tulsa: 2025 Edition</title>
+        <meta name="description" content="Your complete resource for selecting, hiring, and working with professional process servers in Tulsa County. Learn about Oklahoma laws, pricing, and best practices for 2025." />
+        <meta name="keywords" content="Tulsa process server, Oklahoma process server, legal document delivery, process server guide, 2025, service of process, legal compliance, pricing, best practices" />
+        <meta property="og:title" content="Complete Guide to Process Server Selection in Tulsa: 2025 Edition" />
+        <meta property="og:description" content="Everything you need to know about hiring a process server in Tulsa, Oklahoma. Legal requirements, pricing, and expert tips for 2025." />
+        <meta property="og:image" content="/imagesforblogpost/tulsa-county-courthouse-oklahoma-legal-system.png" />
+        <meta property="og:type" content="article" />
+        <meta property="og:site_name" content="Just Legal Solutions" />
+        <meta property="og:locale" content="en_US" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Complete Guide to Process Server Selection in Tulsa: 2025 Edition" />
+        <meta name="twitter:description" content="Your complete resource for selecting, hiring, and working with professional process servers in Tulsa County." />
+        <meta name="twitter:image" content="/imagesforblogpost/tulsa-county-courthouse-oklahoma-legal-system.png" />
+        <meta name="twitter:site" content="@JustLegalSolutions" />
+        <meta name="twitter:creator" content="@JustLegalSolutions" />
+        <meta name="author" content="JLS Legal Solutions" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href={canonicalUrl} />
+        <meta name="language" content="en" />
+        <meta name="publish_date" content="2025-08-13" />
+      </Head>
+      <JsonLd data={enhancedLocalBusinessSchema} />
+      <JsonLd data={articleSchema} />
+      <JsonLd data={breadcrumbSchema} />
+      <main className="max-w-4xl mx-auto px-4 py-8">
       <h1 className="text-4xl font-bold mb-4">Complete Guide to Process Server Selection in Tulsa: 2025 Edition</h1>
       <p className="italic mb-6">Your complete resource for selecting, hiring, and working with professional process servers in Tulsa County</p>
       <section className="mb-8">
@@ -157,6 +231,7 @@ export default function ProcessServerTulsaGuide() {
         <p className="mt-4">Remember: the cheapest option is rarely the best choice when proper legal service is required. Invest in professional, licensed, and experienced process servers who understand Oklahoma law and maintain the highest standards of service excellence.</p>
         <p className="mt-2 text-sm italic">For more information about process serving requirements in Oklahoma, consult the Oklahoma Administrative Office of the Courts or speak with your attorney about specific case requirements.</p>
       </section>
-    </main>
+      </main>
+    </>
   );
 }
