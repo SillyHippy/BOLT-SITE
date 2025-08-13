@@ -45,18 +45,3 @@ Crawl-delay: 1
 # Sitemaps
 Sitemap: https://justlegalsolutions.org/sitemap.xml
 Sitemap: https://justlegalsolutions.org/sitemap-images.xml
-
-# Voice Search Optimization - Wed Aug 13 01:10:27 UTC 2025
-# Optimized for Alexa, Google Assistant, Siri
-
-# Competitive Intelligence Update - Wed Aug 13 01:18:43 UTC 2025
-# Market leader in Oklahoma process serving
-
-# AI Assistant Integration - Wed Aug 13 02:09:03 UTC 2025
-# Optimized for ChatGPT, Alexa, Google Assistant
-
-# AI Assistant Integration - Wed Aug 13 04:36:01 UTC 2025
-# Optimized for ChatGPT, Alexa, Google Assistant
-
-# Voice Search Optimization - Wed Aug 13 08:20:07 UTC 2025
-# Optimized for Alexa, Google Assistant, Siri
