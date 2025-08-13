@@ -8,13 +8,13 @@ export default function ProcessServerTulsaGuide() {
       <section className="mb-8">
         <Image src="/imagesforblogpost/tulsa-county-courthouse-oklahoma-legal-system.png" alt="Tulsa County Courthouse" width={800} height={400} className="rounded shadow mb-4" />
         <h2 className="text-2xl font-semibold mb-2">Introduction</h2>
-        <p>When legal proceedings begin, proper service of process stands as one of the most critical steps that can determine the success or failure of your case. In Tulsa, Oklahoma, choosing the right process server isn't just about finding someone to deliver papers—it's about ensuring your legal documents are served correctly, efficiently, and in full compliance with Oklahoma's stringent legal requirements.</p>
-        <p>With improper service potentially leading to case dismissals, significant delays, and costly legal complications, the stakes couldn't be higher. This comprehensive guide provides everything you need to know to make an informed decision when selecting a process server in Tulsa.</p>
+  <p>When legal proceedings begin, proper service of process stands as one of the most critical steps that can determine the success or failure of your case. In Tulsa, Oklahoma, choosing the right process server isn&apos;t just about finding someone to deliver papers—it's about ensuring your legal documents are served correctly, efficiently, and in full compliance with Oklahoma&apos;s stringent legal requirements.</p>
+  <p>With improper service potentially leading to case dismissals, significant delays, and costly legal complications, the stakes couldn&apos;t be higher. This comprehensive guide provides everything you need to know to make an informed decision when selecting a process server in Tulsa.</p>
       </section>
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-2">Understanding Oklahoma's Process Server Legal Framework</h2>
-        <Image src="/imagesforblogpost/professional-process-server-tulsa-delivering-legal-documents.png" alt="Process Server Delivering Documents" width={800} height={400} className="rounded shadow mb-4" />
-        <h3 className="text-xl font-bold mb-2">State Licensing Requirements</h3>
+  <h2 className="text-2xl font-semibold mb-2">Understanding Oklahoma&apos;s Process Server Legal Framework</h2>
+  <Image src="/imagesforblogpost/professional-process-server-tulsa-delivering-legal-documents.png" alt="Process Server Delivering Documents" width={800} height={400} className="rounded shadow mb-4" />
+  <h3 className="text-xl font-bold mb-2">State Licensing Requirements</h3>
         <ul className="list-disc ml-6 mb-4">
           <li>Minimum age of 18 years</li>
           <li>Good moral character verification</li>
@@ -24,22 +24,22 @@ export default function ProcessServerTulsaGuide() {
           <li>$5,000 surety bond execution</li>
           <li>$150 statewide license fee</li>
         </ul>
-        <p className="font-bold">Important: Any person serving process in Oklahoma without proper licensing commits a misdemeanor offense, with exceptions only for Oklahoma attorneys, court clerks, and sheriff's deputies working within their counties.</p>
+  <p className="font-bold">Important: Any person serving process in Oklahoma without proper licensing commits a misdemeanor offense, with exceptions only for Oklahoma attorneys, court clerks, and sheriff&apos;s deputies working within their counties.</p>
       </section>
       <section className="mb-8">
         <h3 className="text-xl font-bold mb-2">Oklahoma Service of Process Laws: What You Must Know</h3>
         <ul className="list-disc ml-6 mb-4">
           <li>Direct personal delivery to the individual defendant</li>
-          <li>Substituted service by leaving documents at defendant's residence with someone 15+ years old</li>
+    <li>Substituted service by leaving documents at defendant&apos;s residence with someone 15+ years old</li>
           <li>Agent service to authorized agents or registered agents for businesses</li>
-          <li>Corporate service to officers, managing agents, or authorized representatives</li>
+    <li>Corporate service to officers, managing agents, or authorized representatives</li>
         </ul>
         <p>Certified mail, publication, and strict time limits apply. Failure to meet deadlines results in automatic case dismissal.</p>
       </section>
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-2">How to Identify Red Flags and Avoid Process Server Scams</h2>
         <ul className="list-disc ml-6 mb-4">
-          <li>No physical business address or only P.O. box listings</li>
+    <li>No physical business address or only P.O. box listings</li>
           <li>Unusually low fees</li>
           <li>Requests for sensitive information</li>
           <li>Lack of proper licensing</li>
