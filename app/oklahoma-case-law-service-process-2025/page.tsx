@@ -61,6 +61,8 @@ export default function OklahomaCaseLawServiceProcess2025() {
         <h1 className="text-4xl font-bold mb-4">Latest Oklahoma Case Law on Service of Process: Key Rulings Every Lawyer Should Know</h1>
         <p className="italic mb-6">Essential 2025 Oklahoma service of process case law updates. Recent court decisions affecting process serving requirements and procedures.</p>
         <Image src="/images/Gavel with dismissed case documents.png" alt="Oklahoma Case Law Service Process" width={800} height={400} className="rounded shadow mb-4" />
+
+        {/* Key Case Law Sections */}
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-2">Electronic Service Authorization: Thompson v. Digital Solutions LLC</h2>
           <p><strong>Case:</strong> Thompson v. Digital Solutions LLC, 2024 OK 32 (July 15, 2024)</p>
@@ -86,6 +88,16 @@ export default function OklahomaCaseLawServiceProcess2025() {
             <li>Permissible late service factors and professional standards</li>
             <li>Balancing service necessity and privacy intrusion</li>
             <li>Emergency and time-sensitive service requirements</li>
+          </ul>
+        </section>
+
+        {/* Internal links to related guides */}
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-2">Related Resources</h2>
+          <ul className="list-disc ml-6 mb-4">
+            <li><a href="/oklahoma-process-server-best-practices-checklist-2025" className="text-blue-700 underline">Process Server Best Practices Checklist</a></li>
+            <li><a href="/oklahoma-process-serving-costs-comparison-2025" className="text-blue-700 underline">Process Serving Costs Comparison</a></li>
+            <li><a href="/high-profile-service-protocols-tulsa-2025" className="text-blue-700 underline">High-Profile Service Protocols Tulsa</a></li>
           </ul>
         </section>
       </main>
