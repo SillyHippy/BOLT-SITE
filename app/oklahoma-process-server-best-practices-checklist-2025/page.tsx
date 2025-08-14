@@ -68,7 +68,7 @@ export default function OklahomaProcessServerBestPracticesChecklist2025() {
           <h2 className="text-2xl font-semibold mb-2">Understanding Oklahoma Service Requirements</h2>
           <h3 className="text-xl font-bold mb-2">Statutory Framework</h3>
           <ul className="list-disc ml-6 mb-4">
-            <li>Oklahoma's service of process laws are primarily governed by 12 O.S. §12-2004, which outlines specific requirements for valid service. Professional process servers must understand these requirements thoroughly to avoid costly mistakes that can jeopardize legal proceedings.</li>
+            <li>Oklahoma&apos;s service of process laws are primarily governed by 12 O.S. §12-2004, which outlines specific requirements for valid service. Professional process servers must understand these requirements thoroughly to avoid costly mistakes that can jeopardize legal proceedings.</li>
             <li><b>Key Statutory Requirements:</b>
               <ul className="list-disc ml-6">
                 <li>Process servers must be at least 18 years old and not parties to the action</li>
@@ -91,7 +91,7 @@ export default function OklahomaProcessServerBestPracticesChecklist2025() {
             <li><b>Authorized Process Servers:</b>
               <ul className="list-disc ml-6">
                 <li>Licensed private investigators</li>
-                <li>Sheriff's deputies and constables</li>
+                <li>Sheriff&apos;s deputies and constables</li>
                 <li>Court-appointed special process servers</li>
                 <li>Attorneys admitted to practice in Oklahoma</li>
                 <li>Adult individuals specifically authorized by court order</li>
