@@ -5,6 +5,7 @@ import Navbar from '../../components/ui/navbar';
 import Footer from '../../components/ui/footer';
 import JsonLd from '../../components/JsonLd';
 
+const canonicalUrl = 'https://justlegalsolutions.org/ai-skip-tracing-guide-oklahoma-2025';
 const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
@@ -29,7 +30,6 @@ const breadcrumbSchema = {
     }
   ]
 };
-const canonicalUrl = 'https://justlegalsolutions.org/ai-skip-tracing-guide-oklahoma-2025';
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
