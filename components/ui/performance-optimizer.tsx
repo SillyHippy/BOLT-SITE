@@ -44,19 +44,14 @@ export const PerformanceOptimizer = () => {
     // Enable smooth scrolling performance with minimal CPU usage
     document.documentElement.style.scrollBehavior = 'smooth';
     
-    // Optimize font loading performance
+    // Optimize font loading performance - Use Google Fonts
     if ('fonts' in document) {
-      // Preload critical font weights
-      const fontPromises = [
-        new FontFace('Inter', 'url(/fonts/inter-regular.woff2)', { weight: '400', display: 'swap' }),
-        new FontFace('Inter', 'url(/fonts/inter-bold.woff2)', { weight: '700', display: 'swap' })
-      ].map(font => {
-        return font.load().then(loadedFont => {
-          document.fonts.add(loadedFont);
-        }).catch(() => {
-          // Fail silently, fallback fonts will be used
-        });
-      });
+      // Let Google Fonts handle font loading optimally
+      const link = document.createElement('link');
+      link.rel = 'preconnect';
+      link.href = 'https://fonts.gstatic.com';
+      link.crossOrigin = 'anonymous';
+      document.head.appendChild(link);
     }
 
     // Optimize third-party scripts loading

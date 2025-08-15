@@ -97,22 +97,8 @@ export const CriticalCSS = () => {
           }
         }
         
-        /* Critical font loading */
-        @font-face {
-          font-family: 'Inter';
-          font-style: normal;
-          font-weight: 400;
-          font-display: swap;
-          src: url('/fonts/inter-regular.woff2') format('woff2');
-        }
-        
-        @font-face {
-          font-family: 'Inter';
-          font-style: normal;
-          font-weight: 700;
-          font-display: swap;
-          src: url('/fonts/inter-bold.woff2') format('woff2');
-        }
+        /* Critical font loading - Use Google Fonts instead of local */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
         
         /* Mobile optimizations */
         @media (max-width: 768px) {
