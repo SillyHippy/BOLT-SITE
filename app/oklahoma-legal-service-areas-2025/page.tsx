@@ -58,11 +58,147 @@ const articleSchema = {
   "mainEntityOfPage": canonicalUrl
 };
 
+const serviceAreaSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Oklahoma Legal Service Areas Coverage",
+  "description": "Comprehensive process serving and legal document delivery across all 77 Oklahoma counties with specialized coverage for urban, suburban, and rural areas.",
+  "provider": {
+    "@type": "LegalService",
+    "name": "Just Legal Solutions",
+    "url": "https://justlegalsolutions.org/",
+    "telephone": "+1-918-551-2301"
+  },
+  "areaServed": [
+    {
+      "@type": "State",
+      "name": "Oklahoma",
+      "containsPlace": [
+        {
+          "@type": "City",
+          "name": "Tulsa",
+          "containedInPlace": {
+            "@type": "AdministrativeArea",
+            "name": "Tulsa County"
+          }
+        },
+        {
+          "@type": "City", 
+          "name": "Oklahoma City",
+          "containedInPlace": {
+            "@type": "AdministrativeArea",
+            "name": "Oklahoma County"
+          }
+        },
+        {
+          "@type": "City",
+          "name": "Broken Arrow",
+          "containedInPlace": {
+            "@type": "AdministrativeArea", 
+            "name": "Tulsa County"
+          }
+        },
+        {
+          "@type": "City",
+          "name": "Sapulpa",
+          "containedInPlace": {
+            "@type": "AdministrativeArea",
+            "name": "Creek County"
+          }
+        },
+        {
+          "@type": "City",
+          "name": "Glenpool", 
+          "containedInPlace": {
+            "@type": "AdministrativeArea",
+            "name": "Tulsa County"
+          }
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wagoner County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Rogers County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Creek County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Osage County"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Washington County"
+        }
+      ]
+    }
+  ],
+  "serviceType": [
+    "Process Serving",
+    "Legal Document Delivery",
+    "Court Document Service",
+    "Skip Tracing",
+    "Same-Day Service",
+    "Electronic Filing Assistance"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Oklahoma Service Area Coverage",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "name": "Urban Area Service",
+        "description": "Process serving in major Oklahoma cities including Tulsa, Oklahoma City, Norman, and Broken Arrow",
+        "priceRange": "$30-$100",
+        "areaServed": [
+          "Tulsa",
+          "Oklahoma City", 
+          "Norman",
+          "Broken Arrow",
+          "Lawton",
+          "Edmond"
+        ]
+      },
+      {
+        "@type": "Offer",
+        "name": "Suburban Community Service",
+        "description": "Professional document delivery in suburban areas and smaller cities throughout Oklahoma",
+        "priceRange": "$40-$125",
+        "areaServed": [
+          "Sapulpa",
+          "Glenpool",
+          "Bixby",
+          "Owasso",
+          "Bartlesville",
+          "Muskogee"
+        ]
+      },
+      {
+        "@type": "Offer",
+        "name": "Rural Territory Service",
+        "description": "Specialized rural process serving across Oklahoma's remote counties and territories",
+        "priceRange": "$50-$200",
+        "areaServed": [
+          "Rural Oklahoma Counties",
+          "Remote Communities",
+          "Agricultural Areas",
+          "Small Towns"
+        ]
+      }
+    ]
+  }
+};
+
 export default function OklahomaLegalServiceAreas2025() {
   return (
     <>
       <Navbar />
       <JsonLd data={articleSchema} />
+      <JsonLd data={serviceAreaSchema} />
       <main className="max-w-4xl mx-auto px-4 py-8 pt-24">
         <h1 className="text-4xl font-bold mb-4">Oklahoma Legal Service Areas: Complete 2025 Coverage Guide for All 77 Counties</h1>
         <p className="italic mb-6">

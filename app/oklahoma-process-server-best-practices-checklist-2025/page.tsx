@@ -59,11 +59,93 @@ const articleSchema = {
   "mainEntityOfPage": canonicalUrl
 };
 
+const howToSchema = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Follow Oklahoma Process Server Best Practices in 2025",
+  "description": "Step-by-step checklist for professional process serving in Oklahoma, covering legal requirements, documentation, and quality assurance protocols.",
+  "image": "/images/oklahoma-licensed-bonded-process-server-badges.png",
+  "estimatedCost": {
+    "@type": "MonetaryAmount",
+    "currency": "USD",
+    "value": "30-200"
+  },
+  "totalTime": "PT1H",
+  "supply": [
+    {
+      "@type": "HowToSupply",
+      "name": "Legal documents to serve"
+    },
+    {
+      "@type": "HowToSupply", 
+      "name": "Process server license and bonding"
+    },
+    {
+      "@type": "HowToSupply",
+      "name": "GPS tracking device"
+    },
+    {
+      "@type": "HowToSupply",
+      "name": "Digital camera for documentation"
+    }
+  ],
+  "tool": [
+    {
+      "@type": "HowToTool",
+      "name": "Process serving software"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Skip tracing databases"
+    }
+  ],
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Understand Oklahoma Service Requirements",
+      "text": "Review statutory requirements under 12 O.S. §2004, verify server qualifications (age ≥18, non-party), and ensure compliance with service hours (6 AM - 10 PM).",
+      "url": canonicalUrl + "#step1",
+      "image": "/images/oklahoma-licensed-bonded-process-server-badges.png"
+    },
+    {
+      "@type": "HowToStep", 
+      "name": "Document Preparation and Review",
+      "text": "Verify document authenticity, check completeness of court filings, validate plaintiff attorney information, and ensure proper signatures and notarization.",
+      "url": canonicalUrl + "#step2"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Service Planning and Research", 
+      "text": "Conduct thorough recipient research using multiple databases, plan optimal service timing, identify potential challenges, and prepare alternative service strategies.",
+      "url": canonicalUrl + "#step3"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Professional Service",
+      "text": "Approach service location professionally, verify recipient identity using multiple methods, follow proper service protocols, and document all interactions thoroughly.",
+      "url": canonicalUrl + "#step4"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Complete Documentation",
+      "text": "Prepare detailed affidavit of service, include comprehensive service details, attach supporting documentation, and file within required timeframes.",
+      "url": canonicalUrl + "#step5"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Quality Assurance and Follow-up",
+      "text": "Review documentation for completeness, verify compliance with all requirements, maintain detailed records, and provide client updates as needed.",
+      "url": canonicalUrl + "#step6"
+    }
+  ]
+};
+
 export default function OklahomaProcessServerBestPracticesChecklist2025() {
   return (
     <>
       <Navbar />
       <JsonLd data={articleSchema} />
+      <JsonLd data={howToSchema} />
       <main className="max-w-4xl mx-auto px-4 py-8 pt-24">
         <h1 className="text-4xl font-bold mb-4">Oklahoma Process Server Best Practices Checklist 2025</h1>
         <p className="italic mb-6">Process serving in Oklahoma requires strict adherence to statutory requirements and best practices to ensure valid service and protect your cases from dismissal. This comprehensive checklist covers all essential elements of professional process serving under current Oklahoma law as of 2025, including statutory compliance, documentation standards, technology integration, and quality assurance protocols.</p>

@@ -1,10 +1,50 @@
 import Image from 'next/image';
-import Head from 'next/head';
+import { Metadata } from 'next';
 import Navbar from '../../components/ui/navbar';
 import Footer from '../../components/ui/footer';
 import JsonLd from '../../components/JsonLd';
 
 const canonicalUrl = 'https://justlegalsolutions.org/process-serving-mistakes-guide-2025';
+
+export const metadata: Metadata = {
+  title: 'Top 10 Process Serving Mistakes That Can Cost You Your Case | Just Legal Solutions',
+  description: 'Avoid costly process serving errors in Oklahoma. Learn the top 10 mistakes that invalidate service and jeopardize your legal case in 2025.',
+  keywords: 'process serving mistakes, Oklahoma process server, service errors, legal case, 2025, checklist',
+  authors: [{ name: 'Just Legal Solutions Team' }],
+  openGraph: {
+    title: 'Top 10 Process Serving Mistakes That Can Cost You Your Case | Just Legal Solutions',
+    description: 'Avoid costly process serving errors in Oklahoma. Learn the top 10 mistakes that invalidate service and jeopardize your legal case in 2025.',
+    url: canonicalUrl,
+    siteName: 'Just Legal Solutions',
+    images: [
+      {
+        url: '/images/Mistake prevention checklist infographic.png',
+        width: 1200,
+        height: 630,
+        alt: 'Process Serving Mistakes Prevention Checklist'
+      }
+    ],
+    locale: 'en_US',
+    type: 'article',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Top 10 Process Serving Mistakes That Can Cost You Your Case | Just Legal Solutions',
+    description: 'Avoid costly process serving errors in Oklahoma. Learn the top 10 mistakes that invalidate service and jeopardize your legal case in 2025.',
+    images: ['/images/Mistake prevention checklist infographic.png'],
+    creator: '@JustLegalSolutions',
+    site: '@JustLegalSolutions',
+  },
+  robots: 'index, follow',
+  alternates: {
+    canonical: canonicalUrl,
+  },
+  other: {
+    'article:author': 'Just Legal Solutions Team',
+    'article:published_time': '2025-08-14',
+    'article:modified_time': '2025-08-14',
+  },
+};
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
@@ -30,34 +70,54 @@ const articleSchema = {
   "mainEntityOfPage": canonicalUrl
 };
 
+const howToSchema = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Avoid Process Serving Mistakes That Can Cost Your Case",
+  "description": "Step-by-step guide to preventing common process serving errors that can invalidate service and jeopardize legal cases in Oklahoma.",
+  "image": "/images/Mistake prevention checklist infographic.png",
+  "totalTime": "PT30M",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Verify Process Server Qualifications",
+      "text": "Ensure your process server is properly licensed, bonded, and meets Oklahoma statutory requirements. Confirm they are at least 18 years old and not a party to the case.",
+      "url": canonicalUrl + "#step1"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Confirm Document Accuracy",
+      "text": "Double-check all legal documents for completeness, proper signatures, correct names, and accurate addresses before service attempts.",
+      "url": canonicalUrl + "#step2"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Follow Proper Service Procedures",
+      "text": "Adhere to Oklahoma service requirements including proper service hours (6 AM - 10 PM), correct service methods, and documentation protocols.",
+      "url": canonicalUrl + "#step3"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Maintain Detailed Documentation",
+      "text": "Create comprehensive affidavits of service with specific details about date, time, location, method of service, and recipient identification.",
+      "url": canonicalUrl + "#step4"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Handle Service Challenges Properly",
+      "text": "When faced with evasive defendants or difficult service situations, follow proper alternative service procedures and obtain court approval when necessary.",
+      "url": canonicalUrl + "#step5"
+    }
+  ]
+};
+
 
 export default function ProcessServingMistakesGuide2025() {
   return (
     <>
-      <Head>
-        <title>Top 10 Process Serving Mistakes That Can Cost You Your Case</title>
-        <meta name="description" content="Avoid costly process serving errors in Oklahoma. Learn the top 10 mistakes that invalidate service and jeopardize your legal case in 2025." />
-        <meta name="keywords" content="process serving mistakes, Oklahoma process server, service errors, legal case, 2025, checklist" />
-        <meta property="og:title" content="Top 10 Process Serving Mistakes That Can Cost You Your Case" />
-        <meta property="og:description" content="Avoid costly process serving errors in Oklahoma. Learn the top 10 mistakes that invalidate service and jeopardize your legal case in 2025." />
-        <meta property="og:image" content="/images/Mistake prevention checklist infographic.png" />
-        <meta property="og:type" content="article" />
-        <meta property="og:site_name" content="Just Legal Solutions" />
-        <meta property="og:locale" content="en_US" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Top 10 Process Serving Mistakes That Can Cost You Your Case" />
-        <meta name="twitter:description" content="Avoid costly process serving errors in Oklahoma. Learn the top 10 mistakes that invalidate service and jeopardize your legal case in 2025." />
-        <meta name="twitter:image" content="/images/Mistake prevention checklist infographic.png" />
-        <meta name="twitter:site" content="@JustLegalSolutions" />
-        <meta name="twitter:creator" content="@JustLegalSolutions" />
-        <meta name="author" content="JLS Legal Solutions" />
-        <meta name="robots" content="index, follow" />
-        <link rel="canonical" href={canonicalUrl} />
-        <meta name="language" content="en" />
-        <meta name="publish_date" content="2025-08-14" />
-      </Head>
       <Navbar />
       <JsonLd data={articleSchema} />
+      <JsonLd data={howToSchema} />
       <main className="max-w-4xl mx-auto px-4 py-8 pt-24">
         <h1 className="text-4xl font-bold mb-4">Top 10 Process Serving Mistakes That Can Cost You Your Case</h1>
         <p className="italic mb-6">Process serving errors can have devastating consequences for legal cases, potentially leading to dismissals, delays, and significant financial losses. Understanding the most common mistakes helps attorneys and process servers avoid costly pitfalls that jeopardize successful litigation outcomes. This comprehensive guide examines the ten most critical process serving errors, their consequences, and prevention strategies under current Oklahoma law.</p>

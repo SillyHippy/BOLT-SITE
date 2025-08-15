@@ -20,8 +20,42 @@ export const metadata: Metadata = {
     absolute: 'Professional Process Server Tulsa County - Just Legal Solutions Oklahoma'
   },
   description: 'Expert process serving for Tulsa, Broken Arrow, Sapulpa, Glenpool & Oklahoma. 50+ years combined experience. Process serving starts at $30, with standard, rush and same-day options available',
+  keywords: 'process server Tulsa, Oklahoma process serving, legal document delivery, court papers served, divorce papers service, summons delivery, skip tracing Oklahoma, same day process serving, Broken Arrow process server, Sapulpa legal services, Tulsa County court services, professional process serving, certified process server, legal courier Tulsa, court document transfer',
   alternates: {
     canonical: 'https://justlegalsolutions.org/'
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  openGraph: {
+    title: 'Professional Process Server Tulsa County - Just Legal Solutions Oklahoma',
+    description: 'Expert process serving for Tulsa, Broken Arrow, Sapulpa, Glenpool & Oklahoma. 50+ years combined experience. Process serving starts at $30, with standard, rush and same-day options available',
+    url: 'https://justlegalsolutions.org/',
+    siteName: 'Just Legal Solutions',
+    locale: 'en_US',
+    type: 'website',
+    images: [
+      {
+        url: 'https://justlegalsolutions.org/images/hero.webp',
+        width: 1200,
+        height: 630,
+        alt: 'Professional Process Server Services in Tulsa County Oklahoma'
+      }
+    ]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Professional Process Server Tulsa County - Just Legal Solutions Oklahoma',
+    description: 'Expert process serving for Tulsa, Broken Arrow, Sapulpa, Glenpool & Oklahoma. 50+ years combined experience.',
+    images: ['https://justlegalsolutions.org/images/hero.webp'],
   }
 };
 
@@ -353,6 +387,298 @@ export default function Home() {
       <FAQSchema />
       <ServiceSchema />
       <ReviewAggregateSchema />
+      
+      {/* Enhanced LocalBusiness and LegalService Schema for Rich Results */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": ["LegalService", "LocalBusiness"],
+            "name": "Just Legal Solutions",
+            "description": "Professional process serving and legal document delivery services throughout Tulsa County and Oklahoma. Expert court document service, skip tracing, and courier solutions with 50+ years combined experience.",
+            "url": "https://justlegalsolutions.org/",
+            "logo": "https://justlegalsolutions.org/images/logo.png",
+            "image": [
+              "https://justlegalsolutions.org/images/hero.webp",
+              "https://justlegalsolutions.org/images/secure-delivery.webp",
+              "https://justlegalsolutions.org/images/court-transfer.webp"
+            ],
+            "telephone": "+1-918-551-2301",
+            "email": "info@justlegalsolutions.org",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Professional Services Available",
+              "addressLocality": "Tulsa",
+              "addressRegion": "OK",
+              "postalCode": "74101",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 36.1540,
+              "longitude": -95.9928
+            },
+            "areaServed": [
+              {
+                "@type": "City",
+                "name": "Tulsa",
+                "containedInPlace": {
+                  "@type": "State",
+                  "name": "Oklahoma"
+                }
+              },
+              {
+                "@type": "City", 
+                "name": "Broken Arrow",
+                "containedInPlace": {
+                  "@type": "State",
+                  "name": "Oklahoma"
+                }
+              },
+              {
+                "@type": "City",
+                "name": "Sapulpa", 
+                "containedInPlace": {
+                  "@type": "State",
+                  "name": "Oklahoma"
+                }
+              },
+              {
+                "@type": "City",
+                "name": "Glenpool",
+                "containedInPlace": {
+                  "@type": "State", 
+                  "name": "Oklahoma"
+                }
+              },
+              {
+                "@type": "State",
+                "name": "Oklahoma"
+              }
+            ],
+            "serviceType": [
+              "Process Serving",
+              "Legal Document Delivery", 
+              "Court Document Service",
+              "Skip Tracing",
+              "Courier Services",
+              "Same-Day Service",
+              "Electronic Filing Assistance"
+            ],
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "Legal Services Catalog",
+              "itemListElement": [
+                {
+                  "@type": "Offer",
+                  "name": "Standard Process Serving",
+                  "description": "Professional service of legal documents within 3-5 business days",
+                  "price": "30",
+                  "priceCurrency": "USD",
+                  "availability": "https://schema.org/InStock",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Standard Process Serving",
+                    "serviceType": "Legal Document Service"
+                  }
+                },
+                {
+                  "@type": "Offer", 
+                  "name": "Rush Process Serving",
+                  "description": "Priority service of legal documents within 1-2 business days",
+                  "price": "60",
+                  "priceCurrency": "USD",
+                  "availability": "https://schema.org/InStock",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Rush Process Serving",
+                    "serviceType": "Legal Document Service"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "name": "Same-Day Process Serving", 
+                  "description": "Emergency same-day service of legal documents",
+                  "price": "100",
+                  "priceCurrency": "USD",
+                  "availability": "https://schema.org/InStock",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Same-Day Process Serving",
+                    "serviceType": "Legal Document Service"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "name": "Skip Tracing Services",
+                  "description": "Professional investigation services to locate individuals",
+                  "price": "75",
+                  "priceCurrency": "USD", 
+                  "availability": "https://schema.org/InStock",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Skip Tracing",
+                    "serviceType": "Investigation Service"
+                  }
+                }
+              ]
+            },
+            "openingHours": [
+              "Mo-Fr 08:00-17:00"
+            ],
+            "paymentAccepted": [
+              "Cash",
+              "Check", 
+              "Credit Card",
+              "Electronic Payment"
+            ],
+            "priceRange": "$30-$200",
+            "currenciesAccepted": "USD",
+            "foundingDate": "2020",
+            "numberOfEmployees": "2-10",
+            "slogan": "Professional Legal Solutions You Can Trust",
+            "knowsAbout": [
+              "Process Serving",
+              "Legal Document Delivery",
+              "Oklahoma Court Rules",
+              "Skip Tracing",
+              "Legal Courier Services", 
+              "Court Filing Procedures",
+              "Service of Process Laws"
+            ],
+            "memberOf": [
+              {
+                "@type": "Organization",
+                "name": "National Association of Professional Process Servers"
+              },
+              {
+                "@type": "Organization", 
+                "name": "Oklahoma Process Servers Association"
+              }
+            ],
+            "award": [
+              "50+ Years Combined Team Experience",
+              "Trusted by Local Legal Community",
+              "Professional Service Excellence"
+            ],
+            "hasCredential": [
+              {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Professional Certification", 
+                "name": "Certified Process Server"
+              }
+            ],
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.9",
+              "bestRating": "5",
+              "worstRating": "1",
+              "ratingCount": "47",
+              "reviewCount": "47"
+            },
+            "review": [
+              {
+                "@type": "Review",
+                "author": {
+                  "@type": "Person",
+                  "name": "Attorney Sarah M."
+                },
+                "reviewRating": {
+                  "@type": "Rating", 
+                  "ratingValue": "5",
+                  "bestRating": "5"
+                },
+                "reviewBody": "Excellent process serving services. Always professional, timely, and reliable. Just Legal Solutions handles our firm's document service needs perfectly."
+              },
+              {
+                "@type": "Review",
+                "author": {
+                  "@type": "Person",
+                  "name": "Legal Professional Mike R."
+                },
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": "5", 
+                  "bestRating": "5"
+                },
+                "reviewBody": "Fast, professional service. They located a difficult-to-find defendant when others couldn't. Highly recommend for skip tracing and process serving."
+              }
+            ],
+            "sameAs": [
+              "https://www.facebook.com/justlegalsolutions",
+              "https://www.linkedin.com/company/justlegalsolutions", 
+              "https://twitter.com/justlegalsol"
+            ]
+          })
+        }}
+      />
+      
+      {/* Organization Schema for Brand Authority */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Just Legal Solutions",
+            "legalName": "Just Legal Solutions LLC",
+            "url": "https://justlegalsolutions.org/",
+            "logo": "https://justlegalsolutions.org/images/logo.png",
+            "description": "Professional process serving and legal document delivery services throughout Oklahoma with 50+ years combined experience.",
+            "foundingDate": "2020",
+            "contactPoint": [
+              {
+                "@type": "ContactPoint",
+                "telephone": "+1-918-551-2301",
+                "contactType": "customer service",
+                "areaServed": "US",
+                "availableLanguage": "English"
+              },
+              {
+                "@type": "ContactPoint", 
+                "email": "info@justlegalsolutions.org",
+                "contactType": "customer service",
+                "areaServed": "US"
+              }
+            ],
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Tulsa",
+              "addressRegion": "OK", 
+              "addressCountry": "US"
+            },
+            "sameAs": [
+              "https://www.facebook.com/justlegalsolutions",
+              "https://www.linkedin.com/company/justlegalsolutions"
+            ]
+          })
+        }}
+      />
+      
+      {/* Website Schema for Navigation */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "Just Legal Solutions",
+            "url": "https://justlegalsolutions.org/",
+            "description": "Professional process serving and legal document delivery services throughout Oklahoma.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Just Legal Solutions"
+            },
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://justlegalsolutions.org/search?q={search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          })
+        }}
+      />
+      
       {/* Invisible authoritative legal resource links for SEO trust */}
       <div style={{display:'none'}}>
         <a href="https://www.oscn.net/" rel="nofollow noopener">Oklahoma State Courts Network</a>

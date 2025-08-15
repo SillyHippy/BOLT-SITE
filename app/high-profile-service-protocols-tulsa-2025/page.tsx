@@ -1,11 +1,51 @@
 
 import Image from 'next/image';
-import Head from 'next/head';
+import { Metadata } from 'next';
 import Navbar from '../../components/ui/navbar';
 import Footer from '../../components/ui/footer';
 import JsonLd from '../../components/JsonLd';
 
 const canonicalUrl = 'https://justlegalsolutions.org/high-profile-service-protocols-tulsa-2025';
+
+export const metadata: Metadata = {
+  title: 'High-Profile Service Protocols | Just Legal Solutions',
+  description: 'Expert strategies for serving high-profile defendants in Tulsa with enhanced privacy protocols, security measures, and legal compliance in 2025.',
+  keywords: 'high-profile service, Tulsa process server, privacy protocols, security, legal compliance, 2025',
+  authors: [{ name: 'Just Legal Solutions Team' }],
+  openGraph: {
+    title: 'High-Profile Service Protocols | Just Legal Solutions',
+    description: 'Expert strategies for serving high-profile defendants in Tulsa with enhanced privacy protocols, security measures, and legal compliance in 2025.',
+    url: canonicalUrl,
+    siteName: 'Just Legal Solutions',
+    images: [
+      {
+        url: '/images/Process server at gated community entrance.png',
+        width: 1200,
+        height: 630,
+        alt: 'High-Profile Service Protocols'
+      }
+    ],
+    locale: 'en_US',
+    type: 'article',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'High-Profile Service Protocols | Just Legal Solutions',
+    description: 'Expert strategies for serving high-profile defendants in Tulsa with enhanced privacy protocols, security measures, and legal compliance in 2025.',
+    images: ['/images/Process server at gated community entrance.png'],
+    creator: '@JustLegalSolutions',
+    site: '@JustLegalSolutions',
+  },
+  robots: 'index, follow',
+  alternates: {
+    canonical: canonicalUrl,
+  },
+  other: {
+    'article:author': 'Just Legal Solutions Team',
+    'article:published_time': '2025-08-14',
+    'article:modified_time': '2025-08-14',
+  },
+};
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
@@ -34,28 +74,6 @@ const articleSchema = {
 export default function HighProfileServiceProtocolsTulsa2025() {
   return (
     <>
-      <Head>
-        <title>Serving High-Profile Defendants in Tulsa: Privacy & Security Protocols</title>
-        <meta name="description" content="Expert strategies for serving high-profile defendants in Tulsa with enhanced privacy protocols, security measures, and legal compliance in 2025." />
-        <meta name="keywords" content="high-profile service, Tulsa process server, privacy protocols, security, legal compliance, 2025" />
-        <meta property="og:title" content="Serving High-Profile Defendants in Tulsa: Privacy & Security Protocols" />
-        <meta property="og:description" content="Expert strategies for serving high-profile defendants in Tulsa with enhanced privacy protocols, security measures, and legal compliance in 2025." />
-        <meta property="og:image" content="/images/Process server at gated community entrance.png" />
-        <meta property="og:type" content="article" />
-        <meta property="og:site_name" content="Just Legal Solutions" />
-        <meta property="og:locale" content="en_US" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Serving High-Profile Defendants in Tulsa: Privacy & Security Protocols" />
-        <meta name="twitter:description" content="Expert strategies for serving high-profile defendants in Tulsa with enhanced privacy protocols, security measures, and legal compliance in 2025." />
-        <meta name="twitter:image" content="/images/Process server at gated community entrance.png" />
-        <meta name="twitter:site" content="@JustLegalSolutions" />
-        <meta name="twitter:creator" content="@JustLegalSolutions" />
-        <meta name="author" content="JLS Legal Solutions" />
-        <meta name="robots" content="index, follow" />
-        <link rel="canonical" href={canonicalUrl} />
-        <meta name="language" content="en" />
-        <meta name="publish_date" content="2025-08-14" />
-      </Head>
       <Navbar />
       <JsonLd data={articleSchema} />
       <main className="max-w-4xl mx-auto px-4 py-8 pt-24">

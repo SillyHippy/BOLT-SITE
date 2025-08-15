@@ -1,9 +1,50 @@
 
-"use client";
-
-import React, { useEffect } from 'react';
+import React from 'react';
+import { Metadata } from 'next';
 import { CheckCircle, Truck } from 'lucide-react';
 import ReviewSchema from '@/components/ReviewSchema';
+
+export const metadata: Metadata = {
+  title: 'Process Server Pricing Oklahoma - Just Legal Solutions | Affordable Rates Starting $30',
+  description: 'Transparent process server pricing in Oklahoma starting at $30. Same-day, rush, and standard service options. No hidden fees. Licensed and bonded professionals.',
+  keywords: 'process server pricing Oklahoma, legal document service costs, process serving rates Tulsa, Oklahoma court service fees, affordable process server, transparent pricing legal services',
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/pricing'
+  },
+  openGraph: {
+    title: 'Process Server Pricing Oklahoma - Just Legal Solutions | Starting $30',
+    description: 'Transparent process server pricing in Oklahoma starting at $30. Same-day, rush, and standard service options. No hidden fees.',
+    url: 'https://justlegalsolutions.org/pricing',
+    siteName: 'Just Legal Solutions',
+    images: [
+      {
+        url: 'https://justlegalsolutions.org/images/hero.webp',
+        width: 1200,
+        height: 630,
+        alt: 'Process Server Pricing Oklahoma'
+      }
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Process Server Pricing Oklahoma - Just Legal Solutions | Starting $30',
+    description: 'Transparent process server pricing in Oklahoma starting at $30. Same-day, rush, and standard service options.',
+    images: ['https://justlegalsolutions.org/images/hero.webp'],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  }
+};
 
 // Data for additional services for easy management
 const additionalServices = [
@@ -21,18 +62,6 @@ const additionalServices = [
 ];
 
 export default function PricingPage() {
-  
-  // Scrolling logic from previous step
-  useEffect(() => {
-    const hash = window.location.hash;
-    if (hash) {
-      const element = document.querySelector(hash);
-      if (element) {
-        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      }
-    }
-  }, []); 
-
   return (
     <>
       <ReviewSchema 
@@ -40,6 +69,64 @@ export default function PricingPage() {
         averageRating={4.8}
         reviewCount={156}
       />
+      
+      {/* Pricing Schema for Rich Results */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "name": "Process Server Services Oklahoma",
+            "description": "Professional process serving and legal document delivery services in Oklahoma with transparent pricing starting at $30.",
+            "provider": {
+              "@type": "LegalService",
+              "name": "Just Legal Solutions",
+              "url": "https://justlegalsolutions.org/",
+              "telephone": "+1-918-551-2301"
+            },
+            "offers": [
+              {
+                "@type": "Offer",
+                "name": "Standard Process Serving",
+                "description": "First Service Attempt Within 5 Business Days",
+                "price": "60",
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock"
+              },
+              {
+                "@type": "Offer",
+                "name": "Rush Process Serving",
+                "description": "Service Within 72 Hours or Sooner",
+                "price": "100", 
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock"
+              },
+              {
+                "@type": "Offer",
+                "name": "Same-Day Rush Service",
+                "description": "Service Within 24 Hours or Sooner",
+                "price": "150",
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock"
+              },
+              {
+                "@type": "Offer",
+                "name": "Triple-Attempt Rush",
+                "description": "Guaranteed 3 service attempts within 72 hours",
+                "price": "200",
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock"
+              }
+            ],
+            "areaServed": {
+              "@type": "State",
+              "name": "Oklahoma"
+            }
+          })
+        }}
+      />
+      
       <main className="min-h-screen bg-white font-sans">
       <section className="pt-24 pb-10 px-4 bg-gray-100">
         <div className="max-w-7xl mx-auto text-center">

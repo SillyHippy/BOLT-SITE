@@ -87,7 +87,7 @@ const counties = [
     name: "Nowata County",
     seat: "Nowata", 
     cities: ["Nowata", "Delaware", "Wann", "Lenapah"],
-    link: "/counties/nowata-county",
+    link: "/service-areas",
     description: "Cherokee heritage, agricultural community"
   },
   {
@@ -110,7 +110,7 @@ const majorCities = [
   { name: "Sand Springs", county: "Tulsa", population: "19,912", link: "/service-areas/sand-springs" },
   { name: "Claremore", county: "Rogers", population: "18,766", link: "/service-areas/claremore" },
   { name: "Glenpool", county: "Tulsa", population: "14,683", link: "/service-areas/glenpool" },
-  { name: "Okmulgee", county: "Okmulgee", population: "11,768", link: "/service-areas/okmulgee" },
+  { name: "Okmulgee", county: "Okmulgee", population: "11,768", link: "/service-areas" },
   { name: "Coweta", county: "Wagoner", population: "9,943", link: "/service-areas/coweta" },
   { name: "Pryor", county: "Mayes", population: "9,539", link: "/service-areas/pryor" },
   { name: "Wagoner", county: "Wagoner", population: "9,090", link: "/service-areas/wagoner" },

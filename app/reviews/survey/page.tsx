@@ -1,4 +1,18 @@
 import React from 'react';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Client Survey Reviews - Just Legal Solutions Oklahoma Process Server',
+  description: 'Verified client reviews and satisfaction surveys from our Oklahoma process serving clients. Real feedback from attorneys, law firms, and individuals who have used our legal document services.',
+  keywords: 'client reviews, process server testimonials, Oklahoma legal services reviews, verified customer feedback, attorney testimonials',
+  robots: {
+    index: false, // This is internal verification content
+    follow: false,
+  },
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/reviews/survey'
+  }
+};
 
 export default function ClientSurveyValidation() {
   return (

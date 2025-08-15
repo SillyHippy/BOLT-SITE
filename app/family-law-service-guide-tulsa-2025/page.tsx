@@ -1,20 +1,60 @@
 import Image from 'next/image';
-import Head from 'next/head';
+import { Metadata } from 'next';
 import Navbar from '../../components/ui/navbar';
 import Footer from '../../components/ui/footer';
 import JsonLd from '../../components/JsonLd';
 
 const canonicalUrl = 'https://justlegalsolutions.org/family-law-service-guide-tulsa-2025';
+
+export const metadata: Metadata = {
+  title: 'Family Law Service Guide Tulsa 2025 | Just Legal Solutions',
+  description: 'Expert guide to serving protective orders and divorce papers in Tulsa County. 2025 family law service requirements, safety protocols, and procedures.',
+  keywords: 'family law service, Tulsa County, protective orders, divorce papers, process server, Oklahoma, 2025',
+  authors: [{ name: 'Just Legal Solutions Team' }],
+  openGraph: {
+    title: 'Family Law Service Guide Tulsa 2025 | Just Legal Solutions',
+    description: 'Expert guide to serving protective orders and divorce papers in Tulsa County. 2025 family law service requirements, safety protocols, and procedures.',
+    url: canonicalUrl,
+    siteName: 'Just Legal Solutions',
+    images: [
+      {
+        url: '/images/tulsa-county-courthouse.jpeg',
+        width: 1200,
+        height: 630,
+        alt: 'Family Law Service Guide Tulsa 2025'
+      }
+    ],
+    locale: 'en_US',
+    type: 'article',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Family Law Service Guide Tulsa 2025 | Just Legal Solutions',
+    description: 'Expert guide to serving protective orders and divorce papers in Tulsa County. 2025 family law service requirements, safety protocols, and procedures.',
+    images: ['/images/tulsa-county-courthouse.jpeg'],
+    creator: '@JustLegalSolutions',
+    site: '@JustLegalSolutions',
+  },
+  robots: 'index, follow',
+  alternates: {
+    canonical: canonicalUrl,
+  },
+  other: {
+    'article:author': 'Just Legal Solutions Team',
+    'article:published_time': '2025-08-14',
+    'article:modified_time': '2025-08-14',
+  },
+};
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Family Law Service: Serving Protective Orders & Divorce Papers in Tulsa County",
   "description": "Expert guide to serving protective orders and divorce papers in Tulsa County. 2025 family law service requirements, safety protocols, and procedures.",
   "image": [
-    "/images/tulsa-family-courthouse-entrance.jpg",
-    "/images/protective-order-service-safety-protocol.png",
-    "/images/family-law-documentation-examples.png",
-    "/images/domestic-violence-resources-tulsa.jpg"
+    "/images/tulsa-county-courthouse.jpeg",
+    "/images/Legal-document-types-process-server.png",
+    "/images/Professional process server business logo badge with scales of justice and Oklahoma outline for legal services.png",
+    "/images/due-process-legal-concept.png"
   ],
   "author": {
     "@type": "Person",
@@ -36,34 +76,12 @@ const articleSchema = {
 export default function FamilyLawServiceGuideTulsa2025() {
   return (
     <>
-      <Head>
-        <title>Family Law Service: Serving Protective Orders & Divorce Papers in Tulsa County</title>
-        <meta name="description" content="Expert guide to serving protective orders and divorce papers in Tulsa County. 2025 family law service requirements, safety protocols, and procedures." />
-        <meta name="keywords" content="family law service, Tulsa County, protective orders, divorce papers, process server, Oklahoma, 2025" />
-        <meta property="og:title" content="Family Law Service: Serving Protective Orders & Divorce Papers in Tulsa County" />
-        <meta property="og:description" content="Expert guide to serving protective orders and divorce papers in Tulsa County. 2025 family law service requirements, safety protocols, and procedures." />
-        <meta property="og:image" content="/images/tulsa-family-courthouse-entrance.jpg" />
-        <meta property="og:type" content="article" />
-        <meta property="og:site_name" content="Just Legal Solutions" />
-        <meta property="og:locale" content="en_US" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Family Law Service: Serving Protective Orders & Divorce Papers in Tulsa County" />
-        <meta name="twitter:description" content="Expert guide to serving protective orders and divorce papers in Tulsa County. 2025 family law service requirements, safety protocols, and procedures." />
-        <meta name="twitter:image" content="/images/tulsa-family-courthouse-entrance.jpg" />
-        <meta name="twitter:site" content="@JustLegalSolutions" />
-        <meta name="twitter:creator" content="@JustLegalSolutions" />
-        <meta name="author" content="JLS Legal Solutions" />
-        <meta name="robots" content="index, follow" />
-        <link rel="canonical" href={canonicalUrl} />
-        <meta name="language" content="en" />
-        <meta name="publish_date" content="2025-08-14" />
-      </Head>
       <Navbar />
       <JsonLd data={articleSchema} />
       <main className="max-w-4xl mx-auto px-4 py-8 pt-24">
         <h1 className="text-4xl font-bold mb-4">Family Law Service: Serving Protective Orders &amp; Divorce Papers in Tulsa County</h1>
         <p className="italic mb-6">Serving documents in family law cases requires sensitivity, speed, and strict compliance with Oklahoma statutes. Tulsa County courts demand expedited service for protective orders and accurate service for divorce petitions to protect vulnerable parties and secure jurisdiction. This guide covers statutory requirements, safety protocols, documentation standards, and technology integration for family law service in Tulsa County as of 2025.</p>
-        <Image src="/images/tulsa-family-courthouse-entrance.jpg" alt="Tulsa Family Court entrance" width={800} height={400} className="rounded shadow mb-4" />
+        <Image src="/images/tulsa-county-courthouse.jpeg" alt="Tulsa County Courthouse - Family Law Services" width={800} height={400} className="rounded shadow mb-4" />
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-2">1. Protective Order Service Requirements</h2>
           <h3 className="text-xl font-bold mb-2">Emergency Protective Orders (EPO)</h3>
@@ -74,7 +92,7 @@ export default function FamilyLawServiceGuideTulsa2025() {
             <li>Document service time, officer ID, or server details</li>
             <li>File proof of service within 72 hours</li>
           </ul>
-          <Image src="/images/protective-order-service-safety-protocol.png" alt="Protective Order Service Safety Protocols" width={800} height={400} className="rounded shadow mb-4" />
+          <Image src="/images/due-process-legal-concept.png" alt="Legal Due Process and Protective Order Service Protocols" width={800} height={400} className="rounded shadow mb-4" />
           <p><b>Case Example:</b> In Smith v. Doe, 2024 OK Civ App 150, the court quashed an EPO served at 5 days due to delay; the petitioner lost ex parte protections.</p>
           <h3 className="text-xl font-bold mb-2">Temporary & Permanent Protective Orders</h3>
           <ul className="list-disc ml-6 mb-4">
@@ -103,7 +121,7 @@ export default function FamilyLawServiceGuideTulsa2025() {
             <li>Maintain a two-person serving team for EPOs</li>
             <li>Use disguised vehicles and plain clothes when necessary</li>
           </ul>
-          <Image src="/images/domestic-violence-resources-tulsa.jpg" alt="DV Resource Center Tulsa" width={800} height={400} className="rounded shadow mb-4" />
+          <Image src="/images/Professional process server business logo badge with scales of justice and Oklahoma outline for legal services.png" alt="Professional Process Server Safety and Legal Services" width={800} height={400} className="rounded shadow mb-4" />
           <p><b>Resource:</b> Tulsa County DV Resource Center contact details should be included in served materials.</p>
         </section>
         <section className="mb-8">
@@ -115,7 +133,7 @@ export default function FamilyLawServiceGuideTulsa2025() {
             <li>Statements from witnesses (e.g., law enforcement)</li>
             <li>Use standardized affidavit forms to ensure courts accept them without objection</li>
           </ul>
-          <Image src="/images/family-law-documentation-examples.png" alt="Family Law Documentation Examples" width={800} height={400} className="rounded shadow mb-4" />
+          <Image src="/images/Legal-document-types-process-server.png" alt="Family Law Documentation and Legal Document Examples" width={800} height={400} className="rounded shadow mb-4" />
         </section>
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-2">5. Electronic Service & E-Filing</h2>
@@ -126,7 +144,6 @@ export default function FamilyLawServiceGuideTulsa2025() {
             <li>Retain delivery receipts, system logs, and email headers</li>
             <li>Backup with personal or mail service if delivery fails</li>
           </ul>
-          <a href="/assets/family-law-service-guide-tulsa-2025.pdf" className="text-blue-700 underline">Download the printable PDF</a>
         </section>
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-2">Related Resources</h2>
