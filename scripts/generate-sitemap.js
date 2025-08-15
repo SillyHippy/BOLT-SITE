@@ -77,6 +77,7 @@ function generateSitemap() {
     '/counties/wagoner-county',
     '/counties/osage-county',
     '/counties/mayes-county',
+    '/counties/okmulgee-county',
     
     // Main Pages
     '/',

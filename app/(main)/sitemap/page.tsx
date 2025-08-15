@@ -141,7 +141,7 @@ const SitemapPage = () => {
     { url: '/process-serving-mistakes-guide-2025', label: 'Process Serving Mistakes Guide 2025' },
     { url: '/high-profile-service-protocols-tulsa-2025', label: 'High-Profile Service Protocols Tulsa 2025' },
     { url: '/family-law-service-guide-tulsa-2025', label: 'Family Law Service Guide Tulsa 2025' },
-    { url: '/ultimate-guide-process-serving-oklahoma-2025', label: 'Ultimate Guide Process Serving Oklahoma 2025' },
+    { url: '/ultimate-guide-process-serving-oklahoma', label: 'Ultimate Guide Process Serving Oklahoma' },
   ];
 
   return (
