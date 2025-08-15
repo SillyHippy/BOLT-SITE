@@ -39,6 +39,12 @@ function generateSitemap() {
   const files = getHtmlFiles(baseDir);
   const today = new Date().toISOString().split('T')[0];
   
+  // URLs to exclude (redirect pages that don't have real content)
+  const excludeUrls = [
+    '/faq', // Redirects to /ultimate-guide-process-serving-oklahoma
+    '/seo/process-server-sand-springs' // Redirects to /seo/sand-springs-process-server
+  ];
+  
   // Additional URLs to ensure they're included (all service areas with Google Maps)
   const additionalUrls = [
     // Service Areas (all 20 with Google Maps)
@@ -79,7 +85,6 @@ function generateSitemap() {
     '/services',
     '/resources',
     '/payments',
-    '/faq',
     '/why-choose-us',
     
     // Process Server Pages
@@ -112,8 +117,9 @@ function generateSitemap() {
   // Get URLs from existing files
   const fileUrls = files.map(f => filePathToUrl(f, baseDir));
   
-  // Combine and deduplicate URLs
-  const allUrls = [...new Set([...fileUrls, ...additionalUrls.map(url => DOMAIN + url)])];
+  // Combine and deduplicate URLs, excluding redirect pages
+  const allUrls = [...new Set([...fileUrls, ...additionalUrls.map(url => DOMAIN + url)])]
+    .filter(url => !excludeUrls.some(excludeUrl => url.endsWith(excludeUrl)));
   
   const urlEntries = allUrls.map(url => {
     // Set priority based on URL importance

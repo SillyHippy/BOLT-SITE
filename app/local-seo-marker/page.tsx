@@ -5,14 +5,12 @@ export const metadata = {
   title: 'Local SEO Marker - Just Legal Solutions',
   description: 'This page marks local SEO optimization for Just Legal Solutions. Our services are discoverable and optimized for local search in Oklahoma.',
   keywords: 'local seo, process server, oklahoma, just legal solutions',
+  robots: 'noindex'
 };
 
 export default function LocalSEOMarker() {
   return (
     <>
-      <head>
-        <meta name="robots" content="noindex" />
-      </head>
       <Navbar />
       <main className="container mx-auto px-4 py-8 mt-12">
         <h1 className="text-4xl font-bold mb-6 text-blue-900">Local SEO Marker</h1>

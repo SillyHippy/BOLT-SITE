@@ -5,14 +5,12 @@ export const metadata = {
   title: 'Performance Marker - Just Legal Solutions',
   description: 'This page marks performance optimization for Just Legal Solutions. Our site is fast, reliable, and optimized for all devices.',
   keywords: 'performance, site speed, optimization, just legal solutions',
+  robots: 'noindex'
 };
 
 export default function PerformanceMarker() {
   return (
     <>
-      <head>
-        <meta name="robots" content="noindex" />
-      </head>
       <Navbar />
       <main className="container mx-auto px-4 py-8 mt-12">
         <h1 className="text-4xl font-bold mb-6 text-green-900">Performance Marker</h1>

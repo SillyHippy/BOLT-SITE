@@ -5,14 +5,12 @@ export const metadata = {
   title: 'Multi-Search Marker - Just Legal Solutions',
   description: 'This page marks multi-search optimization for Just Legal Solutions. Our services are discoverable across all major search platforms and assistants.',
   keywords: 'multi-search, search engine, voice assistant, just legal solutions',
+  robots: 'noindex'
 };
 
 export default function MultiSearchMarker() {
   return (
     <>
-      <head>
-        <meta name="robots" content="noindex" />
-      </head>
       <Navbar />
       <main className="container mx-auto px-4 py-8 mt-12">
         <h1 className="text-4xl font-bold mb-6 text-purple-900">Multi-Search Marker</h1>
