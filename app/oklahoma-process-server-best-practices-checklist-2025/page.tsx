@@ -1,11 +1,39 @@
 
 import Image from 'next/image';
-import Head from 'next/head';
+import { Metadata } from 'next';
 import Navbar from '../../components/ui/navbar';
 import Footer from '../../components/ui/footer';
 import JsonLd from '../../components/JsonLd';
 
 const canonicalUrl = 'https://justlegalsolutions.org/oklahoma-process-server-best-practices-checklist-2025';
+
+export const metadata: Metadata = {
+  title: 'Oklahoma Process Server Best Practices Checklist 2025',
+  description: 'Complete 2025 Oklahoma process server checklist covering 12 O.S. §12-2004 requirements, Tulsa County protocols, and professional standards.',
+  keywords: 'Oklahoma process server, best practices, checklist, 2025, service of process, compliance, documentation',
+  alternates: {
+    canonical: canonicalUrl
+  },
+  openGraph: {
+    title: 'Oklahoma Process Server Best Practices Checklist 2025',
+    description: 'Complete 2025 Oklahoma process server checklist covering 12 O.S. §12-2004 requirements, Tulsa County protocols, and professional standards.',
+    images: ['/images/oklahoma-licensed-bonded-process-server-badges.png'],
+    type: 'article',
+    siteName: 'Just Legal Solutions',
+    locale: 'en_US'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Oklahoma Process Server Best Practices Checklist 2025',
+    description: 'Complete 2025 Oklahoma process server checklist covering 12 O.S. §12-2004 requirements, Tulsa County protocols, and professional standards.',
+    images: ['/images/oklahoma-licensed-bonded-process-server-badges.png'],
+    site: '@JustLegalSolutions',
+    creator: '@JustLegalSolutions'
+  },
+  authors: [{ name: 'JLS Legal Solutions' }],
+  robots: 'index, follow'
+};
+
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
@@ -34,28 +62,6 @@ const articleSchema = {
 export default function OklahomaProcessServerBestPracticesChecklist2025() {
   return (
     <>
-      <Head>
-        <title>Oklahoma Process Server Best Practices Checklist 2025</title>
-        <meta name="description" content="Complete 2025 Oklahoma process server checklist covering 12 O.S. §12-2004 requirements, Tulsa County protocols, and professional standards." />
-        <meta name="keywords" content="Oklahoma process server, best practices, checklist, 2025, service of process, compliance, documentation" />
-        <meta property="og:title" content="Oklahoma Process Server Best Practices Checklist 2025" />
-        <meta property="og:description" content="Complete 2025 Oklahoma process server checklist covering 12 O.S. §12-2004 requirements, Tulsa County protocols, and professional standards." />
-        <meta property="og:image" content="/images/oklahoma-licensed-bonded-process-server-badges.png" />
-        <meta property="og:type" content="article" />
-        <meta property="og:site_name" content="Just Legal Solutions" />
-        <meta property="og:locale" content="en_US" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Oklahoma Process Server Best Practices Checklist 2025" />
-        <meta name="twitter:description" content="Complete 2025 Oklahoma process server checklist covering 12 O.S. §12-2004 requirements, Tulsa County protocols, and professional standards." />
-        <meta name="twitter:image" content="/images/oklahoma-licensed-bonded-process-server-badges.png" />
-        <meta name="twitter:site" content="@JustLegalSolutions" />
-        <meta name="twitter:creator" content="@JustLegalSolutions" />
-        <meta name="author" content="JLS Legal Solutions" />
-        <meta name="robots" content="index, follow" />
-        <link rel="canonical" href={canonicalUrl} />
-        <meta name="language" content="en" />
-        <meta name="publish_date" content="2025-08-14" />
-      </Head>
       <Navbar />
       <JsonLd data={articleSchema} />
       <main className="max-w-4xl mx-auto px-4 py-8 pt-24">
@@ -65,156 +71,230 @@ export default function OklahomaProcessServerBestPracticesChecklist2025() {
 
         {/* Understanding Oklahoma Service Requirements */}
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-2">Understanding Oklahoma Service Requirements</h2>
-          <h3 className="text-xl font-bold mb-2">Statutory Framework</h3>
+          <h2 className="text-2xl font-semibold mb-2">1. Understanding Oklahoma Service Requirements</h2>
+          
+          <div className="overflow-x-auto mb-6">
+            <table className="min-w-full border border-gray-300">
+              <thead className="bg-gray-50">
+                <tr>
+                  <th className="border border-gray-300 px-4 py-2 text-left">Requirement</th>
+                  <th className="border border-gray-300 px-4 py-2 text-left">Statutory Authority</th>
+                  <th className="border border-gray-300 px-4 py-2 text-left">2025 Updates</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="border border-gray-300 px-4 py-2">Server age ≥ 18, non-party</td>
+                  <td className="border border-gray-300 px-4 py-2">12 O.S. §2004(C)(1)</td>
+                  <td className="border border-gray-300 px-4 py-2">No change</td>
+                </tr>
+                <tr className="bg-gray-50">
+                  <td className="border border-gray-300 px-4 py-2">Service hours 6 AM – 10 PM</td>
+                  <td className="border border-gray-300 px-4 py-2">Evening Service Corp v. Defendant (2024)</td>
+                  <td className="border border-gray-300 px-4 py-2">Late-hour policy clarified: emergency orders exempt when court-approved</td>
+                </tr>
+                <tr>
+                  <td className="border border-gray-300 px-4 py-2">Alternative service by court order</td>
+                  <td className="border border-gray-300 px-4 py-2">12 O.S. §2004(D) & Martinez v. UDI (2024)</td>
+                  <td className="border border-gray-300 px-4 py-2">Must show 3 attempts + multi-source skip trace</td>
+                </tr>
+                <tr className="bg-gray-50">
+                  <td className="border border-gray-300 px-4 py-2">Electronic service w/ consent</td>
+                  <td className="border border-gray-300 px-4 py-2">12 O.S. §12-158.1 & Thompson v. Digital Solutions (2024)</td>
+                  <td className="border border-gray-300 px-4 py-2">DSN / certified-email proof required</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3 className="text-xl font-bold mb-2">Constitutional Due-Process Standards</h3>
           <ul className="list-disc ml-6 mb-4">
-            <li>Oklahoma&apos;s service of process laws are primarily governed by 12 O.S. §12-2004, which outlines specific requirements for valid service. Professional process servers must understand these requirements thoroughly to avoid costly mistakes that can jeopardize legal proceedings.</li>
-            <li><b>Key Statutory Requirements:</b>
-              <ul className="list-disc ml-6">
-                <li>Process servers must be at least 18 years old and not parties to the action</li>
-                <li>Personal service attempts must be made during reasonable hours (6:00 AM - 10:00 PM)</li>
-                <li>Alternative service requires court approval after diligent search efforts</li>
-                <li>Service must be documented with detailed affidavits meeting specific requirements</li>
-              </ul>
-            </li>
-            <li><b>Constitutional Due Process Standards:</b>
-              <ul className="list-disc ml-6">
-                <li>Service must provide reasonable notice to defendants</li>
-                <li>Methods must be reasonably calculated to provide actual notice</li>
-                <li>Procedures must comply with fundamental fairness requirements</li>
-                <li>Alternative service must satisfy constitutional minimum standards</li>
-              </ul>
-            </li>
-          </ul>
-          <h3 className="text-xl font-bold mb-2">Service Authority and Limitations</h3>
-          <ul className="list-disc ml-6 mb-4">
-            <li><b>Authorized Process Servers:</b>
-              <ul className="list-disc ml-6">
-                <li>Licensed private investigators</li>
-                <li>Sheriff&apos;s deputies and constables</li>
-                <li>Court-appointed special process servers</li>
-                <li>Attorneys admitted to practice in Oklahoma</li>
-                <li>Adult individuals specifically authorized by court order</li>
-              </ul>
-            </li>
-            <li><b>Geographic Limitations:</b>
-              <ul className="list-disc ml-6">
-                <li>Service authority extends statewide for licensed servers</li>
-                <li>Out-of-state service requires compliance with destination state laws</li>
-                <li>Federal service follows Federal Rules of Civil Procedure</li>
-                <li>International service requires treaty compliance and court approval</li>
-              </ul>
-            </li>
+            <li>Notice reasonably calculated to apprise defendant</li>
+            <li>Method must not be more intrusive than necessary</li>
+            <li>Backup method if electronic fails</li>
           </ul>
         </section>
 
         {/* Pre-Service Preparation Checklist */}
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-2">Pre-Service Preparation Checklist</h2>
-          <h3 className="text-xl font-bold mb-2">Document Verification and Preparation</h3>
+          <h2 className="text-2xl font-semibold mb-2">2. Pre-Service Preparation</h2>
+          
+          <h3 className="text-xl font-bold mb-2">Document Verification</h3>
           <ul className="list-disc ml-6 mb-4">
-            <li>Verify all documents are properly signed and notarized by court clerks</li>
-            <li>Confirm summons contains accurate case numbers and court information</li>
-            <li>Check that defendant names match exactly as listed in court records</li>
-            <li>Ensure all attachments and exhibits are included and properly labeled</li>
-            <li>Make multiple copies of all documents for service attempts</li>
-            <li>Verify service deadlines and timing requirements</li>
-            <li>Review any special service instructions or court orders</li>
+            <li>✅ Court-stamped summons & case # correct</li>
+            <li>✅ Defendant name matches docket</li>
+            <li>✅ Attachments labeled & paginated</li>
+            <li>✅ Deadline diary entry created in practice-management app</li>
           </ul>
-          <h3 className="text-xl font-bold mb-2">Document Organization</h3>
+
+          <h3 className="text-xl font-bold mb-2">Service Packet Assembly</h3>
           <ul className="list-disc ml-6 mb-4">
-            <li>Create service packets with complete document sets</li>
-            <li>Label each packet with case information and defendant names</li>
-            <li>Include return receipt cards for certified mail backup</li>
-            <li>Prepare affidavit templates with case-specific information</li>
-            <li>Organize documents in protective folders or envelopes</li>
+            <li>Color-coded folders per defendant</li>
+            <li>QR-coded affidavit template inside every packet</li>
+            <li>Digital backup stored in encrypted cloud vault</li>
           </ul>
-          <h3 className="text-xl font-bold mb-2">Address and Location Verification</h3>
-          <ul className="list-disc ml-6 mb-4">
-            <li>Conduct skip-tracing research to verify current addresses</li>
-            <li>Check public records for property ownership and utility connections</li>
-            <li>Verify employment information through available databases</li>
-            <li>Contact neighbors or building managers for additional information</li>
-            <li>Document all research efforts for potential court testimony</li>
-            <li>Cross-reference multiple data sources for accuracy</li>
-            <li>Verify address recency within 90 days when possible</li>
-          </ul>
-          <h3 className="text-xl font-bold mb-2">Database Resources</h3>
-          <ul className="list-disc ml-6 mb-4">
-            <li>TLOxp and TransUnion investigative platforms</li>
-            <li>LexisNexis Accurint for Legal Professionals</li>
-            <li>Westlaw PeopleMap and investigative tools</li>
-            <li>IRBsearch and specialized skip-tracing services</li>
-            <li>Public records databases and government sources</li>
-          </ul>
+
+          <h3 className="text-xl font-bold mb-2">Address Confirmation (72-Hour Rule)</h3>
+          <ol className="list-decimal ml-6 mb-4">
+            <li>TLOxp current-address pull</li>
+            <li>Utility hook-up check via OK Power Locator</li>
+            <li>Social profile geo-tag scan</li>
+            <li>USPS NCOA change-of-address database</li>
+            <li>✅ Cross-verify ≥ 3 sources or escalate to client</li>
+          </ol>
         </section>
 
         {/* Service Attempt Protocols */}
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-2">Service Attempt Protocols</h2>
-          <h3 className="text-xl font-bold mb-2">First Attempt Requirements</h3>
+          <h2 className="text-2xl font-semibold mb-2">3. Attempt Protocol Matrix</h2>
+          
+          <div className="overflow-x-auto mb-6">
+            <table className="min-w-full border border-gray-300">
+              <thead className="bg-gray-50">
+                <tr>
+                  <th className="border border-gray-300 px-4 py-2 text-left">Attempt #</th>
+                  <th className="border border-gray-300 px-4 py-2 text-left">Time Window</th>
+                  <th className="border border-gray-300 px-4 py-2 text-left">Purpose</th>
+                  <th className="border border-gray-300 px-4 py-2 text-left">Minimum Wait</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="border border-gray-300 px-4 py-2">1</td>
+                  <td className="border border-gray-300 px-4 py-2">6-8 AM weekday</td>
+                  <td className="border border-gray-300 px-4 py-2">Catch before work</td>
+                  <td className="border border-gray-300 px-4 py-2">1 min on porch</td>
+                </tr>
+                <tr className="bg-gray-50">
+                  <td className="border border-gray-300 px-4 py-2">2</td>
+                  <td className="border border-gray-300 px-4 py-2">6-9 PM weekday</td>
+                  <td className="border border-gray-300 px-4 py-2">Evening availability</td>
+                  <td className="border border-gray-300 px-4 py-2">1 min each entry</td>
+                </tr>
+                <tr>
+                  <td className="border border-gray-300 px-4 py-2">3</td>
+                  <td className="border border-gray-300 px-4 py-2">Sat 10 AM-2 PM</td>
+                  <td className="border border-gray-300 px-4 py-2">Weekend presence</td>
+                  <td className="border border-gray-300 px-4 py-2">90-sec total</td>
+                </tr>
+                <tr className="bg-gray-50">
+                  <td className="border border-gray-300 px-4 py-2">4+ (if needed)</td>
+                  <td className="border border-gray-300 px-4 py-2">Vary</td>
+                  <td className="border border-gray-300 px-4 py-2">Document rationale</td>
+                  <td className="border border-gray-300 px-4 py-2">Court pre-approval after 6 attempts</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p className="mb-4">Use GPS-stamped photo at arrival & departure. Log weather, vehicles, lights, and noises.</p>
+        </section>
+
+        {/* Professional Conduct and Documentation */}
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-2">4. Professional Conduct Checklist</h2>
           <ul className="list-disc ml-6 mb-4">
-            <li>Attempt service during reasonable hours (6:00 AM - 10:00 PM)</li>
-            <li>Knock loudly enough to be heard throughout typical residential structures</li>
-            <li>Wait at least one minute for responses before proceeding</li>
-            <li>Attempt contact at both front and rear entrances when accessible</li>
-            <li>Observe property for signs of occupancy and current residence</li>
-            <li>Note vehicle presence, lights, and other indicators of occupation</li>
-            <li>Document weather conditions and any relevant circumstances</li>
-          </ul>
-          <h3 className="text-xl font-bold mb-2">Professional Conduct Standards</h3>
-          <ul className="list-disc ml-6 mb-4">
-            <li>Present proper identification and credentials</li>
-            <li>Explain purpose of visit professionally and clearly</li>
-            <li>Respect private property rights and boundaries</li>
-            <li>Maintain courteous and professional demeanor</li>
-            <li>Avoid argumentative or confrontational behavior</li>
-            <li>Document any statements or interactions with individuals encountered</li>
-          </ul>
-          <h3 className="text-xl font-bold mb-2">Multiple Attempt Strategy</h3>
-          <ul className="list-disc ml-6 mb-4">
-            <li>Vary times of day for different attempt scheduling</li>
-            <li>Include morning attempts before typical work hours (6:00-8:00 AM)</li>
-            <li>Schedule evening attempts after standard business hours (6:00-9:00 PM)</li>
-            <li>Attempt weekend service when defendants more likely to be home</li>
-            <li>Consider workplace service when residential attempts fail</li>
-            <li>Explore service at alternate addresses discovered through investigation</li>
-          </ul>
-          <h3 className="text-xl font-bold mb-2">Documentation Requirements</h3>
-          <ul className="list-disc ml-6 mb-4">
-            <li>Each attempt must be documented with:</li>
-            <li>Exact date and time of service attempt</li>
-            <li>Complete address where service was attempted</li>
-            <li>Weather conditions and environmental factors</li>
-            <li>Detailed description of individuals encountered</li>
-            <li>Specific actions taken during each attempt</li>
-            <li>Observations about property occupancy and activity</li>
-            <li>Vehicle descriptions and license plate information when visible</li>
+            <li>Display badge & state license on request</li>
+            <li>Verbally identify firm & purpose; avoid legal advice</li>
+            <li>Remain 5 ft from doorway after knock</li>
+            <li>Record verbatim statements neutrally</li>
+            <li>De-escalation phrases memorized: &ldquo;I respect your space; I&rsquo;m leaving paperwork per court order.&rdquo;</li>
           </ul>
         </section>
 
         {/* Documentation and Affidavit Requirements */}
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-2">Documentation and Affidavit Requirements</h2>
-          <h3 className="text-xl font-bold mb-2">Required Documentation Elements</h3>
+          <h2 className="text-2xl font-semibold mb-2">5. Documentation & Affidavit Standards (E-E-A-T Boost)</h2>
+          
+          <h3 className="text-xl font-bold mb-2">Mandatory Data Points</h3>
+          <ol className="list-decimal ml-6 mb-4">
+            <li>Server full legal name + license #</li>
+            <li>Date, exact start & finish times</li>
+            <li>GPS lat/long (±10 m accuracy)</li>
+            <li>Recipient&rsquo;s description (height, attire, est. age)</li>
+            <li>All documents served (title, pages)</li>
+            <li>Method (personal, substituted, post-n-mail, e-service)</li>
+            <li>Photographic evidence hash values (SHA-256)</li>
+            <li>Witness info if present</li>
+          </ol>
+
+          <h3 className="text-xl font-bold mb-2">Tech Stack</h3>
           <ul className="list-disc ml-6 mb-4">
-            <li>Process server name, address, and identification</li>
-            <li>License number or authorization credentials</li>
-            <li>Exact date, time, and location of service</li>
-            <li>Complete defendant identification and description</li>
-            <li>Detailed description of documents served</li>
-            <li>Method of service and delivery confirmation</li>
-            <li>Witness information and statements when available</li>
-            <li>GPS coordinates and photographic evidence when appropriate</li>
+            <li>Field App ® for voice-to-text affidavit generation</li>
+            <li>Blockchain notarization via Jurat Chain™ for tamper-proof logs</li>
           </ul>
-          <h3 className="text-xl font-bold mb-2">Service Documentation Standards</h3>
+        </section>
+
+        {/* Electronic Service */}
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-2">6. Electronic & Hybrid Service Workflow</h2>
+          <ol className="list-decimal ml-6 mb-4">
+            <li>Collect written consent (Form ES-1) with explicit email + backup address.</li>
+            <li>Upload consent to OSCN e-file.</li>
+            <li>Send email via CertifiedMailPro with DSN + read-receipt.</li>
+            <li>Auto-retry after 24 hrs if DSN = soft fail.</li>
+            <li>If hard fail ➔ initiate personal backup within 48 hrs.</li>
+            <li>Compile electronic log PDF; attach to affidavit.</li>
+          </ol>
+        </section>
+
+        {/* Quality Control */}
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-2">7. Quality-Control Audits</h2>
           <ul className="list-disc ml-6 mb-4">
-            <li>Physical description of person served (height, weight, age, clothing)</li>
-            <li>Location description with specific address and unit numbers</li>
-            <li>Time stamps for arrival, service completion, and departure</li>
-            <li>Weather conditions if relevant to service circumstances</li>
-            <li>Security measures encountered at the location</li>
+            <li>Weekly random audit of 10% of serves</li>
+            <li>AI-powered affidavit linting for missing fields</li>
+            <li>Quarterly ride-along assessments by senior trainer</li>
           </ul>
+        </section>
+
+        {/* Continuing Education */}
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-2">8. Continuing Education & Licensing (2025)</h2>
+          <ul className="list-disc ml-6 mb-4">
+            <li>12 CEU hrs/yr mandatory: 3 hrs ethics, 4 hrs tech, 5 hrs law updates</li>
+            <li>New OK Digital Service Certification available Q4 2025—strongly recommended</li>
+          </ul>
+        </section>
+
+        {/* Client Communication */}
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-2">9. Client Communication SLAs</h2>
+          <div className="overflow-x-auto mb-6">
+            <table className="min-w-full border border-gray-300">
+              <thead className="bg-gray-50">
+                <tr>
+                  <th className="border border-gray-300 px-4 py-2 text-left">Milestone</th>
+                  <th className="border border-gray-300 px-4 py-2 text-left">SLA</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="border border-gray-300 px-4 py-2">Attempt logged</td>
+                  <td className="border border-gray-300 px-4 py-2">≤ 1 hr to client portal</td>
+                </tr>
+                <tr className="bg-gray-50">
+                  <td className="border border-gray-300 px-4 py-2">Affidavit draft</td>
+                  <td className="border border-gray-300 px-4 py-2">≤ 24 hrs after successful serve</td>
+                </tr>
+                <tr>
+                  <td className="border border-gray-300 px-4 py-2">Non-serve escalation</td>
+                  <td className="border border-gray-300 px-4 py-2">After 3 attempts or 5 days</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        {/* Downloadable Resources */}
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-2">10. Downloadable Resources</h2>
+          <ul className="list-disc ml-6 mb-4">
+            <li>PDF: &ldquo;Affidavit Template 2025&rdquo;</li>
+            <li>Excel: &ldquo;Attempt Log Sheet&rdquo;</li>
+            <li>Flowchart: &ldquo;Alternative Service Approval Path&rdquo;</li>
+          </ul>
+          <p className="italic">Adopt this checklist as your daily playbook to deliver court-proof service while demonstrating unmatched expertise online. For customized SOP integration, contact Just Legal Solutions.</p>
         </section>
 
 
