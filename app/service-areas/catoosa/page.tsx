@@ -99,8 +99,9 @@ export default function CatoosaProcessServer() {
     <div className="flex flex-col min-h-screen">
       <Navbar />
       <main className="pt-14 flex-grow">
-        {/* <BreadcrumbSchema items={breadcrumbItems} />
-        <LocalBusinessSchema */} 
+        {/* Schema components temporarily disabled for deployment
+        <BreadcrumbSchema items={breadcrumbItems} />
+        <LocalBusinessSchema 
           name="Just Legal Solutions - Catoosa"
           address={{
             streetAddress: "Professional Process Server",
@@ -127,6 +128,7 @@ export default function CatoosaProcessServer() {
           serviceDescription="Professional process serving in Catoosa, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service"
           serviceArea="Catoosa, Oklahoma"
         />
+        */}
 
         {/* FAQ Structured Data */}
         <script
