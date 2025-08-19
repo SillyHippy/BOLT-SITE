@@ -44,6 +44,13 @@ interface UnifiedSchemaProps {
     name: string;
     url?: string;
   };
+  articleDetails?: {
+    headline: string;
+    author: string;
+    datePublished: string;
+    dateModified: string;
+    image: string;
+  };
   location?: {
     name: string;
     geo: {
@@ -108,7 +115,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = ({
     name: 'Just Legal Solutions',
     logo: '/images/jls-logo.webp',
     address: {
-      streetAddress: '564 E 138th St',
+      streetAddress: '564 E 138th PL',
       addressLocality: 'Glenpool',
       addressRegion: 'OK',
       postalCode: '74033',
@@ -125,6 +132,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = ({
     name: 'JLS Legal Solutions',
     url: 'https://justlegalsolutions.org/about'
   },
+  articleDetails,
   location,
   priceRange,
   currenciesAccepted,
@@ -219,19 +227,19 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = ({
   // Article schema
   const articleSchema = (pageType === 'article') ? {
     '@type': 'Article',
-    headline: title,
+    headline: articleDetails?.headline || title,
     description: description,
-    image: [image],
+    image: [articleDetails?.image || image],
     author: {
       '@type': 'Person',
-      name: author.name,
-      url: author.url
+      name: articleDetails?.author || author?.name,
+      url: author?.url
     },
     publisher: {
       '@id': 'https://justlegalsolutions.org/#organization'
     },
-    datePublished: datePublished,
-    dateModified: dateModified || datePublished,
+    datePublished: articleDetails?.datePublished || datePublished,
+    dateModified: articleDetails?.dateModified || dateModified || datePublished,
     mainEntityOfPage: url
   } : null;
 

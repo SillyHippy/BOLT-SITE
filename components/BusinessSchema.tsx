@@ -25,7 +25,7 @@ export default function BusinessSchema() {
     ],
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "564 E 138th St",
+      "streetAddress": "564 E 138th PL",
       "addressLocality": "Glenpool",
       "addressRegion": "OK",
       "postalCode": "74033",
