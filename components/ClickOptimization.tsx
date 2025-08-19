@@ -1,4 +1,5 @@
 import React from 'react';
+import BreadcrumbSchema from './ui/breadcrumb-schema';
 
 interface ClickOptimizationProps {
   title?: string;
@@ -86,7 +87,7 @@ export default function ClickOptimization({
             "name": "Same-Day Process Serving",
             "description": "Urgent document delivery within 24 hours. Starting at $30."
           },
-          "priceRange": "$30-$150",
+          "priceRange": "$30-$200",
           "priceCurrency": "USD"
         }
       ]
@@ -103,29 +104,12 @@ export default function ClickOptimization({
         dangerouslySetInnerHTML={{ __html: JSON.stringify(optimizedSchema) }}
       />
       
-      {/* Breadcrumb Schema for Better SERP Appearance */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://justlegalsolutions.org"
-              },
-              {
-                "@type": "ListItem", 
-                "position": 2,
-                "name": "Process Server Tulsa",
-                "item": "https://justlegalsolutions.org/process-server-tulsa"
-              }
-            ]
-          })
-        }}
+      {/* Use the BreadcrumbSchema component for proper formatting */}
+      <BreadcrumbSchema 
+        items={[
+          { name: "Home", url: "/" },
+          { name: "Process Server Tulsa", url: "/process-server-tulsa" }
+        ]}
       />
     </>
   );
