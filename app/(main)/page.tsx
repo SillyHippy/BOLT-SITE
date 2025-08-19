@@ -386,6 +386,7 @@ export default function Home() {
         title="Professional Process Server Tulsa County - Just Legal Solutions Oklahoma"
         description="Expert process serving for Tulsa, Broken Arrow, Sapulpa, Glenpool & Oklahoma. 50+ years combined experience. Process serving starts at $30, with standard, rush and same-day options available"
         image="https://justlegalsolutions.org/images/hero.webp"
+        priceRange="$30-$200"
         serviceDetails={{
           name: "Process Serving Services",
           description: "Professional process serving and legal document delivery services throughout Tulsa County and Oklahoma. Expert court document service, skip tracing, and courier solutions with 50+ years combined experience.",
