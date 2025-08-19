@@ -97,8 +97,8 @@ export default function BrokenArrowProcessServer() {
     <div className="flex flex-col min-h-screen">
       <Navbar />
       <main className="pt-14 flex-grow">
-        <BreadcrumbSchema items={breadcrumbItems} />
-        <LocalBusinessSchema 
+        {/* <BreadcrumbSchema items={breadcrumbItems} />
+        <LocalBusinessSchema */} 
           name="Just Legal Solutions - Broken Arrow"
           address={{
             streetAddress: "Professional Process Server",

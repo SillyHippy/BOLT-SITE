@@ -99,8 +99,8 @@ export default function CatoosaProcessServer() {
     <div className="flex flex-col min-h-screen">
       <Navbar />
       <main className="pt-14 flex-grow">
-        <BreadcrumbSchema items={breadcrumbItems} />
-        <LocalBusinessSchema 
+        {/* <BreadcrumbSchema items={breadcrumbItems} />
+        <LocalBusinessSchema */} 
           name="Just Legal Solutions - Catoosa"
           address={{
             streetAddress: "Professional Process Server",
