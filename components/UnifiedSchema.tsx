@@ -89,6 +89,8 @@ interface UnifiedSchemaProps {
     name: string;
     state?: string;
     zipCode?: string;
+    address?: string;
+    region?: string;
     geo?: {
       latitude: number;
       longitude: number;
