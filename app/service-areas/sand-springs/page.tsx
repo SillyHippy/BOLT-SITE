@@ -113,33 +113,6 @@ export default function SandSpringsProcessServer() {
           }}
           services={["Process Serving", "Legal Document Delivery", "Court Filing Services", "Skip Tracing", "Emergency Rush Service", "GPS Tracked Delivery", "24/7 Emergency Service"]}
         />
-        <LocalBusinessSchema 
-          name="Just Legal Solutions - Sand Springs"
-          address={{
-            streetAddress: "Professional Process Server",
-            addressLocality: "Sand Springs",
-          addressRegion: "Oklahoma",
-          postalCode: "74063"
-        }}
-        phone="(539) 367-6832"
-        email="service@justlegalsolutions.org"
-        url="https://justlegalsolutions.org/service-areas/sand-springs"
-        services={[
-          "Process Serving",
-          "Legal Document Delivery", 
-          "Court Filing Services",
-          "Skip Tracing",
-          "Corporate Service",
-          "Emergency Rush Service",
-          "GPS Tracked Delivery",
-          "24/7 Emergency Service"
-        ]}
-      />
-        <ServiceSchema 
-          serviceName="Process Server Services"
-          serviceDescription="Professional process serving in Sand Springs, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service"
-          serviceArea="Sand Springs, Oklahoma"
-        />
 
         {/* FAQ Structured Data */}
         <script

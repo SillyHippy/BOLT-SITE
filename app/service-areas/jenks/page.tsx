@@ -122,7 +122,7 @@ export default function JenksProcessServer() {
           postalCode: "74037"
         }}
         phone="(539) 367-6832"
-        email="service@justlegalsolutions.org"
+        email="info@justlegalsolutions.org"
         url="https://justlegalsolutions.org/service-areas/jenks"
         services={[
           "Process Serving",

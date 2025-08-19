@@ -113,33 +113,6 @@ export default function PryorProcessServer() {
           }}
           services={["Process Serving", "Legal Document Delivery", "Court Filing Services", "Skip Tracing", "Emergency Rush Service", "GPS Tracked Delivery", "24/7 Emergency Service"]}
         />
-      <LocalBusinessSchema 
-        name="Just Legal Solutions - Pryor"
-        address={{
-          streetAddress: "Professional Process Server",
-          addressLocality: "Pryor",
-          addressRegion: "Oklahoma",
-          postalCode: "74361"
-        }}
-        phone="(539) 367-6832"
-        email="service@justlegalsolutions.org"
-        url="https://justlegalsolutions.org/service-areas/pryor"
-        services={[
-          "Process Serving",
-          "Legal Document Delivery", 
-          "Court Filing Services",
-          "Skip Tracing",
-          "Rural Property Service",
-          "Emergency Rush Service",
-          "GPS Tracked Delivery",
-          "24/7 Emergency Service"
-        ]}
-      />
-      <ServiceSchema 
-        serviceName="Process Server Services"
-        serviceDescription="Professional process serving in Pryor, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service"
-        serviceArea="Pryor, Oklahoma"
-      />
         {/* FAQ Structured Data */}
         <script
           type="application/ld+json"

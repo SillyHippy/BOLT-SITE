@@ -113,33 +113,6 @@ export default function TulsaProcessServer() {
           }}
           services={["Process Serving", "Legal Document Delivery", "Court Filing Services", "Skip Tracing", "Emergency Rush Service", "GPS Tracked Delivery", "24/7 Emergency Service"]}
         />
-        <LocalBusinessSchema 
-          name="Just Legal Solutions - Tulsa"
-          address={{
-            streetAddress: "Professional Process Server",
-            addressLocality: "Tulsa",
-          addressRegion: "Oklahoma",
-          postalCode: "74101"
-        }}
-        phone="(539) 367-6832"
-        email="service@justlegalsolutions.org"
-        url="https://justlegalsolutions.org/service-areas/tulsa"
-        services={[
-          "Process Serving",
-          "Legal Document Delivery", 
-          "Court Filing Services",
-          "Skip Tracing",
-          "Corporate Service",
-          "Emergency Rush Service",
-          "GPS Tracked Delivery",
-          "24/7 Emergency Service"
-        ]}
-      />
-      <ServiceSchema 
-        serviceName="Process Server Services"
-        serviceDescription="Professional process serving in Tulsa, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service"
-        serviceArea="Tulsa, Oklahoma"
-      />
 
       {/* FAQ Structured Data */}
       <script

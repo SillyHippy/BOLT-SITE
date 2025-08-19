@@ -44,7 +44,7 @@ export default function OkmulgeeCountyPage() {
     "description": "Professional process server for Okmulgee County, Oklahoma. Licensed and bonded legal document service.",
     "url": "https://justlegalsolutions.org/counties/okmulgee-county",
     "telephone": "(539) 367-6832",
-    "email": "service@justlegalsolutions.org",
+    "email": "info@justlegalsolutions.org",
     "address": {
       "@type": "PostalAddress",
       "addressRegion": "OK",
@@ -643,7 +643,7 @@ export default function OkmulgeeCountyPage() {
               <div className="text-center">
                 <Mail className="mx-auto mb-4 text-blue-600" size={48} />
                 <h3 className="text-lg font-semibold mb-2">Email Us</h3>
-                <p className="text-lg text-blue-600 mb-2">service@justlegalsolutions.org</p>
+                <p className="text-lg text-blue-600 mb-2">info@justlegalsolutions.org</p>
                 <p className="text-gray-600">Fast response within 2 hours</p>
                 <p className="text-sm text-gray-500 mt-2">
                   Include ZIP code for fastest routing

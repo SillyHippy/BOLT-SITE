@@ -42,7 +42,7 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
-import ReviewSchema from '@/components/ReviewSchema';
+
 
 export const metadata: Metadata = {
   title: 'Glenpool Process Server | Same-Day Service in Tulsa County, OK',
@@ -80,11 +80,6 @@ const jsonLd = {
 export default function GlenpoolProcessServer() {
   return (
     <>
-      <ReviewSchema 
-        businessName="Just Legal Solutions - Glenpool Process Server"
-        averageRating={4.9}
-        reviewCount={142}
-      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

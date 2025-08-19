@@ -121,7 +121,7 @@ export default function KellyvilleProcessServer() {
           postalCode: "74039"
         }}
         phone="(539) 367-6832"
-        email="service@justlegalsolutions.org"
+        email="info@justlegalsolutions.org"
         url="https://justlegalsolutions.org/service-areas/kellyville"
         services={[
           "Process Serving",

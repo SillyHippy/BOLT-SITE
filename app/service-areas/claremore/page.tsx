@@ -122,7 +122,7 @@ export default function ClaremoreProcessServer() {
           postalCode: "74017"
         }}
         phone="(539) 367-6832"
-        email="service@justlegalsolutions.org"
+        email="info@justlegalsolutions.org"
         url="https://justlegalsolutions.org/service-areas/claremore"
         services={[
           "Process Serving",
