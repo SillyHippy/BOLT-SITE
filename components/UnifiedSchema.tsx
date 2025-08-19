@@ -161,7 +161,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     pageType,
     // Map legacy properties to new format
     url = props.pageUrl,
-    title = props.pageTitle,
+    title = props.pageTitle || props.pageName || props.headline,
     description = props.pageDescription,
     // Handle legacy breadcrumbs - support both 'item' and 'url' properties
     breadcrumbs = (props.breadcrumbs || props.breadcrumbItems || []).map(item => ({
@@ -243,7 +243,9 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     speakable,
     services,
     keywords,
-    organizationDetails
+    organizationDetails,
+    pageName,
+    headline
   } = props;
   // Base Organization schema that will be included in all pages
   const organizationSchema = {
