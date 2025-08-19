@@ -69,7 +69,7 @@ export default function WashingtonCountyProcessServer() {
       "@type": "ProfessionalService",
       "name": "Washington County Process Server - Just Legal Solutions",
       "url": "https://justlegalsolutions.org/counties/washington-county",
-      "telephone": "+1-405-923-0139",
+      "telephone": "+1-539-367-6832",
       "areaServed": [
         {
           "@type": "City",
@@ -122,7 +122,7 @@ export default function WashingtonCountyProcessServer() {
           }
         ]}
         priceRange="$60-$150"
-        telephone="+1-405-923-0139"
+        telephone="+1-539-367-6832"
         address={{
           streetAddress: "County-wide Service",
           addressLocality: "Bartlesville",

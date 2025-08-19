@@ -85,7 +85,7 @@ export default function MayesCountyProcessServer() {
           }
         ]}
         priceRange="$60-$150"
-        telephone="+1-405-923-0139"
+        telephone="+1-539-367-6832"
         address={{
           streetAddress: "County-wide Service",
           addressLocality: "Pryor",

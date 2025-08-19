@@ -134,7 +134,7 @@ export default function ServiceAreasHub() {
         serviceDescription="Professional process server serving statewide throughout all of Oklahoma including all 77 counties with same-day service available."
         serviceArea="Oklahoma, Statewide"
         priceRange="$60-$150"
-        telephone="+1-405-923-0139"
+        telephone="+1-539-367-6832"
         address={{
           streetAddress: "Statewide Service",
           addressLocality: "Oklahoma",
