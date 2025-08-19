@@ -216,7 +216,7 @@ export default function OkmulgeeCountyPage() {
                 <h3 className="text-lg font-semibold mb-3">Major Cities & ZIP Codes:</h3>
                 <div className="grid grid-cols-1 gap-2 text-sm">
                   <div className="bg-blue-50 p-3 rounded flex justify-between">
-                    <Link href="/service-areas/okmulgee" className="text-blue-700 hover:underline font-medium">
+                    <Link href="/counties/okmulgee" className="text-blue-700 hover:underline font-medium">
                       Okmulgee (County Seat)
                     </Link>
                     <span className="text-gray-600">74447</span>

@@ -301,7 +301,9 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
       '@type': 'ListItem',
       position: index + 1,
       name: item.name,
-      item: item.item.startsWith('http') ? item.item : `https://justlegalsolutions.org${item.item}`
+      item: (item.item || item.url)?.startsWith('http') 
+        ? (item.item || item.url) 
+        : `https://justlegalsolutions.org${item.item || item.url}`
     }))
   };
 
