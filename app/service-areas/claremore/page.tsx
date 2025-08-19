@@ -113,33 +113,6 @@ export default function ClaremoreProcessServer() {
           }}
           services={["Process Serving", "Legal Document Delivery", "Court Filing Services", "Skip Tracing", "Rural Property Service", "Emergency Rush Service", "GPS Tracked Delivery", "24/7 Emergency Service"]}
         />
-        <LocalBusinessSchema 
-          name="Just Legal Solutions - Claremore"
-          address={{
-            streetAddress: "Professional Process Server",
-            addressLocality: "Claremore",
-          addressRegion: "Oklahoma",
-          postalCode: "74017"
-        }}
-        phone="(539) 367-6832"
-        email="info@justlegalsolutions.org"
-        url="https://justlegalsolutions.org/service-areas/claremore"
-        services={[
-          "Process Serving",
-          "Legal Document Delivery", 
-          "Court Filing Services",
-          "Skip Tracing",
-          "Rural Property Service",
-          "Emergency Rush Service",
-          "GPS Tracked Delivery",
-          "24/7 Emergency Service"
-        ]}
-      />
-        <ServiceSchema 
-          serviceName="Process Server Services"
-          serviceDescription="Professional process serving in Claremore, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service"
-          serviceArea="Claremore, Oklahoma"
-        />
 
         {/* FAQ Structured Data */}
         <script

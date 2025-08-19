@@ -112,33 +112,6 @@ export default function KellyvilleProcessServer() {
         }}
         services={["Process Serving", "Legal Document Delivery", "Court Filing Services", "Skip Tracing", "Emergency Rush Service", "GPS Tracked Delivery", "24/7 Emergency Service"]}
       />
-      <LocalBusinessSchema 
-        name="Just Legal Solutions - Kellyville"
-        address={{
-          streetAddress: "Professional Process Server",
-          addressLocality: "Kellyville",
-          addressRegion: "Oklahoma",
-          postalCode: "74039"
-        }}
-        phone="(539) 367-6832"
-        email="info@justlegalsolutions.org"
-        url="https://justlegalsolutions.org/service-areas/kellyville"
-        services={[
-          "Process Serving",
-          "Legal Document Delivery", 
-          "Court Filing Services",
-          "Skip Tracing",
-          "Corporate Service",
-          "Emergency Rush Service",
-          "GPS Tracked Delivery",
-          "24/7 Emergency Service"
-        ]}
-      />
-      <ServiceSchema 
-        serviceName="Process Server Services"
-        serviceDescription="Professional process serving in Kellyville, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service"
-        serviceArea="Kellyville, Oklahoma"
-      />
       
       {/* FAQ Structured Data */}
       <script
