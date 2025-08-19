@@ -358,14 +358,14 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
   // Enhanced Organization schema with additional details
   if (organization) {
     // Add enhanced organization properties
-    if (organization.legalName) organizationSchema.legalName = organization.legalName;
-    if (organization.description) organizationSchema.description = organization.description;
-    if (organization.email) organizationSchema.email = organization.email;
+    if (organization.legalName) (organizationSchema as any).legalName = organization.legalName;
+    if (organization.description) (organizationSchema as any).description = organization.description;
+    if (organization.email) (organizationSchema as any).email = organization.email;
   }
   
   // Add member organizations if provided
   if (memberOf && memberOf.length > 0) {
-    organizationSchema.memberOf = memberOf.map(member => ({
+    (organizationSchema as any).memberOf = memberOf.map(member => ({
       '@type': 'Organization',
       'name': member.name
     }));
@@ -373,12 +373,12 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
   
   // Add awards if provided
   if (awards && awards.length > 0) {
-    organizationSchema.award = awards;
+    (organizationSchema as any).award = awards;
   }
   
   // Add credentials if provided
   if (hasCredential && hasCredential.length > 0) {
-    organizationSchema.hasCredential = hasCredential.map(credential => ({
+    (organizationSchema as any).hasCredential = hasCredential.map(credential => ({
       '@type': 'EducationalOccupationalCredential',
       'credentialCategory': credential.credentialCategory || 'Professional Certification',
       'name': credential.name
@@ -387,26 +387,26 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
 
   // Add founding date if provided
   if (foundingDate) {
-    organizationSchema.foundingDate = foundingDate;
+    (organizationSchema as any).foundingDate = foundingDate;
   }
   
   // Add slogan if provided
   if (slogan) {
-    organizationSchema.slogan = slogan;
+    (organizationSchema as any).slogan = slogan;
   }
   
   // Add number of employees if provided
   if (numberOfEmployees) {
-    organizationSchema.numberOfEmployees = numberOfEmployees;
+    (organizationSchema as any).numberOfEmployees = numberOfEmployees;
   }
   
   // Add knowledge areas if provided
   if (knowsAbout && knowsAbout.length > 0) {
-    organizationSchema.knowsAbout = knowsAbout;
+    (organizationSchema as any).knowsAbout = knowsAbout;
   }
 
   // Local business schema (for location pages or home page)
-  const localBusinessSchema = (pageType === 'location' || pageType === 'home') ? {
+  const localBusinessSchema: any = (pageType === 'location' || pageType === 'home') ? {
     '@type': ['LocalBusiness', 'LegalService'],
     name: location ? location.name : organization.name,
     '@id': `${url}#localbusiness`,
@@ -491,10 +491,10 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
   ];
 
   // Add conditional schemas
-  if (faqSchema) schemaGraph.push(faqSchema);
-  if (serviceSchema) schemaGraph.push(serviceSchema);
-  if (articleSchema) schemaGraph.push(articleSchema);
-  if (localBusinessSchema) schemaGraph.push(localBusinessSchema);
+  if (faqSchema) (schemaGraph as any[]).push(faqSchema);
+  if (serviceSchema) (schemaGraph as any[]).push(serviceSchema);
+  if (articleSchema) (schemaGraph as any[]).push(articleSchema);
+  if (localBusinessSchema) (schemaGraph as any[]).push(localBusinessSchema);
 
   // The final schema object with @graph
   const schema = {
