@@ -118,8 +118,16 @@ function generateSitemap() {
   // Get URLs from existing files
   const fileUrls = files.map(f => filePathToUrl(f, baseDir));
   
+  // Process additionalUrls to ensure they start with the domain
+  const processedAdditionalUrls = additionalUrls.map(url => {
+    // Remove any single quotes that might be around the URL
+    url = url.replace(/^'|'$/g, '');
+    // Ensure URL starts with domain
+    return url.startsWith('http') ? url : DOMAIN + url;
+  });
+  
   // Combine and deduplicate URLs, excluding redirect pages
-  const allUrls = [...new Set([...fileUrls, ...additionalUrls.map(url => DOMAIN + url)])]
+  const allUrls = [...new Set([...fileUrls, ...processedAdditionalUrls])]
     .filter(url => !excludeUrls.some(excludeUrl => url.endsWith(excludeUrl)));
   
   const urlEntries = allUrls.map(url => {
