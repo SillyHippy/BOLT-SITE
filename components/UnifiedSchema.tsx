@@ -139,6 +139,7 @@ interface UnifiedSchemaProps {
   speakable?: string[];
   services?: string[];
   keywords?: string[];
+  articleSection?: string;
   organizationDetails?: {
     name: string;
     url: string;
@@ -245,6 +246,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     speakable,
     services,
     keywords,
+    articleSection,
     organizationDetails,
     pageName,
     headline
