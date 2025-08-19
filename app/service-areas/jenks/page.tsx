@@ -105,7 +105,7 @@ export default function JenksProcessServer() {
           title="Just Legal Solutions - Jenks"
           description="Professional process serving in Jenks, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service"
           url="https://justlegalsolutions.org/service-areas/jenks"
-          breadcrumbs={breadcrumbItems}
+          breadcrumbItems={breadcrumbItems}
           location={{
             name: "Jenks",
             state: "Oklahoma",

@@ -103,7 +103,7 @@ export default function CatoosaProcessServer() {
           title="Just Legal Solutions - Catoosa"
           description="Professional process serving in Catoosa, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service"
           url="https://justlegalsolutions.org/service-areas/catoosa"
-          breadcrumbs={breadcrumbItems}
+          breadcrumbItems={breadcrumbItems}
           location={{
             name: "Catoosa",
             state: "Oklahoma",

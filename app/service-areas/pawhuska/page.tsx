@@ -105,7 +105,7 @@ export default function PawhuskaProcessServer() {
           title="Just Legal Solutions - Pawhuska"
           description="Professional process serving in Pawhuska, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service"
           url="https://justlegalsolutions.org/service-areas/pawhuska"
-          breadcrumbs={breadcrumbItems}
+          breadcrumbItems={breadcrumbItems}
           location={{
             name: "Pawhuska",
             state: "Oklahoma",

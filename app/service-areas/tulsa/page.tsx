@@ -105,7 +105,7 @@ export default function TulsaProcessServer() {
           title="Just Legal Solutions - Tulsa"
           description="Professional process serving in Tulsa, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service"
           url="https://justlegalsolutions.org/service-areas/tulsa"
-          breadcrumbs={breadcrumbItems}
+          breadcrumbItems={breadcrumbItems}
           location={{
             name: "Tulsa",
             state: "Oklahoma",

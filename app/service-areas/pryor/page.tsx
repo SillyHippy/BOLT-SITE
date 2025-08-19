@@ -105,7 +105,7 @@ export default function PryorProcessServer() {
           title="Just Legal Solutions - Pryor"
           description="Professional process serving in Pryor, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service"
           url="https://justlegalsolutions.org/service-areas/pryor"
-          breadcrumbs={breadcrumbItems}
+          breadcrumbItems={breadcrumbItems}
           location={{
             name: "Pryor",
             state: "Oklahoma",

@@ -105,7 +105,7 @@ export default function OwassoProcessServer() {
           title="Just Legal Solutions - Owasso"
           description="Professional process serving in Owasso, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service"
           url="https://justlegalsolutions.org/service-areas/owasso"
-          breadcrumbs={breadcrumbItems}
+          breadcrumbItems={breadcrumbItems}
           location={{
             name: "Owasso",
             state: "Oklahoma",

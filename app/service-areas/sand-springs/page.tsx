@@ -105,7 +105,7 @@ export default function SandSpringsProcessServer() {
           title="Just Legal Solutions - Sand Springs"
           description="Professional process serving in Sand Springs, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service"
           url="https://justlegalsolutions.org/service-areas/sand-springs"
-          breadcrumbs={breadcrumbItems}
+          breadcrumbItems={breadcrumbItems}
           location={{
             name: "Sand Springs",
             state: "Oklahoma",

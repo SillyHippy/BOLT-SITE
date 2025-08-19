@@ -102,7 +102,7 @@ export default function BrokenArrowProcessServer() {
           title="Just Legal Solutions - Broken Arrow"
           description="Professional process serving in Broken Arrow, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service"
           url="https://justlegalsolutions.org/service-areas/broken-arrow"
-          breadcrumbs={breadcrumbItems}
+          breadcrumbItems={breadcrumbItems}
           location={{
             name: "Broken Arrow",
             state: "Oklahoma",

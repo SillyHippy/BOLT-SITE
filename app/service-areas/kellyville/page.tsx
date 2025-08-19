@@ -104,7 +104,7 @@ export default function KellyvilleProcessServer() {
         title="Just Legal Solutions - Kellyville"
         description="Professional process serving in Kellyville, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service"
         url="https://justlegalsolutions.org/service-areas/kellyville"
-        breadcrumbs={breadcrumbItems}
+        breadcrumbItems={breadcrumbItems}
         location={{
           name: "Kellyville",
           state: "Oklahoma",

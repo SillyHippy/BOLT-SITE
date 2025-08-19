@@ -105,7 +105,7 @@ export default function SapulpaProcessServer() {
           title="Just Legal Solutions - Sapulpa"
           description="Professional process serving in Sapulpa, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service"
           url="https://justlegalsolutions.org/service-areas/sapulpa"
-          breadcrumbs={breadcrumbItems}
+          breadcrumbItems={breadcrumbItems}
           location={{
             name: "Sapulpa",
             state: "Oklahoma",

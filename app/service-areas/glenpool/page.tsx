@@ -105,7 +105,7 @@ export default function GlenpoolProcessServer() {
           title="Just Legal Solutions - Glenpool"
           description="Professional process serving in Glenpool, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service"
           url="https://justlegalsolutions.org/service-areas/glenpool"
-          breadcrumbs={breadcrumbItems}
+          breadcrumbItems={breadcrumbItems}
           location={{
             name: "Glenpool",
             state: "Oklahoma",

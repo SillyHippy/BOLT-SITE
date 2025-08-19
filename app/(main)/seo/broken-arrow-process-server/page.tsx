@@ -202,9 +202,9 @@ const brokenArrowFAQs = [
 ];
 
 const breadcrumbItems = [
-  { name: 'Home', url: '/' },
-  { name: 'SEO', url: '/seo' },
-  { name: 'Broken Arrow Process Server', url: '/seo/broken-arrow-process-server' },
+  { name: 'Home', item: '/' },
+  { name: 'SEO', item: '/seo' },
+  { name: 'Broken Arrow Process Server', item: '/seo/broken-arrow-process-server' },
 ];
 
 export default function BrokenArrowProcessServer() {
@@ -241,7 +241,7 @@ export default function BrokenArrowProcessServer() {
             longitude: -95.7909
           }
         }}
-        breadcrumbs={breadcrumbItems}
+        breadcrumbItems={breadcrumbItems}
         faqItems={brokenArrowFAQs}
         aggregateRating={{
           ratingValue: 4.9,

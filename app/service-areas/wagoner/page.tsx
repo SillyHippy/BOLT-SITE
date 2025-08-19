@@ -105,7 +105,7 @@ export default function WagonerProcessServer() {
           title="Just Legal Solutions - Wagoner"
           description="Professional process serving in Wagoner, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service"
           url="https://justlegalsolutions.org/service-areas/wagoner"
-          breadcrumbs={breadcrumbItems}
+          breadcrumbItems={breadcrumbItems}
           location={{
             name: "Wagoner",
             state: "Oklahoma",

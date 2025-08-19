@@ -105,7 +105,7 @@ export default function SkiatookProcessServer() {
           title="Just Legal Solutions - Skiatook"
           description="Professional process serving in Skiatook, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service"
           url="https://justlegalsolutions.org/service-areas/skiatook"
-          breadcrumbs={breadcrumbItems}
+          breadcrumbItems={breadcrumbItems}
           location={{
             name: "Skiatook",
             state: "Oklahoma",

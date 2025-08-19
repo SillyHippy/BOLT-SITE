@@ -105,7 +105,7 @@ export default function CollinsvilleProcessServer() {
           title="Just Legal Solutions - Collinsville"
           description="Professional process serving in Collinsville, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service"
           url="https://justlegalsolutions.org/service-areas/collinsville"
-          breadcrumbs={breadcrumbItems}
+          breadcrumbItems={breadcrumbItems}
           location={{
             name: "Collinsville",
             state: "Oklahoma",

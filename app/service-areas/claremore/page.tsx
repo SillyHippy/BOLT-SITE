@@ -105,7 +105,7 @@ export default function ClaremoreProcessServer() {
           title="Just Legal Solutions - Claremore"
           description="Professional process serving in Claremore, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service"
           url="https://justlegalsolutions.org/service-areas/claremore"
-          breadcrumbs={breadcrumbItems}
+          breadcrumbItems={breadcrumbItems}
           location={{
             name: "Claremore",
             state: "Oklahoma",

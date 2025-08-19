@@ -105,7 +105,7 @@ export default function CowetaProcessServer() {
           title="Just Legal Solutions - Coweta"
           description="Professional process serving in Coweta, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service"
           url="https://justlegalsolutions.org/service-areas/coweta"
-          breadcrumbs={breadcrumbItems}
+          breadcrumbItems={breadcrumbItems}
           location={{
             name: "Coweta",
             state: "Oklahoma",
