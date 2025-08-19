@@ -149,7 +149,7 @@ export default function TulsaCountyProcessServer() {
         }}
         faqItems={tulsaCountyFAQs}
         aggregateRating={{
-          ratingValue: 5,
+          ratingValue: 4.9,
           reviewCount: 142,
           bestRating: 5,
           worstRating: 1

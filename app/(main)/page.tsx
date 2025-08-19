@@ -393,7 +393,7 @@ export default function Home() {
           areaServed: ["Tulsa", "Broken Arrow", "Sapulpa", "Glenpool", "Oklahoma"]
         }}
         aggregateRating={{
-          ratingValue: 5,
+          ratingValue: 4.9,
           reviewCount: 142,
           bestRating: 5,
           worstRating: 1
