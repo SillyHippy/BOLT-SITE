@@ -98,6 +98,7 @@ interface UnifiedSchemaProps {
       };
     }>;
   };
+  speakable?: string[];
 }
 
 const UnifiedSchema: React.FC<UnifiedSchemaProps> = ({
@@ -147,7 +148,8 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = ({
   aggregateRating,
   reviews,
   openingHours,
-  hasOfferCatalog
+  hasOfferCatalog,
+  speakable
 }) => {
   // Base Organization schema that will be included in all pages
   const organizationSchema = {
@@ -178,7 +180,13 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = ({
     description: 'Professional Process Server in Oklahoma',
     publisher: {
       '@id': 'https://justlegalsolutions.org/#organization'
-    }
+    },
+    ...(speakable && speakable.length > 0 ? {
+      speakable: {
+        '@type': 'SpeakableSpecification',
+        xpath: speakable
+      }
+    } : {})
   };
 
   // Breadcrumb schema
