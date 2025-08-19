@@ -134,6 +134,22 @@ interface UnifiedSchemaProps {
   };
   speakable?: string[];
   services?: string[];
+  organizationDetails?: {
+    name: string;
+    url: string;
+    logo: string;
+    contactPoint?: {
+      telephone: string;
+      email: string;
+    };
+    address?: {
+      streetAddress: string;
+      addressLocality: string;
+      addressRegion: string;
+      postalCode: string;
+      addressCountry: string;
+    };
+  };
 }
 
 const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
@@ -222,7 +238,8 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     openingHours,
     hasOfferCatalog,
     speakable,
-    services
+    services,
+    organizationDetails
   } = props;
   // Base Organization schema that will be included in all pages
   const organizationSchema = {
