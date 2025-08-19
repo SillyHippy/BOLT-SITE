@@ -22,6 +22,7 @@ export default function ClickOptimization({
     "url": url,
     "image": image,
     "telephone": "(539) 367-6832",
+    "priceRange": "$30-$200",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Tulsa",

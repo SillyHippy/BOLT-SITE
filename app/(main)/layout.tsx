@@ -1,6 +1,8 @@
 import React from 'react';
 import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
+import DynamicBreadcrumbSchema from '@/components/ui/dynamic-breadcrumb-schema';
+import BreadcrumbSchema from '@/components/ui/breadcrumb-schema';
 
 export default function MainLayout({
   children,
@@ -116,15 +118,12 @@ export default function MainLayout({
             }
           }) }}
         />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-              {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://justlegalsolutions.org/"}
-            ]
-          }) }}
+        
+        {/* Base Breadcrumb Schema for homepage */}
+        <DynamicBreadcrumbSchema 
+          items={[
+            { name: "Home", url: "/" }
+          ]}
         />
       </main>
       <Footer />
