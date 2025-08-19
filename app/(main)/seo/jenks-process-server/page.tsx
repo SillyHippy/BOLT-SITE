@@ -102,7 +102,7 @@ export default function JenksProcessServer() {
       <ReviewSchema 
         businessName="Just Legal Solutions - Jenks Process Server"
         averageRating={4.9}
-        reviewCount={127}
+        reviewCount={142}
       />
       <div className="min-h-screen bg-gray-50 pt-16">
         <div className="bg-blue-900 text-white">

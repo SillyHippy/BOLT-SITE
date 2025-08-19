@@ -97,7 +97,7 @@ function generateDualLocationSchema() {
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "4.9",
-      "reviewCount": "127",
+      "reviewCount": "142",
       "bestRating": "5"
     }
   };
@@ -677,7 +677,7 @@ const priceLeadershipSchema = {
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "4.9",
-    "reviewCount": "127",
+    "reviewCount": "142",
     "description": "Highest rated AND most affordable in Oklahoma"
   }
 };

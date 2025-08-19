@@ -3,7 +3,7 @@ import React from 'react';
 import Image from 'next/image';
 import { Metadata } from 'next';
 import Link from 'next/link';
-import ReviewSchema from '@/components/ReviewSchema';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
   title: 'Professional Courier Services Tulsa County | Legal Document Delivery',
@@ -40,34 +40,35 @@ export default function CourierServicesTulsaPage() {
 
   return (
     <>
-      {/* Speakable Schema for Voice Search, SEO, AI */}
-      <script type="application/ld+json" dangerouslySetInnerHTML={{
-        __html: JSON.stringify({
-          '@context': 'https://schema.org',
-          '@type': 'WebPage',
-          'name': 'Professional Courier Services Tulsa County | Legal Document Delivery',
-          'speakable': {
-            '@type': 'SpeakableSpecification',
-            'xpath': [
-              '/html/head/title',
-              '/html/body//h1',
-              '/html/body//section[contains(@class, "faq")]//h3',
-              '/html/body//section[contains(@class, "service-area")]//a',
-              '/html/body//section[contains(@class, "narrative")]//a'
-            ]
-          },
-          'url': 'https://justlegalsolutions.org/courier-services-tulsa',
-          'keywords': [
-            'tulsa county courier',
-            'legal document delivery tulsa',
-            'process server tulsa',
-            'courier services bixby',
-            'courier services jenks',
-            'courier services sand springs',
-            'courier services owasso',
-            'ai courier tulsa',
-            'voice search courier tulsa',
-            'same day courier tulsa',
+      <UnifiedSchema
+        pageType="service"
+        url="https://justlegalsolutions.org/courier-services-tulsa"
+        title="Professional Courier Services Tulsa County | Legal Document Delivery"
+        description="Expert courier services in Tulsa County, Oklahoma. Same-day legal document delivery, court filings, and secure business document transport throughout Oklahoma."
+        serviceDetails={{
+          name: "Courier Services Tulsa",
+          description: "Professional courier and legal document delivery services in Tulsa County with same-day and rush options available.",
+          price: "$30-$150",
+          areaServed: ["Tulsa County", "Broken Arrow", "Bixby", "Jenks", "Owasso", "Sand Springs"],
+          serviceType: ["Legal Document Delivery", "Court Filing", "Business Document Courier", "Same-Day Delivery"]
+        }}
+        priceRange="$30-$150"
+        aggregateRating={{
+          ratingValue: 4.9,
+          reviewCount: 142
+        }}
+        faqItems={faqs.map(faq => ({
+          question: faq.question,
+          answer: faq.answer
+        }))}
+        speakable={[
+          '/html/head/title',
+          '/html/body//h1',
+          '/html/body//section[contains(@class, "faq")]//h3',
+          '/html/body//section[contains(@class, "service-area")]//a',
+          '/html/body//section[contains(@class, "narrative")]//a'
+        ]}
+      />
             'rush legal courier tulsa',
             'tulsa county legal courier',
             'serve papers tulsa',

@@ -1,10 +1,7 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
-import BusinessSchema from '@/components/BusinessSchema';
-import ServiceSchema from '@/components/ServiceSchema';
-import FAQSchema from '@/components/FAQSchema';
-import ReviewSchema from '@/components/ReviewSchema';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
   title: 'Tulsa County Process Server & Legal Document Services | Same-Day Delivery',
@@ -162,7 +159,35 @@ const faqs = [
 export default function TulsaCountyPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <UnifiedSchema
+        pageType="location"
+        url="https://justlegalsolutions.org/tulsa-county"
+        title="Tulsa County Process Server & Legal Document Services | Same-Day Delivery"
+        description="Tulsa County's trusted process server—same-day legal document delivery for every city, suburb, and rural community. Local expertise for court papers, evictions, and urgent legal needs."
+        location={{
+          name: "Just Legal Solutions - Tulsa County Process Server",
+          geo: {
+            latitude: 36.1156,
+            longitude: -95.9359
+          }
+        }}
+        serviceDetails={{
+          name: "Process Server Services - Tulsa County",
+          description: "Professional process server and legal document delivery for every city and community in Tulsa County, Oklahoma.",
+          price: "$30-$200",
+          areaServed: ["Tulsa County", "Tulsa", "Broken Arrow", "Bixby", "Jenks", "Sand Springs", "Glenpool", "Owasso", "Sperry", "Collinsville"],
+          serviceType: ["Process Serving", "Legal Document Delivery", "Court Filing", "Skip Tracing"]
+        }}
+        priceRange="$30-$200"
+        aggregateRating={{
+          ratingValue: 4.9,
+          reviewCount: 142
+        }}
+        faqItems={faqs.map(faq => ({
+          question: faq.q,
+          answer: faq.a
+        }))}
+      />
       <div className="min-h-screen bg-gray-50 pt-16">
         {/* Hero Section */}
         <section className="bg-blue-900 text-white pb-12">
@@ -278,10 +303,6 @@ export default function TulsaCountyPage() {
           </div>
         </section>
       </div>
-      <BusinessSchema />
-      <ServiceSchema />
-      <FAQSchema />
-      <ReviewSchema />
     </>
   );
 }

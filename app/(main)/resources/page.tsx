@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { BookOpen, Gavel, MapPin } from 'lucide-react';
-import ReviewSchema from '@/components/ReviewSchema';
+import UnifiedSchema from '@/components/UnifiedSchema';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -109,7 +109,16 @@ const ResourcesPage = () => {
         <a href="https://www.oklahoma.gov/" rel="nofollow noopener">Oklahoma.gov - Legal Resources</a>
       </div>
       </div>
-      <ReviewSchema />
+      <UnifiedSchema
+        pageType="generic"
+        url="https://justlegalsolutions.org/resources"
+        title="Oklahoma Process Serving Resources & Legal Guides | Just Legal Solutions"
+        description="Oklahoma process serving resources—legal guides, FAQs, and expert advice for court filing and document delivery in Tulsa County and across Oklahoma."
+        aggregateRating={{
+          ratingValue: 4.9,
+          reviewCount: 142
+        }}
+      />
     </main>
   );
 };

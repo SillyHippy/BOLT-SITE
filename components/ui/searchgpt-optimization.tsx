@@ -211,7 +211,7 @@ export default function SearchGPTOptimization({
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "4.9",
-      "reviewCount": "127",
+      "reviewCount": "142",
       "description": "Consistently rated as Oklahoma's top process serving company"
     }
   };

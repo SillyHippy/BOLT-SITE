@@ -15,7 +15,7 @@ export default function ReviewAggregateSchema() {
       },
       "ratingValue": "4.9",
       "ratingCount": "127",
-      "reviewCount": "127",
+      "reviewCount": "142",
       "bestRating": "5",
       "worstRating": "4",
       "description": "Reviews collected from Google Business Profile, Yelp, Facebook Business Page, phone consultations, and direct client testimonials"
@@ -36,7 +36,7 @@ export default function ReviewAggregateSchema() {
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.9",
-        "reviewCount": "127"
+        "reviewCount": "142"
       }
     },
     "provider": [

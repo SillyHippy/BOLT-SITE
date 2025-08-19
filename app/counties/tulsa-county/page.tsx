@@ -1,11 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, CheckCircle, Star, Calendar, FileText, Scale, AlertCircle } from 'lucide-react';
-import LocalBusinessSchema from '@/components/ui/local-business-schema';
-import ServiceSchema from '@/components/ui/service-schema';
-import BreadcrumbSchema from '@/components/ui/breadcrumb-schema';
-import EnhancedFAQPageSchema from '@/components/ui/enhanced-faq-page-schema';
-import EnhancedOrganizationSchema from '@/components/ui/enhanced-organization-schema';
+import UnifiedSchema from '@/components/UnifiedSchema';
 import GoogleMapsEmbed from '@/components/ui/google-maps-embed';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
@@ -129,35 +125,36 @@ export default function TulsaCountyProcessServer() {
     <>
       <Navbar />
       
-      <EnhancedOrganizationSchema countyName="Tulsa County" />
-      <EnhancedFAQPageSchema 
-        faqs={tulsaCountyFAQs} 
-        pageTitle="Tulsa County Process Server FAQs"
-        pageUrl="https://justlegalsolutions.org/counties/tulsa-county" 
-      />
-      
-      <LocalBusinessSchema
-        name="Just Legal Solutions - Tulsa County Process Server"
-        address={{
-          streetAddress: "County-wide Service",
-          addressLocality: "Tulsa County",
-          addressRegion: "Oklahoma",
-          postalCode: "74101"
+      <UnifiedSchema
+        pageType="location"
+        url="https://justlegalsolutions.org/counties/tulsa-county"
+        title="Tulsa County Legal Document Service | Metropolitan Process Serving | Just Legal Solutions"
+        description="Tulsa County's process server—serving Tulsa, Broken Arrow, Owasso, Bixby, Jenks, Sand Springs, Glenpool, Collinsville, and all communities. Fast, local legal document delivery for every need."
+        breadcrumbs={[
+          { name: 'Home', item: 'https://justlegalsolutions.org/' },
+          { name: 'Counties', item: 'https://justlegalsolutions.org/counties' },
+          { name: 'Tulsa County', item: 'https://justlegalsolutions.org/counties/tulsa-county' }
+        ]}
+        serviceDetails={{
+          name: "Process Server Tulsa County",
+          description: "Professional legal document service throughout Tulsa County, Oklahoma including all cities, towns, and unincorporated areas with same-day service available.",
+          areaServed: ["Tulsa County", "Tulsa", "Broken Arrow", "Owasso", "Bixby", "Jenks", "Sand Springs", "Glenpool", "Collinsville"]
         }}
-        phone="(539) 367-6832"
-        description="Professional process server throughout Tulsa County, Oklahoma providing legal document service in all cities including Tulsa, Broken Arrow, Owasso, Bixby, Jenks, Sand Springs, Glenpool, and Collinsville."
-        serviceArea={["Tulsa County", "Oklahoma"]}
+        location={{
+          name: "Just Legal Solutions - Tulsa County Process Server",
+          geo: {
+            latitude: 36.1156,
+            longitude: -95.9713
+          }
+        }}
+        faqItems={tulsaCountyFAQs}
+        aggregateRating={{
+          ratingValue: 5,
+          reviewCount: 142,
+          bestRating: 5,
+          worstRating: 1
+        }}
       />
-      
-      <ServiceSchema
-        serviceName="Process Server Tulsa County"
-        serviceDescription="Professional legal document service throughout Tulsa County, Oklahoma including all cities, towns, and unincorporated areas with same-day service available."
-        serviceArea="Tulsa County, Oklahoma"
-        priceRange="$$"
-        serviceType="Legal Services"
-      />
-      
-      <BreadcrumbSchema items={breadcrumbItems} />
 
       <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
         {/* Hero Section */}

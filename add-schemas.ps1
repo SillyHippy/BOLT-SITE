@@ -30,7 +30,7 @@ foreach ($page in $highValuePages) {
       <ReviewSchema 
         businessName="Just Legal Solutions - $page"
         aggregateRating={4.9}
-        reviewCount={95}
+        reviewCount={142}
         reviews={[
           {
             author: "Professional Client",

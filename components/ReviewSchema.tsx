@@ -11,7 +11,7 @@ interface ReviewSchemaProps {
 export default function ReviewSchema({
   businessName = "Just Legal Solutions",
   averageRating = 4.9,
-  reviewCount = 127,
+  reviewCount = 142,
   bestRating = 5,
   worstRating = 1
 }: ReviewSchemaProps) {

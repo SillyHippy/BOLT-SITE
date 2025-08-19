@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { CreditCard, DollarSign, ArrowRight } from 'lucide-react';
-import ReviewSchema from '@/components/ReviewSchema';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 export { metadata } from './metadata';
 
@@ -118,7 +118,16 @@ export default function PaymentsPage() {
 
         </div>
       </div>
-      <ReviewSchema />
+      <UnifiedSchema
+        pageType="generic"
+        url="https://justlegalsolutions.org/payments"
+        title="Make a Payment | Just Legal Solutions"
+        description="Convenient payment options for Just Legal Solutions' process server and legal document delivery services in Tulsa, Oklahoma."
+        aggregateRating={{
+          ratingValue: 4.9,
+          reviewCount: 142
+        }}
+      />
     </main>
   );
 }

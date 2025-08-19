@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, MapPin, Clock, Search, Star, CheckCircle, Shield, Building2 } from 'lucide-react';
-import LocalBusinessSchema from '@/components/ui/local-business-schema';
-import BreadcrumbSchema from '@/components/ui/breadcrumb-schema';
+
+
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 

@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 import { Map, FileText, ChevronRight } from 'lucide-react';
-import ReviewSchema from '@/components/ReviewSchema';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
   title: 'Sitemap | Just Legal Solutions',
@@ -246,9 +246,32 @@ const SitemapPage = () => {
           </div>
         </section>
       </main>
-      {/* Organization Schema for SEO */}
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }} />
-      <ReviewSchema />
+      <UnifiedSchema
+        pageType="generic"
+        url="https://justlegalsolutions.org/sitemap"
+        title="Sitemap | Just Legal Solutions"
+        description="Sitemap for Just Legal Solutions—navigate all services, resources, and legal support pages in one place."
+        organizationDetails={{
+          name: "Just Legal Solutions",
+          url: "https://justlegalsolutions.org",
+          logo: "https://justlegalsolutions.org/logo.png",
+          contactPoint: {
+            telephone: "+1-539-367-6832",
+            email: "info@justlegalsolutions.org"
+          },
+          address: {
+            streetAddress: "564 E 138th PL",
+            addressLocality: "Glenpool",
+            addressRegion: "OK",
+            postalCode: "74033",
+            addressCountry: "US"
+          }
+        }}
+        aggregateRating={{
+          ratingValue: 4.9,
+          reviewCount: 142
+        }}
+      />
     </>
   )
 }

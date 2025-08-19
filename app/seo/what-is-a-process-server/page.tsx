@@ -6,7 +6,7 @@ import Script from 'next/script';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 import EnhancedBreadcrumbSchema, { VisualBreadcrumbs } from '@/components/ui/enhanced-breadcrumb-schema';
-import ServiceSchema from '@/components/ui/service-schema';
+ 
 import ReviewSchema from '@/components/ui/review-schema';
 import VoiceSearchOptimization from '@/components/ui/voice-search-optimization';
 import PerformanceSchema from '@/components/ui/performance-schema';
@@ -288,7 +288,7 @@ const localBusinessSchema = {
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "5",
-    "reviewCount": "50"
+    "reviewCount": "142"
   }
 };
 
@@ -429,7 +429,7 @@ export default function WhatIsAProcessServerPage() {
       <ReviewSchema 
         businessName="Just Legal Solutions"
         aggregateRating={5.0}
-        reviewCount={127}
+        reviewCount={142}
         reviews={[
           {
             author: "Sarah M., Attorney",

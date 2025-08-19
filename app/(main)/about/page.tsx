@@ -3,6 +3,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 import Image from 'next/image';
 import Link from 'next/link';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
   title: 'About Us - The Fight That Forged a Business | Just Legal Solutions',
@@ -37,18 +38,23 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <>
-      {/* Article Structured Data for SEO, AI, and Voice Search */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'Article',
-            headline: 'About Us - The Fight That Forged a Business | Just Legal Solutions',
-            description: "Learn how a 5-year legal battle inspired Just Legal Solutions, Oklahoma's premier process serving company. Founded by Joseph Iannazzi after experiencing systemic failure in workers' compensation.",
-            author: {
-              '@type': 'Person',
-              name: 'Joseph Iannazzi',
+      <UnifiedSchema
+        pageType="article"
+        url="https://justlegalsolutions.org/about"
+        title="About Us - The Fight That Forged a Business | Just Legal Solutions"
+        description="Learn how a 5-year legal battle inspired Just Legal Solutions, Oklahoma's premier process serving company. Founded by Joseph Iannazzi after experiencing systemic failure in workers' compensation."
+        articleDetails={{
+          headline: "About Us - The Fight That Forged a Business | Just Legal Solutions",
+          author: "Joseph Iannazzi",
+          datePublished: "2023-05-18",
+          dateModified: "2025-06-25",
+          image: "https://justlegalsolutions.org/images/Headshot.jpg"
+        }}
+        aggregateRating={{
+          ratingValue: 4.9,
+          reviewCount: 142
+        }}
+      />
               url: 'https://justlegalsolutions.org/about'
             },
             publisher: {

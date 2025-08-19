@@ -1,8 +1,7 @@
 
 import React from 'react';
 import Image from 'next/image';
-import FAQSchema from '@/components/FAQSchema';
-import ReviewSchema from '@/components/ReviewSchema';
+import UnifiedSchema from '@/components/UnifiedSchema';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { Check } from 'lucide-react';
@@ -170,7 +169,6 @@ export default function ProcessServerTulsaPage() {
       <div className="py-16 bg-gray-50 border-t">
         <div className="container mx-auto px-4 max-w-3xl">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8 text-center">Tulsa County Frequently Asked Questions</h2>
-          <FAQSchema />
           <ul className="space-y-6 mt-8">
             {faqs.map((faq, idx) => (
               <li key={idx} className="bg-white p-6 rounded-lg shadow border-l-4 border-blue-500">
@@ -182,24 +180,33 @@ export default function ProcessServerTulsaPage() {
         </div>
       </div>
 
-      {/* Speakable Schema for Voice Search */}
-      <script type="application/ld+json" dangerouslySetInnerHTML={{
-        __html: JSON.stringify({
-          '@context': 'https://schema.org',
-          '@type': 'WebPage',
-          'name': 'Tulsa County Process Server | Fast & Reliable | Just Legal Solutions',
-          'speakable': {
-            '@type': 'SpeakableSpecification',
-            'xpath': [
-              '/html/head/title',
-              '/html/body//h1',
-              '/html/body//section[contains(@class, "faq")]//h3'
-            ]
-          },
-          'url': 'https://justlegalsolutions.org/process-server-tulsa'
-        })
-      }} />
-      <ReviewSchema />
+      <UnifiedSchema
+        pageType="service"
+        url="https://justlegalsolutions.org/process-server-tulsa"
+        title="Tulsa County Process Server | Fast & Reliable | Just Legal Solutions"
+        description="Certified process server for Tulsa County—fast, reliable, and compliant legal document delivery for attorneys, law firms, and the public."
+        serviceDetails={{
+          name: "Tulsa County Process Server",
+          description: "Fast, reliable, and compliant legal document delivery in Tulsa County.",
+          price: "$30-$150",
+          areaServed: ["Tulsa County", "Broken Arrow", "Bixby", "Jenks", "Owasso", "Sand Springs", "Glenpool", "Sapulpa"],
+          serviceType: ["Process Serving", "Court Filing", "Document Delivery", "Skip Tracing"]
+        }}
+        priceRange="$30-$150"
+        aggregateRating={{
+          ratingValue: 4.9,
+          reviewCount: 142
+        }}
+        faqItems={faqs.map(faq => ({
+          question: faq.question,
+          answer: faq.answer
+        }))}
+        speakable={[
+          '/html/head/title',
+          '/html/body//h1',
+          '/html/body//section[contains(@class, "faq")]//h3'
+        ]}
+      />
     </main>
   );
 }

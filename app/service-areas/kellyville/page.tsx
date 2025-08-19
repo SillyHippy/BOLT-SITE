@@ -3,10 +3,10 @@ import Link from 'next/link';
 import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, CheckCircle, Star, Calendar, FileText, Scale, AlertCircle } from 'lucide-react';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
-import LocalBusinessSchema from '@/components/ui/local-business-schema';
-import ServiceSchema from '@/components/ui/service-schema';
 
-import BreadcrumbSchema from '@/components/ui/breadcrumb-schema';
+ 
+
+
 import GoogleMapsEmbed from '@/components/ui/google-maps-embed';
 
 export const metadata: Metadata = {

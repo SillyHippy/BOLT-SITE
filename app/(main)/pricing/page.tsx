@@ -2,7 +2,7 @@
 import React from 'react';
 import { Metadata } from 'next';
 import { CheckCircle, Truck } from 'lucide-react';
-import ReviewSchema from '@/components/ReviewSchema';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
   title: 'Process Server Pricing Oklahoma - Just Legal Solutions | Affordable Rates Starting $30',
@@ -64,25 +64,24 @@ const additionalServices = [
 export default function PricingPage() {
   return (
     <>
-      <ReviewSchema 
-        businessName="Just Legal Solutions - Process Server Pricing"
-        averageRating={4.8}
-        reviewCount={156}
+      <UnifiedSchema 
+        pageType="service"
+        url="https://justlegalsolutions.org/pricing"
+        title="Process Server Pricing Oklahoma - Just Legal Solutions"
+        description="Professional process serving and legal document delivery services in Oklahoma with transparent pricing starting at $30."
+        serviceDetails={{
+          name: "Process Server Services Oklahoma",
+          description: "Professional process serving and legal document delivery services in Oklahoma with transparent pricing starting at $30.",
+          price: "$30-$200",
+          areaServed: ["Tulsa", "Broken Arrow", "Bixby", "Jenks", "Owasso", "Sand Springs", "Glenpool", "Sapulpa"],
+          serviceType: ["Process Serving", "Legal Document Delivery", "Court Filing", "Skip Tracing"]
+        }}
+        priceRange="$30-$200"
+        aggregateRating={{
+          ratingValue: 4.8,
+          reviewCount: 142
+        }}
       />
-      
-      {/* Pricing Schema for Rich Results */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Service",
-            "name": "Process Server Services Oklahoma",
-            "description": "Professional process serving and legal document delivery services in Oklahoma with transparent pricing starting at $30.",
-            "provider": {
-              "@type": "LegalService",
-              "name": "Just Legal Solutions",
-              "url": "https://justlegalsolutions.org/",
               "telephone": "+1-918-551-2301"
             },
             "offers": [

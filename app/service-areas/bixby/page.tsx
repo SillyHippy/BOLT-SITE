@@ -1,12 +1,11 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, CheckCircle, Star, Calendar, FileText, Scale, AlertCircle } from 'lucide-react';
-import LocalBusinessSchema from '@/components/ui/local-business-schema';
-import ServiceSchema from '@/components/ui/service-schema';
-import BreadcrumbSchema from '@/components/ui/breadcrumb-schema';
+
 import GoogleMapsEmbed from '@/components/ui/google-maps-embed';
 import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
   title: 'Bixby Process Serving | Civil & Family Court Documents | Just Legal Solutions',
@@ -99,52 +98,46 @@ export default function BixbyProcessServer() {
     <div className="flex flex-col min-h-screen">
       <Navbar />
       <main className="pt-14 flex-grow">
-        <BreadcrumbSchema items={breadcrumbItems} />
-        <LocalBusinessSchema 
-          name="Just Legal Solutions - Bixby"
-          address={{
-            streetAddress: "Professional Process Server",
-            addressLocality: "Bixby",
-            addressRegion: "Oklahoma",
-          postalCode: "74008"
-        }}
-        phone="(539) 367-6832"
-        email="service@justlegalsolutions.org"
-        url="https://justlegalsolutions.org/service-areas/bixby"
-        services={[
-          "Process Serving",
-          "Legal Document Delivery", 
-          "Court Filing Services",
-          "Skip Tracing",
-          "Corporate Service",
-          "Emergency Rush Service",
-          "GPS Tracked Delivery",
-          "24/7 Emergency Service"
-        ]}
-      />
-        <ServiceSchema 
-          serviceName="Process Server Services"
-          serviceDescription="Professional process serving in Bixby, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service"
-          serviceArea="Bixby, Oklahoma"
-        />
-
-        {/* FAQ Structured Data */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "FAQPage",
-              "mainEntity": bixbyFAQs.map((faq) => ({
-                "@type": "Question",
-                "name": faq.question,
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": faq.answer
-                }
-              }))
-            })
+        <UnifiedSchema 
+          pageType="location"
+          url="https://justlegalsolutions.org/service-areas/bixby"
+          title="Bixby Process Serving | Civil & Family Court Documents"
+          description="Professional process serving in Bixby, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service"
+          location={{
+            name: "Just Legal Solutions - Bixby",
+            geo: {
+              latitude: 35.9413,
+              longitude: -95.8806
+            }
           }}
+          serviceDetails={{
+            name: "Process Server Services",
+            description: "Professional process serving in Bixby, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service",
+            areaServed: ["Bixby", "Tulsa County", "Oklahoma"],
+            serviceType: [
+              "Process Serving",
+              "Legal Document Delivery", 
+              "Court Filing Services",
+              "Skip Tracing",
+              "Corporate Service",
+              "Emergency Rush Service",
+              "GPS Tracked Delivery",
+              "24/7 Emergency Service"
+            ]
+          }}
+          priceRange="$30-$200"
+          aggregateRating={{
+            ratingValue: 4.9,
+            reviewCount: 142
+          }}
+          faqItems={bixbyFAQs.map(faq => ({
+            question: faq.question,
+            answer: faq.answer
+          }))}
+          breadcrumbs={breadcrumbItems.map(item => ({
+            name: item.name,
+            item: `https://justlegalsolutions.org${item.url}`
+          }))}
         />      <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-slate-100">
         {/* Hero Section */}
         <div className="bg-gradient-to-r from-blue-900 via-blue-800 to-slate-900 text-white relative">

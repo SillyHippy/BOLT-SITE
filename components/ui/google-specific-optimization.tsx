@@ -99,7 +99,7 @@ export default function GoogleSpecificOptimization({
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "4.9",
-      "reviewCount": "127",
+      "reviewCount": "142",
       "bestRating": "5",
       "worstRating": "1"
     },

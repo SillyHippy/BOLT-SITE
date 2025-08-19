@@ -16,10 +16,8 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
-import BusinessSchema from '@/components/BusinessSchema';
-import ServiceSchema from '@/components/ServiceSchema';
 import FAQSchema from '@/components/FAQSchema';
-import ReviewSchema from '@/components/ReviewSchema';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 // SEO Metadata optimized for the Eviction Notice page
 export const metadata: Metadata = {
@@ -120,10 +118,27 @@ const evictionData = {
 export default function EvictionNoticeProcessServer() {
   return (
     <>
-      <ReviewSchema 
-        businessName="Just Legal Solutions - Eviction Notice Service"
-        averageRating={4.9}
-        reviewCount={89}
+      <UnifiedSchema
+        pageType="service"
+        url="https://justlegalsolutions.org/seo/eviction-notice-process-server"
+        title="Eviction Notice Process Server for Tulsa County"
+        description="Specialized eviction notice process server for Tulsa County landlords and property managers. Expert delivery of Notice to Quit, 5-Day Pay or Quit notices, and all landlord-tenant documents with legal compliance guaranteed."
+        serviceDetails={{
+          name: "Eviction Notice Process Server",
+          description: "Fast, professional delivery of all eviction notices and landlord-tenant documents in Tulsa County.",
+          price: "$60",
+          areaServed: ["Tulsa", "Broken Arrow", "Bixby", "Jenks", "Owasso", "Sand Springs", "Glenpool", "Sapulpa"],
+          serviceType: ["Eviction Notice Service", "Landlord-Tenant Document Delivery", "Notice to Quit Service"]
+        }}
+        priceRange="$30-$200"
+        aggregateRating={{
+          ratingValue: 4.9,
+          reviewCount: 142
+        }}
+        faqItems={evictionData.faqs.map(faq => ({
+          question: faq.q,
+          answer: typeof faq.a === 'string' ? faq.a : 'For more information, visit our website.'
+        }))}
       />
       <script
         type="application/ld+json"
@@ -222,8 +237,6 @@ export default function EvictionNoticeProcessServer() {
           </div>
         </main>
       </div>
-      <BusinessSchema />
-      <ServiceSchema />
       <FAQSchema />
     </>
   );

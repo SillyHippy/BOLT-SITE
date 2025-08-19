@@ -2,10 +2,7 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
-import BusinessSchema from '@/components/BusinessSchema';
-import ServiceSchema from '@/components/ServiceSchema';
-import FAQSchema from '@/components/FAQSchema';
-import ReviewSchema from '@/components/ReviewSchema';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 
 // --- High-Quality, Unique Local Content for Bixby, OK ---
@@ -96,14 +93,34 @@ const bixbyData = {
 const BixbyProcessServer = () => {
   return (
     <>
-      <ReviewSchema 
-        businessName="Just Legal Solutions - Bixby Process Server"
-        averageRating={4.9}
-        reviewCount={134}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      <UnifiedSchema
+        pageType="location"
+        url="https://justlegalsolutions.org/seo/bixby-process-server"
+        title="Bixby Process Server | Same-Day Service in Tulsa & Wagoner County"
+        description="Professional process server in Bixby, Oklahoma. We offer same-day service for all legal documents, including court papers, subpoenas, and notices. Licensed, bonded, and available 24/7 for Bixby and surrounding areas."
+        location={{
+          name: "Just Legal Solutions - Bixby Process Server",
+          geo: {
+            latitude: 35.9420,
+            longitude: -95.8831
+          }
+        }}
+        priceRange="$30-$200"
+        serviceDetails={{
+          name: "Process Serving Services - Bixby",
+          description: "Expert process server specializing in Bixby residential communities with comprehensive knowledge of south Tulsa County and Wagoner County legal procedures.",
+          areaServed: ["Bixby", "Tulsa County", "Wagoner County"]
+        }}
+        aggregateRating={{
+          ratingValue: 5,
+          reviewCount: 142,
+          bestRating: 5,
+          worstRating: 1
+        }}
+        faqItems={bixbyData.faqs.map(faq => ({
+          question: faq.q,
+          answer: typeof faq.a === 'string' ? faq.a : 'For a comprehensive overview of process serving requirements, legal tips, and updates across the state, visit our Ultimate Guide to Process Serving in Oklahoma.'
+        }))}
       />
       <div className="min-h-screen bg-gray-50 pt-16">
         <div className="bg-blue-900 text-white">

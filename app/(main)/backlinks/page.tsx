@@ -2,6 +2,7 @@
 import { Metadata } from 'next';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
   title: 'Professional Process Server Directory & Business Verification | Just Legal Solutions',
@@ -80,6 +81,12 @@ const backlinkUrls = [
 export default function BacklinksPage() {
   return (
     <>
+      <UnifiedSchema
+        pageType="generic"
+        url="https://justlegalsolutions.org/backlinks"
+        title="Professional Process Server Directory & Business Verification"
+        description="Verify Just Legal Solutions' professional credentials and business listings. Trusted Oklahoma process server with established online presence."
+      />
       <Navbar />
       <main className="container mx-auto px-4 py-8 mt-12">
         <h1 className="text-4xl font-bold mb-6 text-blue-900">Backlink Indexing & Internal Links Page</h1>
@@ -94,7 +101,7 @@ export default function BacklinksPage() {
           ))}
         </ul>
       </main>
-      
+      <Footer />
     </>
   );
 }

@@ -50,7 +50,7 @@ const generateCityPage = (cityData) => {
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 import VoiceSearchOptimization from '@/components/ui/voice-search-optimization';
-import ServiceSchema from '@/components/ui/service-schema';
+ 
 import WebsiteSchema from '@/components/ui/website-schema';
 import EnhancedBreadcrumbSchema, { VisualBreadcrumbs } from '@/components/ui/enhanced-breadcrumb-schema';
 import EnhancedFAQSchema from '@/components/ui/enhanced-faq-schema';

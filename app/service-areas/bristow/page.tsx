@@ -1,12 +1,11 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, CheckCircle, Star, Calendar, FileText, Scale, AlertCircle } from 'lucide-react';
-import LocalBusinessSchema from '@/components/ui/local-business-schema';
-import ServiceSchema from '@/components/ui/service-schema';
-import BreadcrumbSchema from '@/components/ui/breadcrumb-schema';
+
 import GoogleMapsEmbed from '@/components/ui/google-maps-embed';
 import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
   title: 'Bristow Process Server | Legal Document Service | Just Legal Solutions',
@@ -99,34 +98,36 @@ export default function BristowProcessServer() {
     <div className="flex flex-col min-h-screen">
       <Navbar />
       <main className="pt-14 flex-grow">
-        <BreadcrumbSchema items={breadcrumbItems} />
-      <LocalBusinessSchema 
-        name="Just Legal Solutions - Bristow"
-        address={{
-          streetAddress: "Professional Process Server",
-          addressLocality: "Bristow",
-          addressRegion: "Oklahoma",
-          postalCode: "74010"
-        }}
-        phone="(539) 367-6832"
-        email="service@justlegalsolutions.org"
-        url="https://justlegalsolutions.org/service-areas/bristow"
-        services={[
-          "Process Serving",
-          "Legal Document Delivery", 
-          "Court Filing Services",
-          "Skip Tracing",
-          "Rural Property Service",
-          "Emergency Rush Service",
-          "GPS Tracked Delivery",
-          "24/7 Emergency Service"
-        ]}
-      />
-      <ServiceSchema 
-        serviceName="Process Server Services"
-        serviceDescription="Professional process serving in Bristow, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service"
-        serviceArea="Bristow, Oklahoma"
-      />
+        <UnifiedSchema
+          pageType="location"
+          url="https://justlegalsolutions.org/service-areas/bristow"
+          title="Process Server Bristow | Legal Document Service"
+          description="Professional process server in Bristow, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability and competitive rates."
+          location={{
+            name: "Just Legal Solutions - Bristow",
+            geo: {
+              latitude: 35.8248,
+              longitude: -96.3911
+            }
+          }}
+          serviceDetails={{
+            name: "Process Server Services Bristow",
+            description: "Professional process serving in Bristow, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service",
+            areaServed: ["Bristow", "Creek County", "Oklahoma"],
+            serviceType: ["Process Serving", "Legal Document Delivery", "Court Filing Services", "Skip Tracing", "Emergency Rush Service"]
+          }}
+          priceRange="$30-$200"
+          currenciesAccepted="USD"
+          paymentAccepted={["Cash", "Credit Card", "Check", "Online Payment"]}
+          aggregateRating={{
+            ratingValue: 4.9,
+            reviewCount: 142
+          }}
+          faqItems={bristowFAQs.map(faq => ({
+            question: faq.question,
+            answer: faq.answer
+          }))}
+        />
         {/* FAQ Structured Data */}
         <script
           type="application/ld+json"

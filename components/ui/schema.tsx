@@ -267,7 +267,7 @@ export const organizationSchema: WithContext<Organization> = {
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "5.0",
-    "reviewCount": "45",
+    "reviewCount": "142",
     "bestRating": "5",
     "worstRating": "1"
   }

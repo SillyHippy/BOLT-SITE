@@ -34,7 +34,7 @@ Get-ChildItem -Path $seoPath -Recurse -Name "*.tsx" | ForEach-Object {
       <ReviewSchema 
         businessName="$businessName"
         aggregateRating={4.9}
-        reviewCount={127}
+        reviewCount={142}
         reviews={[
           {
             author: "Professional Client",
