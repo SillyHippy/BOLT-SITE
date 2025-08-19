@@ -100,33 +100,18 @@ export default function GlenpoolProcessServer() {
     <div className="flex flex-col min-h-screen">
       <Navbar />
       <main className="pt-14 flex-grow">
-        <BreadcrumbSchema items={breadcrumbItems} />
-        <LocalBusinessSchema 
-          name="Just Legal Solutions - Glenpool"
-          address={{
-            streetAddress: "Professional Process Server",
-            addressLocality: "Glenpool",
-          addressRegion: "Oklahoma",
-          postalCode: "74033"
-        }}
-        phone="(539) 367-6832"
-        email="service@justlegalsolutions.org"
-        url="https://justlegalsolutions.org/service-areas/glenpool"
-        services={[
-          "Process Serving",
-          "Legal Document Delivery", 
-          "Court Filing Services",
-          "Skip Tracing",
-          "Corporate Service",
-          "Emergency Rush Service",
-          "GPS Tracked Delivery",
-          "24/7 Emergency Service"
-        ]}
-      />
-        <ServiceSchema 
-          serviceName="Process Server Services"
-          serviceDescription="Professional process serving in Glenpool, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service"
-          serviceArea="Glenpool, Oklahoma"
+        <UnifiedSchema 
+          pageType="service"
+          title="Just Legal Solutions - Glenpool"
+          description="Professional process serving in Glenpool, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service"
+          url="https://justlegalsolutions.org/service-areas/glenpool"
+          breadcrumbs={breadcrumbItems}
+          location={{
+            name: "Glenpool",
+            state: "Oklahoma",
+            zipCode: "74033"
+          }}
+          services={["Process Serving", "Legal Document Delivery", "Court Filing Services", "Skip Tracing", "Corporate Service", "Emergency Rush Service", "GPS Tracked Delivery", "24/7 Emergency Service"]}
         />
 
         {/* FAQ Structured Data */}
