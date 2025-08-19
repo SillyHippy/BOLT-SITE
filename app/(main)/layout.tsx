@@ -25,21 +25,74 @@ export default function MainLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "LocalBusiness",
-            "name": "Just Legal Solutions",
+            "@type": ["LocalBusiness", "ProfessionalService"],
+            "name": "Just Legal Solutions - Tulsa Process Server",
             "url": "https://justlegalsolutions.org",
             "telephone": "(539) 367-6832",
             "email": "info@justlegalsolutions.org",
+            "description": "Professional process serving company. Same-day service, licensed staff, competitive rates.",
+            "image": "https://justlegalsolutions.org/jls-logo.png",
+            "priceRange": "$30-$200",
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "Tulsa",
-              "addressRegion": "Oklahoma",
-              "addressCountry": "US"
+              "addressRegion": "OK",
+              "addressCountry": {
+                "@type": "Country",
+                "name": "US"
+              }
             },
-            "areaServed": ["Tulsa County", "Broken Arrow", "Sapulpa", "Bixby", "Oklahoma"],
-            "priceRange": "See pricing at justlegalsolutions.org/pricing",
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 36.154,
+              "longitude": -95.9928
+            },
+            "areaServed": ["Tulsa, OK", "Broken Arrow, OK", "Sapulpa, OK", "Bixby, OK", "Jenks, OK", "Sand Springs, OK"],
+            "serviceType": ["Process Serving", "Document Delivery", "Legal Courier Services", "Subpoena Service", "Court Filing"],
+            "availableLanguage": ["English"],
             "paymentAccepted": ["Cash", "Credit Card", "Check", "Invoice"],
             "currenciesAccepted": "USD",
+            "openingHours": "Mo,Tu,We,Th,Fr,Sa,Su 00:00-23:59",
+            "sameAs": [
+              "https://www.facebook.com/justlegalsolutions",
+              "https://www.linkedin.com/company/justlegalsolutions"
+            ],
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "Process Serving Services",
+              "itemListElement": [
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Standard Process Serving",
+                    "description": "Professional document delivery within 3-5 business days. Starting at $30."
+                  },
+                  "priceRange": "$30-$60",
+                  "priceCurrency": "USD"
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Rush Process Serving",
+                    "description": "Expedited document delivery within 1-2 business days. Starting at $30."
+                  },
+                  "priceRange": "$30-$100",
+                  "priceCurrency": "USD"
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Same-Day Process Serving",
+                    "description": "Urgent document delivery within 24 hours. Starting at $30."
+                  },
+                  "priceRange": "$30-$200",
+                  "priceCurrency": "USD"
+                }
+              ]
+            },
             "aggregateRating": {
               "@type": "AggregateRating",
               "ratingValue": "4.9",
@@ -55,6 +108,7 @@ export default function MainLayout({
             "@type": "WebSite",
             "name": "Just Legal Solutions",
             "url": "https://justlegalsolutions.org",
+            "image": "https://justlegalsolutions.org/images/jls-logo.webp",
             "potentialAction": {
               "@type": "SearchAction",
               "target": "https://justlegalsolutions.org/search?q={search_term_string}",
@@ -68,8 +122,7 @@ export default function MainLayout({
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             "itemListElement": [
-              {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://justlegalsolutions.org/"},
-              {"@type": "ListItem", "position": 2, "name": "Service Areas", "item": "https://justlegalsolutions.org/service-areas"}
+              {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://justlegalsolutions.org/"}
             ]
           }) }}
         />

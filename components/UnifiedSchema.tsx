@@ -261,9 +261,10 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     '@id': 'https://justlegalsolutions.org/#organization',
     name: organization.name,
     url: 'https://justlegalsolutions.org',
+    image: organization.logo || 'https://justlegalsolutions.org/images/jls-logo.webp',
     logo: {
       '@type': 'ImageObject',
-      url: organization.logo,
+      url: organization.logo || 'https://justlegalsolutions.org/images/jls-logo.webp',
       width: 180,
       height: 60
     },
@@ -407,10 +408,12 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
 
   // Local business schema (for location pages or home page)
   const localBusinessSchema: any = (pageType === 'location' || pageType === 'home') ? {
-    '@type': ['LocalBusiness', 'LegalService'],
+    '@type': ['LocalBusiness', 'ProfessionalService'],
     name: location ? location.name : organization.name,
     '@id': `${url}#localbusiness`,
     url: url,
+    description: description,
+    image: image || 'https://justlegalsolutions.org/images/jls-logo.webp',
     address: {
       '@type': 'PostalAddress',
       ...organization.address
@@ -424,7 +427,6 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     } : {}),
     telephone: organization.telephone,
     priceRange: priceRange || '$30-$200',
-    image: image,
     ...(paymentAccepted ? { paymentAccepted } : {}),
     ...(currenciesAccepted ? { currenciesAccepted } : {}),
     ...(openingHours ? { openingHours } : {}),

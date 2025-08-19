@@ -401,7 +401,7 @@ export default function Home() {
         faqItems={[
           {
             question: "How much does a process server cost in Tulsa County?",
-            answer: "Our professional process serving services in Tulsa County start at $30, with standard service ranging from $30-$60, rush service from $30-$100, and same-day service from $30-$150 depending on location and complexity."
+            answer: "Our professional process serving services in Tulsa County start at $30, with standard service ranging from $30-$60, rush service from $30-$100, and same-day service from $30-$200 depending on location and complexity."
           },
           {
             question: "What areas do you serve?",
