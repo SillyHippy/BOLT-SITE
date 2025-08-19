@@ -11,6 +11,8 @@ interface UnifiedSchemaProps {
   pageUrl?: string;
   pageTitle?: string;
   pageDescription?: string;
+  pageName?: string;
+  headline?: string;
   siteName?: string;
   organizationName?: string;
   organizationUrl?: string;
@@ -134,6 +136,7 @@ interface UnifiedSchemaProps {
   };
   speakable?: string[];
   services?: string[];
+  keywords?: string[];
   organizationDetails?: {
     name: string;
     url: string;
@@ -239,6 +242,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     hasOfferCatalog,
     speakable,
     services,
+    keywords,
     organizationDetails
   } = props;
   // Base Organization schema that will be included in all pages
