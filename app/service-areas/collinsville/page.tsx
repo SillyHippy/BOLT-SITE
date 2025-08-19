@@ -100,34 +100,19 @@ export default function CollinsvilleProcessServer() {
     <div className="flex flex-col min-h-screen">
       <Navbar />
       <main className="pt-14 flex-grow">
-        <BreadcrumbSchema items={breadcrumbItems} />
-      <LocalBusinessSchema 
-        name="Just Legal Solutions - Collinsville"
-        address={{
-          streetAddress: "Professional Process Server",
-          addressLocality: "Collinsville",
-          addressRegion: "Oklahoma",
-          postalCode: "74021"
-        }}
-        phone="(539) 367-6832"
-        email="service@justlegalsolutions.org"
-        url="https://justlegalsolutions.org/service-areas/collinsville"
-        services={[
-          "Process Serving",
-          "Legal Document Delivery", 
-          "Court Filing Services",
-          "Skip Tracing",
-          "Rural Property Service",
-          "Emergency Rush Service",
-          "GPS Tracked Delivery",
-          "24/7 Emergency Service"
-        ]}
-      />
-      <ServiceSchema 
-        serviceName="Process Server Services"
-        serviceDescription="Professional process serving in Collinsville, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service"
-        serviceArea="Collinsville, Oklahoma"
-      />
+        <UnifiedSchema 
+          pageType="service"
+          title="Just Legal Solutions - Collinsville"
+          description="Professional process serving in Collinsville, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service"
+          url="https://justlegalsolutions.org/service-areas/collinsville"
+          breadcrumbs={breadcrumbItems}
+          location={{
+            name: "Collinsville",
+            state: "Oklahoma",
+            zipCode: "74021"
+          }}
+          services={["Process Serving", "Legal Document Delivery", "Court Filing Services", "Skip Tracing", "Rural Property Service", "Emergency Rush Service", "GPS Tracked Delivery", "24/7 Emergency Service"]}
+        />
         {/* FAQ Structured Data */}
         <script
           type="application/ld+json"
