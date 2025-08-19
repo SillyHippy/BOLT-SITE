@@ -102,40 +102,39 @@ export default function WashingtonCountyProcessServer() {
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas) }}
-      />
-      <EnhancedFAQPageSchema 
-        faqs={washingtonCountyFAQs}
-        pageTitle="Washington County Process Server - FAQ"
+      <UnifiedSchema
+        pageType="service"
+        pageTitle="Washington County Process Server - Just Legal Solutions"
+        pageDescription="Licensed process server throughout Washington County, Oklahoma. Serving Bartlesville. Same-day service available."
         pageUrl="https://justlegalsolutions.org/counties/washington-county"
-      />
-      <EnhancedOrganizationSchema />
-      <Navbar />
-      
-      <LocalBusinessSchema
-        name="Just Legal Solutions - Washington County Process Server"
+        siteName="Just Legal Solutions"
+        organizationName="Just Legal Solutions"
+        organizationUrl="https://justlegalsolutions.org"
+        serviceType="Process Server"
+        serviceName="Washington County Process Server"
+        serviceDescription="Professional process server throughout Washington County, Oklahoma providing legal document service in all cities including Bartlesville."
+        serviceArea="Washington County, Oklahoma"
+        areaServed={[
+          {
+            type: "City",
+            name: "Bartlesville",
+            state: "Oklahoma"
+          }
+        ]}
+        priceRange="$60-$150"
+        telephone="+1-405-923-0139"
         address={{
           streetAddress: "County-wide Service",
           addressLocality: "Bartlesville",
           addressRegion: "Oklahoma",
-          postalCode: "74000"
+          postalCode: "74000",
+          addressCountry: "US"
         }}
-        phone="(539) 367-6832"
-        description="Professional process server throughout Washington County, Oklahoma providing legal document service in all cities including Bartlesville."
-        serviceArea={["Washington County", "Oklahoma"]}
+        breadcrumbItems={breadcrumbItems}
+        faqItems={washingtonCountyFAQs}
+        reviewCount={142}
       />
-      
-      <ServiceSchema
-        serviceName="Process Server Washington County"
-        serviceDescription="Professional legal document service throughout Washington County, Oklahoma including all cities, towns, and unincorporated areas with same-day service available."
-        serviceArea="Washington County, Oklahoma"
-        priceRange="$60-$150"
-        serviceType="Legal Services"
-      />
-      
-      <BreadcrumbSchema items={breadcrumbItems} />
+      <Navbar />
 
       <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
         {/* Hero Section */}
