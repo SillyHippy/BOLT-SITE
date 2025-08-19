@@ -212,35 +212,43 @@ export default function BrokenArrowProcessServer() {
     <>
       <UnifiedSchema
         pageType="service"
-        pageTitle="Broken Arrow Process Server | Process Server Broken Arrow, OK | Same-Day Service"
-        pageDescription="Trusted Broken Arrow process server with years of local experience. Professional process server Broken Arrow residents rely on for same-day legal document service in Tulsa & Wagoner Counties."
-        pageUrl="https://justlegalsolutions.org/seo/broken-arrow-process-server"
-        siteName="Just Legal Solutions"
-        organizationName="Just Legal Solutions"
-        organizationUrl="https://justlegalsolutions.org"
-        serviceType="Process Server"
-        serviceName="Broken Arrow Process Server"
-        serviceDescription="Professional process server in Broken Arrow, Oklahoma providing legal document service in both Tulsa and Wagoner counties with same-day service available."
-        serviceArea="Broken Arrow, Oklahoma"
-        areaServed={[
-          {
-            type: "City",
-            name: "Broken Arrow",
-            state: "Oklahoma"
-          }
-        ]}
-        priceRange="$60-$150"
-        telephone="+1-405-923-0139"
-        address={{
-          streetAddress: "Local Service",
-          addressLocality: "Broken Arrow",
-          addressRegion: "Oklahoma",
-          postalCode: "74012",
-          addressCountry: "US"
+        title="Broken Arrow Process Server | Process Server Broken Arrow, OK | Same-Day Service"
+        description="Trusted Broken Arrow process server with years of local experience. Professional process server Broken Arrow residents rely on for same-day legal document service in Tulsa & Wagoner Counties."
+        url="https://justlegalsolutions.org/seo/broken-arrow-process-server"
+        serviceDetails={{
+          name: "Broken Arrow Process Server",
+          description: "Professional process server in Broken Arrow, Oklahoma providing legal document service in both Tulsa and Wagoner counties with same-day service available.",
+          price: "$60-$150",
+          areaServed: ["Broken Arrow", "Tulsa County", "Wagoner County"],
+          serviceType: ["Process Server", "Legal Document Service"]
         }}
-        breadcrumbItems={breadcrumbItems}
+        priceRange="$60-$150"
+        organization={{
+          name: "Just Legal Solutions",
+          address: {
+            streetAddress: "564 E 138th PL",
+            addressLocality: "Glenpool",
+            addressRegion: "OK",
+            postalCode: "74033",
+            addressCountry: "US"
+          },
+          telephone: "+15393676832"
+        }}
+        location={{
+          name: "Broken Arrow Process Server Service",
+          geo: {
+            latitude: 36.0526,
+            longitude: -95.7909
+          }
+        }}
+        breadcrumbs={breadcrumbItems}
         faqItems={brokenArrowFAQs}
-        reviewCount={142}
+        aggregateRating={{
+          ratingValue: 4.9,
+          reviewCount: 142,
+          bestRating: 5,
+          worstRating: 1
+        }}
       />
       {/* Navbar and Footer are handled by the main layout */}
       <div className="min-h-screen bg-gray-50 pt-16">

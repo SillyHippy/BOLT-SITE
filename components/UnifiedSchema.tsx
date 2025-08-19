@@ -3,9 +3,39 @@ import JsonLd from './JsonLd';
 
 interface UnifiedSchemaProps {
   pageType: 'home' | 'service' | 'article' | 'faq' | 'location' | 'generic';
-  url: string;
-  title: string;
-  description: string;
+  // New format properties
+  url?: string;
+  title?: string;
+  description?: string;
+  // Legacy format properties (for backward compatibility)
+  pageUrl?: string;
+  pageTitle?: string;
+  pageDescription?: string;
+  siteName?: string;
+  organizationName?: string;
+  organizationUrl?: string;
+  serviceType?: string;
+  serviceName?: string;
+  serviceDescription?: string;
+  serviceArea?: string;
+  areaServed?: Array<{
+    type?: string;
+    name: string;
+    state?: string;
+  }>;
+  telephone?: string;
+  address?: {
+    streetAddress: string;
+    addressLocality: string;
+    addressRegion: string;
+    postalCode: string;
+    addressCountry: string;
+  };
+  breadcrumbItems?: Array<{
+    name: string;
+    item: string;
+  }>;
+  reviewCount?: number;
   image?: string | string[];
   datePublished?: string;
   dateModified?: string;
@@ -101,56 +131,90 @@ interface UnifiedSchemaProps {
   speakable?: string[];
 }
 
-const UnifiedSchema: React.FC<UnifiedSchemaProps> = ({
-  pageType,
-  url,
-  title,
-  description,
-  image = '/images/jls-logo.webp',
-  datePublished,
-  dateModified,
-  breadcrumbs = [],
-  faqItems = [],
-  serviceDetails,
-  organization = {
-    name: 'Just Legal Solutions',
-    logo: '/images/jls-logo.webp',
-    address: {
-      streetAddress: '564 E 138th PL',
-      addressLocality: 'Glenpool',
-      addressRegion: 'OK',
-      postalCode: '74033',
-      addressCountry: 'US'
+const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
+  // Handle backward compatibility by mapping old properties to new format
+  const {
+    pageType,
+    // Map legacy properties to new format
+    url = props.pageUrl,
+    title = props.pageTitle,
+    description = props.pageDescription,
+    // Handle legacy breadcrumbs
+    breadcrumbs = props.breadcrumbItems || [],
+    // Map legacy service details
+    serviceDetails = props.serviceName ? {
+      name: props.serviceName || props.serviceType || '',
+      description: props.serviceDescription || '',
+      price: props.priceRange || '',
+      areaServed: props.areaServed?.map(area => area.name) || [props.serviceArea].filter(Boolean),
+      serviceType: [props.serviceType].filter(Boolean)
+    } : undefined,
+    // Map legacy organization
+    organization = props.organizationName || props.address ? {
+      name: props.organizationName || 'Just Legal Solutions',
+      address: props.address || {
+        streetAddress: '564 E 138th PL',
+        addressLocality: 'Glenpool',
+        addressRegion: 'OK',
+        postalCode: '74033',
+        addressCountry: 'US'
+      },
+      telephone: props.telephone || '+15393676832',
+      sameAs: [
+        'https://www.facebook.com/justlegalsolutions',
+        'https://www.linkedin.com/company/justlegalsolutions',
+        'https://twitter.com/justlegalsol'
+      ]
+    } : {
+      name: 'Just Legal Solutions',
+      logo: '/images/jls-logo.webp',
+      address: {
+        streetAddress: '564 E 138th PL',
+        addressLocality: 'Glenpool',
+        addressRegion: 'OK',
+        postalCode: '74033',
+        addressCountry: 'US'
+      },
+      telephone: '+15393676832',
+      sameAs: [
+        'https://www.facebook.com/justlegalsolutions',
+        'https://www.linkedin.com/company/justlegalsolutions',
+        'https://twitter.com/justlegalsol'
+      ]
     },
-    telephone: '+15393676832',
-    sameAs: [
-      'https://www.facebook.com/justlegalsolutions',
-      'https://www.linkedin.com/company/justlegalsolutions',
-      'https://twitter.com/justlegalsol'
-    ]
-  },
-  author = {
-    name: 'JLS Legal Solutions',
-    url: 'https://justlegalsolutions.org/about'
-  },
-  articleDetails,
-  location,
-  priceRange,
-  currenciesAccepted,
-  paymentAccepted,
-  foundingDate,
-  numberOfEmployees,
-  slogan,
-  knowsAbout,
-  memberOf,
-  awards,
-  hasCredential,
-  aggregateRating,
-  reviews,
-  openingHours,
-  hasOfferCatalog,
-  speakable
-}) => {
+    // Map legacy aggregate rating
+    aggregateRating = props.reviewCount ? {
+      ratingValue: 4.9,
+      reviewCount: props.reviewCount,
+      bestRating: 5,
+      worstRating: 1
+    } : undefined,
+    // Extract other properties
+    image = '/images/jls-logo.webp',
+    datePublished,
+    dateModified,
+    faqItems = [],
+    author = {
+      name: 'JLS Legal Solutions',
+      url: 'https://justlegalsolutions.org/about'
+    },
+    articleDetails,
+    location,
+    priceRange,
+    currenciesAccepted,
+    paymentAccepted,
+    foundingDate,
+    numberOfEmployees,
+    slogan,
+    knowsAbout,
+    memberOf,
+    awards,
+    hasCredential,
+    reviews,
+    openingHours,
+    hasOfferCatalog,
+    speakable
+  } = props;
   // Base Organization schema that will be included in all pages
   const organizationSchema = {
     '@type': 'Organization',

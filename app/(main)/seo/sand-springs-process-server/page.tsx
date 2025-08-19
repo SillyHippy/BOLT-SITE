@@ -203,31 +203,40 @@ export default function SandSpringsProcessServerPage() {
       </div>
       <UnifiedSchema
         pageType="service"
-        pageTitle="Sand Springs Process Server | Same-Day Service in Tulsa County, OK"
-        pageDescription="Professional process server in Sand Springs, Oklahoma providing fast, reliable legal document service with same-day options available."
-        pageUrl="https://justlegalsolutions.org/seo/sand-springs-process-server"
-        siteName="Just Legal Solutions"
-        organizationName="Just Legal Solutions"
-        organizationUrl="https://justlegalsolutions.org"
-        serviceType="Process Server"
-        serviceName="Sand Springs Process Server"
-        serviceDescription="Professional process server in Sand Springs, Oklahoma providing legal document service with same-day service available."
-        serviceArea="Sand Springs, Oklahoma"
-        areaServed={[
-          {
-            type: "City",
-            name: "Sand Springs",
-            state: "Oklahoma"
-          }
-        ]}
+        title="Sand Springs Process Server | Same-Day Service in Tulsa County, OK"
+        description="Professional process server in Sand Springs, Oklahoma providing fast, reliable legal document service with same-day options available."
+        url="https://justlegalsolutions.org/seo/sand-springs-process-server"
+        serviceDetails={{
+          name: "Sand Springs Process Server",
+          description: "Professional process server in Sand Springs, Oklahoma providing legal document service with same-day service available.",
+          price: "$60-$150",
+          areaServed: ["Sand Springs", "Tulsa County"],
+          serviceType: ["Process Server", "Legal Document Service"]
+        }}
         priceRange="$60-$150"
-        telephone="+1-405-923-0139"
-        address={{
-          streetAddress: "Local Service",
-          addressLocality: "Sand Springs",
-          addressRegion: "Oklahoma",
-          postalCode: "74063",
-          addressCountry: "US"
+        organization={{
+          name: "Just Legal Solutions",
+          address: {
+            streetAddress: "564 E 138th PL",
+            addressLocality: "Glenpool",
+            addressRegion: "OK",
+            postalCode: "74033",
+            addressCountry: "US"
+          },
+          telephone: "+15393676832"
+        }}
+        location={{
+          name: "Sand Springs Process Server Service",
+          geo: {
+            latitude: 36.1398,
+            longitude: -96.1089
+          }
+        }}
+        aggregateRating={{
+          ratingValue: 4.9,
+          reviewCount: 142,
+          bestRating: 5,
+          worstRating: 1
         }}
         reviewCount={142}
       />
