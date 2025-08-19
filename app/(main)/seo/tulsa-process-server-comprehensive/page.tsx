@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 import Image from 'next/image';
-import UnifiedSchema from '@/components/seo/UnifiedSchema';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 // SEO Metadata optimized for the comprehensive Tulsa County page
 export const metadata: Metadata = {

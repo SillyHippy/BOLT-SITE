@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import BusinessSchema from '@/components/BusinessSchema';
-import UnifiedSchema from '@/components/seo/UnifiedSchema';
+import UnifiedSchema from '@/components/UnifiedSchema';
 import FAQSchema from '@/components/FAQSchema';
 
 // Corrected metadata for Sand Springs

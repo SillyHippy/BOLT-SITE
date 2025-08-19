@@ -3,7 +3,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 import Image from "next/image";
 import Link from "next/link";
-import UnifiedSchema from '@/components/seo/UnifiedSchema';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 // SEO Metadata optimized for the Broken Arrow page
 export const metadata: Metadata = {

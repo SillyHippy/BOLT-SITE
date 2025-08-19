@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 };
 
 import BusinessSchema from '@/components/BusinessSchema';
-import UnifiedSchema from '@/components/seo/UnifiedSchema';
+import UnifiedSchema from '@/components/UnifiedSchema';
 import FAQSchema from '@/components/FAQSchema';
 
 const jsonLd = {
