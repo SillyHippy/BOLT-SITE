@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import Head from 'next/head';
 import JsonLd from '../../components/JsonLd';
-import enhancedLocalBusinessSchema from '../../components/enhanced-local-business-schema';
 import Navbar from '../../components/ui/navbar';
 import Footer from '../../components/ui/footer';
 
@@ -76,7 +75,6 @@ export default function ProcessServerTulsaGuide() {
         <meta name="publish_date" content="2025-08-13" />
       </Head>
       <Navbar />
-      <JsonLd data={enhancedLocalBusinessSchema} />
       <JsonLd data={articleSchema} />
       <JsonLd data={breadcrumbSchema} />
   <main className="max-w-4xl mx-auto px-4 py-8 pt-24">
