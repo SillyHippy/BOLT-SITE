@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Image from "next/image";
 import Link from "next/link";
 import BusinessSchema from '@/components/BusinessSchema';
-import ServiceSchema from '@/components/ServiceSchema';
+import UnifiedSchema from '@/components/ui/unified-schema';
 import FAQSchema from '@/components/FAQSchema';
 
 export const metadata: Metadata = {
@@ -373,7 +373,36 @@ export default function ProcessServerBrokenArrowPage() {
         </main>
       </div>
       <BusinessSchema />
-      <ServiceSchema />
+      <UnifiedSchema
+        pageType="service"
+        pageTitle="Process Server Broken Arrow | Same-Day Legal Document Service"
+        pageDescription="Professional process server in Broken Arrow, Oklahoma providing fast, reliable legal document service with same-day options available."
+        pageUrl="https://justlegalsolutions.org/seo/process-server-broken-arrow"
+        siteName="Just Legal Solutions"
+        organizationName="Just Legal Solutions"
+        organizationUrl="https://justlegalsolutions.org"
+        serviceType="Process Server"
+        serviceName="Process Server Broken Arrow"
+        serviceDescription="Professional process server in Broken Arrow, Oklahoma providing legal document service with same-day service available."
+        serviceArea="Broken Arrow, Oklahoma"
+        areaServed={[
+          {
+            type: "City",
+            name: "Broken Arrow",
+            state: "Oklahoma"
+          }
+        ]}
+        priceRange="$60-$150"
+        telephone="+1-405-923-0139"
+        address={{
+          streetAddress: "Local Service",
+          addressLocality: "Broken Arrow",
+          addressRegion: "Oklahoma",
+          postalCode: "74012",
+          addressCountry: "US"
+        }}
+        reviewCount={142}
+      />
       <FAQSchema />
     </>
   );

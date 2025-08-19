@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 };
 
 import BusinessSchema from '@/components/BusinessSchema';
-import ServiceSchema from '@/components/ServiceSchema';
+import UnifiedSchema from '@/components/ui/unified-schema';
 import FAQSchema from '@/components/FAQSchema';
 
 const jsonLd = {
@@ -170,7 +170,29 @@ export default function LegalPostingProcessServer() {
         </main>
       </div>
       <BusinessSchema />
-      <ServiceSchema />
+      <UnifiedSchema
+        pageType="service"
+        pageTitle="Legal Posting Process Server | Public Notice & Legal Publication"
+        pageDescription="Professional legal posting and public notice services throughout Oklahoma. Expert process server for legal publication requirements."
+        pageUrl="https://justlegalsolutions.org/seo/legal-posting-process-server"
+        siteName="Just Legal Solutions"
+        organizationName="Just Legal Solutions"
+        organizationUrl="https://justlegalsolutions.org"
+        serviceType="Process Server"
+        serviceName="Legal Posting Process Server"
+        serviceDescription="Professional legal posting and public notice services throughout Oklahoma with expert process server support."
+        serviceArea="Oklahoma"
+        priceRange="$60-$150"
+        telephone="+1-405-923-0139"
+        address={{
+          streetAddress: "Statewide Service",
+          addressLocality: "Oklahoma",
+          addressRegion: "Oklahoma",
+          postalCode: "74101",
+          addressCountry: "US"
+        }}
+        reviewCount={142}
+      />
       <FAQSchema />
     </>
   );

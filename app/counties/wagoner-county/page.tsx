@@ -1,10 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, CheckCircle, Star, Calendar, FileText, Scale, AlertCircle } from 'lucide-react';
-
- 
-
-import EnhancedFAQPageSchema from '@/components/ui/enhanced-faq-page-schema';
+import UnifiedSchema from '@/components/ui/unified-schema';
 
 import GoogleMapsEmbed from '@/components/ui/google-maps-embed';
 import { Navbar } from '@/components/ui/navbar';
@@ -105,40 +102,44 @@ export default function WagonerCountyProcessServer() {
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas) }}
-      />
-      <EnhancedFAQPageSchema 
-        faqs={wagonerCountyFAQs}
-        pageTitle="Wagoner County Process Server - FAQ"
+      <UnifiedSchema
+        pageType="service"
+        pageTitle="Wagoner County Process Server - Just Legal Solutions"
+        pageDescription="Licensed process server throughout Wagoner County, Oklahoma. Serving Wagoner, Coweta. Same-day service available."
         pageUrl="https://justlegalsolutions.org/counties/wagoner-county"
-      />
-      <EnhancedOrganizationSchema />
-      <Navbar />
-      
-      <LocalBusinessSchema
-        name="Just Legal Solutions - Wagoner County Process Server"
+        siteName="Just Legal Solutions"
+        organizationName="Just Legal Solutions"
+        organizationUrl="https://justlegalsolutions.org"
+        serviceType="Process Server"
+        serviceName="Wagoner County Process Server"
+        serviceDescription="Professional process server throughout Wagoner County, Oklahoma providing legal document service in all cities including Wagoner, Coweta."
+        serviceArea="Wagoner County, Oklahoma"
+        areaServed={[
+          {
+            type: "City",
+            name: "Wagoner",
+            state: "Oklahoma"
+          },
+          {
+            type: "City",
+            name: "Coweta",
+            state: "Oklahoma"
+          }
+        ]}
+        priceRange="$60-$150"
+        telephone="+1-405-923-0139"
         address={{
           streetAddress: "County-wide Service",
           addressLocality: "Wagoner",
           addressRegion: "Oklahoma",
-          postalCode: "74000"
+          postalCode: "74000",
+          addressCountry: "US"
         }}
-        phone="(539) 367-6832"
-        description="Professional process server throughout Wagoner County, Oklahoma providing legal document service in all cities including Wagoner, Coweta."
-        serviceArea={["Wagoner County", "Oklahoma"]}
+        breadcrumbItems={breadcrumbItems}
+        faqItems={wagonerCountyFAQs}
+        reviewCount={142}
       />
-      
-      <ServiceSchema
-        serviceName="Process Server Wagoner County"
-        serviceDescription="Professional legal document service throughout Wagoner County, Oklahoma including all cities, towns, and unincorporated areas with same-day service available."
-        serviceArea="Wagoner County, Oklahoma"
-        priceRange="$60-$150"
-        serviceType="Legal Services"
-      />
-      
-      <BreadcrumbSchema items={breadcrumbItems} />
+      <Navbar />
 
       <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
         {/* Hero Section */}

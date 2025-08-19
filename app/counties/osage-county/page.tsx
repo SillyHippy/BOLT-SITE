@@ -1,11 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, CheckCircle, Star, Calendar, FileText, Scale, AlertCircle } from 'lucide-react';
-
- 
-
-import EnhancedFAQPageSchema from '@/components/ui/enhanced-faq-page-schema';
-
+import UnifiedSchema from '@/components/ui/unified-schema';
 import GoogleMapsEmbed from '@/components/ui/google-maps-embed';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
@@ -66,78 +62,46 @@ const osageCountyFAQs = [
 ];
 
 export default function OsageCountyProcessServer() {
-  const schemas = [
-    {
-      "@context": "https://schema.org",
-      "@type": "ProfessionalService",
-      "name": "Osage County Process Server - Just Legal Solutions",
-      "url": "https://justlegalsolutions.org/counties/osage-county",
-      "telephone": "+1-405-923-0139",
-      "areaServed": [
-        {
-          "@type": "City",
-          "name": "Pawhuska",
-          "addressRegion": "OK"
-        },
-        {
-          "@type": "City", 
-          "name": "Skiatook",
-          "addressRegion": "OK"
-        },
-        {
-          "@type": "City",
-          "name": "Hominy", 
-          "addressRegion": "OK"
-        },
-        {
-          "@type": "City",
-          "name": "Fairfax",
-          "addressRegion": "OK"
-        }
-      ],
-      "serviceType": "Process Server",
-      "provider": {
-        "@type": "Organization",
-        "@id": "https://justlegalsolutions.org/#organization"
-      }
-    }
-  ];
-
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas) }}
-      />
-      <EnhancedFAQPageSchema 
-        faqs={osageCountyFAQs}
-        pageTitle="Osage County Process Server - FAQ"
+      <UnifiedSchema
+        pageType="service"
+        pageTitle="Osage County Process Server - Just Legal Solutions"
+        pageDescription="Licensed process server throughout Osage County, Oklahoma. Serving Pawhuska, Skiatook. Same-day service available."
         pageUrl="https://justlegalsolutions.org/counties/osage-county"
-      />
-      <EnhancedOrganizationSchema />
-      <Navbar />
-      <LocalBusinessSchema
-        name="Just Legal Solutions - Osage County Process Server"
+        siteName="Just Legal Solutions"
+        organizationName="Just Legal Solutions"
+        organizationUrl="https://justlegalsolutions.org"
+        serviceType="Process Server"
+        serviceName="Osage County Process Server"
+        serviceDescription="Professional process server throughout Osage County, Oklahoma providing legal document service in all cities including Pawhuska, Skiatook."
+        serviceArea="Osage County, Oklahoma"
+        areaServed={[
+          {
+            type: "City",
+            name: "Pawhuska",
+            state: "Oklahoma"
+          },
+          {
+            type: "City",
+            name: "Skiatook",
+            state: "Oklahoma"
+          }
+        ]}
+        priceRange="$60-$150"
+        telephone="+1-405-923-0139"
         address={{
           streetAddress: "County-wide Service",
           addressLocality: "Pawhuska",
           addressRegion: "Oklahoma",
-          postalCode: "74000"
+          postalCode: "74000",
+          addressCountry: "US"
         }}
-        phone="(539) 367-6832"
-        description="Professional process server throughout Osage County, Oklahoma providing legal document service in all cities including Pawhuska, Skiatook."
-        serviceArea={["Osage County", "Oklahoma"]}
+        breadcrumbItems={breadcrumbItems}
+        faqItems={osageCountyFAQs}
+        reviewCount={142}
       />
-      
-      <ServiceSchema
-        serviceName="Process Server Osage County"
-        serviceDescription="Professional legal document service throughout Osage County, Oklahoma including all cities, towns, and unincorporated areas with same-day service available."
-        serviceArea="Osage County, Oklahoma"
-        priceRange="$60-$150"
-        serviceType="Legal Services"
-      />
-      
-      <BreadcrumbSchema items={breadcrumbItems} />
+      <Navbar />
 
       <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
         {/* Hero Section */}

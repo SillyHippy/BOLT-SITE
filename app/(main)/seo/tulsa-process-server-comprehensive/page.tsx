@@ -4,7 +4,7 @@ import { Footer } from '@/components/ui/footer';
 
 import Image from 'next/image';
 import BusinessSchema from '@/components/BusinessSchema';
-import ServiceSchema from '@/components/ServiceSchema';
+import UnifiedSchema from '@/components/ui/unified-schema';
 import FAQSchema from '@/components/FAQSchema';
 
 // SEO Metadata optimized for the comprehensive Tulsa County page
@@ -222,7 +222,36 @@ export default function TulsaProcessServerComprehensive() {
         </main>
       </div>
       <BusinessSchema />
-      <ServiceSchema />
+      <UnifiedSchema
+        pageType="service"
+        pageTitle="Tulsa Process Server Comprehensive | Complete Legal Document Service"
+        pageDescription="Comprehensive process server services throughout Tulsa, Oklahoma providing complete legal document service solutions."
+        pageUrl="https://justlegalsolutions.org/seo/tulsa-process-server-comprehensive"
+        siteName="Just Legal Solutions"
+        organizationName="Just Legal Solutions"
+        organizationUrl="https://justlegalsolutions.org"
+        serviceType="Process Server"
+        serviceName="Tulsa Process Server Comprehensive"
+        serviceDescription="Comprehensive process server services throughout Tulsa, Oklahoma providing complete legal document service solutions."
+        serviceArea="Tulsa, Oklahoma"
+        areaServed={[
+          {
+            type: "City",
+            name: "Tulsa",
+            state: "Oklahoma"
+          }
+        ]}
+        priceRange="$60-$150"
+        telephone="+1-405-923-0139"
+        address={{
+          streetAddress: "Local Service",
+          addressLocality: "Tulsa",
+          addressRegion: "Oklahoma",
+          postalCode: "74101",
+          addressCountry: "US"
+        }}
+        reviewCount={142}
+      />
       <FAQSchema />
     </>
   );

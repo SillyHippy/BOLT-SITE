@@ -14,9 +14,8 @@ import {
 } from "@/components/ui/carousel";
 import Image from "next/image";
 import Link from "next/link";
-import JsonLd from "@/components/JsonLd";
 import { Button } from "@/components/ui/button";
-import ReviewSchema from '@/components/ReviewSchema';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 export default function TulsaProcessServerPage() {
   const faqData = {
@@ -138,7 +137,6 @@ export default function TulsaProcessServerPage() {
   return (
     <>
     <div className="container mx-auto px-4 py-8">
-      <JsonLd data={faqData} />
 
       {/* Hero Section */}
       <section className="text-center mb-12">
@@ -320,7 +318,55 @@ export default function TulsaProcessServerPage() {
       </section>
 
     </div>
-      <ReviewSchema />
+      <UnifiedSchema
+        pageType="location"
+        title="Tulsa Process Server & Broken Arrow Process Server"
+        description="Your trusted partner for fast, accurate, and professional legal document delivery from a licensed process server in Tulsa County."
+        url="https://justlegalsolutions.org/tulsa-process-server"
+        reviewCount={142}
+        location={{
+          name: 'Tulsa County',
+          address: 'Tulsa, OK',
+          region: 'Oklahoma'
+        }}
+        services={[
+          'Tulsa County Process Serving',
+          'Broken Arrow Process Server',
+          'Same-Day Document Delivery',
+          'Legal Document Service',
+          'Professional Process Serving'
+        ]}
+        faqs={[
+          {
+            question: "How quickly can your Broken Arrow process server or Tulsa process server deliver legal documents?",
+            answer: "Our standard delivery for a Tulsa process server is typically within 3-5 business days. However, we understand some legal matters are time-sensitive. We offer rush and same-day service for urgent deliveries in both Tulsa and Broken Arrow. Our process servers in Tulsa are committed to providing the fastest and most reliable service possible. If you need an urgent Process Server for Tulsa County, contact us immediately."
+          },
+          {
+            question: "Are you a licensed and bonded process server in Tulsa County and Broken Arrow, OK?",
+            answer: "Yes, absolutely. All of our process servers are fully licensed and bonded as required by the state of Oklahoma. We are an authorized Tulsa County process server and also serve the entire Broken Arrow, OK area. You can trust our professional team to handle your legal documents with the utmost care and compliance."
+          },
+          {
+            question: "What areas and neighborhoods do your Tulsa and Broken Arrow process servers cover?",
+            answer: "Our process servers cover all of Tulsa County and the city of Broken Arrow extensively. This includes downtown Tulsa, Midtown, South Tulsa, Brookside, Cherry Street, and all major residential and business areas. In Broken Arrow, our process servers broken arrow team covers areas like the Rose District, South Broken Arrow, and all surrounding neighborhoods. If you need a process server in Broken Arrow OK or anywhere in the Tulsa metro, we have you covered."
+          },
+          {
+            question: "What legal documents can you deliver as a Broken Arrow process server?",
+            answer: "As a leading Broken Arrow process server, we are experienced in serving all types of legal documents. This includes summons, complaints, subpoenas, writs, eviction notices, and family court documents like divorce papers and child support petitions. Our Broken Arrow Process Server team ensures that every document is served correctly according to Oklahoma law."
+          },
+          {
+            question: "How do you handle urgent or after-hours jobs in Broken Arrow?",
+            answer: "We specialize in handling difficult, urgent, and after-hours service requests. Our Broken Arrow, OK process server team is available 24/7 to meet your needs. We understand that some serves require persistence and flexibility, and our process servers in Broken Arrow are trained to handle these situations professionally and effectively."
+          },
+          {
+            question: "How much does a Process Server for Broken Arrow or Tulsa process server cost?",
+            answer: "Our pricing is competitive and transparent. The cost for a Process Server for Broken Arrow or a Tulsa process server depends on the type of service (standard, rush, same-day) and the location of the serve. Please visit our pricing page or contact us for a specific quote. We offer affordable rates for reliable service."
+          }
+        ]}
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Tulsa Process Server', url: '/tulsa-process-server' }
+        ]}
+      />
     </>
   );
 }

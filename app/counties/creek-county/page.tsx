@@ -1,11 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, CheckCircle, Star, Calendar, FileText, Scale, AlertCircle } from 'lucide-react';
-
- 
-
-import EnhancedFAQPageSchema from '@/components/ui/enhanced-faq-page-schema';
-
+import UnifiedSchema from '@/components/ui/unified-schema';
 import GoogleMapsEmbed from '@/components/ui/google-maps-embed';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
@@ -66,79 +62,57 @@ const creekCountyFAQs = [
 ];
 
 export default function CreekCountyProcessServer() {
-  const schemas = [
-    {
-      "@context": "https://schema.org",
-      "@type": "ProfessionalService",
-      "name": "Creek County Process Server - Just Legal Solutions",
-      "url": "https://justlegalsolutions.org/counties/creek-county",
-      "telephone": "+1-405-923-0139",
-      "areaServed": [
-        {
-          "@type": "City",
-          "name": "Sapulpa",
-          "addressRegion": "OK"
-        },
-        {
-          "@type": "City", 
-          "name": "Bristow",
-          "addressRegion": "OK"
-        },
-        {
-          "@type": "City",
-          "name": "Drumright", 
-          "addressRegion": "OK"
-        },
-        {
-          "@type": "City",
-          "name": "Kellyville",
-          "addressRegion": "OK"
-        }
-      ],
-      "serviceType": "Process Server",
-      "provider": {
-        "@type": "Organization",
-        "@id": "https://justlegalsolutions.org/#organization"
-      }
-    }
-  ];
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas) }}
-      />
-      <EnhancedFAQPageSchema 
-        faqs={creekCountyFAQs}
-        pageTitle="Creek County Process Server - FAQ"
+      <UnifiedSchema
+        pageType="service"
+        pageTitle="Creek County Process Server - Just Legal Solutions"
+        pageDescription="Licensed process server throughout Creek County, Oklahoma. Serving Sapulpa, Bristow, Kellyville. Same-day service available."
         pageUrl="https://justlegalsolutions.org/counties/creek-county"
-      />
-      <EnhancedOrganizationSchema />
-      <Navbar />
-      
-      <LocalBusinessSchema
-        name="Just Legal Solutions - Creek County Process Server"
+        siteName="Just Legal Solutions"
+        organizationName="Just Legal Solutions"
+        organizationUrl="https://justlegalsolutions.org"
+        serviceType="Process Server"
+        serviceName="Creek County Process Server"
+        serviceDescription="Professional process server throughout Creek County, Oklahoma providing legal document service in all cities including Sapulpa, Bristow, Kellyville."
+        serviceArea="Creek County, Oklahoma"
+        areaServed={[
+          {
+            type: "City",
+            name: "Sapulpa",
+            state: "Oklahoma"
+          },
+          {
+            type: "City", 
+            name: "Bristow",
+            state: "Oklahoma"
+          },
+          {
+            type: "City",
+            name: "Drumright", 
+            state: "Oklahoma"
+          },
+          {
+            type: "City",
+            name: "Kellyville",
+            state: "Oklahoma"
+          }
+        ]}
+        priceRange="$60-$150"
+        telephone="+1-405-923-0139"
         address={{
           streetAddress: "County-wide Service",
           addressLocality: "Sapulpa",
           addressRegion: "Oklahoma",
-          postalCode: "74000"
+          postalCode: "74000",
+          addressCountry: "US"
         }}
-        phone="(539) 367-6832"
-        description="Professional process server throughout Creek County, Oklahoma providing legal document service in all cities including Sapulpa, Bristow, Kellyville."
-        serviceArea={["Creek County", "Oklahoma"]}
+        breadcrumbItems={breadcrumbItems}
+        faqItems={creekCountyFAQs}
+        reviewCount={142}
       />
-      
-      <ServiceSchema
-        serviceName="Process Server Creek County"
-        serviceDescription="Professional legal document service throughout Creek County, Oklahoma including all cities, towns, and unincorporated areas with same-day service available."
-        serviceArea="Creek County, Oklahoma"
-        priceRange="$60-$150"
-        serviceType="Legal Services"
-      />
-      
-      <BreadcrumbSchema items={breadcrumbItems} />
+      <Navbar />
 
       <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
         {/* Hero Section */}

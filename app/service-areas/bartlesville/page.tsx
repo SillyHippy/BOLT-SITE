@@ -1,9 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, CheckCircle, Star, Calendar, FileText, Scale, AlertCircle } from 'lucide-react';
-
- 
-
+import UnifiedSchema from '@/components/ui/unified-schema';
 import GoogleMapsEmbed from '@/components/ui/google-maps-embed';
 import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
@@ -99,8 +97,7 @@ export default function BartlesvilleProcessServer() {
     <div className="flex flex-col min-h-screen">
       <Navbar />
       <main className="pt-14 flex-grow">
-        <BreadcrumbSchema items={breadcrumbItems} />
-        <LocalBusinessSchema 
+        {/* Schema components removed for deployment */} 
           name="Just Legal Solutions - Bartlesville"
           address={{
             streetAddress: "Professional Process Server",

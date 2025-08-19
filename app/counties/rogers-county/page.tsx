@@ -1,11 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, CheckCircle, Star, Calendar, FileText, Scale, AlertCircle } from 'lucide-react';
-
- 
-
-import EnhancedFAQPageSchema from '@/components/ui/enhanced-faq-page-schema';
-
+import UnifiedSchema from '@/components/ui/unified-schema';
 import GoogleMapsEmbed from '@/components/ui/google-maps-embed';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
@@ -66,79 +62,46 @@ const rogersCountyFAQs = [
 ];
 
 export default function RogersCountyProcessServer() {
-  const schemas = [
-    {
-      "@context": "https://schema.org",
-      "@type": "ProfessionalService",
-      "name": "Rogers County Process Server - Just Legal Solutions",
-      "url": "https://justlegalsolutions.org/counties/rogers-county",
-      "telephone": "+1-405-923-0139",
-      "areaServed": [
-        {
-          "@type": "City",
-          "name": "Claremore",
-          "addressRegion": "OK"
-        },
-        {
-          "@type": "City", 
-          "name": "Catoosa",
-          "addressRegion": "OK"
-        },
-        {
-          "@type": "City",
-          "name": "Oologah", 
-          "addressRegion": "OK"
-        },
-        {
-          "@type": "City",
-          "name": "Verdigris",
-          "addressRegion": "OK"
-        }
-      ],
-      "serviceType": "Process Server",
-      "provider": {
-        "@type": "Organization",
-        "@id": "https://justlegalsolutions.org/#organization"
-      }
-    }
-  ];
-
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas) }}
-      />
-      <EnhancedFAQPageSchema 
-        faqs={rogersCountyFAQs}
-        pageTitle="Rogers County Process Server - FAQ"
+      <UnifiedSchema
+        pageType="service"
+        pageTitle="Rogers County Process Server - Just Legal Solutions"
+        pageDescription="Rogers County's process server—serving Claremore, Catoosa, Verdigris, and all communities. Fast, local legal document delivery for families, businesses, and attorneys."
         pageUrl="https://justlegalsolutions.org/counties/rogers-county"
-      />
-      <EnhancedOrganizationSchema />
-      <Navbar />
-      
-      <LocalBusinessSchema
-        name="Just Legal Solutions - Rogers County Process Server"
+        siteName="Just Legal Solutions"
+        organizationName="Just Legal Solutions"
+        organizationUrl="https://justlegalsolutions.org"
+        serviceType="Process Server"
+        serviceName="Rogers County Process Server"
+        serviceDescription="Professional process server throughout Rogers County, Oklahoma providing legal document service in all cities including Claremore, Catoosa."
+        serviceArea="Rogers County, Oklahoma"
+        areaServed={[
+          {
+            type: "City",
+            name: "Claremore",
+            state: "Oklahoma"
+          },
+          {
+            type: "City",
+            name: "Catoosa",
+            state: "Oklahoma"
+          }
+        ]}
+        priceRange="$60-$150"
+        telephone="+1-405-923-0139"
         address={{
           streetAddress: "County-wide Service",
           addressLocality: "Claremore",
           addressRegion: "Oklahoma",
-          postalCode: "74000"
+          postalCode: "74000",
+          addressCountry: "US"
         }}
-        phone="(539) 367-6832"
-        description="Professional process server throughout Rogers County, Oklahoma providing legal document service in all cities including Claremore, Catoosa."
-        serviceArea={["Rogers County", "Oklahoma"]}
+        breadcrumbItems={breadcrumbItems}
+        faqItems={rogersCountyFAQs}
+        reviewCount={142}
       />
-      
-      <ServiceSchema
-        serviceName="Process Server Rogers County"
-        serviceDescription="Professional legal document service throughout Rogers County, Oklahoma including all cities, towns, and unincorporated areas with same-day service available."
-        serviceArea="Rogers County, Oklahoma"
-        priceRange="$60-$150"
-        serviceType="Legal Services"
-      />
-      
-      <BreadcrumbSchema items={breadcrumbItems} />
+      <Navbar />
 
       <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
         {/* Hero Section */}

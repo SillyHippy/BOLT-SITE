@@ -34,7 +34,7 @@ export const metadata: Metadata = {
 };
 
 import BusinessSchema from '@/components/BusinessSchema';
-import ServiceSchema from '@/components/ServiceSchema';
+import UnifiedSchema from '@/components/ui/unified-schema';
 import FAQSchema from '@/components/FAQSchema';
 import ReviewSchema from '@/components/ReviewSchema';
 

@@ -1,11 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, CheckCircle, Star, Calendar, FileText, Scale, AlertCircle } from 'lucide-react';
-
- 
-
-import EnhancedFAQPageSchema from '@/components/ui/enhanced-faq-page-schema';
-
+import UnifiedSchema from '@/components/ui/unified-schema';
 import GoogleMapsEmbed from '@/components/ui/google-maps-embed';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
@@ -66,78 +62,42 @@ const mayesCountyFAQs = [
 ];
 
 export default function MayesCountyProcessServer() {
-  const schemas = [
-    {
-      "@context": "https://schema.org",
-      "@type": "ProfessionalService",
-      "name": "Mayes County Process Server - Just Legal Solutions",
-      "url": "https://justlegalsolutions.org/counties/mayes-county",
-      "telephone": "+1-405-923-0139",
-      "areaServed": [
-        {
-          "@type": "City",
-          "name": "Pryor Creek",
-          "addressRegion": "OK"
-        },
-        {
-          "@type": "City", 
-          "name": "Chouteau",
-          "addressRegion": "OK"
-        },
-        {
-          "@type": "City",
-          "name": "Locust Grove", 
-          "addressRegion": "OK"
-        },
-        {
-          "@type": "City",
-          "name": "Adair",
-          "addressRegion": "OK"
-        }
-      ],
-      "serviceType": "Process Server",
-      "provider": {
-        "@type": "Organization",
-        "@id": "https://justlegalsolutions.org/#organization"
-      }
-    }
-  ];
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas) }}
-      />
-      <EnhancedFAQPageSchema 
-        faqs={mayesCountyFAQs}
-        pageTitle="Mayes County Process Server - FAQ"
+      <UnifiedSchema
+        pageType="service"
+        pageTitle="Mayes County Process Server - Just Legal Solutions"
+        pageDescription="Licensed process server throughout Mayes County, Oklahoma. Serving Pryor. Same-day service available."
         pageUrl="https://justlegalsolutions.org/counties/mayes-county"
-      />
-      <EnhancedOrganizationSchema />
-      <Navbar />
-      <LocalBusinessSchema
-        name="Just Legal Solutions - Mayes County Process Server"
+        siteName="Just Legal Solutions"
+        organizationName="Just Legal Solutions"
+        organizationUrl="https://justlegalsolutions.org"
+        serviceType="Process Server"
+        serviceName="Mayes County Process Server"
+        serviceDescription="Professional process server throughout Mayes County, Oklahoma providing legal document service in all cities including Pryor."
+        serviceArea="Mayes County, Oklahoma"
+        areaServed={[
+          {
+            type: "City",
+            name: "Pryor",
+            state: "Oklahoma"
+          }
+        ]}
+        priceRange="$60-$150"
+        telephone="+1-405-923-0139"
         address={{
           streetAddress: "County-wide Service",
           addressLocality: "Pryor",
           addressRegion: "Oklahoma",
-          postalCode: "74000"
+          postalCode: "74000",
+          addressCountry: "US"
         }}
-        phone="(539) 367-6832"
-        description="Professional process server throughout Mayes County, Oklahoma providing legal document service in all cities including Pryor."
-        serviceArea={["Mayes County", "Oklahoma"]}
+        breadcrumbItems={breadcrumbItems}
+        faqItems={mayesCountyFAQs}
+        reviewCount={142}
       />
-      
-      <ServiceSchema
-        serviceName="Process Server Mayes County"
-        serviceDescription="Professional legal document service throughout Mayes County, Oklahoma including all cities, towns, and unincorporated areas with same-day service available."
-        serviceArea="Mayes County, Oklahoma"
-        priceRange="$60-$150"
-        serviceType="Legal Services"
-      />
-      
-      <BreadcrumbSchema items={breadcrumbItems} />
+      <Navbar />
 
       <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
         {/* Hero Section */}

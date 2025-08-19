@@ -1,8 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, MapPin, Clock, Search, Star, CheckCircle, Shield, Building2 } from 'lucide-react';
-
-
+import UnifiedSchema from '@/components/ui/unified-schema';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 
@@ -122,22 +121,31 @@ const majorCities = [
 export default function ServiceAreasHub() {
   return (
     <>
-      <Navbar />
-      
-      <LocalBusinessSchema
-        name="Just Legal Solutions - Oklahoma Process Server"
+      <UnifiedSchema
+        pageType="service"
+        pageTitle="Process Server Service Areas Oklahoma | Statewide Coverage | Just Legal Solutions"
+        pageDescription="Professional process server serving statewide throughout Oklahoma. Complete coverage of all 77 counties with same-day service available. Licensed, bonded, and insured statewide."
+        pageUrl="https://justlegalsolutions.org/counties"
+        siteName="Just Legal Solutions"
+        organizationName="Just Legal Solutions"
+        organizationUrl="https://justlegalsolutions.org"
+        serviceType="Process Server"
+        serviceName="Oklahoma Process Server Service Areas"
+        serviceDescription="Professional process server serving statewide throughout all of Oklahoma including all 77 counties with same-day service available."
+        serviceArea="Oklahoma, Statewide"
+        priceRange="$60-$150"
+        telephone="+1-405-923-0139"
         address={{
           streetAddress: "Statewide Service",
           addressLocality: "Oklahoma",
-          addressRegion: "Oklahoma", 
-          postalCode: "74101"
+          addressRegion: "Oklahoma",
+          postalCode: "74101",
+          addressCountry: "US"
         }}
-        phone="(539) 367-6832"
-        description="Professional process server serving statewide throughout all of Oklahoma including all 77 counties with same-day service available."
-        serviceArea={["Oklahoma", "Statewide"]}
+        breadcrumbItems={breadcrumbItems}
+        reviewCount={142}
       />
-      
-      <BreadcrumbSchema items={breadcrumbItems} />
+      <Navbar />
 
       <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
         {/* Hero Section */}

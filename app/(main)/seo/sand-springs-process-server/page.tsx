@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import BusinessSchema from '@/components/BusinessSchema';
-import ServiceSchema from '@/components/ServiceSchema';
+import UnifiedSchema from '@/components/ui/unified-schema';
 import FAQSchema from '@/components/FAQSchema';
 
 // Corrected metadata for Sand Springs
@@ -204,7 +204,36 @@ export default function SandSpringsProcessServerPage() {
         </main>
       </div>
       <BusinessSchema />
-      <ServiceSchema />
+      <UnifiedSchema
+        pageType="service"
+        pageTitle="Sand Springs Process Server | Same-Day Service in Tulsa County, OK"
+        pageDescription="Professional process server in Sand Springs, Oklahoma providing fast, reliable legal document service with same-day options available."
+        pageUrl="https://justlegalsolutions.org/seo/sand-springs-process-server"
+        siteName="Just Legal Solutions"
+        organizationName="Just Legal Solutions"
+        organizationUrl="https://justlegalsolutions.org"
+        serviceType="Process Server"
+        serviceName="Sand Springs Process Server"
+        serviceDescription="Professional process server in Sand Springs, Oklahoma providing legal document service with same-day service available."
+        serviceArea="Sand Springs, Oklahoma"
+        areaServed={[
+          {
+            type: "City",
+            name: "Sand Springs",
+            state: "Oklahoma"
+          }
+        ]}
+        priceRange="$60-$150"
+        telephone="+1-405-923-0139"
+        address={{
+          streetAddress: "Local Service",
+          addressLocality: "Sand Springs",
+          addressRegion: "Oklahoma",
+          postalCode: "74063",
+          addressCountry: "US"
+        }}
+        reviewCount={142}
+      />
       <FAQSchema />
     </>
   );

@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
-import ReviewSchema from '@/components/ReviewSchema';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
   title: 'Emergency Process Server Tulsa | Same-Day Legal Document Delivery | Just Legal Solutions',
@@ -132,7 +132,26 @@ const UrgentProcessServerPage = () => {
           </div>
         </div>
       </main>
-      <ReviewSchema />
+      <UnifiedSchema
+        pageType="service"
+        title="Emergency Process Server Tulsa | Same-Day Legal Document Delivery"
+        description="Emergency process server in Tulsa—get legal documents served today! Licensed Oklahoma process servers with 2-hour emergency service for urgent court papers and subpoenas."
+        url="https://justlegalsolutions.org/urgent-process-server"
+        image="https://justlegalsolutions.org/images/urgent-process-server-og.jpg"
+        keywords={['urgent process server tulsa', 'same day process serving', 'emergency document delivery', 'fast process server oklahoma', 'tulsa county legal services', '2 hour process serving', 'emergency court papers', 'urgent subpoena service', 'rush legal documents tulsa']}
+        reviewCount={142}
+        services={[
+          'Emergency Same-Day Process Serving',
+          'Rush 2-Hour Legal Document Delivery',
+          'Urgent Court Papers Service',
+          'Emergency Subpoena Delivery',
+          'Fast Affidavit of Service'
+        ]}
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Urgent Process Server', url: '/urgent-process-server' }
+        ]}
+      />
     </>
   );
 };

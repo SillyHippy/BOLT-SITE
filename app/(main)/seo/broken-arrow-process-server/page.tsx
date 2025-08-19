@@ -3,9 +3,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 import Image from "next/image";
 import Link from "next/link";
-import BusinessSchema from '@/components/BusinessSchema';
-import ServiceSchema from '@/components/ServiceSchema';
-import FAQSchema from '@/components/FAQSchema';
+import UnifiedSchema from '@/components/ui/unified-schema';
 
 // SEO Metadata optimized for the Broken Arrow page
 export const metadata: Metadata = {
@@ -168,16 +166,81 @@ const brokenArrowData = {
     ]
 };
 
+const brokenArrowFAQs = [
+  {
+    question: "How do you handle service in large, gated communities in Broken Arrow?",
+    answer: "Our process servers are experienced with the protocols of gated communities like Forest Ridge. We use professional and legal methods to gain access and effectuate service in a discreet and timely manner."
+  },
+  {
+    question: "The person I need to serve lives in the Wagoner County part of Broken Arrow. Is that a problem?",
+    answer: "Not at all. We are fully licensed to serve in both Tulsa and Wagoner counties. We handle cross-county serves for Broken Arrow residents regularly and ensure the Affidavit of Service is filed with the correct court."
+  },
+  {
+    question: "What is your turnaround time for standard service in Broken Arrow?",
+    answer: "Standard service in Broken Arrow is typically attempted within 24-48 hours and completed within 3-5 business days. We also offer same-day and emergency rush services for urgent matters."
+  },
+  {
+    question: "Can you serve papers to someone at their job in Broken Arrow?",
+    answer: "Yes, we can serve documents at a place of employment, provided it is permitted by the location and can be done professionally. We have experience serving individuals in the commercial and industrial areas of Broken Arrow."
+  },
+  {
+    question: "Where can I learn more about process serving laws and best practices in Oklahoma?",
+    answer: "For a comprehensive overview of process serving requirements, legal tips, and updates across the state, visit our Ultimate Guide to Process Serving in Oklahoma."
+  },
+  {
+    question: "Do you offer same-day or rush service options in Broken Arrow?",
+    answer: "Yes, we provide same-day and emergency rush service for urgent legal matters throughout Broken Arrow and surrounding areas."
+  },
+  {
+    question: "How do you handle legal document delivery during holidays or inclement weather?",
+    answer: "We monitor weather and holiday schedules closely and communicate with clients to ensure timely, secure delivery, even in challenging conditions."
+  },
+  {
+    question: "Can you serve documents at workplaces or commercial locations in Broken Arrow?",
+    answer: "Absolutely. We regularly serve legal documents at offices, businesses, and commercial properties throughout Broken Arrow, always with professionalism and discretion."
+  }
+];
+
+const breadcrumbItems = [
+  { name: 'Home', url: '/' },
+  { name: 'SEO', url: '/seo' },
+  { name: 'Broken Arrow Process Server', url: '/seo/broken-arrow-process-server' },
+];
+
 export default function BrokenArrowProcessServer() {
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqPageSchema) }}
+      <UnifiedSchema
+        pageType="service"
+        pageTitle="Broken Arrow Process Server | Process Server Broken Arrow, OK | Same-Day Service"
+        pageDescription="Trusted Broken Arrow process server with years of local experience. Professional process server Broken Arrow residents rely on for same-day legal document service in Tulsa & Wagoner Counties."
+        pageUrl="https://justlegalsolutions.org/seo/broken-arrow-process-server"
+        siteName="Just Legal Solutions"
+        organizationName="Just Legal Solutions"
+        organizationUrl="https://justlegalsolutions.org"
+        serviceType="Process Server"
+        serviceName="Broken Arrow Process Server"
+        serviceDescription="Professional process server in Broken Arrow, Oklahoma providing legal document service in both Tulsa and Wagoner counties with same-day service available."
+        serviceArea="Broken Arrow, Oklahoma"
+        areaServed={[
+          {
+            type: "City",
+            name: "Broken Arrow",
+            state: "Oklahoma"
+          }
+        ]}
+        priceRange="$60-$150"
+        telephone="+1-405-923-0139"
+        address={{
+          streetAddress: "Local Service",
+          addressLocality: "Broken Arrow",
+          addressRegion: "Oklahoma",
+          postalCode: "74012",
+          addressCountry: "US"
+        }}
+        breadcrumbItems={breadcrumbItems}
+        faqItems={brokenArrowFAQs}
+        reviewCount={142}
       />
       {/* Navbar and Footer are handled by the main layout */}
       <div className="min-h-screen bg-gray-50 pt-16">
@@ -406,9 +469,6 @@ export default function BrokenArrowProcessServer() {
           </div>
         </main>
       </div>
-      <BusinessSchema />
-      <ServiceSchema />
-      <FAQSchema />
     </>
   );
 }
