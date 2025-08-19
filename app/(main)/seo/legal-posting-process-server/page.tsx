@@ -26,9 +26,7 @@ export const metadata: Metadata = {
   }
 };
 
-import BusinessSchema from '@/components/BusinessSchema';
 import UnifiedSchema from '@/components/UnifiedSchema';
-import FAQSchema from '@/components/FAQSchema';
 
 const jsonLd = {
   '@context': 'https://schema.org',
@@ -169,7 +167,6 @@ export default function LegalPostingProcessServer() {
           </div>
         </main>
       </div>
-      <BusinessSchema />
       <UnifiedSchema
         pageType="service"
         pageTitle="Legal Posting Process Server | Public Notice & Legal Publication"
@@ -193,7 +190,6 @@ export default function LegalPostingProcessServer() {
         }}
         reviewCount={142}
       />
-      <FAQSchema />
     </>
   );
 }

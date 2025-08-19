@@ -1,8 +1,6 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
-import BusinessSchema from '@/components/BusinessSchema';
 import UnifiedSchema from '@/components/UnifiedSchema';
-import FAQSchema from '@/components/FAQSchema';
 
 // Corrected metadata for Sand Springs
 export const metadata: Metadata = {
@@ -203,7 +201,6 @@ export default function SandSpringsProcessServerPage() {
           </div>
         </main>
       </div>
-      <BusinessSchema />
       <UnifiedSchema
         pageType="service"
         pageTitle="Sand Springs Process Server | Same-Day Service in Tulsa County, OK"
@@ -234,7 +231,6 @@ export default function SandSpringsProcessServerPage() {
         }}
         reviewCount={142}
       />
-      <FAQSchema />
     </>
   );
 }

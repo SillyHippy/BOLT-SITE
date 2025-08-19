@@ -97,33 +97,7 @@ export default function BartlesvilleProcessServer() {
     <div className="flex flex-col min-h-screen">
       <Navbar />
       <main className="pt-14 flex-grow">
-        {/* Schema components removed for deployment */} 
-          name="Just Legal Solutions - Bartlesville"
-          address={{
-            streetAddress: "Professional Process Server",
-            addressLocality: "Bartlesville",
-          addressRegion: "Oklahoma",
-          postalCode: "74003"
-        }}
-        phone="(539) 367-6832"
-        email="service@justlegalsolutions.org"
-        url="https://justlegalsolutions.org/service-areas/bartlesville"
-        services={[
-          "Process Serving",
-          "Legal Document Delivery", 
-          "Court Filing Services",
-          "Skip Tracing",
-          "Oil & Gas Industry Documents",
-          "Corporate Process Serving"
-        ]}
-      />
-      <ServiceSchema 
-        serviceName="Process Server Services"
-        serviceDescription="Professional process serving in Bartlesville, Oklahoma"
-        serviceArea="Bartlesville, Oklahoma"
-      />
-
-      {/* FAQ Structured Data */}
+        {/* FAQ Structured Data */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{

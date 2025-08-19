@@ -1,9 +1,7 @@
 import type { Metadata } from 'next';
 import Image from "next/image";
 import Link from "next/link";
-import BusinessSchema from '@/components/BusinessSchema';
 import UnifiedSchema from '@/components/UnifiedSchema';
-import FAQSchema from '@/components/FAQSchema';
 
 export const metadata: Metadata = {
   title: 'Broken Arrow Process Server | Process Server Broken Arrow, OK | Same-Day Service',
@@ -372,7 +370,6 @@ export default function ProcessServerBrokenArrowPage() {
           </div>
         </main>
       </div>
-      <BusinessSchema />
       <UnifiedSchema
         pageType="service"
         pageTitle="Process Server Broken Arrow | Same-Day Legal Document Service"
@@ -403,7 +400,6 @@ export default function ProcessServerBrokenArrowPage() {
         }}
         reviewCount={142}
       />
-      <FAQSchema />
     </>
   );
 }

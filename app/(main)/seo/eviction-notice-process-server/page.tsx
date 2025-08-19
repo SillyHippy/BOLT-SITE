@@ -16,7 +16,6 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
-import FAQSchema from '@/components/FAQSchema';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 // SEO Metadata optimized for the Eviction Notice page
@@ -237,7 +236,6 @@ export default function EvictionNoticeProcessServer() {
           </div>
         </main>
       </div>
-      <FAQSchema />
     </>
   );
 }

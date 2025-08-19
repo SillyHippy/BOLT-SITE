@@ -33,10 +33,7 @@ export const metadata: Metadata = {
   }
 };
 
-import BusinessSchema from '@/components/BusinessSchema';
 import UnifiedSchema from '@/components/UnifiedSchema';
-import FAQSchema from '@/components/FAQSchema';
-import ReviewSchema from '@/components/ReviewSchema';
 
 // Detailed JSON-LD Schema for Jenks Service
 const jsonLd = {
@@ -99,11 +96,6 @@ const jenksData = {
 export default function JenksProcessServer() {
   return (
     <>
-      <ReviewSchema 
-        businessName="Just Legal Solutions - Jenks Process Server"
-        averageRating={4.9}
-        reviewCount={142}
-      />
       <div className="min-h-screen bg-gray-50 pt-16">
         <div className="bg-blue-900 text-white">
           <div className="container mx-auto px-4 py-20 pt-12 text-center">
