@@ -33,7 +33,8 @@ interface UnifiedSchemaProps {
   };
   breadcrumbItems?: Array<{
     name: string;
-    item: string;
+    item?: string;
+    url?: string;
   }>;
   reviewCount?: number;
   image?: string | string[];
@@ -140,7 +141,10 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     title = props.pageTitle,
     description = props.pageDescription,
     // Handle legacy breadcrumbs
-    breadcrumbs = props.breadcrumbItems || [],
+    breadcrumbs = props.breadcrumbItems?.map(item => ({
+      name: item.name,
+      item: item.item || item.url || ''
+    })) || [],
     // Map legacy service details
     serviceDetails = props.serviceName ? {
       name: props.serviceName || props.serviceType || '',
