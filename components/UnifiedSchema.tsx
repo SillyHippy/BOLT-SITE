@@ -51,6 +51,10 @@ interface UnifiedSchemaProps {
     question: string;
     answer: string;
   }>;
+  faqs?: Array<{
+    question: string;
+    answer: string;
+  }>;
   serviceDetails?: {
     name: string;
     description: string;
