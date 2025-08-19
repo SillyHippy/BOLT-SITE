@@ -4,7 +4,7 @@ import { Footer } from '@/components/ui/footer';
 
 import Image from 'next/image';
 import BusinessSchema from '@/components/BusinessSchema';
-import UnifiedSchema from '@/components/ui/unified-schema';
+import UnifiedSchema from '@/components/seo/UnifiedSchema';
 import FAQSchema from '@/components/FAQSchema';
 
 // SEO Metadata optimized for the comprehensive Tulsa County page
