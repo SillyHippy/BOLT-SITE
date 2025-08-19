@@ -3,14 +3,11 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Script from 'next/script';
 import { ChevronDown } from 'lucide-react';
-import ReviewSchema from '@/components/ui/review-schema';
 import GoogleSpecificOptimization from '@/components/ui/google-specific-optimization';
 import BingYahooOptimization from '@/components/ui/bing-yahoo-optimization';
 import DuckDuckGoOptimization from '@/components/ui/duckduckgo-optimization';
 import SearchEngineUniversalOptimization from '@/components/ui/search-engine-universal-optimization';
 import EnhancedBreadcrumbSchema from '@/components/ui/enhanced-breadcrumb-schema';
-import EnhancedFAQSchema from '@/components/ui/enhanced-faq-schema';
-import EnhancedServiceSchema from '@/components/ui/enhanced-service-schema';
 import PerformanceSchema from '@/components/ui/performance-schema';
 
 export const metadata = {
@@ -268,74 +265,12 @@ export default function ServicesPage() {
         </section>
       </main>
       
-      {/* Invisible Review Schema for SEO */}
-      <ReviewSchema 
-        businessName="Just Legal Solutions - Business Services"
-        aggregateRating={4.9}
-        reviewCount={142}
-        reviews={[
-          {
-            author: "Executive Client",
-            rating: 5,
-            text: "Outstanding executive assistant services! Professional, reliable, and always one step ahead. Highly recommend for business support.",
-            date: "2024-12-08"
-          },
-          {
-            author: "Business Owner",
-            rating: 5,
-            text: "Excellent data entry and administrative support. They handle everything with precision and professionalism.",
-            date: "2024-11-22"
-          },
-          {
-            author: "Corporate Client",
-            rating: 5,
-            text: "Top-notch business solutions. Great attention to detail and exceptional customer service throughout.",
-            date: "2024-11-10"
-          }
-        ]}
-      />
-      
       {/* Enhanced Schema Components for Maximum SEO */}
       <EnhancedBreadcrumbSchema items={[
         { name: "Home", url: "/" },
         { name: "Services", url: "/services" }
       ]} />
       
-      <div className="hidden">
-        <EnhancedFAQSchema 
-          pageTitle="Business Solutions & Executive Services"
-          faqs={[
-          {
-            question: "What types of business support services do you offer?",
-            answer: "We provide comprehensive business solutions including executive assistant services, event coordination, HR & payroll support, travel management, customer service, and professional data entry solutions throughout Oklahoma."
-          },
-          {
-            question: "How do your executive assistant services work?",
-            answer: "Our executive assistant services are tailored to your specific business needs. We handle calendar management, correspondence, travel arrangements, meeting coordination, and administrative tasks to streamline your operations."
-          },
-          {
-            question: "Do you handle confidential business information securely?",
-            answer: "Absolutely. We maintain strict confidentiality protocols and security measures for all client information. Our team is experienced in handling sensitive business data with complete discretion and professionalism."
-          },
-          {
-            question: "Can you provide ongoing support or just one-time projects?",
-            answer: "We offer both ongoing partnership arrangements and one-time project support. Whether you need regular administrative assistance or help with specific business initiatives, we can accommodate your requirements."
-          },
-          {
-            question: "What geographic areas do you serve for business services?",
-            answer: "We primarily serve the Tulsa metropolitan area and surrounding Oklahoma regions. For certain services, we can provide remote support statewide and coordinate with local partners as needed."
-          }
-        ]}
-        />
-      </div>
-      
-      <EnhancedServiceSchema 
-        serviceName="Business Solutions & Executive Support"
-        serviceDescription="Comprehensive executive assistant and business support services in Oklahoma including event coordination, HR support, and administrative solutions"
-        serviceArea="Oklahoma (Tulsa Metropolitan Area, Remote Support Available)"
-        serviceType="Executive Assistant Services"
-        additionalServices={["Event Planning", "HR & Payroll Support", "Travel Management", "Data Entry"]}
-      />
       
       <PerformanceSchema 
         pageName="Business Solutions & Executive Services - Oklahoma"

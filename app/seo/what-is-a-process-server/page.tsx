@@ -7,7 +7,6 @@ import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 import EnhancedBreadcrumbSchema, { VisualBreadcrumbs } from '@/components/ui/enhanced-breadcrumb-schema';
  
-import ReviewSchema from '@/components/ui/review-schema';
 import VoiceSearchOptimization from '@/components/ui/voice-search-optimization';
 import PerformanceSchema from '@/components/ui/performance-schema';
 
@@ -425,25 +424,6 @@ export default function WhatIsAProcessServerPage() {
         pageUrl="/seo/what-is-a-process-server"
         loadTime={2.0}
         mobileOptimized={true}
-      />
-      <ReviewSchema 
-        businessName="Just Legal Solutions"
-        aggregateRating={5.0}
-        reviewCount={142}
-        reviews={[
-          {
-            author: "Sarah M., Attorney",
-            rating: 5,
-            text: "Needed divorce papers served urgently before court deadline. Just Legal Solutions completed service same day with professional affidavit. Highly recommend!",
-            date: "2024-12-15"
-          },
-          {
-            author: "Mike R., Property Manager", 
-            rating: 5,
-            text: "Outstanding service for eviction notices. Professional, discreet, and always provides proper documentation.",
-            date: "2024-11-28"
-          }
-        ]}
       />
 
       <Navbar />
