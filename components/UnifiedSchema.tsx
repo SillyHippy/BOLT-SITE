@@ -294,8 +294,8 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     } : {})
   };
 
-  // Breadcrumb schema
-  const breadcrumbSchema = {
+  // Breadcrumb schema (only create if we have breadcrumbs)
+  const breadcrumbSchema = breadcrumbs.length > 0 ? {
     '@type': 'BreadcrumbList',
     itemListElement: breadcrumbs.map((item, index) => ({
       '@type': 'ListItem',
@@ -305,7 +305,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
         ? (item.item || item.url) 
         : `https://justlegalsolutions.org${item.item || item.url}`
     }))
-  };
+  } : null;
 
   // FAQ schema
   const faqSchema = faqItems.length > 0 ? {
@@ -490,11 +490,11 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
   // Build the graph array with all applicable schemas
   const schemaGraph = [
     organizationSchema,
-    websiteSchema,
-    breadcrumbSchema
+    websiteSchema
   ];
 
   // Add conditional schemas
+  if (breadcrumbSchema) (schemaGraph as any[]).push(breadcrumbSchema);
   if (faqSchema) (schemaGraph as any[]).push(faqSchema);
   if (serviceSchema) (schemaGraph as any[]).push(serviceSchema);
   if (articleSchema) (schemaGraph as any[]).push(articleSchema);
