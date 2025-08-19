@@ -89,7 +89,9 @@ interface UnifiedSchemaProps {
   };
   location?: {
     name: string;
-    geo: {
+    state?: string;
+    zipCode?: string;
+    geo?: {
       latitude: number;
       longitude: number;
     };
@@ -135,6 +137,7 @@ interface UnifiedSchemaProps {
     }>;
   };
   speakable?: string[];
+  services?: string[];
 }
 
 const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {

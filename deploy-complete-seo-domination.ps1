@@ -1,6 +1,6 @@
-# PowerShell script to deploy comprehensive SEO optimizations to ALL pages
-Write-Host "🚀 Deploying COMPLETE SEO Domination Strategy..." -ForegroundColor Cyan
-Write-Host "Target: ALL search engines, AI assistants, voice search, and ranking systems" -ForegroundColor Yellow
+# PowerShell script to deploy comprehensive SEO optimizations using UnifiedSchema
+Write-Host "🚀 Deploying UNIFIED SEO Domination Strategy..." -ForegroundColor Cyan
+Write-Host "Target: ALL search engines, AI assistants, voice search via UnifiedSchema" -ForegroundColor Yellow
 
 # Get ALL pages in the site
 $allPages = Get-ChildItem -Path "app" -Recurse -Name "page.tsx" | ForEach-Object {
@@ -9,19 +9,10 @@ $allPages = Get-ChildItem -Path "app" -Recurse -Name "page.tsx" | ForEach-Object
 
 Write-Host "Found $($allPages.Count) total pages to optimize" -ForegroundColor Green
 
-# Universal SEO imports for maximum coverage
+# Universal imports now focused on UnifiedSchema and supporting components
 $universalImports = @'
-import GoogleSpecificOptimization from '@/components/ui/google-specific-optimization';
-import BingYahooOptimization from '@/components/ui/bing-yahoo-optimization';
-import DuckDuckGoOptimization from '@/components/ui/duckduckgo-optimization';
-import SearchEngineUniversalOptimization from '@/components/ui/search-engine-universal-optimization';
-import AIOptimizedContentSchema from '@/components/ui/ai-optimized-content-schema';
-import VoiceSearchOptimization from '@/components/ui/voice-search-optimization';
-import EntityRecognitionSchema from '@/components/ui/entity-recognition-schema';
-import SearchEngineSignals from '@/components/ui/search-engine-signals';
+import UnifiedSchema from '@/components/UnifiedSchema';
 import EnhancedBreadcrumbSchema from '@/components/ui/enhanced-breadcrumb-schema';
-import EnhancedFAQSchema from '@/components/ui/enhanced-faq-schema';
-import EnhancedServiceSchema from '@/components/ui/enhanced-service-schema';
 import PerformanceSchema from '@/components/ui/performance-schema';
 '@
 
@@ -34,9 +25,9 @@ foreach ($page in $allPages) {
     if (Test-Path $fullPath) {
         $content = Get-Content $fullPath -Raw
         
-        # Skip if already has comprehensive optimizations
-        if ($content -match "GoogleSpecificOptimization.*BingYahooOptimization.*DuckDuckGoOptimization.*SearchEngineUniversalOptimization.*AIOptimizedContentSchema") {
-            Write-Host "⏭️  Skipping $page (already fully optimized)" -ForegroundColor Yellow
+        # Skip if already has UnifiedSchema optimization
+        if ($content -match "UnifiedSchema.*pageType.*speakable") {
+            Write-Host "⏭️  Skipping $page (already optimized with UnifiedSchema)" -ForegroundColor Yellow
             $skippedCount++
             continue
         }
@@ -89,7 +80,7 @@ foreach ($page in $allPages) {
         }
         
         # Add imports if not present
-        if ($content -notmatch "GoogleSpecificOptimization") {
+        if ($content -notmatch "UnifiedSchema") {
             if ($content -match "import.*from.*@/components") {
                 $content = $content -replace "(import.*from.*@/components[^;]*;)", "`$1`n$universalImports"
             } else {
@@ -97,61 +88,61 @@ foreach ($page in $allPages) {
             }
         }
         
-        # Generate comprehensive SEO components
+        # Generate comprehensive UnifiedSchema with enhanced properties
         $comprehensiveComponents = @"
       
-      {/* COMPLETE SEO DOMINATION SUITE - ALL SEARCH ENGINES & AI SYSTEMS */}
-      <GoogleSpecificOptimization 
-        businessName="Just Legal Solutions - $($pageName -replace '\\b\\w', {$_.Value.ToUpper()})"
-        primaryLocation="Tulsa, Oklahoma"
-        serviceArea={["Tulsa", "Oklahoma City", "Broken Arrow", "Norman", "Edmond", "Lawton", "Stillwater", "Muskogee"]}
-        emergencyService={true}
-      />
-      <BingYahooOptimization 
-        businessName="Just Legal Solutions - Professional Process Server"
-        serviceTypes={["Process Serving Oklahoma", "Legal Document Delivery", "Skip Tracing Services", "Court Filing"]}
-        expertise={["24/7 Emergency Service", "Licensed Professional", "Statewide Coverage", "Same-Day Delivery"]}
-        serviceRadius={150}
-      />
-      <DuckDuckGoOptimization 
-        businessName="Just Legal Solutions - Oklahoma Process Server"
-        focusKeywords={[$($primaryKeywords | ForEach-Object { """$_""" } | Join-String -Separator ", ")]}
-        privacyFocused={true}
-        quickAnswers={true}
-      />
-      <SearchEngineUniversalOptimization 
-        businessName="Just Legal Solutions"
-        primaryService="Process Serving & Legal Document Delivery"
-        location="Oklahoma"
-        emergencyAvailable={true}
-      />
-      
-      {/* AI-POWERED OPTIMIZATION FOR MAXIMUM RANKINGS */}
-      <AIOptimizedContentSchema 
-        pageName="$($pageName -replace '\\b\\w', {$_.Value.ToUpper()}) Oklahoma"
-        primaryKeywords={[$($primaryKeywords | ForEach-Object { """$_""" } | Join-String -Separator ", ")]}
-        semanticKeywords={[$($semanticKeywords | ForEach-Object { """$_""" } | Join-String -Separator ", ")]}
-        topicalAuthority="Legal Services and Process Serving Expert"
-        contentQuality={98}
-      />
-      <VoiceSearchOptimization 
-        primaryQuestions={[$($voiceQuestions | ForEach-Object { """$_""" } | Join-String -Separator ", ")]}
-        conversationalAnswers={[$($voiceAnswers | ForEach-Object { """$_""" } | Join-String -Separator ", ")]}
-        localIntent={true}
-      />
-      <EntityRecognitionSchema 
-        entityType="Organization"
-        entityName="Just Legal Solutions"
-        entityDescription="Oklahoma's premier process serving and legal document delivery company serving Tulsa and statewide"
-      />
-      <SearchEngineSignals 
-        clickThroughRate={12.8}
-        bounceRate={18}
-        timeOnPage={240}
-        userEngagement={96}
-        contentFreshness="daily"
-        mobileFriendly={true}
-        pagespeed={98}
+      {/* UNIFIED SEO DOMINATION - ALL SEARCH ENGINES & AI SYSTEMS VIA UNIFIEDSCHEMA */}
+      <UnifiedSchema
+        pageType="service"
+        pageTitle="$($pageName -replace '\\b\\w', {$_.Value.ToUpper()}) - Just Legal Solutions Oklahoma"
+        pageDescription="Professional $($pageName) services in Oklahoma. Licensed process server with 24/7 emergency service, same-day delivery, and statewide coverage."
+        pageUrl="https://justlegalsolutions.org/$($page -replace '\\\\', '/' -replace 'app/', '' -replace '/page.tsx', '')"
+        siteName="Just Legal Solutions"
+        organizationName="Just Legal Solutions"
+        organizationUrl="https://justlegalsolutions.org"
+        serviceType="$($pageName -replace '\\b\\w', {$_.Value.ToUpper()})"
+        serviceName="$($pageName -replace '\\b\\w', {$_.Value.ToUpper()}) Oklahoma"
+        serviceDescription="Professional $($pageName) services throughout Oklahoma with emergency availability and licensed expertise."
+        serviceArea="Oklahoma"
+        areaServed={[
+          { type: "State", name: "Oklahoma" },
+          { type: "City", name: "Tulsa" },
+          { type: "City", name: "Oklahoma City" },
+          { type: "City", name: "Broken Arrow" },
+          { type: "City", name: "Norman" },
+          { type: "City", name: "Edmond" }
+        ]}
+        priceRange="`$30-`$200"
+        telephone="+1-539-367-6832"
+        address={{
+          streetAddress: "564 E 138th PL",
+          addressLocality: "Glenpool",
+          addressRegion: "Oklahoma",
+          postalCode: "74033",
+          addressCountry: "US"
+        }}
+        reviewCount={142}
+        faqItems={[
+          {
+            question: "How quickly can you provide $($pageName) service in Oklahoma?",
+            answer: "We offer same-day and emergency $($pageName) service throughout Oklahoma with 24/7 availability."
+          },
+          {
+            question: "What areas do you serve for $($pageName)?",
+            answer: "We provide $($pageName) services throughout Oklahoma including Tulsa, Oklahoma City, and all surrounding areas."
+          },
+          {
+            question: "How much does $($pageName) cost in Oklahoma?",
+            answer: "Our $($pageName) services range from `$30-`$200 depending on urgency and location. Contact us for a precise quote."
+          }
+        ]}
+        speakable={[
+          '/html/head/title',
+          '/html/body//h1',
+          '/html/body//section[contains(@class, \"faq\")]//h3',
+          '/html/body//section[contains(@class, \"service-area\")]//a',
+          '/html/body//section[contains(@class, \"pricing\")]//p'
+        ]}
       />
       
       {/* ENHANCED SCHEMA MARKUP FOR MAXIMUM VISIBILITY */}
@@ -161,22 +152,6 @@ foreach ($page in $allPages) {
           { name: "Services", url: "https://justlegalsolutions.org/services" },
           { name: "$($pageName -replace '\\b\\w', {$_.Value.ToUpper()})", url: "https://justlegalsolutions.org/$($page -replace '\\\\', '/' -replace 'app/', '' -replace '/page.tsx', '')" }
         ]}
-      />
-      <EnhancedFAQSchema 
-        faqs={[
-          { question: "Do you serve process in $($pageName -replace '\\b\\w', {$_.Value.ToUpper()}) Oklahoma?", answer: "Yes, Just Legal Solutions provides professional process serving throughout $($pageName -replace '\\b\\w', {$_.Value.ToUpper()}) and all of Oklahoma with same-day service available." },
-          { question: "How quickly can you serve documents in Oklahoma?", answer: "We offer same-day service throughout Oklahoma, with emergency 2-hour service available for urgent legal matters." },
-          { question: "Are you licensed process servers in Oklahoma?", answer: "Yes, Just Legal Solutions is fully licensed and bonded, providing professional process serving throughout Oklahoma in compliance with all state requirements." }
-        ]}
-        pageTitle="$($pageName -replace '\\b\\w', {$_.Value.ToUpper()}) Process Serving - Just Legal Solutions"
-      />
-      <EnhancedServiceSchema 
-        serviceName="Process Serving & Legal Document Delivery"
-        serviceDescription="Professional process serving and legal document delivery throughout Oklahoma with 24/7 emergency service availability"
-        serviceArea="Oklahoma"
-        priceRange="Contact for professional quote"
-        serviceType="Legal Service"
-        additionalServices={["Skip Tracing", "Court Filing", "Emergency Service", "Statewide Coverage"]}
       />
       <PerformanceSchema 
         pageName="$($pageName -replace '\\b\\w', {$_.Value.ToUpper()}) Oklahoma Process Server"
@@ -199,7 +174,7 @@ foreach ($page in $allPages) {
         # Write the enhanced content
         Set-Content -Path $fullPath -Value $content -NoNewline
         
-        Write-Host "✅ Enhanced $page with COMPLETE SEO domination suite" -ForegroundColor Green
+        Write-Host "✅ Enhanced $page with UNIFIED SEO domination via UnifiedSchema" -ForegroundColor Green
         $enhancedCount++
     } else {
         Write-Host "❌ File not found: $page" -ForegroundColor Red

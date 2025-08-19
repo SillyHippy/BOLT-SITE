@@ -225,8 +225,10 @@ export default function TulsaProcessServerComprehensive() {
         url="https://justlegalsolutions.org/seo/tulsa-process-server-comprehensive"
         location={{
           name: "Tulsa",
-          state: "Oklahoma",
-          zipCode: "74101"
+          geo: {
+            latitude: 36.1539,
+            longitude: -95.9925
+          }
         }}
         services={["Process Serving", "Legal Document Delivery", "Court Paper Service", "Subpoena Service", "Legal Notice Delivery"]}
       />

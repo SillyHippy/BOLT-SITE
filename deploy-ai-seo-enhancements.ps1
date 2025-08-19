@@ -1,5 +1,19 @@
-# AI-Powered SEO Enhancement Deployment
-# Adds advanced AI optimization schemas to high-value pages
+# AI-Powered SEO Enhancement Deployment using UnifiedSchema
+# Enhances high        # Find and enhance existing UnifiedSchema component
+        if ($content -match "UnifiedSchema") {
+            # Add speakable property for voice search optimization
+            if ($content -notmatch "speakable=") {
+                $speakableArray = "[`r`n          " + ($voiceSearchPaths -join ",`r`n          ") + "`r`n        ]"
+                $content = $content -replace "(\s+)(reviewCount={\d+})", "`$1speakable=$speakableArray`r`n`$1`$2"
+            }
+            
+            # Add knowsAbout property for AI optimization
+            if ($content -notmatch "knowsAbout=") {
+                $knowledgeArray = "[`r`n          " + ($knowledgeAreas | ForEach-Object { "'$_'" } | Join-String -Separator ",`r`n          ") + "`r`n        ]"
+                $content = $content -replace "(\s+)(aggregateRating=)", "`$1knowsAbout=$knowledgeArray`r`n`$1`$2"
+            }ith advanced AI optimization through UnifiedSchema
+
+Write-Host "🤖 Deploying AI-Enhanced SEO using UnifiedSchema..." -ForegroundColor Cyan
 
 $highValuePages = @(
     "process-serving-faq\page.tsx",
@@ -21,9 +35,15 @@ foreach ($page in $highValuePages) {
     if (Test-Path $filePath) {
         $content = Get-Content $filePath -Raw
         
-        # Skip if already has AI enhancements
-        if ($content -match "AIOptimizedContentSchema|VoiceSearchOptimization") {
-            Write-Host "Skipping $page - already AI enhanced"
+        # Skip if already enhanced with UnifiedSchema
+        if ($content -match "speakable=|knowsAbout=|voice.*search") {
+            Write-Host "Skipping $page - already AI enhanced" -ForegroundColor Yellow
+            continue
+        }
+        
+        # Check if page uses UnifiedSchema
+        if ($content -notmatch "UnifiedSchema") {
+            Write-Host "Skipping $page - no UnifiedSchema found" -ForegroundColor Red
             continue
         }
         
@@ -51,76 +71,34 @@ foreach ($page in $highValuePages) {
             $semanticKeywords += @("court appearance", "testimony", "legal witness")
         }
         
-        # Add AI enhancement imports
-        $content = $content -replace "import PerformanceSchema from '@/components/ui/performance-schema';", 
-@"
-import PerformanceSchema from '@/components/ui/performance-schema';
-import AIOptimizedContentSchema from '@/components/ui/ai-optimized-content-schema';
-import VoiceSearchOptimization from '@/components/ui/voice-search-optimization';
-import EntityRecognitionSchema from '@/components/ui/entity-recognition-schema';
-import SearchEngineSignals from '@/components/ui/search-engine-signals';
-"@
+        # Enhance UnifiedSchema with AI optimization properties
+        $voiceSearchPaths = @(
+            "'/html/head/title'",
+            "'/html/body//h1'", 
+            "'/html/body//h2[contains(@class, \"service\")]'",
+            "'/html/body//section[contains(@class, \"faq\")]//h3'"
+        )
         
-        # Add AI enhancements before ReviewSchema
-        $aiEnhancements = @"
-      
-      {/* AI-Powered SEO Enhancements */}
-      <AIOptimizedContentSchema 
-        pageName="$($pageName -replace '\\b\\w', {$_.Value.ToUpper()}) $city"
-        primaryKeywords={[$($keywords | ForEach-Object { '"' + $_ + '"' } | Join-String -Separator ', ')]}
-        semanticKeywords={[$($semanticKeywords | ForEach-Object { '"' + $_ + '"' } | Join-String -Separator ', ')]}
-        topicalAuthority="$serviceType and Legal Document Delivery"
-        contentQuality={97}
-      />
-      
-      <VoiceSearchOptimization 
-        primaryQuestions={[
-          "How much does $serviceType cost in $city",
-          "How long does $serviceType take in Oklahoma", 
-          "What is the best process server in $city",
-          "Do I need a process server for $serviceType"
-        ]}
-        conversationalAnswers={[
-          "$serviceType costs in $city vary based on urgency and specific requirements, with competitive rates for all service levels.",
-          "$serviceType in Oklahoma typically takes 3-5 business days for standard service, with expedited options available.",
-          "Just Legal Solutions is a highly-rated, licensed process server providing professional $serviceType throughout $city.",
-          "Yes, professional process servers ensure proper legal notification and compliance with Oklahoma court requirements."
-        ]}
-        localIntent={true}
-      />
-      
-      <EntityRecognitionSchema 
-        entityType="Organization"
-        entityName="Just Legal Solutions"
-        entityDescription="Professional $serviceType in $city, Oklahoma"
-        relatedEntities={[
-          { name: "$serviceType", relationship: "provides", type: "Service" },
-          { name: "Legal Document Delivery", relationship: "specializes", type: "Service" },
-          { name: "$city County Courts", relationship: "serves", type: "Organization" }
-        ]}
-      />
-      
-      <SearchEngineSignals 
-        clickThroughRate={11.5}
-        bounceRate={22}
-        timeOnPage={195}
-        userEngagement={94}
-        contentFreshness="daily"
-        mobileFriendly={true}
-        pagespeed={96}
-      />
-      
-"@
+        $knowledgeAreas = switch -Regex ($page) {
+            "divorce" { @("Divorce Proceedings", "Family Law", "Court Documents", "Legal Service") }
+            "eviction" { @("Eviction Law", "Landlord Tenant Law", "Property Management", "Legal Notice Service") }
+            "subpoena" { @("Court Procedures", "Witness Service", "Legal Process", "Judicial System") }
+            default { @("Process Serving", "Legal Documents", "Court Procedures", "Oklahoma Law") }
+        }
         
-        # Insert AI enhancements before existing ReviewSchema
-        $content = $content -replace "      <ReviewSchema", "$aiEnhancements      <ReviewSchema"
-        
-        # Write updated content
-        Set-Content -Path $filePath -Value $content -Encoding UTF8
-        $enhancedAICount++
-        Write-Host "AI Enhanced: $page"
+            
+            # Save the enhanced content
+            Set-Content $filePath -Value $content
+            $enhancedAICount++
+            Write-Host "✅ Enhanced $page with AI optimization via UnifiedSchema" -ForegroundColor Green
+        } else {
+            Write-Host "❌ Could not find UnifiedSchema in $page" -ForegroundColor Red
+        }
+    } else {
+        Write-Host "⚠️  File not found: $filePath" -ForegroundColor Yellow
     }
 }
 
-Write-Host "`nAI Enhanced $enhancedAICount high-value pages!"
-Write-Host "Added: AI Content Optimization + Voice Search + Entity Recognition + Search Engine Signals"
+Write-Host "`n🎯 AI Enhancement Complete!" -ForegroundColor Green
+Write-Host "Enhanced $enhancedAICount pages with UnifiedSchema AI optimization" -ForegroundColor Cyan
+Write-Host "Features added: Voice search optimization, Knowledge areas, Enhanced schema properties" -ForegroundColor Gray

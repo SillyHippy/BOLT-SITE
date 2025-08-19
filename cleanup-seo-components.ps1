@@ -1,5 +1,5 @@
-# PowerShell script to remove problematic SEO components temporarily
-Write-Host "🔧 Removing problematic SEO components for successful build..." -ForegroundColor Yellow
+# PowerShell script to remove problematic SEO components and optimize for UnifiedSchema
+Write-Host "🔧 Cleaning up legacy SEO components and optimizing for UnifiedSchema..." -ForegroundColor Yellow
 
 # Get all pages with SEO optimizations
 $allPages = Get-ChildItem -Path "app" -Recurse -Name "page.tsx" | ForEach-Object {
@@ -14,7 +14,7 @@ foreach ($page in $allPages) {
     if (Test-Path $fullPath) {
         $content = Get-Content $fullPath -Raw
         
-        # Remove all the problematic SEO imports and components
+        # Remove all the old SEO imports and components
         $content = $content -replace "import GoogleSpecificOptimization[^;]*;", ""
         $content = $content -replace "import BingYahooOptimization[^;]*;", ""
         $content = $content -replace "import DuckDuckGoOptimization[^;]*;", ""
@@ -26,9 +26,21 @@ foreach ($page in $allPages) {
         $content = $content -replace "import AIAssistantOptimization[^;]*;", ""
         $content = $content -replace "import ChatGPTOptimization[^;]*;", ""
         $content = $content -replace "import SearchGPTOptimization[^;]*;", ""
+        $content = $content -replace "import EnhancedFAQSchema[^;]*;", ""
+        $content = $content -replace "import EnhancedServiceSchema[^;]*;", ""
         
-        # Remove all SEO component usage (everything between the SEO comments)
+        # Ensure UnifiedSchema import is present
+        if ($content -notmatch "import UnifiedSchema") {
+            if ($content -match "import.*from.*@/components") {
+                $content = $content -replace "(import.*from.*@/components[^;]*;)", "`$1`nimport UnifiedSchema from '@/components/UnifiedSchema';"
+            } else {
+                $content = "import UnifiedSchema from '@/components/UnifiedSchema';`n`n" + $content
+            }
+        }
+        
+        # Remove all legacy SEO component usage (everything between the SEO comments)
         $content = $content -replace "(?s)\{/\* COMPLETE SEO DOMINATION.*?</PerformanceSchema>", ""
+        $content = $content -replace "(?s)\{/\* UNIFIED SEO DOMINATION.*?</PerformanceSchema>", ""
         $content = $content -replace "(?s)\{/\* AI ASSISTANT OPTIMIZATIONS.*?</SearchGPTOptimization>", ""
         
         # Clean up any leftover empty lines
