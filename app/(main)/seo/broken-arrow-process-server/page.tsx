@@ -3,8 +3,8 @@ import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 import Image from "next/image";
 import Link from "next/link";
-import BusinessSchema from '@/components/BusinessSchema';
-import ServiceSchema from '@/components/ServiceSchema';
+import UnifiedBusinessSchema from '@/components/unified-business-schema';
+
 import FAQSchema from '@/components/FAQSchema';
 
 // SEO Metadata optimized for the Broken Arrow page
@@ -406,9 +406,10 @@ export default function BrokenArrowProcessServer() {
           </div>
         </main>
       </div>
-      <BusinessSchema />
-      <ServiceSchema />
+      <UnifiedBusinessSchema />
+      
       <FAQSchema />
     </>
   );
 }
+

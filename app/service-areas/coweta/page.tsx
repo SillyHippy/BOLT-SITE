@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, CheckCircle, Star, Calendar, FileText, Scale, AlertCircle } from 'lucide-react';
-import LocalBusinessSchema from '@/components/ui/local-business-schema';
+
 import ServiceSchema from '@/components/ui/service-schema';
 import BreadcrumbSchema from '@/components/ui/breadcrumb-schema';
 import GoogleMapsEmbed from '@/components/ui/google-maps-embed';
@@ -100,28 +100,7 @@ export default function CowetaProcessServer() {
       <Navbar />
       <main className="pt-14 flex-grow">
         <BreadcrumbSchema items={breadcrumbItems} />
-      <LocalBusinessSchema 
-        name="Just Legal Solutions - Coweta"
-        address={{
-          streetAddress: "Professional Process Server",
-          addressLocality: "Coweta",
-          addressRegion: "Oklahoma",
-          postalCode: "74429"
-        }}
-        phone="(539) 367-6832"
-        email="service@justlegalsolutions.org"
-        url="https://justlegalsolutions.org/service-areas/coweta"
-        services={[
-          "Process Serving",
-          "Legal Document Delivery", 
-          "Court Filing Services",
-          "Skip Tracing",
-          "Rural Property Service",
-          "Emergency Rush Service",
-          "GPS Tracked Delivery",
-          "24/7 Emergency Service"
-        ]}
-      />
+      
       <ServiceSchema 
         serviceName="Process Server Services"
         serviceDescription="Professional process serving in Coweta, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service"
@@ -372,3 +351,4 @@ export default function CowetaProcessServer() {
     </div>
   );
 }
+

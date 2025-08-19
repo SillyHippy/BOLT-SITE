@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
-import BusinessSchema from '@/components/BusinessSchema';
-import ServiceSchema from '@/components/ServiceSchema';
+import UnifiedBusinessSchema from '@/components/unified-business-schema';
+
 import FAQSchema from '@/components/FAQSchema';
 
 // Corrected metadata for Sand Springs
@@ -81,7 +81,6 @@ const sandSpringsData = {
         }
     ]
 };
-
 
 export default function SandSpringsProcessServerPage() {
   return (
@@ -203,10 +202,11 @@ export default function SandSpringsProcessServerPage() {
           </div>
         </main>
       </div>
-      <BusinessSchema />
-      <ServiceSchema />
+      <UnifiedBusinessSchema />
+      
       <FAQSchema />
     </>
   );
 }
+
 

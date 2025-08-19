@@ -26,8 +26,8 @@ export const metadata: Metadata = {
   }
 };
 
-import BusinessSchema from '@/components/BusinessSchema';
-import ServiceSchema from '@/components/ServiceSchema';
+import UnifiedBusinessSchema from '@/components/unified-business-schema';
+
 import FAQSchema from '@/components/FAQSchema';
 
 const jsonLd = {
@@ -169,10 +169,11 @@ export default function LegalPostingProcessServer() {
           </div>
         </main>
       </div>
-      <BusinessSchema />
-      <ServiceSchema />
+      <UnifiedBusinessSchema />
+      
       <FAQSchema />
     </>
   );
 }
+
 

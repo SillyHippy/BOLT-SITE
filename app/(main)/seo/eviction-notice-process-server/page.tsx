@@ -16,8 +16,8 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
-import BusinessSchema from '@/components/BusinessSchema';
-import ServiceSchema from '@/components/ServiceSchema';
+import UnifiedBusinessSchema from '@/components/unified-business-schema';
+
 import FAQSchema from '@/components/FAQSchema';
 import ReviewSchema from '@/components/ReviewSchema';
 
@@ -222,10 +222,11 @@ export default function EvictionNoticeProcessServer() {
           </div>
         </main>
       </div>
-      <BusinessSchema />
-      <ServiceSchema />
+      <UnifiedBusinessSchema />
+      
       <FAQSchema />
     </>
   );
 }
+
 

@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 import Image from "next/image";
 import Link from "next/link";
-import BusinessSchema from '@/components/BusinessSchema';
-import ServiceSchema from '@/components/ServiceSchema';
+import UnifiedBusinessSchema from '@/components/unified-business-schema';
+
 import FAQSchema from '@/components/FAQSchema';
 
 export const metadata: Metadata = {
@@ -372,9 +372,10 @@ export default function ProcessServerBrokenArrowPage() {
           </div>
         </main>
       </div>
-      <BusinessSchema />
-      <ServiceSchema />
+      <UnifiedBusinessSchema />
+      
       <FAQSchema />
     </>
   );
 }
+

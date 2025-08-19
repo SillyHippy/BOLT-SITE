@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, MapPin, Clock, Search, Star, CheckCircle, Shield, Building2 } from 'lucide-react';
-import LocalBusinessSchema from '@/components/ui/local-business-schema';
+
 import BreadcrumbSchema from '@/components/ui/breadcrumb-schema';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
@@ -123,20 +123,7 @@ export default function ServiceAreasHub() {
   return (
     <>
       <Navbar />
-      
-      <LocalBusinessSchema
-        name="Just Legal Solutions - Oklahoma Process Server"
-        address={{
-          streetAddress: "Statewide Service",
-          addressLocality: "Oklahoma",
-          addressRegion: "Oklahoma", 
-          postalCode: "74101"
-        }}
-        phone="(539) 367-6832"
-        description="Professional process server serving statewide throughout all of Oklahoma including all 77 counties with same-day service available."
-        serviceArea={["Oklahoma", "Statewide"]}
-      />
-      
+
       <BreadcrumbSchema items={breadcrumbItems} />
 
       <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
@@ -371,3 +358,4 @@ export default function ServiceAreasHub() {
     </>
   );
 }
+
