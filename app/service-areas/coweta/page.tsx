@@ -100,34 +100,19 @@ export default function CowetaProcessServer() {
     <div className="flex flex-col min-h-screen">
       <Navbar />
       <main className="pt-14 flex-grow">
-        <BreadcrumbSchema items={breadcrumbItems} />
-      <LocalBusinessSchema 
-        name="Just Legal Solutions - Coweta"
-        address={{
-          streetAddress: "Professional Process Server",
-          addressLocality: "Coweta",
-          addressRegion: "Oklahoma",
-          postalCode: "74429"
-        }}
-        phone="(539) 367-6832"
-        email="service@justlegalsolutions.org"
-        url="https://justlegalsolutions.org/service-areas/coweta"
-        services={[
-          "Process Serving",
-          "Legal Document Delivery", 
-          "Court Filing Services",
-          "Skip Tracing",
-          "Rural Property Service",
-          "Emergency Rush Service",
-          "GPS Tracked Delivery",
-          "24/7 Emergency Service"
-        ]}
-      />
-      <ServiceSchema 
-        serviceName="Process Server Services"
-        serviceDescription="Professional process serving in Coweta, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service"
-        serviceArea="Coweta, Oklahoma"
-      />
+        <UnifiedSchema 
+          pageType="service"
+          title="Just Legal Solutions - Coweta"
+          description="Professional process serving in Coweta, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service"
+          url="https://justlegalsolutions.org/service-areas/coweta"
+          breadcrumbs={breadcrumbItems}
+          location={{
+            name: "Coweta",
+            state: "Oklahoma",
+            zipCode: "74429"
+          }}
+          services={["Process Serving", "Legal Document Delivery", "Court Filing Services", "Skip Tracing", "Rural Property Service", "Emergency Rush Service", "GPS Tracked Delivery", "24/7 Emergency Service"]}
+        />
         {/* FAQ Structured Data */}
         <script
           type="application/ld+json"

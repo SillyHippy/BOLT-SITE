@@ -100,7 +100,19 @@ export default function ClaremoreProcessServer() {
     <div className="flex flex-col min-h-screen">
       <Navbar />
       <main className="pt-14 flex-grow">
-        <BreadcrumbSchema items={breadcrumbItems} />
+        <UnifiedSchema 
+          pageType="service"
+          title="Just Legal Solutions - Claremore"
+          description="Professional process serving in Claremore, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service"
+          url="https://justlegalsolutions.org/service-areas/claremore"
+          breadcrumbs={breadcrumbItems}
+          location={{
+            name: "Claremore",
+            state: "Oklahoma",
+            zipCode: "74017"
+          }}
+          services={["Process Serving", "Legal Document Delivery", "Court Filing Services", "Skip Tracing", "Rural Property Service", "Emergency Rush Service", "GPS Tracked Delivery", "24/7 Emergency Service"]}
+        />
         <LocalBusinessSchema 
           name="Just Legal Solutions - Claremore"
           address={{

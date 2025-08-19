@@ -100,7 +100,19 @@ export default function WagonerProcessServer() {
     <div className="flex flex-col min-h-screen">
       <Navbar />
       <main className="pt-14 flex-grow">
-        <BreadcrumbSchema items={breadcrumbItems} />
+        <UnifiedSchema 
+          pageType="service"
+          title="Just Legal Solutions - Wagoner"
+          description="Professional process serving in Wagoner, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service"
+          url="https://justlegalsolutions.org/service-areas/wagoner"
+          breadcrumbs={breadcrumbItems}
+          location={{
+            name: "Wagoner",
+            state: "Oklahoma",
+            zipCode: "74467"
+          }}
+          services={["Process Serving", "Legal Document Delivery", "Court Filing Services", "Skip Tracing", "Emergency Rush Service", "GPS Tracked Delivery", "24/7 Emergency Service"]}
+        />
       <LocalBusinessSchema 
         name="Just Legal Solutions - Wagoner"
         address={{

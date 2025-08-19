@@ -1,11 +1,8 @@
 import type { Metadata } from 'next';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
-
 import Image from 'next/image';
-import BusinessSchema from '@/components/BusinessSchema';
 import UnifiedSchema from '@/components/seo/UnifiedSchema';
-import FAQSchema from '@/components/FAQSchema';
 
 // SEO Metadata optimized for the comprehensive Tulsa County page
 export const metadata: Metadata = {
@@ -221,38 +218,18 @@ export default function TulsaProcessServerComprehensive() {
           </div>
         </main>
       </div>
-      <BusinessSchema />
       <UnifiedSchema
         pageType="service"
-        pageTitle="Tulsa Process Server Comprehensive | Complete Legal Document Service"
-        pageDescription="Comprehensive process server services throughout Tulsa, Oklahoma providing complete legal document service solutions."
-        pageUrl="https://justlegalsolutions.org/seo/tulsa-process-server-comprehensive"
-        siteName="Just Legal Solutions"
-        organizationName="Just Legal Solutions"
-        organizationUrl="https://justlegalsolutions.org"
-        serviceType="Process Server"
-        serviceName="Tulsa Process Server Comprehensive"
-        serviceDescription="Comprehensive process server services throughout Tulsa, Oklahoma providing complete legal document service solutions."
-        serviceArea="Tulsa, Oklahoma"
-        areaServed={[
-          {
-            type: "City",
-            name: "Tulsa",
-            state: "Oklahoma"
-          }
-        ]}
-        priceRange="$60-$150"
-        telephone="+1-405-923-0139"
-        address={{
-          streetAddress: "Local Service",
-          addressLocality: "Tulsa",
-          addressRegion: "Oklahoma",
-          postalCode: "74101",
-          addressCountry: "US"
+        title="Tulsa Process Server Comprehensive | Complete Legal Document Service"
+        description="Comprehensive process server services throughout Tulsa, Oklahoma providing complete legal document service solutions."
+        url="https://justlegalsolutions.org/seo/tulsa-process-server-comprehensive"
+        location={{
+          name: "Tulsa",
+          state: "Oklahoma",
+          zipCode: "74101"
         }}
-        reviewCount={142}
+        services={["Process Serving", "Legal Document Delivery", "Court Paper Service", "Subpoena Service", "Legal Notice Delivery"]}
       />
-      <FAQSchema />
     </>
   );
 }

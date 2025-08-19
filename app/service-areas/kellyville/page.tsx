@@ -99,7 +99,19 @@ const kellyvilleFAQs = [
 export default function KellyvilleProcessServer() {
   return (
     <>
-      <BreadcrumbSchema items={breadcrumbItems} />
+      <UnifiedSchema 
+        pageType="service"
+        title="Just Legal Solutions - Kellyville"
+        description="Professional process serving in Kellyville, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service"
+        url="https://justlegalsolutions.org/service-areas/kellyville"
+        breadcrumbs={breadcrumbItems}
+        location={{
+          name: "Kellyville",
+          state: "Oklahoma",
+          zipCode: "74039"
+        }}
+        services={["Process Serving", "Legal Document Delivery", "Court Filing Services", "Skip Tracing", "Emergency Rush Service", "GPS Tracked Delivery", "24/7 Emergency Service"]}
+      />
       <LocalBusinessSchema 
         name="Just Legal Solutions - Kellyville"
         address={{

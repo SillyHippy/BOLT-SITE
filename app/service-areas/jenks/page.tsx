@@ -100,7 +100,19 @@ export default function JenksProcessServer() {
     <div className="flex flex-col min-h-screen">
       <Navbar />
       <main className="pt-14 flex-grow">
-        <BreadcrumbSchema items={breadcrumbItems} />
+        <UnifiedSchema 
+          pageType="service"
+          title="Just Legal Solutions - Jenks"
+          description="Professional process serving in Jenks, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service"
+          url="https://justlegalsolutions.org/service-areas/jenks"
+          breadcrumbs={breadcrumbItems}
+          location={{
+            name: "Jenks",
+            state: "Oklahoma",
+            zipCode: "74037"
+          }}
+          services={["Process Serving", "Legal Document Delivery", "Court Filing Services", "Skip Tracing", "Emergency Rush Service", "GPS Tracked Delivery", "24/7 Emergency Service"]}
+        />
         <LocalBusinessSchema 
           name="Just Legal Solutions - Jenks"
           address={{
