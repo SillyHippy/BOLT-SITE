@@ -78,51 +78,8 @@ export default function PricingPage() {
         }}
         priceRange="$30-$200"
         aggregateRating={{
-          ratingValue: 4.8,
+          ratingValue: 4.9,
           reviewCount: 142
-        }}
-      />
-              "telephone": "+1-918-551-2301"
-            },
-            "offers": [
-              {
-                "@type": "Offer",
-                "name": "Standard Process Serving",
-                "description": "First Service Attempt Within 5 Business Days",
-                "price": "60",
-                "priceCurrency": "USD",
-                "availability": "https://schema.org/InStock"
-              },
-              {
-                "@type": "Offer",
-                "name": "Rush Process Serving",
-                "description": "Service Within 72 Hours or Sooner",
-                "price": "100", 
-                "priceCurrency": "USD",
-                "availability": "https://schema.org/InStock"
-              },
-              {
-                "@type": "Offer",
-                "name": "Same-Day Rush Service",
-                "description": "Service Within 24 Hours or Sooner",
-                "price": "150",
-                "priceCurrency": "USD",
-                "availability": "https://schema.org/InStock"
-              },
-              {
-                "@type": "Offer",
-                "name": "Triple-Attempt Rush",
-                "description": "Guaranteed 3 service attempts within 72 hours",
-                "price": "200",
-                "priceCurrency": "USD",
-                "availability": "https://schema.org/InStock"
-              }
-            ],
-            "areaServed": {
-              "@type": "State",
-              "name": "Oklahoma"
-            }
-          })
         }}
       />
       

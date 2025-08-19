@@ -72,10 +72,8 @@ export default function CourierServicesTulsaPage() {
             'rush legal courier tulsa',
             'tulsa county legal courier',
             'serve papers tulsa',
-            'subpoena delivery tulsa county'
-          ]
-        })
-      }} />
+        ]}
+      />
         {/* Service Coverage Narrative Section */}
         <section className="bg-white py-10 border-b narrative">
           <div className="container mx-auto px-4 max-w-3xl">

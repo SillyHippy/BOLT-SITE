@@ -55,31 +55,6 @@ export default function AboutPage() {
           reviewCount: 142
         }}
       />
-              url: 'https://justlegalsolutions.org/about'
-            },
-            publisher: {
-              '@type': 'Organization',
-              name: 'Just Legal Solutions',
-              logo: {
-                '@type': 'ImageObject',
-                url: 'https://justlegalsolutions.org/images/jls-logo.webp'
-              }
-            },
-            datePublished: '2023-04-01',
-            dateModified: '2025-08-11',
-            image: [
-              'https://justlegalsolutions.org/images/Headshot.jpg',
-              'https://justlegalsolutions.org/images/OklahomaFlag.jpg',
-              'https://justlegalsolutions.org/images/Tulsa_11.jpg',
-              'https://justlegalsolutions.org/images/Tulsa_skyline_aerial,_April_2023.jpg'
-            ],
-            mainEntityOfPage: {
-              '@type': 'WebPage',
-              '@id': 'https://justlegalsolutions.org/about'
-            }
-          })
-        }}
-      />
       
       <main className="min-h-screen bg-white">
         {/* Hero Section with Profile Layout */}
