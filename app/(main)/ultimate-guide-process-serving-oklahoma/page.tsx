@@ -208,7 +208,28 @@ export default function UltimateGuidePage() {
 
       </div>
     </div>
-    <ReviewSchema />
+    <UnifiedSchema 
+      pageType="article" 
+      pageName="Ultimate Guide to Process Serving in Oklahoma"
+      headline="Ultimate Guide to Process Serving in Oklahoma | Laws, Procedures & Best Practices"
+      description="2025 guide to Oklahoma process serving—laws, procedures, and expert tips for legal document delivery, affidavits, and compliance. Trusted resource for attorneys and individuals."
+      keywords={[
+        'oklahoma process serving guide',
+        'oklahoma process server laws', 
+        'legal document delivery oklahoma',
+        'oklahoma civil procedure',
+        'process serving requirements oklahoma',
+        'affidavit of service oklahoma',
+        'oklahoma legal statutes process serving',
+        'how to serve legal papers oklahoma',
+        'oklahoma court document delivery',
+        'process server regulations oklahoma',
+        'legal service procedures oklahoma',
+        'oklahoma summons service guide'
+      ]}
+      reviewCount={142}
+      articleSection="Legal Education"
+    />
     </>
   );
 }

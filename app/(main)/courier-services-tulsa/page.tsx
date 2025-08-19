@@ -69,6 +69,8 @@ export default function CourierServicesTulsaPage() {
           '/html/body//section[contains(@class, "narrative")]//a'
         ]}
       />
+      
+      <main className="min-h-screen pt-12 bg-white">
         {/* Service Coverage Narrative Section */}
         <section className="bg-white py-10 border-b narrative">
           <div className="container mx-auto px-4 max-w-3xl">
@@ -84,7 +86,7 @@ export default function CourierServicesTulsaPage() {
             </p>
           </div>
         </section>
-      <main className="min-h-screen pt-12 bg-white">
+        
         {/* Hero Section with Local Image */}
         <section className="bg-blue-900 text-white pb-12">
           <div className="container mx-auto px-4 pt-16 text-center">
@@ -198,7 +200,7 @@ export default function CourierServicesTulsaPage() {
           </ul>
         </section>
       </main>
-      <ReviewSchema />
+      
     </>
   );
 }
