@@ -6,7 +6,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
 import { Terminal, Book, Users, Briefcase, Award, Scale, Map, Video, User } from 'lucide-react';
 import MinimalSocialProof from '@/components/MinimalSocialProof';
-import ReviewSchema from '@/components/ReviewSchema';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
   title: 'Ultimate Guide to Process Serving in Oklahoma | Laws, Procedures & Best Practices',
