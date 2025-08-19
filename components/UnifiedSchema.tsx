@@ -256,7 +256,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     headline
   } = props;
   // Base Organization schema that will be included in all pages
-  const organizationSchema = {
+  const organizationSchema: any = {
     '@type': 'Organization',
     '@id': 'https://justlegalsolutions.org/#organization',
     name: organization.name,
