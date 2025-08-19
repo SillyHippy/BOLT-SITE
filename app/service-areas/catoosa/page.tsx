@@ -98,36 +98,19 @@ export default function CatoosaProcessServer() {
     <div className="flex flex-col min-h-screen">
       <Navbar />
       <main className="pt-14 flex-grow">
-        {/* Schema components temporarily disabled for deployment
-        <BreadcrumbSchema items={breadcrumbItems} />
-        <LocalBusinessSchema 
-          name="Just Legal Solutions - Catoosa"
-          address={{
-            streetAddress: "Professional Process Server",
-            addressLocality: "Catoosa",
-            addressRegion: "Oklahoma",
-            postalCode: "74015"
-          }}
-          phone="(539) 367-6832"
-          email="service@justlegalsolutions.org"
+        <UnifiedSchema 
+          pageType="service"
+          title="Just Legal Solutions - Catoosa"
+          description="Professional process serving in Catoosa, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service"
           url="https://justlegalsolutions.org/service-areas/catoosa"
-          services={[
-            "Process Serving",
-            "Legal Document Delivery", 
-            "Court Filing Services",
-            "Skip Tracing",
-            "Rural Property Service",
-            "Emergency Rush Service",
-            "GPS Tracked Delivery",
-            "24/7 Emergency Service"
-          ]}
+          breadcrumbs={breadcrumbItems}
+          location={{
+            name: "Catoosa",
+            state: "Oklahoma",
+            zipCode: "74015"
+          }}
+          services={["Process Serving", "Legal Document Delivery", "Court Filing Services", "Skip Tracing", "Rural Property Service", "Emergency Rush Service", "GPS Tracked Delivery", "24/7 Emergency Service"]}
         />
-        <ServiceSchema 
-          serviceName="Process Server Services"
-          serviceDescription="Professional process serving in Catoosa, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service"
-          serviceArea="Catoosa, Oklahoma"
-        />
-        */}
 
         {/* FAQ Structured Data */}
         <script
