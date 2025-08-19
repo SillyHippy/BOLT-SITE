@@ -38,17 +38,13 @@ interface UnifiedSchemaProps {
   }>;
   breadcrumbs?: Array<{
     name: string;
-    item: string;
+    item?: string;
+    url?: string;
   }>;
   reviewCount?: number;
   image?: string | string[];
   datePublished?: string;
   dateModified?: string;
-  breadcrumbs?: Array<{
-    name: string;
-    item?: string;
-    url?: string;
-  }>;
   faqItems?: Array<{
     question: string;
     answer: string;
@@ -225,7 +221,8 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     reviews,
     openingHours,
     hasOfferCatalog,
-    speakable
+    speakable,
+    services
   } = props;
   // Base Organization schema that will be included in all pages
   const organizationSchema = {
