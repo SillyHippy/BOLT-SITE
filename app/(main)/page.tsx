@@ -7,8 +7,10 @@ import React from 'react';
 import Image from 'next/image';
 import { Mail, Phone, MapPin, Truck, FileText, Building2, Clock } from "lucide-react";
 import { Metadata } from 'next';
-import UnifiedBusinessSchema from '../../components/unified-business-schema';
+import BusinessSchema from '../../components/BusinessSchema';
 import FAQSchema from '../../components/FAQSchema';
+import ServiceSchema from '../../components/ServiceSchema';
+import ReviewAggregateSchema from '../../components/ReviewAggregateSchema';
 import SocialProof from '@/components/SocialProof';
 import OwnerBio from '@/components/ui/owner-bio';
 import ReviewWidget from '@/components/ui/review-widget';
@@ -381,12 +383,10 @@ export default function Home() {
       <ReviewWidget />
       
       {/* SEO Schema Markup for Maximum Rankings */}
-      <UnifiedBusinessSchema 
-        pageType="homepage"
-        includeReviews={true}
-        includeFAQ={false}
-      />
+      <BusinessSchema />
       <FAQSchema />
+      <ServiceSchema />
+      <ReviewAggregateSchema />
       
       {/* Enhanced LocalBusiness and LegalService Schema for Rich Results */}
       <script

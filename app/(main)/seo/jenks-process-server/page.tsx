@@ -33,8 +33,8 @@ export const metadata: Metadata = {
   }
 };
 
-import UnifiedBusinessSchema from '@/components/unified-business-schema';
-
+import BusinessSchema from '@/components/BusinessSchema';
+import ServiceSchema from '@/components/ServiceSchema';
 import FAQSchema from '@/components/FAQSchema';
 import ReviewSchema from '@/components/ReviewSchema';
 
@@ -225,5 +225,4 @@ export default function JenksProcessServer() {
     </>
   );
 }
-
 

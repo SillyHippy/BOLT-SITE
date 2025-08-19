@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, CheckCircle, Star, Calendar, FileText, Scale, AlertCircle } from 'lucide-react';
-
+import LocalBusinessSchema from '@/components/ui/local-business-schema';
 import ServiceSchema from '@/components/ui/service-schema';
 import BreadcrumbSchema from '@/components/ui/breadcrumb-schema';
 import GoogleMapsEmbed from '@/components/ui/google-maps-embed';
@@ -100,7 +100,26 @@ export default function BartlesvilleProcessServer() {
       <Navbar />
       <main className="pt-14 flex-grow">
         <BreadcrumbSchema items={breadcrumbItems} />
-        
+        <LocalBusinessSchema 
+          name="Just Legal Solutions - Bartlesville"
+          address={{
+            streetAddress: "Professional Process Server",
+            addressLocality: "Bartlesville",
+          addressRegion: "Oklahoma",
+          postalCode: "74003"
+        }}
+        phone="(539) 367-6832"
+        email="service@justlegalsolutions.org"
+        url="https://justlegalsolutions.org/service-areas/bartlesville"
+        services={[
+          "Process Serving",
+          "Legal Document Delivery", 
+          "Court Filing Services",
+          "Skip Tracing",
+          "Oil & Gas Industry Documents",
+          "Corporate Process Serving"
+        ]}
+      />
       <ServiceSchema 
         serviceName="Process Server Services"
         serviceDescription="Professional process serving in Bartlesville, Oklahoma"
@@ -456,4 +475,3 @@ export default function BartlesvilleProcessServer() {
     </div>
   );
 }
-

@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, CheckCircle, Star, Calendar, FileText, Scale, AlertCircle } from 'lucide-react';
-
+import LocalBusinessSchema from '@/components/ui/local-business-schema';
 import ServiceSchema from '@/components/ui/service-schema';
 import BreadcrumbSchema from '@/components/ui/breadcrumb-schema';
 import EnhancedFAQPageSchema from '@/components/ui/enhanced-faq-page-schema';
@@ -135,7 +135,20 @@ export default function TulsaCountyProcessServer() {
         pageTitle="Tulsa County Process Server FAQs"
         pageUrl="https://justlegalsolutions.org/counties/tulsa-county" 
       />
-
+      
+      <LocalBusinessSchema
+        name="Just Legal Solutions - Tulsa County Process Server"
+        address={{
+          streetAddress: "County-wide Service",
+          addressLocality: "Tulsa County",
+          addressRegion: "Oklahoma",
+          postalCode: "74101"
+        }}
+        phone="(539) 367-6832"
+        description="Professional process server throughout Tulsa County, Oklahoma providing legal document service in all cities including Tulsa, Broken Arrow, Owasso, Bixby, Jenks, Sand Springs, Glenpool, and Collinsville."
+        serviceArea={["Tulsa County", "Oklahoma"]}
+      />
+      
       <ServiceSchema
         serviceName="Process Server Tulsa County"
         serviceDescription="Professional legal document service throughout Tulsa County, Oklahoma including all cities, towns, and unincorporated areas with same-day service available."
@@ -585,4 +598,3 @@ export default function TulsaCountyProcessServer() {
     </>
   );
 }
-

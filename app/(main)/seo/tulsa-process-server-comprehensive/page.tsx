@@ -3,8 +3,8 @@ import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 
 import Image from 'next/image';
-import UnifiedBusinessSchema from '@/components/unified-business-schema';
-
+import BusinessSchema from '@/components/BusinessSchema';
+import ServiceSchema from '@/components/ServiceSchema';
 import FAQSchema from '@/components/FAQSchema';
 
 // SEO Metadata optimized for the comprehensive Tulsa County page
@@ -221,11 +221,10 @@ export default function TulsaProcessServerComprehensive() {
           </div>
         </main>
       </div>
-      <UnifiedBusinessSchema />
-      
+      <BusinessSchema />
+      <ServiceSchema />
       <FAQSchema />
     </>
   );
 }
-
 

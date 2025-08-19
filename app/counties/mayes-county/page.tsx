@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, CheckCircle, Star, Calendar, FileText, Scale, AlertCircle } from 'lucide-react';
-
+import LocalBusinessSchema from '@/components/ui/local-business-schema';
 import ServiceSchema from '@/components/ui/service-schema';
 import BreadcrumbSchema from '@/components/ui/breadcrumb-schema';
 import EnhancedFAQPageSchema from '@/components/ui/enhanced-faq-page-schema';
@@ -116,7 +116,19 @@ export default function MayesCountyProcessServer() {
       />
       <EnhancedOrganizationSchema />
       <Navbar />
-
+      <LocalBusinessSchema
+        name="Just Legal Solutions - Mayes County Process Server"
+        address={{
+          streetAddress: "County-wide Service",
+          addressLocality: "Pryor",
+          addressRegion: "Oklahoma",
+          postalCode: "74000"
+        }}
+        phone="(539) 367-6832"
+        description="Professional process server throughout Mayes County, Oklahoma providing legal document service in all cities including Pryor."
+        serviceArea={["Mayes County", "Oklahoma"]}
+      />
+      
       <ServiceSchema
         serviceName="Process Server Mayes County"
         serviceDescription="Professional legal document service throughout Mayes County, Oklahoma including all cities, towns, and unincorporated areas with same-day service available."

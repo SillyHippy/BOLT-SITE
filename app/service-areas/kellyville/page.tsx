@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, CheckCircle, Star, Calendar, FileText, Scale, AlertCircle } from 'lucide-react';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
-
+import LocalBusinessSchema from '@/components/ui/local-business-schema';
 import ServiceSchema from '@/components/ui/service-schema';
 
 import BreadcrumbSchema from '@/components/ui/breadcrumb-schema';
@@ -99,7 +99,28 @@ export default function KellyvilleProcessServer() {
   return (
     <>
       <BreadcrumbSchema items={breadcrumbItems} />
-      
+      <LocalBusinessSchema 
+        name="Just Legal Solutions - Kellyville"
+        address={{
+          streetAddress: "Professional Process Server",
+          addressLocality: "Kellyville",
+          addressRegion: "Oklahoma",
+          postalCode: "74039"
+        }}
+        phone="(539) 367-6832"
+        email="service@justlegalsolutions.org"
+        url="https://justlegalsolutions.org/service-areas/kellyville"
+        services={[
+          "Process Serving",
+          "Legal Document Delivery", 
+          "Court Filing Services",
+          "Skip Tracing",
+          "Corporate Service",
+          "Emergency Rush Service",
+          "GPS Tracked Delivery",
+          "24/7 Emergency Service"
+        ]}
+      />
       <ServiceSchema 
         serviceName="Process Server Services"
         serviceDescription="Professional process serving in Kellyville, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service"
@@ -389,4 +410,3 @@ export default function KellyvilleProcessServer() {
     </>
   );
 }
-

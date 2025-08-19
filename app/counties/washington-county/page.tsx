@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, CheckCircle, Star, Calendar, FileText, Scale, AlertCircle } from 'lucide-react';
-
+import LocalBusinessSchema from '@/components/ui/local-business-schema';
 import ServiceSchema from '@/components/ui/service-schema';
 import BreadcrumbSchema from '@/components/ui/breadcrumb-schema';
 import EnhancedFAQPageSchema from '@/components/ui/enhanced-faq-page-schema';
@@ -116,7 +116,20 @@ export default function WashingtonCountyProcessServer() {
       />
       <EnhancedOrganizationSchema />
       <Navbar />
-
+      
+      <LocalBusinessSchema
+        name="Just Legal Solutions - Washington County Process Server"
+        address={{
+          streetAddress: "County-wide Service",
+          addressLocality: "Bartlesville",
+          addressRegion: "Oklahoma",
+          postalCode: "74000"
+        }}
+        phone="(539) 367-6832"
+        description="Professional process server throughout Washington County, Oklahoma providing legal document service in all cities including Bartlesville."
+        serviceArea={["Washington County", "Oklahoma"]}
+      />
+      
       <ServiceSchema
         serviceName="Process Server Washington County"
         serviceDescription="Professional legal document service throughout Washington County, Oklahoma including all cities, towns, and unincorporated areas with same-day service available."

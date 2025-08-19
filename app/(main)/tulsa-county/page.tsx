@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
-import UnifiedBusinessSchema from '@/components/unified-business-schema';
-
+import BusinessSchema from '@/components/BusinessSchema';
+import ServiceSchema from '@/components/ServiceSchema';
 import FAQSchema from '@/components/FAQSchema';
 import ReviewSchema from '@/components/ReviewSchema';
 
@@ -278,11 +278,10 @@ export default function TulsaCountyPage() {
           </div>
         </section>
       </div>
-      <UnifiedBusinessSchema />
-      
+      <BusinessSchema />
+      <ServiceSchema />
       <FAQSchema />
       <ReviewSchema />
     </>
   );
 }
-
