@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, CheckCircle, Star, Calendar, FileText, Scale, AlertCircle } from 'lucide-react';
-import UnifiedSchema from '@/components/ui/unified-schema';
+import UnifiedSchema from '@/components/seo/UnifiedSchema';
 import GoogleMapsEmbed from '@/components/ui/google-maps-embed';
 import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
