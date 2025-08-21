@@ -117,7 +117,7 @@ export function Navbar() {
           } md:hidden`}
         >
           <div className="flex justify-between items-center p-4 border-b">
-            <h2 className="text-xl font-semibold">Menu</h2>
+            <div className="text-xl font-semibold">Menu</div>
             <button
               onClick={toggleMobileMenu}
               className="p-2 hover:bg-gray-100 rounded-full"
