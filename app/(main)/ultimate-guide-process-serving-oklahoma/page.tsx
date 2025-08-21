@@ -90,7 +90,7 @@ const pageFaqs = [
   },
   {
     "question": "How much does it cost to hire a process server?",
-    "answer": "Pricing varies based on location, type of service, and attempts required. For a detailed breakdown, please see our centralized <a href=&apos;/pricing&apos;>Pricing Page</a>."
+    "answer": "Pricing varies based on location, type of service, and attempts required. For a detailed breakdown, please see our centralized <a href=\"/pricing\">Pricing Page</a>."
   }
 ];
 
