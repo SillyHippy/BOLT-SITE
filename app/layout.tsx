@@ -2,6 +2,7 @@ import './globals.css';
 import type { Metadata, Viewport } from 'next';
 import { Inter } from 'next/font/google';
 import Script from 'next/script';
+import React from 'react';
 import { PerformanceOptimizer } from '@/components/ui/performance-optimizer';
 import { CriticalCSS } from '@/components/ui/critical-css-inline';
 import { MobileOptimizer } from '@/components/ui/mobile-optimizer';
@@ -121,12 +122,8 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
         <meta name="cache-version" content="2025-06-29-v9-final-seo-optimization" />
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-984ZD882EX"
-          strategy="lazyOnload"
-          defer
-        />
-        <Script id="google-analytics" strategy="lazyOnload">
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-984ZD882EX"></script>
+        <Script id="google-analytics" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
@@ -140,6 +137,15 @@ export default function RootLayout({
             });
           `}
         </Script>
+        {/* Simple Analytics - 100% privacy-first analytics */}
+        <script data-collect-dnt="true" async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+        <noscript>
+          <img 
+            src="https://queue.simpleanalyticscdn.com/noscript.gif?collect-dnt=true" 
+            alt="" 
+            referrerPolicy="no-referrer-when-downgrade"
+          />
+        </noscript>
         <meta name="ai-search-optimized" content="true" />
         <meta name="conversational-queries" content="process server starting $30 near me, how to serve legal papers in Tulsa, find a process server starting $30 in Tulsa Oklahoma, same day process serving Tulsa, legal document delivery Tulsa, court papers served Tulsa County, process server starting $30 cost Tulsa, emergency process serving Oklahoma" />
         <meta name="ai-context" content="Professional process serving in Tulsa, Oklahoma" />
