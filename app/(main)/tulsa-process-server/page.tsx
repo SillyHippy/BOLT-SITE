@@ -217,9 +217,9 @@ export default function TulsaProcessServerPage() {
       fileName: "tulsa-county-courthouse-process-server.jpeg"
     },
     {
-        src: "https://raw.githubusercontent.com/SillyHippy/BOLT-SITE/main/public/images/tulsa-process-server.webp",
+        src: "https://raw.githubusercontent.com/SillyHippy/BOLT-SITE/main/public/images/tulsa-process-server.jpg",
         alt: "Process server in Tulsa reviewing legal documents before service.",
-        fileName: "tulsa-process-server-reviewing-documents.webp"
+        fileName: "tulsa-process-server-reviewing-documents.jpg"
     },
     {
         src: "https://raw.githubusercontent.com/SillyHippy/BOLT-SITE/main/public/images/tulsa-county-process-server.png",
@@ -280,13 +280,13 @@ export default function TulsaProcessServerPage() {
           <Card className="border-l-4 border-l-blue-500">
             <CardContent className="p-6">
               <h3 className="font-bold text-lg mb-3 text-blue-800">Summons and Complaints</h3>
-              <p className="text-gray-700">The critical first step in any lawsuit, served promptly to establish jurisdiction. Learn more about <Link href="/civil-litigation-process-serving" className="text-blue-600 hover:text-blue-800 underline">civil litigation process serving</Link>.</p>
+              <p className="text-gray-700">The critical first step in any lawsuit, served promptly to establish jurisdiction with professional civil litigation process serving.</p>
             </CardContent>
           </Card>
           <Card className="border-l-4 border-l-green-500">
             <CardContent className="p-6">
               <h3 className="font-bold text-lg mb-3 text-green-800">Subpoenas</h3>
-              <p className="text-gray-700">Legally compelling witnesses to testify or produce evidence, delivered with proof of service. Expert <Link href="/subpoena-service-tulsa" className="text-green-600 hover:text-green-800 underline">subpoena service in Tulsa</Link>.</p>
+              <p className="text-gray-700">Legally compelling witnesses to testify or produce evidence, delivered with proof of service. Expert subpoena service throughout Tulsa.</p>
             </CardContent>
           </Card>
           <Card className="border-l-4 border-l-purple-500">
@@ -304,13 +304,13 @@ export default function TulsaProcessServerPage() {
           <Card className="border-l-4 border-l-yellow-500">
             <CardContent className="p-6">
               <h3 className="font-bold text-lg mb-3 text-yellow-800">Garnishments and Writs</h3>
-              <p className="text-gray-700">Executing court orders for asset seizure and wage garnishment. Professional <Link href="/garnishment-service-oklahoma" className="text-yellow-600 hover:text-yellow-800 underline">garnishment service throughout Oklahoma</Link>.</p>
+              <p className="text-gray-700">Executing court orders for asset seizure and wage garnishment with professional service throughout Oklahoma.</p>
             </CardContent>
           </Card>
           <Card className="border-l-4 border-l-indigo-500">
             <CardContent className="p-6">
               <h3 className="font-bold text-lg mb-3 text-indigo-800">Skip Tracing</h3>
-              <p className="text-gray-700"><Link href="/ai-skip-tracing-guide-oklahoma-2025" className="text-indigo-600 hover:underline">Professional location services</Link> for hard-to-find individuals using advanced <Link href="/skip-tracing-services" className="text-indigo-600 hover:underline">skip tracing technology</Link>.</p>
+              <p className="text-gray-700"><Link href="/ai-skip-tracing-guide-oklahoma-2025" className="text-indigo-600 hover:underline">Professional location services</Link> for hard-to-find individuals using advanced skip tracing technology.</p>
             </CardContent>
           </Card>
         </div>

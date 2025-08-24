@@ -124,7 +124,7 @@ export default function AboutPage() {
 
             <div className="relative w-full h-64 my-8 rounded-lg overflow-hidden">
               <Image
-                src="/images/tulsa-process-server.webp"
+                src="/images/tulsa-process-server.jpg"
                 alt="Tulsa County Courthouse where legal documents are filed"
                 fill
                 className="object-cover"

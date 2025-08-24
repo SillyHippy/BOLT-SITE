@@ -543,15 +543,15 @@ export default function TulsaCountyProcessServer() {
                     <div className="grid grid-cols-1 gap-2">
                       <span className="inline-flex items-center gap-2 text-blue-800 font-medium">
                         <MapPin className="w-4 h-4" />
-                        <Link href="/service-areas/downtown-tulsa" className="hover:text-blue-600">BOK Tower & Wells Fargo Buildings</Link>
+                        <span>BOK Tower & Wells Fargo Buildings</span>
                       </span>
                       <span className="inline-flex items-center gap-2 text-blue-800 font-medium">
                         <MapPin className="w-4 h-4" />
-                        <Link href="/service-areas/brady-arts-district" className="hover:text-blue-600">Brady Arts District</Link>
+                        <span>Brady Arts District</span>
                       </span>
                       <span className="inline-flex items-center gap-2 text-blue-800 font-medium">
                         <MapPin className="w-4 h-4" />
-                        <Link href="/service-areas/blue-dome-district" className="hover:text-blue-600">Blue Dome Entertainment</Link>
+                        <span>Blue Dome Entertainment</span>
                       </span>
                     </div>
                   </div>
@@ -561,15 +561,15 @@ export default function TulsaCountyProcessServer() {
                     <div className="grid grid-cols-1 gap-2">
                       <span className="inline-flex items-center gap-2 text-green-800 font-medium">
                         <MapPin className="w-4 h-4" />
-                        <Link href="/service-areas/brookside" className="hover:text-green-600">Brookside Shopping District</Link>
+                        <span>Brookside Shopping District</span>
                       </span>
                       <span className="inline-flex items-center gap-2 text-green-800 font-medium">
                         <MapPin className="w-4 h-4" />
-                        <Link href="/service-areas/cherry-street" className="hover:text-green-600">Cherry Street Historic</Link>
+                        <span>Cherry Street Historic</span>
                       </span>
                       <span className="inline-flex items-center gap-2 text-green-800 font-medium">
                         <MapPin className="w-4 h-4" />
-                        <Link href="/service-areas/utica-square" className="hover:text-green-600">Utica Square Luxury</Link>
+                        <span>Utica Square Luxury</span>
                       </span>
                     </div>
                   </div>
