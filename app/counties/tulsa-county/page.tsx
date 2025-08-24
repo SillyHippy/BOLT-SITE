@@ -6,6 +6,13 @@ import UnifiedSchema from '@/components/UnifiedSchema';
 import GoogleMapsEmbed from '@/components/ui/google-maps-embed';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
 
 export const metadata: Metadata = {
   title: 'Tulsa County Legal Document Service | Metropolitan Process Serving | Just Legal Solutions',
@@ -366,9 +373,10 @@ export default function TulsaCountyProcessServer() {
             {/* Scrolling Image Gallery for SEO */}
             <div className="mb-16">
               <h3 className="text-3xl font-bold text-center text-gray-800 mb-8">Tulsa County Service Areas Gallery</h3>
-              <div className="relative overflow-hidden rounded-2xl shadow-2xl">
-                <div className="flex space-x-6 py-4 px-6">
-                    <div className="flex-shrink-0 w-80 h-60 relative group">
+              <Carousel className="w-full max-w-6xl mx-auto">
+                <CarouselContent className="-ml-6">
+                  <CarouselItem className="pl-6 md:basis-1/2 lg:basis-1/3">
+                    <div className="w-full h-60 relative group">
                       <Image 
                         src="/images/tulsa-county-courthouse.jpeg" 
                         alt="Tulsa County Courthouse downtown Tulsa legal district process serving hub for court document delivery and legal services"
@@ -379,8 +387,10 @@ export default function TulsaCountyProcessServer() {
                         <p className="text-white font-bold text-lg">Tulsa County Courthouse District</p>
                       </div>
                     </div>
-                    
-                    <div className="flex-shrink-0 w-80 h-60 relative group">
+                  </CarouselItem>
+                  
+                  <CarouselItem className="pl-6 md:basis-1/2 lg:basis-1/3">
+                    <div className="w-full h-60 relative group">
                       <Image 
                         src="/images/tulsa-courier-downtown.jpeg" 
                         alt="Downtown Tulsa business district skyscrapers and financial center where professional process servers deliver legal documents to corporate offices"
@@ -391,8 +401,10 @@ export default function TulsaCountyProcessServer() {
                         <p className="text-white font-bold text-lg">Downtown Business District</p>
                       </div>
                     </div>
-                    
-                    <div className="flex-shrink-0 w-80 h-60 relative group">
+                  </CarouselItem>
+                  
+                  <CarouselItem className="pl-6 md:basis-1/2 lg:basis-1/3">
+                    <div className="w-full h-60 relative group">
                       <Image 
                         src="/images/Tulsa_skyline_aerial,_April_2023.jpg" 
                         alt="Aerial view Tulsa skyline showing comprehensive coverage area for process serving across all Tulsa neighborhoods and districts"
@@ -403,8 +415,10 @@ export default function TulsaCountyProcessServer() {
                         <p className="text-white font-bold text-lg">Complete Tulsa Coverage</p>
                       </div>
                     </div>
-                    
-                    <div className="flex-shrink-0 w-80 h-60 relative group">
+                  </CarouselItem>
+                  
+                  <CarouselItem className="pl-6 md:basis-1/2 lg:basis-1/3">
+                    <div className="w-full h-60 relative group">
                       <Image 
                         src="/images/tulsa-process-server-delivering-documents.png" 
                         alt="Professional process server delivering legal documents in Tulsa residential neighborhood ensuring proper service of process throughout Tulsa County"
@@ -415,8 +429,10 @@ export default function TulsaCountyProcessServer() {
                         <p className="text-white font-bold text-lg">Residential Service Excellence</p>
                       </div>
                     </div>
-                    
-                    <div className="flex-shrink-0 w-80 h-60 relative group">
+                  </CarouselItem>
+                  
+                  <CarouselItem className="pl-6 md:basis-1/2 lg:basis-1/3">
+                    <div className="w-full h-60 relative group">
                       <Image 
                         src="/images/Tulsa_11.jpg" 
                         alt="Tulsa County suburban neighborhoods and residential areas served by professional process servers for legal document delivery and court papers"
@@ -427,8 +443,10 @@ export default function TulsaCountyProcessServer() {
                         <p className="text-white font-bold text-lg">Suburban Communities</p>
                       </div>
                     </div>
-                    
-                    <div className="flex-shrink-0 w-80 h-60 relative group">
+                  </CarouselItem>
+                  
+                  <CarouselItem className="pl-6 md:basis-1/2 lg:basis-1/3">
+                    <div className="w-full h-60 relative group">
                       <Image 
                         src="/images/Tulsa business district building.png" 
                         alt="Tulsa business district commercial buildings and office complexes where corporate process serving and legal document delivery services are provided"
@@ -439,10 +457,11 @@ export default function TulsaCountyProcessServer() {
                         <p className="text-white font-bold text-lg">Commercial & Office Districts</p>
                       </div>
                     </div>
-                </div>
-                <div className="absolute inset-y-0 left-0 w-20 bg-gradient-to-r from-white to-transparent z-10"></div>
-                <div className="absolute inset-y-0 right-0 w-20 bg-gradient-to-l from-white to-transparent z-10"></div>
-              </div>
+                  </CarouselItem>
+                </CarouselContent>
+                <CarouselPrevious className="left-4" />
+                <CarouselNext className="right-4" />
+              </Carousel>
             </div>
 
             {/* Professional Badges Section for SEO */}
