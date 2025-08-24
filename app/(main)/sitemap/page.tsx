@@ -50,7 +50,6 @@ const SitemapPage = () => {
     // Main Pages
     { url: '/', label: 'Home' },
     { url: '/contact', label: 'Contact Us' },
-    { url: '/faq', label: 'FAQ (redirects to Ultimate Guide)' },
     { url: '/pricing', label: 'Pricing' },
     { url: '/resources', label: 'Resources' },
     { url: '/payments', label: 'Payments' },
@@ -67,9 +66,8 @@ const SitemapPage = () => {
     // Guide & Resources
     { url: '/ultimate-guide-process-serving-oklahoma', label: 'Ultimate Guide to Process Serving Oklahoma' },
     
-    // Service Areas (All 20 with Google Maps)
+    // Service Areas
     { url: '/service-areas', label: 'Service Areas Overview' },
-    { url: '/tulsa-process-server', label: 'Tulsa Process Server' },
     { url: '/service-areas/broken-arrow', label: 'Broken Arrow Process Server' },
     { url: '/service-areas/owasso', label: 'Owasso Process Server' },
     { url: '/service-areas/bixby', label: 'Bixby Process Server' },
@@ -98,18 +96,12 @@ const SitemapPage = () => {
     { url: '/counties/osage-county', label: 'Osage County Services' },
     { url: '/counties/mayes-county', label: 'Mayes County Services' },
     
-    // SEO Pages
-    { url: '/service-areas/bixby', label: 'Bixby Process Server' },
-    { url: '/service-areas/broken-arrow', label: 'Broken Arrow Process Server' },
+    // SEO Pages (only ones not redirecting)
     { url: '/seo/eviction-notice-process-server', label: 'Eviction Notice Process Server' },
     { url: '/seo/glenpool-process-server', label: 'Glenpool Process Server SEO' },
-    { url: '/service-areas/jenks', label: 'Jenks Process Server' },
     { url: '/seo/legal-posting-process-server', label: 'Legal Notice Posting Service' },
     { url: '/seo/owasso-process-server', label: 'Owasso Process Server SEO' },
-    { url: '/service-areas/glenpool', label: 'Glenpool Process Server' },
-    { url: '/service-areas/broken-arrow', label: 'Broken Arrow Process Server' },
     { url: '/seo/sand-springs-process-server', label: 'Sand Springs Process Server SEO' },
-    { url: '/tulsa-process-server', label: 'Comprehensive Tulsa Process Server' },
     { url: '/seo/what-is-a-process-server', label: 'What is a Process Server?' },
     
     // Tools & Analytics
@@ -126,6 +118,7 @@ const SitemapPage = () => {
     // Card & Scheduling
     { url: '/card', label: 'Business Card' },
     { url: '/card/calendar', label: 'Calendar Scheduling' },
+    
     // --- 2025 Feature/Guide Pages ---
     { url: '/oklahoma-process-server-best-practices-checklist-2025', label: 'Process Server Best Practices Checklist 2025' },
     { url: '/oklahoma-legal-service-areas-2025', label: 'Oklahoma Legal Service Areas 2025' },
@@ -139,7 +132,6 @@ const SitemapPage = () => {
     { url: '/process-serving-mistakes-guide-2025', label: 'Process Serving Mistakes Guide 2025' },
     { url: '/high-profile-service-protocols-tulsa-2025', label: 'High-Profile Service Protocols Tulsa 2025' },
     { url: '/family-law-service-guide-tulsa-2025', label: 'Family Law Service Guide Tulsa 2025' },
-    { url: '/ultimate-guide-process-serving-oklahoma', label: 'Ultimate Guide Process Serving Oklahoma' },
   ];
 
   return (
@@ -157,7 +149,7 @@ const SitemapPage = () => {
         {/* Service Areas Section */}
         <section className="mb-12">
           <h2 className="text-2xl font-semibold mb-6 text-blue-800 border-b-2 border-blue-200 pb-2">
-            Service Areas (20 Cities with Google Maps)
+            Service Areas
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {sitemapLinks
