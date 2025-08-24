@@ -22,7 +22,7 @@ export default function BingYahooOptimization({
     "url": "https://justlegalsolutions.org",
     "sameAs": [
       "https://justlegalsolutions.org/services",
-      "https://justlegalsolutions.org/process-server-tulsa",
+      "https://justlegalsolutions.org/tulsa-process-server",
       "https://justlegalsolutions.org/tulsa-process-server"
     ],
     "contactPoint": {

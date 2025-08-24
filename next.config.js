@@ -45,6 +45,9 @@ const nextConfig = {
   env: {
     NEXT_PUBLIC_STATIC_EXPORT: 'true',
   },
+  // Note: Redirects removed because they don't work with static export (output: 'export')
+  // Old duplicate pages are deleted, so redirects aren't needed for SEO consolidation
+  // Canonical pages now at: /tulsa-process-server and /service-areas/[city]
 };
 
 module.exports = nextConfig;

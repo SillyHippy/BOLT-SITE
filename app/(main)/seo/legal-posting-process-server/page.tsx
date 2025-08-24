@@ -41,7 +41,7 @@ const jsonLd = {
 };
 
 const postingData = {
-    intro: `When a person cannot be served personally, Oklahoma law provides an alternative method: service by posting. This is a critical legal step that, if done incorrectly, can jeopardize an entire case. We specialize in the correct execution of legal notice posting for evictions, property notices, and other court actions throughout Tulsa County. For broader legal support, our team is part of the <a href="/tulsa-county" className="text-blue-700 underline">Tulsa County Process Server</a> network, ensuring full coverage and compliance.`,
+    intro: `When a person cannot be served personally, Oklahoma law provides an alternative method: service by posting. This is a critical legal step that, if done incorrectly, can jeopardize an entire case. We specialize in the correct execution of legal notice posting for evictions, property notices, and other court actions throughout Tulsa County. For broader legal support, our team is part of the <a href="/counties/tulsa-county" className="text-blue-700 underline">Tulsa County Process Server</a> network, ensuring full coverage and compliance.`,
     process: {
         title: 'The Legal Requirements for Posting in Oklahoma',
         steps: [
@@ -159,7 +159,7 @@ export default function LegalPostingProcessServer() {
               <h3 className="text-2xl font-bold text-indigo-800 mb-6">Related Services & Internal Links</h3>
               <ul className="list-disc list-inside text-indigo-700">
                 <li><a href="/seo/eviction-notice-process-server" className="underline">Eviction Notice Service</a></li>
-                <li><a href="/seo/broken-arrow-process-server" className="underline">Broken Arrow Process Server</a></li>
+                <li><a href="/service-areas/broken-arrow" className="underline">Broken Arrow Process Server</a></li>
                 <li><a href="/seo/glenpool-process-server" className="underline">Glenpool Process Server</a></li>
                 <li><a href="/seo/owasso-process-server" className="underline">Owasso Process Server</a></li>
               </ul>

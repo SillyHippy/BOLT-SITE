@@ -284,7 +284,7 @@ function createVoiceSearchSitemap() {
       voiceAnswer: 'Just Legal Solutions professional process server'
     },
     {
-      url: 'https://justlegalsolutions.org/process-server-tulsa/',
+      url: 'https://justlegalsolutions.org/tulsa-process-server/',
       voiceQuery: 'process serving services tulsa',
       voiceAnswer: 'Licensed process serving throughout Tulsa County'
     },

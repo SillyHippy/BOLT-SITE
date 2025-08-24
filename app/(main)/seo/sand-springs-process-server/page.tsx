@@ -132,7 +132,7 @@ export default function SandSpringsProcessServerPage() {
             <section className="mb-12">
               <h2 className="text-3xl font-bold text-gray-800 mb-6">Local Expertise in Sand Springs</h2>
               <p className="text-lg text-gray-700 mb-4">
-                Sand Springs is a unique blend of historic neighborhoods and new developments along the Arkansas River. If you need a process server in Sand Springs or nearby <a href="/seo/broken-arrow-process-server" className="text-blue-700 underline">Broken Arrow</a> or <a href="/seo/owasso-process-server" className="text-blue-700 underline">Owasso</a>, our team is ready to help.
+                Sand Springs is a unique blend of historic neighborhoods and new developments along the Arkansas River. If you need a process server in Sand Springs or nearby <a href="/service-areas/broken-arrow" className="text-blue-700 underline">Broken Arrow</a> or <a href="/seo/owasso-process-server" className="text-blue-700 underline">Owasso</a>, our team is ready to help.
               </p>
             </section>
             <section className="bg-white p-8 rounded-lg shadow-md mb-12">
@@ -191,7 +191,7 @@ export default function SandSpringsProcessServerPage() {
             <section className="bg-white p-8 rounded-lg shadow-md mb-12">
               <h3 className="text-2xl font-bold text-blue-800 mb-6">Related Cities & Internal Links</h3>
               <ul className="list-disc list-inside text-blue-700">
-                <li><a href="/seo/broken-arrow-process-server" className="underline">Broken Arrow Process Server</a></li>
+                <li><a href="/service-areas/broken-arrow" className="underline">Broken Arrow Process Server</a></li>
                 <li><a href="/seo/owasso-process-server" className="underline">Owasso Process Server</a></li>
                 <li><a href="/seo/glenpool-process-server" className="underline">Glenpool Process Server</a></li>
                 <li><a href="/seo/legal-posting-process-server" className="underline">Legal Posting Service</a></li>

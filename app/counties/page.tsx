@@ -99,7 +99,7 @@ const counties = [
 ];
 
 const majorCities = [
-  { name: "Tulsa", county: "Tulsa", population: "413,066", link: "/service-areas/tulsa" },
+  { name: "Tulsa", county: "Tulsa", population: "413,066", link: "/tulsa-process-server" },
   { name: "Broken Arrow", county: "Tulsa", population: "113,540", link: "/service-areas/broken-arrow" },
   { name: "Bartlesville", county: "Washington", population: "36,495", link: "/service-areas/bartlesville" },
   { name: "Owasso", county: "Tulsa", population: "36,926", link: "/service-areas/owasso" },

@@ -11,9 +11,9 @@ async function optimizeInternalLinks() {
   
   // 2. Get a list of all your pages and their keywords.
   // You might need to build a map of {url: [keyword1, keyword2]}
-  // This is a placeholder.
+  // This is a placeholder. Old Tulsa pages consolidated into /tulsa-process-server
   const pageKeywordMap = {
-    '/seo/tulsa-process-server-comprehensive': ['Tulsa process server', 'legal documents'],
+    '/tulsa-process-server': ['Tulsa process server', 'legal documents', 'process serving tulsa'],
     '/blog/2025-07-23-legal-document-delivery-in-owasso-oklahoma': ['Owasso', 'document delivery']
   };
 
@@ -31,7 +31,7 @@ async function optimizeInternalLinks() {
     
     // Example: if content has the text "Tulsa process server", link it.
     // if (content.includes('Tulsa process server')) {
-    //   content = content.replace('Tulsa process server', '[Tulsa process server](/seo/tulsa-process-server-comprehensive)');
+    //   content = content.replace('Tulsa process server', '[Tulsa process server](/tulsa-process-server)');
     //   updated = true;
     // }
 

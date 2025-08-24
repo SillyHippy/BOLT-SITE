@@ -26,7 +26,7 @@ export function RelatedServices({
     
     if (currentLocation && currentLocation !== 'tulsa') {
       links.push({
-        href: '/process-server-tulsa',
+        href: '/tulsa-process-server',
         title: `Process Server Tulsa`,
         description: 'Main Tulsa County process serving services'
       });

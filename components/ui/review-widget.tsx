@@ -227,7 +227,7 @@ export default function ReviewWidget() {
           {/* Review Summary Stats */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
             <div className="bg-white rounded-lg p-4 text-center shadow-md">
-              <div className="text-2xl font-bold text-green-600 mb-1">127+</div>
+              <div className="text-2xl font-bold text-green-600 mb-1">131+</div>
               <div className="text-sm text-gray-600">Total Reviews</div>
             </div>
             <div className="bg-white rounded-lg p-4 text-center shadow-md">

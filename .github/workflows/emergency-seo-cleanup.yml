@@ -31,8 +31,6 @@ jobs:
           
           # Keep these essential pages (manually selected for quality)
           essential_pages=(
-            "tulsa-process-server-comprehensive"
-            "process-server-tulsa"
             "same-day-process-serving-tulsa"
             "process-serving-faq"
             "what-is-a-process-server"

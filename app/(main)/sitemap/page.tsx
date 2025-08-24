@@ -59,9 +59,7 @@ const SitemapPage = () => {
     { url: '/why-choose-us', label: 'Why Choose Us' },
     
     // Process Server Pages
-    { url: '/tulsa-county', label: 'Tulsa County Process Server' },
     { url: '/tulsa-process-server', label: 'Tulsa Process Server' },
-    { url: '/process-server-tulsa', label: 'Process Server Tulsa' },
     { url: '/urgent-process-server', label: 'Urgent Process Server' },
     { url: '/weekend-emergency', label: 'Weekend Emergency Service' },
     { url: '/courier-services-tulsa', label: 'Courier Services Tulsa' },
@@ -71,7 +69,7 @@ const SitemapPage = () => {
     
     // Service Areas (All 20 with Google Maps)
     { url: '/service-areas', label: 'Service Areas Overview' },
-    { url: '/service-areas/tulsa', label: 'Tulsa Process Server' },
+    { url: '/tulsa-process-server', label: 'Tulsa Process Server' },
     { url: '/service-areas/broken-arrow', label: 'Broken Arrow Process Server' },
     { url: '/service-areas/owasso', label: 'Owasso Process Server' },
     { url: '/service-areas/bixby', label: 'Bixby Process Server' },
@@ -101,17 +99,17 @@ const SitemapPage = () => {
     { url: '/counties/mayes-county', label: 'Mayes County Services' },
     
     // SEO Pages
-    { url: '/seo/bixby-process-server', label: 'Bixby Process Server SEO' },
-    { url: '/seo/broken-arrow-process-server', label: 'Broken Arrow Process Server SEO' },
+    { url: '/service-areas/bixby', label: 'Bixby Process Server' },
+    { url: '/service-areas/broken-arrow', label: 'Broken Arrow Process Server' },
     { url: '/seo/eviction-notice-process-server', label: 'Eviction Notice Process Server' },
     { url: '/seo/glenpool-process-server', label: 'Glenpool Process Server SEO' },
-    { url: '/seo/jenks-process-server', label: 'Jenks Process Server SEO' },
+    { url: '/service-areas/jenks', label: 'Jenks Process Server' },
     { url: '/seo/legal-posting-process-server', label: 'Legal Notice Posting Service' },
     { url: '/seo/owasso-process-server', label: 'Owasso Process Server SEO' },
-    { url: '/seo/process-server-bixby', label: 'Process Server Bixby SEO' },
-    { url: '/seo/process-server-broken-arrow', label: 'Process Server Broken Arrow SEO' },
+    { url: '/service-areas/glenpool', label: 'Glenpool Process Server' },
+    { url: '/service-areas/broken-arrow', label: 'Broken Arrow Process Server' },
     { url: '/seo/sand-springs-process-server', label: 'Sand Springs Process Server SEO' },
-    { url: '/seo/tulsa-process-server-comprehensive', label: 'Comprehensive Tulsa Process Server' },
+    { url: '/tulsa-process-server', label: 'Comprehensive Tulsa Process Server' },
     { url: '/seo/what-is-a-process-server', label: 'What is a Process Server?' },
     
     // Tools & Analytics

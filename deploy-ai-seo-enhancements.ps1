@@ -20,7 +20,7 @@ $highValuePages = @(
     "divorce-papers-tulsa\page.tsx", 
     "court-document-filing\page.tsx",
     "what-is-a-process-server\page.tsx",
-    "process-server-tulsa\page.tsx",
+    "tulsa-process-server\page.tsx",
     "same-day-process-serving-tulsa\page.tsx",
     "subpoena-service\page.tsx",
     "eviction-process-serving\page.tsx",

@@ -14,10 +14,10 @@ export default function ReviewAggregateSchema() {
         "url": "https://justlegalsolutions.org"
       },
       "ratingValue": "4.9",
-      "ratingCount": "127",
-      "reviewCount": "142",
+      "ratingCount": "131",
+      "reviewCount": "146",
       "bestRating": "5",
-      "worstRating": "4",
+      "worstRating": "1",
       "description": "Reviews collected from Google Business Profile, Yelp, Facebook Business Page, phone consultations, and direct client testimonials"
     },
     "reviewAspect": [

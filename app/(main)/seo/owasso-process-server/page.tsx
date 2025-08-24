@@ -14,7 +14,7 @@ const speakableSchema = {
 };
 
 const owassoData = {
-    history: `Owasso's history began as a settlement in Indian Territory in 1881, growing significantly with the arrival of the railroad. Now a major suburb of Tulsa, Owasso is one of the fastest-growing cities in Oklahoma, known for its strong community and economic development. Its location spanning both Tulsa and Rogers counties presents unique jurisdictional challenges that require an experienced process server. As part of Tulsa County, our Owasso team collaborates with the <a href="/tulsa-county" className="text-blue-700 underline">Tulsa County Process Server</a> network to ensure seamless legal support across the region.`,
+    history: `Owasso's history began as a settlement in Indian Territory in 1881, growing significantly with the arrival of the railroad. Now a major suburb of Tulsa, Owasso is one of the fastest-growing cities in Oklahoma, known for its strong community and economic development. Its location spanning both Tulsa and Rogers counties presents unique jurisdictional challenges that require an experienced process server. As part of Tulsa County, our Owasso team collaborates with the <a href="/counties/tulsa-county" className="text-blue-700 underline">Tulsa County Process Server</a> network to ensure seamless legal support across the region.`,
     courthouse: {
         name: 'Owasso Municipal Court',
         address: '111 N Main St, Owasso, OK 74055',
@@ -131,7 +131,7 @@ export default function OwassoProcessServer() {
           <div className="max-w-4xl mx-auto">
             <section className="mb-12">
               <h2 className="text-3xl font-bold text-gray-800 mb-6">Local Expertise in Owasso</h2>
-              <p className="text-lg text-gray-700 mb-4" dangerouslySetInnerHTML={{ __html: owassoData.history + ' We also serve neighboring communities, so if you need a process server in <a href="/seo/broken-arrow-process-server" class="text-blue-700 underline">Broken Arrow</a> or <a href="/seo/glenpool-process-server" class="text-blue-700 underline">Glenpool</a>, our team is ready to help.' }} />
+              <p className="text-lg text-gray-700 mb-4" dangerouslySetInnerHTML={{ __html: owassoData.history + ' We also serve neighboring communities, so if you need a process server in <a href="/service-areas/broken-arrow" class="text-blue-700 underline">Broken Arrow</a> or <a href="/seo/glenpool-process-server" class="text-blue-700 underline">Glenpool</a>, our team is ready to help.' }} />
             </section>
             <section className="bg-white p-8 rounded-lg shadow-md mb-12">
               <h3 className="text-2xl font-bold text-blue-800 mb-6">Owasso Courthouse & Local Service Areas</h3>
@@ -194,7 +194,7 @@ export default function OwassoProcessServer() {
             <section className="bg-white p-8 rounded-lg shadow-md mb-12">
               <h3 className="text-2xl font-bold text-blue-800 mb-6">Related Cities & Internal Links</h3>
               <ul className="list-disc list-inside text-blue-700">
-                <li><a href="/seo/broken-arrow-process-server" className="underline">Broken Arrow Process Server</a></li>
+                <li><a href="/service-areas/broken-arrow" className="underline">Broken Arrow Process Server</a></li>
                 <li><a href="/seo/glenpool-process-server" className="underline">Glenpool Process Server</a></li>
                 <li><a href="/seo/sand-springs-process-server" className="underline">Sand Springs Process Server</a></li>
                 <li><a href="/seo/legal-posting-process-server" className="underline">Legal Posting Service</a></li>

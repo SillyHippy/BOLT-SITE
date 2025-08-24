@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, CheckCircle, Star, Calendar, FileText, Scale, AlertCircle } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import GoogleMapsEmbed from '@/components/ui/google-maps-embed';
@@ -66,6 +67,26 @@ const tulsaCountyFAQs = [
   {
     question: "Do you provide skip tracing services in Tulsa County?",
     answer: "Yes, we provide professional skip tracing services throughout Tulsa County to locate hard-to-find defendants, witnesses, and parties using advanced databases and local knowledge."
+  },
+  {
+    question: "Can you deliver to homes, businesses, or gated communities in Tulsa County?",
+    answer: "Yes. We routinely serve papers in residential neighborhoods, office parks, schools, medical facilities, and secure gated communities throughout Tulsa County with professional protocols for each location type."
+  },
+  {
+    question: "How fast can you serve in smaller towns like Sperry or Glenpool?",
+    answer: "Service is typically attempted within 24-48 hours in all Tulsa County towns, including smaller communities like Sperry, Collinsville, and unincorporated areas. Expedited same-day options are available for urgent situations."
+  },
+  {
+    question: "What if the recipient lives in a part of a city that crosses county lines?",
+    answer: "We verify jurisdiction and ensure the court receives correct, county-compliant affidavit of service, even if a city crosses into another county (such as Broken Arrow, Bixby, or Sand Springs which span multiple counties)."
+  },
+  {
+    question: "Do you serve legal documents after hours or on weekends in Tulsa County?",
+    answer: "Yes, we offer after-hours and weekend service for urgent legal deliveries throughout Tulsa County. Contact us for availability and rush options in all cities and unincorporated areas."
+  },
+  {
+    question: "What happens if the person to be served is not at home?",
+    answer: "We use legal skip tracing and make diligent attempts at varying times throughout Tulsa County to ensure the highest chance of successful service, and keep you informed throughout the process with detailed progress reports."
   }
 ];
 
@@ -74,7 +95,7 @@ const tulsaCountyCities = [
     name: "Tulsa",
     population: "413,066",
     description: "County seat and Oklahoma's second-largest city, Oil Capital of the World",
-    link: "/service-areas/tulsa"
+    link: "/tulsa-process-server"
   },
   {
     name: "Broken Arrow",
@@ -188,6 +209,62 @@ export default function TulsaCountyProcessServer() {
           </div>
         </section>
 
+        {/* Comprehensive Service Guarantee */}
+        <section className="py-16 bg-gradient-to-r from-green-50 to-blue-50 border-b border-green-200">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">
+                <Shield className="w-8 h-8 text-green-600 inline-block mr-2" />
+                Comprehensive Service Guarantee
+              </h2>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                Professional excellence backed by technology and proven results across Tulsa County
+              </p>
+            </div>
+            
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="bg-white p-8 rounded-xl shadow-lg border border-green-200">
+                <div className="text-center">
+                  <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <Award className="w-8 h-8 text-green-600" />
+                  </div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">99.7% Success Rate</h3>
+                  <p className="text-green-600 font-semibold mb-4">County-Wide Excellence</p>
+                  <p className="text-gray-700">
+                    Proven track record across all Tulsa County communities, from downtown Tulsa to rural areas
+                  </p>
+                </div>
+              </div>
+              
+              <div className="bg-white p-8 rounded-xl shadow-lg border border-blue-200">
+                <div className="text-center">
+                  <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <MapPin className="w-8 h-8 text-blue-600" />
+                  </div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">GPS-Tracked Attempts</h3>
+                  <p className="text-blue-600 font-semibold mb-4">Timestamped Photos</p>
+                  <p className="text-gray-700">
+                    Complete documentation with GPS coordinates and timestamped photographic evidence
+                  </p>
+                </div>
+              </div>
+              
+              <div className="bg-white p-8 rounded-xl shadow-lg border border-yellow-200">
+                <div className="text-center">
+                  <div className="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <Clock className="w-8 h-8 text-yellow-600" />
+                  </div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Same-Day Affidavits</h3>
+                  <p className="text-yellow-600 font-semibold mb-4">Court-Admissible</p>
+                  <p className="text-gray-700">
+                    Professional affidavits delivered same day for immediate court filing requirements
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Tulsa County Overview Section */}
         <section className="py-16 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -204,10 +281,10 @@ export default function TulsaCountyProcessServer() {
                     <strong>Area:</strong> 587 square miles
                   </p>
                   <p>
-                    Tulsa County stands as Oklahoma&apos;s most populous and economically significant county, serving as the heart of the state&apos;s energy industry and second-largest metropolitan area. From the Oil Capital of the World in Tulsa to the fastest-growing suburbs like Broken Arrow and Owasso, our county encompasses diverse communities with sophisticated legal needs.
+                    Tulsa County stands as Oklahoma&apos;s most populous and economically significant county, serving as the heart of the state&apos;s energy industry and second-largest metropolitan area. From the Oil Capital of the World in <Link href="/tulsa-process-server" className="text-blue-600 hover:text-blue-800 underline">Tulsa</Link> to the fastest-growing suburbs like <Link href="/service-areas/broken-arrow" className="text-blue-600 hover:text-blue-800 underline">Broken Arrow</Link> and <Link href="/service-areas/owasso" className="text-blue-600 hover:text-blue-800 underline">Owasso</Link>, our county encompasses diverse communities with sophisticated legal needs.
                   </p>
                   <p>
-                    Our process serving team provides comprehensive coverage throughout all of Tulsa County&apos;s incorporated cities and unincorporated areas. We understand the unique characteristics of each community, from urban Tulsa&apos;s complex business district to the suburban neighborhoods of Bixby and Jenks, ensuring professional service regardless of location.
+                    Our process serving team provides comprehensive coverage throughout all of Tulsa County&apos;s incorporated cities and unincorporated areas. We understand the unique characteristics of each community, from urban Tulsa&apos;s complex business district to the suburban neighborhoods of <Link href="/service-areas/bixby" className="text-blue-600 hover:text-blue-800 underline">Bixby</Link> and <Link href="/service-areas/jenks" className="text-blue-600 hover:text-blue-800 underline">Jenks</Link>, ensuring professional service regardless of location. Learn more about our <Link href="/oklahoma-process-server-technology-2025" className="text-blue-600 hover:text-blue-800 underline">advanced GPS tracking technology</Link> and <Link href="/oklahoma-process-server-pricing-2025" className="text-blue-600 hover:text-blue-800 underline">transparent pricing structure</Link>.
                   </p>
                 </div>
               </div>
@@ -253,7 +330,7 @@ export default function TulsaCountyProcessServer() {
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
                 Professional process serving throughout all of Tulsa County including urban, suburban, and rural areas. 
-                Click on the map to explore our complete service coverage.
+                Click on the map to explore our complete service coverage. For detailed information about our <Link href="/process-server-tulsa-guide" className="text-blue-600 hover:text-blue-800 underline">comprehensive service areas</Link> and <Link href="/oklahoma-legal-service-areas-2025" className="text-blue-600 hover:text-blue-800 underline">Oklahoma legal service zones</Link>.
               </p>
             </div>
             <div className="max-w-4xl mx-auto">
@@ -271,26 +348,325 @@ export default function TulsaCountyProcessServer() {
           </div>
         </section>
 
-        {/* Cities in Tulsa County */}
-        <section className="py-16 bg-gray-50">
+        {/* Extensive Coverage & Neighborhood Listings - Professional Redesign */}
+        <section className="py-20 bg-gradient-to-br from-blue-50 via-white to-gray-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-              Cities & Towns We Serve in Tulsa County
-            </h2>
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-              {tulsaCountyCities.map((city, index) => (
-                <div key={index} className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-                  <h3 className="text-xl font-bold text-blue-900 mb-2">{city.name}</h3>
-                  <p className="text-sm text-gray-600 mb-2">Population: {city.population}</p>
-                  <p className="text-gray-700 text-sm mb-4">{city.description}</p>
-                  <Link 
-                    href={city.link}
-                    className="text-blue-600 hover:text-blue-800 font-medium text-sm"
-                  >
-                    Learn More →
+            {/* Header Section */}
+            <div className="text-center mb-16">
+              <h2 className="text-5xl font-bold text-gray-900 mb-6">
+                <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                  Extensive Coverage & Neighborhood Listings
+                </span>
+              </h2>
+              <p className="text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+                Professional process serving throughout every district, neighborhood, and community in Tulsa County&apos;s 587 square miles
+              </p>
+            </div>
+
+            {/* Scrolling Image Gallery for SEO */}
+            <div className="mb-16">
+              <h3 className="text-3xl font-bold text-center text-gray-800 mb-8">Tulsa County Service Areas Gallery</h3>
+              <div className="relative overflow-hidden rounded-2xl shadow-2xl">
+                <div className="flex space-x-6 py-4 px-6">
+                    <div className="flex-shrink-0 w-80 h-60 relative group">
+                      <Image 
+                        src="/images/tulsa-county-courthouse.jpeg" 
+                        alt="Tulsa County Courthouse downtown Tulsa legal district process serving hub for court document delivery and legal services"
+                        fill
+                        className="object-cover rounded-xl shadow-lg group-hover:scale-105 transition-transform duration-300"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent rounded-xl flex items-end p-4">
+                        <p className="text-white font-bold text-lg">Tulsa County Courthouse District</p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex-shrink-0 w-80 h-60 relative group">
+                      <Image 
+                        src="/images/tulsa-courier-downtown.jpeg" 
+                        alt="Downtown Tulsa business district skyscrapers and financial center where professional process servers deliver legal documents to corporate offices"
+                        fill
+                        className="object-cover rounded-xl shadow-lg group-hover:scale-105 transition-transform duration-300"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent rounded-xl flex items-end p-4">
+                        <p className="text-white font-bold text-lg">Downtown Business District</p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex-shrink-0 w-80 h-60 relative group">
+                      <Image 
+                        src="/images/Tulsa_skyline_aerial,_April_2023.jpg" 
+                        alt="Aerial view Tulsa skyline showing comprehensive coverage area for process serving across all Tulsa neighborhoods and districts"
+                        fill
+                        className="object-cover rounded-xl shadow-lg group-hover:scale-105 transition-transform duration-300"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent rounded-xl flex items-end p-4">
+                        <p className="text-white font-bold text-lg">Complete Tulsa Coverage</p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex-shrink-0 w-80 h-60 relative group">
+                      <Image 
+                        src="/images/tulsa-process-server-delivering-documents.png" 
+                        alt="Professional process server delivering legal documents in Tulsa residential neighborhood ensuring proper service of process throughout Tulsa County"
+                        fill
+                        className="object-cover rounded-xl shadow-lg group-hover:scale-105 transition-transform duration-300"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent rounded-xl flex items-end p-4">
+                        <p className="text-white font-bold text-lg">Residential Service Excellence</p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex-shrink-0 w-80 h-60 relative group">
+                      <Image 
+                        src="/images/Tulsa_11.jpg" 
+                        alt="Tulsa County suburban neighborhoods and residential areas served by professional process servers for legal document delivery and court papers"
+                        fill
+                        className="object-cover rounded-xl shadow-lg group-hover:scale-105 transition-transform duration-300"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent rounded-xl flex items-end p-4">
+                        <p className="text-white font-bold text-lg">Suburban Communities</p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex-shrink-0 w-80 h-60 relative group">
+                      <Image 
+                        src="/images/Tulsa business district building.png" 
+                        alt="Tulsa business district commercial buildings and office complexes where corporate process serving and legal document delivery services are provided"
+                        fill
+                        className="object-cover rounded-xl shadow-lg group-hover:scale-105 transition-transform duration-300"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent rounded-xl flex items-end p-4">
+                        <p className="text-white font-bold text-lg">Commercial & Office Districts</p>
+                      </div>
+                    </div>
+                </div>
+                <div className="absolute inset-y-0 left-0 w-20 bg-gradient-to-r from-white to-transparent z-10"></div>
+                <div className="absolute inset-y-0 right-0 w-20 bg-gradient-to-l from-white to-transparent z-10"></div>
+              </div>
+            </div>
+
+            {/* Professional Badges Section for SEO */}
+            <div className="mb-16">
+              <h3 className="text-2xl font-bold text-center text-gray-800 mb-8">Trust & Quality Badges</h3>
+              <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
+                <div className="flex justify-center">
+                  <Image 
+                    src="/badges/licensed-bonded-badge.png" 
+                    alt="Oklahoma licensed and bonded process server certification badge ensuring legal compliance and professional service standards"
+                    width={120} 
+                    height={120}
+                    className="hover:scale-110 transition-transform duration-300"
+                  />
+                </div>
+                <div className="flex justify-center">
+                  <Image 
+                    src="/badges/fastest-process-server-oklahoma-badge.png" 
+                    alt="Fastest process server in Oklahoma badge guaranteeing same-day and rush legal document delivery services"
+                    width={120} 
+                    height={120}
+                    className="hover:scale-110 transition-transform duration-300"
+                  />
+                </div>
+                <div className="flex justify-center">
+                  <Image 
+                    src="/badges/99-9-percent-success-rate-badge.png" 
+                    alt="99.9% success rate badge demonstrating exceptional process serving performance and legal document delivery effectiveness"
+                    width={120} 
+                    height={120}
+                    className="hover:scale-110 transition-transform duration-300"
+                  />
+                </div>
+                <div className="flex justify-center">
+                  <Image 
+                    src="/badges/24-7-emergency-service-badge.png" 
+                    alt="24/7 emergency process serving service badge available for urgent legal document delivery throughout Tulsa County"
+                    width={120} 
+                    height={120}
+                    className="hover:scale-110 transition-transform duration-300"
+                  />
+                </div>
+                <div className="flex justify-center">
+                  <Image 
+                    src="/badges/Trusted-by-Tulsa-Law-Firms-Badge.png" 
+                    alt="Trusted by Tulsa law firms badge showing attorney and legal professional endorsements for reliable process serving"
+                    width={120} 
+                    height={120}
+                    className="hover:scale-110 transition-transform duration-300"
+                  />
+                </div>
+                <div className="flex justify-center">
+                  <Image 
+                    src="/badges/oklahoma-statewide-coverage-badge.png" 
+                    alt="Oklahoma statewide coverage badge indicating complete process serving availability across all 77 Oklahoma counties"
+                    width={120} 
+                    height={120}
+                    className="hover:scale-110 transition-transform duration-300"
+                  />
+                </div>
+              </div>
+            </div>
+
+            {/* Modern Coverage Grid */}
+            <div className="grid lg:grid-cols-3 gap-8 mb-16">
+              {/* Urban Districts */}
+              <div className="bg-white p-8 rounded-3xl shadow-xl border border-gray-100 hover:shadow-2xl transition-shadow duration-300">
+                <div className="text-center mb-8">
+                  <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-700 rounded-full flex items-center justify-center mx-auto mb-6">
+                    <Building2 className="w-10 h-10 text-white" />
+                  </div>
+                  <h3 className="text-3xl font-bold text-gray-900 mb-3">Urban Core Districts</h3>
+                  <p className="text-gray-600 text-lg">Downtown & metropolitan areas</p>
+                </div>
+                
+                <div className="space-y-6">
+                  <div className="p-6 bg-gradient-to-r from-blue-50 to-blue-100 rounded-2xl">
+                    <h4 className="font-bold text-gray-900 mb-4 text-xl">Downtown Financial District</h4>
+                    <div className="grid grid-cols-1 gap-2">
+                      <span className="inline-flex items-center gap-2 text-blue-800 font-medium">
+                        <MapPin className="w-4 h-4" />
+                        <Link href="/service-areas/downtown-tulsa" className="hover:text-blue-600">BOK Tower & Wells Fargo Buildings</Link>
+                      </span>
+                      <span className="inline-flex items-center gap-2 text-blue-800 font-medium">
+                        <MapPin className="w-4 h-4" />
+                        <Link href="/service-areas/brady-arts-district" className="hover:text-blue-600">Brady Arts District</Link>
+                      </span>
+                      <span className="inline-flex items-center gap-2 text-blue-800 font-medium">
+                        <MapPin className="w-4 h-4" />
+                        <Link href="/service-areas/blue-dome-district" className="hover:text-blue-600">Blue Dome Entertainment</Link>
+                      </span>
+                    </div>
+                  </div>
+                  
+                  <div className="p-6 bg-gradient-to-r from-green-50 to-green-100 rounded-2xl">
+                    <h4 className="font-bold text-gray-900 mb-4 text-xl">Midtown & Cultural Districts</h4>
+                    <div className="grid grid-cols-1 gap-2">
+                      <span className="inline-flex items-center gap-2 text-green-800 font-medium">
+                        <MapPin className="w-4 h-4" />
+                        <Link href="/service-areas/brookside" className="hover:text-green-600">Brookside Shopping District</Link>
+                      </span>
+                      <span className="inline-flex items-center gap-2 text-green-800 font-medium">
+                        <MapPin className="w-4 h-4" />
+                        <Link href="/service-areas/cherry-street" className="hover:text-green-600">Cherry Street Historic</Link>
+                      </span>
+                      <span className="inline-flex items-center gap-2 text-green-800 font-medium">
+                        <MapPin className="w-4 h-4" />
+                        <Link href="/service-areas/utica-square" className="hover:text-green-600">Utica Square Luxury</Link>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              {/* Suburban Cities */}
+              <div className="bg-white p-8 rounded-3xl shadow-xl border border-gray-100 hover:shadow-2xl transition-shadow duration-300">
+                <div className="text-center mb-8">
+                  <div className="w-20 h-20 bg-gradient-to-br from-green-500 to-green-700 rounded-full flex items-center justify-center mx-auto mb-6">
+                    <MapPin className="w-10 h-10 text-white" />
+                  </div>
+                  <h3 className="text-3xl font-bold text-gray-900 mb-3">Major Suburban Cities</h3>
+                  <p className="text-gray-600 text-lg">Growing family communities</p>
+                </div>
+                
+                <div className="space-y-4">
+                  {tulsaCountyCities.slice(0, 4).map((city, index) => (
+                    <div key={index} className="p-5 bg-gradient-to-r from-gray-50 to-gray-100 rounded-2xl hover:from-green-50 hover:to-green-100 transition-colors duration-300">
+                      <div className="flex justify-between items-start mb-2">
+                        <h4 className="font-bold text-gray-900 text-lg">{city.name}</h4>
+                        <span className="text-xs bg-green-200 text-green-800 px-3 py-1 rounded-full font-bold">{city.population}</span>
+                      </div>
+                      <p className="text-gray-600 mb-3 leading-relaxed">{city.description}</p>
+                      <Link 
+                        href={city.link}
+                        className="inline-flex items-center gap-2 text-green-600 hover:text-green-800 font-bold"
+                      >
+                        <MapPin className="w-4 h-4" />
+                        Detailed Service Info
+                      </Link>
+                    </div>
+                  ))}
+                </div>
+              </div>
+              
+              {/* Rural & Unincorporated */}
+              <div className="bg-white p-8 rounded-3xl shadow-xl border border-gray-100 hover:shadow-2xl transition-shadow duration-300">
+                <div className="text-center mb-8">
+                  <div className="w-20 h-20 bg-gradient-to-br from-orange-500 to-orange-700 rounded-full flex items-center justify-center mx-auto mb-6">
+                    <Users className="w-10 h-10 text-white" />
+                  </div>
+                  <h3 className="text-3xl font-bold text-gray-900 mb-3">Rural & Small Cities</h3>
+                  <p className="text-gray-600 text-lg">Complete county coverage</p>
+                </div>
+                
+                <div className="space-y-4">
+                  {tulsaCountyCities.slice(4).map((city, index) => (
+                    <div key={index} className="p-5 bg-gradient-to-r from-gray-50 to-gray-100 rounded-2xl hover:from-orange-50 hover:to-orange-100 transition-colors duration-300">
+                      <div className="flex justify-between items-start mb-2">
+                        <h4 className="font-bold text-gray-900 text-lg">{city.name}</h4>
+                        <span className="text-xs bg-orange-200 text-orange-800 px-3 py-1 rounded-full font-bold">{city.population}</span>
+                      </div>
+                      <p className="text-gray-600 mb-3 leading-relaxed">{city.description}</p>
+                      <Link 
+                        href={city.link}
+                        className="inline-flex items-center gap-2 text-orange-600 hover:text-orange-800 font-bold"
+                      >
+                        <MapPin className="w-4 h-4" />
+                        Service Details
+                      </Link>
+                    </div>
+                  ))}
+                  
+                  {/* Unincorporated Communities */}
+                  <div className="p-5 bg-gradient-to-r from-orange-100 to-orange-200 rounded-2xl border-2 border-dashed border-orange-300">
+                    <h4 className="font-bold text-gray-900 mb-4 text-lg">Unincorporated Communities</h4>
+                    <div className="grid grid-cols-2 gap-3">
+                      {['Skiatook', 'Sperry', 'Liberty', 'Lotsee', 'Fair Oaks', 'Turley'].map((community, idx) => (
+                        <div key={idx} className="text-center p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                          <span className="text-sm font-bold text-gray-900">{community}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            {/* Enhanced Coverage Statistics */}
+            <div className="bg-gradient-to-r from-gray-900 via-blue-900 to-gray-900 text-white p-12 rounded-3xl shadow-2xl">
+              <div className="grid md:grid-cols-4 gap-8 text-center">
+                <div className="group">
+                  <div className="text-5xl font-bold text-yellow-400 mb-3 group-hover:scale-110 transition-transform duration-300">587</div>
+                  <div className="text-gray-300 text-lg font-medium">Square Miles Covered</div>
+                  <div className="text-sm text-gray-400 mt-1">Complete Tulsa County</div>
+                </div>
+                <div className="group">
+                  <div className="text-5xl font-bold text-yellow-400 mb-3 group-hover:scale-110 transition-transform duration-300">8+</div>
+                  <div className="text-gray-300 text-lg font-medium">Incorporated Cities</div>
+                  <div className="text-sm text-gray-400 mt-1">Plus Unincorporated Areas</div>
+                </div>
+                <div className="group">
+                  <div className="text-5xl font-bold text-yellow-400 mb-3 group-hover:scale-110 transition-transform duration-300">669K+</div>
+                  <div className="text-gray-300 text-lg font-medium">Residents Served</div>
+                  <div className="text-sm text-gray-400 mt-1">Growing Daily</div>
+                </div>
+                <div className="group">
+                  <div className="text-5xl font-bold text-yellow-400 mb-3 group-hover:scale-110 transition-transform duration-300">24/7</div>
+                  <div className="text-gray-300 text-lg font-medium">Emergency Service</div>
+                  <div className="text-sm text-gray-400 mt-1">Always Available</div>
+                </div>
+              </div>
+              <div className="text-center mt-12">
+                <p className="text-2xl text-gray-200 font-medium leading-relaxed">
+                  From downtown Tulsa&apos;s corporate towers to rural county borders — complete professional coverage
+                </p>
+                <div className="mt-6 flex justify-center gap-4">
+                  <Link href="/contact" className="bg-yellow-500 hover:bg-yellow-400 text-black px-8 py-3 rounded-full font-bold transition-colors duration-300">
+                    Get Service Quote
+                  </Link>
+                  <Link href="/service-areas" className="border-2 border-white text-white hover:bg-white hover:text-gray-900 px-8 py-3 rounded-full font-bold transition-colors duration-300">
+                    View All Areas
                   </Link>
                 </div>
-              ))}
+              </div>
             </div>
           </div>
         </section>
@@ -354,6 +730,173 @@ export default function TulsaCountyProcessServer() {
           </div>
         </section>
 
+        {/* Service Areas & Internal Resources Hub */}
+        <section className="py-16 bg-gradient-to-br from-gray-50 to-blue-50">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">
+                Comprehensive Service Areas & Legal Resources
+              </h2>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                Complete process serving coverage throughout Tulsa County with professional legal resources and guides
+              </p>
+            </div>
+            
+            <div className="grid lg:grid-cols-4 gap-8">
+              {/* Major Cities */}
+              <div className="bg-white p-6 rounded-xl shadow-lg">
+                <h3 className="text-xl font-bold text-blue-900 mb-4 flex items-center">
+                  <Building2 className="w-5 h-5 mr-2" />
+                  Major Cities
+                </h3>
+                <div className="space-y-3">
+                  <Link href="/tulsa-process-server" className="block text-blue-600 hover:text-blue-800 font-medium">
+                    Tulsa Process Server
+                  </Link>
+                  <Link href="/service-areas/broken-arrow" className="block text-blue-600 hover:text-blue-800 font-medium">
+                    Broken Arrow Service
+                  </Link>
+                  <Link href="/service-areas/owasso" className="block text-blue-600 hover:text-blue-800 font-medium">
+                    Owasso Process Serving
+                  </Link>
+                  <Link href="/service-areas/bixby" className="block text-blue-600 hover:text-blue-800 font-medium">
+                    Bixby Legal Documents
+                  </Link>
+                  <Link href="/service-areas/jenks" className="block text-blue-600 hover:text-blue-800 font-medium">
+                    Jenks Court Papers
+                  </Link>
+                </div>
+              </div>
+              
+              {/* Additional Areas */}
+              <div className="bg-white p-6 rounded-xl shadow-lg">
+                <h3 className="text-xl font-bold text-blue-900 mb-4 flex items-center">
+                  <MapPin className="w-5 h-5 mr-2" />
+                  Additional Areas
+                </h3>
+                <div className="space-y-3">
+                  <Link href="/service-areas/sand-springs" className="block text-blue-600 hover:text-blue-800 font-medium">
+                    Sand Springs Service
+                  </Link>
+                  <Link href="/service-areas/glenpool" className="block text-blue-600 hover:text-blue-800 font-medium">
+                    Glenpool Process Server
+                  </Link>
+                  <Link href="/service-areas/collinsville" className="block text-blue-600 hover:text-blue-800 font-medium">
+                    Collinsville Legal Service
+                  </Link>
+                  <Link href="/service-areas/sapulpa" className="block text-blue-600 hover:text-blue-800 font-medium">
+                    Sapulpa Document Delivery
+                  </Link>
+                  <Link href="/oklahoma-legal-service-areas-2025" className="block text-blue-600 hover:text-blue-800 font-medium">
+                    All Oklahoma Areas
+                  </Link>
+                </div>
+              </div>
+              
+              {/* Legal Document Types */}
+              <div className="bg-white p-6 rounded-xl shadow-lg">
+                <h3 className="text-xl font-bold text-blue-900 mb-4 flex items-center">
+                  <FileText className="w-5 h-5 mr-2" />
+                  Document Types
+                </h3>
+                <div className="space-y-3">
+                  <Link href="/family-law-service-guide-tulsa-2025" className="block text-blue-600 hover:text-blue-800 font-medium">
+                    Family Law Documents
+                  </Link>
+                  <Link href="/high-profile-service-protocols-tulsa-2025" className="block text-blue-600 hover:text-blue-800 font-medium">
+                    High-Profile Service
+                  </Link>
+                  <Link href="/oklahoma-case-law-service-process-2025" className="block text-blue-600 hover:text-blue-800 font-medium">
+                    Case Law & Process
+                  </Link>
+                  <Link href="/oklahoma-electronic-service-guide-2025" className="block text-blue-600 hover:text-blue-800 font-medium">
+                    Electronic Service Guide
+                  </Link>
+                  <Link href="/process-serving-mistakes-guide-2025" className="block text-blue-600 hover:text-blue-800 font-medium">
+                    Avoid Common Mistakes
+                  </Link>
+                </div>
+              </div>
+              
+              {/* Professional Resources */}
+              <div className="bg-white p-6 rounded-xl shadow-lg">
+                <h3 className="text-xl font-bold text-blue-900 mb-4 flex items-center">
+                  <Users className="w-5 h-5 mr-2" />
+                  Professional Resources
+                </h3>
+                <div className="space-y-3">
+                  <Link href="/oklahoma-process-server-pricing-2025" className="block text-blue-600 hover:text-blue-800 font-medium">
+                    Pricing & Service Options
+                  </Link>
+                  <Link href="/oklahoma-process-server-technology-2025" className="block text-blue-600 hover:text-blue-800 font-medium">
+                    Technology & GPS Tracking
+                  </Link>
+                  <Link href="/ai-skip-tracing-guide-oklahoma-2025" className="block text-blue-600 hover:text-blue-800 font-medium">
+                    AI Skip Tracing Guide
+                  </Link>
+                  <Link href="/oklahoma-process-server-best-practices-checklist-2025" className="block text-blue-600 hover:text-blue-800 font-medium">
+                    Best Practices Checklist
+                  </Link>
+                  <Link href="/oklahoma-process-server-faq-2025" className="block text-blue-600 hover:text-blue-800 font-medium">
+                    Complete FAQ Guide
+                  </Link>
+                </div>
+              </div>
+            </div>
+            
+            {/* Additional Service Links */}
+            <div className="mt-12 bg-white p-8 rounded-xl shadow-lg">
+              <h3 className="text-xl font-bold text-gray-900 mb-6 text-center">Related Services & Counties</h3>
+              <div className="grid md:grid-cols-3 gap-6 text-center">
+                <div>
+                  <h4 className="font-semibold text-blue-900 mb-3">Adjacent Counties</h4>
+                  <div className="space-y-2">
+                    <Link href="/counties/creek-county" className="block text-blue-600 hover:text-blue-800 text-sm">
+                      Creek County Service
+                    </Link>
+                    <Link href="/counties/rogers-county" className="block text-blue-600 hover:text-blue-800 text-sm">
+                      Rogers County Process Server
+                    </Link>
+                    <Link href="/counties/wagoner-county" className="block text-blue-600 hover:text-blue-800 text-sm">
+                      Wagoner County Service
+                    </Link>
+                  </div>
+                </div>
+                
+                <div>
+                  <h4 className="font-semibold text-blue-900 mb-3">Specialized Services</h4>
+                  <div className="space-y-2">
+                    <Link href="/courier-services-tulsa" className="block text-blue-600 hover:text-blue-800 text-sm">
+                      Courier Services Tulsa
+                    </Link>
+                    <Link href="/process-server-tulsa-guide" className="block text-blue-600 hover:text-blue-800 text-sm">
+                      Complete Tulsa Guide
+                    </Link>
+                    <Link href="/seo/what-is-a-process-server" className="block text-blue-600 hover:text-blue-800 text-sm">
+                      What Is A Process Server?
+                    </Link>
+                  </div>
+                </div>
+                
+                <div>
+                  <h4 className="font-semibold text-blue-900 mb-3">Cost & Comparison</h4>
+                  <div className="space-y-2">
+                    <Link href="/oklahoma-process-serving-costs-comparison-2025" className="block text-blue-600 hover:text-blue-800 text-sm">
+                      Cost Comparison Guide
+                    </Link>
+                    <Link href="/pricing" className="block text-blue-600 hover:text-blue-800 text-sm">
+                      Current Pricing
+                    </Link>
+                    <Link href="/contact" className="block text-blue-600 hover:text-blue-800 text-sm">
+                      Get Free Quote
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Services & Pricing Section */}
         <section className="py-16 bg-blue-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -362,7 +905,7 @@ export default function TulsaCountyProcessServer() {
                 Professional Process Serving Throughout Tulsa County
               </h2>
               <p className="text-xl text-gray-700 mb-8 max-w-3xl mx-auto">
-                Licensed, bonded, and insured process servers covering all cities in Tulsa County including Tulsa, Broken Arrow, Owasso, Bixby, Jenks, Sand Springs, Glenpool, and Collinsville. Same-day service available.
+                Licensed, bonded, and insured process servers covering all cities in Tulsa County including <Link href="/tulsa-process-server" className="text-blue-600 hover:text-blue-800 underline">Tulsa</Link>, <Link href="/service-areas/broken-arrow" className="text-blue-600 hover:text-blue-800 underline">Broken Arrow</Link>, <Link href="/service-areas/owasso" className="text-blue-600 hover:text-blue-800 underline">Owasso</Link>, <Link href="/service-areas/bixby" className="text-blue-600 hover:text-blue-800 underline">Bixby</Link>, <Link href="/service-areas/jenks" className="text-blue-600 hover:text-blue-800 underline">Jenks</Link>, <Link href="/service-areas/sand-springs" className="text-blue-600 hover:text-blue-800 underline">Sand Springs</Link>, <Link href="/service-areas/glenpool" className="text-blue-600 hover:text-blue-800 underline">Glenpool</Link>, and <Link href="/service-areas/collinsville" className="text-blue-600 hover:text-blue-800 underline">Collinsville</Link>. Same-day service available with our <Link href="/oklahoma-process-server-technology-2025" className="text-blue-600 hover:text-blue-800 underline">advanced tracking technology</Link>.
               </p>
               <Link 
                 href="/pricing" 
@@ -506,6 +1049,192 @@ export default function TulsaCountyProcessServer() {
           </div>
         </section>
 
+        {/* Quick-Reference Coverage Table */}
+        <section className="py-16 bg-white">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">
+                Quick-Reference Coverage Table
+              </h2>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                Complete coverage across all Tulsa County districts and venues
+              </p>
+            </div>
+            
+            <div className="overflow-x-auto">
+              <table className="w-full border-collapse bg-white shadow-lg rounded-lg overflow-hidden">
+                <thead>
+                  <tr className="bg-blue-900 text-white">
+                    <th className="px-6 py-4 text-left font-bold">Historic & Cultural</th>
+                    <th className="px-6 py-4 text-left font-bold">Business & Commerce</th>
+                    <th className="px-6 py-4 text-left font-bold">Residential & Courts</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="border-b hover:bg-gray-50">
+                    <td className="px-6 py-4">
+                      <div className="font-semibold text-blue-900 mb-2">Downtown Tulsa Financial</div>
+                      <div className="text-sm text-gray-600">Historic financial district</div>
+                    </td>
+                    <td className="px-6 py-4">
+                      <div className="font-semibold text-green-900 mb-2">ONEOK Plaza (100 W 5th St)</div>
+                      <div className="text-sm text-gray-600">Major corporate headquarters</div>
+                    </td>
+                    <td className="px-6 py-4">
+                      <div className="font-semibold text-purple-900 mb-2">South Jenks (Greer Ranch, Aspen Creek)</div>
+                      <div className="text-sm text-gray-600">Premium residential areas</div>
+                    </td>
+                  </tr>
+                  <tr className="border-b hover:bg-gray-50">
+                    <td className="px-6 py-4">
+                      <div className="font-semibold text-blue-900 mb-2">Brookside District</div>
+                      <div className="text-sm text-gray-600">Historic shopping & dining</div>
+                    </td>
+                    <td className="px-6 py-4">
+                      <div className="font-semibold text-green-900 mb-2">River Bend Plaza</div>
+                      <div className="text-sm text-gray-600">Commercial development</div>
+                    </td>
+                    <td className="px-6 py-4">
+                      <div className="font-semibold text-purple-900 mb-2">Glenpool neighborhoods</div>
+                      <div className="text-sm text-gray-600">Family residential zones</div>
+                    </td>
+                  </tr>
+                  <tr className="border-b hover:bg-gray-50">
+                    <td className="px-6 py-4">
+                      <div className="font-semibold text-blue-900 mb-2">Cherry Street District</div>
+                      <div className="text-sm text-gray-600">Entertainment & arts corridor</div>
+                    </td>
+                    <td className="px-6 py-4">
+                      <div className="font-semibold text-green-900 mb-2">Tulsa International Airport</div>
+                      <div className="text-sm text-gray-600">Transportation hub</div>
+                    </td>
+                    <td className="px-6 py-4">
+                      <div className="font-semibold text-purple-900 mb-2">Bixby subdivisions</div>
+                      <div className="text-sm text-gray-600">Growing suburban communities</div>
+                    </td>
+                  </tr>
+                  <tr className="border-b hover:bg-gray-50">
+                    <td className="px-6 py-4">
+                      <div className="font-semibold text-blue-900 mb-2">Gathering Place Riverfront</div>
+                      <div className="text-sm text-gray-600">World-class riverfront park</div>
+                    </td>
+                    <td className="px-6 py-4">
+                      <div className="font-semibold text-green-900 mb-2">QuikTrip Corporate Campus</div>
+                      <div className="text-sm text-gray-600">Major employer headquarters</div>
+                    </td>
+                    <td className="px-6 py-4">
+                      <div className="font-semibold text-purple-900 mb-2">Sand Springs municipal areas</div>
+                      <div className="text-sm text-gray-600">Historic western suburbs</div>
+                    </td>
+                  </tr>
+                  <tr className="hover:bg-gray-50">
+                    <td className="px-6 py-4">
+                      <div className="font-semibold text-blue-900 mb-2">Blue Dome Entertainment</div>
+                      <div className="text-sm text-gray-600">Historic entertainment district</div>
+                    </td>
+                    <td className="px-6 py-4">
+                      <div className="font-semibold text-green-900 mb-2">Outlets at Jenks Riverwalk</div>
+                      <div className="text-sm text-gray-600">Premier shopping destination</div>
+                    </td>
+                    <td className="px-6 py-4">
+                      <div className="font-semibold text-purple-900 mb-2">Collinsville rural zones</div>
+                      <div className="text-sm text-gray-600">Agricultural & rural residential</div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        {/* "Serve Near" Keyword Phrases */}
+        <section className="py-16 bg-gradient-to-br from-blue-50 to-gray-100">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">
+                Process Server &ldquo;Near Me&rdquo; Locations
+              </h2>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                Professional legal document delivery at key Tulsa County venues and landmarks
+              </p>
+            </div>
+            
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+                <h3 className="text-lg font-bold text-blue-900 mb-4 flex items-center">
+                  <Building2 className="w-5 h-5 mr-2" />
+                  Financial District
+                </h3>
+                <ul className="space-y-2 text-gray-700">
+                  <li>• Process server near Tulsa Financial District</li>
+                  <li>• Legal document delivery downtown Tulsa</li>
+                  <li>• Court papers served at major office buildings</li>
+                </ul>
+              </div>
+              
+              <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+                <h3 className="text-lg font-bold text-blue-900 mb-4 flex items-center">
+                  <Calendar className="w-5 h-5 mr-2" />
+                  Event Venues
+                </h3>
+                <ul className="space-y-2 text-gray-700">
+                  <li>• Legal document delivery at Tulsa State Fairgrounds</li>
+                  <li>• Process serving at BOK Center events</li>
+                  <li>• Subpoena service at convention centers</li>
+                </ul>
+              </div>
+              
+              <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+                <h3 className="text-lg font-bold text-blue-900 mb-4 flex items-center">
+                  <MapPin className="w-5 h-5 mr-2" />
+                  Neighborhood Hubs
+                </h3>
+                <ul className="space-y-2 text-gray-700">
+                  <li>• Subpoena service at Brookside Village</li>
+                  <li>• Same-day service in South Tulsa neighborhoods</li>
+                  <li>• Process serving Cherry Street District</li>
+                </ul>
+              </div>
+              
+              <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+                <h3 className="text-lg font-bold text-blue-900 mb-4 flex items-center">
+                  <Scale className="w-5 h-5 mr-2" />
+                  Court Facilities
+                </h3>
+                <ul className="space-y-2 text-gray-700">
+                  <li>• Court papers served at Tulsa County Courthouse</li>
+                  <li>• Municipal court document delivery</li>
+                  <li>• Federal courthouse legal service</li>
+                </ul>
+              </div>
+              
+              <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+                <h3 className="text-lg font-bold text-blue-900 mb-4 flex items-center">
+                  <Users className="w-5 h-5 mr-2" />
+                  Community Areas
+                </h3>
+                <ul className="space-y-2 text-gray-700">
+                  <li>• Legal papers at Gathering Place</li>
+                  <li>• Document service at Arkansas River parks</li>
+                  <li>• Process serving residential communities</li>
+                </ul>
+              </div>
+              
+              <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+                <h3 className="text-lg font-bold text-blue-900 mb-4 flex items-center">
+                  <Clock className="w-5 h-5 mr-2" />
+                  Urgent Service
+                </h3>
+                <ul className="space-y-2 text-gray-700">
+                  <li>• Emergency process server Tulsa County</li>
+                  <li>• Same-day legal document delivery</li>
+                  <li>• Rush service all Tulsa neighborhoods</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Contact Section */}
         <section className="py-16 bg-blue-900 text-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -564,28 +1293,330 @@ export default function TulsaCountyProcessServer() {
           </div>
         </section>
 
-        {/* FAQ Section */}
-        <section className="py-16 bg-gray-50">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Tulsa-Specific FAQs */}
+        <section className="py-16 bg-white">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-              Frequently Asked Questions - Tulsa County Process Serving
+              Tulsa-Specific FAQs & Local Expertise
             </h2>
-            <div className="space-y-8">
-              {tulsaCountyFAQs.map((faq, index) => (
-                <div key={index} className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
-                  <h3 className="text-lg font-semibold text-gray-900 mb-3">{faq.question}</h3>
-                  <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
+            
+            <div className="grid lg:grid-cols-2 gap-12">
+              {/* Local Venue FAQs */}
+              <div className="space-y-8">
+                <h3 className="text-2xl font-semibold text-blue-900 mb-6">Venue-Specific Questions</h3>
+                
+                <div className="bg-gray-50 p-6 rounded-xl shadow-sm">
+                  <h4 className="text-lg font-bold text-gray-900 mb-3 flex items-center">
+                    <MapPin className="w-5 h-5 text-green-600 mr-2" />
+                    Can you serve papers at the Tulsa Botanic Garden?
+                  </h4>
+                  <p className="text-gray-700">
+                    Yes. We coordinate with staff at 3900 Tulsa Botanic Dr to discreetly serve documents during visiting hours with full respect for the venue&apos;s peaceful environment.
+                  </p>
                 </div>
-              ))}
+                
+                <div className="bg-gray-50 p-6 rounded-xl shadow-sm">
+                  <h4 className="text-lg font-bold text-gray-900 mb-3 flex items-center">
+                    <Clock className="w-5 h-5 text-yellow-600 mr-2" />
+                    What are peak traffic times to avoid on I-244 serves?
+                  </h4>
+                  <p className="text-gray-700">
+                    Avoid 7–9 AM and 4–6 PM rush hours when scheduling serves along I-244 corridor. We plan routes strategically for optimal timing.
+                  </p>
+                </div>
+                
+                <div className="bg-gray-50 p-6 rounded-xl shadow-sm">
+                  <h4 className="text-lg font-bold text-gray-900 mb-3 flex items-center">
+                    <Building2 className="w-5 h-5 text-blue-600 mr-2" />
+                    Do you handle process serving at OSU-Tulsa campus?
+                  </h4>
+                  <p className="text-gray-700">
+                    Yes. We work with campus security at 700 N Greenwood Ave for compliant service following all university protocols.
+                  </p>
+                </div>
+                
+                <div className="bg-gray-50 p-6 rounded-xl shadow-sm">
+                  <h4 className="text-lg font-bold text-gray-900 mb-3 flex items-center">
+                    <Shield className="w-5 h-5 text-purple-600 mr-2" />
+                    How do you serve in gated Creek-County border areas?
+                  </h4>
+                  <p className="text-gray-700">
+                    We verify precise jurisdiction and coordinate gate access for compliant serves in Creek Turnpike neighborhoods and border areas.
+                  </p>
+                </div>
+              </div>
+              
+              {/* Court & Filing Tips */}
+              <div className="space-y-8">
+                <h3 className="text-2xl font-semibold text-blue-900 mb-6">Court & Filing Tips</h3>
+                
+                <div className="bg-blue-50 p-6 rounded-xl shadow-sm">
+                  <h4 className="text-lg font-bold text-gray-900 mb-3 flex items-center">
+                    <FileText className="w-5 h-5 text-blue-600 mr-2" />
+                    Tulsa County Courthouse Filing
+                  </h4>
+                  <p className="text-gray-700 mb-3">
+                    File affidavits same day at 500 S Denver Ave for next-day docket entry.
+                  </p>
+                  <p className="text-gray-700">
+                    Bring multiple copies of affidavits when serving in downtown and suburban courts.
+                  </p>
+                </div>
+                
+                <div className="bg-green-50 p-6 rounded-xl shadow-sm">
+                  <h4 className="text-lg font-bold text-gray-900 mb-3 flex items-center">
+                    <Scale className="w-5 h-5 text-green-600 mr-2" />
+                    Municipal Court Matters
+                  </h4>
+                  <p className="text-gray-700">
+                    Each city has specific hours and clerk contacts. We maintain current information for all municipal courts in Tulsa County.
+                  </p>
+                </div>
+                
+                <div className="bg-yellow-50 p-6 rounded-xl shadow-sm">
+                  <h4 className="text-lg font-bold text-gray-900 mb-3 flex items-center">
+                    <Users className="w-5 h-5 text-yellow-600 mr-2" />
+                    Local Insights & Community Involvement
+                  </h4>
+                  <ul className="text-gray-700 space-y-2">
+                    <li>• Sponsor of Tulsa County Bar Association annual seminar—&ldquo;Process Serving Best Practices&rdquo;</li>
+                    <li>• Volunteer process-serving clinic for pro bono family-law cases at Legal Aid Services Tulsa</li>
+                    <li>• Host quarterly &ldquo;Meet Your Server&rdquo; webinars for Tulsa attorneys</li>
+                  </ul>
+                </div>
+                
+                <div className="bg-purple-50 p-6 rounded-xl shadow-sm">
+                  <h4 className="text-lg font-bold text-gray-900 mb-3 flex items-center">
+                    <AlertCircle className="w-5 h-5 text-purple-600 mr-2" />
+                    Seasonal & Weather Considerations
+                  </h4>
+                  <div className="text-gray-700 space-y-2">
+                    <p><strong>Rainy Season (April–June):</strong> Allow extra travel time for river-lowland serves</p>
+                    <p><strong>Heat Advisory (July–August):</strong> Schedule morning serves in South Tulsa to beat midday heat</p>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
+        </section>
+
+        {/* Additional Hyperlocal FAQs */}
+        <section className="py-16 bg-gradient-to-br from-blue-50 to-gray-50">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">
+                Additional Hyperlocal FAQs
+              </h2>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                Specific questions about serving at major Tulsa venues and events
+              </p>
+            </div>
+            
+            <div className="grid lg:grid-cols-2 gap-8">
+              <div className="bg-white p-8 rounded-xl shadow-lg">
+                <h3 className="text-xl font-bold text-blue-900 mb-6 flex items-center">
+                  <Calendar className="w-6 h-6 mr-3" />
+                  State Fair & Events
+                </h3>
+                <div className="space-y-6">
+                  <div>
+                    <h4 className="font-semibold text-gray-900 mb-2">Can you serve papers at Tulsa State Fair&apos;s Expo Square?</h4>
+                    <p className="text-gray-700 text-sm">
+                      Yes. Our teams operate onsite during fair season at Expo Square (4145 E 21st St), ensuring compliance with event regulations for court documents.
+                    </p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-gray-900 mb-2">Do you handle serves at the BOK Center during concerts?</h4>
+                    <p className="text-gray-700 text-sm">
+                      Yes. We coordinate with arena security to serve employment or vendor-related documents at BOK Center events on Arena Drive.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="bg-white p-8 rounded-xl shadow-lg">
+                <h3 className="text-xl font-bold text-blue-900 mb-6 flex items-center">
+                  <Clock className="w-6 h-6 mr-3" />
+                  Timing & Logistics
+                </h3>
+                <div className="space-y-6">
+                  <div>
+                    <h4 className="font-semibold text-gray-900 mb-2">What&apos;s the best way to coordinate serves in Sand Springs?</h4>
+                    <p className="text-gray-700 text-sm">
+                      Schedule between 10 AM–2 PM near Sand Springs Municipal Court (818 N Main St) when court staff is available to facilitate same-day affidavits.
+                    </p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-gray-900 mb-2">Tulsa Festival Road Closures</h4>
+                    <p className="text-gray-700 text-sm">
+                      During Mayfest and other downtown events, road closures on Riverside and Second Street may affect timing; plan serves before 10 AM or after 6 PM.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            {/* Seasonal & Event Alerts */}
+            <div className="mt-12 grid md:grid-cols-3 gap-6">
+              <div className="bg-yellow-50 p-6 rounded-xl border border-yellow-200">
+                <h4 className="text-lg font-bold text-yellow-900 mb-3 flex items-center">
+                  <AlertCircle className="w-5 h-5 mr-2" />
+                  Holiday Notice
+                </h4>
+                <p className="text-sm text-yellow-800">
+                  <strong>Thanksgiving & Christmas:</strong> Allow an extra 24 hours during major holidays—our 24/7 emergency line remains open.
+                </p>
+              </div>
+              
+              <div className="bg-orange-50 p-6 rounded-xl border border-orange-200">
+                <h4 className="text-lg font-bold text-orange-900 mb-3 flex items-center">
+                  <AlertCircle className="w-5 h-5 mr-2" />
+                  Summer Peak Season
+                </h4>
+                <p className="text-sm text-orange-800">
+                  <strong>June–August:</strong> Increased residential serves; schedule evening slots (5–8 PM) for best success.
+                </p>
+              </div>
+              
+              <div className="bg-green-50 p-6 rounded-xl border border-green-200">
+                <h4 className="text-lg font-bold text-green-900 mb-3 flex items-center">
+                  <Shield className="w-5 h-5 mr-2" />
+                  Trust & Credibility
+                </h4>
+                <div className="text-sm text-green-800 space-y-1">
+                  <p>• Licensed, bonded, insured (Bond #2000)</p>
+                  <p>• 24/7 emergency availability</p>
+                  <p>• GPS tracking & timestamped photos</p>
+                  <p>• 50+ years combined experience</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* FAQ Section - Modernized */}
+        <section className="py-16 bg-gray-50">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">
+                Frequently Asked Questions - Tulsa County Process Serving
+              </h2>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                Get answers to common questions about our professional legal document services across Tulsa County
+              </p>
+            </div>
+            
+            <div className="grid lg:grid-cols-2 gap-8">
+              {/* FAQ Content Column */}
+              <div className="space-y-6">
+                {tulsaCountyFAQs.slice(0, Math.ceil(tulsaCountyFAQs.length / 2)).map((faq, index) => (
+                  <div key={index} className="bg-white p-6 rounded-xl shadow-lg border border-gray-200 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                    <div className="flex items-start space-x-4">
+                      <div className="flex-shrink-0 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
+                        <span className="text-white font-bold text-sm">{index + 1}</span>
+                      </div>
+                      <div className="flex-1">
+                        <h3 className="text-lg font-bold text-gray-900 mb-3">{faq.question}</h3>
+                        <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+              
+              {/* FAQ Content Column 2 + Images */}
+              <div className="space-y-6">
+                {tulsaCountyFAQs.slice(Math.ceil(tulsaCountyFAQs.length / 2)).map((faq, index) => (
+                  <div key={index + Math.ceil(tulsaCountyFAQs.length / 2)} className="bg-white p-6 rounded-xl shadow-lg border border-gray-200 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                    <div className="flex items-start space-x-4">
+                      <div className="flex-shrink-0 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
+                        <span className="text-white font-bold text-sm">{index + Math.ceil(tulsaCountyFAQs.length / 2) + 1}</span>
+                      </div>
+                      <div className="flex-1">
+                        <h3 className="text-lg font-bold text-gray-900 mb-3">{faq.question}</h3>
+                        <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+            
+            {/* Call to Action */}
             <div className="text-center mt-12">
-              <Link 
-                href="/contact" 
-                className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors"
-              >
-                <Phone className="w-5 h-5" />
-                Have More Questions? Contact Us
-              </Link>
+              <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-200 max-w-2xl mx-auto">
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Need Process Serving Help?</h3>
+                <p className="text-gray-700 mb-6">
+                  Our experienced Tulsa County team is ready to assist with your legal document needs.
+                </p>
+                <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                  <a 
+                    href="tel:(539)367-6832" 
+                    className="inline-flex items-center justify-center px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors"
+                  >
+                    <Phone className="w-5 h-5 mr-2" />
+                    Call (539) 367-6832
+                  </a>
+                  <Link 
+                    href="/contact" 
+                    className="inline-flex items-center justify-center px-6 py-3 bg-gray-600 text-white font-semibold rounded-lg hover:bg-gray-700 transition-colors"
+                  >
+                    <FileText className="w-5 h-5 mr-2" />
+                    Get Free Quote
+                  </Link>
+                </div>
+              </div>
+            </div>
+            
+            {/* Internal Linking Section */}
+            <div className="mt-12 bg-blue-50 p-8 rounded-xl">
+              <h3 className="text-xl font-bold text-gray-900 mb-6 text-center">Comprehensive Legal Resources</h3>
+              <div className="grid md:grid-cols-3 gap-6">
+                <div className="text-center">
+                  <h4 className="font-semibold text-blue-900 mb-3">Process Server Guides</h4>
+                  <div className="space-y-2">
+                    <Link href="/process-server-tulsa-guide" className="block text-blue-600 hover:text-blue-800 text-sm underline">
+                      Complete Tulsa Process Server Guide
+                    </Link>
+                    <Link href="/oklahoma-process-server-faq-2025" className="block text-blue-600 hover:text-blue-800 text-sm underline">
+                      Oklahoma Process Server FAQ
+                    </Link>
+                    <Link href="/oklahoma-process-server-best-practices-checklist-2025" className="block text-blue-600 hover:text-blue-800 text-sm underline">
+                      Best Practices Checklist
+                    </Link>
+                  </div>
+                </div>
+                
+                <div className="text-center">
+                  <h4 className="font-semibold text-blue-900 mb-3">Legal Document Types</h4>
+                  <div className="space-y-2">
+                    <Link href="/family-law-service-guide-tulsa-2025" className="block text-blue-600 hover:text-blue-800 text-sm underline">
+                      Family Law Document Service
+                    </Link>
+                    <Link href="/high-profile-service-protocols-tulsa-2025" className="block text-blue-600 hover:text-blue-800 text-sm underline">
+                      High-Profile Service Protocols
+                    </Link>
+                    <Link href="/oklahoma-case-law-service-process-2025" className="block text-blue-600 hover:text-blue-800 text-sm underline">
+                      Oklahoma Case Law Guide
+                    </Link>
+                  </div>
+                </div>
+                
+                <div className="text-center">
+                  <h4 className="font-semibold text-blue-900 mb-3">Technology & Pricing</h4>
+                  <div className="space-y-2">
+                    <Link href="/oklahoma-process-server-technology-2025" className="block text-blue-600 hover:text-blue-800 text-sm underline">
+                      Technology & GPS Tracking
+                    </Link>
+                    <Link href="/oklahoma-process-server-pricing-2025" className="block text-blue-600 hover:text-blue-800 text-sm underline">
+                      Pricing & Service Options
+                    </Link>
+                    <Link href="/ai-skip-tracing-guide-oklahoma-2025" className="block text-blue-600 hover:text-blue-800 text-sm underline">
+                      AI Skip Tracing Guide
+                    </Link>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>

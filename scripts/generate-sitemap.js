@@ -47,9 +47,8 @@ function generateSitemap() {
   
   // Additional URLs to ensure they're included (all service areas with Google Maps)
   const additionalUrls = [
-    // Service Areas (all 20 with Google Maps)
+    // Service Areas (all 20 with Google Maps) - Excluding /service-areas/tulsa (redirects to main page)
     '/service-areas',
-    '/service-areas/tulsa',
     '/service-areas/broken-arrow',
     '/service-areas/owasso',
     '/service-areas/bixby',
@@ -88,28 +87,26 @@ function generateSitemap() {
     '/payments',
     '/why-choose-us',
     
-    // Process Server Pages
+    // Process Server Pages - Excluding old /process-server-tulsa (redirects to main page)
     '/tulsa-process-server',
-    '/process-server-tulsa',
-    '/tulsa-county',
     '/urgent-process-server',
     '/weekend-emergency',
     '/courier-services-tulsa',
     '/ultimate-guide-process-serving-oklahoma',
     
     // SEO Pages
-    '/seo/bixby-process-server',
-    '/seo/broken-arrow-process-server',
+    '/service-areas/bixby',
+    '/service-areas/broken-arrow',
     '/seo/eviction-notice-process-server',
     '/seo/glenpool-process-server',
-    '/seo/jenks-process-server',
+    '/service-areas/jenks',
     '/seo/legal-posting-process-server',
     '/seo/owasso-process-server',
-    '/seo/process-server-bixby',
-    '/seo/process-server-broken-arrow',
+    '/service-areas/glenpool',
+
     '/seo/sand-springs-process-server',
-    '/seo/tulsa-process-server-comprehensive',
     '/seo/what-is-a-process-server',
+    // Excluding '/seo/tulsa-process-server-comprehensive' - content consolidated into main page
     
     // Sitemap
     '/sitemap'

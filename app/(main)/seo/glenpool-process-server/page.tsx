@@ -14,7 +14,7 @@ const speakableSchema = {
 };
 
 const glenpoolData = {
-    history: `Glenpool is famously known as "The Town that Made Tulsa Famous" after the discovery of the Glenn Pool Oil Reserve in 1905, one of the largest oil fields in world history. This discovery transformed the entire region. Today, Glenpool is a growing community with a mix of historic sites and modern development, requiring a process server who understands its unique layout. As part of Tulsa County, our Glenpool team collaborates with the <a href="/tulsa-county" className="text-blue-700 underline">Tulsa County Process Server</a> network to ensure seamless legal support across the region.`,
+    history: `Glenpool is famously known as "The Town that Made Tulsa Famous" after the discovery of the Glenn Pool Oil Reserve in 1905, one of the largest oil fields in world history. This discovery transformed the entire region. Today, Glenpool is a growing community with a mix of historic sites and modern development, requiring a process server who understands its unique layout. As part of Tulsa County, our Glenpool team collaborates with the <a href="/counties/tulsa-county" className="text-blue-700 underline">Tulsa County Process Server</a> network to ensure seamless legal support across the region.`,
     courthouse: {
         name: 'Glenpool Municipal Court (City Hall)',
         address: '1220 W 141st St, Glenpool, OK 74033',
@@ -131,7 +131,7 @@ export default function GlenpoolProcessServer() {
           <div className="max-w-4xl mx-auto">
             <section className="mb-12">
               <h2 className="text-3xl font-bold text-gray-800 mb-6">Local Expertise in Glenpool</h2>
-              <p className="text-lg text-gray-700 mb-4" dangerouslySetInnerHTML={{ __html: glenpoolData.history + ' If you need a process server in Glenpool or nearby communities like <a href="/seo/broken-arrow-process-server" class="text-blue-700 underline">Broken Arrow</a> or <a href="/seo/jenks-process-server" class="text-blue-700 underline">Jenks</a>, our team is ready to help.' }} />
+              <p className="text-lg text-gray-700 mb-4" dangerouslySetInnerHTML={{ __html: glenpoolData.history + ' If you need a process server in Glenpool or nearby communities like <a href="/service-areas/broken-arrow" class="text-blue-700 underline">Broken Arrow</a> or <a href="/service-areas/jenks" class="text-blue-700 underline">Jenks</a>, our team is ready to help.' }} />
             </section>
             <section className="bg-white p-8 rounded-lg shadow-md mb-12">
               <h3 className="text-2xl font-bold text-blue-800 mb-6">Glenpool Courthouse & Local Service Areas</h3>
@@ -194,8 +194,8 @@ export default function GlenpoolProcessServer() {
             <section className="bg-white p-8 rounded-lg shadow-md mb-12">
               <h3 className="text-2xl font-bold text-blue-800 mb-6">Related Cities & Internal Links</h3>
               <ul className="list-disc list-inside text-blue-700">
-                <li><a href="/seo/broken-arrow-process-server" className="underline">Broken Arrow Process Server</a></li>
-                <li><a href="/seo/jenks-process-server" className="underline">Jenks Process Server</a></li>
+                <li><a href="/service-areas/broken-arrow" className="underline">Broken Arrow Process Server</a></li>
+                <li><a href="/service-areas/jenks" className="underline">Jenks Process Server</a></li>
                 <li><a href="/seo/owasso-process-server" className="underline">Owasso Process Server</a></li>
                 <li><a href="/seo/sand-springs-process-server" className="underline">Sand Springs Process Server</a></li>
                 <li><a href="/seo/legal-posting-process-server" className="underline">Legal Posting Service</a></li>

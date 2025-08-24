@@ -878,12 +878,12 @@ function addCompetitiveKeywordsToAllPages() {
     'app/layout.tsx',
     
     // Process serving pages
-    'app/seo/process-server-tulsa/page.tsx',
-    'app/seo/process-server-broken-arrow/page.tsx', 
+    'app/(main)/tulsa-process-server/page.tsx',
+    'app/service-areas/broken-arrow/page.tsx', 
     'app/seo/process-server-sand-springs/page.tsx',
     'app/seo/process-server-sapulpa/page.tsx',
     'app/seo/process-server-owasso/page.tsx',
-    'app/seo/process-server-bixby/page.tsx',
+    'app/service-areas/bixby/page.tsx',
     'app/seo/process-server-jenks/page.tsx',
     'app/seo/process-server-glenpool/page.tsx',
     

@@ -20,9 +20,9 @@ jobs:
           KEY_URLS=(
             "https://justlegalsolutions.org/"
             "https://justlegalsolutions.org/tulsa-process-server/"
-            "https://justlegalsolutions.org/process-server-tulsa/"
+            "https://justlegalsolutions.org/tulsa-process-server/"
             "https://justlegalsolutions.org/seo/same-day-process-serving-tulsa/"
-            "https://justlegalsolutions.org/seo/process-server-tulsa/"
+            "https://justlegalsolutions.org/tulsa-process-server/"
           )
           
           for url in "${KEY_URLS[@]}"; do

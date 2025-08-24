@@ -109,7 +109,7 @@ export default function ClickOptimization({
       <BreadcrumbSchema 
         items={[
           { name: "Home", url: "/" },
-          { name: "Process Server Tulsa", url: "/process-server-tulsa" }
+          { name: "Process Server Tulsa", url: "/tulsa-process-server" }
         ]}
       />
     </>

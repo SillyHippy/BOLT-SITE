@@ -71,7 +71,7 @@ const jsonLd = {
 
 // --- High-Quality, Unique Content for Eviction Services ---
 const evictionData = {
-    intro: `The eviction process is legally sensitive and time-critical. Improper service of an eviction notice can lead to costly delays, dismissals, and financial losses for landlords and property managers. As Tulsa County's trusted eviction process server, we specialize in the correct, legal, and prompt delivery of all landlord-tenant documents, ensuring your case can proceed with a solid legal foundation. For broader legal support, our team is part of the <a href="/tulsa-county" className="text-blue-700 underline">Tulsa County Process Server</a> network, ensuring full coverage and compliance.`,
+    intro: `The eviction process is legally sensitive and time-critical. Improper service of an eviction notice can lead to costly delays, dismissals, and financial losses for landlords and property managers. As Tulsa County's trusted eviction process server, we specialize in the correct, legal, and prompt delivery of all landlord-tenant documents, ensuring your case can proceed with a solid legal foundation. For comprehensive process serving services beyond evictions, visit our <a href="/tulsa-process-server" className="text-blue-700 underline">main Tulsa process server page</a> for complete legal document delivery solutions.`,
     oklahomaProcess: {
         title: 'The Oklahoma Eviction Process: A Step-by-Step Overview',
         steps: [
@@ -226,12 +226,26 @@ export default function EvictionNoticeProcessServer() {
             </section>
             <section className="bg-red-50 p-8 rounded-lg shadow-md mb-12">
               <h3 className="text-2xl font-bold text-red-800 mb-6">Related Services & Internal Links</h3>
-              <ul className="list-disc list-inside text-red-700">
-                <li><a href="/seo/legal-posting-process-server" className="underline">Legal Posting Service</a></li>
-                <li><a href="/seo/broken-arrow-process-server" className="underline">Broken Arrow Process Server</a></li>
-                <li><a href="/seo/glenpool-process-server" className="underline">Glenpool Process Server</a></li>
-                <li><a href="/seo/owasso-process-server" className="underline">Owasso Process Server</a></li>
-              </ul>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h4 className="font-semibold text-red-900 mb-3">Process Serving Resources</h4>
+                  <ul className="list-disc list-inside text-red-700 space-y-1">
+                    <li><a href="/tulsa-process-server" className="underline hover:text-red-900">Main Tulsa Process Server Services</a></li>
+                    <li><a href="/process-server-tulsa-guide" className="underline hover:text-red-900">Complete Process Server Guide for Tulsa</a></li>
+                    <li><a href="/resources" className="underline hover:text-red-900">Legal Resources & Process Serving Guides</a></li>
+                    <li><a href="/ultimate-guide-process-serving-oklahoma" className="underline hover:text-red-900">Ultimate Guide to Process Serving in Oklahoma</a></li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-semibold text-red-900 mb-3">Service Area Coverage</h4>
+                  <ul className="list-disc list-inside text-red-700 space-y-1">
+                    <li><a href="/service-areas/broken-arrow" className="underline hover:text-red-900">Broken Arrow Process Server</a></li>
+                    <li><a href="/seo/glenpool-process-server" className="underline hover:text-red-900">Glenpool Process Server</a></li>
+                    <li><a href="/seo/owasso-process-server" className="underline hover:text-red-900">Owasso Process Server</a></li>
+                    <li><a href="/seo/legal-posting-process-server" className="underline hover:text-red-900">Legal Posting Service</a></li>
+                  </ul>
+                </div>
+              </div>
             </section>
           </div>
         </main>

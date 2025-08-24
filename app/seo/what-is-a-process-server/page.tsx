@@ -512,7 +512,7 @@ export default function WhatIsAProcessServerPage() {
               
               <div className="bg-blue-50 border-l-4 border-blue-600 p-8 rounded-r-lg mb-8">
                 <p className="text-xl text-gray-700 mb-4 leading-relaxed">
-                  In the legal world, the term <strong>&ldquo;process server&rdquo;</strong> is fundamental to our justice system. But what exactly do they do, and why is their role so critical? This comprehensive guide breaks down the responsibilities of a <Link href="/process-server-tulsa" className="text-blue-600 hover:underline font-medium">process server in Tulsa</Link> and explains their vital importance in the <Link href="/counties/tulsa-county" className="text-blue-600 hover:underline font-medium">Oklahoma legal system</Link>.
+                  In the legal world, the term <strong>&ldquo;process server&rdquo;</strong> is fundamental to our justice system. But what exactly do they do, and why is their role so critical? This comprehensive guide breaks down the responsibilities of a <Link href="/tulsa-process-server" className="text-blue-600 hover:underline font-medium">process server in Tulsa</Link> and explains their vital importance in the <Link href="/counties/tulsa-county" className="text-blue-600 hover:underline font-medium">Oklahoma legal system</Link>.
                 </p>
               </div>
             </section>
@@ -671,12 +671,12 @@ export default function WhatIsAProcessServerPage() {
                   <h3 className="font-bold text-green-800 mb-4 text-xl">🚀 Same-Day Service Area (50-Mile Radius)</h3>
                   <p className="text-gray-700 mb-3">Emergency and same-day service available within 50 miles of Tulsa/Glenpool metro area:</p>
                   <ul className="text-gray-700 space-y-2 grid grid-cols-2 gap-x-4">
-                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/process-server-tulsa" className="text-blue-600 hover:underline font-medium">Tulsa</a></li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/tulsa-process-server" className="text-blue-600 hover:underline font-medium">Tulsa</a></li>
                     <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/service-areas/glenpool" className="text-blue-600 hover:underline font-medium">Glenpool</a></li>
-                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/seo/broken-arrow-process-server" className="text-blue-600 hover:underline font-medium">Broken Arrow</a></li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/service-areas/broken-arrow" className="text-blue-600 hover:underline font-medium">Broken Arrow</a></li>
                     <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/seo/owasso-process-server" className="text-blue-600 hover:underline font-medium">Owasso</a></li>
-                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/seo/jenks-process-server" className="text-blue-600 hover:underline font-medium">Jenks</a></li>
-                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/seo/bixby-process-server" className="text-blue-600 hover:underline font-medium">Bixby</a></li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/service-areas/jenks" className="text-blue-600 hover:underline font-medium">Jenks</a></li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/service-areas/bixby" className="text-blue-600 hover:underline font-medium">Bixby</a></li>
                     <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/seo/sand-springs-process-server" className="text-blue-600 hover:underline font-medium">Sand Springs</a></li>
                     <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/service-areas/sapulpa" className="text-blue-600 hover:underline font-medium">Sapulpa</a></li>
                     <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/service-areas/bartlesville" className="text-blue-600 hover:underline font-medium">Bartlesville</a></li>
@@ -705,7 +705,7 @@ export default function WhatIsAProcessServerPage() {
               </div>
               
               <p className="text-center text-gray-700 text-lg">
-                <strong>We serve every city, town, and county in Oklahoma.</strong> Same-day service available within 50 miles of <Link href="/process-server-tulsa" className="text-blue-600 hover:underline font-medium">Tulsa</Link>/<Link href="/service-areas/glenpool" className="text-blue-600 hover:underline font-medium">Glenpool</Link>. 
+                <strong>We serve every city, town, and county in Oklahoma.</strong> Same-day service available within 50 miles of <Link href="/tulsa-process-server" className="text-blue-600 hover:underline font-medium">Tulsa</Link>/<Link href="/service-areas/glenpool" className="text-blue-600 hover:underline font-medium">Glenpool</Link>. 
                 Standard 24-48 hour service for all other Oklahoma locations.
               </p>
             </section>

@@ -54,7 +54,7 @@ const jsonLd = {
 
 // --- High-Quality, Unique Local Content for Jenks, OK ---
 const jenksData = {
-    history: `Once known as the "Antique Capital of Oklahoma," Jenks was founded in 1905 and developed alongside the Arkansas River. It has transformed from a small railroad town into a vibrant suburban community, famed for the Oklahoma Aquarium and its historic, walkable downtown. This unique blend of history and modern growth makes local knowledge crucial for effective process serving. As part of Tulsa County, our Jenks team works closely with the <a href="/tulsa-county" className="text-blue-700 underline">Tulsa County Process Server</a> network to ensure seamless legal support across the region.`,
+    history: `Once known as the "Antique Capital of Oklahoma," Jenks was founded in 1905 and developed alongside the Arkansas River. It has transformed from a small railroad town into a vibrant suburban community, famed for the Oklahoma Aquarium and its historic, walkable downtown. This unique blend of history and modern growth makes local knowledge crucial for effective process serving. As part of Tulsa County, our Jenks team works closely with the <a href="/counties/tulsa-county" className="text-blue-700 underline">Tulsa County Process Server</a> network to ensure seamless legal support across the region.`,
     courthouse: {
         name: 'Jenks City Hall / Municipal Court',
         address: '211 N Elm St, Jenks, OK 74037',
@@ -202,8 +202,8 @@ export default function JenksProcessServer() {
             <section className="bg-white p-8 rounded-lg shadow-md mb-12">
               <h3 className="text-2xl font-bold text-blue-800 mb-6">Related Cities & Internal Links</h3>
               <ul className="list-disc list-inside text-blue-700">
-                <li><a href="/seo/broken-arrow-process-server" className="underline">Broken Arrow Process Server</a></li>
-                <li><a href="/seo/bixby-process-server" className="underline">Bixby Process Server</a></li>
+                <li><a href="/service-areas/broken-arrow" className="underline">Broken Arrow Process Server</a></li>
+                <li><a href="/service-areas/bixby" className="underline">Bixby Process Server</a></li>
                 <li><a href="/seo/glenpool-process-server" className="underline">Glenpool Process Server</a></li>
                 <li><a href="/seo/owasso-process-server" className="underline">Owasso Process Server</a></li>
                 <li><a href="/seo/sand-springs-process-server" className="underline">Sand Springs Process Server</a></li>

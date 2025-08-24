@@ -45,7 +45,7 @@ const ResourcesPage = () => {
       articles: [
   { title: "What is a Process Server?", url: "/seo/what-is-a-process-server", preview: "A complete guide to the role and responsibilities of a process server." },
         { title: "Oklahoma Rules of Civil Procedure", url: null, preview: "Understanding the state laws that govern service of process." },
-        { title: "Serving an Evasive Defendant", url: null, preview: "Strategies and legal methods for serving hard-to-find individuals." }
+        { title: "Complete Tulsa Process Server Guide", url: "/process-server-tulsa-guide", preview: "Your comprehensive 2025 guide to selecting and working with process servers in Tulsa." }
       ]
     },
     {
@@ -53,8 +53,8 @@ const ResourcesPage = () => {
       title: "Court Document Types",
       description: "Understanding different legal documents and their service requirements.",
       articles: [
-        { title: "Serving Divorce Papers in Tulsa", url: null, preview: "The specific requirements for serving family law documents." },
-        { title: "How to Serve an Eviction Notice", url: null, preview: "A step-by-step guide for landlords in Oklahoma." },
+        { title: "Serving Divorce Papers in Tulsa", url: "/family-law-service-guide-tulsa-2025", preview: "Professional family law document delivery throughout Tulsa County." },
+        { title: "How to Serve an Eviction Notice", url: "/seo/eviction-notice-process-server", preview: "Professional eviction notice delivery for landlords - complete legal compliance guide." },
         { title: "The Power of a Subpoena", url: null, preview: "Ensuring witnesses and documents are legally compelled to appear." }
       ]
     },
@@ -63,7 +63,7 @@ const ResourcesPage = () => {
       title: "Service of Process by County",
       description: "Learn about specific rules and challenges in different Oklahoma counties.",
       articles: [
-  { title: "Process Serving in Tulsa County", url: "/tulsa-county", preview: "Navigating the busiest judicial district in Oklahoma." },
+  { title: "Process Serving in Tulsa County", url: "/counties/tulsa-county", preview: "Navigating the busiest judicial district in Oklahoma." },
         { title: "Serving Documents in Oklahoma County", url: null, preview: "Key differences for serving in the OKC metro area." },
         { title: "Rural County Process Serving", url: null, preview: "Tips for successful service in less populated areas." }
       ]

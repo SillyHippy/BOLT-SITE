@@ -627,6 +627,130 @@ export default function PhoneReviewValidation() {
             </div>
           </div>
         </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-emerald-100 rounded-full flex items-center justify-center">
+                <span className="text-emerald-600 font-semibold">JK</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Jennifer K.</h3>
+                <span className="text-sm text-gray-500">• Jenks, OK</span>
+                <span className="text-sm text-green-600">• Verified Client</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Needed urgent service near the Oklahoma Aquarium for a family law case. Just Legal Solutions delivered same-day service and navigated the hotel complex perfectly. Their knowledge of the Jenks area saved the day.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Family Law Process Serving</div>
+                <div>Date: August 2025</div>
+                <div>Collection Method: Phone consultation review</div>
+                <div>Verification ID: PSR-2025-158</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
+                <span className="text-blue-600 font-semibold">RM</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Robert M.</h3>
+                <span className="text-sm text-gray-500">• Jenks, OK</span>
+                <span className="text-sm text-green-600">• Verified Client</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Outstanding service at Riverwalk Crossing! They knew exactly how to handle the retail complex service and worked professionally with mall security. Quick, discrete, and effective.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Commercial Process Serving</div>
+                <div>Date: August 2025</div>
+                <div>Collection Method: Phone follow-up feedback</div>
+                <div>Verification ID: PSR-2025-159</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-amber-100 rounded-full flex items-center justify-center">
+                <span className="text-amber-600 font-semibold">SL</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Sarah L.</h3>
+                <span className="text-sm text-gray-500">• Jenks, OK</span>
+                <span className="text-sm text-green-600">• Verified Client</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Impressed by their local knowledge of Jenks neighborhoods. They served papers during the antique festival weekend and handled the Main Street crowds like pros. Highly recommend!&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Civil Document Process Serving</div>
+                <div>Date: August 2025</div>
+                <div>Collection Method: Phone consultation feedback</div>
+                <div>Verification ID: PSR-2025-160</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-slate-100 rounded-full flex items-center justify-center">
+                <span className="text-slate-600 font-semibold">MD</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Michael D.</h3>
+                <span className="text-sm text-gray-500">• Jenks, OK</span>
+                <span className="text-sm text-green-600">• Verified Client</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Needed papers served at The Reserve at Stonebrooke. They handled the gated community protocols perfectly and completed service efficiently. Professional and courteous throughout.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Residential Complex Process Serving</div>
+                <div>Date: August 2025</div>
+                <div>Collection Method: Phone consultation review</div>
+                <div>Verification ID: PSR-2025-161</div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div className="mt-8 bg-gray-50 rounded-lg p-6">

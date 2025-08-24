@@ -164,7 +164,7 @@ const processServingServiceSchema = {
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "5.0",
-    "reviewCount": "142",
+    "reviewCount": "146",
     "bestRating": "5",
     "worstRating": "1"
   }
@@ -264,7 +264,7 @@ const processServingProductSchema = {
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "5.0",
-    "reviewCount": "142",
+    "reviewCount": "146",
     "bestRating": "5",
     "worstRating": "1"
   }
@@ -285,13 +285,13 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       "position": 2,
       "name": "Process Server Services",
-      "item": "https://justlegalsolutions.org/process-server-tulsa/"
+      "item": "https://justlegalsolutions.org/tulsa-process-server/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Tulsa County Process Serving",
-      "item": "https://justlegalsolutions.org/process-server-tulsa/"
+      "item": "https://justlegalsolutions.org/counties/tulsa-county/"
     }
   ]
 };
@@ -419,7 +419,7 @@ function updateSitemapWithSchema() {
       priority: 1.0
     },
     {
-      url: 'https://justlegalsolutions.org/process-server-tulsa/',
+      url: 'https://justlegalsolutions.org/tulsa-process-server/',
       schema: 'Service,HowTo,Product',
       priority: 0.9
     },

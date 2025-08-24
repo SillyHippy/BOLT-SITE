@@ -230,6 +230,18 @@ export default function ProcessServerTulsaGuide() {
           <li>Consider geographic coverage and service area expertise</li>
         </ul>
         <p className="mt-4">Remember: the cheapest option is rarely the best choice when proper legal service is required. Invest in professional, licensed, and experienced process servers who understand Oklahoma law and maintain the highest standards of service excellence.</p>
+        
+        <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mt-6 mb-4">
+          <h3 className="text-lg font-semibold text-blue-800 mb-3">Professional Process Serving Services in Tulsa</h3>
+          <p className="text-blue-700 mb-3">For reliable, licensed process serving throughout Tulsa County, consider these specialized services:</p>
+          <ul className="list-disc ml-6 text-blue-700 space-y-1">
+            <li><a href="/tulsa-process-server" className="underline hover:text-blue-900">Comprehensive Tulsa Process Server Services</a> - Complete legal document delivery</li>
+            <li><a href="/seo/eviction-notice-process-server" className="underline hover:text-blue-900">Eviction Notice Process Server</a> - Specialized landlord-tenant document delivery</li>
+            <li><a href="/family-law-service-guide-tulsa-2025" className="underline hover:text-blue-900">Family Law Document Service</a> - Divorce papers and child custody orders</li>
+            <li><a href="/resources" className="underline hover:text-blue-900">Legal Resources & Guides</a> - Educational materials and FAQs</li>
+          </ul>
+        </div>
+        
         <p className="mt-2 text-sm italic">For more information about process serving requirements in Oklahoma, consult the Oklahoma Administrative Office of the Courts or speak with your attorney about specific case requirements.</p>
       </section>
       </main>

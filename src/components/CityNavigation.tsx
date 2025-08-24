@@ -9,8 +9,8 @@ interface CityNavigationProps {
 
 export default function CityNavigation({ currentCity, className = "" }: CityNavigationProps) {
   const cities = [
-    { name: 'Tulsa', slug: 'tulsa-process-server-comprehensive', county: 'Tulsa County' },
-    { name: 'Broken Arrow', slug: 'broken-arrow-process-server', county: 'Tulsa County' },
+    { name: 'Tulsa', slug: 'tulsa-process-server', county: 'Tulsa County' },
+    { name: 'Broken Arrow', slug: 'service-areas/broken-arrow', county: 'Tulsa County' },
     { name: 'Bixby', slug: 'bixby-process-server', county: 'Tulsa County' },
     { name: 'Jenks', slug: 'jenks-process-server', county: 'Tulsa County' },
     { name: 'Sand Springs', slug: 'sand-springs-process-server', county: 'Tulsa County' },
@@ -37,7 +37,7 @@ export default function CityNavigation({ currentCity, className = "" }: CityNavi
               {cities.map((city) => (
                 <li key={city.slug}>
                   <Link 
-                    href={`/seo/${city.slug}`}
+                    href={city.slug === 'tulsa-process-server' ? '/tulsa-process-server' : `/seo/${city.slug}`}
                     className={`text-blue-600 hover:text-blue-800 hover:underline block ${
                       currentCity === city.slug ? 'font-semibold text-blue-800' : ''
                     }`}

@@ -58,7 +58,7 @@ export default function SearchEngineUniversalOptimization({
         "@id": "https://justlegalsolutions.org/#localbusiness",
         "name": businessName,
         "image": [
-          "https://justlegalsolutions.org/images/process-server-tulsa.jpg",
+          "https://justlegalsolutions.org/images/tulsa-process-server.jpg",
           "https://justlegalsolutions.org/images/legal-documents.jpg"
         ],
         "telephone": "+15393676832",

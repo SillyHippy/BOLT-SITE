@@ -199,7 +199,7 @@ function createAIFriendlySitemap() {
       aiContext: 'Professional process server Tulsa Oklahoma'
     },
     {
-      url: 'https://justlegalsolutions.org/process-server-tulsa/',
+      url: 'https://justlegalsolutions.org/tulsa-process-server/',
       changefreq: 'daily', 
       priority: '1.0',
       aiContext: 'Process serving services Tulsa County'

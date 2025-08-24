@@ -11,8 +11,8 @@ const testEndpoints = [
 ];
 
 const sampleSEOPages = [
-  'http://localhost:3000/seo/process-server-broken-arrow',
-  'http://localhost:3000/seo/process-server-tulsa',
+  'http://localhost:3000/service-areas/broken-arrow',
+  'http://localhost:3000/tulsa-process-server',
   'http://localhost:3000/seo/process-server-norman',
   'http://localhost:3000/seo/process-server-edmond',
   'http://localhost:3000/seo/process-server-lawyers',

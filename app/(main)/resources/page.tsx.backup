@@ -188,7 +188,7 @@ export default function LegalResources() {
       description: "Process serving coverage throughout Oklahoma",
       articles: [
         { title: "Tulsa County Process Server", url: "/seo/process-server-tulsa", preview: "Professional service throughout Tulsa County" },
-        { title: "Broken Arrow Process Server", url: "/seo/process-server-broken-arrow", preview: "Document delivery in Broken Arrow and Wagoner County" },
+        { title: "Broken Arrow Process Server", url: "/service-areas/broken-arrow", preview: "Document delivery in Broken Arrow and Wagoner County" },
         { title: "Sapulpa Process Server", url: "/seo/process-server-sapulpa", preview: "Legal document service in Sapulpa and Creek County" }
       ]
     },

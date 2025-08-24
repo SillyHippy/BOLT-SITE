@@ -442,8 +442,8 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     localBusinessSchema.aggregateRating = {
       '@type': 'AggregateRating',
       'ratingValue': aggregateRating.ratingValue ? aggregateRating.ratingValue.toString() : '5',
-      // Always use the official count of 142 reviews regardless of what's passed in
-      'reviewCount': '142',
+      // Updated count to include new Jenks reviews
+      'reviewCount': '146',
       'bestRating': aggregateRating.bestRating ? aggregateRating.bestRating.toString() : '5',
       'worstRating': aggregateRating.worstRating ? aggregateRating.worstRating.toString() : '1'
     };

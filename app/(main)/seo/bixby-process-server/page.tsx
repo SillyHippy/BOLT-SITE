@@ -42,7 +42,7 @@ const jsonLd = {
 
 // --- High-Quality, Unique Local Content for Bixby, OK ---
 const bixbyData = {
-    history: `Known as "The Garden Spot of Oklahoma," Bixby was founded in 1899 and has a deep history rooted in agriculture along the fertile Arkansas River valley. Today, it is one of the fastest-growing suburbs of Tulsa, known for its excellent schools and family-oriented communities. This rapid growth means a mix of established rural properties and new, large-scale residential developments, requiring a process server with versatile local knowledge. As part of Tulsa County, our Bixby team collaborates with the <a href="/tulsa-county" className="text-blue-700 underline">Tulsa County Process Server</a> network to ensure seamless legal support across the region.`,
+    history: `Known as "The Garden Spot of Oklahoma," Bixby was founded in 1899 and has a deep history rooted in agriculture along the fertile Arkansas River valley. Today, it is one of the fastest-growing suburbs of Tulsa, known for its excellent schools and family-oriented communities. This rapid growth means a mix of established rural properties and new, large-scale residential developments, requiring a process server with versatile local knowledge. As part of Tulsa County, our Bixby team collaborates with the <a href="/counties/tulsa-county" className="text-blue-700 underline">Tulsa County Process Server</a> network to ensure seamless legal support across the region.`,
     courthouse: {
         name: 'Bixby Municipal Court (City Hall)',
         address: '116 W Needles Ave, Bixby, OK 74008',
@@ -228,7 +228,7 @@ const BixbyProcessServer = () => {
             <section className="bg-white p-8 rounded-lg shadow-md mb-12">
               <h3 className="text-2xl font-bold text-blue-800 mb-6">Related Cities & Internal Links</h3>
               <ul className="list-disc list-inside text-blue-700">
-                <li><a href="/seo/broken-arrow-process-server" className="underline">Broken Arrow Process Server</a></li>
+                <li><a href="/service-areas/broken-arrow" className="underline">Broken Arrow Process Server</a></li>
                 <li><a href="/seo/jenks-process-server" className="underline">Jenks Process Server</a></li>
                 <li><a href="/seo/glenpool-process-server" className="underline">Glenpool Process Server</a></li>
                 <li><a href="/seo/owasso-process-server" className="underline">Owasso Process Server</a></li>

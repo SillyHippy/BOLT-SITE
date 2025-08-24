@@ -167,14 +167,14 @@ export default function ContactPage() {
                   <blockquote className="border-l-4 border-blue-400 pl-4 italic text-gray-800 mb-2">
                     &quot;Fast, professional, and reliable! Just Legal Solutions made the process easy and stress-free.&quot;
                     <br />
-                    <span className="text-sm text-gray-500">- Sarah T., <a href="/seo/tulsa-process-server-comprehensive" className="text-blue-600 hover:underline">Tulsa</a></span>
+                    <span className="text-sm text-gray-500">- Sarah T., <a href="/tulsa-process-server" className="text-blue-600 hover:underline">Tulsa</a></span>
                   </blockquote>
                 </CarouselItem>
                 <CarouselItem>
                   <blockquote className="border-l-4 border-blue-400 pl-4 italic text-gray-800 mb-2">
                     &quot;Highly recommend for anyone needing process serving in Oklahoma. Great communication and results.&quot;
                     <br />
-                    <span className="text-sm text-gray-500">- Mark D., <a href="/seo/broken-arrow-process-server" className="text-blue-600 hover:underline">Broken Arrow</a></span>
+                    <span className="text-sm text-gray-500">- Mark D., <a href="/service-areas/broken-arrow" className="text-blue-600 hover:underline">Broken Arrow</a></span>
                   </blockquote>
                 </CarouselItem>
                 <CarouselItem>
@@ -186,16 +186,16 @@ export default function ContactPage() {
                 </CarouselItem>
                 <CarouselItem>
                   <blockquote className="border-l-4 border-blue-400 pl-4 italic text-gray-800">
-                    &quot;Best process server in <a href="/seo/bixby-process-server" className="text-blue-600 hover:underline">Bixby</a>! Fast and affordable.&quot;
+                    &quot;Best process server in <a href="/service-areas/bixby" className="text-blue-600 hover:underline">Bixby</a>! Fast and affordable.&quot;
                     <br />
-                    <span className="text-sm text-gray-500">- John S., <a href="/seo/bixby-process-server" className="text-blue-600 hover:underline">Bixby</a></span>
+                    <span className="text-sm text-gray-500">- John S., <a href="/service-areas/bixby" className="text-blue-600 hover:underline">Bixby</a></span>
                   </blockquote>
                 </CarouselItem>
                 <CarouselItem>
                   <blockquote className="border-l-4 border-blue-400 pl-4 italic text-gray-800">
-                    &quot;Handled my legal documents in <a href="/seo/jenks-process-server" className="text-blue-600 hover:underline">Jenks</a> with care and speed.&quot;
+                    &quot;Handled my legal documents in <a href="/service-areas/jenks" className="text-blue-600 hover:underline">Jenks</a> with care and speed.&quot;
                     <br />
-                    <span className="text-sm text-gray-500">- Emily R., <a href="/seo/jenks-process-server" className="text-blue-600 hover:underline">Jenks</a></span>
+                    <span className="text-sm text-gray-500">- Emily R., <a href="/service-areas/jenks" className="text-blue-600 hover:underline">Jenks</a></span>
                   </blockquote>
                 </CarouselItem>
                 <CarouselItem>
@@ -263,10 +263,10 @@ export default function ContactPage() {
           <div className="text-xs text-gray-500 mt-2">
             <span>
               Serving
-              {' '}<a href="/seo/tulsa-process-server-comprehensive" className="text-blue-600 hover:underline">Tulsa</a>,
-              {' '}<a href="/seo/broken-arrow-process-server" className="text-blue-600 hover:underline">Broken Arrow</a>,
-              {' '}<a href="/seo/bixby-process-server" className="text-blue-600 hover:underline">Bixby</a>,
-              {' '}<a href="/seo/jenks-process-server" className="text-blue-600 hover:underline">Jenks</a>,
+              {' '}<a href="/tulsa-process-server" className="text-blue-600 hover:underline">Tulsa</a>,
+              {' '}<a href="/service-areas/broken-arrow" className="text-blue-600 hover:underline">Broken Arrow</a>,
+              {' '}<a href="/service-areas/bixby" className="text-blue-600 hover:underline">Bixby</a>,
+              {' '}<a href="/service-areas/jenks" className="text-blue-600 hover:underline">Jenks</a>,
               {' '}<a href="/seo/owasso-process-server" className="text-blue-600 hover:underline">Owasso</a>,
               {' '}<a href="/seo/sand-springs-process-server" className="text-blue-600 hover:underline">Sand Springs</a>,
               {' '}<a href="/service-areas/sapulpa" className="text-blue-600 hover:underline">Sapulpa</a>,

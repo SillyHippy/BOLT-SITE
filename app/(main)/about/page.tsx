@@ -124,7 +124,7 @@ export default function AboutPage() {
 
             <div className="relative w-full h-64 my-8 rounded-lg overflow-hidden">
               <Image
-                src="/images/process-server-tulsa.webp"
+                src="/images/tulsa-process-server.webp"
                 alt="Tulsa County Courthouse where legal documents are filed"
                 fill
                 className="object-cover"
@@ -154,7 +154,7 @@ export default function AboutPage() {
             </p>
 
             <p className="mb-6">
-              When that opportunity ended, he knew his mission was just beginning. His true passion has always been helping people, and he founded <Link href="/" className="text-blue-600 hover:text-blue-800">Just Legal Solutions</Link> as a direct extension of that core belief. His philosophy is simple: people should help people. The legal system often treats individuals like a case number, but behind every document is a human being trying to make ends meet. This belief is why, in addition to running his business, he works part-time at a local nonprofit, helping people with disabilities find gainful employment and independence. It&apos;s why he builds strategic partnerships with attorneys and other <Link href="/process-server-tulsa" className="text-blue-600 hover:text-blue-800">process servers</Link> across Oklahoma—to make every service as cost-effective as possible.
+              When that opportunity ended, he knew his mission was just beginning. His true passion has always been helping people, and he founded <Link href="/" className="text-blue-600 hover:text-blue-800">Just Legal Solutions</Link> as a direct extension of that core belief. His philosophy is simple: people should help people. The legal system often treats individuals like a case number, but behind every document is a human being trying to make ends meet. This belief is why, in addition to running his business, he works part-time at a local nonprofit, helping people with disabilities find gainful employment and independence. It&apos;s why he builds strategic partnerships with attorneys and other <Link href="/tulsa-process-server" className="text-blue-600 hover:text-blue-800">process servers</Link> across Oklahoma—to make every service as cost-effective as possible.
             </p>
 
             <blockquote className="border-l-4 border-green-500 pl-6 my-8 italic text-gray-700">
@@ -189,19 +189,19 @@ export default function AboutPage() {
             <h3 className="text-2xl font-semibold text-gray-800 mb-4">1. Unmatched Speed with <Link href="/urgent-process-server" className="text-blue-600 hover:text-blue-800">24/7 Emergency Service</Link></h3>
 
             <p className="mb-6">
-              Legal emergencies don&apos;t keep business hours. Recognizing this, the company operates a dedicated <Link href="/urgent-process-server" className="text-blue-600 hover:text-blue-800">24/7 emergency</Link> hotline. Whether a client needs an emergency <Link href="/process-server-tulsa" className="text-blue-600 hover:text-blue-800">process server</Link> in <Link href="/tulsa-process-server" className="text-blue-600 hover:text-blue-800">Tulsa</Link> for a last-minute <Link href="/urgent-process-server" className="text-blue-600 hover:text-blue-800">restraining order</Link>, same-day legal document delivery in <Link href="/seo/process-server-broken-arrow" className="text-blue-600 hover:text-blue-800">Broken Arrow</Link> for an urgent court filing, or weekend service for a hard-to-reach individual in <Link href="/service-areas/sapulpa" className="text-blue-600 hover:text-blue-800">Sapulpa</Link>, the team is always ready to respond.
+              Legal emergencies don&apos;t keep business hours. Recognizing this, the company operates a dedicated <Link href="/urgent-process-server" className="text-blue-600 hover:text-blue-800">24/7 emergency</Link> hotline. Whether a client needs an emergency <Link href="/tulsa-process-server" className="text-blue-600 hover:text-blue-800">process server</Link> in <Link href="/tulsa-process-server" className="text-blue-600 hover:text-blue-800">Tulsa</Link> for a last-minute <Link href="/urgent-process-server" className="text-blue-600 hover:text-blue-800">restraining order</Link>, same-day legal document delivery in <Link href="/service-areas/broken-arrow" className="text-blue-600 hover:text-blue-800">Broken Arrow</Link> for an urgent court filing, or weekend service for a hard-to-reach individual in <Link href="/service-areas/sapulpa" className="text-blue-600 hover:text-blue-800">Sapulpa</Link>, the team is always ready to respond.
             </p>
 
-            <h3 className="text-2xl font-semibold text-gray-800 mb-4">2. <Link href="/process-server-tulsa" className="text-blue-600 hover:text-blue-800">AI-Powered Precision and Skip Tracing</Link></h3>
+            <h3 className="text-2xl font-semibold text-gray-800 mb-4">2. <Link href="/tulsa-process-server" className="text-blue-600 hover:text-blue-800">AI-Powered Precision and Skip Tracing</Link></h3>
 
             <p className="mb-6">
-              In an industry that often relies on outdated methods, <Link href="/" className="text-blue-600 hover:text-blue-800">Just Legal Solutions</Link> leverages cutting-edge technology. A proprietary AI-powered platform is used for advanced address verification and <Link href="/seo/tulsa-process-server-comprehensive" className="text-blue-600 hover:text-blue-800">skip tracing</Link>. This system cross-references multiple data sources in real-time, dramatically increasing the probability of a successful first attempt.
+              In an industry that often relies on outdated methods, <Link href="/" className="text-blue-600 hover:text-blue-800">Just Legal Solutions</Link> leverages cutting-edge technology. A proprietary AI-powered platform is used for advanced address verification and <Link href="/tulsa-process-server" className="text-blue-600 hover:text-blue-800">skip tracing</Link>. This system cross-references multiple data sources in real-time, dramatically increasing the probability of a successful first attempt.
             </p>
 
-            <h3 className="text-2xl font-semibold text-gray-800 mb-4">3. <Link href="/process-server-tulsa" className="text-blue-600 hover:text-blue-800">Core Process Serving for All Legal Matters</Link></h3>
+            <h3 className="text-2xl font-semibold text-gray-800 mb-4">3. <Link href="/tulsa-process-server" className="text-blue-600 hover:text-blue-800">Core Process Serving for All Legal Matters</Link></h3>
 
             <p className="mb-6">
-              We provide prompt, professional, and legally compliant delivery of all court documents. This includes civil summons and complaints, <Link href="/process-server-tulsa" className="text-blue-600 hover:text-blue-800">subpoenas</Link>, divorce papers, <Link href="/urgent-process-server" className="text-blue-600 hover:text-blue-800">restraining orders</Link>, and <Link href="/process-server-tulsa" className="text-blue-600 hover:text-blue-800">small claims documents</Link>.
+              We provide prompt, professional, and legally compliant delivery of all court documents. This includes civil summons and complaints, <Link href="/tulsa-process-server" className="text-blue-600 hover:text-blue-800">subpoenas</Link>, divorce papers, <Link href="/urgent-process-server" className="text-blue-600 hover:text-blue-800">restraining orders</Link>, and <Link href="/tulsa-process-server" className="text-blue-600 hover:text-blue-800">small claims documents</Link>.
             </p>
 
             <h3 className="text-2xl font-semibold text-gray-800 mb-4">4. <Link href="/seo/eviction-notice-process-server" className="text-blue-600 hover:text-blue-800">Specialized Services for Landlords and Property Managers</Link></h3>
@@ -234,38 +234,38 @@ export default function AboutPage() {
             <div className="bg-gray-50 p-6 rounded-lg my-6">
               <h4 className="text-xl font-semibold mb-3">The Race Against the Clock</h4>
               <p className="mb-4">
-                A <Link href="/tulsa-process-server" className="text-blue-600 hover:text-blue-800">Tulsa</Link> law firm called us in a panic. They needed a crucial document served that same day, within hours, before the courthouse closed. A failure to serve would mean their client&apos;s case could be delayed for months. We immediately dropped all non-emergent tasks and focused entirely on their case. After several attempts and rapid <Link href="/seo/tulsa-process-server-comprehensive" className="text-blue-600 hover:text-blue-800">skip-tracing</Link> analysis, we located the individual, completed the service, and filed the paperwork with the court just in time. The case proceeded, saving the attorney&apos;s client from a costly and stressful delay.
+                A <Link href="/tulsa-process-server" className="text-blue-600 hover:text-blue-800">Tulsa</Link> law firm called us in a panic. They needed a crucial document served that same day, within hours, before the courthouse closed. A failure to serve would mean their client&apos;s case could be delayed for months. We immediately dropped all non-emergent tasks and focused entirely on their case. After several attempts and rapid <Link href="/tulsa-process-server" className="text-blue-600 hover:text-blue-800">skip-tracing</Link> analysis, we located the individual, completed the service, and filed the paperwork with the court just in time. The case proceeded, saving the attorney&apos;s client from a costly and stressful delay.
               </p>
             </div>
 
             <div className="bg-gray-50 p-6 rounded-lg my-6">
               <h4 className="text-xl font-semibold mb-3">People Over Profit</h4>
               <p className="mb-4">
-                A few months ago, an individual contacted us in desperation. They had spent all their money on other <Link href="/process-server-tulsa" className="text-blue-600 hover:text-blue-800">process servers</Link> and even the Sheriff&apos;s office, all of whom had failed to serve papers for a sensitive child adoption case. They couldn&apos;t afford our cheapest package. Believing that everyone deserves access to justice, we negotiated a rate they could afford, even though it meant no profit for us. We got the job done, and because the court didn&apos;t allow e-filing, we personally filed the documents at no extra charge. Today, that client is a close friend.
+                A few months ago, an individual contacted us in desperation. They had spent all their money on other <Link href="/tulsa-process-server" className="text-blue-600 hover:text-blue-800">process servers</Link> and even the Sheriff&apos;s office, all of whom had failed to serve papers for a sensitive child adoption case. They couldn&apos;t afford our cheapest package. Believing that everyone deserves access to justice, we negotiated a rate they could afford, even though it meant no profit for us. We got the job done, and because the court didn&apos;t allow e-filing, we personally filed the documents at no extra charge. Today, that client is a close friend.
               </p>
             </div>
 
             <div className="bg-gray-50 p-6 rounded-lg my-6">
               <h4 className="text-xl font-semibold mb-3">The Evasive Target</h4>
               <p className="mb-4">
-                A company had tried to serve an evasive individual twelve separate times without success. They couldn&apos;t afford an expensive stakeout service. We took the case and deployed our <Link href="/seo/tulsa-process-server-comprehensive" className="text-blue-600 hover:text-blue-800">skip-tracing</Link> tools. We confirmed his address but learned he worked nights, outside of normal service hours. After observing his routine, we saw him leave his apartment near midnight. We successfully and legally served him at a nearby gas station, finally allowing the case to move forward where so many others had failed.
+                A company had tried to serve an evasive individual twelve separate times without success. They couldn&apos;t afford an expensive stakeout service. We took the case and deployed our <Link href="/tulsa-process-server" className="text-blue-600 hover:text-blue-800">skip-tracing</Link> tools. We confirmed his address but learned he worked nights, outside of normal service hours. After observing his routine, we saw him leave his apartment near midnight. We successfully and legally served him at a nearby gas station, finally allowing the case to move forward where so many others had failed.
               </p>
             </div>
 
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Serving All of Oklahoma</h2>
 
             <p className="mb-6">
-              While our primary focus is on <Link href="/tulsa-process-server" className="text-blue-600 hover:text-blue-800">Tulsa</Link> and northeastern Oklahoma, <Link href="/" className="text-blue-600 hover:text-blue-800">Just Legal Solutions</Link> is a fully licensed statewide <Link href="/process-server-tulsa" className="text-blue-600 hover:text-blue-800">process serving</Link> company. Our network of trusted partners allows us to handle serves in any of Oklahoma&apos;s 77 counties with the same level of professionalism and urgency. Our deep local knowledge is concentrated in our core service areas, but our capabilities are statewide.
+              While our primary focus is on <Link href="/tulsa-process-server" className="text-blue-600 hover:text-blue-800">Tulsa</Link> and northeastern Oklahoma, <Link href="/" className="text-blue-600 hover:text-blue-800">Just Legal Solutions</Link> is a fully licensed statewide <Link href="/tulsa-process-server" className="text-blue-600 hover:text-blue-800">process serving</Link> company. Our network of trusted partners allows us to handle serves in any of Oklahoma&apos;s 77 counties with the same level of professionalism and urgency. Our deep local knowledge is concentrated in our core service areas, but our capabilities are statewide.
             </p>
 
             <h3 className="text-2xl font-semibold text-gray-800 mb-4">Core Service Areas:</h3>
 
             <div className="grid md:grid-cols-2 gap-6 mb-8">
               <div>
-                <h4 className="text-lg font-semibold mb-3"><Link href="/tulsa-county" className="text-blue-600 hover:text-blue-800">Tulsa County</Link>:</h4>
+                <h4 className="text-lg font-semibold mb-3"><Link href="/counties/tulsa-county" className="text-blue-600 hover:text-blue-800">Tulsa County</Link>:</h4>
                 <ul className="list-disc list-inside space-y-1">
                   <li><Link href="/tulsa-process-server" className="text-blue-600 hover:text-blue-800">Tulsa</Link></li>
-                  <li><Link href="/seo/process-server-broken-arrow" className="text-blue-600 hover:text-blue-800">Broken Arrow</Link></li>
+                  <li><Link href="/service-areas/broken-arrow" className="text-blue-600 hover:text-blue-800">Broken Arrow</Link></li>
                   <li><Link href="/service-areas/bixby" className="text-blue-600 hover:text-blue-800">Bixby</Link></li>
                   <li><Link href="/service-areas/jenks" className="text-blue-600 hover:text-blue-800">Jenks</Link></li>
                   <li><Link href="/service-areas/owasso" className="text-blue-600 hover:text-blue-800">Owasso</Link></li>

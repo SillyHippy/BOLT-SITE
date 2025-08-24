@@ -76,7 +76,7 @@ export default function CourierServicesTulsaPage() {
           <div className="container mx-auto px-4 max-w-3xl">
             <h2 className="text-3xl font-bold text-blue-900 mb-4">Serving All of Tulsa County with Trusted Courier Solutions</h2>
             <p className="text-lg text-gray-700 mb-4">
-              Our courier and legal document delivery services are trusted by law firms, businesses, and individuals across every city and community in Tulsa County. Whether you need urgent delivery in <Link href="/tulsa-process-server" className="text-blue-700 underline font-semibold">Tulsa</Link>, secure transport in <Link href="/seo/broken-arrow-process-server" className="text-blue-700 underline font-semibold">Broken Arrow</Link>, or fast service in <Link href="/seo/bixby-process-server" className="text-blue-700 underline font-semibold">Bixby</Link>, <Link href="/seo/jenks-process-server" className="text-blue-700 underline font-semibold">Jenks</Link>, <Link href="/seo/sand-springs-process-server" className="text-blue-700 underline font-semibold">Sand Springs</Link>, or <Link href="/seo/owasso-process-server" className="text-blue-700 underline font-semibold">Owasso</Link>, we have you covered.
+              Our courier and legal document delivery services are trusted by law firms, businesses, and individuals across every city and community in Tulsa County. Whether you need urgent delivery in <Link href="/tulsa-process-server" className="text-blue-700 underline font-semibold">Tulsa</Link>, secure transport in <Link href="/service-areas/broken-arrow" className="text-blue-700 underline font-semibold">Broken Arrow</Link>, or fast service in <Link href="/service-areas/bixby" className="text-blue-700 underline font-semibold">Bixby</Link>, <Link href="/service-areas/jenks" className="text-blue-700 underline font-semibold">Jenks</Link>, <Link href="/seo/sand-springs-process-server" className="text-blue-700 underline font-semibold">Sand Springs</Link>, or <Link href="/seo/owasso-process-server" className="text-blue-700 underline font-semibold">Owasso</Link>, we have you covered.
             </p>
             <p className="text-lg text-gray-700 mb-4">
               We understand the unique needs of each Tulsa County city, from the business corridors of Tulsa to the residential neighborhoods of Broken Arrow and the growing suburbs. Our <Link href="/courier-services-tulsa" className="text-blue-700 underline font-semibold">Courier Services Tulsa</Link> page details our same-day, secure courier options for every legal and business need.
@@ -146,9 +146,9 @@ export default function CourierServicesTulsaPage() {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center mb-4 service-area">
               {[
                 { name: 'Tulsa', href: '/tulsa-process-server' },
-                { name: 'Broken Arrow', href: '/seo/broken-arrow-process-server' },
-                { name: 'Bixby', href: '/seo/bixby-process-server' },
-                { name: 'Jenks', href: '/seo/jenks-process-server' },
+                { name: 'Broken Arrow', href: '/service-areas/broken-arrow' },
+                { name: 'Bixby', href: '/service-areas/bixby' },
+                { name: 'Jenks', href: '/service-areas/jenks' },
                 { name: 'Sand Springs', href: '/seo/sand-springs-process-server' },
                 { name: 'Owasso', href: '/seo/owasso-process-server' },
                 { name: 'Glenpool', href: '/seo/glenpool-process-server' },

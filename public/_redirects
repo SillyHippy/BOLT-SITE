@@ -1,13 +1,19 @@
 # Cloudflare Pages redirects for SEO optimization
 
-# Redirect old URLs to new SEO-optimized structure
-/process-server-jenks /seo/jenks-process-server 301
+# Redirect old URLs to new consolidated service area pages
+/process-server-jenks /service-areas/jenks 301
+/seo/jenks-process-server /service-areas/jenks 301
+/seo/process-server-jenks /service-areas/jenks 301
+/jenks-process-server /service-areas/jenks 301
+
+# Redirect tulsa-county to consolidated counties page
+/tulsa-county /counties/tulsa-county 301
+
 /process-server-sand-springs /seo/sand-springs-process-server 301
 /process-server-owasso /seo/owasso-process-server 301
 /process-server-glenpool /seo/glenpool-process-server 301
 
 # Redirect common variations
-/jenks-process-server /seo/jenks-process-server 301
 /sand-springs-process-server /seo/sand-springs-process-server 301
 /owasso-process-server /seo/owasso-process-server 301
 

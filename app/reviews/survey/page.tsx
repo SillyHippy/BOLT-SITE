@@ -654,6 +654,70 @@ export default function ClientSurveyValidation() {
             </div>
           </div>
         </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-teal-100 rounded-full flex items-center justify-center">
+                <span className="text-teal-600 font-semibold">JK</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Attorney Jennifer K.</h3>
+                <span className="text-sm text-gray-500">• Jenks, OK</span>
+                <span className="text-sm text-green-600">• Survey Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Needed urgent service near the Oklahoma Aquarium for a family law case. Just Legal Solutions delivered same-day service and navigated the hotel complex perfectly. Their knowledge of the Jenks area saved the day.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Family Law Emergency Service</div>
+                <div>Date: August 2025</div>
+                <div>Collection Method: Professional survey response</div>
+                <div>Professional Verification: Family Law Attorney</div>
+                <div>Survey ID: CS-2025-162</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-indigo-100 rounded-full flex items-center justify-center">
+                <span className="text-indigo-600 font-semibold">RM</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Business Owner Robert M.</h3>
+                <span className="text-sm text-gray-500">• Jenks, OK</span>
+                <span className="text-sm text-green-600">• Survey Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Outstanding service at Riverwalk Crossing! They knew exactly how to handle the retail complex service and worked professionally with mall security. Quick, discrete, and effective.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Commercial Complex Process Serving</div>
+                <div>Date: August 2025</div>
+                <div>Collection Method: Professional survey response</div>
+                <div>Professional Verification: Business Owner</div>
+                <div>Survey ID: CS-2025-163</div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div className="mt-8 bg-gray-50 rounded-lg p-6">

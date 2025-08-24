@@ -17,15 +17,15 @@ const criticalPages = [
   { path: '/pricing/', name: 'Pricing Page' },
   { path: '/card/calendar/', name: 'Calendar Booking' },
   { path: '/tulsa-process-server/', name: 'Main Process Server Page' },
-  { path: '/process-server-tulsa/', name: 'Alt Process Server Page' },
+  { path: '/tulsa-process-server/', name: 'Alt Process Server Page' },
   { path: '/courier-services-tulsa/', name: 'Courier Services Page' }
 ];
 
 // SEO pages to test (sample)
 const seoPages = [
-  { path: '/seo/process-server-broken-arrow/', name: 'Broken Arrow SEO' },
-  { path: '/seo/process-server-jenks/', name: 'Jenks SEO' },
-  { path: '/seo/process-server-bixby/', name: 'Bixby SEO' },
+  { path: '/service-areas/broken-arrow/', name: 'Broken Arrow SEO' },
+  { path: '/service-areas/jenks/', name: 'Jenks Service Area' },
+  { path: '/service-areas/bixby/', name: 'Bixby' },
   { path: '/seo/process-server-lawyers/', name: 'Lawyers Industry SEO' },
   { path: '/seo/debt-collection-process-server/', name: 'Debt Collection SEO' },
   { path: '/seo/same-day-process-serving-tulsa/', name: 'Same Day Service SEO' }

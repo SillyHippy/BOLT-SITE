@@ -7,7 +7,7 @@ $highValuePages = @(
     "app\services\page.tsx", 
     "app\(main)\pricing\page.tsx",
     "app\tulsa-process-server\page.tsx",
-    "app\process-server-tulsa\page.tsx",
+    "app\(main)\tulsa-process-server\page.tsx",
     "app\courier-services-tulsa\page.tsx"
 )
 
