@@ -531,7 +531,7 @@ export default function WhatIsAProcessServerPage() {
           {/* Professional Image */}
           <div className="text-center mb-8">
             <Image 
-              src="/images/tulsa-process-server-delivering-documents.png"
+              src="/imagesforblogpost/professional-process-server-tulsa-delivering-legal-documents.png"
               alt="Professional process server delivering legal documents in Tulsa, Oklahoma"
               width={600}
               height={400}
@@ -567,16 +567,52 @@ export default function WhatIsAProcessServerPage() {
               </div>
             </div>
 
-            {/* Trust Badges */}
+            {/* Trust Badges with Your Professional Badges */}
             <div className="text-center mb-8">
-              <Image 
-                src="/images/oklahoma-licensed-bonded-process-server-badges.png"
-                alt="Licensed and bonded process server trust badges Oklahoma"
-                width={800}
-                height={200}
-                className="mx-auto"
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 800px"
-              />
+              <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 max-w-4xl mx-auto">
+                <Image 
+                  src="/badges/licensed-bonded-badge.svg"
+                  alt="Licensed and bonded process server"
+                  width={120}
+                  height={120}
+                  className="mx-auto"
+                />
+                <Image 
+                  src="/badges/50-years-experience.svg"
+                  alt="50 years experience in legal field"
+                  width={120}
+                  height={120}
+                  className="mx-auto"
+                />
+                <Image 
+                  src="/badges/24-7-emergency-service-badge.svg"
+                  alt="24/7 emergency service available"
+                  width={120}
+                  height={120}
+                  className="mx-auto"
+                />
+                <Image 
+                  src="/badges/99-9-percent-success-rate-badge.svg"
+                  alt="99.9% success rate"
+                  width={120}
+                  height={120}
+                  className="mx-auto"
+                />
+                <Image 
+                  src="/badges/oklahoma-statewide-coverage-badge.svg"
+                  alt="Oklahoma statewide coverage"
+                  width={120}
+                  height={120}
+                  className="mx-auto"
+                />
+                <Image 
+                  src="/badges/trusted-by-law-firms-badge.svg"
+                  alt="Trusted by law firms"
+                  width={120}
+                  height={120}
+                  className="mx-auto"
+                />
+              </div>
             </div>
 
             <div className="text-center bg-gray-50 p-6 rounded-lg">
@@ -667,17 +703,28 @@ export default function WhatIsAProcessServerPage() {
               </div>
             </section>
 
-            {/* Service Area Map */}
+            {/* Service Area Map with Oklahoma Frame */}
             <section className="mb-12" id="service-areas">
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Our Oklahoma Service Area</h2>
-              <div className="text-center mb-6">
-                <Image 
-                  src="/images/oklahoma-process-server-service-area-map.png"
-                  alt="Oklahoma process server service area map covering Tulsa and surrounding counties"
-                  width={800}
-                  height={500}
-                  className="mx-auto rounded-lg shadow-lg"
-                />
+              
+              {/* Oklahoma Flag Background Frame */}
+              <div className="relative mb-6">
+                <div className="text-center">
+                  <Image 
+                    src="/images/OklahomaFlag.jpg"
+                    alt="Oklahoma state flag representing our statewide process server coverage"
+                    width={800}
+                    height={500}
+                    className="mx-auto rounded-lg shadow-lg opacity-90"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 800px"
+                  />
+                </div>
+                <div className="absolute inset-0 bg-blue-900 bg-opacity-20 rounded-lg flex items-center justify-center">
+                  <div className="text-center text-white">
+                    <h3 className="text-3xl font-bold mb-2 drop-shadow-lg">Statewide Oklahoma Coverage</h3>
+                    <p className="text-xl drop-shadow-lg">Serving All 77 Counties</p>
+                  </div>
+                </div>
               </div>
               
               <div className="grid md:grid-cols-2 gap-8 mb-6">
@@ -722,6 +769,19 @@ export default function WhatIsAProcessServerPage() {
                 <strong>We serve every city, town, and county in Oklahoma.</strong> Same-day service available within 50 miles of <Link href="/tulsa-process-server" className="text-blue-600 hover:underline font-medium">Tulsa</Link>/<Link href="/service-areas/glenpool" className="text-blue-600 hover:underline font-medium">Glenpool</Link>. 
                 Standard 24-48 hour service for all other Oklahoma locations.
               </p>
+              
+              {/* Tulsa County Courthouse Image */}
+              <div className="text-center mt-8">
+                <Image 
+                  src="/imagesforblogpost/tulsa-county-courthouse-oklahoma-legal-system.png"
+                  alt="Tulsa County Courthouse - Oklahoma legal system where we file affidavits"
+                  width={600}
+                  height={400}
+                  className="mx-auto rounded-lg shadow-lg"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 60vw, 600px"
+                />
+                <p className="text-sm text-gray-600 mt-2 italic">Tulsa County Courthouse - Where we file your affidavits of service</p>
+              </div>
             </section>
 
             {/* Complete List of Legal Documents Section */}
@@ -1267,11 +1327,12 @@ export default function WhatIsAProcessServerPage() {
               
               <div className="text-center mb-8">
                 <Image 
-                  src="/images/professional-process-server-credentials-oklahoma.png"
+                  src="/images/Professional process server business logo badge with scales of justice and Oklahoma outline for legal services.png"
                   alt="Professional process server credentials and qualifications Oklahoma"
                   width={1000}
                   height={600}
                   className="rounded-xl shadow-lg mx-auto"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 1000px"
                 />
               </div>
 
@@ -1350,11 +1411,12 @@ export default function WhatIsAProcessServerPage() {
               
               <div className="text-center mb-8">
                 <Image 
-                  src="/images/oklahoma-counties-process-server-coverage.png"
+                  src="/images/oklahoma-process-server-service-area-map.png"
                   alt="Oklahoma counties process server coverage map"
                   width={1000}
                   height={600}
                   className="rounded-xl shadow-lg mx-auto"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 1000px"
                 />
               </div>
 
@@ -1546,7 +1608,7 @@ export default function WhatIsAProcessServerPage() {
               
               <div className="text-center mb-8">
                 <Image 
-                  src="/images/oklahoma-process-server-licensing-requirements.png"
+                  src="/images/Technology legal compliance flowchart.png"
                   alt="Oklahoma process server licensing requirements and legal compliance"
                   width={900}
                   height={500}
@@ -1853,11 +1915,12 @@ export default function WhatIsAProcessServerPage() {
               
               <div className="text-center mb-8">
                 <Image 
-                  src="/images/modern-process-serving-technology.png"
+                  src="/imagesforblogpost/gps-tracking-technology-process-server-equipment.png"
                   alt="Modern technology in process serving - GPS tracking and digital communication"
                   width={1000}
                   height={600}
                   className="rounded-xl shadow-lg mx-auto"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 1000px"
                 />
               </div>
 
