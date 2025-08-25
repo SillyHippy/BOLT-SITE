@@ -1,10 +1,39 @@
 import Image from 'next/image';
-import Head from 'next/head';
+import { Metadata } from 'next';
 import JsonLd from '../../components/JsonLd';
 import Navbar from '../../components/ui/navbar';
 import Footer from '../../components/ui/footer';
 
 const canonicalUrl = 'https://justlegalsolutions.org/process-server-tulsa-guide';
+
+export const metadata: Metadata = {
+  title: 'Complete Guide to Process Server Selection in Tulsa: 2025 Edition',
+  description: 'Your complete resource for selecting, hiring, and working with professional process servers in Tulsa County. Learn about Oklahoma laws, pricing, and best practices for 2025.',
+  keywords: 'Tulsa process server, Oklahoma process server, legal document delivery, process server guide, 2025, service of process, legal compliance, pricing, best practices',
+  authors: [{ name: 'JLS Legal Solutions' }],
+  robots: 'index, follow',
+  openGraph: {
+    title: 'Complete Guide to Process Server Selection in Tulsa: 2025 Edition',
+    description: 'Everything you need to know about hiring a process server in Tulsa, Oklahoma. Legal requirements, pricing, and expert tips for 2025.',
+    images: ['/imagesforblogpost/tulsa-county-courthouse-oklahoma-legal-system.png'],
+    type: 'article',
+    siteName: 'Just Legal Solutions',
+    locale: 'en_US',
+    publishedTime: '2025-08-13',
+    modifiedTime: '2025-08-13'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Complete Guide to Process Server Selection in Tulsa: 2025 Edition',
+    description: 'Your complete resource for selecting, hiring, and working with professional process servers in Tulsa County.',
+    images: ['/imagesforblogpost/tulsa-county-courthouse-oklahoma-legal-system.png'],
+    site: '@JustLegalSolutions',
+    creator: '@JustLegalSolutions'
+  },
+  alternates: {
+    canonical: canonicalUrl
+  }
+};
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
@@ -52,28 +81,6 @@ const breadcrumbSchema = {
 export default function ProcessServerTulsaGuide() {
   return (
     <>
-      <Head>
-        <title>Complete Guide to Process Server Selection in Tulsa: 2025 Edition</title>
-        <meta name="description" content="Your complete resource for selecting, hiring, and working with professional process servers in Tulsa County. Learn about Oklahoma laws, pricing, and best practices for 2025." />
-        <meta name="keywords" content="Tulsa process server, Oklahoma process server, legal document delivery, process server guide, 2025, service of process, legal compliance, pricing, best practices" />
-        <meta property="og:title" content="Complete Guide to Process Server Selection in Tulsa: 2025 Edition" />
-        <meta property="og:description" content="Everything you need to know about hiring a process server in Tulsa, Oklahoma. Legal requirements, pricing, and expert tips for 2025." />
-        <meta property="og:image" content="/imagesforblogpost/tulsa-county-courthouse-oklahoma-legal-system.png" />
-        <meta property="og:type" content="article" />
-        <meta property="og:site_name" content="Just Legal Solutions" />
-        <meta property="og:locale" content="en_US" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Complete Guide to Process Server Selection in Tulsa: 2025 Edition" />
-        <meta name="twitter:description" content="Your complete resource for selecting, hiring, and working with professional process servers in Tulsa County." />
-        <meta name="twitter:image" content="/imagesforblogpost/tulsa-county-courthouse-oklahoma-legal-system.png" />
-        <meta name="twitter:site" content="@JustLegalSolutions" />
-        <meta name="twitter:creator" content="@JustLegalSolutions" />
-        <meta name="author" content="JLS Legal Solutions" />
-        <meta name="robots" content="index, follow" />
-        <link rel="canonical" href={canonicalUrl} />
-        <meta name="language" content="en" />
-        <meta name="publish_date" content="2025-08-13" />
-      </Head>
       <Navbar />
       <JsonLd data={articleSchema} />
       <JsonLd data={breadcrumbSchema} />

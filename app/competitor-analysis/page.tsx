@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: 'Why Choose Just Legal Solutions Over Competitors | Oklahoma Process Server',
   description: 'A clear comparison of Just Legal Solutions vs. other Oklahoma process servers. See why our guaranteed same-day service, 24/7 availability, and transparent pricing make us the #1 choice.',
   keywords: 'oklahoma process server comparison, best process server tulsa, competitive process server rates, just legal solutions vs competitors',
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/competitor-analysis'
+  }
 };
 
 const CompetitorAnalysisPage = () => {

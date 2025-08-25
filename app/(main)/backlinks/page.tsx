@@ -140,7 +140,16 @@ const backlinkUrls = [
   'http://find.yourtownvip.com/just-legal-solutions',
   'https://www.yoys.com/sprofile-just-legal-solutions-74033-8b9d2e5090c84bbfec2678610db135e26a6b40a8e9d09e39bfad643ce4b778d5f677e75ee66f07ac077ec542.html',
   'https://yplisting.com/business-detail?id=7ca84c1c11ff2b29d6f6224974336d7e915f6e2625785f18df4edf84313e8b97055472654f7a4317c8b98901135cfa1f2f',
-  'https://zoomlocalsearch.com/just-legal-solutions/s-41a26eae55ecdd406a5cb1ac004db5285a21ab07e35c22f1bac2d9f741be154697da13a47613af59f5e479ca14af896cb6ac89918c4a07'
+  'https://zoomlocalsearch.com/just-legal-solutions/s-41a26eae55ecdd406a5cb1ac004db5285a21ab07e35c22f1bac2d9f741be154697da13a47613af59f5e479ca14af896cb6ac89918c4a07',
+  
+  // Local Directories & Maps
+  'https://patch.com/oklahoma/tulsa/business/listing/535828/just-legal-solutions',
+  'https://www.mapquest.com/us/oklahoma/just-legal-solutions-777676721',
+  
+  // Social Media Posts & Community Engagement
+  'https://www.reddit.com/r/processserver/comments/1kyofjy/oklahoma_process_server_glenpooltulsa_area/',
+  'https://www.reddit.com/r/oklahoma/comments/1mico5s/tulsa_local_here_offering_process_servingcourt/',
+  'https://www.linkedin.com/posts/justlegalsolutionsok_tulsa-process-server-same-day-service-activity-7356009366707163136-jZPb'
 ];
 
 export default function BacklinksPage() {

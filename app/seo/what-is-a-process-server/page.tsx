@@ -448,6 +448,7 @@ export default function WhatIsAProcessServerPage() {
                 What Is a Process Server?<br />
                 <span className="text-yellow-300">Professional Legal Document Delivery in Oklahoma</span>
               </h1>
+              <h2 className="text-2xl font-bold text-gray-800 mb-6 voice-optimized">Professional Legal Document Service in Oklahoma</h2>
               <div className="grid lg:grid-cols-2 gap-8 items-center">
                 <div>
                   <p className="text-xl mb-4 leading-relaxed voice-optimized">
@@ -480,7 +481,7 @@ export default function WhatIsAProcessServerPage() {
             
             {/* Table of Contents for Better Navigation */}
             <nav className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-12 not-prose">
-              <h2 className="text-xl font-bold text-blue-900 mb-4">📋 Quick Navigation</h2>
+              <div className="text-xl font-bold text-blue-900 mb-4">📋 Quick Navigation</div>
               <div className="grid md:grid-cols-2 gap-4">
                 <ul className="space-y-2 text-sm">
                   <li><a href="#due-process" className="text-blue-700 hover:underline font-medium">→ What Is Due Process?</a></li>

@@ -5,6 +5,9 @@ export const metadata = {
   title: 'Voice Search Marker - Just Legal Solutions',
   description: 'This page marks voice search optimization for Just Legal Solutions. Our services are discoverable and optimized for voice assistants and smart devices.',
   keywords: 'voice search, smart assistant, process server, just legal solutions',
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/voice-search-marker'
+  }
 };
 
 export default function VoiceSearchMarker() {

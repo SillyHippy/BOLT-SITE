@@ -115,6 +115,7 @@ export default function UltimateGuidePage() {
       </div>
 
       <div className="prose lg:prose-xl max-w-none">
+        <h2 className="text-3xl font-bold text-gray-900 mb-6">Complete Guide to Process Serving in Oklahoma</h2>
         <p className="lead text-xl text-gray-600 mb-8">
           Welcome to the most comprehensive resource for understanding process serving in Oklahoma. Whether you&apos;re an attorney, a business, or an individual navigating the legal system, this guide covers everything you need to know about the laws, procedures, and best practices for legal document delivery in the Sooner State.
         </p>

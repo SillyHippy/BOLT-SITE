@@ -12,6 +12,9 @@ export const metadata: Metadata = {
     description: 'Professional response, statewide coverage, advanced technology. Professional process serving.',
     type: 'website',
     url: 'https://justlegalsolutions.org/platform-supremacy'
+  },
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/platform-supremacy'
   }
 };
 

@@ -9,7 +9,10 @@ import UnifiedSchema from '@/components/UnifiedSchema';
 export const metadata: Metadata = {
   title: 'Sitemap | Just Legal Solutions',
   description: 'Sitemap for Just Legal Solutions—navigate all services, resources, and legal support pages in one place.',
-  robots: 'index, follow'
+  robots: 'index, follow',
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/sitemap'
+  }
 };
 
 const SitemapPage = () => {

@@ -526,7 +526,7 @@ export default function BrokenArrowProcessServer() {
                     <p className="text-sm text-gray-600 mb-3">333 W Dallas St, Rose District</p>
                     <p className="text-gray-700">Process server near Broken Arrow Brewing Company. Legal document delivery in the Rose District with same-day service for downtown businesses.</p>
                     <div className="mt-4 text-center">
-                      <Link href="https://www.brokenarrowbrewingco.com/" target="_blank" className="text-blue-600 hover:text-blue-800 underline text-sm">
+                      <Link href="https://www.brokenarrowbrewingco.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline text-sm">
                         Visit Brewery Website →
                       </Link>
                     </div>

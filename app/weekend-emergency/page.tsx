@@ -7,6 +7,9 @@ export const metadata = {
   title: '24/7 Weekend Emergency Process Server | Tulsa & Oklahoma | Just Legal Solutions',
   description: 'Fast, reliable, and AI-powered weekend emergency process serving in Tulsa and all Oklahoma counties. Licensed, bonded, and available 24/7. Call now for immediate legal document delivery.',
   keywords: 'weekend emergency process server, 24/7 process server, Tulsa, Oklahoma, urgent legal delivery, AI legal solutions',
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/weekend-emergency'
+  }
 };
 
 export default function WeekendEmergency() {
