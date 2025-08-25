@@ -80,6 +80,7 @@ const backlinkUrls = [
   'https://www.issuewire.com/founders-five-year-battle-with-legal-system-inspires-5-star-rated-process-serving-firm-in-tulsa-1839846063085062',
   'https://prfree.org/@iannazzi/founder-s-five-year-battle-with-legal-system-inspires-5-star-rated-process-serving-firm-in-tulsa-9aog0m6aveyg',
   'https://www.prlog.org/13092231-founders-five-year-battle-with-legal-system-inspires-5-star-rated-process-serving-firm-in-tulsa.html',
+  'https://www.openpr.com/news/4137709/founder-s-five-year-battle-with-legal-system-inspires-5-star',
   
   // AI-Powered Emergency Service Press Coverage
   'https://www.wjhl.com/business/press-releases/ein-presswire/838483688/just-legal-solutions-launches-ai-powered-emergency-process-serving-to-combat-critical-delays-in-oklahomas-legal-system/',

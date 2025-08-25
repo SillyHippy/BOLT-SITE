@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     description: 'Professional process server serving statewide throughout all of Oklahoma.',
   },
   alternates: {
-    canonical: 'https://justlegalsolutions.org/service-areas',
+    canonical: 'https://justlegalsolutions.org/counties',
   },
 };
 
