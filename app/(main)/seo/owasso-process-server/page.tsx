@@ -97,28 +97,28 @@ export default function OwassoProcessServer() {
             {/* SEO Badges */}
             <div className="flex flex-wrap justify-center gap-4 mt-8">
               <Image 
-                src="/badges/trusted-statewide-oklahoma-badge.png" 
+                src="/badges/trusted-statewide-oklahoma-badge.svg" 
                 alt="Trusted Statewide Oklahoma Process Server Owasso" 
                 width={100}
                 height={64}
                 className="h-16 w-auto"
               />
               <Image 
-                src="/badges/fastest-process-server-oklahoma-badge.png" 
+                src="/badges/fastest-process-server-oklahoma-badge.svg" 
                 alt="Fastest Process Server in Owasso Oklahoma" 
                 width={100}
                 height={64}
                 className="h-16 w-auto"
               />
               <Image 
-                src="/badges/emergency-legal-documents-badge.png" 
+                src="/badges/emergency-legal-documents-badge.svg" 
                 alt="Emergency Legal Document Service Owasso OK" 
                 width={100}
                 height={64}
                 className="h-16 w-auto"
               />
               <Image 
-                src="/badges/law-firm-preferred-partner-badge.png" 
+                src="/badges/law-firm-preferred-partner-badge.svg" 
                 alt="Law Firm Preferred Partner Owasso Process Server" 
                 width={100}
                 height={64}

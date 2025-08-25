@@ -470,7 +470,7 @@ export default function TulsaCountyProcessServer() {
               <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
                 <div className="flex justify-center">
                   <Image 
-                    src="/badges/licensed-bonded-badge.png" 
+                    src="/badges/licensed-bonded-badge.svg" 
                     alt="Oklahoma licensed and bonded process server certification badge ensuring legal compliance and professional service standards"
                     width={120} 
                     height={120}
@@ -479,7 +479,7 @@ export default function TulsaCountyProcessServer() {
                 </div>
                 <div className="flex justify-center">
                   <Image 
-                    src="/badges/fastest-process-server-oklahoma-badge.png" 
+                    src="/badges/fastest-process-server-oklahoma-badge.svg" 
                     alt="Fastest process server in Oklahoma badge guaranteeing same-day and rush legal document delivery services"
                     width={120} 
                     height={120}
@@ -488,7 +488,7 @@ export default function TulsaCountyProcessServer() {
                 </div>
                 <div className="flex justify-center">
                   <Image 
-                    src="/badges/99-9-percent-success-rate-badge.png" 
+                    src="/badges/99-9-percent-success-rate-badge.svg" 
                     alt="99.9% success rate badge demonstrating exceptional process serving performance and legal document delivery effectiveness"
                     width={120} 
                     height={120}
@@ -497,7 +497,7 @@ export default function TulsaCountyProcessServer() {
                 </div>
                 <div className="flex justify-center">
                   <Image 
-                    src="/badges/24-7-emergency-service-badge.png" 
+                    src="/badges/24-7-emergency-service-badge.svg" 
                     alt="24/7 emergency process serving service badge available for urgent legal document delivery throughout Tulsa County"
                     width={120} 
                     height={120}
@@ -506,7 +506,7 @@ export default function TulsaCountyProcessServer() {
                 </div>
                 <div className="flex justify-center">
                   <Image 
-                    src="/badges/Trusted-by-Tulsa-Law-Firms-Badge.png" 
+                    src="/badges/Trusted-by-Tulsa-Law-Firms-Badge.svg" 
                     alt="Trusted by Tulsa law firms badge showing attorney and legal professional endorsements for reliable process serving"
                     width={120} 
                     height={120}
@@ -515,7 +515,7 @@ export default function TulsaCountyProcessServer() {
                 </div>
                 <div className="flex justify-center">
                   <Image 
-                    src="/badges/oklahoma-statewide-coverage-badge.png" 
+                    src="/badges/oklahoma-statewide-coverage-badge.svg" 
                     alt="Oklahoma statewide coverage badge indicating complete process serving availability across all 77 Oklahoma counties"
                     width={120} 
                     height={120}

@@ -287,7 +287,7 @@ export function Footer() {
           <div className="flex flex-wrap justify-center items-center gap-6 max-w-4xl mx-auto">
             <div className="w-28 h-28 md:w-32 md:h-32 flex items-center justify-center">
               <Image 
-                src="/badges/same-day-service-available-badge.png" 
+                src="/badges/same-day-service-available-badge.svg" 
                 alt="Same Day Service Available - Process Server Oklahoma" 
                 width={112}
                 height={112}
@@ -297,7 +297,7 @@ export function Footer() {
             </div>
             <div className="w-28 h-28 md:w-32 md:h-32 flex items-center justify-center">
               <Image 
-                src="/badges/99-9-percent-success-rate-badge.png" 
+                src="/badges/99-9-percent-success-rate-badge.svg" 
                 alt="99.9% Success Rate Process Server" 
                 width={112}
                 height={112}
@@ -307,7 +307,7 @@ export function Footer() {
             </div>
             <div className="w-28 h-28 md:w-32 md:h-32 flex items-center justify-center">
               <Image 
-                src="/badges/5-star-google-rating-badge.png" 
+                src="/badges/5-star-google-rating-badge.svg" 
                 alt="5 Star Google Rating Process Server" 
                 width={112}
                 height={112}
@@ -317,7 +317,7 @@ export function Footer() {
             </div>
             <div className="w-28 h-28 md:w-32 md:h-32 flex items-center justify-center">
               <Image 
-                src="/badges/fastest-process-server-oklahoma-badge.png" 
+                src="/badges/fastest-process-server-oklahoma-badge.svg" 
                 alt="Fastest Process Server in Oklahoma" 
                 width={112}
                 height={112}
@@ -327,7 +327,7 @@ export function Footer() {
             </div>
             <div className="w-28 h-28 md:w-32 md:h-32 flex items-center justify-center">
               <Image 
-                src="/badges/24-7-emergency-service-badge.png" 
+                src="/badges/24-7-emergency-service-badge.svg" 
                 alt="24/7 Emergency Service Process Server" 
                 width={112}
                 height={112}
@@ -337,7 +337,7 @@ export function Footer() {
             </div>
             <div className="w-28 h-28 md:w-32 md:h-32 flex items-center justify-center">
               <Image 
-                src="/badges/ai-optimized-service-badge.png" 
+                src="/badges/ai-optimized-service-badge.svg" 
                 alt="AI-Optimized Process Server Service" 
                 width={112}
                 height={112}

@@ -125,22 +125,22 @@ export default function ContactPage() {
             <Carousel className="w-full max-w-2xl mx-auto" opts={{ loop: true, duration: 6000 }}>
               <CarouselContent className="flex gap-8 items-center">
                 <CarouselItem className="basis-auto flex-shrink-0 w-auto">
-                  <Image src="/badges/5-star-google-rating-badge.png" alt="5-Star Google Rating" width={110} height={110} className="h-24 w-auto" priority />
+                  <Image src="/badges/5-star-google-rating-badge.svg" alt="5-Star Google Rating" width={110} height={110} className="h-24 w-auto" priority />
                 </CarouselItem>
                 <CarouselItem className="basis-auto flex-shrink-0 w-auto">
-                  <Image src="/badges/licensed-bonded-badge.png" alt="Licensed & Bonded" width={110} height={110} className="h-24 w-auto" />
+                  <Image src="/badges/licensed-bonded-badge.svg" alt="Licensed & Bonded" width={110} height={110} className="h-24 w-auto" />
                 </CarouselItem>
                 <CarouselItem className="basis-auto flex-shrink-0 w-auto">
-                  <Image src="/badges/court-certified-professional-badge.png" alt="Court Certified Professional" width={110} height={110} className="h-24 w-auto" />
+                  <Image src="/badges/court-certified-professional-badge.svg" alt="Court Certified Professional" width={110} height={110} className="h-24 w-auto" />
                 </CarouselItem>
                 <CarouselItem className="basis-auto flex-shrink-0 w-auto">
-                  <Image src="/badges/oklahoma-statewide-coverage-badge.png" alt="Oklahoma Statewide Coverage" width={110} height={110} className="h-24 w-auto" />
+                  <Image src="/badges/oklahoma-statewide-coverage-badge.svg" alt="Oklahoma Statewide Coverage" width={110} height={110} className="h-24 w-auto" />
                 </CarouselItem>
                 <CarouselItem className="basis-auto flex-shrink-0 w-auto">
-                  <Image src="/badges/secure-payment-processing-badge.png" alt="Secure Payment Processing" width={110} height={110} className="h-24 w-auto" />
+                  <Image src="/badges/secure-payment-processing-badge.svg" alt="Secure Payment Processing" width={110} height={110} className="h-24 w-auto" />
                 </CarouselItem>
                 <CarouselItem className="basis-auto flex-shrink-0 w-auto">
-                  <Image src="/badges/locally-owned-operated-badge.png" alt="Locally Owned & Operated Oklahoma Badge" width={110} height={110} className="h-24 w-auto" />
+                  <Image src="/badges/locally-owned-operated-badge.svg" alt="Locally Owned & Operated Oklahoma Badge" width={110} height={110} className="h-24 w-auto" />
                 </CarouselItem>
               </CarouselContent>
               <CarouselPrevious />

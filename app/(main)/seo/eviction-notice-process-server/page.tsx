@@ -156,28 +156,28 @@ export default function EvictionNoticeProcessServer() {
             {/* SEO Badges */}
             <div className="flex flex-wrap justify-center gap-4 mt-8">
               <Image 
-                src="/badges/24-7-emergency-service-badge.png" 
+                src="/badges/24-7-emergency-service-badge.svg" 
                 alt="24/7 Emergency Eviction Service Tulsa County" 
                 width={100}
                 height={64}
                 className="h-16 w-auto"
               />
               <Image 
-                src="/badges/court-certified-professional-badge.png" 
+                src="/badges/court-certified-professional-badge.svg" 
                 alt="Court Certified Eviction Notice Process Server" 
                 width={100}
                 height={64}
                 className="h-16 w-auto"
               />
               <Image 
-                src="/badges/fastest-process-server-oklahoma-badge.png" 
+                src="/badges/fastest-process-server-oklahoma-badge.svg" 
                 alt="Fastest Eviction Notice Process Server Oklahoma" 
                 width={100}
                 height={64}
                 className="h-16 w-auto"
               />
               <Image 
-                src="/badges/trusted-by-law-firms-badge.png" 
+                src="/badges/trusted-by-law-firms-badge.svg" 
                 alt="Trusted by Property Management Law Firms" 
                 width={100}
                 height={64}

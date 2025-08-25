@@ -97,28 +97,28 @@ export default function LegalPostingProcessServer() {
             {/* SEO Badges */}
             <div className="flex flex-wrap justify-center gap-4 mt-8">
               <Image 
-                src="/badges/court-certified-professional-badge.png" 
+                src="/badges/court-certified-professional-badge.svg" 
                 alt="Court Certified Legal Posting Service Professional" 
                 width={100}
                 height={64}
                 className="h-16 w-auto"
               />
               <Image 
-                src="/badges/privacy-guaranteed-badge.png" 
+                src="/badges/privacy-guaranteed-badge.svg" 
                 alt="Privacy Guaranteed Legal Notice Posting Service" 
                 width={100}
                 height={64}
                 className="h-16 w-auto"
               />
               <Image 
-                src="/badges/oklahoma-statewide-coverage-badge.png" 
+                src="/badges/oklahoma-statewide-coverage-badge.svg" 
                 alt="Oklahoma Statewide Legal Posting Coverage" 
                 width={100}
                 height={64}
                 className="h-16 w-auto"
               />
               <Image 
-                src="/badges/trusted-by-law-firms-badge.png" 
+                src="/badges/trusted-by-law-firms-badge.svg" 
                 alt="Trusted by Law Firms Legal Notice Posting" 
                 width={100}
                 height={64}

@@ -97,28 +97,28 @@ export default function GlenpoolProcessServer() {
             {/* SEO Badges */}
             <div className="flex flex-wrap justify-center gap-4 mt-8">
               <Image 
-                src="/badges/1-choice-tulsa-badge.png" 
+                src="/badges/1-choice-tulsa-badge.svg" 
                 alt="Number 1 Choice Tulsa Process Server Glenpool" 
                 width={100}
                 height={64}
                 className="h-16 w-auto"
               />
               <Image 
-                src="/badges/same-day-service-available-badge.png" 
+                src="/badges/same-day-service-available-badge.svg" 
                 alt="Same Day Service Available Glenpool Oklahoma" 
                 width={100}
                 height={64}
                 className="h-16 w-auto"
               />
               <Image 
-                src="/badges/trusted-by-law-firms-badge.png" 
+                src="/badges/trusted-by-law-firms-badge.svg" 
                 alt="Trusted by Law Firms Process Server Glenpool OK" 
                 width={100}
                 height={64}
                 className="h-16 w-auto"
               />
               <Image 
-                src="/badges/court-certified-professional-badge.png" 
+                src="/badges/court-certified-professional-badge.svg" 
                 alt="Court Certified Professional Process Server Glenpool" 
                 width={100}
                 height={64}

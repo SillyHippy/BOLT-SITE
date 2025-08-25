@@ -97,28 +97,28 @@ export default function SandSpringsProcessServerPage() {
             {/* SEO Badges */}
             <div className="flex flex-wrap justify-center gap-4 mt-8">
               <Image 
-                src="/badges/Trusted-by-Tulsa-Law-Firms-Badge.png" 
+                src="/badges/Trusted-by-Tulsa-Law-Firms-Badge.svg" 
                 alt="Trusted by Tulsa Law Firms Process Server Sand Springs" 
                 width={100}
                 height={64}
                 className="h-16 w-auto"
               />
               <Image 
-                src="/badges/24-7-emergency-service-badge.png" 
+                src="/badges/24-7-emergency-service-badge.svg" 
                 alt="24/7 Emergency Process Service Sand Springs Oklahoma" 
                 width={100}
                 height={64}
                 className="h-16 w-auto"
               />
               <Image 
-                src="/badges/secure-payment-processing-badge.png" 
+                src="/badges/secure-payment-processing-badge.svg" 
                 alt="Secure Payment Processing Sand Springs Process Server" 
                 width={100}
                 height={64}
                 className="h-16 w-auto"
               />
               <Image 
-                src="/badges/privacy-guaranteed-badge.png" 
+                src="/badges/privacy-guaranteed-badge.svg" 
                 alt="Privacy Guaranteed Process Server Sand Springs OK" 
                 width={100}
                 height={64}
