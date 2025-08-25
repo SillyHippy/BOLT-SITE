@@ -121,7 +121,7 @@ foreach ($page in $allPages) {
           postalCode: "74033",
           addressCountry: "US"
         }}
-        reviewCount={142}
+        reviewCount={146}
         faqItems={[
           {
             question: "How quickly can you provide $($pageName) service in Oklahoma?",

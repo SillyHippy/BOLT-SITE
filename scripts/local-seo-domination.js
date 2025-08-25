@@ -189,7 +189,7 @@ function generateLocalBusinessSchema() {
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "4.9",
-      "reviewCount": "142",
+      "reviewCount": "146",
       "bestRating": "5"
     }
   };

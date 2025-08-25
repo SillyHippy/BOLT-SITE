@@ -79,7 +79,7 @@ export default function PricingPage() {
         priceRange="$30-$200"
         aggregateRating={{
           ratingValue: 4.9,
-          reviewCount: 142
+          reviewCount: 146
         }}
       />
       

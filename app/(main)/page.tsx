@@ -395,7 +395,7 @@ export default function Home() {
         }}
         aggregateRating={{
           ratingValue: 4.9,
-          reviewCount: 142,
+          reviewCount: 146,
           bestRating: 5,
           worstRating: 1
         }}

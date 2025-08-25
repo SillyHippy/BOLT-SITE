@@ -55,7 +55,7 @@ export default function CourierServicesTulsaPage() {
         priceRange="$30-$150"
         aggregateRating={{
           ratingValue: 4.9,
-          reviewCount: 142
+          reviewCount: 146
         }}
         faqItems={faqs.map(faq => ({
           question: faq.question,

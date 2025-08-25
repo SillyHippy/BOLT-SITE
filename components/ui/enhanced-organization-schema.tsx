@@ -44,7 +44,7 @@ export default function EnhancedOrganizationSchema({ countyName }: OrganizationS
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "4.9",
-      "reviewCount": "142",
+      "reviewCount": "146",
       "bestRating": "5",
       "worstRating": "1"
     },

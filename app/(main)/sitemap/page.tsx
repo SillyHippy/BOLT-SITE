@@ -262,7 +262,7 @@ const SitemapPage = () => {
         }}
         aggregateRating={{
           ratingValue: 4.9,
-          reviewCount: 142
+          reviewCount: 146
         }}
       />
     </>

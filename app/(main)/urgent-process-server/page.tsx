@@ -139,7 +139,7 @@ const UrgentProcessServerPage = () => {
         url="https://justlegalsolutions.org/urgent-process-server"
         image="https://justlegalsolutions.org/images/urgent-process-server-og.jpg"
         keywords={['urgent process server tulsa', 'same day process serving', 'emergency document delivery', 'fast process server oklahoma', 'tulsa county legal services', '2 hour process serving', 'emergency court papers', 'urgent subpoena service', 'rush legal documents tulsa']}
-        reviewCount={142}
+        reviewCount={146}
         services={[
           'Emergency Same-Day Process Serving',
           'Rush 2-Hour Legal Document Delivery',

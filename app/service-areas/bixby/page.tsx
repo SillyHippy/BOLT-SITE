@@ -177,7 +177,7 @@ export default function BixbyProcessServer() {
           priceRange="$30-$200"
           aggregateRating={{
             ratingValue: 4.9,
-            reviewCount: 142
+            reviewCount: 146
           }}
           faqItems={bixbyFAQs.map(faq => ({
             question: faq.question,

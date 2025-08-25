@@ -234,11 +234,11 @@ export default function SandSpringsProcessServerPage() {
         }}
         aggregateRating={{
           ratingValue: 4.9,
-          reviewCount: 142,
+          reviewCount: 146,
           bestRating: 5,
           worstRating: 1
         }}
-        reviewCount={142}
+        reviewCount={146}
       />
     </>
   );

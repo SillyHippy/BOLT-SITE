@@ -188,7 +188,7 @@ export default function LegalPostingProcessServer() {
           postalCode: "74101",
           addressCountry: "US"
         }}
-        reviewCount={142}
+        reviewCount={146}
       />
     </>
   );

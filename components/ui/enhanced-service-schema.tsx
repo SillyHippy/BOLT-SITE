@@ -48,7 +48,7 @@ export default function EnhancedServiceSchema({
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.9",
-        "reviewCount": "142",
+        "reviewCount": "146",
         "bestRating": "5",
         "worstRating": "1"
       }

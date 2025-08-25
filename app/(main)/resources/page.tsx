@@ -116,7 +116,7 @@ const ResourcesPage = () => {
         description="Oklahoma process serving resources—legal guides, FAQs, and expert advice for court filing and document delivery in Tulsa County and across Oklahoma."
         aggregateRating={{
           ratingValue: 4.9,
-          reviewCount: 142
+          reviewCount: 146
         }}
       />
     </main>

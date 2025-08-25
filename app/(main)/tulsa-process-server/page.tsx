@@ -960,7 +960,7 @@ export default function TulsaProcessServerPage() {
         title="Professional Process Server in Tulsa, Oklahoma"
         description="Expert legal document delivery throughout Tulsa County. Licensed, bonded, and available 24/7 for all your process serving needs."
         url="https://justlegalsolutions.org/tulsa-process-server"
-        reviewCount={142}
+        reviewCount={146}
         location={{
           name: 'Tulsa County',
           address: 'Tulsa, OK',

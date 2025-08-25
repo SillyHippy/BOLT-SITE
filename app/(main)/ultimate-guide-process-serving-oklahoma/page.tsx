@@ -78,11 +78,11 @@ export const metadata: Metadata = {
 const pageFaqs = [
   {
     "question": "What is process serving in Oklahoma and why is it required?",
-    "answer": "Process serving in Oklahoma is the legal delivery of court documents to parties involved in legal proceedings. It's required by the Fourteenth Amendment's Due Process Clause to ensure all parties receive proper notice of legal actions affecting their rights. Oklahoma Statutes Title 12 § 158.1 governs the licensing and requirements for process servers."
+    "answer": "Process serving in Oklahoma is the legal delivery of court documents to parties involved in legal proceedings. It&apos;s required by the Fourteenth Amendment&apos;s Due Process Clause to ensure all parties receive proper notice of legal actions affecting their rights. Oklahoma Statutes Title 12 § 158.1 governs the licensing and requirements for process servers."
   },
   {
     "question": "Who can legally serve process in Oklahoma?",
-    "answer": "Only licensed process servers, Oklahoma attorneys, court clerks, and sheriff's deputies can legally serve process in Oklahoma. Private individuals must be at least 18 years old, licensed by the district court, maintain a $5,000 surety bond, and meet residency requirements under Title 12 § 158.1."
+    "answer": "Only licensed process servers, Oklahoma attorneys, court clerks, and sheriff&apos;s deputies can legally serve process in Oklahoma. Private individuals must be at least 18 years old, licensed by the district court, maintain a $5,000 surety bond, and meet residency requirements under Title 12 § 158.1."
   },
   {
     "question": "How much does process serving cost in Oklahoma?",
@@ -148,7 +148,7 @@ export default function UltimateGuidePage() {
           <div className="grid md:grid-cols-2 gap-6 mb-6">
             <div>
               <p className="text-lg mb-4">
-                Whether you're an attorney, law firm, business, or individual navigating the legal system, this complete guide covers everything you need to know about process serving laws, procedures, costs, and best practices in Oklahoma.
+                Whether you&apos;re an attorney, law firm, business, or individual navigating the legal system, this complete guide covers everything you need to know about process serving laws, procedures, costs, and best practices in Oklahoma.
               </p>
               <div className="flex flex-wrap gap-2">
                 <span className="bg-green-500 px-3 py-1 rounded-full text-sm">✓ Licensed & Bonded</span>
@@ -226,7 +226,7 @@ export default function UltimateGuidePage() {
               <div className="bg-blue-50 p-4 rounded-lg">
                 <h4 className="font-bold text-blue-800 mb-3">Constitutional Foundation</h4>
                 <p className="text-sm">
-                  Process serving is rooted in the Fourteenth Amendment's Due Process Clause, which requires that individuals be given adequate notice of legal proceedings affecting their rights. In Oklahoma, this constitutional requirement is codified in state statutes and court rules.
+                  Process serving is rooted in the Fourteenth Amendment&apos;s Due Process Clause, which requires that individuals be given adequate notice of legal proceedings affecting their rights. In Oklahoma, this constitutional requirement is codified in state statutes and court rules.
                 </p>
               </div>
               <div className="bg-green-50 p-4 rounded-lg">
@@ -261,7 +261,7 @@ export default function UltimateGuidePage() {
           </CardHeader>
           <CardContent>
             <p className="mb-4">
-              Understanding Oklahoma's licensing requirements is crucial for both process servers and those hiring their services. Oklahoma law requires all private process servers to obtain proper licensing through the district court system.
+              Understanding Oklahoma&apos;s licensing requirements is crucial for both process servers and those hiring their services. Oklahoma law requires all private process servers to obtain proper licensing through the district court system.
             </p>
 
             <div className="grid lg:grid-cols-3 gap-6 mb-6">
@@ -366,7 +366,7 @@ export default function UltimateGuidePage() {
                     <li>• Method of service used (personal, substituted, etc.)</li>
                     <li>• Physical description of person served</li>
                     <li>• Circumstances surrounding service</li>
-                    <li>• Process server's signature under oath</li>
+                    <li>• Process server&apos;s signature under oath</li>
                   </ul>
                 </div>
               </div>
@@ -755,7 +755,7 @@ export default function UltimateGuidePage() {
             <div className="grid md:grid-cols-2 gap-6">
               <div>
                 <p className="text-lg mb-4">
-                  Don't let improper service invalidate your case. Contact our licensed Oklahoma process servers for fast, reliable, and legally compliant document delivery.
+                  Don&apos;t let improper service invalidate your case. Contact our licensed Oklahoma process servers for fast, reliable, and legally compliant document delivery.
                 </p>
                 <div className="space-y-2">
                   <p><strong>📞 Phone:</strong> (539) 367-6832</p>
@@ -821,7 +821,7 @@ export default function UltimateGuidePage() {
         'legal service procedures oklahoma',
         'oklahoma summons service guide'
       ]}
-      reviewCount={142}
+      reviewCount={146}
       articleSection="Legal Education"
     />
     </>

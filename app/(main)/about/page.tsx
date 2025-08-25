@@ -52,7 +52,7 @@ export default function AboutPage() {
         }}
         aggregateRating={{
           ratingValue: 4.9,
-          reviewCount: 142
+          reviewCount: 146
         }}
       />
       

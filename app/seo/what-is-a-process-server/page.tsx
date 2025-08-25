@@ -287,7 +287,7 @@ const localBusinessSchema = {
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "5",
-    "reviewCount": "142"
+    "reviewCount": "146"
   }
 };
 
@@ -906,7 +906,7 @@ export default function WhatIsAProcessServerPage() {
               <div className="text-center bg-blue-50 border border-blue-200 rounded-xl p-8">
                 <h3 className="text-xl font-bold text-blue-900 mb-4">🔮 The Future is Here at Just Legal Solutions</h3>
                 <p className="text-lg text-gray-700 mb-6">
-                  We're already implementing many of these advanced technologies and practices to provide our clients with the most efficient, secure, and reliable process serving experience in Oklahoma.
+                  We&apos;re already implementing many of these advanced technologies and practices to provide our clients with the most efficient, secure, and reliable process serving experience in Oklahoma.
                 </p>
                 <div className="grid md:grid-cols-3 gap-4 text-sm">
                   <div className="bg-white p-4 rounded border">
@@ -1389,7 +1389,7 @@ export default function WhatIsAProcessServerPage() {
                       <li className="flex items-start"><span className="text-green-600 mr-2">✓</span>Licensed process servers</li>
                       <li className="flex items-start"><span className="text-green-600 mr-2">✓</span>Oklahoma attorneys</li>
                       <li className="flex items-start"><span className="text-green-600 mr-2">✓</span>Court clerks</li>
-                      <li className="flex items-start"><span className="text-green-600 mr-2">✓</span>Sheriff's deputies (within county)</li>
+                      <li className="flex items-start"><span className="text-green-600 mr-2">✓</span>Sheriff&apos;s deputies (within county)</li>
                       <li className="flex items-start"><span className="text-red-600 mr-2">✗</span>Unlicensed individuals (misdemeanor)</li>
                       <li className="flex items-start"><span className="text-red-600 mr-2">✗</span>Parties to the lawsuit</li>
                     </ul>
@@ -1406,7 +1406,7 @@ export default function WhatIsAProcessServerPage() {
                   </div>
                   <div className="bg-white p-6 rounded-lg border">
                     <h4 className="font-bold text-yellow-800 mb-3">🏠 Substituted Service</h4>
-                    <p className="text-gray-700">Leaving documents at defendant's residence with someone 15 years or older who lives there.</p>
+                    <p className="text-gray-700">Leaving documents at defendant&apos;s residence with someone 15 years or older who lives there.</p>
                   </div>
                   <div className="bg-white p-6 rounded-lg border">
                     <h4 className="font-bold text-yellow-800 mb-3">🏢 Corporate Service</h4>
@@ -1433,7 +1433,7 @@ export default function WhatIsAProcessServerPage() {
                   </div>
                   <div className="bg-white p-6 rounded-lg shadow border-l-4 border-purple-500">
                     <h4 className="font-bold text-purple-800 mb-3">⏰ Clock Starts</h4>
-                    <p className="text-gray-700">The court clock begins ticking for the recipient's response period.</p>
+                    <p className="text-gray-700">The court clock begins ticking for the recipient&apos;s response period.</p>
                   </div>
                 </div>
               </div>
@@ -1470,7 +1470,7 @@ export default function WhatIsAProcessServerPage() {
                     </li>
                     <li className="flex items-start">
                       <span className="text-red-600 mr-2 mt-1">•</span>
-                      <span>Case can proceed <strong>without defendant's participation</strong></span>
+                      <span>Case can proceed <strong>without defendant&apos;s participation</strong></span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-red-600 mr-2 mt-1">•</span>
@@ -1820,7 +1820,7 @@ export default function WhatIsAProcessServerPage() {
               <div className="text-center bg-green-50 border border-green-200 rounded-xl p-8">
                 <h3 className="text-xl font-bold text-green-900 mb-4">🛡️ Protect Your Case with Professional Service</h3>
                 <p className="text-lg text-gray-700 mb-6">
-                  Don't risk your entire case on improper service. Our licensed, experienced team ensures your documents are served correctly the first time, protecting your legal rights and avoiding costly delays.
+                  Don&apos;t risk your entire case on improper service. Our licensed, experienced team ensures your documents are served correctly the first time, protecting your legal rights and avoiding costly delays.
                 </p>
                 <a href="/contact" className="bg-green-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-green-700 transition">
                   Get Professional Service Quote
