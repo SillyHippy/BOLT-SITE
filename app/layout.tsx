@@ -2,6 +2,7 @@ import './globals.css';
 import type { Metadata, Viewport } from 'next';
 import { Inter } from 'next/font/google';
 import Script from 'next/script';
+import Image from 'next/image';
 import React from 'react';
 import { PerformanceOptimizer } from '@/components/ui/performance-optimizer';
 import { CriticalCSS } from '@/components/ui/critical-css-inline';
@@ -122,7 +123,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
         <meta name="cache-version" content="2025-06-29-v9-final-seo-optimization" />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-984ZD882EX"></script>
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-984ZD882EX" strategy="afterInteractive" />
         <Script id="google-analytics" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
@@ -138,12 +139,15 @@ export default function RootLayout({
           `}
         </Script>
         {/* Simple Analytics - 100% privacy-first analytics */}
-        <script data-collect-dnt="true" async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+        <Script src="https://scripts.simpleanalyticscdn.com/latest.js" data-collect-dnt="true" strategy="afterInteractive" />
         <noscript>
-          <img 
+          <Image 
             src="https://queue.simpleanalyticscdn.com/noscript.gif?collect-dnt=true" 
             alt="" 
-            referrerPolicy="no-referrer-when-downgrade"
+            width={1}
+            height={1}
+            style={{ display: 'none' }}
+            unoptimized
           />
         </noscript>
         <meta name="ai-search-optimized" content="true" />
