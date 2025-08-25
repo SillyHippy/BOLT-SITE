@@ -1217,27 +1217,6 @@ export default function UltimateGuidePage() {
           </CardContent>
         </Card>
        
-        {/* --- Service Area Map --- */}
-        <Card className="mb-8">
-          <CardHeader>
-            <CardTitle className="flex items-center"><Map className="mr-2 h-6 w-6" />Our Primary Service Area</CardTitle>
-          </CardHeader>
-          <CardContent>
-            <div className="w-full h-80 rounded-lg overflow-hidden">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d412235.1229762693!2d-96.2239487441333!3d36.13012920197728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b69324e23801f7%3A0x4296e34c3835c065!2sTulsa%20County%2C%20OK!5e0!3m2!1sen!2sus!4v1690222882674!5m2!1sen!2sus"
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                allowFullScreen={false}
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              ></iframe>
-            </div>
-          </CardContent>
-        </Card>
-        
-        
         {/* Coverage Areas */}
         <Card className="mb-8" id="coverage-areas">
           <CardHeader>
@@ -1295,7 +1274,7 @@ export default function UltimateGuidePage() {
 
             <div className="w-full h-80 rounded-lg overflow-hidden">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d412235.1229762693!2d-96.2239487441333!3d36.13012920197728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b69324e23801f7%3A0x4296e34c3835c065!2sTulsa%20County%2C%20OK!5e0!3m2!1sen!2sus!4v1690222882674!5m2!1sen!2sus"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1629924.8628395508!2d-99.4334890825!3d35.4815998365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c9a72e89fb7d25%3A0x557a1de94098dd6c!2sOklahoma!5e0!3m2!1sen!2sus!4v1735156800000!5m2!1sen!2sus"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -1858,15 +1837,42 @@ export default function UltimateGuidePage() {
         </Card>
         
         <Card className="mb-8" id="faq-section">
-          <CardHeader><CardTitle>Frequently Asked Questions</CardTitle></CardHeader>
+          <CardHeader>
+            <CardTitle className="flex items-center">
+              <Book className="mr-2 h-6 w-6" />
+              Frequently Asked Questions
+            </CardTitle>
+          </CardHeader>
           <CardContent>
-            <div className="space-y-4">
+            <div className="space-y-3">
               {pageFaqs.map((faq, index) => (
-                <div key={index} className="border-b pb-4">
-                  <p className="font-semibold">{faq.question}</p>
-                  <div className="text-gray-700" dangerouslySetInnerHTML={{ __html: faq.answer }} />
-                </div>
+                <details key={index} className="group bg-gray-50 rounded-lg">
+                  <summary className="flex items-center justify-between p-4 cursor-pointer hover:bg-gray-100 transition-colors rounded-lg">
+                    <span className="font-semibold text-gray-800 group-open:text-blue-600">{faq.question}</span>
+                    <span className="ml-2 text-gray-500 group-open:rotate-180 transition-transform duration-200">
+                      ▼
+                    </span>
+                  </summary>
+                  <div className="px-4 pb-4">
+                    <div className="text-gray-700 leading-relaxed border-t border-gray-200 pt-3" dangerouslySetInnerHTML={{ __html: faq.answer }} />
+                  </div>
+                </details>
               ))}
+            </div>
+            
+            <div className="mt-8 p-6 bg-gradient-to-r from-blue-50 to-green-50 rounded-lg border border-blue-200">
+              <h4 className="font-bold text-lg mb-3 text-center">Still Have Questions?</h4>
+              <p className="text-center text-gray-700 mb-4">
+                Our Oklahoma process serving experts are standing by to answer your specific questions and provide personalized guidance.
+              </p>
+              <div className="flex justify-center space-x-4">
+                <a href="tel:5393676832" className="bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-700 transition inline-flex items-center">
+                  📞 Call Expert
+                </a>
+                <a href="/contact" className="bg-white text-blue-600 border border-blue-600 px-6 py-2 rounded-lg font-semibold hover:bg-blue-50 transition inline-flex items-center">
+                  💬 Chat Online
+                </a>
+              </div>
             </div>
           </CardContent>
         </Card>
