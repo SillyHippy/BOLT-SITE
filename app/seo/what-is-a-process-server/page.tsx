@@ -2142,10 +2142,10 @@ export default function WhatIsAProcessServerPage() {
                   <div className="bg-white p-6 rounded-lg border-l-4 border-red-500">
                     <h4 className="font-bold text-red-800 mb-4">❌ Illegal Activities</h4>
                     <ul className="text-gray-700 space-y-2">
-                      <li className="flex items-start"><span className="text-red-600 mr-2">✗</span><strong>Unauthorized entry </strong> to private property</li>
-                      <li className="flex items-start"><span className="text-red-600 mr-2">✗</span><strong>Misrepresentation </strong> of identity or purpose</li>
-                      <li className="flex items-start"><span className="text-red-600 mr-2">✗</span><strong>Threatening behavior </strong> or coercion</li>
-                      <li className="flex items-start"><span className="text-red-600 mr-2">✗</span><strong>Service outside authorized county </strong> without proper license</li>
+                      <li className="flex items-start"><span className="text-red-600 mr-2">✗</span><strong>Unauthorized entry</strong>&nbsp;to private property</li>
+                      <li className="flex items-start"><span className="text-red-600 mr-2">✗</span><strong>Misrepresentation</strong>&nbsp;of identity or purpose</li>
+                      <li className="flex items-start"><span className="text-red-600 mr-2">✗</span><strong>Threatening behavior</strong>&nbsp;or coercion</li>
+                      <li className="flex items-start"><span className="text-red-600 mr-2">✗</span><strong>Service outside authorized county</strong>&nbsp;without proper license</li>
                     </ul>
                   </div>
                   
