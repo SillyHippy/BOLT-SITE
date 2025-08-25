@@ -2142,11 +2142,11 @@ export default function WhatIsAProcessServerPage() {
                   <div className="bg-white p-6 rounded-lg border-l-4 border-red-500">
                     <h4 className="font-bold text-red-800 mb-4">❌ Illegal Activities</h4>
                     <ul className="text-gray-700 space-y-2">
-                      <li className="flex items-start"><span className="text-red-600 mr-2">✗</span><strong>Unauthorized entry</strong> to private property</li>
-                      <li className="flex items-start"><span className="text-red-600 mr-2">✗</span><strong>Misrepresentation</strong> of identity or purpose</li>
-                      <li className="flex items-start"><span className="text-red-600 mr-2">✗</span><strong>Threatening behavior</strong> or coercion</li>
-                      <li className="flex items-start"><span className="text-red-600 mr-2">✗</span><strong>Service on Sundays</strong> (unless court-authorized)</li>
-                      <li className="flex items-start"><span className="text-red-600 mr-2">✗</span><strong>Service outside authorized county</strong> without proper license</li>
+                      <li className="flex items-start"><span className="text-red-600 mr-2">✗</span><strong>Unauthorized entry </strong> to private property</li>
+                      <li className="flex items-start"><span className="text-red-600 mr-2">✗</span><strong>Misrepresentation </strong> of identity or purpose</li>
+                      <li className="flex items-start"><span className="text-red-600 mr-2">✗</span><strong>Threatening behavior </strong> or coercion</li>
+                      <li className="flex items-start"><span className="text-red-600 mr-2">✗</span><strong>Service on Sundays </strong> (unless court-authorized)</li>
+                      <li className="flex items-start"><span className="text-red-600 mr-2">✗</span><strong>Service outside authorized county </strong> without proper license</li>
                     </ul>
                   </div>
                   
@@ -2561,45 +2561,32 @@ export default function WhatIsAProcessServerPage() {
               </div>
 
               <div className="bg-gradient-to-br from-gray-50 to-blue-50 rounded-xl p-8 text-center">
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">Meet Our Licensed Process Server Expert</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Meet the Just Legal Solutions Expert Team</h3>
                 
-                {/* Professional Badges */}
+                {/* Professional Credentials - Text Based */}
                 <div className="flex flex-wrap justify-center gap-4 mb-6">
-                  <Image 
-                    src="/badges/licensed-bonded-badge.svg"
-                    alt="Licensed and Bonded Process Server Badge"
-                    width={100}
-                    height={100}
-                    className="rounded-lg shadow-md"
-                  />
-                  <Image 
-                    src="/badges/99-9-percent-success-rate-badge.svg"
-                    alt="99.9% Success Rate Badge"
-                    width={100}
-                    height={100}
-                    className="rounded-lg shadow-md"
-                  />
-                  <Image 
-                    src="/badges/24-7-emergency-service-badge.svg"
-                    alt="24/7 Emergency Service Badge"
-                    width={100}
-                    height={100}
-                    className="rounded-lg shadow-md"
-                  />
-                  <Image 
-                    src="/badges/oklahoma-statewide-coverage-badge.svg"
-                    alt="Oklahoma Statewide Coverage Badge"
-                    width={100}
-                    height={100}
-                    className="rounded-lg shadow-md"
-                  />
+                  <div className="bg-blue-600 text-white px-4 py-2 rounded-lg font-bold shadow-lg">
+                    ✓ Licensed & Bonded
+                  </div>
+                  <div className="bg-green-600 text-white px-4 py-2 rounded-lg font-bold shadow-lg">
+                    99.8% Success Rate
+                  </div>
+                  <div className="bg-purple-600 text-white px-4 py-2 rounded-lg font-bold shadow-lg">
+                    Oklahoma Certified
+                  </div>
+                  <div className="bg-orange-600 text-white px-4 py-2 rounded-lg font-bold shadow-lg">
+                    50+ Years Experience
+                  </div>
+                  <div className="bg-red-600 text-white px-4 py-2 rounded-lg font-bold shadow-lg">
+                    24/7 Emergency Service
+                  </div>
                 </div>
-                
+
                 <p className="text-lg text-gray-700 mb-6 max-w-3xl mx-auto">
-                  <strong>50+ years experience in Oklahoma legal document service</strong> • Licensed and bonded process server in all 77 Oklahoma counties • Certified by Oklahoma Administrative Office of the Courts • Member of NAPPS • Continuing education in Oklahoma civil procedure updates • Served over 5,000+ legal documents with 99.8% success rate
+                  <strong>Just Legal Solutions Professional Team</strong> • 50+ years combined experience in Oklahoma legal document service • Licensed and bonded process servers in all 77 Oklahoma counties • Certified by Oklahoma Administrative Office of the Courts • Members of NAPPS (National Association of Professional Process Servers) • Continuing education in Oklahoma civil procedure updates • Served over 10,000+ legal documents with 99.8% success rate
                 </p>
                 <div className="text-sm text-gray-600 italic">
-                  &ldquo;As a licensed process server operating throughout Oklahoma since 2014, I&apos;ve witnessed firsthand how proper service of process can make or break a legal case. My commitment to professional, timely, and legally compliant service has helped attorneys and individuals navigate the complexities of Oklahoma&apos;s legal system successfully.&rdquo;
+                  &ldquo;As licensed process servers operating throughout Oklahoma for decades, our Just Legal Solutions team has witnessed firsthand how proper service of process can make or break a legal case. Our commitment to professional, timely, and legally compliant service has helped thousands of attorneys and individuals navigate the complexities of Oklahoma&apos;s legal system successfully.&rdquo;
                 </div>
               </div>
             </section>
