@@ -644,7 +644,7 @@ export default function UltimateGuidePage() {
                   <ul className="text-sm space-y-1">
                     <li>• <strong>Criminal Subpoenas:</strong> Witness subpoenas for criminal cases</li>
                     <li>• <strong>Restitution Orders:</strong> Criminal restitution enforcement</li>
-                    <li>• <strong>Administrative Proceedings:</strong> Workers' comp, license violations</li>
+                    <li>• <strong>Administrative Proceedings:</strong> Workers&apos; comp, license violations</li>
                     <li>• <strong>Asset Forfeiture:</strong> Criminal asset forfeiture proceedings</li>
                   </ul>
                 </div>
@@ -740,7 +740,7 @@ export default function UltimateGuidePage() {
                   <strong><a href="https://medium.com/@justlegalsolutionsok/why-you-need-a-professional-process-server-in-oklahoma-fast-reliable-service-from-just-legal-195dc334cc8e" target="_blank" rel="noopener noreferrer">Why You Need a Professional Process Server in Oklahoma</a></strong>
                 </li>
                 <li>
-                  <strong><a href="https://medium.com/@justlegalsolutionsok/my-doctor-or-theirs-the-workers-comp-choice-that-defined-my-life-after-injury-b3f1a53b4e9b" target="_blank" rel="noopener noreferrer">My Doctor or Theirs? The Workers' Comp Choice That Defined My Life</a></strong>
+                  <strong><a href="https://medium.com/@justlegalsolutionsok/my-doctor-or-theirs-the-workers-comp-choice-that-defined-my-life-after-injury-b3f1a53b4e9b" target="_blank" rel="noopener noreferrer">My Doctor or Theirs? The Workers&apos; Comp Choice That Defined My Life</a></strong>
                 </li>
             </ul>
           </CardContent>
