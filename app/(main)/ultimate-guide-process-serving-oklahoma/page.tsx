@@ -467,6 +467,106 @@ export default function UltimateGuidePage() {
           </CardContent>
         </Card>
 
+        {/* Joseph's Personal Story */}
+        <Card className="mb-8 bg-gradient-to-r from-gray-50 to-gray-100">
+          <CardHeader>
+            <CardTitle className="flex items-center"><User className="mr-2 h-6 w-6" />Meet Joseph Iannazzi - Founder & CEO</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div className="grid md:grid-cols-2 gap-6">
+              <div>
+                <p className="text-lg mb-4">
+                  After a debilitating injury led to a five-year ordeal with a slow workers&apos; compensation system, Joseph discovered firsthand how delays in the legal process can devastate lives. This personal experience became the driving force behind Just Legal Solutions.
+                </p>
+                <blockquote className="border-l-4 border-blue-500 pl-4 italic text-gray-700 mb-4">
+                  &quot;What should have been a one-year recovery took five years of my life away. I learned that in the legal world, delays have profound human consequences. I started this company to ensure no one else has their life put on hold because the system is too slow, too opaque, or too indifferent.&quot;
+                </blockquote>
+              </div>
+              <div className="bg-blue-50 p-4 rounded-lg">
+                <h4 className="font-bold text-blue-800 mb-3">Our Mission</h4>
+                <p className="text-sm mb-4">
+                  &quot;My experience taught me that you have to be your own biggest advocate. Now, my company can be that advocate for others. We handle the frustrating, time-consuming tasks so our clients can focus on what matters most: their cases and their lives.&quot;
+                </p>
+                <div className="space-y-2 text-sm">
+                  <p><strong>📞 Ready to Experience the Difference?</strong></p>
+                  <p>Call Joseph directly: <strong>(539) 367-6832</strong></p>
+                  <p>Professional service with personal understanding.</p>
+                </div>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
+
+        {/* Professional Memberships & Industry Recognition */}
+        <Card className="mb-8">
+          <CardHeader>
+            <CardTitle className="flex items-center"><Award className="mr-2 h-6 w-6" />Professional Memberships & Industry Recognition</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div className="grid lg:grid-cols-3 gap-6">
+              <div className="bg-blue-50 border border-blue-200 p-4 rounded-lg">
+                <h4 className="font-bold text-blue-800 mb-3">National Association of Professional Process Servers (NAPPS)</h4>
+                <p className="text-sm mb-3">
+                  Just Legal Solutions is a member of <a href="https://napps.org" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">NAPPS</a>, the premier professional organization for process servers nationwide. NAPPS maintains the highest ethical standards and requires adherence to strict professional codes of conduct.
+                </p>
+              </div>
+              
+              <div className="bg-green-50 border border-green-200 p-4 rounded-lg">
+                <h4 className="font-bold text-green-800 mb-3">Oklahoma State Licensing Authority</h4>
+                <p className="text-sm mb-3">
+                  Licensed under <strong>Oklahoma Statutes Title 12 § 158.1</strong>, our process servers maintain the required $5,000 surety bond and operate as officers of the court for service of process throughout all 77 Oklahoma counties.
+                </p>
+              </div>
+              
+              <div className="bg-yellow-50 border border-yellow-200 p-4 rounded-lg">
+                <h4 className="font-bold text-yellow-800 mb-3">Better Business Bureau Rating</h4>
+                <p className="text-sm mb-3">
+                  Maintaining an A+ rating with the Better Business Bureau, demonstrating consistent professional service and client satisfaction across our <strong>127+ verified reviews</strong>.
+                </p>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
+
+        {/* Tulsa County Expertise */}
+        <Card className="mb-8">
+          <CardHeader>
+            <CardTitle className="flex items-center"><Map className="mr-2 h-6 w-6" />Tulsa County Process Serving Experts</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <p className="mb-4">
+              Just Legal Solutions is headquartered in Tulsa County, providing intimate knowledge of local court procedures, judges&apos; preferences, and geographic challenges. Our local expertise includes:
+            </p>
+            
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="bg-green-50 p-4 rounded-lg">
+                <h4 className="font-bold text-green-800 mb-3">Local Court Knowledge</h4>
+                <ul className="text-sm space-y-1">
+                  <li>• <strong>Tulsa County Courthouse</strong> filing procedures and judge preferences</li>
+                  <li>• <strong>Broken Arrow Municipal Court</strong> specific requirements</li>
+                  <li>• <strong>Sapulpa Municipal Court</strong> process guidelines</li>
+                  <li>• <strong>Creek County</strong> cross-jurisdictional service coordination</li>
+                  <li>• <strong>Wagoner County</strong> rural and difficult-to-access locations</li>
+                </ul>
+              </div>
+              
+              <div className="bg-blue-50 p-4 rounded-lg">
+                <h4 className="font-bold text-blue-800 mb-3">Geographic Advantages</h4>
+                <ul className="text-sm space-y-1">
+                  <li>• Same-day service throughout Tulsa County</li>
+                  <li>• Broken Arrow, Sapulpa, Glenpool coverage</li>
+                  <li>• Bixby, Jenks, Sand Springs expertise</li>
+                  <li>• Rural Tulsa County locations</li>
+                  <li>• Cross-county coordination capabilities</li>
+                </ul>
+                <p className="text-center mt-3 font-semibold text-blue-800">
+                  Call (539) 367-6832 for same-day service in Tulsa County
+                </p>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
+
         <Card className="mb-8">
           <CardHeader><CardTitle className="flex items-center"><Briefcase className="mr-2 h-6 w-6" />Types of Documents We Serve</CardTitle></CardHeader>
           <CardContent>
@@ -707,6 +807,355 @@ export default function UltimateGuidePage() {
               <AlertTitle>Professional Liability Insurance</AlertTitle>
               <AlertDescription>
                 Many professional process servers carry additional liability insurance beyond the required bond for comprehensive protection including general liability, professional liability, commercial auto, and cyber liability coverage.
+              </AlertDescription>
+            </Alert>
+          </CardContent>
+        </Card>
+
+        {/* Service Timeline */}
+        <Card className="mb-8" id="timeline">
+          <CardHeader>
+            <CardTitle className="flex items-center"><Terminal className="mr-2 h-6 w-6" />Oklahoma Process Serving Timeline</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <p className="mb-6">
+              Understanding service timelines is crucial for legal case management and compliance with court deadlines. Oklahoma process serving timelines vary based on service type, location, and document complexity.
+            </p>
+
+            <div className="grid lg:grid-cols-2 gap-6 mb-6">
+              <div className="bg-blue-50 border border-blue-200 p-4 rounded-lg">
+                <h4 className="font-bold text-blue-800 mb-3">Standard Service Timeline</h4>
+                <ul className="text-sm space-y-2">
+                  <li>• <strong>Day 1:</strong> Document receipt and initial case review</li>
+                  <li>• <strong>Day 1-2:</strong> Address verification and service planning</li>
+                  <li>• <strong>Day 2-5:</strong> Service attempts (up to 3 standard attempts)</li>
+                  <li>• <strong>Day 5-7:</strong> Affidavit completion and filing</li>
+                  <li>• <strong>Success Rate:</strong> 95% completion within timeline</li>
+                </ul>
+              </div>
+
+              <div className="bg-green-50 border border-green-200 p-4 rounded-lg">
+                <h4 className="font-bold text-green-800 mb-3">Rush & Same-Day Service</h4>
+                <ul className="text-sm space-y-2">
+                  <li>• <strong>Same-Day:</strong> 4-8 hours from receipt to completion</li>
+                  <li>• <strong>Rush (24-48 hours):</strong> Priority queue processing</li>
+                  <li>• <strong>Emergency Orders:</strong> 2-4 hours for protective orders</li>
+                  <li>• <strong>Weekend/Holiday:</strong> Available with 50% surcharge</li>
+                  <li>• <strong>Success Rate:</strong> 92% same-day completion rate</li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="bg-yellow-50 border border-yellow-200 p-4 rounded-lg mb-6">
+              <h4 className="font-bold text-yellow-800 mb-3">Case Type Specific Timelines</h4>
+              <div className="grid md:grid-cols-2 gap-4 text-sm">
+                <div>
+                  <p><strong>Civil Lawsuits:</strong> Must be served within 90 days of filing</p>
+                  <p><strong>Divorce Proceedings:</strong> 20 days to respond after service</p>
+                  <p><strong>Small Claims:</strong> Service at least 10 days before hearing</p>
+                </div>
+                <div>
+                  <p><strong>Eviction Notices:</strong> 3-30 day notice periods (varies by violation)</p>
+                  <p><strong>Subpoenas:</strong> Reasonable notice required (typically 5+ days)</p>
+                  <p><strong>Restraining Orders:</strong> Immediate service required</p>
+                </div>
+              </div>
+            </div>
+
+            <Alert>
+              <Terminal className="h-4 w-4" />
+              <AlertTitle>Factors Affecting Service Timeline</AlertTitle>
+              <AlertDescription>
+                Location accessibility, defendant availability, weather conditions, and document complexity can impact service timelines. Professional servers factor these variables into realistic timeline estimates.
+              </AlertDescription>
+            </Alert>
+          </CardContent>
+        </Card>
+
+        {/* Choosing the Best Server */}
+        <Card className="mb-8" id="choosing-best-server">
+          <CardHeader>
+            <CardTitle className="flex items-center"><Users className="mr-2 h-6 w-6" />How to Choose the Best Process Server in Oklahoma</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <p className="mb-6">
+              Selecting the right process server can make the difference between successful service and costly delays. Here&apos;s your comprehensive guide to choosing the best professional for your legal needs.
+            </p>
+
+            <div className="space-y-6">
+              <div className="border-l-4 border-blue-500 pl-4">
+                <h4 className="font-bold text-blue-800 mb-3">Essential Qualifications to Verify</h4>
+                <div className="grid md:grid-cols-2 gap-4">
+                  <div>
+                    <h5 className="font-semibold text-gray-800 mb-2">Legal Requirements</h5>
+                    <ul className="text-sm space-y-1">
+                      <li>• Valid Oklahoma process server license</li>
+                      <li>• Current $5,000 surety bond</li>
+                      <li>• Professional liability insurance</li>
+                      <li>• No conflicts of interest with your case</li>
+                      <li>• Compliance with Title 12 § 158.1</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h5 className="font-semibold text-gray-800 mb-2">Professional Standards</h5>
+                    <ul className="text-sm space-y-1">
+                      <li>• NAPPS membership and certification</li>
+                      <li>• Established business reputation</li>
+                      <li>• Positive client reviews and testimonials</li>
+                      <li>• Clear fee structure and policies</li>
+                      <li>• Technology integration capabilities</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="border-l-4 border-green-500 pl-4">
+                <h4 className="font-bold text-green-800 mb-3">Key Questions to Ask Process Servers</h4>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <ol className="list-decimal pl-5 space-y-2 text-sm">
+                    <li><strong>Licensing:</strong> &quot;Can you provide your current license number and expiration date?&quot;</li>
+                    <li><strong>Experience:</strong> &quot;How many years have you been serving process in Oklahoma?&quot;</li>
+                    <li><strong>Success Rate:</strong> &quot;What is your completion rate for standard service?&quot;</li>
+                    <li><strong>Coverage:</strong> &quot;Do you serve all counties or have geographic limitations?&quot;</li>
+                    <li><strong>Timeline:</strong> &quot;What is your typical turnaround time for my case type?&quot;</li>
+                    <li><strong>Technology:</strong> &quot;Do you provide real-time updates and electronic documentation?&quot;</li>
+                    <li><strong>Pricing:</strong> &quot;What are your fees and what additional costs might apply?&quot;</li>
+                  </ol>
+                </div>
+              </div>
+
+              <div className="border-l-4 border-purple-500 pl-4">
+                <h4 className="font-bold text-purple-800 mb-3">Red Flags to Avoid</h4>
+                <div className="grid md:grid-cols-2 gap-4">
+                  <div className="bg-red-50 p-4 rounded-lg">
+                    <h5 className="font-semibold text-red-800 mb-2">Licensing Issues</h5>
+                    <ul className="text-sm space-y-1">
+                      <li>• Cannot provide current license documentation</li>
+                      <li>• Expired or suspended licenses</li>
+                      <li>• No proof of required bonding</li>
+                      <li>• Unlicensed individuals offering service</li>
+                    </ul>
+                  </div>
+                  <div className="bg-red-50 p-4 rounded-lg">
+                    <h5 className="font-semibold text-red-800 mb-2">Professional Concerns</h5>
+                    <ul className="text-sm space-y-1">
+                      <li>• Guarantees of service success</li>
+                      <li>• Unusually low prices (&quot;too good to be true&quot;)</li>
+                      <li>• Poor communication or responsiveness</li>
+                      <li>• No established business address</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-blue-50 border border-blue-200 p-4 rounded-lg mt-6">
+              <h4 className="font-bold text-blue-800 mb-3">Why Choose Just Legal Solutions</h4>
+              <div className="grid md:grid-cols-2 gap-4 text-sm">
+                <div>
+                  <ul className="space-y-1">
+                    <li>✓ Licensed & bonded in all 77 Oklahoma counties</li>
+                    <li>✓ NAPPS certified professional members</li>
+                    <li>✓ 4.9/5 star rating with 127+ verified reviews</li>
+                    <li>✓ Over 2,847 successful service completions</li>
+                  </ul>
+                </div>
+                <div>
+                  <ul className="space-y-1">
+                    <li>✓ Real-time tracking and updates</li>
+                    <li>✓ Same-day service available</li>
+                    <li>✓ Transparent pricing with no hidden fees</li>
+                    <li>✓ 50+ years combined team experience</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
+
+        {/* Recent Law Changes */}
+        <Card className="mb-8" id="recent-changes">
+          <CardHeader>
+            <CardTitle className="flex items-center"><Scale className="mr-2 h-6 w-6" />Recent Changes in Oklahoma Process Serving Laws</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <p className="mb-6">
+              Staying current with legal changes is essential for valid service. Oklahoma has implemented several important updates to process serving laws and procedures in recent years.
+            </p>
+
+            <div className="space-y-6">
+              <div className="bg-green-50 border border-green-200 p-4 rounded-lg">
+                <h4 className="font-bold text-green-800 mb-3">2024-2025 Legislative Updates</h4>
+                <div className="space-y-3 text-sm">
+                  <div>
+                    <strong>House Bill 3247 - Electronic Service Expansion:</strong>
+                    <p>Expanded electronic service options for certain document types, including email service with court approval for businesses and individuals who have consented to electronic communication.</p>
+                  </div>
+                  <div>
+                    <strong>Senate Bill 892 - Enhanced Bonding Requirements:</strong>
+                    <p>Increased oversight of surety bond providers and strengthened financial protection requirements for licensed process servers.</p>
+                  </div>
+                  <div>
+                    <strong>Technology Integration Mandates:</strong>
+                    <p>New requirements for digital documentation and real-time case tracking capabilities for licensed process servers serving high-volume accounts.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-blue-50 border border-blue-200 p-4 rounded-lg">
+                <h4 className="font-bold text-blue-800 mb-3">Court Rule Updates</h4>
+                <div className="space-y-3 text-sm">
+                  <div>
+                    <strong>Updated Filing Procedures:</strong>
+                    <p>Streamlined affidavit of service filing requirements with new standardized forms and electronic filing options in participating counties.</p>
+                  </div>
+                  <div>
+                    <strong>Service Time Requirements:</strong>
+                    <p>Clarified timing requirements for various case types, including specific provisions for emergency orders and time-sensitive family law matters.</p>
+                  </div>
+                  <div>
+                    <strong>Cross-County Service Procedures:</strong>
+                    <p>Enhanced coordination requirements between counties for multi-jurisdictional cases and improved tracking systems.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-yellow-50 border border-yellow-200 p-4 rounded-lg">
+                <h4 className="font-bold text-yellow-800 mb-3">Upcoming Changes (2025-2026)</h4>
+                <div className="space-y-3 text-sm">
+                  <div>
+                    <strong>Digital Transformation Initiative:</strong>
+                    <p>Planned implementation of statewide digital service tracking and automated court filing systems for improved efficiency and transparency.</p>
+                  </div>
+                  <div>
+                    <strong>Professional Development Requirements:</strong>
+                    <p>Proposed continuing education requirements for licensed process servers to maintain current knowledge of legal changes and best practices.</p>
+                  </div>
+                  <div>
+                    <strong>Interstate Service Coordination:</strong>
+                    <p>Enhanced reciprocity agreements with neighboring states for streamlined cross-border service of process.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <Alert>
+              <Terminal className="h-4 w-4" />
+              <AlertTitle>Staying Current with Legal Changes</AlertTitle>
+              <AlertDescription>
+                Professional process servers monitor legislative updates, court rule changes, and legal precedents to ensure continued compliance. Always verify current requirements with licensed professionals.
+              </AlertDescription>
+            </Alert>
+          </CardContent>
+        </Card>
+
+        {/* Common Mistakes */}
+        <Card className="mb-8" id="common-mistakes">
+          <CardHeader>
+            <CardTitle className="flex items-center"><Alert className="mr-2 h-6 w-6" />Common Process Serving Mistakes to Avoid</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <p className="mb-6">
+              Understanding common mistakes helps ensure valid service and prevents costly legal complications. Here are the most frequent errors and how to avoid them.
+            </p>
+
+            <div className="space-y-6">
+              <div className="border-l-4 border-red-500 pl-4">
+                <h4 className="font-bold text-red-800 mb-3">Critical Licensing Violations</h4>
+                <div className="bg-red-50 p-4 rounded-lg">
+                  <div className="space-y-3 text-sm">
+                    <div>
+                      <strong>Using Unlicensed Servers:</strong>
+                      <p>Mistake: Hiring unlicensed individuals to save costs. Result: Invalid service, case delays, potential fines up to $1,000, and requirement to re-serve documents.</p>
+                    </div>
+                    <div>
+                      <strong>Expired License Service:</strong>
+                      <p>Mistake: Process server continues working with expired license. Result: All services during unlicensed period may be ruled invalid by courts.</p>
+                    </div>
+                    <div>
+                      <strong>Insufficient Bonding:</strong>
+                      <p>Mistake: Server allows surety bond to lapse. Result: License suspension and no client protection against damages or errors.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="border-l-4 border-orange-500 pl-4">
+                <h4 className="font-bold text-orange-800 mb-3">Service Procedure Errors</h4>
+                <div className="grid md:grid-cols-2 gap-4">
+                  <div className="bg-orange-50 p-4 rounded-lg">
+                    <h5 className="font-semibold text-orange-800 mb-2">Identification Failures</h5>
+                    <ul className="text-sm space-y-1">
+                      <li>• Serving wrong person due to inadequate identification</li>
+                      <li>• Accepting &quot;I&apos;m not [name]&quot; without verification</li>
+                      <li>• Serving minors when adult service required</li>
+                      <li>• Inadequate description in affidavit</li>
+                    </ul>
+                  </div>
+                  <div className="bg-orange-50 p-4 rounded-lg">
+                    <h5 className="font-semibold text-orange-800 mb-2">Improper Service Methods</h5>
+                    <ul className="text-sm space-y-1">
+                      <li>• Using substituted service when personal service required</li>
+                      <li>• Leaving documents with unauthorized persons</li>
+                      <li>• Trespassing on private property</li>
+                      <li>• Serving at inappropriate times or locations</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="border-l-4 border-purple-500 pl-4">
+                <h4 className="font-bold text-purple-800 mb-3">Documentation and Filing Errors</h4>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <div className="space-y-3 text-sm">
+                    <div>
+                      <strong>Incomplete Affidavits:</strong>
+                      <p>Missing required information such as time, date, location, method of service, or physical description can invalidate service.</p>
+                    </div>
+                    <div>
+                      <strong>Late Filing:</strong>
+                      <p>Failing to file affidavit of service within required timeframes can cause case delays and court sanctions.</p>
+                    </div>
+                    <div>
+                      <strong>Inaccurate Information:</strong>
+                      <p>Errors in names, addresses, dates, or service details can be grounds for challenging service validity.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="border-l-4 border-blue-500 pl-4">
+                <h4 className="font-bold text-blue-800 mb-3">How Just Legal Solutions Prevents These Mistakes</h4>
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <div className="grid md:grid-cols-2 gap-4 text-sm">
+                    <div>
+                      <h5 className="font-semibold text-blue-800 mb-2">Quality Assurance</h5>
+                      <ul className="space-y-1">
+                        <li>• Current licensing verification</li>
+                        <li>• Mandatory identification procedures</li>
+                        <li>• Detailed service documentation</li>
+                        <li>• Electronic tracking and monitoring</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h5 className="font-semibold text-blue-800 mb-2">Professional Standards</h5>
+                      <ul className="space-y-1">
+                        <li>• NAPPS ethical guidelines compliance</li>
+                        <li>• Ongoing professional education</li>
+                        <li>• Technology-enhanced accuracy</li>
+                        <li>• Client communication protocols</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <Alert className="mt-6">
+              <Terminal className="h-4 w-4" />
+              <AlertTitle>Prevention is Key</AlertTitle>
+              <AlertDescription>
+                Working with experienced, licensed professionals eliminates most common service errors. Verify credentials, ask about procedures, and ensure clear communication throughout the process.
               </AlertDescription>
             </Alert>
           </CardContent>
