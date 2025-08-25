@@ -2145,7 +2145,6 @@ export default function WhatIsAProcessServerPage() {
                       <li className="flex items-start"><span className="text-red-600 mr-2">✗</span><strong>Unauthorized entry </strong> to private property</li>
                       <li className="flex items-start"><span className="text-red-600 mr-2">✗</span><strong>Misrepresentation </strong> of identity or purpose</li>
                       <li className="flex items-start"><span className="text-red-600 mr-2">✗</span><strong>Threatening behavior </strong> or coercion</li>
-                      <li className="flex items-start"><span className="text-red-600 mr-2">✗</span><strong>Service on Sundays </strong> (unless court-authorized)</li>
                       <li className="flex items-start"><span className="text-red-600 mr-2">✗</span><strong>Service outside authorized county </strong> without proper license</li>
                     </ul>
                   </div>
