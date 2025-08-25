@@ -516,6 +516,7 @@ export default function WhatIsAProcessServerPage() {
                   width={800}
                   height={500}
                   className="rounded-xl shadow-lg mx-auto"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 800px"
                   priority
                 />
               </div>
@@ -535,6 +536,7 @@ export default function WhatIsAProcessServerPage() {
               width={600}
               height={400}
               className="rounded-lg shadow-lg mx-auto"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 60vw, 600px"
               priority
             />
           </div>
@@ -573,6 +575,7 @@ export default function WhatIsAProcessServerPage() {
                 width={800}
                 height={200}
                 className="mx-auto"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 800px"
               />
             </div>
 
@@ -609,6 +612,7 @@ export default function WhatIsAProcessServerPage() {
                   width={1000}
                   height={600}
                   className="rounded-xl shadow-lg mx-auto"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 1000px"
                 />
               </div>
 
@@ -720,40 +724,37 @@ export default function WhatIsAProcessServerPage() {
               </p>
             </section>
 
-            {/* Types of Documents with Visual */}
-            <section className="mb-12" id="document-types">
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center">Legal Documents We Serve Throughout Oklahoma</h2>
+            {/* Complete List of Legal Documents Section */}
+            <section className="mb-12" id="complete-document-list">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center voice-optimized">Complete List of Legal Documents We Serve Throughout Oklahoma</h2>
               
-              <div className="text-center mb-8">
-                <Image 
-                  src="/images/Legal-document-types-process-server.png"
-                  alt="Legal documents served by Oklahoma process servers"
-                  width={900}
-                  height={600}
-                  className="rounded-xl shadow-lg mx-auto"
-                />
-              </div>
-              
-              {/* Expanded Document Categories */}
               <div className="grid lg:grid-cols-2 gap-8 mb-8">
                 <div className="bg-blue-50 border border-blue-200 rounded-xl p-8">
                   <h3 className="text-xl font-bold text-blue-900 mb-6">⚖️ Civil Litigation Documents</h3>
                   <div className="space-y-3">
                     <div className="bg-white p-4 rounded-lg border hover:shadow-md transition">
-                      <strong className="text-blue-800">Summons and Complaints</strong><br />
-                      <span className="text-sm text-gray-600">Personal injury, contract disputes, property disputes, business litigation</span>
+                      <strong className="text-blue-800">Summons and complaints</strong><br />
+                      <span className="text-sm text-gray-600">Personal injury cases, contract disputes, property disagreements, business litigation</span>
                     </div>
                     <div className="bg-white p-4 rounded-lg border hover:shadow-md transition">
-                      <strong className="text-blue-800">Motions and Orders</strong><br />
-                      <span className="text-sm text-gray-600">Court orders and judgments requiring personal service</span>
+                      <strong className="text-blue-800">Contract dispute lawsuits</strong><br />
+                      <span className="text-sm text-gray-600">Breach of contract claims and commercial disputes</span>
                     </div>
                     <div className="bg-white p-4 rounded-lg border hover:shadow-md transition">
-                      <strong className="text-blue-800">Discovery Documents</strong><br />
-                      <span className="text-sm text-gray-600">Interrogatories, requests for production, depositions</span>
+                      <strong className="text-blue-800">Property dispute papers</strong><br />
+                      <span className="text-sm text-gray-600">Boundary disagreements and real estate conflicts</span>
                     </div>
                     <div className="bg-white p-4 rounded-lg border hover:shadow-md transition">
-                      <strong className="text-blue-800">Garnishment Papers</strong><br />
-                      <span className="text-sm text-gray-600">Wage garnishments, asset seizure orders</span>
+                      <strong className="text-blue-800">Business litigation papers</strong><br />
+                      <span className="text-sm text-gray-600">Partnership dissolution and corporate disputes</span>
+                    </div>
+                    <div className="bg-white p-4 rounded-lg border hover:shadow-md transition">
+                      <strong className="text-blue-800">Motions, orders, and court judgments</strong><br />
+                      <span className="text-sm text-gray-600">Requiring personal service for legal validity</span>
+                    </div>
+                    <div className="bg-white p-4 rounded-lg border hover:shadow-md transition">
+                      <strong className="text-blue-800">Discovery documents</strong><br />
+                      <span className="text-sm text-gray-600">Interrogatories, document requests, and depositions subpoenas</span>
                     </div>
                   </div>
                 </div>
@@ -762,42 +763,58 @@ export default function WhatIsAProcessServerPage() {
                   <h3 className="text-xl font-bold text-pink-900 mb-6">👨‍👩‍👧‍👦 Family Law Documents</h3>
                   <div className="space-y-3">
                     <div className="bg-white p-4 rounded-lg border hover:shadow-md transition">
-                      <strong className="text-pink-800">Divorce Petitions</strong><br />
-                      <span className="text-sm text-gray-600">Dissolution papers, legal separation documents</span>
+                      <strong className="text-pink-800">Divorce petitions</strong><br />
+                      <span className="text-sm text-gray-600">Dissolution of marriage papers and legal separation documents</span>
                     </div>
                     <div className="bg-white p-4 rounded-lg border hover:shadow-md transition">
-                      <strong className="text-pink-800">Child Custody/Support</strong><br />
-                      <span className="text-sm text-gray-600">Custody modifications, support enforcement</span>
+                      <strong className="text-pink-800">Child custody modification</strong><br />
+                      <span className="text-sm text-gray-600">Visitation orders and custody changes</span>
                     </div>
                     <div className="bg-white p-4 rounded-lg border hover:shadow-md transition">
-                      <strong className="text-pink-800">Restraining Orders</strong><br />
-                      <span className="text-sm text-gray-600">Protective orders, emergency injunctions</span>
+                      <strong className="text-pink-800">Child support enforcement</strong><br />
+                      <span className="text-sm text-gray-600">Support modification papers and collection actions</span>
                     </div>
                     <div className="bg-white p-4 rounded-lg border hover:shadow-md transition">
-                      <strong className="text-pink-800">Adoption Papers</strong><br />
-                      <span className="text-sm text-gray-600">Adoption proceedings, paternity suits</span>
+                      <strong className="text-pink-800">Restraining orders</strong><br />
+                      <span className="text-sm text-gray-600">Protective orders (emergency service available)</span>
+                    </div>
+                    <div className="bg-white p-4 rounded-lg border hover:shadow-md transition">
+                      <strong className="text-pink-800">Temporary injunctions</strong><br />
+                      <span className="text-sm text-gray-600">Emergency custody orders and family court orders</span>
+                    </div>
+                    <div className="bg-white p-4 rounded-lg border hover:shadow-md transition">
+                      <strong className="text-pink-800">Adoption papers and paternity lawsuits</strong><br />
+                      <span className="text-sm text-gray-600">Including domestic relations income withholding orders</span>
                     </div>
                   </div>
                 </div>
 
                 <div className="bg-green-50 border border-green-200 rounded-xl p-8">
-                  <h3 className="text-xl font-bold text-green-900 mb-6">🏢 Business and Commercial</h3>
+                  <h3 className="text-xl font-bold text-green-900 mb-6">🏢 Business and Commercial Documents</h3>
                   <div className="space-y-3">
                     <div className="bg-white p-4 rounded-lg border hover:shadow-md transition">
-                      <strong className="text-green-800">Corporate Subpoenas</strong><br />
-                      <span className="text-sm text-gray-600">Business litigation papers, corporate disputes</span>
+                      <strong className="text-green-800">Corporate subpoenas</strong><br />
+                      <span className="text-sm text-gray-600">Business litigation papers and corporate disputes</span>
                     </div>
                     <div className="bg-white p-4 rounded-lg border hover:shadow-md transition">
-                      <strong className="text-green-800">Commercial Evictions</strong><br />
-                      <span className="text-sm text-gray-600">Unlawful detainer actions, business evictions</span>
+                      <strong className="text-green-800">Shareholder disputes</strong><br />
+                      <span className="text-sm text-gray-600">Corporate dissolution papers and business conflicts</span>
                     </div>
                     <div className="bg-white p-4 rounded-lg border hover:shadow-md transition">
-                      <strong className="text-green-800">Contract Disputes</strong><br />
-                      <span className="text-sm text-gray-600">Breach of contract lawsuits, collections</span>
+                      <strong className="text-green-800">Commercial eviction notices</strong><br />
+                      <span className="text-sm text-gray-600">Unlawful detainer actions for businesses</span>
                     </div>
                     <div className="bg-white p-4 rounded-lg border hover:shadow-md transition">
-                      <strong className="text-green-800">Partnership Dissolution</strong><br />
-                      <span className="text-sm text-gray-600">Shareholder disputes, business dissolution</span>
+                      <strong className="text-green-800">Breach of contract lawsuits</strong><br />
+                      <span className="text-sm text-gray-600">Collections matters and commercial disputes</span>
+                    </div>
+                    <div className="bg-white p-4 rounded-lg border hover:shadow-md transition">
+                      <strong className="text-green-800">Employment disputes</strong><br />
+                      <span className="text-sm text-gray-600">Non-compete violations and workplace conflicts</span>
+                    </div>
+                    <div className="bg-white p-4 rounded-lg border hover:shadow-md transition">
+                      <strong className="text-green-800">Intellectual property disputes</strong><br />
+                      <span className="text-sm text-gray-600">Trademark violations and IP litigation</span>
                     </div>
                   </div>
                 </div>
@@ -806,126 +823,184 @@ export default function WhatIsAProcessServerPage() {
                   <h3 className="text-xl font-bold text-red-900 mb-6">🚨 Criminal and Civil Enforcement</h3>
                   <div className="space-y-3">
                     <div className="bg-white p-4 rounded-lg border hover:shadow-md transition">
-                      <strong className="text-red-800">Criminal Subpoenas</strong><br />
-                      <span className="text-sm text-gray-600">Testimony subpoenas for criminal cases</span>
+                      <strong className="text-red-800">Subpoenas for testimony</strong><br />
+                      <span className="text-sm text-gray-600">Criminal cases and court appearance orders</span>
                     </div>
                     <div className="bg-white p-4 rounded-lg border hover:shadow-md transition">
-                      <strong className="text-red-800">Restitution Orders</strong><br />
-                      <span className="text-sm text-gray-600">Civil judgment enforcement</span>
+                      <strong className="text-red-800">Restitution orders</strong><br />
+                      <span className="text-sm text-gray-600">Civil judgment enforcement actions</span>
                     </div>
                     <div className="bg-white p-4 rounded-lg border hover:shadow-md transition">
-                      <strong className="text-red-800">Contempt Orders</strong><br />
-                      <span className="text-sm text-gray-600">Show cause orders, court compliance</span>
+                      <strong className="text-red-800">Asset seizure papers</strong><br />
+                      <span className="text-sm text-gray-600">Bank account garnishments and property seizure</span>
                     </div>
                     <div className="bg-white p-4 rounded-lg border hover:shadow-md transition">
-                      <strong className="text-red-800">Asset Seizure</strong><br />
-                      <span className="text-sm text-gray-600">Asset seizure and garnishment papers</span>
+                      <strong className="text-red-800">Wage garnishment orders</strong><br />
+                      <span className="text-sm text-gray-600">Income withholding and collection enforcement</span>
+                    </div>
+                    <div className="bg-white p-4 rounded-lg border hover:shadow-md transition">
+                      <strong className="text-red-800">Contempt of court orders</strong><br />
+                      <span className="text-sm text-gray-600">Show cause orders and compliance enforcement</span>
+                    </div>
+                    <div className="bg-white p-4 rounded-lg border hover:shadow-md transition">
+                      <strong className="text-red-800">Probation violation notices</strong><br />
+                      <span className="text-sm text-gray-600">Court appearance orders for probation issues</span>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
-                {[
-                  "Summons and Complaints",
-                  "Divorce and Family Law Papers",
-                  "Subpoenas for Testimony",
-                  "Subpoenas for Documents", 
-                  "Eviction Notices (FED)",
-                  "Restraining Orders",
-                  "Small Claims Court Orders",
-                  "Citations and Petitions",
-                  "Business Litigation Papers",
-                  "Civil Lawsuit Documents",
-                  "Garnishment Papers",
-                  "Bankruptcy Documents"
-                ].map((docType, index) => (
-                  <div key={index} className="bg-gradient-to-br from-blue-50 to-blue-100 p-4 rounded-lg border hover:shadow-md transition group cursor-pointer">
-                    <span className="text-blue-600 font-semibold mr-2 group-hover:text-blue-800 transition">✓</span>
-                    <span className="text-sm font-medium text-gray-800 group-hover:text-gray-900 transition">{docType}</span>
+              <div className="bg-purple-50 border border-purple-200 rounded-xl p-8">
+                <h3 className="text-2xl font-bold text-purple-900 mb-6">🏠 Real Estate and Property Documents</h3>
+                <div className="grid md:grid-cols-3 gap-6">
+                  <div className="bg-white p-6 rounded-lg shadow border-l-4 border-purple-500">
+                    <h4 className="font-bold text-purple-800 mb-3">Property Disputes</h4>
+                    <ul className="text-gray-700 space-y-2 text-sm">
+                      <li>• Foreclosure notices and mortgage default papers</li>
+                      <li>• Boundary disputes and easement violations</li>
+                      <li>• Property lien notices and mechanics&apos; liens</li>
+                      <li>• Eminent domain proceedings</li>
+                    </ul>
                   </div>
-                ))}
+                  <div className="bg-white p-6 rounded-lg shadow border-l-4 border-indigo-500">
+                    <h4 className="font-bold text-indigo-800 mb-3">Landlord-Tenant</h4>
+                    <ul className="text-gray-700 space-y-2 text-sm">
+                      <li>• Landlord-tenant disputes and lease violations</li>
+                      <li>• Eviction notices and unlawful detainer actions</li>
+                      <li>• Rental agreement enforcement</li>
+                      <li>• Security deposit disputes</li>
+                    </ul>
+                  </div>
+                  <div className="bg-white p-6 rounded-lg shadow border-l-4 border-teal-500">
+                    <h4 className="font-bold text-teal-800 mb-3">HOA and Community</h4>
+                    <ul className="text-gray-700 space-y-2 text-sm">
+                      <li>• HOA violation notices and assessments</li>
+                      <li>• Community association collections</li>
+                      <li>• Covenant enforcement actions</li>
+                      <li>• Property management disputes</li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </section>
 
-            {/* Industry Trends */}
-            <section className="mb-12" id="industry-trends">
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center voice-optimized">Industry Trends and Future of Process Serving</h2>
+            {/* Industry Statistics and Market Data Section */}
+            <section className="mb-12" id="industry-statistics">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center voice-optimized">Industry Statistics and Market Data - 2025</h2>
               
-              <div className="bg-gradient-to-br from-purple-50 to-blue-50 rounded-xl p-8 mb-8">
-                <h3 className="text-2xl font-bold text-purple-900 mb-8 text-center">🚀 2025 Process Serving Industry Trends</h3>
+              <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-8 mb-8">
+                <h3 className="text-2xl font-bold text-blue-900 mb-8 text-center">� Process Server Industry Overview</h3>
                 
-                <div className="grid lg:grid-cols-3 gap-8">
-                  <div className="bg-white p-6 rounded-lg shadow-lg border-t-4 border-blue-500">
-                    <div className="text-center mb-4">
-                      <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-3">
-                        <span className="text-white text-2xl">💻</span>
-                      </div>
-                      <h4 className="font-bold text-blue-800 text-lg">Digital Integration Advances</h4>
-                    </div>
-                    <ul className="text-gray-700 space-y-2 text-sm">
-                      <li>• Electronic service acceptance increasing in Oklahoma courts</li>
-                      <li>• Digital affidavit filing becoming standard practice</li>
-                      <li>• Blockchain verification for tamper-proof records</li>
-                      <li>• AI-assisted location and service optimization</li>
-                    </ul>
+                <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                  <div className="bg-white p-6 rounded-lg shadow-lg text-center border-t-4 border-blue-500">
+                    <div className="text-3xl font-bold text-blue-600 mb-2">$1.4B</div>
+                    <p className="text-sm text-gray-600">Annual U.S. market size (2025 data)</p>
                   </div>
-                  
-                  <div className="bg-white p-6 rounded-lg shadow-lg border-t-4 border-green-500">
-                    <div className="text-center mb-4">
-                      <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-3">
-                        <span className="text-white text-2xl">🔒</span>
-                      </div>
-                      <h4 className="font-bold text-green-800 text-lg">Enhanced Security & Compliance</h4>
-                    </div>
-                    <ul className="text-gray-700 space-y-2 text-sm">
-                      <li>• Encrypted communication for sensitive documents</li>
-                      <li>• Enhanced privacy protection measures</li>
-                      <li>• Stricter compliance monitoring standards</li>
-                      <li>• Advanced professional training requirements</li>
-                    </ul>
+                  <div className="bg-white p-6 rounded-lg shadow-lg text-center border-t-4 border-green-500">
+                    <div className="text-3xl font-bold text-green-600 mb-2">12%</div>
+                    <p className="text-sm text-gray-600">Year-over-year growth in professional process serving</p>
                   </div>
-                  
-                  <div className="bg-white p-6 rounded-lg shadow-lg border-t-4 border-purple-500">
-                    <div className="text-center mb-4">
-                      <div className="w-16 h-16 bg-purple-500 rounded-full flex items-center justify-center mx-auto mb-3">
-                        <span className="text-white text-2xl">📱</span>
-                      </div>
-                      <h4 className="font-bold text-purple-800 text-lg">Client Service Improvements</h4>
-                    </div>
-                    <ul className="text-gray-700 space-y-2 text-sm">
-                      <li>• 24/7 online client portals for tracking</li>
-                      <li>• Mobile app integration for real-time updates</li>
-                      <li>• Automated scheduling and optimization</li>
-                      <li>• AI-powered customer service support</li>
-                    </ul>
+                  <div className="bg-white p-6 rounded-lg shadow-lg text-center border-t-4 border-purple-500">
+                    <div className="text-3xl font-bold text-purple-600 mb-2">15,500+</div>
+                    <p className="text-sm text-gray-600">Professional process servers nationwide (NAPPS data)</p>
+                  </div>
+                  <div className="bg-white p-6 rounded-lg shadow-lg text-center border-t-4 border-red-500">
+                    <div className="text-3xl font-bold text-red-600 mb-2">200+</div>
+                    <p className="text-sm text-gray-600">Licensed process servers in Oklahoma</p>
                   </div>
                 </div>
               </div>
-              
-              <div className="text-center bg-blue-50 border border-blue-200 rounded-xl p-8">
-                <h3 className="text-xl font-bold text-blue-900 mb-4">🔮 The Future is Here at Just Legal Solutions</h3>
-                <p className="text-lg text-gray-700 mb-6">
-                  We&apos;re already implementing many of these advanced technologies and practices to provide our clients with the most efficient, secure, and reliable process serving experience in Oklahoma.
-                </p>
-                <div className="grid md:grid-cols-3 gap-4 text-sm">
-                  <div className="bg-white p-4 rounded border">
-                    <strong className="text-blue-800">✓ Digital Affidavits</strong><br />
-                    <span className="text-gray-600">Immediate electronic delivery</span>
+
+              <div className="grid lg:grid-cols-2 gap-8 mb-8">
+                <div className="bg-green-50 border border-green-200 rounded-xl p-8">
+                  <h3 className="text-xl font-bold text-green-900 mb-6">🎯 Efficiency and Success Rate Comparisons</h3>
+                  <div className="space-y-4">
+                    <div className="flex items-center justify-between p-4 bg-white rounded-lg border">
+                      <span className="font-medium text-gray-800">Professional Servers Success Rate</span>
+                      <span className="bg-green-500 text-white px-3 py-1 rounded-full text-sm font-bold">97%</span>
+                    </div>
+                    <div className="flex items-center justify-between p-4 bg-white rounded-lg border">
+                      <span className="font-medium text-gray-800">Sheriff Departments Success Rate</span>
+                      <span className="bg-yellow-500 text-white px-3 py-1 rounded-full text-sm font-bold">60-70%</span>
+                    </div>
+                    <div className="flex items-center justify-between p-4 bg-white rounded-lg border">
+                      <span className="font-medium text-gray-800">Professional Timeline Average</span>
+                      <span className="bg-blue-500 text-white px-3 py-1 rounded-full text-sm font-bold">24-48 hrs</span>
+                    </div>
+                    <div className="flex items-center justify-between p-4 bg-white rounded-lg border">
+                      <span className="font-medium text-gray-800">Sheriff Timeline Average</span>
+                      <span className="bg-red-500 text-white px-3 py-1 rounded-full text-sm font-bold">2-4 weeks</span>
+                    </div>
+                    <div className="flex items-center justify-between p-4 bg-white rounded-lg border">
+                      <span className="font-medium text-gray-800">Cost vs. Attorney Hourly Rates</span>
+                      <span className="bg-purple-500 text-white px-3 py-1 rounded-full text-sm font-bold">70% savings</span>
+                    </div>
                   </div>
-                  <div className="bg-white p-4 rounded border">
-                    <strong className="text-blue-800">✓ GPS Documentation</strong><br />
-                    <span className="text-gray-600">Precise location verification</span>
+                </div>
+
+                <div className="bg-purple-50 border border-purple-200 rounded-xl p-8">
+                  <h3 className="text-xl font-bold text-purple-900 mb-6">💻 Technology Adoption in Process Serving</h3>
+                  <div className="space-y-4">
+                    <div className="bg-white p-4 rounded-lg border">
+                      <div className="flex items-center justify-between mb-2">
+                        <span className="font-medium text-gray-800">GPS Tracking & Documentation</span>
+                        <span className="text-purple-600 font-bold">78%</span>
+                      </div>
+                      <div className="w-full bg-gray-200 rounded-full h-2">
+                        <div className="bg-purple-500 h-2 rounded-full" style={{width: '78%'}}></div>
+                      </div>
+                    </div>
+                    <div className="bg-white p-4 rounded-lg border">
+                      <div className="flex items-center justify-between mb-2">
+                        <span className="font-medium text-gray-800">Real-Time Client Communication</span>
+                        <span className="text-blue-600 font-bold">65%</span>
+                      </div>
+                      <div className="w-full bg-gray-200 rounded-full h-2">
+                        <div className="bg-blue-500 h-2 rounded-full" style={{width: '65%'}}></div>
+                      </div>
+                    </div>
+                    <div className="bg-white p-4 rounded-lg border">
+                      <div className="flex items-center justify-between mb-2">
+                        <span className="font-medium text-gray-800">Advanced Database Skip Tracing</span>
+                        <span className="text-green-600 font-bold">52%</span>
+                      </div>
+                      <div className="w-full bg-gray-200 rounded-full h-2">
+                        <div className="bg-green-500 h-2 rounded-full" style={{width: '52%'}}></div>
+                      </div>
+                    </div>
+                    <div className="bg-white p-4 rounded-lg border">
+                      <div className="flex items-center justify-between mb-2">
+                        <span className="font-medium text-gray-800">Digital Affidavit Filing</span>
+                        <span className="text-red-600 font-bold">89%</span>
+                      </div>
+                      <div className="w-full bg-gray-200 rounded-full h-2">
+                        <div className="bg-red-500 h-2 rounded-full" style={{width: '89%'}}></div>
+                      </div>
+                    </div>
                   </div>
-                  <div className="bg-white p-4 rounded border">
-                    <strong className="text-blue-800">✓ Client Portal</strong><br />
-                    <span className="text-gray-600">24/7 case tracking access</span>
+                </div>
+              </div>
+
+              <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-8">
+                <h3 className="text-2xl font-bold text-yellow-900 mb-6 text-center">📈 Legal Industry Impact</h3>
+                <div className="grid md:grid-cols-3 gap-6">
+                  <div className="text-center">
+                    <div className="text-4xl font-bold text-yellow-800 mb-2">85%</div>
+                    <p className="text-sm text-gray-700 font-medium">Of civil and family law cases require professional service</p>
+                  </div>
+                  <div className="text-center">
+                    <div className="text-4xl font-bold text-yellow-800 mb-2">2,100+</div>
+                    <p className="text-sm text-gray-700 font-medium">NAPPS members representing all 50 states</p>
+                  </div>
+                  <div className="text-center">
+                    <div className="text-4xl font-bold text-yellow-800 mb-2">24/7</div>
+                    <p className="text-sm text-gray-700 font-medium">Emergency service availability trend increasing</p>
                   </div>
                 </div>
               </div>
             </section>
 
-            {/* Professional vs Sheriff Comparison */}
+            {/* Professional vs Sheriff Comparison with Detailed Table */}
             <section className="mb-12" id="vs-sheriff">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center">Why Choose a Professional Process Server Over the Sheriff&rsquo;s Department?</h2>
               
@@ -936,77 +1011,153 @@ export default function WhatIsAProcessServerPage() {
                   width={1000}
                   height={600}
                   className="rounded-xl shadow-lg mx-auto"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 1000px"
                 />
               </div>
               
-              <div className="bg-yellow-50 border-l-4 border-yellow-500 p-8 rounded-r-lg">
+              <div className="bg-yellow-50 border-l-4 border-yellow-500 p-8 rounded-r-lg mb-8">
                 <p className="text-lg text-gray-700 mb-6 leading-relaxed">
                   While the Sheriff&rsquo;s office can serve papers, they are often overburdened with other law enforcement duties. A professional process server&rsquo;s sole focus is serving your documents quickly and correctly with specialized expertise.
                 </p>
+              </div>
+
+              {/* Detailed Comparison Table */}
+              <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-8">
+                <div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white p-6">
+                  <h3 className="text-2xl font-bold text-center">Detailed Professional vs. Sheriff Department Comparison</h3>
+                </div>
                 
-                <div className="grid lg:grid-cols-2 gap-8">
-                  <div className="bg-green-50 p-6 rounded-lg border border-green-200">
-                    <h4 className="font-bold text-green-800 mb-4 text-xl flex items-center">
-                      ✅ Professional Process Server Advantages
-                    </h4>
-                    <ul className="text-gray-700 space-y-3">
-                      <li className="flex items-start">
-                        <span className="text-green-600 mr-2 mt-1">•</span>
-                        <span><strong>Dedicated focus</strong> on service of process exclusively</span>
-                      </li>
-                      <li className="flex items-start">
-                        <span className="text-green-600 mr-2 mt-1">•</span>
-                        <span><strong>Faster turnaround</strong> times (24-48 hours vs weeks)</span>
-                      </li>
-                      <li className="flex items-start">
-                        <span className="text-green-600 mr-2 mt-1">•</span>
-                        <span><strong>24/7 availability</strong> including weekends and holidays</span>
-                      </li>
-                      <li className="flex items-start">
-                        <span className="text-green-600 mr-2 mt-1">•</span>
-                        <span><strong>Specialized skip tracing</strong> and investigation services</span>
-                      </li>
-                      <li className="flex items-start">
-                        <span className="text-green-600 mr-2 mt-1">•</span>
-                        <span><strong>Real-time status updates</strong> and communication</span>
-                      </li>
-                      <li className="flex items-start">
-                        <span className="text-green-600 mr-2 mt-1">•</span>
-                        <span><strong>Professional appearance</strong> and approach</span>
-                      </li>
-                    </ul>
+                <div className="overflow-x-auto">
+                  <table className="w-full">
+                    <thead>
+                      <tr className="bg-gray-50">
+                        <th className="px-6 py-4 text-left text-sm font-semibold text-gray-900">Service Feature</th>
+                        <th className="px-6 py-4 text-center text-sm font-semibold text-green-800">Just Legal Solutions</th>
+                        <th className="px-6 py-4 text-center text-sm font-semibold text-red-800">Sheriff&apos;s Department</th>
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-gray-200">
+                      <tr className="hover:bg-gray-50">
+                        <td className="px-6 py-4 text-sm font-medium text-gray-900">Average Completion Time</td>
+                        <td className="px-6 py-4 text-center text-sm text-green-700 font-semibold">24-48 hours</td>
+                        <td className="px-6 py-4 text-center text-sm text-red-700 font-semibold">2-4 weeks typical</td>
+                      </tr>
+                      <tr className="hover:bg-gray-50">
+                        <td className="px-6 py-4 text-sm font-medium text-gray-900">Emergency Availability</td>
+                        <td className="px-6 py-4 text-center text-sm text-green-700">✓ 24/7 including weekends</td>
+                        <td className="px-6 py-4 text-center text-sm text-red-700">✗ Business hours only</td>
+                      </tr>
+                      <tr className="hover:bg-gray-50">
+                        <td className="px-6 py-4 text-sm font-medium text-gray-900">Skip Tracing Services</td>
+                        <td className="px-6 py-4 text-center text-sm text-green-700">✓ Professional investigation</td>
+                        <td className="px-6 py-4 text-center text-sm text-red-700">✗ Basic attempt only</td>
+                      </tr>
+                      <tr className="hover:bg-gray-50">
+                        <td className="px-6 py-4 text-sm font-medium text-gray-900">Success Rate</td>
+                        <td className="px-6 py-4 text-center text-sm text-green-700 font-semibold">97%+ completion rate</td>
+                        <td className="px-6 py-4 text-center text-sm text-red-700 font-semibold">60-70% typical</td>
+                      </tr>
+                      <tr className="hover:bg-gray-50">
+                        <td className="px-6 py-4 text-sm font-medium text-gray-900">Real-Time Communication</td>
+                        <td className="px-6 py-4 text-center text-sm text-green-700">✓ Instant updates</td>
+                        <td className="px-6 py-4 text-center text-sm text-red-700">✗ Limited communication</td>
+                      </tr>
+                      <tr className="hover:bg-gray-50">
+                        <td className="px-6 py-4 text-sm font-medium text-gray-900">Detailed Attempt Reports</td>
+                        <td className="px-6 py-4 text-center text-sm text-green-700">✓ Comprehensive documentation</td>
+                        <td className="px-6 py-4 text-center text-sm text-red-700">✗ Basic affidavit only</td>
+                      </tr>
+                      <tr className="hover:bg-gray-50">
+                        <td className="px-6 py-4 text-sm font-medium text-gray-900">Multiple Attempt Strategy</td>
+                        <td className="px-6 py-4 text-center text-sm text-green-700">✓ Flexible timing/locations</td>
+                        <td className="px-6 py-4 text-center text-sm text-red-700">✗ Standard procedure only</td>
+                      </tr>
+                      <tr className="hover:bg-gray-50">
+                        <td className="px-6 py-4 text-sm font-medium text-gray-900">Client Service Focus</td>
+                        <td className="px-6 py-4 text-center text-sm text-green-700">✓ Dedicated client relations</td>
+                        <td className="px-6 py-4 text-center text-sm text-red-700">✗ Law enforcement priority</td>
+                      </tr>
+                      <tr className="hover:bg-gray-50">
+                        <td className="px-6 py-4 text-sm font-medium text-gray-900">Professional Appearance</td>
+                        <td className="px-6 py-4 text-center text-sm text-green-700">✓ Business professional</td>
+                        <td className="px-6 py-4 text-center text-sm text-red-700">✗ Law enforcement uniform</td>
+                      </tr>
+                      <tr className="hover:bg-gray-50">
+                        <td className="px-6 py-4 text-sm font-medium text-gray-900">Cost Transparency</td>
+                        <td className="px-6 py-4 text-center text-sm text-green-700">✓ Upfront pricing</td>
+                        <td className="px-6 py-4 text-center text-sm text-red-700">✗ Variable fees</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+              <div className="bg-gradient-to-br from-blue-50 to-green-50 rounded-xl p-8">
+                <h3 className="text-2xl font-bold text-blue-900 mb-6 text-center">Why Professional Service Delivers Better Results</h3>
+                
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div className="space-y-4">
+                    <div className="flex items-start">
+                      <div className="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center mr-4 mt-1">
+                        <span className="text-white text-sm font-bold">1</span>
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-blue-800 mb-2">Dedicated Focus</h4>
+                        <p className="text-gray-700 text-sm">Process serving is our only business, not competing with law enforcement duties</p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start">
+                      <div className="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center mr-4 mt-1">
+                        <span className="text-white text-sm font-bold">2</span>
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-green-800 mb-2">Flexible Scheduling</h4>
+                        <p className="text-gray-700 text-sm">Available evenings, weekends, and holidays when people are home</p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start">
+                      <div className="w-8 h-8 bg-purple-500 rounded-full flex items-center justify-center mr-4 mt-1">
+                        <span className="text-white text-sm font-bold">3</span>
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-purple-800 mb-2">Specialized Training</h4>
+                        <p className="text-gray-700 text-sm">Continuous education on civil procedure and service requirements</p>
+                      </div>
+                    </div>
                   </div>
                   
-                  <div className="bg-red-50 p-6 rounded-lg border border-red-200">
-                    <h4 className="font-bold text-red-800 mb-4 text-xl flex items-center">
-                      ❌ Sheriff&rsquo;s Department Limitations
-                    </h4>
-                    <ul className="text-gray-700 space-y-3">
-                      <li className="flex items-start">
-                        <span className="text-red-600 mr-2 mt-1">•</span>
-                        <span><strong>Competing priorities</strong> with law enforcement duties</span>
-                      </li>
-                      <li className="flex items-start">
-                        <span className="text-red-600 mr-2 mt-1">•</span>
-                        <span><strong>Limited availability</strong> for urgent serves</span>
-                      </li>
-                      <li className="flex items-start">
-                        <span className="text-red-600 mr-2 mt-1">•</span>
-                        <span><strong>Standard business hours</strong> only (usually)</span>
-                      </li>
-                      <li className="flex items-start">
-                        <span className="text-red-600 mr-2 mt-1">•</span>
-                        <span><strong>No specialized tracking</strong> or investigation services</span>
-                      </li>
-                      <li className="flex items-start">
-                        <span className="text-red-600 mr-2 mt-1">•</span>
-                        <span><strong>Significantly longer</strong> processing times</span>
-                      </li>
-                      <li className="flex items-start">
-                        <span className="text-red-600 mr-2 mt-1">•</span>
-                        <span><strong>Limited follow-up</strong> on difficult serves</span>
-                      </li>
-                    </ul>
+                  <div className="space-y-4">
+                    <div className="flex items-start">
+                      <div className="w-8 h-8 bg-red-500 rounded-full flex items-center justify-center mr-4 mt-1">
+                        <span className="text-white text-sm font-bold">4</span>
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-red-800 mb-2">Advanced Tools</h4>
+                        <p className="text-gray-700 text-sm">Professional databases, skip tracing, and investigation resources</p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start">
+                      <div className="w-8 h-8 bg-yellow-600 rounded-full flex items-center justify-center mr-4 mt-1">
+                        <span className="text-white text-sm font-bold">5</span>
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-yellow-800 mb-2">Client Accountability</h4>
+                        <p className="text-gray-700 text-sm">Direct responsibility to you, not government bureaucracy</p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-start">
+                      <div className="w-8 h-8 bg-indigo-500 rounded-full flex items-center justify-center mr-4 mt-1">
+                        <span className="text-white text-sm font-bold">6</span>
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-indigo-800 mb-2">Professional Approach</h4>
+                        <p className="text-gray-700 text-sm">Business attire and courteous demeanor reduces confrontation</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -1313,11 +1464,12 @@ export default function WhatIsAProcessServerPage() {
               </div>
             </section>
 
-            {/* Enhanced FAQ Section */}
+            {/* Enhanced FAQ Section with Complete Guide */}
             <section className="mb-12" id="faq">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center voice-optimized">Frequently Asked Questions About Process Servers in Oklahoma - Complete Guide</h2>
               
               <div className="space-y-6">
+                {/* Primary FAQ from Schema */}
                 {faqSchema.mainEntity.map((faq, index) => (
                   <div key={index} className="bg-white border-l-4 border-blue-500 p-6 shadow-md rounded-r-lg hover:shadow-lg transition">
                     <h3 className="font-bold text-xl text-blue-800 mb-3 voice-optimized">{faq.name}</h3>
@@ -1325,37 +1477,72 @@ export default function WhatIsAProcessServerPage() {
                   </div>
                 ))}
                 
-                {/* Additional Comprehensive FAQ Items */}
+                {/* Extended Comprehensive FAQ Collection */}
                 <div className="bg-white border-l-4 border-blue-500 p-6 shadow-md rounded-r-lg hover:shadow-lg transition">
                   <h3 className="font-bold text-xl text-blue-800 mb-3 voice-optimized">How do I find a reliable process server near me in Oklahoma?</h3>
-                  <p className="text-gray-700 leading-relaxed voice-answer primary-answer">Start by searching for licensed professionals in your specific county. Look for process servers with Oklahoma state licensing, proper bonding, and professional association memberships. Just Legal Solutions serves all 77 Oklahoma counties with experienced, licensed professionals and same-day service available within 50 miles of Tulsa.</p>
+                  <p className="text-gray-700 leading-relaxed voice-answer primary-answer">Start by searching for licensed professionals in your specific county. Just Legal Solutions serves all 77 Oklahoma counties with experienced, licensed professionals and same-day service available within 50 miles of Tulsa. Always verify licensing through the Oklahoma Supreme Court Network at https://www.oscn.net and look for NAPPS membership at https://napps.org.</p>
                 </div>
 
                 <div className="bg-white border-l-4 border-green-500 p-6 shadow-md rounded-r-lg hover:shadow-lg transition">
-                  <h3 className="font-bold text-xl text-green-800 mb-3 voice-optimized">What exactly does a process server do step by step?</h3>
-                  <p className="text-gray-700 leading-relaxed voice-answer primary-answer">A process server follows a detailed six-step workflow: First, they receive and review your legal documents, verifying all service requirements. Next, they locate the recipient using professional investigation techniques and skip tracing when necessary. They then attempt service at appropriate times and locations, following all legal requirements. Upon successful service, they complete proper identification and documentation. They file a sworn Affidavit of Service with detailed information required by Oklahoma courts. Finally, they provide immediate client notification with scanned affidavit and status report within 2 hours.</p>
+                  <h3 className="font-bold text-xl text-green-800 mb-3 voice-optimized">What exactly does a process server do, step by step?</h3>
+                  <p className="text-gray-700 leading-relaxed voice-answer primary-answer">A process server follows a detailed six-step workflow: <strong>1. Document Receipt</strong> - Review your legal documents and verify all service requirements according to Oklahoma law. <strong>2. Locate Recipient</strong> - Use professional investigation techniques, database searches, and skip tracing when necessary. <strong>3. Attempt Service</strong> - Deliver documents at appropriate times and locations following all legal requirements. <strong>4. Complete Service</strong> - Confirm proper identification and document the delivery. <strong>5. File Affidavit</strong> - Submit sworn Affidavit of Service with detailed information required by Oklahoma courts. <strong>6. Client Update</strong> - Provide immediate notification with scanned affidavit and status report.</p>
                 </div>
 
                 <div className="bg-white border-l-4 border-purple-500 p-6 shadow-md rounded-r-lg hover:shadow-lg transition">
-                  <h3 className="font-bold text-xl text-purple-800 mb-3 voice-optimized">What happens if someone is actively avoiding service?</h3>
-                  <p className="text-gray-700 leading-relaxed voice-answer primary-answer">Professional process servers use various legal methods including flexible timing, skip tracing techniques, workplace service, and alternative locations. We provide detailed attempt reports and can pursue alternative service methods through the courts if necessary. Our success rate exceeds 99% even with evasive recipients.</p>
+                  <h3 className="font-bold text-xl text-purple-800 mb-3 voice-optimized">How quickly can legal documents be served in Tulsa?</h3>
+                  <p className="text-gray-700 leading-relaxed voice-answer primary-answer"><strong>Emergency Service:</strong> 1-4 hours for urgent restraining orders and court deadlines. <strong>Same-Day Service:</strong> Available with advance notice by 2 PM. <strong>Standard Service:</strong> 24-48 hours throughout Tulsa metro. <strong>Rush Service:</strong> Available for urgent matters with premium pricing. <strong>Weekend Service:</strong> Saturday and Sunday available for emergencies with additional fees.</p>
                 </div>
 
                 <div className="bg-white border-l-4 border-red-500 p-6 shadow-md rounded-r-lg hover:shadow-lg transition">
-                  <h3 className="font-bold text-xl text-red-800 mb-3 voice-optimized">Can process servers serve papers on weekends and holidays?</h3>
-                  <p className="text-gray-700 leading-relaxed voice-answer primary-answer">Yes, professional process servers offer weekend and holiday service for urgent matters. Emergency service is available 24/7 for restraining orders and time-sensitive legal matters. Standard weekend service incurs additional fees but ensures your deadlines are met.</p>
+                  <h3 className="font-bold text-xl text-red-800 mb-3 voice-optimized">What happens if someone is avoiding service?</h3>
+                  <p className="text-gray-700 leading-relaxed voice-answer primary-answer">Professional process servers use multiple legal strategies: flexible timing (early morning, evening attempts), workplace service during business hours, skip tracing to locate new addresses, service at family member locations when legally permitted, and alternative service methods approved by the court. We provide detailed attempt reports and can pursue alternative service through publication if necessary. Our success rate exceeds 97% even with evasive recipients.</p>
                 </div>
 
                 <div className="bg-white border-l-4 border-yellow-500 p-6 shadow-md rounded-r-lg hover:shadow-lg transition">
-                  <h3 className="font-bold text-xl text-yellow-800 mb-3 voice-optimized">What information do I need to provide to a process server?</h3>
-                  <p className="text-gray-700 leading-relaxed voice-answer primary-answer">Provide the full legal name of the person being served, current address (home and work if available), physical description or photo, vehicle information if known, daily routines or schedule patterns, and any family members or associates who might be present. The more information provided, the higher the success rate.</p>
+                  <h3 className="font-bold text-xl text-yellow-800 mb-3 voice-optimized">Can process servers serve papers on weekends and holidays?</h3>
+                  <p className="text-gray-700 leading-relaxed voice-answer primary-answer">Yes, professional process servers offer weekend and holiday service for urgent matters. Emergency service is available 24/7 for restraining orders, injunctions, and time-sensitive legal matters. Standard weekend service incurs a $50-75 additional fee but ensures your court deadlines are met.</p>
+                </div>
+
+                <div className="bg-white border-l-4 border-indigo-500 p-6 shadow-md rounded-r-lg hover:shadow-lg transition">
+                  <h3 className="font-bold text-xl text-indigo-800 mb-3 voice-optimized">What information do I need to provide to a process server?</h3>
+                  <p className="text-gray-700 leading-relaxed voice-answer primary-answer">Provide complete details for highest success rates: <strong>Full legal name</strong> (including any aliases or maiden names), <strong>current home address and work address</strong>, <strong>physical description or recent photo</strong>, <strong>vehicle information</strong> (make, model, color, license plate), <strong>daily routines or schedule patterns</strong> (work hours, gym, regular stops), <strong>family members or associates</strong> who might be present, <strong>social media profiles</strong> for additional location information, and <strong>any safety concerns or special instructions</strong>.</p>
+                </div>
+
+                <div className="bg-white border-l-4 border-emerald-500 p-6 shadow-md rounded-r-lg hover:shadow-lg transition">
+                  <h3 className="font-bold text-xl text-emerald-800 mb-3 voice-optimized">How much does process serving cost in Oklahoma in 2025?</h3>
+                  <p className="text-gray-700 leading-relaxed voice-answer primary-answer"><strong>Standard Service Rates:</strong> Tulsa Metro Standard: $60-80 (24-48 hours), Same-Day Service: $120-200, Emergency Service: $200-350 (2-4 hours), Weekend Service: +$50-75 additional, Holiday Service: +$75-100 additional. <strong>Additional Costs:</strong> Mileage beyond 40 miles: $0.70 per mile, Skip tracing: $100-250 depending on complexity, Multiple attempts: $35-50 per additional attempt, Rush affidavit filing: $25, Corporate service: $80-150.</p>
+                </div>
+
+                <div className="bg-white border-l-4 border-teal-500 p-6 shadow-md rounded-r-lg hover:shadow-lg transition">
+                  <h3 className="font-bold text-xl text-teal-800 mb-3 voice-optimized">What&apos;s the difference between certified mail service and personal service?</h3>
+                  <p className="text-gray-700 leading-relaxed voice-answer primary-answer">Personal service by a licensed process server is required for most legal proceedings and provides immediate proof of delivery. Certified mail service is only acceptable for specific document types and often allows defendants to avoid service by not signing for mail. Personal service ensures legal validity and faster case progression.</p>
+                </div>
+
+                <div className="bg-white border-l-4 border-orange-500 p-6 shadow-md rounded-r-lg hover:shadow-lg transition">
+                  <h3 className="font-bold text-xl text-orange-800 mb-3 voice-optimized">Do I need a licensed process server or can anyone serve papers?</h3>
+                  <p className="text-gray-700 leading-relaxed voice-answer primary-answer">Oklahoma law requires licensed process servers for most legal documents. Only licensed process servers, Oklahoma attorneys, court clerks, and sheriff&apos;s deputies can legally serve process. Using an unlicensed person can result in invalid service and case dismissal.</p>
+                </div>
+
+                <div className="bg-white border-l-4 border-pink-500 p-6 shadow-md rounded-r-lg hover:shadow-lg transition">
+                  <h3 className="font-bold text-xl text-pink-800 mb-3 voice-optimized">What types of legal documents can process servers deliver?</h3>
+                  <p className="text-gray-700 leading-relaxed voice-answer primary-answer">Process servers deliver a comprehensive range of legal documents including: <strong>Civil Litigation:</strong> summons and complaints, contract disputes, property disputes, business litigation, motions and orders, discovery documents, depositions subpoenas. <strong>Family Law:</strong> divorce petitions, child custody modifications, restraining orders, adoption papers. <strong>Business Documents:</strong> corporate subpoenas, commercial evictions, breach of contract lawsuits, partnership disputes. <strong>Criminal and Civil Enforcement:</strong> subpoenas for testimony, restitution orders, contempt orders, asset seizure papers.</p>
+                </div>
+
+                <div className="bg-white border-l-4 border-slate-500 p-6 shadow-md rounded-r-lg hover:shadow-lg transition">
+                  <h3 className="font-bold text-xl text-slate-800 mb-3 voice-optimized">What happens after my documents are served?</h3>
+                  <p className="text-gray-700 leading-relaxed voice-answer primary-answer"><strong>Immediate Steps (Within 24-48 Hours):</strong> Process server completes sworn Affidavit of Service with detailed delivery information, affidavit is filed with the appropriate courthouse, you receive scanned copy and comprehensive status report, official response period begins for the served party. <strong>Response Timeframes:</strong> Civil lawsuits: 20 days, Divorce papers: 20 days, Small claims: 10 days, Eviction notices: 3-5 days, Restraining orders: hearing within 10-14 days.</p>
+                </div>
+
+                <div className="bg-white border-l-4 border-violet-500 p-6 shadow-md rounded-r-lg hover:shadow-lg transition">
+                  <h3 className="font-bold text-xl text-violet-800 mb-3 voice-optimized">Why choose a professional process server over the sheriff&apos;s department?</h3>
+                  <p className="text-gray-700 leading-relaxed voice-answer primary-answer">Professional process servers offer: <strong>dedicated focus</strong> on service of process exclusively, <strong>faster turnaround times</strong> (24-48 hours vs weeks), <strong>24/7 availability</strong> including weekends and holidays, <strong>specialized skip tracing</strong> and investigation services, <strong>real-time status updates</strong> and communication, <strong>professional appearance</strong> and approach. Sheriff departments have competing priorities with law enforcement duties, limited availability for urgent serves, and significantly longer processing times.</p>
                 </div>
               </div>
             </section>
 
             {/* Oklahoma Process Server Licensing Requirements */}
             <section className="mb-12" id="licensing">
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center voice-optimized">Oklahoma Process Server Licensing and Legal Requirements</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center voice-optimized">Oklahoma Process Server Licensing Requirements (2025 Current Law)</h2>
               
               <div className="text-center mb-8">
                 <Image 
@@ -1364,54 +1551,86 @@ export default function WhatIsAProcessServerPage() {
                   width={900}
                   height={500}
                   className="rounded-xl shadow-lg mx-auto"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 900px"
                 />
               </div>
 
               <div className="bg-blue-50 border border-blue-200 rounded-xl p-8 mb-8">
-                <h3 className="text-2xl font-bold text-blue-900 mb-6">Understanding Oklahoma Process Server Licensing Requirements</h3>
+                <h3 className="text-2xl font-bold text-blue-900 mb-6">Legal Requirements to Serve Papers in Oklahoma</h3>
                 
                 <div className="grid md:grid-cols-2 gap-8">
                   <div>
-                    <h4 className="font-bold text-lg text-blue-800 mb-4">📋 Basic Requirements</h4>
+                    <h4 className="font-bold text-lg text-blue-800 mb-4">📋 Basic Licensing Requirements</h4>
                     <ul className="text-gray-700 space-y-2">
-                      <li className="flex items-start"><span className="text-blue-600 mr-2">•</span>Must be at least 18 years old</li>
-                      <li className="flex items-start"><span className="text-blue-600 mr-2">•</span>Good moral character and mental/ethical fitness</li>
-                      <li className="flex items-start"><span className="text-blue-600 mr-2">•</span>Six-month Oklahoma residency requirement</li>
-                      <li className="flex items-start"><span className="text-blue-600 mr-2">•</span>30-day residency in service county</li>
-                      <li className="flex items-start"><span className="text-blue-600 mr-2">•</span>$5,000 surety bond required</li>
-                      <li className="flex items-start"><span className="text-blue-600 mr-2">•</span>$150 statewide license fee</li>
+                      <li className="flex items-start"><span className="text-blue-600 mr-2">•</span>Be at least 18 years old with good moral character</li>
+                      <li className="flex items-start"><span className="text-blue-600 mr-2">•</span>Be ethically and mentally fit as determined by the court</li>
+                      <li className="flex items-start"><span className="text-blue-600 mr-2">•</span>Maintain 6 months Oklahoma residency minimum</li>
+                      <li className="flex items-start"><span className="text-blue-600 mr-2">•</span>Hold 30 days residency in the county or judicial administrative district</li>
+                      <li className="flex items-start"><span className="text-blue-600 mr-2">•</span>Execute a $5,000 surety bond to the State of Oklahoma</li>
+                      <li className="flex items-start"><span className="text-blue-600 mr-2">•</span>Pay $150 statewide license fee plus court costs and filing fees</li>
+                      <li className="flex items-start"><span className="text-blue-600 mr-2">•</span>Pass background check with no violent crime convictions</li>
+                      <li className="flex items-start"><span className="text-blue-600 mr-2">•</span>No convictions requiring sex offender registration</li>
                     </ul>
                   </div>
                   
                   <div>
-                    <h4 className="font-bold text-lg text-blue-800 mb-4">⚖️ Who Can Legally Serve Papers</h4>
-                    <ul className="text-gray-700 space-y-2">
-                      <li className="flex items-start"><span className="text-green-600 mr-2">✓</span>Licensed process servers</li>
-                      <li className="flex items-start"><span className="text-green-600 mr-2">✓</span>Oklahoma attorneys</li>
-                      <li className="flex items-start"><span className="text-green-600 mr-2">✓</span>Court clerks</li>
-                      <li className="flex items-start"><span className="text-green-600 mr-2">✓</span>Sheriff&apos;s deputies (within county)</li>
-                      <li className="flex items-start"><span className="text-red-600 mr-2">✗</span>Unlicensed individuals (misdemeanor)</li>
-                      <li className="flex items-start"><span className="text-red-600 mr-2">✗</span>Parties to the lawsuit</li>
-                    </ul>
+                    <h4 className="font-bold text-lg text-blue-800 mb-4">⚖️ Licensing Process and Terms</h4>
+                    <div className="space-y-4">
+                      <div className="bg-white p-4 rounded-lg border">
+                        <h5 className="font-semibold text-blue-700 mb-2">Application Process:</h5>
+                        <ul className="text-gray-700 text-sm space-y-1">
+                          <li>• Apply to the presiding judge of your judicial administrative district</li>
+                          <li>• Submit application with required documentation and fees</li>
+                          <li>• Complete background investigation</li>
+                          <li>• Receive approval from district or associate judge</li>
+                        </ul>
+                      </div>
+                      <div className="bg-white p-4 rounded-lg border">
+                        <h5 className="font-semibold text-blue-700 mb-2">License Terms:</h5>
+                        <ul className="text-gray-700 text-sm space-y-1">
+                          <li>• Initial license: Valid for 1 calendar year</li>
+                          <li>• Renewals: Every 3 years thereafter</li>
+                          <li>• Renewal fee: $15 plus applicable court costs</li>
+                        </ul>
+                      </div>
+                      <div className="bg-white p-4 rounded-lg border">
+                        <h5 className="font-semibold text-blue-700 mb-2">Verification:</h5>
+                        <p className="text-gray-700 text-sm">All licensed servers are listed in the statewide registry maintained by the Administrative Office of the Courts. Verify licensing at <a href="https://www.oscn.net" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">https://www.oscn.net</a>.</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
 
               <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-8">
-                <h3 className="text-2xl font-bold text-yellow-900 mb-6">Oklahoma Service of Process Laws</h3>
-                <div className="grid lg:grid-cols-3 gap-6">
-                  <div className="bg-white p-6 rounded-lg border">
-                    <h4 className="font-bold text-yellow-800 mb-3">📍 Personal Service</h4>
-                    <p className="text-gray-700">Direct personal delivery to the defendant when possible. This is the preferred method under Oklahoma law.</p>
+                <h3 className="text-2xl font-bold text-yellow-900 mb-6">Who Can Legally Serve Papers in Oklahoma</h3>
+                <div className="grid lg:grid-cols-2 gap-8">
+                  <div className="bg-white p-6 rounded-lg border-l-4 border-green-500">
+                    <h4 className="font-bold text-green-800 mb-4">✅ Authorized to Serve</h4>
+                    <ul className="text-gray-700 space-y-2">
+                      <li className="flex items-start"><span className="text-green-600 mr-2">✓</span>Licensed process servers</li>
+                      <li className="flex items-start"><span className="text-green-600 mr-2">✓</span>Oklahoma attorneys in good standing</li>
+                      <li className="flex items-start"><span className="text-green-600 mr-2">✓</span>Court clerks and deputy clerks</li>
+                      <li className="flex items-start"><span className="text-green-600 mr-2">✓</span>Sheriff&apos;s deputies (within their county)</li>
+                      <li className="flex items-start"><span className="text-green-600 mr-2">✓</span>U.S. Marshals for federal cases</li>
+                    </ul>
                   </div>
-                  <div className="bg-white p-6 rounded-lg border">
-                    <h4 className="font-bold text-yellow-800 mb-3">🏠 Substituted Service</h4>
-                    <p className="text-gray-700">Leaving documents at defendant&apos;s residence with someone 15 years or older who lives there.</p>
+                  
+                  <div className="bg-white p-6 rounded-lg border-l-4 border-red-500">
+                    <h4 className="font-bold text-red-800 mb-4">❌ Not Authorized to Serve</h4>
+                    <ul className="text-gray-700 space-y-2">
+                      <li className="flex items-start"><span className="text-red-600 mr-2">✗</span>Unlicensed individuals (Class A misdemeanor)</li>
+                      <li className="flex items-start"><span className="text-red-600 mr-2">✗</span>Parties to the lawsuit</li>
+                      <li className="flex items-start"><span className="text-red-600 mr-2">✗</span>Private investigators without process server license</li>
+                      <li className="flex items-start"><span className="text-red-600 mr-2">✗</span>Security guards or bailiffs</li>
+                      <li className="flex items-start"><span className="text-red-600 mr-2">✗</span>Family members or friends of parties</li>
+                    </ul>
                   </div>
-                  <div className="bg-white p-6 rounded-lg border">
-                    <h4 className="font-bold text-yellow-800 mb-3">🏢 Corporate Service</h4>
-                    <p className="text-gray-700">Must be made to officers, managing agents, or authorized representatives of the corporation.</p>
-                  </div>
+                </div>
+                
+                <div className="mt-6 bg-red-100 border border-red-300 rounded-lg p-4">
+                  <p className="text-red-800 font-semibold">⚠️ Important Legal Warning:</p>
+                  <p className="text-red-700 text-sm mt-1">Using an unlicensed person to serve legal documents in Oklahoma is a Class A misdemeanor punishable by up to one year in jail and/or a fine of up to $1,000. Additionally, improper service can result in case dismissal and legal malpractice claims.</p>
                 </div>
               </div>
             </section>
@@ -1825,6 +2044,96 @@ export default function WhatIsAProcessServerPage() {
                 <a href="/contact" className="bg-green-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-green-700 transition">
                   Get Professional Service Quote
                 </a>
+              </div>
+            </section>
+
+            {/* Professional Resources and Links Section */}
+            <section className="mb-12" id="professional-resources">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center voice-optimized">Resources and Professional Links</h2>
+              
+              <div className="grid lg:grid-cols-3 gap-8">
+                <div className="bg-blue-50 border border-blue-200 rounded-xl p-8">
+                  <h3 className="text-xl font-bold text-blue-900 mb-6">🏛️ Oklahoma Legal Resources</h3>
+                  <div className="space-y-4">
+                    <div className="bg-white p-4 rounded-lg border hover:shadow-md transition">
+                      <a href="https://www.oscn.net" target="_blank" rel="noopener noreferrer" className="font-semibold text-blue-700 hover:text-blue-900">
+                        Oklahoma Supreme Court Network
+                      </a>
+                      <p className="text-sm text-gray-600 mt-1">Verify process server licensing and access court rules</p>
+                    </div>
+                    <div className="bg-white p-4 rounded-lg border hover:shadow-md transition">
+                      <a href="https://law.justia.com/codes/oklahoma/title-12/" target="_blank" rel="noopener noreferrer" className="font-semibold text-blue-700 hover:text-blue-900">
+                        Oklahoma Statutes Title 12
+                      </a>
+                      <p className="text-sm text-gray-600 mt-1">Complete civil procedure laws and requirements</p>
+                    </div>
+                    <div className="bg-white p-4 rounded-lg border hover:shadow-md transition">
+                      <a href="https://www.okbar.org" target="_blank" rel="noopener noreferrer" className="font-semibold text-blue-700 hover:text-blue-900">
+                        Oklahoma Bar Association
+                      </a>
+                      <p className="text-sm text-gray-600 mt-1">Legal professional resources and attorney referrals</p>
+                    </div>
+                    <div className="bg-white p-4 rounded-lg border hover:shadow-md transition">
+                      <span className="font-semibold text-blue-700">Administrative Office of Courts</span>
+                      <p className="text-sm text-gray-600 mt-1">Official court procedures and forms</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-green-50 border border-green-200 rounded-xl p-8">
+                  <h3 className="text-xl font-bold text-green-900 mb-6">👥 Professional Process Server Resources</h3>
+                  <div className="space-y-4">
+                    <div className="bg-white p-4 rounded-lg border hover:shadow-md transition">
+                      <a href="https://napps.org" target="_blank" rel="noopener noreferrer" className="font-semibold text-green-700 hover:text-green-900">
+                        National Association of Professional Process Servers (NAPPS)
+                      </a>
+                      <p className="text-sm text-gray-600 mt-1">Industry standards and professional development</p>
+                    </div>
+                    <div className="bg-white p-4 rounded-lg border hover:shadow-md transition">
+                      <span className="font-semibold text-green-700">Process Server Directory</span>
+                      <p className="text-sm text-gray-600 mt-1">Professional server verification and standards</p>
+                    </div>
+                    <div className="bg-white p-4 rounded-lg border hover:shadow-md transition">
+                      <span className="font-semibold text-green-700">Legal Service Organizations</span>
+                      <p className="text-sm text-gray-600 mt-1">Professional associations and continuing education</p>
+                    </div>
+                    <div className="bg-white p-4 rounded-lg border hover:shadow-md transition">
+                      <span className="font-semibold text-green-700">Oklahoma Process Servers Association</span>
+                      <p className="text-sm text-gray-600 mt-1">Local professional networking and training</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-8">
+                  <h3 className="text-xl font-bold text-yellow-900 mb-6">🏢 Local Government and Court Resources</h3>
+                  <div className="space-y-4">
+                    <div className="bg-white p-4 rounded-lg border hover:shadow-md transition">
+                      <span className="font-semibold text-yellow-700">Tulsa County Courts</span>
+                      <p className="text-sm text-gray-600 mt-1">Courthouse locations and filing procedures</p>
+                    </div>
+                    <div className="bg-white p-4 rounded-lg border hover:shadow-md transition">
+                      <span className="font-semibold text-yellow-700">Oklahoma County Courts</span>
+                      <p className="text-sm text-gray-600 mt-1">Metropolitan area court information</p>
+                    </div>
+                    <div className="bg-white p-4 rounded-lg border hover:shadow-md transition">
+                      <span className="font-semibold text-yellow-700">Secretary of State Business Registry</span>
+                      <p className="text-sm text-gray-600 mt-1">Corporate service verification</p>
+                    </div>
+                    <div className="bg-white p-4 rounded-lg border hover:shadow-md transition">
+                      <span className="font-semibold text-yellow-700">County Clerk Offices</span>
+                      <p className="text-sm text-gray-600 mt-1">Local filing requirements and procedures</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="mt-8 bg-gradient-to-r from-gray-50 to-gray-100 rounded-xl p-8 text-center">
+                <h3 className="text-xl font-bold text-gray-900 mb-4">📋 Important Legal Disclaimers</h3>
+                <div className="text-sm text-gray-700 space-y-2">
+                  <p><strong>Legal Disclaimer:</strong> This information is for educational purposes only and does not constitute legal advice. Always consult with a qualified attorney for specific legal questions.</p>
+                  <p><strong>Accuracy Notice:</strong> Laws and procedures may change. Always verify current requirements with the appropriate court or legal authority.</p>
+                  <p><strong>Professional Services:</strong> Just Legal Solutions is licensed and bonded in Oklahoma. All services performed in compliance with state and federal laws.</p>
+                </div>
               </div>
             </section>
 
