@@ -757,7 +757,7 @@ export default function UltimateGuidePage() {
                 <h4 className="font-bold text-blue-800 mb-3">Major Metro Counties</h4>
                 <div className="space-y-3">
                   <div>
-                    <h5 className="font-semibold text-sm">Tulsa County</h5>
+                    <h5 className="font-semibold text-sm"><a href="/counties/tulsa-county" className="text-blue-600 hover:underline">Tulsa County</a></h5>
                     <ul className="text-xs space-y-1 mt-1">
                       <li>• Same-day service available</li>
                       <li>• 95% first-attempt success rate</li>
@@ -822,7 +822,7 @@ export default function UltimateGuidePage() {
                   <div>
                     <h5 className="font-semibold text-sm">Popular Rural Counties</h5>
                     <ul className="text-xs space-y-1 mt-1">
-                      <li>• Creek, Rogers, Wagoner</li>
+                      <li>• <a href="/counties/creek-county" className="text-blue-600 hover:underline">Creek</a>, <a href="/counties/rogers-county" className="text-blue-600 hover:underline">Rogers</a>, <a href="/counties/wagoner-county" className="text-blue-600 hover:underline">Wagoner</a></li>
                       <li>• Canadian, McClain, Grady</li>
                       <li>• <strong>Specialized rural routes</strong></li>
                     </ul>
@@ -957,10 +957,10 @@ export default function UltimateGuidePage() {
               <div className="bg-blue-50 p-4 rounded-lg">
                 <h4 className="font-bold text-blue-800 mb-3">Geographic Advantages</h4>
                 <ul className="text-sm space-y-1">
-                  <li>• Same-day service throughout Tulsa County</li>
-                  <li>• Broken Arrow, Sapulpa, Glenpool coverage</li>
-                  <li>• Bixby, Jenks, Sand Springs expertise</li>
-                  <li>• Rural Tulsa County locations</li>
+                  <li>• Same-day service throughout <a href="/counties/tulsa-county" className="text-blue-600 hover:underline">Tulsa County</a></li>
+                  <li>• <a href="/service-areas/broken-arrow" className="text-blue-600 hover:underline">Broken Arrow</a>, <a href="/service-areas/sapulpa" className="text-blue-600 hover:underline">Sapulpa</a>, <a href="/service-areas/glenpool" className="text-blue-600 hover:underline">Glenpool</a> coverage</li>
+                  <li>• <a href="/service-areas/bixby" className="text-blue-600 hover:underline">Bixby</a>, <a href="/service-areas/jenks" className="text-blue-600 hover:underline">Jenks</a>, <a href="/service-areas/sand-springs" className="text-blue-600 hover:underline">Sand Springs</a> expertise</li>
+                  <li>• Rural <a href="/counties/tulsa-county" className="text-blue-600 hover:underline">Tulsa County</a> locations</li>
                   <li>• Cross-county coordination capabilities</li>
                 </ul>
                 <p className="text-center mt-3 font-semibold text-blue-800">
