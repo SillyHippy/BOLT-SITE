@@ -513,11 +513,6 @@ export default function UltimateGuidePage() {
                     </ul>
                   </div>
                 </div>
-                <div className="mt-4">
-                  <a href="/oklahoma-process-server-pricing-2025" className="text-blue-700 hover:text-blue-800 underline text-sm font-medium">
-                    View our complete pricing guide for detailed cost information →
-                  </a>
-                </div>
               </AlertDescription>
             </Alert>
           </CardContent>
@@ -623,11 +618,6 @@ export default function UltimateGuidePage() {
                   <li>• Employment verification systems</li>
                   <li>• <strong>95%+ success rate</strong> in locating difficult defendants</li>
                 </ul>
-                <div className="mt-3">
-                  <a href="/ai-skip-tracing-guide-oklahoma-2025" className="text-green-700 hover:text-green-800 underline text-sm font-medium">
-                    Learn more about our skip tracing services →
-                  </a>
-                </div>
               </div>
 
               <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-5 rounded-lg border border-purple-200">
@@ -664,11 +654,6 @@ export default function UltimateGuidePage() {
                 We&apos;re pioneering the next generation of legal service delivery with <strong>drone-assisted rural service</strong>, 
                 AI-powered recipient prediction algorithms, and <strong>virtual reality training</strong> for complex service scenarios. 
                 Our innovation keeps Oklahoma ahead of national process serving trends.
-                <div className="mt-3">
-                  <a href="/oklahoma-process-server-technology-2025" className="text-blue-700 hover:text-blue-800 underline text-sm font-medium">
-                    Learn more about our technology solutions →
-                  </a>
-                </div>
               </AlertDescription>
             </Alert>
           </CardContent>
@@ -772,18 +757,13 @@ export default function UltimateGuidePage() {
                 <h4 className="font-bold text-blue-800 mb-3">Major Metro Counties</h4>
                 <div className="space-y-3">
                   <div>
-                    <h5 className="font-semibold text-sm"><a href="/counties/tulsa-county" className="text-blue-700 hover:text-blue-800 underline">Tulsa County</a></h5>
+                    <h5 className="font-semibold text-sm">Tulsa County</h5>
                     <ul className="text-xs space-y-1 mt-1">
                       <li>• Same-day service available</li>
                       <li>• 95% first-attempt success rate</li>
                       <li>• <strong>Electronic filing accepted</strong></li>
                       <li>• Average service time: 24-48 hours</li>
                     </ul>
-                    <div className="mt-2">
-                      <a href="/tulsa-process-server" className="text-blue-700 hover:text-blue-800 underline text-xs">
-                        Tulsa County Process Server →
-                      </a>
-                    </div>
                   </div>
                   <div>
                     <h5 className="font-semibold text-sm">Oklahoma County</h5>
@@ -793,11 +773,6 @@ export default function UltimateGuidePage() {
                       <li>• Multiple district court locations</li>
                       <li>• 24/7 service available</li>
                     </ul>
-                    <div className="mt-2">
-                      <a href="/tulsa-process-server" className="text-blue-700 hover:text-blue-800 underline text-xs">
-                        Oklahoma City Metro Services →
-                      </a>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -822,7 +797,7 @@ export default function UltimateGuidePage() {
                     </ul>
                   </div>
                   <div>
-                    <h5 className="font-semibold text-sm"><a href="/counties/washington-county" className="text-blue-700 hover:text-blue-800 underline">Washington County</a> (<a href="/service-areas/bartlesville" className="text-blue-700 hover:text-blue-800 underline">Bartlesville</a>)</h5>
+                    <h5 className="font-semibold text-sm">Washington County (Bartlesville)</h5>
                     <ul className="text-xs space-y-1 mt-1">
                       <li>• Energy industry litigation</li>
                       <li>• <strong>Corporate headquarters service</strong></li>
@@ -847,7 +822,7 @@ export default function UltimateGuidePage() {
                   <div>
                     <h5 className="font-semibold text-sm">Popular Rural Counties</h5>
                     <ul className="text-xs space-y-1 mt-1">
-                      <li>• <a href="/counties/creek-county" className="text-blue-700 hover:text-blue-800 underline">Creek</a>, <a href="/service-areas/claremore" className="text-blue-700 hover:text-blue-800 underline">Rogers</a>, <a href="/counties/wagoner-county" className="text-blue-700 hover:text-blue-800 underline">Wagoner</a></li>
+                      <li>• Creek, Rogers, Wagoner</li>
                       <li>• Canadian, McClain, Grady</li>
                       <li>• <strong>Specialized rural routes</strong></li>
                     </ul>
@@ -972,24 +947,19 @@ export default function UltimateGuidePage() {
                 <h4 className="font-bold text-green-800 mb-3">Local Court Knowledge</h4>
                 <ul className="text-sm space-y-1">
                   <li>• <strong>Tulsa County Courthouse</strong> filing procedures and judge preferences</li>
-                  <li>• <strong><a href="/service-areas/broken-arrow" className="text-blue-700 hover:text-blue-800 underline">Broken Arrow Municipal Court</a></strong> specific requirements</li>
-                  <li>• <strong><a href="/service-areas/sapulpa" className="text-blue-700 hover:text-blue-800 underline">Sapulpa Municipal Court</a></strong> process guidelines</li>
+                  <li>• <strong>Broken Arrow Municipal Court</strong> specific requirements</li>
+                  <li>• <strong>Sapulpa Municipal Court</strong> process guidelines</li>
                   <li>• <strong>Creek County</strong> cross-jurisdictional service coordination</li>
                   <li>• <strong>Wagoner County</strong> rural and difficult-to-access locations</li>
                 </ul>
-                <div className="mt-3">
-                  <a href="/counties/tulsa-county" className="text-green-700 hover:text-green-800 underline text-sm">
-                    Tulsa County Process Serving →
-                  </a>
-                </div>
               </div>
               
               <div className="bg-blue-50 p-4 rounded-lg">
                 <h4 className="font-bold text-blue-800 mb-3">Geographic Advantages</h4>
                 <ul className="text-sm space-y-1">
                   <li>• Same-day service throughout Tulsa County</li>
-                  <li>• <a href="/service-areas/broken-arrow" className="text-blue-700 hover:text-blue-800 underline">Broken Arrow</a>, <a href="/service-areas/sapulpa" className="text-blue-700 hover:text-blue-800 underline">Sapulpa</a>, <a href="/service-areas/glenpool" className="text-blue-700 hover:text-blue-800 underline">Glenpool</a> coverage</li>
-                  <li>• <a href="/service-areas/bixby" className="text-blue-700 hover:text-blue-800 underline">Bixby</a>, <a href="/service-areas/jenks" className="text-blue-700 hover:text-blue-800 underline">Jenks</a>, <a href="/service-areas/sand-springs" className="text-blue-700 hover:text-blue-800 underline">Sand Springs</a> expertise</li>
+                  <li>• Broken Arrow, Sapulpa, Glenpool coverage</li>
+                  <li>• Bixby, Jenks, Sand Springs expertise</li>
                   <li>• Rural Tulsa County locations</li>
                   <li>• Cross-county coordination capabilities</li>
                 </ul>
@@ -1045,11 +1015,6 @@ export default function UltimateGuidePage() {
                       <li>• Coordinate with neighbors or coworkers</li>
                       <li>• Early morning or late evening attempts</li>
                     </ul>
-                    <div className="mt-3">
-                      <a href="/ai-skip-tracing-guide-oklahoma-2025" className="text-blue-700 hover:text-blue-800 underline text-xs">
-                        Learn about skip tracing →
-                      </a>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -1268,26 +1233,15 @@ export default function UltimateGuidePage() {
                 <div className="space-y-3 text-sm">
                   <div>
                     <strong>Oklahoma County (Oklahoma City Metro)</strong>
-                    <p>Oklahoma City, <a href="/service-areas/edmond" className="text-blue-700 hover:text-blue-800 underline">Edmond</a>, <a href="/service-areas/moore" className="text-blue-700 hover:text-blue-800 underline">Moore</a>, Midwest City, Del City, Nichols Hills</p>
+                    <p>Oklahoma City, Edmond, Moore, Midwest City, Del City, Nichols Hills</p>
                   </div>
                   <div>
                     <strong>Tulsa County (Tulsa Metro)</strong>
-                    <p>Tulsa, <a href="/service-areas/broken-arrow" className="text-blue-700 hover:text-blue-800 underline">Broken Arrow</a>, <a href="/service-areas/sand-springs" className="text-blue-700 hover:text-blue-800 underline">Sand Springs</a>, <a href="/service-areas/bixby" className="text-blue-700 hover:text-blue-800 underline">Bixby</a>, <a href="/service-areas/jenks" className="text-blue-700 hover:text-blue-800 underline">Jenks</a>, <a href="/service-areas/owasso" className="text-blue-700 hover:text-blue-800 underline">Owasso</a></p>
-                    <div className="mt-1 space-x-2">
-                      <a href="/service-areas/broken-arrow" className="text-blue-700 hover:text-blue-800 underline text-xs">
-                        Broken Arrow →
-                      </a>
-                      <a href="/service-areas/bixby" className="text-blue-700 hover:text-blue-800 underline text-xs">
-                        Bixby →
-                      </a>
-                      <a href="/service-areas/jenks" className="text-blue-700 hover:text-blue-800 underline text-xs">
-                        Jenks →
-                      </a>
-                    </div>
+                    <p>Tulsa, Broken Arrow, Sand Springs, Bixby, Jenks, Owasso</p>
                   </div>
                   <div>
                     <strong>Cleveland County (Norman Metro)</strong>
-                    <p><a href="/service-areas/norman" className="text-blue-700 hover:text-blue-800 underline">Norman</a> (University of Oklahoma), <a href="/service-areas/moore" className="text-blue-700 hover:text-blue-800 underline">Moore</a>, <a href="/service-areas/noble" className="text-blue-700 hover:text-blue-800 underline">Noble</a></p>
+                    <p>Norman (University of Oklahoma), Moore, Noble</p>
                   </div>
                 </div>
               </div>
@@ -1296,10 +1250,10 @@ export default function UltimateGuidePage() {
                 <h4 className="font-bold text-blue-800 mb-3">All 77 Oklahoma Counties</h4>
                 <div className="text-xs space-y-2">
                   <div>
-                    <strong>A-C Counties:</strong> Adair, Alfalfa, Atoka, Beaver, Beckham, Blaine, Bryan, Caddo, Canadian, Carter, Cherokee, Choctaw, Cimarron, Cleveland, Coal, Comanche, Cotton, Craig, <a href="/counties/creek-county" className="text-blue-700 hover:text-blue-800 underline">Creek</a>, Custer
+                    <strong>A-C Counties:</strong> Adair, Alfalfa, Atoka, Beaver, Beckham, Blaine, Bryan, Caddo, Canadian, Carter, Cherokee, Choctaw, Cimarron, Cleveland, Coal, Comanche, Cotton, Craig, Creek, Custer
                   </div>
                   <div>
-                    <strong>D-M Counties:</strong> Delaware, Dewey, Ellis, Garfield, Garvin, Grady, Grant, Greer, Harmon, Harper, Haskell, Hughes, Jackson, Jefferson, Johnston, Kay, Kingfisher, Kiowa, Latimer, Le Flore, Lincoln, Logan, Love, Major, Marshall, <a href="/counties/mayes-county" className="text-blue-700 hover:text-blue-800 underline">Mayes</a>, McClain, McCurtain, McIntosh, Murray, Muskogee
+                    <strong>D-M Counties:</strong> Delaware, Dewey, Ellis, Garfield, Garvin, Grady, Grant, Greer, Harmon, Harper, Haskell, Hughes, Jackson, Jefferson, Johnston, Kay, Kingfisher, Kiowa, Latimer, Le Flore, Lincoln, Logan, Love, Major, Marshall, Mayes, McClain, McCurtain, McIntosh, Murray, Muskogee
                   </div>
                   <div>
                     <strong>N-W Counties:</strong> Noble, Nowata, Okfuskee, Oklahoma, Okmulgee, Osage, Ottawa, Pawnee, Payne, Pittsburg, Pontotoc, Pottawatomie, Pushmataha, Roger Mills, Rogers, Seminole, Sequoyah, Stephens, Texas, Tillman, Tulsa, Wagoner, Washington, Washita, Woods, Woodward
@@ -1310,7 +1264,7 @@ export default function UltimateGuidePage() {
               <div className="bg-yellow-50 border border-yellow-200 p-4 rounded-lg">
                 <h4 className="font-bold text-yellow-800 mb-3">Service Considerations</h4>
                 <ul className="text-sm space-y-2">
-                  <li><strong>Urban Areas:</strong> Same-day service available in <a href="/tulsa-process-server" className="text-blue-700 hover:text-blue-800 underline">Oklahoma City</a> and <a href="/tulsa-process-server" className="text-blue-700 hover:text-blue-800 underline">Tulsa</a> metros</li>
+                  <li><strong>Urban Areas:</strong> Same-day service available in Oklahoma City and Tulsa metros</li>
                   <li><strong>Rural Areas:</strong> Standard 3-5 day timeline with mileage fees beyond 40 miles</li>
                   <li><strong>Special Locations:</strong> Military installations (Fort Sill, Tinker AFB), tribal jurisdictions, university towns</li>
                   <li><strong>Border Communities:</strong> Texas and Arkansas state line areas</li>
@@ -1328,11 +1282,6 @@ export default function UltimateGuidePage() {
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
-            </div>
-            <div className="mt-4 text-center">
-              <a href="/oklahoma-legal-service-areas-2025" className="text-blue-700 hover:text-blue-800 underline text-sm font-medium">
-                View detailed service area information →
-              </a>
             </div>
           </CardContent>
         </Card>
@@ -1512,11 +1461,6 @@ export default function UltimateGuidePage() {
                   <p><strong>Restraining Orders:</strong> Immediate service required</p>
                 </div>
               </div>
-              <div className="mt-4">
-                <a href="/ai-skip-tracing-guide-oklahoma-2025" className="text-yellow-700 hover:text-yellow-800 underline text-sm font-medium">
-                  Learn about skip tracing for hard-to-find defendants →
-                </a>
-              </div>
             </div>
 
             <Alert>
@@ -1578,11 +1522,7 @@ export default function UltimateGuidePage() {
                     <li><strong>Technology:</strong> &quot;Do you provide real-time updates and electronic documentation?&quot;</li>
                     <li><strong>Pricing:</strong> &quot;What are your fees and what additional costs might apply?&quot;</li>
                   </ol>
-                  <div className="mt-3">
-                    <a href="/pricing" className="text-green-700 hover:text-green-800 underline text-sm font-medium">
-                      View our transparent pricing →
-                    </a>
-                  </div>
+                </div>
               </div>
 
               <div className="border-l-4 border-purple-500 pl-4">
@@ -1630,11 +1570,6 @@ export default function UltimateGuidePage() {
                   </ul>
                 </div>
               </div>
-              <div className="mt-4 text-center">
-                <a href="/oklahoma-process-server-best-practices-checklist-2025" className="text-blue-700 hover:text-blue-800 underline text-sm font-medium">
-                  Download our best practices checklist →
-                </a>
-              </div>
             </div>
           </CardContent>
         </Card>
@@ -1664,11 +1599,6 @@ export default function UltimateGuidePage() {
                   <div>
                     <strong>Technology Integration Mandates:</strong>
                     <p>New requirements for digital documentation and real-time case tracking capabilities for licensed process servers serving high-volume accounts.</p>
-                    <div className="mt-2">
-                      <a href="/ai-skip-tracing-guide-oklahoma-2025" className="text-green-700 hover:text-green-800 underline text-sm font-medium">
-                        Explore our AI technology solutions →
-                      </a>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -1827,11 +1757,6 @@ export default function UltimateGuidePage() {
               <AlertTitle>Prevention is Key</AlertTitle>
               <AlertDescription>
                 Working with experienced, licensed professionals eliminates most common service errors. Verify credentials, ask about procedures, and ensure clear communication throughout the process.
-                <div className="mt-3">
-                  <a href="/process-serving-mistakes-guide-2025" className="text-blue-700 hover:text-blue-800 underline text-sm font-medium">
-                    Learn more about avoiding common mistakes →
-                  </a>
-                </div>
               </AlertDescription>
             </Alert>
           </CardContent>
@@ -1898,11 +1823,6 @@ export default function UltimateGuidePage() {
                   <li>✓ Professional Skip Tracing Services</li>
                   <li>✓ Free Consultation Available 24/7</li>
                 </ul>
-                <div className="mt-3">
-                  <a href="/urgent-process-server" className="text-white hover:text-blue-200 underline text-sm font-medium">
-                    Learn about our emergency service →
-                  </a>
-                </div>
               </div>
             </div>
             <div className="mt-6 text-center">
@@ -1951,11 +1871,6 @@ export default function UltimateGuidePage() {
                 </a>
                 <a href="/contact" className="bg-white text-blue-600 border border-blue-600 px-6 py-2 rounded-lg font-semibold hover:bg-blue-50 transition inline-flex items-center">
                   💬 Chat Online
-                </a>
-              </div>
-              <div className="text-center mt-4">
-                <a href="/oklahoma-process-server-faq-2025" className="text-blue-700 hover:text-blue-800 underline text-sm font-medium">
-                  Browse our complete FAQ section →
                 </a>
               </div>
             </div>
