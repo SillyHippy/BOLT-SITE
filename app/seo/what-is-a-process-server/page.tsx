@@ -610,13 +610,13 @@ export default function WhatIsAProcessServerPage() {
                   <li><a href="#due-process" className="text-blue-700 hover:underline font-medium">→ What Is Due Process?</a></li>
                   <li><a href="#workflow" className="text-blue-700 hover:underline font-medium">→ Process Server Workflow</a></li>
                   <li><a href="#service-areas" className="text-blue-700 hover:underline font-medium">→ Oklahoma Service Areas</a></li>
-                  <li><a href="#document-types" className="text-blue-700 hover:underline font-medium">→ Types of Legal Documents</a></li>
+                  <li><a href="#complete-document-list" className="text-blue-700 hover:underline font-medium">→ Types of Legal Documents</a></li>
                   <li><a href="#vs-sheriff" className="text-blue-700 hover:underline font-medium">→ Professional vs Sheriff</a></li>
                 </ul>
                 <ul className="space-y-2 text-sm">
                   <li><a href="#faq" className="text-blue-700 hover:underline font-medium">→ Comprehensive FAQ</a></li>
                   <li><a href="#licensing" className="text-blue-700 hover:underline font-medium">→ Oklahoma Licensing Laws</a></li>
-                  <li><a href="#after-service" className="text-blue-700 hover:underline font-medium">→ What Happens After Service</a></li>
+                  <li><a href="#complete-document-list" className="text-blue-700 hover:underline font-medium">→ What Happens After Service</a></li>
                   <li><a href="#skip-tracing" className="text-blue-700 hover:underline font-medium">→ Skip Tracing Services</a></li>
                   <li><a href="#emergency-service" className="text-blue-700 hover:underline font-medium">→ Emergency Service</a></li>
                 </ul>
