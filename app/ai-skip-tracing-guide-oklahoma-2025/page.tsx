@@ -312,13 +312,13 @@ export default function AISkipTracingGuideOklahoma2025() {
 
         <section id="voice-search-optimization" className="mb-8">
           <h2 className="text-3xl font-semibold mb-4 border-b pb-2">🎙️ Voice Search & AI Optimization Strategies</h2>
-          <p className="mb-4">With 58% of consumers using voice assistants to find local professional services, optimizing for voice search is crucial. Voice searches are conversational, such as "Find a process server near me who can locate someone."</p>
+        <p className="mb-4">With 58% of consumers using voice assistants to find local professional services, optimizing for voice search is crucial. Voice searches are conversational, such as &quot;Find a process server near me who can locate someone.&quot;</p>
           <h3 className="text-2xl font-semibold mb-3">Technical Voice Search Optimization</h3>
           <ul className="list-disc ml-6 space-y-2 mb-4">
             <li><strong>Featured Snippet Optimization:</strong> Structure content to directly answer common questions in a natural, concise way.</li>
-            <li><strong>Schema Markup:</strong> Implement `LegalService` schema to help search engines understand your content's context.</li>
-            <li><strong>Local SEO:</strong> Maintain an updated Google Business Profile and include location-specific keywords.</li>
-            <li><strong>Mobile Optimization:</strong> Ensure fast mobile page loads (under 3 seconds) and a responsive design, as 70% of voice searches are on mobile.</li>
+            <li><strong>Schema Markup:</strong> Implement <code>LegalService</code> schema to help search engines understand your content&apos;s context.</li>
+            <li><strong>Local SEO:</strong> Maintain an updated Google Business Profile and include location-specific keywords.</li>
+            <li><strong>Mobile Optimization:</strong> Ensure fast mobile page loads (under 3 seconds) and a responsive design, as 70% of voice searches are on mobile.</li>
           </ul>
         </section>
 
@@ -378,8 +378,8 @@ export default function AISkipTracingGuideOklahoma2025() {
 
         <section id="conclusion" className="mb-8">
             <h2 className="text-3xl font-semibold mb-4 border-b pb-2">Conclusion</h2>
-            <p className="mb-4">The integration of artificial intelligence into skip tracing represents the most significant advancement in the field since the digitization of public records. Our comprehensive analysis demonstrates that AI-powered skip tracing not only improves accuracy and efficiency but also provides Oklahoma process servers with a competitive advantage that directly translates to improved client outcomes and business profitability.</p>
-            <p>Process servers who embrace these innovations today will be best positioned to succeed in tomorrow's increasingly competitive legal services marketplace. The AI revolution in skip tracing is not coming—it's here.</p>
+        <p className="mb-4">The integration of artificial intelligence into skip tracing represents the most significant advancement in the field since the digitization of public records. Our comprehensive analysis demonstrates that AI-powered skip tracing not only improves accuracy and efficiency but also provides Oklahoma process servers with a competitive advantage that directly translates to improved client outcomes and business profitability.</p>
+        <p>Process servers who embrace these innovations today will be best positioned to succeed in tomorrow&apos;s increasingly competitive legal services marketplace. The AI revolution in skip tracing is not coming—it&apos;s here.</p>
         </section>
 
         <section id="references" className="mb-8">
