@@ -607,18 +607,18 @@ export default function WhatIsAProcessServerPage() {
               <div className="text-xl font-bold text-blue-900 mb-4">📋 Complete Navigation Guide</div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
                 <ul className="space-y-2 text-sm">
-                  <li><a href="#due-process" className="text-blue-700 hover:underline font-medium">→ What Is Due Process?</a></li>
-                  <li><a href="#workflow" className="text-blue-700 hover:underline font-medium">→ Process Server Workflow</a></li>
-                  <li><a href="#service-areas" className="text-blue-700 hover:underline font-medium">→ Oklahoma Service Areas</a></li>
-                  <li><a href="#document-types" className="text-blue-700 hover:underline font-medium">→ Types of Legal Documents</a></li>
-                  <li><a href="#vs-sheriff" className="text-blue-700 hover:underline font-medium">→ Professional vs Sheriff</a></li>
+                    <li><a href="#due-process" className="text-blue-700 hover:underline font-medium">→ What Is Due Process?</a></li>
+                    <li><a href="#workflow" className="text-blue-700 hover:underline font-medium">→ Process Server Workflow</a></li>
+                    <li><a href="#service-areas" className="text-blue-700 hover:underline font-medium">→ Oklahoma Service Areas</a></li>
+                    <li><a href="#complete-document-list" className="text-blue-700 hover:underline font-medium">→ Types of Legal Documents</a></li>
+                    <li><a href="#vs-sheriff" className="text-blue-700 hover:underline font-medium">→ Professional vs Sheriff</a></li>
                 </ul>
                 <ul className="space-y-2 text-sm">
-                  <li><a href="#faq" className="text-blue-700 hover:underline font-medium">→ Comprehensive FAQ</a></li>
-                  <li><a href="#licensing" className="text-blue-700 hover:underline font-medium">→ Oklahoma Licensing Laws</a></li>
-                  <li><a href="#after-service" className="text-blue-700 hover:underline font-medium">→ What Happens After Service</a></li>
-                  <li><a href="#skip-tracing" className="text-blue-700 hover:underline font-medium">→ Skip Tracing Services</a></li>
-                  <li><a href="#emergency-service" className="text-blue-700 hover:underline font-medium">→ Emergency Service</a></li>
+                    <li><a href="#faq" className="text-blue-700 hover:underline font-medium">→ Comprehensive FAQ</a></li>
+                    <li><a href="#licensing" className="text-blue-700 hover:underline font-medium">→ Oklahoma Licensing Laws</a></li>
+                    {/* Removed #after-service link as no corresponding section exists */}
+                    <li><a href="#skip-tracing" className="text-blue-700 hover:underline font-medium">→ Skip Tracing Services</a></li>
+                    <li><a href="#emergency-service" className="text-blue-700 hover:underline font-medium">→ Emergency Service</a></li>
                 </ul>
                 <ul className="space-y-2 text-sm">
                   <li><a href="#technology" className="text-blue-700 hover:underline font-medium">→ Modern Technology</a></li>
@@ -975,8 +975,8 @@ export default function WhatIsAProcessServerPage() {
               </div>
             </section>
 
-            {/* Industry Statistics and Market Data Section */}
-            <section className="mb-12" id="industry-statistics">
+            {/* Industry Statistics and Market Data Section (Unique ID) */}
+            <section className="mb-12" id="industry-statistics-2025">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center voice-optimized">Oklahoma Process Server Industry Insights & Data (2025)</h2>
               
               <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-8 mb-8 border border-blue-200">
