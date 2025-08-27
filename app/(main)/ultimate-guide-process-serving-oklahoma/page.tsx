@@ -859,10 +859,10 @@ export default function UltimateGuidePage() {
             <p>Oklahoma&apos;s rules for civil procedure directly govern the service of process. Understanding these statutes is critical for ensuring service is valid. Here are the most important ones:</p>
             <ul className="list-disc pl-5 my-4">
                 <li>
-                  <strong><a href="https://law.justia.com/codes/oklahoma/2022/title-12/section-2004/" target="_blank" rel="noopener noreferrer">Title 12, § 2004 - Process</a>:</strong> This is the core statute, detailing who can be served and how (personal delivery, leaving at dwelling, etc.).
+                  <strong><a href="https://law.justia.com/codes/oklahoma/title-12/section-12-2004/" target="_blank" rel="noopener noreferrer">Title 12, § 2004 - Process</a>:</strong> This is the core statute, detailing who can be served and how (personal delivery, leaving at dwelling, etc.).
                 </li>
                 <li>
-                  <strong><a href="https://law.justia.com/codes/oklahoma/2014/title-12/section-158.1/" target="_blank" rel="noopener noreferrer">Title 12, § 158.1 - Licensing of Private Process Servers</a>:</strong> This statute mandates that all private process servers must be licensed by the district court.
+                  <strong><a href="https://law.justia.com/codes/oklahoma/title-12/section-12-158-1/" target="_blank" rel="noopener noreferrer">Title 12, § 158.1 - Licensing of Private Process Servers</a>:</strong> This statute mandates that all private process servers must be licensed by the district court.
                 </li>
                 <li>
                   <strong>Fines and Penalties:</strong> Impersonating an officer of the court or failing to comply with statutes can lead to fines up to $1,000 and the invalidation of the service.
