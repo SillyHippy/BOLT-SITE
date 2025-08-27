@@ -168,7 +168,7 @@ export default function AISkipTracingGuideOklahoma2025() {
             <p className="mb-2">NLP has revolutionized how skip tracers extract meaningful information from unstructured data like social media, news articles, and court filings.</p>
             <ul className="list-disc ml-6 space-y-2">
               <li><strong>Contextual Information Extraction:</strong> NLP algorithms understand context to distinguish between casual mentions and actual location indicators.</li>
-              <li><strong>Multi-Language Processing:</strong> Systems handle multiple languages, crucial for Oklahoma's diverse communities.</li>
+         <li><strong>Multi-Language Processing:</strong> Systems handle multiple languages, crucial for Oklahoma&apos;s diverse communities.</li>
               <li><strong>Temporal Context Analysis:</strong> NLP analyzes timestamps and activity patterns to determine the recency of information, reducing false leads.</li>
             </ul>
           </div>
@@ -228,7 +228,7 @@ export default function AISkipTracingGuideOklahoma2025() {
                 <li>Stricter standards for alternative service justification.</li>
             </ul>
             <h3 className="text-2xl font-semibold mb-3">📍 County-Specific Regulations</h3>
-            <p className="mb-4">Oklahoma's 77 counties maintain varying requirements. Metropolitan counties like Oklahoma and Tulsa have enhanced documentation needs, while rural counties may have modified service attempt rules.</p>
+         <p className="mb-4">Oklahoma&apos;s 77 counties maintain varying requirements. Metropolitan counties like Oklahoma and Tulsa have enhanced documentation needs, while rural counties may have modified service attempt rules.</p>
             <h3 className="text-2xl font-semibold mb-3">📜 Professional Standards and Certification</h3>
             <p className="mb-4">The Oklahoma Association of Process Servers has established enhanced standards, including continuing education on AI technologies, legal compliance, and ethics.</p>
         </section>
