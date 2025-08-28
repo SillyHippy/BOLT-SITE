@@ -72,89 +72,93 @@ export const metadata: Metadata = {
   }
 };
 
-// Enhanced FAQ Schema for AI optimization with voice search focus
+// Unified FAQ Schema for SEO, AI, and Voice Search
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [".voice-optimized", "h1", "h2"]
+  },
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is a process server and what do they do?",
+      "name": "What is a process server?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A process server is a trained and licensed professional responsible for delivering legal documents to individuals involved in a court case. This act is known as 'service of process' and is essential for upholding due process rights in the legal system. In Oklahoma, process servers must be licensed, bonded, and at least 18 years old."
+        "text": "A process server is a licensed professional who delivers legal documents to ensure due process in Oklahoma. They must be at least 18 years old, licensed by the county court, and bonded for $5,000."
       }
     },
     {
       "@type": "Question",
-      "name": "How quickly can a process server deliver documents in Tulsa?",
+      "name": "How much does a process server cost in Oklahoma?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Professional process servers in Tulsa can typically serve documents within 24-48 hours for standard service, with same-day service available for urgent situations within 50 miles of the metro area. Emergency service can be completed within 2-4 hours for time-sensitive legal matters."
+        "text": "Process serving costs in Oklahoma range from $60 to $200 depending on urgency and location. Standard service in Tulsa starts at $60, same-day service costs $100 to $150, and emergency service ranges $150 to $200."
       }
     },
     {
       "@type": "Question",
-      "name": "What makes a process server legally valid in Oklahoma?",
+      "name": "Do I need a process server for divorce papers?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "In Oklahoma, a process server must be licensed by the county court, be at least 18 years old, post a $5,000 surety bond, and not be a party to the legal case being served. They must also maintain professional liability insurance and follow Oklahoma Statute 12-158.1 requirements."
+        "text": "Yes, divorce papers in Oklahoma require professional process service by a licensed third party to ensure legal validity. This protects due process rights and prevents bias."
       }
     },
     {
       "@type": "Question",
-      "name": "How much does process serving cost in Tulsa, Oklahoma?",
+      "name": "How long does process serving take?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Process serving costs in Tulsa range from $30-200 depending on urgency, location, and complexity. Standard service starts at $60, same-day service ranges $100-150, and emergency service can cost $150-200. Volume discounts available for law firms."
+        "text": "Standard process serving takes 24-48 hours in Oklahoma metro areas. Same-day service is available for urgent matters, while rural areas may take 2-3 days."
       }
     },
     {
       "@type": "Question",
-      "name": "Can a process server work on weekends in Oklahoma?",
+      "name": "Can process servers work on weekends?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, Oklahoma-licensed process servers can serve documents on weekends and holidays, particularly for urgent court deadlines or time-sensitive legal proceedings. Weekend service typically includes a 25-50% surcharge."
+        "text": "Yes, licensed process servers in Oklahoma can work weekends and holidays for urgent legal matters, typically with a 25-50% surcharge for after-hours service."
       }
     },
     {
       "@type": "Question",
-      "name": "What happens if someone refuses to accept legal papers in Oklahoma?",
+      "name": "What happens if someone refuses legal papers?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "When someone refuses service in Oklahoma, the process server can legally complete service by explaining the nature of the documents and leaving them at the location, then filing an affidavit of refusal with the court. The service is still considered legally valid."
+        "text": "If someone refuses legal papers in Oklahoma, the process server can still complete valid service by explaining the documents and leaving them at the location, then filing an affidavit of refusal."
       }
     },
     {
       "@type": "Question",
-      "name": "Which counties in Oklahoma can your process server cover?",
+      "name": "How do I find a licensed process server near me?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Just Legal Solutions provides licensed process serving in all 77 Oklahoma counties, with same-day service in the 50-mile Tulsa metro radius and 24-48 hour service statewide. We specialize in both urban and rural Oklahoma communities."
+        "text": "Just Legal Solutions serves all 77 Oklahoma counties with licensed, bonded process servers. Call (539) 367-6832 for immediate service or visit justlegalsolutions.org."
       }
     },
     {
       "@type": "Question",
-      "name": "Do process servers provide proof of service?",
+      "name": "What documents can process servers deliver?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, process servers complete a sworn Affidavit of Service after delivery, providing legal proof with detailed time, date, location, and manner of service information required by Oklahoma courts. This document is filed with the court as evidence of proper service."
+        "text": "Process servers deliver summons, divorce papers, subpoenas, eviction notices, restraining orders, child custody documents, business litigation papers, and court orders throughout Oklahoma."
       }
     },
     {
       "@type": "Question",
-      "name": "What types of legal documents do process servers deliver?",
+      "name": "Why use a professional process server instead of sheriff?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Process servers deliver summons and complaints, divorce papers, subpoenas, eviction notices, restraining orders, small claims documents, citations, business litigation papers, child custody documents, and court orders throughout Oklahoma."
+        "text": "Professional process servers complete service 70% faster than sheriff departments (24-48 hours vs 2-6 weeks), provide real-time updates, and offer specialized skip tracing services."
       }
     },
     {
       "@type": "Question",
-      "name": "What time of day do process servers work in Oklahoma?",
+      "name": "What is skip tracing for process serving?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Licensed process servers in Oklahoma typically operate Monday through Saturday, 8 AM to 8 PM, with emergency and after-hours service available for time-sensitive legal matters. Sunday service available for urgent situations with court approval."
+        "text": "Skip tracing is an advanced investigation service that locates difficult-to-find individuals using database searches, social media investigation, and field work. Success rate exceeds 95% in Oklahoma."
       }
     }
   ]
@@ -466,11 +470,7 @@ export default function WhatIsAProcessServerPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
-      <Script
-        id="local-business-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
-      />
+  {/* Removed duplicate voice-search-optimization FAQPage schema. All voice/AI optimization is now in faqSchema above. */}
       <Script
         id="article-schema"
         type="application/ld+json"
