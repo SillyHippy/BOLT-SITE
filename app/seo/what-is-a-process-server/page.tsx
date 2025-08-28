@@ -1059,6 +1059,8 @@ export default function WhatIsAProcessServerPage() {
 
             {/* Complete List of Legal Documents Section */}
             <section className="mb-12" id="complete-document-list">
+              {/* Add anchor for #document-types */}
+              <span id="document-types" />
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center voice-optimized">Complete List of Legal Documents We Serve Throughout Oklahoma</h2>
               
               <div className="grid lg:grid-cols-2 gap-8 mb-8">
@@ -2270,6 +2272,15 @@ export default function WhatIsAProcessServerPage() {
 
             {/* Emergency Service Details */}
             <section className="mb-12" id="emergency-service">
+            {/* After Service Section (added for #after-service anchor) */}
+            <section className="mb-12" id="after-service">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center voice-optimized">What Happens After Service?</h2>
+              <div className="bg-blue-50 border border-blue-200 rounded-xl p-8 mb-8">
+                <p className="text-lg text-gray-700 mb-6 text-center">
+                  After documents are served, our process server completes a sworn Affidavit of Service, detailing the time, date, location, and manner of service. This affidavit is filed with the court as legal proof. Clients receive immediate notification and a scanned copy of the affidavit within 2 hours of completion.
+                </p>
+              </div>
+            </section>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center voice-optimized">Emergency and Rush Service Details</h2>
               
               <div className="bg-red-50 border border-red-200 rounded-xl p-8 mb-8">
