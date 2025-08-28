@@ -1772,7 +1772,7 @@ export default function UltimateGuidePage() {
                   <strong><a href="https://law.justia.com/codes/oklahoma/title-12/section-12-2004/" target="_blank" rel="noopener noreferrer">Title 12, § 2004 - Process</a>:</strong> This is the core statute, detailing who can be served and how (personal delivery, leaving at dwelling, etc.).
                 </li>
                 <li>
-                  <strong><a href="https://law.justia.com/codes/oklahoma/2014/title-12/section-158.1/" target="_blank" rel="noopener noreferrer">Title 12, § 158.1 - Licensing of Private Process Servers</a>:</strong> This statute mandates that all private process servers must be licensed by the district court.
+                  <strong><a href="https://law.justia.com/codes/oklahoma/title-12/section-12-158-1/" target="_blank" rel="noopener noreferrer">Title 12, § 158.1 - Licensing of Private Process Servers</a>:</strong> This statute mandates that all private process servers must be licensed by the district court.
                 </li>
                 <li>
                   <strong>Fines and Penalties:</strong> Impersonating an officer of the court or failing to comply with statutes can lead to fines up to $1,000 and the invalidation of the service.
