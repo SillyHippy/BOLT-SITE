@@ -230,73 +230,89 @@ export default function JenksProcessServer() {
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "FAQPage",
-              "mainEntity": [
-                ...jenksServiceFAQs,
-                ...jenksBusinessFAQs,
-                ...jenksLegalFAQs,
-                ...jenksLocalFAQs
-              ].map((faq) => ({
-                "@type": "Question",
-                "name": faq.question,
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": faq.answer
-                }
-              }))
-            })
-          }}
+                  <div itemScope itemType="https://schema.org/Review" className="bg-white p-6 rounded-lg shadow-md">
+                    <div itemProp="itemReviewed" itemScope itemType="https://schema.org/LocalBusiness" className="mb-2">
+                      <span itemProp="name">Just Legal Solutions</span>
+                      <meta itemProp="url" content="https://justlegalsolutions.org/service-areas/jenks" />
+                    </div>
+                    <div className="flex items-center mb-4">
+                      <div className="flex text-yellow-400 text-lg">
+                        ★★★★★
+                      </div>
+                      <meta itemProp="ratingValue" content="5" />
+                    </div>
+                    <p className="text-gray-700 mb-4 italic" itemProp="reviewBody">
+                      &ldquo;Needed urgent service near the Oklahoma Aquarium for a family law case. Just Legal Solutions delivered same-day service and navigated the hotel complex perfectly. Their knowledge of the Jenks area saved the day.&rdquo;
+                    </p>
+                    <div className="text-sm text-gray-600">
+                      <span itemProp="author" itemScope itemType="https://schema.org/Person">
+                        <span itemProp="name">Jennifer K.</span>
+                      </span> - Jenks Family Law Attorney
+                    </div>
+                  </div>
         />      <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-slate-100">
-        {/* Hero Section */}
-        <div className="bg-gradient-to-r from-blue-900 via-blue-800 to-slate-900 text-white relative">
-          <div className="absolute inset-0 bg-black/20"></div>
-          <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
-            <div className="text-center">
-              <div className="flex items-center justify-center mb-6">
-                <Scale className="h-16 w-16 text-blue-400 mr-4" />
-                <div>
-                  <h1 className="text-4xl md:text-6xl font-bold mb-2">
-                    Process Server Jenks
-                  </h1>
-                  <p className="text-xl md:text-2xl text-blue-200">Professional Legal Document Service</p>
-                </div>
-              </div>
-              
-              <p className="text-lg md:text-xl mb-8 max-w-3xl mx-auto leading-relaxed">
+                  <div itemScope itemType="https://schema.org/Review" className="bg-white p-6 rounded-lg shadow-md">
+                    <div itemProp="itemReviewed" itemScope itemType="https://schema.org/LocalBusiness" className="mb-2">
+                      <span itemProp="name">Just Legal Solutions</span>
+                      <meta itemProp="url" content="https://justlegalsolutions.org/service-areas/jenks" />
+                    </div>
+                    <div className="flex items-center mb-4">
+                      <div className="flex text-yellow-400 text-lg">
+                        ★★★★★
+                      </div>
+                      <meta itemProp="ratingValue" content="5" />
+                    </div>
+                    <p className="text-gray-700 mb-4 italic" itemProp="reviewBody">
+                      &ldquo;Outstanding service at Riverwalk Crossing! They knew exactly how to handle the retail complex service and worked professionally with mall security. Quick, discrete, and effective.&rdquo;
+                    </p>
+                    <div className="text-sm text-gray-600">
+                      <span itemProp="author" itemScope itemType="https://schema.org/Person">
+                        <span itemProp="name">Robert M.</span>
+                      </span> - Business Owner, Jenks
+                    </div>
+                  </div>
                 Licensed, bonded, and insured process server in Jenks, Oklahoma. 
-                Fast, reliable service with professional standards, competitive rates, and 24/7 emergency availability.
-              </p>
-
-              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-                <a 
-                  href="tel:5393676832" 
-                  className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center"
-                >
-                  <Phone className="h-5 w-5 mr-2" />
-                  Call Now: (539) 367-6832
-                </a>
-                <Link 
-                  href="/contact" 
-                  className="bg-white/10 hover:bg-white/20 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 border border-white/20 flex items-center"
-                >
-                  <FileText className="h-5 w-5 mr-2" />
+                  <div itemScope itemType="https://schema.org/Review" className="bg-white p-6 rounded-lg shadow-md">
+                    <div itemProp="itemReviewed" itemScope itemType="https://schema.org/LocalBusiness" className="mb-2">
+                      <span itemProp="name">Just Legal Solutions</span>
+                      <meta itemProp="url" content="https://justlegalsolutions.org/service-areas/jenks" />
+                    </div>
+                    <div className="flex items-center mb-4">
+                      <div className="flex text-yellow-400 text-lg">
+                        ★★★★★
+                      </div>
+                      <meta itemProp="ratingValue" content="5" />
+                    </div>
+                    <p className="text-gray-700 mb-4 italic" itemProp="reviewBody">
+                      &ldquo;Impressed by their local knowledge of Jenks neighborhoods. They served papers during the antique festival weekend and handled the Main Street crowds like pros. Highly recommend!&rdquo;
+                    </p>
+                    <div className="text-sm text-gray-600">
+                      <span itemProp="author" itemScope itemType="https://schema.org/Person">
+                        <span itemProp="name">Sarah L.</span>
+                      </span> - Southern Lakes Resident
+                    </div>
+                  </div>
                   Get Quote Online
-                </Link>
-              </div>
-
-              {/* Quick Stats */}
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
-                  <div className="text-2xl md:text-3xl font-bold text-blue-300">24/7</div>
-                  <div className="text-sm text-blue-100">Emergency Service</div>
-                </div>
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
-                  <div className="text-2xl md:text-3xl font-bold text-blue-300">Same Day</div>
-                  <div className="text-sm text-blue-100">Rush Available</div>
-                </div>
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
-                  <div className="text-2xl md:text-3xl font-bold text-blue-300">99.7%</div>
-                  <div className="text-sm text-blue-100">Success Rate</div>
+                  <div itemScope itemType="https://schema.org/Review" className="bg-white p-6 rounded-lg shadow-md">
+                    <div itemProp="itemReviewed" itemScope itemType="https://schema.org/LocalBusiness" className="mb-2">
+                      <span itemProp="name">Just Legal Solutions</span>
+                      <meta itemProp="url" content="https://justlegalsolutions.org/service-areas/jenks" />
+                    </div>
+                    <div className="flex items-center mb-4">
+                      <div className="flex text-yellow-400 text-lg">
+                        ★★★★★
+                      </div>
+                      <meta itemProp="ratingValue" content="5" />
+                    </div>
+                    <p className="text-gray-700 mb-4 italic" itemProp="reviewBody">
+                      &ldquo;Needed papers served at The Reserve at Stonebrooke. They handled the gated community protocols perfectly and completed service efficiently. Professional and courteous throughout.&rdquo;
+                    </p>
+                    <div className="text-sm text-gray-600">
+                      <span itemProp="author" itemScope itemType="https://schema.org/Person">
+                        <span itemProp="name">Michael D.</span>
+                      </span> - Jenks Attorney
+                    </div>
+                  </div>
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
                   <div className="text-2xl md:text-3xl font-bold text-blue-300">Licensed</div>
