@@ -636,7 +636,11 @@ export default function JenksProcessServer() {
             </div>
             <div className="p-8">
               <div className="grid md:grid-cols-2 gap-8">
-                <div itemScope itemType="https://schema.org/Review" className="bg-white p-6 rounded-lg shadow-md">
+                <div itemScope={true} itemType="https://schema.org/Review" className="bg-white p-6 rounded-lg shadow-md">
+                  <div itemProp="itemReviewed" itemScope={true} itemType="https://schema.org/LocalBusiness" className="mb-2">
+                    <span itemProp="name">Just Legal Solutions</span>
+                    <meta itemProp="url" content="https://justlegalsolutions.org/service-areas/jenks" />
+                  </div>
                   <div className="flex items-center mb-4">
                     <div className="flex text-yellow-400 text-lg">
                       ★★★★★
@@ -647,13 +651,17 @@ export default function JenksProcessServer() {
                     &ldquo;Needed urgent service near the Oklahoma Aquarium for a family law case. Just Legal Solutions delivered same-day service and navigated the hotel complex perfectly. Their knowledge of the Jenks area saved the day.&rdquo;
                   </p>
                   <div className="text-sm text-gray-600">
-                    <span itemProp="author" itemScope itemType="https://schema.org/Person">
+                    <span itemProp="author" itemScope={true} itemType="https://schema.org/Person">
                       <span itemProp="name">Jennifer K.</span>
                     </span> - Jenks Family Law Attorney
                   </div>
                 </div>
 
-                <div itemScope itemType="https://schema.org/Review" className="bg-white p-6 rounded-lg shadow-md">
+                <div itemScope={true} itemType="https://schema.org/Review" className="bg-white p-6 rounded-lg shadow-md">
+                  <div itemProp="itemReviewed" itemScope={true} itemType="https://schema.org/LocalBusiness" className="mb-2">
+                    <span itemProp="name">Just Legal Solutions</span>
+                    <meta itemProp="url" content="https://justlegalsolutions.org/service-areas/jenks" />
+                  </div>
                   <div className="flex items-center mb-4">
                     <div className="flex text-yellow-400 text-lg">
                       ★★★★★
@@ -664,13 +672,17 @@ export default function JenksProcessServer() {
                     &ldquo;Outstanding service at Riverwalk Crossing! They knew exactly how to handle the retail complex service and worked professionally with mall security. Quick, discrete, and effective.&rdquo;
                   </p>
                   <div className="text-sm text-gray-600">
-                    <span itemProp="author" itemScope itemType="https://schema.org/Person">
+                    <span itemProp="author" itemScope={true} itemType="https://schema.org/Person">
                       <span itemProp="name">Robert M.</span>
                     </span> - Business Owner, Jenks
                   </div>
                 </div>
 
-                <div itemScope itemType="https://schema.org/Review" className="bg-white p-6 rounded-lg shadow-md">
+                <div itemScope={true} itemType="https://schema.org/Review" className="bg-white p-6 rounded-lg shadow-md">
+                  <div itemProp="itemReviewed" itemScope={true} itemType="https://schema.org/LocalBusiness" className="mb-2">
+                    <span itemProp="name">Just Legal Solutions</span>
+                    <meta itemProp="url" content="https://justlegalsolutions.org/service-areas/jenks" />
+                  </div>
                   <div className="flex items-center mb-4">
                     <div className="flex text-yellow-400 text-lg">
                       ★★★★★
@@ -681,13 +693,17 @@ export default function JenksProcessServer() {
                     &ldquo;Impressed by their local knowledge of Jenks neighborhoods. They served papers during the antique festival weekend and handled the Main Street crowds like pros. Highly recommend!&rdquo;
                   </p>
                   <div className="text-sm text-gray-600">
-                    <span itemProp="author" itemScope itemType="https://schema.org/Person">
+                    <span itemProp="author" itemScope={true} itemType="https://schema.org/Person">
                       <span itemProp="name">Sarah L.</span>
                     </span> - Southern Lakes Resident
                   </div>
                 </div>
 
-                <div itemScope itemType="https://schema.org/Review" className="bg-white p-6 rounded-lg shadow-md">
+                <div itemScope={true} itemType="https://schema.org/Review" className="bg-white p-6 rounded-lg shadow-md">
+                  <div itemProp="itemReviewed" itemScope={true} itemType="https://schema.org/LocalBusiness" className="mb-2">
+                    <span itemProp="name">Just Legal Solutions</span>
+                    <meta itemProp="url" content="https://justlegalsolutions.org/service-areas/jenks" />
+                  </div>
                   <div className="flex items-center mb-4">
                     <div className="flex text-yellow-400 text-lg">
                       ★★★★★
@@ -698,7 +714,7 @@ export default function JenksProcessServer() {
                     &ldquo;Needed papers served at The Reserve at Stonebrooke. They handled the gated community protocols perfectly and completed service efficiently. Professional and courteous throughout.&rdquo;
                   </p>
                   <div className="text-sm text-gray-600">
-                    <span itemProp="author" itemScope itemType="https://schema.org/Person">
+                    <span itemProp="author" itemScope={true} itemType="https://schema.org/Person">
                       <span itemProp="name">Michael D.</span>
                     </span> - Jenks Attorney
                   </div>
