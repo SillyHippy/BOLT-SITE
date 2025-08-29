@@ -1880,27 +1880,55 @@ export default function UltimateGuidePage() {
       </div>
     </div>
     <UnifiedSchema 
-      pageType="article" 
-      pageName="Ultimate Guide to Process Serving in Oklahoma"
-      headline="Ultimate Guide to Process Serving in Oklahoma | Laws, Procedures & Best Practices"
-      description="2025 guide to Oklahoma process serving—laws, procedures, and expert tips for legal document delivery, affidavits, and compliance. Trusted resource for attorneys and individuals."
-      keywords={[
-        'oklahoma process serving guide',
-        'oklahoma process server laws', 
-        'legal document delivery oklahoma',
-        'oklahoma civil procedure',
-        'process serving requirements oklahoma',
-        'affidavit of service oklahoma',
-        'oklahoma legal statutes process serving',
-        'how to serve legal papers oklahoma',
-        'oklahoma court document delivery',
-        'process server regulations oklahoma',
-        'legal service procedures oklahoma',
-        'oklahoma summons service guide'
-      ]}
-      reviewCount={146}
-      articleSection="Legal Education"
-    />
+  pageType="article"
+  pageName="Ultimate Guide to Process Serving in Oklahoma"
+  headline="Ultimate Guide to Process Serving in Oklahoma | Laws, Procedures & Best Practices"
+  description="2025 guide to Oklahoma process serving—laws, procedures, and expert tips for legal document delivery, affidavits, and compliance. Trusted resource for attorneys and individuals."
+  keywords={[
+    'oklahoma process serving guide',
+    'oklahoma process server laws', 
+    'legal document delivery oklahoma',
+    'oklahoma civil procedure',
+    'process serving requirements oklahoma',
+    'affidavit of service oklahoma',
+    'oklahoma legal statutes process serving',
+    'how to serve legal papers oklahoma',
+    'oklahoma court document delivery',
+    'process server regulations oklahoma',
+    'legal service procedures oklahoma',
+    'oklahoma summons service guide'
+  ]}
+  reviewCount={146}
+  articleSection="Legal Education"
+  faqItems={pageFaqs}
+  speakable={[
+    "//h1",
+    "//div[@id='what-is-process-serving']//p[1]",
+    "//div[@id='fees-and-pricing']//table"
+  ]}
+  articleDetails={{
+    headline: "Ultimate Guide to Process Serving in Oklahoma 2025",
+    author: "Just Legal Solutions",
+    datePublished: "2024-01-01",
+    dateModified: new Date().toISOString(),
+    image: "https://www.okbar.org/wp-content/uploads/2019/02/Fotolia_173531621_Subscription_Monthly_M-gavel-books.jpg"
+  }}
+  organization={{
+    name: "Just Legal Solutions",
+    telephone: "+15393676832",
+    address: {
+      streetAddress: "564 E 138th PL",
+      addressLocality: "Glenpool",
+      addressRegion: "OK",
+      postalCode: "74033",
+      addressCountry: "US"
+    }
+  }}
+  aggregateRating={{
+    ratingValue: 4.9,
+    reviewCount: 146
+  }}
+/>
     </>
   );
 }
