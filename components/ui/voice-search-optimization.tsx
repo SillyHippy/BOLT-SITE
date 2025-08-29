@@ -4,13 +4,17 @@ interface VoiceSearchOptimizationProps {
   primaryQuestions: string[];
   conversationalAnswers: string[];
   localIntent?: boolean;
+  // when false, the component will not inject its FAQPage JSON-LD script
+  emitSchema?: boolean;
 }
 
 export default function VoiceSearchOptimization({ 
   primaryQuestions,
   conversationalAnswers,
-  localIntent = true 
+  localIntent = true,
+  emitSchema = true
 }: VoiceSearchOptimizationProps) {
+  if (!emitSchema) return null;
   const voiceSearchSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",

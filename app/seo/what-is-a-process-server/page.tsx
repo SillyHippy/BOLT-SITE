@@ -483,7 +483,7 @@ export default function WhatIsAProcessServerPage() {
       />
       
       <EnhancedBreadcrumbSchema items={breadcrumbItems} />
-      <VoiceSearchOptimization
+  <VoiceSearchOptimization
         primaryQuestions={[
           "What is a process server",
           "How much does a process server cost in Oklahoma",
@@ -508,7 +508,8 @@ export default function WhatIsAProcessServerPage() {
           "Professional process servers complete service 70% faster than sheriff departments (24-48 hours vs 2-6 weeks), provide real-time updates, and offer specialized skip tracing services.",
           "Skip tracing is an advanced investigation service that locates difficult-to-find individuals using database searches, social media investigation, and field work. Success rate exceeds 95% in Oklahoma."
         ]}
-        localIntent={true}
+  localIntent={true}
+  emitSchema={false}
       />
       <PerformanceSchema
         pageName="What Is a Process Server Guide"
