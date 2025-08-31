@@ -2180,7 +2180,7 @@ export default function WhatIsAProcessServerPage() {
               
               <div className="text-center mb-8">
                 <Image 
-                  src="/images/Abstract AI skip tracing illustration.png"
+                  src="/images/Abstract AI skip tracing illustration.webp"
                   alt="Professional skip tracing and investigation services Oklahoma"
                   width={1000}
                   height={600}

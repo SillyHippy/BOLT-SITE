@@ -406,7 +406,7 @@ export default function TulsaCountyProcessServer() {
                   <CarouselItem className="pl-6 md:basis-1/2 lg:basis-1/3">
                     <div className="w-full h-60 relative group">
                       <Image 
-                        src="/images/Tulsa_skyline_aerial,_April_2023.jpg" 
+                        src="/images/Tulsa_skyline_aerial,_April_2023.webp" 
                         alt="Aerial view Tulsa skyline showing comprehensive coverage area for process serving across all Tulsa neighborhoods and districts"
                         fill
                         className="object-cover rounded-xl shadow-lg group-hover:scale-105 transition-transform duration-300"
@@ -434,7 +434,7 @@ export default function TulsaCountyProcessServer() {
                   <CarouselItem className="pl-6 md:basis-1/2 lg:basis-1/3">
                     <div className="w-full h-60 relative group">
                       <Image 
-                        src="/images/Tulsa_11.jpg" 
+                        src="/images/Tulsa_11.webp" 
                         alt="Tulsa County suburban neighborhoods and residential areas served by professional process servers for legal document delivery and court papers"
                         fill
                         className="object-cover rounded-xl shadow-lg group-hover:scale-105 transition-transform duration-300"

@@ -163,7 +163,7 @@ export default function AboutPage() {
 
             <div className="relative w-full h-64 my-8 rounded-lg overflow-hidden">
               <Image
-                src="/images/Tulsa_11.jpg"
+                src="/images/Tulsa_11.webp"
                 alt="Historic Tulsa Route 66 marker representing the city's heritage"
                 fill
                 className="object-cover"
@@ -218,7 +218,7 @@ export default function AboutPage() {
 
             <div className="relative w-full h-80 my-8 rounded-lg overflow-hidden">
               <Image
-                src="/images/Tulsa_skyline_aerial,_April_2023.jpg"
+                src="/images/Tulsa_skyline_aerial,_April_2023.webp"
                 alt="Aerial view of Tulsa skyline showing the city we serve"
                 fill
                 className="object-cover"

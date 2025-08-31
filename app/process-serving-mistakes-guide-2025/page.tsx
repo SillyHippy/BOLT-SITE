@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     images: [
       {
-        url: '/images/Mistake prevention checklist infographic.png',
+        url: '/images/Mistake prevention checklist infographic.webp',
         width: 1200,
         height: 630,
         alt: 'Process Serving Mistakes Prevention Checklist'
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Top 10 Process Serving Mistakes That Can Cost You Your Case | Just Legal Solutions',
     description: 'Avoid costly process serving errors in Oklahoma. Learn the top 10 mistakes that invalidate service and jeopardize your legal case in 2025.',
-    images: ['/images/Mistake prevention checklist infographic.png'],
+    images: ['/images/Mistake prevention checklist infographic.webp'],
     creator: '@JustLegalSolutions',
     site: '@JustLegalSolutions',
   },
@@ -51,7 +51,7 @@ const articleSchema = {
   "headline": "Top 10 Process Serving Mistakes That Can Cost You Your Case",
   "description": "Avoid costly process serving errors in Oklahoma. Learn the top 10 mistakes that invalidate service and jeopardize your legal case in 2025.",
   "image": [
-    "/images/Mistake prevention checklist infographic.png"
+    "/images/Mistake prevention checklist infographic.webp"
   ],
   "author": {
     "@type": "Person",
@@ -75,7 +75,7 @@ const howToSchema = {
   "@type": "HowTo",
   "name": "How to Avoid Process Serving Mistakes That Can Cost Your Case",
   "description": "Step-by-step guide to preventing common process serving errors that can invalidate service and jeopardize legal cases in Oklahoma.",
-  "image": "/images/Mistake prevention checklist infographic.png",
+  "image": "/images/Mistake prevention checklist infographic.webp",
   "totalTime": "PT30M",
   "step": [
     {
@@ -121,7 +121,7 @@ export default function ProcessServingMistakesGuide2025() {
       <main className="max-w-4xl mx-auto px-4 py-8 pt-24">
         <h1 className="text-4xl font-bold mb-4">Top 10 Process Serving Mistakes That Can Cost You Your Case</h1>
         <p className="italic mb-6">Process serving errors can have devastating consequences for legal cases, potentially leading to dismissals, delays, and significant financial losses. Understanding the most common mistakes helps attorneys and process servers avoid costly pitfalls that jeopardize successful litigation outcomes. This comprehensive guide examines the ten most critical process serving errors, their consequences, and prevention strategies under current Oklahoma law.</p>
-        <Image src="/images/Mistake prevention checklist infographic.png" alt="Process Serving Mistakes Checklist" width={800} height={400} className="rounded shadow mb-4" />
+        <Image src="/images/Mistake prevention checklist infographic.webp" alt="Process Serving Mistakes Checklist" width={800} height={400} className="rounded shadow mb-4" />
 
         {/* Mistake #1: Inadequate Address Verification */}
         <section className="mb-8">
