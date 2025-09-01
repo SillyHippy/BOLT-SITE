@@ -81,7 +81,9 @@ export default function AIOptimizedContentSchema({
     // Topical authority signals
     "mainEntity": {
       "@type": "LocalBusiness",
+      "@id": "https://justlegalsolutions.org/#organization",
       "name": "Just Legal Solutions",
+      "url": "https://justlegalsolutions.org",
       "description": topicalAuthority,
       "address": {
         "@type": "PostalAddress",

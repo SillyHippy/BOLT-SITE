@@ -6,6 +6,7 @@
 export const enhancedLocalBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
+  "@id": "https://justlegalsolutions.org/#organization",
   "name": "Just Legal Solutions",
   "alternateName": [
     "JLS Process Server Tulsa",

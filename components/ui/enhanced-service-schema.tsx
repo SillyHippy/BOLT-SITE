@@ -33,6 +33,7 @@ export default function EnhancedServiceSchema({
     "category": "Legal Services",
     "provider": {
       "@type": "LocalBusiness",
+      "@id": "https://justlegalsolutions.org/#organization",
       "name": "Just Legal Solutions",
       "address": {
         "@type": "PostalAddress",
@@ -78,7 +79,9 @@ export default function EnhancedServiceSchema({
       "validFrom": new Date().toISOString().split('T')[0],
       "seller": {
         "@type": "LocalBusiness",
+        "@id": "https://justlegalsolutions.org/#organization",
         "name": "Just Legal Solutions",
+        "url": "https://justlegalsolutions.org",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "564 E 138th PL",
@@ -166,7 +169,9 @@ export default function EnhancedServiceSchema({
         "name": "Legal Document Delivery",
         "provider": {
           "@type": "LocalBusiness",
+          "@id": "https://justlegalsolutions.org/#organization",
           "name": "Just Legal Solutions",
+          "url": "https://justlegalsolutions.org",
           "address": {
             "@type": "PostalAddress",
             "streetAddress": "564 E 138th PL",
@@ -182,7 +187,9 @@ export default function EnhancedServiceSchema({
         "name": "Court Filing Services",
         "provider": {
           "@type": "LocalBusiness",
+          "@id": "https://justlegalsolutions.org/#organization",
           "name": "Just Legal Solutions",
+          "url": "https://justlegalsolutions.org",
           "address": {
             "@type": "PostalAddress",
             "streetAddress": "564 E 138th PL",

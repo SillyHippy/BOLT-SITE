@@ -18,7 +18,9 @@ export default function ReviewSchema({
   const schema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
+    "@id": "https://justlegalsolutions.org/#organization",
     "name": businessName,
+    "url": "https://justlegalsolutions.org",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "564 E 138th PL",

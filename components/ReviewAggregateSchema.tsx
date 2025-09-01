@@ -10,6 +10,7 @@ export default function ReviewAggregateSchema() {
       "@type": "AggregateRating",
       "itemReviewed": {
         "@type": "LocalBusiness",
+        "@id": "https://justlegalsolutions.org/#organization",
         "name": "Just Legal Solutions",
         "url": "https://justlegalsolutions.org"
       },
@@ -32,7 +33,9 @@ export default function ReviewAggregateSchema() {
     ],
     "mainEntity": {
       "@type": "LocalBusiness",
+      "@id": "https://justlegalsolutions.org/#organization",
       "name": "Just Legal Solutions",
+      "url": "https://justlegalsolutions.org",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "564 E 138th PL",

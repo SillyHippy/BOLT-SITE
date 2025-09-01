@@ -16,7 +16,9 @@ export default function AdvancedSchemaMarkup({ pageType = 'home', serviceName }:
           "name": serviceName || "Process Serving Services",
           "provider": {
             "@type": "LocalBusiness",
+            "@id": "https://justlegalsolutions.org/#organization",
             "name": "Just Legal Solutions",
+            "url": "https://justlegalsolutions.org",
             "telephone": "(539) 367-6832"
           }
         };
@@ -31,7 +33,9 @@ export default function AdvancedSchemaMarkup({ pageType = 'home', serviceName }:
         return {
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
+          "@id": "https://justlegalsolutions.org/#organization",
           "name": "Just Legal Solutions",
+          "url": "https://justlegalsolutions.org",
           "address": {
             "@type": "PostalAddress",
             "streetAddress": "564 E 138th PL",

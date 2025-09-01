@@ -4,6 +4,7 @@ export default function BusinessSchema() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
+    "@id": "https://justlegalsolutions.org/#organization",
     "name": "Just Legal Solutions",
     "description": "Professional process serving and legal document delivery throughout Tulsa County, Oklahoma. Over 50 years' combined team and partner experience. Same-day service available.",
     "slogan": "Over 50 Years' Combined Experience Serving Oklahoma's Legal Community",

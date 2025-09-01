@@ -18,6 +18,7 @@ export default function GoogleSpecificOptimization({
   const googleOptimizedSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
+    "@id": "https://justlegalsolutions.org/#organization",
     "name": businessName,
     "alternateName": "JLS Process Server",
     "description": "Professional process serving and legal document delivery throughout Oklahoma with 24/7 emergency service availability",
@@ -30,16 +31,16 @@ export default function GoogleSpecificOptimization({
       "addressLocality": "Glenpool",
       "addressRegion": "OK",
       "postalCode": "74033",
-      "addressCountry": "US",
-      "areaServed": serviceArea.map(area => ({
-        "@type": "City",
-        "name": area,
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Oklahoma"
-        }
-      }))
+      "addressCountry": "US"
     },
+    "areaServed": serviceArea.map(area => ({
+      "@type": "City",
+      "name": area,
+      "containedInPlace": {
+        "@type": "State",
+        "name": "Oklahoma"
+      }
+    })),
     "geo": {
       "@type": "GeoCoordinates",
       "latitude": "36.1540",
