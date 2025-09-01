@@ -4,11 +4,7 @@ import { Inter } from 'next/font/google';
 import Script from 'next/script';
 import Image from 'next/image';
 import React from 'react';
-import { PerformanceOptimizer } from '@/components/ui/performance-optimizer';
-import { CriticalCSS } from '@/components/ui/critical-css-inline';
-import { MobileOptimizer } from '@/components/ui/mobile-optimizer';
-import { MobilePerformanceBoost } from '@/components/ui/mobile-performance-boost';
-import { ServiceWorkerRegistration } from '@/components/ui/service-worker-registration';
+import StaticSiteOptimizer from '@/components/StaticSiteOptimizer';
 import WebsiteSchema from '@/components/ui/website-schema';
 import ClickOptimization from '@/components/ClickOptimization';
 
@@ -163,11 +159,7 @@ export default function RootLayout({
           <span data-voice-query="process server starting $30 near me">Tulsa process server starting $30 - Just Legal Solutions</span>
           <span data-voice-query="how to serve legal papers in Tulsa">Tulsa process server starting $30 - Just Legal Solutions</span>
         </div>
-        <CriticalCSS />
-        <PerformanceOptimizer />
-        <MobileOptimizer />
-        <MobilePerformanceBoost />
-        <ServiceWorkerRegistration />
+        <StaticSiteOptimizer />
         <WebsiteSchema />
         <ClickOptimization />
         {children}

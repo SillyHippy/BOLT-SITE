@@ -23,10 +23,19 @@ export const MobileOptimizer = () => {
     // 3. Optimize for mobile viewports
     const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
     if (isMobile) {
-      // Prevent zoom on input focus for iOS
+      // Only prevent zoom on input focus for iOS, but allow manual zoom
       const metaViewport = document.querySelector('meta[name="viewport"]');
-      if (metaViewport) {
-        metaViewport.setAttribute('content', 'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no');
+      if (metaViewport && /iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+        // Only restrict for iOS input focus, not general zooming
+        const inputs = document.querySelectorAll('input, textarea, select');
+        inputs.forEach(input => {
+          input.addEventListener('focus', () => {
+            metaViewport.setAttribute('content', 'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no');
+          });
+          input.addEventListener('blur', () => {
+            metaViewport.setAttribute('content', 'width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes');
+          });
+        });
       }
 
       // Add mobile-specific CSS optimizations
