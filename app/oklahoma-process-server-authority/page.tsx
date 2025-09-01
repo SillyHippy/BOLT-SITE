@@ -324,6 +324,7 @@ export default function OklahomaProcessServerAuthority() {
         location="Oklahoma (Statewide)"
         services={["Process Serving", "Legal Document Delivery", "Court Filing", "Emergency Service"]}
         phone="(539) 367-6832"
+        skipSchema={true}
       />
       
       <Footer />

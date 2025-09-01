@@ -1026,6 +1026,7 @@ export default function TulsaProcessServerPage() {
         location="Tulsa County, Oklahoma"
         services={['Tulsa Process Serving', 'Broken Arrow Process Server', 'Same-Day Legal Delivery']}
         phone="(539) 367-6832"
+        skipSchema={true}
       />
       
       <RankingSupremacy2025

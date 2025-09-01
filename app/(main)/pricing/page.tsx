@@ -332,6 +332,7 @@ export default function PricingPage() {
         location="Tulsa, Oklahoma"
         services={['Process Serving', 'Legal Document Delivery', 'Court Filing']}
         phone="(539) 367-6832"
+        skipSchema={true}
       />
     </main>
     </>
