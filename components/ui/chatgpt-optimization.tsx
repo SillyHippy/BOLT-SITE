@@ -66,7 +66,7 @@ export default function ChatGPTOptimization({
     },
     
     // Geographic expertise for location-based AI queries
-    "serviceArea": {
+    "areaServed": {
       "@type": "GeoCircle",
       "geoMidpoint": {
         "@type": "GeoCoordinates",

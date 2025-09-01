@@ -74,10 +74,6 @@ export default function OkmulgeeCountyPage() {
         "addressRegion": "OK"
       }
     ],
-    "serviceArea": {
-      "@type": "AdministrativeArea",
-      "name": "Okmulgee County, Oklahoma"
-    },
     "openingHours": "Mo-Su 06:00-22:00",
     "priceRange": "$30-$150"
   };

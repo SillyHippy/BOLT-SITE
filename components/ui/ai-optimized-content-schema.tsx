@@ -100,7 +100,7 @@ export default function AIOptimizedContentSchema({
         "Skip Tracing",
         "Emergency Legal Services"
       ],
-      "serviceArea": {
+      "areaServed": {
         "@type": "State",
         "name": "Oklahoma"
       }

@@ -161,15 +161,6 @@ export function LocalSEOSchema({ city, service }: { city?: string; service?: str
     "openingHours": [
       "Mo-Su 00:00-23:59"
     ],
-    "serviceArea": {
-      "@type": "GeoCircle",
-      "geoMidpoint": {
-        "@type": "GeoCoordinates",
-        "latitude": "36.1540",
-        "longitude": "-95.9928"
-      },
-      "geoRadius": "50000"
-    },
     "priceRange": "$$",
     "aggregateRating": {
       "@type": "AggregateRating",

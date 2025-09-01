@@ -47,15 +47,6 @@ export default function BingYahooOptimization({
         "closes": "23:59"
       }
     },
-    "serviceArea": {
-      "@type": "GeoCircle",
-      "geoMidpoint": {
-        "@type": "GeoCoordinates",
-        "latitude": "36.1540",
-        "longitude": "-95.9928"
-      },
-      "geoRadius": `${serviceRadius} miles`
-    },
     "hasCredential": [
       {
         "@type": "EducationalOccupationalCredential",
