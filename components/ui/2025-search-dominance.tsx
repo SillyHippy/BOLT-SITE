@@ -62,7 +62,17 @@ export default function SearchDominance2025({
         'mainEntity': {
           '@type': 'LocalBusiness',
           'name': 'Just Legal Solutions',
-          'description': `Oklahoma's #1 ${businessType} serving ${location} with professional excellence.`
+          'description': `Oklahoma's #1 ${businessType} serving ${location} with professional excellence.`,
+          'address': {
+            '@type': 'PostalAddress',
+            'streetAddress': '564 E 138th PL',
+            'addressLocality': 'Glenpool',
+            'addressRegion': 'OK',
+            'postalCode': '74033',
+            'addressCountry': 'US'
+          },
+          'telephone': '(539) 367-6832',
+          'url': 'https://justlegalsolutions.org'
         }
       },
       
