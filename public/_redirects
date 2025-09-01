@@ -17,6 +17,5 @@
 /sand-springs-process-server /seo/sand-springs-process-server 301
 /owasso-process-server /seo/owasso-process-server 301
 
-# SPA fallback for client-side routing.
-# This is the correct rule for Next.js static sites.
-/* /index.html 200
+# Note: SPA fallback removed to prevent infinite loop
+# Next.js static export handles 404s via _not-found page
