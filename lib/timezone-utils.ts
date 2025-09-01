@@ -68,11 +68,11 @@ export const CST_BUSINESS_HOURS = {
 
 // Standard business hours for contact purposes
 export const CST_STANDARD_HOURS = {
-  monday: { opens: "08:00", closes: "18:00" },
-  tuesday: { opens: "08:00", closes: "18:00" },
-  wednesday: { opens: "08:00", closes: "18:00" },
-  thursday: { opens: "08:00", closes: "18:00" },
-  friday: { opens: "08:00", closes: "18:00" },
-  saturday: { opens: "10:00", closes: "14:00" },
-  sunday: { opens: "Emergency Only", closes: "Emergency Only" }
+  monday: { opens: "00:00", closes: "23:59" },
+  tuesday: { opens: "00:00", closes: "23:59" },
+  wednesday: { opens: "00:00", closes: "23:59" },
+  thursday: { opens: "00:00", closes: "23:59" },
+  friday: { opens: "00:00", closes: "23:59" },
+  saturday: { opens: "00:00", closes: "23:59" },
+  sunday: { opens: "00:00", closes: "23:59" }
 };

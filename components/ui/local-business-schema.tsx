@@ -164,7 +164,7 @@ export function LocalSEOSchema({ city, service }: { city?: string; service?: str
     "priceRange": "$$",
     "aggregateRating": {
       "@type": "AggregateRating",
-      "ratingValue": "4.8",
+      "ratingValue": "4.9",
       "reviewCount": "146"
     }
   };
