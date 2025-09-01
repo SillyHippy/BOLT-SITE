@@ -20,6 +20,14 @@ export default function BingYahooOptimization({
     "alternateName": ["JLS Process Server", "Just Legal Solutions Oklahoma"],
     "description": "Oklahoma's premier process serving company providing professional legal document delivery with 24/7 emergency service throughout the state",
     "url": "https://justlegalsolutions.org",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "564 E 138th PL",
+      "addressLocality": "Glenpool",
+      "addressRegion": "OK", 
+      "postalCode": "74033",
+      "addressCountry": "US"
+    },
     "sameAs": [
       "https://justlegalsolutions.org/services",
       "https://justlegalsolutions.org/tulsa-process-server",

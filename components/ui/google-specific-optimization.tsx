@@ -26,8 +26,10 @@ export default function GoogleSpecificOptimization({
     "email": "info@justlegalsolutions.org",
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "Tulsa",
-      "addressRegion": "Oklahoma", 
+      "streetAddress": "564 E 138th PL",
+      "addressLocality": "Glenpool",
+      "addressRegion": "OK",
+      "postalCode": "74033",
       "addressCountry": "US",
       "areaServed": serviceArea.map(area => ({
         "@type": "City",

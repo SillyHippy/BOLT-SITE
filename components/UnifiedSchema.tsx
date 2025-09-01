@@ -325,6 +325,10 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     '@type': 'Service',
     name: serviceDetails.name,
     description: serviceDetails.description,
+    address: {
+      '@type': 'PostalAddress',
+      ...organization.address
+    },
     provider: {
       '@id': 'https://justlegalsolutions.org/#organization'
     },

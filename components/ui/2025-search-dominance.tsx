@@ -105,6 +105,19 @@ export default function SearchDominance2025({
         'name': businessType,
         'description': `Leading ${businessType} provider in ${location} with same-day availability and professional excellence.`,
         
+        // Required address field
+        'address': {
+          '@type': 'PostalAddress',
+          'streetAddress': '564 E 138th PL',
+          'addressLocality': 'Glenpool',
+          'addressRegion': 'OK',
+          'postalCode': '74033',
+          'addressCountry': {
+            '@type': 'Country',
+            'name': 'US'
+          }
+        },
+        
         // Service area with enhanced coverage
         'areaServed': [
           {
