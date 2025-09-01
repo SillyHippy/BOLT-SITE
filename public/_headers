@@ -2,13 +2,11 @@
 
 # These security headers apply to ALL pages across your entire site
 /*
-  X-Frame-Options: DENY
   X-Content-Type-Options: nosniff
   X-XSS-Protection: 1; mode=block
-  Referrer-Policy: strict-origin-when-cross-origin
-  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://scripts.simpleanalyticscdn.com https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https: blob:; connect-src 'self' https://www.google-analytics.com https://queue.simpleanalyticscdn.com https://cloudflareinsights.com; frame-src 'self' https://www.google.com;
+  Referrer-Policy: unsafe-url
+  Content-Security-Policy: default-src 'self' 'unsafe-inline' 'unsafe-eval' data: https: http:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https: http:; style-src 'self' 'unsafe-inline' https: http:; font-src 'self' https: http: data:; img-src 'self' data: https: http: blob:; connect-src 'self' https: http: ws: wss:; frame-src 'self' https: http:;
   Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
-  Permissions-Policy: camera=(), microphone=(), geolocation=()
   X-Robots-Tag: index, follow
 
 # Cache CSS/JS files for 1 year because they have unique names (versioning)
