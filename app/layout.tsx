@@ -94,6 +94,13 @@ export const metadata: Metadata = {
   },
   verification: {
     google: 'your-google-verification-code', // Replace with actual code
+  },
+  alternates: {
+    languages: {
+      'en-US': 'https://justlegalsolutions.org/',
+      'en': 'https://justlegalsolutions.org/',
+      'x-default': 'https://justlegalsolutions.org/'
+    }
   }
 };
 
