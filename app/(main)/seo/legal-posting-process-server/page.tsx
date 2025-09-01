@@ -78,16 +78,14 @@ const postingData = {
 };
 
 export default function LegalPostingProcessServer() {
+  // Transform FAQ data to match UnifiedSchema format
+  const transformedFaqs = postingData.faqs.map(faq => ({
+    question: faq.q,
+    answer: typeof faq.a === 'string' ? faq.a : 'For a comprehensive overview of process serving requirements, legal tips, and updates across the state, visit our Ultimate Guide to Process Serving in Oklahoma at /ultimate-guide-process-serving-oklahoma.'
+  }));
+
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema) }}
-      />
       <div className="min-h-screen bg-gray-50 pt-16">
         <div className="bg-indigo-900 text-white">
           <div className="container mx-auto px-4 py-20 pt-12 text-center">
@@ -179,7 +177,7 @@ export default function LegalPostingProcessServer() {
         serviceName="Legal Posting Process Server"
         serviceDescription="Professional legal posting and public notice services throughout Oklahoma with expert process server support."
         serviceArea="Oklahoma"
-        priceRange="$60-$150"
+        priceRange="$30-$200"
         telephone="+1-539-367-6832"
         address={{
           streetAddress: "Statewide Service",
@@ -189,6 +187,7 @@ export default function LegalPostingProcessServer() {
           addressCountry: "US"
         }}
         reviewCount={146}
+        faqItems={transformedFaqs}
       />
     </>
   );

@@ -84,10 +84,6 @@ const sandSpringsData = {
 export default function SandSpringsProcessServerPage() {
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
       <div className="min-h-screen bg-gray-50 pt-16">
         <div className="bg-blue-900 text-white">
           <div className="container mx-auto px-4 py-20 pt-12 text-center">
@@ -209,11 +205,11 @@ export default function SandSpringsProcessServerPage() {
         serviceDetails={{
           name: "Sand Springs Process Server",
           description: "Professional process server in Sand Springs, Oklahoma providing legal document service with same-day service available.",
-          price: "$60-$150",
+          price: "$30-$200",
           areaServed: ["Sand Springs", "Tulsa County"],
           serviceType: ["Process Server", "Legal Document Service"]
         }}
-        priceRange="$60-$150"
+        priceRange="$30-$200"
         organization={{
           name: "Just Legal Solutions",
           address: {

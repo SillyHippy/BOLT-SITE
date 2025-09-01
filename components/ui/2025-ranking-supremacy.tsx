@@ -29,7 +29,7 @@ export default function RankingSupremacy2025({
         {/* Authority & Trust Signals */}
         <div className="authority-signals">
           <span data-authority="experience">Over 50 years combined experience</span>
-          <span data-authority="reviews">187+ verified five-star reviews</span>
+          <span data-authority="reviews">146+ verified five-star reviews</span>
           <span data-authority="license">Licensed & bonded in Oklahoma</span>
           <span data-authority="coverage">Statewide Oklahoma coverage</span>
           <span data-authority="speed">Fastest service in {location}</span>

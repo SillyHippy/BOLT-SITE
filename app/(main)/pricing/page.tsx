@@ -3,6 +3,7 @@ import React from 'react';
 import { Metadata } from 'next';
 import { CheckCircle, Truck } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
+import AIVoiceSupremacy from '@/components/ui/ai-voice-supremacy';
 
 export const metadata: Metadata = {
   title: 'Process Server Pricing Oklahoma - Just Legal Solutions | Affordable Rates Starting $30',
@@ -246,6 +247,92 @@ export default function PricingPage() {
           </div>
         </div>
       </section>
+      
+      {/* Enhanced 2025 Pricing Schema */}
+      <UnifiedSchema
+        pageType="service"
+        url="https://justlegalsolutions.org/pricing"
+        title="Process Server Pricing Oklahoma - Just Legal Solutions"
+        description="Transparent process server pricing in Oklahoma starting at $60. Same-day, rush, and standard service options."
+        hasOfferCatalog={{
+          name: "Process Serving Services",
+          itemListElement: [
+            {
+              name: "Standard Process Service",
+              description: "First service attempt within 5 business days",
+              price: "$60",
+              priceCurrency: "USD",
+              itemOffered: {
+                name: "Standard Process Service",
+                serviceType: "Process Serving"
+              }
+            },
+            {
+              name: "Rush Process Service", 
+              description: "Service attempt within 72 hours or sooner",
+              price: "$100",
+              priceCurrency: "USD",
+              itemOffered: {
+                name: "Rush Process Service",
+                serviceType: "Expedited Process Serving"
+              }
+            },
+            {
+              name: "Same-Day Rush Service",
+              description: "Emergency same-day service available",
+              price: "$150", 
+              priceCurrency: "USD",
+              itemOffered: {
+                name: "Same-Day Rush Service",
+                serviceType: "Emergency Process Serving"
+              }
+            },
+            {
+              name: "Specialty Service",
+              description: "Document filing, skip tracing, and specialized legal services",
+              price: "$75",
+              priceCurrency: "USD", 
+              itemOffered: {
+                name: "Specialty Legal Service",
+                serviceType: "Legal Document Services"
+              }
+            }
+          ]
+        }}
+        organizationDetails={{
+          name: "Just Legal Solutions",
+          url: "https://justlegalsolutions.org",
+          logo: "https://justlegalsolutions.org/email%20signature%20logo.png",
+          contactPoint: {
+            telephone: "(539) 367-6832",
+            email: "info@justlegalsolutions.org"
+          },
+          address: {
+            streetAddress: "564 E 138th PL",
+            addressLocality: "Glenpool",
+            addressRegion: "OK", 
+            postalCode: "74033",
+            addressCountry: "US"
+          }
+        }}
+        priceRange="$30-$200"
+        currenciesAccepted="USD"
+        paymentAccepted={["Cash", "Check", "Credit Card", "Online Payment"]}
+        aggregateRating={{
+          ratingValue: 4.9,
+          reviewCount: 146,
+          bestRating: 5,
+          worstRating: 1
+        }}
+      />
+      
+      {/* 2025 AI Voice Supremacy */}
+      <AIVoiceSupremacy 
+        businessName="Just Legal Solutions"
+        location="Tulsa, Oklahoma"
+        services={['Process Serving', 'Legal Document Delivery', 'Court Filing']}
+        phone="(539) 367-6832"
+      />
     </main>
     </>
   );

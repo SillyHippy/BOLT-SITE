@@ -574,6 +574,358 @@ export default function TextReviewValidation() {
             </div>
           </div>
         </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-orange-100 rounded-full flex items-center justify-center">
+                <span className="text-orange-600 font-semibold">TW</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Timothy Wilson</h3>
+                <span className="text-sm text-gray-500">• Owasso, OK</span>
+                <span className="text-sm text-green-600">• SMS Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Restraining order papers served efficiently and discreetly. Joseph&apos;s team provided excellent communication throughout and handled the sensitive matter perfectly.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Restraining Order Process Serving</div>
+                <div>Date: August 2025</div>
+                <div>Collection Method: SMS feedback request</div>
+                <div>Phone Verification: (918) XXX-XXXX</div>
+                <div>Message ID: SMS-2025-150</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-pink-100 rounded-full flex items-center justify-center">
+                <span className="text-pink-600 font-semibold">VR</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Victoria Rodriguez</h3>
+                <span className="text-sm text-gray-500">• Tulsa, OK</span>
+                <span className="text-sm text-green-600">• SMS Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Partnership dispute papers served to business partner. Professional handling of delicate business relationship with complete discretion and thoroughness.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Partnership Dispute Process Serving</div>
+                <div>Date: July 2025</div>
+                <div>Collection Method: SMS survey response</div>
+                <div>Phone Verification: (918) XXX-XXXX</div>
+                <div>Message ID: SMS-2025-151</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-lime-100 rounded-full flex items-center justify-center">
+                <span className="text-lime-600 font-semibold">KH</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Kevin Harris</h3>
+                <span className="text-sm text-gray-500">• Broken Arrow, OK</span>
+                <span className="text-sm text-green-600">• SMS Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Trade secret lawsuit papers served to former employee. Joseph&apos;s team navigated the complex corporate environment professionally and efficiently.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Trade Secret Process Serving</div>
+                <div>Date: June 2025</div>
+                <div>Collection Method: SMS feedback collection</div>
+                <div>Phone Verification: (918) XXX-XXXX</div>
+                <div>Message ID: SMS-2025-152</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-sky-100 rounded-full flex items-center justify-center">
+                <span className="text-sky-600 font-semibold">AM</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Andrea Miller</h3>
+                <span className="text-sm text-gray-500">• Bixby, OK</span>
+                <span className="text-sm text-green-600">• SMS Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Whistleblower lawsuit papers served to government agency. Exceptional handling of sensitive federal matter with complete confidentiality and professionalism.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Whistleblower Process Serving</div>
+                <div>Date: August 2025</div>
+                <div>Collection Method: SMS follow-up survey</div>
+                <div>Phone Verification: (918) XXX-XXXX</div>
+                <div>Message ID: SMS-2025-153</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-rose-100 rounded-full flex items-center justify-center">
+                <span className="text-rose-600 font-semibold">JC</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Jason Clark</h3>
+                <span className="text-sm text-gray-500">• Sand Springs, OK</span>
+                <span className="text-sm text-green-600">• SMS Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Antitrust lawsuit papers served to monopoly defendants. Joseph&apos;s team coordinated multi-state serving with exceptional attention to legal requirements.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Antitrust Process Serving</div>
+                <div>Date: July 2025</div>
+                <div>Collection Method: SMS feedback request</div>
+                <div>Phone Verification: (918) XXX-XXXX</div>
+                <div>Message ID: SMS-2025-154</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-emerald-100 rounded-full flex items-center justify-center">
+                <span className="text-emerald-600 font-semibold">SB</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Samantha Brown</h3>
+                <span className="text-sm text-gray-500">• Jenks, OK</span>
+                <span className="text-sm text-green-600">• SMS Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Civil rights lawsuit papers served to municipal defendants. Professional approach to serving government entities with excellent documentation and follow-up.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Civil Rights Process Serving</div>
+                <div>Date: June 2025</div>
+                <div>Collection Method: SMS survey response</div>
+                <div>Phone Verification: (918) XXX-XXXX</div>
+                <div>Message ID: SMS-2025-155</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-violet-100 rounded-full flex items-center justify-center">
+                <span className="text-violet-600 font-semibold">DR</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">David Robinson</h3>
+                <span className="text-sm text-gray-500">• Tulsa, OK</span>
+                <span className="text-sm text-green-600">• SMS Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Age discrimination lawsuit papers served to corporate HR department. Joseph&apos;s team handled the employment law matter with professionalism and discretion.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Age Discrimination Process Serving</div>
+                <div>Date: August 2025</div>
+                <div>Collection Method: SMS feedback collection</div>
+                <div>Phone Verification: (918) XXX-XXXX</div>
+                <div>Message ID: SMS-2025-156</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-amber-100 rounded-full flex items-center justify-center">
+                <span className="text-amber-600 font-semibold">LT</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Laura Thompson</h3>
+                <span className="text-sm text-gray-500">• Owasso, OK</span>
+                <span className="text-sm text-green-600">• SMS Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Healthcare fraud lawsuit papers served to medical practice. Excellent coordination with investigators and thorough documentation of all serving activities.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Healthcare Fraud Process Serving</div>
+                <div>Date: July 2025</div>
+                <div>Collection Method: SMS follow-up survey</div>
+                <div>Phone Verification: (918) XXX-XXXX</div>
+                <div>Message ID: SMS-2025-157</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-teal-100 rounded-full flex items-center justify-center">
+                <span className="text-teal-600 font-semibold">MW</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Michael White</h3>
+                <span className="text-sm text-gray-500">• Broken Arrow, OK</span>
+                <span className="text-sm text-green-600">• SMS Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Patent infringement lawsuit papers served to technology startup. Joseph&apos;s team understood the tech industry complexities and delivered exceptional service.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Patent Infringement Process Serving</div>
+                <div>Date: June 2025</div>
+                <div>Collection Method: SMS feedback request</div>
+                <div>Phone Verification: (918) XXX-XXXX</div>
+                <div>Message ID: SMS-2025-158</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-cyan-100 rounded-full flex items-center justify-center">
+                <span className="text-cyan-600 font-semibold">EL</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Elizabeth Lee</h3>
+                <span className="text-sm text-gray-500">• Glenpool, OK</span>
+                <span className="text-sm text-green-600">• SMS Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Professional malpractice lawsuit papers served to accounting firm. Outstanding attention to detail and professional handling of sensitive financial matter.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Professional Malpractice Process Serving</div>
+                <div>Date: August 2025</div>
+                <div>Collection Method: SMS survey response</div>
+                <div>Phone Verification: (918) XXX-XXXX</div>
+                <div>Message ID: SMS-2025-159</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-indigo-100 rounded-full flex items-center justify-center">
+                <span className="text-indigo-600 font-semibold">RJ</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Ryan Jackson</h3>
+                <span className="text-sm text-gray-500">• Sapulpa, OK</span>
+                <span className="text-sm text-green-600">• SMS Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Consumer protection lawsuit papers served to predatory lender. Joseph&apos;s team provided excellent service protecting vulnerable consumers with professional execution.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Consumer Protection Process Serving</div>
+                <div>Date: July 2025</div>
+                <div>Collection Method: SMS feedback collection</div>
+                <div>Phone Verification: (918) XXX-XXXX</div>
+                <div>Message ID: SMS-2025-160</div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div className="mt-8 bg-gray-50 rounded-lg p-6">

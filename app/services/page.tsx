@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Script from 'next/script';
 import { ChevronDown } from 'lucide-react';
+import UnifiedSchema from '@/components/UnifiedSchema';
 import GoogleSpecificOptimization from '@/components/ui/google-specific-optimization';
 import BingYahooOptimization from '@/components/ui/bing-yahoo-optimization';
 import DuckDuckGoOptimization from '@/components/ui/duckduckgo-optimization';
@@ -80,9 +81,11 @@ export default function ServicesPage() {
 
   return (
     <>
-      <Script id="services-schema" type="application/ld+json">
-        {`
-          {
+      <script 
+        id="services-schema" 
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "ItemList",
             "itemListElement": [
@@ -123,9 +126,9 @@ export default function ServicesPage() {
                 "description": "Accurate and efficient data entry services to manage your information seamlessly across various platforms."
               }
             ]
-          }
-        `}
-      </Script>
+          })
+        }}
+      />
 
       <main>
         {/* Hero Section - Tagline Updated */}
@@ -271,6 +274,23 @@ export default function ServicesPage() {
         { name: "Services", url: "/services" }
       ]} />
       
+      <UnifiedSchema
+        pageType="service"
+        url="https://justlegalsolutions.org/services"
+        title="Business Solutions & Executive Support Services | Just Legal Solutions"
+        description="Professional executive assistant services including event coordination, HR & payroll, travel management, customer service, and data entry solutions in Oklahoma. Starting at $15/hr."
+        serviceDetails={{
+          name: "Business Solutions & Executive Support Services",
+          description: "Executive assistant services including event coordination, HR & payroll, travel management, customer service, and data entry solutions",
+          price: "$15-$50",
+          areaServed: ["Oklahoma", "Tulsa", "Broken Arrow", "Sapulpa"],
+          serviceType: ["Executive Support", "Event Coordination", "HR & Payroll", "Travel Management"]
+        }}
+        breadcrumbs={[
+          { name: "Home", item: "https://justlegalsolutions.org/" },
+          { name: "Services", item: "https://justlegalsolutions.org/services" }
+        ]}
+      />
       
       <PerformanceSchema 
         pageName="Business Solutions & Executive Services - Oklahoma"

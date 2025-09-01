@@ -14,7 +14,7 @@ export default function ReviewAggregateSchema() {
         "url": "https://justlegalsolutions.org"
       },
       "ratingValue": "4.9",
-      "ratingCount": "131",
+      "ratingCount": "146",
       "reviewCount": "146",
       "bestRating": "5",
       "worstRating": "1",

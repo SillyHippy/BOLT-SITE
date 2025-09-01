@@ -133,7 +133,7 @@ export default function ReviewWidget() {
             What Our Clients Say
           </h2>
           <p className="text-base text-gray-600">
-            127+ verified reviews from satisfied clients across Oklahoma
+            146+ verified reviews from satisfied clients across Oklahoma
           </p>
           <div className="mt-3 flex flex-wrap justify-center gap-2 text-xs text-gray-500">
             <span className="bg-gray-100 px-2 py-1 rounded-full">
@@ -227,7 +227,7 @@ export default function ReviewWidget() {
           {/* Review Summary Stats */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
             <div className="bg-white rounded-lg p-4 text-center shadow-md">
-              <div className="text-2xl font-bold text-green-600 mb-1">131+</div>
+              <div className="text-2xl font-bold text-green-600 mb-1">146+</div>
               <div className="text-sm text-gray-600">Total Reviews</div>
             </div>
             <div className="bg-white rounded-lg p-4 text-center shadow-md">

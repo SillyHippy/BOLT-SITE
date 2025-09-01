@@ -493,7 +493,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     localBusinessSchema.aggregateRating = {
       '@type': 'AggregateRating',
       'ratingValue': aggregateRating.ratingValue ? aggregateRating.ratingValue.toString() : '4.9',
-      'reviewCount': '187', // Updated for 2025 dominance
+      'reviewCount': aggregateRating.reviewCount ? aggregateRating.reviewCount.toString() : '146',
       'bestRating': aggregateRating.bestRating ? aggregateRating.bestRating.toString() : '5',
       'worstRating': aggregateRating.worstRating ? aggregateRating.worstRating.toString() : '1',
       'description': 'Verified reviews from Google, Yelp, Facebook, and client testimonials'

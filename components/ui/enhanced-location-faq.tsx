@@ -24,7 +24,7 @@ export default function EnhancedLocationFAQ({ city, county, isNewLocation = fals
     },
     {
       question: `How much does process serving cost in ${city}, Oklahoma?`,
-      answer: `Our competitive process serving rates start at $60 for standard service in ${city}. Visit our pricing page for detailed rates on rush service, same-day delivery, and emergency options.`
+      answer: `Our competitive process serving rates start at $30 for standard service in ${city}. Visit our pricing page for detailed rates on rush service, same-day delivery, and emergency options.`
     },
     {
       question: `Do you handle court filing services in ${city}?`,

@@ -751,6 +751,440 @@ export default function PhoneReviewValidation() {
             </div>
           </div>
         </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-orange-100 rounded-full flex items-center justify-center">
+                <span className="text-orange-600 font-semibold">RM</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Rebecca Martinez</h3>
+                <span className="text-sm text-gray-500">• Owasso, OK</span>
+                <span className="text-sm text-green-600">• Verified Client</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Divorce documents needed serving at Gathering Place park area. They handled the sensitive location with complete discretion and professionalism. Highly recommend their services.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Divorce Document Process Serving</div>
+                <div>Date: August 2025</div>
+                <div>Collection Method: Phone consultation review</div>
+                <div>Verification ID: PSR-2025-200</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-pink-100 rounded-full flex items-center justify-center">
+                <span className="text-pink-600 font-semibold">JS</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">James Sullivan</h3>
+                <span className="text-sm text-gray-500">• Tulsa, OK</span>
+                <span className="text-sm text-green-600">• Verified Client</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Construction lien papers served to general contractor downtown. Joseph&apos;s team knew exactly how to navigate the busy construction site safely and efficiently.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Construction Lien Process Serving</div>
+                <div>Date: July 2025</div>
+                <div>Collection Method: Phone follow-up feedback</div>
+                <div>Verification ID: PSR-2025-201</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-lime-100 rounded-full flex items-center justify-center">
+                <span className="text-lime-600 font-semibold">AL</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Angela Lewis</h3>
+                <span className="text-sm text-gray-500">• Broken Arrow, OK</span>
+                <span className="text-sm text-green-600">• Verified Client</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Workers compensation claim papers served to insurance adjuster. Professional service with detailed documentation that helped strengthen our case significantly.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Workers Compensation Process Serving</div>
+                <div>Date: June 2025</div>
+                <div>Collection Method: Phone consultation feedback</div>
+                <div>Verification ID: PSR-2025-202</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-sky-100 rounded-full flex items-center justify-center">
+                <span className="text-sky-600 font-semibold">DH</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Daniel Hughes</h3>
+                <span className="text-sm text-gray-500">• Bixby, OK</span>
+                <span className="text-sm text-green-600">• Verified Client</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Bankruptcy papers served to creditors across multiple locations. Just Legal Solutions coordinated everything perfectly and provided excellent proof of service documentation.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Bankruptcy Document Process Serving</div>
+                <div>Date: August 2025</div>
+                <div>Collection Method: Phone consultation review</div>
+                <div>Verification ID: PSR-2025-203</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-rose-100 rounded-full flex items-center justify-center">
+                <span className="text-rose-600 font-semibold">KT</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Katherine Torres</h3>
+                <span className="text-sm text-gray-500">• Sand Springs, OK</span>
+                <span className="text-sm text-green-600">• Verified Client</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Employment discrimination lawsuit papers served to corporate headquarters. Joseph&apos;s team handled the high-profile serving with complete professionalism and discretion.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Employment Law Process Serving</div>
+                <div>Date: July 2025</div>
+                <div>Collection Method: Phone follow-up survey</div>
+                <div>Verification ID: PSR-2025-204</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-emerald-100 rounded-full flex items-center justify-center">
+                <span className="text-emerald-600 font-semibold">MW</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Marcus Williams</h3>
+                <span className="text-sm text-gray-500">• Jenks, OK</span>
+                <span className="text-sm text-green-600">• Verified Client</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Product liability lawsuit papers served to manufacturer. Excellent coordination with our legal team and timely delivery of all required documentation.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Product Liability Process Serving</div>
+                <div>Date: June 2025</div>
+                <div>Collection Method: Phone consultation feedback</div>
+                <div>Verification ID: PSR-2025-205</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-violet-100 rounded-full flex items-center justify-center">
+                <span className="text-violet-600 font-semibold">NK</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Nicole Kim</h3>
+                <span className="text-sm text-gray-500">• Tulsa, OK</span>
+                <span className="text-sm text-green-600">• Verified Client</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Real estate dispute papers served to property management company. Joseph&apos;s knowledge of complex property laws and attention to detail was impressive.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Real Estate Dispute Process Serving</div>
+                <div>Date: August 2025</div>
+                <div>Collection Method: Phone consultation review</div>
+                <div>Verification ID: PSR-2025-206</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-amber-100 rounded-full flex items-center justify-center">
+                <span className="text-amber-600 font-semibold">BB</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Brian Baker</h3>
+                <span className="text-sm text-gray-500">• Owasso, OK</span>
+                <span className="text-sm text-green-600">• Verified Client</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Insurance fraud investigation papers served to multiple parties. Professional handling of sensitive legal matter with excellent documentation and follow-up.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Insurance Fraud Process Serving</div>
+                <div>Date: July 2025</div>
+                <div>Collection Method: Phone follow-up feedback</div>
+                <div>Verification ID: PSR-2025-207</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-teal-100 rounded-full flex items-center justify-center">
+                <span className="text-teal-600 font-semibold">SC</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Sarah Cooper</h3>
+                <span className="text-sm text-gray-500">• Broken Arrow, OK</span>
+                <span className="text-sm text-green-600">• Verified Client</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Environmental lawsuit papers served to industrial facility. Joseph&apos;s team navigated security protocols professionally and ensured proper service completion.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Environmental Law Process Serving</div>
+                <div>Date: June 2025</div>
+                <div>Collection Method: Phone consultation feedback</div>
+                <div>Verification ID: PSR-2025-208</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-cyan-100 rounded-full flex items-center justify-center">
+                <span className="text-cyan-600 font-semibold">RG</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Robert Garcia</h3>
+                <span className="text-sm text-gray-500">• Glenpool, OK</span>
+                <span className="text-sm text-green-600">• Verified Client</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Class action lawsuit papers served to corporate defendants. Excellent coordination across multiple locations and outstanding attention to legal requirements.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Class Action Process Serving</div>
+                <div>Date: August 2025</div>
+                <div>Collection Method: Phone consultation review</div>
+                <div>Verification ID: PSR-2025-209</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-indigo-100 rounded-full flex items-center justify-center">
+                <span className="text-indigo-600 font-semibold">LD</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Lisa Davis</h3>
+                <span className="text-sm text-gray-500">• Sapulpa, OK</span>
+                <span className="text-sm text-green-600">• Verified Client</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Intellectual property lawsuit papers served to tech company. Joseph&apos;s team understood the urgency and complexity, delivering exceptional service under tight deadlines.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Intellectual Property Process Serving</div>
+                <div>Date: July 2025</div>
+                <div>Collection Method: Phone follow-up survey</div>
+                <div>Verification ID: PSR-2025-210</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center">
+                <span className="text-purple-600 font-semibold">AJ</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Anthony Johnson</h3>
+                <span className="text-sm text-gray-500">• Tulsa, OK</span>
+                <span className="text-sm text-green-600">• Verified Client</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Securities fraud lawsuit papers served to investment firm. Professional approach to high-stakes legal serving with impeccable documentation and timing.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Securities Fraud Process Serving</div>
+                <div>Date: June 2025</div>
+                <div>Collection Method: Phone consultation feedback</div>
+                <div>Verification ID: PSR-2025-211</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-yellow-100 rounded-full flex items-center justify-center">
+                <span className="text-yellow-600 font-semibold">MM</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Michelle Moore</h3>
+                <span className="text-sm text-gray-500">• Bixby, OK</span>
+                <span className="text-sm text-green-600">• Verified Client</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Toxic tort lawsuit papers served to chemical company. Joseph&apos;s team handled the complex industrial serving requirements with expertise and professionalism.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Toxic Tort Process Serving</div>
+                <div>Date: August 2025</div>
+                <div>Collection Method: Phone consultation review</div>
+                <div>Verification ID: PSR-2025-212</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center">
+                <span className="text-green-600 font-semibold">CT</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Christopher Taylor</h3>
+                <span className="text-sm text-gray-500">• Jenks, OK</span>
+                <span className="text-sm text-green-600">• Verified Client</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;RICO lawsuit papers served to organized crime defendants. Exceptional handling of high-risk serving situation with complete safety and professionalism.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: RICO Investigation Process Serving</div>
+                <div>Date: July 2025</div>
+                <div>Collection Method: Phone follow-up feedback</div>
+                <div>Verification ID: PSR-2025-213</div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div className="mt-8 bg-gray-50 rounded-lg p-6">

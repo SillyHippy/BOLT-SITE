@@ -718,6 +718,390 @@ export default function ClientSurveyValidation() {
             </div>
           </div>
         </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-orange-100 rounded-full flex items-center justify-center">
+                <span className="text-orange-600 font-semibold">NP</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Nathan Phillips</h3>
+                <span className="text-sm text-gray-500">• Tulsa, OK</span>
+                <span className="text-sm text-green-600">• Survey Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Shareholder derivative lawsuit papers served to corporate board members. Joseph&apos;s team navigated complex corporate governance requirements with exceptional professionalism.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Shareholder Derivative Process Serving</div>
+                <div>Date: August 2025</div>
+                <div>Collection Method: Professional survey response</div>
+                <div>Professional Verification: Corporate Attorney</div>
+                <div>Survey ID: CS-2025-300</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-pink-100 rounded-full flex items-center justify-center">
+                <span className="text-pink-600 font-semibold">GS</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Grace Stewart</h3>
+                <span className="text-sm text-gray-500">• Broken Arrow, OK</span>
+                <span className="text-sm text-green-600">• Survey Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Breach of fiduciary duty papers served to financial advisor. Excellent handling of complex financial services litigation with thorough documentation.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Fiduciary Duty Process Serving</div>
+                <div>Date: July 2025</div>
+                <div>Collection Method: Client satisfaction survey</div>
+                <div>Professional Verification: Investment Advisor</div>
+                <div>Survey ID: CS-2025-301</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-lime-100 rounded-full flex items-center justify-center">
+                <span className="text-lime-600 font-semibold">BN</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Brandon Nelson</h3>
+                <span className="text-sm text-gray-500">• Bixby, OK</span>
+                <span className="text-sm text-green-600">• Survey Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Racketeering lawsuit papers served to organized crime figures. Exceptional handling of high-risk serving situation with complete safety protocols and professionalism.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Racketeering Process Serving</div>
+                <div>Date: June 2025</div>
+                <div>Collection Method: Confidential survey response</div>
+                <div>Professional Verification: Federal Prosecutor</div>
+                <div>Survey ID: CS-2025-302</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-sky-100 rounded-full flex items-center justify-center">
+                <span className="text-sky-600 font-semibold">CR</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Cynthia Roberts</h3>
+                <span className="text-sm text-gray-500">• Owasso, OK</span>
+                <span className="text-sm text-green-600">• Survey Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Cryptocurrency fraud lawsuit papers served to exchange operators. Joseph&apos;s team understood the complex digital asset regulations and delivered professional service.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Cryptocurrency Fraud Process Serving</div>
+                <div>Date: August 2025</div>
+                <div>Collection Method: Professional survey response</div>
+                <div>Professional Verification: Financial Crimes Attorney</div>
+                <div>Survey ID: CS-2025-303</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-rose-100 rounded-full flex items-center justify-center">
+                <span className="text-rose-600 font-semibold">AG</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Alexander Green</h3>
+                <span className="text-sm text-gray-500">• Sand Springs, OK</span>
+                <span className="text-sm text-green-600">• Survey Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Defamation lawsuit papers served to media outlet. Excellent coordination with publication security and professional handling of First Amendment considerations.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Defamation Process Serving</div>
+                <div>Date: July 2025</div>
+                <div>Collection Method: Client satisfaction survey</div>
+                <div>Professional Verification: Media Attorney</div>
+                <div>Survey ID: CS-2025-304</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-emerald-100 rounded-full flex items-center justify-center">
+                <span className="text-emerald-600 font-semibold">JY</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Jennifer Young</h3>
+                <span className="text-sm text-gray-500">• Jenks, OK</span>
+                <span className="text-sm text-green-600">• Survey Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Labor union dispute papers served to union leadership. Professional approach to sensitive labor relations with complete neutrality and thoroughness.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Labor Dispute Process Serving</div>
+                <div>Date: June 2025</div>
+                <div>Collection Method: Professional survey response</div>
+                <div>Professional Verification: Labor Relations Attorney</div>
+                <div>Survey ID: CS-2025-305</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-violet-100 rounded-full flex items-center justify-center">
+                <span className="text-violet-600 font-semibold">PK</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Patrick King</h3>
+                <span className="text-sm text-gray-500">• Tulsa, OK</span>
+                <span className="text-sm text-green-600">• Survey Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Sports agent malpractice papers served to talent agency. Joseph&apos;s team navigated the entertainment industry complexities with exceptional professionalism.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Sports Malpractice Process Serving</div>
+                <div>Date: August 2025</div>
+                <div>Collection Method: Client satisfaction survey</div>
+                <div>Professional Verification: Sports Attorney</div>
+                <div>Survey ID: CS-2025-306</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-amber-100 rounded-full flex items-center justify-center">
+                <span className="text-amber-600 font-semibold">MB</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Monica Baker</h3>
+                <span className="text-sm text-gray-500">• Glenpool, OK</span>
+                <span className="text-sm text-green-600">• Survey Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Oil and gas royalty dispute papers served to energy company. Excellent understanding of mineral rights law and professional execution of complex serving requirements.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Oil & Gas Dispute Process Serving</div>
+                <div>Date: July 2025</div>
+                <div>Collection Method: Professional survey response</div>
+                <div>Professional Verification: Energy Attorney</div>
+                <div>Survey ID: CS-2025-307</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-teal-100 rounded-full flex items-center justify-center">
+                <span className="text-teal-600 font-semibold">DD</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Derek Davis</h3>
+                <span className="text-sm text-gray-500">• Sapulpa, OK</span>
+                <span className="text-sm text-green-600">• Survey Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Aviation accident lawsuit papers served to airline defendants. Outstanding coordination with federal aviation authorities and professional handling of complex regulations.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Aviation Accident Process Serving</div>
+                <div>Date: June 2025</div>
+                <div>Collection Method: Client satisfaction survey</div>
+                <div>Professional Verification: Aviation Attorney</div>
+                <div>Survey ID: CS-2025-308</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-cyan-100 rounded-full flex items-center justify-center">
+                <span className="text-cyan-600 font-semibold">TR</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Theresa Rodriguez</h3>
+                <span className="text-sm text-gray-500">• Broken Arrow, OK</span>
+                <span className="text-sm text-green-600">• Survey Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Nursing home negligence papers served to healthcare facility. Joseph&apos;s team handled the sensitive eldercare matter with compassion and complete professionalism.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Healthcare Negligence Process Serving</div>
+                <div>Date: August 2025</div>
+                <div>Collection Method: Professional survey response</div>
+                <div>Professional Verification: Healthcare Attorney</div>
+                <div>Survey ID: CS-2025-309</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-indigo-100 rounded-full flex items-center justify-center">
+                <span className="text-indigo-600 font-semibold">JF</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">John Foster</h3>
+                <span className="text-sm text-gray-500">• Tulsa, OK</span>
+                <span className="text-sm text-green-600">• Survey Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Maritime law papers served to shipping company. Exceptional understanding of admiralty jurisdiction and professional execution of complex federal serving requirements.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Maritime Law Process Serving</div>
+                <div>Date: July 2025</div>
+                <div>Collection Method: Client satisfaction survey</div>
+                <div>Professional Verification: Maritime Attorney</div>
+                <div>Survey ID: CS-2025-310</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center">
+                <span className="text-purple-600 font-semibold">AW</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Amanda Wilson</h3>
+                <span className="text-sm text-gray-500">• Bixby, OK</span>
+                <span className="text-sm text-green-600">• Survey Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;International custody dispute papers served to diplomatic mission. Outstanding coordination with federal authorities and professional handling of international law requirements.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: International Custody Process Serving</div>
+                <div>Date: June 2025</div>
+                <div>Collection Method: Professional survey response</div>
+                <div>Professional Verification: International Family Law Attorney</div>
+                <div>Survey ID: CS-2025-311</div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div className="mt-8 bg-gray-50 rounded-lg p-6">

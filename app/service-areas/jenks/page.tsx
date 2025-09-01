@@ -192,10 +192,21 @@ export default function JenksProcessServer() {
           breadcrumbItems={breadcrumbItems}
           location={{
             name: "Jenks",
-            state: "Oklahoma",
+            state: "Oklahoma", 
             zipCode: "74037"
           }}
           services={["Process Serving", "Legal Document Delivery", "Court Filing Services", "Skip Tracing", "Emergency Rush Service", "GPS Tracked Delivery", "24/7 Emergency Service"]}
+          faqItems={[
+            ...jenksServiceFAQs,
+            ...jenksBusinessFAQs,
+            ...jenksLegalFAQs,
+            ...jenksLocalFAQs
+          ]}
+          priceRange="$30-$200"
+          aggregateRating={{
+            ratingValue: 4.9,
+            reviewCount: 146
+          }}
         />
 
         {/* Navigation Breadcrumbs */}
@@ -223,30 +234,6 @@ export default function JenksProcessServer() {
             </ol>
           </div>
         </nav>
-
-        {/* FAQ Structured Data */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "FAQPage",
-              "mainEntity": [
-                ...jenksServiceFAQs,
-                ...jenksBusinessFAQs,
-                ...jenksLegalFAQs,
-                ...jenksLocalFAQs
-              ].map((faq) => ({
-                "@type": "Question",
-                "name": faq.question,
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": faq.answer
-                }
-              }))
-            })
-          }}
-        />
 
         {/* Jenks Local Landmarks & Expertise */}
         <section className="bg-gradient-to-r from-blue-600 to-slate-700 text-white py-16">

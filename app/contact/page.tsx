@@ -63,6 +63,7 @@ import BingYahooOptimization from '@/components/ui/bing-yahoo-optimization';
 import DuckDuckGoOptimization from '@/components/ui/duckduckgo-optimization';
 import SearchEngineUniversalOptimization from '@/components/ui/search-engine-universal-optimization';
 import EnhancedBreadcrumbSchema from '@/components/ui/enhanced-breadcrumb-schema';
+import AIVoiceSupremacy from '@/components/ui/ai-voice-supremacy';
 
 export default function ContactPage() {
   return (

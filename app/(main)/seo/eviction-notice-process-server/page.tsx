@@ -125,7 +125,7 @@ export default function EvictionNoticeProcessServer() {
         serviceDetails={{
           name: "Eviction Notice Process Server",
           description: "Fast, professional delivery of all eviction notices and landlord-tenant documents in Tulsa County.",
-          price: "$60",
+          price: "$30-$200",
           areaServed: ["Tulsa", "Broken Arrow", "Bixby", "Jenks", "Owasso", "Sand Springs", "Glenpool", "Sapulpa"],
           serviceType: ["Eviction Notice Service", "Landlord-Tenant Document Delivery", "Notice to Quit Service"]
         }}
@@ -138,14 +138,6 @@ export default function EvictionNoticeProcessServer() {
           question: faq.q,
           answer: typeof faq.a === 'string' ? faq.a : 'For more information, visit our website.'
         }))}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema) }}
       />
       <div className="min-h-screen bg-gray-50 pt-16">
         <div className="bg-red-800 text-white">

@@ -93,28 +93,34 @@ const bartlesvilleFAQs = [
 ];
 
 export default function BartlesvilleProcessServer() {
+  const breadcrumbItems = [
+    { name: 'Home', url: '/' },
+    { name: 'Service Areas', url: '/service-areas' },
+    { name: 'Bartlesville', url: '/service-areas/bartlesville' }
+  ];
+
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar />
       <main className="pt-14 flex-grow">
-        {/* FAQ Structured Data */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": bartlesvilleFAQs.map((faq) => ({
-              "@type": "Question",
-              "name": faq.question,
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": faq.answer
-              }
-            }))
-          })
-        }}
-      />
+        <UnifiedSchema 
+          pageType="service"
+          title="Just Legal Solutions - Bartlesville"
+          description="Professional process serving in Bartlesville, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service"
+          url="https://justlegalsolutions.org/service-areas/bartlesville"
+          breadcrumbItems={[
+            { name: 'Home', url: '/' },
+            { name: 'Service Areas', url: '/service-areas' },
+            { name: 'Bartlesville', url: '/service-areas/bartlesville' }
+          ]}
+          location={{
+            name: "Bartlesville",
+            state: "Oklahoma",
+            zipCode: "74003"
+          }}
+          services={["Process Serving", "Legal Document Delivery", "Court Filing Services", "Skip Tracing", "Emergency Rush Service", "GPS Tracked Delivery", "24/7 Emergency Service"]}
+          faqItems={bartlesvilleFAQs}
+        />
 
       <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-slate-100">
         {/* Hero Section */}

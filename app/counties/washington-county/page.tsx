@@ -121,7 +121,7 @@ export default function WashingtonCountyProcessServer() {
             state: "Oklahoma"
           }
         ]}
-        priceRange="$60-$150"
+        priceRange="$30-$200"
         telephone="+1-539-367-6832"
         address={{
           streetAddress: "County-wide Service",
