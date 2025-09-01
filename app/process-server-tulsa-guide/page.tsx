@@ -37,6 +37,8 @@ export const metadata: Metadata = {
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
+  "@id": canonicalUrl,
+  "url": canonicalUrl,
   "headline": "Complete Guide to Process Server Selection in Tulsa: 2025 Edition",
   "description": "Your complete resource for selecting, hiring, and working with professional process servers in Tulsa County. Learn about Oklahoma laws, pricing, and best practices for 2025.",
   "image": [

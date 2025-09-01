@@ -8,7 +8,9 @@ export default function ServiceSchema() {
     "description": "Professional legal document delivery and process serving throughout Tulsa County, Oklahoma.",
     "provider": {
       "@type": "LocalBusiness",
+      "@id": "https://justlegalsolutions.org/#organization",
       "name": "Just Legal Solutions",
+      "url": "https://justlegalsolutions.org",
       "telephone": "(539) 367-6832",
       "address": {
         "@type": "PostalAddress",

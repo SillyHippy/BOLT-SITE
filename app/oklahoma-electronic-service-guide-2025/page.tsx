@@ -33,9 +33,13 @@ export const metadata: Metadata = {
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
+  "@id": canonicalUrl,
+  "url": canonicalUrl,
   "headline": "Roadmap to Electronic Service in Oklahoma: When Email & E-Filing Are Permitted",
   "description": "Complete 2025 guide to electronic service in Oklahoma including email service requirements, e-filing protocols, and court acceptance procedures.",
-  "image": [],
+  "image": [
+    "https://justlegalsolutions.org/images/oklahoma-electronic-filing-guide.png"
+  ],
   "author": {
     "@type": "Person",
     "name": "JLS Legal Solutions"
@@ -45,7 +49,7 @@ const articleSchema = {
     "name": "Just Legal Solutions",
     "logo": {
       "@type": "ImageObject",
-      "url": "/images/jls-logo.webp"
+      "url": "https://justlegalsolutions.org/images/jls-logo.webp"
     }
   },
   "datePublished": "2025-08-14",

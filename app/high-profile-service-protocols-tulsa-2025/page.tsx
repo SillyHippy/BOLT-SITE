@@ -49,10 +49,12 @@ export const metadata: Metadata = {
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
+  "@id": canonicalUrl,
+  "url": canonicalUrl,
   "headline": "Serving High-Profile Defendants in Tulsa: Privacy & Security Protocols",
   "description": "Expert strategies for serving high-profile defendants in Tulsa with enhanced privacy protocols, security measures, and legal compliance in 2025.",
   "image": [
-    "/images/Process server at gated community entrance.png"
+    "https://justlegalsolutions.org/images/Process server at gated community entrance.png"
   ],
   "author": {
     "@type": "Person",
@@ -63,7 +65,7 @@ const articleSchema = {
     "name": "Just Legal Solutions",
     "logo": {
       "@type": "ImageObject",
-      "url": "/images/jls-logo.webp"
+      "url": "https://justlegalsolutions.org/images/jls-logo.webp"
     }
   },
   "datePublished": "2025-08-14",

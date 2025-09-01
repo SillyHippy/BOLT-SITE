@@ -47,34 +47,34 @@ export const metadata: Metadata = {
 };
 
 const articleSchema = {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Complete AI-Powered Skip Tracing Authority Guide for Oklahoma Process Servers 2025",
-  "description": "This comprehensive guide examines cutting-edge AI technologies, advanced database integration, machine learning algorithms, and 2025 SEO optimization strategies that transform traditional skip tracing into a precise science, dramatically improving service success rates.",
-  "image": [
-    "/images/skip-tracing-investigation-services.png",
-    "/images/oklahoma-licensed-bonded-process-server-badges.png",
-    "/images/Technology legal compliance flowchart.png"
-  ],
-  "author": {
-    "@type": "Organization",
-    "name": "Just Legal Solutions Team",
-    "url": "https://justlegalsolutions.org"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Just Legal Solutions",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "/images/jls-logo.webp"
-    }
-  },
-  "datePublished": "2025-08-27",
-  "dateModified": "2025-08-27",
-  "mainEntityOfPage": canonicalUrl
-};
-
-const skipTracingSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": canonicalUrl,
+  "url": canonicalUrl,
+  "headline": "Complete AI-Powered Skip Tracing Authority Guide for Oklahoma Process Servers 2025",
+  "description": "This comprehensive guide examines cutting-edge AI technologies, advanced database integration, machine learning algorithms, and 2025 SEO optimization strategies that transform traditional skip tracing into a precise science, dramatically improving service success rates.",
+  "image": [
+    "https://justlegalsolutions.org/images/skip-tracing-investigation-services.png",
+    "https://justlegalsolutions.org/images/oklahoma-licensed-bonded-process-server-badges.png",
+    "https://justlegalsolutions.org/images/Technology legal compliance flowchart.png"
+  ],
+  "author": {
+    "@type": "Organization",
+    "name": "Just Legal Solutions Team",
+    "url": "https://justlegalsolutions.org"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Just Legal Solutions",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://justlegalsolutions.org/images/jls-logo.webp"
+    }
+  },
+  "datePublished": "2025-08-27",
+  "dateModified": "2025-08-27",
+  "mainEntityOfPage": canonicalUrl
+};const skipTracingSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
   "name": "AI-Powered Skip Tracing Services",

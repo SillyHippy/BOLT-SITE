@@ -48,10 +48,12 @@ export const metadata: Metadata = {
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
+  "@id": canonicalUrl,
+  "url": canonicalUrl,
   "headline": "Top 10 Process Serving Mistakes That Can Cost You Your Case",
   "description": "Avoid costly process serving errors in Oklahoma. Learn the top 10 mistakes that invalidate service and jeopardize your legal case in 2025.",
   "image": [
-    "/images/Mistake prevention checklist infographic.webp"
+    "https://justlegalsolutions.org/images/Mistake prevention checklist infographic.webp"
   ],
   "author": {
     "@type": "Person",
@@ -62,7 +64,7 @@ const articleSchema = {
     "name": "Just Legal Solutions",
     "logo": {
       "@type": "ImageObject",
-      "url": "/images/jls-logo.webp"
+      "url": "https://justlegalsolutions.org/images/jls-logo.webp"
     }
   },
   "datePublished": "2025-08-14",

@@ -37,10 +37,12 @@ export const metadata: Metadata = {
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
+  "@id": canonicalUrl,
+  "url": canonicalUrl,
   "headline": "Oklahoma Process Server Best Practices Checklist 2025",
   "description": "Complete 2025 Oklahoma process server checklist covering 12 O.S. §12-2004 requirements, Tulsa County protocols, and professional standards.",
   "image": [
-    "/images/oklahoma-licensed-bonded-process-server-badges.png"
+    "https://justlegalsolutions.org/images/oklahoma-licensed-bonded-process-server-badges.png"
   ],
   "author": {
     "@type": "Person",
@@ -51,7 +53,7 @@ const articleSchema = {
     "name": "Just Legal Solutions",
     "logo": {
       "@type": "ImageObject",
-      "url": "/images/jls-logo.webp"
+      "url": "https://justlegalsolutions.org/images/jls-logo.webp"
     }
   },
   "datePublished": "2025-08-14",

@@ -49,11 +49,13 @@ export const metadata: Metadata = {
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
+  "@id": canonicalUrl,
+  "url": canonicalUrl,
   "headline": "Oklahoma Process Serving Costs by County 2025: Complete Pricing Analysis & Budget Guide",
   "description": "Understanding process serving costs across Oklahoma's 77 counties helps attorneys and law firms budget effectively while ensuring quality service. This comprehensive analysis examines 2025 pricing structures, geographic variations, and hidden costs that impact your legal service budget.",
   "image": [
-    "/images/process-server-vs-sheriff-comparison.png",
-    "/images/oklahoma-process-server-service-area-map.png"
+    "https://justlegalsolutions.org/images/process-server-vs-sheriff-comparison.png",
+    "https://justlegalsolutions.org/images/oklahoma-process-server-service-area-map.png"
   ],
   "author": {
     "@type": "Person",
@@ -64,7 +66,7 @@ const articleSchema = {
     "name": "Just Legal Solutions",
     "logo": {
       "@type": "ImageObject",
-      "url": "/images/jls-logo.webp"
+      "url": "https://justlegalsolutions.org/images/jls-logo.webp"
     }
   },
   "datePublished": "2025-08-14",

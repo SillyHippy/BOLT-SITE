@@ -49,11 +49,13 @@ export const metadata: Metadata = {
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
+  "@id": canonicalUrl,
+  "url": canonicalUrl,
   "headline": "Oklahoma Process Server Pricing Guide 2025: Transparent Costs & Value-Added Services",
   "description": "Understanding process serving costs in Oklahoma helps attorneys, law firms, and individuals budget effectively while ensuring quality service. This comprehensive 2025 pricing guide examines standard rates, rush fees, volume discounts, and value-added options throughout Oklahoma.",
   "image": [
-    "/images/oklahoma-process-server-service-area-map.png",
-    "/images/oklahoma-licensed-bonded-process-server-badges.png"
+    "https://justlegalsolutions.org/images/oklahoma-process-server-service-area-map.png",
+    "https://justlegalsolutions.org/images/oklahoma-licensed-bonded-process-server-badges.png"
   ],
   "author": {
     "@type": "Person",
@@ -64,7 +66,7 @@ const articleSchema = {
     "name": "Just Legal Solutions",
     "logo": {
       "@type": "ImageObject",
-      "url": "/images/jls-logo.webp"
+      "url": "https://justlegalsolutions.org/images/jls-logo.webp"
     }
   },
   "datePublished": "2025-08-14",

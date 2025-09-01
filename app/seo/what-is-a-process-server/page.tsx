@@ -378,6 +378,8 @@ const localBusinessSchema = {
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
+  "@id": "https://justlegalsolutions.org/seo/what-is-a-process-server",
+  "url": "https://justlegalsolutions.org/seo/what-is-a-process-server",
   "headline": "What Is a Process Server? Professional Legal Document Delivery in Oklahoma",
   "author": {
     "@type": "Organization",
@@ -421,6 +423,8 @@ const breadcrumbItems = [
 const enhancedArticleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
+  "@id": "https://justlegalsolutions.org/seo/what-is-a-process-server",
+  "url": "https://justlegalsolutions.org/seo/what-is-a-process-server",
   "headline": "What Is a Process Server and Why Are They Essential for Due Process?",
   "author": {
     "@type": "Organization",

@@ -36,10 +36,12 @@ export const metadata: Metadata = {
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
+  "@id": canonicalUrl,
+  "url": canonicalUrl,
   "headline": "Latest Oklahoma Case Law on Service of Process: Key Rulings Every Lawyer Should Know",
   "description": "Essential 2025 Oklahoma service of process case law updates. Recent court decisions affecting process serving requirements and procedures.",
   "image": [
-    "/images/Gavel with dismissed case documents.png"
+    "https://justlegalsolutions.org/images/Gavel with dismissed case documents.png"
   ],
   "author": {
     "@type": "Person",
@@ -50,7 +52,7 @@ const articleSchema = {
     "name": "Just Legal Solutions",
     "logo": {
       "@type": "ImageObject",
-      "url": "/images/jls-logo.webp"
+      "url": "https://justlegalsolutions.org/images/jls-logo.webp"
     }
   },
   "datePublished": "2025-08-14",

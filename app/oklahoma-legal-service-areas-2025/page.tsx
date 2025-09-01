@@ -36,10 +36,12 @@ export const metadata: Metadata = {
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
+  "@id": canonicalUrl,
+  "url": canonicalUrl,
   "headline": "Oklahoma Legal Service Areas: Comprehensive Coverage for 2025",
   "description": "Discover the full range of legal service areas covered by process servers in Oklahoma for 2025, including urban, suburban, and rural regions.",
   "image": [
-    "/images/oklahoma-counties-coverage-map.png"
+    "https://justlegalsolutions.org/images/oklahoma-counties-coverage-map.png"
   ],
   "author": {
     "@type": "Person",
@@ -50,7 +52,7 @@ const articleSchema = {
     "name": "Just Legal Solutions",
     "logo": {
       "@type": "ImageObject",
-      "url": "/images/jls-logo.webp"
+      "url": "https://justlegalsolutions.org/images/jls-logo.webp"
     }
   },
   "datePublished": "2025-08-14",

@@ -49,12 +49,14 @@ export const metadata: Metadata = {
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
+  "@id": canonicalUrl,
+  "url": canonicalUrl,
   "headline": "Oklahoma Process Server Technology Trends 2025: Digital Innovation in Legal Service",
   "description": "Process serving technology continues revolutionizing legal document delivery in Oklahoma, providing enhanced accuracy, transparency, and efficiency while maintaining constitutional due process protections. Our comprehensive analysis examines cutting-edge innovations transforming the industry.",
   "image": [
-    "/images/Technology legal compliance flowchart.png",
-    "/images/Process server with GPS tracking.png",
-    "/images/Digital signature process.png"
+    "https://justlegalsolutions.org/images/Technology legal compliance flowchart.png",
+    "https://justlegalsolutions.org/images/Process server with GPS tracking.png",
+    "https://justlegalsolutions.org/images/Digital signature process.png"
   ],
   "author": {
     "@type": "Person",
@@ -65,7 +67,7 @@ const articleSchema = {
     "name": "Just Legal Solutions",
     "logo": {
       "@type": "ImageObject",
-      "url": "/images/jls-logo.webp"
+      "url": "https://justlegalsolutions.org/images/jls-logo.webp"
     }
   },
   "datePublished": "2025-08-14",

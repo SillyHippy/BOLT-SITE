@@ -48,13 +48,15 @@ export const metadata: Metadata = {
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
+  "@id": canonicalUrl,
+  "url": canonicalUrl,
   "headline": "Family Law Service: Serving Protective Orders & Divorce Papers in Tulsa County",
   "description": "Expert guide to serving protective orders and divorce papers in Tulsa County. 2025 family law service requirements, safety protocols, and procedures.",
   "image": [
-    "/images/tulsa-county-courthouse.jpeg",
-    "/images/Legal-document-types-process-server.png",
-    "/images/Professional process server business logo badge with scales of justice and Oklahoma outline for legal services.png",
-    "/images/due-process-legal-concept.png"
+    "https://justlegalsolutions.org/images/tulsa-county-courthouse.jpeg",
+    "https://justlegalsolutions.org/images/Legal-document-types-process-server.png",
+    "https://justlegalsolutions.org/images/Professional process server business logo badge with scales of justice and Oklahoma outline for legal services.png",
+    "https://justlegalsolutions.org/images/due-process-legal-concept.png"
   ],
   "author": {
     "@type": "Person",
@@ -65,7 +67,7 @@ const articleSchema = {
     "name": "Just Legal Solutions",
     "logo": {
       "@type": "ImageObject",
-      "url": "/images/jls-logo.webp"
+      "url": "https://justlegalsolutions.org/images/jls-logo.webp"
     }
   },
   "datePublished": "2025-08-14",
