@@ -23,8 +23,7 @@ const searchEngineOptimizations = {
       '@type': 'LocalBusiness',
       'potentialAction': {
         '@type': 'SearchAction',
-        'target': 'https://justlegalsolutions.org/search?q={search_term_string}',
-        'query-input-name': 'search_term_string'
+        'target': 'https://justlegalsolutions.org/search?q={search_term_string}'
       }
     }
   },

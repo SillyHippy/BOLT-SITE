@@ -45,6 +45,8 @@ export default function EnhancedLocationFAQ({ city, county, isNewLocation = fals
         "url": "https://justlegalsolutions.org",
         "author": {
           "@type": "Organization",
+"foundingDate": "2025-03-01",
+"description": "Professional process serving with over 50 years combined industry experience",
           "name": "Just Legal Solutions",
           "address": {
             "@type": "PostalAddress",

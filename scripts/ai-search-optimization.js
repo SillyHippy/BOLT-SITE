@@ -18,8 +18,10 @@ const aiOptimizedSchema = {
   "name": "Just Legal Solutions - Professional Process Server",
   "description": "Licensed process server providing professional legal document delivery throughout Tulsa County. Bonded and insured with same-day, rush, and standard service options available.",
   "url": "https://justlegalsolutions.org",
+  "image": "https://justlegalsolutions.org/jls-logo.png",
   "telephone": "(539) 367-6832",
   "email": "info@justlegalsolutions.org",
+  "priceRange": "$30-$200",
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Tulsa",
@@ -34,13 +36,13 @@ const aiOptimizedSchema = {
     "description": "Statewide process serving and legal document delivery throughout all 77 counties in Oklahoma"
   },
   "serviceType": "Process Serving",
-  "priceRange": "Contact for pricing",
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
     "name": "Professional Process Server Services",
     "itemListElement": [
       {
-        "@type": "Offer",
+        "@type": "Offer",         "url": "https://justlegalsolutions.org/services",
+        "url": "https://justlegalsolutions.org/services",
         "itemOffered": {
           "@type": "Service",
           "name": "Standard Process Serving",
@@ -48,7 +50,8 @@ const aiOptimizedSchema = {
         }
       },
       {
-        "@type": "Offer", 
+        "@type": "Offer",         "url": "https://justlegalsolutions.org/services",
+        "url": "https://justlegalsolutions.org/services",
         "itemOffered": {
           "@type": "Service",
           "name": "Rush Process Serving",
@@ -56,7 +59,8 @@ const aiOptimizedSchema = {
         }
       },
       {
-        "@type": "Offer",
+        "@type": "Offer",         "url": "https://justlegalsolutions.org/services",
+        "url": "https://justlegalsolutions.org/services",
         "itemOffered": {
           "@type": "Service", 
           "name": "Same Day Process Serving",
@@ -71,10 +75,7 @@ const aiOptimizedSchema = {
     "reviewCount": "146",
     "bestRating": "5"
   },
-  "openingHours": [
-    "Mo-Fr 08:00-17:00",
-    "Sa 09:00-15:00"
-  ],
+  "openingHours": "Mo,Tu,We,Th,Fr,Sa,Su 00:00-23:59",
   "paymentAccepted": "Cash, Credit Card, Check, Invoice",
   "currenciesAccepted": "USD",
   "slogan": "Professional Legal Document Delivery",

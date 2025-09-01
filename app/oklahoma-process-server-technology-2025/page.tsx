@@ -64,6 +64,8 @@ const articleSchema = {
   },
   "publisher": {
     "@type": "Organization",
+"foundingDate": "2025-03-01",
+"description": "Professional process serving with over 50 years combined industry experience",
     "name": "Just Legal Solutions",
     "logo": {
       "@type": "ImageObject",
@@ -84,6 +86,7 @@ const technologySchema = {
   "operatingSystem": "Cross-platform",
   "offers": {
     "@type": "Offer",
+    "url": "https://justlegalsolutions.org/services",
     "description": "Professional process serving with advanced technology integration"
   }
 };

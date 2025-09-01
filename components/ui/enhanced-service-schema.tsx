@@ -73,6 +73,7 @@ export default function EnhancedServiceSchema({
     },
     "offers": {
       "@type": "Offer",
+      "url": "https://justlegalsolutions.org/services",
       "description": "Professional legal document service with competitive rates based on urgency and location",
       "priceCurrency": "USD",
       "availability": "https://schema.org/InStock",
@@ -98,6 +99,7 @@ export default function EnhancedServiceSchema({
       "itemListElement": [
         {
           "@type": "Offer",
+          "url": "https://justlegalsolutions.org/services",
           "itemOffered": {
             "@type": "Service",
             "name": "Standard Service",
@@ -110,8 +112,8 @@ export default function EnhancedServiceSchema({
           }
         },
         {
-          "@type": "Offer", 
-          "itemOffered": {
+"@type": "Offer",
+          "url": "https://justlegalsolutions.org/services",          "itemOffered": {
             "@type": "Service",
             "name": "Rush Service",
             "description": "Expedited service within 1-2 business days"
@@ -123,8 +125,8 @@ export default function EnhancedServiceSchema({
           }
         },
         {
-          "@type": "Offer",
-          "itemOffered": {
+"@type": "Offer",
+          "url": "https://justlegalsolutions.org/services",          "itemOffered": {
             "@type": "Service",
             "name": "Same-Day Service",
             "description": "Emergency service within same business day"
@@ -136,8 +138,8 @@ export default function EnhancedServiceSchema({
           }
         },
         {
-          "@type": "Offer",
-          "itemOffered": {
+"@type": "Offer",
+          "url": "https://justlegalsolutions.org/services",          "itemOffered": {
             "@type": "Service",
             "name": "Emergency 2-Hour Service",
             "description": "Critical delivery when time-sensitive situations require immediate attention"
@@ -149,8 +151,8 @@ export default function EnhancedServiceSchema({
           }
         },
         ...additionalServices.map(service => ({
-          "@type": "Offer",
-          "itemOffered": {
+"@type": "Offer",
+          "url": "https://justlegalsolutions.org/services",          "itemOffered": {
             "@type": "Service",
             "name": service,
             "description": `Professional ${service.toLowerCase()} services`

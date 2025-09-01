@@ -63,6 +63,8 @@ const articleSchema = {
   },
   "publisher": {
     "@type": "Organization",
+"foundingDate": "2025-03-01",
+"description": "Professional process serving with over 50 years combined industry experience",
     "name": "Just Legal Solutions",
     "logo": {
       "@type": "ImageObject",
@@ -85,13 +87,13 @@ const pricingSchema = {
   "maxPrice": "200",
   "offers": [
     {
-      "@type": "Offer",
+      "@type": "Offer",         "url": "https://justlegalsolutions.org/services",
       "name": "Standard Service",
       "price": "85-125",
       "description": "Regular process serving within 5-7 business days"
     },
     {
-      "@type": "Offer", 
+      "@type": "Offer",         "url": "https://justlegalsolutions.org/services", 
       "name": "Rush Service",
       "price": "150-200",
       "description": "Same-day or next-day process serving"

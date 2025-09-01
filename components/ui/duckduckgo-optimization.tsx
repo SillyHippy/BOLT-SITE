@@ -16,6 +16,7 @@ export default function DuckDuckGoOptimization({
   const duckDuckGoSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
+    "foundingDate": "2025-03-01",
     "name": businessName,
     "description": "Professional process serving and legal document delivery throughout Oklahoma with guaranteed privacy and confidential handling",
     "url": "https://justlegalsolutions.org",
@@ -76,7 +77,7 @@ export default function DuckDuckGoOptimization({
       ]
     }),
     "offers": {
-      "@type": "Offer",
+      "@type": "Offer",         "url": "https://justlegalsolutions.org/services",
       "description": "Professional process serving throughout Oklahoma",
       "areaServed": {
         "@type": "State",

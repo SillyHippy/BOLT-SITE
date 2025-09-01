@@ -70,6 +70,7 @@ export default function MainLayout({
               "itemListElement": [
                 {
                   "@type": "Offer",
+                  "url": "https://justlegalsolutions.org/services",
                   "itemOffered": {
                     "@type": "Service",
                     "name": "Standard Process Serving",
@@ -80,6 +81,7 @@ export default function MainLayout({
                 },
                 {
                   "@type": "Offer",
+                  "url": "https://justlegalsolutions.org/services",
                   "itemOffered": {
                     "@type": "Service",
                     "name": "Rush Process Serving",
@@ -90,6 +92,7 @@ export default function MainLayout({
                 },
                 {
                   "@type": "Offer",
+                  "url": "https://justlegalsolutions.org/services",
                   "itemOffered": {
                     "@type": "Service",
                     "name": "Same-Day Process Serving",
@@ -118,8 +121,7 @@ export default function MainLayout({
             "image": "https://justlegalsolutions.org/images/jls-logo.webp",
             "potentialAction": {
               "@type": "SearchAction",
-              "target": "https://justlegalsolutions.org/search?q={search_term_string}",
-              "query-input-name": "search_term_string"
+              "target": "https://justlegalsolutions.org/search?q={search_term_string}"
             }
           }) }}
         />

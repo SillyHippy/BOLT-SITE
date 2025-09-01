@@ -29,6 +29,8 @@ export default function SearchEngineSignals({
     "lastReviewed": currentDate,
     "reviewedBy": {
       "@type": "Organization",
+"foundingDate": "2025-03-01",
+"description": "Professional process serving with over 50 years combined industry experience",
       "name": "Just Legal Solutions SEO Team"
     },
     "significantLink": [
@@ -77,8 +79,7 @@ export default function SearchEngineSignals({
     ],
     "speakable": {
       "@type": "SpeakableSpecification",
-      "cssSelector": ["h1", "h2", ".important-info", ".contact-info"],
-      "xpath": ["//h1", "//h2", "//*[@class='important-info']"]
+      "cssSelector": ["h1", "h2", ".important-info", ".contact-info"]
     },
     "accessibilityFeature": [
       "alternativeText",

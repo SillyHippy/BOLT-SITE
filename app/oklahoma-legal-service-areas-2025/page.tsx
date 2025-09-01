@@ -49,6 +49,8 @@ const articleSchema = {
   },
   "publisher": {
     "@type": "Organization",
+"foundingDate": "2025-03-01",
+"description": "Professional process serving with over 50 years combined industry experience",
     "name": "Just Legal Solutions",
     "logo": {
       "@type": "ImageObject",
@@ -152,7 +154,7 @@ const serviceAreaSchema = {
     "name": "Oklahoma Service Area Coverage",
     "itemListElement": [
       {
-        "@type": "Offer",
+        "@type": "Offer",         "url": "https://justlegalsolutions.org/services",
         "name": "Urban Area Service",
         "description": "Process serving in major Oklahoma cities including Tulsa, Oklahoma City, Norman, and Broken Arrow",
         "priceRange": "$30-$100",
@@ -166,7 +168,7 @@ const serviceAreaSchema = {
         ]
       },
       {
-        "@type": "Offer",
+        "@type": "Offer",         "url": "https://justlegalsolutions.org/services",
         "name": "Suburban Community Service",
         "description": "Professional document delivery in suburban areas and smaller cities throughout Oklahoma",
         "priceRange": "$40-$125",
@@ -180,7 +182,7 @@ const serviceAreaSchema = {
         ]
       },
       {
-        "@type": "Offer",
+        "@type": "Offer",         "url": "https://justlegalsolutions.org/services",
         "name": "Rural Territory Service",
         "description": "Specialized rural process serving across Oklahoma's remote counties and territories",
         "priceRange": "$50-$200",

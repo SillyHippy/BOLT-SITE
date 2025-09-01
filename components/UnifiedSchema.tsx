@@ -289,8 +289,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     ...(speakable && speakable.length > 0 ? {
       speakable: {
         '@type': 'SpeakableSpecification',
-        cssSelector: ['h1', 'h2', '.important-info', '.service-description', '.contact-info'],
-        xpath: speakable
+        cssSelector: ['h1', 'h2', '.important-info', '.service-description', '.contact-info']
       }
     } : {})
   };

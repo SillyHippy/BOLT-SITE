@@ -74,7 +74,7 @@ export const organizationSchema: WithContext<Organization> = {
           "description": "Serving all of Oklahoma with priority service in the Tulsa Metropolitan Area"
         },
         "offers": {
-          "@type": "Offer",
+          "@type": "Offer",         "url": "https://justlegalsolutions.org/services",
           "price": "60.00",
           "priceCurrency": "USD",
           "description": "Standard process serving - see pricing at justlegalsolutions.org/pricing in Tulsa County"
@@ -93,7 +93,7 @@ export const organizationSchema: WithContext<Organization> = {
           "name": "Oklahoma"
         },
         "offers": {
-          "@type": "Offer",
+          "@type": "Offer",         "url": "https://justlegalsolutions.org/services",
           "price": "100.00",
           "priceCurrency": "USD",
           "description": "Rush process serving $100 in Tulsa County area"
@@ -112,7 +112,7 @@ export const organizationSchema: WithContext<Organization> = {
           "name": "Oklahoma"
         },
         "offers": {
-          "@type": "Offer",
+          "@type": "Offer",         "url": "https://justlegalsolutions.org/services",
           "price": "150.00",
           "priceCurrency": "USD",
           "description": "Same-day process serving - see pricing at justlegalsolutions.org/pricing in Tulsa County area"

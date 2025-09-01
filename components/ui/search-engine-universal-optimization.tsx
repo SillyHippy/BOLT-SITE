@@ -18,6 +18,8 @@ export default function SearchEngineUniversalOptimization({
     "@graph": [
       {
         "@type": "Organization",
+"foundingDate": "2025-03-01",
+"description": "Professional process serving with over 50 years combined industry experience",
         "@id": "https://justlegalsolutions.org/#organization",
         "name": businessName,
         "url": "https://justlegalsolutions.org",
@@ -48,7 +50,7 @@ export default function SearchEngineUniversalOptimization({
               "@type": "EntryPoint",
               "urlTemplate": "https://justlegalsolutions.org/services?q={search_term_string}"
             },
-            "query-input-name": "search_term_string"
+            "query-input": "required name=search_term_string"
           }
         ],
         "inLanguage": "en-US"
@@ -141,7 +143,7 @@ export default function SearchEngineUniversalOptimization({
           "name": `${primaryService} Options`,
           "itemListElement": [
             {
-              "@type": "Offer",
+              "@type": "Offer",         "url": "https://justlegalsolutions.org/services",
               "itemOffered": {
                 "@type": "Service",
                 "name": `Standard ${primaryService}`,
@@ -149,7 +151,7 @@ export default function SearchEngineUniversalOptimization({
               }
             },
             ...(emergencyAvailable ? [{
-              "@type": "Offer", 
+              "@type": "Offer",         "url": "https://justlegalsolutions.org/services", 
               "itemOffered": {
                 "@type": "Service",
                 "name": `Emergency ${primaryService}`,

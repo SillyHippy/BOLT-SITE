@@ -92,6 +92,8 @@ export default function EnhancedOrganizationSchema({ countyName }: OrganizationS
         "credentialCategory": "Professional License",
         "recognizedBy": {
           "@type": "Organization",
+"foundingDate": "2025-03-01",
+"description": "Professional process serving with over 50 years combined industry experience",
           "name": "Oklahoma Secretary of State"
         }
       }

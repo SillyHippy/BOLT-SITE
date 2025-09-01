@@ -23,8 +23,8 @@ const SitemapPage = () => {
     "name": "Just Legal Solutions",
     "url": "https://justlegalsolutions.org",
     "logo": "https://justlegalsolutions.org/logo.png",
-    "description": "Just Legal Solutions provides comprehensive legal services in Tulsa, Oklahoma and beyond. Contact us for process serving, courier, and legal support.",
-    "foundingDate": "2020-01-01",
+    "description": "Professional process serving with over 50 years combined industry experience",
+    "foundingDate": "2025-03-01",
     "contactPoint": [{
       "@type": "ContactPoint",
       "telephone": "+1-539-367-6832",

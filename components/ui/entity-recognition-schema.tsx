@@ -54,6 +54,8 @@ export default function EntityRecognitionSchema({
     ],
     "memberOf": {
       "@type": "Organization",
+"foundingDate": "2025-03-01",
+"description": "Professional process serving with over 50 years combined industry experience",
       "name": "Oklahoma Process Server Association"
     },
     "potentialAction": [

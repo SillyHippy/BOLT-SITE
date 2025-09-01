@@ -78,7 +78,7 @@ const faqSchema = {
   "@type": "FAQPage",
   "speakable": {
     "@type": "SpeakableSpecification",
-    "cssSelector": [".voice-optimized", "h1", "h2"]
+    "cssSelector": ["h1", "h2"]
   },
   "mainEntity": [
     {
@@ -306,6 +306,7 @@ const localBusinessSchema = {
     "itemListElement": [
       {
         "@type": "Offer",
+        "url": "https://justlegalsolutions.org/services",
         "itemOffered": {
           "@type": "Service",
           "name": "Emergency Same-Day Process Serving",
@@ -315,6 +316,7 @@ const localBusinessSchema = {
       },
       {
         "@type": "Offer",
+        "url": "https://justlegalsolutions.org/services",
         "itemOffered": {
           "@type": "Service",
           "name": "Standard Process Serving",
@@ -324,6 +326,7 @@ const localBusinessSchema = {
       },
       {
         "@type": "Offer",
+        "url": "https://justlegalsolutions.org/services",
         "itemOffered": {
           "@type": "Service",
           "name": "Skip Tracing Service",
@@ -333,6 +336,7 @@ const localBusinessSchema = {
       },
       {
         "@type": "Offer",
+        "url": "https://justlegalsolutions.org/services",
         "itemOffered": {
           "@type": "Service",
           "name": "Divorce Paper Service",
@@ -342,6 +346,7 @@ const localBusinessSchema = {
       },
       {
         "@type": "Offer",
+        "url": "https://justlegalsolutions.org/services",
         "itemOffered": {
           "@type": "Service",
           "name": "Business Litigation Service",
@@ -383,10 +388,14 @@ const articleSchema = {
   "headline": "What Is a Process Server? Professional Legal Document Delivery in Oklahoma",
   "author": {
     "@type": "Organization",
+"foundingDate": "2025-03-01",
+"description": "Professional process serving with over 50 years combined industry experience",
     "name": "Just Legal Solutions"
   },
   "publisher": {
     "@type": "Organization",
+"foundingDate": "2025-03-01",
+"description": "Professional process serving with over 50 years combined industry experience",
     "name": "Just Legal Solutions",
     "logo": {
       "@type": "ImageObject",
@@ -428,12 +437,16 @@ const enhancedArticleSchema = {
   "headline": "What Is a Process Server and Why Are They Essential for Due Process?",
   "author": {
     "@type": "Organization",
+"foundingDate": "2025-03-01",
+"description": "Professional process serving with over 50 years combined industry experience",
     "name": "Just Legal Solutions",
     "url": "https://justlegalsolutions.org",
     "telephone": "(539) 367-6832"
   },
   "publisher": {
     "@type": "Organization",
+"foundingDate": "2025-03-01",
+"description": "Professional process serving with over 50 years combined industry experience",
     "name": "Just Legal Solutions",
     "logo": {
       "@type": "ImageObject",
@@ -457,11 +470,7 @@ const enhancedArticleSchema = {
   },
   "speakable": {
     "@type": "SpeakableSpecification",
-    "cssSelector": ["h1", "h2", ".voice-optimized"],
-    "xpath": [
-      "/html/body/main/div/article/header/h1",
-      "/html/body/main/div/article/section[1]/h2"
-    ]
+    "cssSelector": ["h1", "h2", ".voice-optimized"]
   }
 };
 

@@ -5,10 +5,7 @@ const speakableSchema = {
   'name': 'Glenpool Process Server',
   'speakable': {
     '@type': 'SpeakableSpecification',
-    'xpath': [
-      '/html/body/div/main/div/section[1]/p',
-      '/html/body/div/main/div/section[4]'
-    ]
+    'cssSelector': ['h1', 'h2', '.important-info', '.contact-info']
   },
   'url': 'https://justlegalsolutions.org/seo/glenpool-process-server'
 };

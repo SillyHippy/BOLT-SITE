@@ -30,6 +30,8 @@ export default function AIOptimizedContentSchema({
     "lastReviewed": currentDate,
     "reviewedBy": {
       "@type": "Organization",
+"foundingDate": "2025-03-01",
+"description": "Professional process serving with over 50 years combined industry experience",
       "name": "Just Legal Solutions SEO Team"
     },
     
@@ -45,8 +47,7 @@ export default function AIOptimizedContentSchema({
             "http://schema.org/MobileApplication",
             "http://schema.org/DesktopWebPlatform"
           ]
-        },
-        "query-input-name": "ai_query"
+        }
       },
       {
         "@type": "ContactAction",
@@ -149,13 +150,6 @@ export default function AIOptimizedContentSchema({
         ".voice-answer",
         "h1",
         "h2"
-      ],
-      "xpath": [
-        "//*[@class='voice-optimized']",
-        "//*[@class='primary-answer']",
-        "//*[@class='voice-answer']",
-        "//h1",
-        "//h2"
       ]
     },
     

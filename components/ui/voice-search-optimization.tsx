@@ -20,12 +20,7 @@ export default function VoiceSearchOptimization({
     "@type": "FAQPage",
     "speakable": {
       "@type": "SpeakableSpecification",
-      "cssSelector": [".voice-optimized", "h1", "h2", ".primary-answer"],
-      "xpath": [
-        "//*[@class='voice-optimized']",
-        "//h1",
-        "//h2"
-      ]
+      "cssSelector": [".voice-optimized", "h1", "h2", ".primary-answer"]
     },
     "mainEntity": primaryQuestions.map((question, index) => ({
       "@type": "Question",
@@ -40,6 +35,8 @@ export default function VoiceSearchOptimization({
         },
         "author": {
           "@type": "Organization",
+"foundingDate": "2025-03-01",
+"description": "Professional process serving with over 50 years combined industry experience",
           "name": "Just Legal Solutions",
           "address": localIntent ? {
             "@type": "PostalAddress",
@@ -63,7 +60,7 @@ export default function VoiceSearchOptimization({
           "http://schema.org/MobileApplication"
         ]
       },
-      "query-input-name": "voice_query"
+      "query-input": "required name=voice_query"
     }
   };
 

@@ -66,7 +66,7 @@ export default function StaticSEO2025({
                       "http://schema.org/VoiceApplication"
                     ]
                   },
-                  "query-input-name": "search_term_string"
+                  "query-input": "required name=search_term_string"
                 },
                 // 2025 AI Content Classification
                 "about": [
@@ -75,7 +75,9 @@ export default function StaticSEO2025({
                     "name": "Process Serving",
                     "description": "Professional legal document delivery services",
                     "provider": {
-                      "@type": "Organization", 
+                      "@type": "Organization",
+"foundingDate": "2025-03-01",
+"description": "Professional process serving with over 50 years combined industry experience", 
                       "@id": "https://justlegalsolutions.org/#organization"
                     }
                   }

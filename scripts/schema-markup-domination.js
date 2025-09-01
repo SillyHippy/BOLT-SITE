@@ -70,7 +70,7 @@ const advancedLocalBusinessSchema = {
     "name": "Process Serving Services",
     "itemListElement": [
       {
-        "@type": "Offer",
+        "@type": "Offer",         "url": "https://justlegalsolutions.org/services",
         "itemOffered": {
           "@type": "Service",
           "name": "Same-Day Process Serving",
@@ -78,7 +78,7 @@ const advancedLocalBusinessSchema = {
         }
       },
       {
-        "@type": "Offer",
+        "@type": "Offer",         "url": "https://justlegalsolutions.org/services",
         "itemOffered": {
           "@type": "Service", 
           "name": "Rush Process Serving",
@@ -86,7 +86,7 @@ const advancedLocalBusinessSchema = {
         }
       },
       {
-        "@type": "Offer",
+        "@type": "Offer",         "url": "https://justlegalsolutions.org/services",
         "itemOffered": {
           "@type": "Service",
           "name": "Standard Process Serving", 
@@ -133,7 +133,7 @@ const processServingServiceSchema = {
     "name": "Process Serving Options",
     "itemListElement": [
       {
-        "@type": "Offer",
+        "@type": "Offer",         "url": "https://justlegalsolutions.org/services",
         "name": "Same-Day Service",
         "description": "Immediate process serving within 24 hours for urgent legal matters and court deadlines.",
         "priceSpecification": {
@@ -216,7 +216,7 @@ const processServingProductSchema = {
   },
   "offers": [
     {
-      "@type": "Offer",
+      "@type": "Offer",         "url": "https://justlegalsolutions.org/services",
       "name": "Same-Day Process Serving",
       "description": "Immediate document delivery for court deadlines requiring same-day completion.",
       "priceCurrency": "USD",
@@ -230,7 +230,7 @@ const processServingProductSchema = {
       }
     },
     {
-      "@type": "Offer",
+      "@type": "Offer",         "url": "https://justlegalsolutions.org/services",
       "name": "Rush Process Serving",
       "description": "Expedited document service for time-sensitive legal matters within 48-hour window.",
       "priceCurrency": "USD",

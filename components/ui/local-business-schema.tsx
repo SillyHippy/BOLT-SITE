@@ -69,7 +69,7 @@ export default function LocalBusinessSchema({
       "@type": "OfferCatalog",
       "name": "Legal Services",
       "itemListElement": services.map((service, index) => ({
-        "@type": "Offer",
+        "@type": "Offer",         "url": "https://justlegalsolutions.org/services",
         "itemOffered": {
           "@type": "Service",
           "name": service,

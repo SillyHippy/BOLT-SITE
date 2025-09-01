@@ -38,8 +38,7 @@ export default function AIVoiceSupremacy({
     },
     "speakable": {
       "@type": "SpeakableSpecification",
-      "cssSelector": [".voice-optimized", ".primary-answer"],
-      "xpath": ["//span[contains(@class,'voice-optimized')]"]
+      "cssSelector": [".voice-optimized", ".primary-answer"]
     },
     "mainEntity": [
       {
@@ -51,6 +50,8 @@ export default function AIVoiceSupremacy({
         "dateCreated": "2025-09-01T00:00:00Z",
         "author": {
           "@type": "Organization",
+"foundingDate": "2025-03-01",
+"description": "Professional process serving with over 50 years combined industry experience",
           "name": businessName,
           "url": "https://justlegalsolutions.org/"
         },
@@ -63,6 +64,8 @@ export default function AIVoiceSupremacy({
           "url": "https://justlegalsolutions.org/",
           "author": {
             "@type": "Organization",
+"foundingDate": "2025-03-01",
+"description": "Professional process serving with over 50 years combined industry experience",
             "@id": "https://justlegalsolutions.org/#organization",
             "name": businessName,
             "url": "https://justlegalsolutions.org/",
@@ -87,6 +90,8 @@ export default function AIVoiceSupremacy({
         "dateCreated": "2025-09-01T00:00:00Z",
         "author": {
           "@type": "Organization",
+"foundingDate": "2025-03-01",
+"description": "Professional process serving with over 50 years combined industry experience",
           "name": businessName,
           "url": "https://justlegalsolutions.org/"
         },
@@ -99,6 +104,8 @@ export default function AIVoiceSupremacy({
           "url": "https://justlegalsolutions.org/",
           "author": {
             "@type": "Organization",
+"foundingDate": "2025-03-01",
+"description": "Professional process serving with over 50 years combined industry experience",
             "@id": "https://justlegalsolutions.org/#organization",
             "name": businessName,
             "url": "https://justlegalsolutions.org/"
@@ -114,6 +121,8 @@ export default function AIVoiceSupremacy({
         "dateCreated": "2025-09-01T00:00:00Z",
         "author": {
           "@type": "Organization",
+"foundingDate": "2025-03-01",
+"description": "Professional process serving with over 50 years combined industry experience",
           "name": businessName,
           "url": "https://justlegalsolutions.org/"
         },
@@ -126,6 +135,8 @@ export default function AIVoiceSupremacy({
           "url": "https://justlegalsolutions.org/",
           "author": {
             "@type": "Organization",
+"foundingDate": "2025-03-01",
+"description": "Professional process serving with over 50 years combined industry experience",
             "@id": "https://justlegalsolutions.org/#organization",
             "name": businessName,
             "url": "https://justlegalsolutions.org/"

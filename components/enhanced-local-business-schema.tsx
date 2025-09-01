@@ -85,7 +85,7 @@ export const enhancedLocalBusinessSchema = {
     "name": "Process Serving Services",
     "itemListElement": [
       {
-        "@type": "Offer",
+        "@type": "Offer",         "url": "https://justlegalsolutions.org/services",
         "itemOffered": {
           "@type": "Service",
           "name": "Standard Process Serving",
@@ -95,7 +95,7 @@ export const enhancedLocalBusinessSchema = {
         "priceCurrency": "USD"
       },
       {
-        "@type": "Offer", 
+        "@type": "Offer",         "url": "https://justlegalsolutions.org/services", 
         "itemOffered": {
           "@type": "Service",
           "name": "Rush Process Serving",
@@ -105,7 +105,7 @@ export const enhancedLocalBusinessSchema = {
         "priceCurrency": "USD"
       },
       {
-        "@type": "Offer",
+        "@type": "Offer",         "url": "https://justlegalsolutions.org/services",
         "itemOffered": {
           "@type": "Service", 
           "name": "Same-Day Process Serving",
@@ -172,6 +172,8 @@ export const enhancedLocalBusinessSchema = {
   
   "memberOf": {
     "@type": "Organization",
+"foundingDate": "2025-03-01",
+"description": "Professional process serving with over 50 years combined industry experience",
     "name": "National Association of Professional Process Servers"
   }
 };

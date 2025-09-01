@@ -68,7 +68,7 @@ export default function GoogleSpecificOptimization({
       "name": "Process Serving Services",
       "itemListElement": [
         {
-          "@type": "Offer",
+          "@type": "Offer",         "url": "https://justlegalsolutions.org/services",
           "itemOffered": {
             "@type": "Service",
             "name": "Standard Process Serving",
@@ -78,7 +78,7 @@ export default function GoogleSpecificOptimization({
           "validFrom": new Date().toISOString().split('T')[0]
         },
         {
-          "@type": "Offer",
+          "@type": "Offer",         "url": "https://justlegalsolutions.org/services",
           "itemOffered": {
             "@type": "Service", 
             "name": "Emergency 2-Hour Service",
@@ -90,7 +90,7 @@ export default function GoogleSpecificOptimization({
     },
     "makesOffer": [
       {
-        "@type": "Offer",
+        "@type": "Offer",         "url": "https://justlegalsolutions.org/services",
         "description": "Professional process serving throughout Oklahoma",
         "availability": "https://schema.org/InStock",
         "areaServed": {
@@ -117,6 +117,8 @@ export default function GoogleSpecificOptimization({
     ],
     "memberOf": {
       "@type": "Organization",
+"foundingDate": "2025-03-01",
+"description": "Professional process serving with over 50 years combined industry experience",
       "name": "Oklahoma Process Server Association"
     },
     "potentialAction": [

@@ -41,7 +41,7 @@ export default function ServiceSchema({
       "name": serviceArea
     },
     "offers": {
-      "@type": "Offer",
+      "@type": "Offer",         "url": "https://justlegalsolutions.org/services",
       "priceRange": priceRange,
       "priceCurrency": "USD",
       "availability": "https://schema.org/InStock",
@@ -53,7 +53,7 @@ export default function ServiceSchema({
       "name": "Process Serving Services",
       "itemListElement": [
         {
-          "@type": "Offer",
+          "@type": "Offer",         "url": "https://justlegalsolutions.org/services",
           "itemOffered": {
             "@type": "Service",
             "name": "Standard Process Serving",
@@ -63,7 +63,7 @@ export default function ServiceSchema({
           "priceCurrency": "USD"
         },
         {
-          "@type": "Offer", 
+          "@type": "Offer",         "url": "https://justlegalsolutions.org/services", 
           "itemOffered": {
             "@type": "Service",
             "name": "Rush Process Serving",
@@ -73,7 +73,7 @@ export default function ServiceSchema({
           "priceCurrency": "USD"
         },
         {
-          "@type": "Offer",
+          "@type": "Offer",         "url": "https://justlegalsolutions.org/services",
           "itemOffered": {
             "@type": "Service", 
             "name": "Same-Day Process Serving",
@@ -83,7 +83,7 @@ export default function ServiceSchema({
           "priceCurrency": "USD"
         },
         {
-          "@type": "Offer",
+          "@type": "Offer",         "url": "https://justlegalsolutions.org/services",
           "itemOffered": {
             "@type": "Service", 
             "name": "Complex/Difficult Serves",

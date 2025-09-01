@@ -95,6 +95,8 @@ export default function WagonerCountyProcessServer() {
       "serviceType": "Process Server",
       "provider": {
         "@type": "Organization",
+"foundingDate": "2025-03-01",
+"description": "Professional process serving with over 50 years combined industry experience",
         "@id": "https://justlegalsolutions.org/#organization"
       }
     }

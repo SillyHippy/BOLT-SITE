@@ -53,21 +53,28 @@ export default function ReviewAggregateSchema() {
     "provider": [
       {
         "@type": "Organization",
+"foundingDate": "2025-03-01",
+"description": "Professional process serving with over 50 years combined industry experience",
         "name": "Google Business Profile",
         "url": "https://www.google.com/maps/place/Just+Legal+Solutions"
       },
       {
-        "@type": "Organization", 
+        "@type": "Organization",
+"foundingDate": "2025-03-01",
+"description": "Professional process serving with over 50 years combined industry experience", 
         "name": "Yelp Business",
         "url": "https://www.yelp.com/biz/just-legal-solutions"
       },
       {
         "@type": "Organization",
+        "foundingDate": "2025-03-01",
+        "description": "Professional process serving with over 50 years combined industry experience",
         "name": "Facebook Business Page",
         "url": "https://www.facebook.com/justlegalsolutions"
       },
       {
         "@type": "Organization",
+        "foundingDate": "2025-03-01",
         "name": "Direct Client Feedback",
         "description": "Phone consultations and written testimonials"
       }

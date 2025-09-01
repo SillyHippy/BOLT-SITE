@@ -35,8 +35,7 @@ export default function SearchDominance2025({
         // Enhanced for AI and voice search
         'speakable': {
           '@type': 'SpeakableSpecification',
-          'cssSelector': ['h1', 'h2', '.voice-optimized', '.primary-answer'],
-          'xpath': ['//*[@class="voice-optimized"]', '//h1', '//h2']
+          'cssSelector': ['h1', 'h2', '.voice-optimized', '.primary-answer']
         },
         
         // Breadcrumb optimization
@@ -99,7 +98,7 @@ export default function SearchDominance2025({
                 'http://schema.org/VoiceApplication'
               ]
             },
-            'query-input-name': 'search_term_string'
+            'query-input': 'required name=search_term_string'
           }
         ],
         

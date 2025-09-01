@@ -587,6 +587,7 @@ export default function JenksProcessServer() {
                       ★★★★★
                     </div>
                     <meta itemProp="ratingValue" content="5" />
+                    <meta itemProp="datePublished" content="2024-08-15" />
                   </div>
                   <p className="text-gray-700 mb-4 italic" itemProp="reviewBody">
                     &ldquo;Needed urgent service near the Oklahoma Aquarium for a family law case. Just Legal Solutions delivered same-day service and navigated the hotel complex perfectly. Their knowledge of the Jenks area saved the day.&rdquo;
@@ -608,6 +609,7 @@ export default function JenksProcessServer() {
                       ★★★★★
                     </div>
                     <meta itemProp="ratingValue" content="5" />
+                    <meta itemProp="datePublished" content="2024-07-22" />
                   </div>
                   <p className="text-gray-700 mb-4 italic" itemProp="reviewBody">
                     &ldquo;Outstanding service at Riverwalk Crossing! They knew exactly how to handle the retail complex service and worked professionally with mall security. Quick, discrete, and effective.&rdquo;

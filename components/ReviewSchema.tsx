@@ -39,6 +39,11 @@ export default function ReviewSchema({
     "review": [
       {
         "@type": "Review",
+        "itemReviewed": {
+          "@type": "Service",
+          "name": "Process Serving Services",
+          "description": "Professional legal document delivery services"
+        },
         "author": {
           "@type": "Person",
           "name": "Sarah Johnson"
@@ -53,6 +58,11 @@ export default function ReviewSchema({
       },
       {
         "@type": "Review",
+        "itemReviewed": {
+          "@type": "Service",
+          "name": "Process Serving Services",
+          "description": "Professional legal document delivery services"
+        },
         "author": {
           "@type": "Person",
           "name": "Michael Davis"

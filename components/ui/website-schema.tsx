@@ -25,10 +25,14 @@ export default function WebsiteSchema({
     "copyrightYear": "2024",
     "copyrightHolder": {
       "@type": "Organization",
+"foundingDate": "2025-03-01",
+"description": "Professional process serving with over 50 years combined industry experience",
       "name": name
     },
     "publisher": {
       "@type": "Organization",
+"foundingDate": "2025-03-01",
+"description": "Professional process serving with over 50 years combined industry experience",
       "name": name,
       "url": url,
       "logo": {
@@ -44,8 +48,7 @@ export default function WebsiteSchema({
         "target": {
           "@type": "EntryPoint",
           "urlTemplate": `${url}/search?q={search_term_string}`
-        },
-        "query-input-name": "search_term_string"
+        }
       },
       {
         "@type": "Action",

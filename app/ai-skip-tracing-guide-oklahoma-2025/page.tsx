@@ -60,11 +60,15 @@ const articleSchema = {
   ],
   "author": {
     "@type": "Organization",
+"foundingDate": "2025-03-01",
+"description": "Professional process serving with over 50 years combined industry experience",
     "name": "Just Legal Solutions Team",
     "url": "https://justlegalsolutions.org"
   },
   "publisher": {
     "@type": "Organization",
+"foundingDate": "2025-03-01",
+"description": "Professional process serving with over 50 years combined industry experience",
     "name": "Just Legal Solutions",
     "logo": {
       "@type": "ImageObject",
@@ -81,6 +85,8 @@ const articleSchema = {
   "description": "Advanced artificial intelligence skip tracing for process servers in Oklahoma, achieving a 94% success rate in locating previously untraceable defendants.",
   "provider": {
     "@type": "Organization",
+"foundingDate": "2025-03-01",
+"description": "Professional process serving with over 50 years combined industry experience",
     "name": "Just Legal Solutions"
   },
   "areaServed": {
@@ -88,7 +94,7 @@ const articleSchema = {
     "name": "Oklahoma"
   },
   "offers": {
-    "@type": "Offer",
+    "@type": "Offer",         "url": "https://justlegalsolutions.org/services",
     "description": "Professional AI-enhanced skip tracing services with 92% accuracy improvement and 68% reduction in time."
   }
 };

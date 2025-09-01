@@ -85,6 +85,8 @@ export default function OkmulgeeCountyPage() {
     "description": "Legal document delivery and process serving throughout Okmulgee County, Oklahoma.",
     "provider": {
       "@type": "Organization",
+"foundingDate": "2025-03-01",
+"description": "Professional process serving with over 50 years combined industry experience",
       "name": "Just Legal Solutions"
     },
     "areaServed": {

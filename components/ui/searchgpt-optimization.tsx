@@ -61,6 +61,7 @@ export default function SearchGPTOptimization({
       "itemListElement": [
         {
           "@type": "Offer",
+          "url": "https://justlegalsolutions.org/services",
           "name": "Same-Day Process Serving",
           "description": "Available today throughout Oklahoma - call for immediate service",
           "availability": "https://schema.org/InStock",
@@ -72,12 +73,14 @@ export default function SearchGPTOptimization({
         },
         {
           "@type": "Offer",
+          "url": "https://justlegalsolutions.org/services",
           "name": "Emergency 2-Hour Service",
           "description": realTimeAvailability ? "Available now for urgent legal matters" : "Available during business hours",
           "availability": realTimeAvailability ? "https://schema.org/InStock" : "https://schema.org/LimitedAvailability"
         },
         {
           "@type": "Offer",
+          "url": "https://justlegalsolutions.org/services",
           "name": "Skip Tracing Services",
           "description": "Professional location services available throughout Oklahoma",
           "availability": "https://schema.org/InStock"

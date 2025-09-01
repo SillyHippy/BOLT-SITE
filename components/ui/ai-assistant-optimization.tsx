@@ -52,13 +52,15 @@ export default function AIAssistantOptimization({
       "@type": "OfferCatalog",
       "name": "Professional Process Serving Services",
       "itemListElement": expertise.map(service => ({
-        "@type": "Offer",
+        "@type": "Offer",         "url": "https://justlegalsolutions.org/services",
         "itemOffered": {
           "@type": "Service",
           "name": service,
           "description": `Professional ${service.toLowerCase()} throughout ${serviceLocation}`,
           "provider": {
             "@type": "Organization",
+"foundingDate": "2025-03-01",
+"description": "Professional process serving with over 50 years combined industry experience",
             "name": businessName
           }
         },
