@@ -61,6 +61,7 @@ export default function SearchDominance2025({
         // Content quality signals
         'mainEntity': {
           '@type': 'LocalBusiness',
+          '@id': 'https://justlegalsolutions.org/#organization',
           'name': 'Just Legal Solutions',
           'description': `Oklahoma's #1 ${businessType} serving ${location} with professional excellence.`,
           'address': {
