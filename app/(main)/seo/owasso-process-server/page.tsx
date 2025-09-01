@@ -5,6 +5,7 @@ const speakableSchema = {
   'name': 'Owasso Process Server',
   'speakable': {
     '@type': 'SpeakableSpecification',
+    'cssSelector': ['h1', 'h2', '.important-info', '.contact-info'],
     'xpath': [
       '/html/body/div/main/div/section[1]/p',
       '/html/body/div/main/div/section[4]'

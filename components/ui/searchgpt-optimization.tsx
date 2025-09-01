@@ -167,7 +167,7 @@ export default function SearchGPTOptimization({
     // Immediate action items for SearchGPT recommendations
     "potentialAction": [
       {
-        "@type": "ContactAction",
+        "@type": "Action",
         "name": "Call Now for Service",
         "target": {
           "@type": "EntryPoint",
@@ -176,7 +176,7 @@ export default function SearchGPTOptimization({
           "inLanguage": "en-US"
         },
         "result": {
-          "@type": "ContactAction",
+          "@type": "Action",
           "description": "Immediate consultation and service scheduling"
         }
       },

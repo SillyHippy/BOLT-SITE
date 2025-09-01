@@ -141,6 +141,7 @@ export function LocalSEOSchema({ city, service }: { city?: string; service?: str
   const schema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
+    "@id": `https://justlegalsolutions.org/#localbusiness-${city?.toLowerCase().replace(/\s+/g, '-') || 'main'}`,
     "name": `Just Legal Solutions${city ? ` - ${city}` : ''}`,
     "description": `Professional process serving${service ? ` and ${service}` : ''} in ${city || 'Oklahoma'}${city ? `, Oklahoma` : ''}. Licensed and bonded process servers.`,
     "url": "https://justlegalsolutions.org",

@@ -2,9 +2,10 @@
 const speakableSchema = {
   '@context': 'https://schema.org',
   '@type': 'WebPage',
-  'name': 'Legal Notice Posting Service',
+  'name': 'Legal Posting Process Server',
   'speakable': {
     '@type': 'SpeakableSpecification',
+    'cssSelector': ['h1', 'h2', '.important-info', '.contact-info'],
     'xpath': [
       '/html/body/div/main/div/section[1]/p',
       '/html/body/div/main/div/section[4]'

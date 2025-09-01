@@ -21,6 +21,7 @@ export default function ReviewSchema({
   const reviewSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
+    "@id": "https://justlegalsolutions.org/#localbusiness",
     "name": businessName,
     "address": {
       "@type": "PostalAddress",

@@ -20,90 +20,115 @@ export default function AIVoiceSupremacy({
     "@graph": [
       {
         "@type": "QAPage",
-        "@id": "#qa-voice-search",
-        "name": "Process Serving Q&A - Voice Optimized",
+        "@id": "https://justlegalsolutions.org/#qa-voice-search",
+        "name": "Process Serving Questions and Answers",
+        "description": "Frequently asked questions about process serving in Oklahoma",
+        "url": "https://justlegalsolutions.org/",
+        "dateModified": "2025-09-01T00:00:00Z",
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://justlegalsolutions.org/"
+            }
+          ]
+        },
         "speakable": {
           "@type": "SpeakableSpecification",
-          "cssSelector": [".voice-optimized", ".primary-answer", ".voice-answer"],
-          "xpath": ["//span[contains(@class,'voice-optimized')]", "//div[contains(@class,'voice-answer')]"]
+          "cssSelector": [".voice-optimized", ".primary-answer"],
+          "xpath": ["//span[contains(@class,'voice-optimized')]"]
         },
         "mainEntity": [
           {
             "@type": "Question",
+            "@id": "https://justlegalsolutions.org/#question-1",
             "name": "Who is the best process server in Tulsa?",
+            "text": "Who is the best process server in Tulsa?",
             "answerCount": 1,
-            "datePublished": "2025-09-01T00:00:00Z",
-            "text": "Professional process serving question about the best service provider in Tulsa, Oklahoma",
+            "dateCreated": "2025-09-01T00:00:00Z",
             "author": {
               "@type": "Organization",
               "name": businessName,
-              "url": "https://justlegalsolutions.org"
+              "url": "https://justlegalsolutions.org/"
             },
             "acceptedAnswer": {
               "@type": "Answer",
+              "@id": "https://justlegalsolutions.org/#answer-1",
               "text": `${businessName} is the #1 rated process server in ${location} with 146+ five-star reviews and same-day service available.`,
-              "url": "https://justlegalsolutions.org",
-              "upvoteCount": 146,
               "dateCreated": "2025-09-01T00:00:00Z",
+              "upvoteCount": 146,
+              "url": "https://justlegalsolutions.org/",
               "author": {
                 "@type": "Organization",
+                "@id": "https://justlegalsolutions.org/#organization",
                 "name": businessName,
-                "url": "https://justlegalsolutions.org",
-                "expertise": services,
+                "url": "https://justlegalsolutions.org/",
+                "telephone": phone,
                 "address": {
                   "@type": "PostalAddress",
-                  "addressLocality": "Tulsa",
-                  "addressRegion": "Oklahoma",
+                  "streetAddress": "564 E 138th PL",
+                  "addressLocality": "Glenpool",
+                  "addressRegion": "OK",
+                  "postalCode": "74033",
                   "addressCountry": "US"
                 }
               }
             }
           },
           {
-            "@type": "Question", 
+            "@type": "Question",
+            "@id": "https://justlegalsolutions.org/#question-2",
             "name": "How fast can you serve legal papers in Oklahoma?",
+            "text": "How fast can you serve legal papers in Oklahoma?",
             "answerCount": 1,
-            "datePublished": "2025-09-01T00:00:00Z",
-            "text": "Question about speed and timing of legal document delivery services in Oklahoma",
+            "dateCreated": "2025-09-01T00:00:00Z",
             "author": {
               "@type": "Organization",
               "name": businessName,
-              "url": "https://justlegalsolutions.org"
+              "url": "https://justlegalsolutions.org/"
             },
             "acceptedAnswer": {
               "@type": "Answer",
+              "@id": "https://justlegalsolutions.org/#answer-2",
               "text": "We offer 2-hour emergency service and same-day delivery statewide throughout Oklahoma.",
-              "url": "https://justlegalsolutions.org",
-              "upvoteCount": 156,
               "dateCreated": "2025-09-01T00:00:00Z",
+              "upvoteCount": 156,
+              "url": "https://justlegalsolutions.org/",
               "author": {
                 "@type": "Organization",
+                "@id": "https://justlegalsolutions.org/#organization",
                 "name": businessName,
-                "url": "https://justlegalsolutions.org"
+                "url": "https://justlegalsolutions.org/"
               }
             }
           },
           {
             "@type": "Question",
+            "@id": "https://justlegalsolutions.org/#question-3",
             "name": "What does process serving cost in Tulsa?",
+            "text": "What does process serving cost in Tulsa?",
             "answerCount": 1,
-            "datePublished": "2025-09-01T00:00:00Z",
-            "text": "Pricing information for professional process serving services in Tulsa, Oklahoma",
+            "dateCreated": "2025-09-01T00:00:00Z",
             "author": {
               "@type": "Organization",
               "name": businessName,
-              "url": "https://justlegalsolutions.org"
+              "url": "https://justlegalsolutions.org/"
             },
             "acceptedAnswer": {
               "@type": "Answer",
+              "@id": "https://justlegalsolutions.org/#answer-3",
               "text": "Process serving starts at $30 for standard delivery, $150 for same-day emergency service.",
-              "url": "https://justlegalsolutions.org",
-              "upvoteCount": 203,
               "dateCreated": "2025-09-01T00:00:00Z",
+              "upvoteCount": 203,
+              "url": "https://justlegalsolutions.org/",
               "author": {
                 "@type": "Organization",
+                "@id": "https://justlegalsolutions.org/#organization",
                 "name": businessName,
-                "url": "https://justlegalsolutions.org"
+                "url": "https://justlegalsolutions.org/"
               }
             }
           }
@@ -211,8 +236,11 @@ export default function AIVoiceSupremacy({
           <span itemProp="name">{businessName}</span>
           <span itemProp="telephone">{phone}</span>
           <span itemProp="address" itemScope itemType="https://schema.org/PostalAddress">
-            <span itemProp="addressLocality">Tulsa</span>
+            <span itemProp="streetAddress">564 E 138th PL</span>
+            <span itemProp="addressLocality">Glenpool</span>
             <span itemProp="addressRegion">Oklahoma</span>
+            <span itemProp="postalCode">74033</span>
+            <span itemProp="addressCountry">US</span>
           </span>
           <span itemProp="description">Professional process serving and legal document delivery throughout Oklahoma with same-day service.</span>
         </div>

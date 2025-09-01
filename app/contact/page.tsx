@@ -79,18 +79,19 @@ export default function ContactPage() {
             "url": "https://justlegalsolutions.org/contact",
             "mainEntity": {
               "@type": "LocalBusiness",
+      "@id": "https://justlegalsolutions.org/#localbusiness",
               "name": "Just Legal Solutions",
               "url": "https://justlegalsolutions.org",
               "telephone": "+15393676832",
               "email": "info@justlegalsolutions.org",
               "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "564 E 138th PL",
-                "addressLocality": "Glenpool",
-                "addressRegion": "OK",
-                "postalCode": "74033",
-                "addressCountry": "US"
-              },
+              "@type": "PostalAddress",
+              "streetAddress": "564 E 138th PL",
+              "addressLocality": "Glenpool",
+              "addressRegion": "OK",
+              "postalCode": "74033",
+              "addressCountry": "US"
+      },
               "openingHours": [
                 "Mo-Su 00:00-23:59"
               ],

@@ -48,7 +48,7 @@ export default function WebsiteSchema({
         "query-input": "required name=search_term_string"
       },
       {
-        "@type": "ContactAction",
+        "@type": "Action",
         "target": {
           "@type": "EntryPoint", 
           "urlTemplate": `${url}/card/calendar`,
@@ -61,17 +61,19 @@ export default function WebsiteSchema({
     ],
     "mainEntity": {
       "@type": "LocalBusiness",
+      "@id": "https://justlegalsolutions.org/#localbusiness",
       "name": name,
+      "description": description,
       "url": url,
       "telephone": "(539) 367-6832",
       "email": "info@justlegalsolutions.org",
       "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "564 E 138th PL",
-        "addressLocality": "Glenpool",
-        "addressRegion": "OK",
-        "postalCode": "74033",
-        "addressCountry": "US"
+              "@type": "PostalAddress",
+              "streetAddress": "564 E 138th PL",
+              "addressLocality": "Glenpool",
+              "addressRegion": "OK",
+              "postalCode": "74033",
+              "addressCountry": "US"
       },
       "areaServed": [
         {

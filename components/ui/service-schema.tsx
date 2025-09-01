@@ -23,6 +23,7 @@ export default function ServiceSchema({
     "serviceType": serviceType,
     "provider": {
       "@type": "LocalBusiness",
+      "@id": "https://justlegalsolutions.org/#localbusiness",
       "name": "Just Legal Solutions",
       "address": {
         "@type": "PostalAddress",
