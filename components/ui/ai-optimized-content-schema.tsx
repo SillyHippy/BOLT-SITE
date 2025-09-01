@@ -48,10 +48,10 @@ export default function AIOptimizedContentSchema({
             "http://schema.org/DesktopWebPlatform"
           ]
         },
-        "query-input": "required name=ai_query"
+        "query-input": "required"
       },
       {
-        "@type": "ContactAction",
+        "@type": "CommunicateAction",
         "target": {
           "@type": "EntryPoint",
           "urlTemplate": "tel:+15393676832",

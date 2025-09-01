@@ -49,7 +49,7 @@ export default function WebsiteSchema({
           "@type": "EntryPoint",
           "urlTemplate": `${url}/search?q={search_term_string}`
         },
-        "query-input": "required name=search_term_string"
+        "query-input": "required"
       },
       {
         "@type": "Action",

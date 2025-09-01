@@ -139,7 +139,7 @@ export default function GoogleSpecificOptimization({
         }
       },
       {
-        "@type": "ContactAction",
+        "@type": "CommunicateAction",
         "target": {
           "@type": "EntryPoint",
           "urlTemplate": "tel:+15393676832",

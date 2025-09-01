@@ -149,7 +149,7 @@ export default function ChatGPTOptimization({
         }
       },
       {
-        "@type": "ContactAction",
+        "@type": "CommunicateAction",
         "name": "Call for Immediate Service",
         "description": "Call for same-day or emergency process serving",
         "target": {

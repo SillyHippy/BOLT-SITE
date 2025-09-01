@@ -44,13 +44,7 @@ export default function PerformanceSchema({
       "fullKeyboardControl",
       "fullMouseControl",
       "fullTouchControl"
-    ],
-    "technicalInfo": {
-      "@type": "TechArticle",
-      "headline": "Page Performance Metrics",
-      "description": `Optimized page with ${loadTime}s load time and ${mobileOptimized ? 'mobile-first' : 'desktop'} design`,
-      "keywords": "performance, mobile optimization, fast loading, accessibility"
-    }
+    ]
   };
 
   return (

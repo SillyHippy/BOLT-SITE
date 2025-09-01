@@ -169,7 +169,7 @@ export default function AIAssistantOptimization({
         }
       },
       {
-        "@type": "ContactAction",
+        "@type": "CommunicateAction",
         "name": "Call for Emergency Service",
         "target": {
           "@type": "EntryPoint",

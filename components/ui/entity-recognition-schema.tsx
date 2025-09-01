@@ -60,7 +60,7 @@ export default function EntityRecognitionSchema({
     },
     "potentialAction": [
       {
-        "@type": "ContactAction",
+        "@type": "CommunicateAction",
         "target": "tel:+15393676832"
       },
       {
