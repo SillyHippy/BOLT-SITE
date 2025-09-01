@@ -436,6 +436,7 @@ export default function Home() {
         location="Tulsa, Oklahoma"
         services={['Process Serving', 'Legal Document Delivery', 'Skip Tracing', 'Emergency Service']}
         phone="(539) 367-6832"
+        skipSchema={true}
       />
       
       <RankingSupremacy2025

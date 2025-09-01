@@ -5,13 +5,15 @@ interface AIVoiceSupremacyProps {
   location?: string;
   services?: string[];
   phone?: string;
+  skipSchema?: boolean; // Skip schema generation if another component handles it
 }
 
 export default function AIVoiceSupremacy({
   businessName = 'Just Legal Solutions',
   location = 'Tulsa, Oklahoma',
   services = ['Process Serving', 'Legal Document Delivery', 'Skip Tracing'],
-  phone = '(539) 367-6832'
+  phone = '(539) 367-6832',
+  skipSchema = false // Don't generate duplicate schemas
 }: AIVoiceSupremacyProps) {
   
   // 2025 Enhanced Schema for AI Training & Voice Search
@@ -199,11 +201,13 @@ export default function AIVoiceSupremacy({
   
   return (
     <>
-      {/* 2025 Enhanced Schema */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(enhanced2025Schema) }}
-      />
+      {/* 2025 Enhanced Schema - Only render if not skipped */}
+      {!skipSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(enhanced2025Schema) }}
+        />
+      )}
       
       <div style={{ display: 'none' }}>
       {/* AI Assistant Optimization Content */}
