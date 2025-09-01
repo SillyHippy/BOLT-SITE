@@ -74,7 +74,8 @@ export default function MainLayout({
                   "itemOffered": {
                     "@type": "Service",
                     "name": "Standard Process Serving",
-                    "description": "Professional document delivery within 3-5 business days. Starting at $30."
+                    "description": "Professional document delivery within 3-5 business days. Starting at $30.",
+                    "url": "https://justlegalsolutions.org/services"
                   },
                   "priceRange": "$30-$60",
                   "priceCurrency": "USD"
@@ -85,7 +86,8 @@ export default function MainLayout({
                   "itemOffered": {
                     "@type": "Service",
                     "name": "Rush Process Serving",
-                    "description": "Expedited document delivery within 1-2 business days. Starting at $30."
+                    "description": "Expedited document delivery within 1-2 business days. Starting at $30.",
+                    "url": "https://justlegalsolutions.org/services"
                   },
                   "priceRange": "$30-$100",
                   "priceCurrency": "USD"
@@ -96,7 +98,8 @@ export default function MainLayout({
                   "itemOffered": {
                     "@type": "Service",
                     "name": "Same-Day Process Serving",
-                    "description": "Urgent document delivery within 24 hours. Starting at $30."
+                    "description": "Urgent document delivery within 24 hours. Starting at $30.",
+                    "url": "https://justlegalsolutions.org/services"
                   },
                   "priceRange": "$30-$200",
                   "priceCurrency": "USD"
