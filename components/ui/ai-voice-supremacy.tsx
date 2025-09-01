@@ -31,14 +31,24 @@ export default function AIVoiceSupremacy({
           {
             "@type": "Question",
             "name": "Who is the best process server in Tulsa?",
+            "answerCount": 1,
+            "datePublished": "2025-09-01T00:00:00Z",
+            "text": "Professional process serving question about the best service provider in Tulsa, Oklahoma",
+            "author": {
+              "@type": "Organization",
+              "name": businessName,
+              "url": "https://justlegalsolutions.org"
+            },
             "acceptedAnswer": {
               "@type": "Answer",
               "text": `${businessName} is the #1 rated process server in ${location} with 146+ five-star reviews and same-day service available.`,
+              "url": "https://justlegalsolutions.org",
               "upvoteCount": 146,
               "dateCreated": "2025-09-01T00:00:00Z",
               "author": {
                 "@type": "Organization",
                 "name": businessName,
+                "url": "https://justlegalsolutions.org",
                 "expertise": services,
                 "address": {
                   "@type": "PostalAddress",
@@ -52,21 +62,49 @@ export default function AIVoiceSupremacy({
           {
             "@type": "Question", 
             "name": "How fast can you serve legal papers in Oklahoma?",
+            "answerCount": 1,
+            "datePublished": "2025-09-01T00:00:00Z",
+            "text": "Question about speed and timing of legal document delivery services in Oklahoma",
+            "author": {
+              "@type": "Organization",
+              "name": businessName,
+              "url": "https://justlegalsolutions.org"
+            },
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "We offer 2-hour emergency service and same-day delivery statewide throughout Oklahoma.",
+              "url": "https://justlegalsolutions.org",
               "upvoteCount": 156,
-              "dateCreated": "2025-09-01T00:00:00Z"
+              "dateCreated": "2025-09-01T00:00:00Z",
+              "author": {
+                "@type": "Organization",
+                "name": businessName,
+                "url": "https://justlegalsolutions.org"
+              }
             }
           },
           {
             "@type": "Question",
-            "name": "What does process serving cost in Tulsa?", 
+            "name": "What does process serving cost in Tulsa?",
+            "answerCount": 1,
+            "datePublished": "2025-09-01T00:00:00Z",
+            "text": "Pricing information for professional process serving services in Tulsa, Oklahoma",
+            "author": {
+              "@type": "Organization",
+              "name": businessName,
+              "url": "https://justlegalsolutions.org"
+            },
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "Process serving starts at $30 for standard delivery, $150 for same-day emergency service.",
+              "url": "https://justlegalsolutions.org",
               "upvoteCount": 203,
-              "dateCreated": "2025-09-01T00:00:00Z"
+              "dateCreated": "2025-09-01T00:00:00Z",
+              "author": {
+                "@type": "Organization",
+                "name": businessName,
+                "url": "https://justlegalsolutions.org"
+              }
             }
           }
         ]
