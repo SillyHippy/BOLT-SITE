@@ -48,7 +48,7 @@ export default function SearchEngineUniversalOptimization({
             "@type": "SearchAction",
             "target": {
               "@type": "EntryPoint",
-              "urlTemplate": "https://justlegalsolutions.org/services?q={search_term_string}"
+              "urlTemplate": "https://justlegalsolutions.org/search?q={search_term_string}"
             },
             "query-input": "required"
           }
