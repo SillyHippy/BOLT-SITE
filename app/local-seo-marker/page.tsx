@@ -5,7 +5,10 @@ export const metadata = {
   title: 'Local SEO Marker - Just Legal Solutions',
   description: 'This page marks local SEO optimization for Just Legal Solutions. Our services are discoverable and optimized for local search in Oklahoma.',
   keywords: 'local seo, process server, oklahoma, just legal solutions',
-  robots: 'noindex'
+  robots: {
+    index: false,
+    follow: false
+  }
 };
 
 export default function LocalSEOMarker() {

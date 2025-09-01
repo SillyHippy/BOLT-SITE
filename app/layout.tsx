@@ -119,6 +119,12 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
         <meta name="cache-version" content="2025-06-29-v9-final-seo-optimization" />
+        
+        {/* Hreflang annotation for international SEO */}
+        <link rel="alternate" hrefLang="en-us" href="https://justlegalsolutions.org/" />
+        <link rel="alternate" hrefLang="en" href="https://justlegalsolutions.org/" />
+        <link rel="alternate" hrefLang="x-default" href="https://justlegalsolutions.org/" />
+        
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-984ZD882EX" strategy="afterInteractive" />
         <Script id="google-analytics" strategy="afterInteractive">
           {`

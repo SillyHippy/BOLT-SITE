@@ -5,7 +5,10 @@ export const metadata = {
   title: 'Multi-Search Marker - Just Legal Solutions',
   description: 'This page marks multi-search optimization for Just Legal Solutions. Our services are discoverable across all major search platforms and assistants.',
   keywords: 'multi-search, search engine, voice assistant, just legal solutions',
-  robots: 'noindex'
+  robots: {
+    index: false,
+    follow: false
+  }
 };
 
 export default function MultiSearchMarker() {

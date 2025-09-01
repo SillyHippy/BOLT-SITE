@@ -5,7 +5,10 @@ export const metadata = {
   title: 'Performance Marker - Just Legal Solutions',
   description: 'This page marks performance optimization for Just Legal Solutions. Our site is fast, reliable, and optimized for all devices.',
   keywords: 'performance, site speed, optimization, just legal solutions',
-  robots: 'noindex'
+  robots: {
+    index: false,
+    follow: false
+  }
 };
 
 export default function PerformanceMarker() {
