@@ -6,21 +6,21 @@ import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Process Server Service Areas Oklahoma | Statewide Coverage | Just Legal Solutions',
-  description: 'Professional process server serving statewide throughout Oklahoma. Complete coverage of all 77 counties with same-day service available. Licensed, bonded, and insured statewide.',
-  keywords: 'process server Oklahoma, statewide process serving, Oklahoma process serving, legal document service Oklahoma, court papers Oklahoma counties, skip tracing Oklahoma',
+  title: 'Oklahoma Counties Process Server | All 77 Counties Covered | Just Legal Solutions',
+  description: 'Professional process server covering all 77 Oklahoma counties. Complete county-by-county coverage including Tulsa, Oklahoma, Cleveland, and Comanche counties. Licensed and insured.',
+  keywords: 'Oklahoma counties process server, 77 counties Oklahoma, county process serving, Tulsa County process server, Oklahoma County process server, Cleveland County process server',
   openGraph: {
-    title: 'Process Server Service Areas Oklahoma | Statewide Coverage | Just Legal Solutions',
-    description: 'Professional process server serving statewide throughout all of Oklahoma. Complete county coverage with same-day service available.',
-    url: 'https://justlegalsolutions.org/service-areas',
+    title: 'Oklahoma Counties Process Server | All 77 Counties Covered | Just Legal Solutions',
+    description: 'Professional process server covering all 77 Oklahoma counties with complete county-by-county coverage.',
+    url: 'https://justlegalsolutions.org/counties',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Process Server Service Areas Oklahoma | Statewide Coverage',
-    description: 'Professional process server serving statewide throughout all of Oklahoma.',
+    title: 'Oklahoma Counties Process Server | All 77 Counties Covered',
+    description: 'Professional process server covering all 77 Oklahoma counties.',
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/counties',
@@ -154,10 +154,10 @@ export default function ServiceAreasHub() {
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">
               <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                Oklahoma Process Server <span className="text-yellow-400">Service Areas</span>
+                Oklahoma <span className="text-yellow-400">Counties</span> Process Server
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-blue-100">
-                Statewide Coverage • All 77 Counties • 500+ Cities • Same-Day Service Available
+                Complete County Coverage • All 77 Oklahoma Counties • Licensed & Insured Statewide
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
                 <div className="flex items-center gap-2 bg-green-600 px-6 py-3 rounded-lg font-semibold">

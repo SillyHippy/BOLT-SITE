@@ -55,7 +55,10 @@ jobs:
           
           # Create AI-friendly business page
           echo "<!DOCTYPE html>" > public/ai-business-info.html
-          echo "<html><head>" >> public/ai-business-info.html
+          echo "<html lang=\"en\"><head>" >> public/ai-business-info.html
+          echo "<meta charset=\"UTF-8\">" >> public/ai-business-info.html
+          echo "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">" >> public/ai-business-info.html
+          echo "<meta name=\"description\" content=\"Professional process server in Tulsa, Oklahoma - AI Assistant Ready\">" >> public/ai-business-info.html
           echo "<title>AI Assistant Ready - Process Server Tulsa Oklahoma</title>" >> public/ai-business-info.html
           echo "</head><body>" >> public/ai-business-info.html
           echo "<h1>Just Legal Solutions - Process Server Tulsa</h1>" >> public/ai-business-info.html

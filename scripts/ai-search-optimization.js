@@ -27,23 +27,12 @@ const aiOptimizedSchema = {
     "postalCode": "74101",
     "addressCountry": "US"
   },
-  "areaServed": [
-    {
-      "@type": "City",
-      "name": "Tulsa",
-      "sameAs": "https://en.wikipedia.org/wiki/Tulsa,_Oklahoma"
-    },
-    {
-      "@type": "City", 
-      "name": "Broken Arrow",
-      "sameAs": "https://en.wikipedia.org/wiki/Broken_Arrow,_Oklahoma"
-    },
-    {
-      "@type": "City",
-      "name": "Sapulpa", 
-      "sameAs": "https://en.wikipedia.org/wiki/Sapulpa,_Oklahoma"
-    }
-  ],
+  "areaServed": {
+    "@type": "State",
+    "name": "Oklahoma",
+    "sameAs": "https://en.wikipedia.org/wiki/Oklahoma",
+    "description": "Statewide process serving and legal document delivery throughout all 77 counties in Oklahoma"
+  },
   "serviceType": "Process Serving",
   "priceRange": "Contact for pricing",
   "hasOfferCatalog": {

@@ -6,6 +6,11 @@
 /seo/process-server-jenks /service-areas/jenks 301
 /jenks-process-server /service-areas/jenks 301
 
+# Redirect broken URLs identified in audit
+/seo/process-server-oakhurst/ /service-areas/tulsa 301
+/seo/oklahoma-process-server-requirements/ /oklahoma-process-server-best-practices-checklist-2025 301
+/seo/bixby-process-server/ /service-areas/bixby 301
+
 # Redirect tulsa-county to consolidated counties page
 /tulsa-county /counties/tulsa-county 301
 

@@ -37,13 +37,11 @@ export default function BusinessSchema() {
       "latitude": "35.9553",
       "longitude": "-95.9442"
     },
-    "areaServed": [
-      "Tulsa County",
-      "Rogers County", 
-      "Wagoner County",
-      "Creek County",
-      "Mayes County"
-    ],
+    "areaServed": {
+      "@type": "State",
+      "name": "Oklahoma",
+      "@id": "https://en.wikipedia.org/wiki/Oklahoma"
+    },
     "serviceType": [
       "Process Serving",
       "Legal Document Delivery",

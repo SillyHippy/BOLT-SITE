@@ -50,7 +50,11 @@ export default function MainLayout({
               "latitude": 36.154,
               "longitude": -95.9928
             },
-            "areaServed": ["Tulsa, OK", "Broken Arrow, OK", "Sapulpa, OK", "Bixby, OK", "Jenks, OK", "Sand Springs, OK"],
+            "areaServed": {
+              "@type": "State",
+              "name": "Oklahoma",
+              "@id": "https://en.wikipedia.org/wiki/Oklahoma"
+            },
             "serviceType": ["Process Serving", "Document Delivery", "Legal Courier Services", "Subpoena Service", "Court Filing"],
             "availableLanguage": ["English"],
             "paymentAccepted": ["Cash", "Credit Card", "Check", "Invoice"],
@@ -115,7 +119,7 @@ export default function MainLayout({
             "potentialAction": {
               "@type": "SearchAction",
               "target": "https://justlegalsolutions.org/search?q={search_term_string}",
-              "query-input": "required name=search_term_string"
+              "query-input-name": "search_term_string"
             }
           }) }}
         />

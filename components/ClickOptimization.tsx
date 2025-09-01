@@ -36,14 +36,11 @@ export default function ClickOptimization({
       "latitude": 36.1540,
       "longitude": -95.9928
     },
-    "areaServed": [
-      "Tulsa, OK",
-      "Broken Arrow, OK", 
-      "Owasso, OK",
-      "Bixby, OK",
-      "Jenks, OK",
-      "Sand Springs, OK"
-    ],
+    "areaServed": {
+      "@type": "State",
+      "name": "Oklahoma",
+      "@id": "https://en.wikipedia.org/wiki/Oklahoma"
+    },
     "serviceType": [
       "Process Serving",
       "Document Delivery", 

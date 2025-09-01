@@ -23,108 +23,11 @@ export const organizationSchema: WithContext<Organization> = {
     "latitude": "35.9473",
     "longitude": "-96.0006"
   },
-  "areaServed": [
-    {
-      "@type": "State",
-      "name": "Oklahoma",
-      "description": "Statewide process serving available with travel surcharge outside primary service area"
-    },
-    {
-      "@type": "City",
-      "name": "Tulsa",
-      "containedInPlace": {
-        "@type": "State",
-        "name": "Oklahoma"
-      },
-      "description": "Primary service area - standard rates, same-day and rush delivery available"
-    },
-    {
-      "@type": "City", 
-      "name": "Glenpool",
-      "containedInPlace": {
-        "@type": "State",
-        "name": "Oklahoma"
-      },
-      "description": "Headquarters location - immediate service availability at standard rates"
-    },
-    {
-      "@type": "City",
-      "name": "Broken Arrow",
-      "containedInPlace": {
-        "@type": "State",
-        "name": "Oklahoma"
-      },
-      "description": "Primary service area in Wagoner County - standard rates apply"
-    },
-    {
-      "@type": "City",
-      "name": "Sapulpa",
-      "containedInPlace": {
-        "@type": "State",
-        "name": "Oklahoma"
-      },
-      "description": "Primary service area in Creek County - standard rates apply"
-    },
-    {
-      "@type": "City",
-      "name": "Bixby",
-      "containedInPlace": {
-        "@type": "State",
-        "name": "Oklahoma"
-      },
-      "description": "Tulsa metro area - standard rates apply"
-    },
-    {
-      "@type": "City",
-      "name": "Oklahoma City",
-      "containedInPlace": {
-        "@type": "State",
-        "name": "Oklahoma"
-      },
-      "description": "Statewide service available with travel surcharge - contact for quote"
-    },
-    {
-      "@type": "City",
-      "name": "Norman",
-      "containedInPlace": {
-        "@type": "State",
-        "name": "Oklahoma"
-      },
-      "description": "Statewide service available with travel surcharge"
-    },
-    {
-      "@type": "City",
-      "name": "Lawton",
-      "containedInPlace": {
-        "@type": "State",
-        "name": "Oklahoma"
-      }
-    },
-    {
-      "@type": "City",
-      "name": "Edmond",
-      "containedInPlace": {
-        "@type": "State",
-        "name": "Oklahoma"
-      }
-    },
-    {
-      "@type": "City",
-      "name": "Stillwater",
-      "containedInPlace": {
-        "@type": "State",
-        "name": "Oklahoma"
-      }
-    },
-    {
-      "@type": "City",
-      "name": "Muskogee",
-      "containedInPlace": {
-        "@type": "State",
-        "name": "Oklahoma"
-      }
-    }
-  ],
+  "areaServed": {
+    "@type": "State",
+    "name": "Oklahoma",
+    "description": "Statewide process serving and legal document delivery throughout all 77 counties in Oklahoma"
+  },
   "telephone": "+15393676832",
   "email": "info@justlegalsolutions.org",
   "founder": {
@@ -144,15 +47,10 @@ export const organizationSchema: WithContext<Organization> = {
   "openingHoursSpecification": [
     {
       "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-      "opens": "09:00",
-      "closes": "17:00"
-    },
-    {
-      "@type": "OpeningHoursSpecification", 
-      "dayOfWeek": ["Saturday"],
-      "opens": "10:00",
-      "closes": "14:00"
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "opens": "00:00",
+      "closes": "23:59",
+      "description": "24/7 Emergency Service Available"
     }
   ],
   "priceRange": "$$",

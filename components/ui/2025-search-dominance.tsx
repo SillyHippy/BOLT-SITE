@@ -99,7 +99,7 @@ export default function SearchDominance2025({
                 'http://schema.org/VoiceApplication'
               ]
             },
-            'query-input': 'required name=search_term_string'
+            'query-input-name': 'search_term_string'
           }
         ],
         
@@ -129,40 +129,17 @@ export default function SearchDominance2025({
           }
         },
         
-        // Service area with enhanced coverage
-        'areaServed': [
-          {
-            '@type': 'City',
-            'name': 'Tulsa',
-            'containedInPlace': {
-              '@type': 'State',
-              'name': 'Oklahoma'
-            }
-          },
-          {
-            '@type': 'City', 
-            'name': 'Broken Arrow',
-            'containedInPlace': {
-              '@type': 'State',
-              'name': 'Oklahoma'
-            }
-          },
-          {
-            '@type': 'City',
-            'name': 'Owasso', 
-            'containedInPlace': {
-              '@type': 'State',
-              'name': 'Oklahoma'
-            }
+        // Service area - all of Oklahoma
+        'areaServed': {
+          '@type': 'State',
+          'name': 'Oklahoma',
+          'containedInPlace': {
+            '@type': 'Country',
+            'name': 'United States'
           }
-        ],
-        
-        // Provider reference
-        'provider': {
-          '@id': 'https://justlegalsolutions.org#organization'
         },
         
-        // Enhanced service offerings
+        // Enhanced service offerings (removed invalid provider property)
         'serviceType': primaryKeywords,
         'category': 'Legal Services',
         

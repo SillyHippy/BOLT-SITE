@@ -88,6 +88,11 @@ export default function SearchEngineUniversalOptimization({
         "priceRange": "$$",
         "currenciesAccepted": "USD",
         "paymentAccepted": ["Cash", "Credit Card", "Check"],
+        "areaServed": {
+          "@type": "State",
+          "name": "Oklahoma",
+          "@id": "https://en.wikipedia.org/wiki/Oklahoma"
+        },
         "aggregateRating": {
           "@type": "AggregateRating",
           "ratingValue": "4.9",
@@ -95,17 +100,42 @@ export default function SearchEngineUniversalOptimization({
         }
       },
       {
-        "@type": "Service",
+        "@type": ["Service", "ProfessionalService"],
         "@id": "https://justlegalsolutions.org/#service",
         "name": primaryService,
         "description": `Professional ${primaryService.toLowerCase()} throughout ${location} with guaranteed delivery and professional handling of all legal documents`,
         "provider": {
           "@id": "https://justlegalsolutions.org/#organization"
         },
-        "areaServed": {
-          "@type": "State",
-          "name": location
-        },
+        "telephone": "+15393676832",
+        "priceRange": "$$",
+        "image": "https://justlegalsolutions.org/images/tulsa-process-server.jpg",
+        "areaServed": [
+          {
+            "@type": "City",
+            "name": "Tulsa",
+            "containedInPlace": {
+              "@type": "State",
+              "name": "Oklahoma"
+            }
+          },
+          {
+            "@type": "City",
+            "name": "Broken Arrow", 
+            "containedInPlace": {
+              "@type": "State",
+              "name": "Oklahoma"
+            }
+          },
+          {
+            "@type": "City",
+            "name": "Owasso",
+            "containedInPlace": {
+              "@type": "State", 
+              "name": "Oklahoma"
+            }
+          }
+        ],
         "hasOfferCatalog": {
           "@type": "OfferCatalog",
           "name": `${primaryService} Options`,
@@ -134,7 +164,10 @@ export default function SearchEngineUniversalOptimization({
         "@id": "https://justlegalsolutions.org/#contact",
         "telephone": "+15393676832",
         "contactType": "customer service",
-        "areaServed": location,
+        "areaServed": {
+          "@type": "State",
+          "name": "Oklahoma"
+        },
         "availableLanguage": "English",
         "hoursAvailable": {
           "@type": "OpeningHoursSpecification", 

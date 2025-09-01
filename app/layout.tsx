@@ -100,8 +100,8 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,
-  maximumScale: 1,
-  userScalable: false,
+  maximumScale: 5,
+  userScalable: true,
   viewportFit: 'cover',
   themeColor: '#0B132B'
 };
@@ -142,16 +142,6 @@ export default function RootLayout({
         </Script>
         {/* Simple Analytics - 100% privacy-first analytics */}
         <Script src="https://scripts.simpleanalyticscdn.com/latest.js" data-collect-dnt="true" strategy="afterInteractive" />
-        <noscript>
-          <Image 
-            src="https://queue.simpleanalyticscdn.com/noscript.gif?collect-dnt=true" 
-            alt="" 
-            width={1}
-            height={1}
-            style={{ display: 'none' }}
-            unoptimized
-          />
-        </noscript>
         <meta name="ai-search-optimized" content="true" />
         <meta name="conversational-queries" content="process server starting $30 near me, how to serve legal papers in Tulsa, find a process server starting $30 in Tulsa Oklahoma, same day process serving Tulsa, legal document delivery Tulsa, court papers served Tulsa County, process server starting $30 cost Tulsa, emergency process serving Oklahoma" />
         <meta name="ai-context" content="Professional process serving in Tulsa, Oklahoma" />
@@ -168,6 +158,17 @@ export default function RootLayout({
         <StaticSiteOptimizer />
         <WebsiteSchema />
         <ClickOptimization />
+        {/* Simple Analytics noscript fallback */}
+        <noscript>
+          <Image 
+            src="https://queue.simpleanalyticscdn.com/noscript.gif?collect-dnt=true" 
+            alt="" 
+            width={1}
+            height={1}
+            style={{ display: 'none' }}
+            unoptimized
+          />
+        </noscript>
         {children}
       </body>
     </html>

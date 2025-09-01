@@ -235,6 +235,35 @@ export default function JenksProcessServer() {
           </div>
         </nav>
 
+        {/* Hero Section */}
+        <section className="bg-gradient-to-br from-blue-900 via-slate-900 to-blue-800 text-white py-20">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 className="text-4xl md:text-6xl font-bold mb-6">
+              Professional <span className="text-yellow-400">Jenks</span> Process Server
+            </h1>
+            <p className="text-xl md:text-2xl mb-8 text-blue-100 max-w-4xl mx-auto">
+              Expert legal document delivery in Jenks, Oklahoma. Serving the Oklahoma Aquarium area, Main Street District, and all residential neighborhoods with 24/7 emergency service.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
+              <div className="flex items-center gap-2 bg-green-600 px-6 py-3 rounded-lg font-semibold">
+                <CheckCircle className="w-5 h-5" />
+                Licensed & Bonded in Jenks
+              </div>
+              <div className="flex items-center gap-2 bg-blue-700 px-6 py-3 rounded-lg font-semibold">
+                <Clock className="w-5 h-5" />
+                Same-Day Service Available
+              </div>
+            </div>
+            <Link
+              href="/contact"
+              className="inline-flex items-center gap-2 bg-yellow-500 hover:bg-yellow-400 text-black font-bold py-4 px-8 rounded-lg text-lg transition-colors duration-200"
+            >
+              <Phone className="w-6 h-6" />
+              Call (539) 367-6832 Now
+            </Link>
+          </div>
+        </section>
+
         {/* Jenks Local Landmarks & Expertise */}
         <section className="bg-gradient-to-r from-blue-600 to-slate-700 text-white py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

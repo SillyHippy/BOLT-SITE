@@ -66,7 +66,7 @@ export default function StaticSEO2025({
                       "http://schema.org/VoiceApplication"
                     ]
                   },
-                  "query-input": "required name=search_term_string"
+                  "query-input-name": "search_term_string"
                 },
                 // 2025 AI Content Classification
                 "about": [

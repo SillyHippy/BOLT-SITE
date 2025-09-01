@@ -33,28 +33,11 @@ const advancedLocalBusinessSchema = {
     "latitude": 36.1540,
     "longitude": -95.9928
   },
-  "areaServed": [
-    {
-      "@type": "City",
-      "name": "Tulsa",
-      "addressRegion": "Oklahoma"
-    },
-    {
-      "@type": "City", 
-      "name": "Broken Arrow",
-      "addressRegion": "Oklahoma"
-    },
-    {
-      "@type": "City",
-      "name": "Sapulpa", 
-      "addressRegion": "Oklahoma"
-    },
-    {
-      "@type": "City",
-      "name": "Bixby",
-      "addressRegion": "Oklahoma"
-    }
-  ],
+  "areaServed": {
+    "@type": "State",
+    "name": "Oklahoma",
+    "description": "Statewide process serving and legal document delivery throughout all 77 counties in Oklahoma"
+  },
   "openingHours": [
     "Mo-Su 00:00-23:59"
   ],

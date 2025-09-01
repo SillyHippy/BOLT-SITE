@@ -24,7 +24,7 @@ const searchEngineOptimizations = {
       'potentialAction': {
         '@type': 'SearchAction',
         'target': 'https://justlegalsolutions.org/search?q={search_term_string}',
-        'query-input': 'required name=search_term_string'
+        'query-input-name': 'search_term_string'
       }
     }
   },

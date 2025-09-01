@@ -52,50 +52,13 @@ export const enhancedLocalBusinessSchema = {
     "longitude": "-95.9442"
   },
   
-  // Enhanced Service Areas (All 77 Oklahoma Counties)
-  "areaServed": [
-    {
-      "@type": "AdministrativeArea",
-      "name": "Tulsa County",
-      "containsPlace": [
-        {"@type": "City", "name": "Tulsa"},
-        {"@type": "City", "name": "Broken Arrow"},
-        {"@type": "City", "name": "Jenks"},
-        {"@type": "City", "name": "Bixby"},
-        {"@type": "City", "name": "Sand Springs"},
-        {"@type": "City", "name": "Owasso"},
-        {"@type": "City", "name": "Glenpool"}
-      ]
-    },
-    {
-      "@type": "AdministrativeArea", 
-      "name": "Creek County",
-      "containsPlace": [
-        {"@type": "City", "name": "Sapulpa"},
-        {"@type": "City", "name": "Kiefer"},
-        {"@type": "City", "name": "Mounds"}
-      ]
-    },
-    {
-      "@type": "AdministrativeArea",
-      "name": "Wagoner County", 
-      "containsPlace": [
-        {"@type": "City", "name": "Wagoner"},
-        {"@type": "City", "name": "Coweta"}
-      ]
-    },
-    {
-      "@type": "AdministrativeArea",
-      "name": "Rogers County",
-      "containsPlace": [
-        {"@type": "City", "name": "Claremore"},
-        {"@type": "City", "name": "Catoosa"}
-      ]
-    },
-    {"@type": "AdministrativeArea", "name": "Oklahoma County"},
-    {"@type": "AdministrativeArea", "name": "Cleveland County"},
-    {"@type": "AdministrativeArea", "name": "All 77 Oklahoma Counties"}
-  ],
+  // Enhanced Service Areas (All of Oklahoma)
+  "areaServed": {
+    "@type": "State",
+    "name": "Oklahoma",
+    "@id": "https://en.wikipedia.org/wiki/Oklahoma",
+    "description": "Statewide process serving and legal document delivery throughout all 77 counties in Oklahoma"
+  },
   
   // Enhanced Business Hours
   "openingHours": [
