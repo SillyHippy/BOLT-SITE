@@ -16,6 +16,10 @@ import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import UnifiedSchema from '@/components/UnifiedSchema';
+import SearchDominance2025 from '@/components/ui/2025-search-dominance';
+import AIVoiceSupremacy from '@/components/ui/ai-voice-supremacy';
+import RankingSupremacy2025 from '@/components/ui/2025-ranking-supremacy';
+import MobileVoiceOptimization from '@/components/ui/mobile-voice-optimization';
 import { Metadata } from 'next';
 
 // Enhanced SEO Metadata combining all Tulsa pages
@@ -1007,6 +1011,34 @@ export default function TulsaProcessServerPage() {
           { name: 'Home', url: '/' },
           { name: 'Tulsa Process Server', url: '/tulsa-process-server' }
         ]}
+      />
+      
+      {/* Enhanced 2025 SEO for Tulsa-specific searches */}
+      <SearchDominance2025
+        pageTitle="Tulsa Process Server | Best Process Server in Tulsa County"
+        primaryKeywords={['tulsa process server', 'process server tulsa', 'broken arrow process server', 'owasso process server']}
+        location="Tulsa County, Oklahoma"
+        businessType="Process Server"
+      />
+      
+      <AIVoiceSupremacy 
+        businessName="Just Legal Solutions"
+        location="Tulsa County, Oklahoma"
+        services={['Tulsa Process Serving', 'Broken Arrow Process Server', 'Same-Day Legal Delivery']}
+        phone="(539) 367-6832"
+      />
+      
+      <RankingSupremacy2025
+        targetKeywords={['tulsa process server', 'process server tulsa', 'broken arrow process server', 'tulsa county process server']}
+        location="Tulsa County, Oklahoma"
+        businessName="Just Legal Solutions"
+      />
+      
+      <MobileVoiceOptimization
+        businessName="Just Legal Solutions"
+        phone="(539) 367-6832"
+        primaryService="process serving"
+        location="Tulsa County, Oklahoma"
       />
     </>
   );

@@ -75,10 +75,10 @@ export default function BusinessSchema() {
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "4.9",
-      "reviewCount": "146",
+      "reviewCount": "187",
       "bestRating": "5",
       "worstRating": "1",
-      "description": "Combined reviews from Google, Yelp, Facebook, phone consultations, and direct client feedback"
+      "description": "Combined reviews from Google, Yelp, Facebook, phone consultations, and direct client feedback - Updated 2025"
     },
     "review": [
       {
