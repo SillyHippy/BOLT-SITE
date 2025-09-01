@@ -298,7 +298,7 @@ const localBusinessSchema = {
   ],
   "serviceType": "Process Server",
   "priceRange": "$30-$200",
-  "foundingDate": "2025-03",
+  "foundingDate": "2025-03-01",
   "slogan": "Professional Process Serving Throughout Oklahoma - Licensed, Bonded, Available 24/7",
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
@@ -310,7 +310,8 @@ const localBusinessSchema = {
         "itemOffered": {
           "@type": "Service",
           "name": "Emergency Same-Day Process Serving",
-          "description": "Urgent legal document delivery within 2-4 hours"
+          "description": "Urgent legal document delivery within 2-4 hours",
+          "url": "https://justlegalsolutions.org/services"
         },
         "priceRange": "$150-$200"
       },
@@ -320,7 +321,8 @@ const localBusinessSchema = {
         "itemOffered": {
           "@type": "Service",
           "name": "Standard Process Serving",
-          "description": "Professional document delivery within 24-48 hours"
+          "description": "Professional document delivery within 24-48 hours",
+          "url": "https://justlegalsolutions.org/services"
         },
         "priceRange": "$60-$100"
       },
@@ -330,7 +332,8 @@ const localBusinessSchema = {
         "itemOffered": {
           "@type": "Service",
           "name": "Skip Tracing Service",
-          "description": "Advanced location services for difficult-to-find individuals"
+          "description": "Advanced location services for difficult-to-find individuals",
+          "url": "https://justlegalsolutions.org/services"
         },
         "priceRange": "$100-$300"
       },
@@ -340,7 +343,8 @@ const localBusinessSchema = {
         "itemOffered": {
           "@type": "Service",
           "name": "Divorce Paper Service",
-          "description": "Sensitive family law document delivery"
+          "description": "Sensitive family law document delivery",
+          "url": "https://justlegalsolutions.org/services"
         },
         "priceRange": "$30-$120"
       },
@@ -350,7 +354,8 @@ const localBusinessSchema = {
         "itemOffered": {
           "@type": "Service",
           "name": "Business Litigation Service",
-          "description": "Commercial legal document delivery"
+          "description": "Commercial legal document delivery",
+          "url": "https://justlegalsolutions.org/services"
         },
         "priceRange": "$30-$150"
       }

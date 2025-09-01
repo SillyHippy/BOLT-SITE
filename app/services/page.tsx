@@ -93,37 +93,43 @@ export default function ServicesPage() {
                 "@type": "Service",
                 "position": 1,
                 "name": "Executive Support",
-                "description": "Professional administrative assistance for executives, helping manage schedules, communications, and day-to-day operations."
+                "description": "Professional administrative assistance for executives, helping manage schedules, communications, and day-to-day operations.",
+                "url": "https://justlegalsolutions.org/services"
               },
               {
                 "@type": "Service",
                 "position": 2,
                 "name": "Event Coordination",
-                "description": "End-to-end event planning and management services for corporate events, team building, and special occasions."
+                "description": "End-to-end event planning and management services for corporate events, team building, and special occasions.",
+                "url": "https://justlegalsolutions.org/services"
               },
               {
                 "@type": "Service",
                 "position": 3,
                 "name": "HR & Payroll",
-                "description": "Comprehensive human resources support including recruitment, employee management, and payroll processing."
+                "description": "Comprehensive human resources support including recruitment, employee management, and payroll processing.",
+                "url": "https://justlegalsolutions.org/services"
               },
               {
                 "@type": "Service",
                 "position": 4,
                 "name": "Travel Management",
-                "description": "Business travel planning, booking, and expense management to optimize your corporate travel experience."
+                "description": "Business travel planning, booking, and expense management to optimize your corporate travel experience.",
+                "url": "https://justlegalsolutions.org/services"
               },
               {
                 "@type": "Service",
                 "position": 5,
                 "name": "General Customer Service",
-                "description": "Reliable customer service solutions to manage inquiries and support your clients effectively via various channels."
+                "description": "Reliable customer service solutions to manage inquiries and support your clients effectively via various channels.",
+                "url": "https://justlegalsolutions.org/services"
               },
               {
                 "@type": "Service",
                 "position": 6,
                 "name": "Data Entry",
-                "description": "Accurate and efficient data entry services to manage your information seamlessly across various platforms."
+                "description": "Accurate and efficient data entry services to manage your information seamlessly across various platforms.",
+                "url": "https://justlegalsolutions.org/services"
               }
             ]
           })

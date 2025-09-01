@@ -21,6 +21,7 @@ export default function BingYahooOptimization({
     "alternateName": ["JLS Process Server", "Just Legal Solutions Oklahoma"],
     "description": "Oklahoma's premier process serving company providing professional legal document delivery with 24/7 emergency service throughout the state",
     "url": "https://justlegalsolutions.org",
+    "telephone": "(539) 367-6832",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "564 E 138th PL",
@@ -108,7 +109,7 @@ export default function BingYahooOptimization({
       "slogan": "Professional Process Serving - Available 24/7"
     },
     "award": "Top-Rated Oklahoma Process Server",
-    "foundingDate": "2020",
+    "foundingDate": "2025-03-01",
     "numberOfEmployees": {
       "@type": "QuantitativeValue",
       "value": "3-10"

@@ -201,7 +201,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
       ]
     } : {
       name: 'Just Legal Solutions',
-      logo: '/images/jls-logo.webp',
+      logo: 'https://justlegalsolutions.org/images/jls-logo.webp',
       address: {
         streetAddress: '564 E 138th PL',
         addressLocality: 'Glenpool',
@@ -224,7 +224,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
       worstRating: 1
     } : undefined,
     // Extract other properties
-    image = '/images/jls-logo.webp',
+    image = 'https://justlegalsolutions.org/images/jls-logo.webp',
     datePublished,
     dateModified,
     faqItems = [],
@@ -370,7 +370,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
       if (organization.email) (organizationSchema as any).email = organization.email;
       
       // 2025 SEO Dominance Features
-      (organizationSchema as any).foundingDate = '2020-01-01';
+      (organizationSchema as any).foundingDate = '2025-03-01';
       (organizationSchema as any).slogan = 'Oklahoma\'s #1 Process Server - Professional, Fast, Reliable';
       (organizationSchema as any).areaServed = [
         {

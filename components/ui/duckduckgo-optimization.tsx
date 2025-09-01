@@ -85,14 +85,6 @@ export default function DuckDuckGoOptimization({
       },
       "availability": "https://schema.org/InStock"
     },
-    ...(privacyFocused && {
-      "privacyPolicy": "https://justlegalsolutions.org/security-policy",
-      "termsOfService": "https://justlegalsolutions.org/security-policy",
-      "dataProtection": {
-        "@type": "DataProtection",
-        "description": "All client information and legal documents are handled with strict confidentiality and professional discretion"
-      }
-    }),
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "Process Serving Services",

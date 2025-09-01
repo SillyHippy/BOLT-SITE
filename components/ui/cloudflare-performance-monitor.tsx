@@ -110,7 +110,7 @@ export default function CloudflarePerformanceMonitor() {
 
       // Preload critical resources for CDN
       const criticalResources = [
-        '/images/jls-logo.webp',
+        'https://justlegalsolutions.org/images/jls-logo.webp',
         '/pricing',
         '/services'
       ];

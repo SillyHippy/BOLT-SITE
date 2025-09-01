@@ -106,6 +106,15 @@ export default function SearchEngineUniversalOptimization({
         "@id": "https://justlegalsolutions.org/#service",
         "name": primaryService,
         "description": `Professional ${primaryService.toLowerCase()} throughout ${location} with guaranteed delivery and professional handling of all legal documents`,
+        "url": "https://justlegalsolutions.org/services",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "564 E 138th PL",
+          "addressLocality": "Glenpool",
+          "addressRegion": "OK",
+          "postalCode": "74033",
+          "addressCountry": "US"
+        },
         "provider": {
           "@id": "https://justlegalsolutions.org/#organization"
         },

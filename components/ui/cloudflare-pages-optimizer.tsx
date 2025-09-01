@@ -37,7 +37,7 @@ export default function CloudflarePagesOptimizer({
     if (enableCDNPrefetch) {
       const criticalResources = [
         '/images/hero.webp',
-        '/images/jls-logo.webp',
+        'https://justlegalsolutions.org/images/jls-logo.webp',
         '/pricing',
         '/services'
       ];

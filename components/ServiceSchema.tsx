@@ -6,6 +6,7 @@ export default function ServiceSchema() {
     "@type": "Service",
     "name": "Process Serving Services",
     "description": "Professional legal document delivery and process serving throughout Tulsa County, Oklahoma.",
+    "url": "https://justlegalsolutions.org/services",
     "provider": {
       "@type": "LocalBusiness",
       "@id": "https://justlegalsolutions.org/#organization",
@@ -39,7 +40,8 @@ export default function ServiceSchema() {
           "itemOffered": {
             "@type": "Service",
             "name": "Standard Process Serving",
-            "description": "Professional document delivery within 3-5 business days"
+            "description": "Professional document delivery within 3-5 business days",
+            "url": "https://justlegalsolutions.org/services"
           },
           "price": "60",
           "priceCurrency": "USD"
@@ -49,7 +51,8 @@ export default function ServiceSchema() {
           "itemOffered": {
             "@type": "Service",
             "name": "Rush Process Serving",
-            "description": "Expedited document delivery within 1-2 business days"
+            "description": "Expedited document delivery within 1-2 business days",
+            "url": "https://justlegalsolutions.org/services"
           },
           "price": "100",
           "priceCurrency": "USD"
@@ -59,7 +62,8 @@ export default function ServiceSchema() {
           "itemOffered": {
             "@type": "Service", 
             "name": "Same-Day Process Serving",
-            "description": "Urgent document delivery on the same day"
+            "description": "Urgent document delivery on the same day",
+            "url": "https://justlegalsolutions.org/services"
           },
           "price": "150",
           "priceCurrency": "USD"
@@ -69,7 +73,8 @@ export default function ServiceSchema() {
           "itemOffered": {
             "@type": "Service",
             "name": "Emergency Process Serving", 
-            "description": "Critical document delivery within 2 hours"
+            "description": "Critical document delivery within 2 hours",
+            "url": "https://justlegalsolutions.org/services"
           },
           "price": "200",
           "priceCurrency": "USD"

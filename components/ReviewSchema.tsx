@@ -42,7 +42,8 @@ export default function ReviewSchema({
         "itemReviewed": {
           "@type": "Service",
           "name": "Process Serving Services",
-          "description": "Professional legal document delivery services"
+          "description": "Professional legal document delivery services",
+          "url": "https://justlegalsolutions.org/services"
         },
         "author": {
           "@type": "Person",
@@ -61,7 +62,8 @@ export default function ReviewSchema({
         "itemReviewed": {
           "@type": "Service",
           "name": "Process Serving Services",
-          "description": "Professional legal document delivery services"
+          "description": "Professional legal document delivery services",
+          "url": "https://justlegalsolutions.org/services"
         },
         "author": {
           "@type": "Person",

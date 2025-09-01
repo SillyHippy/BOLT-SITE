@@ -89,7 +89,8 @@ export const enhancedLocalBusinessSchema = {
         "itemOffered": {
           "@type": "Service",
           "name": "Standard Process Serving",
-          "description": "Professional legal document delivery within 3-5 business days"
+          "description": "Professional legal document delivery within 3-5 business days",
+          "url": "https://justlegalsolutions.org/services"
         },
         "price": "60.00",
         "priceCurrency": "USD"
@@ -99,7 +100,8 @@ export const enhancedLocalBusinessSchema = {
         "itemOffered": {
           "@type": "Service",
           "name": "Rush Process Serving",
-          "description": "Expedited legal document delivery within 24-48 hours"
+          "description": "Expedited legal document delivery within 24-48 hours",
+          "url": "https://justlegalsolutions.org/services"
         },
         "price": "100.00",
         "priceCurrency": "USD"
@@ -109,7 +111,8 @@ export const enhancedLocalBusinessSchema = {
         "itemOffered": {
           "@type": "Service", 
           "name": "Same-Day Process Serving",
-          "description": "Emergency legal document delivery within 2-8 hours"
+          "description": "Emergency legal document delivery within 2-8 hours",
+          "url": "https://justlegalsolutions.org/services"
         },
         "price": "150.00",
         "priceCurrency": "USD"
@@ -159,7 +162,7 @@ export const enhancedLocalBusinessSchema = {
   ],
   
   // Operating Since
-  "foundingDate": "2020",
+  "foundingDate": "2025-03-01",
   
   // Additional Properties for Rich Results
   "knowsAbout": [
