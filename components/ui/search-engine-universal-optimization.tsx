@@ -65,8 +65,10 @@ export default function SearchEngineUniversalOptimization({
         "email": "info@justlegalsolutions.org",
         "address": {
           "@type": "PostalAddress",
-          "addressLocality": "Tulsa",
-          "addressRegion": location,
+          "streetAddress": "564 E 138th PL",
+          "addressLocality": "Glenpool",
+          "addressRegion": "OK",
+          "postalCode": "74033",
           "addressCountry": "US"
         },
         "geo": {

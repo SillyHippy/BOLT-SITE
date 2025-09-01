@@ -38,9 +38,11 @@ export default function EnhancedLocationFAQ({ city, county, isNewLocation = fals
     "mainEntity": newLocationQuestions.map(item => ({
       "@type": "Question",
       "name": item.question,
+      "answerCount": 1,
       "acceptedAnswer": {
         "@type": "Answer",
         "text": item.answer,
+        "url": "https://justlegalsolutions.org",
         "author": {
           "@type": "Organization",
           "name": "Just Legal Solutions",

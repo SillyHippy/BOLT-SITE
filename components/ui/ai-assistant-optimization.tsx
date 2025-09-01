@@ -181,6 +181,7 @@ export default function AIAssistantOptimization({
       {
         "@type": "Question",
         "name": "What does a process server do?",
+        "answerCount": 1,
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "A process server delivers legal documents to notify parties of court proceedings. Just Legal Solutions provides professional process serving throughout Oklahoma with same-day service available."
@@ -189,6 +190,7 @@ export default function AIAssistantOptimization({
       {
         "@type": "Question",
         "name": "How quickly can you serve documents?",
+        "answerCount": 1,
         "acceptedAnswer": {
           "@type": "Answer", 
           "text": "We offer same-day process serving throughout Oklahoma, with emergency 2-hour service available for urgent legal matters."
@@ -197,6 +199,7 @@ export default function AIAssistantOptimization({
       {
         "@type": "Question",
         "name": "Do you serve documents outside of Tulsa?",
+        "answerCount": 1,
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes, Just Legal Solutions provides statewide process serving throughout all of Oklahoma, including Oklahoma City, Tulsa, Norman, and all surrounding areas."

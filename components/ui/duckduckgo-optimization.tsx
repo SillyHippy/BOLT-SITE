@@ -49,6 +49,7 @@ export default function DuckDuckGoOptimization({
         {
           "@type": "Question",
           "name": "What is process serving?",
+          "answerCount": 1,
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Process serving is the legal delivery of court documents to notify parties of legal proceedings. Professional process servers ensure proper legal notification according to state requirements."
@@ -57,6 +58,7 @@ export default function DuckDuckGoOptimization({
         {
           "@type": "Question", 
           "name": "How much does process serving cost in Oklahoma?",
+          "answerCount": 1,
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Process serving costs vary based on urgency and complexity. Contact Just Legal Solutions for a professional quote tailored to your specific legal document delivery needs."
@@ -65,6 +67,7 @@ export default function DuckDuckGoOptimization({
         {
           "@type": "Question",
           "name": "Is emergency process serving available?",
+          "answerCount": 1,
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Yes, Just Legal Solutions provides 24/7 emergency process serving throughout Oklahoma when time-sensitive situations require immediate legal document delivery."

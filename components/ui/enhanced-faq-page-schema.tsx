@@ -22,6 +22,7 @@ export default function EnhancedFAQPageSchema({ faqs, pageTitle, pageUrl }: Enha
     "mainEntity": faqs.map((faq) => ({
       "@type": "Question",
       "name": faq.question,
+      "answerCount": 1,
       "acceptedAnswer": {
         "@type": "Answer",
         "text": faq.answer

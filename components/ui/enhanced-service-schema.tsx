@@ -36,8 +36,10 @@ export default function EnhancedServiceSchema({
       "name": "Just Legal Solutions",
       "address": {
         "@type": "PostalAddress",
-        "addressLocality": "Tulsa",
-        "addressRegion": "Oklahoma",
+        "streetAddress": "564 E 138th PL",
+        "addressLocality": "Glenpool",
+        "addressRegion": "OK",
+        "postalCode": "74033",
         "addressCountry": "US"
       },
       "telephone": contactInfo.phone,
@@ -76,7 +78,15 @@ export default function EnhancedServiceSchema({
       "validFrom": new Date().toISOString().split('T')[0],
       "seller": {
         "@type": "LocalBusiness",
-        "name": "Just Legal Solutions"
+        "name": "Just Legal Solutions",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "564 E 138th PL",
+          "addressLocality": "Glenpool",
+          "addressRegion": "OK",
+          "postalCode": "74033",
+          "addressCountry": "US"
+        }
       }
     },
     "hasOfferCatalog": {
@@ -156,7 +166,15 @@ export default function EnhancedServiceSchema({
         "name": "Legal Document Delivery",
         "provider": {
           "@type": "LocalBusiness",
-          "name": "Just Legal Solutions"
+          "name": "Just Legal Solutions",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "564 E 138th PL",
+            "addressLocality": "Glenpool",
+            "addressRegion": "OK",
+            "postalCode": "74033",
+            "addressCountry": "US"
+          }
         }
       },
       {
@@ -164,7 +182,15 @@ export default function EnhancedServiceSchema({
         "name": "Court Filing Services",
         "provider": {
           "@type": "LocalBusiness",
-          "name": "Just Legal Solutions"
+          "name": "Just Legal Solutions",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "564 E 138th PL",
+            "addressLocality": "Glenpool",
+            "addressRegion": "OK",
+            "postalCode": "74033",
+            "addressCountry": "US"
+          }
         }
       }
     ]

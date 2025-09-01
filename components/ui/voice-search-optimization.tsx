@@ -33,6 +33,7 @@ export default function VoiceSearchOptimization({
       "acceptedAnswer": {
         "@type": "Answer",
         "text": conversationalAnswers[index] || "Contact Just Legal Solutions for expert assistance.",
+        "url": "https://justlegalsolutions.org",
         "speakable": {
           "@type": "SpeakableSpecification",
           "cssSelector": ".voice-answer"

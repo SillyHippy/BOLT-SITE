@@ -19,6 +19,14 @@ export default function ReviewSchema({
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": businessName,
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "564 E 138th PL",
+      "addressLocality": "Glenpool",
+      "addressRegion": "OK",
+      "postalCode": "74033",
+      "addressCountry": "US"
+    },
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": averageRating,

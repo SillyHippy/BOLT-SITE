@@ -83,6 +83,14 @@ export default function AIOptimizedContentSchema({
       "@type": "LocalBusiness",
       "name": "Just Legal Solutions",
       "description": topicalAuthority,
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "564 E 138th PL",
+        "addressLocality": "Glenpool",
+        "addressRegion": "OK",
+        "postalCode": "74033",
+        "addressCountry": "US"
+      },
       "expertise": [
         "Process Serving",
         "Legal Document Delivery",

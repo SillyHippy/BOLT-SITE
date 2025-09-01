@@ -33,6 +33,14 @@ export default function ReviewAggregateSchema() {
     "mainEntity": {
       "@type": "LocalBusiness",
       "name": "Just Legal Solutions",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "564 E 138th PL",
+        "addressLocality": "Glenpool",
+        "addressRegion": "OK",
+        "postalCode": "74033",
+        "addressCountry": "US"
+      },
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.9",

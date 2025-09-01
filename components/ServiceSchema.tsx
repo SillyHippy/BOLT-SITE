@@ -12,8 +12,10 @@ export default function ServiceSchema() {
       "telephone": "(539) 367-6832",
       "address": {
         "@type": "PostalAddress",
-        "addressLocality": "Tulsa",
+        "streetAddress": "564 E 138th PL",
+        "addressLocality": "Glenpool",
         "addressRegion": "OK",
+        "postalCode": "74033",
         "addressCountry": "US"
       }
     },

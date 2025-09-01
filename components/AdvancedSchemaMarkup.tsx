@@ -31,7 +31,15 @@ export default function AdvancedSchemaMarkup({ pageType = 'home', serviceName }:
         return {
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          "name": "Just Legal Solutions"
+          "name": "Just Legal Solutions",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "564 E 138th PL",
+            "addressLocality": "Glenpool",
+            "addressRegion": "OK",
+            "postalCode": "74033",
+            "addressCountry": "US"
+          }
         };
     }
   };
