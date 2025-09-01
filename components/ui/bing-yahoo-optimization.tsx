@@ -16,6 +16,7 @@ export default function BingYahooOptimization({
   const bingOptimizedSchema = {
     "@context": "https://schema.org",
     "@type": ["LegalService", "LocalBusiness", "ProfessionalService"],
+    "@id": "https://justlegalsolutions.org/#organization",
     "name": businessName,
     "alternateName": ["JLS Process Server", "Just Legal Solutions Oklahoma"],
     "description": "Oklahoma's premier process serving company providing professional legal document delivery with 24/7 emergency service throughout the state",

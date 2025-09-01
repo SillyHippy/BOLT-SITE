@@ -28,6 +28,7 @@ export default function MainLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": ["LocalBusiness", "ProfessionalService"],
+            "@id": "https://justlegalsolutions.org/#organization",
             "name": "Just Legal Solutions - Tulsa Process Server",
             "url": "https://justlegalsolutions.org",
             "telephone": "(539) 367-6832",

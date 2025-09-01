@@ -20,6 +20,7 @@ export default function AIAssistantOptimization({
   const aiAssistantSchema = {
     "@context": "https://schema.org",
     "@type": ["LegalService", "LocalBusiness", "ProfessionalService"],
+    "@id": "https://justlegalsolutions.org/#organization",
     "name": businessName,
     "alternateName": ["JLS Process Server", "Just Legal Solutions Oklahoma", "Tulsa Process Server"],
     "description": `${businessName} is Oklahoma's premier process serving company, specializing in professional legal document delivery throughout ${serviceLocation}. We provide 24/7 emergency service, same-day delivery, and comprehensive legal support services including skip tracing and court filing assistance.`,

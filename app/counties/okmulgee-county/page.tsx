@@ -40,6 +40,7 @@ export default function OkmulgeeCountyPage() {
   const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
+    "@id": "https://justlegalsolutions.org/counties/okmulgee-county#localbusiness",
     "name": "Just Legal Solutions - Okmulgee County Process Server",
     "description": "Professional process server for Okmulgee County, Oklahoma. Licensed and bonded legal document service.",
     "url": "https://justlegalsolutions.org/counties/okmulgee-county",
