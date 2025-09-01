@@ -18,24 +18,24 @@
   Cache-control: public, max-age=31536000, immutable
 
 # Cache fonts for 1 year
-*.woff2:
+/*.woff2
   Cache-Control: public, max-age=31536000, immutable
   Content-Type: font/woff2
-*.woff:
+/*.woff
   Cache-Control: public, max-age=31536000, immutable
   Content-Type: font/woff
 
 # Cache static images for 1 year with compression hints
 /images/*
   Cache-Control: public, max-age=31536000, immutable
-*.webp:
+/*.webp
   Cache-Control: public, max-age=31536000, immutable
   Content-Type: image/webp
-*.jpg:
+/*.jpg
   Cache-Control: public, max-age=31536000, immutable
-*.jpeg:
+/*.jpeg
   Cache-Control: public, max-age=31536000, immutable
-*.png:
+/*.png
   Cache-Control: public, max-age=31536000, immutable
 
 # Cache sitemap for 6 hours
