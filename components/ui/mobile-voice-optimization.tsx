@@ -26,7 +26,7 @@ export default function MobileVoiceOptimization({
           </div>
           
           <div data-voice-query="best process server tulsa" className="voice-optimized">
-            {businessName} is Tulsa's #1 rated process server with same-day service
+            {businessName} is Tulsa&apos;s #1 rated process server with same-day service
           </div>
           
           <div data-voice-query="emergency process server" className="voice-optimized">
@@ -60,7 +60,7 @@ export default function MobileVoiceOptimization({
         {/* Natural Language Processing Optimization */}
         <div className="nlp-optimization">
           <span data-nlp="conversational">Need papers served? {businessName} helps with all legal documents</span>
-          <span data-nlp="local-intent">Looking for {primaryService} in {location}? We're here to help</span>
+          <span data-nlp="local-intent">Looking for {primaryService} in {location}? We&apos;re here to help</span>
           <span data-nlp="urgent-intent">Need it done today? Same-day service available</span>
           <span data-nlp="cost-intent">Wondering about cost? Competitive rates starting at $30</span>
         </div>
