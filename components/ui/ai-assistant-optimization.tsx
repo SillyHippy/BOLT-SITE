@@ -26,8 +26,18 @@ export default function AIAssistantOptimization({
     "description": `${businessName} is Oklahoma's premier process serving company, specializing in professional legal document delivery throughout ${serviceLocation}. We provide 24/7 emergency service, same-day delivery, and comprehensive legal support services including skip tracing and court filing assistance.`,
     "slogan": "Oklahoma's Most Trusted Process Server - Available 24/7",
     "url": "https://justlegalsolutions.org",
+    "image": "https://justlegalsolutions.org/jls-logo.png",
+    "priceRange": "$30-$200",
     "telephone": "+15393676832",
     "email": "info@justlegalsolutions.org",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "7136 S Yale Ave Suite 322",
+      "addressLocality": "Tulsa",
+      "addressRegion": "OK",
+      "postalCode": "74136",
+      "addressCountry": "US"
+    },
     
     // Geographic coverage for AI location understanding
     "areaServed": [

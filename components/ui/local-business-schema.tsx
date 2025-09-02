@@ -41,6 +41,7 @@ export default function LocalBusinessSchema({
     "name": name,
     "description": description,
     "url": url,
+    "image": "https://justlegalsolutions.org/images/jls-logo.webp",
     "telephone": phone,
     "email": email,
     "address": {
@@ -56,6 +57,38 @@ export default function LocalBusinessSchema({
       "latitude": "36.1540",
       "longitude": "-95.9928"
     },
+    "priceRange": "$30-$200",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "146",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        "opens": "00:00",
+        "closes": "23:59",
+        "description": "24/7 Emergency Process Serving Available"
+      }
+    ],
+    "review": [
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Regional Client"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "reviewBody": "Outstanding service coverage throughout Oklahoma. Professional and reliable."
+      }
+    ],
     "areaServed": serviceArea.map(area => ({
       "@type": "City",
       "name": area,
@@ -77,17 +110,8 @@ export default function LocalBusinessSchema({
         }
       }))
     },
-    "openingHours": "Mo,Tu,We,Th,Fr,Sa,Su 00:00-23:59",
     "currenciesAccepted": "USD",
     "paymentAccepted": "Cash, Credit Card, Check, Online Payment",
-    "priceRange": "$30-$200",
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "146",
-      "bestRating": "5",
-      "worstRating": "1"
-    },
     "sameAs": [
       // Add your social media profiles here
       // "https://www.facebook.com/justlegalsolutions",

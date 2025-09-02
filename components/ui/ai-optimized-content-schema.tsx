@@ -48,7 +48,7 @@ export default function AIOptimizedContentSchema({
             "http://schema.org/DesktopWebPlatform"
           ]
         },
-        "query-input": "required"
+        "query": "required"
       },
       {
         "@type": "CommunicateAction",

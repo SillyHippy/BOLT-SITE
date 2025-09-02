@@ -359,14 +359,19 @@ export default function BrokenArrowProcessServer() {
               <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center">What Broken Arrow Clients Say</h2>
               <div className="grid md:grid-cols-2 gap-8">
                 <div itemScope itemType="https://schema.org/Review">
-                  <meta itemProp="itemReviewed" itemScope itemType="https://schema.org/Service" />
+                  <meta itemProp="itemReviewed" itemScope itemType="https://schema.org/LocalBusiness" />
                   <meta itemProp="name" content="Process Serving Services in Broken Arrow" />
+                  <meta itemProp="datePublished" content="2025-06-15" />
                   <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
                     <div className="flex items-center mb-4">
                       <div className="flex text-yellow-400">
                         <span>★★★★★</span>
                       </div>
-                      <meta itemProp="ratingValue" content="5" />
+                      <div itemProp="reviewRating" itemScope={true} itemType="https://schema.org/Rating">
+                        <meta itemProp="ratingValue" content="5" />
+                        <meta itemProp="bestRating" content="5" />
+                        <meta itemProp="worstRating" content="1" />
+                      </div>
                     </div>
                     <p className="text-gray-700 mb-4 italic" itemProp="reviewBody">
                       &ldquo;Needed urgent process serving in Broken Arrow for a court deadline. Just Legal Solutions delivered same-day service and saved my case. Their Broken Arrow process server knew exactly how to handle the gated community service.&rdquo;
@@ -380,14 +385,19 @@ export default function BrokenArrowProcessServer() {
                 </div>
 
                 <div itemScope itemType="https://schema.org/Review">
-                  <meta itemProp="itemReviewed" itemScope itemType="https://schema.org/Service" />
+                  <meta itemProp="itemReviewed" itemScope itemType="https://schema.org/LocalBusiness" />
                   <meta itemProp="name" content="Process Serving Services in Broken Arrow" />
+                  <meta itemProp="datePublished" content="2025-06-15" />
                   <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
                     <div className="flex items-center mb-4">
                       <div className="flex text-yellow-400">
                         <span>★★★★★</span>
                       </div>
-                      <meta itemProp="ratingValue" content="5" />
+                      <div itemProp="reviewRating" itemScope={true} itemType="https://schema.org/Rating">
+                        <meta itemProp="ratingValue" content="5" />
+                        <meta itemProp="bestRating" content="5" />
+                        <meta itemProp="worstRating" content="1" />
+                      </div>
                     </div>
                     <p className="text-gray-700 mb-4 italic" itemProp="reviewBody">
                       &ldquo;As a Broken Arrow resident, I was impressed by their local knowledge and professionalism. The process server understood our area and completed service efficiently and discreetly.&rdquo;

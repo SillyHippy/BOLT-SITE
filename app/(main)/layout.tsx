@@ -38,8 +38,10 @@ export default function MainLayout({
             "priceRange": "$30-$200",
             "address": {
               "@type": "PostalAddress",
-              "addressLocality": "Tulsa",
+              "streetAddress": "564 E 138th PL",
+              "addressLocality": "Glenpool",
               "addressRegion": "OK",
+              "postalCode": "74033",
               "addressCountry": {
                 "@type": "Country",
                 "name": "US"
@@ -128,7 +130,7 @@ export default function MainLayout({
                 "@type": "EntryPoint",
                 "urlTemplate": "https://justlegalsolutions.org/search?q={search_term_string}"
               },
-              "query-input": "required"
+              "query": "required"
             }
           }) }}
         />

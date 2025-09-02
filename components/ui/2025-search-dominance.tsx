@@ -98,7 +98,7 @@ export default function SearchDominance2025({
                 'http://schema.org/VoiceApplication'
               ]
             },
-            'query-input': 'required'
+            'query': 'required'
           }
         ],
         

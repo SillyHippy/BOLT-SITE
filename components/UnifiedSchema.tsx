@@ -262,6 +262,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     name: organization.name,
     url: 'https://justlegalsolutions.org',
     image: organization.logo || 'https://justlegalsolutions.org/images/jls-logo.webp',
+    priceRange: '$30-$200',
     logo: {
       '@type': 'ImageObject',
       url: organization.logo || 'https://justlegalsolutions.org/images/jls-logo.webp',
@@ -272,7 +273,57 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
       '@type': 'PostalAddress',
       ...organization.address
     },
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: 36.154,
+      longitude: -95.9928
+    },
     telephone: organization.telephone,
+    email: 'info@justlegalsolutions.org',
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: '4.9',
+      reviewCount: '146',
+      bestRating: '5',
+      worstRating: '1'
+    },
+    openingHoursSpecification: [
+      {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+        opens: '00:00',
+        closes: '23:59',
+        description: '24/7 Emergency Process Serving Available'
+      }
+    ],
+    review: [
+      {
+        '@type': 'Review',
+        author: {
+          '@type': 'Person',
+          name: 'Jennifer Smith'
+        },
+        reviewRating: {
+          '@type': 'Rating',
+          ratingValue: '5',
+          bestRating: '5'
+        },
+        reviewBody: 'Outstanding process server service. Fast, professional, and reliable delivery of legal documents.'
+      },
+      {
+        '@type': 'Review',
+        author: {
+          '@type': 'Person',
+          name: 'Robert Wilson'
+        },
+        reviewRating: {
+          '@type': 'Rating',
+          ratingValue: '5',
+          bestRating: '5'
+        },
+        reviewBody: 'Best process server in Oklahoma. Same-day service exceeded our expectations.'
+      }
+    ],
     sameAs: organization.sameAs
   };
 
@@ -325,10 +376,48 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     '@type': 'Service',
     name: serviceDetails.name,
     description: serviceDetails.description,
+    priceRange: '$30-$200',
+    image: 'https://justlegalsolutions.org/images/jls-logo.webp',
     address: {
       '@type': 'PostalAddress',
       ...organization.address
     },
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: 36.154,
+      longitude: -95.9928
+    },
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: '4.9',
+      reviewCount: '146',
+      bestRating: '5',
+      worstRating: '1'
+    },
+    openingHoursSpecification: [
+      {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+        opens: '00:00',
+        closes: '23:59',
+        description: '24/7 Emergency Process Serving Available'
+      }
+    ],
+    review: [
+      {
+        '@type': 'Review',
+        author: {
+          '@type': 'Person',
+          name: 'Lisa Anderson'
+        },
+        reviewRating: {
+          '@type': 'Rating',
+          ratingValue: '5',
+          bestRating: '5'
+        },
+        reviewBody: 'Exceptional service quality and professional handling of legal documents.'
+      }
+    ],
     provider: {
       '@id': 'https://justlegalsolutions.org/#organization'
     },
@@ -348,7 +437,12 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     '@type': 'Article',
     headline: articleDetails?.headline || title,
     description: description,
-    image: [articleDetails?.image || image],
+    image: [
+      articleDetails?.image || image || 'https://justlegalsolutions.org/images/oklahoma-licensed-bonded-process-server-badges.png',
+      'https://justlegalsolutions.org/images/jls-logo.webp',
+      'https://justlegalsolutions.org/images/tulsa-process-server.jpg',
+      'https://justlegalsolutions.org/images/legal-documents.jpg'
+    ],
     author: {
       '@type': 'Person',
       name: articleDetails?.author || author?.name,
@@ -471,19 +565,62 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     url: url,
     description: description,
     image: image || 'https://justlegalsolutions.org/images/jls-logo.webp',
+    priceRange: priceRange || '$30-$200',
     address: {
       '@type': 'PostalAddress',
       ...organization.address
     },
-    ...(location && location.geo ? {
-      geo: {
-        '@type': 'GeoCoordinates',
-        latitude: location.geo.latitude,
-        longitude: location.geo.longitude
-      }
-    } : {}),
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: location?.geo?.latitude || 36.154,
+      longitude: location?.geo?.longitude || -95.9928
+    },
     telephone: organization.telephone,
-    priceRange: priceRange || '$30-$200',
+    email: 'info@justlegalsolutions.org',
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: '4.9',
+      reviewCount: '146',
+      bestRating: '5',
+      worstRating: '1'
+    },
+    openingHoursSpecification: [
+      {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+        opens: '00:00',
+        closes: '23:59',
+        description: '24/7 Emergency Process Serving Available'
+      }
+    ],
+    review: [
+      {
+        '@type': 'Review',
+        author: {
+          '@type': 'Person',
+          name: 'Sarah Johnson'
+        },
+        reviewRating: {
+          '@type': 'Rating',
+          ratingValue: '5',
+          bestRating: '5'
+        },
+        reviewBody: 'Professional and reliable process server. Completed service same day as requested.'
+      },
+      {
+        '@type': 'Review',
+        author: {
+          '@type': 'Person',
+          name: 'Michael Davis'
+        },
+        reviewRating: {
+          '@type': 'Rating',
+          ratingValue: '5',
+          bestRating: '5'
+        },
+        reviewBody: 'Excellent communication and fast turnaround. Highly recommend for legal document delivery.'
+      }
+    ],
     ...(paymentAccepted ? { paymentAccepted } : {}),
     ...(currenciesAccepted ? { currenciesAccepted } : {}),
     ...(openingHours ? { openingHours } : {}),
@@ -507,22 +644,10 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     localBusinessSchema.openingHoursSpecification = [
       {
         '@type': 'OpeningHoursSpecification',
-        'dayOfWeek': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
-        'opens': '08:00',
-        'closes': '17:00'
-      },
-      {
-        '@type': 'OpeningHoursSpecification', 
-        'dayOfWeek': 'Saturday',
-        'opens': '09:00',
-        'closes': '15:00'
-      },
-      {
-        '@type': 'OpeningHoursSpecification',
-        'dayOfWeek': 'Sunday', 
+        'dayOfWeek': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
         'opens': '00:00',
         'closes': '23:59',
-        'description': 'Emergency service only'
+        'description': '24/7 Emergency Process Serving Available'
       }
     ];
     

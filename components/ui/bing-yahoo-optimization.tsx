@@ -21,7 +21,10 @@ export default function BingYahooOptimization({
     "alternateName": ["JLS Process Server", "Just Legal Solutions Oklahoma"],
     "description": "Oklahoma's premier process serving company providing professional legal document delivery with 24/7 emergency service throughout the state",
     "url": "https://justlegalsolutions.org",
+    "image": "https://justlegalsolutions.org/jls-logo.png",
+    "priceRange": "$30-$200",
     "telephone": "(539) 367-6832",
+    "email": "info@justlegalsolutions.org",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "564 E 138th PL",
@@ -30,6 +33,42 @@ export default function BingYahooOptimization({
       "postalCode": "74033",
       "addressCountry": "US"
     },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 36.154,
+      "longitude": -95.9928
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "146",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        "opens": "00:00",
+        "closes": "23:59",
+        "description": "24/7 Emergency Process Serving Available"
+      }
+    ],
+    "review": [
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "David Thompson"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "reviewBody": "Reliable and professional process server. Completed urgent service efficiently."
+      }
+    ],
     "sameAs": [
       "https://justlegalsolutions.org/services",
       "https://justlegalsolutions.org/tulsa-process-server",

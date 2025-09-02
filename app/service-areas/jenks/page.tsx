@@ -586,7 +586,11 @@ export default function JenksProcessServer() {
                     <div className="flex text-yellow-400 text-lg">
                       ★★★★★
                     </div>
-                    <meta itemProp="ratingValue" content="5" />
+                    <div itemProp="reviewRating" itemScope={true} itemType="https://schema.org/Rating">
+                      <meta itemProp="ratingValue" content="5" />
+                      <meta itemProp="bestRating" content="5" />
+                      <meta itemProp="worstRating" content="1" />
+                    </div>
                     <meta itemProp="datePublished" content="2024-08-15" />
                   </div>
                   <p className="text-gray-700 mb-4 italic" itemProp="reviewBody">
@@ -608,7 +612,11 @@ export default function JenksProcessServer() {
                     <div className="flex text-yellow-400 text-lg">
                       ★★★★★
                     </div>
-                    <meta itemProp="ratingValue" content="5" />
+                    <div itemProp="reviewRating" itemScope={true} itemType="https://schema.org/Rating">
+                      <meta itemProp="ratingValue" content="5" />
+                      <meta itemProp="bestRating" content="5" />
+                      <meta itemProp="worstRating" content="1" />
+                    </div>
                     <meta itemProp="datePublished" content="2024-07-22" />
                   </div>
                   <p className="text-gray-700 mb-4 italic" itemProp="reviewBody">
@@ -630,7 +638,12 @@ export default function JenksProcessServer() {
                     <div className="flex text-yellow-400 text-lg">
                       ★★★★★
                     </div>
-                    <meta itemProp="ratingValue" content="5" />
+                    <div itemProp="reviewRating" itemScope={true} itemType="https://schema.org/Rating">
+                      <meta itemProp="ratingValue" content="5" />
+                      <meta itemProp="bestRating" content="5" />
+                      <meta itemProp="worstRating" content="1" />
+                    </div>
+                    <meta itemProp="datePublished" content="2024-09-10" />
                   </div>
                   <p className="text-gray-700 mb-4 italic" itemProp="reviewBody">
                     &ldquo;Impressed by their local knowledge of Jenks neighborhoods. They served papers during the antique festival weekend and handled the Main Street crowds like pros. Highly recommend!&rdquo;
@@ -651,7 +664,12 @@ export default function JenksProcessServer() {
                     <div className="flex text-yellow-400 text-lg">
                       ★★★★★
                     </div>
-                    <meta itemProp="ratingValue" content="5" />
+                    <div itemProp="reviewRating" itemScope={true} itemType="https://schema.org/Rating">
+                      <meta itemProp="ratingValue" content="5" />
+                      <meta itemProp="bestRating" content="5" />
+                      <meta itemProp="worstRating" content="1" />
+                    </div>
+                    <meta itemProp="datePublished" content="2024-10-05" />
                   </div>
                   <p className="text-gray-700 mb-4 italic" itemProp="reviewBody">
                     &ldquo;Needed papers served at The Reserve at Stonebrooke. They handled the gated community protocols perfectly and completed service efficiently. Professional and courteous throughout.&rdquo;

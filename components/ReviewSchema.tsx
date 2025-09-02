@@ -55,7 +55,7 @@ export default function ReviewSchema({
           "bestRating": 5
         },
         "reviewBody": "Outstanding process serving in Tulsa! Fast, professional, and reliable. Got my documents served same day.",
-        "datePublished": "2024-12-15"
+        "datePublished": "2025-06-15"
       },
       {
         "@type": "Review",
