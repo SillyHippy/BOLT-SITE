@@ -54,9 +54,13 @@ export default function VoiceSearchOptimization({
       "@type": "SearchAction",
       "target": {
         "@type": "EntryPoint",
-        "urlTemplate": "https://justlegalsolutions.org/search?q={voice_query}"
+        "urlTemplate": "https://justlegalsolutions.org/search?q={search_term_string}"
       },
-      "query-input": "required name=voice_query"
+      "query-input": {
+        "@type": "PropertyValueSpecification",
+        "valueRequired": true,
+        "valueName": "search_term_string"
+      }
     }
   };
 

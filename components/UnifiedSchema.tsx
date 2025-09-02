@@ -364,7 +364,11 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
         '@type': 'EntryPoint',
         urlTemplate: 'https://justlegalsolutions.org/search?q={search_term_string}'
       },
-      'query-input': 'required name=search_term_string'
+      'query-input': {
+        '@type': 'PropertyValueSpecification',
+        'valueRequired': true,
+        'valueName': 'search_term_string'
+      }
     },
     ...(speakable && speakable.length > 0 ? {
       speakable: {
@@ -403,6 +407,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
   // Service schema
   const serviceSchema = serviceDetails ? {
     '@type': 'Service',
+    '@id': `${url}#service`,
     name: serviceDetails.name,
     description: serviceDetails.description,
     url: 'https://justlegalsolutions.org/services',
@@ -476,6 +481,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
   // Article schema
   const articleSchema = (pageType === 'article') ? {
     '@type': 'Article',
+    '@id': url,
     headline: articleDetails?.headline || title,
     description: description,
     image: [

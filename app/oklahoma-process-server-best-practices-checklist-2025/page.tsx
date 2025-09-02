@@ -69,6 +69,7 @@ const articleSchema = {
 const howToSchema = {
   "@context": "https://schema.org",
   "@type": "HowTo",
+  "@id": "https://justlegalsolutions.org/oklahoma-process-server-best-practices-checklist-2025#howto",
   "name": "How to Follow Oklahoma Process Server Best Practices in 2025",
   "description": "Step-by-step checklist for professional process serving in Oklahoma, covering legal requirements, documentation, and quality assurance protocols.",
   "image": "/images/oklahoma-licensed-bonded-process-server-badges.png",

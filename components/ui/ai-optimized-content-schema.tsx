@@ -41,9 +41,13 @@ export default function AIOptimizedContentSchema({
         "@type": "SearchAction",
         "target": {
           "@type": "EntryPoint",
-          "urlTemplate": "https://justlegalsolutions.org/services?q={ai_query}"
+          "urlTemplate": "https://justlegalsolutions.org/search?q={search_term_string}"
         },
-        "query-input": "required name=ai_query"
+        "query-input": {
+          "@type": "PropertyValueSpecification",
+          "valueRequired": true,
+          "valueName": "search_term_string"
+        }
       },
       {
         "@type": "CommunicateAction",

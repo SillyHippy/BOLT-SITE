@@ -139,7 +139,37 @@ export default function ContactPage() {
                 "contactType": "customer service",
                 "areaServed": "Oklahoma",
                 "availableLanguage": "English"
-              }
+              },
+              "image": "https://justlegalsolutions.org/images/jls-logo.webp",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://justlegalsolutions.org/images/jls-logo.webp",
+                "width": 180,
+                "height": 60
+              },
+              "description": "Professional process serving and legal document delivery throughout Oklahoma with same-day service available.",
+              "serviceArea": {
+                "@type": "State",
+                "name": "Oklahoma"
+              },
+              "areaServed": [
+                {
+                  "@type": "State",
+                  "name": "Oklahoma"
+                },
+                {
+                  "@type": "City",
+                  "name": "Tulsa"
+                },
+                {
+                  "@type": "City",
+                  "name": "Broken Arrow"
+                }
+              ],
+              "paymentAccepted": ["Cash", "Credit Card", "Check"],
+              "currenciesAccepted": "USD",
+              "foundingDate": "2025-03-01",
+              "slogan": "Oklahoma's #1 Process Server - Professional, Fast, Reliable"
             }
           }
         `}

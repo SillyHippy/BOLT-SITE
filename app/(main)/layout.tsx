@@ -173,7 +173,11 @@ export default function MainLayout({
                 "@type": "EntryPoint",
                 "urlTemplate": "https://justlegalsolutions.org/search?q={search_term_string}"
               },
-              "query-input": "required name=search_term_string"
+              "query-input": {
+                "@type": "PropertyValueSpecification",
+                "valueRequired": true,
+                "valueName": "search_term_string"
+              }
             }
           }) }}
         />
