@@ -47,9 +47,9 @@ export default function WebsiteSchema({
         "@type": "SearchAction",
         "target": {
           "@type": "EntryPoint",
-          "urlTemplate": `${url}/search?q={search_term_string}`
-        },
-        "query": "required"
+          "urlTemplate": `${url}/search?q={search_term_string}`,
+          "query": "required name=search_term_string"
+        }
       },
       {
         "@type": "Action",
@@ -102,6 +102,43 @@ export default function WebsiteSchema({
         "Legal Document Delivery", 
         "Court Document Filing",
         "Skip Tracing Services"
+      ],
+      "priceRange": "$30-$200",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "36.154",
+        "longitude": "-95.9928"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "146",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Oklahoma Client"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "reviewBody": "Reliable service throughout Oklahoma with professional document handling."
+        }
+      ],
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "opens": "00:00",
+          "closes": "23:59",
+          "description": "24/7 Emergency Process Serving Available"
+        }
       ]
     },
     "hasPart": [

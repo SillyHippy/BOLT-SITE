@@ -4,13 +4,20 @@ interface RankingSupremacyProps {
   targetKeywords: string[];
   location: string;
   businessName?: string;
+  skipSchema?: boolean;
 }
 
 export default function RankingSupremacy2025({
   targetKeywords,
   location,
-  businessName = 'Just Legal Solutions'
+  businessName = 'Just Legal Solutions',
+  skipSchema = false
 }: RankingSupremacyProps) {
+  
+  // Skip rendering if schema should be avoided (when UnifiedSchema is present)
+  if (skipSchema) {
+    return null;
+  }
   
   return (
     <div style={{ display: 'none' }}>

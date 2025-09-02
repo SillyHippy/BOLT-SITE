@@ -6,15 +6,22 @@ interface SearchDominanceProps {
   primaryKeywords: string[];
   location: string;
   businessType: string;
+  skipSchema?: boolean;
 }
 
 export default function SearchDominance2025({
   pageTitle,
   primaryKeywords,
   location,
-  businessType
+  businessType,
+  skipSchema = false
 }: SearchDominanceProps) {
   const currentDate = new Date().toISOString();
+  
+  // Skip schema if UnifiedSchema is already present to prevent duplicates
+  if (skipSchema) {
+    return null;
+  }
   
   // Enhanced schema for 2025 search dominance
   const dominanceSchema = {
@@ -98,7 +105,7 @@ export default function SearchDominance2025({
                 'http://schema.org/VoiceApplication'
               ]
             },
-            'query': 'required'
+            'query': 'required name=search_term_string'
           }
         ],
         

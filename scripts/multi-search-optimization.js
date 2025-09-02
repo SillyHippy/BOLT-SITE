@@ -27,7 +27,7 @@ const searchEngineOptimizations = {
           '@type': 'EntryPoint',
           'urlTemplate': 'https://justlegalsolutions.org/search?q={search_term_string}'
         },
-        'query': 'required'
+        'query': 'required name=search_term_string'
       }
     }
   },

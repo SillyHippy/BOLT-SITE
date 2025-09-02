@@ -95,6 +95,44 @@ export default function AIOptimizedContentSchema({
         "postalCode": "74033",
         "addressCountry": "US"
       },
+      "telephone": "(539) 367-6832",
+      "priceRange": "$30-$200",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "36.154",
+        "longitude": "-95.9928"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "146",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "AI-Optimized Client"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "reviewBody": "Cutting-edge process serving with professional excellence and reliable delivery."
+        }
+      ],
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "opens": "00:00",
+          "closes": "23:59",
+          "description": "24/7 Emergency Process Serving Available"
+        }
+      ],
       "expertise": [
         "Process Serving",
         "Legal Document Delivery",

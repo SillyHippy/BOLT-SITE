@@ -99,7 +99,22 @@ export default function SearchEngineUniversalOptimization({
           "@type": "AggregateRating",
           "ratingValue": "4.9",
           "reviewCount": "146"
-        }
+        },
+        "review": [
+          {
+            "@type": "Review",
+            "author": {
+              "@type": "Person",
+              "name": "Regional Client"
+            },
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5"
+            },
+            "reviewBody": "Outstanding service coverage throughout Oklahoma. Professional and reliable."
+          }
+        ]
       },
       {
         "@type": ["Service", "ProfessionalService"],

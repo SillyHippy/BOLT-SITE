@@ -429,6 +429,7 @@ export default function Home() {
         primaryKeywords={['process server tulsa', 'process server oklahoma', 'legal document delivery', 'same day process serving']}
         location="Tulsa, Oklahoma"
         businessType="Process Server"
+        skipSchema={true}
       />
       
       <AIVoiceSupremacy 
@@ -443,6 +444,7 @@ export default function Home() {
         targetKeywords={['process server tulsa', 'process server oklahoma', 'tulsa process server', 'oklahoma process server']}
         location="Tulsa, Oklahoma"
         businessName="Just Legal Solutions"
+        skipSchema={true}
       />
       
       <MobileVoiceOptimization

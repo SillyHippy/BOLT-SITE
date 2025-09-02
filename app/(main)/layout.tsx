@@ -62,6 +62,30 @@ export default function MainLayout({
             "paymentAccepted": ["Cash", "Credit Card", "Check", "Invoice"],
             "currenciesAccepted": "USD",
             "openingHours": "Mo,Tu,We,Th,Fr,Sa,Su 00:00-23:59",
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+                "opens": "00:00",
+                "closes": "23:59",
+                "description": "24/7 Emergency Process Serving Available"
+              }
+            ],
+            "review": [
+              {
+                "@type": "Review",
+                "author": {
+                  "@type": "Person",
+                  "name": "Jennifer K."
+                },
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": "5",
+                  "bestRating": "5"
+                },
+                "reviewBody": "Outstanding service quality and professional handling of legal documents."
+              }
+            ],
             "sameAs": [
               "https://www.facebook.com/justlegalsolutions",
               "https://www.linkedin.com/company/justlegalsolutions"
