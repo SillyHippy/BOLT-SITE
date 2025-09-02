@@ -134,8 +134,7 @@ export default function BingYahooOptimization({
         "@type": "ScheduleAction",
         "target": {
           "@type": "EntryPoint",
-          "urlTemplate": "https://justlegalsolutions.org/card/calendar",
-          "actionPlatform": ["http://schema.org/DesktopWebPlatform", "http://schema.org/MobileWebPlatform"]
+          "urlTemplate": "https://justlegalsolutions.org/card/calendar"
         },
         "object": {
           "@type": "Service",

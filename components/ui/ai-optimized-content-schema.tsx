@@ -41,23 +41,15 @@ export default function AIOptimizedContentSchema({
         "@type": "SearchAction",
         "target": {
           "@type": "EntryPoint",
-          "urlTemplate": "https://justlegalsolutions.org/services?q={ai_query}",
-          "actionPlatform": [
-            "http://schema.org/VoiceApplication",
-            "http://schema.org/MobileApplication",
-            "http://schema.org/DesktopWebPlatform"
-          ]
-        }
+          "urlTemplate": "https://justlegalsolutions.org/services?q={ai_query}"
+        },
+        "query-input": "required name=ai_query"
       },
       {
         "@type": "CommunicateAction",
         "target": {
           "@type": "EntryPoint",
-          "urlTemplate": "tel:+15393676832",
-          "actionPlatform": [
-            "http://schema.org/VoiceApplication",
-            "http://schema.org/MobileApplication"
-          ]
+          "urlTemplate": "tel:+15393676832"
         }
       }
     ],

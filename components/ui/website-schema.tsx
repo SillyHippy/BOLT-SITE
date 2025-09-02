@@ -47,8 +47,7 @@ export default function WebsiteSchema({
         "@type": "SearchAction",
         "target": {
           "@type": "EntryPoint",
-          "urlTemplate": `${url}/search?q={search_term_string}`,
-          "actionPlatform": ["http://schema.org/DesktopWebPlatform", "http://schema.org/IOSPlatform", "http://schema.org/AndroidPlatform"]
+          "urlTemplate": `${url}/search?q={search_term_string}`
         },
         "query-input": "required name=search_term_string"
       },
@@ -56,11 +55,7 @@ export default function WebsiteSchema({
         "@type": "Action",
         "target": {
           "@type": "EntryPoint", 
-          "urlTemplate": `${url}/card/calendar`,
-          "actionPlatform": [
-            "http://schema.org/DesktopWebPlatform",
-            "http://schema.org/MobileWebPlatform"
-          ]
+          "urlTemplate": `${url}/card/calendar`
         }
       }
     ],
