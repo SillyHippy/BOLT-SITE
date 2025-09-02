@@ -20,7 +20,7 @@ const searchEngineOptimizations = {
       'googlebot': 'index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1'
     },
     structuredData: {
-      '@type': 'LocalBusiness',
+      '@type': 'WebSite',
       'potentialAction': {
         '@type': 'SearchAction',
         'target': {
@@ -86,7 +86,7 @@ const searchEngineOptimizations = {
       'robots': 'index,follow'
     },
     structuredData: {
-      '@type': 'LocalBusiness',
+      '@type': 'WebSite',
       'paymentAccepted': 'Cash, Credit Card, Check',
       'priceRange': 'See pricing at justlegalsolutions.org/pricing'
     }
