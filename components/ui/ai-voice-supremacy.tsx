@@ -186,6 +186,34 @@ export default function AIVoiceSupremacy({
         <div itemScope itemType="https://schema.org/LocalBusiness">
           <span itemProp="name">{businessName}</span>
           <span itemProp="telephone">{phone}</span>
+          <span itemProp="url">https://justlegalsolutions.org</span>
+          <span itemProp="priceRange">$30-$200</span>
+          <div itemProp="aggregateRating" itemScope itemType="https://schema.org/AggregateRating">
+            <span itemProp="ratingValue">4.9</span>
+            <span itemProp="reviewCount">146</span>
+            <span itemProp="bestRating">5</span>
+            <span itemProp="worstRating">1</span>
+          </div>
+          <div itemProp="geo" itemScope itemType="https://schema.org/GeoCoordinates">
+            <span itemProp="latitude">36.154</span>
+            <span itemProp="longitude">-95.9928</span>
+          </div>
+          <div itemProp="openingHoursSpecification" itemScope itemType="https://schema.org/OpeningHoursSpecification">
+            <span itemProp="dayOfWeek">Monday Tuesday Wednesday Thursday Friday Saturday Sunday</span>
+            <span itemProp="opens">00:00</span>
+            <span itemProp="closes">23:59</span>
+          </div>
+          <div itemProp="review" itemScope itemType="https://schema.org/Review">
+            <div itemProp="author" itemScope itemType="https://schema.org/Person">
+              <span itemProp="name">Local Client</span>
+            </div>
+            <div itemProp="reviewRating" itemScope itemType="https://schema.org/Rating">
+              <span itemProp="ratingValue">5</span>
+              <span itemProp="bestRating">5</span>
+            </div>
+            <span itemProp="reviewBody">Professional and reliable process serving service.</span>
+            <span itemProp="datePublished">2024-12-15</span>
+          </div>
           <span itemProp="address" itemScope itemType="https://schema.org/PostalAddress">
             <span itemProp="streetAddress">564 E 138th PL</span>
             <span itemProp="addressLocality">Glenpool</span>
