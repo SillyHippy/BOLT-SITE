@@ -195,10 +195,9 @@ export const enhancedLocalBusinessSchema = {
   ],
   
   "memberOf": {
-    "@type": "Organization",
-"foundingDate": "2025-03-01",
-"description": "Professional process serving with over 50 years combined industry experience",
-    "name": "National Association of Professional Process Servers"
+    "@type": "ProfessionalService",
+    "name": "National Association of Professional Process Servers",
+    "url": "https://napps.org"
   }
 };
 
