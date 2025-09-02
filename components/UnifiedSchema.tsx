@@ -591,81 +591,9 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     (organizationSchema as any).knowsAbout = knowsAbout;
   }
 
-  // Local business schema (for location pages or home page)
-  const localBusinessSchema: any = (pageType === 'location' || pageType === 'home') ? {
-    '@type': ['LocalBusiness', 'ProfessionalService'],
-    name: location ? location.name : organization.name,
-    '@id': `${url}#localbusiness`,
-    url: url,
-    description: description,
-    image: image || 'https://justlegalsolutions.org/images/jls-logo.webp',
-    priceRange: priceRange || '$30-$200',
-    address: {
-      '@type': 'PostalAddress',
-      ...organization.address
-    },
-    geo: {
-      '@type': 'GeoCoordinates',
-      latitude: location?.geo?.latitude || 36.154,
-      longitude: location?.geo?.longitude || -95.9928
-    },
-    telephone: organization.telephone,
-    email: 'info@justlegalsolutions.org',
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.9',
-      reviewCount: '146',
-      bestRating: '5',
-      worstRating: '1'
-    },
-    openingHoursSpecification: [
-      {
-        '@type': 'OpeningHoursSpecification',
-        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
-        opens: '00:00',
-        closes: '23:59',
-        description: '24/7 Emergency Process Serving Available'
-      }
-    ],
-    review: [
-      {
-        '@type': 'Review',
-        author: {
-          '@type': 'Person',
-          name: 'Sarah Johnson'
-        },
-        reviewRating: {
-          '@type': 'Rating',
-          ratingValue: '5',
-          bestRating: '5'
-        },
-        reviewBody: 'Professional and reliable process server. Completed service same day as requested.'
-      },
-      {
-        '@type': 'Review',
-        author: {
-          '@type': 'Person',
-          name: 'Michael Davis'
-        },
-        reviewRating: {
-          '@type': 'Rating',
-          ratingValue: '5',
-          bestRating: '5'
-        },
-        reviewBody: 'Excellent communication and fast turnaround. Highly recommend for legal document delivery.'
-      }
-    ],
-    ...(paymentAccepted ? { paymentAccepted } : {}),
-    ...(currenciesAccepted ? { currenciesAccepted } : {}),
-    ...(openingHours ? { openingHours } : {}),
-    parentOrganization: {
-      '@id': 'https://justlegalsolutions.org/#organization'
-    }
-  } : null;
-  
   // Add aggregate rating with 2025 optimization
-  if (aggregateRating && localBusinessSchema) {
-    localBusinessSchema.aggregateRating = {
+  if (aggregateRating && organizationSchema) {
+    organizationSchema.aggregateRating = {
       '@type': 'AggregateRating',
       'ratingValue': aggregateRating.ratingValue ? aggregateRating.ratingValue.toString() : '4.9',
       'reviewCount': aggregateRating.reviewCount ? aggregateRating.reviewCount.toString() : '146',
@@ -675,7 +603,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     };
     
     // Add enhanced business hours for 2025
-    localBusinessSchema.openingHoursSpecification = [
+    organizationSchema.openingHoursSpecification = [
       {
         '@type': 'OpeningHoursSpecification',
         'dayOfWeek': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
@@ -685,30 +613,32 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
       }
     ];
     
-    // Add special offers for competitive advantage
-    localBusinessSchema.makesOffer = [
-      {
-        '@type': 'Offer',
-        'name': 'Same-Day Process Serving',
-        'description': 'Emergency legal document delivery within hours',
-        'price': '150',
-        'priceCurrency': 'USD',
-        'availability': 'https://schema.org/InStock'
-      },
-      {
-        '@type': 'Offer',
-        'name': '2-Hour Emergency Service',
-        'description': 'Critical legal document delivery within 2 hours',
-        'price': '265', 
-        'priceCurrency': 'USD',
-        'availability': 'https://schema.org/InStock'
-      }
-    ];
+    // Add special offers for competitive advantage (only for location/home pages)
+    if (pageType === 'location' || pageType === 'home') {
+      organizationSchema.makesOffer = [
+        {
+          '@type': 'Offer',
+          'name': 'Same-Day Process Serving',
+          'description': 'Emergency legal document delivery within hours',
+          'price': '150',
+          'priceCurrency': 'USD',
+          'availability': 'https://schema.org/InStock'
+        },
+        {
+          '@type': 'Offer',
+          'name': '2-Hour Emergency Service',
+          'description': 'Critical legal document delivery within 2 hours',
+          'price': '265', 
+          'priceCurrency': 'USD',
+          'availability': 'https://schema.org/InStock'
+        }
+      ];
+    }
   }
   
   // Add reviews if provided
-  if (reviews && reviews.length > 0 && localBusinessSchema) {
-    localBusinessSchema.review = reviews.map(review => ({
+  if (reviews && reviews.length > 0 && organizationSchema) {
+    organizationSchema.review = reviews.map(review => ({
       '@type': 'Review',
       'author': {
         '@type': 'Person',
@@ -724,8 +654,8 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
   }
   
   // Add offer catalog if provided
-  if (hasOfferCatalog && localBusinessSchema) {
-    localBusinessSchema.hasOfferCatalog = {
+  if (hasOfferCatalog && organizationSchema) {
+    organizationSchema.hasOfferCatalog = {
       '@type': 'OfferCatalog',
       'name': hasOfferCatalog.name,
       'itemListElement': hasOfferCatalog.itemListElement.map(item => ({
@@ -755,7 +685,6 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
   if (faqSchema) (schemaGraph as any[]).push(faqSchema);
   if (serviceSchema) (schemaGraph as any[]).push(serviceSchema);
   if (articleSchema) (schemaGraph as any[]).push(articleSchema);
-  if (localBusinessSchema) (schemaGraph as any[]).push(localBusinessSchema);
 
   // The final schema object with @graph
   const schema = {
