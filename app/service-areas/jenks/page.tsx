@@ -581,6 +581,25 @@ export default function JenksProcessServer() {
                   <meta itemProp="name" content="Jenks Process Server Review" />
                   <div itemProp="itemReviewed" itemScope={true} itemType="https://schema.org/LocalBusiness">
                     <meta itemProp="name" content="Just Legal Solutions - Jenks Process Server" />
+                    <meta itemProp="telephone" content="(539) 367-6832" />
+                    <meta itemProp="priceRange" content="$30-$200" />
+                    <div itemProp="address" itemScope={true} itemType="https://schema.org/PostalAddress">
+                      <meta itemProp="streetAddress" content="564 E 138th PL" />
+                      <meta itemProp="addressLocality" content="Jenks" />
+                      <meta itemProp="addressRegion" content="OK" />
+                      <meta itemProp="postalCode" content="74037" />
+                      <meta itemProp="addressCountry" content="US" />
+                    </div>
+                    <div itemProp="geo" itemScope={true} itemType="https://schema.org/GeoCoordinates">
+                      <meta itemProp="latitude" content="36.024" />
+                      <meta itemProp="longitude" content="-95.968" />
+                    </div>
+                    <div itemProp="aggregateRating" itemScope={true} itemType="https://schema.org/AggregateRating">
+                      <meta itemProp="ratingValue" content="4.9" />
+                      <meta itemProp="reviewCount" content="146" />
+                      <meta itemProp="bestRating" content="5" />
+                      <meta itemProp="worstRating" content="1" />
+                    </div>
                   </div>
                   <meta itemProp="datePublished" content="2025-01-15" />
                   <div className="flex items-center mb-4">
@@ -608,6 +627,25 @@ export default function JenksProcessServer() {
                   <meta itemProp="name" content="Jenks Process Server Review" />
                   <div itemProp="itemReviewed" itemScope={true} itemType="https://schema.org/LocalBusiness">
                     <meta itemProp="name" content="Just Legal Solutions - Jenks Process Server" />
+                    <meta itemProp="telephone" content="(539) 367-6832" />
+                    <meta itemProp="priceRange" content="$30-$200" />
+                    <div itemProp="address" itemScope={true} itemType="https://schema.org/PostalAddress">
+                      <meta itemProp="streetAddress" content="564 E 138th PL" />
+                      <meta itemProp="addressLocality" content="Jenks" />
+                      <meta itemProp="addressRegion" content="OK" />
+                      <meta itemProp="postalCode" content="74037" />
+                      <meta itemProp="addressCountry" content="US" />
+                    </div>
+                    <div itemProp="geo" itemScope={true} itemType="https://schema.org/GeoCoordinates">
+                      <meta itemProp="latitude" content="36.024" />
+                      <meta itemProp="longitude" content="-95.968" />
+                    </div>
+                    <div itemProp="aggregateRating" itemScope={true} itemType="https://schema.org/AggregateRating">
+                      <meta itemProp="ratingValue" content="4.9" />
+                      <meta itemProp="reviewCount" content="146" />
+                      <meta itemProp="bestRating" content="5" />
+                      <meta itemProp="worstRating" content="1" />
+                    </div>
                   </div>
                   <meta itemProp="datePublished" content="2024-07-22" />
                   <div className="flex items-center mb-4">
@@ -634,6 +672,25 @@ export default function JenksProcessServer() {
                   <meta itemProp="name" content="Jenks Process Server Review" />
                   <div itemProp="itemReviewed" itemScope={true} itemType="https://schema.org/LocalBusiness">
                     <meta itemProp="name" content="Just Legal Solutions - Jenks Process Server" />
+                    <meta itemProp="telephone" content="(539) 367-6832" />
+                    <meta itemProp="priceRange" content="$30-$200" />
+                    <div itemProp="address" itemScope={true} itemType="https://schema.org/PostalAddress">
+                      <meta itemProp="streetAddress" content="564 E 138th PL" />
+                      <meta itemProp="addressLocality" content="Jenks" />
+                      <meta itemProp="addressRegion" content="OK" />
+                      <meta itemProp="postalCode" content="74037" />
+                      <meta itemProp="addressCountry" content="US" />
+                    </div>
+                    <div itemProp="geo" itemScope={true} itemType="https://schema.org/GeoCoordinates">
+                      <meta itemProp="latitude" content="36.024" />
+                      <meta itemProp="longitude" content="-95.968" />
+                    </div>
+                    <div itemProp="aggregateRating" itemScope={true} itemType="https://schema.org/AggregateRating">
+                      <meta itemProp="ratingValue" content="4.9" />
+                      <meta itemProp="reviewCount" content="146" />
+                      <meta itemProp="bestRating" content="5" />
+                      <meta itemProp="worstRating" content="1" />
+                    </div>
                   </div>
                   <meta itemProp="datePublished" content="2024-09-10" />
                   <div className="flex items-center mb-4">
@@ -660,6 +717,25 @@ export default function JenksProcessServer() {
                   <meta itemProp="name" content="Jenks Process Server Review" />
                   <div itemProp="itemReviewed" itemScope={true} itemType="https://schema.org/LocalBusiness">
                     <meta itemProp="name" content="Just Legal Solutions - Jenks Process Server" />
+                    <meta itemProp="telephone" content="(539) 367-6832" />
+                    <meta itemProp="priceRange" content="$30-$200" />
+                    <div itemProp="address" itemScope={true} itemType="https://schema.org/PostalAddress">
+                      <meta itemProp="streetAddress" content="564 E 138th PL" />
+                      <meta itemProp="addressLocality" content="Jenks" />
+                      <meta itemProp="addressRegion" content="OK" />
+                      <meta itemProp="postalCode" content="74037" />
+                      <meta itemProp="addressCountry" content="US" />
+                    </div>
+                    <div itemProp="geo" itemScope={true} itemType="https://schema.org/GeoCoordinates">
+                      <meta itemProp="latitude" content="36.024" />
+                      <meta itemProp="longitude" content="-95.968" />
+                    </div>
+                    <div itemProp="aggregateRating" itemScope={true} itemType="https://schema.org/AggregateRating">
+                      <meta itemProp="ratingValue" content="4.9" />
+                      <meta itemProp="reviewCount" content="146" />
+                      <meta itemProp="bestRating" content="5" />
+                      <meta itemProp="worstRating" content="1" />
+                    </div>
                   </div>
                   <meta itemProp="datePublished" content="2024-10-05" />
                   <div className="flex items-center mb-4">
