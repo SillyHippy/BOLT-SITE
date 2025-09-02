@@ -131,11 +131,7 @@ export default function LocalBusinessSchema({
       "@type": "ReserveAction",
       "target": {
         "@type": "EntryPoint",
-        "urlTemplate": `${url}/card/calendar`,
-        "actionPlatform": [
-          "http://schema.org/DesktopWebPlatform",
-          "http://schema.org/MobileWebPlatform"
-        ]
+        "urlTemplate": `${url}/card/calendar`
       },
       "result": {
         "@type": "Reservation",

@@ -492,6 +492,13 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
         width: 800,
         height: 600,
         caption: 'Just Legal Solutions Professional Process Server'
+      },
+      {
+        '@type': 'ImageObject',
+        url: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        width: 600,
+        height: 400,
+        caption: 'Oklahoma Process Server Services'
       }
     ],
     author: {

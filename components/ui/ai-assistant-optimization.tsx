@@ -170,8 +170,7 @@ export default function AIAssistantOptimization({
         "target": {
           "@type": "EntryPoint",
           "urlTemplate": "https://justlegalsolutions.org/card/calendar",
-          "inLanguage": "en-US",
-          "actionPlatform": ["http://schema.org/DesktopWebPlatform", "http://schema.org/MobileWebPlatform"]
+          "inLanguage": "en-US"
         },
         "result": {
           "@type": "Reservation",

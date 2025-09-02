@@ -175,7 +175,6 @@ export default function SearchGPTOptimization({
         "target": {
           "@type": "EntryPoint",
           "urlTemplate": "tel:+15393676832",
-          "actionPlatform": ["http://schema.org/MobileApplication", "http://schema.org/DesktopWebPlatform"],
           "inLanguage": "en-US"
         },
         "result": {
