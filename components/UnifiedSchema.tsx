@@ -410,6 +410,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     '@type': 'Service',
     name: serviceDetails.name,
     description: serviceDetails.description,
+    url: 'https://justlegalsolutions.org/services',
     priceRange: '$30-$200',
     image: 'https://justlegalsolutions.org/images/jls-logo.webp',
     address: {
@@ -701,6 +702,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
         'itemOffered': item.itemOffered ? {
           '@type': 'Service',
           'name': item.itemOffered.name,
+          'url': 'https://justlegalsolutions.org/services',
           ...(item.itemOffered.serviceType ? { 'serviceType': item.itemOffered.serviceType } : {})
         } : undefined
       }))

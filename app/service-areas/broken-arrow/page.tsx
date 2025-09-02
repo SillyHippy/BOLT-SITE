@@ -359,6 +359,10 @@ export default function BrokenArrowProcessServer() {
               <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center">What Broken Arrow Clients Say</h2>
               <div className="grid md:grid-cols-2 gap-8">
                 <div itemScope itemType="https://schema.org/Review">
+                  <meta itemProp="name" content="Broken Arrow Process Server Review" />
+                  <div itemProp="itemReviewed" itemScope={true} itemType="https://schema.org/LocalBusiness">
+                    <meta itemProp="name" content="Just Legal Solutions - Broken Arrow Process Server" />
+                  </div>
                   <meta itemProp="datePublished" content="2025-06-15" />
                   <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
                     <div className="flex items-center mb-4">
@@ -383,6 +387,10 @@ export default function BrokenArrowProcessServer() {
                 </div>
 
                 <div itemScope itemType="https://schema.org/Review">
+                  <meta itemProp="name" content="Broken Arrow Process Server Review" />
+                  <div itemProp="itemReviewed" itemScope={true} itemType="https://schema.org/LocalBusiness">
+                    <meta itemProp="name" content="Just Legal Solutions - Broken Arrow Process Server" />
+                  </div>
                   <meta itemProp="datePublished" content="2025-06-15" />
                   <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
                     <div className="flex items-center mb-4">

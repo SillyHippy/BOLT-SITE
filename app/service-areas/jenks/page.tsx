@@ -578,6 +578,10 @@ export default function JenksProcessServer() {
             <div className="p-8">
               <div className="grid md:grid-cols-2 gap-8">
                 <div itemScope={true} itemType="https://schema.org/Review" className="bg-white p-6 rounded-lg shadow-md">
+                  <meta itemProp="name" content="Jenks Process Server Review" />
+                  <div itemProp="itemReviewed" itemScope={true} itemType="https://schema.org/LocalBusiness">
+                    <meta itemProp="name" content="Just Legal Solutions - Jenks Process Server" />
+                  </div>
                   <meta itemProp="datePublished" content="2025-01-15" />
                   <div className="flex items-center mb-4">
                     <div className="flex text-yellow-400 text-lg">
@@ -601,6 +605,10 @@ export default function JenksProcessServer() {
                 </div>
 
                 <div itemScope={true} itemType="https://schema.org/Review" className="bg-white p-6 rounded-lg shadow-md">
+                  <meta itemProp="name" content="Jenks Process Server Review" />
+                  <div itemProp="itemReviewed" itemScope={true} itemType="https://schema.org/LocalBusiness">
+                    <meta itemProp="name" content="Just Legal Solutions - Jenks Process Server" />
+                  </div>
                   <meta itemProp="datePublished" content="2024-07-22" />
                   <div className="flex items-center mb-4">
                     <div className="flex text-yellow-400 text-lg">
@@ -623,6 +631,10 @@ export default function JenksProcessServer() {
                 </div>
 
                 <div itemScope={true} itemType="https://schema.org/Review" className="bg-white p-6 rounded-lg shadow-md">
+                  <meta itemProp="name" content="Jenks Process Server Review" />
+                  <div itemProp="itemReviewed" itemScope={true} itemType="https://schema.org/LocalBusiness">
+                    <meta itemProp="name" content="Just Legal Solutions - Jenks Process Server" />
+                  </div>
                   <meta itemProp="datePublished" content="2024-09-10" />
                   <div className="flex items-center mb-4">
                     <div className="flex text-yellow-400 text-lg">
@@ -645,6 +657,10 @@ export default function JenksProcessServer() {
                 </div>
 
                 <div itemScope={true} itemType="https://schema.org/Review" className="bg-white p-6 rounded-lg shadow-md">
+                  <meta itemProp="name" content="Jenks Process Server Review" />
+                  <div itemProp="itemReviewed" itemScope={true} itemType="https://schema.org/LocalBusiness">
+                    <meta itemProp="name" content="Just Legal Solutions - Jenks Process Server" />
+                  </div>
                   <meta itemProp="datePublished" content="2024-10-05" />
                   <div className="flex items-center mb-4">
                     <div className="flex text-yellow-400 text-lg">
