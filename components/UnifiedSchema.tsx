@@ -362,13 +362,9 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
       '@type': 'SearchAction',
       target: {
         '@type': 'EntryPoint',
-        urlTemplate: 'https://justlegalsolutions.org/search?q={search_term_string}',
-        actionPlatform: [
-          'http://schema.org/DesktopWebPlatform',
-          'http://schema.org/IOSPlatform',
-          'http://schema.org/AndroidPlatform'
-        ]
-      }
+        urlTemplate: 'https://justlegalsolutions.org/search?q={search_term_string}'
+      },
+      'query-input': 'required name=search_term_string'
     },
     ...(speakable && speakable.length > 0 ? {
       speakable: {
@@ -485,10 +481,10 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     image: [
       {
         '@type': 'ImageObject',
-        url: articleDetails?.image || 'https://justlegalsolutions.org/images/oklahoma-licensed-bonded-process-server-badges.png',
+        url: articleDetails?.image || 'https://justlegalsolutions.org/images/jls-logo.webp',
         width: 1200,
         height: 800,
-        caption: 'Oklahoma Licensed Process Server Credentials'
+        caption: 'Just Legal Solutions - Professional Process Server in Oklahoma'
       },
       {
         '@type': 'ImageObject', 
@@ -496,27 +492,6 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
         width: 800,
         height: 600,
         caption: 'Just Legal Solutions Professional Process Server'
-      },
-      {
-        '@type': 'ImageObject',
-        url: 'https://justlegalsolutions.org/images/tulsa-process-server.jpg', 
-        width: 1200,
-        height: 900,
-        caption: 'Professional Process Server in Tulsa Oklahoma'
-      },
-      {
-        '@type': 'ImageObject',
-        url: 'https://justlegalsolutions.org/images/legal-documents.jpg',
-        width: 1000,
-        height: 750,
-        caption: 'Legal Document Delivery Services'
-      },
-      {
-        '@type': 'ImageObject',
-        url: 'https://justlegalsolutions.org/images/oklahoma-courthouse.jpg',
-        width: 1200,
-        height: 800, 
-        caption: 'Oklahoma Court System Process Server'
       }
     ],
     author: {
