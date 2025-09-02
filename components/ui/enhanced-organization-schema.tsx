@@ -59,7 +59,8 @@ export default function EnhancedOrganizationSchema({ countyName }: OrganizationS
           "@type": "Rating",
           "ratingValue": "5"
         },
-        "reviewBody": "Excellent service! They served my documents quickly and professionally. Highly recommend for anyone needing process serving in Oklahoma."
+        "reviewBody": "Excellent service! They served my documents quickly and professionally. Highly recommend for anyone needing process serving in Oklahoma.",
+        "datePublished": "2024-12-05"
       },
       {
         "@type": "Review", 
@@ -71,7 +72,8 @@ export default function EnhancedOrganizationSchema({ countyName }: OrganizationS
           "@type": "Rating",
           "ratingValue": "5"
         },
-        "reviewBody": "Fast, reliable, and professional. Used them for multiple legal documents and they always deliver on time."
+        "reviewBody": "Fast, reliable, and professional. Used them for multiple legal documents and they always deliver on time.",
+        "datePublished": "2024-11-20"
       },
       {
         "@type": "Review",
@@ -83,7 +85,8 @@ export default function EnhancedOrganizationSchema({ countyName }: OrganizationS
           "@type": "Rating",
           "ratingValue": "5"
         },
-        "reviewBody": "Outstanding process serving company. They handled a difficult serve with skill and persistence. Great communication throughout."
+        "reviewBody": "Outstanding process serving company. They handled a difficult serve with skill and persistence. Great communication throughout.",
+        "datePublished": "2024-10-28"
       }
     ],
     "hasCredential": [

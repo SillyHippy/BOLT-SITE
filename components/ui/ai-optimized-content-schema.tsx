@@ -121,7 +121,8 @@ export default function AIOptimizedContentSchema({
             "ratingValue": "5",
             "bestRating": "5"
           },
-          "reviewBody": "Cutting-edge process serving with professional excellence and reliable delivery."
+          "reviewBody": "Cutting-edge process serving with professional excellence and reliable delivery.",
+          "datePublished": "2024-12-15"
         }
       ],
       "openingHoursSpecification": [

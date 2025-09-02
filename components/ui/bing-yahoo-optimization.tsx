@@ -66,7 +66,8 @@ export default function BingYahooOptimization({
           "ratingValue": "5",
           "bestRating": "5"
         },
-        "reviewBody": "Reliable and professional process server. Completed urgent service efficiently."
+        "reviewBody": "Reliable and professional process server. Completed urgent service efficiently.",
+        "datePublished": "2024-11-30"
       }
     ],
     "sameAs": [

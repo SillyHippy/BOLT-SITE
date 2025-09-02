@@ -86,7 +86,8 @@ export default function LocalBusinessSchema({
           "ratingValue": "5",
           "bestRating": "5"
         },
-        "reviewBody": "Outstanding service coverage throughout Oklahoma. Professional and reliable."
+        "reviewBody": "Outstanding service coverage throughout Oklahoma. Professional and reliable.",
+        "datePublished": "2024-12-01"
       }
     ],
     "areaServed": serviceArea.map(area => ({

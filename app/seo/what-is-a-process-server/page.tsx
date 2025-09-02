@@ -379,7 +379,8 @@ const localBusinessSchema = {
         "@type": "Rating",
         "ratingValue": "5"
       },
-      "reviewBody": "Exceptional service! Needed emergency process serving for a restraining order and they completed it within 3 hours. Professional, discreet, and reliable."
+      "reviewBody": "Exceptional service! Needed emergency process serving for a restraining order and they completed it within 3 hours. Professional, discreet, and reliable.",
+      "datePublished": "2024-12-18"
     }
   ]
 };
