@@ -87,6 +87,7 @@ function generateSitemap() {
     '/payments',
     '/why-choose-us',
     '/backlinks',
+    '/search',
     
     // Process Server Pages - Excluding old /process-server-tulsa (redirects to main page)
     '/tulsa-process-server',
