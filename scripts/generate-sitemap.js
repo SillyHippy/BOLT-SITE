@@ -129,21 +129,24 @@ function generateSitemap() {
     .filter(url => !excludeUrls.some(excludeUrl => url.endsWith(excludeUrl)));
   
   const urlEntries = allUrls.map(url => {
-    // Set priority based on URL importance
-    let priority = '0.8';
+    // Set priority based on URL importance - Using higher priorities for better SEO
+    let priority = '0.9'; // Default higher priority
     let changefreq = 'monthly';
     
     if (url === DOMAIN + '/') {
       priority = '1.0';
       changefreq = 'weekly';
     } else if (url.includes('/service-areas/')) {
-      priority = '0.9';
+      priority = '1.0'; // Max priority for service areas
       changefreq = 'weekly';
     } else if (url.includes('/counties/')) {
-      priority = '0.85';
+      priority = '0.95'; // High priority for county pages
       changefreq = 'monthly';
     } else if (url.includes('/pricing') || url.includes('/contact')) {
-      priority = '0.9';
+      priority = '1.0'; // Max priority for conversion pages
+      changefreq = 'weekly';
+    } else if (url.includes('/seo/') || url.includes('/process-server') || url.includes('/oklahoma-')) {
+      priority = '0.95'; // High priority for SEO and process server pages
       changefreq = 'weekly';
     }
     
