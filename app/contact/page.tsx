@@ -79,21 +79,58 @@ export default function ContactPage() {
             "url": "https://justlegalsolutions.org/contact",
             "mainEntity": {
               "@type": "LocalBusiness",
-      "@id": "https://justlegalsolutions.org/#localbusiness",
+              "@id": "https://justlegalsolutions.org/#localbusiness",
               "name": "Just Legal Solutions",
               "url": "https://justlegalsolutions.org",
               "telephone": "+15393676832",
               "email": "info@justlegalsolutions.org",
               "address": {
-              "@type": "PostalAddress",
-              "streetAddress": "564 E 138th PL",
-              "addressLocality": "Glenpool",
-              "addressRegion": "OK",
-              "postalCode": "74033",
-              "addressCountry": "US"
-      },
+                "@type": "PostalAddress",
+                "streetAddress": "564 E 138th PL",
+                "addressLocality": "Glenpool",
+                "addressRegion": "OK",
+                "postalCode": "74033",
+                "addressCountry": "US"
+              },
+              "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "36.154",
+                "longitude": "-95.9928"
+              },
+              "priceRange": "$30-$200",
               "openingHours": [
                 "Mo-Su 00:00-23:59"
+              ],
+              "openingHoursSpecification": [
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+                  "opens": "00:00",
+                  "closes": "23:59",
+                  "description": "24/7 Emergency Process Serving Available"
+                }
+              ],
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.9",
+                "reviewCount": "146",
+                "bestRating": "5",
+                "worstRating": "1"
+              },
+              "review": [
+                {
+                  "@type": "Review",
+                  "author": {
+                    "@type": "Person",
+                    "name": "Oklahoma Client"
+                  },
+                  "reviewRating": {
+                    "@type": "Rating",
+                    "ratingValue": "5",
+                    "bestRating": "5"
+                  },
+                  "reviewBody": "Professional and reliable process serving throughout Oklahoma."
+                }
               ],
               "contactPoint": {
                 "@type": "ContactPoint",
