@@ -57,15 +57,8 @@ export default function StaticSEO2025({
                 "url": "https://justlegalsolutions.org",
                 "potentialAction": {
                   "@type": "SearchAction",
-                  "target": {
-                    "@type": "EntryPoint",
-                    "urlTemplate": "https://justlegalsolutions.org/search?q={search_term_string}"
-                  },
-                  "query-input": {
-                    "@type": "PropertyValueSpecification",
-                    "valueRequired": true,
-                    "valueName": "search_term_string"
-                  }
+                  "target": "https://justlegalsolutions.org/search?q={search_term_string}",
+                  "query-input": "required name=search_term_string"
                 },
                 // 2025 AI Content Classification
                 "about": [
