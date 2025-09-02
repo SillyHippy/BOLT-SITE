@@ -77,7 +77,8 @@ const howToSchema = {
     "@type": "MonetaryAmount",
     "priceCurrency": "USD", 
     "value": "30.00",
-    "maxValue": "200.00"
+    "maxValue": "200.00",
+    "unitText": "per service"
   },
   "totalTime": "PT1H",
   "supply": [
