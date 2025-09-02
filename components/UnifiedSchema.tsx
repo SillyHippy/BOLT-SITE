@@ -368,8 +368,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
           'http://schema.org/IOSPlatform',
           'http://schema.org/AndroidPlatform'
         ]
-      },
-      'query-input': 'required name=search_term_string'
+      }
     },
     ...(speakable && speakable.length > 0 ? {
       speakable: {

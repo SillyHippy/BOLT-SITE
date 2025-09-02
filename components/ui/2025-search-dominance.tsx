@@ -104,8 +104,7 @@ export default function SearchDominance2025({
                 'http://schema.org/AndroidPlatform',
                 'http://schema.org/VoiceApplication'
               ]
-            },
-            'query-input': 'required name=search_term_string'
+            }
           }
         ],
         

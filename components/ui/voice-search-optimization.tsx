@@ -59,8 +59,7 @@ export default function VoiceSearchOptimization({
           "http://schema.org/VoiceApplication",
           "http://schema.org/MobileApplication"
         ]
-      },
-      "query-input": "required"
+      }
     }
   };
 
