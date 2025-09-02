@@ -150,6 +150,17 @@ export default function BrokenArrowProcessServer() {
           title="Broken Arrow Process Server | Legal Document Service 2025"
           description="Professional Broken Arrow process server delivering legal documents, subpoenas, and court papers throughout Rose District, Forest Ridge, and all Broken Arrow neighborhoods."
           breadcrumbs={breadcrumbItems}
+          location={{
+            name: "Broken Arrow",
+            state: "Oklahoma", 
+            zipCode: "74012"
+          }}
+          services={["Process Serving", "Legal Document Delivery", "Court Filing Services", "Skip Tracing", "Emergency Rush Service", "GPS Tracked Delivery", "24/7 Emergency Service"]}
+          priceRange="$30-$200"
+          aggregateRating={{
+            ratingValue: 4.9,
+            reviewCount: 146
+          }}
         />
         
         {/* Hero Section */}

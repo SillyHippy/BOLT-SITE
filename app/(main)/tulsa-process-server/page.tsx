@@ -977,6 +977,11 @@ export default function TulsaProcessServerPage() {
           'Legal Document Service',
           'Professional Process Serving'
         ]}
+        priceRange="$30-$200"
+        aggregateRating={{
+          ratingValue: 4.9,
+          reviewCount: 146
+        }}
         faqs={[
           {
             question: "How quickly can your Tulsa process server deliver legal documents?",

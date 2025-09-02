@@ -183,7 +183,8 @@ export default function SearchEngineUniversalOptimization({
               "itemOffered": {
                 "@type": "Service",
                 "name": `Standard ${primaryService}`,
-                "description": "Professional legal document delivery within 3-5 business days"
+                "description": "Professional legal document delivery within 3-5 business days",
+                "url": "https://justlegalsolutions.org/services"
               }
             },
             ...(emergencyAvailable ? [{
@@ -200,7 +201,8 @@ export default function SearchEngineUniversalOptimization({
               "itemOffered": {
                 "@type": "Service",
                 "name": `Emergency ${primaryService}`,
-                "description": "Urgent legal document delivery when time-sensitive situations require immediate attention"
+                "description": "Urgent legal document delivery when time-sensitive situations require immediate attention",
+                "url": "https://justlegalsolutions.org/services"
               }
             }] : [])
           ]

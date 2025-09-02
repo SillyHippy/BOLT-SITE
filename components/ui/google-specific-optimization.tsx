@@ -72,7 +72,8 @@ export default function GoogleSpecificOptimization({
           "itemOffered": {
             "@type": "Service",
             "name": "Standard Process Serving",
-            "description": "Professional legal document delivery within 3-5 business days"
+            "description": "Professional legal document delivery within 3-5 business days",
+            "url": "https://justlegalsolutions.org/services"
           },
           "availability": "https://schema.org/InStock",
           "validFrom": new Date().toISOString().split('T')[0]
@@ -82,7 +83,8 @@ export default function GoogleSpecificOptimization({
           "itemOffered": {
             "@type": "Service", 
             "name": "Emergency 2-Hour Service",
-            "description": "Critical legal document delivery when time-sensitive situations require immediate attention"
+            "description": "Critical legal document delivery when time-sensitive situations require immediate attention",
+            "url": "https://justlegalsolutions.org/services"
           },
           "availability": "https://schema.org/InStock"
         }
