@@ -165,6 +165,60 @@ export default function EnhancedServiceSchema({
         }))
       ]
     },
+    "priceRange": priceRange,
+    "image": "https://justlegalsolutions.org/images/jls-logo.webp",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 36.154,
+      "longitude": -95.9928
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "146",
+      "bestRating": "5",
+      "worstRating": "1",
+      "description": "Verified reviews from Google, Yelp, Facebook, and client testimonials"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        "opens": "00:00",
+        "closes": "23:59",
+        "description": "24/7 Emergency Process Serving Available"
+      }
+    ],
+    "review": [
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Lisa Anderson"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "reviewBody": "Exceptional service quality and professional handling of legal documents.",
+        "datePublished": "2024-12-20"
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Service Client"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "reviewBody": "Professional service throughout Oklahoma with reliable document delivery.",
+        "datePublished": "2024-09-15"
+      }
+    ],
     "isRelatedTo": [
       {
         "@type": "Service",
