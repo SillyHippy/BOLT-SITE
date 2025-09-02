@@ -104,8 +104,14 @@ export default function MainLayout({
                     "description": "Professional document delivery within 3-5 business days. Starting at $30.",
                     "url": "https://justlegalsolutions.org/services"
                   },
-                  "priceRange": "$30-$60",
-                  "priceCurrency": "USD"
+                  "price": "30.00",
+                  "priceCurrency": "USD",
+                  "priceSpecification": {
+                    "@type": "PriceSpecification",
+                    "price": "30.00",
+                    "priceCurrency": "USD",
+                    "valueAddedTaxIncluded": false
+                  }
                 },
                 {
                   "@type": "Offer",
@@ -116,8 +122,14 @@ export default function MainLayout({
                     "description": "Expedited document delivery within 1-2 business days. Starting at $30.",
                     "url": "https://justlegalsolutions.org/services"
                   },
-                  "priceRange": "$30-$100",
-                  "priceCurrency": "USD"
+                  "price": "50.00",
+                  "priceCurrency": "USD",
+                  "priceSpecification": {
+                    "@type": "PriceSpecification",
+                    "price": "50.00",
+                    "priceCurrency": "USD",
+                    "valueAddedTaxIncluded": false
+                  }
                 },
                 {
                   "@type": "Offer",
@@ -128,8 +140,14 @@ export default function MainLayout({
                     "description": "Urgent document delivery within 24 hours. Starting at $30.",
                     "url": "https://justlegalsolutions.org/services"
                   },
-                  "priceRange": "$30-$200",
-                  "priceCurrency": "USD"
+                  "price": "100.00",
+                  "priceCurrency": "USD",
+                  "priceSpecification": {
+                    "@type": "PriceSpecification",
+                    "price": "100.00",
+                    "priceCurrency": "USD",
+                    "valueAddedTaxIncluded": false
+                  }
                 }
               ]
             },

@@ -307,57 +307,92 @@ const localBusinessSchema = {
       {
         "@type": "Offer",
         "url": "https://justlegalsolutions.org/services",
+        "price": "150.00",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "price": "150.00",
+          "priceCurrency": "USD",
+          "valueAddedTaxIncluded": false
+        },
         "itemOffered": {
           "@type": "Service",
           "name": "Emergency Same-Day Process Serving",
           "description": "Urgent legal document delivery within 2-4 hours",
           "url": "https://justlegalsolutions.org/services"
-        },
-        "priceRange": "$150-$200"
+        }
       },
       {
         "@type": "Offer",
         "url": "https://justlegalsolutions.org/services",
+        "price": "60.00",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "price": "60.00",
+          "priceCurrency": "USD",
+          "valueAddedTaxIncluded": false
+        },
         "itemOffered": {
           "@type": "Service",
           "name": "Standard Process Serving",
           "description": "Professional document delivery within 24-48 hours",
           "url": "https://justlegalsolutions.org/services"
-        },
-        "priceRange": "$60-$100"
+        }
       },
       {
         "@type": "Offer",
         "url": "https://justlegalsolutions.org/services",
+        "price": "100.00",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "price": "100.00",
+          "priceCurrency": "USD",
+          "valueAddedTaxIncluded": false
+        },
         "itemOffered": {
           "@type": "Service",
           "name": "Skip Tracing Service",
           "description": "Advanced location services for difficult-to-find individuals",
           "url": "https://justlegalsolutions.org/services"
-        },
-        "priceRange": "$100-$300"
+        }
       },
       {
         "@type": "Offer",
         "url": "https://justlegalsolutions.org/services",
+        "price": "50.00",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "price": "50.00",
+          "priceCurrency": "USD",
+          "valueAddedTaxIncluded": false
+        },
         "itemOffered": {
           "@type": "Service",
           "name": "Divorce Paper Service",
           "description": "Sensitive family law document delivery",
           "url": "https://justlegalsolutions.org/services"
-        },
-        "priceRange": "$30-$120"
+        }
       },
       {
         "@type": "Offer",
         "url": "https://justlegalsolutions.org/services",
+        "price": "75.00",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "price": "75.00",
+          "priceCurrency": "USD",
+          "valueAddedTaxIncluded": false
+        },
         "itemOffered": {
           "@type": "Service",
           "name": "Business Litigation Service",
           "description": "Commercial legal document delivery",
           "url": "https://justlegalsolutions.org/services"
-        },
-        "priceRange": "$30-$150"
+        }
       }
     ]
   },

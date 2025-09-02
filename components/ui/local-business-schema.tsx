@@ -103,7 +103,16 @@ export default function LocalBusinessSchema({
       "@type": "OfferCatalog",
       "name": "Legal Services",
       "itemListElement": services.map((service, index) => ({
-        "@type": "Offer",         "url": "https://justlegalsolutions.org/services",
+        "@type": "Offer",
+        "url": "https://justlegalsolutions.org/services",
+        "price": "30.00",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "price": "30.00",
+          "priceCurrency": "USD",
+          "valueAddedTaxIncluded": false
+        },
         "itemOffered": {
           "@type": "Service",
           "name": service,

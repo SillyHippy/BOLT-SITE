@@ -85,37 +85,58 @@ export const enhancedLocalBusinessSchema = {
     "name": "Process Serving Services",
     "itemListElement": [
       {
-        "@type": "Offer",         "url": "https://justlegalsolutions.org/services",
+        "@type": "Offer",
+        "url": "https://justlegalsolutions.org/services",
+        "price": "60.00",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "price": "60.00",
+          "priceCurrency": "USD",
+          "valueAddedTaxIncluded": false
+        },
         "itemOffered": {
           "@type": "Service",
           "name": "Standard Process Serving",
           "description": "Professional legal document delivery within 3-5 business days",
           "url": "https://justlegalsolutions.org/services"
-        },
-        "price": "60.00",
-        "priceCurrency": "USD"
+        }
       },
       {
-        "@type": "Offer",         "url": "https://justlegalsolutions.org/services", 
+        "@type": "Offer",
+        "url": "https://justlegalsolutions.org/services",
+        "price": "100.00",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "price": "100.00",
+          "priceCurrency": "USD",
+          "valueAddedTaxIncluded": false
+        },
         "itemOffered": {
           "@type": "Service",
           "name": "Rush Process Serving",
           "description": "Expedited legal document delivery within 24-48 hours",
           "url": "https://justlegalsolutions.org/services"
-        },
-        "price": "100.00",
-        "priceCurrency": "USD"
+        }
       },
       {
-        "@type": "Offer",         "url": "https://justlegalsolutions.org/services",
+        "@type": "Offer",
+        "url": "https://justlegalsolutions.org/services",
+        "price": "150.00",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "price": "150.00",
+          "priceCurrency": "USD",
+          "valueAddedTaxIncluded": false
+        },
         "itemOffered": {
           "@type": "Service", 
           "name": "Same-Day Process Serving",
           "description": "Emergency legal document delivery within 2-8 hours",
           "url": "https://justlegalsolutions.org/services"
-        },
-        "price": "150.00",
-        "priceCurrency": "USD"
+        }
       }
     ]
   },

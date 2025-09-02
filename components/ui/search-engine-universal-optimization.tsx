@@ -170,7 +170,16 @@ export default function SearchEngineUniversalOptimization({
           "name": `${primaryService} Options`,
           "itemListElement": [
             {
-              "@type": "Offer",         "url": "https://justlegalsolutions.org/services",
+              "@type": "Offer",
+              "url": "https://justlegalsolutions.org/services",
+              "price": "30.00",
+              "priceCurrency": "USD",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "30.00",
+                "priceCurrency": "USD",
+                "valueAddedTaxIncluded": false
+              },
               "itemOffered": {
                 "@type": "Service",
                 "name": `Standard ${primaryService}`,
@@ -178,7 +187,16 @@ export default function SearchEngineUniversalOptimization({
               }
             },
             ...(emergencyAvailable ? [{
-              "@type": "Offer",         "url": "https://justlegalsolutions.org/services", 
+              "@type": "Offer",
+              "url": "https://justlegalsolutions.org/services",
+              "price": "100.00",
+              "priceCurrency": "USD",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "100.00",
+                "priceCurrency": "USD",
+                "valueAddedTaxIncluded": false
+              },
               "itemOffered": {
                 "@type": "Service",
                 "name": `Emergency ${primaryService}`,
