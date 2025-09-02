@@ -280,6 +280,21 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     },
     telephone: organization.telephone,
     email: 'info@justlegalsolutions.org',
+    contactPoint: {
+      '@type': 'ContactPoint',
+      telephone: organization.telephone,
+      contactType: 'customer service',
+      email: 'info@justlegalsolutions.org',
+      areaServed: 'Oklahoma',
+      availableLanguage: 'English'
+    },
+    areaServed: {
+      '@type': 'State',
+      name: 'Oklahoma'
+    },
+    foundingDate: '2025-03-01',
+    slogan: 'Over 50 Years Combined Experience Serving Oklahoma',
+    description: 'Professional process serving and legal document delivery throughout Oklahoma with same-day service available.',
     aggregateRating: {
       '@type': 'AggregateRating',
       ratingValue: '4.9',
@@ -295,6 +310,10 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
         closes: '23:59',
         description: '24/7 Emergency Process Serving Available'
       }
+    ],
+    sameAs: organization.sameAs || [
+      'https://www.facebook.com/justlegalsolutions',
+      'https://www.linkedin.com/company/justlegalsolutions'
     ],
     review: [
       {
@@ -323,8 +342,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
         },
         reviewBody: 'Best process server in Oklahoma. Same-day service exceeded our expectations.'
       }
-    ],
-    sameAs: organization.sameAs
+    ]
   };
 
   // Website schema

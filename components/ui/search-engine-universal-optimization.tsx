@@ -50,7 +50,7 @@ export default function SearchEngineUniversalOptimization({
               "@type": "EntryPoint",
               "urlTemplate": "https://justlegalsolutions.org/search?q={search_term_string}"
             },
-            "query": "required"
+            "query": "required name=search_term_string"
           }
         ],
         "inLanguage": "en-US"
@@ -98,7 +98,9 @@ export default function SearchEngineUniversalOptimization({
         "aggregateRating": {
           "@type": "AggregateRating",
           "ratingValue": "4.9",
-          "reviewCount": "146"
+          "reviewCount": "146",
+          "bestRating": "5",
+          "worstRating": "1"
         },
         "review": [
           {
