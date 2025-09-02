@@ -369,7 +369,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
           'http://schema.org/AndroidPlatform'
         ]
       },
-      'query': 'required'
+      'query-input': 'required name=search_term_string'
     },
     ...(speakable && speakable.length > 0 ? {
       speakable: {
@@ -460,7 +460,17 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     ...(serviceDetails.price && { offers: {
       '@type': 'Offer',
       price: serviceDetails.price,
-      priceCurrency: 'USD'
+      priceCurrency: 'USD',
+      image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        width: 180,
+        height: 60
+      },
+      seller: {
+        '@id': 'https://justlegalsolutions.org/#organization'
+      }
     }}),
     ...(serviceDetails.areaServed && { areaServed: serviceDetails.areaServed.map(area => ({
       '@type': 'City',
@@ -655,7 +665,17 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
           'description': 'Emergency legal document delivery within hours',
           'price': '150',
           'priceCurrency': 'USD',
-          'availability': 'https://schema.org/InStock'
+          'image': 'https://justlegalsolutions.org/images/jls-logo.webp',
+          'logo': {
+            '@type': 'ImageObject',
+            'url': 'https://justlegalsolutions.org/images/jls-logo.webp',
+            'width': 180,
+            'height': 60
+          },
+          'availability': 'https://schema.org/InStock',
+          'seller': {
+            '@id': 'https://justlegalsolutions.org/#organization'
+          }
         },
         {
           '@type': 'Offer',
@@ -663,7 +683,17 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
           'description': 'Critical legal document delivery within 2 hours',
           'price': '265', 
           'priceCurrency': 'USD',
-          'availability': 'https://schema.org/InStock'
+          'image': 'https://justlegalsolutions.org/images/jls-logo.webp',
+          'logo': {
+            '@type': 'ImageObject',
+            'url': 'https://justlegalsolutions.org/images/jls-logo.webp',
+            'width': 180,
+            'height': 60
+          },
+          'availability': 'https://schema.org/InStock',
+          'seller': {
+            '@id': 'https://justlegalsolutions.org/#organization'
+          }
         }
       ];
     }
@@ -696,13 +726,24 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
         '@type': 'Offer',
         'name': item.name,
         'description': item.description,
+        'image': 'https://justlegalsolutions.org/images/jls-logo.webp',
+        'logo': {
+          '@type': 'ImageObject',
+          'url': 'https://justlegalsolutions.org/images/jls-logo.webp',
+          'width': 180,
+          'height': 60
+        },
         ...(item.price ? { 'price': item.price } : {}),
         ...(item.priceCurrency ? { 'priceCurrency': item.priceCurrency } : {}),
         'availability': 'https://schema.org/InStock',
+        'seller': {
+          '@id': 'https://justlegalsolutions.org/#organization'
+        },
         'itemOffered': item.itemOffered ? {
           '@type': 'Service',
           'name': item.itemOffered.name,
           'url': 'https://justlegalsolutions.org/services',
+          'image': 'https://justlegalsolutions.org/images/jls-logo.webp',
           ...(item.itemOffered.serviceType ? { 'serviceType': item.itemOffered.serviceType } : {})
         } : undefined
       }))
