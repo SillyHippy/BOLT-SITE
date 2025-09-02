@@ -92,17 +92,20 @@ export default function DuckDuckGoOptimization({
         {
           "@type": "Service",
           "name": "Standard Process Serving",
-          "description": "Professional legal document delivery within 3-5 business days throughout Oklahoma"
+          "description": "Professional legal document delivery within 3-5 business days throughout Oklahoma",
+          "url": "https://justlegalsolutions.org/services"
         },
         {
           "@type": "Service",
           "name": "Emergency Process Serving", 
-          "description": "Urgent legal document delivery when time-sensitive situations require immediate attention"
+          "description": "Urgent legal document delivery when time-sensitive situations require immediate attention",
+          "url": "https://justlegalsolutions.org/services"
         },
         {
           "@type": "Service",
           "name": "Skip Tracing Services",
-          "description": "Professional location services to find individuals for legal document delivery"
+          "description": "Professional location services to find individuals for legal document delivery",
+          "url": "https://justlegalsolutions.org/services"
         }
       ]
     }
