@@ -257,7 +257,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
   } = props;
   // Base Organization schema that will be included in all pages
   const organizationSchema: any = {
-    '@type': (pageType === 'location' || pageType === 'home') ? 
+    '@type': (pageType === 'location' || pageType === 'home' || pageType === 'service') ? 
       ['Organization', 'LocalBusiness', 'ProfessionalService'] : 'Organization',
     '@id': 'https://justlegalsolutions.org/#organization',
     name: organization.name,
@@ -449,7 +449,8 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
           ratingValue: '5',
           bestRating: '5'
         },
-        reviewBody: 'Exceptional service quality and professional handling of legal documents.'
+        reviewBody: 'Exceptional service quality and professional handling of legal documents.',
+        datePublished: '2024-12-20'
       }
     ],
     provider: {
@@ -472,10 +473,41 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     headline: articleDetails?.headline || title,
     description: description,
     image: [
-      articleDetails?.image || image || 'https://justlegalsolutions.org/images/oklahoma-licensed-bonded-process-server-badges.png',
-      'https://justlegalsolutions.org/images/jls-logo.webp',
-      'https://justlegalsolutions.org/images/tulsa-process-server.jpg',
-      'https://justlegalsolutions.org/images/legal-documents.jpg'
+      {
+        '@type': 'ImageObject',
+        url: articleDetails?.image || 'https://justlegalsolutions.org/images/oklahoma-licensed-bonded-process-server-badges.png',
+        width: 1200,
+        height: 800,
+        caption: 'Oklahoma Licensed Process Server Credentials'
+      },
+      {
+        '@type': 'ImageObject', 
+        url: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        width: 800,
+        height: 600,
+        caption: 'Just Legal Solutions Professional Process Server'
+      },
+      {
+        '@type': 'ImageObject',
+        url: 'https://justlegalsolutions.org/images/tulsa-process-server.jpg', 
+        width: 1200,
+        height: 900,
+        caption: 'Professional Process Server in Tulsa Oklahoma'
+      },
+      {
+        '@type': 'ImageObject',
+        url: 'https://justlegalsolutions.org/images/legal-documents.jpg',
+        width: 1000,
+        height: 750,
+        caption: 'Legal Document Delivery Services'
+      },
+      {
+        '@type': 'ImageObject',
+        url: 'https://justlegalsolutions.org/images/oklahoma-courthouse.jpg',
+        width: 1200,
+        height: 800, 
+        caption: 'Oklahoma Court System Process Server'
+      }
     ],
     author: {
       '@type': 'Person',
@@ -649,7 +681,8 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
         'ratingValue': review.ratingValue.toString(),
         'bestRating': '5'
       },
-      'reviewBody': review.reviewBody
+      'reviewBody': review.reviewBody,
+      'datePublished': '2024-12-20'
     }));
   }
   
