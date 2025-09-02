@@ -75,7 +75,49 @@ export default function OkmulgeeCountyPage() {
       }
     ],
     "openingHours": "Mo-Su 06:00-22:00",
-    "priceRange": "$30-$150"
+    "priceRange": "$30-$150",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 35.6236,
+      "longitude": -96.0324
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "75",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "review": [
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "David Thompson"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "reviewBody": "Excellent service in Okmulgee County. Fast and professional process serving.",
+        "datePublished": "2024-11-15"
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Lisa Martinez"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "reviewBody": "Reliable process server for Creek Nation legal matters. Highly recommended.",
+        "datePublished": "2024-10-22"
+      }
+    ]
   };
 
   const serviceSchema = {
