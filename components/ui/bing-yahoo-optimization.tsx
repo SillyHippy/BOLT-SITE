@@ -139,7 +139,8 @@ export default function BingYahooOptimization({
         },
         "object": {
           "@type": "Service",
-          "name": "Process Serving Appointment"
+          "name": "Process Serving Appointment",
+          "url": "https://justlegalsolutions.org/services"
         }
       }
     ],
