@@ -257,7 +257,8 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
   } = props;
   // Base Organization schema that will be included in all pages
   const organizationSchema: any = {
-    '@type': 'Organization',
+    '@type': (pageType === 'location' || pageType === 'home') ? 
+      ['Organization', 'LocalBusiness', 'ProfessionalService'] : 'Organization',
     '@id': 'https://justlegalsolutions.org/#organization',
     name: organization.name,
     url: 'https://justlegalsolutions.org',
@@ -275,8 +276,8 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     },
     geo: {
       '@type': 'GeoCoordinates',
-      latitude: 36.154,
-      longitude: -95.9928
+      latitude: location?.geo?.latitude || 36.154,
+      longitude: location?.geo?.longitude || -95.9928
     },
     telephone: organization.telephone,
     email: 'info@justlegalsolutions.org',
