@@ -75,7 +75,7 @@ const howToSchema = {
   "image": "/images/oklahoma-licensed-bonded-process-server-badges.png",
   "estimatedCost": {
     "@type": "MonetaryAmount",
-    "currency": "USD", 
+    "priceCurrency": "USD", 
     "value": "30.00",
     "maxValue": "200.00"
   },

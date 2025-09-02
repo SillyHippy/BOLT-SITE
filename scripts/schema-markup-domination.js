@@ -163,7 +163,7 @@ const howToSchema = {
   "totalTime": "PT30M",
   "estimatedCost": {
     "@type": "MonetaryAmount",
-    "currency": "USD",
+    "priceCurrency": "USD",
     "value": "75"
   },
   "supply": [
