@@ -48,7 +48,7 @@ export default function WebsiteSchema({
         "target": {
           "@type": "EntryPoint",
           "urlTemplate": `${url}/search?q={search_term_string}`,
-          "query": "required name=search_term_string"
+          "actionPlatform": ["http://schema.org/DesktopWebPlatform", "http://schema.org/IOSPlatform", "http://schema.org/AndroidPlatform"]
         }
       },
       {

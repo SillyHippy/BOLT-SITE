@@ -47,8 +47,7 @@ export default function AIOptimizedContentSchema({
             "http://schema.org/MobileApplication",
             "http://schema.org/DesktopWebPlatform"
           ]
-        },
-        "query": "required"
+        }
       },
       {
         "@type": "CommunicateAction",
