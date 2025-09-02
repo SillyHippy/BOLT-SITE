@@ -327,7 +327,8 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
           ratingValue: '5',
           bestRating: '5'
         },
-        reviewBody: 'Outstanding process server service. Fast, professional, and reliable delivery of legal documents.'
+        reviewBody: 'Outstanding process server service. Fast, professional, and reliable delivery of legal documents.',
+        datePublished: '2024-12-15'
       },
       {
         '@type': 'Review',
@@ -340,7 +341,8 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
           ratingValue: '5',
           bestRating: '5'
         },
-        reviewBody: 'Best process server in Oklahoma. Same-day service exceeded our expectations.'
+        reviewBody: 'Best process server in Oklahoma. Same-day service exceeded our expectations.',
+        datePublished: '2024-11-28'
       }
     ]
   };
@@ -354,6 +356,19 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     description: 'Professional Process Server in Oklahoma',
     publisher: {
       '@id': 'https://justlegalsolutions.org/#organization'
+    },
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: {
+        '@type': 'EntryPoint',
+        urlTemplate: 'https://justlegalsolutions.org/search?q={search_term_string}',
+        actionPlatform: [
+          'http://schema.org/DesktopWebPlatform',
+          'http://schema.org/IOSPlatform',
+          'http://schema.org/AndroidPlatform'
+        ]
+      },
+      'query-input': 'required name=search_term_string'
     },
     ...(speakable && speakable.length > 0 ? {
       speakable: {

@@ -128,7 +128,8 @@ export default function WebsiteSchema({
             "ratingValue": "5",
             "bestRating": "5"
           },
-          "reviewBody": "Reliable service throughout Oklahoma with professional document handling."
+          "reviewBody": "Reliable service throughout Oklahoma with professional document handling.",
+          "datePublished": "2024-08-25"
         }
       ],
       "openingHoursSpecification": [

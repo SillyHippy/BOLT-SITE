@@ -105,7 +105,7 @@ export default function SearchDominance2025({
                 'http://schema.org/VoiceApplication'
               ]
             },
-            'query': 'required name=search_term_string'
+            'query-input': 'required name=search_term_string'
           }
         ],
         

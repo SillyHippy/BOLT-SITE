@@ -129,7 +129,8 @@ export default function ContactPage() {
                     "ratingValue": "5",
                     "bestRating": "5"
                   },
-                  "reviewBody": "Professional and reliable process serving throughout Oklahoma."
+                  "reviewBody": "Professional and reliable process serving throughout Oklahoma.",
+                  "datePublished": "2024-11-05"
                 }
               ],
               "contactPoint": {

@@ -60,7 +60,7 @@ export default function VoiceSearchOptimization({
           "http://schema.org/MobileApplication"
         ]
       },
-      "query": "required"
+      "query-input": "required"
     }
   };
 

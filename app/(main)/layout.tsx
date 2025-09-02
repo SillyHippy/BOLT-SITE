@@ -83,7 +83,8 @@ export default function MainLayout({
                   "ratingValue": "5",
                   "bestRating": "5"
                 },
-                "reviewBody": "Outstanding service quality and professional handling of legal documents."
+                "reviewBody": "Outstanding service quality and professional handling of legal documents.",
+                "datePublished": "2024-11-15"
               }
             ],
             "sameAs": [

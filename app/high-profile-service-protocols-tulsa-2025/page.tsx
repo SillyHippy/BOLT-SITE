@@ -54,7 +54,10 @@ const articleSchema = {
   "headline": "Serving High-Profile Defendants in Tulsa: Privacy & Security Protocols",
   "description": "Expert strategies for serving high-profile defendants in Tulsa with enhanced privacy protocols, security measures, and legal compliance in 2025.",
   "image": [
-    "https://justlegalsolutions.org/images/Process server at gated community entrance.png"
+    "https://justlegalsolutions.org/images/Process server at gated community entrance.png",
+    "https://justlegalsolutions.org/images/high-profile-process-server-tulsa.jpg",
+    "https://justlegalsolutions.org/images/tulsa-legal-document-security.jpg",
+    "https://justlegalsolutions.org/images/professional-process-server-oklahoma.jpg"
   ],
   "author": {
     "@type": "Person",

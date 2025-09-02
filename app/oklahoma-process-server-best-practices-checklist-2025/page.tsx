@@ -42,7 +42,10 @@ const articleSchema = {
   "headline": "Oklahoma Process Server Best Practices Checklist 2025",
   "description": "Complete 2025 Oklahoma process server checklist covering 12 O.S. §12-2004 requirements, Tulsa County protocols, and professional standards.",
   "image": [
-    "https://justlegalsolutions.org/images/oklahoma-licensed-bonded-process-server-badges.png"
+    "https://justlegalsolutions.org/images/oklahoma-licensed-bonded-process-server-badges.png",
+    "https://justlegalsolutions.org/images/tulsa-process-server-office.jpg",
+    "https://justlegalsolutions.org/images/oklahoma-process-serving-documents.jpg",
+    "https://justlegalsolutions.org/images/process-server-certification-oklahoma.jpg"
   ],
   "author": {
     "@type": "Person",
@@ -71,8 +74,9 @@ const howToSchema = {
   "image": "/images/oklahoma-licensed-bonded-process-server-badges.png",
   "estimatedCost": {
     "@type": "MonetaryAmount",
-    "currency": "USD",
+    "currency": "USD", 
     "value": "30",
+    "minValue": "30",
     "maxValue": "200"
   },
   "totalTime": "PT1H",

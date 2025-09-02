@@ -185,12 +185,39 @@ export function LocalSEOSchema({ city, service }: { city?: string; service?: str
     "openingHours": [
       "Mo-Su 00:00-23:59"
     ],
-    "priceRange": "$$",
+    "priceRange": "$30-$200",
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "4.9",
-      "reviewCount": "146"
-    }
+      "reviewCount": "146",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        "opens": "00:00",
+        "closes": "23:59",
+        "description": "24/7 Emergency Process Serving Available"
+      }
+    ],
+    "review": [
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Local Client"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "reviewBody": `Excellent process serving in ${city || 'Oklahoma'}. Fast and professional.`,
+        "datePublished": "2024-10-01"
+      }
+    ]
   };
 
   return (

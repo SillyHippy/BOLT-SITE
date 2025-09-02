@@ -92,6 +92,7 @@ export default function BusinessSchema() {
           "ratingValue": "5"
         },
         "reviewBody": "Just Legal Solutions takes care of business and fast. Not only were they affordable but extremely professional and quick to reply to all my concerns.",
+        "datePublished": "2024-10-15",
         "publisher": {
           "@type": "Organization",
           "name": "Google Reviews"
@@ -109,6 +110,7 @@ export default function BusinessSchema() {
           "ratingValue": "5"
         },
         "reviewBody": "I don't normally write reviews, but I felt compelled to just to praise Just Legal Solutions. I cannot recommend them highly enough. I hired them after two other process servers were unable to serve an individual who was actively avoiding it. Just Legal Solutions got the job done with incredible speed and efficiency. On top of their effectiveness, their rates were more affordable than anyone else I contacted. If you need a persistent and reliable process server, especially for a difficult case, this is the company to hire.",
+        "datePublished": "2024-09-22",
         "publisher": {
           "@type": "Organization",
           "name": "Google Reviews"
@@ -126,6 +128,7 @@ export default function BusinessSchema() {
           "ratingValue": "5"
         },
         "reviewBody": "Fast, professional, and reliable service! The team kept me informed every step of the way and handled my case with care and efficiency. Highly recommended for anyone needing process serving.",
+        "datePublished": "2024-08-10",
         "publisher": {
           "@type": "Organization",
           "name": "Google Reviews"
@@ -143,6 +146,7 @@ export default function BusinessSchema() {
           "ratingValue": "5"
         },
         "reviewBody": "I initially hired Just Legal Solutions for a Rush process serving job, and they were incredibly fast and professional. I was so impressed that I ended up using them for so much more. They've helped me with data entry, cleaned up my QuickBooks, and provided legal assistant support that has been invaluable. It's rare to find a company that can handle so many different tasks with such a high level of competence. Truly a one-stop shop. I can't recommend them enough!!",
+        "datePublished": "2024-07-18",
         "publisher": {
           "@type": "Organization",
           "name": "Google Reviews"

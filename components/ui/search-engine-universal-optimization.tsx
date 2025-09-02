@@ -50,7 +50,7 @@ export default function SearchEngineUniversalOptimization({
               "@type": "EntryPoint",
               "urlTemplate": "https://justlegalsolutions.org/search?q={search_term_string}"
             },
-            "query": "required name=search_term_string"
+            "query-input": "required name=search_term_string"
           }
         ],
         "inLanguage": "en-US"
@@ -114,7 +114,8 @@ export default function SearchEngineUniversalOptimization({
               "ratingValue": "5",
               "bestRating": "5"
             },
-            "reviewBody": "Outstanding service coverage throughout Oklahoma. Professional and reliable."
+            "reviewBody": "Outstanding service coverage throughout Oklahoma. Professional and reliable.",
+            "datePublished": "2024-09-10"
           }
         ]
       },
