@@ -448,12 +448,32 @@ const articleSchema = {
   "datePublished": "2025-08-05",
   "dateModified": "2025-08-25",
   "description": "Comprehensive guide explaining what a process server is, their legal responsibilities in Oklahoma, and why they are critical for upholding due process in the legal system.",
-  "image": {
-    "@type": "ImageObject",
-    "url": "https://justlegalsolutions.org/images/due-process-legal-concept.png",
-    "width": 1200,
-    "height": 630
-  },
+  "image": [
+    {
+      "@type": "ImageObject",
+      "url": "https://justlegalsolutions.org/images/due-process-legal-concept.png",
+      "width": 1200,
+      "height": 630
+    },
+    {
+      "@type": "ImageObject", 
+      "url": "https://justlegalsolutions.org/images/oklahoma-licensed-bonded-process-server-badges.png",
+      "width": 1200,
+      "height": 800
+    },
+    {
+      "@type": "ImageObject",
+      "url": "https://justlegalsolutions.org/images/Legal-document-types-process-server.png", 
+      "width": 1200,
+      "height": 900
+    },
+    {
+      "@type": "ImageObject",
+      "url": "https://justlegalsolutions.org/images/process-server-workflow-steps.png",
+      "width": 1200,
+      "height": 675
+    }
+  ],
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://justlegalsolutions.org/seo/what-is-a-process-server"

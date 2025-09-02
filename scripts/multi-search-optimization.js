@@ -20,12 +20,7 @@ const searchEngineOptimizations = {
       'googlebot': 'index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1'
     },
     structuredData: {
-      '@type': 'WebSite',
-      'potentialAction': {
-        '@type': 'SearchAction',
-        'target': 'https://justlegalsolutions.org/search?q={search_term_string}',
-        'query-input': 'required name=search_term_string'
-      }
+      '@type': 'WebSite'
     }
   },
   

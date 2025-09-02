@@ -358,11 +358,6 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     publisher: {
       '@id': 'https://justlegalsolutions.org/#organization'
     },
-    potentialAction: {
-      '@type': 'SearchAction',
-      target: 'https://justlegalsolutions.org/search?q={search_term_string}',
-      'query-input': 'required name=search_term_string'
-    },
     ...(speakable && speakable.length > 0 ? {
       speakable: {
         '@type': 'SpeakableSpecification',

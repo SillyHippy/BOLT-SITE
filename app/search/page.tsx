@@ -3,6 +3,20 @@
 import { useState, useEffect, Suspense } from 'react'
 import { useSearchParams } from 'next/navigation'
 import Link from 'next/link'
+import Head from 'next/head'
+
+// SearchAction schema for this page since it has actual search functionality
+const searchActionSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Just Legal Solutions",
+  "url": "https://justlegalsolutions.org",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://justlegalsolutions.org/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+};
 
 // Simple search data - you can expand this with your actual pages
 const searchablePages = [
@@ -137,19 +151,27 @@ function SearchContent() {
 
 export default function SearchPage() {
   return (
-    <Suspense fallback={
-      <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
-        <div className="container mx-auto px-4 py-8">
-          <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl font-bold text-slate-800 mb-8">
-              Search Just Legal Solutions
-            </h1>
-            <p className="text-slate-600">Loading search...</p>
+    <>
+      <Head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(searchActionSchema) }}
+        />
+      </Head>
+      <Suspense fallback={
+        <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
+          <div className="container mx-auto px-4 py-8">
+            <div className="max-w-4xl mx-auto text-center">
+              <h1 className="text-4xl font-bold text-slate-800 mb-8">
+                Search Just Legal Solutions
+              </h1>
+              <p className="text-slate-600">Loading search...</p>
+            </div>
           </div>
         </div>
-      </div>
-    }>
-      <SearchContent />
-    </Suspense>
+      }>
+        <SearchContent />
+      </Suspense>
+    </>
   )
 }

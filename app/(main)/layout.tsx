@@ -166,12 +166,7 @@ export default function MainLayout({
             "@type": "WebSite",
             "name": "Just Legal Solutions",
             "url": "https://justlegalsolutions.org",
-            "image": "https://justlegalsolutions.org/images/jls-logo.webp",
-            "potentialAction": {
-              "@type": "SearchAction",
-              "target": "https://justlegalsolutions.org/search?q={search_term_string}",
-              "query-input": "required name=search_term_string"
-            }
+            "image": "https://justlegalsolutions.org/images/jls-logo.webp"
           }) }}
         />
         

@@ -91,15 +91,6 @@ export default function SearchDominance2025({
         'name': 'Just Legal Solutions',
         'description': `Professional ${businessType} in ${location} - Same Day Service Available`,
         
-        // Enhanced search functionality
-        'potentialAction': [
-          {
-            '@type': 'SearchAction',
-            'target': 'https://justlegalsolutions.org/search?q={search_term_string}',
-            'query-input': 'required name=search_term_string'
-          }
-        ],
-        
         // Publisher information
         'publisher': {
           '@id': 'https://justlegalsolutions.org#organization'

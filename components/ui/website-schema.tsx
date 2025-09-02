@@ -44,11 +44,6 @@ export default function WebsiteSchema({
     },
     "potentialAction": [
       {
-        "@type": "SearchAction",
-        "target": `${url}/search?q={search_term_string}`,
-        "query-input": "required name=search_term_string"
-      },
-      {
         "@type": "Action",
         "target": {
           "@type": "EntryPoint", 

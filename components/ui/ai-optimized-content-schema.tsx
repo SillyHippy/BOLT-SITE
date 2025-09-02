@@ -38,11 +38,6 @@ export default function AIOptimizedContentSchema({
     // AI-specific optimization signals
     "potentialAction": [
       {
-        "@type": "SearchAction",
-        "target": "https://justlegalsolutions.org/search?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-      },
-      {
         "@type": "CommunicateAction",
         "target": {
           "@type": "EntryPoint",
