@@ -88,7 +88,7 @@ export default function MainLayout({
                   "bestRating": "5"
                 },
                 "reviewBody": "Outstanding service quality and professional handling of legal documents.",
-                "datePublished": "2024-11-15"
+                "datePublished": "2025-08-15T12:00:00-05:00"
               }
             ],
             "sameAs": [

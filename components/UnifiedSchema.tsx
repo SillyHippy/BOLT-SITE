@@ -445,9 +445,17 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     publisher: {
       '@id': 'https://justlegalsolutions.org/#organization'
     },
-    datePublished: articleDetails?.datePublished || datePublished,
-    dateModified: articleDetails?.dateModified || dateModified || datePublished,
-    mainEntityOfPage: url
+    datePublished: articleDetails?.datePublished ? 
+      (articleDetails.datePublished.includes('T') ? articleDetails.datePublished : `${articleDetails.datePublished}T12:00:00-05:00`) : 
+      (datePublished ? (datePublished.includes('T') ? datePublished : `${datePublished}T12:00:00-05:00`) : `${new Date().toISOString().split('T')[0]}T12:00:00-05:00`),
+    dateModified: articleDetails?.dateModified ? 
+      (articleDetails.dateModified.includes('T') ? articleDetails.dateModified : `${articleDetails.dateModified}T12:00:00-05:00`) : 
+      (dateModified ? (dateModified.includes('T') ? dateModified : `${dateModified}T12:00:00-05:00`) : 
+       (datePublished ? (datePublished.includes('T') ? datePublished : `${datePublished}T12:00:00-05:00`) : `${new Date().toISOString().split('T')[0]}T12:00:00-05:00`)),
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': url
+    }
   } : null;
 
     // Enhanced Organization schema with 2025 SEO dominance features

@@ -121,7 +121,7 @@ export default function ServiceSchema() {
           "bestRating": 5
         },
         "reviewBody": "Exceptional service quality and professional handling of legal documents.",
-        "datePublished": "2025-08-20"
+        "datePublished": "2025-08-20T12:00:00-05:00"
       },
       {
         "@type": "Review",
@@ -139,7 +139,7 @@ export default function ServiceSchema() {
           "bestRating": 5
         },
         "reviewBody": "Reliable service throughout Oklahoma with professional document handling.",
-        "datePublished": "2024-08-25"
+        "datePublished": "2025-08-25T12:00:00-05:00"
       }
     ]
   };

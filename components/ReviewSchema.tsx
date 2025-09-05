@@ -55,7 +55,7 @@ export default function ReviewSchema({
           "bestRating": 5
         },
         "reviewBody": "Outstanding process serving in Tulsa! Fast, professional, and reliable. Got my documents served same day.",
-        "datePublished": "2025-06-15"
+        "datePublished": "2025-06-15T12:00:00-05:00"
       },
       {
         "@type": "Review",
@@ -75,7 +75,7 @@ export default function ReviewSchema({
           "bestRating": 5
         },
         "reviewBody": "Best process server in Oklahoma! Professional service, competitive pricing, and excellent communication throughout.",
-        "datePublished": "2024-12-10"
+        "datePublished": "2025-05-10T12:00:00-05:00"
       },
       {
         "@type": "Review",
