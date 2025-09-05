@@ -154,13 +154,8 @@ export default function MainLayout({
                   }
                 }
               ]
-            },
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "4.9",
-              "reviewCount": "146",
-              "bestRating": "5"
             }
+            /* Removed aggregateRating to fix "Review has multiple aggregate ratings" validation error */
           }) }}
         />
         <script

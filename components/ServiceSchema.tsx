@@ -99,11 +99,10 @@ export default function ServiceSchema() {
     ],
     "aggregateRating": {
       "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "146",
-      "bestRating": "5",
-      "worstRating": "1",
-      "description": "Verified reviews from Google, Yelp, Facebook, and client testimonials"
+      "ratingValue": 4.9,
+      "reviewCount": 146,
+      "bestRating": 5,
+      "worstRating": 1
     },
     "review": [
       {
@@ -118,8 +117,8 @@ export default function ServiceSchema() {
         },
         "reviewRating": {
           "@type": "Rating",
-          "ratingValue": "5",
-          "bestRating": "5"
+          "ratingValue": 5,
+          "bestRating": 5
         },
         "reviewBody": "Exceptional service quality and professional handling of legal documents.",
         "datePublished": "2024-12-20"
@@ -136,8 +135,8 @@ export default function ServiceSchema() {
         },
         "reviewRating": {
           "@type": "Rating",
-          "ratingValue": "5",
-          "bestRating": "5"
+          "ratingValue": 5,
+          "bestRating": 5
         },
         "reviewBody": "Reliable service throughout Oklahoma with professional document handling.",
         "datePublished": "2024-08-25"

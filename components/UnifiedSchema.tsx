@@ -555,10 +555,10 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
   if (aggregateRating && organizationSchema) {
     organizationSchema.aggregateRating = {
       '@type': 'AggregateRating',
-      'ratingValue': aggregateRating.ratingValue ? aggregateRating.ratingValue.toString() : '4.9',
-      'reviewCount': aggregateRating.reviewCount ? aggregateRating.reviewCount.toString() : '146',
-      'bestRating': aggregateRating.bestRating ? aggregateRating.bestRating.toString() : '5',
-      'worstRating': aggregateRating.worstRating ? aggregateRating.worstRating.toString() : '1',
+      'ratingValue': aggregateRating.ratingValue ? aggregateRating.ratingValue : 4.9,
+      'reviewCount': aggregateRating.reviewCount ? aggregateRating.reviewCount : 146,
+      'bestRating': aggregateRating.bestRating ? aggregateRating.bestRating : 5,
+      'worstRating': aggregateRating.worstRating ? aggregateRating.worstRating : 1,
       'description': 'Verified reviews from Google, Yelp, Facebook, and client testimonials'
     };
     
@@ -626,7 +626,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
       },
       'reviewRating': {
         '@type': 'Rating',
-        'ratingValue': review.ratingValue.toString(),
+        'ratingValue': review.ratingValue,
         'bestRating': '5'
       },
       'reviewBody': review.reviewBody,
