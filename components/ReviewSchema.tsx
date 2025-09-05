@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 
 interface ReviewSchemaProps {
   businessName?: string;
@@ -79,6 +79,12 @@ export default function ReviewSchema({
       },
       {
         "@type": "Review",
+        "itemReviewed": {
+          "@type": "Service",
+          "name": "Process Serving Services",
+          "description": "Professional legal document delivery services",
+          "url": "https://justlegalsolutions.org/services"
+        },
         "author": {
           "@type": "Person",
           "name": "Jennifer Miller"
@@ -93,6 +99,11 @@ export default function ReviewSchema({
       },
       {
         "@type": "Review",
+        "itemReviewed": {
+          "@type": "Service",
+          "name": "Process Serving Services",
+          "description": "Professional legal document delivery services"
+        },
         "author": {
           "@type": "Person",
           "name": "Robert Thompson"
@@ -107,6 +118,11 @@ export default function ReviewSchema({
       },
       {
         "@type": "Review",
+        "itemReviewed": {
+          "@type": "Service",
+          "name": "Process Serving Services",
+          "description": "Professional legal document delivery services"
+        },
         "author": {
           "@type": "Person",
           "name": "Lisa Rodriguez"
@@ -121,6 +137,11 @@ export default function ReviewSchema({
       },
       {
         "@type": "Review",
+        "itemReviewed": {
+          "@type": "Service",
+          "name": "Process Serving Services",
+          "description": "Professional legal document delivery services"
+        },
         "author": {
           "@type": "Person",
           "name": "James Wilson"
@@ -135,6 +156,11 @@ export default function ReviewSchema({
       },
       {
         "@type": "Review",
+        "itemReviewed": {
+          "@type": "Service",
+          "name": "Process Serving Services",
+          "description": "Professional legal document delivery services"
+        },
         "author": {
           "@type": "Person",
           "name": "Amanda Brown"
@@ -149,6 +175,11 @@ export default function ReviewSchema({
       },
       {
         "@type": "Review",
+        "itemReviewed": {
+          "@type": "Service",
+          "name": "Process Serving Services",
+          "description": "Professional legal document delivery services"
+        },
         "author": {
           "@type": "Person",
           "name": "David Martinez"
@@ -163,6 +194,11 @@ export default function ReviewSchema({
       },
       {
         "@type": "Review",
+        "itemReviewed": {
+          "@type": "Service",
+          "name": "Process Serving Services",
+          "description": "Professional legal document delivery services"
+        },
         "author": {
           "@type": "Person",
           "name": "Carol Stevens"
@@ -177,6 +213,11 @@ export default function ReviewSchema({
       },
       {
         "@type": "Review",
+        "itemReviewed": {
+          "@type": "Service",
+          "name": "Process Serving Services",
+          "description": "Professional legal document delivery services"
+        },
         "author": {
           "@type": "Person",
           "name": "Kevin Johnson"
@@ -191,6 +232,11 @@ export default function ReviewSchema({
       },
       {
         "@type": "Review",
+        "itemReviewed": {
+          "@type": "Service",
+          "name": "Process Serving Services",
+          "description": "Professional legal document delivery services"
+        },
         "author": {
           "@type": "Person",
           "name": "Nancy White"
@@ -205,6 +251,11 @@ export default function ReviewSchema({
       },
       {
         "@type": "Review",
+        "itemReviewed": {
+          "@type": "Service",
+          "name": "Process Serving Services",
+          "description": "Professional legal document delivery services"
+        },
         "author": {
           "@type": "Person",
           "name": "Mark Taylor"
@@ -219,6 +270,11 @@ export default function ReviewSchema({
       },
       {
         "@type": "Review",
+        "itemReviewed": {
+          "@type": "Service",
+          "name": "Process Serving Services",
+          "description": "Professional legal document delivery services"
+        },
         "author": {
           "@type": "Person",
           "name": "Patricia Garcia"
@@ -233,6 +289,11 @@ export default function ReviewSchema({
       },
       {
         "@type": "Review",
+        "itemReviewed": {
+          "@type": "Service",
+          "name": "Process Serving Services",
+          "description": "Professional legal document delivery services"
+        },
         "author": {
           "@type": "Person",
           "name": "Thomas Anderson"
@@ -247,6 +308,11 @@ export default function ReviewSchema({
       },
       {
         "@type": "Review",
+        "itemReviewed": {
+          "@type": "Service",
+          "name": "Process Serving Services",
+          "description": "Professional legal document delivery services"
+        },
         "author": {
           "@type": "Person",
           "name": "Linda Moore"
@@ -261,6 +327,11 @@ export default function ReviewSchema({
       },
       {
         "@type": "Review",
+        "itemReviewed": {
+          "@type": "Service",
+          "name": "Process Serving Services",
+          "description": "Professional legal document delivery services"
+        },
         "author": {
           "@type": "Person",
           "name": "Christopher Lee"
@@ -283,3 +354,4 @@ export default function ReviewSchema({
     />
   );
 }
+

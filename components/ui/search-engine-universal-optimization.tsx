@@ -84,30 +84,7 @@ export default function SearchEngineUniversalOptimization({
           "@type": "State",
           "name": "Oklahoma",
           "@id": "https://en.wikipedia.org/wiki/Oklahoma"
-        },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "reviewCount": "146",
-          "bestRating": "5",
-          "worstRating": "1"
-        },
-        "review": [
-          {
-            "@type": "Review",
-            "author": {
-              "@type": "Person",
-              "name": "Regional Client"
-            },
-            "reviewRating": {
-              "@type": "Rating",
-              "ratingValue": "5",
-              "bestRating": "5"
-            },
-            "reviewBody": "Outstanding service coverage throughout Oklahoma. Professional and reliable.",
-            "datePublished": "2024-09-10"
-          }
-        ]
+        }
       },
       {
         "@type": ["Service", "ProfessionalService"],
@@ -202,14 +179,6 @@ export default function SearchEngineUniversalOptimization({
           "latitude": 36.154,
           "longitude": -95.9928
         },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "reviewCount": "146",
-          "bestRating": "5",
-          "worstRating": "1",
-          "description": "Verified reviews from Google, Yelp, Facebook, and client testimonials"
-        },
         "openingHoursSpecification": [
           {
             "@type": "OpeningHoursSpecification",
@@ -217,36 +186,6 @@ export default function SearchEngineUniversalOptimization({
             "opens": "00:00",
             "closes": "23:59",
             "description": "24/7 Emergency Process Serving Available"
-          }
-        ],
-        "review": [
-          {
-            "@type": "Review",
-            "author": {
-              "@type": "Person",
-              "name": "Lisa Anderson"
-            },
-            "reviewRating": {
-              "@type": "Rating",
-              "ratingValue": "5",
-              "bestRating": "5"
-            },
-            "reviewBody": "Exceptional service quality and professional handling of legal documents.",
-            "datePublished": "2024-12-20"
-          },
-          {
-            "@type": "Review",
-            "author": {
-              "@type": "Person",
-              "name": "Michael Thompson"
-            },
-            "reviewRating": {
-              "@type": "Rating",
-              "ratingValue": "5",
-              "bestRating": "5"
-            },
-            "reviewBody": "Outstanding process serving throughout Oklahoma. Professional and reliable delivery.",
-            "datePublished": "2024-11-30"
           }
         ]
       },
@@ -272,7 +211,7 @@ export default function SearchEngineUniversalOptimization({
   };
 
   return (
-    <Script
+    <script
       id="search-engine-universal-optimization"
       type="application/ld+json"
       dangerouslySetInnerHTML={{ __html: JSON.stringify(universalSchema) }}

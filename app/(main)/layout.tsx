@@ -74,6 +74,10 @@ export default function MainLayout({
             "review": [
               {
                 "@type": "Review",
+                "itemReviewed": {
+                  "@type": "LocalBusiness",
+                  "@id": "https://justlegalsolutions.org/#organization"
+                },
                 "author": {
                   "@type": "Person",
                   "name": "Jennifer K."

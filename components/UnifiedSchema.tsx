@@ -296,13 +296,6 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     foundingDate: '2025-03-01',
     slogan: 'Over 50 Years Combined Experience Serving Oklahoma',
     description: 'Professional process serving and legal document delivery throughout Oklahoma with same-day service available.',
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.9',
-      reviewCount: '146',
-      bestRating: '5',
-      worstRating: '1'
-    },
     openingHoursSpecification: [
       {
         '@type': 'OpeningHoursSpecification',
@@ -315,36 +308,6 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     sameAs: organization.sameAs || [
       'https://www.facebook.com/justlegalsolutions',
       'https://www.linkedin.com/company/justlegalsolutions'
-    ],
-    review: [
-      {
-        '@type': 'Review',
-        author: {
-          '@type': 'Person',
-          name: 'Jennifer Smith'
-        },
-        reviewRating: {
-          '@type': 'Rating',
-          ratingValue: '5',
-          bestRating: '5'
-        },
-        reviewBody: 'Outstanding process server service. Fast, professional, and reliable delivery of legal documents.',
-        datePublished: '2024-12-15'
-      },
-      {
-        '@type': 'Review',
-        author: {
-          '@type': 'Person',
-          name: 'Robert Wilson'
-        },
-        reviewRating: {
-          '@type': 'Rating',
-          ratingValue: '5',
-          bestRating: '5'
-        },
-        reviewBody: 'Best process server in Oklahoma. Same-day service exceeded our expectations.',
-        datePublished: '2024-11-28'
-      }
     ]
   };
 
@@ -410,13 +373,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
       latitude: 36.154,
       longitude: -95.9928
     },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.9',
-      reviewCount: '146',
-      bestRating: '5',
-      worstRating: '1'
-    },
+    /* Removed duplicate aggregateRating to fix validation errors */
     openingHoursSpecification: [
       {
         '@type': 'OpeningHoursSpecification',
@@ -426,22 +383,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
         description: '24/7 Emergency Process Serving Available'
       }
     ],
-    review: [
-      {
-        '@type': 'Review',
-        author: {
-          '@type': 'Person',
-          name: 'Lisa Anderson'
-        },
-        reviewRating: {
-          '@type': 'Rating',
-          ratingValue: '5',
-          bestRating: '5'
-        },
-        reviewBody: 'Exceptional service quality and professional handling of legal documents.',
-        datePublished: '2024-12-20'
-      }
-    ],
+    /* Removed duplicate review to fix validation errors */
     provider: {
       '@id': 'https://justlegalsolutions.org/#organization'
     },

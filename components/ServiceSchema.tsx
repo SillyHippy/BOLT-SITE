@@ -88,14 +88,6 @@ export default function ServiceSchema() {
       "latitude": 36.154,
       "longitude": -95.9928
     },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "146",
-      "bestRating": "5",
-      "worstRating": "1",
-      "description": "Verified reviews from Google, Yelp, Facebook, and client testimonials"
-    },
     "openingHoursSpecification": [
       {
         "@type": "OpeningHoursSpecification",
@@ -105,9 +97,21 @@ export default function ServiceSchema() {
         "description": "24/7 Emergency Process Serving Available"
       }
     ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "146",
+      "bestRating": "5",
+      "worstRating": "1",
+      "description": "Verified reviews from Google, Yelp, Facebook, and client testimonials"
+    },
     "review": [
       {
         "@type": "Review",
+        "itemReviewed": {
+          "@type": "Service",
+          "name": "Process Serving Services"
+        },
         "author": {
           "@type": "Person",
           "name": "Lisa Anderson"
@@ -122,6 +126,10 @@ export default function ServiceSchema() {
       },
       {
         "@type": "Review",
+        "itemReviewed": {
+          "@type": "Service",
+          "name": "Process Serving Services"
+        },
         "author": {
           "@type": "Person",
           "name": "Oklahoma Client"
@@ -138,7 +146,7 @@ export default function ServiceSchema() {
   };
 
   return (
-    <Script
+    <script
       id="service-schema"
       type="application/ld+json"
       dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
