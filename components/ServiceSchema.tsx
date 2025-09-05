@@ -33,7 +33,7 @@ export default function ServiceSchema() {
     },
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
-      "name": "Process Serving Services",
+      "catalogName": "Process Serving Services",
       "itemListElement": [
         {
           "@type": "Offer",         "url": "https://justlegalsolutions.org/services",
@@ -121,7 +121,7 @@ export default function ServiceSchema() {
           "bestRating": 5
         },
         "reviewBody": "Exceptional service quality and professional handling of legal documents.",
-        "datePublished": "2024-12-20"
+        "datePublished": "2025-08-20"
       },
       {
         "@type": "Review",

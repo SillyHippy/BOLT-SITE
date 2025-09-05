@@ -128,7 +128,7 @@ interface UnifiedSchemaProps {
   }>;
   openingHours?: string[];
   hasOfferCatalog?: {
-    name: string;
+    name: string; // will be used as catalogName in the schema
     itemListElement: Array<{
       name: string;
       description: string;
@@ -638,7 +638,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
   if (hasOfferCatalog && organizationSchema) {
     organizationSchema.hasOfferCatalog = {
       '@type': 'OfferCatalog',
-      'name': hasOfferCatalog.name,
+      'catalogName': hasOfferCatalog.name,
       'itemListElement': hasOfferCatalog.itemListElement.map(item => ({
         '@type': 'Offer',
         'name': item.name,
