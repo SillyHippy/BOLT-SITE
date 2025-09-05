@@ -25,19 +25,20 @@ export default function WebsiteSchema({
     "copyrightYear": "2024",
     "copyrightHolder": {
       "@type": "Organization",
-"foundingDate": "2025-03-01",
-"description": "Professional process serving with over 50 years combined industry experience",
+      "@id": "https://justlegalsolutions.org/#organization",
+      "foundingDate": "2025-03-01",
+      "description": "Professional process serving with over 50 years combined industry experience",
       "name": name
     },
     "publisher": {
       "@type": "Organization",
-"foundingDate": "2025-03-01",
-"description": "Professional process serving with over 50 years combined industry experience",
-      "name": name,
+      "@id": "https://justlegalsolutions.org/#organization",
+      "foundingDate": "2025-03-01",
+      "description": "Professional process serving with over 50 years combined industry experience",
       "url": url,
       "logo": {
         "@type": "ImageObject",
-        "url": `${url}/contactlogo.png`,
+        "url": "https://justlegalsolutions.org/images/jls-logo.webp",
         "width": 400,
         "height": 400
       }
@@ -57,6 +58,7 @@ export default function WebsiteSchema({
       "name": name,
       "description": description,
       "url": url,
+      "image": "https://justlegalsolutions.org/images/jls-logo.webp",
       "telephone": "(539) 367-6832",
       "email": "info@justlegalsolutions.org",
       "address": {

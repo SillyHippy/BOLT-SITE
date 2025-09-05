@@ -262,11 +262,11 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     '@id': 'https://justlegalsolutions.org/#organization',
     name: organization.name,
     url: 'https://justlegalsolutions.org',
-    image: props.image || organization.logo || 'https://justlegalsolutions.org/email%20signature%20logo.png',
+    image: props.image || organization.logo || 'https://justlegalsolutions.org/images/jls-logo.webp',
     priceRange: '$30-$200',
     logo: {
       '@type': 'ImageObject',
-      url: organization.logo || 'https://justlegalsolutions.org/email%20signature%20logo.png',
+      url: organization.logo || 'https://justlegalsolutions.org/images/jls-logo.webp',
       width: 180,
       height: 60
     },
