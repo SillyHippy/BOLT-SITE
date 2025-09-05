@@ -318,12 +318,6 @@ export default function PricingPage() {
         priceRange="$30-$200"
         currenciesAccepted="USD"
         paymentAccepted={["Cash", "Check", "Credit Card", "Online Payment"]}
-        aggregateRating={{
-          ratingValue: 4.9,
-          reviewCount: 146,
-          bestRating: 5,
-          worstRating: 1
-        }}
       />
       
       {/* 2025 AI Voice Supremacy */}
