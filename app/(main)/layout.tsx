@@ -28,13 +28,13 @@ export default function MainLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": ["LocalBusiness", "ProfessionalService"],
-            "@id": "https://justlegalsolutions.org/#organization",
-            "name": "Just Legal Solutions - Tulsa Process Server",
+            "@id": "https://justlegalsolutions.org/#main-organization",
+            "name": "Just Legal Solutions",
             "url": "https://justlegalsolutions.org",
             "telephone": "(539) 367-6832",
             "email": "info@justlegalsolutions.org",
             "description": "Professional process serving company. Same-day service, licensed staff, competitive rates.",
-            "image": "https://justlegalsolutions.org/jls-logo.png",
+            "image": "https://justlegalsolutions.org/images/jls-logo.webp",
             "priceRange": "$30-$200",
             "address": {
               "@type": "PostalAddress",
