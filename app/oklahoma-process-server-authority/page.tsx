@@ -4,7 +4,6 @@ import UnifiedSchema from '@/components/UnifiedSchema';
 import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
 import VoiceSearchOptimization from '@/components/ui/voice-search-optimization';
-import AIAssistantOptimization from '@/components/ui/ai-assistant-optimization';
 import AIOptimizedContentSchema from '@/components/ui/ai-optimized-content-schema';
 import AIVoiceSupremacy from '@/components/ui/ai-voice-supremacy';
 
@@ -300,14 +299,7 @@ export default function OklahomaProcessServerAuthority() {
           "Just Legal Solutions provides comprehensive process serving throughout Oklahoma with emergency and rush service options."
         ]}
         localIntent={false}
-      />
-      
-      <AIAssistantOptimization 
-        businessName="Just Legal Solutions"
-        expertise={["Statewide Process Serving", "Legal Document Delivery", "Oklahoma Court Filing", "Emergency Service"]}
-        serviceLocation="Oklahoma"
-        specializations={["All 77 Counties", "Same-Day Service", "Professional Legal Service", "Licensed Statewide"]}
-        emergencyAvailable={true}
+        emitSchema={false}
       />
       
       <AIOptimizedContentSchema 

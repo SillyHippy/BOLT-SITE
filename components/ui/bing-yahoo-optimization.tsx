@@ -38,13 +38,6 @@ export default function BingYahooOptimization({
       "latitude": 36.154,
       "longitude": -95.9928
     },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "146",
-      "bestRating": "5",
-      "worstRating": "1"
-    },
     "openingHoursSpecification": [
       {
         "@type": "OpeningHoursSpecification",

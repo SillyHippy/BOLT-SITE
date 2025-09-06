@@ -72,7 +72,15 @@ const serviceAreaSchema = {
     "@type": "LegalService",
     "name": "Just Legal Solutions",
     "url": "https://justlegalsolutions.org/",
-    "telephone": "+1-918-551-2301"
+    "telephone": "+1-539-367-6832",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "564 E 138th PL",
+      "addressLocality": "Glenpool",
+      "addressRegion": "OK",
+      "postalCode": "74033",
+      "addressCountry": "US"
+    }
   },
   "areaServed": [
     {

@@ -49,9 +49,11 @@ export default function OkmulgeeCountyPage() {
     "email": "info@justlegalsolutions.org",
     "address": {
       "@type": "PostalAddress",
+      "streetAddress": "564 E 138th PL",
+      "addressLocality": "Okmulgee County",
       "addressRegion": "OK",
-      "addressCountry": "US",
-      "addressLocality": "Okmulgee County"
+      "postalCode": "74033",
+      "addressCountry": "US"
     },
     "areaServed": [
       {
