@@ -568,9 +568,9 @@ const enhancedArticleSchema = {
     },
     "logo": {
       "@type": "ImageObject",
-      "url": "https://justlegalsolutions.org/images/jls-logo.png",
-      "width": 1200,
-      "height": 630
+      "url": "https://justlegalsolutions.org/images/jls-logo.webp",
+      "width": 600,
+      "height": 200
     }
   },
   "datePublished": "2024-03-01T00:00:00Z",
@@ -602,11 +602,6 @@ export default function WhatIsAProcessServerPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
   {/* Removed duplicate voice-search-optimization FAQPage schema. All voice/AI optimization is now in faqSchema above. */}
-      <Script
-        id="article-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-      />
       <script
         id="enhanced-article-schema"
         type="application/ld+json"

@@ -23,7 +23,8 @@ export default function PerformanceSchema({
     "hasPart": {
       "@type": "WebPageElement",
       "cssSelector": "body",
-      "description": "Main content area optimized for fast loading and accessibility"
+      "description": "Main content area optimized for fast loading and accessibility",
+      "isAccessibleForFree": true
     },
     "speakable": {
       "@type": "SpeakableSpecification",
@@ -31,7 +32,8 @@ export default function PerformanceSchema({
     },
     "mainContentOfPage": {
       "@type": "WebPageElement",
-      "cssSelector": "main, .main-content"
+      "cssSelector": "main, .main-content",
+      "isAccessibleForFree": true
     },
     "accessibilityFeature": [
       "alternativeText",
