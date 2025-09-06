@@ -110,13 +110,6 @@ export default function ContactPage() {
                   "description": "24/7 Emergency Process Serving Available"
                 }
               ],
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.9",
-                "reviewCount": "146",
-                "bestRating": "5",
-                "worstRating": "1"
-              },
               "review": [
                 {
                   "@type": "Review",

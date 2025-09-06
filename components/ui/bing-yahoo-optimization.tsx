@@ -152,7 +152,7 @@ export default function BingYahooOptimization({
     "foundingDate": "2025-03-01",
     "numberOfEmployees": {
       "@type": "QuantitativeValue",
-      "value": "3-10"
+      "value": 5
     }
   };
 

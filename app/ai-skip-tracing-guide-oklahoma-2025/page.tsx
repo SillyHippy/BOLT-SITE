@@ -75,8 +75,8 @@ const articleSchema = {
       "url": "https://justlegalsolutions.org/images/jls-logo.webp"
     }
   },
-  "datePublished": "2025-08-27",
-  "dateModified": "2025-08-27",
+  "datePublished": "2025-08-27T00:00:00-05:00",
+  "dateModified": "2025-08-27T00:00:00-05:00",
   "mainEntityOfPage": canonicalUrl
 };const skipTracingSchema = {
   "@context": "https://schema.org",
