@@ -435,7 +435,6 @@ const articleSchema = {
   "@id": "https://justlegalsolutions.org/seo/what-is-a-process-server",
   "url": "https://justlegalsolutions.org/seo/what-is-a-process-server",
   "headline": "What Is a Process Server? Professional Legal Document Delivery in Oklahoma",
-  "image": "https://justlegalsolutions.org/images/due-process-legal-concept.png",
   "author": {
     "@type": "Organization",
     "@id": "https://justlegalsolutions.org/#organization",
