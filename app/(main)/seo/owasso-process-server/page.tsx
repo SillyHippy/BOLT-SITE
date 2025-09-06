@@ -65,6 +65,15 @@ const jsonLd = {
   url: 'https://justlegalsolutions.org/seo/owasso-process-server',
   telephone: '(539) 367-6832',
   email: 'info@justlegalsolutions.org',
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: '564 E 138th PL',
+    addressLocality: 'Glenpool',
+    addressRegion: 'OK',
+    postalCode: '74033',
+    addressCountry: 'US'
+  },
+  image: 'https://justlegalsolutions.org/images/jls-logo.webp',
   areaServed: [
     { '@type': 'City', name: 'Owasso' },
     { '@type': 'AdministrativeArea', name: 'Tulsa County' },
@@ -74,9 +83,42 @@ const jsonLd = {
   priceRange: '$30 - $200',
 };
 
+const owassoOrganizationSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  '@id': 'https://justlegalsolutions.org/#owasso-organization',
+  name: 'Just Legal Solutions',
+  url: 'https://justlegalsolutions.org/',
+  telephone: '(539) 367-6832',
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: '564 E 138th PL',
+    addressLocality: 'Glenpool',
+    addressRegion: 'OK',
+    postalCode: '74033',
+    addressCountry: 'US'
+  },
+  image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+  priceRange: '$30-$200',
+  foundingDate: '2025-03-01',
+  description: 'Professional process serving with over 50 years combined industry experience'
+};
+
 export default function OwassoProcessServer() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(owassoOrganizationSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema) }}
+      />
       <div className="min-h-screen bg-gray-50 pt-16">
         <div className="bg-blue-900 text-white">
           <div className="container mx-auto px-4 py-20 pt-12 text-center">

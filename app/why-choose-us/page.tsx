@@ -98,6 +98,7 @@ export default function WhyChooseUs() {
           telephone: '+1-539-367-6832',
           address: {
             '@type': 'PostalAddress',
+            streetAddress: '564 E 138th PL',
             addressLocality: 'Tulsa',
             addressRegion: 'OK',
             postalCode: '74119',
