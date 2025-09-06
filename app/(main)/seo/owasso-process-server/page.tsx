@@ -1,3 +1,26 @@
+// LocalBusiness schema for Google Rich Results
+const localBusinessSchema = {
+  '@context': 'https://schema.org',
+  '@type': ['LocalBusiness', 'ProfessionalService'],
+  '@id': 'https://justlegalsolutions.org/#organization',
+  name: 'Just Legal Solutions',
+  url: 'https://justlegalsolutions.org/',
+  telephone: '(539) 367-6832',
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: '564 E 138th PL',
+    addressLocality: 'Glenpool',
+    addressRegion: 'OK',
+    postalCode: '74033',
+    addressCountry: {
+      '@type': 'Country',
+      name: 'US'
+    },
+  },
+  image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+  priceRange: '$30-$200',
+  description: 'Professional process serving with over 50 years combined industry experience',
+};
 // Speakable Schema for voice search optimization
 const speakableSchema = {
   '@context': 'https://schema.org',
@@ -114,6 +137,10 @@ export default function OwassoProcessServer() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(owassoOrganizationSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
       />
       <script
         type="application/ld+json"
