@@ -173,6 +173,7 @@ const localBusinessSchema = {
   "url": "https://justlegalsolutions.org",
   "telephone": "(539) 367-6832",
   "email": "info@justlegalsolutions.org",
+  "isAccessibleForFree": true,
   "image": "https://justlegalsolutions.org/images/jls-logo.webp",
   "logo": {
     "@type": "ImageObject",
@@ -423,7 +424,7 @@ const localBusinessSchema = {
         "ratingValue": "5"
       },
       "reviewBody": "Exceptional service! Needed emergency process serving for a restraining order and they completed it within 3 hours. Professional, discreet, and reliable.",
-      "datePublished": "2024-12-18"
+      "datePublished": "2024-12-18T00:00:00Z"
     }
   ]
 };
@@ -441,6 +442,8 @@ const articleSchema = {
     "foundingDate": "2025-03-01",
     "description": "Professional process serving with over 50 years combined industry experience",
     "name": "Just Legal Solutions",
+    "url": "https://justlegalsolutions.org/",
+    "isAccessibleForFree": true,
     "image": "https://justlegalsolutions.org/images/jls-logo.webp",
     "address": {
       "@type": "PostalAddress",
@@ -457,6 +460,8 @@ const articleSchema = {
     "foundingDate": "2025-03-01",
     "description": "Professional process serving with over 50 years combined industry experience",
     "name": "Just Legal Solutions",
+    "url": "https://justlegalsolutions.org/",
+    "isAccessibleForFree": true,
     "logo": {
       "@type": "ImageObject",
       "url": "https://justlegalsolutions.org/images/jls-logo.webp",
@@ -464,8 +469,8 @@ const articleSchema = {
       "height": 200
     }
   },
-  "datePublished": "2025-08-05",
-  "dateModified": "2025-08-25",
+  "datePublished": "2025-08-05T00:00:00Z",
+  "dateModified": "2025-08-25T00:00:00Z",
   "description": "Comprehensive guide explaining what a process server is, their legal responsibilities in Oklahoma, and why they are critical for upholding due process in the legal system.",
   "image": [
     {
@@ -521,6 +526,7 @@ const enhancedArticleSchema = {
 "description": "Professional process serving with over 50 years combined industry experience",
     "name": "Just Legal Solutions",
     "url": "https://justlegalsolutions.org",
+    "isAccessibleForFree": true,
     "telephone": "(539) 367-6832"
   },
   "publisher": {
@@ -528,6 +534,8 @@ const enhancedArticleSchema = {
 "foundingDate": "2025-03-01",
 "description": "Professional process serving with over 50 years combined industry experience",
     "name": "Just Legal Solutions",
+    "url": "https://justlegalsolutions.org",
+    "isAccessibleForFree": true,
     "logo": {
       "@type": "ImageObject",
       "url": "https://justlegalsolutions.org/images/jls-logo.png",

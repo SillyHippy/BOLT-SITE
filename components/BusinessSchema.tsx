@@ -12,6 +12,13 @@ export default function BusinessSchema() {
     "url": "https://justlegalsolutions.org",
     "telephone": "(539) 367-6832",
     "email": "info@justlegalsolutions.org",
+    "image": "https://justlegalsolutions.org/images/jls-logo.webp",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://justlegalsolutions.org/images/jls-logo.webp",
+      "width": 600,
+      "height": 200
+    },
     "founder": {
       "@type": "Person",
       "name": "Joseph Iannazzi",
