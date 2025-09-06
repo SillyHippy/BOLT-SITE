@@ -73,6 +73,8 @@ const serviceAreaSchema = {
     "name": "Just Legal Solutions",
     "url": "https://justlegalsolutions.org/",
     "telephone": "+1-539-367-6832",
+    "image": "https://justlegalsolutions.org/images/jls-logo.webp",
+    "priceRange": "$30-$200",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "564 E 138th PL",

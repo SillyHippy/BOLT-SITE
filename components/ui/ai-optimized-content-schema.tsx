@@ -150,17 +150,20 @@ export default function AIOptimizedContentSchema({
       {
         "@type": "WebPageElement",
         "cssSelector": "h1, h2, h3",
-        "description": "Hierarchical content structure optimized for AI parsing"
+        "description": "Hierarchical content structure optimized for AI parsing",
+        "isAccessibleForFree": true
       },
       {
         "@type": "WebPageElement",
         "cssSelector": ".primary-answer, .voice-answer",
-        "description": "Direct answers optimized for voice search and AI responses"
+        "description": "Direct answers optimized for voice search and AI responses",
+        "isAccessibleForFree": true
       },
       {
         "@type": "WebPageElement",
         "cssSelector": ".voice-optimized",
-        "description": "Content specifically optimized for voice search queries"
+        "description": "Content specifically optimized for voice search queries",
+        "isAccessibleForFree": true
       }
     ],
     

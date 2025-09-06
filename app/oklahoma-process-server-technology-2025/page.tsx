@@ -82,7 +82,14 @@ const technologySchema = {
   "@context": "https://schema.org",
   "@type": "TechArticle",
   "name": "Process Server Technology Innovation",
+  "headline": "Process Server Technology Innovation",
   "description": "Advanced technology solutions for process serving in Oklahoma",
+  "image": "https://justlegalsolutions.org/images/Technology legal compliance flowchart.png",
+  "author": {
+    "@type": "Organization",
+    "name": "Just Legal Solutions",
+    "url": "https://justlegalsolutions.org"
+  },
   "applicationCategory": "Legal Technology",
   "operatingSystem": "Cross-platform",
   "offers": {
