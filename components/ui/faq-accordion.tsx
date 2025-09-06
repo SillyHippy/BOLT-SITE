@@ -23,6 +23,7 @@ export default function FAQAccordion({ faqs }: FAQAccordionProps) {
     <div className="space-y-4">
       {faqs.map((faq, index) => (
         <div key={index} className="bg-white border border-gray-200 rounded-lg shadow-sm overflow-hidden" itemScope itemType="https://schema.org/Question">
+          <meta itemProp="image" content="https://justlegalsolutions.org/images/jls-logo.webp" />
           <button
             onClick={() => toggleFAQ(index)}
             className="w-full text-left p-6 hover:bg-gray-50 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-inset"
@@ -44,6 +45,7 @@ export default function FAQAccordion({ faqs }: FAQAccordionProps) {
           {openIndex === index && (
             <div className="px-6 pb-6" itemScope itemType="https://schema.org/Answer" itemProp="acceptedAnswer">
               <div className="border-t border-gray-100 pt-4">
+                <meta itemProp="image" content="https://justlegalsolutions.org/images/jls-logo.webp" />
                 <p className="text-gray-700 leading-relaxed" itemProp="text" dangerouslySetInnerHTML={{ __html: faq.answer }}></p>
               </div>
             </div>

@@ -157,6 +157,7 @@ export default function BrokenArrowProcessServer() {
           }}
           services={["Process Serving", "Legal Document Delivery", "Court Filing Services", "Skip Tracing", "Emergency Rush Service", "GPS Tracked Delivery", "24/7 Emergency Service"]}
           priceRange="$30-$200"
+          image="https://justlegalsolutions.org/images/jls-logo.webp"
           aggregateRating={{
             ratingValue: 4.9,
             reviewCount: 146

@@ -168,10 +168,18 @@ const faqSchema = {
 const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "LegalService",
+  "@id": "https://justlegalsolutions.org/#business-what-is",
   "name": "Just Legal Solutions",
   "url": "https://justlegalsolutions.org",
   "telephone": "(539) 367-6832",
   "email": "info@justlegalsolutions.org",
+  "image": "https://justlegalsolutions.org/images/jls-logo.webp",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://justlegalsolutions.org/images/jls-logo.webp",
+    "width": 180,
+    "height": 60
+  },
   "description": "Professional process server in Tulsa, Oklahoma with 50+ years legal field experience. Licensed and bonded in all 77 Oklahoma counties. 24/7 emergency service available throughout Oklahoma with same-day service in Tulsa metro area.",
   "address": {
     "@type": "PostalAddress",
@@ -427,20 +435,32 @@ const articleSchema = {
   "@id": "https://justlegalsolutions.org/seo/what-is-a-process-server",
   "url": "https://justlegalsolutions.org/seo/what-is-a-process-server",
   "headline": "What Is a Process Server? Professional Legal Document Delivery in Oklahoma",
+  "image": "https://justlegalsolutions.org/images/due-process-legal-concept.png",
   "author": {
     "@type": "Organization",
-"foundingDate": "2025-03-01",
-"description": "Professional process serving with over 50 years combined industry experience",
-    "name": "Just Legal Solutions"
+    "@id": "https://justlegalsolutions.org/#organization",
+    "foundingDate": "2025-03-01",
+    "description": "Professional process serving with over 50 years combined industry experience",
+    "name": "Just Legal Solutions",
+    "image": "https://justlegalsolutions.org/images/jls-logo.webp",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "564 E 138th PL",
+      "addressLocality": "Glenpool",
+      "addressRegion": "OK",
+      "postalCode": "74033",
+      "addressCountry": "US"
+    }
   },
   "publisher": {
     "@type": "Organization",
-"foundingDate": "2025-03-01",
-"description": "Professional process serving with over 50 years combined industry experience",
+    "@id": "https://justlegalsolutions.org/#organization",
+    "foundingDate": "2025-03-01",
+    "description": "Professional process serving with over 50 years combined industry experience",
     "name": "Just Legal Solutions",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://justlegalsolutions.org/images/jls-logo.png",
+      "url": "https://justlegalsolutions.org/images/jls-logo.webp",
       "width": 600,
       "height": 200
     }
@@ -448,6 +468,10 @@ const articleSchema = {
   "datePublished": "2025-08-05",
   "dateModified": "2025-08-25",
   "description": "Comprehensive guide explaining what a process server is, their legal responsibilities in Oklahoma, and why they are critical for upholding due process in the legal system.",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://justlegalsolutions.org/seo/what-is-a-process-server"
+  },
   "image": [
     {
       "@type": "ImageObject",

@@ -203,6 +203,7 @@ export default function JenksProcessServer() {
             ...jenksLocalFAQs
           ]}
           priceRange="$30-$200"
+          image="https://justlegalsolutions.org/images/jls-logo.webp"
           aggregateRating={{
             ratingValue: 4.9,
             reviewCount: 146
