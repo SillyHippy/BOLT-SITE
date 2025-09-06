@@ -468,10 +468,6 @@ const articleSchema = {
   "datePublished": "2025-08-05",
   "dateModified": "2025-08-25",
   "description": "Comprehensive guide explaining what a process server is, their legal responsibilities in Oklahoma, and why they are critical for upholding due process in the legal system.",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://justlegalsolutions.org/seo/what-is-a-process-server"
-  },
   "image": [
     {
       "@type": "ImageObject",
