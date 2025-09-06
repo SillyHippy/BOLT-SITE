@@ -111,7 +111,6 @@ const owassoOrganizationSchema = {
   '@type': 'Organization',
   '@id': 'https://justlegalsolutions.org/#owasso-organization',
   name: 'Just Legal Solutions',
-  url: 'https://justlegalsolutions.org/',
   telephone: '(539) 367-6832',
   address: {
     '@type': 'PostalAddress',
