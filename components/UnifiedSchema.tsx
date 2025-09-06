@@ -183,9 +183,10 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
       areaServed: props.areaServed?.map(area => area.name) || [props.serviceArea].filter(Boolean),
       serviceType: [props.serviceType].filter(Boolean)
     } : undefined,
-    // Map legacy organization
+    // Map legacy organization - ensure logo is always set
     organization = props.organizationName || props.address ? {
       name: props.organizationName || 'Just Legal Solutions',
+      logo: 'https://justlegalsolutions.org/images/jls-logo.webp',
       address: props.address || {
         streetAddress: '564 E 138th PL',
         addressLocality: 'Glenpool',
@@ -262,7 +263,12 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     '@id': 'https://justlegalsolutions.org/#organization',
     name: organization.name,
     url: 'https://justlegalsolutions.org',
-    image: props.image || organization.logo || 'https://justlegalsolutions.org/images/jls-logo.webp',
+    image: [
+      props.image || organization.logo || 'https://justlegalsolutions.org/images/jls-logo.webp',
+      'https://justlegalsolutions.org/images/jls-logo.webp',
+      'https://justlegalsolutions.org/images/tulsa-process-server.webp',
+      'https://justlegalsolutions.org/og-image.png'
+    ],
     priceRange: '$30-$200',
     logo: {
       '@type': 'ImageObject',

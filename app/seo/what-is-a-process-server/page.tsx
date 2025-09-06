@@ -444,6 +444,7 @@ const articleSchema = {
     "name": "Just Legal Solutions",
     "url": "https://justlegalsolutions.org/",
     "isAccessibleForFree": true,
+    "telephone": "(539) 367-6832",
     "image": "https://justlegalsolutions.org/images/jls-logo.webp",
     "address": {
       "@type": "PostalAddress",
@@ -462,6 +463,15 @@ const articleSchema = {
     "name": "Just Legal Solutions",
     "url": "https://justlegalsolutions.org/",
     "isAccessibleForFree": true,
+    "telephone": "(539) 367-6832",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "564 E 138th PL",
+      "addressLocality": "Glenpool",
+      "addressRegion": "OK", 
+      "postalCode": "74033",
+      "addressCountry": "US"
+    },
     "logo": {
       "@type": "ImageObject",
       "url": "https://justlegalsolutions.org/images/jls-logo.webp",
@@ -522,20 +532,40 @@ const enhancedArticleSchema = {
   "headline": "What Is a Process Server and Why Are They Essential for Due Process?",
   "author": {
     "@type": "Organization",
-"foundingDate": "2025-03-01",
-"description": "Professional process serving with over 50 years combined industry experience",
+    "@id": "https://justlegalsolutions.org/#organization",
+    "foundingDate": "2025-03-01",
+    "description": "Professional process serving with over 50 years combined industry experience",
     "name": "Just Legal Solutions",
     "url": "https://justlegalsolutions.org",
     "isAccessibleForFree": true,
-    "telephone": "(539) 367-6832"
+    "telephone": "(539) 367-6832",
+    "image": "https://justlegalsolutions.org/images/jls-logo.webp",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "564 E 138th PL",
+      "addressLocality": "Glenpool", 
+      "addressRegion": "OK",
+      "postalCode": "74033",
+      "addressCountry": "US"
+    }
   },
   "publisher": {
     "@type": "Organization",
-"foundingDate": "2025-03-01",
-"description": "Professional process serving with over 50 years combined industry experience",
+    "@id": "https://justlegalsolutions.org/#organization",
+    "foundingDate": "2025-03-01",
+    "description": "Professional process serving with over 50 years combined industry experience",
     "name": "Just Legal Solutions",
     "url": "https://justlegalsolutions.org",
     "isAccessibleForFree": true,
+    "telephone": "(539) 367-6832",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "564 E 138th PL",
+      "addressLocality": "Glenpool",
+      "addressRegion": "OK",
+      "postalCode": "74033", 
+      "addressCountry": "US"
+    },
     "logo": {
       "@type": "ImageObject",
       "url": "https://justlegalsolutions.org/images/jls-logo.png",

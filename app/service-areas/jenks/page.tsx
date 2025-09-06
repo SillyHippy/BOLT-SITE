@@ -631,6 +631,7 @@ export default function JenksProcessServer() {
                     <meta itemProp="name" content="Just Legal Solutions - Jenks Process Server" />
                     <meta itemProp="telephone" content="(539) 367-6832" />
                     <meta itemProp="priceRange" content="$30-$200" />
+                    <meta itemProp="image" content="https://justlegalsolutions.org/images/jls-logo.webp" />
                     <div itemProp="address" itemScope={true} itemType="https://schema.org/PostalAddress">
                       <meta itemProp="streetAddress" content="564 E 138th PL" />
                       <meta itemProp="addressLocality" content="Jenks" />
@@ -676,6 +677,7 @@ export default function JenksProcessServer() {
                     <meta itemProp="name" content="Just Legal Solutions - Jenks Process Server" />
                     <meta itemProp="telephone" content="(539) 367-6832" />
                     <meta itemProp="priceRange" content="$30-$200" />
+                    <meta itemProp="image" content="https://justlegalsolutions.org/images/jls-logo.webp" />
                     <div itemProp="address" itemScope={true} itemType="https://schema.org/PostalAddress">
                       <meta itemProp="streetAddress" content="564 E 138th PL" />
                       <meta itemProp="addressLocality" content="Jenks" />
@@ -721,6 +723,7 @@ export default function JenksProcessServer() {
                     <meta itemProp="name" content="Just Legal Solutions - Jenks Process Server" />
                     <meta itemProp="telephone" content="(539) 367-6832" />
                     <meta itemProp="priceRange" content="$30-$200" />
+                    <meta itemProp="image" content="https://justlegalsolutions.org/images/jls-logo.webp" />
                     <div itemProp="address" itemScope={true} itemType="https://schema.org/PostalAddress">
                       <meta itemProp="streetAddress" content="564 E 138th PL" />
                       <meta itemProp="addressLocality" content="Jenks" />
