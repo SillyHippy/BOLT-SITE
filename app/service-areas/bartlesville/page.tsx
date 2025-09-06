@@ -119,6 +119,7 @@ export default function BartlesvilleProcessServer() {
             zipCode: "74003"
           }}
           services={["Process Serving", "Legal Document Delivery", "Court Filing Services", "Skip Tracing", "Emergency Rush Service", "GPS Tracked Delivery", "24/7 Emergency Service"]}
+          image="https://justlegalsolutions.org/images/jls-logo.webp"
           faqItems={bartlesvilleFAQs}
         />
 
