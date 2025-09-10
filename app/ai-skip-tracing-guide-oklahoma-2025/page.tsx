@@ -398,7 +398,7 @@ export default function AISkipTracingGuideOklahoma2025() {
                 <li><a href="https://www.csail.mit.edu" target="_blank" rel="noopener noreferrer" className="hover:underline">MIT CSAIL</a></li>
                 <li><a href="https://www.computer.org" target="_blank" rel="noopener noreferrer" className="hover:underline">IEEE Computer Society</a></li>
                 <li><a href="https://www.acm.org" target="_blank" rel="noopener noreferrer" className="hover:underline">Association for Computing Machinery (ACM)</a></li>
-                <li><a href="https://www.iltanet.org" target="_blank" rel="noopener noreferrer" className="hover:underline">International Legal Technology Association (ILTA)</a></li>
+                <li><a href="https://www.iltanet.org/home" target="_blank" rel="noopener noreferrer" className="hover:underline">International Legal Technology Association (ILTA)</a></li>
                 <li><a href="https://www.americanbar.org/groups/departments_offices/legal_technology_resources/" target="_blank" rel="noopener noreferrer" className="hover:underline">ABA Legal Technology Resource Center</a></li>
               </ul>
             </div>
