@@ -1,4 +1,3 @@
-
 import { Metadata } from 'next';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
@@ -68,7 +67,6 @@ const backlinkUrls = [
   'https://www.elocal.com/profile/just-legal-solutions-21951593',
   'https://www.yellowpages.com/glenpool-ok/mip/just-legal-solutions-606085805',
   'https://www.dnb.com/business-directory/company-profiles.just_legal_solutions_llc.html',
-  'https://clutch.co/profile/just-legal-solutions',
   
   // Social Media & Reviews
   'https://www.facebook.com/JustLegalSolutionsOK/',
@@ -122,7 +120,6 @@ const backlinkUrls = [
   'https://www.maplenmain.com/view/gg5y2',
   'https://merchantcircle.com/just-legal-solutions-glenpool-ok',
   'http://m.merchantsnearby.com/just-legal-solutions',
-  'https://www.mylocalservices.com/Just+Legal+Solutions-Glenpool-Oklahoma-25751094.html',
   'https://mylocaledge.com/Listing/L-50af8d5fb20b9977ce2dceff017c42dbd7d1ef91aaec1f328372bef0c97582cd58a319d88bcdec23d3aa2a0873fc9271bb36cf',
   'https://www.n49.com/biz/6745993/just-legal-solutions-ok-glenpool-564-east-138th-place/',
   'https://glenpool-ok.opendi.us/13337098.html',
