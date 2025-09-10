@@ -406,7 +406,7 @@ export default function AISkipTracingGuideOklahoma2025() {
               <h3 className="text-2xl font-semibold mb-3">Government, Regulation, and Compliance</h3>
               <ul className="list-disc ml-6 space-y-2 text-blue-600">
                 <li><a href="https://www.ftc.gov/business-guidance/resources/fair-credit-reporting-act" target="_blank" rel="noopener noreferrer" className="hover:underline">Fair Credit Reporting Act (FTC)</a></li>
-                <li><a href="https://www.consumerfinance.gov/compliance/compliance-resources/fair-credit-reporting-act/" target="_blank" rel="noopener noreferrer" className="hover:underline">CFPB FCRA Resources</a></li>
+                <li><a href="https://www.consumerfinance.gov/compliance/compliance-resources/" target="_blank" rel="noopener noreferrer" className="hover:underline">CFPB FCRA Resources</a></li>
                 <li><a href="https://www.nist.gov/cyberframework" target="_blank" rel="noopener noreferrer" className="hover:underline">NIST Cybersecurity Framework</a></li>
                 <li><a href="https://www.oscn.net" target="_blank" rel="noopener noreferrer" className="hover:underline">Oklahoma State Courts Network (OSCN)</a></li>
                 <li><a href="https://www.sos.ok.gov" target="_blank" rel="noopener noreferrer" className="hover:underline">Oklahoma Secretary of State</a></li>
