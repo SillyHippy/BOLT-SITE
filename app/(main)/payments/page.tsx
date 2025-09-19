@@ -86,7 +86,7 @@ export default function PaymentsPage() {
               Securely pay your invoice online using a credit or debit card. Please have your case number ready.
             </p>
             <a 
-              href="https://buy.stripe.com/3cs17SbHS6h95nGaEE" 
+              href="https://just-legal-solutions.myhelcim.com/hosted/?token=0fd078f392944cc6c4184f" 
               className="w-full bg-blue-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-blue-700 transition-colors flex items-center justify-center"
               target="_blank"
               rel="noopener noreferrer"
