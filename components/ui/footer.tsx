@@ -266,7 +266,7 @@ export function Footer() {
             <p className="text-gray-600">
               At this time, we accept{" "}
               <a
-                href="https://buy.stripe.com/3cs17SbHS6h95nGaEE"
+                href="https://just-legal-solutions.myhelcim.com/hosted/?token=0fd078f392944cc6c4184f"
                 className="text-blue-600 hover:text-blue-800"
               >
                 electronic payments
