@@ -302,7 +302,7 @@ export default function PricingPage() {
             <div>
                  <h3 className="text-xl font-bold mb-3 text-gray-800">Payment & Late Fee Policy</h3>
                 <p className="text-gray-700">
-                    For new clients, prepayment is required to ensure we can dedicate our resources to your case without delay.
+                    <strong>Prepayment is required for non-established clients.</strong> This ensures we can dedicate our resources to your case without delay.
                     <br /><br />
                     For established clients, payment is due on the date specified on the invoice. If payment is not received in full by the due date, a one-time late fee of <strong>$40.00</strong> will be assessed. Furthermore, a service charge of <strong>0.5%</strong> of the total outstanding balance will be applied for each day the payment is late, beginning the day after the due date, until the balance is paid in full.
                 </p>
