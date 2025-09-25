@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Metadata } from 'next';
 import { CheckCircle, Truck } from 'lucide-react';
@@ -151,6 +150,7 @@ export default function PricingPage() {
       
       <main className="min-h-screen bg-white font-sans">
       <section className="pt-24 pb-10 px-4 bg-gray-100">
+        {/* Subtle change: No extra disclaimer box, keep original style */}
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-blue-900 mb-6">Process Server Pricing</h1>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">JLS Wants to Partner with You</h2>
@@ -185,11 +185,10 @@ export default function PricingPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200 relative">
-              {/* <div className="absolute -top-2 -right-2 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded-full">20% OFF</div> */}
               <h3 className="text-xl font-bold mb-3 text-gray-900">Standard Service</h3>
               <div className="mb-3">
-                {/* <p className="text-lg text-gray-400 line-through">$60</p> */}
                 <p className="text-3xl font-bold text-green-600">$60</p>
+                <p className="text-xs text-gray-400 mb-2">starting price</p>
               </div>
               <p className="text-gray-600 mb-3 text-sm">First Service Attempt Within 5 Business Days (usually sooner).</p>
               <p className="text-sm text-gray-500">
@@ -197,11 +196,10 @@ export default function PricingPage() {
               </p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200 relative">
-              {/* <div className="absolute -top-2 -right-2 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded-full">20% OFF</div> */}
               <h3 className="text-xl font-bold mb-3 text-gray-900">Rush Service</h3>
               <div className="mb-3">
-                {/* <p className="text-lg text-gray-400 line-through">$100</p> */}
                 <p className="text-3xl font-bold text-green-600">$100</p>
+                <p className="text-xs text-gray-400 mb-2">starting price</p>
               </div>
               <p className="text-gray-600 mb-3 text-sm">A JLS Agent Will Attempt Service Within 72 Hours or Sooner.</p>
               <p className="text-sm text-gray-500">
@@ -209,11 +207,10 @@ export default function PricingPage() {
               </p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-lg border-2 border-red-500 relative">
-              {/* <div className="absolute -top-3 -right-3 bg-red-500 text-white text-sm font-bold px-3 py-2 rounded-full animate-pulse">BEST DEAL!</div> */}
               <h3 className="text-xl font-bold mb-3 text-blue-600">Same-Day Rush</h3>
               <div className="mb-3">
-                {/* <p className="text-lg text-gray-400 line-through">$150</p> */}
                 <p className="text-3xl font-bold text-green-600">$150</p>
+                <p className="text-xs text-gray-400 mb-2">starting price</p>
               </div>
               <p className="text-gray-600 mb-3 text-sm">A JLS Agent Will Attempt Service Within 24 Hours or Sooner.</p>
               <p className="text-sm text-gray-500">
@@ -221,11 +218,10 @@ export default function PricingPage() {
               </p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200 relative">
-              {/* <div className="absolute -top-2 -right-2 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded-full">20% OFF</div> */}
               <h3 className="text-xl font-bold mb-3 text-gray-900">Triple-Attempt Rush</h3>
               <div className="mb-3">
-                {/* <p className="text-lg text-gray-400 line-through">$200</p> */}
                 <p className="text-3xl font-bold text-green-600">$200</p>
+                <p className="text-xs text-gray-400 mb-2">starting price</p>
               </div>
               <p className="text-gray-600 mb-3 text-sm">Guaranteed 3 service attempts within 72 hours with detailed reporting.</p>
               <p className="text-sm text-gray-500">
@@ -251,11 +247,13 @@ export default function PricingPage() {
                 <div className="bg-gray-50 p-8 rounded-xl border border-gray-200 text-center">
                     <h3 className="text-2xl font-bold mb-2 text-gray-900">Standard Courier</h3>
                     <p className="text-4xl font-bold mb-4 text-gray-800">$35</p>
+                    <p className="text-xs text-gray-400 mb-2">starting price</p>
                     <p className="text-gray-600">Delivery within the same business day or next morning for non-urgent items.</p>
                 </div>
                  <div className="bg-gray-50 p-8 rounded-xl border border-gray-200 text-center">
                     <h3 className="text-2xl font-bold mb-2 text-gray-900">Rush Courier</h3>
                     <p className="text-4xl font-bold mb-4 text-gray-800">$55</p>
+                    <p className="text-xs text-gray-400 mb-2">starting price</p>
                     <p className="text-gray-600">Priority delivery guaranteed within 2-3 hours for time-sensitive documents.</p>
                 </div>
             </div>
