@@ -345,6 +345,24 @@ export function Footer() {
                 title="AI-Optimized Service"
               />
             </div>
+            {/* NAPPS Logo */}
+            <a
+              href="https://napps.org/member-info.aspx?id=14801"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-20 h-20 md:w-24 md:h-24 flex items-center justify-center"
+              title="Proud Member of NAPPS - National Association of Professional Process Servers"
+            >
+              <Image
+                src="https://napps.org/images/NAPPS4.png"
+                alt="NAPPS - National Association of Professional Process Servers Logo"
+                width={80}
+                height={80}
+                className="object-contain hover:scale-105 transition-transform duration-200"
+                style={{ maxWidth: '80px', maxHeight: '80px' }}
+                priority={false}
+              />
+            </a>
           </div>
         </div>
 
