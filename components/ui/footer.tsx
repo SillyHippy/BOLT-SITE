@@ -284,7 +284,7 @@ export function Footer() {
         {/* Trust & Credentials Section */}
         <div className="mt-12 pt-8 border-t border-gray-200">
           <h3 className="text-2xl font-bold text-center mb-6">Trust & Credentials</h3>
-          <div className="flex flex-wrap justify-center items-center gap-6 max-w-4xl mx-auto">
+          <div className="flex flex-wrap justify-center items-center gap-6 max-w-5xl mx-auto">
             <div className="w-28 h-28 md:w-32 md:h-32 flex items-center justify-center">
               <Image 
                 src="/badges/same-day-service-available-badge.svg" 
