@@ -3,6 +3,7 @@ import Link from 'next/link';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, CheckCircle, Star, Calendar, FileText, Scale, AlertCircle, Home } from 'lucide-react';
 import FAQAccordion from '@/components/ui/faq-accordion';
+import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 import GoogleMapsEmbed from '@/components/ui/google-maps-embed';
 import Navbar from '@/components/ui/navbar';
@@ -209,6 +210,8 @@ export default function JenksProcessServer() {
             reviewCount: 146
           }}
         />
+
+        <LocalPromoBanner zips={["74008", "74033", "74037"]} />
 
         {/* Navigation Breadcrumbs */}
         <nav className="bg-white border-b border-gray-200 py-4" aria-label="Breadcrumb">

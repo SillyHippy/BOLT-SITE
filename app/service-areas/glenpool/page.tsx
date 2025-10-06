@@ -3,11 +3,10 @@ import Link from 'next/link';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, CheckCircle, Star, Calendar, FileText, Scale, AlertCircle } from 'lucide-react';
 
- 
-
 import GoogleMapsEmbed from '@/components/ui/google-maps-embed';
 import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
+import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Glenpool Process Server | Legal Document Service | Just Legal Solutions',
@@ -114,6 +113,34 @@ export default function GlenpoolProcessServer() {
           services={["Process Serving", "Legal Document Delivery", "Court Filing Services", "Skip Tracing", "Corporate Service", "Emergency Rush Service", "GPS Tracked Delivery", "24/7 Emergency Service"]}
           faqItems={glenpoolFAQs}
         />
+
+      <LocalPromoBanner zips={["74008", "74033", "74037"]} />
+
+      {/* Navigation Breadcrumbs */}
+      <nav className="bg-white border-b border-gray-200 py-4" aria-label="Breadcrumb">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <ol className="flex items-center space-x-2 text-sm">
+            {breadcrumbItems.map((item, index) => (
+              <li key={item.name}>
+                <div className="flex items-center">
+                  {index > 0 && (
+                    <svg className="flex-shrink-0 h-5 w-5 text-gray-400 mr-4" viewBox="0 0 20 20" fill="currentColor">
+                      <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
+                    </svg>
+                  )}
+                  {index === breadcrumbItems.length - 1 ? (
+                    <span className="text-gray-500 font-medium">{item.name}</span>
+                  ) : (
+                    <Link href={item.url} className="text-blue-600 hover:text-blue-800 font-medium">
+                      {item.name}
+                    </Link>
+                  )}
+                </div>
+              </li>
+            ))}
+          </ol>
+        </div>
+      </nav>
 
       <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-slate-100">
         {/* Hero Section */}

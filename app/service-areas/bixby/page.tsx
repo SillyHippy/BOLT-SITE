@@ -7,6 +7,7 @@ import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import FAQAccordion from '@/components/ui/faq-accordion';
+import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Bixby Process Serving | Civil & Family Court Documents | Just Legal Solutions',
@@ -187,7 +188,37 @@ export default function BixbyProcessServer() {
             name: item.name,
             item: `https://justlegalsolutions.org${item.url}`
           }))}
-        />      <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-slate-100">
+        />
+      
+      <LocalPromoBanner zips={["74008", "74033", "74037"]} />
+      
+      {/* Navigation Breadcrumbs */}
+      <nav className="bg-white border-b border-gray-200 py-4" aria-label="Breadcrumb">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <ol className="flex items-center space-x-2 text-sm">
+            {breadcrumbItems.map((item, index) => (
+              <li key={item.name}>
+                <div className="flex items-center">
+                  {index > 0 && (
+                    <svg className="flex-shrink-0 h-5 w-5 text-gray-400 mr-4" viewBox="0 0 20 20" fill="currentColor">
+                      <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
+                    </svg>
+                  )}
+                  {index === breadcrumbItems.length - 1 ? (
+                    <span className="text-gray-500 font-medium">{item.name}</span>
+                  ) : (
+                    <Link href={item.url} className="text-blue-600 hover:text-blue-800 font-medium">
+                      {item.name}
+                    </Link>
+                  )}
+                </div>
+              </li>
+            ))}
+          </ol>
+        </div>
+      </nav>
+      
+      <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-slate-100">
         {/* Hero Section */}
         <div className="bg-gradient-to-r from-blue-900 via-blue-800 to-slate-900 text-white relative">
           <div className="absolute inset-0 bg-black/20"></div>
@@ -247,32 +278,6 @@ export default function BixbyProcessServer() {
             </div>
           </div>
         </div>
-
-        {/* Navigation Breadcrumbs */}
-        <nav className="bg-white border-b border-gray-200 py-4" aria-label="Breadcrumb">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <ol className="flex items-center space-x-2 text-sm">
-              {breadcrumbItems.map((item, index) => (
-                <li key={item.name}>
-                  <div className="flex items-center">
-                    {index > 0 && (
-                      <svg className="flex-shrink-0 h-5 w-5 text-gray-400 mr-4" viewBox="0 0 20 20" fill="currentColor">
-                        <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
-                      </svg>
-                    )}
-                    {index === breadcrumbItems.length - 1 ? (
-                      <span className="text-gray-500 font-medium">{item.name}</span>
-                    ) : (
-                      <Link href={item.url} className="text-blue-600 hover:text-blue-800 font-medium">
-                        {item.name}
-                      </Link>
-                    )}
-                  </div>
-                </li>
-              ))}
-            </ol>
-          </div>
-        </nav>
 
         {/* Local Expertise Section */}
         <section className="py-16 bg-blue-50">

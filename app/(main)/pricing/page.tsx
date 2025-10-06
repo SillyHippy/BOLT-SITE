@@ -3,6 +3,7 @@ import { Metadata } from 'next';
 import { CheckCircle, Truck } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import AIVoiceSupremacy from '@/components/ui/ai-voice-supremacy';
+import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Process Server Pricing Oklahoma - Just Legal Solutions | Affordable Rates Starting $30',
@@ -147,6 +148,8 @@ export default function PricingPage() {
           worstRating: 1
         }}
       />
+      
+      <LocalPromoBanner zips={["74008", "74033", "74037"]} />
       
       <main className="min-h-screen bg-white font-sans">
       <section className="pt-24 pb-10 px-4 bg-gray-100">
