@@ -317,16 +317,6 @@ export function Footer() {
             </div>
             <div className="w-28 h-28 md:w-32 md:h-32 flex items-center justify-center">
               <Image 
-                src="/badges/fastest-process-server-oklahoma-badge.svg" 
-                alt="Fastest Process Server in Oklahoma" 
-                width={112}
-                height={112}
-                className="object-contain hover:scale-105 transition-transform duration-200"
-                title="Fastest Process Server Oklahoma"
-              />
-            </div>
-            <div className="w-28 h-28 md:w-32 md:h-32 flex items-center justify-center">
-              <Image 
                 src="/badges/24-7-emergency-service-badge.svg" 
                 alt="24/7 Emergency Service Process Server" 
                 width={112}
