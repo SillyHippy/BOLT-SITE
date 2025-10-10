@@ -299,7 +299,9 @@ export default function PricingPage() {
             <div>
                  <h3 className="text-xl font-bold mb-3 text-gray-800">Due Diligence Policy</h3>
                 <p className="text-gray-700">
-                At Just Legal Solutions, Our process servers make <strong>a minimum of 3 service attempts</strong> at different times of day and on different days of the week to demonstrate a thorough and reasonable effort to effectuate personal service before considering alternatives. Or until address(s) are drawn to a conclusion.
+                We execute a minimum of three service attempts at different times of the day and on different days of the week, or until all known addresses are drawn to a conclusive determination. <strong>This minimum effort is included in our standard service pricing.</strong>
+<br /><br />
+Any request for additional service attempts beyond this standard protocol must be negotiated and approved prior to execution, and will be subject to an additional fee.
                 </p>
             </div>
             <div>
