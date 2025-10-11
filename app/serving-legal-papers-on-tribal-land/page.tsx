@@ -467,22 +467,72 @@ export default function ServingLegalPapersOklahomaGuide() {
             <li>
               Cherokee Nation Judicial Branch:
               <div className="ml-4">
-                <p>Website: https://www.cherokeecourts.org/</p>
+                <p>
+                  Website:{' '}
+                  <a
+                    href="https://www.cherokeecourts.org/"
+                    className="text-blue-700 underline"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    https://www.cherokeecourts.org/
+                  </a>
+                </p>
                 <p>Phone: (918) 207-3900</p>
               </div>
             </li>
             <li>
               Muscogee (Creek) Nation Judicial Branch:
               <div className="ml-4">
-                <p>District Court Website: https://creekdistrictcourt.com/</p>
-                <p>Supreme Court Website (with link to Code of Laws): https://creeksupremecourt.com/</p>
-                <p>Searchable Code of Laws: https://law.muscogeenation.com/</p>
+                <p>
+                  District Court Website:{' '}
+                  <a
+                    href="https://creekdistrictcourt.com/"
+                    className="text-blue-700 underline"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    https://creekdistrictcourt.com/
+                  </a>
+                </p>
+                <p>
+                  Supreme Court Website (with link to Code of Laws):{' '}
+                  <a
+                    href="https://creeksupremecourt.com/"
+                    className="text-blue-700 underline"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    https://creeksupremecourt.com/
+                  </a>
+                </p>
+                <p>
+                  Searchable Code of Laws:{' '}
+                  <a
+                    href="https://law.muscogeenation.com/"
+                    className="text-blue-700 underline"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    https://law.muscogeenation.com/
+                  </a>
+                </p>
               </div>
             </li>
             <li>
               Choctaw Nation of Oklahoma Judicial Branch:
               <div className="ml-4">
-                <p>Website: https://www.choctawnationcourt.com/</p>
+                <p>
+                  Website:{' '}
+                  <a
+                    href="https://www.choctawnationcourt.com/"
+                    className="text-blue-700 underline"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    https://www.choctawnationcourt.com/
+                  </a>
+                </p>
                 <p>Durant Office Phone: (580) 920-7027</p>
                 <p>Talihina Office Phone: (918) 567-3582</p>
               </div>
@@ -490,8 +540,28 @@ export default function ServingLegalPapersOklahomaGuide() {
           </ul>
           <h3 className="text-2xl font-semibold">General Tribal Law Research Resources</h3>
           <ul className="list-disc ml-6 space-y-2">
-            <li>National Indian Law Library (NILL) Tribal Law Gateway: https://www.narf.org/nill/triballaw/</li>
-            <li>Native American Constitution and Law Digitization Project: https://thorpe.law.ou.edu/</li>
+            <li>
+              National Indian Law Library (NILL) Tribal Law Gateway:{' '}
+              <a
+                href="https://www.narf.org/nill/triballaw/"
+                className="text-blue-700 underline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://www.narf.org/nill/triballaw/
+              </a>
+            </li>
+            <li>
+              Native American Constitution and Law Digitization Project:{' '}
+              <a
+                href="https://thorpe.law.ou.edu/"
+                className="text-blue-700 underline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://thorpe.law.ou.edu/
+              </a>
+            </li>
           </ul>
           <h3 className="text-2xl font-semibold">Key Court Cases</h3>
           <ul className="list-disc ml-6 space-y-2">
