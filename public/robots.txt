@@ -45,3 +45,6 @@ Crawl-delay: 1
 # Sitemaps
 Sitemap: https://justlegalsolutions.org/sitemap.xml
 Sitemap: https://justlegalsolutions.org/sitemap-images.xml
+
+# Voice Search Optimization - Sat Oct 18 08:16:43 UTC 2025
+# Optimized for Alexa, Google Assistant, Siri
