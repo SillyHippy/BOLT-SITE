@@ -149,7 +149,7 @@ export default function PricingPage() {
         }}
       />
       
-      <LocalPromoBanner zips={["74008", "74033", "74037"]} />
+      {/* <LocalPromoBanner zips={["74008", "74033", "74037"]} /> */}
       
       <main className="min-h-screen bg-white font-sans">
       <section className="pt-24 pb-10 px-4 bg-gray-100">

@@ -211,7 +211,7 @@ export default function JenksProcessServer() {
           }}
         />
 
-        <LocalPromoBanner zips={["74008", "74033", "74037"]} />
+        {/* <LocalPromoBanner zips={["74008", "74033", "74037"]} /> */}
 
         {/* Navigation Breadcrumbs */}
         <nav className="bg-white border-b border-gray-200 py-4" aria-label="Breadcrumb">
