@@ -58,7 +58,7 @@ const additionalServices = [
     { title: 'Multiple Services at Same Address', description: 'When serving multiple individuals at the same location, each additional person is only <strong>$30</strong>.' },
     { title: 'Posting Affidavits', description: 'For services that require posting a notice (e.g., eviction notices) instead of personal delivery, the fee is <strong>$30</strong>.' },
     { title: 'Single Serve Attempt', description: 'Reduced Rate for only a single serve attempt, the fee starts as low as <strong>$30</strong>.' },
-    { title: 'Court Appearance Fees', description: 'Tulsa County appearances: <strong>$400 per hour</strong>, billed in full-hour increments. Appearances outside Tulsa County: Additional fees based on travel/time will be discussed beforehand. Rescheduling/cancellation fees may apply. This fee is separate from standard document service charges and covers time spent attending court and testifying.' },
+    { title: 'Court Appearance Fees', description: 'Tulsa County appearances: <strong>$500 per hour</strong>, billed in full-hour increments. Appearances outside Tulsa County: Additional fees based on travel/time will be discussed beforehand. Rescheduling/cancellation fees may apply. This fee is separate from standard document service charges and covers time spent attending court and testifying.' },
     { title: 'Certified Mailing', description: 'We can send affidavits via certified mail for <strong>$35 plus postage costs</strong>.' },
     { title: 'Skip Tracing', description: 'Need to locate an individual? We offer skip tracing services. Please contact us for a quote.' },
 ];
