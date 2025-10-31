@@ -106,7 +106,7 @@ export default function PaymentsPage() {
             </div>
             <h2 className="text-2xl font-bold text-gray-900 mb-3" itemProp="name">Cash, Check, or Money Order</h2>
             <p className="text-gray-600 mb-6 flex-grow" itemProp="description">
-              Checks and money orders can be made out to Joseph Iannazzi and mailed to the address below.
+              Checks and money orders can be made out to Just Legal Solutions and mailed to the address below.
             </p>
             <div className="w-full bg-gray-100 p-4 rounded-lg">
                 <p className="text-gray-800 font-medium" itemProp="address" itemScope itemType="https://schema.org/PostalAddress">
