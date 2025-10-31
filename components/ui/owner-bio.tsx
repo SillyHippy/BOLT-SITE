@@ -21,7 +21,7 @@ export default function OwnerBio() {
           <div>
             <div className="flex items-center mb-4">
               <User className="h-6 w-6 text-blue-600 mr-2" />
-              <h2 className="text-2xl font-bold text-gray-900">Meet Joseph Iannazzi</h2>
+              <h2 className="text-2xl font-bold text-gray-900">Meet Joseph</h2>
             </div>
             
             <div className="mb-4">
