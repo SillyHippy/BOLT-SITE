@@ -272,7 +272,7 @@ export function Footer() {
                 electronic payments
               </a>
               , cash, checks, or money orders. Payments should be made payable
-              to Joseph Iannazzi and mailed to: 564 E 138th Pl, Glenpool, OK
+              to Just Legal Solutions and mailed to: 564 E 138th Pl, Glenpool, OK
               74033. Past-due invoices are subject to our{' '}
               <a href="/pricing#policies" className="text-blue-600 hover:text-blue-800 underline">
                 Payment & Late Fee Policy
