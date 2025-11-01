@@ -1,309 +1,75 @@
-
-import Image from 'next/image';
 import Link from 'next/link';
-import Script from 'next/script';
-import { ChevronDown } from 'lucide-react';
-import UnifiedSchema from '@/components/UnifiedSchema';
-import GoogleSpecificOptimization from '@/components/ui/google-specific-optimization';
-import BingYahooOptimization from '@/components/ui/bing-yahoo-optimization';
-import DuckDuckGoOptimization from '@/components/ui/duckduckgo-optimization';
-import SearchEngineUniversalOptimization from '@/components/ui/search-engine-universal-optimization';
-import EnhancedBreadcrumbSchema from '@/components/ui/enhanced-breadcrumb-schema';
-import PerformanceSchema from '@/components/ui/performance-schema';
+import { Wrench, Home, Mail } from 'lucide-react';
 
 export const metadata = {
-  title: 'Business & Executive Support Services | Just Legal Solutions',
-  description: 'Business solutions and executive support—event coordination, HR, payroll, travel, customer service, and data entry for Oklahoma businesses. Starting at $15/hr.',
-  keywords: ['executive assistant oklahoma', 'event planning tulsa', 'HR payroll services', 'travel management', 'customer service oklahoma', 'data entry services', 'business solutions oklahoma', 'administrative support tulsa'],
-  authors: [{ name: 'Just Legal Solutions' }],
-  creator: 'Just Legal Solutions',
-  publisher: 'Just Legal Solutions',
-  category: 'Business Services',
-  robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
-  alternates: {
-    canonical: 'https://justlegalsolutions.org/services'
-  },
-  openGraph: {
-    title: 'Business Solutions & Executive Support Services | Just Legal Solutions',
-    description: 'Professional executive assistant services including event coordination, HR & payroll, travel management, customer service, and data entry solutions in Oklahoma. Starting at $15/hr.',
-    type: 'website',
-    locale: 'en_US',
-    url: 'https://justlegalsolutions.org/services',
-    siteName: 'Just Legal Solutions',
-    images: [{
-      url: 'https://justlegalsolutions.org/images/business-services-og.jpg',
-      width: 1200,
-      height: 630,
-      alt: 'Business Solutions & Executive Support Services in Oklahoma',
-    }],
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Business Solutions & Executive Support Services | Just Legal Solutions',
-    description: 'Professional executive assistant services including event coordination, HR & payroll, travel management, customer service, and data entry solutions in Oklahoma.',
-    images: ['https://justlegalsolutions.org/images/business-services-og.jpg'],
-  }
+  title: 'Services Under Maintenance | Just Legal Solutions',
+  description: 'Our services page is currently undergoing maintenance. We will be back soon with enhanced features and information.',
+  robots: 'noindex, nofollow',
 };
 
-export default function ServicesPage() {
-  const services = [
-    {
-      title: 'Executive Support',
-      description: 'Professional administrative assistance for executives, helping manage schedules, communications, and day-to-day operations.',
-      image: 'https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=400&q=80',
-    },
-    {
-      title: 'Event Coordination',
-      description: 'End-to-end event planning and management services for corporate events, team building, and special occasions.',
-      image: 'https://images.unsplash.com/photo-1529070538774-1843cb3265df?auto=format&fit=crop&w=400&q=80',
-    },
-    {
-      title: 'HR & Payroll',
-      description: 'Comprehensive human resources support including recruitment, employee management, and payroll processing.',
-      image: 'https://images.unsplash.com/photo-1554224154-22dec7ec8818?auto=format&fit=crop&w=400&q=80',
-    },
-    {
-      title: 'Travel Management',
-      description: 'Business travel planning, booking, and expense management to optimize your corporate travel experience.',
-      image: 'https://images.unsplash.com/photo-1507149833265-60c372daea22?auto=format&fit=crop&w=400&q=80',
-    },
-    {
-      title: 'General Customer Service',
-      description: 'Reliable customer service solutions to manage inquiries and support your clients effectively via various channels.',
-      image: 'https://images.unsplash.com/photo-1590599605877-29fa62b1f143?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    },
-    {
-      title: 'Data Entry',
-      description: 'Accurate and efficient data entry services to manage your information seamlessly across various platforms.',
-      image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    },
-  ];
-
+export default function ServicesMaintenancePage() {
   return (
-    <>
-      <script 
-        id="services-schema" 
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "ItemList",
-            "itemListElement": [
-              {
-                "@type": "Service",
-                "position": 1,
-                "name": "Executive Support",
-                "description": "Professional administrative assistance for executives, helping manage schedules, communications, and day-to-day operations.",
-                "url": "https://justlegalsolutions.org/services"
-              },
-              {
-                "@type": "Service",
-                "position": 2,
-                "name": "Event Coordination",
-                "description": "End-to-end event planning and management services for corporate events, team building, and special occasions.",
-                "url": "https://justlegalsolutions.org/services"
-              },
-              {
-                "@type": "Service",
-                "position": 3,
-                "name": "HR & Payroll",
-                "description": "Comprehensive human resources support including recruitment, employee management, and payroll processing.",
-                "url": "https://justlegalsolutions.org/services"
-              },
-              {
-                "@type": "Service",
-                "position": 4,
-                "name": "Travel Management",
-                "description": "Business travel planning, booking, and expense management to optimize your corporate travel experience.",
-                "url": "https://justlegalsolutions.org/services"
-              },
-              {
-                "@type": "Service",
-                "position": 5,
-                "name": "General Customer Service",
-                "description": "Reliable customer service solutions to manage inquiries and support your clients effectively via various channels.",
-                "url": "https://justlegalsolutions.org/services"
-              },
-              {
-                "@type": "Service",
-                "position": 6,
-                "name": "Data Entry",
-                "description": "Accurate and efficient data entry services to manage your information seamlessly across various platforms.",
-                "url": "https://justlegalsolutions.org/services"
-              }
-            ]
-          })
-        }}
-      />
-
-      <main>
-        {/* Hero Section - Tagline Updated */}
-        <section className="relative w-full h-[80vh] flex items-center justify-center">
-          <div
-            className="absolute inset-0 z-0 bg-cover bg-center"
-            style={{
-              backgroundImage: 'url(https://images.unsplash.com/photo-1558478551-1a378f63328e?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)',
-            }}
-          >
-            <div className="absolute inset-0 bg-black/40"></div>
+    <main className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center px-4">
+      <div className="max-w-2xl w-full">
+        <div className="bg-white rounded-2xl shadow-2xl p-8 md:p-12 text-center">
+          {/* Icon */}
+          <div className="flex justify-center mb-6">
+            <div className="relative">
+              <div className="absolute inset-0 bg-blue-500 rounded-full blur-xl opacity-20 animate-pulse"></div>
+              <div className="relative bg-gradient-to-br from-blue-500 to-blue-600 rounded-full p-6">
+                <Wrench className="h-16 w-16 text-white" strokeWidth={2} />
+              </div>
+            </div>
           </div>
-          
-          <div className="relative z-10 text-center text-white px-4 max-w-4xl">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">Business Solutions</h1>
-            {/* --- Updated Tagline Below --- */}
-            <p className="text-xl md:text-2xl mb-4">Full-range support: From data entry & customer service to HR, payroll, and complete operational assistance.</p>
-            <p className="font-medium text-lg mb-4">10+ years supporting C-suite executives with precision & discretion.</p>
-            <p className="text-yellow-300 font-semibold mb-8">Prices starting at $15/hr — custom quotes available</p>
+
+          {/* Heading */}
+          <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            Page Under Maintenance
+          </h1>
+
+          {/* Description */}
+          <p className="text-lg text-gray-600 mb-2">
+            We&apos;re currently updating our services page to serve you better.
+          </p>
+          <p className="text-gray-500 mb-8">
+            This page will be back online shortly with enhanced features and updated information.
+          </p>
+
+          {/* Status Badge */}
+          <div className="inline-flex items-center gap-2 bg-yellow-50 border border-yellow-200 rounded-full px-4 py-2 mb-8">
+            <div className="h-2 w-2 bg-yellow-500 rounded-full animate-pulse"></div>
+            <span className="text-sm font-medium text-yellow-800">Maintenance in Progress</span>
+          </div>
+
+          {/* Action Buttons */}
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              href="/resume.pdf"
-              className="px-8 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors text-lg"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Download Resume"
+              href="/"
+              className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium shadow-lg hover:shadow-xl"
             >
-              Download Resume
+              <Home className="h-5 w-5" />
+              Return to Homepage
+            </Link>
+            <Link
+              href="/contact"
+              className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-white text-gray-700 border-2 border-gray-200 rounded-lg hover:border-gray-300 hover:bg-gray-50 transition-colors font-medium"
+            >
+              <Mail className="h-5 w-5" />
+              Contact Us
             </Link>
           </div>
-          
-          <div className="absolute bottom-8 animate-bounce">
-            <ChevronDown className="h-8 w-8 text-white" />
-          </div>
-        </section>
 
-        {/* Pricing Banner */}
-        <div className="text-center py-6 bg-gray-50 text-gray-700 font-medium">
-          Prices starting at $15/hr — custom quotes available
-        </div>
-
-        {/* Why Work With Me Section */}
-        <section className="container mx-auto py-12 px-4">
-          <h2 className="text-3xl font-bold mb-8 text-center">Why Work With Me?</h2>
-          <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="flex items-start gap-3 p-4 rounded-lg hover:bg-gray-50 transition-colors">
-              <div className="h-8 w-8 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0">
-                <span className="text-blue-600 font-bold text-lg">•</span>
-              </div>
-              <div>
-                <h3 className="font-semibold text-lg">Strategic calendar & travel management</h3>
-                <p className="text-gray-600">Optimizing executive time and ensuring seamless travel experiences.</p>
-              </div>
-            </div>
-            <div className="flex items-start gap-3 p-4 rounded-lg hover:bg-gray-50 transition-colors">
-              <div className="h-8 w-8 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0">
-                <span className="text-blue-600 font-bold text-lg">•</span>
-              </div>
-              <div>
-                <h3 className="font-semibold text-lg">HR systems & payroll implementation</h3>
-                <p className="text-gray-600">Setting up efficient systems for human resources and payment processing.</p>
-              </div>
-            </div>
-            <div className="flex items-start gap-3 p-4 rounded-lg hover:bg-gray-50 transition-colors">
-              <div className="h-8 w-8 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0">
-                <span className="text-blue-600 font-bold text-lg">•</span>
-              </div>
-              <div>
-                <h3 className="font-semibold text-lg">End-to-end event planning</h3>
-                <p className="text-gray-600">Comprehensive event coordination from concept to execution.</p>
-              </div>
-            </div>
-            <div className="flex items-start gap-3 p-4 rounded-lg hover:bg-gray-50 transition-colors">
-              <div className="h-8 w-8 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0">
-                <span className="text-blue-600 font-bold text-lg">•</span>
-              </div>
-              <div>
-                <h3 className="font-semibold text-lg">Confidential communications & discretion</h3>
-                <p className="text-gray-600">Handling sensitive information with the highest level of professionalism.</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Executive Support Philosophy */}
-        <section className="bg-white py-12 px-4">
-          <div className="max-w-3xl mx-auto text-center space-y-4">
-            <h2 className="text-2xl font-bold">My Executive Support Philosophy</h2>
-            <p className="text-gray-700 leading-relaxed">
-              I believe that true partnership is built on anticipation, discretion, and proactive communication. By immersing myself in your priorities—whether it&apos;s complex calendar orchestration, confidential project management, or last-minute travel pivots—I deliver the seamless support every C-suite leader deserves.
+          {/* Additional Info */}
+          <div className="mt-12 pt-8 border-t border-gray-200">
+            <p className="text-sm text-gray-500">
+              Need immediate assistance?{' '}
+              <Link href="/contact" className="text-blue-600 hover:text-blue-700 font-medium underline">
+                Get in touch with our team
+              </Link>
             </p>
-            <ul className="flex flex-col sm:flex-row flex-wrap justify-center gap-4 sm:gap-6 mt-6 text-gray-600">
-              <li className="flex items-center space-x-2">
-                <span className="h-2 w-2 bg-blue-600 rounded-full flex-shrink-0" />
-                <span>Anticipate needs before they arise</span>
-              </li>
-              <li className="flex items-center space-x-2">
-                <span className="h-2 w-2 bg-blue-600 rounded-full flex-shrink-0" />
-                <span>Maintain strict confidentiality</span>
-              </li>
-              <li className="flex items-center space-x-2">
-                <span className="h-2 w-2 bg-blue-600 rounded-full flex-shrink-0" />
-                <span>Communicate clearly & proactively</span>
-              </li>
-              <li className="flex items-center space-x-2">
-                <span className="h-2 w-2 bg-blue-600 rounded-full flex-shrink-0" />
-                <span>Adapt quickly to changing priorities</span>
-              </li>
-            </ul>
           </div>
-        </section>
-
-        {/* Services Grid */}
-        <section className="container mx-auto py-16 px-4">
-          <h2 className="text-3xl font-bold mb-12 text-center">Our Professional Services</h2>
-          
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            {services.map((service, index) => (
-              <article key={index} className="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col group hover:shadow-xl transition-shadow duration-300">
-                <div className="h-48 relative overflow-hidden">
-                  <Image
-                    src={service.image}
-                    alt={`${service.title} service illustration`}
-                    fill
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                    style={{ objectFit: 'cover' }}
-                    className="group-hover:scale-105 transition-transform duration-300"
-                    priority={index < 3}
-                  />
-                </div>
-                <div className="p-6 flex-grow flex flex-col">
-                  <h3 className="text-xl font-bold mb-2 text-gray-800">{service.title}</h3>
-                  <p className="text-gray-600 flex-grow">{service.description}</p>
-                </div>
-              </article>
-            ))}
-          </div>
-        </section>
-      </main>
-      
-      {/* Enhanced Schema Components for Maximum SEO */}
-      <EnhancedBreadcrumbSchema items={[
-        { name: "Home", url: "/" },
-        { name: "Services", url: "/services" }
-      ]} />
-      
-      <UnifiedSchema
-        pageType="service"
-        url="https://justlegalsolutions.org/services"
-        title="Business Solutions & Executive Support Services | Just Legal Solutions"
-        description="Professional executive assistant services including event coordination, HR & payroll, travel management, customer service, and data entry solutions in Oklahoma. Starting at $15/hr."
-        serviceDetails={{
-          name: "Business Solutions & Executive Support Services",
-          description: "Executive assistant services including event coordination, HR & payroll, travel management, customer service, and data entry solutions",
-          price: "$15-$50",
-          areaServed: ["Oklahoma", "Tulsa", "Broken Arrow", "Sapulpa"],
-          serviceType: ["Executive Support", "Event Coordination", "HR & Payroll", "Travel Management"]
-        }}
-        breadcrumbs={[
-          { name: "Home", item: "https://justlegalsolutions.org/" },
-          { name: "Services", item: "https://justlegalsolutions.org/services" }
-        ]}
-      />
-      
-      <PerformanceSchema 
-        pageName="Business Solutions & Executive Services - Oklahoma"
-        pageUrl="/services"
-        loadTime={2.2}
-        mobileOptimized={true}
-      />
-    </>
+        </div>
+      </div>
+    </main>
   );
 }
