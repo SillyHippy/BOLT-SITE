@@ -250,13 +250,13 @@ export default function PricingPage() {
             <div className="max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="bg-gray-50 p-8 rounded-xl border border-gray-200 text-center">
                     <h3 className="text-2xl font-bold mb-2 text-gray-900">Standard Courier</h3>
-                    <p className="text-4xl font-bold mb-4 text-gray-800">$35</p>
+                    <p className="text-4xl font-bold mb-4 text-gray-800">$60</p>
                     <p className="text-xs text-gray-400 mb-2">starting price</p>
                     <p className="text-gray-600">Delivery within the same business day or next morning for non-urgent items.</p>
                 </div>
                  <div className="bg-gray-50 p-8 rounded-xl border border-gray-200 text-center">
                     <h3 className="text-2xl font-bold mb-2 text-gray-900">Rush Courier</h3>
-                    <p className="text-4xl font-bold mb-4 text-gray-800">$55</p>
+                    <p className="text-4xl font-bold mb-4 text-gray-800">$100</p>
                     <p className="text-xs text-gray-400 mb-2">starting price</p>
                     <p className="text-gray-600">Priority delivery guaranteed within 2-3 hours for time-sensitive documents.</p>
                 </div>
