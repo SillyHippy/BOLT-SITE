@@ -93,6 +93,14 @@ export default function PaymentsPage() {
             >
               Pay with Card <ArrowRight className="ml-2 h-5 w-5" />
             </a>
+            <a 
+              href="https://just-legal-solutions.helcim.app/dashboard/main" 
+              className="w-full mt-3 bg-blue-500 text-white font-bold py-3 px-6 rounded-lg hover:bg-blue-600 transition-colors flex items-center justify-center border-2 border-blue-600"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Customer Portal Login <ArrowRight className="ml-2 h-5 w-5" />
+            </a>
           </div>
 
           {/* Card 2: Cash/Check Option */}
