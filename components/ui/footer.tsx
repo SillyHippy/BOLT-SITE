@@ -25,8 +25,42 @@ export function Footer() {
     formData.forEach((value, key) => {
       data[key] = value.toString();
     });
+    
+    // Handle checkboxes explicitly - convert "on" to readable values
+    const checkboxMappings: Record<string, string> = {
+      'service_type_personal': 'Personal Service Required',
+      'service_type_sub': 'Sub Service at Residence Allowed',
+      'service_type_designee': 'Authorized Designee Allowed',
+      'addr_type_home': 'Home Address',
+      'addr_type_biz': 'Business Address',
+      'addr_type_other': 'Other Address Type'
+    };
+    
+    // Build readable checkbox selections
+    const serviceTypes: string[] = [];
+    const addressTypes: string[] = [];
+    
+    Object.keys(checkboxMappings).forEach(key => {
+      if (data[key] === 'on') {
+        if (key.startsWith('service_type_')) {
+          serviceTypes.push(checkboxMappings[key]);
+        } else if (key.startsWith('addr_type_')) {
+          addressTypes.push(checkboxMappings[key]);
+        }
+        delete data[key]; // Remove the "on" value
+      }
+    });
+    
+    if (serviceTypes.length > 0) {
+      data['service_requirements'] = serviceTypes.join(', ');
+    }
+    if (addressTypes.length > 0) {
+      data['address_type'] = addressTypes.join(', ');
+    }
 
     try {
+      console.log("Submitting form data:", JSON.stringify(data, null, 2));
+      
       // Use FormSubmit's AJAX endpoint with JSON data
       const response = await fetch('https://formsubmit.co/ajax/info@justlegalsolutions.org', {
         method: 'POST',
@@ -37,14 +71,29 @@ export function Footer() {
         body: JSON.stringify(data)
       });
 
+      const responseText = await response.text();
+      console.log("FormSubmit Response Status:", response.status);
+      console.log("FormSubmit Response:", responseText);
+
       if (response.ok) {
-        const result = await response.json();
-        console.log("Form submitted successfully:", result);
-        setSubmissionStatus("success");
-        form.reset();
+        try {
+          const result = JSON.parse(responseText);
+          console.log("Form submitted successfully:", result);
+          if (result.success === "true" || result.success === true) {
+            setSubmissionStatus("success");
+            form.reset();
+          } else {
+            console.error("FormSubmit returned unexpected response:", result);
+            setSubmissionStatus("error");
+          }
+        } catch {
+          // Response was OK but not JSON
+          console.log("Non-JSON success response");
+          setSubmissionStatus("success");
+          form.reset();
+        }
       } else {
-        const errorData = await response.json();
-        console.error("Form submission failed:", errorData);
+        console.error("Form submission failed with status:", response.status, responseText);
         setSubmissionStatus("error");
       }
     } catch (error) {
