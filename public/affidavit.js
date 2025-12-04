@@ -76,21 +76,38 @@ const { PDFDocument } = window.PDFLib;
     updateFieldAppearances: false  // Keep original field appearance settings
   });
 
-  // Create download link
-  const blob = new Blob([pdfBytes], { type: 'application/pdf' });
-  const url = URL.createObjectURL(blob);
-
-  const a = document.createElement('a');
-  a.href = url;
-  a.download = 'Filled_Affidavit.pdf';
-  document.body.appendChild(a);
-  a.click();
+  // Detect Comet browser on Android (has issues with Blob URLs)
+  const isCometAndroid = /Comet/.test(navigator.userAgent) && /Android/.test(navigator.userAgent);
   
-  // Clean up
-  setTimeout(() => {
-    document.body.removeChild(a);
-    URL.revokeObjectURL(url);
-  }, 100);
+  if (isCometAndroid) {
+    // Convert to base64 data URL - bypasses Comet's Blob URL restriction
+    const uint8Array = new Uint8Array(pdfBytes);
+    let binary = '';
+    for (let i = 0; i < uint8Array.length; i++) {
+      binary += String.fromCharCode(uint8Array[i]);
+    }
+    const base64 = btoa(binary);
+    const dataUrl = 'data:application/pdf;base64,' + base64;
+    
+    // Open in new tab (Comet can handle data URLs)
+    window.open(dataUrl, '_blank');
+  } else {
+    // Standard Blob download for all other browsers
+    const blob = new Blob([pdfBytes], { type: 'application/pdf' });
+    const url = URL.createObjectURL(blob);
+
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'Filled_Affidavit.pdf';
+    document.body.appendChild(a);
+    a.click();
+    
+    // Clean up
+    setTimeout(() => {
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    }, 100);
+  }
 
   // Reset button
   submitBtn.textContent = originalText;
