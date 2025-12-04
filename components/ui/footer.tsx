@@ -21,8 +21,9 @@ export function Footer() {
     const data = new FormData(form);
 
     try {
-      const response = await fetch(form.action, {
-        method: form.method,
+      // Use FormSubmit's AJAX endpoint for JavaScript submissions
+      const response = await fetch('https://formsubmit.co/ajax/info@justlegalsolutions.org', {
+        method: 'POST',
         body: data,
         headers: {
           'Accept': 'application/json'
