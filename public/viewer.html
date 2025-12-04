@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PDF Viewer</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body, html { height: 100%; margin: 0; display: flex; flex-direction: column; font-family: Arial, sans-serif; }
+    #header { 
+      padding: 12px; 
+      background: #1a1a1a; 
+      display: flex; 
+      gap: 10px; 
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    #header button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      font-size: 14px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    #back-btn { background: #6b7280; color: white; }
+    #save-btn { background: #2563eb; color: white; }
+    #filename { 
+      flex: 1; 
+      text-align: center; 
+      color: white; 
+      font-size: 14px;
+      padding: 5px;
+    }
+    #pdf-frame { flex: 1; border: none; background: #525659; }
+    #fallback {
+      flex: 1;
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: #525659;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    #fallback p { margin: 10px 0; }
+    #fallback button {
+      padding: 15px 30px;
+      background: #2563eb;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      margin: 10px;
+    }
+    @media (max-width: 500px) {
+      #filename { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <div id="header">
+    <button id="back-btn" onclick="goBack()">← Back</button>
+    <span id="filename">Loading...</span>
+    <button id="save-btn" onclick="savePdf()">📥 Save PDF</button>
+  </div>
+  <iframe id="pdf-frame"></iframe>
+  <div id="fallback">
+    <p style="font-size:20px;">📄 Your PDF is ready!</p>
+    <p id="fallback-filename"></p>
+    <button onclick="savePdf()">📥 Download PDF</button>
+    <button onclick="goBack()">← Back to Form</button>
+    <p style="font-size:12px;color:#aaa;margin-top:20px;">PDF preview not available in this browser.</p>
+  </div>
+
+  <script>
+    let pdfBlobUrl = null;
+    let filename = 'Affidavit.pdf';
+
+    // Load PDF from localStorage
+    const base64 = localStorage.getItem('temp_pdf');
+    filename = localStorage.getItem('temp_filename') || 'Affidavit.pdf';
+    
+    document.getElementById('filename').textContent = filename;
+    document.getElementById('fallback-filename').textContent = filename;
+
+    if (base64) {
+      try {
+        // Convert base64 to blob
+        const binary = atob(base64);
+        const array = new Uint8Array(binary.length);
+        for (let i = 0; i < binary.length; i++) {
+          array[i] = binary.charCodeAt(i);
+        }
+        const blob = new Blob([array], { type: 'application/pdf' });
+        pdfBlobUrl = URL.createObjectURL(blob);
+        
+        // Try to display in iframe
+        const frame = document.getElementById('pdf-frame');
+        frame.src = pdfBlobUrl;
+        
+        // Check if PDF loaded after a delay - show fallback if not
+        setTimeout(function() {
+          try {
+            if (frame.contentDocument && frame.contentDocument.body && 
+                frame.contentDocument.body.innerHTML === '') {
+              showFallback();
+            }
+          } catch(e) {
+            // Cross-origin error means PDF loaded
+          }
+        }, 2000);
+        
+      } catch (e) {
+        console.error('Error loading PDF:', e);
+        showFallback();
+      }
+      
+      // Clean up localStorage
+      localStorage.removeItem('temp_pdf');
+      localStorage.removeItem('temp_filename');
+      
+    } else {
+      // No PDF data, go back
+      alert('No PDF data found. Returning to form.');
+      goBack();
+    }
+
+    function showFallback() {
+      document.getElementById('pdf-frame').style.display = 'none';
+      document.getElementById('fallback').style.display = 'flex';
+    }
+
+    function goBack() {
+      if (pdfBlobUrl) URL.revokeObjectURL(pdfBlobUrl);
+      window.location.href = 'affidavit.html';
+    }
+
+    function savePdf() {
+      if (!pdfBlobUrl) {
+        alert('PDF not loaded');
+        return;
+      }
+      
+      const a = document.createElement('a');
+      a.href = pdfBlobUrl;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+    }
+  </script>
+</body>
+</html>

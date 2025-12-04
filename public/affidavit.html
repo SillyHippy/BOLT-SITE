@@ -18,6 +18,23 @@
     .center { text-align: center; }
     .checkboxes label { display: inline-block; margin-right: 1em; }
     .actions { text-align: center; margin-top: 2em; }
+    
+    /* Action Buttons */
+    .action-buttons { margin-top: 20px; text-align: center; }
+    .action-btn {
+      display: inline-block;
+      padding: 15px 30px;
+      margin: 8px;
+      border: none;
+      border-radius: 8px;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .action-btn-download { background: #2563eb; color: white; }
+    .action-btn-newtab { background: #059669; color: white; }
+    .action-btn:hover { opacity: 0.9; }
+    .action-btn:disabled { background: #ccc; cursor: wait; }
   </style>
 </head>
 <body>
@@ -54,18 +71,23 @@
       </label><br>
       <fieldset>
         <legend>Manner of Service</legend>
-        <label><input type="checkbox" aria-label="Personal Service" name="Personal Service"> Personal Service</label>
-        <label><input type="checkbox" aria-label="Substituted at Residence" name="Substituted at Residence"> Substituted at Residence</label>
-        <label><input type="checkbox" aria-label="Substituted at Business" name="Substituted at Business"> Substituted at Business</label>
-        <label><input type="checkbox" aria-label="Posting" name="Posting"> Posting</label>
-        <label><input type="checkbox" aria-label="Non-Service" name="Non-Service"> Non-Service</label>
-        <label><input type="checkbox" aria-label="Unknown at address" name="Unknown at address"> Unknown at address</label>
-        <label><input type="checkbox" aria-label="Moved left no forwarding" name="Moved left no forwarding"> Moved left no forwarding</label>
-        <label><input type="checkbox" aria-label="Service canceled by litigant" name="Service canceled by litigant"> Service canceled by litigant</label>
-        <label><input type="checkbox" aria-label="Unable to serve in a timely fashion" name="Unable to serve in a timely fashion"> Unable to serve in a timely fashion</label>
-        <label><input type="checkbox" aria-label="Address does not exist" name="Address does not exist"> Address does not exist</label>
-        <label><input type="checkbox" aria-label="other" name="other"> Other</label>
-        <input aria-label="Other textbox" name="Other textbox" type="text" placeholder="Other detail">
+        <label><input type="checkbox" id="sub-personal" name="Personal Service"> Personal Service</label>
+        <label><input type="checkbox" id="sub-residence" name="Substituted at Residence"> Substituted at Residence</label>
+        <label><input type="checkbox" id="sub-business" name="Substituted at Business"> Substituted at Business</label>
+        <label><input type="checkbox" name="Posting"> Posting</label>
+        <label><input type="checkbox" name="Non-Service"> Non-Service</label>
+        <label><input type="checkbox" name="Unknown at address"> Unknown at address</label>
+        <label><input type="checkbox" name="Moved left no forwarding"> Moved left no forwarding</label>
+        <label><input type="checkbox" name="Service canceled by litigant"> Service canceled by litigant</label>
+        <label><input type="checkbox" name="Unable to serve in a timely fashion"> Unable to serve in a timely fashion</label>
+        <label><input type="checkbox" name="Address does not exist"> Address does not exist</label>
+        <label><input type="checkbox" name="other"> Other</label>
+        <input name="Other textbox" type="text" placeholder="Other detail">
+        <div id="subname-container" style="display:none; margin-top:10px; padding:10px; background:#fff3cd; border-radius:4px;">
+          <label style="font-weight:bold;">Name of Person Who Accepted Service (SubName):
+            <input name="SubName" type="text" placeholder="Enter name of person who accepted papers" style="width:100%; margin-top:5px; padding:8px;">
+          </label>
+        </div>
       </fieldset>
       <label>
         Service attempt 1 Date
@@ -109,12 +131,33 @@
       </label><br>
       <label>
         Comments
-        <textarea aria-label="Comments" name="Comments"></textarea>
+        <textarea name="Comments"></textarea>
       </label><br>
-      <button type="submit">Generate PDF</button>
+      
+      <div class="action-buttons">
+        <button type="button" id="btn-download" class="action-btn action-btn-download">📥 Download PDF</button>
+        <button type="button" id="btn-newtab" class="action-btn action-btn-newtab">👁️ View PDF</button>
+      </div>
     </form>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/pdf-lib/dist/pdf-lib.min.js" data-cfasync="false"></script>
   <script src="affidavit.js" data-cfasync="false"></script>
+  <script>
+    // Show/hide SubName field based on substituted service checkboxes
+    const subResidence = document.getElementById('sub-residence');
+    const subBusiness = document.getElementById('sub-business');
+    const subNameContainer = document.getElementById('subname-container');
+    
+    function toggleSubName() {
+      if (subResidence.checked || subBusiness.checked) {
+        subNameContainer.style.display = 'block';
+      } else {
+        subNameContainer.style.display = 'none';
+      }
+    }
+    
+    subResidence.addEventListener('change', toggleSubName);
+    subBusiness.addEventListener('change', toggleSubName);
+  </script>
 </body>
 </html>
