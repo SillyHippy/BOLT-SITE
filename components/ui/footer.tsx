@@ -156,12 +156,10 @@ export function Footer() {
             <>
               <h3 className="text-2xl font-bold mb-4 text-center">Process Service E-Z Intake Information</h3>
               <form
-                action="https://formsubmit.co/info@justlegalsolutions.org"
-                method="POST"
                 onSubmit={handleSubmit}
                 className="space-y-6"
               >
-                {/* FormSubmit Hidden Fields */}
+                {/* FormSubmit Hidden Fields - included in JSON payload */}
                 <input type="hidden" name="_subject" value="New Service Request from Website Form" />
                 <input type="hidden" name="_captcha" value="false" />
                 <input type="hidden" name="_template" value="table" />
