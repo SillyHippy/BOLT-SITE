@@ -18,19 +18,28 @@ export function Footer() {
     setSubmissionStatus("submitting");
 
     const form = event.currentTarget;
-    const data = new FormData(form);
+    const formData = new FormData(form);
+    
+    // Convert FormData to a plain object for JSON
+    const data: Record<string, string> = {};
+    formData.forEach((value, key) => {
+      data[key] = value.toString();
+    });
 
     try {
-      // Use FormSubmit's AJAX endpoint for JavaScript submissions
+      // Use FormSubmit's AJAX endpoint with JSON data
       const response = await fetch('https://formsubmit.co/ajax/info@justlegalsolutions.org', {
         method: 'POST',
-        body: data,
         headers: {
+          'Content-Type': 'application/json',
           'Accept': 'application/json'
-        }
+        },
+        body: JSON.stringify(data)
       });
 
       if (response.ok) {
+        const result = await response.json();
+        console.log("Form submitted successfully:", result);
         setSubmissionStatus("success");
         form.reset();
       } else {
