@@ -81,6 +81,7 @@
     "@types/react-router-dom": "^5.3.3",
     "esbuild": "^0.25.7",
     "glob": "^11.0.3",
-    "lovable-tagger": "^1.1.8"
+    "lovable-tagger": "^1.1.8",
+    "pdf-lib": "^1.17.1"
   }
 }

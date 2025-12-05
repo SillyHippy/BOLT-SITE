@@ -39,24 +39,50 @@ async function generatePDF() {
   const pdfDoc = await PDFDocument.load(existingPdfBytes);
   const pdfForm = pdfDoc.getForm();
 
-  // Fill fields
+  // Debug: show PDF field names in console
+  const allFields = pdfForm.getFields();
+  const pdfFieldNames = allFields.map(f => f.getName());
+  console.log('=== PDF FIELD NAMES ===');
+  pdfFieldNames.forEach(name => console.log('  "' + name + '"'));
+  console.log('=== FORM VALUES ===');
+  Object.keys(values).forEach(key => console.log('  "' + key + '" = "' + values[key] + '"'));
+
+  // Fill fields and track what works
+  const matched = [];
+  const notFound = [];
+  
   Object.keys(values).forEach(fieldName => {
+    // Check if field exists in PDF
+    if (!pdfFieldNames.includes(fieldName)) {
+      notFound.push(fieldName);
+      return;
+    }
+    
     try {
-      const field = pdfForm.getFieldMaybe ? pdfForm.getFieldMaybe(fieldName) : pdfForm.getField(fieldName);
-      if (field) {
-        if (checkboxNames.includes(fieldName)) {
-          if (values[fieldName] === 'Yes' && field.check) field.check();
-          else if (field.uncheck) field.uncheck();
-        } else if (field.setText) {
-          field.setText(values[fieldName]);
-        }
+      const field = pdfForm.getField(fieldName);
+      matched.push(fieldName);
+      
+      if (checkboxNames.includes(fieldName)) {
+        if (values[fieldName] === 'Yes' && field.check) field.check();
+        else if (field.uncheck) field.uncheck();
+      } else if (field.setText) {
+        field.setText(values[fieldName]);
       }
     } catch (err) {
-      // Ignore missing fields
+      notFound.push(fieldName + ' (error: ' + err.message + ')');
     }
   });
+  
+  console.log('=== MATCHED FIELDS ===');
+  matched.forEach(name => console.log('  ✅ ' + name));
+  console.log('=== NOT FOUND IN PDF ===');
+  notFound.forEach(name => console.log('  ❌ ' + name));
 
-  const pdfBytes = await pdfDoc.save();
+  // Mark form as needing appearance generation by the PDF reader
+  // This keeps Adobe's auto-fit but tells reader to render values
+  pdfForm.acroForm.dict.set(PDFLib.PDFName.of('NeedAppearances'), PDFLib.PDFBool.True);
+  
+  const pdfBytes = await pdfDoc.save({ updateFieldAppearances: false });
 
   // Generate filename from Case Number
   const caseNumber = values['Case Number'] || 'Unknown';
@@ -92,56 +118,6 @@ document.getElementById('btn-download').addEventListener('click', async function
     
     btn.textContent = '✅ Downloaded!';
     setTimeout(() => { btn.textContent = originalText; }, 2000);
-    
-  } catch (error) {
-    console.error('Error:', error);
-    alert('Error generating PDF: ' + error.message);
-    btn.textContent = originalText;
-  } finally {
-    btn.disabled = false;
-  }
-});
-
-// View PDF button - uses localStorage + viewer.html
-document.getElementById('btn-newtab').addEventListener('click', async function() {
-  const btn = this;
-  const originalText = btn.textContent;
-  
-  try {
-    btn.textContent = 'Generating...';
-    btn.disabled = true;
-    
-    const { pdfBytes, filename } = await generatePDF();
-    
-    // Convert to base64
-    const uint8Array = new Uint8Array(pdfBytes);
-    let binary = '';
-    const chunkSize = 8192;
-    for (let i = 0; i < uint8Array.length; i += chunkSize) {
-      const chunk = uint8Array.subarray(i, i + chunkSize);
-      binary += String.fromCharCode.apply(null, chunk);
-    }
-    const base64 = btoa(binary);
-    
-    // Save to localStorage and navigate to viewer page
-    try {
-      localStorage.setItem('temp_pdf', base64);
-      localStorage.setItem('temp_filename', filename);
-      
-      // Save form data so Back button can restore it
-      const form = document.getElementById('affidavit-form');
-      const formData = new FormData(form);
-      const formValues = {};
-      for (const [key, value] of formData.entries()) {
-        formValues[key] = value;
-      }
-      localStorage.setItem('temp_formdata', JSON.stringify(formValues));
-      
-      window.location.href = 'viewer.html';
-    } catch (e) {
-      alert('PDF too large for viewer. Try the Download button instead.');
-      btn.textContent = originalText;
-    }
     
   } catch (error) {
     console.error('Error:', error);
