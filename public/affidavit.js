@@ -73,13 +73,19 @@ async function generatePDF() {
 }
 
 // Download button - generates PDF and downloads
-document.getElementById('btn-download').addEventListener('click', async function() {
+document.getElementById('btn-download').addEventListener('click', async function(e) {
+  e.preventDefault();
   const btn = this;
   const originalText = btn.textContent;
   
   try {
     btn.textContent = 'Generating...';
     btn.disabled = true;
+    
+    // Check if pdf-lib loaded
+    if (!window.PDFLib) {
+      throw new Error('PDF library not loaded. Please refresh the page.');
+    }
     
     const { pdfBytes, filename } = await generatePDF();
     
@@ -88,13 +94,18 @@ document.getElementById('btn-download').addEventListener('click', async function
     const url = URL.createObjectURL(blob);
     
     const a = document.createElement('a');
+    a.style.display = 'none';
     a.href = url;
     a.download = filename;
+    a.setAttribute('download', filename);
     document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
     
-    setTimeout(() => URL.revokeObjectURL(url), 100);
+    // Use timeout to ensure DOM is ready
+    setTimeout(function() {
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    }, 100);
     
     btn.textContent = '✅ Downloaded!';
     setTimeout(() => { btn.textContent = originalText; }, 2000);
@@ -109,13 +120,19 @@ document.getElementById('btn-download').addEventListener('click', async function
 });
 
 // View PDF button - uses localStorage + viewer.html
-document.getElementById('btn-newtab').addEventListener('click', async function() {
+document.getElementById('btn-newtab').addEventListener('click', async function(e) {
+  e.preventDefault();
   const btn = this;
   const originalText = btn.textContent;
   
   try {
     btn.textContent = 'Generating...';
     btn.disabled = true;
+    
+    // Check if pdf-lib loaded
+    if (!window.PDFLib) {
+      throw new Error('PDF library not loaded. Please refresh the page.');
+    }
     
     const { pdfBytes, filename } = await generatePDF();
     
