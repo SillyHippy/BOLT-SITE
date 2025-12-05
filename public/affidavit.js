@@ -38,9 +38,6 @@ async function generatePDF() {
   const { PDFDocument } = window.PDFLib;
   const pdfDoc = await PDFDocument.load(existingPdfBytes);
   const pdfForm = pdfDoc.getForm();
-  
-  // Preserve original auto-size functionality
-  pdfForm.updateFieldAppearances = () => {};
 
   // Fill fields
   Object.keys(values).forEach(fieldName => {
@@ -59,10 +56,7 @@ async function generatePDF() {
     }
   });
 
-  const pdfBytes = await pdfDoc.save({ 
-    useObjectStreams: false,
-    updateFieldAppearances: false
-  });
+  const pdfBytes = await pdfDoc.save();
 
   // Generate filename from Case Number
   const caseNumber = values['Case Number'] || 'Unknown';
@@ -133,6 +127,16 @@ document.getElementById('btn-newtab').addEventListener('click', async function()
     try {
       localStorage.setItem('temp_pdf', base64);
       localStorage.setItem('temp_filename', filename);
+      
+      // Save form data so Back button can restore it
+      const form = document.getElementById('affidavit-form');
+      const formData = new FormData(form);
+      const formValues = {};
+      for (const [key, value] of formData.entries()) {
+        formValues[key] = value;
+      }
+      localStorage.setItem('temp_formdata', JSON.stringify(formValues));
+      
       window.location.href = 'viewer.html';
     } catch (e) {
       alert('PDF too large for viewer. Try the Download button instead.');
@@ -155,13 +159,27 @@ document.getElementById('btn-copy-link').addEventListener('click', function() {
   
   try {
     const form = document.getElementById('affidavit-form');
+    if (!form) {
+      alert('Form not found!');
+      return;
+    }
+    
     const formData = new FormData(form);
     const params = new URLSearchParams();
     
+    // Debug: count entries
+    let count = 0;
     for (const [key, value] of formData.entries()) {
-      if (value) {
+      count++;
+      if (value && value.trim() !== '') {
         params.append(key, value);
       }
+    }
+    
+    // If no params, show what we found
+    if (params.toString() === '') {
+      alert('No form data found. Form has ' + count + ' total fields. Make sure you filled in at least one field.');
+      return;
     }
     
     const baseUrl = window.location.origin + window.location.pathname;

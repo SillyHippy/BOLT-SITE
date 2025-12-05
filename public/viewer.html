@@ -166,6 +166,22 @@
     }
 
     function goBack() {
+      // Build URL with form data to restore the form
+      var formDataJson = localStorage.getItem('temp_formdata');
+      if (formDataJson) {
+        try {
+          var formData = JSON.parse(formDataJson);
+          var params = new URLSearchParams();
+          for (var key in formData) {
+            if (formData[key]) {
+              params.append(key, formData[key]);
+            }
+          }
+          localStorage.removeItem('temp_formdata');
+          window.location.href = 'affidavit.html?' + params.toString();
+          return;
+        } catch(e) {}
+      }
       window.location.href = 'affidavit.html';
     }
 
