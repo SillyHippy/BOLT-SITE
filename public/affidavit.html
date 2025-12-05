@@ -33,8 +33,10 @@
     }
     .action-btn-download { background: #2563eb; color: white; }
     .action-btn-newtab { background: #059669; color: white; }
+    .action-btn-copy { background: #7c3aed; color: white; }
     .action-btn:hover { opacity: 0.9; }
     .action-btn:disabled { background: #ccc; cursor: wait; }
+    .prefill-msg { background:#d4edda; color:#155724; padding:12px; margin-bottom:15px; border-radius:6px; text-align:center; }
   </style>
 </head>
 <body>
@@ -137,7 +139,9 @@
       <div class="action-buttons">
         <button type="button" id="btn-download" class="action-btn action-btn-download">📥 Download PDF</button>
         <button type="button" id="btn-newtab" class="action-btn action-btn-newtab">👁️ View PDF</button>
+        <button type="button" id="btn-copy-link" class="action-btn action-btn-copy">🔗 Copy Link</button>
       </div>
+      <p style="text-align:center;color:#666;font-size:12px;margin-top:8px;">Comet users: Copy Link → paste in Chrome to download</p>
     </form>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/pdf-lib/dist/pdf-lib.min.js" data-cfasync="false"></script>
@@ -158,6 +162,29 @@
     
     subResidence.addEventListener('change', toggleSubName);
     subBusiness.addEventListener('change', toggleSubName);
+    
+    // Auto-fill form from URL parameters (for Copy Link feature)
+    (function() {
+      const params = new URLSearchParams(window.location.search);
+      if (params.toString()) {
+        const msg = document.createElement('div');
+        msg.className = 'prefill-msg';
+        msg.innerHTML = '<strong>✅ Form pre-filled from link!</strong> Click Download PDF to save.';
+        document.querySelector('.container').insertBefore(msg, document.querySelector('#affidavit-form'));
+        
+        for (const [key, value] of params.entries()) {
+          const input = document.querySelector('input[name="' + key + '"], textarea[name="' + key + '"]');
+          if (input && input.type !== 'checkbox') {
+            input.value = decodeURIComponent(value);
+          }
+          if (value === 'Yes' || value === 'on') {
+            const checkbox = document.querySelector('input[name="' + key + '"][type="checkbox"]');
+            if (checkbox) checkbox.checked = true;
+          }
+        }
+        toggleSubName();
+      }
+    })();
   </script>
 </body>
 </html>
