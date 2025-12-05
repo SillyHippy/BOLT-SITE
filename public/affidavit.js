@@ -147,3 +147,63 @@ document.getElementById('btn-newtab').addEventListener('click', async function()
     btn.disabled = false;
   }
 });
+
+// Copy Link button - creates shareable URL with form data encoded
+document.getElementById('btn-copy-link').addEventListener('click', function() {
+  const btn = this;
+  const originalText = btn.textContent;
+  
+  try {
+    const form = document.getElementById('affidavit-form');
+    const formData = new FormData(form);
+    const params = new URLSearchParams();
+    
+    // Add all form fields
+    for (const [key, value] of formData.entries()) {
+      if (value) { // Only add non-empty values
+        params.append(key, value);
+      }
+    }
+    
+    // Build URL (strip existing query params)
+    const baseUrl = window.location.origin + window.location.pathname;
+    const fullUrl = baseUrl + '?' + params.toString();
+    
+    // Warn if URL is very long
+    if (fullUrl.length > 2000) {
+      alert('Warning: URL is ' + fullUrl.length + ' characters. Some browsers may truncate long URLs.');
+    }
+    
+    // Copy to clipboard - use fallback method that works everywhere
+    const textArea = document.createElement('textarea');
+    textArea.value = fullUrl;
+    textArea.style.position = 'fixed';
+    textArea.style.top = '0';
+    textArea.style.left = '0';
+    textArea.style.opacity = '0';
+    document.body.appendChild(textArea);
+    textArea.focus();
+    textArea.select();
+    
+    var success = false;
+    try {
+      success = document.execCommand('copy');
+    } catch (e) {
+      success = false;
+    }
+    
+    document.body.removeChild(textArea);
+    
+    if (success) {
+      btn.textContent = '✅ Copied!';
+      setTimeout(function() { btn.textContent = originalText; }, 2000);
+    } else {
+      // If copy fails, show the URL in a prompt so user can manually copy
+      prompt('Copy this link:', fullUrl);
+    }
+    
+  } catch (error) {
+    console.error('Error:', error);
+    alert('Error: ' + error.message);
+  }
+});
