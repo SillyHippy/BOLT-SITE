@@ -8,18 +8,6 @@ const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwkYzKCdBUhcg
 
 function PortalContent() {
   const searchParams = useSearchParams();
-  
-  useEffect(() => {
-    const caseId = searchParams.get('case');
-    const key = searchParams.get('key');
-    
-    if (caseId && key) {
-      // Redirect to Google Apps Script portal
-      const portalUrl = `${GOOGLE_SCRIPT_URL}?action=portal&caseId=${encodeURIComponent(caseId)}&key=${encodeURIComponent(key)}`;
-      window.location.href = portalUrl;
-    }
-  }, [searchParams]);
-  
   const caseId = searchParams.get('case');
   const key = searchParams.get('key');
   
