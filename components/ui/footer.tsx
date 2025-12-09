@@ -1,16 +1,199 @@
 
 "use client";
 
-import { useState } from "react";
+import { useState, useRef, useCallback } from "react";
 import Image from "next/image";
+
+// ============ CONFIGURATION ============
+// Replace with your deployed Google Apps Script web app URL after deployment
+const GOOGLE_APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbw12JZIAejsGN_WrfA56-6p6CenI67nGt5lKdBSFw-AfmYW38ecJaYzz7A4cRGBQwVe/exec";
+// ========================================
+
+const MAX_FILE_SIZE = 100 * 1024 * 1024; // 100MB
+const ALLOWED_EXTENSIONS = ["pdf", "doc", "docx", "jpg", "jpeg", "png"];
+
+interface UploadFile {
+  file: File;
+  id: string;
+  progress: number;
+  status: "pending" | "uploading" | "success" | "error";
+  error?: string;
+}
 
 export function Footer() {
   const [showForm, setShowForm] = useState(false);
   const [submissionStatus, setSubmissionStatus] = useState("idle"); // 'idle', 'submitting', 'success', 'error'
+  
+  // File upload states
+  const [uploadFiles, setUploadFiles] = useState<UploadFile[]>([]);
+  const [isDragging, setIsDragging] = useState(false);
+  const [uploadStatus, setUploadStatus] = useState<"idle" | "uploading" | "success" | "error">("idle");
+  const [uploadMessage, setUploadMessage] = useState("");
+  const fileInputRef = useRef<HTMLInputElement>(null);
 
   const toggleForm = () => {
     setShowForm((prev) => !prev);
     setSubmissionStatus("idle"); // Reset status when toggling form
+    setUploadFiles([]);
+    setUploadStatus("idle");
+    setUploadMessage("");
+  };
+
+  // File upload helper functions
+  const validateFile = (file: File): string | null => {
+    const ext = file.name.split(".").pop()?.toLowerCase() || "";
+    if (!ALLOWED_EXTENSIONS.includes(ext)) {
+      return `File type .${ext} not allowed. Accepted: PDF, DOC, DOCX, JPG, PNG`;
+    }
+    if (file.size > MAX_FILE_SIZE) {
+      return `File exceeds 100MB limit`;
+    }
+    return null;
+  };
+
+  const formatBytes = (bytes: number): string => {
+    if (bytes === 0) return "0 Bytes";
+    const k = 1024;
+    const sizes = ["Bytes", "KB", "MB"];
+    const i = Math.floor(Math.log(bytes) / Math.log(k));
+    return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + " " + sizes[i];
+  };
+
+  const addFiles = useCallback((newFiles: FileList | File[]) => {
+    const validFiles: UploadFile[] = [];
+    
+    Array.from(newFiles).forEach((file) => {
+      const error = validateFile(file);
+      if (error) {
+        alert(`${file.name}: ${error}`);
+        return;
+      }
+      
+      // Check if file already exists
+      const exists = uploadFiles.some(
+        (f) => f.file.name === file.name && f.file.size === file.size
+      );
+      if (!exists) {
+        validFiles.push({
+          file,
+          id: `${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
+          progress: 0,
+          status: "pending",
+        });
+      }
+    });
+    
+    setUploadFiles((prev) => [...prev, ...validFiles]);
+  }, [uploadFiles]);
+
+  const handleDragOver = useCallback((e: React.DragEvent) => {
+    e.preventDefault();
+    setIsDragging(true);
+  }, []);
+
+  const handleDragLeave = useCallback((e: React.DragEvent) => {
+    e.preventDefault();
+    setIsDragging(false);
+  }, []);
+
+  const handleDrop = useCallback((e: React.DragEvent) => {
+    e.preventDefault();
+    setIsDragging(false);
+    addFiles(e.dataTransfer.files);
+  }, [addFiles]);
+
+  const handleFileSelect = (e: React.ChangeEvent<HTMLInputElement>) => {
+    if (e.target.files) {
+      addFiles(e.target.files);
+      e.target.value = "";
+    }
+  };
+
+  const removeUploadFile = (id: string) => {
+    setUploadFiles((prev) => prev.filter((f) => f.id !== id));
+  };
+
+  const fileToBase64 = (file: File): Promise<string> => {
+    return new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.onload = () => resolve(reader.result as string);
+      reader.onerror = reject;
+      reader.readAsDataURL(file);
+    });
+  };
+
+  // Upload files to Google Drive
+  const uploadFilesToDrive = async (clientName: string, caseNumber: string, email: string, notes: string) => {
+    if (uploadFiles.length === 0) return { success: true, message: "No files to upload" };
+    
+    setUploadStatus("uploading");
+    
+    try {
+      // Convert files to base64
+      const filesData: Array<{ name: string; type: string; data: string }> = [];
+      for (const fileItem of uploadFiles) {
+        const base64 = await fileToBase64(fileItem.file);
+        filesData.push({
+          name: fileItem.file.name,
+          type: fileItem.file.type,
+          data: base64,
+        });
+      }
+      
+      const payload = JSON.stringify({
+        clientName,
+        caseNumber,
+        email,
+        notes,
+        website: "", // honeypot
+        files: filesData,
+      });
+      
+      console.log("Sending upload request to Google Apps Script...");
+      console.log("Payload size:", (payload.length / 1024 / 1024).toFixed(2), "MB");
+      
+      // Use fetch with specific settings for Google Apps Script
+      const response = await fetch(GOOGLE_APPS_SCRIPT_URL, {
+        method: "POST",
+        redirect: "follow",
+        headers: {
+          "Content-Type": "text/plain;charset=utf-8",
+        },
+        body: payload,
+      });
+      
+      console.log("Response status:", response.status);
+      const responseText = await response.text();
+      console.log("Response text:", responseText);
+      
+      try {
+        const result = JSON.parse(responseText);
+        if (result.success) {
+          setUploadStatus("success");
+          setUploadMessage(`${filesData.length} file(s) uploaded successfully!`);
+          setUploadFiles([]);
+          return { success: true, message: result.message };
+        } else {
+          setUploadStatus("error");
+          setUploadMessage(result.error || "Upload failed");
+          return { success: false, error: result.error };
+        }
+      } catch {
+        // If we can't parse JSON but got a response, might still be okay
+        if (response.ok) {
+          setUploadStatus("success");
+          setUploadMessage(`${filesData.length} file(s) uploaded!`);
+          setUploadFiles([]);
+          return { success: true, message: "Files uploaded" };
+        }
+        throw new Error("Invalid response from server");
+      }
+    } catch (error) {
+      console.error("Upload error:", error);
+      setUploadStatus("error");
+      setUploadMessage("Upload failed. Please email files to info@justlegalsolutions.org");
+      return { success: false, error: "Upload failed" };
+    }
   };
   
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
@@ -59,6 +242,16 @@ export function Footer() {
     }
 
     try {
+      // Upload files to Google Drive if any files selected
+      if (uploadFiles.length > 0) {
+        const clientName = data['firm_or_company_name'] || '';
+        const caseNumber = data['case_number'] || '';
+        const email = data['your_email_address'] || '';
+        const notes = data['service_instructions'] || '';
+        
+        await uploadFilesToDrive(clientName, caseNumber, email, notes);
+      }
+
       console.log("Submitting form data:", JSON.stringify(data, null, 2));
       
       // Use FormSubmit's AJAX endpoint with JSON data
@@ -266,12 +459,107 @@ export function Footer() {
                   </div>
                 </div>
 
-                {/* Submit Documents Section */}
+                {/* Submit Documents Section - Drag & Drop Upload */}
                 <h3 className="text-lg font-semibold leading-6 text-gray-900 border-b pb-2">Submit Documents</h3>
-                <div className="bg-blue-50 border border-blue-200 text-blue-800 text-center p-4 rounded-md">
-                    Please email all documents to:<br/>
-                    <a href="mailto:info@justlegalsolutions.org" className="font-bold underline">info@justlegalsolutions.org</a>
+                
+                {/* Drop Zone */}
+                <div
+                  onDragOver={handleDragOver}
+                  onDragLeave={handleDragLeave}
+                  onDrop={handleDrop}
+                  onClick={() => fileInputRef.current?.click()}
+                  className={`border-3 border-dashed rounded-xl p-6 text-center cursor-pointer transition-all duration-300 ${
+                    isDragging
+                      ? "border-blue-500 bg-blue-100 scale-[1.01]"
+                      : "border-gray-300 bg-blue-50 hover:border-blue-400 hover:bg-blue-100"
+                  }`}
+                >
+                  <svg
+                    className={`w-10 h-10 mx-auto mb-2 transition-colors ${
+                      isDragging ? "text-blue-600" : "text-blue-400"
+                    }`}
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"
+                    />
+                  </svg>
+                  <p className="text-gray-700 font-semibold">Drag & drop files here</p>
+                  <p className="text-gray-500 text-sm">or click to browse</p>
+                  <span className="inline-block mt-2 px-4 py-2 bg-blue-600 text-white text-sm font-semibold rounded-lg hover:bg-blue-700 transition-colors">
+                    Browse Files
+                  </span>
+                  <p className="text-xs text-gray-400 mt-2">
+                    Accepted: PDF, DOC, DOCX, JPG, PNG • Max 100MB per file
+                  </p>
                 </div>
+                <input
+                  ref={fileInputRef}
+                  type="file"
+                  multiple
+                  accept=".pdf,.doc,.docx,.jpg,.jpeg,.png"
+                  onChange={handleFileSelect}
+                  className="hidden"
+                />
+
+                {/* File List */}
+                {uploadFiles.length > 0 && (
+                  <div className="space-y-2 mt-4">
+                    <p className="text-sm font-semibold text-gray-700">{uploadFiles.length} file(s) selected:</p>
+                    {uploadFiles.map((fileItem) => (
+                      <div
+                        key={fileItem.id}
+                        className="flex items-center gap-3 p-3 bg-white rounded-lg border border-gray-200 shadow-sm"
+                      >
+                        <div className="w-9 h-9 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                          <svg className="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                          </svg>
+                        </div>
+                        <div className="flex-1 min-w-0">
+                          <p className="text-sm font-medium text-gray-800 truncate">
+                            {fileItem.file.name}
+                          </p>
+                          <p className="text-xs text-gray-500">
+                            {formatBytes(fileItem.file.size)}
+                          </p>
+                        </div>
+                        <button
+                          type="button"
+                          onClick={(e) => { e.stopPropagation(); removeUploadFile(fileItem.id); }}
+                          className="p-1 text-gray-400 hover:text-red-500 hover:bg-red-50 rounded-lg transition-colors"
+                        >
+                          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                          </svg>
+                        </button>
+                      </div>
+                    ))}
+                  </div>
+                )}
+
+                {/* Upload Status Messages */}
+                {uploadStatus === "success" && (
+                  <div className="bg-green-50 border border-green-200 text-green-800 p-3 rounded-md text-center">
+                    <strong>✅ Files uploaded successfully!</strong>
+                    <p className="text-sm">{uploadMessage}</p>
+                  </div>
+                )}
+                {uploadStatus === "error" && (
+                  <div className="bg-red-50 border border-red-200 text-red-800 p-3 rounded-md text-center">
+                    <strong>❌ Upload failed</strong>
+                    <p className="text-sm">{uploadMessage}</p>
+                  </div>
+                )}
+
+                <p className="text-xs text-gray-500 text-center">
+                  Files will be securely uploaded to our system. You&apos;ll receive a confirmation email.
+                </p>
 
                 <button 
                   type="submit" 
