@@ -6,7 +6,7 @@ import Image from "next/image";
 
 // ============ CONFIGURATION ============
 // Replace with your deployed Google Apps Script web app URL after deployment
-const GOOGLE_APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbw12JZIAejsGN_WrfA56-6p6CenI67nGt5lKdBSFw-AfmYW38ecJaYzz7A4cRGBQwVe/exec";
+const GOOGLE_APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxEHti2KVNsWeH2p_YR-IyaAEyFN4BZ6C5-Xhh5klt8Q54OA-fxF-TEQfDeZFYep2F7/exec";
 // ========================================
 
 const MAX_FILE_SIZE = 100 * 1024 * 1024; // 100MB
@@ -23,6 +23,7 @@ interface UploadFile {
 export function Footer() {
   const [showForm, setShowForm] = useState(false);
   const [submissionStatus, setSubmissionStatus] = useState("idle"); // 'idle', 'submitting', 'success', 'error'
+  const [honeypot, setHoneypot] = useState(""); // Spam protection - should stay empty
   
   // File upload states
   const [uploadFiles, setUploadFiles] = useState<UploadFile[]>([]);
@@ -37,6 +38,7 @@ export function Footer() {
     setUploadFiles([]);
     setUploadStatus("idle");
     setUploadMessage("");
+    setHoneypot(""); // Reset honeypot
   };
 
   // File upload helper functions
@@ -126,6 +128,16 @@ export function Footer() {
   const uploadFilesToDrive = async (clientName: string, caseNumber: string, email: string, notes: string) => {
     if (uploadFiles.length === 0) return { success: true, message: "No files to upload" };
     
+    // Spam check - if honeypot field is filled, silently reject
+    if (honeypot) {
+      console.log("Spam detected via honeypot");
+      // Pretend success to not alert spammers
+      setUploadStatus("success");
+      setUploadMessage("Files uploaded successfully!");
+      setUploadFiles([]);
+      return { success: true, message: "Files uploaded" };
+    }
+    
     setUploadStatus("uploading");
     
     try {
@@ -145,7 +157,7 @@ export function Footer() {
         caseNumber,
         email,
         notes,
-        website: "", // honeypot
+        website: honeypot, // honeypot field - should be empty for real users
         files: filesData,
       });
       
@@ -357,6 +369,20 @@ export function Footer() {
                 <input type="hidden" name="_captcha" value="false" />
                 <input type="hidden" name="_template" value="table" />
                 
+                {/* Honeypot spam protection - hidden from users, bots will fill it */}
+                <div style={{ position: 'absolute', left: '-9999px', opacity: 0 }} aria-hidden="true">
+                  <label htmlFor="website_url">Website</label>
+                  <input 
+                    type="text" 
+                    id="website_url" 
+                    name="website_url" 
+                    value={honeypot}
+                    onChange={(e) => setHoneypot(e.target.value)}
+                    tabIndex={-1}
+                    autoComplete="off"
+                  />
+                </div>
+                
                 {/* Service Type */}
                 <div>
                   <label className="block text-sm font-bold text-gray-700">Is Personal Service required instead of a designee or sub service? <span className="text-xs font-normal text-gray-500">(Select all that apply)</span></label>
@@ -496,6 +522,9 @@ export function Footer() {
                   </span>
                   <p className="text-xs text-gray-400 mt-2">
                     Accepted: PDF, DOC, DOCX, JPG, PNG • Max 100MB per file
+                  </p>
+                  <p className="text-xs text-gray-500 mt-1">
+                    Or email documents to <a href="mailto:info@justlegalsolutions.org" className="text-blue-600 hover:underline font-medium">info@justlegalsolutions.org</a>
                   </p>
                 </div>
                 <input

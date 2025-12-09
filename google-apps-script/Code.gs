@@ -305,7 +305,7 @@ function logUpload(clientName, caseNumber, email, notes, files) {
 }
 
 /**
- * Sends confirmation email to client
+ * Sends confirmation email to client FROM info@justlegalsolutions.org
  */
 function sendClientConfirmation(email, clientName, caseNumber, files) {
   try {
@@ -334,18 +334,19 @@ Oklahoma's Trusted Legal Document Experts
 ---
 This is an automated confirmation. Please do not reply to this email.`;
 
-    // Use GmailApp to send from alias email
+    // Send from info@justlegalsolutions.org alias using GmailApp
     GmailApp.sendEmail(email, subject, body, {
       from: 'info@justlegalsolutions.org',
       name: 'Just Legal Solutions'
     });
+    console.log('Client confirmation email sent from info@justlegalsolutions.org to:', email);
   } catch (e) {
     console.error('Error sending client email:', e);
   }
 }
 
 /**
- * Sends notification email to admin
+ * Sends notification email to admin FROM info@justlegalsolutions.org
  */
 function sendAdminNotification(clientName, caseNumber, email, notes, files) {
   try {
@@ -368,12 +369,12 @@ ${fileList}
 ---
 Uploaded via Just Legal Solutions website`;
 
-    MailApp.sendEmail({
-      to: ADMIN_EMAIL,
-      subject: subject,
-      body: body,
+    // Send from info@justlegalsolutions.org alias using GmailApp
+    GmailApp.sendEmail(ADMIN_EMAIL, subject, body, {
+      from: 'info@justlegalsolutions.org',
       name: 'JLS Upload System'
     });
+    console.log('Admin notification sent from info@justlegalsolutions.org to:', ADMIN_EMAIL);
   } catch (e) {
     console.error('Error sending admin email:', e);
   }
@@ -408,4 +409,39 @@ function formatBytes(bytes) {
   const sizes = ['Bytes', 'KB', 'MB', 'GB'];
   const i = Math.floor(Math.log(bytes) / Math.log(k));
   return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
+}
+
+/**
+ * TEST FUNCTION - Run this manually to test email sending FROM ALIAS
+ * In Apps Script: Select this function from dropdown and click Run
+ */
+function testEmailSending() {
+  const testEmail = 'iannazzi@alumni.nsuok.edu'; // Your test email
+  
+  console.log('=== EMAIL TEST FROM ALIAS ===');
+  
+  // Check aliases
+  try {
+    const aliases = GmailApp.getAliases();
+    console.log('Available aliases:', JSON.stringify(aliases));
+  } catch (e) {
+    console.log('Error getting aliases:', e.message);
+  }
+  
+  // Try sending test email via GmailApp FROM info@justlegalsolutions.org
+  try {
+    GmailApp.sendEmail(testEmail, 
+      'JLS Alias Test - ' + new Date().toLocaleString(),
+      'This is a test email FROM info@justlegalsolutions.org.\n\nIf you receive this FROM that address, alias email is working!',
+      {
+        from: 'info@justlegalsolutions.org',
+        name: 'Just Legal Solutions'
+      }
+    );
+    console.log('Test email sent successfully via GmailApp FROM info@justlegalsolutions.org to:', testEmail);
+  } catch (e) {
+    console.log('GmailApp.sendEmail FROM ALIAS FAILED:', e.message);
+  }
+  
+  console.log('=== TEST COMPLETE ===');
 }
