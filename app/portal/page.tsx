@@ -1,12 +1,12 @@
 'use client';
 
-import { useEffect } from 'react';
+import { useEffect, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 
 // Your Google Apps Script deployment URL
 const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwkYzKCdBUhcg0VsZ8KlsFjlXFpHA09I5q2cRL5F9KmJYdUd17XOaqXCrnW3WJDjC-e/exec';
 
-export default function PortalRedirect() {
+function PortalContent() {
   const searchParams = useSearchParams();
   
   useEffect(() => {
@@ -50,5 +50,25 @@ export default function PortalRedirect() {
         <p className="text-gray-600">Redirecting to your secure case portal...</p>
       </div>
     </div>
+  );
+}
+
+function LoadingFallback() {
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-[#1e3a5f] to-[#0d1b2a] flex items-center justify-center p-4">
+      <div className="bg-white rounded-xl p-8 max-w-md text-center shadow-2xl">
+        <div className="animate-spin w-12 h-12 border-4 border-blue-600 border-t-transparent rounded-full mx-auto mb-4"></div>
+        <h1 className="text-xl font-semibold text-gray-800 mb-2">Loading...</h1>
+        <p className="text-gray-600">Please wait...</p>
+      </div>
+    </div>
+  );
+}
+
+export default function PortalRedirect() {
+  return (
+    <Suspense fallback={<LoadingFallback />}>
+      <PortalContent />
+    </Suspense>
   );
 }
