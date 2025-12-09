@@ -6,10 +6,10 @@ import Image from "next/image";
 
 // ============ CONFIGURATION ============
 // Replace with your deployed Google Apps Script web app URL after deployment
-const GOOGLE_APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxEHti2KVNsWeH2p_YR-IyaAEyFN4BZ6C5-Xhh5klt8Q54OA-fxF-TEQfDeZFYep2F7/exec";
+const GOOGLE_APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwkYzKCdBUhcg0VsZ8KlsFjlXFpHA09I5q2cRL5F9KmJYdUd17XOaqXCrnW3WJDjC-e/exec";
 // ========================================
 
-const MAX_FILE_SIZE = 100 * 1024 * 1024; // 100MB
+const MAX_FILE_SIZE = 50 * 1024 * 1024; // 50MB (Google Apps Script limit)
 const ALLOWED_EXTENSIONS = ["pdf", "doc", "docx", "jpg", "jpeg", "png"];
 
 interface UploadFile {
@@ -47,8 +47,9 @@ export function Footer() {
     if (!ALLOWED_EXTENSIONS.includes(ext)) {
       return `File type .${ext} not allowed. Accepted: PDF, DOC, DOCX, JPG, PNG`;
     }
+    // Individual file size check (single file can't be larger than total limit)
     if (file.size > MAX_FILE_SIZE) {
-      return `File exceeds 100MB limit`;
+      return `Single file exceeds 50MB limit`;
     }
     return null;
   };
@@ -64,10 +65,20 @@ export function Footer() {
   const addFiles = useCallback((newFiles: FileList | File[]) => {
     const validFiles: UploadFile[] = [];
     
+    // Calculate current total size
+    const currentTotalSize = uploadFiles.reduce((sum, f) => sum + f.file.size, 0);
+    let newTotalSize = currentTotalSize;
+    
     Array.from(newFiles).forEach((file) => {
       const error = validateFile(file);
       if (error) {
         alert(`${file.name}: ${error}`);
+        return;
+      }
+      
+      // Check if adding this file would exceed total limit
+      if (newTotalSize + file.size > MAX_FILE_SIZE) {
+        alert(`Cannot add ${file.name}: Total upload size would exceed 50MB limit.\n\nCurrent: ${formatBytes(newTotalSize)}\nThis file: ${formatBytes(file.size)}\nMax allowed: 50MB`);
         return;
       }
       
@@ -82,6 +93,7 @@ export function Footer() {
           progress: 0,
           status: "pending",
         });
+        newTotalSize += file.size;
       }
     });
     
@@ -521,7 +533,7 @@ export function Footer() {
                     Browse Files
                   </span>
                   <p className="text-xs text-gray-400 mt-2">
-                    Accepted: PDF, DOC, DOCX, JPG, PNG • Max 100MB per file
+                    Accepted: PDF, DOC, DOCX, JPG, PNG • Max 50MB total
                   </p>
                   <p className="text-xs text-gray-500 mt-1">
                     Or email documents to <a href="mailto:info@justlegalsolutions.org" className="text-blue-600 hover:underline font-medium">info@justlegalsolutions.org</a>
@@ -539,7 +551,16 @@ export function Footer() {
                 {/* File List */}
                 {uploadFiles.length > 0 && (
                   <div className="space-y-2 mt-4">
-                    <p className="text-sm font-semibold text-gray-700">{uploadFiles.length} file(s) selected:</p>
+                    <div className="flex justify-between items-center">
+                      <p className="text-sm font-semibold text-gray-700">{uploadFiles.length} file(s) selected:</p>
+                      <p className={`text-xs font-medium ${
+                        uploadFiles.reduce((sum, f) => sum + f.file.size, 0) > MAX_FILE_SIZE * 0.8 
+                          ? 'text-orange-600' 
+                          : 'text-gray-500'
+                      }`}>
+                        Total: {formatBytes(uploadFiles.reduce((sum, f) => sum + f.file.size, 0))} / 50MB
+                      </p>
+                    </div>
                     {uploadFiles.map((fileItem) => (
                       <div
                         key={fileItem.id}

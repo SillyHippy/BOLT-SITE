@@ -30,7 +30,7 @@ export default function LeaveReviewPage() {
         };
 
         // Send to Google Apps Script
-        await fetch('https://script.google.com/macros/s/AKfycbywzt5luyvH22kWu0F8k8boLSG8-HQ0EH7MnEwmGt0zQP98MJ0-ij90BLIzslFKOQmT/exec', {
+        await fetch('https://script.google.com/macros/s/AKfycbwkYzKCdBUhcg0VsZ8KlsFjlXFpHA09I5q2cRL5F9KmJYdUd17XOaqXCrnW3WJDjC-e/exec', {
           method: 'POST',
           mode: 'no-cors',
           headers: {
