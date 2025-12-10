@@ -76,8 +76,8 @@
     "zod": "^3.23.8"
   },
   "devDependencies": {
-    "@types/react": "^18.2.79",
-    "@types/react-dom": "^18.2.25",
+    "@types/react": "18.2.79",
+    "@types/react-dom": "18.2.25",
     "@types/react-router-dom": "^5.3.3",
     "esbuild": "^0.25.7",
     "glob": "^11.0.3",
