@@ -9,7 +9,7 @@ import Image from "next/image";
 const GOOGLE_APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwdWSbQ4ikj__56Ra5INvHDNOJQLouIMFbA39QdRI-JRnmSPjRy5Au4iOFxOK41Hg1ZaA/exec";
 // ========================================
 
-const MAX_FILE_SIZE = 100 * 1024 * 1024; // 100MB
+const MAX_FILE_SIZE = 40 * 1024 * 1024; // 40MB (API limit is 50MB)
 const ALLOWED_EXTENSIONS = ["pdf", "doc", "docx", "jpg", "jpeg", "png"];
 
 interface UploadFile {
@@ -521,7 +521,7 @@ export function Footer() {
                     Browse Files
                   </span>
                   <p className="text-xs text-gray-400 mt-2">
-                    Accepted: PDF, DOC, DOCX, JPG, PNG • Max 100MB per file
+                    Accepted: PDF, DOC, DOCX, JPG, PNG • Max 40MB total upload
                   </p>
                   <p className="text-xs text-gray-500 mt-1">
                     Or email documents to <a href="mailto:info@justlegalsolutions.org" className="text-blue-600 hover:underline font-medium">info@justlegalsolutions.org</a>
