@@ -4,6 +4,7 @@ const nextConfig = {
   distDir: 'out',
   images: {
     unoptimized: true,
+    qualities: [75, 85, 100], // Configure allowed quality values for next/image
     // Add the new domain to the remotePatterns
     remotePatterns: [
       {
@@ -21,6 +22,7 @@ const nextConfig = {
       },
     ],
   },
+  allowedDevOrigins: ['192.168.1.104'], // Allow local network access during dev
   experimental: {
     optimizeCss: true,
     scrollRestoration: true,
