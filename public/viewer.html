@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PDF Viewer</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+  <style>
+    * { box-sizing: border-box; }
+    body, html { 
+      height: 100%; 
+      margin: 0; 
+      font-family: Arial, sans-serif;
+      background: #525659;
+    }
+    #header { 
+      padding: 10px 15px; 
+      background: #1a1a1a; 
+      display: flex; 
+      gap: 10px; 
+      align-items: center;
+      flex-wrap: wrap;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    #header button {
+      padding: 12px 20px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    #back-btn { background: #6b7280; color: white; }
+    #save-btn { background: #2563eb; color: white; }
+    #filename { 
+      flex: 1; 
+      text-align: center; 
+      color: white; 
+      font-size: 14px;
+    }
+    #pdf-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+      gap: 10px;
+    }
+    .pdf-page {
+      background: white;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+      max-width: 100%;
+    }
+    #loading {
+      color: white;
+      font-size: 18px;
+      padding: 40px;
+      text-align: center;
+    }
+    #error-box {
+      display: none;
+      background: #fef2f2;
+      border: 2px solid #dc2626;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px;
+      text-align: center;
+    }
+    #error-box h2 { color: #dc2626; margin-top: 0; }
+    @media (max-width: 500px) {
+      #filename { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <div id="header">
+    <button id="back-btn" onclick="goBack()">← Back</button>
+    <span id="filename">Loading...</span>
+    <button id="save-btn" onclick="savePdf()">📥 Save</button>
+  </div>
+  
+  <div id="pdf-container">
+    <div id="loading">⏳ Loading PDF...</div>
+  </div>
+  
+  <div id="error-box">
+    <h2>⚠️ Error</h2>
+    <p id="error-msg"></p>
+  </div>
+
+  <script>
+    pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+    
+    var pdfBytes = null;
+    var filename = 'Affidavit.pdf';
+    var base64Data = null;
+
+    base64Data = localStorage.getItem('temp_pdf');
+    filename = localStorage.getItem('temp_filename') || 'Affidavit.pdf';
+    
+    document.getElementById('filename').textContent = filename;
+
+    if (base64Data) {
+      try {
+        var binary = atob(base64Data);
+        pdfBytes = new Uint8Array(binary.length);
+        for (var i = 0; i < binary.length; i++) {
+          pdfBytes[i] = binary.charCodeAt(i);
+        }
+        
+        localStorage.removeItem('temp_pdf');
+        localStorage.removeItem('temp_filename');
+        
+        loadPdf();
+        
+      } catch (e) {
+        showError('Error decoding PDF: ' + e.message);
+      }
+    } else {
+      showError('No PDF data found. Go back and try again.');
+    }
+
+    function loadPdf() {
+      var loadingTask = pdfjsLib.getDocument({ data: pdfBytes });
+      loadingTask.promise.then(function(pdf) {
+        document.getElementById('loading').style.display = 'none';
+        
+        var container = document.getElementById('pdf-container');
+        
+        for (var pageNum = 1; pageNum <= pdf.numPages; pageNum++) {
+          renderPage(pdf, pageNum, container);
+        }
+      }).catch(function(e) {
+        showError('Could not render PDF: ' + e.message);
+      });
+    }
+
+    function renderPage(pdf, pageNum, container) {
+      pdf.getPage(pageNum).then(function(page) {
+        var containerWidth = Math.min(window.innerWidth - 20, 800);
+        var viewport = page.getViewport({ scale: 1 });
+        var scale = containerWidth / viewport.width;
+        var scaledViewport = page.getViewport({ scale: scale });
+        
+        var canvas = document.createElement('canvas');
+        canvas.className = 'pdf-page';
+        canvas.width = scaledViewport.width;
+        canvas.height = scaledViewport.height;
+        
+        var ctx = canvas.getContext('2d');
+        
+        page.render({
+          canvasContext: ctx,
+          viewport: scaledViewport
+        });
+        
+        container.appendChild(canvas);
+      });
+    }
+
+    function showError(msg) {
+      document.getElementById('loading').style.display = 'none';
+      document.getElementById('error-box').style.display = 'block';
+      document.getElementById('error-msg').textContent = msg;
+    }
+
+    function goBack() {
+      // Build URL with form data to restore the form
+      var formDataJson = localStorage.getItem('temp_formdata');
+      if (formDataJson) {
+        try {
+          var formData = JSON.parse(formDataJson);
+          var params = new URLSearchParams();
+          for (var key in formData) {
+            if (formData[key]) {
+              params.append(key, formData[key]);
+            }
+          }
+          localStorage.removeItem('temp_formdata');
+          window.location.href = 'affidavit.html?' + params.toString();
+          return;
+        } catch(e) {}
+      }
+      window.location.href = 'affidavit.html';
+    }
+
+    function savePdf() {
+      if (!pdfBytes) {
+        alert('No PDF to save');
+        return;
+      }
+      
+      var blob = new Blob([pdfBytes], { type: 'application/pdf' });
+      var url = URL.createObjectURL(blob);
+      var a = document.createElement('a');
+      a.href = url;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base target="_top">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+      background: linear-gradient(135deg, #f5f7fa 0%, #e4e8ec 100%);
+      min-height: 100vh;
+      padding: 20px;
+    }
+    
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+    
+    .header {
+      background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+    
+    .header h1 {
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+    
+    .header p {
+      opacity: 0.9;
+      font-size: 14px;
+    }
+    
+    .form-container {
+      padding: 30px;
+    }
+    
+    .form-group {
+      margin-bottom: 20px;
+    }
+    
+    .form-group label {
+      display: block;
+      font-weight: 600;
+      color: #374151;
+      margin-bottom: 8px;
+      font-size: 14px;
+    }
+    
+    .form-group label .required {
+      color: #ef4444;
+    }
+    
+    .form-group input,
+    .form-group textarea {
+      width: 100%;
+      padding: 12px 16px;
+      border: 2px solid #e5e7eb;
+      border-radius: 8px;
+      font-size: 16px;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    
+    .form-group input:focus,
+    .form-group textarea:focus {
+      outline: none;
+      border-color: #3b82f6;
+      box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+    }
+    
+    .form-group textarea {
+      resize: vertical;
+      min-height: 80px;
+    }
+    
+    /* Honeypot - hidden from users */
+    .hp-field {
+      position: absolute;
+      left: -9999px;
+    }
+    
+    /* Drop Zone Styles */
+    .drop-zone {
+      border: 3px dashed #d1d5db;
+      border-radius: 12px;
+      padding: 40px 20px;
+      text-align: center;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      background: #f9fafb;
+      position: relative;
+    }
+    
+    .drop-zone:hover {
+      border-color: #3b82f6;
+      background: #eff6ff;
+    }
+    
+    .drop-zone.drag-over {
+      border-color: #3b82f6;
+      background: #dbeafe;
+      transform: scale(1.02);
+    }
+    
+    .drop-zone-icon {
+      width: 64px;
+      height: 64px;
+      margin: 0 auto 16px;
+      color: #9ca3af;
+    }
+    
+    .drop-zone.drag-over .drop-zone-icon {
+      color: #3b82f6;
+    }
+    
+    .drop-zone h3 {
+      color: #374151;
+      font-size: 18px;
+      margin-bottom: 8px;
+    }
+    
+    .drop-zone p {
+      color: #6b7280;
+      font-size: 14px;
+    }
+    
+    .drop-zone .browse-btn {
+      display: inline-block;
+      margin-top: 16px;
+      padding: 10px 24px;
+      background: #3b82f6;
+      color: white;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 14px;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    
+    .drop-zone .browse-btn:hover {
+      background: #2563eb;
+    }
+    
+    .file-info {
+      font-size: 12px;
+      color: #9ca3af;
+      margin-top: 12px;
+    }
+    
+    /* File List */
+    .file-list {
+      margin-top: 20px;
+    }
+    
+    .file-item {
+      display: flex;
+      align-items: center;
+      padding: 12px 16px;
+      background: #f9fafb;
+      border-radius: 8px;
+      margin-bottom: 8px;
+      border: 1px solid #e5e7eb;
+    }
+    
+    .file-item-icon {
+      width: 40px;
+      height: 40px;
+      background: #dbeafe;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 12px;
+      flex-shrink: 0;
+    }
+    
+    .file-item-icon svg {
+      width: 24px;
+      height: 24px;
+      color: #3b82f6;
+    }
+    
+    .file-item-info {
+      flex: 1;
+      min-width: 0;
+    }
+    
+    .file-item-name {
+      font-weight: 500;
+      color: #374151;
+      font-size: 14px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    
+    .file-item-size {
+      font-size: 12px;
+      color: #9ca3af;
+    }
+    
+    .file-item-remove {
+      width: 32px;
+      height: 32px;
+      border: none;
+      background: transparent;
+      cursor: pointer;
+      color: #9ca3af;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s;
+    }
+    
+    .file-item-remove:hover {
+      background: #fee2e2;
+      color: #ef4444;
+    }
+    
+    /* Progress Bar */
+    .progress-container {
+      margin-top: 20px;
+      display: none;
+    }
+    
+    .progress-container.show {
+      display: block;
+    }
+    
+    .progress-bar-wrapper {
+      height: 8px;
+      background: #e5e7eb;
+      border-radius: 4px;
+      overflow: hidden;
+    }
+    
+    .progress-bar {
+      height: 100%;
+      background: linear-gradient(90deg, #3b82f6, #60a5fa);
+      border-radius: 4px;
+      transition: width 0.3s ease;
+      width: 0%;
+    }
+    
+    .progress-text {
+      text-align: center;
+      font-size: 14px;
+      color: #6b7280;
+      margin-top: 8px;
+    }
+    
+    /* Submit Button */
+    .submit-btn {
+      width: 100%;
+      padding: 16px;
+      background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      margin-top: 20px;
+    }
+    
+    .submit-btn:hover:not(:disabled) {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(59, 130, 246, 0.3);
+    }
+    
+    .submit-btn:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+    
+    /* Messages */
+    .message {
+      padding: 16px;
+      border-radius: 10px;
+      margin-top: 20px;
+      display: none;
+    }
+    
+    .message.show {
+      display: block;
+    }
+    
+    .message.success {
+      background: #d1fae5;
+      border: 1px solid #10b981;
+      color: #065f46;
+    }
+    
+    .message.error {
+      background: #fee2e2;
+      border: 1px solid #ef4444;
+      color: #991b1b;
+    }
+    
+    .message h4 {
+      font-size: 16px;
+      margin-bottom: 8px;
+    }
+    
+    .message p {
+      font-size: 14px;
+    }
+    
+    /* Responsive */
+    @media (max-width: 480px) {
+      body {
+        padding: 10px;
+      }
+      
+      .header {
+        padding: 20px;
+      }
+      
+      .form-container {
+        padding: 20px;
+      }
+      
+      .drop-zone {
+        padding: 30px 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>📁 Just Legal Solutions</h1>
+      <p>Secure Document Upload Portal</p>
+    </div>
+    
+    <div class="form-container">
+      <form id="uploadForm">
+        <!-- Honeypot field for spam protection -->
+        <div class="hp-field">
+          <label for="website">Website</label>
+          <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
+        </div>
+        
+        <div class="form-group">
+          <label for="clientName">Client Name <span class="required">*</span></label>
+          <input type="text" id="clientName" name="clientName" required placeholder="Enter your full name">
+        </div>
+        
+        <div class="form-group">
+          <label for="caseNumber">Case Number <span class="required">*</span></label>
+          <input type="text" id="caseNumber" name="caseNumber" required placeholder="Enter case number">
+        </div>
+        
+        <div class="form-group">
+          <label for="email">Email Address <span class="required">*</span></label>
+          <input type="email" id="email" name="email" required placeholder="Enter your email">
+        </div>
+        
+        <div class="form-group">
+          <label for="notes">Notes (Optional)</label>
+          <textarea id="notes" name="notes" placeholder="Any additional information about these documents..."></textarea>
+        </div>
+        
+        <div class="form-group">
+          <label>Upload Documents <span class="required">*</span></label>
+          <div class="drop-zone" id="dropZone">
+            <svg class="drop-zone-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="17 8 12 3 7 8"></polyline>
+              <line x1="12" y1="3" x2="12" y2="15"></line>
+            </svg>
+            <h3>Drag & drop files here</h3>
+            <p>or click to browse</p>
+            <span class="browse-btn">Browse Files</span>
+            <p class="file-info">Accepted: PDF, DOC, DOCX, JPG, PNG • Max 100MB per file</p>
+          </div>
+          <input type="file" id="fileInput" multiple accept=".pdf,.doc,.docx,.jpg,.jpeg,.png" style="display: none;">
+          
+          <div class="file-list" id="fileList"></div>
+        </div>
+        
+        <div class="progress-container" id="progressContainer">
+          <div class="progress-bar-wrapper">
+            <div class="progress-bar" id="progressBar"></div>
+          </div>
+          <p class="progress-text" id="progressText">Uploading...</p>
+        </div>
+        
+        <div class="message success" id="successMessage">
+          <h4>✅ Upload Successful!</h4>
+          <p id="successDetails"></p>
+        </div>
+        
+        <div class="message error" id="errorMessage">
+          <h4>❌ Upload Failed</h4>
+          <p id="errorDetails"></p>
+        </div>
+        
+        <button type="submit" class="submit-btn" id="submitBtn">
+          Upload Documents
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    const dropZone = document.getElementById('dropZone');
+    const fileInput = document.getElementById('fileInput');
+    const fileList = document.getElementById('fileList');
+    const uploadForm = document.getElementById('uploadForm');
+    const submitBtn = document.getElementById('submitBtn');
+    const progressContainer = document.getElementById('progressContainer');
+    const progressBar = document.getElementById('progressBar');
+    const progressText = document.getElementById('progressText');
+    const successMessage = document.getElementById('successMessage');
+    const errorMessage = document.getElementById('errorMessage');
+    
+    let selectedFiles = [];
+    const MAX_FILE_SIZE = 100 * 1024 * 1024; // 100MB
+    const ALLOWED_TYPES = ['application/pdf', 'application/msword', 
+      'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+      'image/jpeg', 'image/png'];
+    const ALLOWED_EXTENSIONS = ['pdf', 'doc', 'docx', 'jpg', 'jpeg', 'png'];
+    
+    // Drop zone click
+    dropZone.addEventListener('click', () => fileInput.click());
+    
+    // Drag events
+    dropZone.addEventListener('dragover', (e) => {
+      e.preventDefault();
+      dropZone.classList.add('drag-over');
+    });
+    
+    dropZone.addEventListener('dragleave', () => {
+      dropZone.classList.remove('drag-over');
+    });
+    
+    dropZone.addEventListener('drop', (e) => {
+      e.preventDefault();
+      dropZone.classList.remove('drag-over');
+      handleFiles(e.dataTransfer.files);
+    });
+    
+    // File input change
+    fileInput.addEventListener('change', () => {
+      handleFiles(fileInput.files);
+    });
+    
+    function handleFiles(files) {
+      for (const file of files) {
+        // Check extension
+        const ext = file.name.split('.').pop().toLowerCase();
+        if (!ALLOWED_EXTENSIONS.includes(ext)) {
+          alert(`File "${file.name}" is not allowed. Accepted: PDF, DOC, DOCX, JPG, PNG`);
+          continue;
+        }
+        
+        // Check size
+        if (file.size > MAX_FILE_SIZE) {
+          alert(`File "${file.name}" exceeds 100MB limit`);
+          continue;
+        }
+        
+        // Check if already added
+        if (selectedFiles.find(f => f.name === file.name && f.size === file.size)) {
+          continue;
+        }
+        
+        selectedFiles.push(file);
+      }
+      
+      renderFileList();
+      fileInput.value = '';
+    }
+    
+    function renderFileList() {
+      fileList.innerHTML = '';
+      
+      selectedFiles.forEach((file, index) => {
+        const item = document.createElement('div');
+        item.className = 'file-item';
+        item.innerHTML = `
+          <div class="file-item-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+              <polyline points="14 2 14 8 20 8"></polyline>
+            </svg>
+          </div>
+          <div class="file-item-info">
+            <div class="file-item-name">${escapeHtml(file.name)}</div>
+            <div class="file-item-size">${formatBytes(file.size)}</div>
+          </div>
+          <button type="button" class="file-item-remove" onclick="removeFile(${index})">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+        `;
+        fileList.appendChild(item);
+      });
+    }
+    
+    function removeFile(index) {
+      selectedFiles.splice(index, 1);
+      renderFileList();
+    }
+    
+    function formatBytes(bytes) {
+      if (bytes === 0) return '0 Bytes';
+      const k = 1024;
+      const sizes = ['Bytes', 'KB', 'MB'];
+      const i = Math.floor(Math.log(bytes) / Math.log(k));
+      return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
+    }
+    
+    function escapeHtml(text) {
+      const div = document.createElement('div');
+      div.textContent = text;
+      return div.innerHTML;
+    }
+    
+    // Form submission
+    uploadForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      
+      if (selectedFiles.length === 0) {
+        alert('Please select at least one file to upload');
+        return;
+      }
+      
+      const clientName = document.getElementById('clientName').value.trim();
+      const caseNumber = document.getElementById('caseNumber').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const notes = document.getElementById('notes').value.trim();
+      const website = document.getElementById('website').value; // Honeypot
+      
+      // Disable form
+      submitBtn.disabled = true;
+      progressContainer.classList.add('show');
+      successMessage.classList.remove('show');
+      errorMessage.classList.remove('show');
+      
+      try {
+        // Convert files to base64
+        const filesData = [];
+        let processed = 0;
+        
+        for (const file of selectedFiles) {
+          const base64 = await fileToBase64(file);
+          filesData.push({
+            name: file.name,
+            type: file.type,
+            data: base64
+          });
+          processed++;
+          progressBar.style.width = `${(processed / selectedFiles.length) * 50}%`;
+          progressText.textContent = `Processing file ${processed} of ${selectedFiles.length}...`;
+        }
+        
+        progressText.textContent = 'Uploading to server...';
+        progressBar.style.width = '75%';
+        
+        // Submit to Google Apps Script
+        const response = await new Promise((resolve, reject) => {
+          google.script.run
+            .withSuccessHandler(resolve)
+            .withFailureHandler(reject)
+            .processUpload({
+              clientName,
+              caseNumber,
+              email,
+              notes,
+              website,
+              files: filesData
+            });
+        });
+        
+        progressBar.style.width = '100%';
+        
+        if (response.success) {
+          successMessage.classList.add('show');
+          document.getElementById('successDetails').textContent = response.message;
+          
+          // Reset form
+          uploadForm.reset();
+          selectedFiles = [];
+          renderFileList();
+        } else {
+          throw new Error(response.error || 'Upload failed');
+        }
+        
+      } catch (error) {
+        errorMessage.classList.add('show');
+        document.getElementById('errorDetails').textContent = error.message || 'An error occurred. Please try again.';
+      } finally {
+        submitBtn.disabled = false;
+        setTimeout(() => {
+          progressContainer.classList.remove('show');
+          progressBar.style.width = '0%';
+        }, 1000);
+      }
+    });
+    
+    function fileToBase64(file) {
+      return new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = () => resolve(reader.result);
+        reader.onerror = reject;
+        reader.readAsDataURL(file);
+      });
+    }
+  </script>
+</body>
+</html>

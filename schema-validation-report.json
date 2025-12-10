@@ -1,0 +1,396 @@
+{
+  "TotalPagesChecked": 19,
+  "PagesWithIssues": 19,
+  "Results": [
+    {
+      "Schemas": {
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\bartlesville\\page.tsx",
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "image": "MISSING",
+          "description": "Professional process serving in Bartlesville, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service",
+          "url": "https://justlegalsolutions.org/service-areas/bartlesville",
+          "title": "Just Legal Solutions - Bartlesville",
+          "pageType": "service"
+        }
+      },
+      "PagePath": "/app\\service-areas\\bartlesville\\page.tsx",
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "SchemaCount": 3,
+      "Duplicates": {}
+    },
+    {
+      "Schemas": [
+        {
+          "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\bixby\\page.tsx",
+          "Type": "UnifiedSchema",
+          "Properties": {
+            "image": "MISSING",
+            "description": "Professional process serving in Bixby, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service",
+            "url": "https://justlegalsolutions.org/service-areas/bixby",
+            "title": "Bixby Process Serving | Civil & Family Court Documents",
+            "pageType": "location"
+          }
+        },
+        {
+          "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\bixby\\page.tsx",
+          "Type": "FAQAccordion",
+          "Properties": {
+            "image": "MISSING"
+          }
+        }
+      ],
+      "PagePath": "/app\\service-areas\\bixby\\page.tsx",
+      "MissingFields": [
+        "Image field missing in UnifiedSchema",
+        "Image field missing in FAQAccordion"
+      ],
+      "SchemaCount": 2,
+      "Duplicates": {}
+    },
+    {
+      "Schemas": {
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\bristow\\page.tsx",
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "image": "MISSING",
+          "description": "Professional process server in Bristow, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability and competitive rates.",
+          "url": "https://justlegalsolutions.org/service-areas/bristow",
+          "title": "Process Server Bristow | Legal Document Service",
+          "pageType": "location"
+        }
+      },
+      "PagePath": "/app\\service-areas\\bristow\\page.tsx",
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "SchemaCount": 3,
+      "Duplicates": {}
+    },
+    {
+      "Schemas": [
+        {
+          "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\broken-arrow\\page.tsx",
+          "Type": "UnifiedSchema",
+          "Properties": {
+            "image": "https://justlegalsolutions.org/images/jls-logo.webp",
+            "description": "Professional Broken Arrow process server delivering legal documents, subpoenas, and court papers throughout Rose District, Forest Ridge, and all Broken Arrow neighborhoods.",
+            "url": "https://justlegalsolutions.org/service-areas/broken-arrow",
+            "title": "Broken Arrow Process Server | Legal Document Service 2025",
+            "pageType": "location"
+          }
+        },
+        {
+          "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\broken-arrow\\page.tsx",
+          "Type": "FAQAccordion",
+          "Properties": {
+            "image": "MISSING"
+          }
+        }
+      ],
+      "PagePath": "/app\\service-areas\\broken-arrow\\page.tsx",
+      "MissingFields": [
+        "Image field missing in FAQAccordion"
+      ],
+      "SchemaCount": 2,
+      "Duplicates": {}
+    },
+    {
+      "Schemas": {
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\catoosa\\page.tsx",
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "image": "MISSING",
+          "description": "Professional process serving in Catoosa, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service",
+          "url": "https://justlegalsolutions.org/service-areas/catoosa",
+          "title": "Just Legal Solutions - Catoosa",
+          "pageType": "service"
+        }
+      },
+      "PagePath": "/app\\service-areas\\catoosa\\page.tsx",
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "SchemaCount": 3,
+      "Duplicates": {}
+    },
+    {
+      "Schemas": {
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\claremore\\page.tsx",
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "image": "MISSING",
+          "description": "Professional process serving in Claremore, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service",
+          "url": "https://justlegalsolutions.org/service-areas/claremore",
+          "title": "Just Legal Solutions - Claremore",
+          "pageType": "service"
+        }
+      },
+      "PagePath": "/app\\service-areas\\claremore\\page.tsx",
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "SchemaCount": 3,
+      "Duplicates": {}
+    },
+    {
+      "Schemas": {
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\collinsville\\page.tsx",
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "image": "MISSING",
+          "description": "Professional process serving in Collinsville, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service",
+          "url": "https://justlegalsolutions.org/service-areas/collinsville",
+          "title": "Just Legal Solutions - Collinsville",
+          "pageType": "service"
+        }
+      },
+      "PagePath": "/app\\service-areas\\collinsville\\page.tsx",
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "SchemaCount": 3,
+      "Duplicates": {}
+    },
+    {
+      "Schemas": {
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\coweta\\page.tsx",
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "image": "MISSING",
+          "description": "Professional process serving in Coweta, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service",
+          "url": "https://justlegalsolutions.org/service-areas/coweta",
+          "title": "Just Legal Solutions - Coweta",
+          "pageType": "service"
+        }
+      },
+      "PagePath": "/app\\service-areas\\coweta\\page.tsx",
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "SchemaCount": 3,
+      "Duplicates": {}
+    },
+    {
+      "Schemas": {
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\glenpool\\page.tsx",
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "image": "MISSING",
+          "description": "Professional process serving in Glenpool, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service",
+          "url": "https://justlegalsolutions.org/service-areas/glenpool",
+          "title": "Just Legal Solutions - Glenpool",
+          "pageType": "service"
+        }
+      },
+      "PagePath": "/app\\service-areas\\glenpool\\page.tsx",
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "SchemaCount": 3,
+      "Duplicates": {}
+    },
+    {
+      "Schemas": [
+        {
+          "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\jenks\\page.tsx",
+          "Type": "UnifiedSchema",
+          "Properties": {
+            "image": "https://justlegalsolutions.org/images/jls-logo.webp",
+            "description": "Professional process serving in Jenks, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service",
+            "url": "https://justlegalsolutions.org/service-areas/jenks",
+            "title": "Just Legal Solutions - Jenks",
+            "pageType": "service"
+          }
+        },
+        {
+          "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\jenks\\page.tsx",
+          "Type": "FAQAccordion",
+          "Properties": {
+            "image": "MISSING"
+          }
+        }
+      ],
+      "PagePath": "/app\\service-areas\\jenks\\page.tsx",
+      "MissingFields": [
+        "Image field missing in FAQAccordion"
+      ],
+      "SchemaCount": 2,
+      "Duplicates": {}
+    },
+    {
+      "Schemas": {
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\kellyville\\page.tsx",
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "image": "MISSING",
+          "description": "Professional process serving in Kellyville, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service",
+          "url": "https://justlegalsolutions.org/service-areas/kellyville",
+          "title": "Just Legal Solutions - Kellyville",
+          "pageType": "service"
+        }
+      },
+      "PagePath": "/app\\service-areas\\kellyville\\page.tsx",
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "SchemaCount": 3,
+      "Duplicates": {}
+    },
+    {
+      "Schemas": {
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\owasso\\page.tsx",
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "image": "MISSING",
+          "description": "Professional process serving in Owasso, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service",
+          "url": "https://justlegalsolutions.org/service-areas/owasso",
+          "title": "Just Legal Solutions - Owasso",
+          "pageType": "service"
+        }
+      },
+      "PagePath": "/app\\service-areas\\owasso\\page.tsx",
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "SchemaCount": 3,
+      "Duplicates": {}
+    },
+    {
+      "Schemas": {
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\pawhuska\\page.tsx",
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "image": "MISSING",
+          "description": "Professional process serving in Pawhuska, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service",
+          "url": "https://justlegalsolutions.org/service-areas/pawhuska",
+          "title": "Just Legal Solutions - Pawhuska",
+          "pageType": "service"
+        }
+      },
+      "PagePath": "/app\\service-areas\\pawhuska\\page.tsx",
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "SchemaCount": 3,
+      "Duplicates": {}
+    },
+    {
+      "Schemas": {
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\pryor\\page.tsx",
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "image": "MISSING",
+          "description": "Professional process serving in Pryor, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service",
+          "url": "https://justlegalsolutions.org/service-areas/pryor",
+          "title": "Just Legal Solutions - Pryor",
+          "pageType": "service"
+        }
+      },
+      "PagePath": "/app\\service-areas\\pryor\\page.tsx",
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "SchemaCount": 3,
+      "Duplicates": {}
+    },
+    {
+      "Schemas": {
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\sand-springs\\page.tsx",
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "image": "MISSING",
+          "description": "Professional process serving in Sand Springs, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service",
+          "url": "https://justlegalsolutions.org/service-areas/sand-springs",
+          "title": "Just Legal Solutions - Sand Springs",
+          "pageType": "service"
+        }
+      },
+      "PagePath": "/app\\service-areas\\sand-springs\\page.tsx",
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "SchemaCount": 3,
+      "Duplicates": {}
+    },
+    {
+      "Schemas": {
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\sapulpa\\page.tsx",
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "image": "MISSING",
+          "description": "Professional process serving in Sapulpa, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service",
+          "url": "https://justlegalsolutions.org/service-areas/sapulpa",
+          "title": "Just Legal Solutions - Sapulpa",
+          "pageType": "service"
+        }
+      },
+      "PagePath": "/app\\service-areas\\sapulpa\\page.tsx",
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "SchemaCount": 3,
+      "Duplicates": {}
+    },
+    {
+      "Schemas": {
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\skiatook\\page.tsx",
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "image": "MISSING",
+          "description": "Professional process serving in Skiatook, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service",
+          "url": "https://justlegalsolutions.org/service-areas/skiatook",
+          "title": "Just Legal Solutions - Skiatook",
+          "pageType": "service"
+        }
+      },
+      "PagePath": "/app\\service-areas\\skiatook\\page.tsx",
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "SchemaCount": 3,
+      "Duplicates": {}
+    },
+    {
+      "Schemas": {
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\wagoner\\page.tsx",
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "image": "MISSING",
+          "description": "Professional process serving in Wagoner, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service",
+          "url": "https://justlegalsolutions.org/service-areas/wagoner",
+          "title": "Just Legal Solutions - Wagoner",
+          "pageType": "service"
+        }
+      },
+      "PagePath": "/app\\service-areas\\wagoner\\page.tsx",
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "SchemaCount": 3,
+      "Duplicates": {}
+    },
+    {
+      "Schemas": {
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\page.tsx",
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "image": "MISSING",
+          "description": "Professional process server serving statewide throughout Oklahoma. Complete coverage of all 77 counties with same-day service available. Licensed, bonded, and insured statewide.",
+          "url": "https://justlegalsolutions.org/service-areas",
+          "title": "Process Server Service Areas Oklahoma | Statewide Coverage | Just Legal Solutions",
+          "pageType": "service"
+        }
+      },
+      "PagePath": "/app\\service-areas\\page.tsx",
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "SchemaCount": 3,
+      "Duplicates": {}
+    }
+  ],
+  "GeneratedDate": "2025-09-05 19:15:01"
+}

@@ -1,0 +1,126 @@
+import React from 'react';
+import Link from 'next/link';
+import { BookOpen, Gavel, MapPin } from 'lucide-react';
+import UnifiedSchema from '@/components/UnifiedSchema';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Oklahoma Process Serving Resources & Legal Guides | Just Legal Solutions',
+  description: 'Oklahoma process serving resources—legal guides, FAQs, and expert advice for court filing and document delivery in Tulsa County and across Oklahoma.',
+  keywords: ['legal resources oklahoma', 'oklahoma process server guides', 'tulsa document delivery faqs', 'court papers info', 'legal guides tulsa', 'oklahoma civil procedure', 'tulsa county court rules', 'process server training oklahoma'],
+  authors: [{ name: 'Just Legal Solutions' }],
+  creator: 'Just Legal Solutions',
+  publisher: 'Just Legal Solutions',
+  category: 'Legal Services',
+  robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
+  openGraph: {
+    title: 'Oklahoma Process Serving Resources & Legal Guides | Just Legal Solutions',
+    description: 'Comprehensive legal resources, guides, and FAQs for Oklahoma process serving, court filing, and legal document delivery. Expert guidance for Tulsa County and statewide Oklahoma.',
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://justlegalsolutions.org/resources',
+    siteName: 'Just Legal Solutions',
+    images: [
+      {
+        url: 'https://justlegalsolutions.org/images/legal-resources-og.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Oklahoma Legal Resources and Process Serving Guides'
+      }
+    ]
+  },
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/resources'
+  }
+};
+
+
+
+const ResourcesPage = () => {
+  const resourceCategories = [
+    {
+      icon: BookOpen,
+      title: "Process Serving Guides",
+      description: "Everything you need to know about legal document delivery.",
+      articles: [
+  { title: "What is a Process Server?", url: "/seo/what-is-a-process-server", preview: "A complete guide to the role and responsibilities of a process server." },
+        { title: "Oklahoma Rules of Civil Procedure", url: null, preview: "Understanding the state laws that govern service of process." },
+        { title: "Complete Tulsa Process Server Guide", url: "/process-server-tulsa-guide", preview: "Your comprehensive 2025 guide to selecting and working with process servers in Tulsa." }
+      ]
+    },
+    {
+      icon: Gavel,
+      title: "Court Document Types",
+      description: "Understanding different legal documents and their service requirements.",
+      articles: [
+        { title: "Serving Divorce Papers in Tulsa", url: "/family-law-service-guide-tulsa-2025", preview: "Professional family law document delivery throughout Tulsa County." },
+        { title: "How to Serve an Eviction Notice", url: "/seo/eviction-notice-process-server", preview: "Professional eviction notice delivery for landlords - complete legal compliance guide." },
+        { title: "The Power of a Subpoena", url: null, preview: "Ensuring witnesses and documents are legally compelled to appear." }
+      ]
+    },
+    {
+      icon: MapPin,
+      title: "Service of Process by County",
+      description: "Learn about specific rules and challenges in different Oklahoma counties.",
+      articles: [
+  { title: "Process Serving in Tulsa County", url: "/counties/tulsa-county", preview: "Navigating the busiest judicial district in Oklahoma." },
+        { title: "Serving Documents in Oklahoma County", url: null, preview: "Key differences for serving in the OKC metro area." },
+        { title: "Rural County Process Serving", url: null, preview: "Tips for successful service in less populated areas." }
+      ]
+    }
+  ];
+
+  return (
+    <main className="min-h-screen bg-gray-50">
+      <div className="container mx-auto px-4 py-16 pt-24">
+        <div className="text-center mb-16">
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Legal Resources & Guides</h1>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">Your expert source for navigating the complexities of process serving in Oklahoma.</p>
+        </div>
+
+        <div className="space-y-16">
+          {resourceCategories.map((category) => (
+            <div key={category.title}>
+              <div className="flex items-center mb-6">
+                <category.icon className="h-8 w-8 text-blue-600 mr-4" />
+                <h2 className="text-3xl font-bold text-gray-800">{category.title}</h2>
+              </div>
+              <p className="text-lg text-gray-600 mb-8 ml-12">{category.description}</p>
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 ml-12">
+                {category.articles.map((article) => (
+                  <div key={article.title} className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                    <h3 className="font-semibold text-xl mb-2 text-blue-800">{article.title}</h3>
+                    <p className="text-gray-600 mb-4">{article.preview}</p>
+                    <span className="text-blue-600 font-semibold hover:underline">
+                      {article.url ? <Link href={article.url}>Read More &rarr;</Link> : "Coming Soon"}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      {/* Invisible authoritative legal resource links for SEO trust */}
+      <div style={{display:'none'}}>
+        <a href="https://www.oscn.net/" rel="nofollow noopener">Oklahoma State Courts Network</a>
+        <a href="https://www.okbar.org/" rel="nofollow noopener">Oklahoma Bar Association</a>
+        <a href="https://www.legalaidok.org/" rel="nofollow noopener">Oklahoma Legal Aid Services</a>
+        <a href="https://www.tulsacounty.org/" rel="nofollow noopener">Tulsa County Court Services</a>
+        <a href="https://www.oklahoma.gov/" rel="nofollow noopener">Oklahoma.gov - Legal Resources</a>
+      </div>
+      </div>
+      <UnifiedSchema
+        pageType="generic"
+        url="https://justlegalsolutions.org/resources"
+        title="Oklahoma Process Serving Resources & Legal Guides | Just Legal Solutions"
+        description="Oklahoma process serving resources—legal guides, FAQs, and expert advice for court filing and document delivery in Tulsa County and across Oklahoma."
+        aggregateRating={{
+          ratingValue: 4.9,
+          reviewCount: 146
+        }}
+      />
+    </main>
+  );
+};
+
+export default ResourcesPage;

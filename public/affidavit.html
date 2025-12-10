@@ -1,0 +1,189 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Affidavit of Process Server</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: Arial, sans-serif; background: #f8f8f8; margin: 0; padding: 0; }
+    .container { background: #fff; max-width: 900px; margin: 0.5em auto; padding: 1em; border-radius: 8px; box-shadow: 0 2px 8px #0001; }
+    h1 { text-align: center; margin-bottom: 1em; }
+    table { width: 100%; border-collapse: collapse; margin-bottom: 1em; table-layout: auto; }
+    th, td { padding: 0.5em; border: 1px solid #bbb; min-width: 90px; word-break: break-word; }
+    th { background: #eaeaea; text-align: left; }
+    .container { overflow-x: auto; }
+    .section { background: #eaeaea; font-weight: bold; text-align: left; padding: 0.5em; }
+    textarea { width: 100%; min-height: 80px; }
+    .center { text-align: center; }
+    .checkboxes label { display: inline-block; margin-right: 1em; }
+    .actions { text-align: center; margin-top: 2em; }
+    
+    /* Action Buttons */
+    .action-buttons { margin-top: 20px; text-align: center; }
+    .action-btn {
+      display: inline-block;
+      padding: 15px 30px;
+      margin: 8px;
+      border: none;
+      border-radius: 8px;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .action-btn-download { background: #2563eb; color: white; }
+    .action-btn-newtab { background: #059669; color: white; }
+    .action-btn-copy { background: #7c3aed; color: white; }
+    .action-btn:hover { opacity: 0.9; }
+    .action-btn:disabled { background: #ccc; cursor: wait; }
+    .prefill-msg { background:#d4edda; color:#155724; padding:12px; margin-bottom:15px; border-radius:6px; text-align:center; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Affidavit of Process Server</h1>
+    <form id="affidavit-form">
+      <label>
+        Name of Court
+        <input aria-label="Name of Court" name="Name of Court" type="text">
+      </label><br>
+      <label>
+        Plaintiff/Petitioner
+        <input aria-label="Plaintiff/Petitioner" name="Plaintiff/Petitioner" type="text">
+      </label><br>
+      <label>
+        Defendant/Respondent
+        <input aria-label="Defendant/Respondent" name="Defendant/Respondent" type="text">
+      </label><br>
+      <label>
+        Case Number
+        <input aria-label="Case Number" name="Case Number" type="text">
+      </label><br>
+      <label>
+        Recipient Name
+        <input aria-label="Recipient Name" name="Recipient Name" type="text">
+      </label><br>
+      <label>
+        Address
+        <input aria-label="Address" name="Address" type="text">
+      </label><br>
+      <label>
+        Documents
+        <input aria-label="Documents" name="Documents" type="text">
+      </label><br>
+      <fieldset>
+        <legend>Manner of Service</legend>
+        <label><input type="checkbox" id="sub-personal" name="Personal Service"> Personal Service</label>
+        <label><input type="checkbox" id="sub-residence" name="Substituted at Residence"> Substituted at Residence</label>
+        <label><input type="checkbox" id="sub-business" name="Substituted at Business"> Substituted at Business</label>
+        <label><input type="checkbox" name="Posting"> Posting</label>
+        <label><input type="checkbox" name="Non-Service"> Non-Service</label>
+        <label><input type="checkbox" name="Unknown at address"> Unknown at address</label>
+        <label><input type="checkbox" name="Moved left no forwarding"> Moved left no forwarding</label>
+        <label><input type="checkbox" name="Service canceled by litigant"> Service canceled by litigant</label>
+        <label><input type="checkbox" name="Unable to serve in a timely fashion"> Unable to serve in a timely fashion</label>
+        <label><input type="checkbox" name="Address does not exist"> Address does not exist</label>
+        <label><input type="checkbox" name="other"> Other</label>
+        <input name="other textbox" type="text" placeholder="Other detail">
+        <div id="subname-container" style="display:none; margin-top:10px; padding:10px; background:#fff3cd; border-radius:4px;">
+          <label style="font-weight:bold;">Name of Person Who Accepted Service (SubName):
+            <input name="SubName" type="text" placeholder="Enter name of person who accepted papers" style="width:100%; margin-top:5px; padding:8px;">
+          </label>
+        </div>
+      </fieldset>
+      <label>
+        Service attempt 1 Date
+        <input aria-label="Service attempt 1 Date" name="Service attempt 1 Date" type="text" placeholder="MM/DD/YYYY">
+      </label>
+      <label>
+        Service attempt 1 time
+        <input aria-label="Service attempt 1 time" name="Service attempt 1 time" type="text" placeholder="HH:MM AM/PM">
+      </label><br>
+      <label>
+        Service attempt 2 Date
+        <input aria-label="Service attempt 2 Date" name="Service attempt 2 Date" type="text" placeholder="MM/DD/YYYY">
+      </label>
+      <label>
+        Service attempt 2 time
+        <input aria-label="Service attempt 2 time" name="Service attempt 2 time" type="text" placeholder="HH:MM AM/PM">
+      </label><br>
+      <label>
+        Service attempt 3 date
+        <input aria-label="Service attempt3 date" name="Service attempt3 date" type="text" placeholder="MM/DD/YYYY">
+      </label>
+      <label>
+        Service attempt 3 time
+        <input aria-label="Service attempt 3 time" name="Service attempt 3 time" type="text" placeholder="HH:MM AM/PM">
+      </label><br>
+      <label>
+        Service attempt 4 Date
+        <input aria-label="Service attempt number 4" name="Service attempt number 4" type="text" placeholder="MM/DD/YYYY">
+      </label>
+      <label>
+        Service attempt 4 time
+        <input aria-label="Service attempt 4 time" name="Service attempt 4 time" type="text" placeholder="HH:MM AM/PM">
+      </label><br>
+      <label>
+        Service attempt 5 Date
+        <input aria-label="Service attempt5 Date" name="Service attempt5 Date" type="text" placeholder="MM/DD/YYYY">
+      </label>
+      <label>
+        Service attempt 5 time
+        <input aria-label="Service attempt 5 time" name="Service attempt 5 time" type="text" placeholder="HH:MM AM/PM">
+      </label><br>
+      <label>
+        Comments
+        <textarea name="Comments"></textarea>
+      </label><br>
+      
+      <div class="action-buttons">
+        <button type="button" id="btn-download" class="action-btn action-btn-download">📥 Download PDF</button>
+        <button type="button" id="btn-copy-link" class="action-btn action-btn-copy">🔗 Copy Link</button>
+      </div>
+      <p style="text-align:center;color:#666;font-size:12px;margin-top:8px;">Comet users: Copy Link → paste in Chrome to download</p>
+    </form>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/pdf-lib/dist/pdf-lib.min.js" data-cfasync="false"></script>
+  <script src="affidavit.js" data-cfasync="false"></script>
+  <script>
+    // Show/hide SubName field based on substituted service checkboxes
+    const subResidence = document.getElementById('sub-residence');
+    const subBusiness = document.getElementById('sub-business');
+    const subNameContainer = document.getElementById('subname-container');
+    
+    function toggleSubName() {
+      if (subResidence.checked || subBusiness.checked) {
+        subNameContainer.style.display = 'block';
+      } else {
+        subNameContainer.style.display = 'none';
+      }
+    }
+    
+    subResidence.addEventListener('change', toggleSubName);
+    subBusiness.addEventListener('change', toggleSubName);
+    
+    // Auto-fill form from URL parameters (for Copy Link feature)
+    (function() {
+      const params = new URLSearchParams(window.location.search);
+      if (params.toString()) {
+        const msg = document.createElement('div');
+        msg.className = 'prefill-msg';
+        msg.innerHTML = '<strong>✅ Form pre-filled from link!</strong> Click Download PDF to save.';
+        document.querySelector('.container').insertBefore(msg, document.querySelector('#affidavit-form'));
+        
+        for (const [key, value] of params.entries()) {
+          const input = document.querySelector('input[name="' + key + '"], textarea[name="' + key + '"]');
+          if (input && input.type !== 'checkbox') {
+            input.value = decodeURIComponent(value);
+          }
+          if (value === 'Yes' || value === 'on') {
+            const checkbox = document.querySelector('input[name="' + key + '"][type="checkbox"]');
+            if (checkbox) checkbox.checked = true;
+          }
+        }
+        toggleSubName();
+      }
+    })();
+  </script>
+</body>
+</html>
