@@ -6,7 +6,7 @@ import Image from "next/image";
 
 // ============ CONFIGURATION ============
 // Replace with your deployed Google Apps Script web app URL after deployment
-const GOOGLE_APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxEHti2KVNsWeH2p_YR-IyaAEyFN4BZ6C5-Xhh5klt8Q54OA-fxF-TEQfDeZFYep2F7/exec";
+const GOOGLE_APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwdWSbQ4ikj__56Ra5INvHDNOJQLouIMFbA39QdRI-JRnmSPjRy5Au4iOFxOK41Hg1ZaA/exec";
 // ========================================
 
 const MAX_FILE_SIZE = 100 * 1024 * 1024; // 100MB
