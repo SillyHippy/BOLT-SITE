@@ -387,7 +387,7 @@
             <h3>Drag & drop files here</h3>
             <p>or click to browse</p>
             <span class="browse-btn">Browse Files</span>
-            <p class="file-info">Accepted: PDF, DOC, DOCX, JPG, PNG • Max 100MB per file</p>
+            <p class="file-info">Accepted: PDF, DOC, DOCX, JPG, PNG • Max 40MB total upload</p>
           </div>
           <input type="file" id="fileInput" multiple accept=".pdf,.doc,.docx,.jpg,.jpeg,.png" style="display: none;">
           
@@ -431,11 +431,16 @@
     const errorMessage = document.getElementById('errorMessage');
     
     let selectedFiles = [];
-    const MAX_FILE_SIZE = 100 * 1024 * 1024; // 100MB
+    const MAX_FILE_SIZE = 100 * 1024 * 1024; // 100MB per file
+    const MAX_TOTAL_SIZE = 40 * 1024 * 1024; // 40MB total upload limit (API limit is 50MB)
     const ALLOWED_TYPES = ['application/pdf', 'application/msword', 
       'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
       'image/jpeg', 'image/png'];
     const ALLOWED_EXTENSIONS = ['pdf', 'doc', 'docx', 'jpg', 'jpeg', 'png'];
+    
+    function getTotalSize() {
+      return selectedFiles.reduce((total, file) => total + file.size, 0);
+    }
     
     // Drop zone click
     dropZone.addEventListener('click', () => fileInput.click());
@@ -478,6 +483,13 @@
         
         // Check if already added
         if (selectedFiles.find(f => f.name === file.name && f.size === file.size)) {
+          continue;
+        }
+        
+        // Check if adding this file would exceed total limit
+        const newTotal = getTotalSize() + file.size;
+        if (newTotal > MAX_TOTAL_SIZE) {
+          alert(`Adding "${file.name}" would exceed the 40MB total upload limit.\n\nCurrent total: ${formatBytes(getTotalSize())}\nFile size: ${formatBytes(file.size)}\nLimit: 40MB\n\nPlease remove some files or upload in multiple batches.`);
           continue;
         }
         
@@ -541,6 +553,13 @@
       
       if (selectedFiles.length === 0) {
         alert('Please select at least one file to upload');
+        return;
+      }
+      
+      // Check total size before upload
+      const totalSize = getTotalSize();
+      if (totalSize > MAX_TOTAL_SIZE) {
+        alert(`Total upload size (${formatBytes(totalSize)}) exceeds the 40MB limit.\n\nPlease remove some files or email info@justlegalsolutions.org for assistance with larger uploads.`);
         return;
       }
       
