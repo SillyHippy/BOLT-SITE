@@ -6,6 +6,7 @@ import SearchDominance2025 from '@/components/ui/2025-search-dominance';
 import AIVoiceSupremacy from '@/components/ui/ai-voice-supremacy';
 import RankingSupremacy2025 from '@/components/ui/2025-ranking-supremacy';
 import MobileVoiceOptimization from '@/components/ui/mobile-voice-optimization';
+import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 import React from 'react';
 import Image from 'next/image';
@@ -63,6 +64,8 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main className="min-h-screen bg-white font-sans">
+      <LocalPromoBanner zips={["74008", "74033", "74037"]} />
+      
       {/* Hero Section - Mobile Optimized */}
       <section className="relative h-[calc(100vh-4rem)] md:h-[calc(100vh-4rem)]" aria-label="Hero section">
         <div className="absolute inset-0">

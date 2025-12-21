@@ -64,11 +64,14 @@ import DuckDuckGoOptimization from '@/components/ui/duckduckgo-optimization';
 import SearchEngineUniversalOptimization from '@/components/ui/search-engine-universal-optimization';
 import EnhancedBreadcrumbSchema from '@/components/ui/enhanced-breadcrumb-schema';
 import AIVoiceSupremacy from '@/components/ui/ai-voice-supremacy';
+import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export default function ContactPage() {
   return (
     <>
       <Navbar />
+      <LocalPromoBanner zips={["74008", "74033", "74037"]} />
+      
       <Script id="contact-schema">
         {`
           {

@@ -15,7 +15,7 @@ export default function LocalPromoBanner({ zips, endDate = "January 30, 2026" }:
   if (!isVisible) return null;
 
   return (
-    <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white py-6 px-4 relative">
+    <div className="bg-gradient-to-r from-blue-600 via-indigo-600 to-blue-700 text-white py-6 px-4 relative">
       <button
         onClick={() => setIsVisible(false)}
         className="absolute top-4 right-4 text-white/80 hover:text-white transition-colors"
@@ -27,9 +27,14 @@ export default function LocalPromoBanner({ zips, endDate = "January 30, 2026" }:
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex-1 text-center md:text-left">
-            <div className="flex items-center justify-center md:justify-start gap-2 mb-2">
-              <BadgePercent className="h-6 w-6" />
-              <span className="text-xl font-bold">Limited Time: 30% Off Process Serving</span>
+            <div className="flex items-center justify-center md:justify-start gap-3 mb-2">
+              <div className="bg-yellow-400 text-blue-900 px-4 py-2 rounded-full font-black text-2xl shadow-lg">
+                30% OFF
+              </div>
+              <div>
+                <BadgePercent className="h-6 w-6 inline mr-2" />
+                <span className="text-xl font-bold">Limited Time Process Serving</span>
+              </div>
             </div>
             <p className="text-blue-100 text-sm md:text-base">
               Service addresses in <strong>ZIP {zips.join(', ')}</strong> qualify for discounted rate
