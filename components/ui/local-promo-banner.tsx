@@ -9,7 +9,7 @@ interface LocalPromoBannerProps {
   endDate?: string;
 }
 
-export default function LocalPromoBanner({ zips, endDate = "October 20, 2025" }: LocalPromoBannerProps) {
+export default function LocalPromoBanner({ zips, endDate = "January 30, 2026" }: LocalPromoBannerProps) {
   const [isVisible, setIsVisible] = React.useState(true);
 
   if (!isVisible) return null;
