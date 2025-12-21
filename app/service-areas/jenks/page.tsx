@@ -242,7 +242,6 @@ export default function JenksProcessServer() {
             </ol>
           </div>
         </nav>
-      </main>
 
         {/* Hero Section */
         <section className="bg-gradient-to-br from-blue-900 via-slate-900 to-blue-800 text-white py-20">
