@@ -222,9 +222,8 @@ export default function BixbyProcessServer() {
         </div>
       </nav>
       
-      <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-slate-100">
-        {/* Hero Section */}
-        <div className="bg-gradient-to-r from-blue-900 via-blue-800 to-slate-900 text-white relative">
+      {/* Hero Section */}
+      <div className="bg-gradient-to-r from-blue-900 via-blue-800 to-slate-900 text-white relative">
           <div className="absolute inset-0 bg-black/20"></div>
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
             <div className="text-center">
@@ -820,7 +819,6 @@ export default function BixbyProcessServer() {
               </div>
             </div>
           </section>
-        </div>
         </div>
       </main>
       <Footer />
