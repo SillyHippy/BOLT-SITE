@@ -221,6 +221,7 @@ export default function BixbyProcessServer() {
           </ol>
         </div>
       </nav>
+      </main>
       
       <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-slate-100">
         {/* Hero Section */}
