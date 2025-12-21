@@ -56,7 +56,7 @@ export default function LocalPromoBanner({ zips, endDate = "January 30, 2026" }:
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(offerSchema) }}
       />
-      <div className="sticky top-0 z-50 bg-gradient-to-r from-blue-600 via-indigo-600 to-blue-700 text-white py-3 md:py-6 px-3 md:px-4 relative shadow-lg">
+      <div className="sticky top-0 z-50 bg-gradient-to-r from-blue-600 via-indigo-600 to-blue-700 text-white py-3 md:py-6 px-3 md:px-4 shadow-lg">
         <button
           onClick={() => setIsVisible(false)}
           className="absolute top-2 right-2 md:top-4 md:right-4 text-white/80 hover:text-white transition-colors z-10"
