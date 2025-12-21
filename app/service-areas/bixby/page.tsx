@@ -13,7 +13,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 export const metadata: Metadata = {
   title: 'Bixby Process Serving | Civil & Family Court Documents | Just Legal Solutions',
   description: getPromoDescription(
-    'Bixby's process server—handling court documents, family law, and urgent legal delivery for neighborhoods, schools, and businesses. Fast, licensed, and reliable with same-day and after-hours service.',
+    'Bixby\'s process server—handling court documents, family law, and urgent legal delivery for neighborhoods, schools, and businesses. Fast, licensed, and reliable with same-day and after-hours service.',
     '30% OFF for Bixby residents! Professional process server handling court documents, family law, and urgent legal delivery for neighborhoods, schools, and businesses. Fast, licensed, and reliable with same-day service.'
   ),
   keywords: 'process server bixby, legal document service bixby, serve papers bixby, court documents bixby, subpoena service bixby, eviction notice bixby, emergency process server bixby, 24/7 process server oklahoma, licensed process server tulsa county, professional process server bixby',
