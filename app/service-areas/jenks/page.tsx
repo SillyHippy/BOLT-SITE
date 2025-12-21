@@ -217,7 +217,7 @@ export default function JenksProcessServer() {
 
         <LocalPromoBanner zips={["74008", "74033", "74037"]} />
 
-        {/* Navigation Breadcrumbs */
+        {/* Navigation Breadcrumbs */}
         <nav className="bg-white border-b border-gray-200 py-4" aria-label="Breadcrumb">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <ol className="flex items-center space-x-2 text-sm">
@@ -243,7 +243,7 @@ export default function JenksProcessServer() {
           </div>
         </nav>
 
-        {/* Hero Section */
+        {/* Hero Section */}
         <section className="bg-gradient-to-br from-blue-900 via-slate-900 to-blue-800 text-white py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
