@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, CheckCircle, Star, Calendar, FileText, Scale, AlertCircle } from 'lucide-react';
+import { getPromoDescription } from '@/lib/promo-utils';
 
 import GoogleMapsEmbed from '@/components/ui/google-maps-embed';
 import Navbar from '@/components/ui/navbar';
@@ -10,7 +11,10 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Glenpool Process Server | Legal Document Service | Just Legal Solutions',
-  description: 'Glenpool’s legal document service—serving families, businesses, and oil industry professionals. We cover Lake Glenpool, downtown, and all neighborhoods with fast, accurate, and locally informed process serving.',
+  description: getPromoDescription(
+    'Glenpool's legal document service—serving families, businesses, and oil industry professionals. We cover Lake Glenpool, downtown, and all neighborhoods with fast, accurate, and locally informed process serving.',
+    '30% OFF for Glenpool residents! Legal document service serving families, businesses, and oil industry professionals. We cover Lake Glenpool, downtown, and all neighborhoods with fast, accurate, and locally informed process serving.'
+  ),
   keywords: 'process server glenpool, legal document service glenpool, serve papers glenpool, court documents glenpool, subpoena service glenpool, eviction notice glenpool, emergency process server glenpool, 24/7 process server oklahoma, licensed process server tulsa county, professional process server glenpool',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',

@@ -7,6 +7,7 @@ import AIVoiceSupremacy from '@/components/ui/ai-voice-supremacy';
 import RankingSupremacy2025 from '@/components/ui/2025-ranking-supremacy';
 import MobileVoiceOptimization from '@/components/ui/mobile-voice-optimization';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import { getPromoDescription } from '@/lib/promo-utils';
 
 import React from 'react';
 import Image from 'next/image';
@@ -21,7 +22,10 @@ export const metadata: Metadata = {
   title: {
     absolute: 'Professional Process Server Tulsa County - Just Legal Solutions Oklahoma'
   },
-  description: 'Expert process serving for Tulsa, Broken Arrow, Sapulpa, Glenpool & Oklahoma. 50+ years combined experience. Process serving starts at $30, with standard, rush and same-day options available',
+  description: getPromoDescription(
+    'Expert process serving for Tulsa, Broken Arrow, Sapulpa, Glenpool & Oklahoma. 50+ years combined experience. Process serving starts at $30, with standard, rush and same-day options available',
+    '30% OFF LIMITED TIME! Expert process serving for Tulsa, Broken Arrow, Sapulpa, Glenpool & Oklahoma. 50+ years combined experience. Process serving starts at $30, with standard, rush and same-day options available'
+  ),
   keywords: 'process server Tulsa, Oklahoma process serving, legal document delivery, court papers served, divorce papers service, summons delivery, skip tracing Oklahoma, same day process serving, Broken Arrow process server, Sapulpa legal services, Tulsa County court services, professional process serving, certified process server, legal courier Tulsa, court document transfer',
   alternates: {
     canonical: 'https://justlegalsolutions.org/'

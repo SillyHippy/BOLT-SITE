@@ -4,6 +4,7 @@ import UnifiedSchema from '@/components/UnifiedSchema';
 import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, CheckCircle, Star, Calendar, FileText, Scale, AlertCircle, Home } from 'lucide-react';
 import FAQAccordion from '@/components/ui/faq-accordion';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import { getPromoDescription } from '@/lib/promo-utils';
 
 import GoogleMapsEmbed from '@/components/ui/google-maps-embed';
 import Navbar from '@/components/ui/navbar';
@@ -11,7 +12,10 @@ import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
   title: 'Jenks Legal Papers Service | Divorce & Court Documents | Just Legal Solutions',
-  description: 'Jenks process server—delivering divorce papers, family law documents, and court notices across Jenks schools, neighborhoods, and businesses. Rely on our local knowledge and 24/7 service for secure, prompt delivery.',
+  description: getPromoDescription(
+    'Jenks process server—delivering divorce papers, family law documents, and court notices across Jenks schools, neighborhoods, and businesses. Rely on our local knowledge and 24/7 service for secure, prompt delivery.',
+    '30% OFF for Jenks residents! Process server delivering divorce papers, family law documents, and court notices across Jenks schools, neighborhoods, and businesses. Local knowledge and 24/7 service for secure, prompt delivery.'
+  ),
   keywords: 'process server jenks, legal document service jenks, serve papers jenks, court documents jenks, subpoena service jenks, eviction notice jenks, emergency process server jenks, 24/7 process server oklahoma, licensed process server tulsa county, professional process server jenks',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',

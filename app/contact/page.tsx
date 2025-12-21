@@ -1,7 +1,12 @@
 // --- SEO Metadata for 2025 ---
+import { getPromoDescription } from '@/lib/promo-utils';
+
 export const metadata = {
   title: 'Contact Just Legal Solutions | Oklahoma Process Server & Legal Support 2025',
-  description: 'Contact Just Legal Solutions—reach our team for 24/7 process serving, legal courier, and business support in Tulsa County and across Oklahoma. Fast, secure, and trusted by law firms and individuals.',
+  description: getPromoDescription(
+    'Contact Just Legal Solutions—reach our team for 24/7 process serving, legal courier, and business support in Tulsa County and across Oklahoma. Fast, secure, and trusted by law firms and individuals.',
+    '30% OFF for select ZIP codes! Contact Just Legal Solutions—reach our team for 24/7 process serving, legal courier, and business support in Tulsa County and across Oklahoma. Fast, secure, and trusted by law firms.'
+  ),
   keywords: [
     'contact process server',
     'oklahoma process server',

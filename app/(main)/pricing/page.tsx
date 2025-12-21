@@ -4,10 +4,14 @@ import { CheckCircle, Truck } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import AIVoiceSupremacy from '@/components/ui/ai-voice-supremacy';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import { getPromoDescription } from '@/lib/promo-utils';
 
 export const metadata: Metadata = {
   title: 'Process Server Pricing Oklahoma - Just Legal Solutions | Affordable Rates Starting $30',
-  description: 'Transparent process server pricing in Oklahoma starting at $30. Same-day, rush, and standard service options. No hidden fees. Licensed and bonded professionals.',
+  description: getPromoDescription(
+    'Transparent process server pricing in Oklahoma starting at $30. Same-day, rush, and standard service options. No hidden fees. Licensed and bonded professionals.',
+    '30% OFF LIMITED TIME for ZIP 74008, 74033, 74037! Transparent process server pricing in Oklahoma starting at $30. Same-day, rush, and standard service options. No hidden fees. Licensed and bonded.'
+  ),
   keywords: 'process server pricing Oklahoma, legal document service costs, process serving rates Tulsa, Oklahoma court service fees, affordable process server, transparent pricing legal services',
   alternates: {
     canonical: 'https://justlegalsolutions.org/pricing'
