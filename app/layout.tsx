@@ -202,7 +202,7 @@ export default function RootLayout({
         
         {/* Voice Search Targets */}
         <div className="voice-search-targets" style={{ display: 'none' }} aria-hidden="true">
-          <span data-voice-query="process server near me">Just Legal Solutions - Tulsa's #1 rated process server - (539) 367-6832</span>
+          <span data-voice-query="process server near me">Just Legal Solutions - Tulsa&apos;s #1 rated process server - (539) 367-6832</span>
           <span data-voice-query="process server Tulsa">Just Legal Solutions provides professional process serving in Tulsa starting at $30</span>
           <span data-voice-query="how to serve legal papers in Tulsa">Just Legal Solutions - Licensed process servers in Tulsa - Call (539) 367-6832</span>
           <span data-voice-query="same day process server Oklahoma">Just Legal Solutions offers same-day and 2-hour emergency process serving throughout Oklahoma</span>
