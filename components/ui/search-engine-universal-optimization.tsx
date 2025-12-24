@@ -139,36 +139,38 @@ export default function SearchEngineUniversalOptimization({
             {
               "@type": "Offer",
               "url": "https://justlegalsolutions.org/services",
-              "price": "30.00",
+              "price": "21.00",
               "priceCurrency": "USD",
               "priceSpecification": {
                 "@type": "PriceSpecification",
-                "price": "30.00",
+                "price": "21.00",
                 "priceCurrency": "USD",
-                "valueAddedTaxIncluded": false
+                "valueAddedTaxIncluded": false,
+                "description": "30% OFF ongoing discount - Regular $30"
               },
               "itemOffered": {
                 "@type": "Service",
                 "name": `Standard ${primaryService}`,
-                "description": "Professional legal document delivery within 3-5 business days",
+                "description": "Professional legal document delivery within 3-5 business days - flat rate for all 77 Oklahoma counties",
                 "url": "https://justlegalsolutions.org/services"
               }
             },
             ...(emergencyAvailable ? [{
               "@type": "Offer",
               "url": "https://justlegalsolutions.org/services",
-              "price": "100.00",
+              "price": "105.00",
               "priceCurrency": "USD",
               "priceSpecification": {
                 "@type": "PriceSpecification",
-                "price": "100.00",
+                "price": "105.00",
                 "priceCurrency": "USD",
-                "valueAddedTaxIncluded": false
+                "valueAddedTaxIncluded": false,
+                "description": "30% OFF ongoing discount - Regular $150"
               },
               "itemOffered": {
                 "@type": "Service",
-                "name": `Emergency ${primaryService}`,
-                "description": "Urgent legal document delivery when time-sensitive situations require immediate attention",
+                "name": `Emergency Same-Day ${primaryService}`,
+                "description": "Urgent legal document delivery within 2-4 hours when time-sensitive situations require immediate attention",
                 "url": "https://justlegalsolutions.org/services"
               }
             }] : [])

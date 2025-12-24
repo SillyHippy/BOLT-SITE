@@ -1,0 +1,324 @@
+import React from 'react';
+import type { Metadata } from 'next';
+import Link from 'next/link';
+
+export const metadata: Metadata = {
+  title: 'Law Firm Process Serving Services | 30% OFF Volume Pricing | Just Legal Solutions',
+  description: 'Dedicated process serving for Oklahoma law firms. Flat-rate $21 standard, $52 rush, $105 same-day. No mileage fees, volume discounts, priority scheduling, and dedicated account management. Call (539) 367-6832.',
+  keywords: 'law firm process server Oklahoma, attorney process serving, legal document delivery Tulsa, law firm partnership, volume discount process serving, corporate legal services Oklahoma',
+  openGraph: {
+    title: 'Law Firm Process Serving Partnership | Just Legal Solutions',
+    description: 'Exclusive process serving services for Oklahoma law firms with flat-rate pricing, priority scheduling, and volume discounts.',
+    url: 'https://justlegalsolutions.org/law-firm-services',
+    type: 'website',
+  },
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/law-firm-services',
+  },
+};
+
+export default function LawFirmServicesPage() {
+  const lawFirmBenefits = [
+    {
+      icon: '💰',
+      title: 'Flat-Rate Pricing',
+      description: 'No surprise mileage fees. service anywhere in all 77 Oklahoma counties.',
+      highlight: '30% OFF all services'
+    },
+    {
+      icon: '⚡',
+      title: 'Priority Scheduling',
+      description: 'Law firm clients get first priority for same-day and rush services. Never miss a deadline.',
+      highlight: 'Jump the queue'
+    },
+    {
+      icon: '📊',
+      title: 'Monthly Invoicing',
+      description: 'Consolidated billing for easier accounting. No per-serve payment hassles.',
+      highlight: 'Net-30 terms available'
+    },
+    {
+      icon: '👤',
+      title: 'Dedicated Account Manager',
+      description: 'Direct line to Joseph for all your process serving needs. One point of contact.',
+      highlight: 'Personal service'
+    },
+    {
+      icon: '📱',
+      title: 'Real-Time Tracking',
+      description: 'Live GPS tracking and instant notifications when documents are served.',
+      highlight: 'Full transparency'
+    },
+    {
+      icon: '📋',
+      title: 'Court-Ready Affidavits',
+      description: 'Detailed, properly formatted affidavits ready for court filing. Every time.',
+      highlight: '100% compliance'
+    }
+  ];
+
+  const practiceAreas = [
+    {
+      area: 'Family Law',
+      icon: '👨‍👩‍👧',
+      services: ['Divorce papers', 'Custody documents', 'Protective orders'],
+      needs: 'Discreet handling, weekend availability, sensitive situations'
+    },
+    {
+      area: 'Civil Litigation',
+      icon: '⚖️',
+      services: ['Summons & complaints', 'Subpoenas', 'Discovery documents'],
+      needs: 'High volume, court deadlines, detailed affidavits'
+    },
+    {
+      area: 'Real Estate & Property',
+      icon: '🏠',
+      services: ['Eviction notices', 'Property liens', 'Lease violations'],
+      needs: 'Quick turnaround, property manager partnerships'
+    },
+    {
+      area: 'Corporate Law',
+      icon: '🏢',
+      services: ['Contract disputes', 'Business litigation', 'Corporate filings'],
+      needs: 'Multi-location service, confidential handling'
+    },
+    {
+      area: 'Bankruptcy',
+      icon: '📊',
+      services: ['Creditor notices', 'Court filings', 'Debtor service'],
+      needs: 'Strict deadline compliance, court-ready documentation'
+    },
+    {
+      area: 'Personal Injury',
+      icon: '🏥',
+      services: ['Demand letters', 'Medical subpoenas', 'Witness service'],
+      needs: 'Skip tracing for hard-to-find defendants'
+    }
+  ];
+
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Just Legal Solutions - Law Firm Services",
+    "description": "Dedicated process serving partnership for Oklahoma law firms with flat-rate pricing, priority scheduling, and volume discounts.",
+    "url": "https://justlegalsolutions.org/law-firm-services",
+    "telephone": "+1-539-367-6832",
+    "email": "info@justlegalsolutions.org",
+    "priceRange": "$18-$105",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "564 E 138th PL",
+      "addressLocality": "Glenpool",
+      "addressRegion": "OK",
+      "postalCode": "74033",
+      "addressCountry": "US"
+    },
+    "areaServed": {
+      "@type": "State",
+      "name": "Oklahoma"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "156",
+      "bestRating": "5"
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Law Firm Process Serving Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "name": "Standard Process Serving",
+          "price": "21.00",
+          "priceCurrency": "USD",
+          "description": "3-5 business day service with 30% OFF"
+        },
+        {
+          "@type": "Offer",
+          "name": "Rush Process Serving",
+          "price": "52.00",
+          "priceCurrency": "USD",
+          "description": "24-48 hour priority service with 30% OFF"
+        },
+        {
+          "@type": "Offer",
+          "name": "Same-Day Emergency",
+          "price": "105.00",
+          "priceCurrency": "USD",
+          "description": "2-hour emergency service with 30% OFF"
+        }
+      ]
+    }
+  };
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
+      
+      <div className="min-h-screen bg-gray-50">
+        {/* Hero Section */}
+        <section className="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 text-white py-16 px-4">
+          <div className="max-w-6xl mx-auto text-center">
+            <div className="inline-block bg-yellow-500 text-black px-4 py-2 rounded-full text-sm font-bold mb-6">
+              ⚖️ EXCLUSIVE LAW FIRM PARTNERSHIP
+            </div>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">
+              Process Serving Built for <span className="text-yellow-400">Law Firms</span>
+            </h1>
+            <p className="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto">
+              Flat-rate pricing. Priority scheduling. Volume discounts. 
+              One call to (539) 367-6832 for all your Oklahoma process serving needs.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a
+                href="tel:5393676832"
+                className="inline-flex items-center justify-center px-8 py-4 bg-yellow-500 text-black font-bold rounded-lg hover:bg-yellow-400 transition-colors text-lg"
+              >
+                📞 Call Now: (539) 367-6832
+              </a>
+              <Link
+                href="/card/calendar"
+                className="inline-flex items-center justify-center px-8 py-4 bg-white text-blue-900 font-bold rounded-lg hover:bg-gray-100 transition-colors text-lg"
+              >
+                📅 Schedule Consultation
+              </Link>
+            </div>
+            <p className="mt-6 text-blue-200 text-sm">
+              ✅ 156+ Five-Star Reviews | ✅ 50+ Years Combined Experience | ✅ All 77 OK Counties
+            </p>
+          </div>
+        </section>
+
+        {/* Benefits Grid */}
+        <section className="py-16 px-4 bg-white">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-3xl font-bold text-center mb-4">Why Law Firms Choose Us</h2>
+            <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
+              Dedicated service designed specifically for the needs of legal professionals
+            </p>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {lawFirmBenefits.map((benefit, index) => (
+                <div key={index} className="bg-gray-50 rounded-xl p-6 border-2 border-gray-100 hover:border-blue-500 transition-colors">
+                  <div className="text-4xl mb-4">{benefit.icon}</div>
+                  <h3 className="text-xl font-bold mb-2">{benefit.title}</h3>
+                  <p className="text-gray-600 mb-3">{benefit.description}</p>
+                  <span className="inline-block bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-semibold">
+                    {benefit.highlight}
+                  </span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Practice Areas - Consultative Approach */}
+        <section className="py-16 px-4 bg-white">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-3xl font-bold text-center mb-4">Tailored Solutions for Your Practice Area</h2>
+            <p className="text-center text-gray-600 mb-4 max-w-3xl mx-auto">
+              Every law firm has unique process serving requirements. We create customized service plans 
+              based on your practice area, volume, and specific needs.
+            </p>
+            <p className="text-center text-blue-600 font-semibold mb-12">
+              📞 Call (539) 367-6832 to discuss your firm&apos;s specific requirements
+            </p>
+            
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {practiceAreas.map((practice, index) => (
+                <div key={index} className="bg-gray-50 rounded-xl p-6 border border-gray-200 hover:border-blue-400 hover:shadow-lg transition-all">
+                  <div className="text-3xl mb-3">{practice.icon}</div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-3">{practice.area}</h3>
+                  <div className="mb-4">
+                    <p className="text-sm font-semibold text-gray-700 mb-2">Common Documents:</p>
+                    <ul className="text-sm text-gray-600 space-y-1">
+                      {practice.services.map((service, i) => (
+                        <li key={i} className="flex items-center">
+                          <span className="text-green-500 mr-2">✓</span>{service}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                  <div className="pt-3 border-t border-gray-200">
+                    <p className="text-sm text-blue-700 italic">{practice.needs}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* CTA Section */}
+        <section className="py-16 px-4 bg-gradient-to-r from-green-600 to-green-700 text-white">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">
+              Start Your Law Firm Partnership Today
+            </h2>
+            <p className="text-xl mb-8 text-green-100">
+              Call now to discuss your firm&apos;s needs and get set up with priority scheduling and monthly invoicing.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a
+                href="tel:5393676832"
+                className="inline-flex items-center justify-center px-8 py-4 bg-white text-green-700 font-bold rounded-lg hover:bg-gray-100 transition-colors text-lg"
+              >
+                📞 (539) 367-6832
+              </a>
+              <a
+                href="mailto:info@justlegalsolutions.org?subject=Law%20Firm%20Partnership%20Inquiry"
+                className="inline-flex items-center justify-center px-8 py-4 bg-green-500 text-white font-bold rounded-lg hover:bg-green-400 transition-colors text-lg border-2 border-white"
+              >
+                ✉️ Email Partnership Inquiry
+              </a>
+            </div>
+            <p className="mt-8 text-green-200 text-sm">
+              Ask about our FREE first serve for new law firm partners
+            </p>
+          </div>
+        </section>
+
+        {/* FAQ Section */}
+        <section className="py-16 px-4 bg-white">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-3xl font-bold text-center mb-12">Law Firm FAQ</h2>
+            <div className="space-y-6">
+              <div className="border-b pb-6">
+                <h3 className="font-bold text-lg mb-2">How does monthly invoicing work?</h3>
+                <p className="text-gray-600">
+                  We track all serves for your firm and send a consolidated invoice at month-end. Net-30 terms available for established partnerships. No more processing individual payments.
+                </p>
+              </div>
+              <div className="border-b pb-6">
+                <h3 className="font-bold text-lg mb-2">What if a defendant is difficult to locate?</h3>
+                <p className="text-gray-600">
+                  Our $25 skip tracing service can locate hard-to-find individuals. We use multiple databases and investigative techniques. If we can&apos;t locate them, you don&apos;t pay the full skip tracing fee.
+                </p>
+              </div>
+              <div className="border-b pb-6">
+                <h3 className="font-bold text-lg mb-2">Do you cover rural Oklahoma counties?</h3>
+                <p className="text-gray-600">
+                  Yes! standard service in ALL 77 Oklahoma counties - from Tulsa County to the Panhandle. No mileage fees ever.
+                </p>
+              </div>
+              <div className="border-b pb-6">
+                <h3 className="font-bold text-lg mb-2">How fast can you serve in an emergency?</h3>
+                <p className="text-gray-600">
+                  Our same-day emergency service guarantees service within 2-4 hours in the Tulsa metro area. For urgent statewide needs, we coordinate immediate dispatch. Call (539) 367-6832 for emergencies.
+                </p>
+              </div>
+              <div className="pb-6">
+                <h3 className="font-bold text-lg mb-2">What documentation do you provide?</h3>
+                <p className="text-gray-600">
+                  Every serve includes a detailed affidavit of service with date, time, location, description of recipient, GPS coordinates, and photographs when appropriate. Court-ready documentation every time.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </>
+  );
+}

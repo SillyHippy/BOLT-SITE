@@ -88,6 +88,7 @@ function generateSitemap() {
     '/why-choose-us',
     '/backlinks',
     '/search',
+    '/law-firm-services',
     
     // Process Server Pages - Excluding old /process-server-tulsa (redirects to main page)
     '/tulsa-process-server',

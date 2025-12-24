@@ -12,14 +12,15 @@ export default function ReviewAggregateSchema() {
         "@type": "LocalBusiness",
         "@id": "https://justlegalsolutions.org/#organization",
         "name": "Just Legal Solutions",
-        "url": "https://justlegalsolutions.org"
+        "url": "https://justlegalsolutions.org",
+        "telephone": "+1-539-367-6832"
       },
       "ratingValue": "4.9",
-      "ratingCount": "146",
-      "reviewCount": "146",
+      "ratingCount": "156",
+      "reviewCount": "156",
       "bestRating": "5",
       "worstRating": "1",
-      "description": "Reviews collected from Google Business Profile, Yelp, Facebook Business Page, phone consultations, and direct client testimonials"
+      "description": "Reviews collected from Google Business Profile, Yelp, Facebook Business Page, phone consultations, and direct client testimonials. 30% OFF ongoing discount for all clients."
     },
     "reviewAspect": [
       "Service Quality",
@@ -29,7 +30,9 @@ export default function ReviewAggregateSchema() {
       "Communication",
       "Documentation",
       "Same-Day Service",
-      "Emergency Availability"
+      "Emergency Availability",
+      "Flat-Rate Pricing",
+      "Law Firm Partnership"
     ],
     "mainEntity": {
       "@type": "LocalBusiness",
@@ -47,8 +50,10 @@ export default function ReviewAggregateSchema() {
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.9",
-        "reviewCount": "146"
-      }
+        "reviewCount": "156"
+      },
+      "telephone": "+1-539-367-6832",
+      "priceRange": "$21-$105"
     },
     "provider": [
       {

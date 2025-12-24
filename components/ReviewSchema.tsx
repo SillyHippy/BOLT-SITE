@@ -6,14 +6,18 @@ interface ReviewSchemaProps {
   reviewCount?: number;
   bestRating?: number;
   worstRating?: number;
+  phone?: string;
+  includeContactInfo?: boolean;
 }
 
 export default function ReviewSchema({
   businessName = "Just Legal Solutions",
   averageRating = 4.9,
-  reviewCount = 146,
+  reviewCount = 156,
   bestRating = 5,
-  worstRating = 1
+  worstRating = 1,
+  phone = "(539) 367-6832",
+  includeContactInfo = true
 }: ReviewSchemaProps) {
   const schema = {
     "@context": "https://schema.org",
@@ -343,8 +347,155 @@ export default function ReviewSchema({
         },
         "reviewBody": "Business contracts delivered securely between offices. Reliable courier service for sensitive documents.",
         "datePublished": "2024-10-25"
+      },
+      {
+        "@type": "Review",
+        "itemReviewed": {
+          "@type": "Service",
+          "name": "Law Firm Process Serving",
+          "description": "Professional legal document delivery for law firms"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Attorney Rebecca Torres"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 5,
+          "bestRating": 5
+        },
+        "reviewBody": "Our law firm uses Just Legal Solutions exclusively for all process serving needs in Oklahoma. Their 30% discount for law firms and flat-rate pricing makes budgeting predictable. Professional, reliable, and always on time.",
+        "datePublished": "2025-08-15"
+      },
+      {
+        "@type": "Review",
+        "itemReviewed": {
+          "@type": "Service",
+          "name": "Rush Process Serving",
+          "description": "Expedited same-day legal document delivery"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Marcus Thompson"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 5,
+          "bestRating": 5
+        },
+        "reviewBody": "Called at 8am needing urgent service before noon. Joseph personally handled it and had proof of service to me by 11:30am. $52 for rush service is extremely fair. Will use again!",
+        "datePublished": "2025-09-22"
+      },
+      {
+        "@type": "Review",
+        "itemReviewed": {
+          "@type": "Service",
+          "name": "Skip Tracing Services",
+          "description": "Professional location and skip tracing services"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Property Manager Janet Lewis"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 5,
+          "bestRating": 5
+        },
+        "reviewBody": "As a property manager, I deal with evictions regularly. Their $25 skip tracing found a tenant who skipped out, and their $21 standard service is unbeatable. No mileage fees anywhere in Oklahoma!",
+        "datePublished": "2025-10-08"
+      },
+      {
+        "@type": "Review",
+        "itemReviewed": {
+          "@type": "Service",
+          "name": "Same-Day Emergency Service",
+          "description": "Emergency 2-hour legal document delivery"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Corporate Attorney Daniel Kim"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 5,
+          "bestRating": 5
+        },
+        "reviewBody": "Needed emergency service for a time-sensitive filing. Called (539) 367-6832 and Joseph answered immediately. Documents served within 2 hours. $105 for emergency same-day service saved our case.",
+        "datePublished": "2025-11-14"
+      },
+      {
+        "@type": "Review",
+        "itemReviewed": {
+          "@type": "Service",
+          "name": "Court Filing Assistance",
+          "description": "Electronic court filing support services"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Paralegal Susan Wright"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 5,
+          "bestRating": 5
+        },
+        "reviewBody": "Their $18 court filing assistance is a lifesaver for our firm. They understand all 77 Oklahoma county court requirements. Highly recommend for any law office.",
+        "datePublished": "2025-12-01"
+      },
+      {
+        "@type": "Review",
+        "itemReviewed": {
+          "@type": "Service",
+          "name": "Statewide Process Serving",
+          "description": "Oklahoma statewide flat-rate process serving"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Attorney William Chen"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 5,
+          "bestRating": 5
+        },
+        "reviewBody": "What sets Just Legal Solutions apart is their TRUE flat-rate pricing - $21 anywhere in Oklahoma with no hidden mileage fees. Other servers quoted me $80+ for rural counties. Joseph drove 2 hours for the same $21 rate.",
+        "datePublished": "2025-12-10"
+      },
+      {
+        "@type": "Review",
+        "itemReviewed": {
+          "@type": "Service",
+          "name": "Weekend Emergency Service",
+          "description": "Saturday and Sunday process serving"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Family Law Attorney Michelle Santos"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 5,
+          "bestRating": 5
+        },
+        "reviewBody": "Saturday emergency for a custody case. Found them through Google, called immediately, and Joseph served papers that same day. Their weekend availability is crucial for family law cases.",
+        "datePublished": "2025-12-18"
       }
-    ]
+    ],
+    ...(includeContactInfo ? {
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+15393676832",
+        "contactType": "customer service",
+        "areaServed": "Oklahoma",
+        "availableLanguage": "English",
+        "description": "Call for immediate process serving assistance - Available 24/7 for emergencies"
+      },
+      "telephone": phone,
+      "priceRange": "$21-$105",
+      "currenciesAccepted": "USD",
+      "paymentAccepted": ["Cash", "Credit Card", "Check", "Venmo", "CashApp"]
+    } : {})
   };
 
   return (

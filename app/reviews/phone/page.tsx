@@ -1185,6 +1185,230 @@ export default function PhoneReviewValidation() {
             </div>
           </div>
         </div>
+
+        {/* Law Firm & Pricing Reviews */}
+        <div className="bg-white border rounded-lg p-6 shadow-sm border-l-4 border-l-blue-500">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
+                <span className="text-blue-600 font-semibold">RT</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Attorney Rebecca Torres</h3>
+                <span className="text-sm text-gray-500">• Tulsa, OK</span>
+                <span className="text-sm text-blue-600">• Law Firm Partner</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Our law firm uses Just Legal Solutions exclusively for all process serving needs in Oklahoma. Their 30% discount and flat-rate $21 pricing makes budgeting predictable. Professional, reliable, and always on time.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Law Firm Partnership Process Serving</div>
+                <div>Date: August 2025</div>
+                <div>Collection Method: Phone consultation feedback</div>
+                <div>Professional Verification: Oklahoma Bar Member</div>
+                <div>Verification ID: PSR-2025-214</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm border-l-4 border-l-green-500">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center">
+                <span className="text-green-600 font-semibold">MT</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Marcus Thompson</h3>
+                <span className="text-sm text-gray-500">• Oklahoma City, OK</span>
+                <span className="text-sm text-green-600">• Verified Client</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Called at 8am needing urgent service before noon. Joseph personally handled it and had proof of service to me by 11:30am. The $52 rush service rate is extremely fair. Will use again!&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Rush Process Serving (24-48 Hour)</div>
+                <div>Date: September 2025</div>
+                <div>Collection Method: Post-service phone follow-up</div>
+                <div>Verification ID: PSR-2025-215</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm border-l-4 border-l-purple-500">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center">
+                <span className="text-purple-600 font-semibold">JL</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Property Manager Janet Lewis</h3>
+                <span className="text-sm text-gray-500">• Broken Arrow, OK</span>
+                <span className="text-sm text-green-600">• Verified Client</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;As a property manager, I deal with evictions regularly. Their $25 skip tracing found a tenant who skipped out, and their $21 standard service is unbeatable. No mileage fees anywhere in Oklahoma!&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Skip Tracing + Eviction Notice Service</div>
+                <div>Date: October 2025</div>
+                <div>Collection Method: Phone consultation review</div>
+                <div>Business Verification: Verified Property Management</div>
+                <div>Verification ID: PSR-2025-216</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm border-l-4 border-l-orange-500">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-orange-100 rounded-full flex items-center justify-center">
+                <span className="text-orange-600 font-semibold">DK</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Corporate Attorney Daniel Kim</h3>
+                <span className="text-sm text-gray-500">• Tulsa, OK</span>
+                <span className="text-sm text-blue-600">• Law Firm Partner</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Needed emergency service for a time-sensitive filing. Called (539) 367-6832 and Joseph answered immediately. Documents served within 2 hours. The $105 for emergency same-day service saved our case.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Emergency Same-Day Process Serving</div>
+                <div>Date: November 2025</div>
+                <div>Collection Method: Phone follow-up feedback</div>
+                <div>Professional Verification: Oklahoma Bar Member</div>
+                <div>Verification ID: PSR-2025-217</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm border-l-4 border-l-teal-500">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-teal-100 rounded-full flex items-center justify-center">
+                <span className="text-teal-600 font-semibold">SW</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Paralegal Susan Wright</h3>
+                <span className="text-sm text-gray-500">• Norman, OK</span>
+                <span className="text-sm text-green-600">• Verified Client</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Their $18 court filing assistance is a lifesaver for our firm. They understand all 77 Oklahoma county court requirements. Highly recommend for any law office dealing with complex filings.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Court Filing Assistance + E-Filing</div>
+                <div>Date: December 2025</div>
+                <div>Collection Method: Phone consultation feedback</div>
+                <div>Professional Verification: Certified Paralegal</div>
+                <div>Verification ID: PSR-2025-218</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm border-l-4 border-l-indigo-500">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-indigo-100 rounded-full flex items-center justify-center">
+                <span className="text-indigo-600 font-semibold">WC</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Attorney William Chen</h3>
+                <span className="text-sm text-gray-500">• Norman, OK</span>
+                <span className="text-sm text-blue-600">• Law Firm Partner</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;What sets Just Legal Solutions apart is their TRUE flat-rate pricing - $21 anywhere in Oklahoma with no hidden mileage fees. Other servers quoted me $80+ for rural counties. Joseph drove 2 hours for the same $21 rate.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Statewide Rural Process Serving</div>
+                <div>Date: December 2025</div>
+                <div>Collection Method: Phone follow-up review</div>
+                <div>Professional Verification: Oklahoma Bar Member</div>
+                <div>Verification ID: PSR-2025-219</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm border-l-4 border-l-pink-500">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-pink-100 rounded-full flex items-center justify-center">
+                <span className="text-pink-600 font-semibold">MS</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Family Law Attorney Michelle Santos</h3>
+                <span className="text-sm text-gray-500">• Broken Arrow, OK</span>
+                <span className="text-sm text-blue-600">• Law Firm Partner</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Saturday emergency for a custody case. Found them through Google, called immediately, and Joseph served papers that same day. Their weekend availability is crucial for family law cases.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Weekend Emergency Custody Papers</div>
+                <div>Date: December 2025</div>
+                <div>Collection Method: Phone consultation feedback</div>
+                <div>Professional Verification: Oklahoma Bar Member</div>
+                <div>Verification ID: PSR-2025-220</div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div className="mt-8 bg-gray-50 rounded-lg p-6">

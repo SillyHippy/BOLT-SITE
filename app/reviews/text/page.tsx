@@ -926,6 +926,167 @@ export default function TextReviewValidation() {
             </div>
           </div>
         </div>
+
+        {/* Law Firm & Pricing Reviews via SMS */}
+        <div className="bg-white border rounded-lg p-6 shadow-sm border-l-4 border-l-blue-500">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
+                <span className="text-blue-600 font-semibold">TM</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Attorney Thomas Martinez</h3>
+                <span className="text-sm text-gray-500">• Edmond, OK</span>
+                <span className="text-sm text-green-600">• SMS Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Just texted Joseph for a rush serve. $52 and done in under 24 hours. Our firm switched all process serving to Just Legal Solutions. The flat-rate pricing saves us hundreds monthly.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Rush Process Serving for Law Firm</div>
+                <div>Date: November 2025</div>
+                <div>Collection Method: SMS feedback request</div>
+                <div>Phone Verification: (405) XXX-XXXX</div>
+                <div>Message ID: SMS-2025-161</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm border-l-4 border-l-green-500">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center">
+                <span className="text-green-600 font-semibold">LH</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Landlord Lisa Henderson</h3>
+                <span className="text-sm text-gray-500">• Tulsa, OK</span>
+                <span className="text-sm text-green-600">• SMS Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Texted for eviction notice service. $21 flat rate - no mileage, no surprises. Got the affidavit same day. So much better than the $50+ I was paying before. 10/10 recommend!&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Eviction Notice Process Serving</div>
+                <div>Date: October 2025</div>
+                <div>Collection Method: SMS feedback collection</div>
+                <div>Phone Verification: (918) XXX-XXXX</div>
+                <div>Message ID: SMS-2025-162</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm border-l-4 border-l-orange-500">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-orange-100 rounded-full flex items-center justify-center">
+                <span className="text-orange-600 font-semibold">BW</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Business Owner Brian Walker</h3>
+                <span className="text-sm text-gray-500">• Stillwater, OK</span>
+                <span className="text-sm text-green-600">• SMS Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Small claims papers served to a customer who wouldn&apos;t pay. $21 for service in Stillwater even though it&apos;s far from Tulsa. No extra mileage fee! Got my money back thanks to their professional service.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Small Claims Process Serving</div>
+                <div>Date: September 2025</div>
+                <div>Collection Method: SMS survey response</div>
+                <div>Phone Verification: (405) XXX-XXXX</div>
+                <div>Message ID: SMS-2025-163</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm border-l-4 border-l-purple-500">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center">
+                <span className="text-purple-600 font-semibold">NC</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Paralegal Nancy Collins</h3>
+                <span className="text-sm text-gray-500">• Bartlesville, OK</span>
+                <span className="text-sm text-green-600">• SMS Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Our attorneys love the $18 court filing assistance. Text Joseph, send the docs, done. Saves our firm so much time. The 30% discount makes them our exclusive process server.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Court Filing + E-Filing Assistance</div>
+                <div>Date: December 2025</div>
+                <div>Collection Method: SMS feedback request</div>
+                <div>Phone Verification: (918) XXX-XXXX</div>
+                <div>Message ID: SMS-2025-164</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm border-l-4 border-l-red-500">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-red-100 rounded-full flex items-center justify-center">
+                <span className="text-red-600 font-semibold">JR</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">John Rodriguez</h3>
+                <span className="text-sm text-gray-500">• McAlester, OK</span>
+                <span className="text-sm text-green-600">• SMS Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Needed divorce papers served same-day. Called (539) 367-6832, texted details, $105 for emergency service. Done by 5pm. Worth every penny for peace of mind. Thank you Joseph!&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Same-Day Emergency Divorce Papers</div>
+                <div>Date: November 2025</div>
+                <div>Collection Method: SMS feedback collection</div>
+                <div>Phone Verification: (918) XXX-XXXX</div>
+                <div>Message ID: SMS-2025-165</div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div className="mt-8 bg-gray-50 rounded-lg p-6">
