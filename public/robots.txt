@@ -1,17 +1,11 @@
 
 # Multi-Search Engine Robots.txt
-# Last Updated: December 23, 2025
-
 User-agent: *
 Allow: /
 Disallow: /admin/
 Disallow: /private/
 Disallow: /*.json$
 Disallow: /*?*print=
-
-# ============================================
-# TRADITIONAL SEARCH ENGINE CRAWLERS
-# ============================================
 
 # Google
 User-agent: Googlebot
@@ -48,124 +42,6 @@ User-agent: Baiduspider
 Allow: /
 Crawl-delay: 1
 
-# ============================================
-# AI & LLM CRAWLERS - EXPLICITLY ALLOWED
-# ============================================
-
-# OpenAI GPT Crawler (ChatGPT)
-User-agent: GPTBot
-Allow: /
-
-# OpenAI ChatGPT Plugins
-User-agent: ChatGPT-User
-Allow: /
-
-# Anthropic Claude Crawler
-User-agent: Claude-Web
-Allow: /
-
-# Anthropic ClaudeBot
-User-agent: ClaudeBot
-Allow: /
-
-# Anthropic Claude
-User-agent: anthropic-ai
-Allow: /
-
-# Google Bard/Gemini Extended Crawler
-User-agent: Google-Extended
-Allow: /
-
-# Perplexity AI Crawler
-User-agent: PerplexityBot
-Allow: /
-
-# Cohere AI Crawler
-User-agent: cohere-ai
-Allow: /
-
-# Meta AI Crawler
-User-agent: Meta-ExternalAgent
-Allow: /
-
-# Meta Facebook AI
-User-agent: FacebookBot
-Allow: /
-
-# Microsoft Copilot
-User-agent: Copilot
-Allow: /
-
-# Amazon Alexa Crawler
-User-agent: Amazonbot
-Allow: /
-
-# Apple Siri/Applebot
-User-agent: Applebot
-Allow: /
-
-# You.com AI Search
-User-agent: YouBot
-Allow: /
-
-# Common Crawl (used for AI training)
-User-agent: CCBot
-Allow: /
-
-# AI2 Semantic Scholar
-User-agent: AI2Bot
-Allow: /
-
-# Neeva AI Search
-User-agent: NeevaBot
-Allow: /
-
-# Phind AI Developer Search
-User-agent: PhindBot
-Allow: /
-
-# ============================================
-# SITEMAPS
-# ============================================
+# Sitemaps
 Sitemap: https://justlegalsolutions.org/sitemap.xml
 Sitemap: https://justlegalsolutions.org/sitemap-images.xml
-Sitemap: https://justlegalsolutions.org/ai-sitemap.xml
-
-# ============================================
-# AI DISCOVERY FILES
-# ============================================
-# LLM Information: https://justlegalsolutions.org/llms.txt
-# AI Business Info: https://justlegalsolutions.org/ai-business-info.html
-
-# Emerging AI Platform Ready - December 23, 2025
-# Future-proofed for next-gen AI systems
-
-# Voice Search Optimization - December 23, 2025
-# Optimized for Alexa, Google Assistant, Siri
-
-# Competitive Intelligence Update - December 23, 2025
-# Market leader in Oklahoma process serving
-
-# Voice Search Optimization - Tue Dec 23 16:27:01 UTC 2025
-# Optimized for Alexa, Google Assistant, Siri
-
-# AI Assistant Integration - Tue Dec 23 20:15:26 UTC 2025
-# Optimized for ChatGPT, Alexa, Google Assistant
-
-# Emerging AI Platform Ready - Tue Dec 23 20:21:58 UTC 2025
-# Future-proofed for next-gen AI systems
-
-# Emerging AI Platform Ready - Wed Dec 24 01:38:58 UTC 2025
-# Future-proofed for next-gen AI systems
-
-# Voice Search Optimization - Wed Dec 24 01:39:47 UTC 2025
-# Optimized for Alexa, Google Assistant, Siri
-
-# Competitive Intelligence Update - Wed Dec 24 02:03:46 UTC 2025
-# Market leader in Oklahoma process serving
-
-# AI Assistant Integration - Wed Dec 24 04:30:40 UTC 2025
-# Optimized for ChatGPT, Alexa, Google Assistant
-
-# AI Assistant Integration - Wed Dec 24 08:20:46 UTC 2025
-# Optimized for ChatGPT, Alexa, Google Assistant
