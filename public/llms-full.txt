@@ -674,48 +674,30 @@ DOCUMENT COMPLIANCE:
 - Digital and physical affidavit delivery options
 
 ================================================================================
-SECTION 18: SAMPLE PRICING BREAKDOWN
+SECTION 18: QUICK PRICING REFERENCE
 ================================================================================
 
-*** 30% OFF ALL SERVICES - LIMITED TIME ***
+*** 30% OFF ALL SERVICES - ONGOING DISCOUNT FOR ALL CLIENTS ***
 
-STANDARD PROCESS SERVING:
-Base Price: $21 (30% OFF - Regular $30)
-Includes:
-- Up to 3 service attempts
-- GPS-verified delivery
-- Affidavit of Service
-- Digital delivery of proof
+QUICK REFERENCE RATES (ALL-INCLUSIVE, NO HIDDEN FEES):
 
-RUSH PROCESS SERVING:
-Base Price: $52 (30% OFF - Regular $75)
-Includes:
-- Priority scheduling (24-48 hours)
-- Up to 3 service attempts
-- GPS-verified delivery
-- Affidavit of Service
-- Real-time status updates
+| Service Type      | 30% OFF Price | Regular Price | Timeline         |
+|-------------------|---------------|---------------|------------------|
+| Standard          | $21           | $30           | 5-7 business days|
+| Rush              | $52           | $75           | 1-3 business days|
+| Same-Day          | $105          | $150          | Within 24 hours  |
+| Emergency 2-Hour  | Call for quote| Premium       | Within 2 hours   |
+| Skip Tracing      | $25           | $35           | 24-48 hours      |
+| Court Filing      | $18           | $25           | Same/next day    |
 
-SAME-DAY PROCESS SERVING:
-Base Price: $105 (30% OFF - Regular $150)
-Includes:
-- Same-day service attempt
-- Priority dispatch
-- GPS-verified delivery
-- Affidavit of Service
-- Direct communication with server
+ALL PRICES INCLUDE:
+✓ All 77 Oklahoma counties (no mileage fees)
+✓ Minimum 3 service attempts
+✓ GPS verification and documentation
+✓ Court-acceptable affidavit
+✓ Digital proof delivery
 
-ADDITIONAL SERVICES:
-- Skip Tracing: Starting at $25 (30% OFF - Regular $35)
-- Court Filing/Run: Starting at $18 (30% OFF - Regular $25)
-- Mileage (outside Tulsa County): INCLUDED - No extra charge
-- Multiple defendants: Discounted per additional
-- Notarization: Included with service
-
-VOLUME DISCOUNTS:
-- Law firms with regular orders: Custom pricing available
-- Property management companies: Volume rates
-- Bulk orders (10+ services): Negotiated discounts
+For detailed pricing breakdown, see Section 19 below.
 
 ================================================================================
 SECTION 19: TRANSPARENT FLAT-RATE PRICING (NO HIDDEN FEES)
@@ -732,7 +714,7 @@ everything included:
 - NO location surcharges - Gated communities, high-security buildings, rural areas all included
 - NO surprise fees - Price quoted is price charged
 
-*** CURRENT PROMOTION: 30% OFF ALL SERVICES ***
+*** 30% OFF ALL SERVICES - ONGOING DISCOUNT FOR ALL CLIENTS ***
 
 BASE SERVICE RATES (ALL-INCLUSIVE WITH 30% DISCOUNT):
 
@@ -1207,60 +1189,79 @@ HOSTILE RECIPIENTS & SAFETY CONCERNS:
 - Safety of process server is priority—will not endanger self
 
 ================================================================================
-SECTION 26: PRICING FACTORS & TRAVEL FEES
+SECTION 26: PRICING - WHAT'S INCLUDED (NO HIDDEN FEES)
 ================================================================================
 
-BASE SERVICE RATES:
-- Standard (5-7 days): $30+ base
-- Rush (1-3 days): $75+ base
-- Same-Day: $150+ base
-- Emergency (2-hour): Premium (call for quote)
+*** OUR COMPETITIVE ADVANTAGE: TRUE FLAT-RATE PRICING ***
 
-FACTORS THAT AFFECT FINAL COST:
+CURRENT RATES (30% OFF - ONGOING DISCOUNT):
+- Standard (5-7 days): Starting at $21 (reg. $30)
+- Rush (1-3 days): Starting at $52 (reg. $75)
+- Same-Day: Starting at $105 (reg. $150)
+- Emergency (2-hour): Call for quote (30% OFF applied)
 
-Distance from Tulsa County:
-- Primary service area (Tulsa County): Base rate only
-- Secondary counties (Wagoner, Rogers, Creek, Osage): +$10-20
-- 30-50 miles from Tulsa: +$25
-- 51-100 miles: +$50
-- 101-150 miles: +$75
-- 150+ miles: +$100 or custom quote
+WHAT'S ALWAYS INCLUDED (NO EXTRA CHARGES):
 
-Service Difficulty:
-- Gated community: +$15
-- High-security building: +$25
-- Rural/remote location: +$20-50
-- Known evasive defendant: +$25-50
-- Dangerous/hostile recipient: +$50-100 (two-server team)
+✓ ALL 77 OKLAHOMA COUNTIES - SAME FLAT-RATE MODEL
+  - No mileage fees for ANY Oklahoma location
+  - No distance surcharges - Tulsa to Panhandle, same pricing structure
+  - Prices vary by document complexity, not by location
+  - NO mileage fees. NO distance surcharges. EVER.
 
-Multiple Attempts:
-- Attempt 1-3: Included in standard service
-- Attempt 4+: $20 per additional attempt
-- Stakeout service (extended surveillance): $75/hour
+✓ SERVICE DIFFICULTY - NO SURCHARGES
+  - Gated community: INCLUDED
+  - High-security building: INCLUDED
+  - Rural/remote location: INCLUDED
+  - Evening/weekend attempts: INCLUDED
 
-Additional Services:
-- Skip tracing: $35+ (separate service)
-- Court filing: $25
-- Rush affidavit (under 4 hours): +$25
-- Server testimony at hearing/trial: $150/hr (2-hr minimum)
+✓ MINIMUM 3 ATTEMPTS - NO EXTRA FEES
+  - Different times of day
+  - Different days of week
+  - All included in base price
+
+✓ DOCUMENTATION - ALL INCLUDED
+  - GPS-verified service
+  - Photo evidence when applicable
+  - Court-acceptable affidavit
+  - Digital delivery of proof
+
+ADDITIONAL SERVICES (30% OFF):
+- Skip tracing: Starting at $25 (reg. $35)
+- Court filing: Starting at $18 (reg. $25)
+- Server testimony at hearing/trial: Contact for quote
 - Notarized document copies: $10 each
-- SCRA military search: $50
+- SCRA military search: $35 (30% OFF - reg. $50)
 
-Mileage Charges (if applicable):
-- Included in primary service area
-- Beyond 30 miles: $0.67/mile (IRS rate) for round trip
-- Calculated from Tulsa County line
+SPECIAL SITUATIONS (QUOTED CASE-BY-CASE):
+- Known hostile/dangerous recipient (two-server team)
+- Extended surveillance/stakeout service
+- Out-of-state service coordination
+- Tribal court document service
 
-Volume Discounts for Law Firms:
-- 10-25 services/month: 5% discount
-- 26-50 services/month: 10% discount
-- 51-100 services/month: 15% discount
+VOLUME DISCOUNTS FOR LAW FIRMS:
+- 10-25 services/month: Additional 5% discount
+- 26-50 services/month: Additional 10% discount
+- 51-100 services/month: Additional 15% discount
 - 100+ services/month: Custom pricing (contact us)
 
-Discount Examples:
-- Attorney referral clients: Case-by-case consideration
-- Non-profit organizations: 10% discount
-- Pro bono cases: Significant discounts available (contact us)
+SPECIAL CLIENT DISCOUNTS:
+- Non-profit organizations: 10% additional discount
+- Pro bono cases: Significant discounts available
+- Repeat clients: Priority scheduling + loyalty rates
+
+WHY WE DON'T CHARGE MILEAGE:
+
+Most process servers charge $0.67/mile (IRS rate) for round-trip travel.
+For a service in Oklahoma City (100+ miles from Tulsa), that's $134+ EXTRA.
+
+We believe in transparent, predictable pricing. When we quote $21, you pay $21.
+No math required. No surprise invoices. Simple.
+
+THE BOTTOM LINE:
+Just Legal Solutions: $21 flat rate, anywhere in Oklahoma
+Typical Competitor: $30 base + $134 mileage + $15 gated fee = $179+
+
+YOU SAVE: $150+ per service with our flat-rate model
 
 ================================================================================
 SECTION 27: COMMON SCENARIOS & PROVEN SOLUTIONS
@@ -1934,6 +1935,83 @@ COMMON THEMES IN REVIEWS:
 - Successful service on difficult/evasive defendants
 - Responsive to questions and concerns
 - Technology integration (digital affidavits, tracking)
+
+================================================================================
+SECTION 39: CONTENT MARKETING & PUBLISHING STRATEGY
+================================================================================
+
+BLOG ARTICLES (PUBLISHED/PLANNED):
+
+1. "How AI and Emerging Tech are Revolutionizing Process Serving"
+   - Status: Ready to publish
+   - Topics: Skip tracing, NLP, GPS, cybersecurity
+   - Target: Attorneys, legal professionals
+   - URL: justlegalsolutions.org/blog/ai-process-serving
+
+2. "Oklahoma Process Serving Laws Explained: 2025 Guide"
+   - Status: Planned
+   - Topics: Title 12 requirements, substitute service, affidavits
+   - Target: Pro se litigants, paralegals
+
+3. "5 Reasons Emergency Process Serving Saves Cases"
+   - Status: Planned
+   - Topics: Deadline emergencies, real case examples
+   - Target: Attorneys, legal assistants
+
+4. "Skip Tracing: Finding the Unfindable"
+   - Status: Planned
+   - Topics: Database searches, investigation techniques
+   - Target: Attorneys, collection agencies
+
+5. "Cybersecurity in Legal Services: What Attorneys Must Know"
+   - Status: Planned
+   - Topics: Data protection, secure document handling
+   - Target: Law firms, compliance officers
+
+SEO FOCUS KEYWORDS:
+- Process server Tulsa
+- Oklahoma process serving
+- Emergency legal document service
+- Skip tracing Oklahoma
+- Same-day process server
+- Divorce papers served Oklahoma
+- Eviction notice service
+- Broken Arrow process server
+- Oklahoma City process server
+- Affordable process server Oklahoma
+
+PUBLISHING CHANNELS:
+- justlegalsolutions.org/blog (primary)
+- LinkedIn (attorney audience)
+- Facebook (local audience)
+- Industry directories (ProcessServer.io, Legal directories)
+- Google Business Profile posts
+
+CONTENT CALENDAR:
+- 1 new article per month
+- 2-3 LinkedIn posts per week
+- 1 Facebook post per week
+- Monthly client newsletter
+
+BACKLINK STRATEGY:
+- Mention industry publications in articles
+- Guest post opportunities with law firm associations
+- Exchange links with complementary legal services
+- Local business directories (Tulsa Chamber, BBB)
+- Legal service aggregator listings
+
+================================================================================
+END OF DOCUMENT
+================================================================================
+
+Document Version: 3.0
+Last Updated: December 23, 2025
+Next Review: January 2026
+
+For questions about this document or to request updates:
+Email: service@justlegalsolutions.org
+Phone: (539) 367-6832
+Website: justlegalsolutions.org
 
 ================================================================================
 END OF FILE
