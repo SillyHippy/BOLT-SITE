@@ -318,6 +318,98 @@ export default function LawFirmServicesPage() {
             </div>
           </div>
         </section>
+
+        {/* How It Works Section */}
+        <section className="py-16 px-4 bg-gray-50">
+          <div className="max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold text-center mb-4">How Our Law Firm Partnership Works</h2>
+            <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
+              Getting started is simple. We make the process seamless so you can focus on your cases.
+            </p>
+            <div className="grid md:grid-cols-4 gap-6">
+              <div className="text-center">
+                <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">1</div>
+                <h3 className="font-bold text-lg mb-2">Initial Consultation</h3>
+                <p className="text-gray-600 text-sm">Call us to discuss your firm&apos;s volume, practice areas, and specific needs.</p>
+              </div>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">2</div>
+                <h3 className="font-bold text-lg mb-2">Custom Service Plan</h3>
+                <p className="text-gray-600 text-sm">We create a tailored plan with your preferred communication methods and billing terms.</p>
+              </div>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">3</div>
+                <h3 className="font-bold text-lg mb-2">Priority Access</h3>
+                <p className="text-gray-600 text-sm">Your serves get priority scheduling. Direct access to Joseph for urgent matters.</p>
+              </div>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">4</div>
+                <h3 className="font-bold text-lg mb-2">Simplified Billing</h3>
+                <p className="text-gray-600 text-sm">Monthly consolidated invoices with Net-30 terms. No per-serve payment hassles.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Coverage Map Section */}
+        <section className="py-16 px-4 bg-white">
+          <div className="max-w-5xl mx-auto">
+            <h2 className="text-3xl font-bold text-center mb-4">Statewide Oklahoma Coverage</h2>
+            <p className="text-center text-gray-600 mb-8 max-w-2xl mx-auto">
+              One flat rate covers service anywhere in Oklahoma. No mileage fees, no surprise charges.
+            </p>
+            <div className="grid md:grid-cols-2 gap-8 items-center">
+              <div>
+                <h3 className="text-xl font-bold mb-4 text-blue-900">Key Service Areas</h3>
+                <div className="grid grid-cols-2 gap-2 text-sm">
+                  <div className="flex items-center"><span className="text-green-500 mr-2">✓</span>Tulsa County</div>
+                  <div className="flex items-center"><span className="text-green-500 mr-2">✓</span>Oklahoma County</div>
+                  <div className="flex items-center"><span className="text-green-500 mr-2">✓</span>Rogers County</div>
+                  <div className="flex items-center"><span className="text-green-500 mr-2">✓</span>Creek County</div>
+                  <div className="flex items-center"><span className="text-green-500 mr-2">✓</span>Wagoner County</div>
+                  <div className="flex items-center"><span className="text-green-500 mr-2">✓</span>Osage County</div>
+                  <div className="flex items-center"><span className="text-green-500 mr-2">✓</span>Washington County</div>
+                  <div className="flex items-center"><span className="text-green-500 mr-2">✓</span>Mayes County</div>
+                </div>
+                <p className="mt-4 text-blue-700 font-semibold">+ All 77 Oklahoma Counties</p>
+                <p className="mt-2 text-gray-500 text-sm">
+                  From the Panhandle to the Red River, we cover every county at the same flat rate.
+                </p>
+              </div>
+              <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-8 text-center">
+                <div className="text-5xl mb-4">🗺️</div>
+                <h4 className="text-xl font-bold text-blue-900 mb-2">No Mileage Fees</h4>
+                <p className="text-gray-600 mb-4">Unlike competitors who charge per-mile, our flat-rate covers travel statewide.</p>
+                <p className="text-2xl font-bold text-green-600">Save $50-$200+ per serve</p>
+                <p className="text-sm text-gray-500 mt-2">on rural and distant locations</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Trust Indicators */}
+        <section className="py-12 px-4 bg-blue-900 text-white">
+          <div className="max-w-5xl mx-auto">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+              <div>
+                <div className="text-4xl font-bold text-yellow-400 mb-2">156+</div>
+                <p className="text-blue-200">5-Star Reviews</p>
+              </div>
+              <div>
+                <div className="text-4xl font-bold text-yellow-400 mb-2">50+</div>
+                <p className="text-blue-200">Years Combined Experience</p>
+              </div>
+              <div>
+                <div className="text-4xl font-bold text-yellow-400 mb-2">77</div>
+                <p className="text-blue-200">Oklahoma Counties Served</p>
+              </div>
+              <div>
+                <div className="text-4xl font-bold text-yellow-400 mb-2">98%</div>
+                <p className="text-blue-200">First-Attempt Success Rate</p>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </>
   );
