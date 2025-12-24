@@ -1,0 +1,21 @@
+# LLM Discovery File
+# https://justlegalsolutions.org/.well-known/llms.txt
+
+## Primary LLM Information
+llms_txt: https://justlegalsolutions.org/llms.txt
+llms_full_txt: https://justlegalsolutions.org/llms-full.txt
+
+## Business Summary
+name: Just Legal Solutions
+description: Professional process serving and legal document delivery in Tulsa, Oklahoma
+type: LegalService
+location: Tulsa, Oklahoma, USA
+phone: (539) 367-6832
+website: https://justlegalsolutions.org
+
+## AI-Readable Resources
+- https://justlegalsolutions.org/llms.txt
+- https://justlegalsolutions.org/llms-full.txt
+- https://justlegalsolutions.org/ai-sitemap.xml
+- https://justlegalsolutions.org/ai-assistant/business-info.txt
+- https://justlegalsolutions.org/ai-assistant/faq.txt
