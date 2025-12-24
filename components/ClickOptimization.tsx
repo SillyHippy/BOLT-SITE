@@ -63,52 +63,52 @@ export default function ClickOptimization({
         {
           "@type": "Offer",
           "url": "https://justlegalsolutions.org/services",
-          "price": "30.00",
+          "price": "21.00",
           "priceCurrency": "USD",
           "priceSpecification": {
             "@type": "PriceSpecification",
-            "price": "30.00",
+            "price": "21.00",
             "priceCurrency": "USD",
             "valueAddedTaxIncluded": false
           },
           "itemOffered": {
             "@type": "Service",
             "name": "Standard Process Serving",
-            "description": "Professional document delivery within 3-5 business days. Starting at $30."
+            "description": "Professional document delivery within 3-5 business days. 30% OFF - Starting at $21."
           }
         },
         {
           "@type": "Offer",
           "url": "https://justlegalsolutions.org/services",
-          "price": "50.00",
+          "price": "52.00",
           "priceCurrency": "USD",
           "priceSpecification": {
             "@type": "PriceSpecification",
-            "price": "50.00",
+            "price": "52.00",
             "priceCurrency": "USD",
             "valueAddedTaxIncluded": false
           },
           "itemOffered": {
             "@type": "Service",
             "name": "Rush Process Serving",
-            "description": "Expedited document delivery within 1-2 business days. Starting at $30."
+            "description": "Expedited document delivery within 1-2 business days. 30% OFF - Starting at $52."
           }
         },
         {
           "@type": "Offer",
           "url": "https://justlegalsolutions.org/services",
-          "price": "100.00",
+          "price": "105.00",
           "priceCurrency": "USD",
           "priceSpecification": {
             "@type": "PriceSpecification",
-            "price": "100.00",
+            "price": "105.00",
             "priceCurrency": "USD",
             "valueAddedTaxIncluded": false
           },
           "itemOffered": {
             "@type": "Service",
             "name": "Same-Day Process Serving",
-            "description": "Urgent document delivery within 24 hours. Starting at $30."
+            "description": "Urgent document delivery within 24 hours. 30% OFF - Starting at $105."
           }
         }
       ]

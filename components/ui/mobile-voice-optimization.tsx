@@ -62,7 +62,7 @@ export default function MobileVoiceOptimization({
           <span data-nlp="conversational">Need papers served? {businessName} helps with all legal documents</span>
           <span data-nlp="local-intent">Looking for {primaryService} in {location}? We&apos;re here to help</span>
           <span data-nlp="urgent-intent">Need it done today? Same-day service available</span>
-          <span data-nlp="cost-intent">Wondering about cost? Competitive rates starting at $30</span>
+          <span data-nlp="cost-intent">Wondering about cost? 30% OFF - rates starting at $21</span>
         </div>
         
         {/* 2025 Mobile Search Signals */}
