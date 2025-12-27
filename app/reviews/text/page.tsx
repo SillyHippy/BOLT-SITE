@@ -1087,6 +1087,422 @@ export default function TextReviewValidation() {
             </div>
           </div>
         </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
+                <span className="text-blue-600 font-semibold">ML</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Maria L.</h3>
+                <span className="text-sm text-gray-500">• Tulsa, OK</span>
+                <span className="text-sm text-green-600">• SMS Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Fast response, fair price, great service. Papers served same day. Will use again!&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Same-Day Process Serving</div>
+                <div>Date: December 2025</div>
+                <div>Collection Method: SMS feedback collection</div>
+                <div>Phone Verification: (918) XXX-XXXX</div>
+                <div>Message ID: SMS-2025-034</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center">
+                <span className="text-green-600 font-semibold">CB</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Carlos B.</h3>
+                <span className="text-sm text-gray-500">• Broken Arrow, OK</span>
+                <span className="text-sm text-green-600">• SMS Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Joseph answered my text within minutes. Professional service completed that afternoon. Exactly what I needed.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Urgent Document Delivery</div>
+                <div>Date: November 2025</div>
+                <div>Collection Method: SMS feedback request</div>
+                <div>Phone Verification: (539) XXX-XXXX</div>
+                <div>Message ID: SMS-2025-035</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center">
+                <span className="text-purple-600 font-semibold">SH</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Susan H.</h3>
+                <span className="text-sm text-gray-500">• Jenks, OK</span>
+                <span className="text-sm text-green-600">• SMS Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Weekend service saved my case. Other companies were closed. Just Legal Solutions came through. 5 stars!&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Weekend Emergency Service</div>
+                <div>Date: October 2025</div>
+                <div>Collection Method: Follow-up SMS survey</div>
+                <div>Phone Verification: (918) XXX-XXXX</div>
+                <div>Message ID: SMS-2025-036</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-orange-100 rounded-full flex items-center justify-center">
+                <span className="text-orange-600 font-semibold">DW</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Derek W.</h3>
+                <span className="text-sm text-gray-500">• Bixby, OK</span>
+                <span className="text-sm text-green-600">• SMS Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Eviction notice served professionally. Tenant was served on first attempt. Great communication throughout.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Eviction Notice Service</div>
+                <div>Date: September 2025</div>
+                <div>Collection Method: SMS feedback collection</div>
+                <div>Phone Verification: (918) XXX-XXXX</div>
+                <div>Message ID: SMS-2025-037</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-teal-100 rounded-full flex items-center justify-center">
+                <span className="text-teal-600 font-semibold">AK</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Ashley K.</h3>
+                <span className="text-sm text-gray-500">• Owasso, OK</span>
+                <span className="text-sm text-green-600">• SMS Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Text updates kept me informed every step. Service completed, affidavit received same day. Perfect!&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Standard Process Serving</div>
+                <div>Date: September 2025</div>
+                <div>Collection Method: Follow-up SMS survey</div>
+                <div>Phone Verification: (539) XXX-XXXX</div>
+                <div>Message ID: SMS-2025-038</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-indigo-100 rounded-full flex items-center justify-center">
+                <span className="text-indigo-600 font-semibold">MG</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Michael G.</h3>
+                <span className="text-sm text-gray-500">• Sand Springs, OK</span>
+                <span className="text-sm text-green-600">• SMS Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;$30 for standard service, no hidden fees. Other places wanted $75+. Best value in Oklahoma.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Standard Process Serving</div>
+                <div>Date: August 2025</div>
+                <div>Collection Method: SMS feedback collection</div>
+                <div>Phone Verification: (918) XXX-XXXX</div>
+                <div>Message ID: SMS-2025-039</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-red-100 rounded-full flex items-center justify-center">
+                <span className="text-red-600 font-semibold">RP</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Rachel P.</h3>
+                <span className="text-sm text-gray-500">• Claremore, OK</span>
+                <span className="text-sm text-green-600">• SMS Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Child custody papers served on time. Sensitive situation handled professionally. Grateful for the quick service.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Family Law Document Service</div>
+                <div>Date: August 2025</div>
+                <div>Collection Method: Follow-up SMS survey</div>
+                <div>Phone Verification: (918) XXX-XXXX</div>
+                <div>Message ID: SMS-2025-040</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-yellow-100 rounded-full flex items-center justify-center">
+                <span className="text-yellow-600 font-semibold">JT</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Jason T.</h3>
+                <span className="text-sm text-gray-500">• Sapulpa, OK</span>
+                <span className="text-sm text-green-600">• SMS Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Texted (539) 367-6832, got a quote in 5 mins, service done by end of day. Easy process!&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Same-Day Rush Service</div>
+                <div>Date: July 2025</div>
+                <div>Collection Method: SMS feedback collection</div>
+                <div>Phone Verification: (539) XXX-XXXX</div>
+                <div>Message ID: SMS-2025-041</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-cyan-100 rounded-full flex items-center justify-center">
+                <span className="text-cyan-600 font-semibold">NC</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Nicole C.</h3>
+                <span className="text-sm text-gray-500">• Glenpool, OK</span>
+                <span className="text-sm text-green-600">• SMS Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;GPS confirmation gave me peace of mind. I knew exactly when papers were delivered. Modern and professional.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: GPS-Tracked Delivery</div>
+                <div>Date: July 2025</div>
+                <div>Collection Method: Follow-up SMS survey</div>
+                <div>Phone Verification: (918) XXX-XXXX</div>
+                <div>Message ID: SMS-2025-042</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-rose-100 rounded-full flex items-center justify-center">
+                <span className="text-rose-600 font-semibold">BF</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Brandon F.</h3>
+                <span className="text-sm text-gray-500">• Catoosa, OK</span>
+                <span className="text-sm text-green-600">• SMS Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Skip tracing found my defendant, then served papers same week. Two services, one company. Excellent!&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Skip Trace & Service</div>
+                <div>Date: June 2025</div>
+                <div>Collection Method: SMS feedback collection</div>
+                <div>Phone Verification: (918) XXX-XXXX</div>
+                <div>Message ID: SMS-2025-043</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-emerald-100 rounded-full flex items-center justify-center">
+                <span className="text-emerald-600 font-semibold">LV</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Lisa V.</h3>
+                <span className="text-sm text-gray-500">• Coweta, OK</span>
+                <span className="text-sm text-green-600">• SMS Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Rural address was no problem. Joseph drove out same day. No mileage charges. Fair pricing!&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Rural Process Serving</div>
+                <div>Date: June 2025</div>
+                <div>Collection Method: Follow-up SMS survey</div>
+                <div>Phone Verification: (918) XXX-XXXX</div>
+                <div>Message ID: SMS-2025-044</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-violet-100 rounded-full flex items-center justify-center">
+                <span className="text-violet-600 font-semibold">EM</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Eric M.</h3>
+                <span className="text-sm text-gray-500">• Pryor, OK</span>
+                <span className="text-sm text-green-600">• SMS Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Third time using JLS. Always reliable. My go-to for any legal document service needs.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Standard Process Serving</div>
+                <div>Date: May 2025</div>
+                <div>Collection Method: SMS feedback collection</div>
+                <div>Phone Verification: (918) XXX-XXXX</div>
+                <div>Message ID: SMS-2025-045</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-amber-100 rounded-full flex items-center justify-center">
+                <span className="text-amber-600 font-semibold">TM</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Tina M.</h3>
+                <span className="text-sm text-gray-500">• Wagoner, OK</span>
+                <span className="text-sm text-green-600">• SMS Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Court deadline was tight. Joseph prioritized my case and delivered on time. Lifesaver!&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Deadline-Critical Service</div>
+                <div>Date: May 2025</div>
+                <div>Collection Method: Follow-up SMS survey</div>
+                <div>Phone Verification: (918) XXX-XXXX</div>
+                <div>Message ID: SMS-2025-046</div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div className="mt-8 bg-gray-50 rounded-lg p-6">
