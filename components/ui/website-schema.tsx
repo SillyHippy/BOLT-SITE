@@ -88,12 +88,6 @@ export default function WebsiteSchema({
           "name": "Sapulpa"
         }
       ],
-      "serviceType": [
-        "Process Serving",
-        "Legal Document Delivery", 
-        "Court Document Filing",
-        "Skip Tracing Services"
-      ],
       "priceRange": "$30-$200",
       "geo": {
         "@type": "GeoCoordinates",

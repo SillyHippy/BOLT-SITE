@@ -392,27 +392,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     name: serviceDetails.name,
     description: serviceDetails.description,
     url: 'https://justlegalsolutions.org/services',
-    priceRange: '$30-$200',
     image: 'https://justlegalsolutions.org/images/jls-logo.webp',
-    address: {
-      '@type': 'PostalAddress',
-      ...organization.address
-    },
-    geo: {
-      '@type': 'GeoCoordinates',
-      latitude: 36.154,
-      longitude: -95.9928
-    },
-    /* Removed duplicate aggregateRating to fix validation errors */
-    openingHoursSpecification: [
-      {
-        '@type': 'OpeningHoursSpecification',
-        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
-        opens: '00:00',
-        closes: '23:59'
-      }
-    ],
-    /* Removed duplicate review to fix validation errors */
     provider: {
       '@id': 'https://justlegalsolutions.org/#organization'
     },
@@ -421,12 +401,6 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
       price: serviceDetails.price,
       priceCurrency: 'USD',
       image: 'https://justlegalsolutions.org/images/jls-logo.webp',
-      logo: {
-        '@type': 'ImageObject',
-        url: 'https://justlegalsolutions.org/images/jls-logo.webp',
-        width: 180,
-        height: 60
-      },
       seller: {
         '@id': 'https://justlegalsolutions.org/#organization'
       }
@@ -618,12 +592,6 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
           'price': '150',
           'priceCurrency': 'USD',
           'image': 'https://justlegalsolutions.org/images/jls-logo.webp',
-          'logo': {
-            '@type': 'ImageObject',
-            'url': 'https://justlegalsolutions.org/images/jls-logo.webp',
-            'width': 180,
-            'height': 60
-          },
           'availability': 'https://schema.org/InStock',
           'seller': {
             '@id': 'https://justlegalsolutions.org/#organization'
@@ -636,12 +604,6 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
           'price': '265', 
           'priceCurrency': 'USD',
           'image': 'https://justlegalsolutions.org/images/jls-logo.webp',
-          'logo': {
-            '@type': 'ImageObject',
-            'url': 'https://justlegalsolutions.org/images/jls-logo.webp',
-            'width': 180,
-            'height': 60
-          },
           'availability': 'https://schema.org/InStock',
           'seller': {
             '@id': 'https://justlegalsolutions.org/#organization'

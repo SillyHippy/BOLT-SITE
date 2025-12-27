@@ -32,16 +32,21 @@ export default function LocalPromoBanner({ zips, endDate = "January 30, 2026" }:
     "@context": "https://schema.org",
     "@type": "Offer",
     "name": "30% Off Process Serving",
-    "description": "Limited time discount on process serving for ZIP codes 74008, 74033, and 74037",
+    "description": `Limited time discount on process serving for ZIP codes ${zips.join(", ")}`,
     "price": "42.00",
     "priceCurrency": "USD",
     "priceValidUntil": endDate,
     "availability": "https://schema.org/InStock",
     "validFrom": "2025-12-20",
-    "areaServed": {
-      "@type": "PostalCodeRangeSpecification",
-      "postalCode": zips
-    },
+    "areaServed": zips.map(zip => ({
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "postalCode": zip,
+        "addressRegion": "OK",
+        "addressCountry": "US"
+      }
+    })),
     "seller": {
       "@type": "LocalBusiness",
       "name": "Just Legal Solutions",

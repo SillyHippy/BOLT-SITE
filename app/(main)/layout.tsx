@@ -57,8 +57,6 @@ export default function MainLayout({
               "name": "Oklahoma",
               "@id": "https://en.wikipedia.org/wiki/Oklahoma"
             },
-            "serviceType": ["Process Serving", "Document Delivery", "Legal Courier Services", "Subpoena Service", "Court Filing"],
-            "availableLanguage": ["English"],
             "paymentAccepted": ["Cash", "Credit Card", "Check", "Invoice"],
             "currenciesAccepted": "USD",
             "openingHours": "Mo,Tu,We,Th,Fr,Sa,Su 00:00-23:59",
@@ -67,8 +65,7 @@ export default function MainLayout({
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
                 "opens": "00:00",
-                "closes": "23:59",
-                "description": "24/7 Emergency Process Serving Available"
+                "closes": "23:59"
               }
             ],
             "review": [
