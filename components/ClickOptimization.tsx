@@ -41,14 +41,6 @@ export default function ClickOptimization({
       "name": "Oklahoma",
       "@id": "https://en.wikipedia.org/wiki/Oklahoma"
     },
-    "serviceType": [
-      "Process Serving",
-      "Document Delivery", 
-      "Legal Courier Services",
-      "Subpoena Service",
-      "Court Filing"
-    ],
-    "availableLanguage": ["English"],
     "currenciesAccepted": "USD",
     "paymentAccepted": ["Cash", "Credit Card", "Check"],
     "openingHours": "Mo,Tu,We,Th,Fr,Sa,Su 00:00-23:59",
