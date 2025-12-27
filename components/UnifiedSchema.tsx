@@ -262,6 +262,11 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
       ['Organization', 'LocalBusiness', 'ProfessionalService'] : 'Organization',
     '@id': 'https://justlegalsolutions.org/#organization',
     name: organization.name,
+    alternateName: [
+      'JLS Process Server Tulsa',
+      'Just Legal Solutions Process Server',
+      'Tulsa Process Server JLS'
+    ],
     url: 'https://justlegalsolutions.org',
     image: [
       props.image || organization.logo || 'https://justlegalsolutions.org/images/jls-logo.webp',
@@ -270,6 +275,8 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
       'https://justlegalsolutions.org/og-image.png'
     ],
     priceRange: '$30-$200',
+    paymentAccepted: ['Cash', 'Check', 'Credit Card', 'Venmo', 'PayPal', 'Zelle'],
+    currenciesAccepted: 'USD',
     logo: {
       '@type': 'ImageObject',
       url: organization.logo || 'https://justlegalsolutions.org/images/jls-logo.webp',
@@ -293,7 +300,13 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
       contactType: 'customer service',
       email: 'info@justlegalsolutions.org',
       areaServed: 'Oklahoma',
-      availableLanguage: 'English'
+      availableLanguage: 'English',
+      hoursAvailable: {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+        opens: '00:00',
+        closes: '23:59'
+      }
     },
     areaServed: {
       '@type': 'State',
@@ -302,6 +315,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     foundingDate: '2025-03-01',
     slogan: 'Over 50 Years Combined Experience Serving Oklahoma',
     description: 'Professional process serving and legal document delivery throughout Oklahoma with same-day service available.',
+    openingHours: ['Mo-Su 00:00-23:59'],
     openingHoursSpecification: [
       {
         '@type': 'OpeningHoursSpecification',
@@ -312,8 +326,19 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     ],
     sameAs: organization.sameAs || [
       'https://www.facebook.com/justlegalsolutions',
-      'https://www.linkedin.com/company/justlegalsolutions'
-    ]
+      'https://www.linkedin.com/company/justlegalsolutions',
+      'https://www.yelp.com/biz/just-legal-solutions-glenpool',
+      'https://www.yellowpages.com/glenpool-ok/mip/just-legal-solutions-606085805',
+      'https://www.manta.com/c/m1x7pgf/just-legal-solutions',
+      'https://www.crunchbase.com/organization/just-legal-solutions',
+      'https://www.alignable.com/glenpool-ok/just-legal-solutions',
+      'https://clutch.co/profile/just-legal-solutions'
+    ],
+    memberOf: {
+      '@type': 'ProfessionalService',
+      name: 'National Association of Professional Process Servers',
+      url: 'https://napps.org'
+    }
   };
 
   // Website schema
