@@ -133,7 +133,7 @@ export default function PaymentsPage() {
         description="Convenient payment options for Just Legal Solutions' process server and legal document delivery services in Tulsa, Oklahoma."
         aggregateRating={{
           ratingValue: 4.9,
-          reviewCount: 146
+          reviewCount: 156
         }}
       />
     </main>

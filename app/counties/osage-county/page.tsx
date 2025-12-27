@@ -99,7 +99,7 @@ export default function OsageCountyProcessServer() {
         }}
         breadcrumbItems={breadcrumbItems}
         faqItems={osageCountyFAQs}
-        reviewCount={146}
+        reviewCount={156}
       />
       <Navbar />
 

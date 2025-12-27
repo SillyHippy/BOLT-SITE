@@ -95,7 +95,7 @@ export default function MayesCountyProcessServer() {
         }}
         breadcrumbItems={breadcrumbItems}
         faqItems={mayesCountyFAQs}
-        reviewCount={146}
+        reviewCount={156}
       />
       <Navbar />
 

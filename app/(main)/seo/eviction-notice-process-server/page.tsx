@@ -129,7 +129,7 @@ export default function EvictionNoticeProcessServer() {
         priceRange="$30-$200"
         aggregateRating={{
           ratingValue: 4.9,
-          reviewCount: 146
+          reviewCount: 156
         }}
         faqItems={evictionData.faqs.map(faq => ({
           question: faq.q,

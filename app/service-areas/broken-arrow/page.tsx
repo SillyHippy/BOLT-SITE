@@ -160,7 +160,7 @@ export default function BrokenArrowProcessServer() {
           image="https://justlegalsolutions.org/images/jls-logo.webp"
           aggregateRating={{
             ratingValue: 4.9,
-            reviewCount: 146
+            reviewCount: 156
           }}
         />
         
@@ -390,7 +390,7 @@ export default function BrokenArrowProcessServer() {
                     </div>
                     <div itemProp="aggregateRating" itemScope={true} itemType="https://schema.org/AggregateRating">
                       <meta itemProp="ratingValue" content="4.9" />
-                      <meta itemProp="reviewCount" content="146" />
+                      <meta itemProp="reviewCount" content="156" />
                       <meta itemProp="bestRating" content="5" />
                       <meta itemProp="worstRating" content="1" />
                     </div>
@@ -438,7 +438,7 @@ export default function BrokenArrowProcessServer() {
                     </div>
                     <div itemProp="aggregateRating" itemScope={true} itemType="https://schema.org/AggregateRating">
                       <meta itemProp="ratingValue" content="4.9" />
-                      <meta itemProp="reviewCount" content="146" />
+                      <meta itemProp="reviewCount" content="156" />
                       <meta itemProp="bestRating" content="5" />
                       <meta itemProp="worstRating" content="1" />
                     </div>

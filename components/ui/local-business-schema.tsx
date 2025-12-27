@@ -61,7 +61,7 @@ export default function LocalBusinessSchema({
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "4.9",
-      "reviewCount": "146",
+      "reviewCount": "156",
       "bestRating": "5",
       "worstRating": "1"
     },
@@ -196,7 +196,7 @@ export function LocalSEOSchema({ city, service }: { city?: string; service?: str
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "4.9",
-      "reviewCount": "146",
+      "reviewCount": "156",
       "bestRating": "5",
       "worstRating": "1"
     },

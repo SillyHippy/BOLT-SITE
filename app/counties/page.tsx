@@ -143,7 +143,7 @@ export default function ServiceAreasHub() {
           addressCountry: "US"
         }}
         breadcrumbItems={breadcrumbItems}
-        reviewCount={146}
+        reviewCount={156}
       />
       <Navbar />
 

@@ -134,7 +134,7 @@ export default function WashingtonCountyProcessServer() {
         }}
         breadcrumbItems={breadcrumbItems}
         faqItems={washingtonCountyFAQs}
-        reviewCount={146}
+        reviewCount={156}
       />
       <Navbar />
 

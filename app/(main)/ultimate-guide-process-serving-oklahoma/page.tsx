@@ -1898,7 +1898,7 @@ export default function UltimateGuidePage() {
     'legal service procedures oklahoma',
     'oklahoma summons service guide'
   ]}
-  reviewCount={146}
+  reviewCount={156}
   articleSection="Legal Education"
   faqItems={pageFaqs}
   speakable={[
@@ -1926,7 +1926,7 @@ export default function UltimateGuidePage() {
   }}
   aggregateRating={{
     ratingValue: 4.9,
-    reviewCount: 146
+    reviewCount: 156
   }}
 />
     </>

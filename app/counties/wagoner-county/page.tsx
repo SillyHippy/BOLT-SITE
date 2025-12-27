@@ -139,7 +139,7 @@ export default function WagonerCountyProcessServer() {
         }}
         breadcrumbItems={breadcrumbItems}
         faqItems={wagonerCountyFAQs}
-        reviewCount={146}
+        reviewCount={156}
       />
       <Navbar />
 

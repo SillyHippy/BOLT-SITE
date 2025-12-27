@@ -51,7 +51,7 @@ export default function EnhancedServiceSchema({
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.9",
-        "reviewCount": "146",
+        "reviewCount": "156",
         "bestRating": "5",
         "worstRating": "1"
       }
@@ -175,7 +175,7 @@ export default function EnhancedServiceSchema({
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "4.9",
-      "reviewCount": "146",
+      "reviewCount": "156",
       "bestRating": "5",
       "worstRating": "1",
       "description": "Verified reviews from Google, Yelp, Facebook, and client testimonials"

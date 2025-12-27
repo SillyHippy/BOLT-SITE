@@ -121,7 +121,7 @@ export default function BristowProcessServer() {
           paymentAccepted={["Cash", "Credit Card", "Check", "Online Payment"]}
           aggregateRating={{
             ratingValue: 4.9,
-            reviewCount: 146
+            reviewCount: 156
           }}
           faqItems={bristowFAQs.map(faq => ({
             question: faq.question,
