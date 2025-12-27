@@ -33,7 +33,7 @@ export default function ServiceSchema() {
     },
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
-      "catalogName": "Process Serving Services",
+      "name": "Process Serving Services",
       "itemListElement": [
         {
           "@type": "Offer",         "url": "https://justlegalsolutions.org/services",
@@ -93,8 +93,7 @@ export default function ServiceSchema() {
         "@type": "OpeningHoursSpecification",
         "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
         "opens": "00:00",
-        "closes": "23:59",
-        "description": "24/7 Emergency Process Serving Available"
+        "closes": "23:59"
       }
     ],
     "aggregateRating": {

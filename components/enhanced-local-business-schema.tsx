@@ -21,8 +21,6 @@ export const enhancedLocalBusinessSchema = {
     "https://justlegalsolutions.org/images/office-exterior.jpg",
     "https://justlegalsolutions.org/images/service-vehicle.jpg"
   ],
-  
-  // Enhanced Contact Information
   "telephone": "+15393676832",
   "email": "info@justlegalsolutions.org",
   "contactPoint": {
@@ -33,11 +31,11 @@ export const enhancedLocalBusinessSchema = {
     "areaServed": "Oklahoma",
     "hoursAvailable": {
       "@type": "OpeningHoursSpecification",
-      "description": "24/7 Emergency Service Available"
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "opens": "00:00",
+      "closes": "23:59"
     }
   },
-  
-  // Precise Geographic Information
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "564 E 138th PL",
@@ -51,16 +49,11 @@ export const enhancedLocalBusinessSchema = {
     "latitude": "35.9553",
     "longitude": "-95.9442"
   },
-  
-  // Enhanced Service Areas (All of Oklahoma)
   "areaServed": {
     "@type": "State",
     "name": "Oklahoma",
-    "@id": "https://en.wikipedia.org/wiki/Oklahoma",
-    "description": "Statewide process serving and legal document delivery throughout all 77 counties in Oklahoma"
+    "@id": "https://en.wikipedia.org/wiki/Oklahoma"
   },
-  
-  // Enhanced Business Hours
   "openingHours": [
     "Mo-Su 00:00-23:59"
   ],
@@ -69,17 +62,12 @@ export const enhancedLocalBusinessSchema = {
       "@type": "OpeningHoursSpecification",
       "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
       "opens": "00:00",
-      "closes": "23:59",
-      "description": "24/7 Emergency Service Available"
+      "closes": "23:59"
     }
   ],
-  
-  // Pricing Information
   "priceRange": "$35-$150",
   "paymentAccepted": ["Cash", "Check", "Credit Card", "Venmo", "PayPal", "Zelle"],
   "currenciesAccepted": "USD",
-  
-  // Services Offered
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
     "name": "Process Serving Services",
@@ -140,8 +128,6 @@ export const enhancedLocalBusinessSchema = {
       }
     ]
   },
-  
-  // Customer Reviews and Ratings
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "4.9",
@@ -149,8 +135,6 @@ export const enhancedLocalBusinessSchema = {
     "bestRating": "5",
     "worstRating": "1"
   },
-  
-  // Social Media and Citations
   "sameAs": [
     "https://www.facebook.com/justlegalsolutions",
     "https://www.linkedin.com/company/justlegalsolutions", 
@@ -161,8 +145,6 @@ export const enhancedLocalBusinessSchema = {
     "https://www.alignable.com/glenpool-ok/just-legal-solutions",
     "https://clutch.co/profile/just-legal-solutions"
   ],
-  
-  // Professional Certifications
   "hasCredential": [
     {
       "@type": "EducationalOccupationalCredential",
@@ -175,17 +157,11 @@ export const enhancedLocalBusinessSchema = {
       "name": "Professional Liability Insurance"
     }
   ],
-  
-  // Awards and Recognition
   "award": [
     "Top Process Server Tulsa County 2024",
     "Fastest Response Time Oklahoma 2024"
   ],
-  
-  // Operating Since
   "foundingDate": "2025-03-01",
-  
-  // Additional Properties for Rich Results
   "knowsAbout": [
     "Oklahoma Civil Procedure",
     "Legal Document Service",
@@ -193,7 +169,6 @@ export const enhancedLocalBusinessSchema = {
     "Skip Tracing",
     "Notary Services"
   ],
-  
   "memberOf": {
     "@type": "ProfessionalService",
     "name": "National Association of Professional Process Servers",

@@ -307,8 +307,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
         '@type': 'OpeningHoursSpecification',
         dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
         opens: '00:00',
-        closes: '23:59',
-        description: '24/7 Emergency Process Serving Available'
+        closes: '23:59'
       }
     ],
     sameAs: organization.sameAs || [
@@ -385,8 +384,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
         '@type': 'OpeningHoursSpecification',
         dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
         opens: '00:00',
-        closes: '23:59',
-        description: '24/7 Emergency Process Serving Available'
+        closes: '23:59'
       }
     ],
     /* Removed duplicate review to fix validation errors */
@@ -572,8 +570,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
       'ratingValue': aggregateRating.ratingValue ? aggregateRating.ratingValue : 4.9,
       'reviewCount': aggregateRating.reviewCount ? aggregateRating.reviewCount : 156,
       'bestRating': aggregateRating.bestRating ? aggregateRating.bestRating : 5,
-      'worstRating': aggregateRating.worstRating ? aggregateRating.worstRating : 1,
-      'description': 'Verified reviews from Google, Yelp, Facebook, and client testimonials'
+      'worstRating': aggregateRating.worstRating ? aggregateRating.worstRating : 1
     };
     
     // Add enhanced business hours for 2025
@@ -582,8 +579,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
         '@type': 'OpeningHoursSpecification',
         'dayOfWeek': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
         'opens': '00:00',
-        'closes': '23:59',
-        'description': '24/7 Emergency Process Serving Available'
+        'closes': '23:59'
       }
     ];
     
@@ -652,7 +648,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
   if (hasOfferCatalog && organizationSchema) {
     organizationSchema.hasOfferCatalog = {
       '@type': 'OfferCatalog',
-      'catalogName': hasOfferCatalog.name,
+      'name': hasOfferCatalog.name,
       'itemListElement': hasOfferCatalog.itemListElement.map(item => ({
         '@type': 'Offer',
         'name': item.name,

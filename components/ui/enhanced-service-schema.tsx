@@ -177,16 +177,14 @@ export default function EnhancedServiceSchema({
       "ratingValue": "4.9",
       "reviewCount": "156",
       "bestRating": "5",
-      "worstRating": "1",
-      "description": "Verified reviews from Google, Yelp, Facebook, and client testimonials"
+      "worstRating": "1"
     },
     "openingHoursSpecification": [
       {
         "@type": "OpeningHoursSpecification",
         "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
         "opens": "00:00",
-        "closes": "23:59",
-        "description": "24/7 Emergency Process Serving Available"
+        "closes": "23:59"
       }
     ],
     "review": [

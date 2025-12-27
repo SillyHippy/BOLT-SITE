@@ -128,8 +128,7 @@ export default function WebsiteSchema({
           "@type": "OpeningHoursSpecification",
           "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
           "opens": "00:00",
-          "closes": "23:59",
-          "description": "24/7 Emergency Process Serving Available"
+          "closes": "23:59"
         }
       ]
     },
