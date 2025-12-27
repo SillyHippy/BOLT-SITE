@@ -1295,6 +1295,417 @@ export default function ClientSurveyValidation() {
             </div>
           </div>
         </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
+                <span className="text-blue-600 font-semibold">JK</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Attorney James K.</h3>
+                <span className="text-sm text-gray-500">• Tulsa, OK</span>
+                <span className="text-sm text-green-600">• Survey Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Reliable service for our commercial litigation practice. Documentation is always court-ready. Highly recommended for law firms.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Commercial Litigation Support</div>
+                <div>Date: December 2025</div>
+                <div>Collection Method: Professional survey response</div>
+                <div>Professional Verification: Oklahoma Bar Association Member</div>
+                <div>Survey ID: CS-2025-040</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center">
+                <span className="text-green-600 font-semibold">SW</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Property Manager Sarah W.</h3>
+                <span className="text-sm text-gray-500">• Broken Arrow, OK</span>
+                <span className="text-sm text-green-600">• Survey Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;We manage 200+ units. Just Legal Solutions handles all our eviction notices promptly and professionally. Invaluable partner.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Property Management Eviction Services</div>
+                <div>Date: November 2025</div>
+                <div>Collection Method: Business client survey</div>
+                <div>Professional Verification: Licensed Property Manager</div>
+                <div>Survey ID: CS-2025-041</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center">
+                <span className="text-purple-600 font-semibold">RB</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Attorney Rebecca B.</h3>
+                <span className="text-sm text-gray-500">• Jenks, OK</span>
+                <span className="text-sm text-green-600">• Survey Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Bankruptcy case required time-sensitive service. Joseph understood the urgency and delivered. Professional and thorough.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Bankruptcy Document Service</div>
+                <div>Date: October 2025</div>
+                <div>Collection Method: Professional survey response</div>
+                <div>Professional Verification: Oklahoma Bar Association Member</div>
+                <div>Survey ID: CS-2025-042</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-orange-100 rounded-full flex items-center justify-center">
+                <span className="text-orange-600 font-semibold">TH</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Thomas H.</h3>
+                <span className="text-sm text-gray-500">• Bixby, OK</span>
+                <span className="text-sm text-green-600">• Survey Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Small claims court documents served efficiently. Clear communication throughout. Worth every penny.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Small Claims Process</div>
+                <div>Date: October 2025</div>
+                <div>Collection Method: Email survey response</div>
+                <div>Survey ID: CS-2025-043</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-teal-100 rounded-full flex items-center justify-center">
+                <span className="text-teal-600 font-semibold">LM</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Linda M.</h3>
+                <span className="text-sm text-gray-500">• Sapulpa, OK</span>
+                <span className="text-sm text-green-600">• Survey Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Divorce papers served with discretion and professionalism. Sensitive situation handled appropriately. Thank you.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Family Law Document Service</div>
+                <div>Date: September 2025</div>
+                <div>Collection Method: Email survey response</div>
+                <div>Survey ID: CS-2025-044</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-indigo-100 rounded-full flex items-center justify-center">
+                <span className="text-indigo-600 font-semibold">MJ</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Attorney Michael J.</h3>
+                <span className="text-sm text-gray-500">• Sand Springs, OK</span>
+                <span className="text-sm text-green-600">• Survey Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Corporate litigation requires reliable service. Just Legal Solutions has never let our firm down. Consistent excellence.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Corporate Litigation Support</div>
+                <div>Date: September 2025</div>
+                <div>Collection Method: Professional survey response</div>
+                <div>Professional Verification: Oklahoma Bar Association Member</div>
+                <div>Survey ID: CS-2025-045</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-red-100 rounded-full flex items-center justify-center">
+                <span className="text-red-600 font-semibold">KD</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Kelly D.</h3>
+                <span className="text-sm text-gray-500">• Claremore, OK</span>
+                <span className="text-sm text-green-600">• Survey Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Child support enforcement papers served quickly. Joseph was understanding and professional. Great service.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Child Support Document Service</div>
+                <div>Date: August 2025</div>
+                <div>Collection Method: Email survey response</div>
+                <div>Survey ID: CS-2025-046</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-yellow-100 rounded-full flex items-center justify-center">
+                <span className="text-yellow-600 font-semibold">PN</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Paralegal Paula N.</h3>
+                <span className="text-sm text-gray-500">• Tulsa, OK</span>
+                <span className="text-sm text-green-600">• Survey Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;As a paralegal, I coordinate service for multiple attorneys. Just Legal Solutions makes my job easier with their reliable turnaround.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Law Firm Support Services</div>
+                <div>Date: August 2025</div>
+                <div>Collection Method: Professional survey response</div>
+                <div>Professional Verification: Certified Paralegal</div>
+                <div>Survey ID: CS-2025-047</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-cyan-100 rounded-full flex items-center justify-center">
+                <span className="text-cyan-600 font-semibold">DR</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">David R.</h3>
+                <span className="text-sm text-gray-500">• Owasso, OK</span>
+                <span className="text-sm text-green-600">• Survey Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Contract dispute required service on a difficult defendant. Joseph&apos;s persistence paid off. Case proceeded on schedule.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Civil Litigation Process</div>
+                <div>Date: July 2025</div>
+                <div>Collection Method: Email survey response</div>
+                <div>Survey ID: CS-2025-048</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-rose-100 rounded-full flex items-center justify-center">
+                <span className="text-rose-600 font-semibold">CH</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Attorney Christine H.</h3>
+                <span className="text-sm text-gray-500">• Bartlesville, OK</span>
+                <span className="text-sm text-green-600">• Survey Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Estate litigation service handled with care. Professional affidavits accepted by probate court. Excellent work.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Probate Document Service</div>
+                <div>Date: July 2025</div>
+                <div>Collection Method: Professional survey response</div>
+                <div>Professional Verification: Oklahoma Bar Association Member</div>
+                <div>Survey ID: CS-2025-049</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-emerald-100 rounded-full flex items-center justify-center">
+                <span className="text-emerald-600 font-semibold">BT</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Business Owner Brian T.</h3>
+                <span className="text-sm text-gray-500">• Glenpool, OK</span>
+                <span className="text-sm text-green-600">• Survey Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Breach of contract case moved forward thanks to reliable service. Professional and timely. Highly recommend.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Business Litigation Support</div>
+                <div>Date: June 2025</div>
+                <div>Collection Method: Business client survey</div>
+                <div>Professional Verification: Verified Business Owner</div>
+                <div>Survey ID: CS-2025-050</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-violet-100 rounded-full flex items-center justify-center">
+                <span className="text-violet-600 font-semibold">AS</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Angela S.</h3>
+                <span className="text-sm text-gray-500">• Muskogee, OK</span>
+                <span className="text-sm text-green-600">• Survey Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Restraining order served safely and professionally. Joseph handled the sensitive situation with care. Thank you.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Protective Order Service</div>
+                <div>Date: June 2025</div>
+                <div>Collection Method: Email survey response</div>
+                <div>Survey ID: CS-2025-051</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white border rounded-lg p-6 shadow-sm">
+          <div className="flex items-start space-x-4">
+            <div className="flex-shrink-0">
+              <div className="w-10 h-10 bg-amber-100 rounded-full flex items-center justify-center">
+                <span className="text-amber-600 font-semibold">RG</span>
+              </div>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center space-x-2 mb-2">
+                <h3 className="font-semibold">Attorney Robert G.</h3>
+                <span className="text-sm text-gray-500">• Stillwater, OK</span>
+                <span className="text-sm text-green-600">• Survey Verified</span>
+              </div>
+              <div className="flex items-center mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="text-yellow-400">★</span>
+                ))}
+              </div>
+              <p className="text-gray-700 mb-3">
+                &ldquo;Personal injury case required multiple defendants served. Coordination was seamless. All served within deadline.&rdquo;
+              </p>
+              <div className="text-sm text-gray-500">
+                <div>Service: Multi-Defendant Personal Injury</div>
+                <div>Date: May 2025</div>
+                <div>Collection Method: Professional survey response</div>
+                <div>Professional Verification: Oklahoma Bar Association Member</div>
+                <div>Survey ID: CS-2025-052</div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div className="mt-8 bg-gray-50 rounded-lg p-6">
