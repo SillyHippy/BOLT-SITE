@@ -14,7 +14,7 @@ $enhancedLocationSchema = @"
   "name": "Just Legal Solutions",
   "alternateName": "Tulsa Process Server",
   "description": "Professional process serving in $city. Starting $30.",
-  "telephone": "(539) 367-6832",
+  "telephone": "+15393676832",
   "email": "info@justlegalsolutions.org",
   "url": "https://justlegalsolutions.org",
   "address": {

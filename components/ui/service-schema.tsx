@@ -33,7 +33,7 @@ export default function ServiceSchema({
         "postalCode": "74033",
         "addressCountry": "US"
       },
-      "telephone": "(539) 367-6832",
+      "telephone": "+15393676832",
       "url": "https://justlegalsolutions.org"
     },
     "areaServed": {

@@ -27,7 +27,7 @@ const SitemapPage = () => {
     "foundingDate": "2025-03-01",
     "contactPoint": [{
       "@type": "ContactPoint",
-      "telephone": "+1-539-367-6832",
+      "telephone": "+15393676832",
       "contactType": "customer service",
       "email": "info@justlegalsolutions.org",
       "areaServed": "US",

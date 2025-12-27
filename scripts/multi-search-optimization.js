@@ -208,7 +208,7 @@ function generateSearchEngineSchema() {
         ...config.structuredData,
         "name": "Just Legal Solutions",
         "url": "https://justlegalsolutions.org",
-        "telephone": "(539) 367-6832",
+        "telephone": "+15393676832",
         "email": "info@justlegalsolutions.org"
       });
     }

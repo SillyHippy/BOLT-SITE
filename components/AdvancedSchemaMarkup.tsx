@@ -17,7 +17,7 @@ export default function AdvancedSchemaMarkup({ pageType = 'home', serviceName }:
           "provider": {
             "@type": "LocalBusiness",
             "name": "Just Legal Solutions",
-            "telephone": "(539) 367-6832"
+            "telephone": "+15393676832"
           }
         };
       case 'pricing':

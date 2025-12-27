@@ -171,7 +171,7 @@ const localBusinessSchema = {
   "@id": "https://justlegalsolutions.org/#business-what-is",
   "name": "Just Legal Solutions",
   "url": "https://justlegalsolutions.org",
-  "telephone": "(539) 367-6832",
+  "telephone": "+15393676832",
   "email": "info@justlegalsolutions.org",
   "isAccessibleForFree": true,
   "image": "https://justlegalsolutions.org/images/jls-logo.webp",
@@ -444,7 +444,7 @@ const articleSchema = {
     "name": "Just Legal Solutions",
     "url": "https://justlegalsolutions.org/",
     "isAccessibleForFree": true,
-    "telephone": "(539) 367-6832",
+    "telephone": "+15393676832",
     "image": "https://justlegalsolutions.org/images/jls-logo.webp",
     "address": {
       "@type": "PostalAddress",
@@ -463,7 +463,7 @@ const articleSchema = {
     "name": "Just Legal Solutions",
     "url": "https://justlegalsolutions.org/",
     "isAccessibleForFree": true,
-    "telephone": "(539) 367-6832",
+    "telephone": "+15393676832",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "564 E 138th PL",
@@ -538,7 +538,7 @@ const enhancedArticleSchema = {
     "name": "Just Legal Solutions",
     "url": "https://justlegalsolutions.org",
     "isAccessibleForFree": true,
-    "telephone": "(539) 367-6832",
+    "telephone": "+15393676832",
     "image": "https://justlegalsolutions.org/images/jls-logo.webp",
     "address": {
       "@type": "PostalAddress",
@@ -557,7 +557,7 @@ const enhancedArticleSchema = {
     "name": "Just Legal Solutions",
     "url": "https://justlegalsolutions.org",
     "isAccessibleForFree": true,
-    "telephone": "(539) 367-6832",
+    "telephone": "+15393676832",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "564 E 138th PL",

@@ -31,7 +31,7 @@ export default function MainLayout({
             "@id": "https://justlegalsolutions.org/#main-organization",
             "name": "Just Legal Solutions",
             "url": "https://justlegalsolutions.org",
-            "telephone": "(539) 367-6832",
+            "telephone": "+15393676832",
             "email": "info@justlegalsolutions.org",
             "description": "Professional process serving company. Same-day service, licensed staff, competitive rates.",
             "image": "https://justlegalsolutions.org/images/jls-logo.webp",

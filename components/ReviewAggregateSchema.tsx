@@ -13,7 +13,7 @@ export default function ReviewAggregateSchema() {
         "@id": "https://justlegalsolutions.org/#organization",
         "name": "Just Legal Solutions",
         "url": "https://justlegalsolutions.org",
-        "telephone": "+1-539-367-6832"
+        "telephone": "+15393676832"
       },
       "ratingValue": "4.9",
       "ratingCount": "156",
@@ -52,7 +52,7 @@ export default function ReviewAggregateSchema() {
         "ratingValue": "4.9",
         "reviewCount": "156"
       },
-      "telephone": "+1-539-367-6832",
+      "telephone": "+15393676832",
       "priceRange": "$21-$105"
     },
     "provider": [

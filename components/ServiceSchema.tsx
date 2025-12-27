@@ -12,7 +12,7 @@ export default function ServiceSchema() {
       "@id": "https://justlegalsolutions.org/#organization",
       "name": "Just Legal Solutions",
       "url": "https://justlegalsolutions.org",
-      "telephone": "(539) 367-6832",
+      "telephone": "+15393676832",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "564 E 138th PL",

@@ -78,7 +78,7 @@ export default function AIOptimizedContentSchema({
         "postalCode": "74033",
         "addressCountry": "US"
       },
-      "telephone": "(539) 367-6832",
+      "telephone": "+15393676832",
       "priceRange": "$30-$200",
       "geo": {
         "@type": "GeoCoordinates",

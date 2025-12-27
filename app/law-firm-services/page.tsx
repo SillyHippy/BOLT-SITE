@@ -102,7 +102,7 @@ export default function LawFirmServicesPage() {
     "name": "Just Legal Solutions - Law Firm Services",
     "description": "Dedicated process serving partnership for Oklahoma law firms with flat-rate pricing, priority scheduling, and volume discounts.",
     "url": "https://justlegalsolutions.org/law-firm-services",
-    "telephone": "+1-539-367-6832",
+    "telephone": "+15393676832",
     "email": "info@justlegalsolutions.org",
     "priceRange": "$18-$105",
     "address": {

@@ -176,7 +176,7 @@ export function LocalSEOSchema({ city, service }: { city?: string; service?: str
     "description": `Professional process serving${service ? ` and ${service}` : ''} in ${city || 'Oklahoma'}${city ? `, Oklahoma` : ''}. Licensed and bonded process servers.`,
     "url": "https://justlegalsolutions.org",
     "image": "https://justlegalsolutions.org/images/jls-logo.webp",
-    "telephone": "(539) 367-6832",
+    "telephone": "+15393676832",
     "email": "info@justlegalsolutions.org",
     "address": {
       "@type": "PostalAddress",

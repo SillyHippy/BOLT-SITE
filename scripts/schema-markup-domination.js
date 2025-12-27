@@ -18,7 +18,7 @@ const advancedLocalBusinessSchema = {
   "name": "Just Legal Solutions",
   "description": "Licensed process server serving Tulsa County, Oklahoma. Bonded and insured court document service with same-day, rush, and standard options.",
   "url": "https://justlegalsolutions.org",
-  "telephone": "(539) 367-6832",
+  "telephone": "+15393676832",
   "email": "info@justlegalsolutions.org",
   "address": {
     "@type": "PostalAddress",
@@ -106,7 +106,7 @@ const processServingServiceSchema = {
   "provider": {
     "@type": "LocalBusiness",
     "name": "Just Legal Solutions",
-    "telephone": "(539) 367-6832",
+    "telephone": "+15393676832",
     "url": "https://justlegalsolutions.org"
   },
   "serviceType": "Legal Process Serving",
@@ -345,7 +345,7 @@ export default function AdvancedSchemaMarkup({ pageType = 'home', serviceName }:
           "provider": {
             "@type": "LocalBusiness",
             "name": "Just Legal Solutions",
-            "telephone": "(539) 367-6832"
+            "telephone": "+15393676832"
           }
         };
       case 'pricing':

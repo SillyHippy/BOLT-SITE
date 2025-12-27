@@ -45,7 +45,7 @@ export default function OkmulgeeCountyPage() {
     "description": "Professional process server for Okmulgee County, Oklahoma. Licensed and bonded legal document service.",
     "url": "https://justlegalsolutions.org/counties/okmulgee-county",
     "image": "https://justlegalsolutions.org/images/okmulgee-county-process-server.jpg",
-    "telephone": "(539) 367-6832",
+    "telephone": "+15393676832",
     "email": "info@justlegalsolutions.org",
     "address": {
       "@type": "PostalAddress",

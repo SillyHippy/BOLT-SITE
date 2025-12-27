@@ -19,7 +19,7 @@ const aiOptimizedSchema = {
   "description": "Licensed process server providing professional legal document delivery throughout Tulsa County. Bonded and insured with same-day, rush, and standard service options available.",
   "url": "https://justlegalsolutions.org",
   "image": "https://justlegalsolutions.org/jls-logo.png",
-  "telephone": "(539) 367-6832",
+  "telephone": "+15393676832",
   "email": "info@justlegalsolutions.org",
   "priceRange": "$30-$200",
   "address": {

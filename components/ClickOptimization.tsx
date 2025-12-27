@@ -21,7 +21,7 @@ export default function ClickOptimization({
     "description": "Professional process serving company. Same-day service, licensed staff, competitive rates.",
     "url": url,
     "image": image,
-    "telephone": "(539) 367-6832",
+    "telephone": "+15393676832",
     "priceRange": "$30-$200",
     "address": {
       "@type": "PostalAddress",

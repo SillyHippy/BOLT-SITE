@@ -23,11 +23,11 @@ export const enhancedLocalBusinessSchema = {
   ],
   
   // Enhanced Contact Information
-  "telephone": "(539) 367-6832",
+  "telephone": "+15393676832",
   "email": "info@justlegalsolutions.org",
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "(539) 367-6832",
+    "telephone": "+15393676832",
     "contactType": "customer service",
     "availableLanguage": "en",
     "areaServed": "Oklahoma",

@@ -60,7 +60,7 @@ export default function WebsiteSchema({
       "description": description,
       "url": url,
       "image": "https://justlegalsolutions.org/images/jls-logo.webp",
-      "telephone": "(539) 367-6832",
+      "telephone": "+15393676832",
       "email": "info@justlegalsolutions.org",
       "address": {
               "@type": "PostalAddress",

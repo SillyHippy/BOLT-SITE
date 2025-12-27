@@ -69,7 +69,7 @@ export default function WashingtonCountyProcessServer() {
       "@type": "ProfessionalService",
       "name": "Washington County Process Server - Just Legal Solutions",
       "url": "https://justlegalsolutions.org/counties/washington-county",
-      "telephone": "+1-539-367-6832",
+      "telephone": "+15393676832",
       "areaServed": [
         {
           "@type": "City",

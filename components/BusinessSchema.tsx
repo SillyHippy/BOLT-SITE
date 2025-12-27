@@ -10,7 +10,7 @@ export default function BusinessSchema() {
     "foundingDate": "2025-03-01",
     "slogan": "Over 50 Years' Combined Experience Serving Oklahoma's Legal Community",
     "url": "https://justlegalsolutions.org",
-    "telephone": "(539) 367-6832",
+    "telephone": "+15393676832",
     "email": "info@justlegalsolutions.org",
     "image": "https://justlegalsolutions.org/images/jls-logo.webp",
     "logo": {
