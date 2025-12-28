@@ -45,18 +45,3 @@ Crawl-delay: 1
 # Sitemaps
 Sitemap: https://justlegalsolutions.org/sitemap.xml
 Sitemap: https://justlegalsolutions.org/sitemap-images.xml
-
-# Emerging AI Platform Ready - Sun Dec 28 01:49:52 UTC 2025
-# Future-proofed for next-gen AI systems
-
-# Voice Search Optimization - Sun Dec 28 01:51:13 UTC 2025
-# Optimized for Alexa, Google Assistant, Siri
-
-# Competitive Intelligence Update - Sun Dec 28 02:23:04 UTC 2025
-# Market leader in Oklahoma process serving
-
-# AI Assistant Integration - Sun Dec 28 04:39:15 UTC 2025
-# Optimized for ChatGPT, Alexa, Google Assistant
-
-# AI Assistant Integration - Sun Dec 28 08:19:03 UTC 2025
-# Optimized for ChatGPT, Alexa, Google Assistant
