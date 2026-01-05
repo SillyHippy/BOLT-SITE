@@ -393,13 +393,37 @@ export default function OklahomaProcessServerBestPracticesChecklist2025() {
 
         {/* Internal links to related guides */}
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-2">Related Resources</h2>
-          <ul className="list-disc ml-6 mb-4">
-            <li><a href="/oklahoma-process-serving-costs-comparison-2025" className="text-blue-700 underline">Process Serving Costs Comparison</a></li>
-            <li><a href="/oklahoma-case-law-service-process-2025" className="text-blue-700 underline">Oklahoma Case Law on Service of Process</a></li>
-            <li><a href="/high-profile-service-protocols-tulsa-2025" className="text-blue-700 underline">High-Profile Service Protocols Tulsa</a></li>
-            <li><a href="/ai-skip-tracing-guide-oklahoma-2025" className="text-blue-700 underline">AI Skip Tracing Guide Oklahoma</a></li>
-          </ul>
+          <h2 className="text-2xl font-semibold mb-4">Related Resources</h2>
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="bg-white border border-gray-200 p-6 rounded-lg">
+              <h3 className="font-bold text-lg mb-3">Legal Guides</h3>
+              <ul className="space-y-2">
+                <li><a href="/oklahoma-process-server-laws" className="text-blue-700 underline">→ Oklahoma Process Server Laws</a></li>
+                <li><a href="/oklahoma-process-server-faq-2025" className="text-blue-700 underline">→ Process Server FAQ 2025</a></li>
+                <li><a href="/process-serving-mistakes-guide-2025" className="text-blue-700 underline">→ Top 10 Process Serving Mistakes</a></li>
+                <li><a href="/oklahoma-electronic-service-guide-2025" className="text-blue-700 underline">→ Electronic Service Guide</a></li>
+              </ul>
+            </div>
+            <div className="bg-white border border-gray-200 p-6 rounded-lg">
+              <h3 className="font-bold text-lg mb-3">Specialized Topics</h3>
+              <ul className="space-y-2">
+                <li><a href="/ai-skip-tracing-guide-oklahoma-2025" className="text-blue-700 underline">→ AI Skip Tracing Guide</a></li>
+                <li><a href="/family-law-service-guide-tulsa-2025" className="text-blue-700 underline">→ Family Law Service Guide</a></li>
+                <li><a href="/serving-legal-papers-on-tribal-land" className="text-blue-700 underline">→ Serving on Tribal Land</a></li>
+                <li><a href="/high-profile-service-protocols-tulsa-2025" className="text-blue-700 underline">→ High-Profile Service Protocols</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="mt-6 bg-green-50 border border-green-200 p-6 rounded-lg">
+            <h3 className="font-bold text-lg text-green-800 mb-3">Need Professional Process Serving?</h3>
+            <p className="text-gray-700 mb-4">Our licensed Oklahoma process servers follow all best practices and ensure court-compliant service every time.</p>
+            <div className="flex flex-wrap gap-4">
+              <a href="/contact" className="bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700">Contact Us</a>
+              <a href="/pricing" className="bg-white text-green-600 border border-green-600 px-6 py-3 rounded-lg font-semibold hover:bg-green-50">View Pricing</a>
+              <a href="/law-firm-services" className="bg-white text-green-600 border border-green-600 px-6 py-3 rounded-lg font-semibold hover:bg-green-50">Law Firm Services</a>
+            </div>
+          </div>
         </section>
 
       </main>

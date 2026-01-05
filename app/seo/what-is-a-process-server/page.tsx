@@ -2839,6 +2839,42 @@ export default function WhatIsAProcessServerPage() {
               </div>
             </section>
 
+            {/* Related Resources Section */}
+            <section className="mb-12">
+              <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Related Resources & Guides</h2>
+              <div className="grid md:grid-cols-3 gap-6">
+                <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm hover:shadow-md transition">
+                  <h3 className="font-bold text-gray-900 mb-3">📚 Process Serving Guides</h3>
+                  <ul className="space-y-2 text-sm">
+                    <li><a href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma Process Server Laws & Requirements</a></li>
+                    <li><a href="/oklahoma-process-server-faq-2025" className="text-blue-600 hover:underline">Frequently Asked Questions</a></li>
+                    <li><a href="/oklahoma-process-server-best-practices-checklist-2025" className="text-blue-600 hover:underline">Best Practices Checklist</a></li>
+                    <li><a href="/process-serving-mistakes-guide-2025" className="text-blue-600 hover:underline">Common Process Serving Mistakes</a></li>
+                  </ul>
+                </div>
+                
+                <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm hover:shadow-md transition">
+                  <h3 className="font-bold text-gray-900 mb-3">⚖️ Specialized Services</h3>
+                  <ul className="space-y-2 text-sm">
+                    <li><a href="/family-law-service-guide-tulsa-2025" className="text-blue-600 hover:underline">Family Law Service Guide</a></li>
+                    <li><a href="/oklahoma-electronic-service-guide-2025" className="text-blue-600 hover:underline">Electronic Service Guide</a></li>
+                    <li><a href="/serving-legal-papers-on-tribal-land" className="text-blue-600 hover:underline">Serving on Tribal Land</a></li>
+                    <li><a href="/ai-skip-tracing-guide-oklahoma-2025" className="text-blue-600 hover:underline">Skip Tracing Guide</a></li>
+                  </ul>
+                </div>
+                
+                <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm hover:shadow-md transition">
+                  <h3 className="font-bold text-gray-900 mb-3">📍 Service Areas</h3>
+                  <ul className="space-y-2 text-sm">
+                    <li><a href="/tulsa-process-server" className="text-blue-600 hover:underline">Tulsa Process Server</a></li>
+                    <li><a href="/service-areas/broken-arrow" className="text-blue-600 hover:underline">Broken Arrow Process Server</a></li>
+                    <li><a href="/service-areas/owasso" className="text-blue-600 hover:underline">Owasso Process Server</a></li>
+                    <li><a href="/counties/tulsa-county" className="text-blue-600 hover:underline">Tulsa County Process Server</a></li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+
             {/* Call-to-Action Section */}
             <section className="mb-12">
               <div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white p-8 rounded-lg text-center">

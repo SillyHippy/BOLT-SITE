@@ -97,6 +97,39 @@ export default function WeekendEmergency() {
             <p className="text-gray-700">We use the latest AI tools for route optimization, instant notifications, and secure document handling—ensuring your legal needs are met with speed and accuracy.</p>
           </div>
         </section>
+
+        {/* Related Resources Section */}
+        <section className="mb-10 bg-gray-50 p-6 rounded-lg">
+          <h2 className="text-2xl font-bold text-gray-800 mb-6">Explore Our Services & Resources</h2>
+          <div className="grid md:grid-cols-3 gap-6">
+            <div>
+              <h3 className="font-semibold text-red-700 mb-3">Emergency & Urgent Service</h3>
+              <ul className="space-y-2 text-sm">
+                <li><a href="/family-law-service-guide-tulsa-2025" className="text-blue-600 hover:underline">→ Family Law & Protective Orders</a></li>
+                <li><a href="/law-firm-services" className="text-blue-600 hover:underline">→ Law Firm Partnership Services</a></li>
+                <li><a href="/pricing" className="text-blue-600 hover:underline">→ View Our Pricing</a></li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="font-semibold text-blue-700 mb-3">Service Areas</h3>
+              <ul className="space-y-2 text-sm">
+                <li><a href="/tulsa-process-server" className="text-blue-600 hover:underline">→ Tulsa Process Server</a></li>
+                <li><a href="/service-areas/broken-arrow" className="text-blue-600 hover:underline">→ Broken Arrow Service</a></li>
+                <li><a href="/counties/tulsa-county" className="text-blue-600 hover:underline">→ Tulsa County Services</a></li>
+                <li><a href="/service-areas" className="text-blue-600 hover:underline">→ All Service Areas</a></li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="font-semibold text-green-700 mb-3">Helpful Guides</h3>
+              <ul className="space-y-2 text-sm">
+                <li><a href="/oklahoma-process-server-faq-2025" className="text-blue-600 hover:underline">→ Oklahoma Process Server FAQ</a></li>
+                <li><a href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">→ Oklahoma Process Server Laws</a></li>
+                <li><a href="/ai-skip-tracing-guide-oklahoma-2025" className="text-blue-600 hover:underline">→ Skip Tracing Services</a></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           '@context': 'https://schema.org',
           '@type': 'LegalService',

@@ -434,8 +434,27 @@ export default function AISkipTracingGuideOklahoma2025() {
                 <li><strong>Service Area:</strong> All 77 Oklahoma Counties</li>
             </ul>
         </section>
-      </main>
-      <Footer />
-    </>
-  );
-}
+
+        <section className="mb-8">
+          <h2 className="text-3xl font-semibold mb-4">📖 Related Guides & Resources</h2>
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="bg-white border border-gray-200 p-6 rounded-lg">
+              <h3 className="font-bold text-lg mb-3">Process Serving Guides</h3>
+              <ul className="space-y-2">
+                <li><a href="/oklahoma-process-server-faq-2025" className="text-blue-600 hover:underline">→ Oklahoma Process Server FAQ 2025</a></li>
+                <li><a href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">→ Oklahoma Process Server Laws Guide</a></li>
+                <li><a href="/oklahoma-process-server-best-practices-checklist-2025" className="text-blue-600 hover:underline">→ Best Practices Checklist</a></li>
+                <li><a href="/process-serving-mistakes-guide-2025" className="text-blue-600 hover:underline">→ Top 10 Mistakes to Avoid</a></li>
+              </ul>
+            </div>
+            <div className="bg-white border border-gray-200 p-6 rounded-lg">
+              <h3 className="font-bold text-lg mb-3">Specialized Services</h3>
+              <ul className="space-y-2">
+                <li><a href="/family-law-service-guide-tulsa-2025" className="text-blue-600 hover:underline">→ Family Law Service Guide</a></li>
+                <li><a href="/weekend-emergency" className="text-blue-600 hover:underline">→ Weekend & Emergency Service</a></li>
+                <li><a href="/law-firm-services" className="text-blue-600 hover:underline">→ Law Firm Partnership Services</a></li>
+                <li><a href="/pricing" className="text-blue-600 hover:underline">→ View Our Pricing</a></li>
+              </ul>
+            </div>
+          </div>
+        </section>

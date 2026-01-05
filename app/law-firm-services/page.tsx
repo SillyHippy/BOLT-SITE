@@ -410,6 +410,46 @@ export default function LawFirmServicesPage() {
             </div>
           </div>
         </section>
+
+        {/* Related Resources for Law Firms */}
+        <section className="py-12 px-4 bg-gray-50">
+          <div className="max-w-5xl mx-auto">
+            <h2 className="text-2xl font-bold text-center mb-8">Resources for Legal Professionals</h2>
+            <div className="grid md:grid-cols-3 gap-6">
+              <Link href="/oklahoma-process-server-laws" className="block bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+                <h3 className="font-bold text-lg text-blue-800 mb-2">📚 Oklahoma Laws Guide</h3>
+                <p className="text-gray-600 text-sm">Complete guide to Oklahoma process serving statutes and requirements.</p>
+              </Link>
+              <Link href="/oklahoma-process-server-faq-2025" className="block bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+                <h3 className="font-bold text-lg text-green-800 mb-2">❓ Process Server FAQ</h3>
+                <p className="text-gray-600 text-sm">Answers to common questions about process serving in Oklahoma.</p>
+              </Link>
+              <Link href="/family-law-service-guide-tulsa-2025" className="block bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+                <h3 className="font-bold text-lg text-purple-800 mb-2">👨‍👩‍👧 Family Law Guide</h3>
+                <p className="text-gray-600 text-sm">Specialized guide for serving protective orders and divorce papers.</p>
+              </Link>
+              <Link href="/ai-skip-tracing-guide-oklahoma-2025" className="block bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+                <h3 className="font-bold text-lg text-orange-800 mb-2">🔍 Skip Tracing Guide</h3>
+                <p className="text-gray-600 text-sm">AI-powered techniques for locating hard-to-find defendants.</p>
+              </Link>
+              <Link href="/oklahoma-electronic-service-guide-2025" className="block bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+                <h3 className="font-bold text-lg text-teal-800 mb-2">📧 E-Service Guide</h3>
+                <p className="text-gray-600 text-sm">When and how to use electronic service in Oklahoma courts.</p>
+              </Link>
+              <Link href="/weekend-emergency" className="block bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+                <h3 className="font-bold text-lg text-red-800 mb-2">🚨 Emergency Service</h3>
+                <p className="text-gray-600 text-sm">24/7 weekend and holiday process serving for urgent deadlines.</p>
+              </Link>
+            </div>
+            <div className="text-center mt-8">
+              <Link href="/pricing" className="text-blue-600 font-semibold hover:underline">View Complete Pricing →</Link>
+              {' | '}
+              <Link href="/contact" className="text-blue-600 font-semibold hover:underline">Contact Us →</Link>
+              {' | '}
+              <Link href="/about" className="text-blue-600 font-semibold hover:underline">About Our Team →</Link>
+            </div>
+          </div>
+        </section>
       </div>
     </>
   );

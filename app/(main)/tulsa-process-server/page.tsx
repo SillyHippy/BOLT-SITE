@@ -949,6 +949,57 @@ export default function TulsaProcessServerPage() {
           </div>
       </section>
 
+      {/* Explore More Resources Section */}
+      <section className="mb-12">
+        <h2 className="text-3xl font-bold text-center mb-8">Explore Our Resources & Service Areas</h2>
+        <div className="grid md:grid-cols-4 gap-6">
+          <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm hover:shadow-md transition">
+            <h3 className="font-bold text-gray-900 mb-4 text-lg">📍 Nearby Cities</h3>
+            <ul className="space-y-2 text-sm">
+              <li><Link href="/service-areas/broken-arrow" className="text-blue-600 hover:underline">Broken Arrow</Link></li>
+              <li><Link href="/service-areas/owasso" className="text-blue-600 hover:underline">Owasso</Link></li>
+              <li><Link href="/service-areas/bixby" className="text-blue-600 hover:underline">Bixby</Link></li>
+              <li><Link href="/service-areas/jenks" className="text-blue-600 hover:underline">Jenks</Link></li>
+              <li><Link href="/service-areas/sapulpa" className="text-blue-600 hover:underline">Sapulpa</Link></li>
+              <li><Link href="/service-areas/sand-springs" className="text-blue-600 hover:underline">Sand Springs</Link></li>
+            </ul>
+          </div>
+          
+          <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm hover:shadow-md transition">
+            <h3 className="font-bold text-gray-900 mb-4 text-lg">🏛️ County Coverage</h3>
+            <ul className="space-y-2 text-sm">
+              <li><Link href="/counties/tulsa-county" className="text-blue-600 hover:underline">Tulsa County</Link></li>
+              <li><Link href="/counties/creek-county" className="text-blue-600 hover:underline">Creek County</Link></li>
+              <li><Link href="/counties/wagoner-county" className="text-blue-600 hover:underline">Wagoner County</Link></li>
+              <li><Link href="/counties/rogers-county" className="text-blue-600 hover:underline">Rogers County</Link></li>
+              <li><Link href="/counties/osage-county" className="text-blue-600 hover:underline">Osage County</Link></li>
+            </ul>
+          </div>
+          
+          <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm hover:shadow-md transition">
+            <h3 className="font-bold text-gray-900 mb-4 text-lg">📚 Guides & Resources</h3>
+            <ul className="space-y-2 text-sm">
+              <li><Link href="/oklahoma-process-server-faq-2025" className="text-blue-600 hover:underline">Process Serving FAQ</Link></li>
+              <li><Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma Laws</Link></li>
+              <li><Link href="/oklahoma-process-server-pricing-2025" className="text-blue-600 hover:underline">Pricing Guide</Link></li>
+              <li><Link href="/oklahoma-process-server-best-practices-checklist-2025" className="text-blue-600 hover:underline">Best Practices</Link></li>
+              <li><Link href="/process-serving-mistakes-guide-2025" className="text-blue-600 hover:underline">Common Mistakes</Link></li>
+            </ul>
+          </div>
+          
+          <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm hover:shadow-md transition">
+            <h3 className="font-bold text-gray-900 mb-4 text-lg">⚖️ Specialized Services</h3>
+            <ul className="space-y-2 text-sm">
+              <li><Link href="/family-law-service-guide-tulsa-2025" className="text-blue-600 hover:underline">Family Law Services</Link></li>
+              <li><Link href="/weekend-emergency" className="text-blue-600 hover:underline">Emergency Service</Link></li>
+              <li><Link href="/law-firm-services" className="text-blue-600 hover:underline">Law Firm Services</Link></li>
+              <li><Link href="/ai-skip-tracing-guide-oklahoma-2025" className="text-blue-600 hover:underline">Skip Tracing</Link></li>
+              <li><Link href="/oklahoma-electronic-service-guide-2025" className="text-blue-600 hover:underline">Electronic Service</Link></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
       {/* Final CTA */}
       <section className="text-center mt-12">
           <h2 className="text-2xl font-bold mb-4">Have More Questions?</h2>

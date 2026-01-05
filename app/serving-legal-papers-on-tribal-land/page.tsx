@@ -569,6 +569,40 @@ export default function ServingLegalPapersOklahomaGuide() {
             <li>Oklahoma v. Castro-Huerta, 597 U.S. ___ (2022).</li>
           </ul>
         </section>
+
+        {/* Related Resources Section */}
+        <section className="mb-12 space-y-4">
+          <h2 className="text-3xl font-semibold">Related Guides & Resources</h2>
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="bg-white border border-gray-200 p-6 rounded-lg">
+              <h3 className="font-bold text-lg mb-3">Process Serving Guides</h3>
+              <ul className="space-y-2">
+                <li><a href="/oklahoma-process-server-laws" className="text-blue-700 underline">→ Oklahoma Process Server Laws</a></li>
+                <li><a href="/oklahoma-process-server-faq-2025" className="text-blue-700 underline">→ Process Server FAQ 2025</a></li>
+                <li><a href="/oklahoma-process-server-best-practices-checklist-2025" className="text-blue-700 underline">→ Best Practices Checklist</a></li>
+                <li><a href="/process-serving-mistakes-guide-2025" className="text-blue-700 underline">→ Common Mistakes to Avoid</a></li>
+              </ul>
+            </div>
+            <div className="bg-white border border-gray-200 p-6 rounded-lg">
+              <h3 className="font-bold text-lg mb-3">Specialized Services</h3>
+              <ul className="space-y-2">
+                <li><a href="/ai-skip-tracing-guide-oklahoma-2025" className="text-blue-700 underline">→ AI Skip Tracing Guide</a></li>
+                <li><a href="/family-law-service-guide-tulsa-2025" className="text-blue-700 underline">→ Family Law Service Guide</a></li>
+                <li><a href="/weekend-emergency" className="text-blue-700 underline">→ Emergency Service</a></li>
+                <li><a href="/law-firm-services" className="text-blue-700 underline">→ Law Firm Partnership</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="bg-blue-50 border border-blue-200 p-6 rounded-lg">
+            <h3 className="font-bold text-lg text-blue-800 mb-3">Need Help With Tribal Land Service?</h3>
+            <p className="text-gray-700 mb-4">Our experienced Oklahoma process servers understand the complexities of tribal jurisdiction and can help navigate your specific situation.</p>
+            <div className="flex flex-wrap gap-4">
+              <a href="/contact" className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700">Contact Us</a>
+              <a href="/pricing" className="bg-white text-blue-600 border border-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50">View Pricing</a>
+            </div>
+          </div>
+        </section>
       </main>
       <Footer />
     </>

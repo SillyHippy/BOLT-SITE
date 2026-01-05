@@ -130,11 +130,40 @@ export default function OklahomaProcessServerLaws() {
               <div className="bg-blue-50 p-6 rounded-lg mb-8">
                 <h4 className="font-bold mb-3">Common County Variations:</h4>
                 <ul className="space-y-2">
-                  <li>• <strong>Tulsa County:</strong> Requires registration with County Clerk</li>
+                  <li>• <strong><Link href="/counties/tulsa-county" className="text-blue-600 hover:underline">Tulsa County</Link>:</strong> Requires registration with County Clerk</li>
                   <li>• <strong>Oklahoma County:</strong> Specific bonding requirements</li>
                   <li>• <strong>Cleveland County:</strong> Additional documentation standards</li>
                   <li>• <strong>Comanche County:</strong> Enhanced military service protocols</li>
                 </ul>
+              </div>
+
+              <h3 className="text-2xl font-bold mb-4">Related Legal Guides</h3>
+              <div className="grid md:grid-cols-2 gap-4 mb-8">
+                <div className="bg-white p-4 border rounded-lg">
+                  <h4 className="font-semibold mb-2">📋 Best Practices</h4>
+                  <ul className="text-sm space-y-1">
+                    <li><Link href="/oklahoma-process-server-best-practices-checklist-2025" className="text-blue-600 hover:underline">Process Server Best Practices Checklist</Link></li>
+                    <li><Link href="/process-serving-mistakes-guide-2025" className="text-blue-600 hover:underline">Top 10 Process Serving Mistakes</Link></li>
+                    <li><Link href="/oklahoma-process-server-faq-2025" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ</Link></li>
+                  </ul>
+                </div>
+                <div className="bg-white p-4 border rounded-lg">
+                  <h4 className="font-semibold mb-2">⚖️ Specialized Topics</h4>
+                  <ul className="text-sm space-y-1">
+                    <li><Link href="/oklahoma-electronic-service-guide-2025" className="text-blue-600 hover:underline">Electronic Service Guide</Link></li>
+                    <li><Link href="/serving-legal-papers-on-tribal-land" className="text-blue-600 hover:underline">Serving Papers on Tribal Land</Link></li>
+                    <li><Link href="/family-law-service-guide-tulsa-2025" className="text-blue-600 hover:underline">Family Law Service Guide</Link></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded">
+                <h4 className="font-bold text-green-800 mb-2">Need Professional Process Serving?</h4>
+                <p className="text-green-700 mb-3">Our licensed Oklahoma process servers ensure full compliance with all state and county requirements.</p>
+                <div className="flex gap-4">
+                  <Link href="/contact" className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">Contact Us</Link>
+                  <Link href="/pricing" className="bg-white text-green-600 border border-green-600 px-4 py-2 rounded hover:bg-green-50">View Pricing</Link>
+                </div>
               </div>
             </div>
           </div>

@@ -339,7 +339,52 @@ export default function GlenpoolProcessServer() {
             </div>
           </section>
 
-          {/* Call to Action */}
+          {/* Explore More Resources */}
+          <section className="bg-white rounded-xl shadow-lg overflow-hidden mb-12">
+            <div className="p-6 bg-gradient-to-r from-purple-600 to-purple-700 text-white">
+              <h2 className="text-2xl font-bold mb-2">Explore More Resources</h2>
+              <p className="text-purple-100">Learn more about our services and nearby coverage areas</p>
+            </div>
+            <div className="p-8">
+              <div className="grid md:grid-cols-3 gap-6">
+                <div>
+                  <h3 className="font-bold text-gray-900 mb-4 text-lg">📍 Nearby Service Areas</h3>
+                  <ul className="space-y-2">
+                    <li><Link href="/tulsa-process-server" className="text-blue-600 hover:underline">Tulsa Process Server</Link></li>
+                    <li><Link href="/service-areas/sapulpa" className="text-blue-600 hover:underline">Sapulpa Process Server</Link></li>
+                    <li><Link href="/service-areas/jenks" className="text-blue-600 hover:underline">Jenks Process Server</Link></li>
+                    <li><Link href="/service-areas/bixby" className="text-blue-600 hover:underline">Bixby Process Server</Link></li>
+                    <li><Link href="/counties/tulsa-county" className="text-blue-600 hover:underline">Tulsa County Process Server</Link></li>
+                    <li><Link href="/counties/creek-county" className="text-blue-600 hover:underline">Creek County Process Server</Link></li>
+                  </ul>
+                </div>
+                
+                <div>
+                  <h3 className="font-bold text-gray-900 mb-4 text-lg">📚 Helpful Guides</h3>
+                  <ul className="space-y-2">
+                    <li><Link href="/oklahoma-process-server-faq-2025" className="text-blue-600 hover:underline">Process Serving FAQ</Link></li>
+                    <li><Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma Process Server Laws</Link></li>
+                    <li><Link href="/oklahoma-process-server-pricing-2025" className="text-blue-600 hover:underline">Pricing Guide</Link></li>
+                    <li><Link href="/family-law-service-guide-tulsa-2025" className="text-blue-600 hover:underline">Family Law Service Guide</Link></li>
+                    <li><Link href="/ai-skip-tracing-guide-oklahoma-2025" className="text-blue-600 hover:underline">Skip Tracing Guide</Link></li>
+                  </ul>
+                </div>
+                
+                <div>
+                  <h3 className="font-bold text-gray-900 mb-4 text-lg">🏢 Our Services</h3>
+                  <ul className="space-y-2">
+                    <li><Link href="/law-firm-services" className="text-blue-600 hover:underline">Law Firm Services</Link></li>
+                    <li><Link href="/weekend-emergency" className="text-blue-600 hover:underline">Emergency Process Service</Link></li>
+                    <li><Link href="/about" className="text-blue-600 hover:underline">About Just Legal Solutions</Link></li>
+                    <li><Link href="/contact" className="text-blue-600 hover:underline">Contact Us</Link></li>
+                    <li><Link href="/seo/what-is-a-process-server" className="text-blue-600 hover:underline">What is a Process Server?</Link></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* Call to Action */
           <section className="bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-xl shadow-lg overflow-hidden">
             <div className="p-8 text-center">
               <h2 className="text-3xl font-bold mb-4">Ready to Get Started?</h2>

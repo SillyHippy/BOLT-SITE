@@ -177,7 +177,7 @@ export default function OklahomaProcessServerFAQ2025() {
                   </tbody>
                 </table>
               </div>
-              <p><strong>Additional Fees:</strong> Extra attempts ($25 each), Skip tracing ($50-$150), Volume discounts available for law firms.</p>
+              <p><strong>Additional Fees:</strong> Extra attempts ($25 each), Skip tracing ($50-$150), Volume discounts available for law firms. <a href="/pricing" className="text-blue-600 hover:text-blue-800 underline">View our complete pricing guide →</a></p>
             </div>
 
             <div className="bg-white border border-gray-200 p-6 rounded shadow">
@@ -237,6 +237,7 @@ export default function OklahomaProcessServerFAQ2025() {
                 <li><strong>Electronic Service (12 O.S. § 12-158.1):</strong> Available with written consent from defendant</li>
                 <li><strong>Alternative Service (12 O.S. § 2004(D)):</strong> Court-ordered alternative methods when traditional service fails</li>
               </ul>
+              <p className="mt-4"><a href="/oklahoma-process-server-laws" className="text-blue-600 hover:text-blue-800 underline font-semibold">📚 Read our complete Oklahoma Process Server Laws Guide →</a></p>
             </div>
           </div>
         </section>
@@ -430,11 +431,28 @@ export default function OklahomaProcessServerFAQ2025() {
 
         <section className="mb-8">
           <h2 className="text-3xl font-semibold mb-4">Related Resources</h2>
-          <ul className="list-disc ml-6 mb-4">
-            <li><a href="/oklahoma-process-server-pricing-2025" className="text-blue-700 underline">Oklahoma Process Server Pricing Guide</a></li>
-            <li><a href="/oklahoma-process-server-technology-2025" className="text-blue-700 underline">Process Server Technology Trends</a></li>
-            <li><a href="/oklahoma-legal-service-areas-2025" className="text-blue-700 underline">Oklahoma Legal Service Areas Coverage</a></li>
-          </ul>
+          <div className="grid md:grid-cols-2 gap-4">
+            <div>
+              <h3 className="font-semibold mb-2">Guides & Tutorials</h3>
+              <ul className="list-disc ml-6 mb-4 space-y-1">
+                <li><a href="/oklahoma-process-server-pricing-2025" className="text-blue-700 underline">Oklahoma Process Server Pricing Guide</a></li>
+                <li><a href="/oklahoma-process-server-laws" className="text-blue-700 underline">Oklahoma Process Server Laws & Requirements</a></li>
+                <li><a href="/oklahoma-process-server-best-practices-checklist-2025" className="text-blue-700 underline">Process Server Best Practices Checklist</a></li>
+                <li><a href="/process-serving-mistakes-guide-2025" className="text-blue-700 underline">Top 10 Process Serving Mistakes to Avoid</a></li>
+                <li><a href="/ai-skip-tracing-guide-oklahoma-2025" className="text-blue-700 underline">AI-Powered Skip Tracing Guide</a></li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="font-semibold mb-2">Specialized Services</h3>
+              <ul className="list-disc ml-6 mb-4 space-y-1">
+                <li><a href="/family-law-service-guide-tulsa-2025" className="text-blue-700 underline">Family Law Service Guide</a></li>
+                <li><a href="/oklahoma-electronic-service-guide-2025" className="text-blue-700 underline">Electronic Service Guide</a></li>
+                <li><a href="/serving-legal-papers-on-tribal-land" className="text-blue-700 underline">Serving Papers on Tribal Land</a></li>
+                <li><a href="/weekend-emergency" className="text-blue-700 underline">Weekend & Emergency Service</a></li>
+                <li><a href="/law-firm-services" className="text-blue-700 underline">Law Firm Partnership Services</a></li>
+              </ul>
+            </div>
+          </div>
         </section>
 
         <div className="text-center bg-gray-50 p-6 rounded">

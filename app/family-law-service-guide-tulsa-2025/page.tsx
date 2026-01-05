@@ -152,11 +152,36 @@ export default function FamilyLawServiceGuideTulsa2025() {
         </section>
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-2">Related Resources</h2>
-          <ul className="list-disc ml-6 mb-4">
-            <li><a href="/oklahoma-process-server-best-practices-checklist-2025" className="text-blue-700 underline">Process Server Best Practices Checklist</a></li>
-            <li><a href="/oklahoma-process-serving-costs-comparison-2025" className="text-blue-700 underline">Process Serving Costs Comparison</a></li>
-            <li><a href="/oklahoma-case-law-service-process-2025" className="text-blue-700 underline">Oklahoma Case Law on Service of Process</a></li>
-          </ul>
+          <div className="grid md:grid-cols-2 gap-6">
+            <div>
+              <h3 className="font-semibold mb-2">Legal Guides</h3>
+              <ul className="list-disc ml-6 space-y-1">
+                <li><a href="/oklahoma-process-server-laws" className="text-blue-700 underline">Oklahoma Process Server Laws</a></li>
+                <li><a href="/oklahoma-process-server-best-practices-checklist-2025" className="text-blue-700 underline">Best Practices Checklist</a></li>
+                <li><a href="/oklahoma-electronic-service-guide-2025" className="text-blue-700 underline">Electronic Service Guide</a></li>
+                <li><a href="/oklahoma-case-law-service-process-2025" className="text-blue-700 underline">Oklahoma Case Law on Service</a></li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="font-semibold mb-2">Service Areas</h3>
+              <ul className="list-disc ml-6 space-y-1">
+                <li><a href="/tulsa-process-server" className="text-blue-700 underline">Tulsa Process Server</a></li>
+                <li><a href="/service-areas/broken-arrow" className="text-blue-700 underline">Broken Arrow Process Server</a></li>
+                <li><a href="/counties/tulsa-county" className="text-blue-700 underline">Tulsa County Service</a></li>
+                <li><a href="/service-areas" className="text-blue-700 underline">All Service Areas</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="mt-6 bg-green-50 border border-green-200 p-6 rounded-lg">
+            <h3 className="text-xl font-semibold mb-3 text-green-800">Need Family Law Process Serving in Tulsa?</h3>
+            <p className="mb-4 text-gray-700">Our experienced team handles sensitive family law cases with professionalism and discretion.</p>
+            <div className="flex flex-wrap gap-4">
+              <a href="/contact" className="bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700">Contact Us Today</a>
+              <a href="/pricing" className="bg-white text-green-600 border border-green-600 px-6 py-3 rounded-lg font-semibold hover:bg-green-50">View Pricing</a>
+              <a href="/weekend-emergency" className="bg-red-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-red-700">🚨 Emergency</a>
+            </div>
+          </div>
         </section>
       </main>
       <Footer />

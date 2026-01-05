@@ -1075,6 +1075,45 @@ export default function BrokenArrowProcessServer() {
             </div>
           </div>
         </section>
+
+        {/* Related Resources Section */}
+        <section className="py-12 bg-gray-50">
+          <div className="container mx-auto px-4">
+            <div className="max-w-5xl mx-auto">
+              <h2 className="text-2xl font-bold text-gray-800 mb-8 text-center">Explore More Resources</h2>
+              <div className="grid md:grid-cols-3 gap-6">
+                <div className="bg-white p-6 rounded-lg shadow-md">
+                  <h3 className="font-bold text-lg text-blue-800 mb-3">Nearby Service Areas</h3>
+                  <ul className="space-y-2 text-sm">
+                    <li><Link href="/tulsa-process-server" className="text-blue-600 hover:underline">Tulsa Process Server</Link></li>
+                    <li><Link href="/service-areas/bixby" className="text-blue-600 hover:underline">Bixby Process Server</Link></li>
+                    <li><Link href="/service-areas/owasso" className="text-blue-600 hover:underline">Owasso Process Server</Link></li>
+                    <li><Link href="/service-areas/wagoner" className="text-blue-600 hover:underline">Wagoner Process Server</Link></li>
+                    <li><Link href="/counties/tulsa-county" className="text-blue-600 hover:underline">Tulsa County Services</Link></li>
+                  </ul>
+                </div>
+                <div className="bg-white p-6 rounded-lg shadow-md">
+                  <h3 className="font-bold text-lg text-green-800 mb-3">Helpful Guides</h3>
+                  <ul className="space-y-2 text-sm">
+                    <li><Link href="/oklahoma-process-server-faq-2025" className="text-blue-600 hover:underline">Process Server FAQ</Link></li>
+                    <li><Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma Process Server Laws</Link></li>
+                    <li><Link href="/family-law-service-guide-tulsa-2025" className="text-blue-600 hover:underline">Family Law Service Guide</Link></li>
+                    <li><Link href="/ai-skip-tracing-guide-oklahoma-2025" className="text-blue-600 hover:underline">Skip Tracing Guide</Link></li>
+                  </ul>
+                </div>
+                <div className="bg-white p-6 rounded-lg shadow-md">
+                  <h3 className="font-bold text-lg text-purple-800 mb-3">Our Services</h3>
+                  <ul className="space-y-2 text-sm">
+                    <li><Link href="/law-firm-services" className="text-blue-600 hover:underline">Law Firm Partnership</Link></li>
+                    <li><Link href="/weekend-emergency" className="text-blue-600 hover:underline">Weekend & Emergency Service</Link></li>
+                    <li><Link href="/about" className="text-blue-600 hover:underline">About Just Legal Solutions</Link></li>
+                    <li><Link href="/contact" className="text-blue-600 hover:underline">Contact Us</Link></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
       <Footer />
     </div>

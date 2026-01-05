@@ -387,6 +387,56 @@ export default function Home() {
       {/* Owner Bio Section */}
       <OwnerBio />
       
+      {/* Explore Resources Section */}
+      <section className="py-16 bg-gray-50" aria-label="Resources and guides">
+        <div className="max-w-7xl mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-4 text-gray-900">Explore Our Resources</h2>
+          <p className="text-center text-gray-600 mb-12 max-w-3xl mx-auto">Learn more about process serving in Oklahoma with our comprehensive guides and educational resources</p>
+          <div className="grid md:grid-cols-4 gap-6">
+            <a href="/oklahoma-process-server-faq-2025" className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition text-center block">
+              <div className="text-3xl mb-3">❓</div>
+              <h3 className="font-bold text-gray-900 mb-2">FAQ</h3>
+              <p className="text-gray-600 text-sm">Common questions about process serving answered</p>
+            </a>
+            <a href="/oklahoma-process-server-laws" className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition text-center block">
+              <div className="text-3xl mb-3">📜</div>
+              <h3 className="font-bold text-gray-900 mb-2">Oklahoma Laws</h3>
+              <p className="text-gray-600 text-sm">Legal requirements for process serving</p>
+            </a>
+            <a href="/pricing" className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition text-center block">
+              <div className="text-3xl mb-3">💰</div>
+              <h3 className="font-bold text-gray-900 mb-2">Pricing</h3>
+              <p className="text-gray-600 text-sm">Transparent pricing for all services</p>
+            </a>
+            <a href="/seo/what-is-a-process-server" className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition text-center block">
+              <div className="text-3xl mb-3">📖</div>
+              <h3 className="font-bold text-gray-900 mb-2">What is a Process Server?</h3>
+              <p className="text-gray-600 text-sm">Complete guide to process serving</p>
+            </a>
+            <a href="/family-law-service-guide-tulsa-2025" className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition text-center block">
+              <div className="text-3xl mb-3">👨‍👩‍👧</div>
+              <h3 className="font-bold text-gray-900 mb-2">Family Law Guide</h3>
+              <p className="text-gray-600 text-sm">Specialized family law process serving</p>
+            </a>
+            <a href="/weekend-emergency" className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition text-center block">
+              <div className="text-3xl mb-3">🚨</div>
+              <h3 className="font-bold text-gray-900 mb-2">Emergency Service</h3>
+              <p className="text-gray-600 text-sm">24/7 weekend and emergency service</p>
+            </a>
+            <a href="/law-firm-services" className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition text-center block">
+              <div className="text-3xl mb-3">⚖️</div>
+              <h3 className="font-bold text-gray-900 mb-2">Law Firm Services</h3>
+              <p className="text-gray-600 text-sm">Partner solutions for legal professionals</p>
+            </a>
+            <a href="/tulsa-process-server" className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition text-center block">
+              <div className="text-3xl mb-3">📍</div>
+              <h3 className="font-bold text-gray-900 mb-2">Tulsa Process Server</h3>
+              <p className="text-gray-600 text-sm">Serving all of Tulsa County</p>
+            </a>
+          </div>
+        </div>
+      </section>
+      
       {/* Customer Reviews Section */}
       <ReviewWidget />
       
