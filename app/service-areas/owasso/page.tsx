@@ -331,7 +331,7 @@ export default function OwassoProcessServer() {
                 <div>
                   <h3 className="font-bold text-gray-900 mb-4 text-lg">📚 Helpful Guides</h3>
                   <ul className="space-y-2">
-                    <li><Link href="/oklahoma-process-server-faq-2025" className="text-blue-600 hover:underline">Process Serving FAQ</Link></li>
+                    <li><Link href="/oklahoma-process-server-faq-2026" className="text-blue-600 hover:underline">Process Serving FAQ 2026</Link></li>
                     <li><Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma Process Server Laws</Link></li>
                     <li><Link href="/oklahoma-process-server-pricing-2025" className="text-blue-600 hover:underline">Pricing Guide</Link></li>
                     <li><Link href="/family-law-service-guide-tulsa-2025" className="text-blue-600 hover:underline">Family Law Service Guide</Link></li>

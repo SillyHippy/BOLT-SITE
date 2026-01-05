@@ -157,7 +157,7 @@ export default function FamilyLawServiceGuideTulsa2025() {
               <h3 className="font-semibold mb-2">Legal Guides</h3>
               <ul className="list-disc ml-6 space-y-1">
                 <li><a href="/oklahoma-process-server-laws" className="text-blue-700 underline">Oklahoma Process Server Laws</a></li>
-                <li><a href="/oklahoma-process-server-best-practices-checklist-2025" className="text-blue-700 underline">Best Practices Checklist</a></li>
+                <li><a href="/oklahoma-process-server-best-practices-checklist-2026" className="text-blue-700 underline">Best Practices Checklist 2026</a></li>
                 <li><a href="/oklahoma-electronic-service-guide-2025" className="text-blue-700 underline">Electronic Service Guide</a></li>
                 <li><a href="/oklahoma-case-law-service-process-2025" className="text-blue-700 underline">Oklahoma Case Law on Service</a></li>
               </ul>

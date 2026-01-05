@@ -420,7 +420,7 @@ export default function LawFirmServicesPage() {
                 <h3 className="font-bold text-lg text-blue-800 mb-2">📚 Oklahoma Laws Guide</h3>
                 <p className="text-gray-600 text-sm">Complete guide to Oklahoma process serving statutes and requirements.</p>
               </Link>
-              <Link href="/oklahoma-process-server-faq-2025" className="block bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+              <Link href="/oklahoma-process-server-faq-2026" className="block bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
                 <h3 className="font-bold text-lg text-green-800 mb-2">❓ Process Server FAQ</h3>
                 <p className="text-gray-600 text-sm">Answers to common questions about process serving in Oklahoma.</p>
               </Link>

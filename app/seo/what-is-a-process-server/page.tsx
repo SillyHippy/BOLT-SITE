@@ -2097,7 +2097,7 @@ export default function WhatIsAProcessServerPage() {
             <section className="mb-12" id="faq">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 text-center voice-optimized">Frequently Asked Questions About Process Servers in Oklahoma</h2>
               <p className="text-center text-gray-600 mb-8 max-w-3xl mx-auto">
-                Get instant answers to the most common questions about process serving in Oklahoma. Click any question to expand the detailed answer. <Link href="/oklahoma-process-server-faq-2025" className="text-blue-600 hover:underline font-medium">View our complete FAQ page →</Link>
+                Get instant answers to the most common questions about process serving in Oklahoma. Click any question to expand the detailed answer. <Link href="/oklahoma-process-server-faq-2026" className="text-blue-600 hover:underline font-medium">View our complete FAQ page →</Link>
               </p>
               
               <div className="space-y-3 max-w-4xl mx-auto">
@@ -2847,8 +2847,8 @@ export default function WhatIsAProcessServerPage() {
                   <h3 className="font-bold text-gray-900 mb-3">📚 Process Serving Guides</h3>
                   <ul className="space-y-2 text-sm">
                     <li><a href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma Process Server Laws & Requirements</a></li>
-                    <li><a href="/oklahoma-process-server-faq-2025" className="text-blue-600 hover:underline">Frequently Asked Questions</a></li>
-                    <li><a href="/oklahoma-process-server-best-practices-checklist-2025" className="text-blue-600 hover:underline">Best Practices Checklist</a></li>
+                    <li><a href="/oklahoma-process-server-faq-2026" className="text-blue-600 hover:underline">Frequently Asked Questions 2026</a></li>
+                    <li><a href="/oklahoma-process-server-best-practices-checklist-2026" className="text-blue-600 hover:underline">Best Practices Checklist 2026</a></li>
                     <li><a href="/process-serving-mistakes-guide-2025" className="text-blue-600 hover:underline">Common Process Serving Mistakes</a></li>
                   </ul>
                 </div>

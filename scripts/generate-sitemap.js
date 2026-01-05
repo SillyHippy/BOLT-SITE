@@ -112,7 +112,11 @@ function generateSitemap() {
     // Excluding '/seo/tulsa-process-server-comprehensive' - content consolidated into main page
     
     // Sitemap
-    '/sitemap'
+    '/sitemap',
+    
+    // 2026 Updated Content Pages
+    '/oklahoma-process-server-faq-2026',
+    '/oklahoma-process-server-best-practices-checklist-2026'
   ];
   
   // Get URLs from existing files

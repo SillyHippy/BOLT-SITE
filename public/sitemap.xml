@@ -196,7 +196,13 @@
   <url>
     <loc>https://justlegalsolutions.org/oklahoma-process-server-best-practices-checklist-2025</loc>
     <lastmod>2026-01-05</lastmod>
-    <changefreq>hourly</changefreq>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://justlegalsolutions.org/oklahoma-process-server-best-practices-checklist-2026</loc>
+    <lastmod>2026-01-05</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
@@ -208,6 +214,15 @@
   <url>
     <loc>https://justlegalsolutions.org/oklahoma-process-server-faq-2025</loc>
     <lastmod>2026-01-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://justlegalsolutions.org/oklahoma-process-server-faq-2026</loc>
+    <lastmod>2026-01-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
     <changefreq>hourly</changefreq>
     <priority>0.95</priority>
   </url>

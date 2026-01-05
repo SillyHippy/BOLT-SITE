@@ -1,5 +1,9 @@
 # Cloudflare Pages redirects for SEO optimization
 
+# 2025 to 2026 Content Redirects - Fresh updated versions
+/oklahoma-process-server-faq-2025 /oklahoma-process-server-faq-2026 301
+/oklahoma-process-server-best-practices-checklist-2025 /oklahoma-process-server-best-practices-checklist-2026 301
+
 # Redirect old URLs to new consolidated service area pages
 /process-server-jenks /service-areas/jenks 301
 /seo/jenks-process-server /service-areas/jenks 301
@@ -8,7 +12,7 @@
 
 # Redirect broken URLs identified in audit
 /seo/process-server-oakhurst/ /service-areas/tulsa 301
-/seo/oklahoma-process-server-requirements/ /oklahoma-process-server-best-practices-checklist-2025 301
+/seo/oklahoma-process-server-requirements/ /oklahoma-process-server-best-practices-checklist-2026 301
 /seo/bixby-process-server/ /service-areas/bixby 301
 
 # Redirect tulsa-county to consolidated counties page

@@ -979,10 +979,10 @@ export default function TulsaProcessServerPage() {
           <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm hover:shadow-md transition">
             <h3 className="font-bold text-gray-900 mb-4 text-lg">📚 Guides & Resources</h3>
             <ul className="space-y-2 text-sm">
-              <li><Link href="/oklahoma-process-server-faq-2025" className="text-blue-600 hover:underline">Process Serving FAQ</Link></li>
+              <li><Link href="/oklahoma-process-server-faq-2026" className="text-blue-600 hover:underline">Process Serving FAQ 2026</Link></li>
               <li><Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma Laws</Link></li>
               <li><Link href="/oklahoma-process-server-pricing-2025" className="text-blue-600 hover:underline">Pricing Guide</Link></li>
-              <li><Link href="/oklahoma-process-server-best-practices-checklist-2025" className="text-blue-600 hover:underline">Best Practices</Link></li>
+              <li><Link href="/oklahoma-process-server-best-practices-checklist-2026" className="text-blue-600 hover:underline">Best Practices 2026</Link></li>
               <li><Link href="/process-serving-mistakes-guide-2025" className="text-blue-600 hover:underline">Common Mistakes</Link></li>
             </ul>
           </div>

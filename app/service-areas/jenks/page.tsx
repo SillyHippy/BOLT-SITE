@@ -133,7 +133,7 @@ const jenksLegalFAQs = [
   },
   {
     question: "What are the Oklahoma legal requirements for service in Jenks?",
-    answer: "Oklahoma law requires personal service by a licensed process server or sheriff. We follow all Oklahoma Rules of Civil Procedure for proper service in Jenks, including attempt timing, identification verification, and affidavit completion. Our service meets all court requirements for valid legal notice in Tulsa County jurisdiction. For detailed process serving standards, see our comprehensive <Link href='/oklahoma-process-server-best-practices-checklist-2025' className='text-blue-600 hover:text-blue-800 underline'>Oklahoma Process Server Best Practices Checklist</Link>."
+    answer: "Oklahoma law requires personal service by a licensed process server or sheriff. We follow all Oklahoma Rules of Civil Procedure for proper service in Jenks, including attempt timing, identification verification, and affidavit completion. Our service meets all court requirements for valid legal notice in Tulsa County jurisdiction. For detailed process serving standards, see our comprehensive <Link href='/oklahoma-process-server-best-practices-checklist-2026' className='text-blue-600 hover:text-blue-800 underline'>Oklahoma Process Server Best Practices Checklist 2026</Link>."
   },
   {
     question: "How do you ensure legally compliant service in Jenks?",
@@ -863,7 +863,7 @@ export default function JenksProcessServer() {
                     <h3 className="text-lg font-bold text-purple-900">Best Practices</h3>
                   </div>
                   <p className="text-sm text-gray-700 mb-3">Professional standards and best practices for process serving in Oklahoma</p>
-                  <Link href="/oklahoma-process-server-best-practices-checklist-2025" className="text-purple-600 hover:text-purple-800 underline font-semibold">
+                  <Link href="/oklahoma-process-server-best-practices-checklist-2026" className="text-purple-600 hover:text-purple-800 underline font-semibold">
                     Process Server Best Practices →
                   </Link>
                 </div>
@@ -885,8 +885,8 @@ export default function JenksProcessServer() {
                     <h3 className="text-lg font-bold text-teal-900">FAQ & General Info</h3>
                   </div>
                   <p className="text-sm text-gray-700 mb-3">Frequently asked questions about Oklahoma process serving</p>
-                  <Link href="/oklahoma-process-server-faq-2025" className="text-teal-600 hover:text-teal-800 underline font-semibold">
-                    Process Server FAQ →
+                  <Link href="/oklahoma-process-server-faq-2026" className="text-teal-600 hover:text-teal-800 underline font-semibold">
+                    Process Server FAQ 2026 →
                   </Link>
                 </div>
               </div>

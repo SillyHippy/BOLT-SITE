@@ -362,7 +362,7 @@ export default function GlenpoolProcessServer() {
                 <div>
                   <h3 className="font-bold text-gray-900 mb-4 text-lg">📚 Helpful Guides</h3>
                   <ul className="space-y-2">
-                    <li><Link href="/oklahoma-process-server-faq-2025" className="text-blue-600 hover:underline">Process Serving FAQ</Link></li>
+                    <li><Link href="/oklahoma-process-server-faq-2026" className="text-blue-600 hover:underline">Process Serving FAQ 2026</Link></li>
                     <li><Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma Process Server Laws</Link></li>
                     <li><Link href="/oklahoma-process-server-pricing-2025" className="text-blue-600 hover:underline">Pricing Guide</Link></li>
                     <li><Link href="/family-law-service-guide-tulsa-2025" className="text-blue-600 hover:underline">Family Law Service Guide</Link></li>
@@ -384,7 +384,7 @@ export default function GlenpoolProcessServer() {
             </div>
           </section>
 
-          {/* Call to Action */
+          {/* Call to Action */}
           <section className="bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-xl shadow-lg overflow-hidden">
             <div className="p-8 text-center">
               <h2 className="text-3xl font-bold mb-4">Ready to Get Started?</h2>

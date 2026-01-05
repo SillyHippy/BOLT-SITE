@@ -437,7 +437,7 @@ export default function OklahomaProcessServerFAQ2025() {
               <ul className="list-disc ml-6 mb-4 space-y-1">
                 <li><a href="/oklahoma-process-server-pricing-2025" className="text-blue-700 underline">Oklahoma Process Server Pricing Guide</a></li>
                 <li><a href="/oklahoma-process-server-laws" className="text-blue-700 underline">Oklahoma Process Server Laws & Requirements</a></li>
-                <li><a href="/oklahoma-process-server-best-practices-checklist-2025" className="text-blue-700 underline">Process Server Best Practices Checklist</a></li>
+                <li><a href="/oklahoma-process-server-best-practices-checklist-2026" className="text-blue-700 underline">Process Server Best Practices Checklist 2026</a></li>
                 <li><a href="/process-serving-mistakes-guide-2025" className="text-blue-700 underline">Top 10 Process Serving Mistakes to Avoid</a></li>
                 <li><a href="/ai-skip-tracing-guide-oklahoma-2025" className="text-blue-700 underline">AI-Powered Skip Tracing Guide</a></li>
               </ul>

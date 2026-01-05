@@ -273,7 +273,7 @@ export default function OklahomaElectronicServiceGuide2025() {
               <h3 className="font-bold text-lg mb-3">Process Serving Guides</h3>
               <ul className="space-y-2">
                 <li><a href="/oklahoma-process-server-laws" className="text-blue-700 underline">→ Oklahoma Process Server Laws</a></li>
-                <li><a href="/oklahoma-process-server-best-practices-checklist-2025" className="text-blue-700 underline">→ Best Practices Checklist</a></li>
+                <li><a href="/oklahoma-process-server-best-practices-checklist-2026" className="text-blue-700 underline">→ Best Practices Checklist 2026</a></li>
                 <li><a href="/oklahoma-process-server-faq-2025" className="text-blue-700 underline">→ Process Server FAQ 2025</a></li>
                 <li><a href="/process-serving-mistakes-guide-2025" className="text-blue-700 underline">→ Common Mistakes to Avoid</a></li>
               </ul>
