@@ -3,9 +3,9 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Law Firm Process Serving Services | 30% OFF Volume Pricing | Just Legal Solutions',
-  description: 'Dedicated process serving for Oklahoma law firms. Flat-rate $21 standard, $52 rush, $105 same-day. No mileage fees, volume discounts, priority scheduling, and dedicated account management. Call (539) 367-6832.',
-  keywords: 'law firm process server Oklahoma, attorney process serving, legal document delivery Tulsa, law firm partnership, volume discount process serving, corporate legal services Oklahoma',
+  title: 'Law Firm Process Serving | Volume Discounts | Just Legal Solutions',
+  description: 'Oklahoma law firm process serving with flat-rate statewide pricing, volume discounts for high-frequency firms, priority scheduling, monthly invoicing, and court-ready affidavits. Call (539) 367-6832.',
+  keywords: 'law firm process server Oklahoma, Tulsa law firm process serving, attorney process serving, litigation support for law firms, outsourced process serving for law firms, volume discount process serving, corporate legal services Oklahoma',
   openGraph: {
     title: 'Law Firm Process Serving Partnership | Just Legal Solutions',
     description: 'Exclusive process serving services for Oklahoma law firms with flat-rate pricing, priority scheduling, and volume discounts.',
@@ -22,8 +22,8 @@ export default function LawFirmServicesPage() {
     {
       icon: '💰',
       title: 'Flat-Rate Pricing',
-      description: 'No surprise mileage fees. service anywhere in all 77 Oklahoma counties.',
-      highlight: '30% OFF all services'
+      description: 'No surprise mileage fees. Service available anywhere in all 77 Oklahoma counties.',
+      highlight: 'Volume discounts for high-frequency firms'
     },
     {
       icon: '⚡',
@@ -62,37 +62,37 @@ export default function LawFirmServicesPage() {
       area: 'Family Law',
       icon: '👨‍👩‍👧',
       services: ['Divorce papers', 'Custody documents', 'Protective orders'],
-      needs: 'Discreet handling, weekend availability, sensitive situations'
+      needs: 'Discreet handling, weekend availability. Coordinate directly with paralegals and legal assistants for status updates.'
     },
     {
       area: 'Civil Litigation',
       icon: '⚖️',
       services: ['Summons & complaints', 'Subpoenas', 'Discovery documents'],
-      needs: 'High volume, court deadlines, detailed affidavits'
+      needs: 'Designed for high-volume Oklahoma litigation practices with strict court deadlines.'
     },
     {
       area: 'Real Estate & Property',
       icon: '🏠',
       services: ['Eviction notices', 'Property liens', 'Lease violations'],
-      needs: 'Quick turnaround, property manager partnerships'
+      needs: 'Quick turnaround for property managers. Batch serving for multi-unit evictions.'
     },
     {
       area: 'Corporate Law',
       icon: '🏢',
       services: ['Contract disputes', 'Business litigation', 'Corporate filings'],
-      needs: 'Multi-location service, confidential handling'
+      needs: 'Multi-location service, confidential handling. Coordinate with corporate counsel offices.'
     },
     {
       area: 'Bankruptcy',
       icon: '📊',
       services: ['Creditor notices', 'Court filings', 'Debtor service'],
-      needs: 'Strict deadline compliance, court-ready documentation'
+      needs: 'Strict deadline compliance. Court-ready documentation for Oklahoma bankruptcy courts.'
     },
     {
       area: 'Personal Injury',
       icon: '🏥',
       services: ['Demand letters', 'Medical subpoenas', 'Witness service'],
-      needs: 'Skip tracing for hard-to-find defendants'
+      needs: 'Skip tracing for hard-to-find defendants. Support for Tulsa PI litigation teams.'
     }
   ];
 
@@ -130,26 +130,27 @@ export default function LawFirmServicesPage() {
         {
           "@type": "Offer",
           "name": "Standard Process Serving",
-          "price": "21.00",
+          "price": "30.00",
           "priceCurrency": "USD",
-          "description": "3-5 business day service with 30% OFF"
+          "description": "3-5 business day service for Oklahoma law firms"
         },
         {
           "@type": "Offer",
           "name": "Rush Process Serving",
-          "price": "52.00",
+          "price": "75.00",
           "priceCurrency": "USD",
-          "description": "24-48 hour priority service with 30% OFF"
+          "description": "24-48 hour priority service for Oklahoma law firms"
         },
         {
           "@type": "Offer",
           "name": "Same-Day Emergency",
-          "price": "105.00",
+          "price": "150.00",
           "priceCurrency": "USD",
-          "description": "2-hour emergency service with 30% OFF"
+          "description": "2-4 hour emergency service for Oklahoma law firms"
         }
       ]
-    }
+    },
+    "serviceType": ["Process serving for law firms", "Litigation support", "Legal document delivery for Oklahoma law firms"]
   };
 
   return (
@@ -167,11 +168,11 @@ export default function LawFirmServicesPage() {
               ⚖️ EXCLUSIVE LAW FIRM PARTNERSHIP
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Process Serving Built for <span className="text-yellow-400">Law Firms</span>
+              Process Serving Built for <span className="text-yellow-400">Oklahoma Law Firms</span>
             </h1>
             <p className="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto">
-              Flat-rate pricing. Priority scheduling. Volume discounts. 
-              One call to (539) 367-6832 for all your Oklahoma process serving needs.
+              Flat-rate process serving for Oklahoma law firms with priority scheduling and volume discounts. 
+              One call to (539) 367-6832 for all your statewide process serving needs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -180,12 +181,6 @@ export default function LawFirmServicesPage() {
               >
                 📞 Call Now: (539) 367-6832
               </a>
-              <Link
-                href="/card/calendar"
-                className="inline-flex items-center justify-center px-8 py-4 bg-white text-blue-900 font-bold rounded-lg hover:bg-gray-100 transition-colors text-lg"
-              >
-                📅 Schedule Consultation
-              </Link>
             </div>
             <p className="mt-6 text-blue-200 text-sm">
               ✅ 156+ Five-Star Reviews | ✅ 50+ Years Combined Experience | ✅ All 77 OK Counties
@@ -196,9 +191,9 @@ export default function LawFirmServicesPage() {
         {/* Benefits Grid */}
         <section className="py-16 px-4 bg-white">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl font-bold text-center mb-4">Why Law Firms Choose Us</h2>
+            <h2 className="text-3xl font-bold text-center mb-4">Why Oklahoma Law Firms Choose Us</h2>
             <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-              Dedicated service designed specifically for the needs of legal professionals
+              Outsourced process serving designed specifically for Tulsa law firms and Oklahoma litigation practices. Litigation support you can count on.
             </p>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {lawFirmBenefits.map((benefit, index) => (
@@ -283,7 +278,10 @@ export default function LawFirmServicesPage() {
         {/* FAQ Section */}
         <section className="py-16 px-4 bg-white">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-bold text-center mb-12">Law Firm FAQ</h2>
+            <h2 className="text-3xl font-bold text-center mb-4">Law Firm FAQ</h2>
+            <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
+              Answers to common questions from Oklahoma law firms about volume pricing, invoicing, and emergency process serving.
+            </p>
             <div className="space-y-6">
               <div className="border-b pb-6">
                 <h3 className="font-bold text-lg mb-2">How does monthly invoicing work?</h3>
@@ -294,19 +292,19 @@ export default function LawFirmServicesPage() {
               <div className="border-b pb-6">
                 <h3 className="font-bold text-lg mb-2">What if a defendant is difficult to locate?</h3>
                 <p className="text-gray-600">
-                  Our $25 skip tracing service can locate hard-to-find individuals. We use multiple databases and investigative techniques. If we can&apos;t locate them, you don&apos;t pay the full skip tracing fee.
+                  Our skip tracing service starts at $25 and can locate hard-to-find individuals using multiple databases and investigative techniques. If we can&apos;t locate them after exhaustive research, you only pay a reduced $15 research fee—not the full skip tracing charge.
                 </p>
               </div>
               <div className="border-b pb-6">
                 <h3 className="font-bold text-lg mb-2">Do you cover rural Oklahoma counties?</h3>
                 <p className="text-gray-600">
-                  Yes! standard service in ALL 77 Oklahoma counties - from Tulsa County to the Panhandle. No mileage fees ever.
+                  Yes, standard service in all 77 Oklahoma counties—from Tulsa County to the Panhandle. No mileage fees on standard statewide serves; rare exceptions quoted upfront for extremely remote locations.
                 </p>
               </div>
               <div className="border-b pb-6">
                 <h3 className="font-bold text-lg mb-2">How fast can you serve in an emergency?</h3>
                 <p className="text-gray-600">
-                  Our same-day emergency service guarantees service within 2-4 hours in the Tulsa metro area. For urgent statewide needs, we coordinate immediate dispatch. Call (539) 367-6832 for emergencies.
+                  Our same-day emergency service targets service within 2–4 hours in the Tulsa metro area. For urgent statewide needs, we coordinate immediate dispatch. Call (539) 367-6832 for emergencies.
                 </p>
               </div>
               <div className="pb-6">
@@ -356,7 +354,7 @@ export default function LawFirmServicesPage() {
           <div className="max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold text-center mb-4">Statewide Oklahoma Coverage</h2>
             <p className="text-center text-gray-600 mb-8 max-w-2xl mx-auto">
-              One flat rate covers service anywhere in Oklahoma. No mileage fees, no surprise charges.
+              One flat rate covers service anywhere in Oklahoma. No mileage fees on standard serves, no surprise charges.
             </p>
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
@@ -373,14 +371,17 @@ export default function LawFirmServicesPage() {
                 </div>
                 <p className="mt-4 text-blue-700 font-semibold">+ All 77 Oklahoma Counties</p>
                 <p className="mt-2 text-gray-500 text-sm">
-                  From the Panhandle to the Red River, we cover every county at the same flat rate.
+                  From the Panhandle to the Red River, we cover every county at competitive flat rates.
                 </p>
+                <Link href="/service-areas" className="inline-block mt-4 text-blue-600 font-semibold hover:underline">
+                  See full Oklahoma process server service areas →
+                </Link>
               </div>
               <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-8 text-center">
                 <div className="text-5xl mb-4">🗺️</div>
-                <h4 className="text-xl font-bold text-blue-900 mb-2">No Mileage Fees</h4>
-                <p className="text-gray-600 mb-4">Unlike competitors who charge per-mile, our flat-rate covers travel statewide.</p>
-                <p className="text-2xl font-bold text-green-600">Save $50-$200+ per serve</p>
+                <h4 className="text-xl font-bold text-blue-900 mb-2">Flat-Rate Statewide</h4>
+                <p className="text-gray-600 mb-4">Unlike competitors who charge per-mile, our flat-rate covers standard serves statewide.</p>
+                <p className="text-2xl font-bold text-green-600">Save $50–$200+ per serve</p>
                 <p className="text-sm text-gray-500 mt-2">on rural and distant locations</p>
               </div>
             </div>
@@ -418,33 +419,46 @@ export default function LawFirmServicesPage() {
             <div className="grid md:grid-cols-3 gap-6">
               <Link href="/oklahoma-process-server-laws" className="block bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
                 <h3 className="font-bold text-lg text-blue-800 mb-2">📚 Oklahoma Laws Guide</h3>
-                <p className="text-gray-600 text-sm">Complete guide to Oklahoma process serving statutes and requirements.</p>
+                <p className="text-gray-600 text-sm">Use this guide to onboard new paralegals and staff quickly on Oklahoma service requirements.</p>
               </Link>
               <Link href="/oklahoma-process-server-faq-2026" className="block bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
                 <h3 className="font-bold text-lg text-green-800 mb-2">❓ Process Server FAQ</h3>
-                <p className="text-gray-600 text-sm">Answers to common questions about process serving in Oklahoma.</p>
+                <p className="text-gray-600 text-sm">Quick reference for common questions your litigation team may have about Oklahoma process serving.</p>
               </Link>
               <Link href="/family-law-service-guide-tulsa-2025" className="block bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
                 <h3 className="font-bold text-lg text-purple-800 mb-2">👨‍👩‍👧 Family Law Guide</h3>
-                <p className="text-gray-600 text-sm">Specialized guide for serving protective orders and divorce papers.</p>
+                <p className="text-gray-600 text-sm">Specialized procedures for serving protective orders and divorce papers in Oklahoma family courts.</p>
               </Link>
               <Link href="/ai-skip-tracing-guide-oklahoma-2025" className="block bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
                 <h3 className="font-bold text-lg text-orange-800 mb-2">🔍 Skip Tracing Guide</h3>
-                <p className="text-gray-600 text-sm">AI-powered techniques for locating hard-to-find defendants.</p>
+                <p className="text-gray-600 text-sm">Learn how we locate evasive defendants using AI-powered databases and investigative techniques.</p>
               </Link>
               <Link href="/oklahoma-electronic-service-guide-2025" className="block bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
                 <h3 className="font-bold text-lg text-teal-800 mb-2">📧 E-Service Guide</h3>
-                <p className="text-gray-600 text-sm">When and how to use electronic service in Oklahoma courts.</p>
+                <p className="text-gray-600 text-sm">When electronic service is permitted in Oklahoma courts and how to document consent.</p>
               </Link>
               <Link href="/weekend-emergency" className="block bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
                 <h3 className="font-bold text-lg text-red-800 mb-2">🚨 Emergency Service</h3>
-                <p className="text-gray-600 text-sm">24/7 weekend and holiday process serving for urgent deadlines.</p>
+                <p className="text-gray-600 text-sm">24/7 weekend and holiday process serving when your client faces urgent court deadlines.</p>
               </Link>
             </div>
+            
+            {/* Distinct CTA Button */}
+            <div className="mt-12 text-center bg-blue-900 rounded-xl p-8">
+              <h3 className="text-2xl font-bold text-white mb-4">Ready to Submit a Serve?</h3>
+              <p className="text-blue-200 mb-6">Law firm clients receive priority scheduling and dedicated account management.</p>
+              <Link 
+                href="/contact" 
+                className="inline-flex items-center justify-center px-8 py-4 bg-yellow-500 text-black font-bold rounded-lg hover:bg-yellow-400 transition-colors text-lg"
+              >
+                📋 Submit New Serve for Your Firm
+              </Link>
+            </div>
+            
             <div className="text-center mt-8">
               <Link href="/pricing" className="text-blue-600 font-semibold hover:underline">View Complete Pricing →</Link>
               {' | '}
-              <Link href="/contact" className="text-blue-600 font-semibold hover:underline">Contact Us →</Link>
+              <Link href="/service-areas" className="text-blue-600 font-semibold hover:underline">Service Areas →</Link>
               {' | '}
               <Link href="/about" className="text-blue-600 font-semibold hover:underline">About Our Team →</Link>
             </div>

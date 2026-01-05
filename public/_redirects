@@ -1,5 +1,8 @@
 # Cloudflare Pages redirects for SEO optimization
 
+# Services redirect to law-firm services (main services page)
+/services /law-firm-services 301
+
 # 2025 to 2026 Content Redirects - Fresh updated versions
 /oklahoma-process-server-faq-2025 /oklahoma-process-server-faq-2026 301
 /oklahoma-process-server-best-practices-checklist-2025 /oklahoma-process-server-best-practices-checklist-2026 301

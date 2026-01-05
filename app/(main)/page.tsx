@@ -20,7 +20,7 @@ import ReviewWidget from '@/components/ui/review-widget';
 
 export const metadata: Metadata = {
   title: {
-    absolute: 'Professional Process Server Tulsa County - Just Legal Solutions Oklahoma'
+    absolute: 'Tulsa Process Server | Just Legal Solutions Oklahoma'
   },
   description: getPromoDescription(
     'Expert process serving for Tulsa, Broken Arrow, Sapulpa, Glenpool & Oklahoma. 50+ years combined experience. Process serving starts at $30, with standard, rush and same-day options available',
@@ -88,20 +88,14 @@ export default function Home() {
           <div className="absolute inset-0 bg-black/60" />
         </div>
         <div className="relative h-full flex flex-col items-center justify-center text-white text-center px-4">
-          {/* SEO-optimized H1 - Hidden from users, visible to search engines */}
-          <h1 className="sr-only">Professional Process Server Tulsa County Oklahoma</h1>
+          {/* H1 - visible and SEO-optimized */}
+          <h1 className="text-4xl md:text-6xl font-bold mb-6 drop-shadow-lg">
+            Tulsa Process Server &amp; Courier Services
+          </h1>
           
-          {/* Visual heading - What users see */}
-          <div className="text-4xl md:text-6xl font-bold mb-6 drop-shadow-lg">Efficient Process Serving & Courier Solutions</div>
-          
-          {/* SEO-optimized description - Hidden from users, visible to search engines */}
-          <p className="sr-only">
-            At Just Legal Solutions, we provide expert legal document delivery services throughout Tulsa County, Broken Arrow, and Sapulpa. From routine legal papers to urgent same-day process serving, we deliver professional results at competitive rates.
-          </p>
-          
-          {/* Visual description - What users see */}
+          {/* Description - visible and SEO-friendly */}
           <p className="text-lg md:text-xl max-w-3xl drop-shadow-md mb-8">
-            At Just Legal Solutions, we offer comprehensive process serving, courier, &amp; other business services tailored to your needs. Whether it&apos;s routine, rush, or same-day service, we ensure statewide Oklahoma coverage at reasonable rates.
+            Professional process serving throughout Oklahoma. From routine legal papers to urgent same-day service in Tulsa, Broken Arrow, Sapulpa &amp; all 77 counties.
           </p>
           
           {/* Trust Badge - 50+ Years Experience */}
@@ -114,21 +108,7 @@ export default function Home() {
             </p>
           </div>
           
-          {/* SEO-ONLY Content - Hidden from users but visible to search engines */}
-          <div className="sr-only">
-            {/* Enhanced SEO content for better rankings */}
-            <h2>Professional Process Serving and Courier Services in Tulsa County, Oklahoma</h2>
-            <p>Just Legal Solutions provides comprehensive process serving and courier services throughout Tulsa County, including Tulsa, Broken Arrow, Sapulpa, Glenpool, Wagoner County, and Creek County. Our experienced team delivers professional legal document delivery services with same-day, rush, and standard service options to meet all your business needs.</p>
-            
-            <h3>Process Serving Services in Tulsa County</h3>
-            <p>Our certified process servers handle all types of legal document delivery including divorce papers, summons delivery, subpoena service, eviction notices, and court document transfers. We serve documents throughout Oklahoma with reliable, professional service that ensures proper legal compliance and timely delivery.</p>
-            
-            <h3>Legal Document Types We Serve</h3>
-            <p>Our process servers handle divorce papers, summons, subpoenas, eviction notices, court documents, business papers, contracts, legal notifications, and other legal documents requiring professional service. We ensure proper service of process in compliance with Oklahoma state laws and court requirements.</p>
-            
-            <h3>Business Solutions and Court Services</h3>
-            <p>Just Legal Solutions provides business solutions for law firms, attorneys, courts, and businesses requiring regular document delivery services. Our court-run transfers, electronic filing assistance, and skip tracing services support the legal community throughout Oklahoma with reliable, professional results.</p>
-          </div>
+
         </div>
       </section>
 

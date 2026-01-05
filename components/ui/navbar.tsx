@@ -59,6 +59,9 @@ export function Navbar() {
             <Link href="/pricing" className="text-gray-700 hover:text-gray-900">
               Pricing
             </Link>
+            <Link href="/service-areas" className="text-gray-700 hover:text-gray-900">
+              Service Areas
+            </Link>
             <a 
               href="/#courier-services" 
               className="text-gray-700 hover:text-gray-900 cursor-pointer"
@@ -66,8 +69,8 @@ export function Navbar() {
             >
               Courier Services
             </a>
-            <Link href="/services" className="text-gray-700 hover:text-gray-900">
-              Business Solutions
+            <Link href="/law-firm-services" className="text-gray-700 hover:text-gray-900">
+              Law Firm Services
             </Link>
             <Link href="/payments" className="text-gray-700 hover:text-gray-900">
               Payments
@@ -140,6 +143,13 @@ export function Navbar() {
             >
               Pricing
             </Link>
+            <Link
+              href="/service-areas"
+              className="px-6 py-3 text-gray-700 hover:bg-gray-100"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              Service Areas
+            </Link>
             <a
               href="/#courier-services"
               className="px-6 py-3 text-gray-700 hover:bg-gray-100 cursor-pointer"
@@ -148,11 +158,11 @@ export function Navbar() {
               Courier Services
             </a>
             <Link
-              href="/services"
+              href="/law-firm-services"
               className="px-6 py-3 text-gray-700 hover:bg-gray-100"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              Business Solutions
+              Law Firm Services
             </Link>
             <Link
               href="/payments"
