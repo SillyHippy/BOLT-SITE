@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+{/* Multi-Search Optimized */}
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://justlegalsolutions.org/about</loc>
@@ -195,7 +196,7 @@
   <url>
     <loc>https://justlegalsolutions.org/oklahoma-process-server-best-practices-checklist-2026</loc>
     <lastmod>2026-01-05</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
@@ -213,7 +214,7 @@
   <url>
     <loc>https://justlegalsolutions.org/oklahoma-process-server-faq-2026</loc>
     <lastmod>2026-01-05</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>0.95</priority>
   </url>
     <changefreq>hourly</changefreq>
@@ -613,18 +614,18 @@
     <loc>https://justlegalsolutions.org/seo/process-server-claremore/</loc>
     <lastmod>2026-01-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://justlegalsolutions.org/seo/process-server-bartlesville/</loc>
     <lastmod>2026-01-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://justlegalsolutions.org/seo/process-server-nowata/</loc>
     <lastmod>2026-01-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
 </urlset>
