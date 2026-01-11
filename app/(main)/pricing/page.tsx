@@ -1,6 +1,7 @@
 import React from 'react';
 import { Metadata } from 'next';
-import { CheckCircle, Truck } from 'lucide-react';
+import { CheckCircle, Truck, Clock, Zap, Flame, Target, Shield, Star, Phone, ArrowRight } from 'lucide-react';
+import Link from 'next/link';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import AIVoiceSupremacy from '@/components/ui/ai-voice-supremacy';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
@@ -177,22 +178,49 @@ export default function PricingPage() {
       <LocalPromoBanner zips={["74008", "74033", "74037"]} />
       
       <main className="min-h-screen bg-white font-sans">
-      <section className="pt-24 pb-10 px-4 bg-gray-100">
-        {/* Subtle change: No extra disclaimer box, keep original style */}
+      <section className="pt-24 pb-12 px-4 bg-gradient-to-br from-slate-50 via-blue-50 to-slate-100">
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-blue-900 mb-6">Process Server Pricing</h1>
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">JLS Wants to Partner with You</h2>
-          <p className="text-gray-700 text-lg font-medium max-w-4xl mx-auto mb-6">
-            <strong>If you don&apos;t see exactly what you&apos;re looking for</strong> in our service offerings, have a particularly complex or unique situation, or <strong>need more competitive pricing</strong>, we encourage you to reach out <strong>before exploring alternatives.</strong> We&apos;re happy to discuss your specific needs and create tailored solutions that work for you.
-          </p>
+          <h1 className="text-4xl md:text-5xl font-bold text-blue-900 mb-4">Process Server Pricing</h1>
+          <p className="text-xl text-gray-600 mb-6">Transparent, competitive rates for Oklahoma legal services</p>
           
-          <div className="max-w-4xl mx-auto text-gray-700 text-base leading-relaxed">
-            <p className="mb-4">
-              <strong className="text-blue-600">Volume Discounts:</strong> We offer automatic monthly discounts based on service volume. No contracts required.
+          {/* Trust Badges */}
+          <div className="flex flex-wrap justify-center gap-4 md:gap-8 mb-8">
+            <div className="flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-sm">
+              <Shield className="h-5 w-5 text-blue-600" />
+              <span className="text-sm font-medium text-gray-700">Licensed & Bonded</span>
+            </div>
+            <div className="flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-sm">
+              <Star className="h-5 w-5 text-yellow-500 fill-yellow-500" />
+              <span className="text-sm font-medium text-gray-700">4.9★ Rating (156 Reviews)</span>
+            </div>
+            <div className="flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-sm">
+              <Clock className="h-5 w-5 text-green-600" />
+              <span className="text-sm font-medium text-gray-700">Same-Day Available</span>
+            </div>
+          </div>
+          
+          <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 max-w-4xl mx-auto shadow-sm border border-gray-100">
+            <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">JLS Wants to Partner with You</h2>
+            <p className="text-gray-700 text-lg font-medium mb-6">
+              <strong>If you don&apos;t see exactly what you&apos;re looking for</strong> in our service offerings, have a particularly complex or unique situation, or <strong>need more competitive pricing</strong>, we encourage you to reach out <strong>before exploring alternatives.</strong>
             </p>
-            <p>
-              <strong className="text-blue-600">Partnership Opportunities:</strong> Dedicated account management with priority scheduling and custom billing arrangements. Streamlined processes for businesses requiring regular document delivery and service. Established clients with consistent business receive priority service and preferential rates.
-            </p>
+            
+            <div className="grid md:grid-cols-2 gap-4 text-left">
+              <div className="flex items-start gap-3">
+                <CheckCircle className="h-5 w-5 text-green-500 mt-0.5 flex-shrink-0" />
+                <div>
+                  <strong className="text-blue-600">Volume Discounts</strong>
+                  <p className="text-sm text-gray-600">Automatic monthly discounts based on service volume. No contracts required.</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="h-5 w-5 text-green-500 mt-0.5 flex-shrink-0" />
+                <div>
+                  <strong className="text-blue-600">Partnership Opportunities</strong>
+                  <p className="text-sm text-gray-600">Priority scheduling, custom billing, and preferential rates for established clients.</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -212,7 +240,10 @@ export default function PricingPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200 relative">
+            <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200 relative hover:shadow-lg hover:border-blue-200 transition-all duration-300 hover:-translate-y-1">
+              <div className="inline-flex items-center justify-center bg-gray-100 rounded-full p-2 mb-3">
+                <Clock className="h-6 w-6 text-gray-600" />
+              </div>
               <h3 className="text-xl font-bold mb-3 text-gray-900">Standard Service</h3>
               <div className="mb-3">
                 <p className="text-3xl font-bold text-green-600">$60</p>
@@ -223,7 +254,10 @@ export default function PricingPage() {
                 Ideal for routine document delivery.
               </p>
             </div>
-            <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200 relative">
+            <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200 relative hover:shadow-lg hover:border-blue-200 transition-all duration-300 hover:-translate-y-1">
+              <div className="inline-flex items-center justify-center bg-yellow-100 rounded-full p-2 mb-3">
+                <Zap className="h-6 w-6 text-yellow-600" />
+              </div>
               <h3 className="text-xl font-bold mb-3 text-gray-900">Rush Service</h3>
               <div className="mb-3">
                 <p className="text-3xl font-bold text-green-600">$100</p>
@@ -234,9 +268,12 @@ export default function PricingPage() {
                 For urgent demands that need immediate attention.
               </p>
             </div>
-            <div className="bg-white p-6 rounded-xl shadow-lg border-2 border-blue-500 relative">
+            <div className="bg-gradient-to-br from-blue-50 to-white p-6 rounded-xl shadow-lg border-2 border-blue-500 relative hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
               <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full">MOST POPULAR</span>
-              <h3 className="text-xl font-bold mb-3 text-blue-600 mt-2">Same-Day Rush</h3>
+              <div className="inline-flex items-center justify-center bg-orange-100 rounded-full p-2 mb-3 mt-2">
+                <Flame className="h-6 w-6 text-orange-500" />
+              </div>
+              <h3 className="text-xl font-bold mb-3 text-blue-600">Same-Day Rush</h3>
               <div className="mb-3">
                 <p className="text-3xl font-bold text-green-600">$150</p>
                 <p className="text-xs text-gray-400 mb-2">starting price</p>
@@ -246,7 +283,10 @@ export default function PricingPage() {
                 For the most urgent, time-critical matters.
               </p>
             </div>
-            <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200 relative">
+            <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200 relative hover:shadow-lg hover:border-blue-200 transition-all duration-300 hover:-translate-y-1">
+              <div className="inline-flex items-center justify-center bg-red-100 rounded-full p-2 mb-3">
+                <Target className="h-6 w-6 text-red-600" />
+              </div>
               <h3 className="text-xl font-bold mb-3 text-gray-900">Triple-Attempt Rush</h3>
               <div className="mb-3">
                 <p className="text-3xl font-bold text-green-600">$200</p>
@@ -257,6 +297,16 @@ export default function PricingPage() {
                 For evasive or hard-to-serve respondents.
               </p>
             </div>
+          </div>
+          
+          {/* CTA Button */}
+          <div className="text-center mt-10">
+            <a href="#contact" className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 text-lg">
+              <Phone className="h-5 w-5" />
+              Get a Free Quote
+              <ArrowRight className="h-5 w-5" />
+            </a>
+            <p className="text-sm text-gray-500 mt-3">Or call us directly: <a href="tel:5393676832" className="text-blue-600 font-semibold hover:underline">(539) 367-6832</a></p>
           </div>
         </div>
       </section>
@@ -273,13 +323,13 @@ export default function PricingPage() {
                 </p>
             </div>
             <div className="max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div className="bg-gray-50 p-8 rounded-xl border border-gray-200 text-center">
+                <div className="bg-gray-50 p-8 rounded-xl border border-gray-200 text-center hover:shadow-lg hover:border-blue-200 transition-all duration-300 hover:-translate-y-1">
                     <h3 className="text-2xl font-bold mb-2 text-gray-900">Standard Courier</h3>
                     <p className="text-4xl font-bold mb-4 text-gray-800">$60</p>
                     <p className="text-xs text-gray-400 mb-2">starting price</p>
                     <p className="text-gray-600">Delivery within the same business day or next morning for non-urgent items.</p>
                 </div>
-                 <div className="bg-gray-50 p-8 rounded-xl border border-gray-200 text-center">
+                 <div className="bg-gray-50 p-8 rounded-xl border border-gray-200 text-center hover:shadow-lg hover:border-blue-200 transition-all duration-300 hover:-translate-y-1">
                     <h3 className="text-2xl font-bold mb-2 text-gray-900">Rush Courier</h3>
                     <p className="text-4xl font-bold mb-4 text-gray-800">$100</p>
                     <p className="text-xs text-gray-400 mb-2">starting price</p>
