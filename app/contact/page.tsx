@@ -53,14 +53,7 @@ export const metadata = {
 
 import React from 'react';
 import Image from 'next/image';
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselPrevious,
-  CarouselNext,
-} from '@/components/ui/carousel';
-import Script from 'next/script';
+import { Shield, Star, Clock, Phone, Mail, MapPin, ArrowRight } from 'lucide-react';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 import GoogleSpecificOptimization from '@/components/ui/google-specific-optimization';
@@ -75,11 +68,11 @@ export default function ContactPage() {
   return (
     <>
       <Navbar />
-      <LocalPromoBanner zips={["74008", "74033", "74037"]} />
       
-      <Script id="contact-schema">
-        {`
-          {
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "ContactPage",
             "name": "Contact Just Legal Solutions",
@@ -106,34 +99,21 @@ export default function ContactPage() {
                 "longitude": "-95.9928"
               },
               "priceRange": "$30-$200",
-              "openingHours": [
-                "Mo-Su 00:00-23:59"
-              ],
-              "openingHoursSpecification": [
-                {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-                  "opens": "00:00",
-                  "closes": "23:59",
-                  "description": "24/7 Emergency Process Serving Available"
-                }
-              ],
-              "review": [
-                {
-                  "@type": "Review",
-                  "author": {
-                    "@type": "Person",
-                    "name": "Oklahoma Client"
-                  },
-                  "reviewRating": {
-                    "@type": "Rating",
-                    "ratingValue": "5",
-                    "bestRating": "5"
-                  },
-                  "reviewBody": "Professional and reliable process serving throughout Oklahoma.",
-                  "datePublished": "2024-11-05"
-                }
-              ],
+              "openingHours": ["Mo-Su 00:00-23:59"],
+              "openingHoursSpecification": [{
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+                "opens": "00:00",
+                "closes": "23:59",
+                "description": "24/7 Emergency Process Serving Available"
+              }],
+              "review": [{
+                "@type": "Review",
+                "author": { "@type": "Person", "name": "Oklahoma Client" },
+                "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+                "reviewBody": "Professional and reliable process serving throughout Oklahoma.",
+                "datePublished": "2024-11-05"
+              }],
               "contactPoint": {
                 "@type": "ContactPoint",
                 "telephone": "+15393676832",
@@ -149,32 +129,20 @@ export default function ContactPage() {
                 "height": 60
               },
               "description": "Professional process serving and legal document delivery throughout Oklahoma with same-day service available.",
-              "serviceArea": {
-                "@type": "State",
-                "name": "Oklahoma"
-              },
+              "serviceArea": { "@type": "State", "name": "Oklahoma" },
               "areaServed": [
-                {
-                  "@type": "State",
-                  "name": "Oklahoma"
-                },
-                {
-                  "@type": "City",
-                  "name": "Tulsa"
-                },
-                {
-                  "@type": "City",
-                  "name": "Broken Arrow"
-                }
+                { "@type": "State", "name": "Oklahoma" },
+                { "@type": "City", "name": "Tulsa" },
+                { "@type": "City", "name": "Broken Arrow" }
               ],
               "paymentAccepted": ["Cash", "Credit Card", "Check"],
               "currenciesAccepted": "USD",
               "foundingDate": "2025-03-01",
               "slogan": "Oklahoma's #1 Process Server - Professional, Fast, Reliable"
             }
-          }
-        `}
-      </Script>
+          })
+        }}
+      />
 
       <GoogleSpecificOptimization />
       <BingYahooOptimization />
@@ -187,131 +155,116 @@ export default function ContactPage() {
         ]} 
       />
 
-      <main className="min-h-screen bg-gray-50 pt-24 pb-12">
-        <section className="max-w-3xl mx-auto bg-white rounded-lg shadow-md p-6 mb-8">
-          <h1 className="text-3xl font-bold mb-2 text-blue-900">Contact Just Legal Solutions</h1>
-          <p className="mb-4 text-gray-700">Reach out for professional process serving, courier, and business services in Tulsa County and across Oklahoma. Fast, reliable, and confidential.</p>
-          {/* Badge carousel: show all badges in a continuous row, smooth rotation */}
-          <div className="mb-8">
-            <Carousel className="w-full max-w-2xl mx-auto" opts={{ loop: true, duration: 6000 }}>
-              <CarouselContent className="flex gap-8 items-center">
-                <CarouselItem className="basis-auto flex-shrink-0 w-auto">
-                  <Image src="/badges/5-star-google-rating-badge.svg" alt="5-Star Google Rating" width={110} height={110} className="h-24 w-auto" priority />
-                </CarouselItem>
-                <CarouselItem className="basis-auto flex-shrink-0 w-auto">
-                  <Image src="/badges/licensed-bonded-badge.svg" alt="Licensed & Bonded" width={110} height={110} className="h-24 w-auto" />
-                </CarouselItem>
-                <CarouselItem className="basis-auto flex-shrink-0 w-auto">
-                  <Image src="/badges/court-certified-professional-badge.svg" alt="Court Certified Professional" width={110} height={110} className="h-24 w-auto" />
-                </CarouselItem>
-                <CarouselItem className="basis-auto flex-shrink-0 w-auto">
-                  <Image src="/badges/oklahoma-statewide-coverage-badge.svg" alt="Oklahoma Statewide Coverage" width={110} height={110} className="h-24 w-auto" />
-                </CarouselItem>
-                <CarouselItem className="basis-auto flex-shrink-0 w-auto">
-                  <Image src="/badges/secure-payment-processing-badge.svg" alt="Secure Payment Processing" width={110} height={110} className="h-24 w-auto" />
-                </CarouselItem>
-                <CarouselItem className="basis-auto flex-shrink-0 w-auto">
-                  <Image src="/badges/locally-owned-operated-badge.svg" alt="Locally Owned & Operated Oklahoma Badge" width={110} height={110} className="h-24 w-auto" />
-                </CarouselItem>
-              </CarouselContent>
-              <CarouselPrevious />
-              <CarouselNext />
-            </Carousel>
+      <main className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+        {/* Hero Section */}
+        <section className="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 text-white pt-20 pb-16">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto text-center">
+              {/* Trust Badges */}
+              <div className="flex flex-wrap justify-center gap-4 mb-8">
+                <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                  <Shield className="w-5 h-5 text-green-400" />
+                  <span className="text-sm font-medium">Licensed & Bonded</span>
+                </div>
+                <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                  <Star className="w-5 h-5 text-yellow-400 fill-yellow-400" />
+                  <span className="text-sm font-medium">4.9★ Rating</span>
+                </div>
+                <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                  <Clock className="w-5 h-5 text-blue-300" />
+                  <span className="text-sm font-medium">24/7 Available</span>
+                </div>
+              </div>
+              
+              <h1 className="text-4xl md:text-5xl font-extrabold mb-6 drop-shadow-lg">Contact Just Legal Solutions</h1>
+              <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">Professional process serving, courier, and business services in Tulsa County and across Oklahoma.</p>
+            
+              {/* Quick Contact Cards */}
+              <div className="grid md:grid-cols-2 gap-4 max-w-2xl mx-auto">
+                <a href="tel:5393676832" className="bg-white/10 backdrop-blur-sm p-6 rounded-xl hover:bg-white/20 transition-all duration-300 hover:-translate-y-1 group">
+                  <Phone className="h-8 w-8 text-white mx-auto mb-3 group-hover:scale-110 transition-transform" />
+                  <h3 className="font-bold text-white mb-1">Call Us</h3>
+                  <p className="text-blue-100 font-semibold">(539) 367-6832</p>
+                </a>
+                <a href="mailto:info@justlegalsolutions.org" className="bg-white/10 backdrop-blur-sm p-6 rounded-xl hover:bg-white/20 transition-all duration-300 hover:-translate-y-1 group">
+                  <Mail className="h-8 w-8 text-white mx-auto mb-3 group-hover:scale-110 transition-transform" />
+                  <h3 className="font-bold text-white mb-1">Email Us</h3>
+                  <p className="text-blue-100 font-semibold text-sm">info@justlegalsolutions.org</p>
+                </a>
+              </div>
+            </div>
           </div>
-          <div className="mb-4">
-            <a href="tel:5393676832" className="text-lg font-semibold text-blue-700 hover:underline">Call: (539) 367-6832</a><br />
-            <a href="mailto:info@justlegalsolutions.org" className="text-blue-700 hover:underline">info@justlegalsolutions.org</a>
+        </section>
+        
+        <section className="max-w-4xl bg-white rounded-2xl shadow-xl p-8 my-12 mx-4 md:mx-auto border border-gray-100">
+          {/* Clean badge grid */}
+          <div className="flex flex-wrap justify-center items-center gap-6 mb-8">
+            <Image src="/badges/5-star-google-rating-badge.svg" alt="5-Star Google Rating" width={80} height={80} className="h-16 w-auto opacity-90 hover:opacity-100 transition-opacity" priority />
+            <Image src="/badges/licensed-bonded-badge.svg" alt="Licensed & Bonded" width={80} height={80} className="h-16 w-auto opacity-90 hover:opacity-100 transition-opacity" />
+            <Image src="/badges/court-certified-professional-badge.svg" alt="Court Certified Professional" width={80} height={80} className="h-16 w-auto opacity-90 hover:opacity-100 transition-opacity" />
+            <Image src="/badges/oklahoma-statewide-coverage-badge.svg" alt="Oklahoma Statewide Coverage" width={80} height={80} className="h-16 w-auto opacity-90 hover:opacity-100 transition-opacity" />
+            <Image src="/badges/secure-payment-processing-badge.svg" alt="Secure Payment Processing" width={80} height={80} className="h-16 w-auto opacity-90 hover:opacity-100 transition-opacity" />
           </div>
-          <nav className="mb-6 flex flex-wrap justify-center gap-2 md:gap-4">
-            <a href="/services" className="text-blue-600 hover:underline font-medium">Our Services</a>
-            <a href="/pricing" className="text-blue-600 hover:underline font-medium">Pricing</a>
-            <a href="/faq" className="text-blue-600 hover:underline font-medium">FAQ</a>
-            <a href="/about" className="text-blue-600 hover:underline font-medium">About Us</a>
-            <a href="/resources" className="text-blue-600 hover:underline font-medium">Resources</a>
-            <a href="/service-areas" className="text-blue-600 hover:underline font-medium">Service Areas</a>
+          
+          {/* Quick Links */}
+          <nav className="mb-8 flex flex-wrap justify-center gap-3 md:gap-6">
+            <a href="/services" className="text-blue-600 hover:text-blue-800 font-medium transition-colors">Our Services</a>
+            <a href="/pricing" className="text-blue-600 hover:text-blue-800 font-medium transition-colors">Pricing</a>
+            <a href="/faq" className="text-blue-600 hover:text-blue-800 font-medium transition-colors">FAQ</a>
+            <a href="/about" className="text-blue-600 hover:text-blue-800 font-medium transition-colors">About Us</a>
+            <a href="/service-areas" className="text-blue-600 hover:text-blue-800 font-medium transition-colors">Service Areas</a>
           </nav>
-          {/* Reviews carousel only, no badge next to it */}
-          <div className="mb-8">
-            <Carousel className="w-full max-w-xl mx-auto">
-              <CarouselContent>
-                <CarouselItem>
-                  <blockquote className="border-l-4 border-blue-400 pl-4 italic text-gray-800 mb-2">
-                    &quot;Fast, professional, and reliable! Just Legal Solutions made the process easy and stress-free.&quot;
-                    <br />
-                    <span className="text-sm text-gray-500">- Sarah T., <a href="/tulsa-process-server" className="text-blue-600 hover:underline">Tulsa</a></span>
-                  </blockquote>
-                </CarouselItem>
-                <CarouselItem>
-                  <blockquote className="border-l-4 border-blue-400 pl-4 italic text-gray-800 mb-2">
-                    &quot;Highly recommend for anyone needing process serving in Oklahoma. Great communication and results.&quot;
-                    <br />
-                    <span className="text-sm text-gray-500">- Mark D., <a href="/service-areas/broken-arrow" className="text-blue-600 hover:underline">Broken Arrow</a></span>
-                  </blockquote>
-                </CarouselItem>
-                <CarouselItem>
-                  <blockquote className="border-l-4 border-blue-400 pl-4 italic text-gray-800">
-                    &quot;Very knowledgeable and trustworthy. Will use again!&quot;
-                    <br />
-                    <span className="text-sm text-gray-500">- Lisa W., <a href="/seo/owasso-process-server" className="text-blue-600 hover:underline">Owasso</a></span>
-                  </blockquote>
-                </CarouselItem>
-                <CarouselItem>
-                  <blockquote className="border-l-4 border-blue-400 pl-4 italic text-gray-800">
-                    &quot;Best process server in <a href="/service-areas/bixby" className="text-blue-600 hover:underline">Bixby</a>! Fast and affordable.&quot;
-                    <br />
-                    <span className="text-sm text-gray-500">- John S., <a href="/service-areas/bixby" className="text-blue-600 hover:underline">Bixby</a></span>
-                  </blockquote>
-                </CarouselItem>
-                <CarouselItem>
-                  <blockquote className="border-l-4 border-blue-400 pl-4 italic text-gray-800">
-                    &quot;Handled my legal documents in <a href="/service-areas/jenks" className="text-blue-600 hover:underline">Jenks</a> with care and speed.&quot;
-                    <br />
-                    <span className="text-sm text-gray-500">- Emily R., <a href="/service-areas/jenks" className="text-blue-600 hover:underline">Jenks</a></span>
-                  </blockquote>
-                </CarouselItem>
-                <CarouselItem>
-                  <blockquote className="border-l-4 border-blue-400 pl-4 italic text-gray-800">
-                    &quot;Sand Springs process serving was quick and professional.&quot;
-                    <br />
-                    <span className="text-sm text-gray-500">- Mike P., <a href="/seo/sand-springs-process-server" className="text-blue-600 hover:underline">Sand Springs</a></span>
-                  </blockquote>
-                </CarouselItem>
-                <CarouselItem>
-                  <blockquote className="border-l-4 border-blue-400 pl-4 italic text-gray-800">
-                    &quot;Sapulpa service was excellent. Highly recommend.&quot;
-                    <br />
-                    <span className="text-sm text-gray-500">- Rachel F., <a href="/service-areas/sapulpa" className="text-blue-600 hover:underline">Sapulpa</a></span>
-                  </blockquote>
-                </CarouselItem>
-                <CarouselItem>
-                  <blockquote className="border-l-4 border-blue-400 pl-4 italic text-gray-800">
-                    &quot;Needed statewide service—Just Legal Solutions handled everything across Oklahoma.&quot;
-                    <br />
-                    <span className="text-sm text-gray-500">- Statewide Client, <a href="/ultimate-guide-process-serving-oklahoma" className="text-blue-600 hover:underline">Oklahoma</a></span>
-                  </blockquote>
-                </CarouselItem>
-              </CarouselContent>
-              <CarouselPrevious />
-              <CarouselNext />
-            </Carousel>
+          
+          {/* Featured Testimonial */}
+          <div className="bg-gradient-to-r from-blue-50 to-slate-50 rounded-xl p-6 mb-8">
+            <div className="flex items-center gap-1 mb-3 justify-center">
+              {[...Array(5)].map((_, i) => (
+                <Star key={i} className="w-5 h-5 text-yellow-400 fill-yellow-400" />
+              ))}
+            </div>
+            <blockquote className="text-center text-gray-700 italic mb-3">
+              &quot;Fast, professional, and reliable! Just Legal Solutions made the process easy and stress-free.&quot;
+            </blockquote>
+            <p className="text-center text-sm text-gray-500">— Sarah T., Tulsa</p>
           </div>
-          <div className="mb-4 flex flex-col md:flex-row md:items-center md:space-x-4 space-y-2 md:space-y-0">
-            <a href="/services" className="inline-block bg-blue-700 text-white px-6 py-2 rounded shadow hover:bg-blue-800 font-semibold">Request Service</a>
-            <a href="/urgent-process-server" className="inline-block bg-red-600 text-white px-6 py-2 rounded shadow hover:bg-red-700 font-semibold">Urgent Service</a>
-            <a href="/weekend-emergency" className="inline-block bg-yellow-500 text-white px-6 py-2 rounded shadow hover:bg-yellow-600 font-semibold">Weekend Service</a>
-            <a href="/contact-details.vcf" download className="inline-block bg-gray-700 text-white px-6 py-2 rounded shadow hover:bg-gray-800 font-semibold">Download vCard</a>
+          <div className="mb-6 flex flex-wrap justify-center gap-3">
+            <a href="/services" className="inline-flex items-center gap-2 bg-blue-700 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-blue-800 hover:scale-105 transition-all duration-300 font-semibold">
+              <ArrowRight className="w-4 h-4" />
+              Request Service
+            </a>
+            <a href="/urgent-process-server" className="inline-flex items-center gap-2 bg-red-600 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-red-700 hover:scale-105 transition-all duration-300 font-semibold">Urgent Service</a>
+            <a href="/weekend-emergency" className="inline-flex items-center gap-2 bg-yellow-500 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-yellow-600 hover:scale-105 transition-all duration-300 font-semibold">Weekend Service</a>
+            <a href="/contact-details.vcf" download className="inline-flex items-center gap-2 bg-gray-700 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-gray-800 hover:scale-105 transition-all duration-300 font-semibold">Download vCard</a>
           </div>
           {/* Unique Selling Points Section */}
-          <section className="max-w-3xl mx-auto bg-blue-50 rounded-lg shadow-md p-6 mb-8 border border-blue-100">
-            <h2 className="text-xl font-bold mb-3 text-blue-900">Why Choose Just Legal Solutions?</h2>
-            <ul className="list-disc ml-6 text-gray-800 space-y-2">
-              <li>Licensed, bonded, and court-certified process servers</li>
-              <li>Statewide Oklahoma coverage with local expertise</li>
-              <li>Same-day, urgent, and weekend service available</li>
-              <li>Transparent pricing and secure payment options</li>
-              <li>Hundreds of 5-star reviews and proven results</li>
-              <li>Trusted by law firms, businesses, and individuals</li>
-            </ul>
+          <section className="max-w-3xl mx-auto bg-gradient-to-r from-blue-50 to-slate-50 rounded-xl shadow-lg p-6 mb-8 border border-blue-100">
+            <h2 className="text-xl font-bold mb-4 text-blue-900">Why Choose Just Legal Solutions?</h2>
+            <div className="grid sm:grid-cols-2 gap-3">
+              <div className="flex items-start gap-2">
+                <Shield className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
+                <span className="text-gray-800 text-sm">Licensed, bonded, and court-certified process servers</span>
+              </div>
+              <div className="flex items-start gap-2">
+                <MapPin className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
+                <span className="text-gray-800 text-sm">Statewide Oklahoma coverage with local expertise</span>
+              </div>
+              <div className="flex items-start gap-2">
+                <Clock className="w-5 h-5 text-orange-600 shrink-0 mt-0.5" />
+                <span className="text-gray-800 text-sm">Same-day, urgent, and weekend service available</span>
+              </div>
+              <div className="flex items-start gap-2">
+                <Shield className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
+                <span className="text-gray-800 text-sm">Transparent pricing and secure payment options</span>
+              </div>
+              <div className="flex items-start gap-2">
+                <Star className="w-5 h-5 text-yellow-500 fill-yellow-500 shrink-0 mt-0.5" />
+                <span className="text-gray-800 text-sm">Hundreds of 5-star reviews and proven results</span>
+              </div>
+              <div className="flex items-start gap-2">
+                <Shield className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
+                <span className="text-gray-800 text-sm">Trusted by law firms, businesses, and individuals</span>
+              </div>
+            </div>
           </section>
           {/* Accessibility Statement */}
           <section className="max-w-3xl mx-auto bg-gray-50 rounded-lg shadow-md p-4 mb-8 border border-gray-200">
@@ -320,10 +273,10 @@ export default function ContactPage() {
           <div className="mb-4">
             <div className="rounded overflow-hidden shadow border border-gray-200">
               <iframe
-                title="Just Legal Solutions Location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3229.3439679184658!2d-96.00426502419964!3d35.96301517249761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d3a1c9aca7b5281%3A0x313651fd581f35bf!2sJust%20Legal%20Solutions!5e0!3m2!1sen!2sus!4v1754926145291!5m2!1sen!2sus"
+                title="Just Legal Solutions Service Area"
+                src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d412900.2319122265!2d-95.93!3d36.05!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sen!2sus!4v1768104993252!5m2!1sen!2sus"
                 width="100%"
-                height="300"
+                height="450"
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"
@@ -346,19 +299,29 @@ export default function ContactPage() {
           </div>
         </section>
         {/* FAQ Section for SEO and user trust */}
-        <section className="max-w-3xl mx-auto bg-white rounded-lg shadow-md p-6 mb-8">
-          <h2 className="text-2xl font-bold mb-4 text-blue-900">Frequently Asked Questions</h2>
-          <div className="mb-4">
-            <h3 className="font-semibold text-blue-800">How quickly will I get a response?</h3>
-            <p className="text-gray-700">We respond to most inquiries within 1 business hour during normal operating times. For urgent matters, please call for fastest service.</p>
-          </div>
-          <div className="mb-4">
-            <h3 className="font-semibold text-blue-800">What areas do you serve?</h3>
-            <p className="text-gray-700">We serve all of Tulsa County and surrounding areas, including Broken Arrow, Bixby, Jenks, Owasso, Sand Springs, Sapulpa, and more. See our <a href="/service-areas" className="text-blue-600 hover:underline">full service area list</a>.</p>
-          </div>
-          <div className="mb-4">
-            <h3 className="font-semibold text-blue-800">Are you licensed and bonded?</h3>
-            <p className="text-gray-700">Yes, we are fully licensed, bonded, and court-certified for process serving in Oklahoma.</p>
+        <section className="max-w-3xl mx-auto bg-white rounded-xl shadow-lg p-8 mb-12 border border-gray-100">
+          <h2 className="text-2xl font-bold mb-6 text-blue-900">Frequently Asked Questions</h2>
+          <div className="space-y-6">
+            <div className="bg-slate-50 rounded-lg p-4">
+              <h3 className="font-semibold text-blue-800 mb-2">How quickly will I get a response?</h3>
+              <p className="text-gray-700">We respond to most inquiries within 1 business hour during normal operating times. For urgent matters, please call for fastest service or visit our <a href="/urgent-process-server" className="text-blue-600 hover:underline font-medium">urgent service page</a>.</p>
+            </div>
+            <div className="bg-slate-50 rounded-lg p-4">
+              <h3 className="font-semibold text-blue-800 mb-2">What areas do you serve?</h3>
+              <p className="text-gray-700">We serve all of Tulsa County and surrounding areas, including <a href="/service-areas/broken-arrow" className="text-blue-600 hover:underline">Broken Arrow</a>, <a href="/service-areas/bixby" className="text-blue-600 hover:underline">Bixby</a>, <a href="/service-areas/jenks" className="text-blue-600 hover:underline">Jenks</a>, <a href="/seo/owasso-process-server" className="text-blue-600 hover:underline">Owasso</a>, <a href="/seo/sand-springs-process-server" className="text-blue-600 hover:underline">Sand Springs</a>, <a href="/service-areas/sapulpa" className="text-blue-600 hover:underline">Sapulpa</a>, and more. See our <a href="/service-areas" className="text-blue-600 hover:underline font-medium">full service area list</a>.</p>
+            </div>
+            <div className="bg-slate-50 rounded-lg p-4">
+              <h3 className="font-semibold text-blue-800 mb-2">Are you licensed and bonded?</h3>
+              <p className="text-gray-700">Yes, we are fully licensed, bonded, and court-certified for process serving in Oklahoma. Learn more on our <a href="/why-choose-us" className="text-blue-600 hover:underline font-medium">Why Choose Us</a> page.</p>
+            </div>
+            <div className="bg-slate-50 rounded-lg p-4">
+              <h3 className="font-semibold text-blue-800 mb-2">How much does process serving cost?</h3>
+              <p className="text-gray-700">Standard service starts at $60 (or $42 with our current promotion). View our complete <a href="/pricing" className="text-blue-600 hover:underline font-medium">pricing page</a> for all service options including same-day, rush, and statewide rates.</p>
+            </div>
+            <div className="bg-slate-50 rounded-lg p-4">
+              <h3 className="font-semibold text-blue-800 mb-2">Do you offer weekend or emergency service?</h3>
+              <p className="text-gray-700">Yes! We offer <a href="/weekend-emergency" className="text-blue-600 hover:underline font-medium">weekend and emergency service</a> for urgent legal matters. Contact us anytime for time-sensitive documents.</p>
+            </div>
           </div>
         </section>
       </main>

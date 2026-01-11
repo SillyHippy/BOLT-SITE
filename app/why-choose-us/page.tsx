@@ -1,16 +1,64 @@
-
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 import Image from 'next/image';
+import { Shield, Clock, MapPin, Zap, Smartphone, Users, CheckCircle, Star, Phone, ArrowRight, Award, Target, FileText, BadgeCheck } from 'lucide-react';
 
 export const metadata = {
   title: 'Why Choose Us | Best Oklahoma Process Server | Just Legal Solutions',
-  description: 'Why choose Just Legal Solutions? Oklahoma’s most trusted, AI-powered process server—fast, reliable, and professional with 24/7 support, transparent pricing, and advanced technology.',
+  description: "Why choose Just Legal Solutions? Oklahoma's most trusted, AI-powered process server—fast, reliable, and professional with 24/7 support, transparent pricing, and advanced technology.",
   keywords: 'why choose us, best process server, oklahoma, AI legal solutions, 24/7 process server',
   alternates: {
     canonical: 'https://justlegalsolutions.org/why-choose-us',
   },
 };
+
+const benefits = [
+  {
+    icon: Shield,
+    title: 'Licensed, Bonded & Insured',
+    description: 'Fully licensed and bonded in Oklahoma, protecting you from liability with guaranteed legal compliance and strict adherence to Oklahoma Rules of Civil Procedure.',
+  },
+  {
+    icon: Zap,
+    title: 'Fast & Reliable Service',
+    description: 'Multiple delivery attempts including early mornings, evenings, and weekends. GPS tracking and real-time updates let you monitor service progress.',
+  },
+  {
+    icon: MapPin,
+    title: 'Statewide Coverage',
+    description: 'We serve every county in Oklahoma—urban or rural, business or residential. Same-day and emergency service available statewide.',
+  },
+  {
+    icon: Smartphone,
+    title: 'Technology-Driven',
+    description: 'Advanced mobile apps, GPS tracking, and secure digital document management. E-signatures, photo proof, and detailed affidavits are standard.',
+  },
+  {
+    icon: Target,
+    title: 'Better Than Sheriff',
+    description: "Unlike sheriff's departments with split priorities, our sole focus is process service. Faster, more responsive, with higher success rates.",
+  },
+  {
+    icon: Users,
+    title: 'Trusted by Professionals',
+    description: 'Hundreds of law firms, property managers, and individuals rely on our expertise. Proven results and positive testimonials across Oklahoma.',
+  },
+];
+
+const promises = [
+  'Every serve handled with care, urgency, and legal precision',
+  'AI-enhanced route optimization for faster delivery',
+  'Real-time status updates and proof of service',
+  'Transparent pricing with no hidden fees',
+  'Multiple attempts until successful service',
+];
+
+const clientTypes = [
+  { name: 'Law Firms & Attorneys', description: 'Reliable service for your case deadlines' },
+  { name: 'Property Managers', description: 'Eviction notices and tenant communications' },
+  { name: 'Businesses', description: 'Commercial litigation and contract disputes' },
+  { name: 'Individuals', description: 'Personal legal matters handled professionally' },
+];
 
 export default function WhyChooseUs() {
   return (
@@ -22,73 +70,210 @@ export default function WhyChooseUs() {
             '@context': 'https://schema.org',
             '@type': 'WebPage',
             name: 'Why Choose Us | Best Oklahoma Process Server | Just Legal Solutions',
-            description: 'Why choose Just Legal Solutions? Oklahoma’s most trusted, AI-powered process server—fast, reliable, and professional with 24/7 support, transparent pricing, and advanced technology.',
+            description: "Why choose Just Legal Solutions? Oklahoma's most trusted, AI-powered process server—fast, reliable, and professional with 24/7 support, transparent pricing, and advanced technology.",
             url: 'https://justlegalsolutions.org/why-choose-us'
           })
         }}
       />
       <Navbar />
-      <main className="container mx-auto px-4 py-8 mt-12">
-        <section className="flex flex-col md:flex-row items-start gap-8 mb-10">
-          <div className="flex-1 min-w-0">
-            <h1 className="text-5xl font-extrabold mb-4 text-blue-900 drop-shadow-lg">Why Choose Just Legal Solutions?</h1>
-            <p className="text-xl text-gray-800 mb-6">
-              Just Legal Solutions sets the standard for professional process serving in Tulsa, Broken Arrow, and throughout Oklahoma. Choosing the right process server can make or break legal proceedings. Here’s why attorneys, paralegals, landlords, and individuals across Oklahoma trust us:
-            </p>
-            <h2 className="text-2xl font-bold mb-2 text-blue-800">Licensed, Bonded, and Insured Professionals</h2>
-            <p className="text-lg text-gray-700 mb-4">Our team is fully licensed and bonded in Oklahoma, providing you with peace of mind and protecting you from liability. Each serve is backed by a guarantee of legal compliance, reliability, and strict adherence to the Oklahoma Rules of Civil Procedure.</p>
-            <h2 className="text-2xl font-bold mb-2 text-blue-800">Unmatched Experience & Local Expertise</h2>
-            <p className="text-lg text-gray-700 mb-4">Our experienced process servers know Oklahoma’s legal landscape inside and out. We have a proven record of fast, accurate delivery—whether it’s subpoenas, summons, complaints, or writs of execution. With deep roots in Tulsa and the surrounding counties, we navigate local neighborhoods efficiently, ensuring timely and documented service.</p>
-            <h2 className="text-2xl font-bold mb-2 text-blue-800">Fast, Reliable, and Transparent</h2>
-            <p className="text-lg text-gray-700 mb-4">Time is critical in legal matters. We prioritize speed and reliability, offering multiple delivery attempts including early mornings, evenings, and weekends. GPS tracking and real-time updates mean you can monitor your service progress every step of the way. Our transparent pricing ensures there are never hidden fees.</p>
-            <h2 className="text-2xl font-bold mb-2 text-blue-800">Statewide & Same-Day Coverage</h2>
-            <p className="text-lg text-gray-700 mb-4">We serve every county in Oklahoma—urban or rural, business or residential addresses. Need documents served urgently or same-day? Our dedicated team delivers, even under tight deadlines or urgent scenarios.</p>
-            <h2 className="text-2xl font-bold mb-2 text-blue-800">Technology-Driven Efficiency</h2>
-            <p className="text-lg text-gray-700 mb-4">Using advanced technology—such as mobile apps, GPS, and secure digital document management—our workflow is streamlined to reduce errors, improve speed, and minimize paperwork. E-signatures, photo proof, and detailed affidavits are standard.</p>
-            <h2 className="text-2xl font-bold mb-2 text-blue-800">Superior to Sheriff’s Service</h2>
-            <p className="text-lg text-gray-700 mb-4">Unlike sheriff’s departments, whose priorities are split between many duties, our sole focus is process service. Independent process servers like us are faster, more responsive, and offer flexible hours. We provide better customer service, regular updates, and higher success rates, especially with evasive or hard-to-find recipients.</p>
-            <h2 className="text-2xl font-bold mb-2 text-blue-800">Trusted by Legal Professionals</h2>
-            <p className="text-lg text-gray-700 mb-6">Hundreds of law firms, property managers, and individuals rely on our expertise. Our reputation is built on proven results, professionalism, and positive testimonials from across Oklahoma.</p>
-            <a href="/about" className="inline-block bg-blue-700 text-white px-6 py-3 rounded-lg text-lg font-semibold shadow hover:bg-blue-900 transition mb-4">Why We’re Different: Read Our Story</a>
-            <a href="/weekend-emergency" className="inline-block bg-red-700 text-white px-6 py-3 rounded-lg text-lg font-semibold shadow hover:bg-red-900 transition ml-2 mb-4">Weekend Emergency Service</a>
-          </div>
-          <div className="flex-1 flex flex-col gap-4 items-center min-w-0">
-            <Image src="/images/oklahoma-licensed-bonded-process-server-badges.png" alt="Oklahoma Licensed Bonded Process Server Badges" width={400} height={120} className="mb-2" />
-            <Image src="/images/Legal-document-types-process-server.png" alt="Legal Document Types Process Server" width={400} height={220} className="rounded-xl shadow-lg" />
-          </div>
-        </section>
-        <section className="grid md:grid-cols-2 gap-8 mb-12">
-          <div>
-            <Image src="/images/tulsa-process-server-delivering-documents.png" alt="Tulsa Process Server Delivering Documents" width={400} height={260} className="mb-4" />
-            <h2 className="text-2xl font-bold mb-2 text-blue-800">Our Promise</h2>
-            <ul className="list-disc ml-6 text-gray-700">
-              <li>Every serve is handled with care, urgency, and legal precision</li>
-              <li>AI-enhanced route optimization for faster delivery</li>
-              <li>Real-time status updates and proof of service</li>
-            </ul>
-          </div>
-          <div>
-            <Image src="/images/due-process-legal-concept.png" alt="Due Process Legal Concept" width={320} height={200} className="mb-4" />
-            <h2 className="text-2xl font-bold mb-2 text-blue-800">Who We Serve</h2>
-            <ul className="list-disc ml-6 text-gray-700">
-              <li>Attorneys, law firms, and businesses</li>
-              <li>Individuals needing urgent or routine service</li>
-              <li>All legal document types—see <a href="/images/Legal-document-types-process-server.png" className="underline text-blue-700" target="_blank" rel="noopener">full list</a></li>
-            </ul>
+      <main className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+        {/* Hero Section */}
+        <section className="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 text-white pt-24 pb-16">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto text-center">
+              {/* Trust Badges */}
+              <div className="flex flex-wrap justify-center gap-4 mb-8">
+                <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                  <Shield className="w-5 h-5 text-green-400" />
+                  <span className="text-sm font-medium">Licensed & Bonded</span>
+                </div>
+                <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                  <Star className="w-5 h-5 text-yellow-400 fill-yellow-400" />
+                  <span className="text-sm font-medium">4.9 Rating</span>
+                </div>
+                <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                  <Clock className="w-5 h-5 text-blue-300" />
+                  <span className="text-sm font-medium">Same-Day Available</span>
+                </div>
+              </div>
+              
+              <h1 className="text-4xl md:text-5xl font-extrabold mb-6 drop-shadow-lg">
+                Why Choose Just Legal Solutions?
+              </h1>
+              <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
+                Oklahoma's most trusted process server since day one. Fast, reliable, and professional service backed by advanced technology and genuine care for your legal needs.
+              </p>
+              
+              <div className="flex flex-wrap justify-center gap-4">
+                <a 
+                  href="#contact" 
+                  className="inline-flex items-center gap-2 bg-white text-blue-900 px-8 py-4 rounded-lg text-lg font-bold shadow-lg hover:bg-blue-50 hover:scale-105 transition-all duration-300"
+                >
+                  Get Started Today
+                  <ArrowRight className="w-5 h-5" />
+                </a>
+                <a 
+                  href="tel:+15393676832" 
+                  className="inline-flex items-center gap-2 bg-green-600 text-white px-8 py-4 rounded-lg text-lg font-bold shadow-lg hover:bg-green-700 hover:scale-105 transition-all duration-300"
+                >
+                  <Phone className="w-5 h-5" />
+                  (539) 367-6832
+                </a>
+              </div>
+            </div>
           </div>
         </section>
-        <section className="flex flex-col md:flex-row items-center gap-8 mb-10">
-          <div className="flex-1">
-            <Image src="/images/OklahomaFlag.jpg" alt="Oklahoma State Flag" width={320} height={200} className="rounded shadow-md mb-4" />
-            <h2 className="text-xl font-semibold text-gray-800 mb-2">Proudly Serving Oklahoma</h2>
-            <p className="text-gray-700">From Tulsa to every corner of Oklahoma, our team is ready to deliver—day or night, weekend or holiday.</p>
-          </div>
-          <div className="flex-1">
-            <Image src="/images/emergency-24hour-process-server-service.png" alt="24 Hour Process Server Service" width={320} height={200} className="rounded shadow-md mb-4" />
-            <h2 className="text-xl font-semibold text-gray-800 mb-2">Always On, Always Reliable</h2>
-            <p className="text-gray-700">We leverage AI and human expertise to ensure your documents are served quickly, securely, and with full legal compliance.</p>
+
+        {/* Benefits Grid */}
+        <section className="py-16">
+          <div className="container mx-auto px-4">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold text-blue-900 mb-4">What Sets Us Apart</h2>
+              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+                Choosing the right process server can make or break legal proceedings. Here's why Oklahoma trusts us.
+              </p>
+            </div>
+            
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+              {benefits.map((benefit, index) => (
+                <div 
+                  key={index}
+                  className="bg-white rounded-xl p-6 shadow-lg border border-gray-100 hover:shadow-xl hover:border-blue-200 hover:-translate-y-1 transition-all duration-300"
+                >
+                  <div className="flex items-start gap-4">
+                    <div className="bg-blue-100 p-3 rounded-lg shrink-0">
+                      <benefit.icon className="w-6 h-6 text-blue-700" />
+                    </div>
+                    <div>
+                      <h3 className="text-lg font-bold text-blue-900 mb-2">{benefit.title}</h3>
+                      <p className="text-gray-600 text-sm leading-relaxed">{benefit.description}</p>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
         </section>
+
+        {/* Our Promise Section */}
+        <section className="py-16 bg-gradient-to-r from-blue-50 to-slate-50">
+          <div className="container mx-auto px-4">
+            <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+              <div>
+                <Image 
+                  src="/images/tulsa-process-server-delivering-documents.png" 
+                  alt="Tulsa Process Server Delivering Documents" 
+                  width={500} 
+                  height={350} 
+                  className="rounded-xl shadow-xl"
+                />
+              </div>
+              <div>
+                <h2 className="text-3xl font-bold text-blue-900 mb-6">Our Promise to You</h2>
+                <div className="space-y-4">
+                  {promises.map((promise, index) => (
+                    <div key={index} className="flex items-start gap-3">
+                      <CheckCircle className="w-6 h-6 text-green-600 shrink-0 mt-0.5" />
+                      <span className="text-gray-700">{promise}</span>
+                    </div>
+                  ))}
+                </div>
+                <div className="mt-8">
+                  <a 
+                    href="/weekend-emergency"
+                    className="inline-flex items-center gap-2 bg-red-600 text-white px-6 py-3 rounded-lg font-semibold shadow-lg hover:bg-red-700 hover:scale-105 transition-all duration-300"
+                  >
+                    Weekend Emergency Service
+                    <ArrowRight className="w-5 h-5" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Who We Serve */}
+        <section className="py-16">
+          <div className="container mx-auto px-4">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold text-blue-900 mb-4">Who We Serve</h2>
+              <p className="text-lg text-gray-600">Trusted by legal professionals and individuals across Oklahoma</p>
+            </div>
+            
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
+              {clientTypes.map((client, index) => (
+                <div 
+                  key={index}
+                  className="bg-white rounded-xl p-6 text-center shadow-lg border border-gray-100 hover:shadow-xl hover:border-blue-200 transition-all duration-300"
+                >
+                  <div className="bg-blue-100 w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <Users className="w-7 h-7 text-blue-700" />
+                  </div>
+                  <h3 className="font-bold text-blue-900 mb-2">{client.name}</h3>
+                  <p className="text-gray-600 text-sm">{client.description}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Oklahoma Pride Banner */}
+        <section className="py-12 bg-gradient-to-r from-blue-800 to-blue-900 text-white">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8">
+              <div className="shrink-0">
+                <Image 
+                  src="/images/OklahomaFlag.jpg" 
+                  alt="Oklahoma State Flag" 
+                  width={180} 
+                  height={120} 
+                  className="rounded-lg shadow-lg"
+                />
+              </div>
+              <div className="text-center md:text-left">
+                <h2 className="text-2xl font-bold mb-3">Proudly Serving All of Oklahoma</h2>
+                <p className="text-blue-100 mb-4">
+                  From Tulsa to every corner of Oklahoma, our team is ready to deliver—day or night, weekend or holiday. Deep local roots with statewide coverage.
+                </p>
+                <a 
+                  href="/service-areas"
+                  className="inline-flex items-center gap-2 text-white underline hover:text-blue-200 transition-colors"
+                >
+                  View All Service Areas
+                  <ArrowRight className="w-4 h-4" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* CTA Section */}
+        <section className="py-16 bg-gradient-to-br from-slate-100 to-blue-50">
+          <div className="container mx-auto px-4">
+            <div className="max-w-3xl mx-auto text-center">
+              <h2 className="text-3xl font-bold text-blue-900 mb-4">Ready to Get Started?</h2>
+              <p className="text-lg text-gray-600 mb-8">
+                Experience the difference of working with Oklahoma's most trusted process server. Contact us today for a free quote.
+              </p>
+              <div className="flex flex-wrap justify-center gap-4">
+                <a 
+                  href="#contact" 
+                  className="inline-flex items-center gap-2 bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-bold shadow-lg hover:bg-blue-800 hover:scale-105 transition-all duration-300"
+                >
+                  Request a Free Quote
+                  <ArrowRight className="w-5 h-5" />
+                </a>
+                <a 
+                  href="/pricing"
+                  className="inline-flex items-center gap-2 bg-white text-blue-700 border-2 border-blue-700 px-8 py-4 rounded-lg text-lg font-bold shadow-lg hover:bg-blue-50 hover:scale-105 transition-all duration-300"
+                >
+                  View Pricing
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           '@context': 'https://schema.org',
           '@type': 'LegalService',
@@ -107,7 +292,7 @@ export default function WhyChooseUs() {
           openingHours: 'Mo,Tu,We,Th,Fr,Sa,Su 00:00-23:59',
           areaServed: 'Oklahoma',
           priceRange: '$$',
-          description: 'Oklahoma’s most trusted, AI-powered process server. Fast, reliable, and professional service with 24/7 support.',
+          description: "Oklahoma's most trusted, AI-powered process server. Fast, reliable, and professional service with 24/7 support.",
         }) }} />
       </main>
       <Footer />
