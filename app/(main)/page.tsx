@@ -11,7 +11,7 @@ import { getPromoDescription } from '@/lib/promo-utils';
 
 import React from 'react';
 import Image from 'next/image';
-import { Mail, Phone, MapPin, Truck, FileText, Building2, Clock } from "lucide-react";
+import { Mail, Phone, MapPin, Truck, FileText, Building2, Clock, Shield, Star, ArrowRight } from "lucide-react";
 import { Metadata } from 'next';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import SocialProof from '@/components/SocialProof';
@@ -89,23 +89,48 @@ export default function Home() {
         </div>
         <div className="relative h-full flex flex-col items-center justify-center text-white text-center px-4">
           {/* H1 - visible and SEO-optimized */}
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 drop-shadow-lg">
+          <h1 className="text-4xl md:text-6xl font-bold mb-4 drop-shadow-lg">
             Tulsa Process Server &amp; Courier Services
           </h1>
           
           {/* Description - visible and SEO-friendly */}
-          <p className="text-lg md:text-xl max-w-3xl drop-shadow-md mb-8">
+          <p className="text-lg md:text-xl max-w-3xl drop-shadow-md mb-6">
             Professional process serving throughout Oklahoma. From routine legal papers to urgent same-day service in Tulsa, Broken Arrow, Sapulpa &amp; all 77 counties.
           </p>
           
-          {/* Trust Badge - 50+ Years Experience */}
-          <div className="mb-8">
-            <div className="inline-block bg-blue-100 text-blue-800 font-semibold rounded-lg px-6 py-3 shadow-lg text-lg md:text-xl border border-blue-200" aria-label="Combined legal experience of team and partners">
+          {/* Trust Badges */}
+          <div className="flex flex-wrap justify-center gap-3 md:gap-6 mb-6">
+            <div className="flex items-center gap-2 bg-white/95 backdrop-blur-sm px-4 py-2 rounded-full shadow-lg">
+              <Shield className="h-5 w-5 text-blue-600" />
+              <span className="text-sm font-medium text-gray-700">Licensed &amp; Bonded</span>
+            </div>
+            <div className="flex items-center gap-2 bg-white/95 backdrop-blur-sm px-4 py-2 rounded-full shadow-lg">
+              <Star className="h-5 w-5 text-yellow-500 fill-yellow-500" />
+              <span className="text-sm font-medium text-gray-700">4.9★ Rating</span>
+            </div>
+            <div className="flex items-center gap-2 bg-white/95 backdrop-blur-sm px-4 py-2 rounded-full shadow-lg">
+              <Clock className="h-5 w-5 text-green-600" />
+              <span className="text-sm font-medium text-gray-700">Same-Day Available</span>
+            </div>
+          </div>
+          
+          {/* CTA Buttons */}
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
+            <a href="#contact" className="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 text-lg">
+              Request Service
+              <ArrowRight className="h-5 w-5" />
+            </a>
+            <a href="tel:5393676832" className="inline-flex items-center justify-center gap-2 bg-white/95 backdrop-blur-sm hover:bg-white text-gray-900 font-semibold px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 text-lg">
+              <Phone className="h-5 w-5 text-blue-600" />
+              (539) 367-6832
+            </a>
+          </div>
+          
+          {/* 50+ Years Experience Badge */}
+          <div className="mb-4">
+            <div className="inline-block bg-blue-100/90 backdrop-blur-sm text-blue-800 font-semibold rounded-lg px-6 py-3 shadow-lg text-base md:text-lg border border-blue-200" aria-label="Combined legal experience of team and partners">
               ⭐ Over 50 Years&apos; Combined Experience Serving Oklahoma&apos;s Legal Community
             </div>
-            <p className="mt-3 text-base md:text-lg text-gray-200 max-w-2xl mx-auto">
-              Our certified team and professional partners deliver trusted, court-compliant process serving solutions backed by decades of expertise.
-            </p>
           </div>
           
 
@@ -117,8 +142,8 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-10">
             {/* Service 1 */}
-            <div className="text-center flex flex-col">
-              <div className="mb-4 relative h-48 sm:h-56 w-full rounded-lg overflow-hidden shadow-[0_0_20px_rgba(255,255,255,0.4)] hover:shadow-[0_0_25px_rgba(255,255,255,0.5)] transition-shadow duration-300">
+            <div className="text-center flex flex-col group">
+              <div className="mb-4 relative h-48 sm:h-56 w-full rounded-lg overflow-hidden shadow-[0_0_20px_rgba(255,255,255,0.4)] group-hover:shadow-[0_0_30px_rgba(59,130,246,0.6)] transition-all duration-300 group-hover:-translate-y-2">
                 <Image
                   src="/images/secure-delivery.webp"
                   alt="Professional courier delivering legal documents securely"
@@ -135,8 +160,8 @@ export default function Home() {
               </p>
             </div>
             {/* Service 2 */}
-            <div className="text-center flex flex-col">
-              <div className="mb-4 relative h-48 sm:h-56 w-full rounded-lg overflow-hidden shadow-[0_0_20px_rgba(255,255,255,0.4)] hover:shadow-[0_0_25px_rgba(255,255,255,0.5)] transition-shadow duration-300">
+            <div className="text-center flex flex-col group">
+              <div className="mb-4 relative h-48 sm:h-56 w-full rounded-lg overflow-hidden shadow-[0_0_20px_rgba(255,255,255,0.4)] group-hover:shadow-[0_0_30px_rgba(59,130,246,0.6)] transition-all duration-300 group-hover:-translate-y-2">
                 <Image
                   src="/images/court-transfer.webp"
                   alt="Court document transfer service"
@@ -153,8 +178,8 @@ export default function Home() {
               </p>
             </div>
             {/* Service 3 */}
-            <div className="text-center flex flex-col">
-              <div className="mb-4 relative h-48 sm:h-56 w-full rounded-lg overflow-hidden shadow-[0_0_20px_rgba(255,255,255,0.4)] hover:shadow-[0_0_25px_rgba(255,255,255,0.5)] transition-shadow duration-300">
+            <div className="text-center flex flex-col group">
+              <div className="mb-4 relative h-48 sm:h-56 w-full rounded-lg overflow-hidden shadow-[0_0_20px_rgba(255,255,255,0.4)] group-hover:shadow-[0_0_30px_rgba(59,130,246,0.6)] transition-all duration-300 group-hover:-translate-y-2">
                 <Image
                   src="/images/skip-trace.webp"
                   alt="Professional skip tracing and investigation services for locating individuals in Oklahoma"
@@ -171,8 +196,8 @@ export default function Home() {
               </p>
             </div>
             {/* Service 4 */}
-            <div className="text-center flex flex-col">
-              <div className="mb-4 relative h-48 sm:h-56 w-full rounded-lg overflow-hidden shadow-[0_0_25px_rgba(255,255,255,0.5)] hover:shadow-[0_0_30px_rgba(255,255,255,0.6)] transition-shadow duration-300">
+            <div className="text-center flex flex-col group">
+              <div className="mb-4 relative h-48 sm:h-56 w-full rounded-lg overflow-hidden shadow-[0_0_25px_rgba(255,255,255,0.5)] group-hover:shadow-[0_0_30px_rgba(59,130,246,0.6)] transition-all duration-300 group-hover:-translate-y-2">
                 <Image
                   src="/images/same-day.webp"
                   alt="Same-day process serving and urgent document delivery services"
