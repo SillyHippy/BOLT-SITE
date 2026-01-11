@@ -299,6 +299,8 @@ export default function PricingPage() {
                 <h3 className="text-xl font-bold mb-3 text-gray-800">Non-Service Policy</h3>
                 <p className="text-gray-700">
                 While we strive to ensure the completion of our tasks swiftly and effectively, there may be instances when serving a respondent proves to be impossible for reasons beyond our control (e.g., incorrect addresses, evasive individuals). If we dedicate time and resources to an attempt but are unsuccessful, the standard service fee still applies. We pride ourselves on our high success rates but believe in full transparency.
+                <br /><br />
+                <strong>Invalid or incorrect addresses provided by the Client do not constitute a failure of service by Provider.</strong> It is the Client&apos;s responsibility to provide accurate and current address information.
                 </p>
             </div>
             <div>
