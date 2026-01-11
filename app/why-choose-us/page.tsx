@@ -101,7 +101,7 @@ export default function WhyChooseUs() {
                 Why Choose Just Legal Solutions?
               </h1>
               <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
-                Oklahoma's most trusted process server since day one. Fast, reliable, and professional service backed by advanced technology and genuine care for your legal needs.
+                Oklahoma&apos;s most trusted process server since day one. Fast, reliable, and professional service backed by advanced technology and genuine care for your legal needs.
               </p>
               
               <div className="flex flex-wrap justify-center gap-4">
@@ -130,7 +130,7 @@ export default function WhyChooseUs() {
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold text-blue-900 mb-4">What Sets Us Apart</h2>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                Choosing the right process server can make or break legal proceedings. Here's why Oklahoma trusts us.
+                Choosing the right process server can make or break legal proceedings. Here&apos;s why Oklahoma trusts us.
               </p>
             </div>
             
@@ -253,7 +253,7 @@ export default function WhyChooseUs() {
             <div className="max-w-3xl mx-auto text-center">
               <h2 className="text-3xl font-bold text-blue-900 mb-4">Ready to Get Started?</h2>
               <p className="text-lg text-gray-600 mb-8">
-                Experience the difference of working with Oklahoma's most trusted process server. Contact us today for a free quote.
+                Experience the difference of working with Oklahoma&apos;s most trusted process server. Contact us today for a free quote.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <a 
