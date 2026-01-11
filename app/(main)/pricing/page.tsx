@@ -339,6 +339,26 @@ export default function PricingPage() {
                   </p>
               </div>
             </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+              <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                  <h3 className="text-xl font-bold mb-3 text-blue-900">Refund Policy</h3>
+                  <p className="text-gray-700">
+                      <strong>All fees are non-refundable once a service attempt has been made.</strong> This includes instances where service is unsuccessful due to factors beyond our control, such as evasive respondents, incorrect addresses provided by the Client, or refusal of service by the defendant.
+                  </p>
+                  <p className="text-gray-700 mt-4">
+                      We charge for the <em>act of service</em>, not the outcome of your case. Our fees compensate for the time, mileage, and professional effort expended on your behalf.
+                  </p>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                  <h3 className="text-xl font-bold mb-3 text-blue-900">Scope of Services & Liability</h3>
+                  <p className="text-gray-700">
+                      Just Legal Solutions is a <strong>licensed Oklahoma Process Server</strong> under 12 O.S. § 158.1. We are <strong>not attorneys</strong> and do not provide legal advice, draft legal documents, or represent clients in court.
+                  </p>
+                  <p className="text-gray-700 mt-4">
+                      To the fullest extent permitted by law, our total liability for any claim arising from our services shall not exceed the fees actually paid by the Client for the specific service in question.
+                  </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
