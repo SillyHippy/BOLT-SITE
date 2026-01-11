@@ -292,32 +292,52 @@ export default function PricingPage() {
       </section>
 
       <section id="policies" className="py-12 px-4 bg-gray-100">
-        <div className="max-w-7xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-6 text-gray-900">Our Policies</h2>
-          <div className="text-left grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div>
-                <h3 className="text-xl font-bold mb-3 text-gray-800">Non-Service Policy</h3>
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-3xl font-bold mb-8 text-gray-900 text-center">Our Policies</h2>
+          <div className="space-y-6">
+            <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                <h3 className="text-xl font-bold mb-3 text-blue-900">Non-Service Policy</h3>
                 <p className="text-gray-700">
                 While we strive to ensure the completion of our tasks swiftly and effectively, there may be instances when serving a respondent proves to be impossible for reasons beyond our control (e.g., incorrect addresses, evasive individuals). If we dedicate time and resources to an attempt but are unsuccessful, the standard service fee still applies. We pride ourselves on our high success rates but believe in full transparency.
-                <br /><br />
-                <strong>Invalid or incorrect addresses provided by the Client do not constitute a failure of service by Provider.</strong> It is the Client&apos;s responsibility to provide accurate and current address information.
                 </p>
+                <ul className="mt-4 space-y-2 text-gray-700">
+                  <li className="flex items-start">
+                    <span className="text-blue-600 mr-2">•</span>
+                    <span><strong>Invalid or incorrect addresses</strong> provided by the Client do not constitute a failure of service by Provider. It is the Client&apos;s responsibility to provide accurate and current address information.</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-600 mr-2">•</span>
+                    <span><strong>Refusal of mail</strong> by a defendant does not constitute a failure of service.</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-600 mr-2">•</span>
+                    <span><strong>Re-service attempts</strong> required due to bad addresses or refusals will be billed separately.</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-600 mr-2">•</span>
+                    <span>Client will receive an <strong>affidavit of service or non-service</strong>, as applicable, as documentation of Provider&apos;s performance.</span>
+                  </li>
+                </ul>
             </div>
-            <div>
-                 <h3 className="text-xl font-bold mb-3 text-gray-800">Due Diligence Policy</h3>
-                <p className="text-gray-700">
-                We execute a minimum of three service attempts at different times of the day and on different days of the week, or until all known addresses are drawn to a conclusive determination. <strong>This minimum effort is included in our standard service pricing.</strong>
-<br /><br />
-Any request for additional service attempts beyond this standard protocol must be negotiated and approved prior to execution, and will be subject to an additional fee.
-                </p>
-            </div>
-            <div>
-                 <h3 className="text-xl font-bold mb-3 text-gray-800">Payment & Late Fee Policy</h3>
-                <p className="text-gray-700">
-                    <strong>Prepayment is required for non-established clients.</strong> This ensures we can dedicate our resources to your case without delay.
-                    <br /><br />
-                    For established clients, payment is due on the date specified on the invoice. If payment is not received in full by the due date, a one-time late fee of <strong>$40.00</strong> will be assessed. Furthermore, a service charge of <strong>0.5%</strong> of the total outstanding balance will be applied for each day the payment is late, beginning the day after the due date, until the balance is paid in full.
-                </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                  <h3 className="text-xl font-bold mb-3 text-blue-900">Due Diligence Policy</h3>
+                  <p className="text-gray-700">
+                  We execute a minimum of three service attempts at different times of the day and on different days of the week, or until all known addresses are drawn to a conclusive determination. <strong>This minimum effort is included in our standard service pricing.</strong>
+                  </p>
+                  <p className="text-gray-700 mt-4">
+                  Any request for additional service attempts beyond this standard protocol must be negotiated and approved prior to execution, and will be subject to an additional fee.
+                  </p>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                  <h3 className="text-xl font-bold mb-3 text-blue-900">Payment & Late Fee Policy</h3>
+                  <p className="text-gray-700">
+                      <strong>Prepayment is required for non-established clients.</strong> This ensures we can dedicate our resources to your case without delay.
+                  </p>
+                  <p className="text-gray-700 mt-4">
+                      For established clients, payment is due on the date specified on the invoice. If payment is not received in full by the due date, a one-time late fee of <strong>$40.00</strong> will be assessed. Furthermore, a service charge of <strong>0.5%</strong> of the total outstanding balance will be applied for each day the payment is late, beginning the day after the due date, until the balance is paid in full.
+                  </p>
+              </div>
             </div>
           </div>
         </div>
