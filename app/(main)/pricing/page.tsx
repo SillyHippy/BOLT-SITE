@@ -51,20 +51,40 @@ export const metadata: Metadata = {
   }
 };
 
-// Data for additional services for easy management
-const additionalServices = [
-    { title: 'Immediate Action Service', description: 'Critical emergency service for time-sensitive legal situations requiring service within <strong>2-4 hours</strong>. Additional fee of <strong>$100</strong> on top of base service rate. Subject to availability and confirmation.' },
-    { title: 'Holiday Service', description: 'Service available on holidays with an additional surcharge of <strong>$25-50</strong> depending on the specific date and urgency. Contact us for availability and exact pricing.' },
-    { title: 'Filing Affidavits', description: 'We can file the Return of Service Affidavit with the court for you. <strong>eFiling is free where allowed in Oklahoma</strong>. For in-person filing in Tulsa County, the fee is <strong>$35 plus court costs</strong>. Fees for other counties will be quoted upfront.' },
-    { title: 'Printing Documents', description: 'The first 10 pages are printed free of charge. Additional pages are <strong>$0.20 per page</strong>.' },
-    { title: 'Set Time of Service', description: 'If you require service at a specific time and date, an additional rush fee may apply. This will be confirmed with you beforehand.' },
-    { title: 'Evasive Respondent Stakeout', description: 'For difficult-to-serve individuals, stakeout services are available at <strong>$90 per hour</strong> (2 hour minimum). This is only performed at your request.' },
-    { title: 'Multiple Services at Same Address', description: 'When serving multiple individuals at the same location, each additional person is only <strong>$30</strong>.' },
-    { title: 'Posting Affidavits', description: 'For services that require posting a notice (e.g., eviction notices) instead of personal delivery, the fee is <strong>$30</strong>.' },
-    { title: 'Single Serve Attempt', description: 'Reduced Rate for only a single serve attempt, the fee starts as low as <strong>$30</strong>.' },
-    { title: 'Skip Tracing', description: 'Need to locate an individual? We offer skip tracing services. Please contact us for a quote.' },
-    { title: 'Court Appearance Fees', description: 'Tulsa County appearances: <strong>Up to $500/hour</strong>, billed in full-hour increments (contact us for negotiated rates). Appearances outside Tulsa County: Additional fees based on travel/time will be negotiated beforehand. This fee is separate from standard document service charges and covers time spent attending court and testifying. Rescheduling/cancellation fees may apply.' },
-    { title: 'Certified Mailing', description: 'We can send affidavits via certified mail for <strong>$35 plus postage costs</strong>.' },
+// Data for additional services organized by category
+const serviceCategories = [
+    {
+        category: 'Rush & Emergency Services',
+        services: [
+            { title: 'Immediate Action Service', description: 'Critical emergency service for time-sensitive legal situations requiring service within <strong>2-4 hours</strong>. Additional fee of <strong>$100</strong> on top of base service rate. Subject to availability and confirmation.' },
+            { title: 'Holiday Service', description: 'Service available on holidays with an additional surcharge of <strong>$25-50</strong> depending on the specific date and urgency. Contact us for availability and exact pricing.' },
+            { title: 'Set Time of Service', description: 'If you require service at a specific time and date, an additional rush fee may apply. This will be confirmed with you beforehand.' },
+        ]
+    },
+    {
+        category: 'Filing & Documentation',
+        services: [
+            { title: 'Filing Affidavits', description: 'We can file the Return of Service Affidavit with the court for you. <strong>eFiling is free where allowed in Oklahoma</strong>. For in-person filing in Tulsa County, the fee is <strong>$35 plus court costs</strong>. Fees for other counties will be quoted upfront.' },
+            { title: 'Posting Affidavits', description: 'For services that require posting a notice (e.g., eviction notices) instead of personal delivery, the fee is <strong>$30</strong>.' },
+            { title: 'Certified Mailing', description: 'We can send affidavits via certified mail for <strong>$35 plus postage costs</strong>.' },
+            { title: 'Printing Documents', description: 'The first 10 pages are printed free of charge. Additional pages are <strong>$0.20 per page</strong>.' },
+        ]
+    },
+    {
+        category: 'Difficult Service & Investigations',
+        services: [
+            { title: 'Evasive Respondent Stakeout', description: 'For difficult-to-serve individuals, stakeout services are available at <strong>$90 per hour</strong> (2 hour minimum). This is only performed at your request.' },
+            { title: 'Skip Tracing', description: 'Need to locate an individual? We offer skip tracing services. Please contact us for a quote.' },
+        ]
+    },
+    {
+        category: 'Special Pricing & Court',
+        services: [
+            { title: 'Multiple Services at Same Address', description: 'When serving multiple individuals at the same location, each additional person is only <strong>$30</strong>.' },
+            { title: 'Single Serve Attempt', description: 'Reduced Rate for only a single serve attempt, the fee starts as low as <strong>$30</strong>.' },
+            { title: 'Court Appearance Fees', description: 'Tulsa County appearances: <strong>Up to $500/hour</strong>, billed in full-hour increments (contact us for negotiated rates). Appearances outside Tulsa County: Additional fees based on travel/time will be negotiated beforehand. This fee is separate from standard document service charges and covers time spent attending court and testifying. Rescheduling/cancellation fees may apply.' },
+        ]
+    },
 ];
 
 export default function PricingPage() {
@@ -214,8 +234,9 @@ export default function PricingPage() {
                 For urgent demands that need immediate attention.
               </p>
             </div>
-            <div className="bg-white p-6 rounded-xl shadow-lg border-2 border-red-500 relative">
-              <h3 className="text-xl font-bold mb-3 text-blue-600">Same-Day Rush</h3>
+            <div className="bg-white p-6 rounded-xl shadow-lg border-2 border-blue-500 relative">
+              <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full">MOST POPULAR</span>
+              <h3 className="text-xl font-bold mb-3 text-blue-600 mt-2">Same-Day Rush</h3>
               <div className="mb-3">
                 <p className="text-3xl font-bold text-green-600">$150</p>
                 <p className="text-xs text-gray-400 mb-2">starting price</p>
@@ -272,18 +293,25 @@ export default function PricingPage() {
       </section>
 
        <section className="py-10 bg-gray-50">
-        <div className="max-w-5xl mx-auto px-4">
+        <div className="max-w-6xl mx-auto px-4">
             <div className="text-center mb-12">
                 <h2 className="text-3xl font-bold text-gray-900">Additional & Optional Services</h2>
                 <p className="text-lg text-gray-600 mt-2">Customize your service with these available add-ons.</p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6">
-                {additionalServices.map((service, index) => (
-                    <div key={index} className="flex items-start">
-                        <CheckCircle className="h-6 w-6 text-green-500 mr-3 flex-shrink-0 mt-1" />
-                        <div>
-                            <h3 className="font-semibold text-gray-800">{service.title}</h3>
-                            <p className="text-gray-600" dangerouslySetInnerHTML={{ __html: service.description }}></p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                {serviceCategories.map((category, catIndex) => (
+                    <div key={catIndex} className="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                        <h3 className="text-lg font-bold text-blue-900 mb-4 pb-2 border-b border-gray-200">{category.category}</h3>
+                        <div className="space-y-4">
+                            {category.services.map((service, index) => (
+                                <div key={index} className="flex items-start">
+                                    <CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0 mt-0.5" />
+                                    <div>
+                                        <h4 className="font-semibold text-gray-800 text-sm">{service.title}</h4>
+                                        <p className="text-gray-600 text-sm" dangerouslySetInnerHTML={{ __html: service.description }}></p>
+                                    </div>
+                                </div>
+                            ))}
                         </div>
                     </div>
                 ))}
