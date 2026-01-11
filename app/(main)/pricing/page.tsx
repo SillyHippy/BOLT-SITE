@@ -191,7 +191,7 @@ export default function PricingPage() {
             </div>
             <div className="flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-sm">
               <Star className="h-5 w-5 text-yellow-500 fill-yellow-500" />
-              <span className="text-sm font-medium text-gray-700">4.9★ Rating (156 Reviews)</span>
+              <span className="text-sm font-medium text-gray-700">4.9★ Rating</span>
             </div>
             <div className="flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-sm">
               <Clock className="h-5 w-5 text-green-600" />
