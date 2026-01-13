@@ -401,7 +401,7 @@ export default function PricingPage() {
               <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
                   <h3 className="text-xl font-bold mb-3 text-blue-900">Due Diligence Policy</h3>
                   <p className="text-gray-700">
-                  We execute a minimum of three service attempts at different times of the day and on different days of the week, or until the addresse(s) are drawn to a conclusive determination. <strong>This minimum effort is included in our standard service pricing.</strong>
+                  We execute a minimum of three service attempts at different times of the day and on different days of the week, or until the address(es) are drawn to a conclusive determination. <strong>This minimum effort is included in our standard service pricing.</strong>
                   </p>
                   <p className="text-gray-700 mt-4">
                   Any request for additional service attempts beyond this standard protocol must be negotiated and approved prior to execution, and will be subject to an additional fee.
