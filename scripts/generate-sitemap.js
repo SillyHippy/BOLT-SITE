@@ -42,7 +42,8 @@ function generateSitemap() {
   // URLs to exclude (redirect pages that don't have real content)
   const excludeUrls = [
     '/faq', // Redirects to /ultimate-guide-process-serving-oklahoma
-    '/seo/process-server-sand-springs' // Redirects to /seo/sand-springs-process-server
+    '/seo/process-server-sand-springs', // Redirects to /seo/sand-springs-process-server
+    '/oklahoma-process-server-cost-calculator' // Removed - page no longer exists
   ];
   
   // Additional URLs to ensure they're included (all service areas with Google Maps)

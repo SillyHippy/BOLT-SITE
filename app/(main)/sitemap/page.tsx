@@ -59,6 +59,8 @@ const SitemapPage = () => {
     { url: '/services', label: 'Services' },
     { url: '/about', label: 'About / Our Story' },
     { url: '/why-choose-us', label: 'Why Choose Us' },
+    { url: '/faq', label: 'FAQ' },
+    { url: '/leave-review', label: 'Leave a Review' },
     
     // Process Server Pages
     { url: '/tulsa-process-server', label: 'Tulsa Process Server' },
@@ -68,6 +70,12 @@ const SitemapPage = () => {
     
     // Guide & Resources
     { url: '/ultimate-guide-process-serving-oklahoma', label: 'Ultimate Guide to Process Serving Oklahoma' },
+    { url: '/process-server-tulsa-guide', label: 'Process Server Tulsa Guide' },
+    { url: '/oklahoma-process-server-authority', label: 'Oklahoma Process Server Authority & Regulations' },
+    { url: '/oklahoma-process-server-laws', label: 'Oklahoma Process Server Laws' },
+    { url: '/oklahoma-vs-texas-process-server', label: 'Oklahoma vs Texas Process Server Comparison' },
+    { url: '/serving-legal-papers-on-tribal-land', label: 'Serving Legal Papers on Tribal Land' },
+    { url: '/law-firm-services', label: 'Law Firm Services' },
     
     // Service Areas
     { url: '/service-areas', label: 'Service Areas Overview' },
@@ -99,13 +107,12 @@ const SitemapPage = () => {
     { url: '/counties/osage-county', label: 'Osage County Services' },
     { url: '/counties/mayes-county', label: 'Mayes County Services' },
     
-    // SEO Pages (only ones not redirecting)
+    // SEO Pages (unique content only - city duplicates removed)
     { url: '/seo/eviction-notice-process-server', label: 'Eviction Notice Process Server' },
-    { url: '/seo/glenpool-process-server', label: 'Glenpool Process Server SEO' },
     { url: '/seo/legal-posting-process-server', label: 'Legal Notice Posting Service' },
-    { url: '/seo/owasso-process-server', label: 'Owasso Process Server SEO' },
-    { url: '/seo/sand-springs-process-server', label: 'Sand Springs Process Server SEO' },
     { url: '/seo/what-is-a-process-server', label: 'What is a Process Server?' },
+    { url: '/seo/process-server-nowata', label: 'Nowata Process Server' },
+    { url: '/seo/process-server-vinita', label: 'Vinita Process Server' },
     
     // Tools & Analytics
     { url: '/backlinks', label: 'Backlinks' },
@@ -123,12 +130,14 @@ const SitemapPage = () => {
     { url: '/card/calendar', label: 'Calendar Scheduling' },
     
     // --- 2025 Feature/Guide Pages ---
+    { url: '/oklahoma-process-server-best-practices-checklist-2025', label: 'Process Server Best Practices Checklist 2025' },
     { url: '/oklahoma-process-server-best-practices-checklist-2026', label: 'Process Server Best Practices Checklist 2026' },
     { url: '/oklahoma-legal-service-areas-2025', label: 'Oklahoma Legal Service Areas 2025' },
     { url: '/oklahoma-electronic-service-guide-2025', label: 'Oklahoma Electronic Service Guide 2025' },
     { url: '/oklahoma-case-law-service-process-2025', label: 'Oklahoma Case Law Service Process 2025' },
     { url: '/oklahoma-process-server-pricing-2025', label: 'Process Server Pricing Guide 2025' },
     { url: '/oklahoma-process-server-technology-2025', label: 'Process Server Technology Trends 2025' },
+    { url: '/oklahoma-process-server-faq-2025', label: 'Process Server FAQ 2025' },
     { url: '/oklahoma-process-server-faq-2026', label: 'Process Server FAQ 2026' },
     { url: '/oklahoma-process-serving-costs-comparison-2025', label: 'Process Serving Costs Comparison 2025' },
     { url: '/ai-skip-tracing-guide-oklahoma-2025', label: 'AI Skip Tracing Guide Oklahoma 2025' },

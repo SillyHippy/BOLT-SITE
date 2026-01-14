@@ -18,11 +18,39 @@ jobs:
           
           # IndexNow notification for key pages
           KEY_URLS=(
+            # Core conversion pages
             "https://justlegalsolutions.org/"
-            "https://justlegalsolutions.org/tulsa-process-server/"
-            "https://justlegalsolutions.org/tulsa-process-server/"
-            "https://justlegalsolutions.org/seo/same-day-process-serving-tulsa/"
-            "https://justlegalsolutions.org/tulsa-process-server/"
+            "https://justlegalsolutions.org/contact"
+            "https://justlegalsolutions.org/pricing"
+            "https://justlegalsolutions.org/services"
+            "https://justlegalsolutions.org/tulsa-process-server"
+            "https://justlegalsolutions.org/law-firm-services"
+            "https://justlegalsolutions.org/weekend-emergency"
+            "https://justlegalsolutions.org/urgent-process-server"
+            
+            # High-value service areas
+            "https://justlegalsolutions.org/service-areas/broken-arrow"
+            "https://justlegalsolutions.org/service-areas/owasso"
+            "https://justlegalsolutions.org/service-areas/jenks"
+            "https://justlegalsolutions.org/service-areas/bixby"
+            "https://justlegalsolutions.org/service-areas/sand-springs"
+            "https://justlegalsolutions.org/service-areas/sapulpa"
+            "https://justlegalsolutions.org/service-areas/claremore"
+            "https://justlegalsolutions.org/service-areas/bartlesville"
+            
+            # Key guide/content pages
+            "https://justlegalsolutions.org/ultimate-guide-process-serving-oklahoma"
+            "https://justlegalsolutions.org/oklahoma-process-server-faq-2026"
+            "https://justlegalsolutions.org/oklahoma-process-server-best-practices-checklist-2026"
+            "https://justlegalsolutions.org/oklahoma-process-server-laws"
+            "https://justlegalsolutions.org/process-server-tulsa-guide"
+            
+            # SEO pages (unique content only - not city duplicates)
+            "https://justlegalsolutions.org/seo/what-is-a-process-server"
+            "https://justlegalsolutions.org/seo/eviction-notice-process-server"
+            "https://justlegalsolutions.org/seo/legal-posting-process-server"
+            "https://justlegalsolutions.org/seo/process-server-nowata"
+            "https://justlegalsolutions.org/seo/process-server-vinita"
           )
           
           for url in "${KEY_URLS[@]}"; do
