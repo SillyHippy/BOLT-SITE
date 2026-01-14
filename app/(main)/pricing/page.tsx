@@ -108,7 +108,7 @@ export default function PricingPage() {
           itemListElement: [
             {
               name: "Standard Process Service",
-              description: "First service attempt within 5 business days",
+              description: "First service attempt within 10 business days",
               price: "$60",
               priceCurrency: "USD",
               itemOffered: {
