@@ -85,7 +85,7 @@ export default function FamilyLawServiceGuideTulsa() {
       <JsonLd data={articleSchema} />
       <main className="max-w-4xl mx-auto px-4 py-8 pt-24">
         <h1 className="text-4xl font-bold mb-4">Family Law Service: Serving Protective Orders &amp; Divorce Papers in Tulsa County</h1>
-        <p className="italic mb-6">Serving documents in family law cases requires sensitivity, speed, and strict compliance with Oklahoma statutes. Tulsa County courts demand expedited service for protective orders and accurate service for divorce petitions to protect vulnerable parties and secure jurisdiction. This guide covers statutory requirements, safety protocols, documentation standards, and technology integration for family law service in Tulsa County as of 2025.</p>
+        <p className="italic mb-6">Serving documents in family law cases requires sensitivity, speed, and strict compliance with Oklahoma statutes. Tulsa County courts demand expedited service for protective orders and accurate service for divorce petitions to protect vulnerable parties and secure jurisdiction. This guide covers statutory requirements, safety protocols, documentation standards, and technology integration for family law service in Tulsa County as of 2026.</p>
         <Image src="/images/tulsa-county-courthouse.jpeg" alt="Tulsa County Courthouse - Family Law Services" width={800} height={400} className="rounded shadow mb-4" />
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-2">1. Protective Order Service Requirements</h2>

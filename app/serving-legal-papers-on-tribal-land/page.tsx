@@ -45,7 +45,7 @@ export const metadata: Metadata = {
   other: {
     'article:author': 'Just Legal Solutions Team',
     'article:published_time': '2025-10-11',
-    'article:modified_time': '2025-10-11'
+    'article:modified_time': '2026-01-25'
   }
 };
 
@@ -64,7 +64,7 @@ const articleSchema = {
     name: 'Just Legal Solutions'
   },
   datePublished: '2025-10-11',
-  dateModified: '2025-10-11',
+  dateModified: '2026-01-25',
   mainEntityOfPage: canonicalUrl,
   keywords: [
     'Oklahoma process server',

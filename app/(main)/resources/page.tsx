@@ -45,7 +45,7 @@ const ResourcesPage = () => {
       articles: [
   { title: "What is a Process Server?", url: "/seo/what-is-a-process-server", preview: "A complete guide to the role and responsibilities of a process server." },
         { title: "Oklahoma Rules of Civil Procedure", url: null, preview: "Understanding the state laws that govern service of process." },
-        { title: "Complete Tulsa Process Server Guide", url: "/process-server-tulsa-guide", preview: "Your comprehensive 2025 guide to selecting and working with process servers in Tulsa." }
+        { title: "Complete Tulsa Process Server Guide", url: "/process-server-tulsa-guide", preview: "Your comprehensive 2026 guide to selecting and working with process servers in Tulsa." }
       ]
     },
     {

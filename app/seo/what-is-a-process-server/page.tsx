@@ -1103,8 +1103,8 @@ export default function WhatIsAProcessServerPage() {
             </section>
 
             {/* Industry Statistics and Market Data Section (Unique ID) */}
-            <section className="mb-12" id="industry-statistics-2025">
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center voice-optimized">Oklahoma Process Server Industry Insights & Data (2025)</h2>
+            <section className="mb-12" id="industry-statistics-2026">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center voice-optimized">Oklahoma Process Server Industry Insights & Data (2026)</h2>
               
               <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-8 mb-8 border border-blue-200">
                 <h3 className="text-2xl font-bold text-blue-900 mb-6 text-center">Market Size & Growth Statistics</h3>
@@ -1348,7 +1348,7 @@ export default function WhatIsAProcessServerPage() {
 
             {/* Industry Statistics and Market Data Section */}
             <section className="mb-12" id="industry-statistics">
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center voice-optimized">Industry Statistics and Market Data - 2025</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center voice-optimized">Industry Statistics and Market Data - 2026</h2>
               
               <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-8 mb-8">
                 <h3 className="text-2xl font-bold text-blue-900 mb-8 text-center">� Process Server Industry Overview</h3>
@@ -1356,7 +1356,7 @@ export default function WhatIsAProcessServerPage() {
                 <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                   <div className="bg-white p-6 rounded-lg shadow-lg text-center border-t-4 border-blue-500">
                     <div className="text-3xl font-bold text-blue-600 mb-2">$1.4B</div>
-                    <p className="text-sm text-gray-600">Annual U.S. market size (2025 data)</p>
+                    <p className="text-sm text-gray-600">Annual U.S. market size (2026 data)</p>
                   </div>
                   <div className="bg-white p-6 rounded-lg shadow-lg text-center border-t-4 border-green-500">
                     <div className="text-3xl font-bold text-green-600 mb-2">12%</div>
@@ -2219,7 +2219,7 @@ export default function WhatIsAProcessServerPage() {
 
             {/* Oklahoma Process Server Licensing Requirements */}
             <section className="mb-12" id="licensing">
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center voice-optimized">Oklahoma Process Server Legal Requirements (2025 Update)</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center voice-optimized">Oklahoma Process Server Legal Requirements (2026 Update)</h2>
               
               <div className="text-center mb-8">
                 <Image 
@@ -2486,7 +2486,7 @@ export default function WhatIsAProcessServerPage() {
 
             {/* Technology and Modern Process Serving */}
             <section className="mb-12" id="technology">
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center voice-optimized">Technology-Enhanced Process Serving in 2025</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center voice-optimized">Technology-Enhanced Process Serving in 2026</h2>
               
               <div className="text-center mb-8">
                 <Image 

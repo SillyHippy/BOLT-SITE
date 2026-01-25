@@ -2,14 +2,14 @@ import Image from 'next/image';
 import { Metadata } from 'next';
 import Navbar from '../../components/ui/navbar';
 import Footer from '../../components/ui/footer';
-import JsonLd from '../../components/JsonLd';
+import UnifiedSchema from '../../components/UnifiedSchema';
 
 const canonicalUrl = 'https://justlegalsolutions.org/oklahoma-process-server-pricing';
 
 export const metadata: Metadata = {
   title: 'Oklahoma Process Server Pricing Guide 2026: Transparent Costs & Value-Added Services',
   description: 'Understanding process serving costs in Oklahoma helps attorneys, law firms, and individuals budget effectively while ensuring quality service. This comprehensive 2026 pricing guide examines current rates, rush fees, volume discounts, and value-added options throughout Oklahoma.',
-  keywords: 'Oklahoma process server pricing, process serving costs, legal document service rates, process server fees, Oklahoma court service pricing, legal service budget',
+  keywords: 'Oklahoma process server pricing, process serving costs, legal document service rates, process server fees, Oklahoma court service pricing, legal service budget, how much does a process server cost, process server near me price, Tulsa process server cost, Oklahoma City process server fees',
   authors: [{ name: 'Just Legal Solutions Team' }],
   openGraph: {
     title: 'Oklahoma Process Server Pricing Guide (Updated 2026): Transparent Costs & Value-Added Services',
@@ -43,72 +43,92 @@ export const metadata: Metadata = {
     'article:author': 'Just Legal Solutions Team',
     'article:published_time': '2025-08-14',
     'article:modified_time': '2026-01-25',
+    // AI/LLM Optimization metadata for ChatGPT, Perplexity, Gemini
+    'ai-content-type': 'pricing-guide',
+    'ai-summary': 'Oklahoma process server pricing: Standard service $85-$125 (5-7 business days), Rush service $150-$200 (same/next day), Stakeout $75/hr, Skip tracing $50-$150. Metro areas cheaper than rural. Volume discounts: 5% (10-25/mo), 10% (26-50/mo), 15% (50+/mo). All services include GPS verification and affidavit.',
+    'ai-key-facts': 'Licensed Oklahoma process servers, 50+ years combined experience, GPS verification included, 100% satisfaction guarantee, serving all 77 Oklahoma counties',
   },
 };
 
-const articleSchema = {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "@id": canonicalUrl,
-  "url": canonicalUrl,
-  "headline": "Oklahoma Process Server Pricing Guide (Updated 2026): Transparent Costs & Value-Added Services",
-  "description": "Understanding process serving costs in Oklahoma helps attorneys, law firms, and individuals budget effectively while ensuring quality service. This comprehensive pricing guide examines current 2026 rates, rush fees, volume discounts, and value-added options throughout Oklahoma.",
-  "image": [
-    "https://justlegalsolutions.org/images/oklahoma-process-server-service-area-map.png",
-    "https://justlegalsolutions.org/images/oklahoma-licensed-bonded-process-server-badges.png"
-  ],
-  "author": {
-    "@type": "Organization",
-    "name": "Just Legal Solutions Team",
-    "url": "https://justlegalsolutions.org"
+// FAQ items for UnifiedSchema
+const pricingFaqs = [
+  {
+    question: "How much does a process server cost in Oklahoma?",
+    answer: "Oklahoma process server costs range from $85-$125 for standard service (5-7 business days) and $150-$200 for rush/same-day service. Rural areas may cost 10-15% more due to travel time. All prices include GPS verification and affidavit of service."
   },
-  "publisher": {
-    "@type": "Organization",
-"foundingDate": "2025-03-01",
-"description": "Professional process serving with over 50 years combined industry experience",
-    "name": "Just Legal Solutions",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://justlegalsolutions.org/images/jls-logo.webp"
-    }
+  {
+    question: "What factors affect process serving costs in Oklahoma?",
+    answer: "Pricing varies based on location (urban vs rural), urgency (standard vs rush), difficulty of service, and additional services like skip tracing ($50-$150) or stakeouts ($75/hour). Metro areas like Tulsa and Oklahoma City are typically less expensive than rural counties."
   },
-  "datePublished": "2025-08-14T00:00:00-05:00",
-  "dateModified": "2026-01-25T00:00:00-05:00",
-  "mainEntityOfPage": canonicalUrl
-};
-
-const pricingSchema = {
-  "@context": "https://schema.org",
-  "@type": "PriceSpecification",
-  "name": "Oklahoma Process Server Pricing",
-  "description": "Professional process serving rates throughout Oklahoma",
-  "priceCurrency": "USD",
-  "price": "85-200",
-  "minPrice": "85",
-  "maxPrice": "200",
-  "offers": [
-    {
-      "@type": "Offer",         "url": "https://justlegalsolutions.org/services",
-      "name": "Standard Service",
-      "price": "85-125",
-      "description": "Regular process serving within 5-7 business days"
-    },
-    {
-      "@type": "Offer",         "url": "https://justlegalsolutions.org/services", 
-      "name": "Rush Service",
-      "price": "150-200",
-      "description": "Same-day or next-day process serving"
-    }
-  ]
-};
+  {
+    question: "Are there hidden fees in process serving?",
+    answer: "No. Our transparent pricing includes all standard fees: up to 3 service attempts, GPS verification, and notarized affidavit of service. Additional costs only apply for extra services explicitly requested, such as additional attempts beyond the initial three ($25 each) or specialized skip tracing."
+  },
+  {
+    question: "How do Oklahoma process serving costs compare nationally?",
+    answer: "Oklahoma process serving rates are generally 20-30% below national averages while maintaining superior service quality through advanced technology like GPS verification and experienced, licensed servers. The national average is approximately $100-$150, while Oklahoma standard service starts at just $85."
+  },
+  {
+    question: "Do you offer volume discounts for law firms?",
+    answer: "Yes, we offer volume discounts: 5% off for 10-25 serves per month, 10% off for 26-50 serves per month, and 15% off for 50+ serves per month. High-volume clients also receive priority scheduling and a dedicated account manager."
+  },
+  {
+    question: "What is included in the standard process serving price?",
+    answer: "Standard process serving ($85-$125) includes: up to 3 service attempts, GPS-verified location tracking, same-day status updates via client portal, notarized affidavit of service, and document filing assistance. Service is completed within 5-7 business days."
+  }
+];
 
 export default function OklahomaProcessServerPricing2026() {
   return (
     <>
       <Navbar />
-      <JsonLd data={articleSchema} />
-      <JsonLd data={pricingSchema} />
+      
+      {/* Single UnifiedSchema - handles Article, Breadcrumb, FAQ, Service, and Speakable */}
+      <UnifiedSchema
+        pageType="article"
+        url={canonicalUrl}
+        title="Oklahoma Process Server Pricing Guide 2026: Transparent Costs & Value-Added Services"
+        description="Understanding process serving costs in Oklahoma helps attorneys, law firms, and individuals budget effectively while ensuring quality service. This comprehensive 2026 pricing guide examines current rates, rush fees, volume discounts, and value-added options throughout Oklahoma."
+        image="https://justlegalsolutions.org/images/oklahoma-process-server-service-area-map.png"
+        datePublished="2025-08-14"
+        dateModified="2026-01-25"
+        breadcrumbs={[
+          { name: 'Home', item: '/' },
+          { name: 'Services', item: '/services' },
+          { name: 'Pricing Guide', item: '/oklahoma-process-server-pricing' }
+        ]}
+        faqItems={pricingFaqs}
+        speakable={['.speakable-summary', '.speakable-pricing', 'h1']}
+        serviceDetails={{
+          name: 'Oklahoma Process Server Services',
+          description: 'Professional legal document service throughout Oklahoma. Licensed and bonded process servers with GPS verification.',
+          price: '$85-$200',
+          areaServed: ['Oklahoma', 'Tulsa', 'Oklahoma City'],
+          serviceType: ['Process Serving', 'Legal Document Service', 'Skip Tracing']
+        }}
+        priceRange="$85-$200"
+        author={{ name: 'Just Legal Solutions Team', url: 'https://justlegalsolutions.org' }}
+      />
+      
       <main className="max-w-4xl mx-auto px-4 py-8 pt-24">
+        {/* Breadcrumb Navigation */}
+        <nav aria-label="Breadcrumb" className="mb-6 text-sm">
+          <ol className="flex items-center space-x-2">
+            <li>
+              <a href="/" className="text-blue-600 hover:underline">Home</a>
+            </li>
+            <li className="text-gray-400">/</li>
+            <li>
+              <a href="/services" className="text-blue-600 hover:underline">Services</a>
+            </li>
+            <li className="text-gray-400">/</li>
+            <li>
+              <span className="text-gray-700">Pricing Guide</span>
+            </li>
+          </ol>
+        </nav>
+
+        {/* Trust Badges */}
         <div className="mb-6">
           <div className="flex items-center mb-4">
             <Image 
@@ -125,8 +145,35 @@ export default function OklahomaProcessServerPricing2026() {
         <h1 className="text-4xl font-bold mb-4">Oklahoma Process Server Pricing Guide 2026: Transparent Costs & Value-Added Services</h1>
         
         <p className="text-lg text-gray-700 mb-2">
-          <em>Written by the Just Legal Solutions Team | Licensed Oklahoma Process Servers with 50+ Years Combined Experience | Last Updated: January 25, 2026</em>
+          <em>Written by the Just Legal Solutions Team | Licensed Oklahoma Process Servers with 50+ Years Combined Experience | Last Updated: <time dateTime="2026-01-25">January 25, 2026</time></em>
         </p>
+        
+        {/* AI/Voice Search Optimized Quick Answer Box */}
+        <div className="speakable-summary bg-gradient-to-r from-blue-50 to-indigo-50 border-2 border-blue-200 p-6 rounded-lg mb-8 shadow-sm" role="region" aria-label="Quick Pricing Summary">
+          <h2 className="text-xl font-bold text-blue-900 mb-3">💰 Quick Answer: Oklahoma Process Server Costs</h2>
+          <p className="speakable-pricing text-lg mb-4">
+            <strong>Oklahoma process server pricing in 2026:</strong> Standard service costs <strong>$85-$125</strong> (5-7 business days), rush/same-day service costs <strong>$150-$200</strong>, stakeout service is <strong>$75/hour</strong>, and skip tracing ranges from <strong>$50-$150</strong>. All prices include GPS verification, up to 3 service attempts, and notarized affidavit.
+          </p>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-center">
+            <div className="bg-white p-3 rounded shadow-sm">
+              <div className="text-2xl font-bold text-green-600">$85+</div>
+              <div className="text-xs text-gray-600">Standard</div>
+            </div>
+            <div className="bg-white p-3 rounded shadow-sm">
+              <div className="text-2xl font-bold text-orange-600">$150+</div>
+              <div className="text-xs text-gray-600">Rush</div>
+            </div>
+            <div className="bg-white p-3 rounded shadow-sm">
+              <div className="text-2xl font-bold text-purple-600">$75/hr</div>
+              <div className="text-xs text-gray-600">Stakeout</div>
+            </div>
+            <div className="bg-white p-3 rounded shadow-sm">
+              <div className="text-2xl font-bold text-blue-600">$50+</div>
+              <div className="text-xs text-gray-600">Skip Trace</div>
+            </div>
+          </div>
+          <p className="text-sm text-gray-600 mt-3">📍 Serving all 77 Oklahoma counties • ⭐ 100% Satisfaction Guarantee • 📞 <a href="tel:9189322024" className="text-blue-600 font-semibold">(918) 932-2024</a></p>
+        </div>
         
         <p className="text-lg mb-6">
           Understanding process serving costs in Oklahoma helps attorneys, law firms, and individuals budget effectively while ensuring quality service. This comprehensive pricing guide examines current 2026 rates, rush fees, volume discounts, and value-added options throughout Oklahoma, providing transparent pricing information for all types of legal document service needs.
@@ -134,14 +181,15 @@ export default function OklahomaProcessServerPricing2026() {
 
         <Image 
           src="/images/oklahoma-process-server-service-area-map.png" 
-          alt="Oklahoma Process Server Service Areas and Pricing Zones" 
+          alt="Oklahoma Process Server Service Areas and Pricing Zones 2026" 
           width={800} 
           height={400} 
           className="rounded shadow mb-8" 
+          priority
         />
 
-        <section className="mb-8">
-          <h2 className="text-3xl font-semibold mb-4">2026 Oklahoma Process Serving Rate Structure</h2>
+        <section className="mb-8" aria-labelledby="rate-structure">
+          <h2 id="rate-structure" className="text-3xl font-semibold mb-4">2026 Oklahoma Process Serving Rate Structure</h2>
           
           <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-6 rounded">
             <h3 className="text-xl font-bold mb-2">📋 Standard Service Pricing</h3>
@@ -279,29 +327,44 @@ export default function OklahomaProcessServerPricing2026() {
           </div>
         </section>
 
-        <section className="mb-8">
-          <h2 className="text-3xl font-semibold mb-4">Frequently Asked Questions</h2>
+        <section className="mb-8" aria-labelledby="faq-heading">
+          <h2 id="faq-heading" className="text-3xl font-semibold mb-4">Frequently Asked Questions</h2>
           
           <div className="space-y-4">
             <div className="bg-gray-50 p-4 rounded">
+              <h3 className="font-semibold mb-2">How much does a process server cost in Oklahoma?</h3>
+              <p>Oklahoma process server costs range from <strong>$85-$125 for standard service</strong> (5-7 business days) and <strong>$150-$200 for rush/same-day service</strong>. Rural areas may cost 10-15% more due to travel time. All prices include GPS verification and affidavit of service.</p>
+            </div>
+            
+            <div className="bg-gray-50 p-4 rounded">
               <h3 className="font-semibold mb-2">What factors affect process serving costs in Oklahoma?</h3>
-              <p>Pricing varies based on location (urban vs rural), urgency (standard vs rush), difficulty of service, and additional services like skip tracing or stakeouts.</p>
+              <p>Pricing varies based on location (urban vs rural), urgency (standard vs rush), difficulty of service, and additional services like skip tracing ($50-$150) or stakeouts ($75/hour). Metro areas like Tulsa and Oklahoma City typically have lower rates than rural counties.</p>
             </div>
             
             <div className="bg-gray-50 p-4 rounded">
               <h3 className="font-semibold mb-2">Are there hidden fees in process serving?</h3>
-              <p>No. Our transparent pricing includes all standard fees. Additional costs only apply for extra services explicitly requested, such as additional attempts beyond the initial three or specialized skip tracing.</p>
+              <p>No. Our transparent pricing includes all standard fees: up to 3 service attempts, GPS verification, and notarized affidavit. Additional costs only apply for extra services explicitly requested, such as additional attempts beyond the initial three ($25 each) or specialized skip tracing.</p>
             </div>
             
             <div className="bg-gray-50 p-4 rounded">
               <h3 className="font-semibold mb-2">How do Oklahoma process serving costs compare nationally?</h3>
-              <p>Oklahoma rates are generally 20-30% below national averages while maintaining superior service quality through advanced technology and experienced servers.</p>
+              <p>Oklahoma process serving rates are generally <strong>20-30% below national averages</strong> while maintaining superior service quality through advanced technology and experienced servers. The national average is approximately $100-$150, while Oklahoma standard service starts at just $85.</p>
+            </div>
+            
+            <div className="bg-gray-50 p-4 rounded">
+              <h3 className="font-semibold mb-2">Do you offer volume discounts for law firms?</h3>
+              <p>Yes, we offer volume discounts: <strong>5% off</strong> for 10-25 serves per month, <strong>10% off</strong> for 26-50 serves per month, and <strong>15% off</strong> for 50+ serves per month. High-volume clients also receive priority scheduling and a dedicated account manager.</p>
+            </div>
+            
+            <div className="bg-gray-50 p-4 rounded">
+              <h3 className="font-semibold mb-2">What is included in the standard process serving price?</h3>
+              <p>Standard process serving ($85-$125) includes: up to 3 service attempts, GPS-verified location tracking, same-day status updates via client portal, notarized affidavit of service, and document filing assistance. Service is completed within 5-7 business days.</p>
             </div>
           </div>
         </section>
 
-        <section className="mb-8">
-          <h2 className="text-3xl font-semibold mb-4">Professional Service Guarantee</h2>
+        <section className="mb-8" aria-labelledby="guarantee-heading">
+          <h2 id="guarantee-heading" className="text-3xl font-semibold mb-4">Professional Service Guarantee</h2>
           <div className="bg-blue-100 border-l-4 border-blue-500 text-blue-900 p-6 rounded mb-4">
             <h3 className="text-xl font-bold mb-2">💯 100% Satisfaction Guarantee</h3>
             <p className="mb-4">We stand behind our pricing and service quality. If you&rsquo;re not completely satisfied with our process serving, we&rsquo;ll make it right or provide a full refund.</p>
@@ -315,12 +378,28 @@ export default function OklahomaProcessServerPricing2026() {
           </div>
         </section>
 
-        <section className="mb-8">
-          <h2 className="text-3xl font-semibold mb-4">Related Resources</h2>
+        {/* Call to Action - Optimized for conversions */}
+        <section className="mb-8 bg-gradient-to-r from-green-50 to-emerald-50 border-2 border-green-200 p-6 rounded-lg" aria-labelledby="cta-heading">
+          <h2 id="cta-heading" className="text-2xl font-bold text-green-900 mb-3 text-center">📞 Get Your Free Quote Today</h2>
+          <p className="text-center mb-4">Ready to hire a professional Oklahoma process server? Contact us for transparent pricing on your specific needs.</p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <a href="tel:9189322024" className="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg text-lg transition-colors">
+              📱 Call (918) 932-2024
+            </a>
+            <a href="/contact" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg text-lg transition-colors">
+              📝 Request Online Quote
+            </a>
+          </div>
+          <p className="text-center text-sm text-gray-600 mt-4">⚡ Same-day service available • 🏆 98% first-attempt success rate</p>
+        </section>
+
+        <section className="mb-8" aria-labelledby="related-heading">
+          <h2 id="related-heading" className="text-3xl font-semibold mb-4">Related Resources</h2>
           <ul className="list-disc ml-6 mb-4">
             <li><a href="/oklahoma-process-serving-costs-comparison" className="text-blue-700 underline">Oklahoma Process Serving Costs by County Comparison</a></li>
             <li><a href="/oklahoma-process-server-faq-2026" className="text-blue-700 underline">Oklahoma Process Server FAQ 2026</a></li>
             <li><a href="/oklahoma-process-server-technology" className="text-blue-700 underline">Process Server Technology Trends</a></li>
+            <li><a href="/service-areas" className="text-blue-700 underline">View All Oklahoma Service Areas</a></li>
           </ul>
         </section>
 

@@ -9,9 +9,9 @@ import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Broken Arrow Process Server | Legal Document Service 2025 | Just Legal Solutions',
+  title: 'Broken Arrow Process Server | Legal Document Service 2026 | Just Legal Solutions',
   description: 'Professional Broken Arrow process server delivering legal documents, subpoenas, and court papers throughout Rose District, Forest Ridge, and all Broken Arrow neighborhoods. Licensed in both Tulsa & Wagoner Counties with same-day emergency service available.',
-  keywords: 'process server broken arrow, broken arrow process server, legal document service broken arrow, serve papers broken arrow, court documents broken arrow, subpoena service broken arrow, eviction notice broken arrow, emergency process server broken arrow, 24/7 process server oklahoma, licensed process server tulsa county, wagoner county process server, professional process server broken arrow 2025',
+  keywords: 'process server broken arrow, broken arrow process server, legal document service broken arrow, serve papers broken arrow, court documents broken arrow, subpoena service broken arrow, eviction notice broken arrow, emergency process server broken arrow, 24/7 process server oklahoma, licensed process server tulsa county, wagoner county process server, professional process server broken arrow 2026',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',
   publisher: 'Just Legal Solutions',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Broken Arrow Process Server | Expert Legal Document Delivery 2025',
+    title: 'Broken Arrow Process Server | Expert Legal Document Delivery 2026',
     description: 'Trusted Broken Arrow process server with years of local experience. Professional legal document service throughout Rose District, Forest Ridge, and all Broken Arrow communities with dual-county licensing.',
     url: 'https://justlegalsolutions.org/service-areas/broken-arrow',
     siteName: 'Just Legal Solutions',
@@ -147,7 +147,7 @@ export default function BrokenArrowProcessServer() {
         <UnifiedSchema 
           pageType="location"
           url="https://justlegalsolutions.org/service-areas/broken-arrow"
-          title="Broken Arrow Process Server | Legal Document Service 2025"
+          title="Broken Arrow Process Server | Legal Document Service 2026"
           description="Professional Broken Arrow process server delivering legal documents, subpoenas, and court papers throughout Rose District, Forest Ridge, and all Broken Arrow neighborhoods."
           breadcrumbs={breadcrumbItems}
           location={{

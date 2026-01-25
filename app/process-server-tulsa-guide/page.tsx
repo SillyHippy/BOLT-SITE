@@ -8,13 +8,13 @@ const canonicalUrl = 'https://justlegalsolutions.org/process-server-tulsa-guide'
 
 export const metadata: Metadata = {
   title: 'Complete Guide to Process Server Selection in Tulsa: 2025 Edition',
-  description: 'Your complete resource for selecting, hiring, and working with professional process servers in Tulsa County. Learn about Oklahoma laws, pricing, and best practices for 2025.',
+  description: 'Your complete resource for selecting, hiring, and working with professional process servers in Tulsa County. Learn about Oklahoma laws, pricing, and best practices for 2026.',
   keywords: 'Tulsa process server, Oklahoma process server, legal document delivery, process server guide, 2025, service of process, legal compliance, pricing, best practices',
   authors: [{ name: 'JLS Legal Solutions' }],
   robots: 'index, follow',
   openGraph: {
     title: 'Complete Guide to Process Server Selection in Tulsa: 2025 Edition',
-    description: 'Everything you need to know about hiring a process server in Tulsa, Oklahoma. Legal requirements, pricing, and expert tips for 2025.',
+    description: 'Everything you need to know about hiring a process server in Tulsa, Oklahoma. Legal requirements, pricing, and expert tips for 2026.',
     images: ['/imagesforblogpost/tulsa-county-courthouse-oklahoma-legal-system.png'],
     type: 'article',
     siteName: 'Just Legal Solutions',
@@ -40,7 +40,7 @@ const articleSchema = {
   "@id": canonicalUrl,
   "url": canonicalUrl,
   "headline": "Complete Guide to Process Server Selection in Tulsa: 2025 Edition",
-  "description": "Your complete resource for selecting, hiring, and working with professional process servers in Tulsa County. Learn about Oklahoma laws, pricing, and best practices for 2025.",
+  "description": "Your complete resource for selecting, hiring, and working with professional process servers in Tulsa County. Learn about Oklahoma laws, pricing, and best practices for 2026.",
   "image": [
     "https://justlegalsolutions.org/imagesforblogpost/tulsa-county-courthouse-oklahoma-legal-system.png",
     "https://justlegalsolutions.org/images/tulsa-process-server-delivering-documents.png",

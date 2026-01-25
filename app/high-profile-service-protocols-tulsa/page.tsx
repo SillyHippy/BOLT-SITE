@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   authors: [{ name: 'Just Legal Solutions Team' }],
   openGraph: {
     title: 'High-Profile Service Protocols | Just Legal Solutions',
-    description: 'Expert strategies for serving high-profile defendants in Tulsa with enhanced privacy protocols, security measures, and legal compliance in 2025.',
+    description: 'Expert strategies for serving high-profile defendants in Tulsa with enhanced privacy protocols, security measures, and legal compliance in 2026.',
     url: canonicalUrl,
     siteName: 'Just Legal Solutions',
     images: [
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'High-Profile Service Protocols | Just Legal Solutions',
-    description: 'Expert strategies for serving high-profile defendants in Tulsa with enhanced privacy protocols, security measures, and legal compliance in 2025.',
+    description: 'Expert strategies for serving high-profile defendants in Tulsa with enhanced privacy protocols, security measures, and legal compliance in 2026.',
     images: ['/images/Process server at gated community entrance.png'],
     creator: '@JustLegalSolutions',
     site: '@JustLegalSolutions',
@@ -52,7 +52,7 @@ const articleSchema = {
   "@id": canonicalUrl,
   "url": canonicalUrl,
   "headline": "Serving High-Profile Defendants in Tulsa: Privacy & Security Protocols",
-  "description": "Expert strategies for serving high-profile defendants in Tulsa with enhanced privacy protocols, security measures, and legal compliance in 2025.",
+  "description": "Expert strategies for serving high-profile defendants in Tulsa with enhanced privacy protocols, security measures, and legal compliance in 2026.",
   "image": [
     "https://justlegalsolutions.org/images/Process server at gated community entrance.png",
     "https://justlegalsolutions.org/images/high-profile-process-server-tulsa.jpg",
