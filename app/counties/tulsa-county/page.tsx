@@ -291,7 +291,7 @@ export default function TulsaCountyProcessServer() {
                     Tulsa County stands as Oklahoma&apos;s most populous and economically significant county, serving as the heart of the state&apos;s energy industry and second-largest metropolitan area. From the Oil Capital of the World in <Link href="/tulsa-process-server" className="text-blue-600 hover:text-blue-800 underline">Tulsa</Link> to the fastest-growing suburbs like <Link href="/service-areas/broken-arrow" className="text-blue-600 hover:text-blue-800 underline">Broken Arrow</Link> and <Link href="/service-areas/owasso" className="text-blue-600 hover:text-blue-800 underline">Owasso</Link>, our county encompasses diverse communities with sophisticated legal needs.
                   </p>
                   <p>
-                    Our process serving team provides comprehensive coverage throughout all of Tulsa County&apos;s incorporated cities and unincorporated areas. We understand the unique characteristics of each community, from urban Tulsa&apos;s complex business district to the suburban neighborhoods of <Link href="/service-areas/bixby" className="text-blue-600 hover:text-blue-800 underline">Bixby</Link> and <Link href="/service-areas/jenks" className="text-blue-600 hover:text-blue-800 underline">Jenks</Link>, ensuring professional service regardless of location. Learn more about our <Link href="/oklahoma-process-server-technology-2025" className="text-blue-600 hover:text-blue-800 underline">advanced GPS tracking technology</Link> and <Link href="/oklahoma-process-server-pricing-2025" className="text-blue-600 hover:text-blue-800 underline">transparent pricing structure</Link>.
+                    Our process serving team provides comprehensive coverage throughout all of Tulsa County&apos;s incorporated cities and unincorporated areas. We understand the unique characteristics of each community, from urban Tulsa&apos;s complex business district to the suburban neighborhoods of <Link href="/service-areas/bixby" className="text-blue-600 hover:text-blue-800 underline">Bixby</Link> and <Link href="/service-areas/jenks" className="text-blue-600 hover:text-blue-800 underline">Jenks</Link>, ensuring professional service regardless of location. Learn more about our <Link href="/oklahoma-process-server-technology" className="text-blue-600 hover:text-blue-800 underline">advanced GPS tracking technology</Link> and <Link href="/oklahoma-process-server-pricing" className="text-blue-600 hover:text-blue-800 underline">transparent pricing structure</Link>.
                   </p>
                 </div>
               </div>
@@ -337,7 +337,7 @@ export default function TulsaCountyProcessServer() {
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
                 Professional process serving throughout all of Tulsa County including urban, suburban, and rural areas. 
-                Click on the map to explore our complete service coverage. For detailed information about our <Link href="/process-server-tulsa-guide" className="text-blue-600 hover:text-blue-800 underline">comprehensive service areas</Link> and <Link href="/oklahoma-legal-service-areas-2025" className="text-blue-600 hover:text-blue-800 underline">Oklahoma legal service zones</Link>.
+                Click on the map to explore our complete service coverage. For detailed information about our <Link href="/process-server-tulsa-guide" className="text-blue-600 hover:text-blue-800 underline">comprehensive service areas</Link> and <Link href="/oklahoma-legal-service-areas" className="text-blue-600 hover:text-blue-800 underline">Oklahoma legal service zones</Link>.
               </p>
             </div>
             <div className="max-w-4xl mx-auto">
@@ -806,7 +806,7 @@ export default function TulsaCountyProcessServer() {
                   <Link href="/service-areas/sapulpa" className="block text-blue-600 hover:text-blue-800 font-medium">
                     Sapulpa Document Delivery
                   </Link>
-                  <Link href="/oklahoma-legal-service-areas-2025" className="block text-blue-600 hover:text-blue-800 font-medium">
+                  <Link href="/oklahoma-legal-service-areas" className="block text-blue-600 hover:text-blue-800 font-medium">
                     All Oklahoma Areas
                   </Link>
                 </div>
@@ -819,19 +819,19 @@ export default function TulsaCountyProcessServer() {
                   Document Types
                 </h3>
                 <div className="space-y-3">
-                  <Link href="/family-law-service-guide-tulsa-2025" className="block text-blue-600 hover:text-blue-800 font-medium">
+                  <Link href="/family-law-service-guide-tulsa" className="block text-blue-600 hover:text-blue-800 font-medium">
                     Family Law Documents
                   </Link>
-                  <Link href="/high-profile-service-protocols-tulsa-2025" className="block text-blue-600 hover:text-blue-800 font-medium">
+                  <Link href="/high-profile-service-protocols-tulsa" className="block text-blue-600 hover:text-blue-800 font-medium">
                     High-Profile Service
                   </Link>
-                  <Link href="/oklahoma-case-law-service-process-2025" className="block text-blue-600 hover:text-blue-800 font-medium">
+                  <Link href="/oklahoma-case-law-service-process" className="block text-blue-600 hover:text-blue-800 font-medium">
                     Case Law & Process
                   </Link>
-                  <Link href="/oklahoma-electronic-service-guide-2025" className="block text-blue-600 hover:text-blue-800 font-medium">
+                  <Link href="/oklahoma-electronic-service-guide" className="block text-blue-600 hover:text-blue-800 font-medium">
                     Electronic Service Guide
                   </Link>
-                  <Link href="/process-serving-mistakes-guide-2025" className="block text-blue-600 hover:text-blue-800 font-medium">
+                  <Link href="/process-serving-mistakes-guide" className="block text-blue-600 hover:text-blue-800 font-medium">
                     Avoid Common Mistakes
                   </Link>
                 </div>
@@ -844,13 +844,13 @@ export default function TulsaCountyProcessServer() {
                   Professional Resources
                 </h3>
                 <div className="space-y-3">
-                  <Link href="/oklahoma-process-server-pricing-2025" className="block text-blue-600 hover:text-blue-800 font-medium">
+                  <Link href="/oklahoma-process-server-pricing" className="block text-blue-600 hover:text-blue-800 font-medium">
                     Pricing & Service Options
                   </Link>
-                  <Link href="/oklahoma-process-server-technology-2025" className="block text-blue-600 hover:text-blue-800 font-medium">
+                  <Link href="/oklahoma-process-server-technology" className="block text-blue-600 hover:text-blue-800 font-medium">
                     Technology & GPS Tracking
                   </Link>
-                  <Link href="/ai-skip-tracing-guide-oklahoma-2025" className="block text-blue-600 hover:text-blue-800 font-medium">
+                  <Link href="/ai-skip-tracing-guide-oklahoma" className="block text-blue-600 hover:text-blue-800 font-medium">
                     AI Skip Tracing Guide
                   </Link>
                   <Link href="/oklahoma-process-server-best-practices-checklist-2026" className="block text-blue-600 hover:text-blue-800 font-medium">
@@ -900,7 +900,7 @@ export default function TulsaCountyProcessServer() {
                 <div>
                   <h4 className="font-semibold text-blue-900 mb-3">Cost & Comparison</h4>
                   <div className="space-y-2">
-                    <Link href="/oklahoma-process-serving-costs-comparison-2025" className="block text-blue-600 hover:text-blue-800 text-sm">
+                    <Link href="/oklahoma-process-serving-costs-comparison" className="block text-blue-600 hover:text-blue-800 text-sm">
                       Cost Comparison Guide
                     </Link>
                     <Link href="/pricing" className="block text-blue-600 hover:text-blue-800 text-sm">
@@ -924,7 +924,7 @@ export default function TulsaCountyProcessServer() {
                 Professional Process Serving Throughout Tulsa County
               </h2>
               <p className="text-xl text-gray-700 mb-8 max-w-3xl mx-auto">
-                Licensed, bonded, and insured process servers covering all cities in Tulsa County including <Link href="/tulsa-process-server" className="text-blue-600 hover:text-blue-800 underline">Tulsa</Link>, <Link href="/service-areas/broken-arrow" className="text-blue-600 hover:text-blue-800 underline">Broken Arrow</Link>, <Link href="/service-areas/owasso" className="text-blue-600 hover:text-blue-800 underline">Owasso</Link>, <Link href="/service-areas/bixby" className="text-blue-600 hover:text-blue-800 underline">Bixby</Link>, <Link href="/service-areas/jenks" className="text-blue-600 hover:text-blue-800 underline">Jenks</Link>, <Link href="/service-areas/sand-springs" className="text-blue-600 hover:text-blue-800 underline">Sand Springs</Link>, <Link href="/service-areas/glenpool" className="text-blue-600 hover:text-blue-800 underline">Glenpool</Link>, and <Link href="/service-areas/collinsville" className="text-blue-600 hover:text-blue-800 underline">Collinsville</Link>. Same-day service available with our <Link href="/oklahoma-process-server-technology-2025" className="text-blue-600 hover:text-blue-800 underline">advanced tracking technology</Link>.
+                Licensed, bonded, and insured process servers covering all cities in Tulsa County including <Link href="/tulsa-process-server" className="text-blue-600 hover:text-blue-800 underline">Tulsa</Link>, <Link href="/service-areas/broken-arrow" className="text-blue-600 hover:text-blue-800 underline">Broken Arrow</Link>, <Link href="/service-areas/owasso" className="text-blue-600 hover:text-blue-800 underline">Owasso</Link>, <Link href="/service-areas/bixby" className="text-blue-600 hover:text-blue-800 underline">Bixby</Link>, <Link href="/service-areas/jenks" className="text-blue-600 hover:text-blue-800 underline">Jenks</Link>, <Link href="/service-areas/sand-springs" className="text-blue-600 hover:text-blue-800 underline">Sand Springs</Link>, <Link href="/service-areas/glenpool" className="text-blue-600 hover:text-blue-800 underline">Glenpool</Link>, and <Link href="/service-areas/collinsville" className="text-blue-600 hover:text-blue-800 underline">Collinsville</Link>. Same-day service available with our <Link href="/oklahoma-process-server-technology" className="text-blue-600 hover:text-blue-800 underline">advanced tracking technology</Link>.
               </p>
               <Link 
                 href="/pricing" 
@@ -1609,13 +1609,13 @@ export default function TulsaCountyProcessServer() {
                 <div className="text-center">
                   <h4 className="font-semibold text-blue-900 mb-3">Legal Document Types</h4>
                   <div className="space-y-2">
-                    <Link href="/family-law-service-guide-tulsa-2025" className="block text-blue-600 hover:text-blue-800 text-sm underline">
+                    <Link href="/family-law-service-guide-tulsa" className="block text-blue-600 hover:text-blue-800 text-sm underline">
                       Family Law Document Service
                     </Link>
-                    <Link href="/high-profile-service-protocols-tulsa-2025" className="block text-blue-600 hover:text-blue-800 text-sm underline">
+                    <Link href="/high-profile-service-protocols-tulsa" className="block text-blue-600 hover:text-blue-800 text-sm underline">
                       High-Profile Service Protocols
                     </Link>
-                    <Link href="/oklahoma-case-law-service-process-2025" className="block text-blue-600 hover:text-blue-800 text-sm underline">
+                    <Link href="/oklahoma-case-law-service-process" className="block text-blue-600 hover:text-blue-800 text-sm underline">
                       Oklahoma Case Law Guide
                     </Link>
                   </div>
@@ -1624,13 +1624,13 @@ export default function TulsaCountyProcessServer() {
                 <div className="text-center">
                   <h4 className="font-semibold text-blue-900 mb-3">Technology & Pricing</h4>
                   <div className="space-y-2">
-                    <Link href="/oklahoma-process-server-technology-2025" className="block text-blue-600 hover:text-blue-800 text-sm underline">
+                    <Link href="/oklahoma-process-server-technology" className="block text-blue-600 hover:text-blue-800 text-sm underline">
                       Technology & GPS Tracking
                     </Link>
-                    <Link href="/oklahoma-process-server-pricing-2025" className="block text-blue-600 hover:text-blue-800 text-sm underline">
+                    <Link href="/oklahoma-process-server-pricing" className="block text-blue-600 hover:text-blue-800 text-sm underline">
                       Pricing & Service Options
                     </Link>
-                    <Link href="/ai-skip-tracing-guide-oklahoma-2025" className="block text-blue-600 hover:text-blue-800 text-sm underline">
+                    <Link href="/ai-skip-tracing-guide-oklahoma" className="block text-blue-600 hover:text-blue-800 text-sm underline">
                       AI Skip Tracing Guide
                     </Link>
                   </div>

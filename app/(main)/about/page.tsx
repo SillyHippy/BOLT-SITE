@@ -47,7 +47,7 @@ export default function AboutPage() {
           headline: "About Us - The Fight That Forged a Business | Just Legal Solutions",
           author: "Joseph Iannazzi",
           datePublished: "2023-05-18",
-          dateModified: "2025-06-25",
+          dateModified: "2026-01-25",
           image: "https://justlegalsolutions.org/images/Headshot.jpg"
         }}
         aggregateRating={{

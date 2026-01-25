@@ -296,7 +296,7 @@ export default function TulsaProcessServerPage() {
           <Card className="border-l-4 border-l-purple-500">
             <CardContent className="p-6">
               <h3 className="font-bold text-lg mb-3 text-purple-800">Family Law Documents</h3>
-              <p className="text-gray-700">Handling sensitive papers like <Link href="/family-law-service-guide-tulsa-2025" className="text-purple-600 hover:underline">divorce petitions and child custody orders</Link> with care and discretion throughout <Link href="/counties/tulsa-county" className="text-purple-600 hover:underline">Tulsa County</Link>.</p>
+              <p className="text-gray-700">Handling sensitive papers like <Link href="/family-law-service-guide-tulsa" className="text-purple-600 hover:underline">divorce petitions and child custody orders</Link> with care and discretion throughout <Link href="/counties/tulsa-county" className="text-purple-600 hover:underline">Tulsa County</Link>.</p>
             </CardContent>
           </Card>
           <Card className="border-l-4 border-l-red-500">
@@ -314,7 +314,7 @@ export default function TulsaProcessServerPage() {
           <Card className="border-l-4 border-l-indigo-500">
             <CardContent className="p-6">
               <h3 className="font-bold text-lg mb-3 text-indigo-800">Skip Tracing</h3>
-              <p className="text-gray-700"><Link href="/ai-skip-tracing-guide-oklahoma-2025" className="text-indigo-600 hover:underline">Professional location services</Link> for hard-to-find individuals using advanced skip tracing technology.</p>
+              <p className="text-gray-700"><Link href="/ai-skip-tracing-guide-oklahoma" className="text-indigo-600 hover:underline">Professional location services</Link> for hard-to-find individuals using advanced skip tracing technology.</p>
             </CardContent>
           </Card>
         </div>
@@ -368,7 +368,7 @@ export default function TulsaProcessServerPage() {
             <ul className="list-disc list-inside space-y-2 text-gray-700">
               <li><strong>Summons and Complaints:</strong> Critical first step in lawsuits, served promptly to establish jurisdiction</li>
               <li><strong>Subpoenas:</strong> Legally compelling witnesses to testify or produce evidence</li>
-              <li><strong>Family Law Documents:</strong> <Link href="/family-law-service-guide-tulsa-2025" className="text-blue-600 hover:underline">Divorce petitions, child custody orders</Link> handled with discretion</li>
+              <li><strong>Family Law Documents:</strong> <Link href="/family-law-service-guide-tulsa" className="text-blue-600 hover:underline">Divorce petitions, child custody orders</Link> handled with discretion</li>
               <li><strong>Eviction Notices:</strong> <Link href="/seo/eviction-notice-process-server" className="text-red-600 hover:text-red-800 underline">Forcible detainer in strict accordance with Oklahoma law</Link></li>
               <li><strong>Garnishments and Writs:</strong> Court orders for asset seizure and wage garnishment</li>
             </ul>
@@ -715,7 +715,7 @@ export default function TulsaProcessServerPage() {
                 </div>
                 <div className="flex-1">
                   <h3 className="text-lg font-bold text-gray-900 mb-3">What legal documents can you serve?</h3>
-                  <p className="text-gray-700 leading-relaxed">We serve all types of legal documents including summons, complaints, subpoenas, <Link href="/seo/eviction-notice-process-server" className="text-red-600 hover:text-red-800 underline font-medium">eviction notices</Link>, and <Link href="/family-law-service-guide-tulsa-2025" className="text-purple-600 hover:text-purple-800 underline font-medium">family law documents</Link> like divorce papers and child support petitions.</p>
+                  <p className="text-gray-700 leading-relaxed">We serve all types of legal documents including summons, complaints, subpoenas, <Link href="/seo/eviction-notice-process-server" className="text-red-600 hover:text-red-800 underline font-medium">eviction notices</Link>, and <Link href="/family-law-service-guide-tulsa" className="text-purple-600 hover:text-purple-800 underline font-medium">family law documents</Link> like divorce papers and child support petitions.</p>
                 </div>
               </div>
             </div>
@@ -981,20 +981,20 @@ export default function TulsaProcessServerPage() {
             <ul className="space-y-2 text-sm">
               <li><Link href="/oklahoma-process-server-faq-2026" className="text-blue-600 hover:underline">Process Serving FAQ 2026</Link></li>
               <li><Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma Laws</Link></li>
-              <li><Link href="/oklahoma-process-server-pricing-2025" className="text-blue-600 hover:underline">Pricing Guide</Link></li>
+              <li><Link href="/oklahoma-process-server-pricing" className="text-blue-600 hover:underline">Pricing Guide</Link></li>
               <li><Link href="/oklahoma-process-server-best-practices-checklist-2026" className="text-blue-600 hover:underline">Best Practices 2026</Link></li>
-              <li><Link href="/process-serving-mistakes-guide-2025" className="text-blue-600 hover:underline">Common Mistakes</Link></li>
+              <li><Link href="/process-serving-mistakes-guide" className="text-blue-600 hover:underline">Common Mistakes</Link></li>
             </ul>
           </div>
           
           <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm hover:shadow-md transition">
             <h3 className="font-bold text-gray-900 mb-4 text-lg">⚖️ Specialized Services</h3>
             <ul className="space-y-2 text-sm">
-              <li><Link href="/family-law-service-guide-tulsa-2025" className="text-blue-600 hover:underline">Family Law Services</Link></li>
+              <li><Link href="/family-law-service-guide-tulsa" className="text-blue-600 hover:underline">Family Law Services</Link></li>
               <li><Link href="/weekend-emergency" className="text-blue-600 hover:underline">Emergency Service</Link></li>
               <li><Link href="/law-firm-services" className="text-blue-600 hover:underline">Law Firm Services</Link></li>
-              <li><Link href="/ai-skip-tracing-guide-oklahoma-2025" className="text-blue-600 hover:underline">Skip Tracing</Link></li>
-              <li><Link href="/oklahoma-electronic-service-guide-2025" className="text-blue-600 hover:underline">Electronic Service</Link></li>
+              <li><Link href="/ai-skip-tracing-guide-oklahoma" className="text-blue-600 hover:underline">Skip Tracing</Link></li>
+              <li><Link href="/oklahoma-electronic-service-guide" className="text-blue-600 hover:underline">Electronic Service</Link></li>
             </ul>
           </div>
         </div>

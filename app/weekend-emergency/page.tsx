@@ -105,7 +105,7 @@ export default function WeekendEmergency() {
             <div>
               <h3 className="font-semibold text-red-700 mb-3">Emergency & Urgent Service</h3>
               <ul className="space-y-2 text-sm">
-                <li><a href="/family-law-service-guide-tulsa-2025" className="text-blue-600 hover:underline">→ Family Law & Protective Orders</a></li>
+                <li><a href="/family-law-service-guide-tulsa" className="text-blue-600 hover:underline">→ Family Law & Protective Orders</a></li>
                 <li><a href="/law-firm-services" className="text-blue-600 hover:underline">→ Law Firm Partnership Services</a></li>
                 <li><a href="/pricing" className="text-blue-600 hover:underline">→ View Our Pricing</a></li>
               </ul>
@@ -124,7 +124,7 @@ export default function WeekendEmergency() {
               <ul className="space-y-2 text-sm">
                 <li><a href="/oklahoma-process-server-faq-2026" className="text-blue-600 hover:underline">→ Oklahoma Process Server FAQ 2026</a></li>
                 <li><a href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">→ Oklahoma Process Server Laws</a></li>
-                <li><a href="/ai-skip-tracing-guide-oklahoma-2025" className="text-blue-600 hover:underline">→ Skip Tracing Services</a></li>
+                <li><a href="/ai-skip-tracing-guide-oklahoma" className="text-blue-600 hover:underline">→ Skip Tracing Services</a></li>
               </ul>
             </div>
           </div>

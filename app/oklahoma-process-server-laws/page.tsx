@@ -143,16 +143,16 @@ export default function OklahomaProcessServerLaws() {
                   <h4 className="font-semibold mb-2">📋 Best Practices</h4>
                   <ul className="text-sm space-y-1">
                     <li><Link href="/oklahoma-process-server-best-practices-checklist-2026" className="text-blue-600 hover:underline">Process Server Best Practices Checklist 2026</Link></li>
-                    <li><Link href="/process-serving-mistakes-guide-2025" className="text-blue-600 hover:underline">Top 10 Process Serving Mistakes</Link></li>
+                    <li><Link href="/process-serving-mistakes-guide" className="text-blue-600 hover:underline">Top 10 Process Serving Mistakes</Link></li>
                     <li><Link href="/oklahoma-process-server-faq-2026" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ 2026</Link></li>
                   </ul>
                 </div>
                 <div className="bg-white p-4 border rounded-lg">
                   <h4 className="font-semibold mb-2">⚖️ Specialized Topics</h4>
                   <ul className="text-sm space-y-1">
-                    <li><Link href="/oklahoma-electronic-service-guide-2025" className="text-blue-600 hover:underline">Electronic Service Guide</Link></li>
+                    <li><Link href="/oklahoma-electronic-service-guide" className="text-blue-600 hover:underline">Electronic Service Guide</Link></li>
                     <li><Link href="/serving-legal-papers-on-tribal-land" className="text-blue-600 hover:underline">Serving Papers on Tribal Land</Link></li>
-                    <li><Link href="/family-law-service-guide-tulsa-2025" className="text-blue-600 hover:underline">Family Law Service Guide</Link></li>
+                    <li><Link href="/family-law-service-guide-tulsa" className="text-blue-600 hover:underline">Family Law Service Guide</Link></li>
                   </ul>
                 </div>
               </div>

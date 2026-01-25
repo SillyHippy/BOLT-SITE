@@ -314,7 +314,7 @@ const checklistSections = [
     color: 'cyan',
     description: 'Oklahoma electronic service, email service with consent, OSCN e-file, and digital proof protocols',
     introText: 'Electronic service in Oklahoma allows email delivery with written defendant consent and court approval. Oklahoma e-filing through OSCN is required, and court-acceptable proof of email delivery must be documented. For complete details, see our Oklahoma electronic service guide.',
-    introLink: { href: '/oklahoma-electronic-service-guide-2025', text: 'Oklahoma electronic service guide' },
+    introLink: { href: '/oklahoma-electronic-service-guide', text: 'Oklahoma electronic service guide' },
     items: [
       {
         type: 'numbered',
@@ -562,7 +562,7 @@ export default function OklahomaProcessServerBestPracticesChecklist2026() {
                     {section.introText && (
                       <div className={`${colors.bgLight} p-4 rounded-lg border-l-4 ${colors.border}`}>
                         <p className="text-gray-700">
-                          Electronic service in Oklahoma allows email delivery with written defendant consent and court approval. Oklahoma e-filing through OSCN is required, and court-acceptable proof of email delivery must be documented. For complete details, see our <Link href="/oklahoma-electronic-service-guide-2025" className={`${colors.text} font-semibold hover:underline`}>Oklahoma electronic service guide</Link>.
+                          Electronic service in Oklahoma allows email delivery with written defendant consent and court approval. Oklahoma e-filing through OSCN is required, and court-acceptable proof of email delivery must be documented. For complete details, see our <Link href="/oklahoma-electronic-service-guide" className={`${colors.text} font-semibold hover:underline`}>Oklahoma electronic service guide</Link>.
                         </p>
                       </div>
                     )}
@@ -721,8 +721,8 @@ export default function OklahomaProcessServerBestPracticesChecklist2026() {
                 <ul className="space-y-3">
                   <li><Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline flex items-center gap-2"><ArrowRight className="w-4 h-4" />Oklahoma Process Server Laws</Link></li>
                   <li><Link href="/oklahoma-process-server-faq-2026" className="text-blue-600 hover:underline flex items-center gap-2"><ArrowRight className="w-4 h-4" />Process Server FAQ 2026</Link></li>
-                  <li><Link href="/process-serving-mistakes-guide-2025" className="text-blue-600 hover:underline flex items-center gap-2"><ArrowRight className="w-4 h-4" />Top 10 Process Serving Mistakes</Link></li>
-                  <li><Link href="/oklahoma-electronic-service-guide-2025" className="text-blue-600 hover:underline flex items-center gap-2"><ArrowRight className="w-4 h-4" />Oklahoma Electronic Service Guide</Link></li>
+                  <li><Link href="/process-serving-mistakes-guide" className="text-blue-600 hover:underline flex items-center gap-2"><ArrowRight className="w-4 h-4" />Top 10 Process Serving Mistakes</Link></li>
+                  <li><Link href="/oklahoma-electronic-service-guide" className="text-blue-600 hover:underline flex items-center gap-2"><ArrowRight className="w-4 h-4" />Oklahoma Electronic Service Guide</Link></li>
                 </ul>
               </div>
               
@@ -732,10 +732,10 @@ export default function OklahomaProcessServerBestPracticesChecklist2026() {
                   Specialized Topics
                 </h3>
                 <ul className="space-y-3">
-                  <li><Link href="/ai-skip-tracing-guide-oklahoma-2025" className="text-blue-600 hover:underline flex items-center gap-2"><ArrowRight className="w-4 h-4" />AI Skip Tracing Guide</Link></li>
-                  <li><Link href="/family-law-service-guide-tulsa-2025" className="text-blue-600 hover:underline flex items-center gap-2"><ArrowRight className="w-4 h-4" />Family Law Service Guide</Link></li>
+                  <li><Link href="/ai-skip-tracing-guide-oklahoma" className="text-blue-600 hover:underline flex items-center gap-2"><ArrowRight className="w-4 h-4" />AI Skip Tracing Guide</Link></li>
+                  <li><Link href="/family-law-service-guide-tulsa" className="text-blue-600 hover:underline flex items-center gap-2"><ArrowRight className="w-4 h-4" />Family Law Service Guide</Link></li>
                   <li><Link href="/serving-legal-papers-on-tribal-land" className="text-blue-600 hover:underline flex items-center gap-2"><ArrowRight className="w-4 h-4" />Serving on Tribal Land</Link></li>
-                  <li><Link href="/high-profile-service-protocols-tulsa-2025" className="text-blue-600 hover:underline flex items-center gap-2"><ArrowRight className="w-4 h-4" />High-Profile Service Protocols</Link></li>
+                  <li><Link href="/high-profile-service-protocols-tulsa" className="text-blue-600 hover:underline flex items-center gap-2"><ArrowRight className="w-4 h-4" />High-Profile Service Protocols</Link></li>
                 </ul>
               </div>
             </div>

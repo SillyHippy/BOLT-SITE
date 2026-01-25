@@ -2318,7 +2318,7 @@ export default function WhatIsAProcessServerPage() {
               <div className="bg-gradient-to-r from-purple-50 to-purple-100 rounded-xl p-8 mb-8">
                 <h3 className="text-2xl font-bold text-purple-900 mb-6">AI-Assisted Skip Tracing Technology</h3>
                 <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                  When individuals are difficult to locate, we utilize advanced investigative techniques combining traditional methods with modern technology to achieve a 95%+ success rate in Oklahoma. <Link href="/ai-skip-tracing-guide-oklahoma-2025" className="text-purple-600 hover:underline font-medium">Learn more about our advanced skip tracing methods →</Link>
+                  When individuals are difficult to locate, we utilize advanced investigative techniques combining traditional methods with modern technology to achieve a 95%+ success rate in Oklahoma. <Link href="/ai-skip-tracing-guide-oklahoma" className="text-purple-600 hover:underline font-medium">Learn more about our advanced skip tracing methods →</Link>
                 </p>
                 
                 <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -2559,7 +2559,7 @@ export default function WhatIsAProcessServerPage() {
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center voice-optimized">Transparent Pricing Structure and Payment Options</h2>
               
               <div className="text-center mb-6">
-                <p className="text-gray-700 mb-4">Need detailed pricing information? <Link href="/oklahoma-process-server-pricing-2025" className="text-blue-600 hover:underline font-medium">View our complete pricing guide →</Link></p>
+                <p className="text-gray-700 mb-4">Need detailed pricing information? <Link href="/oklahoma-process-server-pricing" className="text-blue-600 hover:underline font-medium">View our complete pricing guide →</Link></p>
               </div>
               
               <div className="grid lg:grid-cols-3 gap-8 mb-8">
@@ -2849,17 +2849,17 @@ export default function WhatIsAProcessServerPage() {
                     <li><a href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma Process Server Laws & Requirements</a></li>
                     <li><a href="/oklahoma-process-server-faq-2026" className="text-blue-600 hover:underline">Frequently Asked Questions 2026</a></li>
                     <li><a href="/oklahoma-process-server-best-practices-checklist-2026" className="text-blue-600 hover:underline">Best Practices Checklist 2026</a></li>
-                    <li><a href="/process-serving-mistakes-guide-2025" className="text-blue-600 hover:underline">Common Process Serving Mistakes</a></li>
+                    <li><a href="/process-serving-mistakes-guide" className="text-blue-600 hover:underline">Common Process Serving Mistakes</a></li>
                   </ul>
                 </div>
                 
                 <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm hover:shadow-md transition">
                   <h3 className="font-bold text-gray-900 mb-3">⚖️ Specialized Services</h3>
                   <ul className="space-y-2 text-sm">
-                    <li><a href="/family-law-service-guide-tulsa-2025" className="text-blue-600 hover:underline">Family Law Service Guide</a></li>
-                    <li><a href="/oklahoma-electronic-service-guide-2025" className="text-blue-600 hover:underline">Electronic Service Guide</a></li>
+                    <li><a href="/family-law-service-guide-tulsa" className="text-blue-600 hover:underline">Family Law Service Guide</a></li>
+                    <li><a href="/oklahoma-electronic-service-guide" className="text-blue-600 hover:underline">Electronic Service Guide</a></li>
                     <li><a href="/serving-legal-papers-on-tribal-land" className="text-blue-600 hover:underline">Serving on Tribal Land</a></li>
-                    <li><a href="/ai-skip-tracing-guide-oklahoma-2025" className="text-blue-600 hover:underline">Skip Tracing Guide</a></li>
+                    <li><a href="/ai-skip-tracing-guide-oklahoma" className="text-blue-600 hover:underline">Skip Tracing Guide</a></li>
                   </ul>
                 </div>
                 

@@ -252,7 +252,7 @@ export default function ProcessServerTulsaGuide() {
           <ul className="list-disc ml-6 text-blue-700 space-y-1">
             <li><a href="/tulsa-process-server" className="underline hover:text-blue-900">Comprehensive Tulsa Process Server Services</a> - Complete legal document delivery</li>
             <li><a href="/seo/eviction-notice-process-server" className="underline hover:text-blue-900">Eviction Notice Process Server</a> - Specialized landlord-tenant document delivery</li>
-            <li><a href="/family-law-service-guide-tulsa-2025" className="underline hover:text-blue-900">Family Law Document Service</a> - Divorce papers and child custody orders</li>
+            <li><a href="/family-law-service-guide-tulsa" className="underline hover:text-blue-900">Family Law Document Service</a> - Divorce papers and child custody orders</li>
             <li><a href="/resources" className="underline hover:text-blue-900">Legal Resources & Guides</a> - Educational materials and FAQs</li>
           </ul>
         </div>

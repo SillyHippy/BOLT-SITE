@@ -129,21 +129,21 @@ const SitemapPage = () => {
     { url: '/card', label: 'Business Card' },
     { url: '/card/calendar', label: 'Calendar Scheduling' },
     
-    // --- 2025 Feature/Guide Pages ---
+    // --- Feature/Guide Pages ---
     { url: '/oklahoma-process-server-best-practices-checklist-2025', label: 'Process Server Best Practices Checklist 2025' },
     { url: '/oklahoma-process-server-best-practices-checklist-2026', label: 'Process Server Best Practices Checklist 2026' },
-    { url: '/oklahoma-legal-service-areas-2025', label: 'Oklahoma Legal Service Areas 2025' },
-    { url: '/oklahoma-electronic-service-guide-2025', label: 'Oklahoma Electronic Service Guide 2025' },
-    { url: '/oklahoma-case-law-service-process-2025', label: 'Oklahoma Case Law Service Process 2025' },
-    { url: '/oklahoma-process-server-pricing-2025', label: 'Process Server Pricing Guide 2025' },
-    { url: '/oklahoma-process-server-technology-2025', label: 'Process Server Technology Trends 2025' },
-    { url: '/oklahoma-process-server-faq-2025', label: 'Process Server FAQ 2025' },
+    { url: '/oklahoma-legal-service-areas', label: 'Oklahoma Legal Service Areas' },
+    { url: '/oklahoma-electronic-service-guide', label: 'Oklahoma Electronic Service Guide' },
+    { url: '/oklahoma-case-law-service-process', label: 'Oklahoma Case Law Service Process' },
+    { url: '/oklahoma-process-server-pricing', label: 'Process Server Pricing Guide' },
+    { url: '/oklahoma-process-server-technology', label: 'Process Server Technology Trends' },
     { url: '/oklahoma-process-server-faq-2026', label: 'Process Server FAQ 2026' },
-    { url: '/oklahoma-process-serving-costs-comparison-2025', label: 'Process Serving Costs Comparison 2025' },
-    { url: '/ai-skip-tracing-guide-oklahoma-2025', label: 'AI Skip Tracing Guide Oklahoma 2025' },
-    { url: '/process-serving-mistakes-guide-2025', label: 'Process Serving Mistakes Guide 2025' },
-    { url: '/high-profile-service-protocols-tulsa-2025', label: 'High-Profile Service Protocols Tulsa 2025' },
-    { url: '/family-law-service-guide-tulsa-2025', label: 'Family Law Service Guide Tulsa 2025' },
+    { url: '/oklahoma-process-server-faq-2026', label: 'Process Server FAQ 2026' },
+    { url: '/oklahoma-process-serving-costs-comparison', label: 'Process Serving Costs Comparison' },
+    { url: '/ai-skip-tracing-guide-oklahoma', label: 'AI Skip Tracing Guide Oklahoma' },
+    { url: '/process-serving-mistakes-guide', label: 'Process Serving Mistakes Guide' },
+    { url: '/high-profile-service-protocols-tulsa', label: 'High-Profile Service Protocols Tulsa' },
+    { url: '/family-law-service-guide-tulsa', label: 'Family Law Service Guide Tulsa' },
   ];
 
   return (

@@ -67,7 +67,7 @@ const breadcrumbItems = [
 const jenksServiceFAQs = [
   {
     question: "How much does a process server cost in Jenks?",
-    answer: "Our professional process serving in the 'Antique Capital of Oklahoma' offers competitive rates with transparent pricing. Standard service starts at $30-$50 within Jenks city limits, including areas near the Oklahoma Aquarium (300 Aquarium Dr), Main Street District (107 E Main St), and Riverwalk Crossing (100 Riverwalk Dr). Rush and emergency services available throughout Jenks neighborhoods. For detailed pricing comparisons across Oklahoma, see our <Link href='/oklahoma-process-serving-costs-comparison-2025' className='text-blue-600 hover:text-blue-800 underline'>Oklahoma Process Serving Costs Comparison guide</Link>. Contact us at (539) 367-6832 for detailed quotes."
+    answer: "Our professional process serving in the 'Antique Capital of Oklahoma' offers competitive rates with transparent pricing. Standard service starts at $30-$50 within Jenks city limits, including areas near the Oklahoma Aquarium (300 Aquarium Dr), Main Street District (107 E Main St), and Riverwalk Crossing (100 Riverwalk Dr). Rush and emergency services available throughout Jenks neighborhoods. For detailed pricing comparisons across Oklahoma, see our <Link href='/oklahoma-process-serving-costs-comparison' className='text-blue-600 hover:text-blue-800 underline'>Oklahoma Process Serving Costs Comparison guide</Link>. Contact us at (539) 367-6832 for detailed quotes."
   },
   {
     question: "How quickly can you serve papers in Jenks?",
@@ -106,7 +106,7 @@ const jenksBusinessFAQs = [
   },
   {
     question: "What's your experience with Jenks school district and educational facility service?",
-    answer: "We have extensive experience serving documents at all Jenks Public Schools locations including Jenks High School, Jenks West Elementary, Jenks East Elementary, and Jenks Middle School. We follow all district protocols, coordinate with administration, and ensure appropriate timing for school-related legal matters including <Link href='/family-law-service-guide-tulsa-2025' className='text-blue-600 hover:text-blue-800 underline'>child custody papers</Link> and subpoenas. For specialized guidance on family law process serving, including protective orders and custody documents, our comprehensive family law guide provides detailed protocols and safety requirements."
+    answer: "We have extensive experience serving documents at all Jenks Public Schools locations including Jenks High School, Jenks West Elementary, Jenks East Elementary, and Jenks Middle School. We follow all district protocols, coordinate with administration, and ensure appropriate timing for school-related legal matters including <Link href='/family-law-service-guide-tulsa' className='text-blue-600 hover:text-blue-800 underline'>child custody papers</Link> and subpoenas. For specialized guidance on family law process serving, including protective orders and custody documents, our comprehensive family law guide provides detailed protocols and safety requirements."
   },
   {
     question: "Do you serve papers during Jenks festivals and community events?",
@@ -121,7 +121,7 @@ const jenksBusinessFAQs = [
 const jenksLegalFAQs = [
   {
     question: "Where are court documents filed for Jenks cases?",
-    answer: "Most court documents for Jenks residents are filed at the <Link href='/counties/tulsa-county' className='text-blue-600 hover:text-blue-800 underline'>Tulsa County Courthouse</Link> in downtown Tulsa (500 S Denver Ave). Municipal matters may be handled at Jenks City Hall (211 N Elm St). We handle all filing requirements, provide detailed courthouse information, and can coordinate between venues as needed for your specific case type and jurisdiction requirements. For information on court filing deadlines and requirements, see our <Link href='/oklahoma-case-law-service-process-2025' className='text-blue-600 hover:text-blue-800 underline'>Oklahoma Case Law & Service Process guide</Link>."
+    answer: "Most court documents for Jenks residents are filed at the <Link href='/counties/tulsa-county' className='text-blue-600 hover:text-blue-800 underline'>Tulsa County Courthouse</Link> in downtown Tulsa (500 S Denver Ave). Municipal matters may be handled at Jenks City Hall (211 N Elm St). We handle all filing requirements, provide detailed courthouse information, and can coordinate between venues as needed for your specific case type and jurisdiction requirements. For information on court filing deadlines and requirements, see our <Link href='/oklahoma-case-law-service-process' className='text-blue-600 hover:text-blue-800 underline'>Oklahoma Case Law & Service Process guide</Link>."
   },
   {
     question: "Are you licensed to serve process in Jenks and Tulsa County?",
@@ -129,7 +129,7 @@ const jenksLegalFAQs = [
   },
   {
     question: "What types of legal documents do you serve in Jenks?",
-    answer: "We serve all types of legal documents in Jenks including divorce papers, child custody documents, <Link href='/seo/eviction-notice-process-server' className='text-red-600 hover:text-red-800 underline'>eviction notices</Link>, small claims court papers, subpoenas, civil complaints, restraining orders, business litigation documents, <Link href='/family-law-service-guide-tulsa-2025' className='text-blue-600 hover:text-blue-800 underline'>family law filings</Link>, and all other court-ordered service of process throughout the Main Street District, Oklahoma Aquarium area, Riverwalk Crossing, and all residential neighborhoods."
+    answer: "We serve all types of legal documents in Jenks including divorce papers, child custody documents, <Link href='/seo/eviction-notice-process-server' className='text-red-600 hover:text-red-800 underline'>eviction notices</Link>, small claims court papers, subpoenas, civil complaints, restraining orders, business litigation documents, <Link href='/family-law-service-guide-tulsa' className='text-blue-600 hover:text-blue-800 underline'>family law filings</Link>, and all other court-ordered service of process throughout the Main Street District, Oklahoma Aquarium area, Riverwalk Crossing, and all residential neighborhoods."
   },
   {
     question: "What are the Oklahoma legal requirements for service in Jenks?",
@@ -335,8 +335,8 @@ export default function JenksProcessServer() {
                 <div>
                   <h3 className="text-xl font-bold mb-4 text-gray-800">Our Services Include:</h3>
                   <ul className="space-y-3 text-gray-700">
-                    <li className="flex items-center"><CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" /><Link href="/family-law-service-guide-tulsa-2025" className="text-blue-600 hover:text-blue-800 underline">Divorce Papers & Family Law Documents</Link></li>
-                    <li className="flex items-center"><CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" /><Link href="/family-law-service-guide-tulsa-2025" className="text-blue-600 hover:text-blue-800 underline">Child Custody & Support Documents</Link></li>
+                    <li className="flex items-center"><CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" /><Link href="/family-law-service-guide-tulsa" className="text-blue-600 hover:text-blue-800 underline">Divorce Papers & Family Law Documents</Link></li>
+                    <li className="flex items-center"><CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" /><Link href="/family-law-service-guide-tulsa" className="text-blue-600 hover:text-blue-800 underline">Child Custody & Support Documents</Link></li>
                     <li className="flex items-center"><CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" /><Link href="/seo/eviction-notice-process-server" className="text-red-600 hover:text-red-800 underline">Eviction Notices & Landlord Tenant</Link></li>
                     <li className="flex items-center"><CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />Subpoenas & Court Summons</li>
                     <li className="flex items-center"><CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />Civil Complaints & Lawsuits</li>
@@ -841,7 +841,7 @@ export default function JenksProcessServer() {
                     <h3 className="text-lg font-bold text-blue-900">Family Law Services</h3>
                   </div>
                   <p className="text-sm text-gray-700 mb-3">Specialized protocols for divorce papers, custody orders, and protective orders</p>
-                  <Link href="/family-law-service-guide-tulsa-2025" className="text-blue-600 hover:text-blue-800 underline font-semibold">
+                  <Link href="/family-law-service-guide-tulsa" className="text-blue-600 hover:text-blue-800 underline font-semibold">
                     Family Law Process Serving Tips →
                   </Link>
                 </div>
@@ -852,7 +852,7 @@ export default function JenksProcessServer() {
                     <h3 className="text-lg font-bold text-green-900">Court Filing Requirements</h3>
                   </div>
                   <p className="text-sm text-gray-700 mb-3">Tulsa County court deadlines, case law, and filing requirements</p>
-                  <Link href="/oklahoma-case-law-service-process-2025" className="text-green-600 hover:text-green-800 underline font-semibold">
+                  <Link href="/oklahoma-case-law-service-process" className="text-green-600 hover:text-green-800 underline font-semibold">
                     Court Filing Deadlines Resource →
                   </Link>
                 </div>
@@ -874,7 +874,7 @@ export default function JenksProcessServer() {
                     <h3 className="text-lg font-bold text-orange-900">Cost Comparison</h3>
                   </div>
                   <p className="text-sm text-gray-700 mb-3">Transparent pricing information and cost comparisons across Oklahoma</p>
-                  <Link href="/oklahoma-process-serving-costs-comparison-2025" className="text-orange-600 hover:text-orange-800 underline font-semibold">
+                  <Link href="/oklahoma-process-serving-costs-comparison" className="text-orange-600 hover:text-orange-800 underline font-semibold">
                     Pricing Comparison Guide →
                   </Link>
                 </div>

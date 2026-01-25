@@ -182,7 +182,7 @@ User-agent: *
 Allow: /
 
 ## ADDITIONAL RESOURCES
-- Pricing Guide: https://justlegalsolutions.org/oklahoma-process-server-pricing-2025
+- Pricing Guide: https://justlegalsolutions.org/oklahoma-process-server-pricing
 - Service Areas: https://justlegalsolutions.org/service-areas
 - FAQ: https://justlegalsolutions.org/oklahoma-process-server-faq-2025
 - Contact: https://justlegalsolutions.org/contact

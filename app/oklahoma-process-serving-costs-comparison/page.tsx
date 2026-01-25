@@ -7,12 +7,12 @@ import Image from 'next/image';
 const canonicalUrl = 'https://justlegalsolutions.org/oklahoma-process-serving-costs-comparison';
 
 export const metadata: Metadata = {
-  title: 'Oklahoma Process Serving Costs by County 2025: Complete Pricing Analysis & Budget Guide',
-  description: 'Understanding process serving costs across Oklahoma&rsquo;s 77 counties helps attorneys and law firms budget effectively while ensuring quality service. This comprehensive analysis examines 2025 pricing structures, geographic variations, and hidden costs that impact your legal service budget.',
+  title: 'Oklahoma Process Serving Costs by County (Updated 2026): Complete Pricing Analysis & Budget Guide',
+  description: 'Understanding process serving costs across Oklahoma&rsquo;s 77 counties helps attorneys and law firms budget effectively while ensuring quality service. This comprehensive analysis examines current 2026 pricing structures, geographic variations, and hidden costs that impact your legal service budget.',
   keywords: 'Oklahoma process serving costs, county pricing comparison, legal service budget, process server fees by county, Tulsa county rates, Oklahoma legal costs',
   authors: [{ name: 'Just Legal Solutions Team' }],
   openGraph: {
-    title: 'Oklahoma Process Serving Costs by County 2025: Complete Pricing Analysis & Budget Guide',
+    title: 'Oklahoma Process Serving Costs by County (Updated 2026): Complete Pricing Analysis & Budget Guide',
     description: 'Understanding process serving costs across Oklahoma&rsquo;s 77 counties helps attorneys and law firms budget effectively while ensuring quality service.',
     url: canonicalUrl,
     siteName: 'Just Legal Solutions',
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
         url: '/images/process-server-vs-sheriff-comparison.png',
         width: 1200,
         height: 630,
-        alt: 'Oklahoma Process Serving Cost Comparison 2025'
+        alt: 'Oklahoma Process Serving Cost Comparison 2026'
       }
     ],
     locale: 'en_US',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Oklahoma Process Serving Costs by County 2025: Complete Pricing Analysis & Budget Guide',
+    title: 'Oklahoma Process Serving Costs by County 2026: Complete Pricing Analysis & Budget Guide',
     description: 'Understanding process serving costs across Oklahoma&rsquo;s 77 counties helps attorneys and law firms budget effectively.',
     images: ['/images/process-server-vs-sheriff-comparison.png'],
     creator: '@JustLegalSolutions',
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
   other: {
     'article:author': 'Just Legal Solutions Team',
     'article:published_time': '2025-08-14',
-    'article:modified_time': '2025-08-14',
+    'article:modified_time': '2026-01-25',
   },
 };
 
@@ -51,15 +51,16 @@ const articleSchema = {
   "@type": "Article",
   "@id": canonicalUrl,
   "url": canonicalUrl,
-  "headline": "Oklahoma Process Serving Costs by County 2025: Complete Pricing Analysis & Budget Guide",
-  "description": "Understanding process serving costs across Oklahoma's 77 counties helps attorneys and law firms budget effectively while ensuring quality service. This comprehensive analysis examines 2025 pricing structures, geographic variations, and hidden costs that impact your legal service budget.",
+  "headline": "Oklahoma Process Serving Costs by County 2026: Complete Pricing Analysis & Budget Guide",
+  "description": "Understanding process serving costs across Oklahoma's 77 counties helps attorneys and law firms budget effectively while ensuring quality service. This comprehensive analysis examines 2026 pricing structures, geographic variations, and hidden costs that impact your legal service budget.",
   "image": [
     "https://justlegalsolutions.org/images/process-server-vs-sheriff-comparison.png",
     "https://justlegalsolutions.org/images/oklahoma-process-server-service-area-map.png"
   ],
   "author": {
-    "@type": "Person",
-    "name": "Just Legal Solutions Team"
+    "@type": "Organization",
+    "name": "Just Legal Solutions Team",
+    "url": "https://justlegalsolutions.org"
   },
   "publisher": {
     "@type": "Organization",
@@ -71,12 +72,12 @@ const articleSchema = {
       "url": "https://justlegalsolutions.org/images/jls-logo.webp"
     }
   },
-  "datePublished": "2025-08-14",
-  "dateModified": "2025-08-14",
+  "datePublished": "2025-08-14T00:00:00-05:00",
+  "dateModified": "2026-01-25T00:00:00-05:00",
   "mainEntityOfPage": canonicalUrl
 };
 
-export default function OklahomaProcessServingCostsComparison2025() {
+export default function OklahomaProcessServingCostsComparison() {
   return (
     <>
       <Navbar />
@@ -95,14 +96,14 @@ export default function OklahomaProcessServingCostsComparison2025() {
           </div>
         </div>
         
-        <h1 className="text-4xl font-bold mb-4">Oklahoma Process Serving Costs by County 2025: Complete Pricing Analysis & Budget Guide</h1>
+        <h1 className="text-4xl font-bold mb-4">Oklahoma Process Serving Costs by County: Complete Pricing Analysis & Budget Guide (Updated for 2026)</h1>
         
         <p className="text-lg text-gray-700 mb-2">
-          <em>Written by the Just Legal Solutions Team | Licensed Oklahoma Process Servers with 50+ Years Combined Experience | Last Updated: August 14, 2025</em>
+          <em>Written by the Just Legal Solutions Team | Licensed Oklahoma Process Servers with 50+ Years Combined Experience | Last Updated: January 25, 2026</em>
         </p>
         
         <p className="text-lg mb-6">
-          Understanding process serving costs across Oklahoma&rsquo;s 77 counties helps attorneys and law firms budget effectively while ensuring quality service. This comprehensive analysis examines 2025 pricing structures, geographic variations, and hidden costs that impact your legal service budget, providing transparent cost comparisons and budgeting strategies for legal practices throughout Oklahoma.
+          Understanding process serving costs across Oklahoma&rsquo;s 77 counties helps attorneys and law firms budget effectively while ensuring quality service. This comprehensive analysis examines current 2026 pricing structures, geographic variations, and hidden costs that impact your legal service budget, providing transparent cost comparisons and budgeting strategies for legal practices throughout Oklahoma.
         </p>
 
         <Image 

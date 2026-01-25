@@ -400,17 +400,17 @@ export default function OklahomaProcessServerBestPracticesChecklist2025() {
               <ul className="space-y-2">
                 <li><a href="/oklahoma-process-server-laws" className="text-blue-700 underline">→ Oklahoma Process Server Laws</a></li>
                 <li><a href="/oklahoma-process-server-faq-2026" className="text-blue-700 underline">→ Process Server FAQ 2026</a></li>
-                <li><a href="/process-serving-mistakes-guide-2025" className="text-blue-700 underline">→ Top 10 Process Serving Mistakes</a></li>
-                <li><a href="/oklahoma-electronic-service-guide-2025" className="text-blue-700 underline">→ Electronic Service Guide</a></li>
+                <li><a href="/process-serving-mistakes-guide" className="text-blue-700 underline">→ Top 10 Process Serving Mistakes</a></li>
+                <li><a href="/oklahoma-electronic-service-guide" className="text-blue-700 underline">→ Electronic Service Guide</a></li>
               </ul>
             </div>
             <div className="bg-white border border-gray-200 p-6 rounded-lg">
               <h3 className="font-bold text-lg mb-3">Specialized Topics</h3>
               <ul className="space-y-2">
-                <li><a href="/ai-skip-tracing-guide-oklahoma-2025" className="text-blue-700 underline">→ AI Skip Tracing Guide</a></li>
-                <li><a href="/family-law-service-guide-tulsa-2025" className="text-blue-700 underline">→ Family Law Service Guide</a></li>
+                <li><a href="/ai-skip-tracing-guide-oklahoma" className="text-blue-700 underline">→ AI Skip Tracing Guide</a></li>
+                <li><a href="/family-law-service-guide-tulsa" className="text-blue-700 underline">→ Family Law Service Guide</a></li>
                 <li><a href="/serving-legal-papers-on-tribal-land" className="text-blue-700 underline">→ Serving on Tribal Land</a></li>
-                <li><a href="/high-profile-service-protocols-tulsa-2025" className="text-blue-700 underline">→ High-Profile Service Protocols</a></li>
+                <li><a href="/high-profile-service-protocols-tulsa" className="text-blue-700 underline">→ High-Profile Service Protocols</a></li>
               </ul>
             </div>
           </div>

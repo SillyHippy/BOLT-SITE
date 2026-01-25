@@ -425,15 +425,15 @@ export default function LawFirmServicesPage() {
                 <h3 className="font-bold text-lg text-green-800 mb-2">❓ Process Server FAQ</h3>
                 <p className="text-gray-600 text-sm">Quick reference for common questions your litigation team may have about Oklahoma process serving.</p>
               </Link>
-              <Link href="/family-law-service-guide-tulsa-2025" className="block bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+              <Link href="/family-law-service-guide-tulsa" className="block bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
                 <h3 className="font-bold text-lg text-purple-800 mb-2">👨‍👩‍👧 Family Law Guide</h3>
                 <p className="text-gray-600 text-sm">Specialized procedures for serving protective orders and divorce papers in Oklahoma family courts.</p>
               </Link>
-              <Link href="/ai-skip-tracing-guide-oklahoma-2025" className="block bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+              <Link href="/ai-skip-tracing-guide-oklahoma" className="block bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
                 <h3 className="font-bold text-lg text-orange-800 mb-2">🔍 Skip Tracing Guide</h3>
                 <p className="text-gray-600 text-sm">Learn how we locate evasive defendants using AI-powered databases and investigative techniques.</p>
               </Link>
-              <Link href="/oklahoma-electronic-service-guide-2025" className="block bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+              <Link href="/oklahoma-electronic-service-guide" className="block bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
                 <h3 className="font-bold text-lg text-teal-800 mb-2">📧 E-Service Guide</h3>
                 <p className="text-gray-600 text-sm">When electronic service is permitted in Oklahoma courts and how to document consent.</p>
               </Link>

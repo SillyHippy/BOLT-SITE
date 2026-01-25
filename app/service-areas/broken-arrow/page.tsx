@@ -1095,10 +1095,10 @@ export default function BrokenArrowProcessServer() {
                 <div className="bg-white p-6 rounded-lg shadow-md">
                   <h3 className="font-bold text-lg text-green-800 mb-3">Helpful Guides</h3>
                   <ul className="space-y-2 text-sm">
-                    <li><Link href="/oklahoma-process-server-faq-2025" className="text-blue-600 hover:underline">Process Server FAQ</Link></li>
+                    <li><Link href="/oklahoma-process-server-faq-2026" className="text-blue-600 hover:underline">Process Server FAQ</Link></li>
                     <li><Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma Process Server Laws</Link></li>
-                    <li><Link href="/family-law-service-guide-tulsa-2025" className="text-blue-600 hover:underline">Family Law Service Guide</Link></li>
-                    <li><Link href="/ai-skip-tracing-guide-oklahoma-2025" className="text-blue-600 hover:underline">Skip Tracing Guide</Link></li>
+                    <li><Link href="/family-law-service-guide-tulsa" className="text-blue-600 hover:underline">Family Law Service Guide</Link></li>
+                    <li><Link href="/ai-skip-tracing-guide-oklahoma" className="text-blue-600 hover:underline">Skip Tracing Guide</Link></li>
                   </ul>
                 </div>
                 <div className="bg-white p-6 rounded-lg shadow-md">

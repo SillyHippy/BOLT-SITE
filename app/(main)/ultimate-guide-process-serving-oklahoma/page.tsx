@@ -793,7 +793,7 @@ export default function UltimateGuidePage() {
           </CardHeader>
           <CardContent>
             <p className="mb-6">
-              Modern process serving leverages cutting-edge technology to ensure faster, more accurate, and more secure service of legal documents. Our tech-enabled approach sets new standards for the industry. Learn more about our <a href="/oklahoma-process-server-technology-2025" className="text-blue-600 hover:underline font-semibold">Oklahoma Process Server Technology</a>.
+              Modern process serving leverages cutting-edge technology to ensure faster, more accurate, and more secure service of legal documents. Our tech-enabled approach sets new standards for the industry. Learn more about our <a href="/oklahoma-process-server-technology" className="text-blue-600 hover:underline font-semibold">Oklahoma Process Server Technology</a>.
             </p>
 
             <div className="grid lg:grid-cols-2 gap-6 mb-6">
@@ -822,7 +822,7 @@ export default function UltimateGuidePage() {
                   <li>• <strong>Very high success rates</strong> in locating difficult defendants</li>
                 </ul>
                 <p className="text-sm mt-3">
-                  <a href="/ai-skip-tracing-guide-oklahoma-2025" className="text-green-700 hover:underline font-semibold">→ Read our AI Skip Tracing Guide</a>
+                  <a href="/ai-skip-tracing-guide-oklahoma" className="text-green-700 hover:underline font-semibold">→ Read our AI Skip Tracing Guide</a>
                 </p>
               </div>
 
@@ -1044,7 +1044,7 @@ export default function UltimateGuidePage() {
                   <h5 className="font-semibold mb-2">All 77 Counties Served:</h5>
                   <p className="text-sm">
                     From the busiest metro areas to the most remote rural locations, we maintain active service capabilities 
-                    in every Oklahoma county. Our network ensures no case is too distant or challenging. View our complete <a href="/oklahoma-legal-service-areas-2025" className="text-blue-600 hover:underline font-semibold">Oklahoma Service Areas</a>.
+                    in every Oklahoma county. Our network ensures no case is too distant or challenging. View our complete <a href="/oklahoma-legal-service-areas" className="text-blue-600 hover:underline font-semibold">Oklahoma Service Areas</a>.
                   </p>
                 </div>
                 <div>
@@ -1523,7 +1523,7 @@ export default function UltimateGuidePage() {
                     <li>• <strong>Adoption Papers:</strong> Adoption proceedings, parental rights termination</li>
                   </ul>
                   <p className="text-sm mt-3">
-                    <a href="/family-law-service-guide-tulsa-2025" className="text-pink-700 hover:underline font-semibold">→ Family Law Service Guide</a>
+                    <a href="/family-law-service-guide-tulsa" className="text-pink-700 hover:underline font-semibold">→ Family Law Service Guide</a>
                   </p>
                 </div>
 
@@ -2070,7 +2070,7 @@ export default function UltimateGuidePage() {
           </CardHeader>
           <CardContent>
             <p className="mb-6">
-              Understanding common mistakes helps ensure valid service and prevents costly legal complications. For a comprehensive guide, see our <a href="/process-serving-mistakes-guide-2025" className="text-blue-600 hover:underline font-semibold">Process Serving Mistakes Guide 2025</a>. Here are the most frequent errors and how to avoid them.
+              Understanding common mistakes helps ensure valid service and prevents costly legal complications. For a comprehensive guide, see our <a href="/process-serving-mistakes-guide" className="text-blue-600 hover:underline font-semibold">Process Serving Mistakes Guide</a>. Here are the most frequent errors and how to avoid them.
             </p>
 
             <div className="space-y-6">

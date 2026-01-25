@@ -1,8 +1,8 @@
-// --- SEO Metadata for 2025 ---
+// --- SEO Metadata for 2026 ---
 import { getPromoDescription } from '@/lib/promo-utils';
 
 export const metadata = {
-  title: 'Contact Just Legal Solutions | Oklahoma Process Server & Legal Support 2025',
+  title: 'Contact Just Legal Solutions | Oklahoma Process Server & Legal Support 2026',
   description: getPromoDescription(
     'Contact Just Legal Solutions—reach our team for 24/7 process serving, legal courier, and business support in Tulsa County and across Oklahoma. Fast, secure, and trusted by law firms and individuals.',
     '30% OFF for select ZIP codes! Contact Just Legal Solutions—reach our team for 24/7 process serving, legal courier, and business support in Tulsa County and across Oklahoma. Fast, secure, and trusted by law firms.'
@@ -13,7 +13,7 @@ export const metadata = {
     'tulsa process server contact',
     'legal courier oklahoma',
     'business services contact',
-    '2025 process serving',
+    '2026 process serving',
     'emergency process server',
     'licensed bonded process server',
     'just legal solutions contact'
@@ -27,7 +27,7 @@ export const metadata = {
     canonical: 'https://justlegalsolutions.org/contact'
   },
   openGraph: {
-    title: 'Contact Just Legal Solutions | Oklahoma Process Server & Legal Support 2025',
+    title: 'Contact Just Legal Solutions | Oklahoma Process Server & Legal Support 2026',
     description: 'Contact Just Legal Solutions for 24/7 process serving, legal courier, and business support in Tulsa County and statewide Oklahoma. Fast, secure, and trusted by law firms.',
     type: 'website',
     locale: 'en_US',
@@ -44,7 +44,7 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Contact Just Legal Solutions | Oklahoma Process Server & Legal Support 2025',
+    title: 'Contact Just Legal Solutions | Oklahoma Process Server & Legal Support 2026',
     description: 'Contact Just Legal Solutions for 24/7 process serving, legal courier, and business support in Tulsa County and statewide Oklahoma. Fast, secure, and trusted by law firms.',
     images: ['https://justlegalsolutions.org/og-image.png'],
     site: '@JustLegalOK',

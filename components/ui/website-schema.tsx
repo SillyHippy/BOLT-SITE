@@ -23,7 +23,7 @@ export default function WebsiteSchema({
     "keywords": keywords.join(", "),
     "inLanguage": "en-US",
     "image": "https://justlegalsolutions.org/images/jls-logo.webp",
-    "copyrightYear": "2024",
+    "copyrightYear": "2026",
     "copyrightHolder": {
       "@type": "Organization",
       "@id": "https://justlegalsolutions.org/#organization",

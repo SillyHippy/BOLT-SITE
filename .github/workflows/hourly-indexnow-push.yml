@@ -38,12 +38,22 @@ jobs:
             "https://justlegalsolutions.org/service-areas/claremore"
             "https://justlegalsolutions.org/service-areas/bartlesville"
             
-            # Key guide/content pages
+            # Key guide/content pages (year-agnostic URLs)
             "https://justlegalsolutions.org/ultimate-guide-process-serving-oklahoma"
             "https://justlegalsolutions.org/oklahoma-process-server-faq-2026"
             "https://justlegalsolutions.org/oklahoma-process-server-best-practices-checklist-2026"
             "https://justlegalsolutions.org/oklahoma-process-server-laws"
             "https://justlegalsolutions.org/process-server-tulsa-guide"
+            "https://justlegalsolutions.org/oklahoma-process-server-pricing"
+            "https://justlegalsolutions.org/oklahoma-process-serving-costs-comparison"
+            "https://justlegalsolutions.org/oklahoma-process-server-technology"
+            "https://justlegalsolutions.org/oklahoma-case-law-service-process"
+            "https://justlegalsolutions.org/oklahoma-electronic-service-guide"
+            "https://justlegalsolutions.org/oklahoma-legal-service-areas"
+            "https://justlegalsolutions.org/family-law-service-guide-tulsa"
+            "https://justlegalsolutions.org/high-profile-service-protocols-tulsa"
+            "https://justlegalsolutions.org/ai-skip-tracing-guide-oklahoma"
+            "https://justlegalsolutions.org/process-serving-mistakes-guide"
             
             # SEO pages (unique content only - not city duplicates)
             "https://justlegalsolutions.org/seo/what-is-a-process-server"

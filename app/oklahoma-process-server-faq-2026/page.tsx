@@ -725,11 +725,11 @@ export default function OklahomaProcessServerFAQ2026() {
                   Guides & Tutorials
                 </h3>
                 <ul className="space-y-3">
-                  <li><Link href="/oklahoma-process-server-pricing-2025" className="text-blue-600 hover:underline">Oklahoma Process Server Pricing Guide</Link></li>
+                  <li><Link href="/oklahoma-process-server-pricing" className="text-blue-600 hover:underline">Oklahoma Process Server Pricing Guide</Link></li>
                   <li><Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma Process Server Laws & Requirements</Link></li>
                   <li><Link href="/oklahoma-process-server-best-practices-checklist-2026" className="text-blue-600 hover:underline">Process Server Best Practices Checklist 2026</Link></li>
-                  <li><Link href="/process-serving-mistakes-guide-2025" className="text-blue-600 hover:underline">Top 10 Process Serving Mistakes to Avoid</Link></li>
-                  <li><Link href="/ai-skip-tracing-guide-oklahoma-2025" className="text-blue-600 hover:underline">AI-Powered Skip Tracing Guide</Link></li>
+                  <li><Link href="/process-serving-mistakes-guide" className="text-blue-600 hover:underline">Top 10 Process Serving Mistakes to Avoid</Link></li>
+                  <li><Link href="/ai-skip-tracing-guide-oklahoma" className="text-blue-600 hover:underline">AI-Powered Skip Tracing Guide</Link></li>
                 </ul>
               </div>
               
@@ -739,8 +739,8 @@ export default function OklahomaProcessServerFAQ2026() {
                   Specialized Services
                 </h3>
                 <ul className="space-y-3">
-                  <li><Link href="/family-law-service-guide-tulsa-2025" className="text-blue-600 hover:underline">Family Law Service Guide</Link></li>
-                  <li><Link href="/oklahoma-electronic-service-guide-2025" className="text-blue-600 hover:underline">Oklahoma Electronic Service Guide</Link></li>
+                  <li><Link href="/family-law-service-guide-tulsa" className="text-blue-600 hover:underline">Family Law Service Guide</Link></li>
+                  <li><Link href="/oklahoma-electronic-service-guide" className="text-blue-600 hover:underline">Oklahoma Electronic Service Guide</Link></li>
                   <li><Link href="/serving-legal-papers-on-tribal-land" className="text-blue-600 hover:underline">Serving Papers on Tribal Land</Link></li>
                   <li><Link href="/weekend-emergency" className="text-blue-600 hover:underline">Weekend & Emergency Service</Link></li>
                   <li><Link href="/law-firm-services" className="text-blue-600 hover:underline">Law Firm Partnership Services</Link></li>

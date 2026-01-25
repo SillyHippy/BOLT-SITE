@@ -332,9 +332,9 @@ export default function SandSpringsProcessServer() {
                   <ul className="space-y-2">
                     <li><Link href="/oklahoma-process-server-faq-2026" className="text-blue-600 hover:underline">Process Serving FAQ 2026</Link></li>
                     <li><Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma Process Server Laws</Link></li>
-                    <li><Link href="/oklahoma-process-server-pricing-2025" className="text-blue-600 hover:underline">Pricing Guide</Link></li>
-                    <li><Link href="/family-law-service-guide-tulsa-2025" className="text-blue-600 hover:underline">Family Law Service Guide</Link></li>
-                    <li><Link href="/ai-skip-tracing-guide-oklahoma-2025" className="text-blue-600 hover:underline">Skip Tracing Guide</Link></li>
+                    <li><Link href="/oklahoma-process-server-pricing" className="text-blue-600 hover:underline">Pricing Guide</Link></li>
+                    <li><Link href="/family-law-service-guide-tulsa" className="text-blue-600 hover:underline">Family Law Service Guide</Link></li>
+                    <li><Link href="/ai-skip-tracing-guide-oklahoma" className="text-blue-600 hover:underline">Skip Tracing Guide</Link></li>
                   </ul>
                 </div>
                 

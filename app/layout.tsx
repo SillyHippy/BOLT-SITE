@@ -125,7 +125,7 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="//fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
-        <meta name="cache-version" content="2025-12-23-v10-ai-optimization" />
+        <meta name="cache-version" content="2026-01-25-v11-year-update" />
         
         {/* Hreflang annotation for international SEO */}
         <link rel="alternate" hrefLang="en-us" href="https://justlegalsolutions.org/" />

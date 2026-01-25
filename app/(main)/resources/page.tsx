@@ -53,7 +53,7 @@ const ResourcesPage = () => {
       title: "Court Document Types",
       description: "Understanding different legal documents and their service requirements.",
       articles: [
-        { title: "Serving Divorce Papers in Tulsa", url: "/family-law-service-guide-tulsa-2025", preview: "Professional family law document delivery throughout Tulsa County." },
+        { title: "Serving Divorce Papers in Tulsa", url: "/family-law-service-guide-tulsa", preview: "Professional family law document delivery throughout Tulsa County." },
         { title: "How to Serve an Eviction Notice", url: "/seo/eviction-notice-process-server", preview: "Professional eviction notice delivery for landlords - complete legal compliance guide." },
         { title: "The Power of a Subpoena", url: null, preview: "Ensuring witnesses and documents are legally compelled to appear." }
       ]

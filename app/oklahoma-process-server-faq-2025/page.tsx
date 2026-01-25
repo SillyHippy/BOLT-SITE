@@ -4,7 +4,7 @@ import Navbar from '../../components/ui/navbar';
 import Footer from '../../components/ui/footer';
 import JsonLd from '../../components/JsonLd';
 
-const canonicalUrl = 'https://justlegalsolutions.org/oklahoma-process-server-faq-2025';
+const canonicalUrl = 'https://justlegalsolutions.org/oklahoma-process-server-faq-2026';
 
 export const metadata: Metadata = {
   title: 'Oklahoma Process Server FAQ 2025: Complete Answers to Your Legal Service Questions',
@@ -435,18 +435,18 @@ export default function OklahomaProcessServerFAQ2025() {
             <div>
               <h3 className="font-semibold mb-2">Guides & Tutorials</h3>
               <ul className="list-disc ml-6 mb-4 space-y-1">
-                <li><a href="/oklahoma-process-server-pricing-2025" className="text-blue-700 underline">Oklahoma Process Server Pricing Guide</a></li>
+                <li><a href="/oklahoma-process-server-pricing" className="text-blue-700 underline">Oklahoma Process Server Pricing Guide</a></li>
                 <li><a href="/oklahoma-process-server-laws" className="text-blue-700 underline">Oklahoma Process Server Laws & Requirements</a></li>
                 <li><a href="/oklahoma-process-server-best-practices-checklist-2026" className="text-blue-700 underline">Process Server Best Practices Checklist 2026</a></li>
-                <li><a href="/process-serving-mistakes-guide-2025" className="text-blue-700 underline">Top 10 Process Serving Mistakes to Avoid</a></li>
-                <li><a href="/ai-skip-tracing-guide-oklahoma-2025" className="text-blue-700 underline">AI-Powered Skip Tracing Guide</a></li>
+                <li><a href="/process-serving-mistakes-guide" className="text-blue-700 underline">Top 10 Process Serving Mistakes to Avoid</a></li>
+                <li><a href="/ai-skip-tracing-guide-oklahoma" className="text-blue-700 underline">AI-Powered Skip Tracing Guide</a></li>
               </ul>
             </div>
             <div>
               <h3 className="font-semibold mb-2">Specialized Services</h3>
               <ul className="list-disc ml-6 mb-4 space-y-1">
-                <li><a href="/family-law-service-guide-tulsa-2025" className="text-blue-700 underline">Family Law Service Guide</a></li>
-                <li><a href="/oklahoma-electronic-service-guide-2025" className="text-blue-700 underline">Electronic Service Guide</a></li>
+                <li><a href="/family-law-service-guide-tulsa" className="text-blue-700 underline">Family Law Service Guide</a></li>
+                <li><a href="/oklahoma-electronic-service-guide" className="text-blue-700 underline">Electronic Service Guide</a></li>
                 <li><a href="/serving-legal-papers-on-tribal-land" className="text-blue-700 underline">Serving Papers on Tribal Land</a></li>
                 <li><a href="/weekend-emergency" className="text-blue-700 underline">Weekend & Emergency Service</a></li>
                 <li><a href="/law-firm-services" className="text-blue-700 underline">Law Firm Partnership Services</a></li>
