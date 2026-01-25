@@ -122,7 +122,7 @@ export default function OklahomaProcessServerTechnology() {
         <h1 className="text-4xl font-bold mb-4">Oklahoma Process Server Technology Trends 2026: Digital Innovation in Legal Service</h1>
         
         <p className="text-lg text-gray-700 mb-2">
-          <em>Written by the Just Legal Solutions Team | Licensed Oklahoma Process Servers with 50+ Years Combined Experience | Last Updated: January 25,>
+          <em>Written by the Just Legal Solutions Team | Licensed Oklahoma Process Servers with 50+ Years Combined Experience | Last Updated: January 25, 2026</em>
         </p>
         
         <p className="text-lg mb-6">
