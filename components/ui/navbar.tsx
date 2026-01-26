@@ -62,6 +62,9 @@ export function Navbar() {
             <Link href="/service-areas" className="text-gray-700 hover:text-gray-900">
               Service Areas
             </Link>
+            <Link href="/virtual-assistant-services" className="text-gray-700 hover:text-gray-900">
+              VA Services
+            </Link>
             <a 
               href="/#courier-services" 
               className="text-gray-700 hover:text-gray-900 cursor-pointer"
@@ -149,6 +152,13 @@ export function Navbar() {
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Service Areas
+            </Link>
+            <Link
+              href="/virtual-assistant-services"
+              className="px-6 py-3 text-gray-700 hover:bg-gray-100"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              VA Services
             </Link>
             <a
               href="/#courier-services"
