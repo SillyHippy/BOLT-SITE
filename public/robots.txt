@@ -4,8 +4,14 @@ User-agent: *
 Allow: /
 Disallow: /admin/
 Disallow: /private/
-Disallow: /*.json$
 Disallow: /*?*print=
+
+# Allow AI systems to access structured data
+Allow: /*.json$
+Allow: /llms.txt
+Allow: /knowledge-graph.json
+Allow: /ai-search/
+Allow: /.well-known/
 
 # Google
 User-agent: Googlebot
@@ -16,6 +22,50 @@ Crawl-delay: 1
 User-agent: Bingbot
 Allow: /
 Crawl-delay: 1
+
+# OpenAI GPTBot - ChatGPT
+User-agent: GPTBot
+Allow: /
+Allow: /llms.txt
+Allow: /knowledge-graph.json
+Allow: /ai-search/
+
+# OpenAI ChatGPT-User
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic Claude
+User-agent: anthropic-ai
+Allow: /
+Allow: /llms.txt
+
+User-agent: Claude-Web
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+Allow: /llms.txt
+Allow: /ai-search/
+
+# Google AI / Bard / Gemini
+User-agent: Google-Extended
+Allow: /
+
+# Cohere AI
+User-agent: cohere-ai
+Allow: /
+
+# Meta AI
+User-agent: FacebookBot
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+# Common Crawl (used by many AI systems)
+User-agent: CCBot
+Allow: /
 
 # Yahoo
 User-agent: Slurp
@@ -46,11 +96,10 @@ Crawl-delay: 1
 Sitemap: https://justlegalsolutions.org/sitemap.xml
 Sitemap: https://justlegalsolutions.org/sitemap-images.xml
 
-# Voice Search Optimization - Mon Jan 26 16:34:07 UTC 2026
-# Optimized for Alexa, Google Assistant, Siri
+# AI Resources
+# LLMs.txt: https://justlegalsolutions.org/llms.txt
+# Knowledge Graph: https://justlegalsolutions.org/knowledge-graph.json
+# AI Info: https://justlegalsolutions.org/.well-known/ai.txt
 
-# AI Assistant Integration - Mon Jan 26 20:18:43 UTC 2026
-# Optimized for ChatGPT, Alexa, Google Assistant
-
-# Emerging AI Platform Ready - Mon Jan 26 20:26:37 UTC 2026
-# Future-proofed for next-gen AI systems
+# AI Citation Optimization Enabled
+# ChatGPT, Claude, Perplexity, Gemini - All Welcome

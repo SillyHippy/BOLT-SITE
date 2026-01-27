@@ -186,3 +186,7 @@ Allow: /
 - Service Areas: https://justlegalsolutions.org/service-areas
 - FAQ: https://justlegalsolutions.org/oklahoma-process-server-faq-2025
 - Contact: https://justlegalsolutions.org/contact
+
+## STRUCTURED DATA
+- Knowledge Graph: https://justlegalsolutions.org/knowledge-graph.json
+- JSON-LD: https://justlegalsolutions.org/knowledge-graph.jsonld

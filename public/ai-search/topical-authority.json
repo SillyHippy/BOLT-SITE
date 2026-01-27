@@ -1,0 +1,60 @@
+{
+  "domain": "justlegalsolutions.org",
+  "primaryTopic": "Process Serving",
+  "location": "Tulsa, Oklahoma",
+  "topicalClusters": [
+    {
+      "topic": "Process Serving in Oklahoma",
+      "authority": "expert",
+      "content": [
+        "/oklahoma-process-server-laws",
+        "/oklahoma-process-server-pricing",
+        "/oklahoma-process-server-faq-2025"
+      ]
+    },
+    {
+      "topic": "Tulsa Legal Services",
+      "authority": "expert",
+      "content": [
+        "/process-server-tulsa-guide",
+        "/tulsa-process-server",
+        "/service-areas/tulsa"
+      ]
+    },
+    {
+      "topic": "Skip Tracing Oklahoma",
+      "authority": "expert",
+      "content": [
+        "/ai-skip-tracing-guide-oklahoma",
+        "/skip-tracing-tulsa"
+      ]
+    },
+    {
+      "topic": "Oklahoma Court Procedures",
+      "authority": "knowledgeable",
+      "content": [
+        "/oklahoma-case-law-service-process",
+        "/oklahoma-electronic-service-guide"
+      ]
+    }
+  ],
+  "entityRelationships": [
+    {
+      "entity": "Oklahoma Courts",
+      "relationship": "serves"
+    },
+    {
+      "entity": "Tulsa County",
+      "relationship": "primary_service_area"
+    },
+    {
+      "entity": "Law Firms",
+      "relationship": "serves"
+    },
+    {
+      "entity": "Attorneys",
+      "relationship": "serves"
+    }
+  ],
+  "lastUpdated": "2026-01-27T01:56:20.391Z"
+}

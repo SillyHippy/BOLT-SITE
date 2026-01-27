@@ -1,0 +1,68 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://justlegalsolutions.org/#organization",
+  "name": "Just Legal Solutions",
+  "legalName": "Just Legal Solutions LLC",
+  "alternateName": [
+    "JLS",
+    "Just Legal",
+    "Just Legal Solutions Tulsa",
+    "Tulsa Process Server"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Tulsa",
+    "addressRegion": "OK",
+    "addressCountry": "US"
+  },
+  "telephone": "(539) 367-6832",
+  "url": "https://justlegalsolutions.org",
+  "additionalType": [
+    "https://schema.org/LegalService",
+    "https://schema.org/ProfessionalService",
+    "https://schema.org/LocalBusiness"
+  ],
+  "foundingDate": "2025-03",
+  "founder": {
+    "@type": "Person",
+    "name": "Joseph Iannazzi",
+    "jobTitle": "Founder & Lead Process Server",
+    "alumniOf": {
+      "@type": "EducationalOrganization",
+      "name": "Northeastern State University"
+    },
+    "hasCredential": [
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "license",
+        "name": "Oklahoma Process Server License",
+        "identifier": "PSL-2025-5"
+      }
+    ]
+  },
+  "knowsAbout": [
+    "Process Serving",
+    "Legal Document Delivery",
+    "Skip Tracing",
+    "Oklahoma Court System",
+    "Service of Process Laws",
+    "Affidavit of Service",
+    "Civil Procedure",
+    "Divorce Paper Service",
+    "Eviction Notice Service",
+    "Subpoena Service"
+  ],
+  "areaServed": {
+    "@type": "State",
+    "name": "Oklahoma",
+    "identifier": "OK"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "156",
+    "bestRating": "5"
+  },
+  "dateModified": "2026-01-27T01:56:20.391Z"
+}

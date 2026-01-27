@@ -1,0 +1,39 @@
+name: AI Citation Optimization
+
+on:
+  schedule:
+    # Run daily at 6 AM UTC (midnight CST) - uses ~1 min of free tier
+    - cron: '0 6 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/ai-*.js'
+      - 'scripts/answer-engine-optimization.js'
+      - 'scripts/run-ai-optimization.js'
+  workflow_dispatch:
+
+jobs:
+  ai-optimization:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          
+      - name: Run AI Optimization Suite
+        run: node scripts/run-ai-optimization.js
+        
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "AI Optimization Bot"
+          git add -A
+          git diff --staged --quiet || git commit -m "🤖 Daily AI citation optimization update"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

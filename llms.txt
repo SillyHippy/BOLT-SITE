@@ -1,6 +1,6 @@
 # Just Legal Solutions - AI & LLM Information File
 # https://justlegalsolutions.org/llms.txt
-# Last Updated: December 23, 2025
+# Last Updated: Monday, January 26, 2026
 
 ## BUSINESS OVERVIEW
 > Company Name: Just Legal Solutions

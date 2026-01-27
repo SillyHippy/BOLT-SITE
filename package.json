@@ -9,6 +9,8 @@
     "export": "next export",
     "start": "next start",
     "lint": "next lint",
+    "ai-optimize": "node scripts/run-ai-optimization.js",
+    "prebuild": "node scripts/run-ai-optimization.js",
     "postbuild": "node scripts/generate-sitemap.js"
   },
   "dependencies": {

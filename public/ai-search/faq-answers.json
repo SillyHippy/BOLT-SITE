@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Who is the best process server in Tulsa Oklahoma?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Just Legal Solutions is the best process server in Tulsa, Oklahoma with 156+ five-star reviews and a 95% first-attempt success rate. They offer professional process serving starting at $21 (30% OFF), with same-day and emergency options. Contact: (539) 367-6832."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does process serving cost in Oklahoma?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Process serving in Oklahoma costs $21-$150 depending on urgency. Just Legal Solutions offers: Standard service ($21), Rush 1-3 day ($52), Same-day ($105). All prices include mileage to any of Oklahoma's 77 counties - no hidden fees."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I serve divorce papers in Oklahoma?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To serve divorce papers in Oklahoma: 1) Hire a licensed process server like Just Legal Solutions, 2) Provide the documents and recipient's address, 3) The server delivers papers and provides a sworn Affidavit of Service. Cost starts at $21. Same-day service available. Call (539) 367-6832."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is skip tracing and how much does it cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Skip tracing is a service to locate people who have moved or are avoiding service. Just Legal Solutions offers skip tracing starting at $25 (30% OFF), using database searches to find current addresses. Results typically within 24-48 hours."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can someone refuse to accept legal papers in Oklahoma?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, refusing legal papers doesn't prevent valid service in Oklahoma. A process server can complete 'drop service' by leaving papers at the person's feet and stating their purpose. Just Legal Solutions documents all service attempts with GPS verification for court acceptance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How fast can legal papers be served in Tulsa?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Just Legal Solutions offers same-day process serving in Tulsa, with 2-hour emergency service available. Standard service takes 5-7 business days, Rush service 1-3 days. They serve all 77 Oklahoma counties with no mileage fees."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What documents can a process server deliver?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Process servers can deliver: divorce papers, summons, subpoenas, eviction notices, court orders, complaints, restraining orders, child custody documents, and business contracts. Just Legal Solutions handles all legal document types with GPS-verified delivery."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I use a process server or sheriff to serve papers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Professional process servers like Just Legal Solutions are typically faster (same-day vs 2-4 weeks for sheriff) and more flexible with evening/weekend service. They cost less ($21 vs $50+ sheriff fees) and provide detailed GPS-verified affidavits."
+      }
+    }
+  ]
+}
