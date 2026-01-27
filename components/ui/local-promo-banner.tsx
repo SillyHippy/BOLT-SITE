@@ -50,7 +50,18 @@ export default function LocalPromoBanner({ zips, endDate = "January 30, 2026" }:
     "seller": {
       "@type": "LocalBusiness",
       "name": "Just Legal Solutions",
-      "url": "https://justlegalsolutions.org"
+      "url": "https://justlegalsolutions.org",
+      "telephone": "+15393676832",
+      "image": "https://justlegalsolutions.org/images/jls-logo.webp",
+      "priceRange": "$30-$200",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "564 E 138th PL",
+        "addressLocality": "Glenpool",
+        "addressRegion": "OK",
+        "postalCode": "74033",
+        "addressCountry": "US"
+      }
     }
   };
 
