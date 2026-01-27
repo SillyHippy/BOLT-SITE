@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://justlegalsolutions.org/#organization",
+  "name": "Just Legal Solutions",
+  "sameAs": [
+    "https://www.google.com/maps/place/Just+Legal+Solutions",
+    "https://www.facebook.com/people/Just-Legal-Solutions/61574881736527/",
+    "https://www.linkedin.com/company/justlegalsolutionsok/",
+    "https://g.page/r/justlegalsolutions"
+  ],
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": "https://schema.org/WriteAction",
+      "interactionService": {
+        "@type": "WebSite",
+        "name": "Google Business Profile"
+      },
+      "userInteractionCount": "3 posts daily"
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": "https://schema.org/WriteAction",
+      "interactionService": {
+        "@type": "WebSite",
+        "name": "LinkedIn"
+      },
+      "userInteractionCount": "3 posts daily"
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": "https://schema.org/WriteAction",
+      "interactionService": {
+        "@type": "WebSite",
+        "name": "Facebook"
+      },
+      "userInteractionCount": "3 posts daily"
+    }
+  ],
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "(539) 367-6832",
+      "contactType": "customer service",
+      "availableLanguage": [
+        "English",
+        "Spanish"
+      ],
+      "areaServed": "Oklahoma"
+    }
+  ],
+  "dateModified": "2026-01-27T02:03:01.805Z"
+}

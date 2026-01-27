@@ -27,7 +27,8 @@ const scripts = [
   { name: 'Answer Engine Optimization', file: 'answer-engine-optimization.js' },
   { name: 'AI Entity Signals', file: 'ai-entity-signals.js' },
   { name: 'AI Competitor Differentiation', file: 'ai-competitor-signals.js' },
-  { name: 'AI Local Authority', file: 'ai-local-authority.js' }
+  { name: 'AI Local Authority', file: 'ai-local-authority.js' },
+  { name: 'AI Social Activity', file: 'ai-social-signals.js' }
 ];
 
 let successCount = 0;

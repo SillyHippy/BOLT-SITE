@@ -120,8 +120,9 @@ const knowledgeGraph = {
       ],
       "sameAs": [
         "https://www.google.com/maps/place/Just+Legal+Solutions",
-        "https://www.facebook.com/justlegalsolutions",
-        "https://www.linkedin.com/company/justlegalsolutions"
+        "https://www.facebook.com/people/Just-Legal-Solutions/61574881736527/",
+        "https://www.linkedin.com/company/justlegalsolutionsok/",
+        "https://g.page/r/justlegalsolutions"
       ]
     },
     // Entity relationships for AI understanding
