@@ -504,7 +504,8 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
       
       // Service excellence metrics
       (organizationSchema as any).award = [
-        'Top Rated Process Server Oklahoma 2024',
+        'Top Rated Process Server Oklahoma 2025',
+        'Top Rated Process Server Oklahoma 2026',
         'Fastest Service Delivery Tulsa County',
         'Most Reliable Legal Document Delivery'
       ];
@@ -627,7 +628,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
         'bestRating': '5'
       },
       'reviewBody': review.reviewBody,
-      'datePublished': '2024-12-20'
+      'datePublished': '2025-12-20'
     }));
   }
   

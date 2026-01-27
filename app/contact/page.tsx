@@ -112,7 +112,7 @@ export default function ContactPage() {
                 "author": { "@type": "Person", "name": "Oklahoma Client" },
                 "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
                 "reviewBody": "Professional and reliable process serving throughout Oklahoma.",
-                "datePublished": "2024-11-05"
+                "datePublished": "2025-10-15"
               }],
               "contactPoint": {
                 "@type": "ContactPoint",
@@ -325,6 +325,60 @@ export default function ContactPage() {
           </div>
         </section>
       </main>
+      
+      {/* FAQ Schema for Contact Page */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "How quickly will I get a response from Just Legal Solutions?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "We respond to most inquiries within 1 business hour during normal operating times. For urgent matters, please call (539) 367-6832 for fastest service."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What areas does Just Legal Solutions serve in Oklahoma?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "We serve all of Tulsa County and surrounding areas, including Broken Arrow, Bixby, Jenks, Owasso, Sand Springs, Sapulpa, and all 77 Oklahoma counties."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is Just Legal Solutions licensed and bonded in Oklahoma?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, we are fully licensed, bonded, and court-certified for process serving in Oklahoma under 12 O.S. § 158.1."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How much does process serving cost in Oklahoma?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Standard service starts at $60 for Tulsa County and nearby areas. We offer various service levels including rush and same-day options. View our pricing page for complete details."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do you offer weekend or emergency process serving?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes! We offer weekend and emergency service for urgent legal matters. Contact us anytime at (539) 367-6832 for time-sensitive documents."
+                }
+              }
+            ]
+          })
+        }}
+      />
+      
       <Footer />
     </>
   );

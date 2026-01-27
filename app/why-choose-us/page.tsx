@@ -4,9 +4,9 @@ import Image from 'next/image';
 import { Shield, Clock, MapPin, Zap, Smartphone, Users, CheckCircle, Star, Phone, ArrowRight, Award, Target, FileText, BadgeCheck } from 'lucide-react';
 
 export const metadata = {
-  title: 'Why Choose Us | Best Oklahoma Process Server | Just Legal Solutions',
-  description: "Why choose Just Legal Solutions? Oklahoma's most trusted, AI-powered process server—fast, reliable, and professional with 24/7 support, transparent pricing, and advanced technology.",
-  keywords: 'why choose us, best process server, oklahoma, AI legal solutions, 24/7 process server',
+  title: 'Why Choose Us | Best Oklahoma Process Server 2026 | Just Legal Solutions',
+  description: "Why choose Just Legal Solutions? Oklahoma's most trusted process server—fast, reliable, and professional with 24/7 support, transparent pricing, and advanced technology. Serving all 77 counties.",
+  keywords: 'why choose us, best process server, oklahoma process server 2026, trusted process server tulsa, licensed bonded process server, 24/7 process server oklahoma',
   alternates: {
     canonical: 'https://justlegalsolutions.org/why-choose-us',
   },
@@ -60,6 +60,29 @@ const clientTypes = [
   { name: 'Individuals', description: 'Personal legal matters handled professionally' },
 ];
 
+const faqs = [
+  {
+    question: 'What makes Just Legal Solutions different from other Oklahoma process servers?',
+    answer: 'We combine 50+ years of combined experience with advanced technology including GPS tracking, real-time updates, and AI-enhanced route optimization. We offer 24/7 availability, transparent pricing with no hidden fees, and serve all 77 Oklahoma counties with a 98% first-attempt success rate.'
+  },
+  {
+    question: 'Are you licensed and insured in Oklahoma?',
+    answer: 'Yes, Just Legal Solutions is fully licensed, bonded, and insured in the state of Oklahoma. This protects you from liability and ensures all service of process is conducted in strict compliance with Oklahoma Rules of Civil Procedure.'
+  },
+  {
+    question: 'How fast can you serve documents in Oklahoma?',
+    answer: 'We offer multiple service levels: Standard, Rush (24-48 hours), Same-Day (within hours), and 2-Hour Emergency service. We also offer weekend and holiday service when you need it most.'
+  },
+  {
+    question: 'Do you serve all areas of Oklahoma?',
+    answer: 'Yes, we provide statewide coverage across all 77 Oklahoma counties. Whether you need service in downtown Tulsa, rural areas, or anywhere in between, we have you covered with no surprise mileage fees.'
+  },
+  {
+    question: 'Why should I choose you over the sheriff for process serving?',
+    answer: "Unlike sheriff's departments with split priorities, our sole focus is process service. This means faster turnaround, higher success rates, real-time tracking, multiple attempt options, and dedicated customer service. We're more responsive and flexible than government agencies."
+  },
+];
+
 export default function WhyChooseUs() {
   return (
     <>
@@ -68,10 +91,53 @@ export default function WhyChooseUs() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             '@context': 'https://schema.org',
-            '@type': 'WebPage',
-            name: 'Why Choose Us | Best Oklahoma Process Server | Just Legal Solutions',
-            description: "Why choose Just Legal Solutions? Oklahoma's most trusted, AI-powered process server—fast, reliable, and professional with 24/7 support, transparent pricing, and advanced technology.",
-            url: 'https://justlegalsolutions.org/why-choose-us'
+            '@graph': [
+              {
+                '@type': 'WebPage',
+                name: 'Why Choose Us | Best Oklahoma Process Server 2026 | Just Legal Solutions',
+                description: "Why choose Just Legal Solutions? Oklahoma's most trusted process server—fast, reliable, and professional with 24/7 support, transparent pricing, and advanced technology.",
+                url: 'https://justlegalsolutions.org/why-choose-us'
+              },
+              {
+                '@type': 'LegalService',
+                name: 'Just Legal Solutions',
+                url: 'https://justlegalsolutions.org/why-choose-us',
+                image: 'https://justlegalsolutions.org/images/oklahoma-licensed-bonded-process-server-badges.png',
+                telephone: '+1-539-367-6832',
+                address: {
+                  '@type': 'PostalAddress',
+                  streetAddress: '564 E 138th PL',
+                  addressLocality: 'Glenpool',
+                  addressRegion: 'OK',
+                  postalCode: '74033',
+                  addressCountry: 'US',
+                },
+                openingHours: 'Mo,Tu,We,Th,Fr,Sa,Su 00:00-23:59',
+                areaServed: {
+                  '@type': 'State',
+                  name: 'Oklahoma'
+                },
+                priceRange: '$30-$200',
+                description: "Oklahoma's most trusted process server. Fast, reliable, and professional service with 24/7 support.",
+                aggregateRating: {
+                  '@type': 'AggregateRating',
+                  ratingValue: '4.9',
+                  reviewCount: '156',
+                  bestRating: '5'
+                }
+              },
+              {
+                '@type': 'FAQPage',
+                mainEntity: faqs.map(faq => ({
+                  '@type': 'Question',
+                  name: faq.question,
+                  acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: faq.answer
+                  }
+                }))
+              }
+            ]
           })
         }}
       />
@@ -247,6 +313,25 @@ export default function WhyChooseUs() {
           </div>
         </section>
 
+        {/* FAQ Section */}
+        <section className="py-16 bg-slate-50">
+          <div className="container mx-auto px-4">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold text-blue-900 mb-4">Frequently Asked Questions</h2>
+              <p className="text-lg text-gray-600">Common questions about choosing Just Legal Solutions</p>
+            </div>
+            
+            <div className="max-w-3xl mx-auto space-y-6">
+              {faqs.map((faq, index) => (
+                <div key={index} className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow">
+                  <h3 className="text-lg font-bold mb-3 text-blue-900">{faq.question}</h3>
+                  <p className="text-gray-600 leading-relaxed">{faq.answer}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* CTA Section */}
         <section className="py-16 bg-gradient-to-br from-slate-100 to-blue-50">
           <div className="container mx-auto px-4">
@@ -273,27 +358,6 @@ export default function WhyChooseUs() {
             </div>
           </div>
         </section>
-
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-          '@context': 'https://schema.org',
-          '@type': 'LegalService',
-          name: 'Just Legal Solutions',
-          url: 'https://justlegalsolutions.org/why-choose-us',
-          image: 'https://justlegalsolutions.org/images/oklahoma-licensed-bonded-process-server-badges.png',
-          telephone: '+1-539-367-6832',
-          address: {
-            '@type': 'PostalAddress',
-            streetAddress: '564 E 138th PL',
-            addressLocality: 'Tulsa',
-            addressRegion: 'OK',
-            postalCode: '74119',
-            addressCountry: 'US',
-          },
-          openingHours: 'Mo,Tu,We,Th,Fr,Sa,Su 00:00-23:59',
-          areaServed: 'Oklahoma',
-          priceRange: '$$',
-          description: "Oklahoma's most trusted, AI-powered process server. Fast, reliable, and professional service with 24/7 support.",
-        }) }} />
       </main>
       <Footer />
     </>

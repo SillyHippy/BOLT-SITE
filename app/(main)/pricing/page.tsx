@@ -443,6 +443,90 @@ export default function PricingPage() {
       
       {/* Schema removed and consolidated with the one at the top of the page */}
       
+      {/* Pricing FAQ Section */}
+      <section className="py-16 px-4 bg-gray-50">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-center mb-4 text-blue-900">Process Server Pricing FAQ</h2>
+          <p className="text-center text-gray-600 mb-12">Answers to common questions about our Oklahoma process serving rates</p>
+          
+          <div className="space-y-6">
+            <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200 hover:border-blue-300 transition-colors">
+              <h3 className="text-lg font-bold mb-3 text-blue-900">What is the cheapest process server option in Oklahoma?</h3>
+              <p className="text-gray-600 leading-relaxed">Our Standard Service starts at just $60 for Tulsa County and nearby areas. For budget-conscious clients, we also offer a Single Serve Attempt option starting as low as $30. Contact us to discuss your specific needs and find the most cost-effective solution.</p>
+            </div>
+            <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200 hover:border-blue-300 transition-colors">
+              <h3 className="text-lg font-bold mb-3 text-blue-900">Are there any hidden fees?</h3>
+              <p className="text-gray-600 leading-relaxed">No hidden fees. Our pricing is transparent and upfront. Surcharges for areas outside Tulsa County are quoted before service begins. We clearly communicate all costs including any rush fees, filing fees, or printing charges before you commit.</p>
+            </div>
+            <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200 hover:border-blue-300 transition-colors">
+              <h3 className="text-lg font-bold mb-3 text-blue-900">Do you offer volume discounts?</h3>
+              <p className="text-gray-600 leading-relaxed">Yes! We offer automatic monthly discounts based on your service volume. Law firms and businesses with regular process serving needs receive preferential rates, priority scheduling, and consolidated monthly invoicing. No long-term contracts required.</p>
+            </div>
+            <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200 hover:border-blue-300 transition-colors">
+              <h3 className="text-lg font-bold mb-3 text-blue-900">What&apos;s included in the base price?</h3>
+              <p className="text-gray-600 leading-relaxed">Our standard pricing includes up to 3 service attempts at varied times, GPS-tracked delivery, real-time status updates, a court-ready affidavit of service, and 10 free printed pages. Rush services include expedited scheduling and priority handling.</p>
+            </div>
+            <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200 hover:border-blue-300 transition-colors">
+              <h3 className="text-lg font-bold mb-3 text-blue-900">How do I get a quote for areas outside Tulsa?</h3>
+              <p className="text-gray-600 leading-relaxed">Call us at (539) 367-6832 or email info@justlegalsolutions.org with the service address. We serve all 77 Oklahoma counties and provide upfront quotes with no surprises. Same-day quotes available for most locations.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      {/* FAQ Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What is the cheapest process server option in Oklahoma?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Our Standard Service starts at just $60 for Tulsa County and nearby areas. For budget-conscious clients, we also offer a Single Serve Attempt option starting as low as $30."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Are there any hidden fees for process serving?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No hidden fees. Our pricing is transparent and upfront. Surcharges for areas outside Tulsa County are quoted before service begins."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do you offer volume discounts for process serving?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes! We offer automatic monthly discounts based on your service volume. Law firms and businesses with regular process serving needs receive preferential rates."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What is included in the base process serving price?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Our standard pricing includes up to 3 service attempts, GPS-tracked delivery, real-time status updates, a court-ready affidavit of service, and 10 free printed pages."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How do I get a quote for process serving outside Tulsa?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Call us at (539) 367-6832 or email info@justlegalsolutions.org with the service address. We serve all 77 Oklahoma counties and provide upfront quotes."
+                }
+              }
+            ]
+          })
+        }}
+      />
+      
       {/* 2025 AI Voice Supremacy */}
       <AIVoiceSupremacy 
         businessName="Just Legal Solutions"

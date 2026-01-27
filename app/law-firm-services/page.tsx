@@ -96,61 +96,99 @@ export default function LawFirmServicesPage() {
     }
   ];
 
+  const lawFirmFaqs = [
+    {
+      question: 'Do you offer volume discounts for law firms?',
+      answer: 'Yes! We offer automatic volume discounts for law firms based on monthly service volume. High-frequency firms receive preferential rates, priority scheduling, and dedicated account management. Contact us at (539) 367-6832 to discuss your firm\'s needs.'
+    },
+    {
+      question: 'How does your law firm billing work?',
+      answer: 'We offer consolidated monthly invoicing for established law firm clients with Net-30 terms available. No per-serve payment hassles—one invoice for easier accounting and expense tracking.'
+    },
+    {
+      question: 'Can you handle urgent court deadlines?',
+      answer: 'Absolutely. Law firm clients receive priority scheduling for same-day and rush services. We understand litigation deadlines and can mobilize quickly for emergency service, including weekends and holidays.'
+    },
+    {
+      question: 'Do you provide court-ready affidavits?',
+      answer: 'Yes, every serve includes a detailed, properly formatted affidavit of service ready for court filing. We also offer eFiling where permitted in Oklahoma courts, and can handle in-person filing at Tulsa County courts.'
+    },
+    {
+      question: 'What practice areas do you specialize in?',
+      answer: 'We serve all practice areas including family law, civil litigation, real estate/property, corporate law, bankruptcy, and personal injury. Each practice area has specialized procedures we\'re experienced with.'
+    },
+  ];
+
   const schema = {
     "@context": "https://schema.org",
-    "@type": "ProfessionalService",
-    "name": "Just Legal Solutions - Law Firm Services",
-    "description": "Dedicated process serving partnership for Oklahoma law firms with flat-rate pricing, priority scheduling, and volume discounts.",
-    "url": "https://justlegalsolutions.org/law-firm-services",
-    "telephone": "+15393676832",
-    "email": "info@justlegalsolutions.org",
-    "priceRange": "$18-$105",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "564 E 138th PL",
-      "addressLocality": "Glenpool",
-      "addressRegion": "OK",
-      "postalCode": "74033",
-      "addressCountry": "US"
-    },
-    "areaServed": {
-      "@type": "State",
-      "name": "Oklahoma"
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "156",
-      "bestRating": "5"
-    },
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Law Firm Process Serving Services",
-      "itemListElement": [
-        {
-          "@type": "Offer",
-          "name": "Standard Process Serving",
-          "price": "30.00",
-          "priceCurrency": "USD",
-          "description": "3-5 business day service for Oklahoma law firms"
+    "@graph": [
+      {
+        "@type": "ProfessionalService",
+        "name": "Just Legal Solutions - Law Firm Services",
+        "description": "Dedicated process serving partnership for Oklahoma law firms with flat-rate pricing, priority scheduling, and volume discounts.",
+        "url": "https://justlegalsolutions.org/law-firm-services",
+        "telephone": "+15393676832",
+        "email": "info@justlegalsolutions.org",
+        "priceRange": "$18-$105",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "564 E 138th PL",
+          "addressLocality": "Glenpool",
+          "addressRegion": "OK",
+          "postalCode": "74033",
+          "addressCountry": "US"
         },
-        {
-          "@type": "Offer",
-          "name": "Rush Process Serving",
-          "price": "75.00",
-          "priceCurrency": "USD",
-          "description": "24-48 hour priority service for Oklahoma law firms"
+        "areaServed": {
+          "@type": "State",
+          "name": "Oklahoma"
         },
-        {
-          "@type": "Offer",
-          "name": "Same-Day Emergency",
-          "price": "150.00",
-          "priceCurrency": "USD",
-          "description": "2-4 hour emergency service for Oklahoma law firms"
-        }
-      ]
-    },
-    "serviceType": ["Process serving for law firms", "Litigation support", "Legal document delivery for Oklahoma law firms"]
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "156",
+          "bestRating": "5"
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Law Firm Process Serving Services",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "name": "Standard Process Serving",
+              "price": "30.00",
+              "priceCurrency": "USD",
+              "description": "3-5 business day service for Oklahoma law firms"
+            },
+            {
+              "@type": "Offer",
+              "name": "Rush Process Serving",
+              "price": "75.00",
+              "priceCurrency": "USD",
+              "description": "24-48 hour priority service for Oklahoma law firms"
+            },
+            {
+              "@type": "Offer",
+              "name": "Same-Day Emergency",
+              "price": "150.00",
+              "priceCurrency": "USD",
+              "description": "2-4 hour emergency service for Oklahoma law firms"
+            }
+          ]
+        },
+        "serviceType": ["Process serving for law firms", "Litigation support", "Legal document delivery for Oklahoma law firms"]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": lawFirmFaqs.map(faq => ({
+          "@type": "Question",
+          "name": faq.question,
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": faq.answer
+          }
+        }))
+      }
+    ]
   };
 
   return (
@@ -408,6 +446,23 @@ export default function LawFirmServicesPage() {
                 <div className="text-4xl font-bold text-yellow-400 mb-2">98%</div>
                 <p className="text-blue-200">First-Attempt Success Rate</p>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Related Resources for Law Firms */}
+        <section className="py-12 px-4 bg-white">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-center mb-4">Law Firm Process Serving FAQ</h2>
+            <p className="text-center text-gray-600 mb-12">Common questions from Oklahoma attorneys and legal professionals</p>
+            
+            <div className="space-y-6">
+              {lawFirmFaqs.map((faq, index) => (
+                <div key={index} className="bg-gray-50 rounded-xl p-6 border border-gray-200 hover:border-blue-300 transition-colors">
+                  <h3 className="text-lg font-bold mb-3 text-blue-900">{faq.question}</h3>
+                  <p className="text-gray-600 leading-relaxed">{faq.answer}</p>
+                </div>
+              ))}
             </div>
           </div>
         </section>
