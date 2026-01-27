@@ -4,14 +4,8 @@ User-agent: *
 Allow: /
 Disallow: /admin/
 Disallow: /private/
+Disallow: /*.json$
 Disallow: /*?*print=
-
-# Allow AI systems to access structured data
-Allow: /*.json$
-Allow: /llms.txt
-Allow: /knowledge-graph.json
-Allow: /ai-search/
-Allow: /.well-known/
 
 # Google
 User-agent: Googlebot
@@ -22,50 +16,6 @@ Crawl-delay: 1
 User-agent: Bingbot
 Allow: /
 Crawl-delay: 1
-
-# OpenAI GPTBot - ChatGPT
-User-agent: GPTBot
-Allow: /
-Allow: /llms.txt
-Allow: /knowledge-graph.json
-Allow: /ai-search/
-
-# OpenAI ChatGPT-User
-User-agent: ChatGPT-User
-Allow: /
-
-# Anthropic Claude
-User-agent: anthropic-ai
-Allow: /
-Allow: /llms.txt
-
-User-agent: Claude-Web
-Allow: /
-
-# Perplexity AI
-User-agent: PerplexityBot
-Allow: /
-Allow: /llms.txt
-Allow: /ai-search/
-
-# Google AI / Bard / Gemini
-User-agent: Google-Extended
-Allow: /
-
-# Cohere AI
-User-agent: cohere-ai
-Allow: /
-
-# Meta AI
-User-agent: FacebookBot
-Allow: /
-
-User-agent: meta-externalagent
-Allow: /
-
-# Common Crawl (used by many AI systems)
-User-agent: CCBot
-Allow: /
 
 # Yahoo
 User-agent: Slurp
@@ -95,20 +45,3 @@ Crawl-delay: 1
 # Sitemaps
 Sitemap: https://justlegalsolutions.org/sitemap.xml
 Sitemap: https://justlegalsolutions.org/sitemap-images.xml
-
-# AI Resources
-# LLMs.txt: https://justlegalsolutions.org/llms.txt
-# Knowledge Graph: https://justlegalsolutions.org/knowledge-graph.json
-# AI Info: https://justlegalsolutions.org/.well-known/ai.txt
-
-# AI Citation Optimization Enabled
-# ChatGPT, Claude, Perplexity, Gemini - All Welcome
-
-# Competitive Intelligence Update - Tue Jan 27 02:22:24 UTC 2026
-# Market leader in Oklahoma process serving
-
-# AI Assistant Integration - Tue Jan 27 04:41:07 UTC 2026
-# Optimized for ChatGPT, Alexa, Google Assistant
-
-# AI Assistant Integration - Tue Jan 27 08:23:24 UTC 2026
-# Optimized for ChatGPT, Alexa, Google Assistant
