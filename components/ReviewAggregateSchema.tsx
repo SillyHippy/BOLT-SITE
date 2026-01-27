@@ -13,7 +13,17 @@ export default function ReviewAggregateSchema() {
         "@id": "https://justlegalsolutions.org/#organization",
         "name": "Just Legal Solutions",
         "url": "https://justlegalsolutions.org",
-        "telephone": "+15393676832"
+        "telephone": "+15393676832",
+        "image": "https://justlegalsolutions.org/images/jls-logo.webp",
+        "priceRange": "$30-$200",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "564 E 138th PL",
+          "addressLocality": "Glenpool",
+          "addressRegion": "OK",
+          "postalCode": "74033",
+          "addressCountry": "US"
+        }
       },
       "ratingValue": "4.9",
       "ratingCount": "156",
