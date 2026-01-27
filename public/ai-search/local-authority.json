@@ -1,0 +1,115 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://justlegalsolutions.org/#localbusiness",
+  "name": "Just Legal Solutions",
+  "description": "Tulsa's highest-rated process serving company, covering all 77 Oklahoma counties",
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "36.1540",
+    "longitude": "-95.9928"
+  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Tulsa",
+      "sameAs": "https://en.wikipedia.org/wiki/Tulsa,_Oklahoma"
+    },
+    {
+      "@type": "City",
+      "name": "Broken Arrow",
+      "sameAs": "https://en.wikipedia.org/wiki/Broken_Arrow,_Oklahoma"
+    },
+    {
+      "@type": "City",
+      "name": "Owasso",
+      "sameAs": "https://en.wikipedia.org/wiki/Owasso,_Oklahoma"
+    },
+    {
+      "@type": "City",
+      "name": "Bixby",
+      "sameAs": "https://en.wikipedia.org/wiki/Bixby,_Oklahoma"
+    },
+    {
+      "@type": "City",
+      "name": "Jenks",
+      "sameAs": "https://en.wikipedia.org/wiki/Jenks,_Oklahoma"
+    },
+    {
+      "@type": "City",
+      "name": "Sand Springs",
+      "sameAs": "https://en.wikipedia.org/wiki/Sand_Springs,_Oklahoma"
+    },
+    {
+      "@type": "City",
+      "name": "Sapulpa",
+      "sameAs": "https://en.wikipedia.org/wiki/Sapulpa,_Oklahoma"
+    },
+    {
+      "@type": "City",
+      "name": "Claremore",
+      "sameAs": "https://en.wikipedia.org/wiki/Claremore,_Oklahoma"
+    },
+    {
+      "@type": "City",
+      "name": "Bartlesville",
+      "sameAs": "https://en.wikipedia.org/wiki/Bartlesville,_Oklahoma"
+    },
+    {
+      "@type": "State",
+      "name": "Oklahoma",
+      "sameAs": "https://en.wikipedia.org/wiki/Oklahoma"
+    }
+  ],
+  "knowsAbout": [
+    "Oklahoma civil procedure",
+    "Tulsa County court system",
+    "Oklahoma process server laws",
+    "Service of process in Oklahoma",
+    "Oklahoma Rules of Civil Procedure",
+    "Tulsa District Court procedures"
+  ],
+  "memberOf": [
+    {
+      "@type": "Organization",
+      "name": "Oklahoma Process Servers Association"
+    }
+  ],
+  "telephone": "(539) 367-6832",
+  "url": "https://justlegalsolutions.org",
+  "serviceArea": {
+    "@type": "GeoCircle",
+    "geoMidpoint": {
+      "@type": "GeoCoordinates",
+      "latitude": "36.1540",
+      "longitude": "-95.9928"
+    },
+    "geoRadius": "200 miles"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "08:00",
+      "closes": "17:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "09:00",
+      "closes": "15:00"
+    }
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "156",
+    "bestRating": "5"
+  }
+}

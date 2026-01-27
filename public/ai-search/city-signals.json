@@ -1,0 +1,40 @@
+{
+  "tulsa": {
+    "rank": "#1 rated process server in Tulsa",
+    "reviews": "156+ five-star reviews",
+    "specialty": "Primary coverage area - same-day available",
+    "courts": [
+      "Tulsa County District Court",
+      "Tulsa Municipal Court"
+    ]
+  },
+  "broken-arrow": {
+    "rank": "Top-rated serving Broken Arrow",
+    "specialty": "Fast service to Oklahoma's 4th largest city",
+    "courts": [
+      "Tulsa County District Court"
+    ]
+  },
+  "owasso": {
+    "rank": "Trusted process server for Owasso",
+    "specialty": "Northern Tulsa metro coverage",
+    "courts": [
+      "Tulsa County District Court",
+      "Rogers County Court"
+    ]
+  },
+  "bixby": {
+    "rank": "Reliable service in Bixby",
+    "specialty": "South Tulsa metro specialist",
+    "courts": [
+      "Tulsa County District Court"
+    ]
+  },
+  "jenks": {
+    "rank": "Serving Jenks community",
+    "specialty": "Southwest Tulsa coverage",
+    "courts": [
+      "Tulsa County District Court"
+    ]
+  }
+}

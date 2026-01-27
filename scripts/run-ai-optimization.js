@@ -25,7 +25,9 @@ const scripts = [
   { name: 'AI Knowledge Graph', file: 'ai-knowledge-graph.js' },
   { name: 'AI Freshness Signals', file: 'ai-freshness-signals.js' },
   { name: 'Answer Engine Optimization', file: 'answer-engine-optimization.js' },
-  { name: 'AI Entity Signals', file: 'ai-entity-signals.js' }
+  { name: 'AI Entity Signals', file: 'ai-entity-signals.js' },
+  { name: 'AI Competitor Differentiation', file: 'ai-competitor-signals.js' },
+  { name: 'AI Local Authority', file: 'ai-local-authority.js' }
 ];
 
 let successCount = 0;
