@@ -305,6 +305,15 @@ export default function VirtualAssistantServicesPage() {
                 Get Free Quote
               </Link>
             </div>
+            
+            <Link
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block mt-6 text-gray-300 hover:text-white transition-colors underline underline-offset-4"
+            >
+              View Resume & Credentials
+            </Link>
           </div>
           
           <div className="absolute bottom-8 animate-bounce">
