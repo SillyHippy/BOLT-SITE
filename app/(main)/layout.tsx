@@ -68,26 +68,13 @@ export default function MainLayout({
                 "closes": "23:59"
               }
             ],
-            "review": [
-              {
-                "@type": "Review",
-                "itemReviewed": {
-                  "@type": "LocalBusiness",
-                  "@id": "https://justlegalsolutions.org/#organization"
-                },
-                "author": {
-                  "@type": "Person",
-                  "name": "Jennifer K."
-                },
-                "reviewRating": {
-                  "@type": "Rating",
-                  "ratingValue": "5",
-                  "bestRating": "5"
-                },
-                "reviewBody": "Outstanding service quality and professional handling of legal documents.",
-                "datePublished": "2025-08-15T12:00:00-05:00"
-              }
-            ],
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "5.0",
+              "reviewCount": "156",
+              "bestRating": "5",
+              "worstRating": "1"
+            },
             "sameAs": [
               "https://www.facebook.com/justlegalsolutions",
               "https://www.linkedin.com/company/justlegalsolutions"

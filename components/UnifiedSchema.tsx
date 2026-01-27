@@ -335,7 +335,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
       'https://clutch.co/profile/just-legal-solutions'
     ],
     memberOf: {
-      '@type': 'ProfessionalService',
+      '@type': 'Organization',
       name: 'National Association of Professional Process Servers',
       url: 'https://napps.org'
     }
