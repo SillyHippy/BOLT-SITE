@@ -109,7 +109,7 @@ export default function PricingPage() {
             {
               name: "Standard Process Service",
               description: "First service attempt within 10 business days",
-              price: "$60",
+              price: "$70",
               priceCurrency: "USD",
               itemOffered: {
                 name: "Standard Process Service",
