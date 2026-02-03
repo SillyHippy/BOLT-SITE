@@ -109,7 +109,7 @@ export default function PricingPage() {
             {
               name: "Standard Process Service",
               description: "First service attempt within 10 business days",
-              price: "$70",
+              price: "$60",
               priceCurrency: "USD",
               itemOffered: {
                 name: "Standard Process Service",
@@ -234,7 +234,7 @@ export default function PricingPage() {
             </p>
             <div className="max-w-3xl mx-auto bg-blue-50/50 border border-blue-200 rounded-lg p-3 mb-12">
                 <p className="text-sm text-blue-800">
-                    <span className="font-semibold">Note on Service Area:</span> Standard rates apply to <strong>Tulsa County</strong> and select parts of <strong>Creek County (Sapulpa)</strong> & <strong>Wagoner County (Broken Arrow)</strong>. A surcharge applies to all other areas. Please contact us for a precise quote.
+                    <span className="font-semibold">Note on Service Area:</span> Standard rates apply to most of <strong>Tulsa County</strong> and select parts of <strong>Creek County (Sapulpa)</strong> & <strong>Wagoner County (Broken Arrow)</strong>. A surcharge applies to all other areas. Please contact us for a precise quote.
                 </p>
             </div>
           </div>
