@@ -45,21 +45,3 @@ Crawl-delay: 1
 # Sitemaps
 Sitemap: https://justlegalsolutions.org/sitemap.xml
 Sitemap: https://justlegalsolutions.org/sitemap-images.xml
-
-# Voice Search Optimization - Fri Feb  6 16:43:27 UTC 2026
-# Optimized for Alexa, Google Assistant, Siri
-
-# Weekend Evening Blitz - 2026-02-06 19:36:52
-# Active weekend optimization for urgent services
-
-# AI Assistant Integration - Fri Feb  6 20:25:20 UTC 2026
-# Optimized for ChatGPT, Alexa, Google Assistant
-
-# Emerging AI Platform Ready - Fri Feb  6 20:33:13 UTC 2026
-# Future-proofed for next-gen AI systems
-# Voice Search Keywords Updated: Sat Feb  7 01:18:38 UTC 2026
-# Oklahoma process server, legal document delivery
-# Same day service, licensed process servers
-
-# AI Assistant Integration - Sat Feb  7 01:20:20 UTC 2026
-# Optimized for ChatGPT, Alexa, Google Assistant
