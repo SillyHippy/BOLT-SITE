@@ -3,250 +3,225 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
-import { Map, FileText, ChevronRight } from 'lucide-react';
+import { MapPin, FileText, BookOpen, Scale, Phone, Briefcase, ClipboardList, ArrowRight } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
-  title: 'Sitemap | Just Legal Solutions',
-  description: 'Sitemap for Just Legal Solutions—navigate all services, resources, and legal support pages in one place.',
+  title: 'Sitemap | Just Legal Solutions — Oklahoma Process Serving',
+  description: 'Find every page on Just Legal Solutions. Browse our services, service areas, guides, tools, and resources for Oklahoma process serving.',
   robots: 'index, follow',
   alternates: {
     canonical: 'https://justlegalsolutions.org/sitemap'
   }
 };
 
+/* ── Section type ────────────────────────────────────────── */
+interface SitemapSection {
+  title: string;
+  description: string;
+  icon: React.ReactNode;
+  color: string;           // tailwind color token (e.g. "blue")
+  links: { url: string; label: string }[];
+}
+
+/* ── Data ────────────────────────────────────────────────── */
+const sections: SitemapSection[] = [
+  {
+    title: 'Get Started',
+    description: 'Core pages to learn about us, get pricing, and reach out.',
+    icon: <Phone className="w-5 h-5" />,
+    color: 'blue',
+    links: [
+      { url: '/', label: 'Home' },
+      { url: '/about', label: 'About Us' },
+      { url: '/services', label: 'Our Services' },
+      { url: '/pricing', label: 'Pricing' },
+      { url: '/contact', label: 'Contact Us' },
+      { url: '/payments', label: 'Make a Payment' },
+      { url: '/why-choose-us', label: 'Why Choose Us' },
+      { url: '/faq', label: 'Frequently Asked Questions' },
+      { url: '/leave-review', label: 'Leave a Review' },
+      { url: '/card', label: 'Digital Business Card' },
+    ],
+  },
+  {
+    title: 'Process Serving',
+    description: 'Specialized process serving services across Oklahoma.',
+    icon: <Briefcase className="w-5 h-5" />,
+    color: 'indigo',
+    links: [
+      { url: '/tulsa-process-server', label: 'Tulsa Process Server' },
+      { url: '/urgent-process-server', label: 'Urgent / Same-Day Service' },
+      { url: '/weekend-emergency', label: 'Weekend & Emergency Service' },
+      { url: '/courier-services-tulsa', label: 'Courier Services — Tulsa' },
+      { url: '/law-firm-services', label: 'Law Firm Services' },
+      { url: '/seo/eviction-notice-process-server', label: 'Eviction Notice Service' },
+      { url: '/seo/legal-posting-process-server', label: 'Legal Notice Posting' },
+      { url: '/seo/what-is-a-process-server', label: 'What Is a Process Server?' },
+    ],
+  },
+  {
+    title: 'Tools & Forms',
+    description: 'Free tools for process servers and legal professionals.',
+    icon: <ClipboardList className="w-5 h-5" />,
+    color: 'emerald',
+    links: [
+      { url: '/affidavit-of-service', label: 'Affidavit of Service Generator' },
+      { url: '/field-sheet', label: 'Field Sheet' },
+      { url: '/resources', label: 'All Resources' },
+    ],
+  },
+  {
+    title: 'Service Areas — Cities',
+    description: 'We serve the greater Tulsa metro and beyond.',
+    icon: <MapPin className="w-5 h-5" />,
+    color: 'sky',
+    links: [
+      { url: '/service-areas', label: 'All Service Areas' },
+      { url: '/service-areas/broken-arrow', label: 'Broken Arrow' },
+      { url: '/service-areas/owasso', label: 'Owasso' },
+      { url: '/service-areas/bixby', label: 'Bixby' },
+      { url: '/service-areas/jenks', label: 'Jenks' },
+      { url: '/service-areas/sand-springs', label: 'Sand Springs' },
+      { url: '/service-areas/glenpool', label: 'Glenpool' },
+      { url: '/service-areas/collinsville', label: 'Collinsville' },
+      { url: '/service-areas/skiatook', label: 'Skiatook' },
+      { url: '/service-areas/claremore', label: 'Claremore' },
+      { url: '/service-areas/catoosa', label: 'Catoosa' },
+      { url: '/service-areas/bartlesville', label: 'Bartlesville' },
+      { url: '/service-areas/sapulpa', label: 'Sapulpa' },
+      { url: '/service-areas/kellyville', label: 'Kellyville' },
+      { url: '/service-areas/bristow', label: 'Bristow' },
+      { url: '/service-areas/wagoner', label: 'Wagoner' },
+      { url: '/service-areas/coweta', label: 'Coweta' },
+      { url: '/service-areas/pawhuska', label: 'Pawhuska' },
+      { url: '/service-areas/pryor', label: 'Pryor' },
+      { url: '/seo/process-server-nowata', label: 'Nowata' },
+      { url: '/seo/process-server-vinita', label: 'Vinita' },
+    ],
+  },
+  {
+    title: 'Service Areas — Counties',
+    description: 'County-level process serving across Northeast Oklahoma.',
+    icon: <MapPin className="w-5 h-5" />,
+    color: 'teal',
+    links: [
+      { url: '/counties/tulsa-county', label: 'Tulsa County' },
+      { url: '/counties/rogers-county', label: 'Rogers County' },
+      { url: '/counties/washington-county', label: 'Washington County' },
+      { url: '/counties/creek-county', label: 'Creek County' },
+      { url: '/counties/wagoner-county', label: 'Wagoner County' },
+      { url: '/counties/osage-county', label: 'Osage County' },
+      { url: '/counties/mayes-county', label: 'Mayes County' },
+    ],
+  },
+  {
+    title: 'Guides & Legal Resources',
+    description: 'In-depth guides, checklists, and Oklahoma process serving knowledge.',
+    icon: <BookOpen className="w-5 h-5" />,
+    color: 'amber',
+    links: [
+      { url: '/ultimate-guide-process-serving-oklahoma', label: 'Ultimate Guide to Process Serving in Oklahoma' },
+      { url: '/process-server-tulsa-guide', label: 'Process Server Tulsa Guide' },
+      { url: '/oklahoma-process-server-authority', label: 'Oklahoma Process Server Authority & Regulations' },
+      { url: '/oklahoma-process-server-laws', label: 'Oklahoma Process Server Laws' },
+      { url: '/oklahoma-vs-texas-process-server', label: 'Oklahoma vs Texas — Process Server Comparison' },
+      { url: '/serving-legal-papers-on-tribal-land', label: 'Serving Legal Papers on Tribal Land' },
+      { url: '/oklahoma-process-server-best-practices-checklist-2025', label: 'Best Practices Checklist 2025' },
+      { url: '/oklahoma-process-server-best-practices-checklist-2026', label: 'Best Practices Checklist 2026' },
+      { url: '/oklahoma-legal-service-areas', label: 'Oklahoma Legal Service Areas' },
+      { url: '/oklahoma-electronic-service-guide', label: 'Electronic Service Guide' },
+      { url: '/oklahoma-case-law-service-process', label: 'Case Law & Service of Process' },
+      { url: '/oklahoma-process-server-pricing', label: 'Pricing Guide' },
+      { url: '/oklahoma-process-server-technology', label: 'Technology Trends in Process Serving' },
+      { url: '/oklahoma-process-server-faq-2026', label: 'Process Server FAQ 2026' },
+      { url: '/oklahoma-process-serving-costs-comparison', label: 'Cost Comparison Guide' },
+      { url: '/ai-skip-tracing-guide-oklahoma', label: 'AI Skip Tracing Guide' },
+      { url: '/process-serving-mistakes-guide', label: 'Common Process Serving Mistakes' },
+      { url: '/high-profile-service-protocols-tulsa', label: 'High-Profile Service Protocols' },
+      { url: '/family-law-service-guide-tulsa', label: 'Family Law Service Guide — Tulsa' },
+    ],
+  },
+];
+
+/* ── Color map helper ────────────────────────────────────── */
+const colorMap: Record<string, { bg: string; bgHover: string; border: string; heading: string; icon: string; link: string }> = {
+  blue:    { bg: 'bg-blue-50',    bgHover: 'hover:bg-blue-100',    border: 'border-blue-200',    heading: 'text-blue-900',    icon: 'text-blue-600',    link: 'text-blue-700'    },
+  indigo:  { bg: 'bg-indigo-50',  bgHover: 'hover:bg-indigo-100',  border: 'border-indigo-200',  heading: 'text-indigo-900',  icon: 'text-indigo-600',  link: 'text-indigo-700'  },
+  emerald: { bg: 'bg-emerald-50', bgHover: 'hover:bg-emerald-100', border: 'border-emerald-200', heading: 'text-emerald-900', icon: 'text-emerald-600', link: 'text-emerald-700' },
+  sky:     { bg: 'bg-sky-50',     bgHover: 'hover:bg-sky-100',     border: 'border-sky-200',     heading: 'text-sky-900',     icon: 'text-sky-600',     link: 'text-sky-700'     },
+  teal:    { bg: 'bg-teal-50',    bgHover: 'hover:bg-teal-100',    border: 'border-teal-200',    heading: 'text-teal-900',    icon: 'text-teal-600',    link: 'text-teal-700'    },
+  amber:   { bg: 'bg-amber-50',   bgHover: 'hover:bg-amber-100',   border: 'border-amber-200',   heading: 'text-amber-900',   icon: 'text-amber-600',   link: 'text-amber-700'   },
+};
+
+/* ── Component ───────────────────────────────────────────── */
 const SitemapPage = () => {
-  // Organization schema markup (improved for Google Rich Results)
-  const orgSchema = {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Just Legal Solutions",
-    "url": "https://justlegalsolutions.org",
-    "logo": "https://justlegalsolutions.org/logo.png",
-    "description": "Professional process serving with over 50 years combined industry experience",
-    "foundingDate": "2025-03-01",
-    "contactPoint": [{
-      "@type": "ContactPoint",
-      "telephone": "+15393676832",
-      "contactType": "customer service",
-      "email": "info@justlegalsolutions.org",
-      "areaServed": "US",
-      "availableLanguage": ["English"]
-    }],
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "564 E 138th PL",
-      "addressLocality": "Glenpool",
-      "addressRegion": "OK",
-      "postalCode": "74033",
-      "addressCountry": "US"
-    },
-    "sameAs": [
-      "https://www.facebook.com/justlegalsolutions",
-      "https://www.linkedin.com/company/justlegalsolutions",
-      "https://twitter.com/justlegalsol", // <-- Add more if you have
-      "https://www.instagram.com/justlegalsolutions/"
-    ]
-  };
-  // Improved list with descriptive labels for each page
-  const sitemapLinks = [
-    // Main Pages
-    { url: '/', label: 'Home' },
-    { url: '/contact', label: 'Contact Us' },
-    { url: '/pricing', label: 'Pricing' },
-    { url: '/resources', label: 'Resources' },
-    { url: '/payments', label: 'Payments' },
-    { url: '/services', label: 'Services' },
-    { url: '/about', label: 'About / Our Story' },
-    { url: '/why-choose-us', label: 'Why Choose Us' },
-    { url: '/faq', label: 'FAQ' },
-    { url: '/leave-review', label: 'Leave a Review' },
-    
-    // Process Server Pages
-    { url: '/tulsa-process-server', label: 'Tulsa Process Server' },
-    { url: '/urgent-process-server', label: 'Urgent Process Server' },
-    { url: '/weekend-emergency', label: 'Weekend Emergency Service' },
-    { url: '/courier-services-tulsa', label: 'Courier Services Tulsa' },
-    
-    // Guide & Resources
-    { url: '/ultimate-guide-process-serving-oklahoma', label: 'Ultimate Guide to Process Serving Oklahoma' },
-    { url: '/process-server-tulsa-guide', label: 'Process Server Tulsa Guide' },
-    { url: '/oklahoma-process-server-authority', label: 'Oklahoma Process Server Authority & Regulations' },
-    { url: '/oklahoma-process-server-laws', label: 'Oklahoma Process Server Laws' },
-    { url: '/oklahoma-vs-texas-process-server', label: 'Oklahoma vs Texas Process Server Comparison' },
-    { url: '/serving-legal-papers-on-tribal-land', label: 'Serving Legal Papers on Tribal Land' },
-    { url: '/law-firm-services', label: 'Law Firm Services' },
-    
-    // Service Areas
-    { url: '/service-areas', label: 'Service Areas Overview' },
-    { url: '/service-areas/broken-arrow', label: 'Broken Arrow Process Server' },
-    { url: '/service-areas/owasso', label: 'Owasso Process Server' },
-    { url: '/service-areas/bixby', label: 'Bixby Process Server' },
-    { url: '/service-areas/jenks', label: 'Jenks Process Server' },
-    { url: '/service-areas/sand-springs', label: 'Sand Springs Process Server' },
-    { url: '/service-areas/glenpool', label: 'Glenpool Process Server' },
-    { url: '/service-areas/collinsville', label: 'Collinsville Process Server' },
-    { url: '/service-areas/skiatook', label: 'Skiatook Process Server' },
-    { url: '/service-areas/claremore', label: 'Claremore Process Server' },
-    { url: '/service-areas/catoosa', label: 'Catoosa Process Server' },
-    { url: '/service-areas/bartlesville', label: 'Bartlesville Process Server' },
-    { url: '/service-areas/sapulpa', label: 'Sapulpa Process Server' },
-    { url: '/service-areas/kellyville', label: 'Kellyville Process Server' },
-    { url: '/service-areas/bristow', label: 'Bristow Process Server' },
-    { url: '/service-areas/wagoner', label: 'Wagoner Process Server' },
-    { url: '/service-areas/coweta', label: 'Coweta Process Server' },
-    { url: '/service-areas/pawhuska', label: 'Pawhuska Process Server' },
-    { url: '/service-areas/pryor', label: 'Pryor Process Server' },
-    
-    // County Pages
-    { url: '/counties/tulsa-county', label: 'Tulsa County Services' },
-    { url: '/counties/rogers-county', label: 'Rogers County Services' },
-    { url: '/counties/washington-county', label: 'Washington County Services' },
-    { url: '/counties/creek-county', label: 'Creek County Services' },
-    { url: '/counties/wagoner-county', label: 'Wagoner County Services' },
-    { url: '/counties/osage-county', label: 'Osage County Services' },
-    { url: '/counties/mayes-county', label: 'Mayes County Services' },
-    
-    // SEO Pages (unique content only - city duplicates removed)
-    { url: '/seo/eviction-notice-process-server', label: 'Eviction Notice Process Server' },
-    { url: '/seo/legal-posting-process-server', label: 'Legal Notice Posting Service' },
-    { url: '/seo/what-is-a-process-server', label: 'What is a Process Server?' },
-    { url: '/seo/process-server-nowata', label: 'Nowata Process Server' },
-    { url: '/seo/process-server-vinita', label: 'Vinita Process Server' },
-    
-    // Tools & Analytics
-    { url: '/backlinks', label: 'Backlinks' },
-    { url: '/seo-dashboard', label: 'SEO Dashboard' },
-    { url: '/competitor-analysis', label: 'Competitor Analysis' },
-    { url: '/local-seo-marker', label: 'Local SEO Marker' },
-    { url: '/multi-search-marker', label: 'Multi Search Marker' },
-    { url: '/performance-marker', label: 'Performance Marker' },
-    { url: '/platform-supremacy', label: 'Platform Supremacy' },
-    { url: '/security-policy', label: 'Security Policy' },
-    { url: '/voice-search-marker', label: 'Voice Search Marker' },
-    
-    // Card & Scheduling
-    { url: '/card', label: 'Business Card' },
-    { url: '/card/calendar', label: 'Calendar Scheduling' },
-    
-    // --- Feature/Guide Pages ---
-    { url: '/oklahoma-process-server-best-practices-checklist-2025', label: 'Process Server Best Practices Checklist 2025' },
-    { url: '/oklahoma-process-server-best-practices-checklist-2026', label: 'Process Server Best Practices Checklist 2026' },
-    { url: '/oklahoma-legal-service-areas', label: 'Oklahoma Legal Service Areas' },
-    { url: '/oklahoma-electronic-service-guide', label: 'Oklahoma Electronic Service Guide' },
-    { url: '/oklahoma-case-law-service-process', label: 'Oklahoma Case Law Service Process' },
-    { url: '/oklahoma-process-server-pricing', label: 'Process Server Pricing Guide' },
-    { url: '/oklahoma-process-server-technology', label: 'Process Server Technology Trends' },
-    { url: '/oklahoma-process-server-faq-2026', label: 'Process Server FAQ 2026' },
-    { url: '/oklahoma-process-server-faq-2026', label: 'Process Server FAQ 2026' },
-    { url: '/oklahoma-process-serving-costs-comparison', label: 'Process Serving Costs Comparison' },
-    { url: '/ai-skip-tracing-guide-oklahoma', label: 'AI Skip Tracing Guide Oklahoma' },
-    { url: '/process-serving-mistakes-guide', label: 'Process Serving Mistakes Guide' },
-    { url: '/high-profile-service-protocols-tulsa', label: 'High-Profile Service Protocols Tulsa' },
-    { url: '/family-law-service-guide-tulsa', label: 'Family Law Service Guide Tulsa' },
-  ];
+  const totalLinks = sections.reduce((n, s) => n + s.links.length, 0);
 
   return (
     <>
       <Navbar />
-      <main className="container mx-auto px-4 py-12">
-        <h1 className="text-3xl font-bold mb-8 flex items-center gap-2">
-          <Map className="inline-block mr-2" /> Complete Sitemap
-        </h1>
-        
-        <div className="mb-8 text-gray-600">
-          <p>Navigate to any page on our website. All {sitemapLinks.length} pages are listed below, organized by category.</p>
+
+      {/* Hero */}
+      <div className="bg-gradient-to-b from-slate-900 to-slate-800 text-white py-14">
+        <div className="container mx-auto px-4 text-center max-w-2xl">
+          <h1 className="text-4xl font-bold mb-3 tracking-tight">Site Map</h1>
+          <p className="text-slate-300 text-lg">
+            Browse all {totalLinks} pages across {sections.length} categories. Find any service, city, or guide in seconds.
+          </p>
         </div>
+      </div>
 
-        {/* Service Areas Section */}
-        <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-6 text-blue-800 border-b-2 border-blue-200 pb-2">
-            Service Areas
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {sitemapLinks
-              .filter(link => link.url.startsWith('/service-areas/'))
-              .map(({ url, label }) => (
-                <div key={url} className="flex items-center bg-blue-50 p-3 rounded-lg hover:bg-blue-100 transition-colors">
-                  <ChevronRight className="w-4 h-4 mr-2 text-blue-600" />
-                  <Link href={url} className="text-blue-700 hover:underline font-medium">
-                    {label}
-                  </Link>
-                </div>
-              ))}
-          </div>
-        </section>
+      {/* Quick-jump nav */}
+      <nav className="sticky top-0 z-30 bg-white/90 backdrop-blur border-b border-slate-200 shadow-sm">
+        <div className="container mx-auto px-4 py-3 flex gap-2 overflow-x-auto scrollbar-hide">
+          {sections.map((s) => {
+            const c = colorMap[s.color];
+            return (
+              <a
+                key={s.title}
+                href={`#${s.title.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`}
+                className={`whitespace-nowrap text-sm font-medium px-3 py-1.5 rounded-full ${c.bg} ${c.link} ${c.bgHover} transition-colors`}
+              >
+                {s.title}
+              </a>
+            );
+          })}
+        </div>
+      </nav>
 
-        {/* County Pages Section */}
-        <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-6 text-green-800 border-b-2 border-green-200 pb-2">
-            County Services
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {sitemapLinks
-              .filter(link => link.url.startsWith('/counties/'))
-              .map(({ url, label }) => (
-                <div key={url} className="flex items-center bg-green-50 p-3 rounded-lg hover:bg-green-100 transition-colors">
-                  <ChevronRight className="w-4 h-4 mr-2 text-green-600" />
-                  <Link href={url} className="text-green-700 hover:underline font-medium">
-                    {label}
-                  </Link>
-                </div>
-              ))}
-          </div>
-        </section>
+      <main className="container mx-auto px-4 py-10 max-w-6xl space-y-12">
+        {sections.map((section) => {
+          const c = colorMap[section.color];
+          const sectionId = section.title.toLowerCase().replace(/[^a-z0-9]+/g, '-');
 
-        {/* Main Pages Section */}
-        <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-6 text-purple-800 border-b-2 border-purple-200 pb-2">
-            Main Pages & Services
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {sitemapLinks
-              .filter(link => 
-                !link.url.startsWith('/service-areas/') && 
-                !link.url.startsWith('/counties/') && 
-                !link.url.startsWith('/seo/') &&
-                !link.url.includes('marker') &&
-                !link.url.includes('dashboard') &&
-                !link.url.includes('analysis') &&
-                link.url !== '/service-areas'
-              )
-              .map(({ url, label }) => (
-                <div key={url} className="flex items-center bg-purple-50 p-3 rounded-lg hover:bg-purple-100 transition-colors">
-                  <ChevronRight className="w-4 h-4 mr-2 text-purple-600" />
-                  <Link href={url} className="text-purple-700 hover:underline font-medium">
-                    {label}
-                  </Link>
-                </div>
-              ))}
-          </div>
-        </section>
+          return (
+            <section key={section.title} id={sectionId} className="scroll-mt-20">
+              {/* Section header */}
+              <div className={`flex items-center gap-3 mb-1`}>
+                <span className={`flex items-center justify-center w-9 h-9 rounded-lg ${c.bg} ${c.icon}`}>
+                  {section.icon}
+                </span>
+                <h2 className={`text-2xl font-bold ${c.heading}`}>{section.title}</h2>
+              </div>
+              <p className="text-slate-500 text-sm mb-5 ml-12">{section.description}</p>
 
-        {/* SEO & Marketing Pages */}
-        <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-6 text-orange-800 border-b-2 border-orange-200 pb-2">
-            SEO & Marketing Pages
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {sitemapLinks
-              .filter(link => 
-                link.url.startsWith('/seo/') || 
-                link.url.includes('marker') ||
-                link.url.includes('dashboard') ||
-                link.url.includes('analysis') ||
-                link.url.includes('supremacy')
-              )
-              .map(({ url, label }) => (
-                <div key={url} className="flex items-center bg-orange-50 p-3 rounded-lg hover:bg-orange-100 transition-colors">
-                  <ChevronRight className="w-4 h-4 mr-2 text-orange-600" />
-                  <Link href={url} className="text-orange-700 hover:underline font-medium">
-                    {label}
+              {/* Link grid */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
+                {section.links.map(({ url, label }) => (
+                  <Link
+                    key={url}
+                    href={url}
+                    className={`group flex items-center gap-2 px-4 py-3 rounded-lg border ${c.border} ${c.bg} ${c.bgHover} transition-all`}
+                  >
+                    <ArrowRight className={`w-3.5 h-3.5 ${c.icon} opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition-all`} />
+                    <span className={`font-medium ${c.link} group-hover:underline`}>{label}</span>
                   </Link>
-                </div>
-              ))}
-          </div>
-        </section>
+                ))}
+              </div>
+            </section>
+          );
+        })}
       </main>
       <UnifiedSchema
         pageType="generic"
