@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { BookOpen, Gavel, MapPin } from 'lucide-react';
+import { BookOpen, Gavel, MapPin, FileText } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import { Metadata } from 'next';
 
@@ -66,6 +66,14 @@ const ResourcesPage = () => {
   { title: "Process Serving in Tulsa County", url: "/counties/tulsa-county", preview: "Navigating the busiest judicial district in Oklahoma." },
         { title: "Serving Documents in Oklahoma County", url: null, preview: "Key differences for serving in the OKC metro area." },
         { title: "Rural County Process Serving", url: null, preview: "Tips for successful service in less populated areas." }
+      ]
+    },
+    {
+      icon: FileText,
+      title: "Tools & Templates",
+      description: "Professional forms and tools to streamline your process serving workflow.",
+      articles: [
+        { title: "Field Sheet Generator", url: "/field-sheet", preview: "Generate, fill out, and print professional field sheets for service of process — or save as PDF." },
       ]
     }
   ];
