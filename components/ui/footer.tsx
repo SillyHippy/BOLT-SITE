@@ -454,6 +454,7 @@ export function Footer() {
                 </div>
                 <div><label htmlFor="servee-name" className="block text-sm font-bold text-gray-700">Name of Individual or Business to Be Served <span className="text-red-500">*</span></label><input type="text" id="servee-name" name="name_of_servee" required className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
                 <div><label htmlFor="agent-name" className="block text-sm font-bold text-gray-700">If Serving a Business, Agent to Be Served/Title</label><input type="text" id="agent-name" name="agent_to_be_served" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
+                <div><label htmlFor="servee-phone" className="block text-sm font-bold text-gray-700">Phone Number of Individual or Business to Be Served</label><input type="tel" id="servee-phone" name="servee_phone_number" placeholder="(555) 555-5555" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
                 <div>
                   <label className="block text-sm font-bold text-gray-700">Type of Address</label>
                   <div className="mt-2 flex items-center gap-6">
