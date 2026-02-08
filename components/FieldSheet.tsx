@@ -245,33 +245,40 @@ export default function FieldSheet() {
             Field Notes &amp; Service Declaration
           </div>
 
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 10 }}>
-            <FieldGroup label="Date & Time Served">
-              <input type="text" placeholder="Date: ___________  Time: ___________" style={inputStyle} />
-            </FieldGroup>
-            <FieldGroup label="Person Served (if not Subject)">
-              <input type="text" placeholder="Name" style={inputStyle} />
-            </FieldGroup>
-          </div>
+          {/* Service Attempts Table */}
+          <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: 4 }}>
+            <thead>
+              <tr>
+                <th style={{ textAlign: 'left', fontWeight: 'bold', fontSize: 10, padding: '2px 4px', borderBottom: '2px solid #000', width: '30%' }}>Date &amp; Time:</th>
+                <th style={{ textAlign: 'left', fontWeight: 'bold', fontSize: 10, padding: '2px 4px', borderBottom: '2px solid #000' }}>Description of Service / Recipient:</th>
+              </tr>
+            </thead>
+            <tbody>
+              {[1, 2, 3, 4, 5, 6].map((n) => (
+                <React.Fragment key={n}>
+                  <tr>
+                    <td style={{ padding: 0, borderBottom: '1px solid #000', verticalAlign: 'top' }}>
+                      <input type="text" placeholder="" style={{ ...inputStyle, border: 'none', background: '#f0f0f0', height: 20 }} />
+                    </td>
+                    <td style={{ padding: 0, borderBottom: '1px solid #000', verticalAlign: 'top' }}>
+                      <input type="text" placeholder="" style={{ ...inputStyle, border: 'none', height: 20 }} />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colSpan={2} style={{ padding: 0, borderBottom: '1px solid #000', verticalAlign: 'top' }}>
+                      <input type="text" placeholder="" style={{ ...inputStyle, border: 'none', height: 20 }} />
+                    </td>
+                  </tr>
+                </React.Fragment>
+              ))}
+            </tbody>
+          </table>
 
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(6, 1fr)', gap: 5, marginTop: 4 }}>
-            <FieldGroup label="Gender"><input type="text" placeholder="M/F" style={inputStyle} /></FieldGroup>
-            <FieldGroup label="Ethnicity"><input type="text" placeholder="Race" style={inputStyle} /></FieldGroup>
-            <FieldGroup label="Age"><input type="text" placeholder="Approx" style={inputStyle} /></FieldGroup>
-            <FieldGroup label="Height"><input type="text" placeholder="Ft/In" style={inputStyle} /></FieldGroup>
-            <FieldGroup label="Weight"><input type="text" placeholder="Lbs" style={inputStyle} /></FieldGroup>
-            <FieldGroup label="Relationship"><input type="text" placeholder="Type" style={inputStyle} /></FieldGroup>
-          </div>
-
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 10, marginTop: 3 }}>
-            <FieldGroup label="Hair Color / Style"><input type="text" placeholder="Desc" style={inputStyle} /></FieldGroup>
-            <FieldGroup label="Eye Color / Glasses"><input type="text" placeholder="Desc" style={inputStyle} /></FieldGroup>
-          </div>
-
-          <FieldGroup label="Visual Description / Notes" style={{ marginTop: 4 }}>
+          {/* Notes */}
+          <FieldGroup label="Notes / Comments" style={{ marginTop: 2 }}>
             <textarea
-              rows={10}
-              placeholder="Enter description of person served, notes on location, or details of non-service..."
+              rows={3}
+              placeholder="Additional notes..."
               style={{
                 ...inputStyle,
                 border: '1px dashed #999',
