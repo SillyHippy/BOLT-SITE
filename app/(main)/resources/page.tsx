@@ -74,6 +74,7 @@ const ResourcesPage = () => {
       description: "Professional forms and tools to streamline your process serving workflow.",
       articles: [
         { title: "Field Sheet Generator", url: "/field-sheet", preview: "Generate, fill out, and print professional field sheets for service of process — or save as PDF." },
+        { title: "Affidavit of Service Generator", url: "/affidavit-of-service", preview: "Create professional Affidavit of Service or Non-Service forms with notary section — print or save as PDF." },
       ]
     }
   ];
