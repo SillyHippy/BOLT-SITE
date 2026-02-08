@@ -449,18 +449,20 @@ export function Footer() {
                 <h3 className="text-lg font-semibold leading-6 text-gray-900 border-b pb-2">Service Details</h3>
                 <div>
                     <label htmlFor="docs-to-be-served" className="block text-sm font-bold text-gray-700">List Documents to Be Served <span className="bg-yellow-200 px-1 rounded">As To Be Listed on Affidavit</span> <span className="text-xs font-normal text-gray-500">(separated by semi-colons)</span> <span className="text-red-500">*</span></label>
-                    <textarea id="docs-to-be-served" name="documents_to_be_served" rows={4} required placeholder="e.g., Summons; Complaint; Notice of Hearing" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"></textarea>
+                    <textarea id="docs-to-be-served" name="documents_to_be_served" rows={3} required placeholder="e.g., Summons; Complaint; Notice of Hearing" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"></textarea>
                     <p className="mt-1 text-xs text-gray-500">This information will be copied and pasted for the affidavit. Please list it accordingly.</p>
                 </div>
-                <div><label htmlFor="servee-name" className="block text-sm font-bold text-gray-700">Name of Individual or Business to Be Served <span className="text-red-500">*</span></label><input type="text" id="servee-name" name="name_of_servee" required className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
-                <div><label htmlFor="agent-name" className="block text-sm font-bold text-gray-700">If Serving a Business, Agent to Be Served/Title</label><input type="text" id="agent-name" name="agent_to_be_served" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
-                <div><label htmlFor="servee-phone" className="block text-sm font-bold text-gray-700">Phone Number of Individual or Business to Be Served</label><input type="tel" id="servee-phone" name="servee_phone_number" placeholder="(555) 555-5555" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
-                <div>
-                  <label className="block text-sm font-bold text-gray-700">Type of Address</label>
-                  <div className="mt-2 flex items-center gap-6">
-                    <div className="flex items-center"><input id="addr-home" name="addr_type_home" type="checkbox" className="h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500" /><label htmlFor="addr-home" className="ml-2 block text-sm text-gray-900">Home</label></div>
-                    <div className="flex items-center"><input id="addr-biz" name="addr_type_biz" type="checkbox" className="h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500" /><label htmlFor="addr-biz" className="ml-2 block text-sm text-gray-900">Business</label></div>
-                    <div className="flex items-center"><input id="addr-other" name="addr_type_other" type="checkbox" className="h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500" /><label htmlFor="addr-other" className="ml-2 block text-sm text-gray-900">Other</label></div>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div><label htmlFor="servee-name" className="block text-sm font-bold text-gray-700">Name of Individual or Business to Be Served <span className="text-red-500">*</span></label><input type="text" id="servee-name" name="name_of_servee" required className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
+                  <div><label htmlFor="agent-name" className="block text-sm font-bold text-gray-700">Agent to Be Served / Title <span className="text-xs font-normal text-gray-500">(if serving a business)</span></label><input type="text" id="agent-name" name="agent_to_be_served" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
+                  <div><label htmlFor="servee-phone" className="block text-sm font-bold text-gray-700">Servee Phone Number</label><input type="tel" id="servee-phone" name="servee_phone_number" placeholder="(555) 555-5555" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div>
+                  <div>
+                    <label className="block text-sm font-bold text-gray-700">Type of Address</label>
+                    <div className="mt-3 flex items-center gap-6">
+                      <div className="flex items-center"><input id="addr-home" name="address_type" type="radio" value="Home" className="h-4 w-4 text-blue-600 border-gray-300 focus:ring-blue-500" /><label htmlFor="addr-home" className="ml-2 block text-sm text-gray-900">Home</label></div>
+                      <div className="flex items-center"><input id="addr-biz" name="address_type" type="radio" value="Business" className="h-4 w-4 text-blue-600 border-gray-300 focus:ring-blue-500" /><label htmlFor="addr-biz" className="ml-2 block text-sm text-gray-900">Business</label></div>
+                      <div className="flex items-center"><input id="addr-other" name="address_type" type="radio" value="Other" className="h-4 w-4 text-blue-600 border-gray-300 focus:ring-blue-500" /><label htmlFor="addr-other" className="ml-2 block text-sm text-gray-900">Other</label></div>
+                    </div>
                   </div>
                 </div>
                 <div>
@@ -474,8 +476,8 @@ export function Footer() {
                   </div>
                 </div>
                 <div>
-                  <label htmlFor="instructions" className="block text-sm font-bold text-gray-700">Service Instructions and/or Notes? <span className="text-xs font-normal text-gray-500">(If any. Do not attach special instructions. Enter them here.)</span></label>
-                  <textarea id="instructions" name="service_instructions" rows={4} className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"></textarea>
+                  <label htmlFor="instructions" className="block text-sm font-bold text-gray-700">Service Instructions / Notes <span className="text-xs font-normal text-gray-500">(optional — do not attach files, enter instructions here)</span></label>
+                  <textarea id="instructions" name="service_instructions" rows={3} className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"></textarea>
                 </div>
                 <div>
                   <label className="block text-sm font-bold text-gray-700">Will the servee be cooperative to be served if we were to contact them in advance of service?</label>
