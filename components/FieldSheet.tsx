@@ -4,6 +4,9 @@ import React, { useState, useCallback } from 'react';
 
 export default function FieldSheet() {
   const [caseNumber, setCaseNumber] = useState('');
+  const [companyName, setCompanyName] = useState('Just Legal Solutions');
+  const [companyEmail, setCompanyEmail] = useState('Info@JustLegalSolutions.org');
+  const [companyPhone, setCompanyPhone] = useState('(539) 367-6832');
 
   const handlePrint = useCallback(() => {
     // Update document title for PDF filename
@@ -79,11 +82,12 @@ export default function FieldSheet() {
           fontFamily: '"Segoe UI", Tahoma, Geneva, Verdana, sans-serif',
           background: 'white',
           width: '8.5in',
-          minHeight: '11in',
+          height: '11in',
           margin: '0 auto',
-          padding: '0.3in 0.4in',
+          padding: '0.25in 0.35in',
           boxSizing: 'border-box',
           position: 'relative',
+          overflow: 'hidden',
           color: '#000',
           boxShadow: '0 2px 16px rgba(0,0,0,0.12)',
         }}
@@ -95,17 +99,35 @@ export default function FieldSheet() {
             justifyContent: 'space-between',
             alignItems: 'flex-start',
             borderBottom: '2px solid #000',
-            paddingBottom: 5,
-            marginBottom: 5,
+            paddingBottom: 3,
+            marginBottom: 3,
           }}
         >
           <div>
-            <h2 style={{ margin: 0, fontSize: 22, fontWeight: 800, textTransform: 'uppercase', letterSpacing: 0.5 }}>
-              Just Legal Solutions
-            </h2>
-            <p style={{ margin: '1px 0', fontSize: 11 }}>564 East 138th Place</p>
-            <p style={{ margin: '1px 0', fontSize: 11 }}>Glenpool, OK 74033</p>
-            <p style={{ margin: '1px 0', fontSize: 11 }}><strong>Phone:</strong> (539) 367-6832</p>
+            <input
+              type="text"
+              value={companyName}
+              onChange={(e) => setCompanyName(e.target.value)}
+              style={{ margin: 0, fontSize: 18, fontWeight: 800, textTransform: 'uppercase', letterSpacing: 0.5, border: 'none', borderBottom: '1px solid transparent', background: 'transparent', width: '100%', padding: 0, fontFamily: 'inherit' }}
+            />
+            <div style={{ display: 'flex', alignItems: 'center', margin: '1px 0', fontSize: 11 }}>
+              <strong style={{ marginRight: 4 }}>Email:</strong>
+              <input
+                type="text"
+                value={companyEmail}
+                onChange={(e) => setCompanyEmail(e.target.value)}
+                style={{ border: 'none', borderBottom: '1px solid transparent', background: 'transparent', fontSize: 11, fontFamily: 'inherit', padding: 0, width: 220 }}
+              />
+            </div>
+            <div style={{ display: 'flex', alignItems: 'center', margin: '1px 0', fontSize: 11 }}>
+              <strong style={{ marginRight: 4 }}>Phone:</strong>
+              <input
+                type="text"
+                value={companyPhone}
+                onChange={(e) => setCompanyPhone(e.target.value)}
+                style={{ border: 'none', borderBottom: '1px solid transparent', background: 'transparent', fontSize: 11, fontFamily: 'inherit', padding: 0, width: 150 }}
+              />
+            </div>
           </div>
           <div>
             <FieldGroup label="Client Reference">
@@ -119,7 +141,7 @@ export default function FieldSheet() {
 
         {/* Case Information */}
         <SectionTitle>Case Information</SectionTitle>
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 15 }}>
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 10 }}>
           <div>
             <FieldGroup label="Case Number">
               <input
@@ -144,13 +166,13 @@ export default function FieldSheet() {
           </div>
         </div>
 
-        <FieldGroup label="Documents" style={{ marginTop: 4 }}>
+        <FieldGroup label="Documents" style={{ marginTop: 2 }}>
           <input type="text" placeholder="Summons, Complaint, Affidavit" style={inputStyle} />
         </FieldGroup>
 
         <FieldGroup label="Special Instructions">
           <textarea
-            rows={2}
+            rows={1}
             placeholder="Serve personally at business address. If not present, confirm schedule and best time to return."
             style={{ ...inputStyle, resize: 'none' }}
           />
@@ -173,7 +195,7 @@ export default function FieldSheet() {
           </FieldGroup>
         </div>
 
-        <div className="highlight-box" style={{ marginTop: 8 }}>
+        <div className="highlight-box" style={{ marginTop: 4 }}>
           <FieldGroup label="Party to Serve">
             <input
               type="text"
@@ -181,10 +203,10 @@ export default function FieldSheet() {
               style={{
                 ...inputStyle,
                 fontWeight: 'bold',
-                fontSize: 14,
+                fontSize: 13,
                 border: '2px solid #333',
                 backgroundColor: '#f4f4f4',
-                padding: 4,
+                padding: '2px 4px',
               }}
             />
           </FieldGroup>
@@ -196,7 +218,7 @@ export default function FieldSheet() {
           <input type="text" placeholder="123 Residential Lane, City, State, Zip" style={inputStyle} />
           <div style={{ fontSize: 9, color: '#666', fontStyle: 'italic' }}>Note: Residential Address Description</div>
         </FieldGroup>
-        <FieldGroup label="Address 2 (Work/Business)" style={{ marginTop: 6 }}>
+        <FieldGroup label="Address 2 (Work/Business)" style={{ marginTop: 3 }}>
           <input type="text" placeholder="456 Business Blvd, City, State, Zip" style={inputStyle} />
           <div style={{ fontSize: 9, color: '#666', fontStyle: 'italic' }}>Note: Business Name / Suite #</div>
         </FieldGroup>
@@ -205,8 +227,8 @@ export default function FieldSheet() {
         <div
           style={{
             border: '1px solid #000',
-            padding: 8,
-            marginTop: 8,
+            padding: '4px 8px',
+            marginTop: 5,
           }}
         >
           <div
@@ -216,14 +238,14 @@ export default function FieldSheet() {
               fontSize: 11,
               textTransform: 'uppercase',
               borderBottom: '1px solid #ccc',
-              paddingBottom: 3,
-              marginBottom: 8,
+              paddingBottom: 2,
+              marginBottom: 4,
             }}
           >
             Field Notes &amp; Service Declaration
           </div>
 
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 15 }}>
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 10 }}>
             <FieldGroup label="Date & Time Served">
               <input type="text" placeholder="Date: ___________  Time: ___________" style={inputStyle} />
             </FieldGroup>
@@ -232,7 +254,7 @@ export default function FieldSheet() {
             </FieldGroup>
           </div>
 
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(6, 1fr)', gap: 5, marginTop: 8 }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(6, 1fr)', gap: 5, marginTop: 4 }}>
             <FieldGroup label="Gender"><input type="text" placeholder="M/F" style={inputStyle} /></FieldGroup>
             <FieldGroup label="Ethnicity"><input type="text" placeholder="Race" style={inputStyle} /></FieldGroup>
             <FieldGroup label="Age"><input type="text" placeholder="Approx" style={inputStyle} /></FieldGroup>
@@ -241,14 +263,14 @@ export default function FieldSheet() {
             <FieldGroup label="Relationship"><input type="text" placeholder="Type" style={inputStyle} /></FieldGroup>
           </div>
 
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 15, marginTop: 5 }}>
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 10, marginTop: 3 }}>
             <FieldGroup label="Hair Color / Style"><input type="text" placeholder="Desc" style={inputStyle} /></FieldGroup>
             <FieldGroup label="Eye Color / Glasses"><input type="text" placeholder="Desc" style={inputStyle} /></FieldGroup>
           </div>
 
-          <FieldGroup label="Visual Description / Notes" style={{ marginTop: 10 }}>
+          <FieldGroup label="Visual Description / Notes" style={{ marginTop: 4 }}>
             <textarea
-              rows={14}
+              rows={10}
               placeholder="Enter description of person served, notes on location, or details of non-service..."
               style={{
                 ...inputStyle,
@@ -271,7 +293,7 @@ export default function FieldSheet() {
 const inputStyle: React.CSSProperties = {
   width: '100%',
   border: '1px solid #ccc',
-  padding: '2px 4px',
+  padding: '1px 4px',
   fontSize: 11,
   fontFamily: 'inherit',
   boxSizing: 'border-box',
@@ -288,8 +310,8 @@ function SectionTitle({ children }: { children: React.ReactNode }) {
         fontWeight: 'bold',
         fontSize: 10,
         padding: '2px 5px',
-        marginTop: 6,
-        marginBottom: 4,
+        marginTop: 4,
+        marginBottom: 2,
         borderTop: '1px solid #000',
         borderBottom: '1px solid #000',
         textTransform: 'uppercase',
