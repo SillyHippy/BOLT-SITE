@@ -249,7 +249,7 @@ export default function PricingPage() {
                 <p className="text-3xl font-bold text-green-600">$60</p>
                 <p className="text-xs text-gray-400 mb-2">starting price</p>
               </div>
-              <p className="text-gray-600 mb-3 text-sm">First Service Attempt Within 5 Business Days (usually sooner).</p>
+              <p className="text-gray-600 mb-3 text-sm">First Service Attempt Within 10 Business Days (usually sooner).</p>
               <p className="text-sm text-gray-500">
                 Ideal for routine document delivery.
               </p>
