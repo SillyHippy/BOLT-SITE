@@ -43,3 +43,12 @@
 /seo/*
   Cache-Control: public, max-age=3600
   X-Robots-Tag: index, follow, max-snippet:-1, max-image-preview:large
+
+# Pricing pages — force browsers to revalidate with the origin (no cached copy)
+/pricing
+  Cache-Control: no-cache, must-revalidate
+  X-Robots-Tag: index, follow
+
+/oklahoma-process-server-pricing
+  Cache-Control: no-cache, must-revalidate
+  X-Robots-Tag: index, follow
