@@ -74,22 +74,22 @@ export default function WagonerCountyProcessServer() {
         {
           "@type": "City",
           "name": "Wagoner",
-          "addressRegion": "OK"
+          "containedInPlace": { "@type": "State", "name": "Oklahoma" }
         },
         {
           "@type": "City", 
           "name": "Broken Arrow",
-          "addressRegion": "OK"
+          "containedInPlace": { "@type": "State", "name": "Oklahoma" }
         },
         {
           "@type": "City",
           "name": "Coweta", 
-          "addressRegion": "OK"
+          "containedInPlace": { "@type": "State", "name": "Oklahoma" }
         },
         {
           "@type": "City",
           "name": "Porter",
-          "addressRegion": "OK"
+          "containedInPlace": { "@type": "State", "name": "Oklahoma" }
         }
       ],
       "serviceType": "Process Server",

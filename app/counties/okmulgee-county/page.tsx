@@ -59,22 +59,22 @@ export default function OkmulgeeCountyPage() {
       {
         "@type": "City",
         "name": "Okmulgee",
-        "addressRegion": "OK"
+        "containedInPlace": { "@type": "State", "name": "Oklahoma" }
       },
       {
         "@type": "City", 
         "name": "Beggs",
-        "addressRegion": "OK"
+        "containedInPlace": { "@type": "State", "name": "Oklahoma" }
       },
       {
         "@type": "City",
         "name": "Henryetta", 
-        "addressRegion": "OK"
+        "containedInPlace": { "@type": "State", "name": "Oklahoma" }
       },
       {
         "@type": "City",
         "name": "Morris",
-        "addressRegion": "OK"
+        "containedInPlace": { "@type": "State", "name": "Oklahoma" }
       }
     ],
     "openingHours": "Mo-Su 06:00-22:00",

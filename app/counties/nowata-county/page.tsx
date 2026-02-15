@@ -74,22 +74,22 @@ export default function NowataCountyProcessServer() {
         {
           "@type": "City",
           "name": "Nowata",
-          "addressRegion": "OK"
+          "containedInPlace": { "@type": "State", "name": "Oklahoma" }
         },
         {
           "@type": "City",
           "name": "Delaware",
-          "addressRegion": "OK"
+          "containedInPlace": { "@type": "State", "name": "Oklahoma" }
         },
         {
           "@type": "City",
           "name": "Wann",
-          "addressRegion": "OK"
+          "containedInPlace": { "@type": "State", "name": "Oklahoma" }
         },
         {
           "@type": "City",
           "name": "Lenapah",
-          "addressRegion": "OK"
+          "containedInPlace": { "@type": "State", "name": "Oklahoma" }
         }
       ],
       "serviceType": "Process Server",

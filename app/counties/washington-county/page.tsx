@@ -74,22 +74,22 @@ export default function WashingtonCountyProcessServer() {
         {
           "@type": "City",
           "name": "Bartlesville",
-          "addressRegion": "OK"
+          "containedInPlace": { "@type": "State", "name": "Oklahoma" }
         },
         {
           "@type": "City", 
           "name": "Dewey",
-          "addressRegion": "OK"
+          "containedInPlace": { "@type": "State", "name": "Oklahoma" }
         },
         {
           "@type": "City",
           "name": "Copan", 
-          "addressRegion": "OK"
+          "containedInPlace": { "@type": "State", "name": "Oklahoma" }
         },
         {
           "@type": "City",
           "name": "Ramona",
-          "addressRegion": "OK"
+          "containedInPlace": { "@type": "State", "name": "Oklahoma" }
         }
       ],
       "serviceType": "Process Server",
