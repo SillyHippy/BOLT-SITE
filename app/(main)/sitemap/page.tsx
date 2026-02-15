@@ -96,7 +96,7 @@ const sections: SitemapSection[] = [
       { url: '/service-areas/coweta', label: 'Coweta' },
       { url: '/service-areas/pawhuska', label: 'Pawhuska' },
       { url: '/service-areas/pryor', label: 'Pryor' },
-      { url: '/seo/process-server-nowata', label: 'Nowata' },
+      { url: '/counties/nowata-county', label: 'Nowata' },
       { url: '/seo/process-server-vinita', label: 'Vinita' },
     ],
   },

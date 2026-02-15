@@ -291,8 +291,8 @@ export default function ContactPage() {
               {' '}<a href="/service-areas/broken-arrow" className="text-blue-600 hover:underline">Broken Arrow</a>,
               {' '}<a href="/service-areas/bixby" className="text-blue-600 hover:underline">Bixby</a>,
               {' '}<a href="/service-areas/jenks" className="text-blue-600 hover:underline">Jenks</a>,
-              {' '}<a href="/seo/owasso-process-server" className="text-blue-600 hover:underline">Owasso</a>,
-              {' '}<a href="/seo/sand-springs-process-server" className="text-blue-600 hover:underline">Sand Springs</a>,
+              {' '}<a href="/service-areas/owasso" className="text-blue-600 hover:underline">Owasso</a>,
+              {' '}<a href="/service-areas/sand-springs" className="text-blue-600 hover:underline">Sand Springs</a>,
               {' '}<a href="/service-areas/sapulpa" className="text-blue-600 hover:underline">Sapulpa</a>,
               and <a href="/ultimate-guide-process-serving-oklahoma" className="text-blue-600 hover:underline">all of Oklahoma</a>.
             </span>
@@ -308,7 +308,7 @@ export default function ContactPage() {
             </div>
             <div className="bg-slate-50 rounded-lg p-4">
               <h3 className="font-semibold text-blue-800 mb-2">What areas do you serve?</h3>
-              <p className="text-gray-700">We serve all of Tulsa County and surrounding areas, including <a href="/service-areas/broken-arrow" className="text-blue-600 hover:underline">Broken Arrow</a>, <a href="/service-areas/bixby" className="text-blue-600 hover:underline">Bixby</a>, <a href="/service-areas/jenks" className="text-blue-600 hover:underline">Jenks</a>, <a href="/seo/owasso-process-server" className="text-blue-600 hover:underline">Owasso</a>, <a href="/seo/sand-springs-process-server" className="text-blue-600 hover:underline">Sand Springs</a>, <a href="/service-areas/sapulpa" className="text-blue-600 hover:underline">Sapulpa</a>, and more. See our <a href="/service-areas" className="text-blue-600 hover:underline font-medium">full service area list</a>.</p>
+              <p className="text-gray-700">We serve all of Tulsa County and surrounding areas, including <a href="/service-areas/broken-arrow" className="text-blue-600 hover:underline">Broken Arrow</a>, <a href="/service-areas/bixby" className="text-blue-600 hover:underline">Bixby</a>, <a href="/service-areas/jenks" className="text-blue-600 hover:underline">Jenks</a>, <a href="/service-areas/owasso" className="text-blue-600 hover:underline">Owasso</a>, <a href="/service-areas/sand-springs" className="text-blue-600 hover:underline">Sand Springs</a>, <a href="/service-areas/sapulpa" className="text-blue-600 hover:underline">Sapulpa</a>, and more. See our <a href="/service-areas" className="text-blue-600 hover:underline font-medium">full service area list</a>.</p>
             </div>
             <div className="bg-slate-50 rounded-lg p-4">
               <h3 className="font-semibold text-blue-800 mb-2">Are you licensed and bonded?</h3>

@@ -42,7 +42,10 @@ function generateSitemap() {
   // URLs to exclude (redirect pages that don't have real content)
   const excludeUrls = [
     '/faq', // Redirects to /ultimate-guide-process-serving-oklahoma
-    '/seo/process-server-sand-springs', // Redirects to /seo/sand-springs-process-server
+    '/seo/process-server-sand-springs', // Redirects to /service-areas/sand-springs
+    '/seo/process-server-bixby', // Redirects to /service-areas/bixby
+    '/seo/process-server-broken-arrow', // Redirects to /service-areas/broken-arrow
+    '/seo/process-server-jenks', // Redirects to /service-areas/jenks
     '/oklahoma-process-server-cost-calculator' // Removed - page no longer exists
   ];
   
@@ -88,7 +91,6 @@ function generateSitemap() {
     '/payments',
     '/why-choose-us',
     '/backlinks',
-    '/search',
     '/law-firm-services',
     
     // Process Server Pages - Excluding old /process-server-tulsa (redirects to main page)
@@ -102,13 +104,13 @@ function generateSitemap() {
     '/service-areas/bixby',
     '/service-areas/broken-arrow',
     '/seo/eviction-notice-process-server',
-    '/seo/glenpool-process-server',
+    '/service-areas/glenpool',
     '/service-areas/jenks',
     '/seo/legal-posting-process-server',
-    '/seo/owasso-process-server',
+    '/service-areas/owasso',
     '/service-areas/glenpool',
 
-    '/seo/sand-springs-process-server',
+    '/service-areas/sand-springs',
     '/seo/what-is-a-process-server',
     // Excluding '/seo/tulsa-process-server-comprehensive' - content consolidated into main page
     

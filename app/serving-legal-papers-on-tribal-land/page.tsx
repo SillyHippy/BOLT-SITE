@@ -3,7 +3,7 @@ import Navbar from '../../components/ui/navbar';
 import Footer from '../../components/ui/footer';
 import JsonLd from '../../components/JsonLd';
 
-const canonicalUrl = 'https://justlegalsolutions.org/serving-legal-papers-in-oklahoma-guide';
+const canonicalUrl = 'https://justlegalsolutions.org/serving-legal-papers-on-tribal-land';
 
 export const metadata: Metadata = {
   title: 'Serving Legal Papers in Oklahoma: A Guide for Process Servers on State and Tribal Land',

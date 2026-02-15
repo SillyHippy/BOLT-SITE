@@ -204,7 +204,7 @@ const counties = [
 ];
 
 const majorCities = [
-  { name: "Tulsa", county: "Tulsa", population: "413,066", link: "/service-areas/tulsa-process-server" },
+  { name: "Tulsa", county: "Tulsa", population: "413,066", link: "/tulsa-process-server" },
   { name: "Broken Arrow", county: "Tulsa", population: "113,540", link: "/service-areas/broken-arrow" },
   { name: "Bartlesville", county: "Washington", population: "36,495", link: "/service-areas/bartlesville" },
   { name: "Owasso", county: "Tulsa", population: "36,926", link: "/service-areas/owasso" },
@@ -214,7 +214,7 @@ const majorCities = [
   { name: "Sand Springs", county: "Tulsa", population: "19,912", link: "/service-areas/sand-springs" },
   { name: "Claremore", county: "Rogers", population: "18,766", link: "/service-areas/claremore" },
   { name: "Glenpool", county: "Tulsa", population: "14,683", link: "/service-areas/glenpool" },
-  { name: "Okmulgee", county: "Okmulgee", population: "11,768", link: "/service-areas/okmulgee" },
+  { name: "Okmulgee", county: "Okmulgee", population: "11,768", link: "/counties/okmulgee-county" },
   { name: "Coweta", county: "Wagoner", population: "9,943", link: "/service-areas/coweta" },
   { name: "Pryor", county: "Mayes", population: "9,539", link: "/service-areas/pryor" },
   { name: "Wagoner", county: "Wagoner", population: "9,090", link: "/service-areas/wagoner" },
@@ -297,7 +297,7 @@ export default function ServiceAreasHub() {
               
               {/* SEO intro paragraph */}
               <p className="text-lg text-slate-300 max-w-3xl mx-auto mb-10">
-                Statewide Oklahoma process server coverage across all 77 counties, including <Link href="/service-areas/tulsa-process-server" className="text-yellow-400 hover:text-yellow-300 underline">Tulsa</Link>, Oklahoma City, Lawton, Norman, and Enid, with same-day service available in the Tulsa–Glenpool metro.
+                Statewide Oklahoma process server coverage across all 77 counties, including <Link href="/tulsa-process-server" className="text-yellow-400 hover:text-yellow-300 underline">Tulsa</Link>, Oklahoma City, Lawton, Norman, and Enid, with same-day service available in the Tulsa–Glenpool metro.
               </p>
               
               {/* CTA buttons */}

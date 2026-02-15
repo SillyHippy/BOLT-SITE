@@ -398,12 +398,6 @@
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://justlegalsolutions.org/seo/process-server-broken-arrow</loc>
-    <lastmod>2026-02-15</lastmod>
-    <changefreq>hourly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
     <loc>https://justlegalsolutions.org/seo/process-server-nowata</loc>
     <lastmod>2026-02-15</lastmod>
     <changefreq>hourly</changefreq>
@@ -608,39 +602,22 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://justlegalsolutions.org/search</loc>
-    <lastmod>2026-02-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://justlegalsolutions.org/seo/glenpool-process-server</loc>
+
+    <loc>https://justlegalsolutions.org/service-areas/glenpool</loc>
     <lastmod>2026-02-15</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://justlegalsolutions.org/seo/owasso-process-server</loc>
+    <loc>https://justlegalsolutions.org/service-areas/owasso</loc>
     <lastmod>2026-02-15</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://justlegalsolutions.org/seo/sand-springs-process-server</loc>
+    <loc>https://justlegalsolutions.org/service-areas/sand-springs</loc>
     <lastmod>2026-02-15</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.95</priority>
-  </url>
-  <url>
-    <loc>https://justlegalsolutions.org/seo/process-server-bixby/</loc>
-    <lastmod>2026-02-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://justlegalsolutions.org/seo/process-server-jenks/</loc>
-    <lastmod>2026-02-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
 </urlset>

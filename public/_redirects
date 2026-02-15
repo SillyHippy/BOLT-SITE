@@ -18,13 +18,22 @@
 # Redirect tulsa-county to consolidated counties page
 /tulsa-county /counties/tulsa-county 301
 
-/process-server-sand-springs /seo/sand-springs-process-server 301
-/process-server-owasso /seo/owasso-process-server 301
-/process-server-glenpool /seo/glenpool-process-server 301
+/process-server-sand-springs /service-areas/sand-springs 301
+/process-server-owasso /service-areas/owasso 301
+/process-server-glenpool /service-areas/glenpool 301
 
 # Redirect common variations
-/sand-springs-process-server /seo/sand-springs-process-server 301
-/owasso-process-server /seo/owasso-process-server 301
+/sand-springs-process-server /service-areas/sand-springs 301
+/owasso-process-server /service-areas/owasso 301
+
+# Redirect old /seo/ URLs to correct service-areas pages
+/seo/sand-springs-process-server /service-areas/sand-springs 301
+/seo/owasso-process-server /service-areas/owasso 301
+/seo/glenpool-process-server /service-areas/glenpool 301
+/seo/process-server-bixby /service-areas/bixby 301
+/seo/process-server-broken-arrow /service-areas/broken-arrow 301
+/seo/process-server-jenks /service-areas/jenks 301
+/seo/process-server-sand-springs /service-areas/sand-springs 301
 
 # Note: SPA fallback removed to prevent infinite loop
 # Next.js static export handles 404s via _not-found page

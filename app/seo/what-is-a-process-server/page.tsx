@@ -1053,10 +1053,10 @@ export default function WhatIsAProcessServerPage() {
                     <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/tulsa-process-server" className="text-blue-600 hover:underline font-medium">Tulsa</a></li>
                     <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/service-areas/glenpool" className="text-blue-600 hover:underline font-medium">Glenpool</a></li>
                     <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/service-areas/broken-arrow" className="text-blue-600 hover:underline font-medium">Broken Arrow</a></li>
-                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/seo/owasso-process-server" className="text-blue-600 hover:underline font-medium">Owasso</a></li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/service-areas/owasso" className="text-blue-600 hover:underline font-medium">Owasso</a></li>
                     <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/service-areas/jenks" className="text-blue-600 hover:underline font-medium">Jenks</a></li>
                     <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/service-areas/bixby" className="text-blue-600 hover:underline font-medium">Bixby</a></li>
-                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/seo/sand-springs-process-server" className="text-blue-600 hover:underline font-medium">Sand Springs</a></li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/service-areas/sand-springs" className="text-blue-600 hover:underline font-medium">Sand Springs</a></li>
                     <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/service-areas/sapulpa" className="text-blue-600 hover:underline font-medium">Sapulpa</a></li>
                     <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/service-areas/bartlesville" className="text-blue-600 hover:underline font-medium">Bartlesville</a></li>
                     <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/service-areas/catoosa" className="text-blue-600 hover:underline font-medium">Catoosa</a></li>

@@ -882,13 +882,13 @@ export default function EvictionNoticeProcessServer() {
                       </Link>
                     </li>
                     <li>
-                      <Link href="/seo/glenpool-process-server" className="flex items-center gap-2 text-blue-700 hover:text-blue-900 underline">
+                      <Link href="/service-areas/glenpool" className="flex items-center gap-2 text-blue-700 hover:text-blue-900 underline">
                         <ArrowRight className="h-4 w-4 flex-shrink-0" />
                         Glenpool process server services
                       </Link>
                     </li>
                     <li>
-                      <Link href="/seo/owasso-process-server" className="flex items-center gap-2 text-blue-700 hover:text-blue-900 underline">
+                      <Link href="/service-areas/owasso" className="flex items-center gap-2 text-blue-700 hover:text-blue-900 underline">
                         <ArrowRight className="h-4 w-4 flex-shrink-0" />
                         Owasso process server services
                       </Link>

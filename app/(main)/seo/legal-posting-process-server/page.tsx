@@ -155,8 +155,8 @@ export default function LegalPostingProcessServer() {
               <ul className="list-disc list-inside text-indigo-700">
                 <li><a href="/seo/eviction-notice-process-server" className="underline">Eviction Notice Service</a></li>
                 <li><a href="/service-areas/broken-arrow" className="underline">Broken Arrow Process Server</a></li>
-                <li><a href="/seo/glenpool-process-server" className="underline">Glenpool Process Server</a></li>
-                <li><a href="/seo/owasso-process-server" className="underline">Owasso Process Server</a></li>
+                <li><a href="/service-areas/glenpool" className="underline">Glenpool Process Server</a></li>
+                <li><a href="/service-areas/owasso" className="underline">Owasso Process Server</a></li>
               </ul>
             </section>
           </div>
