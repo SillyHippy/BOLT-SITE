@@ -184,11 +184,6 @@ function generateMultiSearchMeta() {
 <meta name="currency" content="USD" />
 <meta name="country" content="United States" />
 <meta name="language" content="English" />
-
-{/* Multi-Language Support */}
-<link rel="alternate" hreflang="en-us" href="https://justlegalsolutions.org/" />
-<link rel="alternate" hreflang="es-us" href="https://justlegalsolutions.org/es/" />
-<link rel="alternate" hreflang="x-default" href="https://justlegalsolutions.org/" />
 `;
   
   return metaTags;
