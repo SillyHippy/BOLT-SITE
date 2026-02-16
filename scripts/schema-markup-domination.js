@@ -53,8 +53,8 @@ const advancedLocalBusinessSchema = {
     "@type": "OpeningHoursSpecification",
     "opens": "00:00",
     "closes": "23:59",
-    "validFrom": "2025-01-01",
-    "validThrough": "2025-12-31",
+    "validFrom": "2026-01-01",
+    "validThrough": "2026-12-31",
     "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
   },
   "additionalProperty": {
@@ -222,8 +222,8 @@ const processServingProductSchema = {
       "priceCurrency": "USD",
       "price": "Contact for pricing",
       "availability": "https://schema.org/InStock",
-      "validFrom": "2025-01-01",
-      "validThrough": "2025-12-31",
+      "validFrom": "2026-01-01",
+      "validThrough": "2026-12-31",
       "areaServed": {
         "@type": "State",
         "name": "Oklahoma"
@@ -236,8 +236,8 @@ const processServingProductSchema = {
       "priceCurrency": "USD",
       "price": "Contact for pricing",
       "availability": "https://schema.org/InStock",
-      "validFrom": "2025-01-01",
-      "validThrough": "2025-12-31",
+      "validFrom": "2026-01-01",
+      "validThrough": "2026-12-31",
       "areaServed": {
         "@type": "State",
         "name": "Oklahoma"

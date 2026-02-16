@@ -1,0 +1,49 @@
+name: Schema Markup Validation
+
+on:
+  schedule:
+    - cron: '0 10 * * 3'  # Weekly Wednesday 10 AM UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  schema-markup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Schema Markup Generation
+        run: |
+          echo "🏆 Starting Schema Markup Domination..."
+          node scripts/schema-markup-domination.js
+
+      - name: Git Configuration
+        run: |
+          git config --global user.name 'Schema Markup Bot'
+          git config --global user.email 'seo@justlegalsolutions.org'
+
+      - name: Commit Schema Updates
+        run: |
+          git add components/AdvancedSchemaMarkup.tsx public/
+          git pull origin main
+          git diff --staged --quiet || git commit -m "Schema markup update - $(date '+%Y-%m-%d')"
+          git push origin main
+
+      - name: Schema Markup Complete
+        run: |
+          echo "✅ Schema Markup Domination Complete"
+          echo "📊 Rich snippets optimized"
+          echo "🎯 Featured snippets targeted"
+          echo "🏆 LocalBusiness schema enhanced"

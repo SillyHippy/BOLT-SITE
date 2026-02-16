@@ -16,36 +16,105 @@ jobs:
         run: |
           echo "Notifying search engines of updates..."
           
-          # To enable IndexNow: 
-          # 1. Go to https://www.bing.com/indexnow and generate a key
-          # 2. Add it as a GitHub secret named INDEXNOW_KEY
-          # 3. Create a file public/<key>.txt containing the key
-          # IndexNow is currently disabled until a real key is configured.
-          
-          if [ -n "${{ secrets.INDEXNOW_KEY }}" ]; then
-            KEY="${{ secrets.INDEXNOW_KEY }}"
-            KEY_URLS=(
-              "https://justlegalsolutions.org/"
-              "https://justlegalsolutions.org/contact"
-              "https://justlegalsolutions.org/tulsa-process-server"
-              "https://justlegalsolutions.org/law-firm-services"
-              "https://justlegalsolutions.org/oklahoma-process-server-pricing"
-              "https://justlegalsolutions.org/oklahoma-process-server-laws"
-              "https://justlegalsolutions.org/ultimate-guide-process-serving-oklahoma"
-            )
+          KEY="3a879a2ef23c46a39d3b0926392655e1"
+          KEY_URLS=(
+            # Core conversion pages
+            "https://justlegalsolutions.org/"
+            "https://justlegalsolutions.org/contact"
+            "https://justlegalsolutions.org/pricing"
+            "https://justlegalsolutions.org/services"
+            "https://justlegalsolutions.org/tulsa-process-server"
+            "https://justlegalsolutions.org/law-firm-services"
+            "https://justlegalsolutions.org/weekend-emergency"
+            "https://justlegalsolutions.org/urgent-process-server"
+            "https://justlegalsolutions.org/about"
+            "https://justlegalsolutions.org/faq"
+            "https://justlegalsolutions.org/reviews"
+            "https://justlegalsolutions.org/leave-review"
+            "https://justlegalsolutions.org/payments"
+            "https://justlegalsolutions.org/virtual-assistant-services"
+            "https://justlegalsolutions.org/courier-services-tulsa"
+            "https://justlegalsolutions.org/affidavit-of-service"
+            "https://justlegalsolutions.org/why-choose-us"
             
-            for url in "${KEY_URLS[@]}"; do
-              curl -s -X POST "https://api.indexnow.org/indexnow" \
-                -H "Content-Type: application/json" \
-                -d "{\"host\":\"justlegalsolutions.org\",\"key\":\"$KEY\",\"keyLocation\":\"https://justlegalsolutions.org/$KEY.txt\",\"urlList\":[\"$url\"]}" \
-                || echo "IndexNow ping failed for $url"
-            done
-            echo "IndexNow notifications sent"
-          else
-            echo "IndexNow key not configured - skipping. Add INDEXNOW_KEY secret to enable."
-          fi
+            # Service area pages (18 cities)
+            "https://justlegalsolutions.org/service-areas/broken-arrow"
+            "https://justlegalsolutions.org/service-areas/owasso"
+            "https://justlegalsolutions.org/service-areas/jenks"
+            "https://justlegalsolutions.org/service-areas/bixby"
+            "https://justlegalsolutions.org/service-areas/sand-springs"
+            "https://justlegalsolutions.org/service-areas/sapulpa"
+            "https://justlegalsolutions.org/service-areas/claremore"
+            "https://justlegalsolutions.org/service-areas/bartlesville"
+            "https://justlegalsolutions.org/service-areas/catoosa"
+            "https://justlegalsolutions.org/service-areas/collinsville"
+            "https://justlegalsolutions.org/service-areas/coweta"
+            "https://justlegalsolutions.org/service-areas/glenpool"
+            "https://justlegalsolutions.org/service-areas/skiatook"
+            "https://justlegalsolutions.org/service-areas/wagoner"
+            "https://justlegalsolutions.org/service-areas/bristow"
+            "https://justlegalsolutions.org/service-areas/kellyville"
+            "https://justlegalsolutions.org/service-areas/pawhuska"
+            "https://justlegalsolutions.org/service-areas/pryor"
+            
+            # County pages (9 counties)
+            "https://justlegalsolutions.org/counties/tulsa-county"
+            "https://justlegalsolutions.org/counties/rogers-county"
+            "https://justlegalsolutions.org/counties/wagoner-county"
+            "https://justlegalsolutions.org/counties/washington-county"
+            "https://justlegalsolutions.org/counties/creek-county"
+            "https://justlegalsolutions.org/counties/osage-county"
+            "https://justlegalsolutions.org/counties/okmulgee-county"
+            "https://justlegalsolutions.org/counties/mayes-county"
+            "https://justlegalsolutions.org/counties/nowata-county"
+            
+            # Guide & authority content (current year versions)
+            "https://justlegalsolutions.org/ultimate-guide-process-serving-oklahoma"
+            "https://justlegalsolutions.org/process-server-tulsa-guide"
+            "https://justlegalsolutions.org/oklahoma-process-server-laws"
+            "https://justlegalsolutions.org/oklahoma-process-server-pricing"
+            "https://justlegalsolutions.org/oklahoma-process-server-faq-2026"
+            "https://justlegalsolutions.org/oklahoma-process-server-best-practices-checklist-2026"
+            "https://justlegalsolutions.org/oklahoma-process-server-pricing-2026"
+            "https://justlegalsolutions.org/oklahoma-process-server-technology"
+            "https://justlegalsolutions.org/oklahoma-process-serving-costs-comparison"
+            "https://justlegalsolutions.org/oklahoma-case-law-service-process"
+            "https://justlegalsolutions.org/oklahoma-electronic-service-guide"
+            "https://justlegalsolutions.org/oklahoma-legal-service-areas"
+            "https://justlegalsolutions.org/oklahoma-process-server-authority"
+            "https://justlegalsolutions.org/oklahoma-vs-texas-process-server"
+            "https://justlegalsolutions.org/family-law-service-guide-tulsa"
+            "https://justlegalsolutions.org/high-profile-service-protocols-tulsa"
+            "https://justlegalsolutions.org/ai-skip-tracing-guide-oklahoma"
+            "https://justlegalsolutions.org/process-serving-mistakes-guide"
+            "https://justlegalsolutions.org/serving-legal-papers-on-tribal-land"
+            
+            # SEO content pages
+            "https://justlegalsolutions.org/seo/eviction-notice-process-server"
+            "https://justlegalsolutions.org/seo/legal-posting-process-server"
+            "https://justlegalsolutions.org/seo/process-server-nowata"
+            "https://justlegalsolutions.org/seo/process-server-vinita"
+          )
           
-          # Ping Google and Bing sitemaps (always works, no key needed)
+          # IndexNow supports up to 10,000 URLs per batch
+          echo "Submitting ${#KEY_URLS[@]} URLs to IndexNow..."
+          
+          # Build JSON array of all URLs
+          URL_JSON=""
+          for url in "${KEY_URLS[@]}"; do
+            if [ -n "$URL_JSON" ]; then URL_JSON="$URL_JSON,"; fi
+            URL_JSON="$URL_JSON\"$url\""
+          done
+          
+          # Submit all URLs in a single batch request
+          curl -s -X POST "https://api.indexnow.org/indexnow" \
+            -H "Content-Type: application/json" \
+            -d "{\"host\":\"justlegalsolutions.org\",\"key\":\"$KEY\",\"keyLocation\":\"https://justlegalsolutions.org/$KEY.txt\",\"urlList\":[$URL_JSON]}" \
+            || echo "IndexNow batch ping failed"
+          
+          echo "IndexNow: ${#KEY_URLS[@]} URLs submitted"
+          
+          # Ping Google and Bing sitemaps
           curl -s "https://www.google.com/ping?sitemap=https://justlegalsolutions.org/sitemap.xml" || echo "Google ping failed"
           curl -s "https://www.bing.com/ping?sitemap=https://justlegalsolutions.org/sitemap.xml" || echo "Bing ping failed"
           

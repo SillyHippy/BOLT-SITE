@@ -37,7 +37,7 @@ export default function LocalPromoBanner({ zips, endDate = "January 30, 2026" }:
     "priceCurrency": "USD",
     "priceValidUntil": endDate,
     "availability": "https://schema.org/InStock",
-    "validFrom": "2025-12-20",
+    "validFrom": "2026-01-01",
     "areaServed": zips.map(zip => ({
       "@type": "Place",
       "address": {

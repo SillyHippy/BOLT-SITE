@@ -1,0 +1,49 @@
+name: Auto Year Update
+
+on:
+  schedule:
+    # Run January 1st at 6 AM UTC every year
+    - cron: '0 6 1 1 *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-year:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update schema year references
+        run: |
+          CURRENT_YEAR=$(date +%Y)
+          PREV_YEAR=$((CURRENT_YEAR - 1))
+          
+          echo "Updating schema dates from $PREV_YEAR to $CURRENT_YEAR..."
+          
+          # Update validFrom/validThrough in schema scripts (not foundingDate)
+          # Only targets validFrom/validThrough patterns, preserves historical dates
+          find scripts/ components/ -type f \( -name "*.js" -o -name "*.tsx" -o -name "*.ts" \) | while read file; do
+            if grep -q "validFrom.*$PREV_YEAR" "$file" || grep -q "validThrough.*$PREV_YEAR" "$file"; then
+              sed -i "s/\"validFrom\": \"$PREV_YEAR-/\"validFrom\": \"$CURRENT_YEAR-/g" "$file"
+              sed -i "s/\"validThrough\": \"$PREV_YEAR-/\"validThrough\": \"$CURRENT_YEAR-/g" "$file"
+              echo "Updated: $file"
+            fi
+          done
+          
+          echo "Year update complete"
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add scripts/ components/
+          if git diff --staged --quiet; then
+            echo "No year changes needed"
+          else
+            CURRENT_YEAR=$(date +%Y)
+            git commit -m "Update schema dates to $CURRENT_YEAR"
+            git push
+          fi

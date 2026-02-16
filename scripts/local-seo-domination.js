@@ -154,16 +154,16 @@ function generateLocalBusinessSchema() {
       "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
       "opens": "00:00",
       "closes": "23:59",
-      "validFrom": "2025-01-01",
-      "validThrough": "2025-12-31"
+      "validFrom": "2026-01-01",
+      "validThrough": "2026-12-31"
     },
     "specialOpeningHoursSpecification": {
       "@type": "OpeningHoursSpecification",
       "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
       "opens": "00:00",
       "closes": "23:59",
-      "validFrom": "2025-01-01",
-      "validThrough": "2025-12-31",
+      "validFrom": "2026-01-01",
+      "validThrough": "2026-12-31",
       "description": "24/7 Emergency Service Available - Licensed and bonded legal document delivery."
     },
     "areaServed": serviceAreas.map(area => ({
