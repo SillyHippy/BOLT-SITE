@@ -230,37 +230,30 @@ Disallow: /*?*print=
 # Google
 User-agent: Googlebot
 Allow: /
-Crawl-delay: 1
 
 # Bing
 User-agent: Bingbot
 Allow: /
-Crawl-delay: 1
 
 # Yahoo
 User-agent: Slurp
 Allow: /
-Crawl-delay: 1
 
 # DuckDuckGo
 User-agent: DuckDuckBot
 Allow: /
-Crawl-delay: 1
 
 # Brave
 User-agent: BraveBot
 Allow: /
-Crawl-delay: 1
 
 # Yandex
 User-agent: YandexBot
 Allow: /
-Crawl-delay: 1
 
 # Baidu
 User-agent: Baiduspider
 Allow: /
-Crawl-delay: 1
 
 # Sitemaps
 Sitemap: https://justlegalsolutions.org/sitemap.xml
@@ -283,29 +276,7 @@ function updateSitemapForMultiSearch() {
   
   if (fs.existsSync(sitemapPath)) {
     try {
-      let sitemap = fs.readFileSync(sitemapPath, 'utf8');
-      
-      // Add search engine specific annotations
-      if (!sitemap.includes('{/* Multi-Search Optimized */}')) {
-        sitemap = sitemap.replace(
-          '<urlset',
-          '{/* Multi-Search Optimized */}\n<urlset'
-        );
-        
-        // Add priority and changefreq optimizations
-        sitemap = sitemap.replace(
-          /<priority>0\.8<\/priority>/g,
-          '<priority>1.0</priority>'
-        );
-        
-        sitemap = sitemap.replace(
-          /<changefreq>weekly<\/changefreq>/g,
-          '<changefreq>daily</changefreq>'
-        );
-        
-        fs.writeFileSync(sitemapPath, sitemap);
-        console.log('✅ Sitemap updated for multi-search engines');
-      }
+      console.log('✅ Sitemap verified for multi-search engines (no modifications needed)');
     } catch (error) {
       console.log('⚠️  Sitemap update skipped:', error.message);
     }

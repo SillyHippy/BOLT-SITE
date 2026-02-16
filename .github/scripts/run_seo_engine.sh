@@ -105,7 +105,7 @@ export default function ProcessServer${city_name// /}Page() {
 }
 EOF
     current_time=$(date '+%Y-%m-%d')
-    sitemap_entry="  <url>\n    <loc>https://justlegalsolutions.org/seo/process-server-$location/</loc>\n    <lastmod>$current_time</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.8</priority>\n  </url>"
+    sitemap_entry="  <url>\n    <loc>https://justlegalsolutions.org/seo/process-server-$location</loc>\n    <lastmod>$current_time</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.8</priority>\n  </url>"
     
     sitemap_content=$(cat public/sitemap.xml | sed '$d')
     echo -e "$sitemap_content\n$sitemap_entry\n</urlset>" > public/sitemap.xml

@@ -81,6 +81,7 @@ function generateSitemap() {
     '/counties/osage-county',
     '/counties/mayes-county',
     '/counties/okmulgee-county',
+    '/counties/nowata-county',
     
     // Main Pages
     '/',
@@ -90,7 +91,6 @@ function generateSitemap() {
     '/resources',
     '/payments',
     '/why-choose-us',
-    '/backlinks',
     '/law-firm-services',
     
     // Process Server Pages - Excluding old /process-server-tulsa (redirects to main page)
@@ -101,18 +101,11 @@ function generateSitemap() {
     '/ultimate-guide-process-serving-oklahoma',
     
     // SEO Pages
-    '/service-areas/bixby',
-    '/service-areas/broken-arrow',
     '/seo/eviction-notice-process-server',
-    '/service-areas/glenpool',
-    '/service-areas/jenks',
     '/seo/legal-posting-process-server',
-    '/service-areas/owasso',
-    '/service-areas/glenpool',
-
-    '/service-areas/sand-springs',
+    '/seo/process-server-nowata',
+    '/seo/process-server-vinita',
     '/seo/what-is-a-process-server',
-    // Excluding '/seo/tulsa-process-server-comprehensive' - content consolidated into main page
     
     // Sitemap
     '/sitemap',

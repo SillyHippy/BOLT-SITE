@@ -4,25 +4,6 @@ import { useEffect } from 'react'
 
 export default function StaticSiteOptimizer() {
   useEffect(() => {
-    // Preload critical resources for better performance
-    const preloadCriticalResources = () => {
-      // Preload fonts
-      const fontLinks = [
-        'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap'
-      ]
-      
-      fontLinks.forEach(href => {
-        const link = document.createElement('link')
-        link.rel = 'preload'
-        link.as = 'style'
-        link.href = href
-        link.onload = () => {
-          link.rel = 'stylesheet'
-        }
-        document.head.appendChild(link)
-      })
-    }
-
     // Optimize images with lazy loading and proper sizing
     const optimizeImages = () => {
       const images = document.querySelectorAll('img:not([loading])')
@@ -78,7 +59,6 @@ export default function StaticSiteOptimizer() {
     }
 
     // Run optimizations
-    preloadCriticalResources()
     optimizeImages()
     prefetchCriticalPages()
     optimizeThirdPartyScripts()

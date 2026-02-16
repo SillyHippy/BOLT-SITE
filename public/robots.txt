@@ -10,47 +10,31 @@ Disallow: /*?*print=
 # Google
 User-agent: Googlebot
 Allow: /
-Crawl-delay: 1
 
 # Bing
 User-agent: Bingbot
 Allow: /
-Crawl-delay: 1
 
 # Yahoo
 User-agent: Slurp
 Allow: /
-Crawl-delay: 1
 
 # DuckDuckGo
 User-agent: DuckDuckBot
 Allow: /
-Crawl-delay: 1
 
 # Brave
 User-agent: BraveBot
 Allow: /
-Crawl-delay: 1
 
 # Yandex
 User-agent: YandexBot
 Allow: /
-Crawl-delay: 1
 
 # Baidu
 User-agent: Baiduspider
 Allow: /
-Crawl-delay: 1
 
 # Sitemaps
 Sitemap: https://justlegalsolutions.org/sitemap.xml
 Sitemap: https://justlegalsolutions.org/sitemap-images.xml
-
-# Voice Search Optimization - Sun Feb 15 16:30:05 UTC 2026
-# Optimized for Alexa, Google Assistant, Siri
-
-# AI Assistant Integration - Sun Feb 15 20:17:32 UTC 2026
-# Optimized for ChatGPT, Alexa, Google Assistant
-
-# Emerging AI Platform Ready - Sun Feb 15 20:26:27 UTC 2026
-# Future-proofed for next-gen AI systems
