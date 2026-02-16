@@ -48,7 +48,7 @@ export default function AdvancedSchemaMarkup({ pageType = 'home', serviceName }:
         <span data-schema-area="Tulsa County Oklahoma"></span>
         <span data-schema-hours="24/7 Emergency Available"></span>
         <span data-schema-rating="5.0"></span>
-        <span data-schema-reviews="50"></span>
+        <span data-schema-reviews="157"></span>
       </div>
     </div>
   );

@@ -55,8 +55,8 @@ jobs:
         if git diff --staged --quiet && git diff --quiet; then
           echo "No changes to commit - maintaining natural patterns"
         else
-          git add .
-          git commit -m "🛡️ Natural SEO update - $(date +%Y-%m-%d)" || echo "No changes to commit"
+          git add "app/(main)/seo/" "public/sitemap.xml" "seo-safe-log.json" "sitemap-natural-log.json"
+          git commit -m "Natural SEO update - $(date +%Y-%m-%d)" || echo "No changes to commit"
           git push
         fi
       env:

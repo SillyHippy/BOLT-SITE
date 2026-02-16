@@ -1,4 +1,4 @@
-name: Hourly IndexNow Push
+name: IndexNow Push on Deploy
 
 on:
   push:
@@ -14,67 +14,39 @@ jobs:
         
       - name: Notify Search Engines
         run: |
-          echo "🔔 Notifying search engines of updates..."
+          echo "Notifying search engines of updates..."
           
-          # IndexNow notification for key pages
-          KEY_URLS=(
-            # Core conversion pages
-            "https://justlegalsolutions.org/"
-            "https://justlegalsolutions.org/contact"
-            "https://justlegalsolutions.org/pricing"
-            "https://justlegalsolutions.org/services"
-            "https://justlegalsolutions.org/tulsa-process-server"
-            "https://justlegalsolutions.org/law-firm-services"
-            "https://justlegalsolutions.org/weekend-emergency"
-            "https://justlegalsolutions.org/urgent-process-server"
+          # To enable IndexNow: 
+          # 1. Go to https://www.bing.com/indexnow and generate a key
+          # 2. Add it as a GitHub secret named INDEXNOW_KEY
+          # 3. Create a file public/<key>.txt containing the key
+          # IndexNow is currently disabled until a real key is configured.
+          
+          if [ -n "${{ secrets.INDEXNOW_KEY }}" ]; then
+            KEY="${{ secrets.INDEXNOW_KEY }}"
+            KEY_URLS=(
+              "https://justlegalsolutions.org/"
+              "https://justlegalsolutions.org/contact"
+              "https://justlegalsolutions.org/tulsa-process-server"
+              "https://justlegalsolutions.org/law-firm-services"
+              "https://justlegalsolutions.org/oklahoma-process-server-pricing"
+              "https://justlegalsolutions.org/oklahoma-process-server-laws"
+              "https://justlegalsolutions.org/ultimate-guide-process-serving-oklahoma"
+            )
             
-            # High-value service areas
-            "https://justlegalsolutions.org/service-areas/broken-arrow"
-            "https://justlegalsolutions.org/service-areas/owasso"
-            "https://justlegalsolutions.org/service-areas/jenks"
-            "https://justlegalsolutions.org/service-areas/bixby"
-            "https://justlegalsolutions.org/service-areas/sand-springs"
-            "https://justlegalsolutions.org/service-areas/sapulpa"
-            "https://justlegalsolutions.org/service-areas/claremore"
-            "https://justlegalsolutions.org/service-areas/bartlesville"
-            
-            # Key guide/content pages (year-agnostic URLs)
-            "https://justlegalsolutions.org/ultimate-guide-process-serving-oklahoma"
-            "https://justlegalsolutions.org/oklahoma-process-server-faq-2026"
-            "https://justlegalsolutions.org/oklahoma-process-server-best-practices-checklist-2026"
-            "https://justlegalsolutions.org/oklahoma-process-server-laws"
-            "https://justlegalsolutions.org/process-server-tulsa-guide"
-            "https://justlegalsolutions.org/oklahoma-process-server-pricing"
-            "https://justlegalsolutions.org/oklahoma-process-serving-costs-comparison"
-            "https://justlegalsolutions.org/oklahoma-process-server-technology"
-            "https://justlegalsolutions.org/oklahoma-case-law-service-process"
-            "https://justlegalsolutions.org/oklahoma-electronic-service-guide"
-            "https://justlegalsolutions.org/oklahoma-legal-service-areas"
-            "https://justlegalsolutions.org/family-law-service-guide-tulsa"
-            "https://justlegalsolutions.org/high-profile-service-protocols-tulsa"
-            "https://justlegalsolutions.org/ai-skip-tracing-guide-oklahoma"
-            "https://justlegalsolutions.org/process-serving-mistakes-guide"
-            
-            # SEO pages (unique content only - not city duplicates)
-            "https://justlegalsolutions.org/seo/what-is-a-process-server"
-            "https://justlegalsolutions.org/seo/eviction-notice-process-server"
-            "https://justlegalsolutions.org/seo/legal-posting-process-server"
-            "https://justlegalsolutions.org/seo/process-server-nowata"
-            "https://justlegalsolutions.org/seo/process-server-vinita"
-          )
+            for url in "${KEY_URLS[@]}"; do
+              curl -s -X POST "https://api.indexnow.org/indexnow" \
+                -H "Content-Type: application/json" \
+                -d "{\"host\":\"justlegalsolutions.org\",\"key\":\"$KEY\",\"keyLocation\":\"https://justlegalsolutions.org/$KEY.txt\",\"urlList\":[\"$url\"]}" \
+                || echo "IndexNow ping failed for $url"
+            done
+            echo "IndexNow notifications sent"
+          else
+            echo "IndexNow key not configured - skipping. Add INDEXNOW_KEY secret to enable."
+          fi
           
-          for url in "${KEY_URLS[@]}"; do
-            echo "Pinging: $url"
-            curl -X POST "https://api.indexnow.org/indexnow" \
-              -H "Content-Type: application/json" \
-              -d "{\"host\":\"justlegalsolutions.org\",\"key\":\"seo-boost\",\"keyLocation\":\"https://justlegalsolutions.org/seo-boost.txt\",\"urlList\":[\"$url\"]}" \
-              || echo "IndexNow ping failed for $url"
-          done
+          # Ping Google and Bing sitemaps (always works, no key needed)
+          curl -s "https://www.google.com/ping?sitemap=https://justlegalsolutions.org/sitemap.xml" || echo "Google ping failed"
+          curl -s "https://www.bing.com/ping?sitemap=https://justlegalsolutions.org/sitemap.xml" || echo "Bing ping failed"
           
-          # Ping Google sitemap
-          curl "https://www.google.com/ping?sitemap=https://justlegalsolutions.org/sitemap.xml" || echo "Google sitemap ping failed"
-          
-          # Ping Bing sitemap  
-          curl "https://www.bing.com/ping?sitemap=https://justlegalsolutions.org/sitemap.xml" || echo "Bing sitemap ping failed"
-          
-          echo "✅ Search engine notifications completed"
+          echo "Search engine notifications completed"

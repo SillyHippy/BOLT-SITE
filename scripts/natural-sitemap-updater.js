@@ -83,7 +83,7 @@ class NaturalSitemapUpdater {
     
     newPages.forEach(page => {
       const newUrl = `  <url>
-    <loc>https://justlegalsolutions.org/seo/process-server-${page.city.toLowerCase().replace(/\s+/g, '-')}/</loc>
+    <loc>https://justlegalsolutions.org/seo/process-server-${page.city.toLowerCase().replace(/\s+/g, '-')}</loc>
     <lastmod>${currentDate}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
