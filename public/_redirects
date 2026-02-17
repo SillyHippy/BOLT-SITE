@@ -1,39 +1,54 @@
-# Cloudflare Pages redirects for SEO optimization
+# Cloudflare Pages _redirects — consolidated Feb 17 2026
+# Docs: https://developers.cloudflare.com/pages/configuration/redirects/
 
-# 2025 to 2026 Content Redirects - Fresh updated versions
+# ── 1. Year-versioned stubs (2025 → current) ────────────────
+/oklahoma-process-server-pricing-2025 /oklahoma-process-server-pricing 301
+/oklahoma-process-server-technology-2025 /oklahoma-process-server-technology 301
+/high-profile-service-protocols-tulsa-2025 /high-profile-service-protocols-tulsa 301
+/oklahoma-electronic-service-guide-2025 /oklahoma-electronic-service-guide 301
+/oklahoma-case-law-service-process-2025 /oklahoma-case-law-service-process 301
+/oklahoma-legal-service-areas-2025 /oklahoma-legal-service-areas 301
+/oklahoma-process-serving-costs-comparison-2025 /oklahoma-process-serving-costs-comparison 301
+/ai-skip-tracing-guide-oklahoma-2025 /ai-skip-tracing-guide-oklahoma 301
+/family-law-service-guide-tulsa-2025 /family-law-service-guide-tulsa 301
+/process-serving-mistakes-guide-2025 /process-serving-mistakes-guide 301
+
+# ── 2. 2025→2026 content upgrades ───────────────────────────
 /oklahoma-process-server-faq-2025 /oklahoma-process-server-faq-2026 301
 /oklahoma-process-server-best-practices-checklist-2025 /oklahoma-process-server-best-practices-checklist-2026 301
 
-# Redirect old URLs to new consolidated service area pages
-/process-server-jenks /service-areas/jenks 301
-/seo/jenks-process-server /service-areas/jenks 301
-/seo/process-server-jenks /service-areas/jenks 301
-/jenks-process-server /service-areas/jenks 301
+# ── 3. Exact-duplicate / thin merges ────────────────────────
+/oklahoma-process-server-pricing-2026 /oklahoma-process-server-pricing 301
 
-# Redirect broken URLs identified in audit
+# ── 4. Topic-cannibalizing pages ─────────────────────────────
+/competitor-analysis /why-choose-us 301
+/oklahoma-vs-texas-process-server /oklahoma-process-server-laws 301
+
+# ── 5. Duplicate city/SEO pages → service-areas ─────────────
+/seo/process-server-nowata /service-areas/nowata 301
+/seo/process-server-vinita /service-areas/vinita 301
 /seo/process-server-oakhurst/ /service-areas/tulsa 301
 /seo/oklahoma-process-server-requirements/ /oklahoma-process-server-best-practices-checklist-2026 301
 /seo/bixby-process-server/ /service-areas/bixby 301
-
-# Redirect tulsa-county to consolidated counties page
-/tulsa-county /counties/tulsa-county 301
-
-/process-server-sand-springs /service-areas/sand-springs 301
-/process-server-owasso /service-areas/owasso 301
-/process-server-glenpool /service-areas/glenpool 301
-
-# Redirect common variations
-/sand-springs-process-server /service-areas/sand-springs 301
-/owasso-process-server /service-areas/owasso 301
-
-# Redirect old /seo/ URLs to correct service-areas pages
+/seo/jenks-process-server /service-areas/jenks 301
+/seo/process-server-jenks /service-areas/jenks 301
 /seo/sand-springs-process-server /service-areas/sand-springs 301
 /seo/owasso-process-server /service-areas/owasso 301
 /seo/glenpool-process-server /service-areas/glenpool 301
 /seo/process-server-bixby /service-areas/bixby 301
 /seo/process-server-broken-arrow /service-areas/broken-arrow 301
-/seo/process-server-jenks /service-areas/jenks 301
 /seo/process-server-sand-springs /service-areas/sand-springs 301
 
-# Note: SPA fallback removed to prevent infinite loop
-# Next.js static export handles 404s via _not-found page
+# ── 6. Common URL variations → service-areas ─────────────────
+/process-server-jenks /service-areas/jenks 301
+/jenks-process-server /service-areas/jenks 301
+/process-server-sand-springs /service-areas/sand-springs 301
+/process-server-owasso /service-areas/owasso 301
+/process-server-glenpool /service-areas/glenpool 301
+/sand-springs-process-server /service-areas/sand-springs 301
+/owasso-process-server /service-areas/owasso 301
+/tulsa-county /counties/tulsa-county 301
+
+# ── 7. App-level redirects (server-side for speed) ──────────
+/faq /ultimate-guide-process-serving-oklahoma 301
+/services /pricing 301

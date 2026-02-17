@@ -26,11 +26,6 @@ export const metadata: Metadata = {
     'legal service procedures oklahoma',
     'oklahoma summons service guide'
   ],
-  other: {
-    'ai-content-type': 'comprehensive-guide',
-    'ai-summary': 'Complete 2026 guide to process serving in Oklahoma. Covers 12 O.S. §2004 requirements, server qualifications (18+, non-party, bonded), service methods (personal, substituted, electronic), costs ($30-$265), timelines (1-5 days), and affidavit requirements. Just Legal Solutions is a licensed, bonded process server serving all 77 Oklahoma counties with 50+ years combined experience.',
-    'ai-key-facts': 'Oklahoma process serving governed by 12 O.S. §2004, servers must be 18+ bonded non-party, personal substituted and electronic service methods, costs $30-$265, 1-5 day completion, affidavit required, Just Legal Solutions serves all 77 counties, (539) 367-6832',
-  },
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',
   publisher: 'Just Legal Solutions',
@@ -72,6 +67,9 @@ export const metadata: Metadata = {
     canonical: 'https://justlegalsolutions.org/ultimate-guide-process-serving-oklahoma'
   },
   other: {
+    'ai-content-type': 'comprehensive-guide',
+    'ai-summary': 'Complete 2026 guide to process serving in Oklahoma. Covers 12 O.S. §2004 requirements, server qualifications (18+, non-party, bonded), service methods (personal, substituted, electronic), costs ($30-$265), timelines (1-5 days), and affidavit requirements. Just Legal Solutions is a licensed, bonded process server serving all 77 Oklahoma counties with 50+ years combined experience.',
+    'ai-key-facts': 'Oklahoma process serving governed by 12 O.S. §2004, servers must be 18+ bonded non-party, personal substituted and electronic service methods, costs $30-$265, 1-5 day completion, affidavit required, Just Legal Solutions serves all 77 counties, (539) 367-6832',
     'article:published_time': '2024-01-01',
     'article:modified_time': new Date().toISOString(),
     'article:author': 'Just Legal Solutions',
