@@ -1,4 +1,3 @@
-
 import { Metadata } from 'next';
 import Link from 'next/link';
 import Script from 'next/script';
@@ -142,15 +141,14 @@ export default function OklahomaProcessServerLaws() {
 
               <h3 className="text-xl font-bold text-slate-900 mt-6 mb-3">1. Personal Delivery</h3>
               <p>
-                This is the gold standard. The server hands the Summons and Petition directly to the defendant. The defendant does not need to "accept" or touch the papers; if they refuse them, the server may leave them in their immediate proximity after identifying the nature of the documents.
+                This is the gold standard. The server hands the Summons and Petition directly to the defendant. The defendant does not need to &quot;accept&quot; or touch the papers; if they refuse them, the server may leave them in their immediate proximity after identifying the nature of the documents.
               </p>
-              {/*  */}
 
               <h3 className="text-xl font-bold text-slate-900 mt-6 mb-3">2. Substituted Service (At the Dwelling)</h3>
               <p>
-                If the defendant is not home, Oklahoma law allows "substituted service." This is frequently misunderstood. <strong>You do not need a court order</strong> to use this method if the criteria are met.
+                If the defendant is not home, Oklahoma law allows &quot;substituted service.&quot; This is frequently misunderstood. <strong>You do not need a court order</strong> to use this method if the criteria are met.
               </p>
-              <p>Service is valid if copies are left at the defendant's <strong>dwelling house or usual place of abode</strong> with a person who:</p>
+              <p>Service is valid if copies are left at the defendant&apos;s <strong>dwelling house or usual place of abode</strong> with a person who:</p>
               <ul className="list-disc pl-6 space-y-2 mb-4">
                 <li>Resides therein (lives at the house), AND</li>
                 <li>Is <strong>15 years of age or older</strong>.</li>
@@ -159,9 +157,9 @@ export default function OklahomaProcessServerLaws() {
               <div className="bg-red-50 border-l-4 border-red-500 p-4 my-6">
                 <h4 className="font-bold text-red-700 text-sm uppercase mb-2">Common Misconceptions</h4>
                 <ul className="list-disc pl-5 space-y-1 text-sm text-red-900">
-                  <li><strong>Myth:</strong> You must try 3 times before using substituted service.<br/><strong>Fact:</strong> 12 O.S. § 2004 does not impose a "three attempt" requirement for leaving papers with a resident at the dwelling.</li>
+                  <li><strong>Myth:</strong> You must try 3 times before using substituted service.<br/><strong>Fact:</strong> 12 O.S. § 2004 does not impose a &quot;three attempt&quot; requirement for leaving papers with a resident at the dwelling.</li>
                   <li><strong>Myth:</strong> The resident must be 18.<br/><strong>Fact:</strong> The statute explicitly sets the age at <strong>15 years or older</strong>.</li>
-                  <li><strong>Myth:</strong> You must mail a copy after leaving it with a resident.<br/><strong>Fact:</strong> While some states require this, Oklahoma's general statute for residence service does <em>not</em> automatically require a follow-up mailing.</li>
+                  <li><strong>Myth:</strong> You must mail a copy after leaving it with a resident.<br/><strong>Fact:</strong> While some states require this, Oklahoma&apos;s general statute for residence service does <em>not</em> automatically require a follow-up mailing.</li>
                 </ul>
               </div>
 
@@ -170,14 +168,14 @@ export default function OklahomaProcessServerLaws() {
                 Service by mail is permitted for certain defendants. It generally requires <strong>Certified Mail, Return Receipt Requested</strong>.
               </p>
               <ul className="list-disc pl-6 space-y-2 mb-6">
-                <li>The return receipt ("green card") must be signed.</li>
+                <li>The return receipt (&quot;green card&quot;) must be signed.</li>
                 <li>Acceptance by a person residing at the address who is 15+ usually constitutes valid service.</li>
                 <li>Under <strong>12 O.S. § 2004.3</strong>, authorized commercial couriers (like FedEx or UPS) may be used in lieu of certified mail if they generate a signed receipt.</li>
               </ul>
 
               <h2 className="text-2xl font-bold text-slate-900 mb-4">Service on Entities (LLCs & Corporations)</h2>
               <p>
-                You cannot generally "sub-serve" an entity by leaving papers with a random employee. Service must be made on:
+                You cannot generally &quot;sub-serve&quot; an entity by leaving papers with a random employee. Service must be made on:
               </p>
               <ul className="list-disc pl-6 space-y-2 mb-6">
                 <li>An officer, director, or managing agent of the company.</li>
@@ -190,22 +188,22 @@ export default function OklahomaProcessServerLaws() {
                 Service is not open-ended. Under <strong>12 O.S. § 2004(I)</strong>, service of the summons and petition must be made within <strong>180 days</strong> after the filing of the petition.
               </p>
               <p>
-                If service is not made within this window, the court may dismiss the action without prejudice (meaning it can be refiled, but filing fees and time are lost) unless the plaintiff can show "good cause" for the delay.
+                If service is not made within this window, the court may dismiss the action without prejudice (meaning it can be refiled, but filing fees and time are lost) unless the plaintiff can show &quot;good cause&quot; for the delay.
               </p>
 
               <h2 className="text-2xl font-bold text-slate-900 mb-4">Proof of Service</h2>
               <p>
-                The job isn't done until the "Return of Service" or affidavit is filed.
+                The job isn&apos;t done until the &quot;Return of Service&quot; or affidavit is filed.
               </p>
               <ul className="list-disc pl-6 space-y-2 mb-6">
                 <li><strong>For Personal/Substituted Service:</strong> The server files an affidavit stating the name of the person served, the date, the place, and the method of service.</li>
-                <li><strong>For Certified Mail:</strong> The return must include the sender's receipt and the signed return receipt (green card).</li>
+                <li><strong>For Certified Mail:</strong> The return must include the sender&apos;s receipt and the signed return receipt (green card).</li>
               </ul>
 
               <div className="mt-12 p-8 bg-slate-50 rounded-xl border border-slate-200">
                 <h3 className="text-xl font-bold text-slate-900 mb-2">Need a Licensed Oklahoma Process Server?</h3>
                 <p className="mb-6">
-                  At <strong>Just Legal Solutions</strong>, we understand the nuances of Title 12. We ensure every serve is performed legally, whether it's personal delivery or substituted service on a co-resident, so your case moves forward without procedural hiccups.
+                  At <strong>Just Legal Solutions</strong>, we understand the nuances of Title 12. We ensure every serve is performed legally, whether it&apos;s personal delivery or substituted service on a co-resident, so your case moves forward without procedural hiccups.
                 </p>
                 <div className="flex gap-4">
                   <Link href="/contact" className="inline-block bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg hover:bg-blue-700 transition">
