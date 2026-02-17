@@ -43,7 +43,10 @@ const articleSchema = {
   "headline": "Oklahoma Process Server Best Practices Checklist 2026",
   "description": "Complete 2026 Oklahoma process server checklist covering 12 O.S. §12-2004 requirements, Tulsa County protocols, and professional standards.",
   "image": [
-    "https://justlegalsolutions.org/images/oklahoma-licensed-bonded-process-server-badges.png"
+    "https://justlegalsolutions.org/images/oklahoma-licensed-bonded-process-server-badges.png",
+    "https://justlegalsolutions.org/images/jls-logo.webp",
+    "https://justlegalsolutions.org/images/process-server-tulsa.webp",
+    "https://justlegalsolutions.org/images/oklahoma-process-server.webp"
   ],
   "author": {
     "@type": "Organization",
@@ -78,6 +81,16 @@ const howToSchema = {
     "maxValue": "200.00"
   },
   "totalTime": "PT1H",
+  "supply": [
+    { "@type": "HowToSupply", "name": "Legal documents to serve" },
+    { "@type": "HowToSupply", "name": "Process server license and bonding" },
+    { "@type": "HowToSupply", "name": "GPS tracking device" },
+    { "@type": "HowToSupply", "name": "Digital camera for documentation" }
+  ],
+  "tool": [
+    { "@type": "HowToTool", "name": "Process serving software" },
+    { "@type": "HowToTool", "name": "Skip tracing databases" }
+  ],
   "step": [
     {
       "@type": "HowToStep",
@@ -396,6 +409,31 @@ const checklistSections = [
         ]
       }
     ]
+  },
+  {
+    id: 'resources',
+    number: 10,
+    title: 'Downloadable Resources',
+    icon: FileText,
+    color: 'gray',
+    description: 'Templates, logs, and flowcharts for your practice',
+    items: [
+      {
+        type: 'checklist',
+        title: 'Available Downloads',
+        items: [
+          'PDF: Affidavit Template 2026 — pre-formatted for Oklahoma courts',
+          'Excel: Attempt Log Sheet — GPS, timestamp, and photo hash fields included',
+          'Flowchart: Alternative Service Approval Path — step-by-step court petition guide',
+          'Checklist: Pre-Service Packet Assembly — color-coded folder system'
+        ]
+      },
+      {
+        type: 'alert',
+        title: 'Custom SOP Integration',
+        message: 'Need these templates customized for your law firm or process serving company? Contact Just Legal Solutions for a tailored SOP package that integrates with your existing workflow.'
+      }
+    ]
   }
 ];
 
@@ -460,7 +498,7 @@ export default function OklahomaProcessServerBestPracticesChecklist2026() {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl mx-auto mb-8">
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 text-center">
                 <div className="text-3xl font-bold text-white">10</div>
-                <div className="text-sm text-purple-200">Key Sections</div>
+                <div className="text-sm text-purple-200">Sections + Downloads</div>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 text-center">
                 <div className="text-3xl font-bold text-white">50+</div>

@@ -271,6 +271,32 @@ export default function ContactPage() {
           <section className="max-w-3xl mx-auto bg-blue-50 rounded-lg shadow-md p-4 mb-8 border border-blue-100">
             <p className="text-sm text-gray-700">While you wait, explore our <Link href="/resources" className="text-blue-600 hover:underline font-medium">legal resources and guides</Link> for helpful information about process serving, Oklahoma laws, and how to prepare your documents.</p>
           </section>
+
+          {/* Office Information & Hours */}
+          <section className="max-w-3xl mx-auto bg-white rounded-xl shadow-lg p-8 mb-8 border border-gray-100">
+            <h2 className="text-2xl font-bold mb-4 text-blue-900">Office Location &amp; Business Hours</h2>
+            <div className="grid sm:grid-cols-2 gap-6">
+              <div>
+                <h3 className="font-semibold text-lg text-gray-800 mb-2">Our Address</h3>
+                <p className="text-gray-700 mb-1">564 E 138th PL</p>
+                <p className="text-gray-700 mb-1">Glenpool, OK 74033</p>
+                <p className="text-gray-600 text-sm mt-2">Serving all of Tulsa County and the surrounding Oklahoma metro area, including Broken Arrow, Bixby, Jenks, Owasso, and Sand Springs.</p>
+              </div>
+              <div>
+                <h3 className="font-semibold text-lg text-gray-800 mb-2">Hours of Operation</h3>
+                <div className="space-y-1 text-gray-700 text-sm">
+                  <p><span className="font-medium">Standard Service:</span> Monday&ndash;Friday, 8:00 AM&ndash;6:00 PM</p>
+                  <p><span className="font-medium">Phone &amp; Email:</span> Monday&ndash;Saturday, 7:00 AM&ndash;9:00 PM</p>
+                  <p><span className="font-medium">Emergency Service:</span> Available 24/7, including weekends and holidays</p>
+                </div>
+                <p className="text-gray-600 text-sm mt-3">For after-hours emergencies involving time-sensitive court filings or protective orders, call (539) 367-6832 directly. Our team monitors calls around the clock to ensure urgent legal documents are served without delay.</p>
+              </div>
+            </div>
+            <div className="mt-4 pt-4 border-t border-gray-100">
+              <h3 className="font-semibold text-lg text-gray-800 mb-2">How to Submit Documents</h3>
+              <p className="text-gray-700 text-sm">You can submit documents for service by email at info@justlegalsolutions.org or through our secure online portal. We accept PDF, DOCX, and physical copies. Once received, our team will confirm receipt and provide an estimated service timeline, typically within one business hour during standard hours.</p>
+            </div>
+          </section>
           {/* Accessibility Statement */}
           <section className="max-w-3xl mx-auto bg-gray-50 rounded-lg shadow-md p-4 mb-8 border border-gray-200">
             <p className="text-xs text-gray-600">We are committed to accessibility. If you have trouble using this site or need assistance, please <a href="mailto:info@justlegalsolutions.org" className="text-blue-600 hover:underline">contact us</a> and we will help promptly.</p>

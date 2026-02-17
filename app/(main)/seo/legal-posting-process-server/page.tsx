@@ -139,6 +139,35 @@ export default function LegalPostingProcessServer() {
                 ))}
               </div>
             </section>
+            <section className="mb-12">
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">Oklahoma Posting & Mailing Statutes</h2>
+              <p className="text-lg text-gray-700 mb-4">
+                Under Oklahoma law (12 O.S. &sect; 2004), service by posting is permitted when a plaintiff demonstrates to the court that personal service and substituted service have been unsuccessful. The court must approve alternative service after reviewing an affidavit that documents at least three diligent attempts to locate and serve the defendant. This requirement protects defendants&apos; due process rights while giving plaintiffs a path forward when personal service is genuinely impossible.
+              </p>
+              <p className="text-lg text-gray-700 mb-4">
+                In Tulsa County, judges typically require photographic evidence of the posted notice alongside certified mail tracking numbers before accepting an affidavit of service by posting. A professional process server familiar with local courthouse expectations can ensure your posting meets every requirement the first time, avoiding costly delays or case dismissals.
+              </p>
+              <h3 className="text-2xl font-bold text-gray-800 mt-8 mb-4">Common Cases Requiring Legal Notice Posting</h3>
+              <div className="grid md:grid-cols-2 gap-4 mb-8">
+                <div className="bg-white border border-gray-200 p-4 rounded-lg">
+                  <h4 className="font-bold text-lg text-gray-900 mb-2">Eviction &amp; Forcible Entry</h4>
+                  <p className="text-gray-700">When a tenant cannot be personally located, landlords must post the eviction notice on the property and mail a copy. Oklahoma&apos;s Residential Landlord Tenant Act (41 O.S. &sect; 131) sets specific timelines that must be followed.</p>
+                </div>
+                <div className="bg-white border border-gray-200 p-4 rounded-lg">
+                  <h4 className="font-bold text-lg text-gray-900 mb-2">Foreclosure Proceedings</h4>
+                  <p className="text-gray-700">Mortgage lenders often require posting when the property owner has vacated the premises. Posting ensures the legal notice is visible at the property while certified mail provides a second method of notification.</p>
+                </div>
+                <div className="bg-white border border-gray-200 p-4 rounded-lg">
+                  <h4 className="font-bold text-lg text-gray-900 mb-2">Quiet Title Actions</h4>
+                  <p className="text-gray-700">When property ownership is disputed and a party cannot be located, courts may authorize posting to establish proper notice. This is common in estate settlements and tax lien cases.</p>
+                </div>
+                <div className="bg-white border border-gray-200 p-4 rounded-lg">
+                  <h4 className="font-bold text-lg text-gray-900 mb-2">Divorce &amp; Family Law</h4>
+                  <p className="text-gray-700">When a spouse cannot be found after diligent search, posting may be authorized to allow divorce proceedings to continue. The court reviews skip tracing efforts before approval.</p>
+                </div>
+              </div>
+            </section>
+
             <section className="bg-white py-16">
               <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Frequently Asked Questions</h2>
               <div className="space-y-8">
@@ -151,12 +180,14 @@ export default function LegalPostingProcessServer() {
               </div>
             </section>
             <section className="bg-indigo-50 p-8 rounded-lg shadow-md mb-12">
-              <h3 className="text-2xl font-bold text-indigo-800 mb-6">Related Services & Internal Links</h3>
-              <ul className="list-disc list-inside text-indigo-700">
-                <li><a href="/seo/eviction-notice-process-server" className="underline">Eviction Notice Service</a></li>
+              <h3 className="text-2xl font-bold text-indigo-800 mb-6">Related Services</h3>
+              <ul className="list-disc list-inside text-indigo-700 space-y-2">
+                <li><a href="/seo/eviction-notice-process-server" className="underline">Eviction Notice Process Server</a> &mdash; Same-day eviction notice delivery in Tulsa County</li>
+                <li><a href="/oklahoma-process-server-laws" className="underline">Oklahoma Process Server Laws</a> &mdash; Complete guide to 12 O.S. &sect; 2004 service requirements</li>
                 <li><a href="/service-areas/broken-arrow" className="underline">Broken Arrow Process Server</a></li>
                 <li><a href="/service-areas/glenpool" className="underline">Glenpool Process Server</a></li>
                 <li><a href="/service-areas/owasso" className="underline">Owasso Process Server</a></li>
+                <li><a href="/pricing" className="underline">Posting &amp; Mailing Service Pricing</a> &mdash; Transparent flat-rate pricing for legal posting</li>
               </ul>
             </section>
           </div>

@@ -97,6 +97,9 @@ const ResourcesPage = () => {
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Legal Resources & Guides</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">Your expert source for navigating the complexities of process serving in Oklahoma.</p>
+          <p className="text-lg text-gray-500 max-w-3xl mx-auto mt-4">
+            Whether you are an attorney preparing to file a lawsuit, a landlord serving an eviction notice, or an individual who needs divorce papers delivered properly, understanding Oklahoma&apos;s process serving rules is essential. Our resource library covers everything from the basics of what a process server does to advanced topics like electronic service requirements, skip tracing technology, and county-specific courthouse procedures. Each guide is written by our licensed process serving team and updated regularly to reflect the latest Oklahoma statutes and court rules.
+          </p>
         </div>
 
         <div className="space-y-16">
@@ -121,13 +124,14 @@ const ResourcesPage = () => {
             </div>
           ))}
         </div>
-      {/* Invisible authoritative legal resource links for SEO trust */}
-      <div style={{display:'none'}}>
-        <a href="https://www.oscn.net/" rel="nofollow noopener">Oklahoma State Courts Network</a>
-        <a href="https://www.okbar.org/" rel="nofollow noopener">Oklahoma Bar Association</a>
-        <a href="https://www.legalaidok.org/" rel="nofollow noopener">Oklahoma Legal Aid Services</a>
-        <a href="https://www.tulsacounty.org/" rel="nofollow noopener">Tulsa County Court Services</a>
-        <a href="https://www.oklahoma.gov/" rel="nofollow noopener">Oklahoma.gov - Legal Resources</a>
+      {/* CTA Section */}
+      <div className="mt-16 bg-blue-900 text-white rounded-xl p-8 text-center">
+        <h2 className="text-2xl font-bold mb-4">Need Help With Your Legal Documents?</h2>
+        <p className="text-blue-100 max-w-2xl mx-auto mb-6">Our licensed and bonded process servers are ready to handle your service of process throughout Oklahoma. From routine civil filings in Tulsa County to emergency statewide service, we deliver court-admissible proof of service with every job. Call us today for a free consultation and same-day service options.</p>
+        <div className="flex flex-wrap justify-center gap-4">
+          <Link href="/contact" className="bg-white text-blue-900 px-6 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors">Get a Free Quote</Link>
+          <a href="tel:5393676832" className="bg-blue-700 text-white px-6 py-3 rounded-lg font-bold hover:bg-blue-600 transition-colors">Call (539) 367-6832</a>
+        </div>
       </div>
       </div>
       <UnifiedSchema

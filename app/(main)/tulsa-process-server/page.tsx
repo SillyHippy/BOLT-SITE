@@ -27,6 +27,11 @@ export const metadata: Metadata = {
   title: 'Tulsa Process Server - Comprehensive Legal Document Service | Just Legal Solutions',
   description: 'Premier process server in Tulsa, Oklahoma - serving Tulsa County with same-day legal document delivery. Licensed, bonded & insured. Serving downtown Tulsa, Midtown, Brookside, and all surrounding areas. 24/7 emergency service available.',
   keywords: 'process server tulsa, tulsa process server, legal document service tulsa, serve papers tulsa, court documents tulsa, subpoena service tulsa, eviction notice tulsa, emergency process server tulsa, 24/7 process server oklahoma, licensed process server tulsa county, comprehensive process server tulsa, tulsa county legal services, certified process server tulsa, professional process server tulsa',
+  other: {
+    'ai-content-type': 'location-service',
+    'ai-summary': 'Just Legal Solutions is a licensed, bonded process server based in the Tulsa metro area serving Tulsa County and all of Oklahoma. Same-day and 2-hour emergency service available. Covers downtown Tulsa, Midtown, Brookside, Broken Arrow, Bixby, Jenks, Owasso, and surrounding areas. Process serving starts at $30. 50+ years combined experience. Available 24/7.',
+    'ai-key-facts': 'Tulsa process server, licensed bonded insured, same-day and 2-hour emergency, serves all Tulsa County cities, pricing from $30, 50+ years experience, 24/7 availability, (539) 367-6832',
+  },
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',
   publisher: 'Just Legal Solutions',

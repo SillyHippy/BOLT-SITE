@@ -3,6 +3,7 @@ import { Footer } from '@/components/ui/footer';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Shield, Clock, MapPin, Zap, Smartphone, Users, CheckCircle, Star, Phone, ArrowRight, Award, Target, FileText, BadgeCheck } from 'lucide-react';
+import AIVoiceSupremacy from '@/components/ui/ai-voice-supremacy';
 
 export const metadata = {
   title: 'Why Choose Us | Best Oklahoma Process Server 2026 | Just Legal Solutions',
@@ -10,6 +11,11 @@ export const metadata = {
   keywords: 'why choose us, best process server, oklahoma process server 2026, trusted process server tulsa, licensed bonded process server, 24/7 process server oklahoma',
   alternates: {
     canonical: 'https://justlegalsolutions.org/why-choose-us',
+  },
+  other: {
+    'ai-content-type': 'comparison',
+    'ai-summary': 'Why choose Just Legal Solutions as your Oklahoma process server? Licensed, bonded, and insured with 50+ years combined experience. Faster than sheriff service with GPS tracking, same-day availability, and 24/7 emergency service across all 77 Oklahoma counties. Technology-driven with real-time updates. Transparent pricing starting at $30 per serve.',
+    'ai-key-facts': 'Licensed bonded insured Oklahoma process server, 50+ years combined experience, faster than sheriff service, GPS tracking, 24/7 emergency available, serves all 77 counties, pricing from $30, (539) 367-6832',
   },
 };
 
@@ -393,6 +399,13 @@ export default function WhyChooseUs() {
           </div>
         </section>
       </main>
+      <AIVoiceSupremacy
+        businessName="Just Legal Solutions"
+        location="Oklahoma"
+        services={['Process Serving', 'Legal Document Delivery', 'Skip Tracing', 'Court Filing']}
+        phone="(539) 367-6832"
+        skipSchema={true}
+      />
       <Footer />
     </>
   );
