@@ -45,10 +45,10 @@ export const metadata: Metadata = {
   other: {
     'article:author': 'Just Legal Solutions Team',
     'article:published_time': '2026-01-01',
-    'article:modified_time': '2026-01-05',
+    'article:modified_time': '2026-02-17',
     'ai-content-type': 'faq',
-    'ai-summary': 'Oklahoma process server FAQ for 2026: Process serving costs $30-$265 in Oklahoma depending on complexity. Servers must be 18+, licensed, bonded, and non-party. Service hours are 6 AM–10 PM. Electronic service is allowed with consent. Average completion is 1-5 business days. Just Legal Solutions serves all 77 Oklahoma counties with 50+ years combined experience.',
-    'ai-key-facts': 'Process serving costs $30-$265 in Oklahoma, must be 18+ and bonded, service hours 6AM-10PM, electronic service allowed with consent, 1-5 business day completion, Just Legal Solutions licensed statewide, (539) 367-6832',
+    'ai-summary': 'Oklahoma process server FAQ for 2026: Process serving costs $30-$265 in Oklahoma depending on complexity. Servers must be 18+, licensed, and bonded ($5,000). Service includes personal delivery or substituted service on residents 15+. Just Legal Solutions serves all 77 Oklahoma counties.',
+    'ai-key-facts': 'Process serving costs $30-$265 in Oklahoma, must be 18+ and posted $5,000 bond, substituted service requires resident 15+, 1-5 business day completion, Just Legal Solutions licensed statewide, (539) 367-6832',
   },
 };
 
@@ -61,7 +61,7 @@ const faqSchema = {
       "name": "What is a process server in Oklahoma?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A process server in Oklahoma is a licensed professional who delivers legal documents to parties involved in court cases, ensuring proper notification according to Oklahoma statutes and constitutional due process requirements. Process servers must be at least 18 years old, not be a party to the case, and comply with all state licensing and bonding requirements."
+        "text": "A process server in Oklahoma is a professional licensed under 12 O.S. § 158.1 who delivers legal documents. They must be at least 18 years old, of good moral character, a resident of Oklahoma, and have posted the required $5,000 bond."
       }
     },
     {
@@ -69,7 +69,7 @@ const faqSchema = {
       "name": "How much does process serving cost in Oklahoma in 2026?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Oklahoma process serving costs in 2026 range from $85-$125 for standard service, $150-$200 for rush service, and $75/hour for stakeout services. Additional attempts cost $25 each, and skip tracing ranges from $50-$150. Volume discounts are available for law firms with multiple monthly serves."
+        "text": "Oklahoma process serving costs in 2026 range from $85-$125 for standard service, $150-$200 for rush service, and $75/hour for stakeout services. These are business estimates; statutory fees for sheriffs differ."
       }
     },
     {
@@ -77,7 +77,7 @@ const faqSchema = {
       "name": "How long does process serving take in Oklahoma?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Standard process serving in Oklahoma typically takes 5-7 business days. Rush service can be completed same-day or next-day for an additional fee. Difficult serves may take longer and require additional attempts or skip tracing services."
+        "text": "Standard process serving in Oklahoma typically takes 5-7 business days. While law does not mandate a specific number of attempts, reputable companies like Just Legal Solutions typically include multiple attempts as a best practice."
       }
     },
     {
@@ -85,7 +85,7 @@ const faqSchema = {
       "name": "What documents can Oklahoma process servers deliver?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Oklahoma process servers can deliver summons and complaints, subpoenas, divorce papers, protective orders, eviction notices, garnishment papers, and other legal documents requiring formal service. Each document type has specific service requirements under Oklahoma law."
+        "text": "Oklahoma process servers can deliver summons and complaints, subpoenas, divorce papers, protective orders, eviction notices, garnishment papers, and other legal documents requiring formal service under 12 O.S. § 2004."
       }
     },
     {
@@ -93,7 +93,7 @@ const faqSchema = {
       "name": "Are Oklahoma process servers licensed and bonded?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, professional process servers in Oklahoma must be licensed and bonded. Just Legal Solutions maintains all required licenses, bonds, and insurance to ensure complete protection for our clients and compliance with Oklahoma regulations."
+        "text": "Yes. Under 12 O.S. § 158.1, private process servers must hold a state license issued by a judge and post a $5,000 bond to ensure faithful performance of their duties."
       }
     },
     {
@@ -101,7 +101,7 @@ const faqSchema = {
       "name": "Do I need a licensed Oklahoma process server or can anyone serve papers?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "While Oklahoma law allows any person over 18 who is not a party to the case to serve papers, using a licensed professional process server ensures proper documentation, court-compliant affidavits, and higher success rates. Professional servers are trained in Oklahoma service laws and provide GPS-verified proof of service."
+        "text": "While 12 O.S. § 2004 allows service by a sheriff or a person licensed to serve process in civil cases, using a licensed professional ensures the affidavit of service is properly executed and filed."
       }
     },
     {
@@ -109,15 +109,15 @@ const faqSchema = {
       "name": "How does electronic service work in Oklahoma?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Electronic service in Oklahoma is available with written consent from the defendant and court approval. It requires certified email delivery with read receipts, OSCN e-filing, and backup personal service if electronic delivery fails. See Oklahoma Rules of Civil Procedure and local court orders for specific requirements."
+        "text": "Electronic service of process (initial documents) is generally not a primary method without a court order under 12 O.S. § 2004(D) for alternative service, or unless specific consent is established."
       }
     },
     {
       "@type": "Question",
-      "name": "What are the 2026 rules for rush and emergency process service in Oklahoma?",
+      "name": "What are the 2026 rules for substituted service in Oklahoma?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Rush and emergency process service in Oklahoma for 2026 follows the same statutory requirements as standard service but with expedited timelines. Same-day service is available for urgent matters, and weekend/holiday service can be arranged. Emergency court orders may permit service outside normal hours (6 AM - 10 PM)."
+        "text": "Substituted service may be made at the defendant's dwelling house or usual place of abode with some person residing therein who is at least 15 years of age, per 12 O.S. § 2004(C)(1)(c)(i)."
       }
     }
   ]
@@ -172,24 +172,23 @@ const faqCategories = [
     faqs: [
       {
         question: "What is a process server in Oklahoma?",
-        answer: "A process server in Oklahoma is a licensed professional who delivers legal documents to parties involved in court cases, ensuring proper notification according to Oklahoma statutes and constitutional due process requirements.",
+        answer: "A process server in Oklahoma is a licensed professional authorized to deliver legal documents. Under 12 O.S. § 158.1, servers must meet specific statutory criteria to ensure due process is upheld.",
         details: [
           "Must be at least 18 years old",
-          "Cannot be a party to the case being served",
-          "Must comply with Oklahoma licensing requirements",
-          "Must maintain proper bonding and insurance",
-          "Must follow all constitutional due process protections"
+          "Must be of good moral character",
+          "Must be a resident of the State of Oklahoma",
+          "Must post a $5,000 bond",
+          "Must hold a valid license issued by a District Judge"
         ]
       },
       {
         question: "Why do I need a professional process server?",
-        answer: "Professional process servers ensure legal documents are delivered correctly and provide court-admissible proof of service, protecting your case from dismissal due to improper service.",
+        answer: "Professional process servers ensure legal documents are delivered correctly according to 12 O.S. § 2004, protecting your case from dismissal due to improper service.",
         details: [
-          "Court-compliant documentation and affidavits",
-          "GPS-verified service with timestamps",
-          "Expert knowledge of Oklahoma service laws",
-          "Higher first-attempt success rates",
-          "Professional handling of difficult serves"
+          "Court-compliant Return of Service affidavits",
+          "Knowledge of specific service rules (e.g., age requirements for substituted service)",
+          "Professional handling of difficult defendants",
+          "Third-party neutrality (cannot be a party to the case)"
         ]
       }
     ]
@@ -197,13 +196,13 @@ const faqCategories = [
   {
     id: 'pricing',
     title: 'Pricing & Costs',
-    intro: 'Oklahoma process server rates in 2026 for Tulsa and statewide service. Exact quotes are provided upfront in writing before dispatch.',
+    intro: 'Oklahoma process server rates in 2026. Note: These are business estimates for Just Legal Solutions; statutory sheriff fees may differ.',
     icon: DollarSign,
     color: 'green',
     faqs: [
       {
         question: "How much does process serving cost in Oklahoma in 2026?",
-        answer: "Oklahoma process serving costs vary based on service type, urgency, and complexity:",
+        answer: "Private process serving costs vary based on urgency and complexity:",
         table: {
           headers: ["Service Type", "Price Range", "Timeframe"],
           rows: [
@@ -216,8 +215,8 @@ const faqCategories = [
         },
         details: [
           "Volume discounts available for law firms",
-          "No hidden fees or surprise charges",
-          "Free consultations for complex serves"
+          "Clear upfront quoting",
+          "Consultations for complex service requirements"
         ]
       }
     ]
@@ -230,14 +229,13 @@ const faqCategories = [
     faqs: [
       {
         question: "How long does process serving take in Oklahoma?",
-        answer: "Service timeframes depend on the type of service requested and the complexity of locating the defendant:",
+        answer: "Service timeframes depend on the type of service requested. While Oklahoma law does not mandate a specific minimum number of attempts, professional standards typically involve multiple efforts:",
         details: [
-          "Standard Service: 5-7 business days with 3 attempts",
+          "Standard Service: 5-7 business days (multiple attempts as per business practice)",
           "Rush Service: Same-day or next-day completion",
-          "Difficult Serves: 10-14 days with additional attempts",
-          "Skip Tracing Required: 2-4 weeks depending on complexity"
+          "Difficult Serves: May require alternative strategies or stakeouts"
         ],
-        note: "Factors affecting timing: Address accuracy, defendant availability, geographic location, and case complexity."
+        note: "Statutory deadlines for service (e.g., 180 days for summons) are governed by 12 O.S. § 2004(I)."
       }
     ]
   },
@@ -260,7 +258,7 @@ const faqCategories = [
             items: ["Contract disputes", "Collections notices", "Cease and desist orders", "Corporate service of process", "Bankruptcy papers", "Administrative proceedings"]
           }
         ],
-        note: "Each document type has specific service requirements under Oklahoma law. Professional servers ensure compliance with all applicable statutes."
+        note: "Professional servers ensure compliance with 12 O.S. § 2004 regarding the manner of service for each document type."
       }
     ]
   },
@@ -272,13 +270,13 @@ const faqCategories = [
     faqs: [
       {
         question: "What are Oklahoma's process serving laws?",
-        answer: "Oklahoma process serving is governed by Title 12 of Oklahoma Statutes and must comply with federal constitutional requirements:",
+        answer: "Oklahoma process serving is governed by Title 12 of Oklahoma Statutes. Key provisions include:",
         details: [
-          "Personal Service (12 O.S. § 2004(A)): Direct delivery to the defendant personally",
-          "Substituted Service (12 O.S. § 2004(C)): Service on competent household member or business agent",
-          "Service by Publication (12 O.S. § 2004(E)): Used when defendant cannot be located after diligent search",
-          "Electronic Service (12 O.S. § 12-158.1): Available with written consent from defendant",
-          "Alternative Service (12 O.S. § 2004(D)): Court-ordered alternative methods when traditional service fails"
+          "Personal Service (12 O.S. § 2004(C)(1)(c)(i)): Direct delivery to the defendant personally.",
+          "Substituted Service (12 O.S. § 2004(C)(1)(c)(i)): Service at the dwelling with a resident at least 15 years of age.",
+          "Service by Publication (12 O.S. § 2004(C)(4)): Used when defendant cannot be located after diligent search.",
+          "Certified Mail (12 O.S. § 2004(C)(2)(c)): Service by mail with return receipt requested.",
+          "Court-Ordered Alternative Service (12 O.S. § 2004(D)): Methods ordered by the court when other means fail."
         ],
         link: { text: "Read our complete Oklahoma Process Server Laws Guide", href: "/oklahoma-process-server-laws" }
       }
@@ -292,29 +290,27 @@ const faqCategories = [
     faqs: [
       {
         question: "Are Oklahoma process servers licensed and bonded?",
-        answer: "Yes, professional process servers in Oklahoma must meet strict licensing and bonding requirements:",
+        answer: "Yes. 12 O.S. § 158.1 establishes the specific requirements for private process servers:",
         columns: [
           {
-            title: "Licensing Requirements",
-            items: ["Oklahoma state license", "Background check completion", "Continuing education (12 CEU hours/year)", "Ethics training certification", "Technology training requirements"]
+            title: "Statutory Requirements",
+            items: ["Minimum age 18", "Resident of Oklahoma", "Good moral character", "State license issued by Judge", "$5,000 Bond posted", "Public notice/hearing"]
           },
           {
-            title: "Bonding & Insurance",
-            items: ["Professional liability insurance", "Errors & omissions coverage", "Surety bond protection", "General liability coverage", "Worker's compensation"]
+            title: "Business Standards",
+            items: ["Professional liability insurance (optional)", "Errors & omissions coverage (optional)", "GPS verification technology", "Secure data handling"]
           }
         ],
-        note: "Just Legal Solutions maintains all required licenses, bonds, and insurance for complete client protection."
+        note: "Just Legal Solutions meets all statutory requirements and maintains additional professional insurance for client peace of mind."
       },
       {
         question: "How do I verify a process server's credentials?",
-        answer: "Always verify your process server's credentials before hiring:",
+        answer: "You can verify a process server by checking their license status with the Court Clerk or requesting their license number.",
         details: [
-          "License Verification: Check with Oklahoma licensing authority",
-          "Insurance Confirmation: Request certificate of insurance",
-          "Experience Review: Ask about years of experience and specializations",
-          "Technology Capabilities: Confirm GPS tracking and digital documentation",
-          "References Check: Review client testimonials and law firm references",
-          "Compliance Record: Verify clean disciplinary record"
+          "License Verification: Check with the County Court Clerk",
+          "Bond Verification: Confirm the $5,000 bond is active",
+          "Experience Review: Ask about years of experience",
+          "Technology Capabilities: Confirm GPS tracking and digital documentation"
         ]
       }
     ]
@@ -330,21 +326,20 @@ const faqCategories = [
         answer: "Professional process servers in 2026 use advanced technology for enhanced accuracy and transparency:",
         cards: [
           { icon: MapPin, title: "GPS Technology", items: ["Real-time location tracking", "Timestamp verification", "Route documentation"] },
-          { icon: Lock, title: "Digital Security", items: ["Blockchain affidavits", "Encrypted communications", "Secure client portals"] },
+          { icon: Lock, title: "Digital Security", items: ["Secure client portals", "Encrypted communications", "Digital affidavits"] },
           { icon: Bot, title: "AI Integration", items: ["Address verification", "Skip tracing algorithms", "Automated reporting"] }
         ]
       },
       {
         question: "Is electronic service legal in Oklahoma?",
-        answer: "Yes, electronic service is legal in Oklahoma under specific conditions:",
+        answer: "Electronic service of initial process is not standard but may be permitted under specific circumstances:",
         details: [
-          "Written Consent Required: Defendant must provide explicit written consent (Form ES-1)",
-          "Court Approval: Electronic service consent must be filed with the court",
-          "Delivery Confirmation: Must use certified email with delivery and read receipts",
-          "Backup Method: Personal service backup required if electronic delivery fails",
-          "Documentation Standards: Comprehensive electronic service logs required"
+          "Court Order: Typically requires a court order for alternative service under 12 O.S. § 2004(D).",
+          "Consent: Parties may consent to receive service electronically in some contexts.",
+          "Pleadings: Subsequent pleadings (after initial service) may be served electronically under 12 O.S. § 2005.",
+          "Documentation: Any electronic method used must be strictly documented and approved by the court."
         ],
-        note: "Statute Reference: 12 O.S. § 12-158.1 governs electronic service requirements in Oklahoma."
+        note: "Always consult an attorney to determine if electronic service is permissible for your specific case."
       }
     ]
   },
@@ -358,25 +353,22 @@ const faqCategories = [
         question: "What if the defendant can't be found?",
         answer: "Professional process servers have multiple strategies for difficult-to-locate defendants:",
         details: [
-          "Enhanced Skip Tracing: Database searches, social media investigation, field inquiries",
-          "Stakeout Services: Extended surveillance at known addresses and workplaces",
-          "Alternative Locations: Service at employment, family, or frequent locations",
-          "Substituted Service: Service on competent household members or business agents",
-          "Court-Ordered Alternative Service: Motion for alternative service methods",
-          "Service by Publication: Newspaper publication as last resort with court approval"
+          "Diligent Search: Documented efforts to locate the individual.",
+          "Substituted Service: Service on a resident member of the household at least 15 years old.",
+          "Stakeout Services: Monitoring known locations.",
+          "Publication: If all efforts fail, service by publication may be pursued (12 O.S. § 2004(C)(4))."
         ]
       },
       {
         question: "Can process servers enter private property?",
-        answer: "Oklahoma process servers can enter property to effect service but must follow specific limitations:",
+        answer: "Process servers must respect property laws while attempting service:",
         details: [
-          "Public Access Areas: Driveways, walkways, and porches accessible to public",
-          "Business Premises: Public areas of businesses during operating hours",
-          "Gated Communities: May follow legitimate visitors or use intercom systems",
-          "Prohibited Areas: Cannot break locks, enter homes, or trespass on clearly marked private areas",
-          "Safety First: Must retreat if confronted with threats or violence"
+          "Access: Generally may approach the front door or common access areas.",
+          "Trespass: Cannot enter a home without permission or break into locked areas.",
+          "Gated Communities: Access depends on community rules and guard cooperation.",
+          "Safety: Must retreat if threatened; safety is paramount."
         ],
-        note: "Professional Standard: Experienced servers prioritize safety and legal compliance in all service attempts."
+        note: "Professional servers operate within the law to effect service without violating property rights."
       }
     ]
   }
@@ -639,7 +631,7 @@ export default function OklahomaProcessServerFAQ2026() {
                 <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
                   <h3 className="font-bold text-lg mb-4">Essential Qualifications</h3>
                   <ul className="space-y-3">
-                    {["Current Oklahoma license and bonding", "Minimum 5+ years experience", "Specialized training and certifications", "Technology integration capabilities", "Professional insurance coverage", "Clean disciplinary record"].map((item, i) => (
+                    {["Current Oklahoma license and bonding", "Minimum 5+ years experience", "Knowledge of 12 O.S. § 2004 requirements", "Technology integration capabilities", "Professional insurance coverage", "Clean disciplinary record"].map((item, i) => (
                       <li key={i} className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 text-green-400 flex-shrink-0" />
                         <span className="text-blue-50">{item}</span>
