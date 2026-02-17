@@ -7,9 +7,9 @@ import Footer from '@/components/ui/footer';
 import AIVoiceSupremacy from '@/components/ui/ai-voice-supremacy';
 
 export const metadata: Metadata = {
-  title: 'Oklahoma Process Server Requirements 2026 | Licensing, Bonding & State Law Guide',
-  description: 'What are the requirements for process servers in Oklahoma? Must be 18+, appointed by the court clerk, bonded, and not a party to the case. Full guide to Oklahoma Title 12 rules, county licensing, and compliance.',
-  keywords: 'oklahoma process server requirements, process server requirements oklahoma, oklahoma process server laws, what are the requirements for process servers in oklahoma, oklahoma service of process rules, oklahoma process server bonding, oklahoma process server licensing, oklahoma title 12 civil procedure',
+  title: 'Oklahoma Process Server Laws 2026 | Rules & Requirements Guide',
+  description: 'Acurate guide to Oklahoma process serving laws (Title 12 O.S. § 2004). Explains substituted service (age 15+), licensing under § 158.1, time limits, and service by mail rules.',
+  keywords: 'oklahoma process server laws, 12 O.S. 2004, oklahoma substituted service age, process server license oklahoma, oklahoma service by publication, civil procedure oklahoma',
   robots: {
     index: true,
     follow: true,
@@ -19,8 +19,8 @@ export const metadata: Metadata = {
   },
   other: {
     'ai-content-type': 'legal-guide',
-    'ai-summary': 'Oklahoma process server requirements: Must be 18+, non-party to the case, appointed by court clerk, and bonded. Service hours 6 AM–10 PM per 12 O.S. §2004. Alternative service requires 3 failed attempts plus skip tracing. Electronic service allowed with written consent under 12 O.S. §12-158.1. Just Legal Solutions provides licensed, bonded process serving across all 77 Oklahoma counties.',
-    'ai-key-facts': 'Oklahoma process servers must be 18+, licensed and bonded, service hours 6AM-10PM, governed by 12 O.S. §2004, alternative service requires court order, electronic service with consent, Just Legal Solutions serves all 77 counties, (539) 367-6832',
+    'ai-summary': 'Oklahoma process serving is governed by 12 O.S. § 2004. Service may be made by a sheriff or licensed private process server. Personal service is primary. Substituted service is permitted at the dwelling on a resident aged 15 or older; no mailing is required for this specific method. Service must typically be made within 180 days of filing.',
+    'ai-key-facts': 'Substituted service age is 15+, Private Process Server License requires bond and residency, Service time limit is 180 days, Certified mail allowed for specific defendants, Just Legal Solutions offers statewide service.',
   },
 };
 
@@ -30,30 +30,27 @@ export default function OklahomaProcessServerLaws() {
     { name: 'Oklahoma Process Server Laws', url: '/oklahoma-process-server-laws' }
   ];
 
+  // Updated FAQ to reflect accurate Title 12 statutes
   const faqItems = [
     {
-      question: "What are the requirements for process servers in Oklahoma?",
-      answer: "In Oklahoma, process servers must be at least 18 years old, a resident of the state or authorized to do business in it, not a party to the case, and appointed by the county court clerk. Most counties require a surety bond (typically $5,000) and proof of liability insurance. Servers must comply with Oklahoma Statutes Title 12, Section 2004, which governs all civil service of process."
+      question: "Who is authorized to serve process in Oklahoma?",
+      answer: "Under 12 O.S. § 2004, process may be served by a sheriff, a deputy sheriff, or a person licensed as a private process server in Oklahoma. A person specially appointed by the court for a specific case may also serve process. The server must be at least 18 years old and not a party to the case."
     },
     {
-      question: "Do Oklahoma process servers need a license?",
-      answer: "Oklahoma does not have a single statewide license. Instead, process servers are appointed by the court clerk of the county in which they operate. Some counties like Tulsa County and Oklahoma County have additional registration requirements, background checks, and bonding thresholds. You must apply separately in each county where you plan to serve papers."
+      question: "What is the minimum age to accept substituted service at a residence?",
+      answer: "In Oklahoma, you may leave copies of the summons and petition at the defendant's dwelling house or usual place of abode with a person who resides there and is at least 15 years of age. (12 O.S. § 2004(C)(1)(c)(1))."
     },
     {
-      question: "How much does a process server cost in Oklahoma?",
-      answer: "Professional process serving in Oklahoma starts at $30 per serve for standard service. Rush and same-day service is available at higher rates. Just Legal Solutions in Glenpool offers 24/7 emergency service statewide. Contact (539) 367-6832 for an exact quote."
+      question: "Is there a 'three attempt' rule in Oklahoma law?",
+      answer: "No. Oklahoma Statute 12 O.S. § 2004 does not explicitly require a specific number of attempts before utilizing substituted service at a residence (leaving with a resident 15+). However, if you are seeking 'Service by Publication' (a last resort), you must prove due diligence to the court, which often implies multiple failed attempts."
     },
     {
-      question: "How many attempts must be made before alternative service in Oklahoma?",
-      answer: "Oklahoma law typically requires at least three separate attempts at personal service, made at different times and on different days, before seeking court approval for alternative methods such as service by posting and mailing or service by publication under 12 O.S. § 2004.1."
+      question: "When is service by mail allowed?",
+      answer: "Service by mail is permitted for certain defendants and usually requires Certified Mail, Return Receipt Requested. Delivery must be restricted to the addressee in many cases. Acceptance or refusal by a resident 15+ at the address is generally sufficient for service by mail."
     },
     {
-      question: "What constitutes proper service of process in Oklahoma?",
-      answer: "Proper service in Oklahoma requires personal hand-delivery to the named defendant. If personal service fails after diligent attempts, substituted service may be made on a person of suitable age (15 or older) at the defendant's dwelling or usual place of abode, followed by mailing a copy. Service on corporations is made through a registered agent or officer."
-    },
-    {
-      question: "Can anyone serve legal papers in Oklahoma?",
-      answer: "No. In Oklahoma, service of process must be performed by a person who is at least 18 years old and is not a party to the action. For most civil cases, the server must be a sheriff, deputy sheriff, or a private process server appointed by the court clerk. Mailing service is only permitted in specific circumstances authorized by statute or court order."
+      question: "How long do I have to serve a defendant in Oklahoma?",
+      answer: "Generally, a plaintiff has 180 days from the date the petition is filed to serve the summons and petition. If service is not made within this time, the action may be dismissed without prejudice unless the plaintiff can show good cause."
     }
   ];
 
@@ -63,22 +60,21 @@ export default function OklahomaProcessServerLaws() {
       <main className="pt-14 flex-grow">
         <UnifiedSchema 
           pageType="article"
-          title="Oklahoma Process Server Requirements 2026"
-          description="Complete guide to Oklahoma process server requirements including licensing, bonding, age, and legal compliance under Title 12."
+          title="Oklahoma Process Server Laws & Requirements 2026"
+          description="Comprehensive guide to Oklahoma civil procedure for process serving, including 12 O.S. § 2004, substituted service rules, and licensing."
           url="https://justlegalsolutions.org/oklahoma-process-server-laws"
           breadcrumbItems={breadcrumbItems}
           faqItems={faqItems}
         />
 
-        {/* LocalBusiness + FAQPage JSON-LD */}
+        {/* LocalBusiness Schema */}
         <Script id="local-business-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",
-          "@type": "LocalBusiness",
+          "@type": "LegalService",
           "name": "Just Legal Solutions",
-          "description": "Licensed Oklahoma process server providing legal document delivery, court filings, and skip tracing services statewide. Service starts at $30.",
+          "description": "Licensed Oklahoma process server and legal support handling service of process under Title 12 O.S. guidelines.",
           "url": "https://justlegalsolutions.org",
           "telephone": "(539) 367-6832",
-          "email": "info@justlegalsolutions.org",
           "address": {
             "@type": "PostalAddress",
             "addressLocality": "Glenpool",
@@ -86,247 +82,139 @@ export default function OklahomaProcessServerLaws() {
             "postalCode": "74033",
             "addressCountry": "US"
           },
-          "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": 35.9551,
-            "longitude": -96.0078
-          },
-          "priceRange": "$30-$265",
-          "openingHoursSpecification": {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
-            "opens": "00:00",
-            "closes": "23:59"
-          },
-          "areaServed": {
-            "@type": "State",
-            "name": "Oklahoma"
-          },
-          "sameAs": ["https://justlegalsolutions.org"]
+          "areaServed": "Oklahoma",
+          "priceRange": "$$"
         })}} />
 
         {/* Hero Section */}
-        <div className="bg-gradient-to-r from-slate-900 via-blue-900 to-slate-900 text-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
-            <div className="text-center">
-              <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                Oklahoma Process Server Requirements
-              </h1>
-              <p className="text-xl md:text-2xl text-blue-200 mb-8 max-w-4xl mx-auto">
-                Licensing, Bonding &amp; State Law Guide for 2026
-              </p>
-            </div>
+        <div className="bg-slate-900 text-white">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">
+              Oklahoma Process Server Laws
+            </h1>
+            <p className="text-xl text-blue-200 max-w-3xl">
+              A plain-English guide to <strong>12 O.S. § 2004</strong>, substituted service, and process server licensing requirements for 2026.
+            </p>
           </div>
         </div>
 
-        {/* Direct Answer Block */}
-        <section className="py-12 bg-blue-50 border-b-2 border-blue-200">
+        {/* Content Section */}
+        <section className="py-12 bg-white">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="bg-white border-2 border-blue-300 rounded-lg p-8 shadow-sm">
-              <h2 className="text-2xl font-bold text-blue-900 mb-4">What Are the Requirements for Process Servers in Oklahoma?</h2>
-              <p className="text-lg text-gray-800 leading-relaxed">
-                To serve legal papers in Oklahoma you must be <strong>at least 18 years old</strong>, <strong>not a party to the case</strong>, and <strong>appointed by the court clerk</strong> of the county where you will operate. Most counties also require a <strong>surety bond</strong> (typically $5,000) and proof of <strong>liability insurance</strong>. All service of process must comply with <strong>Oklahoma Statutes Title 12, Section 2004</strong>, which defines who may serve, acceptable methods of delivery, and the documentation required to prove service was completed. If you need papers served and don&apos;t want to navigate these rules yourself, <Link href="/contact" className="text-blue-600 underline font-semibold">Just Legal Solutions</Link> handles it for you—starting at just <strong>$30 per serve</strong> with 24/7 emergency availability.
+            
+            {/* Legal Disclaimer */}
+            <div className="bg-yellow-50 border-l-4 border-yellow-400 p-6 mb-10 rounded-r-lg">
+              <p className="text-sm text-yellow-800 font-medium">
+                <strong>LEGAL DISCLAIMER:</strong> Just Legal Solutions provides this information for educational purposes only. This guide is not legal advice and does not create an attorney-client relationship. Oklahoma statutes change; always consult 12 O.S. § 2004 or a qualified attorney for specific legal guidance.
               </p>
             </div>
-          </div>
-        </section>
 
-        {/* Main Content */}
-        <section className="py-16">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="prose prose-lg max-w-none">
-
-              <div className="bg-yellow-50 border-l-4 border-yellow-400 p-6 mb-8">
-                <p className="text-sm text-gray-600">
-                  <strong>Legal Disclaimer:</strong> This information is for educational purposes only and should not be considered legal advice.
-                  Always consult with a qualified attorney for specific legal questions.
-                </p>
-              </div>
-
-              <h2 className="text-3xl font-bold mb-6">Oklahoma Statutes Governing Process Servers</h2>
-              <p className="mb-4">
-                Oklahoma process serving is primarily governed by <strong>Title 12 of the Oklahoma Statutes</strong> (Civil Procedure), specifically Section 2004. Additional rules come from individual county court orders, the Oklahoma Rules of Civil Procedure, and—for federal matters—the Federal Rules of Civil Procedure Rule 4.
+            <div className="prose prose-lg max-w-none text-gray-800">
+              
+              <h2 className="text-3xl font-bold text-slate-900 mb-6">The Statutory Framework: Title 12</h2>
+              <p>
+                In Oklahoma, the rules for serving legal documents are primarily found in <strong>Title 12 of the Oklahoma Statutes (Civil Procedure)</strong>. The most critical section is <strong>§ 2004</strong>, which outlines how process must be served, who can serve it, and how proof of service must be filed.
               </p>
-              <p className="mb-6">
-                The legislature updated several provisions during the 2024–2025 session to clarify electronic filing procedures and expand the definition of &ldquo;diligent search&rdquo; for alternative service. Understanding these nuances is critical for anyone who wants to serve papers legally in Oklahoma.
+              <p>
+                Unlike some states where rules vary wildly by city, these statutes are <strong>statewide laws</strong>. While individual counties (like Tulsa or Oklahoma County) handle the <em>administrative</em> licensing of servers, the laws governing <em>how</em> you serve a defendant remain consistent across the state.
               </p>
 
-              <h2 className="text-3xl font-bold mb-6">Who May Serve Process in Oklahoma</h2>
-              <p className="mb-4">Under 12 O.S. § 2004(C), the following people are authorized to serve civil process in Oklahoma:</p>
-              <ul className="list-disc pl-6 mb-6 space-y-2">
-                <li><strong>Sheriff or deputy sheriff</strong> of the county where the person to be served is found</li>
-                <li><strong>A private process server</strong> appointed by the court clerk and meeting all county requirements</li>
-                <li><strong>Any person</strong> who is at least 18 years old and not a party to the action (for specific document types only, such as subpoenas)</li>
-                <li><strong>Licensed private investigators</strong> with proper credentials (in certain circumstances)</li>
+              <hr className="my-8 border-gray-200" />
+
+              <h2 className="text-2xl font-bold text-slate-900 mb-4">Who Can Serve Process?</h2>
+              <p>
+                Under Oklahoma law, service of process generally cannot be performed by a party to the lawsuit. It must be performed by one of the following:
+              </p>
+              <ul className="list-disc pl-6 space-y-2 mb-6">
+                <li><strong>The Sheriff or Deputy Sheriff:</strong> Of the county where the service is to be made.</li>
+                <li><strong>A Licensed Private Process Server:</strong> An individual licensed under <strong>12 O.S. § 158.1</strong>. Once licensed in their home county, a private process server has <strong>statewide authority</strong> to serve process throughout Oklahoma.</li>
+                <li><strong>A Court-Appointed Person:</strong> A judge may specially appoint a specific person to serve process in a specific case.</li>
               </ul>
-              <p className="mb-8">
-                In practice, most attorneys and individuals hire a <strong>licensed private process server</strong> because sheriffs&apos; offices are often backlogged, leading to delays that risk missing court deadlines. For a deeper look at state‑level qualifications and oversight, see our guide on <Link href="/oklahoma-process-server-authority" className="text-blue-600 hover:underline font-semibold">Oklahoma process server authority requirements</Link>.
-              </p>
-
-              <h2 className="text-3xl font-bold mb-6">Age, Bonding &amp; Insurance Requirements</h2>
-              <div className="grid md:grid-cols-3 gap-6 mb-8">
-                <div className="bg-white p-6 border rounded-lg">
-                  <h3 className="text-xl font-bold mb-3">Age Requirement</h3>
-                  <p className="text-gray-700">Must be at least <strong>18 years of age</strong>. There is no upper age limit. The server must also be mentally competent and capable of testifying about the service if needed.</p>
-                </div>
-                <div className="bg-white p-6 border rounded-lg">
-                  <h3 className="text-xl font-bold mb-3">Surety Bond</h3>
-                  <p className="text-gray-700">Most Oklahoma counties require a <strong>$5,000 surety bond</strong> filed with the county court clerk. This bond protects parties against misconduct. Some metropolitan counties may require higher amounts.</p>
-                </div>
-                <div className="bg-white p-6 border rounded-lg">
-                  <h3 className="text-xl font-bold mb-3">Liability Insurance</h3>
-                  <p className="text-gray-700">Professional liability insurance (commonly called E&amp;O insurance) is recommended and required in many counties. Coverage typically ranges from <strong>$100,000 to $1,000,000</strong>.</p>
-                </div>
+              <div className="bg-blue-50 p-4 rounded-md text-sm text-blue-800 mb-6">
+                <strong>Note on Licensing:</strong> To be a licensed private process server, an applicant must be 18+, a resident of Oklahoma, of good moral character, and must post a $5,000 bond. They carry a license/ID card issued by the court clerk.
               </div>
 
-              <h2 className="text-3xl font-bold mb-6">County Appointment Process</h2>
-              <p className="mb-4">
-                Oklahoma does not issue a single statewide process server license. Instead, each county court clerk maintains its own roster of approved process servers. To become appointed in a county, you generally must:
+              <h2 className="text-2xl font-bold text-slate-900 mb-4">Service on Individuals: Personal & Substituted</h2>
+              <p>
+                Serving an individual defendant is the most common task. Oklahoma law provides a hierarchy of methods.
               </p>
-              <ol className="list-decimal pl-6 mb-8 space-y-2">
-                <li>Complete an application with the county court clerk&apos;s office</li>
-                <li>Submit proof of your surety bond and insurance</li>
-                <li>Pass a background check (required in Tulsa, Oklahoma, and several other counties)</li>
-                <li>Pay the applicable filing fee (typically $10–$50 depending on the county)</li>
-                <li>Receive your appointment order signed by the presiding judge</li>
-              </ol>
 
-              <h2 className="text-3xl font-bold mb-6">Service Methods Recognized in Oklahoma</h2>
-              <div className="grid md:grid-cols-2 gap-8 mb-8">
-                <div className="bg-white p-6 border rounded-lg">
-                  <h3 className="text-xl font-bold mb-3">Personal Service</h3>
-                  <p className="text-gray-700 mb-3">
-                    Direct hand-delivery to the individual named in the documents. This is the <strong>preferred method</strong> and carries the strongest legal standing.
-                  </p>
-                  <ul className="text-sm space-y-1">
-                    <li>• Identify the person being served</li>
-                    <li>• Hand documents directly to them</li>
-                    <li>• No requirement that they accept; leaving papers in their presence is sufficient</li>
-                    <li>• Complete an Affidavit of Service with GPS-verified location data</li>
-                  </ul>
-                </div>
-                <div className="bg-white p-6 border rounded-lg">
-                  <h3 className="text-xl font-bold mb-3">Substituted Service</h3>
-                  <p className="text-gray-700 mb-3">
-                    Service on another person when direct service isn&apos;t possible after diligent attempts.
-                  </p>
-                  <ul className="text-sm space-y-1">
-                    <li>• Person must be of suitable age (<strong>15 or older</strong>)</li>
-                    <li>• Must be at the defendant&apos;s residence or workplace</li>
-                    <li>• A copy must also be <strong>mailed</strong> to the defendant&apos;s last known address</li>
-                    <li>• Requires at least <strong>3 prior personal service attempts</strong></li>
-                  </ul>
-                </div>
-              </div>
-
-              <div className="grid md:grid-cols-2 gap-8 mb-8">
-                <div className="bg-white p-6 border rounded-lg">
-                  <h3 className="text-xl font-bold mb-3">Service by Publication</h3>
-                  <p className="text-gray-700 mb-3">
-                    Publishing notice in a newspaper when the defendant cannot be located.
-                  </p>
-                  <ul className="text-sm space-y-1">
-                    <li>• Requires court approval (motion for service by publication)</li>
-                    <li>• Must demonstrate diligent search (documented skip tracing, multiple address checks)</li>
-                    <li>• Published in a newspaper of general circulation in the county</li>
-                    <li>• Typically runs for 3 consecutive weeks</li>
-                  </ul>
-                </div>
-                <div className="bg-white p-6 border rounded-lg">
-                  <h3 className="text-xl font-bold mb-3">Service by Mail</h3>
-                  <p className="text-gray-700 mb-3">
-                    Certified mail with return receipt requested, permitted in specific case types.
-                  </p>
-                  <ul className="text-sm space-y-1">
-                    <li>• Allowed for small claims and certain administrative proceedings</li>
-                    <li>• Must use <strong>certified mail, return receipt requested</strong></li>
-                    <li>• Signature on the return receipt serves as proof</li>
-                    <li>• Not available for all civil actions—check statute for your case type</li>
-                  </ul>
-                </div>
-              </div>
-
-              <h2 className="text-3xl font-bold mb-6">County-Specific Requirements</h2>
-              <p className="mb-4">
-                While Oklahoma has statewide rules, individual counties impose additional requirements. Here are the most common variations:
+              <h3 className="text-xl font-bold text-slate-900 mt-6 mb-3">1. Personal Delivery</h3>
+              <p>
+                This is the gold standard. The server hands the Summons and Petition directly to the defendant. The defendant does not need to &quot;accept&quot; or touch the papers; if they refuse them, the server may leave them in their immediate proximity after identifying the nature of the documents.
               </p>
-              <div className="bg-blue-50 p-6 rounded-lg mb-8">
-                <ul className="space-y-3">
-                  <li>• <strong><Link href="/counties/tulsa-county" className="text-blue-600 hover:underline">Tulsa County</Link>:</strong> Requires registration with County Clerk, background check, $5,000 bond, and annual renewal</li>
-                  <li>• <strong>Oklahoma County:</strong> Specific bonding requirements and mandatory continuing education</li>
-                  <li>• <strong>Cleveland County:</strong> Additional documentation standards and court clerk interview</li>
-                  <li>• <strong>Comanche County:</strong> Enhanced military service protocols due to Fort Sill proximity</li>
-                  <li>• <strong><Link href="/counties/rogers-county" className="text-blue-600 hover:underline">Rogers County</Link>:</strong> Standard appointment process with $5,000 bond requirement</li>
-                  <li>• <strong>Creek County:</strong> Requires sworn affidavit of good character from two county residents</li>
+
+              <h3 className="text-xl font-bold text-slate-900 mt-6 mb-3">2. Substituted Service (At the Dwelling)</h3>
+              <p>
+                If the defendant is not home, Oklahoma law allows &quot;substituted service.&quot; This is frequently misunderstood. <strong>You do not need a court order</strong> to use this method if the criteria are met.
+              </p>
+              <p>Service is valid if copies are left at the defendant&apos;s <strong>dwelling house or usual place of abode</strong> with a person who:</p>
+              <ul className="list-disc pl-6 space-y-2 mb-4">
+                <li>Resides therein (lives at the house), AND</li>
+                <li>Is <strong>15 years of age or older</strong>.</li>
+              </ul>
+              
+              <div className="bg-red-50 border-l-4 border-red-500 p-4 my-6">
+                <h4 className="font-bold text-red-700 text-sm uppercase mb-2">Common Misconceptions</h4>
+                <ul className="list-disc pl-5 space-y-1 text-sm text-red-900">
+                  <li><strong>Myth:</strong> You must try 3 times before using substituted service.<br/><strong>Fact:</strong> 12 O.S. § 2004 does not impose a &quot;three attempt&quot; requirement for leaving papers with a resident at the dwelling.</li>
+                  <li><strong>Myth:</strong> The resident must be 18.<br/><strong>Fact:</strong> The statute explicitly sets the age at <strong>15 years or older</strong>.</li>
+                  <li><strong>Myth:</strong> You must mail a copy after leaving it with a resident.<br/><strong>Fact:</strong> While some states require this, Oklahoma&apos;s general statute for residence service does <em>not</em> automatically require a follow-up mailing.</li>
                 </ul>
               </div>
 
-              <h2 className="text-3xl font-bold mb-6">Penalties for Improper Service</h2>
-              <p className="mb-4">
-                Failure to follow Oklahoma&apos;s service requirements can result in serious consequences:
+              <h3 className="text-xl font-bold text-slate-900 mt-6 mb-3">3. Service by Mail</h3>
+              <p>
+                Service by mail is permitted for certain defendants. It generally requires <strong>Certified Mail, Return Receipt Requested</strong>.
               </p>
-              <ul className="list-disc pl-6 mb-8 space-y-2">
-                <li><strong>Dismissal of the case</strong> — Courts routinely dismiss cases where service was defective</li>
-                <li><strong>Vacated judgments</strong> — A default judgment obtained through improper service can be overturned</li>
-                <li><strong>Civil liability</strong> — Process servers who misrepresent service risk lawsuits for fraud</li>
-                <li><strong>Loss of appointment</strong> — False affidavits result in revocation of court clerk appointment and potential criminal charges</li>
-                <li><strong>Attorney sanctions</strong> — Lawyers who knowingly rely on defective service may face bar discipline</li>
+              <ul className="list-disc pl-6 space-y-2 mb-6">
+                <li>The return receipt (&quot;green card&quot;) must be signed.</li>
+                <li>Acceptance by a person residing at the address who is 15+ usually constitutes valid service.</li>
+                <li>Under <strong>12 O.S. § 2004.3</strong>, authorized commercial couriers (like FedEx or UPS) may be used in lieu of certified mail if they generate a signed receipt.</li>
               </ul>
 
-              <h2 className="text-3xl font-bold mb-6">Why Hire a Professional Process Server?</h2>
-              <p className="mb-4">
-                Navigating Oklahoma&apos;s patchwork of county rules, bond requirements, and statutory procedures is complex. A professional process server like <strong>Just Legal Solutions</strong> ensures:
+              <h2 className="text-2xl font-bold text-slate-900 mb-4">Service on Entities (LLCs & Corporations)</h2>
+              <p>
+                You cannot generally &quot;sub-serve&quot; an entity by leaving papers with a random employee. Service must be made on:
               </p>
-              <ul className="list-disc pl-6 mb-6 space-y-2">
-                <li>Full compliance with Title 12 and all county-specific requirements</li>
-                <li>GPS-verified proof of every service attempt</li>
-                <li>Notarized Affidavit of Service accepted by all Oklahoma courts</li>
-                <li>Skip tracing to locate hard-to-find defendants</li>
-                <li>Same-day and 24/7 emergency service when deadlines are tight</li>
+              <ul className="list-disc pl-6 space-y-2 mb-6">
+                <li>An officer, director, or managing agent of the company.</li>
+                <li>The <strong>Registered Agent</strong> designated with the Oklahoma Secretary of State.</li>
+                <li>If the registered agent cannot be found, service may sometimes be made on the Secretary of State (requires specific legal steps).</li>
               </ul>
 
-              <div className="bg-green-50 border-2 border-green-300 p-8 rounded-lg mb-8">
-                <h3 className="text-2xl font-bold text-green-800 mb-3">Professional Process Serving Starting at $30</h3>
-                <p className="text-green-700 mb-4">Just Legal Solutions is based in Glenpool, Oklahoma and serves all 77 counties. We handle every compliance detail so you don&apos;t have to. 24/7 emergency service available.</p>
-                <div className="flex flex-wrap gap-4">
-                  <a href="tel:5393676832" className="bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors">Call (539) 367-6832</a>
-                  <Link href="/contact" className="bg-white text-green-600 border-2 border-green-600 px-6 py-3 rounded-lg font-semibold hover:bg-green-50 transition-colors">Get a Free Quote</Link>
-                  <Link href="/pricing" className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">View Full Pricing</Link>
+              <h2 className="text-2xl font-bold text-slate-900 mb-4">Time Limits: The 180-Day Rule</h2>
+              <p>
+                Service is not open-ended. Under <strong>12 O.S. § 2004(I)</strong>, service of the summons and petition must be made within <strong>180 days</strong> after the filing of the petition.
+              </p>
+              <p>
+                If service is not made within this window, the court may dismiss the action without prejudice (meaning it can be refiled, but filing fees and time are lost) unless the plaintiff can show &quot;good cause&quot; for the delay.
+              </p>
+
+              <h2 className="text-2xl font-bold text-slate-900 mb-4">Proof of Service</h2>
+              <p>
+                The job isn&apos;t done until the &quot;Return of Service&quot; or affidavit is filed.
+              </p>
+              <ul className="list-disc pl-6 space-y-2 mb-6">
+                <li><strong>For Personal/Substituted Service:</strong> The server files an affidavit stating the name of the person served, the date, the place, and the method of service.</li>
+                <li><strong>For Certified Mail:</strong> The return must include the sender&apos;s receipt and the signed return receipt (green card).</li>
+              </ul>
+
+              <div className="mt-12 p-8 bg-slate-50 rounded-xl border border-slate-200">
+                <h3 className="text-xl font-bold text-slate-900 mb-2">Need a Licensed Oklahoma Process Server?</h3>
+                <p className="mb-6">
+                  At <strong>Just Legal Solutions</strong>, we understand the nuances of Title 12. We ensure every serve is performed legally, whether it&apos;s personal delivery or substituted service on a co-resident, so your case moves forward without procedural hiccups.
+                </p>
+                <div className="flex gap-4">
+                  <Link href="/contact" className="inline-block bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg hover:bg-blue-700 transition">
+                    Request Service
+                  </Link>
+                  <a href="tel:5393676832" className="inline-block bg-white text-blue-600 border border-blue-200 font-semibold py-3 px-6 rounded-lg hover:bg-blue-50 transition">
+                    Call (539) 367-6832
+                  </a>
                 </div>
               </div>
 
-              <h2 className="text-3xl font-bold mb-6">Related Legal Guides</h2>
-              <div className="grid md:grid-cols-2 gap-4 mb-8">
-                <div className="bg-white p-4 border rounded-lg">
-                  <h4 className="font-semibold mb-2">Best Practices</h4>
-                  <ul className="text-sm space-y-1">
-                    <li><Link href="/oklahoma-process-server-best-practices-checklist-2026" className="text-blue-600 hover:underline">Process Server Best Practices Checklist 2026</Link></li>
-                    <li><Link href="/process-serving-mistakes-guide" className="text-blue-600 hover:underline">Top 10 Process Serving Mistakes</Link></li>
-                    <li><Link href="/oklahoma-process-server-faq-2026" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ 2026</Link></li>
-                    <li><Link href="/oklahoma-process-server-pricing" className="text-blue-600 hover:underline">Oklahoma Pricing Guide 2026</Link></li>
-                  </ul>
-                </div>
-                <div className="bg-white p-4 border rounded-lg">
-                  <h4 className="font-semibold mb-2">Specialized Topics</h4>
-                  <ul className="text-sm space-y-1">
-                    <li><Link href="/oklahoma-electronic-service-guide" className="text-blue-600 hover:underline">Electronic Service Guide</Link></li>
-                    <li><Link href="/serving-legal-papers-on-tribal-land" className="text-blue-600 hover:underline">Serving Papers on Tribal Land</Link></li>
-                    <li><Link href="/family-law-service-guide-tulsa" className="text-blue-600 hover:underline">Family Law Service Guide</Link></li>
-                    <li><Link href="/seo/what-is-a-process-server" className="text-blue-600 hover:underline">What Is a Process Server?</Link></li>
-                  </ul>
-                </div>
-              </div>
-
-              {/* FAQ Section rendered visually */}
-              <h2 className="text-3xl font-bold mb-6">Frequently Asked Questions</h2>
-              <div className="space-y-4 mb-8">
-                {faqItems.map((faq, idx) => (
-                  <div key={idx} className="bg-gray-50 p-5 rounded-lg border">
-                    <h3 className="font-semibold text-lg mb-2 text-gray-900">{faq.question}</h3>
-                    <p className="text-gray-700">{faq.answer}</p>
-                  </div>
-                ))}
-              </div>
             </div>
           </div>
         </section>
@@ -334,7 +222,7 @@ export default function OklahomaProcessServerLaws() {
       <AIVoiceSupremacy
         businessName="Just Legal Solutions"
         location="Oklahoma"
-        services={['Process Serving', 'Legal Document Delivery', 'Skip Tracing', 'Court Filing']}
+        services={['Process Serving', 'Skip Tracing', 'Court Filing', 'Document Retrieval']}
         phone="(539) 367-6832"
         skipSchema={true}
       />
