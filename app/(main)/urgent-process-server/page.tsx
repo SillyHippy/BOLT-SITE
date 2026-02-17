@@ -1,12 +1,13 @@
 import { Metadata } from 'next';
 import Script from 'next/script';
+import Link from 'next/link';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
   title: 'Fastest Way to Serve Papers in Oklahoma 2026 | Same-Day & 2-Hour Emergency | Just Legal Solutions',
-  description: 'The fastest way to serve papers in Oklahoma is hiring a licensed process server with same-day delivery. Just Legal Solutions offers 2-hour emergency service starting at $30. Available 24/7 across all 77 counties.',
+  description: 'The fastest way to serve papers in Oklahoma is hiring a licensed process server with same-day delivery. Just Legal Solutions offers 2-hour emergency service starting at $265. Available 24/7 across all 77 counties.',
   keywords: ['fastest way to serve papers', 'urgent process server tulsa', 'same day process serving', 'emergency document delivery', 'fast process server oklahoma', '2 hour process serving', 'emergency court papers', 'rush legal documents tulsa', 'how to serve papers fast oklahoma'],
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -32,7 +33,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Fastest Way to Serve Papers | Same-Day & 2-Hour Emergency',
-    description: 'The fastest way to serve papers is hiring a licensed process server. Just Legal Solutions offers 2-hour emergency service starting at $30.',
+    description: 'The fastest way to serve papers is hiring a licensed process server. Just Legal Solutions offers 2-hour emergency service starting at $265.',
     images: ['https://justlegalsolutions.org/images/urgent-process-server-og.jpg']
   },
   alternates: {
@@ -69,6 +70,30 @@ const urgentFaqs = [
   {
     question: "Can papers be served at night or on weekends in Oklahoma?",
     answer: "Yes. Oklahoma law allows legal documents to be served any day of the week, including nights, weekends, and holidays. Just Legal Solutions operates 24/7 with emergency service available outside normal business hours. Weekend and holiday serves may carry a surcharge."
+  },
+  {
+    question: "Do you actually work 24/7?",
+    answer: "Yes. Our emergency dispatching line is staffed around the clock, 365 days a year. Standard-priority jobs are assigned during business hours (Mon–Fri, 7 AM–9 PM), but emergency and rush requests are dispatched immediately regardless of time. Weekend and holiday serves may include a surcharge."
+  },
+  {
+    question: "What happens if you can't find the person?",
+    answer: "If we cannot locate the individual after diligent attempts, we provide a detailed non-service report documenting dates, times, GPS coordinates, and observations of each attempt. Your attorney can use this documentation to request alternative service methods from the court, such as service by publication under 12 O.S. § 2004.3. We also offer skip tracing services to help locate hard-to-find defendants."
+  },
+  {
+    question: "Do you serve on weekends and holidays?",
+    answer: "Yes. Oklahoma law does not restrict service to business days—papers can be served any day, at any hour. Many defendants are actually easier to locate on evenings and weekends when they are home. Weekend and holiday emergency service is available with a surcharge. See our weekend process service page for details."
+  },
+  {
+    question: "Is emergency service legally valid?",
+    answer: "Absolutely. Emergency and rush service are not separate legal categories—they are business-speed options. All service is performed by licensed Oklahoma private process servers under 12 O.S. § 158.1, using methods authorized by 12 O.S. § 2004 (personal delivery, substituted service, etc.). The resulting affidavit of service is identical to standard service and fully valid in court."
+  },
+  {
+    question: "What courts do you file with?",
+    answer: "We prepare and file affidavits of service (returns of service) with all Oklahoma district courts, including Tulsa County District Court, Oklahoma County District Court, and courts in all 77 counties. If courts are closed when service is completed (nights, weekends, holidays), we file on the next business day."
+  },
+  {
+    question: "Do you guarantee successful service?",
+    answer: "We guarantee a diligent service attempt within the time window you select (2 hours or same-day). However, no process server can guarantee that the defendant will be physically present and locatable at the time of the attempt. If the first attempt is unsuccessful, we coordinate with you on next steps—additional attempts, skip tracing, or alternative service methods. Our first-attempt success rate in the Tulsa metro exceeds 85%."
   }
 ];
 
@@ -96,7 +121,7 @@ const UrgentProcessServerPage = () => {
             </ol>
           </nav>
 
-          {/* Direct Answer Block — answers the question in first 100 words */}
+          {/* Direct Answer Block */}
           <div className="bg-green-50 border-l-4 border-green-600 p-6 rounded-r-lg mb-10">
             <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               What Is the Fastest Way to Serve Papers in Oklahoma?
@@ -105,6 +130,97 @@ const UrgentProcessServerPage = () => {
               <strong>The fastest way to serve papers is to hire a licensed process server who offers same-day or 2-hour emergency delivery.</strong> In Oklahoma, professional process servers complete service 70% faster than the county sheriff, who averages 2&ndash;6 weeks. Just Legal Solutions provides <strong>2-hour emergency service for $265</strong>, <strong>same-day rush for $150</strong>, and standard process serving <strong>starting at $30 per serve</strong>. We operate 24/7 and serve all 77 Oklahoma counties with GPS-verified proof of service. Call <a href="tel:5393676832" className="text-green-700 font-bold hover:underline">(539) 367-6832</a> for immediate assistance.
             </p>
           </div>
+
+          {/* What is Emergency Process Serving? */}
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">What Is Emergency Process Serving?</h2>
+            <div className="prose max-w-none text-gray-700 space-y-4">
+              <p>
+                Oklahoma plaintiffs have up to <strong>180 days</strong> to complete service of process after filing a lawsuit (12 O.S. &sect; 2004). That may sound generous, but courtroom reality is different. Hearings get scheduled in days, not months. Temporary restraining orders have short expiration windows. Eviction timelines begin the moment a notice is served. When the calendar compresses, standard 5&ndash;7 day service is not fast enough.
+              </p>
+              <p>
+                <strong>Emergency process serving</strong> is a business offering&mdash;not a separate legal category&mdash;designed to meet those time-sensitive needs. It means a licensed <Link href="/tulsa-process-server" className="text-blue-600 hover:underline font-medium">Tulsa process server</Link> is dispatched immediately to attempt service within a compressed window: typically 2 hours or same-day. The legal method of service (personal delivery under 12 O.S. &sect; 2004, substituted service, etc.) remains identical to standard service. The only difference is speed of execution.
+              </p>
+              <p>
+                All emergency process service performed by Just Legal Solutions is carried out by <Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline font-medium">licensed Oklahoma private process servers under 12 O.S. &sect; 158.1</Link> and in full compliance with 12 O.S. &sect; 2004. The resulting affidavit of service is court-ready and legally valid in any Oklahoma court.
+              </p>
+            </div>
+          </section>
+
+          {/* When Do You Need Emergency Service? */}
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">When Do You Need Emergency Service?</h2>
+            <p className="text-lg text-gray-700 mb-6">
+              Emergency process serving makes sense whenever a standard timeline puts your case at risk. Common scenarios include:
+            </p>
+            <div className="grid md:grid-cols-2 gap-4">
+              <div className="bg-red-50 border border-red-200 p-5 rounded-lg">
+                <h3 className="font-bold text-lg mb-2">&#x2696;&#xFE0F; Next-Day Hearing</h3>
+                <p className="text-gray-700">A hearing is scheduled for tomorrow and the defendant has not yet been served. Without service, the hearing may be continued or your motion denied.</p>
+              </div>
+              <div className="bg-red-50 border border-red-200 p-5 rounded-lg">
+                <h3 className="font-bold text-lg mb-2">&#x1F3E0; Imminent Eviction Hearing</h3>
+                <p className="text-gray-700">Oklahoma&rsquo;s 5-day eviction notice timeline begins on the date of service. Every day of delay pushes your hearing date further out and costs money.</p>
+              </div>
+              <div className="bg-red-50 border border-red-200 p-5 rounded-lg">
+                <h3 className="font-bold text-lg mb-2">&#x1F6E1;&#xFE0F; TRO or Temporary Order Nearing Expiration</h3>
+                <p className="text-gray-700">A temporary restraining order or temporary custody order is approaching its expiration date. The respondent must be served before the court can hold a full hearing to extend or make the order permanent.</p>
+              </div>
+              <div className="bg-red-50 border border-red-200 p-5 rounded-lg">
+                <h3 className="font-bold text-lg mb-2">&#x1F4CB; Last-Minute Subpoena</h3>
+                <p className="text-gray-700">A witness subpoena for a deposition or trial needs to be served with &ldquo;reasonable time&rdquo; before the proceeding&mdash;typically 48+ hours for non-parties.</p>
+              </div>
+              <div className="bg-red-50 border border-red-200 p-5 rounded-lg md:col-span-2">
+                <h3 className="font-bold text-lg mb-2">&#x1F4C4; Same-Day Filing Deadline</h3>
+                <p className="text-gray-700">A motion or petition has a same-day filing deadline, and the opposing party needs to be served in connection with that filing. Our servers can attempt service and prepare the return of service the same day.</p>
+              </div>
+            </div>
+          </section>
+
+          {/* How Our Emergency Legal Service Works */}
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">How Our Emergency Legal Service Works</h2>
+            <p className="text-lg text-gray-700 mb-6">
+              From your first call to the filed return of service, here is exactly what happens:
+            </p>
+            <div className="space-y-6">
+              <div className="flex items-start gap-4">
+                <div className="flex-shrink-0 w-10 h-10 bg-red-600 rounded-full flex items-center justify-center text-white font-bold">1</div>
+                <div>
+                  <h3 className="font-bold text-lg text-gray-900">Intake</h3>
+                  <p className="text-gray-700">Call <a href="tel:5393676832" className="text-blue-600 hover:underline font-medium">(539) 367-6832</a>, text, or submit through our <Link href="/contact" className="text-blue-600 hover:underline font-medium">web form</Link>. Tell us the deadline, document type, and any known information about the individual to be served.</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-4">
+                <div className="flex-shrink-0 w-10 h-10 bg-red-600 rounded-full flex items-center justify-center text-white font-bold">2</div>
+                <div>
+                  <h3 className="font-bold text-lg text-gray-900">Document Submission</h3>
+                  <p className="text-gray-700">Upload your documents through our secure client portal or send via encrypted email. We accept PDF, scanned originals, or hard copies available for pickup at your office.</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-4">
+                <div className="flex-shrink-0 w-10 h-10 bg-red-600 rounded-full flex items-center justify-center text-white font-bold">3</div>
+                <div>
+                  <h3 className="font-bold text-lg text-gray-900">Assignment to Nearest Licensed Server</h3>
+                  <p className="text-gray-700">We dispatch the licensed process server closest to the service address. All servers are licensed under <Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline font-medium">12 O.S. &sect; 158.1</Link> and carry a $5,000 surety bond.</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-4">
+                <div className="flex-shrink-0 w-10 h-10 bg-red-600 rounded-full flex items-center justify-center text-white font-bold">4</div>
+                <div>
+                  <h3 className="font-bold text-lg text-gray-900">Service Attempt</h3>
+                  <p className="text-gray-700">The server attempts service within your chosen window (2 hours or same-day). Every attempt is GPS-verified with date, time, and location stamps. You receive real-time updates via phone or portal.</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-4">
+                <div className="flex-shrink-0 w-10 h-10 bg-red-600 rounded-full flex items-center justify-center text-white font-bold">5</div>
+                <div>
+                  <h3 className="font-bold text-lg text-gray-900">Return of Service &amp; Filing</h3>
+                  <p className="text-gray-700">Upon successful service, we prepare a notarized affidavit of service and file it with the appropriate court. If service is completed after court hours (nights, weekends, holidays), the filing is submitted on the next business day.</p>
+                </div>
+              </div>
+            </div>
+          </section>
 
           {/* Speed Comparison Section */}
           <section className="mb-12">
@@ -127,19 +243,19 @@ const UrgentProcessServerPage = () => {
                     <td className="border border-gray-300 px-4 py-3 font-semibold">2-Hour Emergency (Process Server)</td>
                     <td className="border border-gray-300 px-4 py-3 font-bold text-green-700">2 hours</td>
                     <td className="border border-gray-300 px-4 py-3">$265</td>
-                    <td className="border border-gray-300 px-4 py-3">99%+ success rate</td>
+                    <td className="border border-gray-300 px-4 py-3">85%+ first-attempt success</td>
                   </tr>
                   <tr className="bg-green-50">
                     <td className="border border-gray-300 px-4 py-3 font-semibold">Same-Day Rush (Process Server)</td>
                     <td className="border border-gray-300 px-4 py-3 font-bold text-green-700">4&ndash;8 hours</td>
                     <td className="border border-gray-300 px-4 py-3">$150</td>
-                    <td className="border border-gray-300 px-4 py-3">98%+ success rate</td>
+                    <td className="border border-gray-300 px-4 py-3">90%+ first-attempt success</td>
                   </tr>
                   <tr>
                     <td className="border border-gray-300 px-4 py-3 font-semibold">Standard (Process Server)</td>
                     <td className="border border-gray-300 px-4 py-3">1&ndash;7 business days</td>
                     <td className="border border-gray-300 px-4 py-3">$30&ndash;$125</td>
-                    <td className="border border-gray-300 px-4 py-3">95%+ success rate</td>
+                    <td className="border border-gray-300 px-4 py-3">95%+ overall success rate</td>
                   </tr>
                   <tr className="bg-red-50">
                     <td className="border border-gray-300 px-4 py-3 font-semibold">County Sheriff</td>
@@ -185,7 +301,7 @@ const UrgentProcessServerPage = () => {
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Oklahoma Service of Process Rules &amp; Deadlines</h2>
             <p className="text-lg text-gray-700 mb-4">
-              Under Oklahoma Title 12 &sect; 2004, service of process must be completed by a person who is at least 18 years old and not a party to the action. Oklahoma allows several methods of service, each with different speed implications:
+              Under <Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline font-medium">Oklahoma Title 12 &sect; 2004</Link>, service of process must be completed by a person who is at least 18 years old and not a party to the action. Oklahoma allows several methods of service, each with different speed implications:
             </p>
             <div className="space-y-4 mb-8">
               <div className="bg-gray-50 p-5 rounded-lg border-l-4 border-blue-500">
@@ -194,7 +310,7 @@ const UrgentProcessServerPage = () => {
               </div>
               <div className="bg-gray-50 p-5 rounded-lg border-l-4 border-yellow-500">
                 <h3 className="font-bold text-lg mb-2">Substitute Service</h3>
-                <p className="text-gray-700">Leaving documents with a responsible adult at the defendant&apos;s home or workplace, then mailing a copy. Valid under Oklahoma law when the defendant cannot be personally found after diligent efforts.</p>
+                <p className="text-gray-700">Leaving documents with a responsible person <strong>15 years of age or older</strong> at the defendant&apos;s dwelling house or usual place of abode, then mailing a copy. Valid under Oklahoma law when the defendant cannot be personally found after diligent efforts.</p>
               </div>
               <div className="bg-gray-50 p-5 rounded-lg border-l-4 border-purple-500">
                 <h3 className="font-bold text-lg mb-2">Service by Publication (Slowest)</h3>
@@ -206,7 +322,7 @@ const UrgentProcessServerPage = () => {
               <h3 className="text-xl font-bold text-yellow-900 mb-3">&#x26A0;&#xFE0F; Critical Oklahoma Deadlines</h3>
               <ul className="space-y-2 text-gray-700">
                 <li><strong>Civil lawsuits:</strong> Summons must be served within 180 days of filing, or the case may be dismissed (12 O.S. &sect; 2004).</li>
-                <li><strong>Protective orders:</strong> Must be served before the hearing date&mdash;often within 72 hours of issuance.</li>
+                <li><strong>Permanent protective orders &amp; civil restraining orders:</strong> Must be served before the hearing date. <em>Note: Emergency protective orders (EPOs) are served by law enforcement, not private process servers.</em></li>
                 <li><strong>Eviction notices:</strong> Oklahoma&apos;s 5-day notice requires immediate service to protect the landlord&apos;s timeline.</li>
                 <li><strong>Subpoenas:</strong> Must be served with &ldquo;reasonable time&rdquo; before the hearing&mdash;typically 48+ hours for non-parties.</li>
               </ul>
@@ -224,8 +340,8 @@ const UrgentProcessServerPage = () => {
               </div>
               <div className="bg-red-50 border border-red-200 p-5 rounded-lg text-center">
                 <div className="text-3xl mb-2">&#x1F6E1;&#xFE0F;</div>
-                <h3 className="font-bold mb-2">Emergency Restraining Orders</h3>
-                <p className="text-sm text-gray-600">Protective orders served within hours of issuance.</p>
+                <h3 className="font-bold mb-2">Permanent Protective Orders &amp; Civil Restraining Orders</h3>
+                <p className="text-sm text-gray-600">Served within hours so your hearing can proceed. <em>(Emergency protective orders are served by law enforcement.)</em></p>
               </div>
               <div className="bg-red-50 border border-red-200 p-5 rounded-lg text-center">
                 <div className="text-3xl mb-2">&#x1F3E0;</div>
@@ -235,7 +351,7 @@ const UrgentProcessServerPage = () => {
               <div className="bg-red-50 border border-red-200 p-5 rounded-lg text-center">
                 <div className="text-3xl mb-2">&#x1F4C4;</div>
                 <h3 className="font-bold mb-2">Divorce &amp; Custody Papers</h3>
-                <p className="text-sm text-gray-600">Serve before hearing dates with same-day delivery.</p>
+                <p className="text-sm text-gray-600">Serve <Link href="/family-law-service-guide-tulsa-2025" className="text-blue-600 hover:underline">family law documents</Link> before hearing dates with same-day delivery.</p>
               </div>
               <div className="bg-red-50 border border-red-200 p-5 rounded-lg text-center">
                 <div className="text-3xl mb-2">&#x1F4CB;</div>
@@ -250,10 +366,10 @@ const UrgentProcessServerPage = () => {
             </div>
           </section>
 
-          {/* Pricing Section */}
+          {/* Pricing & Inclusions Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">Emergency &amp; Standard Pricing</h2>
-            <div className="grid md:grid-cols-3 gap-6 mb-8">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">Pricing &amp; Inclusions</h2>
+            <div className="grid md:grid-cols-3 gap-6 mb-6">
               <div className="bg-white border-2 border-gray-200 p-6 rounded-lg text-center">
                 <h3 className="text-lg font-bold text-gray-900 mb-2">Standard Service</h3>
                 <div className="text-4xl font-bold text-green-600 mb-2">$30</div>
@@ -261,8 +377,9 @@ const UrgentProcessServerPage = () => {
                 <ul className="text-sm text-gray-600 space-y-1 text-left">
                   <li>&#x2713; Up to 3 service attempts</li>
                   <li>&#x2713; GPS-verified proof of service</li>
-                  <li>&#x2713; Notarized affidavit</li>
-                  <li>&#x2713; Real-time status updates</li>
+                  <li>&#x2713; Notarized affidavit of service</li>
+                  <li>&#x2713; Real-time status updates via portal</li>
+                  <li>&#x2713; Mileage included within Tulsa County</li>
                 </ul>
               </div>
               <div className="bg-white border-2 border-orange-300 p-6 rounded-lg text-center shadow-lg">
@@ -271,10 +388,12 @@ const UrgentProcessServerPage = () => {
                 <div className="text-4xl font-bold text-orange-600 mb-2">$150</div>
                 <div className="text-sm text-gray-500 mb-4">Served today &bull; 4&ndash;8 hours</div>
                 <ul className="text-sm text-gray-600 space-y-1 text-left">
-                  <li>&#x2713; Priority scheduling</li>
-                  <li>&#x2713; GPS-verified proof of service</li>
-                  <li>&#x2713; Expedited affidavit</li>
-                  <li>&#x2713; Live phone updates</li>
+                  <li>&#x2713; 1 priority attempt within 4&ndash;8 hours</li>
+                  <li>&#x2713; GPS-verified with date &amp; time stamps</li>
+                  <li>&#x2713; Expedited notarized affidavit</li>
+                  <li>&#x2713; Live phone updates throughout</li>
+                  <li>&#x2713; Court filing included if docs received before 12 PM</li>
+                  <li>&#x2713; Mileage included within Tulsa County</li>
                 </ul>
               </div>
               <div className="bg-white border-2 border-red-300 p-6 rounded-lg text-center shadow-lg">
@@ -283,11 +402,38 @@ const UrgentProcessServerPage = () => {
                 <div className="text-4xl font-bold text-red-600 mb-2">$265</div>
                 <div className="text-sm text-gray-500 mb-4">Immediate dispatch &bull; 2 hours</div>
                 <ul className="text-sm text-gray-600 space-y-1 text-left">
-                  <li>&#x2713; Immediate server dispatch</li>
-                  <li>&#x2713; GPS-verified proof of service</li>
-                  <li>&#x2713; Rush affidavit same day</li>
-                  <li>&#x2713; Direct server communication</li>
+                  <li>&#x2713; 1 immediate attempt within 2-hour window</li>
+                  <li>&#x2713; GPS-verified with exact timestamps</li>
+                  <li>&#x2713; Rush affidavit prepared same day</li>
+                  <li>&#x2713; Direct communication with server</li>
+                  <li>&#x2713; Mileage included within 25-mile radius of Tulsa</li>
+                  <li>&#x2713; After-hours, weekend &amp; holiday available</li>
                 </ul>
+              </div>
+            </div>
+            <div className="bg-yellow-50 border border-yellow-300 rounded-lg p-4 text-sm text-gray-700">
+              <p><strong>Important:</strong> We guarantee a diligent <em>attempt</em> within the selected time window. Successful service cannot be guaranteed because it depends on the defendant being physically present and locatable. If the attempt is unsuccessful, we will coordinate with you on next steps (additional attempts, skip tracing, or alternative service). Travel fees may apply for addresses outside Tulsa County.</p>
+            </div>
+          </section>
+
+          {/* Emergency Service Area */}
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">Emergency Service Area</h2>
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="bg-red-50 border border-red-200 p-6 rounded-lg">
+                <h3 className="text-lg font-bold text-red-900 mb-3">&#x1F534; 2-Hour Emergency</h3>
+                <p className="text-gray-700 mb-2"><strong>Tulsa Metro Area</strong></p>
+                <p className="text-sm text-gray-600">Available within approximately 25 miles of downtown <Link href="/tulsa-process-server" className="text-blue-600 hover:underline">Tulsa</Link>, including Broken Arrow, Jenks, Bixby, Owasso, Sand Springs, Sapulpa, and Glenpool.</p>
+              </div>
+              <div className="bg-orange-50 border border-orange-200 p-6 rounded-lg">
+                <h3 className="text-lg font-bold text-orange-900 mb-3">&#x1F7E0; Same-Day Rush</h3>
+                <p className="text-gray-700 mb-2"><strong>Tulsa County + Neighboring Counties</strong></p>
+                <p className="text-sm text-gray-600">Available throughout Tulsa County and neighboring counties (Rogers, Wagoner, Creek, Osage, Okmulgee). Travel fees may apply outside Tulsa County.</p>
+              </div>
+              <div className="bg-blue-50 border border-blue-200 p-6 rounded-lg">
+                <h3 className="text-lg font-bold text-blue-900 mb-3">&#x1F535; Statewide Emergency</h3>
+                <p className="text-gray-700 mb-2"><strong>All 77 Oklahoma Counties</strong></p>
+                <p className="text-sm text-gray-600">For emergency requests outside the Tulsa metro, call <a href="tel:5393676832" className="text-blue-600 hover:underline font-medium">(539) 367-6832</a> for a custom quote and timeline based on distance and server availability.</p>
               </div>
             </div>
           </section>
@@ -352,7 +498,7 @@ const UrgentProcessServerPage = () => {
                 </div>
                 <div>
                   <strong className="text-gray-900">Coverage:</strong>
-                  <p className="text-gray-600">All 77 Oklahoma counties</p>
+                  <p className="text-gray-600"><Link href="/service-areas" className="text-blue-600 hover:underline">All 77 Oklahoma counties</Link></p>
                 </div>
               </div>
             </div>
@@ -362,32 +508,40 @@ const UrgentProcessServerPage = () => {
           <section className="mb-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Process Serving Services</h2>
             <div className="grid md:grid-cols-3 gap-4">
-              <a href="/tulsa-process-server" className="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
+              <Link href="/tulsa-process-server" className="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
                 <h3 className="font-semibold text-blue-800">Tulsa Process Server</h3>
                 <p className="text-sm text-gray-600 mt-1">Standard and rush process serving in Tulsa County</p>
-              </a>
-              <a href="/courier-services-tulsa" className="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
-                <h3 className="font-semibold text-blue-800">Courier Services Tulsa</h3>
-                <p className="text-sm text-gray-600 mt-1">Fast legal document delivery and courier service</p>
-              </a>
-              <a href="/weekend-emergency" className="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
+              </Link>
+              <Link href="/courier-services-tulsa" className="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
+                <h3 className="font-semibold text-blue-800">Legal Courier Services</h3>
+                <p className="text-sm text-gray-600 mt-1">Courthouse filings, document transport &amp; legal courier</p>
+              </Link>
+              <Link href="/weekend-emergency" className="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
                 <h3 className="font-semibold text-blue-800">Weekend &amp; Emergency Service</h3>
                 <p className="text-sm text-gray-600 mt-1">24/7 emergency process serving availability</p>
-              </a>
-              <a href="/pricing" className="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
-                <h3 className="font-semibold text-blue-800">Process Server Pricing</h3>
-                <p className="text-sm text-gray-600 mt-1">Transparent rates starting at $30</p>
-              </a>
-              <a href="/service-areas" className="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
+              </Link>
+              <Link href="/family-law-service-guide-tulsa-2025" className="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
+                <h3 className="font-semibold text-blue-800">Family Law Service Guide</h3>
+                <p className="text-sm text-gray-600 mt-1">Divorce, custody &amp; family law document delivery</p>
+              </Link>
+              <Link href="/service-areas" className="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
                 <h3 className="font-semibold text-blue-800">Oklahoma Service Areas</h3>
                 <p className="text-sm text-gray-600 mt-1">All cities and counties we serve</p>
-              </a>
-              <a href="/oklahoma-process-server-laws" className="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
+              </Link>
+              <Link href="/oklahoma-process-server-laws" className="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
                 <h3 className="font-semibold text-blue-800">Oklahoma Process Server Laws</h3>
                 <p className="text-sm text-gray-600 mt-1">Legal requirements for serving papers in Oklahoma</p>
-              </a>
+              </Link>
             </div>
           </section>
+
+          {/* Credibility & Compliance Footer */}
+          <div className="bg-green-50 border border-green-200 rounded-lg p-6 mb-8">
+            <p className="text-sm text-gray-700">
+              All emergency process service is performed by licensed Oklahoma private process servers under <Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline font-medium">12 O.S. &sect; 158.1</Link> and in compliance with <Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline font-medium">12 O.S. &sect; 2004</Link>. Each server carries a $5,000 surety bond as required by state law.
+            </p>
+            <p className="text-xs text-gray-500 mt-2">Last updated: February 2026</p>
+          </div>
         </div>
       </main>
 
@@ -420,7 +574,7 @@ const UrgentProcessServerPage = () => {
             },
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
-              "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
               "opens": "00:00",
               "closes": "23:59"
             },
