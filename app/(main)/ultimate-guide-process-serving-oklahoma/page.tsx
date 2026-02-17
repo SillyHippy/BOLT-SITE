@@ -110,15 +110,15 @@ const pageFaqs = [
   },
   {
     "question": "What is the fastest way to get legal documents served in Oklahoma?",
-    "answer": "The <strong>fastest method is personal service</strong> by a licensed professional process server. <strong>Same-day service</strong> is available for rush orders in metro areas like Tulsa and Oklahoma City, typically completed within 4-8 hours for $150-$225. Emergency restraining orders can be served within 2-4 hours. Standard timelines: 24-48 hours in urban areas, 3-5 business days in rural areas, and 1-2 weeks for cases requiring skip tracing or multiple attempts. Factors affecting speed include accuracy of recipient's address, availability of the person being served, geographic location (urban vs. rural), time of day service is attempted, and <strong>professional process servers typically complete service in days versus weeks for sheriff's departments</strong>. <strong>For process servers:</strong> Supplement income through gig platforms like ABC Legal, ServeNow, and Proof, which provide contractor work and mobile apps for job management."
+    "answer": "The <strong>fastest method is personal service</strong> by a licensed professional process server. <strong>Same-day service</strong> is available for rush orders in metro areas like Tulsa and Oklahoma City, typically completed within 4-8 hours for $150-$225. Final or permanent protective orders can often be served within 2-4 hours of receipt (note: emergency protective orders are served by law enforcement per 22 O.S. § 60.4, not private servers). Standard timelines: 24-48 hours in urban areas, 3-5 business days in rural areas, and 1-2 weeks for cases requiring skip tracing or multiple attempts. Factors affecting speed include accuracy of recipient's address, availability of the person being served, geographic location (urban vs. rural), time of day service is attempted, and <strong>professional process servers typically complete service in days versus weeks for sheriff's departments</strong>. <strong>For process servers:</strong> Supplement income through gig platforms like ABC Legal, ServeNow, and Proof, which provide contractor work and mobile apps for job management."
   },
   {
     "question": "What happens if someone cannot be located for service?",
-    "answer": "Professional process servers offer skip tracing services ($100-$250) using legal investigation methods including database searches, public records, and field investigation. Success rates exceed 95% with proper initial information."
+    "answer": "Professional process servers offer skip tracing services ($100-$250) using legal investigation methods including database searches, public records, and field investigation. Success rates are high with proper initial information."
   },
   {
     "question": "How long do defendants have to respond after being served in Oklahoma?",
-    "answer": "Response times vary by case type: civil lawsuits (20 days), divorce papers (20 days), small claims (10 days), and eviction notices (3-30 days depending on violation type). The clock starts when service is completed."
+    "answer": "Response times vary by case type: civil lawsuits (20 days), divorce papers (20 days), small claims (10 days), and eviction notices (notice periods vary by violation type—consult the current statute or an attorney for exact timelines). The clock starts when service is completed."
   },
   {
     "question": "What counties do you serve in Oklahoma?",
@@ -126,7 +126,7 @@ const pageFaqs = [
   },
   {
     "question": "What types of legal documents can be served?",
-    "answer": "We serve all types of legal documents including summons and complaints, divorce papers, subpoenas, eviction notices, restraining orders, court orders, business litigation papers, family law documents, and criminal subpoenas."
+    "answer": "We serve all types of legal documents including summons and complaints, divorce papers, subpoenas, eviction notices, final/permanent protective orders (note: emergency protective orders are served by law enforcement per 22 O.S. § 60.4), court orders, business litigation papers, family law documents, and criminal subpoenas."
   },
   {
     "question": "When should I hire a professional process server versus using the sheriff?",
@@ -138,7 +138,7 @@ const pageFaqs = [
   },
   {
     "question": "Can process servers serve papers on Sundays or holidays in Oklahoma?",
-    "answer": "<strong>Yes, process servers can serve legal documents on Sundays and holidays in Oklahoma</strong> unless specifically prohibited by the court order. However, there are important considerations: <strong>As a professional standard</strong>, service is typically attempted between 6:00 AM and 10:00 PM to respect reasonable hours (this is not a statutory requirement but a practice norm), some counties may have local restrictions, and emergency situations (like restraining orders) can be served any time with court authorization. <strong>Sunday and holiday service typically costs 50% more</strong> than standard rates due to the inconvenience to the process server."
+    "answer": "<strong>Yes, process servers can serve legal documents on Sundays and holidays in Oklahoma</strong> unless specifically prohibited by the court order. However, there are important considerations: <strong>As a professional standard</strong>, service is typically attempted between 6:00 AM and 10:00 PM to respect reasonable hours (this is not a statutory requirement but a practice norm), some counties may have local restrictions, and time-sensitive orders (such as final protective orders) can be served any time with court authorization. <strong>Sunday and holiday service typically costs 50% more</strong> than standard rates due to the inconvenience to the process server."
   },
   {
     "question": "What professional associations should Oklahoma process servers join?",
@@ -146,7 +146,7 @@ const pageFaqs = [
   },
   {
     "question": "What is substituted service and when is it used in Oklahoma?",
-    "answer": "<strong>Substituted service</strong> is used when personal service cannot be achieved after reasonable diligence. Oklahoma allows substituted service by: leaving documents with a <strong>competent adult at the defendant&apos;s residence</strong> (person 15+ years old who resides there), leaving papers with someone in charge at the defendant&apos;s workplace, posting in a conspicuous place if authorized by court order, service by certified mail (in specific circumstances), and publication in newspaper (last resort). <strong>Requirements:</strong> Process server must demonstrate reasonable diligence in attempting personal service. While three attempts at different times/days is common practice to document diligence, it is not a statutory requirement. Court orders can authorize substituted service without multiple attempts."
+    "answer": "<strong>Substituted service</strong> is used when personal service cannot be achieved after reasonable diligence. Oklahoma allows substituted service by: leaving documents with a <strong>person 15 years of age or older who resides at the defendant&apos;s dwelling or usual place of abode</strong> (per 12 O.S. § 2004), leaving papers with someone in charge at the defendant&apos;s workplace, posting in a conspicuous place if authorized by court order, service by certified mail (in specific circumstances), and publication in newspaper (last resort). <strong>Note:</strong> Oklahoma law does not require a fixed number of attempts before using residential substituted service. Multiple attempts at different times and days are a common best practice to demonstrate diligence, but not a statutory mandate for this method. Court orders can authorize alternative service methods."
   },
   {
     "question": "What information do I need to provide to a process server?",
@@ -747,11 +747,11 @@ export default function UltimateGuidePage() {
               <div className="bg-green-50 border border-green-200 p-4 rounded-lg">
                 <h4 className="font-bold text-green-800 mb-3">Quality Assurance Standards</h4>
                 <ul className="text-sm space-y-2">
-                  <li>• <strong>100% legal compliance</strong> with Oklahoma statutes</li>
+                  <li>• <strong>Compliance-focused procedures</strong> designed to meet Oklahoma court standards</li>
                   <li>• Detailed documentation and reporting</li>
                   <li>• <strong>GPS tracking</strong> and timestamp verification</li>
                   <li>• Digital proof of service delivery</li>
-                  <li>• <strong>Court-admissible documentation</strong> guaranteed</li>
+                  <li>• <strong>Court-admissible documentation</strong> with every serve</li>
                 </ul>
               </div>
               
@@ -840,7 +840,7 @@ export default function UltimateGuidePage() {
                   <li>• Digital chain of custody maintenance</li>
                   <li>• <strong>HIPAA-compliant</strong> sensitive document protocols</li>
                   <li>• Automated backup and recovery systems</li>
-                  <li>• <strong>Blockchain verification</strong> for high-stakes cases</li>
+                  <li>• <strong>Optional digital verification</strong> for high-stakes cases (internal tool; courts do not currently require or rely on blockchain verification)</li>
                 </ul>
               </div>
 
@@ -897,11 +897,11 @@ export default function UltimateGuidePage() {
                   <span className="ml-2 font-semibold text-green-800">Oklahoma City Attorney</span>
                 </div>
                 <p className="text-sm italic mb-3">
-                  &quot;Emergency restraining order served at <strong>11 PM on a Sunday</strong> - exactly when we needed it. Their 24/7 availability 
+                  &quot;Permanent protective order served at <strong>11 PM on a Sunday</strong> - exactly when we needed it. Their 24/7 availability 
                   and professional handling of sensitive domestic cases sets them apart. Absolutely recommended.&quot;
                 </p>
                 <div className="text-xs text-gray-600">
-                  <strong>Case Type:</strong> Emergency Protective Order | <strong>Timeline:</strong> 2 hours | <strong>Success:</strong> Completed
+                  <strong>Case Type:</strong> Permanent Protective Order | <strong>Timeline:</strong> 2 hours | <strong>Success:</strong> Completed
                 </div>
               </div>
 
@@ -1043,7 +1043,7 @@ export default function UltimateGuidePage() {
             </div>
 
             <div className="bg-gradient-to-r from-blue-50 to-purple-50 p-5 rounded-lg">
-              <h4 className="font-bold text-lg mb-3">Statewide Coverage Guarantee</h4>
+              <h4 className="font-bold text-lg mb-3">Statewide Coverage</h4>
               <div className="grid md:grid-cols-2 gap-4">
                 <div>
                   <h5 className="font-semibold mb-2">All 77 Counties Served:</h5>
@@ -1325,11 +1325,11 @@ export default function UltimateGuidePage() {
                 <div className="grid md:grid-cols-2 gap-4">
                   <div className="bg-blue-50 p-4 rounded-lg">
                     <h5 className="font-semibold text-blue-800 mb-2">Residential Substituted Service</h5>
-                    <p className="text-sm mb-3"><strong>When used:</strong> When personal service is not possible despite <strong>reasonable diligence</strong> (often after multiple attempts)</p>
+                    <p className="text-sm mb-3"><strong>When used:</strong> When personal service is not possible despite <strong>reasonable diligence</strong></p>
                     <ul className="text-sm space-y-1">
                       <li>• Leave documents at defendant&apos;s dwelling</li>
-                      <li>• With person 15+ years old who resides there (per Title 12 § 2004)</li>
-                      <li>• Person must be of &quot;suitable age and discretion&quot;</li>
+                      <li>• With person <strong>15 years of age or older</strong> who resides there (per 12 O.S. § 2004)</li>
+                      <li>• <strong>No fixed number of attempts is required by statute</strong> for residential substituted service; multiple attempts are a common best practice to demonstrate diligence, not a statutory mandate</li>
                       <li>• <strong>No additional mailing required in Oklahoma</strong></li>
                       <li>• Cannot leave with temporary visitors</li>
                       <li>• Must verify person lives at residence</li>
@@ -1525,7 +1525,7 @@ export default function UltimateGuidePage() {
                   <ul className="text-sm space-y-1">
                     <li>• <strong>Divorce Papers:</strong> Petition for dissolution of marriage, responses</li>
                     <li>• <strong>Child Custody/Support:</strong> Custody petitions, support enforcement</li>
-                    <li>• <strong>Protective Orders:</strong> Domestic violence and stalking protection orders</li>
+                    <li>• <strong>Protective Orders:</strong> Final/permanent protective orders (note: emergency protective orders are served by law enforcement per 22 O.S. § 60.4)</li>
                     <li>• <strong>Adoption Papers:</strong> Adoption proceedings, parental rights termination</li>
                   </ul>
                   <p className="text-sm mt-3">
@@ -1536,8 +1536,8 @@ export default function UltimateGuidePage() {
                 <div className="bg-green-50 border border-green-200 p-4 rounded-lg">
                   <h4 className="font-bold text-green-800 mb-3">Landlord-Tenant Documents</h4>
                   <ul className="text-sm space-y-1">
-                    <li>• <strong>Eviction Proceedings:</strong> 15-day notice (non-payment), 30-day notice</li>
-                    <li>• <strong>Lease Violations:</strong> 10-day notice to quit, property damage claims</li>
+                    <li>• <strong>Eviction Proceedings:</strong> Oklahoma law provides different notice periods (often between 5 and 30 days) depending on the lease and type of violation; consult the current statute or an attorney for exact notice periods</li>
+                    <li>• <strong>Lease Violations:</strong> Notice to quit, property damage claims</li>
                     <li>• <strong>FED Actions:</strong> Forcible entry and detainer complaints</li>
                     <li>• <strong>Commercial Evictions:</strong> Business lease terminations</li>
                   </ul>
@@ -1568,7 +1568,7 @@ export default function UltimateGuidePage() {
                 <div className="bg-yellow-50 border border-yellow-200 p-4 rounded-lg">
                   <h4 className="font-bold text-yellow-800 mb-3">Specialized Requirements</h4>
                   <ul className="text-sm space-y-1">
-                    <li>• <strong>Emergency Orders:</strong> Immediate service required</li>
+                    <li>• <strong>Protective Orders:</strong> Final/permanent orders: immediate service; EPOs are served by law enforcement (22 O.S. § 60.4)</li>
                     <li>• <strong>Time-Sensitive:</strong> Same-day or next-day service</li>
                     <li>• <strong>Personal Service:</strong> Most documents require direct delivery</li>
                     <li>• <strong>Substituted Service:</strong> Limited to specific circumstances</li>
@@ -1743,7 +1743,7 @@ export default function UltimateGuidePage() {
                 <ul className="text-sm space-y-2">
                   <li>• <strong>Same-Day:</strong> 4-8 hours from receipt to completion</li>
                   <li>• <strong>Rush (24-48 hours):</strong> Priority queue processing</li>
-                  <li>• <strong>Emergency Orders:</strong> 2-4 hours for protective orders</li>
+                  <li>• <strong>Emergency Orders:</strong> 2-4 hours for final/permanent protective orders (EPOs are served by law enforcement per 22 O.S. § 60.4)</li>
                   <li>• <strong>Weekend/Holiday:</strong> Available with 50% surcharge</li>
                   <li>• <strong>Success Rate:</strong> Very high completion rate for same-day requests when address is accurate</li>
                 </ul>
@@ -1760,9 +1760,9 @@ export default function UltimateGuidePage() {
                   <p><strong>Small Claims:</strong> Service at least <strong>7 days</strong> before hearing (many courts schedule hearings 10–30 days after filing)</p>
                 </div>
                 <div>
-                  <p><strong>Eviction Notices:</strong> 3-30 day notice periods (varies by violation)</p>
+                  <p><strong>Eviction Notices:</strong> Notice periods vary by violation type—consult current statute or an attorney</p>
                   <p><strong>Subpoenas:</strong> Reasonable notice required (typically 5+ days)</p>
-                  <p><strong>Restraining Orders:</strong> Immediate service required</p>
+                  <p><strong>Protective Orders:</strong> Final/permanent orders: immediate service; EPOs served by law enforcement</p>
                 </div>
               </div>
             </div>
@@ -2043,19 +2043,19 @@ export default function UltimateGuidePage() {
               </div>
 
               <div className="bg-yellow-50 border border-yellow-200 p-4 rounded-lg">
-                <h4 className="font-bold text-yellow-800 mb-3">Upcoming Changes (2025-2026)</h4>
+                <h4 className="font-bold text-yellow-800 mb-3">Potential Future Changes</h4>
                 <div className="space-y-3 text-sm">
                   <div>
-                    <strong>Digital Transformation Initiative:</strong>
-                    <p>Planned implementation of statewide digital service tracking and automated court filing systems for improved efficiency and transparency.</p>
+                    <strong>Digital Transformation Discussion:</strong>
+                    <p>There has been industry discussion about statewide digital service tracking and automated court filing systems. No mandatory statewide system is currently in effect. Always verify current requirements.</p>
                   </div>
                   <div>
-                    <strong>Professional Development Requirements:</strong>
-                    <p>Proposed continuing education requirements for licensed process servers to maintain current knowledge of legal changes and best practices.</p>
+                    <strong>Professional Development Discussion:</strong>
+                    <p>There has been discussion of potential continuing education requirements for licensed process servers, but no statewide mandatory CE program is currently in effect. Check with OSCN or the Oklahoma Bar for the latest updates.</p>
                   </div>
                   <div>
                     <strong>Interstate Service Coordination:</strong>
-                    <p>Enhanced reciprocity agreements with neighboring states for streamlined cross-border service of process.</p>
+                    <p>Enhanced reciprocity agreements with neighboring states for streamlined cross-border service of process remain under discussion.</p>
                   </div>
                 </div>
               </div>

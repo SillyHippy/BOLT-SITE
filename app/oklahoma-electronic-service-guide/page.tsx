@@ -94,20 +94,24 @@ export default function OklahomaElectronicServiceGuide() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-2">Legal Framework for Electronic Service in Oklahoma</h2>
           
-          <h3 className="text-xl font-bold mb-2">Statutory Authorization Under 12 O.S. §12-158.1</h3>
+          <h3 className="text-xl font-bold mb-2">Statutory Authorization Under 12 O.S. § 2004.5 and Court Rules</h3>
           <p className="mb-4">
-            Oklahoma&apos;s electronic service statute provides comprehensive authorization for email service under specific conditions that protect due process rights while enabling technological advancement.
+            Oklahoma’s electronic service framework is governed primarily by <strong>12 O.S. § 2004.5</strong> and applicable Oklahoma Supreme Court rules. (Note: 12 O.S. § 158.1 governs <em>licensing and bonding</em> for private process servers—it is not the electronic service statute.) Electronic service is generally permitted for <strong>subsequent filings and consent-based service</strong>, not for initial service of a summons and petition unless a specific statute or court order allows it.
           </p>
+
+          <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-6">
+            <p className="text-sm text-yellow-800"><strong>Important Distinction:</strong> Initial service of process (the original summons and petition) is governed by <strong>12 O.S. § 2004</strong>, which generally requires personal delivery, substituted service, or another method specifically authorized in that statute. Electronic service under § 2004.5 applies primarily to subsequent filings, discovery, and situations where a court order or written consent permits it. Always verify with applicable court rules and the presiding judge’s preferences.</p>
+          </div>
           
           <h4 className="text-lg font-semibold mb-2">Core Statutory Requirements:</h4>
           
           <div className="mb-4">
-            <h5 className="font-semibold mb-2">Express Written Consent Mandate:</h5>
+            <h5 className="font-semibold mb-2">Express Written Consent:</h5>
             <ul className="list-disc ml-6 mb-4">
               <li>Party to be served must provide explicit written consent for electronic service</li>
-              <li>General consent language insufficient; specific requirements must be met</li>
-              <li>Consent must identify designated email address for service</li>
-              <li>Revocation procedures must be clearly established and accessible</li>
+              <li>Courts may require explicit written consent to electronic service or a court order; generic consent in contracts may not be sufficient—check applicable court rules and the judge’s preferences</li>
+              <li>Consent must identify the designated email address for service</li>
+              <li>Revocation procedures should be clearly established and accessible</li>
             </ul>
           </div>
 
@@ -124,10 +128,10 @@ export default function OklahomaElectronicServiceGuide() {
           <div className="mb-4">
             <h5 className="font-semibold mb-2">Court Filing Integration:</h5>
             <ul className="list-disc ml-6 mb-4">
-              <li>Electronic service consent must be filed with appropriate court</li>
-              <li>Service certificates automatically generated through court systems</li>
-              <li>Electronic filing deadlines modified for electronic service methods</li>
-              <li>Backup service requirements established for system failures</li>
+              <li>Electronic service consent should be filed with the appropriate court</li>
+              <li>Service certificates may be generated through court e-filing systems where available</li>
+              <li>Electronic filing deadlines may be modified for electronic service methods—check local court rules</li>
+              <li>Backup service requirements should be established for system failures</li>
             </ul>
           </div>
         </section>
@@ -262,7 +266,7 @@ export default function OklahomaElectronicServiceGuide() {
           <div className="mb-4">
             <h4 className="text-lg font-semibold mb-2">Professional Email Structure Requirements:</h4>
             <p className="italic">
-              <em>This guide is provided for educational purposes by Just Legal Solutions, licensed Oklahoma process servers. Electronic service implementation should be coordinated with legal counsel to ensure compliance with specific case requirements and court rules.</em>
+              <em>This guide is provided for educational purposes by Just Legal Solutions, licensed Oklahoma process servers. Electronic service implementation should be coordinated with legal counsel to ensure compliance with specific case requirements and court rules. Check <a href="https://www.oscn.net" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">OSCN</a> or the local court’s website for current electronic service and consent forms—do not rely on unofficial or outdated forms.</em>
             </p>
           </div>
         </section>
@@ -276,6 +280,7 @@ export default function OklahomaElectronicServiceGuide() {
                 <li><a href="/oklahoma-process-server-best-practices-checklist-2026" className="text-blue-700 underline">→ Best Practices Checklist 2026</a></li>
                 <li><a href="/oklahoma-process-server-faq-2026" className="text-blue-700 underline">→ Process Server FAQ 2026</a></li>
                 <li><a href="/process-serving-mistakes-guide" className="text-blue-700 underline">→ Common Mistakes to Avoid</a></li>
+                <li><a href="/tulsa-process-server" className="text-blue-700 underline">→ Tulsa Process Server</a></li>
               </ul>
             </div>
             <div className="bg-white border border-gray-200 p-6 rounded-lg">

@@ -116,7 +116,7 @@ export default function OklahomaProcessServerLaws() {
                 In Oklahoma, the rules for serving legal documents are primarily found in <strong>Title 12 of the Oklahoma Statutes (Civil Procedure)</strong>. The most critical section is <strong>§ 2004</strong>, which outlines how process must be served, who can serve it, and how proof of service must be filed.
               </p>
               <p>
-                Unlike some states where rules vary wildly by city, these statutes are <strong>statewide laws</strong>. While individual counties (like Tulsa or Oklahoma County) handle the <em>administrative</em> licensing of servers, the laws governing <em>how</em> you serve a defendant remain consistent across the state.
+                Unlike some states where rules vary wildly by city, these statutes are <strong>statewide laws</strong>. While individual counties (like Tulsa or Oklahoma County) may have their own administrative procedures for processing license applications, the substantive laws governing <em>how</em> you serve a defendant are consistent across all 77 counties. Licensing and bonding standards (age, residency, bond amount) are set by state law—not by individual counties. For answers to common questions, see our <Link href="/oklahoma-process-server-faq-2026" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ</Link>.
               </p>
 
               <hr className="my-8 border-gray-200" />
@@ -131,7 +131,7 @@ export default function OklahomaProcessServerLaws() {
                 <li><strong>A Court-Appointed Person:</strong> A judge may specially appoint a specific person to serve process in a specific case.</li>
               </ul>
               <div className="bg-blue-50 p-4 rounded-md text-sm text-blue-800 mb-6">
-                <strong>Note on Licensing:</strong> To be a licensed private process server, an applicant must be 18+, a resident of Oklahoma, of good moral character, and must post a $5,000 bond. They carry a license/ID card issued by the court clerk.
+                <strong>Note on Licensing:</strong> To be a licensed private process server, an applicant must be 18+, a resident of Oklahoma, of good moral character, and must post a $5,000 bond. They carry a license/ID card issued by the court clerk. Licensing and bonding requirements are set by state law (12 O.S. § 158.1) and are statewide. Each county may have its own application procedure, scheduling, and local forms; check with the district court or court clerk for the current local process. Prisoners and parolees cannot be appointed as process servers.
               </div>
 
               <h2 className="text-2xl font-bold text-slate-900 mb-4">Service on Individuals: Personal & Substituted</h2>
@@ -199,6 +199,23 @@ export default function OklahomaProcessServerLaws() {
                 <li><strong>For Personal/Substituted Service:</strong> The server files an affidavit stating the name of the person served, the date, the place, and the method of service.</li>
                 <li><strong>For Certified Mail:</strong> The return must include the sender&apos;s receipt and the signed return receipt (green card).</li>
               </ul>
+
+              <div className="mt-10 p-6 bg-gray-50 rounded-lg border border-gray-200">
+                <h3 className="text-lg font-bold text-slate-900 mb-2">Law vs. Best Practice</h3>
+                <p className="text-sm text-gray-700">
+                  Throughout this guide, we distinguish between statutory requirements (what the law mandates) and professional best practices (what experienced process servers recommend). When we describe our firm&apos;s internal practices—such as varying attempt times, mailing courtesy copies, or using GPS documentation—those are our standards, not legal requirements, unless a statute or rule is cited.
+                </p>
+              </div>
+
+              <div className="mt-10 bg-blue-50 rounded-lg p-6 border border-blue-100">
+                <h3 className="text-lg font-bold text-slate-900 mb-2">Related Resources</h3>
+                <ul className="text-sm space-y-2">
+                  <li><Link href="/oklahoma-process-server-faq-2026" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ 2026</Link> — Common questions about costs, timelines, and licensing.</li>
+                  <li><Link href="/tulsa-process-server" className="text-blue-600 hover:underline">Tulsa Process Server</Link> — Same-day service throughout Tulsa County.</li>
+                  <li><Link href="/service-areas" className="text-blue-600 hover:underline">Oklahoma Service Areas</Link> — All 77 counties with flat-rate pricing.</li>
+                  <li><Link href="/oklahoma-electronic-service-guide" className="text-blue-600 hover:underline">Electronic Service Guide</Link> — When email or e-filing is permitted under 12 O.S. § 2004.5.</li>
+                </ul>
+              </div>
 
               <div className="mt-12 p-8 bg-slate-50 rounded-xl border border-slate-200">
                 <h3 className="text-xl font-bold text-slate-900 mb-2">Need a Licensed Oklahoma Process Server?</h3>
