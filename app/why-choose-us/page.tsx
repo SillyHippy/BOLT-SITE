@@ -1,6 +1,7 @@
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 import Image from 'next/image';
+import Link from 'next/link';
 import { Shield, Clock, MapPin, Zap, Smartphone, Users, CheckCircle, Star, Phone, ArrowRight, Award, Target, FileText, BadgeCheck } from 'lucide-react';
 
 export const metadata = {
@@ -355,6 +356,39 @@ export default function WhyChooseUs() {
                   View Pricing
                 </a>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Explore Our Services */}
+        <section className="py-12 bg-white">
+          <div className="container mx-auto px-4 max-w-4xl">
+            <h2 className="text-2xl font-bold text-center text-blue-900 mb-8">Explore Our Services</h2>
+            <div className="grid md:grid-cols-3 gap-4">
+              <Link href="/tulsa-process-server" className="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
+                <h3 className="font-semibold text-blue-800">Tulsa Process Server</h3>
+                <p className="text-sm text-gray-600 mt-1">Professional process serving in Tulsa County</p>
+              </Link>
+              <Link href="/urgent-process-server" className="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
+                <h3 className="font-semibold text-blue-800">Urgent Process Server</h3>
+                <p className="text-sm text-gray-600 mt-1">Same-day and 2-hour emergency service</p>
+              </Link>
+              <Link href="/courier-services-tulsa" className="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
+                <h3 className="font-semibold text-blue-800">Courier Services Tulsa</h3>
+                <p className="text-sm text-gray-600 mt-1">Legal document delivery and courier service</p>
+              </Link>
+              <Link href="/service-areas" className="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
+                <h3 className="font-semibold text-blue-800">Oklahoma Service Areas</h3>
+                <p className="text-sm text-gray-600 mt-1">All cities and counties we serve</p>
+              </Link>
+              <Link href="/oklahoma-process-server-laws" className="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
+                <h3 className="font-semibold text-blue-800">Oklahoma Process Server Laws</h3>
+                <p className="text-sm text-gray-600 mt-1">Legal requirements for serving process</p>
+              </Link>
+              <Link href="/resources" className="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
+                <h3 className="font-semibold text-blue-800">Resources &amp; Guides</h3>
+                <p className="text-sm text-gray-600 mt-1">Legal guides, tools, and educational resources</p>
+              </Link>
             </div>
           </div>
         </section>

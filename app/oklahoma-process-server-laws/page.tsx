@@ -154,7 +154,7 @@ export default function OklahomaProcessServerLaws() {
                 <li><strong>Licensed private investigators</strong> with proper credentials (in certain circumstances)</li>
               </ul>
               <p className="mb-8">
-                In practice, most attorneys and individuals hire a <strong>licensed private process server</strong> because sheriffs&apos; offices are often backlogged, leading to delays that risk missing court deadlines.
+                In practice, most attorneys and individuals hire a <strong>licensed private process server</strong> because sheriffs&apos; offices are often backlogged, leading to delays that risk missing court deadlines. For a deeper look at state‑level qualifications and oversight, see our guide on <Link href="/oklahoma-process-server-authority" className="text-blue-600 hover:underline font-semibold">Oklahoma process server authority requirements</Link>.
               </p>
 
               <h2 className="text-3xl font-bold mb-6">Age, Bonding &amp; Insurance Requirements</h2>

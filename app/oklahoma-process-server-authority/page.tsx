@@ -256,6 +256,31 @@ export default function OklahomaProcessServerAuthority() {
           </div>
         </section>
 
+        {/* Related Resources */}
+        <section className="py-16 bg-gray-50">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Related Resources</h2>
+            <div className="grid md:grid-cols-2 gap-6">
+              <Link href="/oklahoma-process-server-laws" className="block bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
+                <h3 className="text-xl font-bold text-blue-900 mb-2">Oklahoma Process Server Laws & Requirements</h3>
+                <p className="text-gray-600 text-sm">Complete guide to licensing, bonding, and state law requirements for process servers in Oklahoma.</p>
+              </Link>
+              <Link href="/oklahoma-process-server-best-practices-checklist-2026" className="block bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
+                <h3 className="text-xl font-bold text-blue-900 mb-2">Process Server Best Practices Checklist 2026</h3>
+                <p className="text-gray-600 text-sm">Essential checklist covering documentation, service methods, and compliance standards.</p>
+              </Link>
+              <Link href="/seo/what-is-a-process-server" className="block bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
+                <h3 className="text-xl font-bold text-blue-900 mb-2">What Is a Process Server?</h3>
+                <p className="text-gray-600 text-sm">Learn what process servers do, how they operate, and when you need one for your legal matter.</p>
+              </Link>
+              <Link href="/service-areas" className="block bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
+                <h3 className="text-xl font-bold text-blue-900 mb-2">Oklahoma Service Areas</h3>
+                <p className="text-gray-600 text-sm">Browse our complete list of cities and counties served throughout Oklahoma.</p>
+              </Link>
+            </div>
+          </div>
+        </section>
+
         {/* Contact CTA */}
         <section className="py-16 bg-gradient-to-r from-blue-600 to-blue-700 text-white">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

@@ -409,6 +409,15 @@ export default function GlenpoolProcessServer() {
               </div>
             </div>
           </section>
+          {/* Browse All Service Areas */}
+          <div className="text-center py-8">
+            <Link
+              href="/service-areas"
+              className="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold text-lg transition-colors"
+            >
+              ← Browse All Oklahoma Service Areas
+            </Link>
+          </div>
         </div>
         </div>
       </main>

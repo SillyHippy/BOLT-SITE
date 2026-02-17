@@ -984,6 +984,7 @@ export default function TulsaProcessServerPage() {
               <li><Link href="/oklahoma-process-server-pricing" className="text-blue-600 hover:underline">Pricing Guide</Link></li>
               <li><Link href="/oklahoma-process-server-best-practices-checklist-2026" className="text-blue-600 hover:underline">Best Practices 2026</Link></li>
               <li><Link href="/process-serving-mistakes-guide" className="text-blue-600 hover:underline">Common Mistakes</Link></li>
+              <li><Link href="/why-choose-us" className="text-blue-600 hover:underline">Why Choose Just Legal Solutions</Link></li>
             </ul>
           </div>
           

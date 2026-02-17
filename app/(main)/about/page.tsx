@@ -341,6 +341,9 @@ export default function AboutPage() {
                     <li><a href="https://justlegalsolutions.org" className="text-white hover:text-blue-200 underline">Our Services</a></li>
                     <li><a href="https://justlegalsolutions.org/service-areas" className="text-white hover:text-blue-200 underline">View Our Full Service Area</a></li>
                     <li><a href="https://justlegalsolutions.org/contact" className="text-white hover:text-blue-200 underline">Request a Quote Online</a></li>
+                    <li><Link href="/why-choose-us" className="text-white hover:text-blue-200 underline">Why Choose Just Legal Solutions</Link></li>
+                    <li><Link href="/resources" className="text-white hover:text-blue-200 underline">Legal Resources & Guides</Link></li>
+                    <li><Link href="/process-server-tulsa-guide" className="text-white hover:text-blue-200 underline">Tulsa Process Server Guide</Link></li>
                   </ul>
                 </div>
               </div>

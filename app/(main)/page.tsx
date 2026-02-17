@@ -438,6 +438,26 @@ export default function Home() {
               <h3 className="font-bold text-gray-900 mb-2">Tulsa Process Server</h3>
               <p className="text-gray-600 text-sm">Serving all of Tulsa County</p>
             </a>
+            <a href="/service-areas" className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition text-center block">
+              <div className="text-3xl mb-3">🗺️</div>
+              <h3 className="font-bold text-gray-900 mb-2">Oklahoma Service Areas</h3>
+              <p className="text-gray-600 text-sm">Browse all cities and counties we serve</p>
+            </a>
+            <a href="/urgent-process-server" className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition text-center block">
+              <div className="text-3xl mb-3">⚡</div>
+              <h3 className="font-bold text-gray-900 mb-2">Urgent Process Server</h3>
+              <p className="text-gray-600 text-sm">Same-day rush process serving</p>
+            </a>
+            <a href="/courier-services-tulsa" className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition text-center block">
+              <div className="text-3xl mb-3">🚗</div>
+              <h3 className="font-bold text-gray-900 mb-2">Courier Services Tulsa</h3>
+              <p className="text-gray-600 text-sm">Fast document delivery and courier service</p>
+            </a>
+            <a href="/resources" className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition text-center block">
+              <div className="text-3xl mb-3">📚</div>
+              <h3 className="font-bold text-gray-900 mb-2">Resources & Guides</h3>
+              <p className="text-gray-600 text-sm">Legal guides, tools, and educational resources</p>
+            </a>
           </div>
         </div>
       </section>

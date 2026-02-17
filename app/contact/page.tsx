@@ -53,6 +53,7 @@ export const metadata = {
 
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import { Shield, Star, Clock, Phone, Mail, MapPin, ArrowRight } from 'lucide-react';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
@@ -265,6 +266,10 @@ export default function ContactPage() {
                 <span className="text-gray-800 text-sm">Trusted by law firms, businesses, and individuals</span>
               </div>
             </div>
+          </section>
+          {/* Helpful Resources */}
+          <section className="max-w-3xl mx-auto bg-blue-50 rounded-lg shadow-md p-4 mb-8 border border-blue-100">
+            <p className="text-sm text-gray-700">While you wait, explore our <Link href="/resources" className="text-blue-600 hover:underline font-medium">legal resources and guides</Link> for helpful information about process serving, Oklahoma laws, and how to prepare your documents.</p>
           </section>
           {/* Accessibility Statement */}
           <section className="max-w-3xl mx-auto bg-gray-50 rounded-lg shadow-md p-4 mb-8 border border-gray-200">

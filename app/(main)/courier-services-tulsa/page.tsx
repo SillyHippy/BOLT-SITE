@@ -380,6 +380,39 @@ export default function CourierServicesTulsaPage() {
           </div>
         </section>
 
+        {/* Related Services */}
+        <section className="py-12 bg-white">
+          <div className="container mx-auto px-4 max-w-4xl">
+            <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">Related Process Serving &amp; Delivery Services</h2>
+            <div className="grid md:grid-cols-3 gap-4">
+              <Link href="/urgent-process-server" className="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
+                <h3 className="font-semibold text-blue-800">Urgent Process Server</h3>
+                <p className="text-sm text-gray-600 mt-1">Same-day and 2-hour emergency process serving</p>
+              </Link>
+              <Link href="/weekend-emergency" className="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
+                <h3 className="font-semibold text-blue-800">Weekend &amp; Emergency Service</h3>
+                <p className="text-sm text-gray-600 mt-1">24/7 availability for critical legal deadlines</p>
+              </Link>
+              <Link href="/pricing" className="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
+                <h3 className="font-semibold text-blue-800">Service Pricing Guide</h3>
+                <p className="text-sm text-gray-600 mt-1">Transparent rates for all services starting at $30</p>
+              </Link>
+              <Link href="/oklahoma-process-server-laws" className="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
+                <h3 className="font-semibold text-blue-800">Oklahoma Process Server Laws</h3>
+                <p className="text-sm text-gray-600 mt-1">Legal requirements for serving documents in Oklahoma</p>
+              </Link>
+              <Link href="/law-firm-services" className="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
+                <h3 className="font-semibold text-blue-800">Law Firm Services</h3>
+                <p className="text-sm text-gray-600 mt-1">Dedicated process serving solutions for legal professionals</p>
+              </Link>
+              <Link href="/why-choose-us" className="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
+                <h3 className="font-semibold text-blue-800">Why Choose Just Legal Solutions</h3>
+                <p className="text-sm text-gray-600 mt-1">Licensed, bonded, and GPS-verified process serving</p>
+              </Link>
+            </div>
+          </div>
+        </section>
+
         {/* FAQ Section */}
         <section className="py-16 bg-gray-50 border-t">
           <div className="container mx-auto px-4 max-w-3xl">

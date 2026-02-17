@@ -220,7 +220,12 @@ const majorCities = [
   { name: "Wagoner", county: "Wagoner", population: "9,090", link: "/service-areas/wagoner" },
   { name: "Skiatook", county: "Osage", population: "8,036", link: "/service-areas/skiatook" },
   { name: "Catoosa", county: "Rogers", population: "7,930", link: "/service-areas/catoosa" },
-  { name: "Collinsville", county: "Tulsa", population: "7,140", link: "/service-areas/collinsville" }
+  { name: "Collinsville", county: "Tulsa", population: "7,140", link: "/service-areas/collinsville" },
+  { name: "Bristow", county: "Creek", population: "4,222", link: "/service-areas/bristow" },
+  { name: "Pawhuska", county: "Osage", population: "3,584", link: "/service-areas/pawhuska" },
+  { name: "Kellyville", county: "Creek", population: "1,150", link: "/service-areas/kellyville" },
+  { name: "Nowata", county: "Nowata", population: "3,636", link: "/service-areas/nowata" },
+  { name: "Vinita", county: "Craig", population: "5,743", link: "/service-areas/vinita" }
 ];
 
 export default function ServiceAreasHub() {

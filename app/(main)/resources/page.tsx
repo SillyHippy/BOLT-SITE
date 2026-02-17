@@ -44,8 +44,11 @@ const ResourcesPage = () => {
       description: "Everything you need to know about legal document delivery.",
       articles: [
   { title: "What is a Process Server?", url: "/seo/what-is-a-process-server", preview: "A complete guide to the role and responsibilities of a process server." },
-        { title: "Oklahoma Rules of Civil Procedure", url: null, preview: "Understanding the state laws that govern service of process." },
-        { title: "Complete Tulsa Process Server Guide", url: "/process-server-tulsa-guide", preview: "Your comprehensive 2026 guide to selecting and working with process servers in Tulsa." }
+        { title: "Oklahoma Rules of Civil Procedure", url: "/oklahoma-process-server-laws", preview: "Understanding the state laws that govern service of process in Oklahoma." },
+        { title: "Complete Tulsa Process Server Guide", url: "/process-server-tulsa-guide", preview: "Your comprehensive 2026 guide to selecting and working with process servers in Tulsa." },
+        { title: "Ultimate Guide to Process Serving in Oklahoma", url: "/ultimate-guide-process-serving-oklahoma", preview: "Everything attorneys and individuals need to know about Oklahoma process serving." },
+        { title: "Process Server Best Practices Checklist", url: "/oklahoma-process-server-best-practices-checklist-2026", preview: "Professional checklist for Oklahoma process servers to ensure legal compliance." },
+        { title: "Common Process Serving Mistakes to Avoid", url: "/process-serving-mistakes-guide", preview: "Learn the most frequent errors in process serving and how to prevent them." }
       ]
     },
     {
@@ -55,26 +58,35 @@ const ResourcesPage = () => {
       articles: [
         { title: "Serving Divorce Papers in Tulsa", url: "/family-law-service-guide-tulsa", preview: "Professional family law document delivery throughout Tulsa County." },
         { title: "How to Serve an Eviction Notice", url: "/seo/eviction-notice-process-server", preview: "Professional eviction notice delivery for landlords - complete legal compliance guide." },
-        { title: "The Power of a Subpoena", url: null, preview: "Ensuring witnesses and documents are legally compelled to appear." }
+        { title: "Oklahoma Electronic Service Guide", url: "/oklahoma-electronic-service-guide", preview: "When and how electronic service of process is permitted under Oklahoma law." },
+        { title: "High-Profile Service Protocols in Tulsa", url: "/high-profile-service-protocols-tulsa", preview: "Specialized service protocols for sensitive and high-profile cases." },
+        { title: "Serving Legal Papers on Tribal Land", url: "/serving-legal-papers-on-tribal-land", preview: "Navigating tribal sovereignty requirements for process serving in Oklahoma." },
+        { title: "Oklahoma Case Law on Service of Process", url: "/oklahoma-case-law-service-process", preview: "Key Oklahoma court decisions that shape process serving requirements." }
       ]
     },
     {
       icon: MapPin,
-      title: "Service of Process by County",
+      title: "Service Areas & Coverage",
       description: "Learn about specific rules and challenges in different Oklahoma counties.",
       articles: [
   { title: "Process Serving in Tulsa County", url: "/counties/tulsa-county", preview: "Navigating the busiest judicial district in Oklahoma." },
-        { title: "Serving Documents in Oklahoma County", url: null, preview: "Key differences for serving in the OKC metro area." },
-        { title: "Rural County Process Serving", url: null, preview: "Tips for successful service in less populated areas." }
+        { title: "Oklahoma Legal Service Areas", url: "/oklahoma-legal-service-areas", preview: "Comprehensive coverage map of all Oklahoma cities and counties we serve." },
+        { title: "Browse All Service Areas", url: "/service-areas", preview: "Find professional process serving in your Oklahoma city." },
+        { title: "Oklahoma Process Server Authority", url: "/oklahoma-process-server-authority", preview: "Understanding who has the legal authority to serve process in Oklahoma." },
+        { title: "Oklahoma vs Texas Process Serving", url: "/oklahoma-vs-texas-process-server", preview: "Key differences in process serving laws between Oklahoma and Texas." }
       ]
     },
     {
       icon: FileText,
-      title: "Tools & Templates",
-      description: "Professional forms and tools to streamline your process serving workflow.",
+      title: "Tools, Pricing & Templates",
+      description: "Professional forms, tools, and pricing information.",
       articles: [
         { title: "Field Sheet Generator", url: "/field-sheet", preview: "Generate, fill out, and print professional field sheets for service of process — or save as PDF." },
-        { title: "Affidavit of Service Generator", url: "/affidavit-of-service", preview: "Create professional Affidavit of Service or Non-Service forms with notary section — print or save as PDF." },
+        { title: "Affidavit of Service Generator", url: "/affidavit-of-service", preview: "Create professional Affidavit of Service or Non-Service forms with notary section." },
+        { title: "Oklahoma Process Server Pricing", url: "/oklahoma-process-server-pricing", preview: "Transparent pricing guide for process serving across Oklahoma." },
+        { title: "Oklahoma Process Serving Costs Comparison", url: "/oklahoma-process-serving-costs-comparison", preview: "Compare process serving costs across different Oklahoma providers." },
+        { title: "AI Skip Tracing Guide for Oklahoma", url: "/ai-skip-tracing-guide-oklahoma", preview: "How AI-powered skip tracing helps locate hard-to-find individuals." },
+        { title: "Process Server Technology", url: "/oklahoma-process-server-technology", preview: "GPS tracking, electronic filing, and modern tools used in process serving." }
       ]
     }
   ];

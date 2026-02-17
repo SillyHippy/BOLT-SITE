@@ -474,6 +474,39 @@ export default function PricingPage() {
         </div>
       </section>
       
+      {/* Related Resources */}
+      <section className="py-12 px-4 bg-white">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl font-bold text-center mb-8 text-blue-900">Related Pricing & Service Resources</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <Link href="/oklahoma-process-server-pricing" className="block p-4 bg-gray-50 rounded-lg border border-gray-200 hover:border-blue-300 hover:shadow-md transition-all">
+              <h3 className="font-semibold text-blue-800">Oklahoma Process Server Pricing Guide</h3>
+              <p className="text-sm text-gray-600 mt-1">Detailed breakdown of process serving costs across Oklahoma</p>
+            </Link>
+            <Link href="/oklahoma-process-serving-costs-comparison" className="block p-4 bg-gray-50 rounded-lg border border-gray-200 hover:border-blue-300 hover:shadow-md transition-all">
+              <h3 className="font-semibold text-blue-800">Oklahoma Process Serving Costs Comparison</h3>
+              <p className="text-sm text-gray-600 mt-1">Compare process serving fees across Oklahoma providers</p>
+            </Link>
+            <Link href="/oklahoma-process-server-faq-2026" className="block p-4 bg-gray-50 rounded-lg border border-gray-200 hover:border-blue-300 hover:shadow-md transition-all">
+              <h3 className="font-semibold text-blue-800">Process Server FAQ 2026</h3>
+              <p className="text-sm text-gray-600 mt-1">Answers to frequently asked questions about Oklahoma process serving</p>
+            </Link>
+            <Link href="/payments" className="block p-4 bg-gray-50 rounded-lg border border-gray-200 hover:border-blue-300 hover:shadow-md transition-all">
+              <h3 className="font-semibold text-blue-800">Make a Payment</h3>
+              <p className="text-sm text-gray-600 mt-1">Securely pay your process serving invoice online</p>
+            </Link>
+            <Link href="/service-areas" className="block p-4 bg-gray-50 rounded-lg border border-gray-200 hover:border-blue-300 hover:shadow-md transition-all">
+              <h3 className="font-semibold text-blue-800">Oklahoma Service Areas</h3>
+              <p className="text-sm text-gray-600 mt-1">View all cities and counties we serve across Oklahoma</p>
+            </Link>
+            <Link href="/contact" className="block p-4 bg-gray-50 rounded-lg border border-gray-200 hover:border-blue-300 hover:shadow-md transition-all">
+              <h3 className="font-semibold text-blue-800">Request a Free Quote</h3>
+              <p className="text-sm text-gray-600 mt-1">Get a custom quote for your process serving needs</p>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Schema */}
       <script
         type="application/ld+json"

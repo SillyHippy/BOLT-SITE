@@ -4,6 +4,7 @@ import { Metadata } from 'next';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
 import { Terminal, Book, Users, Briefcase, Award, Scale, Map, Video, User, AlertTriangle, CheckCircle, FileText, Clock } from 'lucide-react';
+import Link from 'next/link';
 import MinimalSocialProof from '@/components/MinimalSocialProof';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
@@ -1187,6 +1188,7 @@ export default function UltimateGuidePage() {
                 <li><strong><a href="/seo/eviction-notice-process-server">Eviction Notices</a></strong></li>
                 <li><strong>Court Filings</strong></li>
             </ul>
+            <p className="text-sm text-gray-700">We also offer <Link href="/courier-services-tulsa" className="text-blue-600 hover:underline font-semibold">secure legal courier services in Tulsa</Link> for time-sensitive document deliveries between law offices, courts, and opposing counsel.</p>
           </CardContent>
         </Card>
 
@@ -1741,6 +1743,7 @@ export default function UltimateGuidePage() {
                   <li>• <strong>Weekend/Holiday:</strong> Available with 50% surcharge</li>
                   <li>• <strong>Success Rate:</strong> Very high completion rate for same-day requests when address is accurate</li>
                 </ul>
+                <p className="text-sm mt-3">Need immediate service? Visit our <Link href="/urgent-process-server" className="text-green-700 hover:underline font-semibold">urgent process server page</Link> for emergency and rush legal document delivery.</p>
               </div>
             </div>
 
@@ -1867,6 +1870,7 @@ export default function UltimateGuidePage() {
                   </ul>
                 </div>
               </div>
+              <p className="text-sm mt-3 text-center">Learn more about <Link href="/why-choose-us" className="text-blue-600 hover:underline font-semibold">why clients choose Just Legal Solutions</Link> or browse our <Link href="/resources" className="text-blue-600 hover:underline font-semibold">comprehensive legal resources</Link>.</p>
             </div>
           </CardContent>
         </Card>

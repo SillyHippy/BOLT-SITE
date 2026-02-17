@@ -86,7 +86,7 @@ const counties = [
     name: "Nowata County",
     seat: "Nowata", 
     cities: ["Nowata", "Delaware", "Wann", "Lenapah"],
-    link: "/service-areas",
+    link: "/counties/nowata-county",
     description: "Cherokee heritage, agricultural community"
   },
   {
