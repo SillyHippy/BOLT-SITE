@@ -6,7 +6,7 @@ import Script from 'next/script';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 import EnhancedBreadcrumbSchema, { VisualBreadcrumbs } from '@/components/ui/enhanced-breadcrumb-schema';
- 
+
 import VoiceSearchOptimization from '@/components/ui/voice-search-optimization';
 import PerformanceSchema from '@/components/ui/performance-schema';
 
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'What Is a Process Server? Professional Legal Document Delivery in Tulsa, Oklahoma',
-  description: 'Oklahoma process server with 50+ years experience—licensed, bonded, and available 24/7 for urgent legal document delivery and court papers.',
+    description: 'Oklahoma process server with 50+ years experience—licensed, bonded, and available 24/7 for urgent legal document delivery and court papers.',
     url: 'https://justlegalsolutions.org/seo/what-is-a-process-server',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -134,7 +134,7 @@ const faqSchema = {
       "name": "What happens if someone refuses legal papers?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "If someone refuses legal papers in Oklahoma, the process server can still complete valid service by explaining the documents and leaving them at the location, then filing an affidavit of refusal."
+        "text": "If a defendant refuses to accept legal papers in Oklahoma, the refusal is documented in the return of service affidavit, but refusal alone does not automatically constitute valid service. Valid service must still follow a method authorized by 12 O.S. § 2004, such as: (1) personal delivery to the defendant, (2) leaving papers with a person 15 or older at the defendant's dwelling, or (3) service by certified mail or other methods authorized under §§ 2004.3 and 2004.5. If the defendant physically refuses to take the papers after being informed of their nature, the server documents the circumstances and the attorney may seek alternative service methods through the court."
       }
     },
     {
@@ -241,7 +241,7 @@ const localBusinessSchema = {
       "name": "Sapulpa"
     },
     {
-      "@type": "City", 
+      "@type": "City",
       "name": "Bartlesville"
     },
     {
@@ -476,7 +476,7 @@ const articleSchema = {
       "@type": "PostalAddress",
       "streetAddress": "564 E 138th PL",
       "addressLocality": "Glenpool",
-      "addressRegion": "OK", 
+      "addressRegion": "OK",
       "postalCode": "74033",
       "addressCountry": "US"
     },
@@ -498,14 +498,14 @@ const articleSchema = {
       "height": 630
     },
     {
-      "@type": "ImageObject", 
+      "@type": "ImageObject",
       "url": "https://justlegalsolutions.org/images/oklahoma-licensed-bonded-process-server-badges.png",
       "width": 1200,
       "height": 800
     },
     {
       "@type": "ImageObject",
-      "url": "https://justlegalsolutions.org/images/Legal-document-types-process-server.png", 
+      "url": "https://justlegalsolutions.org/images/Legal-document-types-process-server.png",
       "width": 1200,
       "height": 900
     },
@@ -551,7 +551,7 @@ const enhancedArticleSchema = {
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "564 E 138th PL",
-      "addressLocality": "Glenpool", 
+      "addressLocality": "Glenpool",
       "addressRegion": "OK",
       "postalCode": "74033",
       "addressCountry": "US"
@@ -571,7 +571,7 @@ const enhancedArticleSchema = {
       "streetAddress": "564 E 138th PL",
       "addressLocality": "Glenpool",
       "addressRegion": "OK",
-      "postalCode": "74033", 
+      "postalCode": "74033",
       "addressCountry": "US"
     },
     "logo": {
@@ -609,15 +609,15 @@ export default function WhatIsAProcessServerPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
-  {/* Removed duplicate voice-search-optimization FAQPage schema. All voice/AI optimization is now in faqSchema above. */}
+      {/* Removed duplicate voice-search-optimization FAQPage schema. All voice/AI optimization is now in faqSchema above. */}
       <script
         id="enhanced-article-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(enhancedArticleSchema) }}
       />
-      
+
       <EnhancedBreadcrumbSchema items={breadcrumbItems} />
-  <VoiceSearchOptimization
+      <VoiceSearchOptimization
         primaryQuestions={[
           "What is a process server",
           "How much does a process server cost in Oklahoma",
@@ -636,14 +636,14 @@ export default function WhatIsAProcessServerPage() {
           "Yes, divorce papers in Oklahoma require professional process service by a licensed third party to ensure legal validity. This protects due process rights and prevents bias.",
           "Standard process serving takes 24-48 hours in Oklahoma metro areas. Same-day service is available for urgent matters, while rural areas may take 2-3 days.",
           "Yes, licensed process servers in Oklahoma can work weekends and holidays for urgent legal matters, typically with a 25-50% surcharge for after-hours service.",
-          "If someone refuses legal papers in Oklahoma, the process server can still complete valid service by explaining the documents and leaving them at the location, then filing an affidavit of refusal.",
+          "If a defendant refuses to accept legal papers in Oklahoma, the refusal is documented in the return of service affidavit, but refusal alone does not automatically constitute valid service. Valid service must still follow a method authorized by 12 O.S. § 2004, such as personal delivery to the defendant, leaving papers with a person 15 or older at the defendant's dwelling, or service by certified mail or other court-authorized methods.",
           "Just Legal Solutions serves all 77 Oklahoma counties with licensed, bonded process servers. Call (539) 367-6832 for immediate service or visit justlegalsolutions.org.",
           "Process servers deliver summons, divorce papers, subpoenas, eviction notices, restraining orders, child custody documents, business litigation papers, and court orders throughout Oklahoma.",
           "Professional process servers complete service 70% faster than sheriff departments (24-48 hours vs 2-6 weeks), provide real-time updates, and offer specialized skip tracing services.",
           "Skip tracing is an advanced investigation service that locates difficult-to-find individuals using database searches, social media investigation, and field work. Success rate exceeds 95% in Oklahoma."
         ]}
-  localIntent={true}
-  emitSchema={false}
+        localIntent={true}
+        emitSchema={false}
       />
       <PerformanceSchema
         pageName="What Is a Process Server Guide"
@@ -653,15 +653,15 @@ export default function WhatIsAProcessServerPage() {
       />
 
       <Navbar />
-      
+
       <main className="min-h-screen bg-white text-gray-900 font-sans pt-16">
         <div className="max-w-6xl mx-auto px-4 py-8">
           <VisualBreadcrumbs items={breadcrumbItems} />
-          
+
           {/* Enhanced Hero Section with 24/7 Availability */}
           <div className="relative bg-gradient-to-r from-blue-600 to-blue-800 text-white p-10 rounded-xl mb-12 overflow-hidden shadow-2xl">
             <div className="absolute inset-0 opacity-10">
-              <Image 
+              <Image
                 src="/images/jls-logo.png"
                 alt="Just Legal Solutions professional header"
                 fill
@@ -702,7 +702,7 @@ export default function WhatIsAProcessServerPage() {
                       <div className="text-xs opacity-90">Tulsa Metro Area</div>
                     </div>
                   </div>
-                  
+
                   <div className="bg-white bg-opacity-10 p-4 rounded-lg border border-white border-opacity-20 mb-4">
                     <h4 className="font-bold mb-2">Professional Credentials:</h4>
                     <ul className="text-sm space-y-1">
@@ -747,24 +747,24 @@ export default function WhatIsAProcessServerPage() {
           </div>
 
           <article className="max-w-none mx-auto prose prose-lg">
-            
+
             {/* Table of Contents for Better Navigation */}
             <nav className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-12 not-prose">
               <div className="text-xl font-bold text-blue-900 mb-4">📋 Complete Navigation Guide</div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
                 <ul className="space-y-2 text-sm">
-                    <li><a href="#due-process" className="text-blue-700 hover:underline font-medium">→ What Is Due Process?</a></li>
-                    <li><a href="#workflow" className="text-blue-700 hover:underline font-medium">→ Process Server Workflow</a></li>
-                    <li><a href="#service-areas" className="text-blue-700 hover:underline font-medium">→ Oklahoma Service Areas</a></li>
-                    <li><a href="#complete-document-list" className="text-blue-700 hover:underline font-medium">→ Types of Legal Documents</a></li>
-                    <li><a href="#vs-sheriff" className="text-blue-700 hover:underline font-medium">→ Professional vs Sheriff</a></li>
+                  <li><a href="#due-process" className="text-blue-700 hover:underline font-medium">→ What Is Due Process?</a></li>
+                  <li><a href="#workflow" className="text-blue-700 hover:underline font-medium">→ Process Server Workflow</a></li>
+                  <li><a href="#service-areas" className="text-blue-700 hover:underline font-medium">→ Oklahoma Service Areas</a></li>
+                  <li><a href="#complete-document-list" className="text-blue-700 hover:underline font-medium">→ Types of Legal Documents</a></li>
+                  <li><a href="#vs-sheriff" className="text-blue-700 hover:underline font-medium">→ Professional vs Sheriff</a></li>
                 </ul>
                 <ul className="space-y-2 text-sm">
-                    <li><a href="#faq" className="text-blue-700 hover:underline font-medium">→ Comprehensive FAQ</a></li>
-                    <li><a href="#licensing" className="text-blue-700 hover:underline font-medium">→ Oklahoma Licensing Laws</a></li>
-                    {/* Removed #after-service link as no corresponding section exists */}
-                    <li><a href="#skip-tracing" className="text-blue-700 hover:underline font-medium">→ Skip Tracing Services</a></li>
-                    <li><a href="#emergency-service" className="text-blue-700 hover:underline font-medium">→ Emergency Service</a></li>
+                  <li><a href="#faq" className="text-blue-700 hover:underline font-medium">→ Comprehensive FAQ</a></li>
+                  <li><a href="#licensing" className="text-blue-700 hover:underline font-medium">→ Oklahoma Licensing Laws</a></li>
+                  {/* Removed #after-service link as no corresponding section exists */}
+                  <li><a href="#skip-tracing" className="text-blue-700 hover:underline font-medium">→ Skip Tracing Services</a></li>
+                  <li><a href="#emergency-service" className="text-blue-700 hover:underline font-medium">→ Emergency Service</a></li>
                 </ul>
                 <ul className="space-y-2 text-sm">
                   <li><a href="#technology" className="text-blue-700 hover:underline font-medium">→ Modern Technology</a></li>
@@ -775,11 +775,11 @@ export default function WhatIsAProcessServerPage() {
                 </ul>
               </div>
             </nav>
-            
+
             {/* Introduction with Due Process Visual */}
             <section className="mb-12">
               <div className="text-center mb-8">
-                <Image 
+                <Image
                   src="/images/due-process-legal-concept.png"
                   alt="Due process legal concept - Foundation of justice"
                   width={800}
@@ -789,7 +789,7 @@ export default function WhatIsAProcessServerPage() {
                   priority
                 />
               </div>
-              
+
               <div className="bg-blue-50 border-l-4 border-blue-600 p-8 rounded-r-lg mb-8">
                 <p className="text-xl text-gray-700 mb-4 leading-relaxed">
                   In the legal world, the term <strong>&ldquo;process server&rdquo;</strong> is fundamental to our justice system. But what exactly do they do, and why is their role so critical? This comprehensive guide breaks down the responsibilities of a <Link href="/tulsa-process-server" className="text-blue-600 hover:underline font-medium">process server in Tulsa</Link> and explains their vital importance in the <Link href="/counties/tulsa-county" className="text-blue-600 hover:underline font-medium">Oklahoma legal system</Link>.
@@ -799,7 +799,7 @@ export default function WhatIsAProcessServerPage() {
               {/* Expert Credentials & Authority Section */}
               <div className="bg-gradient-to-br from-gray-50 to-blue-50 p-8 rounded-xl mb-8 border border-gray-200">
                 <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">Your Licensed Oklahoma Process Server Expert</h3>
-                
+
                 <div className="grid lg:grid-cols-2 gap-8 items-center">
                   <div>
                     <h4 className="text-xl font-bold text-blue-800 mb-4">Professional Qualifications & Experience</h4>
@@ -825,12 +825,12 @@ export default function WhatIsAProcessServerPage() {
                         <span><strong>Professional Liability Insurance</strong> - $1,000,000 coverage for client protection</span>
                       </li>
                       <li className="flex items-start">
-                        <span className="text-green-600 font-bold mr-2">✓</span>
-                        <span><strong>Continuing Education</strong> - Current with Oklahoma legal procedure updates</span>
+                        <span className="text-blue-600 mr-2">📚</span>
+                        <span><strong>Ongoing Professional Development</strong> - Current with Oklahoma civil procedure updates</span>
                       </li>
                     </ul>
                   </div>
-                  
+
                   <div className="bg-white p-6 rounded-lg shadow-lg">
                     <h4 className="text-xl font-bold text-center mb-4">Professional Success Metrics</h4>
                     <div className="grid grid-cols-2 gap-4 text-center">
@@ -851,7 +851,7 @@ export default function WhatIsAProcessServerPage() {
                         <div className="text-sm text-gray-600">Client Rating</div>
                       </div>
                     </div>
-                    
+
                     <div className="mt-6 p-4 bg-gray-50 rounded-lg">
                       <p className="text-sm italic text-gray-700 text-center">
                         &quot;As a licensed process server operating throughout Oklahoma, I&apos;ve witnessed firsthand how proper service of process can make or break a legal case. My commitment to professional, timely, and legally compliant service has helped attorneys and individuals navigate Oklahoma&apos;s legal system successfully.&quot;
@@ -865,106 +865,106 @@ export default function WhatIsAProcessServerPage() {
               </div>
             </section>
 
-          {/* Professional Image */}
-          <div className="text-center mb-8">
-            <Image 
-              src="/imagesforblogpost/professional-process-server-tulsa-delivering-legal-documents.png"
-              alt="Professional process server delivering legal documents in Tulsa, Oklahoma"
-              width={600}
-              height={400}
-              className="rounded-lg shadow-lg mx-auto"
-              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 60vw, 600px"
-              priority
-            />
-          </div>
-
-          {/* Why Choose Just Legal Solutions - Enhanced */}
-          <section className="mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6 voice-optimized">Why Choose Just Legal Solutions as Your Tulsa Process Server?</h2>
-            
-            <div className="grid md:grid-cols-2 gap-6 mb-8">
-              <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-                <h3 className="font-bold text-lg text-green-800 mb-3">✓ 50+ Years Legal Field Experience</h3>
-                <p className="text-gray-700">Extensive background in Oklahoma legal system ensures proper service every time.</p>
-              </div>
-              
-              <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-                <h3 className="font-bold text-lg text-blue-800 mb-3">✓ Licensed & Bonded in Oklahoma</h3>
-                <p className="text-gray-700">Fully compliant with all Oklahoma state requirements and insured for your protection.</p>
-              </div>
-              
-              <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-                <h3 className="font-bold text-lg text-purple-800 mb-3">✓ Same-Day Service Available</h3>
-                <p className="text-gray-700">Urgent documents served within hours, standard service within 24-48 hours.</p>
-              </div>
-              
-              <div className="bg-yellow-50 p-6 rounded-lg border-l-4 border-yellow-500">
-                <h3 className="font-bold text-lg text-yellow-800 mb-3">✓ Statewide Oklahoma Coverage</h3>
-                <p className="text-gray-700">Serving all 77 counties in Oklahoma with professional skip tracing services.</p>
-              </div>
-            </div>
-
-            {/* Trust Badges with Your Professional Badges */}
+            {/* Professional Image */}
             <div className="text-center mb-8">
-              <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 max-w-4xl mx-auto">
-                <Image 
-                  src="/badges/licensed-bonded-badge.svg"
-                  alt="Licensed and bonded process server"
-                  width={120}
-                  height={120}
-                  className="mx-auto"
-                />
-                <Image 
-                  src="/badges/50-years-experience.svg"
-                  alt="50 years experience in legal field"
-                  width={120}
-                  height={120}
-                  className="mx-auto"
-                />
-                <Image 
-                  src="/badges/24-7-emergency-service-badge.svg"
-                  alt="24/7 emergency service available"
-                  width={120}
-                  height={120}
-                  className="mx-auto"
-                />
-                <Image 
-                  src="/badges/99-9-percent-success-rate-badge.svg"
-                  alt="99.9% success rate"
-                  width={120}
-                  height={120}
-                  className="mx-auto"
-                />
-                <Image 
-                  src="/badges/oklahoma-statewide-coverage-badge.svg"
-                  alt="Oklahoma statewide coverage"
-                  width={120}
-                  height={120}
-                  className="mx-auto"
-                />
-                <Image 
-                  src="/badges/trusted-by-law-firms-badge.svg"
-                  alt="Trusted by law firms"
-                  width={120}
-                  height={120}
-                  className="mx-auto"
-                />
-              </div>
+              <Image
+                src="/imagesforblogpost/professional-process-server-tulsa-delivering-legal-documents.png"
+                alt="Professional process server delivering legal documents in Tulsa, Oklahoma"
+                width={600}
+                height={400}
+                className="rounded-lg shadow-lg mx-auto"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 60vw, 600px"
+                priority
+              />
             </div>
 
-            <div className="text-center bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Ready to Get Started?</h3>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <a href="tel:5393676832" className="bg-blue-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-700 transition">
-                  Call Now: (539) 367-6832
-                </a>
-                <a href="/contact" className="bg-gray-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-gray-700 transition">
-                  Get Online Quote
-                </a>
+            {/* Why Choose Just Legal Solutions - Enhanced */}
+            <section className="mb-12">
+              <h2 className="text-3xl font-bold text-gray-900 mb-6 voice-optimized">Why Choose Just Legal Solutions as Your Tulsa Process Server?</h2>
+
+              <div className="grid md:grid-cols-2 gap-6 mb-8">
+                <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
+                  <h3 className="font-bold text-lg text-green-800 mb-3">✓ 50+ Years Legal Field Experience</h3>
+                  <p className="text-gray-700">Extensive background in Oklahoma legal system ensures proper service every time.</p>
+                </div>
+
+                <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
+                  <h3 className="font-bold text-lg text-blue-800 mb-3">✓ Licensed & Bonded in Oklahoma</h3>
+                  <p className="text-gray-700">Fully compliant with all Oklahoma state requirements and insured for your protection.</p>
+                </div>
+
+                <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
+                  <h3 className="font-bold text-lg text-purple-800 mb-3">✓ Same-Day Service Available</h3>
+                  <p className="text-gray-700">Urgent documents served within hours, standard service within 24-48 hours.</p>
+                </div>
+
+                <div className="bg-yellow-50 p-6 rounded-lg border-l-4 border-yellow-500">
+                  <h3 className="font-bold text-lg text-yellow-800 mb-3">✓ Statewide Oklahoma Coverage</h3>
+                  <p className="text-gray-700">Serving all 77 counties in Oklahoma with professional skip tracing services.</p>
+                </div>
               </div>
-              <p className="text-sm text-gray-600 mt-3">Emergency & after-hours service available</p>
-            </div>
-          </section>
+
+              {/* Trust Badges with Your Professional Badges */}
+              <div className="text-center mb-8">
+                <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 max-w-4xl mx-auto">
+                  <Image
+                    src="/badges/licensed-bonded-badge.svg"
+                    alt="Licensed and bonded process server"
+                    width={120}
+                    height={120}
+                    className="mx-auto"
+                  />
+                  <Image
+                    src="/badges/50-years-experience.svg"
+                    alt="50 years experience in legal field"
+                    width={120}
+                    height={120}
+                    className="mx-auto"
+                  />
+                  <Image
+                    src="/badges/24-7-emergency-service-badge.svg"
+                    alt="24/7 emergency service available"
+                    width={120}
+                    height={120}
+                    className="mx-auto"
+                  />
+                  <Image
+                    src="/badges/99-9-percent-success-rate-badge.svg"
+                    alt="99.9% success rate"
+                    width={120}
+                    height={120}
+                    className="mx-auto"
+                  />
+                  <Image
+                    src="/badges/oklahoma-statewide-coverage-badge.svg"
+                    alt="Oklahoma statewide coverage"
+                    width={120}
+                    height={120}
+                    className="mx-auto"
+                  />
+                  <Image
+                    src="/badges/trusted-by-law-firms-badge.svg"
+                    alt="Trusted by law firms"
+                    width={120}
+                    height={120}
+                    className="mx-auto"
+                  />
+                </div>
+              </div>
+
+              <div className="text-center bg-gray-50 p-6 rounded-lg">
+                <h3 className="text-xl font-bold text-gray-900 mb-4">Ready to Get Started?</h3>
+                <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                  <a href="tel:5393676832" className="bg-blue-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-700 transition">
+                    Call Now: (539) 367-6832
+                  </a>
+                  <a href="/contact" className="bg-gray-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-gray-700 transition">
+                    Get Online Quote
+                  </a>
+                </div>
+                <p className="text-sm text-gray-600 mt-3">Emergency & after-hours service available</p>
+              </div>
+            </section>
 
             <section>
               <h2 id="due-process" className="text-2xl font-bold mt-8 mb-4 text-blue-800">The Core Role: Upholding Due Process</h2>
@@ -977,9 +977,9 @@ export default function WhatIsAProcessServerPage() {
             {/* Professional Process Server Workflow */}
             <section className="mb-12" id="workflow">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center voice-optimized">Professional Process Server Workflow</h2>
-              
+
               <div className="text-center mb-8">
-                <Image 
+                <Image
                   src="/images/process-server-workflow-steps.png"
                   alt="Oklahoma process server workflow steps diagram"
                   width={1000}
@@ -997,7 +997,7 @@ export default function WhatIsAProcessServerPage() {
                   </div>
                   <p className="text-gray-700">We receive and review legal documents, verify service requirements, and prepare for professional delivery according to Oklahoma law.</p>
                 </div>
-                
+
                 <div className="bg-white border-l-4 border-green-500 p-6 shadow-lg rounded-r-lg">
                   <div className="flex items-center mb-4">
                     <div className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center text-white font-bold mr-4">2</div>
@@ -1005,7 +1005,7 @@ export default function WhatIsAProcessServerPage() {
                   </div>
                   <p className="text-gray-700">Using professional investigation techniques and skip tracing when necessary to locate individuals throughout Oklahoma.</p>
                 </div>
-                
+
                 <div className="bg-white border-l-4 border-purple-500 p-6 shadow-lg rounded-r-lg">
                   <div className="flex items-center mb-4">
                     <div className="w-12 h-12 bg-purple-500 rounded-full flex items-center justify-center text-white font-bold mr-4">3</div>
@@ -1013,7 +1013,7 @@ export default function WhatIsAProcessServerPage() {
                   </div>
                   <p className="text-gray-700">Professional, respectful delivery attempts at appropriate times and locations following all legal requirements.</p>
                 </div>
-                
+
                 <div className="bg-white border-l-4 border-red-500 p-6 shadow-lg rounded-r-lg">
                   <div className="flex items-center mb-4">
                     <div className="w-12 h-12 bg-red-500 rounded-full flex items-center justify-center text-white font-bold mr-4">4</div>
@@ -1021,7 +1021,7 @@ export default function WhatIsAProcessServerPage() {
                   </div>
                   <p className="text-gray-700">Successful delivery of documents with proper identification and documentation of the service encounter.</p>
                 </div>
-                
+
                 <div className="bg-white border-l-4 border-yellow-500 p-6 shadow-lg rounded-r-lg">
                   <div className="flex items-center mb-4">
                     <div className="w-12 h-12 bg-yellow-600 rounded-full flex items-center justify-center text-white font-bold mr-4">5</div>
@@ -1029,7 +1029,7 @@ export default function WhatIsAProcessServerPage() {
                   </div>
                   <p className="text-gray-700">Complete sworn Affidavit of Service with detailed information required by Oklahoma courts for legal validity.</p>
                 </div>
-                
+
                 <div className="bg-gray-50 border-l-4 border-gray-500 p-6 shadow-lg rounded-r-lg">
                   <div className="flex items-center mb-4">
                     <div className="w-12 h-12 bg-gray-500 rounded-full flex items-center justify-center text-white font-bold mr-4">✓</div>
@@ -1043,11 +1043,11 @@ export default function WhatIsAProcessServerPage() {
             {/* Service Area Map with Oklahoma Frame */}
             <section className="mb-12" id="service-areas">
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Our Oklahoma Service Area</h2>
-              
+
               {/* Oklahoma Flag Background Frame */}
               <div className="relative mb-6">
                 <div className="text-center">
-                  <Image 
+                  <Image
                     src="/images/OklahomaFlag.jpg"
                     alt="Oklahoma state flag representing our statewide process server coverage"
                     width={800}
@@ -1063,7 +1063,7 @@ export default function WhatIsAProcessServerPage() {
                   </div>
                 </div>
               </div>
-              
+
               <div className="grid md:grid-cols-2 gap-8 mb-6">
                 <div className="bg-green-50 p-6 rounded-lg border border-green-200">
                   <h3 className="font-bold text-green-800 mb-4 text-xl">🚀 Same-Day Service Area (50-Mile Radius)</h3>
@@ -1085,7 +1085,7 @@ export default function WhatIsAProcessServerPage() {
                     <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/service-areas/pryor" className="text-blue-600 hover:underline font-medium">Pryor</a></li>
                   </ul>
                 </div>
-                
+
                 <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
                   <h3 className="font-bold text-blue-800 mb-4 text-xl">🗺️ Statewide Oklahoma Coverage</h3>
                   <p className="text-gray-700 mb-3">Professional process serving throughout all of Oklahoma:</p>
@@ -1101,15 +1101,15 @@ export default function WhatIsAProcessServerPage() {
                   </ul>
                 </div>
               </div>
-              
+
               <p className="text-center text-gray-700 text-lg">
-                <strong>We serve every city, town, and county in Oklahoma.</strong> Same-day service available within 50 miles of <Link href="/service-areas/glenpool" className="text-blue-600 hover:underline font-medium">Tulsa</Link>/<Link href="/service-areas/glenpool" className="text-blue-600 hover:underline font-medium">Glenpool</Link>. 
+                <strong>We serve every city, town, and county in Oklahoma.</strong> Same-day service available within 50 miles of <Link href="/service-areas/glenpool" className="text-blue-600 hover:underline font-medium">Tulsa</Link>/<Link href="/service-areas/glenpool" className="text-blue-600 hover:underline font-medium">Glenpool</Link>.
                 Standard 24-48 hour service for all other Oklahoma locations. <Link href="/service-areas" className="text-blue-600 hover:underline font-medium">View all service areas →</Link>
               </p>
-              
+
               {/* Tulsa County Courthouse Image */}
               <div className="text-center mt-8">
-                <Image 
+                <Image
                   src="/images/tulsa-county-courthouse.jpeg"
                   alt="Tulsa County Courthouse - Oklahoma legal system where we file affidavits"
                   width={600}
@@ -1124,7 +1124,7 @@ export default function WhatIsAProcessServerPage() {
             {/* Industry Statistics and Market Data Section (Unique ID) */}
             <section className="mb-12" id="industry-statistics-2026">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center voice-optimized">Oklahoma Process Server Industry Insights & Data (2026)</h2>
-              
+
               <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-8 mb-8 border border-blue-200">
                 <h3 className="text-2xl font-bold text-blue-900 mb-6 text-center">Market Size & Growth Statistics</h3>
                 <div className="grid md:grid-cols-3 gap-6">
@@ -1208,7 +1208,7 @@ export default function WhatIsAProcessServerPage() {
               {/* Add anchor for #document-types */}
               <span id="document-types" />
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center voice-optimized">Complete List of Legal Documents We Serve Throughout Oklahoma</h2>
-              
+
               <div className="grid lg:grid-cols-2 gap-8 mb-8">
                 <div className="bg-blue-50 border border-blue-200 rounded-xl p-8">
                   <h3 className="text-xl font-bold text-blue-900 mb-6">⚖️ Civil Litigation Documents</h3>
@@ -1368,10 +1368,10 @@ export default function WhatIsAProcessServerPage() {
             {/* Industry Statistics and Market Data Section */}
             <section className="mb-12" id="industry-statistics">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center voice-optimized">Industry Statistics and Market Data - 2026</h2>
-              
+
               <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-8 mb-8">
                 <h3 className="text-2xl font-bold text-blue-900 mb-8 text-center">� Process Server Industry Overview</h3>
-                
+
                 <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                   <div className="bg-white p-6 rounded-lg shadow-lg text-center border-t-4 border-blue-500">
                     <div className="text-3xl font-bold text-blue-600 mb-2">$1.4B</div>
@@ -1428,7 +1428,7 @@ export default function WhatIsAProcessServerPage() {
                         <span className="text-purple-600 font-bold">78%</span>
                       </div>
                       <div className="w-full bg-gray-200 rounded-full h-2">
-                        <div className="bg-purple-500 h-2 rounded-full" style={{width: '78%'}}></div>
+                        <div className="bg-purple-500 h-2 rounded-full" style={{ width: '78%' }}></div>
                       </div>
                     </div>
                     <div className="bg-white p-4 rounded-lg border">
@@ -1437,7 +1437,7 @@ export default function WhatIsAProcessServerPage() {
                         <span className="text-blue-600 font-bold">65%</span>
                       </div>
                       <div className="w-full bg-gray-200 rounded-full h-2">
-                        <div className="bg-blue-500 h-2 rounded-full" style={{width: '65%'}}></div>
+                        <div className="bg-blue-500 h-2 rounded-full" style={{ width: '65%' }}></div>
                       </div>
                     </div>
                     <div className="bg-white p-4 rounded-lg border">
@@ -1446,7 +1446,7 @@ export default function WhatIsAProcessServerPage() {
                         <span className="text-green-600 font-bold">52%</span>
                       </div>
                       <div className="w-full bg-gray-200 rounded-full h-2">
-                        <div className="bg-green-500 h-2 rounded-full" style={{width: '52%'}}></div>
+                        <div className="bg-green-500 h-2 rounded-full" style={{ width: '52%' }}></div>
                       </div>
                     </div>
                     <div className="bg-white p-4 rounded-lg border">
@@ -1455,7 +1455,7 @@ export default function WhatIsAProcessServerPage() {
                         <span className="text-red-600 font-bold">89%</span>
                       </div>
                       <div className="w-full bg-gray-200 rounded-full h-2">
-                        <div className="bg-red-500 h-2 rounded-full" style={{width: '89%'}}></div>
+                        <div className="bg-red-500 h-2 rounded-full" style={{ width: '89%' }}></div>
                       </div>
                     </div>
                   </div>
@@ -1484,17 +1484,17 @@ export default function WhatIsAProcessServerPage() {
             {/* Enhanced Business Litigation & Specialized Services Section */}
             <section className="mb-12" id="business-litigation">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center voice-optimized">Business Litigation & Corporate Document Service</h2>
-              
+
               <div className="text-center mb-6">
                 <p className="text-gray-700 mb-4">Explore our complete range of services for businesses. <Link href="/services" className="text-blue-600 hover:underline font-medium">View all our services →</Link></p>
               </div>
-              
+
               <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-8 mb-8">
                 <p className="text-lg text-gray-700 mb-6 text-center">
-                  Oklahoma businesses require reliable process serving for commercial disputes, contract enforcement, and corporate legal matters. 
+                  Oklahoma businesses require reliable process serving for commercial disputes, contract enforcement, and corporate legal matters.
                   Our experienced team understands the unique challenges of business litigation and corporate service requirements.
                 </p>
-                
+
                 <div className="grid lg:grid-cols-2 gap-8">
                   <div className="bg-white rounded-lg p-6 shadow-md border-l-4 border-blue-500">
                     <h3 className="text-xl font-bold text-blue-800 mb-4">🏢 Commercial Litigation Documents</h3>
@@ -1529,7 +1529,7 @@ export default function WhatIsAProcessServerPage() {
                       </li>
                     </ul>
                   </div>
-                  
+
                   <div className="bg-white rounded-lg p-6 shadow-md border-l-4 border-green-500">
                     <h3 className="text-xl font-bold text-green-800 mb-4">⚖️ Corporate Service Specialties</h3>
                     <ul className="space-y-3">
@@ -1564,7 +1564,7 @@ export default function WhatIsAProcessServerPage() {
                     </ul>
                   </div>
                 </div>
-                
+
                 <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-6 mt-6">
                   <h4 className="font-bold text-yellow-800 mb-3">📋 Business Litigation Success Metrics</h4>
                   <div className="grid md:grid-cols-4 gap-4 text-center">
@@ -1592,13 +1592,13 @@ export default function WhatIsAProcessServerPage() {
             {/* Enhanced Divorce & Family Law Section */}
             <section className="mb-12" id="divorce-family-law">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center voice-optimized">Divorce & Family Law Process Serving</h2>
-              
+
               <div className="bg-gradient-to-br from-pink-50 to-rose-50 rounded-xl p-8 mb-8">
                 <p className="text-lg text-gray-700 mb-6 text-center">
-                  When facing divorce proceedings in Oklahoma, proper service of divorce papers is legally required before the court can proceed. 
+                  When facing divorce proceedings in Oklahoma, proper service of divorce papers is legally required before the court can proceed.
                   Our experienced process servers understand the sensitive nature of family law matters and provide discreet, professional service.
                 </p>
-                
+
                 <div className="grid lg:grid-cols-3 gap-6">
                   <div className="bg-white rounded-lg p-6 shadow-md">
                     <h3 className="text-lg font-bold text-pink-800 mb-4">👨‍👩‍👧‍👦 Family Documents</h3>
@@ -1612,7 +1612,7 @@ export default function WhatIsAProcessServerPage() {
                       <li>• Guardianship documents</li>
                     </ul>
                   </div>
-                  
+
                   <div className="bg-white rounded-lg p-6 shadow-md">
                     <h3 className="text-lg font-bold text-rose-800 mb-4">🛡️ Sensitive Situation Protocols</h3>
                     <ul className="space-y-2 text-sm">
@@ -1625,7 +1625,7 @@ export default function WhatIsAProcessServerPage() {
                       <li>• Child welfare considerations</li>
                     </ul>
                   </div>
-                  
+
                   <div className="bg-white rounded-lg p-6 shadow-md">
                     <h3 className="text-lg font-bold text-purple-800 mb-4">⏰ Emergency Services</h3>
                     <ul className="space-y-2 text-sm">
@@ -1645,9 +1645,9 @@ export default function WhatIsAProcessServerPage() {
             {/* Professional vs Sheriff Comparison with Detailed Table */}
             <section className="mb-12" id="vs-sheriff">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center">Why Choose a Professional Process Server Over the Sheriff&rsquo;s Department?</h2>
-              
+
               <div className="text-center mb-8">
-                <Image 
+                <Image
                   src="/images/process-server-vs-sheriff-comparison.png"
                   alt="Process server vs sheriff department comparison chart"
                   width={1000}
@@ -1656,7 +1656,7 @@ export default function WhatIsAProcessServerPage() {
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 1000px"
                 />
               </div>
-              
+
               <div className="bg-yellow-50 border-l-4 border-yellow-500 p-8 rounded-r-lg mb-8">
                 <p className="text-lg text-gray-700 mb-6 leading-relaxed">
                   While the Sheriff&rsquo;s office can serve papers, they are often overburdened with other law enforcement duties. A professional process server&rsquo;s sole focus is serving your documents quickly and correctly with specialized expertise.
@@ -1668,7 +1668,7 @@ export default function WhatIsAProcessServerPage() {
                 <div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white p-6">
                   <h3 className="text-2xl font-bold text-center">Detailed Professional vs. Sheriff Department Comparison</h3>
                 </div>
-                
+
                 <div className="overflow-x-auto">
                   <table className="w-full">
                     <thead>
@@ -1736,7 +1736,7 @@ export default function WhatIsAProcessServerPage() {
 
               <div className="bg-gradient-to-br from-blue-50 to-green-50 rounded-xl p-8">
                 <h3 className="text-2xl font-bold text-blue-900 mb-6 text-center">Why Professional Service Delivers Better Results</h3>
-                
+
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="space-y-4">
                     <div className="flex items-start">
@@ -1748,7 +1748,7 @@ export default function WhatIsAProcessServerPage() {
                         <p className="text-gray-700 text-sm">Process serving is our only business, not competing with law enforcement duties</p>
                       </div>
                     </div>
-                    
+
                     <div className="flex items-start">
                       <div className="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center mr-4 mt-1">
                         <span className="text-white text-sm font-bold">2</span>
@@ -1758,7 +1758,7 @@ export default function WhatIsAProcessServerPage() {
                         <p className="text-gray-700 text-sm">Available evenings, weekends, and holidays when people are home</p>
                       </div>
                     </div>
-                    
+
                     <div className="flex items-start">
                       <div className="w-8 h-8 bg-purple-500 rounded-full flex items-center justify-center mr-4 mt-1">
                         <span className="text-white text-sm font-bold">3</span>
@@ -1769,7 +1769,7 @@ export default function WhatIsAProcessServerPage() {
                       </div>
                     </div>
                   </div>
-                  
+
                   <div className="space-y-4">
                     <div className="flex items-start">
                       <div className="w-8 h-8 bg-red-500 rounded-full flex items-center justify-center mr-4 mt-1">
@@ -1780,7 +1780,7 @@ export default function WhatIsAProcessServerPage() {
                         <p className="text-gray-700 text-sm">Professional databases, skip tracing, and investigation resources</p>
                       </div>
                     </div>
-                    
+
                     <div className="flex items-start">
                       <div className="w-8 h-8 bg-yellow-600 rounded-full flex items-center justify-center mr-4 mt-1">
                         <span className="text-white text-sm font-bold">5</span>
@@ -1790,7 +1790,7 @@ export default function WhatIsAProcessServerPage() {
                         <p className="text-gray-700 text-sm">Direct responsibility to you, not government bureaucracy</p>
                       </div>
                     </div>
-                    
+
                     <div className="flex items-start">
                       <div className="w-8 h-8 bg-indigo-500 rounded-full flex items-center justify-center mr-4 mt-1">
                         <span className="text-white text-sm font-bold">6</span>
@@ -1808,9 +1808,9 @@ export default function WhatIsAProcessServerPage() {
             {/* Client Success Stories */}
             <section className="mb-12" id="testimonials">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center voice-optimized">Client Success Stories and Case Studies</h2>
-              
+
               <div className="text-center mb-6">
-                <Image 
+                <Image
                   src="/images/process-server-client-testimonials-reviews.png"
                   alt="Client testimonials and reviews for Just Legal Solutions process server"
                   width={800}
@@ -1827,7 +1827,7 @@ export default function WhatIsAProcessServerPage() {
                   </div>
                   <p className="text-gray-700 italic">&ldquo;Needed divorce papers served urgently before court deadline. Just Legal Solutions completed service same day with professional affidavit. Highly recommend!&rdquo;</p>
                 </div>
-                
+
                 <div className="bg-white p-6 rounded-lg shadow border-l-4 border-green-500">
                   <div className="flex items-center mb-3">
                     <div className="text-yellow-500">★★★★★</div>
@@ -1835,7 +1835,7 @@ export default function WhatIsAProcessServerPage() {
                   </div>
                   <p className="text-gray-700 italic">&ldquo;Outstanding service for eviction notices. Professional, discreet, and always provides proper documentation. Has saved us time and legal headaches.&rdquo;</p>
                 </div>
-                
+
                 <div className="bg-white p-6 rounded-lg shadow border-l-4 border-purple-500">
                   <div className="flex items-center mb-3">
                     <div className="text-yellow-500">★★★★★</div>
@@ -1843,7 +1843,7 @@ export default function WhatIsAProcessServerPage() {
                   </div>
                   <p className="text-gray-700 italic">&ldquo;Skip tracing services helped locate a defendant who was avoiding service for months. Exceptional investigative skills and persistence.&rdquo;</p>
                 </div>
-                
+
                 <div className="bg-white p-6 rounded-lg shadow border-l-4 border-red-500">
                   <div className="flex items-center mb-3">
                     <div className="text-yellow-500">★★★★★</div>
@@ -1856,7 +1856,7 @@ export default function WhatIsAProcessServerPage() {
               {/* Real Case Studies */}
               <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl p-8">
                 <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">📊 Real Examples of Successful Service</h3>
-                
+
                 <div className="grid lg:grid-cols-3 gap-6">
                   <div className="bg-white p-6 rounded-lg shadow-lg border-t-4 border-blue-500">
                     <h4 className="font-bold text-blue-800 mb-4 flex items-center">
@@ -1871,7 +1871,7 @@ export default function WhatIsAProcessServerPage() {
                       </p>
                     </div>
                   </div>
-                  
+
                   <div className="bg-white p-6 rounded-lg shadow-lg border-t-4 border-green-500">
                     <h4 className="font-bold text-green-800 mb-4 flex items-center">
                       <span className="mr-2">🏢</span> Complex Business Litigation
@@ -1885,7 +1885,7 @@ export default function WhatIsAProcessServerPage() {
                       </p>
                     </div>
                   </div>
-                  
+
                   <div className="bg-white p-6 rounded-lg shadow-lg border-t-4 border-red-500">
                     <h4 className="font-bold text-red-800 mb-4 flex items-center">
                       <span className="mr-2">🛡️</span> Emergency Restraining Order
@@ -1906,9 +1906,9 @@ export default function WhatIsAProcessServerPage() {
             {/* Professional Credentials */}
             <section className="mb-12" id="credentials">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center voice-optimized">Professional Credentials and Qualifications</h2>
-              
+
               <div className="text-center mb-8">
-                <Image 
+                <Image
                   src="/images/Professional process server business logo badge with scales of justice and Oklahoma outline for legal services.png"
                   alt="Professional process server credentials and qualifications Oklahoma"
                   width={1000}
@@ -1940,7 +1940,7 @@ export default function WhatIsAProcessServerPage() {
                     </div>
                   </div>
                 </div>
-                
+
                 <div className="bg-green-50 border border-green-200 rounded-xl p-8">
                   <h3 className="text-xl font-bold text-green-900 mb-6 text-center">🎓 Professional Associations</h3>
                   <div className="space-y-4">
@@ -1953,8 +1953,8 @@ export default function WhatIsAProcessServerPage() {
                       <span className="text-sm text-gray-600">Oklahoma Process Servers Association</span>
                     </div>
                     <div className="bg-white p-4 rounded-lg border">
-                      <strong className="text-green-800">Continuing Education</strong><br />
-                      <span className="text-sm text-gray-600">Professional development and training ongoing</span>
+                      <strong className="text-green-800">Ongoing Professional Development</strong><br />
+                      <span className="text-sm text-gray-600">We pursue voluntary professional development in Oklahoma civil procedure</span>
                     </div>
                     <div className="bg-white p-4 rounded-lg border">
                       <strong className="text-green-800">Industry Best Practices</strong><br />
@@ -1962,7 +1962,7 @@ export default function WhatIsAProcessServerPage() {
                     </div>
                   </div>
                 </div>
-                
+
                 <div className="bg-purple-50 border border-purple-200 rounded-xl p-8">
                   <h3 className="text-xl font-bold text-purple-900 mb-6 text-center">📈 Experience & Expertise</h3>
                   <div className="space-y-4">
@@ -1990,13 +1990,13 @@ export default function WhatIsAProcessServerPage() {
             {/* County-by-County Service */}
             <section className="mb-12" id="county-service">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center voice-optimized">County-by-County Service Information</h2>
-              
+
               <div className="text-center mb-6">
                 <p className="text-gray-700 mb-4">We serve all 77 Oklahoma counties with specialized local knowledge. <Link href="/counties/tulsa-county" className="text-blue-600 hover:underline font-medium">Learn more about Tulsa County service →</Link></p>
               </div>
-              
+
               <div className="text-center mb-8">
-                <Image 
+                <Image
                   src="/images/oklahoma-process-server-service-area-map.png"
                   alt="Oklahoma counties process server coverage map"
                   width={1000}
@@ -2032,7 +2032,7 @@ export default function WhatIsAProcessServerPage() {
                     </li>
                   </ul>
                 </div>
-                
+
                 <div className="bg-blue-50 border border-blue-200 rounded-xl p-8">
                   <h3 className="text-xl font-bold text-blue-900 mb-6">🏛️ Oklahoma County Details</h3>
                   <ul className="space-y-3 text-gray-700">
@@ -2058,7 +2058,7 @@ export default function WhatIsAProcessServerPage() {
                     </li>
                   </ul>
                 </div>
-                
+
                 <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-8">
                   <h3 className="text-xl font-bold text-yellow-900 mb-6">🌾 Rural County Considerations</h3>
                   <ul className="space-y-3 text-gray-700">
@@ -2085,7 +2085,7 @@ export default function WhatIsAProcessServerPage() {
                   </ul>
                 </div>
               </div>
-              
+
               <div className="mt-8 bg-gray-50 border border-gray-200 rounded-xl p-8 text-center">
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Complete Oklahoma Coverage</h3>
                 <p className="text-lg text-gray-700 mb-6">
@@ -2118,7 +2118,7 @@ export default function WhatIsAProcessServerPage() {
               <p className="text-center text-gray-600 mb-8 max-w-3xl mx-auto">
                 Get instant answers to the most common questions about process serving in Oklahoma. Click any question to expand the detailed answer. <Link href="/oklahoma-process-server-faq-2026" className="text-blue-600 hover:underline font-medium">View our complete FAQ page →</Link>
               </p>
-              
+
               <div className="space-y-3 max-w-4xl mx-auto">
                 {/* Primary FAQ from Schema - Modern Accordion Style */}
                 {faqSchema.mainEntity.map((faq, index) => (
@@ -2138,7 +2138,7 @@ export default function WhatIsAProcessServerPage() {
                     </div>
                   </details>
                 ))}
-                
+
                 {/* Additional Voice Search Optimized Questions */}
                 <details className="group bg-white rounded-lg shadow-md hover:shadow-lg transition-all duration-200 border border-gray-200">
                   <summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-gray-50 transition-colors rounded-lg">
@@ -2152,12 +2152,12 @@ export default function WhatIsAProcessServerPage() {
                   <div className="px-6 pb-6">
                     <div className="border-t border-gray-100 pt-4">
                       <p className="text-gray-700 leading-relaxed voice-answer">
-                        <strong>Just Legal Solutions serves all 77 Oklahoma counties</strong> with licensed, bonded professionals. To find a reliable process server: 
-                        <strong>1. Verify Licensing</strong> - Check with Oklahoma Administrative Office of Courts for current license status. 
-                        <strong>2. Confirm Bonding</strong> - Ensure $5,000 surety bond as required by Oklahoma law. 
-                        <strong>3. Check Reviews</strong> - Look for 4.5+ star ratings and client testimonials. 
-                        <strong>4. Verify Insurance</strong> - Professional liability coverage protects your case. 
-                        <strong>5. Local Knowledge</strong> - Choose providers with county-specific experience. 
+                        <strong>Just Legal Solutions serves all 77 Oklahoma counties</strong> with licensed, bonded professionals. To find a reliable process server:
+                        <strong>1. Verify Licensing</strong> - Check with Oklahoma Administrative Office of Courts for current license status.
+                        <strong>2. Confirm Bonding</strong> - Ensure $5,000 surety bond as required by Oklahoma law.
+                        <strong>3. Check Reviews</strong> - Look for 4.5+ star ratings and client testimonials.
+                        <strong>4. Verify Insurance</strong> - Professional liability coverage protects your case.
+                        <strong>5. Local Knowledge</strong> - Choose providers with county-specific experience.
                         Call <strong>(539) 367-6832</strong> for immediate service verification and same-day availability.
                       </p>
                     </div>
@@ -2239,9 +2239,9 @@ export default function WhatIsAProcessServerPage() {
             {/* Oklahoma Process Server Licensing Requirements */}
             <section className="mb-12" id="licensing">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center voice-optimized">Oklahoma Process Server Legal Requirements (2026 Update)</h2>
-              
+
               <div className="text-center mb-8">
-                <Image 
+                <Image
                   src="/images/oklahoma-process-server-service-area-map.png"
                   alt="Oklahoma process server licensing requirements and legal compliance"
                   width={900}
@@ -2252,8 +2252,8 @@ export default function WhatIsAProcessServerPage() {
               </div>
 
               <div className="bg-blue-50 border border-blue-200 rounded-xl p-8 mb-8">
-                <h3 className="text-2xl font-bold text-blue-900 mb-6">Licensing Requirements (Oklahoma Statute 12-158.1)</h3>
-                
+                <h3 className="text-2xl font-bold text-blue-900 mb-6"><Link href="/oklahoma-process-server-laws" className="hover:underline">Licensing Requirements (Oklahoma Statute 12-158.1)</Link></h3>
+
                 <div className="grid md:grid-cols-2 gap-8">
                   <div>
                     <h4 className="font-bold text-lg text-blue-800 mb-4">📋 Basic Requirements</h4>
@@ -2262,11 +2262,11 @@ export default function WhatIsAProcessServerPage() {
                       <li className="flex items-start"><span className="text-blue-600 mr-2">•</span><strong>Residency requirement:</strong> Oklahoma resident for 6+ months</li>
                       <li className="flex items-start"><span className="text-blue-600 mr-2">•</span><strong>County residency:</strong> 30+ days in county of application</li>
                       <li className="flex items-start"><span className="text-blue-600 mr-2">•</span><strong>Background check:</strong> Good moral character verification</li>
-                      <li className="flex items-start"><span className="text-blue-600 mr-2">•</span><strong>Mental fitness:</strong> Psychological evaluation if required</li>
+
                       <li className="flex items-start"><span className="text-blue-600 mr-2">•</span><strong>Surety bond:</strong> $5,000 minimum (statewide license)</li>
                     </ul>
                   </div>
-                  
+
                   <div>
                     <h4 className="font-bold text-lg text-blue-800 mb-4">⚖️ Service Method Compliance</h4>
                     <div className="space-y-4">
@@ -2304,7 +2304,7 @@ export default function WhatIsAProcessServerPage() {
                       <li className="flex items-start"><span className="text-red-600 mr-2">✗</span><strong>Service outside authorized county</strong>&nbsp;without proper license</li>
                     </ul>
                   </div>
-                  
+
                   <div className="bg-white p-6 rounded-lg border-l-4 border-green-500">
                     <h4 className="font-bold text-green-800 mb-4">✅ Legal Compliance</h4>
                     <ul className="text-gray-700 space-y-2">
@@ -2322,9 +2322,9 @@ export default function WhatIsAProcessServerPage() {
             {/* Skip Tracing Services */}
             <section className="mb-12" id="skip-tracing">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center voice-optimized">Advanced Skip Tracing & Investigation Services</h2>
-              
+
               <div className="text-center mb-8">
-                <Image 
+                <Image
                   src="/images/Abstract AI skip tracing illustration.webp"
                   alt="Professional skip tracing and investigation services Oklahoma"
                   width={1000}
@@ -2339,7 +2339,7 @@ export default function WhatIsAProcessServerPage() {
                 <p className="text-lg text-gray-700 mb-6 leading-relaxed">
                   When individuals are difficult to locate, we utilize advanced investigative techniques combining traditional methods with modern technology to achieve a 95%+ success rate in Oklahoma. <Link href="/ai-skip-tracing-guide-oklahoma" className="text-purple-600 hover:underline font-medium">Learn more about our advanced skip tracing methods →</Link>
                 </p>
-                
+
                 <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                   <div className="bg-white p-6 rounded-lg shadow text-center">
                     <div className="text-3xl mb-3">🔍</div>
@@ -2418,24 +2418,24 @@ export default function WhatIsAProcessServerPage() {
 
             {/* Emergency Service Details */}
             <section className="mb-12" id="emergency-service">
-            {/* After Service Section (added for #after-service anchor) */}
-            <section className="mb-12" id="after-service">
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center voice-optimized">What Happens After Service?</h2>
-              <div className="bg-blue-50 border border-blue-200 rounded-xl p-8 mb-8">
-                <p className="text-lg text-gray-700 mb-6 text-center">
-                  After documents are served, our process server completes a sworn Affidavit of Service, detailing the time, date, location, and manner of service. This affidavit is filed with the court as legal proof. Clients receive immediate notification and a scanned copy of the affidavit within 2 hours of completion.
-                </p>
-              </div>
-            </section>
+              {/* After Service Section (added for #after-service anchor) */}
+              <section className="mb-12" id="after-service">
+                <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center voice-optimized">What Happens After Service?</h2>
+                <div className="bg-blue-50 border border-blue-200 rounded-xl p-8 mb-8">
+                  <p className="text-lg text-gray-700 mb-6 text-center">
+                    After documents are served, our process server completes a sworn Affidavit of Service, detailing the time, date, location, and manner of service. This affidavit is filed with the court as legal proof. Clients receive immediate notification and a scanned copy of the affidavit within 2 hours of completion.
+                  </p>
+                </div>
+              </section>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center voice-optimized">Emergency and Rush Service Details</h2>
-              
+
               <div className="bg-red-50 border border-red-200 rounded-xl p-8 mb-8">
                 <h3 className="text-2xl font-bold text-red-900 mb-6 text-center">🚨 Same-Day Emergency Service Scenarios</h3>
-                
+
                 <p className="text-center text-gray-700 mb-6">
                   Need urgent process service? Our emergency response team is available 24/7 for time-sensitive legal matters. <Link href="/weekend-emergency" className="text-red-600 hover:underline font-medium">View our emergency service capabilities →</Link>
                 </p>
-                
+
                 <div className="grid md:grid-cols-3 gap-6">
                   <div className="bg-white p-6 rounded-lg shadow-lg border-l-4 border-red-500">
                     <h4 className="font-bold text-red-800 mb-4 flex items-center">
@@ -2449,7 +2449,7 @@ export default function WhatIsAProcessServerPage() {
                       <li>• Safe service protocols for volatile situations</li>
                     </ul>
                   </div>
-                  
+
                   <div className="bg-white p-6 rounded-lg shadow-lg border-l-4 border-orange-500">
                     <h4 className="font-bold text-orange-800 mb-4 flex items-center">
                       <span className="mr-2">⏰</span> Court Deadline Crisis
@@ -2462,7 +2462,7 @@ export default function WhatIsAProcessServerPage() {
                       <li>• Rush document preparation</li>
                     </ul>
                   </div>
-                  
+
                   <div className="bg-white p-6 rounded-lg shadow-lg border-l-4 border-blue-500">
                     <h4 className="font-bold text-blue-800 mb-4 flex items-center">
                       <span className="mr-2">🏢</span> Business Emergency
@@ -2477,17 +2477,17 @@ export default function WhatIsAProcessServerPage() {
                   </div>
                 </div>
               </div>
-              
+
               <div className="text-center bg-gray-50 p-8 rounded-xl">
                 <div className="flex justify-center gap-4 mb-6">
-                  <Image 
+                  <Image
                     src="/badges/emergency-legal-documents-badge.svg"
                     alt="Emergency Legal Documents Badge"
                     width={80}
                     height={80}
                     className="rounded-lg shadow-md"
                   />
-                  <Image 
+                  <Image
                     src="/badges/same-day-service-available-badge.svg"
                     alt="Same Day Service Available Badge"
                     width={80}
@@ -2506,9 +2506,9 @@ export default function WhatIsAProcessServerPage() {
             {/* Technology and Modern Process Serving */}
             <section className="mb-12" id="technology">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center voice-optimized">Technology-Enhanced Process Serving in 2026</h2>
-              
+
               <div className="text-center mb-8">
-                <Image 
+                <Image
                   src="/images/Technology legal compliance flowchart.png"
                   alt="Modern technology in process serving - GPS tracking and digital communication"
                   width={1000}
@@ -2520,7 +2520,7 @@ export default function WhatIsAProcessServerPage() {
 
               <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-xl p-8 mb-8">
                 <h3 className="text-2xl font-bold text-blue-900 mb-8 text-center">Digital Documentation & Tracking</h3>
-                
+
                 <div className="grid md:grid-cols-3 gap-8">
                   <div className="bg-white p-6 rounded-lg shadow-lg border-t-4 border-blue-500">
                     <div className="text-center mb-4">
@@ -2537,7 +2537,7 @@ export default function WhatIsAProcessServerPage() {
                       <li>• Electronic affidavit preparation</li>
                     </ul>
                   </div>
-                  
+
                   <div className="bg-white p-6 rounded-lg shadow-lg border-t-4 border-green-500">
                     <div className="text-center mb-4">
                       <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-3">
@@ -2553,7 +2553,7 @@ export default function WhatIsAProcessServerPage() {
                       <li>• Instant case file access for attorneys</li>
                     </ul>
                   </div>
-                  
+
                   <div className="bg-white p-6 rounded-lg shadow-lg border-t-4 border-purple-500">
                     <div className="text-center mb-4">
                       <div className="w-16 h-16 bg-purple-500 rounded-full flex items-center justify-center mx-auto mb-3">
@@ -2576,11 +2576,11 @@ export default function WhatIsAProcessServerPage() {
             {/* Transparent Pricing Structure */}
             <section className="mb-12" id="pricing">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center voice-optimized">Transparent Pricing Structure and Payment Options</h2>
-              
+
               <div className="text-center mb-6">
                 <p className="text-gray-700 mb-4">Need detailed pricing information? <Link href="/oklahoma-process-server-pricing" className="text-blue-600 hover:underline font-medium">View our complete pricing guide →</Link></p>
               </div>
-              
+
               <div className="grid lg:grid-cols-3 gap-8 mb-8">
                 <div className="bg-green-50 border border-green-200 rounded-xl p-8">
                   <h3 className="text-xl font-bold text-green-900 mb-6 text-center">💼 Standard Service Costs</h3>
@@ -2603,7 +2603,7 @@ export default function WhatIsAProcessServerPage() {
                     </div>
                   </div>
                 </div>
-                
+
                 <div className="bg-red-50 border border-red-200 rounded-xl p-8">
                   <h3 className="text-xl font-bold text-red-900 mb-6 text-center">🚨 Emergency Pricing</h3>
                   <div className="space-y-4">
@@ -2625,7 +2625,7 @@ export default function WhatIsAProcessServerPage() {
                     </div>
                   </div>
                 </div>
-                
+
                 <div className="bg-blue-50 border border-blue-200 rounded-xl p-8">
                   <h3 className="text-xl font-bold text-blue-900 mb-6 text-center">💳 Payment Options</h3>
                   <div className="space-y-3">
@@ -2648,7 +2648,7 @@ export default function WhatIsAProcessServerPage() {
                   </div>
                 </div>
               </div>
-              
+
               <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-6">
                 <h4 className="font-bold text-yellow-900 mb-4 text-center">Additional Service Fees</h4>
                 <div className="grid md:grid-cols-3 gap-4 text-center">
@@ -2671,7 +2671,7 @@ export default function WhatIsAProcessServerPage() {
             {/* Professional Credentials & Certifications */}
             <section className="mb-12" id="professional-credentials">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center voice-optimized">Professional Certifications & Expert Credentials</h2>
-              
+
               <div className="grid lg:grid-cols-3 gap-8 mb-8">
                 <div className="bg-blue-50 border border-blue-200 rounded-xl p-8">
                   <h3 className="text-xl font-bold text-blue-900 mb-6">🏛️ Oklahoma State Certifications</h3>
@@ -2734,7 +2734,7 @@ export default function WhatIsAProcessServerPage() {
 
               <div className="bg-gradient-to-br from-gray-50 to-blue-50 rounded-xl p-8 text-center">
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Meet the Just Legal Solutions Expert Team</h3>
-                
+
                 {/* Professional Credentials - Text Based */}
                 <div className="flex flex-wrap justify-center gap-4 mb-6">
                   <div className="bg-blue-600 text-white px-4 py-2 rounded-lg font-bold shadow-lg">
@@ -2755,7 +2755,7 @@ export default function WhatIsAProcessServerPage() {
                 </div>
 
                 <p className="text-lg text-gray-700 mb-6 max-w-3xl mx-auto">
-                  <strong>Just Legal Solutions Professional Team</strong> • 50+ years combined experience in Oklahoma legal document service • Licensed and bonded process servers in all 77 Oklahoma counties • Certified by Oklahoma Administrative Office of the Courts • Members of NAPPS (National Association of Professional Process Servers) • Continuing education in Oklahoma civil procedure updates • Served over 10,000+ legal documents with 99.8% success rate
+                  <strong>Just Legal Solutions Professional Team</strong> • 50+ years combined experience in Oklahoma legal document service • Licensed and bonded process servers in all 77 Oklahoma counties • Certified by Oklahoma Administrative Office of the Courts • Members of NAPPS (National Association of Professional Process Servers) • Ongoing professional development in Oklahoma civil procedure • Served over 10,000+ legal documents with 99.8% success rate
                 </p>
                 <div className="text-sm text-gray-600 italic">
                   &ldquo;As licensed process servers operating throughout Oklahoma for decades, our Just Legal Solutions team has witnessed firsthand how proper service of process can make or break a legal case. Our commitment to professional, timely, and legally compliant service has helped thousands of attorneys and individuals navigate the complexities of Oklahoma&apos;s legal system successfully.&rdquo;
@@ -2766,7 +2766,7 @@ export default function WhatIsAProcessServerPage() {
             {/* Professional Success Stories */}
             <section className="mb-12" id="success-stories">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center voice-optimized">Process Service Success Stories (Client Confidentiality Maintained)</h2>
-              
+
               <div className="grid lg:grid-cols-3 gap-8 mb-8">
                 <div className="bg-green-50 border border-green-200 rounded-xl p-8">
                   <h3 className="text-xl font-bold text-green-900 mb-4">⚡ Emergency Custody Case - Creek County</h3>
@@ -2789,7 +2789,7 @@ export default function WhatIsAProcessServerPage() {
                     </div>
                   </div>
                 </div>
-                
+
                 <div className="bg-blue-50 border border-blue-200 rounded-xl p-8">
                   <h3 className="text-xl font-bold text-blue-900 mb-4">🏢 Commercial Litigation - Tulsa County</h3>
                   <div className="space-y-4">
@@ -2811,7 +2811,7 @@ export default function WhatIsAProcessServerPage() {
                     </div>
                   </div>
                 </div>
-                
+
                 <div className="bg-purple-50 border border-purple-200 rounded-xl p-8">
                   <h3 className="text-xl font-bold text-purple-900 mb-4">💔 Divorce Papers - Rural Oklahoma</h3>
                   <div className="space-y-4">
@@ -2871,7 +2871,7 @@ export default function WhatIsAProcessServerPage() {
                     <li><a href="/process-serving-mistakes-guide" className="text-blue-600 hover:underline">Common Process Serving Mistakes</a></li>
                   </ul>
                 </div>
-                
+
                 <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm hover:shadow-md transition">
                   <h3 className="font-bold text-gray-900 mb-3">⚖️ Specialized Services</h3>
                   <ul className="space-y-2 text-sm">
@@ -2881,7 +2881,7 @@ export default function WhatIsAProcessServerPage() {
                     <li><a href="/ai-skip-tracing-guide-oklahoma" className="text-blue-600 hover:underline">Skip Tracing Guide</a></li>
                   </ul>
                 </div>
-                
+
                 <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm hover:shadow-md transition">
                   <h3 className="font-bold text-gray-900 mb-3">📍 Service Areas</h3>
                   <ul className="space-y-2 text-sm">
@@ -2901,7 +2901,7 @@ export default function WhatIsAProcessServerPage() {
                 <p className="text-xl mb-6">
                   Don&rsquo;t let improper service invalidate your case. Ensure your legal documents are served correctly and on time with our licensed, experienced team.
                 </p>
-                
+
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
                   <a href="tel:5393676832" className="bg-white text-blue-800 px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition">
                     📞 Call (539) 367-6832
@@ -2910,7 +2910,7 @@ export default function WhatIsAProcessServerPage() {
                     📝 Get Online Quote
                   </a>
                 </div>
-                
+
                 <div className="grid md:grid-cols-3 gap-4 text-sm">
                   <div>
                     <strong>✓ Same-Day Service</strong><br />
@@ -2929,9 +2929,9 @@ export default function WhatIsAProcessServerPage() {
             </section>
           </article>
         </div>
-        </main>
-        <Footer />
-      </>
-    );
-  }
+      </main>
+      <Footer />
+    </>
+  );
+}
 

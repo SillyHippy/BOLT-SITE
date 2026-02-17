@@ -101,7 +101,7 @@ const faqSchema = {
       "name": "Do I need a licensed Oklahoma process server or can anyone serve papers?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "While 12 O.S. § 2004 allows service by a sheriff or a person licensed to serve process in civil cases, using a licensed professional ensures the affidavit of service is properly executed and filed."
+        "text": "Under 12 O.S. § 2004, process may be served by: (1) a sheriff or deputy sheriff, (2) a licensed private process server under 12 O.S. § 158.1, or (3) a person appointed by the court. Prisoners and parolees cannot be appointed to serve process. Using a licensed professional ensures the affidavit of service is properly executed and filed."
       }
     },
     {
@@ -118,6 +118,14 @@ const faqSchema = {
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Substituted service may be made at the defendant's dwelling house or usual place of abode with some person residing therein who is at least 15 years of age, per 12 O.S. § 2004(C)(1)(c)(i)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who can serve process in Oklahoma?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Under 12 O.S. § 2004, process may be served by: (1) a sheriff or deputy sheriff, (2) a licensed private process server under 12 O.S. § 158.1, or (3) a person appointed by the court. Prisoners and parolees cannot be appointed to serve process."
       }
     }
   ]
@@ -258,7 +266,8 @@ const faqCategories = [
             items: ["Contract disputes", "Collections notices", "Cease and desist orders", "Corporate service of process", "Bankruptcy papers", "Administrative proceedings"]
           }
         ],
-        note: "Professional servers ensure compliance with 12 O.S. § 2004 regarding the manner of service for each document type."
+        note: "Professional servers ensure compliance with 12 O.S. § 2004 regarding the manner of service for each document type.",
+        link: { text: "Learn about family law service in Tulsa", href: "/family-law-service-guide-tulsa-2025" }
       }
     ]
   },
@@ -279,6 +288,17 @@ const faqCategories = [
           "Court-Ordered Alternative Service (12 O.S. § 2004(D)): Methods ordered by the court when other means fail."
         ],
         link: { text: "Read our complete Oklahoma Process Server Laws Guide", href: "/oklahoma-process-server-laws" }
+      },
+      {
+        question: "Who can serve process in Oklahoma?",
+        answer: "Oklahoma law (12 O.S. § 2004) authorizes specific categories of individuals to serve legal process:",
+        details: [
+          "Sheriff or Deputy Sheriff: Can serve papers within their jurisdiction.",
+          "Licensed Private Process Server: Professionals licensed under 12 O.S. § 158.1 who meet all statutory requirements (age 18+, Oklahoma resident, good moral character, $5,000 bond).",
+          "Court-Appointed Person: A judge may appoint an individual to serve process in certain situations.",
+          "Important: Prisoners and parolees cannot be appointed to serve process in Oklahoma."
+        ],
+        note: "A party to the case cannot serve their own papers. Using a licensed professional ensures your Return of Service affidavit is properly executed and accepted by the court."
       }
     ]
   },
@@ -412,7 +432,7 @@ export default function OklahomaProcessServerFAQ2026() {
               </h1>
               
               <p className="text-xl text-blue-100 mb-4 max-w-2xl">
-                Your complete Oklahoma process server FAQ covering 2026 requirements for process servers in Oklahoma, Tulsa process server costs, and Oklahoma legal document service procedures.
+                Your complete Oklahoma process server FAQ covering 2026 requirements for process servers in Oklahoma, <Link href="/tulsa-process-server" className="text-blue-200 underline hover:text-white">Tulsa process server</Link> costs, and Oklahoma legal document service procedures.
               </p>
               <p className="text-lg text-blue-200 mb-8 max-w-2xl">
                 Expert guidance from licensed Tulsa-based professionals with 50+ years combined experience serving all 77 Oklahoma counties.
@@ -472,7 +492,7 @@ export default function OklahomaProcessServerFAQ2026() {
       {/* Quick Navigation */}
       <section className="bg-white border-b sticky top-16 z-40 shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex overflow-x-auto py-4 gap-2 scrollbar-hide">
+          <div className="flex overflow-x-auto py-4 gap-3 scrollbar-hide">
             {faqCategories.map((cat) => {
               const IconComponent = cat.icon;
               const colors = colorClasses[cat.color];
@@ -480,10 +500,10 @@ export default function OklahomaProcessServerFAQ2026() {
                 <a
                   key={cat.id}
                   href={`#${cat.id}`}
-                  className={`flex items-center gap-2 px-4 py-2 rounded-full whitespace-nowrap text-sm font-medium transition ${colors.light} ${colors.text} hover:${colors.bg} hover:text-white`}
+                  className={`flex items-center gap-2 px-2.5 py-2 sm:px-4 rounded-full whitespace-nowrap text-sm font-medium transition flex-shrink-0 ${colors.light} ${colors.text} hover:${colors.bg} hover:text-white`}
                 >
-                  <IconComponent className="w-4 h-4" />
-                  {cat.title}
+                  <IconComponent className="w-4 h-4 flex-shrink-0" />
+                  <span className="hidden sm:inline">{cat.title}</span>
                 </a>
               );
             })}
@@ -735,7 +755,7 @@ export default function OklahomaProcessServerFAQ2026() {
                   Specialized Services
                 </h3>
                 <ul className="space-y-3">
-                  <li><Link href="/family-law-service-guide-tulsa" className="text-blue-600 hover:underline">Family Law Service Guide</Link></li>
+                  <li><Link href="/family-law-service-guide-tulsa-2025" className="text-blue-600 hover:underline">Family Law Service Guide — Tulsa</Link></li>
                   <li><Link href="/oklahoma-electronic-service-guide" className="text-blue-600 hover:underline">Oklahoma Electronic Service Guide</Link></li>
                   <li><Link href="/serving-legal-papers-on-tribal-land" className="text-blue-600 hover:underline">Serving Papers on Tribal Land</Link></li>
                   <li><Link href="/weekend-emergency" className="text-blue-600 hover:underline">Weekend & Emergency Service</Link></li>
