@@ -6,6 +6,16 @@ import JsonLd from '@/components/JsonLd';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 
+// BreadcrumbList schema
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://justlegalsolutions.org" },
+    { "@type": "ListItem", "position": 2, "name": "Service Areas", "item": "https://justlegalsolutions.org/service-areas" }
+  ]
+};
+
 // LocalBusiness schema with explicit ServiceArea
 const localBusinessSchema = {
   "@context": "https://schema.org",
@@ -29,30 +39,33 @@ const localBusinessSchema = {
     "latitude": 35.9495,
     "longitude": -96.0017
   },
-  "areaServed": [
-    {
-      "@type": "State",
-      "name": "Oklahoma",
-      "containsPlace": [
-        { "@type": "City", "name": "Tulsa" },
-        { "@type": "City", "name": "Oklahoma City" },
-        { "@type": "City", "name": "Broken Arrow" },
-        { "@type": "City", "name": "Norman" },
-        { "@type": "City", "name": "Lawton" },
-        { "@type": "City", "name": "Edmond" },
-        { "@type": "City", "name": "Owasso" },
-        { "@type": "City", "name": "Sapulpa" },
-        { "@type": "City", "name": "Glenpool" },
-        { "@type": "City", "name": "Jenks" },
-        { "@type": "City", "name": "Bixby" },
-        { "@type": "City", "name": "Bartlesville" },
-        { "@type": "City", "name": "Claremore" },
-        { "@type": "City", "name": "Sand Springs" },
-        { "@type": "City", "name": "Enid" },
-        { "@type": "City", "name": "Stillwater" }
-      ]
-    }
-  ],
+  "areaServed": {
+    "@type": "State",
+    "name": "Oklahoma",
+    "description": "All 77 counties in Oklahoma",
+    "containsPlace": [
+      { "@type": "City", "name": "Tulsa" },
+      { "@type": "City", "name": "Oklahoma City" },
+      { "@type": "City", "name": "Broken Arrow" },
+      { "@type": "City", "name": "Norman" },
+      { "@type": "City", "name": "Lawton" },
+      { "@type": "City", "name": "Edmond" },
+      { "@type": "City", "name": "Owasso" },
+      { "@type": "City", "name": "Sapulpa" },
+      { "@type": "City", "name": "Glenpool" },
+      { "@type": "City", "name": "Jenks" },
+      { "@type": "City", "name": "Bixby" },
+      { "@type": "City", "name": "Bartlesville" },
+      { "@type": "City", "name": "Claremore" },
+      { "@type": "City", "name": "Sand Springs" },
+      { "@type": "City", "name": "Enid" },
+      { "@type": "City", "name": "Stillwater" },
+      { "@type": "City", "name": "Muskogee" },
+      { "@type": "City", "name": "Ponca City" },
+      { "@type": "City", "name": "Shawnee" },
+      { "@type": "City", "name": "Durant" }
+    ]
+  },
   "serviceArea": {
     "@type": "GeoCircle",
     "geoMidpoint": {
@@ -138,68 +151,103 @@ const breadcrumbItems = [
 ];
 
 const counties = [
+  // --- Metro / Priority Counties ---
   {
     name: "Tulsa County",
     seat: "Tulsa",
     cities: ["Tulsa", "Broken Arrow", "Owasso", "Bixby", "Jenks", "Sand Springs", "Glenpool", "Collinsville"],
     link: "/counties/tulsa-county",
-    description: "Oil Capital county with 669,279 residents, Art Deco courthouse, energy industry hub"
+    region: "Metro",
+    description: "Oklahoma\u2019s second-largest county (669,000+ residents) and our home base. We serve the Tulsa County Courthouse and surrounding communities daily, handling high volumes of civil, family law, and landlord-tenant cases. Urban service challenges include apartment complexes, gated communities, downtown high-rises, and secured business parks."
   },
   {
-    name: "Creek County", 
+    name: "Oklahoma County",
+    seat: "Oklahoma City",
+    cities: ["Oklahoma City", "Edmond", "Midwest City", "Del City", "The Village", "Nichols Hills"],
+    link: "/counties/tulsa-county",
+    region: "Metro",
+    description: "The state capital and largest county by population. We coordinate regular service runs to the Oklahoma County Courthouse for civil litigation, corporate service, and family law matters. Dense metro areas require familiarity with high-security buildings, office complexes, and military installations."
+  },
+  {
+    name: "Cleveland County",
+    seat: "Norman",
+    cities: ["Norman", "Moore", "Noble", "Lexington", "Slaughterville"],
+    link: "/counties/tulsa-county",
+    region: "Metro",
+    description: "Home to the University of Oklahoma in Norman, Cleveland County sees steady demand for civil, family, and landlord-tenant service. Suburban growth areas and student housing add complexity to locating defendants."
+  },
+  {
+    name: "Canadian County",
+    seat: "El Reno",
+    cities: ["Mustang", "Yukon", "El Reno", "Piedmont", "Union City"],
+    link: "/counties/tulsa-county",
+    region: "Metro",
+    description: "One of the fastest-growing counties in Oklahoma, Canadian County blends suburban OKC metro communities with rural western stretches. Service here often involves new subdivisions and rapidly changing addresses."
+  },
+  // --- Northeast Oklahoma ---
+  {
+    name: "Creek County",
     seat: "Sapulpa",
     cities: ["Sapulpa", "Bristow", "Kellyville", "Kiefer", "Mounds", "Mannford", "Taft"],
     link: "/counties/creek-county",
-    description: "Oil boom heritage county, Frankoma Pottery, Route 66 history"
+    region: "Northeast",
+    description: "Adjacent to Tulsa County, Creek County includes tribal jurisdictions (Muscogee Nation). Oil-boom heritage communities line Route 66. Service can involve both municipal and tribal court processes\u2014coordinate with tribal authorities when cases involve tribal members on trust land."
   },
   {
     name: "Rogers County",
-    seat: "Claremore", 
+    seat: "Claremore",
     cities: ["Claremore", "Catoosa", "Verdigris", "Oologah", "Inola", "Foyil", "Chelsea", "Talala"],
     link: "/counties/rogers-county",
-    description: "Will Rogers heritage, Route 66 corridor, inland port at Catoosa"
+    region: "Northeast",
+    description: "Located along the Route 66 corridor northeast of Tulsa, Rogers County includes the Port of Catoosa\u2014America\u2019s most inland port. Service here spans suburban Claremore through small rural communities with gravel-road addressing."
   },
   {
     name: "Wagoner County",
     seat: "Wagoner",
     cities: ["Wagoner", "Coweta", "Porter", "Redbird", "Haskell"],
-    link: "/counties/wagoner-county", 
-    description: "Railroad crossroads heritage, agricultural and government center"
+    link: "/counties/wagoner-county",
+    region: "Northeast",
+    description: "A growing bedroom community for Tulsa workers, Wagoner County blends suburban development around Coweta with agricultural land to the south. Railroad-era communities and lake properties can complicate defendant location."
   },
   {
     name: "Washington County",
     seat: "Bartlesville",
     cities: ["Bartlesville", "Dewey", "Copan", "Ramona", "Ochelata", "Vera", "Wann", "Lenapah"],
     link: "/counties/washington-county",
-    description: "First commercial oil well, Phillips Petroleum headquarters, Frank Lloyd Wright architecture"
+    region: "Northeast",
+    description: "Anchored by Bartlesville and the former Phillips Petroleum headquarters. Civil and corporate service is common here. Rural areas in eastern Washington County require local road knowledge and longer drive times from Tulsa (~50 miles)."
   },
   {
-    name: "Mayes County", 
+    name: "Mayes County",
     seat: "Pryor",
     cities: ["Pryor", "Chouteau", "Locust Grove", "Salina", "Spavinaw", "Adair"],
     link: "/counties/mayes-county",
-    description: "Manufacturing center, Lewis and Clark expedition heritage"
+    region: "Northeast",
+    description: "A manufacturing and lake-recreation county east of Tulsa. Cherokee Nation jurisdiction overlaps portions of Mayes County\u2014tribal court coordination may be necessary for cases involving enrolled members on tribal land."
   },
   {
     name: "Osage County",
     seat: "Pawhuska",
     cities: ["Pawhuska", "Skiatook", "Hominy", "Fairfax"],
     link: "/counties/osage-county",
-    description: "Osage Nation heritage, oil lease history, Pioneer Woman Museum"
+    region: "Northeast",
+    description: "The largest county by area in Oklahoma and home to the Osage Nation. Vast ranch land, mineral-rights disputes, and remote gravel roads make Osage County one of the more challenging service areas. Tribal jurisdiction applies across much of the county\u2014coordinate with tribal courts when appropriate."
   },
   {
     name: "Nowata County",
-    seat: "Nowata", 
+    seat: "Nowata",
     cities: ["Nowata", "Delaware", "Wann", "Lenapah"],
     link: "/counties/nowata-county",
-    description: "Cherokee heritage, agricultural community"
+    region: "Northeast",
+    description: "A small, rural county north of Tulsa with Cherokee heritage. Sparse population and rural-route addressing require advance planning for service runs. We typically bundle Nowata serves with Washington or Rogers County trips for efficiency."
   },
   {
     name: "Okmulgee County",
     seat: "Okmulgee",
     cities: ["Okmulgee", "Beggs", "Henryetta", "Taft"],
     link: "/counties/okmulgee-county",
-    description: "Creek Nation capital, historic downtown, government center"
+    region: "Northeast",
+    description: "Historic capital of the Muscogee (Creek) Nation, Okmulgee County encompasses tribal government centers and rural agricultural land. Tribal jurisdiction considerations are frequent here\u2014confirm whether service involves state or tribal court before dispatch."
   }
 ];
 
@@ -257,6 +305,7 @@ export default function ServiceAreasHub() {
       />
       <JsonLd data={localBusinessSchema} />
       <JsonLd data={faqSchema} />
+      <JsonLd data={breadcrumbSchema} />
       <Navbar />
 
       <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
@@ -294,10 +343,10 @@ export default function ServiceAreasHub() {
                   <Clock className="w-4 h-4" />
                   Same-Day Available
                 </div>
-                <div className="flex items-center gap-2 bg-blue-500/90 backdrop-blur-sm px-5 py-2.5 rounded-full font-semibold text-white shadow-lg">
+                <Link href="/oklahoma-process-server-laws" className="flex items-center gap-2 bg-blue-500/90 backdrop-blur-sm px-5 py-2.5 rounded-full font-semibold text-white shadow-lg hover:bg-blue-400/90 transition">
                   <Shield className="w-4 h-4" />
                   Licensed & Bonded
-                </div>
+                </Link>
               </div>
               
               {/* SEO intro paragraph */}
@@ -333,6 +382,31 @@ export default function ServiceAreasHub() {
           </div>
         </section>
 
+        {/* Statewide Licensing Authority */}
+        <section className="py-12 bg-white">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="bg-blue-50 border border-blue-200 rounded-2xl p-8">
+              <div className="flex items-start gap-4 mb-4">
+                <div className="w-12 h-12 bg-blue-600 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <Shield className="w-6 h-6 text-white" />
+                </div>
+                <h2 className="text-2xl font-bold text-gray-900">Statewide Licensing Authority</h2>
+              </div>
+              <div className="space-y-4 text-gray-700 leading-relaxed">
+                <p>
+                  Under <Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline font-medium">12 O.S. § 158.1</Link>, a private process server licensed by any Oklahoma district court has <strong>statewide authority</strong> to serve process in all 77 counties. There is no requirement to obtain separate licenses for each county. The statutory $5,000 bond applies statewide, ensuring faithful performance of duties across the entire state.
+                </p>
+                <p>
+                  While the license itself is statewide, local procedures vary from county to county. Court clerk preferences for affidavit formatting, hearing schedules, filing cutoff times, and courthouse access rules differ between jurisdictions. Our experience serving across every region of Oklahoma means we understand these local nuances\u2014so your papers are filed correctly the first time, no matter which courthouse is involved.
+                </p>
+                <p className="text-sm text-gray-500 italic">
+                  All Just Legal Solutions process servers are <Link href="/oklahoma-process-server-laws" className="text-blue-500 hover:underline">licensed and bonded</Link> in accordance with Oklahoma law.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Service Coverage Overview */}
         <section className="py-16 bg-slate-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -358,7 +432,7 @@ export default function ServiceAreasHub() {
                   <CheckCircle className="w-7 h-7 text-green-600" />
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Professional Standards</h3>
-                <p className="text-gray-600">Licensed, bonded, and insured statewide service with 95% success rate and same professional standards in every Oklahoma location.</p>
+                <p className="text-gray-600">High success rate based on thousands of serves completed across Oklahoma, with the same professional standards applied in every location.</p>
               </div>
               <div className="text-center p-8 bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
                 <div className="w-14 h-14 bg-orange-100 rounded-xl flex items-center justify-center mx-auto mb-4">
@@ -383,16 +457,19 @@ export default function ServiceAreasHub() {
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {counties.map((county, index) => (
                 <div key={index} className="bg-slate-50 p-6 rounded-xl border border-slate-200 hover:border-blue-300 hover:shadow-lg transition-all">
-                  <div className="flex items-start justify-between mb-4">
+                  <div className="flex items-start justify-between mb-2">
                     <div>
                       <h3 className="text-xl font-bold text-slate-900 mb-1">{county.name}</h3>
-                      <p className="text-sm text-slate-500">County Seat: {county.seat}</p>
+                      <div className="flex items-center gap-2">
+                        <p className="text-sm text-slate-500">County Seat: {county.seat}</p>
+                        {county.region && <span className="text-xs bg-blue-100 text-blue-700 px-2 py-0.5 rounded-full">{county.region}</span>}
+                      </div>
                     </div>
-                    <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center">
+                    <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
                       <Building2 className="w-5 h-5 text-blue-600" />
                     </div>
                   </div>
-                  <p className="text-slate-600 text-sm mb-4">{county.description}</p>
+                  <p className="text-slate-600 text-sm mb-4 leading-relaxed">{county.description}</p>
                   <div className="mb-4">
                     <p className="text-sm font-semibold text-gray-900 mb-2">Major Cities:</p>
                     <div className="text-xs text-gray-600">
@@ -406,8 +483,26 @@ export default function ServiceAreasHub() {
                   >
                     View County Details →
                   </Link>
+                  {county.name === "Tulsa County" && (
+                    <Link 
+                      href="/tulsa-process-server"
+                      className="inline-flex items-center ml-4 text-yellow-600 hover:text-yellow-700 font-semibold text-sm"
+                    >
+                      ⭐ View Tulsa County Details →
+                    </Link>
+                  )}
                 </div>
               ))}
+            </div>
+
+            {/* Tulsa County CTA */}
+            <div className="mt-10 bg-gradient-to-r from-blue-600 to-blue-800 rounded-2xl p-8 text-white text-center">
+              <h3 className="text-2xl font-bold mb-3">Looking for a Tulsa Process Server?</h3>
+              <p className="text-blue-100 mb-6 max-w-2xl mx-auto">Tulsa County is our home base. We serve the Tulsa County Courthouse daily and cover every neighborhood, apartment complex, and business park in the metro area.</p>
+              <Link href="/tulsa-process-server" className="inline-flex items-center gap-2 bg-yellow-500 hover:bg-yellow-400 text-black font-bold px-8 py-3 rounded-lg transition-colors">
+                <MapPin className="w-5 h-5" />
+                View Tulsa County Details
+              </Link>
             </div>
           </div>
         </section>
@@ -433,7 +528,7 @@ export default function ServiceAreasHub() {
                     href={city.link}
                     className="text-blue-600 hover:text-blue-800 text-sm font-medium"
                   >
-                    City Details →
+                    View Details →
                   </Link>
                 </div>
               ))}
@@ -456,7 +551,7 @@ export default function ServiceAreasHub() {
               <div className="text-center">
                 <Shield className="w-12 h-12 text-blue-600 mx-auto mb-4" />
                 <h3 className="font-bold text-gray-900 mb-2">Licensed Statewide</h3>
-                <p className="text-gray-600">Properly licensed, bonded, and insured in all counties we serve with all required registrations current.</p>
+                <p className="text-gray-600">Properly <Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline font-medium">licensed, bonded</Link>, and insured in all counties we serve under 12 O.S. § 158.1, with all required registrations current.</p>
               </div>
               <div className="text-center">
                 <MapPin className="w-12 h-12 text-blue-600 mx-auto mb-4" />
@@ -561,6 +656,54 @@ export default function ServiceAreasHub() {
           </div>
         </section>
 
+        {/* Service Challenges by Region */}
+        <section className="py-16 bg-white">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">Service Challenges by Region</h2>
+              <p className="text-gray-600 max-w-2xl mx-auto">Oklahoma\u2019s varied geography creates distinct service challenges. Our experience across every region means we know how to handle each one.</p>
+            </div>
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="bg-slate-50 rounded-2xl p-6 border border-slate-200">
+                <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mb-4">
+                  <Building2 className="w-6 h-6 text-blue-600" />
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Urban & Suburban</h3>
+                <ul className="space-y-2 text-gray-700 text-sm">
+                  <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-blue-500 flex-shrink-0 mt-0.5" /><span>High-density housing: apartments, condos, and gated communities with restricted access</span></li>
+                  <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-blue-500 flex-shrink-0 mt-0.5" /><span>Downtown parking limitations and building security protocols</span></li>
+                  <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-blue-500 flex-shrink-0 mt-0.5" /><span>Corporate offices with front-desk gatekeepers and visitor policies</span></li>
+                  <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-blue-500 flex-shrink-0 mt-0.5" /><span>Universities and campus housing access restrictions</span></li>
+                </ul>
+              </div>
+              <div className="bg-slate-50 rounded-2xl p-6 border border-slate-200">
+                <div className="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center mb-4">
+                  <MapPin className="w-6 h-6 text-green-600" />
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Rural & Remote</h3>
+                <ul className="space-y-2 text-gray-700 text-sm">
+                  <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" /><span>Longer drive times\u2014some western and panhandle serves require 3+ hours each way</span></li>
+                  <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" /><span>Sparse or non-standard addressing: rural routes, unmarked county roads, GPS-unreliable areas</span></li>
+                  <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" /><span>Seasonal road conditions: flooding, ice, and unpaved roads that limit access</span></li>
+                  <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" /><span>Gated ranch and agricultural properties with limited access points</span></li>
+                </ul>
+              </div>
+              <div className="bg-slate-50 rounded-2xl p-6 border border-slate-200">
+                <div className="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center mb-4">
+                  <Shield className="w-6 h-6 text-purple-600" />
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">Tribal Jurisdictions</h3>
+                <ul className="space-y-2 text-gray-700 text-sm">
+                  <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-purple-500 flex-shrink-0 mt-0.5" /><span>Jurisdiction boundaries: determine whether service involves state or tribal court authority</span></li>
+                  <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-purple-500 flex-shrink-0 mt-0.5" /><span>Tribal nations (Muscogee, Cherokee, Osage, etc.) may have separate service-of-process rules</span></li>
+                  <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-purple-500 flex-shrink-0 mt-0.5" /><span>Coordination with tribal court clerks may be required for cases on trust land</span></li>
+                  <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-purple-500 flex-shrink-0 mt-0.5" /><span>See our <Link href="/serving-legal-papers-on-tribal-land" className="text-purple-600 hover:underline font-medium">Tribal Land Service Guide</Link> for details</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Helpful Resources */}
         <section className="py-12 bg-gray-100">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -570,9 +713,9 @@ export default function ServiceAreasHub() {
                 <h3 className="font-bold text-blue-900 mb-2">Oklahoma Process Server FAQ 2026</h3>
                 <p className="text-gray-600 text-sm">Answers to common questions about process serving in Oklahoma.</p>
               </Link>
-              <Link href="/oklahoma-process-server-best-practices-checklist-2026" className="bg-white p-6 rounded-lg shadow hover:shadow-lg transition-shadow">
-                <h3 className="font-bold text-blue-900 mb-2">Best Practices Checklist 2026</h3>
-                <p className="text-gray-600 text-sm">Professional standards and requirements for Oklahoma process servers.</p>
+              <Link href="/oklahoma-process-server-laws" className="bg-white p-6 rounded-lg shadow hover:shadow-lg transition-shadow">
+                <h3 className="font-bold text-blue-900 mb-2">Oklahoma Process Server Laws</h3>
+                <p className="text-gray-600 text-sm">Licensing, service methods, and statutory requirements under 12 O.S. § 158.1 and § 2004.</p>
               </Link>
               <Link href="/pricing" className="bg-white p-6 rounded-lg shadow hover:shadow-lg transition-shadow">
                 <h3 className="font-bold text-blue-900 mb-2">Pricing & Service Options</h3>
@@ -627,7 +770,7 @@ export default function ServiceAreasHub() {
               </Link>
             </div>
             <div className="mt-8 text-blue-200">
-              <p>Licensed • Bonded • Insured • Professional Service Guaranteed</p>
+              <p><Link href="/oklahoma-process-server-laws" className="text-blue-200 hover:text-white underline">Licensed & Bonded</Link> under 12 O.S. § 158.1 • Insured • Professional Service Statewide</p>
             </div>
           </div>
         </section>

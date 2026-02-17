@@ -83,7 +83,7 @@ export default function TulsaProcessServerPage() {
         "name": "How quickly can your Broken Arrow process server or Tulsa process server deliver legal documents?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Our standard delivery for a Tulsa process server is typically within 3-5 business days. However, we understand some legal matters are time-sensitive. We offer rush and same-day service for urgent deliveries in both Tulsa and Broken Arrow. Our process servers in Tulsa are committed to providing the fastest and most reliable service possible. If you need an urgent Process Server for Tulsa County, contact us immediately."
+          "text": "Our standard delivery for a Tulsa process server is typically within 3-5 business days, well within the 180-day statutory deadline for service under 12 O.S. § 2004. However, we understand some legal matters are time-sensitive. We offer rush and same-day service for urgent deliveries in both Tulsa and Broken Arrow. Our process servers in Tulsa are committed to providing the fastest and most reliable service possible. If you need an urgent Process Server for Tulsa County, contact us immediately."
         }
       },
       {
@@ -91,7 +91,7 @@ export default function TulsaProcessServerPage() {
         "name": "Are you a licensed and bonded process server in Tulsa County and Broken Arrow, OK?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes, absolutely. All of our process servers are fully licensed and bonded as required by the state of Oklahoma. We are an authorized Tulsa County process server and also serve the entire Broken Arrow, OK area. You can trust our professional team to handle your legal documents with the utmost care and compliance."
+          "text": "Yes, absolutely. All of our process servers are fully licensed under 12 O.S. § 158.1 by Oklahoma district courts and bonded with a $5,000 surety bond as required by state law. We are an authorized Tulsa County process server and also serve the entire Broken Arrow, OK area. You can trust our professional team to handle your legal documents with the utmost care and compliance."
         }
       },
       {
@@ -226,19 +226,19 @@ export default function TulsaProcessServerPage() {
       fileName: "tulsa-county-courthouse-process-server.jpeg"
     },
     {
-        src: "https://raw.githubusercontent.com/SillyHippy/BOLT-SITE/main/public/images/tulsa-process-server.jpg",
-        alt: "Process server in Tulsa reviewing legal documents before service.",
-        fileName: "tulsa-process-server-reviewing-documents.jpg"
+      src: "https://raw.githubusercontent.com/SillyHippy/BOLT-SITE/main/public/images/tulsa-process-server.jpg",
+      alt: "Process server in Tulsa reviewing legal documents before service.",
+      fileName: "tulsa-process-server-reviewing-documents.jpg"
     },
     {
-        src: "https://raw.githubusercontent.com/SillyHippy/BOLT-SITE/main/public/images/tulsa-county-process-server.png",
-        alt: "A graphic representing a Tulsa County process server and legal document delivery.",
-        fileName: "tulsa-county-process-server-graphic.png"
+      src: "https://raw.githubusercontent.com/SillyHippy/BOLT-SITE/main/public/images/tulsa-county-process-server.png",
+      alt: "A graphic representing a Tulsa County process server and legal document delivery.",
+      fileName: "tulsa-county-process-server-graphic.png"
     },
     {
-        src: "https://raw.githubusercontent.com/SillyHippy/BOLT-SITE/main/public/images/Tulsa_skyline_aerial%2C_April_2023.jpg",
-        alt: "Aerial view of the Tulsa skyline, an area served by our process servers.",
-        fileName: "tulsa-skyline-area-served-by-process-server-in-tulsa.jpg"
+      src: "https://raw.githubusercontent.com/SillyHippy/BOLT-SITE/main/public/images/Tulsa_skyline_aerial%2C_April_2023.jpg",
+      alt: "Aerial view of the Tulsa skyline, an area served by our process servers.",
+      fileName: "tulsa-skyline-area-served-by-process-server-in-tulsa.jpg"
     }
   ];
 
@@ -248,774 +248,871 @@ export default function TulsaProcessServerPage() {
 
   return (
     <>
-    <div className="container mx-auto px-4 py-8">
+      <div className="container mx-auto px-4 py-8">
 
-      {/* Hero Section */}
-      <section className="text-center mb-12">
-        <h1 className="text-4xl font-bold mb-4">Tulsa Process Server - Professional Legal Document Delivery</h1>
-        <p className="text-xl text-muted-foreground mb-6">Your trusted partner for fast, accurate, and professional legal document delivery from a licensed process server in Tulsa County.</p>
-        <div className="flex justify-center gap-4">
-          <Button asChild>
-            <Link href="/pricing">View Pricing & Services</Link>
-          </Button>
-          <Button asChild variant="outline">
-            <Link href="/contact">Contact Us</Link>
-          </Button>
-        </div>
-      </section>
-
-      {/* Comprehensive Guide Section */}
-      <section className="mb-12 bg-gradient-to-br from-blue-900 to-blue-800 text-white p-8 rounded-lg">
-        <h2 className="text-3xl font-bold text-center mb-8">Your Guide to Professional Service of Process in Tulsa</h2>
-        <div className="grid md:grid-cols-2 gap-8">
-          <div>
-            <p className="mb-4 text-blue-100">Known as the &quot;Oil Capital of the World,&quot; Tulsa&apos;s history is rich with Art Deco architecture funded by the early 20th-century oil boom. This legacy creates a diverse urban landscape, from the historic downtown core to sprawling residential areas.</p>
-            <p className="mb-4 text-blue-100">Effective process serving here demands an understanding of both its business centers and its widespread suburban neighborhoods. Our expertise spans from the iconic downtown Art Deco district to modern suburban developments.</p>
-          </div>
-          <div>
-            <h3 className="text-xl font-bold mb-4 text-blue-200">Why Local Expertise Matters</h3>
-            <p className="mb-4 text-blue-100">As the heart of Tulsa County, our process serving team covers every city and neighborhood with local expertise. This page serves as a comprehensive overview of our capabilities, service areas, and unwavering commitment to excellence in the field of legal support services.</p>
-            <Button asChild variant="secondary" className="bg-white text-blue-900 hover:bg-blue-50">
-              <Link href="/counties/tulsa-county">Tulsa County Process Server</Link>
+        {/* Hero Section */}
+        <section className="text-center mb-12">
+          <h1 className="text-4xl font-bold mb-4">Tulsa Process Server - Professional Legal Document Delivery</h1>
+          <p className="text-xl text-muted-foreground mb-6">Your trusted partner for fast, accurate, and professional legal document delivery from a licensed process server in Tulsa County.</p>
+          <div className="flex justify-center gap-4">
+            <Button asChild>
+              <Link href="/pricing">View Pricing & Services</Link>
+            </Button>
+            <Button asChild variant="outline">
+              <Link href="/contact">Contact Us</Link>
             </Button>
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* Core Services Section */}
-      <section className="mb-12 bg-white p-8 rounded-lg shadow-lg">
-        <h2 className="text-3xl font-bold text-center mb-8 text-blue-800">Core Services Offered Across Tulsa County</h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <Card className="border-l-4 border-l-blue-500">
-            <CardContent className="p-6">
-              <h3 className="font-bold text-lg mb-3 text-blue-800">Summons and Complaints</h3>
-              <p className="text-gray-700">The critical first step in any lawsuit, served promptly to establish jurisdiction with professional civil litigation process serving.</p>
-            </CardContent>
-          </Card>
-          <Card className="border-l-4 border-l-green-500">
-            <CardContent className="p-6">
-              <h3 className="font-bold text-lg mb-3 text-green-800">Subpoenas</h3>
-              <p className="text-gray-700">Legally compelling witnesses to testify or produce evidence, delivered with proof of service. Expert subpoena service throughout Tulsa.</p>
-            </CardContent>
-          </Card>
-          <Card className="border-l-4 border-l-purple-500">
-            <CardContent className="p-6">
-              <h3 className="font-bold text-lg mb-3 text-purple-800">Family Law Documents</h3>
-              <p className="text-gray-700">Handling sensitive papers like <Link href="/family-law-service-guide-tulsa" className="text-purple-600 hover:underline">divorce petitions and child custody orders</Link> with care and discretion throughout <Link href="/counties/tulsa-county" className="text-purple-600 hover:underline">Tulsa County</Link>.</p>
-            </CardContent>
-          </Card>
-          <Card className="border-l-4 border-l-red-500">
-            <CardContent className="p-6">
-              <h3 className="font-bold text-lg mb-3 text-red-800">Eviction & Forcible Detainer</h3>
-              <p className="text-gray-700">Serving notices to tenants in strict accordance with Oklahoma&apos;s landlord-tenant laws. For comprehensive eviction guidance, visit our <Link href="/seo/eviction-notice-process-server" className="text-red-600 hover:text-red-800 underline">specialized eviction notice process server page</Link>.</p>
-            </CardContent>
-          </Card>
-          <Card className="border-l-4 border-l-yellow-500">
-            <CardContent className="p-6">
-              <h3 className="font-bold text-lg mb-3 text-yellow-800">Garnishments and Writs</h3>
-              <p className="text-gray-700">Executing court orders for asset seizure and wage garnishment with professional service throughout Oklahoma.</p>
-            </CardContent>
-          </Card>
-          <Card className="border-l-4 border-l-indigo-500">
-            <CardContent className="p-6">
-              <h3 className="font-bold text-lg mb-3 text-indigo-800">Skip Tracing</h3>
-              <p className="text-gray-700"><Link href="/ai-skip-tracing-guide-oklahoma" className="text-indigo-600 hover:underline">Professional location services</Link> for hard-to-find individuals using advanced skip tracing technology.</p>
-            </CardContent>
-          </Card>
-        </div>
-      </section>
-
-      {/* Gold Standard Section */}
-      <section className="mb-12">
-        <h2 className="text-3xl font-bold text-center mb-8">The Gold Standard for a Process Server in Tulsa</h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          <Card>
-            <CardHeader>
-              <CardTitle>Same-Day Service</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <p>Urgent documents are our specialty. We guarantee same-day attempts for all rush orders in Tulsa.</p>
-            </CardContent>
-          </Card>
-          <Card>
-            <CardHeader>
-              <CardTitle>Licensed & Insured</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <p>Our process servers are fully licensed and insured in Oklahoma for your complete peace of mind.</p>
-            </CardContent>
-          </Card>
-          <Card>
-            <CardHeader>
-              <CardTitle>Tulsa County Coverage</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <p>We serve documents in <Link href="/tulsa-process-server" className="text-blue-600 hover:underline font-medium">Tulsa</Link>, <Link href="/service-areas/broken-arrow" className="text-blue-600 hover:underline font-medium">Broken Arrow</Link>, <Link href="/service-areas/bixby" className="text-blue-600 hover:underline font-medium">Bixby</Link>, <Link href="/service-areas/jenks" className="text-blue-600 hover:underline font-medium">Jenks</Link>, <Link href="/service-areas/owasso" className="text-blue-600 hover:underline font-medium">Owasso</Link>, and all surrounding areas.</p>
-            </CardContent>
-          </Card>
-          <Card>
-            <CardHeader>
-              <CardTitle>Digital Proof of Service</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <p>Receive a legally compliant, digital affidavit of service as soon as the job is complete.</p>
-            </CardContent>
-          </Card>
-        </div>
-      </section>
-
-      {/* Comprehensive Services Section */}
-      <section className="mb-12 bg-white p-8 rounded-lg shadow-md">
-        <h2 className="text-3xl font-bold text-center mb-8 text-blue-800">Complete Legal Document Services Across Tulsa County</h2>
-        <div className="grid md:grid-cols-2 gap-8">
-          <div>
-            <h3 className="text-xl font-bold mb-4 text-blue-700">Core Process Serving</h3>
-            <ul className="list-disc list-inside space-y-2 text-gray-700">
-              <li><strong>Summons and Complaints:</strong> Critical first step in lawsuits, served promptly to establish jurisdiction</li>
-              <li><strong>Subpoenas:</strong> Legally compelling witnesses to testify or produce evidence</li>
-              <li><strong>Family Law Documents:</strong> <Link href="/family-law-service-guide-tulsa" className="text-blue-600 hover:underline">Divorce petitions, child custody orders</Link> handled with discretion</li>
-              <li><strong>Eviction Notices:</strong> <Link href="/seo/eviction-notice-process-server" className="text-red-600 hover:text-red-800 underline">Forcible detainer in strict accordance with Oklahoma law</Link></li>
-              <li><strong>Garnishments and Writs:</strong> Court orders for asset seizure and wage garnishment</li>
-            </ul>
-          </div>
-          <div>
-            <h3 className="text-xl font-bold mb-4 text-blue-700">Specialized Services</h3>
-            <ul className="list-disc list-inside space-y-2 text-gray-700">
-              <li><strong>Skip Tracing:</strong> Professional location services for hard-to-find individuals</li>
-              <li><strong>Rush & Emergency Service:</strong> <Link href="/urgent-process-server" className="text-blue-600 hover:underline">Same-day and 2-hour emergency service</Link> available</li>
-              <li><strong>Court Filing:</strong> Complete filing services at <Link href="/counties/tulsa-county" className="text-blue-600 hover:underline">Tulsa County Courthouse</Link></li>
-              <li><strong>Weekend Service:</strong> <Link href="/weekend-emergency" className="text-blue-600 hover:underline">24/7 emergency service</Link> including weekends and holidays</li>
-              <li><strong>Corporate Service:</strong> High-security office buildings and gated communities</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      {/* Service Areas Coverage */}
-      <section className="mb-12">
-        <h2 className="text-3xl font-bold text-center mb-8">Serving Every Corner of Tulsa County</h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 text-center">
-          {[
-            { name: 'Tulsa', link: '/tulsa-process-server' },
-            { name: 'Broken Arrow', link: '/service-areas/broken-arrow' },
-            { name: 'Bixby', link: '/service-areas/bixby' },
-            { name: 'Jenks', link: '/service-areas/jenks' },
-            { name: 'Owasso', link: '/service-areas/owasso' },
-            { name: 'Sand Springs', link: '/service-areas/sand-springs' },
-            { name: 'Glenpool', link: '/service-areas/glenpool' },
-            { name: 'Sapulpa', link: '/service-areas/sapulpa' },
-            { name: 'Collinsville', link: '/service-areas/collinsville' },
-            { name: 'Skiatook', link: '/service-areas/skiatook' },
-            { name: 'Catoosa', link: '/service-areas/catoosa' },
-            { name: 'Kellyville', link: '/service-areas/kellyville' },
-            { name: 'Downtown Tulsa', link: null },
-            { name: 'Midtown', link: null },
-            { name: 'South Tulsa', link: null },
-            { name: 'Brookside', link: null },
-            { name: 'Cherry Street', link: null },
-            { name: 'Blue Dome District', link: null },
-            { name: 'Brady Arts District', link: null },
-            { name: 'Maple Ridge', link: null },
-            { name: 'Riverside', link: null },
-            { name: 'Greenwood', link: null }
-          ].map(area => (
-            <div key={area.name} className="bg-blue-50 p-3 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-              {area.link ? (
-                <Link href={area.link} className="font-semibold text-blue-900 text-sm hover:text-blue-700 hover:underline">
-                  {area.name}
-                </Link>
-              ) : (
-                <p className="font-semibold text-blue-900 text-sm">{area.name}</p>
-              )}
+        {/* E-E-A-T Credibility Section */}
+        <section className="mb-12 bg-gradient-to-r from-green-50 to-blue-50 border border-green-200 rounded-xl p-8">
+          <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">About Your Tulsa Process Server Team</h2>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-6">
+            <div className="text-center">
+              <div className="text-3xl mb-2">🏛️</div>
+              <p className="font-semibold text-gray-900">Court-Licensed</p>
+              <p className="text-sm text-gray-600">All servers licensed by Oklahoma district courts under <Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">12 O.S. § 158.1</Link></p>
             </div>
-          ))}
-        </div>
-      </section>
-
-      {/* Google Maps Section */}
-      <section className="mb-12">
-        <h2 className="text-3xl font-bold text-center mb-8">Our Service Area - Tulsa, Oklahoma</h2>
-        <div className="bg-white p-6 rounded-lg shadow-lg">
-          <p className="text-center text-gray-600 mb-6">We serve all of Tulsa County and surrounding areas with professional process serving services.</p>
-          <div className="w-full h-96 rounded-lg overflow-hidden shadow-md">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d207735.95352197944!2d-96.0854267857!3d36.1156494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b6dfdfd3da7fff%3A0x3e2b4c39b6c9c4b1!2sTulsa%2C%20OK!5e0!3m2!1sen!2sus!4v1635780000000!5m2!1sen!2sus"
-              width="100%"
-              height="100%"
-              style={{ border: 0 }}
-              allowFullScreen={true}
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              title="Tulsa Process Server Service Area Map"
-            ></iframe>
+            <div className="text-center">
+              <div className="text-3xl mb-2">🔒</div>
+              <p className="font-semibold text-gray-900">Bonded &amp; Insured</p>
+              <p className="text-sm text-gray-600">Each server is bonded with a $5,000 surety bond as required by state law</p>
+            </div>
+            <div className="text-center">
+              <div className="text-3xl mb-2">⚖️</div>
+              <p className="font-semibold text-gray-900">Statute-Compliant</p>
+              <p className="text-sm text-gray-600">We follow Oklahoma Rules of Civil Procedure, including <Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">12 O.S. § 2004</Link>, for all service of process</p>
+            </div>
+            <div className="text-center">
+              <div className="text-3xl mb-2">📅</div>
+              <p className="font-semibold text-gray-900">Current &amp; Verified</p>
+              <p className="text-sm text-gray-600">Page last updated: February 2026</p>
+            </div>
           </div>
-          <p className="text-center text-sm text-gray-500 mt-4">
-            Professional process serving throughout Tulsa County - from downtown Tulsa to suburban communities
-          </p>
-        </div>
-      </section>
-      
-      {/* Tulsa's Legal Legacy */}
-      <section className="mb-12 bg-gray-100 p-8 rounded-lg">
-        <h2 className="text-3xl font-bold text-center mb-6">Tulsa’s Legal Legacy & Your Local Tulsa County Process Server</h2>
-        <div className="grid md:grid-cols-2 gap-8 items-center">
+        </section>
+
+        {/* Oklahoma Process Serving Laws Subsection */}
+        <section className="mb-12 bg-white p-8 rounded-lg shadow-md border border-gray-200">
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">Oklahoma Process Serving Laws</h2>
+          <div className="prose max-w-none text-gray-700 space-y-4">
+            <p>
+              Understanding Oklahoma&apos;s process serving laws is essential for anyone involved in a legal matter in Tulsa County. Oklahoma law sets clear rules for who may serve legal papers and how service must be completed. Below is a summary of the key requirements. For a comprehensive breakdown, visit our <Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline font-medium">Oklahoma process serving laws</Link> page.
+            </p>
+
+            <h3 className="text-xl font-bold text-gray-900 mt-6">Who Can Serve Legal Documents in Oklahoma?</h3>
+            <p>
+              Under Oklahoma law, legal documents may be served by: (1) the county sheriff or deputy sheriff, (2) a private process server licensed under <Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">12 O.S. § 158.1</Link>, or (3) a person specially appointed by the court. A party to the lawsuit may <strong>not</strong> serve their own papers. Licensed private process servers must be at least 18 years of age, pass a background check, post a $5,000 surety bond, and maintain a license through the court clerk&apos;s office.
+            </p>
+
+            <h3 className="text-xl font-bold text-gray-900 mt-6">Methods of Service on Individuals</h3>
+            <p>
+              Under 12 O.S. § 2004, valid service on an individual in Oklahoma may be accomplished through:
+            </p>
+            <ul className="list-disc list-inside space-y-2 ml-4">
+              <li><strong>Personal delivery:</strong> Handing the summons and petition directly to the defendant. This is the preferred and most common method.</li>
+              <li><strong>Substituted service (abode service):</strong> Leaving the documents with a person <strong>15 years of age or older</strong> who resides at the defendant&apos;s dwelling house or usual place of abode. The person must be informed of the contents.</li>
+              <li><strong>Certified mail:</strong> Sending the documents by certified mail, return receipt requested. The recipient must sign the return receipt for service to be valid.</li>
+              <li><strong>Alternative methods:</strong> When personal or substituted service cannot be accomplished with reasonable diligence, the court may authorize service by publication, posting, or other means under 12 O.S. §§ 2004.3 and 2004.5.</li>
+            </ul>
+
+            <h3 className="text-xl font-bold text-gray-900 mt-6">180-Day Service Deadline</h3>
+            <p>
+              Oklahoma law under 12 O.S. § 2004 requires that service of process be completed within <strong>180 days</strong> after the petition is filed. If the defendant is not served within that window, the court may dismiss the action without prejudice—unless the plaintiff shows good cause for the delay. Our standard turnaround of 3–5 business days in Tulsa County keeps clients well within this statutory deadline.
+            </p>
+
+            <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mt-4">
+              <p className="text-sm text-blue-800">
+                <strong>Need more detail?</strong> Our <Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline font-medium">full Oklahoma process serving laws guide</Link> covers service on businesses, service by publication, electronic service under 12 O.S. § 2004.5, and more.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Comprehensive Guide Section */}
+        <section className="mb-12 bg-gradient-to-br from-blue-900 to-blue-800 text-white p-8 rounded-lg">
+          <h2 className="text-3xl font-bold text-center mb-8">Your Guide to Professional Service of Process in Tulsa</h2>
+          <div className="grid md:grid-cols-2 gap-8">
             <div>
-                <p className="mb-4">Tulsa’s legal legacy runs deep—a city that evolved from a bustling 20th-century oil hub into Oklahoma’s second-largest legal and business center. The historic downtown is home to the Tulsa County Courthouse and iconic Art Deco skyscrapers, reflecting a century of change.</p>
-                <p>For generations, efficient legal document delivery has kept Tulsa’s courts, firms, and residents connected and protected. Our deep roots in this vibrant city enable us to serve legal documents with true local expertise for every Tulsa neighborhood, from Brookside to Greenwood.</p>
+              <p className="mb-4 text-blue-100">Known as the &quot;Oil Capital of the World,&quot; Tulsa&apos;s history is rich with Art Deco architecture funded by the early 20th-century oil boom. This legacy creates a diverse urban landscape, from the historic downtown core to sprawling residential areas.</p>
+              <p className="mb-4 text-blue-100">Effective process serving here demands an understanding of both its business centers and its widespread suburban neighborhoods. Our expertise spans from the iconic downtown Art Deco district to modern suburban developments.</p>
+            </div>
+            <div>
+              <h3 className="text-xl font-bold mb-4 text-blue-200">Why Local Expertise Matters</h3>
+              <p className="mb-4 text-blue-100">As the heart of Tulsa County, our process serving team covers every city and neighborhood with local expertise. This page serves as a comprehensive overview of our capabilities, service areas, and unwavering commitment to excellence in the field of legal support services.</p>
+              <Button asChild variant="secondary" className="bg-white text-blue-900 hover:bg-blue-50">
+                <Link href="/counties/tulsa-county">Tulsa County Process Server</Link>
+              </Button>
+            </div>
+          </div>
+        </section>
+
+        {/* Core Services Section */}
+        <section className="mb-12 bg-white p-8 rounded-lg shadow-lg">
+          <h2 className="text-3xl font-bold text-center mb-8 text-blue-800">Core Services Offered Across Tulsa County</h2>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <Card className="border-l-4 border-l-blue-500">
+              <CardContent className="p-6">
+                <h3 className="font-bold text-lg mb-3 text-blue-800">Summons and Complaints</h3>
+                <p className="text-gray-700">The critical first step in any lawsuit, served promptly to establish jurisdiction with professional civil litigation process serving.</p>
+              </CardContent>
+            </Card>
+            <Card className="border-l-4 border-l-green-500">
+              <CardContent className="p-6">
+                <h3 className="font-bold text-lg mb-3 text-green-800">Subpoenas</h3>
+                <p className="text-gray-700">Legally compelling witnesses to testify or produce evidence, delivered with proof of service. Expert subpoena service throughout Tulsa.</p>
+              </CardContent>
+            </Card>
+            <Card className="border-l-4 border-l-purple-500">
+              <CardContent className="p-6">
+                <h3 className="font-bold text-lg mb-3 text-purple-800">Family Law Documents</h3>
+                <p className="text-gray-700">Handling sensitive papers like <Link href="/family-law-service-guide-tulsa-2025" className="text-purple-600 hover:underline">divorce petitions and child custody orders</Link> with care and discretion throughout <Link href="/counties/tulsa-county" className="text-purple-600 hover:underline">Tulsa County</Link>.</p>
+              </CardContent>
+            </Card>
+            <Card className="border-l-4 border-l-red-500">
+              <CardContent className="p-6">
+                <h3 className="font-bold text-lg mb-3 text-red-800">Eviction & Forcible Detainer</h3>
+                <p className="text-gray-700">Serving notices to tenants in strict accordance with Oklahoma&apos;s landlord-tenant laws. For comprehensive eviction guidance, visit our <Link href="/seo/eviction-notice-process-server" className="text-red-600 hover:text-red-800 underline">specialized eviction notice process server page</Link>.</p>
+              </CardContent>
+            </Card>
+            <Card className="border-l-4 border-l-yellow-500">
+              <CardContent className="p-6">
+                <h3 className="font-bold text-lg mb-3 text-yellow-800">Garnishments and Writs</h3>
+                <p className="text-gray-700">Executing court orders for asset seizure and wage garnishment with professional service throughout Oklahoma.</p>
+              </CardContent>
+            </Card>
+            <Card className="border-l-4 border-l-indigo-500">
+              <CardContent className="p-6">
+                <h3 className="font-bold text-lg mb-3 text-indigo-800">Skip Tracing</h3>
+                <p className="text-gray-700"><Link href="/ai-skip-tracing-guide-oklahoma" className="text-indigo-600 hover:underline">Professional location services</Link> for hard-to-find individuals using advanced skip tracing technology.</p>
+              </CardContent>
+            </Card>
+          </div>
+        </section>
+
+        {/* Gold Standard Section */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-center mb-8">The Gold Standard for a Process Server in Tulsa</h2>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <Card>
+              <CardHeader>
+                <CardTitle>Same-Day Service</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p>Urgent documents are our specialty. We guarantee same-day attempts for all rush orders in Tulsa.</p>
+              </CardContent>
+            </Card>
+            <Card>
+              <CardHeader>
+                <CardTitle>Licensed & Insured</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p>Our process servers are fully licensed and insured in Oklahoma for your complete peace of mind.</p>
+              </CardContent>
+            </Card>
+            <Card>
+              <CardHeader>
+                <CardTitle>Tulsa County Coverage</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p>We serve documents in <Link href="/tulsa-process-server" className="text-blue-600 hover:underline font-medium">Tulsa</Link>, <Link href="/service-areas/broken-arrow" className="text-blue-600 hover:underline font-medium">Broken Arrow</Link>, <Link href="/service-areas/bixby" className="text-blue-600 hover:underline font-medium">Bixby</Link>, <Link href="/service-areas/jenks" className="text-blue-600 hover:underline font-medium">Jenks</Link>, <Link href="/service-areas/owasso" className="text-blue-600 hover:underline font-medium">Owasso</Link>, and all surrounding areas.</p>
+              </CardContent>
+            </Card>
+            <Card>
+              <CardHeader>
+                <CardTitle>Digital Proof of Service</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p>Receive a legally compliant, digital affidavit of service as soon as the job is complete.</p>
+              </CardContent>
+            </Card>
+          </div>
+        </section>
+
+
+        {/* Service Areas Coverage */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-center mb-8">Serving Every Corner of Tulsa County</h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 text-center">
+            {[
+              { name: 'Tulsa', link: '/tulsa-process-server' },
+              { name: 'Broken Arrow', link: '/service-areas/broken-arrow' },
+              { name: 'Bixby', link: '/service-areas/bixby' },
+              { name: 'Jenks', link: '/service-areas/jenks' },
+              { name: 'Owasso', link: '/service-areas/owasso' },
+              { name: 'Sand Springs', link: '/service-areas/sand-springs' },
+              { name: 'Glenpool', link: '/service-areas/glenpool' },
+              { name: 'Sapulpa', link: '/service-areas/sapulpa' },
+              { name: 'Collinsville', link: '/service-areas/collinsville' },
+              { name: 'Skiatook', link: '/service-areas/skiatook' },
+              { name: 'Catoosa', link: '/service-areas/catoosa' },
+              { name: 'Kellyville', link: '/service-areas/kellyville' },
+              { name: 'Downtown Tulsa', link: null },
+              { name: 'Midtown', link: null },
+              { name: 'South Tulsa', link: null },
+              { name: 'Brookside', link: null },
+              { name: 'Cherry Street', link: null },
+              { name: 'Blue Dome District', link: null },
+              { name: 'Brady Arts District', link: null },
+              { name: 'Maple Ridge', link: null },
+              { name: 'Riverside', link: null },
+              { name: 'Greenwood', link: null }
+            ].map(area => (
+              <div key={area.name} className="bg-blue-50 p-3 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                {area.link ? (
+                  <Link href={area.link} className="font-semibold text-blue-900 text-sm hover:text-blue-700 hover:underline">
+                    {area.name}
+                  </Link>
+                ) : (
+                  <p className="font-semibold text-blue-900 text-sm">{area.name}</p>
+                )}
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* Google Maps Section */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-center mb-8">Our Service Area - Tulsa, Oklahoma</h2>
+          <div className="bg-white p-6 rounded-lg shadow-lg">
+            <p className="text-center text-gray-600 mb-6">We serve all of Tulsa County and surrounding areas with professional process serving services.</p>
+            <div className="w-full h-96 rounded-lg overflow-hidden shadow-md">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d207735.95352197944!2d-96.0854267857!3d36.1156494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b6dfdfd3da7fff%3A0x3e2b4c39b6c9c4b1!2sTulsa%2C%20OK!5e0!3m2!1sen!2sus!4v1635780000000!5m2!1sen!2sus"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen={true}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Tulsa Process Server Service Area Map"
+              ></iframe>
+            </div>
+            <p className="text-center text-sm text-gray-500 mt-4">
+              Professional process serving throughout Tulsa County - from downtown Tulsa to suburban communities
+            </p>
+          </div>
+        </section>
+
+        {/* Tulsa's Legal Legacy */}
+        <section className="mb-12 bg-gray-100 p-8 rounded-lg">
+          <h2 className="text-3xl font-bold text-center mb-6">Tulsa’s Legal Legacy & Your Local Tulsa County Process Server</h2>
+          <div className="grid md:grid-cols-2 gap-8 items-center">
+            <div>
+              <p className="mb-4">Tulsa’s legal legacy runs deep—a city that evolved from a bustling 20th-century oil hub into Oklahoma’s second-largest legal and business center. The historic downtown is home to the Tulsa County Courthouse and iconic Art Deco skyscrapers, reflecting a century of change.</p>
+              <p>For generations, efficient legal document delivery has kept Tulsa’s courts, firms, and residents connected and protected. Our deep roots in this vibrant city enable us to serve legal documents with true local expertise for every Tulsa neighborhood, from Brookside to Greenwood.</p>
             </div>
             <div className="grid grid-cols-2 gap-4 text-center">
-                <div>
-                    <p className="text-4xl font-bold text-primary">97%</p>
-                    <p>First-attempt serve success</p>
+              <div>
+                <p className="text-4xl font-bold text-primary">97%</p>
+                <p>First-attempt serve success</p>
+              </div>
+              <div>
+                <p className="text-4xl font-bold text-primary">6,000+</p>
+                <p>Documents delivered in Tulsa County since 2019</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <Carousel className="w-full max-w-4xl mx-auto mb-12">
+          <CarouselContent>
+            {images.map((image, index) => (
+              <CarouselItem key={index}>
+                <div className="p-1">
+                  <Card>
+                    <CardContent className="flex aspect-video items-center justify-center p-0 overflow-hidden rounded-lg">
+                      <Image
+                        src={image.src}
+                        alt={image.alt}
+                        width={1200}
+                        height={675}
+                        className="w-full h-full object-cover"
+                      />
+                    </CardContent>
+                  </Card>
                 </div>
-                <div>
-                    <p className="text-4xl font-bold text-primary">6,000+</p>
-                    <p>Documents delivered countywide</p>
-                </div>
-            </div>
-        </div>
-      </section>
+              </CarouselItem>
+            ))}
+          </CarouselContent>
+          <CarouselPrevious />
+          <CarouselNext />
+        </Carousel>
 
-      {/* Comprehensive Oil Capital Section */}
-      <section className="mb-12 bg-blue-50 p-8 rounded-lg">
-        <h2 className="text-3xl font-bold text-center mb-6 text-blue-800">Tulsa: The Oil Capital&apos;s Legal Heart</h2>
-        <div className="grid md:grid-cols-2 gap-8">
-          <div>
-            <h3 className="text-xl font-bold mb-4 text-blue-700">Rich History & Modern Legal Needs</h3>
-            <p className="mb-4 text-gray-700">Known as the &quot;Oil Capital of the World,&quot; Tulsa&apos;s history is rich with Art Deco architecture funded by the early 20th-century oil boom. This legacy creates a diverse urban landscape, from the historic downtown core to sprawling residential areas.</p>
-            <p className="mb-4 text-gray-700">Nestled along the Arkansas River, Tulsa County includes a patchwork of cities—Tulsa, Broken Arrow, Jenks, Bixby—each with a unique civic and legal culture shaped by growth since the railroad era. Landmark rulings and evolving family, real estate, and civil courts have made this district the judicial heart of eastern Oklahoma.</p>
-          </div>
-          <div>
-            <h3 className="text-xl font-bold mb-4 text-blue-700">Local Expertise Matters</h3>
-            <p className="mb-4 text-gray-700">Effective process serving here demands an understanding of both its business centers and its widespread suburban neighborhoods. We&apos;ve navigated these neighborhoods for years, staying up to date with shifting court practices and the unique challenges of serving papers across diverse settings—from historic routes to modern suburbs.</p>
-            <p className="text-gray-700">All service of process in Tulsa County is governed by Oklahoma State Statutes. This mandates that a licensed server must make diligent efforts to effect personal service. We are experts in these statutes and ensure every service is legally sound for the Tulsa County District Court.</p>
-          </div>
-        </div>
-      </section>
-
-      <Carousel className="w-full max-w-4xl mx-auto mb-12">
-        <CarouselContent>
-          {images.map((image, index) => (
-            <CarouselItem key={index}>
-              <div className="p-1">
-                <Card>
-                  <CardContent className="flex aspect-video items-center justify-center p-0 overflow-hidden rounded-lg">
-                    <Image
-                      src={image.src}
-                      alt={image.alt}
-                      width={1200}
-                      height={675}
-                      className="w-full h-full object-cover"
-                    />
-                  </CardContent>
-                </Card>
-              </div>
-            </CarouselItem>
-          ))}
-        </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
-      </Carousel>
-
-      {/* Comprehensive Neighborhoods & Service Areas */}
-      <section className="mb-12">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">Serving Every Corner of Tulsa County</h2>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Professional process serving throughout all Tulsa neighborhoods, suburbs, and surrounding communities
-          </p>
-        </div>
-        
-        <div className="grid lg:grid-cols-3 gap-8">
-          {/* Major Cities */}
-          <div className="bg-white p-6 rounded-xl shadow-lg">
-            <h3 className="text-xl font-bold text-blue-900 mb-6 text-center">Major Cities</h3>
-            <div className="space-y-3">
-              <Link href="/counties/tulsa-county" className="block bg-blue-50 p-4 rounded-lg hover:bg-blue-100 transition-colors">
-                <div className="font-semibold text-blue-900">Tulsa (County Seat)</div>
-                <div className="text-sm text-gray-600">413,066 residents • Downtown, Midtown, South Tulsa</div>
-              </Link>
-              <Link href="/service-areas/broken-arrow" className="block bg-blue-50 p-4 rounded-lg hover:bg-blue-100 transition-colors">
-                <div className="font-semibold text-blue-900">Broken Arrow</div>
-                <div className="text-sm text-gray-600">113,540 residents • Fastest growing suburb</div>
-              </Link>
-              <Link href="/service-areas/owasso" className="block bg-blue-50 p-4 rounded-lg hover:bg-blue-100 transition-colors">
-                <div className="font-semibold text-blue-900">Owasso</div>
-                <div className="text-sm text-gray-600">36,926 residents • Northern Tulsa County</div>
-              </Link>
-              <Link href="/service-areas/bixby" className="block bg-blue-50 p-4 rounded-lg hover:bg-blue-100 transition-colors">
-                <div className="font-semibold text-blue-900">Bixby</div>
-                <div className="text-sm text-gray-600">27,315 residents • Arkansas River access</div>
-              </Link>
-              <Link href="/service-areas/jenks" className="block bg-blue-50 p-4 rounded-lg hover:bg-blue-100 transition-colors">
-                <div className="font-semibold text-blue-900">Jenks</div>
-                <div className="text-sm text-gray-600">25,949 residents • Antique Capital</div>
-              </Link>
-              <Link href="/service-areas/sand-springs" className="block bg-blue-50 p-4 rounded-lg hover:bg-blue-100 transition-colors">
-                <div className="font-semibold text-blue-900">Sand Springs</div>
-                <div className="text-sm text-gray-600">19,912 residents • Historic western suburb</div>
-              </Link>
-            </div>
-          </div>
-          
-          {/* Tulsa Neighborhoods */}
-          <div className="bg-white p-6 rounded-xl shadow-lg">
-            <h3 className="text-xl font-bold text-blue-900 mb-6 text-center">Tulsa Neighborhoods</h3>
-            <div className="grid grid-cols-2 gap-2">
-              <span className="bg-gray-50 px-3 py-2 rounded-lg text-sm font-medium text-center">Downtown Tulsa</span>
-              <span className="bg-gray-50 px-3 py-2 rounded-lg text-sm font-medium text-center">Brookside</span>
-              <span className="bg-gray-50 px-3 py-2 rounded-lg text-sm font-medium text-center">Cherry Street</span>
-              <span className="bg-gray-50 px-3 py-2 rounded-lg text-sm font-medium text-center">Kendall-Whittier</span>
-              <span className="bg-gray-50 px-3 py-2 rounded-lg text-sm font-medium text-center">Maple Ridge</span>
-              <span className="bg-gray-50 px-3 py-2 rounded-lg text-sm font-medium text-center">Riverside</span>
-              <span className="bg-gray-50 px-3 py-2 rounded-lg text-sm font-medium text-center">Midtown</span>
-              <span className="bg-gray-50 px-3 py-2 rounded-lg text-sm font-medium text-center">Brady Arts District</span>
-              <span className="bg-gray-50 px-3 py-2 rounded-lg text-sm font-medium text-center">Greenwood</span>
-              <span className="bg-gray-50 px-3 py-2 rounded-lg text-sm font-medium text-center">Pearl District</span>
-              <span className="bg-gray-50 px-3 py-2 rounded-lg text-sm font-medium text-center">Utica Square</span>
-              <span className="bg-gray-50 px-3 py-2 rounded-lg text-sm font-medium text-center">Gilcrease</span>
-              <span className="bg-gray-50 px-3 py-2 rounded-lg text-sm font-medium text-center">Owen Park</span>
-              <span className="bg-gray-50 px-3 py-2 rounded-lg text-sm font-medium text-center">Swan Lake</span>
-              <span className="bg-gray-50 px-3 py-2 rounded-lg text-sm font-medium text-center">Red Fork</span>
-              <span className="bg-gray-50 px-3 py-2 rounded-lg text-sm font-medium text-center">Turley</span>
-            </div>
-            <div className="mt-4 text-center">
-              <Link href="/counties/tulsa-county" className="text-blue-600 hover:text-blue-800 font-medium text-sm">
-                View Complete Tulsa Coverage →
-              </Link>
-            </div>
-          </div>
-          
-          {/* Additional Communities */}
-          <div className="bg-white p-6 rounded-xl shadow-lg">
-            <h3 className="text-xl font-bold text-blue-900 mb-6 text-center">Additional Communities</h3>
-            <div className="space-y-3">
-              <div className="bg-gray-50 p-3 rounded-lg">
-                <div className="font-medium text-gray-900">Glenpool</div>
-                <div className="text-sm text-gray-600">Oil heritage community</div>
-              </div>
-              <div className="bg-gray-50 p-3 rounded-lg">
-                <div className="font-medium text-gray-900">Collinsville</div>
-                <div className="text-sm text-gray-600">Rural character community</div>
-              </div>
-              <div className="bg-gray-50 p-3 rounded-lg">
-                <div className="font-medium text-gray-900">Sapulpa</div>
-                <div className="text-sm text-gray-600">Creek County border area</div>
-              </div>
-              <div className="bg-gray-50 p-3 rounded-lg">
-                <div className="font-medium text-gray-900">Skiatook</div>
-                <div className="text-sm text-gray-600">North Tulsa County section</div>
-              </div>
-              <div className="bg-gray-50 p-3 rounded-lg">
-                <div className="font-medium text-gray-900">Catoosa</div>
-                <div className="text-sm text-gray-600">Rogers County border</div>
-              </div>
-              <div className="bg-gray-50 p-3 rounded-lg">
-                <div className="font-medium text-gray-900">Sperry</div>
-                <div className="text-sm text-gray-600">Northeastern community</div>
-              </div>
-            </div>
-            <div className="mt-4 text-center">
-              <Link href="/counties" className="text-blue-600 hover:text-blue-800 font-medium text-sm">
-                View All County Coverage →
-              </Link>
-            </div>
-          </div>
-        </div>
-        
-        {/* Service Guarantee */}
-        <div className="mt-8 bg-gradient-to-r from-green-50 to-blue-50 p-6 rounded-xl border border-green-200">
-          <div className="text-center">
-            <h4 className="text-lg font-bold text-gray-900 mb-2">100% Coverage Guarantee</h4>
-            <p className="text-gray-700">
-              Professional process serving in every Tulsa County community with <Link href="/pricing" className="text-blue-600 hover:text-blue-800 underline font-medium">transparent pricing</Link> and <Link href="/weekend-emergency" className="text-blue-600 hover:text-blue-800 underline font-medium">24/7 emergency service</Link> availability.
+        {/* Comprehensive Neighborhoods & Service Areas */}
+        <section className="mb-12">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">Serving Every Corner of Tulsa County</h2>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              Professional process serving throughout all Tulsa neighborhoods, suburbs, and surrounding communities
             </p>
           </div>
-        </div>
-      </section>
 
-      {/* Emergency Contact Section */}
-      <section className="mb-12 bg-gradient-to-r from-red-600 to-red-700 text-white rounded-xl shadow-lg overflow-hidden">
-        <div className="p-8 text-center">
-          <div className="h-16 w-16 mx-auto mb-6 text-red-200 flex items-center justify-center">
-            <svg className="h-16 w-16" fill="currentColor" viewBox="0 0 20 20">
-              <path fillRule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clipRule="evenodd" />
-            </svg>
+          <div className="grid lg:grid-cols-3 gap-8">
+            {/* Major Cities */}
+            <div className="bg-white p-6 rounded-xl shadow-lg">
+              <h3 className="text-xl font-bold text-blue-900 mb-6 text-center">Major Cities</h3>
+              <div className="space-y-3">
+                <Link href="/counties/tulsa-county" className="block bg-blue-50 p-4 rounded-lg hover:bg-blue-100 transition-colors">
+                  <div className="font-semibold text-blue-900">Tulsa (County Seat)</div>
+                  <div className="text-sm text-gray-600">413,066 residents • Downtown, Midtown, South Tulsa</div>
+                </Link>
+                <Link href="/service-areas/broken-arrow" className="block bg-blue-50 p-4 rounded-lg hover:bg-blue-100 transition-colors">
+                  <div className="font-semibold text-blue-900">Broken Arrow</div>
+                  <div className="text-sm text-gray-600">113,540 residents • Fastest growing suburb</div>
+                </Link>
+                <Link href="/service-areas/owasso" className="block bg-blue-50 p-4 rounded-lg hover:bg-blue-100 transition-colors">
+                  <div className="font-semibold text-blue-900">Owasso</div>
+                  <div className="text-sm text-gray-600">36,926 residents • Northern Tulsa County</div>
+                </Link>
+                <Link href="/service-areas/bixby" className="block bg-blue-50 p-4 rounded-lg hover:bg-blue-100 transition-colors">
+                  <div className="font-semibold text-blue-900">Bixby</div>
+                  <div className="text-sm text-gray-600">27,315 residents • Arkansas River access</div>
+                </Link>
+                <Link href="/service-areas/jenks" className="block bg-blue-50 p-4 rounded-lg hover:bg-blue-100 transition-colors">
+                  <div className="font-semibold text-blue-900">Jenks</div>
+                  <div className="text-sm text-gray-600">25,949 residents • Antique Capital</div>
+                </Link>
+                <Link href="/service-areas/sand-springs" className="block bg-blue-50 p-4 rounded-lg hover:bg-blue-100 transition-colors">
+                  <div className="font-semibold text-blue-900">Sand Springs</div>
+                  <div className="text-sm text-gray-600">19,912 residents • Historic western suburb</div>
+                </Link>
+              </div>
+            </div>
+
+            {/* Tulsa Neighborhoods */}
+            <div className="bg-white p-6 rounded-xl shadow-lg">
+              <h3 className="text-xl font-bold text-blue-900 mb-6 text-center">Tulsa Neighborhoods</h3>
+              <div className="grid grid-cols-2 gap-2">
+                <span className="bg-gray-50 px-3 py-2 rounded-lg text-sm font-medium text-center">Downtown Tulsa</span>
+                <span className="bg-gray-50 px-3 py-2 rounded-lg text-sm font-medium text-center">Brookside</span>
+                <span className="bg-gray-50 px-3 py-2 rounded-lg text-sm font-medium text-center">Cherry Street</span>
+                <span className="bg-gray-50 px-3 py-2 rounded-lg text-sm font-medium text-center">Kendall-Whittier</span>
+                <span className="bg-gray-50 px-3 py-2 rounded-lg text-sm font-medium text-center">Maple Ridge</span>
+                <span className="bg-gray-50 px-3 py-2 rounded-lg text-sm font-medium text-center">Riverside</span>
+                <span className="bg-gray-50 px-3 py-2 rounded-lg text-sm font-medium text-center">Midtown</span>
+                <span className="bg-gray-50 px-3 py-2 rounded-lg text-sm font-medium text-center">Brady Arts District</span>
+                <span className="bg-gray-50 px-3 py-2 rounded-lg text-sm font-medium text-center">Greenwood</span>
+                <span className="bg-gray-50 px-3 py-2 rounded-lg text-sm font-medium text-center">Pearl District</span>
+                <span className="bg-gray-50 px-3 py-2 rounded-lg text-sm font-medium text-center">Utica Square</span>
+                <span className="bg-gray-50 px-3 py-2 rounded-lg text-sm font-medium text-center">Gilcrease</span>
+                <span className="bg-gray-50 px-3 py-2 rounded-lg text-sm font-medium text-center">Owen Park</span>
+                <span className="bg-gray-50 px-3 py-2 rounded-lg text-sm font-medium text-center">Swan Lake</span>
+                <span className="bg-gray-50 px-3 py-2 rounded-lg text-sm font-medium text-center">Red Fork</span>
+                <span className="bg-gray-50 px-3 py-2 rounded-lg text-sm font-medium text-center">Turley</span>
+              </div>
+              <div className="mt-4 text-center">
+                <Link href="/counties/tulsa-county" className="text-blue-600 hover:text-blue-800 font-medium text-sm">
+                  View Complete Tulsa Coverage →
+                </Link>
+              </div>
+            </div>
+
+            {/* Additional Communities */}
+            <div className="bg-white p-6 rounded-xl shadow-lg">
+              <h3 className="text-xl font-bold text-blue-900 mb-6 text-center">Additional Communities</h3>
+              <div className="space-y-3">
+                <div className="bg-gray-50 p-3 rounded-lg">
+                  <div className="font-medium text-gray-900">Glenpool</div>
+                  <div className="text-sm text-gray-600">Oil heritage community</div>
+                </div>
+                <div className="bg-gray-50 p-3 rounded-lg">
+                  <div className="font-medium text-gray-900">Collinsville</div>
+                  <div className="text-sm text-gray-600">Rural character community</div>
+                </div>
+                <div className="bg-gray-50 p-3 rounded-lg">
+                  <div className="font-medium text-gray-900">Sapulpa</div>
+                  <div className="text-sm text-gray-600">Creek County border area</div>
+                </div>
+                <div className="bg-gray-50 p-3 rounded-lg">
+                  <div className="font-medium text-gray-900">Skiatook</div>
+                  <div className="text-sm text-gray-600">North Tulsa County section</div>
+                </div>
+                <div className="bg-gray-50 p-3 rounded-lg">
+                  <div className="font-medium text-gray-900">Catoosa</div>
+                  <div className="text-sm text-gray-600">Rogers County border</div>
+                </div>
+                <div className="bg-gray-50 p-3 rounded-lg">
+                  <div className="font-medium text-gray-900">Sperry</div>
+                  <div className="text-sm text-gray-600">Northeastern community</div>
+                </div>
+              </div>
+              <div className="mt-4 text-center">
+                <Link href="/counties" className="text-blue-600 hover:text-blue-800 font-medium text-sm">
+                  View All County Coverage →
+                </Link>
+              </div>
+            </div>
           </div>
-          <h2 className="text-3xl font-bold mb-4">Need Emergency Process Service in Tulsa?</h2>
-          <p className="text-xl mb-6 text-red-100">
-            Available 24/7 for urgent legal document service throughout Tulsa County
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <a 
-              href="tel:5393676832" 
-              className="bg-white text-red-600 hover:bg-red-50 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center"
-            >
-              <svg className="h-5 w-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+
+          {/* Service Guarantee */}
+          <div className="mt-8 bg-gradient-to-r from-green-50 to-blue-50 p-6 rounded-xl border border-green-200">
+            <div className="text-center">
+              <h4 className="text-lg font-bold text-gray-900 mb-2">100% Coverage Guarantee</h4>
+              <p className="text-gray-700">
+                Professional process serving in every Tulsa County community and <Link href="/service-areas" className="text-blue-600 hover:text-blue-800 underline font-medium">all 77 Oklahoma counties</Link> with <Link href="/pricing" className="text-blue-600 hover:text-blue-800 underline font-medium">transparent pricing</Link> and <Link href="/weekend-emergency" className="text-blue-600 hover:text-blue-800 underline font-medium">24/7 emergency service</Link> availability. We also offer <Link href="/courier-services-tulsa" className="text-blue-600 hover:text-blue-800 underline font-medium">legal courier services</Link> throughout Tulsa.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Emergency Contact Section */}
+        <section className="mb-12 bg-gradient-to-r from-red-600 to-red-700 text-white rounded-xl shadow-lg overflow-hidden">
+          <div className="p-8 text-center">
+            <div className="h-16 w-16 mx-auto mb-6 text-red-200 flex items-center justify-center">
+              <svg className="h-16 w-16" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clipRule="evenodd" />
               </svg>
-              Emergency: (539) 367-6832
-            </a>
-            <Button asChild variant="secondary" className="bg-white/10 hover:bg-white/20 text-white border border-white/20">
-              <Link href="/contact">Get Emergency Quote</Link>
-            </Button>
-          </div>
-        </div>
-      </section>
-
-      {/* FAQ Section */}
-      <section id="faq" className="max-w-6xl mx-auto mb-12">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Frequently Asked Questions
-          </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Get answers to common questions about our professional Tulsa process serving services
-          </p>
-        </div>
-        
-        <div className="grid lg:grid-cols-2 gap-8">
-          {/* FAQ Content */}
-          <div className="space-y-6">
-            <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-200 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-              <div className="flex items-start space-x-4">
-                <div className="flex-shrink-0 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
-                  <span className="text-white font-bold text-sm">1</span>
-                </div>
-                <div className="flex-1">
-                  <h3 className="text-lg font-bold text-gray-900 mb-3">How quickly can your Tulsa process server deliver legal documents?</h3>
-                  <p className="text-gray-700 leading-relaxed">Our standard delivery is typically within 3-5 business days. We offer rush and same-day service for urgent deliveries throughout <Link href="/counties/tulsa-county" className="text-blue-600 hover:text-blue-800 underline font-medium">Tulsa County</Link>. Our process servers are committed to providing the fastest and most reliable service possible.</p>
-                </div>
-              </div>
             </div>
-
-            <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-200 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-              <div className="flex items-start space-x-4">
-                <div className="flex-shrink-0 w-8 h-8 bg-green-600 rounded-full flex items-center justify-center">
-                  <span className="text-white font-bold text-sm">2</span>
-                </div>
-                <div className="flex-1">
-                  <h3 className="text-lg font-bold text-gray-900 mb-3">Are you licensed and bonded in Tulsa County?</h3>
-                  <p className="text-gray-700 leading-relaxed">Yes, absolutely. All of our process servers are fully licensed and bonded as required by Oklahoma state law. We are authorized to serve throughout <Link href="/counties/tulsa-county" className="text-blue-600 hover:text-blue-800 underline font-medium">Tulsa County</Link> and handle your legal documents with complete compliance.</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-200 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-              <div className="flex items-start space-x-4">
-                <div className="flex-shrink-0 w-8 h-8 bg-purple-600 rounded-full flex items-center justify-center">
-                  <span className="text-white font-bold text-sm">3</span>
-                </div>
-                <div className="flex-1">
-                  <h3 className="text-lg font-bold text-gray-900 mb-3">What areas do your Tulsa process servers cover?</h3>
-                  <p className="text-gray-700 leading-relaxed">We cover all of Tulsa County including downtown Tulsa, Midtown, South Tulsa, <Link href="/service-areas/broken-arrow" className="text-blue-600 hover:text-blue-800 underline font-medium">Broken Arrow</Link>, <Link href="/service-areas/jenks" className="text-blue-600 hover:text-blue-800 underline font-medium">Jenks</Link>, <Link href="/service-areas/bixby" className="text-blue-600 hover:text-blue-800 underline font-medium">Bixby</Link>, <Link href="/service-areas/owasso" className="text-blue-600 hover:text-blue-800 underline font-medium">Owasso</Link>, and <Link href="/service-areas/sand-springs" className="text-blue-600 hover:text-blue-800 underline font-medium">Sand Springs</Link>.</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-200 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-              <div className="flex items-start space-x-4">
-                <div className="flex-shrink-0 w-8 h-8 bg-yellow-600 rounded-full flex items-center justify-center">
-                  <span className="text-white font-bold text-sm">4</span>
-                </div>
-                <div className="flex-1">
-                  <h3 className="text-lg font-bold text-gray-900 mb-3">What legal documents can you serve?</h3>
-                  <p className="text-gray-700 leading-relaxed">We serve all types of legal documents including summons, complaints, subpoenas, <Link href="/seo/eviction-notice-process-server" className="text-red-600 hover:text-red-800 underline font-medium">eviction notices</Link>, and <Link href="/family-law-service-guide-tulsa" className="text-purple-600 hover:text-purple-800 underline font-medium">family law documents</Link> like divorce papers and child support petitions.</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-200 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-              <div className="flex items-start space-x-4">
-                <div className="flex-shrink-0 w-8 h-8 bg-red-600 rounded-full flex items-center justify-center">
-                  <span className="text-white font-bold text-sm">5</span>
-                </div>
-                <div className="flex-1">
-                  <h3 className="text-lg font-bold text-gray-900 mb-3">Do you offer emergency service?</h3>
-                  <p className="text-gray-700 leading-relaxed">Yes! We offer <Link href="/urgent-process-server" className="text-blue-600 hover:text-blue-800 underline font-medium">emergency 2-hour rush service</Link> and <Link href="/weekend-emergency" className="text-blue-600 hover:text-blue-800 underline font-medium">24/7 weekend service</Link> throughout Tulsa County for urgent situations.</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-200 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-              <div className="flex items-start space-x-4">
-                <div className="flex-shrink-0 w-8 h-8 bg-indigo-600 rounded-full flex items-center justify-center">
-                  <span className="text-white font-bold text-sm">6</span>
-                </div>
-                <div className="flex-1">
-                  <h3 className="text-lg font-bold text-gray-900 mb-3">How much does a Tulsa process server cost?</h3>
-                  <p className="text-gray-700 leading-relaxed">Our pricing is competitive and transparent. Cost depends on service type (standard, rush, same-day) and location. Visit our <Link href="/pricing" className="text-blue-600 hover:text-blue-800 underline font-medium">pricing page</Link> for detailed information or contact us for a specific quote.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          {/* Images Section */}
-          <div className="space-y-6">
-            <div className="bg-white p-6 rounded-xl shadow-lg">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Tulsa Process Server</h3>
-              <div className="relative h-48 mb-4">
-                <Image 
-                  src="/images/tulsa-process-server.jpg" 
-                  alt="Professional process server in Tulsa delivering legal documents"
-                  fill
-                  className="object-cover rounded-lg"
-                />
-              </div>
-              <p className="text-gray-700">
-                Professional, licensed process servers serving all of Tulsa County with same-day delivery options.
-              </p>
-            </div>
-            
-            <div className="bg-white p-6 rounded-xl shadow-lg">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Tulsa County Courthouse</h3>
-              <div className="relative h-48 mb-4">
-                <Image 
-                  src="/images/tulsa-county-courthouse.jpeg" 
-                  alt="Tulsa County Courthouse - legal document filing services"
-                  fill
-                  className="object-cover rounded-lg"
-                />
-              </div>
-              <p className="text-gray-700">
-                Familiar with all <Link href="/counties/tulsa-county" className="text-blue-600 hover:text-blue-800 underline font-medium">Tulsa County courts</Link> and filing procedures for seamless legal document delivery.
-              </p>
-            </div>
-            
-            <div className="bg-white p-6 rounded-xl shadow-lg">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Downtown Tulsa Service</h3>
-              <div className="relative h-48 mb-4">
-                <Image 
-                  src="/images/tulsa-courier-downtown.jpeg" 
-                  alt="Downtown Tulsa courier and process serving services"
-                  fill
-                  className="object-cover rounded-lg"
-                />
-              </div>
-              <p className="text-gray-700">
-                Serving downtown Tulsa businesses, law firms, and residential areas with professional document delivery.
-              </p>
-            </div>
-          </div>
-        </div>
-        
-        {/* Call to Action */}
-        <div className="text-center mt-12">
-          <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-200 max-w-2xl mx-auto">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Still Have Questions?</h3>
-            <p className="text-gray-700 mb-6">
-              Our experienced team is ready to help with your Tulsa County legal document needs.
+            <h2 className="text-3xl font-bold mb-4">Need Emergency Process Service in Tulsa?</h2>
+            <p className="text-xl mb-6 text-red-100">
+              Available 24/7 for urgent legal document service throughout Tulsa County
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a 
-                href="tel:(539)367-6832" 
-                className="inline-flex items-center justify-center px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors"
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <a
+                href="tel:5393676832"
+                className="bg-white text-red-600 hover:bg-red-50 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center"
               >
-                <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                <svg className="h-5 w-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                 </svg>
-                Call (539) 367-6832
+                Emergency: (539) 367-6832
               </a>
-              <Link 
-                href="/contact" 
-                className="inline-flex items-center justify-center px-6 py-3 bg-gray-600 text-white font-semibold rounded-lg hover:bg-gray-700 transition-colors"
-              >
-                <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-                  <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-                </svg>
-                Get Free Quote
-              </Link>
+              <Button asChild variant="secondary" className="bg-white/10 hover:bg-white/20 text-white border border-white/20">
+                <Link href="/contact">Get Emergency Quote</Link>
+              </Button>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* Enhanced Legal Info & Courthouse Resources */}
-      <section className="mb-12">
-        <h2 className="text-3xl font-bold text-center mb-8">Tulsa County Legal Resources & Court Information</h2>
-        <div className="grid md:grid-cols-2 gap-8">
-          <Card className="bg-gray-50">
-            <CardContent className="p-6">
-              <h3 className="text-xl font-bold mb-4 text-blue-800">Tulsa County Courthouse</h3>
-              <div className="space-y-2">
-                <p><strong>Address:</strong> 500 S Denver Ave, Tulsa, OK 74103</p>
-                <p><strong>Phone:</strong> (918) 596-5000</p>
-                <p><strong>Court Website:</strong> <Button asChild variant="link" className="p-0 h-auto">
-                  <a href="https://www.tulsacountydistrictcourt.org/" target="_blank" rel="noopener noreferrer">
-                    Visit Court Website
-                  </a>
-                </Button></p>
-                <p className="text-sm text-gray-600 mt-3">
-                  Historic Art Deco courthouse serving all of Tulsa County. Our process servers are familiar with all procedures and filing requirements.
+        {/* FAQ Section */}
+        <section id="faq" className="max-w-6xl mx-auto mb-12">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              Frequently Asked Questions
+            </h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Get answers to common questions about our professional Tulsa process serving services
+            </p>
+          </div>
+
+          <div className="grid lg:grid-cols-2 gap-8">
+            {/* FAQ Content */}
+            <div className="space-y-6">
+              <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-200 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                <div className="flex items-start space-x-4">
+                  <div className="flex-shrink-0 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
+                    <span className="text-white font-bold text-sm">1</span>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-lg font-bold text-gray-900 mb-3">How quickly can your Tulsa process server deliver legal documents?</h3>
+                    <p className="text-gray-700 leading-relaxed">Our standard delivery is typically within 3–5 business days, well within the 180-day statutory deadline for service under 12 O.S. § 2004. We offer rush and same-day service for urgent deliveries throughout <Link href="/counties/tulsa-county" className="text-blue-600 hover:text-blue-800 underline font-medium">Tulsa County</Link>. Our process servers are committed to providing the fastest and most reliable service possible.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-200 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                <div className="flex items-start space-x-4">
+                  <div className="flex-shrink-0 w-8 h-8 bg-green-600 rounded-full flex items-center justify-center">
+                    <span className="text-white font-bold text-sm">2</span>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-lg font-bold text-gray-900 mb-3">Are you licensed and bonded in Tulsa County?</h3>
+                    <p className="text-gray-700 leading-relaxed">Yes, absolutely. All of our process servers are fully licensed under <Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:text-blue-800 underline font-medium">12 O.S. § 158.1</Link> by Oklahoma district courts and bonded with a $5,000 surety bond as required by state law. We are authorized to serve throughout <Link href="/counties/tulsa-county" className="text-blue-600 hover:text-blue-800 underline font-medium">Tulsa County</Link> and handle your legal documents with complete compliance.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-200 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                <div className="flex items-start space-x-4">
+                  <div className="flex-shrink-0 w-8 h-8 bg-purple-600 rounded-full flex items-center justify-center">
+                    <span className="text-white font-bold text-sm">3</span>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-lg font-bold text-gray-900 mb-3">What areas do your Tulsa process servers cover?</h3>
+                    <p className="text-gray-700 leading-relaxed">We cover all of Tulsa County including downtown Tulsa, Midtown, South Tulsa, <Link href="/service-areas/broken-arrow" className="text-blue-600 hover:text-blue-800 underline font-medium">Broken Arrow</Link>, <Link href="/service-areas/jenks" className="text-blue-600 hover:text-blue-800 underline font-medium">Jenks</Link>, <Link href="/service-areas/bixby" className="text-blue-600 hover:text-blue-800 underline font-medium">Bixby</Link>, <Link href="/service-areas/owasso" className="text-blue-600 hover:text-blue-800 underline font-medium">Owasso</Link>, and <Link href="/service-areas/sand-springs" className="text-blue-600 hover:text-blue-800 underline font-medium">Sand Springs</Link>.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-200 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                <div className="flex items-start space-x-4">
+                  <div className="flex-shrink-0 w-8 h-8 bg-yellow-600 rounded-full flex items-center justify-center">
+                    <span className="text-white font-bold text-sm">4</span>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-lg font-bold text-gray-900 mb-3">What legal documents can you serve?</h3>
+                    <p className="text-gray-700 leading-relaxed">We serve all types of legal documents including summons, complaints, subpoenas, <Link href="/seo/eviction-notice-process-server" className="text-red-600 hover:text-red-800 underline font-medium">eviction notices</Link>, and <Link href="/family-law-service-guide-tulsa-2025" className="text-purple-600 hover:text-purple-800 underline font-medium">family law documents</Link> like divorce papers and child support petitions. We also provide <Link href="/courier-services-tulsa" className="text-blue-600 hover:text-blue-800 underline font-medium">legal courier services</Link> throughout Tulsa County.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-200 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                <div className="flex items-start space-x-4">
+                  <div className="flex-shrink-0 w-8 h-8 bg-red-600 rounded-full flex items-center justify-center">
+                    <span className="text-white font-bold text-sm">5</span>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-lg font-bold text-gray-900 mb-3">Do you offer emergency service?</h3>
+                    <p className="text-gray-700 leading-relaxed">Yes! We offer <Link href="/urgent-process-server" className="text-blue-600 hover:text-blue-800 underline font-medium">emergency 2-hour rush service</Link> and <Link href="/weekend-emergency" className="text-blue-600 hover:text-blue-800 underline font-medium">24/7 weekend service</Link> throughout Tulsa County for urgent situations.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-200 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                <div className="flex items-start space-x-4">
+                  <div className="flex-shrink-0 w-8 h-8 bg-indigo-600 rounded-full flex items-center justify-center">
+                    <span className="text-white font-bold text-sm">6</span>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-lg font-bold text-gray-900 mb-3">How much does a Tulsa process server cost?</h3>
+                    <p className="text-gray-700 leading-relaxed">Our pricing is competitive and transparent. Cost depends on service type (standard, rush, same-day) and location. Visit our <Link href="/pricing" className="text-blue-600 hover:text-blue-800 underline font-medium">pricing page</Link> for detailed information or contact us for a specific quote.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Images Section */}
+            <div className="space-y-6">
+              <div className="bg-white p-6 rounded-xl shadow-lg">
+                <h3 className="text-xl font-bold text-gray-900 mb-4">Tulsa Process Server</h3>
+                <div className="relative h-48 mb-4">
+                  <Image
+                    src="/images/tulsa-process-server.jpg"
+                    alt="Professional process server in Tulsa delivering legal documents"
+                    fill
+                    className="object-cover rounded-lg"
+                  />
+                </div>
+                <p className="text-gray-700">
+                  Professional, licensed process servers serving all of Tulsa County with same-day delivery options.
                 </p>
               </div>
-            </CardContent>
-          </Card>
-          
-          <Card className="bg-gray-50">
-            <CardContent className="p-6">
-              <h3 className="text-xl font-bold mb-4 text-blue-800">Process Service Laws</h3>
-              <div className="space-y-2">
-                <p><strong>Oklahoma Statutes:</strong> <Button asChild variant="link" className="p-0 h-auto">
-                  <a href="https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=438505" target="_blank" rel="noopener noreferrer">
-                    View Process Service Laws
-                  </a>
-                </Button></p>
-                <p><strong>Service Requirements:</strong> Personal service with licensed server</p>
-                <p><strong>Affidavit Filing:</strong> Available with court filing service</p>
-                <p className="text-sm text-gray-600 mt-3">
-                  All service complies with Oklahoma State Statutes and Tulsa County Court requirements for legally sound process service.
+
+              <div className="bg-white p-6 rounded-xl shadow-lg">
+                <h3 className="text-xl font-bold text-gray-900 mb-4">Tulsa County Courthouse</h3>
+                <div className="relative h-48 mb-4">
+                  <Image
+                    src="/images/tulsa-county-courthouse.jpeg"
+                    alt="Tulsa County Courthouse - legal document filing services"
+                    fill
+                    className="object-cover rounded-lg"
+                  />
+                </div>
+                <p className="text-gray-700">
+                  Familiar with all <Link href="/counties/tulsa-county" className="text-blue-600 hover:text-blue-800 underline font-medium">Tulsa County courts</Link> and filing procedures for seamless legal document delivery.
                 </p>
               </div>
-            </CardContent>
-          </Card>
-        </div>
-      </section>
 
-      {/* Recent Service Activity */}
-      <section className="mb-12 bg-blue-50 p-6 rounded-lg">
-        <h3 className="text-2xl font-bold text-center mb-6 text-blue-800">Recent Service Activity in Tulsa County</h3>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
-          <div className="text-center bg-white p-4 rounded-lg shadow-sm">
-            <p className="font-semibold text-blue-900">This Week</p>
-            <p className="text-sm text-gray-600">Court filings delivered in <Link href="/service-areas/jenks" className="text-blue-600 hover:underline">Jenks</Link></p>
+              <div className="bg-white p-6 rounded-xl shadow-lg">
+                <h3 className="text-xl font-bold text-gray-900 mb-4">Downtown Tulsa Service</h3>
+                <div className="relative h-48 mb-4">
+                  <Image
+                    src="/images/tulsa-courier-downtown.jpeg"
+                    alt="Downtown Tulsa courier and process serving services"
+                    fill
+                    className="object-cover rounded-lg"
+                  />
+                </div>
+                <p className="text-gray-700">
+                  Serving downtown Tulsa businesses, law firms, and residential areas with professional document delivery.
+                </p>
+              </div>
+            </div>
           </div>
-          <div className="text-center bg-white p-4 rounded-lg shadow-sm">
-            <p className="font-semibold text-blue-900">Today</p>
-            <p className="text-sm text-gray-600">Expedited eviction notice in Midtown Tulsa</p>
-          </div>
-          <div className="text-center bg-white p-4 rounded-lg shadow-sm">
-            <p className="font-semibold text-blue-900">Yesterday</p>
-            <p className="text-sm text-gray-600">Rush subpoena delivered in downtown Tulsa</p>
-          </div>
-          <div className="text-center bg-white p-4 rounded-lg shadow-sm">
-            <p className="font-semibold text-blue-900">This Week</p>
-            <p className="text-sm text-gray-600">Family law documents filed at courthouse</p>
-          </div>
-        </div>
-      </section>
 
-      {/* Community Involvement */}
-      <section className="mb-12 bg-white p-8 rounded-lg shadow-lg">
-        <h3 className="text-2xl font-bold text-center mb-6 text-blue-800">Community Involvement in Tulsa</h3>
-        <div className="grid md:grid-cols-2 gap-8">
-          <div>
-            <h4 className="text-lg font-semibold mb-3 text-blue-700">Supporting Tulsa&apos;s Legal Community</h4>
-            <p className="text-gray-700 mb-4">We proudly support Tulsa&apos;s legal community through pro bono work, local charity events, and partnerships with Tulsa schools and law groups. Our commitment extends beyond document delivery to supporting the broader legal ecosystem that serves our community.</p>
+          {/* Call to Action */}
+          <div className="text-center mt-12">
+            <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-200 max-w-2xl mx-auto">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Still Have Questions?</h3>
+              <p className="text-gray-700 mb-6">
+                Our experienced team is ready to help with your Tulsa County legal document needs.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <a
+                  href="tel:(539)367-6832"
+                  className="inline-flex items-center justify-center px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors"
+                >
+                  <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                  </svg>
+                  Call (539) 367-6832
+                </a>
+                <Link
+                  href="/contact"
+                  className="inline-flex items-center justify-center px-6 py-3 bg-gray-600 text-white font-semibold rounded-lg hover:bg-gray-700 transition-colors"
+                >
+                  <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                    <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                  </svg>
+                  Get Free Quote
+                </Link>
+              </div>
+            </div>
           </div>
-          <div>
-            <h4 className="text-lg font-semibold mb-3 text-blue-700">Local Partnerships</h4>
-            <p className="text-gray-700">Our deep local knowledge is concentrated in our core service areas, with trusted partnerships that allow us to handle serves throughout Tulsa County with the same level of professionalism and urgency. We understand the unique character of each Tulsa neighborhood.</p>
-          </div>
-        </div>
-      </section>
+        </section>
 
-      {/* Testimonials */}
-      <section className="mb-12">
-        <h2 className="text-3xl font-bold text-center mb-8">What Our Clients Say About Our Tulsa Process Servers</h2>
-        <div className="grid md:grid-cols-3 gap-8">
+        {/* Tulsa County Court Specifics */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-center mb-8">Tulsa County Court Specifics</h2>
+          <div className="grid md:grid-cols-2 gap-8">
+            <Card className="bg-gray-50">
+              <CardContent className="p-6">
+                <h3 className="text-xl font-bold mb-4 text-blue-800">Tulsa County Courthouse (District Court)</h3>
+                <div className="space-y-2">
+                  <p><strong>Address:</strong> 500 S Denver Ave, Tulsa, OK 74103</p>
+                  <p><strong>Phone:</strong> (918) 596-5000</p>
+                  <p><strong>General Hours:</strong> Monday–Friday, 8:00 AM – 5:00 PM</p>
+                  <p><strong>Filing Cutoff:</strong> Filings typically close at 4:30 PM; confirm with the clerk for current hours.</p>
+                  <p><strong>Court Website:</strong> <Button asChild variant="link" className="p-0 h-auto">
+                    <a href="https://www.tulsacountydistrictcourt.org/" target="_blank" rel="noopener noreferrer">
+                      Visit Court Website
+                    </a>
+                  </Button></p>
+                  <p className="text-sm text-gray-600 mt-3">
+                    The Tulsa County District Court handles civil, family, criminal, juvenile, and probate cases. This is where most process serving filings, including affidavits of service, are submitted.
+                  </p>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-gray-50">
+              <CardContent className="p-6">
+                <h3 className="text-xl font-bold mb-4 text-blue-800">Tulsa Municipal Court &amp; Other Jurisdictions</h3>
+                <div className="space-y-3">
+                  <div>
+                    <p className="font-semibold text-gray-900">City of Tulsa Municipal Court</p>
+                    <p className="text-sm text-gray-600">Handles city ordinance violations and traffic cases. Located at 600 Civic Center, Tulsa, OK 74103.</p>
+                  </div>
+                  <div>
+                    <p className="font-semibold text-gray-900">District Court vs. Municipal Court</p>
+                    <p className="text-sm text-gray-600">District Court handles civil lawsuits, family law, felonies, and probate. Municipal Court handles city ordinance violations and minor traffic infractions. Most process serving relates to District Court filings.</p>
+                  </div>
+                  <div>
+                    <p className="font-semibold text-gray-900">Tribal Jurisdictions</p>
+                    <p className="text-sm text-gray-600">Tulsa County falls within several tribal jurisdictions, including the Muscogee (Creek) Nation and Cherokee Nation. Service of process for tribal court matters may require separate procedures and authorization. Contact us to discuss tribal court service needs.</p>
+                  </div>
+                  <div className="mt-3">
+                    <p><strong>Oklahoma Statutes:</strong> <Button asChild variant="link" className="p-0 h-auto">
+                      <a href="https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=438505" target="_blank" rel="noopener noreferrer">
+                        View Process Service Laws
+                      </a>
+                    </Button></p>
+                    <p className="text-sm text-gray-600 mt-1">
+                      For a full breakdown, see our <Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline font-medium">Oklahoma process serving laws</Link> guide.
+                    </p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+        </section>
+
+        {/* Recent Service Activity */}
+        <section className="mb-12 bg-blue-50 p-6 rounded-lg">
+          <h3 className="text-2xl font-bold text-center mb-6 text-blue-800">Recent Service Activity in Tulsa County</h3>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+            <div className="text-center bg-white p-4 rounded-lg shadow-sm">
+              <p className="font-semibold text-blue-900">This Week</p>
+              <p className="text-sm text-gray-600">Court filings delivered in <Link href="/service-areas/jenks" className="text-blue-600 hover:underline">Jenks</Link></p>
+            </div>
+            <div className="text-center bg-white p-4 rounded-lg shadow-sm">
+              <p className="font-semibold text-blue-900">Today</p>
+              <p className="text-sm text-gray-600">Expedited eviction notice in Midtown Tulsa</p>
+            </div>
+            <div className="text-center bg-white p-4 rounded-lg shadow-sm">
+              <p className="font-semibold text-blue-900">Yesterday</p>
+              <p className="text-sm text-gray-600">Rush subpoena delivered in downtown Tulsa</p>
+            </div>
+            <div className="text-center bg-white p-4 rounded-lg shadow-sm">
+              <p className="font-semibold text-blue-900">This Week</p>
+              <p className="text-sm text-gray-600">Family law documents filed at courthouse</p>
+            </div>
+          </div>
+        </section>
+
+        {/* Community Involvement */}
+        <section className="mb-12 bg-white p-8 rounded-lg shadow-lg">
+          <h3 className="text-2xl font-bold text-center mb-6 text-blue-800">Community Involvement in Tulsa</h3>
+          <div className="grid md:grid-cols-2 gap-8">
+            <div>
+              <h4 className="text-lg font-semibold mb-3 text-blue-700">Supporting Tulsa&apos;s Legal Community</h4>
+              <p className="text-gray-700 mb-4">We proudly support Tulsa&apos;s legal community through pro bono work, local charity events, and partnerships with Tulsa schools and law groups. Our commitment extends beyond document delivery to supporting the broader legal ecosystem that serves our community.</p>
+            </div>
+            <div>
+              <h4 className="text-lg font-semibold mb-3 text-blue-700">Local Partnerships</h4>
+              <p className="text-gray-700">Our deep local knowledge is concentrated in our core service areas, with trusted partnerships that allow us to handle serves throughout Tulsa County with the same level of professionalism and urgency. We understand the unique character of each Tulsa neighborhood.</p>
+            </div>
+          </div>
+        </section>
+
+        {/* Testimonials */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-center mb-8">What Our Clients Say About Our Tulsa Process Servers</h2>
+          <div className="grid md:grid-cols-3 gap-8">
             <Card>
-                <CardContent className="pt-6">
-                    <p className="italic">&quot;Just Legal Solutions served my divorce papers in Tulsa the same day I called. Professional, fast, and discreet!&quot;</p>
-                    <p className="text-right font-bold mt-4">- Sarah M.</p>
-                </CardContent>
+              <CardContent className="pt-6">
+                <p className="italic">&quot;Just Legal Solutions served my divorce papers in Tulsa the same day I called. Professional, fast, and discreet!&quot;</p>
+                <p className="text-right font-bold mt-4">- Sarah M.</p>
+              </CardContent>
             </Card>
             <Card>
-                <CardContent className="pt-6">
-                    <p className="italic">&quot;They handled a difficult serve for my law firm and provided perfect documentation. Highly recommended for Tulsa legal work.&quot;</p>
-                    <p className="text-right font-bold mt-4">- Attorney John D.</p>
-                </CardContent>
+              <CardContent className="pt-6">
+                <p className="italic">&quot;They handled a difficult serve for my law firm and provided perfect documentation. Highly recommended for Tulsa legal work.&quot;</p>
+                <p className="text-right font-bold mt-4">- Attorney John D.</p>
+              </CardContent>
             </Card>
             <Card>
-                <CardContent className="pt-6">
-                    <p className="italic">&quot;I needed an eviction notice served urgently. The team at Just Legal Solutions got it done within hours.&quot;</p>
-                    <p className="text-right font-bold mt-4">- Mike R.</p>
-                </CardContent>
+              <CardContent className="pt-6">
+                <p className="italic">&quot;I needed an eviction notice served urgently. The team at Just Legal Solutions got it done within hours.&quot;</p>
+                <p className="text-right font-bold mt-4">- Mike R.</p>
+              </CardContent>
             </Card>
-        </div>
-      </section>
+          </div>
+        </section>
 
-      {/* Legal Info & Links */}
-      <section className="grid md:grid-cols-2 gap-8 mb-12 text-center">
+        {/* Legal Info & Links */}
+        <section className="grid md:grid-cols-2 gap-8 mb-12 text-center">
           <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-bold mb-2">Tulsa District Court</h3>
-              <p>500 S Denver Ave, Tulsa, OK 74103</p>
-              <p>(918) 596-5000</p>
-              <Button asChild variant="link">
-                <a href="https://www.oscn.net/dockets/search.aspx?db=tulsa" target="_blank" rel="noopener noreferrer">Visit Court Website</a>
-              </Button>
+            <h3 className="text-xl font-bold mb-2">Tulsa District Court</h3>
+            <p>500 S Denver Ave, Tulsa, OK 74103</p>
+            <p>(918) 596-5000</p>
+            <Button asChild variant="link">
+              <a href="https://www.oscn.net/dockets/search.aspx?db=tulsa" target="_blank" rel="noopener noreferrer">Visit Court Website</a>
+            </Button>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-bold mb-2">Oklahoma Process Service Statutes</h3>
-               <Button asChild variant="link">
-                <a href="https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=430303" target="_blank" rel="noopener noreferrer">View Statutes</a>
-              </Button>
+            <h3 className="text-xl font-bold mb-2">Oklahoma Process Service Statutes</h3>
+            <Button asChild variant="link">
+              <a href="https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=430303" target="_blank" rel="noopener noreferrer">View Statutes</a>
+            </Button>
           </div>
-      </section>
+        </section>
 
-      {/* Explore More Resources Section */}
-      <section className="mb-12">
-        <h2 className="text-3xl font-bold text-center mb-8">Explore Our Resources & Service Areas</h2>
-        <div className="grid md:grid-cols-4 gap-6">
-          <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm hover:shadow-md transition">
-            <h3 className="font-bold text-gray-900 mb-4 text-lg">📍 Nearby Cities</h3>
-            <ul className="space-y-2 text-sm">
-              <li><Link href="/service-areas/broken-arrow" className="text-blue-600 hover:underline">Broken Arrow</Link></li>
-              <li><Link href="/service-areas/owasso" className="text-blue-600 hover:underline">Owasso</Link></li>
-              <li><Link href="/service-areas/bixby" className="text-blue-600 hover:underline">Bixby</Link></li>
-              <li><Link href="/service-areas/jenks" className="text-blue-600 hover:underline">Jenks</Link></li>
-              <li><Link href="/service-areas/sapulpa" className="text-blue-600 hover:underline">Sapulpa</Link></li>
-              <li><Link href="/service-areas/sand-springs" className="text-blue-600 hover:underline">Sand Springs</Link></li>
-            </ul>
-          </div>
-          
-          <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm hover:shadow-md transition">
-            <h3 className="font-bold text-gray-900 mb-4 text-lg">🏛️ County Coverage</h3>
-            <ul className="space-y-2 text-sm">
-              <li><Link href="/counties/tulsa-county" className="text-blue-600 hover:underline">Tulsa County</Link></li>
-              <li><Link href="/counties/creek-county" className="text-blue-600 hover:underline">Creek County</Link></li>
-              <li><Link href="/counties/wagoner-county" className="text-blue-600 hover:underline">Wagoner County</Link></li>
-              <li><Link href="/counties/rogers-county" className="text-blue-600 hover:underline">Rogers County</Link></li>
-              <li><Link href="/counties/osage-county" className="text-blue-600 hover:underline">Osage County</Link></li>
-            </ul>
-          </div>
-          
-          <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm hover:shadow-md transition">
-            <h3 className="font-bold text-gray-900 mb-4 text-lg">📚 Guides & Resources</h3>
-            <ul className="space-y-2 text-sm">
-              <li><Link href="/oklahoma-process-server-faq-2026" className="text-blue-600 hover:underline">Process Serving FAQ 2026</Link></li>
-              <li><Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma Laws</Link></li>
-              <li><Link href="/oklahoma-process-server-pricing" className="text-blue-600 hover:underline">Pricing Guide</Link></li>
-              <li><Link href="/oklahoma-process-server-best-practices-checklist-2026" className="text-blue-600 hover:underline">Best Practices 2026</Link></li>
-              <li><Link href="/process-serving-mistakes-guide" className="text-blue-600 hover:underline">Common Mistakes</Link></li>
-              <li><Link href="/why-choose-us" className="text-blue-600 hover:underline">Why Choose Just Legal Solutions</Link></li>
-            </ul>
-          </div>
-          
-          <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm hover:shadow-md transition">
-            <h3 className="font-bold text-gray-900 mb-4 text-lg">⚖️ Specialized Services</h3>
-            <ul className="space-y-2 text-sm">
-              <li><Link href="/family-law-service-guide-tulsa" className="text-blue-600 hover:underline">Family Law Services</Link></li>
-              <li><Link href="/weekend-emergency" className="text-blue-600 hover:underline">Emergency Service</Link></li>
-              <li><Link href="/law-firm-services" className="text-blue-600 hover:underline">Law Firm Services</Link></li>
-              <li><Link href="/ai-skip-tracing-guide-oklahoma" className="text-blue-600 hover:underline">Skip Tracing</Link></li>
-              <li><Link href="/oklahoma-electronic-service-guide" className="text-blue-600 hover:underline">Electronic Service</Link></li>
-            </ul>
-          </div>
-        </div>
-      </section>
+        {/* Explore More Resources Section */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-center mb-8">Explore Our Resources & Service Areas</h2>
+          <div className="grid md:grid-cols-4 gap-6">
+            <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm hover:shadow-md transition">
+              <h3 className="font-bold text-gray-900 mb-4 text-lg">📍 Nearby Cities</h3>
+              <ul className="space-y-2 text-sm">
+                <li><Link href="/service-areas/broken-arrow" className="text-blue-600 hover:underline">Broken Arrow</Link></li>
+                <li><Link href="/service-areas/owasso" className="text-blue-600 hover:underline">Owasso</Link></li>
+                <li><Link href="/service-areas/bixby" className="text-blue-600 hover:underline">Bixby</Link></li>
+                <li><Link href="/service-areas/jenks" className="text-blue-600 hover:underline">Jenks</Link></li>
+                <li><Link href="/service-areas/sapulpa" className="text-blue-600 hover:underline">Sapulpa</Link></li>
+                <li><Link href="/service-areas/sand-springs" className="text-blue-600 hover:underline">Sand Springs</Link></li>
+              </ul>
+            </div>
 
-      {/* Final CTA */}
-      <section className="text-center mt-12">
+            <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm hover:shadow-md transition">
+              <h3 className="font-bold text-gray-900 mb-4 text-lg">🏛️ County Coverage</h3>
+              <ul className="space-y-2 text-sm">
+                <li><Link href="/counties/tulsa-county" className="text-blue-600 hover:underline">Tulsa County</Link></li>
+                <li><Link href="/counties/creek-county" className="text-blue-600 hover:underline">Creek County</Link></li>
+                <li><Link href="/counties/wagoner-county" className="text-blue-600 hover:underline">Wagoner County</Link></li>
+                <li><Link href="/counties/rogers-county" className="text-blue-600 hover:underline">Rogers County</Link></li>
+                <li><Link href="/counties/osage-county" className="text-blue-600 hover:underline">Osage County</Link></li>
+              </ul>
+            </div>
+
+            <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm hover:shadow-md transition">
+              <h3 className="font-bold text-gray-900 mb-4 text-lg">📚 Guides & Resources</h3>
+              <ul className="space-y-2 text-sm">
+                <li><Link href="/oklahoma-process-server-faq-2026" className="text-blue-600 hover:underline">Process Serving FAQ 2026</Link></li>
+                <li><Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma Laws</Link></li>
+                <li><Link href="/oklahoma-process-server-pricing" className="text-blue-600 hover:underline">Pricing Guide</Link></li>
+                <li><Link href="/oklahoma-process-server-best-practices-checklist-2026" className="text-blue-600 hover:underline">Best Practices 2026</Link></li>
+                <li><Link href="/process-serving-mistakes-guide" className="text-blue-600 hover:underline">Common Mistakes</Link></li>
+                <li><Link href="/why-choose-us" className="text-blue-600 hover:underline">Why Choose Just Legal Solutions</Link></li>
+              </ul>
+            </div>
+
+            <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm hover:shadow-md transition">
+              <h3 className="font-bold text-gray-900 mb-4 text-lg">⚖️ Specialized Services</h3>
+              <ul className="space-y-2 text-sm">
+                <li><Link href="/family-law-service-guide-tulsa" className="text-blue-600 hover:underline">Family Law Services</Link></li>
+                <li><Link href="/weekend-emergency" className="text-blue-600 hover:underline">Emergency Service</Link></li>
+                <li><Link href="/law-firm-services" className="text-blue-600 hover:underline">Law Firm Services</Link></li>
+                <li><Link href="/ai-skip-tracing-guide-oklahoma" className="text-blue-600 hover:underline">Skip Tracing</Link></li>
+                <li><Link href="/oklahoma-electronic-service-guide" className="text-blue-600 hover:underline">Electronic Service</Link></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        {/* Final CTA */}
+        <section className="text-center mt-12">
           <h2 className="text-2xl font-bold mb-4">Have More Questions?</h2>
           <p className="mb-6">Our team is ready to help. Contact us for any inquiries or to get started with our services.</p>
           <Link href="/contact" className="bg-primary text-primary-foreground font-bold py-2 px-4 rounded hover:bg-primary/90 transition-colors">
             Contact Us
           </Link>
-      </section>
+        </section>
 
-    </div>
+      </div>
+      {/* LocalBusiness Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Just Legal Solutions - Tulsa Process Server",
+            "description": "Licensed, bonded process server in Tulsa, Oklahoma. Professional legal document delivery throughout Tulsa County and surrounding areas.",
+            "url": "https://justlegalsolutions.org/tulsa-process-server",
+            "telephone": "(539) 367-6832",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Tulsa",
+              "addressRegion": "OK",
+              "postalCode": "74103",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 36.1540,
+              "longitude": -95.9928
+            },
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Saturday", "Sunday"],
+                "opens": "00:00",
+                "closes": "23:59",
+                "description": "Emergency service available 24/7"
+              }
+            ],
+            "areaServed": [
+              { "@type": "City", "name": "Tulsa", "containedInPlace": { "@type": "State", "name": "Oklahoma" } },
+              { "@type": "City", "name": "Broken Arrow" },
+              { "@type": "City", "name": "Owasso" },
+              { "@type": "City", "name": "Bixby" },
+              { "@type": "City", "name": "Jenks" },
+              { "@type": "City", "name": "Sand Springs" },
+              { "@type": "City", "name": "Sapulpa" },
+              { "@type": "City", "name": "Glenpool" },
+              { "@type": "City", "name": "Collinsville" },
+              { "@type": "City", "name": "Catoosa" }
+            ],
+            "priceRange": "$30-$200",
+            "image": "https://justlegalsolutions.org/og-image.png",
+            "sameAs": ["https://justlegalsolutions.org"]
+          })
+        }}
+      />
+      {/* FAQPage Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }}
+      />
       <UnifiedSchema
         pageType="location"
         title="Professional Process Server in Tulsa, Oklahoma"
@@ -1042,11 +1139,11 @@ export default function TulsaProcessServerPage() {
         faqs={[
           {
             question: "How quickly can your Tulsa process server deliver legal documents?",
-            answer: "Our standard delivery for a Tulsa process server is typically within 3-5 business days. However, we understand some legal matters are time-sensitive. We offer rush and same-day service for urgent deliveries throughout Tulsa and Tulsa County. Our process servers in Tulsa are committed to providing the fastest and most reliable service possible."
+            answer: "Our standard delivery for a Tulsa process server is typically within 3-5 business days, well within the 180-day statutory deadline for service under 12 O.S. § 2004. However, we understand some legal matters are time-sensitive. We offer rush and same-day service for urgent deliveries throughout Tulsa and Tulsa County. Our process servers in Tulsa are committed to providing the fastest and most reliable service possible."
           },
           {
             question: "Are you a licensed and bonded process server in Tulsa County?",
-            answer: "Yes, absolutely. All of our process servers are fully licensed and bonded as required by the state of Oklahoma. We are an authorized Tulsa County process server serving the entire Tulsa metro area. You can trust our professional team to handle your legal documents with the utmost care and compliance throughout Tulsa County."
+            answer: "Yes, absolutely. All of our process servers are fully licensed under 12 O.S. § 158.1 by Oklahoma district courts and bonded with a $5,000 surety bond as required by state law. We are an authorized Tulsa County process server serving the entire Tulsa metro area. You can trust our professional team to handle your legal documents with the utmost care and compliance throughout Tulsa County."
           },
           {
             question: "What areas and neighborhoods do your Tulsa process servers cover?",
@@ -1074,7 +1171,7 @@ export default function TulsaProcessServerPage() {
           { name: 'Tulsa Process Server', url: '/tulsa-process-server' }
         ]}
       />
-      
+
       {/* Enhanced 2025 SEO for Tulsa-specific searches */}
       <SearchDominance2025
         pageTitle="Tulsa Process Server | Best Process Server in Tulsa County"
@@ -1082,21 +1179,21 @@ export default function TulsaProcessServerPage() {
         location="Tulsa County, Oklahoma"
         businessType="Process Server"
       />
-      
-      <AIVoiceSupremacy 
+
+      <AIVoiceSupremacy
         businessName="Just Legal Solutions"
         location="Tulsa County, Oklahoma"
         services={['Tulsa Process Serving', 'Broken Arrow Process Server', 'Same-Day Legal Delivery']}
         phone="(539) 367-6832"
         skipSchema={true}
       />
-      
+
       <RankingSupremacy2025
         targetKeywords={['tulsa process server', 'process server tulsa', 'broken arrow process server', 'tulsa county process server']}
         location="Tulsa County, Oklahoma"
         businessName="Just Legal Solutions"
       />
-      
+
       <MobileVoiceOptimization
         businessName="Just Legal Solutions"
         phone="(539) 367-6832"

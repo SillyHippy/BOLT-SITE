@@ -33,7 +33,7 @@ export default function WeekendEmergency() {
           <div className="flex-1 min-w-0">
             <h1 className="text-5xl font-extrabold mb-4 text-red-700 drop-shadow-lg">Weekend & 24/7 Emergency Process Serving in Tulsa and Oklahoma</h1>
             <p className="text-xl text-gray-800 mb-6">
-              Legal emergencies don’t wait for business hours—and neither do we. Just Legal Solutions provides true 24/7 emergency process service, including nights, early mornings, weekends, and holidays throughout Tulsa, Oklahoma City, and every county statewide.
+              Legal emergencies don&apos;t wait for business hours—and neither do we. Just Legal Solutions provides true 24/7 emergency process service, including nights, early mornings, weekends, and holidays throughout Tulsa, Oklahoma City, and every county statewide. Need an <a href="/urgent-process-server" className="text-blue-700 underline font-semibold">urgent process server</a>? We&apos;re ready.
             </p>
             <h2 className="text-2xl font-bold mb-2 text-red-800">Why Use Our Weekend Emergency Service?</h2>
             <ul className="list-disc ml-6 text-lg text-gray-700 mb-6">
@@ -46,11 +46,13 @@ export default function WeekendEmergency() {
             </ul>
             <h2 className="text-2xl font-bold mb-2 text-red-800">Common Emergency Scenarios:</h2>
             <ul className="list-disc ml-6 text-lg text-gray-700 mb-6">
-              <li>Serving emergency protective or restraining orders</li>
+              <li>Serving civil restraining orders and permanent/final protective orders</li>
               <li>Urgent eviction notices or landlord-tenant legal postings</li>
               <li>Last-minute court filing deadlines before dismissal</li>
               <li>Rush delivery for subpoenas, summons, or legal notices</li>
             </ul>
+            <p className="text-sm italic text-gray-600 mb-4">Note: Emergency protective orders (EPOs) must be served by law enforcement under 22 O.S. § 60.4. We coordinate with law enforcement for EPO service and handle permanent/final protective orders once issued.</p>
+            <p className="text-sm text-gray-700 mb-6">Oklahoma law does not restrict valid service to business hours; licensed private process servers may serve in evenings, on weekends, and on holidays.</p>
             <div className="mb-6 p-4 bg-yellow-50 border-l-4 border-yellow-400 text-yellow-900 rounded">
               <strong>Don’t Risk Missing Deadlines:</strong> Missed service can mean losing your day in court, wasted attorney fees, or delayed justice. When time is of the essence, contact Just Legal Solutions anytime—day or night—for emergency process service that gets the job done in Tulsa, Broken Arrow, or anywhere in Oklahoma.
             </div>
@@ -72,7 +74,8 @@ export default function WeekendEmergency() {
             <ul className="list-disc ml-6 text-gray-700">
               <li>Trusted by attorneys, businesses, and individuals statewide</li>
               <li>AI-driven efficiency for faster, more accurate service</li>
-              <li>Full compliance with Oklahoma legal requirements</li>
+              <li>Committed to compliance with Oklahoma licensing and service requirements</li>
+              <li>All process servers are licensed and bonded under 12 O.S. § 158.1</li>
             </ul>
           </div>
           <div>

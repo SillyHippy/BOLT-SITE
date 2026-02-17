@@ -91,20 +91,20 @@ export default function FamilyLawServiceGuideTulsa() {
           <h2 className="text-2xl font-semibold mb-2">1. Protective Order Service Requirements</h2>
           <h3 className="text-xl font-bold mb-2">Emergency Protective Orders (EPO)</h3>
           <ul className="list-disc ml-6 mb-4">
-            <li>Oklahoma law mandates EPOs be served within 24–48 hours of issuance under 22 O.S. §60.4.</li>
-            <li>Obtain certified EPO signed by the judge</li>
-            <li>Deliver to law enforcement for service or serve personally if safe</li>
-            <li>Document service time, officer ID, or server details</li>
-            <li>File proof of service within 72 hours</li>
+            <li>Under 22 O.S. § 60.4, emergency protective orders <strong>must be served by law enforcement officers</strong>.</li>
+            <li>Our role: coordinate with law enforcement agencies, track service status, and ensure timely filing of proof of service.</li>
+            <li>Obtain certified EPO signed by the judge and deliver to the appropriate law enforcement agency for service.</li>
+            <li>Document service time, officer ID, and agency details.</li>
+            <li>File proof of service promptly after law enforcement confirms completion.</li>
           </ul>
           <Image src="/images/due-process-legal-concept.png" alt="Legal Due Process and Protective Order Service Protocols" width={800} height={400} className="rounded shadow mb-4" />
-          <p><b>Case Example:</b> In Smith v. Doe, 2024 OK Civ App 150, the court quashed an EPO served at 5 days due to delay; the petitioner lost ex parte protections.</p>
+          <p className="text-sm italic text-gray-600 mb-4">Note: Delays in EPO service can jeopardize an applicant&apos;s ex parte protections. Prompt coordination with law enforcement is critical.</p>
           <h3 className="text-xl font-bold mb-2">Temporary & Permanent Protective Orders</h3>
           <ul className="list-disc ml-6 mb-4">
             <li>Temporary orders follow similar service timelines.</li>
-            <li>Permanents require personal service at least 10 days before the hearing under 12 O.S. §2004(F).</li>
-            <li>If personal service fails, alternative methods (publication or certified mail) must comply with §2004(D).</li>
-            <li>Coordinate with law enforcement for safety; use GPS-tagged photos in affidavits.</li>
+            <li>Permanent protective orders require personal service within applicable timeframes before the hearing, as set by court order and consistent with 12 O.S. § 2004.</li>
+            <li>If personal service fails, the court may authorize alternative methods (publication or certified mail) under 12 O.S. § 2004(D).</li>
+            <li>Coordinate with law enforcement for safety; as a firm practice, we use GPS-tagged photos in affidavits for enhanced documentation.</li>
           </ul>
         </section>
         <section className="mb-8">
@@ -114,17 +114,18 @@ export default function FamilyLawServiceGuideTulsa() {
             <li>Verify current address with OSBI, utility records, and credit header</li>
             <li>Attempt service at multiple times/days</li>
             <li>Use notarized affidavit template listing attempts</li>
-            <li>Respondent may sign Form 14 acknowledging receipt; ensure notary compliance</li>
-            <li>After two failed personal attempts, publish notice in Tulsa World for three weeks, then file proof</li>
+            <li>Respondent may sign a court-approved acknowledgment of service form (check with the Tulsa County Court Clerk for the current form); ensure notary compliance.</li>
+            <li>After exercising due diligence to locate the respondent (which may include multiple attempts at different times and days), court-authorized service by publication in the Tulsa World may be pursued. File proof of publication upon completion.</li>
           </ul>
         </section>
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-2">3. Safety & Risk Assessment</h2>
+          <p className="text-sm italic text-gray-600 mb-2">The following are internal firm safety practices used by Just Legal Solutions — they are not statutory requirements.</p>
           <ul className="list-disc ml-6 mb-4">
-            <li>Conduct pre-service risk assessment using Lethality Assessment Protocol</li>
-            <li>Collaborate with victim advocates and law enforcement</li>
-            <li>Maintain a two-person serving team for EPOs</li>
-            <li>Use disguised vehicles and plain clothes when necessary</li>
+            <li>Conduct pre-service risk assessment using our internal Lethality Assessment Protocol</li>
+            <li>Collaborate with victim advocates and law enforcement as appropriate</li>
+            <li>Maintain a two-person team for high-risk service situations</li>
+            <li>Use unmarked vehicles and plain clothes when appropriate for server safety</li>
           </ul>
           <Image src="/images/Professional process server business logo badge with scales of justice and Oklahoma outline for legal services.png" alt="Professional Process Server Safety and Legal Services" width={800} height={400} className="rounded shadow mb-4" />
           <p><b>Resource:</b> Tulsa County DV Resource Center contact details should be included in served materials.</p>
@@ -134,8 +135,8 @@ export default function FamilyLawServiceGuideTulsa() {
           <ul className="list-disc ml-6 mb-4">
             <li>Server name, badge ID, or private investigator license</li>
             <li>Date, time, location, and recipient description</li>
-            <li>GPS coordinates and time-stamped photos</li>
-            <li>Statements from witnesses (e.g., law enforcement)</li>
+            <li>GPS coordinates and time-stamped photos (firm practice for enhanced documentation)</li>
+            <li>Statements from witnesses (e.g., law enforcement) when applicable</li>
             <li>Use standardized affidavit forms to ensure courts accept them without objection</li>
           </ul>
           <Image src="/images/Legal-document-types-process-server.png" alt="Family Law Documentation and Legal Document Examples" width={800} height={400} className="rounded shadow mb-4" />
@@ -143,7 +144,7 @@ export default function FamilyLawServiceGuideTulsa() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-2">5. Electronic Service & E-Filing</h2>
           <ul className="list-disc ml-6 mb-4">
-            <li>Tulsa County supports eService for family law under 12 O.S. §12-158.1</li>
+            <li>Tulsa County supports eService for family law filings under 12 O.S. § 2004.5</li>
             <li>Obtain respondent’s written consent in a verified filing</li>
             <li>Use Court E-Filing system for both filing and service</li>
             <li>Retain delivery receipts, system logs, and email headers</li>
@@ -158,7 +159,7 @@ export default function FamilyLawServiceGuideTulsa() {
               <ul className="list-disc ml-6 space-y-1">
                 <li><a href="/oklahoma-process-server-laws" className="text-blue-700 underline">Oklahoma Process Server Laws</a></li>
                 <li><a href="/oklahoma-process-server-best-practices-checklist-2026" className="text-blue-700 underline">Best Practices Checklist 2026</a></li>
-                <li><a href="/oklahoma-electronic-service-guide" className="text-blue-700 underline">Electronic Service Guide</a></li>
+                <li><a href="/oklahoma-electronic-service-guide-2025" className="text-blue-700 underline">Oklahoma Electronic Service Guide</a></li>
                 <li><a href="/oklahoma-case-law-service-process" className="text-blue-700 underline">Oklahoma Case Law on Service</a></li>
               </ul>
             </div>

@@ -52,8 +52,8 @@ export default function LawFirmServicesPage() {
     {
       icon: '📋',
       title: 'Court-Ready Affidavits',
-      description: 'Detailed, properly formatted affidavits ready for court filing. Every time.',
-      highlight: '100% compliance'
+      description: 'Compliance-focused documentation prepared to meet Oklahoma court standards. Every time.',
+      highlight: 'Court-ready quality'
     }
   ];
 
@@ -61,8 +61,8 @@ export default function LawFirmServicesPage() {
     {
       area: 'Family Law',
       icon: '👨‍👩‍👧',
-      services: ['Divorce papers', 'Custody documents', 'Protective orders'],
-      needs: 'Discreet handling, weekend availability. Coordinate directly with paralegals and legal assistants for status updates.'
+      services: ['Divorce papers', 'Custody documents', 'Permanent protective orders'],
+      needs: 'Discreet handling, weekend availability. Note: Emergency protective orders are served by law enforcement under 22 O.S. § 60.4; we handle permanent/final orders once issued. Coordinate directly with paralegals and legal assistants for status updates.'
     },
     {
       area: 'Civil Litigation',
@@ -232,7 +232,7 @@ export default function LawFirmServicesPage() {
           <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl font-bold text-center mb-4">Why Oklahoma Law Firms Choose Us</h2>
             <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-              Outsourced process serving designed specifically for Tulsa law firms and Oklahoma litigation practices. Litigation support you can count on.
+              Outsourced process serving designed specifically for Tulsa law firms and Oklahoma litigation practices. Litigation support you can count on. All process serving is performed by licensed Oklahoma private process servers bonded in accordance with 12 O.S. § 158.1.
             </p>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {lawFirmBenefits.map((benefit, index) => (
@@ -474,11 +474,11 @@ export default function LawFirmServicesPage() {
             <h2 className="text-2xl font-bold text-center mb-8">Resources for Legal Professionals</h2>
             <div className="grid md:grid-cols-3 gap-6">
               <Link href="/oklahoma-process-server-laws" className="block bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
-                <h3 className="font-bold text-lg text-blue-800 mb-2">📚 Oklahoma Laws Guide</h3>
+                <h3 className="font-bold text-lg text-blue-800 mb-2">📚 Oklahoma Process Serving Laws</h3>
                 <p className="text-gray-600 text-sm">Use this guide to onboard new paralegals and staff quickly on Oklahoma service requirements.</p>
               </Link>
               <Link href="/oklahoma-process-server-faq-2026" className="block bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
-                <h3 className="font-bold text-lg text-green-800 mb-2">❓ Process Server FAQ</h3>
+                <h3 className="font-bold text-lg text-green-800 mb-2">❓ Process Server FAQ for Attorneys</h3>
                 <p className="text-gray-600 text-sm">Quick reference for common questions your litigation team may have about Oklahoma process serving.</p>
               </Link>
               <Link href="/family-law-service-guide-tulsa" className="block bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
