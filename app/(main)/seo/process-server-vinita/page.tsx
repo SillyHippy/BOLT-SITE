@@ -2,8 +2,11 @@ import { Metadata } from 'next';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
-  title: 'Process Server in Vinita - Just Legal Solutions',
-  description: 'Need a reliable process server in Vinita, Oklahoma? Just Legal Solutions offers fast, professional, and compliant legal document delivery services. Contact us for same-day and rush service.',
+  title: 'Vinita OK Process Server Overview | Just Legal Solutions',
+  description: 'Quick overview of process serving in Vinita, Oklahoma. For full details on Craig County legal document delivery, visit our main Vinita service area page.',
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/service-areas/vinita',
+  },
 };
 
 export default function ProcessServerVinitaPage() {

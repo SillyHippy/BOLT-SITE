@@ -83,6 +83,14 @@ const faqSchema = {
   "mainEntity": [
     {
       "@type": "Question",
+      "name": "What is a civil process server?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A civil process server is a licensed professional who delivers legal documents—such as lawsuits, subpoenas, divorce papers, and eviction notices—in civil (non-criminal) cases. In Oklahoma, civil process servers must be at least 18 years old, appointed by the county court clerk, and carry a $5,000 surety bond. They ensure defendants receive proper legal notice as required by the U.S. Constitution and Oklahoma Title 12. Just Legal Solutions provides civil process service starting at $30 per serve across all 77 Oklahoma counties."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "What is a process server?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -94,7 +102,7 @@ const faqSchema = {
       "name": "How much does a process server cost in Oklahoma?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Process serving costs in Oklahoma range from $60 to $200 depending on urgency and location. Standard service in Tulsa starts at $60, same-day service costs $100 to $150, and emergency service ranges $150 to $200."
+        "text": "Process serving costs in Oklahoma start at $30 per serve, with prices ranging up to $265 depending on urgency and location. Standard service in Tulsa starts at $30, same-day service costs $100 to $150, and 2-hour emergency service is $265. Just Legal Solutions offers the most competitive process serving rates in Oklahoma."
       }
     },
     {
@@ -709,8 +717,8 @@ export default function WhatIsAProcessServerPage() {
                   <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-6 rounded-lg border border-blue-300 mb-4 shadow-2xl text-white">
                     <h3 className="text-xl font-bold mb-3 text-white">Need Process Service Today?</h3>
                     <div className="mb-4">
-                      <div className="text-3xl font-bold text-yellow-300">$60</div>
-                      <div className="text-sm text-gray-100">Standard Service • Tulsa Metro</div>
+                      <div className="text-3xl font-bold text-yellow-300">$30</div>
+                      <div className="text-sm text-gray-100">Starting Rate • Tulsa Metro</div>
                       <div className="text-xs text-gray-200">Same-day available • All document types</div>
                     </div>
                     <a href="tel:5393676832" className="bg-red-600 text-white px-8 py-4 rounded-lg font-bold text-xl hover:bg-red-700 transition inline-block mb-3 shadow-lg w-full">
@@ -725,6 +733,17 @@ export default function WhatIsAProcessServerPage() {
                 </div>
               </div>
             </div>
+          </div>
+
+          {/* Direct Answer Block — What is a civil process server? */}
+          <div className="bg-green-50 border-l-4 border-green-600 p-6 rounded-r-lg mb-10">
+            <h2 className="text-2xl font-bold text-green-900 mb-3">What Is a Civil Process Server?</h2>
+            <p className="text-lg text-gray-800 leading-relaxed mb-3">
+              A <strong>civil process server</strong> is a licensed professional who personally delivers legal documents—such as lawsuits, subpoenas, divorce papers, eviction notices, and restraining orders—in civil (non-criminal) court cases. Under the U.S. Constitution&apos;s 5th and 14th Amendments, every person named in a civil action has the right to <em>notice</em> before a court can rule against them. The civil process server fulfills that requirement.
+            </p>
+            <p className="text-lg text-gray-800 leading-relaxed mb-3">
+              In Oklahoma, civil process servers must be at least 18 years old, appointed by the district court clerk in each county they serve, and bonded for $5,000 under Title 12 § 158.1. Just Legal Solutions provides licensed civil process service <strong>starting at $30 per serve</strong>, with 24/7 emergency availability across all 77 Oklahoma counties. Call <a href="tel:5393676832" className="text-green-700 font-bold hover:underline">(539) 367-6832</a> for same-day service.
+            </p>
           </div>
 
           <article className="max-w-none mx-auto prose prose-lg">

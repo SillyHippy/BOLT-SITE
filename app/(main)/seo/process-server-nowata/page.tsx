@@ -2,8 +2,11 @@ import { Metadata } from 'next';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
-  title: 'Process Server in Nowata - Just Legal Solutions',
-  description: 'Need a reliable process server in Nowata, Oklahoma? Just Legal Solutions offers fast, professional, and compliant legal document delivery services. Contact us for same-day and rush service.',
+  title: 'Nowata OK Process Server Overview | Just Legal Solutions',
+  description: 'Quick overview of process serving in Nowata, Oklahoma. For full details on Nowata County legal document delivery, visit our main Nowata service area page.',
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/service-areas/nowata',
+  },
 };
 
 export default function ProcessServerNowataPage() {
