@@ -70,15 +70,15 @@ export default function OklahomaProcessServerAuthority() {
           faqItems={[
             {
               question: "What makes a process server qualified in Oklahoma?",
-              answer: "Oklahoma process servers must be licensed, bonded, and registered with the county clerk where they operate. They must understand state laws regarding service of process and maintain proper insurance coverage."
+              answer: "Under 12 O.S. § 158.1, Oklahoma process servers must be licensed by a district court, which grants statewide authority to serve legal documents. They must also be bonded and meet additional requirements set by the licensing court. Licensing is not county-specific—a process server licensed in any Oklahoma district court may serve documents anywhere in the state."
             },
             {
               question: "How many counties does Oklahoma have for process serving?",
-              answer: "Oklahoma has 77 counties, each with specific requirements for process serving. Professional process servers understand the nuances of each county's procedures and courthouse protocols."
+              answer: "Oklahoma has 77 counties. The legal requirements for service of process are governed statewide by 12 O.S. § 2004, so the rules for valid service are the same across all counties. Counties may differ in administrative courthouse procedures (filing hours, drop-off locations, etc.), but the substantive service requirements are uniform."
             },
             {
               question: "What is the difference between local and statewide process serving?",
-              answer: "Local process servers typically operate within one county or city, while statewide services like Just Legal Solutions provide coverage across all Oklahoma counties, ensuring consistent service regardless of location."
+              answer: "Under 12 O.S. § 158.1, a licensed Oklahoma process server has statewide authority—there is no legal distinction between 'local' and 'statewide' licensing. However, a statewide service like Just Legal Solutions offers the practical advantage of crews across major metro areas, reducing travel time and enabling faster service across all 77 counties."
             },
             {
               question: "Why choose a statewide Oklahoma process server?",
@@ -184,19 +184,29 @@ export default function OklahomaProcessServerAuthority() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="prose prose-lg max-w-none">
               <h2 className="text-3xl font-bold mb-8">Why Oklahoma Process Serving Requires Specialized Expertise</h2>
+
+              {/* Statewide Authority Statement */}
+              <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-lg mb-8">
+                <h3 className="text-lg font-bold text-blue-900 mb-2">Statewide Authority Under 12 O.S. § 158.1</h3>
+                <p className="text-gray-700">
+                  Under <strong>12 O.S. § 158.1</strong>, a private process server licensed by any Oklahoma district court has <strong>statewide authority</strong> to serve legal documents. Licensing is not limited to the county where the process server applied—it applies across all 77 Oklahoma counties. The substantive rules for valid service are set by <strong>12 O.S. § 2004</strong> and apply uniformly statewide. For the full statutory breakdown, see our <Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma Process Server Laws</Link> guide.
+                </p>
+              </div>
               
               <div className="grid md:grid-cols-2 gap-8 mb-12">
                 <div>
                   <h3 className="text-2xl font-bold mb-4">Legal Requirements</h3>
                   <p className="text-gray-700 mb-4">
-                    Oklahoma has specific legal requirements for process serving that vary by county and case type. 
-                    Understanding these nuances is crucial for proper service that will hold up in court.
+                    Oklahoma&apos;s legal requirements for service of process are governed statewide by 12 O.S. § 2004. 
+                    While the substantive rules are uniform, counties may differ in administrative courthouse procedures 
+                    (filing hours, drop-off locations, and local clerk preferences). Understanding these practical nuances 
+                    is crucial for efficient service.
                   </p>
                   <ul className="list-disc pl-6 space-y-2 text-gray-700">
-                    <li>County-specific filing requirements</li>
-                    <li>Courthouse protocol variations</li>
-                    <li>Service timing regulations</li>
-                    <li>Documentation standards</li>
+                    <li>Statewide legal requirements under § 2004 (counties may differ in administrative procedures)</li>
+                    <li>Courthouse protocol variations by location</li>
+                    <li>Service timing and documentation standards</li>
+                    <li>Licensing and bonding under § 158.1</li>
                   </ul>
                 </div>
                 
@@ -225,7 +235,7 @@ export default function OklahomaProcessServerAuthority() {
                     <ul className="text-sm space-y-1">
                       <li>• Divorce papers</li>
                       <li>• Child custody documents</li>
-                      <li>• Restraining orders</li>
+                      <li>• Protective orders (note: emergency protective orders are served by law enforcement per 22 O.S. § 60.4)</li>
                       <li>• Civil complaints</li>
                       <li>• Small claims</li>
                     </ul>
@@ -276,6 +286,14 @@ export default function OklahomaProcessServerAuthority() {
               <Link href="/service-areas" className="block bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
                 <h3 className="text-xl font-bold text-blue-900 mb-2">Oklahoma Service Areas</h3>
                 <p className="text-gray-600 text-sm">Browse our complete list of cities and counties served throughout Oklahoma.</p>
+              </Link>
+              <Link href="/process-serving-mistakes-guide" className="block bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
+                <h3 className="text-xl font-bold text-blue-900 mb-2">Common Process Serving Mistakes</h3>
+                <p className="text-gray-600 text-sm">The most frequent errors that lead to case dismissals—and how to avoid them.</p>
+              </Link>
+              <Link href="/ultimate-guide-process-serving-oklahoma" className="block bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
+                <h3 className="text-xl font-bold text-blue-900 mb-2">Ultimate Guide to Process Serving in Oklahoma</h3>
+                <p className="text-gray-600 text-sm">Comprehensive 2026 resource covering laws, procedures, costs, and best practices.</p>
               </Link>
             </div>
           </div>
