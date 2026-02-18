@@ -113,7 +113,7 @@ export default function OklahomaProcessServerLaws() {
               
               <h2 className="text-3xl font-bold text-slate-900 mb-6">The Statutory Framework: Title 12</h2>
               <p>
-                In Oklahoma, the rules for serving legal documents are primarily found in <strong>Title 12 of the Oklahoma Statutes (Civil Procedure)</strong>. The most critical section is <strong>§ 2004</strong>, which outlines how process must be served, who can serve it, and how proof of service must be filed.
+                In Oklahoma, the rules for serving legal documents are primarily found in <strong>Title 12 of the Oklahoma Statutes (Civil Procedure)</strong>. The most critical sections are <strong>§ 2004</strong> (personal and substituted service) and <strong>§ 2004.5</strong> (electronic service). These outline how process must be served, who can serve it, and how proof of service must be filed.
               </p>
               <p>
                 Unlike some states where rules vary wildly by city, these statutes are <strong>statewide laws</strong>. While individual counties (like Tulsa or Oklahoma County) may have their own administrative procedures for processing license applications, the substantive laws governing <em>how</em> you serve a defendant are consistent across all 77 counties. Licensing and bonding standards (age, residency, bond amount) are set by state law—not by individual counties. For answers to common questions, see our <Link href="/oklahoma-process-server-faq-2026" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ</Link>.
