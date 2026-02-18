@@ -2301,7 +2301,7 @@ export default function WhatIsAProcessServerPage() {
                       <li className="flex items-start"><span className="text-red-600 mr-2">✗</span><strong>Unauthorized entry</strong>&nbsp;to private property</li>
                       <li className="flex items-start"><span className="text-red-600 mr-2">✗</span><strong>Misrepresentation</strong>&nbsp;of identity or purpose</li>
                       <li className="flex items-start"><span className="text-red-600 mr-2">✗</span><strong>Threatening behavior</strong>&nbsp;or coercion</li>
-                      <li className="flex items-start"><span className="text-red-600 mr-2">✗</span><strong>Service outside authorized county</strong>&nbsp;without proper license</li>
+                      <li className="flex items-start"><span className="text-red-600 mr-2">✗</span><strong>Serving process in Oklahoma without a valid Oklahoma private process server license</strong></li>
                     </ul>
                   </div>
 

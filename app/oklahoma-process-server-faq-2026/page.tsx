@@ -285,7 +285,8 @@ const faqCategories = [
           "Substituted Service (12 O.S. § 2004(C)(1)(c)(i)): Service at the dwelling with a resident at least 15 years of age.",
           "Service by Publication (12 O.S. § 2004(C)(4)): Used when defendant cannot be located after diligent search.",
           "Certified Mail (12 O.S. § 2004(C)(2)(c)): Service by mail with return receipt requested.",
-          "Court-Ordered Alternative Service (12 O.S. § 2004(D)): Methods ordered by the court when other means fail."
+          "Court-Ordered Alternative Service (12 O.S. § 2004(D)): Methods ordered by the court when other means fail.",
+          "Electronic Service: Sometimes allowed for specific documents when authorized by court order, local rule, or written consent filed with the court. Electronic methods do not replace traditional service requirements for initial pleadings."
         ],
         link: { text: "Read our complete Oklahoma Process Server Laws Guide", href: "/oklahoma-process-server-laws" }
       },
@@ -313,15 +314,15 @@ const faqCategories = [
         answer: "Yes. 12 O.S. § 158.1 establishes the specific requirements for private process servers:",
         columns: [
           {
-            title: "Statutory Requirements",
-            items: ["Minimum age 18", "Resident of Oklahoma", "Good moral character", "State license issued by Judge", "$5,000 Bond posted", "Public notice/hearing"]
+            title: "Licensing Requirements",
+            items: ["Oklahoma private process server license issued under 12 O.S. § 158.1", "Background check and good\u2011moral\u2011character finding as part of the licensing process", "Oklahoma residency and county/judicial district residency as required by statute", "$5,000 surety bond filed with the court as required by 12 O.S. § 158.1"]
           },
           {
-            title: "Business Standards",
-            items: ["Professional liability insurance (optional)", "Errors & omissions coverage (optional)", "GPS verification technology", "Secure data handling"]
+            title: "Professional Standards We Follow",
+            items: ["Continuing education each year to stay current on Oklahoma procedure", "Ethics training focused on due process and professionalism", "Technology training for GPS tracking, digital documentation, and secure communications"]
           }
         ],
-        note: "Just Legal Solutions meets all statutory requirements and maintains additional professional insurance for client peace of mind."
+        note: "Just Legal Solutions meets all statutory requirements and maintains additional professional standards for client peace of mind."
       },
       {
         question: "How do I verify a process server's credentials?",
@@ -359,7 +360,7 @@ const faqCategories = [
           "Pleadings: Subsequent pleadings (after initial service) may be served electronically under 12 O.S. § 2005.",
           "Documentation: Any electronic method used must be strictly documented and approved by the court."
         ],
-        note: "Always consult an attorney to determine if electronic service is permissible for your specific case."
+        note: "Oklahoma does not have a single \"electronic service statute\" for all cases. Electronic service is generally allowed only when a court rule or order permits it or when parties give written consent that is filed with the court."
       }
     ]
   },

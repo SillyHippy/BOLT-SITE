@@ -144,24 +144,16 @@ export default function OklahomaProcessServerLaws() {
                 This is the gold standard. The server hands the Summons and Petition directly to the defendant. The defendant does not need to &quot;accept&quot; or touch the papers; if they refuse them, the server may leave them in their immediate proximity after identifying the nature of the documents.
               </p>
 
-              <h3 className="text-xl font-bold text-slate-900 mt-6 mb-3">2. Substituted Service (At the Dwelling)</h3>
+              <h3 className="text-xl font-bold text-slate-900 mt-6 mb-3">2. Substituted Service</h3>
               <p>
-                If the defendant is not home, Oklahoma law allows &quot;substituted service.&quot; This is frequently misunderstood. <strong>You do not need a court order</strong> to use this method if the criteria are met.
+                Service to another person when direct personal service is not reasonably possible.
               </p>
-              <p>Service is valid if copies are left at the defendant&apos;s <strong>dwelling house or usual place of abode</strong> with a person who:</p>
               <ul className="list-disc pl-6 space-y-2 mb-4">
-                <li>Resides therein (lives at the house), AND</li>
-                <li>Is <strong>15 years of age or older</strong>.</li>
+                <li>Person of suitable age and discretion (15+ years old) who resides at the defendant&apos;s dwelling</li>
+                <li>At the defendant&apos;s dwelling house or usual place of abode, or on an authorized agent for business entities, consistent with 12 O.S. § 2004</li>
+                <li>Multiple personal&#8209;service attempts and reasonable diligence are expected before relying on substituted service</li>
+                <li>Additional mailing is required only in situations where Oklahoma statutes or a specific court order expressly require service by mail</li>
               </ul>
-              
-              <div className="bg-red-50 border-l-4 border-red-500 p-4 my-6">
-                <h4 className="font-bold text-red-700 text-sm uppercase mb-2">Common Misconceptions</h4>
-                <ul className="list-disc pl-5 space-y-1 text-sm text-red-900">
-                  <li><strong>Myth:</strong> You must try 3 times before using substituted service.<br/><strong>Fact:</strong> 12 O.S. § 2004 does not impose a &quot;three attempt&quot; requirement for leaving papers with a resident at the dwelling.</li>
-                  <li><strong>Myth:</strong> The resident must be 18.<br/><strong>Fact:</strong> The statute explicitly sets the age at <strong>15 years or older</strong>.</li>
-                  <li><strong>Myth:</strong> You must mail a copy after leaving it with a resident.<br/><strong>Fact:</strong> While some states require this, Oklahoma&apos;s general statute for residence service does <em>not</em> automatically require a follow-up mailing.</li>
-                </ul>
-              </div>
 
               <h3 className="text-xl font-bold text-slate-900 mt-6 mb-3">3. Service by Mail</h3>
               <p>
