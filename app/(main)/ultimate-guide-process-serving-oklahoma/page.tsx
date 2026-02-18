@@ -86,7 +86,7 @@ const pageFaqs = [
   },
   {
     "question": "Who can legally serve process in Oklahoma?",
-    "answer": "Only licensed process servers, Oklahoma attorneys, court clerks, and sheriff&apos;s deputies can legally serve process in Oklahoma. Private individuals must be at least 18 years old, licensed by the district court, maintain a $5,000 surety bond, and meet residency requirements under Title 12 § 158.1. <strong>Bond sources:</strong> Local insurance agents or online providers like SuretyBonds.com ($50-150 depending on term). License renewal costs approximately $235.39 every three years including court fees and publication."
+    "answer": "Only licensed process servers, Oklahoma attorneys, court clerks, and sheriff&apos;s deputies can legally serve process in Oklahoma. Private individuals must be at least 18 years old, licensed by the district court, maintain a $5,000 surety bond, and meet residency requirements under Title 12 § 158.1. <strong>Bond sources:</strong> Local insurance agents or online providers like SuretyBonds.com ($50-150 depending on term). License renewal costs approximately $235.39 every three years including court fees and publication, though exact amounts vary by county."
   },
   {
     "question": "Where can I find the official Oklahoma process server application form?",
@@ -94,7 +94,7 @@ const pageFaqs = [
   },
   {
     "question": "What does it cost to renew an Oklahoma process server license?",
-    "answer": "License renewal costs approximately <strong>$235.39 total</strong> every three years, including the $15 statutory fee, court costs, and publication expenses (excluding passport photos). Exact amounts vary slightly by county. <strong>Start renewal 30-60 days before expiration to avoid lapse.</strong> You&apos;ll need to re-file in the issuing court and provide an updated bond."
+    "answer": "License renewal costs approximately <strong>$235.39 total</strong> every three years, including the $15 statutory fee, court costs, and publication expenses (excluding passport photos). Exact amounts vary by county. <strong>Start renewal 30-60 days before expiration to avoid lapse.</strong> You&apos;ll need to re-file in the issuing court and provide an updated bond."
   },
   {
     "question": "How much does process serving cost in Oklahoma?",
@@ -429,7 +429,7 @@ export default function UltimateGuidePage() {
                 <h4 className="font-bold text-purple-800 mb-3">Financial Requirements</h4>
                 <ul className="text-sm space-y-1">
                   <li>• Initial statewide license fee: $150 (paid to district court at application)</li>
-                  <li>• <strong>Three-year renewal cost: $235.39</strong> (includes $15 statutory fee + court costs; excludes passport photos & publication)</li>
+                  <li>• <strong>Three-year renewal cost: approximately $235.39</strong> (includes $15 statutory fee + county court costs; varies by county; excludes passport photos & publication)</li>
                   <li>• Secure $5,000 surety bond (see bond sources below)</li>
                   <li>• Maintain professional liability insurance</li>
                 </ul>
@@ -449,7 +449,7 @@ export default function UltimateGuidePage() {
               
               <div className="mt-4 pt-4 border-t border-yellow-300">
                 <h5 className="font-semibold text-yellow-900 mb-2">2026 Renewal Process:</h5>
-                <p className="text-sm">Renewals require re-filing in the issuing court with updated bond. The renewal fee is <strong>$235.39</strong> (excludes passport photos ~$15 and publication ~$50-$150). <strong>Begin renewal 30-60 days before expiration to avoid lapse.</strong></p>
+                <p className="text-sm">Renewals require re-filing in the issuing court with updated bond. The renewal fee is approximately <strong>$235.39</strong> (excludes passport photos ~$15 and publication ~$50-$150; exact amounts vary by county). <strong>Begin renewal 30-60 days before expiration to avoid lapse.</strong></p>
               </div>
             </div>
           </CardContent>
@@ -1076,13 +1076,13 @@ export default function UltimateGuidePage() {
                   <strong><a href="https://law.justia.com/codes/oklahoma/title-12/section-12-158-1/" target="_blank" rel="noopener noreferrer">Title 12, § 158.1 - Licensing of Private Process Servers</a>:</strong> This statute mandates that all private process servers must be licensed by the district court.
                 </li>
                 <li>
-                  <strong>Fines and Penalties:</strong> Impersonating an officer of the court or failing to comply with statutes can lead to fines up to $1,000 and the invalidation of the service.
+                  <strong>Penalties:</strong> Violation of process server duties may result in license revocation, civil liability, and invalidation of the service. (Consult current statute for specific penalty amounts.)
                 </li>
             </ul>
           </CardContent>
         </Card>
 
-        {/* Joseph's Personal Story */}
+        {/* Joseph's Personal Story */}}
         <Card className="mb-8 bg-gradient-to-r from-gray-50 to-gray-100">
           <CardHeader>
             <CardTitle className="flex items-center"><User className="mr-2 h-6 w-6" />Meet Joseph Iannazzi - Founder & CEO</CardTitle>
@@ -2088,7 +2088,7 @@ export default function UltimateGuidePage() {
                   <div className="space-y-3 text-sm">
                     <div>
                       <strong>Using Unlicensed Servers:</strong>
-                      <p>Mistake: Hiring unlicensed individuals to save costs. Result: Invalid service, case delays, potential fines up to $1,000, and requirement to re-serve documents.</p>
+                      <p>Mistake: Hiring unlicensed individuals to save costs. Result: Invalid service, case delays, potential civil liability, and requirement to re-serve documents.</p>
                     </div>
                     <div>
                       <strong>Expired License Service:</strong>
@@ -2196,7 +2196,7 @@ export default function UltimateGuidePage() {
                   <strong><a href="https://law.justia.com/codes/oklahoma/title-12/section-12-158-1/" target="_blank" rel="noopener noreferrer">Title 12, § 158.1 - Licensing of Private Process Servers</a>:</strong> This statute mandates that all private process servers must be licensed by the district court.
                 </li>
                 <li>
-                  <strong>Fines and Penalties:</strong> Impersonating an officer of the court or failing to comply with statutes can lead to fines up to $1,000 and the invalidation of the service.
+                  <strong>Penalties:</strong> Violation of process server duties may result in license revocation, civil liability, and invalidation of the service. (Consult current statute for specific penalty amounts.)
                 </li>
             </ul>
           </CardContent>

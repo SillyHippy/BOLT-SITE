@@ -173,10 +173,10 @@ const checklistSections = [
         headers: ['Requirement', 'Statutory Authority', '2026 Updates'],
         rows: [
           ['Server age ≥ 18, non-party', '12 O.S. §2004(C)(1)', 'No change'],
-          ['Service hours 6 AM – 10 PM', 'Evening Service Corp v. Defendant (2024)', 'Emergency orders exempt when court-approved'],
-          ['Alternative service by court order', '12 O.S. §2004(D) & Martinez v. UDI (2024)', 'Must show 3 attempts + multi-source skip trace'],
-          ['Electronic service w/ consent', '12 O.S. §12-158.1 & Thompson v. Digital (2024)', 'DSN / certified-email proof required'],
-          ['AI-assisted address verification', 'New 2026 Guidelines', 'Recommended for all initial serves']
+          ['Service hours: no statutory restriction (best practice: 6 AM–10 PM)', 'Best practice / professional standards', 'Emergency protective orders served by law enforcement per 22 O.S. §60.4'],
+          ['Alternative service by court order', '12 O.S. §2004(D)', 'Demonstrate due diligence + multi-source skip trace before filing motion'],
+          ['Electronic service w/ consent', '12 O.S. §2004.5 / OSCN rules + court orders', 'Written consent required; DSN / certified-email proof recommended'],
+          ['AI-assisted address verification', 'Recommended best practice', 'Recommended for all initial serves']
         ]
       },
       {
