@@ -174,9 +174,9 @@ const checklistSections = [
         rows: [
           ['Server age ≥ 18, non-party', '12 O.S. §2004(C)(1)', 'No change'],
           ['Service hours: no statutory restriction (best practice: 6 AM–10 PM)', 'Best practice / professional standards', 'Emergency protective orders served by law enforcement per 22 O.S. §60.4'],
-          ['Alternative service by court order', '12 O.S. §2004(D)', 'Demonstrate due diligence + multi-source skip trace before filing motion'],
-          ['Electronic service w/ consent', '12 O.S. §2004.5 / OSCN rules + court orders', 'Written consent required; DSN / certified-email proof recommended'],
-          ['AI-assisted address verification', 'Recommended best practice', 'Recommended for all initial serves']
+          ['Alternative service by court order', 'Mathis v. Fidelity & D. Co., 2002 OK 83', 'Court discretion on attempts; skip trace recommended'],
+          ['Electronic service w/ consent', 'OSCN E-Filing Rules + Party Consent', 'Written consent required; DSN / certified-email proof recommended'],
+          ['AI-assisted address verification', 'Industry Best Practice', 'Recommended for all initial serves']
         ]
       },
       {
@@ -372,16 +372,16 @@ const checklistSections = [
   {
     id: 'education',
     number: 8,
-    title: 'Continuing Education & Licensing',
+    title: '2026 CEU Recommendations',
     icon: BookOpen,
     color: 'pink',
-    description: '2026 training requirements',
+    description: '2026 training recommendations',
     items: [
       {
         type: 'checklist',
-        title: '2026 CEU Requirements',
+        title: '2026 CEU Recommendations',
         items: [
-          '12 CEU hrs/yr mandatory total',
+          '12 CEU hrs/yr (firm standard)',
           '3 hrs ethics training',
           '4 hrs technology & AI integration',
           '5 hrs law updates and case law review',
