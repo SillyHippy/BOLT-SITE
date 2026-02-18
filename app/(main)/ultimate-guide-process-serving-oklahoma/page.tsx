@@ -1082,7 +1082,7 @@ export default function UltimateGuidePage() {
           </CardContent>
         </Card>
 
-        {/* Joseph's Personal Story */}}
+        {/* Joseph's Personal Story */}
         <Card className="mb-8 bg-gradient-to-r from-gray-50 to-gray-100">
           <CardHeader>
             <CardTitle className="flex items-center"><User className="mr-2 h-6 w-6" />Meet Joseph Iannazzi - Founder & CEO</CardTitle>
