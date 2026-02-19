@@ -100,6 +100,9 @@ function generateSitemap() {
     '/courier-services-tulsa',
     '/ultimate-guide-process-serving-oklahoma',
     
+    // Tool Pages
+    '/pdf-tools',
+    
     // SEO Pages
     '/seo/eviction-notice-process-server',
     '/seo/legal-posting-process-server',

@@ -161,6 +161,11 @@ const ResourcesPage = () => {
       preview: "Create professional Affidavit of Service or Non-Service forms with a notary section. Court-ready formatting for Oklahoma filings."
     },
     {
+      title: "Free PDF Tools for Legal Professionals",
+      url: "/pdf-tools",
+      preview: "Merge, compress, split, convert, protect, and OCR PDFs right in your browser. 14 embedded tools plus OCR—built for process servers, notaries, and legal staff."
+    },
+    {
       title: "Oklahoma Process Server Pricing",
       url: "/oklahoma-process-server-pricing",
       preview: "Transparent pricing guide for process serving across Oklahoma—standard, rush, same-day, and stakeout rates for all 77 counties."

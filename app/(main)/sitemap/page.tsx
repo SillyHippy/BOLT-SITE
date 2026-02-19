@@ -68,6 +68,7 @@ const sections: SitemapSection[] = [
     links: [
       { url: '/affidavit-of-service', label: 'Affidavit of Service Generator' },
       { url: '/field-sheet', label: 'Field Sheet' },
+      { url: '/pdf-tools', label: 'Free PDF Tools' },
       { url: '/resources', label: 'All Resources' },
     ],
   },
