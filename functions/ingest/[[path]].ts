@@ -1,4 +1,4 @@
-export const onRequest: PagesFunction = async ({ request }) => {
+export const onRequest = async ({ request }: { request: Request }) => {
   const url = new URL(request.url);
   const pathname = url.pathname.replace(/^\/ingest/, '');
   const search = url.search;
