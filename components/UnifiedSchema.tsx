@@ -350,18 +350,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     description: 'Professional Process Server in Oklahoma',
     publisher: {
       '@id': 'https://justlegalsolutions.org/#organization'
-    },
-    ...(speakable && speakable.length > 0 ? {
-      speakable: {
-        '@type': 'SpeakableSpecification',
-        cssSelector: speakable
-      }
-    } : {
-      speakable: {
-        '@type': 'SpeakableSpecification',
-        cssSelector: ['h1', 'h2', '.important-info', '.service-description', '.contact-info']
-      }
-    })
+    }
   };
 
   // Breadcrumb schema (only create if we have breadcrumbs)

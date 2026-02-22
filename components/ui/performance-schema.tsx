@@ -28,7 +28,7 @@ export default function PerformanceSchema({
     },
     "speakable": {
       "@type": "SpeakableSpecification",
-      "cssSelector": ["h1", "h2", ".important-info"]
+      "cssSelector": ["h1", "h2"]
     },
     "mainContentOfPage": {
       "@type": "WebPageElement",

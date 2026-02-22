@@ -79,7 +79,7 @@ export default function SearchEngineSignals({
     ],
     "speakable": {
       "@type": "SpeakableSpecification",
-      "cssSelector": ["h1", "h2", ".important-info", ".contact-info"]
+      "cssSelector": ["h1", "h2"]
     },
     "accessibilityFeature": [
       "alternativeText",
