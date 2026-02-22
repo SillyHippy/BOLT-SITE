@@ -292,6 +292,11 @@ function createVoiceSearchSitemap() {
       url: 'https://justlegalsolutions.org/pricing/',
       voiceQuery: 'process server cost tulsa',
       voiceAnswer: 'Competitive process serving rates in Tulsa County'
+    },
+    {
+      url: 'https://justlegalsolutions.org/tools',
+      voiceQuery: 'process server tools oklahoma',
+      voiceAnswer: 'Free tools for process servers and legal professionals at Just Legal Solutions'
     }
   ];
   

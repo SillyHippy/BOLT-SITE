@@ -101,6 +101,7 @@ function generateSitemap() {
     '/ultimate-guide-process-serving-oklahoma',
     
     // Tool Pages
+    '/tools',
     '/pdf-tools',
     
     // SEO Pages

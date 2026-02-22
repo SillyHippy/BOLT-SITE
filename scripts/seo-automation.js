@@ -103,8 +103,8 @@ class SEOPerformanceBot {
       const sampleContent = this.generateHighCTRContent('Tulsa', 'Process Server');
       console.log('📝 Generated CTR-optimized content:', sampleContent);
       
-      // Submit to IndexNow (sample URL)
-      await this.submitToIndexNow([`${this.baseUrl}/`]);
+      // Submit to IndexNow (key URLs)
+      await this.submitToIndexNow([`${this.baseUrl}/`, `${this.baseUrl}/tools`]);
       
       // Save metrics
       fs.writeFileSync('./seo-metrics.json', JSON.stringify(this.metrics, null, 2));

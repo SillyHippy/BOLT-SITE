@@ -66,6 +66,7 @@ const sections: SitemapSection[] = [
     icon: <ClipboardList className="w-5 h-5" />,
     color: 'emerald',
     links: [
+      { url: '/tools', label: 'Tools' },
       { url: '/affidavit-of-service', label: 'Affidavit of Service Generator' },
       { url: '/field-sheet', label: 'Field Sheet' },
       { url: '/pdf-tools', label: 'Free PDF Tools' },
