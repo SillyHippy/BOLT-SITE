@@ -7,4 +7,6 @@ posthog.init(process.env.NEXT_PUBLIC_POSTHOG_KEY!, {
   capture_pageview: true,
   capture_pageleave: true,
   enable_heatmaps: true,
+  capture_scroll_depth: true,
+  autocapture: true,
 })
