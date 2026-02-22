@@ -6,6 +6,7 @@ import Image from 'next/image';
 import React from 'react';
 import StaticSiteOptimizer from '@/components/StaticSiteOptimizer';
 import WebsiteSchema from '@/components/ui/website-schema';
+import { PostHogProvider } from '@/components/PostHogProvider';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -138,6 +139,7 @@ export default function RootLayout({
         <link rel="alternate" type="text/plain" href="/llms-full.txt" title="Extended LLM Information" />
       </head>
       <body className={inter.className} suppressHydrationWarning>
+        <PostHogProvider>
         <StaticSiteOptimizer />
         <WebsiteSchema />
         {/* Simple Analytics noscript fallback */}
@@ -152,6 +154,7 @@ export default function RootLayout({
           />
         </noscript>
         {children}
+        </PostHogProvider>
       </body>
     </html>
   );
