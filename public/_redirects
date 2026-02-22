@@ -1,9 +1,6 @@
 # Cloudflare Pages _redirects — consolidated Feb 17 2026
 # Docs: https://developers.cloudflare.com/pages/configuration/redirects/
 
-# ── PostHog reverse proxy (prevents ad-blocker blocking) ─────
-/ingest/static/* https://us-assets.i.posthog.com/static/:splat 200
-/ingest/* https://us.i.posthog.com/:splat 200
 # ── 1. Year-versioned stubs (2025 → current) ────────────────
 /oklahoma-process-server-pricing-2025 /oklahoma-process-server-pricing 301
 /oklahoma-process-server-technology-2025 /oklahoma-process-server-technology 301
