@@ -58,6 +58,8 @@ function generateSitemap() {
     '/reviews/survey', // Internal review intake
     '/reviews/text', // Internal review intake
     '/security-policy', // Low-value policy page
+    '/competitor-analysis', // Internal competitor analysis tool
+    '/voice-search-marker', // Internal voice search marker
   ];
   
   // Additional URLs to ensure they're included (all service areas with Google Maps)
