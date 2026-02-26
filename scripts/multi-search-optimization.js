@@ -226,6 +226,15 @@ Disallow: /admin/
 Disallow: /private/
 Disallow: /*.json$
 Disallow: /*?*print=
+Disallow: /viewer
+Disallow: /future-ai-ready
+Disallow: /local-legal-events
+Disallow: /seo-dashboard
+Disallow: /ai-business-info
+Disallow: /backlinks
+Disallow: /affidavit
+Disallow: /voice-friendly
+Disallow: /platform-supremacy
 
 # Google
 User-agent: Googlebot

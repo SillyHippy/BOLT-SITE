@@ -42,10 +42,13 @@ function generateSitemap() {
   // URLs to exclude (redirect pages, internal tools, utility pages)
   const excludeUrls = [
     '/faq', // Redirects to /ultimate-guide-process-serving-oklahoma
+    '/services', // Redirects to /pricing
     '/seo/process-server-sand-springs', // Redirects to /service-areas/sand-springs
     '/seo/process-server-bixby', // Redirects to /service-areas/bixby
     '/seo/process-server-broken-arrow', // Redirects to /service-areas/broken-arrow
     '/seo/process-server-jenks', // Redirects to /service-areas/jenks
+    '/seo/process-server-nowata', // Redirects to /service-areas/nowata
+    '/seo/process-server-vinita', // Redirects to /service-areas/vinita
     '/oklahoma-process-server-cost-calculator', // Removed - page no longer exists
     '/404', // Error page - should not be indexed
     '/card', // Internal business card page
@@ -58,8 +61,33 @@ function generateSitemap() {
     '/reviews/survey', // Internal review intake
     '/reviews/text', // Internal review intake
     '/security-policy', // Low-value policy page
-    '/competitor-analysis', // Internal competitor analysis tool
+    '/competitor-analysis', // Redirects to /why-choose-us
     '/voice-search-marker', // Internal voice search marker
+    // 301 redirect pages (year-versioned stubs)
+    '/oklahoma-process-server-pricing-2025', // Redirects to /oklahoma-process-server-pricing
+    '/oklahoma-process-server-pricing-2026', // Redirects to /oklahoma-process-server-pricing
+    '/oklahoma-process-server-technology-2025', // Redirects to /oklahoma-process-server-technology
+    '/high-profile-service-protocols-tulsa-2025', // Redirects to /high-profile-service-protocols-tulsa
+    '/oklahoma-electronic-service-guide-2025', // Redirects to /oklahoma-electronic-service-guide
+    '/oklahoma-case-law-service-process-2025', // Redirects to /oklahoma-case-law-service-process
+    '/oklahoma-legal-service-areas-2025', // Redirects to /oklahoma-legal-service-areas
+    '/oklahoma-process-serving-costs-comparison-2025', // Redirects to /oklahoma-process-serving-costs-comparison
+    '/ai-skip-tracing-guide-oklahoma-2025', // Redirects to /ai-skip-tracing-guide-oklahoma
+    '/family-law-service-guide-tulsa-2025', // Redirects to /family-law-service-guide-tulsa
+    '/process-serving-mistakes-guide-2025', // Redirects to /process-serving-mistakes-guide
+    '/oklahoma-process-server-faq-2025', // Redirects to /oklahoma-process-server-faq-2026
+    '/oklahoma-process-server-best-practices-checklist-2025', // Redirects to /oklahoma-process-server-best-practices-checklist-2026
+    '/oklahoma-vs-texas-process-server', // Redirects to /oklahoma-process-server-laws
+    // Orphan/utility pages (no page files, internal tools)
+    '/viewer',
+    '/future-ai-ready',
+    '/local-legal-events',
+    '/seo-dashboard',
+    '/ai-business-info',
+    '/backlinks',
+    '/affidavit',
+    '/voice-friendly',
+    '/platform-supremacy',
   ];
   
   // Additional URLs to ensure they're included (all service areas with Google Maps)
@@ -100,7 +128,6 @@ function generateSitemap() {
     '/',
     '/contact',
     '/pricing',
-    '/services',
     '/resources',
     '/payments',
     '/why-choose-us',
@@ -120,8 +147,6 @@ function generateSitemap() {
     // SEO Pages
     '/seo/eviction-notice-process-server',
     '/seo/legal-posting-process-server',
-    '/seo/process-server-nowata',
-    '/seo/process-server-vinita',
     '/seo/what-is-a-process-server',
     
     // Sitemap
