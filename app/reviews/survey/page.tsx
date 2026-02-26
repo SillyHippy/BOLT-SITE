@@ -6,8 +6,12 @@ export const metadata: Metadata = {
   description: 'Verified client reviews and satisfaction surveys from our Oklahoma process serving clients. Real feedback from attorneys, law firms, and individuals who have used our legal document services.',
   keywords: 'client reviews, process server testimonials, Oklahoma legal services reviews, verified customer feedback, attorney testimonials',
   robots: {
-    index: false, // This is internal verification content
+    index: false,
     follow: false,
+    googleBot: {
+      index: false,
+      follow: false,
+    },
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/reviews/survey'

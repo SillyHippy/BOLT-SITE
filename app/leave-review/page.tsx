@@ -7,12 +7,6 @@ import { Footer } from '@/components/ui/footer';
 
 export default function LeaveReviewPage() {
   useEffect(() => {
-    // Add robots meta tag to prevent indexing and crawling
-    const metaRobots = document.createElement('meta');
-    metaRobots.name = 'robots';
-    metaRobots.content = 'noindex, nofollow, noarchive, nosnippet';
-    document.head.appendChild(metaRobots);
-
     // Fetch visitor info and send to Google Apps Script
     const trackVisitor = async () => {
       try {

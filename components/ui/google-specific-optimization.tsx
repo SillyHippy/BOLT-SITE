@@ -128,8 +128,7 @@ export default function GoogleSpecificOptimization({
         "@type": "ReserveAction",
         "target": {
           "@type": "EntryPoint",
-          "urlTemplate": "https://justlegalsolutions.org/card/calendar",
-          "inLanguage": "en-US"
+          "urlTemplate": "https://justlegalsolutions.org/card/calendar"
         },
         "result": {
           "@type": "Reservation",
@@ -140,8 +139,7 @@ export default function GoogleSpecificOptimization({
         "@type": "CommunicateAction",
         "target": {
           "@type": "EntryPoint",
-          "urlTemplate": "tel:+15393676832",
-          "inLanguage": "en-US"
+          "urlTemplate": "tel:+15393676832"
         }
       }
     ]

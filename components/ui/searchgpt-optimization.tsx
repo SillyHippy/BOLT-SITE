@@ -173,8 +173,7 @@ export default function SearchGPTOptimization({
         "name": "Call Now for Service",
         "target": {
           "@type": "EntryPoint",
-          "urlTemplate": "tel:+15393676832",
-          "inLanguage": "en-US"
+          "urlTemplate": "tel:+15393676832"
         },
         "result": {
           "@type": "Action",
@@ -186,8 +185,7 @@ export default function SearchGPTOptimization({
         "name": "Schedule Online",
         "target": {
           "@type": "EntryPoint",
-          "urlTemplate": "https://justlegalsolutions.org/card/calendar",
-          "inLanguage": "en-US"
+          "urlTemplate": "https://justlegalsolutions.org/card/calendar"
         }
       }
     ],

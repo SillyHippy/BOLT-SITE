@@ -169,8 +169,7 @@ export default function AIAssistantOptimization({
         "name": "Schedule Process Serving",
         "target": {
           "@type": "EntryPoint",
-          "urlTemplate": "https://justlegalsolutions.org/card/calendar",
-          "inLanguage": "en-US"
+          "urlTemplate": "https://justlegalsolutions.org/card/calendar"
         },
         "result": {
           "@type": "Reservation",
@@ -182,8 +181,7 @@ export default function AIAssistantOptimization({
         "name": "Call for Emergency Service",
         "target": {
           "@type": "EntryPoint",
-          "urlTemplate": "tel:+15393676832",
-          "inLanguage": "en-US"
+          "urlTemplate": "tel:+15393676832"
         }
       }
     ],

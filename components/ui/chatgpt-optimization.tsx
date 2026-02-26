@@ -144,8 +144,7 @@ export default function ChatGPTOptimization({
         "description": "Book professional process serving appointment online",
         "target": {
           "@type": "EntryPoint",
-          "urlTemplate": "https://justlegalsolutions.org/card/calendar",
-          "inLanguage": "en-US"
+          "urlTemplate": "https://justlegalsolutions.org/card/calendar"
         }
       },
       {
@@ -154,8 +153,7 @@ export default function ChatGPTOptimization({
         "description": "Call for same-day or emergency process serving",
         "target": {
           "@type": "EntryPoint", 
-          "urlTemplate": "tel:+15393676832",
-          "inLanguage": "en-US"
+          "urlTemplate": "tel:+15393676832"
         }
       }
     ],

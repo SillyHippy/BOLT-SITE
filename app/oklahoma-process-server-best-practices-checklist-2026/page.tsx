@@ -78,8 +78,7 @@ const howToSchema = {
   "estimatedCost": {
     "@type": "MonetaryAmount",
     "priceCurrency": "USD",
-    "value": "30.00",
-    "maxValue": "200.00"
+    "value": "30.00"
   },
   "totalTime": "PT1H",
   "supply": [
