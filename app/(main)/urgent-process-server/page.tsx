@@ -581,8 +581,7 @@ const UrgentProcessServerPage = () => {
             "areaServed": {
               "@type": "State",
               "name": "Oklahoma"
-            },
-            "serviceType": ["Emergency Process Serving", "Same-Day Legal Document Delivery", "2-Hour Rush Service"]
+            }
           })
         }}
       />

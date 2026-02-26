@@ -152,7 +152,6 @@ export default function OklahomaProcessServerPricing2026() {
               "@type": "State",
               "name": "Oklahoma"
             },
-            "serviceType": ["Process Serving", "Legal Document Delivery", "Skip Tracing", "Court Filing"],
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
               "name": "Process Serving Services",

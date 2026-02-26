@@ -94,8 +94,7 @@ export default function CourierServicesTulsaPage() {
             "areaServed": [
               { "@type": "County", "name": "Tulsa County" },
               { "@type": "State", "name": "Oklahoma" }
-            ],
-            "serviceType": ["Legal Courier", "Document Delivery", "Court Filing", "File-Stamped Copy Retrieval"]
+            ]
           })
         }}
       />
