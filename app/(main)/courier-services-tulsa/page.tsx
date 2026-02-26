@@ -92,7 +92,7 @@ export default function CourierServicesTulsaPage() {
               "closes": "23:59"
             },
             "areaServed": [
-              { "@type": "County", "name": "Tulsa County" },
+              { "@type": "AdministrativeArea", "name": "Tulsa County" },
               { "@type": "State", "name": "Oklahoma" }
             ]
           })

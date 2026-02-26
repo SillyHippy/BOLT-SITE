@@ -36,23 +36,23 @@
         "name": "Oklahoma",
         "containsPlace": [
           {
-            "@type": "County",
+            "@type": "AdministrativeArea",
             "name": "Tulsa County"
           },
           {
-            "@type": "County",
+            "@type": "AdministrativeArea",
             "name": "Creek County"
           },
           {
-            "@type": "County",
+            "@type": "AdministrativeArea",
             "name": "Rogers County"
           },
           {
-            "@type": "County",
+            "@type": "AdministrativeArea",
             "name": "Wagoner County"
           },
           {
-            "@type": "County",
+            "@type": "AdministrativeArea",
             "name": "Osage County"
           }
         ]

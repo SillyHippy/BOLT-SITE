@@ -117,7 +117,7 @@ export default function AIOptimizedContentSchema({
           "description": "24/7 Emergency Process Serving Available"
         }
       ],
-      "expertise": [
+      "knowsAbout": [
         "Process Serving",
         "Legal Document Delivery",
         "Court Filing Services",
@@ -140,7 +140,7 @@ export default function AIOptimizedContentSchema({
       "@type": "Audience",
       "audienceType": userIntent === "commercial" ? "Business and Legal Professionals" : "General Public",
       "geographicArea": {
-        "@type": "Place",
+        "@type": "AdministrativeArea",
         "name": "Oklahoma"
       }
     },

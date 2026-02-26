@@ -45,11 +45,11 @@ const knowledgeGraph = {
         "@type": "State",
         "name": "Oklahoma",
         "containsPlace": [
-          {"@type": "County", "name": "Tulsa County"},
-          {"@type": "County", "name": "Creek County"},
-          {"@type": "County", "name": "Rogers County"},
-          {"@type": "County", "name": "Wagoner County"},
-          {"@type": "County", "name": "Osage County"}
+          {"@type": "AdministrativeArea", "name": "Tulsa County"},
+          {"@type": "AdministrativeArea", "name": "Creek County"},
+          {"@type": "AdministrativeArea", "name": "Rogers County"},
+          {"@type": "AdministrativeArea", "name": "Wagoner County"},
+          {"@type": "AdministrativeArea", "name": "Osage County"}
         ]
       },
       "hasOfferCatalog": {

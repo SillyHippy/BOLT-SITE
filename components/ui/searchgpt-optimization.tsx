@@ -27,12 +27,11 @@ export default function SearchGPTOptimization({
     // Real-time information for SearchGPT
     "dateModified": currentDate,
     "lastReviewed": currentDate,
-    "isAccessibleForFree": false,
     "audience": {
       "@type": "Audience",
       "audienceType": ["Legal Professionals", "General Public", "Property Managers", "Law Firms"],
       "geographicArea": {
-        "@type": "Place",
+        "@type": "AdministrativeArea",
         "name": "Oklahoma",
         "address": {
           "@type": "PostalAddress",

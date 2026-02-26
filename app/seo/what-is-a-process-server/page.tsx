@@ -181,7 +181,6 @@ const localBusinessSchema = {
   "url": "https://justlegalsolutions.org",
   "telephone": "+15393676832",
   "email": "info@justlegalsolutions.org",
-  "isAccessibleForFree": true,
   "image": "https://justlegalsolutions.org/images/jls-logo.webp",
   "logo": {
     "@type": "ImageObject",
@@ -313,7 +312,6 @@ const localBusinessSchema = {
       "closes": "23:59"
     }
   ],
-  "serviceType": "Process Server",
   "priceRange": "$30-$200",
   "foundingDate": "2025-03-01",
   "slogan": "Professional Process Serving Throughout Oklahoma - Licensed, Bonded, Available 24/7",
@@ -451,7 +449,6 @@ const articleSchema = {
     "description": "Professional process serving with over 50 years combined industry experience",
     "name": "Just Legal Solutions",
     "url": "https://justlegalsolutions.org/",
-    "isAccessibleForFree": true,
     "telephone": "+15393676832",
     "image": "https://justlegalsolutions.org/images/jls-logo.webp",
     "address": {
@@ -470,7 +467,6 @@ const articleSchema = {
     "description": "Professional process serving with over 50 years combined industry experience",
     "name": "Just Legal Solutions",
     "url": "https://justlegalsolutions.org/",
-    "isAccessibleForFree": true,
     "telephone": "+15393676832",
     "address": {
       "@type": "PostalAddress",
@@ -545,7 +541,6 @@ const enhancedArticleSchema = {
     "description": "Professional process serving with over 50 years combined industry experience",
     "name": "Just Legal Solutions",
     "url": "https://justlegalsolutions.org",
-    "isAccessibleForFree": true,
     "telephone": "+15393676832",
     "image": "https://justlegalsolutions.org/images/jls-logo.webp",
     "address": {
@@ -564,7 +559,6 @@ const enhancedArticleSchema = {
     "description": "Professional process serving with over 50 years combined industry experience",
     "name": "Just Legal Solutions",
     "url": "https://justlegalsolutions.org",
-    "isAccessibleForFree": true,
     "telephone": "+15393676832",
     "address": {
       "@type": "PostalAddress",

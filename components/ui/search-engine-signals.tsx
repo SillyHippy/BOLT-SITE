@@ -46,7 +46,7 @@ export default function SearchEngineSignals({
       "@type": "Audience",
       "audienceType": "Legal Professionals and General Public",
       "geographicArea": {
-        "@type": "Place",
+        "@type": "AdministrativeArea",
         "name": "Oklahoma",
         "geo": {
           "@type": "GeoCircle",
