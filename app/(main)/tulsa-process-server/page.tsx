@@ -236,9 +236,9 @@ export default function TulsaProcessServerPage() {
       fileName: "tulsa-county-process-server-graphic.png"
     },
     {
-      src: "https://raw.githubusercontent.com/SillyHippy/BOLT-SITE/main/public/images/Tulsa_skyline_aerial%2C_April_2023.jpg",
+      src: "/images/Tulsa_skyline_aerial,_April_2023.webp",
       alt: "Aerial view of the Tulsa skyline, an area served by our process servers.",
-      fileName: "tulsa-skyline-area-served-by-process-server-in-tulsa.jpg"
+      fileName: "tulsa-skyline-area-served-by-process-server-in-tulsa.webp"
     }
   ];
 
