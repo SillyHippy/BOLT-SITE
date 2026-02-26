@@ -169,7 +169,6 @@ const serviceAreaSchema = {
         "@type": "Offer",         "url": "https://justlegalsolutions.org/services",
         "name": "Urban Area Service",
         "description": "Process serving in major Oklahoma cities including Tulsa, Oklahoma City, Norman, and Broken Arrow",
-        "priceRange": "$30-$100",
         "areaServed": [
           "Tulsa",
           "Oklahoma City", 
@@ -183,7 +182,6 @@ const serviceAreaSchema = {
         "@type": "Offer",         "url": "https://justlegalsolutions.org/services",
         "name": "Suburban Community Service",
         "description": "Professional document delivery in suburban areas and smaller cities throughout Oklahoma",
-        "priceRange": "$40-$125",
         "areaServed": [
           "Sapulpa",
           "Glenpool",
@@ -197,7 +195,6 @@ const serviceAreaSchema = {
         "@type": "Offer",         "url": "https://justlegalsolutions.org/services",
         "name": "Rural Territory Service",
         "description": "Specialized rural process serving across Oklahoma's remote counties and territories",
-        "priceRange": "$50-$200",
         "areaServed": [
           "Rural Oklahoma Counties",
           "Remote Communities",

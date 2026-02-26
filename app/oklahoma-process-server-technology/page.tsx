@@ -90,8 +90,6 @@ const technologySchema = {
     "name": "Just Legal Solutions",
     "url": "https://justlegalsolutions.org"
   },
-  "applicationCategory": "Legal Technology",
-  "operatingSystem": "Cross-platform",
   "offers": {
     "@type": "Offer",
     "url": "https://justlegalsolutions.org/services",

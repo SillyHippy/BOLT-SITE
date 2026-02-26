@@ -60,7 +60,6 @@ const organizationSchema = {
     },
   },
   image: 'https://justlegalsolutions.org/images/jls-logo.webp',
-  priceRange: '$30-$200',
   foundingDate: '2025-03-01',
   description: 'Professional process serving with over 50 years combined industry experience',
 };
