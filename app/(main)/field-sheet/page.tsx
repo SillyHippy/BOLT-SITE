@@ -1,6 +1,7 @@
 import React from 'react';
 import { Metadata } from 'next';
 import FieldSheet from '@/components/FieldSheet';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
   title: 'Field Sheet Generator | Just Legal Solutions',
@@ -31,6 +32,17 @@ export const metadata: Metadata = {
 
 export default function FieldSheetPage() {
   return (
+    <>
+      <UnifiedSchema
+        pageType="generic"
+        url="https://justlegalsolutions.org/field-sheet"
+        title="Field Sheet Generator | Just Legal Solutions"
+        description="Generate and print professional process server field sheets for Oklahoma service of process."
+        breadcrumbItems={[
+          { name: 'Home', item: 'https://justlegalsolutions.org' },
+          { name: 'Field Sheet', item: 'https://justlegalsolutions.org/field-sheet' }
+        ]}
+      />
     <div className="min-h-screen bg-gray-100 pb-10">
       <div className="max-w-5xl mx-auto px-4 pt-6 pb-4 no-print-field-sheet">
         <h1 className="text-3xl font-bold text-center text-gray-900 mb-1">
@@ -42,5 +54,6 @@ export default function FieldSheetPage() {
       </div>
       <FieldSheet />
     </div>
+    </>
   );
 }

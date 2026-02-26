@@ -1,6 +1,7 @@
 import React from 'react';
 import { Metadata } from 'next';
 import AffidavitOfService from '@/components/AffidavitOfService';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
   title: 'Affidavit of Service Generator | Just Legal Solutions',
@@ -32,6 +33,17 @@ export const metadata: Metadata = {
 
 export default function AffidavitOfServicePage() {
   return (
+    <>
+      <UnifiedSchema
+        pageType="generic"
+        url="https://justlegalsolutions.org/affidavit-of-service"
+        title="Affidavit of Service Generator | Just Legal Solutions"
+        description="Generate and print professional Affidavit of Service or Non-Service forms for Oklahoma process serving."
+        breadcrumbItems={[
+          { name: 'Home', item: 'https://justlegalsolutions.org' },
+          { name: 'Affidavit of Service', item: 'https://justlegalsolutions.org/affidavit-of-service' }
+        ]}
+      />
     <div className="affidavit-wrapper" style={{ backgroundColor: '#555', minHeight: '100vh', paddingBottom: 40 }}>
       <div className="max-w-5xl mx-auto px-4 pt-6 pb-4 no-print-affidavit">
         <h1 className="text-3xl font-bold text-center text-white mb-1">
@@ -43,5 +55,6 @@ export default function AffidavitOfServicePage() {
       </div>
       <AffidavitOfService />
     </div>
+    </>
   );
 }
