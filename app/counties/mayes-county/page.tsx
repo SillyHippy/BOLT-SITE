@@ -7,7 +7,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Pryor Creek Rural Property Disputes & Agricultural Litigation | Mayes County | Just Legal Solutions',
+  title: 'Pryor Creek Rural Property Disputes & Agricultural Litigation | Mayes County',
   description: 'Licensed process server throughout Mayes County, Oklahoma. Serving Pryor. Same-day service available.',
   keywords: 'process server Mayes County, legal document service Mayes County, court papers Oklahoma, Pryor courthouse, process serving Pryor, skip tracing Mayes County',
   openGraph: {

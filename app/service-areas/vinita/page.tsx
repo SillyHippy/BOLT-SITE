@@ -8,7 +8,7 @@ import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Vinita Process Server | Craig County Legal Document Delivery | Just Legal Solutions',
+  title: 'Vinita Process Server | Craig County Legal Document Delivery',
   description: 'Licensed process server in Vinita, Oklahoma serving Craig County and the Grand Lake region. Court papers, subpoenas, eviction notices, and rush legal document delivery with GPS-verified proof of service.',
   keywords: 'process server vinita, vinita process server, legal document service vinita, serve papers vinita, court documents vinita, subpoena service vinita, eviction notice vinita, emergency process server vinita, craig county process server, grand lake process server, licensed process server craig county, professional process server vinita oklahoma',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],

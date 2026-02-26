@@ -8,7 +8,6 @@ const STATIC_CACHE_NAME = 'jls-static-v2025-01-15';
 const CRITICAL_ASSETS = [
   '/',
   '/pricing',
-  '/services',
   '/images/hero.webp',
   '/images/jls-logo.webp',
   '/Favicon/favicon.ico',

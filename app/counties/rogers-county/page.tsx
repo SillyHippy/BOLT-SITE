@@ -7,7 +7,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Claremore & Catoosa Legal Document Service | Rogers County Court Papers | Just Legal Solutions',
+  title: 'Claremore & Catoosa Legal Document Service | Rogers County Court Papers',
   description: 'Rogers County’s process server—serving Claremore, Catoosa, Verdigris, and all communities. Fast, local legal document delivery for families, businesses, and attorneys.',
   keywords: 'process server Rogers County, legal document service Rogers County, court papers Oklahoma, Claremore courthouse, process serving Claremore Catoosa, skip tracing Rogers County',
   openGraph: {

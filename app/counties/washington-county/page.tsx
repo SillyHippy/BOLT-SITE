@@ -8,7 +8,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Washington County Legal Document Delivery | Bartlesville Court Papers | Just Legal Solutions',
+  title: 'Washington County Legal Document Delivery | Bartlesville Court Papers',
   description: 'Washington County’s trusted process server—serving Bartlesville, Dewey, and all communities with fast, licensed legal document delivery. Local expertise for court papers, evictions, and urgent legal needs.',
   keywords: 'process server Washington County, legal document service Washington County, court papers Oklahoma, Bartlesville courthouse, process serving Bartlesville, skip tracing Washington County',
   openGraph: {

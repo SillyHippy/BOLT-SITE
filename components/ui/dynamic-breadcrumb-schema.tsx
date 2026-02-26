@@ -19,7 +19,7 @@ interface DynamicBreadcrumbSchemaProps {
  * Usage:
  * <DynamicBreadcrumbSchema
  *   items={[
- *     { name: 'Services', url: '/services' },
+ *     { name: 'Services', url: '/pricing' },
  *     { name: 'Process Serving', url: '/services/process-serving' }
  *   ]}
  * />

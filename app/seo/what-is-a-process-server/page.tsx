@@ -12,7 +12,7 @@ import PerformanceSchema from '@/components/ui/performance-schema';
 
 // Enhanced metadata for maximum SEO impact
 export const metadata: Metadata = {
-  title: 'What Is a Process Server? Professional Legal Document Delivery in Tulsa, Oklahoma | Just Legal Solutions',
+  title: 'What Is a Process Server? Professional Legal Document Delivery in Tulsa, Oklahoma',
   description: 'Learn what a process server does in Oklahoma—expert legal document delivery, court papers, and subpoenas. Trusted by law firms and individuals for fast, licensed, and reliable service.',
   keywords: [
     'what is a process server',
@@ -1480,7 +1480,7 @@ export default function WhatIsAProcessServerPage() {
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center voice-optimized">Business Litigation & Corporate Document Service</h2>
 
               <div className="text-center mb-6">
-                <p className="text-gray-700 mb-4">Explore our complete range of services for businesses. <Link href="/services" className="text-blue-600 hover:underline font-medium">View all our services →</Link></p>
+                <p className="text-gray-700 mb-4">Explore our complete range of services for businesses. <Link href="/pricing" className="text-blue-600 hover:underline font-medium">View all our services →</Link></p>
               </div>
 
               <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-8 mb-8">

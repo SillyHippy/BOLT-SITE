@@ -7,7 +7,7 @@ import EnhancedBreadcrumbSchema from '@/components/ui/enhanced-breadcrumb-schema
 import PerformanceSchema from '@/components/ui/performance-schema';
 
 export const metadata = {
-  title: 'Virtual Assistant Services Oklahoma | Executive Support Tulsa | Just Legal Solutions',
+  title: 'Virtual Assistant Services Oklahoma | Executive Support Tulsa',
   description: 'Professional virtual assistant services in Oklahoma. Executive support, HR & payroll, event coordination, travel management, customer service & data entry. 10+ years experience. Starting at $15/hr.',
   keywords: [
     'virtual assistant oklahoma',
@@ -34,7 +34,7 @@ export const metadata = {
     canonical: 'https://justlegalsolutions.org/virtual-assistant-services'
   },
   openGraph: {
-    title: 'Virtual Assistant Services Oklahoma | Executive Support | Just Legal Solutions',
+    title: 'Virtual Assistant Services Oklahoma | Executive Support',
     description: 'Professional virtual assistant & executive support services in Tulsa & Oklahoma. HR, payroll, event planning, travel management, customer service. 10+ years experience. Starting at $15/hr.',
     type: 'website',
     locale: 'en_US',
@@ -49,7 +49,7 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Virtual Assistant Services Oklahoma | Just Legal Solutions',
+    title: 'Virtual Assistant Services Oklahoma',
     description: 'Professional virtual assistant & executive support in Oklahoma. HR, payroll, events, travel, customer service. 10+ years experience.',
     images: ['https://justlegalsolutions.org/images/virtual-assistant-services-og.jpg'],
   }

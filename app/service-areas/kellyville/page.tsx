@@ -11,7 +11,7 @@ import { Footer } from '@/components/ui/footer';
 import GoogleMapsEmbed from '@/components/ui/google-maps-embed';
 
 export const metadata: Metadata = {
-  title: 'Kellyville Process Server | Legal Document Service | Just Legal Solutions',
+  title: 'Kellyville Process Server | Legal Document Service',
   description: 'Kellyville’s go-to process server for rural properties, farms, and small-town businesses. We serve all of Creek County, navigating country roads and local communities with care, speed, and personal attention.',
   keywords: 'process server kellyville, legal document service kellyville, serve papers kellyville, court documents kellyville, subpoena service kellyville, eviction notice kellyville, emergency process server kellyville, 24/7 process server oklahoma, licensed process server creek county, professional process server kellyville',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],

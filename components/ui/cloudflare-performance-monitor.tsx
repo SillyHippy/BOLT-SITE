@@ -153,7 +153,7 @@ export default function CloudflarePerformanceMonitor() {
       
       <div className="mt-2 text-xs">
         <a href="/pricing" className="text-blue-600 hover:underline">View Pricing</a> |{' '}
-        <a href="/services" className="text-blue-600 hover:underline">Services</a>
+        <a href="/pricing" className="text-blue-600 hover:underline">Services</a>
       </div>
     </div>
   );

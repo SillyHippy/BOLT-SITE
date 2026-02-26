@@ -4,7 +4,7 @@ import AffidavitOfService from '@/components/AffidavitOfService';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
-  title: 'Affidavit of Service Generator | Just Legal Solutions',
+  title: 'Affidavit of Service Generator',
   description:
     'Generate and print professional Affidavit of Service or Non-Service forms for Oklahoma process serving. Fill in case details, manner of service, and notary — then print or save as PDF.',
   keywords: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     canonical: 'https://justlegalsolutions.org/affidavit-of-service',
   },
   openGraph: {
-    title: 'Affidavit of Service Generator | Just Legal Solutions',
+    title: 'Affidavit of Service Generator',
     description:
       'Professional Affidavit of Service generator for Oklahoma process servers. Fill, print, or save to PDF.',
     type: 'website',

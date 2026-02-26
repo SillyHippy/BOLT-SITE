@@ -4,7 +4,7 @@ import { Footer } from '@/components/ui/footer';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
-  title: 'Professional Process Server Directory & Business Verification | Just Legal Solutions',
+  title: 'Professional Process Server Directory & Business Verification',
   description: 'Verify Just Legal Solutions\' professional credentials and business listings. Trusted Oklahoma process server with established online presence across major business directories and legal platforms.',
   keywords: 'process server verification oklahoma, just legal solutions directory, business verification tulsa, professional process server credentials, oklahoma legal services verification',
   robots: {
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     canonical: 'https://justlegalsolutions.org/backlinks'
   },
   openGraph: {
-    title: 'Professional Process Server Directory & Business Verification | Just Legal Solutions',
+    title: 'Professional Process Server Directory & Business Verification',
     description: 'Verify Just Legal Solutions professional credentials and business listings. Trusted Oklahoma process server with established online presence.',
     url: 'https://justlegalsolutions.org/backlinks',
     siteName: 'Just Legal Solutions',

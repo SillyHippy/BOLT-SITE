@@ -11,7 +11,7 @@ import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Jenks Legal Papers Service | Divorce & Court Documents | Just Legal Solutions',
+  title: 'Jenks Legal Papers Service | Divorce & Court Documents',
   description: getPromoDescription(
     'Jenks process server—delivering divorce papers, family law documents, and court notices across Jenks schools, neighborhoods, and businesses. Rely on our local knowledge and 24/7 service for secure, prompt delivery.',
     '30% OFF for Jenks residents! Process server delivering divorce papers, family law documents, and court notices across Jenks schools, neighborhoods, and businesses. Local knowledge and 24/7 service for secure, prompt delivery.'

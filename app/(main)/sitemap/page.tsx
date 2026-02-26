@@ -7,14 +7,14 @@ import { MapPin, FileText, BookOpen, Scale, Phone, Briefcase, ClipboardList, Arr
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
-  title: 'Sitemap | Just Legal Solutions — Oklahoma Process Serving',
+  title: 'Sitemap',
   description: 'Find every page on Just Legal Solutions. Browse our services, service areas, guides, tools, and resources for Oklahoma process serving.',
   robots: 'index, follow',
   alternates: {
     canonical: 'https://justlegalsolutions.org/sitemap'
   },
   openGraph: {
-    title: 'Sitemap | Just Legal Solutions — Oklahoma Process Serving',
+    title: 'Sitemap',
     description: 'Find every page on Just Legal Solutions. Browse our services, service areas, guides, tools, and resources for Oklahoma process serving.',
     url: 'https://justlegalsolutions.org/sitemap',
     siteName: 'Just Legal Solutions',
@@ -43,12 +43,12 @@ const sections: SitemapSection[] = [
     links: [
       { url: '/', label: 'Home' },
       { url: '/about', label: 'About Us' },
-      { url: '/services', label: 'Our Services' },
+      { url: '/pricing', label: 'Our Services' },
       { url: '/pricing', label: 'Pricing' },
       { url: '/contact', label: 'Contact Us' },
       { url: '/payments', label: 'Make a Payment' },
       { url: '/why-choose-us', label: 'Why Choose Us' },
-      { url: '/faq', label: 'Frequently Asked Questions' },
+      { url: '/ultimate-guide-process-serving-oklahoma', label: 'Frequently Asked Questions' },
       { url: '/leave-review', label: 'Leave a Review' },
       { url: '/card', label: 'Digital Business Card' },
     ],
@@ -108,7 +108,7 @@ const sections: SitemapSection[] = [
       { url: '/service-areas/pawhuska', label: 'Pawhuska' },
       { url: '/service-areas/pryor', label: 'Pryor' },
       { url: '/counties/nowata-county', label: 'Nowata' },
-      { url: '/seo/process-server-vinita', label: 'Vinita' },
+      { url: '/service-areas/vinita', label: 'Vinita' },
     ],
   },
   {
@@ -136,9 +136,9 @@ const sections: SitemapSection[] = [
       { url: '/process-server-tulsa-guide', label: 'Process Server Tulsa Guide' },
       { url: '/oklahoma-process-server-authority', label: 'Oklahoma Process Server Authority & Regulations' },
       { url: '/oklahoma-process-server-laws', label: 'Oklahoma Process Server Laws' },
-      { url: '/oklahoma-vs-texas-process-server', label: 'Oklahoma vs Texas — Process Server Comparison' },
+      { url: '/oklahoma-process-server-laws', label: 'Oklahoma vs Texas — Process Server Comparison' },
       { url: '/serving-legal-papers-on-tribal-land', label: 'Serving Legal Papers on Tribal Land' },
-      { url: '/oklahoma-process-server-best-practices-checklist-2025', label: 'Best Practices Checklist 2025' },
+      { url: '/oklahoma-process-server-best-practices-checklist-2026', label: 'Best Practices Checklist 2025' },
       { url: '/oklahoma-process-server-best-practices-checklist-2026', label: 'Best Practices Checklist 2026' },
       { url: '/oklahoma-legal-service-areas', label: 'Oklahoma Legal Service Areas' },
       { url: '/oklahoma-electronic-service-guide', label: 'Electronic Service Guide' },

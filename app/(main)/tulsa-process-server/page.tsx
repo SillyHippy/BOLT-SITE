@@ -24,7 +24,7 @@ import { Metadata } from 'next';
 
 // Enhanced SEO Metadata combining all Tulsa pages
 export const metadata: Metadata = {
-  title: 'Tulsa Process Server - Comprehensive Legal Document Service | Just Legal Solutions',
+  title: 'Tulsa Process Server - Comprehensive Legal Document Service',
   description: 'Premier process server in Tulsa, Oklahoma - serving Tulsa County with same-day legal document delivery. Licensed, bonded & insured. Serving downtown Tulsa, Midtown, Brookside, and all surrounding areas. 24/7 emergency service available.',
   keywords: 'process server tulsa, tulsa process server, legal document service tulsa, serve papers tulsa, court documents tulsa, subpoena service tulsa, eviction notice tulsa, emergency process server tulsa, 24/7 process server oklahoma, licensed process server tulsa county, comprehensive process server tulsa, tulsa county legal services, certified process server tulsa, professional process server tulsa',
   other: {
@@ -365,7 +365,7 @@ export default function TulsaProcessServerPage() {
             <Card className="border-l-4 border-l-purple-500">
               <CardContent className="p-6">
                 <h3 className="font-bold text-lg mb-3 text-purple-800">Family Law Documents</h3>
-                <p className="text-gray-700">Handling sensitive papers like <Link href="/family-law-service-guide-tulsa-2025" className="text-purple-600 hover:underline">divorce petitions and child custody orders</Link> with care and discretion throughout <Link href="/counties/tulsa-county" className="text-purple-600 hover:underline">Tulsa County</Link>.</p>
+                <p className="text-gray-700">Handling sensitive papers like <Link href="/family-law-service-guide-tulsa" className="text-purple-600 hover:underline">divorce petitions and child custody orders</Link> with care and discretion throughout <Link href="/counties/tulsa-county" className="text-purple-600 hover:underline">Tulsa County</Link>.</p>
               </CardContent>
             </Card>
             <Card className="border-l-4 border-l-red-500">
@@ -742,7 +742,7 @@ export default function TulsaProcessServerPage() {
                   </div>
                   <div className="flex-1">
                     <h3 className="text-lg font-bold text-gray-900 mb-3">What legal documents can you serve?</h3>
-                    <p className="text-gray-700 leading-relaxed">We serve all types of legal documents including summons, complaints, subpoenas, <Link href="/seo/eviction-notice-process-server" className="text-red-600 hover:text-red-800 underline font-medium">eviction notices</Link>, and <Link href="/family-law-service-guide-tulsa-2025" className="text-purple-600 hover:text-purple-800 underline font-medium">family law documents</Link> like divorce papers and child support petitions. We also provide <Link href="/courier-services-tulsa" className="text-blue-600 hover:text-blue-800 underline font-medium">legal courier services</Link> throughout Tulsa County.</p>
+                    <p className="text-gray-700 leading-relaxed">We serve all types of legal documents including summons, complaints, subpoenas, <Link href="/seo/eviction-notice-process-server" className="text-red-600 hover:text-red-800 underline font-medium">eviction notices</Link>, and <Link href="/family-law-service-guide-tulsa" className="text-purple-600 hover:text-purple-800 underline font-medium">family law documents</Link> like divorce papers and child support petitions. We also provide <Link href="/courier-services-tulsa" className="text-blue-600 hover:text-blue-800 underline font-medium">legal courier services</Link> throughout Tulsa County.</p>
                   </div>
                 </div>
               </div>

@@ -11,7 +11,7 @@ import FAQAccordion from '@/components/ui/faq-accordion';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Bixby Process Serving | Civil & Family Court Documents | Just Legal Solutions',
+  title: 'Bixby Process Serving | Civil & Family Court Documents',
   description: getPromoDescription(
     'Bixby\'s process server—handling court documents, family law, and urgent legal delivery for neighborhoods, schools, and businesses. Fast, licensed, and reliable with same-day and after-hours service.',
     '30% OFF for Bixby residents! Professional process server handling court documents, family law, and urgent legal delivery for neighborhoods, schools, and businesses. Fast, licensed, and reliable with same-day service.'

@@ -7,7 +7,7 @@ import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Bartlesville Process Server | Legal Document Service | Just Legal Solutions',
+  title: 'Bartlesville Process Server | Legal Document Service',
   description: 'Bartlesville’s legal document service for Washington County—serving historic neighborhoods, oil industry offices, and family homes. Rely on our local experience for prompt, discreet, and professional process serving.',
   keywords: 'process server bartlesville, legal document service bartlesville, serve papers bartlesville, court documents bartlesville, subpoena service bartlesville, eviction notice bartlesville, licensed process server oklahoma, professional process server tulsa county',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],

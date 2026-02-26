@@ -7,7 +7,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Pawhuska Tribal Court & Skiatook Civil Litigation Support | Osage County | Just Legal Solutions',
+  title: 'Pawhuska Tribal Court & Skiatook Civil Litigation Support | Osage County',
   description: 'Osage County’s process server—serving Pawhuska, Skiatook, Hominy, and all tribal and rural communities. Local expertise for legal document delivery, court papers, and urgent legal needs.',
   keywords: 'process server Osage County, legal document service Osage County, court papers Oklahoma, Pawhuska courthouse, process serving Pawhuska Skiatook, skip tracing Osage County',
   openGraph: {

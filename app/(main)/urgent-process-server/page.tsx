@@ -6,7 +6,7 @@ import { Footer } from '@/components/ui/footer';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
-  title: 'Fastest Way to Serve Papers in Oklahoma 2026 | Same-Day & 2-Hour Emergency | Just Legal Solutions',
+  title: 'Fastest Way to Serve Papers in Oklahoma 2026 | Same-Day & 2-Hour Emergency',
   description: 'The fastest way to serve papers in Oklahoma is hiring a licensed process server with same-day delivery. Just Legal Solutions offers 2-hour emergency service starting at $265. Available 24/7 across all 77 counties.',
   keywords: ['fastest way to serve papers', 'urgent process server tulsa', 'same day process serving', 'emergency document delivery', 'fast process server oklahoma', '2 hour process serving', 'emergency court papers', 'rush legal documents tulsa', 'how to serve papers fast oklahoma'],
   authors: [{ name: 'Just Legal Solutions' }],
@@ -351,7 +351,7 @@ const UrgentProcessServerPage = () => {
               <div className="bg-red-50 border border-red-200 p-5 rounded-lg text-center">
                 <div className="text-3xl mb-2">&#x1F4C4;</div>
                 <h3 className="font-bold mb-2">Divorce &amp; Custody Papers</h3>
-                <p className="text-sm text-gray-600">Serve <Link href="/family-law-service-guide-tulsa-2025" className="text-blue-600 hover:underline">family law documents</Link> before hearing dates with same-day delivery.</p>
+                <p className="text-sm text-gray-600">Serve <Link href="/family-law-service-guide-tulsa" className="text-blue-600 hover:underline">family law documents</Link> before hearing dates with same-day delivery.</p>
               </div>
               <div className="bg-red-50 border border-red-200 p-5 rounded-lg text-center">
                 <div className="text-3xl mb-2">&#x1F4CB;</div>
@@ -520,7 +520,7 @@ const UrgentProcessServerPage = () => {
                 <h3 className="font-semibold text-blue-800">Weekend &amp; Emergency Service</h3>
                 <p className="text-sm text-gray-600 mt-1">24/7 emergency process serving availability</p>
               </Link>
-              <Link href="/family-law-service-guide-tulsa-2025" className="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
+              <Link href="/family-law-service-guide-tulsa" className="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
                 <h3 className="font-semibold text-blue-800">Family Law Service Guide</h3>
                 <p className="text-sm text-gray-600 mt-1">Divorce, custody &amp; family law document delivery</p>
               </Link>

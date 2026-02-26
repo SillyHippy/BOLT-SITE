@@ -99,7 +99,7 @@ export default function OklahomaProcessServerPricing2026() {
         dateModified="2026-01-25"
         breadcrumbs={[
           { name: 'Home', item: '/' },
-          { name: 'Services', item: '/services' },
+          { name: 'Services', item: '/pricing' },
           { name: 'Pricing Guide', item: '/oklahoma-process-server-pricing' }
         ]}
         faqItems={pricingFaqs}
@@ -174,7 +174,7 @@ export default function OklahomaProcessServerPricing2026() {
             </li>
             <li className="text-gray-400">/</li>
             <li>
-              <a href="/services" className="text-blue-600 hover:underline">Services</a>
+              <a href="/pricing" className="text-blue-600 hover:underline">Services</a>
             </li>
             <li className="text-gray-400">/</li>
             <li>

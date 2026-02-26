@@ -208,9 +208,9 @@ export default function ContactPage() {
           
           {/* Quick Links */}
           <nav className="mb-8 flex flex-wrap justify-center gap-3 md:gap-6">
-            <a href="/services" className="text-blue-600 hover:text-blue-800 font-medium transition-colors">Our Services</a>
+            <a href="/pricing" className="text-blue-600 hover:text-blue-800 font-medium transition-colors">Our Services</a>
             <a href="/pricing" className="text-blue-600 hover:text-blue-800 font-medium transition-colors">Pricing</a>
-            <a href="/faq" className="text-blue-600 hover:text-blue-800 font-medium transition-colors">FAQ</a>
+            <a href="/ultimate-guide-process-serving-oklahoma" className="text-blue-600 hover:text-blue-800 font-medium transition-colors">FAQ</a>
             <a href="/about" className="text-blue-600 hover:text-blue-800 font-medium transition-colors">About Us</a>
             <a href="/service-areas" className="text-blue-600 hover:text-blue-800 font-medium transition-colors">Service Areas</a>
           </nav>
@@ -228,7 +228,7 @@ export default function ContactPage() {
             <p className="text-center text-sm text-gray-500">— Sarah T., Tulsa</p>
           </div>
           <div className="mb-6 flex flex-wrap justify-center gap-3">
-            <a href="/services" className="inline-flex items-center gap-2 bg-blue-700 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-blue-800 hover:scale-105 transition-all duration-300 font-semibold">
+            <a href="/pricing" className="inline-flex items-center gap-2 bg-blue-700 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-blue-800 hover:scale-105 transition-all duration-300 font-semibold">
               <ArrowRight className="w-4 h-4" />
               Request Service
             </a>

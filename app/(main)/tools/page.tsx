@@ -5,7 +5,7 @@ import UnifiedSchema from '@/components/UnifiedSchema';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Free Process Server Tools & Forms | Affidavits, Field Sheets, PDF Tools | Just Legal Solutions',
+  title: 'Free Process Server Tools & Forms | Affidavits, Field Sheets, PDF Tools',
   description: 'Free tools and forms for process servers and legal professionals—Affidavit of Service generator, field sheet creator, 14+ PDF tools, and more. No subscriptions required.',
   keywords: [
     'free process server tools',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   category: 'Legal Tools',
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
-    title: 'Free Process Server Tools & Forms | Just Legal Solutions',
+    title: 'Free Process Server Tools & Forms',
     description: 'Free tools for process servers—generate affidavits, field sheets, merge/compress/convert PDFs, and more. No subscriptions or sign-ups required.',
     type: 'website',
     locale: 'en_US',

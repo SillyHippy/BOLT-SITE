@@ -10,7 +10,7 @@ import UnifiedSchema from '@/components/UnifiedSchema';
 import AIVoiceSupremacy from '@/components/ui/ai-voice-supremacy';
 
 export const metadata: Metadata = {
-  title: 'Ultimate Guide to Process Serving in Oklahoma 2026 | Licensed & Bonded | Just Legal Solutions',
+  title: 'Ultimate Guide to Process Serving in Oklahoma 2026 | Licensed & Bonded',
   description: 'Complete 2026 guide to Oklahoma process serving. Licensed professionals serving all 77 counties. Same-day service available. $79-225. Updated costs, gig platforms & renewal info.',
   keywords: [
     'oklahoma process serving guide',

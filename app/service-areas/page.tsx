@@ -124,11 +124,11 @@ const faqSchema = {
 };
 
 export const metadata: Metadata = {
-  title: 'Oklahoma Process Server | All 77 Counties | Just Legal Solutions',
+  title: 'Oklahoma Process Server | All 77 Counties',
   description: 'Professional process server serving all 77 Oklahoma counties. Statewide coverage with same-day service available. Licensed, bonded, insured. Call (539) 367-6832.',
   keywords: 'process server Oklahoma, statewide process serving, Oklahoma process serving, legal document service Oklahoma, court papers Oklahoma counties, skip tracing Oklahoma',
   openGraph: {
-    title: 'Process Server Service Areas Oklahoma | Statewide Coverage | Just Legal Solutions',
+    title: 'Process Server Service Areas Oklahoma | Statewide Coverage',
     description: 'Professional process server serving statewide throughout all of Oklahoma. Complete county coverage with same-day service available.',
     url: 'https://justlegalsolutions.org/service-areas',
     siteName: 'Just Legal Solutions',

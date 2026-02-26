@@ -1,13 +1,13 @@
 import React from 'react';
 
 export const metadata = {
-  title: 'SEO Dashboard | Just Legal Solutions',
+  title: 'SEO Dashboard',
   description: 'SEO dashboard and analytics for Just Legal Solutions. Track your legal service SEO performance and structured data health.',
   alternates: {
     canonical: 'https://justlegalsolutions.org/seo-dashboard',
   },
   openGraph: {
-    title: 'SEO Dashboard | Just Legal Solutions',
+    title: 'SEO Dashboard',
     description: 'SEO dashboard and analytics for Just Legal Solutions. Track your legal service SEO performance and structured data health.',
     url: 'https://justlegalsolutions.org/seo-dashboard',
     siteName: 'Just Legal Solutions',

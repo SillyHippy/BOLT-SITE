@@ -8,7 +8,7 @@ import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Nowata Process Server | Nowata County Court Papers & Subpoenas | Just Legal Solutions',
+  title: 'Nowata Process Server | Nowata County Court Papers & Subpoenas',
   description: 'Dependable process server in Nowata, Oklahoma covering all of Nowata County. We deliver divorce papers, subpoenas, eviction notices, and emergency court documents with GPS-tracked proof of service.',
   keywords: 'process server nowata, nowata process server, legal document service nowata, serve papers nowata, court documents nowata, subpoena service nowata, eviction notice nowata, emergency process server nowata, nowata county process server, licensed process server nowata county, professional process server nowata oklahoma',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],

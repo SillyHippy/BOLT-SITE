@@ -8,7 +8,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Wagoner & Coweta Legal Papers Service | Court Document Delivery Oklahoma | Just Legal Solutions',
+  title: 'Wagoner & Coweta Legal Papers Service | Court Document Delivery Oklahoma',
   description: 'Wagoner County’s process server—serving Wagoner, Coweta, Porter, and all rural communities. Fast, local legal document delivery for families, businesses, and attorneys.',
   keywords: 'process server Wagoner County, legal document service Wagoner County, court papers Oklahoma, Wagoner courthouse, process serving Wagoner Coweta, skip tracing Wagoner County',
   openGraph: {

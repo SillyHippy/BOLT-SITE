@@ -9,7 +9,7 @@ import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Broken Arrow Process Server | Legal Document Service 2026 | Just Legal Solutions',
+  title: 'Broken Arrow Process Server | Legal Document Service 2026',
   description: 'Professional Broken Arrow process server delivering legal documents, subpoenas, and court papers throughout Rose District, Forest Ridge, and all Broken Arrow neighborhoods. Licensed in both Tulsa & Wagoner Counties with same-day emergency service available.',
   keywords: 'process server broken arrow, broken arrow process server, legal document service broken arrow, serve papers broken arrow, court documents broken arrow, subpoena service broken arrow, eviction notice broken arrow, emergency process server broken arrow, 24/7 process server oklahoma, licensed process server tulsa county, wagoner county process server, professional process server broken arrow 2026',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],

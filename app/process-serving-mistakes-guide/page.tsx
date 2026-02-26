@@ -7,12 +7,12 @@ import JsonLd from '../../components/JsonLd';
 const canonicalUrl = 'https://justlegalsolutions.org/process-serving-mistakes-guide';
 
 export const metadata: Metadata = {
-  title: 'Top 10 Process Serving Mistakes That Can Cost You Your Case | Just Legal Solutions',
+  title: 'Top 10 Process Serving Mistakes That Can Cost You Your Case',
   description: 'Avoid costly process serving errors in Oklahoma. Learn the top 10 mistakes that invalidate service and jeopardize your legal case in 2026.',
   keywords: 'process serving mistakes, Oklahoma process server, service errors, legal case,  2026, checklist',
   authors: [{ name: 'Just Legal Solutions Team' }],
   openGraph: {
-    title: 'Top 10 Process Serving Mistakes That Can Cost You Your Case | Just Legal Solutions',
+    title: 'Top 10 Process Serving Mistakes That Can Cost You Your Case',
     description: 'Avoid costly process serving errors in Oklahoma. Learn the top 10 mistakes that invalidate service and jeopardize your legal case in 2026.',
     url: canonicalUrl,
     siteName: 'Just Legal Solutions',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Top 10 Process Serving Mistakes That Can Cost You Your Case | Just Legal Solutions',
+    title: 'Top 10 Process Serving Mistakes That Can Cost You Your Case',
     description: 'Avoid costly process serving errors in Oklahoma. Learn the top 10 mistakes that invalidate service and jeopardize your legal case in 2026.',
     images: ['/images/Mistake prevention checklist infographic.webp'],
     creator: '@JustLegalSolutions',

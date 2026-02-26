@@ -8,12 +8,12 @@ import JsonLd from '../../components/JsonLd';
 const canonicalUrl = 'https://justlegalsolutions.org/high-profile-service-protocols-tulsa';
 
 export const metadata: Metadata = {
-  title: 'High-Profile Service Protocols (Updated 2026) | Just Legal Solutions',
+  title: 'High-Profile Service Protocols (Updated 2026)',
   description: 'Expert strategies for serving high-profile defendants in Tulsa with enhanced privacy protocols, security measures, and legal compliance. Updated for 2026.',
   keywords: 'high-profile service, Tulsa process server, privacy protocols, security, legal compliance,  2026',
   authors: [{ name: 'Just Legal Solutions Team' }],
   openGraph: {
-    title: 'High-Profile Service Protocols | Just Legal Solutions',
+    title: 'High-Profile Service Protocols',
     description: 'Expert strategies for serving high-profile defendants in Tulsa with enhanced privacy protocols, security measures, and legal compliance in 2026.',
     url: canonicalUrl,
     siteName: 'Just Legal Solutions',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'High-Profile Service Protocols | Just Legal Solutions',
+    title: 'High-Profile Service Protocols',
     description: 'Expert strategies for serving high-profile defendants in Tulsa with enhanced privacy protocols, security measures, and legal compliance in 2026.',
     images: ['/images/Process server at gated community entrance.png'],
     creator: '@JustLegalSolutions',

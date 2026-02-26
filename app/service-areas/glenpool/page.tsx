@@ -10,7 +10,7 @@ import Footer from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Glenpool Process Server | Legal Document Service | Just Legal Solutions',
+  title: 'Glenpool Process Server | Legal Document Service',
   description: getPromoDescription(
     'Glenpool\'s legal document service—serving families, businesses, and oil industry professionals. We cover Lake Glenpool, downtown, and all neighborhoods with fast, accurate, and locally informed process serving.',
     '30% OFF for Glenpool residents! Legal document service serving families, businesses, and oil industry professionals. We cover Lake Glenpool, downtown, and all neighborhoods with fast, accurate, and locally informed process serving.'

@@ -33,7 +33,7 @@ locations.forEach(location => {
   const pageContent = `import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Process Server ${location.city} | Professional Document Delivery | Just Legal Solutions',
+  title: 'Process Server ${location.city} | Professional Document Delivery',
   description: 'Certified process server in ${location.city}, ${location.county}. Fast, reliable legal document delivery. Licensed and bonded. Call (539) 367-6832 for same-day service in ${location.zip}.',
   keywords: ['process server ${location.city}', '${location.city} process serving', 'legal document delivery ${location.city}', 'court documents ${location.county}', '${location.zip} process server'],
   robots: 'index, follow'

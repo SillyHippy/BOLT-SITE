@@ -3,11 +3,11 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Law Firm Process Serving | Volume Discounts | Just Legal Solutions',
+  title: 'Law Firm Process Serving | Volume Discounts',
   description: 'Oklahoma law firm process serving with flat-rate statewide pricing, volume discounts for high-frequency firms, priority scheduling, monthly invoicing, and court-ready affidavits. Call (539) 367-6832.',
   keywords: 'law firm process server Oklahoma, Tulsa law firm process serving, attorney process serving, litigation support for law firms, outsourced process serving for law firms, volume discount process serving, corporate legal services Oklahoma',
   openGraph: {
-    title: 'Law Firm Process Serving Partnership | Just Legal Solutions',
+    title: 'Law Firm Process Serving Partnership',
     description: 'Exclusive process serving services for Oklahoma law firms with flat-rate pricing, priority scheduling, and volume discounts.',
     url: 'https://justlegalsolutions.org/law-firm-services',
     type: 'website',

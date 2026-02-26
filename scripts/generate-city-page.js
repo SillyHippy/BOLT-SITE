@@ -326,7 +326,7 @@ export default function ${city.name.replace(/\s+/g, '')}ProcessServer() {
                 </a>
                 <div className="space-x-4">
                   <a 
-                    href="/services" 
+                    href="/pricing" 
                     className="text-green-600 hover:text-green-700 underline font-medium"
                   >
                     View All Services

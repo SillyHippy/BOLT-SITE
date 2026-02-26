@@ -5,7 +5,7 @@ import UnifiedSchema from '@/components/UnifiedSchema';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Oklahoma Process Serving Resources & Legal Guides | Just Legal Solutions',
+  title: 'Oklahoma Process Serving Resources & Legal Guides',
   description: 'Oklahoma process serving resources—legal guides, FAQs, and expert advice for court filing and document delivery in Tulsa County and across Oklahoma.',
   keywords: ['legal resources oklahoma', 'oklahoma process server guides', 'tulsa document delivery faqs', 'court papers info', 'legal guides tulsa', 'oklahoma civil procedure', 'tulsa county court rules', 'process server training oklahoma'],
   authors: [{ name: 'Just Legal Solutions' }],
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   category: 'Legal Services',
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
-    title: 'Oklahoma Process Serving Resources & Legal Guides | Just Legal Solutions',
+    title: 'Oklahoma Process Serving Resources & Legal Guides',
     description: 'Comprehensive legal resources, guides, and FAQs for Oklahoma process serving, court filing, and legal document delivery. Expert guidance for Tulsa County and statewide Oklahoma.',
     type: 'website',
     locale: 'en_US',
@@ -86,7 +86,7 @@ const ResourcesPage = () => {
     },
     {
       title: "Family Law Service Guide — Tulsa 2025",
-      url: "/family-law-service-guide-tulsa-2025",
+      url: "/family-law-service-guide-tulsa",
       preview: "Updated guide covering protective orders, divorce filings, and custody document service in Tulsa County. Includes EPO procedures (served by law enforcement under 22 O.S. § 60.4) and permanent order service protocols."
     },
     {
@@ -134,7 +134,7 @@ const ResourcesPage = () => {
     },
     {
       title: "Oklahoma vs. Texas Process Serving",
-      url: "/oklahoma-vs-texas-process-server",
+      url: "/oklahoma-process-server-laws",
       preview: "Key differences in process serving laws between Oklahoma and Texas—useful for cross-border litigation or attorneys practicing in both states."
     },
     {
@@ -340,7 +340,7 @@ const ResourcesPage = () => {
             <Link href="/service-areas" className="bg-white p-3 rounded-lg text-blue-700 font-medium hover:bg-blue-100 transition text-center">All 77 Counties</Link>
             <Link href="/oklahoma-process-server-faq-2026" className="bg-white p-3 rounded-lg text-blue-700 font-medium hover:bg-blue-100 transition text-center">Process Server FAQ</Link>
             <Link href="/oklahoma-process-server-laws" className="bg-white p-3 rounded-lg text-blue-700 font-medium hover:bg-blue-100 transition text-center">Oklahoma Process Serving Laws</Link>
-            <Link href="/family-law-service-guide-tulsa-2025" className="bg-white p-3 rounded-lg text-blue-700 font-medium hover:bg-blue-100 transition text-center">Family Law Service in Tulsa</Link>
+            <Link href="/family-law-service-guide-tulsa" className="bg-white p-3 rounded-lg text-blue-700 font-medium hover:bg-blue-100 transition text-center">Family Law Service in Tulsa</Link>
           </div>
         </section>
 

@@ -6,14 +6,14 @@ import Link from 'next/link';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
-  title: 'About Us - The Fight That Forged a Business | Just Legal Solutions',
+  title: 'About Us - The Fight That Forged a Business',
   description: "Learn how a 5-year legal battle inspired Just Legal Solutions, Oklahoma's premier process serving company. Founded by Joseph Iannazzi after experiencing systemic failure in workers' compensation.",
   keywords: 'about us, just legal solutions, joseph iannazzi, process server oklahoma, legal battle, workers compensation, tulsa process server',
   alternates: {
     canonical: 'https://justlegalsolutions.org/about'
   },
   openGraph: {
-    title: 'About Us - The Fight That Forged a Business | Just Legal Solutions',
+    title: 'About Us - The Fight That Forged a Business',
     description: "Learn how a 5-year legal battle inspired Just Legal Solutions, Oklahoma's premier process serving company. Founded by Joseph Iannazzi after experiencing systemic failure in workers' compensation.",
     url: 'https://justlegalsolutions.org/about',
     type: 'article',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'About Us - The Fight That Forged a Business | Just Legal Solutions',
+    title: 'About Us - The Fight That Forged a Business',
     description: "Learn how a 5-year legal battle inspired Just Legal Solutions, Oklahoma's premier process serving company. Founded by Joseph Iannazzi after experiencing systemic failure in workers' compensation.",
     images: ['https://justlegalsolutions.org/images/Headshot.jpg']
   }

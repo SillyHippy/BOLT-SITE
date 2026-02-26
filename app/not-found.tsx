@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Page Not Found | Just Legal Solutions',
+  title: 'Page Not Found',
   robots: {
     index: false,
     follow: false,

@@ -7,12 +7,12 @@ import JsonLd from '../../components/JsonLd';
 const canonicalUrl = 'https://justlegalsolutions.org/family-law-service-guide-tulsa';
 
 export const metadata: Metadata = {
-  title: 'Family Law Service Guide Tulsa (Updated 2026) | Just Legal Solutions',
+  title: 'Family Law Service Guide Tulsa (Updated 2026)',
   description: 'Expert guide to serving protective orders and divorce papers in Tulsa County. Current family law service requirements, safety protocols, and procedures for 2026.',
   keywords: 'family law service, Tulsa County, protective orders, divorce papers, process server, Oklahoma,  2026',
   authors: [{ name: 'Just Legal Solutions Team' }],
   openGraph: {
-    title: 'Family Law Service Guide Tulsa 2026 | Just Legal Solutions',
+    title: 'Family Law Service Guide Tulsa 2026',
     description: 'Expert guide to serving protective orders and divorce papers in Tulsa County. 2026 family law service requirements, safety protocols, and procedures.',
     url: canonicalUrl,
     siteName: 'Just Legal Solutions',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Family Law Service Guide Tulsa 2026 | Just Legal Solutions',
+    title: 'Family Law Service Guide Tulsa 2026',
     description: 'Expert guide to serving protective orders and divorce papers in Tulsa County. 2026 family law service requirements, safety protocols, and procedures.',
     images: ['/images/tulsa-county-courthouse.jpeg'],
     creator: '@JustLegalSolutions',
@@ -159,7 +159,7 @@ export default function FamilyLawServiceGuideTulsa() {
               <ul className="list-disc ml-6 space-y-1">
                 <li><a href="/oklahoma-process-server-laws" className="text-blue-700 underline">Oklahoma Process Server Laws</a></li>
                 <li><a href="/oklahoma-process-server-best-practices-checklist-2026" className="text-blue-700 underline">Best Practices Checklist 2026</a></li>
-                <li><a href="/oklahoma-electronic-service-guide-2025" className="text-blue-700 underline">Oklahoma Electronic Service Guide</a></li>
+                <li><a href="/oklahoma-electronic-service-guide" className="text-blue-700 underline">Oklahoma Electronic Service Guide</a></li>
                 <li><a href="/oklahoma-case-law-service-process" className="text-blue-700 underline">Oklahoma Case Law on Service</a></li>
               </ul>
             </div>

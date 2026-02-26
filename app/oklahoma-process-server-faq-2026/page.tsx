@@ -10,7 +10,7 @@ import AIVoiceSupremacy from '../../components/ui/ai-voice-supremacy';
 const canonicalUrl = 'https://justlegalsolutions.org/oklahoma-process-server-faq-2026';
 
 export const metadata: Metadata = {
-  title: 'Oklahoma Process Server FAQ 2026 | Just Legal Solutions',
+  title: 'Oklahoma Process Server FAQ 2026',
   description: 'Get 2026 Oklahoma process server FAQ answers on costs, timelines, licensing, electronic service, and legal requirements from licensed Tulsa-based professionals at Just Legal Solutions.',
   keywords: 'Oklahoma process server FAQ 2026, Tulsa process server, Oklahoma legal document service, process serving questions, Oklahoma court procedures, process server costs, 2026 requirements for process servers in Oklahoma',
   authors: [{ name: 'Just Legal Solutions Team' }],
@@ -266,7 +266,7 @@ const faqCategories = [
           }
         ],
         note: "Professional servers ensure compliance with 12 O.S. § 2004 regarding the manner of service for each document type.",
-        link: { text: "Learn about family law service in Tulsa", href: "/family-law-service-guide-tulsa-2025" }
+        link: { text: "Learn about family law service in Tulsa", href: "/family-law-service-guide-tulsa" }
       }
     ]
   },
@@ -755,7 +755,7 @@ export default function OklahomaProcessServerFAQ2026() {
                   Specialized Services
                 </h3>
                 <ul className="space-y-3">
-                  <li><Link href="/family-law-service-guide-tulsa-2025" className="text-blue-600 hover:underline">Family Law Service Guide — Tulsa</Link></li>
+                  <li><Link href="/family-law-service-guide-tulsa" className="text-blue-600 hover:underline">Family Law Service Guide — Tulsa</Link></li>
                   <li><Link href="/oklahoma-electronic-service-guide" className="text-blue-600 hover:underline">Oklahoma Electronic Service Guide</Link></li>
                   <li><Link href="/serving-legal-papers-on-tribal-land" className="text-blue-600 hover:underline">Serving Papers on Tribal Land</Link></li>
                   <li><Link href="/weekend-emergency" className="text-blue-600 hover:underline">Weekend & Emergency Service</Link></li>

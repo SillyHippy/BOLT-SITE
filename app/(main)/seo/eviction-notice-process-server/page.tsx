@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     canonical: 'https://justlegalsolutions.org/seo/eviction-notice-process-server',
   },
   openGraph: {
-    title: 'Eviction Notice Process Server for Tulsa County | Just Legal Solutions',
+    title: 'Eviction Notice Process Server for Tulsa County',
     description:
       'Fast, compliant eviction notice service for Tulsa County landlords, property managers, and attorneys. Same-day attempts, documented proof of service, and experienced Oklahoma process servers.',
     url: 'https://justlegalsolutions.org/seo/eviction-notice-process-server',
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Eviction Notice Process Server for Tulsa County | Just Legal Solutions',
+    title: 'Eviction Notice Process Server for Tulsa County',
     description:
       'Fast, compliant eviction notice service for Tulsa County landlords, property managers, and attorneys.',
     images: ['https://justlegalsolutions.org/images/jls-logo.webp'],

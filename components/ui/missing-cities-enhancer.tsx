@@ -168,7 +168,7 @@ export default function MissingCityPage({
               </a>
               <div>
                 <a 
-                  href="/services" 
+                  href="/pricing" 
                   className="text-green-600 hover:text-green-700 underline font-medium"
                 >
                   View All Services

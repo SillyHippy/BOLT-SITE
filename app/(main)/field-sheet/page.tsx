@@ -4,7 +4,7 @@ import FieldSheet from '@/components/FieldSheet';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
-  title: 'Field Sheet Generator | Just Legal Solutions',
+  title: 'Field Sheet Generator',
   description:
     'Generate and print professional process server field sheets for Oklahoma service of process. Fill in case details, service locations, and field notes — then print or save as PDF.',
   keywords: [
@@ -20,13 +20,21 @@ export const metadata: Metadata = {
     canonical: 'https://justlegalsolutions.org/field-sheet',
   },
   openGraph: {
-    title: 'Field Sheet Generator | Just Legal Solutions',
+    title: 'Field Sheet Generator',
     description:
       'Professional field sheet generator for Oklahoma process servers. Fill, print, or save to PDF.',
     type: 'website',
     locale: 'en_US',
     url: 'https://justlegalsolutions.org/field-sheet',
     siteName: 'Just Legal Solutions',
+    images: [
+      {
+        url: 'https://justlegalsolutions.org/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Field Sheet Generator - Just Legal Solutions',
+      },
+    ],
   },
 };
 

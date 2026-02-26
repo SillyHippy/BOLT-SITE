@@ -454,7 +454,7 @@ export default function CourierServicesTulsaPage() {
                 <h3 className="font-semibold text-blue-800">Oklahoma Process Server Laws</h3>
                 <p className="text-sm text-gray-600 mt-1">Legal requirements for serving documents in Oklahoma</p>
               </Link>
-              <Link href="/family-law-service-guide-tulsa-2025" className="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
+              <Link href="/family-law-service-guide-tulsa" className="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
                 <h3 className="font-semibold text-blue-800">Family Law Service Guide</h3>
                 <p className="text-sm text-gray-600 mt-1">Divorce, custody &amp; family law document delivery</p>
               </Link>

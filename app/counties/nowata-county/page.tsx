@@ -8,7 +8,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Nowata County Process Server | Nowata Legal Document Delivery | Just Legal Solutions',
+  title: 'Nowata County Process Server | Nowata Legal Document Delivery',
   description: 'Nowata County\'s trusted process server—serving Nowata, Delaware, Wann, and Lenapah with fast, licensed legal document delivery. Local expertise for court papers, evictions, and urgent legal needs.',
   keywords: 'process server Nowata County, legal document service Nowata County, court papers Oklahoma, Nowata courthouse, process serving Nowata, skip tracing Nowata County',
   openGraph: {

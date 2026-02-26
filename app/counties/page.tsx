@@ -6,11 +6,11 @@ import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Oklahoma Counties Process Server | All 77 Counties Covered | Just Legal Solutions',
+  title: 'Oklahoma Counties Process Server | All 77 Counties Covered',
   description: 'Professional process server covering all 77 Oklahoma counties. Complete county-by-county coverage including Tulsa, Oklahoma, Cleveland, and Comanche counties. Licensed and insured.',
   keywords: 'Oklahoma counties process server, 77 counties Oklahoma, county process serving, Tulsa County process server, Oklahoma County process server, Cleveland County process server',
   openGraph: {
-    title: 'Oklahoma Counties Process Server | All 77 Counties Covered | Just Legal Solutions',
+    title: 'Oklahoma Counties Process Server | All 77 Counties Covered',
     description: 'Professional process server covering all 77 Oklahoma counties with complete county-by-county coverage.',
     url: 'https://justlegalsolutions.org/counties',
     siteName: 'Just Legal Solutions',

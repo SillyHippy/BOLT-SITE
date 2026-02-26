@@ -6,14 +6,14 @@ import { Shield, Clock, MapPin, Zap, Smartphone, Users, CheckCircle, Star, Phone
 import AIVoiceSupremacy from '@/components/ui/ai-voice-supremacy';
 
 export const metadata = {
-  title: 'Why Choose Us | Best Oklahoma Process Server 2026 | Just Legal Solutions',
+  title: 'Why Choose Us | Best Oklahoma Process Server 2026',
   description: "Why choose Just Legal Solutions? Oklahoma's most trusted process server—fast, reliable, and professional with 24/7 support, transparent pricing, and advanced technology. Serving all 77 counties.",
   keywords: 'why choose us, best process server, oklahoma process server 2026, trusted process server tulsa, licensed bonded process server, 24/7 process server oklahoma',
   alternates: {
     canonical: 'https://justlegalsolutions.org/why-choose-us',
   },
   openGraph: {
-    title: 'Why Choose Us | Best Oklahoma Process Server 2026 | Just Legal Solutions',
+    title: 'Why Choose Us | Best Oklahoma Process Server 2026',
     description: "Oklahoma's most trusted process server—fast, reliable, and professional with 24/7 support, transparent pricing, and advanced technology.",
     url: 'https://justlegalsolutions.org/why-choose-us',
     siteName: 'Just Legal Solutions',

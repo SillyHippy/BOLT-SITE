@@ -15,7 +15,7 @@ import {
 } from "@/components/ui/carousel";
 
 export const metadata: Metadata = {
-  title: 'Tulsa County Legal Document Service | Metropolitan Process Serving | Just Legal Solutions',
+  title: 'Tulsa County Legal Document Service | Metropolitan Process Serving',
   description: 'Tulsa County’s process server—serving Tulsa, Broken Arrow, Owasso, Bixby, Jenks, Sand Springs, Glenpool, Collinsville, and all communities. Fast, local legal document delivery for every need.',
   keywords: 'process server Tulsa County, legal document service Tulsa County, court papers Oklahoma, Tulsa County courthouse, process serving Broken Arrow Owasso Bixby, skip tracing Tulsa County, licensed process server Oklahoma, process server near me Tulsa, Tulsa County process serving, legal papers delivery Tulsa, subpoena service Tulsa County, divorce papers service Tulsa, eviction notice service Oklahoma, civil litigation support Tulsa, process server 74101 74103 74104 74105 74106 74107, legal document delivery Broken Arrow, court filing Tulsa County courthouse, professional process server Oklahoma',
   openGraph: {
