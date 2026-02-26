@@ -11,7 +11,8 @@ export const metadata: Metadata = {
     title: 'Oklahoma Process Server - Professional Legal Services',
     description: 'Professional response, statewide coverage, advanced technology. Professional process serving.',
     type: 'website',
-    url: 'https://justlegalsolutions.org/platform-supremacy'
+    url: 'https://justlegalsolutions.org/platform-supremacy',
+    images: [{ url: 'https://justlegalsolutions.org/og-image.png', width: 1200, height: 630, alt: 'Just Legal Solutions - Professional Process Serving in Oklahoma' }],
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/platform-supremacy'

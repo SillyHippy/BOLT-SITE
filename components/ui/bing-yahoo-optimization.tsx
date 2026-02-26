@@ -117,7 +117,6 @@ export default function BingYahooOptimization({
         ]
       }
     ],
-    "serviceType": serviceTypes,
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://justlegalsolutions.org"

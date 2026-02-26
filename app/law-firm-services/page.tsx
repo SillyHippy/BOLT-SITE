@@ -11,6 +11,7 @@ export const metadata: Metadata = {
     description: 'Exclusive process serving services for Oklahoma law firms with flat-rate pricing, priority scheduling, and volume discounts.',
     url: 'https://justlegalsolutions.org/law-firm-services',
     type: 'website',
+    images: [{ url: 'https://justlegalsolutions.org/og-image.png', width: 1200, height: 630, alt: 'Just Legal Solutions - Professional Process Serving in Oklahoma' }],
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/law-firm-services',
@@ -175,8 +176,7 @@ export default function LawFirmServicesPage() {
               "description": "2-4 hour emergency service for Oklahoma law firms"
             }
           ]
-        },
-        "serviceType": ["Process serving for law firms", "Litigation support", "Legal document delivery for Oklahoma law firms"]
+        }
       },
       {
         "@type": "FAQPage",

@@ -14,7 +14,16 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/backlinks'
-  }
+  },
+  openGraph: {
+    title: 'Professional Process Server Directory & Business Verification | Just Legal Solutions',
+    description: 'Verify Just Legal Solutions professional credentials and business listings. Trusted Oklahoma process server with established online presence.',
+    url: 'https://justlegalsolutions.org/backlinks',
+    siteName: 'Just Legal Solutions',
+    type: 'website',
+    locale: 'en_US',
+    images: [{ url: 'https://justlegalsolutions.org/og-image.png', width: 1200, height: 630, alt: 'Just Legal Solutions - Professional Process Serving in Oklahoma' }],
+  },
 };
 
 // Internal site URLs from sitemap.xml

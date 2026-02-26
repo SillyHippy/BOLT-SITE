@@ -15,9 +15,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Complete Guide to Electronic Service in Oklahoma: 2026 E-Filing and Email Service Requirements',
     description: 'Complete 2026 guide to electronic service in Oklahoma including email service requirements, e-filing protocols, and court acceptance procedures.',
+    url: canonicalUrl,
     type: 'article',
     siteName: 'Just Legal Solutions',
-    locale: 'en_US'
+    locale: 'en_US',
+    images: [{ url: 'https://justlegalsolutions.org/og-image.png', width: 1200, height: 630, alt: 'Just Legal Solutions - Professional Process Serving in Oklahoma' }],
   },
   twitter: {
     card: 'summary_large_image',

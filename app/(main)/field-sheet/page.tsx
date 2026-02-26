@@ -15,6 +15,9 @@ export const metadata: Metadata = {
     'tulsa process server field sheet',
   ],
   robots: 'index, follow',
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/field-sheet',
+  },
   openGraph: {
     title: 'Field Sheet Generator | Just Legal Solutions',
     description:

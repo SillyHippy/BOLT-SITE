@@ -17,6 +17,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://justlegalsolutions.org/oklahoma-process-server-laws'
   },
+  openGraph: {
+    title: 'Oklahoma Process Server Laws 2026 | Rules & Requirements Guide',
+    description: 'Accurate guide to Oklahoma process serving laws (Title 12 O.S. § 2004). Explains substituted service, licensing, time limits, and service by mail rules.',
+    url: 'https://justlegalsolutions.org/oklahoma-process-server-laws',
+    siteName: 'Just Legal Solutions',
+    type: 'website',
+    locale: 'en_US',
+    images: [{ url: 'https://justlegalsolutions.org/og-image.png', width: 1200, height: 630, alt: 'Just Legal Solutions - Professional Process Serving in Oklahoma' }],
+  },
   other: {
     'ai-content-type': 'legal-guide',
     'ai-summary': 'Oklahoma process serving is governed by 12 O.S. § 2004. Service may be made by a sheriff or licensed private process server. Personal service is primary. Substituted service is permitted at the dwelling on a resident aged 15 or older; no mailing is required for this specific method. Service must typically be made within 180 days of filing.',

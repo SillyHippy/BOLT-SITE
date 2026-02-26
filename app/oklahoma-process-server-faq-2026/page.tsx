@@ -164,7 +164,6 @@ const localBusinessSchema = {
     { "@type": "City", "name": "Sand Springs" },
     { "@type": "City", "name": "Sapulpa" }
   ],
-  "serviceType": ["Process Serving", "Legal Document Delivery", "Skip Tracing", "Court Filing"],
   "priceRange": "$$",
   "openingHours": "Mo-Su 06:00-22:00"
 };

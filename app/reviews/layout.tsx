@@ -1,6 +1,14 @@
 import React from 'react';
+import { Metadata } from 'next';
 import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
+
+export const metadata: Metadata = {
+  robots: {
+    index: false,
+    follow: false,
+  },
+};
 
 export default function ReviewsLayout({
   children,

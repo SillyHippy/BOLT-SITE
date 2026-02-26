@@ -6,6 +6,15 @@ export const metadata = {
   alternates: {
     canonical: 'https://justlegalsolutions.org/seo-dashboard',
   },
+  openGraph: {
+    title: 'SEO Dashboard | Just Legal Solutions',
+    description: 'SEO dashboard and analytics for Just Legal Solutions. Track your legal service SEO performance and structured data health.',
+    url: 'https://justlegalsolutions.org/seo-dashboard',
+    siteName: 'Just Legal Solutions',
+    type: 'website',
+    locale: 'en_US',
+    images: [{ url: 'https://justlegalsolutions.org/og-image.png', width: 1200, height: 630, alt: 'Just Legal Solutions - Professional Process Serving in Oklahoma' }],
+  },
 };
 
 

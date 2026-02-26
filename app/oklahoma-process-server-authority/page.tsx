@@ -28,6 +28,7 @@ export const metadata: Metadata = {
     url: 'https://justlegalsolutions.org/oklahoma-process-server-authority',
     siteName: 'Just Legal Solutions',
     type: 'website',
+    images: [{ url: 'https://justlegalsolutions.org/og-image.png', width: 1200, height: 630, alt: 'Just Legal Solutions - Professional Process Serving in Oklahoma' }],
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/oklahoma-process-server-authority'

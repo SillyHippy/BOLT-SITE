@@ -20,7 +20,16 @@ export const metadata: Metadata = {
   keywords: 'legal notice posting tulsa, posting and mailing service, oklahoma rules of civil procedure, alternative service, process server tulsa',
   alternates: {
     canonical: 'https://justlegalsolutions.org/seo/legal-posting-process-server'
-  }
+  },
+  openGraph: {
+    title: 'Legal Notice Posting Service | Tulsa County, Oklahoma',
+    description: 'Expert in legal notice posting for when personal service is not possible. Full compliance with Oklahoma posting and mailing requirements.',
+    url: 'https://justlegalsolutions.org/seo/legal-posting-process-server',
+    siteName: 'Just Legal Solutions',
+    type: 'website',
+    locale: 'en_US',
+    images: [{ url: 'https://justlegalsolutions.org/og-image.png', width: 1200, height: 630, alt: 'Just Legal Solutions - Professional Process Serving in Oklahoma' }],
+  },
 };
 
 import UnifiedSchema from '@/components/UnifiedSchema';

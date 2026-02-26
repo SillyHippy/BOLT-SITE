@@ -12,7 +12,16 @@ export const metadata: Metadata = {
   robots: 'index, follow',
   alternates: {
     canonical: 'https://justlegalsolutions.org/sitemap'
-  }
+  },
+  openGraph: {
+    title: 'Sitemap | Just Legal Solutions — Oklahoma Process Serving',
+    description: 'Find every page on Just Legal Solutions. Browse our services, service areas, guides, tools, and resources for Oklahoma process serving.',
+    url: 'https://justlegalsolutions.org/sitemap',
+    siteName: 'Just Legal Solutions',
+    type: 'website',
+    locale: 'en_US',
+    images: [{ url: 'https://justlegalsolutions.org/og-image.png', width: 1200, height: 630, alt: 'Just Legal Solutions - Professional Process Serving in Oklahoma' }],
+  },
 };
 
 /* ── Section type ────────────────────────────────────────── */

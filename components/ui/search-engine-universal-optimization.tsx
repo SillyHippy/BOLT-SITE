@@ -87,7 +87,7 @@ export default function SearchEngineUniversalOptimization({
         }
       },
       {
-        "@type": ["Service", "ProfessionalService"],
+        "@type": "ProfessionalService",
         "@id": "https://justlegalsolutions.org/#service",
         "name": primaryService,
         "description": `Professional ${primaryService.toLowerCase()} throughout ${location} with guaranteed delivery and professional handling of all legal documents`,
@@ -99,9 +99,6 @@ export default function SearchEngineUniversalOptimization({
           "addressRegion": "OK",
           "postalCode": "74033",
           "addressCountry": "US"
-        },
-        "provider": {
-          "@id": "https://justlegalsolutions.org/#organization"
         },
         "telephone": "+15393676832",
         "priceRange": "$$",

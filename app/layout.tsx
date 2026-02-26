@@ -88,7 +88,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: 'https://justlegalsolutions.org/'
+    canonical: 'https://justlegalsolutions.org'
   }
 };
 
@@ -144,7 +144,7 @@ export default function RootLayout({
         <noscript>
           <Image 
             src="https://queue.simpleanalyticscdn.com/noscript.gif?collect-dnt=true" 
-            alt="" 
+            alt="Simple Analytics tracking pixel" 
             width={1}
             height={1}
             style={{ display: 'none' }}

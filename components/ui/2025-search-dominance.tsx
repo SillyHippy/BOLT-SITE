@@ -99,21 +99,26 @@ export default function SearchDominance2025({
       
       // Professional service schema with 2025 enhancements
       {
-        '@type': 'ProfessionalService',
+        '@type': 'Service',
         '@id': 'https://justlegalsolutions.org#service',
         'name': businessType,
         'description': `Leading ${businessType} provider in ${location} with same-day availability and professional excellence.`,
         
-        // Required address field
-        'address': {
-          '@type': 'PostalAddress',
-          'streetAddress': '564 E 138th PL',
-          'addressLocality': 'Glenpool',
-          'addressRegion': 'OK',
-          'postalCode': '74033',
-          'addressCountry': {
-            '@type': 'Country',
-            'name': 'US'
+        // Service provider with address
+        'provider': {
+          '@type': 'LocalBusiness',
+          '@id': 'https://justlegalsolutions.org/#organization',
+          'name': 'Just Legal Solutions',
+          'address': {
+            '@type': 'PostalAddress',
+            'streetAddress': '564 E 138th PL',
+            'addressLocality': 'Glenpool',
+            'addressRegion': 'OK',
+            'postalCode': '74033',
+            'addressCountry': {
+              '@type': 'Country',
+              'name': 'US'
+            }
           }
         },
         
@@ -127,7 +132,7 @@ export default function SearchDominance2025({
           }
         },
         
-        // Enhanced service offerings (removed invalid provider property)
+        // Enhanced service offerings
         'serviceType': primaryKeywords,
         'category': 'Legal Services',
         

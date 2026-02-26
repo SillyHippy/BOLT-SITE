@@ -232,7 +232,7 @@ const ResourcesPage = () => {
     { name: "Oklahoma Supreme Court", url: "https://www.oscn.net/applications/oscn/index.asp", description: "Official court rules, opinions, and administrative orders." },
     { name: "Oklahoma Bar Association", url: "https://www.okbar.org", description: "Attorney resources, legal forms, CLE materials, and public legal information." },
     { name: "Oklahoma Legislature — Title 12", url: "https://www.oklegislature.gov/osStatuesTitle.aspx?title=12", description: "Full text of Oklahoma civil procedure statutes including §§ 2004, 158.1, and 2004.5." },
-    { name: "Tulsa County District Court", url: "https://www.tulsacounty.org/Tulsa-County-Courts.aspx", description: "Tulsa County courthouse information, filing hours, and local court rules." }
+    { name: "Tulsa County District Court", url: "https://www2.tulsacounty.org", description: "Tulsa County courthouse information, filing hours, and local court rules." }
   ];
 
   return (

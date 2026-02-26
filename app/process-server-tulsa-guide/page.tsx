@@ -16,6 +16,7 @@ export const metadata: Metadata = {
     title: 'Complete Guide to Process Server Selection in Tulsa: 2025 Edition',
     description: 'Everything you need to know about hiring a process server in Tulsa, Oklahoma. Legal requirements, pricing, and expert tips for 2026.',
     images: ['/imagesforblogpost/tulsa-county-courthouse-oklahoma-legal-system.png'],
+    url: canonicalUrl,
     type: 'article',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',

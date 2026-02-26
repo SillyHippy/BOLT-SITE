@@ -4,6 +4,10 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Joseph Iannazzi | Process Server - Just Legal Solutions',
   description: 'Professional process server and legal support services by Joseph Iannazzi at Just Legal Solutions.',
+  robots: {
+    index: false,
+    follow: false,
+  },
   openGraph: {
     title: 'Joseph Iannazzi | Process Server',
     description: 'Professional process server and legal support services by Joseph Iannazzi at Just Legal Solutions.',

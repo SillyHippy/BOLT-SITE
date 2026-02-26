@@ -7,7 +7,16 @@ export const metadata = {
   keywords: 'voice search, smart assistant, process server, just legal solutions',
   alternates: {
     canonical: 'https://justlegalsolutions.org/voice-search-marker'
-  }
+  },
+  openGraph: {
+    title: 'Voice Search Marker - Just Legal Solutions',
+    description: 'Voice search optimization for Just Legal Solutions. Services discoverable and optimized for voice assistants and smart devices.',
+    url: 'https://justlegalsolutions.org/voice-search-marker',
+    siteName: 'Just Legal Solutions',
+    type: 'website',
+    locale: 'en_US',
+    images: [{ url: 'https://justlegalsolutions.org/og-image.png', width: 1200, height: 630, alt: 'Just Legal Solutions - Professional Process Serving in Oklahoma' }],
+  },
 };
 
 export default function VoiceSearchMarker() {

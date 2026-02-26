@@ -39,14 +39,25 @@ function generateSitemap() {
   const files = getHtmlFiles(baseDir);
   const today = new Date().toISOString().split('T')[0];
   
-  // URLs to exclude (redirect pages that don't have real content)
+  // URLs to exclude (redirect pages, internal tools, utility pages)
   const excludeUrls = [
     '/faq', // Redirects to /ultimate-guide-process-serving-oklahoma
     '/seo/process-server-sand-springs', // Redirects to /service-areas/sand-springs
     '/seo/process-server-bixby', // Redirects to /service-areas/bixby
     '/seo/process-server-broken-arrow', // Redirects to /service-areas/broken-arrow
     '/seo/process-server-jenks', // Redirects to /service-areas/jenks
-    '/oklahoma-process-server-cost-calculator' // Removed - page no longer exists
+    '/oklahoma-process-server-cost-calculator', // Removed - page no longer exists
+    '/404', // Error page - should not be indexed
+    '/card', // Internal business card page
+    '/card/calendar', // Internal calendar page
+    '/leave-review', // Internal review submission form
+    '/local-seo-marker', // Internal SEO marker
+    '/multi-search-marker', // Internal search marker
+    '/performance-marker', // Internal performance marker
+    '/reviews/phone', // Internal review intake
+    '/reviews/survey', // Internal review intake
+    '/reviews/text', // Internal review intake
+    '/security-policy', // Low-value policy page
   ];
   
   // Additional URLs to ensure they're included (all service areas with Google Maps)

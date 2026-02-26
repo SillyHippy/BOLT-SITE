@@ -130,7 +130,6 @@ export default function ContactPage() {
                 "height": 60
               },
               "description": "Professional process serving and legal document delivery throughout Oklahoma with same-day service available.",
-              "serviceArea": { "@type": "State", "name": "Oklahoma" },
               "areaServed": [
                 { "@type": "State", "name": "Oklahoma" },
                 { "@type": "City", "name": "Tulsa" },

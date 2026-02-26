@@ -15,7 +15,7 @@ export default function DuckDuckGoOptimization({
 }: DuckDuckGoOptimizationProps) {
   const duckDuckGoSchema = {
     "@context": "https://schema.org",
-    "@type": "Organization",
+    "@type": "LocalBusiness",
     "foundingDate": "2025-03-01",
     "name": businessName,
     "description": "Professional process serving and legal document delivery throughout Oklahoma with guaranteed privacy and confidential handling",
@@ -46,46 +46,6 @@ export default function DuckDuckGoOptimization({
       "@type": "GeoCoordinates",
       "latitude": "36.1540",
       "longitude": "-95.9928"
-    },
-    ...(quickAnswers && {
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is process serving?",
-          "answerCount": 1,
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Process serving is the legal delivery of court documents to notify parties of legal proceedings. Professional process servers ensure proper legal notification according to state requirements."
-          }
-        },
-        {
-          "@type": "Question", 
-          "name": "How much does process serving cost in Oklahoma?",
-          "answerCount": 1,
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Process serving costs vary based on urgency and complexity. Contact Just Legal Solutions for a professional quote tailored to your specific legal document delivery needs."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is emergency process serving available?",
-          "answerCount": 1,
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, Just Legal Solutions provides 24/7 emergency process serving throughout Oklahoma when time-sensitive situations require immediate legal document delivery."
-          }
-        }
-      ]
-    }),
-    "offers": {
-      "@type": "Offer",         "url": "https://justlegalsolutions.org/services",
-      "description": "Professional process serving throughout Oklahoma",
-      "areaServed": {
-        "@type": "State",
-        "name": "Oklahoma"
-      },
-      "availability": "https://schema.org/InStock"
     },
     "hasOfferCatalog": {
       "@type": "OfferCatalog",

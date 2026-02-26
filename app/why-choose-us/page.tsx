@@ -12,6 +12,15 @@ export const metadata = {
   alternates: {
     canonical: 'https://justlegalsolutions.org/why-choose-us',
   },
+  openGraph: {
+    title: 'Why Choose Us | Best Oklahoma Process Server 2026 | Just Legal Solutions',
+    description: "Oklahoma's most trusted process server—fast, reliable, and professional with 24/7 support, transparent pricing, and advanced technology.",
+    url: 'https://justlegalsolutions.org/why-choose-us',
+    siteName: 'Just Legal Solutions',
+    type: 'website',
+    locale: 'en_US',
+    images: [{ url: 'https://justlegalsolutions.org/og-image.png', width: 1200, height: 630, alt: 'Just Legal Solutions - Professional Process Serving in Oklahoma' }],
+  },
   other: {
     'ai-content-type': 'comparison',
     'ai-summary': 'Why choose Just Legal Solutions as your Oklahoma process server? Licensed, bonded, and insured with 50+ years combined experience. Faster than sheriff service with GPS tracking, same-day availability, and 24/7 emergency service across all 77 Oklahoma counties. Technology-driven with real-time updates. Transparent pricing starting at $30 per serve.',

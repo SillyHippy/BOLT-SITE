@@ -6,7 +6,7 @@ import Footer from '@/components/ui/footer';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
-  title: 'Okmulgee County Process Server | Legal Document Service Oklahoma | Licensed & Bonded',
+  title: 'Okmulgee County Process Server | Just Legal Solutions Oklahoma',
   description: 'Professional process server for Okmulgee County, Oklahoma. Serving Okmulgee, Beggs, Henryetta, Taft, Morris & all 74447 areas. Licensed, bonded, insured. Call (539) 367-6832.',
   keywords: 'Okmulgee County process server, legal document service Okmulgee, process serving Beggs Henryetta, court papers 74447, subpoena service Morris, Oklahoma Creek Nation legal documents',
   openGraph: {

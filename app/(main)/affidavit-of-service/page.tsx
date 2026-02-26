@@ -16,6 +16,9 @@ export const metadata: Metadata = {
     'proof of service form',
   ],
   robots: 'index, follow',
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/affidavit-of-service',
+  },
   openGraph: {
     title: 'Affidavit of Service Generator | Just Legal Solutions',
     description:

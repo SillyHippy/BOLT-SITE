@@ -19,6 +19,7 @@ export const metadata: Metadata = {
     title: 'Oklahoma Process Server Best Practices Checklist 2026',
     description: 'Complete 2026 Oklahoma process server checklist covering legal requirements, technology integration, and professional standards.',
     images: ['/images/oklahoma-licensed-bonded-process-server-badges.png'],
+    url: canonicalUrl,
     type: 'article',
     siteName: 'Just Legal Solutions',
     locale: 'en_US'
@@ -153,7 +154,6 @@ const localBusinessSchema = {
     { "@type": "City", "name": "Sand Springs" },
     { "@type": "City", "name": "Sapulpa" }
   ],
-  "serviceType": ["Process Serving", "Legal Document Delivery", "Skip Tracing", "Court Filing"],
   "priceRange": "$$",
   "openingHours": "Mo-Su 06:00-22:00"
 };

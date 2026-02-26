@@ -259,7 +259,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
   // Base Organization schema that will be included in all pages
   const organizationSchema: any = {
     '@type': (pageType === 'location' || pageType === 'home' || pageType === 'service') ? 
-      ['Organization', 'LocalBusiness', 'ProfessionalService'] : 'Organization',
+      ['Organization', 'LocalBusiness', 'ProfessionalService'] : ['Organization', 'LocalBusiness'],
     '@id': 'https://justlegalsolutions.org/#organization',
     name: organization.name,
     alternateName: [
@@ -636,12 +636,6 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
         'name': item.name,
         'description': item.description,
         'image': 'https://justlegalsolutions.org/images/jls-logo.webp',
-        'logo': {
-          '@type': 'ImageObject',
-          'url': 'https://justlegalsolutions.org/images/jls-logo.webp',
-          'width': 180,
-          'height': 60
-        },
         ...(item.price ? { 'price': item.price } : {}),
         ...(item.priceCurrency ? { 'priceCurrency': item.priceCurrency } : {}),
         'availability': 'https://schema.org/InStock',
