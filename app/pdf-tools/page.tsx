@@ -390,14 +390,14 @@ export default function PDFToolsPage() {
                       href={`https://tools.pdf24.org/en/${activeToolData.widgetSlug}`}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-gray-400 hover:text-gray-600 text-sm flex items-center gap-1"
+                      className="text-gray-500 hover:text-gray-600 text-sm flex items-center gap-1"
                     >
                       <ExternalLink className="w-4 h-4" />
                       <span className="hidden sm:inline">Open on PDF24</span>
                     </a>
                     <button
                       onClick={() => setActiveTool(null)}
-                      className="text-gray-400 hover:text-gray-600 text-2xl leading-none"
+                      className="text-gray-500 hover:text-gray-600 text-2xl leading-none"
                       aria-label="Close tool"
                     >
                       &times;
@@ -412,7 +412,7 @@ export default function PDFToolsPage() {
                     className="pdf24WidgetContainer"
                   />
                   {!scriptLoaded && (
-                    <div className="flex items-center justify-center h-64 text-gray-400">
+                    <div className="flex items-center justify-center h-64 text-gray-500">
                       <div className="text-center">
                         <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600 mx-auto mb-3" />
                         <p>Loading PDF tool...</p>
@@ -524,7 +524,7 @@ export default function PDFToolsPage() {
                     Make scanned court orders and affidavits searchable and copyable
                   </div>
                 </div>
-                <ExternalLink className="w-5 h-5 text-gray-400 group-hover:text-amber-600 transition-colors mt-1 flex-shrink-0" />
+                <ExternalLink className="w-5 h-5 text-gray-500 group-hover:text-amber-600 transition-colors mt-1 flex-shrink-0" />
               </div>
             </a>
           </div>

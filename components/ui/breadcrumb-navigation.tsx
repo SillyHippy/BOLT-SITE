@@ -23,7 +23,7 @@ export default function BreadcrumbNavigation({ items }: BreadcrumbNavigationProp
       
       {items.map((item, index) => (
         <div key={index} className="flex items-center space-x-2">
-          <ChevronRight className="w-4 h-4 text-gray-400" />
+          <ChevronRight className="w-4 h-4 text-gray-500" />
           {item.href ? (
             <Link 
               href={item.href}

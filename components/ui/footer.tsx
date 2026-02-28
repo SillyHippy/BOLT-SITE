@@ -528,7 +528,7 @@ export function Footer() {
                   <span className="inline-block mt-2 px-4 py-2 bg-blue-600 text-white text-sm font-semibold rounded-lg hover:bg-blue-700 transition-colors">
                     Browse Files
                   </span>
-                  <p className="text-xs text-gray-400 mt-2">
+                  <p className="text-xs text-gray-500 mt-2">
                     Accepted: PDF, DOC, DOCX, JPG, PNG • Max 40MB total upload
                   </p>
                   <p className="text-xs text-gray-500 mt-1">

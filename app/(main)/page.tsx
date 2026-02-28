@@ -161,7 +161,7 @@ export default function Home() {
                 />
               </div>
               <h3 className="text-lg md:text-xl font-bold mb-2">Secure Document Delivery</h3>
-              <p className="text-gray-400 text-sm md:text-base">
+              <p className="text-gray-300 text-sm md:text-base">
                 Our secure document delivery ensures your documents arrive safely and on time, handled with professional confidentiality.
               </p>
             </div>
@@ -179,7 +179,7 @@ export default function Home() {
                 />
               </div>
               <h3 className="text-lg md:text-xl font-bold mb-2">Court-Run Transfers</h3>
-              <p className="text-gray-400 text-sm md:text-base">
+              <p className="text-gray-300 text-sm md:text-base">
                 We specialize in court-run document transfers, ensuring your critical files reach their destination without delay.
               </p>
             </div>
@@ -197,7 +197,7 @@ export default function Home() {
                 />
               </div>
               <h3 className="text-lg md:text-xl font-bold mb-2">Skip Tracing Services</h3>
-              <p className="text-gray-400 text-sm md:text-base">
+              <p className="text-gray-300 text-sm md:text-base">
                 Professional skip tracing services to locate individuals throughout Oklahoma when traditional methods fail.
               </p>
             </div>
@@ -215,7 +215,7 @@ export default function Home() {
                 />
               </div>
               <h3 className="text-lg md:text-xl font-bold mb-2">Same-Day Service</h3>
-              <p className="text-gray-400 text-sm md:text-base">
+              <p className="text-gray-300 text-sm md:text-base">
                 Get your time-sensitive documents delivered quickly with our reliable same-day process serving.
               </p>
             </div>

@@ -172,11 +172,11 @@ export default function OklahomaProcessServerPricing2026() {
             <li>
               <a href="/" className="text-blue-600 hover:underline">Home</a>
             </li>
-            <li className="text-gray-400">/</li>
+            <li className="text-gray-500">/</li>
             <li>
               <a href="/pricing" className="text-blue-600 hover:underline">Services</a>
             </li>
-            <li className="text-gray-400">/</li>
+            <li className="text-gray-500">/</li>
             <li>
               <span className="text-gray-700">Pricing Guide</span>
             </li>

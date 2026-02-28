@@ -116,7 +116,7 @@ const UrgentProcessServerPage = () => {
           <nav aria-label="Breadcrumb" className="mb-6 text-sm">
             <ol className="flex items-center space-x-2">
               <li><a href="/" className="text-blue-600 hover:underline">Home</a></li>
-              <li className="text-gray-400">/</li>
+              <li className="text-gray-500">/</li>
               <li><span className="text-gray-700">Fastest Way to Serve Papers</span></li>
             </ol>
           </nav>

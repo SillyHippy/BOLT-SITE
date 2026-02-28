@@ -523,8 +523,8 @@ export default function VirtualAssistantServicesPage() {
               </div>
               
               <div className="bg-gray-800 rounded-xl p-6">
-                <h3 className="text-xl font-bold mb-4 text-gray-400">Full-Time Employee</h3>
-                <ul className="space-y-3 text-gray-400">
+                <h3 className="text-xl font-bold mb-4 text-gray-500">Full-Time Employee</h3>
+                <ul className="space-y-3 text-gray-500">
                   <li className="flex items-start gap-2">
                     <span className="h-5 w-5 text-red-400 flex-shrink-0 mt-0.5">✗</span>
                     <span>Fixed salary regardless of workload</span>

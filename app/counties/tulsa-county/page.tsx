@@ -661,22 +661,22 @@ export default function TulsaCountyProcessServer() {
                 <div className="group">
                   <div className="text-5xl font-bold text-yellow-400 mb-3 group-hover:scale-110 transition-transform duration-300">587</div>
                   <div className="text-gray-300 text-lg font-medium">Square Miles Covered</div>
-                  <div className="text-sm text-gray-400 mt-1">Complete Tulsa County</div>
+                  <div className="text-sm text-gray-500 mt-1">Complete Tulsa County</div>
                 </div>
                 <div className="group">
                   <div className="text-5xl font-bold text-yellow-400 mb-3 group-hover:scale-110 transition-transform duration-300">8+</div>
                   <div className="text-gray-300 text-lg font-medium">Incorporated Cities</div>
-                  <div className="text-sm text-gray-400 mt-1">Plus Unincorporated Areas</div>
+                  <div className="text-sm text-gray-500 mt-1">Plus Unincorporated Areas</div>
                 </div>
                 <div className="group">
                   <div className="text-5xl font-bold text-yellow-400 mb-3 group-hover:scale-110 transition-transform duration-300">669K+</div>
                   <div className="text-gray-300 text-lg font-medium">Residents Served</div>
-                  <div className="text-sm text-gray-400 mt-1">Growing Daily</div>
+                  <div className="text-sm text-gray-500 mt-1">Growing Daily</div>
                 </div>
                 <div className="group">
                   <div className="text-5xl font-bold text-yellow-400 mb-3 group-hover:scale-110 transition-transform duration-300">24/7</div>
                   <div className="text-gray-300 text-lg font-medium">Emergency Service</div>
-                  <div className="text-sm text-gray-400 mt-1">Always Available</div>
+                  <div className="text-sm text-gray-500 mt-1">Always Available</div>
                 </div>
               </div>
               <div className="text-center mt-12">
@@ -1058,14 +1058,14 @@ export default function TulsaCountyProcessServer() {
                     <span className="text-gray-600">Digital Affidavits</span>
                     <div className="flex gap-4">
                       <span className="text-green-600 font-semibold">✓ Us</span>
-                      <span className="text-gray-400">△ Some</span>
+                      <span className="text-gray-500">△ Some</span>
                     </div>
                   </div>
                   <div className="flex justify-between items-center py-2">
                     <span className="text-gray-600">County-Wide Coverage</span>
                     <div className="flex gap-4">
                       <span className="text-green-600 font-semibold">✓ Us</span>
-                      <span className="text-gray-400">△ Limited</span>
+                      <span className="text-gray-500">△ Limited</span>
                     </div>
                   </div>
                 </div>

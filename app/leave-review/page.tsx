@@ -105,7 +105,7 @@ export default function LeaveReviewPage() {
                     <p className="text-xs sm:text-sm text-gray-500">Business Review</p>
                   </div>
                 </div>
-                <ExternalLink className="w-5 h-5 text-gray-400 group-hover:text-blue-600 transition-colors" />
+                <ExternalLink className="w-5 h-5 text-gray-500 group-hover:text-blue-600 transition-colors" />
               </div>
               
               <p className="text-sm sm:text-base text-gray-600 mb-4 leading-relaxed">
@@ -146,7 +146,7 @@ export default function LeaveReviewPage() {
                     <p className="text-xs sm:text-sm text-gray-500">Business Review</p>
                   </div>
                 </div>
-                <ExternalLink className="w-5 h-5 text-gray-400 group-hover:text-red-600 transition-colors" />
+                <ExternalLink className="w-5 h-5 text-gray-500 group-hover:text-red-600 transition-colors" />
               </div>
               
               <p className="text-sm sm:text-base text-gray-600 mb-4 leading-relaxed">

@@ -218,3 +218,20 @@
     background-position: -200% 0;
   }
 }
+
+/* ADA Compliance: Announce external links open in new tab for screen readers */
+a[target="_blank"] {
+  position: relative;
+}
+a[target="_blank"]::after {
+  content: " (opens in new tab)";
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}

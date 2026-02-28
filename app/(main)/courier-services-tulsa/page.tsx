@@ -151,7 +151,7 @@ export default function CourierServicesTulsaPage() {
             <nav aria-label="Breadcrumb" className="mb-4 text-sm">
               <ol className="flex items-center space-x-2">
                 <li><a href="/" className="text-blue-600 hover:underline">Home</a></li>
-                <li className="text-gray-400">/</li>
+                <li className="text-gray-500">/</li>
                 <li><span className="text-gray-700">Legal Courier Services Tulsa</span></li>
               </ol>
             </nav>

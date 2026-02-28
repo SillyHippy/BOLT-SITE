@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
-import { Star, ExternalLink, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Star, ExternalLink, ChevronLeft, ChevronRight, Pause, Play } from 'lucide-react';
 
 interface Review {
   id: number;
@@ -209,7 +209,7 @@ export default function ReviewWidget() {
           </div>
 
           {/* Review Indicators */}
-          <div className="flex justify-center space-x-2 mb-6">
+          <div className="flex justify-center items-center space-x-2 mb-6">
             {reviews.map((_, index) => (
               <button
                 key={index}
@@ -226,6 +226,17 @@ export default function ReviewWidget() {
                 aria-current={index === currentReview ? 'true' : undefined}
               />
             ))}
+            <button
+              onClick={() => setIsAutoPlaying(!isAutoPlaying)}
+              className="ml-2 p-1 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors"
+              aria-label={isAutoPlaying ? 'Pause auto-rotating reviews' : 'Resume auto-rotating reviews'}
+            >
+              {isAutoPlaying ? (
+                <Pause className="h-4 w-4 text-gray-600" aria-hidden="true" />
+              ) : (
+                <Play className="h-4 w-4 text-gray-600" aria-hidden="true" />
+              )}
+            </button>
           </div>
 
           {/* Review Summary Stats */}

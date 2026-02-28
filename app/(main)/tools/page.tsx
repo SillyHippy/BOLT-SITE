@@ -346,7 +346,7 @@ const ToolsPage = () => {
           </div>
         </div>
 
-        <p className="text-center text-sm text-gray-400 mt-8">Tools page last updated: February 2026.</p>
+        <p className="text-center text-sm text-gray-500 mt-8">Tools page last updated: February 2026.</p>
       </div>
 
       <UnifiedSchema

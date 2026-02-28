@@ -294,7 +294,7 @@ const ResourcesPage = () => {
                 <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-2">
                   <h3 className="font-bold text-lg text-gray-900">
                     <span className="text-red-700 font-mono text-base">{statute.cite}</span>
-                    <span className="mx-2 text-gray-400">—</span>
+                    <span className="mx-2 text-gray-500">—</span>
                     {statute.title}
                   </h3>
                   <a href={statute.oscnUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-sm text-blue-600 hover:underline whitespace-nowrap flex-shrink-0">
@@ -322,7 +322,7 @@ const ResourcesPage = () => {
                   <ExternalLink className="w-4 h-4" />
                   {resource.name}
                 </a>
-                <span className="text-gray-400 hidden sm:block">—</span>
+                <span className="text-gray-500 hidden sm:block">—</span>
                 <span className="text-gray-600 text-sm">{resource.description}</span>
               </li>
             ))}
@@ -355,7 +355,7 @@ const ResourcesPage = () => {
         </div>
 
         {/* Last Updated */}
-        <p className="text-center text-sm text-gray-400 mt-8">Resources last updated: February 2026.</p>
+        <p className="text-center text-sm text-gray-500 mt-8">Resources last updated: February 2026.</p>
       </div>
       <UnifiedSchema
         pageType="generic"
