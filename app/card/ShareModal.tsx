@@ -29,6 +29,23 @@ export default function ShareModal({ isOpen, onClose }: ShareModalProps) {
     };
   }, [isOpen, onClose]);
 
+  // Handle Escape key to close modal
+  useEffect(() => {
+    const handleEscapeKey = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') {
+        onClose();
+      }
+    };
+
+    if (isOpen) {
+      document.addEventListener('keydown', handleEscapeKey);
+    }
+
+    return () => {
+      document.removeEventListener('keydown', handleEscapeKey);
+    };
+  }, [isOpen, onClose]);
+
   // Reset copy success message after 2 seconds
   useEffect(() => {
     let timer: NodeJS.Timeout;
@@ -76,16 +93,19 @@ export default function ShareModal({ isOpen, onClose }: ShareModalProps) {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
+    <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50" role="dialog" aria-modal="true" aria-labelledby="share-modal-title">
       <div ref={modalRef} className="bg-[#1B2738] rounded-[24px] p-6 max-w-[420px] w-full shadow-[0_20px_50px_rgba(0,0,0,0.8)] border border-[#2A3653]">
-        <h2 className="text-[22px] font-semibold text-white mb-4">
+        <h2 id="share-modal-title" className="text-[22px] font-semibold text-white mb-4">
           Share Joseph Iannazzi&apos;s Digital Business Card
         </h2>
         <div className="space-y-3">
           {/* Copy Card Link */}
           <div 
-            className="flex items-center justify-between p-3 bg-[#2A3B58] rounded-[12px] text-[#CBD5E1] hover:bg-[#263448] transition-colors cursor-pointer"
+            className="flex items-center justify-between p-3 bg-[#2A3B58] rounded-[12px] text-[#CBD5E1] hover:bg-[#263448] transition-colors cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2 focus:ring-offset-[#1B2738]"
             onClick={handleCopyLink}
+            role="button"
+            tabIndex={0}
+            onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); handleCopyLink(e as any); } }}
           >
             <div className="flex items-center">
               <Image src="/favicon1.svg" alt="Link" width={24} height={24} />
@@ -98,8 +118,11 @@ export default function ShareModal({ isOpen, onClose }: ShareModalProps) {
           
           {/* Share via Text */}
           <div 
-            className="flex items-center justify-between p-3 bg-[#2A3B58] rounded-[12px] text-[#CBD5E1] hover:bg-[#263448] transition-colors cursor-pointer"
+            className="flex items-center justify-between p-3 bg-[#2A3B58] rounded-[12px] text-[#CBD5E1] hover:bg-[#263448] transition-colors cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2 focus:ring-offset-[#1B2738]"
             onClick={handleTextShare}
+            role="button"
+            tabIndex={0}
+            onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); handleTextShare(e as any); } }}
           >
             <div className="flex items-center">
               <Image src="/landingpage/icons/imessage.svg" alt="Text" width={24} height={24} />
@@ -112,8 +135,11 @@ export default function ShareModal({ isOpen, onClose }: ShareModalProps) {
           
           {/* Share via Email */}
           <div 
-            className="flex items-center justify-between p-3 bg-[#2A3B58] rounded-[12px] text-[#CBD5E1] hover:bg-[#263448] transition-colors cursor-pointer"
+            className="flex items-center justify-between p-3 bg-[#2A3B58] rounded-[12px] text-[#CBD5E1] hover:bg-[#263448] transition-colors cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2 focus:ring-offset-[#1B2738]"
             onClick={handleEmailShare}
+            role="button"
+            tabIndex={0}
+            onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); handleEmailShare(e as any); } }}
           >
             <div className="flex items-center">
               <Image src="/landingpage/icons/mail.svg" alt="Email" width={24} height={24} />
@@ -126,8 +152,11 @@ export default function ShareModal({ isOpen, onClose }: ShareModalProps) {
           
           {/* Share via WhatsApp */}
           <div 
-            className="flex items-center justify-between p-3 bg-[#2A3B58] rounded-[12px] text-[#CBD5E1] hover:bg-[#263448] transition-colors cursor-pointer"
+            className="flex items-center justify-between p-3 bg-[#2A3B58] rounded-[12px] text-[#CBD5E1] hover:bg-[#263448] transition-colors cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2 focus:ring-offset-[#1B2738]"
             onClick={handleWhatsAppShare}
+            role="button"
+            tabIndex={0}
+            onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); handleWhatsAppShare(e as any); } }}
           >
             <div className="flex items-center">
               <Image src="/landingpage/icons/WhatsApp.svg" alt="WhatsApp" width={30} height={30} />

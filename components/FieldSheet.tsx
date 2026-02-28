@@ -108,6 +108,7 @@ export default function FieldSheet() {
               type="text"
               value={companyName}
               onChange={(e) => setCompanyName(e.target.value)}
+              aria-label="Company name"
               style={{ margin: 0, fontSize: 18, fontWeight: 800, textTransform: 'uppercase', letterSpacing: 0.5, border: 'none', borderBottom: '1px solid transparent', background: 'transparent', width: '100%', padding: 0, fontFamily: 'inherit' }}
             />
             <div style={{ display: 'flex', alignItems: 'center', margin: '1px 0', fontSize: 11 }}>
@@ -116,6 +117,7 @@ export default function FieldSheet() {
                 type="text"
                 value={companyEmail}
                 onChange={(e) => setCompanyEmail(e.target.value)}
+                aria-label="Company email"
                 style={{ border: 'none', borderBottom: '1px solid transparent', background: 'transparent', fontSize: 11, fontFamily: 'inherit', padding: 0, width: 220 }}
               />
             </div>
@@ -125,6 +127,7 @@ export default function FieldSheet() {
                 type="text"
                 value={companyPhone}
                 onChange={(e) => setCompanyPhone(e.target.value)}
+                aria-label="Company phone"
                 style={{ border: 'none', borderBottom: '1px solid transparent', background: 'transparent', fontSize: 11, fontFamily: 'inherit', padding: 0, width: 150 }}
               />
             </div>
@@ -258,15 +261,15 @@ export default function FieldSheet() {
                 <React.Fragment key={n}>
                   <tr>
                     <td style={{ padding: 0, borderBottom: '1px solid #000', verticalAlign: 'top' }}>
-                      <input type="text" placeholder="" style={{ ...inputStyle, border: 'none', background: '#f0f0f0', height: 20 }} />
+                      <input type="text" placeholder="" aria-label={`Date and time for attempt ${n}`} style={{ ...inputStyle, border: 'none', background: '#f0f0f0', height: 20 }} />
                     </td>
                     <td style={{ padding: 0, borderBottom: '1px solid #000', verticalAlign: 'top' }}>
-                      <input type="text" placeholder="" style={{ ...inputStyle, border: 'none', height: 20 }} />
+                      <input type="text" placeholder="" aria-label={`Description for attempt ${n}`} style={{ ...inputStyle, border: 'none', height: 20 }} />
                     </td>
                   </tr>
                   <tr>
                     <td colSpan={2} style={{ padding: 0, borderBottom: '1px solid #000', verticalAlign: 'top' }}>
-                      <input type="text" placeholder="" style={{ ...inputStyle, border: 'none', height: 20 }} />
+                      <input type="text" placeholder="" aria-label={`Additional details for attempt ${n}`} style={{ ...inputStyle, border: 'none', height: 20 }} />
                     </td>
                   </tr>
                 </React.Fragment>

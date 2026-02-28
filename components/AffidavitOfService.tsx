@@ -126,6 +126,7 @@ export default function AffidavitOfService() {
         <select
           value={affidavitTitle}
           onChange={(e) => setAffidavitTitle(e.target.value)}
+          aria-label="Affidavit type"
           style={{
             textAlign: 'center',
             fontSize: 16,
@@ -150,16 +151,16 @@ export default function AffidavitOfService() {
         {/* Top Grid */}
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1.5fr 1fr 0.8fr', border: '2px solid #000', marginBottom: 6 }}>
           <GridCell label="Case:">
-            <input type="text" placeholder="25CV69071" value={caseNumber} onChange={(e) => setCaseNumber(e.target.value)} style={{ ...valInputStyle, fontWeight: 'bold' }} />
+            <input type="text" placeholder="25CV69071" value={caseNumber} onChange={(e) => setCaseNumber(e.target.value)} aria-label="Case number" style={{ ...valInputStyle, fontWeight: 'bold' }} />
           </GridCell>
           <GridCell label="Court:">
-            <input type="text" placeholder="County Circuit Court" style={{ ...valInputStyle, fontWeight: 'bold' }} />
+            <input type="text" placeholder="County Circuit Court" aria-label="Court" style={{ ...valInputStyle, fontWeight: 'bold' }} />
           </GridCell>
           <GridCell label="County:">
-            <input type="text" placeholder="County, State" style={{ ...valInputStyle, fontWeight: 'bold' }} />
+            <input type="text" placeholder="County, State" aria-label="County" style={{ ...valInputStyle, fontWeight: 'bold' }} />
           </GridCell>
           <GridCell label="Job:" last>
-            <input type="text" placeholder="12345678" style={{ ...valInputStyle, fontWeight: 'bold' }} />
+            <input type="text" placeholder="12345678" aria-label="Job number" style={{ ...valInputStyle, fontWeight: 'bold' }} />
           </GridCell>
         </div>
 
@@ -167,34 +168,34 @@ export default function AffidavitOfService() {
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 15, marginBottom: 8 }}>
           <div>
             <PartyBox label="Plaintiff / Petitioner:">
-              <input type="text" placeholder="Plaintiff Name" style={baseInputStyle} />
+              <input type="text" placeholder="Plaintiff Name" aria-label="Plaintiff or Petitioner" style={baseInputStyle} />
             </PartyBox>
             <PartyBox label="Received by:">
-              <input type="text" defaultValue="Just Legal Solutions" style={{ ...baseInputStyle, fontWeight: 'bold' }} />
+              <input type="text" defaultValue="Just Legal Solutions" aria-label="Received by" style={{ ...baseInputStyle, fontWeight: 'bold' }} />
             </PartyBox>
             <PartyBox label="To be served upon:">
-              <input type="text" placeholder="Target Name" style={{ ...baseInputStyle, fontWeight: 'bold' }} />
+              <input type="text" placeholder="Target Name" aria-label="To be served upon" style={{ ...baseInputStyle, fontWeight: 'bold' }} />
             </PartyBox>
           </div>
           <div>
             <PartyBox label="Defendant / Respondent:">
-              <input type="text" placeholder="Defendant Name" style={baseInputStyle} />
+              <input type="text" placeholder="Defendant Name" aria-label="Defendant or Respondent" style={baseInputStyle} />
             </PartyBox>
             <PartyBox label="For:">
-              <input type="text" placeholder="Client / Law Firm Name" style={baseInputStyle} />
+              <input type="text" placeholder="Client / Law Firm Name" aria-label="For client or law firm" style={baseInputStyle} />
             </PartyBox>
           </div>
         </div>
 
         {/* Sworn Statement */}
         <div style={{ fontSize: 11, textAlign: 'justify', marginBottom: 8, lineHeight: 1.3 }}>
-          I, <strong><input type="text" defaultValue="Joseph Iannazzi" style={{ width: 100, fontWeight: 'bold', borderBottom: '1px solid #000', textAlign: 'center', border: 'none', borderBottomWidth: 1, borderBottomStyle: 'solid', borderBottomColor: '#000', background: 'transparent', fontFamily: 'inherit', fontSize: 11, padding: 2 }} /></strong>, being duly sworn, depose and say: I am over the age of 18 years and not a party to this action, and that within the boundaries of the state where service was effected, I was authorized by law to make service of the documents and informed said person of the contents herein.
+          I, <strong><input type="text" defaultValue="Joseph Iannazzi" aria-label="Affiant name" style={{ width: 100, fontWeight: 'bold', borderBottom: '1px solid #000', textAlign: 'center', border: 'none', borderBottomWidth: 1, borderBottomStyle: 'solid', borderBottomColor: '#000', background: 'transparent', fontFamily: 'inherit', fontSize: 11, padding: 2 }} /></strong>, being duly sworn, depose and say: I am over the age of 18 years and not a party to this action, and that within the boundaries of the state where service was effected, I was authorized by law to make service of the documents and informed said person of the contents herein.
         </div>
 
         {/* Details Box */}
         <div style={{ border: '1px solid #000', padding: '6px 10px', marginBottom: 8 }}>
           <DetailRow label="Recipient Name / Address:">
-            <input type="text" placeholder="Name, Address, City, State, Zip" style={baseInputStyle} />
+            <input type="text" placeholder="Name, Address, City, State, Zip" aria-label="Recipient name and address" style={baseInputStyle} />
           </DetailRow>
 
           <DetailRow label="Manner of Service:">
@@ -202,6 +203,7 @@ export default function AffidavitOfService() {
               className="manner-template-select"
               onChange={(e) => fillManner(e.target.value)}
               defaultValue=""
+              aria-label="Manner of service template"
               style={{ fontSize: 10, color: '#2563eb', fontWeight: 'bold', marginBottom: 5, border: '1px dashed #ccc', width: '100%', fontFamily: 'inherit', padding: 2, background: 'transparent', cursor: 'pointer' }}
             >
               <option value="" disabled>-- Select a Template to Fill Text Below --</option>
@@ -223,7 +225,7 @@ export default function AffidavitOfService() {
           </DetailRow>
 
           <DetailRow label="Documents:">
-            <input type="text" placeholder="Summons, Complaint, etc." style={baseInputStyle} />
+            <input type="text" placeholder="Summons, Complaint, etc." aria-label="Documents served" style={baseInputStyle} />
           </DetailRow>
         </div>
 
@@ -274,13 +276,13 @@ export default function AffidavitOfService() {
             <div style={{ borderBottom: '1px solid #000', width: '100%', marginBottom: 2 }} />
 
             <div style={{ display: 'flex', gap: showNotary ? 0 : 20 }}>
-              <input type="text" defaultValue="Joseph Iannazzi" style={{ ...baseInputStyle, fontWeight: 'bold', fontSize: 11, marginBottom: 2, width: showNotary ? '100%' : 'auto', borderBottom: 'none' }} />
+              <input type="text" defaultValue="Joseph Iannazzi" aria-label="Server name" style={{ ...baseInputStyle, fontWeight: 'bold', fontSize: 11, marginBottom: 2, width: showNotary ? '100%' : 'auto', borderBottom: 'none' }} />
               {!showNotary && (
-                <input type="text" defaultValue="PSL-2025-5" style={{ ...baseInputStyle, fontWeight: 'bold', fontSize: 11, width: 'auto', borderBottom: 'none' }} />
+                <input type="text" defaultValue="PSL-2025-5" aria-label="License number" style={{ ...baseInputStyle, fontWeight: 'bold', fontSize: 11, width: 'auto', borderBottom: 'none' }} />
               )}
             </div>
             {showNotary && (
-              <input type="text" defaultValue="PSL-2025-5" style={{ ...baseInputStyle, fontWeight: 'bold', fontSize: 11, width: '100%', borderBottom: 'none' }} />
+              <input type="text" defaultValue="PSL-2025-5" aria-label="License number" style={{ ...baseInputStyle, fontWeight: 'bold', fontSize: 11, width: '100%', borderBottom: 'none' }} />
             )}
 
             <AutoTextarea
@@ -299,7 +301,7 @@ export default function AffidavitOfService() {
 
               <div style={{ marginBottom: 25, display: 'flex', alignItems: 'baseline' }}>
                 <span>Date:</span>
-                <input type="text" className="line-input" style={{ ...baseInputStyle, flexGrow: 1, marginLeft: 5, borderBottom: '1px solid #000' }} />
+                <input type="text" className="line-input" aria-label="Notary date" style={{ ...baseInputStyle, flexGrow: 1, marginLeft: 5, borderBottom: '1px solid #000' }} />
               </div>
 
               <div style={{ borderBottom: '1px solid #000', width: '100%', marginBottom: 5 }} />
@@ -307,7 +309,7 @@ export default function AffidavitOfService() {
 
               <div style={{ display: 'flex', alignItems: 'baseline' }}>
                 <span>Commission&nbsp;Expires:</span>
-                <input type="text" className="line-input" style={{ ...baseInputStyle, flexGrow: 1, marginLeft: 5, borderBottom: '1px solid #000' }} />
+                <input type="text" className="line-input" aria-label="Commission expiration date" style={{ ...baseInputStyle, flexGrow: 1, marginLeft: 5, borderBottom: '1px solid #000' }} />
               </div>
             </div>
           )}
