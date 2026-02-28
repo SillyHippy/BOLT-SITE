@@ -119,7 +119,7 @@ export default function ReviewWidget() {
   const current = reviews[currentReview];
 
   return (
-    <section className="bg-gradient-to-br from-yellow-50 to-orange-50 py-10">
+    <section className="bg-gradient-to-br from-yellow-50 to-orange-50 py-10" aria-label="Customer reviews">
       <div className="max-w-6xl mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-8">
@@ -162,19 +162,21 @@ export default function ReviewWidget() {
               onClick={prevReview}
               className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-gray-100 hover:bg-gray-200 rounded-full p-2 transition-colors"
               onMouseEnter={() => setIsAutoPlaying(false)}
+              aria-label="Previous review"
             >
-              <ChevronLeft className="h-6 w-6 text-gray-600" />
+              <ChevronLeft className="h-6 w-6 text-gray-600" aria-hidden="true" />
             </button>
             <button 
               onClick={nextReview}
               className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-gray-100 hover:bg-gray-200 rounded-full p-2 transition-colors"
               onMouseEnter={() => setIsAutoPlaying(false)}
+              aria-label="Next review"
             >
-              <ChevronRight className="h-6 w-6 text-gray-600" />
+              <ChevronRight className="h-6 w-6 text-gray-600" aria-hidden="true" />
             </button>
 
             {/* Review Content */}
-            <div className="px-8">
+            <div className="px-8" aria-live="polite" aria-atomic="true">
               {/* Platform Badge */}
               <div className="flex justify-center mb-3">
                 <a 
@@ -220,6 +222,8 @@ export default function ReviewWidget() {
                     ? 'bg-blue-600' 
                     : 'bg-gray-300 hover:bg-gray-400'
                 }`}
+                aria-label={`Go to review ${index + 1} of ${reviews.length}`}
+                aria-current={index === currentReview ? 'true' : undefined}
               />
             ))}
           </div>

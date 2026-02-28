@@ -20,7 +20,7 @@ export default function OwnerBio() {
           {/* Content */}
           <div>
             <div className="flex items-center mb-4">
-              <User className="h-6 w-6 text-blue-600 mr-2" />
+              <User className="h-6 w-6 text-blue-600 mr-2" aria-hidden="true" />
               <h2 className="text-2xl font-bold text-gray-900">Meet Joseph</h2>
             </div>
             
@@ -48,21 +48,21 @@ export default function OwnerBio() {
             {/* Key Achievements */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
               <div className="flex items-center">
-                <Clock className="h-5 w-5 text-green-600 mr-2" />
+                <Clock className="h-5 w-5 text-green-600 mr-2" aria-hidden="true" />
                 <div>
                   <div className="font-semibold text-gray-900 text-sm">24/7 Service</div>
                   <div className="text-xs text-gray-600">Always Available</div>
                 </div>
               </div>
               <div className="flex items-center">
-                <Award className="h-5 w-5 text-yellow-600 mr-2" />
+                <Award className="h-5 w-5 text-yellow-600 mr-2" aria-hidden="true" />
                 <div>
                   <div className="font-semibold text-gray-900 text-sm">Licensed & Bonded</div>
                   <div className="text-xs text-gray-600">State Certified</div>
                 </div>
               </div>
               <div className="flex items-center">
-                <Heart className="h-5 w-5 text-red-600 mr-2" />
+                <Heart className="h-5 w-5 text-red-600 mr-2" aria-hidden="true" />
                 <div>
                   <div className="font-semibold text-gray-900 text-sm">Client-Focused</div>
                   <div className="text-xs text-gray-600">Personal Mission</div>
@@ -86,7 +86,7 @@ export default function OwnerBio() {
             {/* Professional Photo Placeholder */}
             <div className="bg-gradient-to-br from-blue-100 to-green-100 rounded-lg p-6 text-center">
               <div className="w-24 h-24 bg-blue-600 rounded-full mx-auto mb-3 flex items-center justify-center">
-                <User className="h-12 w-12 text-white" />
+                <User className="h-12 w-12 text-white" aria-hidden="true" />
               </div>
               <h3 className="text-lg font-bold text-gray-900 mb-1">Joseph Iannazzi</h3>
               <p className="text-gray-600 mb-2 text-sm">Founder & CEO</p>

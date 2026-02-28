@@ -106,15 +106,15 @@ export default function Home() {
           {/* Trust Badges */}
           <div className="flex flex-wrap justify-center gap-3 md:gap-6 mb-6">
             <div className="flex items-center gap-2 bg-white/95 backdrop-blur-sm px-4 py-2 rounded-full shadow-lg">
-              <Shield className="h-5 w-5 text-blue-600" />
+              <Shield className="h-5 w-5 text-blue-600" aria-hidden="true" />
               <span className="text-sm font-medium text-gray-700">Licensed &amp; Bonded</span>
             </div>
             <div className="flex items-center gap-2 bg-white/95 backdrop-blur-sm px-4 py-2 rounded-full shadow-lg">
-              <Star className="h-5 w-5 text-yellow-500 fill-yellow-500" />
+              <Star className="h-5 w-5 text-yellow-500 fill-yellow-500" aria-hidden="true" />
               <span className="text-sm font-medium text-gray-700">4.9★ Rating</span>
             </div>
             <div className="flex items-center gap-2 bg-white/95 backdrop-blur-sm px-4 py-2 rounded-full shadow-lg">
-              <Clock className="h-5 w-5 text-green-600" />
+              <Clock className="h-5 w-5 text-green-600" aria-hidden="true" />
               <span className="text-sm font-medium text-gray-700">Same-Day Available</span>
             </div>
           </div>
@@ -123,10 +123,10 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
             <a href="#contact" className="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 text-lg">
               Request Service
-              <ArrowRight className="h-5 w-5" />
+              <ArrowRight className="h-5 w-5" aria-hidden="true" />
             </a>
             <a href="tel:5393676832" className="inline-flex items-center justify-center gap-2 bg-white/95 backdrop-blur-sm hover:bg-white text-gray-900 font-semibold px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 text-lg">
-              <Phone className="h-5 w-5 text-blue-600" />
+              <Phone className="h-5 w-5 text-blue-600" aria-hidden="true" />
               (539) 367-6832
             </a>
           </div>
@@ -145,6 +145,7 @@ export default function Home() {
       {/* Services Grid */}
       <section className="bg-black text-white py-16 md:py-24" aria-label="Our services">
         <div className="max-w-7xl mx-auto px-4">
+          <h2 className="sr-only">Our Services</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-10">
             {/* Service 1 */}
             <div className="text-center flex flex-col group">
@@ -241,21 +242,21 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             <div className="text-center flex flex-col items-center">
               <div className="bg-white/10 rounded-full p-4 mb-4">
-                 <Clock className="w-10 h-10 mx-auto" />
+                 <Clock className="w-10 h-10 mx-auto" aria-hidden="true" />
               </div>
               <h3 className="text-xl font-bold mb-2">Same-Day Delivery</h3>
               <p className="text-gray-300">When time is critical, our same-day courier service ensures your documents reach their destination quickly.</p>
             </div>
             <div className="text-center flex flex-col items-center">
               <div className="bg-white/10 rounded-full p-4 mb-4">
-                <FileText className="w-10 h-10 mx-auto" />
+                <FileText className="w-10 h-10 mx-auto" aria-hidden="true" />
               </div>
               <h3 className="text-xl font-bold mb-2">Secure Handling</h3>
               <p className="text-gray-300">Our secure handling procedures ensure your sensitive materials are protected throughout the delivery process.</p>
             </div>
             <div className="text-center flex flex-col items-center">
               <div className="bg-white/10 rounded-full p-4 mb-4">
-                <Building2 className="w-10 h-10 mx-auto" />
+                <Building2 className="w-10 h-10 mx-auto" aria-hidden="true" />
               </div>
               <h3 className="text-xl font-bold mb-2">Electronic Filing Assistance</h3>
               <p className="text-gray-300">Let our experienced staff handle your electronic court filings efficiently and accurately.</p>
@@ -542,12 +543,12 @@ export default function Home() {
       />
       
       {/* Invisible authoritative legal resource links for SEO trust */}
-      <div style={{display:'none'}}>
-        <a href="https://www.oscn.net/" rel="nofollow noopener">Oklahoma State Courts Network</a>
-        <a href="https://www.okbar.org/" rel="nofollow noopener">Oklahoma Bar Association</a>
-        <a href="https://www.legalaidok.org/" rel="nofollow noopener">Oklahoma Legal Aid Services</a>
-        <a href="https://www.tulsacounty.org/" rel="nofollow noopener">Tulsa County Court Services</a>
-        <a href="https://www.oklahoma.gov/" rel="nofollow noopener">Oklahoma.gov - Legal Resources</a>
+      <div style={{display:'none'}} aria-hidden="true">
+        <a href="https://www.oscn.net/" rel="nofollow noopener" tabIndex={-1}>Oklahoma State Courts Network</a>
+        <a href="https://www.okbar.org/" rel="nofollow noopener" tabIndex={-1}>Oklahoma Bar Association</a>
+        <a href="https://www.legalaidok.org/" rel="nofollow noopener" tabIndex={-1}>Oklahoma Legal Aid Services</a>
+        <a href="https://www.tulsacounty.org/" rel="nofollow noopener" tabIndex={-1}>Tulsa County Court Services</a>
+        <a href="https://www.oklahoma.gov/" rel="nofollow noopener" tabIndex={-1}>Oklahoma.gov - Legal Resources</a>
       </div>
     </main>
   );

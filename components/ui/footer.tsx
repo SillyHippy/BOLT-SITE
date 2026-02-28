@@ -308,7 +308,7 @@ export function Footer() {
   };
 
   return (
-    <footer className="bg-white" id="contact">
+    <footer className="bg-white" id="contact" aria-label="Contact information and service request form">
       <div className="max-w-7xl mx-auto px-4 pt-8 pb-6">
         {/* Experience Trust Badge */}
         <div className="text-center mb-6">
@@ -338,7 +338,7 @@ export function Footer() {
             rel="noopener noreferrer"
             className="bg-amber-500 hover:bg-amber-600 text-white font-bold py-2 px-4 rounded inline-flex items-center"
           >
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
               <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
             </svg>
             Leave a Google Review
@@ -348,12 +348,12 @@ export function Footer() {
         {showForm && (
           <div className="bg-gray-50 p-6 rounded-lg mb-8 border border-gray-200">
             {submissionStatus === 'success' ? (
-                <div className="text-center py-10">
+                <div className="text-center py-10" role="alert">
                     <h3 className="text-2xl font-bold text-green-600 mb-2">Thank You!</h3>
                     <p className="text-gray-700">Your service request has been submitted successfully.</p>
                 </div>
             ) : submissionStatus === 'error' ? (
-                <div className="text-center py-10">
+                <div className="text-center py-10" role="alert">
                     <h3 className="text-2xl font-bold text-red-600 mb-2">Something Went Wrong</h3>
                     <p className="text-gray-700">We couldn&apos;t submit your form. Please try again later or email us directly.</p>
                 </div>
@@ -402,7 +402,7 @@ export function Footer() {
                       <div className="flex items-start"><div className="flex items-center h-5"><input id="service-standard" name="service_type" type="radio" value="Standard - $60" className="h-4 w-4 text-blue-600 border-gray-300 focus:ring-blue-500" /></div><div className="ml-3 text-sm"><label htmlFor="service-standard" className="font-medium text-gray-900">Standard Service <span className="text-xs italic text-gray-600">starting at</span> $60</label><p className="text-gray-500">Ideal for routine document delivery. First Service Attempt Within 5 Business Days (usually sooner)</p></div></div>
                       <div className="flex items-start"><div className="flex items-center h-5"><input id="service-rush" name="service_type" type="radio" value="Rush - $100" className="h-4 w-4 text-blue-600 border-gray-300 focus:ring-blue-500" /></div><div className="ml-3 text-sm"><label htmlFor="service-rush" className="font-medium text-gray-900">Rush Service <span className="text-xs italic text-gray-600">starting at</span> $100</label><p className="text-gray-500">For urgent demands that need immediate attention. A JLS Agent Will Attempt Service Within 72 Hours or Sooner based on availability</p></div></div>
                       <div className="flex items-start"><div className="flex items-center h-5"><input id="service-same-day" name="service_type" type="radio" value="Same Day - $150" className="h-4 w-4 text-blue-600 border-gray-300 focus:ring-blue-500" /></div><div className="ml-3 text-sm"><label htmlFor="service-same-day" className="font-medium text-gray-900">Same Day Service <span className="text-xs italic text-gray-600">starting at</span> $150</label><p className="text-gray-500">For urgent time-critical matters. A JLS Agent Will Attempt Service Within 24 Hours or Sooner based on availability</p></div></div>
-                      <div className="flex items-start"><div className="flex items-center h-5"><input id="service-other" name="service_type" type="radio" value="Other" className="h-4 w-4 text-blue-600 border-gray-300 focus:ring-blue-500" /></div><div className="ml-3 text-sm flex-grow"><label htmlFor="service-other" className="font-medium text-gray-900">Other</label><input type="text" name="service_type_other_details" placeholder="Please specify" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div></div>
+                      <div className="flex items-start"><div className="flex items-center h-5"><input id="service-other" name="service_type" type="radio" value="Other" className="h-4 w-4 text-blue-600 border-gray-300 focus:ring-blue-500" /></div><div className="ml-3 text-sm flex-grow"><label htmlFor="service-other" className="font-medium text-gray-900">Other</label><input type="text" name="service_type_other_details" placeholder="Please specify" aria-label="Other service type details" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/></div></div>
                   </div>
                 </div>
 
@@ -413,12 +413,12 @@ export function Footer() {
                   <input type="text" id="firm-name" name="firm_or_company_name" required className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/>
                 </div>
                 <div>
-                   <label className="block text-sm font-bold text-gray-700">Your Address</label>
-                   <input type="text" name="your_address_street" placeholder="Street Address" className="mt-1 mb-2 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/>
+                   <label className="block text-sm font-bold text-gray-700" id="your-address-label">Your Address</label>
+                   <input type="text" name="your_address_street" placeholder="Street Address" aria-label="Your street address" className="mt-1 mb-2 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/>
                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                      <input type="text" name="your_address_city" placeholder="City" className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/>
-                      <input type="text" name="your_address_state" placeholder="State/Region/Province" className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/>
-                      <input type="text" name="your_address_zip" placeholder="Postal / Zip Code" className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/>
+                      <input type="text" name="your_address_city" placeholder="City" aria-label="Your city" className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/>
+                      <input type="text" name="your_address_state" placeholder="State/Region/Province" aria-label="Your state or region" className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/>
+                      <input type="text" name="your_address_zip" placeholder="Postal / Zip Code" aria-label="Your postal or zip code" className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/>
                    </div>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -467,12 +467,12 @@ export function Footer() {
                 </div>
                 <div>
                   <label className="block text-sm font-bold text-gray-700">Service Address <span className="text-red-500">*</span></label>
-                  <input type="text" name="service_address_street" placeholder="Street Address" required className="mt-1 mb-2 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/>
-                  <input type="text" name="service_address_line2" placeholder="Address Line 2 (Apt, Suite, etc.)" className="mb-2 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/>
+                  <input type="text" name="service_address_street" placeholder="Street Address" required aria-label="Service street address" className="mt-1 mb-2 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/>
+                  <input type="text" name="service_address_line2" placeholder="Address Line 2 (Apt, Suite, etc.)" aria-label="Service address line 2" className="mb-2 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/>
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                    <input type="text" name="service_address_city" placeholder="City" required className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/>
-                    <input type="text" name="service_address_state" placeholder="State/Region/Province" required className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/>
-                    <input type="text" name="service_address_zip" placeholder="Postal / Zip Code" required className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/>
+                    <input type="text" name="service_address_city" placeholder="City" required aria-label="Service city" className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/>
+                    <input type="text" name="service_address_state" placeholder="State/Region/Province" required aria-label="Service state or region" className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/>
+                    <input type="text" name="service_address_zip" placeholder="Postal / Zip Code" required aria-label="Service postal or zip code" className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"/>
                   </div>
                 </div>
                 <div>
@@ -497,6 +497,10 @@ export function Footer() {
                   onDragLeave={handleDragLeave}
                   onDrop={handleDrop}
                   onClick={() => fileInputRef.current?.click()}
+                  role="button"
+                  tabIndex={0}
+                  aria-label="Upload documents - drag and drop files here or click to browse"
+                  onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); fileInputRef.current?.click(); } }}
                   className={`border-3 border-dashed rounded-xl p-6 text-center cursor-pointer transition-all duration-300 ${
                     isDragging
                       ? "border-blue-500 bg-blue-100 scale-[1.01]"
@@ -510,6 +514,7 @@ export function Footer() {
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
+                    aria-hidden="true"
                   >
                     <path
                       strokeLinecap="round"
@@ -537,6 +542,7 @@ export function Footer() {
                   accept=".pdf,.doc,.docx,.jpg,.jpeg,.png"
                   onChange={handleFileSelect}
                   className="hidden"
+                  aria-label="Select files to upload"
                 />
 
                 {/* File List */}
@@ -549,7 +555,7 @@ export function Footer() {
                         className="flex items-center gap-3 p-3 bg-white rounded-lg border border-gray-200 shadow-sm"
                       >
                         <div className="w-9 h-9 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                          <svg className="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <svg className="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                           </svg>
                         </div>
@@ -565,8 +571,9 @@ export function Footer() {
                           type="button"
                           onClick={(e) => { e.stopPropagation(); removeUploadFile(fileItem.id); }}
                           className="p-1 text-gray-400 hover:text-red-500 hover:bg-red-50 rounded-lg transition-colors"
+                          aria-label={`Remove file ${fileItem.file.name}`}
                         >
-                          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                           </svg>
                         </button>
@@ -577,13 +584,13 @@ export function Footer() {
 
                 {/* Upload Status Messages */}
                 {uploadStatus === "success" && (
-                  <div className="bg-green-50 border border-green-200 text-green-800 p-3 rounded-md text-center">
+                  <div className="bg-green-50 border border-green-200 text-green-800 p-3 rounded-md text-center" role="alert">
                     <strong>✅ Files uploaded successfully!</strong>
                     <p className="text-sm">{uploadMessage}</p>
                   </div>
                 )}
                 {uploadStatus === "error" && (
-                  <div className="bg-red-50 border border-red-200 text-red-800 p-3 rounded-md text-center">
+                  <div className="bg-red-50 border border-red-200 text-red-800 p-3 rounded-md text-center" role="alert">
                     <strong>❌ Upload failed</strong>
                     <p className="text-sm">{uploadMessage}</p>
                   </div>
@@ -763,9 +770,9 @@ export function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-blue-600 transition-colors"
-                aria-label="Facebook"
+                aria-label="Facebook (opens in new tab)"
               >
-                <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
                 </svg>
               </a>
@@ -774,9 +781,9 @@ export function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-blue-600 transition-colors"
-                aria-label="LinkedIn"
+                aria-label="LinkedIn (opens in new tab)"
               >
-                <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
                 </svg>
               </a>
@@ -785,9 +792,9 @@ export function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-blue-600 transition-colors"
-                aria-label="Google My Business"
+                aria-label="Google My Business (opens in new tab)"
               >
-                <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
                   <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
                   <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
@@ -799,9 +806,9 @@ export function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-blue-600 transition-colors"
-                aria-label="Yelp"
+                aria-label="Yelp (opens in new tab)"
               >
-                <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm4.5 8.5h-4v4c0 .276-.224.5-.5.5s-.5-.224-.5-.5v-4h-4c-.276 0-.5-.224-.5-.5s.224-.5.5-.5h4v-4c0-.276.224-.5.5-.5s.5.224.5.5v4h4c.276 0 .5.224.5.5s-.224.5-.5.5z"/>
                 </svg>
               </a>

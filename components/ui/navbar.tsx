@@ -36,7 +36,7 @@ export function Navbar() {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-40 bg-white shadow-sm">
+    <nav className="fixed top-0 left-0 right-0 z-40 bg-white shadow-sm" aria-label="Main navigation">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
@@ -96,6 +96,9 @@ export function Navbar() {
               type="button"
               onClick={toggleMobileMenu}
               className="text-gray-500 hover:text-gray-600 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+              aria-expanded={isMobileMenuOpen}
+              aria-controls="mobile-menu"
+              aria-label={isMobileMenuOpen ? 'Close main menu' : 'Open main menu'}
             >
               <span className="sr-only">Open main menu</span>
               <svg
@@ -118,6 +121,10 @@ export function Navbar() {
 
         {/* Mobile Menu */}
         <div 
+          id="mobile-menu"
+          role="dialog"
+          aria-modal="true"
+          aria-label="Mobile navigation menu"
           className={`fixed top-0 right-0 bottom-0 w-[250px] bg-white shadow-lg transform transition-transform duration-300 ease-in-out z-50 ${
             isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'
           } md:hidden`}
@@ -127,6 +134,7 @@ export function Navbar() {
             <button
               onClick={toggleMobileMenu}
               className="p-2 hover:bg-gray-100 rounded-full"
+              aria-label="Close menu"
             >
               <X className="h-6 w-6" />
             </button>
@@ -195,6 +203,7 @@ export function Navbar() {
           <div
             className="fixed inset-0 bg-black bg-opacity-50 z-45 md:hidden"
             onClick={toggleMobileMenu}
+            aria-hidden="true"
           />
         )}
       </div>
