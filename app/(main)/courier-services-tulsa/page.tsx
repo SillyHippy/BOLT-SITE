@@ -143,7 +143,7 @@ export default function CourierServicesTulsaPage() {
         speakable={['h1', 'h2', '.direct-answer']}
       />
 
-      <main className="min-h-screen pt-12 bg-white">
+      <div className="min-h-screen pt-12 bg-white">
 
         {/* Direct Answer Block */}
         <section className="bg-green-50 border-b-4 border-green-600 py-10">
@@ -480,7 +480,7 @@ export default function CourierServicesTulsaPage() {
             </div>
           </div>
         </section>
-      </main>
+      </div>
 
     </>
   );

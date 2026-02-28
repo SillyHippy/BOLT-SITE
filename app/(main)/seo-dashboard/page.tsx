@@ -75,11 +75,11 @@ export default function SeoDashboardPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
       />
-      <main className="container mx-auto px-4 py-16">
+      <div className="container mx-auto px-4 py-16">
         <h1 className="text-4xl font-bold mb-6">SEO Dashboard</h1>
         <p className="mb-4">Track your legal service SEO performance and structured data health.</p>
         {/* Add your dashboard analytics and widgets here */}
-      </main>
+      </div>
     </>
   );
 }

@@ -8,7 +8,7 @@ export { metadata } from './metadata';
 export default function PaymentsPage() {
   return (
     // --- EDITED --- Removed the "min-h-screen" class to fix the large gap
-    <main className="bg-gray-50 font-sans">
+    <div className="bg-gray-50 font-sans">
       {/* --- EDITED --- Adjusted bottom padding for better spacing */}
       <div className="pt-24 pb-20">
         {/* Header */}
@@ -136,6 +136,6 @@ export default function PaymentsPage() {
           reviewCount: 156
         }}
       />
-    </main>
+    </div>
   );
 }

@@ -131,7 +131,7 @@ export default function LegalPostingProcessServer() {
             </div>
           </div>
         </div>
-        <main className="container mx-auto px-4 py-16">
+        <div className="container mx-auto px-4 py-16">
           <div className="max-w-4xl mx-auto">
             <section className="mb-12">
               <h2 className="text-3xl font-bold text-gray-800 mb-6">When Personal Service Isn&apos;t an Option</h2>
@@ -200,7 +200,7 @@ export default function LegalPostingProcessServer() {
               </ul>
             </section>
           </div>
-        </main>
+        </div>
       </div>
       <UnifiedSchema
         pageType="service"

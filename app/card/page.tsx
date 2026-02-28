@@ -11,7 +11,7 @@ export default function CardPage() {
   const handleCloseModal = () => setIsModalOpen(false);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#0A0F1C] via-[#121D34] to-[#0A0F1C] flex items-center justify-center p-4 relative">
+    <main className="min-h-screen bg-gradient-to-br from-[#0A0F1C] via-[#121D34] to-[#0A0F1C] flex items-center justify-center p-4 relative">
       {/* Light effect */}
       <div className="absolute top-[-100px] left-[-100px] w-[500px] h-[500px] bg-gradient-radial from-white/20 to-transparent rounded-full blur-[200px] opacity-50"></div>
 
@@ -143,6 +143,6 @@ export default function CardPage() {
         </div>
       </div>
       <ShareModal isOpen={isModalOpen} onClose={handleCloseModal} />
-    </div>
+    </main>
   );
 }

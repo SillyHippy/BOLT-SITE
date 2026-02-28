@@ -35,9 +35,9 @@ export default function FAQAccordion({ faqs }: FAQAccordionProps) {
               </h3>
               <div className="flex-shrink-0">
                 {openIndex === index ? (
-                  <ChevronUp className="w-5 h-5 text-blue-600" />
+                  <ChevronUp className="w-5 h-5 text-blue-600" aria-hidden="true" />
                 ) : (
-                  <ChevronDown className="w-5 h-5 text-gray-500" />
+                  <ChevronDown className="w-5 h-5 text-gray-500" aria-hidden="true" />
                 )}
               </div>
             </div>

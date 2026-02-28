@@ -101,7 +101,7 @@ const UrgentProcessServerPage = () => {
   return (
     <>
       <Navbar />
-      <main className="min-h-screen bg-white">
+      <div className="min-h-screen bg-white">
         {/* Emergency Alert Banner */}
         <div className="bg-red-600 text-white py-3 text-center">
           <div className="container mx-auto px-4">
@@ -543,7 +543,7 @@ const UrgentProcessServerPage = () => {
             <p className="text-xs text-gray-500 mt-2">Last updated: February 2026</p>
           </div>
         </div>
-      </main>
+      </div>
 
       {/* LocalBusiness JSON-LD Schema */}
       <Script

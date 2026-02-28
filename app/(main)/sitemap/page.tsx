@@ -201,7 +201,7 @@ const SitemapPage = () => {
         </div>
       </nav>
 
-      <main className="container mx-auto px-4 py-10 max-w-6xl space-y-12">
+      <div className="container mx-auto px-4 py-10 max-w-6xl space-y-12">
         {sections.map((section) => {
           const c = colorMap[section.color];
           const sectionId = section.title.toLowerCase().replace(/[^a-z0-9]+/g, '-');
@@ -233,7 +233,7 @@ const SitemapPage = () => {
             </section>
           );
         })}
-      </main>
+      </div>
       <UnifiedSchema
         pageType="generic"
         url="https://justlegalsolutions.org/sitemap"

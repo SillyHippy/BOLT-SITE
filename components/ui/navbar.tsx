@@ -53,16 +53,16 @@ export function Navbar() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <Link href="/" className="text-gray-700 hover:text-gray-900">
+            <Link href="/" className="text-gray-700 hover:text-gray-900" aria-current={pathname === '/' ? 'page' : undefined}>
               Home
             </Link>
-            <Link href="/pricing" className="text-gray-700 hover:text-gray-900">
+            <Link href="/pricing" className="text-gray-700 hover:text-gray-900" aria-current={pathname === '/pricing' ? 'page' : undefined}>
               Pricing
             </Link>
-            <Link href="/service-areas" className="text-gray-700 hover:text-gray-900">
+            <Link href="/service-areas" className="text-gray-700 hover:text-gray-900" aria-current={pathname?.startsWith('/service-areas') ? 'page' : undefined}>
               Service Areas
             </Link>
-            <Link href="/virtual-assistant-services" className="text-gray-700 hover:text-gray-900">
+            <Link href="/virtual-assistant-services" className="text-gray-700 hover:text-gray-900" aria-current={pathname === '/virtual-assistant-services' ? 'page' : undefined}>
               VA Services
             </Link>
             <a 
@@ -72,10 +72,10 @@ export function Navbar() {
             >
               Courier Services
             </a>
-            <Link href="/law-firm-services" className="text-gray-700 hover:text-gray-900">
+            <Link href="/law-firm-services" className="text-gray-700 hover:text-gray-900" aria-current={pathname === '/law-firm-services' ? 'page' : undefined}>
               Law Firm Services
             </Link>
-            <Link href="/payments" className="text-gray-700 hover:text-gray-900">
+            <Link href="/payments" className="text-gray-700 hover:text-gray-900" aria-current={pathname === '/payments' ? 'page' : undefined}>
               Payments
             </Link>
           </div>
@@ -144,6 +144,7 @@ export function Navbar() {
               href="/"
               className="px-6 py-3 text-gray-700 hover:bg-gray-100"
               onClick={() => setIsMobileMenuOpen(false)}
+              aria-current={pathname === '/' ? 'page' : undefined}
             >
               Home
             </Link>
@@ -151,6 +152,7 @@ export function Navbar() {
               href="/pricing"
               className="px-6 py-3 text-gray-700 hover:bg-gray-100"
               onClick={() => setIsMobileMenuOpen(false)}
+              aria-current={pathname === '/pricing' ? 'page' : undefined}
             >
               Pricing
             </Link>
@@ -158,6 +160,7 @@ export function Navbar() {
               href="/service-areas"
               className="px-6 py-3 text-gray-700 hover:bg-gray-100"
               onClick={() => setIsMobileMenuOpen(false)}
+              aria-current={pathname?.startsWith('/service-areas') ? 'page' : undefined}
             >
               Service Areas
             </Link>
@@ -165,6 +168,7 @@ export function Navbar() {
               href="/virtual-assistant-services"
               className="px-6 py-3 text-gray-700 hover:bg-gray-100"
               onClick={() => setIsMobileMenuOpen(false)}
+              aria-current={pathname === '/virtual-assistant-services' ? 'page' : undefined}
             >
               VA Services
             </Link>
@@ -179,6 +183,7 @@ export function Navbar() {
               href="/law-firm-services"
               className="px-6 py-3 text-gray-700 hover:bg-gray-100"
               onClick={() => setIsMobileMenuOpen(false)}
+              aria-current={pathname === '/law-firm-services' ? 'page' : undefined}
             >
               Law Firm Services
             </Link>
@@ -186,6 +191,7 @@ export function Navbar() {
               href="/payments"
               className="px-6 py-3 text-gray-700 hover:bg-gray-100"
               onClick={() => setIsMobileMenuOpen(false)}
+              aria-current={pathname === '/payments' ? 'page' : undefined}
             >
               Payments
             </Link>

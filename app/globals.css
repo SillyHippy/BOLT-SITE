@@ -219,6 +219,15 @@
   }
 }
 
+/* ADA Compliance: Links in text blocks must be distinguishable by more than color alone */
+p a,
+li a,
+td a,
+dd a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
 /* ADA Compliance: Announce external links open in new tab for screen readers */
 a[target="_blank"] {
   position: relative;

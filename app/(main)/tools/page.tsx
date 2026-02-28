@@ -84,7 +84,7 @@ const ToolsPage = () => {
   ];
 
   return (
-    <main className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50">
       <div className="container mx-auto px-4 py-16 pt-24">
         {/* Hero Section */}
         <div className="text-center mb-16">
@@ -359,7 +359,7 @@ const ToolsPage = () => {
           reviewCount: 156
         }}
       />
-    </main>
+    </div>
   );
 };
 

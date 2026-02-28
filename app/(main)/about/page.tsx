@@ -56,7 +56,7 @@ export default function AboutPage() {
         }}
       />
       
-      <main className="min-h-screen bg-white">
+      <div className="min-h-screen bg-white">
         {/* Hero Section with Profile Layout */}
         <div className="bg-gradient-to-r from-blue-50 to-gray-50 py-16">
           <div className="container mx-auto px-4 max-w-6xl">
@@ -232,21 +232,21 @@ export default function AboutPage() {
             </p>
 
             <div className="bg-gray-50 p-6 rounded-lg my-6">
-              <h4 className="text-xl font-semibold mb-3">The Race Against the Clock</h4>
+              <h3 className="text-xl font-semibold mb-3">The Race Against the Clock</h3>
               <p className="mb-4">
                 A <Link href="/tulsa-process-server" className="text-blue-600 hover:text-blue-800">Tulsa</Link> law firm called us in a panic. They needed a crucial document served that same day, within hours, before the courthouse closed. A failure to serve would mean their client&apos;s case could be delayed for months. We immediately dropped all non-emergent tasks and focused entirely on their case. After several attempts and rapid <Link href="/tulsa-process-server" className="text-blue-600 hover:text-blue-800">skip-tracing</Link> analysis, we located the individual, completed the service, and filed the paperwork with the court just in time. The case proceeded, saving the attorney&apos;s client from a costly and stressful delay.
               </p>
             </div>
 
             <div className="bg-gray-50 p-6 rounded-lg my-6">
-              <h4 className="text-xl font-semibold mb-3">People Over Profit</h4>
+              <h3 className="text-xl font-semibold mb-3">People Over Profit</h3>
               <p className="mb-4">
                 A few months ago, an individual contacted us in desperation. They had spent all their money on other <Link href="/tulsa-process-server" className="text-blue-600 hover:text-blue-800">process servers</Link> and even the Sheriff&apos;s office, all of whom had failed to serve papers for a sensitive child adoption case. They couldn&apos;t afford our cheapest package. Believing that everyone deserves access to justice, we negotiated a rate they could afford, even though it meant no profit for us. We got the job done, and because the court didn&apos;t allow e-filing, we personally filed the documents at no extra charge. Today, that client is a close friend.
               </p>
             </div>
 
             <div className="bg-gray-50 p-6 rounded-lg my-6">
-              <h4 className="text-xl font-semibold mb-3">The Evasive Target</h4>
+              <h3 className="text-xl font-semibold mb-3">The Evasive Target</h3>
               <p className="mb-4">
                 A company had tried to serve an evasive individual twelve separate times without success. They couldn&apos;t afford an expensive stakeout service. We took the case and deployed our <Link href="/tulsa-process-server" className="text-blue-600 hover:text-blue-800">skip-tracing</Link> tools. We confirmed his address but learned he worked nights, outside of normal service hours. After observing his routine, we saw him leave his apartment near midnight. We successfully and legally served him at a nearby gas station, finally allowing the case to move forward where so many others had failed.
               </p>
@@ -351,7 +351,7 @@ export default function AboutPage() {
 
           </div>
         </div>
-      </main>
+      </div>
       
     </>
   );

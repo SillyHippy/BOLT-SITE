@@ -72,7 +72,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-white font-sans">
+    <div className="min-h-screen bg-white font-sans">
       <LocalPromoBanner zips={["74008", "74033", "74037"]} />
       
       {/* Hero Section - Mobile Optimized */}
@@ -550,6 +550,6 @@ export default function Home() {
         <a href="https://www.tulsacounty.org/" rel="nofollow noopener" tabIndex={-1}>Tulsa County Court Services</a>
         <a href="https://www.oklahoma.gov/" rel="nofollow noopener" tabIndex={-1}>Oklahoma.gov - Legal Resources</a>
       </div>
-    </main>
+    </div>
   );
 }

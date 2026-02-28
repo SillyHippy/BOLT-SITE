@@ -167,7 +167,7 @@ export default function BacklinksPage() {
         description="Verify Just Legal Solutions' professional credentials and business listings. Trusted Oklahoma process server with established online presence."
       />
       <Navbar />
-      <main className="container mx-auto px-4 py-8 mt-12">
+      <div className="container mx-auto px-4 py-8 mt-12">
         <h1 className="text-4xl font-bold mb-6 text-blue-900">Backlink Indexing & Internal Links Page</h1>
         <p className="text-lg text-gray-700 mb-8">This page is for search engine crawlers to discover our backlinks and for users to verify our online presence. It also provides internal links to every page on our site for SEO and navigation.</p>
   {/* Internal Links section removed; see sitemap for full list of pages */}
@@ -179,7 +179,7 @@ export default function BacklinksPage() {
             </li>
           ))}
         </ul>
-      </main>
+      </div>
       <Footer />
     </>
   );

@@ -177,7 +177,7 @@ export default function PricingPage() {
       
       <LocalPromoBanner zips={["74008", "74033", "74037"]} />
       
-      <main className="min-h-screen bg-white font-sans">
+      <div className="min-h-screen bg-white font-sans">
       <section className="pt-24 pb-12 px-4 bg-gradient-to-br from-slate-50 via-blue-50 to-slate-100">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-blue-900 mb-4">Process Server Pricing</h1>
@@ -568,7 +568,7 @@ export default function PricingPage() {
         phone="(539) 367-6832"
         skipSchema={true}
       />
-    </main>
+    </div>
     </>
   );
 }
