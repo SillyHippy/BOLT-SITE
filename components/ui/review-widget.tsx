@@ -109,7 +109,7 @@ export default function ReviewWidget() {
 
   const getPlatformColor = (platform: string) => {
     switch (platform) {
-      case 'Client Survey': return 'text-green-600';
+      case 'Client Survey': return 'text-green-800';
       case 'Phone Review': return 'text-purple-600';
       case 'Email Feedback': return 'text-blue-600';
       default: return 'text-gray-600';
