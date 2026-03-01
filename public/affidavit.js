@@ -10,11 +10,21 @@ async function generatePDF() {
     'Unable to serve in a timely fashion', 'Address does not exist', 'other'
   ];
   
+  // Map from consistent form field names to PDF template field names
+  const formToPdfFieldMap = {
+    'Service attempt 3 Date': 'Service attempt3 date',
+    'Service attempt 4 Date': 'Service attempt number 4',
+    'Service attempt 5 Date': 'Service attempt5 Date',
+    'Service attempt 6 Date': 'Service attempt6 Date'
+  };
+
   for (const [key, value] of formData.entries()) {
-    if (checkboxNames.includes(key)) {
-      values[key] = 'Yes';
+    // Use PDF field name if a mapping exists, otherwise use form field name as-is
+    const pdfKey = formToPdfFieldMap[key] || key;
+    if (checkboxNames.includes(pdfKey)) {
+      values[pdfKey] = 'Yes';
     } else {
-      values[key] = value;
+      values[pdfKey] = value;
     }
   }
   

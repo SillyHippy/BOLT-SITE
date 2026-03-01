@@ -107,8 +107,8 @@
         <input aria-label="Service attempt 2 time" name="Service attempt 2 time" type="text" placeholder="HH:MM AM/PM">
       </label><br>
       <label>
-        Service attempt 3 date
-        <input aria-label="Service attempt3 date" name="Service attempt3 date" type="text" placeholder="MM/DD/YYYY">
+        Service attempt 3 Date
+        <input aria-label="Service attempt 3 Date" name="Service attempt 3 Date" type="text" placeholder="MM/DD/YYYY">
       </label>
       <label>
         Service attempt 3 time
@@ -116,7 +116,7 @@
       </label><br>
       <label>
         Service attempt 4 Date
-        <input aria-label="Service attempt number 4" name="Service attempt number 4" type="text" placeholder="MM/DD/YYYY">
+        <input aria-label="Service attempt 4 Date" name="Service attempt 4 Date" type="text" placeholder="MM/DD/YYYY">
       </label>
       <label>
         Service attempt 4 time
@@ -124,7 +124,7 @@
       </label><br>
       <label>
         Service attempt 5 Date
-        <input aria-label="Service attempt5 Date" name="Service attempt5 Date" type="text" placeholder="MM/DD/YYYY">
+        <input aria-label="Service attempt 5 Date" name="Service attempt 5 Date" type="text" placeholder="MM/DD/YYYY">
       </label>
       <label>
         Service attempt 5 time
@@ -132,7 +132,7 @@
       </label><br>
       <label>
         Service attempt 6 Date
-        <input aria-label="Service attempt6 Date" name="Service attempt6 Date" type="text" placeholder="MM/DD/YYYY">
+        <input aria-label="Service attempt 6 Date" name="Service attempt 6 Date" type="text" placeholder="MM/DD/YYYY">
       </label>
       <label>
         Service attempt 6 time
@@ -179,14 +179,39 @@
         msg.innerHTML = '<strong>✅ Form pre-filled from link!</strong> Click Download PDF to save.';
         document.querySelector('.container').insertBefore(msg, document.querySelector('#affidavit-form'));
         
-        for (const [key, value] of params.entries()) {
-          const input = document.querySelector('input[name="' + key + '"], textarea[name="' + key + '"]');
+        // Alias map: old/variant parameter names → current form field names
+        var aliasMap = {
+          'Service attempt3 date': 'Service attempt 3 Date',
+          'Service attempt3 Date': 'Service attempt 3 Date',
+          'Service attempt 3 date': 'Service attempt 3 Date',
+          'Service attempt number 4': 'Service attempt 4 Date',
+          'Service attempt5 Date': 'Service attempt 5 Date',
+          'Service attempt5 date': 'Service attempt 5 Date',
+          'Service attempt 5 date': 'Service attempt 5 Date',
+          'Service attempt6 Date': 'Service attempt 6 Date',
+          'Service attempt6 date': 'Service attempt 6 Date',
+          'Service attempt 6 date': 'Service attempt 6 Date'
+        };
+        
+        // Build a name→element lookup for all form fields (safe, no CSS selector issues)
+        var fieldMap = {};
+        var allInputs = document.querySelectorAll('#affidavit-form input, #affidavit-form textarea');
+        allInputs.forEach(function(el) {
+          if (el.name) fieldMap[el.name] = el;
+        });
+        
+        for (const [rawKey, rawValue] of params.entries()) {
+          // Resolve aliases and clean up backslash artifacts
+          var key = aliasMap[rawKey] || rawKey;
+          var value = rawValue.replace(/\\/g, '');
+          
+          var input = fieldMap[key];
           if (input && input.type !== 'checkbox') {
-            input.value = decodeURIComponent(value);
+            input.value = value;
           }
           if (value === 'Yes' || value === 'on') {
-            const checkbox = document.querySelector('input[name="' + key + '"][type="checkbox"]');
-            if (checkbox) checkbox.checked = true;
+            var checkbox = fieldMap[key];
+            if (checkbox && checkbox.type === 'checkbox') checkbox.checked = true;
           }
         }
         toggleSubName();
