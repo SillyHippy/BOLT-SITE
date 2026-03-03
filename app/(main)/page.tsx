@@ -20,7 +20,7 @@ import ReviewWidget from '@/components/ui/review-widget';
 
 export const metadata: Metadata = {
   title: {
-    absolute: 'Tulsa Process Server | Just Legal Solutions Oklahoma'
+    absolute: 'Just Legal Solutions Oklahoma: Tulsa Process Server'
   },
   description: getPromoDescription(
     'Expert process serving for Tulsa, Broken Arrow, Sapulpa, Glenpool & Oklahoma. 50+ years combined experience. Process serving starts at $30, with standard, rush and same-day options available',

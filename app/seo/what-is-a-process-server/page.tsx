@@ -12,7 +12,7 @@ import PerformanceSchema from '@/components/ui/performance-schema';
 
 // Enhanced metadata for maximum SEO impact
 export const metadata: Metadata = {
-  title: 'What Is a Process Server? Professional Legal Document Delivery in Tulsa, Oklahoma',
+  title: 'What Is a Process Server? | Tulsa OK Legal Document Delivery',
   description: 'Learn what a process server does in Oklahoma—expert legal document delivery, court papers, and subpoenas. Trusted by law firms and individuals for fast, licensed, and reliable service.',
   keywords: [
     'what is a process server',
