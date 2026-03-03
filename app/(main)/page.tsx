@@ -20,13 +20,13 @@ import ReviewWidget from '@/components/ui/review-widget';
 
 export const metadata: Metadata = {
   title: {
-    absolute: 'Just Legal Solutions Oklahoma: Tulsa Process Server'
+    absolute: 'Just Legal Solutions | Oklahoma Process Server Since 2020'
   },
   description: getPromoDescription(
     'Expert process serving for Tulsa, Broken Arrow, Sapulpa, Glenpool & Oklahoma. 50+ years combined experience. Process serving starts at $30, with standard, rush and same-day options available',
     '30% OFF LIMITED TIME! Expert process serving for Tulsa, Broken Arrow, Sapulpa, Glenpool & Oklahoma. 50+ years combined experience. Process serving starts at $30, with standard, rush and same-day options available'
   ),
-  keywords: 'process server Tulsa, Oklahoma process serving, legal document delivery, court papers served, divorce papers service, summons delivery, skip tracing Oklahoma, same day process serving, Broken Arrow process server, Sapulpa legal services, Tulsa County court services, professional process serving, certified process server, legal courier Tulsa, court document transfer',
+  keywords: 'Oklahoma process server, process serving Oklahoma, legal document delivery, court papers served, divorce papers service, summons delivery, skip tracing Oklahoma, same day process serving, Broken Arrow process server, Sapulpa legal services, professional process serving, certified process server, legal courier Oklahoma, court document transfer',
   other: {
     'ai-content-type': 'homepage',
     'ai-summary': 'Just Legal Solutions is a licensed, bonded Oklahoma process server based in Glenpool serving Tulsa County and all 77 Oklahoma counties. Services include process serving ($30+), legal document delivery, skip tracing, court filing, and courier services. 50+ years combined experience. Same-day and 24/7 emergency service available. Founded by Joseph Iannazzi.',
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Professional Process Server Tulsa County - Just Legal Solutions Oklahoma',
+    title: 'Just Legal Solutions | Oklahoma Process Server Since 2020',
     description: 'Expert process serving for Tulsa, Broken Arrow, Sapulpa, Glenpool & Oklahoma. 50+ years combined experience. Process serving starts at $30, with standard, rush and same-day options available',
     url: 'https://justlegalsolutions.org/',
     siteName: 'Just Legal Solutions',
