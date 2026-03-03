@@ -471,7 +471,7 @@ export default function OklahomaProcessServerBestPracticesChecklist2026() {
             </div>
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-              Oklahoma Process Server
+              Oklahoma Process Server{' '}
               <span className="block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">Best Practices Checklist</span>
             </h1>
             

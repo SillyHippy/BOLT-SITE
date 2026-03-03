@@ -331,7 +331,7 @@ export default function ServiceAreasHub() {
               </div>
               
               <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                Oklahoma Process Server
+                Oklahoma Process Server{' '}
                 <span className="block text-yellow-400 mt-2">Service Areas</span>
               </h1>
               

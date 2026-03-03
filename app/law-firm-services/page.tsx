@@ -207,7 +207,7 @@ export default function LawFirmServicesPage() {
               ⚖️ EXCLUSIVE LAW FIRM PARTNERSHIP
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Process Serving Built for <span className="text-yellow-400">Oklahoma Law Firms</span>
+              Process Serving Built for{' '}<span className="text-yellow-400">Oklahoma Law Firms</span>
             </h1>
             <p className="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto">
               Flat-rate process serving for Oklahoma law firms with priority scheduling and volume discounts. 

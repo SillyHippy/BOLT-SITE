@@ -156,7 +156,7 @@ export default function WagonerCountyProcessServer() {
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">
               <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                Process Server <span className="text-yellow-400">Wagoner County, Oklahoma</span>
+                Process Server{' '}<span className="text-yellow-400">Wagoner County, Oklahoma</span>
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-blue-100">
                 County-Wide Legal Document Service • All Cities & Towns • Professional Excellence

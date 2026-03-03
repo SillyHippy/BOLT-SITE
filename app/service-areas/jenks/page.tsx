@@ -247,7 +247,7 @@ export default function JenksProcessServer() {
         <section className="bg-gradient-to-br from-blue-900 via-slate-900 to-blue-800 text-white py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              Professional <span className="text-yellow-400">Jenks</span> Process Server
+              Professional{' '}<span className="text-yellow-400">Jenks</span>{' '}Process Server
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-blue-100 max-w-4xl mx-auto">
               Expert legal document delivery in Jenks, Oklahoma. Serving the Oklahoma Aquarium area, Main Street District, and all residential neighborhoods with 24/7 emergency service.

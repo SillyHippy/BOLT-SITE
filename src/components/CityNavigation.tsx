@@ -42,7 +42,7 @@ export default function CityNavigation({ currentCity, className = "" }: CityNavi
                       currentCity === city.slug ? 'font-semibold text-blue-800' : ''
                     }`}
                   >
-                    {city.name} Process Server
+                    {city.name} Process Server{' '}
                     <span className="text-sm text-gray-500 ml-2">({city.county})</span>
                   </Link>
                 </li>

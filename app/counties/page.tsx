@@ -160,7 +160,7 @@ export default function ServiceAreasHub() {
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">
               <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                Oklahoma <span className="text-yellow-400">Counties</span> Process Server
+                Oklahoma{' '}<span className="text-yellow-400">Counties</span>{' '}Process Server
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-blue-100">
                 Complete County Coverage • All 77 Oklahoma Counties • Licensed & Insured Statewide
