@@ -38,7 +38,7 @@ export const organizationSchema: WithContext<Organization> = {
   "sameAs": [
     "https://justlegalsolutions.org",
     "https://www.facebook.com/people/Just-Legal-Solutions/61574881736527/",
-    "https://g.co/kgs/vMgnxex",
+    "https://www.google.com/maps/place/Just+Legal+Solutions/@35.3090496,-98.7167134,7z/data=!3m1!4b1!4m6!3m5!1s0x2d3a1c9aca7b5281:0x313651fd581f35bf!8m2!3d35.3090496!4d-98.7167134!16s%2Fg%2F11x0psycvf",
     "https://www.yelp.com/biz/just-legal-solutions-glenpool",
     "https://www.linkedin.com/company/justlegalsolutionsok/",
     "https://local.yahoo.com/info-238748413-just-legal-solutions-glenpool",
