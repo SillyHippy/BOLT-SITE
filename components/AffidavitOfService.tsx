@@ -6,6 +6,16 @@ export default function AffidavitOfService() {
   const [caseNumber, setCaseNumber] = useState('');
   const [showNotary, setShowNotary] = useState(true);
   const [affidavitTitle, setAffidavitTitle] = useState('AFFIDAVIT OF SERVICE');
+
+  // Sync title prefix when notary checkbox changes
+  useEffect(() => {
+    setAffidavitTitle(prev => {
+      const isNonService = prev.includes('NON-SERVICE');
+      const variant = isNonService ? 'NON-SERVICE' : 'SERVICE';
+      return showNotary ? `AFFIDAVIT OF ${variant}` : `DECLARATION OF ${variant}`;
+    });
+  }, [showNotary]);
+
   const [mannerText, setMannerText] = useState('');
   const [attempts, setAttempts] = useState([
     { id: 1, text: '' },
@@ -38,6 +48,9 @@ export default function AffidavitOfService() {
   const fillManner = (template: string) => {
     if (template) setMannerText(template);
   };
+
+  const titleServiceLabel = showNotary ? 'AFFIDAVIT OF SERVICE' : 'DECLARATION OF SERVICE';
+  const titleNonServiceLabel = showNotary ? 'AFFIDAVIT OF NON-SERVICE' : 'DECLARATION OF NON-SERVICE';
 
   return (
     <>
@@ -144,8 +157,8 @@ export default function AffidavitOfService() {
             background: 'transparent',
           }}
         >
-          <option value="AFFIDAVIT OF SERVICE">AFFIDAVIT OF SERVICE</option>
-          <option value="AFFIDAVIT OF NON-SERVICE">AFFIDAVIT OF NON-SERVICE</option>
+          <option value={titleServiceLabel}>{titleServiceLabel}</option>
+          <option value={titleNonServiceLabel}>{titleNonServiceLabel}</option>
         </select>
 
         {/* Top Grid */}
@@ -189,7 +202,11 @@ export default function AffidavitOfService() {
 
         {/* Sworn Statement */}
         <div style={{ fontSize: 11, textAlign: 'justify', marginBottom: 8, lineHeight: 1.3 }}>
-          I, <strong><input type="text" defaultValue="Joseph Iannazzi" aria-label="Affiant name" style={{ width: 100, fontWeight: 'bold', borderBottom: '1px solid #000', textAlign: 'center', border: 'none', borderBottomWidth: 1, borderBottomStyle: 'solid', borderBottomColor: '#000', background: 'transparent', fontFamily: 'inherit', fontSize: 11, padding: 2 }} /></strong>, being duly sworn, depose and say: I am over the age of 18 years and not a party to this action, and that within the boundaries of the state where service was effected, I was authorized by law to make service of the documents and informed said person of the contents herein.
+          I, <strong><input type="text" defaultValue="Joseph Iannazzi" aria-label="Affiant name" style={{ width: 100, fontWeight: 'bold', borderBottom: '1px solid #000', textAlign: 'center', border: 'none', borderBottomWidth: 1, borderBottomStyle: 'solid', borderBottomColor: '#000', background: 'transparent', fontFamily: 'inherit', fontSize: 11, padding: 2 }} /></strong>,{' '}
+          {showNotary
+            ? 'being duly sworn, depose and say:'
+            : 'declare:'}{' '}
+          I am over the age of 18 years and not a party to this action, and that within the boundaries of the state where service was effected, I was authorized by law to make service of the documents and informed said person of the contents herein.
         </div>
 
         {/* Details Box */}
@@ -272,6 +289,21 @@ export default function AffidavitOfService() {
         >
           {/* Server Info */}
           <div style={{ fontSize: 11, lineHeight: 1.4, maxWidth: showNotary ? '100%' : '300px' }}>
+            {/* Oklahoma unsworn declaration (shown only when notary is hidden) */}
+            {!showNotary && (
+              <div style={{ marginBottom: 8, lineHeight: 1.3 }}>
+                I declare under penalty of perjury under the laws of the State of Oklahoma that the foregoing is true and correct.
+              </div>
+            )}
+
+            {/* Date line (shown only when notary is hidden) */}
+            {!showNotary && (
+              <div style={{ marginBottom: 25, display: 'flex', alignItems: 'baseline' }}>
+                <span>Date:</span>
+                <input type="text" className="line-input" aria-label="Declaration date" style={{ ...baseInputStyle, flexGrow: 1, marginLeft: 5, borderBottom: '1px solid #000' }} />
+              </div>
+            )}
+
             {/* Signature Line */}
             <div style={{ borderBottom: '1px solid #000', width: '100%', marginBottom: 2 }} />
 
