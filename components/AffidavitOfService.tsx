@@ -13,16 +13,29 @@ export default function AffidavitOfService() {
   ]);
   const attemptsEndRef = useRef<HTMLDivElement>(null);
 
+  useEffect(() => {
+    setAffidavitTitle(prev => {
+      if (showNotary) {
+        if (prev === 'DECLARATION OF SERVICE') return 'AFFIDAVIT OF SERVICE';
+        if (prev === 'DECLARATION OF NON-SERVICE') return 'AFFIDAVIT OF NON-SERVICE';
+      } else {
+        if (prev === 'AFFIDAVIT OF SERVICE') return 'DECLARATION OF SERVICE';
+        if (prev === 'AFFIDAVIT OF NON-SERVICE') return 'DECLARATION OF NON-SERVICE';
+      }
+      return prev;
+    });
+  }, [showNotary]);
+
   const handlePrint = useCallback(() => {
     const originalTitle = document.title;
     if (caseNumber.trim()) {
       document.title = `${caseNumber.trim()} - Affidavit`;
     } else {
-      document.title = 'Affidavit of Service';
+      document.title = showNotary ? 'Affidavit of Service' : 'Declaration of Service';
     }
     window.print();
     setTimeout(() => { document.title = originalTitle; }, 1000);
-  }, [caseNumber]);
+  }, [caseNumber, showNotary]);
 
   const addAttempt = () => {
     if (attempts.length >= 6) return;
@@ -38,6 +51,12 @@ export default function AffidavitOfService() {
   const fillManner = (template: string) => {
     if (template) setMannerText(template);
   };
+
+  const serviceTitle = showNotary ? 'AFFIDAVIT OF SERVICE' : 'DECLARATION OF SERVICE';
+  const nonServiceTitle = showNotary ? 'AFFIDAVIT OF NON-SERVICE' : 'DECLARATION OF NON-SERVICE';
+  const swornText = showNotary
+    ? ', being duly sworn, depose and say: I am over the age of 18 years and not a party to this action, and that within the boundaries of the state where service was effected, I was authorized by law to make service of the documents and informed said person of the contents herein.'
+    : ', declare: I am over the age of 18 years and not a party to this action, and that within the boundaries of the state where service was effected, I was authorized by law to make service of the documents and informed said person of the contents herein.';
 
   return (
     <>
@@ -144,8 +163,8 @@ export default function AffidavitOfService() {
             background: 'transparent',
           }}
         >
-          <option value="AFFIDAVIT OF SERVICE">AFFIDAVIT OF SERVICE</option>
-          <option value="AFFIDAVIT OF NON-SERVICE">AFFIDAVIT OF NON-SERVICE</option>
+          <option value={serviceTitle}>{serviceTitle}</option>
+          <option value={nonServiceTitle}>{nonServiceTitle}</option>
         </select>
 
         {/* Top Grid */}
@@ -189,7 +208,7 @@ export default function AffidavitOfService() {
 
         {/* Sworn Statement */}
         <div style={{ fontSize: 11, textAlign: 'justify', marginBottom: 8, lineHeight: 1.3 }}>
-          I, <strong><input type="text" defaultValue="Joseph Iannazzi" aria-label="Affiant name" style={{ width: 100, fontWeight: 'bold', borderBottom: '1px solid #000', textAlign: 'center', border: 'none', borderBottomWidth: 1, borderBottomStyle: 'solid', borderBottomColor: '#000', background: 'transparent', fontFamily: 'inherit', fontSize: 11, padding: 2 }} /></strong>, being duly sworn, depose and say: I am over the age of 18 years and not a party to this action, and that within the boundaries of the state where service was effected, I was authorized by law to make service of the documents and informed said person of the contents herein.
+          I, <strong><input type="text" defaultValue="Joseph Iannazzi" aria-label="Affiant name" style={{ width: 100, fontWeight: 'bold', borderBottom: '1px solid #000', textAlign: 'center', border: 'none', borderBottomWidth: 1, borderBottomStyle: 'solid', borderBottomColor: '#000', background: 'transparent', fontFamily: 'inherit', fontSize: 11, padding: 2 }} /></strong>{swornText}
         </div>
 
         {/* Details Box */}
@@ -272,6 +291,17 @@ export default function AffidavitOfService() {
         >
           {/* Server Info */}
           <div style={{ fontSize: 11, lineHeight: 1.4, maxWidth: showNotary ? '100%' : '300px' }}>
+            {!showNotary && (
+              <>
+                <div style={{ marginBottom: 5 }}>
+                  I declare under penalty of perjury under the laws of the State of Oklahoma that the foregoing is true and correct.
+                </div>
+                <div style={{ marginBottom: 15, display: 'flex', alignItems: 'baseline' }}>
+                  <span>Date:</span>
+                  <input type="text" className="line-input" aria-label="Declaration date" style={{ ...baseInputStyle, flexGrow: 1, marginLeft: 5, borderBottom: '1px solid #000' }} />
+                </div>
+              </>
+            )}
             {/* Signature Line */}
             <div style={{ borderBottom: '1px solid #000', width: '100%', marginBottom: 2 }} />
 
