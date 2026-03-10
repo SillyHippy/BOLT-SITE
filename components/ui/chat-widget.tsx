@@ -3,135 +3,135 @@
 import { useState, useRef, useEffect, useCallback } from 'react';
 import { usePathname } from 'next/navigation';
 
-const WEBHOOK_URL = 'https://joenazz.app.n8n.cloud/webhook/jls-chat';
+const WEBHOOK_URL = '/api/chat';
 const BRAND_COLOR = '#1a1a2e';
 const ACCENT_COLOR = '#22c55e';
 
 interface Message {
-    role: 'user' | 'assistant';
-    content: string;
+  role: 'user' | 'assistant';
+  content: string;
 }
 
 const SUGGESTIONS = [
-    { emoji: '💰', label: 'Pricing' },
-    { emoji: '📍', label: 'Coverage areas' },
-    { emoji: '⚡', label: 'Same-day service' },
-    { emoji: '📋', label: 'What is process serving?' },
+  { emoji: '💰', label: 'Pricing' },
+  { emoji: '📍', label: 'Coverage areas' },
+  { emoji: '⚡', label: 'Same-day service' },
+  { emoji: '📋', label: 'What is process serving?' },
 ];
 
 const WELCOME_MESSAGE =
-    "Hi! I'm the Just Legal Solutions assistant. I can answer questions about process serving, pricing, coverage areas, and how we can help with your legal documents. What can I help you with?";
+  "Hi! I'm the Just Legal Solutions assistant. I can answer questions about process serving, pricing, coverage areas, and how we can help with your legal documents. What can I help you with?";
 
 export function ChatWidget() {
-    const pathname = usePathname();
+  const pathname = usePathname();
 
-    // Don't render on /card routes
-    if (pathname.startsWith('/card')) return null;
+  // Don't render on /card routes
+  if (pathname.startsWith('/card')) return null;
 
-    return <ChatWidgetInner />;
+  return <ChatWidgetInner />;
 }
 
 function ChatWidgetInner() {
-    const [isOpen, setIsOpen] = useState(false);
-    const [messages, setMessages] = useState<Message[]>([]);
-    const [input, setInput] = useState('');
-    const [isLoading, setIsLoading] = useState(false);
-    const [showBadge, setShowBadge] = useState(false);
-    const [showSuggestions, setShowSuggestions] = useState(true);
-    const messagesEndRef = useRef<HTMLDivElement>(null);
-    const inputRef = useRef<HTMLTextAreaElement>(null);
+  const [isOpen, setIsOpen] = useState(false);
+  const [messages, setMessages] = useState<Message[]>([]);
+  const [input, setInput] = useState('');
+  const [isLoading, setIsLoading] = useState(false);
+  const [showBadge, setShowBadge] = useState(false);
+  const [showSuggestions, setShowSuggestions] = useState(true);
+  const messagesEndRef = useRef<HTMLDivElement>(null);
+  const inputRef = useRef<HTMLTextAreaElement>(null);
 
-    // Show notification badge after 5 seconds
-    useEffect(() => {
-        const timer = setTimeout(() => {
-            if (!isOpen) setShowBadge(true);
-        }, 5000);
-        return () => clearTimeout(timer);
-    }, [isOpen]);
+  // Show notification badge after 5 seconds
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      if (!isOpen) setShowBadge(true);
+    }, 5000);
+    return () => clearTimeout(timer);
+  }, [isOpen]);
 
-    // Scroll to bottom on new messages
-    useEffect(() => {
-        messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
-    }, [messages, isLoading]);
+  // Scroll to bottom on new messages
+  useEffect(() => {
+    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+  }, [messages, isLoading]);
 
-    const toggleChat = useCallback(() => {
-        setIsOpen((prev) => {
-            const next = !prev;
-            if (next) {
-                setShowBadge(false);
-                if (messages.length === 0) {
-                    setMessages([{ role: 'assistant', content: WELCOME_MESSAGE }]);
-                }
-                setTimeout(() => inputRef.current?.focus(), 100);
-            }
-            return next;
-        });
-    }, [messages.length]);
-
-    const sendMessage = useCallback(
-        async (text: string) => {
-            const trimmed = text.trim();
-            if (!trimmed || isLoading) return;
-
-            setIsLoading(true);
-            setShowSuggestions(false);
-            setInput('');
-
-            const userMsg: Message = { role: 'user', content: trimmed };
-            setMessages((prev) => [...prev, userMsg]);
-
-            try {
-                const historyForApi = messages.map((m) => ({
-                    role: m.role,
-                    content: m.content,
-                }));
-
-                const res = await fetch(WEBHOOK_URL, {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({
-                        message: trimmed,
-                        history: historyForApi,
-                    }),
-                });
-
-                if (!res.ok) throw new Error('HTTP ' + res.status);
-                const data = await res.json();
-                const reply =
-                    data.reply ||
-                    "I'm having trouble right now. Please call (539) 367-6832 for immediate help.";
-
-                setMessages((prev) => [
-                    ...prev,
-                    { role: 'assistant', content: reply },
-                ]);
-            } catch {
-                setMessages((prev) => [
-                    ...prev,
-                    {
-                        role: 'assistant',
-                        content:
-                            "Sorry, I'm having a connection issue. Please call or text us directly at (539) 367-6832.",
-                    },
-                ]);
-            }
-
-            setIsLoading(false);
-            inputRef.current?.focus();
-        },
-        [isLoading, messages]
-    );
-
-    const handleKeyDown = (e: React.KeyboardEvent) => {
-        if (e.key === 'Enter' && !e.shiftKey) {
-            e.preventDefault();
-            sendMessage(input);
+  const toggleChat = useCallback(() => {
+    setIsOpen((prev) => {
+      const next = !prev;
+      if (next) {
+        setShowBadge(false);
+        if (messages.length === 0) {
+          setMessages([{ role: 'assistant', content: WELCOME_MESSAGE }]);
         }
-    };
+        setTimeout(() => inputRef.current?.focus(), 100);
+      }
+      return next;
+    });
+  }, [messages.length]);
 
-    return (
-        <>
-            <style jsx global>{`
+  const sendMessage = useCallback(
+    async (text: string) => {
+      const trimmed = text.trim();
+      if (!trimmed || isLoading) return;
+
+      setIsLoading(true);
+      setShowSuggestions(false);
+      setInput('');
+
+      const userMsg: Message = { role: 'user', content: trimmed };
+      setMessages((prev) => [...prev, userMsg]);
+
+      try {
+        const historyForApi = messages.map((m) => ({
+          role: m.role,
+          content: m.content,
+        }));
+
+        const res = await fetch(WEBHOOK_URL, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            message: trimmed,
+            history: historyForApi,
+          }),
+        });
+
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        const data = await res.json();
+        const reply =
+          data.reply ||
+          "I'm having trouble right now. Please call (539) 367-6832 for immediate help.";
+
+        setMessages((prev) => [
+          ...prev,
+          { role: 'assistant', content: reply },
+        ]);
+      } catch {
+        setMessages((prev) => [
+          ...prev,
+          {
+            role: 'assistant',
+            content:
+              "Sorry, I'm having a connection issue. Please call or text us directly at (539) 367-6832.",
+          },
+        ]);
+      }
+
+      setIsLoading(false);
+      inputRef.current?.focus();
+    },
+    [isLoading, messages]
+  );
+
+  const handleKeyDown = (e: React.KeyboardEvent) => {
+    if (e.key === 'Enter' && !e.shiftKey) {
+      e.preventDefault();
+      sendMessage(input);
+    }
+  };
+
+  return (
+    <>
+      <style jsx global>{`
         /* ── Chat Button ─────────────────────────── */
         .jls-chat-btn {
           position: fixed;
@@ -412,106 +412,106 @@ function ChatWidgetInner() {
         }
       `}</style>
 
-            {/* ── Floating Button ─────────────────────── */}
+      {/* ── Floating Button ─────────────────────── */}
+      <button
+        className="jls-chat-btn"
+        onClick={toggleChat}
+        aria-label="Chat with us"
+      >
+        {isOpen ? '✕' : '💬'}
+        {showBadge && !isOpen && <span className="jls-chat-badge">1</span>}
+      </button>
+
+      {/* ── Chat Window ─────────────────────────── */}
+      {isOpen && (
+        <div className="jls-chat-window" role="dialog" aria-label="Just Legal Solutions Chat">
+          {/* Header */}
+          <div className="jls-chat-header">
+            <div className="jls-chat-header-avatar">⚖️</div>
+            <div className="jls-chat-header-info">
+              <div className="jls-chat-header-name">Just Legal Solutions</div>
+              <div className="jls-chat-header-status">
+                Online — typically replies instantly
+              </div>
+            </div>
             <button
-                className="jls-chat-btn"
-                onClick={toggleChat}
-                aria-label="Chat with us"
+              className="jls-chat-close"
+              onClick={toggleChat}
+              aria-label="Close chat"
             >
-                {isOpen ? '✕' : '💬'}
-                {showBadge && !isOpen && <span className="jls-chat-badge">1</span>}
+              ✕
             </button>
+          </div>
 
-            {/* ── Chat Window ─────────────────────────── */}
-            {isOpen && (
-                <div className="jls-chat-window" role="dialog" aria-label="Just Legal Solutions Chat">
-                    {/* Header */}
-                    <div className="jls-chat-header">
-                        <div className="jls-chat-header-avatar">⚖️</div>
-                        <div className="jls-chat-header-info">
-                            <div className="jls-chat-header-name">Just Legal Solutions</div>
-                            <div className="jls-chat-header-status">
-                                Online — typically replies instantly
-                            </div>
-                        </div>
-                        <button
-                            className="jls-chat-close"
-                            onClick={toggleChat}
-                            aria-label="Close chat"
-                        >
-                            ✕
-                        </button>
-                    </div>
+          {/* Messages */}
+          <div className="jls-chat-messages">
+            {messages.map((msg, i) => (
+              <div
+                key={i}
+                className={`jls-msg ${msg.role === 'user' ? 'jls-msg-user' : 'jls-msg-bot'
+                  }`}
+              >
+                {msg.content}
+              </div>
+            ))}
+            {isLoading && <div className="jls-typing">Typing...</div>}
+            <div ref={messagesEndRef} />
+          </div>
 
-                    {/* Messages */}
-                    <div className="jls-chat-messages">
-                        {messages.map((msg, i) => (
-                            <div
-                                key={i}
-                                className={`jls-msg ${msg.role === 'user' ? 'jls-msg-user' : 'jls-msg-bot'
-                                    }`}
-                            >
-                                {msg.content}
-                            </div>
-                        ))}
-                        {isLoading && <div className="jls-typing">Typing...</div>}
-                        <div ref={messagesEndRef} />
-                    </div>
+          {/* Suggestions */}
+          {showSuggestions && (
+            <div className="jls-chat-suggestions">
+              {SUGGESTIONS.map((s) => (
+                <button
+                  key={s.label}
+                  className="jls-suggestion"
+                  onClick={() => sendMessage(s.label)}
+                >
+                  {s.emoji} {s.label}
+                </button>
+              ))}
+            </div>
+          )}
 
-                    {/* Suggestions */}
-                    {showSuggestions && (
-                        <div className="jls-chat-suggestions">
-                            {SUGGESTIONS.map((s) => (
-                                <button
-                                    key={s.label}
-                                    className="jls-suggestion"
-                                    onClick={() => sendMessage(s.label)}
-                                >
-                                    {s.emoji} {s.label}
-                                </button>
-                            ))}
-                        </div>
-                    )}
+          {/* Input */}
+          <div className="jls-chat-input-row">
+            <textarea
+              ref={inputRef}
+              className="jls-chat-input"
+              placeholder="Ask a question…"
+              rows={1}
+              value={input}
+              onChange={(e) => setInput(e.target.value)}
+              onKeyDown={handleKeyDown}
+            />
+            <button
+              className="jls-chat-send"
+              onClick={() => sendMessage(input)}
+              disabled={isLoading}
+              aria-label="Send"
+            >
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <line x1="22" y1="2" x2="11" y2="13" />
+                <polygon points="22 2 15 22 11 13 2 9 22 2" />
+              </svg>
+            </button>
+          </div>
 
-                    {/* Input */}
-                    <div className="jls-chat-input-row">
-                        <textarea
-                            ref={inputRef}
-                            className="jls-chat-input"
-                            placeholder="Ask a question…"
-                            rows={1}
-                            value={input}
-                            onChange={(e) => setInput(e.target.value)}
-                            onKeyDown={handleKeyDown}
-                        />
-                        <button
-                            className="jls-chat-send"
-                            onClick={() => sendMessage(input)}
-                            disabled={isLoading}
-                            aria-label="Send"
-                        >
-                            <svg
-                                width="16"
-                                height="16"
-                                viewBox="0 0 24 24"
-                                fill="none"
-                                stroke="currentColor"
-                                strokeWidth="2.5"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                            >
-                                <line x1="22" y1="2" x2="11" y2="13" />
-                                <polygon points="22 2 15 22 11 13 2 9 22 2" />
-                            </svg>
-                        </button>
-                    </div>
-
-                    {/* Footer / Disclaimer */}
-                    <div className="jls-chat-footer">
-                        AI Assistant · Not legal advice · Call (539) 367-6832 for official help
-                    </div>
-                </div>
-            )}
-        </>
-    );
+          {/* Footer / Disclaimer */}
+          <div className="jls-chat-footer">
+            AI Assistant · Not legal advice · Call (539) 367-6832 for official help
+          </div>
+        </div>
+      )}
+    </>
+  );
 }
