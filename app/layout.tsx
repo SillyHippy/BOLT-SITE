@@ -6,6 +6,7 @@ import Image from 'next/image';
 import React from 'react';
 import StaticSiteOptimizer from '@/components/StaticSiteOptimizer';
 import WebsiteSchema from '@/components/ui/website-schema';
+import { ChatWidget } from '@/components/ui/chat-widget';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -63,7 +64,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     images: [
       {
-        url: 'https://justlegalsolutions.org/og-image.png', 
+        url: 'https://justlegalsolutions.org/og-image.png',
         width: 1200,
         height: 630,
         alt: 'Just Legal Solutions - Professional Process Serving in Oklahoma'
@@ -74,7 +75,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Just Legal Solutions - Professional Process Serving in Oklahoma',
     description: 'Expert process serving in Tulsa County, Broken Arrow, and Sapulpa. Same-day, rush, and standard service options.',
-    images: ['https://justlegalsolutions.org/og-image.png'] 
+    images: ['https://justlegalsolutions.org/og-image.png']
   },
   robots: {
     index: true,
@@ -114,7 +115,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
         <meta name="cache-version" content="2026-01-25-v11-year-update" />
-        
+
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-984ZD882EX" strategy="afterInteractive" />
         <Script id="google-analytics" strategy="afterInteractive">
           {`
@@ -132,7 +133,7 @@ export default function RootLayout({
         </Script>
         {/* Simple Analytics - 100% privacy-first analytics */}
         <Script src="https://scripts.simpleanalyticscdn.com/latest.js" data-collect-dnt="true" strategy="afterInteractive" />
-        
+
         {/* LLM Discovery - Legitimate emerging standard */}
         <link rel="alternate" type="text/plain" href="/llms.txt" title="LLM Information" />
         <link rel="alternate" type="text/plain" href="/llms-full.txt" title="Extended LLM Information" />
@@ -143,9 +144,9 @@ export default function RootLayout({
         <WebsiteSchema />
         {/* Simple Analytics noscript fallback */}
         <noscript>
-          <Image 
-            src="https://queue.simpleanalyticscdn.com/noscript.gif?collect-dnt=true" 
-            alt="Simple Analytics tracking pixel" 
+          <Image
+            src="https://queue.simpleanalyticscdn.com/noscript.gif?collect-dnt=true"
+            alt="Simple Analytics tracking pixel"
             width={1}
             height={1}
             style={{ display: 'none' }}
@@ -153,6 +154,7 @@ export default function RootLayout({
           />
         </noscript>
         {children}
+        <ChatWidget />
       </body>
     </html>
   );
