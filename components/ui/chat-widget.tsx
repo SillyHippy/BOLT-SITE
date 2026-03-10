@@ -22,6 +22,43 @@ const SUGGESTIONS = [
 const WELCOME_MESSAGE =
   "Hi! I'm the Just Legal Solutions assistant. I can answer questions about process serving, pricing, coverage areas, and how we can help with your legal documents. What can I help you with?";
 
+/**
+ * Lightweight markdown-to-HTML converter for chat messages.
+ * Strips raw HTML first (XSS), then converts common markdown tokens.
+ */
+function formatBotMessage(raw: string): string {
+  // 1. Strip any raw HTML tags to prevent XSS
+  let text = raw.replace(/<[^>]*>/g, '');
+
+  // 2. Convert markdown links [text](url) → clickable links
+  text = text.replace(
+    /\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g,
+    '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>'
+  );
+
+  // 3. Bold  **text** or __text__
+  text = text.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+  text = text.replace(/__(.+?)__/g, '<strong>$1</strong>');
+
+  // 4. Italic  *text* or _text_  (but not inside words)
+  text = text.replace(/(?<![\w*])\*([^*]+?)\*(?![\w*])/g, '<em>$1</em>');
+  text = text.replace(/(?<![\w_])_([^_]+?)_(?![\w_])/g, '<em>$1</em>');
+
+  // 5. Unordered list items  - item  or  • item
+  text = text.replace(/^[\-•]\s+(.+)$/gm, '<li>$1</li>');
+  text = text.replace(/(<li>.*<\/li>)/gs, '<ul>$1</ul>');
+  // Clean up duplicate nested <ul> from consecutive items
+  text = text.replace(/<\/ul>\s*<ul>/g, '');
+
+  // 6. Numbered list items  1. item
+  text = text.replace(/^\d+\.\s+(.+)$/gm, '<li>$1</li>');
+
+  // 7. Line breaks
+  text = text.replace(/\n/g, '<br>');
+
+  return text;
+}
+
 export function ChatWidget() {
   const pathname = usePathname();
 
@@ -383,6 +420,23 @@ function ChatWidgetInner() {
           cursor: not-allowed;
         }
 
+        /* ── Rendered markdown inside bot bubbles ─── */
+        .jls-msg-bot strong { font-weight: 600; }
+        .jls-msg-bot em     { font-style: italic; }
+        .jls-msg-bot a {
+          color: ${ACCENT_COLOR};
+          text-decoration: underline;
+          word-break: break-all;
+        }
+        .jls-msg-bot ul {
+          margin: 4px 0 4px 16px;
+          padding: 0;
+          list-style: disc;
+        }
+        .jls-msg-bot li {
+          margin-bottom: 2px;
+        }
+
         /* ── Footer ───────────────────────────────── */
         .jls-chat-footer {
           text-align: center;
@@ -445,15 +499,19 @@ function ChatWidgetInner() {
 
           {/* Messages */}
           <div className="jls-chat-messages">
-            {messages.map((msg, i) => (
-              <div
-                key={i}
-                className={`jls-msg ${msg.role === 'user' ? 'jls-msg-user' : 'jls-msg-bot'
-                  }`}
-              >
-                {msg.content}
-              </div>
-            ))}
+            {messages.map((msg, i) =>
+              msg.role === 'user' ? (
+                <div key={i} className="jls-msg jls-msg-user">
+                  {msg.content}
+                </div>
+              ) : (
+                <div
+                  key={i}
+                  className="jls-msg jls-msg-bot"
+                  dangerouslySetInnerHTML={{ __html: formatBotMessage(msg.content) }}
+                />
+              )
+            )}
             {isLoading && <div className="jls-typing">Typing...</div>}
             <div ref={messagesEndRef} />
           </div>
