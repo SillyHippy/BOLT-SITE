@@ -38,7 +38,7 @@ function generateSitemap() {
   const baseDir = fs.existsSync(OUT_DIR) ? OUT_DIR : PUBLIC_DIR;
   const files = getHtmlFiles(baseDir);
   const today = new Date().toISOString().split('T')[0];
-  
+
   // URLs to exclude (redirect pages, internal tools, utility pages)
   const excludeUrls = [
     '/faq', // Redirects to /ultimate-guide-process-serving-oklahoma
@@ -89,7 +89,7 @@ function generateSitemap() {
     '/voice-friendly',
     '/platform-supremacy',
   ];
-  
+
   // Additional URLs to ensure they're included (all service areas with Google Maps)
   const additionalUrls = [
     // Service Areas (all 20 with Google Maps) - Excluding /service-areas/tulsa (redirects to main page)
@@ -112,8 +112,11 @@ function generateSitemap() {
     '/service-areas/coweta',
     '/service-areas/pawhuska',
     '/service-areas/pryor',
-    
+    '/service-areas/nowata',
+    '/service-areas/vinita',
+
     // County Pages
+    '/counties',
     '/counties/tulsa-county',
     '/counties/rogers-county',
     '/counties/washington-county',
@@ -123,43 +126,75 @@ function generateSitemap() {
     '/counties/mayes-county',
     '/counties/okmulgee-county',
     '/counties/nowata-county',
-    
-    // Main Pages
+
+    // Main Pages (priority 1.0)
     '/',
     '/contact',
     '/pricing',
+    '/tulsa-process-server',
+
+    // Secondary Pages
     '/resources',
     '/payments',
     '/why-choose-us',
     '/law-firm-services',
-    
-    // Process Server Pages - Excluding old /process-server-tulsa (redirects to main page)
-    '/tulsa-process-server',
+    '/about',
+    '/affidavit-of-service',
+
+    // Core Service Pages (priority 0.9)
+    '/process-serving',
+    '/same-day-process-server',
     '/urgent-process-server',
-    '/weekend-emergency',
+    '/skip-tracing',
+    '/subpoena-service',
+    '/eviction-notice-service',
+    '/courier-services',
     '/courier-services-tulsa',
+    '/weekend-emergency',
+    '/virtual-assistant-services',
+
+    // Guide & Educational Pages
     '/ultimate-guide-process-serving-oklahoma',
-    
-    // Tool Pages
-    '/tools',
-    '/pdf-tools',
-    
-    // SEO Pages
+    '/oklahoma-process-server-laws',
+    '/oklahoma-process-server-authority',
+    '/oklahoma-case-law-service-process',
+    '/oklahoma-electronic-service-guide',
+    '/oklahoma-legal-service-areas',
+    '/oklahoma-process-server-pricing',
+    '/oklahoma-process-server-technology',
+    '/oklahoma-process-serving-costs-comparison',
+    '/oklahoma-process-server-best-practices-checklist-2026',
+    '/oklahoma-process-server-faq-2026',
+    '/process-server-tulsa-guide',
+    '/process-serving-mistakes-guide',
+    '/ai-skip-tracing-guide-oklahoma',
+    '/family-law-service-guide-tulsa',
+    '/high-profile-service-protocols-tulsa',
+    '/serving-legal-papers-on-tribal-land',
+
+    // Blog / Informational Content Pages
+    '/how-much-does-process-server-cost',
+    '/what-happens-if-someone-refuses-service',
+    '/how-long-does-process-serving-take',
+    '/can-process-server-serve-on-sunday',
+
+    // SEO Landing Pages
     '/seo/eviction-notice-process-server',
     '/seo/legal-posting-process-server',
     '/seo/what-is-a-process-server',
-    
+
+    // Tool Pages
+    '/tools',
+    '/pdf-tools',
+    '/field-sheet',
+
     // Sitemap
     '/sitemap',
-    
-    // 2026 Updated Content Pages
-    '/oklahoma-process-server-faq-2026',
-    '/oklahoma-process-server-best-practices-checklist-2026'
   ];
-  
+
   // Get URLs from existing files
   const fileUrls = files.map(f => filePathToUrl(f, baseDir));
-  
+
   // Process additionalUrls to ensure they start with the domain
   const processedAdditionalUrls = additionalUrls.map(url => {
     // Remove any single quotes that might be around the URL
@@ -167,38 +202,61 @@ function generateSitemap() {
     // Ensure URL starts with domain
     return url.startsWith('http') ? url : DOMAIN + url;
   });
-  
+
   // Combine and deduplicate URLs, excluding redirect pages
   const allUrls = [...new Set([...fileUrls, ...processedAdditionalUrls])]
     .filter(url => !excludeUrls.some(excludeUrl => url.endsWith(excludeUrl)));
-  
+
+  // Priority tiers: only 3-4 pages should be 1.0, everything else tiered down
+  // This prevents Google from ignoring priority signals when too many pages are at 1.0
+  const PRIORITY_1_0_PAGES = ['/', '/tulsa-process-server', '/pricing', '/contact'];
+  const PRIORITY_0_9_PATTERNS = ['/process-serving', '/same-day-process-server', '/urgent-process-server',
+    '/skip-tracing', '/subpoena-service', '/eviction-notice-service', '/courier-services', '/weekend-emergency'];
+
   const urlEntries = allUrls.map(url => {
-    // Set priority based on URL importance - Using higher priorities for better SEO
-    let priority = '0.9'; // Default higher priority
+    let priority = '0.7'; // Default priority
     let changefreq = 'monthly';
-    
-    if (url === DOMAIN + '/') {
+    const urlPath = url.replace(DOMAIN, '');
+
+    if (PRIORITY_1_0_PAGES.includes(urlPath)) {
       priority = '1.0';
       changefreq = 'weekly';
-    } else if (url.includes('/service-areas/')) {
-      priority = '1.0'; // Max priority for service areas
+    } else if (PRIORITY_0_9_PATTERNS.some(p => urlPath === p)) {
+      priority = '0.9';
       changefreq = 'weekly';
-    } else if (url.includes('/counties/')) {
-      priority = '0.95'; // High priority for county pages
+    } else if (urlPath.includes('/oklahoma-') || urlPath.includes('/seo/') || urlPath.includes('/process-server') || urlPath.includes('/ultimate-guide') || urlPath.includes('/process-serving-mistakes')) {
+      priority = '0.85';
       changefreq = 'monthly';
-    } else if (url.includes('/pricing') || url.includes('/contact')) {
-      priority = '1.0'; // Max priority for conversion pages
-      changefreq = 'weekly';
-    } else if (url.includes('/seo/') || url.includes('/process-server') || url.includes('/oklahoma-')) {
-      priority = '0.95'; // High priority for SEO and process server pages
-      changefreq = 'weekly';
+    } else if (urlPath.includes('/counties/') || urlPath === '/counties') {
+      priority = '0.8';
+      changefreq = 'monthly';
+    } else if (['/about', '/affidavit-of-service', '/why-choose-us', '/payments', '/law-firm-services',
+      '/how-much-does-process-server-cost', '/what-happens-if-someone-refuses-service',
+      '/how-long-does-process-serving-take', '/can-process-server-serve-on-sunday',
+      '/courier-services-tulsa', '/family-law-service-guide-tulsa', '/high-profile-service-protocols-tulsa',
+      '/serving-legal-papers-on-tribal-land', '/ai-skip-tracing-guide-oklahoma', '/weekend-emergency',
+      '/virtual-assistant-services'].includes(urlPath)) {
+      priority = '0.8';
+      changefreq = 'monthly';
+    } else if (urlPath.includes('/service-areas/')) {
+      priority = '0.7';
+      changefreq = 'monthly';
+    } else if (['/service-areas', '/resources'].includes(urlPath)) {
+      priority = '0.8';
+      changefreq = 'monthly';
+    } else if (['/tools', '/pdf-tools', '/field-sheet'].includes(urlPath)) {
+      priority = '0.6';
+      changefreq = 'monthly';
+    } else if (urlPath === '/sitemap') {
+      priority = '0.5';
+      changefreq = 'monthly';
     }
-    
+
     return `  <url>\n    <loc>${url}</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>${changefreq}</changefreq>\n    <priority>${priority}</priority>\n  </url>`;
   });
-  
+
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urlEntries.join('\n')}\n</urlset>\n`;
-  
+
   // Always write to public for local dev
   fs.writeFileSync(path.join(PUBLIC_DIR, 'sitemap.xml'), sitemap);
   // Also write to out/ for deploys if it exists
