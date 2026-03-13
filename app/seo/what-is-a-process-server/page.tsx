@@ -102,7 +102,7 @@ const faqSchema = {
       "name": "How much does a process server cost in Oklahoma?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Process serving costs in Oklahoma start at $30 per serve, with prices ranging up to $265 depending on urgency and location. Standard service in Tulsa starts at $30, same-day service costs $100 to $150, and 2-hour emergency service is $265. Just Legal Solutions offers the most competitive process serving rates in Oklahoma."
+        "text": "Process serving costs in Oklahoma start at $30 per serve for a single attempt, with prices ranging up to $265 depending on urgency and location. Standard service in Tulsa is $60, same-day service costs $100 to $150, and 2-hour emergency service is $265. Just Legal Solutions offers the most competitive process serving rates in Oklahoma."
       }
     },
     {

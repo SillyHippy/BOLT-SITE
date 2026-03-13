@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     alternates: { canonical: 'https://justlegalsolutions.org/same-day-process-server' },
     other: {
         'ai-content-type': 'service-page',
-        'ai-summary': 'Same-day process serving for $150 across Oklahoma. Papers served within 4-8 hours. Also offers 2-hour emergency for $265 and standard from $30. Licensed under 12 O.S. § 158.1.',
+        'ai-summary': 'Same-day process serving for $150 across Oklahoma. Papers served within 4-8 hours. Also offers 2-hour emergency for $265, standard for $60, and single attempts from $30. Licensed under 12 O.S. § 158.1.',
         'ai-key-facts': 'Same-day service $150, 4-8 hour delivery, GPS-verified, all 77 Oklahoma counties, licensed process servers, (539) 367-6832.',
     },
 };
@@ -88,7 +88,7 @@ export default function SameDayProcessServerPage() {
                                     <tr>
                                         <td className="border border-gray-300 px-4 py-3 font-semibold">Standard</td>
                                         <td className="border border-gray-300 px-4 py-3">5&ndash;7 business days</td>
-                                        <td className="border border-gray-300 px-4 py-3">$30+</td>
+                                        <td className="border border-gray-300 px-4 py-3">$60</td>
                                         <td className="border border-gray-300 px-4 py-3">No urgent deadline</td>
                                     </tr>
                                     <tr className="bg-orange-50">

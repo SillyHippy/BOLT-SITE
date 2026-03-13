@@ -1159,7 +1159,7 @@ export default function ClientSurveyValidation() {
                 ))}
               </div>
               <p className="text-gray-700 mb-3">
-                &ldquo;The 30% ongoing discount isn&apos;t just marketing - it&apos;s real savings. $21 standard, $52 rush, $105 same-day. I&apos;ve compared prices across Oklahoma and Just Legal Solutions is consistently the best value with the highest quality.&rdquo;
+                &ldquo;The 30% ongoing discount isn&apos;t just marketing - it&apos;s real savings. $21 for a single attempt, $42 standard, $105 same-day. I&apos;ve compared prices across Oklahoma and Just Legal Solutions is consistently the best value with the highest quality.&rdquo;
               </p>
               <div className="text-sm text-gray-500">
                 <div>Service: Multi-Service Law Firm Support</div>

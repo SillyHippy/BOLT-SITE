@@ -67,7 +67,7 @@ const breadcrumbItems = [
 const jenksServiceFAQs = [
   {
     question: "How much does a process server cost in Jenks?",
-    answer: "Our professional process serving in the 'Antique Capital of Oklahoma' offers competitive rates with transparent pricing. Standard service starts at $30-$50 within Jenks city limits, including areas near the Oklahoma Aquarium (300 Aquarium Dr), Main Street District (107 E Main St), and Riverwalk Crossing (100 Riverwalk Dr). Rush and emergency services available throughout Jenks neighborhoods. For detailed pricing comparisons across Oklahoma, see our <Link href='/oklahoma-process-serving-costs-comparison' className='text-blue-600 hover:text-blue-800 underline'>Oklahoma Process Serving Costs Comparison guide</Link>. Contact us at (539) 367-6832 for detailed quotes."
+    answer: "Our professional process serving in the 'Antique Capital of Oklahoma' offers competitive rates with transparent pricing. Standard service is $60 and single attempts start at $30-$50 within Jenks city limits, including areas near the Oklahoma Aquarium (300 Aquarium Dr), Main Street District (107 E Main St), and Riverwalk Crossing (100 Riverwalk Dr). Rush and emergency services available throughout Jenks neighborhoods. For detailed pricing comparisons across Oklahoma, see our <Link href='/oklahoma-process-serving-costs-comparison' className='text-blue-600 hover:text-blue-800 underline'>Oklahoma Process Serving Costs Comparison guide</Link>. Contact us at (539) 367-6832 for detailed quotes."
   },
   {
     question: "How quickly can you serve papers in Jenks?",

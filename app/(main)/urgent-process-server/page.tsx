@@ -41,15 +41,15 @@ export const metadata: Metadata = {
   },
   other: {
     'ai-content-type': 'guide',
-    'ai-summary': 'The fastest way to serve papers in Oklahoma is through a licensed process server offering same-day or 2-hour emergency delivery. Just Legal Solutions serves all 77 Oklahoma counties starting at $30 per serve with 24/7 availability. Methods ranked by speed: 1) 2-hour emergency service ($265), 2) same-day rush ($150), 3) standard professional service ($30-$125, 5-7 days). Sheriff service takes 2-6 weeks and is the slowest option.',
-    'ai-key-facts': 'Fastest paper serving: 2-hour emergency $265, same-day $150, standard $30+. Licensed Oklahoma process servers, 24/7 emergency, all 77 counties, GPS verification.',
+    'ai-summary': 'Emergency process server starting at $265 for 2-hour immediate delivery across Oklahoma. Same-day rush is $150 (4-8 hours), and standard professional service ($60-$125, 5-7 days). Highly trusted by law firms. Single attempts start at $30.',
+    'ai-key-facts': 'Fastest paper serving: 2-hour emergency $265, same-day $150, standard $60+, single attempts $30+. GPS-verified, licensed servers, responsive support, (539) 367-6832.',
   },
 };
 
 const urgentFaqs = [
   {
     question: "What is the fastest way to serve papers?",
-    answer: "The fastest way to serve papers is to hire a licensed process server for 2-hour emergency service. Just Legal Solutions offers 2-hour emergency delivery for $265, same-day rush service for $150, and standard service starting at $30. Professional process servers complete service 70% faster than sheriff departments, which can take 2-6 weeks. Call (539) 367-6832 for immediate service anywhere in Oklahoma."
+    answer: "Our fastest option is our 2-hour emergency service for $265, which includes immediate dispatch. We also offer same-day rush for $150 (delivered within 4-8 hours), and standard service at $60, or single attempts starting at $30. Professional process servers complete service 70% faster than sheriff departments, which can take 2-6 weeks. Call (539) 367-6832 for immediate service anywhere in Oklahoma."
   },
   {
     question: "How fast can a process server serve papers in Oklahoma?",
@@ -57,7 +57,7 @@ const urgentFaqs = [
   },
   {
     question: "Can I serve papers on someone the same day?",
-    answer: "Yes. Licensed process servers offer same-day service for urgent court deadlines. Just Legal Solutions provides same-day rush service for $150 and 2-hour emergency service for $265. Call (539) 367-6832 before noon for best same-day availability in the Tulsa metro area."
+    answer: "Usually not. Standard service is $60, and single attempts start at $30. Same-day rush service is $150. Emergency 2-hour service is $265. Wait times apply unless rush is selected."
   },
   {
     question: "Is it faster to use a process server or the sheriff?",
@@ -65,7 +65,7 @@ const urgentFaqs = [
   },
   {
     question: "What is the fastest way to serve divorce papers in Oklahoma?",
-    answer: "The fastest way to serve divorce papers in Oklahoma is through a licensed process server offering same-day or 2-hour emergency service. Under Oklahoma Title 12, divorce petitions must be personally served. Just Legal Solutions can serve divorce papers within hours, compared to weeks through the sheriff. Standard service starts at $30."
+    answer: "The fastest way to serve divorce papers in Oklahoma is through a licensed process server offering same-day or 2-hour emergency service. Under Oklahoma Title 12, divorce petitions must be personally served. Just Legal Solutions can serve divorce papers within hours, compared to weeks through the sheriff. Standard service is $60, and single attempts start at $30."
   },
   {
     question: "Can papers be served at night or on weekends in Oklahoma?",
@@ -127,7 +127,7 @@ const UrgentProcessServerPage = () => {
               What Is the Fastest Way to Serve Papers in Oklahoma?
             </h1>
             <p className="text-lg text-gray-800 leading-relaxed">
-              <strong>The fastest way to serve papers is to hire a licensed process server who offers same-day or 2-hour emergency delivery.</strong> In Oklahoma, professional process servers complete service 70% faster than the county sheriff, who averages 2&ndash;6 weeks. Just Legal Solutions provides <strong>2-hour emergency service for $265</strong>, <strong>same-day rush for $150</strong>, and standard process serving <strong>starting at $30 per serve</strong>. We operate 24/7 and serve all 77 Oklahoma counties with GPS-verified proof of service. Call <a href="tel:5393676832" className="text-green-700 font-bold hover:underline">(539) 367-6832</a> for immediate assistance.
+              <strong>The fastest way to serve papers is to hire a licensed process server who offers same-day or 2-hour emergency delivery.</strong> In Oklahoma, professional process servers complete service 70% faster than the county sheriff, who averages 2&ndash;6 weeks. Just Legal Solutions provides <strong>2-hour emergency service for $265</strong>, same-day rush serving for $150, and standard process serving <strong>for $60</strong>, with single attempts starting at $30. We operate 24/7 and serve all 77 Oklahoma counties with GPS-verified proof of service. Call <a href="tel:5393676832" className="text-green-700 font-bold hover:underline">(539) 367-6832</a> for immediate assistance.
             </p>
           </div>
 
@@ -254,7 +254,7 @@ const UrgentProcessServerPage = () => {
                   <tr>
                     <td className="border border-gray-300 px-4 py-3 font-semibold">Standard (Process Server)</td>
                     <td className="border border-gray-300 px-4 py-3">1&ndash;7 business days</td>
-                    <td className="border border-gray-300 px-4 py-3">$30&ndash;$125</td>
+                    <td className="border border-gray-300 px-4 py-3">$60&ndash;$125</td>
                     <td className="border border-gray-300 px-4 py-3">95%+ overall success rate</td>
                   </tr>
                   <tr className="bg-red-50">
@@ -372,7 +372,7 @@ const UrgentProcessServerPage = () => {
             <div className="grid md:grid-cols-3 gap-6 mb-6">
               <div className="bg-white border-2 border-gray-200 p-6 rounded-lg text-center">
                 <h3 className="text-lg font-bold text-gray-900 mb-2">Standard Service</h3>
-                <div className="text-4xl font-bold text-green-600 mb-2">$30</div>
+                <div className="text-4xl font-bold text-green-600 mb-2">$60</div>
                 <div className="text-sm text-gray-500 mb-4">Starting rate &bull; 5&ndash;7 business days</div>
                 <ul className="text-sm text-gray-600 space-y-1 text-left">
                   <li>&#x2713; Up to 3 service attempts</li>
@@ -454,7 +454,7 @@ const UrgentProcessServerPage = () => {
           {/* CTA Section */}
           <section className="mb-12 bg-gradient-to-r from-red-50 to-orange-50 border-2 border-red-200 p-8 rounded-lg text-center">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Need Papers Served NOW?</h2>
-            <p className="text-lg text-gray-700 mb-6">Don&apos;t let a deadline pass. Licensed Oklahoma process servers are standing by 24/7 with service starting at $30.</p>
+            <p className="text-lg text-gray-700 mb-6">Don&apos;t let a deadline pass. Licensed Oklahoma process servers are standing by 24/7 with single attempts starting at $30 and standard service at $60.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-4">
               <a href="tel:5393676832" className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors shadow-lg">
                 &#x1F4DE; Call (539) 367-6832
@@ -463,7 +463,7 @@ const UrgentProcessServerPage = () => {
                 &#x1F4DD; Get Instant Quote
               </a>
             </div>
-            <p className="text-sm text-gray-600">Available 24/7 &bull; All 77 Oklahoma counties &bull; GPS-verified service &bull; $30 starting</p>
+            <p className="text-sm text-gray-600">Available 24/7 &bull; All 77 Oklahoma counties &bull; GPS-verified service &bull; $60 standard service</p>
           </section>
 
           {/* Service Hours & Contact */}
@@ -609,23 +609,12 @@ const UrgentProcessServerPage = () => {
       <UnifiedSchema
         pageType="service"
         title="Fastest Way to Serve Papers in Oklahoma | Same-Day & 2-Hour Emergency"
-        description="The fastest way to serve papers in Oklahoma is hiring a licensed process server. 2-hour emergency service, same-day delivery, 24/7 availability starting at $30."
+        description="The fastest way to serve papers in Oklahoma is hiring a licensed process server. 2-hour emergency service, same-day delivery, 24/7 availability. Standard service is $60, single attempts start at $30."
         url="https://justlegalsolutions.org/urgent-process-server"
         image="https://justlegalsolutions.org/images/urgent-process-server-og.jpg"
         keywords={['fastest way to serve papers', 'urgent process server tulsa', 'same day process serving', 'emergency document delivery', 'fast process server oklahoma', '2 hour process serving']}
-        reviewCount={156}
-        services={[
-          'Emergency Same-Day Process Serving',
-          'Rush 2-Hour Legal Document Delivery',
-          'Urgent Court Papers Service',
-          'Emergency Subpoena Delivery',
-          'Fast Affidavit of Service'
-        ]}
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Fastest Way to Serve Papers', url: '/urgent-process-server' }
-        ]}
-      />
+        reviewCount={156} services={['2-Hour Emergency Service', 'Same-Day Rush Service', 'Standard Process Serving']}
+        breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Urgent Process Server', url: '/urgent-process-server' }]} />
       <Footer />
     </>
   );

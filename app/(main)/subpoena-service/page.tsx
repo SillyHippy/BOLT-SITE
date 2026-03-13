@@ -51,7 +51,7 @@ export default function SubpoenaServicePage() {
                     <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-lg mb-10">
                         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Subpoena Service in Oklahoma</h1>
                         <p className="text-lg text-gray-800 leading-relaxed">
-                            <strong>Need a subpoena served before a hearing, deposition, or trial?</strong> Just Legal Solutions delivers witness subpoenas, document subpoenas (duces tecum), and deposition subpoenas across all 77 Oklahoma counties. Every service is GPS-verified with a court-ready affidavit. Standard service from <strong>$30</strong>, same-day rush <strong>$150</strong>, 2-hour emergency <strong>$265</strong>. Call <a href="tel:5393676832" className="text-blue-700 font-bold hover:underline">(539) 367-6832</a>.
+                            <strong>Need a subpoena served before a hearing, deposition, or trial?</strong> Just Legal Solutions delivers witness subpoenas, document subpoenas (duces tecum), and deposition subpoenas across all 77 Oklahoma counties. Every service is GPS-verified with a court-ready affidavit. Standard service is <strong>$60</strong>, same-day rush <strong>$150</strong>, 2-hour emergency <strong>$265</strong>. Call <a href="tel:5393676832" className="text-blue-700 font-bold hover:underline">(539) 367-6832</a>.
                         </p>
                     </div>
 

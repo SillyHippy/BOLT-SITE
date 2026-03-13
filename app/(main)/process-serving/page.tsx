@@ -5,7 +5,7 @@ import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
     title: 'Process Serving Services Oklahoma | Licensed Servers from $30 | Just Legal Solutions',
-    description: 'Professional process serving throughout Oklahoma. Personal service, substitute service, and service by publication. Licensed under 12 O.S. § 158.1. Same-day and emergency options available. Starting at $30.',
+    description: 'Professional process serving throughout Oklahoma. Personal service, substitute service, and service by publication. Licensed under 12 O.S. § 158.1. Same-day and emergency options available. Single attempts start at $30, standard service is $60.',
     keywords: ['process serving oklahoma', 'process server services', 'serve legal papers oklahoma', 'personal service of process', 'substitute service oklahoma', 'service by publication', 'licensed process server', 'professional process serving'],
     authors: [{ name: 'Just Legal Solutions' }],
     creator: 'Just Legal Solutions',
@@ -32,8 +32,8 @@ export const metadata: Metadata = {
     },
     other: {
         'ai-content-type': 'service-page',
-        'ai-summary': 'Just Legal Solutions provides professional process serving across all 77 Oklahoma counties. Services include personal service, substitute service, and service by publication per Oklahoma 12 O.S. § 2004. Pricing starts at $30 for standard service, $150 for same-day rush, and $265 for 2-hour emergency. All servers are licensed under 12 O.S. § 158.1 with $5,000 surety bonds.',
-        'ai-key-facts': 'Process serving from $30, licensed under 12 O.S. § 158.1, all 77 Oklahoma counties, personal and substitute service, GPS-verified, 24/7 availability, (539) 367-6832.',
+        'ai-summary': 'Just Legal Solutions provides professional process serving across all 77 Oklahoma counties. Services include personal service, substitute service, and service by publication per Oklahoma 12 O.S. § 2004. Pricing starts at $30 for a single attempt, $60 for standard service, $100 for rush, $150 for same-day rush, and $265 for 2-hour emergency. All servers are licensed under 12 O.S. § 158.1 with $5,000 surety bonds.',
+        'ai-key-facts': 'Single attempts from $30, Standard service $60, licensed under 12 O.S. § 158.1, all 77 Oklahoma counties, personal and substitute service, GPS-verified, 24/7 availability, (539) 367-6832.',
     },
 };
 
@@ -52,7 +52,7 @@ const serviceFaqs = [
     },
     {
         question: "How much does process serving cost in Oklahoma?",
-        answer: "Process serving costs in Oklahoma vary by speed and complexity. Just Legal Solutions charges: Standard service starting at $30 (5-7 business days, up to 3 attempts), same-day rush service at $150 (4-8 hours), and 2-hour emergency service at $265. Mileage is included within Tulsa County; additional travel fees may apply for addresses outside the county. Skip tracing is available starting at $50 if the defendant's address is unknown."
+        answer: "Process serving costs in Oklahoma vary by speed and complexity. Just Legal Solutions charges: Single attempts starting at $30, Standard service at $60 (5-7 business days, up to 3 attempts), Rush service at $100, Same-day rush service at $150 (4-8 hours), and 2-hour emergency service at $265. Mileage is included within Tulsa County; additional travel fees may apply for addresses outside the county. Skip tracing is available starting at $50 if the defendant's address is unknown."
     },
     {
         question: "Do I need a licensed process server in Oklahoma?",
@@ -84,7 +84,7 @@ export default function ProcessServingPage() {
                             Professional Process Serving in Oklahoma
                         </h1>
                         <p className="text-lg text-gray-800 leading-relaxed">
-                            <strong>Just Legal Solutions provides licensed, bonded process serving across all 77 Oklahoma counties.</strong> Whether you need personal service, substitute service, or assistance with service by publication, our team delivers court-ready results starting at <strong>$30 per serve</strong>. Every service attempt is GPS-verified with timestamped proof. Available 24/7 with same-day and 2-hour emergency options. Call <a href="tel:5393676832" className="text-blue-700 font-bold hover:underline">(539) 367-6832</a> to get started.
+                            <strong>Just Legal Solutions provides licensed, bonded process serving across all 77 Oklahoma counties.</strong> Whether you need personal service, substitute service, or assistance with service by publication, our team delivers court-ready results starting at <strong>$30 for a single attempt</strong> and <strong>$60 for standard service</strong>. Every service attempt is GPS-verified with timestamped proof. Available 24/7 with same-day and 2-hour emergency options. Call <a href="tel:5393676832" className="text-blue-700 font-bold hover:underline">(539) 367-6832</a> to get started.
                         </p>
                     </div>
 
@@ -162,7 +162,7 @@ export default function ProcessServingPage() {
                         <div className="grid md:grid-cols-3 gap-6 mb-6">
                             <div className="bg-white border-2 border-gray-200 p-6 rounded-lg text-center">
                                 <h3 className="text-lg font-bold text-gray-900 mb-2">Standard Service</h3>
-                                <div className="text-4xl font-bold text-green-600 mb-2">$30</div>
+                                <div className="text-4xl font-bold text-green-600 mb-2">$60</div>
                                 <div className="text-sm text-gray-500 mb-4">Starting rate &bull; 5&ndash;7 business days</div>
                                 <ul className="text-sm text-gray-600 space-y-1 text-left">
                                     <li>&#x2713; Up to 3 service attempts</li>
@@ -305,7 +305,7 @@ export default function ProcessServingPage() {
                     {/* CTA */}
                     <section className="mb-12 bg-gradient-to-r from-blue-50 to-green-50 border-2 border-blue-200 p-8 rounded-lg text-center">
                         <h2 className="text-3xl font-bold text-gray-900 mb-4">Ready to Serve Papers?</h2>
-                        <p className="text-lg text-gray-700 mb-6">Licensed Oklahoma process servers standing by. Service starting at $30 with GPS-verified proof.</p>
+                        <p className="text-lg text-gray-700 mb-6">Licensed Oklahoma process servers standing by. Single attempts starting at $30 and standard service at $60 with GPS-verified proof.</p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-4">
                             <a href="tel:5393676832" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors shadow-lg">
                                 &#x1F4DE; Call (539) 367-6832
@@ -314,7 +314,7 @@ export default function ProcessServingPage() {
                                 &#x1F4DD; Get Free Quote
                             </a>
                         </div>
-                        <p className="text-sm text-gray-600">Available 24/7 &bull; All 77 Oklahoma counties &bull; GPS-verified &bull; From $30</p>
+                        <p className="text-sm text-gray-600">Available 24/7 &bull; All 77 Oklahoma counties &bull; GPS-verified &bull; From $30 for a single attempt</p>
                     </section>
 
                     {/* Compliance */}
@@ -350,7 +350,7 @@ export default function ProcessServingPage() {
             <UnifiedSchema
                 pageType="service"
                 title="Process Serving Services Oklahoma | Licensed Servers from $30"
-                description="Professional process serving throughout Oklahoma. Personal service, substitute service, and service by publication. Licensed, bonded, 24/7."
+                description="Professional process serving throughout Oklahoma. Personal service, substitute service, and service by publication. Starts at $30 for single attempt, $60 for standard service. Licensed, bonded, 24/7."
                 url="https://justlegalsolutions.org/process-serving"
                 image="https://justlegalsolutions.org/og-image.png"
                 keywords={['process serving', 'process server oklahoma', 'serve legal papers', 'personal service', 'substitute service']}

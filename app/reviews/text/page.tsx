@@ -1267,7 +1267,7 @@ export default function TextReviewValidation() {
                 ))}
               </div>
               <p className="text-gray-700 mb-3">
-                &ldquo;$30 for standard service, no hidden fees. Other places wanted $75+. Best value in Oklahoma.&rdquo;
+                &ldquo;$60 for standard service, no hidden fees. Other places wanted $75+. Best value in Oklahoma.&rdquo;
               </p>
               <div className="text-sm text-gray-500">
                 <div>Service: Standard Process Serving</div>
