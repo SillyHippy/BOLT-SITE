@@ -34,7 +34,7 @@ const knowledgeGraph = {
         "name": "Joseph Iannazzi",
         "jobTitle": "Founder & Lead Process Server",
         "credential": [
-          "Oklahoma Process Server License PSL-2025-5",
+          "Oklahoma Process Server License PSL-2026-2",
           "Bachelor's Degree, Business Administration - Northeastern State University",
           "LexisNexis Certified",
           "Westlaw Certified", 

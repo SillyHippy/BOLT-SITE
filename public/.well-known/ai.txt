@@ -31,7 +31,7 @@ coverage: All 77 Oklahoma Counties
 cities: Tulsa, Broken Arrow, Owasso, Bixby, Jenks, Sand Springs, Sapulpa, Glenpool, Claremore, Wagoner
 
 ## Credentials
-license: Oklahoma Process Server License PSL-2025-5
+license: Oklahoma Process Server License PSL-2026-2
 bonded: Yes
 insured: Yes
 
