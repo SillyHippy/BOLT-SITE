@@ -1,0 +1,3 @@
+## 2026-03-23 - Custom Cloudflare Image Loader
+**Learning:** The project is a static site exported with `output: 'export'` and hosted on Cloudflare Pages. Because `next/image` requires an active Next.js server for its default image optimization, the project was outputting raw unoptimized `<img>` tags, resulting in excessively large full-size image loading.
+**Action:** Created a custom image loader mapped to Cloudflare's native Image Resizing CGI `/cdn-cgi/image/` and set `loader: 'custom'` in `next.config.js`. This allows `next/image` to correctly format responsive image requests at build time which Cloudflare edge handles on the fly natively.

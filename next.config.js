@@ -3,7 +3,8 @@ const nextConfig = {
   output: 'export',
   distDir: 'out',
   images: {
-    unoptimized: true,
+    loader: 'custom',
+    loaderFile: './lib/cloudflare-loader.ts',
     qualities: [75, 85, 100], // Configure allowed quality values for next/image
     // Add the new domain to the remotePatterns
     remotePatterns: [
