@@ -12,7 +12,11 @@ const urls = [
     'https://justlegalsolutions.org/how-much-does-process-server-cost',
     'https://justlegalsolutions.org/what-happens-if-someone-refuses-service',
     'https://justlegalsolutions.org/how-long-does-process-serving-take',
-    'https://justlegalsolutions.org/can-process-server-serve-on-sunday'
+    'https://justlegalsolutions.org/can-process-server-serve-on-sunday',
+    'https://justlegalsolutions.org/notary',
+    'https://justlegalsolutions.org/notary-faqs',
+    'https://justlegalsolutions.org/notary-laws',
+    'https://justlegalsolutions.org/pricing'
 ];
 
 bot.submitToIndexNow(urls).then((status) => {

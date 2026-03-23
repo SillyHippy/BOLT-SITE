@@ -1,6 +1,6 @@
 import React from 'react';
 import { Metadata } from 'next';
-import { CheckCircle, Truck, Clock, Zap, Flame, Target, Shield, Star, Phone, ArrowRight } from 'lucide-react';
+import { CheckCircle, Truck, Clock, Zap, Flame, Target, Shield, Star, Phone, ArrowRight, Building2, Car, Monitor, FileText, Scale } from 'lucide-react';
 import Link from 'next/link';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import AIVoiceSupremacy from '@/components/ui/ai-voice-supremacy';
@@ -8,12 +8,12 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 import { getPromoDescription } from '@/lib/promo-utils';
 
 export const metadata: Metadata = {
-  title: 'Process Server Pricing | Just Legal Solutions Oklahoma',
+  title: 'Pricing | Process Server & Notary Services | Just Legal Solutions Oklahoma',
   description: getPromoDescription(
-    'Transparent process server pricing in Oklahoma starting at $30. Same-day, rush, and standard service options. No hidden fees. Licensed and bonded professionals.',
-    '30% OFF LIMITED TIME for ZIP 74008, 74033, 74037! Transparent process server pricing in Oklahoma starting at $30. Same-day, rush, and standard service options. No hidden fees. Licensed and bonded.'
+    'Transparent process server and notary pricing in Oklahoma. Process serving starting at $30, notary in-office from $20. Same-day service available. No hidden fees. Licensed and bonded professionals.',
+    '30% OFF LIMITED TIME for ZIP 74008, 74033, 74037! Transparent process server and notary pricing in Oklahoma. Process serving starting at $30, notary in-office from $20. No hidden fees. Licensed and bonded.'
   ),
-  keywords: 'process server pricing Oklahoma, legal document service costs, process serving rates Tulsa, Oklahoma court service fees, affordable process server, transparent pricing legal services',
+  keywords: 'process server pricing Oklahoma, notary fees Oklahoma, legal document service costs, process serving rates Tulsa, Oklahoma court service fees, affordable process server, transparent pricing legal services, mobile notary cost, RON notary Oklahoma',
   alternates: {
     canonical: 'https://justlegalsolutions.org/pricing'
   },
@@ -342,6 +342,131 @@ export default function PricingPage() {
         </div>
       </section>
 
+      {/* Notary Services Pricing */}
+      <section id="notary" className="py-10 px-4 bg-white">
+        <div className="max-w-7xl mx-auto">
+            <div className="text-center mb-12">
+                <div className="inline-flex items-center justify-center bg-purple-100 rounded-full p-3 mb-4">
+                    <Scale className="h-8 w-8 text-purple-600" />
+                </div>
+                <h2 className="text-3xl font-bold text-gray-900">Notary Services Pricing</h2>
+                <p className="text-lg text-gray-600 mt-2">
+                    Licensed Oklahoma notaries with transparent, state-compliant pricing.
+                </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto mb-10">
+                {/* In-Office */}
+                <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200 hover:shadow-lg hover:border-blue-200 transition-all duration-300 hover:-translate-y-1">
+                    <div className="inline-flex items-center justify-center bg-blue-100 rounded-full p-2 mb-3">
+                        <Building2 className="h-6 w-6 text-blue-600" />
+                    </div>
+                    <h3 className="text-xl font-bold mb-3 text-gray-900">In-Office Notary</h3>
+                    <div className="mb-3">
+                        <p className="text-3xl font-bold text-green-600">Starting at $20</p>
+                    </div>
+                    <p className="text-gray-600 mb-3 text-sm">Quick, professional notarization at our office. Includes document review, notary seal, and digital copy.</p>
+                    <ul className="text-sm text-gray-600 space-y-1.5 mb-4">
+                        <li className="flex items-start gap-2"><CheckCircle className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />Private signing area</li>
+                        <li className="flex items-start gap-2"><CheckCircle className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />15-30 minute turnaround</li>
+                        <li className="flex items-start gap-2"><CheckCircle className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />Digital copy emailed</li>
+                    </ul>
+                    <p className="text-xs text-gray-500">Mon–Fri 8 AM–6 PM | Sat by appt.</p>
+                </div>
+
+                {/* Mobile */}
+                <div className="flex flex-col">
+                    <div className="bg-green-600 text-white text-xs font-bold text-center py-2 rounded-t-xl tracking-wider uppercase">★ Most Popular ★</div>
+                    <div className="bg-white p-6 rounded-b-xl shadow-lg border-2 border-green-500 border-t-0 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+                    <div className="inline-flex items-center justify-center bg-green-100 rounded-full p-2 mb-3">
+                        <Car className="h-6 w-6 text-green-600" />
+                    </div>
+                    <h3 className="text-xl font-bold mb-3 text-green-600">Mobile Notary</h3>
+                    <div className="mb-3">
+                        <p className="text-3xl font-bold text-green-600">Starting at $25/act</p>
+                        <p className="text-xs text-gray-500 mb-2">travel fees vary by distance</p>
+                    </div>
+                    <p className="text-gray-600 mb-3 text-sm">We come to you — home, office, hospital, or anywhere in Oklahoma.</p>
+                    <ul className="text-sm text-gray-600 space-y-1.5 mb-4">
+                        <li className="flex items-start gap-2"><CheckCircle className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />Travel to any location in OK</li>
+                        <li className="flex items-start gap-2"><CheckCircle className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />Evenings &amp; weekends available</li>
+                        <li className="flex items-start gap-2"><CheckCircle className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />Multiple signers welcome</li>
+                    </ul>
+                    <p className="text-xs text-gray-500">Contact us for travel fee quote</p>
+                    </div>
+                </div>
+
+                {/* RON */}
+                <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200 hover:shadow-lg hover:border-purple-200 transition-all duration-300 hover:-translate-y-1">
+                    <div className="inline-flex items-center justify-center bg-purple-100 rounded-full p-2 mb-3">
+                        <Monitor className="h-6 w-6 text-purple-600" />
+                    </div>
+                    <h3 className="text-xl font-bold mb-3 text-gray-900">Remote Online (RON)</h3>
+                    <div className="mb-3">
+                        <p className="text-3xl font-bold text-green-600">Starting at $25/act</p>
+                        <p className="text-xs text-gray-500 mb-2">state maximum per act</p>
+                    </div>
+                    <p className="text-gray-600 mb-3 text-sm">100% online via secure video. Sign from anywhere in the world.</p>
+                    <ul className="text-sm text-gray-600 space-y-1.5 mb-4">
+                        <li className="flex items-start gap-2"><CheckCircle className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />Secure encrypted platform</li>
+                        <li className="flex items-start gap-2"><CheckCircle className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />Multi-factor ID verification</li>
+                        <li className="flex items-start gap-2"><CheckCircle className="h-4 w-4 text-green-500 flex-shrink-0 mt-0.5" />Instant notarized download</li>
+                    </ul>
+                    <p className="text-xs text-gray-500">A platform fee may apply</p>
+                </div>
+            </div>
+
+            {/* Additional Notary Info */}
+            <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto mb-10">
+                <div className="bg-gray-50 p-6 rounded-xl border border-gray-200">
+                    <h3 className="font-bold text-blue-900 mb-3 flex items-center gap-2">
+                        <CheckCircle className="h-5 w-5 text-green-500" />
+                        What&apos;s Included
+                    </h3>
+                    <ul className="text-sm space-y-2 text-gray-700">
+                        <li className="flex items-start gap-2"><span className="text-green-500">✓</span>Notary seal &amp; official signature</li>
+                        <li className="flex items-start gap-2"><span className="text-green-500">✓</span>Document review</li>
+                        <li className="flex items-start gap-2"><span className="text-green-500">✓</span>Digital copy emailed</li>
+                        <li className="flex items-start gap-2"><span className="text-green-500">✓</span>Journal records maintained</li>
+                        <li className="flex items-start gap-2"><span className="text-green-500">✓</span>Errors &amp; Omissions (E&amp;O) insurance</li>
+                        <li className="flex items-start gap-2"><span className="text-green-500">✓</span>Absentee ballot affidavits — FREE by law</li>
+                    </ul>
+                </div>
+                <div className="bg-gray-50 p-6 rounded-xl border border-gray-200">
+                    <h3 className="font-bold text-blue-900 mb-3 flex items-center gap-2">
+                        <FileText className="h-5 w-5 text-blue-600" />
+                        Additional Notary Services
+                    </h3>
+                    <ul className="text-sm space-y-2 text-gray-700">
+                        <li className="flex items-start gap-2"><span className="text-blue-500">•</span><strong>Loan Signing:</strong> Contact us for pricing</li>
+                        <li className="flex items-start gap-2"><span className="text-blue-500">•</span><strong>Emergency/After-Hours:</strong> Surcharge may apply</li>
+                        <li className="flex items-start gap-2"><span className="text-blue-500">•</span><strong>Holiday Service:</strong> Surcharge may apply — call for availability</li>
+                        <li className="flex items-start gap-2"><span className="text-blue-500">•</span><strong>Volume Discounts:</strong> Available for law firms &amp; businesses</li>
+                    </ul>
+                </div>
+            </div>
+
+            {/* Notary Pricing Note */}
+            <div className="max-w-5xl mx-auto mb-10">
+                <div className="bg-purple-50/50 border border-purple-200 rounded-lg p-3 text-center">
+                    <p className="text-sm text-purple-800">
+                        Oklahoma law caps notary fees at <strong>$5 per traditional act</strong> and <strong>$25 per RON act</strong> (49 O.S. § 115). Each signature needing notarization = 1 act. <Link href="/notary-laws" className="text-purple-600 font-semibold underline hover:text-purple-800">View Oklahoma notary law details →</Link>
+                    </p>
+                </div>
+            </div>
+
+            {/* CTA */}
+            <div className="text-center">
+                <Link href="/notary" className="inline-flex items-center gap-2 bg-purple-600 hover:bg-purple-700 text-white font-semibold px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 text-lg">
+                    <Scale className="h-5 w-5" />
+                    Learn More About Notary Services
+                    <ArrowRight className="h-5 w-5" />
+                </Link>
+                <p className="text-sm text-gray-500 mt-3">Or call us directly: <a href="tel:5393676832" className="text-blue-600 font-semibold hover:underline">(539) 367-6832</a></p>
+            </div>
+        </div>
+      </section>
+
        <section className="py-10 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4">
             <div className="text-center mb-12">
@@ -501,7 +626,19 @@ export default function PricingPage() {
             </Link>
             <Link href="/contact" className="block p-4 bg-gray-50 rounded-lg border border-gray-200 hover:border-blue-300 hover:shadow-md transition-all">
               <h3 className="font-semibold text-blue-800">Request a Free Quote</h3>
-              <p className="text-sm text-gray-600 mt-1">Get a custom quote for your process serving needs</p>
+              <p className="text-sm text-gray-600 mt-1">Get a custom quote for your process serving or notary needs</p>
+            </Link>
+            <Link href="/notary" className="block p-4 bg-purple-50 rounded-lg border border-purple-200 hover:border-purple-300 hover:shadow-md transition-all">
+              <h3 className="font-semibold text-purple-800">Notary Services</h3>
+              <p className="text-sm text-gray-600 mt-1">In-office, mobile, and remote online notarization in Oklahoma</p>
+            </Link>
+            <Link href="/notary-faqs" className="block p-4 bg-purple-50 rounded-lg border border-purple-200 hover:border-purple-300 hover:shadow-md transition-all">
+              <h3 className="font-semibold text-purple-800">Notary FAQ</h3>
+              <p className="text-sm text-gray-600 mt-1">50+ common notary questions answered for Oklahoma</p>
+            </Link>
+            <Link href="/notary-laws" className="block p-4 bg-purple-50 rounded-lg border border-purple-200 hover:border-purple-300 hover:shadow-md transition-all">
+              <h3 className="font-semibold text-purple-800">Oklahoma Notary Laws Guide</h3>
+              <p className="text-sm text-gray-600 mt-1">Complete guide to Oklahoma notary requirements and regulations</p>
             </Link>
           </div>
         </div>

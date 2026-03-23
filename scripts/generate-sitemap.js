@@ -153,6 +153,11 @@ function generateSitemap() {
     '/weekend-emergency',
     '/virtual-assistant-services',
 
+    // Notary Service Pages (priority 0.9)
+    '/notary',
+    '/notary-faqs',
+    '/notary-laws',
+
     // Guide & Educational Pages
     '/ultimate-guide-process-serving-oklahoma',
     '/oklahoma-process-server-laws',
@@ -211,7 +216,8 @@ function generateSitemap() {
   // This prevents Google from ignoring priority signals when too many pages are at 1.0
   const PRIORITY_1_0_PAGES = ['/', '/tulsa-process-server', '/pricing', '/contact'];
   const PRIORITY_0_9_PATTERNS = ['/process-serving', '/same-day-process-server', '/urgent-process-server',
-    '/skip-tracing', '/subpoena-service', '/eviction-notice-service', '/courier-services', '/weekend-emergency'];
+    '/skip-tracing', '/subpoena-service', '/eviction-notice-service', '/courier-services', '/weekend-emergency',
+    '/notary'];
 
   const urlEntries = allUrls.map(url => {
     let priority = '0.7'; // Default priority
@@ -224,7 +230,7 @@ function generateSitemap() {
     } else if (PRIORITY_0_9_PATTERNS.some(p => urlPath === p)) {
       priority = '0.9';
       changefreq = 'weekly';
-    } else if (urlPath.includes('/oklahoma-') || urlPath.includes('/seo/') || urlPath.includes('/process-server') || urlPath.includes('/ultimate-guide') || urlPath.includes('/process-serving-mistakes')) {
+    } else if (urlPath.includes('/oklahoma-') || urlPath.includes('/seo/') || urlPath.includes('/process-server') || urlPath.includes('/ultimate-guide') || urlPath.includes('/process-serving-mistakes') || urlPath === '/notary-faqs' || urlPath === '/notary-laws') {
       priority = '0.85';
       changefreq = 'monthly';
     } else if (urlPath.includes('/counties/') || urlPath === '/counties') {

@@ -59,6 +59,9 @@ export function Navbar() {
             <Link href="/pricing" className="text-gray-700 hover:text-gray-900" aria-current={pathname === '/pricing' ? 'page' : undefined}>
               Pricing
             </Link>
+            <Link href="/notary" className="text-gray-700 hover:text-gray-900" aria-current={pathname?.startsWith('/notary') ? 'page' : undefined}>
+              Notary Services
+            </Link>
             <Link href="/service-areas" className="text-gray-700 hover:text-gray-900" aria-current={pathname?.startsWith('/service-areas') ? 'page' : undefined}>
               Service Areas
             </Link>
@@ -155,6 +158,14 @@ export function Navbar() {
               aria-current={pathname === '/pricing' ? 'page' : undefined}
             >
               Pricing
+            </Link>
+            <Link
+              href="/notary"
+              className="px-6 py-3 text-gray-700 hover:bg-gray-100"
+              onClick={() => setIsMobileMenuOpen(false)}
+              aria-current={pathname?.startsWith('/notary') ? 'page' : undefined}
+            >
+              Notary Services
             </Link>
             <Link
               href="/service-areas"

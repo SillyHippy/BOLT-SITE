@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
-import { MapPin, FileText, BookOpen, Scale, Phone, Briefcase, ClipboardList, ArrowRight } from 'lucide-react';
+import { MapPin, FileText, BookOpen, Scale, Phone, Briefcase, ClipboardList, ArrowRight, Stamp } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
@@ -67,6 +67,17 @@ const sections: SitemapSection[] = [
       { url: '/seo/eviction-notice-process-server', label: 'Eviction Notice Service' },
       { url: '/seo/legal-posting-process-server', label: 'Legal Notice Posting' },
       { url: '/seo/what-is-a-process-server', label: 'What Is a Process Server?' },
+    ],
+  },
+  {
+    title: 'Notary Services',
+    description: 'Oklahoma notary public services — in-office, mobile, and remote online notarization.',
+    icon: <Stamp className="w-5 h-5" />,
+    color: 'green',
+    links: [
+      { url: '/notary', label: 'Notary Services' },
+      { url: '/notary-faqs', label: 'Notary FAQs (50+)' },
+      { url: '/notary-laws', label: 'Oklahoma Notary Laws Guide' },
     ],
   },
   {
@@ -163,6 +174,7 @@ const colorMap: Record<string, { bg: string; bgHover: string; border: string; he
   sky:     { bg: 'bg-sky-50',     bgHover: 'hover:bg-sky-100',     border: 'border-sky-200',     heading: 'text-sky-900',     icon: 'text-sky-600',     link: 'text-sky-700'     },
   teal:    { bg: 'bg-teal-50',    bgHover: 'hover:bg-teal-100',    border: 'border-teal-200',    heading: 'text-teal-900',    icon: 'text-teal-600',    link: 'text-teal-700'    },
   amber:   { bg: 'bg-amber-50',   bgHover: 'hover:bg-amber-100',   border: 'border-amber-200',   heading: 'text-amber-900',   icon: 'text-amber-600',   link: 'text-amber-700'   },
+  green:   { bg: 'bg-green-50',   bgHover: 'hover:bg-green-100',   border: 'border-green-200',   heading: 'text-green-900',   icon: 'text-green-600',   link: 'text-green-700'   },
 };
 
 /* ── Component ───────────────────────────────────────────── */
