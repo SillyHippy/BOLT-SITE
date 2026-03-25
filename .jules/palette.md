@@ -1,0 +1,3 @@
+## 2025-05-14 - Interactive Element Relationships: ARIA Controls
+**Learning:** Found a common pattern where toggle buttons manage `aria-expanded` state but lack explicit relationships to the content they reveal. Without `aria-controls` on the button and a matching `id` plus `role="region"` with `aria-labelledby` on the content container, screen reader users might not know what content appeared or where it is.
+**Action:** When building or fixing custom interactive elements like accordions or tabs, always explicitly link the trigger to the content block using `aria-controls` alongside an `id`, and provide a clear role (e.g., `role="region"`) and label for the content block using `aria-labelledby`.

@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useId } from 'react';
 import { ChevronDown, ChevronUp } from 'lucide-react';
 
 interface FAQ {
@@ -14,6 +14,7 @@ interface FAQAccordionProps {
 
 export default function FAQAccordion({ faqs }: FAQAccordionProps) {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
+  const baseId = useId();
 
   const toggleFAQ = (index: number) => {
     setOpenIndex(openIndex === index ? null : index);
@@ -25,9 +26,11 @@ export default function FAQAccordion({ faqs }: FAQAccordionProps) {
         <div key={index} className="bg-white border border-gray-200 rounded-lg shadow-sm overflow-hidden" itemScope itemType="https://schema.org/Question">
           <meta itemProp="image" content="https://justlegalsolutions.org/images/jls-logo.webp" />
           <button
+            id={`${baseId}-faq-question-${index}`}
             onClick={() => toggleFAQ(index)}
             className="w-full text-left p-6 hover:bg-gray-50 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-inset"
             aria-expanded={openIndex === index}
+            aria-controls={`${baseId}-faq-answer-${index}`}
           >
             <div className="flex justify-between items-center">
               <h3 className="font-semibold text-lg text-gray-800 pr-4" itemProp="name">
@@ -43,7 +46,15 @@ export default function FAQAccordion({ faqs }: FAQAccordionProps) {
             </div>
           </button>
           {openIndex === index && (
-            <div className="px-6 pb-6" itemScope itemType="https://schema.org/Answer" itemProp="acceptedAnswer">
+            <div
+              id={`${baseId}-faq-answer-${index}`}
+              role="region"
+              aria-labelledby={`${baseId}-faq-question-${index}`}
+              className="px-6 pb-6"
+              itemScope
+              itemType="https://schema.org/Answer"
+              itemProp="acceptedAnswer"
+            >
               <div className="border-t border-gray-100 pt-4">
                 <meta itemProp="image" content="https://justlegalsolutions.org/images/jls-logo.webp" />
                 <p className="text-gray-700 leading-relaxed" itemProp="text" dangerouslySetInnerHTML={{ __html: faq.answer }}></p>
