@@ -1,6 +1,16 @@
 # Cloudflare Pages _redirects — consolidated Feb 17 2026
 # Docs: https://developers.cloudflare.com/pages/configuration/redirects/
 
+# ── 0. Protocol & Domain Canonicalization (HIGHEST PRIORITY) ──
+# Force HTTPS (http → https)
+http://* https://:splat 301
+
+# Force www removal (www → non-www)
+https://www.justlegalsolutions.org/* https://justlegalsolutions.org/:splat 301
+
+# Redirect /index.html to /
+/index.html / 301
+
 # ── 1. Year-versioned stubs (2025 → current) ────────────────
 /oklahoma-process-server-pricing-2025 /oklahoma-process-server-pricing 301
 /oklahoma-process-server-technology-2025 /oklahoma-process-server-technology 301
