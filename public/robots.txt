@@ -6,6 +6,9 @@ Disallow: /admin/
 Disallow: /private/
 Disallow: /*.json$
 Disallow: /*?*print=
+Disallow: /*?q=
+Disallow: /*?search=
+Disallow: /*?utm_
 Disallow: /viewer
 Disallow: /future-ai-ready
 Disallow: /local-legal-events
