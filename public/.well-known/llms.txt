@@ -19,3 +19,14 @@ website: https://justlegalsolutions.org
 - https://justlegalsolutions.org/ai-sitemap.xml
 - https://justlegalsolutions.org/ai-assistant/business-info.txt
 - https://justlegalsolutions.org/ai-assistant/faq.txt
+
+## Detailed Pricing
+Standard Service: $21
+Rush Service: $52
+Same-Day Service: $105
+Skip Tracing: $25
+Court Filing: $18
+
+## Local Coverage
+Primary Counties: Tulsa, Wagoner, Creek, Rogers, Osage
+Primary Cities: Tulsa, Broken Arrow, Sapulpa, Glenpool, Owasso, Bixby, Jenks, Sand Springs

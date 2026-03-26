@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, MapPin, Clock, Search, Star, CheckCircle, Shield, Building2 } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
+import LocalPromoBanner from '@/components/ui/local-promo-banner';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 
@@ -152,6 +153,7 @@ export default function ServiceAreasHub() {
         reviewCount={156}
       />
       <Navbar />
+      <LocalPromoBanner zips={[]} />
 
       <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
         {/* Hero Section */}

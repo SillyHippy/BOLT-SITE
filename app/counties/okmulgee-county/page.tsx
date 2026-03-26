@@ -1,3 +1,4 @@
+import LocalPromoBanner from '@/components/ui/local-promo-banner';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { FileText, MapPin, Phone, Mail, Users, Building, Calendar, DollarSign, Star, ExternalLink, HelpCircle } from 'lucide-react';
@@ -175,6 +176,7 @@ export default function OkmulgeeCountyPage() {
   return (
     <>
       <Navbar />
+      <LocalPromoBanner zips={[]} />
       
       {/* JSON-LD Schema */}
       <script
