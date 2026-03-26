@@ -42,13 +42,42 @@ function generateSitemap() {
   // URLs to exclude (redirect pages, internal tools, utility pages)
   const excludeUrls = [
     '/faq', // Redirects to /ultimate-guide-process-serving-oklahoma
+    '/faq/', // Trailing slash variant
     '/services', // Redirects to /pricing
+    '/services/', // Trailing slash variant
+    '/index.html', // Redirects to /
+    '/sitemap/', // Not needed in sitemap (has sitemap.xml)
+    // Original SEO redirects
     '/seo/process-server-sand-springs', // Redirects to /service-areas/sand-springs
     '/seo/process-server-bixby', // Redirects to /service-areas/bixby
     '/seo/process-server-broken-arrow', // Redirects to /service-areas/broken-arrow
     '/seo/process-server-jenks', // Redirects to /service-areas/jenks
     '/seo/process-server-nowata', // Redirects to /service-areas/nowata
     '/seo/process-server-vinita', // Redirects to /service-areas/vinita
+    // Newly added SEO redirects (from fix)
+    '/seo/process-server-coweta', // Redirects to /service-areas/coweta
+    '/seo/process-server-catoosa', // Redirects to /service-areas/catoosa
+    '/seo/process-server-skiatook', // Redirects to /service-areas/skiatook
+    '/seo/process-server-collinsville', // Redirects to /service-areas/collinsville
+    '/seo/process-server-kellyville', // Redirects to /service-areas/kellyville
+    '/seo/process-server-wagoner', // Redirects to /service-areas/wagoner
+    '/seo/process-server-mounds', // Redirects to /tulsa-process-server
+    '/seo/process-server-drumright', // Redirects to /tulsa-process-server
+    '/seo/courier-delivery-service', // Redirects to /courier-services-tulsa
+    '/seo/small-business-courier', // Redirects to /law-firm-services
+    '/seo/skip-tracing-services', // Redirects to /skip-tracing
+    '/seo/tulsa-process-server-comprehensive', // Redirects to /tulsa-process-server
+    '/seo/owasso-process-server', // Redirects to /service-areas/owasso
+    '/seo/glenpool-process-server', // Redirects to /service-areas/glenpool
+    '/seo/sand-springs-process-server', // Redirects to /service-areas/sand-springs
+    // Root-level process-server variations
+    '/process-server-tulsa', // Redirects to /tulsa-process-server
+    '/process-server-tulsa/', // Trailing slash variant
+    '/process-server-bixby', // Redirects to /service-areas/bixby
+    '/process-server-bixby/', // Trailing slash variant
+    '/process-server-porter', // Redirects to /tulsa-process-server
+    '/process-server-porter/', // Trailing slash variant
+    '/serving-legal-papers-in-oklahoma-guide', // Redirects to /ultimate-guide-process-serving-oklahoma
     '/oklahoma-process-server-cost-calculator', // Removed - page no longer exists
     '/404', // Error page - should not be indexed
     '/card', // Internal business card page
