@@ -38,6 +38,32 @@
 /seo/process-server-bixby /service-areas/bixby 301
 /seo/process-server-broken-arrow /service-areas/broken-arrow 301
 /seo/process-server-sand-springs /service-areas/sand-springs 301
+/seo/process-server-coweta /service-areas/coweta 301
+/seo/process-server-catoosa /service-areas/catoosa 301
+/seo/process-server-skiatook /service-areas/skiatook 301
+/seo/process-server-collinsville /service-areas/collinsville 301
+/seo/process-server-kellyville /service-areas/kellyville 301
+/seo/process-server-wagoner /service-areas/wagoner 301
+/seo/process-server-mounds /tulsa-process-server 301
+/seo/process-server-drumright /tulsa-process-server 301
+/seo/courier-delivery-service /courier-services-tulsa 301
+/seo/small-business-courier /law-firm-services 301
+/seo/skip-tracing-services /skip-tracing 301
+/seo/tulsa-process-server-comprehensive /tulsa-process-server 301
+
+# ── 5b. Trailing slash variants for /seo/ paths ───────────
+/seo/process-server-coweta/ /service-areas/coweta 301
+/seo/process-server-catoosa/ /service-areas/catoosa 301
+/seo/process-server-skiatook/ /service-areas/skiatook 301
+/seo/process-server-collinsville/ /service-areas/collinsville 301
+/seo/process-server-kellyville/ /service-areas/kellyville 301
+/seo/process-server-wagoner/ /service-areas/wagoner 301
+/seo/owasso-process-server/ /service-areas/owasso 301
+/seo/glenpool-process-server/ /service-areas/glenpool 301
+/seo/sand-springs-process-server/ /service-areas/sand-springs 301
+/seo/courier-delivery-service/ /courier-services-tulsa 301
+/seo/small-business-courier/ /law-firm-services 301
+/seo/skip-tracing-services/ /skip-tracing 301
 
 # ── 6. Common URL variations → service-areas ─────────────────
 /process-server-jenks /service-areas/jenks 301
@@ -47,8 +73,17 @@
 /process-server-glenpool /service-areas/glenpool 301
 /sand-springs-process-server /service-areas/sand-springs 301
 /owasso-process-server /service-areas/owasso 301
+/process-server-tulsa /tulsa-process-server 301
+/process-server-tulsa/ /tulsa-process-server 301
+/process-server-bixby /service-areas/bixby 301
+/process-server-bixby/ /service-areas/bixby 301
+/process-server-porter /tulsa-process-server 301
+/process-server-porter/ /tulsa-process-server 301
 /tulsa-county /counties/tulsa-county 301
 
-# ── 7. App-level redirects (server-side for speed) ──────────
+# ── 7. Content page redirects ─────────────────────────────
+/serving-legal-papers-in-oklahoma-guide /ultimate-guide-process-serving-oklahoma 301
+
+# ── 8. App-level redirects (server-side for speed) ──────────
 /faq /ultimate-guide-process-serving-oklahoma 301
 /services /pricing 301
