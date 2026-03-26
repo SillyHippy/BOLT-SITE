@@ -208,7 +208,7 @@ export function Navbar() {
             </Link>
             <button
               onClick={scrollToFooter}
-              className="px-6 py-3 text-gray-700 hover:bg-gray-100 text-left"
+              className="px-6 py-3 text-gray-700 hover:bg-gray-100 text-left focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-400"
             >
               Contact Us
             </button>
