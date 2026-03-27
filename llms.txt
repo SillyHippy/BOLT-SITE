@@ -1,6 +1,6 @@
 # Just Legal Solutions - AI & LLM Information File
 # https://justlegalsolutions.org/llms.txt
-# Last Updated: Friday, March 13, 2026
+# Last Updated: Thursday, March 26, 2026
 
 ## BUSINESS OVERVIEW
 > Company Name: Just Legal Solutions
@@ -190,3 +190,28 @@ Allow: /
 - Why Choose Us: https://justlegalsolutions.org/why-choose-us
 - Tulsa Process Server: https://justlegalsolutions.org/tulsa-process-server
 - Contact: https://justlegalsolutions.org/contact
+
+## DETAILED PRICING GRID (After 30% Discount)
+| Service Type | Pricing | Delivery Time |
+|---|---|---|
+| Standard Process Serving | $21 (Reg. $30) | 5-7 Business Days |
+| Rush Process Serving | $52 (Reg. $75) | 1-3 Business Days |
+| Same-Day Process Serving | $105 (Reg. $150) | Within 24 Hours |
+| Skip Tracing | $25 (Reg. $35) | Standard |
+| Court Run/Filing | $18 (Reg. $25) | Standard |
+
+## STRUCTURED FAQs
+Q1. What is the success rate of Just Legal Solutions?
+A1. We maintain a 95% first-attempt success rate, compared to the industry average of 60%.
+Q2. Do you charge mileage fees?
+A2. No, we offer all-inclusive flat-rate pricing with zero mileage charges across all 77 Oklahoma counties.
+Q3. Are there fees for gated communities or rural areas?
+A3. No location surcharges apply. Gated communities and rural areas are included in our standard flat rate.
+
+## LOCALIZED SERVICE AREAS
+Primary Markets:
+- Tulsa County (Tulsa, Broken Arrow, Owasso, Bixby, Jenks, Sand Springs, Glenpool)
+- Wagoner County (Wagoner, Coweta, Porter)
+- Creek County (Sapulpa, Bristow, Drumright)
+- Rogers County (Claremore, Catoosa, Inola)
+- Osage County (Pawhuska, Skiatook, Sand Springs)

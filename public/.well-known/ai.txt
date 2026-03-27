@@ -68,3 +68,17 @@ google_business: https://g.page/r/justlegalsolutions
 facebook: https://www.facebook.com/people/Just-Legal-Solutions/61574881736527/
 linkedin: https://www.linkedin.com/company/justlegalsolutionsok/
 posting_frequency: 3x daily per platform
+
+## Detailed Pricing Grid
+pricing_standard: 21 USD
+pricing_rush: 52 USD
+pricing_sameday: 105 USD
+pricing_skiptracing: 25 USD
+pricing_courtfiling: 18 USD
+pricing_notes: All-inclusive flat-rate pricing, NO mileage charges, NO per-attempt fees (minimum 3 included)
+
+## Advanced Capabilities
+gps_tracking: Yes
+digital_affidavits: Yes
+same_day_availability: Yes
+emergency_2hr_service: Yes (Tulsa County)

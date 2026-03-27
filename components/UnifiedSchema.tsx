@@ -462,9 +462,10 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
       if (organization.description) (organizationSchema as any).description = organization.description;
       if (organization.email) (organizationSchema as any).email = organization.email;
       
-      // 2025 SEO Dominance Features
+      // 2025 SEO Dominance Features (Enhanced for AI)
       (organizationSchema as any).foundingDate = '2025-03-01';
       (organizationSchema as any).slogan = 'Oklahoma\'s #1 Process Server - Professional, Fast, Reliable';
+      (organizationSchema as any).description = 'Licensed and bonded Oklahoma process server providing standard ($21), rush ($52), and same-day ($105) document delivery across all 77 counties with GPS tracking and digital affidavits.';
       (organizationSchema as any).areaServed = [
         {
           '@type': 'State',
@@ -477,7 +478,13 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
             { '@type': 'City', 'name': 'Jenks' },
             { '@type': 'City', 'name': 'Bixby' },
             { '@type': 'City', 'name': 'Sand Springs' },
-            { '@type': 'City', 'name': 'Glenpool' }
+            { '@type': 'City', 'name': 'Glenpool' },
+            { '@type': 'City', 'name': 'Wagoner' },
+            { '@type': 'City', 'name': 'Coweta' },
+            { '@type': 'City', 'name': 'Claremore' },
+            { '@type': 'City', 'name': 'Okmulgee' },
+            { '@type': 'City', 'name': 'Bristow' },
+            { '@type': 'City', 'name': 'Muskogee' }
           ]
         }
       ];

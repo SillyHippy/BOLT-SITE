@@ -150,7 +150,7 @@ export default function Home() {
             {/* Service 1 */}
             <div className="text-center flex flex-col group">
               <div className="mb-4 relative h-48 sm:h-56 w-full rounded-lg overflow-hidden shadow-[0_0_20px_rgba(255,255,255,0.4)] group-hover:shadow-[0_0_30px_rgba(59,130,246,0.6)] transition-all duration-300 group-hover:-translate-y-2">
-                <Image
+                <Image loading="lazy"
                   src="/images/secure-delivery.webp"
                   alt="Professional courier delivering legal documents securely"
                   fill
@@ -168,7 +168,7 @@ export default function Home() {
             {/* Service 2 */}
             <div className="text-center flex flex-col group">
               <div className="mb-4 relative h-48 sm:h-56 w-full rounded-lg overflow-hidden shadow-[0_0_20px_rgba(255,255,255,0.4)] group-hover:shadow-[0_0_30px_rgba(59,130,246,0.6)] transition-all duration-300 group-hover:-translate-y-2">
-                <Image
+                <Image loading="lazy"
                   src="/images/court-transfer.webp"
                   alt="Court document transfer service"
                   fill
@@ -186,7 +186,7 @@ export default function Home() {
             {/* Service 3 */}
             <div className="text-center flex flex-col group">
               <div className="mb-4 relative h-48 sm:h-56 w-full rounded-lg overflow-hidden shadow-[0_0_20px_rgba(255,255,255,0.4)] group-hover:shadow-[0_0_30px_rgba(59,130,246,0.6)] transition-all duration-300 group-hover:-translate-y-2">
-                <Image
+                <Image loading="lazy"
                   src="/images/skip-trace.webp"
                   alt="Professional skip tracing and investigation services for locating individuals in Oklahoma"
                   fill
@@ -204,7 +204,7 @@ export default function Home() {
             {/* Service 4 */}
             <div className="text-center flex flex-col group">
               <div className="mb-4 relative h-48 sm:h-56 w-full rounded-lg overflow-hidden shadow-[0_0_25px_rgba(255,255,255,0.5)] group-hover:shadow-[0_0_30px_rgba(59,130,246,0.6)] transition-all duration-300 group-hover:-translate-y-2">
-                <Image
+                <Image loading="lazy"
                   src="/images/same-day.webp"
                   alt="Same-day process serving and urgent document delivery services"
                   fill
@@ -226,7 +226,7 @@ export default function Home() {
       {/* Secure Courier Services */}
       <section id="courier-services" className="relative py-24">
         <div className="absolute inset-0">
-          <Image
+          <Image loading="lazy"
             src="/images/courier-bg.webp"
             alt="Legal office environment"
             fill
