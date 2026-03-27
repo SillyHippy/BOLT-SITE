@@ -86,7 +86,7 @@ const pageFaqs = [
   },
   {
     "question": "Who can legally serve process in Oklahoma?",
-    "answer": "Only licensed process servers, Oklahoma attorneys, court clerks, and sheriff&apos;s deputies can legally serve process in Oklahoma. Private individuals must be at least 18 years old, licensed by the district court, maintain a $5,000 surety bond, and meet residency requirements under Title 12 § 158.1. <strong>Bond sources:</strong> Local insurance agents or online providers like SuretyBonds.com ($50-150 depending on term). License renewal costs approximately $235.39 every three years including court fees and publication, though exact amounts vary by county."
+    "answer": "Only licensed process servers, Oklahoma attorneys, court clerks, and sheriff&apos;s deputies can legally serve process in Oklahoma. Private individuals must be at least 18 years old, licensed by the district court, maintain a $5,000 surety bond, and meet residency requirements under Title 12 § 158.1. <strong>Bond sources:</strong> Local insurance agents or online providers like SuretyBonds.com ($50-150 depending on term). First-time statewide license applicants should budget about $370.16 in court/county fees (Tulsa County 2026 baseline) before publication, passport photos, and the bond. Renewal applicants should plan for about $170 plus publication, passport photos, and the surety bond (varies by county)."
   },
   {
     "question": "Where can I find the official Oklahoma process server application form?",
@@ -94,7 +94,7 @@ const pageFaqs = [
   },
   {
     "question": "What does it cost to renew an Oklahoma process server license?",
-    "answer": "License renewal costs approximately <strong>$235.39 total</strong> every three years, including the $15 statutory fee, court costs, and publication expenses (excluding passport photos). Exact amounts vary by county. <strong>Start renewal 30-60 days before expiration to avoid lapse.</strong> You&apos;ll need to re-file in the issuing court and provide an updated bond."
+    "answer": "License renewal costs approximately <strong>$170 in court/county fees</strong> every three years (varies by county such as Tulsa County) and does <em>not</em> include publication, passport photos, or your surety bond. <strong>Start renewal 30-60 days before expiration to avoid lapse.</strong> You&apos;ll need to re-file in the issuing court and provide an updated bond."
   },
   {
     "question": "How much does process serving cost in Oklahoma?",
@@ -228,8 +228,12 @@ export default function UltimateGuidePage() {
                 </thead>
                 <tbody>
                   <tr className="border-b border-gray-200">
+                    <td className="py-3 px-4 font-medium">First-Time Statewide License</td>
+                    <td className="py-3 px-4">$370.16 in court/county fees (Tulsa County 2026 baseline; add publication, passport photo, and $5,000 surety bond; varies by county)</td>
+                  </tr>
+                  <tr className="border-b border-gray-200">
                     <td className="py-3 px-4 font-medium">License Renewal Cost</td>
-                    <td className="py-3 px-4">~$235.39 (excludes passport photos & publication)</td>
+                    <td className="py-3 px-4">~$170 in court/county fees (add publication, passport photos & surety bond)</td>
                   </tr>
                   <tr className="border-b border-gray-200">
                     <td className="py-3 px-4 font-medium">Bond Amount</td>
@@ -428,8 +432,8 @@ export default function UltimateGuidePage() {
               <div className="bg-purple-50 p-4 rounded-lg">
                 <h4 className="font-bold text-purple-800 mb-3">Financial Requirements</h4>
                 <ul className="text-sm space-y-1">
-                  <li>• Initial statewide license fee: $150 (paid to district court at application)</li>
-                  <li>• <strong>Three-year renewal cost: approximately $235.39</strong> (includes $15 statutory fee + county court costs; varies by county; excludes passport photos & publication)</li>
+                  <li>• <strong>First-time statewide license baseline (Tulsa County 2026): $370.16</strong> in court/county fees (publication, passport photos, and $5,000 surety bond are additional)</li>
+                  <li>• <strong>Three-year renewal cost: approximately $170</strong> in court/county fees (add publication, passport photos, and surety bond; varies by county)</li>
                   <li>• Secure $5,000 surety bond (see bond sources below)</li>
                   <li>• Maintain professional liability insurance</li>
                 </ul>
@@ -449,7 +453,7 @@ export default function UltimateGuidePage() {
               
               <div className="mt-4 pt-4 border-t border-yellow-300">
                 <h5 className="font-semibold text-yellow-900 mb-2">2026 Renewal Process:</h5>
-                <p className="text-sm">Renewals require re-filing in the issuing court with updated bond. The renewal fee is approximately <strong>$235.39</strong> (excludes passport photos ~$15 and publication ~$50-$150; exact amounts vary by county). <strong>Begin renewal 30-60 days before expiration to avoid lapse.</strong></p>
+                <p className="text-sm">Renewals require re-filing in the issuing court with updated bond. The renewal fee is approximately <strong>$170</strong> in court/county costs (add passport photos ~$15, publication ~$50-$150, and the surety bond; exact amounts vary by county). <strong>Begin renewal 30-60 days before expiration to avoid lapse.</strong></p>
               </div>
             </div>
           </CardContent>
@@ -491,6 +495,7 @@ export default function UltimateGuidePage() {
                     <div className="bg-white p-4 rounded-lg shadow-md border-l-4 border-purple-500">
                       <h4 className="font-bold text-purple-800">Step 2: Secure Your $5,000 Bond</h4>
                       <p className="text-sm text-gray-600 mt-2">Get surety bond from <a href="https://www.suretybonds.com/states/oklahoma/process-server-bond" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:underline">SuretyBonds.com</a> (~$50/year) or local insurance agent.</p>
+                      <p className="text-sm text-gray-600 mt-2">Before purchasing, call the courthouse to confirm your hearing date so the bond&apos;s effective date matches the court date.</p>
                       <p className="text-xs text-purple-600 mt-1 font-medium">Timeline: 1-3 days • Cost: $50-$100</p>
                     </div>
                   </div>
@@ -543,7 +548,7 @@ export default function UltimateGuidePage() {
                     <div className="bg-green-50 p-4 rounded-lg shadow-md border-l-4 border-green-500">
                       <h4 className="font-bold text-green-800">Step 6: Receive License & Start Working!</h4>
                       <p className="text-sm text-gray-600 mt-2">Once approved, you can serve legal documents statewide. Consider joining <a href="#gig-platforms" className="text-green-600 hover:underline">ABC Legal, ServeNow, or Proof</a> for jobs.</p>
-                      <p className="text-xs text-green-600 mt-1 font-medium">Timeline: 2-4 weeks total • Total Cost: ~$265-$465</p>
+                      <p className="text-xs text-green-600 mt-1 font-medium">Timeline: 2-4 weeks total • Total Cost: ~$485.16-$635.16 (based on $370.16 in court/county fees + publication $50-$150 + bond $50-$100 + passport photos ~$15)</p>
                     </div>
                   </div>
                 </div>
@@ -1151,6 +1156,9 @@ export default function UltimateGuidePage() {
           <CardContent>
             <p className="mb-4">
               Just Legal Solutions is headquartered in Tulsa County, providing intimate knowledge of local court procedures, judges&apos; preferences, and geographic challenges. Our local expertise includes:
+            </p>
+            <p className="mb-4 text-sm text-gray-700">
+              Tulsa County applicants should budget about <strong>$370.16</strong> in 2026 court/county fees for a first-time statewide license (publication, passport photos, and the $5,000 surety bond are additional) and about <strong>$170</strong> in court fees for renewals. Confirm your court date with the clerk before purchasing your surety bond so the bond&apos;s effective date matches the hearing date.
             </p>
             
             <div className="grid md:grid-cols-2 gap-6">
