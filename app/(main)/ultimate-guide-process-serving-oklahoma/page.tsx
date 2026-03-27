@@ -433,6 +433,10 @@ export default function UltimateGuidePage() {
                   <li>• Secure $5,000 surety bond (see bond sources below)</li>
                   <li>• Maintain professional liability insurance</li>
                 </ul>
+                <div className="mt-3 p-3 bg-purple-100 border border-purple-300 rounded">
+                  <p className="text-sm font-semibold text-purple-900">📍 Tulsa County Note (2026):</p>
+                  <p className="text-sm text-purple-800 mt-1">In Tulsa County, all licensing fees combined — excluding the publication fee and passport photos — total <strong>$370</strong> for a statewide license as of 2026.</p>
+                </div>
               </div>
             </div>
 
@@ -491,6 +495,9 @@ export default function UltimateGuidePage() {
                     <div className="bg-white p-4 rounded-lg shadow-md border-l-4 border-purple-500">
                       <h4 className="font-bold text-purple-800">Step 2: Secure Your $5,000 Bond</h4>
                       <p className="text-sm text-gray-600 mt-2">Get surety bond from <a href="https://www.suretybonds.com/states/oklahoma/process-server-bond" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:underline">SuretyBonds.com</a> (~$50/year) or local insurance agent.</p>
+                      <div className="mt-2 p-2 bg-yellow-50 border border-yellow-300 rounded text-xs text-yellow-800">
+                        <strong>⚠️ Important — Check Court Date First:</strong> Before purchasing your surety bond, contact the courthouse to find out when the next court date is scheduled for new process server applications. Your bond must go into effect on the same day as your court date.
+                      </div>
                       <p className="text-xs text-purple-600 mt-1 font-medium">Timeline: 1-3 days • Cost: $50-$100</p>
                     </div>
                   </div>

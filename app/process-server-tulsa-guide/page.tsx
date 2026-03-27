@@ -115,6 +115,14 @@ export default function ProcessServerTulsaGuide() {
           <li>$5,000 surety bond execution</li>
           <li>$150 statewide license fee</li>
         </ul>
+        <div className="bg-blue-50 border-l-4 border-blue-500 p-4 mb-4">
+          <p className="font-semibold text-blue-900">📍 Tulsa County Licensing Cost (2026):</p>
+          <p className="text-blue-800 mt-1">In Tulsa County, all licensing fees combined — excluding the publication fee and passport photos — total <strong>$370</strong> for a statewide license as of 2026.</p>
+        </div>
+        <div className="bg-yellow-50 border-l-4 border-yellow-500 p-4 mb-4">
+          <p className="font-semibold text-yellow-900">⚠️ Surety Bond Timing — Important:</p>
+          <p className="text-yellow-800 mt-1">Before purchasing your surety bond, contact the courthouse to confirm the next scheduled court date for new process server applications. Your bond must go into effect on the same day as your court date.</p>
+        </div>
   <p className="font-bold">Important: Any person serving process in Oklahoma without proper licensing commits a misdemeanor offense, with exceptions only for Oklahoma attorneys, court clerks, and sheriff&apos;s deputies working within their counties.</p>
       </section>
       <section className="mb-8">
