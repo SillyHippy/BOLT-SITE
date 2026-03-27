@@ -64,9 +64,17 @@ export default function StaticSiteOptimizer() {
     optimizeThirdPartyScripts()
     reduceLayoutShift()
 
-    // Re-run image optimization for dynamically loaded content
+    // Re-run image optimization for dynamically loaded content with debounce
+    // to prevent layout thrashing and main thread blocking on rapid DOM mutations
+    let timeoutId: NodeJS.Timeout | null = null
     const observer = new MutationObserver(() => {
-      optimizeImages()
+      if (timeoutId) {
+        clearTimeout(timeoutId)
+      }
+      timeoutId = setTimeout(() => {
+        optimizeImages()
+        timeoutId = null
+      }, 100) // Debounce for 100ms
     })
 
     observer.observe(document.body, {
@@ -74,7 +82,12 @@ export default function StaticSiteOptimizer() {
       subtree: true
     })
 
-    return () => observer.disconnect()
+    return () => {
+      observer.disconnect()
+      if (timeoutId) {
+        clearTimeout(timeoutId)
+      }
+    }
   }, [])
 
   // This component renders nothing - it's just for optimization
