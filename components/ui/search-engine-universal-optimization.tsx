@@ -136,14 +136,14 @@ export default function SearchEngineUniversalOptimization({
             {
               "@type": "Offer",
               "url": "https://justlegalsolutions.org/services",
-              "price": "21.00",
+              "price": "60.00",
               "priceCurrency": "USD",
               "priceSpecification": {
                 "@type": "PriceSpecification",
-                "price": "21.00",
+                "price": "60.00",
                 "priceCurrency": "USD",
                 "valueAddedTaxIncluded": false,
-                "description": "30% OFF ongoing discount - Regular $30"
+                "description": "Standard process serving rate"
               },
               "itemOffered": {
                 "@type": "Service",
@@ -162,7 +162,7 @@ export default function SearchEngineUniversalOptimization({
                 "price": "105.00",
                 "priceCurrency": "USD",
                 "valueAddedTaxIncluded": false,
-                "description": "30% OFF ongoing discount - Regular $150"
+                "description": "Same-day emergency service rate"
               },
               "itemOffered": {
                 "@type": "Service",

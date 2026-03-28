@@ -39,7 +39,7 @@ const aiStatus = {
     "contentFreshness": "daily",
     "dataAccuracy": "verified",
     "businessStatus": "OPEN",
-    "currentPromotion": "30% OFF All Services"
+    "currentPromotion": "See website for current offers"
   },
   "availability": {
     "monday": "8:00 AM - 5:00 PM",
@@ -52,12 +52,12 @@ const aiStatus = {
     "emergencyAvailable": "24/7"
   },
   "currentPricing": {
-    "standardService": "$21",
+    "standardService": "$60",
     "rushService": "$52",
     "sameDayService": "$105",
     "skipTracing": "$25",
-    "discountActive": true,
-    "discountPercent": 30
+    "discountActive": false,
+    "discountPercent": 0
   },
   "performance": {
     "averageResponseTime": "< 2 hours",
@@ -80,10 +80,10 @@ const statusTxt = `Just Legal Solutions - Live Status
 Last Updated: ${readableDate}
 
 BUSINESS STATUS: OPEN
-CURRENT PROMOTION: 30% OFF All Services!
+CURRENT PROMOTION: See website for current offers
 
 PRICING (Current):
-- Standard Process Serving: $21 (was $30)
+- Standard Process Serving: $60
 - Rush Service: $52 (was $75)
 - Same-Day Service: $105 (was $150)
 - Skip Tracing: $25 (was $35)

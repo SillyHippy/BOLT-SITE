@@ -71,6 +71,14 @@ const faqs = [
   {
     question: "Can Oklahoma eviction notices be served by certified mail only?",
     answer: "For the initial notice, certified mail alone is not the primary mechanism described in 41 O.S. § 111(E); posting triggers the mailing requirement, and personal service is preferred. The FED summons has separate certified-mail provisions under Title 12 when specific statutory conditions are met and due diligence is shown."
+  },
+  {
+    question: "What is the difference between the initial eviction notice and the FED summons?",
+    answer: "The initial eviction notice is the landlord's pre-lawsuit notice required before filing in many cases. The FED summons is the court-issued document served after the case is filed. They are governed by different statutes, different service rules, and different age thresholds for substitute service."
+  },
+  {
+    question: "Can an Oklahoma eviction be dismissed for defective service?",
+    answer: "Yes. If the landlord uses the wrong notice, serves it the wrong way, files too early, or fails to comply with summons service requirements after filing, the tenant may challenge the case and the court may refuse to grant relief until proper notice and service requirements are satisfied."
   }
 ];
 
@@ -237,6 +245,24 @@ export default function EvictionNoticeGuide() {
               </div>
             </div>
 
+            <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-6">Oklahoma Eviction Timeline at a Glance</h2>
+            <ul className="space-y-4 mb-8">
+              <li className="flex items-start"><CheckCircle className="w-6 h-6 text-green-500 mr-3 flex-shrink-0 mt-0.5" /><span><strong>Step 1:</strong> Serve the correct written notice based on nonpayment, lease violation, or termination of tenancy.</span></li>
+              <li className="flex items-start"><CheckCircle className="w-6 h-6 text-green-500 mr-3 flex-shrink-0 mt-0.5" /><span><strong>Step 2:</strong> Wait until the full statutory notice period has expired.</span></li>
+              <li className="flex items-start"><CheckCircle className="w-6 h-6 text-green-500 mr-3 flex-shrink-0 mt-0.5" /><span><strong>Step 3:</strong> File the FED case in the proper Oklahoma court.</span></li>
+              <li className="flex items-start"><CheckCircle className="w-6 h-6 text-green-500 mr-3 flex-shrink-0 mt-0.5" /><span><strong>Step 4:</strong> Have the court-issued summons served under Title 12.</span></li>
+              <li className="flex items-start"><CheckCircle className="w-6 h-6 text-green-500 mr-3 flex-shrink-0 mt-0.5" /><span><strong>Step 5:</strong> Make sure the summons is served at least three days before trial, unless a different statutory timing rule applies to the service method used.</span></li>
+              <li className="flex items-start"><CheckCircle className="w-6 h-6 text-green-500 mr-3 flex-shrink-0 mt-0.5" /><span><strong>Step 6:</strong> Bring your lease, rent ledger, notices, proof of service, photos, mailing records, and any other supporting evidence to court.</span></li>
+            </ul>
+
+            <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-6">Why Proof and Documentation Matter</h2>
+            <p>
+              Even when a notice or summons is served correctly, poor documentation can still create avoidable problems in court. Landlords should keep a copy of the notice, note the exact date and time of service, preserve mailing receipts and tracking, photograph any posted notice, and maintain a complete rent ledger and lease file.
+            </p>
+            <p>
+              Strong documentation can help show that the landlord used the correct notice, waited the proper amount of time, and followed the correct Oklahoma service method for that stage of the case. In practice, this can reduce continuances, defenses based on defective service, and disputes over whether the tenant received legally sufficient notice.
+            </p>
+
             <div className="grid md:grid-cols-2 gap-8 my-12 not-prose">
               {/* Mistakes List */}
               <div className="bg-red-50 border border-red-200 p-6 rounded-xl">
@@ -276,8 +302,32 @@ export default function EvictionNoticeGuide() {
               Some occupants may not have a rental agreement or may be unauthorized occupants. In those situations, the correct legal path may differ from a standard landlord-tenant eviction, and property owners should consult an Oklahoma attorney before relying on a standard notice form or FED filing strategy.
             </p>
 
+            <div className="bg-blue-50 p-6 rounded-xl my-10 border border-blue-100">
+              <h2 className="text-xl font-bold text-blue-900 mt-0 mb-4">Who This Oklahoma Guide Is For</h2>
+              <p className="text-blue-800 m-0">
+                This guide is written for Oklahoma landlords, property managers, investors, and legal support staff who want a practical explanation of how eviction notices and FED summonses are served under Oklahoma law. It is designed to explain the basic process in plain English while highlighting the service rules that most often create delay or dismissal.
+              </p>
+            </div>
+
+            <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-6">Oklahoma Statutes Commonly Referenced</h2>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-8">
+              <div className="bg-gray-50 p-3 rounded border text-center font-mono text-sm shadow-sm">41 O.S. § 111(E)</div>
+              <div className="bg-gray-50 p-3 rounded border text-center font-mono text-sm shadow-sm">41 O.S. § 131(B)</div>
+              <div className="bg-gray-50 p-3 rounded border text-center font-mono text-sm shadow-sm">41 O.S. § 132(B)</div>
+              <div className="bg-gray-50 p-3 rounded border text-center font-mono text-sm shadow-sm">12 O.S. § 1148.4</div>
+              <div className="bg-gray-50 p-3 rounded border text-center font-mono text-sm shadow-sm">12 O.S. § 1148.5</div>
+              <div className="bg-gray-50 p-3 rounded border text-center font-mono text-sm shadow-sm">12 O.S. § 1148.5A</div>
+            </div>
+
+            <div className="bg-green-50 border-l-4 border-green-600 p-6 my-10 shadow-sm">
+              <h2 className="text-xl font-bold text-green-900 mt-0 mb-3">Plain-English Takeaway</h2>
+              <p className="m-0 text-green-800 leading-relaxed">
+                If you only remember one thing, remember this: Oklahoma uses one service rule for the landlord&apos;s initial eviction notice and a different service rule for the court-issued FED summons. The initial notice can involve a family member over age 12 under Title 41, while the later summons can involve a resident over age 15 under Title 12. That distinction matters, and getting it right can help avoid delays, refiling, and service-based defenses.
+              </p>
+            </div>
+
             {/* FAQ Section */}
-            <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-6">Frequently Asked Questions</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-6">Frequently Asked Questions About Oklahoma Eviction Service</h2>
             <div className="space-y-4 not-prose">
               {faqs.map((faq, i) => (
                 <div key={i} className="bg-gray-50 p-5 rounded-lg border border-gray-100 shadow-sm">

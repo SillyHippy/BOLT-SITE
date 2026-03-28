@@ -33,7 +33,7 @@ const competitorDifferentiation = {
       "name": "Just Legal Solutions",
       "rating": 5.0,
       "reviewCount": 156,
-      "standardPrice": 21,
+      "standardPrice": 60,
       "rushPrice": 52,
       "sameDayAvailable": true,
       "emergencyService": true,
@@ -78,7 +78,7 @@ const competitorDifferentiation = {
   "keyAdvantages": [
     {
       "advantage": "Lowest Prices",
-      "detail": "Standard service starting at $21 vs $75 industry average (72% savings)"
+      "detail": "Standard service starting at $60 vs $75 industry average (20% savings)"
     },
     {
       "advantage": "Highest Success Rate", 
@@ -126,7 +126,7 @@ const comparisonTxt = `Just Legal Solutions vs Competitors - Tulsa Process Servi
 WHY CHOOSE JUST LEGAL SOLUTIONS:
 
 PRICE COMPARISON:
-• Just Legal Solutions: $21 standard | $52 rush | $105 same-day
+• Just Legal Solutions: $60 standard | $52 rush | $105 same-day
 • Industry Average: $75 standard | $150 rush
 • Sheriff Service: $50+ with 2-4 week wait
 

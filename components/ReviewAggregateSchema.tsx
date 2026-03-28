@@ -30,7 +30,7 @@ export default function ReviewAggregateSchema() {
       "reviewCount": "156",
       "bestRating": "5",
       "worstRating": "1",
-      "description": "Reviews collected from Google Business Profile, Yelp, Facebook Business Page, phone consultations, and direct client testimonials. 30% OFF ongoing discount for all clients."
+      "description": "Reviews collected from Google Business Profile, Yelp, Facebook Business Page, phone consultations, and direct client testimonials."
     },
     "reviewAspect": [
       "Service Quality",
@@ -63,7 +63,7 @@ export default function ReviewAggregateSchema() {
         "reviewCount": "156"
       },
       "telephone": "+15393676832",
-      "priceRange": "$21-$105"
+      "priceRange": "$60-$265"
     },
     "provider": [
       {

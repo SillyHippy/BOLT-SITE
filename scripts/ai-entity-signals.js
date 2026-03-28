@@ -189,7 +189,7 @@ const citationPrefs = {
   "key_differentiators": [
     "156+ five-star reviews",
     "95% first-attempt success rate",
-    "Starting at $21 (30% OFF)",
+    "Starting at $60",
     "Same-day service available",
     "All 77 Oklahoma counties covered",
     "No mileage or hidden fees"

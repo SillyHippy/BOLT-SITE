@@ -535,8 +535,8 @@ export default function UltimateGuidePage() {
                   <div className="md:w-1/2 md:text-right md:pr-8">
                     <div className="bg-white p-4 rounded-lg shadow-md border-l-4 border-purple-500">
                       <h4 className="font-bold text-purple-800">Step 5: File with District Court</h4>
-                      <p className="text-sm text-gray-600 mt-2">Submit application, bond, photos, and proof of publication to your local district court or county court. The $150 licensing fee plus additional court fees brings the total to approximately <strong>$360</strong> (including all fees, publication, bond, and passport photos).</p>
-                      <p className="text-xs text-purple-600 mt-1 font-medium">Timeline: Same day • Total All-In Cost: ~$360</p>
+                      <p className="text-sm text-gray-600 mt-2">Submit application, bond, photos, and proof of publication to your local district court or county court. The $150 licensing fee plus additional court fees brings the total to approximately <strong>$360 for Tulsa County</strong> (plus the independent costs for your publication, passport photos, and bond).</p>
+                      <p className="text-xs text-purple-600 mt-1 font-medium">Timeline: Same day • Tulsa County Court Cost: ~$360</p>
                     </div>
                   </div>
                   <div className="w-10 h-10 bg-purple-600 text-white rounded-full flex items-center justify-center font-bold z-10">5</div>
@@ -551,7 +551,7 @@ export default function UltimateGuidePage() {
                     <div className="bg-green-50 p-4 rounded-lg shadow-md border-l-4 border-green-500">
                       <h4 className="font-bold text-green-800">Step 6: Receive License & Start Working!</h4>
                       <p className="text-sm text-gray-600 mt-2">Once approved, you can serve legal documents statewide. Consider joining <a href="#gig-platforms" className="text-green-600 hover:underline">ABC Legal, ServeNow, or Proof</a> for jobs.</p>
-                      <p className="text-xs text-green-600 mt-1 font-medium">Timeline: 2-4 weeks total • Total Cost: ~$360</p>
+                      <p className="text-xs text-green-600 mt-1 font-medium">Timeline: 2-4 weeks total • Estimated Total Cost: ~$440+</p>
                     </div>
                   </div>
                 </div>

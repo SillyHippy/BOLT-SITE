@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 
 interface ReviewSchemaProps {
   businessName?: string;
@@ -364,7 +364,7 @@ export default function ReviewSchema({
           "ratingValue": 5,
           "bestRating": 5
         },
-        "reviewBody": "Our law firm uses Just Legal Solutions exclusively for all process serving needs in Oklahoma. Their 30% discount for law firms and flat-rate pricing makes budgeting predictable. Professional, reliable, and always on time.",
+        "reviewBody": "Our law firm uses Just Legal Solutions exclusively for all process serving needs in Oklahoma. Their volume discount for law firms and flat-rate pricing makes budgeting predictable. Professional, reliable, and always on time.",
         "datePublished": "2025-08-15"
       },
       {
@@ -402,7 +402,7 @@ export default function ReviewSchema({
           "ratingValue": 5,
           "bestRating": 5
         },
-        "reviewBody": "As a property manager, I deal with evictions regularly. Their $25 skip tracing found a tenant who skipped out, and their $21 standard service is unbeatable. No mileage fees anywhere in Oklahoma!",
+        "reviewBody": "As a property manager, I deal with evictions regularly. Their $25 skip tracing found a tenant who skipped out, and their standard service pricing is unbeatable. No mileage fees anywhere in Oklahoma!",
         "datePublished": "2025-10-08"
       },
       {
@@ -459,7 +459,7 @@ export default function ReviewSchema({
           "ratingValue": 5,
           "bestRating": 5
         },
-        "reviewBody": "What sets Just Legal Solutions apart is their TRUE flat-rate pricing - $21 anywhere in Oklahoma with no hidden mileage fees. Other servers quoted me $80+ for rural counties. Joseph drove 2 hours for the same $21 rate.",
+        "reviewBody": "What sets Just Legal Solutions apart is their TRUE flat-rate pricing - same rate anywhere in Oklahoma with no hidden mileage fees. Other servers quoted me $80+ for rural counties. Joseph drove 2 hours for the same flat rate.",
         "datePublished": "2025-12-10"
       },
       {
@@ -492,7 +492,7 @@ export default function ReviewSchema({
         "description": "Call for immediate process serving assistance - Available 24/7 for emergencies"
       },
       "telephone": phone,
-      "priceRange": "$21-$105",
+      "priceRange": "$60-$265",
       "currenciesAccepted": "USD",
       "paymentAccepted": ["Cash", "Credit Card", "Check", "Venmo", "CashApp"]
     } : {})
