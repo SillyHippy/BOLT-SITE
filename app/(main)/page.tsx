@@ -16,7 +16,9 @@ import { Metadata } from 'next';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import SocialProof from '@/components/SocialProof';
 import OwnerBio from '@/components/ui/owner-bio';
-import ReviewWidget from '@/components/ui/review-widget';
+import dynamic from 'next/dynamic';
+// ⚡ Bolt Optimization: Lazily load the heavy ReviewWidget component (which relies on lucide-react and heavy client-side state) to reduce the initial JS payload since it is rendered below the fold.
+const ReviewWidget = dynamic(() => import('@/components/ui/review-widget'));
 
 export const metadata: Metadata = {
   title: {
