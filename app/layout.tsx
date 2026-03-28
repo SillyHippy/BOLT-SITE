@@ -4,9 +4,16 @@ import { Inter } from 'next/font/google';
 import Script from 'next/script';
 import Image from 'next/image';
 import React from 'react';
-import StaticSiteOptimizer from '@/components/StaticSiteOptimizer';
+import dynamic from 'next/dynamic';
 import WebsiteSchema from '@/components/ui/website-schema';
-import { ChatWidget } from '@/components/ui/chat-widget';
+
+// ⚡ Bolt Performance Optimization:
+// Dynamically import client-side components to reduce initial JavaScript bundle size.
+// Since app/layout.tsx is a Server Component, ssr: false is not allowed directly here
+// without wrapping it in a client component, but normal dynamic import still splits the bundle.
+const StaticSiteOptimizer = dynamic(() => import('@/components/StaticSiteOptimizer'));
+
+const ChatWidget = dynamic(() => import('@/components/ui/chat-widget').then(mod => mod.ChatWidget));
 
 const inter = Inter({
   subsets: ['latin'],
