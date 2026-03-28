@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import Script from 'next/script';
 import { ChevronRight, FileText, CheckCircle, AlertTriangle, Scale } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import { Navbar } from '@/components/ui/navbar';
@@ -10,6 +11,10 @@ export const metadata: Metadata = {
   title: 'How to Serve Eviction Notices in Oklahoma | Just Legal Solutions',
   description: 'Learn the legal requirements and proper procedures for serving eviction notices in Oklahoma. Expert guide from licensed process servers.',
   keywords: 'Oklahoma eviction notice, how to serve eviction Oklahoma, 5 day notice to quit Oklahoma, process server eviction, Oklahoma landlord tenant law',
+  authors: [{ name: 'Just Legal Solutions' }],
+  creator: 'Just Legal Solutions',
+  publisher: 'Just Legal Solutions',
+  robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'How to Serve Eviction Notices in Oklahoma',
     description: 'Learn the legal requirements and proper procedures for serving eviction notices in Oklahoma.',
@@ -27,7 +32,31 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://justlegalsolutions.org/blog/how-to-serve-eviction-notices-in-oklahoma',
   },
+  other: {
+    'ai-content-type': 'article',
+    'ai-summary': 'Complete guide to serving eviction notices in Oklahoma. Covers 5-day notice for non-payment, 10/15-day notice for lease violations, and 30-day notice for month-to-month tenancies. Explains the difference between initial notice (landlord can serve) and FED summons (requires licensed process server or sheriff). Details proper service methods under Oklahoma Forcible Entry and Detainer law.',
+    'ai-key-facts': '5-day notice for non-payment. 10-day to cure or 15-day to quit for lease violations. 30-day for month-to-month. FED summons requires licensed process server or sheriff. Summons must be served 3 days before hearing. Posting and mailing requires 5 days before hearing. Personal service required for money judgment.',
+  },
 };
+
+const faqs = [
+  {
+    question: "Can a landlord serve their own eviction notice in Oklahoma?",
+    answer: "While landlords can post initial notices to quit, formal summons and complaints for eviction (Forcible Entry and Detainer) must be served by a licensed process server or the county sheriff to ensure legal compliance."
+  },
+  {
+    question: "How many days notice is required for eviction in Oklahoma?",
+    answer: "In Oklahoma, a 5-day Notice to Quit is typically required for non-payment of rent. For lease violations, it\u0027s a 10-day notice to cure or 15 days to quit. Month-to-month tenancies require a 30-day notice."
+  },
+  {
+    question: "What is a Forcible Entry and Detainer (FED) action?",
+    answer: "A Forcible Entry and Detainer (FED) is an Oklahoma eviction lawsuit filed after the notice period expires and the tenant has not complied. The court issues a summons that must be served by a licensed process server or the sheriff, not the landlord."
+  },
+  {
+    question: "Can I get a money judgment for back rent in an eviction?",
+    answer: "Yes, but only if the tenant was personally served with the summons. If the summons was served by posting and mailing (because personal service failed), the court can grant possession of the property but cannot grant a money judgment for back rent."
+  },
+];
 
 export default function EvictionNoticeGuide() {
   return (
@@ -38,6 +67,13 @@ export default function EvictionNoticeGuide() {
         pageDescription="Learn the legal requirements and proper procedures for serving eviction notices in Oklahoma. Expert guide from licensed process servers."
         pageUrl="https://justlegalsolutions.org/blog/how-to-serve-eviction-notices-in-oklahoma"
         siteName="Just Legal Solutions"
+        reviewCount={156}
+        services={['Process Serving', 'Eviction Notice Service', 'Same-Day Rush Service']}
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Blog', url: '/blog' },
+          { name: 'How to Serve Eviction Notices in Oklahoma', url: '/blog/how-to-serve-eviction-notices-in-oklahoma' },
+        ]}
         articleDetails={{
           headline: "How to Serve Eviction Notices in Oklahoma",
           author: "Joseph Iannazzi",
@@ -45,17 +81,20 @@ export default function EvictionNoticeGuide() {
           dateModified: "2025-05-15",
           image: "https://justlegalsolutions.org/og-image.png"
         }}
-        faqItems={[
-          {
-            question: "Can a landlord serve their own eviction notice in Oklahoma?",
-            answer: "While landlords can post initial notices to quit, formal summons and complaints for eviction (Forcible Entry and Detainer) must be served by a licensed process server or the county sheriff to ensure legal compliance."
-          },
-          {
-            question: "How many days notice is required for eviction in Oklahoma?",
-            answer: "In Oklahoma, a 5-day Notice to Quit is typically required for non-payment of rent. For lease violations, it&apos;s a 10-day notice to cure or 15 days to quit. Month-to-month tenancies require a 30-day notice."
-          }
-        ]}
+        faqItems={faqs.map(f => ({ question: f.question, answer: f.answer }))}
       />
+      <Script id="faq-schema-eviction" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": faqs.map(f => ({
+          "@type": "Question",
+          "name": f.question,
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": f.answer
+          }
+        }))
+      }) }} />
       <Navbar />
       <LocalPromoBanner zips={[]} />
 
@@ -63,7 +102,7 @@ export default function EvictionNoticeGuide() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
 
           {/* Breadcrumbs */}
-          <nav className="flex items-center space-x-2 text-sm text-gray-500 mb-8">
+          <nav aria-label="Breadcrumb" className="flex items-center space-x-2 text-sm text-gray-500 mb-8">
             <Link href="/" className="hover:text-blue-600">Home</Link>
             <ChevronRight className="w-4 h-4" />
             <span className="text-gray-900 font-medium">Blog</span>
@@ -164,6 +203,17 @@ export default function EvictionNoticeGuide() {
               Note: If the summons is only posted and mailed, the court can grant you possession of the property, but cannot grant a money judgment for back rent. Personal service is required for a money judgment.
             </p>
 
+            {/* FAQ Section */}
+            <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-6">Frequently Asked Questions</h2>
+            <div className="space-y-4 not-prose">
+              {faqs.map((faq, i) => (
+                <div key={i} className="bg-gray-50 p-5 rounded-lg">
+                  <h3 className="font-semibold text-lg mb-2">{faq.question}</h3>
+                  <p className="text-gray-700">{faq.answer}</p>
+                </div>
+              ))}
+            </div>
+
             {/* CTA */}
             <div className="bg-blue-900 text-white p-10 rounded-2xl text-center mt-12">
               <h3 className="text-2xl font-bold mb-4">Need an Eviction Notice Served Fast?</h3>
@@ -181,6 +231,11 @@ export default function EvictionNoticeGuide() {
             </div>
 
           </article>
+
+          <div className="bg-green-50 border border-green-200 rounded-lg p-6 mt-8">
+            <p className="text-sm text-gray-700">This article provides general legal information about eviction procedures in Oklahoma. It is not legal advice. Consult an attorney for your specific situation.</p>
+            <p className="text-xs text-gray-500 mt-2">Last updated: May 2025</p>
+          </div>
         </div>
       </div>
       <Footer />

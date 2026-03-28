@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import Script from 'next/script';
 import { ChevronRight, FileText, CheckCircle, Shield, AlertTriangle } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import { Navbar } from '@/components/ui/navbar';
@@ -10,6 +11,10 @@ export const metadata: Metadata = {
   title: 'Understanding the Affidavit of Service in Oklahoma | Just Legal Solutions',
   description: 'Learn what an Affidavit of Service (Proof of Service) is, why it is critical for your court case, and what must be included under Oklahoma law.',
   keywords: 'Oklahoma Affidavit of Service, Proof of Service Oklahoma, process server return of service, legal document proof',
+  authors: [{ name: 'Just Legal Solutions' }],
+  creator: 'Just Legal Solutions',
+  publisher: 'Just Legal Solutions',
+  robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Understanding the Affidavit of Service in Oklahoma',
     description: 'Learn what an Affidavit of Service (Proof of Service) is, why it is critical for your court case, and what must be included.',
@@ -17,11 +22,41 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
+    images: [{
+      url: 'https://justlegalsolutions.org/images/hero.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Affidavit of Service Guide Oklahoma',
+    }],
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/blog/understanding-the-affidavit-of-service',
   },
+  other: {
+    'ai-content-type': 'article',
+    'ai-summary': 'Comprehensive guide to the Affidavit of Service (Proof of Service / Return of Service) in Oklahoma. Explains what the document is, why it is required for due process, and the specific elements required under Oklahoma\'s Pleading Code (Title 12). Details how Just Legal Solutions creates court-ready affidavits with GPS coordinates, photographic evidence, and detailed physical descriptions.',
+    'ai-key-facts': 'Affidavit of Service is a sworn legal document proving proper service. Required for due process under U.S. Constitution and Oklahoma law. Must include server info, documents served, recipient name, date/time, location, and method of service. Without valid affidavit, judge cannot proceed with case. Just Legal Solutions includes GPS coordinates, photos, and physical descriptions.',
+  },
 };
+
+const faqs = [
+  {
+    question: "What is an Affidavit of Service?",
+    answer: "An Affidavit of Service, also known as Proof of Service or Return of Service, is a sworn legal document signed by a process server detailing exactly how, when, and where legal documents were delivered to a party."
+  },
+  {
+    question: "Why is an Affidavit of Service important?",
+    answer: "It proves to the court that the defendant was properly notified of the legal action against them, fulfilling their constitutional right to due process. Without a valid affidavit filed with the court, the judge cannot proceed with the case."
+  },
+  {
+    question: "What must be included in an Oklahoma Affidavit of Service?",
+    answer: "Under Oklahoma's Pleading Code (Title 12), a valid Affidavit of Service must include: the server's name, county of license, and license number; the specific documents served; the recipient's name; the exact date, time, and location of service; and the method used (personal or substitute service)."
+  },
+  {
+    question: "Can a judgment be overturned without a valid Affidavit of Service?",
+    answer: "Yes. Any judgments obtained without proper proof of service can be overturned on appeal. If you fail to file a valid Affidavit of Service with the court clerk, the judge will not allow your case to proceed."
+  },
+];
 
 export default function AffidavitGuide() {
   return (
@@ -32,6 +67,13 @@ export default function AffidavitGuide() {
         pageDescription="Learn what an Affidavit of Service (Proof of Service) is, why it is critical for your court case, and what must be included under Oklahoma law."
         pageUrl="https://justlegalsolutions.org/blog/understanding-the-affidavit-of-service"
         siteName="Just Legal Solutions"
+        reviewCount={156}
+        services={['Process Serving', 'Affidavit of Service', 'Legal Document Delivery']}
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Blog', url: '/blog' },
+          { name: 'Understanding the Affidavit of Service', url: '/blog/understanding-the-affidavit-of-service' },
+        ]}
         articleDetails={{
           headline: "Understanding the Affidavit of Service in Oklahoma",
           author: "Joseph Iannazzi",
@@ -39,17 +81,20 @@ export default function AffidavitGuide() {
           dateModified: "2025-06-01",
           image: "https://justlegalsolutions.org/images/hero.webp"
         }}
-        faqItems={[
-          {
-            question: "What is an Affidavit of Service?",
-            answer: "An Affidavit of Service, also known as Proof of Service or Return of Service, is a sworn legal document signed by a process server detailing exactly how, when, and where legal documents were delivered to a party."
-          },
-          {
-            question: "Why is an Affidavit of Service important?",
-            answer: "It proves to the court that the defendant was properly notified of the legal action against them, fulfilling their constitutional right to due process. Without a valid affidavit filed with the court, the judge cannot proceed with the case."
-          }
-        ]}
+        faqItems={faqs.map(f => ({ question: f.question, answer: f.answer }))}
       />
+      <Script id="faq-schema-affidavit" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": faqs.map(f => ({
+          "@type": "Question",
+          "name": f.question,
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": f.answer
+          }
+        }))
+      }) }} />
       <Navbar />
       <LocalPromoBanner zips={[]} />
 
@@ -57,7 +102,7 @@ export default function AffidavitGuide() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
 
           {/* Breadcrumbs */}
-          <nav className="flex items-center space-x-2 text-sm text-gray-500 mb-8">
+          <nav aria-label="Breadcrumb" className="flex items-center space-x-2 text-sm text-gray-500 mb-8">
             <Link href="/" className="hover:text-blue-600">Home</Link>
             <ChevronRight className="w-4 h-4" />
             <span className="text-gray-900 font-medium">Blog</span>
@@ -149,6 +194,17 @@ export default function AffidavitGuide() {
               <li><strong>Detailed Physical Descriptions:</strong> Documenting the height, weight, hair color, and estimated age of the person served to prevent &quot;mistaken identity&quot; claims.</li>
             </ul>
 
+            {/* FAQ Section */}
+            <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-6">Frequently Asked Questions</h2>
+            <div className="space-y-4 not-prose">
+              {faqs.map((faq, i) => (
+                <div key={i} className="bg-gray-50 p-5 rounded-lg">
+                  <h3 className="font-semibold text-lg mb-2">{faq.question}</h3>
+                  <p className="text-gray-700">{faq.answer}</p>
+                </div>
+              ))}
+            </div>
+
             {/* CTA */}
             <div className="bg-blue-900 text-white p-10 rounded-2xl text-center mt-12">
               <Shield className="w-16 h-16 text-yellow-500 mx-auto mb-6" />
@@ -156,14 +212,22 @@ export default function AffidavitGuide() {
               <p className="text-blue-100 mb-8 text-lg">
                 Ensure your documents are served correctly and your Affidavit of Service is unassailable. Just Legal Solutions provides professional process serving starting at $21 (30% off!).
               </p>
-              <div className="flex justify-center">
-                <Link href="/contact" className="bg-yellow-500 hover:bg-yellow-400 text-black font-bold py-3 px-8 rounded-lg transition-colors">
+              <div className="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="tel:5393676832" className="bg-yellow-500 hover:bg-yellow-400 text-black font-bold py-3 px-8 rounded-lg transition-colors">
+                  Call (539) 367-6832
+                </a>
+                <Link href="/contact" className="bg-transparent border-2 border-white hover:bg-white hover:text-blue-900 font-bold py-3 px-8 rounded-lg transition-colors">
                   Hire a Professional Process Server Today
                 </Link>
               </div>
             </div>
 
           </article>
+
+          <div className="bg-green-50 border border-green-200 rounded-lg p-6 mt-8">
+            <p className="text-sm text-gray-700">This article provides general legal information about Affidavits of Service in Oklahoma under the Oklahoma Pleading Code (Title 12). It is not legal advice. Consult an attorney for your specific situation.</p>
+            <p className="text-xs text-gray-500 mt-2">Last updated: June 2025</p>
+          </div>
         </div>
       </div>
       <Footer />
