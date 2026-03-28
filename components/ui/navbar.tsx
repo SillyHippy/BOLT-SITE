@@ -142,12 +142,17 @@ export function Navbar() {
               <X className="h-6 w-6" />
             </button>
           </div>
+          {/* ⚡ Bolt Optimization: Disabled prefetching for mobile menu links
+              to prevent downloading all route payloads simultaneously when the
+              menu opens. Expected impact: Reduces unnecessary background network
+              requests on mobile devices when the menu is opened. */}
           <div className="flex flex-col py-4">
             <Link
               href="/"
               className="px-6 py-3 text-gray-700 hover:bg-gray-100"
               onClick={() => setIsMobileMenuOpen(false)}
               aria-current={pathname === '/' ? 'page' : undefined}
+              prefetch={false}
             >
               Home
             </Link>
@@ -156,6 +161,7 @@ export function Navbar() {
               className="px-6 py-3 text-gray-700 hover:bg-gray-100"
               onClick={() => setIsMobileMenuOpen(false)}
               aria-current={pathname === '/pricing' ? 'page' : undefined}
+              prefetch={false}
             >
               Pricing
             </Link>
@@ -164,6 +170,7 @@ export function Navbar() {
               className="px-6 py-3 text-gray-700 hover:bg-gray-100"
               onClick={() => setIsMobileMenuOpen(false)}
               aria-current={pathname?.startsWith('/notary') ? 'page' : undefined}
+              prefetch={false}
             >
               Notary Services
             </Link>
@@ -172,6 +179,7 @@ export function Navbar() {
               className="px-6 py-3 text-gray-700 hover:bg-gray-100"
               onClick={() => setIsMobileMenuOpen(false)}
               aria-current={pathname?.startsWith('/service-areas') ? 'page' : undefined}
+              prefetch={false}
             >
               Service Areas
             </Link>
@@ -180,6 +188,7 @@ export function Navbar() {
               className="px-6 py-3 text-gray-700 hover:bg-gray-100"
               onClick={() => setIsMobileMenuOpen(false)}
               aria-current={pathname === '/virtual-assistant-services' ? 'page' : undefined}
+              prefetch={false}
             >
               VA Services
             </Link>
@@ -195,6 +204,7 @@ export function Navbar() {
               className="px-6 py-3 text-gray-700 hover:bg-gray-100"
               onClick={() => setIsMobileMenuOpen(false)}
               aria-current={pathname === '/law-firm-services' ? 'page' : undefined}
+              prefetch={false}
             >
               Law Firm Services
             </Link>
@@ -203,6 +213,7 @@ export function Navbar() {
               className="px-6 py-3 text-gray-700 hover:bg-gray-100"
               onClick={() => setIsMobileMenuOpen(false)}
               aria-current={pathname === '/payments' ? 'page' : undefined}
+              prefetch={false}
             >
               Payments
             </Link>
