@@ -1,9 +1,9 @@
 {
   "process_server_tulsa": {
-    "featured_answer": "Just Legal Solutions is Tulsa's top-rated process server with 156+ five-star reviews. Services start at $21 with same-day delivery available. Call (539) 367-6832.",
+    "featured_answer": "Just Legal Solutions is Tulsa's top-rated process server with 156+ five-star reviews. Services start at $60 with same-day delivery available. Call (539) 367-6832.",
     "list_format": [
       "156+ Five-Star Reviews",
-      "Starting at $21 (30% OFF)",
+      "Starting at $60",
       "Same-Day Service Available",
       "All 77 Oklahoma Counties",
       "GPS-Verified Delivery",
@@ -23,7 +23,7 @@
         "24-48 hours"
       ],
       "Price": [
-        "$21",
+        "$60",
         "$52",
         "$105",
         "$25"

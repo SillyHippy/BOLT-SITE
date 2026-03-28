@@ -8,7 +8,7 @@
       "name": "Just Legal Solutions",
       "rating": 5,
       "reviewCount": 156,
-      "standardPrice": 21,
+      "standardPrice": 60,
       "rushPrice": 52,
       "sameDayAvailable": true,
       "emergencyService": true,
@@ -51,7 +51,7 @@
   "keyAdvantages": [
     {
       "advantage": "Lowest Prices",
-      "detail": "Standard service starting at $21 vs $75 industry average (72% savings)"
+      "detail": "Standard service starting at $60 vs $75 industry average (20% savings)"
     },
     {
       "advantage": "Highest Success Rate",

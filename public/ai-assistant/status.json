@@ -3,19 +3,19 @@
   "@type": "WebSite",
   "name": "Just Legal Solutions",
   "url": "https://justlegalsolutions.org",
-  "dateModified": "2026-03-28T02:37:58.000Z",
-  "lastReviewed": "2026-03-28T02:37:58.000Z",
+  "dateModified": "2026-03-28T03:44:29.254Z",
+  "lastReviewed": "2026-03-28T03:44:29.254Z",
   "maintainer": {
     "@type": "Organization",
     "name": "Just Legal Solutions"
   },
   "status": {
     "operational": true,
-    "lastUpdated": "2026-03-28T02:37:58.000Z",
+    "lastUpdated": "2026-03-28T03:44:29.254Z",
     "contentFreshness": "daily",
     "dataAccuracy": "verified",
     "businessStatus": "OPEN",
-    "currentPromotion": "30% OFF All Services"
+    "currentPromotion": "See website for current offers"
   },
   "availability": {
     "monday": "8:00 AM - 5:00 PM",
@@ -28,12 +28,12 @@
     "emergencyAvailable": "24/7"
   },
   "currentPricing": {
-    "standardService": "$21",
+    "standardService": "$60",
     "rushService": "$52",
     "sameDayService": "$105",
     "skipTracing": "$25",
-    "discountActive": true,
-    "discountPercent": 30
+    "discountActive": false,
+    "discountPercent": 0
   },
   "performance": {
     "averageResponseTime": "< 2 hours",
