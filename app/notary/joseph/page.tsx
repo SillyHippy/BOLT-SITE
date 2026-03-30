@@ -14,8 +14,8 @@ const canonicalUrl = 'https://justlegalsolutions.org/notary/joseph';
 
 export const metadata: Metadata = {
   title: 'Joseph William Iannazzi | Professional Notary Credentials | Just Legal Solutions',
-  description: 'View the professional credentials and certifications of Joseph William Iannazzi, Founder & CEO of Just Legal Solutions. Oklahoma Commissioned Notary Public, Remote Online Notarization certified, NNA member.',
-  keywords: 'Joseph Iannazzi, notary credentials, Oklahoma notary, RON certified, NNA member, Proof Academy certified, Just Legal Solutions founder, Tulsa notary',
+  description: 'View the professional credentials and certifications of Joseph William Iannazzi, Founder & CEO of Just Legal Solutions. Oklahoma Commissioned Notary Public, RON certified, NNA member, background verified, E&O insured, and bonded.',
+  keywords: 'Joseph Iannazzi, notary credentials, Oklahoma notary, RON certified, NNA member, Proof Academy certified, Just Legal Solutions founder, Tulsa notary, background check, E&O insurance, notary bond, errors and omissions',
   authors: [{ name: 'Just Legal Solutions' }],
   openGraph: {
     title: 'Joseph William Iannazzi | Professional Notary Credentials',
@@ -85,6 +85,21 @@ const personSchema = {
       "@type": "EducationalOccupationalCredential",
       "credentialCategory": "Membership",
       "name": "National Notary Association Member"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Verification",
+      "name": "Background Check Verified"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Insurance",
+      "name": "Errors & Omissions Insurance"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Bond",
+      "name": "Surety Bond"
     }
   ]
 };
@@ -95,7 +110,7 @@ const credentials = [
     icon: Stamp,
     description: "State of Oklahoma commissioned Notary Public, authorized to perform notarial acts throughout all 77 counties.",
     status: "Active",
-    downloadUrl: "/notary-credentials/joseph/notary-commission.pdf",
+    downloadUrl: "/notary-credentials/joseph/Joseph-Iannazzi-Notary-Commission.pdf",
     color: "blue"
   },
   {
@@ -103,7 +118,7 @@ const credentials = [
     icon: Globe,
     description: "Certified to perform Remote Online Notarizations, allowing signers from anywhere in the world to notarize documents via secure video conference.",
     status: "Certified",
-    downloadUrl: "/notary-credentials/joseph/ron-certificate.pdf",
+    downloadUrl: "/notary-credentials/joseph/Joseph-Iannazzi-RON-Certificate.pdf",
     color: "green"
   },
   {
@@ -111,7 +126,7 @@ const credentials = [
     icon: GraduationCap,
     description: "Notarize Network Platform Training - NST Certification. Trained and certified on the Proof platform for professional remote notarization services.",
     status: "Certified",
-    downloadUrl: "/notary-credentials/joseph/proof-academy-certification.png",
+    downloadUrl: "/notary-credentials/joseph/Joseph-Iannazzi-Proof-Academy-Certificate.png",
     color: "purple"
   },
   {
@@ -119,8 +134,32 @@ const credentials = [
     icon: BadgeCheck,
     description: "Active member of the National Notary Association, the nation's leading authority on notarization, committed to best practices and continuing education.",
     status: "Active Member",
-    downloadUrl: "/notary-credentials/joseph/nna-membership.pdf",
+    downloadUrl: "/notary-credentials/joseph/Joseph-Iannazzi-NNA-Membership.pdf",
     color: "amber"
+  },
+  {
+    title: "Background Screening Verified",
+    icon: Shield,
+    description: "Comprehensive background check completed and verified. Clean record ensuring trust and reliability for all notarization services.",
+    status: "Verified",
+    downloadUrl: "/notary-credentials/joseph/Joseph-Iannazzi-Background-Check.pdf",
+    color: "slate"
+  },
+  {
+    title: "Errors & Omissions Insurance",
+    icon: FileCheck,
+    description: "Professional liability coverage protecting clients against errors or omissions during notarization. E&O insurance documentation included in the notary information package.",
+    status: "Insured",
+    downloadUrl: "/notary-credentials/joseph/Joseph-Iannazzi-Notary-Information-Package.pdf",
+    color: "teal"
+  },
+  {
+    title: "Surety Bond",
+    icon: Lock,
+    description: "Fully bonded as required by Oklahoma law. Surety bond protects the public and ensures compliance with state notary requirements.",
+    status: "Bonded",
+    downloadUrl: "/notary-credentials/joseph/Joseph-Iannazzi-Notary-Information-Package.pdf",
+    color: "indigo"
   }
 ];
 
@@ -227,7 +266,11 @@ export default function JosephCredentialsPage() {
                     credential.color === 'blue' ? 'bg-gradient-to-r from-blue-600 to-blue-700' :
                     credential.color === 'green' ? 'bg-gradient-to-r from-green-600 to-green-700' :
                     credential.color === 'purple' ? 'bg-gradient-to-r from-purple-600 to-purple-700' :
-                    'bg-gradient-to-r from-amber-500 to-amber-600'
+                    credential.color === 'amber' ? 'bg-gradient-to-r from-amber-500 to-amber-600' :
+                    credential.color === 'slate' ? 'bg-gradient-to-r from-slate-600 to-slate-700' :
+                    credential.color === 'teal' ? 'bg-gradient-to-r from-teal-600 to-teal-700' :
+                    credential.color === 'indigo' ? 'bg-gradient-to-r from-indigo-600 to-indigo-700' :
+                    'bg-gradient-to-r from-gray-600 to-gray-700'
                   } text-white`}>
                     <div className="flex items-start justify-between">
                       <div className="flex items-center gap-3">
@@ -282,12 +325,12 @@ export default function JosephCredentialsPage() {
                 Complete Notary Information Package
               </h2>
               <p className="text-slate-300 mb-6 max-w-xl mx-auto">
-                Download the comprehensive signed notary information document containing all relevant 
-                details for notary platforms and signing services.
+                Download the comprehensive signed notary information document containing commission details, 
+                E&O insurance, bond information, and all relevant credentials for notary platforms and signing services.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
-                  href="/notary-credentials/joseph/signed-notary-information.pdf"
+                  href="/notary-credentials/joseph/Joseph-Iannazzi-Notary-Information-Package.pdf"
                   download
                   className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-white text-slate-900 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
                 >
@@ -295,7 +338,7 @@ export default function JosephCredentialsPage() {
                   Download Full Package
                 </a>
                 <a
-                  href="/notary-credentials/joseph/signed-notary-information.pdf"
+                  href="/notary-credentials/joseph/Joseph-Iannazzi-Notary-Information-Package.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors"
@@ -321,7 +364,7 @@ export default function JosephCredentialsPage() {
             </div>
             <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-200">
               <img
-                src="/notary-credentials/joseph/proof-academy-certification.png"
+                src="/notary-credentials/joseph/Joseph-Iannazzi-Proof-Academy-Certificate.png"
                 alt="Joseph William Iannazzi - Proof Academy Certified - Notarize Network Platform Training NST Certification - Earned 03/30/2026"
                 className="w-full h-auto"
               />
