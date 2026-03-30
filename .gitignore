@@ -35,3 +35,18 @@ next-env.d.ts
 # IDE
 .idea
 .vscode
+
+# Installers
+*.msi
+
+# Log files (root level only - not public/)
+/contact-log.txt
+/seo-log.txt
+/seo-safe-log.txt
+/voice-search-log.txt
+/voice-search-status.txt
+/robots-last-update.txt
+/sitemap-status.txt
+/schema-validation-report.json
+/deployment-status.json
+/seo-metrics.json

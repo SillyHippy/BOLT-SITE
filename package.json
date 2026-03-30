@@ -43,9 +43,6 @@
     "@radix-ui/react-toggle-group": "^1.1.0",
     "@radix-ui/react-tooltip": "^1.1.2",
     "@tanstack/react-query": "^5.83.0",
-    "@types/node": "^20.19.8",
-    "@types/react": "19.2.7",
-    "@types/react-dom": "19.2.3",
     "@vitejs/plugin-react": "^4.6.0",
     "autoprefixer": "10.4.15",
     "class-variance-authority": "^0.7.1",
@@ -55,8 +52,6 @@
     "critters": "^0.0.23",
     "date-fns": "^3.6.0",
     "embla-carousel-react": "^8.6.0",
-    "eslint": "8.49.0",
-    "eslint-config-next": "14.2.29",
     "input-otp": "^1.2.4",
     "lucide-react": "^0.446.0",
     "next": "^15.5.7",
@@ -75,16 +70,21 @@
     "tailwind-merge": "^2.6.0",
     "tailwindcss": "3.3.3",
     "tailwindcss-animate": "^1.0.7",
-    "typescript": "5.2.2",
     "vaul": "^0.9.9",
     "vite": "^7.0.5",
     "zod": "^3.23.8"
   },
   "devDependencies": {
+    "@types/node": "^20.19.8",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
     "@types/react-router-dom": "^5.3.3",
     "esbuild": "^0.25.7",
+    "eslint": "8.49.0",
+    "eslint-config-next": "14.2.29",
     "glob": "^11.0.3",
     "lovable-tagger": "^1.1.8",
-    "pdf-lib": "^1.17.1"
+    "pdf-lib": "^1.17.1",
+    "typescript": "5.2.2"
   }
 }
