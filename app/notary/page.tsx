@@ -433,6 +433,9 @@ export default function NotaryPage() {
                   <a href="tel:5393676832" className="block text-center bg-green-600 hover:bg-green-700 text-white font-semibold py-3 rounded-lg transition">
                     Get Mobile Notary Quote →
                   </a>
+                  <Link href="/mobile-notary" className="block text-center text-green-600 hover:text-green-700 font-medium mt-3 text-sm">
+                    Learn More About Mobile Notary →
+                  </Link>
                 </div>
               </div>
               </div>
@@ -460,6 +463,9 @@ export default function NotaryPage() {
                   <p className="text-sm text-gray-500 mb-4">A platform fee may apply. <strong>30-60 minutes</strong> from upload to completion.</p>
                   <Link href="/contact" className="block text-center bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 rounded-lg transition">
                     Start Remote Notarization →
+                  </Link>
+                  <Link href="/remote-online-notary" className="block text-center text-purple-600 hover:text-purple-700 font-medium mt-3 text-sm">
+                    Learn More About RON →
                   </Link>
                 </div>
               </div>
