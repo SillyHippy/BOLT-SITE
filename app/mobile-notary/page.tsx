@@ -30,7 +30,7 @@ const canonicalUrl = 'https://justlegalsolutions.org/mobile-notary';
 export const metadata: Metadata = {
   title: 'Mobile Notary Glenpool & Tulsa Metro | 24/7 Hospital, Jail, Loan Signing Support',
   description:
-    'Just Legal Solutions delivers 24/7 mobile notary coverage from Glenpool across Tulsa, Broken Arrow, Bixby, Jenks, Sapulpa, Sand Springs, Owasso, and Collinsville. Hospital notarizations, jail and detention signings, real estate loan closings, estate plans, and emergency travel documents backed by licensed, bonded, and insured Oklahoma professionals. Call (918) 859-7575.',
+    'Just Legal Solutions delivers 24/7 mobile notary coverage from Glenpool across Tulsa, Broken Arrow, Bixby, Jenks, Sapulpa, Sand Springs, Owasso, and Collinsville. Hospital notarizations, jail and detention signings, real estate loan closings, estate plans, and emergency travel documents backed by licensed, bonded, and insured Oklahoma professionals. Call (539) 367-6832.',
   keywords:
     'mobile notary Glenpool, Tulsa mobile notary, hospital notary Tulsa, jail notarization Oklahoma, loan signing agent Glenpool, 24/7 notary, Creek County notary, Wagoner County notary, Osage County notary, Tulsa County notary, emergency notary Oklahoma, remote notary Oklahoma',
   authors: [{ name: 'Just Legal Solutions' }],
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Just Legal Solutions | Oklahoma Mobile Notary',
-    description: '24/7 hospital, jail, and real estate loan signing coverage across Tulsa metro. Call (918) 859-7575.',
+    description: '24/7 hospital, jail, and real estate loan signing coverage across Tulsa metro. Call (539) 367-6832.',
     images: ['https://justlegalsolutions.org/images/notary-mobile-og.jpg']
   },
   alternates: {
@@ -174,7 +174,7 @@ const processSteps = [
   {
     title: '1. Connect 24/7',
     detail:
-      'Call (918) 859-7575, email info@justlegalsolutions.org, or submit our secure form any hour. A commissioned notary—not a call center—confirms the document type, signer capacity, witness needs, and any hospital or jail clearance requirements. We also gather docket or loan numbers so we can coordinate with your legal team.'
+      'Call (539) 367-6832, email info@justlegalsolutions.org, or submit our secure form any hour. A commissioned notary—not a call center—confirms the document type, signer capacity, witness needs, and any hospital or jail clearance requirements. We also gather docket or loan numbers so we can coordinate with your legal team.'
   },
   {
     title: '2. Schedule & Prep',
@@ -259,9 +259,9 @@ const faqs: FAQItem[] = [
   {
     question: 'How quickly can a mobile notary reach my Tulsa or Glenpool location?',
     answer:
-      'Most Tulsa County calls are scheduled within two hours because our base at 14405 S Poplar Pl in Glenpool is minutes from Highway 75 and the Creek Turnpike. For extreme emergencies—such as a hospital bedside power of attorney—call (918) 859-7575 and we will confirm ETA in real time.',
+      'Most Tulsa County calls are scheduled within two hours because our base at 14405 S Poplar Pl in Glenpool is minutes from Highway 75 and the Creek Turnpike. For extreme emergencies—such as a hospital bedside power of attorney—call (539) 367-6832 and we will confirm ETA in real time.',
     schemaAnswer:
-      'Most Tulsa County calls are scheduled within two hours because our base at 14405 S Poplar Pl in Glenpool is minutes from Highway 75 and the Creek Turnpike. For extreme emergencies—such as a hospital bedside power of attorney—call (918) 859-7575 and we will confirm ETA in real time.'
+      'Most Tulsa County calls are scheduled within two hours because our base at 14405 S Poplar Pl in Glenpool is minutes from Highway 75 and the Creek Turnpike. For extreme emergencies—such as a hospital bedside power of attorney—call (539) 367-6832 and we will confirm ETA in real time.'
   },
   {
     question: 'Do you handle hospital signings and what should families prepare?',
@@ -347,7 +347,7 @@ const notaryServiceSchema = {
   name: 'Just Legal Solutions Mobile Notary',
   url: canonicalUrl,
   image: 'https://justlegalsolutions.org/images/notary-mobile-og.jpg',
-  telephone: '+1-918-859-7575',
+  telephone: '+1-539-367-6832',
   email: 'info@justlegalsolutions.org',
   provider: {
     '@type': 'Organization',
@@ -423,7 +423,7 @@ const localBusinessSchema = {
   name: 'Just Legal Solutions',
   url: 'https://justlegalsolutions.org',
   image: 'https://justlegalsolutions.org/images/logo.png',
-  telephone: '+1-918-859-7575',
+  telephone: '+1-539-367-6832',
   email: 'info@justlegalsolutions.org',
   address: {
     '@type': 'PostalAddress',
@@ -458,7 +458,7 @@ const localBusinessSchema = {
     {
       '@type': 'ContactPoint',
       contactType: 'customer support',
-      telephone: '+1-918-859-7575',
+      telephone: '+1-539-367-6832',
       email: 'info@justlegalsolutions.org',
       availableLanguage: ['English']
     }
@@ -538,14 +538,14 @@ export default function MobileNotaryPage() {
                   Hospital, Jail, and Loan Signing Specialists Serving Tulsa Metro
                 </h1>
                 <p className="text-lg text-blue-100 leading-relaxed mb-6">
-                  Just Legal Solutions is a Glenpool-based legal support firm delivering on-demand mobile notarizations throughout Tulsa, Glenpool, Broken Arrow, Bixby, Jenks, Sapulpa, Sand Springs, Owasso, Collinsville, and every corner of Creek, Wagoner, and Osage counties. Clients rely on us for hospital signings, detention center notarizations, high-stakes real estate loan closings, structured settlement executions, and compassionate late-night visits. Call (918) 859-7575 or email info@justlegalsolutions.org to reach a commissioned Oklahoma notary who can be at your door, bedside, lobby, or closing table when it matters.
+                  Just Legal Solutions is a Glenpool-based legal support firm delivering on-demand mobile notarizations throughout Tulsa, Glenpool, Broken Arrow, Bixby, Jenks, Sapulpa, Sand Springs, Owasso, Collinsville, and every corner of Creek, Wagoner, and Osage counties. Clients rely on us for hospital signings, detention center notarizations, high-stakes real estate loan closings, structured settlement executions, and compassionate late-night visits. Call (539) 367-6832 or email info@justlegalsolutions.org to reach a commissioned Oklahoma notary who can be at your door, bedside, lobby, or closing table when it matters.
                 </p>
                 <div className="flex flex-wrap gap-4 mb-6">
                   <a
-                    href="tel:9188597575"
+                    href="tel:5393676832"
                     className="inline-flex items-center bg-blue-600 hover:bg-blue-500 text-white px-6 py-3 rounded-lg font-semibold shadow-lg"
                   >
-                    <Phone className="w-5 h-5 mr-2" /> Call (918) 859-7575
+                    <Phone className="w-5 h-5 mr-2" /> Call (539) 367-6832
                   </a>
                   <a
                     href="mailto:info@justlegalsolutions.org"
@@ -845,10 +845,10 @@ export default function MobileNotaryPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:9188597575"
+                href="tel:5393676832"
                 className="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-500 text-white px-8 py-4 rounded-lg font-semibold shadow-lg"
               >
-                <Phone className="w-5 h-5 mr-2" /> Call (918) 859-7575
+                <Phone className="w-5 h-5 mr-2" /> Call (539) 367-6832
               </a>
               <a
                 href="mailto:info@justlegalsolutions.org"
@@ -891,3 +891,4 @@ export default function MobileNotaryPage() {
     </div>
   );
 }
+

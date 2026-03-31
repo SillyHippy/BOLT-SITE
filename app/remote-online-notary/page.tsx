@@ -79,7 +79,7 @@ export const metadata: Metadata = {
 
 const heroStats = [
   { label: 'Primary Hub', value: '14405 S Poplar Pl, Glenpool, OK 74033' },
-  { label: 'Direct Line', value: '(918) 859-7575' },
+  { label: 'Direct Line', value: '(539) 367-6832' },
   { label: 'Average Session Length', value: '18-25 Minutes Including Upload' },
   { label: 'Coverage', value: 'Oklahoma Documents + Nationwide Signers' }
 ];
@@ -358,7 +358,7 @@ const serviceSchema = {
   '@type': 'NotaryService',
   name: 'Just Legal Solutions Remote Online Notary',
   url: canonicalUrl,
-  telephone: '(918) 859-7575',
+  telephone: '(539) 367-6832',
   email: 'info@justlegalsolutions.org',
   provider: {
     '@type': 'Organization',
@@ -414,7 +414,7 @@ const localBusinessSchema = {
   name: 'Just Legal Solutions - Remote Online Notary',
   image: 'https://justlegalsolutions.org/images/ron-hero.webp',
   url: canonicalUrl,
-  telephone: '(918) 859-7575',
+  telephone: '(539) 367-6832',
   email: 'info@justlegalsolutions.org',
   address: {
     '@type': 'PostalAddress',
@@ -509,14 +509,14 @@ const RemoteOnlineNotaryPage = () => {
                 Just Legal Solutions delivers fully compliant Oklahoma RON sessions from our Glenpool base while supporting signers worldwide. Whether you need online notary for power of attorney Oklahoma, remote online notary Tulsa real estate closings, or a rapid solution for court filings, our Title 49 certified team keeps your documents moving without travel. Every session includes recorded video, multi-factor identity proofing, tamper-evident seals, and concierge-level support that feels nothing like a call center.
               </p>
               <p className="text-lg leading-relaxed text-white/90">
-                We emphasize Oklahoma residents and Oklahoma-governed paperwork, yet our reach is national. Clients dial in from Alaska, Okinawa, offshore rigs, and law firm war rooms because they trust our (918) 859-7575 RON hotline to deliver when deadlines loom. Our Glenpool-based notaries collaborate with <Link href="/notary" className="font-semibold underline">in-office notary</Link> teams, the <Link href="/mobile-notary" className="font-semibold underline">mobile notary fleet</Link>, and <Link href="/tulsa-process-server" className="font-semibold underline">process servers</Link> so your entire legal support stack stays in sync.
+                We emphasize Oklahoma residents and Oklahoma-governed paperwork, yet our reach is national. Clients dial in from Alaska, Okinawa, offshore rigs, and law firm war rooms because they trust our (539) 367-6832 RON hotline to deliver when deadlines loom. Our Glenpool-based notaries collaborate with <Link href="/notary" className="font-semibold underline">in-office notary</Link> teams, the <Link href="/mobile-notary" className="font-semibold underline">mobile notary fleet</Link>, and <Link href="/tulsa-process-server" className="font-semibold underline">process servers</Link> so your entire legal support stack stays in sync.
               </p>
               <div className="flex flex-wrap gap-4">
                 <a
-                  href="tel:19188597575"
+                  href="tel:15393676832"
                   className="inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 font-semibold text-emerald-700 shadow-lg shadow-emerald-900/30"
                 >
-                  <Phone className="h-5 w-5" /> Call (918) 859-7575
+                  <Phone className="h-5 w-5" /> Call (539) 367-6832
                 </a>
                 <a
                   href="mailto:info@justlegalsolutions.org"
@@ -618,7 +618,7 @@ const RemoteOnlineNotaryPage = () => {
                 </div>
               ))}
               <p className="mt-6 text-slate-300">
-                Unsure whether your scenario qualifies? Call (918) 859-7575 and our coordinators will cross-check statutes, agency memos, and lender overlays. Because we collaborate closely with <Link href="/notary/joseph" className="text-emerald-400 underline">Notary Joseph</Link> and allied attorneys, you receive practical guidance without waiting on hold.
+                Unsure whether your scenario qualifies? Call (539) 367-6832 and our coordinators will cross-check statutes, agency memos, and lender overlays. Because we collaborate closely with <Link href="/notary/joseph" className="text-emerald-400 underline">Notary Joseph</Link> and allied attorneys, you receive practical guidance without waiting on hold.
               </p>
             </div>
             <div>
@@ -776,7 +776,7 @@ const RemoteOnlineNotaryPage = () => {
               <p className="text-sm uppercase tracking-wide text-emerald-400">Frequently Asked Questions</p>
               <h2 className="text-3xl font-bold text-white">Oklahoma Remote Online Notary FAQ</h2>
               <p className="mt-4 text-lg text-slate-300">
-                Ten-plus answers to the most common questions we receive from families, lenders, attorneys, and agencies. For more resources, explore the dedicated <Link href="/notary-faqs" className="text-emerald-400 underline">Notary FAQ hub</Link> or call (918) 859-7575 to speak with a coordinator.
+                Ten-plus answers to the most common questions we receive from families, lenders, attorneys, and agencies. For more resources, explore the dedicated <Link href="/notary-faqs" className="text-emerald-400 underline">Notary FAQ hub</Link> or call (539) 367-6832 to speak with a coordinator.
               </p>
             </div>
             <div className="mt-10 space-y-6">
@@ -799,14 +799,14 @@ const RemoteOnlineNotaryPage = () => {
               <p className="text-sm uppercase tracking-wide text-slate-900">Ready in Minutes</p>
               <h2 className="text-3xl font-bold">Schedule Your Remote Online Notary Session</h2>
               <p className="mt-4 text-lg">
-                Call (918) 859-7575, email info@justlegalsolutions.org, or submit your documents through our secure intake to reserve today. We confirm eligibility, gather IDs, and coordinate any witnesses before you log in so the live signing feels effortless.
+                Call (539) 367-6832, email info@justlegalsolutions.org, or submit your documents through our secure intake to reserve today. We confirm eligibility, gather IDs, and coordinate any witnesses before you log in so the live signing feels effortless.
               </p>
               <p className="mt-4 text-lg">
                 Prefer a voice-first experience? Ask about our AI voice scheduling assistant powered by our <Link href="/platform-supremacy" className="underline">platform supremacy initiatives</Link>—it books appointments 24/7 while our human team sleeps.
               </p>
               <div className="mt-6 flex flex-wrap gap-3">
-                <a href="tel:19188597575" className="inline-flex items-center gap-2 rounded-full bg-slate-950 px-5 py-3 font-semibold text-white">
-                  <Phone className="h-5 w-5" /> Call (918) 859-7575
+                <a href="tel:15393676832" className="inline-flex items-center gap-2 rounded-full bg-slate-950 px-5 py-3 font-semibold text-white">
+                  <Phone className="h-5 w-5" /> Call (539) 367-6832
                 </a>
                 <a href="mailto:info@justlegalsolutions.org" className="inline-flex items-center gap-2 rounded-full border border-slate-900 px-5 py-3 font-semibold text-slate-900">
                   <Mail className="h-5 w-5" /> Email Our Team
@@ -851,3 +851,4 @@ const RemoteOnlineNotaryPage = () => {
 };
 
 export default RemoteOnlineNotaryPage;
+
