@@ -181,9 +181,9 @@ const faqSchema = {
 };
 
 const trustBadges = [
-  { icon: Shield, label: 'Licensed & Bonded Oklahoma Notaries' },
-  { icon: Star, label: '4.9★ Rating (156+ Reviews)' },
-  { icon: Clock, label: 'Same-Day Service Available' },
+  { icon: Shield, label: 'Licensed & Bonded' },
+  { icon: Star, label: '4.9★ (156+ Reviews)' },
+  { icon: Clock, label: 'Same-Day Available' },
   { icon: Award, label: '50+ Years Combined Experience' },
   { icon: MapPin, label: 'Serving All 77 Oklahoma Counties' },
 ];
@@ -386,9 +386,7 @@ export default function NotaryPage() {
                 <div className="bg-gradient-to-r from-blue-600 to-blue-700 p-6 text-white">
                   <Building2 className="w-10 h-10 mb-3" />
                   <h3 className="text-2xl font-bold">In-Office Notary</h3>
-                  <div className="mt-2">
-                    <span className="text-3xl font-bold">Starting at $20</span>
-                  </div>
+                  <p className="mt-2 text-blue-100">Affordable flat-rate pricing</p>
                 </div>
                 <div className="p-6 flex flex-col flex-1">
                   <p className="text-gray-600 mb-4">Quick, professional notarization when you&apos;re in the Tulsa area.</p>
@@ -401,8 +399,8 @@ export default function NotaryPage() {
                     ))}
                   </ul>
                   <p className="text-sm text-gray-500 mb-4"><strong>Hours:</strong> Mon–Fri 8 AM–6 PM | Sat by appointment | Sun emergency only</p>
-                  <Link href="/contact" className="block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-lg transition">
-                    Schedule Appointment →
+                  <Link href="/pricing" className="block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-lg transition">
+                    View Pricing →
                   </Link>
                 </div>
               </div>
@@ -414,10 +412,7 @@ export default function NotaryPage() {
                 <div className="bg-gradient-to-r from-green-600 to-emerald-600 p-6 text-white">
                   <Car className="w-10 h-10 mb-3" />
                   <h3 className="text-2xl font-bold">Mobile Notary</h3>
-                  <div className="mt-2">
-                    <span className="text-3xl font-bold">Starting at $25</span>
-                    <span className="text-lg ml-1">per act</span>
-                  </div>
+                  <p className="mt-2 text-green-100">Competitive per-act pricing</p>
                 </div>
                 <div className="p-6 flex flex-col flex-1">
                   <p className="text-gray-600 mb-4">We come to you — home, office, hospital, or anywhere in Oklahoma.</p>
@@ -429,7 +424,7 @@ export default function NotaryPage() {
                       </li>
                     ))}
                   </ul>
-                  <p className="text-sm text-gray-500 mb-4">Travel fees vary by distance and urgency. <strong>Contact us for a quote.</strong></p>
+                  <p className="text-sm text-gray-500 mb-4">Travel fees vary by distance. <Link href="/pricing" className="text-green-600 underline">See our pricing</Link></p>
                   <a href="tel:5393676832" className="block text-center bg-green-600 hover:bg-green-700 text-white font-semibold py-3 rounded-lg transition">
                     Get Mobile Notary Quote →
                   </a>
@@ -445,10 +440,7 @@ export default function NotaryPage() {
                 <div className="bg-gradient-to-r from-purple-600 to-purple-700 p-6 text-white">
                   <Monitor className="w-10 h-10 mb-3" />
                   <h3 className="text-2xl font-bold">Remote Online (RON)</h3>
-                  <div className="mt-2">
-                    <span className="text-3xl font-bold">Starting at $25</span>
-                    <span className="text-lg ml-1">per act</span>
-                  </div>
+                  <p className="mt-2 text-purple-100">Simple flat-rate pricing</p>
                 </div>
                 <div className="p-6 flex flex-col flex-1">
                   <p className="text-gray-600 mb-4">100% online via secure video. Sign from anywhere in the world.</p>
@@ -460,7 +452,7 @@ export default function NotaryPage() {
                       </li>
                     ))}
                   </ul>
-                  <p className="text-sm text-gray-500 mb-4">A platform fee may apply. <strong>30-60 minutes</strong> from upload to completion.</p>
+                  <p className="text-sm text-gray-500 mb-4">Platform fee may apply. <Link href="/pricing" className="text-purple-600 underline">View pricing</Link></p>
                   <Link href="/contact" className="block text-center bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 rounded-lg transition">
                     Start Remote Notarization →
                   </Link>
@@ -694,6 +686,30 @@ export default function NotaryPage() {
               <Link href="/notary-faqs" className="inline-flex items-center gap-2 bg-gray-900 hover:bg-gray-800 text-white font-semibold px-8 py-3 rounded-lg shadow-md transition">
                 <HelpCircle className="w-5 h-5" />
                 See All 50+ Notary FAQs →
+              </Link>
+            </div>
+          </div>
+        </section>
+
+        {/* Related Services */}
+        <section className="py-16 bg-white">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Related Services</h2>
+              <p className="text-lg text-gray-600">Complementary services to meet all your document needs</p>
+            </div>
+            <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+              <Link href="/apostille" className="group bg-gradient-to-br from-indigo-50 to-blue-50 rounded-2xl p-6 border border-indigo-100 hover:shadow-lg transition">
+                <Globe className="w-10 h-10 text-indigo-600 mb-4" />
+                <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-indigo-600 transition">Apostille Services</h3>
+                <p className="text-gray-600 mb-4">Need documents authenticated for international use? We guide you through the Oklahoma apostille process for Hague Convention countries.</p>
+                <span className="text-indigo-600 font-medium">Learn More →</span>
+              </Link>
+              <Link href="/wedding-officiant" className="group bg-gradient-to-br from-rose-50 to-pink-50 rounded-2xl p-6 border border-rose-100 hover:shadow-lg transition">
+                <Heart className="w-10 h-10 text-rose-500 mb-4" />
+                <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-rose-500 transition">Wedding Officiant</h3>
+                <p className="text-gray-600 mb-4">Ordained since 2017 to perform marriage ceremonies in Oklahoma. From courthouse ceremonies to intimate weddings and elopements.</p>
+                <span className="text-rose-500 font-medium">Learn More →</span>
               </Link>
             </div>
           </div>

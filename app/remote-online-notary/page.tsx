@@ -78,7 +78,6 @@ export const metadata: Metadata = {
 };
 
 const heroStats = [
-  { label: 'Primary Hub', value: '14405 S Poplar Pl, Glenpool, OK 74033' },
   { label: 'Direct Line', value: '(539) 367-6832' },
   { label: 'Average Session Length', value: '18-25 Minutes Including Upload' },
   { label: 'Coverage', value: 'Oklahoma Documents + Nationwide Signers' }
@@ -242,7 +241,7 @@ const benefitsComparison = [
   {
     criteria: 'Cost Structure',
     ron: 'Flat remote session fee reflecting technology, compliance, and storage.',
-    traditional: 'State maximum $5 per act, minimal overhead.',
+    traditional: 'State-regulated maximum per act, minimal overhead.',
     mobile: 'State fee plus mileage, travel, after-hours surcharges.'
   },
   {
@@ -319,9 +318,9 @@ const faqItems = [
   {
     question: 'How much does a remote online notary Oklahoma session cost?',
     answer:
-      'Our flat RON fee starts at $35 for the first document with bundled identity proofing, recording retention, and delivery. Complex estate plans, lender packages, or rush appointments are quoted in advance so you always know the total investment. The rate is higher than traditional $5 acts because it includes enterprise-grade technology, secure storage, and compliance engineering.',
+      'We provide competitive flat-rate pricing that reflects the technology, compliance, and coordination involved in each RON engagement. Quotes are provided in advance based on document volume, signer count, and scheduling urgency so you always know the investment before booking.',
     answerRich:
-      'Our flat RON fee starts at $35 for the first document with bundled identity proofing, recording retention, and delivery. Complex estate plans, lender packages, or rush appointments are quoted in advance so you always know the total investment. The rate is higher than traditional $5 acts because it includes enterprise-grade technology, secure storage, and compliance engineering.'
+      'We provide competitive flat-rate pricing that reflects the technology, compliance, and coordination involved in each RON engagement. Quotes are provided in advance based on document volume, signer count, and scheduling urgency so you always know the investment before booking.'
   },
   {
     question: 'Can Just Legal Solutions notarize documents for people outside the United States?',
@@ -375,21 +374,17 @@ const serviceSchema = {
       {
         '@type': 'Offer',
         name: 'Standard RON Session',
-        price: '35.00',
-        priceCurrency: 'USD',
-        description: 'Single document, includes identity proofing and 10-year recording retention.'
+        description: 'Single-document package including identity proofing, recording retention, and delivery. Contact us for current rates.'
       },
       {
         '@type': 'Offer',
         name: 'Real Estate RON Closing',
-        price: '125.00',
-        priceCurrency: 'USD',
-        description: 'Full lender packet support with coordination and delivery.'
+        description: 'Full lender packet support with coordination and delivery. Request a quote for complex transactions.'
       },
       {
         '@type': 'Offer',
         name: 'Enterprise / Law Firm RON',
-        description: 'Volume pricing for recurring transactions and integrated process serving.'
+        description: 'Volume pricing for recurring transactions and integrated process serving. Reach out for tailored pricing.'
       }
     ]
   },
@@ -400,7 +395,6 @@ const serviceSchema = {
   ],
   address: {
     '@type': 'PostalAddress',
-    streetAddress: '14405 S Poplar Pl',
     addressLocality: 'Glenpool',
     addressRegion: 'OK',
     postalCode: '74033',
@@ -418,7 +412,6 @@ const localBusinessSchema = {
   email: 'info@justlegalsolutions.org',
   address: {
     '@type': 'PostalAddress',
-    streetAddress: '14405 S Poplar Pl',
     addressLocality: 'Glenpool',
     addressRegion: 'OK',
     postalCode: '74033',
@@ -544,7 +537,6 @@ const RemoteOnlineNotaryPage = () => {
                 <li className="flex items-start gap-3"><Video className="mt-1 h-5 w-5" /> HD recordings stored 10+ years in SOC 2 clouds</li>
                 <li className="flex items-start gap-3"><Globe className="mt-1 h-5 w-5" /> Nationwide coverage for Oklahoma documents</li>
                 <li className="flex items-start gap-3"><Clock className="mt-1 h-5 w-5" /> Emergency evening + weekend appointments</li>
-                <li className="flex items-start gap-3"><MapPin className="mt-1 h-5 w-5" /> Glenpool HQ: 14405 S Poplar Pl, Glenpool, OK 74033</li>
               </ul>
             </div>
           </div>
@@ -674,14 +666,14 @@ const RemoteOnlineNotaryPage = () => {
         </section>
 
         <section className="mx-auto max-w-5xl px-6 py-16 lg:px-12">
-          <div className="rounded-3xl border border-emerald-900 bg-slate-950/70 p-8">
-            <h2 className="text-3xl font-bold text-white">Remote Online Notary Pricing</h2>
-            <p className="mt-4 text-lg text-slate-300">
-              Oklahoma caps traditional notarizations at $5 per act, but Remote Online Notary (RON) involves enterprise-grade identity proofing, video capture, secure storage, and software licensing. Our transparent flat fee begins at $35 for the first document and $10 for each additional document within the same session. Real estate signings, commercial packets, and multi-signer affairs are quoted case-by-case, typically ranging from $95 to $175 depending on length and coordination complexity.
-            </p>
-            <p className="mt-4 text-slate-300">
-              Every package includes: concierge scheduling, multi-factor ID verification, HD recording, encrypted storage for at least ten years, PDF certificates, and delivery to opposing counsel, lenders, or agencies. Because we manage internal teams for <Link href="/tulsa-process-server" className="text-emerald-400 underline">process serving</Link> and legal support, bundling tasks often produces meaningful savings over hiring separate vendors.
-            </p>
+      <div className="rounded-3xl border border-emerald-900 bg-slate-950/70 p-8">
+        <h2 className="text-3xl font-bold text-white">Remote Online Notary Pricing</h2>
+        <p className="mt-4 text-lg text-slate-300">
+          Remote Online Notary (RON) involves enterprise-grade identity proofing, video capture, secure storage, and software licensing beyond traditional notarizations. We provide competitive flat-rate pricing tailored to your document set, and each engagement is quoted up front so you know the investment before you log in.
+        </p>
+        <p className="mt-4 text-slate-300">
+          Every package includes: concierge scheduling, multi-factor ID verification, HD recording, encrypted storage for at least ten years, PDF certificates, and delivery to opposing counsel, lenders, or agencies. Because we manage internal teams for <Link href="/tulsa-process-server" className="text-emerald-400 underline">process serving</Link> and legal support, bundling tasks often produces meaningful savings over hiring separate vendors.
+        </p>
             <p className="mt-4 text-slate-300">
               We remain candid when RON is not the right option. If a hospital, tribal authority, or state agency insists on in-person witnessing, we seamlessly hand off to our <Link href="/mobile-notary" className="text-emerald-400 underline">mobile notary Oklahoma</Link> counterparts, ensuring you still work with one cohesive Just Legal Solutions team.
             </p>
@@ -811,24 +803,6 @@ const RemoteOnlineNotaryPage = () => {
                 <a href="mailto:info@justlegalsolutions.org" className="inline-flex items-center gap-2 rounded-full border border-slate-900 px-5 py-3 font-semibold text-slate-900">
                   <Mail className="h-5 w-5" /> Email Our Team
                 </a>
-              </div>
-            </div>
-            <div className="flex-1 rounded-3xl bg-white/30 p-8 text-slate-900 backdrop-blur">
-              <h3 className="text-2xl font-bold">Visit Our Glenpool Hub</h3>
-              <p className="mt-3 font-semibold">Just Legal Solutions</p>
-              <p>14405 S Poplar Pl<br />Glenpool, OK 74033</p>
-              <p className="mt-3 text-sm text-slate-800">Primary focus on Oklahoma residents and Oklahoma documents with nationwide signer access.</p>
-              <div className="mt-6 grid gap-4 sm:grid-cols-2">
-                <div className="rounded-2xl bg-white/70 p-4">
-                  <h4 className="font-semibold">Office Hours</h4>
-                  <p className="text-sm">Remote appointments available 24/7 with advanced scheduling.</p>
-                </div>
-                <div className="rounded-2xl bg-white/70 p-4">
-                  <h4 className="font-semibold">Website</h4>
-                  <a href="https://justlegalsolutions.org" target="_blank" rel="noopener noreferrer" className="text-emerald-700 underline">
-                    justlegalsolutions.org
-                  </a>
-                </div>
               </div>
             </div>
           </div>
