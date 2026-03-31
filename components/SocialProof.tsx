@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useEffect, useState } from 'react';
 
 interface SocialProofProps {
@@ -153,9 +155,9 @@ export default function SocialProof({
         <h3 className="text-xl font-bold mb-2">Ready to Get Started?</h3>
         <p className="mb-4">Join 800+ satisfied clients who trust us with their legal document delivery</p>
         <div className="space-y-2">
-          <button className="bg-white text-blue-600 font-bold py-3 px-8 rounded-lg hover:bg-gray-100 transition-colors">
+          <a href="tel:5393676832" className="inline-block bg-white text-blue-600 font-bold py-3 px-8 rounded-lg hover:bg-gray-100 transition-colors">
             📞 Call/Text Now: (539) 367-6832
-          </button>
+          </a>
           <div className="text-sm opacity-90">Free quote in under 5 minutes!</div>
         </div>
       </div>
