@@ -8,7 +8,7 @@ import {
   Phone, Mail, Clock, Shield, MapPin, FileText, Scale, Users,
   CheckCircle, HelpCircle, DollarSign, Award, Star, Briefcase,
   Home, Car, Monitor, Globe, Heart, Lock, Gavel, Building2,
-  AlertTriangle, CreditCard, Calendar, Zap
+  AlertTriangle, CreditCard, Calendar, Zap, ChevronRight
 } from 'lucide-react';
 
 const canonicalUrl = 'https://justlegalsolutions.org/notary';
@@ -691,25 +691,142 @@ export default function NotaryPage() {
           </div>
         </section>
 
-        {/* Related Services */}
-        <section className="py-16 bg-white">
+        {/* Specialized Notary Services */}
+        <section className="py-16 bg-gradient-to-b from-slate-50 to-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Related Services</h2>
-              <p className="text-lg text-gray-600">Complementary services to meet all your document needs</p>
+              <span className="inline-block bg-blue-100 text-blue-700 text-sm font-semibold px-4 py-1 rounded-full mb-4">Specialized Services</span>
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Expert Notary Services for Every Situation</h2>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">From emergency hospital signings to complex real estate closings, our specialized notary services ensure your documents are handled with expertise and care.</p>
             </div>
-            <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-              <Link href="/apostille" className="group bg-gradient-to-br from-indigo-50 to-blue-50 rounded-2xl p-6 border border-indigo-100 hover:shadow-lg transition">
-                <Globe className="w-10 h-10 text-indigo-600 mb-4" />
-                <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-indigo-600 transition">Apostille Services</h3>
-                <p className="text-gray-600 mb-4">Need documents authenticated for international use? We guide you through the Oklahoma apostille process for Hague Convention countries.</p>
-                <span className="text-indigo-600 font-medium">Learn More →</span>
+
+            {/* Primary Service Cards */}
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+              <Link href="/mobile-notary" className="group bg-white rounded-2xl p-6 border border-gray-100 hover:border-green-200 hover:shadow-xl transition-all duration-300">
+                <div className="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center mb-4 group-hover:bg-green-200 transition">
+                  <Car className="w-6 h-6 text-green-600" />
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-green-600 transition">Mobile Notary</h3>
+                <p className="text-gray-600 text-sm mb-4">We travel to your home, office, hospital, or any location in Oklahoma. 24/7 availability for urgent needs.</p>
+                <div className="flex items-center text-green-600 font-medium text-sm">
+                  Learn More <ChevronRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition" />
+                </div>
               </Link>
-              <Link href="/wedding-officiant" className="group bg-gradient-to-br from-rose-50 to-pink-50 rounded-2xl p-6 border border-rose-100 hover:shadow-lg transition">
-                <Heart className="w-10 h-10 text-rose-500 mb-4" />
+
+              <Link href="/remote-online-notary" className="group bg-white rounded-2xl p-6 border border-gray-100 hover:border-purple-200 hover:shadow-xl transition-all duration-300">
+                <div className="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center mb-4 group-hover:bg-purple-200 transition">
+                  <Monitor className="w-6 h-6 text-purple-600" />
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-purple-600 transition">Remote Online Notarization</h3>
+                <p className="text-gray-600 text-sm mb-4">Sign from anywhere in the world via secure video conference. Oklahoma RON-certified and available 24/7.</p>
+                <div className="flex items-center text-purple-600 font-medium text-sm">
+                  Learn More <ChevronRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition" />
+                </div>
+              </Link>
+
+              <Link href="/real-estate-notary" className="group bg-white rounded-2xl p-6 border border-gray-100 hover:border-amber-200 hover:shadow-xl transition-all duration-300">
+                <div className="w-12 h-12 bg-amber-100 rounded-xl flex items-center justify-center mb-4 group-hover:bg-amber-200 transition">
+                  <Home className="w-6 h-6 text-amber-600" />
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-amber-600 transition">Real Estate & Loan Signing</h3>
+                <p className="text-gray-600 text-sm mb-4">Expert loan signing agent services for closings, refinances, HELOCs, and complex loan packages up to 150 pages.</p>
+                <div className="flex items-center text-amber-600 font-medium text-sm">
+                  Learn More <ChevronRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition" />
+                </div>
+              </Link>
+
+              <Link href="/hospital-notary" className="group bg-white rounded-2xl p-6 border border-gray-100 hover:border-red-200 hover:shadow-xl transition-all duration-300">
+                <div className="w-12 h-12 bg-red-100 rounded-xl flex items-center justify-center mb-4 group-hover:bg-red-200 transition">
+                  <Shield className="w-6 h-6 text-red-600" />
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-red-600 transition">Hospital & Jail Notary</h3>
+                <p className="text-gray-600 text-sm mb-4">Emergency notarizations at hospitals, nursing homes, jails, and correctional facilities. Capacity assessment expertise.</p>
+                <div className="flex items-center text-red-600 font-medium text-sm">
+                  Learn More <ChevronRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition" />
+                </div>
+              </Link>
+
+              <Link href="/apostille" className="group bg-white rounded-2xl p-6 border border-gray-100 hover:border-indigo-200 hover:shadow-xl transition-all duration-300">
+                <div className="w-12 h-12 bg-indigo-100 rounded-xl flex items-center justify-center mb-4 group-hover:bg-indigo-200 transition">
+                  <Globe className="w-6 h-6 text-indigo-600" />
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-indigo-600 transition">Apostille Services</h3>
+                <p className="text-gray-600 text-sm mb-4">International document authentication for 120+ Hague Convention countries. Complete preparation and filing assistance.</p>
+                <div className="flex items-center text-indigo-600 font-medium text-sm">
+                  Learn More <ChevronRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition" />
+                </div>
+              </Link>
+
+              <Link href="/wedding-officiant" className="group bg-white rounded-2xl p-6 border border-gray-100 hover:border-rose-200 hover:shadow-xl transition-all duration-300">
+                <div className="w-12 h-12 bg-rose-100 rounded-xl flex items-center justify-center mb-4 group-hover:bg-rose-200 transition">
+                  <Heart className="w-6 h-6 text-rose-500" />
+                </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-rose-500 transition">Wedding Officiant</h3>
-                <p className="text-gray-600 mb-4">Ordained since 2017 to perform marriage ceremonies in Oklahoma. From courthouse ceremonies to intimate weddings and elopements.</p>
-                <span className="text-rose-500 font-medium">Learn More →</span>
+                <p className="text-gray-600 text-sm mb-4">Ordained since 2017 to perform marriage ceremonies. Courthouse weddings, elopements, and personalized ceremonies.</p>
+                <div className="flex items-center text-rose-500 font-medium text-sm">
+                  Learn More <ChevronRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition" />
+                </div>
+              </Link>
+            </div>
+
+            {/* Resource Cards */}
+            <div className="bg-gradient-to-br from-gray-900 to-slate-800 rounded-3xl p-8 md:p-10">
+              <div className="text-center mb-8">
+                <h3 className="text-2xl font-bold text-white mb-2">Helpful Resources</h3>
+                <p className="text-gray-400">Prepare for your appointment and learn about Oklahoma notary requirements</p>
+              </div>
+              <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                <Link href="/what-to-bring" className="group bg-white/10 backdrop-blur-sm rounded-xl p-5 hover:bg-white/20 transition">
+                  <FileText className="w-8 h-8 text-blue-400 mb-3" />
+                  <h4 className="font-semibold text-white mb-1">What to Bring</h4>
+                  <p className="text-gray-400 text-sm">ID requirements, documents, and appointment prep checklist</p>
+                </Link>
+                <Link href="/mobile-notary-vs-bank" className="group bg-white/10 backdrop-blur-sm rounded-xl p-5 hover:bg-white/20 transition">
+                  <Scale className="w-8 h-8 text-green-400 mb-3" />
+                  <h4 className="font-semibold text-white mb-1">Mobile vs Bank Notary</h4>
+                  <p className="text-gray-400 text-sm">Compare options and hidden costs to make the best choice</p>
+                </Link>
+                <Link href="/notary-faqs" className="group bg-white/10 backdrop-blur-sm rounded-xl p-5 hover:bg-white/20 transition">
+                  <HelpCircle className="w-8 h-8 text-amber-400 mb-3" />
+                  <h4 className="font-semibold text-white mb-1">Notary FAQs</h4>
+                  <p className="text-gray-400 text-sm">50+ frequently asked questions about notarization</p>
+                </Link>
+                <Link href="/notary-laws" className="group bg-white/10 backdrop-blur-sm rounded-xl p-5 hover:bg-white/20 transition">
+                  <Gavel className="w-8 h-8 text-purple-400 mb-3" />
+                  <h4 className="font-semibold text-white mb-1">Oklahoma Notary Laws</h4>
+                  <p className="text-gray-400 text-sm">49 O.S. § 101 et seq and 2026 legislative updates</p>
+                </Link>
+              </div>
+            </div>
+
+            {/* County & Credentials Row */}
+            <div className="mt-8 grid md:grid-cols-3 gap-6">
+              <Link href="/notary/tulsa-county" className="group flex items-center gap-4 bg-white rounded-xl p-5 border border-gray-100 hover:border-blue-200 hover:shadow-lg transition">
+                <div className="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <MapPin className="w-6 h-6 text-blue-600" />
+                </div>
+                <div>
+                  <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition">Tulsa County Notary</h4>
+                  <p className="text-sm text-gray-500">Local notary services in Tulsa</p>
+                </div>
+              </Link>
+              <Link href="/notary/creek-county" className="group flex items-center gap-4 bg-white rounded-xl p-5 border border-gray-100 hover:border-blue-200 hover:shadow-lg transition">
+                <div className="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <MapPin className="w-6 h-6 text-blue-600" />
+                </div>
+                <div>
+                  <h4 className="font-semibold text-gray-900 group-hover:text-blue-600 transition">Creek County Notary</h4>
+                  <p className="text-sm text-gray-500">Sapulpa, Bristow & surrounding areas</p>
+                </div>
+              </Link>
+              <Link href="/notary/joseph" className="group flex items-center gap-4 bg-white rounded-xl p-5 border border-gray-100 hover:border-emerald-200 hover:shadow-lg transition">
+                <div className="w-12 h-12 bg-emerald-50 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Award className="w-6 h-6 text-emerald-600" />
+                </div>
+                <div>
+                  <h4 className="font-semibold text-gray-900 group-hover:text-emerald-600 transition">Meet Joseph Iannazzi</h4>
+                  <p className="text-sm text-gray-500">View credentials & certifications</p>
+                </div>
               </Link>
             </div>
           </div>
