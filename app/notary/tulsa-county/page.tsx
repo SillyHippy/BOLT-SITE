@@ -29,13 +29,13 @@ const canonicalUrl = 'https://justlegalsolutions.org/notary/tulsa-county';
 export const metadata: Metadata = {
   title: 'Mobile Notary Tulsa County OK | 24/7 Notary Public Tulsa | Just Legal Solutions',
   description:
-    'Tulsa County mobile notary professionals delivering 24/7 document witnessing across Downtown, Midtown, Owasso, Broken Arrow, Jenks, and every Tulsa neighborhood. Mobile, in-office, and remote online notarization for oil & gas, hospitals, law firms, courthouses, and residents.',
+    'Tulsa County mobile notary professionals serving ~669,000 residents across Downtown, Midtown, Owasso, Broken Arrow, Jenks, and every Tulsa neighborhood. Mobile, in-office, and remote online notarization for oil & gas, hospitals, law firms, courthouses, and residents. Response times 30-60 min Tulsa, 45-90 min Broken Arrow.',
   keywords:
-    'Tulsa mobile notary, downtown Tulsa notary, notary public Tulsa OK, Tulsa County notary services, 24/7 notary Tulsa, mobile notary Oklahoma, remote online notarization Tulsa, emergency notary Tulsa County',
+    'Tulsa mobile notary, downtown Tulsa notary, notary public Tulsa OK, Tulsa County notary services, 24/7 notary Tulsa, mobile notary Oklahoma, remote online notarization Tulsa, emergency notary Tulsa County, Brady Arts District notary, Blue Dome District notary, Pearl District notary, Kendall-Whittier notary',
   openGraph: {
     title: 'Mobile Notary Tulsa County OK | 24/7 Notary Public Tulsa | Just Legal Solutions',
     description:
-      'On-demand Tulsa County notary signing agents for oil & gas, hospitals, courthouses, and residents. We handle mobile, in-office, and remote online notarization 24/7.',
+      'On-demand Tulsa County notary signing agents serving ~669,000 residents. 30-60 min response in Tulsa, 45-90 min to Broken Arrow. Oil & gas, hospitals, courthouses, and residents. Mobile, in-office, and remote online notarization 24/7.',
     url: canonicalUrl,
     siteName: 'Just Legal Solutions',
     type: 'website'
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Tulsa County Mobile Notary | Available 24/7',
-    description: 'Book a Tulsa mobile notary for emergency, after-hours, and same-day signings anywhere in the county.'
+    description: 'Book a Tulsa mobile notary for emergency, after-hours, and same-day signings anywhere in the county. Serving 669,000+ residents.'
   },
   alternates: {
     canonical: canonicalUrl
@@ -64,16 +64,16 @@ const neighborhoods = [
 ];
 
 const cities = [
-  'Tulsa',
-  'Broken Arrow',
-  'Owasso',
-  'Bixby',
-  'Jenks',
-  'Sand Springs',
-  'Sapulpa',
-  'Glenpool',
-  'Collinsville',
-  'Skiatook'
+  { name: 'Tulsa', population: '~400,000', responseTime: '30-60 min' },
+  { name: 'Broken Arrow', population: '116,000+', responseTime: '45-90 min' },
+  { name: 'Owasso', population: '38,000+', responseTime: '45-75 min' },
+  { name: 'Bixby', population: '29,000+', responseTime: '45-75 min' },
+  { name: 'Jenks', population: '26,000+', responseTime: '40-70 min' },
+  { name: 'Sand Springs', population: '20,000+', responseTime: '40-70 min' },
+  { name: 'Sapulpa', population: '21,000+', responseTime: '45-75 min' },
+  { name: 'Glenpool', population: '14,000+', responseTime: '40-70 min' },
+  { name: 'Collinsville', population: '7,500+', responseTime: '50-80 min' },
+  { name: 'Skiatook', population: '8,000+', responseTime: '50-80 min' }
 ];
 
 const services = [
@@ -204,7 +204,7 @@ const localBusinessSchema = {
   url: canonicalUrl,
   telephone: '(539) 367-6832',
   email: 'info@justlegalsolutions.org',
-  areaServed: cities.map((city) => ({ '@type': 'City', name: `${city}, OK` })),
+  areaServed: cities.map((city) => ({ '@type': 'City', name: `${city.name}, OK` })),
   address: {
     '@type': 'PostalAddress',
     addressLocality: 'Tulsa County',
@@ -265,9 +265,9 @@ const faqSchema = {
 
 const stats = [
   { label: 'Emergency Dispatch', value: '24/7', icon: Clock },
-  { label: 'Local Signers', value: '15+', icon: Users },
-  { label: 'Avg. Arrival Downtown', value: '< 45 min', icon: MapPin },
-  { label: 'RON Completion', value: 'Same Day', icon: Globe }
+  { label: 'County Population', value: '~669K', icon: Users },
+  { label: 'Downtown Response', value: '30-60 min', icon: MapPin },
+  { label: 'Broken Arrow', value: '45-90 min', icon: Globe }
 ];
 
 export default function TulsaCountyNotaryPage() {
@@ -293,7 +293,7 @@ export default function TulsaCountyNotaryPage() {
                   Tulsa County Mobile Notary & Remote Online Notary Experts
                 </h1>
                 <p className="text-lg md:text-xl text-blue-100 mb-6">
-                  Serving Downtown, Midtown, Owasso, Broken Arrow, Jenks, and every Tulsa neighborhood with certified in-person and remote notarization. Trusted by law firms, oil and gas operators, hospitals, and residents who need a notary public in Tulsa OK without the wait.
+                  Serving ~669,000 Tulsa County residents across Downtown, Midtown, Brady Arts District, Blue Dome District, Pearl District, Kendall-Whittier, Broken Arrow (116,000+), Owasso (38,000+), Bixby (29,000+), and Jenks (26,000+) with certified in-person and remote notarization. 30-60 minute response in Tulsa, 45-90 minutes to Broken Arrow. Trusted by law firms, oil and gas operators, hospitals, and residents who need a notary public in Tulsa OK without the wait.
                 </p>
                 <div className="flex flex-wrap gap-3">
                   <a
@@ -393,14 +393,18 @@ export default function TulsaCountyNotaryPage() {
             <div>
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">Cities We Serve Daily</h2>
               <p className="text-gray-600 mb-6">
-                Our dispatch board tracks traffic on Highway 51, Creek Turnpike, and I-244 to deliver reliable arrival times across Tulsa County.
+                Our dispatch board tracks traffic on Highway 51, Creek Turnpike, and I-244 to deliver reliable arrival times across Tulsa County&apos;s ~669,000 residents.
               </p>
               <div className="bg-white rounded-2xl border border-gray-200 p-6">
                 <ul className="space-y-3">
                   {cities.map((city) => (
-                    <li key={city} className="flex items-center gap-3 text-gray-800">
-                      <Shield className="w-5 h-5 text-blue-600" />
-                      <span>{city}</span>
+                    <li key={city.name} className="flex items-center justify-between text-gray-800">
+                      <div className="flex items-center gap-3">
+                        <Shield className="w-5 h-5 text-blue-600" />
+                        <span className="font-medium">{city.name}</span>
+                        <span className="text-sm text-gray-500">({city.population})</span>
+                      </div>
+                      <span className="text-sm text-blue-600">{city.responseTime}</span>
                     </li>
                   ))}
                 </ul>

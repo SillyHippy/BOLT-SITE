@@ -25,9 +25,9 @@ const canonicalUrl = 'https://justlegalsolutions.org/real-estate-notary';
 export const metadata: Metadata = {
   title: 'Real Estate Notary & Loan Signing Oklahoma | Mobile Closing Agent Tulsa | Just Legal Solutions',
   description:
-    'Just Legal Solutions delivers experienced real estate notary and mobile loan signing agents across Tulsa, Creek County, and all 77 Oklahoma counties. Mortgages, refinances, HELOCs, deeds, escrow packets, and remote online closings handled with deadline-driven precision.',
+    'Expert loan signing agents handling 80-150 page packages with 15-30 signatures per closing. Title company and lender coordination, rate lock deadline awareness, and same-day closings across Tulsa and all 77 Oklahoma counties. Call (539) 367-6832.',
   keywords:
-    'loan signing agent Oklahoma, real estate notary Tulsa, mobile notary loan signing, refinance notary Oklahoma, closing notary Tulsa',
+    'loan signing agent Oklahoma, real estate notary Tulsa, mobile notary loan signing, refinance notary Oklahoma, closing notary Tulsa, HELOC notary, deed notarization Oklahoma, title transfer notary, escrow document signing, mortgage closing agent, recording deadline notary',
   authors: [{ name: 'Just Legal Solutions' }],
   openGraph: {
     title: 'Real Estate Notary & Loan Signing Oklahoma | Mobile Closing Agent Tulsa',
@@ -61,59 +61,59 @@ const documentTypes = [
   {
     title: 'Mortgage & Refinance Signings',
     icon: Home,
-    items: ['Mortgages', 'Refinances', 'HELOCs', 'Reverse mortgages']
+    items: ['Purchase mortgages (80-150 page packages)', 'Refinances with rate lock sensitivity', 'HELOCs and home equity loans', 'Reverse mortgages requiring specialized handling']
   },
   {
-    title: 'Loan Adjustments & Builds',
+    title: 'Loan Adjustments & Construction',
     icon: Building,
-    items: ['Loan modifications', 'Construction loans']
+    items: ['Loan modifications and forbearance agreements', 'Construction draw packages', 'Bridge loans and interim financing']
   },
   {
     title: 'Deed & Ownership Transfers',
     icon: Key,
-    items: ['Warranty deeds', 'Quitclaim deeds', 'Transfer-on-death deeds']
+    items: ['Warranty deeds and general warranty deeds', 'Quitclaim deeds for title clearing', 'Transfer-on-death deeds (TODDs)', 'Beneficiary deeds and title transfers']
   },
   {
-    title: 'Title & Escrow Packets',
+    title: 'Title & Escrow Documents',
     icon: FileText,
-    items: ['Title documents', 'Escrow documents']
+    items: ['Title insurance commitments and policies', 'Escrow instructions and funding documents', 'Settlement statements (CD/HUD-1)', 'Lien releases and subordination agreements']
   },
   {
-    title: 'Agreements & Statements',
+    title: 'Agreements & Closing Statements',
     icon: DollarSign,
-    items: ['Seller agreements', 'Buyer agreements', 'Closing statements']
+    items: ['Seller net sheets and agreements', 'Buyer acknowledgments', 'Closing disclosures (15-30 signatures typical)', 'Compliance agreements and affidavits']
   }
 ];
 
 const serviceHighlights = [
   {
     title: 'Mobile Loan Signing',
-    description: 'We come to borrowers, builders, realtors, or attorneys anywhere in Tulsa, Creek County, and beyond.',
+    description: 'We travel to borrowers, builders, realtors, or attorneys anywhere in Tulsa, Creek County, and beyond. Evening and weekend appointments keep closings on your timeline.',
     icon: MapPin
   },
   {
     title: 'Title Company Coordination',
-    description: 'Escrow officers receive status updates, packaging photos, and return tracking within minutes.',
+    description: 'Direct communication with escrow officers. Status updates, packaging photos, and FedEx/UPS tracking provided within minutes of completion. Recording deadlines tracked and met.',
     icon: FileText
   },
   {
     title: 'Lender-Specific Instructions',
-    description: 'National lender scripts, local bank affidavits, and custom funding forms are followed to the letter.',
+    description: 'National lender scripts, local bank affidavits, and custom funding forms followed precisely. We handle rate lock sensitivity—no signatures missed, no funding delayed.',
     icon: DollarSign
   },
   {
-    title: 'Evening & Weekend Closings',
-    description: 'Flexible scheduling keeps relocations, new builds, and relocation closings on track after hours.',
+    title: 'Recording Deadline Awareness',
+    description: 'We understand county recorder filing procedures and cutoff times. Documents delivered for same-day or next-day recording when timelines demand it.',
     icon: Clock
   },
   {
     title: 'Same-Day Availability',
-    description: 'Dispatch monitors urgent requests and routes the closest commissioned notary to your signer.',
+    description: 'Dispatch monitors urgent requests and routes the closest commissioned notary. Rate locks expiring? Rescission periods ending? We mobilize fast.',
     icon: PhoneCall
   },
   {
     title: 'White-Glove Signer Care',
-    description: 'We brief signers on IDs, witnesses, and any lender prep list so every appointment starts ready.',
+    description: 'Signers receive pre-appointment briefings on ID requirements and what to expect from 80-150 page packages with 15-30 signature locations.',
     icon: Users
   }
 ];
@@ -121,22 +121,22 @@ const serviceHighlights = [
 const benefits = [
   {
     title: 'Error-Free Execution',
-    detail: 'Two-pass reviews catch initials, signatures, and notarial certificates across 100-plus page loan packages.',
+    detail: 'Two-pass reviews catch every initial, signature, and notarial certificate across 80-150 page loan packages with 15-30 signature locations. No redraw fees, no funding delays.',
     icon: ShieldCheck
   },
   {
-    title: 'Deadline Awareness',
-    detail: 'We track rate lock expirations, rescission periods, and funding cutoffs so nothing misses the wire.',
+    title: 'Rate Lock & Deadline Awareness',
+    detail: 'We track rate lock expirations, three-day rescission periods, and wire cutoff times. Recording deadlines at county offices are factored into every delivery plan.',
     icon: Clock
   },
   {
     title: 'Flexible Scheduling',
-    detail: 'Buyer, seller, and agent calendars are balanced with evening, weekend, and travel-friendly slots.',
+    detail: 'Buyer, seller, and agent calendars coordinated for evening, weekend, and travel-friendly appointments. Split signings and multi-party closings handled seamlessly.',
     icon: Calendar
   },
   {
     title: 'Remote Closing Ready',
-    detail: 'If travel is impossible, we shift to a secure Remote Online Notary session without delaying funding.',
+    detail: 'If travel is impossible, we pivot to secure Remote Online Notary sessions without delaying funding. Hybrid closings mix in-person and RON when needed.',
     icon: Users,
     linkHref: '/remote-online-notary',
     linkLabel: 'Remote Online Notary page'
@@ -168,37 +168,42 @@ const faqItems = [
   {
     question: 'What makes your Oklahoma loan signing support different?',
     answer:
-      'Every signing is handled by an experienced commissioned notary who focuses on real estate documents daily. We prep signers, confirm ID, and document every milestone so lenders and title partners stay informed.'
+      'Every signing is handled by an experienced commissioned notary who manages 80-150 page packages with 15-30 signatures daily. We prep signers on ID requirements, coordinate directly with title companies and lenders, and ensure documents return exactly as instructed—protecting rate locks and meeting recording deadlines.'
   },
   {
     question: 'Do borrowers need to travel to your office?',
     answer:
-      'No. Mobile teams meet signers at homes, offices, builder trailers, coffee shops, or hospitals. When travel is not possible we pivot to a Remote Online Notary session so closings still fund.'
+      'No. Mobile teams meet signers at homes, offices, builder trailers, coffee shops, hospitals, or any convenient location. When travel is impossible, we pivot to a Remote Online Notary session so closings still fund on schedule.'
   },
   {
     question: 'How fast can a closing be scheduled?',
     answer:
-      'Same-day appointments are available throughout Tulsa County and most of Oklahoma. Provide the package, lender instructions, and preferred time, and dispatch confirms in writing within minutes.'
+      'Same-day appointments are available throughout Tulsa County and most of Oklahoma. Rate lock expiring? Provide the package, lender instructions, and preferred time—dispatch confirms in writing within minutes. We understand rate lock sensitivity and funding deadlines.'
   },
   {
     question: 'Do you coordinate directly with title companies or lenders?',
     answer:
-      'Yes. We review settlement statements, scan-back requirements, and funding numbers with escrow officers and loan processors so documents return exactly as requested.'
+      'Yes. We work directly with escrow officers and loan processors on settlement statements, scan-back requirements, funding authorization, and recording procedures. Status updates and tracking numbers are provided immediately after signing completion.'
   },
   {
-    question: 'How do you prevent errors on large loan packets?',
+    question: 'How do you handle large loan packages without errors?',
     answer:
-      'We follow a checklist that covers borrower signatures, notarizations, notarized affidavits, and shipping labels. Any discrepancies are reported before we leave the table.'
+      'We use a comprehensive checklist covering every signature, initial, date, and notarization across the entire package. 80-150 pages with 15-30 signature locations are double-checked before leaving the table. Any discrepancies are flagged and resolved on-site when possible.'
   },
   {
-    question: 'Does Oklahoma require a special real estate signing certification?',
+    question: 'What document types do you handle?',
     answer:
-      'Oklahoma does not impose a separate certification for loan signing agents. Any commissioned notary may handle closings, so we emphasize experience, attention to detail, and lender-specific training.'
+      'We handle deeds (warranty, quitclaim, TODDs), mortgages, refinances, HELOCs, title transfers, escrow documents, construction draws, loan modifications, closing disclosures, and lender-specific affidavits. Basically, any real estate document requiring notarization.'
+  },
+  {
+    question: 'How do you ensure recording deadlines are met?',
+    answer:
+      'We coordinate document return via overnight shipping, same-day courier, or scan-back per lender requirements. County recorder filing procedures and cutoff times are factored into every delivery plan to ensure timely recording.'
   },
   {
     question: 'Which areas do you serve?',
     answer:
-      'Tulsa County, Creek County, and all 77 Oklahoma counties receive mobile coverage, and remote clients worldwide can connect through our online notarization platform.'
+      'Tulsa County, Creek County, and all 77 Oklahoma counties receive mobile coverage. Remote clients anywhere can connect through our online notarization platform for hybrid or fully remote closings.'
   }
 ];
 
@@ -288,13 +293,13 @@ export default function RealEstateNotaryPage() {
               <div className="flex-1">
                 <p className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm px-4 py-1 rounded-full text-sm mb-6">
                   <CheckCircle className="w-4 h-4" />
-                  Real estate expertise with flexible scheduling
+                  80-150 page packages handled with precision
                 </p>
                 <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6">
                   Real Estate Notary & Loan Signing Agents Serving Tulsa and All of Oklahoma
                 </h1>
                 <p className="text-lg md:text-xl text-white/90 mb-8 max-w-2xl">
-                  Mortgages, refinances, deeds, title packets, and escrow instructions completed wherever your borrowers are. Same-day appointments, evening closings, and Remote Online Notary support keep every transaction on track.
+                  Mortgages, refinances, deeds, HELOCs, title transfers, and escrow documents—15-30 signatures per closing handled with rate lock awareness and recording deadline precision. Title company and lender coordination included. Call (539) 367-6832.
                 </p>
                 <div className="flex flex-wrap gap-4 mb-6">
                   <a
@@ -328,7 +333,7 @@ export default function RealEstateNotaryPage() {
                 <div className="bg-white/15 backdrop-blur-md rounded-2xl p-6 border border-white/30">
                   <h2 className="text-2xl font-semibold mb-6">Document mastery for every closing</h2>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    {['Mortgages', 'Refinances', 'HELOCs', 'Reverse mortgages', 'Deeds', 'Title packets'].map((item) => (
+                    {['Mortgages & Refinances', 'HELOCs & Reverse Mortgages', 'Warranty & Quitclaim Deeds', 'Title Transfers', 'Escrow Documents', 'Construction Draws'].map((item) => (
                       <div key={item} className="flex items-center gap-3">
                         <span className="p-2 rounded-full bg-white/20">
                           <CheckCircle className="w-4 h-4" />
@@ -338,7 +343,7 @@ export default function RealEstateNotaryPage() {
                     ))}
                   </div>
                   <p className="text-sm text-white/80 mt-6">
-                    Detailed checklists cover lender instructions, ID requirements, witnesses, and courier or scan-back logistics before we arrive.
+                    Detailed checklists cover lender instructions, 15-30 signature locations, recording deadlines, and courier or scan-back logistics before we arrive.
                   </p>
                 </div>
               </div>

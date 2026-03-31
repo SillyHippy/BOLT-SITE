@@ -25,13 +25,13 @@ const canonicalUrl = 'https://justlegalsolutions.org/notary/creek-county';
 export const metadata: Metadata = {
   title: 'Mobile Notary Creek County OK | Sapulpa Notary Public | Just Legal Solutions',
   description:
-    'Creek County mobile notary team serving Sapulpa, Bristow, Drumright, Kellyville, Depew, Mannford, Oilton, and Slick with on-demand witnesses, estate planning support, and secure remote online notarization.',
+    'Creek County mobile notary team serving Sapulpa (population 21,000), Bristow, Drumright, Kellyville, Depew, Mannford, Oilton, and Slick with on-demand witnesses, estate planning support, and secure remote online notarization. Oil and gas document specialists. St. John Sapulpa hospital notarizations available.',
   keywords:
-    'Creek County notary, mobile notary Sapulpa, notary public Creek County Oklahoma, Sapulpa notary services, remote online notarization Creek County, mobile notary Bristow',
+    'Creek County notary, mobile notary Sapulpa, notary public Creek County Oklahoma, Sapulpa notary services, remote online notarization Creek County, mobile notary Bristow, oil and gas notary Oklahoma, St. John Sapulpa hospital notary, mineral lease notary',
   openGraph: {
     title: 'Mobile Notary Creek County OK | Sapulpa Notary Public | Just Legal Solutions',
     description:
-      'Certified Creek County notaries for real estate, oil and gas, agricultural business, and estate planning documents with mobile and remote appointments.',
+      'Certified Creek County notaries for real estate, oil and gas, agricultural business, and estate planning documents. Serving Sapulpa (21,000 residents) with mobile and remote appointments.',
     url: canonicalUrl,
     siteName: 'Just Legal Solutions',
     type: 'website'
@@ -46,32 +46,41 @@ export const metadata: Metadata = {
   }
 };
 
-const cities = ['Sapulpa', 'Bristow', 'Drumright', 'Kellyville', 'Depew', 'Mannford', 'Oilton', 'Slick'];
+const cities = [
+  { name: 'Sapulpa', population: '21,000+', note: 'County Seat' },
+  { name: 'Bristow', population: '4,300+', note: '' },
+  { name: 'Drumright', population: '2,800+', note: 'Oil heritage' },
+  { name: 'Kellyville', population: '1,200+', note: '' },
+  { name: 'Depew', population: '500+', note: '' },
+  { name: 'Mannford', population: '3,200+', note: '' },
+  { name: 'Oilton', population: '1,000+', note: 'Oil heritage' },
+  { name: 'Slick', population: '150+', note: '' }
+];
 
 const services = [
   {
     title: 'Mobile Notary Dispatch',
     subtitle: 'Barns, boardrooms, and courthouse steps',
     description:
-      'From ranch closings outside Mannford to same-day deeds in Sapulpa, our notaries arrive with compliant stamps, witnesses, and scan-back kits.',
+      'From ranch closings outside Mannford to same-day deeds in Sapulpa (population 21,000), our notaries arrive with compliant stamps, witnesses, and scan-back kits. St. John Sapulpa hospital notarizations available 24/7.',
     bullets: [
       '24/7 scheduling with live ETA updates',
       'Clear access plans for farms, oil pads, and gated communities',
-      'Hospital, rehab, and detention clearances when needed',
+      'Hospital clearances including St. John Sapulpa and rehab facilities',
       'Travel logs and document scans returned within an hour'
     ],
     icon: Compass
   },
   {
-    title: 'Creek County Signing Studio',
-    subtitle: 'Quiet setting near the county seat',
+    title: 'Oil & Gas Document Specialists',
+    subtitle: 'Creek County&apos;s energy industry partner',
     description:
-      'When you want a distraction-free environment, we host signings with high-speed print, witness coordination, and document coaching.',
+      'We understand the unique documentation needs of Creek County&apos;s oil and gas industry—from mineral lease assignments and division orders to surface use agreements and right-of-way packets.',
     bullets: [
-      'Conference-ready space for families and legal teams',
-      'Secure handling of estate, guardianship, and mineral packets',
-      'Identity verification concierge service',
-      'Need published fees? Visit /pricing for details'
+      'Mineral lease and assignment notarization',
+      'Division order and royalty documentation',
+      'Surface use and right-of-way agreements',
+      'Field service and vendor contract witnessing'
     ],
     icon: Layers
   },
@@ -79,7 +88,7 @@ const services = [
     title: 'Remote Online Notary (RON)',
     subtitle: 'Secure video notarization anywhere',
     description:
-      'Commissioned Oklahoma RON specialists use ID proofing, audit trails, and tamper-evident seals for out-of-state signers.',
+      'Commissioned Oklahoma RON specialists use ID proofing, audit trails, and tamper-evident seals for out-of-state signers and Creek County residents abroad.',
     bullets: [
       'Global signer access with webcam + government ID',
       'Meets lender, title, and oilfield compliance standards',
@@ -145,8 +154,8 @@ const faqs = [
 ];
 
 const stats = [
-  { label: 'Average Sapulpa Response', value: '45 min', icon: Clock },
-  { label: 'Creek County Signers', value: '10+', icon: Users },
+  { label: 'Sapulpa Response', value: '45 min', icon: Clock },
+  { label: 'Sapulpa Population', value: '21,000+', icon: Users },
   { label: 'RON Turnaround', value: 'Same Day', icon: PenTool },
   { label: 'Rural Access Routes Logged', value: '30+', icon: MapPin }
 ];
@@ -158,7 +167,7 @@ const localBusinessSchema = {
   url: canonicalUrl,
   telephone: '(539) 367-6832',
   email: 'info@justlegalsolutions.org',
-  areaServed: cities.map((city) => ({ '@type': 'City', name: `${city}, OK` })),
+  areaServed: cities.map((city) => ({ '@type': 'City', name: `${city.name}, OK` })),
   address: {
     '@type': 'PostalAddress',
     addressLocality: 'Creek County',
@@ -185,7 +194,7 @@ const notaryServiceSchema = {
     url: 'https://justlegalsolutions.org/notary'
   },
   serviceType: ['Mobile Notary', 'Signing Studio', 'Remote Online Notarization'],
-  areaServed: cities.map((name) => ({ '@type': 'AdministrativeArea', name: `${name}, Creek County` })),
+  areaServed: cities.map((city) => ({ '@type': 'City', name: `${city.name}, Creek County` })),
   availableChannel: [
     { '@type': 'ServiceChannel', serviceUrl: canonicalUrl, name: 'Mobile Dispatch' },
     { '@type': 'ServiceChannel', serviceUrl: 'https://justlegalsolutions.org/remote-online-notary', name: 'Remote Online Notary' }
@@ -328,10 +337,13 @@ export default function CreekCountyNotaryPage() {
                 Dispatch routes follow Highway 66, Turner Turnpike, Highway 33, and the Cimarron River corridor so we can provide dependable arrival times for every Creek County notary callout.
               </p>
               <div className="grid grid-cols-2 gap-4">
-                {cities.map((name) => (
-                  <div key={name} className="flex items-center gap-2 bg-white rounded-2xl border border-gray-200 px-4 py-3">
+                {cities.map((city) => (
+                  <div key={city.name} className="flex items-center gap-2 bg-white rounded-2xl border border-gray-200 px-4 py-3">
                     <MapPin className="w-4 h-4 text-emerald-600" />
-                    <span className="text-sm text-gray-800">{name}</span>
+                    <div className="flex flex-col">
+                      <span className="text-sm font-medium text-gray-800">{city.name}</span>
+                      <span className="text-xs text-gray-500">{city.population}{city.note && ` • ${city.note}`}</span>
+                    </div>
                   </div>
                 ))}
               </div>

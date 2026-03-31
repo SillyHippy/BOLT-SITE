@@ -235,7 +235,7 @@ const faqSchema = {
       "name": "Is Joseph Iannazzi bonded and insured?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, Joseph maintains a $10,000 surety bond as required by Oklahoma law and carries Errors & Omissions (E&O) insurance to protect clients. Documentation is available for download on this page."
+        "text": "Yes, Joseph maintains a $10,000 surety bond (increased from $1,000 per SB 1028) as required by 2026 Oklahoma law and carries Errors & Omissions (E&O) insurance to protect clients. Documentation is available for download on this page."
       }
     },
     {
@@ -269,7 +269,7 @@ const credentials = [
   {
     title: "Oklahoma Notary Public Commission",
     icon: Stamp,
-    description: "State of Oklahoma commissioned Notary Public, authorized to perform notarial acts throughout all 77 counties.",
+    description: "State of Oklahoma commissioned Notary Public, authorized to perform notarial acts throughout all 77 counties. Enhanced journal requirements per HB 2265.",
     status: "Active",
     downloadUrl: "/notary-credentials/joseph/Joseph-Iannazzi-Notary-Commission.pdf",
     color: "blue"
@@ -301,7 +301,7 @@ const credentials = [
   {
     title: "Background Screening Verified",
     icon: Shield,
-    description: "Comprehensive background check completed and verified. Clean record ensuring trust and reliability for all notarization services.",
+    description: "National criminal background check completed per SB 1028 requirement. Clean record ensuring trust and reliability for all notarization services.",
     status: "Verified",
     downloadUrl: "/notary-credentials/joseph/Joseph-Iannazzi-Background-Check.pdf",
     color: "slate"
@@ -317,7 +317,7 @@ const credentials = [
   {
     title: "Surety Bond",
     icon: Lock,
-    description: "Fully bonded as required by Oklahoma law. Surety bond protects the public and ensures compliance with state notary requirements.",
+    description: "$10,000 Surety Bond (increased from $1,000 per SB 1028) protecting the public and ensuring compliance with 2026 Oklahoma notary requirements.",
     status: "Bonded",
     downloadUrl: "/notary-credentials/joseph/Joseph-Iannazzi-Notary-Information-Package.pdf",
     color: "indigo"
@@ -325,9 +325,9 @@ const credentials = [
 ];
 
 const trustSignals = [
-  { icon: Shield, text: "Licensed & Bonded", description: "Fully bonded as required by Oklahoma law" },
+  { icon: Shield, text: "Licensed & Bonded", description: "$10,000 surety bond per SB 1028" },
   { icon: Lock, text: "Secure & Confidential", description: "Your documents handled with strict confidentiality" },
-  { icon: CheckCircle, text: "Background Checked", description: "Verified and trusted professional" },
+  { icon: CheckCircle, text: "Background Checked", description: "National criminal background check (SB 1028)" },
   { icon: Star, text: "5-Star Service", description: "Committed to excellence in every notarization" }
 ];
 
@@ -343,7 +343,7 @@ const credentialFaqs = [
   },
   {
     question: "Is Joseph Iannazzi bonded and insured?",
-    answer: "Yes, Joseph maintains a $10,000 surety bond as required by Oklahoma law and carries Errors & Omissions (E&O) insurance to protect clients. Documentation is available for download on this page."
+    answer: "Yes, Joseph maintains a $10,000 surety bond (increased from $1,000 per SB 1028) as required by 2026 Oklahoma law and carries Errors & Omissions (E&O) insurance to protect clients. Documentation is available for download on this page."
   },
   {
     question: "What credentials does Joseph have for loan signings?",

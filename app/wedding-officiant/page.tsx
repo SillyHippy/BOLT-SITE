@@ -22,13 +22,13 @@ import {
 const canonicalUrl = 'https://justlegalsolutions.org/wedding-officiant';
 
 export const metadata: Metadata = {
-  title: 'Oklahoma Wedding Officiant | Tulsa Marriage Services | Just Legal Solutions',
+  title: 'Wedding Officiant Tulsa Oklahoma | Ordained Minister Since 2017 | Just Legal Solutions',
   description:
-    'Ordained wedding officiant Joseph W. Iannazzi delivers heartfelt ceremonies across Tulsa, Creek, Wagoner, Osage, and all Oklahoma counties. Courthouse weddings, elopements, vow renewals, and custom scripts with flexible scheduling. Call (539) 367-6832 or email info@justlegalsolutions.org.',
+    'Professional wedding officiant services in Oklahoma. Ordained minister since 2017 serving Tulsa County and beyond. Personalized ceremonies for your special day.',
   openGraph: {
-    title: 'Ordained Oklahoma Wedding Officiant | Just Legal Solutions',
+    title: 'Wedding Officiant Tulsa Oklahoma | Ordained Minister Since 2017',
     description:
-      'Since 2017 Joseph W. Iannazzi has officiated courthouse ceremonies, elopements, and intimate weddings throughout Oklahoma. Licensed, professional, and available with short notice.',
+      'Professional wedding officiant services in Oklahoma. Ordained minister since 2017 serving Tulsa County and beyond. Call (539) 367-6832.',
     url: canonicalUrl,
     siteName: 'Just Legal Solutions',
     images: [
@@ -44,9 +44,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Oklahoma Wedding Officiant | Just Legal Solutions',
+    title: 'Wedding Officiant Tulsa Oklahoma | Ordained Minister Since 2017',
     description:
-      'Tulsa-area ordained officiant for modern ceremonies, elopements, and vow renewals. Contact Just Legal Solutions for availability.',
+      'Professional wedding officiant services in Oklahoma. Ordained minister since 2017 serving Tulsa County and beyond. Call (539) 367-6832.',
     images: ['https://justlegalsolutions.org/images/wedding-officiant-og.jpg']
   },
   alternates: {
@@ -215,13 +215,19 @@ const services = [
     description:
       'Celebrate milestones with new vows, unity rituals, and optional readings tailored to your story.',
     icon: Sparkles
+  },
+  {
+    title: 'Marriage Document Notarization',
+    description:
+      'Integrated notary services for marriage license notarization, name change documents, and prenuptial agreement acknowledgments—all handled by the same professional who officiates your ceremony.',
+    icon: Feather
   }
 ];
 
 const benefits = [
   {
     title: 'Ordained & Documented',
-    detail: 'Ordained April 30, 2017 via The Monastery with verifiable certificate for complete peace of mind.',
+    detail: 'Ordained April 30, 2017 via The Monastery with verifiable ordination certificate for complete peace of mind.',
     icon: BadgeCheck
   },
   {
@@ -230,8 +236,8 @@ const benefits = [
     icon: Shield
   },
   {
-    title: 'Notary Advantage',
-    detail: 'Licensed Oklahoma notary capable of notarizing name change forms, prenuptial acknowledgments, and wedding affidavits.',
+    title: 'Integrated Notary Services',
+    detail: 'Licensed Oklahoma notary capable of notarizing marriage licenses, name change forms, prenuptial acknowledgments, and wedding affidavits—seamlessly combined with your ceremony.',
     icon: Feather
   },
   {
@@ -270,7 +276,7 @@ export default function WeddingOfficiantPage() {
                   </span>
                 </h1>
                 <p className="text-lg md:text-xl text-rose-50/90 max-w-2xl mb-8">
-                  Joseph W. Iannazzi of Just Legal Solutions creates modern, heartfelt ceremonies for courthouse weddings, elopements, intimate celebrations, and vow renewals. Licensed officiant, seasoned notary, and legal professional ready to guide you through every step.
+                  Joseph W. Iannazzi of Just Legal Solutions creates modern, heartfelt ceremonies for courthouse weddings, elopements, intimate celebrations, and vow renewals. Licensed officiant since 2017, seasoned notary, and legal professional ready to guide you through every step—including marriage license notarization, name change documents, and prenuptial acknowledgments.
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <a

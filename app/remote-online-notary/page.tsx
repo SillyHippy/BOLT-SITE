@@ -27,9 +27,9 @@ import {
 const canonicalUrl = 'https://justlegalsolutions.org/remote-online-notary';
 
 export const metadata: Metadata = {
-  title: 'Remote Online Notary Oklahoma | Oklahoma RON Experts | Just Legal Solutions',
+  title: 'Remote Online Notary Oklahoma | Tulsa County RON Services | 24/7 Virtual Notary',
   description:
-    'Remote online notary services for Oklahoma residents and Oklahoma-connected documents. Verify identity, sign through secure video, and receive notarized files without leaving home. Serving Glenpool, Tulsa, and nationwide clients who need compliant Oklahoma RON support.',
+    'Secure remote online notarization (RON) for Oklahoma residents and businesses. Commissioned Oklahoma notaries available via live video 24/7. Notarize documents from anywhere in the world.',
   keywords:
     'Remote Online Notary Oklahoma, Oklahoma RON, virtual notary Oklahoma, online notary Oklahoma, remote online notary Tulsa, Oklahoma RON notary, online notary for real estate Oklahoma, video notary Oklahoma, online notary for power of attorney Oklahoma',
   authors: [{ name: 'Just Legal Solutions RON Team' }],
@@ -77,24 +77,24 @@ export const metadata: Metadata = {
 
 const legalFrameworkPoints = [
   {
-    title: 'Title 49 Compliance',
+    title: '49 O.S. § 201 et seq. Compliance',
     detail:
-      'Oklahoma Title 49, Sections 201-214, governs remote online notarization. The law allowing audiovisual sessions became effective January 1, 2020, giving residents a clear legal pathway to complete notarizations without appearing in person.'
+      'Oklahoma&apos;s Remote Online Notarization Act (49 O.S. § 201 et seq.), effective January 1, 2020, authorizes commissioned notaries to perform notarial acts via two-way audiovisual technology. Our sessions follow statutory requirements for identity proofing, electronic journaling, and tamper-evident certificates.'
   },
   {
-    title: 'Identity Proofing & Credential Analysis',
+    title: 'Multi-Factor Identity Verification',
     detail:
-      'Two-step identity proofing is mandatory: knowledge-based authentication (KBA) and credential analysis of a government-issued ID. Our platform verifies multi-layer data points before the session begins.'
+      'RON security surpasses traditional notarization: multi-factor authentication combines knowledge-based questions from credit bureaus with credential analysis of government-issued IDs. Compare this to single-factor visual inspection used in traditional settings.'
   },
   {
-    title: 'Approved Technology Stack',
+    title: 'Cryptographic Sealing & Certificates',
     detail:
-      'We use tamper-evident eSeals, X.509 digital certificates, secure video with TLS 1.2+, and redundant cloud storage. The platform meets or exceeds Oklahoma SOS guidance, National Notary Association benchmarks, and MISMO standards for mortgage files.'
+      'Every notarized document receives a cryptographic seal with X.509 digital certificate, ensuring any post-signing tampering is immediately detectable. Our state-approved technology platform exceeds Oklahoma Secretary of State RON requirements and MISMO mortgage standards.'
   },
   {
-    title: 'Recording & Retention',
+    title: 'Encrypted Session Recording & 10-Year Retention',
     detail:
-      'Each session is recorded in full HD with multi-channel audio. Files are encrypted, indexed, and retained for a minimum of 10 years per Title 49, providing audit-ready evidence for lenders, courts, or regulators.'
+      'Full HD video with multi-channel audio is encrypted and retained for 7-10 years per statutory requirements. This exceeds single-factor traditional notarization which has no recording. Audit-ready evidence available for courts, lenders, and regulators.'
   }
 ];
 
@@ -220,15 +220,15 @@ const benefitsComparison = [
   },
   {
     criteria: 'Geographic Flexibility',
-    ron: 'Sign from anywhere with internet while keeping Oklahoma jurisdiction.',
+    ron: 'Signer anywhere in the world; notary physically in Oklahoma.',
     traditional: 'Signer must appear physically in Oklahoma notary office.',
     mobile: 'Notary travels in-state only; unavailable for overseas clients.'
   },
   {
     criteria: 'Identity Proofing',
-    ron: 'Multi-factor KBA + credential analysis documented in audit log.',
-    traditional: 'Visual ID inspection only; minimal digital record.',
-    mobile: 'Visual inspection plus handwritten journal entry.'
+    ron: 'Multi-factor auth (KBA + credential analysis) vs single-factor visual inspection.',
+    traditional: 'Single-factor visual ID inspection only; minimal digital record.',
+    mobile: 'Single-factor visual inspection plus handwritten journal entry.'
   },
   {
     criteria: 'Cost Structure',
@@ -238,8 +238,8 @@ const benefitsComparison = [
   },
   {
     criteria: 'Recording & Evidence',
-    ron: 'Full video + audio retained for 10 years, satisfying litigation needs.',
-    traditional: 'No audiovisual record; relies on notary testimony.',
+    ron: 'Cryptographic sealing + full video retained 7-10 years for litigation.',
+    traditional: 'No audiovisual record; relies on notary testimony alone.',
     mobile: 'No recording; only paper journal and witness recollections.'
   },
   {
@@ -254,9 +254,9 @@ const faqItems = [
   {
     question: 'Is Oklahoma remote online notarization legal and recognized nationwide?',
     answer:
-      'Yes. Title 49 of the Oklahoma Statutes authorized remote online notarization effective January 1, 2020. Once properly notarized by an Oklahoma RON notary, the document carries the same legal weight throughout the United States thanks to the Full Faith and Credit Clause and the Uniform Electronic Transactions Act.',
+      'Yes. 49 O.S. § 201 et seq. (the Oklahoma Remote Online Notarization Act) authorized RON effective January 1, 2020. Once properly notarized by an Oklahoma RON-authorized notary, the document carries the same legal weight throughout the United States thanks to the Full Faith and Credit Clause and the Uniform Electronic Transactions Act.',
     answerRich:
-      'Yes. Title 49 of the Oklahoma Statutes authorized remote online notarization effective January 1, 2020. Once properly notarized by an Oklahoma RON notary, the document carries the same legal weight throughout the United States thanks to the Full Faith and Credit Clause and the Uniform Electronic Transactions Act.'
+      'Yes. 49 O.S. § 201 et seq. (the Oklahoma Remote Online Notarization Act) authorized RON effective January 1, 2020. Once properly notarized by an Oklahoma RON-authorized notary, the document carries the same legal weight throughout the United States thanks to the Full Faith and Credit Clause and the Uniform Electronic Transactions Act.'
   },
   {
     question: 'Can multiple signers join from different locations?',
@@ -351,14 +351,24 @@ const serviceSchema = {
   url: canonicalUrl,
   telephone: '(539) 367-6832',
   email: 'info@justlegalsolutions.org',
+  description: 'Secure remote online notarization (RON) for Oklahoma residents and businesses. Commissioned Oklahoma notaries available via live video 24/7. Signer anywhere in the world, notary physically in Oklahoma.',
   provider: {
     '@type': 'Organization',
-    name: 'Just Legal Solutions'
+    name: 'Just Legal Solutions',
+    telephone: '(539) 367-6832'
   },
   areaServed: [
     { '@type': 'State', name: 'Oklahoma' },
+    { '@type': 'AdministrativeArea', name: 'Tulsa County' },
     { '@type': 'Country', name: 'United States' }
   ],
+  availableChannel: {
+    '@type': 'ServiceChannel',
+    serviceType: 'Remote Online Notarization',
+    availableLanguage: 'English',
+    serviceUrl: canonicalUrl
+  },
+  termsOfService: '49 O.S. § 201 et seq. (Oklahoma Remote Online Notarization Act, effective January 1, 2020)',
   hasOfferCatalog: {
     '@type': 'OfferCatalog',
     name: 'Remote Online Notary Packages',
@@ -366,53 +376,83 @@ const serviceSchema = {
       {
         '@type': 'Offer',
         name: 'Standard RON Session',
-        description: 'Single-document package including identity proofing, recording retention, and delivery. Contact us for current rates.'
+        description: 'Single-document package with multi-factor identity verification, cryptographic sealing, encrypted session recording, and 7-10 year retention.'
       },
       {
         '@type': 'Offer',
         name: 'Real Estate RON Closing',
-        description: 'Full lender packet support with coordination and delivery. Request a quote for complex transactions.'
+        description: 'Full lender packet support with state-approved technology platform, multi-factor authentication, and secure delivery.'
       },
       {
         '@type': 'Offer',
         name: 'Enterprise / Law Firm RON',
-        description: 'Volume pricing for recurring transactions and integrated process serving. Reach out for tailored pricing.'
+        description: 'Volume pricing for recurring transactions with Oklahoma Secretary of State RON authorized notaries and integrated process serving.'
       }
     ]
   },
   serviceType: [
     'remote online notary Oklahoma',
     'virtual notary Oklahoma',
-    'online notary Tulsa'
+    'online notary Tulsa',
+    'RON services Tulsa County',
+    '24/7 virtual notary'
   ],
-  address: {
-    '@type': 'PostalAddress',
-    addressLocality: 'Glenpool',
-    addressRegion: 'OK',
-    postalCode: '74033',
-    addressCountry: 'US'
-  }
+  additionalProperty: [
+    {
+      '@type': 'PropertyValue',
+      name: 'Authorization',
+      value: 'Oklahoma Secretary of State RON Authorized'
+    },
+    {
+      '@type': 'PropertyValue',
+      name: 'Technology',
+      value: 'State-Approved Technology Platform'
+    },
+    {
+      '@type': 'PropertyValue',
+      name: 'Identity Verification',
+      value: 'Multi-Factor Identity Verification'
+    },
+    {
+      '@type': 'PropertyValue',
+      name: 'Security',
+      value: 'Encrypted Session Recording with Cryptographic Sealing'
+    },
+    {
+      '@type': 'PropertyValue',
+      name: 'Retention',
+      value: '7-10 Year Recording Retention'
+    },
+    {
+      '@type': 'PropertyValue',
+      name: 'Geographic Coverage',
+      value: 'Signer anywhere in the world, notary physically in Oklahoma'
+    },
+    {
+      '@type': 'PropertyValue',
+      name: 'Legal Authority',
+      value: '49 O.S. § 201 et seq. (RON Act, effective January 1, 2020)'
+    }
+  ]
 };
 
 const localBusinessSchema = {
   '@context': 'https://schema.org',
-  '@type': 'LocalBusiness',
+  '@type': 'ProfessionalService',
+  '@id': canonicalUrl,
   name: 'Just Legal Solutions - Remote Online Notary',
+  description: 'Secure remote online notarization (RON) for Oklahoma residents and businesses. Oklahoma Secretary of State RON Authorized. Signer anywhere in the world, notary physically in Oklahoma.',
   image: 'https://justlegalsolutions.org/images/ron-hero.webp',
   url: canonicalUrl,
   telephone: '(539) 367-6832',
   email: 'info@justlegalsolutions.org',
-  address: {
-    '@type': 'PostalAddress',
-    addressLocality: 'Glenpool',
-    addressRegion: 'OK',
-    postalCode: '74033',
-    addressCountry: 'US'
-  },
-  geo: {
-    '@type': 'GeoCoordinates',
-    latitude: 35.9552,
-    longitude: -96.0013
+  areaServed: {
+    '@type': 'State',
+    name: 'Oklahoma',
+    containsPlace: {
+      '@type': 'AdministrativeArea',
+      name: 'Tulsa County'
+    }
   },
   openingHoursSpecification: [
     {
@@ -431,6 +471,21 @@ const localBusinessSchema = {
     }
   ],
   sameAs: ['https://www.facebook.com/JustLegalSolutions', 'https://www.linkedin.com/company/just-legal-solutions'],
+  hasCredential: {
+    '@type': 'EducationalOccupationalCredential',
+    credentialCategory: 'RON Authorization',
+    recognizedBy: {
+      '@type': 'GovernmentOrganization',
+      name: 'Oklahoma Secretary of State'
+    }
+  },
+  knowsAbout: [
+    '49 O.S. § 201 et seq.',
+    'Oklahoma Remote Online Notarization Act',
+    'Multi-Factor Identity Verification',
+    'Cryptographic Sealing',
+    'State-Approved RON Technology'
+  ],
   makesOffer: serviceSchema
 };
 
@@ -496,7 +551,7 @@ const RemoteOnlineNotaryPage = () => {
             
             {/* Subheadline */}
             <p className="mt-6 text-xl text-white/90 max-w-3xl">
-              Commissioned Oklahoma notaries notarizing your documents via secure live video from anywhere with internet access. Title 49 compliant since January 1, 2020.
+              Commissioned Oklahoma notaries notarizing your documents via secure live video from anywhere with internet access. Authorized under 49 O.S. § 201 et seq. (RON Act, effective January 1, 2020).
             </p>
 
             {/* Trust Badges - Horizontal Row */}
@@ -514,9 +569,17 @@ const RemoteOnlineNotaryPage = () => {
                 <span>Multi-Factor Identity Verification</span>
               </div>
               <div className="flex items-center gap-2">
-                <Clock className="h-5 w-5 text-emerald-200" />
-                <span>24/7 Availability</span>
+                <Globe className="h-5 w-5 text-emerald-200" />
+                <span>Encrypted Session Recording</span>
               </div>
+            </div>
+
+            {/* Geographic Flexibility Callout */}
+            <div className="mt-6 rounded-xl bg-white/10 p-4 backdrop-blur max-w-2xl">
+              <p className="text-emerald-100 font-medium">
+                <Globe className="inline h-4 w-4 mr-2" />
+                Signer anywhere in the world — notary physically in Oklahoma
+              </p>
             </div>
 
             {/* CTA Buttons */}
@@ -553,7 +616,7 @@ const RemoteOnlineNotaryPage = () => {
               </div>
               <div className="rounded-xl bg-white/10 p-5 backdrop-blur">
                 <p className="text-white/70 text-sm">Recording Retention</p>
-                <p className="mt-1 text-xl font-bold">10+ Years</p>
+                <p className="mt-1 text-xl font-bold">7-10 Years</p>
               </div>
             </div>
           </div>
@@ -563,16 +626,16 @@ const RemoteOnlineNotaryPage = () => {
           <div className="space-y-6 text-lg leading-8 text-slate-300">
             <h2 className="text-3xl font-bold text-white">Oklahoma Remote Online Notary Legal Framework</h2>
             <p>
-              Remote online notary Oklahoma services operate under Title 49 of the Oklahoma Statutes, with the enabling law taking effect on January 1, 2020. That date matters because courts, lenders, and federal agencies want proof that your virtual notarization followed the highest standard in force. To stay ahead, we cross-reference the <a href="https://law.justia.com/codes/oklahoma/title-49/" target="_blank" rel="noopener noreferrer" className="text-emerald-400 underline">Justia Title 49 resource</a> before every policy update and align our workflows with the Secretary of State guidance memos.
+              Remote online notary Oklahoma services operate under 49 O.S. § 201 et seq. (the Oklahoma Remote Online Notarization Act), with the enabling law taking effect on January 1, 2020. That date matters because courts, lenders, and federal agencies want proof that your virtual notarization followed the highest standard in force. To stay ahead, we cross-reference the <a href="https://law.justia.com/codes/oklahoma/title-49/" target="_blank" rel="noopener noreferrer" className="text-emerald-400 underline">Justia Title 49 resource</a> before every policy update and align our workflows with the Secretary of State guidance memos.
             </p>
             <p>
-              Title 49 requires identity proofing through knowledge-based authentication (KBA) plus credential analysis. We go beyond the minimum by layering device fingerprinting, IP geolocation, and sanction screening when the document will be scrutinized by a court or a lender. Every signer must answer dynamic KBA questions sourced from credit header files; failure triggers an automatic pause so the integrity of the session is preserved.
+              The RON Act requires multi-factor identity verification through knowledge-based authentication (KBA) plus credential analysis—a significant upgrade from single-factor visual inspection used in traditional notarization. We go beyond the minimum by layering device fingerprinting, IP geolocation, and sanction screening when the document will be scrutinized by a court or a lender. Every signer must answer dynamic KBA questions sourced from credit header files; failure triggers an automatic pause so the integrity of the session is preserved.
             </p>
             <p>
-              Approved technology is central to the statute. Our platform employs TLS 1.2+ encrypted video, tamper-evident signatures, and X.509 digital certificates so your RON session is ready for MISMO and CFPB audits. The system also integrates with <Link href="/notary-faqs" className="text-emerald-400 underline">educational resources</Link> and client portals for streamlined onboarding.
+              State-approved technology is central to the statute. Our platform employs TLS 1.2+ encrypted video, cryptographic sealing with X.509 digital certificates, and tamper-evident signatures so your RON session is ready for MISMO and CFPB audits. The system also integrates with <Link href="/notary-faqs" className="text-emerald-400 underline">educational resources</Link> and client portals for streamlined onboarding.
             </p>
             <p>
-              Recording retention might be the most overlooked piece. Oklahoma mandates retaining audio-video files and electronic journals for at least ten years. We exceed that baseline with redundant cloud storage, blockchain-backed hashing, and granular access logs. Should litigators, agencies, or lenders question a document years later, we can provide the entire compliance packet within hours.
+              Recording retention might be the most overlooked piece. Oklahoma mandates retaining encrypted session recordings and electronic journals for 7-10 years. We exceed that baseline with redundant cloud storage, blockchain-backed hashing, and granular access logs. Should litigators, agencies, or lenders question a document years later, we can provide the entire compliance packet within hours.
             </p>
             <div className="grid gap-6 md:grid-cols-2">
               {legalFrameworkPoints.map((point) => (

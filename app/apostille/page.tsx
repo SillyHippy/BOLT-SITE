@@ -21,29 +21,29 @@ import {
 const canonicalUrl = 'https://justlegalsolutions.org/apostille';
 
 export const metadata: Metadata = {
-  title: 'Oklahoma Apostille Services | International Document Authentication',
+  title: 'Apostille Services Oklahoma | Document Authentication Tulsa | International Notary',
   description:
-    'Just Legal Solutions manages Oklahoma apostille services for birth certificates, marriage certificates, diplomas, corporate records, and court documents. We handle notarization, Secretary of State submissions, and global delivery for all 77 counties.',
+    'Professional apostille and document authentication services in Oklahoma. Prepare notarized documents for international use with proper Hague Convention certification.',
   alternates: { canonical: canonicalUrl },
   openGraph: {
-    title: 'Oklahoma Apostille Services | Just Legal Solutions',
+    title: 'Apostille Services Oklahoma | Document Authentication Tulsa',
     description:
-      'Full-service apostille processing for Oklahoma documents. We guide you from notarization to Secretary of State authentication so your paperwork is accepted overseas.',
+      'Professional apostille and document authentication services in Oklahoma. Prepare notarized documents for international use with proper Hague Convention certification.',
     url: canonicalUrl,
     siteName: 'Just Legal Solutions',
     type: 'website'
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Oklahoma Apostille Services',
-    description: 'International document authentication for every Oklahoma county with expedited Secretary of State handling.'
+    title: 'Apostille Services Oklahoma | Document Authentication Tulsa',
+    description: 'Professional apostille services under the Hague Convention of 1961. Accepted in 120+ member countries. Call (539) 367-6832.'
   }
 };
 
 const heroStats = [
+  { label: 'Hague Convention Countries', value: '120+' },
   { label: 'Counties Served', value: '77' },
   { label: 'Daily SOS Drop-Offs', value: 'Yes' },
-  { label: 'Documents Guided Each Month', value: '100+' },
   { label: 'Client Satisfaction', value: '4.9★' }
 ];
 
@@ -81,22 +81,27 @@ const valueProps = [
 
 const howToSteps = [
   {
-    title: 'Secure certified documents',
+    title: 'Review & Notarize',
     description:
-      'Request certified copies from the issuing vital records office, court clerk, university registrar, or corporate records custodian so the apostille verifies an official document.'
+      'We review your documents for eligibility and coordinate notarization through our in-house team or verify your existing notary certificate meets apostille requirements.'
   },
   {
-    title: 'Complete notarization (when required)',
+    title: 'Prepare Forms',
     description:
-      'Many documents must be notarized before they can be apostilled. We coordinate Oklahoma notarization through our in-house team or review the certificate you already have.'
+      'Just Legal Solutions prepares the apostille cover letter, authentication request forms, and organizes your document packet for submission.'
   },
   {
-    title: 'Oklahoma Secretary of State apostille',
+    title: 'Submit to Secretary of State',
     description:
-      'Just Legal Solutions prepares the apostille cover letter, hand-carries or priority mails the packet, and obtains the state-issued apostille seal for Oklahoma documents.'
+      'We hand-carry or priority mail your packet to the Oklahoma Secretary of State Authentication Unit and manage all interactions on your behalf.'
   },
   {
-    title: 'Delivery for international use',
+    title: 'Track & Retrieve',
+    description:
+      'We monitor your submission status with proactive updates at each milestone and retrieve your apostilled documents once the state seal is applied.'
+  },
+  {
+    title: 'Deliver',
     description:
       'We return your apostilled originals via pick-up, courier, or overnight shipping so you can present them abroad with confidence and tracked custody.'
   }
@@ -282,10 +287,10 @@ export default function ApostillePage() {
                 Oklahoma Apostille Services for International Document Use
               </h1>
               <p className="text-lg text-indigo-100 mb-6">
-                An apostille is the official authentication that proves your document&apos;s signature and seal are legitimate so it can be accepted overseas under the Hague Convention. We manage every step—document intake, notarization, Oklahoma Secretary of State submission, and tracked delivery back to you.
+                An apostille is the official authentication issued under the Hague Convention of 1961 that proves your document&apos;s signature and seal are legitimate so it can be accepted in over 120 member countries worldwide. We manage every step—document intake, notarization, Oklahoma Secretary of State submission, and tracked delivery back to you.
               </p>
               <p className="text-indigo-100 mb-8">
-                Just Legal Solutions supports families, law firms, corporations, and schools across all 77 Oklahoma counties. Whether you are sending a birth certificate to Spain, a diploma to South Korea, or a power of attorney to Mexico, our team keeps the process simple and secure.
+                Just Legal Solutions supports families, law firms, corporations, and schools across all 77 Oklahoma counties. Whether you are sending a birth certificate to Spain, a diploma to South Korea, or a power of attorney to Mexico, our team keeps the process simple and secure under Hague Convention standards.
               </p>
               <div className="flex flex-wrap gap-4">
                 <a
@@ -386,12 +391,12 @@ export default function ApostillePage() {
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-10">
               <p className="text-indigo-600 font-semibold uppercase tracking-wide text-sm">Step-by-step guidance</p>
-              <h2 className="text-3xl font-bold text-slate-900 mb-3">Document → Notary → Secretary of State → Delivery</h2>
+              <h2 className="text-3xl font-bold text-slate-900 mb-3">Review/Notarize → Prepare Forms → Submit to Secretary of State → Track/Retrieve → Deliver</h2>
               <p className="text-slate-600 max-w-3xl mx-auto">
-                Our How-To framework keeps your originals moving. Whether you are down the street from the capitol or across the globe, we coordinate every handoff so you never have to stand in line at the Secretary of State.
+                Our five-step process keeps your originals moving under Hague Convention of 1961 standards. Whether you are down the street from the capitol or across the globe, we coordinate every handoff so you never have to stand in line at the Secretary of State.
               </p>
             </div>
-            <div className="grid md:grid-cols-4 gap-6">
+            <div className="grid md:grid-cols-5 gap-6">
               {howToSteps.map((step, index) => (
                 <div
                   key={step.title}

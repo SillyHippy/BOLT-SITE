@@ -28,9 +28,9 @@ import {
 const canonicalUrl = 'https://justlegalsolutions.org/mobile-notary';
 
 export const metadata: Metadata = {
-  title: 'Mobile Notary Glenpool & Tulsa Metro | 24/7 Hospital, Jail, Loan Signing Support',
+  title: 'Mobile Notary Services Oklahoma | Tulsa County Traveling Notary | 24/7 Availability',
   description:
-    'Just Legal Solutions delivers 24/7 mobile notary coverage from Glenpool across Tulsa, Broken Arrow, Bixby, Jenks, Sapulpa, Sand Springs, Owasso, and Collinsville. Hospital notarizations, jail and detention signings, real estate loan closings, estate plans, and emergency travel documents backed by licensed, bonded, and insured Oklahoma professionals. Call (539) 367-6832.',
+    'Professional mobile notary services throughout Oklahoma and Tulsa County. Licensed, bonded Oklahoma notaries come to your location—home, office, hospital, or courthouse. Same-day appointments available.',
   keywords:
     'mobile notary Glenpool, Tulsa mobile notary, hospital notary Tulsa, jail notarization Oklahoma, loan signing agent Glenpool, 24/7 notary, Creek County notary, Wagoner County notary, Osage County notary, Tulsa County notary, emergency notary Oklahoma, remote notary Oklahoma',
   authors: [{ name: 'Just Legal Solutions' }],
@@ -232,20 +232,24 @@ const differentiators = [
 
 const trustBadges = [
   {
-    title: 'Oklahoma Commissioned',
-    detail: 'Active commission renewed through the Oklahoma Secretary of State with clear journal and seal compliance.'
+    title: '$10,000 Surety Bond (2026 Requirement)',
+    detail: 'Compliant with Oklahoma SB 1028 requiring $10,000 surety bond effective 2026—we meet this standard now to protect your transactions.'
   },
   {
-    title: 'Bonded & Insured',
-    detail: '$1M E&O coverage plus statutory notary bond ensure your files are protected even when travel involves high-value transactions.'
+    title: 'Background Screened (SB 1028)',
+    detail: 'Criminal background screening per Oklahoma SB 1028 requirements. Annual verification through NNA and federal contractor databases for detention access.'
   },
   {
-    title: 'Background Checked',
-    detail: 'Annual screening through the National Notary Association and federal contractor databases for detention access.'
+    title: 'E&O Insured',
+    detail: '$1M Errors & Omissions coverage protects your files even when travel involves high-value transactions. Exceeds statutory minimums.'
+  },
+  {
+    title: 'NNA Certified',
+    detail: 'National Notary Association certified with continuing education, background screening, and adherence to best practices beyond state requirements.'
   },
   {
     title: 'RON Certified',
-    detail: 'Remote online notarization platform vetting allows statewide and international clients to sign securely when travel is impossible.'
+    detail: 'Remote online notarization credentials per 49 O.S. § 101 et seq. allowing statewide and international clients to sign securely when travel is impossible.'
   }
 ];
 
@@ -259,9 +263,9 @@ const faqs: FAQItem[] = [
   {
     question: 'How quickly can a mobile notary reach my Tulsa or Glenpool location?',
     answer:
-      'Most Tulsa County calls are scheduled within two hours thanks to our strategic central location. For extreme emergencies—such as a hospital bedside power of attorney—call (539) 367-6832 and we will confirm ETA in real time.',
+      'Most Tulsa County calls are scheduled within two hours thanks to our strategic central location. For extreme emergencies—such as a hospital bedside power of attorney—call (539) 367-6832 and we will confirm ETA in real time. All notaries are background-screened per SB 1028 and carry the $10,000 surety bond required by 2026 Oklahoma law.',
     schemaAnswer:
-      'Most Tulsa County calls are scheduled within two hours thanks to our strategic central location. For extreme emergencies—such as a hospital bedside power of attorney—call (539) 367-6832 and we will confirm ETA in real time.'
+      'Most Tulsa County calls are scheduled within two hours. For emergencies, call (539) 367-6832. All notaries are background-screened per SB 1028 and carry the $10,000 surety bond required by 2026 Oklahoma law.'
   },
   {
     question: 'Do you handle hospital signings and what should families prepare?',
@@ -287,9 +291,9 @@ const faqs: FAQItem[] = [
   {
     question: 'Do you offer remote online notarization (RON)?',
     answer:
-      'Yes. When signers are out of state or quarantined, we schedule RON sessions using Oklahoma-approved platforms. The statutory fee is $25 per act, and we still verify ID, audio-video quality, and platform audit trails before releasing the completed documents.',
+      'Yes. Per 49 O.S. § 101 et seq., we offer RON sessions using Oklahoma Secretary of State-approved platforms. The statutory fee is $25 per act. We verify ID through knowledge-based authentication, maintain audio-video recordings as required by Oklahoma law, and ensure platform audit trails before releasing completed documents.',
     schemaAnswer:
-      'Yes. When signers are out of state or quarantined, we schedule remote online notarization sessions using Oklahoma-approved platforms. The statutory fee is $25 per act, and we still verify ID, audio-video quality, and platform audit trails before releasing the completed documents.'
+      'Yes. Per 49 O.S. § 101 et seq., we offer RON sessions using Oklahoma Secretary of State-approved platforms. The statutory fee is $25 per act with full ID verification, audio-video recording, and audit trail compliance.'
   },
   {
     question: 'What if I need witnesses?',
@@ -308,9 +312,9 @@ const faqs: FAQItem[] = [
   {
     question: 'What identification is acceptable for Oklahoma notarizations?',
     answer:
-      'Oklahoma allows government-issued photo identification such as driver licenses, passports, military IDs, or tribal IDs. If the signer lacks ID, we can use credible witnesses who know the signer personally, provided they carry valid ID themselves.',
+      'Under 49 O.S. § 101 et seq., Oklahoma allows government-issued photo identification such as driver licenses, passports, military IDs, or tribal IDs. If the signer lacks ID, we can use credible witnesses who know the signer personally, provided they carry valid ID themselves. Our notaries comply with 2026 HB 2265 identification standards.',
     schemaAnswer:
-      'Oklahoma allows government-issued photo identification such as driver licenses, passports, military IDs, or tribal IDs. If the signer lacks ID, we can use credible witnesses who know the signer personally, provided they carry valid ID themselves.'
+      'Under 49 O.S. § 101 et seq., Oklahoma allows government-issued photo identification such as driver licenses, passports, military IDs, or tribal IDs. If the signer lacks ID, credible witnesses may be used. Compliant with 2026 HB 2265 identification standards.'
   },
   {
     question: 'Can attorneys and lenders integrate this service with process serving?',
@@ -349,9 +353,12 @@ const notaryServiceSchema = {
   image: 'https://justlegalsolutions.org/images/notary-mobile-og.jpg',
   telephone: '+1-539-367-6832',
   email: 'info@justlegalsolutions.org',
+  description: 'Professional mobile notary services throughout Oklahoma and Tulsa County. Licensed, bonded Oklahoma notaries come to your location. Same-day appointments available.',
+  slogan: '$10,000 Surety Bonded | Background Screened | E&O Insured | NNA Certified',
   provider: {
     '@type': 'Organization',
-    name: 'Just Legal Solutions'
+    name: 'Just Legal Solutions',
+    description: 'Oklahoma mobile notary service compliant with 2026 notary law requirements including SB 1028 background screening and HB 2265 standards.'
   },
   serviceType: [
     'Mobile notary',
@@ -361,6 +368,10 @@ const notaryServiceSchema = {
     'Remote online notarization'
   ],
   areaServed: [
+    {
+      '@type': 'State',
+      name: 'Oklahoma'
+    },
     'Tulsa County',
     'Creek County',
     'Wagoner County',
@@ -375,12 +386,29 @@ const notaryServiceSchema = {
     'Owasso',
     'Collinsville'
   ],
+  hasCredential: [
+    {
+      '@type': 'EducationalOccupationalCredential',
+      credentialCategory: 'license',
+      name: 'Oklahoma Notary Commission',
+      recognizedBy: {
+        '@type': 'GovernmentOrganization',
+        name: 'Oklahoma Secretary of State'
+      }
+    },
+    {
+      '@type': 'EducationalOccupationalCredential',
+      credentialCategory: 'certification',
+      name: 'NNA Certified Notary Signing Agent'
+    }
+  ],
   availableServiceChannel: [
     {
       '@type': 'ServiceChannel',
       serviceUrl: 'https://justlegalsolutions.org/contact'
     }
   ],
+  termsOfService: 'Compliant with Oklahoma notary law 49 O.S. § 101 et seq., SB 1028, and HB 2265',
   sameAs: ['https://justlegalsolutions.org/notary', 'https://www.facebook.com/justlegalsolutions'],
   aggregateRating: {
     '@type': 'AggregateRating',
@@ -518,10 +546,12 @@ export default function MobileNotaryPage() {
                     <Mail className="w-5 h-5 mr-2" /> info@justlegalsolutions.org
                   </a>
                 </div>
-                <div className="flex flex-wrap gap-6 text-sm text-blue-100">
-                  <div className="flex items-center"><Shield className="w-5 h-5 mr-2 text-blue-300" /> Licensed & Bonded</div>
+                <div className="flex flex-wrap gap-4 text-sm text-blue-100">
+                  <div className="flex items-center"><Shield className="w-5 h-5 mr-2 text-blue-300" /> $10,000 Surety Bond</div>
+                  <div className="flex items-center"><CheckCircle className="w-5 h-5 mr-2 text-blue-300" /> Background Screened (SB 1028)</div>
+                  <div className="flex items-center"><Award className="w-5 h-5 mr-2 text-blue-300" /> E&amp;O Insured</div>
+                  <div className="flex items-center"><Star className="w-5 h-5 mr-2 text-blue-300" /> NNA Certified</div>
                   <div className="flex items-center"><Clock className="w-5 h-5 mr-2 text-blue-300" /> 24/7 Availability</div>
-                  <div className="flex items-center"><MapPin className="w-5 h-5 mr-2 text-blue-300" /> Glenpool · Tulsa · Statewide RON</div>
                 </div>
               </div>
               <div className="bg-white/10 backdrop-blur rounded-2xl p-8 border border-white/20">
@@ -575,28 +605,28 @@ export default function MobileNotaryPage() {
               <div className="bg-white shadow-xl rounded-2xl p-8 border border-slate-100">
                 <h3 className="text-2xl font-semibold text-slate-900 mb-4">Oklahoma Notary Facts</h3>
                 <p className="text-slate-600 mb-4">
-                  Oklahoma commissioned notaries are regulated by the <a href="https://www.sos.ok.gov/business/notary" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">Oklahoma Secretary of State</a>. We maintain bonds, follow state-mandated journal practices, and comply with updated administrative rules covering traditional, electronic, and remote online notarization (RON). As members of the <a href="https://www.nationalnotary.org/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">National Notary Association</a>, we receive background screenings and continuing education to stay current on identification standards, acceptable wording, and fraud prevention.
+                  Oklahoma commissioned notaries are regulated under <strong>49 O.S. § 101 et seq.</strong> by the <a href="https://www.sos.ok.gov/business/notary" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">Oklahoma Secretary of State</a>. We comply with 2026 Oklahoma notary law requirements including <strong>SB 1028</strong> (background screening and $10,000 surety bond) and <strong>HB 2265</strong> (updated identification standards). As NNA-certified members of the <a href="https://www.nationalnotary.org/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">National Notary Association</a>, we receive background screenings and continuing education.
                 </p>
                 <ul className="space-y-4">
                   <li className="flex items-start">
                     <Stamp className="w-6 h-6 text-blue-600 mr-3" />
-                    <span className="text-slate-600">Statutory fee caps: $5 per traditional notarial act, $25 per remote online notarization. Travel, witnesses, printing, and courier fees are separate and disclosed in writing.</span>
+                    <span className="text-slate-600"><strong>Statutory fee caps (49 O.S. § 101):</strong> $5 per traditional notarial act, $25 per remote online notarization. Travel, witnesses, printing, and courier fees are separate and disclosed in writing.</span>
                   </li>
                   <li className="flex items-start">
                     <Shield className="w-6 h-6 text-blue-600 mr-3" />
-                    <span className="text-slate-600">Commission term: four years with required bonding and optional Errors & Omissions insurance (we carry $1M) to protect consumers and law firms.</span>
+                    <span className="text-slate-600"><strong>$10,000 Surety Bond (SB 1028):</strong> We carry the 2026-required bond amount now, plus $1M E&amp;O insurance to protect consumers and law firms.</span>
                   </li>
                   <li className="flex items-start">
                     <CheckCircle className="w-6 h-6 text-blue-600 mr-3" />
-                    <span className="text-slate-600">Acceptable ID: government-issued photo identification or credible witnesses personally known to the signer and the notary.</span>
+                    <span className="text-slate-600"><strong>Background Screened (SB 1028):</strong> Criminal background screening compliant with Oklahoma&apos;s 2026 notary law requirements.</span>
                   </li>
                   <li className="flex items-start">
                     <FileText className="w-6 h-6 text-blue-600 mr-3" />
-                    <span className="text-slate-600">Journal entries: Oklahoma requires date, time, signer name, ID description, document type, and signature for audit-ready compliance.</span>
+                    <span className="text-slate-600"><strong>Acceptable ID (HB 2265):</strong> Government-issued photo identification per updated Oklahoma standards, or credible witnesses personally known to the signer and notary.</span>
                   </li>
                 </ul>
                 <p className="text-slate-600 mt-4">
-                  Staying immersed in Oklahoma notary law lets us advise clients when additional witnesses, specific jurat wording, or interpreter arrangements are required—before we arrive—so signings never stall.
+                  Our compliance with 49 O.S. § 101 et seq., SB 1028, and HB 2265 means we can advise clients when additional witnesses, specific jurat wording, or interpreter arrangements are required—before we arrive—so signings never stall.
                 </p>
               </div>
             </div>

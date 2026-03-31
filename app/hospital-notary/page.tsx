@@ -25,13 +25,21 @@ const canonicalUrl = 'https://justlegalsolutions.org/hospital-notary';
 
 export const metadata: Metadata = {
   title: 'Hospital & Jail Notary Services Oklahoma | 24/7 Medical Notary Tulsa | Just Legal Solutions',
-  description: '24/7 hospital and jail notary services across Oklahoma. Compassionate bedside notarization for medical directives, powers of attorney, and urgent legal documents. Call (539) 367-6832.',
+  description: 'HIPAA-aware hospital and jail notary services across Oklahoma. Bedside notarization at Saint Francis Hospital, Hillcrest Medical Center, and OSU Medical Center. Advance directives, healthcare proxies, and powers of attorney under 49 O.S. § 101 et seq. Call (539) 367-6832.',
   keywords: [
     'hospital notary Tulsa',
     'jail notary Oklahoma',
     'medical notary Oklahoma',
     'hospice notary services',
-    'nursing home notary Tulsa'
+    'nursing home notary Tulsa',
+    'Saint Francis Hospital notary',
+    'Hillcrest Medical Center notary',
+    'OSU Medical Center notary',
+    'advance directives notary Oklahoma',
+    'healthcare proxy notarization',
+    'HIPAA aware notary',
+    'Oklahoma Department of Corrections notary',
+    'prison notary Oklahoma'
   ],
   alternates: {
     canonical: canonicalUrl,
@@ -74,53 +82,55 @@ const facilitiesServed = [
     title: 'Healthcare Partners',
     icon: Stethoscope,
     items: [
-      'Saint Francis Health System',
-      'Hillcrest Medical Center',
-      'OSU Medical Center',
-      'VA Hospital & Clinics',
-      'Nursing homes & long-term care',
-      'Assisted living communities',
+      'Saint Francis Hospital (1,100+ beds) – Tulsa&apos;s largest medical facility',
+      'Hillcrest Medical Center – Level II trauma center',
+      'OSU Medical Center – academic teaching hospital',
+      'VA Hospital & Clinics – veteran healthcare services',
+      'Nursing homes & long-term care facilities',
+      'Assisted living communities throughout Oklahoma',
       'Hospice & palliative care teams',
       'Rehabilitation & therapy centers'
     ]
   },
   {
-    title: 'Correctional & Detention',
+    title: 'Correctional & Detention Facilities',
     icon: Shield,
     items: [
-      'County detention facilities',
-      'State correctional centers',
+      'Oklahoma Department of Corrections facilities – advance coordination required',
+      'Tulsa County Jail and detention centers',
+      'State correctional centers – following DOC visitor procedures',
       'Juvenile detention programs',
-      'Federal holding facilities (as allowed)',
-      'Community corrections programs',
-      'Transitional housing facilities'
+      'Federal holding facilities (as allowed by facility policy)',
+      'Community corrections and transitional housing programs'
     ]
   }
 ];
 
 const documentCategories = [
   {
-    title: 'Healthcare & Medical',
+    title: 'Healthcare & Medical Documents',
     icon: FileText,
     items: [
-      'Living wills and advance directives',
-      'Healthcare proxies and surrogates',
-      'DNR and AND orders',
-      'Medical power of attorney',
-      'HIPAA releases and consent forms',
-      'Organ donation authorizations'
+      'Advance directives – legally binding healthcare instructions',
+      'Healthcare proxies and surrogate designations',
+      'DNR (Do Not Resuscitate) and AND orders',
+      'Medical power of attorney – durable and springing',
+      'HIPAA authorization and release forms',
+      'Organ donation authorizations and anatomical gifts',
+      'Living wills under Oklahoma statutes'
     ]
   },
   {
-    title: 'Family & Property (Incarcerated)',
+    title: 'Family & Property (Incarcerated Signers)',
     icon: Building2,
     items: [
       'General & limited powers of attorney',
-      'Property transfer authorizations',
-      'Vehicle & asset assignments',
-      'Childcare and school documents',
-      'Court-required affidavits',
-      'Family legal matters & declarations'
+      'Property transfer authorizations and deeds',
+      'Vehicle title transfers and asset assignments',
+      'Childcare authorizations and school enrollment forms',
+      'Court-required affidavits and declarations',
+      'Family legal matters and child custody documents',
+      'Parental consent forms for minors'
     ]
   }
 ];
@@ -272,11 +282,11 @@ export default function HospitalNotaryPage() {
                 On-Call Hospital & Jail Notaries
               </div>
               <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6">
-                Sensitive Hospital & Jail Notarization
+                HIPAA-Aware Hospital & Jail Notarization
                 <span className="block text-transparent bg-clip-text bg-gradient-to-r from-indigo-300 to-pink-300">Available 24/7 Across Oklahoma</span>
               </h1>
               <p className="text-lg md:text-xl text-indigo-100 mb-8 max-w-2xl">
-                When medical decisions or legal rights cannot wait, Just Legal Solutions mobilizes trained notaries who understand bedside protocols, security restrictions, and the urgency of your documents.
+                Bedside notarization at Saint Francis Hospital, Hillcrest Medical Center, OSU Medical Center, and correctional facilities statewide. Advance directives, healthcare proxies, and powers of attorney executed with capacity assessment support under 49 O.S. § 101 et seq. Call (539) 367-6832.
               </p>
               <div className="flex flex-wrap gap-4">
                 <a href="tel:5393676832" className="flex items-center gap-2 bg-white text-indigo-900 font-semibold px-6 py-3 rounded-xl shadow-lg hover:bg-indigo-50 transition">
