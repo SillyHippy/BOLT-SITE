@@ -16,7 +16,12 @@ import { Metadata } from 'next';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import SocialProof from '@/components/SocialProof';
 import OwnerBio from '@/components/ui/owner-bio';
-import ReviewWidget from '@/components/ui/review-widget';
+import dynamic from 'next/dynamic';
+
+// ⚡ Bolt Performance Optimization:
+// Dynamically import the heavy ReviewWidget client component (which includes multiple icons and state logic)
+// to reduce the initial JavaScript bundle size and improve page load metrics.
+const ReviewWidget = dynamic(() => import('@/components/ui/review-widget'));
 
 export const metadata: Metadata = {
   title: {
