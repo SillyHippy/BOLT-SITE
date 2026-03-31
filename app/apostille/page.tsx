@@ -15,7 +15,14 @@ import {
   Layers,
   BookOpen,
   Building,
-  Map
+  Map,
+  DollarSign,
+  Users,
+  GraduationCap,
+  Briefcase,
+  Heart,
+  AlertTriangle,
+  MapPin
 } from 'lucide-react';
 
 const canonicalUrl = 'https://justlegalsolutions.org/apostille';
@@ -180,30 +187,229 @@ const faqs = [
     question: 'How do I get started?',
     answer:
       'Call (539) 367-6832 or email info@justlegalsolutions.org with scans of your documents. We confirm eligibility, quote competitive rates, and send intake instructions the same day.'
+  },
+  {
+    question: 'Can I apostille a document notarized electronically in Oklahoma?',
+    answer:
+      'Yes, Oklahoma recognizes Remote Online Notarization (RON) under 49 O.S. § 201 et seq. Documents notarized via RON by Oklahoma-commissioned notaries can receive apostilles, provided the electronic notarization meets all statutory requirements.'
+  },
+  {
+    question: 'How long is an apostille valid?',
+    answer:
+      'Apostilles themselves do not expire. However, the underlying document may have validity limitations imposed by the destination country. Many countries require documents to be dated within the past year. Always verify with the receiving institution.'
+  },
+  {
+    question: 'What if my destination country is not a Hague Convention member?',
+    answer:
+      'Documents destined for non-Hague countries (China, UAE, Saudi Arabia, Egypt, Vietnam) require embassy legalization instead of apostille. This involves additional steps through the U.S. Department of State and the foreign country&apos;s embassy.'
   }
 ];
 
 const hagueCountries = [
-  'Mexico',
-  'Canada',
-  'United Kingdom',
-  'France',
   'Germany',
-  'Spain',
+  'France',
+  'United Kingdom',
   'Italy',
+  'Spain',
   'Netherlands',
-  'Portugal',
+  'Mexico',
   'Japan',
   'South Korea',
   'Australia',
-  'New Zealand',
   'Brazil',
+  'Argentina',
+  'India',
+  'South Africa',
+  'Portugal',
+  'New Zealand',
   'Chile',
   'Colombia',
   'Philippines',
-  'India',
-  'South Africa',
-  'Turkey'
+  'Turkey',
+  'Greece',
+  'Poland',
+  'Sweden',
+  'Norway',
+  'Denmark',
+  'Finland',
+  'Belgium',
+  'Austria',
+  'Switzerland',
+  'Ireland',
+  'Israel',
+  'Russia',
+  'Ukraine',
+  'Czech Republic',
+  'Hungary',
+  'Romania',
+  'Bulgaria',
+  'Croatia',
+  'Slovenia',
+  'Slovakia',
+  'Serbia',
+  'Albania',
+  'North Macedonia',
+  'Montenegro',
+  'Bosnia and Herzegovina',
+  'Latvia',
+  'Lithuania',
+  'Estonia',
+  'Luxembourg',
+  'Malta',
+  'Cyprus',
+  'Iceland',
+  'Peru',
+  'Ecuador',
+  'Uruguay',
+  'Paraguay',
+  'Venezuela',
+  'Costa Rica',
+  'Panama',
+  'El Salvador',
+  'Honduras',
+  'Guatemala',
+  'Dominican Republic',
+  'Bahamas',
+  'Barbados',
+  'Trinidad and Tobago',
+  'Jamaica',
+  'Suriname',
+  'Morocco',
+  'Tunisia',
+  'Botswana',
+  'Mauritius',
+  'Seychelles',
+  'Namibia',
+  'Eswatini',
+  'Lesotho',
+  'Malawi',
+  'Liberia',
+  'Cape Verde',
+  'Sao Tome and Principe',
+  'Mongolia',
+  'Kazakhstan',
+  'Uzbekistan',
+  'Azerbaijan',
+  'Armenia',
+  'Georgia',
+  'Moldova',
+  'Belarus',
+  'Tajikistan',
+  'Kyrgyzstan',
+  'Singapore',
+  'Hong Kong',
+  'Macao',
+  'Brunei',
+  'Samoa',
+  'Tonga',
+  'Fiji',
+  'Vanuatu',
+  'Cook Islands',
+  'Niue',
+  'Monaco',
+  'Andorra',
+  'San Marino',
+  'Liechtenstein'
+];
+
+const nonHagueCountries = [
+  'China',
+  'UAE',
+  'Saudi Arabia',
+  'Egypt',
+  'Vietnam',
+  'Canada (for some documents)',
+  'Qatar',
+  'Kuwait',
+  'Iraq',
+  'Iran',
+  'Pakistan',
+  'Bangladesh',
+  'Indonesia',
+  'Malaysia',
+  'Thailand'
+];
+
+const feeStructure = [
+  {
+    component: 'Oklahoma Secretary of State apostille fee',
+    amount: '$25.00 per document',
+    notes: 'Required for all submissions'
+  },
+  {
+    component: 'Certified copy fees (if needed)',
+    amount: '$15.00–$50.00',
+    notes: 'Varies by document type'
+  },
+  {
+    component: 'Notarization fees (if needed)',
+    amount: '$5.00–$25.00',
+    notes: 'Oklahoma notaries charge up to $5 per signature'
+  },
+  {
+    component: 'Shipping/return postage',
+    amount: '$10.00–$85.00',
+    notes: 'Depends on speed and destination'
+  },
+  {
+    component: 'Professional expedited service fees',
+    amount: '$105.00–$295.00',
+    notes: 'Optional full-service handling'
+  }
+];
+
+const processingTimes = [
+  {
+    method: 'In-person (Oklahoma City office)',
+    stateTime: '1–2 business days',
+    totalTime: 'Same day to 2 days',
+    bestFor: 'Urgent needs, local applicants'
+  },
+  {
+    method: 'Mail submission',
+    stateTime: '3–7 business days',
+    totalTime: '5–10 business days',
+    bestFor: 'Non-urgent, cost-conscious'
+  },
+  {
+    method: 'Professional expedited service',
+    stateTime: 'Same day to 3–5 business days',
+    totalTime: '1–3 business days total',
+    bestFor: 'Critical deadlines'
+  }
+];
+
+const commonScenarios = [
+  {
+    scenario: 'International adoption',
+    documents: 'Birth certificates, marriage certificates, background checks, home studies',
+    urgency: 'Very high',
+    icon: Heart
+  },
+  {
+    scenario: 'Marriage abroad',
+    documents: 'Birth certificates, single-status affidavits, divorce decrees',
+    urgency: 'Moderate',
+    icon: Users
+  },
+  {
+    scenario: 'Business expansion',
+    documents: 'Articles of incorporation, certificates of good standing, powers of attorney',
+    urgency: 'Variable',
+    icon: Briefcase
+  },
+  {
+    scenario: 'Educational pursuits',
+    documents: 'Diplomas, transcripts, teaching credentials',
+    urgency: 'Moderate',
+    icon: GraduationCap
+  },
+  {
+    scenario: 'Immigration/visas',
+    documents: 'Birth certificates, marriage certificates, FBI background checks',
+    urgency: 'High',
+    icon: Globe
+  }
 ];
 
 const localBusinessSchema = {
@@ -448,6 +654,176 @@ export default function ApostillePage() {
           </div>
         </section>
 
+        {/* Fee Structure Section */}
+        <section className="py-16 bg-white">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-12">
+              <p className="text-indigo-600 font-semibold uppercase tracking-wide text-sm">Transparent pricing</p>
+              <h2 className="text-3xl font-bold text-slate-900 mb-4">Apostille fee structure</h2>
+              <p className="text-slate-600 max-w-3xl mx-auto">
+                Understanding costs upfront helps you budget for your international document needs. Below are the typical cost components for Oklahoma apostille services.
+              </p>
+            </div>
+            <div className="overflow-x-auto">
+              <table className="w-full bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm">
+                <thead className="bg-gradient-to-r from-indigo-600 to-blue-600 text-white">
+                  <tr>
+                    <th className="px-6 py-4 text-left font-semibold">Cost Component</th>
+                    <th className="px-6 py-4 text-left font-semibold">Amount</th>
+                    <th className="px-6 py-4 text-left font-semibold">Notes</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-slate-100">
+                  {feeStructure.map((fee, index) => (
+                    <tr key={fee.component} className={index % 2 === 0 ? 'bg-slate-50' : 'bg-white'}>
+                      <td className="px-6 py-4 text-slate-900 font-medium">{fee.component}</td>
+                      <td className="px-6 py-4 text-indigo-600 font-semibold">{fee.amount}</td>
+                      <td className="px-6 py-4 text-slate-600 text-sm">{fee.notes}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <div className="mt-6 flex items-start gap-3 bg-indigo-50 p-4 rounded-2xl border border-indigo-100">
+              <DollarSign className="w-6 h-6 text-indigo-600 flex-shrink-0" />
+              <p className="text-sm text-slate-700">
+                <strong>Note:</strong> Actual costs vary based on document type, destination country requirements, and urgency. Contact us at <a href="tel:5393676832" className="text-indigo-600 font-semibold hover:underline">(539) 367-6832</a> for a personalized quote.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Processing Times Section */}
+        <section className="py-16">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-12">
+              <p className="text-indigo-600 font-semibold uppercase tracking-wide text-sm">Timeline options</p>
+              <h2 className="text-3xl font-bold text-slate-900 mb-4">Processing times by submission method</h2>
+              <p className="text-slate-600 max-w-3xl mx-auto">
+                Choose the submission method that best fits your deadline and budget. We offer multiple options to accommodate urgent and standard requests.
+              </p>
+            </div>
+            <div className="overflow-x-auto">
+              <table className="w-full bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm">
+                <thead className="bg-gradient-to-r from-indigo-600 to-blue-600 text-white">
+                  <tr>
+                    <th className="px-6 py-4 text-left font-semibold">Submission Method</th>
+                    <th className="px-6 py-4 text-left font-semibold">State Processing Time</th>
+                    <th className="px-6 py-4 text-left font-semibold">Total Estimated Time</th>
+                    <th className="px-6 py-4 text-left font-semibold">Best For</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-slate-100">
+                  {processingTimes.map((time, index) => (
+                    <tr key={time.method} className={index % 2 === 0 ? 'bg-slate-50' : 'bg-white'}>
+                      <td className="px-6 py-4 text-slate-900 font-medium">{time.method}</td>
+                      <td className="px-6 py-4 text-slate-700">{time.stateTime}</td>
+                      <td className="px-6 py-4 text-indigo-600 font-semibold">{time.totalTime}</td>
+                      <td className="px-6 py-4 text-slate-600 text-sm">{time.bestFor}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        {/* Common Documents Apostilled Section */}
+        <section className="py-16 bg-white">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-12">
+              <p className="text-indigo-600 font-semibold uppercase tracking-wide text-sm">Real-world scenarios</p>
+              <h2 className="text-3xl font-bold text-slate-900 mb-4">Common documents we apostille</h2>
+              <p className="text-slate-600 max-w-3xl mx-auto">
+                Our clients come to us for apostilles across a wide range of life events and business needs. Here are the most common scenarios we handle.
+              </p>
+            </div>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {commonScenarios.map((item) => {
+                const Icon = item.icon;
+                return (
+                  <div key={item.scenario} className="bg-gradient-to-br from-slate-50 to-white rounded-3xl border border-slate-100 p-6 shadow-sm">
+                    <div className="flex items-center gap-3 mb-4">
+                      <span className="bg-indigo-100 text-indigo-700 rounded-2xl p-2">
+                        <Icon className="w-5 h-5" />
+                      </span>
+                      <h3 className="font-semibold text-slate-900">{item.scenario}</h3>
+                    </div>
+                    <p className="text-sm text-slate-600 mb-3">{item.documents}</p>
+                    <div className="flex items-center gap-2">
+                      <span className={`px-3 py-1 rounded-full text-xs font-medium ${
+                        item.urgency === 'Very high' ? 'bg-red-100 text-red-700' :
+                        item.urgency === 'High' ? 'bg-orange-100 text-orange-700' :
+                        item.urgency === 'Moderate' ? 'bg-yellow-100 text-yellow-700' :
+                        'bg-blue-100 text-blue-700'
+                      }`}>
+                        {item.urgency} urgency
+                      </span>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </section>
+
+        {/* Tulsa County Coordination Section */}
+        <section className="py-16 bg-gradient-to-br from-slate-100 to-indigo-50">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div>
+                <div className="flex items-center gap-3 mb-4">
+                  <span className="bg-indigo-600 text-white rounded-2xl p-3">
+                    <MapPin className="w-6 h-6" />
+                  </span>
+                  <p className="text-indigo-600 font-semibold uppercase tracking-wide text-sm">Local expertise</p>
+                </div>
+                <h2 className="text-3xl font-bold text-slate-900 mb-4">Tulsa County coordination</h2>
+                <p className="text-lg text-slate-600 mb-4">
+                  Tulsa County offers robust notary services to support apostille preparation. For documents requiring notarization before apostille, Tulsa County mobile notaries offer particular advantages: they can verify document completeness, ensure proper notarial certificate selection, and confirm that all elements meet Oklahoma Secretary of State standards before submission.
+                </p>
+                <p className="text-slate-600 mb-6">
+                  The geographic proximity of Tulsa to Oklahoma City—approximately 100 miles—makes same-day personal submission feasible for urgent situations. Our team regularly makes this drive to expedite critical deadlines.
+                </p>
+                <div className="flex flex-wrap gap-4">
+                  <a
+                    href="tel:5393676832"
+                    className="inline-flex items-center gap-2 bg-indigo-600 text-white font-semibold px-5 py-3 rounded-xl shadow hover:bg-indigo-500 transition"
+                  >
+                    <Phone className="w-5 h-5" />
+                    (539) 367-6832
+                  </a>
+                  <Link
+                    href="/notary"
+                    className="inline-flex items-center gap-2 border-2 border-indigo-600 text-indigo-600 font-semibold px-5 py-3 rounded-xl hover:bg-indigo-50 transition"
+                  >
+                    Tulsa Notary Services
+                    <ArrowRight className="w-5 h-5" />
+                  </Link>
+                </div>
+              </div>
+              <div className="bg-white rounded-3xl p-6 shadow-lg border border-slate-200">
+                <div className="flex items-center gap-3 mb-4">
+                  <CheckCircle className="w-6 h-6 text-green-500" />
+                  <h3 className="text-xl font-semibold text-slate-900">Success story</h3>
+                </div>
+                <blockquote className="text-slate-600 mb-4 italic border-l-4 border-indigo-500 pl-4">
+                  &quot;Maria, a Tulsa-based professional, needed her Oklahoma State University diploma apostilled for a teaching position in Spain. She contacted our team on Monday afternoon with a Friday deadline. We coordinated her document preparation, ensured proper registrar certification, drove the documents to the Oklahoma City office Tuesday morning, and delivered her apostilled diploma by Wednesday evening—three days ahead of schedule.&quot;
+                </blockquote>
+                <div className="flex items-center gap-3">
+                  <div className="w-10 h-10 bg-indigo-100 rounded-full flex items-center justify-center">
+                    <GraduationCap className="w-5 h-5 text-indigo-600" />
+                  </div>
+                  <div>
+                    <p className="font-semibold text-slate-900">Maria</p>
+                    <p className="text-sm text-slate-500">Tulsa educator, diploma apostille for Spain</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section className="py-16 bg-gradient-to-br from-blue-900 to-indigo-800 text-white">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-10 items-center">
             <div>
@@ -474,19 +850,35 @@ export default function ApostillePage() {
               </div>
             </div>
             <div className="bg-white/10 rounded-3xl p-6 border border-white/20">
-              <h3 className="text-xl font-semibold mb-3">Countries that accept apostilles</h3>
+              <h3 className="text-xl font-semibold mb-3">120+ Hague Convention countries</h3>
               <p className="text-sm text-indigo-100 mb-4">
-                Apostilles are recognized by every member of the Hague Convention. Here are some of the destinations we help every week:
+                Apostilles are recognized by every member of the Hague Convention. Major destinations include:
               </p>
-              <div className="flex flex-wrap gap-2">
-                {hagueCountries.map((country) => (
+              <div className="flex flex-wrap gap-2 mb-4">
+                {hagueCountries.slice(0, 30).map((country) => (
                   <span key={country} className="bg-white/15 px-3 py-1 rounded-full text-sm">
                     {country}
                   </span>
                 ))}
+                <span className="bg-indigo-500/50 px-3 py-1 rounded-full text-sm font-semibold">
+                  +{hagueCountries.length - 30} more countries
+                </span>
               </div>
-              <div className="mt-6 text-sm text-indigo-100">
-                Traveling to China, United Arab Emirates, Qatar, or another non-Hague country? We extend the process to include U.S. Department of State certification and embassy legalization so you receive the correct stamps.
+              <div className="mt-4 pt-4 border-t border-white/20">
+                <div className="flex items-start gap-2 mb-2">
+                  <AlertTriangle className="w-5 h-5 text-amber-300 flex-shrink-0 mt-0.5" />
+                  <p className="text-sm font-semibold text-amber-200">Non-Hague countries require embassy legalization:</p>
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  {nonHagueCountries.slice(0, 8).map((country) => (
+                    <span key={country} className="bg-amber-500/20 border border-amber-400/30 px-3 py-1 rounded-full text-sm text-amber-100">
+                      {country}
+                    </span>
+                  ))}
+                </div>
+                <p className="mt-3 text-sm text-indigo-100">
+                  Documents for these countries require additional steps through the U.S. Department of State and the foreign country&apos;s embassy. We handle this extended process for you.
+                </p>
               </div>
             </div>
           </div>
@@ -551,6 +943,45 @@ export default function ApostillePage() {
                 <Mail className="w-5 h-5" />
                 info@justlegalsolutions.org
               </a>
+            </div>
+          </div>
+        </section>
+
+        {/* Related Services */}
+        <section className="py-16 bg-gray-50">
+          <div className="max-w-6xl mx-auto px-4">
+            <h2 className="text-3xl font-bold mb-8 text-center">Related Notary Services</h2>
+            <div className="grid md:grid-cols-4 gap-4">
+              <Link href="/mobile-notary" className="bg-white p-6 rounded-lg border-2 border-gray-200 hover:border-blue-600 transition-colors group text-center">
+                <p className="font-bold group-hover:text-blue-600">Mobile Notary</p>
+                <p className="text-sm text-gray-600">We come to you</p>
+              </Link>
+              <Link href="/real-estate-notary" className="bg-white p-6 rounded-lg border-2 border-gray-200 hover:border-blue-600 transition-colors group text-center">
+                <p className="font-bold group-hover:text-blue-600">Real Estate Closings</p>
+                <p className="text-sm text-gray-600">International transactions</p>
+              </Link>
+              <Link href="/what-to-bring" className="bg-white p-6 rounded-lg border-2 border-gray-200 hover:border-blue-600 transition-colors group text-center">
+                <p className="font-bold group-hover:text-blue-600">What to Bring</p>
+                <p className="text-sm text-gray-600">Appointment checklist</p>
+              </Link>
+              <Link href="/notary/joseph" className="bg-white p-6 rounded-lg border-2 border-gray-200 hover:border-blue-600 transition-colors group text-center">
+                <p className="font-bold group-hover:text-blue-600">Meet Your Notary</p>
+                <p className="text-sm text-gray-600">Credentials & certifications</p>
+              </Link>
+            </div>
+            <div className="text-center mt-8">
+              <p className="text-gray-600 mb-2">Official Resources:</p>
+              <div className="flex flex-wrap justify-center gap-4">
+                <a href="https://www.hcch.net/en/instruments/conventions/full-text/?cid=41" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline text-sm">
+                  Hague Apostille Convention (1961) ↗
+                </a>
+                <a href="https://www.sos.ok.gov/business/notary" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline text-sm">
+                  Oklahoma Secretary of State ↗
+                </a>
+                <a href="https://travel.state.gov/content/travel/en/records-and-authentications.html" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline text-sm">
+                  U.S. State Dept. Authentication ↗
+                </a>
+              </div>
             </div>
           </div>
         </section>

@@ -18,7 +18,13 @@ import {
   CheckCircle,
   HelpCircle,
   LifeBuoy,
-  ClipboardList
+  ClipboardList,
+  AlertTriangle,
+  Brain,
+  MapPin,
+  PhoneCall,
+  Lock,
+  BookOpen
 } from 'lucide-react';
 
 const canonicalUrl = 'https://justlegalsolutions.org/hospital-notary';
@@ -154,7 +160,7 @@ const considerations = [
   {
     title: 'Secure Handling',
     icon: Shield,
-    desc: 'We maintain confidentiality under HIPAA guidelines and follow each facility’s security protocols.'
+    desc: 'We maintain confidentiality under HIPAA guidelines and follow each facility&apos;s security protocols.'
   }
 ];
 
@@ -177,7 +183,7 @@ const faqs = [
   },
   {
     question: 'Are there additional steps for correctional facilities?',
-    answer: 'Yes. We follow each facility’s intake process, bring only approved materials, and allow extra time for security checks. We also coordinate with legal counsel when necessary.'
+    answer: 'Yes. We follow each facility&apos;s intake process, bring only approved materials, and allow extra time for security checks. We also coordinate with legal counsel when necessary.'
   },
   {
     question: 'Can family members join the notarization?',
@@ -190,7 +196,56 @@ const faqs = [
   {
     question: 'How do we schedule an urgent visit?',
     answer: 'Call (539) 367-6832 anytime or email info@justlegalsolutions.org. Provide patient or inmate details, location, required documents, and time sensitivity.'
+  },
+  {
+    question: 'What if the patient cannot physically sign?',
+    answer: 'Oklahoma allows signature by mark (X) witnessed by two people, or signature by direction where the signer instructs another person to sign on their behalf. Both methods require specific procedures and additional witnesses. Our notaries are trained in these alternative signature methods.'
+  },
+  {
+    question: 'Can you notarize for someone on a ventilator?',
+    answer: 'Potentially, if the patient can communicate understanding and consent through nodding, blinking, or written responses. We work with medical staff to determine appropriate communication methods. However, if meaningful communication isn&apos;t possible, notarization must wait until the patient&apos;s condition improves.'
+  },
+  {
+    question: 'Do you handle psychiatric facility notarizations?',
+    answer: 'Yes, with additional considerations. We coordinate with treatment teams to ensure appropriate timing and verify that any medications don&apos;t impair the signer&apos;s understanding. Documentation of capacity assessment is particularly important in these settings.'
   }
+];
+
+const documentChecklist = [
+  'Valid government-issued photo ID (driver&apos;s license, passport, state ID)',
+  'All documents requiring notarization (printed, not electronic)',
+  'Any supporting documents (powers of attorney, trust documents)',
+  'Blue or black ink pens (some facilities restrict pen colors)',
+  'Contact information for all parties who need to sign',
+  'Healthcare proxy or agent contact information if relevant'
+];
+
+const hospitalNavigation = [
+  {
+    name: 'Saint Francis Hospital',
+    details: '(1,100+ beds): Contact Guest Services for notary coordination; visitor badges required; parking in main garage'
+  },
+  {
+    name: 'Hillcrest Medical Center',
+    details: 'Check in at information desk; some units restrict visiting hours'
+  },
+  {
+    name: 'St. John Medical Center',
+    details: 'Larger campus—confirm building and floor in advance'
+  },
+  {
+    name: 'Oklahoma Surgical Hospital',
+    details: 'Outpatient focus; coordinate with discharge planning'
+  }
+];
+
+const correctionalProcedures = [
+  'Contact facility administration 24-48 hours in advance',
+  'Clear security screening (no prohibited items)',
+  'Expect delays due to facility lockdowns or counts',
+  'Inmate ID verification through facility staff',
+  'Limited document types may be accepted (verify in advance)',
+  'Witness availability may be restricted'
 ];
 
 const faqSchema = {
@@ -316,6 +371,136 @@ export default function HospitalNotaryPage() {
       </section>
 
       <main className="bg-gray-50">
+        {/* Why Hospital Notarization Requires Specialized Expertise */}
+        <section className="py-16 bg-white">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <div className="inline-flex items-center gap-2 bg-purple-100 text-purple-700 px-4 py-2 rounded-full mb-4 text-sm font-medium">
+                  <Brain className="w-4 h-4" />
+                  Specialized Expertise
+                </div>
+                <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+                  Why Hospital Notarization Requires Specialized Expertise
+                </h2>
+                <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                  Hospital notarization demands skills beyond standard notarial practice. Healthcare environments present unique challenges: patients may be recovering from surgery, managing pain medication effects, or facing life-altering diagnoses. The notary must balance legal requirements with medical realities, working within visiting hour restrictions while ensuring document validity.
+                </p>
+                <div className="space-y-4">
+                  <div className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-purple-600 mt-1" />
+                    <p className="text-gray-700">Understanding of medical protocols and patient care schedules</p>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-purple-600 mt-1" />
+                    <p className="text-gray-700">Ability to assess cognitive capacity in challenging circumstances</p>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-purple-600 mt-1" />
+                    <p className="text-gray-700">Experience coordinating with healthcare staff and family members</p>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-gradient-to-br from-purple-50 to-indigo-50 rounded-2xl p-8 border border-purple-100">
+                <div className="flex items-center gap-3 mb-6">
+                  <AlertTriangle className="w-8 h-8 text-amber-600" />
+                  <h3 className="text-xl font-semibold text-gray-900">Capacity Assessment Awareness</h3>
+                </div>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Oklahoma law (49 O.S. § 101 et seq.) requires signers to be mentally competent and willing. In hospital settings, this assessment becomes critical. Our notaries are trained to recognize signs that may indicate impaired capacity: confusion about the document&apos;s purpose, inability to recall recent conversations, or apparent pressure from family members.
+                </p>
+                <p className="text-gray-700 leading-relaxed">
+                  If concerns arise, we may recommend postponement or consultation with medical staff—protecting the signer&apos;s interests and the document&apos;s validity.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Document Preparation Checklist */}
+        <section className="py-16">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="grid lg:grid-cols-2 gap-10">
+              <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-8">
+                <div className="flex items-center gap-3 mb-6">
+                  <div className="p-3 rounded-xl bg-gradient-to-br from-emerald-100 to-teal-100 text-emerald-700">
+                    <ClipboardList className="w-6 h-6" />
+                  </div>
+                  <h3 className="text-2xl font-bold text-gray-900">Document Preparation Checklist</h3>
+                </div>
+                <p className="text-gray-600 mb-6">Before your hospital notary appointment, gather the following:</p>
+                <ul className="space-y-4">
+                  {documentChecklist.map((item, idx) => (
+                    <li key={idx} className="flex items-start gap-3">
+                      <CheckCircle className="w-5 h-5 text-emerald-600 mt-0.5" />
+                      <span className="text-gray-700">{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-8">
+                <div className="flex items-center gap-3 mb-6">
+                  <div className="p-3 rounded-xl bg-gradient-to-br from-red-100 to-orange-100 text-red-700">
+                    <Lock className="w-6 h-6" />
+                  </div>
+                  <h3 className="text-2xl font-bold text-gray-900">Correctional Facility Procedures</h3>
+                </div>
+                <p className="text-gray-600 mb-6">Notarizing for inmates requires additional preparation:</p>
+                <ul className="space-y-4">
+                  {correctionalProcedures.map((item, idx) => (
+                    <li key={idx} className="flex items-start gap-3">
+                      <CheckCircle className="w-5 h-5 text-red-600 mt-0.5" />
+                      <span className="text-gray-700">{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ICU & Critical Care Considerations */}
+        <section className="py-16 bg-gradient-to-br from-slate-900 via-purple-900 to-indigo-900 text-white">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <div className="inline-flex items-center gap-2 bg-white/10 border border-white/20 px-4 py-2 rounded-full mb-4 text-sm">
+                  <Activity className="w-4 h-4" />
+                  Critical Care Expertise
+                </div>
+                <h2 className="text-3xl md:text-4xl font-bold mb-6">
+                  ICU & Critical Care Considerations
+                </h2>
+                <p className="text-lg text-indigo-100 leading-relaxed mb-6">
+                  Intensive care units present the most challenging notarization environments. Patients may be intubated, heavily sedated, or experiencing delirium. Timing is crucial—we coordinate with nursing staff to arrive during lucid periods.
+                </p>
+                <p className="text-indigo-100 leading-relaxed mb-6">
+                  Some ICU patients can communicate through nodding or written responses; our notaries are experienced in adapting the notarization process while maintaining legal validity. In cases where the patient cannot meaningfully participate, we honestly advise families that notarization may need to wait—protecting everyone from potentially voidable documents.
+                </p>
+              </div>
+              <div className="bg-white/10 border border-white/20 rounded-2xl p-8 backdrop-blur">
+                <div className="flex items-center gap-3 mb-6">
+                  <PhoneCall className="w-8 h-8 text-rose-300" />
+                  <h3 className="text-xl font-semibold">24/7 Emergency Response</h3>
+                </div>
+                <p className="text-indigo-100 leading-relaxed mb-4">
+                  Medical emergencies don&apos;t follow business hours. We maintain after-hours availability for urgent hospital notarizations.
+                </p>
+                <p className="text-indigo-100 leading-relaxed">
+                  When a family calls at 2 AM because their father needs a healthcare power of attorney before emergency surgery, we respond. This commitment reflects our understanding that some documents simply cannot wait until morning.
+                </p>
+                <div className="mt-6">
+                  <a href="tel:5393676832" className="inline-flex items-center gap-2 bg-white text-indigo-900 font-semibold px-5 py-3 rounded-xl">
+                    <Phone className="w-5 h-5" /> (539) 367-6832
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Facilities Served */}
         <section className="py-16">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-10">
@@ -349,6 +534,82 @@ export default function HospitalNotaryPage() {
           </div>
         </section>
 
+        {/* Hospital-Specific Navigation */}
+        <section className="py-16 bg-white">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-10">
+              <p className="text-indigo-600 font-semibold uppercase tracking-wide mb-2">Local Knowledge</p>
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Hospital-Specific Navigation</h2>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                Each Tulsa-area hospital has unique procedures. Our familiarity with local facilities ensures smooth, efficient service.
+              </p>
+            </div>
+            <div className="grid md:grid-cols-2 gap-6">
+              {hospitalNavigation.map((hospital) => (
+                <div key={hospital.name} className="bg-gradient-to-br from-gray-50 to-indigo-50 rounded-2xl p-6 border border-indigo-100">
+                  <div className="flex items-start gap-3">
+                    <MapPin className="w-6 h-6 text-indigo-600 mt-1" />
+                    <div>
+                      <h3 className="text-xl font-semibold text-gray-900 mb-2">{hospital.name}</h3>
+                      <p className="text-gray-700">{hospital.details}</p>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+            <div className="mt-8 bg-amber-50 border border-amber-200 rounded-2xl p-6">
+              <div className="flex items-start gap-4">
+                <Building2 className="w-6 h-6 text-amber-600 mt-1" />
+                <div>
+                  <h4 className="text-lg font-semibold text-gray-900 mb-2">Nursing Homes & Rehabilitation Facilities</h4>
+                  <p className="text-gray-700">
+                    For nursing homes and rehabilitation facilities, advance coordination with social services departments ensures smooth access and appropriate timing. We work with facility staff to schedule visits during optimal periods for the resident.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Family Dynamics Section */}
+        <section className="py-16">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div className="bg-gradient-to-br from-rose-50 to-pink-50 rounded-2xl p-8 border border-rose-100">
+                <div className="flex items-center gap-3 mb-6">
+                  <Users className="w-8 h-8 text-rose-600" />
+                  <h3 className="text-2xl font-bold text-gray-900">Navigating Family Dynamics</h3>
+                </div>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Hospital notarizations often occur during family stress. Adult children may disagree about a parent&apos;s care decisions. Spouses may have conflicting interests. Our role is to ensure the signer&apos;s wishes are accurately documented—not to mediate family disputes.
+                </p>
+                <p className="text-gray-700 leading-relaxed">
+                  We maintain neutrality, focus on the signer&apos;s expressed intentions, and will not proceed if we observe coercion or undue influence. This protection benefits everyone, including family members who might later question whether the document reflects the signer&apos;s true wishes.
+                </p>
+              </div>
+              <div>
+                <div className="inline-flex items-center gap-2 bg-emerald-100 text-emerald-700 px-4 py-2 rounded-full mb-4 text-sm font-medium">
+                  <BookOpen className="w-4 h-4" />
+                  Real Case Study
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">When Every Minute Counts</h3>
+                <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-6">
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    Mr. Williams, 78, was admitted to Saint Francis following a stroke. His daughter called us Sunday evening—he needed to sign a power of attorney before Monday&apos;s surgery.
+                  </p>
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    We arrived at 7 AM, coordinated with the nursing station, and found Mr. Williams alert and oriented. He clearly expressed his wishes, signed with a slightly shaky but legible signature, and the document was completed before his 9 AM pre-op preparation.
+                  </p>
+                  <p className="text-gray-700 leading-relaxed italic">
+                    His daughter later told us the peace of mind was immeasurable.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Documents Section */}
         <section className="py-16 bg-white">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
@@ -384,6 +645,7 @@ export default function HospitalNotaryPage() {
           </div>
         </section>
 
+        {/* Special Considerations */}
         <section className="py-16 bg-gradient-to-br from-purple-950 via-indigo-900 to-slate-900 text-white">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-10">
@@ -408,6 +670,7 @@ export default function HospitalNotaryPage() {
           </div>
         </section>
 
+        {/* How We Handle Sensitive Signings */}
         <section className="py-16">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid lg:grid-cols-2 gap-10 items-center">
@@ -415,7 +678,7 @@ export default function HospitalNotaryPage() {
                 <p className="text-indigo-600 font-semibold uppercase tracking-wide mb-2">Compassionate Process</p>
                 <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">How We Handle Sensitive Signings</h2>
                 <p className="text-gray-700 leading-relaxed mb-6">
-                  From first call to final notarization, we remain flexible to medical emergencies, facility lockdowns, or transport schedules. Families rely on us to stay calm, communicate clearly, and protect the signer’s dignity every step of the way.
+                  From first call to final notarization, we remain flexible to medical emergencies, facility lockdowns, or transport schedules. Families rely on us to stay calm, communicate clearly, and protect the signer&apos;s dignity every step of the way.
                 </p>
                 <div className="space-y-5">
                   {[
@@ -441,7 +704,7 @@ export default function HospitalNotaryPage() {
                   </div>
                 </div>
                 <p className="text-gray-700 mb-6">
-                  Provide patient or inmate details, desired documents, and preferred time. We’ll confirm the earliest arrival window and keep you updated throughout the visit.
+                  Provide patient or inmate details, desired documents, and preferred time. We&apos;ll confirm the earliest arrival window and keep you updated throughout the visit.
                 </p>
                 <div className="space-y-4">
                   <a href="tel:5393676832" className="flex items-center gap-3 text-indigo-900 bg-gradient-to-r from-indigo-100 to-purple-100 font-semibold px-5 py-3 rounded-xl">
@@ -462,13 +725,14 @@ export default function HospitalNotaryPage() {
           </div>
         </section>
 
+        {/* FAQs */}
         <section className="py-16 bg-white">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <p className="text-indigo-600 font-semibold uppercase tracking-wide mb-2">Questions We Hear Most</p>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Hospital & Jail Notary FAQs</h2>
               <p className="text-lg text-gray-600">
-                We’re transparent about what to expect so families and legal teams can plan ahead. If you don’t see your question, call us anytime.
+                We&apos;re transparent about what to expect so families and legal teams can plan ahead. If you don&apos;t see your question, call us anytime.
               </p>
             </div>
             <div className="space-y-6">
@@ -488,6 +752,7 @@ export default function HospitalNotaryPage() {
         </section>
       </main>
 
+      {/* Final CTA */}
       <section className="bg-gradient-to-br from-slate-900 via-indigo-900 to-purple-900 text-white py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-10 items-center">
@@ -495,7 +760,7 @@ export default function HospitalNotaryPage() {
               <p className="text-indigo-200 uppercase tracking-wide mb-2">Stay Prepared</p>
               <h2 className="text-3xl md:text-4xl font-bold mb-4">Your Advocate in High-Stress Moments</h2>
               <p className="text-indigo-100 mb-6">
-                Whether you’re finalizing medical directives or handling urgent legal matters for a loved one in custody, our seasoned notaries bring calm assurance and legal precision.
+                Whether you&apos;re finalizing medical directives or handling urgent legal matters for a loved one in custody, our seasoned notaries bring calm assurance and legal precision.
               </p>
               <div className="space-y-4">
                 <div className="flex items-center gap-3">
@@ -523,6 +788,45 @@ export default function HospitalNotaryPage() {
                   <Mail className="w-5 h-5" /> info@justlegalsolutions.org
                 </a>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Related Services */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-6xl mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-8 text-center">Related Notary Services</h2>
+          <div className="grid md:grid-cols-4 gap-4">
+            <Link href="/mobile-notary" className="bg-white p-6 rounded-lg border-2 border-gray-200 hover:border-blue-600 transition-colors group text-center">
+              <p className="font-bold group-hover:text-blue-600">Mobile Notary</p>
+              <p className="text-sm text-gray-600">We come to you</p>
+            </Link>
+            <Link href="/remote-online-notary" className="bg-white p-6 rounded-lg border-2 border-gray-200 hover:border-blue-600 transition-colors group text-center">
+              <p className="font-bold group-hover:text-blue-600">Remote Online Notary</p>
+              <p className="text-sm text-gray-600">Video notarization</p>
+            </Link>
+            <Link href="/what-to-bring" className="bg-white p-6 rounded-lg border-2 border-gray-200 hover:border-blue-600 transition-colors group text-center">
+              <p className="font-bold group-hover:text-blue-600">What to Bring</p>
+              <p className="text-sm text-gray-600">Appointment checklist</p>
+            </Link>
+            <Link href="/notary/joseph" className="bg-white p-6 rounded-lg border-2 border-gray-200 hover:border-blue-600 transition-colors group text-center">
+              <p className="font-bold group-hover:text-blue-600">Meet Your Notary</p>
+              <p className="text-sm text-gray-600">Credentials & certifications</p>
+            </Link>
+          </div>
+          <div className="text-center mt-8">
+            <p className="text-gray-600 mb-2">Official Resources:</p>
+            <div className="flex flex-wrap justify-center gap-4">
+              <a href="https://www.sos.ok.gov/business/notary" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline text-sm">
+                Oklahoma Secretary of State ↗
+              </a>
+              <a href="https://www.hcch.net/en/instruments/conventions/full-text/?cid=41" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline text-sm">
+                Hague Apostille Convention ↗
+              </a>
+              <a href="https://www.nationalnotary.org/knowledge-center" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline text-sm">
+                National Notary Association ↗
+              </a>
             </div>
           </div>
         </div>

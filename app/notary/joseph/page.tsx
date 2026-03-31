@@ -710,6 +710,42 @@ export default function JosephCredentialsPage() {
           </div>
         </section>
 
+        {/* Related Services */}
+        <section className="py-16 bg-gray-50">
+          <div className="max-w-6xl mx-auto px-4">
+            <h2 className="text-3xl font-bold mb-8 text-center">Services Joseph Provides</h2>
+            <div className="grid md:grid-cols-4 gap-4">
+              <Link href="/mobile-notary" className="bg-white p-6 rounded-lg border-2 border-gray-200 hover:border-blue-600 transition-colors group text-center">
+                <p className="font-bold group-hover:text-blue-600">Mobile Notary</p>
+                <p className="text-sm text-gray-600">On-location notarization</p>
+              </Link>
+              <Link href="/remote-online-notary" className="bg-white p-6 rounded-lg border-2 border-gray-200 hover:border-blue-600 transition-colors group text-center">
+                <p className="font-bold group-hover:text-blue-600">Remote Online Notary</p>
+                <p className="text-sm text-gray-600">Video notarization</p>
+              </Link>
+              <Link href="/real-estate-notary" className="bg-white p-6 rounded-lg border-2 border-gray-200 hover:border-blue-600 transition-colors group text-center">
+                <p className="font-bold group-hover:text-blue-600">Real Estate Closings</p>
+                <p className="text-sm text-gray-600">Loan signing agent</p>
+              </Link>
+              <Link href="/hospital-notary" className="bg-white p-6 rounded-lg border-2 border-gray-200 hover:border-blue-600 transition-colors group text-center">
+                <p className="font-bold group-hover:text-blue-600">Hospital Notary</p>
+                <p className="text-sm text-gray-600">Medical facility visits</p>
+              </Link>
+            </div>
+            <div className="text-center mt-8">
+              <p className="text-gray-600 mb-2">Verify Credentials:</p>
+              <div className="flex flex-wrap justify-center gap-4">
+                <a href="https://www.sos.ok.gov/business/notary" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline text-sm">
+                  Oklahoma Secretary of State ↗
+                </a>
+                <a href="https://www.nationalnotary.org/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline text-sm">
+                  National Notary Association ↗
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Back Link */}
         <section className="py-8 bg-white">
           <div className="max-w-6xl mx-auto px-4 text-center">

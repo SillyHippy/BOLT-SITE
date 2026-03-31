@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Link from 'next/link';
 import Navbar from '../../components/ui/navbar';
 import Footer from '../../components/ui/footer';
 import JsonLd from '../../components/ui/json-ld';
@@ -545,6 +546,32 @@ export default function WeddingOfficiantPage() {
               </a>
               <a href="mailto:info@justlegalsolutions.org" className="inline-flex items-center gap-2 border border-white text-white px-6 py-3 rounded-lg font-semibold">
                 <Mail className="w-5 h-5" /> Request Availability
+              </a>
+            </div>
+          </div>
+        </section>
+
+        {/* Related Services */}
+        <section className="py-16 bg-gray-50">
+          <div className="max-w-6xl mx-auto px-4">
+            <h2 className="text-3xl font-bold mb-8 text-center">Also Available</h2>
+            <div className="grid md:grid-cols-3 gap-4">
+              <Link href="/mobile-notary" className="bg-white p-6 rounded-lg border-2 border-gray-200 hover:border-rose-600 transition-colors group text-center">
+                <p className="font-bold group-hover:text-rose-600">Mobile Notary</p>
+                <p className="text-sm text-gray-600">Document notarization</p>
+              </Link>
+              <Link href="/apostille" className="bg-white p-6 rounded-lg border-2 border-gray-200 hover:border-rose-600 transition-colors group text-center">
+                <p className="font-bold group-hover:text-rose-600">Apostille Services</p>
+                <p className="text-sm text-gray-600">International marriage certificates</p>
+              </Link>
+              <Link href="/notary/joseph" className="bg-white p-6 rounded-lg border-2 border-gray-200 hover:border-rose-600 transition-colors group text-center">
+                <p className="font-bold group-hover:text-rose-600">Meet Joseph</p>
+                <p className="text-sm text-gray-600">Credentials & certifications</p>
+              </Link>
+            </div>
+            <div className="text-center mt-8">
+              <a href="https://www.themonastery.org/verify-ministers" target="_blank" rel="noopener noreferrer" className="text-rose-600 hover:underline text-sm">
+                Verify Ordination at Universal Life Church ↗
               </a>
             </div>
           </div>

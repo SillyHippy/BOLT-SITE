@@ -523,6 +523,45 @@ export default function RealEstateNotaryPage() {
             </div>
           </div>
         </section>
+
+        {/* Related Services */}
+        <section className="py-16 bg-gray-50">
+          <div className="max-w-6xl mx-auto px-4">
+            <h2 className="text-3xl font-bold mb-8 text-center">Related Notary Services</h2>
+            <div className="grid md:grid-cols-4 gap-4">
+              <Link href="/mobile-notary" className="bg-white p-6 rounded-lg border-2 border-gray-200 hover:border-amber-600 transition-colors group text-center">
+                <p className="font-bold group-hover:text-amber-600">Mobile Notary</p>
+                <p className="text-sm text-gray-600">We come to your location</p>
+              </Link>
+              <Link href="/apostille" className="bg-white p-6 rounded-lg border-2 border-gray-200 hover:border-amber-600 transition-colors group text-center">
+                <p className="font-bold group-hover:text-amber-600">Apostille Services</p>
+                <p className="text-sm text-gray-600">International transactions</p>
+              </Link>
+              <Link href="/what-to-bring" className="bg-white p-6 rounded-lg border-2 border-gray-200 hover:border-amber-600 transition-colors group text-center">
+                <p className="font-bold group-hover:text-amber-600">What to Bring</p>
+                <p className="text-sm text-gray-600">Closing checklist</p>
+              </Link>
+              <Link href="/notary/joseph" className="bg-white p-6 rounded-lg border-2 border-gray-200 hover:border-amber-600 transition-colors group text-center">
+                <p className="font-bold group-hover:text-amber-600">Meet Your Notary</p>
+                <p className="text-sm text-gray-600">Credentials & certifications</p>
+              </Link>
+            </div>
+            <div className="text-center mt-8">
+              <p className="text-gray-600 mb-2">Industry Resources:</p>
+              <div className="flex flex-wrap justify-center gap-4">
+                <a href="https://www.alta.org/" target="_blank" rel="noopener noreferrer" className="text-amber-600 hover:underline text-sm">
+                  American Land Title Association (ALTA) ↗
+                </a>
+                <a href="https://www.sos.ok.gov/business/notary" target="_blank" rel="noopener noreferrer" className="text-amber-600 hover:underline text-sm">
+                  Oklahoma Secretary of State ↗
+                </a>
+                <a href="https://www.nationalnotary.org/knowledge-center/loan-signing" target="_blank" rel="noopener noreferrer" className="text-amber-600 hover:underline text-sm">
+                  NNA Loan Signing Resources ↗
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
 
       <Footer />
