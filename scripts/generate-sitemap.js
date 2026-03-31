@@ -184,6 +184,15 @@ function generateSitemap() {
 
     // Notary Service Pages (priority 0.9)
     '/notary',
+    '/notary/joseph',
+    '/mobile-notary',
+    '/remote-online-notary',
+    '/hospital-notary',
+    '/real-estate-notary',
+    '/notary/tulsa-county',
+    '/notary/creek-county',
+    '/wedding-officiant',
+    '/apostille',
     '/notary-faqs',
     '/notary-laws',
 

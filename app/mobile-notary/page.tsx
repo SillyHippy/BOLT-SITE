@@ -259,9 +259,9 @@ const faqs: FAQItem[] = [
   {
     question: 'How quickly can a mobile notary reach my Tulsa or Glenpool location?',
     answer:
-      'Most Tulsa County calls are scheduled within two hours because our base at 14405 S Poplar Pl in Glenpool is minutes from Highway 75 and the Creek Turnpike. For extreme emergencies—such as a hospital bedside power of attorney—call (539) 367-6832 and we will confirm ETA in real time.',
+      'Most Tulsa County calls are scheduled within two hours thanks to our strategic central location. For extreme emergencies—such as a hospital bedside power of attorney—call (539) 367-6832 and we will confirm ETA in real time.',
     schemaAnswer:
-      'Most Tulsa County calls are scheduled within two hours because our base at 14405 S Poplar Pl in Glenpool is minutes from Highway 75 and the Creek Turnpike. For extreme emergencies—such as a hospital bedside power of attorney—call (539) 367-6832 and we will confirm ETA in real time.'
+      'Most Tulsa County calls are scheduled within two hours thanks to our strategic central location. For extreme emergencies—such as a hospital bedside power of attorney—call (539) 367-6832 and we will confirm ETA in real time.'
   },
   {
     question: 'Do you handle hospital signings and what should families prepare?',
@@ -375,12 +375,6 @@ const notaryServiceSchema = {
     'Owasso',
     'Collinsville'
   ],
-  areaServed: [
-    { '@type': 'State', 'name': 'Oklahoma' },
-    { '@type': 'City', 'name': 'Tulsa' },
-    { '@type': 'City', 'name': 'Glenpool' },
-    { '@type': 'City', 'name': 'Broken Arrow' }
-  ],
   availableServiceChannel: [
     {
       '@type': 'ServiceChannel',
@@ -433,8 +427,7 @@ const localBusinessSchema = {
       email: 'info@justlegalsolutions.org',
       availableLanguage: ['English']
     }
-  ],
-  areaServed: ['Tulsa County', 'Creek County', 'Wagoner County', 'Osage County']
+  ]
 };
 
 const breadcrumbSchema = {

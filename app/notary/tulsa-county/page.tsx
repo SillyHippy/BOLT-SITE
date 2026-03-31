@@ -333,7 +333,7 @@ export default function TulsaCountyNotaryPage() {
                   })}
                 </div>
                 <p className="text-sm text-blue-100 mt-4">
-                  Fully bonded and insured. See Joseph's credentials at <Link href="/notary/joseph" className="underline font-semibold">/notary/joseph</Link>.
+                  Fully bonded and insured. See Joseph&apos;s credentials at <Link href="/notary/joseph" className="underline font-semibold">/notary/joseph</Link>.
                 </p>
               </div>
             </div>
