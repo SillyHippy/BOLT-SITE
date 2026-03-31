@@ -55,28 +55,17 @@ const personSchema = {
   "jobTitle": "Founder & CEO",
   "description": "Licensed Oklahoma Notary Public, Remote Online Notarization (RON) certified, and professional process server serving Tulsa County and all of Oklahoma.",
   "image": "https://justlegalsolutions.org/images/team/joseph-iannazzi.webp",
-  "telephone": "+1-918-859-7575",
+  "telephone": "+1-539-367-6832",
   "email": "info@justlegalsolutions.org",
   "worksFor": {
     "@type": "LocalBusiness",
     "name": "Just Legal Solutions",
     "url": "https://justlegalsolutions.org",
-    "telephone": "+1-918-859-7575",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "14405 S Poplar Pl",
-      "addressLocality": "Glenpool",
-      "addressRegion": "OK",
-      "postalCode": "74033",
-      "addressCountry": "US"
-    }
+    "telephone": "+1-539-367-6832"
   },
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Glenpool",
-    "addressRegion": "OK",
-    "postalCode": "74033",
-    "addressCountry": "US"
+  "areaServed": {
+    "@type": "State",
+    "name": "Oklahoma"
   },
   "url": canonicalUrl,
   "sameAs": [
@@ -610,9 +599,11 @@ export default function JosephCredentialsPage() {
               </p>
             </div>
             <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-200">
-              <img
+              <Image
                 src="/notary-credentials/joseph/Joseph-Iannazzi-Proof-Academy-Certificate.png"
                 alt="Joseph William Iannazzi - Proof Academy Certified - Notarize Network Platform Training NST Certification - Earned 03/30/2026"
+                width={800}
+                height={600}
                 className="w-full h-auto"
               />
             </div>
@@ -643,7 +634,7 @@ export default function JosephCredentialsPage() {
                       <Star key={i} className="w-4 h-4 text-yellow-500 fill-yellow-500" />
                     ))}
                   </div>
-                  <p className="text-gray-700 mb-4 italic">"{review.text}"</p>
+                  <p className="text-gray-700 mb-4 italic">&ldquo;{review.text}&rdquo;</p>
                   <div className="flex items-center justify-between">
                     <div>
                       <p className="font-semibold text-gray-900">{review.name}</p>
@@ -671,7 +662,7 @@ export default function JosephCredentialsPage() {
                 Credential Verification FAQs
               </h2>
               <p className="text-gray-600">
-                Common questions about Joseph's professional credentials and qualifications.
+                Common questions about Joseph&apos;s professional credentials and qualifications.
               </p>
             </div>
 

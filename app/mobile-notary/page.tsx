@@ -66,7 +66,7 @@ const serviceAreas = [
   {
     name: 'Tulsa County',
     description:
-      'We dispatch multiple units throughout Tulsa County every day, supporting downtown Tulsa courthouses, Midtown medical towers, South Tulsa title companies, the Port of Catoosa logistics corridor, and neighborhood clients across Tulsa, Glenpool, Broken Arrow, Bixby, Jenks, Sand Springs, Owasso, and Collinsville. Because our headquarters sits in Glenpool at 14405 S Poplar Pl, we can be in Brookside, Kendall-Whittier, or the Tulsa Innovation Labs zone within minutes. We also coordinate with Tulsa County District Court clerks to make sure your notarized affidavits, loan packages, and jurats are filed the same day they are executed.',
+      'We dispatch multiple units throughout Tulsa County every day, supporting downtown Tulsa courthouses, Midtown medical towers, South Tulsa title companies, the Port of Catoosa logistics corridor, and neighborhood clients across Tulsa, Glenpool, Broken Arrow, Bixby, Jenks, Sand Springs, Owasso, and Collinsville. Because we are centrally located in the Tulsa metro, we can be in Brookside, Kendall-Whittier, or the Tulsa Innovation Labs zone within minutes. We also coordinate with Tulsa County District Court clerks to make sure your notarized affidavits, loan packages, and jurats are filed the same day they are executed.',
     keywords: 'Tulsa, Glenpool, Broken Arrow, Bixby, Jenks, Sand Springs, Owasso, Collinsville'
   },
   {
@@ -375,33 +375,13 @@ const notaryServiceSchema = {
     'Owasso',
     'Collinsville'
   ],
-  address: {
-    '@type': 'PostalAddress',
-    streetAddress: '14405 S Poplar Pl',
-    addressLocality: 'Glenpool',
-    addressRegion: 'OK',
-    postalCode: '74033',
-    addressCountry: 'US'
-  },
-  geo: {
-    '@type': 'GeoCoordinates',
-    latitude: 35.9531,
-    longitude: -96.0039
-  },
+  areaServed: [
+    { '@type': 'State', 'name': 'Oklahoma' },
+    { '@type': 'City', 'name': 'Tulsa' },
+    { '@type': 'City', 'name': 'Glenpool' },
+    { '@type': 'City', 'name': 'Broken Arrow' }
+  ],
   availableServiceChannel: [
-    {
-      '@type': 'ServiceChannel',
-      serviceLocation: {
-        '@type': 'Place',
-        address: {
-          '@type': 'PostalAddress',
-          streetAddress: '14405 S Poplar Pl',
-          addressLocality: 'Glenpool',
-          addressRegion: 'OK',
-          postalCode: '74033'
-        }
-      }
-    },
     {
       '@type': 'ServiceChannel',
       serviceUrl: 'https://justlegalsolutions.org/contact'
@@ -425,18 +405,9 @@ const localBusinessSchema = {
   image: 'https://justlegalsolutions.org/images/logo.png',
   telephone: '+1-539-367-6832',
   email: 'info@justlegalsolutions.org',
-  address: {
-    '@type': 'PostalAddress',
-    streetAddress: '14405 S Poplar Pl',
-    addressLocality: 'Glenpool',
-    addressRegion: 'OK',
-    postalCode: '74033',
-    addressCountry: 'US'
-  },
-  geo: {
-    '@type': 'GeoCoordinates',
-    latitude: 35.9531,
-    longitude: -96.0039
+  areaServed: {
+    '@type': 'State',
+    'name': 'Oklahoma'
   },
   openingHoursSpecification: [
     {
@@ -584,7 +555,7 @@ export default function MobileNotaryPage() {
                   </div>
                 </div>
                 <div className="mt-6 text-sm text-blue-100">
-                  Official address: 14405 S Poplar Pl, Glenpool, OK 74033 · Website: justlegalsolutions.org
+                  Website: justlegalsolutions.org · Call: (539) 367-6832
                 </div>
               </div>
             </div>
@@ -864,7 +835,7 @@ export default function MobileNotaryPage() {
               </Link>
             </div>
             <p className="text-sm text-blue-200 mt-6">
-              Dispatch address: 14405 S Poplar Pl, Glenpool, OK 74033 · Service area: Tulsa, Creek, Wagoner, Osage counties and surrounding communities.
+              Service area: Tulsa, Creek, Wagoner, Osage counties and surrounding communities throughout Oklahoma.
             </p>
           </div>
         </section>

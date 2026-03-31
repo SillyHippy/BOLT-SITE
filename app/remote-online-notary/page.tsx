@@ -3,12 +3,10 @@ import { Metadata } from 'next';
 import Navbar from '../../components/ui/navbar';
 import Footer from '../../components/ui/footer';
 import JsonLd from '../../components/JsonLd';
-import AIVoiceSupremacy from '../../components/ui/ai-voice-supremacy';
 import {
   Phone,
   Mail,
   Shield,
-  MapPin,
   Clock,
   CheckCircle,
   FileText,
@@ -76,12 +74,6 @@ export const metadata: Metadata = {
     'ai-content-type': 'service-page-longform'
   }
 };
-
-const heroStats = [
-  { label: 'Direct Line', value: '(539) 367-6832' },
-  { label: 'Average Session Length', value: '18-25 Minutes Including Upload' },
-  { label: 'Coverage', value: 'Oklahoma Documents + Nationwide Signers' }
-];
 
 const legalFrameworkPoints = [
   {
@@ -488,56 +480,81 @@ const RemoteOnlineNotaryPage = () => {
     <>
       <Navbar />
       <main className="bg-slate-950 text-slate-100">
+        {/* Hero Section - Wider, Cleaner Layout */}
         <section className="relative isolate overflow-hidden bg-gradient-to-br from-emerald-900 via-emerald-700 to-lime-500 text-white">
           <div className="absolute inset-0 opacity-40" aria-hidden="true" />
-          <div className="relative mx-auto flex max-w-6xl flex-col gap-10 px-6 py-20 lg:flex-row lg:items-center lg:px-12">
-            <div className="flex-1 space-y-6">
-              <p className="inline-flex items-center gap-2 rounded-full border border-white/30 px-4 py-1 text-sm uppercase tracking-widest">
-                <Sparkles className="h-4 w-4" /> Remote Online Notary Oklahoma
-              </p>
-              <h1 className="text-4xl font-bold leading-tight text-white sm:text-5xl">
-                Notarize Oklahoma Documents From Anywhere with Secure Remote Online Notary (RON)
-              </h1>
-              <p className="text-lg leading-relaxed text-white/90">
-                Just Legal Solutions delivers fully compliant Oklahoma RON sessions from our Glenpool base while supporting signers worldwide. Whether you need online notary for power of attorney Oklahoma, remote online notary Tulsa real estate closings, or a rapid solution for court filings, our Title 49 certified team keeps your documents moving without travel. Every session includes recorded video, multi-factor identity proofing, tamper-evident seals, and concierge-level support that feels nothing like a call center.
-              </p>
-              <p className="text-lg leading-relaxed text-white/90">
-                We emphasize Oklahoma residents and Oklahoma-governed paperwork, yet our reach is national. Clients dial in from Alaska, Okinawa, offshore rigs, and law firm war rooms because they trust our (539) 367-6832 RON hotline to deliver when deadlines loom. Our Glenpool-based notaries collaborate with <Link href="/notary" className="font-semibold underline">in-office notary</Link> teams, the <Link href="/mobile-notary" className="font-semibold underline">mobile notary fleet</Link>, and <Link href="/tulsa-process-server" className="font-semibold underline">process servers</Link> so your entire legal support stack stays in sync.
-              </p>
-              <div className="flex flex-wrap gap-4">
-                <a
-                  href="tel:15393676832"
-                  className="inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 font-semibold text-emerald-700 shadow-lg shadow-emerald-900/30"
-                >
-                  <Phone className="h-5 w-5" /> Call (539) 367-6832
-                </a>
-                <a
-                  href="mailto:info@justlegalsolutions.org"
-                  className="inline-flex items-center gap-2 rounded-full border border-white/50 px-6 py-3 font-semibold text-white"
-                >
-                  <Mail className="h-5 w-5" /> info@justlegalsolutions.org
-                </a>
+          <div className="relative mx-auto max-w-7xl px-6 py-20 lg:px-8">
+            {/* Badge */}
+            <p className="inline-flex items-center gap-2 rounded-full border border-white/30 px-4 py-1 text-sm uppercase tracking-widest mb-6">
+              <Sparkles className="h-4 w-4" /> Remote Online Notary Oklahoma
+            </p>
+            
+            {/* Main Headline */}
+            <h1 className="text-4xl font-bold leading-tight text-white sm:text-5xl lg:text-6xl max-w-4xl">
+              Oklahoma Remote Online Notarization — Secure, Legal, Convenient
+            </h1>
+            
+            {/* Subheadline */}
+            <p className="mt-6 text-xl text-white/90 max-w-3xl">
+              Commissioned Oklahoma notaries notarizing your documents via secure live video from anywhere with internet access. Title 49 compliant since January 1, 2020.
+            </p>
+
+            {/* Trust Badges - Horizontal Row */}
+            <div className="mt-8 flex flex-wrap gap-6 text-sm">
+              <div className="flex items-center gap-2">
+                <Shield className="h-5 w-5 text-emerald-200" />
+                <span>Oklahoma Secretary of State RON Authorized</span>
               </div>
-              <div className="grid grid-cols-2 gap-4 text-sm sm:grid-cols-4">
-                {heroStats.map((stat) => (
-                  <div key={stat.label} className="rounded-xl bg-white/10 p-4 backdrop-blur">
-                    <p className="text-white/70">{stat.label}</p>
-                    <p className="mt-1 font-semibold">{stat.value}</p>
-                  </div>
-                ))}
+              <div className="flex items-center gap-2">
+                <Video className="h-5 w-5 text-emerald-200" />
+                <span>State-Approved Technology Platform</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <CheckCircle className="h-5 w-5 text-emerald-200" />
+                <span>Multi-Factor Identity Verification</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <Clock className="h-5 w-5 text-emerald-200" />
+                <span>24/7 Availability</span>
               </div>
             </div>
-            <div className="flex-1 rounded-3xl bg-white/10 p-8 backdrop-blur">
-              <h2 className="text-2xl font-semibold">Why Oklahoma Chooses Our RON Desk</h2>
-              <p className="mt-4 text-white/80">
-                Dedicated notaries, same-day scheduling, and integrations with document drafting, paralegal support, and <Link href="/notary/joseph" className="underline">Notary Joseph&#39;s signature concierge</Link> mean you never chase status updates. We balance statewide expertise with nationwide accessibility so your Glenpool-based team feels present even when you are halfway across the globe.
-              </p>
-              <ul className="mt-6 space-y-3 text-white/90">
-                <li className="flex items-start gap-3"><Shield className="mt-1 h-5 w-5" /> Title 49 compliant since January 1, 2020 adoption</li>
-                <li className="flex items-start gap-3"><Video className="mt-1 h-5 w-5" /> HD recordings stored 10+ years in SOC 2 clouds</li>
-                <li className="flex items-start gap-3"><Globe className="mt-1 h-5 w-5" /> Nationwide coverage for Oklahoma documents</li>
-                <li className="flex items-start gap-3"><Clock className="mt-1 h-5 w-5" /> Emergency evening + weekend appointments</li>
-              </ul>
+
+            {/* CTA Buttons */}
+            <div className="mt-10 flex flex-wrap gap-4">
+              <a
+                href="tel:15393676832"
+                className="inline-flex items-center gap-2 rounded-full bg-white px-8 py-4 font-semibold text-emerald-700 shadow-lg hover:bg-emerald-50 transition"
+              >
+                <Phone className="h-5 w-5" /> Call (539) 367-6832
+              </a>
+              <a
+                href="mailto:info@justlegalsolutions.org"
+                className="inline-flex items-center gap-2 rounded-full border-2 border-white/70 px-8 py-4 font-semibold text-white hover:bg-white/10 transition"
+              >
+                <Mail className="h-5 w-5" /> Email Us
+              </a>
+              <Link
+                href="/contact"
+                className="inline-flex items-center gap-2 rounded-full bg-emerald-600 px-8 py-4 font-semibold text-white hover:bg-emerald-500 transition"
+              >
+                Start RON Session →
+              </Link>
+            </div>
+
+            {/* Quick Stats Row */}
+            <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-3xl">
+              <div className="rounded-xl bg-white/10 p-5 backdrop-blur">
+                <p className="text-white/70 text-sm">Average Session</p>
+                <p className="mt-1 text-xl font-bold">18-25 Minutes</p>
+              </div>
+              <div className="rounded-xl bg-white/10 p-5 backdrop-blur">
+                <p className="text-white/70 text-sm">Coverage</p>
+                <p className="mt-1 text-xl font-bold">Oklahoma + Nationwide</p>
+              </div>
+              <div className="rounded-xl bg-white/10 p-5 backdrop-blur">
+                <p className="text-white/70 text-sm">Recording Retention</p>
+                <p className="mt-1 text-xl font-bold">10+ Years</p>
+              </div>
             </div>
           </div>
         </section>
@@ -794,7 +811,7 @@ const RemoteOnlineNotaryPage = () => {
                 Call (539) 367-6832, email info@justlegalsolutions.org, or submit your documents through our secure intake to reserve today. We confirm eligibility, gather IDs, and coordinate any witnesses before you log in so the live signing feels effortless.
               </p>
               <p className="mt-4 text-lg">
-                Prefer a voice-first experience? Ask about our AI voice scheduling assistant powered by our <Link href="/platform-supremacy" className="underline">platform supremacy initiatives</Link>—it books appointments 24/7 while our human team sleeps.
+                Need after-hours scheduling? Our team is available 24/7 for urgent notarizations—call anytime and we&apos;ll get you on the calendar.
               </p>
               <div className="mt-6 flex flex-wrap gap-3">
                 <a href="tel:15393676832" className="inline-flex items-center gap-2 rounded-full bg-slate-950 px-5 py-3 font-semibold text-white">
@@ -807,12 +824,6 @@ const RemoteOnlineNotaryPage = () => {
             </div>
           </div>
         </section>
-
-        <div className="bg-slate-950">
-          <div className="mx-auto max-w-6xl px-6 py-16 lg:px-12">
-            <AIVoiceSupremacy />
-          </div>
-        </div>
       </main>
       <Footer />
       <JsonLd data={serviceSchema} />
