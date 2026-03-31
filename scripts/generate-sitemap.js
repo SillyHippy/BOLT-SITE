@@ -186,6 +186,8 @@ function generateSitemap() {
     '/notary',
     '/notary/joseph',
     '/mobile-notary',
+    '/mobile-notary-vs-bank',
+    '/what-to-bring',
     '/remote-online-notary',
     '/hospital-notary',
     '/real-estate-notary',
@@ -255,7 +257,7 @@ function generateSitemap() {
   const PRIORITY_1_0_PAGES = ['/', '/tulsa-process-server', '/pricing', '/contact'];
   const PRIORITY_0_9_PATTERNS = ['/process-serving', '/same-day-process-server', '/urgent-process-server',
     '/skip-tracing', '/subpoena-service', '/eviction-notice-service', '/courier-services', '/weekend-emergency',
-    '/notary'];
+    '/notary', '/mobile-notary', '/apostille'];
 
   const urlEntries = allUrls.map(url => {
     let priority = '0.7'; // Default priority

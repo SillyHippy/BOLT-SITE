@@ -78,6 +78,8 @@ const sections: SitemapSection[] = [
       { url: '/notary', label: 'Notary Services' },
       { url: '/notary/joseph', label: 'Joseph&apos;s Credentials' },
       { url: '/mobile-notary', label: 'Mobile Notary' },
+      { url: '/mobile-notary-vs-bank', label: 'Mobile Notary vs Bank Notary' },
+      { url: '/what-to-bring', label: 'What to Bring to Your Appointment' },
       { url: '/remote-online-notary', label: 'Remote Online Notarization (RON)' },
       { url: '/hospital-notary', label: 'Hospital & Jail Notary' },
       { url: '/real-estate-notary', label: 'Real Estate & Loan Signing' },
