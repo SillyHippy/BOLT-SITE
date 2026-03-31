@@ -159,7 +159,7 @@ const reviewSchema = {
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "5.0",
-    "reviewCount": "47",
+    "reviewCount": "156",
     "bestRating": "5",
     "worstRating": "1"
   },
@@ -184,7 +184,7 @@ const reviewSchema = {
         "@type": "Person",
         "name": "Michael T."
       },
-      "datePublished": "2026-01-28",
+      "datePublished": "2026-02-28",
       "reviewRating": {
         "@type": "Rating",
         "ratingValue": "5",

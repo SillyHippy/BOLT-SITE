@@ -241,7 +241,7 @@ const trustBadges = [
   },
   {
     title: 'E&O Insured',
-    detail: '$1M Errors & Omissions coverage protects your files even when travel involves high-value transactions. Exceeds statutory minimums.'
+    detail: '$10,000 Errors & Omissions coverage protects your files during travel and high-value transactions. Exceeds statutory requirements.'
   },
   {
     title: 'NNA Certified',
@@ -614,7 +614,7 @@ export default function MobileNotaryPage() {
                   </li>
                   <li className="flex items-start">
                     <Shield className="w-6 h-6 text-blue-600 mr-3" />
-                    <span className="text-slate-600"><strong>$10,000 Surety Bond (SB 1028):</strong> We carry the 2026-required bond amount now, plus $1M E&amp;O insurance to protect consumers and law firms.</span>
+                    <span className="text-slate-600"><strong>$10,000 Surety Bond (SB 1028):</strong> We carry the 2026-required bond amount now, plus $10,000 E&amp;O insurance to protect consumers and law firms.</span>
                   </li>
                   <li className="flex items-start">
                     <CheckCircle className="w-6 h-6 text-blue-600 mr-3" />
