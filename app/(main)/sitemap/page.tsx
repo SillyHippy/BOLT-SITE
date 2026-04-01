@@ -76,7 +76,7 @@ const sections: SitemapSection[] = [
     color: 'green',
     links: [
       { url: '/notary', label: 'Notary Services' },
-      { url: '/notary/joseph', label: 'Joseph&apos;s Credentials' },
+      { url: '/notary/joseph', label: "Joseph's Credentials" },
       { url: '/mobile-notary', label: 'Mobile Notary' },
       { url: '/mobile-notary-vs-bank', label: 'Mobile Notary vs Bank Notary' },
       { url: '/what-to-bring', label: 'What to Bring to Your Appointment' },
