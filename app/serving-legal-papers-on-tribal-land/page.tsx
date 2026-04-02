@@ -1,7 +1,9 @@
 import { Metadata } from 'next';
+import Link from 'next/link';
 import Navbar from '../../components/ui/navbar';
 import Footer from '../../components/ui/footer';
-import JsonLd from '../../components/JsonLd';
+import UnifiedSchema from '@/components/UnifiedSchema';
+import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 const canonicalUrl = 'https://justlegalsolutions.org/serving-legal-papers-on-tribal-land';
 
@@ -45,51 +47,105 @@ export const metadata: Metadata = {
   other: {
     'article:author': 'Just Legal Solutions Team',
     'article:published_time': '2025-10-11',
-    'article:modified_time': '2026-01-25'
+    'article:modified_time': '2026-01-25',
+    'ai-content-type': 'article',
+    'ai-summary': 'Comprehensive guide for process servers navigating Oklahoma state and tribal jurisdictions after McGirt v. Oklahoma, covering Cherokee, Muscogee Creek, and Choctaw Nation procedures.',
+    'ai-key-facts': 'McGirt v. Oklahoma (2020) expanded tribal jurisdiction; tribal courts have concurrent jurisdiction; Cherokee, Muscogee Creek, and Choctaw Nations have separate service procedures; 12 O.S. § 2004 governs state-side service',
   }
 };
 
-const articleSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'Article',
-  headline: 'Serving Legal Papers in Oklahoma: A Guide for Process Servers on State and Tribal Land',
-  description:
-    'Serving Legal Papers in Oklahoma: A Guide for Process Servers on State and Tribal Land covering jurisdictional changes, state procedures, tribal checklists, and enforcement steps.',
-  author: {
-    '@type': 'Organization',
-    name: 'Just Legal Solutions'
+const faqs = [
+  {
+    question: 'Do I need tribal court permission to serve papers on tribal land in Oklahoma?',
+    answer:
+      "It depends on the tribe. Many Oklahoma tribal nations require that a process server contact the tribal court clerk and, in some cases, obtain permission or coordinate with tribal police before serving papers on their lands. Always verify procedures with the specific tribal court before attempting service."
   },
-  publisher: {
-    '@type': 'Organization',
-    name: 'Just Legal Solutions'
+  {
+    question: 'What is the McGirt v. Oklahoma decision and how does it affect process serving?',
+    answer:
+      "McGirt v. Oklahoma (2020) was a U.S. Supreme Court ruling affirming that the Muscogee (Creek) Nation reservation was never formally disestablished. Its legal logic was later extended to the Cherokee, Choctaw, Chickasaw, and Seminole Nations. This means roughly half of Oklahoma is now recognized as Indian Country, requiring process servers to conduct a jurisdictional analysis before serving papers in eastern Oklahoma."
   },
-  datePublished: '2025-10-11',
-  dateModified: '2026-01-25',
-  mainEntityOfPage: canonicalUrl,
-  keywords: [
-    'Oklahoma process server',
-    'tribal jurisdiction',
-    'McGirt v. Oklahoma',
-    'Cherokee Nation service',
-    'Muscogee Creek Nation',
-    'Choctaw Nation service'
-  ],
-  articleSection: [
-    'Introduction',
-    'State Service Requirements',
-    'Serving on Tribal Land',
-    'Tribal Nation Procedures',
-    'Enforcing Judgments',
-    'Final Checklist',
-    'Resources'
-  ]
-};
+  {
+    question: 'Can a state-licensed Oklahoma process server serve papers on tribal land?',
+    answer:
+      "A state license alone does not grant automatic authority to serve papers on tribal lands. Some tribal nations, like the Choctaw Nation, explicitly recognize state-licensed process servers. Others may require a tribal-specific license or mandate that service be performed by tribal law enforcement. Always verify with the tribal court beforehand."
+  },
+  {
+    question: 'Which Oklahoma tribal nations have their own court systems?',
+    answer:
+      "Oklahoma has 38 federally recognized tribal nations, many with their own judicial branches. The three largest are the Cherokee Nation (Tahlequah), the Muscogee (Creek) Nation (Okmulgee), and the Choctaw Nation of Oklahoma (Durant). Each operates independent trial and appellate courts with their own civil procedure rules."
+  },
+  {
+    question: 'What happens if I serve papers incorrectly on tribal land?',
+    answer:
+      "Improper service on tribal land can result in the court dismissing the case for lack of proper notice. A judgment obtained without valid service is unenforceable and may be vacated. This wastes time and money and can seriously harm the plaintiff's legal position."
+  },
+  {
+    question: 'How do I determine if an address is on tribal land in Oklahoma?',
+    answer:
+      "The U.S. Bureau of Indian Affairs and the Native American Rights Fund publish tribal land maps. The Oklahoma Secretary of State and individual tribal nation websites also maintain jurisdictional information. When in doubt, contact the tribal court clerk for the relevant nation and ask directly."
+  },
+  {
+    question: 'Are tribal court judgments enforceable in Oklahoma state courts?',
+    answer:
+      "Yes, under Rule 30 of the Oklahoma District Court Rules, Oklahoma state courts will give full faith and credit to tribal judgments—but only if the tribe has a reciprocity agreement recognizing Oklahoma state court judgments in return. The Administrative Office of the Courts maintains an official list of tribes with reciprocity agreements."
+  },
+  {
+    question: 'What is the difference between tribal jurisdiction and state jurisdiction for civil cases?',
+    answer:
+      "State jurisdiction applies to parties and events outside tribal land boundaries (and in some cases to non-tribal members). Tribal jurisdiction applies when the case arises on tribal land and involves tribal members, or when the tribe has otherwise asserted civil authority. After McGirt, the jurisdictional overlap in eastern Oklahoma makes a case-by-case analysis essential."
+  },
+  {
+    question: 'Can tribal members be served with state court documents?',
+    answer:
+      "Yes. Tribal members may be served with Oklahoma state court documents using standard state procedures (12 O.S. § 2004) when the case falls within state court jurisdiction. However, if the matter arises on tribal land and involves tribal jurisdiction, the proper forum may be tribal court, not state court."
+  },
+  {
+    question: 'How long does tribal court service of process take compared to state court?',
+    answer:
+      "Timelines vary by tribal nation. Service through tribal police (such as the Muscogee Creek Nation Lighthorse) can take several days to a few weeks depending on caseload. State court service by a licensed process server is typically completed within 1-5 business days. Build extra lead time into deadlines when serving on tribal land."
+  },
+  {
+    question: 'What are the fees for filing in tribal courts vs. Oklahoma state courts?',
+    answer:
+      "Tribal court fees vary. The Cherokee Nation charges $100 to file a civil case and $5 per summons. The Muscogee (Creek) Nation charges $84 to file and $5 per summons. Oklahoma state court fees vary by county and case type, generally ranging from $85 to $200 for a new civil filing. Contact the tribal or state court clerk for the current fee schedule."
+  },
+  {
+    question: 'Does Just Legal Solutions serve papers on tribal land in Oklahoma?',
+    answer:
+      "Yes. Just Legal Solutions has experience navigating the jurisdictional complexities of Oklahoma tribal lands. We coordinate with tribal courts and law enforcement as required, follow each nation's specific procedures, and ensure proper proof of service is filed. Contact us at (539) 367-6832 for assistance."
+  }
+];
+
 
 export default function ServingLegalPapersOklahomaGuide() {
   return (
     <>
+      <UnifiedSchema
+        pageType="article"
+        pageTitle="Serving Legal Papers in Oklahoma: A Guide for Process Servers on State and Tribal Land"
+        pageDescription="Comprehensive roadmap for Oklahoma process servers working on state and tribal land, including Cherokee, Muscogee (Creek), and Choctaw Nation procedures."
+        pageUrl="https://justlegalsolutions.org/serving-legal-papers-on-tribal-land"
+        siteName="Just Legal Solutions"
+        reviewCount={156}
+        services={['Tribal Land Process Serving', 'Process Serving', 'Skip Tracing']}
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Process Serving', url: '/process-serving' },
+          { name: 'Serving on Tribal Land', url: '/serving-legal-papers-on-tribal-land' },
+        ]}
+        articleDetails={{
+          headline: "Serving Legal Papers in Oklahoma: A Guide for Process Servers on State and Tribal Land",
+          author: "Joseph Iannazzi",
+          datePublished: "2025-10-11",
+          dateModified: "2026-04-02",
+          image: "https://justlegalsolutions.org/og-image.png"
+        }}
+        faqItems={faqs.map(f => ({ question: f.question, answer: f.answer }))}
+        keywords={['Oklahoma process server', 'tribal land service', 'McGirt v Oklahoma', 'Cherokee Nation process service', 'Muscogee Creek service of process', 'Choctaw Nation civil procedure']}
+      />
       <Navbar />
-      <JsonLd data={articleSchema} />
+      <LocalPromoBanner zips={[]} />
       <main className="max-w-4xl mx-auto px-4 py-8 pt-24 text-gray-800">
         <header className="mb-10">
           <h1 className="text-4xl font-bold mb-4">
@@ -458,7 +514,9 @@ export default function ServingLegalPapersOklahomaGuide() {
           <h2 className="text-3xl font-semibold">VII. Citations and Resources</h2>
           <h3 className="text-2xl font-semibold">Legal Statutes and Court Rules</h3>
           <ul className="list-disc ml-6 space-y-2">
-            <li>Oklahoma Rules of Civil Procedure, Title 12, Oklahoma Statutes.</li>
+            <li>
+              <a href="https://www.oscn.net/applications/oscn/index.asp?ftdb=STOKST12" className="text-blue-700 underline" target="_blank" rel="noopener noreferrer">Oklahoma Rules of Civil Procedure, Title 12, Oklahoma Statutes (OSCN) ↗</a>
+            </li>
             <li>Rules for District Courts of Oklahoma, Rule 30. Standards for Recognition of Judicial Proceedings in Tribal Courts.</li>
             <li>Choctaw Nation Code of Civil Procedure.</li>
           </ul>
@@ -572,31 +630,70 @@ export default function ServingLegalPapersOklahomaGuide() {
 
         {/* Related Resources Section */}
         <section className="mb-12 space-y-4">
-          <h2 className="text-3xl font-semibold">Related Guides & Resources</h2>
+          <h2 className="text-3xl font-semibold">Related Guides &amp; Resources</h2>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-white border border-gray-200 p-6 rounded-lg">
               <h3 className="font-bold text-lg mb-3">Process Serving Guides</h3>
               <ul className="space-y-2">
-                <li><a href="/oklahoma-process-server-laws" className="text-blue-700 underline">→ Oklahoma Process Server Laws</a></li>
-                <li><a href="/oklahoma-process-server-faq-2026" className="text-blue-700 underline">→ Process Server FAQ 2026</a></li>
-                <li><a href="/oklahoma-process-server-best-practices-checklist-2026" className="text-blue-700 underline">→ Best Practices Checklist 2026</a></li>
-                <li><a href="/process-serving-mistakes-guide" className="text-blue-700 underline">→ Common Mistakes to Avoid</a></li>
+                <li><Link href="/oklahoma-process-server-laws" className="text-blue-700 underline">→ Oklahoma Process Server Laws</Link></li>
+                <li><Link href="/oklahoma-process-server-faq-2026" className="text-blue-700 underline">→ Process Server FAQ 2026</Link></li>
+                <li><Link href="/oklahoma-process-server-best-practices-checklist-2026" className="text-blue-700 underline">→ Best Practices Checklist 2026</Link></li>
+                <li><Link href="/process-serving-mistakes-guide" className="text-blue-700 underline">→ Common Mistakes to Avoid</Link></li>
+                <li><Link href="/what-happens-if-someone-refuses-service" className="text-blue-700 underline">→ What Happens If Someone Refuses Service</Link></li>
+                <li><Link href="/rush-vs-standard-vs-same-day-service" className="text-blue-700 underline">→ Rush vs. Standard vs. Same-Day Service</Link></li>
               </ul>
             </div>
             <div className="bg-white border border-gray-200 p-6 rounded-lg">
               <h3 className="font-bold text-lg mb-3">Specialized Services</h3>
               <ul className="space-y-2">
-                <li><a href="/ai-skip-tracing-guide-oklahoma" className="text-blue-700 underline">→ AI Skip Tracing Guide</a></li>
-                <li><a href="/family-law-service-guide-tulsa" className="text-blue-700 underline">→ Family Law Service Guide</a></li>
-                <li><a href="/weekend-emergency" className="text-blue-700 underline">→ Emergency Service</a></li>
-                <li><a href="/law-firm-services" className="text-blue-700 underline">→ Law Firm Partnership</a></li>
+                <li><Link href="/skip-tracing" className="text-blue-700 underline">→ Skip Tracing (Locating Individuals)</Link></li>
+                <li><Link href="/gps-tracked-process-serving" className="text-blue-700 underline">→ GPS-Tracked Process Serving</Link></li>
+                <li><Link href="/affidavit-of-service" className="text-blue-700 underline">→ Affidavit of Service Documentation</Link></li>
+                <li><Link href="/courthouse-filing-services" className="text-blue-700 underline">→ Courthouse Filing Services</Link></li>
+                <li><Link href="/process-serving-for-insurance-companies" className="text-blue-700 underline">→ Process Serving for Insurance Companies</Link></li>
+                <li><Link href="/ai-skip-tracing-guide-oklahoma" className="text-blue-700 underline">→ AI Skip Tracing Guide</Link></li>
+                <li><Link href="/family-law-service-guide-tulsa" className="text-blue-700 underline">→ Family Law Service Guide</Link></li>
+                <li><Link href="/weekend-emergency" className="text-blue-700 underline">→ Emergency Process Serving</Link></li>
+                <li><Link href="/law-firm-services" className="text-blue-700 underline">→ Law Firm Partnership</Link></li>
               </ul>
             </div>
           </div>
 
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="bg-white border border-gray-200 p-6 rounded-lg">
+              <h3 className="font-bold text-lg mb-3">Blog: Process Serving How-To Guides</h3>
+              <ul className="space-y-2">
+                <li><Link href="/blog/how-to-serve-divorce-papers-oklahoma" className="text-blue-700 underline">→ How to Serve Divorce Papers in Oklahoma</Link></li>
+                <li><Link href="/blog/how-to-serve-a-subpoena-oklahoma" className="text-blue-700 underline">→ How to Serve a Subpoena in Oklahoma</Link></li>
+              </ul>
+            </div>
+            <div className="bg-white border border-gray-200 p-6 rounded-lg">
+              <h3 className="font-bold text-lg mb-3">Oklahoma County Jurisdiction Guides</h3>
+              <ul className="space-y-2">
+                <li><Link href="/counties/tulsa-county" className="text-blue-700 underline">→ Tulsa County (overlaps Muscogee Creek territory)</Link></li>
+                <li><Link href="/counties/osage-county" className="text-blue-700 underline">→ Osage County (Osage Nation territory)</Link></li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="bg-white border border-gray-200 p-6 rounded-lg">
+            <h3 className="font-bold text-lg mb-3">Professional Associations &amp; External Resources</h3>
+            <ul className="space-y-2">
+              <li>
+                <a href="https://napps.org" className="text-blue-700 underline" target="_blank" rel="noopener noreferrer">→ NAPPS — National Association of Professional Process Servers ↗</a>
+              </li>
+              <li>
+                <a href="https://www.okbar.org/" className="text-blue-700 underline" target="_blank" rel="noopener noreferrer">→ Oklahoma Bar Association — Attorney Referral ↗</a>
+              </li>
+              <li>
+                <a href="https://www.oscn.net/applications/oscn/index.asp?ftdb=STOKST12" className="text-blue-700 underline" target="_blank" rel="noopener noreferrer">→ Oklahoma Civil Procedure — Title 12, Oklahoma Statutes (OSCN) ↗</a>
+              </li>
+            </ul>
+          </div>
+
           <div className="bg-blue-50 border border-blue-200 p-6 rounded-lg">
             <h3 className="font-bold text-lg text-blue-800 mb-3">Need Help With Tribal Land Service?</h3>
-            <p className="text-gray-700 mb-4">Our experienced Oklahoma process servers understand the complexities of tribal jurisdiction and can help navigate your specific situation.</p>
+            <p className="text-gray-700 mb-4">Our experienced Oklahoma process servers understand the complexities of tribal jurisdiction and can help navigate your specific situation. We offer GPS-tracked service, affidavits of service, skip tracing, and courthouse filing to complete the entire process for you.</p>
             <div className="flex flex-wrap gap-4">
               <a href="/contact" className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700">Contact Us</a>
               <a href="/pricing" className="bg-white text-blue-600 border border-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50">View Pricing</a>
@@ -604,6 +701,28 @@ export default function ServingLegalPapersOklahomaGuide() {
           </div>
         </section>
       </main>
+        {/* Legal Disclaimer */}
+        <section className="py-8 bg-white">
+          <div className="container mx-auto px-4 max-w-5xl">
+            <p className="text-sm text-gray-500 italic border-t border-gray-200 pt-6">
+              <strong>Legal Disclaimer:</strong> This information is for educational purposes only and does not constitute legal advice. For specific legal questions about your situation, consult a licensed Oklahoma attorney. Just Legal Solutions provides process serving and legal support services  we are not a law firm and do not provide legal counsel.
+            </p>
+          </div>
+        </section>
+
+      <section className="py-16 bg-gray-50">
+        <div className="container mx-auto px-4 max-w-5xl">
+          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Frequently Asked Questions</h2>
+          <div className="space-y-4 max-w-3xl mx-auto">
+            {faqs.map((faq, index) => (
+              <div key={index} className="bg-white rounded-xl shadow-sm p-6">
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">{faq.question}</h3>
+                <p className="text-gray-700">{faq.answer}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
       <Footer />
     </>
   );
