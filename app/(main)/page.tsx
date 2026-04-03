@@ -16,7 +16,9 @@ import { Metadata } from 'next';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import SocialProof from '@/components/SocialProof';
 import OwnerBio from '@/components/ui/owner-bio';
-import ReviewWidget from '@/components/ui/review-widget';
+import dynamic from 'next/dynamic';
+
+const ReviewWidget = dynamic(() => import('@/components/ui/review-widget'));
 
 export const metadata: Metadata = {
   title: {

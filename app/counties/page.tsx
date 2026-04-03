@@ -40,69 +40,62 @@ const breadcrumbItems = [
 ];
 
 const counties = [
-  {
-    name: "Tulsa County",
-    seat: "Tulsa",
-    cities: ["Tulsa", "Broken Arrow", "Owasso", "Bixby", "Jenks", "Sand Springs", "Glenpool", "Collinsville"],
-    link: "/counties/tulsa-county",
-    description: "Oil Capital county with 669,279 residents, Art Deco courthouse, energy industry hub"
-  },
-  {
-    name: "Creek County", 
-    seat: "Sapulpa",
-    cities: ["Sapulpa", "Bristow", "Kellyville", "Kiefer", "Mounds", "Mannford", "Taft"],
-    link: "/counties/creek-county",
-    description: "Oil boom heritage county, Frankoma Pottery, Route 66 history"
-  },
-  {
-    name: "Rogers County",
-    seat: "Claremore", 
-    cities: ["Claremore", "Catoosa", "Verdigris", "Oologah", "Inola", "Foyil", "Chelsea", "Talala"],
-    link: "/counties/rogers-county",
-    description: "Will Rogers heritage, Route 66 corridor, inland port at Catoosa"
-  },
-  {
-    name: "Wagoner County",
-    seat: "Wagoner",
-    cities: ["Wagoner", "Coweta", "Porter", "Redbird", "Haskell"],
-    link: "/counties/wagoner-county", 
-    description: "Railroad crossroads heritage, agricultural and government center"
-  },
-  {
-    name: "Washington County",
-    seat: "Bartlesville",
-    cities: ["Bartlesville", "Dewey", "Copan", "Ramona", "Ochelata", "Vera", "Wann", "Lenapah"],
-    link: "/counties/washington-county",
-    description: "First commercial oil well, Phillips Petroleum headquarters, Frank Lloyd Wright architecture"
-  },
-  {
-    name: "Mayes County", 
-    seat: "Pryor",
-    cities: ["Pryor", "Chouteau", "Locust Grove", "Salina", "Spavinaw", "Adair"],
-    link: "/counties/mayes-county",
-    description: "Manufacturing center, Lewis and Clark expedition heritage"
-  },
-  {
-    name: "Osage County",
-    seat: "Pawhuska",
-    cities: ["Pawhuska", "Skiatook", "Hominy", "Fairfax"],
-    link: "/counties/osage-county",
-    description: "Osage Nation heritage, oil lease history, Pioneer Woman Museum"
-  },
-  {
-    name: "Nowata County",
-    seat: "Nowata", 
-    cities: ["Nowata", "Delaware", "Wann", "Lenapah"],
-    link: "/counties/nowata-county",
-    description: "Cherokee heritage, agricultural community"
-  },
-  {
-    name: "Okmulgee County",
-    seat: "Okmulgee",
-    cities: ["Okmulgee", "Beggs", "Henryetta", "Taft"],
-    link: "/counties/okmulgee-county",
-    description: "Creek Nation capital, historic downtown, government center"
-  }
+  // Featured counties (existing detailed pages)
+  { name: "Tulsa County", seat: "Tulsa", cities: ["Tulsa", "Broken Arrow", "Owasso", "Bixby", "Jenks", "Sand Springs", "Glenpool", "Collinsville"], link: "/counties/tulsa-county", description: "Oil Capital county with 669,279 residents, Art Deco courthouse, energy industry hub" },
+  { name: "Oklahoma County", seat: "Oklahoma City", cities: ["Oklahoma City", "Edmond", "Midwest City", "Del City", "Bethany"], link: "/counties/oklahoma-county", description: "State capital county, most populous in Oklahoma with 802,000+ residents" },
+  { name: "Cleveland County", seat: "Norman", cities: ["Norman", "Moore", "Noble"], link: "/counties/cleveland-county", description: "University of Oklahoma, third most populous county in the state" },
+  { name: "Canadian County", seat: "El Reno", cities: ["Mustang", "Yukon", "El Reno", "Piedmont"], link: "/counties/canadian-county", description: "Oklahoma's fastest-growing county, suburban Oklahoma City corridor" },
+  { name: "Comanche County", seat: "Lawton", cities: ["Lawton", "Cache", "Fletcher", "Elgin"], link: "/counties/comanche-county", description: "Home of Fort Sill, Wichita Mountains Wildlife Refuge" },
+  { name: "Creek County", seat: "Sapulpa", cities: ["Sapulpa", "Bristow", "Kellyville", "Kiefer", "Mounds", "Mannford", "Taft"], link: "/counties/creek-county", description: "Oil boom heritage county, Frankoma Pottery, Route 66 history" },
+  { name: "Rogers County", seat: "Claremore", cities: ["Claremore", "Catoosa", "Verdigris", "Oologah", "Inola", "Foyil", "Chelsea", "Talala"], link: "/counties/rogers-county", description: "Will Rogers heritage, Route 66 corridor, inland port at Catoosa" },
+  { name: "Wagoner County", seat: "Wagoner", cities: ["Wagoner", "Coweta", "Porter", "Redbird", "Haskell"], link: "/counties/wagoner-county", description: "Railroad crossroads heritage, agricultural and government center" },
+  { name: "Washington County", seat: "Bartlesville", cities: ["Bartlesville", "Dewey", "Copan", "Ramona", "Ochelata"], link: "/counties/washington-county", description: "First commercial oil well, Phillips Petroleum headquarters" },
+  { name: "Mayes County", seat: "Pryor", cities: ["Pryor", "Chouteau", "Locust Grove", "Salina", "Spavinaw"], link: "/counties/mayes-county", description: "Manufacturing center, Lewis and Clark expedition heritage" },
+  { name: "Osage County", seat: "Pawhuska", cities: ["Pawhuska", "Skiatook", "Hominy", "Fairfax"], link: "/counties/osage-county", description: "Osage Nation heritage, oil lease history, largest county by area" },
+  { name: "Nowata County", seat: "Nowata", cities: ["Nowata", "Delaware", "Wann", "Lenapah"], link: "/counties/nowata-county", description: "Cherokee heritage, agricultural community" },
+  { name: "Okmulgee County", seat: "Okmulgee", cities: ["Okmulgee", "Beggs", "Henryetta", "Taft"], link: "/counties/okmulgee-county", description: "Creek Nation capital, historic downtown, government center" },
+  // Additional counties
+  { name: "Adair County", seat: "Stilwell", cities: ["Stilwell", "Westville", "Watts"], link: "/counties/adair-county", description: "Cherokee Nation territory, Strawberry Capital of Oklahoma" },
+  { name: "Beckham County", seat: "Sayre", cities: ["Sayre", "Elk City", "Erick"], link: "/counties/beckham-county", description: "Route 66 heritage, energy industry center" },
+  { name: "Blaine County", seat: "Watonga", cities: ["Watonga", "Okeene", "Canton", "Geary"], link: "/counties/blaine-county", description: "Roman Nose State Park, Cheyenne-Arapaho heritage" },
+  { name: "Bryan County", seat: "Durant", cities: ["Durant", "Calera", "Caddo", "Colbert"], link: "/counties/bryan-county", description: "Choctaw Nation headquarters, Red River border county" },
+  { name: "Caddo County", seat: "Anadarko", cities: ["Anadarko", "Hinton", "Fort Cobb", "Carnegie"], link: "/counties/caddo-county", description: "Indian Capital of the Nation, tribal heritage center" },
+  { name: "Carter County", seat: "Ardmore", cities: ["Ardmore", "Lone Grove", "Wilson", "Healdton"], link: "/counties/carter-county", description: "Southern Oklahoma commercial hub, I-35 corridor" },
+  { name: "Cherokee County", seat: "Tahlequah", cities: ["Tahlequah", "Hulbert", "Park Hill"], link: "/counties/cherokee-county", description: "Cherokee Nation capital, Northeastern State University" },
+  { name: "Choctaw County", seat: "Hugo", cities: ["Hugo", "Fort Towson", "Sawyer"], link: "/counties/choctaw-county", description: "Circus City USA, Choctaw heritage" },
+  { name: "Cimarron County", seat: "Boise City", cities: ["Boise City", "Felt", "Kenton"], link: "/counties/cimarron-county", description: "Oklahoma Panhandle, Black Mesa highest point" },
+  { name: "Craig County", seat: "Vinita", cities: ["Vinita", "Welch", "Bluejacket"], link: "/counties/craig-county", description: "Route 66 heritage, Cherokee Nation territory" },
+  { name: "Custer County", seat: "Arapaho", cities: ["Weatherford", "Clinton", "Arapaho"], link: "/counties/custer-county", description: "Southwestern Oklahoma State University, Route 66" },
+  { name: "Delaware County", seat: "Jay", cities: ["Jay", "Grove", "Colcord", "Kansas"], link: "/counties/delaware-county", description: "Grand Lake O' the Cherokees, resort community" },
+  { name: "Dewey County", seat: "Taloga", cities: ["Taloga", "Seiling", "Leedey"], link: "/counties/dewey-county", description: "Rural western Oklahoma, ranching heritage" },
+  { name: "Garfield County", seat: "Enid", cities: ["Enid", "Waukomis", "Covington"], link: "/counties/garfield-county", description: "Wheat capital of Oklahoma, Land Run heritage" },
+  { name: "Grady County", seat: "Chickasha", cities: ["Chickasha", "Tuttle", "Minco", "Rush Springs"], link: "/counties/grady-county", description: "Festival of Light, University of Science and Arts" },
+  { name: "Hughes County", seat: "Holdenville", cities: ["Holdenville", "Wetumka", "Calvin"], link: "/counties/hughes-county", description: "Oil boom history, Creek Nation territory" },
+  { name: "Jackson County", seat: "Altus", cities: ["Altus", "Eldorado", "Blair"], link: "/counties/jackson-county", description: "Altus Air Force Base, southwestern Oklahoma hub" },
+  { name: "Kay County", seat: "Newkirk", cities: ["Ponca City", "Blackwell", "Tonkawa", "Newkirk"], link: "/counties/kay-county", description: "Conoco-Phillips heritage, 101 Ranch history" },
+  { name: "Kiowa County", seat: "Hobart", cities: ["Hobart", "Mountain View", "Lone Wolf"], link: "/counties/kiowa-county", description: "Wichita Mountains, western Oklahoma agriculture" },
+  { name: "Le Flore County", seat: "Poteau", cities: ["Poteau", "Heavener", "Spiro", "Wister"], link: "/counties/leflore-county", description: "Ouachita Mountains, Heavener Runestone, Spiro Mounds" },
+  { name: "Lincoln County", seat: "Chandler", cities: ["Chandler", "Stroud", "Prague", "Meeker"], link: "/counties/lincoln-county", description: "Route 66 corridor, oil and agriculture" },
+  { name: "Logan County", seat: "Guthrie", cities: ["Guthrie", "Crescent", "Mulhall", "Coyle"], link: "/counties/logan-county", description: "Original state capital, Victorian architecture, Land Run heritage" },
+  { name: "Love County", seat: "Marietta", cities: ["Marietta", "Thackerville", "Leon"], link: "/counties/love-county", description: "Red River border, WinStar World Casino, I-35 corridor" },
+  { name: "Marshall County", seat: "Madill", cities: ["Madill", "Kingston", "Oakland"], link: "/counties/marshall-county", description: "Lake Texoma, tourism and recreation hub" },
+  { name: "McClain County", seat: "Purcell", cities: ["Purcell", "Newcastle", "Blanchard", "Wayne"], link: "/counties/mcclain-county", description: "South Oklahoma City metro, rapid growth corridor" },
+  { name: "McCurtain County", seat: "Idabel", cities: ["Idabel", "Broken Bow", "Valliant", "Wright City"], link: "/counties/mccurtain-county", description: "Beavers Bend State Park, southeastern Oklahoma" },
+  { name: "McIntosh County", seat: "Eufaula", cities: ["Eufaula", "Checotah", "Hanna"], link: "/counties/mcintosh-county", description: "Lake Eufaula, Muscogee (Creek) heritage" },
+  { name: "Murray County", seat: "Sulphur", cities: ["Sulphur", "Davis"], link: "/counties/murray-county", description: "Chickasaw National Recreation Area, mineral springs" },
+  { name: "Muskogee County", seat: "Muskogee", cities: ["Muskogee", "Fort Gibson", "Haskell", "Warner"], link: "/counties/muskogee-county", description: "Five Civilized Tribes heritage, USS Batfish, Honor Heights Park" },
+  { name: "Noble County", seat: "Perry", cities: ["Perry", "Billings", "Morrison", "Red Rock"], link: "/counties/noble-county", description: "Cherokee Strip heritage, agricultural center" },
+  { name: "Okfuskee County", seat: "Okemah", cities: ["Okemah", "Paden", "Castle", "Bearden"], link: "/counties/okfuskee-county", description: "Woody Guthrie birthplace, Creek Nation territory" },
+  { name: "Ottawa County", seat: "Miami", cities: ["Miami", "Commerce", "Quapaw", "Wyandotte"], link: "/counties/ottawa-county", description: "Route 66 corner, Mickey Mantle's hometown" },
+  { name: "Payne County", seat: "Stillwater", cities: ["Stillwater", "Cushing", "Perkins", "Yale"], link: "/counties/payne-county", description: "Oklahoma State University, Cushing oil storage hub" },
+  { name: "Pittsburg County", seat: "McAlester", cities: ["McAlester", "Hartshorne", "Krebs"], link: "/counties/pittsburg-county", description: "Italian heritage, McAlester Army Ammunition Plant" },
+  { name: "Pontotoc County", seat: "Ada", cities: ["Ada", "Allen", "Roff", "Stonewall"], link: "/counties/pontotoc-county", description: "Chickasaw Nation hub, East Central University" },
+  { name: "Pottawatomie County", seat: "Shawnee", cities: ["Shawnee", "Tecumseh", "McLoud", "Bethel Acres"], link: "/counties/pottawatomie-county", description: "Citizen Potawatomi Nation, Oklahoma Baptist University" },
+  { name: "Seminole County", seat: "Wewoka", cities: ["Wewoka", "Seminole", "Konawa"], link: "/counties/seminole-county", description: "Seminole Nation capital, oil boom heritage" },
+  { name: "Sequoyah County", seat: "Sallisaw", cities: ["Sallisaw", "Muldrow", "Roland", "Vian"], link: "/counties/sequoyah-county", description: "Arkansas River border, Cherokee heritage, outdoor recreation" },
+  { name: "Stephens County", seat: "Duncan", cities: ["Duncan", "Marlow", "Comanche"], link: "/counties/stephens-county", description: "Halliburton birthplace, southern Oklahoma oil hub" },
+  { name: "Texas County", seat: "Guymon", cities: ["Guymon", "Goodwell", "Hooker", "Hardesty"], link: "/counties/texas-county", description: "Oklahoma Panhandle, agriculture and meatpacking center" },
+  { name: "Woodward County", seat: "Woodward", cities: ["Woodward", "Mooreland", "Fort Supply"], link: "/counties/woodward-county", description: "Northwestern Oklahoma hub, Plains Indians and Pioneers Museum" },
 ];
 
 const majorCities = [

@@ -160,7 +160,7 @@ export default function ReviewWidget() {
             {/* Navigation Buttons */}
             <button 
               onClick={prevReview}
-              className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-gray-100 hover:bg-gray-200 rounded-full p-2 transition-colors"
+              className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-gray-100 hover:bg-gray-200 rounded-full p-2 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
               onMouseEnter={() => setIsAutoPlaying(false)}
               aria-label="Previous review"
             >
@@ -168,7 +168,7 @@ export default function ReviewWidget() {
             </button>
             <button 
               onClick={nextReview}
-              className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-gray-100 hover:bg-gray-200 rounded-full p-2 transition-colors"
+              className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-gray-100 hover:bg-gray-200 rounded-full p-2 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
               onMouseEnter={() => setIsAutoPlaying(false)}
               aria-label="Next review"
             >
@@ -217,7 +217,7 @@ export default function ReviewWidget() {
                   setCurrentReview(index);
                   setIsAutoPlaying(false);
                 }}
-                className={`w-3 h-3 rounded-full transition-colors ${
+                className={`w-3 h-3 rounded-full transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 ${
                   index === currentReview 
                     ? 'bg-blue-600' 
                     : 'bg-gray-300 hover:bg-gray-400'
@@ -228,7 +228,7 @@ export default function ReviewWidget() {
             ))}
             <button
               onClick={() => setIsAutoPlaying(!isAutoPlaying)}
-              className="ml-2 p-1 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors"
+              className="ml-2 p-1 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
               aria-label={isAutoPlaying ? 'Pause auto-rotating reviews' : 'Resume auto-rotating reviews'}
             >
               {isAutoPlaying ? (

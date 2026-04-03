@@ -53,19 +53,19 @@ export function Navbar() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <Link href="/" className="text-gray-700 hover:text-gray-900" aria-current={pathname === '/' ? 'page' : undefined}>
+            <Link href="/" className="text-gray-700 hover:text-gray-900" aria-current={pathname === '/' ? 'page' : undefined} prefetch={false}>
               Home
             </Link>
-            <Link href="/pricing" className="text-gray-700 hover:text-gray-900" aria-current={pathname === '/pricing' ? 'page' : undefined}>
+            <Link href="/pricing" className="text-gray-700 hover:text-gray-900" aria-current={pathname === '/pricing' ? 'page' : undefined} prefetch={false}>
               Pricing
             </Link>
-            <Link href="/notary" className="text-gray-700 hover:text-gray-900" aria-current={pathname?.startsWith('/notary') ? 'page' : undefined}>
+            <Link href="/notary" className="text-gray-700 hover:text-gray-900" aria-current={pathname?.startsWith('/notary') ? 'page' : undefined} prefetch={false}>
               Notary Services
             </Link>
-            <Link href="/service-areas" className="text-gray-700 hover:text-gray-900" aria-current={pathname?.startsWith('/service-areas') ? 'page' : undefined}>
+            <Link href="/service-areas" className="text-gray-700 hover:text-gray-900" aria-current={pathname?.startsWith('/service-areas') ? 'page' : undefined} prefetch={false}>
               Service Areas
             </Link>
-            <Link href="/virtual-assistant-services" className="text-gray-700 hover:text-gray-900" aria-current={pathname === '/virtual-assistant-services' ? 'page' : undefined}>
+            <Link href="/virtual-assistant-services" className="text-gray-700 hover:text-gray-900" aria-current={pathname === '/virtual-assistant-services' ? 'page' : undefined} prefetch={false}>
               VA Services
             </Link>
             <a 
@@ -75,10 +75,10 @@ export function Navbar() {
             >
               Courier Services
             </a>
-            <Link href="/law-firm-services" className="text-gray-700 hover:text-gray-900" aria-current={pathname === '/law-firm-services' ? 'page' : undefined}>
+            <Link href="/law-firm-services" className="text-gray-700 hover:text-gray-900" aria-current={pathname === '/law-firm-services' ? 'page' : undefined} prefetch={false}>
               Law Firm Services
             </Link>
-            <Link href="/payments" className="text-gray-700 hover:text-gray-900" aria-current={pathname === '/payments' ? 'page' : undefined}>
+            <Link href="/payments" className="text-gray-700 hover:text-gray-900" aria-current={pathname === '/payments' ? 'page' : undefined} prefetch={false}>
               Payments
             </Link>
           </div>
