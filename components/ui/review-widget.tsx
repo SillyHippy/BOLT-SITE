@@ -19,7 +19,8 @@ export default function ReviewWidget() {
   const [currentReview, setCurrentReview] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
 
-  const reviews: Review[] = [
+  // ⚡ Bolt: Memoize the reviews array to prevent recreating it on every render
+  const reviews: Review[] = React.useMemo(() => [
     {
       id: 1,
       name: "Sarah M.",
@@ -75,7 +76,7 @@ export default function ReviewWidget() {
       platform: "Email Feedback",
       url: "/reviews/text"
     }
-  ];
+  ], []);
 
   // Auto-rotate reviews
   useEffect(() => {
@@ -98,14 +99,14 @@ export default function ReviewWidget() {
     setCurrentReview((prev) => (prev - 1 + reviews.length) % reviews.length);
   };
 
-  const renderStars = (rating: number) => {
+  const renderStars = React.useCallback((rating: number) => {
     return Array.from({ length: 5 }, (_, i) => (
       <Star 
         key={i} 
         className={`h-5 w-5 ${i < rating ? 'text-yellow-500 fill-current' : 'text-gray-300'}`} 
       />
     ));
-  };
+  }, []);
 
   const getPlatformColor = (platform: string) => {
     switch (platform) {

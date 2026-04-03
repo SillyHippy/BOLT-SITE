@@ -18,6 +18,9 @@ import SocialProof from '@/components/SocialProof';
 import OwnerBio from '@/components/ui/owner-bio';
 import dynamic from 'next/dynamic';
 
+// ⚡ Bolt Performance Optimization:
+// Dynamically import heavy component to reduce initial bundle.
+// (ssr: false is not supported directly in server components).
 const ReviewWidget = dynamic(() => import('@/components/ui/review-widget'));
 
 export const metadata: Metadata = {
