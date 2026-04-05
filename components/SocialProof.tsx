@@ -6,6 +6,28 @@ interface SocialProofProps {
   showTrustBadges?: boolean;
 }
 
+// ⚡ Bolt Performance Optimization:
+// Move static array outside component to prevent reallocation on every render
+const trustBadges = [
+  { icon: '🏆', text: 'Licensed & Bonded', subtext: 'State Certified' },
+  { icon: '⭐', text: '4.9/5 Rating', subtext: '500+ Reviews' },
+  { icon: '🚀', text: 'Same-Day Service', subtext: '95% Success Rate' },
+  { icon: '💯', text: 'Money Back Guarantee', subtext: '100% Satisfaction' },
+  { icon: '📞', text: '24/7 Availability', subtext: 'Always Ready' },
+  { icon: '🔒', text: 'Fully Insured', subtext: 'Protected Service' }
+];
+
+const recentActivitiesList = [
+  'Document served in Tulsa',
+  'New client in Broken Arrow',
+  'Same-day service completed',
+  'Subpoena delivered in Owasso',
+  'Court filing in Sand Springs',
+  'Process server dispatched to Jenks',
+  'Legal document delivered in Bixby',
+  'Client consultation scheduled'
+];
+
 export default function SocialProof({
   showLiveStats = true,
   showRecentActivity = true,
@@ -36,19 +58,8 @@ export default function SocialProof({
 
       // Rotate recent activity
       setRecentActivity(prev => {
-        const activities = [
-          'Document served in Tulsa',
-          'New client in Broken Arrow', 
-          'Same-day service completed',
-          'Subpoena delivered in Owasso',
-          'Court filing in Sand Springs',
-          'Process server dispatched to Jenks',
-          'Legal document delivered in Bixby',
-          'Client consultation scheduled'
-        ];
-        
         const newActivity = {
-          action: activities[Math.floor(Math.random() * activities.length)],
+          action: recentActivitiesList[Math.floor(Math.random() * recentActivitiesList.length)],
           time: 'Just now'
         };
         
@@ -61,15 +72,6 @@ export default function SocialProof({
 
     return () => clearInterval(interval);
   }, []);
-
-  const trustBadges = [
-    { icon: '🏆', text: 'Licensed & Bonded', subtext: 'State Certified' },
-    { icon: '⭐', text: '4.9/5 Rating', subtext: '500+ Reviews' },
-    { icon: '🚀', text: 'Same-Day Service', subtext: '95% Success Rate' },
-    { icon: '💯', text: 'Money Back Guarantee', subtext: '100% Satisfaction' },
-    { icon: '📞', text: '24/7 Availability', subtext: 'Always Ready' },
-    { icon: '🔒', text: 'Fully Insured', subtext: 'Protected Service' }
-  ];
 
   return (
     <div className="w-full space-y-6">
