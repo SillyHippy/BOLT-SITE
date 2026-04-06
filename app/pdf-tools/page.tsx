@@ -283,6 +283,26 @@ export default function PDFToolsPage() {
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebApplication",
+            "name": "Free PDF Tools | Just Legal Solutions",
+            "description": "Free online PDF tools: compress, merge, split, convert, protect, and edit PDF documents. Provided by Just Legal Solutions for legal professionals.",
+            "url": "https://justlegalsolutions.org/pdf-tools",
+            "applicationCategory": "Utility",
+            "operatingSystem": "Web browser",
+            "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+            "provider": {
+              "@type": "LocalBusiness",
+              "name": "Just Legal Solutions",
+              "telephone": "(539) 367-6832"
+            }
+          })
+        }}
+      />
       <Navbar />
 
       {/* PDF24 Widget Script — loaded once */}

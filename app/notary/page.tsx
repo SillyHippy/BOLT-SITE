@@ -341,6 +341,19 @@ export default function NotaryPage() {
       </section>
 
       <main className="bg-gray-50">
+        {/* What Does a Notary Public Do? */}
+        <section className="py-16 bg-white border-b border-gray-100">
+          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">What Does a Notary Public Do?</h2>
+            <p className="text-lg text-gray-700 mb-4">
+              <strong>A notary public is a state-commissioned official authorized under Oklahoma law (49 O.S. § 111 et seq.) to witness signatures, administer oaths, and verify the identity of document signers.</strong> Notarization deters fraud by confirming that the person signing a document is who they claim to be and is signing willingly.
+            </p>
+            <p className="text-lg text-gray-700">
+              In Oklahoma, notaries are appointed by the Secretary of State for a 4-year commission (<a href="/notary-laws" className="text-blue-600 hover:underline">49 O.S. § 1</a>), must carry a $10,000 surety bond (<a href="/notary-laws" className="text-blue-600 hover:underline">49 O.S. § 2</a>), and are limited to a $5 fee per notarial act for traditional notarizations or $25 for remote online notarization (RON) under 49 O.S. § 5 and § 209.
+            </p>
+          </div>
+        </section>
+
         {/* Introduction */}
         <section className="py-16 bg-white">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">

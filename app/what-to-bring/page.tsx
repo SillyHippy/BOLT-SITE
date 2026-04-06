@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { Navbar } from '../../components/ui/navbar';
 import { Footer } from '../../components/ui/footer';
 import UnifiedSchema from '@/components/UnifiedSchema';
+import JsonLd from '@/components/JsonLd';
 import { CheckCircle2, AlertCircle, Users, FileText, Clock, Shield, ArrowRight, ExternalLink } from 'lucide-react';
 
 export const metadata: Metadata = {
@@ -38,6 +39,44 @@ export default function WhatToBringPage() {
         keywords={['notary appointment checklist', 'what to bring notary', 'valid ID for notary Oklahoma', 'notarization preparation']}
       />
       <Navbar />
+      <JsonLd data={{
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Prepare for a Notary Appointment in Oklahoma",
+        "description": "A step-by-step checklist for preparing all required items for a successful notary appointment, including valid ID, documents, and special situation considerations.",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "name": "Gather valid government-issued photo ID",
+            "text": "Bring an unexpired Oklahoma driver's license, state ID, U.S. passport, military ID, or permanent resident card. Expired IDs and student IDs are not acceptable.",
+            "position": 1
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Verify name matching between ID and documents",
+            "text": "Ensure the name on your ID matches the name on the documents to be notarized. For recent name changes, bring a certified marriage certificate, divorce decree, or court order.",
+            "position": 2
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Prepare all documents requiring notarization",
+            "text": "Print all documents (not electronic), leave signature lines blank, and review them before the appointment. Bring supporting documents such as powers of attorney, trust certificates, or corporate resolutions if applicable.",
+            "position": 3
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Bring payment and signing supplies",
+            "text": "Have your payment method ready (cash, check, or card). Bring blue or black ink pens. Oklahoma notary fees are capped at $5 per traditional act and $25 for remote online notarization.",
+            "position": 4
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Arrange witnesses if required",
+            "text": "Some documents like wills and advance directives require witnesses in addition to notarization. Confirm witness requirements with your attorney or the notary in advance.",
+            "position": 5
+          }
+        ]
+      }} />
 
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">

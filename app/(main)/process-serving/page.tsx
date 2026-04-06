@@ -82,10 +82,24 @@ export default function ProcessServingPage() {
                         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
                             Professional Process Serving in Oklahoma
                         </h1>
+                        <p className="text-lg text-gray-800 leading-relaxed mb-4">
+                            <strong>A process server is a licensed individual authorized under Oklahoma law (12 O.S. § 158.1) to deliver legal documents — such as summons, subpoenas, and eviction notices — to parties in a lawsuit, ensuring constitutional due process is satisfied.</strong>
+                        </p>
                         <p className="text-lg text-gray-800 leading-relaxed">
-                            <strong>Just Legal Solutions provides licensed, bonded process serving across all 77 Oklahoma counties.</strong> Whether you need personal service, substitute service, or assistance with service by publication, our team delivers court-ready results starting at <strong>$30 for a single attempt</strong> and <strong>$60 for standard service</strong>. Every service attempt is GPS-verified with timestamped proof. Available 24/7 with same-day and 2-hour emergency options. Call <a href="tel:5393676832" className="text-blue-700 font-bold hover:underline">(539) 367-6832</a> to get started.
+                            Just Legal Solutions provides licensed, bonded process serving across all 77 Oklahoma counties. Whether you need personal service, substitute service, or assistance with service by publication, our team delivers court-ready results starting at <strong>$30 for a single attempt</strong> and <strong>$60 for standard service</strong>. Every service attempt is GPS-verified with timestamped proof. Available 24/7 with same-day and 2-hour emergency options. Call <a href="tel:5393676832" className="text-blue-700 font-bold hover:underline">(539) 367-6832</a> to get started.
                         </p>
                     </div>
+
+                    {/* What Is Process Serving */}
+                    <section className="mb-12">
+                        <h2 className="text-3xl font-bold text-gray-900 mb-6">What Is Process Serving in Oklahoma?</h2>
+                        <p className="text-lg text-gray-700 mb-4">
+                            Process serving is the legal procedure of delivering court documents — such as summons, complaints, subpoenas, and eviction notices — to an individual or business involved in a lawsuit. Under Oklahoma law (<a href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">12 O.S. § 2004</a>), proper service of process is a constitutional requirement that ensures every party receives notice of legal action against them.
+                        </p>
+                        <p className="text-lg text-gray-700 mb-4">
+                            In Oklahoma, process servers must be licensed under <a href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">12 O.S. § 158.1</a>, which requires a $5,000 surety bond, at least 6 months of Oklahoma residency, and registration with the district court. Without properly completed service, a court cannot proceed with a case — making professional process serving essential to every lawsuit.
+                        </p>
+                    </section>
 
                     {/* Methods of Service */}
                     <section className="mb-12">
@@ -297,6 +311,14 @@ export default function ProcessServingPage() {
                             <Link href="/courier-services" className="block p-4 bg-teal-50 rounded-lg hover:bg-teal-100 transition-colors">
                                 <h3 className="font-semibold text-teal-800">Legal Courier Services</h3>
                                 <p className="text-sm text-gray-600 mt-1">Courthouse filing &amp; document transport</p>
+                            </Link>
+                            <Link href="/gps-tracked-process-serving" className="block p-4 bg-indigo-50 rounded-lg hover:bg-indigo-100 transition-colors">
+                                <h3 className="font-semibold text-indigo-800">GPS-Tracked Process Serving</h3>
+                                <p className="text-sm text-gray-600 mt-1">Real-time tracking &amp; verified proof of service</p>
+                            </Link>
+                            <Link href="/courthouse-filing-services" className="block p-4 bg-amber-50 rounded-lg hover:bg-amber-100 transition-colors">
+                                <h3 className="font-semibold text-amber-800">Courthouse Filing Services</h3>
+                                <p className="text-sm text-gray-600 mt-1">Same-day courthouse document filing</p>
                             </Link>
                         </div>
                     </section>

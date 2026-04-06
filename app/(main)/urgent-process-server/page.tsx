@@ -116,6 +116,8 @@ const UrgentProcessServerPage = () => {
             <ol className="flex items-center space-x-2">
               <li><a href="/" className="text-blue-600 hover:underline">Home</a></li>
               <li className="text-gray-500">/</li>
+              <li><a href="/process-serving" className="text-blue-600 hover:underline">Process Serving</a></li>
+              <li className="text-gray-500">/</li>
               <li><span className="text-gray-700">Fastest Way to Serve Papers</span></li>
             </ol>
           </nav>

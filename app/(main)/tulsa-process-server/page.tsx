@@ -253,7 +253,8 @@ export default function TulsaProcessServerPage() {
         {/* Hero Section */}
         <section className="text-center mb-12">
           <h1 className="text-4xl font-bold mb-4">Tulsa Process Server - Professional Legal Document Delivery</h1>
-          <p className="text-xl text-muted-foreground mb-6">Your trusted partner for fast, accurate, and professional legal document delivery from a licensed process server in Tulsa County.</p>
+          <p className="text-lg text-gray-800 mb-4"><strong>A Tulsa process server is a court-licensed professional authorized under 12 O.S. § 158.1 to deliver legal documents — including summons, subpoenas, and eviction notices — to individuals and businesses in Tulsa County, ensuring due process under Oklahoma law.</strong></p>
+          <p className="text-xl text-muted-foreground mb-6">Your trusted partner for fast, accurate, and professional legal document delivery. Same-day service from $30, GPS-verified proof, all of Tulsa County covered.</p>
           <div className="flex justify-center gap-4">
             <Button asChild>
               <Link href="/pricing">View Pricing & Services</Link>

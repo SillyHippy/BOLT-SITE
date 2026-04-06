@@ -346,7 +346,7 @@ export default function HospitalNotaryPage() {
                 <span className="block text-transparent bg-clip-text bg-gradient-to-r from-indigo-300 to-pink-300">Available 24/7 Across Oklahoma</span>
               </h1>
               <p className="text-lg md:text-xl text-indigo-100 mb-8 max-w-2xl">
-                Bedside notarization at Saint Francis Hospital, Hillcrest Medical Center, OSU Medical Center, and correctional facilities statewide. Advance directives, healthcare proxies, and powers of attorney executed with capacity assessment support under 49 O.S. § 111 et seq. (Revised Uniform Law on Notarial Acts). Call (539) 367-6832.
+                Bedside notarization at Saint Francis Hospital, Hillcrest Medical Center, OSU Medical Center, and correctional facilities statewide. Our team includes a commissioned Oklahoma notary public experienced in advance directives, healthcare proxies, and powers of attorney — executed with capacity assessment support under 49 O.S. § 111 et seq. (Revised Uniform Law on Notarial Acts). Call (539) 367-6832.
               </p>
               <div className="flex flex-wrap gap-4">
                 <a href="tel:5393676832" className="flex items-center gap-2 bg-white text-indigo-900 font-semibold px-6 py-3 rounded-xl shadow-lg hover:bg-indigo-50 transition">

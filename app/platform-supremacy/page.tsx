@@ -2,6 +2,7 @@
 import { Metadata } from 'next';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
   title: 'Oklahoma Process Server - Just Legal Solutions',
@@ -22,6 +23,12 @@ export const metadata: Metadata = {
 export default function PlatformSupremacy() {
   return (
     <>
+      <UnifiedSchema
+        pageType="generic"
+        url="https://justlegalsolutions.org/platform-supremacy"
+        title="Oklahoma Process Server - Just Legal Solutions"
+        description="Professional process serving across Oklahoma: Google optimization, AI assistants, voice search. Same-day service across all 77 Oklahoma counties."
+      />
       <Navbar />
       <div className="container mx-auto px-4 py-8 mt-12">
         <div className="text-center mb-12">

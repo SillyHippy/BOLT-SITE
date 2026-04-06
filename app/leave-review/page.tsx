@@ -42,6 +42,23 @@ export default function LeaveReviewPage() {
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "Leave a Review | Just Legal Solutions",
+            "description": "Share your experience with Just Legal Solutions. Leave a review on Google, Yelp, or Facebook.",
+            "url": "https://justlegalsolutions.org/leave-review",
+            "publisher": {
+              "@type": "LocalBusiness",
+              "name": "Just Legal Solutions",
+              "telephone": "(539) 367-6832"
+            }
+          })
+        }}
+      />
       <Navbar />
       <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50 pt-16">
       {/* Header */}
