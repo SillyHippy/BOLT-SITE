@@ -15,67 +15,69 @@ interface Review {
   url: string;
 }
 
+// ⚡ Bolt Performance Optimization:
+// Extract static reviews array outside the component to prevent reallocation on every re-render
+const reviews: Review[] = [
+  {
+    id: 1,
+    name: "Sarah M.",
+    location: "Tulsa, OK",
+    rating: 5,
+    text: "Joseph and his team provided exceptional same-day service for our urgent legal matter. Professional, reliable, and exactly what we needed when time was critical.",
+    date: "January 2025",
+    service: "Same-Day Process Serving",
+    platform: "Client Survey",
+    url: "/reviews/survey"
+  },
+  {
+    id: 2,
+    name: "Attorney David L.",
+    location: "Broken Arrow, OK",
+    rating: 5,
+    text: "As a practicing attorney, I've worked with many process servers. Just Legal Solutions consistently delivers professional service with detailed documentation. Highly recommended.",
+    date: "March 2025",
+    service: "Legal Document Service",
+    platform: "Email Feedback",
+    url: "/reviews/survey"
+  },
+  {
+    id: 3,
+    name: "Michelle R.",
+    location: "Owasso, OK",
+    rating: 5,
+    text: "Fast response, fair pricing, and professional service. They handled our eviction notice promptly and provided excellent communication throughout the process.",
+    date: "February 2025",
+    service: "Eviction Service",
+    platform: "Phone Review",
+    url: "/reviews/phone"
+  },
+  {
+    id: 4,
+    name: "Property Manager Tom K.",
+    location: "Sapulpa, OK",
+    rating: 5,
+    text: "We use Just Legal Solutions for all our property management needs. Consistent, reliable service with competitive pricing. They've never let us down.",
+    date: "January 2025",
+    service: "Property Management Support",
+    platform: "Client Survey",
+    url: "/reviews/text"
+  },
+  {
+    id: 5,
+    name: "Jennifer H.",
+    location: "Bixby, OK",
+    rating: 5,
+    text: "Emergency weekend service when we needed it most. Joseph personally handled our urgent situation and delivered exactly as promised. Outstanding service!",
+    date: "January 2025",
+    service: "Emergency Weekend Service",
+    platform: "Email Feedback",
+    url: "/reviews/text"
+  }
+];
+
 export default function ReviewWidget() {
   const [currentReview, setCurrentReview] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
-
-  const reviews: Review[] = [
-    {
-      id: 1,
-      name: "Sarah M.",
-      location: "Tulsa, OK",
-      rating: 5,
-      text: "Joseph and his team provided exceptional same-day service for our urgent legal matter. Professional, reliable, and exactly what we needed when time was critical.",
-      date: "January 2025",
-      service: "Same-Day Process Serving",
-      platform: "Client Survey",
-      url: "/reviews/survey"
-    },
-    {
-      id: 2,
-      name: "Attorney David L.",
-      location: "Broken Arrow, OK",
-      rating: 5,
-      text: "As a practicing attorney, I've worked with many process servers. Just Legal Solutions consistently delivers professional service with detailed documentation. Highly recommended.",
-      date: "March 2025",
-      service: "Legal Document Service",
-      platform: "Email Feedback",
-      url: "/reviews/survey"
-    },
-    {
-      id: 3,
-      name: "Michelle R.",
-      location: "Owasso, OK",
-      rating: 5,
-      text: "Fast response, fair pricing, and professional service. They handled our eviction notice promptly and provided excellent communication throughout the process.",
-      date: "February 2025",
-      service: "Eviction Service",
-      platform: "Phone Review",
-      url: "/reviews/phone"
-    },
-    {
-      id: 4,
-      name: "Property Manager Tom K.",
-      location: "Sapulpa, OK",
-      rating: 5,
-      text: "We use Just Legal Solutions for all our property management needs. Consistent, reliable service with competitive pricing. They've never let us down.",
-      date: "January 2025",
-      service: "Property Management Support",
-      platform: "Client Survey",
-      url: "/reviews/text"
-    },
-    {
-      id: 5,
-      name: "Jennifer H.",
-      location: "Bixby, OK",
-      rating: 5,
-      text: "Emergency weekend service when we needed it most. Joseph personally handled our urgent situation and delivered exactly as promised. Outstanding service!",
-      date: "January 2025",
-      service: "Emergency Weekend Service",
-      platform: "Email Feedback",
-      url: "/reviews/text"
-    }
-  ];
 
   // Auto-rotate reviews
   useEffect(() => {
