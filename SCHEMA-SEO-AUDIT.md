@@ -286,20 +286,7 @@ These are pages/topics the site does NOT yet have that competitors likely rank f
 - [x] Open Graph tags for social sharing
 - [x] "Last updated" dates on content pages
 
-### Should Verify / Add
 
-- [ ] **Canonical URLs** — every page should have `<link rel="canonical">` to prevent duplicate content issues
-- [ ] **Image alt text** — all `<Image>` components should have descriptive alt text including target keywords
-- [ ] **Core Web Vitals** — run Lighthouse on key pages to ensure good LCP, CLS, INP scores
-- [ ] **Mobile responsiveness** — verify all pages render well on mobile (Google uses mobile-first indexing)
-- [ ] **Internal linking audit** — ensure no orphan pages (pages with 0 internal links pointing to them)
-- [ ] **404 monitoring** — check for broken internal links
-- [ ] **Google Search Console** — submit sitemap, monitor indexing, check for crawl errors
-- [ ] **Google Business Profile** — ensure NAP matches site exactly, post weekly updates, respond to all reviews
-- [ ] **Schema validation** — paste key page URLs into Google Rich Results Test to verify schema renders correctly
-- [ ] **Page speed** — Cloudflare static export should be fast, but verify images are optimized (WebP, proper sizing)
-
----
 
 ## 10. RESOLVED: Statute Citation Verification & Correction
 
