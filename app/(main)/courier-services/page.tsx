@@ -1,6 +1,5 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import Script from 'next/script';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
@@ -141,7 +140,6 @@ export default function CourierServicesPage() {
                 </div>
             </div>
 
-            <Script id="faq-schema-courier" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": faqs.map(f => ({ "@type": "Question", "name": f.question, "acceptedAnswer": { "@type": "Answer", "text": f.answer } })) }) }} />
             <UnifiedSchema pageType="service" title="Legal Courier Services Oklahoma" description="Courthouse filing, document delivery, and secure legal transport across Oklahoma." url="https://justlegalsolutions.org/courier-services" image="https://justlegalsolutions.org/og-image.png" keywords={['legal courier', 'courthouse filing', 'document delivery oklahoma']} reviewCount={156} services={['Courthouse Filing', 'Document Pickup & Delivery', 'File-Stamped Copy Returns', 'Secure Document Transport']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Courier Services', url: '/courier-services' }]} />
         </>
     );

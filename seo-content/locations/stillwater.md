@@ -56,3 +56,28 @@ We also provide regular service to Logan County to the east and Noble County to 
 ---
 
 *Contact our Stillwater process serving team for reliable, knowledgeable service throughout Payne County and beyond.*
+
+---
+
+## Frequently Asked Questions
+
+### Can you serve papers on the OSU campus?
+Yes. We have experience serving documents at Oklahoma State University including residence halls, Greek houses, student apartments, and campus facilities. We understand university access policies and schedule around the academic calendar.
+
+### How do you serve at Greek houses near OSU?
+Our servers are familiar with Greek housing near OSU campus. We know access protocols and coordinate service during times when residents are most likely present.
+
+### What happens when a student moves after the semester ends?
+We offer skip tracing services to locate students who have changed addresses between semesters. Stillwater's student population changes significantly during breaks, and our team has resources to find updated addresses.
+
+### Do you serve the rural areas around Stillwater?
+Yes. We cover all of Payne County including rural agricultural properties outside Stillwater. Our servers navigate county roads and rural addresses throughout the area.
+
+### Do you also cover Cushing and surrounding communities?
+Yes. We serve Cushing, Perkins, Glencoe, Ripley, Yale, and communities throughout Payne County and into surrounding Logan and Noble Counties.
+
+### Is weekend service available in Stillwater?
+Yes. We offer 24/7 availability including weekends and holidays. We can coordinate service around campus events and schedule accordingly.
+
+### What types of legal documents do you serve in Stillwater?
+We handle all civil process including divorce papers, subpoenas, eviction notices, small claims filings, custody orders, protective orders, and university-related legal documents throughout Payne County.

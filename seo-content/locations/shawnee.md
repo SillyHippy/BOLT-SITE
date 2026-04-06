@@ -81,3 +81,28 @@ The city's downtown courthouse district also has specific parking considerations
 ---
 
 *Contact our Shawnee process serving team for experienced service throughout Pottawatomie County and central Oklahoma.*
+
+---
+
+## Frequently Asked Questions
+
+### Can you serve papers involving Citizen Potawatomi Nation jurisdiction?
+Service involving tribal land or tribal members near Shawnee requires awareness of tribal jurisdiction and court procedures. We coordinate with appropriate authorities when tribal land is involved.
+
+### Do you serve all of Pottawatomie County?
+Yes. We cover all of Pottawatomie County including Shawnee, Tecumseh, McLoud, Maud, Asher, Earlsboro, and St. Louis. We also serve in surrounding Lincoln, Seminole, and Oklahoma Counties.
+
+### What types of documents do you serve in Shawnee?
+We serve all civil process including subpoenas, divorce papers, eviction notices, small claims filings, custody documents, and protective orders throughout the Shawnee area.
+
+### Do you serve papers at OBU (Oklahoma Baptist University)?
+Yes. We serve documents at Oklahoma Baptist University campus locations including residence halls and student housing. We understand university access policies and scheduling.
+
+### Is same-day process serving available in Shawnee?
+Same-day service is available in the Shawnee area based on scheduling. Contact us to confirm availability for urgent matters.
+
+### How do you handle service in downtown Shawnee's historic buildings?
+Downtown Shawnee has historic multi-level buildings with varied access points and limited tenant directories. Our servers are familiar with the area's layout and use local knowledge to locate recipients.
+
+### Do you offer GPS-documented service attempts in Shawnee?
+Yes. Every service attempt is GPS-documented with timestamped coordinates, providing court-ready proof of service for your legal proceedings.

@@ -1,5 +1,4 @@
 import { Metadata } from 'next';
-import Script from 'next/script';
 import Link from 'next/link';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
@@ -544,67 +543,6 @@ const UrgentProcessServerPage = () => {
           </div>
         </div>
       </div>
-
-      {/* LocalBusiness JSON-LD Schema */}
-      <Script
-        id="local-business-schema-urgent"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "LegalService",
-            "name": "Just Legal Solutions",
-            "url": "https://justlegalsolutions.org",
-            "telephone": "+15393676832",
-            "email": "info@justlegalsolutions.org",
-            "priceRange": "$30-$265",
-            "image": "https://justlegalsolutions.org/images/jls-logo.webp",
-            "address": {
-              "@type": "PostalAddress",
-              "streetAddress": "Glenpool",
-              "addressLocality": "Glenpool",
-              "addressRegion": "OK",
-              "postalCode": "74033",
-              "addressCountry": "US"
-            },
-            "geo": {
-              "@type": "GeoCoordinates",
-              "latitude": 35.9531,
-              "longitude": -96.0039
-            },
-            "openingHoursSpecification": {
-              "@type": "OpeningHoursSpecification",
-              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-              "opens": "00:00",
-              "closes": "23:59"
-            },
-            "areaServed": {
-              "@type": "State",
-              "name": "Oklahoma"
-            }
-          })
-        }}
-      />
-
-      {/* FAQPage JSON-LD Schema */}
-      <Script
-        id="faq-schema-urgent"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": urgentFaqs.map(faq => ({
-              "@type": "Question",
-              "name": faq.question,
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": faq.answer
-              }
-            }))
-          })
-        }}
-      />
 
       <UnifiedSchema
         pageType="service"

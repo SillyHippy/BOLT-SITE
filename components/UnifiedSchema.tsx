@@ -219,7 +219,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     },
     // Map legacy aggregate rating
     aggregateRating = props.reviewCount ? {
-      ratingValue: 5.0,
+      ratingValue: 4.9,
       reviewCount: props.reviewCount,
       bestRating: 5,
       worstRating: 1
@@ -568,8 +568,8 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
   if (aggregateRating && organizationSchema) {
     organizationSchema.aggregateRating = {
       '@type': 'AggregateRating',
-      'ratingValue': aggregateRating.ratingValue ? aggregateRating.ratingValue : 5.0,
-      'reviewCount': aggregateRating.reviewCount ? aggregateRating.reviewCount : 157,
+      'ratingValue': aggregateRating.ratingValue ? aggregateRating.ratingValue : 4.9,
+      'reviewCount': aggregateRating.reviewCount ? aggregateRating.reviewCount : 156,
       'bestRating': aggregateRating.bestRating ? aggregateRating.bestRating : 5,
       'worstRating': aggregateRating.worstRating ? aggregateRating.worstRating : 1
     };

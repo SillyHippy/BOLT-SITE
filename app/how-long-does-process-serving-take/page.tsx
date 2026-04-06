@@ -1,6 +1,5 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import Script from 'next/script';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
@@ -150,7 +149,6 @@ export default function HowLongPage() {
                 </div>
             </div>
 
-            <Script id="faq-schema-timeline" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": faqs.map(f => ({ "@type": "Question", "name": f.question, "acceptedAnswer": { "@type": "Answer", "text": f.answer } })) }) }} />
             <UnifiedSchema pageType="article" title="How Long Does Process Serving Take?" description="Timeline guide: 2 hours to 6 weeks depending on method. Full comparison." url="https://justlegalsolutions.org/how-long-does-process-serving-take" image="https://justlegalsolutions.org/og-image.png" keywords={['how long process serving takes', 'process serving timeline', 'fast paper serving']} reviewCount={156} services={['Standard Service', 'Same-Day Rush', '2-Hour Emergency']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'How Long Does Process Serving Take?', url: '/how-long-does-process-serving-take' }]} />
         </>
     );

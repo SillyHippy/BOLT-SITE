@@ -1,6 +1,5 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import Script from 'next/script';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
@@ -156,7 +155,6 @@ export default function ProcessServerCostPage() {
                 </div>
             </div>
 
-            <Script id="faq-schema-cost" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": faqs.map(f => ({ "@type": "Question", "name": f.question, "acceptedAnswer": { "@type": "Answer", "text": f.answer } })) }) }} />
             <UnifiedSchema pageType="article" title="How Much Does a Process Server Cost? (2026 Oklahoma Guide)" description="Process server costs: $30-$265. Full comparison with sheriff and DIY options." url="https://justlegalsolutions.org/how-much-does-process-server-cost" image="https://justlegalsolutions.org/og-image.png" keywords={['process server cost', 'process serving fees', 'cost to serve papers oklahoma']} reviewCount={156} services={['Standard Service $60', 'Single Attempt $30', 'Same-Day Rush $150', '2-Hour Emergency $265']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'How Much Does a Process Server Cost?', url: '/how-much-does-process-server-cost' }]} />
         </>
     );

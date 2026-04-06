@@ -2,7 +2,6 @@ import React from 'react';
 import Image from 'next/image';
 import { Metadata } from 'next';
 import Link from 'next/link';
-import Script from 'next/script';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
@@ -58,47 +57,6 @@ export default function CourierServicesTulsaPage() {
 
   return (
     <>
-      {/* LocalBusiness JSON-LD Schema */}
-      <Script
-        id="local-business-schema-courier"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "LegalService",
-            "name": "Just Legal Solutions",
-            "url": "https://justlegalsolutions.org",
-            "telephone": "+15393676832",
-            "email": "info@justlegalsolutions.org",
-            "priceRange": "$30-$265",
-            "image": "https://justlegalsolutions.org/images/jls-logo.webp",
-            "address": {
-              "@type": "PostalAddress",
-              "streetAddress": "Glenpool",
-              "addressLocality": "Glenpool",
-              "addressRegion": "OK",
-              "postalCode": "74033",
-              "addressCountry": "US"
-            },
-            "geo": {
-              "@type": "GeoCoordinates",
-              "latitude": 35.9531,
-              "longitude": -96.0039
-            },
-            "openingHoursSpecification": {
-              "@type": "OpeningHoursSpecification",
-              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-              "opens": "00:00",
-              "closes": "23:59"
-            },
-            "areaServed": [
-              { "@type": "AdministrativeArea", "name": "Tulsa County" },
-              { "@type": "State", "name": "Oklahoma" }
-            ]
-          })
-        }}
-      />
-
       <UnifiedSchema
         pageType="service"
         url="https://justlegalsolutions.org/courier-services-tulsa"

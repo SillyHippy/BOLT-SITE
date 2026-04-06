@@ -1,6 +1,5 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import Script from 'next/script';
 import { ChevronRight, FileText, CheckCircle, AlertTriangle, Scale, Clock, Shield, XCircle, ListChecks } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import { Navbar } from '@/components/ui/navbar';
@@ -109,41 +108,6 @@ export default function EvictionNoticeGuide() {
         keywords={['Oklahoma eviction notice', 'how to serve eviction Oklahoma', '5 day notice to quit', 'FED summons', 'Title 41 notice', '12 OS 1148.5']}
       />
 
-      {/* Standalone LegalService Schema */}
-      <Script id="legal-service-schema" type="application/ld+json" dangerouslySetInnerHTML={{
-        __html: JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "LegalService",
-          "name": "Just Legal Solutions",
-          "description": "Professional process serving in Oklahoma specializing in FED summons delivery and eviction service of process.",
-          "areaServed": { "@type": "State", "name": "Oklahoma" },
-          "telephone": "(539) 367-6832",
-          "url": "https://justlegalsolutions.org/blog/how-to-serve-eviction-notices-in-oklahoma",
-          "priceRange": "$30-$265",
-          "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Glenpool",
-            "addressRegion": "OK",
-            "postalCode": "74033",
-            "addressCountry": "US"
-          }
-        })
-      }} />
-
-      <Script id="faq-schema-eviction" type="application/ld+json" dangerouslySetInnerHTML={{
-        __html: JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          "mainEntity": faqs.map(f => ({
-            "@type": "Question",
-            "name": f.question,
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": f.answer
-            }
-          }))
-        })
-      }} />
       <Navbar />
       <LocalPromoBanner zips={[]} />
 

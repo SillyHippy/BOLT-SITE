@@ -1052,67 +1052,6 @@ export default function TulsaProcessServerPage() {
         </section>
 
       </div>
-      {/* LocalBusiness Schema */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "LocalBusiness",
-            "name": "Just Legal Solutions - Tulsa Process Server",
-            "description": "Licensed, bonded process server in Tulsa, Oklahoma. Professional legal document delivery throughout Tulsa County and surrounding areas.",
-            "url": "https://justlegalsolutions.org/tulsa-process-server",
-            "telephone": "(539) 367-6832",
-            "address": {
-              "@type": "PostalAddress",
-              "addressLocality": "Tulsa",
-              "addressRegion": "OK",
-              "postalCode": "74103",
-              "addressCountry": "US"
-            },
-            "geo": {
-              "@type": "GeoCoordinates",
-              "latitude": 36.1540,
-              "longitude": -95.9928
-            },
-            "openingHoursSpecification": [
-              {
-                "@type": "OpeningHoursSpecification",
-                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-                "opens": "08:00",
-                "closes": "18:00"
-              },
-              {
-                "@type": "OpeningHoursSpecification",
-                "dayOfWeek": ["Saturday", "Sunday"],
-                "opens": "00:00",
-                "closes": "23:59",
-                "description": "Emergency service available 24/7"
-              }
-            ],
-            "areaServed": [
-              { "@type": "City", "name": "Tulsa", "containedInPlace": { "@type": "State", "name": "Oklahoma" } },
-              { "@type": "City", "name": "Broken Arrow" },
-              { "@type": "City", "name": "Owasso" },
-              { "@type": "City", "name": "Bixby" },
-              { "@type": "City", "name": "Jenks" },
-              { "@type": "City", "name": "Sand Springs" },
-              { "@type": "City", "name": "Sapulpa" },
-              { "@type": "City", "name": "Glenpool" },
-              { "@type": "City", "name": "Collinsville" },
-              { "@type": "City", "name": "Catoosa" }
-            ],
-            "priceRange": "$30-$200",
-            "image": "https://justlegalsolutions.org/og-image.png",
-            "sameAs": ["https://justlegalsolutions.org"]
-          })
-        }}
-      />
-      {/* FAQPage Schema */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }}
-      />
       <UnifiedSchema
         pageType="location"
         title="Professional Process Server in Tulsa, Oklahoma"

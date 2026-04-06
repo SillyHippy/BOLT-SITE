@@ -70,3 +70,28 @@ Don't let document service delays impact your case. Contact Just Legal Solutions
 ---
 
 *Just Legal Solutions provides professional process serving throughout Cleveland County and the greater Oklahoma City metro area. All services performed in compliance with Oklahoma Rules of Civil Procedure.*
+
+---
+
+## Frequently Asked Questions
+
+### Can you serve papers on the OU campus?
+Yes. We have experience serving documents at University of Oklahoma residence halls, student apartments, Greek chapter houses, and the Campus Corner area. We understand university schedules and restricted access policies.
+
+### How do you serve papers at Greek houses near OU?
+Our servers are familiar with the Greek housing district along Lindsey and Classen. We know the access protocols for chapter houses managed by house corporations and coordinate service during times residents are most likely present.
+
+### What do you do if a OU student has moved between semesters?
+We offer skip tracing services to locate students who have changed addresses. Student housing turnover is common in Norman, and our team has the resources to find updated addresses even during semester breaks.
+
+### Do you serve papers at the Cleveland County Courthouse?
+Yes. We are familiar with the Cleveland County Courthouse and its filing requirements, local rules, and procedures for proof of service documentation.
+
+### Are you available during OU semester breaks?
+Yes. We provide year-round service in Norman regardless of the academic calendar. We adjust our approach during breaks when students may be at different addresses.
+
+### What areas beyond Norman do you cover?
+Our service area extends throughout Cleveland County including Moore, Noble, Lexington, and surrounding communities. We also handle multi-county service throughout central Oklahoma.
+
+### Do you handle family law service in Norman?
+Yes. We frequently serve divorce papers, custody orders, protective orders, and other family law documents throughout the Norman and Cleveland County area.

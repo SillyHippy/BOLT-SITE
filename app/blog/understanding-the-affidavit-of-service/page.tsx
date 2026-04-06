@@ -1,6 +1,5 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import Script from 'next/script';
 import { ChevronRight, CheckCircle, Shield, AlertTriangle, Scale, Clock, MapPin, FileText } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import { Navbar } from '@/components/ui/navbar';
@@ -108,39 +107,6 @@ export default function AffidavitGuide() {
         faqItems={faqs.map(f => ({ question: f.question, answer: f.answer }))}
         keywords={['Affidavit of Service', 'proof of service', 'return of service', 'Oklahoma process server', '12 OS 2004', 'Oklahoma service of process']}
       />
-
-      {/* Standalone LegalService Schema */}
-      <Script id="legal-service-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "LegalService",
-        "name": "Just Legal Solutions",
-        "description": "Professional process serving in Oklahoma providing GPS-verified Affidavits of Service with photographic evidence.",
-        "areaServed": {"@type": "State", "name": "Oklahoma"},
-        "telephone": "(539) 367-6832",
-        "url": "https://justlegalsolutions.org/blog/understanding-the-affidavit-of-service",
-        "priceRange": "$60-$265",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Glenpool",
-          "addressRegion": "OK",
-          "postalCode": "74033",
-          "addressCountry": "US"
-        }
-      }) }} />
-
-      {/* Standalone FAQPage Schema */}
-      <Script id="faq-schema-affidavit" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": faqs.map(f => ({
-          "@type": "Question",
-          "name": f.question,
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": f.answer
-          }
-        }))
-      }) }} />
 
       <Navbar />
       <LocalPromoBanner zips={[]} />

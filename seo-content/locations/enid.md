@@ -151,3 +151,28 @@ Enid was born a railroad town. The conflict between "North Enid" and "South Enid
 ---
 
 *Last Updated: April 2025*
+
+---
+
+## Frequently Asked Questions
+
+### Can you serve papers at Vance Air Force Base?
+Yes. Serving documents at Vance AFB requires compliance with military installation access procedures. We coordinate with base legal services and follow proper protocols for service on military personnel.
+
+### Do you serve papers in rural Garfield County?
+Yes. We serve documents throughout Garfield County including rural farming and ranch properties. Our servers navigate gravel roads, section-line roads, and agricultural areas throughout northwest Oklahoma.
+
+### What types of cases do you handle in Enid?
+We handle all civil process including eviction notices, small claims filings, subpoenas, divorce papers, custody documents, restraining orders, and commercial litigation documents.
+
+### How do you handle service at grain elevators and industrial areas in Enid?
+Our servers are familiar with Enid's industrial areas including grain elevators and agricultural businesses. We understand shift schedules, gate access procedures, and safety requirements for these locations.
+
+### Is same-day service available in Enid?
+Same-day service is available in the Enid area based on scheduling. Contact us to discuss timing and availability for rush service in Garfield County.
+
+### Do you serve the communities surrounding Enid?
+Yes. We cover surrounding communities including towns throughout Garfield County and northwest Oklahoma. We provide documented, professional service regardless of location.
+
+### Do you understand SCRA requirements for serving Vance AFB personnel?
+Yes. The Servicemembers Civil Relief Act provides protections for active-duty military personnel. We document SCRA status verification when serving military members to help attorneys meet their legal obligations.

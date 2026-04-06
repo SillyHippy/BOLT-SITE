@@ -158,7 +158,7 @@ const reviewSchema = {
   "name": "Joseph William Iannazzi",
   "aggregateRating": {
     "@type": "AggregateRating",
-    "ratingValue": "5.0",
+    "ratingValue": "4.9",
     "reviewCount": "156",
     "bestRating": "5",
     "worstRating": "1"
