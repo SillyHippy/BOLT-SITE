@@ -1,8 +1,8 @@
 # SCHEMA & SEO AUDIT — Just Legal Solutions
 
 **Generated:** April 5, 2026  
-**Last Updated:** April 5, 2026  
-**Status:** All critical/high items RESOLVED. 0 build errors, 201/201 pages passing.
+**Last Updated:** April 6, 2026  
+**Status:** All critical/high items RESOLVED. Statute citations VERIFIED & corrected. 0 build errors, 201/201 pages passing.
 
 ---
 
@@ -17,6 +17,8 @@
 7. [GOOGLE #1 RANKING PLAYBOOK — Process Serving & Notary](#7-google-1-ranking-playbook)
 8. [CONTENT AUTHORITY GAPS TO FILL](#8-content-authority-gaps-to-fill)
 9. [TECHNICAL SEO CHECKLIST](#9-technical-seo-checklist)
+10. [RESOLVED: Statute Citation Verification & Correction](#10-resolved-statute-citation-verification--correction)
+11. [RESOLVED: AI Meta Tags (ai-summary / ai-key-facts)](#11-resolved-ai-meta-tags)
 
 ---
 
@@ -296,6 +298,61 @@ These are pages/topics the site does NOT yet have that competitors likely rank f
 - [ ] **Google Business Profile** — ensure NAP matches site exactly, post weekly updates, respond to all reviews
 - [ ] **Schema validation** — paste key page URLs into Google Rich Results Test to verify schema renders correctly
 - [ ] **Page speed** — Cloudflare static export should be fast, but verify images are optimized (WebP, proper sizing)
+
+---
+
+## 10. RESOLVED: Statute Citation Verification & Correction
+
+✅ **Every Oklahoma statute citation on the site verified against Justia (law.justia.com) — 16 corrections applied across 6 files.**
+
+### Critical Bug Found & Fixed
+
+**`49 O.S. §§ 101-109` were ALL REPEALED** by Laws 1985, c. 131, § 12. The site had 15 references citing `§ 101 et seq.` across mobile-notary, hospital-notary, notary-laws, and notary pages — all pointing to dead law.
+
+**`49 O.S. § 115` was cited for notary fee caps on the pricing page** — but § 115 actually governs "Notarial acts performed in another state," NOT fees.
+
+### Corrections Applied
+
+| File | Old Citation | Corrected To | Reason |
+| --- | --- | --- | --- |
+| `pricing/page.tsx` | `49 O.S. § 115` | `49 O.S. § 5` (traditional) / `§ 209` (RON) | § 115 = other-state acts, not fees |
+| `mobile-notary/page.tsx` (7 fixes) | `49 O.S. § 101 et seq.` | `§ 111 et seq.`, `§ 201 et seq.`, `§ 113`, `§ 5`, `§ 209` | §§ 101-109 repealed since 1985 |
+| `hospital-notary/page.tsx` (3 fixes) | `49 O.S. § 101 et seq.` | `§ 111 et seq.` | §§ 101-109 repealed since 1985 |
+| `notary-laws/page.tsx` (4 fixes) | `§ 101 et seq.`, `§ 102` | `§ 2`, `§ 1 & § 1.1`, added `§ 209`, `§ 201 et seq.` | §§ 101-109 repealed; § 102 doesn't exist |
+| `notary/page.tsx` (2 fixes) | `49 O.S. § 101 et seq.` | `§ 2` (bond), `§ 111 et seq.` (laws link) | §§ 101-109 repealed since 1985 |
+
+### Verified Statute Reference Table
+
+| Statute | Verified Content | Source |
+| --- | --- | --- |
+| **49 O.S. § 1** | Notary appointment: 18+, US citizen, OK resident/employed, felony bars, 4-yr commission | Justia ✅ |
+| **49 O.S. § 1.1** | Application requirements: name, address, 18+, read/write English, no felony | Justia ✅ |
+| **49 O.S. § 2** | Oath, $10,000 bond, seal, $25 filing fee | Justia ✅ |
+| **49 O.S. § 5** | Traditional notary: $5 max per act, absentee ballot affidavits free | Justia ✅ |
+| **49 O.S. §§ 101-109** | **ALL REPEALED** by Laws 1985, c. 131, § 12 | Justia ✅ |
+| **49 O.S. § 111** | Short title — Revised Uniform Law on Notarial Acts | Justia ✅ |
+| **49 O.S. § 113** | Notarial acts: acknowledgment, verification, identity determination | Justia ✅ |
+| **49 O.S. § 115** | Notarial acts performed in ANOTHER STATE (not fees!) | Justia ✅ |
+| **49 O.S. § 201 et seq.** | Remote Online Notary Act (RON) — effective Jan 1, 2020 | Justia ✅ |
+| **49 O.S. § 209** | RON fee: $25 max per act | Justia ✅ |
+| **12 O.S. § 2004** | Process service: personal, substitute, publication, 180-day deadline | Justia ✅ |
+| **12 O.S. § 158.1** | Private process server licensing: 18+, $5,000 bond, $150 initial fee | Justia ✅ |
+| **41 O.S. § 111** | Termination of tenancy: 30-day notice for month-to-month | Justia ✅ |
+| **41 O.S. § 131** | Delinquent rent: 5-day written notice to pay or quit | Justia ✅ |
+| **41 O.S. § 132** | Tenant noncompliance: 15-day notice with 10-day cure period | Justia ✅ |
+
+---
+
+## 11. RESOLVED: AI Meta Tags (ai-summary / ai-key-facts)
+
+✅ **4 pages updated with missing AI meta tags for citation engine optimization.**
+
+| Page | Added |
+| --- | --- |
+| `hospital-notary/page.tsx` | ai-summary + ai-key-facts |
+| `mobile-notary/page.tsx` | ai-summary + ai-key-facts |
+| `apostille/page.tsx` | ai-summary + ai-key-facts |
+| `how-long-does-process-serving-take/page.tsx` | ai-key-facts (already had ai-summary) |
 
 ---
 

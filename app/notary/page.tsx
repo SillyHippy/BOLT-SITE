@@ -473,7 +473,7 @@ export default function NotaryPage() {
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               {[
-                { icon: Shield, title: 'Licensed & Bonded', desc: 'All notaries commissioned by the Oklahoma Secretary of State with $10,000 surety bonds as required by law (49 O.S. § 101 et seq.).' },
+                { icon: Shield, title: 'Licensed & Bonded', desc: 'All notaries commissioned by the Oklahoma Secretary of State with $10,000 surety bonds as required by law (49 O.S. § 2).' },
                 { icon: Clock, title: '24/7 Availability', desc: 'Document emergencies don\'t keep business hours. Available nights, weekends, and holidays with transparent pricing.' },
                 { icon: MapPin, title: 'Statewide Coverage', desc: 'Based in Tulsa County, serving all 77 Oklahoma counties. From Tulsa to OKC, Bartlesville to Lawton — we\'ll come to you.' },
                 { icon: Lock, title: 'Secure & Compliant', desc: 'We follow all Oklahoma notary laws, maintain detailed journals, and handle documents with complete confidentiality.' },
@@ -794,7 +794,7 @@ export default function NotaryPage() {
                 <Link href="/notary-laws" className="group bg-white/10 backdrop-blur-sm rounded-xl p-5 hover:bg-white/20 transition">
                   <Gavel className="w-8 h-8 text-purple-400 mb-3" />
                   <h4 className="font-semibold text-white mb-1">Oklahoma Notary Laws</h4>
-                  <p className="text-gray-400 text-sm">49 O.S. § 101 et seq and 2026 legislative updates</p>
+                  <p className="text-gray-400 text-sm">49 O.S. § 111 et seq. and 2026 legislative updates</p>
                 </Link>
               </div>
             </div>

@@ -59,6 +59,11 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: canonicalUrl
+  },
+  other: {
+    'ai-content-type': 'service',
+    'ai-summary': 'Mobile notary services throughout Oklahoma and Tulsa County. Licensed, bonded notaries travel to homes, offices, hospitals, and courthouses. Notary fee cap: $5/act traditional (49 O.S. § 5), $25/act RON (49 O.S. § 209). $10,000 surety bond required (49 O.S. § 2). NNA-certified, compliant with 49 O.S. § 111 et seq. and Remote Online Notary Act (49 O.S. § 201 et seq.). Same-day and 24/7 availability. Call (539) 367-6832.',
+    'ai-key-facts': 'Oklahoma mobile notary: $5/act max fee (49 O.S. § 5), $25/act max RON (49 O.S. § 209). $10,000 surety bond (49 O.S. § 2). Travel fees not capped by law. Government-issued photo ID required (49 O.S. § 113). Covers Tulsa, Creek, Wagoner, Osage, Rogers counties.',
   }
 };
 
@@ -249,7 +254,7 @@ const trustBadges = [
   },
   {
     title: 'RON Certified',
-    detail: 'Remote online notarization credentials per 49 O.S. § 101 et seq. allowing statewide and international clients to sign securely when travel is impossible.'
+    detail: 'Remote online notarization credentials per 49 O.S. § 201 et seq. (Remote Online Notary Act) allowing statewide and international clients to sign securely when travel is impossible.'
   }
 ];
 
@@ -291,9 +296,9 @@ const faqs: FAQItem[] = [
   {
     question: 'Do you offer remote online notarization (RON)?',
     answer:
-      'Yes. Per 49 O.S. § 101 et seq., we offer RON sessions using Oklahoma Secretary of State-approved platforms. The statutory fee is $25 per act. We verify ID through knowledge-based authentication, maintain audio-video recordings as required by Oklahoma law, and ensure platform audit trails before releasing completed documents.',
+      'Yes. Per 49 O.S. § 201 et seq. (Remote Online Notary Act), we offer RON sessions using Oklahoma Secretary of State-approved platforms. The statutory fee cap is $25 per act (49 O.S. § 209). We verify ID through knowledge-based authentication, maintain audio-video recordings as required by Oklahoma law, and ensure platform audit trails before releasing completed documents.',
     schemaAnswer:
-      'Yes. Per 49 O.S. § 101 et seq., we offer RON sessions using Oklahoma Secretary of State-approved platforms. The statutory fee is $25 per act with full ID verification, audio-video recording, and audit trail compliance.'
+      'Yes. Per 49 O.S. § 201 et seq. (Remote Online Notary Act), we offer RON sessions using Oklahoma Secretary of State-approved platforms. The statutory fee cap is $25 per act (49 O.S. § 209) with full ID verification, audio-video recording, and audit trail compliance.'
   },
   {
     question: 'What if I need witnesses?',
@@ -312,9 +317,9 @@ const faqs: FAQItem[] = [
   {
     question: 'What identification is acceptable for Oklahoma notarizations?',
     answer:
-      'Under 49 O.S. § 101 et seq., Oklahoma allows government-issued photo identification such as driver licenses, passports, military IDs, or tribal IDs. If the signer lacks ID, we can use credible witnesses who know the signer personally, provided they carry valid ID themselves. Our notaries comply with 2026 HB 2265 identification standards.',
+      'Under 49 O.S. § 113, Oklahoma requires notaries to verify signer identity using government-issued photo identification such as driver licenses, passports, military IDs, or tribal IDs. If the signer lacks ID, we can use credible witnesses who know the signer personally, provided they carry valid ID themselves. Our notaries comply with 2026 HB 2265 identification standards.',
     schemaAnswer:
-      'Under 49 O.S. § 101 et seq., Oklahoma allows government-issued photo identification such as driver licenses, passports, military IDs, or tribal IDs. If the signer lacks ID, credible witnesses may be used. Compliant with 2026 HB 2265 identification standards.'
+      'Under 49 O.S. § 113, Oklahoma requires notaries to verify signer identity using government-issued photo identification such as driver licenses, passports, military IDs, or tribal IDs. If the signer lacks ID, credible witnesses may be used. Compliant with 2026 HB 2265 identification standards.'
   },
   {
     question: 'Can attorneys and lenders integrate this service with process serving?',
@@ -408,7 +413,7 @@ const notaryServiceSchema = {
       serviceUrl: 'https://justlegalsolutions.org/contact'
     }
   ],
-  termsOfService: 'Compliant with Oklahoma notary law 49 O.S. § 101 et seq., SB 1028, and HB 2265',
+  termsOfService: 'Compliant with Oklahoma notary law 49 O.S. § 111 et seq. (Revised Uniform Law on Notarial Acts), SB 1028, and HB 2265',
   sameAs: ['https://justlegalsolutions.org/notary', 'https://www.facebook.com/justlegalsolutions'],
   aggregateRating: {
     '@type': 'AggregateRating',
@@ -605,12 +610,12 @@ export default function MobileNotaryPage() {
               <div className="bg-white shadow-xl rounded-2xl p-8 border border-slate-100">
                 <h3 className="text-2xl font-semibold text-slate-900 mb-4">Oklahoma Notary Facts</h3>
                 <p className="text-slate-600 mb-4">
-                  Oklahoma commissioned notaries are regulated under <strong>49 O.S. § 101 et seq.</strong> by the <a href="https://www.sos.ok.gov/business/notary" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">Oklahoma Secretary of State</a>. We comply with 2026 Oklahoma notary law requirements including <strong>SB 1028</strong> (background screening and $10,000 surety bond) and <strong>HB 2265</strong> (updated identification standards). As NNA-certified members of the <a href="https://www.nationalnotary.org/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">National Notary Association</a>, we receive background screenings and continuing education.
+                  Oklahoma commissioned notaries are regulated under <strong>49 O.S. § 111 et seq.</strong> (Revised Uniform Law on Notarial Acts) by the <a href="https://www.sos.ok.gov/business/notary" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">Oklahoma Secretary of State</a>. We comply with 2026 Oklahoma notary law requirements including <strong>SB 1028</strong> (background screening and $10,000 surety bond) and <strong>HB 2265</strong> (updated identification standards). As NNA-certified members of the <a href="https://www.nationalnotary.org/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">National Notary Association</a>, we receive background screenings and continuing education.
                 </p>
                 <ul className="space-y-4">
                   <li className="flex items-start">
                     <Stamp className="w-6 h-6 text-blue-600 mr-3" />
-                    <span className="text-slate-600"><strong>Statutory fee caps (49 O.S. § 101):</strong> $5 per traditional notarial act, $25 per remote online notarization. Travel, witnesses, printing, and courier fees are separate and disclosed in writing.</span>
+                    <span className="text-slate-600"><strong>Statutory fee caps (49 O.S. § 5 &amp; § 209):</strong> $5 per traditional notarial act, $25 per remote online notarization. Travel, witnesses, printing, and courier fees are separate and disclosed in writing.</span>
                   </li>
                   <li className="flex items-start">
                     <Shield className="w-6 h-6 text-blue-600 mr-3" />
@@ -626,7 +631,7 @@ export default function MobileNotaryPage() {
                   </li>
                 </ul>
                 <p className="text-slate-600 mt-4">
-                  Our compliance with 49 O.S. § 101 et seq., SB 1028, and HB 2265 means we can advise clients when additional witnesses, specific jurat wording, or interpreter arrangements are required—before we arrive—so signings never stall.
+                  Our compliance with 49 O.S. § 111 et seq., SB 1028, and HB 2265 means we can advise clients when additional witnesses, specific jurat wording, or interpreter arrangements are required—before we arrive—so signings never stall.
                 </p>
               </div>
             </div>

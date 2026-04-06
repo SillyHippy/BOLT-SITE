@@ -450,7 +450,7 @@ export default function PricingPage() {
             <div className="max-w-5xl mx-auto mb-10">
                 <div className="bg-purple-50/50 border border-purple-200 rounded-lg p-3 text-center">
                     <p className="text-sm text-purple-800">
-                        Oklahoma law caps notary fees at <strong>$5 per traditional act</strong> and <strong>$25 per RON act</strong> (49 O.S. § 115). Each signature needing notarization = 1 act. <Link href="/notary-laws" className="text-purple-600 font-semibold underline hover:text-purple-800">View Oklahoma notary law details →</Link>
+                        Oklahoma law caps notary fees at <strong>$5 per traditional act</strong> (49 O.S. § 5) and <strong>$25 per RON act</strong> (49 O.S. § 209). Each signature needing notarization = 1 act. <Link href="/notary-laws" className="text-purple-600 font-semibold underline hover:text-purple-800">View Oklahoma notary law details →</Link>
                     </p>
                 </div>
             </div>

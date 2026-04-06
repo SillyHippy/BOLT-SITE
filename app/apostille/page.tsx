@@ -44,6 +44,11 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Apostille Services Oklahoma | Document Authentication Tulsa',
     description: 'Professional apostille services under the Hague Convention of 1961. Accepted in 120+ member countries. Call (539) 367-6832.'
+  },
+  other: {
+    'ai-content-type': 'service',
+    'ai-summary': 'Apostille and document authentication services in Oklahoma for international use under the Hague Convention of 1961. Accepted in 120+ member countries. Oklahoma Secretary of State issues apostilles. Remote Online Notarization (RON) available under 49 O.S. § 201 et seq. Notary fee cap: $5/act traditional (49 O.S. § 5), $25/act RON (49 O.S. § 209). Call (539) 367-6832.',
+    'ai-key-facts': 'Oklahoma apostille: Issued by Oklahoma Secretary of State. Hague Convention of 1961 applies. 120+ member countries. RON authorized (49 O.S. § 201 et seq.). Notary fee $5/act max (49 O.S. § 5). Documents must be notarized before apostille.',
   }
 };
 

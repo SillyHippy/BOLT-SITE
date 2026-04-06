@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     'article:published_time': '2026-03-22',
     'article:modified_time': '2026-03-22',
     'ai-content-type': 'guide',
-    'ai-summary': 'Oklahoma notary law guide: Notary fees capped at $5/act traditional, $25/act RON (49 O.S. § 5). Requirements: $10,000 surety bond, background check through OSBI, journal required for RON. Commission term: 4 years. Must be 18+, U.S. citizen, able to read/write English. Application: $50 new, $45 renewal. RON authorized since 2019.',
+    'ai-summary': 'Oklahoma notary law guide: Notary fees capped at $5/act traditional (49 O.S. § 5), $25/act RON (49 O.S. § 209). Requirements: $10,000 surety bond (49 O.S. § 2), background check through OSBI, journal required for RON. Commission term: 4 years. Must be 18+, U.S. citizen, able to read/write English (49 O.S. § 1). Application: $50 new, $45 renewal. RON authorized since 2019 (49 O.S. § 201 et seq.).',
     'ai-key-facts': 'Oklahoma notary fees: $5 traditional, $25 RON max per act. $10,000 bond required. Background check via OSBI $50. 4-year commission. Application $50 new/$45 renewal. RON authorized 2019. Absentee ballot affidavits free by law.',
   },
 };
@@ -202,7 +202,7 @@ export default function NotaryLawsPage() {
                 <p className="text-gray-700 mb-3">All Oklahoma notaries must maintain a $10,000 surety bond. The bond protects YOU, not the notary.</p>
                 <div className="bg-green-50 rounded-lg p-4">
                   <p className="text-sm text-green-800"><strong>Important:</strong> If a member of the public files a claim against a notary&apos;s bond, the bonding company may sue the notary to recoup funds. That&apos;s why E&O insurance is also recommended for notaries.</p>
-                  <p className="text-sm text-green-700 mt-2"><strong>Source:</strong> 49 O.S. § 101 et seq.</p>
+                  <p className="text-sm text-green-700 mt-2"><strong>Source:</strong> 49 O.S. § 2 (Oath, signature, bond and seal)</p>
                 </div>
               </div>
 
@@ -256,7 +256,7 @@ export default function NotaryLawsPage() {
                     </li>
                   ))}
                 </ul>
-                <p className="text-sm text-gray-500 mt-3">Source: 49 O.S. § 102</p>
+                <p className="text-sm text-gray-500 mt-3">Source: 49 O.S. § 1 (Appointment) &amp; § 1.1 (Application requirements)</p>
               </div>
             </div>
           </section>
@@ -305,7 +305,7 @@ export default function NotaryLawsPage() {
             <div className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-gray-100 mb-6">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Remote Online Notarization (RON) Fees</h3>
               <div className="bg-purple-50 rounded-lg p-4">
-                <p className="text-purple-800"><strong>Any RON notarial act: $25.00 maximum</strong></p>
+                <p className="text-purple-800"><strong>Any RON notarial act: $25.00 maximum</strong> (49 O.S. § 209)</p>
                 <p className="text-sm text-purple-700 mt-1">RON costs more because of the technology platform, recording requirements, and added security measures.</p>
               </div>
             </div>
@@ -463,7 +463,7 @@ export default function NotaryLawsPage() {
             </div>
 
             <p className="text-lg text-gray-700 mb-8">
-              <strong>Yes, you can get notarized without leaving your house.</strong> Oklahoma has authorized Remote Online Notarization (RON) since 2019, and it&apos;s fully integrated into state law.
+              <strong>Yes, you can get notarized without leaving your house.</strong> Oklahoma has authorized Remote Online Notarization (RON) since 2019 under the Remote Online Notary Act (49 O.S. § 201 et seq.), and it&apos;s fully integrated into state law.
             </p>
 
             {/* How RON Works */}

@@ -20,6 +20,7 @@ export const metadata: Metadata = {
     other: {
         'ai-content-type': 'article',
         'ai-summary': 'Process serving timelines: 2-hour emergency ($265), same-day rush 4-8 hours ($150), standard 1-7 business days ($60+), single attempts ($30+), sheriff 2-6 weeks ($25-$40). Factors: defendant availability, location, evasion, multiple attempts. Oklahoma has 180-day deadline to complete service after filing (12 O.S. § 2004).',
+        'ai-key-facts': 'Oklahoma process serving timelines: 2-hour emergency $265, same-day rush $150 (4-8 hrs), standard $60 (1-7 days), sheriff $25-$40 (2-6 weeks). 180-day service deadline (12 O.S. § 2004). Licensed under 12 O.S. § 158.1. GPS-verified proof. Call (539) 367-6832.',
     },
 };
 

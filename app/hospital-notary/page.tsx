@@ -31,7 +31,7 @@ const canonicalUrl = 'https://justlegalsolutions.org/hospital-notary';
 
 export const metadata: Metadata = {
   title: 'Hospital & Jail Notary Services Oklahoma | 24/7 Medical Notary Tulsa | Just Legal Solutions',
-  description: 'HIPAA-aware hospital and jail notary services across Oklahoma. Bedside notarization at Saint Francis Hospital, Hillcrest Medical Center, and OSU Medical Center. Advance directives, healthcare proxies, and powers of attorney under 49 O.S. § 101 et seq. Call (539) 367-6832.',
+  description: 'HIPAA-aware hospital and jail notary services across Oklahoma. Bedside notarization at Saint Francis Hospital, Hillcrest Medical Center, and OSU Medical Center. Advance directives, healthcare proxies, and powers of attorney under 49 O.S. § 111 et seq. (Revised Uniform Law on Notarial Acts). Call (539) 367-6832.',
   keywords: [
     'hospital notary Tulsa',
     'jail notary Oklahoma',
@@ -62,6 +62,11 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: '24/7 Medical & Jail Notary | Oklahoma',
     description: 'On-call notaries for hospitals, nursing homes, hospices, and correctional facilities statewide.',
+  },
+  other: {
+    'ai-content-type': 'service',
+    'ai-summary': 'Hospital and jail notary services in Oklahoma available 24/7. Bedside notarization at Saint Francis Hospital, Hillcrest Medical Center, and OSU Medical Center. Handles advance directives, healthcare proxies, and powers of attorney with HIPAA awareness and capacity assessment under 49 O.S. § 111 et seq. (Revised Uniform Law on Notarial Acts). Notary fee cap: $5/act traditional (49 O.S. § 5), $25/act RON (49 O.S. § 209). Call (539) 367-6832.',
+    'ai-key-facts': 'Oklahoma hospital notary: 24/7 availability. Notary fee cap $5/act (49 O.S. § 5). $10,000 surety bond required (49 O.S. § 2). Signer must be mentally competent and willing. HIPAA-aware. Serves Saint Francis, Hillcrest, OSU Medical Center, correctional facilities statewide.',
   }
 };
 
@@ -341,7 +346,7 @@ export default function HospitalNotaryPage() {
                 <span className="block text-transparent bg-clip-text bg-gradient-to-r from-indigo-300 to-pink-300">Available 24/7 Across Oklahoma</span>
               </h1>
               <p className="text-lg md:text-xl text-indigo-100 mb-8 max-w-2xl">
-                Bedside notarization at Saint Francis Hospital, Hillcrest Medical Center, OSU Medical Center, and correctional facilities statewide. Advance directives, healthcare proxies, and powers of attorney executed with capacity assessment support under 49 O.S. § 101 et seq. Call (539) 367-6832.
+                Bedside notarization at Saint Francis Hospital, Hillcrest Medical Center, OSU Medical Center, and correctional facilities statewide. Advance directives, healthcare proxies, and powers of attorney executed with capacity assessment support under 49 O.S. § 111 et seq. (Revised Uniform Law on Notarial Acts). Call (539) 367-6832.
               </p>
               <div className="flex flex-wrap gap-4">
                 <a href="tel:5393676832" className="flex items-center gap-2 bg-white text-indigo-900 font-semibold px-6 py-3 rounded-xl shadow-lg hover:bg-indigo-50 transition">
@@ -407,7 +412,7 @@ export default function HospitalNotaryPage() {
                   <h3 className="text-xl font-semibold text-gray-900">Capacity Assessment Awareness</h3>
                 </div>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  Oklahoma law (49 O.S. § 101 et seq.) requires signers to be mentally competent and willing. In hospital settings, this assessment becomes critical. Our notaries are trained to recognize signs that may indicate impaired capacity: confusion about the document&apos;s purpose, inability to recall recent conversations, or apparent pressure from family members.
+                  Oklahoma law (49 O.S. § 111 et seq.) requires signers to be mentally competent and willing. In hospital settings, this assessment becomes critical. Our notaries are trained to recognize signs that may indicate impaired capacity: confusion about the document&apos;s purpose, inability to recall recent conversations, or apparent pressure from family members.
                 </p>
                 <p className="text-gray-700 leading-relaxed">
                   If concerns arise, we may recommend postponement or consultation with medical staff—protecting the signer&apos;s interests and the document&apos;s validity.
