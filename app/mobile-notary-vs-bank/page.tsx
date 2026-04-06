@@ -2,17 +2,41 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { Navbar } from '../../components/ui/navbar';
 import { Footer } from '../../components/ui/footer';
+import UnifiedSchema from '@/components/UnifiedSchema';
 import { CheckCircle2, Clock, MapPin, AlertCircle, Users, TrendingUp, ArrowRight, ExternalLink } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Mobile Notary vs Bank Notary: Which Is Right For You? | Just Legal Solutions',
   description: 'Compare mobile notary services vs bank notary services. Learn which option offers better value, availability, and expertise for your notarization needs.',
   keywords: 'mobile notary, bank notary, comparison, convenience, expertise',
+  alternates: { canonical: 'https://justlegalsolutions.org/mobile-notary-vs-bank' },
 };
 
 export default function MobileVsBankPage() {
   return (
     <div className="min-h-screen bg-white">
+      <UnifiedSchema
+        pageType="article"
+        pageTitle="Mobile Notary vs Bank Notary: Which Is Right For You?"
+        pageDescription="Compare mobile notary services vs bank notary services. Learn which option offers better value, availability, and expertise for your notarization needs."
+        pageUrl="https://justlegalsolutions.org/mobile-notary-vs-bank"
+        siteName="Just Legal Solutions"
+        reviewCount={156}
+        services={['Mobile Notary', 'Notary Services', 'Document Notarization']}
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Mobile Notary', url: '/mobile-notary' },
+          { name: 'Mobile Notary vs Bank', url: '/mobile-notary-vs-bank' },
+        ]}
+        articleDetails={{
+          headline: 'Mobile Notary vs Bank Notary: Which Is Right For You?',
+          author: 'Joseph Iannazzi',
+          datePublished: '2025-03-30',
+          dateModified: '2026-04-03',
+          image: 'https://justlegalsolutions.org/og-image.png',
+        }}
+        keywords={['mobile notary vs bank notary', 'mobile notary comparison', 'bank notary services', 'notarization options Oklahoma']}
+      />
       <Navbar />
 
       {/* Hero Section */}

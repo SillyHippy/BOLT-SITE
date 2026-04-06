@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { Phone } from 'lucide-react';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
+import UnifiedSchema from '@/components/UnifiedSchema';
 import MarkdownContent from '@/components/MarkdownContent';
 import { readFileSync } from 'fs';
 import { join } from 'path';
@@ -38,6 +39,28 @@ export default function McGirtGuidePage() {
 
   return (
     <>
+      <UnifiedSchema
+        pageType="article"
+        pageTitle="McGirt v. Oklahoma | What Process Servers Need to Know (2026)"
+        pageDescription="How the landmark McGirt v. Oklahoma Supreme Court decision affects process serving on tribal land."
+        pageUrl="https://justlegalsolutions.org/guides/mcgirt-v-oklahoma"
+        siteName="Just Legal Solutions"
+        reviewCount={156}
+        services={['Tribal Land Process Serving', 'Process Serving', 'Legal Document Delivery']}
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Guides', url: '/guides' },
+          { name: 'McGirt v. Oklahoma', url: '/guides/mcgirt-v-oklahoma' },
+        ]}
+        articleDetails={{
+          headline: 'McGirt v. Oklahoma | What Process Servers Need to Know (2026)',
+          author: 'Joseph Iannazzi',
+          datePublished: '2026-04-03',
+          dateModified: '2026-04-03',
+          image: 'https://justlegalsolutions.org/og-image.png',
+        }}
+        keywords={['McGirt v Oklahoma process serving', 'tribal land service Oklahoma', 'tribal jurisdiction process server']}
+      />
       <Navbar />
       <main className="pt-20 pb-16">
         <div className="max-w-4xl mx-auto px-4">

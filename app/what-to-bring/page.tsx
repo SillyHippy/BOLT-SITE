@@ -2,17 +2,41 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { Navbar } from '../../components/ui/navbar';
 import { Footer } from '../../components/ui/footer';
+import UnifiedSchema from '@/components/UnifiedSchema';
 import { CheckCircle2, AlertCircle, Users, FileText, Clock, Shield, ArrowRight, ExternalLink } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'What to Bring to Your Notary Appointment | Just Legal Solutions',
   description: 'Complete checklist of what to bring for a successful notary appointment. Valid ID requirements, document prep, and special situation guides.',
   keywords: 'notary appointment, what to bring, valid ID, notarization checklist, document preparation',
+  alternates: { canonical: 'https://justlegalsolutions.org/what-to-bring' },
 };
 
 export default function WhatToBringPage() {
   return (
     <div className="min-h-screen bg-white">
+      <UnifiedSchema
+        pageType="article"
+        pageTitle="What to Bring to Your Notary Appointment"
+        pageDescription="Complete checklist of what to bring for a successful notary appointment. Valid ID requirements, document prep, and special situation guides."
+        pageUrl="https://justlegalsolutions.org/what-to-bring"
+        siteName="Just Legal Solutions"
+        reviewCount={156}
+        services={['Mobile Notary', 'Notary Services', 'Document Notarization']}
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Notary', url: '/notary' },
+          { name: 'What to Bring', url: '/what-to-bring' },
+        ]}
+        articleDetails={{
+          headline: 'What to Bring to Your Notary Appointment',
+          author: 'Joseph Iannazzi',
+          datePublished: '2025-03-30',
+          dateModified: '2026-04-03',
+          image: 'https://justlegalsolutions.org/og-image.png',
+        }}
+        keywords={['notary appointment checklist', 'what to bring notary', 'valid ID for notary Oklahoma', 'notarization preparation']}
+      />
       <Navbar />
 
       {/* Hero Section */}

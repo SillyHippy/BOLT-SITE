@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { Phone } from 'lucide-react';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
+import UnifiedSchema from '@/components/UnifiedSchema';
 import MarkdownContent from '@/components/MarkdownContent';
 import { readFileSync } from 'fs';
 import { join } from 'path';
@@ -41,6 +42,28 @@ export default function MilitaryBaseServiceGuidePage() {
 
   return (
     <>
+      <UnifiedSchema
+        pageType="article"
+        pageTitle="Serving Process on Military Bases in Oklahoma | Complete Guide"
+        pageDescription="How to serve legal documents on Oklahoma military installations including Fort Sill, Tinker AFB, and Altus AFB."
+        pageUrl="https://justlegalsolutions.org/guides/military-base-service"
+        siteName="Just Legal Solutions"
+        reviewCount={156}
+        services={['Military Base Process Serving', 'Process Serving', 'Legal Document Delivery']}
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Guides', url: '/guides' },
+          { name: 'Military Base Service', url: '/guides/military-base-service' },
+        ]}
+        articleDetails={{
+          headline: 'Serving Process on Military Bases in Oklahoma | Complete Guide',
+          author: 'Joseph Iannazzi',
+          datePublished: '2026-04-03',
+          dateModified: '2026-04-03',
+          image: 'https://justlegalsolutions.org/og-image.png',
+        }}
+        keywords={['military base process serving', 'Fort Sill process server', 'Tinker AFB service of process', 'SCRA process serving']}
+      />
       <Navbar />
       <main className="pt-20 pb-16">
         <div className="max-w-4xl mx-auto px-4">

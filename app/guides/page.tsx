@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { Scale, MapPin, Building2, Shield, BookOpen } from 'lucide-react';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
   title: 'Legal Process Serving Guides | Just Legal Solutions',
@@ -67,6 +68,19 @@ const guides = [
 export default function GuidesIndexPage() {
   return (
     <>
+      <UnifiedSchema
+        pageType="generic"
+        pageTitle="Legal Process Serving Guides | Just Legal Solutions"
+        pageDescription="Comprehensive guides on process serving in Oklahoma. Attorney resources, rural serving strategies, tribal land jurisdictions, and military base procedures."
+        pageUrl="https://justlegalsolutions.org/guides"
+        siteName="Just Legal Solutions"
+        reviewCount={156}
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Guides', url: '/guides' },
+        ]}
+        keywords={['process serving guides Oklahoma', 'attorney guide process server', 'Oklahoma legal guides']}
+      />
       <Navbar />
       <main className="pt-20 pb-16">
         {/* Hero */}

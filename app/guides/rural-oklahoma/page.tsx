@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { Phone } from 'lucide-react';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
+import UnifiedSchema from '@/components/UnifiedSchema';
 import MarkdownContent from '@/components/MarkdownContent';
 import { readFileSync } from 'fs';
 import { join } from 'path';
@@ -38,6 +39,28 @@ export default function RuralOklahomaGuidePage() {
 
   return (
     <>
+      <UnifiedSchema
+        pageType="article"
+        pageTitle="Process Serving in Rural Oklahoma | Complete Guide"
+        pageDescription="Navigate the unique challenges of rural Oklahoma process serving. GPS tracking, tribal lands, weather, and county-by-county strategies."
+        pageUrl="https://justlegalsolutions.org/guides/rural-oklahoma"
+        siteName="Just Legal Solutions"
+        reviewCount={156}
+        services={['Process Serving', 'Rural Process Serving', 'GPS Tracked Service']}
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Guides', url: '/guides' },
+          { name: 'Rural Oklahoma', url: '/guides/rural-oklahoma' },
+        ]}
+        articleDetails={{
+          headline: 'Process Serving in Rural Oklahoma | Complete Guide',
+          author: 'Joseph Iannazzi',
+          datePublished: '2026-04-03',
+          dateModified: '2026-04-03',
+          image: 'https://justlegalsolutions.org/og-image.png',
+        }}
+        keywords={['rural process serving Oklahoma', 'Oklahoma 77 counties process server', 'GPS tracked rural service']}
+      />
       <Navbar />
       <main className="pt-20 pb-16">
         <div className="max-w-4xl mx-auto px-4">

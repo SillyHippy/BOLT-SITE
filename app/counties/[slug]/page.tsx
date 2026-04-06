@@ -10,6 +10,7 @@ import {
   getCountyContent,
   extractTitle,
   extractDescription,
+  extractFAQs,
   slugToCountyName,
 } from '@/lib/markdown-utils';
 
@@ -63,6 +64,11 @@ export default async function CountyPage({ params }: { params: Promise<{ slug: s
   const { slug } = await params;
   const content = getCountyContent(slug);
   const countyName = slugToCountyName(slug);
+  const title = extractTitle(content) || `Process Server ${countyName}`;
+  const description =
+    extractDescription(content) ||
+    `Licensed process server throughout ${countyName}, Oklahoma. Same-day service available.`;
+  const faqs = extractFAQs(content);
 
   const breadcrumbItems = [
     { name: 'Home', url: '/' },
@@ -74,7 +80,25 @@ export default async function CountyPage({ params }: { params: Promise<{ slug: s
     <>
       <UnifiedSchema
         pageType="location"
-        breadcrumbItems={breadcrumbItems}
+        pageTitle={title}
+        pageDescription={description}
+        pageUrl={`https://justlegalsolutions.org/counties/${slug}`}
+        siteName="Just Legal Solutions"
+        reviewCount={156}
+        services={['Process Serving', 'Legal Document Delivery', 'Skip Tracing', 'Courthouse Filing']}
+        breadcrumbs={breadcrumbItems}
+        faqItems={faqs}
+        location={{
+          name: countyName,
+          state: 'Oklahoma',
+          region: countyName,
+        }}
+        keywords={[
+          `process server ${countyName}`,
+          `${countyName} process serving`,
+          `serve papers ${countyName} Oklahoma`,
+          'Oklahoma process server',
+        ]}
       />
       <Navbar />
 

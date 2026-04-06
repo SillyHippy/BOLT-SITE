@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { Phone } from 'lucide-react';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
+import UnifiedSchema from '@/components/UnifiedSchema';
 import MarkdownContent from '@/components/MarkdownContent';
 import { readFileSync } from 'fs';
 import { join } from 'path';
@@ -35,6 +36,28 @@ export default function AttorneyGuidePage() {
 
   return (
     <>
+      <UnifiedSchema
+        pageType="article"
+        pageTitle="Process Serving for Oklahoma Attorneys | What You Need to Know"
+        pageDescription="Complete guide for Oklahoma attorneys on selecting, working with, and depending on professional process servers."
+        pageUrl="https://justlegalsolutions.org/guides/attorney-guide"
+        siteName="Just Legal Solutions"
+        reviewCount={156}
+        services={['Process Serving', 'Legal Document Delivery', 'Skip Tracing']}
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Guides', url: '/guides' },
+          { name: 'Attorney Guide', url: '/guides/attorney-guide' },
+        ]}
+        articleDetails={{
+          headline: 'Process Serving for Oklahoma Attorneys | What You Need to Know',
+          author: 'Joseph Iannazzi',
+          datePublished: '2026-04-03',
+          dateModified: '2026-04-03',
+          image: 'https://justlegalsolutions.org/og-image.png',
+        }}
+        keywords={['process server for attorneys', 'Oklahoma attorney process serving guide', 'hire process server Oklahoma']}
+      />
       <Navbar />
       <main className="pt-20 pb-16">
         <div className="max-w-4xl mx-auto px-4">
