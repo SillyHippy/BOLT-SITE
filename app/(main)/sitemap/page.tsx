@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
-import { MapPin, FileText, BookOpen, Scale, Phone, Briefcase, ClipboardList, ArrowRight, Stamp } from 'lucide-react';
+import { MapPin, FileText, BookOpen, Scale, Phone, Briefcase, ClipboardList, ArrowRight, Stamp, Newspaper } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
@@ -175,6 +175,45 @@ const sections: SitemapSection[] = [
       { url: '/family-law-service-guide-tulsa', label: 'Family Law Service Guide — Tulsa' },
     ],
   },
+  {
+    title: 'Blog',
+    description: 'Expert articles on Oklahoma process serving, legal procedures, and industry insights.',
+    icon: <Newspaper className="w-5 h-5" />,
+    color: 'purple',
+    links: [
+      { url: '/blog', label: 'All Blog Posts' },
+      { url: '/blog/how-to-serve-a-subpoena-oklahoma', label: 'How to Serve a Subpoena in Oklahoma' },
+      { url: '/blog/how-to-serve-divorce-papers-oklahoma', label: 'How to Serve Divorce Papers in Oklahoma' },
+      { url: '/blog/how-to-serve-eviction-notices-in-oklahoma', label: 'How to Serve Eviction Notices in Oklahoma' },
+      { url: '/blog/how-to-serve-small-claims-oklahoma', label: 'How to Serve Small Claims in Oklahoma' },
+      { url: '/blog/understanding-the-affidavit-of-service', label: 'Understanding the Affidavit of Service' },
+      { url: '/blog/what-to-do-when-served-papers-oklahoma', label: 'What to Do When Served Papers in Oklahoma' },
+      { url: '/blog/can-you-avoid-being-served-oklahoma', label: 'Can You Avoid Being Served in Oklahoma?' },
+      { url: '/blog/what-does-process-server-do-day-in-life', label: 'A Day in the Life of a Process Server' },
+      { url: '/blog/become-process-server-oklahoma-2026', label: 'How to Become a Process Server in Oklahoma (2026)' },
+      { url: '/blog/sheriff-vs-private-process-server-oklahoma', label: 'Sheriff vs Private Process Server' },
+      { url: '/blog/diy-vs-professional-service-oklahoma', label: 'DIY vs Professional Process Service' },
+      { url: '/blog/certified-mail-vs-personal-service-oklahoma', label: 'Certified Mail vs Personal Service' },
+      { url: '/blog/substitute-service-oklahoma', label: 'Substitute Service in Oklahoma' },
+      { url: '/blog/serve-business-corporation-oklahoma', label: 'How to Serve a Business or Corporation' },
+      { url: '/blog/serve-out-of-state-defendant-oklahoma', label: 'Serving an Out-of-State Defendant' },
+      { url: '/blog/contest-improper-service-oklahoma', label: 'How to Contest Improper Service' },
+      { url: '/blog/how-long-respond-lawsuit-oklahoma', label: 'How Long to Respond to a Lawsuit' },
+      { url: '/blog/oklahoma-default-judgment-guide', label: 'Oklahoma Default Judgment Guide' },
+      { url: '/blog/how-to-file-protective-order-oklahoma', label: 'How to File a Protective Order' },
+      { url: '/blog/oklahoma-child-custody-support-service', label: 'Child Custody & Support Service' },
+      { url: '/blog/oklahoma-landlord-tenant-eviction-timelines', label: 'Landlord-Tenant Eviction Timelines' },
+      { url: '/blog/oklahoma-eviction-moratorium-history-2026', label: 'Oklahoma Eviction Moratorium History' },
+      { url: '/blog/bail-bondsmen-process-servers-oklahoma', label: 'Bail Bondsmen & Process Servers' },
+      { url: '/blog/banks-lenders-process-serving-oklahoma', label: 'Banks & Lenders Process Serving' },
+      { url: '/blog/real-estate-agents-process-serving-oklahoma', label: 'Real Estate Agents & Process Serving' },
+      { url: '/blog/process-serving-small-business-owners-oklahoma', label: 'Process Serving for Small Business Owners' },
+      { url: '/blog/process-serving-oil-gas-companies-oklahoma', label: 'Process Serving for Oil & Gas Companies' },
+      { url: '/blog/process-serving-healthcare-hospitals-oklahoma', label: 'Process Serving for Healthcare & Hospitals' },
+      { url: '/blog/january-process-serving-spike-oklahoma', label: 'January Process Serving Spike' },
+      { url: '/blog/tax-season-legal-actions-oklahoma', label: 'Tax Season Legal Actions in Oklahoma' },
+    ],
+  },
 ];
 
 /* ── Color map helper ────────────────────────────────────── */
@@ -186,6 +225,7 @@ const colorMap: Record<string, { bg: string; bgHover: string; border: string; he
   teal:    { bg: 'bg-teal-50',    bgHover: 'hover:bg-teal-100',    border: 'border-teal-200',    heading: 'text-teal-900',    icon: 'text-teal-600',    link: 'text-teal-700'    },
   amber:   { bg: 'bg-amber-50',   bgHover: 'hover:bg-amber-100',   border: 'border-amber-200',   heading: 'text-amber-900',   icon: 'text-amber-600',   link: 'text-amber-700'   },
   green:   { bg: 'bg-green-50',   bgHover: 'hover:bg-green-100',   border: 'border-green-200',   heading: 'text-green-900',   icon: 'text-green-600',   link: 'text-green-700'   },
+  purple:  { bg: 'bg-purple-50',  bgHover: 'hover:bg-purple-100',  border: 'border-purple-200',  heading: 'text-purple-900',  icon: 'text-purple-600',  link: 'text-purple-700'  },
 };
 
 /* ── Component ───────────────────────────────────────────── */

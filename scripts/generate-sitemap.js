@@ -6,7 +6,26 @@ const path = require('path');
 // Directory to scan for static pages (Next.js export output or public)
 const OUT_DIR = path.join(process.cwd(), 'out');
 const PUBLIC_DIR = path.join(process.cwd(), 'public');
+const APP_DIR = path.join(process.cwd(), 'app');
 const DOMAIN = 'https://justlegalsolutions.org';
+
+// Auto-discover blog posts from app/blog/ directory
+function discoverBlogUrls() {
+  const blogDir = path.join(APP_DIR, 'blog');
+  const urls = ['/blog']; // Always include the index
+  if (!fs.existsSync(blogDir)) return urls;
+  const entries = fs.readdirSync(blogDir, { withFileTypes: true });
+  for (const entry of entries) {
+    if (entry.isDirectory()) {
+      const pagePath = path.join(blogDir, entry.name, 'page.tsx');
+      if (fs.existsSync(pagePath)) {
+        urls.push(`/blog/${entry.name}`);
+      }
+    }
+  }
+  console.log(`📝 Auto-discovered ${urls.length} blog URLs (1 index + ${urls.length - 1} posts)`);
+  return urls;
+}
 
 // Recursively get all .html files in a directory
 function getHtmlFiles(dir) {
@@ -223,6 +242,9 @@ function generateSitemap() {
     '/how-long-does-process-serving-take',
     '/can-process-server-serve-on-sunday',
 
+    // Blog Posts (auto-discovered below, these are the static info pages)
+    ...discoverBlogUrls(),
+
     // SEO Landing Pages
     '/seo/eviction-notice-process-server',
     '/seo/legal-posting-process-server',
@@ -292,6 +314,12 @@ function generateSitemap() {
       changefreq = 'monthly';
     } else if (['/tools', '/pdf-tools', '/field-sheet'].includes(urlPath)) {
       priority = '0.6';
+      changefreq = 'monthly';
+    } else if (urlPath === '/blog') {
+      priority = '0.8';
+      changefreq = 'weekly';
+    } else if (urlPath.startsWith('/blog/')) {
+      priority = '0.7';
       changefreq = 'monthly';
     } else if (urlPath === '/sitemap') {
       priority = '0.5';
