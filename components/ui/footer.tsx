@@ -1,7 +1,7 @@
 
 "use client";
 
-import { useState, useRef, useCallback } from "react";
+import { useState, useRef, useCallback, useId } from "react";
 import Image from "next/image";
 
 // ============ CONFIGURATION ============
@@ -21,6 +21,8 @@ interface UploadFile {
 }
 
 export function Footer() {
+  const formId = useId();
+  const triggerId = useId();
   const [showForm, setShowForm] = useState(false);
   const [submissionStatus, setSubmissionStatus] = useState("idle"); // 'idle', 'submitting', 'success', 'error'
   const [honeypot, setHoneypot] = useState(""); // Spam protection - should stay empty
@@ -327,6 +329,9 @@ export function Footer() {
 
         <div className="flex flex-wrap gap-4 mb-8">
           <button
+            id={triggerId}
+            aria-expanded={showForm}
+            aria-controls={showForm ? formId : undefined}
             onClick={toggleForm}
             className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
           >
@@ -346,7 +351,7 @@ export function Footer() {
         </div>
 
         {showForm && (
-          <div className="bg-gray-50 p-6 rounded-lg mb-8 border border-gray-200">
+          <div id={formId} role="region" aria-labelledby={triggerId} className="bg-gray-50 p-6 rounded-lg mb-8 border border-gray-200">
             {submissionStatus === 'success' ? (
                 <div className="text-center py-10" role="alert">
                     <h3 className="text-2xl font-bold text-green-600 mb-2">Thank You!</h3>
