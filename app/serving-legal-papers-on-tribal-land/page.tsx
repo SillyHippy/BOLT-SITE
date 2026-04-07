@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   description:
     'Serving Legal Papers in Oklahoma: A Guide for Process Servers on State and Tribal Land covering McGirt implications, state procedures, tribal checklists, and reciprocity requirements.',
   keywords:
-    'Serving legal papers Oklahoma, McGirt jurisdiction guide, Oklahoma process server tribal land, Cherokee Nation process service, Muscogee Creek service of process, Choctaw Nation civil procedure',
+    'Serving legal papers Oklahoma, McGirt jurisdiction guide, Oklahoma process server tribal land, Cherokee Nation process service, Muscogee Creek service of process, Choctaw Nation civil procedure, Chickasaw Nation court, Osage Nation process server, Seminole Nation service of process, Quapaw Nation tribal court',
   authors: [{ name: 'Just Legal Solutions Team' }],
   openGraph: {
     title: 'Serving Legal Papers in Oklahoma: A Guide for Process Servers on State and Tribal Land',
@@ -47,10 +47,10 @@ export const metadata: Metadata = {
   other: {
     'article:author': 'Just Legal Solutions Team',
     'article:published_time': '2025-10-11',
-    'article:modified_time': '2026-01-25',
+    'article:modified_time': '2026-04-07',
     'ai-content-type': 'article',
     'ai-summary': 'Comprehensive guide for process servers navigating Oklahoma state and tribal jurisdictions after McGirt v. Oklahoma, covering Cherokee, Muscogee Creek, and Choctaw Nation procedures.',
-    'ai-key-facts': 'McGirt v. Oklahoma (2020) expanded tribal jurisdiction; tribal courts have concurrent jurisdiction; Cherokee, Muscogee Creek, and Choctaw Nations have separate service procedures; 12 O.S. § 2004 governs state-side service',
+    'ai-key-facts': 'McGirt v. Oklahoma (2020) expanded tribal jurisdiction; tribal courts have concurrent jurisdiction; Cherokee, Muscogee Creek, Choctaw, Chickasaw, Osage, Seminole, and Quapaw Nations have separate service procedures; 12 O.S. § 2004 governs state-side service',
   }
 };
 
@@ -138,11 +138,11 @@ export default function ServingLegalPapersOklahomaGuide() {
           headline: "Serving Legal Papers in Oklahoma: A Guide for Process Servers on State and Tribal Land",
           author: "Joseph Iannazzi",
           datePublished: "2025-10-11",
-          dateModified: "2026-04-02",
+          dateModified: "2026-04-07",
           image: "https://justlegalsolutions.org/og-image.png"
         }}
         faqItems={faqs.map(f => ({ question: f.question, answer: f.answer }))}
-        keywords={['Oklahoma process server', 'tribal land service', 'McGirt v Oklahoma', 'Cherokee Nation process service', 'Muscogee Creek service of process', 'Choctaw Nation civil procedure']}
+        keywords={['Oklahoma process server', 'tribal land service', 'McGirt v Oklahoma', 'Cherokee Nation process service', 'Muscogee Creek service of process', 'Choctaw Nation civil procedure', 'Chickasaw Nation court', 'Osage Nation process server', 'Seminole Nation tribal court', 'Quapaw Nation service of process']}
       />
       <Navbar />
       <LocalPromoBanner zips={[]} />
@@ -433,6 +433,193 @@ export default function ServingLegalPapersOklahomaGuide() {
               </table>
             </div>
           </div>
+
+          <div className="space-y-6 mt-8">
+            <h3 className="text-2xl font-semibold">D. Serving Papers in the Chickasaw Nation</h3>
+            <div className="bg-white border border-gray-200 p-6 rounded shadow-sm space-y-3">
+              <p>
+                The Chickasaw Nation&apos;s jurisdiction covers 7 counties in south-central Oklahoma: Carter, Garvin, Johnston, Love, Marshall, Murray, and Pontotoc. The Nation is headquartered in Ada.
+              </p>
+              <p>
+                <strong>Court System:</strong> The Chickasaw Nation operates a Court of Indian Offenses (CFR Court) that handles civil, criminal, and juvenile matters.
+              </p>
+              <p><strong>Chickasaw Nation Court of Indian Offenses</strong></p>
+              <p>Address: P.O. Box 2240, Ada, OK 74821</p>
+              <p>Phone: (580) 436-5150</p>
+              <p>Fax: (580) 436-4948</p>
+              <p>Court Clerk: Linda Stewart</p>
+              <p>Hours: Monday–Friday, 8:00 AM – 4:30 PM</p>
+              <p>
+                <strong>Service Procedures:</strong> Contact the court clerk for current filing and service requirements. Some civil matters may be referred to state courts depending on the parties involved. Tribal process servers may be required for certain types of service.
+              </p>
+              <p>
+                <strong>Cross-Deputization Agreements:</strong> The Chickasaw Nation maintains cross-deputization agreements with Elmore City Police Department (effective 8/9/2021), multiple school districts and municipalities, and updated agreements with District Attorney offices across their jurisdictional area.
+              </p>
+              <p>Website: <a href="https://www.chickasaw.net" className="text-blue-700 underline" target="_blank" rel="noopener noreferrer">chickasaw.net ↗</a></p>
+            </div>
+
+            <h3 className="text-2xl font-semibold">E. Serving Papers in the Osage Nation</h3>
+            <div className="bg-white border border-gray-200 p-6 rounded shadow-sm space-y-3">
+              <p>
+                The Osage Nation has unique jurisdiction over all of Osage County—the largest county in Oklahoma—due to the Osage Mineral Estate and historical treaty rights. The Nation is headquartered in Pawhuska.
+              </p>
+              <p><strong>Osage Nation District Court</strong></p>
+              <p>Address: 627 Grandview, Pawhuska, OK 74056</p>
+              <p>Phone: (918) 287-2496</p>
+              <p>Fax: (918) 287-5558</p>
+              <p>Hours: Monday–Friday, 8:00 AM – 5:00 PM</p>
+              <p>
+                <strong>Service Procedures:</strong> Contact the tribal court for specific service requirements. Osage County&apos;s unique jurisdictional status means that even routine service may involve tribal coordination. Coordination with the Osage Nation Police Department may be required for service on trust land or restricted property.
+              </p>
+              <p>
+                <strong>Cross-Deputization Agreements:</strong> The Osage Nation maintains tobacco tax compact amendments (effective 1/30/2025) and law enforcement cooperative agreements with state agencies.
+              </p>
+              <p>Website: <a href="https://www.osagenation-nsn.gov" className="text-blue-700 underline" target="_blank" rel="noopener noreferrer">osagenation-nsn.gov ↗</a></p>
+            </div>
+
+            <h3 className="text-2xl font-semibold">F. Serving Papers in the Seminole Nation</h3>
+            <div className="bg-white border border-gray-200 p-6 rounded shadow-sm space-y-3">
+              <p>
+                The Seminole Nation&apos;s reservation covers Seminole County, plus portions of Hughes and Pottawatomie Counties. The Nation is headquartered in Wewoka.
+              </p>
+              <p><strong>Seminole Nation of Oklahoma</strong></p>
+              <p>Address: P.O. Box 1498, Wewoka, OK 74884</p>
+              <p>Physical Address: 121578 NS 3540, Seminole, OK 74818</p>
+              <p>Phone: (405) 257-7200</p>
+              <p>Fax: (405) 257-7209</p>
+              <p>Hours: Monday–Friday, 8:00 AM – 4:30 PM</p>
+              <p>
+                <strong>Service Procedures:</strong> Contact the Wewoka Agency for assistance with service. Tribal court services are coordinated through the Nation&apos;s headquarters.
+              </p>
+              <p>
+                <strong>Cross-Deputization Agreements:</strong> The Seminole Nation has a state addendum to deputation agreement (effective 11/29/2021) and tobacco tax compact amendments (1/3/2025 and 4/18/2025).
+              </p>
+              <p>Website: <a href="https://www.sno-nsn.gov" className="text-blue-700 underline" target="_blank" rel="noopener noreferrer">sno-nsn.gov ↗</a></p>
+            </div>
+
+            <h3 className="text-2xl font-semibold">G. Serving Papers in the Quapaw Nation</h3>
+            <div className="bg-white border border-gray-200 p-6 rounded shadow-sm space-y-3">
+              <p>
+                The Quapaw Nation&apos;s jurisdiction is primarily within Ottawa County in northeast Oklahoma. The tribal headquarters are located in Quapaw.
+              </p>
+              <p><strong>Quapaw Tribal Court</strong></p>
+              <p>Address: 5681 South 630 Road, Quapaw, OK 74363</p>
+              <p>Mailing: P.O. Box 765, Quapaw, OK 74363</p>
+              <p>Phone: (918) 542-1853, ext. 234</p>
+              <p>Court Administrator: Corissa Millard</p>
+              <p>Court Clerk: Julio De Los Santos</p>
+              <p>Hours: Monday–Thursday, 8:00 AM – 5:00 PM</p>
+              <p>
+                <strong>Service Procedures:</strong> Contact the Court Administrator before attempting service. The Quapaw Nation maintains active gaming and law enforcement compacts that may affect service procedures.
+              </p>
+              <p>
+                <strong>Cross-Deputization Agreements:</strong> Cross-deputization agreement (effective 3/1/2022), law enforcement agreements with Oklahoma Highway Patrol (1/28/2022), and certificate of approval with City of Commerce (12/30/2024).
+              </p>
+              <p>Website: <a href="https://www.quapawtribe.com" className="text-blue-700 underline" target="_blank" rel="noopener noreferrer">quapawtribe.com ↗</a></p>
+            </div>
+          </div>
+
+          <div className="mt-8 space-y-4">
+            <h3 className="text-2xl font-semibold">Table 2: All Seven Major Tribal Nations — Jurisdiction Overview</h3>
+            <div className="overflow-x-auto">
+              <table className="min-w-full border border-gray-300 text-left text-sm">
+                <thead className="bg-gray-100">
+                  <tr>
+                    <th className="border border-gray-300 px-4 py-2">Tribe</th>
+                    <th className="border border-gray-300 px-4 py-2">Counties</th>
+                    <th className="border border-gray-300 px-4 py-2">Court Phone</th>
+                    <th className="border border-gray-300 px-4 py-2">Hours</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td className="border border-gray-300 px-4 py-2 font-semibold">Cherokee Nation</td>
+                    <td className="border border-gray-300 px-4 py-2">14 counties (Adair, Cherokee, Craig, Delaware, Mayes, McIntosh, Muskogee, Nowata, Ottawa, Rogers, Sequoyah, Tulsa, Wagoner, Washington)</td>
+                    <td className="border border-gray-300 px-4 py-2">(918) 207-3900</td>
+                    <td className="border border-gray-300 px-4 py-2">Mon–Fri, 8–5</td>
+                  </tr>
+                  <tr className="bg-gray-50">
+                    <td className="border border-gray-300 px-4 py-2 font-semibold">Muscogee (Creek) Nation</td>
+                    <td className="border border-gray-300 px-4 py-2">11 counties (Creek, Hughes, McIntosh, Muskogee, Okfuskee, Okmulgee, Tulsa, Wagoner)</td>
+                    <td className="border border-gray-300 px-4 py-2">(918) 758-1400</td>
+                    <td className="border border-gray-300 px-4 py-2">Mon–Fri, 8–5</td>
+                  </tr>
+                  <tr>
+                    <td className="border border-gray-300 px-4 py-2 font-semibold">Choctaw Nation</td>
+                    <td className="border border-gray-300 px-4 py-2">10.5 counties (Atoka, Bryan, Choctaw, Coal, Haskell, Hughes, Johnston, Latimer, Leflore, McCurtain, Pittsburg partial)</td>
+                    <td className="border border-gray-300 px-4 py-2">(580) 920-7027</td>
+                    <td className="border border-gray-300 px-4 py-2">Mon–Fri, 8–5</td>
+                  </tr>
+                  <tr className="bg-gray-50">
+                    <td className="border border-gray-300 px-4 py-2 font-semibold">Chickasaw Nation</td>
+                    <td className="border border-gray-300 px-4 py-2">7 counties (Carter, Garvin, Johnston, Love, Marshall, Murray, Pontotoc)</td>
+                    <td className="border border-gray-300 px-4 py-2">(580) 436-5150</td>
+                    <td className="border border-gray-300 px-4 py-2">Mon–Fri, 8–4:30</td>
+                  </tr>
+                  <tr>
+                    <td className="border border-gray-300 px-4 py-2 font-semibold">Osage Nation</td>
+                    <td className="border border-gray-300 px-4 py-2">Osage County</td>
+                    <td className="border border-gray-300 px-4 py-2">(918) 287-2496</td>
+                    <td className="border border-gray-300 px-4 py-2">Mon–Fri, 8–5</td>
+                  </tr>
+                  <tr className="bg-gray-50">
+                    <td className="border border-gray-300 px-4 py-2 font-semibold">Seminole Nation</td>
+                    <td className="border border-gray-300 px-4 py-2">Seminole County + portions of Hughes &amp; Pottawatomie</td>
+                    <td className="border border-gray-300 px-4 py-2">(405) 257-7200</td>
+                    <td className="border border-gray-300 px-4 py-2">Mon–Fri, 8–4:30</td>
+                  </tr>
+                  <tr>
+                    <td className="border border-gray-300 px-4 py-2 font-semibold">Quapaw Nation</td>
+                    <td className="border border-gray-300 px-4 py-2">Ottawa County</td>
+                    <td className="border border-gray-300 px-4 py-2">(918) 542-1853 x234</td>
+                    <td className="border border-gray-300 px-4 py-2">Mon–Thu, 8–5</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        <section className="mb-12 space-y-4">
+          <h2 className="text-3xl font-semibold">
+            IV-B. Practical Field Challenges: Cultural Sensitivity &amp; Geographic Considerations
+          </h2>
+          <p>
+            Serving process on tribal land involves unique practical challenges beyond legal procedure. Process servers who approach these challenges with preparation and cultural awareness achieve significantly higher success rates.
+          </p>
+
+          <h3 className="text-2xl font-semibold">Cultural Sensitivity</h3>
+          <p>
+            Tribal lands are sovereign nations with distinct cultural protocols and customs. Process servers should:
+          </p>
+          <ul className="list-disc ml-6 space-y-2">
+            <li>Dress professionally and respectfully at all times.</li>
+            <li>Introduce yourself clearly and explain your purpose to anyone who asks.</li>
+            <li>Be patient and allow time for community members to verify your authority.</li>
+            <li>Respect flexible scheduling norms—deadlines and timelines in tribal communities may not follow the same patterns as urban areas.</li>
+            <li>Avoid attempting service during tribal ceremonies, powwows, stomp dances, or other cultural events when possible.</li>
+            <li>If uncertain about local customs, ask the tribal court clerk for guidance before proceeding.</li>
+          </ul>
+
+          <h3 className="text-2xl font-semibold">Geographic &amp; Access Challenges</h3>
+          <p>
+            Tribal lands in Oklahoma often include rural areas with unpaved roads, limited addresses, dispersed populations, and controlled access points. Successful service requires advance planning:
+          </p>
+          <ul className="list-disc ml-6 space-y-2">
+            <li><strong>Gated Communities &amp; Security Checkpoints:</strong> Contact tribal security or police in advance to arrange access. Obtain written authorization from the tribal court. Consider having the recipient meet at a neutral location when possible.</li>
+            <li><strong>Rural Service:</strong> Use GPS coordinates when addresses are unclear. Contact tribal housing authorities for location assistance. Work with tribal community liaisons who know the area. Allow extra time for travel to remote locations.</li>
+            <li><strong>Vehicle Preparation:</strong> Four-wheel-drive vehicles are recommended for rural service, especially during Oklahoma&apos;s rainy season (April–June) and winter months. Many roads on tribal land in eastern Oklahoma are unpaved.</li>
+            <li><strong>Language Considerations:</strong> Some tribal members, particularly elders, may prefer their native language. Tribal courts can often provide interpreter services. Document any language assistance used in your return of service.</li>
+          </ul>
+
+          <h3 className="text-2xl font-semibold">Documentation Best Practices for Tribal Service</h3>
+          <ul className="list-disc ml-6 space-y-2">
+            <li>Carry your state process server license/ID, photo ID, copies of documents being served, proof of authority (court order or attorney authorization), and the tribal court&apos;s contact information.</li>
+            <li>Complete the return of service immediately after service is made.</li>
+            <li>Include a detailed description of the service location, including GPS coordinates.</li>
+            <li>Note any special circumstances, tribal coordination steps taken, or challenges encountered.</li>
+            <li>File with the appropriate court(s) promptly—tribal courts and state courts may both require proof of service.</li>
+          </ul>
         </section>
 
         <section className="mb-12 space-y-4">
@@ -670,8 +857,13 @@ export default function ServingLegalPapersOklahomaGuide() {
             <div className="bg-white border border-gray-200 p-6 rounded-lg">
               <h3 className="font-bold text-lg mb-3">Oklahoma County Jurisdiction Guides</h3>
               <ul className="space-y-2">
-                <li><Link href="/counties/tulsa-county" className="text-blue-700 underline">→ Tulsa County (overlaps Muscogee Creek territory)</Link></li>
+                <li><Link href="/counties/tulsa-county" className="text-blue-700 underline">→ Tulsa County (overlaps Muscogee Creek &amp; Cherokee territory)</Link></li>
                 <li><Link href="/counties/osage-county" className="text-blue-700 underline">→ Osage County (Osage Nation territory)</Link></li>
+                <li><Link href="/counties/rogers-county" className="text-blue-700 underline">→ Rogers County (Cherokee Nation territory)</Link></li>
+                <li><Link href="/counties/wagoner-county" className="text-blue-700 underline">→ Wagoner County (Cherokee &amp; Muscogee Creek territory)</Link></li>
+                <li><Link href="/counties/mayes-county" className="text-blue-700 underline">→ Mayes County (Cherokee Nation territory)</Link></li>
+                <li><Link href="/counties/creek-county" className="text-blue-700 underline">→ Creek County (Muscogee Creek territory)</Link></li>
+                <li><Link href="/counties/washington-county" className="text-blue-700 underline">→ Washington County (Cherokee Nation territory)</Link></li>
               </ul>
             </div>
           </div>
