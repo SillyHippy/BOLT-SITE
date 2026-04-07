@@ -120,28 +120,42 @@ export default function HowToServeDivorcePapersOklahoma() {
       <Navbar />
       <LocalPromoBanner zips={[]} />
 
-      <div className="bg-gray-50 min-h-screen py-12">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <nav aria-label="Breadcrumb" className="flex items-center space-x-2 text-sm text-gray-500 mb-8">
-            <Link href="/" className="hover:text-blue-600">Home</Link>
+      {/* Hero Header */}
+      <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 pt-28 pb-16 overflow-hidden">
+        <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] opacity-10" />
+        <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <nav aria-label="Breadcrumb" className="flex items-center space-x-2 text-sm text-blue-200 mb-8">
+            <Link href="/" className="hover:text-white transition-colors">Home</Link>
             <ChevronRight className="w-4 h-4" />
-            <Link href="/blog" className="hover:text-blue-600">Blog</Link>
+            <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
             <ChevronRight className="w-4 h-4" />
-            <span className="text-gray-900 font-medium">How to Serve Divorce Papers in Oklahoma</span>
+            <span className="text-white font-medium">How to Serve Divorce Papers in Oklahoma</span>
           </nav>
 
-          <header className="mb-12">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              How to Serve Divorce Papers in Oklahoma: A Complete 2026 Guide
-            </h1>
-            <div className="flex items-center text-gray-600 space-x-4">
-              <span className="font-medium text-blue-600">By Joseph Iannazzi</span>
-              <span>•</span>
-              <span>Updated: April 2, 2026</span>
-            </div>
-          </header>
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 drop-shadow-lg leading-tight">
+            How to Serve Divorce Papers in Oklahoma: A Complete 2026 Guide
+          </h1>
 
-          <article className="prose prose-lg prose-blue max-w-none bg-white p-8 rounded-xl shadow-sm">
+          <div className="flex flex-wrap items-center gap-4 mt-6">
+            <div className="bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full flex items-center gap-2">
+              <span className="text-blue-200 text-sm">By</span>
+              <span className="text-white font-semibold text-sm">Joseph Iannazzi</span>
+            </div>
+            <div className="bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full flex items-center gap-2">
+              <span className="text-blue-200 text-sm">Updated:</span>
+              <span className="text-white font-semibold text-sm">April 2, 2026</span>
+            </div>
+            <div className="bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full flex items-center gap-2">
+              <span className="text-blue-200 text-sm">Reading Time:</span>
+              <span className="text-white font-semibold text-sm">~25 min</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div className="bg-gray-50 min-h-screen">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 -mt-8 relative z-10 pb-16">
+          <article className="prose prose-lg prose-blue max-w-none bg-white p-8 md:p-12 rounded-2xl shadow-lg border border-gray-100">
 
             <p className="text-xl text-gray-700 leading-relaxed">
               Filing for divorce in Oklahoma is only the first step. Before your case can proceed, your spouse must be formally notified through a legally recognized process called <strong>service of process</strong>. Improperly served divorce papers can delay your case for months, get your case dismissed, or allow a future appeal on procedural grounds. This guide walks you through every requirement under Oklahoma law so you can proceed with confidence. For a broader overview of process serving in Oklahoma, see our <Link href="/ultimate-guide-process-serving-oklahoma" className="text-blue-600 hover:underline">Ultimate Guide to Process Serving in Oklahoma</Link>.
@@ -530,48 +544,78 @@ export default function HowToServeDivorcePapersOklahoma() {
               <strong>Legal Disclaimer:</strong> This information is for educational purposes only and does not constitute legal advice. Consult an Oklahoma attorney for specific legal questions.
             </p>
           </article>
-
-          <section className="mt-12 mb-8 bg-white rounded-xl shadow-sm p-8">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Guides &amp; Resources</h2>
+          <section className="mt-12 mb-8 bg-white rounded-2xl shadow-lg border border-gray-100 p-8 md:p-10">
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Guides & Resources</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <Link href="/blog/how-to-serve-a-subpoena-oklahoma" className="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
-                <span className="font-semibold text-blue-800">How to Serve a Subpoena in Oklahoma</span>
-                <p className="text-sm text-blue-700 mt-1">Step-by-step guide to serving subpoenas in Oklahoma civil and criminal cases.</p>
+              <Link href="/blog/how-to-serve-a-subpoena-oklahoma" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">How to Serve a Subpoena in Oklahoma</span>
+                <p className="text-sm text-gray-600 mt-1">Step-by-step guide to serving subpoenas in Oklahoma civil and criminal cases.</p>
               </Link>
-              <Link href="/blog/how-to-serve-small-claims-oklahoma" className="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
-                <span className="font-semibold text-blue-800">How to Serve Small Claims Papers in Oklahoma</span>
-                <p className="text-sm text-blue-700 mt-1">Everything you need to know about serving small claims papers in Oklahoma.</p>
+              <Link href="/blog/how-to-serve-small-claims-oklahoma" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">How to Serve Small Claims Papers in Oklahoma</span>
+                <p className="text-sm text-gray-600 mt-1">Everything you need to know about serving small claims papers in Oklahoma.</p>
               </Link>
-              <Link href="/ultimate-guide-process-serving-oklahoma" className="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
-                <span className="font-semibold text-blue-800">Ultimate Guide to Process Serving in Oklahoma</span>
-                <p className="text-sm text-blue-700 mt-1">Comprehensive resource covering all aspects of process serving under Oklahoma law.</p>
+              <Link href="/ultimate-guide-process-serving-oklahoma" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Ultimate Guide to Process Serving in Oklahoma</span>
+                <p className="text-sm text-gray-600 mt-1">Comprehensive resource covering all aspects of process serving under Oklahoma law.</p>
               </Link>
-              <Link href="/oklahoma-process-server-laws" className="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
-                <span className="font-semibold text-blue-800">Oklahoma Process Server Laws</span>
-                <p className="text-sm text-blue-700 mt-1">Detailed breakdown of Oklahoma statutes governing process servers and service of process.</p>
+              <Link href="/oklahoma-process-server-laws" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server Laws</span>
+                <p className="text-sm text-gray-600 mt-1">Detailed breakdown of Oklahoma statutes governing process servers and service of process.</p>
               </Link>
-              <Link href="/affidavit-of-service" className="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
-                <span className="font-semibold text-blue-800">Affidavit of Service</span>
-                <p className="text-sm text-blue-700 mt-1">How affidavits of service work and why proper documentation protects your divorce case.</p>
+              <Link href="/affidavit-of-service" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Affidavit of Service</span>
+                <p className="text-sm text-gray-600 mt-1">How affidavits of service work and why proper documentation protects your divorce case.</p>
               </Link>
-              <Link href="/eviction-notice-service" className="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
-                <span className="font-semibold text-blue-800">Eviction Notice Service</span>
-                <p className="text-sm text-blue-700 mt-1">How Oklahoma eviction notices are properly served under forcible entry and detainer rules.</p>
+              <Link href="/eviction-notice-service" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Eviction Notice Service</span>
+                <p className="text-sm text-gray-600 mt-1">How Oklahoma eviction notices are properly served under forcible entry and detainer rules.</p>
               </Link>
             </div>
           </section>
 
-          <section className="mt-16">
+          <section className="mt-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-8">Frequently Asked Questions</h2>
             <div className="space-y-4">
               {faqs.map((faq, index) => (
-                <div key={index} className="bg-white rounded-xl shadow-sm p-6">
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">{faq.question}</h3>
-                  <p className="text-gray-700">{faq.answer}</p>
-                </div>
+                <details key={index} className="group bg-white rounded-2xl shadow-sm border border-gray-100 hover:border-blue-200 hover:shadow-md transition-all duration-300">
+                  <summary className="flex items-center justify-between cursor-pointer p-6 text-lg font-semibold text-gray-900 [&::-webkit-details-marker]:hidden list-none">
+                    <span className="pr-4">{faq.question}</span>
+                    <ChevronRight className="w-5 h-5 text-blue-500 transition-transform duration-300 group-open:rotate-90 flex-shrink-0" />
+                  </summary>
+                  <div className="px-6 pb-6 pt-4 text-gray-700 leading-relaxed border-t border-gray-100">
+                    {faq.answer}
+                  </div>
+                </details>
               ))}
             </div>
           </section>
+
+          {/* CTA Section */}
+          <section className="mt-16 relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 rounded-2xl overflow-hidden shadow-xl">
+            <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] opacity-10" />
+            <div className="relative p-8 md:p-12 text-center">
+              <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Need Professional Legal Services?</h2>
+              <p className="text-blue-100 text-lg max-w-2xl mx-auto mb-8">Licensed process servers covering all 77 Oklahoma counties. GPS-tracked service with court-ready documentation.</p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <Link href="/contact" className="inline-flex items-center justify-center px-8 py-4 bg-white text-blue-900 font-bold rounded-xl hover:bg-blue-50 transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-0.5">
+                  Get a Free Quote
+                  <ChevronRight className="w-5 h-5 ml-2" />
+                </Link>
+                <a href="tel:9182126459" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
+                  Call (918) 212-6459
+                </a>
+              </div>
+            </div>
+          </section>
+
+          {/* Back to Blog */}
+          <div className="mt-10 text-center">
+            <Link href="/blog" className="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold transition-colors">
+              <ChevronRight className="w-4 h-4 mr-1 rotate-180" />
+              Back to All Articles
+            </Link>
+          </div>
         </div>
       </div>
 

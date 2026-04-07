@@ -111,33 +111,44 @@ export default function AffidavitGuide() {
       <Navbar />
       <LocalPromoBanner zips={[]} />
 
-      <div className="bg-gray-50 min-h-screen py-12">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-
-          {/* Breadcrumbs */}
-          <nav aria-label="Breadcrumb" className="flex items-center space-x-2 text-sm text-gray-500 mb-8">
-            <Link href="/" className="hover:text-blue-600">Home</Link>
+      {/* Hero Header */}
+      <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 pt-28 pb-16 overflow-hidden">
+        <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] opacity-10" />
+        <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <nav aria-label="Breadcrumb" className="flex items-center space-x-2 text-sm text-blue-200 mb-8">
+            <Link href="/" className="hover:text-white transition-colors">Home</Link>
             <ChevronRight className="w-4 h-4" />
-            <Link href="/blog" className="hover:text-blue-600">Blog</Link>
+            <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
             <ChevronRight className="w-4 h-4" />
-            <span className="text-gray-900 font-medium truncate">Affidavit of Service Oklahoma</span>
+            <span className="text-white font-medium">Affidavit of Service Oklahoma</span>
           </nav>
 
-          {/* Article Header */}
-          <header className="mb-12">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 tracking-tight">
-              Affidavit of Service in Oklahoma: Complete Guide to Proof of Service
-            </h1>
-            <div className="flex items-center text-gray-600 space-x-4">
-              <span className="font-medium text-blue-600">By Joseph Iannazzi</span>
-              <span>•</span>
-              <span>Updated: March 27, 2026</span>
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 drop-shadow-lg leading-tight">
+            Affidavit of Service in Oklahoma: Complete Guide to Proof of Service
+          </h1>
+
+          <div className="flex flex-wrap items-center gap-4 mt-6">
+            <div className="bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full flex items-center gap-2">
+              <span className="text-blue-200 text-sm">By</span>
+              <span className="text-white font-semibold text-sm">Joseph Iannazzi</span>
             </div>
-            <p className="text-sm text-gray-500 mt-2">Originally published June 1, 2025</p>
-          </header>
+            <div className="bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full flex items-center gap-2">
+              <span className="text-blue-200 text-sm">Updated:</span>
+              <span className="text-white font-semibold text-sm">March 27, 2026</span>
+            </div>
+            <div className="bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full flex items-center gap-2">
+              <span className="text-blue-200 text-sm">Reading Time:</span>
+              <span className="text-white font-semibold text-sm">~14 min</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div className="bg-gray-50 min-h-screen">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 -mt-8 relative z-10 pb-16">
 
           {/* Article Content */}
-          <article className="prose prose-lg prose-blue max-w-none bg-white p-8 md:p-12 rounded-xl shadow-sm border border-gray-100">
+          <article className="prose prose-lg prose-blue max-w-none bg-white p-8 md:p-12 rounded-2xl shadow-lg border border-gray-100">
 
             <p className="text-sm text-gray-500 italic mb-6">
               This guide is written for self-represented litigants, attorneys, and legal staff in Oklahoma who need clear, practical information about Affidavits of Service under 12 O.S. § 2004 and § 158.1.
@@ -318,10 +329,15 @@ export default function AffidavitGuide() {
             <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-6">Frequently Asked Questions About Oklahoma Process Service</h2>
             <div className="space-y-4 not-prose">
               {faqs.map((faq, i) => (
-                <div key={i} className="bg-gray-50 p-5 rounded-lg">
-                  <h3 className="font-semibold text-lg mb-2">{faq.question}</h3>
-                  <p className="text-gray-700">{faq.answer}</p>
-                </div>
+                <details key={i} className="group bg-gray-50 rounded-xl border border-gray-100 hover:border-blue-200 hover:shadow-md transition-all duration-300">
+                  <summary className="flex items-center justify-between cursor-pointer p-5 text-lg font-semibold text-gray-900 [&::-webkit-details-marker]:hidden list-none">
+                    <span className="pr-4">{faq.question}</span>
+                    <ChevronRight className="w-5 h-5 text-blue-500 transition-transform duration-300 group-open:rotate-90 flex-shrink-0" />
+                  </summary>
+                  <div className="px-5 pb-5 pt-3 text-gray-700 leading-relaxed border-t border-gray-200">
+                    {faq.answer}
+                  </div>
+                </details>
               ))}
             </div>
 
@@ -350,29 +366,39 @@ export default function AffidavitGuide() {
             </div>
 
             {/* CTA */}
-            <div className="bg-blue-900 text-white p-10 rounded-2xl text-center mt-12 not-prose">
-              <Shield className="w-16 h-16 text-yellow-500 mx-auto mb-6" />
-              <h3 className="text-2xl font-bold mb-4">Get Your GPS-Verified Affidavit of Service Today</h3>
-              <p className="text-blue-100 mb-8 text-lg">
-                Ensure your documents are served correctly and your Affidavit of Service is unassailable. Just Legal Solutions provides professional process serving across all 77 Oklahoma counties, starting at $60. Visit our <Link href="/pricing" className="text-yellow-300 hover:text-yellow-200 underline">pricing page</Link> for current rates.
-              </p>
-              <div className="flex flex-col sm:flex-row justify-center gap-4">
-                <a href="tel:5393676832" className="bg-yellow-500 hover:bg-yellow-400 text-black font-bold py-3 px-8 rounded-lg transition-colors">
-                  Call (539) 367-6832
-                </a>
-                <Link href="/contact" className="bg-transparent border-2 border-white hover:bg-white hover:text-blue-900 font-bold py-3 px-8 rounded-lg transition-colors">
-                  Hire a Professional Process Server Today
-                </Link>
-              </div>
-              <p className="text-blue-200 text-sm mt-4">Just Legal Solutions • Glenpool, OK 74033 • Licensed &amp; Bonded</p>
-            </div>
-
           </article>
 
           {/* Disclaimer */}
           <div className="bg-green-50 border border-green-200 rounded-lg p-6 mt-8">
             <p className="text-sm text-gray-700">This article provides general legal information about Affidavits of Service in Oklahoma under the Oklahoma Pleading Code (Title 12). Procedures vary by case type, county practice, and court order — especially for publication service, alternative service, minors, incompetent persons, corporations, and incarcerated persons, all of which Section 2004 addresses separately. This is not legal advice. Consult an attorney for your specific situation.</p>
             <p className="text-xs text-gray-500 mt-2">Last updated: March 2026</p>
+          </div>
+
+          {/* CTA Section */}
+          <section className="mt-12 relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 rounded-2xl overflow-hidden shadow-xl">
+            <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] opacity-10" />
+            <div className="relative p-8 md:p-12 text-center">
+              <Shield className="w-16 h-16 text-yellow-500 mx-auto mb-6" />
+              <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Get Your GPS-Verified Affidavit of Service Today</h2>
+              <p className="text-blue-100 text-lg max-w-2xl mx-auto mb-8">Ensure your documents are served correctly and your Affidavit of Service is unassailable. Professional process serving across all 77 Oklahoma counties, starting at $60.</p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <Link href="/contact" className="inline-flex items-center justify-center px-8 py-4 bg-white text-blue-900 font-bold rounded-xl hover:bg-blue-50 transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-0.5">
+                  Get a Free Quote
+                  <ChevronRight className="w-5 h-5 ml-2" />
+                </Link>
+                <a href="tel:9182126459" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
+                  Call (918) 212-6459
+                </a>
+              </div>
+            </div>
+          </section>
+
+          {/* Back to Blog */}
+          <div className="mt-10 text-center">
+            <Link href="/blog" className="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold transition-colors">
+              <ChevronRight className="w-4 h-4 mr-1 rotate-180" />
+              Back to All Articles
+            </Link>
           </div>
         </div>
       </div>
