@@ -1,6 +1,6 @@
 # Process Server Services in Shawnee, Oklahoma | Pottawatomie County
 
-**Just Legal Solutions** provides professional process serving throughout Shawnee and Pottawatomie County, Oklahoma. Owner Joseph Iannazzi delivers reliable legal document service with expertise in navigating this historic central Oklahoma community, including service at the Citizen Potawatomi Nation facilities.
+**Just Legal Solutions** connects you with our network of professional process servers throughout Shawnee and Pottawatomie County, Oklahoma. Our trusted network delivers reliable legal document service with expertise in navigating this historic central Oklahoma community, including service at the Citizen Potawatomi Nation facilities.
 
 ---
 
@@ -228,10 +228,10 @@ Documents can be emailed, mailed to our Tulsa office, or uploaded through our se
 
 Just Legal Solutions also provides service in:
 
-- **[Oklahoma City, OK](/seo-content/locations/oklahoma-city.md)** - 45 minutes west
-- **[Tecumseh, OK](/seo-content/locations/tecumseh.md)** - 10 minutes south
-- **[Seminole, OK](/seo-content/locations/seminole.md)** - 30 minutes east
-- **[Prague, OK](/seo-content/locations/prague.md)** - 25 minutes northeast
+- **[Oklahoma City, OK](/service-areas/oklahoma-city)** - 45 minutes west
+- **[Tecumseh, OK](/service-areas/tecumseh)** - 10 minutes south
+- **[Seminole, OK](/service-areas/seminole)** - 30 minutes east
+- **[Prague, OK](/service-areas/prague)** - 25 minutes northeast
 
 ---
 

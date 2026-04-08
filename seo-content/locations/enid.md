@@ -1,6 +1,6 @@
 # Process Server Services in Enid, Oklahoma | Garfield County
 
-**Just Legal Solutions** provides professional process serving throughout Enid and Garfield County, Oklahoma. Owner Joseph Iannazzi delivers reliable legal document service with expertise in navigating Enid's historic downtown, agricultural community, and rural routes.
+**Just Legal Solutions** connects you with our network of professional process servers throughout Enid and Garfield County, Oklahoma. Our trusted network delivers reliable legal document service with expertise in navigating Enid's historic downtown, agricultural community, and rural routes.
 
 ---
 
@@ -220,10 +220,10 @@ Documents can be emailed, mailed to our Tulsa office, or uploaded through our se
 
 Just Legal Solutions also provides service in:
 
-- **[Stillwater, OK](/seo-content/locations/stillwater.md)** - 1 hour east (Payne County)
-- **[Woodward, OK](/seo-content/locations/woodward.md)** - 1 hour 15 minutes west (Woodward County)
-- **[Ponca City, OK](/seo-content/locations/ponca-city.md)** - 45 minutes east (Kay County)
-- **[Alva, OK](/seo-content/locations/alva.md)** - 45 minutes northwest (Woods County)
+- **[Stillwater, OK](/service-areas/stillwater)** - 1 hour east (Payne County)
+- **[Woodward, OK](/service-areas/woodward)** - 1 hour 15 minutes west (Woodward County)
+- **[Ponca City, OK](/service-areas/ponca-city)** - 45 minutes east (Kay County)
+- **[Alva, OK](/service-areas/alva)** - 45 minutes northwest (Woods County)
 
 ---
 

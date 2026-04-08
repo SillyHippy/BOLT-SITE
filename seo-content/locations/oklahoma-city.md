@@ -1,6 +1,6 @@
 # Process Server Services in Oklahoma City, Oklahoma | Oklahoma County
 
-**Just Legal Solutions** provides professional process serving throughout Oklahoma City and Oklahoma County. Owner Joseph Iannazzi delivers reliable legal document service with comprehensive coverage of Oklahoma's capital city, including downtown, suburban areas, and major employment centers.
+**Just Legal Solutions** connects you with our network of professional process servers throughout Oklahoma City and Oklahoma County. Our trusted network delivers reliable legal document service with comprehensive coverage of Oklahoma's capital city, including downtown, suburban areas, and major employment centers.
 
 ---
 
@@ -229,12 +229,12 @@ Documents can be emailed, mailed to our Tulsa office, or uploaded through our se
 
 Just Legal Solutions also provides service in:
 
-- **[Edmond, OK](/seo-content/locations/edmond.md)** - 20 minutes north
-- **[Norman, OK](/seo-content/locations/norman.md)** - 25 minutes south
-- **[Moore, OK](/seo-content/locations/moore.md)** - 15 minutes south
-- **[Midwest City, OK](/seo-content/locations/midwest-city.md)** - 15 minutes east
-- **[Yukon, OK](/seo-content/locations/yukon.md)** - 20 minutes west
-- **[Mustang, OK](/seo-content/locations/mustang.md)** - 25 minutes southwest
+- **[Edmond, OK](/service-areas/edmond)** - 20 minutes north
+- **[Norman, OK](/service-areas/norman)** - 25 minutes south
+- **[Moore, OK](/service-areas/moore)** - 15 minutes south
+- **[Midwest City, OK](/service-areas/midwest-city)** - 15 minutes east
+- **[Yukon, OK](/service-areas/yukon)** - 20 minutes west
+- **[Mustang, OK](/service-areas/mustang)** - 25 minutes southwest
 
 ---
 

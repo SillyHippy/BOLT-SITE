@@ -1,6 +1,6 @@
 # Process Server Services in Norman, Oklahoma | Cleveland County
 
-**Just Legal Solutions** provides professional process serving throughout Norman and Cleveland County, Oklahoma. Owner Joseph Iannazzi delivers reliable legal document service with specialized expertise in University of Oklahoma campus service, off-campus student housing, and the unique challenges of serving papers in a major college town.
+**Just Legal Solutions** connects you with our network of professional process servers throughout Norman and Cleveland County, Oklahoma. Our trusted network delivers reliable legal document service with specialized expertise in University of Oklahoma campus service, off-campus student housing, and the unique challenges of serving papers in a major college town.
 
 ---
 
@@ -235,10 +235,10 @@ Documents can be emailed, mailed to our Tulsa office, or uploaded through our se
 
 Just Legal Solutions also provides service in:
 
-- **[Oklahoma City, OK](/seo-content/locations/oklahoma-city.md)** - 25 minutes north
-- **[Moore, OK](/seo-content/locations/moore.md)** - 15 minutes north
-- **[Noble, OK](/seo-content/locations/noble.md)** - 15 minutes south
-- **[Purcell, OK](/seo-content/locations/purcell.md)** - 30 minutes south
+- **[Oklahoma City, OK](/service-areas/oklahoma-city)** - 25 minutes north
+- **[Moore, OK](/service-areas/moore)** - 15 minutes north
+- **[Noble, OK](/service-areas/noble)** - 15 minutes south
+- **[Purcell, OK](/service-areas/purcell)** - 30 minutes south
 
 ---
 

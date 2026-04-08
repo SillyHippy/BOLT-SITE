@@ -1,6 +1,6 @@
 # Process Server Services in Stillwater, Oklahoma | Payne County
 
-**Just Legal Solutions** provides professional process serving throughout Stillwater and Payne County, Oklahoma. Owner Joseph Iannazzi delivers reliable legal document service with specialized expertise in Oklahoma State University campus service, off-campus student housing, and the unique dynamics of serving papers in a major college town.
+**Just Legal Solutions** connects you with our network of professional process servers throughout Stillwater and Payne County, Oklahoma. Our trusted network delivers reliable legal document service with specialized expertise in Oklahoma State University campus service, off-campus student housing, and the unique dynamics of serving papers in a major college town.
 
 ---
 
@@ -240,10 +240,10 @@ Documents can be emailed, mailed to our Tulsa office, or uploaded through our se
 
 Just Legal Solutions also provides service in:
 
-- **[Perry, OK](/seo-content/locations/perry.md)** - 30 minutes north (Noble County)
-- **[Cushing, OK](/seo-content/locations/cushing.md)** - 25 minutes east
-- **[Guthrie, OK](/seo-content/locations/guthrie.md)** - 35 minutes south (Logan County)
-- **[Enid, OK](/seo-content/locations/enid.md)** - 1 hour northwest (Garfield County)
+- **[Perry, OK](/service-areas/perry)** - 30 minutes north (Noble County)
+- **[Cushing, OK](/service-areas/cushing)** - 25 minutes east
+- **[Guthrie, OK](/service-areas/guthrie)** - 35 minutes south (Logan County)
+- **[Enid, OK](/service-areas/enid)** - 1 hour northwest (Garfield County)
 
 ---
 

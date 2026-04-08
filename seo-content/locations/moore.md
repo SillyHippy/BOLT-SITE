@@ -1,6 +1,6 @@
 # Process Server Services in Moore, Oklahoma | Cleveland County
 
-**Just Legal Solutions** provides professional process serving throughout Moore and Cleveland County, Oklahoma. Owner Joseph Iannazzi delivers reliable legal document service with expertise in serving Oklahoma City's southern suburbs, including the rapidly growing community of Moore.
+**Just Legal Solutions** connects you with our network of professional process servers throughout Moore and Cleveland County, Oklahoma. Our trusted network delivers reliable legal document service with expertise in serving Oklahoma City's southern suburbs, including the rapidly growing community of Moore.
 
 ---
 
@@ -194,10 +194,10 @@ Documents can be emailed, mailed to our Tulsa office, or uploaded through our se
 
 Just Legal Solutions also provides service in:
 
-- **[Norman, OK](/seo-content/locations/norman.md)** - 15 minutes south
-- **[Oklahoma City, OK](/seo-content/locations/oklahoma-city.md)** - 15 minutes north
-- **[Midwest City, OK](/seo-content/locations/midwest-city.md)** - 20 minutes northeast
-- **[Newcastle, OK](/seo-content/locations/newcastle.md)** - 20 minutes west
+- **[Norman, OK](/service-areas/norman)** - 15 minutes south
+- **[Oklahoma City, OK](/service-areas/oklahoma-city)** - 15 minutes north
+- **[Midwest City, OK](/service-areas/midwest-city)** - 20 minutes northeast
+- **[Newcastle, OK](/service-areas/newcastle)** - 20 minutes west
 
 ---
 

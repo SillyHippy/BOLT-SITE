@@ -1,6 +1,6 @@
 # Process Server Services in Lawton, Oklahoma | Comanche County
 
-**Just Legal Solutions** provides professional process serving throughout Lawton and Comanche County, Oklahoma. Owner Joseph Iannazzi delivers reliable legal document service with specialized expertise in Fort Sill military installations, tribal jurisdictions, and the unique challenges of serving papers in southwest Oklahoma's largest city.
+**Just Legal Solutions** connects you with our network of professional process servers throughout Lawton and Comanche County, Oklahoma. Our trusted network delivers reliable legal document service with specialized expertise in Fort Sill military installations, tribal jurisdictions, and the unique challenges of serving papers in southwest Oklahoma's largest city.
 
 ---
 
@@ -254,10 +254,10 @@ Documents can be emailed, mailed to our Tulsa office, or uploaded through our se
 
 Just Legal Solutions also provides service in:
 
-- **[Ardmore, OK](/seo-content/locations/ardmore.md)** - 1 hour 15 minutes east (Carter County)
-- **[Altus, OK](/seo-content/locations/altus.md)** - 1 hour west (Jackson County)
-- **[Anadarko, OK](/seo-content/locations/anadarko.md)** - 45 minutes north (Caddo County)
-- **[Wichita Falls, TX](/seo-content/locations/wichita-falls-tx.md)** - 50 minutes south (Texas)
+- **[Ardmore, OK](/service-areas/ardmore)** - 1 hour 15 minutes east (Carter County)
+- **[Altus, OK](/service-areas/altus)** - 1 hour west (Jackson County)
+- **[Anadarko, OK](/service-areas/anadarko)** - 45 minutes north (Caddo County)
+- **[Wichita Falls, TX](/service-areas/wichita-falls-tx)** - 50 minutes south (Texas)
 
 ---
 

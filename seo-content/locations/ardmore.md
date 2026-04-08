@@ -1,6 +1,6 @@
 # Process Server Services in Ardmore, Oklahoma | Carter County
 
-**Just Legal Solutions** provides professional process serving throughout Ardmore and Carter County, Oklahoma. Led by owner Joseph Iannazzi, our team delivers reliable legal document service with local expertise that ensures your papers reach their destination.
+**Just Legal Solutions** connects you with our network of professional process servers throughout Ardmore and Carter County, Oklahoma. Our trusted network delivers reliable legal document service with local expertise that ensures your papers reach their destination.
 
 ---
 
@@ -200,10 +200,10 @@ Documents can be emailed, mailed to our Tulsa office, or uploaded through our se
 
 Just Legal Solutions also provides service in:
 
-- **[Lawton, OK](/seo-content/locations/lawton.md)** - 45 minutes west (Comanche County)
-- **[Durant, OK](/seo-content/locations/durant.md)** - 45 minutes east (Bryan County)
-- **[Ada, OK](/seo-content/locations/ada.md)** - 30 minutes north (Pontotoc County)
-- **[Marietta, OK](/seo-content/locations/marietta.md)** - 20 minutes south (Love County)
+- **[Lawton, OK](/service-areas/lawton)** - 45 minutes west (Comanche County)
+- **[Durant, OK](/service-areas/durant)** - 45 minutes east (Bryan County)
+- **[Ada, OK](/service-areas/ada)** - 30 minutes north (Pontotoc County)
+- **[Marietta, OK](/service-areas/marietta)** - 20 minutes south (Love County)
 
 ---
 

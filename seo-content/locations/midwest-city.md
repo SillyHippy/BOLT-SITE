@@ -1,6 +1,6 @@
 # Process Server Services in Midwest City, Oklahoma | Oklahoma County
 
-**Just Legal Solutions** provides professional process serving throughout Midwest City and eastern Oklahoma County. Owner Joseph Iannazzi delivers reliable legal document service with specialized knowledge of Tinker Air Force Base access protocols and the unique workplace service needs of Oklahoma's aerospace corridor.
+**Just Legal Solutions** connects you with our network of professional process servers throughout Midwest City and eastern Oklahoma County. Our trusted network delivers reliable legal document service with specialized knowledge of Tinker Air Force Base access protocols and the unique workplace service needs of Oklahoma's aerospace corridor.
 
 ---
 
@@ -222,10 +222,10 @@ Documents can be emailed, mailed to our Tulsa office, or uploaded through our se
 
 Just Legal Solutions also provides service in:
 
-- **[Oklahoma City, OK](/seo-content/locations/oklahoma-city.md)** - 15 minutes west
-- **[Moore, OK](/seo-content/locations/moore.md)** - 20 minutes south
-- **[Norman, OK](/seo-content/locations/norman.md)** - 25 minutes south
-- **[Edmond, OK](/seo-content/locations/edmond.md)** - 30 minutes north
+- **[Oklahoma City, OK](/service-areas/oklahoma-city)** - 15 minutes west
+- **[Moore, OK](/service-areas/moore)** - 20 minutes south
+- **[Norman, OK](/service-areas/norman)** - 25 minutes south
+- **[Edmond, OK](/service-areas/edmond)** - 30 minutes north
 
 ---
 

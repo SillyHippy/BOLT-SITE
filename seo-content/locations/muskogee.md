@@ -1,6 +1,6 @@
 # Process Server Services in Muskogee, Oklahoma | Muskogee County
 
-**Just Legal Solutions** provides professional process serving throughout Muskogee and Muskogee County, Oklahoma. Owner Joseph Iannazzi delivers reliable legal document service with expertise in navigating this historic city, including service at the VA Medical Center and within tribal jurisdictions.
+**Just Legal Solutions** connects you with our network of professional process servers throughout Muskogee and Muskogee County, Oklahoma. Our trusted network delivers reliable legal document service with expertise in navigating this historic city, including service at the VA Medical Center and within tribal jurisdictions.
 
 ---
 
@@ -226,10 +226,10 @@ Documents can be emailed, mailed to our Tulsa office, or uploaded through our se
 
 Just Legal Solutions also provides service in:
 
-- **[Tulsa, OK](/seo-content/locations/tulsa.md)** - 50 minutes north
-- **[Fort Gibson, OK](/seo-content/locations/fort-gibson.md)** - 15 minutes east
-- **[Okmulgee, OK](/seo-content/locations/okmulgee.md)** - 35 minutes north
-- **[Wagoner, OK](/seo-content/locations/wagoner.md)** - 35 minutes north
+- **[Tulsa, OK](/service-areas/tulsa)** - 50 minutes north
+- **[Fort Gibson, OK](/service-areas/fort-gibson)** - 15 minutes east
+- **[Okmulgee, OK](/service-areas/okmulgee)** - 35 minutes north
+- **[Wagoner, OK](/service-areas/wagoner)** - 35 minutes north
 
 ---
 

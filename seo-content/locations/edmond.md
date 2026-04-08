@@ -1,6 +1,6 @@
 # Process Server Services in Edmond, Oklahoma | Oklahoma County
 
-**Just Legal Solutions** provides professional process serving throughout Edmond and Oklahoma County. Owner Joseph Iannazzi and our experienced team deliver reliable legal document service with intimate knowledge of Edmond's neighborhoods, gated communities, and business districts.
+**Just Legal Solutions** connects you with our network of professional process servers throughout Edmond and Oklahoma County. Our trusted network delivers reliable legal document service with intimate knowledge of Edmond's neighborhoods, gated communities, and business districts.
 
 ---
 
@@ -206,10 +206,10 @@ Documents can be emailed, uploaded to our client portal, or delivered to our off
 
 Just Legal Solutions also provides service in:
 
-- **[Oklahoma City, OK](/seo-content/locations/oklahoma-city.md)** - 20 minutes south
-- **[Norman, OK](/seo-content/locations/norman.md)** - 35 minutes south
-- **[Guthrie, OK](/seo-content/locations/guthrie.md)** - 25 minutes north (Logan County)
-- **[Moore, OK](/seo-content/locations/moore.md)** - 30 minutes south
+- **[Oklahoma City, OK](/service-areas/oklahoma-city)** - 20 minutes south
+- **[Norman, OK](/service-areas/norman)** - 35 minutes south
+- **[Guthrie, OK](/service-areas/guthrie)** - 25 minutes north (Logan County)
+- **[Moore, OK](/service-areas/moore)** - 30 minutes south
 
 ---
 
