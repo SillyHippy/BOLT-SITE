@@ -7,7 +7,7 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'How to Serve Small Claims Papers in Oklahoma (2026 Guide) | Just Legal Solutions',
+  title: 'How to Serve Small Claims Papers in Oklahoma (2026 Guide)',
   description: 'Step-by-step guide to serving small claims papers in Oklahoma. Learn about the $10,000 limit, service methods, timelines, return of service requirements, and self-rep tips.',
   keywords: 'how to serve small claims papers Oklahoma, Oklahoma small claims service, small claims court Oklahoma, serve defendant small claims, Oklahoma small claims process, district court small claims',
   authors: [{ name: 'Just Legal Solutions' }],

@@ -14,7 +14,7 @@ import {
 const canonicalUrl = 'https://justlegalsolutions.org/notary/joseph';
 
 export const metadata: Metadata = {
-  title: 'Joseph William Iannazzi | Professional Notary Credentials | Just Legal Solutions',
+  title: 'Joseph William Iannazzi | Professional Notary Credentials',
   description: 'View the professional credentials and certifications of Joseph William Iannazzi, Founder & CEO of Just Legal Solutions. Oklahoma Commissioned Notary Public, RON certified, NNA member, background verified, E&O insured, and bonded.',
   keywords: 'Joseph Iannazzi, notary credentials, Oklahoma notary, RON certified, NNA member, Proof Academy certified, Just Legal Solutions founder, Tulsa notary, background check, E&O insurance, notary bond, errors and omissions',
   authors: [{ name: 'Just Legal Solutions' }],

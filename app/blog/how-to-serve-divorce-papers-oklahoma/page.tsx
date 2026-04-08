@@ -7,7 +7,7 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'How to Serve Divorce Papers in Oklahoma (2026 Guide) | Just Legal Solutions',
+  title: 'How to Serve Divorce Papers in Oklahoma (2026 Guide)',
   description: 'Complete guide to serving divorce papers in Oklahoma. Learn service methods under 12 O.S. § 2004, deadlines, proof of service requirements, and common mistakes to avoid.',
   keywords: 'how to serve divorce papers Oklahoma, Oklahoma divorce service, process serving divorce, 12 O.S. 2004, divorce petition service Oklahoma, serve spouse divorce Oklahoma',
   authors: [{ name: 'Just Legal Solutions' }],

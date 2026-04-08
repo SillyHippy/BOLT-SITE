@@ -7,7 +7,7 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'How to Contest Improper Service in Oklahoma (2026) | Just Legal Solutions',
+  title: 'How to Contest Improper Service in Oklahoma (2026)',
   description: 'Learn how to contest improper service of process in Oklahoma. Covers motions to quash, due process challenges, common defects, and case law examples.',
   keywords: 'contest service of process oklahoma, motion to quash service oklahoma, improper service defense oklahoma, challenge service of process, 12 O.S. 2012, due process service oklahoma, service defects oklahoma, quash service motion',
   authors: [{ name: 'Just Legal Solutions' }],

@@ -7,7 +7,7 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Certified Mail vs. Personal Service in Oklahoma: When Each Applies | Just Legal Solutions',
+  title: 'Certified Mail vs. Personal Service in Oklahoma: When Each Applies',
   description: 'Learn when certified mail service is allowed in Oklahoma vs. when personal service is required. 12 O.S. § 2004 rules, return receipts, and strategic considerations.',
   keywords: 'certified mail service of process oklahoma, oklahoma serve papers by mail, personal service vs certified mail, 12 O.S. 2004 mail service, return receipt service oklahoma, restricted delivery service, when is certified mail allowed, mail service limitations oklahoma',
   authors: [{ name: 'Just Legal Solutions' }],

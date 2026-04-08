@@ -3,7 +3,7 @@ import Link from 'next/link';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
-    title: 'Legal Courier Services Oklahoma | Document Delivery & Court Filing | Just Legal Solutions',
+    title: 'Legal Courier Services Oklahoma | Document Delivery & Court Filing',
     description: 'Professional legal courier services across Oklahoma. Courthouse filing, document pickup and delivery, file-stamped copy returns, and inter-office legal document transport. From $30.',
     keywords: ['legal courier services oklahoma', 'courthouse filing service', 'document delivery tulsa', 'legal document courier', 'court filing service oklahoma'],
     authors: [{ name: 'Just Legal Solutions' }],

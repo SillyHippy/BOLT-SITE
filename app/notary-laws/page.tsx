@@ -14,7 +14,7 @@ import {
 const canonicalUrl = 'https://justlegalsolutions.org/notary-laws';
 
 export const metadata: Metadata = {
-  title: 'Oklahoma Notary Laws & Requirements 2026 | Complete Guide | Just Legal Solutions',
+  title: 'Oklahoma Notary Laws & Requirements 2026 | Complete Guide',
   description: 'Complete guide to Oklahoma notary laws: fees, bond requirements, background checks, remote notarization, ID requirements, and what can be notarized. Verified against official sources.',
   keywords: 'Oklahoma notary laws, Oklahoma notary requirements, notary fees Oklahoma, notary bond Oklahoma, RON Oklahoma, remote notarization Oklahoma, become notary Oklahoma, notary commission Oklahoma',
   authors: [{ name: 'Just Legal Solutions Team' }],

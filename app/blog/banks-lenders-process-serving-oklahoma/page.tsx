@@ -7,7 +7,7 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'How Oklahoma Banks & Lenders Use Process Servers (2026) | Just Legal Solutions',
+  title: 'How Oklahoma Banks & Lenders Use Process Servers (2026)',
   description: 'How Oklahoma banks and lenders use process servers for foreclosure, deficiency judgments, replevin, and commercial litigation. Service requirements and timelines.',
   keywords: 'oklahoma foreclosure process serving, serve papers bank oklahoma, deficiency judgment service oklahoma, replevin action oklahoma, foreclosure service requirements, commercial foreclosure oklahoma, repossession service oklahoma, lender litigation service',
   authors: [{ name: 'Just Legal Solutions' }],

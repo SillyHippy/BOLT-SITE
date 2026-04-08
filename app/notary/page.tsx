@@ -14,12 +14,12 @@ import {
 const canonicalUrl = 'https://justlegalsolutions.org/notary';
 
 export const metadata: Metadata = {
-  title: 'Mobile Notary Services Tulsa OK | 24/7 Notary Public | Just Legal Solutions',
+  title: 'Mobile Notary Services Tulsa OK | 24/7 Notary Public',
   description: '24/7 mobile notary services in Tulsa and throughout Oklahoma. In-office, remote online notarization, and travel to you. Licensed & bonded Oklahoma notaries. Call (539) 367-6832.',
   keywords: 'notary Tulsa, mobile notary Oklahoma, notary public, remote notary, RON, notary near me, Tulsa County notary, 24/7 notary, Oklahoma notary services, mobile notary near me, notary public services Tulsa',
   authors: [{ name: 'Just Legal Solutions Team' }],
   openGraph: {
-    title: 'Mobile Notary Services Tulsa OK | 24/7 Notary Public | Just Legal Solutions',
+    title: 'Mobile Notary Services Tulsa OK | 24/7 Notary Public',
     description: '24/7 mobile notary services in Tulsa and throughout Oklahoma. In-office, remote online notarization, and travel to you. Licensed & bonded Oklahoma notaries.',
     url: canonicalUrl,
     siteName: 'Just Legal Solutions',

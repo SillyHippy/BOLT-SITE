@@ -7,7 +7,7 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Process Serving for Debt Collection Agencies Oklahoma | Just Legal Solutions',
+  title: 'Process Serving for Debt Collection Agencies Oklahoma',
   description: 'High-volume process serving for Oklahoma debt collection agencies. Collection lawsuit service, skip tracing, FDCPA-compliant documentation, GPS-verified service statewide.',
   keywords: 'process server for debt collection, debt collection process serving Oklahoma, collection lawsuit service, FDCPA process serving, high volume process server Oklahoma, debt collection skip tracing',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, 'max-video-preview': -1, 'max-image-preview': 'large', 'max-snippet': -1 },
   },
   openGraph: {
-    title: 'Process Serving for Debt Collection Agencies Oklahoma | Just Legal Solutions',
+    title: 'Process Serving for Debt Collection Agencies Oklahoma',
     description: 'High-volume collection lawsuit service, skip tracing, and FDCPA-compliant documentation for Oklahoma debt collection agencies.',
     url: 'https://justlegalsolutions.org/process-serving-for-debt-collection',
     siteName: 'Just Legal Solutions',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Process Serving for Debt Collection Agencies Oklahoma | Just Legal Solutions',
+    title: 'Process Serving for Debt Collection Agencies Oklahoma',
     description: 'High-volume collection lawsuit service with skip tracing and GPS-verified documentation for Oklahoma debt collection agencies.',
     images: ['https://justlegalsolutions.org/og-image.png'],
   },

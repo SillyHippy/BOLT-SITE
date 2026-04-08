@@ -25,7 +25,7 @@ import {
 const canonicalUrl = 'https://justlegalsolutions.org/wedding-officiant';
 
 export const metadata: Metadata = {
-  title: 'Wedding Officiant Tulsa Oklahoma | Ordained Minister Since 2017 | Just Legal Solutions',
+  title: 'Wedding Officiant Tulsa Oklahoma | Ordained Minister Since 2017',
   description:
     'Professional wedding officiant services in Oklahoma. Ordained minister since 2017 serving Tulsa County and beyond. Personalized ceremonies for your special day.',
   openGraph: {

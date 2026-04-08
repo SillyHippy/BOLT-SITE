@@ -346,7 +346,7 @@ export default function ContactPage() {
             </div>
             <div className="bg-slate-50 rounded-lg p-4">
               <h3 className="font-semibold text-blue-800 mb-2">How much does process serving cost?</h3>
-              <p className="text-gray-700">Standard service starts at $60 (or $42 with our current promotion). View our complete <a href="/pricing" className="text-blue-600 hover:underline font-medium">pricing page</a> for all service options including same-day, rush, and statewide rates.</p>
+              <p className="text-gray-700">Standard service starts at $60 with all-inclusive flat-rate pricing — no mileage, no per-attempt fees, no hidden charges. View our complete <a href="/pricing" className="text-blue-600 hover:underline font-medium">pricing page</a> for all service options including same-day, rush, and statewide rates.</p>
             </div>
             <div className="bg-slate-50 rounded-lg p-4">
               <h3 className="font-semibold text-blue-800 mb-2">Do you offer weekend or emergency service?</h3>

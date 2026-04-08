@@ -7,7 +7,7 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Process Serving for Oklahoma Small Business Owners (2026) | Just Legal Solutions',
+  title: 'Process Serving for Oklahoma Small Business Owners (2026)',
   description: 'Guide for Oklahoma small business owners on process serving. When to sue, when you get sued, breach of contract, mechanic\'s liens, and protecting your business.',
   keywords: 'small business lawsuit oklahoma, sue business oklahoma, business dispute service oklahoma, small claims business oklahoma, breach of contract oklahoma, mechanic\'s lien oklahoma, business owner served papers, oklahoma business litigation',
   authors: [{ name: 'Just Legal Solutions' }],

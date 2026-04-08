@@ -3,7 +3,7 @@ import Link from 'next/link';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
-    title: 'Same-Day Process Server Oklahoma | Rush Legal Document Delivery | Just Legal Solutions',
+    title: 'Same-Day Process Server Oklahoma | Rush Legal Document Delivery',
     description: 'Same-day process serving in Oklahoma. Have legal papers served today for $150. Licensed process servers dispatched within hours. GPS-verified proof of service. Available across all 77 counties.',
     keywords: ['same day process server', 'rush process serving oklahoma', 'same day legal document delivery', 'fast process server tulsa', 'urgent paper serving'],
     authors: [{ name: 'Just Legal Solutions' }],

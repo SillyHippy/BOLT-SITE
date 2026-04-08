@@ -28,13 +28,13 @@ export const metadata: Metadata = {
     default: 'Just Legal Solutions - Process Serving Oklahoma',
     template: '%s | Just Legal Solutions'
   },
-  description: 'Expert process server starting $30 serving Tulsa, Broken Arrow, Sapulpa, Glenpool & Oklahoma. Same-day, rush & standard service options.',
+  description: 'Expert process serving starting at $60 flat rate — Tulsa, Broken Arrow, Sapulpa, Glenpool & all 77 Oklahoma counties. Same-day, rush & standard service. No mileage or hidden fees.',
   keywords: [
-    'process server starting $30 Tulsa County', 'process server starting $30 Broken Arrow', 'process server starting $30 Sapulpa', 'legal document delivery',
-    'court transfers Oklahoma', 'skip tracing services', 'Oklahoma process server starting $30', 'Tulsa County legal services',
-    'Broken Arrow legal services', 'Sapulpa process serving', 'Wagoner County process server starting $30', 'Creek County process serving',
-    'same day process serving', 'rush process serving', 'statewide process server starting $30 Oklahoma', 'legal support services',
-    'document serving Tulsa', 'court document delivery', 'process server starting $30 near me', 'Oklahoma legal services',
+    'process server Tulsa County', 'process server Broken Arrow', 'process server Sapulpa', 'legal document delivery',
+    'court transfers Oklahoma', 'skip tracing services', 'Oklahoma process server', 'Tulsa County legal services',
+    'Broken Arrow legal services', 'Sapulpa process serving', 'Wagoner County process server', 'Creek County process serving',
+    'same day process serving', 'rush process serving', 'statewide process server Oklahoma', 'legal support services',
+    'document serving Tulsa', 'court document delivery', 'process server near me', 'Oklahoma legal services',
     'divorce papers served', 'summons delivery', 'subpoena service', 'eviction notice service', 'court filing assistance'
   ],
   authors: [{ name: 'Joseph Iannazzi' }],

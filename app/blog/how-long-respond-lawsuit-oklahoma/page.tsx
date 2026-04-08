@@ -7,7 +7,7 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'How Long Do You Have to Respond After Being Served in Oklahoma? (2026) | Just Legal Solutions',
+  title: 'How Long Do You Have to Respond After Being Served in Oklahoma? (2026)',
   description: 'How long do you have to respond to a lawsuit in Oklahoma? Learn the 20-day rule, different case types, military exceptions, and what filing an answer means.',
   keywords: 'how long to respond to lawsuit oklahoma, 20 days to respond oklahoma, oklahoma answer deadline, time to respond civil suit oklahoma, file answer oklahoma, SCRA military exception, response deadline oklahoma, 12 O.S. 2012',
   authors: [{ name: 'Just Legal Solutions' }],

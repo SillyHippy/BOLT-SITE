@@ -10,7 +10,7 @@ interface LocalPromoBannerProps {
   endDate?: string;
 }
 
-export default function LocalPromoBanner({ zips, endDate = "January 30, 2026" }: LocalPromoBannerProps) {
+export default function LocalPromoBanner({ zips, endDate = "April 30, 2026" }: LocalPromoBannerProps) {
   const [isVisible, setIsVisible] = React.useState(true);
 
   // Calculate days remaining
@@ -37,7 +37,7 @@ export default function LocalPromoBanner({ zips, endDate = "January 30, 2026" }:
     "priceCurrency": "USD",
     "priceValidUntil": endDate,
     "availability": "https://schema.org/InStock",
-    "validFrom": "2026-01-01",
+    "validFrom": "2026-04-07",
     "areaServed": zips.map(zip => ({
       "@type": "Place",
       "address": {

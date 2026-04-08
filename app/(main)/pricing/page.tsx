@@ -8,7 +8,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 import { getPromoDescription } from '@/lib/promo-utils';
 
 export const metadata: Metadata = {
-  title: 'Pricing | Process Server & Notary Services | Just Legal Solutions Oklahoma',
+  title: 'Pricing | Process Server & Notary Services Oklahoma',
   description: getPromoDescription(
     'Transparent process server and notary pricing in Oklahoma. Process serving starting at $30, notary in-office from $20. Same-day service available. No hidden fees. Licensed and bonded professionals.',
     '30% OFF LIMITED TIME for ZIP 74008, 74033, 74037! Transparent process server and notary pricing in Oklahoma. Process serving starting at $30, notary in-office from $20. No hidden fees. Licensed and bonded.'

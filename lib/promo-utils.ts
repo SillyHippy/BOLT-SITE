@@ -3,7 +3,7 @@
  * This allows meta descriptions to auto-revert after the promotion ends
  */
 
-export const PROMO_END_DATE = new Date('January 30, 2026');
+export const PROMO_END_DATE = new Date('April 30, 2026');
 
 /**
  * Returns the appropriate description based on whether the promotion is active

@@ -7,7 +7,7 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Oklahoma Legal Blog | Process Serving & Legal Guides | Just Legal Solutions',
+  title: 'Oklahoma Legal Blog | Process Serving & Legal Guides',
   description: 'Expert Oklahoma legal guides covering process serving, service of process procedures, eviction timelines, court rules, and practical legal information for attorneys and individuals.',
   keywords: 'oklahoma legal blog, process serving blog, oklahoma law guides, service of process oklahoma, oklahoma legal information',
   authors: [{ name: 'Just Legal Solutions' }],

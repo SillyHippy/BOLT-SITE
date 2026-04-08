@@ -7,7 +7,7 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Rush vs Standard vs Same-Day Process Serving | Just Legal Solutions',
+  title: 'Rush vs Standard vs Same-Day Process Serving',
   description: 'Compare our three process serving tiers: Standard (5-7 days), Rush (24-48 hours), and Same-Day service. Find the right option for your Oklahoma legal needs.',
   keywords: 'rush process server, same-day process serving, standard process serving, process server speed, urgent process server Oklahoma, fast process server Tulsa',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],

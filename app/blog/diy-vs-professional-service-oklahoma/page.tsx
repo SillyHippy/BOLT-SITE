@@ -7,7 +7,7 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'DIY Service of Process vs. Hiring a Professional: Oklahoma Rules | Just Legal Solutions',
+  title: 'DIY Service of Process vs. Hiring a Professional: Oklahoma Rules',
   description: 'Can you serve papers yourself in Oklahoma? Learn when DIY service is allowed, who qualifies, risks of improper service, and why professionals matter.',
   keywords: 'serve papers yourself oklahoma, do I need a process server oklahoma, self service of process oklahoma, can I serve papers myself, DIY process serving oklahoma, who can serve papers oklahoma, improper service consequences, 12 O.S. 2004 server requirements',
   authors: [{ name: 'Just Legal Solutions' }],

@@ -7,7 +7,7 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'What Does a Process Server Actually Do? A Day in the Life (2026) | Just Legal Solutions',
+  title: 'What Does a Process Server Actually Do? A Day in the Life (2026)',
   description: 'Ever wonder what process servers actually do? Go behind the scenes: GPS tracking, multiple attempts, skip tracing, and the real work of legal service in Oklahoma.',
   keywords: 'what does a process server do, how does process serving work, process server job description, day in the life process server, process server tools, GPS tracking process server, skip tracing process server, process server attempts',
   authors: [{ name: 'Just Legal Solutions' }],

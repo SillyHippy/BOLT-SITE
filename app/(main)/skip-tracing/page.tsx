@@ -3,7 +3,7 @@ import Link from 'next/link';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
-    title: 'Skip Tracing Services Oklahoma | Locate Hard-to-Find People | Just Legal Solutions',
+    title: 'Skip Tracing Services Oklahoma | Locate Hard-to-Find People',
     description: 'Professional skip tracing in Oklahoma to locate defendants, witnesses, and missing persons. Database searches, social media investigation, field work. 95%+ success rate starting at $50.',
     keywords: ['skip tracing oklahoma', 'locate defendant', 'find person for process serving', 'skip trace service tulsa', 'people search legal'],
     authors: [{ name: 'Just Legal Solutions' }],

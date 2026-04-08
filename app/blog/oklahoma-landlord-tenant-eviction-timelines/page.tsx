@@ -7,7 +7,7 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Oklahoma Landlord-Tenant Laws: Eviction Timelines & Notice Requirements (2026) | Just Legal Solutions',
+  title: 'Oklahoma Landlord-Tenant Laws: Eviction Timelines & Notice Requirements (2026)',
   description: 'Complete guide to Oklahoma eviction timelines and notice requirements. Learn notice periods, FED procedures, court timelines, and common landlord mistakes.',
   keywords: 'oklahoma eviction timeline, oklahoma landlord tenant law 2026, oklahoma eviction notice requirements, how long does eviction take oklahoma, oklahoma FED action, notice to quit oklahoma, forcible entry and detainer oklahoma, 41 O.S. landlord tenant',
   authors: [{ name: 'Just Legal Solutions' }],

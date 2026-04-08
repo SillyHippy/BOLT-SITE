@@ -7,7 +7,7 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'How to Serve Eviction Notices in Oklahoma: Rules & Deadlines | Just Legal Solutions',
+  title: 'How to Serve Eviction Notices in Oklahoma: Rules & Deadlines',
   description: 'Complete guide to Oklahoma eviction service rules. Learn the critical difference between Title 41 initial notices (age 12+) and Title 12 FED summonses (age 15+).',
   keywords: 'Oklahoma eviction notice, how to serve eviction Oklahoma, 5 day notice to quit Oklahoma, FED summons Oklahoma, Title 41 notice, Title 12 summons service',
   authors: [{ name: 'Just Legal Solutions' }],

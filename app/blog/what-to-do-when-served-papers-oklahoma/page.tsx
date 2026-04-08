@@ -7,7 +7,7 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'What to Do When You Get Served Papers in Oklahoma (2026) | Just Legal Solutions',
+  title: 'What to Do When You Get Served Papers in Oklahoma (2026)',
   description: 'Just got served papers in Oklahoma? Here\'s exactly what to do: read carefully, count your days, find a lawyer, and protect your rights. Step-by-step guide.',
   keywords: 'got served papers oklahoma what now, someone served me papers, what to do when served lawsuit oklahoma, just got served papers, served with lawsuit oklahoma, respond to lawsuit oklahoma, 20 days to respond, find lawyer oklahoma',
   authors: [{ name: 'Just Legal Solutions' }],

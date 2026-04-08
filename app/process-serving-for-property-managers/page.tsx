@@ -7,7 +7,7 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Process Serving for Property Managers Oklahoma | Eviction Service | Just Legal Solutions',
+  title: 'Process Serving for Property Managers Oklahoma | Eviction Service',
   description: 'Process serving for Oklahoma property managers — FED summons, eviction notices, lease violations, GPS-verified service. Tulsa metro & Creek County coverage.',
   keywords: 'process server for property managers, eviction service property management, FED summons Oklahoma, eviction notice service Tulsa, property manager process server, forcible entry detainer Oklahoma',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, 'max-video-preview': -1, 'max-image-preview': 'large', 'max-snippet': -1 },
   },
   openGraph: {
-    title: 'Process Serving for Property Managers Oklahoma | Just Legal Solutions',
+    title: 'Process Serving for Property Managers Oklahoma',
     description: 'FED summons, eviction notices, and lease violation service for Oklahoma property management companies. GPS-verified, documented service across the Tulsa metro.',
     url: 'https://justlegalsolutions.org/process-serving-for-property-managers',
     siteName: 'Just Legal Solutions',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Process Serving for Property Managers Oklahoma | Just Legal Solutions',
+    title: 'Process Serving for Property Managers Oklahoma',
     description: 'FED summons, eviction notices, and lease violation service for Oklahoma property management companies.',
     images: ['https://justlegalsolutions.org/og-image.png'],
   },

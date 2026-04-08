@@ -3,7 +3,7 @@ import Link from 'next/link';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
-    title: 'Subpoena Service Oklahoma | Witness & Document Subpoenas | Just Legal Solutions',
+    title: 'Subpoena Service Oklahoma | Witness & Document Subpoenas',
     description: 'Professional subpoena service in Oklahoma. Witness subpoenas, document subpoenas (subpoena duces tecum), and deposition subpoenas served statewide. Licensed process servers, GPS-verified, from $30.',
     keywords: ['subpoena service oklahoma', 'serve subpoena tulsa', 'witness subpoena delivery', 'subpoena duces tecum', 'deposition subpoena service'],
     authors: [{ name: 'Just Legal Solutions' }],

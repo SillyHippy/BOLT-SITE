@@ -7,7 +7,7 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Sheriff vs. Private Process Server in Oklahoma: Which Should You Choose? | Just Legal Solutions',
+  title: 'Sheriff vs. Private Process Server in Oklahoma: Which Should You Choose?',
   description: 'Compare sheriff vs. private process servers in Oklahoma. Cost, speed, success rates, flexibility, and which option is right for your legal needs.',
   keywords: 'sheriff vs process server oklahoma, private process server vs sheriff, oklahoma sheriff service of process, hire private process server oklahoma, sheriff department serve papers, private process server cost oklahoma, tulsa county sheriff process server, oklahoma county sheriff service',
   authors: [{ name: 'Just Legal Solutions' }],

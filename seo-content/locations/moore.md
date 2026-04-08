@@ -1,6 +1,6 @@
 ---
 title: Process Server Moore OK | Licensed Moore Oklahoma Process Server
-meta_title: Process Server Moore OK | Licensed & Bonded | Just Legal Solutions
+meta_title: Process Server Moore OK | Licensed & Bonded
 description: Professional process server in Moore, OK serving all of Cleveland County. Licensed, bonded & GPS-verified. Same-day rush available. Call (539) 367-6832.
 ---
 

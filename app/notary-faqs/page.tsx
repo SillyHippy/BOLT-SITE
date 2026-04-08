@@ -14,12 +14,12 @@ import {
 const canonicalUrl = 'https://justlegalsolutions.org/notary-faqs';
 
 export const metadata: Metadata = {
-  title: 'Notary FAQ: 50+ Oklahoma Notary Questions Answered | Just Legal Solutions',
+  title: 'Notary FAQ: 50+ Oklahoma Notary Questions Answered',
   description: 'Complete notary FAQ with 50+ questions covering Oklahoma notary laws, fees, requirements, what can be notarized, ID requirements, remote notarization, mobile service, and more.',
   keywords: 'notary FAQ, Oklahoma notary questions, notary fees OK, what can be notarized, notary ID requirements, remote notary Oklahoma, mobile notary Tulsa, notary near me FAQ',
   authors: [{ name: 'Just Legal Solutions Team' }],
   openGraph: {
-    title: 'Notary FAQ: 50+ Oklahoma Notary Questions Answered | Just Legal Solutions',
+    title: 'Notary FAQ: 50+ Oklahoma Notary Questions Answered',
     description: 'Complete notary FAQ with 50+ questions covering Oklahoma notary laws, fees, requirements, ID requirements, remote notarization, mobile service, and more.',
     url: canonicalUrl,
     siteName: 'Just Legal Solutions',

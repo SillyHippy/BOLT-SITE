@@ -7,7 +7,7 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'How to Serve a Subpoena in Oklahoma (2026 Guide) | Just Legal Solutions',
+  title: 'How to Serve a Subpoena in Oklahoma (2026 Guide)',
   description: 'Complete guide to serving subpoenas in Oklahoma. Learn subpoena types, service requirements under 12 O.S. § 2004, witness fees, contempt consequences, and more.',
   keywords: 'how to serve subpoena Oklahoma, Oklahoma subpoena service, subpoena duces tecum Oklahoma, process serving subpoena, 12 O.S. 2004 subpoena, serve witness subpoena Oklahoma',
   authors: [{ name: 'Just Legal Solutions' }],

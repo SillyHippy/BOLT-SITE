@@ -34,7 +34,9 @@ export function getCountyContent(slug: string): string {
 
 export function extractTitle(content: string): string {
   const match = content.match(/^#\s+(.+)$/m);
-  return match ? match[1].trim() : '';
+  if (!match) return '';
+  // Strip trailing "| Just Legal Solutions" to avoid duplication with layout template
+  return match[1].trim().replace(/\s*\|\s*Just Legal Solutions$/i, '').trim();
 }
 
 export function extractDescription(content: string): string {

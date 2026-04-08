@@ -6,11 +6,11 @@ import { Footer } from '@/components/ui/footer';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
-  title: 'Legal Process Serving Guides | Just Legal Solutions',
+  title: 'Legal Process Serving Guides',
   description:
     'Comprehensive guides on process serving in Oklahoma. Attorney resources, rural serving strategies, tribal land jurisdictions, and military base procedures.',
   openGraph: {
-    title: 'Legal Process Serving Guides | Just Legal Solutions',
+    title: 'Legal Process Serving Guides',
     description:
       'Comprehensive guides on process serving in Oklahoma. Attorney resources, rural serving strategies, tribal land jurisdictions, and military base procedures.',
     url: 'https://justlegalsolutions.org/guides',
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Legal Process Serving Guides | Just Legal Solutions',
+    title: 'Legal Process Serving Guides',
     description:
       'Comprehensive guides on process serving in Oklahoma. Attorney resources, rural serving strategies, tribal land jurisdictions, and military base procedures.',
   },
@@ -70,7 +70,7 @@ export default function GuidesIndexPage() {
     <>
       <UnifiedSchema
         pageType="generic"
-        pageTitle="Legal Process Serving Guides | Just Legal Solutions"
+        pageTitle="Legal Process Serving Guides"
         pageDescription="Comprehensive guides on process serving in Oklahoma. Attorney resources, rural serving strategies, tribal land jurisdictions, and military base procedures."
         pageUrl="https://justlegalsolutions.org/guides"
         siteName="Just Legal Solutions"

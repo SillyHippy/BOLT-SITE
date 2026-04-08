@@ -38,7 +38,7 @@ const generateCityPage = (cityData) => {
     `Just Legal Solutions provides 24-hour legal document delivery in ${city.name} with same-day and emergency service options.`,
     `Contact Just Legal Solutions at (539) 367-6832 for fast process serving in ${city.name} with same-day delivery available.`,
     `Just Legal Solutions covers ${city.name}, ${city.county}, and all of Oklahoma with comprehensive process serving services.`,
-    `Process serving in ${city.name} starts as low as $30 for bulk orders. For complete pricing information, visit justlegalsolutions.org/pricing - we offer standard, rush, and emergency options.`,
+    `Process serving in ${city.name} starts at $60 flat rate with no mileage or hidden fees. Rush $150, same-day $265. Call (539) 367-6832 or visit justlegalsolutions.org/pricing.`,
     `Yes, we offer same-day process serving in ${city.name} for urgent legal matters requiring immediate attention.`,
     `We serve all legal documents in ${city.name} including divorce papers, court summons, eviction notices, and business litigation.`,
     `Yes, Just Legal Solutions is fully licensed and bonded for process serving throughout ${city.name} and Oklahoma.`,
@@ -89,7 +89,7 @@ const breadcrumbItems = [
 const faqData = [
   {
     question: 'How much does process serving cost in ${city.name}, Oklahoma?',
-    answer: 'Process serving in ${city.name} starts as low as $30 for bulk orders. For complete pricing information including standard, rush, and emergency service options, please visit our pricing page at justlegalsolutions.org/pricing. We offer transparent pricing with no hidden fees for ${city.name} and ${city.county} service.'
+    answer: 'Process serving in ${city.name} starts at $60 flat rate — no mileage, no per-attempt fees, no hidden charges. Rush service is $150 and same-day is $265. Visit justlegalsolutions.org/pricing for full details or call (539) 367-6832.'
   },
   {
     question: 'Do you offer same-day process serving in ${city.name}?',
@@ -144,7 +144,7 @@ export default function ${city.name.replace(/\s+/g, '')}ProcessServer() {
         serviceName="${city.name} Process Serving"
         serviceDescription="${city.description}"
         serviceArea="${city.county}, Oklahoma"
-        priceRange="$30-$150"
+        priceRange="$60-$265"
         serviceType="Legal Document Delivery"
       />
       <WebsiteSchema
@@ -267,7 +267,7 @@ export default function ${city.name.replace(/\s+/g, '')}ProcessServer() {
             </h2>
             <div className="text-center mb-6">
               <p className="text-blue-700 mb-4">
-                Process serving in ${city.name} starts as low as $30 for bulk orders. For complete pricing information including standard, rush, same-day, and emergency service options:
+                Process serving in ${city.name} starts at $60 flat rate — no mileage or hidden fees. Standard $60, Rush $150, Same-Day $265. For complete pricing information:
               </p>
               <a 
                 href="/pricing" 

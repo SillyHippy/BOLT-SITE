@@ -7,7 +7,7 @@ import JsonLd from '@/components/JsonLd';
 import { CheckCircle2, AlertCircle, Users, FileText, Clock, Shield, ArrowRight, ExternalLink } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'What to Bring to Your Notary Appointment | Just Legal Solutions',
+  title: 'What to Bring to Your Notary Appointment',
   description: 'Complete checklist of what to bring for a successful notary appointment. Valid ID requirements, document prep, and special situation guides.',
   keywords: 'notary appointment, what to bring, valid ID, notarization checklist, document preparation',
   alternates: { canonical: 'https://justlegalsolutions.org/what-to-bring' },

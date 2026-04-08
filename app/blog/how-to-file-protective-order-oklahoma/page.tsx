@@ -7,7 +7,7 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'How to File a Protective Order in Oklahoma (2026) | Step-by-Step Guide | Just Legal Solutions',
+  title: 'How to File a Protective Order in Oklahoma (2026) | Step-by-Step Guide',
   description: 'Learn how to file a protective order in Oklahoma. Step-by-step guide covering emergency VPOs, permanent orders, court procedures, and service requirements.',
   keywords: 'how to file protective order oklahoma, oklahoma VPO process, victim protective order oklahoma, emergency protective order oklahoma, file VPO tulsa, protective order service, oklahoma domestic abuse, VPO hearing timeline',
   authors: [{ name: 'Just Legal Solutions' }],

@@ -7,7 +7,7 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Oklahoma Child Custody & Support: How Service of Process Works (2026) | Just Legal Solutions',
+  title: 'Oklahoma Child Custody & Support: How Service of Process Works (2026)',
   description: 'Learn how service of process works for child custody and support cases in Oklahoma. Covers modifications, paternity, DHS cases, and tribal court issues.',
   keywords: 'serve custody papers oklahoma, child support modification service oklahoma, paternity action service oklahoma, custody modification service, UIFSA oklahoma, DHS child support service, tribal court custody oklahoma, emergency custody service',
   authors: [{ name: 'Just Legal Solutions' }],

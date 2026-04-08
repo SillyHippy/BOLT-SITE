@@ -7,7 +7,7 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Affidavit of Service Oklahoma | Process Server Proof of Service | Just Legal Solutions',
+  title: 'Affidavit of Service Oklahoma | Process Server Proof of Service',
   description: 'Learn what an Affidavit of Service is, why it\'s crucial for due process in Oklahoma courts, and what must be included under 12 O.S. § 2004. Professional process serving starting at $60.',
   keywords: 'Affidavit of Service Oklahoma, proof of service Oklahoma, return of service, Oklahoma process server requirements, Title 12 service laws, 12 OS 2004',
   authors: [{ name: 'Just Legal Solutions' }],

@@ -16,11 +16,11 @@ import {
 } from "@/components/ui/carousel";
 
 export const metadata: Metadata = {
-  title: 'Tulsa County Process Server | All Cities & Towns | Just Legal Solutions',
+  title: 'Tulsa County Process Server | All Cities & Towns',
   description: 'Tulsa County process server serving Tulsa, Broken Arrow, Owasso, Bixby, Jenks, Sand Springs, Glenpool, Collinsville & all communities. Licensed, bonded. Same-day service. Call (539) 367-6832.',
   keywords: 'Tulsa County process server, process server Tulsa County, legal document service Tulsa County, court papers Oklahoma, Tulsa County courthouse, process serving Broken Arrow Owasso Bixby, skip tracing Tulsa County, licensed process server Oklahoma, process server near me Tulsa, Tulsa County process serving, legal papers delivery Tulsa, subpoena service Tulsa County, divorce papers service Tulsa, eviction notice service Oklahoma, civil litigation support Tulsa, process server 74101 74103 74104 74105 74106 74107, legal document delivery Broken Arrow, court filing Tulsa County courthouse, professional process server Oklahoma',
   openGraph: {
-    title: 'Tulsa County Process Server | All Cities & Towns | Just Legal Solutions',
+    title: 'Tulsa County Process Server | All Cities & Towns',
   description: 'Tulsa County process server covering every city and town. Trusted by law firms, families, and businesses for reliable, local process serving.',
     url: 'https://justlegalsolutions.org/counties/tulsa-county',
     siteName: 'Just Legal Solutions',
@@ -164,7 +164,7 @@ export default function TulsaCountyProcessServer() {
       <UnifiedSchema
         pageType="location"
         url="https://justlegalsolutions.org/counties/tulsa-county"
-        title="Tulsa County Process Server | All Cities & Towns | Just Legal Solutions"
+        title="Tulsa County Process Server | All Cities & Towns"
         description="Tulsa County's process server—serving Tulsa, Broken Arrow, Owasso, Bixby, Jenks, Sand Springs, Glenpool, Collinsville, and all communities. Fast, local legal document delivery for every need."
         breadcrumbs={[
           { name: 'Home', item: 'https://justlegalsolutions.org/' },

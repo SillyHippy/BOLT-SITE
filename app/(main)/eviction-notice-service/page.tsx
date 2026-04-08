@@ -3,7 +3,7 @@ import Link from 'next/link';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
-    title: 'Eviction Notice Service Oklahoma | 5-Day, 15-Day & 30-Day Notices | Just Legal Solutions',
+    title: 'Eviction Notice Service Oklahoma | 5-Day, 15-Day & 30-Day Notices',
     description: 'Professional eviction notice delivery in Oklahoma. 5-day, 15-day, and 30-day notice to quit served by licensed process servers. GPS-verified proof. Starting at $30. Same-day available.',
     keywords: ['eviction notice service oklahoma', 'serve eviction notice tulsa', '5 day notice to quit oklahoma', 'eviction process server', 'landlord eviction notice delivery'],
     authors: [{ name: 'Just Legal Solutions' }],

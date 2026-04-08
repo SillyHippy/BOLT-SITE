@@ -7,7 +7,7 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Process Serving for Insurance Companies Oklahoma | Just Legal Solutions',
+  title: 'Process Serving for Insurance Companies Oklahoma',
   description: 'Dedicated process serving for Oklahoma insurance companies. Claims litigation, SIU support, subrogation, workers\' comp service, and high-volume statewide coverage.',
   keywords: 'process server for insurance companies, insurance litigation service Oklahoma, insurance claims process serving, SIU process server Oklahoma, subrogation service of process, workers compensation process serving',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, 'max-video-preview': -1, 'max-image-preview': 'large', 'max-snippet': -1 },
   },
   openGraph: {
-    title: 'Process Serving for Insurance Companies Oklahoma | Just Legal Solutions',
+    title: 'Process Serving for Insurance Companies Oklahoma',
     description: 'High-volume process serving for Oklahoma insurance companies. Claims litigation, SIU, subrogation, and workers\' comp service with GPS verification.',
     url: 'https://justlegalsolutions.org/process-serving-for-insurance-companies',
     siteName: 'Just Legal Solutions',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Process Serving for Insurance Companies Oklahoma | Just Legal Solutions',
+    title: 'Process Serving for Insurance Companies Oklahoma',
     description: 'Dedicated high-volume process serving for Oklahoma insurance companies — claims litigation, SIU support, and GPS-verified service.',
     images: ['https://justlegalsolutions.org/og-image.png'],
   },

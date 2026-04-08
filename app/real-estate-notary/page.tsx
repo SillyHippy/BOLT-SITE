@@ -23,7 +23,7 @@ import {
 const canonicalUrl = 'https://justlegalsolutions.org/real-estate-notary';
 
 export const metadata: Metadata = {
-  title: 'Real Estate Notary & Loan Signing Oklahoma | Mobile Closing Agent Tulsa | Just Legal Solutions',
+  title: 'Real Estate Notary & Loan Signing Oklahoma | Mobile Closing Agent Tulsa',
   description:
     'Expert loan signing agents handling 80-150 page packages with 15-30 signatures per closing. Title company and lender coordination, rate lock deadline awareness, and same-day closings across Tulsa and all 77 Oklahoma counties. Call (539) 367-6832.',
   keywords:
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Oklahoma Loan Signing & Real Estate Notary | Just Legal Solutions',
+    title: 'Oklahoma Loan Signing & Real Estate Notary',
     description: 'Mobile, hybrid, and remote closing support anywhere in Oklahoma. Call (539) 367-6832.',
     images: ['https://justlegalsolutions.org/images/real-estate-notary-og.jpg']
   },

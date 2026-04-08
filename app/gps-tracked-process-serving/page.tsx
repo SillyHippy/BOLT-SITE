@@ -7,7 +7,7 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'GPS Tracked Process Serving Oklahoma | Just Legal Solutions',
+  title: 'GPS Tracked Process Serving Oklahoma',
   description: 'GPS-verified process serving in Oklahoma with timestamped location data, photo documentation, and court-admissible proof of service. Tulsa, Creek County & statewide.',
   keywords: 'GPS tracked process server, GPS process serving Oklahoma, GPS verified service of process, process server Tulsa GPS, court admissible proof of service',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, 'max-video-preview': -1, 'max-image-preview': 'large', 'max-snippet': -1 },
   },
   openGraph: {
-    title: 'GPS Tracked Process Serving Oklahoma | Just Legal Solutions',
+    title: 'GPS Tracked Process Serving Oklahoma',
     description: 'GPS-verified process serving with timestamped location data and photo documentation. Court-admissible proof of service across Oklahoma.',
     url: 'https://justlegalsolutions.org/gps-tracked-process-serving',
     siteName: 'Just Legal Solutions',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'GPS Tracked Process Serving Oklahoma | Just Legal Solutions',
+    title: 'GPS Tracked Process Serving Oklahoma',
     description: 'GPS-verified process serving with timestamped location data and photo documentation across Oklahoma.',
     images: ['https://justlegalsolutions.org/og-image.png'],
   },

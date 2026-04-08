@@ -23,13 +23,13 @@ import {
 const canonicalUrl = 'https://justlegalsolutions.org/notary/creek-county';
 
 export const metadata: Metadata = {
-  title: 'Mobile Notary Creek County OK | Sapulpa Notary Public | Just Legal Solutions',
+  title: 'Mobile Notary Creek County OK | Sapulpa Notary Public',
   description:
     'Creek County mobile notary team serving Sapulpa (population 21,000), Bristow, Drumright, Kellyville, Depew, Mannford, Oilton, and Slick with on-demand witnesses, estate planning support, and secure remote online notarization. Oil and gas document specialists. St. John Sapulpa hospital notarizations available.',
   keywords:
     'Creek County notary, mobile notary Sapulpa, notary public Creek County Oklahoma, Sapulpa notary services, remote online notarization Creek County, mobile notary Bristow, oil and gas notary Oklahoma, St. John Sapulpa hospital notary, mineral lease notary',
   openGraph: {
-    title: 'Mobile Notary Creek County OK | Sapulpa Notary Public | Just Legal Solutions',
+    title: 'Mobile Notary Creek County OK | Sapulpa Notary Public',
     description:
       'Certified Creek County notaries for real estate, oil and gas, agricultural business, and estate planning documents. Serving Sapulpa (21,000 residents) with mobile and remote appointments.',
     url: canonicalUrl,

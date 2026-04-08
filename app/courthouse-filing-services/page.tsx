@@ -7,7 +7,7 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Courthouse Filing Services Oklahoma | Tulsa & Creek County | Just Legal Solutions',
+  title: 'Courthouse Filing Services Oklahoma | Tulsa & Creek County',
   description: 'Professional courthouse filing services in Oklahoma. Same-day filing at Tulsa County & Creek County District Courts, document retrieval, and multi-county coverage.',
   keywords: 'courthouse filing service Oklahoma, court document filing Tulsa, courthouse filing Tulsa County, court filing Creek County, same-day court filing Oklahoma, document filing service',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, 'max-video-preview': -1, 'max-image-preview': 'large', 'max-snippet': -1 },
   },
   openGraph: {
-    title: 'Courthouse Filing Services Oklahoma | Just Legal Solutions',
+    title: 'Courthouse Filing Services Oklahoma',
     description: 'Same-day courthouse filing at Tulsa County and Creek County District Courts. Document retrieval, chain of custody, and multi-county coverage.',
     url: 'https://justlegalsolutions.org/courthouse-filing-services',
     siteName: 'Just Legal Solutions',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Courthouse Filing Services Oklahoma | Just Legal Solutions',
+    title: 'Courthouse Filing Services Oklahoma',
     description: 'Same-day courthouse filing at Tulsa County and Creek County District Courts with full chain of custody documentation.',
     images: ['https://justlegalsolutions.org/og-image.png'],
   },

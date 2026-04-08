@@ -6,7 +6,7 @@ import UnifiedSchema from '@/components/UnifiedSchema';
 import { CheckCircle2, Clock, MapPin, AlertCircle, Users, TrendingUp, ArrowRight, ExternalLink } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Mobile Notary vs Bank Notary: Which Is Right For You? | Just Legal Solutions',
+  title: 'Mobile Notary vs Bank Notary: Which Is Right For You?',
   description: 'Compare mobile notary services vs bank notary services. Learn which option offers better value, availability, and expertise for your notarization needs.',
   keywords: 'mobile notary, bank notary, comparison, convenience, expertise',
   alternates: { canonical: 'https://justlegalsolutions.org/mobile-notary-vs-bank' },

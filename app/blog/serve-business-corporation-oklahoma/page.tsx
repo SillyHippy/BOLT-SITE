@@ -7,7 +7,7 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'How to Serve a Business or Corporation in Oklahoma (2026) | Just Legal Solutions',
+  title: 'How to Serve a Business or Corporation in Oklahoma (2026)',
   description: 'Learn how to serve legal papers on businesses and corporations in Oklahoma. Covers registered agents, Secretary of State service, and handling evasive businesses.',
   keywords: 'serve papers on business oklahoma, serve LLC oklahoma, serve corporation oklahoma, registered agent service oklahoma, oklahoma secretary of state service, CT corporation service, serve business entity oklahoma, commercial registered agent oklahoma',
   authors: [{ name: 'Just Legal Solutions' }],

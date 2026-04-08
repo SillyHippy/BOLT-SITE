@@ -7,7 +7,7 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'How Oklahoma Bail Bondsmen Work With Process Servers (2026) | Just Legal Solutions',
+  title: 'How Oklahoma Bail Bondsmen Work With Process Servers (2026)',
   description: 'Learn how bail bondsmen and process servers collaborate in Oklahoma. FTA warrants, bond forfeiture, skip tracing, and locating defendants who skip bail.',
   keywords: 'bail bond process serving oklahoma, FTA warrant service oklahoma, bond forfeiture process server, bail bondsman skip tracing, skip bail oklahoma, bail enforcement oklahoma, locate defendant skip bail, bond forfeiture hearing',
   authors: [{ name: 'Just Legal Solutions' }],
