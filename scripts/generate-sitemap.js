@@ -242,6 +242,31 @@ function generateSitemap() {
     '/how-long-does-process-serving-take',
     '/can-process-server-serve-on-sunday',
 
+    // Phase 2 — New Service & Notary Pages
+    '/bankruptcy-process-serving-oklahoma',
+    '/power-of-attorney-notary-oklahoma',
+    '/title-company-notary-services',
+    '/loan-signing-agent-tulsa',
+    '/attorney-services',
+    '/service-areas/oklahoma-city',
+
+    // Phase 2 — Industry Guides
+    '/become-process-server-oklahoma-complete-guide',
+    '/process-server-equipment-checklist',
+    '/process-server-safety-guide-oklahoma',
+    '/process-server-business-startup-guide',
+    '/oklahoma-process-server-forms-templates',
+    '/process-server-marketing-guide',
+
+    // Phase 2 — Resource Landing Pages
+    '/resources/oklahoma-process-server-licensing-checklist',
+    '/resources/oklahoma-service-of-process-reference',
+    '/resources/attorneys-guide-hiring-process-server',
+    '/resources/oklahoma-eviction-timeline',
+    '/resources/process-server-field-sheet-template',
+    '/resources/oklahoma-notarization-requirements',
+    '/resources/what-to-do-when-served-oklahoma',
+
     // Blog Posts (auto-discovered below, these are the static info pages)
     ...discoverBlogUrls(),
 
@@ -303,7 +328,10 @@ function generateSitemap() {
       '/how-long-does-process-serving-take', '/can-process-server-serve-on-sunday',
       '/courier-services-tulsa', '/family-law-service-guide-tulsa', '/high-profile-service-protocols-tulsa',
       '/serving-legal-papers-on-tribal-land', '/ai-skip-tracing-guide-oklahoma', '/weekend-emergency',
-      '/virtual-assistant-services'].includes(urlPath)) {
+      '/virtual-assistant-services',
+      '/bankruptcy-process-serving-oklahoma', '/power-of-attorney-notary-oklahoma',
+      '/title-company-notary-services', '/loan-signing-agent-tulsa', '/attorney-services',
+      '/become-process-server-oklahoma-complete-guide'].includes(urlPath)) {
       priority = '0.8';
       changefreq = 'monthly';
     } else if (urlPath.includes('/service-areas/')) {

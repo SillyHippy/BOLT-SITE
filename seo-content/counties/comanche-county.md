@@ -1,338 +1,467 @@
-# Process Server Comanche County | Lawton & Fort Sill Service
+# Comanche County Process Service
 
-**Comanche County, Oklahoma**, presents unique challenges and opportunities for process serving. Home to the major military installation of Fort Sill and the vibrant city of Lawton, this southwestern Oklahoma county requires specialized knowledge of military protocols, tribal jurisdictions, and diverse geographic coverage. Our experienced process servers navigate these complexities daily, ensuring valid service throughout Comanche County.
+## Hyperlocal Process Serving in Southwest Oklahoma's Military Center
+
+**Comanche County** sits in southwestern Oklahoma, where the plains meet the Wichita Mountains. Home to Fort Sill Army Base and the city of Lawton, Comanche County has a unique character shaped by military presence, Native American heritage, and surprising geological diversity. With approximately 121,000 residents spread across 1,084 square miles, the county combines urban service challenges with rural accessibility considerations.
 
 ---
 
-## Comanche County Overview
+## County Overview
 
-Comanche County is located in southwestern Oklahoma, where the Great Plains meet the Wichita Mountains. Established in 1901 from portions of the Kiowa, Comanche, and Apache reservation, the county has grown into a dynamic community serving as the economic and cultural hub of the region.
-
-| **County Statistics** | **Data** |
-|----------------------|----------|
-| **Population** | 121,099 (2020 Census)¹ |
+| **Attribute** | **Details** |
+|---------------|-------------|
 | **County Seat** | Lawton |
-| **Total Area** | 1,084 sq mi (1,069 land, 14 water)² |
+| **Population (2020 Census)** | 121,125 |
+| **2024 Estimate** | ~118,000 |
+| **Total Area** | 1,084 square miles |
+| **Land Area** | 1,069 square miles |
+| **Water Area** | 15 square miles |
 | **Founded** | 1901 |
-| **Time Zone** | Central (CST) |
-
-### Geographic Boundaries
-
-Comanche County is bordered by six counties, creating important jurisdictional considerations for legal service:
-
-- **North:** [Caddo County](./caddo-county.md)
-- **Northeast:** [Grady County](./grady-county.md)
-- **Southeast:** [Stephens County](./stephens-county.md)
-- **South:** [Cotton County](./cotton-county.md)
-- **Southwest:** [Tillman County](./tillman-county.md)
-- **Northwest:** [Kiowa County](./kiowa-county.md)
-
-The county's landscape varies dramatically from the flat prairie lands in the south to the rugged Wichita Mountains in the north, including Mount Scott and Mount Pinchot—the area's highest peaks.³ This geographic diversity affects service routing and travel times across the county.
+| **Named For** | Comanche Native American Tribe |
+| **Judicial District** | 5th Judicial District |
 
 ---
 
-## Comanche County Courthouse
+## County Seat: Lawton
 
-The **Comanche County Courthouse** serves as the primary judicial center for the county, handling civil, criminal, probate, and family law matters.
+**Address:**  
+315 SW 5th Street  
+Lawton, OK 73501
 
-### Courthouse Details
-
-| **Information** | **Details** |
-|-----------------|-------------|
-| **Address** | 315 SW 5th St, Lawton, OK 73501 |
-| **Phone** | (580) 355-4017 |
-| **Court Clerk** | Contact courthouse for current clerk information |
-| **Hours** | Monday–Friday, 8:00 AM – 5:00 PM |
-| **Parking** | Public parking available on surrounding streets |
-
-### OSCN Access
-
-Comanche County court records are accessible through the Oklahoma State Courts Network (OSCN):
-
-🔗 **OSCN Comanche County:** https://www.oscn.net/dockets/GetCourtInfo.aspx?db=comanche
-
-This online portal provides case information, docket entries, and court schedules—valuable resources for verifying filing requirements and court dates.
-
-### Filing Procedures
-
-When serving process in Comanche County, returns of service should be filed with the Court Clerk's office. The courthouse is conveniently located in downtown Lawton, within easy reach of the legal community and a short distance from Fort Sill's main gates.
+Lawton serves as the county seat and is the fifth-largest city in Oklahoma. The city's economy and culture are heavily influenced by Fort Sill Army Base, which dominates the local landscape both physically and economically.
 
 ---
 
-## Fort Sill Military Service
+## County Clerk Office
 
-**Fort Sill** represents the single most significant factor distinguishing Comanche County from other Oklahoma jurisdictions for process serving. As a major U.S. Army installation covering over 90,000 acres,⁴ Fort Sill requires specialized knowledge and procedures for effective service of process.
+**Physical Address:**  
+315 SW 5th Street, Room 304  
+Lawton, OK 73501
 
-### Installation Overview
+**Mailing Address:**  
+PO Box 279  
+Lawton, OK 73502
 
-| **Fort Sill Statistics** | **Data** |
-|-------------------------|----------|
-| **Address** | Fort Sill, OK 73503 |
-| **Total Population** | ~53,000 |
-| **Military/Civilian Personnel** | ~20,000 |
-| **Family Members** | ~33,000 |
-| **Housing Units** | 1,800+ family housing units⁵ |
-| **Primary Mission** | U.S. Army Fires Center of Excellence |
+**County Clerk:** Carrie Tubbs
 
-### Special Service Requirements for Military Personnel
+**Phone:** (580) 355-5214
 
-Serving process on Fort Sill requires understanding both federal military regulations and Oklahoma state law. Several key considerations apply:
+**Fax:** (580) 355-7725
 
-#### 1. **Gate Access Procedures**
+**Email:** countyclerk@comanchecounty.us
 
-Fort Sill is a **closed post**, meaning access is strictly controlled. Non-military personnel cannot simply drive onto the installation to attempt service.⁶
+**Hours:** Monday - Friday, 8:30 AM - 5:00 PM
 
-**Visitor Welcome Center (VWC):**
-- **Location:** 6701 Sheridan Road, Fort Sill, OK 73503
-- **Phone:** (580) 442-9602 or (580) 442-9603
-- **Hours:** 6:00 AM – 9:00 PM, Monday–Sunday
-- **Email:** usarmy.sill-imcom-central.mbx.fort-sill-visitor-control-center@mail.mil
+**Website:** [comanchecountyok.gov](https://www.comanchecountyok.gov)
 
-**Access Requirements:**
-- Valid photo identification (driver's license, state ID)
-- Vehicle registration and proof of insurance
-- Completed **Fort Sill Form 118a** (Request for Unescorted Installation Access)
-- Background check through NCIC III (National Crime Information Center)
-
-> ⚠️ **Important:** The background check process can take up to two weeks. Planning ahead is essential when service on Fort Sill is anticipated.
-
-#### 2. **JAG Coordination**
-
-For service involving active-duty military personnel living on-post, coordination with the **Judge Advocate General (JAG)** office is often necessary. JAG reviews requests for installation access and determines whether process servers will be permitted on the installation for service purposes.⁷
-
-This review process can take up to **two weeks**, making early engagement critical for meeting service deadlines. In some cases, alternative service methods may be arranged through military channels.
-
-#### 3. **On-Post Housing Areas**
-
-Understanding Fort Sill's housing layout helps process servers plan efficient routes once access is granted:
-
-| **Housing Neighborhood** | **Occupants** | **Features** |
-|-------------------------|---------------|--------------|
-| **Buffalo Soldier Acres** | E1–O4 families | Newest homes, near Welcome Center |
-| **Geronimo Acres** | E1–E5, E-9 families | Mix of single-family, duplex, townhouses |
-| **Southern Plains** | Junior enlisted, senior NCOs | Near Freedom Elementary School |
-| **White Wolf** | Various ranks | Recently renovated homes |
-| **Old Calvary Post** | E1–Commanding General | Historic homes near headquarters and museum |
-| **Henry Post Manor** | Sergeant Majors | Premium housing |
-| **Patriot Estates** | Junior and senior NCOs | Family-oriented community |
-
-All on-post housing is managed by **Corvias Military Living** (phone: 580-581-2144).⁸ Process servers should note that housing staff cannot provide resident information due to privacy regulations.
-
-#### 4. **Gate Hours for Service Planning**
-
-| **Gate** | **Hours** | **Notes** |
-|----------|-----------|-----------|
-| **Key Gate West (I-44)** | 24/7 | Main gate, recommended for access |
-| **Bentley Gate (Sheridan Rd)** | 24/7 | Secondary 24-hour gate |
-| **Scott Gate (Fort Sill Blvd)** | 5:00 AM – 9:00 PM | Daily |
-| **Key Gate East (ATC Area)** | 4:00 AM – 10:00 PM | Weekdays only |
-| **Gate 6 (52nd St)** | 5:00 AM – 6:00 PM | Weekdays only |
-| **Apache Gate** | 5:00 AM – 9:00 PM | Closed weekends/holidays |
-
-### Off-Post Military Housing
-
-Many Fort Sill personnel live in surrounding communities, where standard process serving procedures apply:
-
-- **Lawton:** Largest off-post military community, closest commute
-- **Elgin:** Popular for highly-rated schools, ~13 miles northeast
-- **Cache:** Small-town atmosphere, ~12 miles west
-- **Fletcher:** Growing community near Fort Sill
+**Services:**
+- Real estate records and land title searches
+- Deeds, mortgages, and liens recording
+- UCC filings
+- County commission records
+- Assumed business name registrations
+- Military discharge records (DD-214)
+- Public records research
 
 ---
 
-## Cities and Communities
+## Sheriff's Office
 
-Comanche County encompasses diverse communities, each with distinct characteristics affecting process service:
+**Comanche County Sheriff's Office**
 
-### Lawton (County Seat)
-- **Population:** 90,381 (2020 Census)⁹
-- **ZIP Codes:** 73501, 73502, 73503, 73505, 73506, 73507
-- **Characteristics:** Largest city in southwest Oklahoma, home to Cameron University, vibrant downtown, extensive retail along Cache Road
-- **Service Notes:** Urban density creates efficient routing; multiple residential neighborhoods from historic districts to modern subdivisions
+**Address:**  
+315 SW 5th Street  
+Lawton, OK 73501
 
-### Elgin
-- **Population:** 3,236 (2020 Census)¹⁰
-- **ZIP Code:** 73538
-- **Characteristics:** Rapidly growing bedroom community northeast of Lawton along I-44
-- **Service Notes:** Mix of established homes and new construction; popular with military families seeking school quality
+**Phone:** (580) 355-5129
+
+**Fax:** (580) 355-7725
+
+**Civil Process:** (580) 355-5129
+
+**Hours:** Monday - Friday, 8:00 AM - 5:00 PM
+
+**Emergency:** 911
+
+**Services:**
+- Civil process service
+- Court security
+- Jail operations (Comanche County Detention Center)
+- Warrant service
+- Eviction enforcement
+
+---
+
+## Courthouses in Comanche County
+
+### Comanche County Courthouse
+
+**Address:**  
+315 SW 5th Street  
+Lawton, OK 73501
+
+**Phone:** (580) 355-4017 (Court Clerk)
+
+**Hours:** Monday - Friday, 8:00 AM - 5:00 PM
+
+**Parking:**
+- Free public parking lot adjacent to courthouse
+- Street parking available on SW 5th and surrounding streets
+- Handicap accessible parking at main entrance
+
+**Court Divisions:**
+
+**Civil Office - Room 207**
+- Large/Small Civil claims (over $6,000)
+- Divorce/Custody matters
+- Paternity cases
+- Probate and guardianship
+- Garnishments and injunctions
+- **Phone:** (580) 581-4565
+
+**Criminal Office - Room 504**
+- Felony cases
+- Misdemeanor cases
+- Traffic violations
+- Wildlife violations
+- Warrants
+- **Phone:** (580) 355-4017
+
+**Small Claims Office - Room 205**
+- Money judgments under $10,000
+- Forceable entry and detainer (evictions)
+- Recovery of personal property
+- Protective orders
+- Marriage licenses
+- Minister credentials
+- Process server registration
+- **Phone:** (580) 250-5093
+
+**Cost Administrator Office - Room 504**
+- Payment plans for fines and court fees
+- **Phone:** (580) 581-4552 or (580) 581-4553
+
+---
+
+### Court Clerk's Office
+
+**Court Clerk:** Robert Morales
+
+**Address:** 315 SW 5th Street, Suite 504  
+Lawton, OK 73501
+
+**Phone:** (580) 355-4017
+
+**Fax:** (580) 248-5068
+
+**Hours:** Monday - Friday, 8:00 AM - 5:00 PM
+
+**Note:** 21 deputies work across all three courthouse offices
+
+---
+
+## Annual Civil Filings Estimate
+
+Comanche County processes approximately **8,000-10,000 civil filings annually**, including:
+
+- Small claims matters
+- General civil litigation
+- Family law proceedings
+- Landlord-tenant disputes (significant military housing turnover)
+- Protective orders
+- Probate and guardianship cases
+
+**Peak Filing Seasons:**
+- January-February (post-holiday family law)
+- May-June (PCS season military housing disputes)
+- August-September (back-to-school housing changes)
+
+---
+
+## Major Cities Within Comanche County
+
+### Lawton
+- Population: ~93,000
+- County seat and largest city
+- Home to Fort Sill Army Base
+- Major retail and service center for southwest Oklahoma
 
 ### Cache
-- **Population:** 2,824 (2020 Census)¹¹
-- **ZIP Code:** 73527
-- **Characteristics:** Historic western community along US-62; Cache Wagon Wheel Museum attraction
-- **Service Notes:** Smaller town layout; agricultural areas surrounding; slower pace requires adjusted timing expectations
+- Population: ~2,800
+- Located west of Lawton
+- Growing bedroom community
+
+### Elgin
+- Population: ~3,200
+- Located north of Lawton
+- Mix of military families and long-time residents
 
 ### Fletcher
-- **Population:** 1,140 (2020 Census)
-- **ZIP Code:** 73541
-- **Characteristics:** Small community northeast of Lawton
-- **Service Notes:** Hosts annual Wild West Festival; primarily residential
+- Population: ~1,100
+- Small community northeast of Lawton
 
 ### Geronimo
-- **Population:** 1,225 (2020 Census)
-- **ZIP Code:** 73543
-- **Characteristics:** Located ~8 miles south of Lawton
-- **Service Notes:** Named after Apache leader; small-town atmosphere
+- Population: ~1,200
+- Historic community named after Apache leader
+- Located southeast of Lawton
 
-### Additional Communities
+### Indiahoma
+- Population: ~350
+- Small community near Wichita Mountains Wildlife Refuge
 
-| **Community** | **Population** | **Notes** |
-|--------------|----------------|-----------|
-| **Medicine Park** | 461 | Historic cobblestone resort town near Wichita Mountains |
-| **Chattanooga** | 458 | Small southern community |
-| **Sterling** | 777 | Northeastern town |
-| **Indiahoma** | 328 | Western community near Wichita Mountains Wildlife Refuge |
-| **Faxon** | 130 | Tiny southern settlement |
+### Chattanooga
+- Population: ~500
+- Rural community in northern Comanche County
 
----
-
-## Tribal Connection: Comanche Nation
-
-Comanche County holds deep historical and contemporary significance as the headquarters location of the **Comanche Nation**, a federally recognized tribe with over 17,000 enrolled members.
-
-### Tribal Headquarters
-
-| **Information** | **Details** |
-|-----------------|-------------|
-| **Physical Address** | 584 NW Bingo Rd, Lawton, OK 73507 |
-| **Mailing Address** | PO Box 908, Lawton, OK 73502 |
-| **Phone** | (580) 492-3240 |
-| **Website** | https://www.comanchenation.com |
-
-### Comanche Nation Tribal Court
-
-The Comanche Nation operates its own judicial system independent of state courts:
-
-| **Information** | **Details** |
-|-----------------|-------------|
-| **Address** | 584 NW Bingo Rd, Building 700, Lawton, OK 73507 |
-| **Phone** | (580) 492-3822 |
-| **Hours** | Monday–Friday, 8:00 AM – 5:00 PM |
-| **Email** | tribalcourt@comanchenation.com |
-
-**Jurisdiction:** The Tribal Court handles matters including adoptions, child support, custody, divorce, guardianships, probate, criminal cases (misdemeanor and felony), civil matters, and traffic violations involving tribal members or occurring on tribal lands.¹²
-
-> **Process Serving Note:** Service involving tribal members may require coordination with the Tribal Court, particularly for matters under concurrent jurisdiction. Tribal sovereignty considerations apply.
-
-### Tribal Services
-
-The Comanche Nation provides extensive services to tribal members in the Lawton area, including:
-
-- Health Services (405-273-5236)
-- Housing Authority (405-273-2833)
-- Children & Family Services
-- Education & Employment Programs
-- Transit Services (federally funded tribal transit)
+### Medicine Park
+- Population: ~400
+- Historic cobblestone resort town
+- Popular tourist destination at base of Wichita Mountains
+- Seasonal population fluctuations
 
 ---
 
-## Why Comanche County is Unique
+## Major Employers & Industries
 
-Process serving in Comanche County requires understanding three defining characteristics that distinguish it from other Oklahoma jurisdictions:
+### Military & Government
+- **Fort Sill Army Base:** 17,550+ employees (including military personnel)  
+  **Address:** Fort Sill, OK 73503  
+  **Note:** Headquarters of U.S. Army Field Artillery and Air Defense Artillery  
+  **Basic Training:** ~37,000 soldiers complete training annually  
+  **Economic Impact:** $1.75 billion annually
 
-### 1. **Military Community Dynamics**
+### Healthcare
+- **Comanche County Memorial Hospital:** 1,800-2,000 employees  
+  **Address:** 3401 W Gore Boulevard, Lawton, OK 73505  
+  **Phone:** (580) 250-6100  
+  **Note:** Largest civilian employer in the county
 
-With Fort Sill's significant presence, approximately 40% of the county's population has direct military connections.¹³ This creates:
+### Manufacturing
+- **Goodyear Tire & Rubber Company:** 2,400-2,559 employees  
+  **Address:** 2500 SE 14th Street, Lawton, OK 73501  
+  **Note:** Goodyear's largest tire production facility
 
-- Frequent relocations (PCS moves) requiring updated address verification
-- On-post housing access complexities
-- Unique service timing around military training schedules
-- Potential service member protections under the Servicemembers Civil Relief Act (SCRA)
+- **Bar-S Foods (Sigma):** 350 employees  
+  **Address:** Lawton, OK  
+  **Products:** Hot dogs, corn dogs
 
-### 2. **Tribal Sovereignty Considerations**
+- **Republic Paperboard:** 162+ employees  
+  **Address:** Lawton, OK  
+  **Products:** Sheetrock and building materials
 
-As the headquarters of the Comanche Nation and home to significant tribal populations, process servers must respect:
+- **IPEX (PVC Pipes):** 175 employees  
+  **Address:** Lawton, OK
 
-- Tribal court jurisdiction
-- Cultural sensitivities
-- Distinct legal frameworks applying to tribal lands and members
+### Tribal Government
+- **Comanche Nation of Oklahoma:** 1,500 employees  
+  **Headquarters:** 584 NW Bingo Road, Lawton, OK 73507  
+  **Operations:** Five casinos, Comanche Nation College, museum, various enterprises
 
-### 3. **Southwestern Oklahoma Hub**
+### Higher Education
+- **Cameron University:** 860 employees  
+  **Address:** 2800 W Gore Boulevard, Lawton, OK 73505  
+  **Enrollment:** ~4,500 students  
+  **Economic Impact:** $158 million annually
 
-Comanche County serves as the economic and service center for a multi-county region. Process servers often handle cases with:
+### Retail & Services
+- **Walmart Stores:** 1,100 employees (multiple locations)
+- **Serco, Inc.:** 975 employees (professional services)
+- **Swanson Services:** 460 employees (hospitality)
+- **GEO Group:** 450 employees (corrections)
 
-- Multiple county jurisdictions
-- Rural service requirements across vast distances
-- Cross-county witness and party locations
-
----
-
-## Legal Resources
-
-### County Resources
-
-- **Comanche County Website:** https://comanchecounty.us/
-- **OSCN Comanche County:** https://www.oscn.net/dockets/GetCourtInfo.aspx?db=comanche
-- **Comanche County Court Clerk:** (580) 355-4017
-
-### Municipal Resources
-
-- **City of Lawton:** https://www.lawtonok.gov/
-- **Lawton Police Department:** Non-emergency (580) 581-3270
-
-### Military Resources
-
-- **Fort Sill Official Website:** https://sill-www.army.mil/
-- **Fort Sill Visitor Welcome Center:** (580) 442-9602/9603
-- **Fort Sill Housing Services Office:** (580) 442-3778
-- **Corvias Military Living (Housing):** (580) 581-2144
-
-### Tribal Resources
-
-- **Comanche Nation:** https://www.comanchenation.com
-- **Comanche Nation Tribal Court:** (580) 492-3822
-- **Comanche Nation Police:** (580) 492-3260
-
-### Geographic Information
-
-- **Wichita Mountains Wildlife Refuge:** 59,020 acres of protected federal land
-- **Elevation:** Lawton sits at 1,112 feet above sea level
-- **Climate:** Semi-arid continental—hot summers, cold winters, significant spring tornado risk
+### Distribution
+- **PepsiCo:** 79 employees
+- **Fisher 59:** 75 employees
 
 ---
 
-## Sources
+## Major Hospitals
 
-¹ U.S. Census Bureau, "QuickFacts: Comanche County, Oklahoma," 2020 Census Data.
+### Comanche County Memorial Hospital
+**Address:** 3401 W Gore Boulevard, Lawton, OK 73505  
+**Phone:** (580) 250-6100  
+**Services:** Full-service hospital, Level III Trauma Center, emergency department
 
-² U.S. Census Bureau, "Comanche County, Oklahoma," Geographic Data, 2023.
+### Lawton-Fort Sill Regional Airport Medical Clinic
+**Address:** 3400 SW 11th Street, Lawton, OK 73501  
+**Services:** Occupational health, primary care
 
-³ Oklahoma Department of Transportation, "Comanche County Long Range Transportation Plan," 2019.
-
-⁴ Military Installations Guide, "Fort Sill, Oklahoma," Population and Installation Data, 2024.
-
-⁵ Corvias Property Management, "Fort Sill Housing Overview," 2024.
-
-⁶ Fort Sill Visitor Welcome Center, "Installation Access Procedures," https://sill.armymwr.com/programs/visitor-welcome-cent
-
-⁷ Torri Legal Services, "How to Serve Process to Members of the Military," November 2022.
-
-⁸ Corvias Military Living, "Fort Sill Neighborhoods and Housing," 2024.
-
-⁹ U.S. Census Bureau, "Lawton city, Oklahoma," 2020 Census Data.
-
-¹⁰ Roadside Thoughts, "Elgin, Oklahoma Census Data," 2020.
-
-¹¹ Roadside Thoughts, "Cache, Oklahoma Census Data," 2020.
-
-¹² Comanche Nation Tribal Court, "Services and Jurisdiction," https://www.comanchenation.com/government/page/tribal-court
-
-¹³ South Central Oklahoma Governments, "Comanche County 2040 Long Range Transportation Plan," Population Projections.
+### Indian Health Service Lawton Service Unit
+**Address:** Lawton area  
+**Services:** Healthcare for eligible Native American veterans and families
 
 ---
 
-*Last Updated: April 2025*
+## Universities & Colleges
+
+### Cameron University
+**Address:** 2800 W Gore Boulevard, Lawton, OK 73505  
+**Enrollment:** ~4,500 students  
+**Programs:** Associate, bachelor's, and master's degrees  
+**Note:** State-supported regional university
+
+### Comanche Nation College
+**Address:** 1608 SW 9th Street, Lawton, OK 73501  
+**Programs:** Associate degrees, tribal-specific programs  
+**Note:** Tribally controlled college serving Comanche Nation
+
+### Great Plains Technology Center
+**Address:** 4500 SW Lee Boulevard, Lawton, OK 73505  
+**Programs:** Career and technical education  
+**Note:** Workforce development for southwest Oklahoma
 
 ---
 
-## Related Locations
+## Adjacent Counties
 
-**Adjacent Counties:** [Caddo County](./caddo-county.md) | [Grady County](./grady-county.md) | [Stephens County](./stephens-county.md) | [Cotton County](./cotton-county.md) | [Kiowa County](./kiowa-county.md) | [Tillman County](./tillman-county.md)
-
-**Major Cities:** [Lawton](./lawton-process-server.md) *(coming soon)*
-
-**Nearby Military Installations:** Fort Sill
+| **County** | **Direction** | **County Seat** |
+|------------|---------------|-----------------|
+| Kiowa County | Northwest | Hobart |
+| Tillman County | Southwest | Frederick |
+| Cotton County | South | Walters |
+| Stephens County | Southeast | Duncan |
+| Grady County | Northeast | Chickasha |
+| Caddo County | North | Anadarko |
 
 ---
 
-*This page provides general information about process serving in Comanche County, Oklahoma. Procedures and regulations are subject to change. Always verify current requirements with the appropriate court clerk or legal authority.*
+## Drive Time from Tulsa
+
+**Distance:** Approximately 175-185 miles  
+**Drive Time:** 2 hours 45 minutes to 3 hours 15 minutes
+
+**Primary Routes:**
+- I-44 West (most direct route)
+- US-62 West to US-277 South
+
+**Traffic Considerations:**
+- I-44 West has limited services between Oklahoma City and Lawton
+- Fuel up before leaving OKC metro area
+- Fort Sill traffic can impact Lawton during shift changes
+
+---
+
+## Local Service Considerations
+
+### Fort Sill Military Base
+- **Access:** Military ID required for base entry
+- **Civilian Service:** Coordinate with Fort Sill Legal Office at (580) 442-2211
+- **Off-Base Housing:** Many military families live in Lawton, Cache, Elgin, and Geronimo
+- **PCS Season:** Peak moves May-June and December-January affect service addresses
+- **SCRA Protections:** Active duty military have special legal protections
+
+### Lawton Urban Area
+- **Downtown:** Mix of government offices and businesses
+- **Gore Boulevard:** Main commercial corridor
+- **NW Lawton:** Affluent residential area
+- **East Lawton:** Mix of residential and industrial
+
+### Rural Areas
+- **Cache Road (US-62):** Major east-west corridor
+- **Wichita Mountains Area:** Limited cell service in some areas
+- **Medicine Park:** Seasonal tourist traffic; cobblestone streets
+
+### Tribal Jurisdiction
+- **Comanche Nation:** Significant trust land throughout county
+- **Tribal Courts:** Separate jurisdiction for tribal members
+- **Service Considerations:** Verify tribal membership status for proper jurisdiction
+
+### Military Family Considerations
+- **Transient Population:** High turnover due to PCS moves
+- **Power of Attorney:** Many spouses have POA for service members
+- **Deployment:** Service members may be deployed; verify availability
+
+### Weather Considerations
+- **Summer Heat:** Extreme temperatures 100°F+ June-September
+- **Severe Weather:** Tornado risk March-June
+- **Wichita Mountains:** Sudden weather changes in mountain areas
+- **Winter:** Occasional ice storms; I-44 priority for clearing
+
+---
+
+## Frequently Asked Questions
+
+### How does Fort Sill affect process service in Comanche County?
+
+Fort Sill dominates the local economy and population. Many residents are military personnel or dependents. Service on-base requires coordination with the Fort Sill Legal Office. Most military families live off-base in Lawton and surrounding communities, making civilian service more practical.
+
+### What are the filing fees for civil cases in Comanche County?
+
+Small claims: $85.50  
+General civil: $175.50 and up  
+Family law: $195.50+  
+*Verify current fees with Court Clerk at (580) 355-4017*
+
+### Can I serve someone at Fort Sill Army Base?
+
+Serving active duty military on Fort Sill requires coordination with the base legal office. Civilian employees can often be served at off-base addresses. For on-base service, contact Fort Sill Legal at (580) 442-2211 for procedures and escort requirements.
+
+### How do I handle service for deployed military personnel?
+
+The Servicemembers Civil Relief Act (SCRA) provides protections for active duty military. If a service member is deployed, service may be delayed or made through their designated representative. We can assist with SCRA verification and alternative service methods.
+
+### What is the typical timeline for process service in Comanche County?
+
+Standard service: 3-5 business days  
+Rush service: 24-48 hours (additional fee)  
+Military considerations: May require additional time for verification
+
+### Are there tribal jurisdiction issues in Comanche County?
+
+Yes. The Comanche Nation has significant presence and trust land in the county. Tribal members may be subject to tribal court jurisdiction. We can help determine proper jurisdiction based on residency and tribal membership.
+
+### How does the military PCS season affect service?
+
+Permanent Change of Station (PCS) moves peak in May-June and December-January. Many military families move during these periods, so address verification is critical. We recommend skip tracing for military families to confirm current residence.
+
+### What if the person I'm serving works at Goodyear or another major employer?
+
+Workplace service is permitted under Oklahoma law. Large employers like Goodyear (2500 SE 14th Street) may have specific procedures for process service. We coordinate with HR or security departments when necessary.
+
+### Can I serve someone at Comanche Nation facilities?
+
+Tribal facilities require coordination with Comanche Nation administration. The tribal headquarters is at 584 NW Bingo Road. Service on tribal property should be arranged in advance when possible.
+
+### What documentation do I receive after service is completed?
+
+A notarized Affidavit of Service detailing date, time, location, manner of service, and recipient description. For military personnel, we note rank and unit when available.
+
+### Is same-day service available in Comanche County?
+
+Yes, for documents received before 10:00 AM, subject to address location and recipient availability. Additional fees apply for expedited service.
+
+### What makes Comanche County service different from other counties?
+
+The heavy military presence creates unique challenges including PCS-related address changes, deployment considerations, and base access restrictions. Our servers understand military culture and SCRA requirements.
+
+### How do I serve someone at Cameron University?
+
+Faculty and staff can be served at their offices. Students in campus housing require coordination with Residence Life. Off-campus students can be served at their local addresses.
+
+---
+
+## Related Counties
+
+- [Caddo County](./caddo-county.md)
+- [Cotton County](./cotton-county.md)
+- [Grady County](./grady-county.md)
+- [Kiowa County](./kiowa-county.md)
+- [Stephens County](./stephens-county.md)
+- [Tillman County](./tillman-county.md)
+
+---
+
+## About Our Comanche County Service
+
+**Lucky Duck Process Servers** understands the unique dynamics of Comanche County, from the military culture of Fort Sill to the rural reaches of the Wichita Mountains. Our servers are experienced with military service requirements, tribal jurisdiction considerations, and the specific challenges of southwest Oklahoma's legal landscape.
+
+**Contact us today:**  
+📞 (539) 367-6832  
+🌐 [LuckyDuckingProcessService.com](https://luckyduckingprocessservice.com)  
+📧 info@luckyduckingprocessservice.com
+
+---
+
+*Last Updated: January 2025*  
+*License: PSL-2026-2*  
+*Owner: Joseph Iannazzi*
