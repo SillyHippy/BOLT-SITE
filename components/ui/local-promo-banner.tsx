@@ -31,9 +31,9 @@ export default function LocalPromoBanner({ zips, endDate = "April 30, 2026" }: L
   const offerSchema = {
     "@context": "https://schema.org",
     "@type": "Offer",
-    "name": "30% Off Process Serving",
+    "name": "25% Off Process Serving",
     "description": `Limited time discount on process serving for ZIP codes ${zips.join(", ")}`,
-    "price": "42.00",
+    "price": "70.00",
     "priceCurrency": "USD",
     "priceValidUntil": endDate,
     "availability": "https://schema.org/InStock",
@@ -53,7 +53,7 @@ export default function LocalPromoBanner({ zips, endDate = "April 30, 2026" }: L
       "url": "https://justlegalsolutions.org",
       "telephone": "+15393676832",
       "image": "https://justlegalsolutions.org/images/jls-logo.webp",
-      "priceRange": "$30-$200",
+      "priceRange": "$70-$200",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "564 E 138th PL",
@@ -80,13 +80,13 @@ export default function LocalPromoBanner({ zips, endDate = "April 30, 2026" }: L
         >
           <X className="h-4 w-4 md:h-5 md:w-5" />
         </button>
-        
+
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row items-center justify-between gap-3 md:gap-4">
             <div className="flex-1 text-center md:text-left">
               <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-2 md:gap-3 mb-2">
                 <div className="bg-yellow-400 text-blue-900 px-3 py-1 md:px-4 md:py-2 rounded-full font-black text-lg md:text-2xl shadow-lg">
-                  30% OFF
+                  25% OFF
                 </div>
                 <div className="flex items-center gap-1 md:gap-2">
                   <BadgePercent className="h-4 w-4 md:h-6 md:w-6" />
@@ -97,14 +97,14 @@ export default function LocalPromoBanner({ zips, endDate = "April 30, 2026" }: L
                 Service addresses in <strong>ZIP {zips.join(', ')}</strong> qualify for discounted rate
               </p>
               <p className="text-blue-200 text-xs flex flex-wrap items-center justify-center md:justify-start gap-2">
-                <span>Standard service just <strong>$42</strong> (regularly $60)</span>
+                <span>Standard: <strong className="text-white">$52.50</strong> • Rush: <strong className="text-white">$87.75</strong> • Same-Day: <strong className="text-white">$131.25</strong></span>
                 <span className="inline-flex items-center gap-1 bg-red-600 px-2 py-0.5 md:py-1 rounded-full text-white font-bold text-xs">
                   <Clock className="h-3 w-3" />
                   {daysRemaining} days left!
                 </span>
               </p>
             </div>
-          
+
             <div className="flex flex-col sm:flex-row gap-2 md:gap-3 w-full md:w-auto">
               <Link
                 href="/contact"

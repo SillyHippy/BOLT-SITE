@@ -200,6 +200,12 @@ function generateSitemap() {
     '/courier-services-tulsa',
     '/weekend-emergency',
     '/virtual-assistant-services',
+    '/courthouse-filing-services',
+    '/gps-tracked-process-serving',
+    '/process-serving-for-debt-collection',
+    '/process-serving-for-insurance-companies',
+    '/process-serving-for-property-managers',
+    '/rush-vs-standard-vs-same-day-service',
 
     // Notary Service Pages (priority 0.9)
     '/notary',
@@ -210,6 +216,7 @@ function generateSitemap() {
     '/remote-online-notary',
     '/hospital-notary',
     '/real-estate-notary',
+    '/immigration-document-notary-oklahoma',
     '/notary/tulsa-county',
     '/notary/creek-county',
     '/wedding-officiant',
@@ -235,6 +242,11 @@ function generateSitemap() {
     '/family-law-service-guide-tulsa',
     '/high-profile-service-protocols-tulsa',
     '/serving-legal-papers-on-tribal-land',
+    '/guides',
+    '/guides/attorney-guide',
+    '/guides/mcgirt-v-oklahoma',
+    '/guides/military-base-service',
+    '/guides/rural-oklahoma',
 
     // Blog / Informational Content Pages
     '/how-much-does-process-server-cost',
