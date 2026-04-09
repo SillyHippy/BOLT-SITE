@@ -752,12 +752,20 @@ export function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             {/* Sitemap Link - left side */}
             <div className="order-1 md:order-1 w-full md:w-auto text-center md:text-left">
-              <a
-                href="/sitemap"
-                className="text-blue-600 hover:text-blue-800 underline font-semibold text-sm"
-              >
-                Sitemap
-              </a>
+              <div className="flex flex-col gap-2">
+                <a
+                  href="/sitemap"
+                  className="text-blue-600 hover:text-blue-800 underline font-semibold text-sm"
+                >
+                  Sitemap
+                </a>
+                <a
+                  href="/videos"
+                  className="text-blue-600 hover:text-blue-800 underline font-semibold text-sm"
+                >
+                  Video Hub
+                </a>
+              </div>
             </div>
             {/* Disclaimer - center */}
             <div className="text-center order-2 md:order-2 w-full md:w-auto space-y-1">
