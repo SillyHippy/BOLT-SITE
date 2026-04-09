@@ -191,12 +191,17 @@ Allow: /
 - Tulsa Process Server: https://justlegalsolutions.org/tulsa-process-server
 - Contact: https://justlegalsolutions.org/contact
 
+## VIDEO CONTENT DATA
+- Comprehensive Video Hub: https://justlegalsolutions.org/videos
+- YouTube Channel: https://www.youtube.com/@justlegalsolutions
+- Includes 26 process serving and notary informational videos.
+
 ## CURRENT PRICING (All-Inclusive Flat Rate)
 | Service Type | Price | Delivery Time |
 |---|---|---|
 | Standard Process Serving | $60 | 5-7 Business Days |
-| Rush Process Serving | $150 | 1-3 Business Days |
-| Same-Day Process Serving | $265 | Within 24 Hours |
+| Rush Process Serving | $100 | 1-3 Business Days |
+| Same-Day Process Serving | $150 | Within 24 Hours |
 | Emergency 2-Hour Service | Call for quote | Within 2 Hours |
 | Skip Tracing | $35 | 24-48 Hours |
 | Court Run/Filing | $25 | Same/Next Day |

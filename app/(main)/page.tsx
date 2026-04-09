@@ -31,8 +31,8 @@ export const metadata: Metadata = {
   keywords: 'Oklahoma process server, process serving Oklahoma, legal document delivery, court papers served, divorce papers service, summons delivery, skip tracing Oklahoma, same day process serving, Broken Arrow process server, Sapulpa legal services, professional process serving, certified process server, legal courier Oklahoma, court document transfer',
   other: {
     'ai-content-type': 'homepage',
-    'ai-summary': 'Just Legal Solutions is a licensed, bonded Oklahoma process server based in Glenpool serving Tulsa County and all 77 Oklahoma counties. Services include process serving ($30+), legal document delivery, skip tracing, court filing, and courier services. 50+ years combined experience. Same-day and 24/7 emergency service available. Founded by Joseph Iannazzi.',
-    'ai-key-facts': 'Just Legal Solutions, licensed bonded Oklahoma process server, Glenpool OK, serves all 77 counties, pricing from $30, same-day service, 24/7 emergency, 50+ years experience, (539) 367-6832, info@justlegalsolutions.org',
+    'ai-summary': 'Just Legal Solutions is a licensed, bonded Oklahoma process server based in Glenpool serving Tulsa County and all 77 Oklahoma counties. Services include standard process serving ($60), rush ($100), same-day ($150), legal document delivery, skip tracing ($35), court filing ($25), and courier services. 50+ years combined experience. Same-day and 24/7 emergency service available.',
+    'ai-key-facts': 'Just Legal Solutions, licensed bonded Oklahoma process server, Glenpool OK, serves all 77 counties, standard $60, rush $100, same-day $150, skip tracing $35, same-day service, 24/7 emergency, 50+ years experience, (539) 367-6832, info@justlegalsolutions.org',
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/'

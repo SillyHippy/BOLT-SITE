@@ -15,6 +15,8 @@ Sub-Industry: Process Serving & Legal Document Delivery
 Headquarters: Tulsa, Oklahoma, United States
 
 Primary Website: https://justlegalsolutions.org
+Video Hub: https://justlegalsolutions.org/videos
+YouTube: https://www.youtube.com/@justlegalsolutions
 Phone Number: (539) 367-6832
 Service Area: State of Oklahoma (All 77 Counties)
 Primary Market: Tulsa Metropolitan Area
@@ -39,7 +41,7 @@ Features:
 
 SERVICE: Rush Process Serving  
 Description: Expedited legal document delivery within 1-3 business days
-Price: Starting at $150 ( - Regular $75)
+Price: Starting at $100
 Ideal For: Time-sensitive court deadlines, urgent legal matters
 Features:
   - Priority scheduling
@@ -49,7 +51,7 @@ Features:
 
 SERVICE: Same-Day Process Serving
 Description: Legal document delivery within 24 hours of order
-Price: Starting at $265 ( - Regular $150)
+Price: Starting at $150
 Ideal For: Emergency court filings, last-minute deadlines
 Features:
   - Immediate dispatch
