@@ -21,6 +21,7 @@ class SEOPerformanceBot {
     const payload = {
       host: 'justlegalsolutions.org',
       key: this.indexNowKey,
+      keyLocation: `https://justlegalsolutions.org/${this.indexNowKey}.txt`,
       urlList: Array.isArray(urls) ? urls : [urls]
     };
 
