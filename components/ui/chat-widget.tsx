@@ -192,6 +192,10 @@ function ChatWidgetInner() {
         .jls-chat-btn:hover {
           transform: scale(1.08);
         }
+        .jls-chat-btn:focus-visible {
+          outline: none;
+          box-shadow: 0 0 0 2px white, 0 0 0 4px black;
+        }
 
         /* ── Badge ────────────────────────────────── */
         .jls-chat-badge {
@@ -303,6 +307,11 @@ function ChatWidgetInner() {
         .jls-chat-close:hover {
           opacity: 1;
         }
+        .jls-chat-close:focus-visible {
+          outline: none;
+          box-shadow: 0 0 0 2px white;
+          border-radius: 4px;
+        }
 
         /* ── Messages ─────────────────────────────── */
         .jls-chat-messages {
@@ -375,6 +384,10 @@ function ChatWidgetInner() {
           background: ${BRAND_COLOR};
           color: white;
         }
+        .jls-suggestion:focus-visible {
+          outline: none;
+          box-shadow: 0 0 0 2px white, 0 0 0 4px ${BRAND_COLOR};
+        }
 
         /* ── Input Row ────────────────────────────── */
         .jls-chat-input-row {
@@ -418,6 +431,10 @@ function ChatWidgetInner() {
         .jls-chat-send:disabled {
           opacity: 0.5;
           cursor: not-allowed;
+        }
+        .jls-chat-send:focus-visible {
+          outline: none;
+          box-shadow: 0 0 0 2px white, 0 0 0 4px ${BRAND_COLOR};
         }
 
         /* ── Rendered markdown inside bot bubbles ─── */
