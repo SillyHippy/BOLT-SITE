@@ -109,7 +109,7 @@ export default function PricingPage() {
             {
               name: "Standard Process Service",
               description: "First service attempt within 10 business days",
-              price: "$70",
+              price: "$60",
               priceCurrency: "USD",
               itemOffered: {
                 name: "Standard Process Service",
@@ -119,7 +119,7 @@ export default function PricingPage() {
             {
               name: "Rush Process Service",
               description: "Service attempt within 72 hours or sooner",
-              price: "$117",
+              price: "$100",
               priceCurrency: "USD",
               itemOffered: {
                 name: "Rush Process Service",
@@ -129,7 +129,7 @@ export default function PricingPage() {
             {
               name: "Same-Day Rush Service",
               description: "Emergency same-day service available",
-              price: "$175",
+              price: "$150",
               priceCurrency: "USD",
               itemOffered: {
                 name: "Same-Day Rush Service",
@@ -181,7 +181,7 @@ export default function PricingPage() {
         <section className="pt-24 pb-12 px-4 bg-gradient-to-br from-slate-50 via-blue-50 to-slate-100">
           <div className="max-w-7xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-blue-900 mb-4">Process Server Pricing</h1>
-            <p className="text-lg text-gray-700 mb-2"><strong>Process server costs in Oklahoma range from $30 for a single attempt to $265 for 2-hour emergency service.</strong> Standard service (up to 3 attempts) starts at $70. All pricing below is transparent — no hidden fees.</p>
+            <p className="text-lg text-gray-700 mb-2"><strong>Process server costs in Oklahoma range from $30 for a single attempt to $265 for 2-hour emergency service.</strong> Standard service (up to 3 attempts) starts at $60. All pricing below is transparent — no hidden fees.</p>
             <p className="text-xl text-gray-600 mb-6">Transparent, competitive rates for Oklahoma legal services</p>
 
             {/* Temporary Fuel Adjustment Banner */}
@@ -282,7 +282,7 @@ export default function PricingPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-gray-900">Standard Service</h3>
                 <div className="mb-3">
-                  <p className="text-3xl font-bold text-green-600">$70</p>
+                  <p className="text-3xl font-bold text-green-600">$60</p>
                   <p className="text-xs text-gray-500 mb-2">starting price</p>
                 </div>
                 <p className="text-gray-600 mb-3 text-sm">First Service Attempt Within 10 Business Days (usually sooner).</p>
@@ -296,7 +296,7 @@ export default function PricingPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-gray-900">Rush Service</h3>
                 <div className="mb-3">
-                  <p className="text-3xl font-bold text-green-600">$117</p>
+                  <p className="text-3xl font-bold text-green-600">$100</p>
                   <p className="text-xs text-gray-500 mb-2">starting price</p>
                 </div>
                 <p className="text-gray-600 mb-3 text-sm">A JLS Agent Will Attempt Service Within 72 Hours or Sooner.</p>
@@ -311,7 +311,7 @@ export default function PricingPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-blue-600">Same-Day Rush</h3>
                 <div className="mb-3">
-                  <p className="text-3xl font-bold text-green-600">$175</p>
+                  <p className="text-3xl font-bold text-green-600">$150</p>
                   <p className="text-xs text-gray-500 mb-2">starting price</p>
                 </div>
                 <p className="text-gray-600 mb-3 text-sm">A JLS Agent Will Attempt Service Within 24 Hours or Sooner.</p>
@@ -325,7 +325,7 @@ export default function PricingPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-gray-900">Triple-Attempt Rush</h3>
                 <div className="mb-3">
-                  <p className="text-3xl font-bold text-green-600">$234</p>
+                  <p className="text-3xl font-bold text-green-600">$200</p>
                   <p className="text-xs text-gray-500 mb-2">starting price</p>
                 </div>
                 <p className="text-gray-600 mb-3 text-sm">Guaranteed 3 service attempts within 72 hours with detailed reporting.</p>
@@ -361,13 +361,13 @@ export default function PricingPage() {
             <div className="max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="bg-gray-50 p-8 rounded-xl border border-gray-200 text-center hover:shadow-lg hover:border-blue-200 transition-all duration-300 hover:-translate-y-1">
                 <h3 className="text-2xl font-bold mb-2 text-gray-900">Standard Courier</h3>
-                <p className="text-4xl font-bold mb-4 text-gray-800">$70</p>
+                <p className="text-4xl font-bold mb-4 text-gray-800">$60</p>
                 <p className="text-xs text-gray-500 mb-2">starting price</p>
                 <p className="text-gray-600">Delivery within the same business day or next morning for non-urgent items.</p>
               </div>
               <div className="bg-gray-50 p-8 rounded-xl border border-gray-200 text-center hover:shadow-lg hover:border-blue-200 transition-all duration-300 hover:-translate-y-1">
                 <h3 className="text-2xl font-bold mb-2 text-gray-900">Rush Courier</h3>
-                <p className="text-4xl font-bold mb-4 text-gray-800">$117</p>
+                <p className="text-4xl font-bold mb-4 text-gray-800">$100</p>
                 <p className="text-xs text-gray-500 mb-2">starting price</p>
                 <p className="text-gray-600">Priority delivery guaranteed within 2-3 hours for time-sensitive documents.</p>
               </div>
@@ -420,7 +420,7 @@ export default function PricingPage() {
                   <h3 className="text-xl font-bold mb-3 text-green-600">Mobile Notary</h3>
                   <div className="mb-3">
                     <p className="text-3xl font-bold text-green-600">Starting at $25/act</p>
-                    <p className="text-xs text-gray-500 mb-2">travel fees vary by distance — fuel adjustment applied</p>
+                    <p className="text-xs text-gray-500 mb-2">travel fees vary by distance</p>
                   </div>
                   <p className="text-gray-600 mb-3 text-sm">We come to you — home, office, hospital, or anywhere in Oklahoma.</p>
                   <ul className="text-sm text-gray-600 space-y-1.5 mb-4">
@@ -613,7 +613,7 @@ export default function PricingPage() {
             <div className="space-y-6">
               <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200 hover:border-blue-300 transition-colors">
                 <h3 className="text-lg font-bold mb-3 text-blue-900">What is the cheapest process server option in Oklahoma?</h3>
-                <p className="text-gray-600 leading-relaxed">Our Standard Service starts at $70 for Tulsa County and nearby areas (temporarily adjusted for fuel costs). For budget-conscious clients, we also offer a Single Serve Attempt option starting as low as $30. Contact us to discuss your specific needs and find the most cost-effective solution.</p>
+                <p className="text-gray-600 leading-relaxed">Our Standard Service starts at just $60 for Tulsa County and nearby areas. For budget-conscious clients, we also offer a Single Serve Attempt option starting as low as $30. Contact us to discuss your specific needs and find the most cost-effective solution.</p>
               </div>
               <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200 hover:border-blue-300 transition-colors">
                 <h3 className="text-lg font-bold mb-3 text-blue-900">Are there any hidden fees?</h3>
