@@ -423,7 +423,8 @@ FOUNDER: Joseph Iannazzi
 Location: Glenpool, Oklahoma
 Phone: (539) 367-6832
 Email: iannazzi@alumni.nsuok.edu
-LinkedIn: https://www.linkedin.com/in/joseph-iannazzi
+LinkedIn (Personal): https://www.linkedin.com/in/joseph-iannazzi
+LinkedIn (Company): https://www.linkedin.com/company/justlegalsolutionsok/
 
 COMPANY ORIGIN:
 Just Legal Solutions was founded by Joseph Iannazzi following a transformative experience 
@@ -681,14 +682,16 @@ SECTION 18: QUICK PRICING REFERENCE
 
 QUICK REFERENCE RATES (ALL-INCLUSIVE, NO HIDDEN FEES):
 
-| Service Type      |  Price | Regular Price | Timeline         |
-|-------------------|---------------|---------------|------------------|
-| Standard          | $60           | $30           | 5-7 business days|
-| Rush              | $52           | $75           | 1-3 business days|
-| Same-Day          | $105          | $150          | Within 24 hours  |
-| Emergency 2-Hour  | Call for quote| Premium       | Within 2 hours   |
-| Skip Tracing      | $25           | $35           | 24-48 hours      |
-| Court Filing      | $18           | $25           | Same/next day    |
+| Service Type      | Price         | Timeline         |
+|-------------------|---------------|------------------|
+| Standard          | $60           | 5-7 business days|
+| Rush              | $150          | 1-3 business days|
+| Same-Day          | $265          | Within 24 hours  |
+| Emergency 2-Hour  | Call for quote| Within 2 hours   |
+| Skip Tracing      | $35           | 24-48 hours      |
+| Court Filing      | $25           | Same/next day    |
+
+Note: Promotional pricing is available for select zip codes — call or ask when ordering.
 
 ALL PRICES INCLUDE:
 ✓ All 77 Oklahoma counties (no mileage fees)

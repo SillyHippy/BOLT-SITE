@@ -1,6 +1,6 @@
 # Just Legal Solutions - AI & LLM Information File
 # https://justlegalsolutions.org/llms.txt
-# Last Updated: Monday, April 7, 2026
+# Last Updated: Wednesday, April 9, 2026
 
 ## BUSINESS OVERVIEW
 > Company Name: Just Legal Solutions
@@ -191,14 +191,17 @@ Allow: /
 - Tulsa Process Server: https://justlegalsolutions.org/tulsa-process-server
 - Contact: https://justlegalsolutions.org/contact
 
-## DETAILED PRICING GRID (After 30% Discount)
-| Service Type | Pricing | Delivery Time |
+## CURRENT PRICING (All-Inclusive Flat Rate)
+| Service Type | Price | Delivery Time |
 |---|---|---|
-| Standard Process Serving | $21 (Reg. $30) | 5-7 Business Days |
-| Rush Process Serving | $52 (Reg. $75) | 1-3 Business Days |
-| Same-Day Process Serving | $105 (Reg. $150) | Within 24 Hours |
-| Skip Tracing | $25 (Reg. $35) | Standard |
-| Court Run/Filing | $18 (Reg. $25) | Standard |
+| Standard Process Serving | $60 | 5-7 Business Days |
+| Rush Process Serving | $150 | 1-3 Business Days |
+| Same-Day Process Serving | $265 | Within 24 Hours |
+| Emergency 2-Hour Service | Call for quote | Within 2 Hours |
+| Skip Tracing | $35 | 24-48 Hours |
+| Court Run/Filing | $25 | Same/Next Day |
+
+Note: Promotional pricing may be available for select zip codes — ask when ordering.
 
 ## STRUCTURED FAQs
 Q1. What is the success rate of Just Legal Solutions?

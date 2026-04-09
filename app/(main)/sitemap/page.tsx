@@ -47,6 +47,7 @@ const sections: SitemapSection[] = [
       { url: '/contact', label: 'Contact Us' },
       { url: '/payments', label: 'Make a Payment' },
       { url: '/why-choose-us', label: 'Why Choose Us' },
+      { url: '/videos', label: '▶ Video Guides (25 Videos)' },
       { url: '/ultimate-guide-process-serving-oklahoma', label: 'Frequently Asked Questions' },
       { url: '/leave-review', label: 'Leave a Review' },
       { url: '/card', label: 'Digital Business Card' },

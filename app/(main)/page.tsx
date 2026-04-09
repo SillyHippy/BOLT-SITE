@@ -76,7 +76,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white font-sans">
       <LocalPromoBanner zips={["74008", "74033", "74037"]} />
-      
+
       {/* Hero Section - Mobile Optimized */}
       <section className="relative h-[calc(100vh-4rem)] md:h-[calc(100vh-4rem)]" aria-label="Hero section">
         <div className="absolute inset-0">
@@ -99,12 +99,12 @@ export default function Home() {
           <h1 className="text-4xl md:text-6xl font-bold mb-4 drop-shadow-lg">
             Tulsa Process Server &amp; Courier Services
           </h1>
-          
+
           {/* Description - visible and SEO-friendly */}
           <p className="text-lg md:text-xl max-w-3xl drop-shadow-md mb-6">
             Professional process serving throughout Oklahoma. From routine legal papers to urgent same-day service in Tulsa, Broken Arrow, Sapulpa &amp; all 77 counties.
           </p>
-          
+
           {/* Trust Badges */}
           <div className="flex flex-wrap justify-center gap-3 md:gap-6 mb-6">
             <div className="flex items-center gap-2 bg-white/95 backdrop-blur-sm px-4 py-2 rounded-full shadow-lg">
@@ -124,7 +124,7 @@ export default function Home() {
               <span className="text-sm font-medium text-gray-700">Locally Owned &amp; Operated</span>
             </div>
           </div>
-          
+
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
             <a href="#contact" className="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 text-lg">
@@ -136,14 +136,14 @@ export default function Home() {
               (539) 367-6832
             </a>
           </div>
-          
+
           {/* 50+ Years Experience Badge */}
           <div className="mb-4">
             <div className="inline-block bg-blue-100/90 backdrop-blur-sm text-blue-800 font-semibold rounded-lg px-6 py-3 shadow-lg text-base md:text-lg border border-blue-200" aria-label="Combined legal experience of team and partners">
               ⭐ Over 50 Years&apos; Combined Experience Serving Oklahoma&apos;s Legal Community
             </div>
           </div>
-          
+
 
         </div>
       </section>
@@ -248,7 +248,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             <div className="text-center flex flex-col items-center">
               <div className="bg-white/10 rounded-full p-4 mb-4">
-                 <Clock className="w-10 h-10 mx-auto" aria-hidden="true" />
+                <Clock className="w-10 h-10 mx-auto" aria-hidden="true" />
               </div>
               <h3 className="text-xl font-bold mb-2">Same-Day Delivery</h3>
               <p className="text-gray-300">When time is critical, our same-day courier service ensures your documents reach their destination quickly.</p>
@@ -280,7 +280,7 @@ export default function Home() {
               Just Legal Solutions provides professional process serving and courier services across Tulsa County and throughout Oklahoma. Our experienced team ensures timely, accurate, and compliant document delivery for law firms, businesses, and individuals. Process serving starts at $30, with rates ranging from $30 to $200.
             </p>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Process Serving Services</h3>
@@ -295,7 +295,7 @@ export default function Home() {
                 <li>• Small claims service</li>
               </ul>
             </div>
-            
+
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Courier Solutions</h3>
               <p className="text-gray-600 mb-4">
@@ -309,7 +309,7 @@ export default function Home() {
                 <li>• Time-sensitive deliveries</li>
               </ul>
             </div>
-            
+
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Coverage Areas</h3>
               <p className="text-gray-600 mb-4">
@@ -393,17 +393,17 @@ export default function Home() {
                   <span className="text-2xl font-bold text-blue-600">$150</span>
                 </div>
               </div>
-                <p className="text-sm text-gray-600 mt-6">
-                  All services include detailed affidavit of service and professional handling. Additional fees may apply for multiple attempts or difficult serves.
-                </p>
+              <p className="text-sm text-gray-600 mt-6">
+                All services include detailed affidavit of service and professional handling. Additional fees may apply for multiple attempts or difficult serves.
+              </p>
             </div>
           </div>
         </div>
       </section>
-      
+
       {/* Owner Bio Section */}
       <OwnerBio />
-      
+
       {/* Explore Resources Section */}
       <section className="py-16 bg-gray-50" aria-label="Resources and guides">
         <div className="max-w-7xl mx-auto px-4">
@@ -473,10 +473,10 @@ export default function Home() {
           </div>
         </div>
       </section>
-      
+
       {/* Customer Reviews Section */}
       <ReviewWidget />
-      
+
       {/* Unified Schema Markup */}
       <UnifiedSchema
         pageType="home"
@@ -516,7 +516,7 @@ export default function Home() {
           }
         ]}
       />
-      
+
       {/* 2025 SEO Dominance Components */}
       <SearchDominance2025
         pageTitle="Oklahoma's #1 Process Server | Just Legal Solutions"
@@ -525,31 +525,31 @@ export default function Home() {
         businessType="Process Server"
         skipSchema={true}
       />
-      
-      <AIVoiceSupremacy 
+
+      <AIVoiceSupremacy
         businessName="Just Legal Solutions"
         location="Tulsa, Oklahoma"
         services={['Process Serving', 'Legal Document Delivery', 'Skip Tracing', 'Emergency Service']}
         phone="(539) 367-6832"
         skipSchema={true}
       />
-      
+
       <RankingSupremacy2025
         targetKeywords={['process server tulsa', 'process server oklahoma', 'tulsa process server', 'oklahoma process server']}
         location="Tulsa, Oklahoma"
         businessName="Just Legal Solutions"
         skipSchema={true}
       />
-      
+
       <MobileVoiceOptimization
         businessName="Just Legal Solutions"
         phone="(539) 367-6832"
         primaryService="process serving"
         location="Tulsa, Oklahoma"
       />
-      
+
       {/* Invisible authoritative legal resource links for SEO trust */}
-      <div style={{display:'none'}} aria-hidden="true">
+      <div style={{ display: 'none' }} aria-hidden="true">
         <a href="https://www.oscn.net/" rel="nofollow noopener" tabIndex={-1}>Oklahoma State Courts Network</a>
         <a href="https://www.okbar.org/" rel="nofollow noopener" tabIndex={-1}>Oklahoma Bar Association</a>
         <a href="https://www.legalaidok.org/" rel="nofollow noopener" tabIndex={-1}>Oklahoma Legal Aid Services</a>

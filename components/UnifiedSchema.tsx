@@ -197,7 +197,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
       telephone: props.telephone || '+15393676832',
       sameAs: [
         'https://www.facebook.com/justlegalsolutions',
-        'https://www.linkedin.com/company/justlegalsolutions',
+        'https://www.linkedin.com/company/justlegalsolutionsok/',
         'https://twitter.com/justlegalsol'
       ]
     } : {
@@ -213,7 +213,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
       telephone: '+15393676832',
       sameAs: [
         'https://www.facebook.com/justlegalsolutions',
-        'https://www.linkedin.com/company/justlegalsolutions',
+        'https://www.linkedin.com/company/justlegalsolutionsok/',
         'https://twitter.com/justlegalsol'
       ]
     },
@@ -230,8 +230,8 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     dateModified,
     faqItems = [],
     author = {
-      name: 'JLS Legal Solutions',
-      url: 'https://justlegalsolutions.org/about'
+      name: 'Joseph Iannazzi',
+      url: 'https://www.linkedin.com/in/joseph-iannazzi'
     },
     articleDetails,
     location,
@@ -258,7 +258,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
   } = props;
   // Base Organization schema that will be included in all pages
   const organizationSchema: any = {
-    '@type': (pageType === 'location' || pageType === 'home' || pageType === 'service') ? 
+    '@type': (pageType === 'location' || pageType === 'home' || pageType === 'service') ?
       ['Organization', 'LocalBusiness', 'ProfessionalService'] : ['Organization', 'LocalBusiness'],
     '@id': 'https://justlegalsolutions.org/#organization',
     name: organization.name,
@@ -326,13 +326,14 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     ],
     sameAs: organization.sameAs || [
       'https://www.facebook.com/justlegalsolutions',
-      'https://www.linkedin.com/company/justlegalsolutions',
+      'https://www.linkedin.com/company/justlegalsolutionsok/',
       'https://www.yelp.com/biz/just-legal-solutions-glenpool',
       'https://www.yellowpages.com/glenpool-ok/mip/just-legal-solutions-606085805',
       'https://www.manta.com/c/m1x7pgf/just-legal-solutions',
       'https://www.crunchbase.com/organization/just-legal-solutions',
       'https://www.alignable.com/glenpool-ok/just-legal-solutions',
-      'https://clutch.co/profile/just-legal-solutions'
+      'https://clutch.co/profile/just-legal-solutions',
+      'https://www.youtube.com/@justlegalsolutions'
     ],
     memberOf: {
       '@type': 'Organization',
@@ -360,8 +361,8 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
       '@type': 'ListItem',
       position: index + 1,
       name: item.name,
-      item: (item.item || item.url)?.startsWith('http') 
-        ? (item.item || item.url) 
+      item: (item.item || item.url)?.startsWith('http')
+        ? (item.item || item.url)
         : `https://justlegalsolutions.org${item.item || item.url}`
     }))
   } : null;
@@ -390,19 +391,23 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     provider: {
       '@id': 'https://justlegalsolutions.org/#organization'
     },
-    ...(serviceDetails.price && { offers: {
-      '@type': 'Offer',
-      price: serviceDetails.price,
-      priceCurrency: 'USD',
-      image: 'https://justlegalsolutions.org/images/jls-logo.webp',
-      seller: {
-        '@id': 'https://justlegalsolutions.org/#organization'
+    ...(serviceDetails.price && {
+      offers: {
+        '@type': 'Offer',
+        price: serviceDetails.price,
+        priceCurrency: 'USD',
+        image: 'https://justlegalsolutions.org/images/jls-logo.webp',
+        seller: {
+          '@id': 'https://justlegalsolutions.org/#organization'
+        }
       }
-    }}),
-    ...(serviceDetails.areaServed && { areaServed: serviceDetails.areaServed.map(area => ({
-      '@type': 'City',
-      name: area
-    })) })
+    }),
+    ...(serviceDetails.areaServed && {
+      areaServed: serviceDetails.areaServed.map(area => ({
+        '@type': 'City',
+        name: area
+      }))
+    })
   } : null;
 
   // Article schema
@@ -420,7 +425,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
         caption: 'Just Legal Solutions - Professional Process Server in Oklahoma'
       },
       {
-        '@type': 'ImageObject', 
+        '@type': 'ImageObject',
         url: 'https://justlegalsolutions.org/images/jls-logo.webp',
         width: 800,
         height: 600,
@@ -442,86 +447,86 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     publisher: {
       '@id': 'https://justlegalsolutions.org/#organization'
     },
-    datePublished: articleDetails?.datePublished ? 
-      (articleDetails.datePublished.includes('T') ? articleDetails.datePublished : `${articleDetails.datePublished}T12:00:00-05:00`) : 
+    datePublished: articleDetails?.datePublished ?
+      (articleDetails.datePublished.includes('T') ? articleDetails.datePublished : `${articleDetails.datePublished}T12:00:00-05:00`) :
       (datePublished ? (datePublished.includes('T') ? datePublished : `${datePublished}T12:00:00-05:00`) : `${new Date().toISOString().split('T')[0]}T12:00:00-05:00`),
-    dateModified: articleDetails?.dateModified ? 
-      (articleDetails.dateModified.includes('T') ? articleDetails.dateModified : `${articleDetails.dateModified}T12:00:00-05:00`) : 
-      (dateModified ? (dateModified.includes('T') ? dateModified : `${dateModified}T12:00:00-05:00`) : 
-       (datePublished ? (datePublished.includes('T') ? datePublished : `${datePublished}T12:00:00-05:00`) : `${new Date().toISOString().split('T')[0]}T12:00:00-05:00`)),
+    dateModified: articleDetails?.dateModified ?
+      (articleDetails.dateModified.includes('T') ? articleDetails.dateModified : `${articleDetails.dateModified}T12:00:00-05:00`) :
+      (dateModified ? (dateModified.includes('T') ? dateModified : `${dateModified}T12:00:00-05:00`) :
+        (datePublished ? (datePublished.includes('T') ? datePublished : `${datePublished}T12:00:00-05:00`) : `${new Date().toISOString().split('T')[0]}T12:00:00-05:00`)),
     mainEntityOfPage: {
       '@type': 'WebPage',
       '@id': url
     }
   } : null;
 
-    // Enhanced Organization schema with 2025 SEO dominance features
-    if (organization) {
-      // Add enhanced organization properties
-      if (organization.legalName) (organizationSchema as any).legalName = organization.legalName;
-      if (organization.description) (organizationSchema as any).description = organization.description;
-      if (organization.email) (organizationSchema as any).email = organization.email;
-      
-      // 2025 SEO Dominance Features (Enhanced for AI)
-      (organizationSchema as any).foundingDate = '2025-03-01';
-      (organizationSchema as any).slogan = 'Oklahoma\'s #1 Process Server - Professional, Fast, Reliable';
-      (organizationSchema as any).description = 'Licensed and bonded Oklahoma process server providing standard ($60), rush ($52), and same-day ($105) document delivery across all 77 counties with GPS tracking and digital affidavits.';
-      (organizationSchema as any).areaServed = [
-        {
-          '@type': 'State',
-          'name': 'Oklahoma',
-          'containsPlace': [
-            { '@type': 'City', 'name': 'Tulsa' },
-            { '@type': 'City', 'name': 'Broken Arrow' },
-            { '@type': 'City', 'name': 'Owasso' },
-            { '@type': 'City', 'name': 'Sapulpa' },
-            { '@type': 'City', 'name': 'Jenks' },
-            { '@type': 'City', 'name': 'Bixby' },
-            { '@type': 'City', 'name': 'Sand Springs' },
-            { '@type': 'City', 'name': 'Glenpool' },
-            { '@type': 'City', 'name': 'Wagoner' },
-            { '@type': 'City', 'name': 'Coweta' },
-            { '@type': 'City', 'name': 'Claremore' },
-            { '@type': 'City', 'name': 'Okmulgee' },
-            { '@type': 'City', 'name': 'Bristow' },
-            { '@type': 'City', 'name': 'Muskogee' }
-          ]
-        }
-      ];
-      
-      // Professional credentials for authority
-      (organizationSchema as any).hasCredential = [
-        {
-          '@type': 'EducationalOccupationalCredential',
-          'credentialCategory': 'Professional License',
-          'name': 'Oklahoma Licensed Process Server'
-        },
-        {
-          '@type': 'EducationalOccupationalCredential', 
-          'credentialCategory': 'Bonded and Insured',
-          'name': 'Professional Liability Insurance'
-        }
-      ];
-      
-      // Service excellence metrics
-      (organizationSchema as any).award = [
-        'Top Rated Process Server Oklahoma 2025',
-        'Top Rated Process Server Oklahoma 2026',
-        'Fastest Service Delivery Tulsa County',
-        'Most Reliable Legal Document Delivery'
-      ];
-      
-      // Industry expertise
-      (organizationSchema as any).knowsAbout = [
-        'Oklahoma Process Serving Laws',
-        'Legal Document Delivery Procedures', 
-        'Skip Tracing Techniques',
-        'Court Filing Requirements',
-        'Emergency Legal Services',
-        'Professional Service Standards'
-      ];
-    }
-  
+  // Enhanced Organization schema with 2025 SEO dominance features
+  if (organization) {
+    // Add enhanced organization properties
+    if (organization.legalName) (organizationSchema as any).legalName = organization.legalName;
+    if (organization.description) (organizationSchema as any).description = organization.description;
+    if (organization.email) (organizationSchema as any).email = organization.email;
+
+    // 2025 SEO Dominance Features (Enhanced for AI)
+    (organizationSchema as any).foundingDate = '2025-03-01';
+    (organizationSchema as any).slogan = 'Oklahoma\'s #1 Process Server - Professional, Fast, Reliable';
+    (organizationSchema as any).description = 'Licensed and bonded Oklahoma process server providing standard ($60), rush ($150), and same-day ($265) document delivery across all 77 counties with GPS tracking and digital affidavits.';
+    (organizationSchema as any).areaServed = [
+      {
+        '@type': 'State',
+        'name': 'Oklahoma',
+        'containsPlace': [
+          { '@type': 'City', 'name': 'Tulsa' },
+          { '@type': 'City', 'name': 'Broken Arrow' },
+          { '@type': 'City', 'name': 'Owasso' },
+          { '@type': 'City', 'name': 'Sapulpa' },
+          { '@type': 'City', 'name': 'Jenks' },
+          { '@type': 'City', 'name': 'Bixby' },
+          { '@type': 'City', 'name': 'Sand Springs' },
+          { '@type': 'City', 'name': 'Glenpool' },
+          { '@type': 'City', 'name': 'Wagoner' },
+          { '@type': 'City', 'name': 'Coweta' },
+          { '@type': 'City', 'name': 'Claremore' },
+          { '@type': 'City', 'name': 'Okmulgee' },
+          { '@type': 'City', 'name': 'Bristow' },
+          { '@type': 'City', 'name': 'Muskogee' }
+        ]
+      }
+    ];
+
+    // Professional credentials for authority
+    (organizationSchema as any).hasCredential = [
+      {
+        '@type': 'EducationalOccupationalCredential',
+        'credentialCategory': 'Professional License',
+        'name': 'Oklahoma Licensed Process Server'
+      },
+      {
+        '@type': 'EducationalOccupationalCredential',
+        'credentialCategory': 'Bonded and Insured',
+        'name': 'Professional Liability Insurance'
+      }
+    ];
+
+    // Service excellence metrics
+    (organizationSchema as any).award = [
+      'Top Rated Process Server Oklahoma 2025',
+      'Top Rated Process Server Oklahoma 2026',
+      'Fastest Service Delivery Tulsa County',
+      'Most Reliable Legal Document Delivery'
+    ];
+
+    // Industry expertise
+    (organizationSchema as any).knowsAbout = [
+      'Oklahoma Process Serving Laws',
+      'Legal Document Delivery Procedures',
+      'Skip Tracing Techniques',
+      'Court Filing Requirements',
+      'Emergency Legal Services',
+      'Professional Service Standards'
+    ];
+  }
+
   // Add member organizations if provided
   if (memberOf && memberOf.length > 0) {
     (organizationSchema as any).memberOf = memberOf.map(member => ({
@@ -529,12 +534,12 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
       'name': member.name
     }));
   }
-  
+
   // Add awards if provided
   if (awards && awards.length > 0) {
     (organizationSchema as any).award = awards;
   }
-  
+
   // Add credentials if provided
   if (hasCredential && hasCredential.length > 0) {
     (organizationSchema as any).hasCredential = hasCredential.map(credential => ({
@@ -548,17 +553,17 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
   if (foundingDate) {
     (organizationSchema as any).foundingDate = foundingDate;
   }
-  
+
   // Add slogan if provided
   if (slogan) {
     (organizationSchema as any).slogan = slogan;
   }
-  
+
   // Add number of employees if provided
   if (numberOfEmployees) {
     (organizationSchema as any).numberOfEmployees = numberOfEmployees;
   }
-  
+
   // Add knowledge areas if provided
   if (knowsAbout && knowsAbout.length > 0) {
     (organizationSchema as any).knowsAbout = knowsAbout;
@@ -573,7 +578,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
       'bestRating': aggregateRating.bestRating ? aggregateRating.bestRating : 5,
       'worstRating': aggregateRating.worstRating ? aggregateRating.worstRating : 1
     };
-    
+
     // Add enhanced business hours for 2025
     organizationSchema.openingHoursSpecification = [
       {
@@ -583,7 +588,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
         'closes': '23:59'
       }
     ];
-    
+
     // Add special offers for competitive advantage (only for location/home pages)
     if (pageType === 'location' || pageType === 'home') {
       organizationSchema.makesOffer = [
@@ -603,7 +608,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
           '@type': 'Offer',
           'name': '2-Hour Emergency Service',
           'description': 'Critical legal document delivery within 2 hours',
-          'price': '265', 
+          'price': '265',
           'priceCurrency': 'USD',
           'image': 'https://justlegalsolutions.org/images/jls-logo.webp',
           'availability': 'https://schema.org/InStock',
@@ -614,7 +619,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
       ];
     }
   }
-  
+
   // Add reviews if provided
   if (reviews && reviews.length > 0 && organizationSchema) {
     organizationSchema.review = reviews.map(review => ({
@@ -632,7 +637,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
       'datePublished': '2025-12-20'
     }));
   }
-  
+
   // Add offer catalog if provided
   if (hasOfferCatalog && organizationSchema) {
     organizationSchema.hasOfferCatalog = {

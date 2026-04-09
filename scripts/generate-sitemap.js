@@ -292,6 +292,9 @@ function generateSitemap() {
     '/pdf-tools',
     '/field-sheet',
 
+    // Video Hub
+    '/videos',
+
     // Sitemap
     '/sitemap',
   ];
@@ -355,6 +358,9 @@ function generateSitemap() {
     } else if (['/tools', '/pdf-tools', '/field-sheet'].includes(urlPath)) {
       priority = '0.6';
       changefreq = 'monthly';
+    } else if (urlPath === '/videos') {
+      priority = '0.9';
+      changefreq = 'weekly';
     } else if (urlPath === '/blog') {
       priority = '0.8';
       changefreq = 'weekly';

@@ -2,11 +2,9 @@
 # Docs: https://developers.cloudflare.com/pages/configuration/redirects/
 
 # ── 0. Protocol & Domain Canonicalization (HIGHEST PRIORITY) ──
-# Force HTTPS (http → https)
-http://* https://:splat 301
-
-# Force www removal (www → non-www)
-https://www.justlegalsolutions.org/* https://justlegalsolutions.org/:splat 301
+# Force HTTPS (http → https) via Cloudflare dashboard setting, not _redirects
+# www → non-www: handled by Cloudflare DNS redirect rule (Page Rule or Bulk Redirect)
+# These cannot be source-matched as absolute URLs in Cloudflare Pages _redirects
 
 # Redirect /index.html to /
 /index.html / 301

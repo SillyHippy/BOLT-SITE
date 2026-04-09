@@ -68,7 +68,7 @@
               "name": "Standard Process Serving",
               "description": "Professional legal document service within 5-7 business days"
             },
-            "price": "21.00",
+            "price": "60.00",
             "priceCurrency": "USD",
             "priceValidUntil": "2026-12-31"
           },
@@ -79,7 +79,7 @@
               "name": "Rush Process Serving",
               "description": "Expedited legal document service within 1-3 business days"
             },
-            "price": "52.00",
+            "price": "150.00",
             "priceCurrency": "USD"
           },
           {
@@ -89,7 +89,7 @@
               "name": "Same-Day Process Serving",
               "description": "Urgent legal document service within 24 hours"
             },
-            "price": "105.00",
+            "price": "265.00",
             "priceCurrency": "USD"
           },
           {
@@ -99,7 +99,7 @@
               "name": "Skip Tracing",
               "description": "Locate difficult-to-find individuals using database searches"
             },
-            "price": "25.00",
+            "price": "35.00",
             "priceCurrency": "USD"
           }
         ]
