@@ -215,3 +215,7 @@ Primary Markets:
 - Creek County (Sapulpa, Bristow, Drumright)
 - Rogers County (Claremore, Catoosa, Inola)
 - Osage County (Pawhuska, Skiatook, Sand Springs)
+
+## STRUCTURED DATA
+- Knowledge Graph: https://justlegalsolutions.org/knowledge-graph.json
+- JSON-LD: https://justlegalsolutions.org/knowledge-graph.jsonld
