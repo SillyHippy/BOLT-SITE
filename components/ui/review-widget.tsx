@@ -88,7 +88,7 @@ export default function ReviewWidget() {
     }, 5000);
 
     return () => clearInterval(interval);
-  }, [isAutoPlaying, reviews.length]);
+  }, [isAutoPlaying]);
 
   const nextReview = () => {
     setIsAutoPlaying(false);
