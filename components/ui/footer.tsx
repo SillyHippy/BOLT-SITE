@@ -760,9 +760,10 @@ export function Footer() {
               </a>
             </div>
             {/* Disclaimer - center */}
-            <p className="text-center text-sm text-gray-500 order-2 md:order-2 w-full md:w-auto">
-              Disclaimer: Just Legal Solutions is not a law firm. For legal questions, please consult a licensed attorney.
-            </p>
+            <div className="text-center order-2 md:order-2 w-full md:w-auto space-y-1">
+              <p className="text-sm font-semibold text-gray-600">🏠 Locally Owned &amp; Operated — Glenpool, Oklahoma</p>
+              <p className="text-sm text-gray-500">Disclaimer: Just Legal Solutions is not a law firm. For legal questions, please consult a licensed attorney.</p>
+            </div>
             {/* Social Media Links - right side */}
             <div className="flex space-x-4 order-3 md:order-3">
               <a

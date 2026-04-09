@@ -119,6 +119,10 @@ export default function Home() {
               <Clock className="h-5 w-5 text-green-600" aria-hidden="true" />
               <span className="text-sm font-medium text-gray-700">Same-Day Available</span>
             </div>
+            <div className="flex items-center gap-2 bg-white/95 backdrop-blur-sm px-4 py-2 rounded-full shadow-lg">
+              <MapPin className="h-5 w-5 text-red-500" aria-hidden="true" />
+              <span className="text-sm font-medium text-gray-700">Locally Owned &amp; Operated</span>
+            </div>
           </div>
           
           {/* CTA Buttons */}

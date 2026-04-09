@@ -43,7 +43,6 @@ const sections: SitemapSection[] = [
     links: [
       { url: '/', label: 'Home' },
       { url: '/about', label: 'About Us' },
-      { url: '/pricing', label: 'Our Services' },
       { url: '/pricing', label: 'Pricing' },
       { url: '/contact', label: 'Contact Us' },
       { url: '/payments', label: 'Make a Payment' },
@@ -165,10 +164,8 @@ const sections: SitemapSection[] = [
       { url: '/process-server-tulsa-guide', label: 'Process Server Tulsa Guide' },
       { url: '/oklahoma-process-server-authority', label: 'Oklahoma Process Server Authority & Regulations' },
       { url: '/oklahoma-process-server-laws', label: 'Oklahoma Process Server Laws' },
-      { url: '/oklahoma-process-server-laws', label: 'Oklahoma vs Texas — Process Server Comparison' },
       { url: '/serving-legal-papers-on-tribal-land', label: 'Serving Legal Papers on Tribal Land' },
       { url: '/oklahoma-process-server-best-practices-checklist-2026', label: 'Best Practices Checklist 2025' },
-      { url: '/oklahoma-process-server-best-practices-checklist-2026', label: 'Best Practices Checklist 2026' },
       { url: '/oklahoma-legal-service-areas', label: 'Oklahoma Legal Service Areas' },
       { url: '/oklahoma-electronic-service-guide', label: 'Electronic Service Guide' },
       { url: '/oklahoma-case-law-service-process', label: 'Case Law & Service of Process' },
