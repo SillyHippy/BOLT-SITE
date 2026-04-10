@@ -1,7 +1,3 @@
-import GoogleSpecificOptimization from '@/components/ui/google-specific-optimization';
-import BingYahooOptimization from '@/components/ui/bing-yahoo-optimization';
-import DuckDuckGoOptimization from '@/components/ui/duckduckgo-optimization';
-import SearchEngineUniversalOptimization from '@/components/ui/search-engine-universal-optimization';
 import SearchDominance2025 from '@/components/ui/2025-search-dominance';
 import AIVoiceSupremacy from '@/components/ui/ai-voice-supremacy';
 import RankingSupremacy2025 from '@/components/ui/2025-ranking-supremacy';
