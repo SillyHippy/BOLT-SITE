@@ -141,16 +141,18 @@ export function Footer() {
     setUploadStatus("uploading");
     
     try {
-      // Convert files to base64
-      const filesData: Array<{ name: string; type: string; data: string }> = [];
-      for (const fileItem of uploadFiles) {
-        const base64 = await fileToBase64(fileItem.file);
-        filesData.push({
-          name: fileItem.file.name,
-          type: fileItem.file.type,
-          data: base64,
-        });
-      }
+      // ⚡ Bolt: Convert files to base64 concurrently instead of sequentially
+      // This speeds up I/O-bound tasks by replacing for...of/await with Promise.all and .map
+      const filesData = await Promise.all(
+        uploadFiles.map(async (fileItem) => {
+          const base64 = await fileToBase64(fileItem.file);
+          return {
+            name: fileItem.file.name,
+            type: fileItem.file.type,
+            data: base64,
+          };
+        })
+      );
       
       const payload = JSON.stringify({
         clientName,
