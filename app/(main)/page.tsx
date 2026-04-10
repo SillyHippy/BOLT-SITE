@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     absolute: 'Just Legal Solutions | Oklahoma Process Server Since 2020'
   },
   description: getPromoDescription(
-    'Expert process serving for Tulsa, Broken Arrow, Sapulpa, Glenpool & Oklahoma. 50+ years combined experience. Process serving starts at $30, with standard, rush and same-day options available',
-    '30% OFF LIMITED TIME! Expert process serving for Tulsa, Broken Arrow, Sapulpa, Glenpool & Oklahoma. 50+ years combined experience. Process serving starts at $30, with standard, rush and same-day options available'
+    'Oklahoma process server from $30. Same-day service in Tulsa & all 77 counties. Licensed, bonded, GPS-tracked. 50+ years experience. Call now.',
+    '30% OFF select ZIPs! Oklahoma process server from $30. Same-day Tulsa service across all 77 counties. Licensed, bonded & GPS-tracked.'
   ),
   keywords: 'Oklahoma process server, process serving Oklahoma, legal document delivery, court papers served, divorce papers service, summons delivery, skip tracing Oklahoma, same day process serving, Broken Arrow process server, Sapulpa legal services, professional process serving, certified process server, legal courier Oklahoma, court document transfer',
   other: {

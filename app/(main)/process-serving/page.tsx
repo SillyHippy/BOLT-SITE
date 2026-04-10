@@ -4,7 +4,7 @@ import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
     title: 'Process Serving Services Oklahoma | Licensed Servers from $30',
-    description: 'Professional process serving throughout Oklahoma. Personal service, substitute service, and service by publication. Licensed under 12 O.S. § 158.1. Same-day and emergency options available. Single attempts start at $30, standard service is $60.',
+    description: 'Oklahoma process serving from $30. Personal, substitute, and publication service. Licensed under 12 O.S. § 158.1. Same-day and emergency options.',
     keywords: ['process serving oklahoma', 'process server services', 'serve legal papers oklahoma', 'personal service of process', 'substitute service oklahoma', 'service by publication', 'licensed process server', 'professional process serving'],
     authors: [{ name: 'Just Legal Solutions' }],
     creator: 'Just Legal Solutions',

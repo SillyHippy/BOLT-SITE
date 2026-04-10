@@ -242,11 +242,11 @@ export async function generateMetadata({
   const { slug } = await params;
   const content = getLocationContent(slug);
   const locationName = slugToLocationName(slug);
-  const title =
-    extractTitle(content) || `Process Server ${locationName} Oklahoma`;
+  const rawTitle = extractTitle(content);
+  // Override with CTR-optimized pattern: price in title converts impressions to clicks
+  const title = `Process Server ${locationName}, OK | Same-Day Service from $60`;
   const description =
-    extractDescription(content) ||
-    `Licensed process server in ${locationName}, Oklahoma. Same-day service, GPS tracking, and court-ready documentation.`;
+    `Licensed process server in ${locationName}, OK. Same-day from $60, rush $150. GPS-tracked, court-ready affidavits. Call (539) 367-6832.`;
 
   return {
     title,

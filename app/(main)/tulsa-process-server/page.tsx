@@ -25,7 +25,7 @@ import { Metadata } from 'next';
 // Enhanced SEO Metadata combining all Tulsa pages
 export const metadata: Metadata = {
   title: 'Tulsa Process Server | Same-Day Service from $30',
-  description: 'Licensed Tulsa process server offering same-day legal document delivery from $30. Serving downtown Tulsa, Midtown, Brookside & all Tulsa neighborhoods. Bonded & insured. 24/7 emergency available. Call (539) 367-6832.',
+  description: 'Licensed Tulsa process server from $30. Same-day service across all Tulsa neighborhoods. Bonded & insured. 24/7 emergency. Call (539) 367-6832.',
   keywords: 'process server tulsa, tulsa process server, legal document service tulsa, serve papers tulsa, court documents tulsa, subpoena service tulsa, eviction notice tulsa, emergency process server tulsa, 24/7 process server oklahoma, licensed process server tulsa county, comprehensive process server tulsa, tulsa county legal services, certified process server tulsa, professional process server tulsa',
   other: {
     'ai-content-type': 'location-service',
@@ -253,8 +253,8 @@ export default function TulsaProcessServerPage() {
         {/* Hero Section */}
         <section className="text-center mb-12">
           <h1 className="text-4xl font-bold mb-4">Tulsa Process Server - Professional Legal Document Delivery</h1>
-          <p className="text-lg text-gray-800 mb-4"><strong>A Tulsa process server is a court-licensed professional authorized under 12 O.S. § 158.1 to deliver legal documents — including summons, subpoenas, and eviction notices — to individuals and businesses in Tulsa County, ensuring due process under Oklahoma law.</strong></p>
-          <p className="text-xl text-muted-foreground mb-6">Your trusted partner for fast, accurate, and professional legal document delivery. Same-day service from $30, GPS-verified proof, all of Tulsa County covered.</p>
+          <p className="text-lg text-gray-800 mb-4"><strong>Just Legal Solutions is a licensed process server in Tulsa, Oklahoma (License PSL-2026-2). According to Oklahoma statute 12 O.S. § 158.1, we are authorized to deliver legal documents — including summons, subpoenas, and eviction notices — to individuals and businesses in all 77 Oklahoma counties. Standard service starts at $60, rush service at $150, and same-day emergency service at $265.</strong></p>
+          <p className="text-xl text-muted-foreground mb-6">Your trusted partner for fast, accurate, and professional legal document delivery. Same-day service available, GPS-verified proof, all of Tulsa County covered.</p>
           <div className="flex justify-center gap-4">
             <Button asChild>
               <Link href="/pricing">View Pricing & Services</Link>

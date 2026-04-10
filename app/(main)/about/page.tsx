@@ -7,7 +7,7 @@ import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
   title: 'About Us - The Fight That Forged a Business',
-  description: "Learn how a 5-year legal battle inspired Just Legal Solutions, Oklahoma's premier process serving company. Founded by Joseph Iannazzi after experiencing systemic failure in workers' compensation.",
+  description: "How a 5-year legal battle inspired Just Legal Solutions, Oklahoma's premier process serving company. Founded by Joseph Iannazzi in Glenpool, OK.",
   keywords: 'about us, just legal solutions, joseph iannazzi, process server oklahoma, legal battle, workers compensation, tulsa process server',
   alternates: {
     canonical: 'https://justlegalsolutions.org/about'

@@ -10,13 +10,13 @@
 /index.html / 301
 
 # ── 1. Year-versioned stubs (2025 → current) ────────────────
-/oklahoma-process-server-pricing-2025 /oklahoma-process-server-pricing 301
+/oklahoma-process-server-pricing-2025 /pricing 301
 /oklahoma-process-server-technology-2025 /oklahoma-process-server-technology 301
 /high-profile-service-protocols-tulsa-2025 /high-profile-service-protocols-tulsa 301
 /oklahoma-electronic-service-guide-2025 /oklahoma-electronic-service-guide 301
 /oklahoma-case-law-service-process-2025 /oklahoma-case-law-service-process 301
 /oklahoma-legal-service-areas-2025 /oklahoma-legal-service-areas 301
-/oklahoma-process-serving-costs-comparison-2025 /oklahoma-process-serving-costs-comparison 301
+/oklahoma-process-serving-costs-comparison-2025 /pricing 301
 /ai-skip-tracing-guide-oklahoma-2025 /ai-skip-tracing-guide-oklahoma 301
 /family-law-service-guide-tulsa-2025 /family-law-service-guide-tulsa 301
 /process-serving-mistakes-guide-2025 /process-serving-mistakes-guide 301
@@ -26,7 +26,11 @@
 /oklahoma-process-server-best-practices-checklist-2025 /oklahoma-process-server-best-practices-checklist-2026 301
 
 # ── 3. Exact-duplicate / thin merges ────────────────────────
-/oklahoma-process-server-pricing-2026 /oklahoma-process-server-pricing 301
+/oklahoma-process-server-pricing-2026 /pricing 301
+
+# ── 3b. Pricing page consolidation (5 pages → 1) ────────────
+/oklahoma-process-server-pricing /pricing 301
+/oklahoma-process-serving-costs-comparison /pricing 301
 
 # ── 4. Topic-cannibalizing pages ─────────────────────────────
 /competitor-analysis /why-choose-us 301

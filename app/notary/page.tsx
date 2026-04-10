@@ -14,13 +14,13 @@ import {
 const canonicalUrl = 'https://justlegalsolutions.org/notary';
 
 export const metadata: Metadata = {
-  title: 'Mobile Notary Services Tulsa OK | 24/7 Notary Public',
-  description: '24/7 mobile notary services in Tulsa and throughout Oklahoma. In-office, remote online notarization, and travel to you. Licensed & bonded Oklahoma notaries. Call (539) 367-6832.',
+  title: 'Notary Near Me in Tulsa, OK | 24/7 Mobile & In-Office | $5/Notarization',
+  description: 'Need a notary now? Walk-in, mobile, or remote online notarization in Tulsa & all of Oklahoma. Open 24/7, including weekends. Licensed & bonded. Call (539) 367-6832.',
   keywords: 'notary Tulsa, mobile notary Oklahoma, notary public, remote notary, RON, notary near me, Tulsa County notary, 24/7 notary, Oklahoma notary services, mobile notary near me, notary public services Tulsa',
   authors: [{ name: 'Just Legal Solutions Team' }],
   openGraph: {
-    title: 'Mobile Notary Services Tulsa OK | 24/7 Notary Public',
-    description: '24/7 mobile notary services in Tulsa and throughout Oklahoma. In-office, remote online notarization, and travel to you. Licensed & bonded Oklahoma notaries.',
+    title: 'Notary Near Me in Tulsa, OK | 24/7 Mobile & In-Office | $5/Notarization',
+    description: 'Need a notary now? Walk-in, mobile, or remote online notarization in Tulsa & all of Oklahoma. Open 24/7, including weekends. Licensed & bonded.',
     url: canonicalUrl,
     siteName: 'Just Legal Solutions',
     images: [
@@ -36,8 +36,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Mobile Notary Services Tulsa OK | 24/7 Notary Public',
-    description: '24/7 mobile notary services in Tulsa and throughout Oklahoma. In-office, remote online notarization, and travel to you.',
+    title: 'Notary Near Me in Tulsa, OK | 24/7 Mobile & In-Office | $5/Notarization',
+    description: 'Need a notary now? Walk-in, mobile, or remote online notarization in Tulsa & all of Oklahoma. Open 24/7, including weekends.',
     images: ['https://justlegalsolutions.org/images/hero.webp'],
     creator: '@JustLegalSolutions',
     site: '@JustLegalSolutions',
@@ -345,11 +345,14 @@ export default function NotaryPage() {
         <section className="py-16 bg-white border-b border-gray-100">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">What Does a Notary Public Do?</h2>
+            <p className="text-lg text-gray-700 mb-4 bg-blue-50 border-l-4 border-blue-500 p-4 rounded-r-lg">
+              <strong>Mobile notary services in Tulsa, Oklahoma start at $5 per notarization (set by Oklahoma law under 49 O.S. § 5). We offer walk-in, mobile (we travel to you), and remote online notarization (RON). Available 24/7 including weekends and holidays. Call (539) 367-6832.</strong>
+            </p>
             <p className="text-lg text-gray-700 mb-4">
-              <strong>A notary public is a state-commissioned official authorized under Oklahoma law (49 O.S. § 111 et seq.) to witness signatures, administer oaths, and verify the identity of document signers.</strong> Notarization deters fraud by confirming that the person signing a document is who they claim to be and is signing willingly.
+              A notary public is a state-commissioned official authorized under Oklahoma law (49 O.S. § 111 et seq.) to witness signatures, administer oaths, and verify the identity of document signers. Notarization deters fraud by confirming that the person signing a document is who they claim to be and is signing willingly.
             </p>
             <p className="text-lg text-gray-700">
-              In Oklahoma, notaries are appointed by the Secretary of State for a 4-year commission (<a href="/notary-laws" className="text-blue-600 hover:underline">49 O.S. § 1</a>), must carry a $10,000 surety bond (<a href="/notary-laws" className="text-blue-600 hover:underline">49 O.S. § 2</a>), and are limited to a $5 fee per notarial act for traditional notarizations or $25 for remote online notarization (RON) under 49 O.S. § 5 and § 209.
+              According to Oklahoma statute 49 O.S. § 1, notaries are appointed by the Secretary of State for a 4-year commission. Per 49 O.S. § 2, they must carry a $10,000 surety bond. Under 49 O.S. § 5 and § 209, fees are limited to $5 per notarial act for traditional notarizations or $25 for remote online notarization (RON).
             </p>
           </div>
         </section>

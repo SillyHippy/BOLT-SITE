@@ -8,7 +8,7 @@ import AIVoiceSupremacy from '@/components/ui/ai-voice-supremacy';
 
 export const metadata: Metadata = {
   title: 'Oklahoma Process Server Laws 2026 | Rules & Requirements Guide',
-  description: 'Acurate guide to Oklahoma process serving laws (Title 12 O.S. § 2004). Explains substituted service (age 15+), licensing under § 158.1, time limits, and service by mail rules.',
+  description: 'Accurate guide to Oklahoma process serving laws (12 O.S. § 2004). Covers substituted service, licensing under § 158.1, time limits, and service by mail.',
   keywords: 'oklahoma process server laws, 12 O.S. 2004, oklahoma substituted service age, process server license oklahoma, oklahoma service by publication, civil procedure oklahoma',
   robots: {
     index: true,

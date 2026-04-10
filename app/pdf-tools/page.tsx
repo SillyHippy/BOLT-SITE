@@ -249,9 +249,7 @@ export default function PDFToolsPage() {
       window.pdf24.loadWidget(slug, {
         containerId,
         langCode: "en",
-        readyCallback: () => {
-          console.log(`${slug} widget ready`);
-        },
+        readyCallback: () => {},
         widgetConfig: {
           theme: "lightTheme",
         },

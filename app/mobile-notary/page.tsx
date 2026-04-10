@@ -28,9 +28,9 @@ import {
 const canonicalUrl = 'https://justlegalsolutions.org/mobile-notary';
 
 export const metadata: Metadata = {
-  title: 'Mobile Notary Services Oklahoma | Tulsa County Traveling Notary | 24/7 Availability',
+  title: 'Mobile Notary Oklahoma | 24/7 Tulsa Traveling Notary',
   description:
-    'Professional mobile notary services throughout Oklahoma and Tulsa County. Licensed, bonded Oklahoma notaries come to your location—home, office, hospital, or courthouse. Same-day appointments available.',
+    'Oklahoma mobile notary for hospitals, jails, loan signings & more. Licensed, bonded. Same-day appointments. Tulsa metro & statewide. Call (539) 367-6832.',
   keywords:
     'mobile notary Glenpool, Tulsa mobile notary, hospital notary Tulsa, jail notarization Oklahoma, loan signing agent Glenpool, 24/7 notary, Creek County notary, Wagoner County notary, Osage County notary, Tulsa County notary, emergency notary Oklahoma, remote notary Oklahoma',
   authors: [{ name: 'Just Legal Solutions' }],

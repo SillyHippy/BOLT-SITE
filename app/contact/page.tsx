@@ -2,10 +2,10 @@
 import { getPromoDescription } from '@/lib/promo-utils';
 
 export const metadata = {
-  title: 'Contact Just Legal Solutions | Oklahoma Process Server & Legal Support 2026',
+  title: 'Contact Us | Oklahoma Process Server (539) 367-6832',
   description: getPromoDescription(
-    'Contact Just Legal Solutions—reach our team for 24/7 process serving, legal courier, and business support in Tulsa County and across Oklahoma. Fast, secure, and trusted by law firms and individuals.',
-    '30% OFF for select ZIP codes! Contact Just Legal Solutions—reach our team for 24/7 process serving, legal courier, and business support in Tulsa County and across Oklahoma. Fast, secure, and trusted by law firms.'
+    'Get a free quote for process serving in Oklahoma. Call (539) 367-6832 or submit online. Same-day service available. Licensed & bonded.',
+    '30% OFF select ZIPs! Get a free quote for Oklahoma process serving. Call (539) 367-6832 or submit online. Same-day available. Licensed & bonded.'
   ),
   keywords: [
     'contact process server',

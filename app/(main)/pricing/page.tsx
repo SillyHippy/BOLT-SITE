@@ -10,8 +10,8 @@ import { getPromoDescription } from '@/lib/promo-utils';
 export const metadata: Metadata = {
   title: 'Pricing | Process Server & Notary Services Oklahoma',
   description: getPromoDescription(
-    'Transparent process server and notary pricing in Oklahoma. Process serving starting at $30, notary in-office from $20. Same-day service available. No hidden fees. Licensed and bonded professionals.',
-    '30% OFF LIMITED TIME for ZIP 74008, 74033, 74037! Transparent process server and notary pricing in Oklahoma. Process serving starting at $30, notary in-office from $20. No hidden fees. Licensed and bonded.'
+    'Process server & notary pricing in Oklahoma. Serving from $30, notary from $20. Same-day service. No hidden fees. Licensed & bonded.',
+    '30% OFF select ZIPs! Process server & notary pricing in Oklahoma. Serving from $30, notary from $20. Same-day available. No hidden fees.'
   ),
   keywords: 'process server pricing Oklahoma, notary fees Oklahoma, legal document service costs, process serving rates Tulsa, Oklahoma court service fees, affordable process server, transparent pricing legal services, mobile notary cost, RON notary Oklahoma',
   alternates: {
