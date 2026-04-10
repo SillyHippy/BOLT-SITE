@@ -446,6 +446,16 @@ function ChatWidgetInner() {
           background: white;
         }
 
+
+        .jls-chat-btn:focus-visible,
+        .jls-chat-close:focus-visible,
+        .jls-suggestion:focus-visible,
+        .jls-chat-send:focus-visible,
+        .jls-chat-input:focus-visible {
+          outline: 2px solid #2563eb;
+          outline-offset: 2px;
+        }
+
         /* ── Mobile ───────────────────────────────── */
         @media (max-width: 480px) {
           .jls-chat-window {
