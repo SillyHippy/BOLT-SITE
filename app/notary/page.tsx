@@ -15,12 +15,12 @@ const canonicalUrl = 'https://justlegalsolutions.org/notary';
 
 export const metadata: Metadata = {
   title: 'Notary Near Me in Tulsa, OK | 24/7 Mobile & In-Office | $5/Notarization',
-  description: 'Need a notary now? Walk-in, mobile, or remote online notarization in Tulsa & all of Oklahoma. Open 24/7, including weekends. Licensed & bonded. Call (539) 367-6832.',
+  description: 'Need a notary now? Walk-in, mobile, or remote online notarization in Tulsa & Oklahoma. Notary from $20. Process serving from $60. Open 24/7. Call (539) 367-6832.',
   keywords: 'notary Tulsa, mobile notary Oklahoma, notary public, remote notary, RON, notary near me, Tulsa County notary, 24/7 notary, Oklahoma notary services, mobile notary near me, notary public services Tulsa',
   authors: [{ name: 'Just Legal Solutions Team' }],
   openGraph: {
     title: 'Notary Near Me in Tulsa, OK | 24/7 Mobile & In-Office | $5/Notarization',
-    description: 'Need a notary now? Walk-in, mobile, or remote online notarization in Tulsa & all of Oklahoma. Open 24/7, including weekends. Licensed & bonded.',
+    description: 'Need a notary now? Walk-in, mobile, or remote online notarization in Tulsa & Oklahoma. Notary from $20. Process serving from $60. Open 24/7. Call (539) 367-6832.',
     url: canonicalUrl,
     siteName: 'Just Legal Solutions',
     images: [
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Notary Near Me in Tulsa, OK | 24/7 Mobile & In-Office | $5/Notarization',
-    description: 'Need a notary now? Walk-in, mobile, or remote online notarization in Tulsa & all of Oklahoma. Open 24/7, including weekends.',
+    description: 'Need a notary now? Walk-in, mobile, or remote online notarization in Tulsa & Oklahoma. Notary from $20. Process serving from $60. Open 24/7. Call (539) 367-6832.',
     images: ['https://justlegalsolutions.org/images/hero.webp'],
     creator: '@JustLegalSolutions',
     site: '@JustLegalSolutions',

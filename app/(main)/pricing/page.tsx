@@ -182,7 +182,25 @@ export default function PricingPage() {
           <div className="max-w-7xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-blue-900 mb-4">Process Server Pricing</h1>
             <p className="text-lg text-gray-700 mb-2"><strong>Process server costs in Oklahoma range from $30 for a single attempt to $265 for 2-hour emergency service.</strong> Standard service (up to 3 attempts) starts at $60. All pricing below is transparent — no hidden fees.</p>
-            <p className="text-xl text-gray-600 mb-6">Transparent, competitive rates for Oklahoma legal services</p>
+            <p className="text-xl text-gray-600 mb-8">Transparent, competitive rates for Oklahoma legal services</p>
+
+            {/* Video Pricing Explainer Link */}
+            <div className="max-w-3xl mx-auto mb-8">
+              <div className="bg-white border border-slate-200 rounded-xl p-2 shadow-sm">
+                <div className="relative w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-200">
+                  <iframe
+                    src="https://www.youtube.com/embed/zTuTJiO71Gk"
+                    title="How Much Does a Process Server Cost in Oklahoma? — Full 2026 Pricing Breakdown"
+                    className="absolute top-0 left-0 w-full h-full"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+                <div className="text-center mt-3 mb-2 text-slate-600 text-sm font-medium">
+                  Watch: A complete breakdown of process server costs in Oklahoma.
+                </div>
+              </div>
+            </div>
 
             {/* Temporary Fuel Adjustment Banner */}
             <div className="max-w-3xl mx-auto mb-6 bg-amber-50 border border-amber-300 rounded-xl p-4 text-left flex gap-3">

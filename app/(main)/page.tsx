@@ -144,6 +144,25 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Featured Video Section */}
+      <section className="bg-slate-900 py-12 px-4 border-b border-white/10" aria-label="Featured Video">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-2xl md:text-3xl font-bold text-white mb-6">Why Choose Just Legal Solutions?</h2>
+          <div className="bg-white/5 border border-white/10 p-2 rounded-2xl shadow-2xl">
+            <div className="relative w-full aspect-video rounded-xl overflow-hidden bg-black border border-white/10 shadow-inner">
+              <iframe
+                src="https://www.youtube.com/embed/NFAhglMUNqc"
+                title="Best Process Server in Tulsa, Oklahoma | Just Legal Solutions"
+                className="absolute top-0 left-0 w-full h-full"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
+          <p className="text-gray-400 mt-4 text-sm font-medium">Watch: Learn why we are rated 4.9 stars by attorneys and landlords across Oklahoma.</p>
+        </div>
+      </section>
+
       {/* Services Grid */}
       <section className="bg-black text-white py-16 md:py-24" aria-label="Our services">
         <div className="max-w-7xl mx-auto px-4">

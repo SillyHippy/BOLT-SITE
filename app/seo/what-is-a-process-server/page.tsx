@@ -740,6 +740,24 @@ export default function WhatIsAProcessServerPage() {
             </p>
           </div>
 
+          {/* Video Overview Link */}
+          <div className="mb-10">
+            <div className="bg-slate-50 border border-slate-200 rounded-xl p-2 shadow-sm">
+              <div className="relative w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-200">
+                <iframe
+                  src="https://www.youtube.com/embed/cbHsAUozxnc"
+                  title="How Process Serving Works in Oklahoma"
+                  className="absolute top-0 left-0 w-full h-full"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
+              <div className="text-center mt-3 mb-2 text-slate-600 text-sm font-medium">
+                Watch: A 60-second visual walkthrough of how process serving works in Oklahoma from start to finish.
+              </div>
+            </div>
+          </div>
+
           <article className="max-w-none mx-auto prose prose-lg">
 
             {/* Table of Contents for Better Navigation */}

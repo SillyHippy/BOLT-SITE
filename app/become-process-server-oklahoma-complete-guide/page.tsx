@@ -272,6 +272,24 @@ export default function BecomeProcessServerGuide() {
           </p>
         </div>
 
+        {/* Video Guide Add-On */}
+        <section className="mb-16">
+          <div className="bg-slate-50 border border-slate-200 rounded-xl p-2 shadow-sm">
+            <div className="relative w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-200">
+              <iframe
+                src="https://www.youtube.com/embed/Rr5utB7OFsI"
+                title="How to Become a Process Server"
+                className="absolute top-0 left-0 w-full h-full"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+            <div className="text-center mt-3 mb-2 text-slate-600 text-sm font-medium">
+              Watch: Complete step-by-step video guide to obtaining your Oklahoma license.
+            </div>
+          </div>
+        </section>
+
         {/* What is a Process Server */}
         <section className="mb-16">
           <h2 className="text-3xl font-bold text-slate-900 mb-6 flex items-center gap-3">
