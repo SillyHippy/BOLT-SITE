@@ -291,9 +291,17 @@ function generateSitemap() {
     '/tools',
     '/pdf-tools',
     '/field-sheet',
+    '/service-checker',
+    '/service-time-estimator',
 
     // Video Hub
     '/videos',
+
+    // Additional Service Pages
+    '/process-server-near-me',
+    '/broken-arrow-process-server',
+    '/oklahoma-courthouse-directory',
+    '/join-our-network',
 
     // Sitemap
     '/sitemap',

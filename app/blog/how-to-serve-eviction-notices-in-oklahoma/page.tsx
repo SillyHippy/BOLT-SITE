@@ -362,6 +362,14 @@ export default function EvictionNoticeGuide() {
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server FAQ</span>
                 <p className="text-sm text-gray-600 mt-1">Answers to the most common questions about process serving in Oklahoma.</p>
               </Link>
+              <Link href="/blog/how-to-serve-small-claims-oklahoma" className="group block p-5 bg-gradient-to-br from-green-50 to-white rounded-xl border border-green-100 hover:border-green-300 hover:shadow-[0_0_15px_rgba(34,197,94,0.15)] transition-all duration-300">
+                <span className="font-semibold text-green-900 group-hover:text-green-700 transition-colors">How to Serve Small Claims Papers in Oklahoma</span>
+                <p className="text-sm text-gray-600 mt-1">After eviction, recover unpaid rent in small claims court. Learn service rules and deadlines.</p>
+              </Link>
+              <Link href="/blog/oklahoma-landlord-tenant-eviction-timelines" className="group block p-5 bg-gradient-to-br from-green-50 to-white rounded-xl border border-green-100 hover:border-green-300 hover:shadow-[0_0_15px_rgba(34,197,94,0.15)] transition-all duration-300">
+                <span className="font-semibold text-green-900 group-hover:text-green-700 transition-colors">Oklahoma Landlord-Tenant Eviction Timelines</span>
+                <p className="text-sm text-gray-600 mt-1">Understand the full eviction process timeline from notice to FED judgment.</p>
+              </Link>
             </div>
           </section>
           {/* CTA Section */}
