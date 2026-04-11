@@ -83,7 +83,7 @@ const faqs = [
 
 export default function EvictionNoticeGuide() {
   return (
-    
+    <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "HowTo",
@@ -99,7 +99,6 @@ export default function EvictionNoticeGuide() {
     {"@type":"HowToStep","name":"Document and Return Proof of Service","text":"Your process server provides an affidavit of service. File it with the district court clerk to proceed with your FED case."}
         ]
       }) }} />
-      <>
       <UnifiedSchema
         pageType="article"
         pageTitle="How to Serve Eviction Notices in Oklahoma: Notice Rules, Summons Service, and FED Deadlines"

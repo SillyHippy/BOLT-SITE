@@ -70,7 +70,7 @@ const faqs = [
 
 export default function BlogPost() {
   return (
-    
+    <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "HowTo",
@@ -80,7 +80,7 @@ export default function BlogPost() {
         "estimatedCost": { "@type": "MonetaryAmount", "currency": "USD", "value": "60" },
         "step": [
     {"@type":"HowToStep","name":"Obtain the Signed Order from the Court","text":"Once a judge signs a Protective Order (emergency or final), obtain certified copies from the district court clerk to serve."},
-    {"@type":"HowToStep","name":"Contact a Licensed Process Server Immediately","text":"Protective orders must be personally served — substituted service is NOT allowed in Oklahoma on protective orders. Call Just Legal Solutions at (539) 367-6832 for emergency same-day service."},
+    {"@type":"HowToStep","name":"Contact a Licensed Process Server Immediately","text":"Protective orders must be personally served ï¿½ substituted service is NOT allowed in Oklahoma on protective orders. Call Just Legal Solutions at (539) 367-6832 for emergency same-day service."},
     {"@type":"HowToStep","name":"Server Locates and Serves the Respondent","text":"The process server locates the respondent and personally hands them the order. Cannot be left with another person. GPS and photo documented."},
     {"@type":"HowToStep","name":"Notify Law Enforcement","text":"After service, the server returns the affidavit to you. File a copy with local law enforcement so they have record of the active order."},
     {"@type":"HowToStep","name":"File the Return of Service with the Court","text":"File the notarized affidavit with the district court within the required timeframe (typically same-day or next business day)."}
@@ -902,5 +902,6 @@ export default function BlogPost() {
 
       <Footer />
     </main>
+    </>
   );
 }

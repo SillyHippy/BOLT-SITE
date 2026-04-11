@@ -71,6 +71,7 @@ const faqs: { question: string; answer: string }[] = [
 
 export default function HowToApostilleDocumentOklahoma() {
   return (
+    <>
     
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
@@ -80,14 +81,14 @@ export default function HowToApostilleDocumentOklahoma() {
         "totalTime": "PT168H",
         "estimatedCost": { "@type": "MonetaryAmount", "currency": "USD", "value": "25" },
         "step": [
-    {"@type":"HowToStep","name":"Notarize Your Document","text":"Most documents must be notarized by an Oklahoma notary public before apostille. Contact Just Legal Solutions for same-day mobile notary service — (539) 367-6832."},
+    {"@type":"HowToStep","name":"Notarize Your Document","text":"Most documents must be notarized by an Oklahoma notary public before apostille. Contact Just Legal Solutions for same-day mobile notary service ï¿½ (539) 367-6832."},
     {"@type":"HowToStep","name":"Complete the Apostille Request Form","text":"Download the apostille request form from the Oklahoma Secretary of State website (sos.ok.gov). Complete with your contact info and document details."},
     {"@type":"HowToStep","name":"Submit to Oklahoma Secretary of State","text":"Mail or walk in your notarized document + request form +  fee per document. Walk-in available at 421 NW 13th St, Oklahoma City, OK 73103."},
-    {"@type":"HowToStep","name":"Wait for Processing","text":"Walk-in: same-day processing. Mail: 5–10 business days. Expedite available for additional fee."},
+    {"@type":"HowToStep","name":"Wait for Processing","text":"Walk-in: same-day processing. Mail: 5ï¿½10 business days. Expedite available for additional fee."},
     {"@type":"HowToStep","name":"Receive Your Apostilled Document","text":"The Secretary of State attaches the apostille certificate to your document, making it valid in all 120+ Hague Convention countries."}
         ]
       }) }} />
-      <>
+
       <UnifiedSchema
         pageType="article"
         pageTitle="How to Apostille a Document in Oklahoma | Step-by-Step 2026"

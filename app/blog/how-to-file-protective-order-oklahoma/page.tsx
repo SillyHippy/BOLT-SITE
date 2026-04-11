@@ -71,7 +71,7 @@ const faqs: { question: string; answer: string }[] = [
 
 export default function HowToFileProtectiveOrderOklahoma() {
   return (
-    
+    <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "HowTo",
@@ -83,11 +83,10 @@ export default function HowToFileProtectiveOrderOklahoma() {
     {"@type":"HowToStep","name":"Complete the Petition for Protective Order","text":"Get the PO-101 form from your district court clerk or download from OSCN. Describe the domestic abuse or stalking incident(s) in detail."},
     {"@type":"HowToStep","name":"File at the District Court Clerk","text":"File your petition with the clerk. Filing is free for domestic abuse protective orders in Oklahoma. A judge will review it same-day for emergency orders."},
     {"@type":"HowToStep","name":"Attend the Emergency Hearing","text":"A judge will grant or deny an Emergency Temporary Protective Order (ETPO) without the respondent present. If granted, a full hearing is set within 14 days."},
-    {"@type":"HowToStep","name":"Serve the Respondent","text":"Protective orders MUST be personally served before they are legally enforceable. Hire a licensed process server immediately — call (539) 367-6832."},
+    {"@type":"HowToStep","name":"Serve the Respondent","text":"Protective orders MUST be personally served before they are legally enforceable. Hire a licensed process server immediately ï¿½ call (539) 367-6832."},
     {"@type":"HowToStep","name":"Attend the Full Hearing","text":"Both parties attend the final protective order hearing. If the respondent was properly served and doesn't appear, the order may be granted by default."}
         ]
       }) }} />
-      <>
       <UnifiedSchema
         pageType="article"
         pageTitle="How to File a Protective Order in Oklahoma (2026) | Step-by-Step Guide"

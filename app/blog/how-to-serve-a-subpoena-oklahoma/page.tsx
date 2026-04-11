@@ -92,12 +92,12 @@ const faqs = [
 
 export default function HowToServeSubpoenaOklahoma() {
   return (
-    
+    <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "HowTo",
         "name": "How to Serve a Subpoena in Oklahoma",
-        "description": "Complete guide to serving subpoenas in Oklahoma, including witness fees, contempt rules, and service methods under 12 O.S. § 2004.",
+        "description": "Complete guide to serving subpoenas in Oklahoma, including witness fees, contempt rules, and service methods under 12 O.S. ï¿½ 2004.",
         "totalTime": "PT48H",
         "estimatedCost": { "@type": "MonetaryAmount", "currency": "USD", "value": "60" },
         "step": [
@@ -108,7 +108,6 @@ export default function HowToServeSubpoenaOklahoma() {
     {"@type":"HowToStep","name":"Return the Affidavit to Counsel","text":"Server issues a notarized affidavit of service listing all details. File or send to your attorney for the case record."}
         ]
       }) }} />
-      <>
       <UnifiedSchema
         pageType="article"
         pageTitle="How to Serve a Subpoena in Oklahoma (2026 Guide)"
