@@ -3,6 +3,5 @@
     "allow": [
       "Bash(node *)"
     ]
-  },
-  "$version": 3
+  }
 }
