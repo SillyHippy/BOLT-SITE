@@ -5,8 +5,8 @@ import UnifiedSchema from '@/components/UnifiedSchema';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Oklahoma Process Serving Resources & Legal Guides',
-  description: 'Oklahoma process serving resources—legal guides, FAQs, and expert advice for court filing and document delivery in Tulsa County and across Oklahoma.',
+  title: 'Oklahoma Process Server Resources & Legal Guides | Just Legal Solutions',
+  description: 'Free Oklahoma process serving guides, FAQs, and legal resources. Serving starts at $60. Licensed & bonded statewide. Call (539) 367-6832 for same-day service.',
   keywords: ['legal resources oklahoma', 'oklahoma process server guides', 'tulsa document delivery faqs', 'court papers info', 'legal guides tulsa', 'oklahoma civil procedure', 'tulsa county court rules', 'process server training oklahoma'],
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',

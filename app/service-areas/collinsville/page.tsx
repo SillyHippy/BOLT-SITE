@@ -10,8 +10,8 @@ import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Collinsville Process Serving | Legal Document Delivery Oklahoma',
-  description: 'Collinsville’s process server—delivering legal documents and court papers to homes, farms, and businesses in Collinsville and rural northern Tulsa County. Local, reliable, and always available for your needs.',
+  title: 'Process Server Collinsville, OK | Same-Day Service from $60 | Just Legal Solutions',
+  description: 'Licensed process server in Collinsville, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving Tulsa County & all 77 OK counties. (539) 367-6832',
   keywords: 'process server collinsville, legal document service collinsville, serve papers collinsville, court documents collinsville, subpoena service collinsville, eviction notice collinsville, emergency process server collinsville, 24/7 process server oklahoma, licensed process server tulsa county, professional process server collinsville',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',

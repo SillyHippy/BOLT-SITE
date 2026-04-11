@@ -10,8 +10,8 @@ import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Claremore Process Server | Legal Document Service',
-  description: 'Claremore’s trusted process server—serving courthouse, neighborhoods, and lakeside communities. We deliver legal documents and evictions across Sequoyah State Park, Claremore Lake, and Rogers County with local expertise.',
+  title: 'Process Server Claremore, OK | Same-Day Service from $60 | Just Legal Solutions',
+  description: 'Licensed process server in Claremore, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving Rogers County & all 77 OK counties. (539) 367-6832',
   keywords: 'process server claremore, legal document service claremore, serve papers claremore, court documents claremore, subpoena service claremore, eviction notice claremore, emergency process server claremore, 24/7 process server oklahoma, licensed process server rogers county, professional process server claremore',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',

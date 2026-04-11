@@ -11,11 +11,8 @@ import FAQAccordion from '@/components/ui/faq-accordion';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Bixby Process Serving | Civil & Family Court Documents',
-  description: getPromoDescription(
-    'Bixby\'s process server—handling court documents, family law, and urgent legal delivery for neighborhoods, schools, and businesses. Fast, licensed, and reliable with same-day and after-hours service.',
-    '30% OFF for Bixby residents! Professional process server handling court documents, family law, and urgent legal delivery for neighborhoods, schools, and businesses. Fast, licensed, and reliable with same-day service.'
-  ),
+  title: 'Process Server Bixby, OK | Same-Day Service from $60 | Just Legal Solutions',
+  description: 'Licensed process server in Bixby, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving Tulsa & Wagoner Counties + all 77 OK counties. (539) 367-6832',
   keywords: 'process server bixby, legal document service bixby, serve papers bixby, court documents bixby, subpoena service bixby, eviction notice bixby, emergency process server bixby, 24/7 process server oklahoma, licensed process server tulsa county, professional process server bixby',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',

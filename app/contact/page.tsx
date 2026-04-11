@@ -1,12 +1,6 @@
-// --- SEO Metadata for 2026 ---
-import { getPromoDescription } from '@/lib/promo-utils';
-
 export const metadata = {
-  title: 'Contact Us | Oklahoma Process Server (539) 367-6832',
-  description: getPromoDescription(
-    'Get a free quote for process serving in Oklahoma. Call (539) 367-6832 or submit online. Same-day service available. Licensed & bonded.',
-    '30% OFF select ZIPs! Get a free quote for Oklahoma process serving. Call (539) 367-6832 or submit online. Same-day available. Licensed & bonded.'
-  ),
+  title: 'Contact Just Legal Solutions | Oklahoma Process Server (539) 367-6832',
+  description: 'Get a free quote for process serving in Oklahoma. Standard from $60, rush $100, same-day $150. Call (539) 367-6832 or submit online. Licensed & bonded. All 77 OK counties.',
   keywords: [
     'contact process server',
     'oklahoma process server',
@@ -27,8 +21,8 @@ export const metadata = {
     canonical: 'https://justlegalsolutions.org/contact'
   },
   openGraph: {
-    title: 'Contact Just Legal Solutions | Oklahoma Process Server & Legal Support 2026',
-    description: 'Contact Just Legal Solutions for 24/7 process serving, legal courier, and business support in Tulsa County and statewide Oklahoma. Fast, secure, and trusted by law firms.',
+    title: 'Contact Just Legal Solutions | Oklahoma Process Server (539) 367-6832',
+    description: 'Get a free quote for process serving in Oklahoma. Standard from $60, rush $100, same-day $150. Call (539) 367-6832. Licensed & bonded. All 77 OK counties.',
     type: 'website',
     locale: 'en_US',
     url: 'https://justlegalsolutions.org/contact',
@@ -44,8 +38,8 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Contact Just Legal Solutions | Oklahoma Process Server & Legal Support 2026',
-    description: 'Contact Just Legal Solutions for 24/7 process serving, legal courier, and business support in Tulsa County and statewide Oklahoma. Fast, secure, and trusted by law firms.',
+    title: 'Contact Just Legal Solutions | Oklahoma Process Server (539) 367-6832',
+    description: 'Get a free quote for process serving in Oklahoma. Standard from $60, rush $100, same-day $150. Call (539) 367-6832. Licensed & bonded. All 77 OK counties.',
     images: ['https://justlegalsolutions.org/og-image.png'],
     site: '@JustLegalOK',
   }

@@ -10,11 +10,8 @@ import Footer from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Glenpool Process Server | Legal Document Service',
-  description: getPromoDescription(
-    'Glenpool\'s legal document service—serving families, businesses, and oil industry professionals. We cover Lake Glenpool, downtown, and all neighborhoods with fast, accurate, and locally informed process serving.',
-    '30% OFF for Glenpool residents! Legal document service serving families, businesses, and oil industry professionals. We cover Lake Glenpool, downtown, and all neighborhoods with fast, accurate, and locally informed process serving.'
-  ),
+  title: 'Process Server Glenpool, OK | Same-Day Service from $60 | Just Legal Solutions',
+  description: 'Licensed process server in Glenpool, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving Tulsa County & all 77 OK counties. (539) 367-6832',
   keywords: 'process server glenpool, legal document service glenpool, serve papers glenpool, court documents glenpool, subpoena service glenpool, eviction notice glenpool, emergency process server glenpool, 24/7 process server oklahoma, licensed process server tulsa county, professional process server glenpool',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',

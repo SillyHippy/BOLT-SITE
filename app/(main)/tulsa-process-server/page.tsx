@@ -24,8 +24,8 @@ import { Metadata } from 'next';
 
 // Enhanced SEO Metadata combining all Tulsa pages
 export const metadata: Metadata = {
-  title: 'Tulsa Process Server | Same-Day Service from $30',
-  description: 'Licensed Tulsa process server from $30. Same-day service across all Tulsa neighborhoods. Bonded & insured. 24/7 emergency. Call (539) 367-6832.',
+  title: 'Tulsa Process Server | Same-Day Service from $60 | Just Legal Solutions',
+  description: 'Licensed & bonded Tulsa process server. Standard from $60, rush $100, same-day $150. GPS-verified, court-ready affidavits within 24 hrs. All Tulsa neighborhoods + all 77 OK counties. (539) 367-6832.',
   keywords: 'process server tulsa, tulsa process server, legal document service tulsa, serve papers tulsa, court documents tulsa, subpoena service tulsa, eviction notice tulsa, emergency process server tulsa, 24/7 process server oklahoma, licensed process server tulsa county, comprehensive process server tulsa, tulsa county legal services, certified process server tulsa, professional process server tulsa',
   other: {
     'ai-content-type': 'location-service',
@@ -47,8 +47,8 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Tulsa Process Server | Same-Day Service from $30',
-    description: 'Licensed Tulsa process server with same-day legal document delivery. Serving downtown Tulsa, Midtown, Brookside & all neighborhoods. 24/7 emergency available.',
+    title: 'Tulsa Process Server | Same-Day Service from $60 | Just Legal Solutions',
+    description: 'Licensed & bonded Tulsa process server. Standard from $60, rush $100, same-day $150. GPS-verified, court-ready affidavits. All Tulsa neighborhoods + all 77 OK counties. (539) 367-6832.',
     url: 'https://justlegalsolutions.org/tulsa-process-server',
     siteName: 'Just Legal Solutions',
     images: [

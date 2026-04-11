@@ -15,8 +15,8 @@ import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Legal Notice Posting Service | Tulsa County, Oklahoma',
-  description: 'Expert in legal notice posting for when personal service is not possible. We ensure full compliance with Oklahoma\'s posting and mailing requirements for evictions, foreclosures, and more.',
+  title: 'Legal Notice Posting Service Tulsa County | Compliance from $60',
+  description: 'Expert legal notice posting & mailing for when personal service is not possible. Standard from $60, rush $100, same-day $150. Full Oklahoma compliance. (539) 367-6832.',
   keywords: 'legal notice posting tulsa, posting and mailing service, oklahoma rules of civil procedure, alternative service, process server tulsa',
   alternates: {
     canonical: 'https://justlegalsolutions.org/seo/legal-posting-process-server'

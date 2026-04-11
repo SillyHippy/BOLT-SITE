@@ -10,8 +10,8 @@ import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Sapulpa Legal Document Delivery | Process Serving Services',
-  description: 'Sapulpa’s legal document specialists—serving historic downtown, neighborhoods, and rural addresses. We know Creek County courts and deliver court papers with local expertise and a commitment to Sapulpa’s unique community.',
+  title: 'Process Server Sapulpa, OK | Same-Day Service from $60 | Just Legal Solutions',
+  description: 'Licensed process server in Sapulpa, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving Creek County (county seat) & all 77 OK counties. (539) 367-6832',
   keywords: 'process server sapulpa, legal document service sapulpa, serve papers sapulpa, court documents sapulpa, subpoena service sapulpa, eviction notice sapulpa, emergency process server sapulpa, 24/7 process server oklahoma, licensed process server creek county, professional process server sapulpa',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',

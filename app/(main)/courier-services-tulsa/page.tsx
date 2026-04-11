@@ -5,8 +5,8 @@ import Link from 'next/link';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
-  title: 'Legal Courier Services Tulsa | Courthouse Filing & Document Delivery 2026',
-  description: 'Professional legal courier services in Tulsa County: same-day courthouse filing, file-stamped copy retrieval, and secure legal document delivery. Starting at $30. 24/7 emergency available.',
+  title: 'Legal Courier Services Tulsa | Same-Day Courthouse Filing from $30 | Just Legal Solutions',
+  description: 'Professional legal courier in Tulsa County: same-day courthouse filing, file-stamped copy retrieval & secure document delivery. From $30. All 77 OK counties. (539) 367-6832.',
   keywords: 'legal courier services, legal courier tulsa, courthouse filing service, legal document delivery, court filing services, same-day courier Oklahoma, secure document transport, legal courier Tulsa County',
   alternates: {
     canonical: 'https://justlegalsolutions.org/courier-services-tulsa'

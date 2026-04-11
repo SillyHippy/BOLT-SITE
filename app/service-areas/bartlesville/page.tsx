@@ -7,8 +7,8 @@ import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Bartlesville Process Server | Legal Document Service',
-  description: 'Bartlesville’s legal document service for Washington County—serving historic neighborhoods, oil industry offices, and family homes. Rely on our local experience for prompt, discreet, and professional process serving.',
+  title: 'Process Server Bartlesville, OK | Same-Day Service from $60 | Just Legal Solutions',
+  description: 'Licensed process server in Bartlesville, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving Washington County & all 77 OK counties. (539) 367-6832',
   keywords: 'process server bartlesville, legal document service bartlesville, serve papers bartlesville, court documents bartlesville, subpoena service bartlesville, eviction notice bartlesville, licensed process server oklahoma, professional process server tulsa county',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',

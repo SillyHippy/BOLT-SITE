@@ -7,9 +7,9 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
 
 // ─── SEO Metadata ────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
-  title: 'Eviction Notice Process Server Tulsa County | Same-Day Service',
+  title: 'Eviction Notice Process Server Tulsa County | Same-Day Service from $60',
   description:
-    'Tulsa County eviction notice process server offering same-day and rush service. Properly documented eviction notice delivery for landlords, property managers, and attorneys across Oklahoma.',
+    'Tulsa County eviction notice process server. Same-day & rush service. Standard from $60, rush $100, same-day $150. Properly documented affidavits. (539) 367-6832.',
   keywords:
     'tulsa eviction notice process server, eviction notice service tulsa county, oklahoma eviction notice service, eviction process server tulsa, serve eviction notice tulsa, notice to quit process server oklahoma, landlord tenant process server tulsa county',
   alternates: {

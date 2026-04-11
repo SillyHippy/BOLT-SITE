@@ -10,8 +10,8 @@ import UnifiedSchema from '@/components/UnifiedSchema';
 import AIVoiceSupremacy from '@/components/ui/ai-voice-supremacy';
 
 export const metadata: Metadata = {
-  title: 'Ultimate Guide to Process Serving in Oklahoma 2026 | Licensed & Bonded',
-  description: 'Complete 2026 guide to Oklahoma process serving. Licensed professionals serving all 77 counties. Same-day service available. $79-225. Updated costs, gig platforms & renewal info.',
+  title: 'Ultimate Guide to Process Serving in Oklahoma | Licensed & Bonded | Just Legal Solutions',
+  description: 'Complete Oklahoma process serving guide. Licensed professionals serving all 77 counties. Standard from $60, rush $100, same-day $150. GPS-tracked affidavits. Call (539) 367-6832.',
   keywords: [
     'oklahoma process serving guide',
     'oklahoma process server laws',
@@ -241,7 +241,7 @@ export default function UltimateGuidePage() {
                   </tr>
                   <tr className="border-b border-gray-200">
                     <td className="py-3 px-4 font-medium">Bond Sources</td>
-                    <td className="py-3 px-4">Local agents, <a href="https://www.suretybonds.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">SuretyBonds.com</a>, etc.</td>
+                    <td className="py-3 px-4">Local agents, <a href="https://www.suretybonds.com" target="_blank" rel="nofollow noopener noreferrer" className="text-blue-600 hover:underline">SuretyBonds.com</a>, etc.</td>
                   </tr>
                   <tr className="border-b border-gray-200">
                     <td className="py-3 px-4 font-medium">Publication Cost</td>
@@ -498,7 +498,7 @@ export default function UltimateGuidePage() {
                         <AlertTriangle className="h-4 w-4" /> Step 2: Secure Your $5,000 Bond (CRITICAL)
                       </h4>
                       <p className="text-sm text-gray-700 mt-2 font-medium">First, call your local courthouse to ask when the next available court date for process server licensing is.</p>
-                      <p className="text-sm text-gray-600 mt-2">Next, get a surety bond from <a href="https://www.suretybonds.com/states/oklahoma/process-server-bond" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:underline">SuretyBonds.com</a> or a local agent. <strong>Your bond MUST go into effect the EXACT SAME DAY as your court date.</strong> If it is before or after, it will be rejected and you will have to call to get it amended.</p>
+                      <p className="text-sm text-gray-600 mt-2">Next, get a surety bond from <a href="https://www.suretybonds.com/states/oklahoma/process-server-bond" target="_blank" rel="nofollow noopener noreferrer" className="text-purple-600 hover:underline">SuretyBonds.com</a> or a local agent. <strong>Your bond MUST go into effect the EXACT SAME DAY as your court date.</strong> If it is before or after, it will be rejected and you will have to call to get it amended.</p>
                       <p className="text-xs text-red-600 mt-1 font-bold">Timeline: 1-3 days • Typical Cost: $50</p>
                     </div>
                   </div>
@@ -1629,7 +1629,7 @@ export default function UltimateGuidePage() {
               <h4 className="font-bold text-purple-800 mb-3">Where to Obtain Your Bond</h4>
               <ul className="text-sm space-y-2">
                 <li>• <strong>Local insurance/surety agents</strong> in your county (often bundle with E&O insurance)</li>
-                <li>• <strong>Online providers:</strong> <a href="https://www.suretybonds.com/states/oklahoma/process-server-bond" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">SuretyBonds.com</a> ($50 for 1-year term, $150 for 3-year renewal) and similar marketplaces</li>
+                <li>• <strong>Online providers:</strong> <a href="https://www.suretybonds.com/states/oklahoma/process-server-bond" target="_blank" rel="nofollow noopener noreferrer" className="text-blue-600 hover:underline">SuretyBonds.com</a> ($50 for 1-year term, $150 for 3-year renewal) and similar marketplaces</li>
                 <li>• Most providers file directly with courts or provide e-copies for e-filing</li>
               </ul>
               <p className="text-sm mt-3 text-purple-900">
@@ -1901,7 +1901,7 @@ export default function UltimateGuidePage() {
               <div className="bg-gradient-to-r from-blue-50 to-blue-100 border border-blue-300 p-5 rounded-lg">
                 <div className="flex items-start justify-between mb-3">
                   <h4 className="font-bold text-blue-900 text-lg">ABC Legal</h4>
-                  <a href="https://www.abclegal.com/serve" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline text-sm font-semibold">
+                  <a href="https://www.abclegal.com/serve" target="_blank" rel="nofollow noopener noreferrer" className="text-blue-600 hover:underline text-sm font-semibold">
                     Become a contractor →
                   </a>
                 </div>
@@ -1932,7 +1932,7 @@ export default function UltimateGuidePage() {
               <div className="bg-gradient-to-r from-green-50 to-green-100 border border-green-300 p-5 rounded-lg">
                 <div className="flex items-start justify-between mb-3">
                   <h4 className="font-bold text-green-900 text-lg">ServeNow</h4>
-                  <a href="https://www.serve-now.com/join" target="_blank" rel="noopener noreferrer" className="text-green-600 hover:underline text-sm font-semibold">
+                  <a href="https://www.serve-now.com/join" target="_blank" rel="nofollow noopener noreferrer" className="text-green-600 hover:underline text-sm font-semibold">
                     Join network →
                   </a>
                 </div>
@@ -1963,7 +1963,7 @@ export default function UltimateGuidePage() {
               <div className="bg-gradient-to-r from-purple-50 to-purple-100 border border-purple-300 p-5 rounded-lg">
                 <div className="flex items-start justify-between mb-3">
                   <h4 className="font-bold text-purple-900 text-lg">Proof (formerly Proof Serve)</h4>
-                  <a href="https://www.proofserve.com/how-it-works" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:underline text-sm font-semibold">
+                  <a href="https://www.proofserve.com/how-it-works" target="_blank" rel="nofollow noopener noreferrer" className="text-purple-600 hover:underline text-sm font-semibold">
                     How it works →
                   </a>
                 </div>

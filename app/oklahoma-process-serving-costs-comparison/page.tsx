@@ -7,8 +7,8 @@ import Image from 'next/image';
 const canonicalUrl = 'https://justlegalsolutions.org/oklahoma-process-serving-costs-comparison';
 
 export const metadata: Metadata = {
-  title: 'Oklahoma Process Serving Costs by County (Updated 2026): Complete Pricing Analysis & Budget Guide',
-  description: 'Understanding process serving costs across Oklahoma&rsquo;s 77 counties helps attorneys and law firms budget effectively while ensuring quality service. This comprehensive analysis examines current 2026 pricing structures, geographic variations, and hidden costs that impact your legal service budget.',
+  title: 'Oklahoma Process Serving Costs by County | $60–$150 Pricing Guide | Just Legal Solutions',
+  description: 'Compare Oklahoma process server costs across all 77 counties. Standard from $60, rush $100, same-day $150. Transparent pricing for attorneys & law firms. Call (539) 367-6832.',
   keywords: 'Oklahoma process serving costs, county pricing comparison, legal service budget, process server fees by county, Tulsa county rates, Oklahoma legal costs',
   authors: [{ name: 'Just Legal Solutions Team' }],
   openGraph: {

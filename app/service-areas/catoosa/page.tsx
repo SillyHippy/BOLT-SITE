@@ -8,8 +8,8 @@ import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Catoosa Court Papers & Evictions | Process Serving Service',
-  description: 'Catoosa’s legal document delivery—serving families, businesses, and the Port of Catoosa. We cover Cherokee Hills, downtown, and all neighborhoods with local knowledge, speed, and reliability throughout Rogers County.',
+  title: 'Process Server Catoosa, OK | Same-Day Service from $60 | Just Legal Solutions',
+  description: 'Licensed process server in Catoosa, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving Rogers County & all 77 OK counties. (539) 367-6832',
   keywords: 'process server catoosa, legal document service catoosa, serve papers catoosa, court documents catoosa, subpoena service catoosa, eviction notice catoosa, emergency process server catoosa, 24/7 process server oklahoma, licensed process server rogers county, professional process server catoosa',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',

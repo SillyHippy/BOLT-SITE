@@ -24,11 +24,9 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
-  const content = getCountyContent(slug);
-  const title = extractTitle(content) || `Process Server ${slugToCountyName(slug)}`;
-  const description =
-    extractDescription(content) ||
-    `Licensed process server throughout ${slugToCountyName(slug)}, Oklahoma. Same-day service available.`;
+  const countyName = slugToCountyName(slug);
+  const title = `Process Server ${countyName}, OK | Same-Day Service from $60 | Just Legal Solutions`;
+  const description = `Licensed process server in ${countyName}, Oklahoma. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832`;
 
   return {
     title,

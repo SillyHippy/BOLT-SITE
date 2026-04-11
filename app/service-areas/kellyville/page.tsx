@@ -12,8 +12,8 @@ import { Footer } from '@/components/ui/footer';
 import GoogleMapsEmbed from '@/components/ui/google-maps-embed';
 
 export const metadata: Metadata = {
-  title: 'Kellyville Process Server | Legal Document Service',
-  description: 'Kellyville’s go-to process server for rural properties, farms, and small-town businesses. We serve all of Creek County, navigating country roads and local communities with care, speed, and personal attention.',
+  title: 'Process Server Kellyville, OK | Same-Day Service from $60 | Just Legal Solutions',
+  description: 'Licensed process server in Kellyville, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving Creek County & all 77 OK counties. (539) 367-6832',
   keywords: 'process server kellyville, legal document service kellyville, serve papers kellyville, court documents kellyville, subpoena service kellyville, eviction notice kellyville, emergency process server kellyville, 24/7 process server oklahoma, licensed process server creek county, professional process server kellyville',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',

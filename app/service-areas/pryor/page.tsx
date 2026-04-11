@@ -10,8 +10,8 @@ import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Pryor Oklahoma Legal Papers Service | Divorce & Eviction Documents',
-  description: 'Legal document delivery in Pryor, Oklahoma—trusted by local families, businesses, and rural landowners. We serve Mayes County with deep knowledge of Pryor Creek, area courts, and fast, accurate service for every neighborhood.',
+  title: 'Process Server Pryor, OK | Same-Day Service from $60 | Just Legal Solutions',
+  description: 'Licensed process server in Pryor, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving Mayes County & all 77 OK counties. (539) 367-6832',
   keywords: 'process server pryor, legal document service pryor, serve papers pryor, court documents pryor, subpoena service pryor, eviction notice pryor, emergency process server pryor, 24/7 process server oklahoma, licensed process server mayes county, professional process server pryor',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',

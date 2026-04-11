@@ -11,11 +11,8 @@ import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Jenks Legal Papers Service | Divorce & Court Documents',
-  description: getPromoDescription(
-    'Jenks process server—delivering divorce papers, family law documents, and court notices across Jenks schools, neighborhoods, and businesses. Rely on our local knowledge and 24/7 service for secure, prompt delivery.',
-    '30% OFF for Jenks residents! Process server delivering divorce papers, family law documents, and court notices across Jenks schools, neighborhoods, and businesses. Local knowledge and 24/7 service for secure, prompt delivery.'
-  ),
+  title: 'Process Server Jenks, OK | Same-Day Service from $60 | Just Legal Solutions',
+  description: 'Licensed process server in Jenks, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Near Oklahoma Aquarium & Riverwalk. Tulsa County + all 77 OK counties. (539) 367-6832',
   keywords: 'process server jenks, legal document service jenks, serve papers jenks, court documents jenks, subpoena service jenks, eviction notice jenks, emergency process server jenks, 24/7 process server oklahoma, licensed process server tulsa county, professional process server jenks',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',

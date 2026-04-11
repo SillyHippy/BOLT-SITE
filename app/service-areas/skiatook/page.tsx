@@ -10,8 +10,8 @@ import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Skiatook Process Server | Legal Document Service',
-  description: 'Process serving in Skiatook, Oklahoma—covering Osage and Tulsa County, lakeside homes, and rural businesses. We deliver legal documents with insight into Skiatook Lake, local courts, and the needs of the community.',
+  title: 'Process Server Skiatook, OK | Same-Day Service from $60 | Just Legal Solutions',
+  description: 'Licensed process server in Skiatook, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Near Skiatook Lake. Tulsa County + all 77 OK counties. (539) 367-6832',
   keywords: 'process server skiatook, legal document service skiatook, serve papers skiatook, court documents skiatook, subpoena service skiatook, eviction notice skiatook, emergency process server skiatook, 24/7 process server oklahoma, licensed process server tulsa county, professional process server skiatook',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',

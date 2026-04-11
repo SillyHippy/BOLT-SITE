@@ -8,8 +8,8 @@ import Footer from '@/components/ui/footer';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
-  title: 'Bristow Process Server | Legal Document Service',
-  description: 'Bristow’s legal document service—serving small towns, farms, and rural homes across Creek County. We focus on Bristow’s unique community, delivering court papers and legal documents with local care.',
+  title: 'Process Server Bristow, OK | Same-Day Service from $60 | Just Legal Solutions',
+  description: 'Licensed process server in Bristow, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving Creek County & all 77 OK counties. (539) 367-6832',
   keywords: 'process server bristow, legal document service bristow, serve papers bristow, court documents bristow, subpoena service bristow, eviction notice bristow, emergency process server bristow, 24/7 process server oklahoma, licensed process server creek county, professional process server bristow',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',

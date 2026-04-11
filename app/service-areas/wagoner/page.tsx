@@ -10,8 +10,8 @@ import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Wagoner Process Server | Legal Document Service',
-  description: 'Wagoner’s process server for families, businesses, and rural properties—serving all of Wagoner County, including Porter, Redbird, and Fort Gibson Lake. Fast, discreet, and always reliable with true local expertise.',
+  title: 'Process Server Wagoner, OK | Same-Day Service from $60 | Just Legal Solutions',
+  description: 'Licensed process server in Wagoner, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving Wagoner County & all 77 OK counties. (539) 367-6832',
   keywords: 'process server wagoner, legal document service wagoner, serve papers wagoner, court documents wagoner, subpoena service wagoner, eviction notice wagoner, emergency process server wagoner, 24/7 process server oklahoma, licensed process server wagoner county, professional process server wagoner',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',

@@ -7,8 +7,8 @@ import JsonLd from '../../components/JsonLd';
 const canonicalUrl = 'https://justlegalsolutions.org/family-law-service-guide-tulsa';
 
 export const metadata: Metadata = {
-  title: 'Family Law Service Guide Tulsa (Updated 2026)',
-  description: 'Expert guide to serving protective orders and divorce papers in Tulsa County. Current family law service requirements, safety protocols, and procedures for 2026.',
+  title: 'Family Law Process Serving Guide Tulsa | Divorce & Protective Orders | Just Legal Solutions',
+  description: 'Expert guide to serving protective orders, divorce papers & family law documents in Tulsa County. Standard from $60, same-day $150. Licensed, GPS-tracked. (539) 367-6832.',
   keywords: 'family law service, Tulsa County, protective orders, divorce papers, process server, Oklahoma,  2026',
   authors: [{ name: 'Just Legal Solutions Team' }],
   openGraph: {
