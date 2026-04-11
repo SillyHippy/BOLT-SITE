@@ -212,7 +212,7 @@ export default function OklahomaCaseLawServiceProcess() {
               <h3 className="font-bold text-blue-800 mb-1">Ultimate Guide to Process Serving in Oklahoma</h3>
               <p className="text-sm text-gray-600">Comprehensive 2026 resource covering laws, procedures, costs, and best practices.</p>
             </a>
-            <a href="/oklahoma-process-server-best-practices-checklist-2026" className="block bg-white border border-gray-200 p-5 rounded-lg hover:shadow-md transition-shadow">
+            <a href="/oklahoma-process-server-best-practices-checklist" className="block bg-white border border-gray-200 p-5 rounded-lg hover:shadow-md transition-shadow">
               <h3 className="font-bold text-blue-800 mb-1">Best Practices Checklist 2026</h3>
               <p className="text-sm text-gray-600">Professional checklist for documentation, service methods, and compliance standards.</p>
             </a>

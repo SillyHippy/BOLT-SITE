@@ -15,6 +15,8 @@ const StaticSiteOptimizer = dynamic(() => import('@/components/StaticSiteOptimiz
 
 const StickyMobileCTA = dynamic(() => import('@/components/ui/sticky-mobile-cta'));
 
+const DeferredLoader = dynamic(() => import('@/components/DeferredLoader'));
+
 const inter = Inter({
   subsets: ['latin'],
   display: 'swap',
@@ -125,8 +127,8 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="//www.youtube.com" />
         <meta name="cache-version" content="2026-01-25-v11-year-update" />
 
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-984ZD882EX" strategy="afterInteractive" />
-        <Script id="google-analytics" strategy="afterInteractive">
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-984ZD882EX" strategy="lazyOnload" />
+        <Script id="google-analytics" strategy="lazyOnload">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
@@ -141,7 +143,7 @@ export default function RootLayout({
           `}
         </Script>
         {/* Simple Analytics - 100% privacy-first analytics */}
-        <Script src="https://scripts.simpleanalyticscdn.com/latest.js" data-collect-dnt="true" strategy="afterInteractive" />
+        <Script src="https://scripts.simpleanalyticscdn.com/latest.js" data-collect-dnt="true" strategy="lazyOnload" />
 
         {/* LLM Discovery - Legitimate emerging standard */}
         <link rel="alternate" type="text/plain" href="/llms.txt" title="LLM Information" />
@@ -149,7 +151,9 @@ export default function RootLayout({
       </head>
       <body className={inter.className} suppressHydrationWarning>
         <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-[9999] focus:bg-blue-600 focus:text-white focus:px-4 focus:py-2 focus:rounded focus:text-sm focus:font-semibold">Skip to main content</a>
-        <StaticSiteOptimizer />
+        <DeferredLoader delay={2500}>
+          <StaticSiteOptimizer />
+        </DeferredLoader>
         <WebsiteSchema />
         {/* Simple Analytics noscript fallback */}
         <noscript>
@@ -163,8 +167,10 @@ export default function RootLayout({
           />
         </noscript>
         {children}
+        
         <StickyMobileCTA />
       </body>
     </html>
   );
 }
+

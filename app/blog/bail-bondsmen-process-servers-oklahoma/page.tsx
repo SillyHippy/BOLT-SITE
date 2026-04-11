@@ -362,7 +362,7 @@ export default function BailBondsmenProcessServersOklahoma() {
               <li><Link href="/skip-tracing" className="text-blue-600 hover:underline">Skip Tracing Services in Oklahoma</Link> – Learn how professional skip tracing helps locate hard-to-find defendants</li>
               <li><Link href="/process-serving" className="text-blue-600 hover:underline">Professional Process Serving in Tulsa</Link> – Understanding proper service of legal documents in Oklahoma</li>
               <li><Link href="/gps-tracked-process-serving" className="text-blue-600 hover:underline">GPS-Tracked Process Serving</Link> – How technology ensures accountability and proof of service</li>
-              <li><Link href="/oklahoma-process-server-faq-2026" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ (2026)</Link> – Common questions about process serving in Oklahoma</li>
+              <li><Link href="/oklahoma-process-server-faq" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ (2026)</Link> – Common questions about process serving in Oklahoma</li>
             </ul>
 
             <h2>Need Bail Bond Process Serving in Oklahoma?</h2>
@@ -405,7 +405,7 @@ export default function BailBondsmenProcessServersOklahoma() {
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">GPS-Tracked Process Serving</span>
                 <p className="text-sm text-gray-600 mt-1">– How technology ensures accountability and proof of service</p>
               </Link>
-              <Link href="/oklahoma-process-server-faq-2026" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+              <Link href="/oklahoma-process-server-faq" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server FAQ (2026)</span>
                 <p className="text-sm text-gray-600 mt-1">– Common questions about process serving in Oklahoma</p>
               </Link>

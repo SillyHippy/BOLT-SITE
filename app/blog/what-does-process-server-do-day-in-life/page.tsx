@@ -66,7 +66,7 @@ const faqs: { question: string; answer: string }[] = [
   },
   {
     question: "What should I do if a process server comes to my door?",
-    answer: "If a process server comes to your door: 1. Verify their identity – Ask for identification and their process server license 2. Accept the documents – Refusing service doesn't stop the legal process 3. Read the documents carefully – They explain what the case is about and your deadlines 4. Contact an attorney – Don't wait; legal deadlines are serious 5. Don't panic – Being served is a normal part of the legal process For more answers, visit our [Oklahoma Process Server FAQ](/oklahoma-process-server-faq-2026)."
+    answer: "If a process server comes to your door: 1. Verify their identity – Ask for identification and their process server license 2. Accept the documents – Refusing service doesn't stop the legal process 3. Read the documents carefully – They explain what the case is about and your deadlines 4. Contact an attorney – Don't wait; legal deadlines are serious 5. Don't panic – Being served is a normal part of the legal process For more answers, visit our [Oklahoma Process Server FAQ](/oklahoma-process-server-faq)."
   }
 ];
 
@@ -296,7 +296,7 @@ export default function WhatDoesProcessServerDoDayInLife() {
               <li><Link href="/gps-tracked-process-serving" className="text-blue-600 hover:underline">GPS-Tracked Process Serving</Link> – How we document every attempt with precision</li>
               <li><Link href="/skip-tracing" className="text-blue-600 hover:underline">Skip Tracing Services</Link> – Finding people who don&apos;t want to be found</li>
               <li><Link href="/blog/understanding-the-affidavit-of-service" className="text-blue-600 hover:underline">Understanding the Affidavit of Service</Link> – Documentation that holds up in court</li>
-              <li><Link href="/oklahoma-process-server-faq-2026" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ (2026)</Link> – Answers to common questions</li>
+              <li><Link href="/oklahoma-process-server-faq" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ (2026)</Link> – Answers to common questions</li>
             </ul>
 
             <h2>Want to See Process Serving in Action?</h2>
@@ -334,7 +334,7 @@ export default function WhatDoesProcessServerDoDayInLife() {
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Understanding the Affidavit of Service</span>
                 <p className="text-sm text-gray-600 mt-1">– Documentation that holds up in court</p>
               </Link>
-              <Link href="/oklahoma-process-server-faq-2026" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+              <Link href="/oklahoma-process-server-faq" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server FAQ (2026)</span>
                 <p className="text-sm text-gray-600 mt-1">– Answers to common questions</p>
               </Link>

@@ -572,7 +572,7 @@ export default function NotaryFAQPage() {
                 </h3>
                 <ul className="space-y-3">
                   <li><Link href="/oklahoma-process-server-pricing" className="text-blue-600 hover:underline">Process Server Pricing Guide</Link></li>
-                  <li><Link href="/oklahoma-process-server-faq-2026" className="text-blue-600 hover:underline">Process Server FAQ 2026</Link></li>
+                  <li><Link href="/oklahoma-process-server-faq" className="text-blue-600 hover:underline">Process Server FAQ 2026</Link></li>
                   <li><Link href="/service-areas" className="text-blue-600 hover:underline">Oklahoma Service Areas</Link></li>
                   <li><Link href="/contact" className="text-blue-600 hover:underline">Contact Us</Link></li>
                 </ul>

@@ -439,7 +439,7 @@ export default function OklahomaLandlordTenantEvictionTimelines() {
               <li><Link href="/eviction-notice-service" className="text-blue-600 hover:underline">Eviction Notice Service in Oklahoma</Link> &mdash; Learn about professional service options for all types of eviction notices</li>
               <li><Link href="/process-serving-for-property-managers" className="text-blue-600 hover:underline">Process Serving for Property Managers</Link> &mdash; Specialized services for Oklahoma property management companies</li>
               <li><Link href="/blog/how-to-serve-eviction-notices-in-oklahoma" className="text-blue-600 hover:underline">How to Serve Eviction Notices in Oklahoma</Link> &mdash; Step-by-step guide to proper notice service</li>
-              <li><Link href="/oklahoma-process-server-faq-2026" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ (2026)</Link> &mdash; Common questions about legal document service</li>
+              <li><Link href="/oklahoma-process-server-faq" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ (2026)</Link> &mdash; Common questions about legal document service</li>
             </ul>
             <p>For official legal information, consult the <a href="https://www.oscn.net/applications/oscn/deliverdocument.asp?cite=410S1" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Oklahoma Statutes Title 41</a> through the Oklahoma State Courts Network.</p>
             <p>Eviction cases live or die on proper notice service. One procedural error can force you to restart the entire process, costing weeks of lost rent and additional filing fees. At Just Legal Solutions, we specialize in serving eviction notices throughout Tulsa County and surrounding areas with the speed and documentation you need for court.</p>
@@ -481,7 +481,7 @@ export default function OklahomaLandlordTenantEvictionTimelines() {
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">How to Serve Eviction Notices in Oklahoma</span>
                 <p className="text-sm text-gray-600 mt-1">Step-by-step guide to proper notice service</p>
               </Link>
-              <Link href="/oklahoma-process-server-faq-2026" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+              <Link href="/oklahoma-process-server-faq" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server FAQ (2026)</span>
                 <p className="text-sm text-gray-600 mt-1">Common questions about legal document service</p>
               </Link>

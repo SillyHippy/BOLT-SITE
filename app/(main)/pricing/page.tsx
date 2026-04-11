@@ -619,7 +619,7 @@ export default function PricingPage() {
                 <h3 className="font-semibold text-blue-800">Oklahoma Process Serving Costs Comparison</h3>
                 <p className="text-sm text-gray-600 mt-1">Compare process serving fees across Oklahoma providers</p>
               </Link>
-              <Link href="/oklahoma-process-server-faq-2026" className="block p-4 bg-gray-50 rounded-lg border border-gray-200 hover:border-blue-300 hover:shadow-md transition-all">
+              <Link href="/oklahoma-process-server-faq" className="block p-4 bg-gray-50 rounded-lg border border-gray-200 hover:border-blue-300 hover:shadow-md transition-all">
                 <h3 className="font-semibold text-blue-800">Process Server FAQ 2026</h3>
                 <p className="text-sm text-gray-600 mt-1">Answers to frequently asked questions about Oklahoma process serving</p>
               </Link>

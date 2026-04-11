@@ -125,7 +125,7 @@ export default function OklahomaProcessServerLaws() {
                 In Oklahoma, the rules for serving legal documents are primarily found in <strong>Title 12 of the Oklahoma Statutes (Civil Procedure)</strong>. The most critical sections are <strong>§ 2004</strong> (personal and substituted service) and <strong>§ 2004.5</strong> (electronic service). These outline how process must be served, who can serve it, and how proof of service must be filed.
               </p>
               <p>
-                Unlike some states where rules vary wildly by city, these statutes are <strong>statewide laws</strong>. While individual counties (like Tulsa or Oklahoma County) may have their own administrative procedures for processing license applications, the substantive laws governing <em>how</em> you serve a defendant are consistent across all 77 counties. Licensing and bonding standards (age, residency, bond amount) are set by state law—not by individual counties. For answers to common questions, see our <Link href="/oklahoma-process-server-faq-2026" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ</Link>.
+                Unlike some states where rules vary wildly by city, these statutes are <strong>statewide laws</strong>. While individual counties (like Tulsa or Oklahoma County) may have their own administrative procedures for processing license applications, the substantive laws governing <em>how</em> you serve a defendant are consistent across all 77 counties. Licensing and bonding standards (age, residency, bond amount) are set by state law—not by individual counties. For answers to common questions, see our <Link href="/oklahoma-process-server-faq" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ</Link>.
               </p>
 
               <hr className="my-8 border-gray-200" />
@@ -211,7 +211,7 @@ export default function OklahomaProcessServerLaws() {
               <div className="mt-10 bg-blue-50 rounded-lg p-6 border border-blue-100">
                 <h3 className="text-lg font-bold text-slate-900 mb-2">Related Resources</h3>
                 <ul className="text-sm space-y-2">
-                  <li><Link href="/oklahoma-process-server-faq-2026" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ 2026</Link> — Common questions about costs, timelines, and licensing.</li>
+                  <li><Link href="/oklahoma-process-server-faq" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ 2026</Link> — Common questions about costs, timelines, and licensing.</li>
                   <li><Link href="/tulsa-process-server" className="text-blue-600 hover:underline">Tulsa Process Server</Link> — Same-day service throughout Tulsa County.</li>
                   <li><Link href="/service-areas" className="text-blue-600 hover:underline">Oklahoma Service Areas</Link> — All 77 counties with flat-rate pricing.</li>
                   <li><Link href="/oklahoma-electronic-service-guide" className="text-blue-600 hover:underline">Electronic Service Guide</Link> — When email or e-filing is permitted under 12 O.S. § 2004.5.</li>

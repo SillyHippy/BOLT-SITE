@@ -353,7 +353,7 @@ export default function RealEstateAgentsProcessServingOklahoma() {
             <ul>
               <li><Link href="/process-serving-for-property-managers" className="text-blue-600 hover:underline">Process Serving for Property Managers</Link> - Specialized service requirements for property management disputes, evictions, and tenant matters</li>
               <li><Link href="/process-serving" className="text-blue-600 hover:underline">Oklahoma Process Serving Services</Link> - How our licensed process servers handle real estate litigation service throughout Oklahoma</li>
-              <li><Link href="/oklahoma-process-server-faq-2026" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ (2026)</Link> - Answers to common questions about service of process timelines, methods, and requirements</li>
+              <li><Link href="/oklahoma-process-server-faq" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ (2026)</Link> - Answers to common questions about service of process timelines, methods, and requirements</li>
               <li><Link href="/blog/how-to-serve-small-claims-oklahoma" className="text-blue-600 hover:underline">How to Serve Small Claims in Oklahoma</Link> - Step-by-step guide for serving small claims cases, including landlord-tenant and property damage disputes</li>
             </ul>
 
@@ -394,7 +394,7 @@ export default function RealEstateAgentsProcessServingOklahoma() {
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Serving Services</span>
                 <p className="text-sm text-gray-600 mt-1">How our licensed process servers handle real estate litigation service throughout Oklahoma</p>
               </Link>
-              <Link href="/oklahoma-process-server-faq-2026" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+              <Link href="/oklahoma-process-server-faq" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server FAQ (2026)</span>
                 <p className="text-sm text-gray-600 mt-1">Answers to common questions about service of process timelines, methods, and requirements</p>
               </Link>

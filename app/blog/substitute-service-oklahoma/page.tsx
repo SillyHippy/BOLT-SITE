@@ -442,7 +442,7 @@ export default function SubstituteServiceOklahoma() {
             <ul>
               <li><Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma Process Server Laws 2026</Link> &mdash; Complete guide to service requirements statewide</li>
               <li><Link href="/blog/understanding-the-affidavit-of-service" className="text-blue-600 hover:underline">Understanding the Affidavit of Service</Link> &mdash; How to document service properly</li>
-              <li><Link href="/oklahoma-process-server-faq-2026" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ 2026</Link> &mdash; Answers to common questions about process serving</li>
+              <li><Link href="/oklahoma-process-server-faq" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ 2026</Link> &mdash; Answers to common questions about process serving</li>
               <li><Link href="/process-serving" className="text-blue-600 hover:underline">Tulsa Process Server Services</Link> &mdash; Same-day service throughout Tulsa County</li>
             </ul>
             <p>For the complete text of Oklahoma&apos;s service of process statutes, visit the <a href="https://www.oscn.net" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Oklahoma State Courts Network</a>.</p>
@@ -483,7 +483,7 @@ export default function SubstituteServiceOklahoma() {
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Understanding the Affidavit of Service</span>
                 <p className="text-sm text-gray-600 mt-1">How to document service properly</p>
               </Link>
-              <Link href="/oklahoma-process-server-faq-2026" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+              <Link href="/oklahoma-process-server-faq" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server FAQ 2026</span>
                 <p className="text-sm text-gray-600 mt-1">Answers to common questions about process serving</p>
               </Link>

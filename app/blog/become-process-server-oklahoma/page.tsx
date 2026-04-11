@@ -18,13 +18,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'How to Become a Process Server in Oklahoma (2026) | Complete Guide',
     description: 'Want to become a process server in Oklahoma? Learn license requirements, CLEET certification, surety bonds, costs, training, and what the job is really like.',
-    url: 'https://justlegalsolutions.org/blog/become-process-server-oklahoma-2026',
+    url: 'https://justlegalsolutions.org/blog/become-process-server-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
     images: [{ url: 'https://justlegalsolutions.org/og-image.png', width: 1200, height: 630, alt: 'How to Become a Process Server in Oklahoma' }],
   },
-  alternates: { canonical: 'https://justlegalsolutions.org/blog/become-process-server-oklahoma-2026' },
+  alternates: { canonical: 'https://justlegalsolutions.org/blog/become-process-server-oklahoma' },
   other: {
     'article:published_time': '2026-04-08',
     'article:modified_time': '2026-04-08',
@@ -77,14 +77,14 @@ export default function BecomeProcessServerOklahoma2026() {
         pageType="article"
         pageTitle="How to Become a Process Server in Oklahoma (2026) | Complete Guide"
         pageDescription="Want to become a process server in Oklahoma? Learn license requirements, CLEET certification, surety bonds, costs, training, and what the job is really like."
-        pageUrl="https://justlegalsolutions.org/blog/become-process-server-oklahoma-2026"
+        pageUrl="https://justlegalsolutions.org/blog/become-process-server-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={156}
         services={['Process Serving', 'Legal Document Delivery', 'Same-Day Service']}
         breadcrumbs={[
           { name: 'Home', url: '/' },
           { name: 'Blog', url: '/blog' },
-          { name: 'How to Become a Process Server in Oklahoma', url: '/blog/become-process-server-oklahoma-2026' },
+          { name: 'How to Become a Process Server in Oklahoma', url: '/blog/become-process-server-oklahoma' },
         ]}
         articleDetails={{
           headline: "How to Become a Process Server in Oklahoma (2026)",
@@ -549,8 +549,8 @@ export default function BecomeProcessServerOklahoma2026() {
             <p>This makes Oklahoma one of the more accessible states for entering the process serving profession.</p>
             <ul>
               <li><Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma Process Server Laws: Complete Guide</Link> – Detailed breakdown of statutes governing process serving in Oklahoma</li>
-              <li><Link href="/oklahoma-process-server-best-practices-checklist-2026" className="text-blue-600 hover:underline">Oklahoma Process Server Best Practices Checklist 2026</Link> – Professional standards and quality guidelines</li>
-              <li><Link href="/oklahoma-process-server-faq-2026" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ 2026</Link> – Answers to common questions about process serving</li>
+              <li><Link href="/oklahoma-process-server-best-practices-checklist" className="text-blue-600 hover:underline">Oklahoma Process Server Best Practices Checklist 2026</Link> – Professional standards and quality guidelines</li>
+              <li><Link href="/oklahoma-process-server-faq" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ 2026</Link> – Answers to common questions about process serving</li>
               <li><Link href="/about" className="text-blue-600 hover:underline">About Just Legal Solutions</Link> – Learn about our licensed process serving team</li>
             </ul>
 
@@ -587,11 +587,11 @@ export default function BecomeProcessServerOklahoma2026() {
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server Laws: Complete Guide</span>
                 <p className="text-sm text-gray-600 mt-1">– Detailed breakdown of statutes governing process serving in Oklahoma</p>
               </Link>
-              <Link href="/oklahoma-process-server-best-practices-checklist-2026" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+              <Link href="/oklahoma-process-server-best-practices-checklist" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server Best Practices Checklist 2026</span>
                 <p className="text-sm text-gray-600 mt-1">– Professional standards and quality guidelines</p>
               </Link>
-              <Link href="/oklahoma-process-server-faq-2026" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+              <Link href="/oklahoma-process-server-faq" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server FAQ 2026</span>
                 <p className="text-sm text-gray-600 mt-1">– Answers to common questions about process serving</p>
               </Link>

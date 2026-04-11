@@ -223,7 +223,7 @@ export default function ServiceTimeEstimatorPage() {
               <p className="mb-3"><strong>Pro Tip:</strong> Service of process cannot be completed on Sundays in Oklahoma except under very specific court orders. If your deadline is approaching, factor the weekend out of your timeline entirely.</p>
               <div className="flex flex-wrap gap-4 mt-4 pt-4 border-t border-gray-100">
                 <Link href="/cost-calculator" className="text-indigo-600 hover:underline font-medium">Cost Calculator →</Link>
-                <Link href="/oklahoma-process-server-faq-2026" className="text-indigo-600 hover:underline font-medium">Process Server FAQ →</Link>
+                <Link href="/oklahoma-process-server-faq" className="text-indigo-600 hover:underline font-medium">Process Server FAQ →</Link>
                 <Link href="/contact" className="text-indigo-600 hover:underline font-medium">Submit Documents →</Link>
               </div>
             </div>

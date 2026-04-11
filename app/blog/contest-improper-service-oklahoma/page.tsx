@@ -376,9 +376,9 @@ export default function ContestImproperServiceOklahoma() {
             <p>For more information about Oklahoma process serving requirements and best practices, explore these related articles:</p>
             <ul>
               <li><Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma Process Server Laws</Link> - Complete guide to Oklahoma&apos;s legal requirements for service of process</li>
-              <li><Link href="/oklahoma-process-server-best-practices-checklist-2026" className="text-blue-600 hover:underline">Oklahoma Process Server Best Practices Checklist 2026</Link> - Essential compliance checklist for proper service</li>
+              <li><Link href="/oklahoma-process-server-best-practices-checklist" className="text-blue-600 hover:underline">Oklahoma Process Server Best Practices Checklist 2026</Link> - Essential compliance checklist for proper service</li>
               <li><Link href="/process-serving-mistakes-guide" className="text-blue-600 hover:underline">Process Serving Mistakes Guide</Link> - Common errors that lead to defective service and how to avoid them</li>
-              <li><Link href="/oklahoma-process-server-faq-2026" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ 2026</Link> - Answers to frequently asked questions about process serving in Oklahoma</li>
+              <li><Link href="/oklahoma-process-server-faq" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ 2026</Link> - Answers to frequently asked questions about process serving in Oklahoma</li>
             </ul>
             <p>Whether you&apos;re a plaintiff seeking to ensure your service will withstand challenge, or a defendant who believes you&apos;ve been improperly served, understanding Oklahoma&apos;s service requirements is essential. At Just Legal Solutions, we specialize in professional process serving that follows Oklahoma law to the letter.</p>
             <p>Our licensed Oklahoma process servers understand the statutory requirements under 12 O.S. § 2004 and the constitutional due process standards that courts enforce. We document every service attempt thoroughly, ensuring that if service is challenged, you&apos;ll have the evidence needed to defend it.</p>
@@ -414,7 +414,7 @@ export default function ContestImproperServiceOklahoma() {
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server Laws</span>
                 <p className="text-sm text-gray-600 mt-1">Complete guide to Oklahoma&apos;s legal requirements for service of process</p>
               </Link>
-              <Link href="/oklahoma-process-server-best-practices-checklist-2026" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+              <Link href="/oklahoma-process-server-best-practices-checklist" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server Best Practices Checklist 2026</span>
                 <p className="text-sm text-gray-600 mt-1">Essential compliance checklist for proper service</p>
               </Link>
@@ -422,7 +422,7 @@ export default function ContestImproperServiceOklahoma() {
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Process Serving Mistakes Guide</span>
                 <p className="text-sm text-gray-600 mt-1">Common errors that lead to defective service and how to avoid them</p>
               </Link>
-              <Link href="/oklahoma-process-server-faq-2026" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+              <Link href="/oklahoma-process-server-faq" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server FAQ 2026</span>
                 <p className="text-sm text-gray-600 mt-1">Answers to frequently asked questions about process serving in Oklahoma</p>
               </Link>

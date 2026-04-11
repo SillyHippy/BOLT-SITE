@@ -85,7 +85,7 @@ const featuredVideos: Video[] = [
     description: 'Everything you need to know to become a licensed process server in Oklahoma — licensing, bonding, court registration, and building your business.',
     datePublished: '2026-04-01',
     duration: 'PT14M0S',
-    relatedPage: '/blog/become-process-server-oklahoma-2026',
+    relatedPage: '/blog/become-process-server-oklahoma',
     category: 'Featured',
     isShort: false,
   },

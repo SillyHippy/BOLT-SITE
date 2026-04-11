@@ -511,7 +511,7 @@ export default function HowToFileProtectiveOrderOklahoma() {
               <li><Link href="/process-serving" className="text-blue-600 hover:underline">Process Serving in Oklahoma</Link> &mdash; Learn how legal documents are properly served throughout the state</li>
               <li><Link href="/same-day-process-server" className="text-blue-600 hover:underline">Same-Day Process Server Services</Link> &mdash; When time is critical, understand your options for urgent service</li>
               <li><Link href="/family-law-service-guide-tulsa" className="text-blue-600 hover:underline">Family Law Service Guide for Tulsa</Link> &mdash; Comprehensive information about serving family law documents</li>
-              <li><Link href="/oklahoma-process-server-faq-2026" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ (2026)</Link> &mdash; Answers to common questions about legal document service</li>
+              <li><Link href="/oklahoma-process-server-faq" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ (2026)</Link> &mdash; Answers to common questions about legal document service</li>
             </ul>
 
             <h3>External Resources</h3>
@@ -561,7 +561,7 @@ export default function HowToFileProtectiveOrderOklahoma() {
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Family Law Service Guide for Tulsa</span>
                 <p className="text-sm text-gray-600 mt-1">Comprehensive information about serving family law documents</p>
               </Link>
-              <Link href="/oklahoma-process-server-faq-2026" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+              <Link href="/oklahoma-process-server-faq" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server FAQ (2026)</span>
                 <p className="text-sm text-gray-600 mt-1">Answers to common questions about legal document service</p>
               </Link>

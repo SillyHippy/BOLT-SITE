@@ -353,7 +353,7 @@ export default function DiyVsProfessionalServiceOklahoma() {
             <ul>
               <li><Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma Process Server Laws: Complete 2026 Guide</Link> – Detailed breakdown of licensing, requirements, and regulations</li>
               <li><Link href="/blog/contest-improper-service-oklahoma" className="text-blue-600 hover:underline">How to Contest Improper Service in Oklahoma</Link> – What to do if you were served incorrectly</li>
-              <li><Link href="/oklahoma-process-server-faq-2026" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ 2026</Link> – Answers to common questions about process serving</li>
+              <li><Link href="/oklahoma-process-server-faq" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ 2026</Link> – Answers to common questions about process serving</li>
               <li><Link href="/pricing" className="text-blue-600 hover:underline">Transparent Process Server Pricing in Oklahoma</Link> – Current rates and service options</li>
               <li><Link href="/process-serving" className="text-blue-600 hover:underline">Professional Process Serving Services</Link> – How we can help with your case</li>
             </ul>
@@ -396,7 +396,7 @@ export default function DiyVsProfessionalServiceOklahoma() {
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">How to Contest Improper Service in Oklahoma</span>
                 <p className="text-sm text-gray-600 mt-1">– What to do if you were served incorrectly</p>
               </Link>
-              <Link href="/oklahoma-process-server-faq-2026" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+              <Link href="/oklahoma-process-server-faq" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server FAQ</span>
                 <p className="text-sm text-gray-600 mt-1">– Answers to common questions about process serving</p>
               </Link>

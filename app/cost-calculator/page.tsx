@@ -283,7 +283,7 @@ export default function CostCalculatorPage() {
             <div className="flex flex-wrap gap-4 mt-4 pt-4 border-t border-gray-100">
               <Link href="/pricing" className="text-blue-600 hover:underline font-medium">Full Pricing Page →</Link>
               <Link href="/contact" className="text-blue-600 hover:underline font-medium">Request Service →</Link>
-              <Link href="/oklahoma-process-server-faq-2026" className="text-blue-600 hover:underline font-medium">Process Server FAQ →</Link>
+              <Link href="/oklahoma-process-server-faq" className="text-blue-600 hover:underline font-medium">Process Server FAQ →</Link>
               <Link href="/process-server-near-me" className="text-blue-600 hover:underline font-medium">Service Areas →</Link>
             </div>
           </div>

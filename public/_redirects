@@ -21,9 +21,15 @@
 /family-law-service-guide-tulsa-2025 /family-law-service-guide-tulsa 301
 /process-serving-mistakes-guide-2025 /process-serving-mistakes-guide 301
 
-# ── 2. 2025→2026 content upgrades ───────────────────────────
-/oklahoma-process-server-faq-2025 /oklahoma-process-server-faq-2026 301
-/oklahoma-process-server-best-practices-checklist-2025 /oklahoma-process-server-best-practices-checklist-2026 301
+# ── 2. 2025→canonical content upgrades ────────────────────
+/oklahoma-process-server-faq-2025 /oklahoma-process-server-faq 301
+/oklahoma-process-server-best-practices-checklist-2025 /oklahoma-process-server-best-practices-checklist 301
+
+# ── 2b. 2026 renamed pages → canonical ─────────────────────
+/oklahoma-process-server-faq-2026 /oklahoma-process-server-faq 301
+/oklahoma-process-server-best-practices-checklist-2026 /oklahoma-process-server-best-practices-checklist 301
+/blog/become-process-server-oklahoma-2026 /blog/become-process-server-oklahoma 301
+/blog/oklahoma-eviction-moratorium-history-2026 /blog/oklahoma-eviction-moratorium-history 301
 
 # ── 3. Exact-duplicate / thin merges ────────────────────────
 /oklahoma-process-server-pricing-2026 /pricing 301
@@ -40,7 +46,7 @@
 /seo/process-server-nowata /service-areas/nowata 301
 /seo/process-server-vinita /service-areas/vinita 301
 /seo/process-server-oakhurst/ /service-areas/tulsa 301
-/seo/oklahoma-process-server-requirements/ /oklahoma-process-server-best-practices-checklist-2026 301
+/seo/oklahoma-process-server-requirements/ /oklahoma-process-server-best-practices-checklist 301
 /seo/bixby-process-server/ /service-areas/bixby 301
 /seo/jenks-process-server /service-areas/jenks 301
 /seo/process-server-jenks /service-areas/jenks 301

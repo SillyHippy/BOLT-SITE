@@ -259,7 +259,7 @@ const ToolsPage = () => {
             </Link>
 
             <Link
-              href="/oklahoma-process-server-best-practices-checklist-2026"
+              href="/oklahoma-process-server-best-practices-checklist"
               className="block bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow group"
             >
               <h3 className="font-semibold text-xl mb-2 text-blue-800 group-hover:text-blue-600 transition-colors">
