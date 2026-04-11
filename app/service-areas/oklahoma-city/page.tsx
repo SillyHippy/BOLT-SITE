@@ -127,6 +127,8 @@ export default function OklahomaCityProcessServer() {
                 <li><span className="text-blue-400">/</span></li>
                 <li><Link href="/service-areas/" className="hover:text-white transition">Service Areas</Link></li>
                 <li><span className="text-blue-400">/</span></li>
+                <li><Link href="/process-serving" className="hover:text-white transition">Process Serving</Link></li>
+                <li><span className="text-blue-400">/</span></li>
                 <li className="text-white font-medium">Oklahoma City</li>
               </ol>
             </nav>

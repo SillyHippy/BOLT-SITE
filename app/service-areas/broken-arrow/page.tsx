@@ -1097,7 +1097,8 @@ export default function BrokenArrowProcessServer() {
                 <div className="bg-white p-6 rounded-lg shadow-md">
                   <h3 className="font-bold text-lg text-blue-800 mb-3">Nearby Service Areas</h3>
                   <ul className="space-y-2 text-sm">
-                    <li><Link href="/tulsa-process-server" className="text-blue-600 hover:underline">Tulsa Process Server</Link></li>
+                    <li><Link href="/process-serving" className="text-blue-600 hover:text-blue-800 underline">process serving</Link>
+                  <Link href="/tulsa-process-server" className="text-blue-600 hover:underline">Tulsa Process Server</Link></li>
                     <li><Link href="/service-areas/bixby" className="text-blue-600 hover:underline">Bixby Process Server</Link></li>
                     <li><Link href="/service-areas/owasso" className="text-blue-600 hover:underline">Owasso Process Server</Link></li>
                     <li><Link href="/service-areas/wagoner" className="text-blue-600 hover:underline">Wagoner Process Server</Link></li>

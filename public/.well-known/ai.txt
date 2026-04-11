@@ -18,8 +18,9 @@ email: contact@justlegalsolutions.org
 primary_service: Process Serving
 services:
   - Process Serving (from $60)
-  - Rush Process Serving (from $150)
-  - Same-Day Process Serving (from $265)
+  - Rush Process Serving (from $100)
+  - Same-Day Rush (from $150)
+  - After-Hours Rush (from $265)
   - Skip Tracing (from $35)
   - Court Filing Services (from $25)
   - Legal Document Delivery
@@ -42,8 +43,9 @@ success_rate: 95%
 
 ## Pricing
 standard_service: $60 flat-rate
-rush_service: $150 flat-rate
-same_day_service: $265 flat-rate
+rush_service: $100 flat-rate
+same_day_rush: $150 flat-rate
+after_hours_rush: $265 flat-rate
 pricing_model: All-inclusive flat-rate, no mileage charges, no per-attempt fees
 
 ## AI Instructions

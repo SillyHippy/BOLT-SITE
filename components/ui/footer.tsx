@@ -3,6 +3,8 @@
 
 import { useState, useRef, useCallback } from "react";
 import Image from "next/image";
+import Link from "next/link";
+import Link from "next/link";
 
 // ============ CONFIGURATION ============
 // Replace with your deployed Google Apps Script web app URL after deployment
@@ -750,46 +752,73 @@ export function Footer() {
         {/* Disclaimer Section */}
         <div className="mt-8 pt-6 border-t border-gray-200">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            {/* Sitemap Link - left side */}
+            {/* Links Section - left side */}
             <div className="order-1 md:order-1 w-full md:w-auto text-center md:text-left">
-              <div className="flex flex-col gap-2">
-                <a
-                  href="/sitemap"
-                  className="text-blue-600 hover:text-blue-800 underline font-semibold text-sm"
-                >
-                  Sitemap
-                </a>
-                <a
-                  href="/videos"
-                  className="text-blue-600 hover:text-blue-800 underline font-semibold text-sm"
-                >
-                  Video Hub
-                </a>
-                <a
-                  href="/service-time-estimator"
-                  className="text-blue-600 hover:text-blue-800 underline font-semibold text-sm"
-                >
-                  Service Time Estimator
-                </a>
-                <a
-                  href="/service-checker"
-                  className="text-blue-600 hover:text-blue-800 underline font-semibold text-sm"
-                >
-                  "Can I Be Served?" Checker
-                </a>
-                <a
-                  href="/privacy-policy"
-                  className="text-blue-600 hover:text-blue-800 underline font-semibold text-sm"
-                >
-                  Privacy Policy
-                </a>
-                <a
-                  href="/terms-of-service"
-                  className="text-blue-600 hover:text-blue-800 underline font-semibold text-sm"
-                >
-                  Terms of Service
-                </a>
+              <div className="flex flex-col md:flex-row gap-6 md:gap-8">
+                {/* Services Column */}
+                <div className="flex flex-col gap-2">
+                  <h4 className="font-bold text-gray-800 text-sm mb-1">Services</h4>
+                  <Link href="/process-serving" className="text-blue-600 hover:text-blue-800 underline font-semibold text-sm">
+                    Process Serving
+                  </Link>
+                  <Link href="/notary" className="text-blue-600 hover:text-blue-800 underline font-semibold text-sm">
+                    Notary Services
+                  </Link>
+                  <Link href="/service-areas" className="text-blue-600 hover:text-blue-800 underline font-semibold text-sm">
+                    Service Areas
+                  </Link>
+                  <Link href="/pricing" className="text-blue-600 hover:text-blue-800 underline font-semibold text-sm">
+                    Pricing
+                  </Link>
+                  <Link href="/guides" className="text-blue-600 hover:text-blue-800 underline font-semibold text-sm">
+                    Guides
+                  </Link>
+                  <Link href="/contact" className="text-blue-600 hover:text-blue-800 underline font-semibold text-sm">
+                    Contact
+                  </Link>
+                </div>
+                {/* Quick Links Column */}
+                <div className="flex flex-col gap-2">
+                  <h4 className="font-bold text-gray-800 text-sm mb-1">Quick Links</h4>
+                  <a
+                    href="/sitemap"
+                    className="text-blue-600 hover:text-blue-800 underline font-semibold text-sm"
+                  >
+                    Sitemap
+                  </a>
+                  <a
+                    href="/videos"
+                    className="text-blue-600 hover:text-blue-800 underline font-semibold text-sm"
+                  >
+                    Video Hub
+                  </a>
+                  <a
+                    href="/service-time-estimator"
+                    className="text-blue-600 hover:text-blue-800 underline font-semibold text-sm"
+                  >
+                    Service Time Estimator
+                  </a>
+                  <a
+                    href="/service-checker"
+                    className="text-blue-600 hover:text-blue-800 underline font-semibold text-sm"
+                  >
+                    &quot;Can I Be Served?&quot; Checker
+                  </a>
+                  <a
+                    href="/privacy-policy"
+                    className="text-blue-600 hover:text-blue-800 underline font-semibold text-sm"
+                  >
+                    Privacy Policy
+                  </a>
+                  <a
+                    href="/terms-of-service"
+                    className="text-blue-600 hover:text-blue-800 underline font-semibold text-sm"
+                  >
+                    Terms of Service
+                  </a>
+                </div>
               </div>
+            </div>
             </div>
             {/* Disclaimer - center */}
             <div className="text-center order-2 md:order-2 w-full md:w-auto space-y-1">

@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     images: [
       {
-        url: 'https://justlegalsolutions.org/images/Headshot.jpg',
+        url: 'https://justlegalsolutions.org/images/1Headshot.jpg',
         width: 800,
         height: 800,
         alt: 'Joseph Iannazzi, Founder of Just Legal Solutions'
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'About Us - The Fight That Forged a Business',
     description: "Learn how a 5-year legal battle inspired Just Legal Solutions, Oklahoma's premier process serving company. Founded by Joseph Iannazzi after experiencing systemic failure in workers' compensation.",
-    images: ['https://justlegalsolutions.org/images/Headshot.jpg']
+    images: ['https://justlegalsolutions.org/images/1Headshot.jpg']
   }
 };
 
@@ -48,7 +48,7 @@ export default function AboutPage() {
           author: "Joseph Iannazzi",
           datePublished: "2023-05-18",
           dateModified: "2026-01-25",
-          image: "https://justlegalsolutions.org/images/Headshot.jpg"
+          image: "https://justlegalsolutions.org/images/1Headshot.jpg"
         }}
         aggregateRating={{
           ratingValue: 4.9,
@@ -57,6 +57,7 @@ export default function AboutPage() {
       />
       
       <div className="min-h-screen bg-white">
+        <Navbar />
         {/* Hero Section with Profile Layout */}
         <div className="bg-gradient-to-r from-blue-50 to-gray-50 py-16">
           <div className="container mx-auto px-4 max-w-6xl">
@@ -65,7 +66,7 @@ export default function AboutPage() {
               <div className="flex-shrink-0">
                 <div className="w-48 h-48 lg:w-56 lg:h-56 rounded-lg overflow-hidden shadow-lg">
                   <Image
-                    src="/images/Headshot.jpg"
+                    src="/images/1Headshot.jpg"
                     alt="Joseph Iannazzi, Founder of Just Legal Solutions"
                     width={224}
                     height={224}
@@ -352,7 +353,7 @@ export default function AboutPage() {
           </div>
         </div>
       </div>
-      
+      <Footer />
     </>
   );
 }

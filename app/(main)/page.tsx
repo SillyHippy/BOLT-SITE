@@ -7,6 +7,7 @@ import { getPromoDescription } from '@/lib/promo-utils';
 
 import React from 'react';
 import Image from 'next/image';
+import Script from 'next/script';
 import { Mail, Phone, MapPin, Truck, FileText, Building2, Clock, Shield, Star, ArrowRight } from "lucide-react";
 import { Metadata } from 'next';
 import UnifiedSchema from '@/components/UnifiedSchema';
@@ -92,12 +93,12 @@ export default function Home() {
         </div>
         <div className="relative h-full flex flex-col items-center justify-center text-white text-center px-4">
           {/* H1 - visible and SEO-optimized */}
-          <h1 className="text-4xl md:text-6xl font-bold mb-4 drop-shadow-lg">
+          <h1 className="speakable-heading text-4xl md:text-6xl font-bold mb-4 drop-shadow-lg">
             Tulsa Process Server &amp; Courier Services
           </h1>
 
           {/* Description - visible and SEO-friendly */}
-          <p className="text-lg md:text-xl max-w-3xl drop-shadow-md mb-6">
+          <p className="speakable-summary text-lg md:text-xl max-w-3xl drop-shadow-md mb-6">
             Professional process serving throughout Oklahoma. From routine legal papers to urgent same-day service in Tulsa, Broken Arrow, Sapulpa &amp; all 77 counties.
           </p>
 
@@ -143,6 +144,23 @@ export default function Home() {
 
         </div>
       </section>
+
+      {/* Speakable JSON-LD Schema for Voice Search */}
+      <Script
+        type="application/ld+json"
+        id="speakable-schema"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'WebPage',
+            speakable: {
+              '@type': 'SpeakableSpecification',
+              cssSelector: ['.speakable-heading', '.speakable-summary']
+            },
+            url: 'https://justlegalsolutions.org/'
+          })
+        }}
+      />
 
       {/* VideoObject Schema */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

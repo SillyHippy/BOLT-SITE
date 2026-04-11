@@ -806,7 +806,8 @@ export default function BixbyProcessServer() {
                 <div>
                   <h3 className="font-bold text-gray-900 mb-4 text-lg">📍 Nearby Service Areas</h3>
                   <ul className="space-y-2">
-                    <li><Link href="/tulsa-process-server" className="text-blue-600 hover:underline">Tulsa Process Server</Link></li>
+                    <li><Link href="/process-serving" className="text-blue-600 hover:text-blue-800 underline">process serving</Link>
+                  <Link href="/tulsa-process-server" className="text-blue-600 hover:underline">Tulsa Process Server</Link></li>
                     <li><Link href="/service-areas/broken-arrow" className="text-blue-600 hover:underline">Broken Arrow Process Server</Link></li>
                     <li><Link href="/service-areas/jenks" className="text-blue-600 hover:underline">Jenks Process Server</Link></li>
                     <li><Link href="/service-areas/glenpool" className="text-blue-600 hover:underline">Glenpool Process Server</Link></li>

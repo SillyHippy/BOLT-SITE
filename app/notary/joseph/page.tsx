@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     images: [
       {
-        url: 'https://justlegalsolutions.org/images/joseph-credentials-og.png',
+        url: 'https://justlegalsolutions.org/images/1Headshot.jpg',
         width: 1200,
         height: 630,
         alt: 'Joseph William Iannazzi - Professional Notary Credentials'
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Joseph William Iannazzi | Professional Notary Credentials',
     description: 'Licensed Oklahoma Notary Public, RON certified, NNA member. View credentials and certifications.',
-    images: ['https://justlegalsolutions.org/images/joseph-credentials-og.png'],
+    images: ['https://justlegalsolutions.org/images/1Headshot.jpg'],
   },
   robots: 'index, follow',
   alternates: {
@@ -54,7 +54,7 @@ const personSchema = {
   "familyName": "Iannazzi",
   "jobTitle": "Founder & CEO",
   "description": "Licensed Oklahoma Notary Public, Remote Online Notarization (RON) certified, and professional process server serving Tulsa County and all of Oklahoma.",
-  "image": "https://justlegalsolutions.org/images/team/joseph-iannazzi.webp",
+  "image": "https://justlegalsolutions.org/images/1Headshot.jpg",
   "telephone": "+1-539-367-6832",
   "email": "info@justlegalsolutions.org",
   "worksFor": {

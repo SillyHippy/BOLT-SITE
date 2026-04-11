@@ -274,7 +274,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
       'https://justlegalsolutions.org/images/tulsa-process-server.webp',
       'https://justlegalsolutions.org/og-image.png'
     ],
-    priceRange: '$30-$200',
+    priceRange: '$30-$265',
     paymentAccepted: ['Cash', 'Check', 'Credit Card', 'Venmo', 'PayPal', 'Zelle'],
     currenciesAccepted: 'USD',
     logo: {
@@ -470,7 +470,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     // 2025 SEO Dominance Features (Enhanced for AI)
     (organizationSchema as any).foundingDate = '2025-03-01';
     (organizationSchema as any).slogan = 'Oklahoma\'s #1 Process Server - Professional, Fast, Reliable';
-    (organizationSchema as any).description = 'Licensed and bonded Oklahoma process server providing standard ($60), rush ($150), and same-day ($265) document delivery across all 77 counties with GPS tracking and digital affidavits.';
+    (organizationSchema as any).description = 'Licensed and bonded Oklahoma process server providing postings ($30+), standard process serving ($60+), rush ($100+), same-day rush ($150+), and after-hours rush ($265+) document delivery across all 77 counties with GPS tracking and digital affidavits.';
     (organizationSchema as any).areaServed = [
       {
         '@type': 'State',
@@ -594,8 +594,44 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
       organizationSchema.makesOffer = [
         {
           '@type': 'Offer',
-          'name': 'Same-Day Process Serving',
-          'description': 'Emergency legal document delivery within hours',
+          'name': 'Legal Document Posting',
+          'description': 'Professional posting services for legal documents at courthouses',
+          'price': '30',
+          'priceCurrency': 'USD',
+          'image': 'https://justlegalsolutions.org/images/jls-logo.webp',
+          'availability': 'https://schema.org/InStock',
+          'seller': {
+            '@id': 'https://justlegalsolutions.org/#organization'
+          }
+        },
+        {
+          '@type': 'Offer',
+          'name': 'Standard Process Serving',
+          'description': 'Professional legal document delivery within 5-7 business days',
+          'price': '60',
+          'priceCurrency': 'USD',
+          'image': 'https://justlegalsolutions.org/images/jls-logo.webp',
+          'availability': 'https://schema.org/InStock',
+          'seller': {
+            '@id': 'https://justlegalsolutions.org/#organization'
+          }
+        },
+        {
+          '@type': 'Offer',
+          'name': 'Rush Process Serving',
+          'description': 'Expedited legal document delivery within 1-3 business days',
+          'price': '100',
+          'priceCurrency': 'USD',
+          'image': 'https://justlegalsolutions.org/images/jls-logo.webp',
+          'availability': 'https://schema.org/InStock',
+          'seller': {
+            '@id': 'https://justlegalsolutions.org/#organization'
+          }
+        },
+        {
+          '@type': 'Offer',
+          'name': 'Same-Day Rush Process Serving',
+          'description': 'Legal document delivery within 24 hours',
           'price': '150',
           'priceCurrency': 'USD',
           'image': 'https://justlegalsolutions.org/images/jls-logo.webp',
@@ -606,8 +642,8 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
         },
         {
           '@type': 'Offer',
-          'name': '2-Hour Emergency Service',
-          'description': 'Critical legal document delivery within 2 hours',
+          'name': 'After-Hours Rush Process Serving',
+          'description': 'Critical legal document delivery outside business hours with 2-hour response',
           'price': '265',
           'priceCurrency': 'USD',
           'image': 'https://justlegalsolutions.org/images/jls-logo.webp',

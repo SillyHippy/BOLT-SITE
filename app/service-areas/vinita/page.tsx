@@ -396,7 +396,8 @@ export default function VinitaProcessServer() {
                 <div>
                   <h3 className="font-bold text-gray-900 mb-4 text-lg">Nearby Service Areas</h3>
                   <ul className="space-y-2">
-                    <li><Link href="/tulsa-process-server" className="text-blue-600 hover:underline">Tulsa Process Server</Link></li>
+                    <li><Link href="/process-serving" className="text-blue-600 hover:text-blue-800 underline">process serving</Link>
+                  <Link href="/tulsa-process-server" className="text-blue-600 hover:underline">Tulsa Process Server</Link></li>
                     <li><Link href="/service-areas/claremore" className="text-blue-600 hover:underline">Claremore Process Server</Link></li>
                     <li><Link href="/service-areas/pryor" className="text-blue-600 hover:underline">Pryor Process Server</Link></li>
                     <li><Link href="/service-areas/nowata" className="text-blue-600 hover:underline">Nowata Process Server</Link></li>

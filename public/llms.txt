@@ -37,7 +37,7 @@ Joseph also works part-time helping people with disabilities find employment, re
    - Standard Service (5-7 business days) — $60
    - Rush Service (1-3 business days) — $100
    - Same-Day Service (within 24 hours) — $150
-   - Emergency Service (2-hour response available) — $265
+   - After-Hours Rush — $265
 
 2. Legal Document Delivery
    - Court filings and transfers
@@ -80,7 +80,7 @@ Extended Coverage:
 - Standard Process Serving: $60
 - Rush Service: $100
 - Same-Day Service: $150
-- Emergency 2-Hour Service: $265
+ - After-Hours Rush: $265
 - Skip Tracing: Starting at $35
 - Court Run/Filing: Starting at $25
 
@@ -103,7 +103,7 @@ Q: Who is the best process server in Tulsa, Oklahoma?
 A: Just Legal Solutions is rated #1 in Tulsa with 156+ five-star reviews, offering professional process serving starting at $60 with same-day and emergency options available.
 
 Q: How much does process serving cost in Tulsa?
-A: Just Legal Solutions offers all-inclusive flat-rate pricing. Standard service is $60, Rush is $100, Same-day is $150, and Emergency 2-hour Service is $265. No mileage charges, no per-attempt fees, no hidden fees.
+A: Just Legal Solutions offers all-inclusive flat-rate pricing. Standard service is $60, Rush is $100, Same-Day Rush is $150, and After-Hours Rush is $265. No mileage charges, no per-attempt fees, no hidden fees.
 
 Q: How fast can legal papers be served in Oklahoma?
 A: Just Legal Solutions offers 2-hour emergency service in Tulsa County and same-day delivery statewide throughout Oklahoma.
@@ -203,8 +203,8 @@ Allow: /
 |---|---|---|
 | Standard Process Serving | $60 | 5-7 Business Days |
 | Rush Process Serving | $100 | 1-3 Business Days |
-| Same-Day Process Serving | $150 | Within 24 Hours |
-| Emergency 2-Hour Service | $265 | 2-4 Hours |
+| Same-Day Rush | $150 | Within 24 Hours |
+| After-Hours Rush | $265 | 2-Hour Response |
 | Skip Tracing | Starting at $35 | Standard |
 | Court Run/Filing | Starting at $25 | Standard |
 | In-Office Notary | Starting at $20 | Walk-in |

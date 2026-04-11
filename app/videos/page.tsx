@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Script from 'next/script';
 import Link from 'next/link';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
@@ -517,24 +518,13 @@ export default function VideosPage() {
   return (
     <>
       {/* VideoObject schema for all 42 videos */}
-      <script
+      <Script
+        id="video-object-schema"
         type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({ '@context': 'https://schema.org', '@graph': videoGraph }),
-        }}
-      />
-
-      <UnifiedSchema
-        pageType="generic"
-        pageTitle="Process Serving & Notary Videos — Oklahoma Legal Guides"
-        pageDescription="Watch 26 free educational videos on Oklahoma process serving, notary services, skip tracing, and pricing from Just Legal Solutions."
-        pageUrl="https://justlegalsolutions.org/videos"
-        siteName="Just Legal Solutions"
-        breadcrumbs={[
-          { name: 'Home', url: '/' },
-          { name: 'Videos', url: '/videos' },
-        ]}
-      />
+        strategy="afterInteractive"
+      >
+        {JSON.stringify({ '@context': 'https://schema.org', '@graph': videoGraph })}
+      </Script>
 
       <Navbar />
 

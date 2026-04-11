@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import Script from 'next/script';
 import { Phone } from 'lucide-react';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
@@ -57,6 +58,50 @@ export default function AttorneyGuidePage() {
           image: 'https://justlegalsolutions.org/og-image.png',
         }}
         keywords={['process server for attorneys', 'Oklahoma attorney process serving guide', 'hire process server Oklahoma']}
+      />
+      <Script
+        type="application/ld+json"
+        id="howto-schema"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'HowTo',
+            name: 'What to Do When Process Service Fails',
+            description: 'Step-by-step guide for Oklahoma attorneys on handling failed process service, from documenting attempts to filing motions for alternative service.',
+            step: [
+              {
+                '@type': 'HowToStep',
+                name: 'Document All Service Attempts',
+                text: 'Ensure your process server provides detailed logs of every attempt including dates, times, locations, descriptions of premises, and any interactions. Collect photographs of locations, vehicle descriptions, and witness observations to strengthen your motion for alternative service.',
+                position: 1
+              },
+              {
+                '@type': 'HowToStep',
+                name: 'Conduct Skip Tracing and Investigation',
+                text: 'Before abandoning traditional service, use skip tracing services including database searches, social media investigation, and public records review to locate current addresses. A small additional investment in investigation may succeed where repeated attempts at outdated addresses fail.',
+                position: 2
+              },
+              {
+                '@type': 'HowToStep',
+                name: 'Explore Alternative Service Options',
+                text: 'Oklahoma courts recognize several alternative service methods when personal service proves impossible, including service by certified mail with return receipt, publication in newspapers, or service on designated agents. Each method has specific procedural requirements and evidentiary standards.',
+                position: 3
+              },
+              {
+                '@type': 'HowToStep',
+                name: 'File a Motion for Alternative Service',
+                text: 'When you have exhausted reasonable attempts, file a motion for alternative service with the court. This requires affidavits documenting your efforts, explaining why standard service failed, and proposing an alternative method. Work with your process server to prepare a comprehensive affidavit that satisfies judicial scrutiny.',
+                position: 4
+              },
+              {
+                '@type': 'HowToStep',
+                name: 'Protect Your Client Interests',
+                text: 'Communicate transparently with clients about service challenges, additional costs, and timeline adjustments. Be aware that statutes of limitation may run and temporary orders may expire. Consider whether aggressive skip tracing or adjusting litigation strategy is the best approach.',
+                position: 5
+              }
+            ]
+          })
+        }}
       />
       <Navbar />
       <main className="pt-20 pb-16">

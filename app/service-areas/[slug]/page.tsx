@@ -800,6 +800,12 @@ export default async function LocationPage({
                   <Link href="/oklahoma-process-server-pricing" className="inline-flex items-center gap-1 bg-white text-blue-700 px-4 py-2 rounded-lg text-sm font-medium border border-blue-200 hover:bg-blue-100 transition">
                     <DollarSign className="w-3 h-3" /> Pricing Guide
                   </Link>
+                  <Link href="/process-serving" className="inline-flex items-center gap-1 bg-white text-blue-700 px-4 py-2 rounded-lg text-sm font-medium border border-blue-200 hover:bg-blue-100 transition">
+                    <Shield className="w-3 h-3" /> Process Serving
+                  </Link>
+                  <Link href="/process-serving" className="inline-flex items-center gap-1 bg-white text-blue-700 px-4 py-2 rounded-lg text-sm font-medium border border-blue-200 hover:bg-blue-100 transition">
+                    <Shield className="w-3 h-3" /> Process Serving
+                  </Link>
                   <Link href="/how-long-does-process-serving-take" className="inline-flex items-center gap-1 bg-white text-blue-700 px-4 py-2 rounded-lg text-sm font-medium border border-blue-200 hover:bg-blue-100 transition">
                     <Clock className="w-3 h-3" /> How Long Does It Take?
                   </Link>
