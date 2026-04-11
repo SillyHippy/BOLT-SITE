@@ -812,7 +812,6 @@ export function Footer() {
                 </div>
               </div>
             </div>
-            </div>
             {/* Disclaimer - center */}
             <div className="text-center order-2 md:order-2 w-full md:w-auto space-y-1">
               <p className="text-sm font-semibold text-gray-600">🏠 Locally Owned &amp; Operated — Tulsa County, Oklahoma</p>
