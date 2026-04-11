@@ -15,6 +15,8 @@ const StaticSiteOptimizer = dynamic(() => import('@/components/StaticSiteOptimiz
 
 const ChatWidget = dynamic(() => import('@/components/ui/chat-widget').then(mod => mod.ChatWidget));
 
+const StickyMobileCTA = dynamic(() => import('@/components/ui/sticky-mobile-cta'));
+
 const inter = Inter({
   subsets: ['latin'],
   display: 'swap',
@@ -121,6 +123,8 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="//fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://www.youtube.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="//www.youtube.com" />
         <meta name="cache-version" content="2026-01-25-v11-year-update" />
 
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-984ZD882EX" strategy="afterInteractive" />
@@ -162,6 +166,7 @@ export default function RootLayout({
         </noscript>
         {children}
         <ChatWidget />
+        <StickyMobileCTA />
       </body>
     </html>
   );

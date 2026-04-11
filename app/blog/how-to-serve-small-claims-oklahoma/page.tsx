@@ -92,7 +92,23 @@ const faqs = [
 
 export default function HowToServeSmallClaimsOklahoma() {
   return (
-    <>
+    
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Serve Small Claims Papers in Oklahoma",
+        "description": "Step-by-step guide to serving small claims court papers in Oklahoma district court.",
+        "totalTime": "PT72H",
+        "estimatedCost": { "@type": "MonetaryAmount", "currency": "USD", "value": "60" },
+        "step": [
+    {"@type":"HowToStep","name":"File Your Small Claims Petition","text":"File at your county district court. Oklahoma small claims limit is ,000. Filing fees are typically –. Court will set a hearing date 10–60 days out."},
+    {"@type":"HowToStep","name":"Receive Your Summons from the Clerk","text":"The clerk issues a summons to serve on the defendant. You are responsible for service — the court does not serve for you."},
+    {"@type":"HowToStep","name":"Hire a Process Server","text":"The defendant must be personally served at least 5 days before the hearing. Use a licensed process server like Just Legal Solutions — call (539) 367-6832."},
+    {"@type":"HowToStep","name":"Complete Service of Process","text":"Process server personally hands the summons and petition to the defendant, with GPS timestamp and photo documentation."},
+    {"@type":"HowToStep","name":"File Your Return of Service","text":"Server provides an affidavit of service. File it with the clerk before your hearing date to prove service was completed."}
+        ]
+      }) }} />
+      <>
       <UnifiedSchema
         pageType="article"
         pageTitle="How to Serve Small Claims Papers in Oklahoma (2026 Guide)"

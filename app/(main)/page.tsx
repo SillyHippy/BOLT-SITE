@@ -144,6 +144,20 @@ export default function Home() {
         </div>
       </section>
 
+      {/* VideoObject Schema */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "VideoObject",
+        "name": "Best Process Server in Tulsa, Oklahoma | Just Legal Solutions",
+        "description": "Learn why Just Legal Solutions is rated 4.9 stars by attorneys and landlords across Oklahoma. Licensed, GPS-tracked process serving starting at $60.",
+        "thumbnailUrl": "https://img.youtube.com/vi/NFAhglMUNqc/maxresdefault.jpg",
+        "uploadDate": "2026-04-01",
+        "duration": "PT4M30S",
+        "contentUrl": "https://www.youtube.com/watch?v=NFAhglMUNqc",
+        "embedUrl": "https://www.youtube.com/embed/NFAhglMUNqc",
+        "publisher": { "@type": "Organization", "name": "Just Legal Solutions", "logo": { "@type": "ImageObject", "url": "https://justlegalsolutions.org/email%20signature%20logo.png" } }
+      })}} />
+
       {/* Featured Video Section */}
       <section className="bg-slate-900 py-12 px-4 border-b border-white/10" aria-label="Featured Video">
         <div className="max-w-4xl mx-auto text-center">
@@ -156,6 +170,7 @@ export default function Home() {
                 className="absolute top-0 left-0 w-full h-full"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
+                loading="lazy"
               ></iframe>
             </div>
           </div>

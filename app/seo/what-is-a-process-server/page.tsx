@@ -740,6 +740,20 @@ export default function WhatIsAProcessServerPage() {
             </p>
           </div>
 
+          {/* VideoObject Schema */}
+          <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "VideoObject",
+            "name": "How Process Serving Works in Oklahoma",
+            "description": "60-second visual walkthrough explaining what a process server does and how service of process works in Oklahoma under 12 O.S. § 2004.",
+            "thumbnailUrl": "https://img.youtube.com/vi/cbHsAUozxnc/maxresdefault.jpg",
+            "uploadDate": "2026-04-01",
+            "duration": "PT1M00S",
+            "contentUrl": "https://www.youtube.com/watch?v=cbHsAUozxnc",
+            "embedUrl": "https://www.youtube.com/embed/cbHsAUozxnc",
+            "publisher": { "@type": "Organization", "name": "Just Legal Solutions", "logo": { "@type": "ImageObject", "url": "https://justlegalsolutions.org/email%20signature%20logo.png" } }
+          })}} />
+
           {/* Video Overview Link */}
           <div className="mb-10">
             <div className="bg-slate-50 border border-slate-200 rounded-xl p-2 shadow-sm">
@@ -750,6 +764,7 @@ export default function WhatIsAProcessServerPage() {
                   className="absolute top-0 left-0 w-full h-full"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
+                  loading="lazy"
                 ></iframe>
               </div>
               <div className="text-center mt-3 mb-2 text-slate-600 text-sm font-medium">

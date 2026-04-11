@@ -184,6 +184,20 @@ export default function PricingPage() {
             <p className="text-lg text-gray-700 mb-2"><strong>Process server costs in Oklahoma range from $30 for a single attempt to $265 for 2-hour emergency service.</strong> Standard service (up to 3 attempts) starts at $60. All pricing below is transparent — no hidden fees.</p>
             <p className="text-xl text-gray-600 mb-8">Transparent, competitive rates for Oklahoma legal services</p>
 
+            {/* VideoObject Schema */}
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "VideoObject",
+              "name": "How Much Does a Process Server Cost in Oklahoma? — Full 2026 Pricing Breakdown",
+              "description": "Complete 2026 breakdown of Oklahoma process server pricing. Standard from $60, rush $100, same-day $150. Learn what affects your cost.",
+              "thumbnailUrl": "https://img.youtube.com/vi/zTuTJiO71Gk/maxresdefault.jpg",
+              "uploadDate": "2026-04-01",
+              "duration": "PT5M00S",
+              "contentUrl": "https://www.youtube.com/watch?v=zTuTJiO71Gk",
+              "embedUrl": "https://www.youtube.com/embed/zTuTJiO71Gk",
+              "publisher": { "@type": "Organization", "name": "Just Legal Solutions", "logo": { "@type": "ImageObject", "url": "https://justlegalsolutions.org/email%20signature%20logo.png" } }
+            })}} />
+
             {/* Video Pricing Explainer Link */}
             <div className="max-w-3xl mx-auto mb-8">
               <div className="bg-white border border-slate-200 rounded-xl p-2 shadow-sm">
@@ -194,6 +208,7 @@ export default function PricingPage() {
                     className="absolute top-0 left-0 w-full h-full"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
+                    loading="lazy"
                   ></iframe>
                 </div>
                 <div className="text-center mt-3 mb-2 text-slate-600 text-sm font-medium">
