@@ -38,7 +38,7 @@ export default function ServiceTimeEstimatorPage() {
 
     let timeRange = "";
     let firstAttempt = "";
-    let notes = [];
+    let notes: string[] = [];
 
     // Base attempt rules
     if (urgency === 'sameday') {

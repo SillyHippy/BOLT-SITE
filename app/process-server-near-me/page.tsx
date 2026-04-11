@@ -84,7 +84,7 @@ export default function ProcessServerNearMePage() {
           address: { streetAddress: '564 E 138th PL', addressLocality: 'Glenpool', addressRegion: 'OK', postalCode: '74033', addressCountry: 'US' },
         }}
         aggregateRating={{ ratingValue: 4.9, reviewCount: 156, bestRating: 5, worstRating: 1 }}
-        geoCoordinates={{ latitude: 36.1540, longitude: -95.9928 }}
+        location={{ name: "Just Legal Solutions", geo: { latitude: 36.1540, longitude: -95.9928 } }}
         faqItems={[
           { question: 'How do I find a process server near me in Oklahoma?', answer: 'Just Legal Solutions serves all 77 Oklahoma counties. Call (539) 367-6832 for same-day service anywhere in the state.' },
           { question: 'What is the closest process server to Tulsa?', answer: 'Just Legal Solutions is based in the Tulsa metro (Glenpool, OK) and serves all Tulsa County cities including Broken Arrow, Bixby, Jenks, and Owasso.' },

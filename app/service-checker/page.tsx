@@ -51,7 +51,7 @@ export default function ServiceCheckerPage() {
   // answers[2] = Tribal Land
   // answers[3] = At Court
   let status = "LIKELY YES";
-  let explanation = [];
+  let explanation: string[] = [];
   let riskLevel = "low"; // low, medium, high
 
   if (isFinished) {
