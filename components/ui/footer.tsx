@@ -765,6 +765,18 @@ export function Footer() {
                 >
                   Video Hub
                 </a>
+                <a
+                  href="/privacy-policy"
+                  className="text-blue-600 hover:text-blue-800 underline font-semibold text-sm"
+                >
+                  Privacy Policy
+                </a>
+                <a
+                  href="/terms-of-service"
+                  className="text-blue-600 hover:text-blue-800 underline font-semibold text-sm"
+                >
+                  Terms of Service
+                </a>
               </div>
             </div>
             {/* Disclaimer - center */}
