@@ -1,5 +1,5 @@
 import React from 'react';
-import JsonLd from './JsonLd';
+import Script from 'next/script';
 
 interface UnifiedSchemaProps {
   pageType: 'home' | 'service' | 'article' | 'faq' | 'location' | 'generic';
@@ -719,7 +719,14 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     '@graph': schemaGraph
   };
 
-  return <JsonLd data={schema} />;
+  return (
+    <Script
+      id={`unified-schema-${pageType}`}
+      type="application/ld+json"
+      strategy="afterInteractive"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
 };
 
 export default UnifiedSchema;
