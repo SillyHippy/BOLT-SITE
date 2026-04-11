@@ -13,8 +13,6 @@ import WebsiteSchema from '@/components/ui/website-schema';
 // without wrapping it in a client component, but normal dynamic import still splits the bundle.
 const StaticSiteOptimizer = dynamic(() => import('@/components/StaticSiteOptimizer'));
 
-const ChatWidget = dynamic(() => import('@/components/ui/chat-widget').then(mod => mod.ChatWidget));
-
 const StickyMobileCTA = dynamic(() => import('@/components/ui/sticky-mobile-cta'));
 
 const inter = Inter({
@@ -165,7 +163,6 @@ export default function RootLayout({
           />
         </noscript>
         {children}
-        <ChatWidget />
         <StickyMobileCTA />
       </body>
     </html>
