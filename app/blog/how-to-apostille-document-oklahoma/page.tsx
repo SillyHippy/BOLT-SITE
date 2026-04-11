@@ -110,7 +110,6 @@ export default function HowToApostilleDocumentOklahoma() {
           dateModified: '2026-04-07',
           image: 'https://justlegalsolutions.org/og-image.png'
         }}
-        faqItems={faqs.map(f => ({ question: f.question, answer: f.answer }))}
         keywords={['apostille oklahoma', 'oklahoma secretary of state apostille', 'apostille fee oklahoma', 'hague apostille convention']}
       />
 
