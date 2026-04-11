@@ -4,7 +4,6 @@
 import { useState, useRef, useCallback } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Link from "next/link";
 
 // ============ CONFIGURATION ============
 // Replace with your deployed Google Apps Script web app URL after deployment
