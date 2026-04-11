@@ -189,29 +189,6 @@ export default function PricingPage() {
             <h1 className="text-4xl md:text-5xl font-bold text-blue-900 mb-4">Process Server Pricing</h1>
             <p className="text-lg text-gray-700 mb-2"><strong>Process server costs in Oklahoma range from $30 for a single attempt to $265 for 2-hour emergency service.</strong> Standard service (up to 3 attempts) starts at $60. All pricing below is transparent — no hidden fees.</p>
             <p className="text-xl text-gray-600 mb-8">Transparent, competitive rates for Oklahoma legal services</p>
-                  <div className="bg-amber-100 rounded-lg px-3 py-2">
-                    <p className="text-amber-700 font-semibold mb-0.5">Rush Service</p>
-                    <p className="text-amber-900"><span className="line-through text-amber-500 mr-1">$100</span><span className="font-bold">$117</span></p>
-                  </div>
-                  <div className="bg-amber-100 rounded-lg px-3 py-2">
-                    <p className="text-amber-700 font-semibold mb-0.5">Same-Day Rush</p>
-                    <p className="text-amber-900"><span className="line-through text-amber-500 mr-1">$150</span><span className="font-bold">$175</span></p>
-                  </div>
-                  <div className="bg-amber-100 rounded-lg px-3 py-2">
-                    <p className="text-amber-700 font-semibold mb-0.5">Standard Courier</p>
-                    <p className="text-amber-900"><span className="line-through text-amber-500 mr-1">$60</span><span className="font-bold">$70</span></p>
-                  </div>
-                  <div className="bg-amber-100 rounded-lg px-3 py-2">
-                    <p className="text-amber-700 font-semibold mb-0.5">Rush Courier</p>
-                    <p className="text-amber-900"><span className="line-through text-amber-500 mr-1">$100</span><span className="font-bold">$117</span></p>
-                  </div>
-                  <div className="bg-amber-100 rounded-lg px-3 py-2">
-                    <p className="text-amber-700 font-semibold mb-0.5">Stakeout</p>
-                    <p className="text-amber-900"><span className="line-through text-amber-500 mr-1">$90/hr</span><span className="font-bold">$105/hr</span></p>
-                  </div>
-                </div>
-              </div>
-            </div>
 
             {/* Trust Badges */}
             <div className="flex flex-wrap justify-center gap-4 md:gap-8 mb-8">
