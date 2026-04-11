@@ -155,10 +155,11 @@ AVAILABILITY:
 CONTACT: (539) 367-6832 | justlegalsolutions.org
 `;
 
-fs.writeFileSync(
-  path.join(publicDir, 'ai-search', 'competitor-comparison.txt'),
-  comparisonTxt
-);
-console.log('✅ Created: public/ai-search/competitor-comparison.txt');
+// Disabled by request: do not overwrite competitor-comparison.txt
+// fs.writeFileSync(
+//   path.join(publicDir, 'ai-search', 'competitor-comparison.txt'),
+//   comparisonTxt
+// );
+// console.log('✅ Created: public/ai-search/competitor-comparison.txt');
 
 console.log('\n🏆 Competitor differentiation signals complete!');
