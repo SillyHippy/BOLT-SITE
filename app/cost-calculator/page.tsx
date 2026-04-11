@@ -3,18 +3,23 @@
 import { useState } from 'react';
 import Link from 'next/link';
 
-const counties = [
-  "Tulsa County (Standard Zone)", "Wagoner County", "Creek County (Sapulpa area)",
+const serviceAreas = [
+  "City of Tulsa", "Tulsa County (Standard Zone)", "Broken Arrow", "Wagoner County", "Creek County (Sapulpa area)",
+  "Oklahoma City (OKC)", "Cleveland County (Norman)", 
   "Rogers County", "Osage County", "Mayes County", "Washington County",
   "Cherokee County", "Muskogee County", "Okmulgee County",
-  "Oklahoma County (OKC)", "Cleveland County (Norman)", "Payne County (Stillwater)",
+  "Payne County (Stillwater)",
   "Pottawatomie County", "Comanche County (Lawton)", "Other Oklahoma County",
 ];
 
-const countyPriceAdders: Record<string, number> = {
+const areaPriceAdders: Record<string, number> = {
+  "City of Tulsa": 0,
   "Tulsa County (Standard Zone)": 0,
+  "Broken Arrow": 15,
   "Wagoner County": 10,
   "Creek County (Sapulpa area)": 10,
+  "Oklahoma City (OKC)": 15,
+  "Cleveland County (Norman)": 25,
   "Rogers County": 20,
   "Osage County": 25,
   "Mayes County": 30,
@@ -22,8 +27,6 @@ const countyPriceAdders: Record<string, number> = {
   "Cherokee County": 40,
   "Muskogee County": 40,
   "Okmulgee County": 35,
-  "Oklahoma County (OKC)": 50,
-  "Cleveland County (Norman)": 55,
   "Payne County (Stillwater)": 60,
   "Pottawatomie County": 60,
   "Comanche County (Lawton)": 75,
@@ -48,7 +51,7 @@ const addOns = [
 ];
 
 export default function CostCalculatorPage() {
-  const [county, setCounty] = useState('');
+  const [area, setArea] = useState('');
   const [serviceType, setServiceType] = useState('');
   const [selectedAddOns, setSelectedAddOns] = useState<string[]>([]);
   const [stakeoutHours, setStakeoutHours] = useState(2);
@@ -62,17 +65,17 @@ export default function CostCalculatorPage() {
   };
 
   const getEstimate = () => {
-    if (!county || !serviceType) return null;
+    if (!area || !serviceType) return null;
     const service = serviceTypes.find(s => s.id === serviceType);
     if (!service) return null;
 
     let base = service.base;
-    const countyAdd = countyPriceAdders[county] ?? 50;
+    const areaAdd = areaPriceAdders[area] ?? 50;
     let addOnTotal = 0;
     let breakdown: { label: string; cost: number }[] = [];
 
     breakdown.push({ label: service.label, cost: base });
-    if (countyAdd > 0) breakdown.push({ label: `${county} surcharge`, cost: countyAdd });
+    if (areaAdd > 0) breakdown.push({ label: `${area} surcharge`, cost: areaAdd });
 
     for (const id of selectedAddOns) {
       const addOn = addOns.find(a => a.id === id);
@@ -83,7 +86,7 @@ export default function CostCalculatorPage() {
       breakdown.push({ label: addOn.label + (id === 'stakeout' ? ` (${Math.max(stakeoutHours, 2)} hrs)` : ''), cost });
     }
 
-    const total = base + countyAdd + addOnTotal;
+    const total = base + areaAdd + addOnTotal;
     const low = total;
     const high = Math.round(total * 1.15);
 
@@ -91,13 +94,14 @@ export default function CostCalculatorPage() {
   };
 
   const estimate = calculated ? getEstimate() : null;
-  const isReady = county && serviceType;
+  const isReady = area && serviceType;
 
   return (
     <div className="min-h-screen bg-gray-50 font-sans">
       {/* Header */}
       <section className="bg-gradient-to-br from-blue-900 to-blue-700 text-white py-16 px-4">
         <div className="max-w-3xl mx-auto text-center">
+          <div className="inline-block bg-yellow-400 text-blue-900 font-bold px-3 py-1 rounded-full text-sm mb-4">BETA TOOL</div>
           <div className="text-4xl mb-4">🧮</div>
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Oklahoma Process Server Cost Calculator</h1>
           <p className="text-blue-200 text-lg">
@@ -109,30 +113,36 @@ export default function CostCalculatorPage() {
 
       <section className="py-12 px-4">
         <div className="max-w-3xl mx-auto">
+          
+          <div className="mb-6 bg-amber-50 border-l-4 border-amber-500 p-4 rounded-r-xl text-amber-900">
+            <p className="font-bold mb-1">⚠️ Disclaimer: This is an Estimate</p>
+            <p className="text-sm">This calculator is in BETA. Due to the complexity of process serving (exact rural mileage, defendant evasion, complex addresses), your actual cost may vary. <strong>Always call (539) 367-6832 to confirm your final rate before service.</strong></p>
+          </div>
+
           <div className="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden">
             <div className="p-8 space-y-8">
 
-              {/* Step 1: County */}
+              {/* Step 1: Area */}
               <div>
                 <label className="block text-sm font-bold text-gray-700 mb-2 uppercase tracking-wide">
-                  Step 1 — Select the County to Serve
+                  Step 1 — Select the City or County
                 </label>
                 <select
-                  value={county}
-                  onChange={(e) => { setCounty(e.target.value); setCalculated(false); }}
+                  value={area}
+                  onChange={(e) => { setArea(e.target.value); setCalculated(false); }}
                   className="w-full border-2 border-gray-200 focus:border-blue-500 rounded-xl px-4 py-3 text-gray-800 text-base font-medium outline-none transition-colors"
                 >
-                  <option value="">— Select a county —</option>
-                  {counties.map((c) => (
+                  <option value="">— Select a location —</option>
+                  {serviceAreas.map((c) => (
                     <option key={c} value={c}>{c}</option>
                   ))}
                 </select>
-                {county && countyPriceAdders[county] > 0 && (
+                {area && areaPriceAdders[area] > 0 && (
                   <p className="text-sm text-amber-700 bg-amber-50 border border-amber-200 rounded-lg px-3 py-2 mt-2">
-                    ⚠️ Distance surcharge applies: +${countyPriceAdders[county]} (exact quote confirmed before service)
+                    ⚠️ Distance surcharge applies: +${areaPriceAdders[area]} (exact quote confirmed before service)
                   </p>
                 )}
-                {county && countyPriceAdders[county] === 0 && (
+                {area && areaPriceAdders[area] === 0 && (
                   <p className="text-sm text-green-700 bg-green-50 border border-green-200 rounded-lg px-3 py-2 mt-2">
                     ✅ Standard zone — no distance surcharge
                   </p>
@@ -215,7 +225,7 @@ export default function CostCalculatorPage() {
                     : 'bg-gray-200 text-gray-400 cursor-not-allowed'
                 }`}
               >
-                {isReady ? '🧮 Calculate My Estimate' : 'Select county and service type to continue'}
+                {isReady ? '🧮 Calculate My Estimate' : 'Select a location and service type to continue'}
               </button>
             </div>
 
