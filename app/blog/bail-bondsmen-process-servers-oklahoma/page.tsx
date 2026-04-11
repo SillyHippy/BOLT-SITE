@@ -374,7 +374,7 @@ export default function BailBondsmenProcessServersOklahoma() {
               <li><strong>Affidavits of service</strong> that meet court standards</li>
               <li><strong>Coordination with bail bondsmen</strong> for optimal results</li>
             </ul>
-            <p><strong>Call Just Legal Solutions today at (918) 212-6459</strong> for professional process serving support in Tulsa, Oklahoma City, and throughout Oklahoma. We help bail bondsmen meet their legal obligations while maximizing the chances of successful defendant recovery.</p>
+            <p><strong>Call Just Legal Solutions today at (539) 367-6832</strong> for professional process serving support in Tulsa, Oklahoma City, and throughout Oklahoma. We help bail bondsmen meet their legal obligations while maximizing the chances of successful defendant recovery.</p>
             <p><em>Disclaimer: This article provides general information about Oklahoma bail bond procedures and process serving. It does not constitute legal advice. If you are a defendant, cosigner, or bondsman facing a specific legal situation, consult with a qualified Oklahoma attorney for advice tailored to your circumstances.</em></p>
 
             <hr className="my-8 border-gray-200" />
@@ -432,8 +432,8 @@ export default function BailBondsmenProcessServersOklahoma() {
                   Get a Free Quote
                   <ChevronRight className="w-5 h-5 ml-2" />
                 </Link>
-                <a href="tel:9182126459" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
-                  Call (918) 212-6459
+                <a href="tel:5393676832" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
+                  Call (539) 367-6832
                 </a>
               </div>
             </div>

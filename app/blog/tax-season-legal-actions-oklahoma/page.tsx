@@ -335,7 +335,7 @@ export default function TaxSeasonLegalActionsOklahoma() {
             <p>Tax season creates enough stress without worrying about how legal documents get served. Whether you&apos;re an attorney handling tax litigation, a taxpayer who&apos;s received notices, or a business facing collection action, understanding the service process helps you respond effectively.</p>
             <p>At Just Legal Solutions, we serve tax-related legal documents throughout Oklahoma with professionalism and efficiency. From Tulsa to Oklahoma City, our licensed process servers ensure documents are served properly and on time, with full documentation for court proceedings.</p>
             <p>If you need tax documents served&mdash;or if you&apos;ve been served and need to understand your options&mdash;contact Just Legal Solutions today. We&apos;ll explain the process, your timeline, and what steps to take next.</p>
-            <p><strong>Call (918) 212-6459</strong> or <Link href="/contact" className="text-blue-600 hover:underline">contact us online</Link> to discuss your tax-related service needs. We&apos;re here to help Oklahoma residents and businesses navigate tax season with confidence.</p>
+            <p><strong>Call (539) 367-6832</strong> or <Link href="/contact" className="text-blue-600 hover:underline">contact us online</Link> to discuss your tax-related service needs. We&apos;re here to help Oklahoma residents and businesses navigate tax season with confidence.</p>
             <p><em>Disclaimer: This article provides general information about tax liens, levies, and service procedures in Oklahoma. It does not constitute legal or tax advice. Tax laws are complex and change frequently. Consult with a qualified tax professional or attorney about your specific situation.</em></p>
 
             <hr className="my-8 border-gray-200" />
@@ -393,8 +393,8 @@ export default function TaxSeasonLegalActionsOklahoma() {
                   Get a Free Quote
                   <ChevronRight className="w-5 h-5 ml-2" />
                 </Link>
-                <a href="tel:9182126459" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
-                  Call (918) 212-6459
+                <a href="tel:5393676832" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
+                  Call (539) 367-6832
                 </a>
               </div>
             </div>

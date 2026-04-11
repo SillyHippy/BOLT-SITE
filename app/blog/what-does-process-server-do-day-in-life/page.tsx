@@ -302,7 +302,7 @@ export default function WhatDoesProcessServerDoDayInLife() {
             <p>Now you know what process servers actually do&mdash;the early mornings, the multiple attempts, the skip tracing, the difficult conversations, and the technology that makes it all work. It&apos;s a profession that requires persistence, professionalism, and a unique blend of skills that most people never see.</p>
             <p>At Just Legal Solutions, we bring all of these elements together to provide reliable, professional process serving throughout Oklahoma. From GPS-tracked attempts to comprehensive skip tracing, we handle the hard work so your case can move forward.</p>
             <p><strong>Need documents served?</strong></p>
-            <p>📞 Call <strong>(918) 212-6459</strong> today</p>
+            <p>📞 Call <strong>(539) 367-6832</strong> today</p>
             <p>We&apos;re licensed, experienced, and ready to get your documents served right&mdash;the first time, or the fifth time, or however many attempts it takes.</p>
             <p><em>Disclaimer: This article is for educational purposes only and does not constitute legal advice. Laws regarding process serving vary by jurisdiction and change over time. Always consult with a qualified Oklahoma attorney for advice specific to your situation.</em></p>
 
@@ -361,8 +361,8 @@ export default function WhatDoesProcessServerDoDayInLife() {
                   Get a Free Quote
                   <ChevronRight className="w-5 h-5 ml-2" />
                 </Link>
-                <a href="tel:9182126459" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
-                  Call (918) 212-6459
+                <a href="tel:5393676832" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
+                  Call (539) 367-6832
                 </a>
               </div>
             </div>

@@ -461,7 +461,7 @@ export default function BanksLendersProcessServingOklahoma() {
             <p>Foreclosure and lender litigation require precise service of process at multiple stages. Missing a deadline or using improper service methods can delay recovery, invalidate sales, or bar deficiency judgments. At Just Legal Solutions, we provide professional process serving for Oklahoma banks, credit unions, and lenders across all litigation types.</p>
             <p>Our licensed process servers understand the specific requirements of 46 O.S. foreclosure procedures, 12 O.S. replevin actions, and deficiency judgment motions. We deliver timely, documented service that withstands court scrutiny and protects your interests.</p>
             <p><strong>Contact Just Legal Solutions today:</strong></p>
-            <p>📞 <strong>(918) 212-6459</strong></p>
+            <p>📞 <strong>(539) 367-6832</strong></p>
             <p>📍 <strong>Tulsa, Oklahoma</strong></p>
             <p>🌐 <strong>justlegalsolutions.org</strong></p>
             <p><em>Disclaimer: This article provides general information about Oklahoma foreclosure and lending procedures. It does not constitute legal advice. Lenders and borrowers should consult qualified Oklahoma counsel for guidance on specific transactions and litigation matters.</em></p>
@@ -521,8 +521,8 @@ export default function BanksLendersProcessServingOklahoma() {
                   Get a Free Quote
                   <ChevronRight className="w-5 h-5 ml-2" />
                 </Link>
-                <a href="tel:9182126459" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
-                  Call (918) 212-6459
+                <a href="tel:5393676832" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
+                  Call (539) 367-6832
                 </a>
               </div>
             </div>

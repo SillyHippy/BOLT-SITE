@@ -374,7 +374,7 @@ export default function JanuaryProcessServingSpikeOklahoma() {
               <li><strong>Detailed documentation</strong> of all service attempts</li>
               <li><strong>Statewide coverage</strong> throughout Oklahoma</li>
             </ul>
-            <p>Do not let the January rush slow down your cases. Contact Just Legal Solutions today at <strong>(918) 212-6459</strong> or <Link href="/contact" className="text-blue-600 hover:underline">request service online</Link> to secure your place on our calendar.</p>
+            <p>Do not let the January rush slow down your cases. Contact Just Legal Solutions today at <strong>(539) 367-6832</strong> or <Link href="/contact" className="text-blue-600 hover:underline">request service online</Link> to secure your place on our calendar.</p>
             <p><em>The information provided in this article is for educational purposes only and does not constitute legal advice. Legal requirements and procedures may change, and individual circumstances vary. Consult with a qualified Oklahoma attorney for advice specific to your situation.</em></p>
 
             <hr className="my-8 border-gray-200" />
@@ -432,8 +432,8 @@ export default function JanuaryProcessServingSpikeOklahoma() {
                   Get a Free Quote
                   <ChevronRight className="w-5 h-5 ml-2" />
                 </Link>
-                <a href="tel:9182126459" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
-                  Call (918) 212-6459
+                <a href="tel:5393676832" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
+                  Call (539) 367-6832
                 </a>
               </div>
             </div>

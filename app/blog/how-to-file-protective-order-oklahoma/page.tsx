@@ -515,7 +515,7 @@ export default function HowToFileProtectiveOrderOklahoma() {
             </ul>
             <p>Whether you&apos;re an attorney managing multiple VPO cases or an individual seeking protection, we provide the professional service you need to move forward with confidence.</p>
             <p><strong>Contact Just Legal Solutions today:</strong></p>
-            <p>📞 <strong>(918) 212-6459</strong></p>
+            <p>📞 <strong>(539) 367-6832</strong></p>
             <p><em>Disclaimer: This article is for educational purposes only and does not constitute legal advice. Laws change frequently, and the information provided may not reflect the most current legal developments. Consult with a qualified Oklahoma attorney for advice specific to your situation. If you are in immediate danger, call 911.</em></p>
 
             <hr className="my-8 border-gray-200" />
@@ -573,8 +573,8 @@ export default function HowToFileProtectiveOrderOklahoma() {
                   Get a Free Quote
                   <ChevronRight className="w-5 h-5 ml-2" />
                 </Link>
-                <a href="tel:9182126459" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
-                  Call (918) 212-6459
+                <a href="tel:5393676832" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
+                  Call (539) 367-6832
                 </a>
               </div>
             </div>

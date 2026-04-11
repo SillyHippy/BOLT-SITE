@@ -371,7 +371,7 @@ export default function WhatToDoWhenServedPapersOklahoma() {
             <p>If you have questions about service of process, need papers served on someone else, or want to verify that service was completed properly in your case, we&apos;re here to help.</p>
             <p><strong>Contact Just Legal Solutions:</strong></p>
             <ul>
-              <li><strong>Phone:</strong> (918) 212-6459</li>
+              <li><strong>Phone:</strong> (539) 367-6832</li>
               <li><strong>Service Area:</strong> All 77 Oklahoma counties</li>
               <li><strong>Services:</strong> Process serving, document delivery, skip tracing, court filing</li>
             </ul>
@@ -432,8 +432,8 @@ export default function WhatToDoWhenServedPapersOklahoma() {
                   Get a Free Quote
                   <ChevronRight className="w-5 h-5 ml-2" />
                 </Link>
-                <a href="tel:9182126459" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
-                  Call (918) 212-6459
+                <a href="tel:5393676832" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
+                  Call (539) 367-6832
                 </a>
               </div>
             </div>

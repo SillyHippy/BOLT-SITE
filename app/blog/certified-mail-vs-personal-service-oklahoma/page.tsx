@@ -481,7 +481,7 @@ export default function CertifiedMailVsPersonalServiceOklahoma() {
             </ul>
             <p>Deciding between certified mail and personal service isn&apos;t always straightforward. The wrong choice can delay your case, increase costs, or create vulnerabilities if the defendant challenges service. At Just Legal Solutions, we help Oklahoma attorneys and self-represented litigants make informed decisions about service of process.</p>
             <p>Our licensed process servers understand the nuances of <strong>12 O.S. § 2004</strong> and can advise on the best approach for your specific case. Whether you need cost-effective certified mail handling, same-day personal service in Tulsa County, or assistance with difficult-to-serve defendants, we provide professional service that holds up in court.</p>
-            <p><strong>Call Just Legal Solutions today at <Link href="tel:9182126459" className="text-blue-600 hover:underline">(918) 212-6459</Link></strong> to discuss your service needs. We serve all 77 Oklahoma counties with flat-rate pricing, real-time updates, and the documentation you need to move your case forward.</p>
+            <p><strong>Call Just Legal Solutions today at <Link href="tel:5393676832" className="text-blue-600 hover:underline">(539) 367-6832</Link></strong> to discuss your service needs. We serve all 77 Oklahoma counties with flat-rate pricing, real-time updates, and the documentation you need to move your case forward.</p>
             <p><em>The information provided in this article is for educational purposes only and does not constitute legal advice. Oklahoma statutes and court rules change over time. Always consult 12 O.S. § 2004 or a qualified Oklahoma attorney for guidance specific to your case. Just Legal Solutions is a licensed process serving company, not a law firm.</em></p>
 
             <hr className="my-8 border-gray-200" />
@@ -539,8 +539,8 @@ export default function CertifiedMailVsPersonalServiceOklahoma() {
                   Get a Free Quote
                   <ChevronRight className="w-5 h-5 ml-2" />
                 </Link>
-                <a href="tel:9182126459" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
-                  Call (918) 212-6459
+                <a href="tel:5393676832" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
+                  Call (539) 367-6832
                 </a>
               </div>
             </div>

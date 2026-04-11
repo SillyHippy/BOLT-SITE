@@ -435,7 +435,7 @@ export default function OklahomaDefaultJudgmentGuide() {
             <p>Whether you&apos;re an attorney seeking reliable service for your cases or an individual who needs documents served properly, our licensed process servers understand Oklahoma&apos;s strict requirements and deliver results you can count on.</p>
             <p><strong>Contact Just Legal Solutions today:</strong></p>
             <ul>
-              <li><strong>Phone:</strong> (918) 212-6459</li>
+              <li><strong>Phone:</strong> (539) 367-6832</li>
               <li><strong>Service Area:</strong> Tulsa, Oklahoma City, and statewide</li>
               <li><strong>Services:</strong> Process serving, document retrieval, skip tracing, court filings</li>
             </ul>
@@ -497,8 +497,8 @@ export default function OklahomaDefaultJudgmentGuide() {
                   Get a Free Quote
                   <ChevronRight className="w-5 h-5 ml-2" />
                 </Link>
-                <a href="tel:9182126459" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
-                  Call (918) 212-6459
+                <a href="tel:5393676832" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
+                  Call (539) 367-6832
                 </a>
               </div>
             </div>

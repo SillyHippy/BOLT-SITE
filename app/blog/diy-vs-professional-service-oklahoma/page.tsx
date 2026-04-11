@@ -369,7 +369,7 @@ export default function DiyVsProfessionalServiceOklahoma() {
               <li>24/7 emergency service available</li>
             </ul>
             <p>Whether you&apos;re an attorney managing multiple cases or an individual handling your first lawsuit, we ensure your papers are served properly, on time, and with full legal compliance.</p>
-            <p><strong>Call (918) 212-6459 today</strong> for a free quote or to schedule service. Protect your case with professional service that stands up in court.</p>
+            <p><strong>Call (539) 367-6832 today</strong> for a free quote or to schedule service. Protect your case with professional service that stands up in court.</p>
             <p><em>This article is provided for educational purposes only and does not constitute legal advice. Service of process requirements can vary based on case type, court rules, and individual circumstances. Always consult with a qualified Oklahoma attorney for advice specific to your situation. Statutes and rules cited are current as of the publication date but may change; verify all requirements with current official sources.</em></p>
 
             <hr className="my-8 border-gray-200" />
@@ -380,8 +380,12 @@ export default function DiyVsProfessionalServiceOklahoma() {
           <section className="mt-12 mb-8 bg-white rounded-2xl shadow-lg border border-gray-100 p-8 md:p-10">
             <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Guides & Resources</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <Link href="/tulsa-process-server" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Tulsa Process Server — Same-Day from $60</span>
+                <p className="text-sm text-gray-600 mt-1">– Licensed Tulsa process server for all document types. GPS-tracked, court-ready affidavits.</p>
+              </Link>
               <Link href="/oklahoma-process-server-laws" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
-                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server Laws: Complete 2026 Guide</span>
+                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server Laws: Complete Guide</span>
                 <p className="text-sm text-gray-600 mt-1">– Detailed breakdown of licensing, requirements, and regulations</p>
               </Link>
               <Link href="/blog/contest-improper-service-oklahoma" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
@@ -389,16 +393,12 @@ export default function DiyVsProfessionalServiceOklahoma() {
                 <p className="text-sm text-gray-600 mt-1">– What to do if you were served incorrectly</p>
               </Link>
               <Link href="/oklahoma-process-server-faq-2026" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
-                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server FAQ 2026</span>
+                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server FAQ</span>
                 <p className="text-sm text-gray-600 mt-1">– Answers to common questions about process serving</p>
               </Link>
               <Link href="/pricing" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Transparent Process Server Pricing in Oklahoma</span>
                 <p className="text-sm text-gray-600 mt-1">– Current rates and service options</p>
-              </Link>
-              <Link href="/process-serving" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
-                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Professional Process Serving Services</span>
-                <p className="text-sm text-gray-600 mt-1">– How we can help with your case</p>
               </Link>
             </div>
           </section>
@@ -431,8 +431,8 @@ export default function DiyVsProfessionalServiceOklahoma() {
                   Get a Free Quote
                   <ChevronRight className="w-5 h-5 ml-2" />
                 </Link>
-                <a href="tel:9182126459" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
-                  Call (918) 212-6459
+                <a href="tel:5393676832" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
+                  Call (539) 367-6832
                 </a>
               </div>
             </div>

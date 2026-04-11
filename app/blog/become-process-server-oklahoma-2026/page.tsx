@@ -564,7 +564,7 @@ export default function BecomeProcessServerOklahoma2026() {
               <li>Timely payment and transparent communication</li>
             </ul>
             <p>We value process servers who understand Oklahoma law, maintain proper licensing, and deliver professional service on every assignment. Whether you are in Tulsa, Oklahoma City, Lawton, or a rural county, we have opportunities available.</p>
-            <p><strong>Ready to learn more?</strong> Contact Just Legal Solutions today at <strong>(918) 212-6459</strong> or visit our <Link href="/about" className="text-blue-600 hover:underline">About page</Link> to learn about our company and submission process.</p>
+            <p><strong>Ready to learn more?</strong> Contact Just Legal Solutions today at <strong>(539) 367-6832</strong> or visit our <Link href="/about" className="text-blue-600 hover:underline">About page</Link> to learn about our company and submission process.</p>
             <p><em>This article is for educational purposes only and does not constitute legal advice. Oklahoma statutes and court procedures may change. Always consult current statutes or a qualified attorney for specific legal guidance. Last updated April 2026.</em></p>
 
             <hr className="my-8 border-gray-200" />
@@ -622,8 +622,8 @@ export default function BecomeProcessServerOklahoma2026() {
                   Get a Free Quote
                   <ChevronRight className="w-5 h-5 ml-2" />
                 </Link>
-                <a href="tel:9182126459" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
-                  Call (918) 212-6459
+                <a href="tel:5393676832" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
+                  Call (539) 367-6832
                 </a>
               </div>
             </div>

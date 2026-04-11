@@ -745,7 +745,7 @@ export default function SheriffVsPrivateProcessServerOklahoma() {
               <li><strong>92% success rate</strong> backed by experienced, licensed process servers</li>
             </ul>
             <p>Whether you need standard service in Tulsa, rush service in Oklahoma City, or coverage in rural Oklahoma, we&apos;re here to get your documents served quickly, legally, and professionally.</p>
-            <p><strong>Call Just Legal Solutions today at (918) 212-6459</strong> to discuss your service needs and get a free quote. We&apos;ll help you choose the right service level for your case and timeline.</p>
+            <p><strong>Call Just Legal Solutions today at (539) 367-6832</strong> to discuss your service needs and get a free quote. We'll help you choose the right service level for your case and timeline.</p>
             <p><em>Disclaimer: This article is for educational purposes only and does not constitute legal advice. Service requirements may vary by court and case type. Always consult with an attorney or your court clerk for guidance specific to your situation.</em></p>
             <p><em>Just Legal Solutions is a licensed process serving company serving Tulsa, Oklahoma City, and all of Oklahoma. We are not affiliated with any sheriff&apos;s office or government agency.</em></p>
 
@@ -757,6 +757,10 @@ export default function SheriffVsPrivateProcessServerOklahoma() {
           <section className="mt-12 mb-8 bg-white rounded-2xl shadow-lg border border-gray-100 p-8 md:p-10">
             <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Guides & Resources</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <Link href="/tulsa-process-server" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Tulsa Process Server — Same-Day from $60</span>
+                <p className="text-sm text-gray-600 mt-1"> – Licensed Tulsa process server for all document types. GPS-tracked, court-ready affidavits.</p>
+              </Link>
               <Link href="/oklahoma-process-serving-costs-comparison" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server Pricing Guide</span>
                 <p className="text-sm text-gray-600 mt-1"> – Detailed breakdown of costs across Oklahoma counties and service types</p>
@@ -772,10 +776,6 @@ export default function SheriffVsPrivateProcessServerOklahoma() {
               <Link href="/oklahoma-process-server-faq-2026" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server FAQ</span>
                 <p className="text-sm text-gray-600 mt-1"> – Answers to common questions about process serving requirements and procedures</p>
-              </Link>
-              <Link href="/process-serving" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
-                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Professional Process Serving Services</span>
-                <p className="text-sm text-gray-600 mt-1"> – Complete overview of our service offerings and coverage areas</p>
               </Link>
             </div>
           </section>
@@ -808,8 +808,8 @@ export default function SheriffVsPrivateProcessServerOklahoma() {
                   Get a Free Quote
                   <ChevronRight className="w-5 h-5 ml-2" />
                 </Link>
-                <a href="tel:9182126459" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
-                  Call (918) 212-6459
+                <a href="tel:5393676832" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
+                  Call (539) 367-6832
                 </a>
               </div>
             </div>

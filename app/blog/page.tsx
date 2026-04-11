@@ -248,10 +248,10 @@ export default function BlogIndex() {
                   Get a Free Quote
                 </Link>
                 <a
-                  href="tel:9182126459"
+                  href="tel:5393676832"
                   className="text-white font-semibold border-2 border-white/50 px-8 py-3.5 rounded-lg hover:bg-white/10 hover:border-white backdrop-blur-sm transition-all duration-300"
                 >
-                  Call (918) 212-6459
+                  Call (539) 367-6832
                 </a>
               </div>
             </div>

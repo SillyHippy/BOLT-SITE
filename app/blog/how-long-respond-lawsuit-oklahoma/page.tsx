@@ -445,7 +445,7 @@ export default function HowLongRespondLawsuitOklahoma() {
             <p>Understanding exactly when your response is due can mean the difference between protecting your rights and facing a default judgment. If you&apos;ve been served with legal papers in Tulsa, Oklahoma County, or anywhere in the state, don&apos;t leave your deadline to chance.</p>
             <p>At Just Legal Solutions, we help individuals and attorneys verify service dates, understand court deadlines, and ensure legal documents are handled properly from the start. While we cannot provide legal advice about what to file or how to defend your case, we can help you understand the timeline you&apos;re working with and connect you with resources to protect your interests.</p>
             <p><strong>Don&apos;t wait until day 19 to figure out your deadline.</strong></p>
-            <p>📞 <strong>Call Just Legal Solutions: (918) 212-6459</strong></p>
+            <p>📞 <strong>Call Just Legal Solutions: (539) 367-6832</strong></p>
             <p>Our licensed Oklahoma process servers serve Tulsa County, Oklahoma County, and statewide with professional, timely service of process. Whether you need documents served or need to verify when your own deadline clock started ticking, we&apos;re here to help.</p>
             <p><em>Disclaimer: This article is for educational purposes only and does not constitute legal advice. Laws change, and each case is unique. If you have been served with a lawsuit, consult with a qualified Oklahoma attorney immediately to discuss your specific situation and legal options. Do not rely solely on this information to make decisions about your legal matter.</em></p>
             <p><em>Last updated: April 2026</em></p>
@@ -505,8 +505,8 @@ export default function HowLongRespondLawsuitOklahoma() {
                   Get a Free Quote
                   <ChevronRight className="w-5 h-5 ml-2" />
                 </Link>
-                <a href="tel:9182126459" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
-                  Call (918) 212-6459
+                <a href="tel:5393676832" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
+                  Call (539) 367-6832
                 </a>
               </div>
             </div>

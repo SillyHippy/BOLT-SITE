@@ -425,7 +425,7 @@ export default function ProcessServingOilGasCompaniesOklahoma() {
               <li><strong>Rush service</strong> &mdash; Same-day and emergency service when deadlines loom</li>
             </ul>
             <p>Whether you&apos;re handling a lease dispute in Kingfisher County, a royalty class action affecting thousands of owners, or an environmental case with multiple defendants, we have the experience and resources to get service done right.</p>
-            <p><strong>Call Just Legal Solutions today at (918) 212-6459</strong> for a free consultation about your oil and gas service needs. We serve papers statewide&mdash;from Tulsa to the Texas panhandle, from the Arkansas border to the Texas County line.</p>
+            <p><strong>Call Just Legal Solutions today at (539) 367-6832</strong> for a free consultation about your oil and gas service needs. We serve papers statewide&mdash;from Tulsa to the Texas panhandle, from the Arkansas border to the Texas County line.</p>
             <p><em>Disclaimer: This article provides general information about process serving in Oklahoma oil and gas litigation. It does not constitute legal advice. Service requirements vary by case type and jurisdiction. Always consult with a qualified Oklahoma attorney regarding your specific situation and service requirements.</em></p>
 
             <hr className="my-8 border-gray-200" />
@@ -483,8 +483,8 @@ export default function ProcessServingOilGasCompaniesOklahoma() {
                   Get a Free Quote
                   <ChevronRight className="w-5 h-5 ml-2" />
                 </Link>
-                <a href="tel:9182126459" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
-                  Call (918) 212-6459
+                <a href="tel:5393676832" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
+                  Call (539) 367-6832
                 </a>
               </div>
             </div>

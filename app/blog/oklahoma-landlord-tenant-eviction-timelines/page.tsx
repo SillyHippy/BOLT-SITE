@@ -450,7 +450,7 @@ export default function OklahomaLandlordTenantEvictionTimelines() {
               <li><strong>Knowledge of local courts</strong> in Tulsa, Creek, Osage, and Wagoner counties</li>
               <li><strong>Professional service</strong> that protects your case from dismissal</li>
             </ul>
-            <p>Don&apos;t let improper service derail your eviction. Contact Just Legal Solutions today at <strong>(918) 212-6459</strong> or visit our office at 201 W. 5th St., Suite 404, Tulsa, OK 74103. We&apos;ll get your notices served right the first time.</p>
+            <p>Don&apos;t let improper service derail your eviction. Contact Just Legal Solutions today at <strong>(539) 367-6832</strong> or visit our office at 201 W. 5th St., Suite 404, Tulsa, OK 74103. We&apos;ll get your notices served right the first time.</p>
             <p><em>Disclaimer: This article is for educational purposes only and does not constitute legal advice. Landlord-tenant laws are complex and change over time. Always consult with a qualified Oklahoma attorney for advice specific to your situation.</em></p>
 
             <hr className="my-8 border-gray-200" />
@@ -508,8 +508,8 @@ export default function OklahomaLandlordTenantEvictionTimelines() {
                   Get a Free Quote
                   <ChevronRight className="w-5 h-5 ml-2" />
                 </Link>
-                <a href="tel:9182126459" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
-                  Call (918) 212-6459
+                <a href="tel:5393676832" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
+                  Call (539) 367-6832
                 </a>
               </div>
             </div>

@@ -370,7 +370,7 @@ export default function ProcessServingSmallBusinessOwnersOklahoma() {
             <h2>Need Business Process Serving?</h2>
             <p>Whether you&apos;re suing a non-paying customer, enforcing a contract, or defending your business against a claim, proper service of process is essential. At Just Legal Solutions, we help Oklahoma small businesses navigate the process serving requirements that keep their cases moving forward.</p>
             <p>We serve businesses throughout Tulsa County, Oklahoma County, and all 77 Oklahoma counties. Our licensed process servers understand the specific requirements for serving corporations, LLCs, and sole proprietorships under <a href="https://law.justia.com/codes/oklahoma/title-12/section-12-2004/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">12 O.S. § 2004</a>. We provide GPS-verified service attempts, detailed affidavits, and same-day service when you need documents delivered fast.</p>
-            <p><strong>Call (918) 212-6459</strong> today for a free quote on your business process serving needs. Protect your business with service you can trust.</p>
+            <p><strong>Call (539) 367-6832</strong> today for a free quote on your business process serving needs. Protect your business with service you can trust.</p>
             <p><em>Disclaimer: This article is for educational purposes only and does not constitute legal advice. Legal procedures and requirements may change. Consult with a qualified Oklahoma attorney for advice specific to your situation.</em></p>
 
             <hr className="my-8 border-gray-200" />
@@ -428,8 +428,8 @@ export default function ProcessServingSmallBusinessOwnersOklahoma() {
                   Get a Free Quote
                   <ChevronRight className="w-5 h-5 ml-2" />
                 </Link>
-                <a href="tel:9182126459" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
-                  Call (918) 212-6459
+                <a href="tel:5393676832" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
+                  Call (539) 367-6832
                 </a>
               </div>
             </div>

@@ -462,7 +462,7 @@ export default function ServeOutOfStateDefendantOklahoma() {
               <li>Corporate service through registered agents and Secretary of State</li>
             </ul>
             <p>Our licensed Oklahoma process servers understand the nuances of interstate and international service. We coordinate with professionals across the country and around the world to ensure your documents are served properly and on time.</p>
-            <p><strong>Call Just Legal Solutions today at (918) 212-6459</strong> for a free consultation about your out-of-state service needs. We serve all 77 Oklahoma counties and coordinate service nationwide.</p>
+            <p><strong>Call Just Legal Solutions today at (539) 367-6832</strong> for a free consultation about your out-of-state service needs. We serve all 77 Oklahoma counties and coordinate service nationwide.</p>
             <p><em>Disclaimer: This article is for educational purposes only and does not constitute legal advice. Service of process requirements are complex and fact-specific. Consult with a qualified Oklahoma attorney for guidance on your particular situation. Laws and procedures may change, and readers should verify current requirements before taking action.</em></p>
 
             <hr className="my-8 border-gray-200" />
@@ -520,8 +520,8 @@ export default function ServeOutOfStateDefendantOklahoma() {
                   Get a Free Quote
                   <ChevronRight className="w-5 h-5 ml-2" />
                 </Link>
-                <a href="tel:9182126459" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
-                  Call (918) 212-6459
+                <a href="tel:5393676832" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
+                  Call (539) 367-6832
                 </a>
               </div>
             </div>

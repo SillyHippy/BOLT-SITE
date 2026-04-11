@@ -367,7 +367,7 @@ export default function RealEstateAgentsProcessServingOklahoma() {
               <li>Brokerage and agency claims</li>
             </ul>
             <p>Our licensed process servers understand the unique requirements of real estate litigation and work efficiently to complete service anywhere in Oklahoma. We handle service on individuals, corporations, HOAs, title companies, and out-of-state parties with the professionalism your cases demand.</p>
-            <p><strong>Don&apos;t let improper service delay your real estate litigation. Contact Just Legal Solutions today at (918) 212-6459 for reliable, professional process serving throughout Oklahoma.</strong></p>
+            <p><strong>Don&apos;t let improper service delay your real estate litigation. Contact Just Legal Solutions today at (539) 367-6832 for reliable, professional process serving throughout Oklahoma.</strong></p>
             <p><em>Disclaimer: This article is for educational purposes only and does not constitute legal advice. Real estate laws and procedures change frequently. Consult with an Oklahoma-licensed attorney for advice specific to your situation.</em></p>
 
             <hr className="my-8 border-gray-200" />
@@ -425,8 +425,8 @@ export default function RealEstateAgentsProcessServingOklahoma() {
                   Get a Free Quote
                   <ChevronRight className="w-5 h-5 ml-2" />
                 </Link>
-                <a href="tel:9182126459" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
-                  Call (918) 212-6459
+                <a href="tel:5393676832" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
+                  Call (539) 367-6832
                 </a>
               </div>
             </div>

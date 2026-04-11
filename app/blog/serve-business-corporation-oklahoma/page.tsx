@@ -400,7 +400,7 @@ export default function ServeBusinessCorporationOklahoma() {
               <li>Proper documentation and proof of service for court filing</li>
             </ul>
             <p>Don&apos;t let improper service delay your case or give the defendant grounds to challenge jurisdiction. Our licensed process servers understand the complexities of <strong>12 O.S. § 2004</strong> and ensure your documents are served correctly the first time.</p>
-            <p><strong>Call Just Legal Solutions today at (918) 212-6459</strong> for professional business service throughout Tulsa, Oklahoma City, and all 77 Oklahoma counties. We offer same-day service, real-time updates, and competitive flat-rate pricing.</p>
+            <p><strong>Call Just Legal Solutions today at (539) 367-6832</strong> for professional business service throughout Tulsa, Oklahoma City, and all 77 Oklahoma counties. We offer same-day service, real-time updates, and competitive flat-rate pricing.</p>
             <p><em>Disclaimer: This article is provided for educational and informational purposes only and does not constitute legal advice. Service of process requirements can vary based on specific circumstances, court rules, and statutory changes. Always consult with a qualified Oklahoma attorney for advice regarding your specific legal situation and service requirements.</em></p>
 
             <hr className="my-8 border-gray-200" />
@@ -458,8 +458,8 @@ export default function ServeBusinessCorporationOklahoma() {
                   Get a Free Quote
                   <ChevronRight className="w-5 h-5 ml-2" />
                 </Link>
-                <a href="tel:9182126459" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
-                  Call (918) 212-6459
+                <a href="tel:5393676832" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
+                  Call (539) 367-6832
                 </a>
               </div>
             </div>

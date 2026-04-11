@@ -377,7 +377,7 @@ export default function OklahomaEvictionMoratoriumHistory2026() {
             <p>Whether you&apos;re a landlord needing to serve a 5-day notice or a property manager handling multiple evictions, proper service is critical to a successful case. At Just Legal Solutions, we provide professional <Link href="/eviction-notice-service" className="text-blue-600 hover:underline">eviction notice service</Link> throughout Tulsa County and across Oklahoma.</p>
             <p>Our licensed process servers understand the strict requirements of 41 O.S. § 131 and 12 O.S. § 1148. We ensure proper documentation, timely delivery, and court-compliant Affidavits of Service that protect your case from procedural challenges.</p>
             <p><strong>Don&apos;t let improper service delay your eviction. Contact Just Legal Solutions today:</strong></p>
-            <p><strong>Phone: (918) 212-6459</strong></p>
+            <p><strong>Phone: (539) 367-6832</strong></p>
             <p><em>Disclaimer: This article is for educational purposes only and does not constitute legal advice. Oklahoma eviction law is complex and fact-specific. Landlords and tenants should consult with a qualified attorney for guidance on their specific situation.</em></p>
             <p><em>Sources: Oklahoma Statutes Title 41 (Landlord and Tenant), Title 12 (Forcible Entry and Detainer); Mental Health Association Oklahoma Eviction Data 2024-2025; Legal Aid Services of Oklahoma; U.S. Supreme Court decision in Alabama Association of Realtors v. Department of Health and Human Services (2021); Oklahoma City University Meinders School of Business eviction research.</em></p>
 
@@ -436,8 +436,8 @@ export default function OklahomaEvictionMoratoriumHistory2026() {
                   Get a Free Quote
                   <ChevronRight className="w-5 h-5 ml-2" />
                 </Link>
-                <a href="tel:9182126459" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
-                  Call (918) 212-6459
+                <a href="tel:5393676832" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
+                  Call (539) 367-6832
                 </a>
               </div>
             </div>

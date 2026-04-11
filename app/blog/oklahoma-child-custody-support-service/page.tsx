@@ -323,7 +323,7 @@ export default function OklahomaChildCustodySupportService() {
               <li>Real-time status updates throughout the process</li>
             </ul>
             <p>We serve all 77 Oklahoma counties and maintain relationships with process servers nationwide for interstate cases. Whether you need to serve a custody modification in Tulsa County, a paternity action in Oklahoma County, or an emergency order anywhere in the state, we ensure proper service that will stand up in court.</p>
-            <p><strong>Contact Just Legal Solutions today at (918) 212-6459</strong> for professional service of process for your family law case. We understand what&apos;s at stake, and we&apos;re here to help you navigate the process with confidence.</p>
+            <p><strong>Contact Just Legal Solutions today at (539) 367-6832</strong> for professional service of process for your family law case. We understand what&apos;s at stake, and we&apos;re here to help you navigate the process with confidence.</p>
             <p><em>Disclaimer: This article is for educational purposes only and does not constitute legal advice. Service of process requirements can vary based on specific circumstances, and laws may change. Always consult with a qualified Oklahoma family law attorney for guidance on your particular situation.</em></p>
 
             <hr className="my-8 border-gray-200" />
@@ -381,8 +381,8 @@ export default function OklahomaChildCustodySupportService() {
                   Get a Free Quote
                   <ChevronRight className="w-5 h-5 ml-2" />
                 </Link>
-                <a href="tel:9182126459" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
-                  Call (918) 212-6459
+                <a href="tel:5393676832" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
+                  Call (539) 367-6832
                 </a>
               </div>
             </div>

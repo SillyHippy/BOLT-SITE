@@ -359,7 +359,7 @@ export default function CanYouAvoidBeingServedOklahoma() {
             <h2>Questions About Being Served? Just Legal Solutions Can Help</h2>
             <p>If you&apos;ve been served with legal papers in Oklahoma&mdash;or if you&apos;re trying to serve someone who is avoiding service&mdash;Just Legal Solutions is here to help. Our licensed process servers have the experience, persistence, and legal knowledge to complete service properly under Oklahoma law.</p>
             <p><strong>We serve all 77 Oklahoma counties</strong> with professional, reliable service that holds up in court. From routine serves to complex evasion cases, we have the tools and expertise to get the job done right.</p>
-            <p><strong>Call us today at (918) 212-6459</strong> or <Link href="/contact" className="text-blue-600 hover:underline">contact us online</Link> to discuss your service needs. Whether you need same-day service in Tulsa County or assistance with a hard-to-serve defendant anywhere in Oklahoma, we&apos;re ready to help.</p>
+            <p><strong>Call us today at (539) 367-6832</strong> or <Link href="/contact" className="text-blue-600 hover:underline">contact us online</Link> to discuss your service needs. Whether you need same-day service in Tulsa County or assistance with a hard-to-serve defendant anywhere in Oklahoma, we’re ready to help.</p>
             <p><em>Disclaimer: This article is for educational purposes only and does not constitute legal advice. If you have been served with legal papers or are involved in a lawsuit, consult with a qualified Oklahoma attorney about your specific situation. Laws change, and this information may not reflect the most current legal standards.</em></p>
 
             <hr className="my-8 border-gray-200" />
@@ -370,21 +370,25 @@ export default function CanYouAvoidBeingServedOklahoma() {
           <section className="mt-12 mb-8 bg-white rounded-2xl shadow-lg border border-gray-100 p-8 md:p-10">
             <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Guides & Resources</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <Link href="/tulsa-process-server" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Tulsa Process Server — Same-Day from $60</span>
+                <p className="text-sm text-gray-600 mt-1"> — Licensed Tulsa process server for all document types. GPS-tracked, court-ready affidavits.</p>
+              </Link>
               <Link href="/blog/oklahoma-default-judgment-guide" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Default Judgment Guide</span>
-                <p className="text-sm text-gray-600 mt-1"> &mdash; Learn what default judgments are, how they happen, and what you can do if one is entered against you.</p>
+                <p className="text-sm text-gray-600 mt-1"> — Learn what default judgments are, how they happen, and what you can do if one is entered against you.</p>
               </Link>
               <Link href="/skip-tracing" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Skip Tracing Services</span>
-                <p className="text-sm text-gray-600 mt-1"> &mdash; Discover how professional process servers locate hard-to-find defendants using advanced investigative techniques.</p>
+                <p className="text-sm text-gray-600 mt-1"> — Discover how professional process servers locate hard-to-find defendants using advanced investigative techniques.</p>
               </Link>
               <Link href="/substitute-service-oklahoma" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Substitute Service in Oklahoma</span>
-                <p className="text-sm text-gray-600 mt-1"> &mdash; Understand when and how papers can be left with someone else at your residence.</p>
+                <p className="text-sm text-gray-600 mt-1"> — Understand when and how papers can be left with someone else at your residence.</p>
               </Link>
               <Link href="/oklahoma-process-server-faq-2026" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
-                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server FAQ 2026</span>
-                <p className="text-sm text-gray-600 mt-1"> &mdash; Get answers to common questions about process serving in Oklahoma.</p>
+                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server FAQ</span>
+                <p className="text-sm text-gray-600 mt-1"> — Get answers to common questions about process serving in Oklahoma.</p>
               </Link>
             </div>
           </section>
@@ -417,8 +421,8 @@ export default function CanYouAvoidBeingServedOklahoma() {
                   Get a Free Quote
                   <ChevronRight className="w-5 h-5 ml-2" />
                 </Link>
-                <a href="tel:9182126459" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
-                  Call (918) 212-6459
+                <a href="tel:5393676832" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
+                  Call (539) 367-6832
                 </a>
               </div>
             </div>

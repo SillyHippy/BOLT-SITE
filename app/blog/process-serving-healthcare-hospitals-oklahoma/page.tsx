@@ -380,7 +380,7 @@ export default function ProcessServingHealthcareHospitalsOklahoma() {
             <p>Whether you&apos;re handling a complex medical malpractice case, employment dispute, or subpoena for medical records, our licensed process servers have the experience and knowledge to get the job done right. We serve hospitals, physicians, and healthcare facilities throughout Oklahoma, including Tulsa, Oklahoma City, and all surrounding communities.</p>
             <p><strong>Contact Just Legal Solutions today:</strong></p>
             <ul>
-              <li><strong>Phone</strong>: (918) 212-6459</li>
+              <li><strong>Phone</strong>: (539) 367-6832</li>
               <li><strong>Service Area</strong>: All 77 Oklahoma counties</li>
               <li><strong>Specialized Services</strong>: Medical malpractice service, hospital service, HIPAA-compliant procedures, subpoena service</li>
             </ul>
@@ -446,8 +446,8 @@ export default function ProcessServingHealthcareHospitalsOklahoma() {
                   Get a Free Quote
                   <ChevronRight className="w-5 h-5 ml-2" />
                 </Link>
-                <a href="tel:9182126459" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
-                  Call (918) 212-6459
+                <a href="tel:5393676832" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
+                  Call (539) 367-6832
                 </a>
               </div>
             </div>

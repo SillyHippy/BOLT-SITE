@@ -390,7 +390,7 @@ export default function ContestImproperServiceOklahoma() {
               <li>Professional service that withstands court scrutiny</li>
             </ul>
             <p>Don&apos;t let defective service jeopardize your case or your rights. Contact Just Legal Solutions today for professional, reliable process serving throughout Oklahoma.</p>
-            <p><strong>Call (918) 212-6459</strong> or visit our website to learn more about our services.</p>
+            <p><strong>Call (539) 367-6832</strong> or visit our website to learn more about our services.</p>
             <p><em>This article was written by Joseph Iannazzi, a licensed Oklahoma process server and owner of Just Legal Solutions. While we strive to provide accurate and current information, laws change and court interpretations evolve. Always consult with a qualified Oklahoma attorney regarding your specific legal situation.</em></p>
             <p><em>Last updated: April 8, 2026</em></p>
 
@@ -449,8 +449,8 @@ export default function ContestImproperServiceOklahoma() {
                   Get a Free Quote
                   <ChevronRight className="w-5 h-5 ml-2" />
                 </Link>
-                <a href="tel:9182126459" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
-                  Call (918) 212-6459
+                <a href="tel:5393676832" className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
+                  Call (539) 367-6832
                 </a>
               </div>
             </div>
