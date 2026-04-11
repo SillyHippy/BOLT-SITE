@@ -11,7 +11,8 @@ import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
   title: 'Process Server Skiatook, OK | Same-Day Service from $60 | Just Legal Solutions',
-  description: 'Licensed process server in Skiatook, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Near Skiatook Lake. Tulsa County + all 77 OK counties. (539) 367-6832',
+  description:
+    'Licensed process server in Skiatook, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
   keywords: 'process server skiatook, legal document service skiatook, serve papers skiatook, court documents skiatook, subpoena service skiatook, eviction notice skiatook, emergency process server skiatook, 24/7 process server oklahoma, licensed process server tulsa county, professional process server skiatook',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',
@@ -28,8 +29,9 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Skiatook Legal Document Service | Osage County Process Server',
-    description: 'Professional process server in Skiatook, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability and competitive rates.',
+    title: 'Process Server Skiatook, OK | Same-Day Service from $60 | Just Legal Solutions',
+    description:
+    'Licensed process server in Skiatook, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     url: 'https://justlegalsolutions.org/service-areas/skiatook',
     siteName: 'Just Legal Solutions',
     images: [
@@ -45,8 +47,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Skiatook Divorce Papers & Family Court Documents | Legal Service',
-    description: 'Licensed process server in Skiatook, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability.',
+    title: 'Process Server Skiatook, OK | Same-Day Service from $60 | Just Legal Solutions',
+    description:
+    'Licensed process server in Skiatook, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     images: ['https://justlegalsolutions.org/og-image.png'],
   },
   alternates: {

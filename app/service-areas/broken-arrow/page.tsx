@@ -10,7 +10,8 @@ import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
   title: 'Process Server Broken Arrow, OK | Same-Day Service from $60 | Just Legal Solutions',
-  description: 'Licensed process server in Broken Arrow, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving Tulsa & Wagoner Counties + all 77 OK counties. (539) 367-6832',
+  description:
+    'Licensed process server in Broken Arrow, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
   keywords: 'process server broken arrow, broken arrow process server, legal document service broken arrow, serve papers broken arrow, court documents broken arrow, subpoena service broken arrow, eviction notice broken arrow, emergency process server broken arrow, 24/7 process server oklahoma, licensed process server tulsa county, wagoner county process server, professional process server broken arrow 2026',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',
@@ -27,8 +28,9 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Broken Arrow Process Server | Expert Legal Document Delivery 2026',
-    description: 'Trusted Broken Arrow process server with years of local experience. Professional legal document service throughout Rose District, Forest Ridge, and all Broken Arrow communities with dual-county licensing.',
+    title: 'Process Server Broken Arrow, OK | Same-Day Service from $60 | Just Legal Solutions',
+    description:
+    'Licensed process server in Broken Arrow, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     url: 'https://justlegalsolutions.org/service-areas/broken-arrow',
     siteName: 'Just Legal Solutions',
     images: [
@@ -44,8 +46,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Broken Arrow Process Server | Same-Day Court Document Service',
-    description: 'Licensed Broken Arrow process server providing expert legal document delivery throughout Tulsa & Wagoner Counties. Emergency and same-day service available.',
+    title: 'Process Server Broken Arrow, OK | Same-Day Service from $60 | Just Legal Solutions',
+    description:
+    'Licensed process server in Broken Arrow, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     images: ['https://justlegalsolutions.org/og-image.png'],
   },
   alternates: {

@@ -9,11 +9,11 @@ import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Nowata County Process Server | Nowata Legal Document Delivery',
+  title: 'Nowata County Process Server, OK | From $60 | Just Legal Solutions',
   description: 'Nowata County\'s trusted process server—serving Nowata, Delaware, Wann, and Lenapah with fast, licensed legal document delivery. Local expertise for court papers, evictions, and urgent legal needs.',
   keywords: 'process server Nowata County, legal document service Nowata County, court papers Oklahoma, Nowata courthouse, process serving Nowata, skip tracing Nowata County',
   openGraph: {
-    title: 'Nowata & Nowata County Legal Service | Court Document Delivery',
+    title: 'Nowata County Process Server, OK | From $60 | Just Legal Solutions',
     description: 'Legal document service for every city and town in Nowata County, Oklahoma—trusted by attorneys, families, and businesses for reliable, local process serving.',
     url: 'https://justlegalsolutions.org/counties/nowata-county',
     siteName: 'Just Legal Solutions',
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Nowata Court Papers & Legal Documents | Nowata County Service',
+    title: 'Nowata County Process Server, OK | From $60 | Just Legal Solutions',
     description: 'Process serving in Nowata County—covering Nowata, Delaware, Wann, and Lenapah with professional, prompt legal document delivery.',
   },
   alternates: {

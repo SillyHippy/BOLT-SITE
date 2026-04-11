@@ -8,11 +8,11 @@ import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Pryor Creek Rural Property Disputes & Agricultural Litigation | Mayes County',
+  title: 'Mayes County Process Server, OK | From $60 | Just Legal Solutions',
   description: 'Licensed process server throughout Mayes County, Oklahoma. Serving Pryor. Same-day service available.',
   keywords: 'process server Mayes County, legal document service Mayes County, court papers Oklahoma, Pryor courthouse, process serving Pryor, skip tracing Mayes County',
   openGraph: {
-    title: 'Pryor Industrial & Rural Land Dispute Resolution | Mayes County Service',
+    title: 'Mayes County Process Server, OK | From $60 | Just Legal Solutions',
     description: 'Licensed process server throughout Mayes County, Oklahoma. Professional legal document service in all cities and towns.',
     url: 'https://justlegalsolutions.org/counties/mayes-county',
     siteName: 'Just Legal Solutions',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Pryor Creek Commercial Evictions & Corporate Litigation Support',
+    title: 'Mayes County Process Server, OK | From $60 | Just Legal Solutions',
     description: 'Licensed process server throughout Mayes County, Oklahoma. Professional service in all cities.',
   },
   alternates: {

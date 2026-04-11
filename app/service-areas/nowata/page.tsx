@@ -9,7 +9,8 @@ import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
   title: 'Process Server Nowata, OK | Same-Day Service from $60 | Just Legal Solutions',
-  description: 'Licensed process server in Nowata, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving Nowata County & all 77 OK counties. (539) 367-6832',
+  description:
+    'Licensed process server in Nowata, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
   keywords: 'process server nowata, nowata process server, legal document service nowata, serve papers nowata, court documents nowata, subpoena service nowata, eviction notice nowata, emergency process server nowata, nowata county process server, licensed process server nowata county, professional process server nowata oklahoma',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',
@@ -26,8 +27,9 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Nowata Process Server | Nowata County Legal Document Delivery',
-    description: 'Professional process server in Nowata, Oklahoma. Reliable legal document service throughout Nowata County with 24/7 emergency availability and transparent pricing.',
+    title: 'Process Server Nowata, OK | Same-Day Service from $60 | Just Legal Solutions',
+    description:
+    'Licensed process server in Nowata, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     url: 'https://justlegalsolutions.org/service-areas/nowata',
     siteName: 'Just Legal Solutions',
     images: [
@@ -43,8 +45,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Nowata Process Server | Nowata County Legal Papers',
-    description: 'Licensed process server in Nowata, Oklahoma. Reliable legal document delivery with 24/7 emergency availability.',
+    title: 'Process Server Nowata, OK | Same-Day Service from $60 | Just Legal Solutions',
+    description:
+    'Licensed process server in Nowata, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     images: ['https://justlegalsolutions.org/og-image.png'],
   },
   alternates: {

@@ -9,7 +9,8 @@ import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
   title: 'Process Server Vinita, OK | Same-Day Service from $60 | Just Legal Solutions',
-  description: 'Licensed process server in Vinita, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving Craig County & Grand Lake region. (539) 367-6832',
+  description:
+    'Licensed process server in Vinita, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
   keywords: 'process server vinita, vinita process server, legal document service vinita, serve papers vinita, court documents vinita, subpoena service vinita, eviction notice vinita, emergency process server vinita, craig county process server, grand lake process server, licensed process server craig county, professional process server vinita oklahoma',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',
@@ -26,8 +27,9 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Vinita Process Server | Craig County Court Document Delivery',
-    description: 'Professional process server in Vinita, Oklahoma. Fast, reliable legal document service throughout Craig County with 24/7 emergency availability and competitive rates.',
+    title: 'Process Server Vinita, OK | Same-Day Service from $60 | Just Legal Solutions',
+    description:
+    'Licensed process server in Vinita, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     url: 'https://justlegalsolutions.org/service-areas/vinita',
     siteName: 'Just Legal Solutions',
     images: [
@@ -43,8 +45,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Vinita Process Server | Craig County Legal Document Service',
-    description: 'Licensed process server in Vinita, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability.',
+    title: 'Process Server Vinita, OK | Same-Day Service from $60 | Just Legal Solutions',
+    description:
+    'Licensed process server in Vinita, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     images: ['https://justlegalsolutions.org/og-image.png'],
   },
   alternates: {

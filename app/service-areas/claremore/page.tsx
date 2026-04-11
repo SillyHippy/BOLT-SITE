@@ -11,7 +11,8 @@ import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
   title: 'Process Server Claremore, OK | Same-Day Service from $60 | Just Legal Solutions',
-  description: 'Licensed process server in Claremore, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving Rogers County & all 77 OK counties. (539) 367-6832',
+  description:
+    'Licensed process server in Claremore, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
   keywords: 'process server claremore, legal document service claremore, serve papers claremore, court documents claremore, subpoena service claremore, eviction notice claremore, emergency process server claremore, 24/7 process server oklahoma, licensed process server rogers county, professional process server claremore',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',
@@ -28,8 +29,9 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Claremore Legal Document Service | Rogers County Court Papers',
-    description: 'Professional process server in Claremore, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability and competitive rates.',
+    title: 'Process Server Claremore, OK | Same-Day Service from $60 | Just Legal Solutions',
+    description:
+    'Licensed process server in Claremore, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     url: 'https://justlegalsolutions.org/service-areas/claremore',
     siteName: 'Just Legal Solutions',
     images: [
@@ -45,8 +47,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Claremore Process Serving | Rogers County Legal Papers',
-    description: 'Licensed process server in Claremore, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability.',
+    title: 'Process Server Claremore, OK | Same-Day Service from $60 | Just Legal Solutions',
+    description:
+    'Licensed process server in Claremore, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     images: ['https://justlegalsolutions.org/og-image.png'],
   },
   alternates: {

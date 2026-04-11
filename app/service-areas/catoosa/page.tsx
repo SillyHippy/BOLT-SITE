@@ -9,7 +9,8 @@ import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
   title: 'Process Server Catoosa, OK | Same-Day Service from $60 | Just Legal Solutions',
-  description: 'Licensed process server in Catoosa, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving Rogers County & all 77 OK counties. (539) 367-6832',
+  description:
+    'Licensed process server in Catoosa, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
   keywords: 'process server catoosa, legal document service catoosa, serve papers catoosa, court documents catoosa, subpoena service catoosa, eviction notice catoosa, emergency process server catoosa, 24/7 process server oklahoma, licensed process server rogers county, professional process server catoosa',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',
@@ -26,8 +27,9 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Catoosa Process Server | Legal Document Service',
-    description: 'Professional process server in Catoosa, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability and competitive rates.',
+    title: 'Process Server Catoosa, OK | Same-Day Service from $60 | Just Legal Solutions',
+    description:
+    'Licensed process server in Catoosa, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     url: 'https://justlegalsolutions.org/service-areas/catoosa',
     siteName: 'Just Legal Solutions',
     images: [
@@ -43,8 +45,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Catoosa Legal Document Delivery | Evictions & Court Papers',
-    description: 'Licensed process server in Catoosa, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability.',
+    title: 'Process Server Catoosa, OK | Same-Day Service from $60 | Just Legal Solutions',
+    description:
+    'Licensed process server in Catoosa, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     images: ['https://justlegalsolutions.org/og-image.png'],
   },
   alternates: {

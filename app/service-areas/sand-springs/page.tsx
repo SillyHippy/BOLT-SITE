@@ -11,7 +11,8 @@ import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
   title: 'Process Server Sand Springs, OK | Same-Day Service from $60 | Just Legal Solutions',
-  description: 'Licensed process server in Sand Springs, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving Tulsa County & all 77 OK counties. (539) 367-6832',
+  description:
+    'Licensed process server in Sand Springs, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
   keywords: 'process server sand springs, legal document service sand springs, serve papers sand springs, court documents sand springs, subpoena service sand springs, eviction notice sand springs, emergency process server sand springs, 24/7 process server oklahoma, licensed process server tulsa county, professional process server sand springs',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',
@@ -28,8 +29,9 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Sand Springs Court Papers & Subpoenas | Process Server Service',
-    description: 'Professional process server in Sand Springs, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability and competitive rates.',
+    title: 'Process Server Sand Springs, OK | Same-Day Service from $60 | Just Legal Solutions',
+    description:
+    'Licensed process server in Sand Springs, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     url: 'https://justlegalsolutions.org/service-areas/sand-springs',
     siteName: 'Just Legal Solutions',
     images: [
@@ -45,8 +47,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Sand Springs Civil Litigation & Eviction Notices | Tulsa County',
-    description: 'Licensed process server in Sand Springs, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability.',
+    title: 'Process Server Sand Springs, OK | Same-Day Service from $60 | Just Legal Solutions',
+    description:
+    'Licensed process server in Sand Springs, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     images: ['https://justlegalsolutions.org/og-image.png'],
   },
   alternates: {

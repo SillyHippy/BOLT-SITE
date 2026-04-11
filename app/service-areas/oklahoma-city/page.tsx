@@ -5,12 +5,14 @@ import JsonLd from '@/components/JsonLd';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Process Server Oklahoma City | OKC Process Serving - Licensed & Fast',
-  description: 'Licensed process server Oklahoma City. Same-day service available in OKC, Nichols Hills, The Village, Midwest City & all Oklahoma County. Call (539) 367-6832. 156+ five-star reviews.',
+  title: 'Process Server Oklahoma City, OK | Same-Day Service from $60 | Just Legal Solutions',
+  description:
+    'Licensed process server in Oklahoma City, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
   keywords: 'process server oklahoma city, OKC process serving, oklahoma city process server, oklahoma county process serving, serve papers OKC, process server OKC, licensed process server Oklahoma County',
   openGraph: {
-    title: 'Process Server Oklahoma City | Licensed OKC Process Serving',
-    description: 'Professional process serving throughout Oklahoma City and Oklahoma County. Same-day service available. Licensed, bonded & experienced.',
+    title: 'Process Server Oklahoma City, OK | Same-Day Service from $60 | Just Legal Solutions',
+    description:
+    'Licensed process server in Oklahoma City, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     type: 'website',
     url: 'https://justlegalsolutions.org/service-areas/oklahoma-city/',
   },
@@ -78,7 +80,8 @@ export default function OklahomaCityProcessServer() {
     '@context': 'https://schema.org',
     '@type': 'LegalService',
     name: 'Just Legal Solutions - Oklahoma City Process Serving',
-    description: 'Licensed process server serving Oklahoma City and Oklahoma County. Same-day service available.',
+    description:
+    'Licensed process server in Oklahoma City, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     telephone: '(539) 367-6832',
     url: 'https://justlegalsolutions.org/service-areas/oklahoma-city/',
     areaServed: { '@type': 'City', name: 'Oklahoma City', addressRegion: 'OK' },

@@ -326,6 +326,29 @@ export default function EvictionNoticeGuide() {
             <p className="text-xs text-gray-500 mt-4">Reviewed against Oklahoma Statutes (Title 12 and Title 41) in March 2026. Last updated: March 27, 2026</p>
           </div>
 
+          
+          {/* Related Guides */}
+          <section className="mt-12 mb-8 bg-white rounded-2xl shadow-lg border border-gray-100 p-8 md:p-10">
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Guides &amp; Resources</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <Link href="/tulsa-process-server" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Tulsa Process Server — Same-Day from $60</span>
+                <p className="text-sm text-gray-600 mt-1">Licensed Tulsa process server for all document types. GPS-tracked, court-ready affidavits.</p>
+              </Link>
+              <Link href="/process-serving" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Professional Process Serving Services</span>
+                <p className="text-sm text-gray-600 mt-1">Complete overview of our service offerings and coverage areas across Oklahoma.</p>
+              </Link>
+              <Link href="/pricing" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Process Server Pricing in Oklahoma</span>
+                <p className="text-sm text-gray-600 mt-1">Transparent flat-rate pricing starting at $60 — no mileage fees, no hidden charges.</p>
+              </Link>
+              <Link href="/oklahoma-process-server-faq-2026" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server FAQ</span>
+                <p className="text-sm text-gray-600 mt-1">Answers to the most common questions about process serving in Oklahoma.</p>
+              </Link>
+            </div>
+          </section>
           {/* CTA Section */}
           <section className="mt-12 relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 rounded-2xl overflow-hidden shadow-xl">
             <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] opacity-10" />

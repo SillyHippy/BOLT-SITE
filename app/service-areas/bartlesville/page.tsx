@@ -8,7 +8,8 @@ import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
   title: 'Process Server Bartlesville, OK | Same-Day Service from $60 | Just Legal Solutions',
-  description: 'Licensed process server in Bartlesville, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving Washington County & all 77 OK counties. (539) 367-6832',
+  description:
+    'Licensed process server in Bartlesville, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
   keywords: 'process server bartlesville, legal document service bartlesville, serve papers bartlesville, court documents bartlesville, subpoena service bartlesville, eviction notice bartlesville, licensed process server oklahoma, professional process server tulsa county',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',
@@ -25,8 +26,9 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Licensed Process Server Bartlesville | Washington County Legal Papers',
-    description: 'Professional process server in Bartlesville, Oklahoma. Fast, reliable legal document service with transparent pricing.',
+    title: 'Process Server Bartlesville, OK | Same-Day Service from $60 | Just Legal Solutions',
+    description:
+    'Licensed process server in Bartlesville, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     url: 'https://justlegalsolutions.org/service-areas/bartlesville',
     siteName: 'Just Legal Solutions',
     images: [
@@ -42,8 +44,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Bartlesville Legal Document Service | Washington County Process Server',
-    description: 'Licensed process server in Bartlesville, Oklahoma. Fast, reliable legal document service with professional standards.',
+    title: 'Process Server Bartlesville, OK | Same-Day Service from $60 | Just Legal Solutions',
+    description:
+    'Licensed process server in Bartlesville, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     images: ['https://justlegalsolutions.org/og-image.png'],
   },
   alternates: {

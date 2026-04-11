@@ -9,7 +9,8 @@ import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
   title: 'Process Server Bristow, OK | Same-Day Service from $60 | Just Legal Solutions',
-  description: 'Licensed process server in Bristow, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving Creek County & all 77 OK counties. (539) 367-6832',
+  description:
+    'Licensed process server in Bristow, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
   keywords: 'process server bristow, legal document service bristow, serve papers bristow, court documents bristow, subpoena service bristow, eviction notice bristow, emergency process server bristow, 24/7 process server oklahoma, licensed process server creek county, professional process server bristow',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',
@@ -26,8 +27,9 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Bristow Legal Papers & Court Documents | Creek County Process Server',
-    description: 'Professional process server in Bristow, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability and competitive rates.',
+    title: 'Process Server Bristow, OK | Same-Day Service from $60 | Just Legal Solutions',
+    description:
+    'Licensed process server in Bristow, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     url: 'https://justlegalsolutions.org/service-areas/bristow',
     siteName: 'Just Legal Solutions',
     images: [
@@ -43,8 +45,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Bristow Court Documents & Legal Papers | Creek County Service',
-    description: 'Licensed process server in Bristow, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability.',
+    title: 'Process Server Bristow, OK | Same-Day Service from $60 | Just Legal Solutions',
+    description:
+    'Licensed process server in Bristow, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     images: ['https://justlegalsolutions.org/og-image.png'],
   },
   alternates: {
@@ -112,7 +115,8 @@ export default function BristowProcessServer() {
           }}
           serviceDetails={{
             name: "Process Server Services Bristow",
-            description: "Professional process serving in Bristow, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service",
+            description:
+    'Licensed process server in Bristow, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
             areaServed: ["Bristow", "Creek County", "Oklahoma"],
             serviceType: ["Process Serving", "Legal Document Delivery", "Court Filing Services", "Skip Tracing", "Emergency Rush Service"]
           }}

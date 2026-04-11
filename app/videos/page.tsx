@@ -7,7 +7,7 @@ import UnifiedSchema from '@/components/UnifiedSchema';
 export const metadata: Metadata = {
   title: 'Process Serving & Notary Videos — Oklahoma Legal Guides | Just Legal Solutions',
   description:
-    "Watch 26 free educational videos on Oklahoma process serving, notary services, skip tracing, pricing, and more from Joseph Iannazzi — Tulsa's #1 rated process server.",
+    "Watch 42 free educational videos on Oklahoma process serving, notary services, skip tracing, pricing, and more from Joseph Iannazzi — Tulsa's #1 rated process server.",
   keywords:
     'Oklahoma process serving videos, process server tutorial, legal document delivery guide, skip tracing explained, Tulsa notary videos, Oklahoma notary 2026',
   authors: [{ name: 'Joseph Iannazzi' }],
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Free Oklahoma Process Serving & Notary Video Guides | Just Legal Solutions',
     description:
-      'Watch 26 step-by-step videos covering process serving, notary services, skip tracing, and pricing in Oklahoma.',
+      'Watch 42 step-by-step videos covering process serving, notary services, skip tracing, and pricing in Oklahoma.',
     url: 'https://justlegalsolutions.org/videos',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -46,6 +46,169 @@ interface Video {
   category: string;
   isShort: boolean;
 }
+
+const featuredVideos: Video[] = [
+  {
+    videoId: 'ApPeLMDA5wU',
+    title: 'Oklahoma Eviction Process — Landlord\'s Complete Step-by-Step Guide',
+    description: 'The complete landlord\'s guide to the Oklahoma eviction process — every step from notice to court order, explained by a licensed process server.',
+    datePublished: '2026-04-01',
+    duration: 'PT15M0S',
+    relatedPage: '/blog/how-to-serve-eviction-notices-in-oklahoma',
+    category: 'Featured',
+    isShort: false,
+  },
+  {
+    videoId: 'IEKOF4TiEDY',
+    title: 'Attorney\'s Guide to Hiring a Process Server in Oklahoma | Just Legal Solutions',
+    description: 'What attorneys need to know when hiring a process server in Oklahoma — licensing, GPS documentation, affidavits, and rush service options.',
+    datePublished: '2026-04-01',
+    duration: 'PT12M0S',
+    relatedPage: '/process-serving',
+    category: 'Featured',
+    isShort: false,
+  },
+  {
+    videoId: '4TeTwsMP3dw',
+    title: 'Free Process Server Tools & Resources for Oklahoma Servers | Just Legal Solutions',
+    description: 'Free tools, apps, and resources every Oklahoma process server should know about in 2026.',
+    datePublished: '2026-04-01',
+    duration: 'PT10M0S',
+    relatedPage: '/process-server-equipment-checklist',
+    category: 'Featured',
+    isShort: false,
+  },
+  {
+    videoId: 'Rr5utB7OFsI',
+    title: 'Want to Become a Process Server in Oklahoma? — Complete 2026 Guide',
+    description: 'Everything you need to know to become a licensed process server in Oklahoma — licensing, bonding, court registration, and building your business.',
+    datePublished: '2026-04-01',
+    duration: 'PT14M0S',
+    relatedPage: '/blog/become-process-server-oklahoma-2026',
+    category: 'Featured',
+    isShort: false,
+  },
+  {
+    videoId: '7BxAu4S-q0k',
+    title: 'Federal Court Process Serving in Oklahoma — Different Rules You Need to Know | Just Legal Solutions',
+    description: 'Federal court process serving in Oklahoma follows different rules than state court. Learn what\'s required under FRCP Rule 4 and how we handle federal service.',
+    datePublished: '2026-04-01',
+    duration: 'PT11M0S',
+    relatedPage: '/process-serving',
+    category: 'Featured',
+    isShort: false,
+  },
+  {
+    videoId: 'Y-ATkdBkLsY',
+    title: 'Protective Order & Restraining Order Service in Oklahoma | Just Legal Solutions',
+    description: 'How protective orders and restraining orders are legally served in Oklahoma — VPO service, emergency orders, and documentation requirements.',
+    datePublished: '2026-04-01',
+    duration: 'PT10M0S',
+    relatedPage: '/blog/how-to-file-protective-order-oklahoma',
+    category: 'Featured',
+    isShort: false,
+  },
+  {
+    videoId: 'iuSq5CGC07w',
+    title: 'Divorce & Family Law Process Serving in Oklahoma — Complete Guide | Just Legal Solutions',
+    description: 'Complete guide to serving divorce papers and family law documents in Oklahoma — personal service, substituted service, and proof of service requirements.',
+    datePublished: '2026-04-01',
+    duration: 'PT13M0S',
+    relatedPage: '/blog/how-to-serve-divorce-papers-oklahoma',
+    category: 'Featured',
+    isShort: false,
+  },
+  {
+    videoId: '9fpWkN2l7xQ',
+    title: 'Landlord\'s Complete Guide to Oklahoma Eviction Process Serving | Just Legal Solutions',
+    description: 'A dedicated landlord\'s guide to properly serving eviction notices and FED (Forcible Entry and Detainer) summons in Oklahoma.',
+    datePublished: '2026-04-01',
+    duration: 'PT12M0S',
+    relatedPage: '/blog/how-to-serve-eviction-notices-in-oklahoma',
+    category: 'Featured',
+    isShort: false,
+  },
+  {
+    videoId: 'U9vTOLPoB7E',
+    title: 'How to Get a Document Notarized in Oklahoma — Beginner\'s Guide | Just Legal Solutions',
+    description: 'A beginner-friendly guide to getting documents notarized in Oklahoma — what to bring, how the process works, and what to expect.',
+    datePublished: '2026-04-01',
+    duration: 'PT9M0S',
+    relatedPage: '/notary',
+    category: 'Featured',
+    isShort: false,
+  },
+  {
+    videoId: '-C9XFE71nVU',
+    title: 'New Oklahoma Notary Laws 2026 — HB 2265 Changes Explained | Just Legal Solutions',
+    description: 'What changed for Oklahoma notaries in 2026 under HB 2265 — new requirements, updated journal rules, and what notaries must do to stay compliant.',
+    datePublished: '2026-04-01',
+    duration: 'PT11M0S',
+    relatedPage: '/notary-laws',
+    category: 'Featured',
+    isShort: false,
+  },
+  {
+    videoId: 'UTU0Xtpps3I',
+    title: 'How to Get an Apostille in Oklahoma — Step by Step Guide | Just Legal Solutions',
+    description: 'Step-by-step guide to obtaining an apostille in Oklahoma for international document use — what it is, who issues it, and how long it takes.',
+    datePublished: '2026-04-01',
+    duration: 'PT10M0S',
+    relatedPage: '/notary',
+    category: 'Featured',
+    isShort: false,
+  },
+  {
+    videoId: 'q5JlBEFCUlU',
+    title: 'Subpoena Service in Oklahoma | Witness & Document Subpoenas Explained',
+    description: 'Everything you need to know about serving witness subpoenas and document subpoenas in Oklahoma civil and criminal cases.',
+    datePublished: '2026-04-01',
+    duration: 'PT11M0S',
+    relatedPage: '/blog/how-to-serve-a-subpoena-oklahoma',
+    category: 'Featured',
+    isShort: false,
+  },
+  {
+    videoId: 'qDey9Ihtpys',
+    title: 'Small Claims Court Process Serving Oklahoma | Complete Guide to Filing & Serving',
+    description: 'Complete guide to filing and serving small claims court papers in Oklahoma — from filing your petition to serving the defendant and attending your hearing.',
+    datePublished: '2026-04-01',
+    duration: 'PT12M0S',
+    relatedPage: '/blog/how-to-serve-small-claims-oklahoma',
+    category: 'Featured',
+    isShort: false,
+  },
+  {
+    videoId: 'tEASEYhCM1o',
+    title: 'Substitute Service in Oklahoma | When Personal Service Fails — Your Legal Options',
+    description: 'When personal service isn\'t possible in Oklahoma, substitute service under 12 O.S. § 2004(C)(1) may be your answer. Learn how it works and when courts approve it.',
+    datePublished: '2026-04-01',
+    duration: 'PT10M0S',
+    relatedPage: '/substitute-service-oklahoma',
+    category: 'Featured',
+    isShort: false,
+  },
+  {
+    videoId: 'g8-RXySoohc',
+    title: 'How to Serve a Business or Corporation in Oklahoma | Corporate Process Serving Guide',
+    description: 'How to properly serve a business entity, LLC, or corporation with legal papers in Oklahoma — registered agents, officers, and what happens when no agent is found.',
+    datePublished: '2026-04-01',
+    duration: 'PT11M0S',
+    relatedPage: '/blog/serve-business-corporation-oklahoma',
+    category: 'Featured',
+    isShort: false,
+  },
+  {
+    videoId: 'HLO7mJvNxG4',
+    title: 'What To Do After Being Served Papers in Oklahoma | Your Rights Explained Step by Step',
+    description: 'If you\'ve just been served with legal papers in Oklahoma, don\'t panic. This video walks you through exactly what to do next, your rights, and your deadlines.',
+    datePublished: '2026-04-01',
+    duration: 'PT10M0S',
+    relatedPage: '/blog/what-to-do-when-served-papers-oklahoma',
+    category: 'Featured',
+    isShort: false,
+  },
+];
 
 const fullVideos: Video[] = [
   {
@@ -319,7 +482,7 @@ const shorts: Video[] = [
   },
 ];
 
-const allVideos = [...fullVideos, ...shorts];
+const allVideos = [...featuredVideos, ...fullVideos, ...shorts];
 
 /* ─────────────────────────────────────────────────────────────────────────────
    SCHEMA
@@ -353,7 +516,7 @@ export default function VideosPage() {
 
   return (
     <>
-      {/* VideoObject schema for all 26 videos */}
+      {/* VideoObject schema for all 42 videos */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -381,7 +544,7 @@ export default function VideosPage() {
         <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="inline-flex items-center gap-2 bg-red-500/20 border border-red-400/30 backdrop-blur-sm px-5 py-2 rounded-full mb-6">
             <span className="text-red-400 text-xl">▶</span>
-            <span className="text-white text-sm font-semibold">{allVideos.length} Free Videos</span>
+            <span className="text-white text-sm font-semibold">{allVideos.length} Free Videos — Updated April 2026</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">
             Oklahoma Process Serving &amp; Notary<br className="hidden md:block" /> Video Guides
@@ -392,7 +555,10 @@ export default function VideosPage() {
           </p>
           <div className="flex flex-wrap justify-center gap-4 text-sm">
             <span className="bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full text-white">
-              🎬 {fullVideos.length} Full Videos
+              ⭐ {featuredVideos.length} Featured
+            </span>
+            <span className="bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full text-white">
+              🎬 {fullVideos.length} Full Guides
             </span>
             <span className="bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full text-white">
               ⚡ {shorts.length} Quick Shorts
@@ -421,7 +587,26 @@ export default function VideosPage() {
           </div>
 
           {/* ═══════════════════════════════════════════════
-              SECTION 1 — FULL-LENGTH VIDEOS
+              SECTION 1 — FEATURED VIDEOS (NEW)
+              ═══════════════════════════════════════════════ */}
+          <section id="featured" className="mb-16">
+            <div className="flex items-center gap-3 mb-6">
+              <div className="w-1 h-8 bg-yellow-500 rounded-full" />
+              <h2 className="text-2xl font-bold text-gray-900">Featured Videos</h2>
+              <span className="text-sm bg-yellow-100 text-yellow-700 px-3 py-1 rounded-full font-medium">
+                ⭐ {featuredVideos.length} videos · New April 2026
+              </span>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {featuredVideos.map((video) => (
+                <VideoCard key={video.videoId} video={video} />
+              ))}
+            </div>
+          </section>
+
+          {/* ═══════════════════════════════════════════════
+              SECTION 2 — FULL-LENGTH VIDEOS
               ═══════════════════════════════════════════════ */}
           <section id="full-videos" className="mb-16">
             <div className="flex items-center gap-3 mb-6">
@@ -500,6 +685,7 @@ function VideoCard({ video }: { video: Video }) {
     'Process Serving': 'bg-blue-50 text-blue-700',
     'Notary': 'bg-green-50 text-green-700',
     'Pricing': 'bg-amber-50 text-amber-700',
+    'Featured': 'bg-yellow-50 text-yellow-700',
   };
 
   return (

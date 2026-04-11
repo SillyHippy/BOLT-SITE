@@ -13,7 +13,8 @@ import GoogleMapsEmbed from '@/components/ui/google-maps-embed';
 
 export const metadata: Metadata = {
   title: 'Process Server Kellyville, OK | Same-Day Service from $60 | Just Legal Solutions',
-  description: 'Licensed process server in Kellyville, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving Creek County & all 77 OK counties. (539) 367-6832',
+  description:
+    'Licensed process server in Kellyville, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
   keywords: 'process server kellyville, legal document service kellyville, serve papers kellyville, court documents kellyville, subpoena service kellyville, eviction notice kellyville, emergency process server kellyville, 24/7 process server oklahoma, licensed process server creek county, professional process server kellyville',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',
@@ -30,8 +31,9 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Kellyville Legal Document Delivery | Creek County Process Server',
-    description: 'Professional process server in Kellyville, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability and competitive rates.',
+    title: 'Process Server Kellyville, OK | Same-Day Service from $60 | Just Legal Solutions',
+    description:
+    'Licensed process server in Kellyville, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     url: 'https://justlegalsolutions.org/service-areas/kellyville',
     siteName: 'Just Legal Solutions',
     images: [
@@ -47,8 +49,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Kellyville Court Papers & Legal Documents | Creek County',
-    description: 'Licensed process server in Kellyville, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability.',
+    title: 'Process Server Kellyville, OK | Same-Day Service from $60 | Just Legal Solutions',
+    description:
+    'Licensed process server in Kellyville, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     images: ['https://justlegalsolutions.org/og-image.png'],
   },
   alternates: {

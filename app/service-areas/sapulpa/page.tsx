@@ -11,7 +11,8 @@ import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
   title: 'Process Server Sapulpa, OK | Same-Day Service from $60 | Just Legal Solutions',
-  description: 'Licensed process server in Sapulpa, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving Creek County (county seat) & all 77 OK counties. (539) 367-6832',
+  description:
+    'Licensed process server in Sapulpa, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
   keywords: 'process server sapulpa, legal document service sapulpa, serve papers sapulpa, court documents sapulpa, subpoena service sapulpa, eviction notice sapulpa, emergency process server sapulpa, 24/7 process server oklahoma, licensed process server creek county, professional process server sapulpa',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',
@@ -28,8 +29,9 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Sapulpa Process Server | Legal Document Service',
-    description: 'Professional process server in Sapulpa, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability and competitive rates.',
+    title: 'Process Server Sapulpa, OK | Same-Day Service from $60 | Just Legal Solutions',
+    description:
+    'Licensed process server in Sapulpa, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     url: 'https://justlegalsolutions.org/service-areas/sapulpa',
     siteName: 'Just Legal Solutions',
     images: [
@@ -45,8 +47,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Sapulpa Commercial Litigation & Subpoenas | Creek County Service',
-    description: 'Licensed process server in Sapulpa, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability.',
+    title: 'Process Server Sapulpa, OK | Same-Day Service from $60 | Just Legal Solutions',
+    description:
+    'Licensed process server in Sapulpa, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     images: ['https://justlegalsolutions.org/og-image.png'],
   },
   alternates: {

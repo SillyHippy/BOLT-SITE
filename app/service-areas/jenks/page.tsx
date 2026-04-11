@@ -12,7 +12,8 @@ import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
   title: 'Process Server Jenks, OK | Same-Day Service from $60 | Just Legal Solutions',
-  description: 'Licensed process server in Jenks, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Near Oklahoma Aquarium & Riverwalk. Tulsa County + all 77 OK counties. (539) 367-6832',
+  description:
+    'Licensed process server in Jenks, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
   keywords: 'process server jenks, legal document service jenks, serve papers jenks, court documents jenks, subpoena service jenks, eviction notice jenks, emergency process server jenks, 24/7 process server oklahoma, licensed process server tulsa county, professional process server jenks',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',
@@ -29,8 +30,9 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Jenks Legal Papers Service | Divorce & Court Document Delivery',
-    description: 'Professional process server in Jenks, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability and competitive rates.',
+    title: 'Process Server Jenks, OK | Same-Day Service from $60 | Just Legal Solutions',
+    description:
+    'Licensed process server in Jenks, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     url: 'https://justlegalsolutions.org/service-areas/jenks',
     siteName: 'Just Legal Solutions',
     images: [
@@ -46,8 +48,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Jenks Court Documents & Divorce Papers | Process Serving',
-    description: 'Licensed process server in Jenks, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability.',
+    title: 'Process Server Jenks, OK | Same-Day Service from $60 | Just Legal Solutions',
+    description:
+    'Licensed process server in Jenks, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     images: ['https://justlegalsolutions.org/og-image.png'],
   },
   alternates: {

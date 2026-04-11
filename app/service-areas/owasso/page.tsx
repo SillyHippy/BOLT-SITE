@@ -11,7 +11,8 @@ import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
   title: 'Process Server Owasso, OK | Same-Day Service from $60 | Just Legal Solutions',
-  description: 'Licensed process server in Owasso, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving Tulsa & Rogers Counties + all 77 OK counties. (539) 367-6832',
+  description:
+    'Licensed process server in Owasso, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
   keywords: 'process server owasso, legal document service owasso, serve papers owasso, court documents owasso, subpoena service owasso, eviction notice owasso, emergency process server owasso, 24/7 process server oklahoma, licensed process server tulsa county, professional process server owasso',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',
@@ -28,8 +29,9 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Owasso Court Document Service | Fast Process Serving Solutions',
-    description: 'Professional process server in Owasso, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability and competitive rates.',
+    title: 'Process Server Owasso, OK | Same-Day Service from $60 | Just Legal Solutions',
+    description:
+    'Licensed process server in Owasso, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     url: 'https://justlegalsolutions.org/service-areas/owasso',
     siteName: 'Just Legal Solutions',
     images: [
@@ -45,8 +47,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Owasso Legal Papers & Divorce Documents | Fast Service',
-    description: 'Licensed process server in Owasso, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability.',
+    title: 'Process Server Owasso, OK | Same-Day Service from $60 | Just Legal Solutions',
+    description:
+    'Licensed process server in Owasso, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     images: ['https://justlegalsolutions.org/og-image.png'],
   },
   alternates: {

@@ -9,11 +9,11 @@ import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Wagoner & Coweta Legal Papers Service | Court Document Delivery Oklahoma',
+  title: 'Wagoner County Process Server, OK | From $60 | Just Legal Solutions',
   description: 'Wagoner County’s process server—serving Wagoner, Coweta, Porter, and all rural communities. Fast, local legal document delivery for families, businesses, and attorneys.',
   keywords: 'process server Wagoner County, legal document service Wagoner County, court papers Oklahoma, Wagoner courthouse, process serving Wagoner Coweta, skip tracing Wagoner County',
   openGraph: {
-    title: 'Coweta & Wagoner County Legal Document Service | Courthouse Papers',
+    title: 'Wagoner County Process Server, OK | From $60 | Just Legal Solutions',
   description: 'Legal document service for every city and town in Wagoner County, Oklahoma—trusted for reliability, speed, and local knowledge.',
     url: 'https://justlegalsolutions.org/counties/wagoner-county',
     siteName: 'Just Legal Solutions',
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Wagoner Court Filing & Legal Notice Delivery | Coweta Process Serving',
+    title: 'Wagoner County Process Server, OK | From $60 | Just Legal Solutions',
   description: 'Process serving in Wagoner County—covering Wagoner, Coweta, and rural areas with professional, prompt legal document delivery.',
   },
   alternates: {

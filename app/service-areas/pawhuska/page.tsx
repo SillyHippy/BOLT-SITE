@@ -11,7 +11,8 @@ import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
   title: 'Process Server Pawhuska, OK | Same-Day Service from $60 | Just Legal Solutions',
-  description: 'Licensed process server in Pawhuska, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving Osage County & all 77 OK counties. (539) 367-6832',
+  description:
+    'Licensed process server in Pawhuska, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
   keywords: 'process server pawhuska, legal document service pawhuska, serve papers pawhuska, court documents pawhuska, subpoena service pawhuska, eviction notice pawhuska, emergency process server pawhuska, 24/7 process server oklahoma, licensed process server osage county, professional process server pawhuska',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',
@@ -28,8 +29,9 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Pawhuska Process Server | Osage County Legal Document Service',
-    description: 'Professional process server in Pawhuska, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability and competitive rates.',
+    title: 'Process Server Pawhuska, OK | Same-Day Service from $60 | Just Legal Solutions',
+    description:
+    'Licensed process server in Pawhuska, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     url: 'https://justlegalsolutions.org/service-areas/pawhuska',
     siteName: 'Just Legal Solutions',
     images: [
@@ -45,8 +47,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Pawhuska Legal Documents | Osage County Court Papers',
-    description: 'Licensed process server in Pawhuska, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability.',
+    title: 'Process Server Pawhuska, OK | Same-Day Service from $60 | Just Legal Solutions',
+    description:
+    'Licensed process server in Pawhuska, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     images: ['https://justlegalsolutions.org/og-image.png'],
   },
   alternates: {
