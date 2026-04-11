@@ -270,6 +270,11 @@ function generateSitemap() {
     '/oklahoma-process-server-forms-templates',
     '/process-server-marketing-guide',
 
+    // Phase 3 — Content Expansion
+    '/types-of-service-process-oklahoma',
+    '/serve-business-corporation-oklahoma',
+    '/legal-glossary',
+
     // Phase 2 — Resource Landing Pages
     '/resources/oklahoma-process-server-licensing-checklist',
     '/resources/oklahoma-service-of-process-reference',

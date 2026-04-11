@@ -5,6 +5,8 @@ import Link from "next/link";
 import Script from "next/script";
 import Navbar from "../../components/ui/navbar";
 import Footer from "../../components/ui/footer";
+import UnifiedSchema from '@/components/UnifiedSchema';
+import JsonLd from '@/components/JsonLd';
 import {
   FileText,
   FileUp,
@@ -281,26 +283,58 @@ export default function PDFToolsPage() {
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "WebApplication",
-            "name": "Free PDF Tools | Just Legal Solutions",
-            "description": "Free online PDF tools: compress, merge, split, convert, protect, and edit PDF documents. Provided by Just Legal Solutions for legal professionals.",
-            "url": "https://justlegalsolutions.org/pdf-tools",
-            "applicationCategory": "Utility",
-            "operatingSystem": "Web browser",
-            "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-            "provider": {
-              "@type": "LocalBusiness",
-              "name": "Just Legal Solutions",
-              "telephone": "(539) 367-6832"
-            }
-          })
-        }}
+      <UnifiedSchema
+        pageType="webpage"
+        pageTitle="Free PDF Tools | Just Legal Solutions"
+        pageDescription="Free online PDF tools: compress, merge, split, convert, protect, and edit PDF documents. Provided by Just Legal Solutions."
+        pageUrl="https://justlegalsolutions.org/pdf-tools"
+        siteName="Just Legal Solutions"
+        reviewCount={156}
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'PDF Tools', url: '/pdf-tools' },
+        ]}
       />
+      <JsonLd data={[{
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Free PDF Tools | Just Legal Solutions",
+        "description": "Free online PDF tools: compress, merge, split, convert, protect, and edit PDF documents. Provided by Just Legal Solutions for legal professionals.",
+        "url": "https://justlegalsolutions.org/pdf-tools",
+        "applicationCategory": "Utility",
+        "operatingSystem": "Web browser",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "provider": {
+          "@type": "LocalBusiness",
+          "name": "Just Legal Solutions",
+          "telephone": "(539) 367-6832"
+        }
+      }, {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Use Our Free PDF Tools",
+        "description": "Learn how to use our suite of free online PDF tools to compress, merge, split, and convert legal documents securely.",
+        "step": [
+          {
+             "@type": "HowToStep",
+             "name": "Select a tool",
+             "text": "Choose the PDF tool you need from the quick-jump sticky nav or the tool cards grid (e.g., Compress PDF, Merge PDF).",
+             "position": 1
+          },
+          {
+             "@type": "HowToStep",
+             "name": "Upload your file",
+             "text": "A secure PDF24 widget will load. Drag and drop your PDF file into the designated area or click to select files from your hard drive.",
+             "position": 2
+          },
+          {
+             "@type": "HowToStep",
+             "name": "Process and download",
+             "text": "Follow the on-screen prompts to apply your desired modifications, then click download or save to retrieve your updated PDF file securely.",
+             "position": 3
+          }
+        ]
+      }]} />
       <Navbar />
 
       {/* PDF24 Widget Script — loaded once */}

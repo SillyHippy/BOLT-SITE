@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { ChevronRight } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import { Navbar } from '@/components/ui/navbar';
+import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
@@ -326,6 +327,9 @@ export default function HowToApostilleDocumentOklahoma() {
             <hr />
             <p className="text-sm text-gray-500"><em>Disclaimer: This guide is for informational purposes only and does not constitute legal advice. Requirements and fees may change. Contact the Oklahoma Secretary of State at (405) 521-3911 for the most current information. Last updated April 2026.</em></p>
           </article>
+          <div className="mt-12">
+            <AuthorBox />
+          </div>
 
           {/* Related Guides */}
           <section className="mt-12">

@@ -2,6 +2,7 @@ import Link from 'next/link';
 import React from 'react';
 import { ChevronRight, Phone, FileText, Search, Newspaper, Clock, DollarSign, CheckCircle, AlertTriangle, MapPin } from 'lucide-react';
 import { Navbar } from '@/components/ui/navbar';
+import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
@@ -776,6 +777,9 @@ export default function OklahomaServiceByPublicationGuide() {
             </p>
 
           </article>
+          <div className="mt-12">
+            <AuthorBox />
+          </div>
 
           {/* Author Box */}
           <div className="mt-12 pt-8 border-t border-gray-200">

@@ -1488,6 +1488,9 @@ export default function ProcessServerMarketingGuidePage() {
           </div>
         </div>
       </article>
+          <div className="mt-12">
+            <AuthorBox />
+          </div>
     </main>
   );
 }

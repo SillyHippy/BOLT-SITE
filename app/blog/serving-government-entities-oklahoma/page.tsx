@@ -2,6 +2,7 @@ import Link from 'next/link';
 import React from 'react';
 import { ChevronRight, Building2, Scale, Clock, FileText, AlertTriangle, CheckCircle, Phone } from 'lucide-react';
 import { Navbar } from '@/components/ui/navbar';
+import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
@@ -756,6 +757,9 @@ export default function ServingGovernmentEntitiesPage() {
           </ul>
         </div>
       </article>
+          <div className="mt-12">
+            <AuthorBox />
+          </div>
 
       <LocalPromoBanner zips={[]} />
       <Footer />

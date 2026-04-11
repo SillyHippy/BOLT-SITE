@@ -4,6 +4,7 @@ import { Metadata } from 'next';
 import { ChevronRight, Building2, FileText, Scale, Users, Shield, MapPin, Phone, Clock, Gavel } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import { Navbar } from '@/components/ui/navbar';
+import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
@@ -417,6 +418,9 @@ export default function ProcessServingHOABlog() {
             <li><a href="/blog/foreclosure-process-serving-oklahoma/">Foreclosure Process Serving Guide</a></li>
           </ul>
         </article>
+          <div className="mt-12">
+            <AuthorBox />
+          </div>
 
         {/* Service Areas Section */}
         <section className="bg-gray-50 py-12">

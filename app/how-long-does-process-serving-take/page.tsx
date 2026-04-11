@@ -47,9 +47,12 @@ export default function HowLongPage() {
 
                     <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-lg mb-10">
                         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">How Long Does Process Serving Take in Oklahoma?</h1>
-                        <p className="text-lg text-gray-800 leading-relaxed">
-                            <strong>Process serving can take as little as 2 hours or as long as 6 weeks</strong>, depending on who does it and how much you pay. A licensed process server completes most serves within <strong>1-3 business days</strong> (standard), <strong>4-8 hours</strong> (same-day rush), or <strong>2 hours</strong> (emergency). The county sheriff averages <strong>2-6 weeks</strong>. Here&apos;s a detailed breakdown.
-                        </p>
+                        <div className="bg-white p-4 rounded border border-blue-200 shadow-sm mb-4">
+                            <h2 className="text-lg font-bold text-blue-800 mb-2 flex items-center"><span className="mr-2">⚡</span> Quick Answer</h2>
+                            <p className="text-lg text-gray-800 leading-relaxed">
+                                <strong>Process serving can take as little as 2 hours or as long as 6 weeks</strong>, depending on who does it and how much you pay. A licensed process server completes most serves within <strong>1-3 business days</strong> (standard), <strong>4-8 hours</strong> (same-day rush), or <strong>2 hours</strong> (emergency). The county sheriff averages <strong>2-6 weeks</strong>. Here&apos;s a detailed breakdown.
+                            </p>
+                        </div>
                     </div>
 
                     <section className="mb-12">

@@ -3,6 +3,7 @@ import React from 'react';
 import { Metadata } from 'next';
 import { ChevronRight, Shield, Clock, FileText, AlertTriangle, CheckCircle, MapPin, Phone } from 'lucide-react';
 import { Navbar } from '@/components/ui/navbar';
+import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
@@ -875,6 +876,9 @@ export default function BlogPost() {
           </div>
         </div>
       </article>
+          <div className="mt-12">
+            <AuthorBox />
+          </div>
 
           {/* Related Guides */}
           <section className="mt-12 mb-8 bg-white rounded-2xl shadow-lg border border-gray-100 p-8 md:p-10">

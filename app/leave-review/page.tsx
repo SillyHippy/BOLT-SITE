@@ -4,6 +4,8 @@ import { useEffect } from 'react';
 import { Star, ExternalLink } from 'lucide-react';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
+import UnifiedSchema from '@/components/UnifiedSchema';
+import JsonLd from '@/components/JsonLd';
 
 export default function LeaveReviewPage() {
   useEffect(() => {
@@ -42,23 +44,44 @@ export default function LeaveReviewPage() {
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "WebPage",
-            "name": "Leave a Review | Just Legal Solutions",
-            "description": "Share your experience with Just Legal Solutions. Leave a review on Google, Yelp, or Facebook.",
-            "url": "https://justlegalsolutions.org/leave-review",
-            "publisher": {
-              "@type": "LocalBusiness",
-              "name": "Just Legal Solutions",
-              "telephone": "(539) 367-6832"
-            }
-          })
-        }}
+      <UnifiedSchema
+        pageType="webpage"
+        pageTitle="Leave a Review | Just Legal Solutions"
+        pageDescription="Share your experience with Just Legal Solutions. Leave a review on Google or Yelp."
+        pageUrl="https://justlegalsolutions.org/leave-review"
+        siteName="Just Legal Solutions"
+        reviewCount={156}
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Leave a Review', url: '/leave-review' },
+        ]}
       />
+      <JsonLd data={{
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Leave a Review for Just Legal Solutions",
+        "description": "A quick guide on how to leave a review for our process serving services on Google or Yelp.",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "name": "Choose a platform",
+            "text": "Select either Google or Yelp from the options provided on the page to leave your review.",
+            "position": 1
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Sign in to your account",
+            "text": "You will be redirected to the platform. Ensure you are signed in to your Google or Yelp account.",
+            "position": 2
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Share your experience",
+            "text": "Select a star rating and write a brief description of your experience with our process serving or notary services.",
+            "position": 3
+          }
+        ]
+      }} />
       <Navbar />
       <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50 pt-16">
       {/* Header */}

@@ -434,9 +434,16 @@ export default function OklahomaProcessServerFAQ2026() {
               <p className="text-xl text-blue-100 mb-4 max-w-2xl">
                 Your complete Oklahoma process server FAQ covering 2026 requirements for process servers in Oklahoma, <Link href="/tulsa-process-server" className="text-blue-200 underline hover:text-white">Tulsa process server</Link> costs, and Oklahoma legal document service procedures.
               </p>
-              <p className="text-lg text-blue-200 mb-8 max-w-2xl">
+              <p className="text-lg text-blue-200 mb-6 max-w-2xl">
                 Expert guidance from licensed Tulsa-based professionals with 50+ years combined experience serving all 77 Oklahoma counties.
               </p>
+              
+              <div className="bg-white/10 backdrop-blur-md p-5 rounded-xl border border-white/20 mb-8 max-w-2xl text-left">
+                <h2 className="text-lg font-bold text-white mb-2 flex items-center"><span className="mr-2">⚡</span> Quick Answer summary</h2>
+                <p className="text-blue-50 text-base">
+                  <strong>Process serving in Oklahoma in 2026 costs $30 to $265</strong> depending on urgency. Standard service takes 5-7 business days, while rush options take 2-8 hours. All process servers must be licensed and bonded.
+                </p>
+              </div>
               
               <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
                 <a href="#faqs" className="inline-flex items-center gap-2 bg-white text-blue-900 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition shadow-lg">

@@ -362,6 +362,9 @@ export default function EstatePlanningNotarizationBlog() {
               Don't leave your family's future to chance. Ensure your estate planning documents are properly notarized by a qualified Oklahoma notary public.
             </p>
           </article>
+          <div className="mt-12">
+            <AuthorBox />
+          </div>
 
           {/* FAQ Section */}
           <section className="mt-16 pt-12 border-t border-slate-200">

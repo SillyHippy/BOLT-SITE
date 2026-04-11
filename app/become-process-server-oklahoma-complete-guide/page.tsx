@@ -1240,6 +1240,9 @@ export default function BecomeProcessServerGuide() {
         </section>
 
       </article>
+          <div className="mt-12">
+            <AuthorBox />
+          </div>
     </main>
   );
 }

@@ -1515,6 +1515,9 @@ export default function ProcessServerBusinessStartupGuide() {
 
         </div>
       </article>
+          <div className="mt-12">
+            <AuthorBox />
+          </div>
     </div>
   );
 }

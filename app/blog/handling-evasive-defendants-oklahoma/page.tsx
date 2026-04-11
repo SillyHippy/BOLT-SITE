@@ -5,6 +5,7 @@ import { ChevronRight, ShieldAlert, Search, FileText, UserX, Gavel, Clock, MapPi
 import UnifiedSchema from '@/components/UnifiedSchema';
 import JsonLd from '@/components/JsonLd';
 import { Navbar } from '@/components/ui/navbar';
+import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
@@ -590,6 +591,9 @@ export default function EvasiveDefendantsPage() {
             </p>
 
           </article>
+          <div className="mt-12">
+            <AuthorBox />
+          </div>
 
           {/* FAQ Section */}
           <div className="mt-16 pt-8 border-t border-gray-200">

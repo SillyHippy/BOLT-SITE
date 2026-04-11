@@ -4,6 +4,7 @@ import { Metadata } from 'next';
 import { ChevronRight, Monitor, Car, Shield, DollarSign, Clock, FileText, CheckCircle, XCircle, Video, Lock, Globe } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import { Navbar } from '@/components/ui/navbar';
+import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
@@ -831,6 +832,9 @@ export default function RonVsMobileNotaryPage() {
               </a>
             </div>
           </article>
+          <div className="mt-12">
+            <AuthorBox />
+          </div>
         </div>
 
         {/* Local Promo Banner */}

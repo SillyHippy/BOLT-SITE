@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { ChevronRight } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import { Navbar } from '@/components/ui/navbar';
+import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
@@ -361,6 +362,9 @@ export default function OklahomaNotaryFeesGuide() {
             <hr />
             <p className="text-sm text-gray-500"><em>Disclaimer: This guide provides general information about Oklahoma notary fees and is current as of April 2026. Fees and regulations may change. Consult the Oklahoma Secretary of State or the full text of 49 O.S. § 1 et seq. for the most current information. This is not legal advice.</em></p>
           </article>
+          <div className="mt-12">
+            <AuthorBox />
+          </div>
 
           {/* Related Guides */}
           <section className="mt-12">

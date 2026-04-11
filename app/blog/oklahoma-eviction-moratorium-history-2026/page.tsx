@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { ChevronRight } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import { Navbar } from '@/components/ui/navbar';
+import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
@@ -386,6 +387,9 @@ export default function OklahomaEvictionMoratoriumHistory2026() {
               <strong>Legal Disclaimer:</strong> This information is for educational purposes only and does not constitute legal advice. Consult an Oklahoma attorney for specific legal questions.
             </p>
           </article>
+          <div className="mt-12">
+            <AuthorBox />
+          </div>
           <section className="mt-12 mb-8 bg-white rounded-2xl shadow-lg border border-gray-100 p-8 md:p-10">
             <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Guides & Resources</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">

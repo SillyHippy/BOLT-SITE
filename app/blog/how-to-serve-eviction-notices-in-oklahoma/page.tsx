@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { ChevronRight, FileText, CheckCircle, AlertTriangle, Scale, Clock, Shield, XCircle, ListChecks } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import { Navbar } from '@/components/ui/navbar';
+import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
@@ -334,6 +335,9 @@ export default function EvictionNoticeGuide() {
             </div>
 
           </article>
+          <div className="mt-12">
+            <AuthorBox />
+          </div>
 
           <div className="bg-gray-100 border border-gray-200 rounded-lg p-6 mt-8">
             <p className="text-sm text-gray-700 font-medium mb-2">Disclaimer & Legal Information</p>
