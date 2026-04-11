@@ -168,7 +168,7 @@ const ToolsPage = () => {
             <h2 className="text-3xl font-bold text-gray-800">Free PDF Tools</h2>
           </div>
           <p className="text-lg text-gray-600 mb-2 ml-12">
-            14 embedded PDF tools plus OCR—powered by <a href="https://www.pdf24.org" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">PDF24.org</a>. 
+            14 embedded PDF tools plus OCR—powered by <a href="https://www.pdf24.org" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">PDF24.org</a>. 
             Compress, merge, split, convert, protect, and more. All run directly in your browser, no software to install.
           </p>
           <p className="text-gray-500 mb-8 ml-12">

@@ -379,7 +379,7 @@ export default function WeddingOfficiantPage() {
                     </div>
                   </div>
                   <p className="text-sm text-rose-50 mt-4 text-center">
-                    Certificate: <a className="underline" href="https://www.themonastery.org/credentials/ordination-certificate-Sm9zZXBoIFcgSWFubmF6emleNC8zMC8yMDE3XmxhcmdlXmZyZWVe.jpg" target="_blank" rel="noreferrer">Verified Ordination</a>
+                    Certificate: <a className="underline" href="https://www.themonastery.org/credentials/ordination-certificate-Sm9zZXBoIFcgSWFubmF6emleNC8zMC8yMDE3XmxhcmdlXmZyZWVe.jpg" target="_blank" rel="noreferrer nofollow">Verified Ordination</a>
                   </p>
                 </div>
               </div>
@@ -1122,7 +1122,7 @@ export default function WeddingOfficiantPage() {
               </Link>
             </div>
             <div className="text-center mt-4">
-              <a href="https://www.themonastery.org/verify-ministers" target="_blank" rel="noopener noreferrer" className="text-rose-600 hover:underline text-sm">
+              <a href="https://www.themonastery.org/verify-ministers" target="_blank" rel="noopener noreferrer nofollow" className="text-rose-600 hover:underline text-sm">
                 Verify Ordination at Universal Life Church ↗
               </a>
             </div>

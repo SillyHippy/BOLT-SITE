@@ -200,7 +200,7 @@ export default function ProcessServingForInsuranceCompanies() {
                 <div>
                   <h3 className="text-xl font-bold text-gray-900 mb-2">SIU Investigations &amp; Fraud Defense</h3>
                   <p className="text-gray-700">
-                    Special Investigations Unit (SIU) matters demand a higher level of process serving expertise than standard civil litigation. Witnesses in fraud investigations are often actively avoiding contact, and improper or unverified service can collapse a complex fraud case before it reaches trial. Our <Link href="/gps-tracked-process-serving" className="text-blue-600 hover:text-blue-800 underline">GPS-verified documentation</Link> and <Link href="/skip-tracing" className="text-blue-600 hover:text-blue-800 underline">skip tracing capabilities</Link> are purpose-built for the demands of insurance fraud investigation and defendant location work. The <a href="https://napps.org" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">National Association of Professional Process Servers (NAPPS)</a> recognizes GPS-verified documentation as best practice in complex litigation service.
+                    Special Investigations Unit (SIU) matters demand a higher level of process serving expertise than standard civil litigation. Witnesses in fraud investigations are often actively avoiding contact, and improper or unverified service can collapse a complex fraud case before it reaches trial. Our <Link href="/gps-tracked-process-serving" className="text-blue-600 hover:text-blue-800 underline">GPS-verified documentation</Link> and <Link href="/skip-tracing" className="text-blue-600 hover:text-blue-800 underline">skip tracing capabilities</Link> are purpose-built for the demands of insurance fraud investigation and defendant location work. The <a href="https://napps.org" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:text-blue-800 underline">National Association of Professional Process Servers (NAPPS)</a> recognizes GPS-verified documentation as best practice in complex litigation service.
                   </p>
                 </div>
               </div>
@@ -673,7 +673,7 @@ export default function ProcessServingForInsuranceCompanies() {
                 <ul className="space-y-3">
                   <li><a href="https://www.oscn.net/applications/oscn/index.asp?ftdb=STOKST12" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline text-sm">Oklahoma Statutes Title 12 (OSCN)</a></li>
                   <li><a href="https://www.courts.ok.gov/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline text-sm">Oklahoma Courts — Official Site</a></li>
-                  <li><a href="https://napps.org" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline text-sm">NAPPS — National Association of Professional Process Servers</a></li>
+                  <li><a href="https://napps.org" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:text-blue-800 underline text-sm">NAPPS — National Association of Professional Process Servers</a></li>
                   <li><a href="https://www.okbar.org/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline text-sm">Oklahoma Bar Association</a></li>
                 </ul>
               </div>

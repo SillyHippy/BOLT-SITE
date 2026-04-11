@@ -279,7 +279,7 @@ export default function WhatToBringPage() {
             </a>
           </li>
           <li>
-            <a href="https://www.nationalnotary.org/knowledge-center" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline inline-flex items-center gap-1">
+            <a href="https://www.nationalnotary.org/knowledge-center" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline inline-flex items-center gap-1">
               National Notary Association - Knowledge Center <ExternalLink size={14} />
             </a>
           </li>

@@ -145,7 +145,7 @@ export default function DiyVsProfessionalServiceOklahoma() {
             <p>There are extremely limited exceptions where you might handle service yourself, which we&apos;ll cover later. But for the vast majority of Oklahoma civil cases&mdash;including divorce, personal injury, contract disputes, and eviction proceedings&mdash;you must use a qualified third party to serve your papers.</p>
 
             <h2>Who Is Allowed to Serve Papers Under 12 O.S. § 2004?</h2>
-            <p>Oklahoma statute <a href="https://law.justia.com/codes/oklahoma/title-12/section-12-2004/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">12 O.S. § 2004</a> specifies exactly who may serve process in civil cases. The law provides three&mdash;and only three&mdash;options:</p>
+            <p>Oklahoma statute <a href="https://law.justia.com/codes/oklahoma/title-12/section-12-2004/" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">12 O.S. § 2004</a> specifies exactly who may serve process in civil cases. The law provides three&mdash;and only three&mdash;options:</p>
 
             <h3>1. The Sheriff or Deputy Sheriff</h3>
             <p>Every county sheriff&apos;s office in Oklahoma is authorized to serve civil process. When you choose this option:</p>
@@ -158,7 +158,7 @@ export default function DiyVsProfessionalServiceOklahoma() {
             <p>Sheriff service is reliable and widely available, though it may take longer than private service, particularly in busy metropolitan areas like Tulsa or Oklahoma City.</p>
 
             <h3>2. A Licensed Private Process Server</h3>
-            <p>Private process servers offer an alternative to sheriff service. Under <a href="https://law.justia.com/codes/oklahoma/title-12/section-12-158-1/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">12 O.S. § 158.1</a>, to become licensed, a process server must:</p>
+            <p>Private process servers offer an alternative to sheriff service. Under <a href="https://law.justia.com/codes/oklahoma/title-12/section-12-158-1/" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">12 O.S. § 158.1</a>, to become licensed, a process server must:</p>
             <ul>
               <li>Be at least 18 years old</li>
               <li>Be a resident of Oklahoma for at least 6 months</li>

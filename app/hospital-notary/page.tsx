@@ -829,7 +829,7 @@ export default function HospitalNotaryPage() {
               <a href="https://www.hcch.net/en/instruments/conventions/full-text/?cid=41" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline text-sm">
                 Hague Apostille Convention ↗
               </a>
-              <a href="https://www.nationalnotary.org/knowledge-center" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline text-sm">
+              <a href="https://www.nationalnotary.org/knowledge-center" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline text-sm">
                 National Notary Association ↗
               </a>
             </div>

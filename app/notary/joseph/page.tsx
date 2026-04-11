@@ -738,7 +738,7 @@ export default function JosephCredentialsPage() {
                 <a href="https://www.sos.ok.gov/business/notary" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline text-sm">
                   Oklahoma Secretary of State ↗
                 </a>
-                <a href="https://www.nationalnotary.org/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline text-sm">
+                <a href="https://www.nationalnotary.org/" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline text-sm">
                   National Notary Association ↗
                 </a>
               </div>

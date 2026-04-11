@@ -707,7 +707,7 @@ export default function ProcessServingForPropertyManagers() {
                 <ul className="space-y-3">
                   <li><a href="https://www.oscn.net/applications/oscn/index.asp?ftdb=STOKST12" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline text-sm">Oklahoma Statutes Title 12 — Landlord &amp; Tenant Act (OSCN)</a></li>
                   <li><a href="https://www.courts.ok.gov/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline text-sm">Oklahoma Courts — Official Site</a></li>
-                  <li><a href="https://napps.org" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline text-sm">NAPPS — National Association of Professional Process Servers</a></li>
+                  <li><a href="https://napps.org" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:text-blue-800 underline text-sm">NAPPS — National Association of Professional Process Servers</a></li>
                   <li><a href="https://www.okbar.org/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline text-sm">Oklahoma Bar Association — Find a Landlord-Tenant Attorney</a></li>
                 </ul>
               </div>

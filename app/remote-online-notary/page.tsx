@@ -626,7 +626,7 @@ const RemoteOnlineNotaryPage = () => {
           <div className="space-y-6 text-lg leading-8 text-slate-300">
             <h2 className="text-3xl font-bold text-white">Oklahoma Remote Online Notary Legal Framework</h2>
             <p>
-              Remote online notary Oklahoma services operate under 49 O.S. § 201 et seq. (the Oklahoma Remote Online Notarization Act), with the enabling law taking effect on January 1, 2020. That date matters because courts, lenders, and federal agencies want proof that your virtual notarization followed the highest standard in force. To stay ahead, we cross-reference the <a href="https://law.justia.com/codes/oklahoma/title-49/" target="_blank" rel="noopener noreferrer" className="text-emerald-400 underline">Justia Title 49 resource</a> before every policy update and align our workflows with the Secretary of State guidance memos.
+              Remote online notary Oklahoma services operate under 49 O.S. § 201 et seq. (the Oklahoma Remote Online Notarization Act), with the enabling law taking effect on January 1, 2020. That date matters because courts, lenders, and federal agencies want proof that your virtual notarization followed the highest standard in force. To stay ahead, we cross-reference the <a href="https://law.justia.com/codes/oklahoma/title-49/" target="_blank" rel="noopener noreferrer nofollow" className="text-emerald-400 underline">Justia Title 49 resource</a> before every policy update and align our workflows with the Secretary of State guidance memos.
             </p>
             <p>
               The RON Act requires multi-factor identity verification through knowledge-based authentication (KBA) plus credential analysis—a significant upgrade from single-factor visual inspection used in traditional notarization. We go beyond the minimum by layering device fingerprinting, IP geolocation, and sanction screening when the document will be scrutinized by a court or a lender. Every signer must answer dynamic KBA questions sourced from credit header files; failure triggers an automatic pause so the integrity of the session is preserved.
@@ -646,7 +646,7 @@ const RemoteOnlineNotaryPage = () => {
               ))}
             </div>
             <p>
-              We track national best practices too. The <a href="https://www.nationalnotary.org/knowledge-center/about-ron" target="_blank" rel="noopener noreferrer" className="text-emerald-400 underline">National Notary Association RON guide</a> and <a href="https://www.notarize.com/oklahoma" target="_blank" rel="noopener noreferrer" className="text-emerald-400 underline">Notarize.com Oklahoma insights</a> inform our training, ensuring that every remote online notary Tulsa session reflects the latest security thinking.
+              We track national best practices too. The <a href="https://www.nationalnotary.org/knowledge-center/about-ron" target="_blank" rel="noopener noreferrer nofollow" className="text-emerald-400 underline">National Notary Association RON guide</a> and <a href="https://www.notarize.com/oklahoma" target="_blank" rel="noopener noreferrer nofollow" className="text-emerald-400 underline">Notarize.com Oklahoma insights</a> inform our training, ensuring that every remote online notary Tulsa session reflects the latest security thinking.
             </p>
           </div>
         </section>

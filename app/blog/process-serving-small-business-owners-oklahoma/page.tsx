@@ -159,7 +159,7 @@ export default function ProcessServingSmallBusinessOwnersOklahoma() {
             <p>Getting served with a lawsuit is stressful. The papers arrive, your heart sinks, and suddenly you&apos;re facing legal action that could affect your company&apos;s future. Here&apos;s what to do:</p>
 
             <h3>Step 1: Don&apos;t Panic, But Don&apos;t Ignore It</h3>
-            <p>Under <a href="https://law.justia.com/codes/oklahoma/title-12/section-12-2004/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">12 O.S. § 2004</a>, you have a limited time to respond after being served. In most civil cases, you have 20 days to file an answer. In small claims court, the hearing date is typically set 10 to 30 days after filing, and you must be served at least 7 days before that hearing.</p>
+            <p>Under <a href="https://law.justia.com/codes/oklahoma/title-12/section-12-2004/" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">12 O.S. § 2004</a>, you have a limited time to respond after being served. In most civil cases, you have 20 days to file an answer. In small claims court, the hearing date is typically set 10 to 30 days after filing, and you must be served at least 7 days before that hearing.</p>
             <p>Ignoring a lawsuit is the worst thing you can do. If you don&apos;t respond, the plaintiff can seek a default judgment&mdash;essentially winning their case because you failed to show up.</p>
 
             <h3>Step 2: Determine Who Was Served</h3>
@@ -197,7 +197,7 @@ export default function ProcessServingSmallBusinessOwnersOklahoma() {
             </ol>
 
             <h3>Service Requirements in Contract Cases</h3>
-            <p>When suing for breach of contract, proper service is critical. Under <a href="https://law.justia.com/codes/oklahoma/title-12/section-12-2004/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">12 O.S. § 2004</a>, service must be made within 180 days of filing the petition. If you can&apos;t serve the defendant personally, Oklahoma allows substituted service on a person of suitable age and discretion (15 or older) who resides at the defendant&apos;s dwelling.</p>
+            <p>When suing for breach of contract, proper service is critical. Under <a href="https://law.justia.com/codes/oklahoma/title-12/section-12-2004/" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">12 O.S. § 2004</a>, service must be made within 180 days of filing the petition. If you can&apos;t serve the defendant personally, Oklahoma allows substituted service on a person of suitable age and discretion (15 or older) who resides at the defendant&apos;s dwelling.</p>
             <p>For business defendants, service on the registered agent is usually the most reliable method. You can find registered agent information through the <a href="https://www.sos.ok.gov/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Oklahoma Secretary of State</a> business entity search.</p>
 
             <h3>Common Contract Disputes for Small Businesses</h3>
@@ -298,7 +298,7 @@ export default function ProcessServingSmallBusinessOwnersOklahoma() {
             </ul>
 
             <h3>Setting Aside a Default Judgment</h3>
-            <p>Under <a href="https://law.justia.com/codes/oklahoma/title-12/section-12-2004/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">12 O.S. § 1031.1</a>, Oklahoma allows defendants to move to set aside a default judgment. However, you must act quickly and show:</p>
+            <p>Under <a href="https://law.justia.com/codes/oklahoma/title-12/section-12-2004/" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">12 O.S. § 1031.1</a>, Oklahoma allows defendants to move to set aside a default judgment. However, you must act quickly and show:</p>
             <ol>
               <li>A meritorious defense to the claim</li>
               <li>That the failure to appear was not due to your own negligence</li>
@@ -369,7 +369,7 @@ export default function ProcessServingSmallBusinessOwnersOklahoma() {
 
             <h2>Need Business Process Serving?</h2>
             <p>Whether you&apos;re suing a non-paying customer, enforcing a contract, or defending your business against a claim, proper service of process is essential. At Just Legal Solutions, we help Oklahoma small businesses navigate the process serving requirements that keep their cases moving forward.</p>
-            <p>We serve businesses throughout Tulsa County, Oklahoma County, and all 77 Oklahoma counties. Our licensed process servers understand the specific requirements for serving corporations, LLCs, and sole proprietorships under <a href="https://law.justia.com/codes/oklahoma/title-12/section-12-2004/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">12 O.S. § 2004</a>. We provide GPS-verified service attempts, detailed affidavits, and same-day service when you need documents delivered fast.</p>
+            <p>We serve businesses throughout Tulsa County, Oklahoma County, and all 77 Oklahoma counties. Our licensed process servers understand the specific requirements for serving corporations, LLCs, and sole proprietorships under <a href="https://law.justia.com/codes/oklahoma/title-12/section-12-2004/" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">12 O.S. § 2004</a>. We provide GPS-verified service attempts, detailed affidavits, and same-day service when you need documents delivered fast.</p>
             <p><strong>Call (539) 367-6832</strong> today for a free quote on your business process serving needs. Protect your business with service you can trust.</p>
             <p><em>Disclaimer: This article is for educational purposes only and does not constitute legal advice. Legal procedures and requirements may change. Consult with a qualified Oklahoma attorney for advice specific to your situation.</em></p>
 

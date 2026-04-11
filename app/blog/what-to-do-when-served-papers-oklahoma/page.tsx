@@ -192,7 +192,7 @@ export default function WhatToDoWhenServedPapersOklahoma() {
             <p>Any document with a court date requires your immediate attention. Missing a court date can have serious consequences, including contempt of court charges.</p>
 
             <h2>Step 2: Note the Deadline (The 20-Day Rule)</h2>
-            <p>This is critical: In Oklahoma, you generally have <strong>20 days</strong> to respond to a lawsuit after being served. This deadline is established by <a href="https://law.justia.com/codes/oklahoma/title-12/section-12-2012/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">12 O.S. § 2012</a>, which states that a defendant &quot;shall serve an answer within twenty (20) days after the service of the summons and petition upon the defendant.&quot;</p>
+            <p>This is critical: In Oklahoma, you generally have <strong>20 days</strong> to respond to a lawsuit after being served. This deadline is established by <a href="https://law.justia.com/codes/oklahoma/title-12/section-12-2012/" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">12 O.S. § 2012</a>, which states that a defendant &quot;shall serve an answer within twenty (20) days after the service of the summons and petition upon the defendant.&quot;</p>
 
             <h3>How to Calculate Your Deadline</h3>
             <p>Under Oklahoma law (12 O.S. § 2006), when calculating time periods:</p>

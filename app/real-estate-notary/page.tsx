@@ -555,7 +555,7 @@ export default function RealEstateNotaryPage() {
                 <a href="https://www.sos.ok.gov/business/notary" target="_blank" rel="noopener noreferrer" className="text-amber-600 hover:underline text-sm">
                   Oklahoma Secretary of State ↗
                 </a>
-                <a href="https://www.nationalnotary.org/knowledge-center/loan-signing" target="_blank" rel="noopener noreferrer" className="text-amber-600 hover:underline text-sm">
+                <a href="https://www.nationalnotary.org/knowledge-center/loan-signing" target="_blank" rel="noopener noreferrer nofollow" className="text-amber-600 hover:underline text-sm">
                   NNA Loan Signing Resources ↗
                 </a>
               </div>

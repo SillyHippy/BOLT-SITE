@@ -1077,10 +1077,10 @@ export default function UltimateGuidePage() {
             <p>Oklahoma&apos;s rules for civil procedure directly govern the service of process. Understanding these statutes is critical for ensuring service is valid. For a complete guide, see our <a href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline font-semibold">Oklahoma Process Server Laws</a> page. Here are the most important ones:</p>
             <ul className="list-disc pl-5 my-4">
                 <li>
-                  <strong><a href="https://law.justia.com/codes/oklahoma/title-12/section-12-2004/" target="_blank" rel="noopener noreferrer">Title 12, § 2004 - Process</a>:</strong> This is the core statute, detailing who can be served and how (personal delivery, leaving at dwelling, etc.).
+                  <strong><a href="https://law.justia.com/codes/oklahoma/title-12/section-12-2004/" target="_blank" rel="noopener noreferrer nofollow">Title 12, § 2004 - Process</a>:</strong> This is the core statute, detailing who can be served and how (personal delivery, leaving at dwelling, etc.).
                 </li>
                 <li>
-                  <strong><a href="https://law.justia.com/codes/oklahoma/title-12/section-12-158-1/" target="_blank" rel="noopener noreferrer">Title 12, § 158.1 - Licensing of Private Process Servers</a>:</strong> This statute mandates that all private process servers must be licensed by the district court.
+                  <strong><a href="https://law.justia.com/codes/oklahoma/title-12/section-12-158-1/" target="_blank" rel="noopener noreferrer nofollow">Title 12, § 158.1 - Licensing of Private Process Servers</a>:</strong> This statute mandates that all private process servers must be licensed by the district court.
                 </li>
                 <li>
                   <strong>Penalties:</strong> Violation of process server duties may result in license revocation, civil liability, and invalidation of the service. (Consult current statute for specific penalty amounts.)
@@ -1129,7 +1129,7 @@ export default function UltimateGuidePage() {
               <div className="bg-blue-50 border border-blue-200 p-4 rounded-lg">
                 <h4 className="font-bold text-blue-800 mb-3">National Association of Professional Process Servers (NAPPS)</h4>
                 <p className="text-sm mb-3">
-                  Just Legal Solutions is a member of <a href="https://napps.org" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">NAPPS</a>, the premier professional organization for process servers nationwide. NAPPS maintains the highest ethical standards and requires adherence to strict professional codes of conduct.
+                  Just Legal Solutions is a member of <a href="https://napps.org" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">NAPPS</a>, the premier professional organization for process servers nationwide. NAPPS maintains the highest ethical standards and requires adherence to strict professional codes of conduct.
                 </p>
               </div>
               
@@ -1276,10 +1276,10 @@ export default function UltimateGuidePage() {
             <p>For a deeper dive into specific topics, read our expert articles on Medium:</p>
             <ul className="list-disc pl-5 my-4">
                 <li>
-                  <strong><a href="https://medium.com/@justlegalsolutionsok/why-you-need-a-professional-process-server-in-oklahoma-fast-reliable-service-from-just-legal-195dc334cc8e" target="_blank" rel="noopener noreferrer">Why You Need a Professional Process Server in Oklahoma</a></strong>
+                  <strong><a href="https://medium.com/@justlegalsolutionsok/why-you-need-a-professional-process-server-in-oklahoma-fast-reliable-service-from-just-legal-195dc334cc8e" target="_blank" rel="noopener noreferrer nofollow">Why You Need a Professional Process Server in Oklahoma</a></strong>
                 </li>
                 <li>
-                  <strong><a href="https://medium.com/@justlegalsolutionsok/my-doctor-or-theirs-the-workers-comp-choice-that-defined-my-life-after-injury-b3f1a53b4e9b" target="_blank" rel="noopener noreferrer">My Doctor or Theirs? The Workers’ Comp Choice That Defined My Life</a></strong>
+                  <strong><a href="https://medium.com/@justlegalsolutionsok/my-doctor-or-theirs-the-workers-comp-choice-that-defined-my-life-after-injury-b3f1a53b4e9b" target="_blank" rel="noopener noreferrer nofollow">My Doctor or Theirs? The Workers’ Comp Choice That Defined My Life</a></strong>
                 </li>
             </ul>
           </CardContent>
@@ -1678,7 +1678,7 @@ export default function UltimateGuidePage() {
                 <a 
                   href="https://napps.org" 
                   target="_blank" 
-                  rel="noopener noreferrer" 
+                  rel="noopener noreferrer nofollow" 
                   className="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold"
                 >
                   Visit NAPPS Website →
@@ -2197,10 +2197,10 @@ export default function UltimateGuidePage() {
             <p>Oklahoma&apos;s rules for civil procedure directly govern the service of process. Understanding these statutes is critical for ensuring service is valid. Here are the most important ones:</p>
             <ul className="list-disc pl-5 my-4">
                 <li>
-                  <strong><a href="https://law.justia.com/codes/oklahoma/title-12/section-12-2004/" target="_blank" rel="noopener noreferrer">Title 12, § 2004 - Process</a>:</strong> This is the core statute, detailing who can be served and how (personal delivery, leaving at dwelling, etc.).
+                  <strong><a href="https://law.justia.com/codes/oklahoma/title-12/section-12-2004/" target="_blank" rel="noopener noreferrer nofollow">Title 12, § 2004 - Process</a>:</strong> This is the core statute, detailing who can be served and how (personal delivery, leaving at dwelling, etc.).
                 </li>
                 <li>
-                  <strong><a href="https://law.justia.com/codes/oklahoma/title-12/section-12-158-1/" target="_blank" rel="noopener noreferrer">Title 12, § 158.1 - Licensing of Private Process Servers</a>:</strong> This statute mandates that all private process servers must be licensed by the district court.
+                  <strong><a href="https://law.justia.com/codes/oklahoma/title-12/section-12-158-1/" target="_blank" rel="noopener noreferrer nofollow">Title 12, § 158.1 - Licensing of Private Process Servers</a>:</strong> This statute mandates that all private process servers must be licensed by the district court.
                 </li>
                 <li>
                   <strong>Penalties:</strong> Violation of process server duties may result in license revocation, civil liability, and invalidation of the service. (Consult current statute for specific penalty amounts.)
@@ -2215,10 +2215,10 @@ export default function UltimateGuidePage() {
             <p>For a deeper dive into specific topics, read our expert articles on Medium:</p>
             <ul className="list-disc pl-5 my-4">
                 <li>
-                  <strong><a href="https://medium.com/@justlegalsolutionsok/why-you-need-a-professional-process-server-in-oklahoma-fast-reliable-service-from-just-legal-195dc334cc8e" target="_blank" rel="noopener noreferrer">Why You Need a Professional Process Server in Oklahoma</a></strong>
+                  <strong><a href="https://medium.com/@justlegalsolutionsok/why-you-need-a-professional-process-server-in-oklahoma-fast-reliable-service-from-just-legal-195dc334cc8e" target="_blank" rel="noopener noreferrer nofollow">Why You Need a Professional Process Server in Oklahoma</a></strong>
                 </li>
                 <li>
-                  <strong><a href="https://medium.com/@justlegalsolutionsok/my-doctor-or-theirs-the-workers-comp-choice-that-defined-my-life-after-injury-b3f1a53b4e9b" target="_blank" rel="noopener noreferrer">My Doctor or Theirs? The Workers&apos; Comp Choice That Defined My Life</a></strong>
+                  <strong><a href="https://medium.com/@justlegalsolutionsok/my-doctor-or-theirs-the-workers-comp-choice-that-defined-my-life-after-injury-b3f1a53b4e9b" target="_blank" rel="noopener noreferrer nofollow">My Doctor or Theirs? The Workers&apos; Comp Choice That Defined My Life</a></strong>
                 </li>
             </ul>
           </CardContent>

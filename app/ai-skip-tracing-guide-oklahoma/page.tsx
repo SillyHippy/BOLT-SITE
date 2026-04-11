@@ -376,7 +376,7 @@ export default function AISkipTracingGuideOklahoma() {
             <ul className="list-disc ml-6 space-y-2">
               <li><a href="https://www.ftc.gov" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Federal Trade Commission (FTC)</a> for FCRA compliance.</li>
               <li><a href="https://www.oscn.net" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Oklahoma Supreme Court Network (OSCN)</a> for state court rules.</li>
-              <li><a href="https://www.napps.org" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">National Association of Professional Process Servers (NAPPS)</a> for industry standards.</li>
+              <li><a href="https://www.napps.org" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline">National Association of Professional Process Servers (NAPPS)</a> for industry standards.</li>
             </ul>
         </section>
 
@@ -392,7 +392,7 @@ export default function AISkipTracingGuideOklahoma() {
             <div>
               <h3 className="text-2xl font-semibold mb-3">AI & Legal Technology</h3>
               <ul className="list-disc ml-6 space-y-2 text-blue-600">
-                <li><a href="https://www.napps.org" target="_blank" rel="noopener noreferrer" className="hover:underline">National Association of Professional Process Servers (NAPPS)</a></li>
+                <li><a href="https://www.napps.org" target="_blank" rel="noopener noreferrer nofollow" className="hover:underline">National Association of Professional Process Servers (NAPPS)</a></li>
                 <li><a href="https://www.csail.mit.edu" target="_blank" rel="noopener noreferrer" className="hover:underline">MIT CSAIL</a></li>
                 <li><a href="https://www.computer.org" target="_blank" rel="noopener noreferrer" className="hover:underline">IEEE Computer Society</a></li>
                 <li><a href="https://www.acm.org" target="_blank" rel="noopener noreferrer" className="hover:underline">Association for Computing Machinery (ACM)</a></li>

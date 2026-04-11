@@ -872,7 +872,7 @@ export default function ServingLegalPapersOklahomaGuide() {
             <h3 className="font-bold text-lg mb-3">Professional Associations &amp; External Resources</h3>
             <ul className="space-y-2">
               <li>
-                <a href="https://napps.org" className="text-blue-700 underline" target="_blank" rel="noopener noreferrer">→ NAPPS — National Association of Professional Process Servers ↗</a>
+                <a href="https://napps.org" className="text-blue-700 underline" target="_blank" rel="noopener noreferrer nofollow">→ NAPPS — National Association of Professional Process Servers ↗</a>
               </li>
               <li>
                 <a href="https://www.okbar.org/" className="text-blue-700 underline" target="_blank" rel="noopener noreferrer">→ Oklahoma Bar Association — Attorney Referral ↗</a>

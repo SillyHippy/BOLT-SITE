@@ -631,7 +631,7 @@ export default function NotaryLawsPage() {
               <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
                 <h3 className="font-bold text-gray-900 mb-4">National Resources</h3>
                 <ul className="space-y-3">
-                  <li><a href="https://www.nationalnotary.org/oklahoma" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline flex items-center gap-2"><ExternalLink className="w-4 h-4" />National Notary Association — Oklahoma</a></li>
+                  <li><a href="https://www.nationalnotary.org/oklahoma" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline flex items-center gap-2"><ExternalLink className="w-4 h-4" />National Notary Association — Oklahoma</a></li>
                   <li><a href="https://www.oklahomanotary.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline flex items-center gap-2"><ExternalLink className="w-4 h-4" />American Association of Notaries — Oklahoma</a></li>
                 </ul>
                 <h3 className="font-bold text-gray-900 mt-6 mb-4">Our Notary Services</h3>

@@ -159,7 +159,7 @@ export default function RonVsMobileNotaryPage() {
 
             <p>
               Oklahoma has been at the forefront of notarization modernization. The state's 
-              <a href="https://law.justia.com/codes/oklahoma/title-49/section-49-201/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline"> Remote Online Notary Act (49 O.S. § 201-214)</a>, 
+              <a href="https://law.justia.com/codes/oklahoma/title-49/section-49-201/" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline"> Remote Online Notary Act (49 O.S. § 201-214)</a>, 
               effective January 1, 2020, established RON as a permanent legal standard. Simultaneously, 
               <a href="/mobile-notary/" className="text-blue-600 hover:underline"> mobile notary services</a> continue 
               to serve clients who prefer or require in-person assistance. This guide examines both options in detail 

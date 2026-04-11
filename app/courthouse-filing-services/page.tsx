@@ -730,7 +730,7 @@ export default function CourthouseFilingServices() {
                   <a href="https://www.okbar.org/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-blue-600 hover:underline text-sm font-medium">
                     <ChevronRight className="w-3 h-3" />Oklahoma Bar Association ↗
                   </a>
-                  <a href="https://napps.org" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-blue-600 hover:underline text-sm font-medium">
+                  <a href="https://napps.org" target="_blank" rel="noopener noreferrer nofollow" className="flex items-center gap-1 text-blue-600 hover:underline text-sm font-medium">
                     <ChevronRight className="w-3 h-3" />NAPPS — Professional Process Servers ↗
                   </a>
                 </div>
