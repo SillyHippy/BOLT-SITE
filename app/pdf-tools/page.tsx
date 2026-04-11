@@ -284,7 +284,7 @@ export default function PDFToolsPage() {
   return (
     <>
       <UnifiedSchema
-        pageType="webpage"
+        pageType="generic"
         pageTitle="Free PDF Tools | Just Legal Solutions"
         pageDescription="Free online PDF tools: compress, merge, split, convert, protect, and edit PDF documents. Provided by Just Legal Solutions."
         pageUrl="https://justlegalsolutions.org/pdf-tools"

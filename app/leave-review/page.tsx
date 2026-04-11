@@ -45,7 +45,7 @@ export default function LeaveReviewPage() {
   return (
     <>
       <UnifiedSchema
-        pageType="webpage"
+        pageType="generic"
         pageTitle="Leave a Review | Just Legal Solutions"
         pageDescription="Share your experience with Just Legal Solutions. Leave a review on Google or Yelp."
         pageUrl="https://justlegalsolutions.org/leave-review"
