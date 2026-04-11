@@ -187,51 +187,6 @@ export default function PricingPage() {
             <h1 className="text-4xl md:text-5xl font-bold text-blue-900 mb-4">Process Server Pricing</h1>
             <p className="text-lg text-gray-700 mb-2"><strong>Process server costs in Oklahoma range from $30 for a single attempt to $265 for 2-hour emergency service.</strong> Standard service (up to 3 attempts) starts at $60. All pricing below is transparent — no hidden fees.</p>
             <p className="text-xl text-gray-600 mb-8">Transparent, competitive rates for Oklahoma legal services</p>
-
-            {/* VideoObject Schema */}
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "VideoObject",
-              "name": "How Much Does a Process Server Cost in Oklahoma? — Full 2026 Pricing Breakdown",
-              "description": "Complete 2026 breakdown of Oklahoma process server pricing. Standard from $60, rush $100, same-day $150. Learn what affects your cost.",
-              "thumbnailUrl": "https://img.youtube.com/vi/zTuTJiO71Gk/maxresdefault.jpg",
-              "uploadDate": "2026-04-01",
-              "duration": "PT5M00S",
-              "contentUrl": "https://www.youtube.com/watch?v=zTuTJiO71Gk",
-              "embedUrl": "https://www.youtube.com/embed/zTuTJiO71Gk",
-              "publisher": { "@type": "Organization", "name": "Just Legal Solutions", "logo": { "@type": "ImageObject", "url": "https://justlegalsolutions.org/email%20signature%20logo.png" } }
-            })}} />
-
-            {/* Video Pricing Explainer Link */}
-            <div className="max-w-3xl mx-auto mb-8">
-              <div className="bg-white border border-slate-200 rounded-xl p-2 shadow-sm">
-                <div className="relative w-full aspect-video rounded-lg overflow-hidden bg-slate-900 border border-slate-200">
-                  <iframe
-                    src="https://www.youtube.com/embed/zTuTJiO71Gk"
-                    title="How Much Does a Process Server Cost in Oklahoma? — Full 2026 Pricing Breakdown"
-                    className="absolute top-0 left-0 w-full h-full"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                    loading="lazy"
-                  ></iframe>
-                </div>
-                <div className="text-center mt-3 mb-2 text-slate-600 text-sm font-medium">
-                  Watch: A complete breakdown of process server costs in Oklahoma.
-                </div>
-              </div>
-            </div>
-
-            {/* Temporary Fuel Adjustment Banner */}
-            <div className="max-w-3xl mx-auto mb-6 bg-amber-50 border border-amber-300 rounded-xl p-4 text-left flex gap-3">
-              <span className="text-amber-500 text-2xl flex-shrink-0">⛽</span>
-              <div className="w-full">
-                <p className="font-bold text-amber-900 text-sm mb-1">Temporary Fuel Adjustment — Effective April 8, 2026</p>
-                <p className="text-amber-800 text-sm mb-3">Fuel costs in Oklahoma have risen ~40% since March 2026, increasing our delivery expenses. A temporary 17% fuel surcharge has been applied to all fuel-dependent services. We will reduce rates promptly if fuel prices stabilize or drop. <a href="/contact" className="font-semibold underline hover:text-amber-900">Questions? Contact us.</a></p>
-                <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 text-xs">
-                  <div className="bg-amber-100 rounded-lg px-3 py-2">
-                    <p className="text-amber-700 font-semibold mb-0.5">Standard Service</p>
-                    <p className="text-amber-900"><span className="line-through text-amber-500 mr-1">$60</span><span className="font-bold">$70</span></p>
-                  </div>
                   <div className="bg-amber-100 rounded-lg px-3 py-2">
                     <p className="text-amber-700 font-semibold mb-0.5">Rush Service</p>
                     <p className="text-amber-900"><span className="line-through text-amber-500 mr-1">$100</span><span className="font-bold">$117</span></p>
@@ -769,6 +724,34 @@ export default function PricingPage() {
             })
           }}
         />
+
+        {/* VideoObject Schema - moved to bottom to keep pricing page focused */}
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "VideoObject",
+          "name": "How Much Does a Process Server Cost in Oklahoma? — Full 2026 Pricing Breakdown",
+          "description": "Complete 2026 breakdown of Oklahoma process server pricing. Standard from $60, rush $100, same-day $150. Learn what affects your cost.",
+          "thumbnailUrl": "https://img.youtube.com/vi/zTuTJiO71Gk/maxresdefault.jpg",
+          "uploadDate": "2026-04-01",
+          "duration": "PT5M00S",
+          "contentUrl": "https://www.youtube.com/watch?v=zTuTJiO71Gk",
+          "embedUrl": "https://www.youtube.com/embed/zTuTJiO71Gk",
+          "publisher": { "@type": "Organization", "name": "Just Legal Solutions", "logo": { "@type": "ImageObject", "url": "https://justlegalsolutions.org/email%20signature%20logo.png" } }
+        })}} />
+
+        {/* VideoObject Schema - moved to bottom to keep pricing page focused */}
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "VideoObject",
+          "name": "How Much Does a Process Server Cost in Oklahoma? — Full 2026 Pricing Breakdown",
+          "description": "Complete 2026 breakdown of Oklahoma process server pricing. Standard from $60, rush $100, same-day $150. Learn what affects your cost.",
+          "thumbnailUrl": "https://img.youtube.com/vi/zTuTJiO71Gk/maxresdefault.jpg",
+          "uploadDate": "2026-04-01",
+          "duration": "PT5M00S",
+          "contentUrl": "https://www.youtube.com/watch?v=zTuTJiO71Gk",
+          "embedUrl": "https://www.youtube.com/embed/zTuTJiO71Gk",
+          "publisher": { "@type": "Organization", "name": "Just Legal Solutions", "logo": { "@type": "ImageObject", "url": "https://justlegalsolutions.org/email%20signature%20logo.png" } }
+        })}} />
 
         {/* 2025 AI Voice Supremacy */}
         <AIVoiceSupremacy
