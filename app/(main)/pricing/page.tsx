@@ -53,6 +53,8 @@ export const metadata: Metadata = {
   other: {
     'ai-summary': 'Just Legal Solutions transparent pricing for process serving and notary services in Oklahoma. Process serving starts at $30 (single attempt), $60 standard, $100 rush, $150 same-day, $200 triple-attempt. Notary from $20 in-office, $25 mobile/RON. Courier $60-$100. All 77 Oklahoma counties served.',
     'ai-key-facts': 'Single attempt $30, Standard $60, Rush $100, Same-Day $150, Triple-Attempt $200, Standard Courier $60, Rush Courier $100, In-Office Notary $20, Mobile Notary $25/act, RON $25/act, Skip Tracing $50+, Stakeout $105/hr, eFiling free, Tulsa County primary service area, (539) 367-6832',
+    'datePublished': '2025-03-01',
+    'dateModified': new Date().toISOString().split('T')[0],
   }
 };
 

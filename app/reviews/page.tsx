@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
   title: 'Just Legal Solutions Reviews — 5-Star Process Server | Tulsa, OK',
@@ -142,28 +143,39 @@ const sourceColors: Record<string, string> = {
   'Attorney Review': 'bg-purple-100 text-purple-800 border-purple-200',
 };
 
+const schemaReviews = reviews.slice(0, 8).map(r => ({
+  author: r.name,
+  ratingValue: r.rating,
+  reviewBody: r.text,
+}));
+
 export default function ReviewsPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": "Just Legal Solutions",
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "156"
-        },
-        "review": reviews.slice(0, 5).map(r => ({
-          "@type": "Review",
-          "author": { "@type": "Person", "name": r.name },
-          "reviewRating": { "@type": "Rating", "ratingValue": r.rating, "bestRating": 5 },
-          "reviewBody": r.text,
-          "datePublished": "2026-01-01",
-        })),
-      })}} />
+      <UnifiedSchema
+        pageType="generic"
+        url="https://justlegalsolutions.org/reviews"
+        title="Just Legal Solutions Reviews — 5-Star Process Server | Tulsa, OK"
+        description="Read reviews from attorneys, law firms & clients. 5-star rated process server in Tulsa, OK."
+        aggregateRating={{
+          ratingValue: 4.9,
+          reviewCount: 156,
+          bestRating: 5,
+          worstRating: 1,
+        }}
+        reviews={schemaReviews}
+        organization={{
+          name: 'Just Legal Solutions',
+          telephone: '+15393676832',
+          address: {
+            streetAddress: '564 E 138th PL',
+            addressLocality: 'Glenpool',
+            addressRegion: 'OK',
+            postalCode: '74033',
+            addressCountry: 'US',
+          },
+        }}
+      />
 
       <div className="min-h-screen bg-white font-sans">
         {/* Hero */}
