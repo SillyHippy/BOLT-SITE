@@ -1,5 +1,6 @@
 import React from 'react';
 import { Metadata } from 'next';
+import { AuthorBox } from '@/components/ui/author-box';
 import Link from 'next/link';
 import { 
   CheckCircle, 

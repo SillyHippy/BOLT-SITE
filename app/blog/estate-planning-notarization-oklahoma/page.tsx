@@ -1,5 +1,6 @@
 import React from "react";
 import { Navbar } from "@/components/ui/navbar";
+import { AuthorBox } from "@/components/ui/author-box";
 import { Footer } from "@/components/ui/footer";
 import UnifiedSchema from "@/components/UnifiedSchema";
 import LocalPromoBanner from "@/components/ui/local-promo-banner";

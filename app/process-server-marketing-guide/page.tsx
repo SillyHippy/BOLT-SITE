@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import { AuthorBox } from '@/components/ui/author-box';
 import { 
   Phone, 
   Mail, 
