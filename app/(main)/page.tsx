@@ -158,25 +158,7 @@ export default function Home() {
         "publisher": { "@type": "Organization", "name": "Just Legal Solutions", "logo": { "@type": "ImageObject", "url": "https://justlegalsolutions.org/email%20signature%20logo.png" } }
       })}} />
 
-      {/* Featured Video Section */}
-      <section className="bg-slate-900 py-12 px-4 border-b border-white/10" aria-label="Featured Video">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-2xl md:text-3xl font-bold text-white mb-6">Why Choose Just Legal Solutions?</h2>
-          <div className="bg-white/5 border border-white/10 p-2 rounded-2xl shadow-2xl">
-            <div className="relative w-full aspect-video rounded-xl overflow-hidden bg-black border border-white/10 shadow-inner">
-              <iframe
-                src="https://www.youtube.com/embed/NFAhglMUNqc"
-                title="Best Process Server in Tulsa, Oklahoma | Just Legal Solutions"
-                className="absolute top-0 left-0 w-full h-full"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                loading="lazy"
-              ></iframe>
-            </div>
-          </div>
-          <p className="text-gray-400 mt-4 text-sm font-medium">Watch: Learn why we are rated 4.9 stars by attorneys and landlords across Oklahoma.</p>
-        </div>
-      </section>
+
 
       {/* Services Grid */}
       <section className="bg-black text-white py-16 md:py-24" aria-label="Our services">
@@ -301,13 +283,32 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Compact YouTube Feature Video */}
+      <section className="bg-slate-50 py-10 px-4 border-y border-gray-200" aria-label="About Just Legal Solutions Video">
+        <div className="max-w-sm mx-auto text-center">
+          <p className="text-xs font-semibold uppercase tracking-widest text-blue-600 mb-2">See Us in Action</p>
+          <h2 className="text-lg font-bold text-gray-900 mb-4">Why Attorneys Choose Just Legal Solutions</h2>
+          <div className="relative rounded-xl overflow-hidden shadow-lg border border-gray-200 bg-black" style={{ aspectRatio: '9/16', maxHeight: '480px' }}>
+            <iframe
+              src="https://www.youtube.com/embed/NFAhglMUNqc"
+              title="Best Process Server in Tulsa, Oklahoma | Just Legal Solutions"
+              className="absolute top-0 left-0 w-full h-full"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              loading="lazy"
+            ></iframe>
+          </div>
+          <p className="text-gray-500 mt-3 text-xs">4.9 ⭐ rated by attorneys &amp; landlords across Oklahoma</p>
+        </div>
+      </section>
+
       {/* Service Areas - SEO Content Section - Hidden from users, visible to search engines */}
       <section className="sr-only" aria-label="Service areas and details">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Comprehensive Process Serving Solutions Throughout Oklahoma</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Just Legal Solutions provides professional process serving and courier services across Tulsa County and throughout Oklahoma. Our experienced team ensures timely, accurate, and compliant document delivery for law firms, businesses, and individuals. Process serving starts at $30, with rates ranging from $30 to $200.
+              Just Legal Solutions provides professional process serving and courier services across Tulsa County and throughout Oklahoma. Our experienced team ensures timely, accurate, and compliant document delivery for law firms, businesses, and individuals. Process serving starts at $60, with standard ($60), rush ($100), and same-day ($150) options available.
             </p>
           </div>
 
@@ -512,13 +513,13 @@ export default function Home() {
         pageType="home"
         url="https://justlegalsolutions.org/"
         title="Professional Process Server Tulsa County - Just Legal Solutions Oklahoma"
-        description="Expert process serving for Tulsa, Broken Arrow, Sapulpa, Glenpool & Oklahoma. 50+ years combined experience. Process serving starts at $30, with standard, rush and same-day options available"
+        description="Expert process serving for Tulsa, Broken Arrow, Sapulpa, Glenpool & Oklahoma. 50+ years combined experience. Standard from $60, rush $100, same-day $150. Call (539) 367-6832."
         image="https://justlegalsolutions.org/images/hero.webp"
-        priceRange="$30-$200"
+        priceRange="$60-$200"
         serviceDetails={{
           name: "Process Serving Services",
           description: "Professional process serving and legal document delivery services throughout Tulsa County and Oklahoma. Expert court document service, skip tracing, and courier solutions with 50+ years combined experience.",
-          price: "$30-$200",
+          price: "$60-$200",
           areaServed: ["Tulsa", "Broken Arrow", "Sapulpa", "Glenpool", "Oklahoma"]
         }}
         aggregateRating={{
@@ -530,7 +531,7 @@ export default function Home() {
         faqItems={[
           {
             question: "How much does a process server cost in Tulsa County?",
-            answer: "Our professional process serving services in Tulsa County start at $30, with bulk services and single attempts available. Rush service and same-day emergency service options are also available."
+            answer: "Standard process serving in Tulsa County starts at $60 (up to 3 attempts). Rush service is $100 (within 72 hours) and same-day emergency service is $150. All pricing is flat-rate with no hidden fees."
           },
           {
             question: "What areas do you serve?",
