@@ -823,8 +823,8 @@ export default function ServingLegalPapersOklahomaGuide() {
               <h3 className="font-bold text-lg mb-3">Process Serving Guides</h3>
               <ul className="space-y-2">
                 <li><Link href="/oklahoma-process-server-laws" className="text-blue-700 underline">→ Oklahoma Process Server Laws</Link></li>
-                <li><Link href="/oklahoma-process-server-faq-2026" className="text-blue-700 underline">→ Process Server FAQ 2026</Link></li>
-                <li><Link href="/oklahoma-process-server-best-practices-checklist-2026" className="text-blue-700 underline">→ Best Practices Checklist 2026</Link></li>
+                <li><Link href="/oklahoma-process-server-faq" className="text-blue-700 underline">→ Process Server FAQ 2026</Link></li>
+                <li><Link href="/oklahoma-process-server-best-practices-checklist" className="text-blue-700 underline">→ Best Practices Checklist 2026</Link></li>
                 <li><Link href="/process-serving-mistakes-guide" className="text-blue-700 underline">→ Common Mistakes to Avoid</Link></li>
                 <li><Link href="/what-happens-if-someone-refuses-service" className="text-blue-700 underline">→ What Happens If Someone Refuses Service</Link></li>
                 <li><Link href="/rush-vs-standard-vs-same-day-service" className="text-blue-700 underline">→ Rush vs. Standard vs. Same-Day Service</Link></li>

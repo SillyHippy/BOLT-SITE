@@ -276,7 +276,7 @@ export default function OklahomaProcessServerAuthority() {
                 <h3 className="text-xl font-bold text-blue-900 mb-2">Oklahoma Process Server Laws & Requirements</h3>
                 <p className="text-gray-600 text-sm">Complete guide to licensing, bonding, and state law requirements for process servers in Oklahoma.</p>
               </Link>
-              <Link href="/oklahoma-process-server-best-practices-checklist-2026" className="block bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
+              <Link href="/oklahoma-process-server-best-practices-checklist" className="block bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
                 <h3 className="text-xl font-bold text-blue-900 mb-2">Process Server Best Practices Checklist 2026</h3>
                 <p className="text-gray-600 text-sm">Essential checklist covering documentation, service methods, and compliance standards.</p>
               </Link>

@@ -477,7 +477,7 @@ export default function CertifiedMailVsPersonalServiceOklahoma() {
             <ul>
               <li><Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma Process Server Laws 2026</Link> &mdash; Complete guide to who can serve process and the legal requirements throughout Oklahoma&apos;s 77 counties.</li>
               <li><Link href="/blog/substitute-service-oklahoma" className="text-blue-600 hover:underline">Substitute Service in Oklahoma: Rules and Best Practices</Link> &mdash; Learn when and how you can serve papers on someone other than the defendant, including co-residents and authorized agents.</li>
-              <li><Link href="/oklahoma-process-server-faq-2026" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ 2026</Link> &mdash; Answers to common questions about costs, timelines, licensing, and what to expect when hiring a process server.</li>
+              <li><Link href="/oklahoma-process-server-faq" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ 2026</Link> &mdash; Answers to common questions about costs, timelines, licensing, and what to expect when hiring a process server.</li>
               <li><Link href="/process-serving" className="text-blue-600 hover:underline">Understanding Service of Process in Oklahoma</Link> &mdash; Overview of all service methods available under Oklahoma law, from personal delivery to publication.</li>
             </ul>
             <p>Deciding between certified mail and personal service isn&apos;t always straightforward. The wrong choice can delay your case, increase costs, or create vulnerabilities if the defendant challenges service. At Just Legal Solutions, we help Oklahoma attorneys and self-represented litigants make informed decisions about service of process.</p>
@@ -508,7 +508,7 @@ export default function CertifiedMailVsPersonalServiceOklahoma() {
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Substitute Service in Oklahoma: Rules and Best Practices</span>
                 <p className="text-sm text-gray-600 mt-1">Learn when and how you can serve papers on someone other than the defendant, including co-residents and authorized agents.</p>
               </Link>
-              <Link href="/oklahoma-process-server-faq-2026" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+              <Link href="/oklahoma-process-server-faq" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server FAQ 2026</span>
                 <p className="text-sm text-gray-600 mt-1">Answers to common questions about costs, timelines, licensing, and what to expect when hiring a process server.</p>
               </Link>

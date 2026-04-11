@@ -364,7 +364,7 @@ export default function ProcessServingSmallBusinessOwnersOklahoma() {
             <ul>
               <li><Link href="/blog/how-to-serve-small-claims-oklahoma" className="text-blue-600 hover:underline">How to Serve Small Claims in Oklahoma</Link> &mdash; Step-by-step guide to serving small claims court documents throughout Oklahoma</li>
               <li><Link href="/process-serving" className="text-blue-600 hover:underline">Oklahoma Process Serving Services</Link> &mdash; Professional process serving for business litigation throughout all 77 counties</li>
-              <li><Link href="/oklahoma-process-server-faq-2026" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ 2026</Link> &mdash; Answers to common questions about timelines, costs, and requirements</li>
+              <li><Link href="/oklahoma-process-server-faq" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ 2026</Link> &mdash; Answers to common questions about timelines, costs, and requirements</li>
               <li><Link href="/pricing" className="text-blue-600 hover:underline">Process Serving Pricing</Link> &mdash; Transparent flat-rate pricing for business and commercial service</li>
             </ul>
 
@@ -397,7 +397,7 @@ export default function ProcessServingSmallBusinessOwnersOklahoma() {
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Serving Services</span>
                 <p className="text-sm text-gray-600 mt-1">Professional process serving for business litigation throughout all 77 counties</p>
               </Link>
-              <Link href="/oklahoma-process-server-faq-2026" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+              <Link href="/oklahoma-process-server-faq" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server FAQ 2026</span>
                 <p className="text-sm text-gray-600 mt-1">Answers to common questions about timelines, costs, and requirements</p>
               </Link>

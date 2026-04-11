@@ -439,7 +439,7 @@ export default function HowLongRespondLawsuitOklahoma() {
               <li><Link href="/blog/oklahoma-default-judgment-guide" className="text-blue-600 hover:underline">Oklahoma Default Judgment Guide: What Happens When You Don&apos;t Respond</Link> &mdash; Learn the full consequences of missing lawsuit deadlines and how default judgments work in Oklahoma.</li>
               <li><Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma Process Server Laws: What You Need to Know (2026)</Link> &mdash; Understand the rules for proper service of process and what happens if papers aren&apos;t served correctly.</li>
               <li><Link href="/blog/what-to-do-when-served-papers-oklahoma" className="text-blue-600 hover:underline">What to Do When Served with Legal Papers in Oklahoma</Link> &mdash; Step-by-step guidance for the first 48 hours after being served with a lawsuit.</li>
-              <li><Link href="/oklahoma-process-server-faq-2026" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ (2026)</Link> &mdash; Answers to common questions about process serving, deadlines, and court procedures in Oklahoma.</li>
+              <li><Link href="/oklahoma-process-server-faq" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ (2026)</Link> &mdash; Answers to common questions about process serving, deadlines, and court procedures in Oklahoma.</li>
             </ul>
 
             <h2>Need to Verify Your Deadline? Contact Just Legal Solutions</h2>
@@ -478,7 +478,7 @@ export default function HowLongRespondLawsuitOklahoma() {
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">What to Do When Served with Legal Papers in Oklahoma</span>
                 <p className="text-sm text-gray-600 mt-1">Step-by-step guidance for the first 48 hours after being served with a lawsuit.</p>
               </Link>
-              <Link href="/oklahoma-process-server-faq-2026" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+              <Link href="/oklahoma-process-server-faq" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server FAQ (2026)</span>
                 <p className="text-sm text-gray-600 mt-1">Answers to common questions about process serving, deadlines, and court procedures in Oklahoma.</p>
               </Link>

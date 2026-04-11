@@ -296,7 +296,7 @@ export default function ProcessServingHealthcareHospitalsOklahoma() {
               <li>The temporary nature of the venue</li>
               <li>Potential challenges to personal jurisdiction</li>
             </ul>
-            <p>Our <Link href="/blog/oklahoma-process-server-best-practices-checklist-2026" className="text-blue-600 hover:underline">Oklahoma process server best practices checklist</Link> provides additional guidance on professional service in sensitive situations.</p>
+            <p>Our <Link href="/blog/oklahoma-process-server-best-practices-checklist" className="text-blue-600 hover:underline">Oklahoma process server best practices checklist</Link> provides additional guidance on professional service in sensitive situations.</p>
 
             <h2>Serving Hospital Corporations and Administrators</h2>
             <p>When hospitals themselves are named as defendants, or when serving hospital administrators in their official capacity, special rules apply regarding who can accept service and where service must occur.</p>
@@ -370,9 +370,9 @@ export default function ProcessServingHealthcareHospitalsOklahoma() {
             <p>Our <Link href="/same-day-process-server" className="text-blue-600 hover:underline">same-day process server</Link> service ensures urgent healthcare litigation documents are served promptly while maintaining professional standards.</p>
             <ul>
               <li><Link href="/blog/how-to-serve-a-subpoena-oklahoma" className="text-blue-600 hover:underline">How to Serve a Subpoena in Oklahoma (2026 Guide)</Link> &mdash; Detailed guidance on serving subpoenas for medical records and witness testimony</li>
-              <li><Link href="/blog/oklahoma-process-server-best-practices-checklist-2026" className="text-blue-600 hover:underline">Oklahoma Process Server Best Practices Checklist (2026)</Link> &mdash; Professional standards for sensitive service situations</li>
+              <li><Link href="/blog/oklahoma-process-server-best-practices-checklist" className="text-blue-600 hover:underline">Oklahoma Process Server Best Practices Checklist (2026)</Link> &mdash; Professional standards for sensitive service situations</li>
               <li><Link href="/same-day-process-server" className="text-blue-600 hover:underline">Same-Day Process Server</Link> &mdash; Urgent service for time-sensitive healthcare litigation</li>
-              <li><Link href="/blog/oklahoma-process-server-faq-2026" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ (2026)</Link> &mdash; Answers to common process serving questions</li>
+              <li><Link href="/blog/oklahoma-process-server-faq" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ (2026)</Link> &mdash; Answers to common process serving questions</li>
               <li><Link href="/process-serving" className="text-blue-600 hover:underline">Process Serving Services</Link> &mdash; Complete overview of our Oklahoma process serving capabilities</li>
             </ul>
 
@@ -407,7 +407,7 @@ export default function ProcessServingHealthcareHospitalsOklahoma() {
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">How to Serve a Subpoena in Oklahoma (2026 Guide)</span>
                 <p className="text-sm text-gray-600 mt-1">Detailed guidance on serving subpoenas for medical records and witness testimony</p>
               </Link>
-              <Link href="/blog/oklahoma-process-server-best-practices-checklist-2026" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+              <Link href="/blog/oklahoma-process-server-best-practices-checklist" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server Best Practices Checklist (2026)</span>
                 <p className="text-sm text-gray-600 mt-1">Professional standards for sensitive service situations</p>
               </Link>
@@ -415,7 +415,7 @@ export default function ProcessServingHealthcareHospitalsOklahoma() {
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Same-Day Process Server</span>
                 <p className="text-sm text-gray-600 mt-1">Urgent service for time-sensitive healthcare litigation</p>
               </Link>
-              <Link href="/blog/oklahoma-process-server-faq-2026" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+              <Link href="/blog/oklahoma-process-server-faq" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server FAQ (2026)</span>
                 <p className="text-sm text-gray-600 mt-1">Answers to common process serving questions</p>
               </Link>

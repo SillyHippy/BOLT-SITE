@@ -730,7 +730,7 @@ export default function SheriffVsPrivateProcessServerOklahoma() {
               <li><strong><Link href="/oklahoma-process-serving-costs-comparison" className="text-blue-600 hover:underline">Oklahoma Process Server Pricing Guide</Link></strong> – Detailed breakdown of costs across Oklahoma counties and service types</li>
               <li><strong><Link href="/same-day-process-server" className="text-blue-600 hover:underline">Same-Day Process Server Services</Link></strong> – When you need documents served urgently in Tulsa and surrounding areas</li>
               <li><strong><Link href="/pricing" className="text-blue-600 hover:underline">How Much Does a Process Server Cost in Oklahoma?</Link></strong> – Transparent pricing for all service levels with no hidden fees</li>
-              <li><strong><Link href="/oklahoma-process-server-faq-2026" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ</Link></strong> – Answers to common questions about process serving requirements and procedures</li>
+              <li><strong><Link href="/oklahoma-process-server-faq" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ</Link></strong> – Answers to common questions about process serving requirements and procedures</li>
               <li><strong><Link href="/process-serving" className="text-blue-600 hover:underline">Professional Process Serving Services</Link></strong> – Complete overview of our service offerings and coverage areas</li>
             </ul>
 
@@ -777,7 +777,7 @@ export default function SheriffVsPrivateProcessServerOklahoma() {
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">How Much Does a Process Server Cost in Oklahoma?</span>
                 <p className="text-sm text-gray-600 mt-1"> – Transparent pricing for all service levels with no hidden fees</p>
               </Link>
-              <Link href="/oklahoma-process-server-faq-2026" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+              <Link href="/oklahoma-process-server-faq" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server FAQ</span>
                 <p className="text-sm text-gray-600 mt-1"> – Answers to common questions about process serving requirements and procedures</p>
               </Link>

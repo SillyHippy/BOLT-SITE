@@ -363,7 +363,7 @@ export default function WhatToDoWhenServedPapersOklahoma() {
             </ul>
             <p>If you have a scheduling conflict, contact your attorney immediately. Never simply fail to appear.</p>
             <ul>
-              <li><Link href="/oklahoma-process-server-faq-2026" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ (2026)</Link> &mdash; Common questions about how process serving works in Oklahoma</li>
+              <li><Link href="/oklahoma-process-server-faq" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ (2026)</Link> &mdash; Common questions about how process serving works in Oklahoma</li>
               <li><Link href="/blog/oklahoma-default-judgment-guide" className="text-blue-600 hover:underline">Oklahoma Default Judgment Guide</Link> &mdash; What happens when defendants don&apos;t respond and how default judgments work</li>
               <li><Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma Process Server Laws</Link> &mdash; Legal requirements for serving papers in Oklahoma</li>
               <li><Link href="/blog/how-long-to-respond-lawsuit-oklahoma" className="text-blue-600 hover:underline">How Long Do You Have to Respond to a Lawsuit in Oklahoma?</Link> &mdash; Detailed breakdown of response deadlines</li>
@@ -393,7 +393,7 @@ export default function WhatToDoWhenServedPapersOklahoma() {
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Tulsa Process Server — Same-Day from $60</span>
                 <p className="text-sm text-gray-600 mt-1">Licensed Tulsa process server for all document types. GPS-tracked, court-ready affidavits.</p>
               </Link>
-              <Link href="/oklahoma-process-server-faq-2026" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+              <Link href="/oklahoma-process-server-faq" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server FAQ (2026)</span>
                 <p className="text-sm text-gray-600 mt-1">Common questions about how process serving works in Oklahoma</p>
               </Link>

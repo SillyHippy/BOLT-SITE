@@ -58,7 +58,7 @@ const ResourcesPage = () => {
     },
     {
       title: "Process Server Best Practices Checklist 2026",
-      url: "/oklahoma-process-server-best-practices-checklist-2026",
+      url: "/oklahoma-process-server-best-practices-checklist",
       preview: "Professional checklist for Oklahoma process servers to ensure legal compliance—covering documentation, attempt logging, affidavit preparation, and court filing standards."
     },
     {
@@ -73,7 +73,7 @@ const ResourcesPage = () => {
     },
     {
       title: "Oklahoma Process Server FAQ 2026",
-      url: "/oklahoma-process-server-faq-2026",
+      url: "/oklahoma-process-server-faq",
       preview: "Frequently asked questions about process serving in Oklahoma—costs, timelines, licensing, who can serve papers, and what happens when a defendant avoids service."
     }
   ];
@@ -338,7 +338,7 @@ const ResourcesPage = () => {
             <Link href="/weekend-emergency" className="bg-white p-3 rounded-lg text-blue-700 font-medium hover:bg-blue-100 transition text-center">Weekend &amp; After-Hours Service</Link>
             <Link href="/courier-services-tulsa" className="bg-white p-3 rounded-lg text-blue-700 font-medium hover:bg-blue-100 transition text-center">Tulsa Legal Courier</Link>
             <Link href="/service-areas" className="bg-white p-3 rounded-lg text-blue-700 font-medium hover:bg-blue-100 transition text-center">All 77 Counties</Link>
-            <Link href="/oklahoma-process-server-faq-2026" className="bg-white p-3 rounded-lg text-blue-700 font-medium hover:bg-blue-100 transition text-center">Process Server FAQ</Link>
+            <Link href="/oklahoma-process-server-faq" className="bg-white p-3 rounded-lg text-blue-700 font-medium hover:bg-blue-100 transition text-center">Process Server FAQ</Link>
             <Link href="/oklahoma-process-server-laws" className="bg-white p-3 rounded-lg text-blue-700 font-medium hover:bg-blue-100 transition text-center">Oklahoma Process Serving Laws</Link>
             <Link href="/family-law-service-guide-tulsa" className="bg-white p-3 rounded-lg text-blue-700 font-medium hover:bg-blue-100 transition text-center">Family Law Service in Tulsa</Link>
           </div>

@@ -6,7 +6,7 @@ import Footer from '../../components/ui/footer';
 import JsonLd from '../../components/JsonLd';
 import { Phone, CheckCircle, FileText, Clock, Shield, MapPin, Camera, Smartphone, Scale, Users, Zap, Award, BookOpen, Target, AlertTriangle, ArrowRight, ClipboardCheck, Timer, Eye, MessageSquare, Database, Wifi, Lock, Bot } from 'lucide-react';
 
-const canonicalUrl = 'https://justlegalsolutions.org/oklahoma-process-server-best-practices-checklist-2026';
+const canonicalUrl = 'https://justlegalsolutions.org/oklahoma-process-server-best-practices-checklist';
 
 export const metadata: Metadata = {
   title: 'Oklahoma Process Server Checklist 2026 | Tulsa & Statewide Best Practices',
@@ -757,7 +757,7 @@ export default function OklahomaProcessServerBestPracticesChecklist2026() {
                 </h3>
                 <ul className="space-y-3">
                   <li><Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline flex items-center gap-2"><ArrowRight className="w-4 h-4" />Oklahoma Process Server Laws</Link></li>
-                  <li><Link href="/oklahoma-process-server-faq-2026" className="text-blue-600 hover:underline flex items-center gap-2"><ArrowRight className="w-4 h-4" />Process Server FAQ 2026</Link></li>
+                  <li><Link href="/oklahoma-process-server-faq" className="text-blue-600 hover:underline flex items-center gap-2"><ArrowRight className="w-4 h-4" />Process Server FAQ 2026</Link></li>
                   <li><Link href="/process-serving-mistakes-guide" className="text-blue-600 hover:underline flex items-center gap-2"><ArrowRight className="w-4 h-4" />Top 10 Process Serving Mistakes</Link></li>
                   <li><Link href="/oklahoma-electronic-service-guide" className="text-blue-600 hover:underline flex items-center gap-2"><ArrowRight className="w-4 h-4" />Oklahoma Electronic Service Guide</Link></li>
                 </ul>

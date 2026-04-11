@@ -450,7 +450,7 @@ export default function ServeOutOfStateDefendantOklahoma() {
               <li><Link href="/process-serving" className="text-blue-600 hover:underline">Oklahoma Process Serving Services</Link> &mdash; Professional process serving throughout Oklahoma with experience in out-of-state and international matters</li>
               <li><Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma Process Server Laws</Link> &mdash; Complete guide to licensing requirements, service methods, and legal standards</li>
               <li><Link href="/skip-tracing" className="text-blue-600 hover:underline">Skip Tracing Services</Link> &mdash; Locate hard-to-find defendants using professional investigative techniques</li>
-              <li><Link href="/oklahoma-process-server-faq-2026" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ</Link> &mdash; Answers to common questions about service of process in Oklahoma</li>
+              <li><Link href="/oklahoma-process-server-faq" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ</Link> &mdash; Answers to common questions about service of process in Oklahoma</li>
             </ul>
             <p>For official legal resources, consult the <a href="https://www.oscn.net/oklahoma-court-rules/oklahoma-statutes" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Oklahoma Statutes</a> or contact the <a href="https://www.okbar.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Oklahoma Bar Association</a> for attorney referrals.</p>
             <p>Serving an out-of-state defendant requires careful attention to Oklahoma law, the laws of other states, and international treaties when applicable. One procedural error can delay your case or create grounds for challenge. Working with experienced professionals ensures your service of process is completed correctly the first time.</p>
@@ -493,7 +493,7 @@ export default function ServeOutOfStateDefendantOklahoma() {
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Skip Tracing Services</span>
                 <p className="text-sm text-gray-600 mt-1">Locate hard-to-find defendants using professional investigative techniques</p>
               </Link>
-              <Link href="/oklahoma-process-server-faq-2026" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+              <Link href="/oklahoma-process-server-faq" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server FAQ</span>
                 <p className="text-sm text-gray-600 mt-1">Answers to common questions about service of process in Oklahoma</p>
               </Link>

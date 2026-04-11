@@ -455,7 +455,7 @@ export default function BanksLendersProcessServingOklahoma() {
               <li><Link href="/process-serving" className="text-blue-600 hover:underline">Oklahoma Process Serving Guide</Link> &mdash; Complete overview of service requirements for all case types</li>
               <li><Link href="/skip-tracing" className="text-blue-600 hover:underline">Skip Tracing Services</Link> &mdash; Locate missing borrowers and defendants for proper service</li>
               <li><Link href="/same-day-process-server" className="text-blue-600 hover:underline">Same-Day Process Server</Link> &mdash; Expedited service for time-sensitive replevin and foreclosure matters</li>
-              <li><Link href="/oklahoma-process-server-faq-2026" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ</Link> &mdash; Answers to common questions about legal document service</li>
+              <li><Link href="/oklahoma-process-server-faq" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ</Link> &mdash; Answers to common questions about legal document service</li>
             </ul>
 
             <h2>Need Foreclosure Process Serving in Oklahoma?</h2>
@@ -494,7 +494,7 @@ export default function BanksLendersProcessServingOklahoma() {
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Same-Day Process Server</span>
                 <p className="text-sm text-gray-600 mt-1">Expedited service for time-sensitive replevin and foreclosure matters</p>
               </Link>
-              <Link href="/oklahoma-process-server-faq-2026" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+              <Link href="/oklahoma-process-server-faq" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server FAQ</span>
                 <p className="text-sm text-gray-600 mt-1">Answers to common questions about legal document service</p>
               </Link>

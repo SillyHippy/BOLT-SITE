@@ -439,9 +439,9 @@ export default function AISkipTracingGuideOklahoma() {
             <div className="bg-white border border-gray-200 p-6 rounded-lg">
               <h3 className="font-bold text-lg mb-3">Process Serving Guides</h3>
               <ul className="space-y-2">
-                <li><a href="/oklahoma-process-server-faq-2026" className="text-blue-600 hover:underline">→ Oklahoma Process Server FAQ 2026</a></li>
+                <li><a href="/oklahoma-process-server-faq" className="text-blue-600 hover:underline">→ Oklahoma Process Server FAQ 2026</a></li>
                 <li><a href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">→ Oklahoma Process Server Laws Guide</a></li>
-                <li><a href="/oklahoma-process-server-best-practices-checklist-2026" className="text-blue-600 hover:underline">→ Best Practices Checklist 2026</a></li>
+                <li><a href="/oklahoma-process-server-best-practices-checklist" className="text-blue-600 hover:underline">→ Best Practices Checklist 2026</a></li>
                 <li><a href="/process-serving-mistakes-guide" className="text-blue-600 hover:underline">→ Top 10 Mistakes to Avoid</a></li>
               </ul>
             </div>

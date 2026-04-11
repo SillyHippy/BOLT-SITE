@@ -430,7 +430,7 @@ export default function OklahomaDefaultJudgmentGuide() {
               <li><Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma Process Server Laws: A Complete Guide</Link> – Learn about proper service requirements that can affect default judgments</li>
               <li><Link href="/how-to-serve-divorce-papers-oklahoma" className="text-blue-600 hover:underline">How to Serve Divorce Papers in Oklahoma</Link> – Service requirements in family law cases</li>
               <li><Link href="/process-serving" className="text-blue-600 hover:underline">Process Serving Services in Tulsa</Link> – Professional service of process to ensure valid legal action</li>
-              <li><Link href="/oklahoma-process-server-faq-2026" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ (2026)</Link> – Common questions about service of process</li>
+              <li><Link href="/oklahoma-process-server-faq" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ (2026)</Link> – Common questions about service of process</li>
             </ul>
             <p>Default judgments often hinge on whether service of process was proper and effective. At Just Legal Solutions, we provide professional process serving throughout Oklahoma, ensuring your legal documents are served correctly and documented thoroughly to withstand any challenge.</p>
             <p>Whether you&apos;re an attorney seeking reliable service for your cases or an individual who needs documents served properly, our licensed process servers understand Oklahoma&apos;s strict requirements and deliver results you can count on.</p>
@@ -470,7 +470,7 @@ export default function OklahomaDefaultJudgmentGuide() {
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Process Serving Services in Tulsa</span>
                 <p className="text-sm text-gray-600 mt-1">– Professional service of process to ensure valid legal action</p>
               </Link>
-              <Link href="/oklahoma-process-server-faq-2026" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+              <Link href="/oklahoma-process-server-faq" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server FAQ (2026)</span>
                 <p className="text-sm text-gray-600 mt-1">– Common questions about service of process</p>
               </Link>

@@ -7,7 +7,7 @@ import JsonLd from '../../components/JsonLd';
 import { Phone, Mail, Clock, Shield, MapPin, FileText, Scale, Users, Zap, CheckCircle, HelpCircle, DollarSign, Gavel, Award, Search, Smartphone, Lock, Bot, Building2, Home, AlertCircle, Star } from 'lucide-react';
 import AIVoiceSupremacy from '../../components/ui/ai-voice-supremacy';
 
-const canonicalUrl = 'https://justlegalsolutions.org/oklahoma-process-server-faq-2026';
+const canonicalUrl = 'https://justlegalsolutions.org/oklahoma-process-server-faq';
 
 export const metadata: Metadata = {
   title: 'Oklahoma Process Server FAQ 2026',
@@ -750,7 +750,7 @@ export default function OklahomaProcessServerFAQ2026() {
                 <ul className="space-y-3">
                   <li><Link href="/oklahoma-process-server-pricing" className="text-blue-600 hover:underline">Oklahoma Process Server Pricing Guide</Link></li>
                   <li><Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma Process Server Laws & Requirements</Link></li>
-                  <li><Link href="/oklahoma-process-server-best-practices-checklist-2026" className="text-blue-600 hover:underline">Process Server Best Practices Checklist 2026</Link></li>
+                  <li><Link href="/oklahoma-process-server-best-practices-checklist" className="text-blue-600 hover:underline">Process Server Best Practices Checklist 2026</Link></li>
                   <li><Link href="/process-serving-mistakes-guide" className="text-blue-600 hover:underline">Top 10 Process Serving Mistakes to Avoid</Link></li>
                   <li><Link href="/ai-skip-tracing-guide-oklahoma" className="text-blue-600 hover:underline">AI-Powered Skip Tracing Guide</Link></li>
                 </ul>

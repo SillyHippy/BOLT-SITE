@@ -188,7 +188,7 @@ export default function ServiceCheckerPage() {
             {/* Cross-links */}
             <div className="mt-8 bg-white rounded-xl border border-gray-200 p-5 items-center justify-center flex flex-wrap gap-6">
               <Link href="/blog/what-happens-if-someone-refuses-service" className="text-emerald-700 hover:underline font-medium text-sm">Refusing Service Laws →</Link>
-              <Link href="/oklahoma-process-server-faq-2026" className="text-emerald-700 hover:underline font-medium text-sm">Process Server FAQ →</Link>
+              <Link href="/oklahoma-process-server-faq" className="text-emerald-700 hover:underline font-medium text-sm">Process Server FAQ →</Link>
             </div>
           </div>
         </section>

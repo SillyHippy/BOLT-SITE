@@ -861,10 +861,10 @@ export default function TulsaCountyProcessServer() {
                   <Link href="/ai-skip-tracing-guide-oklahoma" className="block text-blue-600 hover:text-blue-800 font-medium">
                     AI Skip Tracing Guide
                   </Link>
-                  <Link href="/oklahoma-process-server-best-practices-checklist-2026" className="block text-blue-600 hover:text-blue-800 font-medium">
+                  <Link href="/oklahoma-process-server-best-practices-checklist" className="block text-blue-600 hover:text-blue-800 font-medium">
                     Best Practices Checklist 2026
                   </Link>
-                  <Link href="/oklahoma-process-server-faq-2026" className="block text-blue-600 hover:text-blue-800 font-medium">
+                  <Link href="/oklahoma-process-server-faq" className="block text-blue-600 hover:text-blue-800 font-medium">
                     Complete FAQ Guide 2026
                   </Link>
                 </div>
@@ -1605,10 +1605,10 @@ export default function TulsaCountyProcessServer() {
                     <Link href="/process-server-tulsa-guide" className="block text-blue-600 hover:text-blue-800 text-sm underline">
                       Complete Tulsa Process Server Guide
                     </Link>
-                    <Link href="/oklahoma-process-server-faq-2026" className="block text-blue-600 hover:text-blue-800 text-sm underline">
+                    <Link href="/oklahoma-process-server-faq" className="block text-blue-600 hover:text-blue-800 text-sm underline">
                       Oklahoma Process Server FAQ 2026
                     </Link>
-                    <Link href="/oklahoma-process-server-best-practices-checklist-2026" className="block text-blue-600 hover:text-blue-800 text-sm underline">
+                    <Link href="/oklahoma-process-server-best-practices-checklist" className="block text-blue-600 hover:text-blue-800 text-sm underline">
                       Best Practices Checklist 2026
                     </Link>
                   </div>

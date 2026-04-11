@@ -459,7 +459,7 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-center mb-4 text-gray-900">Explore Our Resources</h2>
           <p className="text-center text-gray-600 mb-12 max-w-3xl mx-auto">Learn more about process serving in Oklahoma with our comprehensive guides and educational resources</p>
           <div className="grid md:grid-cols-4 gap-6">
-            <a href="/oklahoma-process-server-faq-2026" className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition text-center block">
+            <a href="/oklahoma-process-server-faq" className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition text-center block">
               <div className="text-3xl mb-3">❓</div>
               <h3 className="font-bold text-gray-900 mb-2">FAQ</h3>
               <p className="text-gray-600 text-sm">Common questions about process serving answered</p>

@@ -606,7 +606,7 @@ export default function ServiceAreasHub() {
               Find Your Service Area
             </h2>
             <p className="text-xl text-gray-700 mb-8">
-              Not sure if we serve your location? We provide <Link href="/oklahoma-process-server-faq-2026" className="text-blue-600 hover:text-blue-800 font-medium">statewide coverage throughout all of Oklahoma</Link> including urban, suburban, and rural areas across all 77 counties.
+              Not sure if we serve your location? We provide <Link href="/oklahoma-process-server-faq" className="text-blue-600 hover:text-blue-800 font-medium">statewide coverage throughout all of Oklahoma</Link> including urban, suburban, and rural areas across all 77 counties.
             </p>
             <div className="bg-gray-50 p-8 rounded-lg mb-8">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Areas We Serve Include:</h3>
@@ -717,7 +717,7 @@ export default function ServiceAreasHub() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-2xl font-bold text-center text-gray-900 mb-8">Helpful Resources</h2>
             <div className="grid md:grid-cols-3 gap-6">
-              <Link href="/oklahoma-process-server-faq-2026" className="bg-white p-6 rounded-lg shadow hover:shadow-lg transition-shadow">
+              <Link href="/oklahoma-process-server-faq" className="bg-white p-6 rounded-lg shadow hover:shadow-lg transition-shadow">
                 <h3 className="font-bold text-blue-900 mb-2">Oklahoma Process Server FAQ 2026</h3>
                 <p className="text-gray-600 text-sm">Answers to common questions about process serving in Oklahoma.</p>
               </Link>

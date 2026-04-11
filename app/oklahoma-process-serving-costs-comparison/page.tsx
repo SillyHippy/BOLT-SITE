@@ -278,7 +278,7 @@ export default function OklahomaProcessServingCostsComparison() {
           <ul className="list-disc ml-6 mb-4">
             <li><a href="/oklahoma-process-server-pricing" className="text-blue-700 underline">Oklahoma Process Server Pricing Guide</a></li>
             <li><a href="/oklahoma-legal-service-areas" className="text-blue-700 underline">Oklahoma Legal Service Areas Coverage</a></li>
-            <li><a href="/oklahoma-process-server-faq-2026" className="text-blue-700 underline">Process Server FAQ</a></li>
+            <li><a href="/oklahoma-process-server-faq" className="text-blue-700 underline">Process Server FAQ</a></li>
           </ul>
         </section>
 

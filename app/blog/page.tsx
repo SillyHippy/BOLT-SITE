@@ -40,7 +40,7 @@ const categories = [
       { slug: 'how-to-file-protective-order-oklahoma', title: 'How to File a Protective Order in Oklahoma', description: 'Step-by-step guide covering emergency VPOs, permanent orders, court procedures, and service requirements.', date: '2026-04-08' },
       { slug: 'serve-out-of-state-defendant-oklahoma', title: 'How to Serve an Out-of-State Defendant in Oklahoma', description: 'Long-arm statute, interstate service methods, Hague Convention for international service, and practical solutions.', date: '2026-04-08' },
       { slug: 'serve-business-corporation-oklahoma', title: 'How to Serve a Business or Corporation in Oklahoma', description: 'Registered agents, Secretary of State service, CT Corporation, and handling evasive businesses.', date: '2026-04-08' },
-      { slug: 'become-process-server-oklahoma-2026', title: 'How to Become a Process Server in Oklahoma (2026)', description: 'License requirements, CLEET certification, surety bonds, costs, training, and what the job is really like.', date: '2026-04-08' },
+      { slug: 'become-process-server-oklahoma', title: 'How to Become a Process Server in Oklahoma (2026)', description: 'License requirements, CLEET certification, surety bonds, costs, training, and what the job is really like.', date: '2026-04-08' },
     ],
   },
   {
@@ -56,7 +56,7 @@ const categories = [
       { slug: 'contest-improper-service-oklahoma', title: 'How to Contest Improper Service in Oklahoma', description: 'Motions to quash, due process challenges, common service defects, and Oklahoma case law examples.', date: '2026-04-08' },
       { slug: 'understanding-the-affidavit-of-service', title: 'Understanding the Affidavit of Service', description: 'What an affidavit of service is, why it matters, and how to ensure your proof of service holds up in court.', date: '2025-06-01' },
       { slug: 'how-long-respond-lawsuit-oklahoma', title: 'How Long to Respond After Being Served in Oklahoma', description: 'The 20-day rule, different case types, military exceptions, and what filing an answer means.', date: '2026-04-08' },
-      { slug: 'oklahoma-eviction-moratorium-history-2026', title: 'Oklahoma Eviction Moratorium History & Current Rules (2026)', description: 'Post-COVID eviction landscape, remaining protections, ERA funds, and what landlords need to know.', date: '2026-04-08' },
+      { slug: 'oklahoma-eviction-moratorium-history', title: 'Oklahoma Eviction Moratorium History & Current Rules (2026)', description: 'Post-COVID eviction landscape, remaining protections, ERA funds, and what landlords need to know.', date: '2026-04-08' },
     ],
   },
   {

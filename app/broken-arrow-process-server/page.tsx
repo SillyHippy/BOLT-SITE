@@ -288,7 +288,7 @@ export default function BrokenArrowProcessServerPage() {
                 <h3 className="font-semibold text-green-800">Request Service Now</h3>
                 <p className="text-sm text-gray-600 mt-1">Submit your order online</p>
               </Link>
-              <Link href="/oklahoma-process-server-faq-2026" className="block p-4 bg-gray-50 border border-gray-200 rounded-lg hover:bg-gray-100 transition-all">
+              <Link href="/oklahoma-process-server-faq" className="block p-4 bg-gray-50 border border-gray-200 rounded-lg hover:bg-gray-100 transition-all">
                 <h3 className="font-semibold text-gray-800">Oklahoma Process Server FAQ</h3>
                 <p className="text-sm text-gray-600 mt-1">Answers to common questions</p>
               </Link>

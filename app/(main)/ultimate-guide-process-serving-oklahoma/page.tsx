@@ -363,7 +363,7 @@ export default function UltimateGuidePage() {
           </CardHeader>
           <CardContent>
             <p className="text-lg mb-4">
-              A process server in Oklahoma is a licensed professional who delivers legal documents to parties involved in court cases, ensuring proper notification according to Oklahoma statutes and constitutional due process requirements. This critical service ensures that all parties in legal proceedings are properly notified of actions against them, protecting their constitutional right to due process. For more common questions, see our comprehensive <a href="/oklahoma-process-server-faq-2026" className="text-blue-600 hover:underline font-semibold">Oklahoma Process Server FAQ 2026</a>.
+              A process server in Oklahoma is a licensed professional who delivers legal documents to parties involved in court cases, ensuring proper notification according to Oklahoma statutes and constitutional due process requirements. This critical service ensures that all parties in legal proceedings are properly notified of actions against them, protecting their constitutional right to due process. For more common questions, see our comprehensive <a href="/oklahoma-process-server-faq" className="text-blue-600 hover:underline font-semibold">Oklahoma Process Server FAQ 2026</a>.
             </p>
             
             <div className="grid md:grid-cols-2 gap-6 mt-6">
@@ -572,7 +572,7 @@ export default function UltimateGuidePage() {
           </CardHeader>
           <CardContent>
             <p className="mb-6">
-              Understanding proper service procedures is essential for valid service under Oklahoma law. This comprehensive guide outlines each step of the process serving procedure. For a detailed checklist, visit our <a href="/oklahoma-process-server-best-practices-checklist-2026" className="text-blue-600 hover:underline font-semibold">Oklahoma Process Server Best Practices Checklist 2026</a>.
+              Understanding proper service procedures is essential for valid service under Oklahoma law. This comprehensive guide outlines each step of the process serving procedure. For a detailed checklist, visit our <a href="/oklahoma-process-server-best-practices-checklist" className="text-blue-600 hover:underline font-semibold">Oklahoma Process Server Best Practices Checklist 2026</a>.
             </p>
 
             <div className="space-y-6">

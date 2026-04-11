@@ -18,13 +18,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Oklahoma Eviction Moratorium History & Current Rules (2026)',
     description: 'Oklahoma eviction moratorium history and current rules. Learn what protections remain, ERA funds, and what landlords need to know in 2026.',
-    url: 'https://justlegalsolutions.org/blog/oklahoma-eviction-moratorium-history-2026',
+    url: 'https://justlegalsolutions.org/blog/oklahoma-eviction-moratorium-history',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
     images: [{ url: 'https://justlegalsolutions.org/og-image.png', width: 1200, height: 630, alt: 'Oklahoma Eviction Moratorium History & Current Rules' }],
   },
-  alternates: { canonical: 'https://justlegalsolutions.org/blog/oklahoma-eviction-moratorium-history-2026' },
+  alternates: { canonical: 'https://justlegalsolutions.org/blog/oklahoma-eviction-moratorium-history' },
   other: {
     'article:published_time': '2026-04-08',
     'article:modified_time': '2026-04-08',
@@ -77,14 +77,14 @@ export default function OklahomaEvictionMoratoriumHistory2026() {
         pageType="article"
         pageTitle="Oklahoma Eviction Moratorium History & Current Rules (2026)"
         pageDescription="Oklahoma eviction moratorium history and current rules. Learn what protections remain, ERA funds, and what landlords need to know in 2026."
-        pageUrl="https://justlegalsolutions.org/blog/oklahoma-eviction-moratorium-history-2026"
+        pageUrl="https://justlegalsolutions.org/blog/oklahoma-eviction-moratorium-history"
         siteName="Just Legal Solutions"
         reviewCount={156}
         services={['Process Serving', 'Legal Document Delivery', 'Same-Day Service']}
         breadcrumbs={[
           { name: 'Home', url: '/' },
           { name: 'Blog', url: '/blog' },
-          { name: 'Oklahoma Eviction Moratorium History & Current Rules', url: '/blog/oklahoma-eviction-moratorium-history-2026' },
+          { name: 'Oklahoma Eviction Moratorium History & Current Rules', url: '/blog/oklahoma-eviction-moratorium-history' },
         ]}
         articleDetails={{
           headline: "Oklahoma Eviction Moratorium History & Current Rules (2026)",

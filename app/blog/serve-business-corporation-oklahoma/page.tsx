@@ -390,7 +390,7 @@ export default function ServeBusinessCorporationOklahoma() {
               <li><Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma Process Server Laws: Complete 2026 Guide</Link> &mdash; Detailed breakdown of all Oklahoma service of process statutes and requirements</li>
               <li><Link href="/process-serving" className="text-blue-600 hover:underline">Tulsa Process Server Services</Link> &mdash; Same-day and rush service for businesses throughout Tulsa County</li>
               <li><Link href="/skip-tracing" className="text-blue-600 hover:underline">Skip Tracing Services</Link> &mdash; Locate hard-to-find business owners, officers, and registered agents</li>
-              <li><Link href="/oklahoma-process-server-faq-2026" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ 2026</Link> &mdash; Answers to common questions about costs, timelines, and procedures</li>
+              <li><Link href="/oklahoma-process-server-faq" className="text-blue-600 hover:underline">Oklahoma Process Server FAQ 2026</Link> &mdash; Answers to common questions about costs, timelines, and procedures</li>
             </ul>
             <p>Serving legal papers on businesses requires attention to detail and knowledge of Oklahoma&apos;s specific requirements. At Just Legal Solutions, we specialize in business entity service throughout Oklahoma, including:</p>
             <ul>
@@ -431,7 +431,7 @@ export default function ServeBusinessCorporationOklahoma() {
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Skip Tracing Services</span>
                 <p className="text-sm text-gray-600 mt-1">Locate hard-to-find business owners, officers, and registered agents</p>
               </Link>
-              <Link href="/oklahoma-process-server-faq-2026" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+              <Link href="/oklahoma-process-server-faq" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
                 <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server FAQ 2026</span>
                 <p className="text-sm text-gray-600 mt-1">Answers to common questions about costs, timelines, and procedures</p>
               </Link>
