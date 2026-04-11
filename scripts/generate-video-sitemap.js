@@ -9,20 +9,32 @@ let ALL_VIDEOS = [];
 
 try {
   const content = fs.readFileSync(VIDEOS_PAGE_PATH, 'utf8');
-  
+
+  // Match videoId
   const idMatch = Array.from(content.matchAll(/videoId:\s*'([^']+)'/g));
-  const titleMatch = Array.from(content.matchAll(/title:\s*'([^']+(?:\\'[^']*)*)'/g));
-  // description can use double quotes or single quotes in code
-  const descMatch = Array.from(content.matchAll(/description:\s*(?:'([^']+(?:\\'[^']*)*)'|"([^"]+)")/g));
+  
+  // Match title - handle escaped apostrophes
+  const titleMatch = Array.from(content.matchAll(/title:\s*'((?:[^'\\]|\\.)*)'/g));
+  
+  // Match description - handle escaped apostrophes and double quotes
+  const descMatch = Array.from(content.matchAll(/description:\s*'((?:[^'\\]|\\.)*)'/g));
+  
+  // Match datePublished
   const dateMatch = Array.from(content.matchAll(/datePublished:\s*'([^']+)'/g));
 
   for(let i=0; i<idMatch.length; i++) {
       if (titleMatch[i] && descMatch[i] && dateMatch[i]) {
-        let desc = descMatch[i][1] || descMatch[i][2] || '';
+        let title = titleMatch[i][1].replace(/\\'/g, "'");
+        let desc = descMatch[i][1].replace(/\\'/g, "'");
+        
+        // XML-escape special characters
+        title = title.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;');
+        desc = desc.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;');
+        
         ALL_VIDEOS.push({
             videoId: idMatch[i][1],
-            title: titleMatch[i][1].replace(/\\'/g, "'").replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'),
-            description: desc.replace(/\\'/g, "'").replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'),
+            title: title,
+            description: desc,
             datePublished: dateMatch[i][1]
         });
       }
