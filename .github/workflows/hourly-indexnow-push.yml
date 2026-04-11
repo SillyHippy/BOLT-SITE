@@ -188,7 +188,7 @@ jobs:
           fi
           
           # Sitemap pings (lightweight, always do these)
-          curl -s "https://www.google.com/ping?sitemap=https://justlegalsolutions.org/sitemap.xml" > /dev/null || true
-          curl -s "https://www.bing.com/ping?sitemap=https://justlegalsolutions.org/sitemap.xml" > /dev/null || true
-          
-          echo "Done — sitemap pings sent to Google and Bing"
+          curl -s "https://www.google.com/ping?sitemap=https://justlegalsolutions.org/sitemap-index.xml" > /dev/null || true
+          curl -s "https://www.bing.com/ping?sitemap=https://justlegalsolutions.org/sitemap-index.xml" > /dev/null || true
+
+          echo "Done — sitemap pings sent to Google and Bing (via sitemap-index.xml)"

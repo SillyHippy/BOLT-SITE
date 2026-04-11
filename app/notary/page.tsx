@@ -58,7 +58,8 @@ export const metadata: Metadata = {
 
 const notaryServiceSchema = {
   "@context": "https://schema.org",
-  "@type": "NotaryService",
+  "@type": "ProfessionalService",
+  "@id": "https://justlegalsolutions.org/notary#service",
   "name": "Just Legal Solutions - Notary Services",
   "telephone": "(539) 367-6832",
   "email": "info@justlegalsolutions.org",

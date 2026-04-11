@@ -308,8 +308,13 @@ function generateSitemap() {
     '/oklahoma-courthouse-directory',
     '/join-our-network',
 
-    // Sitemap
-    '/sitemap',
+    // Video pages — individual URLs are in video-sitemap.xml, exclude from main sitemap
+    '/videos/*', // Individual video pages covered by video-sitemap.xml
+    '/videos/', // Trailing slash variant
+
+    // Sitemap files (don't list sitemap files inside sitemap)
+    '/sitemap-index',
+    '/video-sitemap',
   ];
 
   // Get URLs from existing files

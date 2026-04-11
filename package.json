@@ -11,7 +11,7 @@
     "lint": "next lint",
     "ai-optimize": "node scripts/run-ai-optimization.js",
     "prebuild": "node scripts/run-ai-optimization.js",
-    "postbuild": "node scripts/generate-sitemap.js",
+    "postbuild": "node scripts/generate-sitemap.js && node scripts/generate-video-sitemap.js",
     "postexport": "node scripts/verify-contact-info.js"
   },
   "dependencies": {

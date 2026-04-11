@@ -109,6 +109,7 @@ User-agent: ia_archiver
 Allow: /
 
 # ── Sitemaps ──────────────────────────────────────────────────────────────────
+Sitemap: https://justlegalsolutions.org/sitemap-index.xml
 Sitemap: https://justlegalsolutions.org/sitemap.xml
 Sitemap: https://justlegalsolutions.org/sitemap-images.xml
 Sitemap: https://justlegalsolutions.org/video-sitemap.xml

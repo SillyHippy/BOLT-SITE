@@ -217,8 +217,8 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
         'https://twitter.com/justlegalsol'
       ]
     },
-    // Map legacy aggregate rating
-    aggregateRating = props.reviewCount ? {
+    // Map legacy aggregate rating - ONLY include for location/home/service pages, NOT articles
+    aggregateRating = (props.reviewCount && (pageType === 'location' || pageType === 'home' || pageType === 'service')) ? {
       ratingValue: 4.9,
       reviewCount: props.reviewCount,
       bestRating: 5,
