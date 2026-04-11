@@ -6,7 +6,7 @@ import { Footer } from '@/components/ui/footer';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
-  title: 'Process Serving & Notary Videos — Oklahoma Legal Guides | Just Legal Solutions',
+  title: 'Process Serving & Notary Videos — Oklahoma Legal Guides',
   description:
     "Watch 42 free educational videos on Oklahoma process serving, notary services, skip tracing, pricing, and more from Joseph Iannazzi — Tulsa's #1 rated process server.",
   keywords:
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   authors: [{ name: 'Joseph Iannazzi' }],
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
-    title: 'Free Oklahoma Process Serving & Notary Video Guides | Just Legal Solutions',
+    title: 'Free Oklahoma Process Serving & Notary Video Guides',
     description:
       'Watch 42 step-by-step videos covering process serving, notary services, skip tracing, and pricing in Oklahoma.',
     url: 'https://justlegalsolutions.org/videos',
@@ -71,7 +71,7 @@ const featuredVideos: Video[] = [
   },
   {
     videoId: '4TeTwsMP3dw',
-    title: 'Free Process Server Tools & Resources for Oklahoma Servers | Just Legal Solutions',
+    title: 'Free Process Server Tools & Resources for Oklahoma Servers',
     description: 'Free tools, apps, and resources every Oklahoma process server should know about in 2026.',
     datePublished: '2026-04-01',
     duration: 'PT10M0S',
@@ -91,7 +91,7 @@ const featuredVideos: Video[] = [
   },
   {
     videoId: '7BxAu4S-q0k',
-    title: 'Federal Court Process Serving in Oklahoma — Different Rules You Need to Know | Just Legal Solutions',
+    title: 'Federal Court Process Serving in Oklahoma — Different Rules You Need to Know',
     description: 'Federal court process serving in Oklahoma follows different rules than state court. Learn what\'s required under FRCP Rule 4 and how we handle federal service.',
     datePublished: '2026-04-01',
     duration: 'PT11M0S',
@@ -101,7 +101,7 @@ const featuredVideos: Video[] = [
   },
   {
     videoId: 'Y-ATkdBkLsY',
-    title: 'Protective Order & Restraining Order Service in Oklahoma | Just Legal Solutions',
+    title: 'Protective Order & Restraining Order Service in Oklahoma',
     description: 'How protective orders and restraining orders are legally served in Oklahoma — VPO service, emergency orders, and documentation requirements.',
     datePublished: '2026-04-01',
     duration: 'PT10M0S',
@@ -111,7 +111,7 @@ const featuredVideos: Video[] = [
   },
   {
     videoId: 'iuSq5CGC07w',
-    title: 'Divorce & Family Law Process Serving in Oklahoma — Complete Guide | Just Legal Solutions',
+    title: 'Divorce & Family Law Process Serving in Oklahoma — Complete Guide',
     description: 'Complete guide to serving divorce papers and family law documents in Oklahoma — personal service, substituted service, and proof of service requirements.',
     datePublished: '2026-04-01',
     duration: 'PT13M0S',
@@ -141,7 +141,7 @@ const featuredVideos: Video[] = [
   },
   {
     videoId: '-C9XFE71nVU',
-    title: 'New Oklahoma Notary Laws 2026 — HB 2265 Changes Explained | Just Legal Solutions',
+    title: 'New Oklahoma Notary Laws 2026 — HB 2265 Changes Explained',
     description: 'What changed for Oklahoma notaries in 2026 under HB 2265 — new requirements, updated journal rules, and what notaries must do to stay compliant.',
     datePublished: '2026-04-01',
     duration: 'PT11M0S',
@@ -151,7 +151,7 @@ const featuredVideos: Video[] = [
   },
   {
     videoId: 'UTU0Xtpps3I',
-    title: 'How to Get an Apostille in Oklahoma — Step by Step Guide | Just Legal Solutions',
+    title: 'How to Get an Apostille in Oklahoma — Step by Step Guide',
     description: 'Step-by-step guide to obtaining an apostille in Oklahoma for international document use — what it is, who issues it, and how long it takes.',
     datePublished: '2026-04-01',
     duration: 'PT10M0S',
@@ -258,7 +258,7 @@ const fullVideos: Video[] = [
   },
   {
     videoId: 'NFAhglMUNqc',
-    title: 'Best Process Server in Tulsa, Oklahoma | Just Legal Solutions',
+    title: 'Best Process Server in Tulsa, Oklahoma',
     description:
       'Why Just Legal Solutions is Tulsa\'s top-rated process server — 156+ five-star reviews, GPS-tracked service, flat-rate pricing, and 24/7 emergency availability.',
     datePublished: '2026-03-15',

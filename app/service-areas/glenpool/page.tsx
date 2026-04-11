@@ -1,4 +1,4 @@
-import { Metadata } from 'next';
+﻿import { Metadata } from 'next';
 import Link from 'next/link';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, CheckCircle, Star, Calendar, FileText, Scale, AlertCircle } from 'lucide-react';
@@ -10,7 +10,7 @@ import Footer from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Process Server Glenpool, OK | Same-Day Service from $60 | Just Legal Solutions',
+  title: 'Process Server Glenpool, OK | Same-Day Service from $60',
   description:
     'Licensed process server in Glenpool, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
   keywords: 'process server glenpool, legal document service glenpool, serve papers glenpool, court documents glenpool, subpoena service glenpool, eviction notice glenpool, emergency process server glenpool, 24/7 process server oklahoma, licensed process server tulsa county, professional process server glenpool',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Process Server Glenpool, OK | Same-Day Service from $60 | Just Legal Solutions',
+    title: 'Process Server Glenpool, OK | Same-Day Service from $60',
     description:
     'Licensed process server in Glenpool, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     url: 'https://justlegalsolutions.org/service-areas/glenpool',
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Process Server Glenpool, OK | Same-Day Service from $60 | Just Legal Solutions',
+    title: 'Process Server Glenpool, OK | Same-Day Service from $60',
     description:
     'Licensed process server in Glenpool, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     images: ['https://justlegalsolutions.org/og-image.png'],
@@ -296,6 +296,126 @@ export default function GlenpoolProcessServer() {
             </div>
           </section>
 
+          {/* Where We Serve Papers in Glenpool */}
+          <section className="bg-white rounded-xl shadow-lg overflow-hidden mb-12">
+            <div className="p-6 bg-gradient-to-r from-indigo-600 to-indigo-700 text-white">
+              <h2 className="text-2xl font-bold mb-2">Where We Serve Papers in Glenpool</h2>
+              <p className="text-indigo-100">Local expertise across every Glenpool neighborhood</p>
+            </div>
+            <div className="p-8">
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-gray-50 p-5 rounded-lg">
+                  <h3 className="font-semibold text-lg text-gray-900 mb-2">Downtown Glenpool / Main Street Corridor</h3>
+                  <p className="text-gray-700 text-sm">
+                    The historic town center along <strong>Main Street</strong> (Highway 75) between 121st Street and 141st Street. Key landmarks: <strong>Glenpool City Hall</strong> (14205 South Elwood Avenue), <strong>Glenpool Conference Center</strong> (12205 South Yukon Avenue), and <strong>Black Gold Park</strong>. Older neighborhoods here have visible front porches and straightforward daytime access.
+                  </p>
+                </div>
+                <div className="bg-gray-50 p-5 rounded-lg">
+                  <h3 className="font-semibold text-lg text-gray-900 mb-2">Hunters Creek, Breckenridge &amp; South Glenpool</h3>
+                  <p className="text-gray-700 text-sm">
+                    Suburban residential development south of 141st Street and west of Elwood Avenue. <strong>Hunters Creek</strong> and <strong>Breckenridge</strong> are family neighborhoods with clear addressing and newer construction. Many residents commute to Tulsa or work in the nearby Glenpool industrial area.
+                  </p>
+                </div>
+                <div className="bg-gray-50 p-5 rounded-lg">
+                  <h3 className="font-semibold text-lg text-gray-900 mb-2">Riverside / East Glenpool</h3>
+                  <p className="text-gray-700 text-sm">
+                    Eastern Glenpool along the Arkansas River features a mix of residential subdivisions and rural properties. The <strong>River City Parks</strong> area and <strong>Glenpool High School</strong> (15100 South Elwood Avenue) anchor this side of town. East-west roads like 141st Street and 151st Street connect to Highway 75.
+                  </p>
+                </div>
+                <div className="bg-gray-50 p-5 rounded-lg">
+                  <h3 className="font-semibold text-lg text-gray-900 mb-2">Glenpool Industrial / Oil Capital Connection</h3>
+                  <p className="text-gray-700 text-sm">
+                    Light industrial and warehouse employers are concentrated along the south side of Highway 75 and near the <strong>Creek Turnpike</strong> interchange. These businesses employ Glenpool residents alongside commuters from Jenks, Bixby, and Tulsa. Workplace service is most effective during weekday business hours.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* Major Employers & Workplace Service in Glenpool */}
+          <section className="bg-white rounded-xl shadow-lg overflow-hidden mb-12">
+            <div className="p-6 bg-gradient-to-r from-emerald-600 to-emerald-700 text-white">
+              <h2 className="text-2xl font-bold mb-2">Major Employers &amp; Workplace Service in Glenpool</h2>
+              <p className="text-emerald-100">We serve at Glenpool&apos;s major employers efficiently</p>
+            </div>
+            <div className="p-8">
+              <div className="overflow-x-auto">
+                <table className="min-w-full text-sm text-left">
+                  <thead className="bg-gray-100 text-gray-900 font-semibold">
+                    <tr>
+                      <th className="px-4 py-3">Employer</th>
+                      <th className="px-4 py-3">Address</th>
+                      <th className="px-4 py-3">Industry</th>
+                      <th className="px-4 py-3">Service Notes</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-gray-200 bg-white">
+                    <tr>
+                      <td className="px-4 py-3 font-medium">Glenpool Public Schools</td>
+                      <td className="px-4 py-3">13800 South Elwood Avenue, Glenpool, OK 74033</td>
+                      <td className="px-4 py-3">Education</td>
+                      <td className="px-4 py-3">3,000+ students; admin at Education Service Center</td>
+                    </tr>
+                    <tr>
+                      <td className="px-4 py-3 font-medium">City of Glenpool</td>
+                      <td className="px-4 py-3">14205 South Elwood Avenue, Glenpool, OK 74033</td>
+                      <td className="px-4 py-3">Government</td>
+                      <td className="px-4 py-3">Municipal complex; city clerk</td>
+                    </tr>
+                    <tr>
+                      <td className="px-4 py-3 font-medium">Walmart Supercenter</td>
+                      <td className="px-4 py-3">20702 South Highway 75, Glenpool, OK 74033</td>
+                      <td className="px-4 py-3">Retail</td>
+                      <td className="px-4 py-3">200+ employees; management office inside</td>
+                    </tr>
+                    <tr>
+                      <td className="px-4 py-3 font-medium">Various Oil &amp; Gas Service Companies</td>
+                      <td className="px-4 py-3">Highway 75 and Creek Turnpike area</td>
+                      <td className="px-4 py-3">Energy</td>
+                      <td className="px-4 py-3">Multiple employers; field-service schedules</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </section>
+
+          {/* Glenpool-Specific FAQ */}
+          <section className="bg-white rounded-xl shadow-lg overflow-hidden mb-12">
+            <div className="p-6 bg-gradient-to-r from-amber-600 to-amber-700 text-white">
+              <h2 className="text-2xl font-bold mb-2">Glenpool-Specific Questions</h2>
+              <p className="text-amber-100">Answers to frequently asked questions about Glenpool service</p>
+            </div>
+            <div className="p-8">
+              <div className="space-y-6">
+                <div className="border-b border-gray-200 pb-5">
+                  <h3 className="font-semibold text-lg text-gray-800 mb-2">Q: Which courthouse do Glenpool cases file in?</h3>
+                  <p className="text-gray-600">
+                    Glenpool cases file in <strong>Tulsa County</strong> at the <strong>Tulsa County Courthouse</strong> (500 South Denver Avenue, Tulsa, OK 74103). Glenpool Municipal Court at 14205 South Elwood Avenue handles city ordinance violations only. All civil, family, and felony matters go through Tulsa County District Court.
+                  </p>
+                </div>
+                <div className="border-b border-gray-200 pb-5">
+                  <h3 className="font-semibold text-lg text-gray-800 mb-2">Q: Can you serve papers at Glenpool Public Schools?</h3>
+                  <p className="text-gray-600">
+                    Yes. The Glenpool Public Schools Education Service Center at 13800 South Elwood Avenue is the preferred location for workplace service involving district employees. Individual campus service is also possible, though the admin building streamlines the process for central office staff.
+                  </p>
+                </div>
+                <div className="border-b border-gray-200 pb-5">
+                  <h3 className="font-semibold text-lg text-gray-800 mb-2">Q: How do you handle rural addresses east of Glenpool near the Arkansas River?</h3>
+                  <p className="text-gray-600">
+                    Eastern Glenpool addresses along the Arkansas River and toward Morris may lack visible house numbers from the road. We use GPS coordinates, Tulsa County assessor data, and satellite imagery to locate properties before attempting service.
+                  </p>
+                </div>
+                <div>
+                  <h3 className="font-semibold text-lg text-gray-800 mb-2">Q: Is same-day service available in Glenpool?</h3>
+                  <p className="text-gray-600">
+                    Yes. Glenpool is within our standard Tulsa metro service area. We provide standard ($60), rush ($150), and same-day ($265) service throughout Glenpool ZIP code 74033.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
           {/* Emergency Contact Section */}
           <section className="bg-gradient-to-r from-red-600 to-red-700 text-white rounded-xl shadow-lg overflow-hidden mb-12">
             <div className="p-8 text-center">
@@ -332,7 +452,6 @@ export default function GlenpoolProcessServer() {
             <div className="p-8">
               <GoogleMapsEmbed 
                 countyName="Tulsa County"
-                cityName="Glenpool"
                 state="Oklahoma"
                 title="Glenpool Process Server Service Area"
               />
@@ -348,7 +467,7 @@ export default function GlenpoolProcessServer() {
             <div className="p-8">
               <div className="grid md:grid-cols-3 gap-6">
                 <div>
-                  <h3 className="font-bold text-gray-900 mb-4 text-lg">📍 Nearby Service Areas</h3>
+                  <h3 className="font-bold text-gray-900 mb-4 text-lg">ðŸ“ Nearby Service Areas</h3>
                   <ul className="space-y-2">
                     <li><Link href="/process-serving" className="text-blue-600 hover:text-blue-800 underline">process serving</Link>
                   <Link href="/tulsa-process-server" className="text-blue-600 hover:underline">Tulsa Process Server</Link></li>
@@ -361,7 +480,7 @@ export default function GlenpoolProcessServer() {
                 </div>
                 
                 <div>
-                  <h3 className="font-bold text-gray-900 mb-4 text-lg">📚 Helpful Guides</h3>
+                  <h3 className="font-bold text-gray-900 mb-4 text-lg">ðŸ“š Helpful Guides</h3>
                   <ul className="space-y-2">
                     <li><Link href="/oklahoma-process-server-faq" className="text-blue-600 hover:underline">Process Serving FAQ 2026</Link></li>
                     <li><Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma Process Server Laws</Link></li>
@@ -372,7 +491,7 @@ export default function GlenpoolProcessServer() {
                 </div>
                 
                 <div>
-                  <h3 className="font-bold text-gray-900 mb-4 text-lg">🏢 Our Services</h3>
+                  <h3 className="font-bold text-gray-900 mb-4 text-lg">ðŸ¢ Our Services</h3>
                   <ul className="space-y-2">
                     <li><Link href="/law-firm-services" className="text-blue-600 hover:underline">Law Firm Services</Link></li>
                     <li><Link href="/weekend-emergency" className="text-blue-600 hover:underline">Emergency Process Service</Link></li>
@@ -416,7 +535,7 @@ export default function GlenpoolProcessServer() {
               href="/service-areas"
               className="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold text-lg transition-colors"
             >
-              ← Browse All Oklahoma Service Areas
+              â† Browse All Oklahoma Service Areas
             </Link>
           </div>
         </div>

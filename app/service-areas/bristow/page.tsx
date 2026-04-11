@@ -1,4 +1,4 @@
-import { Metadata } from 'next';
+﻿import { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, CheckCircle, Star, Calendar, FileText, Scale, AlertCircle } from 'lucide-react';
 
@@ -8,7 +8,7 @@ import Footer from '@/components/ui/footer';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
-  title: 'Process Server Bristow, OK | Same-Day Service from $60 | Just Legal Solutions',
+  title: 'Process Server Bristow, OK | Same-Day Service from $60',
   description:
     'Licensed process server in Bristow, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
   keywords: 'process server bristow, legal document service bristow, serve papers bristow, court documents bristow, subpoena service bristow, eviction notice bristow, emergency process server bristow, 24/7 process server oklahoma, licensed process server creek county, professional process server bristow',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Process Server Bristow, OK | Same-Day Service from $60 | Just Legal Solutions',
+    title: 'Process Server Bristow, OK | Same-Day Service from $60',
     description:
     'Licensed process server in Bristow, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     url: 'https://justlegalsolutions.org/service-areas/bristow',
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Process Server Bristow, OK | Same-Day Service from $60 | Just Legal Solutions',
+    title: 'Process Server Bristow, OK | Same-Day Service from $60',
     description:
     'Licensed process server in Bristow, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     images: ['https://justlegalsolutions.org/og-image.png'],
@@ -319,7 +319,6 @@ export default function BristowProcessServer() {
             <div className="p-8">
               <GoogleMapsEmbed 
                 countyName="Creek County"
-                cityName="Bristow"
                 state="Oklahoma"
                 title="Bristow Process Server Service Area"
               />
@@ -357,7 +356,7 @@ export default function BristowProcessServer() {
               href="/service-areas"
               className="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold text-lg transition-colors"
             >
-              ← Browse All Oklahoma Service Areas
+              â† Browse All Oklahoma Service Areas
             </Link>
           </div>
         </div>

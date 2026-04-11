@@ -1,4 +1,4 @@
-import { Metadata } from 'next';
+﻿import { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, CheckCircle, Star, Calendar, FileText, Scale, AlertCircle } from 'lucide-react';
@@ -16,11 +16,11 @@ import {
 } from "@/components/ui/carousel";
 
 export const metadata: Metadata = {
-  title: 'Tulsa County Process Server, OK | From $60 | Just Legal Solutions',
+  title: 'Tulsa County Process Server, OK | From $60',
   description: 'Tulsa County process server serving Tulsa, Broken Arrow, Owasso, Bixby, Jenks, Sand Springs, Glenpool, Collinsville & all communities. Licensed, bonded. Same-day service. Call (539) 367-6832.',
   keywords: 'Tulsa County process server, process server Tulsa County, legal document service Tulsa County, court papers Oklahoma, Tulsa County courthouse, process serving Broken Arrow Owasso Bixby, skip tracing Tulsa County, licensed process server Oklahoma, process server near me Tulsa, Tulsa County process serving, legal papers delivery Tulsa, subpoena service Tulsa County, divorce papers service Tulsa, eviction notice service Oklahoma, civil litigation support Tulsa, process server 74101 74103 74104 74105 74106 74107, legal document delivery Broken Arrow, court filing Tulsa County courthouse, professional process server Oklahoma',
   openGraph: {
-    title: 'Tulsa County Process Server, OK | From $60 | Just Legal Solutions',
+    title: 'Tulsa County Process Server, OK | From $60',
   description: 'Tulsa County process server covering every city and town. Trusted by law firms, families, and businesses for reliable, local process serving.',
     url: 'https://justlegalsolutions.org/counties/tulsa-county',
     siteName: 'Just Legal Solutions',
@@ -35,8 +35,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Tulsa County Process Server, OK | From $60 | Just Legal Solutions',
-  description: 'Process serving in Tulsa County—covering all cities, suburbs, and rural areas with professional, prompt legal document delivery.',
+    title: 'Tulsa County Process Server, OK | From $60',
+  description: 'Process serving in Tulsa Countyâ€”covering all cities, suburbs, and rural areas with professional, prompt legal document delivery.',
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/counties/tulsa-county',
@@ -165,7 +165,7 @@ export default function TulsaCountyProcessServer() {
         pageType="location"
         url="https://justlegalsolutions.org/counties/tulsa-county"
         title="Tulsa County Process Server | All Cities & Towns"
-        description="Tulsa County's process server—serving Tulsa, Broken Arrow, Owasso, Bixby, Jenks, Sand Springs, Glenpool, Collinsville, and all communities. Fast, local legal document delivery for every need."
+        description="Tulsa County's process serverâ€”serving Tulsa, Broken Arrow, Owasso, Bixby, Jenks, Sand Springs, Glenpool, Collinsville, and all communities. Fast, local legal document delivery for every need."
         breadcrumbs={[
           { name: 'Home', item: 'https://justlegalsolutions.org/' },
           { name: 'Counties', item: 'https://justlegalsolutions.org/counties' },
@@ -202,7 +202,7 @@ export default function TulsaCountyProcessServer() {
                 Process Server{' '}<span className="text-yellow-400">Tulsa County, Oklahoma</span>
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-blue-100">
-                County-Wide Legal Document Service • All Cities & Towns • Professional Excellence
+                County-Wide Legal Document Service â€¢ All Cities & Towns â€¢ Professional Excellence
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
                 <Link 
@@ -351,13 +351,12 @@ export default function TulsaCountyProcessServer() {
             <div className="max-w-4xl mx-auto">
               <GoogleMapsEmbed 
                 countyName="Tulsa County"
-                cityName="Tulsa"
                 title="Tulsa County Process Server Service Area"
               />
             </div>
             <div className="text-center mt-8">
               <p className="text-gray-600">
-                <strong>Complete Coverage:</strong> Tulsa • Broken Arrow • Owasso • Bixby • Jenks • Sand Springs • Glenpool • Collinsville
+                <strong>Complete Coverage:</strong> Tulsa â€¢ Broken Arrow â€¢ Owasso â€¢ Bixby â€¢ Jenks â€¢ Sand Springs â€¢ Glenpool â€¢ Collinsville
               </p>
             </div>
           </div>
@@ -683,7 +682,7 @@ export default function TulsaCountyProcessServer() {
               </div>
               <div className="text-center mt-12">
                 <p className="text-2xl text-gray-200 font-medium leading-relaxed">
-                  From downtown Tulsa&apos;s corporate towers to rural county borders — complete professional coverage
+                  From downtown Tulsa&apos;s corporate towers to rural county borders â€” complete professional coverage
                 </p>
                 <div className="mt-6 flex justify-center gap-4">
                   <Link href="/contact" className="bg-yellow-500 hover:bg-yellow-400 text-black px-8 py-3 rounded-full font-bold transition-colors duration-300">
@@ -942,7 +941,7 @@ export default function TulsaCountyProcessServer() {
                 View Complete Pricing & Service Options
               </Link>
               <p className="text-sm text-gray-600 mt-4">
-                Transparent pricing • No hidden fees • Same professional standards county-wide
+                Transparent pricing â€¢ No hidden fees â€¢ Same professional standards county-wide
               </p>
             </div>
           </div>
@@ -1038,36 +1037,36 @@ export default function TulsaCountyProcessServer() {
                   <div className="flex justify-between items-center py-2 border-b">
                     <span className="text-gray-600">Same-Day Service</span>
                     <div className="flex gap-4">
-                      <span className="text-green-600 font-semibold">✓ Us</span>
-                      <span className="text-red-500">✗ Others</span>
+                      <span className="text-green-600 font-semibold">âœ“ Us</span>
+                      <span className="text-red-500">âœ— Others</span>
                     </div>
                   </div>
                   <div className="flex justify-between items-center py-2 border-b">
                     <span className="text-gray-600">GPS Tracking</span>
                     <div className="flex gap-4">
-                      <span className="text-green-600 font-semibold">✓ Us</span>
-                      <span className="text-red-500">✗ Others</span>
+                      <span className="text-green-600 font-semibold">âœ“ Us</span>
+                      <span className="text-red-500">âœ— Others</span>
                     </div>
                   </div>
                   <div className="flex justify-between items-center py-2 border-b">
                     <span className="text-gray-600">24/7 Availability</span>
                     <div className="flex gap-4">
-                      <span className="text-green-600 font-semibold">✓ Us</span>
-                      <span className="text-red-500">✗ Others</span>
+                      <span className="text-green-600 font-semibold">âœ“ Us</span>
+                      <span className="text-red-500">âœ— Others</span>
                     </div>
                   </div>
                   <div className="flex justify-between items-center py-2 border-b">
                     <span className="text-gray-600">Digital Affidavits</span>
                     <div className="flex gap-4">
-                      <span className="text-green-600 font-semibold">✓ Us</span>
-                      <span className="text-gray-500">△ Some</span>
+                      <span className="text-green-600 font-semibold">âœ“ Us</span>
+                      <span className="text-gray-500">â–³ Some</span>
                     </div>
                   </div>
                   <div className="flex justify-between items-center py-2">
                     <span className="text-gray-600">County-Wide Coverage</span>
                     <div className="flex gap-4">
-                      <span className="text-green-600 font-semibold">✓ Us</span>
-                      <span className="text-gray-500">△ Limited</span>
+                      <span className="text-green-600 font-semibold">âœ“ Us</span>
+                      <span className="text-gray-500">â–³ Limited</span>
                     </div>
                   </div>
                 </div>
@@ -1193,9 +1192,9 @@ export default function TulsaCountyProcessServer() {
                   Financial District
                 </h3>
                 <ul className="space-y-2 text-gray-700">
-                  <li>• Process server near Tulsa Financial District</li>
-                  <li>• Legal document delivery downtown Tulsa</li>
-                  <li>• Court papers served at major office buildings</li>
+                  <li>â€¢ Process server near Tulsa Financial District</li>
+                  <li>â€¢ Legal document delivery downtown Tulsa</li>
+                  <li>â€¢ Court papers served at major office buildings</li>
                 </ul>
               </div>
               
@@ -1205,9 +1204,9 @@ export default function TulsaCountyProcessServer() {
                   Event Venues
                 </h3>
                 <ul className="space-y-2 text-gray-700">
-                  <li>• Legal document delivery at Tulsa State Fairgrounds</li>
-                  <li>• Process serving at BOK Center events</li>
-                  <li>• Subpoena service at convention centers</li>
+                  <li>â€¢ Legal document delivery at Tulsa State Fairgrounds</li>
+                  <li>â€¢ Process serving at BOK Center events</li>
+                  <li>â€¢ Subpoena service at convention centers</li>
                 </ul>
               </div>
               
@@ -1217,9 +1216,9 @@ export default function TulsaCountyProcessServer() {
                   Neighborhood Hubs
                 </h3>
                 <ul className="space-y-2 text-gray-700">
-                  <li>• Subpoena service at Brookside Village</li>
-                  <li>• Same-day service in South Tulsa neighborhoods</li>
-                  <li>• Process serving Cherry Street District</li>
+                  <li>â€¢ Subpoena service at Brookside Village</li>
+                  <li>â€¢ Same-day service in South Tulsa neighborhoods</li>
+                  <li>â€¢ Process serving Cherry Street District</li>
                 </ul>
               </div>
               
@@ -1229,9 +1228,9 @@ export default function TulsaCountyProcessServer() {
                   Court Facilities
                 </h3>
                 <ul className="space-y-2 text-gray-700">
-                  <li>• Court papers served at Tulsa County Courthouse</li>
-                  <li>• Municipal court document delivery</li>
-                  <li>• Federal courthouse legal service</li>
+                  <li>â€¢ Court papers served at Tulsa County Courthouse</li>
+                  <li>â€¢ Municipal court document delivery</li>
+                  <li>â€¢ Federal courthouse legal service</li>
                 </ul>
               </div>
               
@@ -1241,9 +1240,9 @@ export default function TulsaCountyProcessServer() {
                   Community Areas
                 </h3>
                 <ul className="space-y-2 text-gray-700">
-                  <li>• Legal papers at Gathering Place</li>
-                  <li>• Document service at Arkansas River parks</li>
-                  <li>• Process serving residential communities</li>
+                  <li>â€¢ Legal papers at Gathering Place</li>
+                  <li>â€¢ Document service at Arkansas River parks</li>
+                  <li>â€¢ Process serving residential communities</li>
                 </ul>
               </div>
               
@@ -1253,9 +1252,9 @@ export default function TulsaCountyProcessServer() {
                   Urgent Service
                 </h3>
                 <ul className="space-y-2 text-gray-700">
-                  <li>• Emergency process server Tulsa County</li>
-                  <li>• Same-day legal document delivery</li>
-                  <li>• Rush service all Tulsa neighborhoods</li>
+                  <li>â€¢ Emergency process server Tulsa County</li>
+                  <li>â€¢ Same-day legal document delivery</li>
+                  <li>â€¢ Rush service all Tulsa neighborhoods</li>
                 </ul>
               </div>
             </div>
@@ -1267,7 +1266,7 @@ export default function TulsaCountyProcessServer() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl font-bold mb-8">Ready to Serve Your Legal Documents in Tulsa County?</h2>
             <p className="text-xl mb-8 text-blue-100">
-              Professional process serving throughout all cities and towns in Tulsa County • Licensed • Bonded • Insured
+              Professional process serving throughout all cities and towns in Tulsa County â€¢ Licensed â€¢ Bonded â€¢ Insured
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
               <a 
@@ -1348,7 +1347,7 @@ export default function TulsaCountyProcessServer() {
                     What are peak traffic times to avoid on I-244 serves?
                   </h4>
                   <p className="text-gray-700">
-                    Avoid 7–9 AM and 4–6 PM rush hours when scheduling serves along I-244 corridor. We plan routes strategically for optimal timing.
+                    Avoid 7â€“9 AM and 4â€“6 PM rush hours when scheduling serves along I-244 corridor. We plan routes strategically for optimal timing.
                   </p>
                 </div>
                 
@@ -1406,9 +1405,9 @@ export default function TulsaCountyProcessServer() {
                     Local Insights & Community Involvement
                   </h4>
                   <ul className="text-gray-700 space-y-2">
-                    <li>• Sponsor of Tulsa County Bar Association annual seminar—&ldquo;Process Serving Best Practices&rdquo;</li>
-                    <li>• Volunteer process-serving clinic for pro bono family-law cases at Legal Aid Services Tulsa</li>
-                    <li>• Host quarterly &ldquo;Meet Your Server&rdquo; webinars for Tulsa attorneys</li>
+                    <li>â€¢ Sponsor of Tulsa County Bar Association annual seminarâ€”&ldquo;Process Serving Best Practices&rdquo;</li>
+                    <li>â€¢ Volunteer process-serving clinic for pro bono family-law cases at Legal Aid Services Tulsa</li>
+                    <li>â€¢ Host quarterly &ldquo;Meet Your Server&rdquo; webinars for Tulsa attorneys</li>
                   </ul>
                 </div>
                 
@@ -1418,8 +1417,8 @@ export default function TulsaCountyProcessServer() {
                     Seasonal & Weather Considerations
                   </h4>
                   <div className="text-gray-700 space-y-2">
-                    <p><strong>Rainy Season (April–June):</strong> Allow extra travel time for river-lowland serves</p>
-                    <p><strong>Heat Advisory (July–August):</strong> Schedule morning serves in South Tulsa to beat midday heat</p>
+                    <p><strong>Rainy Season (Aprilâ€“June):</strong> Allow extra travel time for river-lowland serves</p>
+                    <p><strong>Heat Advisory (Julyâ€“August):</strong> Schedule morning serves in South Tulsa to beat midday heat</p>
                   </div>
                 </div>
               </div>
@@ -1470,7 +1469,7 @@ export default function TulsaCountyProcessServer() {
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-2">What&apos;s the best way to coordinate serves in Sand Springs?</h4>
                     <p className="text-gray-700 text-sm">
-                      Schedule between 10 AM–2 PM near Sand Springs Municipal Court (818 N Main St) when court staff is available to facilitate same-day affidavits.
+                      Schedule between 10 AMâ€“2 PM near Sand Springs Municipal Court (818 N Main St) when court staff is available to facilitate same-day affidavits.
                     </p>
                   </div>
                   <div>
@@ -1491,7 +1490,7 @@ export default function TulsaCountyProcessServer() {
                   Holiday Notice
                 </h4>
                 <p className="text-sm text-yellow-800">
-                  <strong>Thanksgiving & Christmas:</strong> Allow an extra 24 hours during major holidays—our 24/7 emergency line remains open.
+                  <strong>Thanksgiving & Christmas:</strong> Allow an extra 24 hours during major holidaysâ€”our 24/7 emergency line remains open.
                 </p>
               </div>
               
@@ -1501,7 +1500,7 @@ export default function TulsaCountyProcessServer() {
                   Summer Peak Season
                 </h4>
                 <p className="text-sm text-orange-800">
-                  <strong>June–August:</strong> Increased residential serves; schedule evening slots (5–8 PM) for best success.
+                  <strong>Juneâ€“August:</strong> Increased residential serves; schedule evening slots (5â€“8 PM) for best success.
                 </p>
               </div>
               
@@ -1511,10 +1510,10 @@ export default function TulsaCountyProcessServer() {
                   Trust & Credibility
                 </h4>
                 <div className="text-sm text-green-800 space-y-1">
-                  <p>• Licensed, bonded, insured (Bond #2000)</p>
-                  <p>• 24/7 emergency availability</p>
-                  <p>• GPS tracking & timestamped photos</p>
-                  <p>• 50+ years combined experience</p>
+                  <p>â€¢ Licensed, bonded, insured (Bond #2000)</p>
+                  <p>â€¢ 24/7 emergency availability</p>
+                  <p>â€¢ GPS tracking & timestamped photos</p>
+                  <p>â€¢ 50+ years combined experience</p>
                 </div>
               </div>
             </div>

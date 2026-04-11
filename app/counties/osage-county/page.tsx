@@ -1,4 +1,4 @@
-import { Metadata } from 'next';
+﻿import { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, CheckCircle, Star, Calendar, FileText, Scale, AlertCircle } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
@@ -8,12 +8,12 @@ import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Osage County Process Server, OK | From $60 | Just Legal Solutions',
-  description: 'Osage County’s process server—serving Pawhuska, Skiatook, Hominy, and all tribal and rural communities. Local expertise for legal document delivery, court papers, and urgent legal needs.',
+  title: 'Osage County Process Server, OK | From $60',
+  description: 'Osage Countyâ€™s process serverâ€”serving Pawhuska, Skiatook, Hominy, and all tribal and rural communities. Local expertise for legal document delivery, court papers, and urgent legal needs.',
   keywords: 'process server Osage County, legal document service Osage County, court papers Oklahoma, Pawhuska courthouse, process serving Pawhuska Skiatook, skip tracing Osage County',
   openGraph: {
-    title: 'Osage County Process Server, OK | From $60 | Just Legal Solutions',
-  description: 'Legal document service for every city and town in Osage County—trusted by attorneys, families, and businesses for reliable, local process serving.',
+    title: 'Osage County Process Server, OK | From $60',
+  description: 'Legal document service for every city and town in Osage Countyâ€”trusted by attorneys, families, and businesses for reliable, local process serving.',
     url: 'https://justlegalsolutions.org/counties/osage-county',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -27,8 +27,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Osage County Process Server, OK | From $60 | Just Legal Solutions',
-  description: 'Process serving in Osage County—covering Pawhuska, Skiatook, and rural areas with professional, prompt legal document delivery.',
+    title: 'Osage County Process Server, OK | From $60',
+  description: 'Process serving in Osage Countyâ€”covering Pawhuska, Skiatook, and rural areas with professional, prompt legal document delivery.',
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/counties/osage-county',
@@ -121,7 +121,7 @@ export default function OsageCountyProcessServer() {
                 Process Server{' '}<span className="text-yellow-400">Osage County, Oklahoma</span>
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-blue-100">
-                County-Wide Legal Document Service • All Cities & Towns • Professional Excellence
+                County-Wide Legal Document Service â€¢ All Cities & Towns â€¢ Professional Excellence
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
                 <Link 
@@ -206,7 +206,7 @@ export default function OsageCountyProcessServer() {
                   href="/service-areas/pawhuska"
                   className="text-blue-600 hover:text-blue-800 font-medium text-sm"
                 >
-                  Learn More →
+                  Learn More â†’
                 </Link>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
@@ -217,7 +217,7 @@ export default function OsageCountyProcessServer() {
                   href="/service-areas/skiatook"
                   className="text-blue-600 hover:text-blue-800 font-medium text-sm"
                 >
-                  Learn More →
+                  Learn More â†’
                 </Link>
               </div>
             </div>
@@ -229,7 +229,7 @@ export default function OsageCountyProcessServer() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl font-bold mb-8">Ready to Serve Your Legal Documents in Osage County?</h2>
             <p className="text-xl mb-8 text-blue-100">
-              Professional process serving throughout all cities and towns in Osage County • Licensed • Bonded • Insured
+              Professional process serving throughout all cities and towns in Osage County â€¢ Licensed â€¢ Bonded â€¢ Insured
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
               <a 
@@ -264,7 +264,7 @@ export default function OsageCountyProcessServer() {
                   className="block text-center hover:bg-green-100 transition-colors rounded-lg"
                 >
                   <div className="text-3xl font-bold text-green-900 mb-2">Pricing</div>
-                  <div className="text-gray-700">View All Rates →</div>
+                  <div className="text-gray-700">View All Rates â†’</div>
                 </Link>
               </div>
               <div className="bg-yellow-50 p-6 rounded-lg">
@@ -292,7 +292,6 @@ export default function OsageCountyProcessServer() {
             </div>
             <GoogleMapsEmbed 
               countyName="Osage County"
-              cityName="Pawhuska"
               state="Oklahoma"
               title="Osage County Process Server Coverage Area"
             />
@@ -444,7 +443,7 @@ export default function OsageCountyProcessServer() {
             <div className="bg-blue-900 text-white rounded-lg p-8">
               <h3 className="text-2xl font-bold mb-6">Ready to Serve Your Documents?</h3>
               <p className="text-blue-100 mb-6">
-                Licensed, bonded, and insured process serving throughout the county • Same-day service available
+                Licensed, bonded, and insured process serving throughout the county â€¢ Same-day service available
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a 

@@ -1,4 +1,4 @@
-import { Metadata } from 'next';
+﻿import { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, CheckCircle, Star, Calendar, FileText, Scale, AlertCircle } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
@@ -8,12 +8,12 @@ import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Rogers County Process Server, OK | From $60 | Just Legal Solutions',
-  description: 'Rogers County’s process server—serving Claremore, Catoosa, Verdigris, and all communities. Fast, local legal document delivery for families, businesses, and attorneys.',
+  title: 'Rogers County Process Server, OK | From $60',
+  description: 'Rogers Countyâ€™s process serverâ€”serving Claremore, Catoosa, Verdigris, and all communities. Fast, local legal document delivery for families, businesses, and attorneys.',
   keywords: 'process server Rogers County, legal document service Rogers County, court papers Oklahoma, Claremore courthouse, process serving Claremore Catoosa, skip tracing Rogers County',
   openGraph: {
-    title: 'Rogers County Process Server, OK | From $60 | Just Legal Solutions',
-  description: 'Legal document service for every city and town in Rogers County—trusted for reliability, speed, and local knowledge.',
+    title: 'Rogers County Process Server, OK | From $60',
+  description: 'Legal document service for every city and town in Rogers Countyâ€”trusted for reliability, speed, and local knowledge.',
     url: 'https://justlegalsolutions.org/counties/rogers-county',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -27,8 +27,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Rogers County Process Server, OK | From $60 | Just Legal Solutions',
-  description: 'Process serving in Rogers County—covering Claremore, Catoosa, and rural areas with professional, prompt legal document delivery.',
+    title: 'Rogers County Process Server, OK | From $60',
+  description: 'Process serving in Rogers Countyâ€”covering Claremore, Catoosa, and rural areas with professional, prompt legal document delivery.',
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/counties/rogers-county',
@@ -74,7 +74,7 @@ export default function RogersCountyProcessServer() {
       <UnifiedSchema
         pageType="service"
         pageTitle="Rogers County Process Server - Just Legal Solutions"
-        pageDescription="Rogers County's process server—serving Claremore, Catoosa, Verdigris, and all communities. Fast, local legal document delivery for families, businesses, and attorneys."
+        pageDescription="Rogers County's process serverâ€”serving Claremore, Catoosa, Verdigris, and all communities. Fast, local legal document delivery for families, businesses, and attorneys."
         pageUrl="https://justlegalsolutions.org/counties/rogers-county"
         siteName="Just Legal Solutions"
         organizationName="Just Legal Solutions"
@@ -121,7 +121,7 @@ export default function RogersCountyProcessServer() {
                 Process Server{' '}<span className="text-yellow-400">Rogers County, Oklahoma</span>
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-blue-100">
-                County-Wide Legal Document Service • All Cities & Towns • Professional Excellence
+                County-Wide Legal Document Service â€¢ All Cities & Towns â€¢ Professional Excellence
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
                 <Link 
@@ -206,7 +206,7 @@ export default function RogersCountyProcessServer() {
                   href="/service-areas/claremore"
                   className="text-blue-600 hover:text-blue-800 font-medium text-sm"
                 >
-                  Learn More →
+                  Learn More â†’
                 </Link>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
@@ -217,7 +217,7 @@ export default function RogersCountyProcessServer() {
                   href="/service-areas/catoosa"
                   className="text-blue-600 hover:text-blue-800 font-medium text-sm"
                 >
-                  Learn More →
+                  Learn More â†’
                 </Link>
               </div>
             </div>
@@ -229,7 +229,7 @@ export default function RogersCountyProcessServer() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl font-bold mb-8">Ready to Serve Your Legal Documents in Rogers County?</h2>
             <p className="text-xl mb-8 text-blue-100">
-              Professional process serving throughout all cities and towns in Rogers County • Licensed • Bonded • Insured
+              Professional process serving throughout all cities and towns in Rogers County â€¢ Licensed â€¢ Bonded â€¢ Insured
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
               <a 
@@ -264,7 +264,7 @@ export default function RogersCountyProcessServer() {
                   className="block text-center hover:bg-green-100 transition-colors rounded-lg"
                 >
                   <div className="text-3xl font-bold text-green-900 mb-2">Pricing</div>
-                  <div className="text-gray-700">View All Rates →</div>
+                  <div className="text-gray-700">View All Rates â†’</div>
                 </Link>
               </div>
               <div className="bg-yellow-50 p-6 rounded-lg">
@@ -292,7 +292,6 @@ export default function RogersCountyProcessServer() {
             </div>
             <GoogleMapsEmbed 
               countyName="Rogers County"
-              cityName="Claremore"
               state="Oklahoma"
               title="Rogers County Process Server Coverage Area"
             />
@@ -444,7 +443,7 @@ export default function RogersCountyProcessServer() {
             <div className="bg-blue-900 text-white rounded-lg p-8">
               <h3 className="text-2xl font-bold mb-6">Ready to Serve Your Documents?</h3>
               <p className="text-blue-100 mb-6">
-                Licensed, bonded, and insured process serving throughout the county • Same-day service available
+                Licensed, bonded, and insured process serving throughout the county â€¢ Same-day service available
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a 

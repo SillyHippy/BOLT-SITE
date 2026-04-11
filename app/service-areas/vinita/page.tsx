@@ -1,4 +1,4 @@
-import { Metadata } from 'next';
+﻿import { Metadata } from 'next';
 import Link from 'next/link';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, CheckCircle, Star, Calendar, FileText, Scale, AlertCircle } from 'lucide-react';
@@ -8,7 +8,7 @@ import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Process Server Vinita, OK | Same-Day Service from $60 | Just Legal Solutions',
+  title: 'Process Server Vinita, OK | Same-Day Service from $60',
   description:
     'Licensed process server in Vinita, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
   keywords: 'process server vinita, vinita process server, legal document service vinita, serve papers vinita, court documents vinita, subpoena service vinita, eviction notice vinita, emergency process server vinita, craig county process server, grand lake process server, licensed process server craig county, professional process server vinita oklahoma',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Process Server Vinita, OK | Same-Day Service from $60 | Just Legal Solutions',
+    title: 'Process Server Vinita, OK | Same-Day Service from $60',
     description:
     'Licensed process server in Vinita, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     url: 'https://justlegalsolutions.org/service-areas/vinita',
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Process Server Vinita, OK | Same-Day Service from $60 | Just Legal Solutions',
+    title: 'Process Server Vinita, OK | Same-Day Service from $60',
     description:
     'Licensed process server in Vinita, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     images: ['https://justlegalsolutions.org/og-image.png'],
@@ -100,7 +100,7 @@ const vinitaFAQs = [
   },
   {
     question: "Do you provide skip tracing services in Vinita?",
-    answer: "Yes, we offer professional skip tracing services in Vinita and Craig County. Our advanced skip tracing helps locate individuals when standard address information is outdated or insufficient—particularly useful in rural areas with limited public records."
+    answer: "Yes, we offer professional skip tracing services in Vinita and Craig County. Our advanced skip tracing helps locate individuals when standard address information is outdated or insufficientâ€”particularly useful in rural areas with limited public records."
   }
 ];
 
@@ -223,7 +223,7 @@ export default function VinitaProcessServer() {
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
                   <p className="text-gray-700 mb-4">
-                    Vinita is the county seat of Craig County and sits at the crossroads of US-60 and US-69 in northeast Oklahoma. As a gateway to the Grand Lake region, the area sees a steady mix of permanent residents, seasonal lake-goers, and business travelers—all of whom may need reliable legal document delivery at some point.
+                    Vinita is the county seat of Craig County and sits at the crossroads of US-60 and US-69 in northeast Oklahoma. As a gateway to the Grand Lake region, the area sees a steady mix of permanent residents, seasonal lake-goers, and business travelersâ€”all of whom may need reliable legal document delivery at some point.
                   </p>
                   <p className="text-gray-700 mb-4">
                     Our process servers understand the unique geography of Craig County, from the rural farmland surrounding Vinita to the lakefront properties along Grand Lake O&apos; the Cherokees. We know local roads, seasonal access issues, and the Craig County Courthouse filing procedures inside and out.
@@ -308,7 +308,7 @@ export default function VinitaProcessServer() {
                     Grand Lake O&apos; the Cherokees draws thousands of seasonal residents to Craig County every year. Many property disputes, HOA conflicts, and landlord-tenant issues arise in lake communities where individuals may only be present part of the year. Our process servers are experienced with the timing challenges of serving seasonal lake residents and can coordinate attempts around known occupancy windows.
                   </p>
                   <p className="text-gray-700">
-                    We also handle service at marinas, campgrounds, and resort properties in the greater Grand Lake area—always with the professionalism and discretion that sensitive legal matters require.
+                    We also handle service at marinas, campgrounds, and resort properties in the greater Grand Lake areaâ€”always with the professionalism and discretion that sensitive legal matters require.
                   </p>
                 </div>
                 <div>
@@ -378,7 +378,6 @@ export default function VinitaProcessServer() {
             <div className="p-8">
               <GoogleMapsEmbed 
                 countyName="Craig County"
-                cityName="Vinita"
                 state="Oklahoma"
                 title="Vinita Process Server Service Area"
               />
@@ -461,7 +460,7 @@ export default function VinitaProcessServer() {
               href="/service-areas"
               className="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold text-lg transition-colors"
             >
-              ← Browse All Oklahoma Service Areas
+              â† Browse All Oklahoma Service Areas
             </Link>
           </div>
         </div>

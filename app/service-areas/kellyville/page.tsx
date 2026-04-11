@@ -1,4 +1,4 @@
-import { Metadata } from 'next';
+﻿import { Metadata } from 'next';
 import Link from 'next/link';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
@@ -12,7 +12,7 @@ import { Footer } from '@/components/ui/footer';
 import GoogleMapsEmbed from '@/components/ui/google-maps-embed';
 
 export const metadata: Metadata = {
-  title: 'Process Server Kellyville, OK | Same-Day Service from $60 | Just Legal Solutions',
+  title: 'Process Server Kellyville, OK | Same-Day Service from $60',
   description:
     'Licensed process server in Kellyville, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
   keywords: 'process server kellyville, legal document service kellyville, serve papers kellyville, court documents kellyville, subpoena service kellyville, eviction notice kellyville, emergency process server kellyville, 24/7 process server oklahoma, licensed process server creek county, professional process server kellyville',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Process Server Kellyville, OK | Same-Day Service from $60 | Just Legal Solutions',
+    title: 'Process Server Kellyville, OK | Same-Day Service from $60',
     description:
     'Licensed process server in Kellyville, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     url: 'https://justlegalsolutions.org/service-areas/kellyville',
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Process Server Kellyville, OK | Same-Day Service from $60 | Just Legal Solutions',
+    title: 'Process Server Kellyville, OK | Same-Day Service from $60',
     description:
     'Licensed process server in Kellyville, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     images: ['https://justlegalsolutions.org/og-image.png'],
@@ -263,28 +263,28 @@ export default function KellyvilleProcessServer() {
                 <div>
                   <h3 className="font-semibold text-lg mb-3 text-gray-800">Central Kellyville</h3>
                   <ul className="space-y-2 text-gray-600">
-                    <li>• Downtown Kellyville</li>
-                    <li>• Main Street Area</li>
-                    <li>• Kellyville Public Schools</li>
-                    <li>• City Center</li>
+                    <li>â€¢ Downtown Kellyville</li>
+                    <li>â€¢ Main Street Area</li>
+                    <li>â€¢ Kellyville Public Schools</li>
+                    <li>â€¢ City Center</li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="font-semibold text-lg mb-3 text-gray-800">Residential Areas</h3>
                   <ul className="space-y-2 text-gray-600">
-                    <li>• Residential Neighborhoods</li>
-                    <li>• Rural Routes</li>
-                    <li>• Suburban Areas</li>
-                    <li>• Country Properties</li>
+                    <li>â€¢ Residential Neighborhoods</li>
+                    <li>â€¢ Rural Routes</li>
+                    <li>â€¢ Suburban Areas</li>
+                    <li>â€¢ Country Properties</li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="font-semibold text-lg mb-3 text-gray-800">Creek County</h3>
                   <ul className="space-y-2 text-gray-600">
-                    <li>• Sapulpa (nearby)</li>
-                    <li>• Bristow (nearby)</li>
-                    <li>• All Creek County</li>
-                    <li>• Surrounding Counties</li>
+                    <li>â€¢ Sapulpa (nearby)</li>
+                    <li>â€¢ Bristow (nearby)</li>
+                    <li>â€¢ All Creek County</li>
+                    <li>â€¢ Surrounding Counties</li>
                   </ul>
                 </div>
               </div>
@@ -345,7 +345,6 @@ export default function KellyvilleProcessServer() {
             <div className="p-8">
               <GoogleMapsEmbed 
                 countyName="Creek County"
-                cityName="Kellyville"
                 state="Oklahoma"
                 title="Kellyville Process Server Service Area"
               />
@@ -383,7 +382,7 @@ export default function KellyvilleProcessServer() {
               href="/service-areas"
               className="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold text-lg transition-colors"
             >
-              ← Browse All Oklahoma Service Areas
+              â† Browse All Oklahoma Service Areas
             </Link>
           </div>
         </div>

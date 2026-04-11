@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   keywords: 'oklahoma courthouse directory, oklahoma county courthouse addresses, oklahoma court filing info, tulsa county courthouse, oklahoma district court directory, all 77 oklahoma counties court',
   alternates: { canonical: 'https://justlegalsolutions.org/oklahoma-courthouse-directory' },
   openGraph: {
-    title: 'Oklahoma Courthouse Directory — All 77 Counties | Just Legal Solutions',
+    title: 'Oklahoma Courthouse Directory — All 77 Counties',
     description: 'Complete directory of all 77 Oklahoma county courthouses. Addresses, phone numbers, hours, and OSCN links.',
     url: 'https://justlegalsolutions.org/oklahoma-courthouse-directory',
     siteName: 'Just Legal Solutions',

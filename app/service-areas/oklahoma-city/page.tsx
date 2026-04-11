@@ -5,12 +5,12 @@ import JsonLd from '@/components/JsonLd';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Process Server Oklahoma City, OK | Same-Day Service from $60 | Just Legal Solutions',
+  title: 'Process Server Oklahoma City, OK | Same-Day Service from $60',
   description:
     'Licensed process server in Oklahoma City, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
   keywords: 'process server oklahoma city, OKC process serving, oklahoma city process server, oklahoma county process serving, serve papers OKC, process server OKC, licensed process server Oklahoma County',
   openGraph: {
-    title: 'Process Server Oklahoma City, OK | Same-Day Service from $60 | Just Legal Solutions',
+    title: 'Process Server Oklahoma City, OK | Same-Day Service from $60',
     description:
     'Licensed process server in Oklahoma City, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     type: 'website',

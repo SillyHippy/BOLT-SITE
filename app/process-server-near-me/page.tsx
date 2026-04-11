@@ -3,7 +3,7 @@ import Link from 'next/link';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
-  title: 'Process Server Near Me — Tulsa, Broken Arrow & All 77 OK Counties | Just Legal Solutions',
+  title: 'Process Server Near Me — Tulsa, Broken Arrow & All 77 OK Counties',
   description: 'Find a licensed process server near you in Oklahoma. Same-day service from $60. Tulsa, Broken Arrow, OKC & all 77 counties. GPS-tracked. Call (539) 367-6832.',
   keywords: 'process server near me, process server near me oklahoma, process server tulsa ok, local process server, find process server, oklahoma process server, process serving near me',
   alternates: { canonical: 'https://justlegalsolutions.org/process-server-near-me' },

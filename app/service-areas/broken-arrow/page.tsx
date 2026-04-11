@@ -1,4 +1,4 @@
-import { Metadata } from 'next';
+﻿import { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, CheckCircle, Star, Calendar, FileText, Scale, AlertCircle } from 'lucide-react';
@@ -9,7 +9,7 @@ import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Process Server Broken Arrow, OK | Same-Day Service from $60 | Just Legal Solutions',
+  title: 'Process Server Broken Arrow, OK | Same-Day Service from $60',
   description:
     'Licensed process server in Broken Arrow, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
   keywords: 'process server broken arrow, broken arrow process server, legal document service broken arrow, serve papers broken arrow, court documents broken arrow, subpoena service broken arrow, eviction notice broken arrow, emergency process server broken arrow, 24/7 process server oklahoma, licensed process server tulsa county, wagoner county process server, professional process server broken arrow 2026',
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Process Server Broken Arrow, OK | Same-Day Service from $60 | Just Legal Solutions',
+    title: 'Process Server Broken Arrow, OK | Same-Day Service from $60',
     description:
     'Licensed process server in Broken Arrow, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     url: 'https://justlegalsolutions.org/service-areas/broken-arrow',
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Process Server Broken Arrow, OK | Same-Day Service from $60 | Just Legal Solutions',
+    title: 'Process Server Broken Arrow, OK | Same-Day Service from $60',
     description:
     'Licensed process server in Broken Arrow, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     images: ['https://justlegalsolutions.org/og-image.png'],
@@ -402,7 +402,7 @@ export default function BrokenArrowProcessServer() {
                   <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
                     <div className="flex items-center mb-4">
                       <div className="flex text-yellow-400">
-                        <span>★★★★★</span>
+                        <span>â˜…â˜…â˜…â˜…â˜…</span>
                       </div>
                       <div itemProp="reviewRating" itemScope={true} itemType="https://schema.org/Rating">
                         <meta itemProp="ratingValue" content="5" />
@@ -450,7 +450,7 @@ export default function BrokenArrowProcessServer() {
                   <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
                     <div className="flex items-center mb-4">
                       <div className="flex text-yellow-400">
-                        <span>★★★★★</span>
+                        <span>â˜…â˜…â˜…â˜…â˜…</span>
                       </div>
                       <div itemProp="reviewRating" itemScope={true} itemType="https://schema.org/Rating">
                         <meta itemProp="ratingValue" content="5" />
@@ -484,7 +484,7 @@ export default function BrokenArrowProcessServer() {
                   <h3 className="text-lg font-semibold mb-2">Eviction Services</h3>
                   <p className="text-gray-600 mb-4">Specialized eviction notice service for Broken Arrow landlords and property managers.</p>
                   <Link href="/seo/eviction-notice-process-server" className="text-blue-600 hover:text-blue-800 underline">
-                    Learn About Eviction Services →
+                    Learn About Eviction Services â†’
                   </Link>
                 </div>
                 
@@ -493,7 +493,7 @@ export default function BrokenArrowProcessServer() {
                   <h3 className="text-lg font-semibold mb-2">Legal Resources</h3>
                   <p className="text-gray-600 mb-4">Comprehensive guides on Oklahoma process serving laws and procedures.</p>
                   <Link href="/resources" className="text-blue-600 hover:text-blue-800 underline">
-                    View Legal Resources →
+                    View Legal Resources â†’
                   </Link>
                 </div>
                 
@@ -502,7 +502,7 @@ export default function BrokenArrowProcessServer() {
                   <h3 className="text-lg font-semibold mb-2">Tulsa County Service</h3>
                   <p className="text-gray-600 mb-4">Complete process serving throughout all of Tulsa County and surrounding areas.</p>
                   <Link href="/counties/tulsa-county" className="text-blue-600 hover:text-blue-800 underline">
-                    View County Coverage →
+                    View County Coverage â†’
                   </Link>
                 </div>
               </div>
@@ -544,14 +544,14 @@ export default function BrokenArrowProcessServer() {
                   <div className="bg-white p-6 rounded-lg shadow-md">
                     <Building2 className="w-8 h-8 text-green-600 mb-4" />
                     <h4 className="text-lg font-semibold mb-2 text-green-900">Broken Arrow Chamber of Commerce</h4>
-                    <p className="text-sm text-gray-600 mb-3">210 N Main St – Suite C, Broken Arrow, OK 74012</p>
+                    <p className="text-sm text-gray-600 mb-3">210 N Main St â€“ Suite C, Broken Arrow, OK 74012</p>
                     <p className="text-gray-700">As a trusted partner of the Broken Arrow Chamber of Commerce, we deliver corporate filings, commercial-lease documents, and litigation papers directly in the Chamber district.</p>
                   </div>
                   <div className="bg-white p-6 rounded-lg shadow-md">
                     <Building2 className="w-8 h-8 text-purple-600 mb-4" />
                     <h4 className="text-lg font-semibold mb-2 text-purple-900">Broken Arrow Business Center</h4>
                     <p className="text-sm text-gray-600 mb-3">2136 W Albany St, Broken Arrow, OK 74012</p>
-                    <p className="text-gray-700">Serving business-park and office-space rentals at the Broken Arrow Business Center—document filing solutions for local entrepreneurs and startups.</p>
+                    <p className="text-gray-700">Serving business-park and office-space rentals at the Broken Arrow Business Centerâ€”document filing solutions for local entrepreneurs and startups.</p>
                   </div>
                 </div>
               </div>
@@ -600,7 +600,7 @@ export default function BrokenArrowProcessServer() {
                     <p className="text-gray-700">Process server near Broken Arrow Brewing Company. Legal document delivery in the Rose District with same-day service for downtown businesses.</p>
                     <div className="mt-4 text-center">
                       <Link href="https://www.brokenarrowbrewingco.com/" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:text-blue-800 underline text-sm">
-                        Visit Brewery Website →
+                        Visit Brewery Website â†’
                       </Link>
                     </div>
                   </div>
@@ -614,7 +614,7 @@ export default function BrokenArrowProcessServer() {
                   <Scale className="w-8 h-8 text-blue-600 mb-4" />
                   <h4 className="text-lg font-semibold mb-2 text-blue-900">Broken Arrow Public Schools District Office</h4>
                   <p className="text-sm text-gray-600 mb-3">701 S Main St, Broken Arrow, OK 74012</p>
-                  <p className="text-gray-700">We handle school-related filings—child-custody papers, safety-plan petitions, and subpoenas—at the Broken Arrow Public Schools district office.</p>
+                  <p className="text-gray-700">We handle school-related filingsâ€”child-custody papers, safety-plan petitions, and subpoenasâ€”at the Broken Arrow Public Schools district office.</p>
                 </div>
               </div>
 
@@ -647,31 +647,31 @@ export default function BrokenArrowProcessServer() {
                   <div>
                     <h4 className="font-semibold mb-3 text-blue-200">Historic & Cultural</h4>
                     <ul className="space-y-1 text-blue-100">
-                      <li>• Rose District (Historic Downtown)</li>
-                      <li>• Broken Arrow Brewing Company (333 W Dallas St)</li>
-                      <li>• The Museum Broken Arrow (400 S Main St)</li>
-                      <li>• Route 66 Tulsa Admiral Landmark (N Mingo Rd)</li>
-                      <li>• Tulsa Aviator&apos;s Arrow (E Haskell St)</li>
+                      <li>â€¢ Rose District (Historic Downtown)</li>
+                      <li>â€¢ Broken Arrow Brewing Company (333 W Dallas St)</li>
+                      <li>â€¢ The Museum Broken Arrow (400 S Main St)</li>
+                      <li>â€¢ Route 66 Tulsa Admiral Landmark (N Mingo Rd)</li>
+                      <li>â€¢ Tulsa Aviator&apos;s Arrow (E Haskell St)</li>
                     </ul>
                   </div>
                   <div>
                     <h4 className="font-semibold mb-3 text-blue-200">Business & Education</h4>
                     <ul className="space-y-1 text-blue-100">
-                      <li>• Broken Arrow Chamber of Commerce (210 N Main St C)</li>
-                      <li>• Broken Arrow Business Center (2136 W Albany St)</li>
-                      <li>• Broken Arrow Public Schools (701 S Main St)</li>
-                      <li>• Main Street Law Offices</li>
-                      <li>• Family Court Services locations</li>
+                      <li>â€¢ Broken Arrow Chamber of Commerce (210 N Main St C)</li>
+                      <li>â€¢ Broken Arrow Business Center (2136 W Albany St)</li>
+                      <li>â€¢ Broken Arrow Public Schools (701 S Main St)</li>
+                      <li>â€¢ Main Street Law Offices</li>
+                      <li>â€¢ Family Court Services locations</li>
                     </ul>
                   </div>
                   <div>
                     <h4 className="font-semibold mb-3 text-blue-200">Residential & Legal</h4>
                     <ul className="space-y-1 text-blue-100">
-                      <li>• Forest Ridge Estates, Arrow Springs, Aspen Creek</li>
-                      <li>• New Orleans Park, Indian Springs</li>
-                      <li>• Tulsa County Courthouse</li>
-                      <li>• Broken Arrow Municipal Court</li>
-                      <li>• All gated communities & neighborhoods</li>
+                      <li>â€¢ Forest Ridge Estates, Arrow Springs, Aspen Creek</li>
+                      <li>â€¢ New Orleans Park, Indian Springs</li>
+                      <li>â€¢ Tulsa County Courthouse</li>
+                      <li>â€¢ Broken Arrow Municipal Court</li>
+                      <li>â€¢ All gated communities & neighborhoods</li>
                     </ul>
                   </div>
                 </div>
@@ -742,7 +742,7 @@ export default function BrokenArrowProcessServer() {
                     For comprehensive guides on Oklahoma process serving laws, court procedures, and legal document requirements, visit our legal resources section.
                   </p>
                   <Link href="/resources" className="text-blue-600 hover:text-blue-800 underline font-semibold">
-                    View Legal Resources & Guides →
+                    View Legal Resources & Guides â†’
                   </Link>
                 </div>
               </div>
@@ -913,11 +913,11 @@ export default function BrokenArrowProcessServer() {
                     },
                     {
                       question: "What's the best time to serve on weekdays near Main Street law offices?",
-                      answer: "For service near the Main Street legal corridor—between New Orleans Park Rd and Houston St—we recommend scheduling between 10 AM–11 AM or 2 PM–4 PM. These windows align with attorney break periods and minimize missed attempts."
+                      answer: "For service near the Main Street legal corridorâ€”between New Orleans Park Rd and Houston Stâ€”we recommend scheduling between 10 AMâ€“11 AM or 2 PMâ€“4 PM. These windows align with attorney break periods and minimize missed attempts."
                     },
                     {
                       question: "Can you serve documents at the Rose District Coffee House?",
-                      answer: "Absolutely. We offer onsite service at Rose District Coffee (106 N Main St). Specify the café location and we'll deliver affidavits with photo proof inside or just outside the coffee house."
+                      answer: "Absolutely. We offer onsite service at Rose District Coffee (106 N Main St). Specify the cafÃ© location and we'll deliver affidavits with photo proof inside or just outside the coffee house."
                     },
                     {
                       question: "Do you provide service at Broken Arrow's annual Art & Wine Festival?",
@@ -933,7 +933,7 @@ export default function BrokenArrowProcessServer() {
                     },
                     {
                       question: "What is the process for serving documents at Broken Arrow Brewing Company?",
-                      answer: "We deliver affidavits at Broken Arrow Brewing Company (333 W Dallas St) during non–peak customer hours. GPS tracking and timestamped photo proof are provided for each serve."
+                      answer: "We deliver affidavits at Broken Arrow Brewing Company (333 W Dallas St) during nonâ€“peak customer hours. GPS tracking and timestamped photo proof are provided for each serve."
                     },
                     {
                       question: "Do you handle service at Broken Arrow Chamber of Commerce events?",
@@ -962,7 +962,6 @@ export default function BrokenArrowProcessServer() {
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <GoogleMapsEmbed
                   countyName="Tulsa County"
-                  cityName="Broken Arrow"
                   state="Oklahoma"
                   title="Broken Arrow Process Server Service Area Map"
                 />
@@ -997,7 +996,7 @@ export default function BrokenArrowProcessServer() {
                     &ldquo;Just Legal Solutions has been our go-to process server for all Broken Arrow cases. Their knowledge of the local area and professional service is unmatched. They always get the job done quickly and correctly.&rdquo;
                   </blockquote>
                   <cite className="text-blue-600 font-semibold">
-                    — Local Broken Arrow Law Firm
+                    â€” Local Broken Arrow Law Firm
                   </cite>
                 </div>
                 <div className="bg-white p-6 rounded-lg shadow-md">
@@ -1013,7 +1012,7 @@ export default function BrokenArrowProcessServer() {
                     &ldquo;Needed emergency service on a weekend in the Rose District. They responded immediately and completed service the same day. Professional, reliable, and reasonably priced.&rdquo;
                   </blockquote>
                   <cite className="text-blue-600 font-semibold">
-                    — Broken Arrow Business Owner
+                    â€” Broken Arrow Business Owner
                   </cite>
                 </div>
               </div>
@@ -1054,7 +1053,7 @@ export default function BrokenArrowProcessServer() {
               
               {/* Emergency Service Highlight */}
               <div className="bg-red-700 p-4 rounded-lg mb-6">
-                <h3 className="text-lg font-bold text-yellow-300 mb-2">🚨 Need Emergency Service?</h3>
+                <h3 className="text-lg font-bold text-yellow-300 mb-2">ðŸš¨ Need Emergency Service?</h3>
                 <p className="text-red-100">
                   Available 24/7 for urgent legal document service in Broken Arrow - weekends, holidays, and same-day service
                 </p>
@@ -1084,7 +1083,7 @@ export default function BrokenArrowProcessServer() {
               href="/service-areas"
               className="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold text-lg transition-colors"
             >
-              ← Browse All Oklahoma Service Areas
+              â† Browse All Oklahoma Service Areas
             </Link>
           </div>
 

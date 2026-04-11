@@ -7,7 +7,7 @@ import { BookOpen } from 'lucide-react';
 import { AuthorBox } from '@/components/ui/author-box';
 
 export const metadata: Metadata = {
-  title: 'Legal Glossary for Process Serving | Just Legal Solutions',
+  title: 'Legal Glossary for Process Serving',
   description: 'A comprehensive legal glossary of terms related to process serving, lawsuits, and the Oklahoma legal system.',
   alternates: { canonical: 'https://justlegalsolutions.org/legal-glossary' },
 };

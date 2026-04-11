@@ -7,7 +7,7 @@ import { Shield, Clock, MapPin, Users, Mail, Compass } from 'lucide-react';
 import { AuthorBox } from '@/components/ui/author-box';
 
 export const metadata: Metadata = {
-  title: 'Types of Service of Process in Oklahoma | Just Legal Solutions',
+  title: 'Types of Service of Process in Oklahoma',
   description: 'Understand the different types of service of process in Oklahoma, including personal service, substitute service, and service by publication.',
   alternates: { canonical: 'https://justlegalsolutions.org/types-of-service-process-oklahoma' },
 };

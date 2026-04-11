@@ -10,7 +10,7 @@ import UnifiedSchema from '@/components/UnifiedSchema';
 import AIVoiceSupremacy from '@/components/ui/ai-voice-supremacy';
 
 export const metadata: Metadata = {
-  title: 'Ultimate Guide to Process Serving in Oklahoma | Licensed & Bonded | Just Legal Solutions',
+  title: 'Ultimate Guide to Process Serving in Oklahoma | Licensed & Bonded',
   description: 'Complete Oklahoma process serving guide. Licensed professionals serving all 77 counties. Standard from $60, rush $100, same-day $150. GPS-tracked affidavits. Call (539) 367-6832.',
   keywords: [
     'oklahoma process serving guide',

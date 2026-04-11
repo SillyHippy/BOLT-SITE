@@ -2,12 +2,12 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Join Our Network — Oklahoma Process Server Opportunities | Just Legal Solutions',
+  title: 'Join Our Network — Oklahoma Process Server Opportunities',
   description: 'Join the Just Legal Solutions process server network in Oklahoma. Earn flexible income serving documents statewide. PSL license required. Apply today.',
   keywords: 'join process server network oklahoma, process server jobs oklahoma, become process server tulsa, oklahoma psl license work, process server independent contractor oklahoma',
   alternates: { canonical: 'https://justlegalsolutions.org/join-our-network' },
   openGraph: {
-    title: 'Join Our Network — Oklahoma Process Server Opportunities | Just Legal Solutions',
+    title: 'Join Our Network — Oklahoma Process Server Opportunities',
     description: 'Join the Just Legal Solutions process server network. Flexible income, established client base, statewide coverage. PSL license required.',
     url: 'https://justlegalsolutions.org/join-our-network',
     siteName: 'Just Legal Solutions',

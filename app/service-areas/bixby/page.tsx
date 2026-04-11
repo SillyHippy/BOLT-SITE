@@ -11,7 +11,7 @@ import FAQAccordion from '@/components/ui/faq-accordion';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Process Server Bixby, OK | Same-Day Service from $60 | Just Legal Solutions',
+  title: 'Process Server Bixby, OK | Same-Day Service from $60',
   description:
     'Licensed process server in Bixby, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
   keywords: 'process server bixby, legal document service bixby, serve papers bixby, court documents bixby, subpoena service bixby, eviction notice bixby, emergency process server bixby, 24/7 process server oklahoma, licensed process server tulsa county, professional process server bixby',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Process Server Bixby, OK | Same-Day Service from $60 | Just Legal Solutions',
+    title: 'Process Server Bixby, OK | Same-Day Service from $60',
     description:
     'Licensed process server in Bixby, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     url: 'https://justlegalsolutions.org/service-areas/bixby',
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Process Server Bixby, OK | Same-Day Service from $60 | Just Legal Solutions',
+    title: 'Process Server Bixby, OK | Same-Day Service from $60',
     description:
     'Licensed process server in Bixby, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     images: ['https://justlegalsolutions.org/og-image.png'],

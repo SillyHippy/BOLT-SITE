@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'What to Do When You\'ve Been Served in Oklahoma | Free Guide | Just Legal Solutions',
+  title: 'What to Do When You\'ve Been Served in Oklahoma | Free Guide',
   description: 'Free PDF guide: What to do when served with legal papers in Oklahoma. Learn response deadlines, immediate steps, common mistakes to avoid, and when to hire an attorney.',
   keywords: 'served with papers Oklahoma, what to do when served, legal papers served, Oklahoma court deadlines, respond to lawsuit Oklahoma, process server Oklahoma',
   openGraph: {

@@ -7,11 +7,11 @@ import Footer from '@/components/ui/footer';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
-  title: 'Okmulgee County Process Server, OK | From $60 | Just Legal Solutions',
+  title: 'Okmulgee County Process Server, OK | From $60',
   description: 'Professional process server for Okmulgee County, Oklahoma. Serving Okmulgee, Beggs, Henryetta, Taft, Morris & all 74447 areas. Licensed, bonded, insured. Call (539) 367-6832.',
   keywords: 'Okmulgee County process server, legal document service Okmulgee, process serving Beggs Henryetta, court papers 74447, subpoena service Morris, Oklahoma Creek Nation legal documents',
   openGraph: {
-    title: 'Okmulgee County Process Server, OK | From $60 | Just Legal Solutions',
+    title: 'Okmulgee County Process Server, OK | From $60',
     description: 'Professional process server for Okmulgee County, Oklahoma. Serving all Creek Nation territories and major cities. Licensed & bonded since 2020.',
     url: 'https://justlegalsolutions.org/counties/okmulgee-county',
     siteName: 'Just Legal Solutions',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Okmulgee County Process Server, OK | From $60 | Just Legal Solutions',
+    title: 'Okmulgee County Process Server, OK | From $60',
     description: 'Professional process server for Okmulgee County, Oklahoma. Licensed & bonded.',
   },
 };

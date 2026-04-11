@@ -1,4 +1,4 @@
-import { Metadata } from 'next';
+﻿import { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, CheckCircle, Star, Calendar, FileText, Scale, AlertCircle } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
@@ -8,7 +8,7 @@ import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Process Server Catoosa, OK | Same-Day Service from $60 | Just Legal Solutions',
+  title: 'Process Server Catoosa, OK | Same-Day Service from $60',
   description:
     'Licensed process server in Catoosa, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
   keywords: 'process server catoosa, legal document service catoosa, serve papers catoosa, court documents catoosa, subpoena service catoosa, eviction notice catoosa, emergency process server catoosa, 24/7 process server oklahoma, licensed process server rogers county, professional process server catoosa',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Process Server Catoosa, OK | Same-Day Service from $60 | Just Legal Solutions',
+    title: 'Process Server Catoosa, OK | Same-Day Service from $60',
     description:
     'Licensed process server in Catoosa, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     url: 'https://justlegalsolutions.org/service-areas/catoosa',
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Process Server Catoosa, OK | Same-Day Service from $60 | Just Legal Solutions',
+    title: 'Process Server Catoosa, OK | Same-Day Service from $60',
     description:
     'Licensed process server in Catoosa, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     images: ['https://justlegalsolutions.org/og-image.png'],
@@ -292,7 +292,7 @@ export default function CatoosaProcessServer() {
                       rel="noopener noreferrer"
                       className="text-blue-600 hover:text-blue-800 font-medium text-sm"
                     >
-                      📍 View Larger Map & Directions
+                      ðŸ“ View Larger Map & Directions
                     </a>
                   </div>
                 </div>
@@ -314,6 +314,132 @@ export default function CatoosaProcessServer() {
                     <p className="text-gray-600 leading-relaxed">{faq.answer}</p>
                   </div>
                 ))}
+              </div>
+            </div>
+          </section>
+
+          {/* Where We Serve Papers in Catoosa */}
+          <section className="bg-white rounded-xl shadow-lg overflow-hidden mb-12">
+            <div className="p-6 bg-gradient-to-r from-indigo-600 to-indigo-700 text-white">
+              <h2 className="text-2xl font-bold mb-2">Where We Serve Papers in Catoosa</h2>
+              <p className="text-indigo-100">Local expertise across every Catoosa neighborhood and employer</p>
+            </div>
+            <div className="p-8">
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-gray-50 p-5 rounded-lg">
+                  <h3 className="font-semibold text-lg text-gray-900 mb-2">Port of Catoosa / Industrial Catoosa</h3>
+                  <p className="text-gray-700 text-sm">
+                    The <strong>Port of Catoosa</strong> (9800 Pine Street) is one of the largest inland river ports in the United States and a major employment hub. The surrounding industrial area includes warehouses, distribution centers, and manufacturing facilities. Service here typically occurs at HR offices or employee parking lot exits during shift changes.
+                  </p>
+                </div>
+                <div className="bg-gray-50 p-5 rounded-lg">
+                  <h3 className="font-semibold text-lg text-gray-900 mb-2">Hard Rock Casino &amp; Cherokee Nation District</h3>
+                  <p className="text-gray-700 text-sm">
+                    The <strong>Hard Rock Hotel &amp; Casino Tulsa</strong> (777 West Cherokee Street) anchors southeastern Catoosa. This area includes tribal housing, casino employee neighborhoods, and the <strong>Cherokee Hills Golf Club</strong>. We are experienced with tribal jurisdiction protocols and serve casino employees at off-site residences or through HR coordination.
+                  </p>
+                </div>
+                <div className="bg-gray-50 p-5 rounded-lg">
+                  <h3 className="font-semibold text-lg text-gray-900 mb-2">Downtown Catoosa / Historic Route 66</h3>
+                  <p className="text-gray-700 text-sm">
+                    The original town center along <strong>Historic Route 66</strong> and <strong>Cherokee Street</strong>. Notable landmarks include the <strong>Blue Whale of Catoosa</strong> (2600 Highway 66), <strong>Catoosa City Hall</strong> (201 South Cherokee Street), and <strong>Catoosa High School</strong> (2000 South Cherokee Street). Older residential neighborhoods feature easy daytime access.
+                  </p>
+                </div>
+                <div className="bg-gray-50 p-5 rounded-lg">
+                  <h3 className="font-semibold text-lg text-gray-900 mb-2">Stone Canyon, Heatherstone &amp; East Catoosa</h3>
+                  <p className="text-gray-700 text-sm">
+                    Suburban residential development east of Highway 167 and north of I-44. Communities like <strong>Stone Canyon</strong> and <strong>Heatherstone</strong> feature newer homes on larger lots. Some gated access requires HOA coordination. These Rogers County addresses file at the Claremore courthouse.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* Major Employers & Workplace Service in Catoosa */}
+          <section className="bg-white rounded-xl shadow-lg overflow-hidden mb-12">
+            <div className="p-6 bg-gradient-to-r from-emerald-600 to-emerald-700 text-white">
+              <h2 className="text-2xl font-bold mb-2">Major Employers &amp; Workplace Service in Catoosa</h2>
+              <p className="text-emerald-100">Port of Catoosa, Hard Rock Casino, Amazon, and more</p>
+            </div>
+            <div className="p-8">
+              <div className="overflow-x-auto">
+                <table className="min-w-full text-sm text-left">
+                  <thead className="bg-gray-100 text-gray-900 font-semibold">
+                    <tr>
+                      <th className="px-4 py-3">Employer</th>
+                      <th className="px-4 py-3">Address</th>
+                      <th className="px-4 py-3">Industry</th>
+                      <th className="px-4 py-3">Service Notes</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-gray-200 bg-white">
+                    <tr>
+                      <td className="px-4 py-3 font-medium">Hard Rock Hotel &amp; Casino Tulsa</td>
+                      <td className="px-4 py-3">777 West Cherokee Street, Catoosa, OK 74015</td>
+                      <td className="px-4 py-3">Gaming/Hospitality</td>
+                      <td className="px-4 py-3">2,000+ employees; 24-hour operation; tribal HR preferred</td>
+                    </tr>
+                    <tr>
+                      <td className="px-4 py-3 font-medium">Port of Catoosa</td>
+                      <td className="px-4 py-3">10614 East Pine Street, Catoosa, OK 74015</td>
+                      <td className="px-4 py-3">Transportation/Logistics</td>
+                      <td className="px-4 py-3">Major inland port; warehouse and shipping employers</td>
+                    </tr>
+                    <tr>
+                      <td className="px-4 py-3 font-medium">Catoosa Public Schools</td>
+                      <td className="px-4 py-3">2000 South Cherokee Street, Catoosa, OK 74015</td>
+                      <td className="px-4 py-3">Education</td>
+                      <td className="px-4 py-3">2,100+ students; admin at high school campus</td>
+                    </tr>
+                    <tr>
+                      <td className="px-4 py-3 font-medium">Amazon Fulfillment Center (TUL2)</td>
+                      <td className="px-4 py-3">7507 East Port Road, Catoosa, OK 74015</td>
+                      <td className="px-4 py-3">Logistics/Warehouse</td>
+                      <td className="px-4 py-3">1,500+ employees; multi-shift operation</td>
+                    </tr>
+                    <tr>
+                      <td className="px-4 py-3 font-medium">City of Catoosa</td>
+                      <td className="px-4 py-3">201 South Cherokee Street, Catoosa, OK 74015</td>
+                      <td className="px-4 py-3">Government</td>
+                      <td className="px-4 py-3">Municipal complex; city clerk</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </section>
+
+          {/* Catoosa-Specific FAQ */}
+          <section className="bg-white rounded-xl shadow-lg overflow-hidden mb-12">
+            <div className="p-6 bg-gradient-to-r from-amber-600 to-amber-700 text-white">
+              <h2 className="text-2xl font-bold mb-2">Catoosa-Specific Questions</h2>
+              <p className="text-amber-100">Answers to frequently asked questions about Catoosa service</p>
+            </div>
+            <div className="p-8">
+              <div className="space-y-6">
+                <div className="border-b border-gray-200 pb-5">
+                  <h3 className="font-semibold text-lg text-gray-800 mb-2">Q: Do Catoosa cases file in Rogers County or Tulsa County?</h3>
+                  <p className="text-gray-600">
+                    Most Catoosa addresses file in <strong>Rogers County</strong> at the Claremore courthouse (219 South Missouri Avenue). However, some addresses on the southern and western edges of Catoosa (particularly west of Highway 167 and south of I-44) may fall within <strong>Tulsa County</strong> and file at the Tulsa County Courthouse (500 South Denver Avenue). We verify the correct courthouse for every serve.
+                  </p>
+                </div>
+                <div className="border-b border-gray-200 pb-5">
+                  <h3 className="font-semibold text-lg text-gray-800 mb-2">Q: Can you serve papers at the Port of Catoosa?</h3>
+                  <p className="text-gray-600">
+                    The Port of Catoosa (10614 East Pine Street) is a secure industrial facility. We typically serve employees at their specific workplace addresses within the port boundaries during business hours, or serve them at their residences in Catoosa, Owasso, or Tulsa. Direct on-dock service requires security clearance and escort arrangements.
+                  </p>
+                </div>
+                <div className="border-b border-gray-200 pb-5">
+                  <h3 className="font-semibold text-lg text-gray-800 mb-2">Q: How do you handle service at the Hard Rock Casino?</h3>
+                  <p className="text-gray-600">
+                    The Hard Rock Hotel &amp; Casino employs over 2,000 people and operates 24/7. We coordinate with Cherokee Nation HR for workplace service during standard business hours, or serve employees at their residences in Catoosa and surrounding communities after hours.
+                  </p>
+                </div>
+                <div>
+                  <h3 className="font-semibold text-lg text-gray-800 mb-2">Q: Is same-day service available in Catoosa?</h3>
+                  <p className="text-gray-600">
+                    Yes. Catoosa is within our standard Tulsa metro service area. We provide standard ($60), rush ($150), and same-day ($265) service throughout Catoosa ZIP code 74015.
+                  </p>
+                </div>
               </div>
             </div>
           </section>
@@ -354,7 +480,6 @@ export default function CatoosaProcessServer() {
             <div className="p-8">
               <GoogleMapsEmbed 
                 countyName="Rogers County"
-                cityName="Catoosa"
                 state="Oklahoma"
                 title="Catoosa Process Server Service Area"
               />
@@ -392,7 +517,7 @@ export default function CatoosaProcessServer() {
               href="/service-areas"
               className="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold text-lg transition-colors"
             >
-              ← Browse All Oklahoma Service Areas
+              â† Browse All Oklahoma Service Areas
             </Link>
           </div>
         </div>

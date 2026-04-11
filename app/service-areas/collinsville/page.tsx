@@ -1,4 +1,4 @@
-import { Metadata } from 'next';
+﻿import { Metadata } from 'next';
 import Link from 'next/link';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, CheckCircle, Star, Calendar, FileText, Scale, AlertCircle } from 'lucide-react';
@@ -10,7 +10,7 @@ import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Process Server Collinsville, OK | Same-Day Service from $60 | Just Legal Solutions',
+  title: 'Process Server Collinsville, OK | Same-Day Service from $60',
   description:
     'Licensed process server in Collinsville, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
   keywords: 'process server collinsville, legal document service collinsville, serve papers collinsville, court documents collinsville, subpoena service collinsville, eviction notice collinsville, emergency process server collinsville, 24/7 process server oklahoma, licensed process server tulsa county, professional process server collinsville',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Process Server Collinsville, OK | Same-Day Service from $60 | Just Legal Solutions',
+    title: 'Process Server Collinsville, OK | Same-Day Service from $60',
     description:
     'Licensed process server in Collinsville, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     url: 'https://justlegalsolutions.org/service-areas/collinsville',
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Process Server Collinsville, OK | Same-Day Service from $60 | Just Legal Solutions',
+    title: 'Process Server Collinsville, OK | Same-Day Service from $60',
     description:
     'Licensed process server in Collinsville, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     images: ['https://justlegalsolutions.org/og-image.png'],
@@ -304,7 +304,6 @@ export default function CollinsvilleProcessServer() {
             <div className="p-8">
               <GoogleMapsEmbed 
                 countyName="Tulsa County"
-                cityName="Collinsville"
                 state="Oklahoma"
                 title="Collinsville Process Server Service Area"
               />
@@ -342,7 +341,7 @@ export default function CollinsvilleProcessServer() {
               href="/service-areas"
               className="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold text-lg transition-colors"
             >
-              ← Browse All Oklahoma Service Areas
+              â† Browse All Oklahoma Service Areas
             </Link>
           </div>
         </div>

@@ -1,4 +1,4 @@
-import { Metadata } from 'next';
+﻿import { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, CheckCircle, Star, Calendar, FileText, Scale, AlertCircle } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
@@ -9,12 +9,12 @@ import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Washington County Process Server, OK | From $60 | Just Legal Solutions',
-  description: 'Washington County’s trusted process server—serving Bartlesville, Dewey, and all communities with fast, licensed legal document delivery. Local expertise for court papers, evictions, and urgent legal needs.',
+  title: 'Washington County Process Server, OK | From $60',
+  description: 'Washington Countyâ€™s trusted process serverâ€”serving Bartlesville, Dewey, and all communities with fast, licensed legal document delivery. Local expertise for court papers, evictions, and urgent legal needs.',
   keywords: 'process server Washington County, legal document service Washington County, court papers Oklahoma, Bartlesville courthouse, process serving Bartlesville, skip tracing Washington County',
   openGraph: {
-    title: 'Washington County Process Server, OK | From $60 | Just Legal Solutions',
-  description: 'Legal document service for every city and town in Washington County, Oklahoma—trusted by attorneys, families, and businesses for reliable, local process serving.',
+    title: 'Washington County Process Server, OK | From $60',
+  description: 'Legal document service for every city and town in Washington County, Oklahomaâ€”trusted by attorneys, families, and businesses for reliable, local process serving.',
     url: 'https://justlegalsolutions.org/counties/washington-county',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -28,8 +28,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Washington County Process Server, OK | From $60 | Just Legal Solutions',
-  description: 'Process serving in Washington County—covering Bartlesville, Dewey, and rural areas with professional, prompt legal document delivery.',
+    title: 'Washington County Process Server, OK | From $60',
+  description: 'Process serving in Washington Countyâ€”covering Bartlesville, Dewey, and rural areas with professional, prompt legal document delivery.',
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/counties/washington-county',
@@ -156,7 +156,7 @@ export default function WashingtonCountyProcessServer() {
                 Process Server{' '}<span className="text-yellow-400">Washington County, Oklahoma</span>
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-blue-100">
-                County-Wide Legal Document Service • All Cities & Towns • Professional Excellence
+                County-Wide Legal Document Service â€¢ All Cities & Towns â€¢ Professional Excellence
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
                 <Link 
@@ -241,7 +241,7 @@ export default function WashingtonCountyProcessServer() {
                   href="/service-areas/bartlesville"
                   className="text-blue-600 hover:text-blue-800 font-medium text-sm"
                 >
-                  Learn More →
+                  Learn More â†’
                 </Link>
               </div>
             </div>
@@ -253,7 +253,7 @@ export default function WashingtonCountyProcessServer() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl font-bold mb-8">Ready to Serve Your Legal Documents in Washington County?</h2>
             <p className="text-xl mb-8 text-blue-100">
-              Professional process serving throughout all cities and towns in Washington County • Licensed • Bonded • Insured
+              Professional process serving throughout all cities and towns in Washington County â€¢ Licensed â€¢ Bonded â€¢ Insured
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
               <a 
@@ -288,7 +288,7 @@ export default function WashingtonCountyProcessServer() {
                   className="block text-center hover:bg-green-100 transition-colors rounded-lg"
                 >
                   <div className="text-3xl font-bold text-green-900 mb-2">Pricing</div>
-                  <div className="text-gray-700">View All Rates →</div>
+                  <div className="text-gray-700">View All Rates â†’</div>
                 </Link>
               </div>
               <div className="bg-yellow-50 p-6 rounded-lg">
@@ -316,7 +316,6 @@ export default function WashingtonCountyProcessServer() {
             </div>
             <GoogleMapsEmbed 
               countyName="Washington County"
-              cityName="Bartlesville"
               state="Oklahoma"
               title="Washington County Process Server Coverage Area"
             />
@@ -468,7 +467,7 @@ export default function WashingtonCountyProcessServer() {
             <div className="bg-blue-900 text-white rounded-lg p-8">
               <h3 className="text-2xl font-bold mb-6">Ready to Serve Your Documents?</h3>
               <p className="text-blue-100 mb-6">
-                Licensed, bonded, and insured process serving throughout the county • Same-day service available
+                Licensed, bonded, and insured process serving throughout the county â€¢ Same-day service available
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a 

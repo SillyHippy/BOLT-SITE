@@ -1,4 +1,4 @@
-import { Metadata } from 'next';
+﻿import { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, CheckCircle, Star, Calendar, FileText, Scale, AlertCircle } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
@@ -9,12 +9,12 @@ import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Nowata County Process Server, OK | From $60 | Just Legal Solutions',
-  description: 'Nowata County\'s trusted process server—serving Nowata, Delaware, Wann, and Lenapah with fast, licensed legal document delivery. Local expertise for court papers, evictions, and urgent legal needs.',
+  title: 'Nowata County Process Server, OK | From $60',
+  description: 'Nowata County\'s trusted process serverâ€”serving Nowata, Delaware, Wann, and Lenapah with fast, licensed legal document delivery. Local expertise for court papers, evictions, and urgent legal needs.',
   keywords: 'process server Nowata County, legal document service Nowata County, court papers Oklahoma, Nowata courthouse, process serving Nowata, skip tracing Nowata County',
   openGraph: {
-    title: 'Nowata County Process Server, OK | From $60 | Just Legal Solutions',
-    description: 'Legal document service for every city and town in Nowata County, Oklahoma—trusted by attorneys, families, and businesses for reliable, local process serving.',
+    title: 'Nowata County Process Server, OK | From $60',
+    description: 'Legal document service for every city and town in Nowata County, Oklahomaâ€”trusted by attorneys, families, and businesses for reliable, local process serving.',
     url: 'https://justlegalsolutions.org/counties/nowata-county',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -28,8 +28,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Nowata County Process Server, OK | From $60 | Just Legal Solutions',
-    description: 'Process serving in Nowata County—covering Nowata, Delaware, Wann, and Lenapah with professional, prompt legal document delivery.',
+    title: 'Nowata County Process Server, OK | From $60',
+    description: 'Process serving in Nowata Countyâ€”covering Nowata, Delaware, Wann, and Lenapah with professional, prompt legal document delivery.',
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/counties/nowata-county',
@@ -171,7 +171,7 @@ export default function NowataCountyProcessServer() {
                 Process Server{' '}<span className="text-yellow-400">Nowata County, Oklahoma</span>
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-blue-100">
-                County-Wide Legal Document Service • Nowata, Delaware, Wann & Lenapah • Professional Excellence
+                County-Wide Legal Document Service â€¢ Nowata, Delaware, Wann & Lenapah â€¢ Professional Excellence
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
                 <Link 
@@ -280,7 +280,7 @@ export default function NowataCountyProcessServer() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl font-bold mb-8">Ready to Serve Your Legal Documents in Nowata County?</h2>
             <p className="text-xl mb-8 text-blue-100">
-              Professional process serving throughout all cities and towns in Nowata County • Licensed • Bonded • Insured
+              Professional process serving throughout all cities and towns in Nowata County â€¢ Licensed â€¢ Bonded â€¢ Insured
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
               <a 
@@ -315,7 +315,7 @@ export default function NowataCountyProcessServer() {
                   className="block text-center hover:bg-green-100 transition-colors rounded-lg"
                 >
                   <div className="text-3xl font-bold text-green-900 mb-2">Pricing</div>
-                  <div className="text-gray-700">View All Rates →</div>
+                  <div className="text-gray-700">View All Rates â†’</div>
                 </Link>
               </div>
               <div className="bg-yellow-50 p-6 rounded-lg">
@@ -343,7 +343,6 @@ export default function NowataCountyProcessServer() {
             </div>
             <GoogleMapsEmbed 
               countyName="Nowata County"
-              cityName="Nowata"
               state="Oklahoma"
               title="Nowata County Process Server Coverage Area"
             />
@@ -495,7 +494,7 @@ export default function NowataCountyProcessServer() {
             <div className="bg-blue-900 text-white rounded-lg p-8">
               <h3 className="text-2xl font-bold mb-6">Ready to Serve Your Documents?</h3>
               <p className="text-blue-100 mb-6">
-                Licensed, bonded, and insured process serving throughout Nowata County • Same-day service available
+                Licensed, bonded, and insured process serving throughout Nowata County â€¢ Same-day service available
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a 

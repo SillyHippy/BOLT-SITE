@@ -1,4 +1,4 @@
-import { Metadata } from 'next';
+﻿import { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, CheckCircle, Star, Calendar, FileText, Scale, AlertCircle } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
@@ -7,7 +7,7 @@ import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Process Server Bartlesville, OK | Same-Day Service from $60 | Just Legal Solutions',
+  title: 'Process Server Bartlesville, OK | Same-Day Service from $60',
   description:
     'Licensed process server in Bartlesville, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
   keywords: 'process server bartlesville, legal document service bartlesville, serve papers bartlesville, court documents bartlesville, subpoena service bartlesville, eviction notice bartlesville, licensed process server oklahoma, professional process server tulsa county',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Process Server Bartlesville, OK | Same-Day Service from $60 | Just Legal Solutions',
+    title: 'Process Server Bartlesville, OK | Same-Day Service from $60',
     description:
     'Licensed process server in Bartlesville, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     url: 'https://justlegalsolutions.org/service-areas/bartlesville',
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Process Server Bartlesville, OK | Same-Day Service from $60 | Just Legal Solutions',
+    title: 'Process Server Bartlesville, OK | Same-Day Service from $60',
     description:
     'Licensed process server in Bartlesville, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     images: ['https://justlegalsolutions.org/og-image.png'],
@@ -269,23 +269,23 @@ export default function BartlesvilleProcessServer() {
                 <div>
                   <h3 className="text-lg font-bold mb-4">Areas We Serve:</h3>
                   <ul className="text-gray-700 space-y-1">
-                    <li>• Downtown Bartlesville</li>
-                    <li>• Price Tower Area</li>
-                    <li>• Phillips 66 Campus</li>
-                    <li>• Riverside Heights</li>
-                    <li>• Hillcrest</li>
-                    <li>• Oak Park</li>
+                    <li>â€¢ Downtown Bartlesville</li>
+                    <li>â€¢ Price Tower Area</li>
+                    <li>â€¢ Phillips 66 Campus</li>
+                    <li>â€¢ Riverside Heights</li>
+                    <li>â€¢ Hillcrest</li>
+                    <li>â€¢ Oak Park</li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold mb-4">Specialized Services:</h3>
                   <ul className="text-gray-700 space-y-1">
-                    <li>• Oil & Gas Industry Documents</li>
-                    <li>• Corporate Process Serving</li>
-                    <li>• Commercial Real Estate</li>
-                    <li>• Court Filing Services</li>
-                    <li>• Skip Tracing</li>
-                    <li>• Emergency Rush Service</li>
+                    <li>â€¢ Oil & Gas Industry Documents</li>
+                    <li>â€¢ Corporate Process Serving</li>
+                    <li>â€¢ Commercial Real Estate</li>
+                    <li>â€¢ Court Filing Services</li>
+                    <li>â€¢ Skip Tracing</li>
+                    <li>â€¢ Emergency Rush Service</li>
                   </ul>
                 </div>
               </div>
@@ -417,7 +417,6 @@ export default function BartlesvilleProcessServer() {
             <div className="p-8">
               <GoogleMapsEmbed 
                 countyName="Washington County"
-                cityName="Bartlesville"
                 state="Oklahoma"
                 title="Bartlesville Process Server Service Area"
               />
@@ -455,7 +454,7 @@ export default function BartlesvilleProcessServer() {
               href="/service-areas"
               className="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold text-lg transition-colors"
             >
-              ← Browse All Oklahoma Service Areas
+              â† Browse All Oklahoma Service Areas
             </Link>
           </div>
         </div>

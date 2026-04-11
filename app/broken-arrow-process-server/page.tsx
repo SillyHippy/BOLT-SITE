@@ -3,7 +3,7 @@ import Link from 'next/link';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
-  title: 'Broken Arrow Process Server | Same-Day Service from $60 | Just Legal Solutions',
+  title: 'Broken Arrow Process Server | Same-Day Service from $60',
   description: 'Licensed Broken Arrow process server. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving the Rose District, New Town, Forest Ridge & all of Broken Arrow. Call (539) 367-6832.',
   keywords: 'broken arrow process server, process server broken arrow oklahoma, serve papers broken arrow, legal document service broken arrow ok, broken arrow process serving, wagoner county process server, tulsa county process server broken arrow',
   other: {
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   },
   alternates: { canonical: 'https://justlegalsolutions.org/broken-arrow-process-server' },
   openGraph: {
-    title: 'Broken Arrow Process Server | Same-Day Service from $60 | Just Legal Solutions',
+    title: 'Broken Arrow Process Server | Same-Day Service from $60',
     description: 'Licensed Broken Arrow process server. Standard from $60, rush $100, same-day $150. GPS-tracked. Call (539) 367-6832.',
     url: 'https://justlegalsolutions.org/broken-arrow-process-server',
     siteName: 'Just Legal Solutions',

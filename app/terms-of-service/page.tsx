@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Terms of Service | Just Legal Solutions',
+  title: 'Terms of Service',
   description: 'Terms of service for Just Legal Solutions — Oklahoma process server and notary services. Service agreements, payment terms, and liability limitations.',
   alternates: { canonical: 'https://justlegalsolutions.org/terms-of-service' },
   robots: { index: true, follow: true },

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | Just Legal Solutions',
+  title: 'Privacy Policy',
   description: 'Privacy policy for Just Legal Solutions — Oklahoma process server and notary services. How we collect, use, and protect your information.',
   alternates: { canonical: 'https://justlegalsolutions.org/privacy-policy' },
   robots: { index: true, follow: true },

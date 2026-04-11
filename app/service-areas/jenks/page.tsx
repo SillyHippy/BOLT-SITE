@@ -1,4 +1,4 @@
-import { Metadata } from 'next';
+﻿import { Metadata } from 'next';
 import Link from 'next/link';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, CheckCircle, Star, Calendar, FileText, Scale, AlertCircle, Home } from 'lucide-react';
@@ -11,7 +11,7 @@ import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Process Server Jenks, OK | Same-Day Service from $60 | Just Legal Solutions',
+  title: 'Process Server Jenks, OK | Same-Day Service from $60',
   description:
     'Licensed process server in Jenks, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
   keywords: 'process server jenks, legal document service jenks, serve papers jenks, court documents jenks, subpoena service jenks, eviction notice jenks, emergency process server jenks, 24/7 process server oklahoma, licensed process server tulsa county, professional process server jenks',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Process Server Jenks, OK | Same-Day Service from $60 | Just Legal Solutions',
+    title: 'Process Server Jenks, OK | Same-Day Service from $60',
     description:
     'Licensed process server in Jenks, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     url: 'https://justlegalsolutions.org/service-areas/jenks',
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Process Server Jenks, OK | Same-Day Service from $60 | Just Legal Solutions',
+    title: 'Process Server Jenks, OK | Same-Day Service from $60',
     description:
     'Licensed process server in Jenks, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     images: ['https://justlegalsolutions.org/og-image.png'],
@@ -379,28 +379,28 @@ export default function JenksProcessServer() {
                 <div>
                   <h3 className="font-semibold text-lg mb-3 text-gray-800">Central Jenks</h3>
                   <ul className="space-y-2 text-gray-600">
-                    <li>• Downtown Jenks</li>
-                    <li>• Jenks Public Schools Area</li>
-                    <li>• City Center</li>
-                    <li>• Main Street District</li>
+                    <li>â€¢ Downtown Jenks</li>
+                    <li>â€¢ Jenks Public Schools Area</li>
+                    <li>â€¢ City Center</li>
+                    <li>â€¢ Main Street District</li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="font-semibold text-lg mb-3 text-gray-800">West Jenks</h3>
                   <ul className="space-y-2 text-gray-600">
-                    <li>• Riverwalk Crossing</li>
-                    <li>• The Outlets at Riverwalk</li>
-                    <li>• Oklahoma Aquarium Area</li>
-                    <li>• Jenks Riverwalk</li>
+                    <li>â€¢ Riverwalk Crossing</li>
+                    <li>â€¢ The Outlets at Riverwalk</li>
+                    <li>â€¢ Oklahoma Aquarium Area</li>
+                    <li>â€¢ Jenks Riverwalk</li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="font-semibold text-lg mb-3 text-gray-800">Surrounding Areas</h3>
                   <ul className="space-y-2 text-gray-600">
-                    <li>• South Tulsa</li>
-                    <li>• Bixby (nearby)</li>
-                    <li>• Glenpool (nearby)</li>
-                    <li>• All Tulsa County</li>
+                    <li>â€¢ South Tulsa</li>
+                    <li>â€¢ Bixby (nearby)</li>
+                    <li>â€¢ Glenpool (nearby)</li>
+                    <li>â€¢ All Tulsa County</li>
                   </ul>
                 </div>
               </div>
@@ -474,10 +474,10 @@ export default function JenksProcessServer() {
                   <h3 className="text-lg font-bold text-red-900 mb-2">Historic Downtown</h3>
                   <p className="text-sm text-gray-600 mb-3">Main Street District (107 E Main St)</p>
                   <ul className="text-sm text-gray-700 space-y-1">
-                    <li>• Historic antique shops & galleries</li>
-                    <li>• Professional law offices</li>
-                    <li>• Municipal government buildings</li>
-                    <li>• Main Street event venues</li>
+                    <li>â€¢ Historic antique shops & galleries</li>
+                    <li>â€¢ Professional law offices</li>
+                    <li>â€¢ Municipal government buildings</li>
+                    <li>â€¢ Main Street event venues</li>
                   </ul>
                 </div>
 
@@ -487,10 +487,10 @@ export default function JenksProcessServer() {
                   <h3 className="text-lg font-bold text-blue-900 mb-2">Riverwalk District</h3>
                   <p className="text-sm text-gray-600 mb-3">Riverwalk Crossing (100 Riverwalk Dr)</p>
                   <ul className="text-sm text-gray-700 space-y-1">
-                    <li>• Premier retail complex</li>
-                    <li>• Restaurant & entertainment venues</li>
-                    <li>• Professional office spaces</li>
-                    <li>• Corporate headquarters</li>
+                    <li>â€¢ Premier retail complex</li>
+                    <li>â€¢ Restaurant & entertainment venues</li>
+                    <li>â€¢ Professional office spaces</li>
+                    <li>â€¢ Corporate headquarters</li>
                   </ul>
                 </div>
 
@@ -500,10 +500,10 @@ export default function JenksProcessServer() {
                   <h3 className="text-lg font-bold text-green-900 mb-2">Aquarium District</h3>
                   <p className="text-sm text-gray-600 mb-3">Oklahoma Aquarium (300 Aquarium Dr)</p>
                   <ul className="text-sm text-gray-700 space-y-1">
-                    <li>• Tourist destination hotels</li>
-                    <li>• Riverfront residential developments</li>
-                    <li>• Conference & event facilities</li>
-                    <li>• Arkansas River corridor</li>
+                    <li>â€¢ Tourist destination hotels</li>
+                    <li>â€¢ Riverfront residential developments</li>
+                    <li>â€¢ Conference & event facilities</li>
+                    <li>â€¢ Arkansas River corridor</li>
                   </ul>
                 </div>
 
@@ -513,10 +513,10 @@ export default function JenksProcessServer() {
                   <h3 className="text-lg font-bold text-purple-900 mb-2">Luxury Communities</h3>
                   <p className="text-sm text-gray-600 mb-3">Gated & Premium Neighborhoods</p>
                   <ul className="text-sm text-gray-700 space-y-1">
-                    <li>• The Reserve at Stonebrooke</li>
-                    <li>• Creek Ridge Estates</li>
-                    <li>• Exclusive gated communities</li>
-                    <li>• Luxury home developments</li>
+                    <li>â€¢ The Reserve at Stonebrooke</li>
+                    <li>â€¢ Creek Ridge Estates</li>
+                    <li>â€¢ Exclusive gated communities</li>
+                    <li>â€¢ Luxury home developments</li>
                   </ul>
                 </div>
 
@@ -526,10 +526,10 @@ export default function JenksProcessServer() {
                   <h3 className="text-lg font-bold text-yellow-900 mb-2">Family Communities</h3>
                   <p className="text-sm text-gray-600 mb-3">Established Residential Areas</p>
                   <ul className="text-sm text-gray-700 space-y-1">
-                    <li>• Southern Lakes (family community)</li>
-                    <li>• Elwood Crossing</li>
-                    <li>• Jenks West neighborhoods</li>
-                    <li>• Traditional suburban areas</li>
+                    <li>â€¢ Southern Lakes (family community)</li>
+                    <li>â€¢ Elwood Crossing</li>
+                    <li>â€¢ Jenks West neighborhoods</li>
+                    <li>â€¢ Traditional suburban areas</li>
                   </ul>
                 </div>
 
@@ -539,10 +539,10 @@ export default function JenksProcessServer() {
                   <h3 className="text-lg font-bold text-cyan-900 mb-2">Educational District</h3>
                   <p className="text-sm text-gray-600 mb-3">Jenks Public Schools Area</p>
                   <ul className="text-sm text-gray-700 space-y-1">
-                    <li>• Jenks High School district</li>
-                    <li>• Elementary & middle schools</li>
-                    <li>• Educational facilities</li>
-                    <li>• School administration offices</li>
+                    <li>â€¢ Jenks High School district</li>
+                    <li>â€¢ Elementary & middle schools</li>
+                    <li>â€¢ Educational facilities</li>
+                    <li>â€¢ School administration offices</li>
                   </ul>
                 </div>
               </div>
@@ -557,19 +557,19 @@ export default function JenksProcessServer() {
                   <div>
                     <h4 className="font-semibold text-amber-800 mb-2">Spring/Summer (Peak Tourist Season)</h4>
                     <ul className="space-y-1">
-                      <li>• Oklahoma Aquarium area: Increased visitor traffic</li>
-                      <li>• Main Street antique events: Weekend crowds</li>
-                      <li>• Riverwalk festivals: Adjusted access timing</li>
-                      <li>• Arkansas Riverfront: Enhanced security protocols</li>
+                      <li>â€¢ Oklahoma Aquarium area: Increased visitor traffic</li>
+                      <li>â€¢ Main Street antique events: Weekend crowds</li>
+                      <li>â€¢ Riverwalk festivals: Adjusted access timing</li>
+                      <li>â€¢ Arkansas Riverfront: Enhanced security protocols</li>
                     </ul>
                   </div>
                   <div>
                     <h4 className="font-semibold text-amber-800 mb-2">Fall/Winter (Community Events)</h4>
                     <ul className="space-y-1">
-                      <li>• School district activities: Coordinated timing</li>
-                      <li>• Holiday shopping: Riverwalk Crossing crowds</li>
-                      <li>• Community celebrations: Downtown access</li>
-                      <li>• Weather considerations: Route adjustments</li>
+                      <li>â€¢ School district activities: Coordinated timing</li>
+                      <li>â€¢ Holiday shopping: Riverwalk Crossing crowds</li>
+                      <li>â€¢ Community celebrations: Downtown access</li>
+                      <li>â€¢ Weather considerations: Route adjustments</li>
                     </ul>
                   </div>
                 </div>
@@ -613,7 +613,7 @@ export default function JenksProcessServer() {
                   <meta itemProp="datePublished" content="2025-01-15" />
                   <div className="flex items-center mb-4">
                     <div className="flex text-yellow-400 text-lg">
-                      ★★★★★
+                      â˜…â˜…â˜…â˜…â˜…
                     </div>
                     <div itemProp="reviewRating" itemScope={true} itemType="https://schema.org/Rating">
                       <meta itemProp="ratingValue" content="5" />
@@ -660,7 +660,7 @@ export default function JenksProcessServer() {
                   <meta itemProp="datePublished" content="2024-07-22" />
                   <div className="flex items-center mb-4">
                     <div className="flex text-yellow-400 text-lg">
-                      ★★★★★
+                      â˜…â˜…â˜…â˜…â˜…
                     </div>
                     <div itemProp="reviewRating" itemScope={true} itemType="https://schema.org/Rating">
                       <meta itemProp="ratingValue" content="5" />
@@ -706,7 +706,7 @@ export default function JenksProcessServer() {
                   <meta itemProp="datePublished" content="2024-09-10" />
                   <div className="flex items-center mb-4">
                     <div className="flex text-yellow-400 text-lg">
-                      ★★★★★
+                      â˜…â˜…â˜…â˜…â˜…
                     </div>
                     <div itemProp="reviewRating" itemScope={true} itemType="https://schema.org/Rating">
                       <meta itemProp="ratingValue" content="5" />
@@ -752,7 +752,7 @@ export default function JenksProcessServer() {
                   <meta itemProp="datePublished" content="2024-10-05" />
                   <div className="flex items-center mb-4">
                     <div className="flex text-yellow-400 text-lg">
-                      ★★★★★
+                      â˜…â˜…â˜…â˜…â˜…
                     </div>
                     <div itemProp="reviewRating" itemScope={true} itemType="https://schema.org/Rating">
                       <meta itemProp="ratingValue" content="5" />
@@ -809,7 +809,6 @@ export default function JenksProcessServer() {
             <div className="p-8">
               <GoogleMapsEmbed 
                 countyName="Tulsa County"
-                cityName="Jenks"
                 state="Oklahoma"
                 title="Jenks Process Server Service Area"
               />
@@ -831,7 +830,7 @@ export default function JenksProcessServer() {
                   </div>
                   <p className="text-sm text-gray-700 mb-3">Complete guide to eviction notices and landlord-tenant law compliance</p>
                   <Link href="/seo/eviction-notice-process-server" className="text-red-600 hover:text-red-800 underline font-semibold">
-                    Eviction Notice Process Server Guide →
+                    Eviction Notice Process Server Guide â†’
                   </Link>
                 </div>
 
@@ -842,7 +841,7 @@ export default function JenksProcessServer() {
                   </div>
                   <p className="text-sm text-gray-700 mb-3">Specialized protocols for divorce papers, custody orders, and protective orders</p>
                   <Link href="/family-law-service-guide-tulsa" className="text-blue-600 hover:text-blue-800 underline font-semibold">
-                    Family Law Process Serving Tips →
+                    Family Law Process Serving Tips â†’
                   </Link>
                 </div>
 
@@ -853,7 +852,7 @@ export default function JenksProcessServer() {
                   </div>
                   <p className="text-sm text-gray-700 mb-3">Tulsa County court deadlines, case law, and filing requirements</p>
                   <Link href="/oklahoma-case-law-service-process" className="text-green-600 hover:text-green-800 underline font-semibold">
-                    Court Filing Deadlines Resource →
+                    Court Filing Deadlines Resource â†’
                   </Link>
                 </div>
 
@@ -864,7 +863,7 @@ export default function JenksProcessServer() {
                   </div>
                   <p className="text-sm text-gray-700 mb-3">Professional standards and best practices for process serving in Oklahoma</p>
                   <Link href="/oklahoma-process-server-best-practices-checklist" className="text-purple-600 hover:text-purple-800 underline font-semibold">
-                    Process Server Best Practices →
+                    Process Server Best Practices â†’
                   </Link>
                 </div>
 
@@ -875,7 +874,7 @@ export default function JenksProcessServer() {
                   </div>
                   <p className="text-sm text-gray-700 mb-3">Transparent pricing information and cost comparisons across Oklahoma</p>
                   <Link href="/oklahoma-process-serving-costs-comparison" className="text-orange-600 hover:text-orange-800 underline font-semibold">
-                    Pricing Comparison Guide →
+                    Pricing Comparison Guide â†’
                   </Link>
                 </div>
 
@@ -886,7 +885,7 @@ export default function JenksProcessServer() {
                   </div>
                   <p className="text-sm text-gray-700 mb-3">Frequently asked questions about Oklahoma process serving</p>
                   <Link href="/oklahoma-process-server-faq" className="text-teal-600 hover:text-teal-800 underline font-semibold">
-                    Process Server FAQ 2026 →
+                    Process Server FAQ 2026 â†’
                   </Link>
                 </div>
               </div>
@@ -924,7 +923,7 @@ export default function JenksProcessServer() {
               href="/service-areas"
               className="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold text-lg transition-colors"
             >
-              ← Browse All Oklahoma Service Areas
+              â† Browse All Oklahoma Service Areas
             </Link>
           </div>
         </div>

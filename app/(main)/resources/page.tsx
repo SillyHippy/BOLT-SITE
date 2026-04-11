@@ -5,7 +5,7 @@ import UnifiedSchema from '@/components/UnifiedSchema';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Oklahoma Process Server Resources & Legal Guides | Just Legal Solutions',
+  title: 'Oklahoma Process Server Resources & Legal Guides',
   description: 'Free Oklahoma process serving guides, FAQs, and legal resources. Serving starts at $60. Licensed & bonded statewide. Call (539) 367-6832 for same-day service.',
   keywords: ['legal resources oklahoma', 'oklahoma process server guides', 'tulsa document delivery faqs', 'court papers info', 'legal guides tulsa', 'oklahoma civil procedure', 'tulsa county court rules', 'process server training oklahoma'],
   authors: [{ name: 'Just Legal Solutions' }],

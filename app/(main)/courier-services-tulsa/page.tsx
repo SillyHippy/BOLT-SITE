@@ -5,7 +5,7 @@ import Link from 'next/link';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
-  title: 'Legal Courier Services Tulsa | Same-Day Courthouse Filing & Document Delivery | Just Legal Solutions',
+  title: 'Legal Courier Services Tulsa | Same-Day Courthouse Filing & Document Delivery',
   description: 'Professional legal courier in Tulsa County: same-day courthouse filing, file-stamped copy retrieval & secure document delivery. Process serving from $60. All 77 OK counties. (539) 367-6832.',
   keywords: 'legal courier services, legal courier tulsa, courthouse filing service, legal document delivery, court filing services, same-day courier Oklahoma, secure document transport, legal courier Tulsa County',
   alternates: {

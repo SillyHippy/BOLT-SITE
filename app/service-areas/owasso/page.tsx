@@ -1,4 +1,4 @@
-import { Metadata } from 'next';
+﻿import { Metadata } from 'next';
 import Link from 'next/link';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, CheckCircle, Star, Calendar, FileText, Scale, AlertCircle } from 'lucide-react';
@@ -10,7 +10,7 @@ import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Process Server Owasso, OK | Same-Day Service from $60 | Just Legal Solutions',
+  title: 'Process Server Owasso, OK | Same-Day Service from $60',
   description:
     'Licensed process server in Owasso, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
   keywords: 'process server owasso, legal document service owasso, serve papers owasso, court documents owasso, subpoena service owasso, eviction notice owasso, emergency process server owasso, 24/7 process server oklahoma, licensed process server tulsa county, professional process server owasso',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Process Server Owasso, OK | Same-Day Service from $60 | Just Legal Solutions',
+    title: 'Process Server Owasso, OK | Same-Day Service from $60',
     description:
     'Licensed process server in Owasso, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     url: 'https://justlegalsolutions.org/service-areas/owasso',
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Process Server Owasso, OK | Same-Day Service from $60 | Just Legal Solutions',
+    title: 'Process Server Owasso, OK | Same-Day Service from $60',
     description:
     'Licensed process server in Owasso, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     images: ['https://justlegalsolutions.org/og-image.png'],
@@ -268,6 +268,155 @@ export default function OwassoProcessServer() {
             </div>
           </section>
 
+          {/* Where We Serve Papers in Owasso */}
+          <section className="bg-white rounded-xl shadow-lg overflow-hidden mb-12">
+            <div className="p-6 bg-gradient-to-r from-indigo-600 to-indigo-700 text-white">
+              <h2 className="text-2xl font-bold mb-2">Where We Serve Papers in Owasso</h2>
+              <p className="text-indigo-100">Local expertise across every Owasso neighborhood</p>
+            </div>
+            <div className="p-8">
+              <p className="text-gray-700 mb-6 max-w-3xl">
+                Owasso spans both Rogers County and Tulsa County, with the majority of residential and commercial development concentrated along Highway 169 and North 129th East Avenue. Our servers know every neighborhood, from gated golf-course communities to rural acreage north of 116th Street.
+              </p>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-gray-50 p-5 rounded-lg">
+                  <h3 className="font-semibold text-lg text-gray-900 mb-2">Smith Farm &amp; Stone Canyon</h3>
+                  <p className="text-gray-700 text-sm">
+                    Large-lot subdivisions in northeast Owasso off 76th Street North and East 86th Street North.
+                    These are gated communities surrounding <strong>Stone Canyon Golf Club</strong> and <strong>Bailey Ranch Golf Club</strong>.
+                    We coordinate with HOA management for legal entry or serve defendants at their workplaces.
+                    Addresses here frequently use Owasso mailing addresses but file in Rogers County.
+                  </p>
+                </div>
+                <div className="bg-gray-50 p-5 rounded-lg">
+                  <h3 className="font-semibold text-lg text-gray-900 mb-2">Downtown Owasso / Redbud District</h3>
+                  <p className="text-gray-700 text-sm">
+                    The historic corridor along Main Street between 76th Street North and 96th Street North.
+                    Key landmarks: <strong>Owasso City Hall</strong> (111 North Main Street),
+                    <strong>Owasso Police Department</strong> (111 North Main Street), and <strong>Rejoice Christian Schools</strong> (10025 North 137th East Avenue).
+                    Older homes with open front porches make daytime residential service highly effective here.
+                  </p>
+                </div>
+                <div className="bg-gray-50 p-5 rounded-lg">
+                  <h3 className="font-semibold text-lg text-gray-900 mb-2">Elm Creek, Summit Ridge &amp; Preston Lakes</h3>
+                  <p className="text-gray-700 text-sm">
+                    Newer construction west of Highway 169. Houses are close-set with visible front doors,
+                    making evening residential service effective. Near <strong>Bailey Medical Center</strong> (10502 North 110th East Avenue) and the <strong>Owasso YMCA</strong>.
+                    These subdivisions have uniform addressing and minimal turnover.
+                  </p>
+                </div>
+                <div className="bg-gray-50 p-5 rounded-lg">
+                  <h3 className="font-semibold text-lg text-gray-900 mb-2">Rural Owasso (North of 116th Street North)</h3>
+                  <p className="text-gray-700 text-sm">
+                    Unincorporated Rogers County addresses that use &ldquo;Owasso&rdquo; mailing addresses.
+                    Long driveways and limited house-number visibility require GPS verification and sometimes multiple attempts.
+                    Properties near <strong>Oologah Lake</strong> and along County Line Road can be especially challenging
+                    without advance satellite mapping.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* Major Employers & Workplace Service in Owasso */}
+          <section className="bg-white rounded-xl shadow-lg overflow-hidden mb-12">
+            <div className="p-6 bg-gradient-to-r from-emerald-600 to-emerald-700 text-white">
+              <h2 className="text-2xl font-bold mb-2">Major Employers &amp; Workplace Service in Owasso</h2>
+              <p className="text-emerald-100">We know Owasso&apos;s largest employers and serve with precision</p>
+            </div>
+            <div className="p-8">
+              <p className="text-gray-700 mb-6 max-w-3xl">
+                Workplace service requires knowing shift schedules, HR office locations, and the best times to reach management staff. We maintain current contact information for Owasso&apos;s largest employers.
+              </p>
+              <div className="overflow-x-auto">
+                <table className="min-w-full text-sm text-left">
+                  <thead className="bg-gray-100 text-gray-900 font-semibold">
+                    <tr>
+                      <th className="px-4 py-3">Employer</th>
+                      <th className="px-4 py-3">Address</th>
+                      <th className="px-4 py-3">Industry</th>
+                      <th className="px-4 py-3">Service Notes</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-gray-200 bg-white">
+                    <tr>
+                      <td className="px-4 py-3 font-medium">Owasso Public Schools</td>
+                      <td className="px-4 py-3">1101 North 129th East Avenue, Owasso, OK 74055</td>
+                      <td className="px-4 py-3">Education</td>
+                      <td className="px-4 py-3">9,000+ students; admin building preferred for service</td>
+                    </tr>
+                    <tr>
+                      <td className="px-4 py-3 font-medium">Rejoice Christian Schools</td>
+                      <td className="px-4 py-3">10025 North 137th East Avenue, Owasso, OK 74055</td>
+                      <td className="px-4 py-3">Private Education</td>
+                      <td className="px-4 py-3">1,800+ students; main campus and athletic facilities</td>
+                    </tr>
+                    <tr>
+                      <td className="px-4 py-3 font-medium">Bailey Medical Center</td>
+                      <td className="px-4 py-3">10502 North 110th East Avenue, Owasso, OK 74055</td>
+                      <td className="px-4 py-3">Healthcare</td>
+                      <td className="px-4 py-3">400+ employees; HR department open 8 AM â€“ 5 PM</td>
+                    </tr>
+                    <tr>
+                      <td className="px-4 py-3 font-medium">Walmart Supercenter</td>
+                      <td className="px-4 py-3">12101 East 96th Street North, Owasso, OK 74055</td>
+                      <td className="px-4 py-3">Retail</td>
+                      <td className="px-4 py-3">300+ employees; management office at rear of store</td>
+                    </tr>
+                    <tr>
+                      <td className="px-4 py-3 font-medium">City of Owasso</td>
+                      <td className="px-4 py-3">111 North Main Street, Owasso, OK 74055</td>
+                      <td className="px-4 py-3">Government</td>
+                      <td className="px-4 py-3">Municipal complex; city clerk receives service</td>
+                    </tr>
+                    <tr>
+                      <td className="px-4 py-3 font-medium">Home Depot</td>
+                      <td className="px-4 py-3">11615 East 96th Street North, Owasso, OK 74055</td>
+                      <td className="px-4 py-3">Retail/Home Improvement</td>
+                      <td className="px-4 py-3">100+ employees; management office at customer service</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </section>
+
+          {/* Owasso-Specific FAQ */}
+          <section className="bg-white rounded-xl shadow-lg overflow-hidden mb-12">
+            <div className="p-6 bg-gradient-to-r from-amber-600 to-amber-700 text-white">
+              <h2 className="text-2xl font-bold mb-2">Owasso-Specific Questions</h2>
+              <p className="text-amber-100">Answers to frequently asked questions about Owasso service</p>
+            </div>
+            <div className="p-8">
+              <div className="space-y-6">
+                <div className="border-b border-gray-200 pb-5">
+                  <h3 className="font-semibold text-lg text-gray-800 mb-2">Q: Do Owasso cases file in Tulsa County or Rogers County?</h3>
+                  <p className="text-gray-600">
+                    It depends on the specific address. Most Owasso addresses file in <strong>Rogers County</strong> at the Claremore courthouse (219 South Missouri Avenue). However, some addresses on the southern and western edges of Owasso (particularly near the Tulsa city limits and along 129th East Avenue south of 86th Street) fall within <strong>Tulsa County</strong> jurisdiction and file at the Tulsa County Courthouse (500 South Denver Avenue). We verify the correct courthouse for every serve.
+                  </p>
+                </div>
+                <div className="border-b border-gray-200 pb-5">
+                  <h3 className="font-semibold text-lg text-gray-800 mb-2">Q: Can you serve papers inside gated communities like Stone Canyon or Bailey Ranch?</h3>
+                  <p className="text-gray-600">
+                    Yes. We coordinate with HOA management offices for legal entry into Owasso&apos;s gated golf-course communities. Alternatively, we serve defendants at their workplaces, the Owasso Public Schools administration building, or other non-gated locations where they are known to appear.
+                  </p>
+                </div>
+                <div className="border-b border-gray-200 pb-5">
+                  <h3 className="font-semibold text-lg text-gray-800 mb-2">Q: How do you handle rural addresses north of 116th Street in Owasso?</h3>
+                  <p className="text-gray-600">
+                    Rural Owasso addresses often have long driveways and limited house-number visibility. We use GPS coordinates, Rogers County assessor data, and satellite imagery to pre-verify locations. These unincorporated Rogers County addresses may also have different sheriff jurisdiction than city addresses.
+                  </p>
+                </div>
+                <div>
+                  <h3 className="font-semibold text-lg text-gray-800 mb-2">Q: Is same-day service available in Owasso?</h3>
+                  <p className="text-gray-600">
+                    Yes. Owasso is within our primary Tulsa metro service area. We provide standard ($60), rush ($150), and same-day ($265) service throughout all Owasso ZIP codes (74055, 74073, and surrounding rural routes).
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
           {/* Emergency Contact Section */}
           <section className="bg-gradient-to-r from-red-600 to-red-700 text-white rounded-xl shadow-lg overflow-hidden mb-12">
             <div className="p-8 text-center">
@@ -304,7 +453,6 @@ export default function OwassoProcessServer() {
             <div className="p-8">
               <GoogleMapsEmbed 
                 countyName="Tulsa County"
-                cityName="Owasso"
                 state="Oklahoma"
                 title="Owasso Process Server Service Area"
               />
@@ -320,7 +468,7 @@ export default function OwassoProcessServer() {
             <div className="p-8">
               <div className="grid md:grid-cols-3 gap-6">
                 <div>
-                  <h3 className="font-bold text-gray-900 mb-4 text-lg">📍 Nearby Service Areas</h3>
+                  <h3 className="font-bold text-gray-900 mb-4 text-lg">ðŸ“ Nearby Service Areas</h3>
                   <ul className="space-y-2">
                     <li><Link href="/process-serving" className="text-blue-600 hover:text-blue-800 underline">process serving</Link>
                   <Link href="/tulsa-process-server" className="text-blue-600 hover:underline">Tulsa Process Server</Link></li>
@@ -333,7 +481,7 @@ export default function OwassoProcessServer() {
                 </div>
                 
                 <div>
-                  <h3 className="font-bold text-gray-900 mb-4 text-lg">📚 Helpful Guides</h3>
+                  <h3 className="font-bold text-gray-900 mb-4 text-lg">ðŸ“š Helpful Guides</h3>
                   <ul className="space-y-2">
                     <li><Link href="/oklahoma-process-server-faq" className="text-blue-600 hover:underline">Process Serving FAQ 2026</Link></li>
                     <li><Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma Process Server Laws</Link></li>
@@ -344,7 +492,7 @@ export default function OwassoProcessServer() {
                 </div>
                 
                 <div>
-                  <h3 className="font-bold text-gray-900 mb-4 text-lg">🏢 Our Services</h3>
+                  <h3 className="font-bold text-gray-900 mb-4 text-lg">ðŸ¢ Our Services</h3>
                   <ul className="space-y-2">
                     <li><Link href="/law-firm-services" className="text-blue-600 hover:underline">Law Firm Services</Link></li>
                     <li><Link href="/weekend-emergency" className="text-blue-600 hover:underline">Emergency Process Service</Link></li>
@@ -388,7 +536,7 @@ export default function OwassoProcessServer() {
               href="/service-areas"
               className="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold text-lg transition-colors"
             >
-              ← Browse All Oklahoma Service Areas
+              â† Browse All Oklahoma Service Areas
             </Link>
           </div>
         </div>
