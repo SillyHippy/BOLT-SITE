@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import { Metadata } from 'next';
 import { ChevronRight, ShieldAlert, Search, FileText, UserX, Gavel, Clock, MapPin, Phone } from 'lucide-react';

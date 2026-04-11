@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import { ChevronRight, Building2, Scale, Clock, FileText, AlertTriangle, CheckCircle, Phone } from 'lucide-react';
 import { Navbar } from '@/components/ui/navbar';

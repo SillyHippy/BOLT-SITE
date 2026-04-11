@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import { ChevronRight, FileText, Shield, UserCheck, Clock, AlertTriangle, CheckCircle, BookOpen, Scale } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';

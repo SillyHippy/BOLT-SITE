@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import { Metadata } from 'next';
 import { ChevronRight, Building2, FileText, Scale, Users, Shield, MapPin, Phone, Clock, Gavel } from 'lucide-react';
