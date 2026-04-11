@@ -223,7 +223,7 @@ const localBusinessSchema = {
 
 const notaryServiceSchema = {
   '@context': 'https://schema.org',
-  '@type': 'NotaryService',
+  '@type': 'ProfessionalService',
   name: 'Tulsa County Mobile Notary Services',
   provider: {
     '@type': 'Organization',

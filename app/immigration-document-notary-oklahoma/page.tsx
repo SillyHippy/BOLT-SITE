@@ -167,7 +167,7 @@ const faqs = [
 
 const localBusinessSchema = {
   '@context': 'https://schema.org',
-  '@type': 'NotaryService',
+  '@type': 'ProfessionalService',
   'name': 'Just Legal Solutions - Immigration Document Notary Tulsa',
   'description': 'Professional notary services for immigration documents including I-130, I-485, I-751, and I-864 notarization. Bilingual services available.',
   'url': canonicalUrl,
@@ -202,7 +202,7 @@ const serviceSchema = {
   '@type': 'Service',
   'serviceType': 'Immigration Document Notarization',
   'provider': {
-    '@type': 'NotaryService',
+    '@type': 'ProfessionalService',
     'name': 'Just Legal Solutions',
     'telephone': '+1-539-367-6832'
   },

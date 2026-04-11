@@ -346,7 +346,7 @@ const faqItems = [
 
 const serviceSchema = {
   '@context': 'https://schema.org',
-  '@type': 'NotaryService',
+  '@type': 'ProfessionalService',
   name: 'Just Legal Solutions Remote Online Notary',
   url: canonicalUrl,
   telephone: '(539) 367-6832',

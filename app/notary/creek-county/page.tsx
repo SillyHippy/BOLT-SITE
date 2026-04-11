@@ -186,7 +186,7 @@ const localBusinessSchema = {
 
 const notaryServiceSchema = {
   '@context': 'https://schema.org',
-  '@type': 'NotaryService',
+  '@type': 'ProfessionalService',
   name: 'Creek County Notary Services',
   provider: {
     '@type': 'Organization',

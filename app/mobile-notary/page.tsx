@@ -352,7 +352,7 @@ const faqs: FAQItem[] = [
 
 const notaryServiceSchema = {
   '@context': 'https://schema.org',
-  '@type': 'NotaryService',
+  '@type': 'ProfessionalService',
   name: 'Just Legal Solutions Mobile Notary',
   url: canonicalUrl,
   image: 'https://justlegalsolutions.org/images/notary-mobile-og.jpg',
