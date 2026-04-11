@@ -18,7 +18,8 @@ Allow: /speakable-schema.json
 # Block internal/admin paths
 Disallow: /admin/
 Disallow: /private/
-Disallow: /*.json$
+# Allow AI-facing schema files explicitly (block only non-schema .json in private paths)
+Disallow: /private/*.json$
 Disallow: /*?*print=
 Disallow: /*?q=
 Disallow: /*?search=
