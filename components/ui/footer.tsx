@@ -793,7 +793,7 @@ export function Footer() {
             </div>
             {/* Disclaimer - center */}
             <div className="text-center order-2 md:order-2 w-full md:w-auto space-y-1">
-              <p className="text-sm font-semibold text-gray-600">🏠 Locally Owned &amp; Operated — Glenpool, Oklahoma</p>
+              <p className="text-sm font-semibold text-gray-600">🏠 Locally Owned &amp; Operated — Tulsa County, Oklahoma</p>
               <p className="text-sm text-gray-500">Disclaimer: Just Legal Solutions is not a law firm. For legal questions, please consult a licensed attorney.</p>
             </div>
             {/* Social Media Links - right side */}
