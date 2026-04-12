@@ -118,19 +118,6 @@ try {
 `;
   });
 
-  // Also include the /videos hub page
-  sitemapXml += `  <url>
-    <loc>https://justlegalsolutions.org/videos</loc>
-    <video:video>
-      <video:thumbnail_loc>https://justlegalsolutions.org/images/jls-logo.webp</video:thumbnail_loc>
-      <video:title>Oklahoma Process Serving &amp; Notary Video Guides</video:title>
-      <video:description>Watch 42 free educational videos on Oklahoma process serving, notary services, skip tracing, pricing, and more from Joseph Iannazzi — Tulsa's #1 rated process server.</video:description>
-      <video:player_loc>https://justlegalsolutions.org/videos</video:player_loc>
-      <video:publication_date>2026-04-01T00:00:00+00:00</video:publication_date>
-      <video:uploader>Just Legal Solutions</video:uploader>
-    </video:video>
-  </url>
-`;
 
   sitemapXml += `</urlset>\n`;
 
@@ -144,8 +131,6 @@ try {
 
   console.log('✅ Generated public/video-sitemap.xml successfully.');
   console.log(`   - ${ALL_VIDEOS.length} individual video pages`);
-  console.log(`   - 1 videos hub page`);
-  console.log(`   - Total: ${ALL_VIDEOS.length + 1} video entries`);
 
 } catch (err) {
   console.error('Error generating video sitemap:', err);
