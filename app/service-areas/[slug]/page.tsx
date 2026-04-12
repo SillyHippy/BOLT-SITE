@@ -235,10 +235,10 @@ export async function generateMetadata({
   const content = getLocationContent(slug);
   const locationName = slugToLocationName(slug);
   const rawTitle = extractTitle(content);
-  // CTR-optimized title — no specific dollar amounts, route to /pricing
-  const title = `Process Server ${locationName}, OK | Same-Day Service Available`;
+  // CTR-optimized title — pricing in metadata, not in FAQs
+  const title = `Process Server ${locationName}, OK | From $60 | Same-Day Available`;
   const description =
-    `Licensed process server in ${locationName}, OK. Same-day service available. GPS-tracked, court-ready affidavits. Call (539) 367-6832.`;
+    `Licensed process server in ${locationName}, OK. Standard service from $60, rush & same-day available. GPS-tracked, court-ready affidavits. Call (539) 367-6832.`;
 
   return {
     title,
