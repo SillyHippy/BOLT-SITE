@@ -189,7 +189,12 @@ const sections: SitemapSection[] = [
       { url: '/service-areas/wagoner', label: 'Wagoner' },
       { url: '/service-areas/yukon', label: 'Yukon' },
     
-    ],
+      { url: '/service-areas/checotah', label: 'Checotah' },
+      { url: '/service-areas/fort-sill', label: 'Fort Sill' },
+      { url: '/service-areas/henryetta', label: 'Henryetta' },
+      { url: '/service-areas/idabel', label: 'Idabel' },
+      { url: '/service-areas/stilwell', label: 'Stilwell' },
+        ],
   },
   {
     title: 'Service Areas — Counties',

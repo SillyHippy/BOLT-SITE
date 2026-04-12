@@ -55,7 +55,7 @@ interface LocationData {
   courthouse: CourthouseInfo;
   additionalCourts: { label: string; address: string; phone: string }[];
   parking: string[];
-  pricing: { standard: string; rush: string; sameDay: string };
+
   distances: { destination: string; driveTime: string; turnaround: string }[];
   employers: EmployerInfo[];
   neighborhoods: string[];
@@ -143,15 +143,9 @@ function parseLocationData(content: string, slug: string): LocationData {
   const parkingSection = courthouseSection.match(/### Parking[\s\S]*?(?=###|$)/i);
   const parking = parkingSection ? parseBullets(parkingSection[0]) : [];
 
-  // Pricing from contact table
+  // Contact table (for region label)
   const contactSection = parseSection(content, 'Contact Information');
   const contactRows = parseTableRows(contactSection);
-  let standard = '$60', rush = '$150', sameDay = '$265';
-  for (const row of contactRows) {
-    if (/standard/i.test(row[0])) standard = row[1] || '$60';
-    if (/rush/i.test(row[0])) rush = row[1] || '$150';
-    if (/same.?day/i.test(row[0])) sameDay = row[1] || '$265';
-  }
 
   // Region label
   const regionMatch = contactRows.find(r => /service area/i.test(r[0]));
@@ -215,7 +209,7 @@ function parseLocationData(content: string, slug: string): LocationData {
     },
     additionalCourts,
     parking,
-    pricing: { standard, rush, sameDay },
+
     distances,
     employers,
     neighborhoods,
@@ -288,7 +282,7 @@ export default async function LocationPage({
   const data = parseLocationData(content, slug);
   const {
     title, description, locationName, countyName, intro,
-    courthouse, additionalCourts, parking, pricing, distances,
+    courthouse, additionalCourts, parking, distances,
     employers, neighborhoods, faqs, adjacentCities, serviceTips,
     aboutText, population, regionLabel,
   } = data;

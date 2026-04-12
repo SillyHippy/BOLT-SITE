@@ -311,6 +311,11 @@ const majorCities = [
   { name: "Pawhuska", county: "Osage", population: "3,482", link: "/service-areas/pawhuska" },
   { name: "Atoka", county: "Atoka", population: "3,000", link: "/service-areas/atoka" },
   { name: "Kellyville", county: "Creek", population: "1,047", link: "/service-areas/kellyville" },
+  { name: "Checotah", county: "McIntosh", population: "3,245", link: "/service-areas/checotah" },
+  { name: "Fort Sill", county: "Comanche", population: "8,000", link: "/service-areas/fort-sill" },
+  { name: "Henryetta", county: "Okmulgee", population: "5,927", link: "/service-areas/henryetta" },
+  { name: "Idabel", county: "McCurtain", population: "6,753", link: "/service-areas/idabel" },
+  { name: "Stilwell", county: "Adair", population: "4,081", link: "/service-areas/stilwell" },
 ];
 
 export default function ServiceAreasHub() {
