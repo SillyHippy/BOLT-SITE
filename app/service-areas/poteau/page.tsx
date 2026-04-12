@@ -1,151 +1,278 @@
-﻿import { Metadata } from 'next';
+import { Metadata } from 'next';
 import Link from 'next/link';
+import { Phone, FileText, MapPin, DollarSign, AlertCircle, Calendar, Users, Building } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
+import GoogleMapsEmbed from '@/components/ui/google-maps-embed';
 
 export const metadata: Metadata = {
-  title: "Process Server Poteau, OK | LeFlore County Seat",
-  description: "Licensed process server in Poteau, Oklahoma. Serving LeFlore County District Court and the Choctaw Nation. Rush and same-day available.",
-  keywords: "process server Poteau OK, legal document service Poteau Oklahoma, serve papers Poteau, court documents Poteau, subpoena service Poteau, licensed process server Oklahoma",
+  title: 'Process Server Poteau, OK | LeFlore County Seat',
+  description: 'Licensed process server in Poteau, Oklahoma. Serving LeFlore County District Court and the Choctaw Nation. Rush and same-day available.',
+  keywords: 'process server Poteau OK, serve papers Poteau Oklahoma, legal document service Poteau, subpoena service Poteau',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   robots: { index: true, follow: true },
   openGraph: {
-    title: "Process Server Poteau, OK | LeFlore County Seat",
-    description: "Licensed process server in Poteau, Oklahoma. Serving LeFlore County District Court and the Choctaw Nation. Rush and same-day available.",
-    url: "https://justlegalsolutions.org/service-areas/poteau",
+    title: 'Process Server Poteau, OK | LeFlore County Seat',
+    description: 'Licensed process server in Poteau, Oklahoma. Serving LeFlore County District Court and the Choctaw Nation. Rush and same-day available.',
+    url: 'https://justlegalsolutions.org/service-areas/poteau',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'website',
   },
   alternates: {
-    canonical: "https://justlegalsolutions.org/service-areas/poteau",
+    canonical: 'https://justlegalsolutions.org/service-areas/poteau',
   },
 };
+
+const pageFAQs: { question: string; answer: string }[] = [
+  { question: 'Do all LeFlore County cases file at the Leflore County Courthouse?', answer: 'Yes. All district-court civil, family, and felony cases for LeFlore County residents file at the Leflore County Courthouse. Municipal cases are handled separately at the local municipal court.' },
+  { question: 'Is same-day process service available?', answer: 'Yes. Our same-day service can cover Poteau and all surrounding areas. Call before noon for best scheduling.' },
+  { question: 'Do you notarize affidavits of service?', answer: 'Yes. Every completed service includes a signed, notarized Affidavit of Service prepared to Oklahoma Statutes §12-2004 standards.' },
+];
+
+const employers: { name: string; address: string; industry: string; notes: string }[] = [
+  { name: 'LeFlore County Government', address: '', industry: 'Government', notes: 'County offices.' },
+  { name: 'Poteau Public Schools', address: '', industry: 'Education', notes: 'Local district.' },
+  { name: 'City of Poteau', address: '', industry: 'Government', notes: 'Municipal services.' },
+  { name: 'Walmart', address: '', industry: 'Retail', notes: 'Main retail employer.' },
+  { name: 'Choctaw Nation', address: '', industry: 'Tribal Government', notes: 'Regional tribal offices.' },
+];
 
 export default function PoteauProcessServerPage() {
   return (
     <div className="min-h-screen bg-gray-50">
-      <section className="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 text-white py-16 md:py-20">
+
+      {/* Hero */}
+      <section className="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 text-white py-16 md:py-24">
         <div className="container mx-auto px-4 md:px-6 max-w-5xl">
-          <nav className="text-sm mb-6 text-blue-200">
-            <Link href="/" className="hover:text-white">Home</Link>
+          <nav className="text-sm mb-6 text-blue-200" aria-label="Breadcrumb">
+            <Link href="/" className="hover:text-white transition-colors">Home</Link>
             <span className="mx-2">/</span>
-            <Link href="/service-areas" className="hover:text-white">Service Areas</Link>
+            <Link href="/service-areas" className="hover:text-white transition-colors">Service Areas</Link>
             <span className="mx-2">/</span>
-            <span className="text-white">Poteau</span>
+            <span className="text-white font-medium">Poteau</span>
           </nav>
-          <div className="inline-block bg-yellow-500 text-blue-900 px-4 py-1 rounded-full text-sm font-bold mb-4">
-            Licensed Oklahoma Process Server
+          <div className="inline-block bg-yellow-400 text-blue-900 px-4 py-1 rounded-full text-sm font-bold mb-5 uppercase tracking-wide">
+            Licensed — PSL-2026-2
           </div>
-          <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-4">Process Server Poteau, OK | LeFlore County Seat</h1>
-          <p className="text-xl text-blue-100 mb-8 max-w-3xl">Licensed process server in Poteau, Oklahoma. Serving LeFlore County District Court and the Choctaw Nation. Rush and same-day available.</p>
+          <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-5">
+            Process Server<br className="hidden md:block" /> Poteau, Oklahoma
+          </h1>
+          <div className="flex flex-wrap gap-4 mb-4 text-blue-200 text-sm">
+            <span className="flex items-center gap-1"><Users className="h-4 w-4" /> Population: 8,959</span>
+            
+            <span>🚗 140 min from OKC</span>
+            <span>🚗 85 min from Tulsa</span>
+          </div>
+          <p className="text-lg text-blue-100 mb-4 italic">The county seat of LeFlore County at the base of Cavanal Hill, the 'World's Highest Hill'..</p>
+          <p className="text-xl text-blue-100 mb-8 max-w-3xl leading-relaxed">
+            Licensed process server in Poteau, Oklahoma. Serving LeFlore County District Court and the Choctaw Nation. Rush and same-day available.
+          </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <a href="tel:5393676832" className="bg-yellow-500 hover:bg-yellow-400 text-blue-900 font-bold py-4 px-8 rounded-lg text-center transition-colors shadow-lg text-lg">
-              Call (539) 367-6832
+            <a href="tel:5393676832" className="bg-yellow-400 hover:bg-yellow-300 text-blue-900 font-bold py-4 px-8 rounded-xl text-center transition-all shadow-xl text-lg flex items-center justify-center gap-2">
+              <Phone className="h-5 w-5" /> Call (539) 367-6832
             </a>
-            <Link href="/contact" className="bg-white/10 hover:bg-white/20 border border-white/30 text-white font-semibold py-4 px-8 rounded-lg text-center transition-colors">
-              Get a Free Quote
+            <Link href="/contact" className="bg-white/10 hover:bg-white/20 border border-white/30 text-white font-semibold py-4 px-8 rounded-xl text-center transition-all flex items-center justify-center gap-2">
+              <FileText className="h-5 w-5" /> Get a Free Quote
             </Link>
           </div>
           <div className="mt-8 flex flex-wrap gap-6 text-blue-200 text-sm">
-            <span>Standard from $60</span>
-            <span>Rush $150</span>
-            <span>Same-Day $265</span>
-            <span>GPS-tracked</span>
-            <span>Court-ready affidavits</span>
+            <span>✓ Standard Service</span>
+            <span>✓ Rush Service</span>
+            <span>✓ Same-Day Service</span>
+            <span>✓ GPS-tracked every attempt</span>
+            <span>✓ Notarized affidavit included</span>
+            <Link href="/pricing" className="underline underline-offset-2 hover:text-white transition-colors">View Current Pricing →</Link>
           </div>
         </div>
       </section>
 
-      <div className="container mx-auto px-4 md:px-6 max-w-5xl py-12">
-        <section className="bg-white rounded-xl shadow-md p-8 mb-10">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">Process Serving in Poteau, Oklahoma</h2>
-          <p className="text-gray-700 leading-relaxed mb-4">
-            Just Legal Solutions provides licensed, GPS-verified process serving throughout Poteau, Oklahoma. We serve subpoenas, summonses, divorce papers, eviction notices, protective orders, and civil litigation documents throughout the area. Our servers verify addresses through county assessor records and USPS data, and deliver notarized, court-ready affidavits after every serve.
-          </p>
-          <p className="text-gray-700 leading-relaxed">
-            We are licensed by the State of Oklahoma (PSL-2026-2), bonded, and have completed over 156 verified five-star serves across northeastern, central, and western Oklahoma.
-          </p>
+      <div className="container mx-auto px-4 md:px-6 max-w-5xl py-12 space-y-10">
+
+        {/* Courthouse Info */}
+        <section className="bg-white rounded-2xl shadow-lg overflow-hidden">
+          <div className="p-6 bg-gradient-to-r from-slate-700 to-slate-800 text-white">
+            <h2 className="text-2xl font-bold mb-1">Courthouse &amp; Filing Information</h2>
+            <p className="text-slate-300">Poteau, Oklahoma</p>
+          </div>
+          <div className="p-8 space-y-4">
+            <div className="bg-blue-50 border border-blue-200 rounded-xl p-5">
+              <p className="font-semibold text-lg text-gray-900">LeFlore County Courthouse</p>
+              <p className="text-gray-700">PO Box 607, Poteau, OK 74953</p>
+              <p className="text-gray-600 text-sm mt-1">📞 (918) 647-3181</p>
+              <p className="text-gray-500 text-xs mt-1">🕐 Mon-Fri 8:00 AM - 4:30 PM</p>
+              
+            </div>
+            
+            
+            <div className="bg-orange-50 border border-orange-200 rounded-xl p-4">
+              <p className="font-semibold text-orange-800">Local Service Notes</p>
+              <p className="text-orange-700 text-sm">Ouachita Mountain roads can be winding and slow for same-day service.</p>
+            </div>
+          </div>
         </section>
 
-        <section className="bg-white rounded-xl shadow-md p-8 mb-10">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">Service Pricing for Poteau</h2>
-          <div className="overflow-x-auto">
+        {/* Service Areas */}
+        <section className="bg-white rounded-2xl shadow-lg overflow-hidden">
+          <div className="p-6 bg-gradient-to-r from-indigo-600 to-indigo-700 text-white">
+            <h2 className="text-2xl font-bold mb-1">Where We Serve Papers in Poteau</h2>
+            <p className="text-indigo-100">Local coverage across LeFlore County</p>
+          </div>
+          <div className="p-8 grid md:grid-cols-2 gap-6">
+            <div className="bg-gray-50 p-5 rounded-xl">
+              <h3 className="font-semibold text-gray-900 mb-2">Downtown Poteau</h3>
+              <p className="text-gray-700 text-sm">Courthouse district at the base of Cavanal Hill.</p>
+            </div>
+            <div className="bg-gray-50 p-5 rounded-xl">
+              <h3 className="font-semibold text-gray-900 mb-2">North Poteau</h3>
+              <p className="text-gray-700 text-sm">Residential neighborhoods and schools.</p>
+            </div>
+            <div className="bg-gray-50 p-5 rounded-xl">
+              <h3 className="font-semibold text-gray-900 mb-2">Poteau South</h3>
+              <p className="text-gray-700 text-sm">Rural lots approaching the Ouachita Mountains.</p>
+            </div>
+            <div className="bg-gray-50 p-5 rounded-xl">
+              <h3 className="font-semibold text-gray-900 mb-2">Pocola Border</h3>
+              <p className="text-gray-700 text-sm">Residential areas near the Pocola line.</p>
+            </div>
+          </div>
+        </section>
+
+        {employers.length > 0 && (
+        <section className="bg-white rounded-2xl shadow-lg overflow-hidden">
+          <div className="p-6 bg-gradient-to-r from-emerald-600 to-emerald-700 text-white">
+            <h2 className="text-2xl font-bold mb-1">Major Employers &amp; Workplace Service</h2>
+            <p className="text-emerald-100">Serving businesses and employees in Poteau</p>
+          </div>
+          <div className="p-8 overflow-x-auto">
             <table className="min-w-full text-sm">
-              <thead className="bg-blue-900 text-white">
+              <thead className="bg-gray-100 text-gray-800 font-semibold">
                 <tr>
-                  <th className="px-4 py-3 text-left">Service Level</th>
-                  <th className="px-4 py-3 text-left">Turnaround</th>
-                  <th className="px-4 py-3 text-left">Price</th>
-                  <th className="px-4 py-3 text-left">What's Included</th>
+                  <th className="px-4 py-3 text-left">Employer</th>
+                  <th className="px-4 py-3 text-left">Address</th>
+                  <th className="px-4 py-3 text-left">Industry</th>
+                  <th className="px-4 py-3 text-left">Service Notes</th>
                 </tr>
               </thead>
-              <tbody className="divide-y divide-gray-200">
-                <tr className="bg-white">
-                  <td className="px-4 py-3 font-semibold">Standard Service</td>
-                  <td className="px-4 py-3">2-3 business days</td>
-                  <td className="px-4 py-3 font-bold text-blue-700">$60</td>
-                  <td className="px-4 py-3">3 attempts, notarized affidavit, GPS documentation</td>
-                </tr>
-                <tr className="bg-gray-50">
-                  <td className="px-4 py-3 font-semibold">Rush Service</td>
-                  <td className="px-4 py-3">Next business day</td>
-                  <td className="px-4 py-3 font-bold text-blue-700">$150</td>
-                  <td className="px-4 py-3">Priority same-day attempt, same features</td>
-                </tr>
-                <tr className="bg-white">
-                  <td className="px-4 py-3 font-semibold">Same-Day Service</td>
-                  <td className="px-4 py-3">Within 24 hours</td>
-                  <td className="px-4 py-3 font-bold text-blue-700">$265</td>
-                  <td className="px-4 py-3">Immediate deployment, all features</td>
-                </tr>
+              <tbody className="divide-y divide-gray-200 bg-white">
+                {employers.map((emp, i) => (
+                  <tr key={i} className={i % 2 === 1 ? 'bg-gray-50' : ''}>
+                    <td className="px-4 py-3 font-medium">{emp.name}</td>
+                    <td className="px-4 py-3 text-gray-600">{emp.address}</td>
+                    <td className="px-4 py-3 text-gray-600">{emp.industry}</td>
+                    <td className="px-4 py-3 text-gray-600">{emp.notes}</td>
+                  </tr>
+                ))}
               </tbody>
             </table>
           </div>
         </section>
+        )}
 
-        <section className="bg-white rounded-xl shadow-md p-8 mb-10">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">Poteau FAQ</h2>
-          <div className="space-y-5">
-                <div className="border-b border-gray-200 pb-5 last:border-0">
-                  <h3 className="font-semibold text-lg text-gray-800 mb-2">How does Choctaw Nation tribal jurisdiction work in Poteau?</h3>
-                  <p className="text-gray-600">Poteau sits within the boundaries of the Choctaw Nation of Oklahoma. While most civil and criminal cases are handled by the state court system (LeFlore County District Court), some matters involving tribal members or tribal lands may fall under tribal court jurisdiction. We can serve documents in either venue once your attorney has confirmed the correct court.</p>
-                </div>
-                <div className="border-b border-gray-200 pb-5 last:border-0">
-                  <h3 className="font-semibold text-lg text-gray-800 mb-2">Can you serve Carl Albert State College students on campus?</h3>
-                  <p className="text-gray-600">We serve CASC students at their on-campus or off-campus residences. We verify current occupancy before attempting service, especially at semester breaks when student housing turnover is highest.</p>
-                </div>
-                <div className="border-b border-gray-200 pb-5 last:border-0">
-                  <h3 className="font-semibold text-lg text-gray-800 mb-2">Is same-day service available in Poteau?</h3>
-                  <p className="text-gray-600">Yes. Poteau is within our southeastern Oklahoma service area. Same-Day service ($265) is typically available. Call (539) 367-6832 to confirm availability.</p>
-                </div>
+        {/* Pricing */}
+        <section className="bg-white rounded-2xl shadow-lg overflow-hidden">
+          <div className="p-6 bg-gradient-to-r from-blue-700 to-blue-800 text-white">
+            <h2 className="text-2xl font-bold mb-1 flex items-center gap-2"><DollarSign className="h-6 w-6" /> Pricing for Poteau</h2>
+            <p className="text-blue-100">Flat rates — no hidden mileage fees in LeFlore County</p>
           </div>
-          <div className="mt-6 pt-4 border-t border-gray-200">
-            <Link href="/oklahoma-process-server-faq" className="text-blue-600 hover:underline text-sm">
-              View our complete Oklahoma Process Server FAQ
-            </Link>
+          <div className="p-8">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
+              <div className="bg-gray-50 rounded-xl p-5 text-center border border-gray-200">
+                <p className="font-bold text-gray-900 text-lg mb-1">Standard Service</p>
+                <p className="text-sm text-gray-600">2–3 business days</p>
+                <p className="text-xs text-gray-400 mt-2">3 attempts · GPS affidavit · Photo docs</p>
+              </div>
+              <div className="bg-blue-50 rounded-xl p-5 text-center border border-blue-200">
+                <p className="font-bold text-gray-900 text-lg mb-1">Rush Service</p>
+                <p className="text-sm text-gray-600">Next business day</p>
+                <p className="text-xs text-gray-400 mt-2">Priority scheduling · All features</p>
+              </div>
+              <div className="bg-red-50 rounded-xl p-5 text-center border border-red-200">
+                <p className="font-bold text-gray-900 text-lg mb-1">Same-Day Service</p>
+                <p className="text-sm text-gray-600">Call before noon</p>
+                <p className="text-xs text-gray-400 mt-2">Immediate deployment · Poteau coverage</p>
+              </div>
+            </div>
+            <div className="text-center">
+              <Link href="/pricing" className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-xl transition-colors shadow">
+                <DollarSign className="h-4 w-4" /> View Current Rates &amp; Full Pricing
+              </Link>
+              <p className="text-xs text-gray-500 mt-3">All rates are flat — no hidden mileage fees in LeFlore County.</p>
+            </div>
           </div>
         </section>
 
-        <section className="bg-blue-50 rounded-xl p-8 mb-10">
-          <h2 className="text-xl font-bold text-gray-900 mb-5">Related Resources</h2>
-          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 text-sm">
-            <Link href="/service-areas" className="bg-white p-3 rounded-lg text-blue-700 font-medium hover:bg-blue-100 transition text-center">All Service Areas</Link>
-            <Link href="/tulsa-process-server" className="bg-white p-3 rounded-lg text-blue-700 font-medium hover:bg-blue-100 transition text-center">Tulsa Process Server</Link>
-            <Link href="/oklahoma-process-server-laws" className="bg-white p-3 rounded-lg text-blue-700 font-medium hover:bg-blue-100 transition text-center">Oklahoma Process Serving Laws</Link>
-            <Link href="/oklahoma-process-server-faq" className="bg-white p-3 rounded-lg text-blue-700 font-medium hover:bg-blue-100 transition text-center">Process Server FAQ</Link>
-            <Link href="/pricing" className="bg-white p-3 rounded-lg text-blue-700 font-medium hover:bg-blue-100 transition text-center">Pricing Guide</Link>
-            <Link href="/contact" className="bg-white p-3 rounded-lg text-blue-700 font-medium hover:bg-blue-100 transition text-center">Contact Us</Link>
+        {pageFAQs.length > 0 && (
+        <section className="bg-white rounded-2xl shadow-lg overflow-hidden">
+          <div className="p-6 bg-gradient-to-r from-teal-600 to-teal-700 text-white">
+            <h2 className="text-2xl font-bold mb-1">Poteau FAQ</h2>
+            <p className="text-teal-100">Local process serving questions answered</p>
+          </div>
+          <div className="p-8 space-y-6">
+            {pageFAQs.map((faq, i) => (
+              <div key={i} className="border-b border-gray-200 pb-6 last:border-0 last:pb-0">
+                <h3 className="font-semibold text-lg text-gray-800 mb-2">Q: {faq.question}</h3>
+                <p className="text-gray-600 leading-relaxed">{faq.answer}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+        )}
+
+        {/* Emergency CTA */}
+        <section className="bg-gradient-to-r from-red-600 to-red-700 text-white rounded-2xl shadow-lg">
+          <div className="p-8 text-center">
+            <AlertCircle className="h-14 w-14 mx-auto mb-5 text-red-200" />
+            <h2 className="text-3xl font-bold mb-3">Emergency Process Service in Poteau?</h2>
+            <p className="text-xl mb-6 text-red-100">Available 24/7 for urgent legal document service across LeFlore County</p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a href="tel:5393676832" className="bg-white text-red-600 hover:bg-red-50 px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-lg flex items-center justify-center gap-2">
+                <Phone className="h-5 w-5" /> Emergency: (539) 367-6832
+              </a>
+              <Link href="/contact" className="bg-red-800 hover:bg-red-900 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all flex items-center justify-center gap-2">
+                <Calendar className="h-5 w-5" /> Schedule Service
+              </Link>
+            </div>
           </div>
         </section>
 
-        <section className="bg-blue-900 text-white rounded-xl p-8 text-center">
-          <h2 className="text-2xl font-bold mb-3">Need a Process Server in </h2>
-          <p className="text-blue-100 mb-6 max-w-2xl mx-auto">Licensed, bonded, and GPS-verified. Flat-rate pricing that covers every address in Poteau, Oklahoma.</p>
-          <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <a href="tel:5393676832" className="bg-yellow-500 hover:bg-yellow-400 text-blue-900 font-bold py-4 px-8 rounded-lg transition-colors text-lg">Call (539) 367-6832</a>
-            <Link href="/contact" className="bg-blue-700 hover:bg-blue-600 text-white font-semibold py-4 px-8 rounded-lg transition-colors">Get a Free Quote Online</Link>
+        {/* Map */}
+        <section className="bg-white rounded-2xl shadow-lg overflow-hidden">
+          <div className="p-6 bg-gradient-to-r from-blue-600 to-blue-700 text-white">
+            <h2 className="text-2xl font-bold mb-1 flex items-center gap-2"><MapPin className="h-6 w-6" /> Poteau Service Area Map</h2>
+            <p className="text-blue-100">GPS-verified coverage throughout LeFlore County</p>
+          </div>
+          <div className="p-8">
+            <GoogleMapsEmbed
+              countyName="LeFlore County"
+              cityName="Poteau"
+              state="Oklahoma"
+              title="Poteau Process Server Service Area"
+            />
           </div>
         </section>
+
+        {/* Final CTA */}
+        <section className="bg-gradient-to-r from-blue-700 to-blue-800 text-white rounded-2xl shadow-lg">
+          <div className="p-8 text-center">
+            <h2 className="text-3xl font-bold mb-3">Ready to Serve Papers in Poteau?</h2>
+            <p className="text-xl mb-6 text-blue-100">GPS-tracked, notarized, court-ready — in LeFlore County.</p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a href="tel:5393676832" className="bg-white text-blue-700 hover:bg-blue-50 px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-lg flex items-center justify-center gap-2">
+                <Phone className="h-5 w-5" /> Call (539) 367-6832
+              </a>
+              <Link href="/contact" className="bg-blue-900 hover:bg-blue-950 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all flex items-center justify-center gap-2">
+                <FileText className="h-5 w-5" /> Get Free Quote
+              </Link>
+            </div>
+          </div>
+        </section>
+
+        <div className="text-center py-4">
+          <Link href="/service-areas" className="text-blue-600 hover:text-blue-800 font-semibold transition-colors">
+            ← Browse All Service Areas
+          </Link>
+        </div>
+
       </div>
 
       <UnifiedSchema
@@ -153,7 +280,13 @@ export default function PoteauProcessServerPage() {
         url="https://justlegalsolutions.org/service-areas/poteau"
         title="Process Server Poteau, OK | LeFlore County Seat"
         description="Licensed process server in Poteau, Oklahoma. Serving LeFlore County District Court and the Choctaw Nation. Rush and same-day available."
+        faqItems={pageFAQs.slice(0, 4)}
         aggregateRating={{ ratingValue: 4.9, reviewCount: 156 }}
+        breadcrumbItems={[
+          { name: 'Home', item: 'https://justlegalsolutions.org' },
+          { name: 'Service Areas', item: 'https://justlegalsolutions.org/service-areas' },
+          { name: 'Poteau', item: 'https://justlegalsolutions.org/service-areas/poteau' },
+        ]}
       />
     </div>
   );

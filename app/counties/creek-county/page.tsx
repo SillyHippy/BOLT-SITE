@@ -1,4 +1,4 @@
-﻿import { Metadata } from 'next';
+import { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, CheckCircle, Star, Calendar, FileText, Scale, AlertCircle } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
@@ -132,7 +132,7 @@ export default function CreekCountyProcessServer() {
                 Process Server{' '}<span className="text-yellow-400">Creek County, Oklahoma</span>
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-blue-100">
-                County-Wide Legal Document Service â€¢ All Cities & Towns â€¢ Professional Excellence
+                County-Wide Legal Document Service • All Cities & Towns • Professional Excellence
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
                 <Link 
@@ -217,7 +217,7 @@ export default function CreekCountyProcessServer() {
                   href="/service-areas/sapulpa"
                   className="text-blue-600 hover:text-blue-800 font-medium text-sm"
                 >
-                  Learn More â†’
+                  Learn More →
                 </Link>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
@@ -228,7 +228,7 @@ export default function CreekCountyProcessServer() {
                   href="/service-areas/bristow"
                   className="text-blue-600 hover:text-blue-800 font-medium text-sm"
                 >
-                  Learn More â†’
+                  Learn More →
                 </Link>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
@@ -239,7 +239,7 @@ export default function CreekCountyProcessServer() {
                   href="/service-areas/kellyville"
                   className="text-blue-600 hover:text-blue-800 font-medium text-sm"
                 >
-                  Learn More â†’
+                  Learn More →
                 </Link>
               </div>
             </div>
@@ -251,7 +251,7 @@ export default function CreekCountyProcessServer() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl font-bold mb-8">Ready to Serve Your Legal Documents in Creek County?</h2>
             <p className="text-xl mb-8 text-blue-100">
-              Professional process serving throughout all cities and towns in Creek County â€¢ Licensed â€¢ Bonded â€¢ Insured
+              Professional process serving throughout all cities and towns in Creek County • Licensed • Bonded • Insured
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
               <a 
@@ -286,7 +286,7 @@ export default function CreekCountyProcessServer() {
                   className="block text-center hover:bg-green-100 transition-colors rounded-lg"
                 >
                   <div className="text-3xl font-bold text-green-900 mb-2">Pricing</div>
-                  <div className="text-gray-700">View All Rates â†’</div>
+                  <div className="text-gray-700">View All Rates →</div>
                 </Link>
               </div>
               <div className="bg-yellow-50 p-6 rounded-lg">
@@ -465,7 +465,7 @@ export default function CreekCountyProcessServer() {
             <div className="bg-blue-900 text-white rounded-lg p-8">
               <h3 className="text-2xl font-bold mb-6">Ready to Serve Your Documents?</h3>
               <p className="text-blue-100 mb-6">
-                Licensed, bonded, and insured process serving throughout the county â€¢ Same-day service available
+                Licensed, bonded, and insured process serving throughout the county • Same-day service available
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a 

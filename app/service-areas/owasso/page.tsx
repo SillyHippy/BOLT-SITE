@@ -1,4 +1,4 @@
-﻿import { Metadata } from 'next';
+import { Metadata } from 'next';
 import Link from 'next/link';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, CheckCircle, Star, Calendar, FileText, Scale, AlertCircle } from 'lucide-react';
@@ -10,7 +10,7 @@ import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Process Server Owasso, OK | Same-Day Service from $60',
+  title: 'Process Server Owasso, OK',
   description:
     'Licensed process server in Owasso, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
   keywords: 'process server owasso, legal document service owasso, serve papers owasso, court documents owasso, subpoena service owasso, eviction notice owasso, emergency process server owasso, 24/7 process server oklahoma, licensed process server tulsa county, professional process server owasso',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Process Server Owasso, OK | Same-Day Service from $60',
+    title: 'Process Server Owasso, OK',
     description:
     'Licensed process server in Owasso, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     url: 'https://justlegalsolutions.org/service-areas/owasso',
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Process Server Owasso, OK | Same-Day Service from $60',
+    title: 'Process Server Owasso, OK',
     description:
     'Licensed process server in Owasso, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     images: ['https://justlegalsolutions.org/og-image.png'],
@@ -355,7 +355,7 @@ export default function OwassoProcessServer() {
                       <td className="px-4 py-3 font-medium">Bailey Medical Center</td>
                       <td className="px-4 py-3">10502 North 110th East Avenue, Owasso, OK 74055</td>
                       <td className="px-4 py-3">Healthcare</td>
-                      <td className="px-4 py-3">400+ employees; HR department open 8 AM â€“ 5 PM</td>
+                      <td className="px-4 py-3">400+ employees; HR department open 8 AM – 5 PM</td>
                     </tr>
                     <tr>
                       <td className="px-4 py-3 font-medium">Walmart Supercenter</td>
@@ -468,7 +468,7 @@ export default function OwassoProcessServer() {
             <div className="p-8">
               <div className="grid md:grid-cols-3 gap-6">
                 <div>
-                  <h3 className="font-bold text-gray-900 mb-4 text-lg">ðŸ“ Nearby Service Areas</h3>
+                  <h3 className="font-bold text-gray-900 mb-4 text-lg">📍 Nearby Service Areas</h3>
                   <ul className="space-y-2">
                     <li><Link href="/process-serving" className="text-blue-600 hover:text-blue-800 underline">process serving</Link>
                   <Link href="/tulsa-process-server" className="text-blue-600 hover:underline">Tulsa Process Server</Link></li>
@@ -481,7 +481,7 @@ export default function OwassoProcessServer() {
                 </div>
                 
                 <div>
-                  <h3 className="font-bold text-gray-900 mb-4 text-lg">ðŸ“š Helpful Guides</h3>
+                  <h3 className="font-bold text-gray-900 mb-4 text-lg">📚 Helpful Guides</h3>
                   <ul className="space-y-2">
                     <li><Link href="/oklahoma-process-server-faq" className="text-blue-600 hover:underline">Process Serving FAQ 2026</Link></li>
                     <li><Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma Process Server Laws</Link></li>
@@ -492,7 +492,7 @@ export default function OwassoProcessServer() {
                 </div>
                 
                 <div>
-                  <h3 className="font-bold text-gray-900 mb-4 text-lg">ðŸ¢ Our Services</h3>
+                  <h3 className="font-bold text-gray-900 mb-4 text-lg">🏢 Our Services</h3>
                   <ul className="space-y-2">
                     <li><Link href="/law-firm-services" className="text-blue-600 hover:underline">Law Firm Services</Link></li>
                     <li><Link href="/weekend-emergency" className="text-blue-600 hover:underline">Emergency Process Service</Link></li>
@@ -536,7 +536,7 @@ export default function OwassoProcessServer() {
               href="/service-areas"
               className="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold text-lg transition-colors"
             >
-              â† Browse All Oklahoma Service Areas
+              ← Browse All Oklahoma Service Areas
             </Link>
           </div>
         </div>

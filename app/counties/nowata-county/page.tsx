@@ -1,549 +1,265 @@
-﻿import { Metadata } from 'next';
+import { Metadata } from 'next';
 import Link from 'next/link';
-import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, CheckCircle, Star, Calendar, FileText, Scale, AlertCircle } from 'lucide-react';
+import { Phone, FileText, MapPin, DollarSign, AlertCircle, Calendar, Users, Building } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
-import LocalPromoBanner from '@/components/ui/local-promo-banner';
-
 import GoogleMapsEmbed from '@/components/ui/google-maps-embed';
-import { Navbar } from '@/components/ui/navbar';
-import { Footer } from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Nowata County Process Server, OK | From $60',
-  description: 'Nowata County\'s trusted process serverâ€”serving Nowata, Delaware, Wann, and Lenapah with fast, licensed legal document delivery. Local expertise for court papers, evictions, and urgent legal needs.',
-  keywords: 'process server Nowata County, legal document service Nowata County, court papers Oklahoma, Nowata courthouse, process serving Nowata, skip tracing Nowata County',
+  title: 'Process Server Nowata County, OK | Nowata',
+  description: 'Licensed process server in Nowata County, Oklahoma. Serving Nowata, South Coffeyville, and all surrounding communities.',
+  keywords: 'process server Nowata County Oklahoma, Nowata County process server, serve papers Nowata County, legal document service Nowata County',
+  authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
+  robots: { index: true, follow: true },
   openGraph: {
-    title: 'Nowata County Process Server, OK | From $60',
-    description: 'Legal document service for every city and town in Nowata County, Oklahomaâ€”trusted by attorneys, families, and businesses for reliable, local process serving.',
+    title: 'Process Server Nowata County, OK | Nowata',
+    description: 'Licensed process server in Nowata County, Oklahoma. Serving Nowata, South Coffeyville, and all surrounding communities.',
     url: 'https://justlegalsolutions.org/counties/nowata-county',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'website',
-    images: [{
-      url: 'https://justlegalsolutions.org/og-image.png',
-      width: 1200,
-      height: 630,
-      alt: 'Just Legal Solutions - Professional Process Serving in Oklahoma',
-    }],
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Nowata County Process Server, OK | From $60',
-    description: 'Process serving in Nowata Countyâ€”covering Nowata, Delaware, Wann, and Lenapah with professional, prompt legal document delivery.',
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/counties/nowata-county',
   },
 };
 
-const breadcrumbItems = [
-  { name: 'Home', url: '/' },
-  { name: 'Counties', url: '/counties' },
-  { name: 'Nowata County', url: '/counties/nowata-county' },
+const pageFAQs: { question: string; answer: string }[] = [
+
 ];
 
-const nowataCountyFAQs = [
-  {
-    question: "How much does a process server cost in Nowata County?",
-    answer: "We offer competitive rates for Nowata County process serving with standard, rush, and same-day emergency service available throughout all cities including Nowata. Contact us for current pricing or visit our pricing page for detailed information."
-  },
-  {
-    question: "Which cities in Nowata County do you serve?",
-    answer: "We serve all cities and towns in Nowata County including Nowata, Delaware, Wann, and Lenapah, plus all unincorporated areas within the county boundaries."
-  },
-  {
-    question: "Where do you file court documents in Nowata County?",
-    answer: "Court documents are filed at the Nowata County Courthouse located at 229 N. Maple St., Nowata, OK 74048. Phone: (918) 273-0127."
-  },
-  {
-    question: "How long does service take in Nowata County?",
-    answer: "Standard service takes 3-5 business days anywhere in Nowata County. Rush service is completed within 24 hours, and same-day emergency service is available for urgent situations."
-  },
-  {
-    question: "Are you licensed to serve process throughout Nowata County?",
-    answer: "Yes, we are fully licensed, bonded, and insured process servers registered with the Nowata County Clerk. We maintain all required bonds and certifications for county-wide service."
-  },
-  {
-    question: "Can you serve papers in rural areas of Nowata County?",
-    answer: "Yes, we serve legal documents in all areas of Nowata County including rural and unincorporated areas outside city limits with the same professional standards and pricing."
-  }
+const employers: { name: string; address: string; industry: string; notes: string }[] = [
+  { name: 'Nowata County Government', address: '229 S Maple St, Nowata, OK 74048', industry: 'Government', notes: 'Courthouse complex' },
+  { name: 'Nowata Public Schools', address: '531 S Osage St, Nowata, OK 74048', industry: 'Education', notes: '300+ employees' },
+  { name: 'City of Nowata', address: '117 N Maple St, Nowata, OK 74048', industry: 'Government', notes: 'Municipal court' },
+  { name: 'Chevron Phillips Chemical', address: 'Various Nowata County locations', industry: 'Petrochemicals', notes: 'Multiple facilities' },
+  { name: 'Davis-Green Paint and Body', address: 'Nowata, OK 74048', industry: 'Automotive', notes: 'Local employer' },
+  { name: 'Walmart Supercenter', address: '5701 SE Nowata Rd, Bartlesville, OK 74006', industry: 'Retail', notes: 'Nearest location' },
 ];
 
-export default function NowataCountyProcessServer() {
-  const schemas = [
-    {
-      "@context": "https://schema.org",
-      "@type": "ProfessionalService",
-      "name": "Nowata County Process Server - Just Legal Solutions",
-      "url": "https://justlegalsolutions.org/counties/nowata-county",
-      "telephone": "+15393676832",
-      "areaServed": [
-        {
-          "@type": "City",
-          "name": "Nowata",
-          "containedInPlace": { "@type": "State", "name": "Oklahoma" }
-        },
-        {
-          "@type": "City",
-          "name": "Delaware",
-          "containedInPlace": { "@type": "State", "name": "Oklahoma" }
-        },
-        {
-          "@type": "City",
-          "name": "Wann",
-          "containedInPlace": { "@type": "State", "name": "Oklahoma" }
-        },
-        {
-          "@type": "City",
-          "name": "Lenapah",
-          "containedInPlace": { "@type": "State", "name": "Oklahoma" }
-        }
-      ],
-      "serviceType": "Process Server",
-      "provider": {
-        "@type": "Organization",
-        "foundingDate": "2025-03-01",
-        "description": "Professional process serving with over 50 years combined industry experience",
-        "@id": "https://justlegalsolutions.org/#organization"
-      }
-    }
-  ];
-
+export default function NowataCountyCountyPage() {
   return (
-    <>
-      <UnifiedSchema
-        pageType="service"
-        pageTitle="Nowata County Process Server - Just Legal Solutions"
-        pageDescription="Licensed process server throughout Nowata County, Oklahoma. Serving Nowata, Delaware, Wann, and Lenapah. Same-day service available."
-        pageUrl="https://justlegalsolutions.org/counties/nowata-county"
-        siteName="Just Legal Solutions"
-        organizationName="Just Legal Solutions"
-        organizationUrl="https://justlegalsolutions.org"
-        serviceType="Process Server"
-        serviceName="Nowata County Process Server"
-        serviceDescription="Professional process server throughout Nowata County, Oklahoma providing legal document service in all cities including Nowata, Delaware, Wann, and Lenapah."
-        serviceArea="Nowata County, Oklahoma"
-        areaServed={[
-          {
-            type: "City",
-            name: "Nowata",
-            state: "Oklahoma"
-          },
-          {
-            type: "City",
-            name: "Delaware",
-            state: "Oklahoma"
-          },
-          {
-            type: "City",
-            name: "Wann",
-            state: "Oklahoma"
-          },
-          {
-            type: "City",
-            name: "Lenapah",
-            state: "Oklahoma"
-          }
-        ]}
-        priceRange="$30-$200"
-        telephone="+1-539-367-6832"
-        address={{
-          streetAddress: "County-wide Service",
-          addressLocality: "Nowata",
-          addressRegion: "Oklahoma",
-          postalCode: "74048",
-          addressCountry: "US"
-        }}
-        breadcrumbItems={breadcrumbItems}
-        faqItems={nowataCountyFAQs}
-        reviewCount={156}
-      />
-      <Navbar />
-      <LocalPromoBanner zips={[]} />
+    <div className="min-h-screen bg-gray-50">
 
-      <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
-        {/* Hero Section */}
-        <section className="relative bg-gradient-to-r from-blue-900 via-blue-800 to-blue-900 text-white py-20">
-          <div className="absolute inset-0 bg-black/20"></div>
-          <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center">
-              <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                Process Server{' '}<span className="text-yellow-400">Nowata County, Oklahoma</span>
-              </h1>
-              <p className="text-xl md:text-2xl mb-8 text-blue-100">
-                County-Wide Legal Document Service â€¢ Nowata, Delaware, Wann & Lenapah â€¢ Professional Excellence
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
-                <Link 
-                  href="/pricing" 
-                  className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 px-8 py-4 rounded-lg font-bold text-lg transition-colors"
-                >
-                  <DollarSign className="w-6 h-6" />
-                  View Pricing & Service Options
-                </Link>
-              </div>
-              <a 
-                href="tel:5393676832" 
-                className="inline-flex items-center gap-2 bg-yellow-500 hover:bg-yellow-400 text-black font-bold py-4 px-8 rounded-lg text-xl transition-colors"
-              >
-                <Phone className="w-6 h-6" />
-                Call Now: (539) 367-6832
-              </a>
-            </div>
+      {/* Hero */}
+      <section className="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 text-white py-16 md:py-24">
+        <div className="container mx-auto px-4 md:px-6 max-w-5xl">
+          <nav className="text-sm mb-6 text-blue-200" aria-label="Breadcrumb">
+            <Link href="/" className="hover:text-white transition-colors">Home</Link>
+            <span className="mx-2">/</span>
+            <Link href="/counties" className="hover:text-white transition-colors">Counties</Link>
+            <span className="mx-2">/</span>
+            <span className="text-white font-medium">Nowata County</span>
+          </nav>
+          <div className="inline-block bg-yellow-400 text-blue-900 px-4 py-1 rounded-full text-sm font-bold mb-5 uppercase tracking-wide">
+            Licensed — PSL-2026-2
           </div>
-        </section>
-
-        {/* County Overview Section */}
-        <section className="py-16 bg-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid md:grid-cols-2 gap-12 items-center">
-              <div>
-                <h2 className="text-3xl font-bold text-gray-900 mb-6">
-                  Professional Legal Services Throughout Nowata County
-                </h2>
-                <div className="space-y-4 text-gray-700">
-                  <p className="text-lg">
-                    <strong>County Seat:</strong> Nowata<br/>
-                    <strong>Established:</strong> 1907 (Oklahoma Statehood)<br/>
-                    <strong>Major Cities:</strong> Nowata, Delaware, Wann, Lenapah
-                  </p>
-                  <p>
-                    Nowata County is known for its rich Cherokee heritage and deep agricultural roots. Located in northeastern Oklahoma, the county represents an important part of the state&apos;s legal landscape, serving diverse communities from the county seat of Nowata to smaller towns and rural areas throughout the county.
-                  </p>
-                  <p>
-                    Our process serving team provides comprehensive coverage throughout all incorporated cities and unincorporated areas of Nowata County. We understand the unique characteristics of each community, ensuring professional service regardless of location while maintaining consistent standards and competitive pricing.
-                  </p>
-                </div>
-              </div>
-              <div className="bg-blue-50 p-8 rounded-lg">
-                <h3 className="text-2xl font-bold text-blue-900 mb-4">Nowata County Service Information</h3>
-                <div className="space-y-3 text-sm">
-                  <div className="flex justify-between">
-                    <span>County Seat:</span>
-                    <span className="font-semibold">Nowata</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span>Cities Served:</span>
-                    <span className="font-semibold">4 incorporated cities</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span>Courthouse:</span>
-                    <span className="font-semibold">229 N. Maple St.</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span>Service Hours:</span>
-                    <span className="font-semibold">8:00 AM - 5:00 PM</span>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-5">
+            Process Server<br className="hidden md:block" /> Nowata County, Oklahoma
+          </h1>
+          <div className="flex flex-wrap gap-4 mb-4 text-blue-200 text-sm">
+            <span className="flex items-center gap-1"><Users className="h-4 w-4" /> Population: 9,320</span>
+            <span className="flex items-center gap-1"><Building className="h-4 w-4" /> County Seat: Nowata</span>
+            
+            
           </div>
-        </section>
+          
+          <p className="text-xl text-blue-100 mb-8 max-w-3xl leading-relaxed">
+            Licensed process server in Nowata County, Oklahoma. Serving Nowata, South Coffeyville, and all surrounding communities.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4">
+            <a href="tel:5393676832" className="bg-yellow-400 hover:bg-yellow-300 text-blue-900 font-bold py-4 px-8 rounded-xl text-center transition-all shadow-xl text-lg flex items-center justify-center gap-2">
+              <Phone className="h-5 w-5" /> Call (539) 367-6832
+            </a>
+            <Link href="/contact" className="bg-white/10 hover:bg-white/20 border border-white/30 text-white font-semibold py-4 px-8 rounded-xl text-center transition-all flex items-center justify-center gap-2">
+              <FileText className="h-5 w-5" /> Get a Free Quote
+            </Link>
+          </div>
+          <div className="mt-8 flex flex-wrap gap-6 text-blue-200 text-sm">
+            <span>✓ Standard Service</span>
+            <span>✓ Rush Service</span>
+            <span>✓ Same-Day Service</span>
+            <span>✓ GPS-tracked every attempt</span>
+            <span>✓ Notarized affidavit included</span>
+            <Link href="/pricing" className="underline underline-offset-2 hover:text-white transition-colors">View Current Pricing →</Link>
+          </div>
+        </div>
+      </section>
 
-        {/* Cities Section */}
-        <section className="py-16 bg-gray-50">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-              Cities & Towns We Serve in Nowata County
-            </h2>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="container mx-auto px-4 md:px-6 max-w-5xl py-12 space-y-10">
+
+        {/* Courthouse Info */}
+        <section className="bg-white rounded-2xl shadow-lg overflow-hidden">
+          <div className="p-6 bg-gradient-to-r from-slate-700 to-slate-800 text-white">
+            <h2 className="text-2xl font-bold mb-1">Courthouse &amp; Filing Information</h2>
+            <p className="text-slate-300">Judicial District 11 — Nowata County</p>
+          </div>
+          <div className="p-8 space-y-4">
+            <div className="bg-blue-50 border border-blue-200 rounded-xl p-5">
+              <p className="font-semibold text-lg text-gray-900">Nowata County Courthouse</p>
+              <p className="text-gray-700">Courthouse, Nowata, OK 74048</p>
               
-              <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-                <h3 className="text-xl font-bold text-blue-900 mb-2">Nowata</h3>
-                <p className="text-sm text-gray-600 mb-2">County Seat</p>
-                <p className="text-gray-700 text-sm mb-4">The county seat and largest city in Nowata County, serving as the hub for legal and government services in the area.</p>
-              </div>
+              <p className="text-gray-500 text-xs mt-1">🕐 Mon-Fri 8:00 AM - 4:30 PM</p>
+              <p className="text-gray-600 mt-2 text-sm">Serves: Nowata, Delaware, South Coffeyville</p>
+            </div>
+            
+            
+            
+          </div>
+        </section>
 
-              <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-                <h3 className="text-xl font-bold text-blue-900 mb-2">Delaware</h3>
-                <p className="text-sm text-gray-600 mb-2">Nowata County</p>
-                <p className="text-gray-700 text-sm mb-4">A small community in Nowata County with roots in the region&apos;s Cherokee heritage and agricultural traditions.</p>
-              </div>
+        
 
-              <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-                <h3 className="text-xl font-bold text-blue-900 mb-2">Wann</h3>
-                <p className="text-sm text-gray-600 mb-2">Nowata County</p>
-                <p className="text-gray-700 text-sm mb-4">A rural community in the heart of Nowata County, served with the same professional standards as larger cities.</p>
-              </div>
+        {employers.length > 0 && (
+        <section className="bg-white rounded-2xl shadow-lg overflow-hidden">
+          <div className="p-6 bg-gradient-to-r from-emerald-600 to-emerald-700 text-white">
+            <h2 className="text-2xl font-bold mb-1">Major Employers &amp; Workplace Service</h2>
+            <p className="text-emerald-100">Serving businesses and employees in Nowata County</p>
+          </div>
+          <div className="p-8 overflow-x-auto">
+            <table className="min-w-full text-sm">
+              <thead className="bg-gray-100 text-gray-800 font-semibold">
+                <tr>
+                  <th className="px-4 py-3 text-left">Employer</th>
+                  <th className="px-4 py-3 text-left">Address</th>
+                  <th className="px-4 py-3 text-left">Industry</th>
+                  <th className="px-4 py-3 text-left">Service Notes</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-200 bg-white">
+                {employers.map((emp, i) => (
+                  <tr key={i} className={i % 2 === 1 ? 'bg-gray-50' : ''}>
+                    <td className="px-4 py-3 font-medium">{emp.name}</td>
+                    <td className="px-4 py-3 text-gray-600">{emp.address}</td>
+                    <td className="px-4 py-3 text-gray-600">{emp.industry}</td>
+                    <td className="px-4 py-3 text-gray-600">{emp.notes}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+        )}
 
-              <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-                <h3 className="text-xl font-bold text-blue-900 mb-2">Lenapah</h3>
-                <p className="text-sm text-gray-600 mb-2">Nowata County</p>
-                <p className="text-gray-700 text-sm mb-4">A close-knit community in Nowata County where we provide reliable legal document delivery services.</p>
+        {/* Pricing */}
+        <section className="bg-white rounded-2xl shadow-lg overflow-hidden">
+          <div className="p-6 bg-gradient-to-r from-blue-700 to-blue-800 text-white">
+            <h2 className="text-2xl font-bold mb-1 flex items-center gap-2"><DollarSign className="h-6 w-6" /> Pricing for Nowata County</h2>
+            <p className="text-blue-100">Flat rates — no hidden mileage fees in Nowata County</p>
+          </div>
+          <div className="p-8">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
+              <div className="bg-gray-50 rounded-xl p-5 text-center border border-gray-200">
+                <p className="font-bold text-gray-900 text-lg mb-1">Standard Service</p>
+                <p className="text-sm text-gray-600">2–3 business days</p>
+                <p className="text-xs text-gray-400 mt-2">3 attempts · GPS affidavit · Photo docs</p>
               </div>
+              <div className="bg-blue-50 rounded-xl p-5 text-center border border-blue-200">
+                <p className="font-bold text-gray-900 text-lg mb-1">Rush Service</p>
+                <p className="text-sm text-gray-600">Next business day</p>
+                <p className="text-xs text-gray-400 mt-2">Priority scheduling · All features</p>
+              </div>
+              <div className="bg-red-50 rounded-xl p-5 text-center border border-red-200">
+                <p className="font-bold text-gray-900 text-lg mb-1">Same-Day Service</p>
+                <p className="text-sm text-gray-600">Call before noon</p>
+                <p className="text-xs text-gray-400 mt-2">Immediate deployment · Nowata County coverage</p>
+              </div>
+            </div>
+            <div className="text-center">
+              <Link href="/pricing" className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-xl transition-colors shadow">
+                <DollarSign className="h-4 w-4" /> View Current Rates &amp; Full Pricing
+              </Link>
+              <p className="text-xs text-gray-500 mt-3">All rates are flat — no hidden mileage fees in Nowata County.</p>
             </div>
           </div>
         </section>
 
-        {/* Contact Section */}
-        <section className="py-16 bg-blue-900 text-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-3xl font-bold mb-8">Ready to Serve Your Legal Documents in Nowata County?</h2>
-            <p className="text-xl mb-8 text-blue-100">
-              Professional process serving throughout all cities and towns in Nowata County â€¢ Licensed â€¢ Bonded â€¢ Insured
-            </p>
-            <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-              <a 
-                href="tel:5393676832" 
-                className="flex items-center gap-2 bg-yellow-500 hover:bg-yellow-400 text-black font-bold py-4 px-8 rounded-lg text-xl transition-colors"
-              >
-                <Phone className="w-6 h-6" />
-                Call: (539) 367-6832
+        {pageFAQs.length > 0 && (
+        <section className="bg-white rounded-2xl shadow-lg overflow-hidden">
+          <div className="p-6 bg-gradient-to-r from-teal-600 to-teal-700 text-white">
+            <h2 className="text-2xl font-bold mb-1">Nowata County FAQ</h2>
+            <p className="text-teal-100">Local process serving questions answered</p>
+          </div>
+          <div className="p-8 space-y-6">
+            {pageFAQs.map((faq, i) => (
+              <div key={i} className="border-b border-gray-200 pb-6 last:border-0 last:pb-0">
+                <h3 className="font-semibold text-lg text-gray-800 mb-2">Q: {faq.question}</h3>
+                <p className="text-gray-600 leading-relaxed">{faq.answer}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+        )}
+
+        {/* Emergency CTA */}
+        <section className="bg-gradient-to-r from-red-600 to-red-700 text-white rounded-2xl shadow-lg">
+          <div className="p-8 text-center">
+            <AlertCircle className="h-14 w-14 mx-auto mb-5 text-red-200" />
+            <h2 className="text-3xl font-bold mb-3">Emergency Process Service in Nowata County?</h2>
+            <p className="text-xl mb-6 text-red-100">Available 24/7 for urgent legal document service across Nowata County</p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a href="tel:5393676832" className="bg-white text-red-600 hover:bg-red-50 px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-lg flex items-center justify-center gap-2">
+                <Phone className="h-5 w-5" /> Emergency: (539) 367-6832
               </a>
-              <Link 
-                href="/contact" 
-                className="flex items-center gap-2 bg-blue-700 hover:bg-blue-600 border-2 border-blue-500 font-bold py-4 px-8 rounded-lg text-xl transition-colors"
-              >
-                <Calendar className="w-6 h-6" />
-                Request Quote
+              <Link href="/contact" className="bg-red-800 hover:bg-red-900 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all flex items-center justify-center gap-2">
+                <Calendar className="h-5 w-5" /> Schedule Service
               </Link>
             </div>
           </div>
         </section>
-      
-        {/* County Statistics Section */}
-        <section className="py-16 bg-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid md:grid-cols-4 gap-8 text-center">
-              <div className="bg-blue-50 p-6 rounded-lg">
-                <div className="text-3xl font-bold text-blue-900 mb-2">24/7</div>
-                <div className="text-gray-700">Emergency Service Available</div>
-              </div>
-              <div className="bg-green-50 p-6 rounded-lg">
-                <Link 
-                  href="/pricing"
-                  className="block text-center hover:bg-green-100 transition-colors rounded-lg"
-                >
-                  <div className="text-3xl font-bold text-green-900 mb-2">Pricing</div>
-                  <div className="text-gray-700">View All Rates â†’</div>
-                </Link>
-              </div>
-              <div className="bg-yellow-50 p-6 rounded-lg">
-                <div className="text-3xl font-bold text-yellow-900 mb-2">Licensed</div>
-                <div className="text-gray-700">Bonded & Insured</div>
-              </div>
-              <div className="bg-red-50 p-6 rounded-lg">
-                <div className="text-3xl font-bold text-red-900 mb-2">100%</div>
-                <div className="text-gray-700">Professional Affidavits</div>
-              </div>
-            </div>
-          </div>
-        </section>
 
-        {/* Google Maps Section */}
-        <section className="py-20 bg-gray-50">
-          <div className="container mx-auto px-4">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-4">
-                Nowata County Service Area
-              </h2>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Professional process serving throughout Nowata County, Oklahoma - from Nowata to Delaware, Wann, and Lenapah
-              </p>
-            </div>
-            <GoogleMapsEmbed 
+        {/* Map */}
+        <section className="bg-white rounded-2xl shadow-lg overflow-hidden">
+          <div className="p-6 bg-gradient-to-r from-blue-600 to-blue-700 text-white">
+            <h2 className="text-2xl font-bold mb-1 flex items-center gap-2"><MapPin className="h-6 w-6" /> Nowata County Service Area Map</h2>
+            <p className="text-blue-100">GPS-verified coverage throughout Nowata County</p>
+          </div>
+          <div className="p-8">
+            <GoogleMapsEmbed
               countyName="Nowata County"
+              
               state="Oklahoma"
-              title="Nowata County Process Server Coverage Area"
+              title="Nowata County Process Server Service Area"
             />
           </div>
         </section>
 
-        {/* Competitive Advantages */}
-        <section className="py-20 bg-white">
-          <div className="container mx-auto px-4">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-4">
-                Why Choose Just Legal Solutions in Nowata County?
-              </h2>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Unmatched expertise and reliability for all your Nowata County process serving needs
-              </p>
-            </div>
-            
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
-                <div className="flex items-center mb-4">
-                  <Shield className="h-8 w-8 text-blue-600 mr-3" />
-                  <h3 className="text-xl font-bold text-blue-900">Licensed & Bonded</h3>
-                </div>
-                <p className="text-gray-700">
-                  Fully licensed with Nowata County Clerk, bonded and insured for your protection. All legal requirements met and exceeded.
-                </p>
-              </div>
-              
-              <div className="bg-green-50 p-6 rounded-lg border border-green-200">
-                <div className="flex items-center mb-4">
-                  <Clock className="h-8 w-8 text-green-600 mr-3" />
-                  <h3 className="text-xl font-bold text-green-900">Same-Day Service</h3>
-                </div>
-                <p className="text-gray-700">
-                  Emergency same-day service available throughout Nowata County. Rush services completed within 24 hours guaranteed.
-                </p>
-              </div>
-              
-              <div className="bg-purple-50 p-6 rounded-lg border border-purple-200">
-                <div className="flex items-center mb-4">
-                  <MapPin className="h-8 w-8 text-purple-600 mr-3" />
-                  <h3 className="text-xl font-bold text-purple-900">Local Knowledge</h3>
-                </div>
-                <p className="text-gray-700">
-                  Deep familiarity with Nowata County geography, from Nowata&apos;s neighborhoods to rural routes throughout the county.
-                </p>
-              </div>
-              
-              <div className="bg-orange-50 p-6 rounded-lg border border-orange-200">
-                <div className="flex items-center mb-4">
-                  <FileText className="h-8 w-8 text-orange-600 mr-3" />
-                  <h3 className="text-xl font-bold text-orange-900">Detailed Documentation</h3>
-                </div>
-                <p className="text-gray-700">
-                  Comprehensive affidavits with GPS coordinates, photos, and detailed service notes for court evidence.
-                </p>
-              </div>
-              
-              <div className="bg-red-50 p-6 rounded-lg border border-red-200">
-                <div className="flex items-center mb-4">
-                  <Users className="h-8 w-8 text-red-600 mr-3" />
-                  <h3 className="text-xl font-bold text-red-900">Statewide Network</h3>
-                </div>
-                <p className="text-gray-700">
-                  Part of Oklahoma&apos;s largest process serving network. If we can&apos;t serve it in Nowata County, our partners will.
-                </p>
-              </div>
-              
-              <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-200">
-                <div className="flex items-center mb-4">
-                  <Award className="h-8 w-8 text-yellow-600 mr-3" />
-                  <h3 className="text-xl font-bold text-yellow-900">Track Record</h3>
-                </div>
-                <p className="text-gray-700">
-                  Thousands of successful serves in Nowata County with 99.2% success rate and zero court challenges to our affidavits.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Legal Process Information */}
-        <section className="py-16 bg-gray-50">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-              Process Serving Throughout Nowata County
-            </h2>
-            <div className="grid md:grid-cols-2 gap-12">
-              <div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-6">Our County-Wide Services</h3>
-                <div className="space-y-4">
-                  <div className="flex items-start gap-3">
-                    <CheckCircle className="w-6 h-6 text-green-600 mt-1" />
-                    <div>
-                      <strong>All Legal Documents:</strong> Divorce papers, custody modifications, eviction notices, small claims, civil complaints, subpoenas
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <CheckCircle className="w-6 h-6 text-green-600 mt-1" />
-                    <div>
-                      <strong>Professional Skip Tracing:</strong> Advanced location services when addresses are unknown or outdated
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <CheckCircle className="w-6 h-6 text-green-600 mt-1" />
-                    <div>
-                      <strong>Court Filing Services:</strong> Same-day filing, certified copies, and document retrieval services
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <CheckCircle className="w-6 h-6 text-green-600 mt-1" />
-                    <div>
-                      <strong>Rush & Emergency Service:</strong> Same-day service available throughout the county for urgent legal matters
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="bg-blue-50 p-8 rounded-lg">
-                <h3 className="text-2xl font-bold text-blue-900 mb-6">Oklahoma Legal Requirements</h3>
-                <div className="space-y-4 text-sm">
-                  <div>
-                    <strong>Process Server Licensing:</strong> All process servers must be licensed with the county clerk and maintain a $2,000 bond.
-                  </div>
-                  <div>
-                    <strong>Service Standards:</strong> Service must comply with Oklahoma Rules of Civil Procedure Title 12. Proper service includes personal delivery or approved substitute methods.
-                  </div>
-                  <div>
-                    <strong>Affidavit Requirements:</strong> Professional affidavits of service must be filed with the court, detailing time, place, and method of service.
-                  </div>
-                  <div>
-                    <strong>Due Process Protection:</strong> Proper service ensures constitutional due process rights are protected in all legal proceedings.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Service Area Coverage */}
-        <section className="py-16 bg-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-3xl font-bold text-gray-900 mb-8">
-              Complete County Coverage
-            </h2>
-            <p className="text-xl text-gray-600 mb-12">
-              Professional process serving in every city, town, and unincorporated area throughout Nowata County
-            </p>
-            <div className="bg-blue-900 text-white rounded-lg p-8">
-              <h3 className="text-2xl font-bold mb-6">Ready to Serve Your Documents?</h3>
-              <p className="text-blue-100 mb-6">
-                Licensed, bonded, and insured process serving throughout Nowata County â€¢ Same-day service available
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a 
-                  href="tel:5393676832" 
-                  className="flex items-center gap-2 bg-yellow-500 hover:bg-yellow-400 text-black font-bold py-3 px-6 rounded-lg text-lg transition-colors"
-                >
-                  <Phone className="w-5 h-5" />
-                  Call: (539) 367-6832
-                </a>
-                <Link 
-                  href="/contact" 
-                  className="flex items-center gap-2 bg-blue-700 hover:bg-blue-600 border-2 border-blue-500 font-bold py-3 px-6 rounded-lg text-lg transition-colors"
-                >
-                  <Calendar className="w-5 h-5" />
-                  Request Quote
-                </Link>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* FAQ Section */}
-        <section className="py-16 bg-gray-50">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-              Frequently Asked Questions - Nowata County Process Serving
-            </h2>
-            <div className="space-y-8">
-              {nowataCountyFAQs.map((faq, index) => (
-                <div key={index} className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
-                  <h3 className="text-lg font-semibold text-gray-900 mb-3">{faq.question}</h3>
-                  <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
-                </div>
-              ))}
-            </div>
-            <div className="text-center mt-12">
-              <Link 
-                href="/contact" 
-                className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors"
-              >
-                <Phone className="w-5 h-5" />
-                Have More Questions? Contact Us
+        {/* Final CTA */}
+        <section className="bg-gradient-to-r from-blue-700 to-blue-800 text-white rounded-2xl shadow-lg">
+          <div className="p-8 text-center">
+            <h2 className="text-3xl font-bold mb-3">Ready to Serve Papers in Nowata County?</h2>
+            <p className="text-xl mb-6 text-blue-100">GPS-tracked, notarized, court-ready — in Nowata County.</p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a href="tel:5393676832" className="bg-white text-blue-700 hover:bg-blue-50 px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-lg flex items-center justify-center gap-2">
+                <Phone className="h-5 w-5" /> Call (539) 367-6832
+              </a>
+              <Link href="/contact" className="bg-blue-900 hover:bg-blue-950 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all flex items-center justify-center gap-2">
+                <FileText className="h-5 w-5" /> Get Free Quote
               </Link>
             </div>
           </div>
         </section>
+
+        <div className="text-center py-4">
+          <Link href="/counties" className="text-blue-600 hover:text-blue-800 font-semibold transition-colors">
+            ← Browse All Counties
+          </Link>
+        </div>
+
       </div>
-      
-      <Footer />
-    </>
+
+      <UnifiedSchema
+        pageType="location"
+        url="https://justlegalsolutions.org/counties/nowata-county"
+        title="Process Server Nowata County, OK | Nowata"
+        description="Licensed process server in Nowata County, Oklahoma. Serving Nowata, South Coffeyville, and all surrounding communities."
+        faqItems={pageFAQs.slice(0, 4)}
+        aggregateRating={{ ratingValue: 4.9, reviewCount: 156 }}
+        breadcrumbItems={[
+          { name: 'Home', item: 'https://justlegalsolutions.org' },
+          { name: 'Counties', item: 'https://justlegalsolutions.org/counties' },
+          { name: 'Nowata County', item: 'https://justlegalsolutions.org/counties/nowata-county' },
+        ]}
+      />
+    </div>
   );
 }

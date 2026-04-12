@@ -1,354 +1,287 @@
-﻿import { Metadata } from 'next';
+import { Metadata } from 'next';
 import Link from 'next/link';
+import { Phone, FileText, MapPin, DollarSign, AlertCircle, Calendar, Users, Building } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
-import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, CheckCircle, Star, Calendar, FileText, Scale, AlertCircle } from 'lucide-react';
-
- 
-
 import GoogleMapsEmbed from '@/components/ui/google-maps-embed';
-import Navbar from '@/components/ui/navbar';
-import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Process Server Skiatook, OK | Same-Day Service from $60',
-  description:
-    'Licensed process server in Skiatook, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
-  keywords: 'process server skiatook, legal document service skiatook, serve papers skiatook, court documents skiatook, subpoena service skiatook, eviction notice skiatook, emergency process server skiatook, 24/7 process server oklahoma, licensed process server tulsa county, professional process server skiatook',
+  title: 'Process Server Skiatook, OK | Licensed Legal Document Service',
+  description: 'Licensed process server in Skiatook, Oklahoma. GPS-tracked and court-ready. Call (539) 367-6832.',
+  keywords: 'process server Skiatook OK, serve papers Skiatook Oklahoma, legal document service Skiatook, subpoena service Skiatook',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
-  creator: 'Just Legal Solutions',
-  publisher: 'Just Legal Solutions',
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
-    },
-  },
+  robots: { index: true, follow: true },
   openGraph: {
-    title: 'Process Server Skiatook, OK | Same-Day Service from $60',
-    description:
-    'Licensed process server in Skiatook, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
+    title: 'Process Server Skiatook, OK | Licensed Legal Document Service',
+    description: 'Licensed process server in Skiatook, Oklahoma. GPS-tracked and court-ready. Call (539) 367-6832.',
     url: 'https://justlegalsolutions.org/service-areas/skiatook',
     siteName: 'Just Legal Solutions',
-    images: [
-      {
-        url: 'https://justlegalsolutions.org/og-image.png',
-        width: 1200,
-        height: 630,
-        alt: 'Just Legal Solutions - Professional Process Server Skiatook Oklahoma',
-      },
-    ],
     locale: 'en_US',
     type: 'website',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Process Server Skiatook, OK | Same-Day Service from $60',
-    description:
-    'Licensed process server in Skiatook, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
-    images: ['https://justlegalsolutions.org/og-image.png'],
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/service-areas/skiatook',
   },
 };
 
-const breadcrumbItems = [
-  { name: 'Home', url: '/' },
-  { name: 'Service Areas', url: '/service-areas' },
-  { name: 'Skiatook', url: '/service-areas/skiatook' },
+const pageFAQs: { question: string; answer: string }[] = [
+  { question: 'Do all Osage County cases file at the Osage County Courthouse?', answer: 'Yes. All district-court civil, family, and felony cases for Osage County residents file at the Osage County Courthouse. Municipal cases are handled separately at the local municipal court.' },
+  { question: 'Is same-day process service available?', answer: 'Yes. Our same-day service can cover Skiatook and all surrounding areas. Call before noon for best scheduling.' },
+  { question: 'Do you notarize affidavits of service?', answer: 'Yes. Every completed service includes a signed, notarized Affidavit of Service prepared to Oklahoma Statutes §12-2004 standards.' },
 ];
 
-const skiatookFAQs = [
-  {
-    question: "How much does a process server cost in Skiatook?",
-    answer: "Our professional process serving offers competitive rates with transparent pricing. We provide detailed quotes based on your specific needs. Contact us at (539) 367-6832 for current rates and service options, or visit our pricing page for complete information."
-  },
-  {
-    question: "How long does it take to serve papers in Skiatook?",
-    answer: "Standard service in Skiatook typically takes 2-4 business days. We also offer expedited rush service (24-48 hours) and same-day emergency service for urgent situations."
-  },
-  {
-    question: "Where are court documents filed for Skiatook?",
-    answer: "Court documents for Skiatook are filed at the Tulsa County courthouse. We handle all filing requirements and provide detailed courthouse information with our service."
-  },
-  {
-    question: "Can you serve papers on weekends in Skiatook?",
-    answer: "Yes, we offer weekend and evening service in Skiatook for urgent situations. Our 24/7 emergency service is available 7 days a week, including holidays."
-  },
-  {
-    question: "What areas of Skiatook do you serve?",
-    answer: "We serve all areas of Skiatook including downtown Skiatook, Sperry, Collinsville area, and all surrounding neighborhoods. Our coverage extends throughout Tulsa County."
-  },
-  {
-    question: "Are you licensed to serve process in Skiatook?",
-    answer: "Yes, we are fully licensed, bonded, and insured process servers registered with Tulsa County. We maintain all required bonds and certifications for professional service throughout Oklahoma."
-  },
-  {
-    question: "What types of legal documents do you serve in Skiatook?",
-    answer: "We serve all types of legal documents including divorce papers, child custody documents, eviction notices, small claims court papers, subpoenas, civil complaints, restraining orders, and all other court-ordered service of process."
-  },
-  {
-    question: "Do you provide skip tracing services in Skiatook?",
-    answer: "Yes, we offer professional skip tracing services in Skiatook. Our advanced skip tracing helps locate individuals when standard address information is outdated or insufficient."
-  }
+const employers: { name: string; address: string; industry: string; notes: string }[] = [
+  { name: 'Skiatook Public Schools', address: '', industry: 'Education', notes: 'Local district.' },
+  { name: 'City of Skiatook', address: '', industry: 'Government', notes: 'Municipal services.' },
+  { name: 'Walmart', address: '', industry: 'Retail', notes: 'Primary retail employer.' },
 ];
 
-export default function SkiatookProcessServer() {
+export default function SkiatookProcessServerPage() {
   return (
-    <div className="flex flex-col min-h-screen">
-      <Navbar />
-      <main className="pt-14 flex-grow">
-        <UnifiedSchema 
-          pageType="service"
-          title="Just Legal Solutions - Skiatook"
-          description="Professional process serving in Skiatook, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service"
-          url="https://justlegalsolutions.org/service-areas/skiatook"
-          breadcrumbItems={breadcrumbItems}
-          location={{
-            name: "Skiatook",
-            state: "Oklahoma",
-            zipCode: "74070"
-          }}
-          services={["Process Serving", "Legal Document Delivery", "Court Filing Services", "Skip Tracing", "Emergency Rush Service", "GPS Tracked Delivery", "24/7 Emergency Service"]}
-          faqItems={skiatookFAQs}
-        />
+    <div className="min-h-screen bg-gray-50">
 
-      <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-slate-100">
-        {/* Hero Section */}
-        <div className="bg-gradient-to-r from-blue-900 via-blue-800 to-slate-900 text-white relative">
-          <div className="absolute inset-0 bg-black/20"></div>
-          <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
-            <div className="text-center">
-              <div className="flex items-center justify-center mb-6">
-                <Scale className="h-16 w-16 text-blue-400 mr-4" />
-                <div>
-                  <h1 className="text-4xl md:text-6xl font-bold mb-2">
-                    Process Server Skiatook
-                  </h1>
-                  <p className="text-xl md:text-2xl text-blue-200">Professional Legal Document Service</p>
-                </div>
-              </div>
-              
-              <p className="text-lg md:text-xl mb-8 max-w-3xl mx-auto leading-relaxed">
-                Licensed, bonded, and insured process server in Skiatook, Oklahoma. 
-                Fast, reliable service with professional standards, competitive rates, and 24/7 emergency availability.
-              </p>
-
-              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-                <a 
-                  href="tel:5393676832" 
-                  className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center"
-                >
-                  <Phone className="h-5 w-5 mr-2" />
-                  Call Now: (539) 367-6832
-                </a>
-                <Link 
-                  href="/contact" 
-                  className="bg-white/10 hover:bg-white/20 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 border border-white/20 flex items-center"
-                >
-                  <FileText className="h-5 w-5 mr-2" />
-                  Get Quote Online
-                </Link>
-              </div>
-
-              {/* Quick Stats */}
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
-                  <div className="text-2xl md:text-3xl font-bold text-blue-300">24/7</div>
-                  <div className="text-sm text-blue-100">Emergency Service</div>
-                </div>
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
-                  <div className="text-2xl md:text-3xl font-bold text-blue-300">Same Day</div>
-                  <div className="text-sm text-blue-100">Rush Available</div>
-                </div>
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
-                  <div className="text-2xl md:text-3xl font-bold text-blue-300">99.7%</div>
-                  <div className="text-sm text-blue-100">Success Rate</div>
-                </div>
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
-                  <div className="text-2xl md:text-3xl font-bold text-blue-300">Licensed</div>
-                  <div className="text-sm text-blue-100">Bonded & Insured</div>
-                </div>
-              </div>
-            </div>
+      {/* Hero */}
+      <section className="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 text-white py-16 md:py-24">
+        <div className="container mx-auto px-4 md:px-6 max-w-5xl">
+          <nav className="text-sm mb-6 text-blue-200" aria-label="Breadcrumb">
+            <Link href="/" className="hover:text-white transition-colors">Home</Link>
+            <span className="mx-2">/</span>
+            <Link href="/service-areas" className="hover:text-white transition-colors">Service Areas</Link>
+            <span className="mx-2">/</span>
+            <span className="text-white font-medium">Skiatook</span>
+          </nav>
+          <div className="inline-block bg-yellow-400 text-blue-900 px-4 py-1 rounded-full text-sm font-bold mb-5 uppercase tracking-wide">
+            Licensed — PSL-2026-2
           </div>
-        </div>
-
-        {/* Navigation Breadcrumbs */}
-        <nav className="bg-white border-b border-gray-200 py-4" aria-label="Breadcrumb">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <ol className="flex items-center space-x-2 text-sm">
-              {breadcrumbItems.map((item, index) => (
-                <li key={item.name}>
-                  <div className="flex items-center">
-                    {index > 0 && (
-                      <svg className="flex-shrink-0 h-5 w-5 text-gray-400 mr-4" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                        <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
-                      </svg>
-                    )}
-                    {index === breadcrumbItems.length - 1 ? (
-                      <span className="text-gray-500 font-medium">{item.name}</span>
-                    ) : (
-                      <Link href={item.url} className="text-blue-600 hover:text-blue-800 font-medium">
-                        {item.name}
-                      </Link>
-                    )}
-                  </div>
-                </li>
-              ))}
-            </ol>
+          <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-5">
+            Process Server<br className="hidden md:block" /> Skiatook, Oklahoma
+          </h1>
+          <div className="flex flex-wrap gap-4 mb-4 text-blue-200 text-sm">
+            <span className="flex items-center gap-1"><Users className="h-4 w-4" /> Population: 8,632</span>
+            
+            <span>🚗 85 min from OKC</span>
+            <span>🚗 20 min from Tulsa</span>
           </div>
-        </nav>
-
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          {/* Service Information */}
-          <section className="bg-white rounded-xl shadow-lg overflow-hidden mb-12">
-            <div className="p-6 bg-gradient-to-r from-blue-600 to-blue-700 text-white">
-              <h2 className="text-2xl font-bold mb-2">Professional Process Serving in Skiatook</h2>
-              <p className="text-blue-100">Fast, reliable legal document service with transparent pricing</p>
-            </div>
-            <div className="p-8">
-              <div className="grid md:grid-cols-2 gap-8">
-                <div>
-                  <h3 className="text-xl font-bold mb-4 text-gray-800">Our Services Include:</h3>
-                  <ul className="space-y-3 text-gray-700">
-                    <li className="flex items-center"><CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />Divorce Papers & Family Law Documents</li>
-                    <li className="flex items-center"><CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />Child Custody & Support Documents</li>
-                    <li className="flex items-center"><CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />Eviction Notices & Landlord Tenant</li>
-                    <li className="flex items-center"><CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />Subpoenas & Court Summons</li>
-                    <li className="flex items-center"><CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />Civil Complaints & Lawsuits</li>
-                    <li className="flex items-center"><CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />Corporate & Business Documents</li>
-                  </ul>
-                </div>
-                <div>
-                  <h3 className="text-xl font-bold mb-4 text-gray-800">Why Choose Us:</h3>
-                  <ul className="space-y-3 text-gray-700">
-                    <li className="flex items-center"><Star className="h-5 w-5 text-yellow-500 mr-3 flex-shrink-0" />Licensed & Bonded in Oklahoma</li>
-                    <li className="flex items-center"><Star className="h-5 w-5 text-yellow-500 mr-3 flex-shrink-0" />Local Skiatook Area Expertise</li>
-                    <li className="flex items-center"><Star className="h-5 w-5 text-yellow-500 mr-3 flex-shrink-0" />Professional Court Affidavits</li>
-                    <li className="flex items-center"><Star className="h-5 w-5 text-yellow-500 mr-3 flex-shrink-0" />Same-Day Service Available</li>
-                    <li className="flex items-center"><Star className="h-5 w-5 text-yellow-500 mr-3 flex-shrink-0" />GPS Tracking & Digital Proof</li>
-                    <li className="flex items-center"><Star className="h-5 w-5 text-yellow-500 mr-3 flex-shrink-0" />24/7 Emergency Service</li>
-                  </ul>
-                </div>
-              </div>
-              
-              <div className="mt-8 text-center">
-                <Link 
-                  href="/pricing" 
-                  className="inline-flex items-center bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-700 transition-colors shadow-lg"
-                >
-                  <DollarSign className="h-5 w-5 mr-2" />
-                  View Pricing & Service Options
-                </Link>
-              </div>
-            </div>
-          </section>
-
-          {/* FAQ Section */}
-          <section className="bg-white rounded-xl shadow-lg overflow-hidden mb-12">
-            <div className="p-6 bg-gradient-to-r from-teal-600 to-teal-700 text-white">
-              <h2 className="text-2xl font-bold mb-2">Frequently Asked Questions</h2>
-              <p className="text-teal-100">Common questions about process serving in Skiatook</p>
-            </div>
-            <div className="p-8">
-              <div className="space-y-8">
-                {skiatookFAQs.map((faq, index) => (
-                  <div key={index} className="border-b border-gray-200 pb-6 last:border-b-0">
-                    <h3 className="font-semibold text-lg mb-3 text-gray-800">{faq.question}</h3>
-                    <p className="text-gray-600 leading-relaxed">{faq.answer}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </section>
-
-          {/* Emergency Contact Section */}
-          <section className="bg-gradient-to-r from-red-600 to-red-700 text-white rounded-xl shadow-lg overflow-hidden mb-12">
-            <div className="p-8 text-center">
-              <AlertCircle className="h-16 w-16 mx-auto mb-6 text-red-200" />
-              <h2 className="text-3xl font-bold mb-4">Need Emergency Process Service?</h2>
-              <p className="text-xl mb-6 text-red-100">
-                Available 24/7 for urgent legal document service in Skiatook
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <a 
-                  href="tel:5393676832" 
-                  className="bg-white text-red-600 hover:bg-red-50 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center"
-                >
-                  <Phone className="h-5 w-5 mr-2" />
-                  Emergency: (539) 367-6832
-                </a>
-                <Link 
-                  href="/contact" 
-                  className="bg-red-800 hover:bg-red-900 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 flex items-center"
-                >
-                  <Calendar className="h-5 w-5 mr-2" />
-                  Schedule Service
-                </Link>
-              </div>
-            </div>
-          </section>
-
-          {/* Google Maps Section */}
-          <section className="bg-white rounded-xl shadow-lg overflow-hidden mb-12">
-            <div className="p-6 bg-gradient-to-r from-blue-600 to-blue-700 text-white">
-              <h2 className="text-2xl font-bold mb-2">Skiatook Service Area Map</h2>
-              <p className="text-blue-100">Professional process serving throughout Skiatook, Oklahoma</p>
-            </div>
-            <div className="p-8">
-              <GoogleMapsEmbed 
-                countyName="Tulsa County"
-                state="Oklahoma"
-                title="Skiatook Process Server Service Area"
-              />
-            </div>
-          </section>
-
-          {/* Call to Action */}
-          <section className="bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-xl shadow-lg overflow-hidden">
-            <div className="p-8 text-center">
-              <h2 className="text-3xl font-bold mb-4">Ready to Get Started?</h2>
-              <p className="text-xl mb-6 text-blue-100">
-                Professional process serving in Skiatook with competitive rates and 24/7 emergency service
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <a 
-                  href="tel:5393676832" 
-                  className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center"
-                >
-                  <Phone className="h-5 w-5 mr-2" />
-                  Call (539) 367-6832
-                </a>
-                <Link 
-                  href="/contact" 
-                  className="bg-blue-800 hover:bg-blue-900 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 flex items-center"
-                >
-                  <FileText className="h-5 w-5 mr-2" />
-                  Get Free Quote
-                </Link>
-              </div>
-            </div>
-          </section>
-          {/* Browse All Service Areas */}
-          <div className="text-center py-8">
-            <Link
-              href="/service-areas"
-              className="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold text-lg transition-colors"
-            >
-              â† Browse All Oklahoma Service Areas
+          <p className="text-lg text-blue-100 mb-4 italic">A growing bedroom community north of Tulsa along Highway 20..</p>
+          <p className="text-xl text-blue-100 mb-8 max-w-3xl leading-relaxed">
+            Licensed process server in Skiatook, Oklahoma. GPS-tracked and court-ready. Call (539) 367-6832.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4">
+            <a href="tel:5393676832" className="bg-yellow-400 hover:bg-yellow-300 text-blue-900 font-bold py-4 px-8 rounded-xl text-center transition-all shadow-xl text-lg flex items-center justify-center gap-2">
+              <Phone className="h-5 w-5" /> Call (539) 367-6832
+            </a>
+            <Link href="/contact" className="bg-white/10 hover:bg-white/20 border border-white/30 text-white font-semibold py-4 px-8 rounded-xl text-center transition-all flex items-center justify-center gap-2">
+              <FileText className="h-5 w-5" /> Get a Free Quote
             </Link>
           </div>
+          <div className="mt-8 flex flex-wrap gap-6 text-blue-200 text-sm">
+            <span>✓ Standard Service</span>
+            <span>✓ Rush Service</span>
+            <span>✓ Same-Day Service</span>
+            <span>✓ GPS-tracked every attempt</span>
+            <span>✓ Notarized affidavit included</span>
+            <Link href="/pricing" className="underline underline-offset-2 hover:text-white transition-colors">View Current Pricing →</Link>
+          </div>
         </div>
+      </section>
+
+      <div className="container mx-auto px-4 md:px-6 max-w-5xl py-12 space-y-10">
+
+        {/* Courthouse Info */}
+        <section className="bg-white rounded-2xl shadow-lg overflow-hidden">
+          <div className="p-6 bg-gradient-to-r from-slate-700 to-slate-800 text-white">
+            <h2 className="text-2xl font-bold mb-1">Courthouse &amp; Filing Information</h2>
+            <p className="text-slate-300">Skiatook, Oklahoma</p>
+          </div>
+          <div className="p-8 space-y-4">
+            <div className="bg-blue-50 border border-blue-200 rounded-xl p-5">
+              <p className="font-semibold text-lg text-gray-900">Osage County Courthouse</p>
+              <p className="text-gray-700">PO Box 87, Pawhuska, OK 74056</p>
+              <p className="text-gray-600 text-sm mt-1">📞 (918) 287-3134</p>
+              <p className="text-gray-500 text-xs mt-1">🕐 Mon-Fri 8:00 AM - 4:30 PM</p>
+              
+            </div>
+            
+            
+            <div className="bg-orange-50 border border-orange-200 rounded-xl p-4">
+              <p className="font-semibold text-orange-800">Local Service Notes</p>
+              <p className="text-orange-700 text-sm">Skiatook Lake area has seasonal cabins and limited winter occupancy.</p>
+            </div>
+          </div>
+        </section>
+
+        {/* Service Areas */}
+        <section className="bg-white rounded-2xl shadow-lg overflow-hidden">
+          <div className="p-6 bg-gradient-to-r from-indigo-600 to-indigo-700 text-white">
+            <h2 className="text-2xl font-bold mb-1">Where We Serve Papers in Skiatook</h2>
+            <p className="text-indigo-100">Local coverage across Osage County</p>
+          </div>
+          <div className="p-8 grid md:grid-cols-2 gap-6">
+            <div className="bg-gray-50 p-5 rounded-xl">
+              <h3 className="font-semibold text-gray-900 mb-2">Downtown Skiatook</h3>
+              <p className="text-gray-700 text-sm">Osage County portion with municipal offices and schools.</p>
+            </div>
+            <div className="bg-gray-50 p-5 rounded-xl">
+              <h3 className="font-semibold text-gray-900 mb-2">Skiatook Lake Area</h3>
+              <p className="text-gray-700 text-sm">Seasonal cabins and year-round lake homes.</p>
+            </div>
+            <div className="bg-gray-50 p-5 rounded-xl">
+              <h3 className="font-semibold text-gray-900 mb-2">North Skiatook</h3>
+              <p className="text-gray-700 text-sm">Residential neighborhoods and newer subdivisions.</p>
+            </div>
+          </div>
+        </section>
+
+        {employers.length > 0 && (
+        <section className="bg-white rounded-2xl shadow-lg overflow-hidden">
+          <div className="p-6 bg-gradient-to-r from-emerald-600 to-emerald-700 text-white">
+            <h2 className="text-2xl font-bold mb-1">Major Employers &amp; Workplace Service</h2>
+            <p className="text-emerald-100">Serving businesses and employees in Skiatook</p>
+          </div>
+          <div className="p-8 overflow-x-auto">
+            <table className="min-w-full text-sm">
+              <thead className="bg-gray-100 text-gray-800 font-semibold">
+                <tr>
+                  <th className="px-4 py-3 text-left">Employer</th>
+                  <th className="px-4 py-3 text-left">Address</th>
+                  <th className="px-4 py-3 text-left">Industry</th>
+                  <th className="px-4 py-3 text-left">Service Notes</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-200 bg-white">
+                {employers.map((emp, i) => (
+                  <tr key={i} className={i % 2 === 1 ? 'bg-gray-50' : ''}>
+                    <td className="px-4 py-3 font-medium">{emp.name}</td>
+                    <td className="px-4 py-3 text-gray-600">{emp.address}</td>
+                    <td className="px-4 py-3 text-gray-600">{emp.industry}</td>
+                    <td className="px-4 py-3 text-gray-600">{emp.notes}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+        )}
+
+        {/* Pricing */}
+        <section className="bg-white rounded-2xl shadow-lg overflow-hidden">
+          <div className="p-6 bg-gradient-to-r from-blue-700 to-blue-800 text-white">
+            <h2 className="text-2xl font-bold mb-1 flex items-center gap-2"><DollarSign className="h-6 w-6" /> Pricing for Skiatook</h2>
+            <p className="text-blue-100">Flat rates — no hidden mileage fees in Osage County</p>
+          </div>
+          <div className="p-8">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
+              <div className="bg-gray-50 rounded-xl p-5 text-center border border-gray-200">
+                <p className="font-bold text-gray-900 text-lg mb-1">Standard Service</p>
+                <p className="text-sm text-gray-600">2–3 business days</p>
+                <p className="text-xs text-gray-400 mt-2">3 attempts · GPS affidavit · Photo docs</p>
+              </div>
+              <div className="bg-blue-50 rounded-xl p-5 text-center border border-blue-200">
+                <p className="font-bold text-gray-900 text-lg mb-1">Rush Service</p>
+                <p className="text-sm text-gray-600">Next business day</p>
+                <p className="text-xs text-gray-400 mt-2">Priority scheduling · All features</p>
+              </div>
+              <div className="bg-red-50 rounded-xl p-5 text-center border border-red-200">
+                <p className="font-bold text-gray-900 text-lg mb-1">Same-Day Service</p>
+                <p className="text-sm text-gray-600">Call before noon</p>
+                <p className="text-xs text-gray-400 mt-2">Immediate deployment · Skiatook coverage</p>
+              </div>
+            </div>
+            <div className="text-center">
+              <Link href="/pricing" className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-xl transition-colors shadow">
+                <DollarSign className="h-4 w-4" /> View Current Rates &amp; Full Pricing
+              </Link>
+              <p className="text-xs text-gray-500 mt-3">All rates are flat — no hidden mileage fees in Osage County.</p>
+            </div>
+          </div>
+        </section>
+
+        {pageFAQs.length > 0 && (
+        <section className="bg-white rounded-2xl shadow-lg overflow-hidden">
+          <div className="p-6 bg-gradient-to-r from-teal-600 to-teal-700 text-white">
+            <h2 className="text-2xl font-bold mb-1">Skiatook FAQ</h2>
+            <p className="text-teal-100">Local process serving questions answered</p>
+          </div>
+          <div className="p-8 space-y-6">
+            {pageFAQs.map((faq, i) => (
+              <div key={i} className="border-b border-gray-200 pb-6 last:border-0 last:pb-0">
+                <h3 className="font-semibold text-lg text-gray-800 mb-2">Q: {faq.question}</h3>
+                <p className="text-gray-600 leading-relaxed">{faq.answer}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+        )}
+
+        {/* Emergency CTA */}
+        <section className="bg-gradient-to-r from-red-600 to-red-700 text-white rounded-2xl shadow-lg">
+          <div className="p-8 text-center">
+            <AlertCircle className="h-14 w-14 mx-auto mb-5 text-red-200" />
+            <h2 className="text-3xl font-bold mb-3">Emergency Process Service in Skiatook?</h2>
+            <p className="text-xl mb-6 text-red-100">Available 24/7 for urgent legal document service across Osage County</p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a href="tel:5393676832" className="bg-white text-red-600 hover:bg-red-50 px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-lg flex items-center justify-center gap-2">
+                <Phone className="h-5 w-5" /> Emergency: (539) 367-6832
+              </a>
+              <Link href="/contact" className="bg-red-800 hover:bg-red-900 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all flex items-center justify-center gap-2">
+                <Calendar className="h-5 w-5" /> Schedule Service
+              </Link>
+            </div>
+          </div>
+        </section>
+
+        {/* Map */}
+        <section className="bg-white rounded-2xl shadow-lg overflow-hidden">
+          <div className="p-6 bg-gradient-to-r from-blue-600 to-blue-700 text-white">
+            <h2 className="text-2xl font-bold mb-1 flex items-center gap-2"><MapPin className="h-6 w-6" /> Skiatook Service Area Map</h2>
+            <p className="text-blue-100">GPS-verified coverage throughout Osage County</p>
+          </div>
+          <div className="p-8">
+            <GoogleMapsEmbed
+              countyName="Osage County"
+              cityName="Skiatook"
+              state="Oklahoma"
+              title="Skiatook Process Server Service Area"
+            />
+          </div>
+        </section>
+
+        {/* Final CTA */}
+        <section className="bg-gradient-to-r from-blue-700 to-blue-800 text-white rounded-2xl shadow-lg">
+          <div className="p-8 text-center">
+            <h2 className="text-3xl font-bold mb-3">Ready to Serve Papers in Skiatook?</h2>
+            <p className="text-xl mb-6 text-blue-100">GPS-tracked, notarized, court-ready — in Osage County.</p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a href="tel:5393676832" className="bg-white text-blue-700 hover:bg-blue-50 px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-lg flex items-center justify-center gap-2">
+                <Phone className="h-5 w-5" /> Call (539) 367-6832
+              </a>
+              <Link href="/contact" className="bg-blue-900 hover:bg-blue-950 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all flex items-center justify-center gap-2">
+                <FileText className="h-5 w-5" /> Get Free Quote
+              </Link>
+            </div>
+          </div>
+        </section>
+
+        <div className="text-center py-4">
+          <Link href="/service-areas" className="text-blue-600 hover:text-blue-800 font-semibold transition-colors">
+            ← Browse All Service Areas
+          </Link>
+        </div>
+
       </div>
-      
-        <Footer />
-      </main>
+
+      <UnifiedSchema
+        pageType="location"
+        url="https://justlegalsolutions.org/service-areas/skiatook"
+        title="Process Server Skiatook, OK | Licensed Legal Document Service"
+        description="Licensed process server in Skiatook, Oklahoma. GPS-tracked and court-ready. Call (539) 367-6832."
+        faqItems={pageFAQs.slice(0, 4)}
+        aggregateRating={{ ratingValue: 4.9, reviewCount: 156 }}
+        breadcrumbItems={[
+          { name: 'Home', item: 'https://justlegalsolutions.org' },
+          { name: 'Service Areas', item: 'https://justlegalsolutions.org/service-areas' },
+          { name: 'Skiatook', item: 'https://justlegalsolutions.org/service-areas/skiatook' },
+        ]}
+      />
     </div>
   );
 }

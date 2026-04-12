@@ -1,4 +1,4 @@
-﻿import { Metadata } from 'next';
+import { Metadata } from 'next';
 import Link from 'next/link';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
@@ -108,7 +108,7 @@ export default function LawtonProcessServerPage() {
           <div className="space-y-5">
                 <div className="border-b border-gray-200 pb-5 last:border-0">
                   <h3 className="font-semibold text-lg text-gray-800 mb-2">How do you handle service for someone stationed at Fort Sill?</h3>
-                  <p className="text-gray-600">For most cases, we serve Fort Sill personnel at their off-post residence in Lawton. This avoids the security delays and access restrictions of on-base service. If your court order or attorney specifically requires on-base service, we coordinate with the Fort Sill Provost Marshal’s Office to arrange escorted access. This process can add 2â€“5 business days.</p>
+                  <p className="text-gray-600">For most cases, we serve Fort Sill personnel at their off-post residence in Lawton. This avoids the security delays and access restrictions of on-base service. If your court order or attorney specifically requires on-base service, we coordinate with the Fort Sill Provost Marshal�s Office to arrange escorted access. This process can add 2–5 business days.</p>
                 </div>
                 <div className="border-b border-gray-200 pb-5 last:border-0">
                   <h3 className="font-semibold text-lg text-gray-800 mb-2">What about Cameron University students who move every semester?</h3>
@@ -116,11 +116,11 @@ export default function LawtonProcessServerPage() {
                 </div>
                 <div className="border-b border-gray-200 pb-5 last:border-0">
                   <h3 className="font-semibold text-lg text-gray-800 mb-2">How do shift schedules at the Goodyear plant affect service timing?</h3>
-                  <p className="text-gray-600">The Goodyear tire plant in Lawton runs multiple production shifts. We track shift-change times and attempt workplace service during supervisor handoffs or employee entry/exit periods. If the recipient isn’t available at the plant, we immediately shift to their home address.</p>
+                  <p className="text-gray-600">The Goodyear tire plant in Lawton runs multiple production shifts. We track shift-change times and attempt workplace service during supervisor handoffs or employee entry/exit periods. If the recipient isn�t available at the plant, we immediately shift to their home address.</p>
                 </div>
                 <div className="border-b border-gray-200 pb-5 last:border-0">
                   <h3 className="font-semibold text-lg text-gray-800 mb-2">Is Comanche County filing different from Oklahoma County?</h3>
-                  <p className="text-gray-600">Yes. Lawton cases file at the Comanche County Courthouse (315 SW 5th St) in downtown Lawton â€” not Oklahoma City. If you’re mailing or delivering documents for filing, make sure they’re routed to Lawton. We verify courthouse assignments as part of our service process.</p>
+                  <p className="text-gray-600">Yes. Lawton cases file at the Comanche County Courthouse (315 SW 5th St) in downtown Lawton — not Oklahoma City. If you�re mailing or delivering documents for filing, make sure they�re routed to Lawton. We verify courthouse assignments as part of our service process.</p>
                 </div>
           </div>
           <div className="mt-6 pt-4 border-t border-gray-200">

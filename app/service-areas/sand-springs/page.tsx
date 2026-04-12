@@ -1,4 +1,4 @@
-﻿import { Metadata } from 'next';
+import { Metadata } from 'next';
 import Link from 'next/link';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, CheckCircle, Star, Calendar, FileText, Scale, AlertCircle } from 'lucide-react';
@@ -10,7 +10,7 @@ import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Process Server Sand Springs, OK | Same-Day Service from $60',
+  title: 'Process Server Sand Springs, OK',
   description:
     'Licensed process server in Sand Springs, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
   keywords: 'process server sand springs, legal document service sand springs, serve papers sand springs, court documents sand springs, subpoena service sand springs, eviction notice sand springs, emergency process server sand springs, 24/7 process server oklahoma, licensed process server tulsa county, professional process server sand springs',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Process Server Sand Springs, OK | Same-Day Service from $60',
+    title: 'Process Server Sand Springs, OK',
     description:
     'Licensed process server in Sand Springs, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     url: 'https://justlegalsolutions.org/service-areas/sand-springs',
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Process Server Sand Springs, OK | Same-Day Service from $60',
+    title: 'Process Server Sand Springs, OK',
     description:
     'Licensed process server in Sand Springs, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     images: ['https://justlegalsolutions.org/og-image.png'],
@@ -375,7 +375,7 @@ export default function SandSpringsProcessServer() {
                 <div className="border-b border-gray-200 pb-5">
                   <h3 className="font-semibold text-lg text-gray-800 mb-2">Q: How do you handle industrial workplace service at Webco Industries?</h3>
                   <p className="text-gray-600">
-                    Webco Industries operates multiple shifts at its 9101 West 21st Street facility. We attempt service through their HR department during standard business hours (8 AM â€“ 5 PM) or at shift changes. If workplace service is impractical, we serve at the employee&apos;s residence in Sand Springs, Mannford, or Tulsa.
+                    Webco Industries operates multiple shifts at its 9101 West 21st Street facility. We attempt service through their HR department during standard business hours (8 AM – 5 PM) or at shift changes. If workplace service is impractical, we serve at the employee&apos;s residence in Sand Springs, Mannford, or Tulsa.
                   </p>
                 </div>
                 <div className="border-b border-gray-200 pb-5">
@@ -445,7 +445,7 @@ export default function SandSpringsProcessServer() {
             <div className="p-8">
               <div className="grid md:grid-cols-3 gap-6">
                 <div>
-                  <h3 className="font-bold text-gray-900 mb-4 text-lg">ðŸ“ Nearby Service Areas</h3>
+                  <h3 className="font-bold text-gray-900 mb-4 text-lg">📍 Nearby Service Areas</h3>
                   <ul className="space-y-2">
                     <li><Link href="/process-serving" className="text-blue-600 hover:text-blue-800 underline">process serving</Link>
                   <Link href="/tulsa-process-server" className="text-blue-600 hover:underline">Tulsa Process Server</Link></li>
@@ -457,7 +457,7 @@ export default function SandSpringsProcessServer() {
                 </div>
                 
                 <div>
-                  <h3 className="font-bold text-gray-900 mb-4 text-lg">ðŸ“š Helpful Guides</h3>
+                  <h3 className="font-bold text-gray-900 mb-4 text-lg">📚 Helpful Guides</h3>
                   <ul className="space-y-2">
                     <li><Link href="/oklahoma-process-server-faq" className="text-blue-600 hover:underline">Process Serving FAQ 2026</Link></li>
                     <li><Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma Process Server Laws</Link></li>
@@ -468,7 +468,7 @@ export default function SandSpringsProcessServer() {
                 </div>
                 
                 <div>
-                  <h3 className="font-bold text-gray-900 mb-4 text-lg">ðŸ¢ Our Services</h3>
+                  <h3 className="font-bold text-gray-900 mb-4 text-lg">🏢 Our Services</h3>
                   <ul className="space-y-2">
                     <li><Link href="/law-firm-services" className="text-blue-600 hover:underline">Law Firm Services</Link></li>
                     <li><Link href="/weekend-emergency" className="text-blue-600 hover:underline">Emergency Process Service</Link></li>
@@ -512,7 +512,7 @@ export default function SandSpringsProcessServer() {
               href="/service-areas"
               className="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold text-lg transition-colors"
             >
-              â† Browse All Oklahoma Service Areas
+              ← Browse All Oklahoma Service Areas
             </Link>
           </div>
         </div>

@@ -1,492 +1,269 @@
-﻿import { Metadata } from 'next';
+import { Metadata } from 'next';
 import Link from 'next/link';
-import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, CheckCircle, Star, Calendar, FileText, Scale, AlertCircle } from 'lucide-react';
+import { Phone, FileText, MapPin, DollarSign, AlertCircle, Calendar, Users, Building } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
-import LocalPromoBanner from '@/components/ui/local-promo-banner';
 import GoogleMapsEmbed from '@/components/ui/google-maps-embed';
-import { Navbar } from '@/components/ui/navbar';
-import { Footer } from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Osage County Process Server, OK | From $60',
-  description: 'Osage Countyâ€™s process serverâ€”serving Pawhuska, Skiatook, Hominy, and all tribal and rural communities. Local expertise for legal document delivery, court papers, and urgent legal needs.',
-  keywords: 'process server Osage County, legal document service Osage County, court papers Oklahoma, Pawhuska courthouse, process serving Pawhuska Skiatook, skip tracing Osage County',
+  title: 'Process Server Osage County, OK | Pawhuska',
+  description: 'Licensed process server in Osage County, Oklahoma. Serving Pawhuska, Hominy, Fairfax, and all surrounding communities.',
+  keywords: 'process server Osage County Oklahoma, Osage County process server, serve papers Osage County, legal document service Osage County',
+  authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
+  robots: { index: true, follow: true },
   openGraph: {
-    title: 'Osage County Process Server, OK | From $60',
-  description: 'Legal document service for every city and town in Osage Countyâ€”trusted by attorneys, families, and businesses for reliable, local process serving.',
+    title: 'Process Server Osage County, OK | Pawhuska',
+    description: 'Licensed process server in Osage County, Oklahoma. Serving Pawhuska, Hominy, Fairfax, and all surrounding communities.',
     url: 'https://justlegalsolutions.org/counties/osage-county',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'website',
-    images: [{
-      url: 'https://justlegalsolutions.org/og-image.png',
-      width: 1200,
-      height: 630,
-      alt: 'Just Legal Solutions - Professional Process Serving in Oklahoma',
-    }],
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Osage County Process Server, OK | From $60',
-  description: 'Process serving in Osage Countyâ€”covering Pawhuska, Skiatook, and rural areas with professional, prompt legal document delivery.',
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/counties/osage-county',
   },
 };
 
-const breadcrumbItems = [
-  { name: 'Home', url: '/' },
-  { name: 'Counties', url: '/counties' },
-  { name: 'Osage County', url: '/counties/osage-county' },
+const pageFAQs: { question: string; answer: string }[] = [
+
 ];
 
-const osageCountyFAQs = [
-  {
-    question: "How much does a process server cost in Osage County?",
-    answer: "We offer competitive rates for Osage County process serving with standard, rush, and same-day emergency service available throughout all cities including Pawhuska, Skiatook. Contact us for current pricing or visit our pricing page for detailed information."
-  },
-  {
-    question: "Which cities in Osage County do you serve?",
-    answer: "We serve all cities and towns in Osage County including Pawhuska, Skiatook, plus all unincorporated areas within the county boundaries."
-  },
-  {
-    question: "Where do you file court documents in Osage County?",
-    answer: "Court documents are filed at the Osage County Courthouse located at 600 Grandview Ave., Pawhuska, OK 74056. Phone: (918) 287-4104."
-  },
-  {
-    question: "How long does service take in Osage County?",
-    answer: "Standard service takes 3-5 business days anywhere in Osage County. Rush service is completed within 24 hours, and same-day emergency service is available for urgent situations."
-  },
-  {
-    question: "Are you licensed to serve process throughout Osage County?",
-    answer: "Yes, we are fully licensed, bonded, and insured process servers registered with the Osage County Clerk. We maintain all required bonds and certifications for county-wide service."
-  },
-  {
-    question: "Can you serve papers in rural areas of Osage County?",
-    answer: "Yes, we serve legal documents in all areas of Osage County including rural and unincorporated areas outside city limits with the same professional standards and pricing."
-  }
+const employers: { name: string; address: string; industry: string; notes: string }[] = [
+  { name: 'Osage Nation', address: '627 Grandview Ave, Pawhuska, OK 74056', industry: 'Tribal Government', notes: 'Largest employer; tribal HR preferred' },
+  { name: 'Pawhuska Public Schools', address: '1801 McKinley Ave, Pawhuska, OK 74056', industry: 'Education', notes: '200+ employees' },
+  { name: 'City of Pawhuska', address: '137 E 6th St, Pawhuska, OK 74056', industry: 'Government', notes: 'Municipal court' },
+  { name: 'Osage County Government', address: '600 Grandview Ave, Pawhuska, OK 74056', industry: 'Government', notes: 'Courthouse complex' },
+  { name: 'Osage Casino', address: 'Various Osage County locations', industry: 'Gaming/Hospitality', notes: 'Tribal HR preferred' },
+  { name: 'Pioneer Woman Mercantile', address: '532 Kihekah Ave, Pawhuska, OK 74056', industry: 'Tourism/Retail', notes: 'Major tourism employer' },
+  { name: 'Walmart Supercenter', address: '601 W Rogers Blvd, Skiatook, OK 74070', industry: 'Retail', notes: '200+ employees' },
 ];
 
-export default function OsageCountyProcessServer() {
+export default function OsageCountyCountyPage() {
   return (
-    <>
-      <UnifiedSchema
-        pageType="service"
-        pageTitle="Osage County Process Server - Just Legal Solutions"
-        pageDescription="Licensed process server throughout Osage County, Oklahoma. Serving Pawhuska, Skiatook. Same-day service available."
-        pageUrl="https://justlegalsolutions.org/counties/osage-county"
-        siteName="Just Legal Solutions"
-        organizationName="Just Legal Solutions"
-        organizationUrl="https://justlegalsolutions.org"
-        serviceType="Process Server"
-        serviceName="Osage County Process Server"
-        serviceDescription="Professional process server throughout Osage County, Oklahoma providing legal document service in all cities including Pawhuska, Skiatook."
-        serviceArea="Osage County, Oklahoma"
-        areaServed={[
-          {
-            type: "City",
-            name: "Pawhuska",
-            state: "Oklahoma"
-          },
-          {
-            type: "City",
-            name: "Skiatook",
-            state: "Oklahoma"
-          }
-        ]}
-        priceRange="$30-$200"
-        telephone="+1-539-367-6832"
-        address={{
-          streetAddress: "County-wide Service",
-          addressLocality: "Pawhuska",
-          addressRegion: "Oklahoma",
-          postalCode: "74000",
-          addressCountry: "US"
-        }}
-        breadcrumbItems={breadcrumbItems}
-        faqItems={osageCountyFAQs}
-        reviewCount={156}
-      />
-      <Navbar />
-      <LocalPromoBanner zips={[]} />
+    <div className="min-h-screen bg-gray-50">
 
-      <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
-        {/* Hero Section */}
-        <section className="relative bg-gradient-to-r from-blue-900 via-blue-800 to-blue-900 text-white py-20">
-          <div className="absolute inset-0 bg-black/20"></div>
-          <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center">
-              <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                Process Server{' '}<span className="text-yellow-400">Osage County, Oklahoma</span>
-              </h1>
-              <p className="text-xl md:text-2xl mb-8 text-blue-100">
-                County-Wide Legal Document Service â€¢ All Cities & Towns â€¢ Professional Excellence
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
-                <Link 
-                  href="/pricing"
-                  className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 px-6 py-3 rounded-lg font-semibold text-white transition-colors"
-                >
-                  <DollarSign className="w-5 h-5" />
-                  View Our Pricing
-                </Link>
-              </div>
-              <a 
-                href="tel:5393676832" 
-                className="inline-flex items-center gap-2 bg-yellow-500 hover:bg-yellow-400 text-black font-bold py-4 px-8 rounded-lg text-xl transition-colors"
-              >
-                <Phone className="w-6 h-6" />
-                Call Now: (539) 367-6832
-              </a>
-            </div>
+      {/* Hero */}
+      <section className="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 text-white py-16 md:py-24">
+        <div className="container mx-auto px-4 md:px-6 max-w-5xl">
+          <nav className="text-sm mb-6 text-blue-200" aria-label="Breadcrumb">
+            <Link href="/" className="hover:text-white transition-colors">Home</Link>
+            <span className="mx-2">/</span>
+            <Link href="/counties" className="hover:text-white transition-colors">Counties</Link>
+            <span className="mx-2">/</span>
+            <span className="text-white font-medium">Osage County</span>
+          </nav>
+          <div className="inline-block bg-yellow-400 text-blue-900 px-4 py-1 rounded-full text-sm font-bold mb-5 uppercase tracking-wide">
+            Licensed — PSL-2026-2
           </div>
-        </section>
-
-        {/* County Overview Section */}
-        <section className="py-16 bg-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid md:grid-cols-2 gap-12 items-center">
-              <div>
-                <h2 className="text-3xl font-bold text-gray-900 mb-6">
-                  Professional Legal Services Throughout Osage County
-                </h2>
-                <div className="space-y-4 text-gray-700">
-                  <p className="text-lg">
-                    <strong>County Seat:</strong> Pawhuska<br/>
-                    <strong>Established:</strong> 1907 (Oklahoma Statehood)<br/>
-                    <strong>Major Cities:</strong> Pawhuska, Skiatook
-                  </p>
-                  <p>
-                    Osage County represents an important part of Oklahoma&apos;s legal landscape, serving diverse communities from the county seat of Pawhuska to rural areas throughout the county. Our process serving team provides comprehensive coverage throughout all incorporated cities and unincorporated areas.
-                  </p>
-                  <p>
-                    We understand the unique characteristics of each community in Osage County, ensuring professional service regardless of location while maintaining consistent standards and competitive pricing throughout the county.
-                  </p>
-                </div>
-              </div>
-              <div className="bg-blue-50 p-8 rounded-lg">
-                <h3 className="text-2xl font-bold text-blue-900 mb-4">Osage County Service Information</h3>
-                <div className="space-y-3 text-sm">
-                  <div className="flex justify-between">
-                    <span>County Seat:</span>
-                    <span className="font-semibold">Pawhuska</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span>Cities Served:</span>
-                    <span className="font-semibold">2 incorporated cities</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span>Courthouse:</span>
-                    <span className="font-semibold">600 Grandview Ave.</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span>Service Hours:</span>
-                    <span className="font-semibold">8:30 AM - 5:00 PM</span>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-5">
+            Process Server<br className="hidden md:block" /> Osage County, Oklahoma
+          </h1>
+          <div className="flex flex-wrap gap-4 mb-4 text-blue-200 text-sm">
+            <span className="flex items-center gap-1"><Users className="h-4 w-4" /> Population: 45,818</span>
+            <span className="flex items-center gap-1"><Building className="h-4 w-4" /> County Seat: Pawhuska</span>
+            
+            
           </div>
-        </section>
+          
+          <p className="text-xl text-blue-100 mb-8 max-w-3xl leading-relaxed">
+            Licensed process server in Osage County, Oklahoma. Serving Pawhuska, Hominy, Fairfax, and all surrounding communities.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4">
+            <a href="tel:5393676832" className="bg-yellow-400 hover:bg-yellow-300 text-blue-900 font-bold py-4 px-8 rounded-xl text-center transition-all shadow-xl text-lg flex items-center justify-center gap-2">
+              <Phone className="h-5 w-5" /> Call (539) 367-6832
+            </a>
+            <Link href="/contact" className="bg-white/10 hover:bg-white/20 border border-white/30 text-white font-semibold py-4 px-8 rounded-xl text-center transition-all flex items-center justify-center gap-2">
+              <FileText className="h-5 w-5" /> Get a Free Quote
+            </Link>
+          </div>
+          <div className="mt-8 flex flex-wrap gap-6 text-blue-200 text-sm">
+            <span>✓ Standard Service</span>
+            <span>✓ Rush Service</span>
+            <span>✓ Same-Day Service</span>
+            <span>✓ GPS-tracked every attempt</span>
+            <span>✓ Notarized affidavit included</span>
+            <Link href="/pricing" className="underline underline-offset-2 hover:text-white transition-colors">View Current Pricing →</Link>
+          </div>
+        </div>
+      </section>
 
-        {/* Cities Section */}
-        <section className="py-16 bg-gray-50">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-              Cities & Towns We Serve in Osage County
-            </h2>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="container mx-auto px-4 md:px-6 max-w-5xl py-12 space-y-10">
+
+        {/* Courthouse Info */}
+        <section className="bg-white rounded-2xl shadow-lg overflow-hidden">
+          <div className="p-6 bg-gradient-to-r from-slate-700 to-slate-800 text-white">
+            <h2 className="text-2xl font-bold mb-1">Courthouse &amp; Filing Information</h2>
+            <p className="text-slate-300">Judicial District 10 — Osage County</p>
+          </div>
+          <div className="p-8 space-y-4">
+            <div className="bg-blue-50 border border-blue-200 rounded-xl p-5">
+              <p className="font-semibold text-lg text-gray-900">Osage County Courthouse</p>
+              <p className="text-gray-700">600 Grandview Ave, Pawhuska, OK 74056</p>
               
-              <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-                <h3 className="text-xl font-bold text-blue-900 mb-2">Pawhuska</h3>
-                <p className="text-sm text-gray-600 mb-2">Population: 2,984</p>
-                <p className="text-gray-700 text-sm mb-4">Named for Paw-Hiu-Skah (White Hair), Osage chief. Oil boom from Osage Nation lease sales under Million Dollar Elm...</p>
-                <Link 
-                  href="/service-areas/pawhuska"
-                  className="text-blue-600 hover:text-blue-800 font-medium text-sm"
-                >
-                  Learn More â†’
-                </Link>
+              <p className="text-gray-500 text-xs mt-1">🕐 Mon-Fri 8:00 AM - 4:30 PM</p>
+              <p className="text-gray-600 mt-2 text-sm">Serves: Pawhuska, Skiatook, Hominy, Barnsdall</p>
+            </div>
+            
+            <div className="bg-amber-50 border border-amber-300 rounded-xl p-4">
+              <p className="font-semibold text-amber-800">Tribal Jurisdiction Note</p>
+              <p className="text-amber-700 text-sm">McGirt v. Oklahoma ruling and tribal jurisdiction may apply to criminal matters in this area. We coordinate with tribal courts and recommend confirming venue with your attorney.</p>
+            </div>
+            
+          </div>
+        </section>
+
+        
+
+        {employers.length > 0 && (
+        <section className="bg-white rounded-2xl shadow-lg overflow-hidden">
+          <div className="p-6 bg-gradient-to-r from-emerald-600 to-emerald-700 text-white">
+            <h2 className="text-2xl font-bold mb-1">Major Employers &amp; Workplace Service</h2>
+            <p className="text-emerald-100">Serving businesses and employees in Osage County</p>
+          </div>
+          <div className="p-8 overflow-x-auto">
+            <table className="min-w-full text-sm">
+              <thead className="bg-gray-100 text-gray-800 font-semibold">
+                <tr>
+                  <th className="px-4 py-3 text-left">Employer</th>
+                  <th className="px-4 py-3 text-left">Address</th>
+                  <th className="px-4 py-3 text-left">Industry</th>
+                  <th className="px-4 py-3 text-left">Service Notes</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-200 bg-white">
+                {employers.map((emp, i) => (
+                  <tr key={i} className={i % 2 === 1 ? 'bg-gray-50' : ''}>
+                    <td className="px-4 py-3 font-medium">{emp.name}</td>
+                    <td className="px-4 py-3 text-gray-600">{emp.address}</td>
+                    <td className="px-4 py-3 text-gray-600">{emp.industry}</td>
+                    <td className="px-4 py-3 text-gray-600">{emp.notes}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+        )}
+
+        {/* Pricing */}
+        <section className="bg-white rounded-2xl shadow-lg overflow-hidden">
+          <div className="p-6 bg-gradient-to-r from-blue-700 to-blue-800 text-white">
+            <h2 className="text-2xl font-bold mb-1 flex items-center gap-2"><DollarSign className="h-6 w-6" /> Pricing for Osage County</h2>
+            <p className="text-blue-100">Flat rates — no hidden mileage fees in Osage County</p>
+          </div>
+          <div className="p-8">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
+              <div className="bg-gray-50 rounded-xl p-5 text-center border border-gray-200">
+                <p className="font-bold text-gray-900 text-lg mb-1">Standard Service</p>
+                <p className="text-sm text-gray-600">2–3 business days</p>
+                <p className="text-xs text-gray-400 mt-2">3 attempts · GPS affidavit · Photo docs</p>
               </div>
-              <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-                <h3 className="text-xl font-bold text-blue-900 mb-2">Skiatook</h3>
-                <p className="text-sm text-gray-600 mb-2">Population: 8,036</p>
-                <p className="text-gray-700 text-sm mb-4">Osage settlement, oil boom town...</p>
-                <Link 
-                  href="/service-areas/skiatook"
-                  className="text-blue-600 hover:text-blue-800 font-medium text-sm"
-                >
-                  Learn More â†’
-                </Link>
+              <div className="bg-blue-50 rounded-xl p-5 text-center border border-blue-200">
+                <p className="font-bold text-gray-900 text-lg mb-1">Rush Service</p>
+                <p className="text-sm text-gray-600">Next business day</p>
+                <p className="text-xs text-gray-400 mt-2">Priority scheduling · All features</p>
               </div>
+              <div className="bg-red-50 rounded-xl p-5 text-center border border-red-200">
+                <p className="font-bold text-gray-900 text-lg mb-1">Same-Day Service</p>
+                <p className="text-sm text-gray-600">Call before noon</p>
+                <p className="text-xs text-gray-400 mt-2">Immediate deployment · Osage County coverage</p>
+              </div>
+            </div>
+            <div className="text-center">
+              <Link href="/pricing" className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-xl transition-colors shadow">
+                <DollarSign className="h-4 w-4" /> View Current Rates &amp; Full Pricing
+              </Link>
+              <p className="text-xs text-gray-500 mt-3">All rates are flat — no hidden mileage fees in Osage County.</p>
             </div>
           </div>
         </section>
 
-        {/* Contact Section */}
-        <section className="py-16 bg-blue-900 text-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-3xl font-bold mb-8">Ready to Serve Your Legal Documents in Osage County?</h2>
-            <p className="text-xl mb-8 text-blue-100">
-              Professional process serving throughout all cities and towns in Osage County â€¢ Licensed â€¢ Bonded â€¢ Insured
-            </p>
-            <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-              <a 
-                href="tel:5393676832" 
-                className="flex items-center gap-2 bg-yellow-500 hover:bg-yellow-400 text-black font-bold py-4 px-8 rounded-lg text-xl transition-colors"
-              >
-                <Phone className="w-6 h-6" />
-                Call: (539) 367-6832
+        {pageFAQs.length > 0 && (
+        <section className="bg-white rounded-2xl shadow-lg overflow-hidden">
+          <div className="p-6 bg-gradient-to-r from-teal-600 to-teal-700 text-white">
+            <h2 className="text-2xl font-bold mb-1">Osage County FAQ</h2>
+            <p className="text-teal-100">Local process serving questions answered</p>
+          </div>
+          <div className="p-8 space-y-6">
+            {pageFAQs.map((faq, i) => (
+              <div key={i} className="border-b border-gray-200 pb-6 last:border-0 last:pb-0">
+                <h3 className="font-semibold text-lg text-gray-800 mb-2">Q: {faq.question}</h3>
+                <p className="text-gray-600 leading-relaxed">{faq.answer}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+        )}
+
+        {/* Emergency CTA */}
+        <section className="bg-gradient-to-r from-red-600 to-red-700 text-white rounded-2xl shadow-lg">
+          <div className="p-8 text-center">
+            <AlertCircle className="h-14 w-14 mx-auto mb-5 text-red-200" />
+            <h2 className="text-3xl font-bold mb-3">Emergency Process Service in Osage County?</h2>
+            <p className="text-xl mb-6 text-red-100">Available 24/7 for urgent legal document service across Osage County</p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a href="tel:5393676832" className="bg-white text-red-600 hover:bg-red-50 px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-lg flex items-center justify-center gap-2">
+                <Phone className="h-5 w-5" /> Emergency: (539) 367-6832
               </a>
-              <Link 
-                href="/contact" 
-                className="flex items-center gap-2 bg-blue-700 hover:bg-blue-600 border-2 border-blue-500 font-bold py-4 px-8 rounded-lg text-xl transition-colors"
-              >
-                <Calendar className="w-6 h-6" />
-                Request Quote
+              <Link href="/contact" className="bg-red-800 hover:bg-red-900 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all flex items-center justify-center gap-2">
+                <Calendar className="h-5 w-5" /> Schedule Service
               </Link>
             </div>
           </div>
         </section>
-      
-        {/* County Statistics Section */}
-        <section className="py-16 bg-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid md:grid-cols-4 gap-8 text-center">
-              <div className="bg-blue-50 p-6 rounded-lg">
-                <div className="text-3xl font-bold text-blue-900 mb-2">24/7</div>
-                <div className="text-gray-700">Emergency Service Available</div>
-              </div>
-              <div className="bg-green-50 p-6 rounded-lg">
-                <Link 
-                  href="/pricing"
-                  className="block text-center hover:bg-green-100 transition-colors rounded-lg"
-                >
-                  <div className="text-3xl font-bold text-green-900 mb-2">Pricing</div>
-                  <div className="text-gray-700">View All Rates â†’</div>
-                </Link>
-              </div>
-              <div className="bg-yellow-50 p-6 rounded-lg">
-                <div className="text-3xl font-bold text-yellow-900 mb-2">Licensed</div>
-                <div className="text-gray-700">Bonded & Insured</div>
-              </div>
-              <div className="bg-red-50 p-6 rounded-lg">
-                <div className="text-3xl font-bold text-red-900 mb-2">100%</div>
-                <div className="text-gray-700">Professional Affidavits</div>
-              </div>
-            </div>
-          </div>
-        </section>
 
-        {/* Google Maps Section */}
-        <section className="py-20 bg-gray-50">
-          <div className="container mx-auto px-4">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-4">
-                Osage County Service Area
-              </h2>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Professional process serving throughout Osage County, Oklahoma - from Pawhuska to Skiatook and all areas in between
-              </p>
-            </div>
-            <GoogleMapsEmbed 
+        {/* Map */}
+        <section className="bg-white rounded-2xl shadow-lg overflow-hidden">
+          <div className="p-6 bg-gradient-to-r from-blue-600 to-blue-700 text-white">
+            <h2 className="text-2xl font-bold mb-1 flex items-center gap-2"><MapPin className="h-6 w-6" /> Osage County Service Area Map</h2>
+            <p className="text-blue-100">GPS-verified coverage throughout Osage County</p>
+          </div>
+          <div className="p-8">
+            <GoogleMapsEmbed
               countyName="Osage County"
+              
               state="Oklahoma"
-              title="Osage County Process Server Coverage Area"
+              title="Osage County Process Server Service Area"
             />
           </div>
         </section>
 
-        {/* Competitive Advantages */}
-        <section className="py-20 bg-white">
-          <div className="container mx-auto px-4">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-4">
-                Why Choose Just Legal Solutions in Osage County?
-              </h2>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Unmatched expertise and reliability for all your Osage County process serving needs
-              </p>
-            </div>
-            
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
-                <div className="flex items-center mb-4">
-                  <Shield className="h-8 w-8 text-blue-600 mr-3" />
-                  <h3 className="text-xl font-bold text-blue-900">Licensed & Bonded</h3>
-                </div>
-                <p className="text-gray-700">
-                  Fully licensed with Osage County Clerk, bonded and insured for your protection. All legal requirements met and exceeded.
-                </p>
-              </div>
-              
-              <div className="bg-green-50 p-6 rounded-lg border border-green-200">
-                <div className="flex items-center mb-4">
-                  <Clock className="h-8 w-8 text-green-600 mr-3" />
-                  <h3 className="text-xl font-bold text-green-900">Same-Day Service</h3>
-                </div>
-                <p className="text-gray-700">
-                  Emergency same-day service available throughout Osage County. Rush services completed within 24 hours guaranteed.
-                </p>
-              </div>
-              
-              <div className="bg-purple-50 p-6 rounded-lg border border-purple-200">
-                <div className="flex items-center mb-4">
-                  <MapPin className="h-8 w-8 text-purple-600 mr-3" />
-                  <h3 className="text-xl font-bold text-purple-900">Local Knowledge</h3>
-                </div>
-                <p className="text-gray-700">
-                  Deep familiarity with Osage County geography, from Pawhuska&apos;s neighborhoods to rural routes throughout the county.
-                </p>
-              </div>
-              
-              <div className="bg-orange-50 p-6 rounded-lg border border-orange-200">
-                <div className="flex items-center mb-4">
-                  <FileText className="h-8 w-8 text-orange-600 mr-3" />
-                  <h3 className="text-xl font-bold text-orange-900">Detailed Documentation</h3>
-                </div>
-                <p className="text-gray-700">
-                  Comprehensive affidavits with GPS coordinates, photos, and detailed service notes for Court evidence.
-                </p>
-              </div>
-              
-              <div className="bg-red-50 p-6 rounded-lg border border-red-200">
-                <div className="flex items-center mb-4">
-                  <Users className="h-8 w-8 text-red-600 mr-3" />
-                  <h3 className="text-xl font-bold text-red-900">Statewide Network</h3>
-                </div>
-                <p className="text-gray-700">
-                  Part of Oklahoma&apos;s largest process serving network. If we can&apos;t serve it in Osage County, our partners will.
-                </p>
-              </div>
-              
-              <div className="bg-yellow-50 p-6 rounded-lg border border-yellow-200">
-                <div className="flex items-center mb-4">
-                  <Award className="h-8 w-8 text-yellow-600 mr-3" />
-                  <h3 className="text-xl font-bold text-yellow-900">Track Record</h3>
-                </div>
-                <p className="text-gray-700">
-                  Thousands of successful serves in Osage County with 99.2% success rate and zero court challenges to our affidavits.
-                </p>
-              </div>
+        {/* Final CTA */}
+        <section className="bg-gradient-to-r from-blue-700 to-blue-800 text-white rounded-2xl shadow-lg">
+          <div className="p-8 text-center">
+            <h2 className="text-3xl font-bold mb-3">Ready to Serve Papers in Osage County?</h2>
+            <p className="text-xl mb-6 text-blue-100">GPS-tracked, notarized, court-ready — in Osage County.</p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a href="tel:5393676832" className="bg-white text-blue-700 hover:bg-blue-50 px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-lg flex items-center justify-center gap-2">
+                <Phone className="h-5 w-5" /> Call (539) 367-6832
+              </a>
+              <Link href="/contact" className="bg-blue-900 hover:bg-blue-950 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all flex items-center justify-center gap-2">
+                <FileText className="h-5 w-5" /> Get Free Quote
+              </Link>
             </div>
           </div>
         </section>
 
-        {/* Legal Process Information */}
-        <section className="py-16 bg-gray-50">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-              Process Serving Throughout the County
-            </h2>
-            <div className="grid md:grid-cols-2 gap-12">
-              <div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-6">Our County-Wide Services</h3>
-                <div className="space-y-4">
-                  <div className="flex items-start gap-3">
-                    <CheckCircle className="w-6 h-6 text-green-600 mt-1" />
-                    <div>
-                      <strong>All Legal Documents:</strong> Divorce papers, custody modifications, eviction notices, small claims, civil complaints, subpoenas
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <CheckCircle className="w-6 h-6 text-green-600 mt-1" />
-                    <div>
-                      <strong>Professional Skip Tracing:</strong> Advanced location services when addresses are unknown or outdated
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <CheckCircle className="w-6 h-6 text-green-600 mt-1" />
-                    <div>
-                      <strong>Court Filing Services:</strong> Same-day filing, certified copies, and document retrieval services
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <CheckCircle className="w-6 h-6 text-green-600 mt-1" />
-                    <div>
-                      <strong>Rush & Emergency Service:</strong> Same-day service available throughout the county for urgent legal matters
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="bg-blue-50 p-8 rounded-lg">
-                <h3 className="text-2xl font-bold text-blue-900 mb-6">Oklahoma Legal Requirements</h3>
-                <div className="space-y-4 text-sm">
-                  <div>
-                    <strong>Process Server Licensing:</strong> All process servers must be licensed with the county clerk and maintain a $2,000 bond.
-                  </div>
-                  <div>
-                    <strong>Service Standards:</strong> Service must comply with Oklahoma Rules of Civil Procedure Title 12. Proper service includes personal delivery or approved substitute methods.
-                  </div>
-                  <div>
-                    <strong>Affidavit Requirements:</strong> Professional affidavits of service must be filed with the court, detailing time, place, and method of service.
-                  </div>
-                  <div>
-                    <strong>Due Process Protection:</strong> Proper service ensures constitutional due process rights are protected in all legal proceedings.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+        <div className="text-center py-4">
+          <Link href="/counties" className="text-blue-600 hover:text-blue-800 font-semibold transition-colors">
+            ← Browse All Counties
+          </Link>
+        </div>
 
-        {/* Service Area Coverage Map */}
-        <section className="py-16 bg-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-3xl font-bold text-gray-900 mb-8">
-              Complete County Coverage
-            </h2>
-            <p className="text-xl text-gray-600 mb-12">
-              Professional process serving in every city, town, and unincorporated area throughout the county
-            </p>
-            <div className="bg-blue-900 text-white rounded-lg p-8">
-              <h3 className="text-2xl font-bold mb-6">Ready to Serve Your Documents?</h3>
-              <p className="text-blue-100 mb-6">
-                Licensed, bonded, and insured process serving throughout the county â€¢ Same-day service available
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a 
-                  href="tel:5393676832" 
-                  className="flex items-center gap-2 bg-yellow-500 hover:bg-yellow-400 text-black font-bold py-3 px-6 rounded-lg text-lg transition-colors"
-                >
-                  <Phone className="w-5 h-5" />
-                  Call: (539) 367-6832
-                </a>
-                <Link 
-                  href="/contact" 
-                  className="flex items-center gap-2 bg-blue-700 hover:bg-blue-600 border-2 border-blue-500 font-bold py-3 px-6 rounded-lg text-lg transition-colors"
-                >
-                  <Calendar className="w-5 h-5" />
-                  Request Quote
-                </Link>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* FAQ Section */}
-        <section className="py-16 bg-gray-50">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-              Frequently Asked Questions
-            </h2>
-            <div className="space-y-8">
-              {osageCountyFAQs.map((faq, index) => (
-                <div key={index} className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                    {faq.question}
-                  </h3>
-                  <p className="text-gray-700 leading-relaxed">
-                    {faq.answer}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
       </div>
-      <Footer />
-    </>
+
+      <UnifiedSchema
+        pageType="location"
+        url="https://justlegalsolutions.org/counties/osage-county"
+        title="Process Server Osage County, OK | Pawhuska"
+        description="Licensed process server in Osage County, Oklahoma. Serving Pawhuska, Hominy, Fairfax, and all surrounding communities."
+        faqItems={pageFAQs.slice(0, 4)}
+        aggregateRating={{ ratingValue: 4.9, reviewCount: 156 }}
+        breadcrumbItems={[
+          { name: 'Home', item: 'https://justlegalsolutions.org' },
+          { name: 'Counties', item: 'https://justlegalsolutions.org/counties' },
+          { name: 'Osage County', item: 'https://justlegalsolutions.org/counties/osage-county' },
+        ]}
+      />
+    </div>
   );
 }

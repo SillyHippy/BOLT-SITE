@@ -331,6 +331,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://justlegalsolutions.org/counties/atoka-county</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://justlegalsolutions.org/counties/beckham-county</loc>
     <lastmod>2026-04-11</lastmod>
     <changefreq>monthly</changefreq>
@@ -590,6 +596,12 @@
   </url>
   <url>
     <loc>https://justlegalsolutions.org/counties/pottawatomie-county</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://justlegalsolutions.org/counties/pushmataha-county</loc>
     <lastmod>2026-04-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -1309,6 +1321,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://justlegalsolutions.org/service-areas/miami</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://justlegalsolutions.org/service-areas/midwest-city</loc>
     <lastmod>2026-04-11</lastmod>
     <changefreq>monthly</changefreq>
@@ -1388,6 +1406,12 @@
   </url>
   <url>
     <loc>https://justlegalsolutions.org/service-areas/pryor</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://justlegalsolutions.org/service-areas/sallisaw</loc>
     <lastmod>2026-04-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1841,6 +1865,18 @@
     <lastmod>2026-04-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://justlegalsolutions.org/oklahoma-process-server-best-practices-checklist-2026</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://justlegalsolutions.org/oklahoma-process-server-faq-2026</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://justlegalsolutions.org/resources/oklahoma-process-server-licensing-checklist</loc>

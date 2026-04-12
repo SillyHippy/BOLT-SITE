@@ -1,151 +1,253 @@
-﻿import { Metadata } from 'next';
+import { Metadata } from 'next';
 import Link from 'next/link';
+import { Phone, FileText, MapPin, DollarSign, AlertCircle, Calendar, Users, Building } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
+import GoogleMapsEmbed from '@/components/ui/google-maps-embed';
 
 export const metadata: Metadata = {
-  title: "Process Server Sequoyah County, OK | Sallisaw",
-  description: "Licensed process server in Sequoyah County, Oklahoma. Serving Sallisaw, Vian, Roland, and all surrounding communities.",
-  keywords: "process server Sequoyah County Oklahoma, legal document service Sequoyah County OK, serve papers Sequoyah County, court documents Sequoyah County Oklahoma, licensed process server",
+  title: 'Process Server Sequoyah County, OK | Sallisaw',
+  description: 'Licensed process server in Sequoyah County, Oklahoma. Serving Sallisaw, Vian, Roland, and all surrounding communities.',
+  keywords: 'process server Sequoyah County Oklahoma, Sequoyah County process server, serve papers Sequoyah County, legal document service Sequoyah County',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   robots: { index: true, follow: true },
   openGraph: {
-    title: "Process Server Sequoyah County, OK | Sallisaw",
-    description: "Licensed process server in Sequoyah County, Oklahoma. Serving Sallisaw, Vian, Roland, and all surrounding communities.",
-    url: "https://justlegalsolutions.org/counties/sequoyah-county",
+    title: 'Process Server Sequoyah County, OK | Sallisaw',
+    description: 'Licensed process server in Sequoyah County, Oklahoma. Serving Sallisaw, Vian, Roland, and all surrounding communities.',
+    url: 'https://justlegalsolutions.org/counties/sequoyah-county',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'website',
   },
   alternates: {
-    canonical: "https://justlegalsolutions.org/counties/sequoyah-county",
+    canonical: 'https://justlegalsolutions.org/counties/sequoyah-county',
   },
 };
 
-export default function SequoyahCountyProcessServerPage() {
+const pageFAQs: { question: string; answer: string }[] = [
+
+];
+
+const employers: { name: string; address: string; industry: string; notes: string }[] = [
+  { name: 'Cherokee Nation', address: 'Various Sequoyah County locations', industry: 'Tribal Government', notes: 'Tribal HR and legal compliance' },
+  { name: 'Sallisaw Public Schools', address: '1001 W Ruth Ave, Sallisaw, OK 74955', industry: 'Education', notes: '500+ employees' },
+  { name: 'City of Sallisaw', address: '111 N Oak St, Sallisaw, OK 74955', industry: 'Government', notes: 'Municipal court' },
+  { name: 'Sequoyah County Government', address: '120 E Chickasaw Ave, Sallisaw, OK 74955', industry: 'Government', notes: 'Courthouse complex' },
+  { name: 'Sallisaw Casino', address: 'Sallisaw, OK 74955', industry: 'Gaming/Hospitality', notes: 'Tribal HR preferred' },
+  { name: 'Walmart Supercenter', address: '1101 W Ruth Ave, Sallisaw, OK 74955', industry: 'Retail', notes: '200+ employees' },
+];
+
+export default function SequoyahCountyCountyPage() {
   return (
     <div className="min-h-screen bg-gray-50">
-      <section className="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 text-white py-16 md:py-20">
+
+      {/* Hero */}
+      <section className="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 text-white py-16 md:py-24">
         <div className="container mx-auto px-4 md:px-6 max-w-5xl">
-          <nav className="text-sm mb-6 text-blue-200">
-            <Link href="/" className="hover:text-white">Home</Link>
+          <nav className="text-sm mb-6 text-blue-200" aria-label="Breadcrumb">
+            <Link href="/" className="hover:text-white transition-colors">Home</Link>
             <span className="mx-2">/</span>
-            <Link href="/counties" className="hover:text-white">Counties</Link>
+            <Link href="/counties" className="hover:text-white transition-colors">Counties</Link>
             <span className="mx-2">/</span>
-            <span className="text-white">Sequoyah County</span>
+            <span className="text-white font-medium">Sequoyah County</span>
           </nav>
-          <div className="inline-block bg-yellow-500 text-blue-900 px-4 py-1 rounded-full text-sm font-bold mb-4">
-            Licensed Oklahoma Process Server
+          <div className="inline-block bg-yellow-400 text-blue-900 px-4 py-1 rounded-full text-sm font-bold mb-5 uppercase tracking-wide">
+            Licensed — PSL-2026-2
           </div>
-          <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-4">Process Server Sequoyah County, OK</h1>
-          <p className="text-xl text-blue-100 mb-8 max-w-3xl">Licensed process server in Sequoyah County, Oklahoma. Serving Sallisaw, Vian, Roland, and all surrounding communities.</p>
+          <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-5">
+            Process Server<br className="hidden md:block" /> Sequoyah County, Oklahoma
+          </h1>
+          <div className="flex flex-wrap gap-4 mb-4 text-blue-200 text-sm">
+            <span className="flex items-center gap-1"><Users className="h-4 w-4" /> Population: 39,281</span>
+            <span className="flex items-center gap-1"><Building className="h-4 w-4" /> County Seat: Sallisaw</span>
+            
+            
+          </div>
+          
+          <p className="text-xl text-blue-100 mb-8 max-w-3xl leading-relaxed">
+            Licensed process server in Sequoyah County, Oklahoma. Serving Sallisaw, Vian, Roland, and all surrounding communities.
+          </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <a href="tel:5393676832" className="bg-yellow-500 hover:bg-yellow-400 text-blue-900 font-bold py-4 px-8 rounded-lg text-center transition-colors shadow-lg text-lg">
-              Call (539) 367-6832
+            <a href="tel:5393676832" className="bg-yellow-400 hover:bg-yellow-300 text-blue-900 font-bold py-4 px-8 rounded-xl text-center transition-all shadow-xl text-lg flex items-center justify-center gap-2">
+              <Phone className="h-5 w-5" /> Call (539) 367-6832
             </a>
-            <Link href="/contact" className="bg-white/10 hover:bg-white/20 border border-white/30 text-white font-semibold py-4 px-8 rounded-lg text-center transition-colors">
-              Get a Free Quote
+            <Link href="/contact" className="bg-white/10 hover:bg-white/20 border border-white/30 text-white font-semibold py-4 px-8 rounded-xl text-center transition-all flex items-center justify-center gap-2">
+              <FileText className="h-5 w-5" /> Get a Free Quote
             </Link>
           </div>
           <div className="mt-8 flex flex-wrap gap-6 text-blue-200 text-sm">
-            <span>Standard from $60</span>
-            <span>Rush $150</span>
-            <span>Same-Day $265</span>
-            <span>GPS-tracked</span>
-            <span>Court-ready affidavits</span>
+            <span>✓ Standard Service</span>
+            <span>✓ Rush Service</span>
+            <span>✓ Same-Day Service</span>
+            <span>✓ GPS-tracked every attempt</span>
+            <span>✓ Notarized affidavit included</span>
+            <Link href="/pricing" className="underline underline-offset-2 hover:text-white transition-colors">View Current Pricing →</Link>
           </div>
         </div>
       </section>
 
-      <div className="container mx-auto px-4 md:px-6 max-w-5xl py-12">
-        <section className="bg-white rounded-xl shadow-md p-8 mb-10">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">Process Serving in Sequoyah County, Oklahoma</h2>
-          <p className="text-gray-700 leading-relaxed mb-4">
-            Just Legal Solutions provides licensed, GPS-verified process serving throughout Sequoyah County, Oklahoma. We serve subpoenas, summonses, divorce papers, eviction notices, protective orders, and civil litigation documents throughout the area. Our servers verify addresses through county assessor records and USPS data, and deliver notarized, court-ready affidavits after every serve.
-          </p>
-          <p className="text-gray-700 leading-relaxed">
-            We are licensed by the State of Oklahoma (PSL-2026-2), bonded, and have completed over 156 verified five-star serves across northeastern, central, and western Oklahoma.
-          </p>
+      <div className="container mx-auto px-4 md:px-6 max-w-5xl py-12 space-y-10">
+
+        {/* Courthouse Info */}
+        <section className="bg-white rounded-2xl shadow-lg overflow-hidden">
+          <div className="p-6 bg-gradient-to-r from-slate-700 to-slate-800 text-white">
+            <h2 className="text-2xl font-bold mb-1">Courthouse &amp; Filing Information</h2>
+            <p className="text-slate-300">Judicial District 15 — Sequoyah County</p>
+          </div>
+          <div className="p-8 space-y-4">
+            <div className="bg-blue-50 border border-blue-200 rounded-xl p-5">
+              <p className="font-semibold text-lg text-gray-900">Sequoyah County Courthouse</p>
+              <p className="text-gray-700">120 E Chickasaw Ave, Sallisaw, OK 74955</p>
+              
+              <p className="text-gray-500 text-xs mt-1">🕐 Mon-Fri 8:00 AM - 4:30 PM</p>
+              <p className="text-gray-600 mt-2 text-sm">Serves: Sallisaw, Muldrow, Roland, Vian</p>
+            </div>
+            
+            <div className="bg-amber-50 border border-amber-300 rounded-xl p-4">
+              <p className="font-semibold text-amber-800">Tribal Jurisdiction Note</p>
+              <p className="text-amber-700 text-sm">McGirt v. Oklahoma ruling and tribal jurisdiction may apply to criminal matters in this area. We coordinate with tribal courts and recommend confirming venue with your attorney.</p>
+            </div>
+            
+          </div>
         </section>
 
-        <section className="bg-white rounded-xl shadow-md p-8 mb-10">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">Service Pricing for Sequoyah County</h2>
-          <div className="overflow-x-auto">
+        
+
+        {employers.length > 0 && (
+        <section className="bg-white rounded-2xl shadow-lg overflow-hidden">
+          <div className="p-6 bg-gradient-to-r from-emerald-600 to-emerald-700 text-white">
+            <h2 className="text-2xl font-bold mb-1">Major Employers &amp; Workplace Service</h2>
+            <p className="text-emerald-100">Serving businesses and employees in Sequoyah County</p>
+          </div>
+          <div className="p-8 overflow-x-auto">
             <table className="min-w-full text-sm">
-              <thead className="bg-blue-900 text-white">
+              <thead className="bg-gray-100 text-gray-800 font-semibold">
                 <tr>
-                  <th className="px-4 py-3 text-left">Service Level</th>
-                  <th className="px-4 py-3 text-left">Turnaround</th>
-                  <th className="px-4 py-3 text-left">Price</th>
-                  <th className="px-4 py-3 text-left">What's Included</th>
+                  <th className="px-4 py-3 text-left">Employer</th>
+                  <th className="px-4 py-3 text-left">Address</th>
+                  <th className="px-4 py-3 text-left">Industry</th>
+                  <th className="px-4 py-3 text-left">Service Notes</th>
                 </tr>
               </thead>
-              <tbody className="divide-y divide-gray-200">
-                <tr className="bg-white">
-                  <td className="px-4 py-3 font-semibold">Standard Service</td>
-                  <td className="px-4 py-3">2-3 business days</td>
-                  <td className="px-4 py-3 font-bold text-blue-700">$60</td>
-                  <td className="px-4 py-3">3 attempts, notarized affidavit, GPS documentation</td>
-                </tr>
-                <tr className="bg-gray-50">
-                  <td className="px-4 py-3 font-semibold">Rush Service</td>
-                  <td className="px-4 py-3">Next business day</td>
-                  <td className="px-4 py-3 font-bold text-blue-700">$150</td>
-                  <td className="px-4 py-3">Priority same-day attempt, same features</td>
-                </tr>
-                <tr className="bg-white">
-                  <td className="px-4 py-3 font-semibold">Same-Day Service</td>
-                  <td className="px-4 py-3">Within 24 hours</td>
-                  <td className="px-4 py-3 font-bold text-blue-700">$265</td>
-                  <td className="px-4 py-3">Immediate deployment, all features</td>
-                </tr>
+              <tbody className="divide-y divide-gray-200 bg-white">
+                {employers.map((emp, i) => (
+                  <tr key={i} className={i % 2 === 1 ? 'bg-gray-50' : ''}>
+                    <td className="px-4 py-3 font-medium">{emp.name}</td>
+                    <td className="px-4 py-3 text-gray-600">{emp.address}</td>
+                    <td className="px-4 py-3 text-gray-600">{emp.industry}</td>
+                    <td className="px-4 py-3 text-gray-600">{emp.notes}</td>
+                  </tr>
+                ))}
               </tbody>
             </table>
           </div>
         </section>
+        )}
 
-        <section className="bg-white rounded-xl shadow-md p-8 mb-10">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">Sequoyah County FAQ</h2>
-          <div className="space-y-5">
-                <div className="border-b border-gray-200 pb-5 last:border-0">
-                  <h3 className="font-semibold text-lg text-gray-800 mb-2">Do all Sequoyah County cases file in Sallisaw?</h3>
-                  <p className="text-gray-600">Yes. Sallisaw is the county seat of Sequoyah County. All district-court cases file at the Sequoyah County Courthouse on 120 E Chickasaw Ave.</p>
-                </div>
-                <div className="border-b border-gray-200 pb-5 last:border-0">
-                  <h3 className="font-semibold text-lg text-gray-800 mb-2">How does Cherokee Nation jurisdiction work in Sequoyah County?</h3>
-                  <p className="text-gray-600">Much of Sequoyah County lies within the Cherokee Nation. While most cases file in state court, tribal-land or tribal-member matters may fall under Cherokee Nation tribal court. We serve either venue as directed.</p>
-                </div>
-                <div className="border-b border-gray-200 pb-5 last:border-0">
-                  <h3 className="font-semibold text-lg text-gray-800 mb-2">Is same-day service available in Sequoyah County?</h3>
-                  <p className="text-gray-600">Yes. Same-Day service ($265) is available throughout Sallisaw, Roland, Vian, and all of Sequoyah County. Call (539) 367-6832.</p>
-                </div>
+        {/* Pricing */}
+        <section className="bg-white rounded-2xl shadow-lg overflow-hidden">
+          <div className="p-6 bg-gradient-to-r from-blue-700 to-blue-800 text-white">
+            <h2 className="text-2xl font-bold mb-1 flex items-center gap-2"><DollarSign className="h-6 w-6" /> Pricing for Sequoyah County</h2>
+            <p className="text-blue-100">Flat rates — no hidden mileage fees in Sequoyah County</p>
           </div>
-          <div className="mt-6 pt-4 border-t border-gray-200">
-            <Link href="/oklahoma-process-server-faq" className="text-blue-600 hover:underline text-sm">
-              View our complete Oklahoma Process Server FAQ
-            </Link>
+          <div className="p-8">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
+              <div className="bg-gray-50 rounded-xl p-5 text-center border border-gray-200">
+                <p className="font-bold text-gray-900 text-lg mb-1">Standard Service</p>
+                <p className="text-sm text-gray-600">2–3 business days</p>
+                <p className="text-xs text-gray-400 mt-2">3 attempts · GPS affidavit · Photo docs</p>
+              </div>
+              <div className="bg-blue-50 rounded-xl p-5 text-center border border-blue-200">
+                <p className="font-bold text-gray-900 text-lg mb-1">Rush Service</p>
+                <p className="text-sm text-gray-600">Next business day</p>
+                <p className="text-xs text-gray-400 mt-2">Priority scheduling · All features</p>
+              </div>
+              <div className="bg-red-50 rounded-xl p-5 text-center border border-red-200">
+                <p className="font-bold text-gray-900 text-lg mb-1">Same-Day Service</p>
+                <p className="text-sm text-gray-600">Call before noon</p>
+                <p className="text-xs text-gray-400 mt-2">Immediate deployment · Sequoyah County coverage</p>
+              </div>
+            </div>
+            <div className="text-center">
+              <Link href="/pricing" className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-xl transition-colors shadow">
+                <DollarSign className="h-4 w-4" /> View Current Rates &amp; Full Pricing
+              </Link>
+              <p className="text-xs text-gray-500 mt-3">All rates are flat — no hidden mileage fees in Sequoyah County.</p>
+            </div>
           </div>
         </section>
 
-        <section className="bg-blue-50 rounded-xl p-8 mb-10">
-          <h2 className="text-xl font-bold text-gray-900 mb-5">Related Resources</h2>
-          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 text-sm">
-            <Link href="/counties" className="bg-white p-3 rounded-lg text-blue-700 font-medium hover:bg-blue-100 transition text-center">All Counties</Link>
-            <Link href="/tulsa-process-server" className="bg-white p-3 rounded-lg text-blue-700 font-medium hover:bg-blue-100 transition text-center">Tulsa Process Server</Link>
-            <Link href="/oklahoma-process-server-laws" className="bg-white p-3 rounded-lg text-blue-700 font-medium hover:bg-blue-100 transition text-center">Oklahoma Process Serving Laws</Link>
-            <Link href="/oklahoma-process-server-faq" className="bg-white p-3 rounded-lg text-blue-700 font-medium hover:bg-blue-100 transition text-center">Process Server FAQ</Link>
-            <Link href="/pricing" className="bg-white p-3 rounded-lg text-blue-700 font-medium hover:bg-blue-100 transition text-center">Pricing Guide</Link>
-            <Link href="/contact" className="bg-white p-3 rounded-lg text-blue-700 font-medium hover:bg-blue-100 transition text-center">Contact Us</Link>
+        {pageFAQs.length > 0 && (
+        <section className="bg-white rounded-2xl shadow-lg overflow-hidden">
+          <div className="p-6 bg-gradient-to-r from-teal-600 to-teal-700 text-white">
+            <h2 className="text-2xl font-bold mb-1">Sequoyah County FAQ</h2>
+            <p className="text-teal-100">Local process serving questions answered</p>
+          </div>
+          <div className="p-8 space-y-6">
+            {pageFAQs.map((faq, i) => (
+              <div key={i} className="border-b border-gray-200 pb-6 last:border-0 last:pb-0">
+                <h3 className="font-semibold text-lg text-gray-800 mb-2">Q: {faq.question}</h3>
+                <p className="text-gray-600 leading-relaxed">{faq.answer}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+        )}
+
+        {/* Emergency CTA */}
+        <section className="bg-gradient-to-r from-red-600 to-red-700 text-white rounded-2xl shadow-lg">
+          <div className="p-8 text-center">
+            <AlertCircle className="h-14 w-14 mx-auto mb-5 text-red-200" />
+            <h2 className="text-3xl font-bold mb-3">Emergency Process Service in Sequoyah County?</h2>
+            <p className="text-xl mb-6 text-red-100">Available 24/7 for urgent legal document service across Sequoyah County</p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a href="tel:5393676832" className="bg-white text-red-600 hover:bg-red-50 px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-lg flex items-center justify-center gap-2">
+                <Phone className="h-5 w-5" /> Emergency: (539) 367-6832
+              </a>
+              <Link href="/contact" className="bg-red-800 hover:bg-red-900 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all flex items-center justify-center gap-2">
+                <Calendar className="h-5 w-5" /> Schedule Service
+              </Link>
+            </div>
           </div>
         </section>
 
-        <section className="bg-blue-900 text-white rounded-xl p-8 text-center">
-          <h2 className="text-2xl font-bold mb-3">Need a Process Server in </h2>
-          <p className="text-blue-100 mb-6 max-w-2xl mx-auto">Licensed, bonded, and GPS-verified. Flat-rate pricing that covers every address in Sequoyah County, Oklahoma.</p>
-          <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <a href="tel:5393676832" className="bg-yellow-500 hover:bg-yellow-400 text-blue-900 font-bold py-4 px-8 rounded-lg transition-colors text-lg">Call (539) 367-6832</a>
-            <Link href="/contact" className="bg-blue-700 hover:bg-blue-600 text-white font-semibold py-4 px-8 rounded-lg transition-colors">Get a Free Quote Online</Link>
+        {/* Map */}
+        <section className="bg-white rounded-2xl shadow-lg overflow-hidden">
+          <div className="p-6 bg-gradient-to-r from-blue-600 to-blue-700 text-white">
+            <h2 className="text-2xl font-bold mb-1 flex items-center gap-2"><MapPin className="h-6 w-6" /> Sequoyah County Service Area Map</h2>
+            <p className="text-blue-100">GPS-verified coverage throughout Sequoyah County</p>
+          </div>
+          <div className="p-8">
+            <GoogleMapsEmbed
+              countyName="Sequoyah County"
+              
+              state="Oklahoma"
+              title="Sequoyah County Process Server Service Area"
+            />
           </div>
         </section>
+
+        {/* Final CTA */}
+        <section className="bg-gradient-to-r from-blue-700 to-blue-800 text-white rounded-2xl shadow-lg">
+          <div className="p-8 text-center">
+            <h2 className="text-3xl font-bold mb-3">Ready to Serve Papers in Sequoyah County?</h2>
+            <p className="text-xl mb-6 text-blue-100">GPS-tracked, notarized, court-ready — in Sequoyah County.</p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a href="tel:5393676832" className="bg-white text-blue-700 hover:bg-blue-50 px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-lg flex items-center justify-center gap-2">
+                <Phone className="h-5 w-5" /> Call (539) 367-6832
+              </a>
+              <Link href="/contact" className="bg-blue-900 hover:bg-blue-950 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all flex items-center justify-center gap-2">
+                <FileText className="h-5 w-5" /> Get Free Quote
+              </Link>
+            </div>
+          </div>
+        </section>
+
+        <div className="text-center py-4">
+          <Link href="/counties" className="text-blue-600 hover:text-blue-800 font-semibold transition-colors">
+            ← Browse All Counties
+          </Link>
+        </div>
+
       </div>
 
       <UnifiedSchema
@@ -153,7 +255,13 @@ export default function SequoyahCountyProcessServerPage() {
         url="https://justlegalsolutions.org/counties/sequoyah-county"
         title="Process Server Sequoyah County, OK | Sallisaw"
         description="Licensed process server in Sequoyah County, Oklahoma. Serving Sallisaw, Vian, Roland, and all surrounding communities."
+        faqItems={pageFAQs.slice(0, 4)}
         aggregateRating={{ ratingValue: 4.9, reviewCount: 156 }}
+        breadcrumbItems={[
+          { name: 'Home', item: 'https://justlegalsolutions.org' },
+          { name: 'Counties', item: 'https://justlegalsolutions.org/counties' },
+          { name: 'Sequoyah County', item: 'https://justlegalsolutions.org/counties/sequoyah-county' },
+        ]}
       />
     </div>
   );

@@ -1,4 +1,4 @@
-﻿import { Metadata } from 'next';
+import { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, CheckCircle, Star, Calendar, FileText, Scale, AlertCircle } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
@@ -8,7 +8,7 @@ import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Process Server Catoosa, OK | Same-Day Service from $60',
+  title: 'Process Server Catoosa, OK',
   description:
     'Licensed process server in Catoosa, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
   keywords: 'process server catoosa, legal document service catoosa, serve papers catoosa, court documents catoosa, subpoena service catoosa, eviction notice catoosa, emergency process server catoosa, 24/7 process server oklahoma, licensed process server rogers county, professional process server catoosa',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Process Server Catoosa, OK | Same-Day Service from $60',
+    title: 'Process Server Catoosa, OK',
     description:
     'Licensed process server in Catoosa, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     url: 'https://justlegalsolutions.org/service-areas/catoosa',
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Process Server Catoosa, OK | Same-Day Service from $60',
+    title: 'Process Server Catoosa, OK',
     description:
     'Licensed process server in Catoosa, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     images: ['https://justlegalsolutions.org/og-image.png'],
@@ -292,7 +292,7 @@ export default function CatoosaProcessServer() {
                       rel="noopener noreferrer"
                       className="text-blue-600 hover:text-blue-800 font-medium text-sm"
                     >
-                      ðŸ“ View Larger Map & Directions
+                      📍 View Larger Map & Directions
                     </a>
                   </div>
                 </div>
@@ -517,7 +517,7 @@ export default function CatoosaProcessServer() {
               href="/service-areas"
               className="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold text-lg transition-colors"
             >
-              â† Browse All Oklahoma Service Areas
+              ← Browse All Oklahoma Service Areas
             </Link>
           </div>
         </div>

@@ -1,151 +1,254 @@
-﻿import { Metadata } from 'next';
+import { Metadata } from 'next';
 import Link from 'next/link';
+import { Phone, FileText, MapPin, DollarSign, AlertCircle, Calendar, Users, Building } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
+import GoogleMapsEmbed from '@/components/ui/google-maps-embed';
 
 export const metadata: Metadata = {
-  title: "Process Server Cherokee County, OK | Tahlequah",
-  description: "Licensed process server in Cherokee County, Oklahoma. Serving Tahlequah, Park Hill, and all surrounding communities.",
-  keywords: "process server Cherokee County Oklahoma, legal document service Cherokee County OK, serve papers Cherokee County, court documents Cherokee County Oklahoma, licensed process server",
+  title: 'Process Server Cherokee County, OK | Tahlequah',
+  description: 'Licensed process server in Cherokee County, Oklahoma. Serving Tahlequah, Park Hill, and all surrounding communities.',
+  keywords: 'process server Cherokee County Oklahoma, Cherokee County process server, serve papers Cherokee County, legal document service Cherokee County',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   robots: { index: true, follow: true },
   openGraph: {
-    title: "Process Server Cherokee County, OK | Tahlequah",
-    description: "Licensed process server in Cherokee County, Oklahoma. Serving Tahlequah, Park Hill, and all surrounding communities.",
-    url: "https://justlegalsolutions.org/counties/cherokee-county",
+    title: 'Process Server Cherokee County, OK | Tahlequah',
+    description: 'Licensed process server in Cherokee County, Oklahoma. Serving Tahlequah, Park Hill, and all surrounding communities.',
+    url: 'https://justlegalsolutions.org/counties/cherokee-county',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'website',
   },
   alternates: {
-    canonical: "https://justlegalsolutions.org/counties/cherokee-county",
+    canonical: 'https://justlegalsolutions.org/counties/cherokee-county',
   },
 };
 
-export default function CherokeeCountyProcessServerPage() {
+const pageFAQs: { question: string; answer: string }[] = [
+
+];
+
+const employers: { name: string; address: string; industry: string; notes: string }[] = [
+  { name: 'Cherokee Nation', address: 'W.W. Keeler Complex, Tahlequah, OK 74465', industry: 'Tribal Government', notes: 'Largest employer; tribal HR preferred' },
+  { name: 'Northeastern State University', address: '600 N Grand Ave, Tahlequah, OK 74464', industry: 'Higher Education', notes: '1,500+ employees; 7,000+ students' },
+  { name: 'Tahlequah Public Schools', address: '225 N Water Ave, Tahlequah, OK 74464', industry: 'Education', notes: '700+ employees' },
+  { name: 'City of Tahlequah', address: '111 S Cherokee Ave, Tahlequah, OK 74464', industry: 'Government', notes: 'Municipal court' },
+  { name: 'Cherokee County Government', address: '213 W Delaware St, Tahlequah, OK 74464', industry: 'Government', notes: 'Courthouse complex' },
+  { name: 'Northeastern Health System', address: '1400 E Downing St, Tahlequah, OK 74464', industry: 'Healthcare', notes: '600+ employees' },
+  { name: 'Walmart Supercenter', address: '2020 S Muskogee Ave, Tahlequah, OK 74464', industry: 'Retail', notes: '200+ employees' },
+];
+
+export default function CherokeeCountyCountyPage() {
   return (
     <div className="min-h-screen bg-gray-50">
-      <section className="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 text-white py-16 md:py-20">
+
+      {/* Hero */}
+      <section className="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 text-white py-16 md:py-24">
         <div className="container mx-auto px-4 md:px-6 max-w-5xl">
-          <nav className="text-sm mb-6 text-blue-200">
-            <Link href="/" className="hover:text-white">Home</Link>
+          <nav className="text-sm mb-6 text-blue-200" aria-label="Breadcrumb">
+            <Link href="/" className="hover:text-white transition-colors">Home</Link>
             <span className="mx-2">/</span>
-            <Link href="/counties" className="hover:text-white">Counties</Link>
+            <Link href="/counties" className="hover:text-white transition-colors">Counties</Link>
             <span className="mx-2">/</span>
-            <span className="text-white">Cherokee County</span>
+            <span className="text-white font-medium">Cherokee County</span>
           </nav>
-          <div className="inline-block bg-yellow-500 text-blue-900 px-4 py-1 rounded-full text-sm font-bold mb-4">
-            Licensed Oklahoma Process Server
+          <div className="inline-block bg-yellow-400 text-blue-900 px-4 py-1 rounded-full text-sm font-bold mb-5 uppercase tracking-wide">
+            Licensed — PSL-2026-2
           </div>
-          <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-4">Process Server Cherokee County, OK</h1>
-          <p className="text-xl text-blue-100 mb-8 max-w-3xl">Licensed process server in Cherokee County, Oklahoma. Serving Tahlequah, Park Hill, and all surrounding communities.</p>
+          <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-5">
+            Process Server<br className="hidden md:block" /> Cherokee County, Oklahoma
+          </h1>
+          <div className="flex flex-wrap gap-4 mb-4 text-blue-200 text-sm">
+            <span className="flex items-center gap-1"><Users className="h-4 w-4" /> Population: 46,007</span>
+            <span className="flex items-center gap-1"><Building className="h-4 w-4" /> County Seat: Tahlequah</span>
+            
+            
+          </div>
+          
+          <p className="text-xl text-blue-100 mb-8 max-w-3xl leading-relaxed">
+            Licensed process server in Cherokee County, Oklahoma. Serving Tahlequah, Park Hill, and all surrounding communities.
+          </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <a href="tel:5393676832" className="bg-yellow-500 hover:bg-yellow-400 text-blue-900 font-bold py-4 px-8 rounded-lg text-center transition-colors shadow-lg text-lg">
-              Call (539) 367-6832
+            <a href="tel:5393676832" className="bg-yellow-400 hover:bg-yellow-300 text-blue-900 font-bold py-4 px-8 rounded-xl text-center transition-all shadow-xl text-lg flex items-center justify-center gap-2">
+              <Phone className="h-5 w-5" /> Call (539) 367-6832
             </a>
-            <Link href="/contact" className="bg-white/10 hover:bg-white/20 border border-white/30 text-white font-semibold py-4 px-8 rounded-lg text-center transition-colors">
-              Get a Free Quote
+            <Link href="/contact" className="bg-white/10 hover:bg-white/20 border border-white/30 text-white font-semibold py-4 px-8 rounded-xl text-center transition-all flex items-center justify-center gap-2">
+              <FileText className="h-5 w-5" /> Get a Free Quote
             </Link>
           </div>
           <div className="mt-8 flex flex-wrap gap-6 text-blue-200 text-sm">
-            <span>Standard from $60</span>
-            <span>Rush $150</span>
-            <span>Same-Day $265</span>
-            <span>GPS-tracked</span>
-            <span>Court-ready affidavits</span>
+            <span>✓ Standard Service</span>
+            <span>✓ Rush Service</span>
+            <span>✓ Same-Day Service</span>
+            <span>✓ GPS-tracked every attempt</span>
+            <span>✓ Notarized affidavit included</span>
+            <Link href="/pricing" className="underline underline-offset-2 hover:text-white transition-colors">View Current Pricing →</Link>
           </div>
         </div>
       </section>
 
-      <div className="container mx-auto px-4 md:px-6 max-w-5xl py-12">
-        <section className="bg-white rounded-xl shadow-md p-8 mb-10">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">Process Serving in Cherokee County, Oklahoma</h2>
-          <p className="text-gray-700 leading-relaxed mb-4">
-            Just Legal Solutions provides licensed, GPS-verified process serving throughout Cherokee County, Oklahoma. We serve subpoenas, summonses, divorce papers, eviction notices, protective orders, and civil litigation documents throughout the area. Our servers verify addresses through county assessor records and USPS data, and deliver notarized, court-ready affidavits after every serve.
-          </p>
-          <p className="text-gray-700 leading-relaxed">
-            We are licensed by the State of Oklahoma (PSL-2026-2), bonded, and have completed over 156 verified five-star serves across northeastern, central, and western Oklahoma.
-          </p>
+      <div className="container mx-auto px-4 md:px-6 max-w-5xl py-12 space-y-10">
+
+        {/* Courthouse Info */}
+        <section className="bg-white rounded-2xl shadow-lg overflow-hidden">
+          <div className="p-6 bg-gradient-to-r from-slate-700 to-slate-800 text-white">
+            <h2 className="text-2xl font-bold mb-1">Courthouse &amp; Filing Information</h2>
+            <p className="text-slate-300">Judicial District 11 — Cherokee County</p>
+          </div>
+          <div className="p-8 space-y-4">
+            <div className="bg-blue-50 border border-blue-200 rounded-xl p-5">
+              <p className="font-semibold text-lg text-gray-900">Cherokee County Courthouse</p>
+              <p className="text-gray-700">213 W Delaware St, Tahlequah, OK 74464</p>
+              
+              <p className="text-gray-500 text-xs mt-1">🕐 Mon-Fri 8:00 AM - 4:30 PM</p>
+              <p className="text-gray-600 mt-2 text-sm">Serves: Tahlequah, Hulbert, Park Hill</p>
+            </div>
+            
+            <div className="bg-amber-50 border border-amber-300 rounded-xl p-4">
+              <p className="font-semibold text-amber-800">Tribal Jurisdiction Note</p>
+              <p className="text-amber-700 text-sm">McGirt v. Oklahoma ruling and tribal jurisdiction may apply to criminal matters in this area. We coordinate with tribal courts and recommend confirming venue with your attorney.</p>
+            </div>
+            
+          </div>
         </section>
 
-        <section className="bg-white rounded-xl shadow-md p-8 mb-10">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">Service Pricing for Cherokee County</h2>
-          <div className="overflow-x-auto">
+        
+
+        {employers.length > 0 && (
+        <section className="bg-white rounded-2xl shadow-lg overflow-hidden">
+          <div className="p-6 bg-gradient-to-r from-emerald-600 to-emerald-700 text-white">
+            <h2 className="text-2xl font-bold mb-1">Major Employers &amp; Workplace Service</h2>
+            <p className="text-emerald-100">Serving businesses and employees in Cherokee County</p>
+          </div>
+          <div className="p-8 overflow-x-auto">
             <table className="min-w-full text-sm">
-              <thead className="bg-blue-900 text-white">
+              <thead className="bg-gray-100 text-gray-800 font-semibold">
                 <tr>
-                  <th className="px-4 py-3 text-left">Service Level</th>
-                  <th className="px-4 py-3 text-left">Turnaround</th>
-                  <th className="px-4 py-3 text-left">Price</th>
-                  <th className="px-4 py-3 text-left">What's Included</th>
+                  <th className="px-4 py-3 text-left">Employer</th>
+                  <th className="px-4 py-3 text-left">Address</th>
+                  <th className="px-4 py-3 text-left">Industry</th>
+                  <th className="px-4 py-3 text-left">Service Notes</th>
                 </tr>
               </thead>
-              <tbody className="divide-y divide-gray-200">
-                <tr className="bg-white">
-                  <td className="px-4 py-3 font-semibold">Standard Service</td>
-                  <td className="px-4 py-3">2-3 business days</td>
-                  <td className="px-4 py-3 font-bold text-blue-700">$60</td>
-                  <td className="px-4 py-3">3 attempts, notarized affidavit, GPS documentation</td>
-                </tr>
-                <tr className="bg-gray-50">
-                  <td className="px-4 py-3 font-semibold">Rush Service</td>
-                  <td className="px-4 py-3">Next business day</td>
-                  <td className="px-4 py-3 font-bold text-blue-700">$150</td>
-                  <td className="px-4 py-3">Priority same-day attempt, same features</td>
-                </tr>
-                <tr className="bg-white">
-                  <td className="px-4 py-3 font-semibold">Same-Day Service</td>
-                  <td className="px-4 py-3">Within 24 hours</td>
-                  <td className="px-4 py-3 font-bold text-blue-700">$265</td>
-                  <td className="px-4 py-3">Immediate deployment, all features</td>
-                </tr>
+              <tbody className="divide-y divide-gray-200 bg-white">
+                {employers.map((emp, i) => (
+                  <tr key={i} className={i % 2 === 1 ? 'bg-gray-50' : ''}>
+                    <td className="px-4 py-3 font-medium">{emp.name}</td>
+                    <td className="px-4 py-3 text-gray-600">{emp.address}</td>
+                    <td className="px-4 py-3 text-gray-600">{emp.industry}</td>
+                    <td className="px-4 py-3 text-gray-600">{emp.notes}</td>
+                  </tr>
+                ))}
               </tbody>
             </table>
           </div>
         </section>
+        )}
 
-        <section className="bg-white rounded-xl shadow-md p-8 mb-10">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">Cherokee County FAQ</h2>
-          <div className="space-y-5">
-                <div className="border-b border-gray-200 pb-5 last:border-0">
-                  <h3 className="font-semibold text-lg text-gray-800 mb-2">How does Cherokee Nation jurisdiction work in Cherokee County?</h3>
-                  <p className="text-gray-600">Cherokee County is the capital of the Cherokee Nation. While most civil and criminal cases file in Cherokee County District Court, tribal-land or tribal-member matters may fall under Cherokee Nation tribal court. We serve either venue as directed.</p>
-                </div>
-                <div className="border-b border-gray-200 pb-5 last:border-0">
-                  <h3 className="font-semibold text-lg text-gray-800 mb-2">Can you serve NSU students on campus?</h3>
-                  <p className="text-gray-600">Yes. We serve Northeastern State University students at on-campus and off-campus residences. We verify current occupancy before attempting service, especially at semester breaks.</p>
-                </div>
-                <div className="border-b border-gray-200 pb-5 last:border-0">
-                  <h3 className="font-semibold text-lg text-gray-800 mb-2">Is same-day service available in Cherokee County?</h3>
-                  <p className="text-gray-600">Yes. Same-Day service ($265) is available throughout Tahlequah and all of Cherokee County. Call (539) 367-6832.</p>
-                </div>
+        {/* Pricing */}
+        <section className="bg-white rounded-2xl shadow-lg overflow-hidden">
+          <div className="p-6 bg-gradient-to-r from-blue-700 to-blue-800 text-white">
+            <h2 className="text-2xl font-bold mb-1 flex items-center gap-2"><DollarSign className="h-6 w-6" /> Pricing for Cherokee County</h2>
+            <p className="text-blue-100">Flat rates — no hidden mileage fees in Cherokee County</p>
           </div>
-          <div className="mt-6 pt-4 border-t border-gray-200">
-            <Link href="/oklahoma-process-server-faq" className="text-blue-600 hover:underline text-sm">
-              View our complete Oklahoma Process Server FAQ
-            </Link>
+          <div className="p-8">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
+              <div className="bg-gray-50 rounded-xl p-5 text-center border border-gray-200">
+                <p className="font-bold text-gray-900 text-lg mb-1">Standard Service</p>
+                <p className="text-sm text-gray-600">2–3 business days</p>
+                <p className="text-xs text-gray-400 mt-2">3 attempts · GPS affidavit · Photo docs</p>
+              </div>
+              <div className="bg-blue-50 rounded-xl p-5 text-center border border-blue-200">
+                <p className="font-bold text-gray-900 text-lg mb-1">Rush Service</p>
+                <p className="text-sm text-gray-600">Next business day</p>
+                <p className="text-xs text-gray-400 mt-2">Priority scheduling · All features</p>
+              </div>
+              <div className="bg-red-50 rounded-xl p-5 text-center border border-red-200">
+                <p className="font-bold text-gray-900 text-lg mb-1">Same-Day Service</p>
+                <p className="text-sm text-gray-600">Call before noon</p>
+                <p className="text-xs text-gray-400 mt-2">Immediate deployment · Cherokee County coverage</p>
+              </div>
+            </div>
+            <div className="text-center">
+              <Link href="/pricing" className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-xl transition-colors shadow">
+                <DollarSign className="h-4 w-4" /> View Current Rates &amp; Full Pricing
+              </Link>
+              <p className="text-xs text-gray-500 mt-3">All rates are flat — no hidden mileage fees in Cherokee County.</p>
+            </div>
           </div>
         </section>
 
-        <section className="bg-blue-50 rounded-xl p-8 mb-10">
-          <h2 className="text-xl font-bold text-gray-900 mb-5">Related Resources</h2>
-          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 text-sm">
-            <Link href="/counties" className="bg-white p-3 rounded-lg text-blue-700 font-medium hover:bg-blue-100 transition text-center">All Counties</Link>
-            <Link href="/tulsa-process-server" className="bg-white p-3 rounded-lg text-blue-700 font-medium hover:bg-blue-100 transition text-center">Tulsa Process Server</Link>
-            <Link href="/oklahoma-process-server-laws" className="bg-white p-3 rounded-lg text-blue-700 font-medium hover:bg-blue-100 transition text-center">Oklahoma Process Serving Laws</Link>
-            <Link href="/oklahoma-process-server-faq" className="bg-white p-3 rounded-lg text-blue-700 font-medium hover:bg-blue-100 transition text-center">Process Server FAQ</Link>
-            <Link href="/pricing" className="bg-white p-3 rounded-lg text-blue-700 font-medium hover:bg-blue-100 transition text-center">Pricing Guide</Link>
-            <Link href="/contact" className="bg-white p-3 rounded-lg text-blue-700 font-medium hover:bg-blue-100 transition text-center">Contact Us</Link>
+        {pageFAQs.length > 0 && (
+        <section className="bg-white rounded-2xl shadow-lg overflow-hidden">
+          <div className="p-6 bg-gradient-to-r from-teal-600 to-teal-700 text-white">
+            <h2 className="text-2xl font-bold mb-1">Cherokee County FAQ</h2>
+            <p className="text-teal-100">Local process serving questions answered</p>
+          </div>
+          <div className="p-8 space-y-6">
+            {pageFAQs.map((faq, i) => (
+              <div key={i} className="border-b border-gray-200 pb-6 last:border-0 last:pb-0">
+                <h3 className="font-semibold text-lg text-gray-800 mb-2">Q: {faq.question}</h3>
+                <p className="text-gray-600 leading-relaxed">{faq.answer}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+        )}
+
+        {/* Emergency CTA */}
+        <section className="bg-gradient-to-r from-red-600 to-red-700 text-white rounded-2xl shadow-lg">
+          <div className="p-8 text-center">
+            <AlertCircle className="h-14 w-14 mx-auto mb-5 text-red-200" />
+            <h2 className="text-3xl font-bold mb-3">Emergency Process Service in Cherokee County?</h2>
+            <p className="text-xl mb-6 text-red-100">Available 24/7 for urgent legal document service across Cherokee County</p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a href="tel:5393676832" className="bg-white text-red-600 hover:bg-red-50 px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-lg flex items-center justify-center gap-2">
+                <Phone className="h-5 w-5" /> Emergency: (539) 367-6832
+              </a>
+              <Link href="/contact" className="bg-red-800 hover:bg-red-900 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all flex items-center justify-center gap-2">
+                <Calendar className="h-5 w-5" /> Schedule Service
+              </Link>
+            </div>
           </div>
         </section>
 
-        <section className="bg-blue-900 text-white rounded-xl p-8 text-center">
-          <h2 className="text-2xl font-bold mb-3">Need a Process Server in </h2>
-          <p className="text-blue-100 mb-6 max-w-2xl mx-auto">Licensed, bonded, and GPS-verified. Flat-rate pricing that covers every address in Cherokee County, Oklahoma.</p>
-          <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <a href="tel:5393676832" className="bg-yellow-500 hover:bg-yellow-400 text-blue-900 font-bold py-4 px-8 rounded-lg transition-colors text-lg">Call (539) 367-6832</a>
-            <Link href="/contact" className="bg-blue-700 hover:bg-blue-600 text-white font-semibold py-4 px-8 rounded-lg transition-colors">Get a Free Quote Online</Link>
+        {/* Map */}
+        <section className="bg-white rounded-2xl shadow-lg overflow-hidden">
+          <div className="p-6 bg-gradient-to-r from-blue-600 to-blue-700 text-white">
+            <h2 className="text-2xl font-bold mb-1 flex items-center gap-2"><MapPin className="h-6 w-6" /> Cherokee County Service Area Map</h2>
+            <p className="text-blue-100">GPS-verified coverage throughout Cherokee County</p>
+          </div>
+          <div className="p-8">
+            <GoogleMapsEmbed
+              countyName="Cherokee County"
+              
+              state="Oklahoma"
+              title="Cherokee County Process Server Service Area"
+            />
           </div>
         </section>
+
+        {/* Final CTA */}
+        <section className="bg-gradient-to-r from-blue-700 to-blue-800 text-white rounded-2xl shadow-lg">
+          <div className="p-8 text-center">
+            <h2 className="text-3xl font-bold mb-3">Ready to Serve Papers in Cherokee County?</h2>
+            <p className="text-xl mb-6 text-blue-100">GPS-tracked, notarized, court-ready — in Cherokee County.</p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a href="tel:5393676832" className="bg-white text-blue-700 hover:bg-blue-50 px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-lg flex items-center justify-center gap-2">
+                <Phone className="h-5 w-5" /> Call (539) 367-6832
+              </a>
+              <Link href="/contact" className="bg-blue-900 hover:bg-blue-950 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all flex items-center justify-center gap-2">
+                <FileText className="h-5 w-5" /> Get Free Quote
+              </Link>
+            </div>
+          </div>
+        </section>
+
+        <div className="text-center py-4">
+          <Link href="/counties" className="text-blue-600 hover:text-blue-800 font-semibold transition-colors">
+            ← Browse All Counties
+          </Link>
+        </div>
+
       </div>
 
       <UnifiedSchema
@@ -153,7 +256,13 @@ export default function CherokeeCountyProcessServerPage() {
         url="https://justlegalsolutions.org/counties/cherokee-county"
         title="Process Server Cherokee County, OK | Tahlequah"
         description="Licensed process server in Cherokee County, Oklahoma. Serving Tahlequah, Park Hill, and all surrounding communities."
+        faqItems={pageFAQs.slice(0, 4)}
         aggregateRating={{ ratingValue: 4.9, reviewCount: 156 }}
+        breadcrumbItems={[
+          { name: 'Home', item: 'https://justlegalsolutions.org' },
+          { name: 'Counties', item: 'https://justlegalsolutions.org/counties' },
+          { name: 'Cherokee County', item: 'https://justlegalsolutions.org/counties/cherokee-county' },
+        ]}
       />
     </div>
   );

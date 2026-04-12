@@ -1,4 +1,4 @@
-﻿import { Metadata } from 'next';
+import { Metadata } from 'next';
 import Link from 'next/link';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, CheckCircle, Star, Calendar, FileText, Scale, AlertCircle } from 'lucide-react';
@@ -8,7 +8,7 @@ import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Process Server Nowata, OK | Same-Day Service from $60',
+  title: 'Process Server Nowata, OK',
   description:
     'Licensed process server in Nowata, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
   keywords: 'process server nowata, nowata process server, legal document service nowata, serve papers nowata, court documents nowata, subpoena service nowata, eviction notice nowata, emergency process server nowata, nowata county process server, licensed process server nowata county, professional process server nowata oklahoma',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Process Server Nowata, OK | Same-Day Service from $60',
+    title: 'Process Server Nowata, OK',
     description:
     'Licensed process server in Nowata, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     url: 'https://justlegalsolutions.org/service-areas/nowata',
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Process Server Nowata, OK | Same-Day Service from $60',
+    title: 'Process Server Nowata, OK',
     description:
     'Licensed process server in Nowata, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     images: ['https://justlegalsolutions.org/og-image.png'],
@@ -226,7 +226,7 @@ export default function NowataProcessServer() {
                     Nowata is the county seat of Nowata County and sits along US-169 in northeast Oklahoma. The city&apos;s name derives from a Delaware word meaning &ldquo;welcome,&rdquo; and the community of roughly 3,700 people retains a close-knit, small-town character that requires a respectful, discreet approach to legal document delivery.
                   </p>
                   <p className="text-gray-700 mb-4">
-                    Our process servers understand the geography of Nowata Countyâ€”from the rolling hills and ranch land to the residential streets of downtown Nowata. We know the best times to reach people, the county road system, and how to work with rural addresses that may not show up on standard mapping applications.
+                    Our process servers understand the geography of Nowata County—from the rolling hills and ranch land to the residential streets of downtown Nowata. We know the best times to reach people, the county road system, and how to work with rural addresses that may not show up on standard mapping applications.
                   </p>
                   <p className="text-gray-700">
                     Whether you need papers served at a home on Maple Street, a farm off a county section road, or a property near Oologah Lake, our team brings the local knowledge and professionalism needed for successful service every time.
@@ -308,7 +308,7 @@ export default function NowataProcessServer() {
                     Nowata County is predominantly rural, with ranches, farms, and homesteads spread across the rolling northeast Oklahoma landscape. Many addresses use county road designations that don&apos;t appear on consumer GPS tools. Our process servers carry detailed county plat maps and coordinate with local contacts when needed to reach even the most secluded properties.
                   </p>
                   <p className="text-gray-700">
-                    We schedule multiple attempts at varied timesâ€”early morning, evening, and weekendsâ€”to maximize the chance of contact at rural addresses where residents may be working fields or tending livestock during the day.
+                    We schedule multiple attempts at varied times—early morning, evening, and weekends—to maximize the chance of contact at rural addresses where residents may be working fields or tending livestock during the day.
                   </p>
                 </div>
                 <div>
@@ -317,7 +317,7 @@ export default function NowataProcessServer() {
                     The southwest portion of Nowata County borders Oologah Lake, a popular recreation destination with lakefront homes, cabins, and campgrounds. Property disputes, HOA matters, and other legal issues frequently arise in lake communities where owners may only visit seasonally.
                   </p>
                   <p className="text-gray-700">
-                    Our team coordinates service attempts around known occupancy patterns and can combine skip tracing with property records research to confirm when a lakeside respondent is likely to be presentâ€”saving you time and failed attempts.
+                    Our team coordinates service attempts around known occupancy patterns and can combine skip tracing with property records research to confirm when a lakeside respondent is likely to be present—saving you time and failed attempts.
                   </p>
                 </div>
               </div>
@@ -460,7 +460,7 @@ export default function NowataProcessServer() {
               href="/service-areas"
               className="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold text-lg transition-colors"
             >
-              â† Browse All Oklahoma Service Areas
+              ← Browse All Oklahoma Service Areas
             </Link>
           </div>
         </div>
