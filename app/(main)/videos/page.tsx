@@ -3,6 +3,7 @@ import Script from 'next/script';
 import Link from 'next/link';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import { allVideos, featuredVideos, fullVideos, shorts, Video } from '@/lib/video-data';
+import { LiteYouTubeEmbed } from '@/components/lite-youtube-embed';
 
 export const metadata: Metadata = {
   title: 'Process Serving & Notary Videos — Oklahoma Legal Guides',
@@ -225,14 +226,7 @@ function VideoCard({ video }: { video: Video }) {
     <article className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-lg hover:border-blue-200 transition-all duration-300 flex flex-col">
       {/* 16:9 embed */}
       <div className="relative aspect-video bg-gray-900 overflow-hidden">
-        <iframe
-          src={`https://www.youtube.com/embed/${video.videoId}`}
-          title={video.title}
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-          loading="lazy"
-          className="absolute inset-0 w-full h-full"
-        />
+        <LiteYouTubeEmbed videoid={video.videoId} title={video.title} />
       </div>
 
       <div className="p-5 flex flex-col flex-1">
@@ -264,14 +258,9 @@ function ShortCard({ video }: { video: Video }) {
     <article className="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-md hover:border-red-200 transition-all duration-300 flex flex-col">
       {/* 9:16 portrait */}
       <div className="relative overflow-hidden bg-gray-900" style={{ paddingTop: '177.78%' }}>
-        <iframe
-          src={`https://www.youtube.com/embed/${video.videoId}`}
-          title={video.title}
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-          loading="lazy"
-          className="absolute inset-0 w-full h-full"
-        />
+        <div className="absolute inset-0 w-full h-full flex flex-col justify-center">
+          <LiteYouTubeEmbed videoid={video.videoId} title={video.title} />
+        </div>
         {/* Shorts badge */}
         <div className="absolute top-2 right-2 bg-red-500 text-white text-[10px] font-bold px-1.5 py-0.5 rounded pointer-events-none z-10">
           SHORT

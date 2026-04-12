@@ -17,6 +17,8 @@ import dynamic from 'next/dynamic';
 
 const ReviewWidget = dynamic(() => import('@/components/ui/review-widget'));
 
+import { LiteYouTubeEmbed } from '@/components/lite-youtube-embed';
+
 export const metadata: Metadata = {
   title: {
     absolute: 'Just Legal Solutions | Oklahoma Process Server Since 2020'
@@ -83,6 +85,7 @@ export default function Home() {
             fill
             className="object-cover"
             priority
+            fetchPriority="high"
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 100vw"
             placeholder="blur"
             blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
@@ -163,18 +166,20 @@ export default function Home() {
       />
 
       {/* VideoObject Schema */}
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "VideoObject",
-        "name": "Best Process Server in Tulsa, Oklahoma | Just Legal Solutions",
-        "description": "Learn why Just Legal Solutions is rated 4.9 stars by attorneys and landlords across Oklahoma. Licensed, GPS-tracked process serving starting at $60.",
-        "thumbnailUrl": "https://img.youtube.com/vi/NFAhglMUNqc/maxresdefault.jpg",
-        "uploadDate": "2026-04-01T08:00:00-05:00",
-        "duration": "PT4M30S",
-        "contentUrl": "https://www.youtube.com/watch?v=NFAhglMUNqc",
-        "embedUrl": "https://www.youtube.com/embed/NFAhglMUNqc",
-        "publisher": { "@type": "Organization", "name": "Just Legal Solutions", "logo": { "@type": "ImageObject", "url": "https://justlegalsolutions.org/email%20signature%20logo.png" } }
-      })}} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "VideoObject",
+          "name": "Best Process Server in Tulsa, Oklahoma | Just Legal Solutions",
+          "description": "Learn why Just Legal Solutions is rated 4.9 stars by attorneys and landlords across Oklahoma. Licensed, GPS-tracked process serving starting at $60.",
+          "thumbnailUrl": "https://img.youtube.com/vi/NFAhglMUNqc/maxresdefault.jpg",
+          "uploadDate": "2026-04-01T08:00:00-05:00",
+          "duration": "PT4M30S",
+          "contentUrl": "https://www.youtube.com/watch?v=NFAhglMUNqc",
+          "embedUrl": "https://www.youtube.com/embed/NFAhglMUNqc",
+          "publisher": { "@type": "Organization", "name": "Just Legal Solutions", "logo": { "@type": "ImageObject", "url": "https://justlegalsolutions.org/email%20signature%20logo.png" } }
+        })
+      }} />
 
 
 
@@ -307,14 +312,7 @@ export default function Home() {
           <p className="text-xs font-semibold uppercase tracking-widest text-blue-600 mb-2">See Us in Action</p>
           <h2 className="text-lg font-bold text-gray-900 mb-4">Why Attorneys Choose Just Legal Solutions</h2>
           <div className="relative rounded-xl overflow-hidden shadow-lg border border-gray-200 bg-black" style={{ aspectRatio: '9/16', maxHeight: '480px' }}>
-            <iframe
-              src="https://www.youtube.com/embed/NFAhglMUNqc"
-              title="Best Process Server in Tulsa, Oklahoma | Just Legal Solutions"
-              className="absolute top-0 left-0 w-full h-full"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              loading="lazy"
-            ></iframe>
+            <LiteYouTubeEmbed videoid="NFAhglMUNqc" title="Why Attorneys Choose Just Legal Solutions" />
           </div>
           <p className="text-gray-500 mt-3 text-xs">4.9 ⭐ rated by attorneys &amp; landlords across Oklahoma</p>
         </div>

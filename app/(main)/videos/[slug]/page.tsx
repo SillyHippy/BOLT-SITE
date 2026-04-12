@@ -4,6 +4,7 @@ import Script from 'next/script';
 import Link from 'next/link';
 import Image from 'next/image';
 import { allVideos, Video } from '@/lib/video-data';
+import { LiteYouTubeEmbed } from '@/components/lite-youtube-embed';
 
 /* ─────────────────────────────────────────────────────────────────────────────
    HELPERS
@@ -158,14 +159,7 @@ export default async function VideoPage({ params }: { params: Promise<{ slug: st
           </nav>
 
           <div className="relative aspect-video bg-gray-900 rounded-2xl overflow-hidden shadow-2xl mb-8">
-            <iframe
-              src={embedUrl}
-              title={video.title}
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              className="absolute inset-0 w-full h-full"
-              loading="lazy"
-            />
+            <LiteYouTubeEmbed videoid={video.videoId} title={video.title} />
           </div>
 
           <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
