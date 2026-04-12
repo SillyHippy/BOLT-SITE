@@ -6,7 +6,7 @@ import GoogleMapsEmbed from '@/components/ui/google-maps-embed';
 
 export const metadata: Metadata = {
   title: 'Process Server Enid, OK | Garfield County | Vance AFB Service',
-  description: 'Licensed process server in Enid, Oklahoma. Serving Garfield County District Court, Vance Air Force Base, Integris Bass, St. Mary\'s, and all Enid neighborhoods. Standard $60, rush $150, same-day $265. (539) 367-6832.',
+  description: 'Licensed process server in Enid, Oklahoma. Serving Garfield County District Court, Vance Air Force Base, Integris Bass, St. Mary\'s, and all Enid neighborhoods. Same-day service available. (539) 367-6832.',
   keywords: 'process server Enid OK, Garfield County process server, Vance AFB process service, serve papers Enid Oklahoma, Enid subpoena service, legal document service Enid, licensed process server Enid',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   robots: { index: true, follow: true },
@@ -42,7 +42,7 @@ const enidFAQs = [
   },
   {
     question: 'Is same-day service available in Enid?',
-    answer: 'Yes. Enid is a core service zone for Just Legal Solutions. Same-day service ($265) is available seven days a week, subject to order volume and cutoff times. Rush service ($150) guarantees next-business-day attempt. Call (539) 367-6832 to confirm current availability.',
+    answer: 'Yes. Enid is a core service zone for Just Legal Solutions. Same-day service is available seven days a week, subject to order volume and cutoff times. Rush service guarantees next-business-day attempt. Call (539) 367-6832 to confirm current availability.',
   },
 ];
 
@@ -87,9 +87,9 @@ export default function EnidProcessServerPage() {
             </Link>
           </div>
           <div className="mt-10 flex flex-wrap gap-6 text-blue-200 text-sm">
-            <span>✓ Standard $60</span>
-            <span>✓ Rush $150</span>
-            <span>✓ Same-Day $265</span>
+            <span>✓ Standard Service</span>
+            <span>✓ Rush Service</span>
+            <span>✓ Same-Day Service</span>
             <span>✓ Vance AFB Coordination</span>
             <span>✓ Notarized Affidavit Included</span>
           </div>

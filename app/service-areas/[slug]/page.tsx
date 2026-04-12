@@ -243,10 +243,10 @@ export async function generateMetadata({
   const content = getLocationContent(slug);
   const locationName = slugToLocationName(slug);
   const rawTitle = extractTitle(content);
-  // Override with CTR-optimized pattern: price in title converts impressions to clicks
-  const title = `Process Server ${locationName}, OK | Same-Day Service from $60`;
+  // CTR-optimized title — no specific dollar amounts, route to /pricing
+  const title = `Process Server ${locationName}, OK | Same-Day Service Available`;
   const description =
-    `Licensed process server in ${locationName}, OK. Same-day from $60, rush $150. GPS-tracked, court-ready affidavits. Call (539) 367-6832.`;
+    `Licensed process server in ${locationName}, OK. Same-day service available. GPS-tracked, court-ready affidavits. Call (539) 367-6832.`;
 
   return {
     title,
@@ -368,15 +368,15 @@ export default async function LocationPage({
             {/* Stats row */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
               <div className="bg-white/10 backdrop-blur-sm border border-white/10 rounded-xl p-4 text-center">
-                <div className="text-2xl font-bold text-yellow-400">{pricing.standard}</div>
+                <div className="text-2xl font-bold text-yellow-400">2–3 Days</div>
                 <div className="text-sm text-blue-200">Standard Service</div>
               </div>
               <div className="bg-white/10 backdrop-blur-sm border border-white/10 rounded-xl p-4 text-center">
-                <div className="text-2xl font-bold text-yellow-400">{pricing.rush}</div>
+                <div className="text-2xl font-bold text-yellow-400">Next Day</div>
                 <div className="text-sm text-blue-200">Rush Service</div>
               </div>
               <div className="bg-white/10 backdrop-blur-sm border border-white/10 rounded-xl p-4 text-center">
-                <div className="text-2xl font-bold text-yellow-400">{pricing.sameDay}</div>
+                <div className="text-2xl font-bold text-yellow-400">Today</div>
                 <div className="text-sm text-blue-200">Same-Day</div>
               </div>
               <div className="bg-white/10 backdrop-blur-sm border border-white/10 rounded-xl p-4 text-center">
@@ -593,32 +593,35 @@ export default async function LocationPage({
                 <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mx-auto mb-4">
                   <FileText className="w-6 h-6 text-blue-600" />
                 </div>
-                <h3 className="text-lg font-bold text-gray-900 mb-1">Standard</h3>
-                <p className="text-sm text-gray-500 mb-4">1–2 business days</p>
-                <p className="text-4xl font-bold text-blue-600">{pricing.standard}</p>
-                <p className="text-sm text-gray-500 mt-2">per service</p>
+                <h3 className="text-lg font-bold text-gray-900 mb-1">Standard Service</h3>
+                <p className="text-sm text-gray-500 mb-4">2–3 business days</p>
+                <p className="text-xs text-gray-400 mt-2">3 attempts · GPS affidavit · Photo docs</p>
               </div>
-              <div className="bg-white rounded-2xl border-2 border-yellow-400 shadow-lg p-8 text-center relative">
+              <div className="bg-white rounded-2xl border-2 border-blue-300 shadow-lg p-8 text-center relative">
                 <div className="absolute -top-3 left-1/2 -translate-x-1/2">
                   <span className="bg-yellow-400 text-black text-xs font-bold px-3 py-1 rounded-full">POPULAR</span>
                 </div>
                 <div className="w-12 h-12 bg-yellow-100 rounded-xl flex items-center justify-center mx-auto mb-4">
                   <Clock className="w-6 h-6 text-yellow-600" />
                 </div>
-                <h3 className="text-lg font-bold text-gray-900 mb-1">Rush</h3>
-                <p className="text-sm text-gray-500 mb-4">Priority handling</p>
-                <p className="text-4xl font-bold text-yellow-600">{pricing.rush}</p>
-                <p className="text-sm text-gray-500 mt-2">per service</p>
+                <h3 className="text-lg font-bold text-gray-900 mb-1">Rush Service</h3>
+                <p className="text-sm text-gray-500 mb-4">Next business day</p>
+                <p className="text-xs text-gray-400 mt-2">Priority scheduling · All features</p>
               </div>
               <div className="bg-white rounded-2xl border-2 border-gray-200 p-8 text-center hover:border-red-300 hover:shadow-lg transition-all">
                 <div className="w-12 h-12 bg-red-100 rounded-xl flex items-center justify-center mx-auto mb-4">
                   <Star className="w-6 h-6 text-red-600" />
                 </div>
-                <h3 className="text-lg font-bold text-gray-900 mb-1">Same-Day</h3>
-                <p className="text-sm text-gray-500 mb-4">Emergency deadlines</p>
-                <p className="text-4xl font-bold text-red-600">{pricing.sameDay}</p>
-                <p className="text-sm text-gray-500 mt-2">per service</p>
+                <h3 className="text-lg font-bold text-gray-900 mb-1">Same-Day Service</h3>
+                <p className="text-sm text-gray-500 mb-4">Call before noon</p>
+                <p className="text-xs text-gray-400 mt-2">Immediate deployment · {locationName} coverage</p>
               </div>
+            </div>
+            <div className="text-center mt-8">
+              <Link href="/pricing" className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-xl transition-colors shadow">
+                <DollarSign className="w-4 h-4" /> View Current Rates &amp; Full Pricing
+              </Link>
+              <p className="text-xs text-gray-500 mt-3">All rates are flat — no hidden mileage fees.</p>
             </div>
           </div>
         </section>

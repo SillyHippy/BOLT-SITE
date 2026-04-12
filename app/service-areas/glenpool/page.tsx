@@ -12,7 +12,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 export const metadata: Metadata = {
   title: 'Process Server Glenpool, OK',
   description:
-    'Licensed process server in Glenpool, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
+    'Licensed process server in Glenpool, OK. Same-day service available. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
   keywords: 'process server glenpool, legal document service glenpool, serve papers glenpool, court documents glenpool, subpoena service glenpool, eviction notice glenpool, emergency process server glenpool, 24/7 process server oklahoma, licensed process server tulsa county, professional process server glenpool',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Process Server Glenpool, OK',
     description:
-    'Licensed process server in Glenpool, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
+    'Licensed process server in Glenpool, OK. Same-day service available. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     url: 'https://justlegalsolutions.org/service-areas/glenpool',
     siteName: 'Just Legal Solutions',
     images: [
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Process Server Glenpool, OK',
     description:
-    'Licensed process server in Glenpool, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
+    'Licensed process server in Glenpool, OK. Same-day service available. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     images: ['https://justlegalsolutions.org/og-image.png'],
   },
   alternates: {
@@ -409,7 +409,7 @@ export default function GlenpoolProcessServer() {
                 <div>
                   <h3 className="font-semibold text-lg text-gray-800 mb-2">Q: Is same-day service available in Glenpool?</h3>
                   <p className="text-gray-600">
-                    Yes. Glenpool is within our standard Tulsa metro service area. We provide standard ($60), rush ($150), and same-day ($265) service throughout Glenpool ZIP code 74033.
+                    Yes. Glenpool is within our standard Tulsa metro service area. We provide standard, rush, and same-day service throughout Glenpool ZIP code 74033.
                   </p>
                 </div>
               </div>

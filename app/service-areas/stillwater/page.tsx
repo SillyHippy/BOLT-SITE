@@ -6,7 +6,7 @@ import GoogleMapsEmbed from '@/components/ui/google-maps-embed';
 
 export const metadata: Metadata = {
   title: 'Process Server Stillwater, OK | OSU & Payne County | Same-Day Service',
-  description: 'Licensed process server in Stillwater, Oklahoma. Serving Payne County District Court, Oklahoma State University, Stillwater Medical Center, and all Stillwater neighborhoods. Standard $60, rush $150, same-day $265. (539) 367-6832.',
+  description: 'Licensed process server in Stillwater, Oklahoma. Serving Payne County District Court, Oklahoma State University, Stillwater Medical Center, and all Stillwater neighborhoods. Same-day service available. (539) 367-6832.',
   keywords: 'process server Stillwater OK, Payne County process server, OSU process service, Oklahoma State University papers, serve papers Stillwater Oklahoma, Stillwater subpoena service, licensed process server Payne County',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   robots: { index: true, follow: true },
@@ -38,7 +38,7 @@ const stillwaterFAQs = [
   },
   {
     question: 'Is same-day service available during OSU football weekends?',
-    answer: 'Yes. Same-day service ($265) is available even during football weekends, but we recommend ordering as early as possible — ideally before 1 PM. Traffic and parking congestion around campus can add time to serve addresses within 3 blocks of Boone Pickens Stadium.',
+    answer: 'Yes. Same-day service is available even during football weekends, but we recommend ordering as early as possible — ideally before 1 PM. Traffic and parking congestion around campus can add time to serve addresses within 3 blocks of Boone Pickens Stadium.',
   },
   {
     question: 'Do you serve rural Payne County addresses?',
@@ -86,9 +86,9 @@ export default function StillwaterProcessServerPage() {
             </Link>
           </div>
           <div className="mt-10 flex flex-wrap gap-6 text-blue-200 text-sm">
-            <span>✓ Standard $60</span>
-            <span>✓ Rush $150</span>
-            <span>✓ Same-Day $265</span>
+            <span>✓ Standard Service</span>
+            <span>✓ Rush Service</span>
+            <span>✓ Same-Day Service</span>
             <span>✓ OSU Calendar Aware</span>
             <span>✓ Rural Payne County Covered</span>
           </div>
@@ -194,11 +194,11 @@ export default function StillwaterProcessServerPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200 bg-white">
-                <tr><td className="px-4 py-3 font-semibold">Standard Service</td><td className="px-4 py-3">2–3 business days</td><td className="px-4 py-3 font-bold text-blue-700">$60</td><td className="px-4 py-3">3 attempts, GPS affidavit, photo documentation</td></tr>
-                <tr className="bg-gray-50"><td className="px-4 py-3 font-semibold">Rush Service</td><td className="px-4 py-3">Next business day</td><td className="px-4 py-3 font-bold text-blue-700">$150</td><td className="px-4 py-3">Priority scheduling, all features</td></tr>
-                <tr><td className="px-4 py-3 font-semibold">Same-Day Service</td><td className="px-4 py-3">Within 24 hours</td><td className="px-4 py-3 font-bold text-blue-700">$265</td><td className="px-4 py-3">Available even on OSU game days; order before 1 PM</td></tr>
-                <tr className="bg-gray-50"><td className="px-4 py-3 font-semibold">Skip Tracing</td><td className="px-4 py-3">Case-by-case</td><td className="px-4 py-3 font-bold text-blue-700">$85/hr</td><td className="px-4 py-3">Essential for end-of-semester campus turnover</td></tr>
-                <tr><td className="px-4 py-3 font-semibold">Additional Attempts</td><td className="px-4 py-3">After 3 standard</td><td className="px-4 py-3 font-bold text-blue-700">$40 each</td><td className="px-4 py-3">Photo + timestamp documentation</td></tr>
+                <tr><td className="px-4 py-3 font-semibold">Standard Service</td><td className="px-4 py-3">2–3 business days</td><td className="px-4 py-3 font-bold text-blue-700">See Pricing</td><td className="px-4 py-3">3 attempts, GPS affidavit, photo documentation</td></tr>
+                <tr className="bg-gray-50"><td className="px-4 py-3 font-semibold">Rush Service</td><td className="px-4 py-3">Next business day</td><td className="px-4 py-3 font-bold text-blue-700">See Pricing</td><td className="px-4 py-3">Priority scheduling, all features</td></tr>
+                <tr><td className="px-4 py-3 font-semibold">Same-Day Service</td><td className="px-4 py-3">Within 24 hours</td><td className="px-4 py-3 font-bold text-blue-700">See Pricing</td><td className="px-4 py-3">Available even on OSU game days; order before 1 PM</td></tr>
+                <tr className="bg-gray-50"><td className="px-4 py-3 font-semibold">Skip Tracing</td><td className="px-4 py-3">Case-by-case</td><td className="px-4 py-3 font-bold text-blue-700">See Pricing</td><td className="px-4 py-3">Essential for end-of-semester campus turnover</td></tr>
+                <tr><td className="px-4 py-3 font-semibold">Additional Attempts</td><td className="px-4 py-3">After 3 standard</td><td className="px-4 py-3 font-bold text-blue-700">See Pricing</td><td className="px-4 py-3">Photo + timestamp documentation</td></tr>
               </tbody>
             </table>
           </div>

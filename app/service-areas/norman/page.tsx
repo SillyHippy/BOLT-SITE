@@ -6,7 +6,7 @@ import GoogleMapsEmbed from '@/components/ui/google-maps-embed';
 
 export const metadata: Metadata = {
   title: 'Process Server Norman, OK | Cleveland County | OU Campus Service',
-  description: 'Licensed process server in Norman, Oklahoma. Serving Cleveland County District Court, University of Oklahoma, NOAA, Norman Regional Hospital, and all Norman neighborhoods. Standard $60, rush $150, same-day $265. (539) 367-6832.',
+  description: 'Licensed process server in Norman, Oklahoma. Serving Cleveland County District Court, University of Oklahoma, NOAA, Norman Regional Hospital, and all Norman neighborhoods. Same-day service available. (539) 367-6832.',
   keywords: 'process server Norman OK, serve papers Norman Oklahoma, Cleveland County process server, OU campus process service, Norman subpoena service, legal document service Norman, University of Oklahoma process server',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   robots: { index: true, follow: true },
@@ -42,7 +42,7 @@ const normanFAQs = [
   },
   {
     question: 'Is same-day service available in Norman?',
-    answer: 'Yes. Norman is one of our most frequently served cities. Same-day ($265) and rush ($150) service are available throughout all Norman ZIP codes. Order before 1 PM for best same-day completion odds.',
+    answer: 'Yes. Norman is one of our most frequently served cities. Same-day and rush service are available throughout all Norman ZIP codes. Order before 1 PM for best same-day completion odds.',
   },
 ];
 
@@ -88,9 +88,9 @@ export default function NormanProcessServerPage() {
             </Link>
           </div>
           <div className="mt-10 flex flex-wrap gap-6 text-blue-200 text-sm">
-            <span>✓ Standard $60</span>
-            <span>✓ Rush $150</span>
-            <span>✓ Same-Day $265</span>
+            <span>✓ Standard Service</span>
+            <span>✓ Rush Service</span>
+            <span>✓ Same-Day Service</span>
             <span>✓ OU Academic Calendar Aware</span>
             <span>✓ Notarized Affidavit Included</span>
           </div>
@@ -192,10 +192,10 @@ export default function NormanProcessServerPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200 bg-white">
-                <tr><td className="px-4 py-3 font-semibold">Standard Service</td><td className="px-4 py-3">2–3 business days</td><td className="px-4 py-3 font-bold text-blue-700">$60</td><td className="px-4 py-3">3 attempts, GPS affidavit, photo documentation</td></tr>
-                <tr className="bg-gray-50"><td className="px-4 py-3 font-semibold">Rush Service</td><td className="px-4 py-3">Next business day</td><td className="px-4 py-3 font-bold text-blue-700">$150</td><td className="px-4 py-3">Priority scheduling, same features</td></tr>
-                <tr><td className="px-4 py-3 font-semibold">Same-Day Service</td><td className="px-4 py-3">Within 24 hours</td><td className="px-4 py-3 font-bold text-blue-700">$265</td><td className="px-4 py-3">Order before 1 PM; immediate deployment</td></tr>
-                <tr className="bg-gray-50"><td className="px-4 py-3 font-semibold">Skip Tracing</td><td className="px-4 py-3">Case-by-case</td><td className="px-4 py-3 font-bold text-blue-700">$85/hr</td><td className="px-4 py-3">Essential for Campus Corner student turnover</td></tr>
+                <tr><td className="px-4 py-3 font-semibold">Standard Service</td><td className="px-4 py-3">2–3 business days</td><td className="px-4 py-3 font-bold text-blue-700">See Pricing</td><td className="px-4 py-3">3 attempts, GPS affidavit, photo documentation</td></tr>
+                <tr className="bg-gray-50"><td className="px-4 py-3 font-semibold">Rush Service</td><td className="px-4 py-3">Next business day</td><td className="px-4 py-3 font-bold text-blue-700">See Pricing</td><td className="px-4 py-3">Priority scheduling, same features</td></tr>
+                <tr><td className="px-4 py-3 font-semibold">Same-Day Service</td><td className="px-4 py-3">Within 24 hours</td><td className="px-4 py-3 font-bold text-blue-700">See Pricing</td><td className="px-4 py-3">Order before 1 PM; immediate deployment</td></tr>
+                <tr className="bg-gray-50"><td className="px-4 py-3 font-semibold">Skip Tracing</td><td className="px-4 py-3">Case-by-case</td><td className="px-4 py-3 font-bold text-blue-700">See Pricing</td><td className="px-4 py-3">Essential for Campus Corner student turnover</td></tr>
               </tbody>
             </table>
           </div>

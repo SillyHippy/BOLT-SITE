@@ -47,9 +47,9 @@ export default function LawtonProcessServerPage() {
             </Link>
           </div>
           <div className="mt-8 flex flex-wrap gap-6 text-blue-200 text-sm">
-            <span>Standard from $60</span>
-            <span>Rush $150</span>
-            <span>Same-Day $265</span>
+            <span>Standard Service</span>
+            <span>Rush Service</span>
+            <span>Same-Day Service</span>
             <span>GPS-tracked</span>
             <span>Court-ready affidavits</span>
           </div>
@@ -83,19 +83,19 @@ export default function LawtonProcessServerPage() {
                 <tr className="bg-white">
                   <td className="px-4 py-3 font-semibold">Standard Service</td>
                   <td className="px-4 py-3">2-3 business days</td>
-                  <td className="px-4 py-3 font-bold text-blue-700">$60</td>
+                  <td className="px-4 py-3 font-bold text-blue-700">See Pricing</td>
                   <td className="px-4 py-3">3 attempts, notarized affidavit, GPS documentation</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="px-4 py-3 font-semibold">Rush Service</td>
                   <td className="px-4 py-3">Next business day</td>
-                  <td className="px-4 py-3 font-bold text-blue-700">$150</td>
+                  <td className="px-4 py-3 font-bold text-blue-700">See Pricing</td>
                   <td className="px-4 py-3">Priority same-day attempt, same features</td>
                 </tr>
                 <tr className="bg-white">
                   <td className="px-4 py-3 font-semibold">Same-Day Service</td>
                   <td className="px-4 py-3">Within 24 hours</td>
-                  <td className="px-4 py-3 font-bold text-blue-700">$265</td>
+                  <td className="px-4 py-3 font-bold text-blue-700">See Pricing</td>
                   <td className="px-4 py-3">Immediate deployment, all features</td>
                 </tr>
               </tbody>

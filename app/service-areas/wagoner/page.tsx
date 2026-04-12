@@ -12,7 +12,7 @@ import Footer from '@/components/ui/footer';
 export const metadata: Metadata = {
   title: 'Process Server Wagoner, OK',
   description:
-    'Licensed process server in Wagoner, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
+    'Licensed process server in Wagoner, OK. Same-day service available. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
   keywords: 'process server wagoner, legal document service wagoner, serve papers wagoner, court documents wagoner, subpoena service wagoner, eviction notice wagoner, emergency process server wagoner, 24/7 process server oklahoma, licensed process server wagoner county, professional process server wagoner',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Process Server Wagoner, OK',
     description:
-    'Licensed process server in Wagoner, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
+    'Licensed process server in Wagoner, OK. Same-day service available. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     url: 'https://justlegalsolutions.org/service-areas/wagoner',
     siteName: 'Just Legal Solutions',
     images: [
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Process Server Wagoner, OK',
     description:
-    'Licensed process server in Wagoner, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
+    'Licensed process server in Wagoner, OK. Same-day service available. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     images: ['https://justlegalsolutions.org/og-image.png'],
   },
   alternates: {

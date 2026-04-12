@@ -5,13 +5,13 @@ import UnifiedSchema from '@/components/UnifiedSchema';
 import GoogleMapsEmbed from '@/components/ui/google-maps-embed';
 
 export const metadata: Metadata = {
-  title: 'Process Server Edmond, OK | Oklahoma County | Same-Day from $60',
-  description: 'Licensed process server in Edmond, Oklahoma. Serving UCO campus, Coffee Creek, Rose Creek, and all Edmond ZIP codes. Oklahoma County filings. Same-day $265, rush $150, standard $60. Call (539) 367-6832.',
+  title: 'Process Server Edmond, OK | Oklahoma County | Same-Day Service Available',
+  description: 'Licensed process server in Edmond, Oklahoma. Serving UCO campus, Coffee Creek, Rose Creek, and all Edmond ZIP codes. Oklahoma County filings. Same-day service available. Call (539) 367-6832.',
   keywords: 'process server Edmond OK, serve papers Edmond Oklahoma, legal document service Edmond, Oklahoma County process server, UCO campus process service, Edmond subpoena service, licensed process server Edmond',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   robots: { index: true, follow: true },
   openGraph: {
-    title: 'Process Server Edmond, OK | Oklahoma County | Same-Day from $60',
+    title: 'Process Server Edmond, OK | Oklahoma County | Same-Day Service Available',
     description: 'Licensed process server in Edmond, Oklahoma. UCO campus, gated communities, and all Edmond ZIP codes. Fast, GPS-tracked, court-ready.',
     url: 'https://justlegalsolutions.org/service-areas/edmond',
     siteName: 'Just Legal Solutions',
@@ -42,7 +42,7 @@ const edmondFAQs = [
   },
   {
     question: 'Is same-day service available in Edmond?',
-    answer: 'Yes. Edmond is within our primary service area. We provide standard ($60), rush ($150), and same-day ($265) service throughout all Edmond ZIP codes — 73003, 73012, 73013, 73025, and 73034.',
+    answer: 'Yes. Edmond is within our primary service area. We provide standard, rush, and same-day service throughout all Edmond ZIP codes — 73003, 73012, 73013, 73025, and 73034.',
   },
 ];
 
@@ -88,9 +88,9 @@ export default function EdmondProcessServerPage() {
             </Link>
           </div>
           <div className="mt-10 flex flex-wrap gap-6 text-blue-200 text-sm">
-            <span className="flex items-center gap-1">✓ Standard $60</span>
-            <span className="flex items-center gap-1">✓ Rush $150</span>
-            <span className="flex items-center gap-1">✓ Same-Day $265</span>
+            <span className="flex items-center gap-1">✓ Standard Service</span>
+            <span className="flex items-center gap-1">✓ Rush Service</span>
+            <span className="flex items-center gap-1">✓ Same-Day Service</span>
             <span className="flex items-center gap-1">✓ GPS-tracked every attempt</span>
             <span className="flex items-center gap-1">✓ Notarized affidavit included</span>
           </div>
@@ -196,11 +196,11 @@ export default function EdmondProcessServerPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200 bg-white">
-                <tr><td className="px-4 py-3 font-semibold">Standard Service</td><td className="px-4 py-3">2–3 business days</td><td className="px-4 py-3 font-bold text-blue-700">$60</td><td className="px-4 py-3">3 attempts, GPS affidavit, photo documentation</td></tr>
-                <tr className="bg-gray-50"><td className="px-4 py-3 font-semibold">Rush Service</td><td className="px-4 py-3">Next business day</td><td className="px-4 py-3 font-bold text-blue-700">$150</td><td className="px-4 py-3">Priority scheduling, same features</td></tr>
-                <tr><td className="px-4 py-3 font-semibold">Same-Day Service</td><td className="px-4 py-3">Within 24 hours</td><td className="px-4 py-3 font-bold text-blue-700">$265</td><td className="px-4 py-3">Immediate deployment, all features</td></tr>
-                <tr className="bg-gray-50"><td className="px-4 py-3 font-semibold">Skip Tracing</td><td className="px-4 py-3">Case-by-case</td><td className="px-4 py-3 font-bold text-blue-700">$85/hr</td><td className="px-4 py-3">High-turnover areas like UCO campus housing</td></tr>
-                <tr><td className="px-4 py-3 font-semibold">Additional Attempts</td><td className="px-4 py-3">After 3 standard</td><td className="px-4 py-3 font-bold text-blue-700">$40 each</td><td className="px-4 py-3">Photo + timestamp documentation</td></tr>
+                <tr><td className="px-4 py-3 font-semibold">Standard Service</td><td className="px-4 py-3">2–3 business days</td><td className="px-4 py-3 font-bold text-blue-700">See Pricing</td><td className="px-4 py-3">3 attempts, GPS affidavit, photo documentation</td></tr>
+                <tr className="bg-gray-50"><td className="px-4 py-3 font-semibold">Rush Service</td><td className="px-4 py-3">Next business day</td><td className="px-4 py-3 font-bold text-blue-700">See Pricing</td><td className="px-4 py-3">Priority scheduling, same features</td></tr>
+                <tr><td className="px-4 py-3 font-semibold">Same-Day Service</td><td className="px-4 py-3">Within 24 hours</td><td className="px-4 py-3 font-bold text-blue-700">See Pricing</td><td className="px-4 py-3">Immediate deployment, all features</td></tr>
+                <tr className="bg-gray-50"><td className="px-4 py-3 font-semibold">Skip Tracing</td><td className="px-4 py-3">Case-by-case</td><td className="px-4 py-3 font-bold text-blue-700">See Pricing</td><td className="px-4 py-3">High-turnover areas like UCO campus housing</td></tr>
+                <tr><td className="px-4 py-3 font-semibold">Additional Attempts</td><td className="px-4 py-3">After 3 standard</td><td className="px-4 py-3 font-bold text-blue-700">See Pricing</td><td className="px-4 py-3">Photo + timestamp documentation</td></tr>
               </tbody>
             </table>
           </div>
@@ -317,7 +317,7 @@ export default function EdmondProcessServerPage() {
       <UnifiedSchema
         pageType="location"
         url="https://justlegalsolutions.org/service-areas/edmond"
-        title="Process Server Edmond, OK | Oklahoma County | Same-Day from $60"
+        title="Process Server Edmond, OK | Oklahoma County | Same-Day Service Available"
         description="Licensed process server in Edmond, Oklahoma. UCO campus, gated communities, Arcadia Lake, and all Edmond ZIP codes. GPS-tracked service."
         faqItems={edmondFAQs.slice(0, 4).map(f => ({ question: f.question, answer: f.answer }))}
         aggregateRating={{ ratingValue: 4.9, reviewCount: 156 }}

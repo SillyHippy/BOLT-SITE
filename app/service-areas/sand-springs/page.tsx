@@ -12,7 +12,7 @@ import Footer from '@/components/ui/footer';
 export const metadata: Metadata = {
   title: 'Process Server Sand Springs, OK',
   description:
-    'Licensed process server in Sand Springs, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
+    'Licensed process server in Sand Springs, OK. Same-day service available. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
   keywords: 'process server sand springs, legal document service sand springs, serve papers sand springs, court documents sand springs, subpoena service sand springs, eviction notice sand springs, emergency process server sand springs, 24/7 process server oklahoma, licensed process server tulsa county, professional process server sand springs',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Process Server Sand Springs, OK',
     description:
-    'Licensed process server in Sand Springs, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
+    'Licensed process server in Sand Springs, OK. Same-day service available. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     url: 'https://justlegalsolutions.org/service-areas/sand-springs',
     siteName: 'Just Legal Solutions',
     images: [
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Process Server Sand Springs, OK',
     description:
-    'Licensed process server in Sand Springs, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
+    'Licensed process server in Sand Springs, OK. Same-day service available. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     images: ['https://justlegalsolutions.org/og-image.png'],
   },
   alternates: {
@@ -387,7 +387,7 @@ export default function SandSpringsProcessServer() {
                 <div>
                   <h3 className="font-semibold text-lg text-gray-800 mb-2">Q: Is same-day service available in Sand Springs?</h3>
                   <p className="text-gray-600">
-                    Yes. Sand Springs is within our standard Tulsa metro service area. Same-day service ($265) and rush service ($150) are both available with standard scheduling.
+                    Yes. Sand Springs is within our standard Tulsa metro service area. Same-day service and rush service are both available with standard scheduling.
                   </p>
                 </div>
               </div>

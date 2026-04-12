@@ -10,7 +10,7 @@ import Footer from '@/components/ui/footer';
 export const metadata: Metadata = {
   title: 'Process Server Catoosa, OK',
   description:
-    'Licensed process server in Catoosa, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
+    'Licensed process server in Catoosa, OK. Same-day service available. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
   keywords: 'process server catoosa, legal document service catoosa, serve papers catoosa, court documents catoosa, subpoena service catoosa, eviction notice catoosa, emergency process server catoosa, 24/7 process server oklahoma, licensed process server rogers county, professional process server catoosa',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   creator: 'Just Legal Solutions',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Process Server Catoosa, OK',
     description:
-    'Licensed process server in Catoosa, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
+    'Licensed process server in Catoosa, OK. Same-day service available. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     url: 'https://justlegalsolutions.org/service-areas/catoosa',
     siteName: 'Just Legal Solutions',
     images: [
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Process Server Catoosa, OK',
     description:
-    'Licensed process server in Catoosa, OK. Standard from $60, rush $100, same-day $150. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
+    'Licensed process server in Catoosa, OK. Same-day service available. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
     images: ['https://justlegalsolutions.org/og-image.png'],
   },
   alternates: {
@@ -437,7 +437,7 @@ export default function CatoosaProcessServer() {
                 <div>
                   <h3 className="font-semibold text-lg text-gray-800 mb-2">Q: Is same-day service available in Catoosa?</h3>
                   <p className="text-gray-600">
-                    Yes. Catoosa is within our standard Tulsa metro service area. We provide standard ($60), rush ($150), and same-day ($265) service throughout Catoosa ZIP code 74015.
+                    Yes. Catoosa is within our standard Tulsa metro service area. We provide standard, rush, and same-day service throughout Catoosa ZIP code 74015.
                   </p>
                 </div>
               </div>
