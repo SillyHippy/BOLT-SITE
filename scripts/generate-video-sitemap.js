@@ -50,23 +50,23 @@ try {
   // Match duration
   const durationMatch = Array.from(allVideoContent.matchAll(/duration:\s*'([^']+)'/g));
 
-  for(let i=0; i<idMatch.length; i++) {
-      if (titleMatch[i] && descMatch[i] && dateMatch[i] && durationMatch[i]) {
-        let title = titleMatch[i][1].replace(/\\'/g, "'");
-        let desc = descMatch[i][1].replace(/\\'/g, "'");
+  for (let i = 0; i < idMatch.length; i++) {
+    if (titleMatch[i] && descMatch[i] && dateMatch[i] && durationMatch[i]) {
+      let title = titleMatch[i][1].replace(/\\'/g, "'");
+      let desc = descMatch[i][1].replace(/\\'/g, "'");
 
-        // XML-escape special characters
-        title = title.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;');
-        desc = desc.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;');
+      // XML-escape special characters
+      title = title.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;');
+      desc = desc.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;');
 
-        ALL_VIDEOS.push({
-            videoId: idMatch[i][1],
-            title: titleMatch[i][1].replace(/\\'/g, "'"),
-            description: descMatch[i][1].replace(/\\'/g, "'"),
-            datePublished: dateMatch[i][1],
-            duration: durationMatch[i][1]
-        });
-      }
+      ALL_VIDEOS.push({
+        videoId: idMatch[i][1],
+        title: titleMatch[i][1].replace(/\\'/g, "'"),
+        description: descMatch[i][1].replace(/\\'/g, "'"),
+        datePublished: dateMatch[i][1],
+        duration: durationMatch[i][1]
+      });
+    }
   }
 
   console.log(`Found ${ALL_VIDEOS.length} videos.`);
@@ -90,7 +90,7 @@ try {
       <video:description>${video.description}</video:description>
       <video:player_loc>https://www.youtube.com/embed/${video.videoId}</video:player_loc>
       <video:publication_date>${video.datePublished}T00:00:00+00:00</video:publication_date>
-      <video:uploader>Just Legal Solutions</video:uploader>
+      <video:contributor>Just Legal Solutions</video:contributor>
       <video:duration>${video.duration}</video:duration>
       <video:family_friendly>yes</video:family_friendly>
       <video:requires_subscription>no</video:requires_subscription>
