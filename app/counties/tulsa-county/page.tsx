@@ -5,8 +5,6 @@ import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, Chec
 import UnifiedSchema from '@/components/UnifiedSchema';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 import GoogleMapsEmbed from '@/components/ui/google-maps-embed';
-import { Navbar } from '@/components/ui/navbar';
-import { Footer } from '@/components/ui/footer';
 import {
   Carousel,
   CarouselContent,
@@ -158,8 +156,7 @@ const tulsaCountyCities = [
 export default function TulsaCountyProcessServer() {
   return (
     <>
-      <Navbar />
-      <LocalPromoBanner zips={[]} />
+<LocalPromoBanner zips={[]} />
       
       <UnifiedSchema
         pageType="location"
@@ -1647,8 +1644,6 @@ export default function TulsaCountyProcessServer() {
           </div>
         </section>
       </div>
-      
-      <Footer />
-    </>
+</>
   );
 }

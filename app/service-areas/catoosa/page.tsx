@@ -99,8 +99,7 @@ const catoosaFAQs = [
 export default function CatoosaProcessServer() {
   return (
     <div className="flex flex-col min-h-screen">
-      <Navbar />
-      <main className="pt-14 flex-grow">
+<main className="pt-14 flex-grow">
         <UnifiedSchema 
           pageType="service"
           title="Just Legal Solutions - Catoosa"
@@ -523,7 +522,6 @@ export default function CatoosaProcessServer() {
         </div>
         </div>
       </main>
-      <Footer />
-    </div>
+</div>
   );
 }

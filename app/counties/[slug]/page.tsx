@@ -1,8 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, MapPin } from 'lucide-react';
-import { Navbar } from '@/components/ui/navbar';
-import { Footer } from '@/components/ui/footer';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import MarkdownContent from '@/components/MarkdownContent';
 import {
@@ -98,9 +96,7 @@ export default async function CountyPage({ params }: { params: Promise<{ slug: s
           'Oklahoma process server',
         ]}
       />
-      <Navbar />
-
-      <main className="min-h-screen bg-white">
+<main className="min-h-screen bg-white">
         {/* Breadcrumbs */}
         <nav
           aria-label="Breadcrumb"
@@ -163,8 +159,6 @@ export default async function CountyPage({ params }: { params: Promise<{ slug: s
           </div>
         </section>
       </main>
-
-      <Footer />
-    </>
+</>
   );
 }

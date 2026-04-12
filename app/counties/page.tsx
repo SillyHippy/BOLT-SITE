@@ -3,9 +3,6 @@ import Link from 'next/link';
 import { Phone, MapPin, Clock, Search, Star, CheckCircle, Shield, Building2 } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
-import { Navbar } from '@/components/ui/navbar';
-import { Footer } from '@/components/ui/footer';
-
 export const metadata: Metadata = {
   title: 'Oklahoma Counties Process Server | All 77 Counties Covered',
   description: 'Professional process server covering all 77 Oklahoma counties. Complete county-by-county coverage including Tulsa, Oklahoma, Cleveland, and Comanche counties. Licensed and insured.',
@@ -145,8 +142,7 @@ export default function ServiceAreasHub() {
         breadcrumbItems={breadcrumbItems}
         reviewCount={156}
       />
-      <Navbar />
-      <LocalPromoBanner zips={[]} />
+<LocalPromoBanner zips={[]} />
 
       <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
         {/* Hero Section */}
@@ -375,8 +371,6 @@ export default function ServiceAreasHub() {
           </div>
         </section>
       </div>
-      
-      <Footer />
-    </>
+</>
   );
 }

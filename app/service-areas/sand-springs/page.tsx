@@ -101,8 +101,7 @@ const sandSpringsFAQs = [
 export default function SandSpringsProcessServer() {
   return (
     <div className="flex flex-col min-h-screen">
-      <Navbar />
-      <main className="pt-14 flex-grow">
+<main className="pt-14 flex-grow">
         <UnifiedSchema 
           pageType="service"
           title="Just Legal Solutions - Sand Springs"
@@ -518,7 +517,6 @@ export default function SandSpringsProcessServer() {
         </div>
         </div>
       </main>
-      <Footer />
-    </div>
+</div>
   );
 }

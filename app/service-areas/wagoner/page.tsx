@@ -101,8 +101,7 @@ const wagonerFAQs = [
 export default function WagonerProcessServer() {
   return (
     <div className="flex flex-col min-h-screen">
-      <Navbar />
-      <main className="pt-14 flex-grow">
+<main className="pt-14 flex-grow">
         <UnifiedSchema 
           pageType="service"
           title="Just Legal Solutions - Wagoner"
@@ -346,9 +345,7 @@ export default function WagonerProcessServer() {
           </div>
         </div>
       </div>
-      
-        <Footer />
-      </main>
+</main>
     </div>
   );
 }

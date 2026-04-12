@@ -5,8 +5,6 @@ import {
   Building2, ChevronRight, ExternalLink, DollarSign,
   Users, FileText, Scale, Navigation, Briefcase, HelpCircle,
 } from 'lucide-react';
-import { Navbar } from '@/components/ui/navbar';
-import { Footer } from '@/components/ui/footer';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import GoogleMapsEmbed from '@/components/ui/google-maps-embed';
 import {
@@ -331,9 +329,7 @@ export default async function LocationPage({
           'Oklahoma process server',
         ]}
       />
-      <Navbar />
-
-      <main className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+<main className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
         {/* ── Hero Section ── */}
         <section className="relative bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 text-white pt-28 pb-20 overflow-hidden">
           <div className="absolute top-20 right-10 w-72 h-72 bg-blue-500/20 rounded-full blur-3xl" />
@@ -876,8 +872,6 @@ export default async function LocationPage({
           </div>
         </section>
       </main>
-
-      <Footer />
-    </>
+</>
   );
 }

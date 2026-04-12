@@ -4,9 +4,6 @@ import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, Chec
 import UnifiedSchema from '@/components/UnifiedSchema';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 import GoogleMapsEmbed from '@/components/ui/google-maps-embed';
-import { Navbar } from '@/components/ui/navbar';
-import { Footer } from '@/components/ui/footer';
-
 export const metadata: Metadata = {
   title: 'Creek County Process Server, OK | Same-Day Available',
   description: 'Licensed process server throughout Creek County, Oklahoma. Serving Sapulpa, Bristow, Kellyville. Same-day service available.',
@@ -119,8 +116,7 @@ export default function CreekCountyProcessServer() {
         faqItems={creekCountyFAQs}
         reviewCount={156}
       />
-      <Navbar />
-      <LocalPromoBanner zips={[]} />
+<LocalPromoBanner zips={[]} />
 
       <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
         {/* Hero Section */}
@@ -513,8 +509,6 @@ export default function CreekCountyProcessServer() {
           </div>
         </section>
 </div>
-      
-      <Footer />
-    </>
+</>
   );
 }

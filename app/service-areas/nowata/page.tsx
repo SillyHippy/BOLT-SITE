@@ -107,8 +107,7 @@ const nowataFAQs = [
 export default function NowataProcessServer() {
   return (
     <div className="flex flex-col min-h-screen">
-      <Navbar />
-      <main className="pt-14 flex-grow">
+<main className="pt-14 flex-grow">
         <UnifiedSchema 
           pageType="service"
           title="Just Legal Solutions - Nowata"
@@ -465,9 +464,7 @@ export default function NowataProcessServer() {
           </div>
         </div>
       </div>
-      
-        <Footer />
-      </main>
+</main>
     </div>
   );
 }
