@@ -5,8 +5,6 @@ import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, Chec
 import { getPromoDescription } from '@/lib/promo-utils';
 
 import GoogleMapsEmbed from '@/components/ui/google-maps-embed';
-import Navbar from '@/components/ui/navbar';
-import Footer from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {

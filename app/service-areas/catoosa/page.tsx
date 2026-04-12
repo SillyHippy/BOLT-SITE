@@ -4,9 +4,6 @@ import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, Chec
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 import GoogleMapsEmbed from '@/components/ui/google-maps-embed';
-import Navbar from '@/components/ui/navbar';
-import Footer from '@/components/ui/footer';
-
 export const metadata: Metadata = {
   title: 'Process Server Catoosa, OK',
   description:

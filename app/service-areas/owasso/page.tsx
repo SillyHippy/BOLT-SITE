@@ -6,9 +6,6 @@ import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, Chec
  
 
 import GoogleMapsEmbed from '@/components/ui/google-maps-embed';
-import Navbar from '@/components/ui/navbar';
-import Footer from '@/components/ui/footer';
-
 export const metadata: Metadata = {
   title: 'Process Server Owasso, OK',
   description:
