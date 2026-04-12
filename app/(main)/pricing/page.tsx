@@ -711,21 +711,7 @@ export default function PricingPage() {
           "name": "How Much Does a Process Server Cost in Oklahoma? — Full 2026 Pricing Breakdown",
           "description": "Complete 2026 breakdown of Oklahoma process server pricing. Standard from $60, rush $100, same-day $150. Learn what affects your cost.",
           "thumbnailUrl": "https://img.youtube.com/vi/zTuTJiO71Gk/maxresdefault.jpg",
-          "uploadDate": "2026-04-01",
-          "duration": "PT5M00S",
-          "contentUrl": "https://www.youtube.com/watch?v=zTuTJiO71Gk",
-          "embedUrl": "https://www.youtube.com/embed/zTuTJiO71Gk",
-          "publisher": { "@type": "Organization", "name": "Just Legal Solutions", "logo": { "@type": "ImageObject", "url": "https://justlegalsolutions.org/email%20signature%20logo.png" } }
-        })}} />
-
-        {/* VideoObject Schema - moved to bottom to keep pricing page focused */}
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "VideoObject",
-          "name": "How Much Does a Process Server Cost in Oklahoma? — Full 2026 Pricing Breakdown",
-          "description": "Complete 2026 breakdown of Oklahoma process server pricing. Standard from $60, rush $100, same-day $150. Learn what affects your cost.",
-          "thumbnailUrl": "https://img.youtube.com/vi/zTuTJiO71Gk/maxresdefault.jpg",
-          "uploadDate": "2026-04-01",
+          "uploadDate": "2026-04-01T08:00:00-05:00",
           "duration": "PT5M00S",
           "contentUrl": "https://www.youtube.com/watch?v=zTuTJiO71Gk",
           "embedUrl": "https://www.youtube.com/embed/zTuTJiO71Gk",

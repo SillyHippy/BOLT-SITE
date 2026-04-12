@@ -169,7 +169,7 @@ export default function Home() {
         "name": "Best Process Server in Tulsa, Oklahoma | Just Legal Solutions",
         "description": "Learn why Just Legal Solutions is rated 4.9 stars by attorneys and landlords across Oklahoma. Licensed, GPS-tracked process serving starting at $60.",
         "thumbnailUrl": "https://img.youtube.com/vi/NFAhglMUNqc/maxresdefault.jpg",
-        "uploadDate": "2026-04-01",
+        "uploadDate": "2026-04-01T08:00:00-05:00",
         "duration": "PT4M30S",
         "contentUrl": "https://www.youtube.com/watch?v=NFAhglMUNqc",
         "embedUrl": "https://www.youtube.com/embed/NFAhglMUNqc",

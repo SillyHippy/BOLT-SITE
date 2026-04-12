@@ -3,7 +3,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const VIDEOS_PAGE_PATH = path.join(process.cwd(), 'app', 'videos', 'page.tsx');
+const VIDEOS_PAGE_PATH = path.join(process.cwd(), 'lib', 'video-data.ts');
 const SITEMAP_PATH = path.join(process.cwd(), 'public', 'video-sitemap.xml');
 let ALL_VIDEOS = [];
 
@@ -21,70 +21,44 @@ function slugify(title) {
 try {
   const content = fs.readFileSync(VIDEOS_PAGE_PATH, 'utf8');
 
-  // Extract only the video arrays (featuredVideos, fullVideos, shorts) by finding blocks between [ and ]
-  // This avoids matching the metadata title/description at the top of the file
-  const videoBlocks = [];
+  // Regex to extract video objects from the arrays in lib/video-data.ts
+  const videoObjectRegex = /\{[\s\S]*?videoId:\s*'([^']+)'[\s\S]*?title:\s*'((?:[^'\\]|\\.)*)'[\s\S]*?description:\s*'((?:[^'\\]|\\.)*)'[\s\S]*?datePublished:\s*'([^']+)'[\s\S]*?duration:\s*'([^']+)'[\s\S]*?\}/g;
+  
+  let match;
+  while ((match = videoObjectRegex.exec(content)) !== null) {
+    const [_, videoId, rawTitleEscaped, rawDescEscaped, datePublished, duration] = match;
+    
+    let rawTitle = rawTitleEscaped.replace(/\\'/g, "'");
+    let rawDesc = rawDescEscaped.replace(/\\'/g, "'");
 
-  // Find all video object blocks within array definitions
-  // Look for patterns inside [ ... ] that contain videoId
-  const arrayRegex = /\[\s*\n(\s*\{[\s\S]*?videoId[\s\S]*?\},?\s*\n\s*)+\]/g;
-  let arrayMatch;
-  while ((arrayMatch = arrayRegex.exec(content)) !== null) {
-    videoBlocks.push(arrayMatch[0]);
-  }
+    // XML-escape special characters
+    let xmlTitle = rawTitle.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;');
+    let xmlDesc = rawDesc.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;');
 
-  const allVideoContent = videoBlocks.join('\n');
+    // Convert ISO 8601 duration (e.g. PT15M0S) to total seconds
+    let durationSecs = 0;
+    const hoursMatch = duration.match(/(\d+)H/);
+    const minutesMatch = duration.match(/(\d+)M/);
+    const secondsMatch = duration.match(/(\d+)S/);
+    
+    if (hoursMatch) durationSecs += parseInt(hoursMatch[1]) * 3600;
+    if (minutesMatch) durationSecs += parseInt(minutesMatch[1]) * 60;
+    if (secondsMatch) durationSecs += parseInt(secondsMatch[1]);
 
-  // Match videoId
-  const idMatch = Array.from(allVideoContent.matchAll(/videoId:\s*'([^']+)'/g));
-
-  // Match title - handle escaped apostrophes
-  const titleMatch = Array.from(allVideoContent.matchAll(/title:\s*'((?:[^'\\]|\\.)*)'/g));
-
-  // Match description - handle escaped apostrophes and double quotes
-  const descMatch = Array.from(allVideoContent.matchAll(/description:\s*'((?:[^'\\]|\\.)*)'/g));
-
-  // Match datePublished
-  const dateMatch = Array.from(allVideoContent.matchAll(/datePublished:\s*'([^']+)'/g));
-
-  // Match duration
-  const durationMatch = Array.from(allVideoContent.matchAll(/duration:\s*'([^']+)'/g));
-
-  for (let i = 0; i < idMatch.length; i++) {
-    if (titleMatch[i] && descMatch[i] && dateMatch[i] && durationMatch[i]) {
-      let rawTitle = titleMatch[i][1].replace(/\\'/g, "'");
-      let rawDesc = descMatch[i][1].replace(/\\'/g, "'");
-
-      // XML-escape special characters
-      let xmlTitle = rawTitle.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;');
-      let xmlDesc = rawDesc.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;');
-
-      // Convert ISO 8601 duration (e.g. PT15M0S) to total seconds
-      let durationSecs = 0;
-      const rawDuration = durationMatch[i][1];
-      const hoursMatch = rawDuration.match(/(\d+)H/);
-      const minutesMatch = rawDuration.match(/(\d+)M/);
-      const secondsMatch = rawDuration.match(/(\d+)S/);
-      
-      if (hoursMatch) durationSecs += parseInt(hoursMatch[1]) * 3600;
-      if (minutesMatch) durationSecs += parseInt(minutesMatch[1]) * 60;
-      if (secondsMatch) durationSecs += parseInt(secondsMatch[1]);
-
-      if (durationSecs === 0 && /^\d+$/.test(rawDuration)) {
-        durationSecs = parseInt(rawDuration) * 60; // Fallback
-      } else if (durationSecs === 0) {
-        durationSecs = 60; 
-      }
-
-      ALL_VIDEOS.push({
-        videoId: idMatch[i][1],
-        rawTitle: rawTitle,
-        title: xmlTitle,
-        description: xmlDesc,
-        datePublished: dateMatch[i][1],
-        duration: durationSecs.toString()
-      });
+    if (durationSecs === 0 && /^\d+$/.test(duration)) {
+      durationSecs = parseInt(duration) * 60; // Fallback
+    } else if (durationSecs === 0) {
+      durationSecs = 60; 
     }
+
+    ALL_VIDEOS.push({
+      videoId,
+      rawTitle,
+      title: xmlTitle,
+      description: xmlDesc,
+      datePublished,
+      duration: durationSecs.toString()
+    });
   }
 
   console.log(`Found ${ALL_VIDEOS.length} videos.`);
