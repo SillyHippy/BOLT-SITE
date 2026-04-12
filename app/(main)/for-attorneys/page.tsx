@@ -149,7 +149,7 @@ export default function ForAttorneysPage() {
             <span className="text-blue-400">Oklahoma Law Firms</span>
           </h1>
           <p className="speakable-summary text-lg md:text-xl text-slate-200 max-w-3xl mx-auto mb-8">
-            Same-day affidavits. Volume account pricing. Net-15 billing.
+            Same-day affidavits. Volume pricing up to <strong>15% off</strong>. Net-15 billing.
             Licensed in all 77 Oklahoma counties. Trusted by attorneys who need it done right the
             first time.
           </p>
@@ -219,46 +219,49 @@ export default function ForAttorneysPage() {
           {/* Tier 1 */}
           <div className="rounded-2xl border border-slate-200 p-8 bg-white shadow-sm hover:shadow-md transition-shadow">
             <div className="flex items-center gap-2 mb-4 text-blue-600 font-bold text-lg">
-              <Briefcase className="w-5 h-5" /> Starter Tier
+              <Briefcase className="w-5 h-5" /> 10–25 Serves / Mo
             </div>
+            <div className="text-3xl font-bold text-slate-900 mb-2">5% Off</div>
             <p className="text-slate-700 text-sm mb-4">
-              Automatic discount on every serve for qualifying monthly volume. Priority scheduling included.
+              Automatic discount on every serve. Priority scheduling included.
             </p>
             <Link
               href="/pricing"
               className="text-blue-600 hover:underline text-sm font-semibold"
             >
-              See qualifying volume →
+              View Base Rates →
             </Link>
           </div>
           {/* Tier 2 */}
           <div className="rounded-2xl border-2 border-blue-600 p-8 bg-white shadow-md ring-1 ring-blue-100">
             <div className="flex items-center gap-2 mb-4 text-blue-600 font-bold text-lg">
-              <Scale className="w-5 h-5" /> Growth Tier
+              <Scale className="w-5 h-5" /> 26–50 Serves / Mo
             </div>
+            <div className="text-3xl font-bold text-slate-900 mb-2">10% Off</div>
             <p className="text-slate-700 text-sm mb-4">
-              Higher discount plus a dedicated account manager and direct portal access for your entire team.
+              Plus a dedicated account manager and direct portal access for your entire team.
             </p>
             <Link
               href="/pricing"
               className="text-blue-600 hover:underline text-sm font-semibold"
             >
-              See qualifying volume →
+              View Base Rates →
             </Link>
           </div>
           {/* Tier 3 */}
           <div className="rounded-2xl border border-slate-200 p-8 bg-white shadow-sm hover:shadow-md transition-shadow">
             <div className="flex items-center gap-2 mb-4 text-blue-600 font-bold text-lg">
-              <Building2 className="w-5 h-5" /> Enterprise Tier
+              <Building2 className="w-5 h-5" /> 50+ Serves / Mo
             </div>
+            <div className="text-3xl font-bold text-slate-900 mb-2">15% Off</div>
             <p className="text-slate-700 text-sm mb-4">
-              Custom billing terms, bulk upload, white-glove service coordination, and maximum discount.
+              Custom billing terms, bulk upload, and white-glove service coordination.
             </p>
             <Link
               href="/pricing"
               className="text-blue-600 hover:underline text-sm font-semibold"
             >
-              See qualifying volume →
+              View Base Rates →
             </Link>
           </div>
         </div>
