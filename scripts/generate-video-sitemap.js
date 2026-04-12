@@ -52,19 +52,37 @@ try {
 
   for (let i = 0; i < idMatch.length; i++) {
     if (titleMatch[i] && descMatch[i] && dateMatch[i] && durationMatch[i]) {
-      let title = titleMatch[i][1].replace(/\\'/g, "'");
-      let desc = descMatch[i][1].replace(/\\'/g, "'");
+      let rawTitle = titleMatch[i][1].replace(/\\'/g, "'");
+      let rawDesc = descMatch[i][1].replace(/\\'/g, "'");
 
       // XML-escape special characters
-      title = title.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;');
-      desc = desc.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;');
+      let xmlTitle = rawTitle.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;');
+      let xmlDesc = rawDesc.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;');
+
+      // Convert ISO 8601 duration (e.g. PT15M0S) to total seconds
+      let durationSecs = 0;
+      const rawDuration = durationMatch[i][1];
+      const hoursMatch = rawDuration.match(/(\d+)H/);
+      const minutesMatch = rawDuration.match(/(\d+)M/);
+      const secondsMatch = rawDuration.match(/(\d+)S/);
+      
+      if (hoursMatch) durationSecs += parseInt(hoursMatch[1]) * 3600;
+      if (minutesMatch) durationSecs += parseInt(minutesMatch[1]) * 60;
+      if (secondsMatch) durationSecs += parseInt(secondsMatch[1]);
+
+      if (durationSecs === 0 && /^\d+$/.test(rawDuration)) {
+        durationSecs = parseInt(rawDuration) * 60; // Fallback
+      } else if (durationSecs === 0) {
+        durationSecs = 60; 
+      }
 
       ALL_VIDEOS.push({
         videoId: idMatch[i][1],
-        title: titleMatch[i][1].replace(/\\'/g, "'"),
-        description: descMatch[i][1].replace(/\\'/g, "'"),
+        rawTitle: rawTitle,
+        title: xmlTitle,
+        description: xmlDesc,
         datePublished: dateMatch[i][1],
-        duration: durationMatch[i][1]
+        duration: durationSecs.toString()
       });
     }
   }
@@ -78,7 +96,7 @@ try {
 
   ALL_VIDEOS.forEach(video => {
     // Each video gets its own unique URL: /videos/[slug]
-    const slug = slugify(video.title)
+    const slug = slugify(video.rawTitle)
       .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;');
     const locUrl = `https://justlegalsolutions.org/videos/${slug}`;
 
