@@ -109,7 +109,7 @@ try {
       <video:description>Watch 42 free educational videos on Oklahoma process serving, notary services, skip tracing, pricing, and more from Joseph Iannazzi — Tulsa's #1 rated process server.</video:description>
       <video:player_loc>https://justlegalsolutions.org/videos</video:player_loc>
       <video:publication_date>2026-04-01T00:00:00+00:00</video:publication_date>
-      <video:uploader>Just Legal Solutions</video:uploader>
+      <video:contributor>Just Legal Solutions</video:contributor>
     </video:video>
   </url>
 `;
