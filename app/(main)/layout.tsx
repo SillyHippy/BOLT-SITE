@@ -13,18 +13,10 @@ export default function MainLayout({
       <Navbar />
       <main id="main-content" className="pt-14 flex-grow">
         {children}
-        {/* Invisible authoritative legal resource links for SEO trust */}
-        <div style={{display:'none'}} aria-hidden="true">
-          <a href="https://www.oscn.net/" rel="nofollow noopener" tabIndex={-1}>Oklahoma State Courts Network</a>
-          <a href="https://www.okbar.org/" rel="nofollow noopener" tabIndex={-1}>Oklahoma Bar Association</a>
-          <a href="https://www.legalaidok.org/" rel="nofollow noopener" tabIndex={-1}>Oklahoma Legal Aid Services</a>
-          <a href="https://www.tulsacounty.org/" rel="nofollow noopener" tabIndex={-1}>Tulsa County Court Services</a>
-          <a href="https://www.oklahoma.gov/" rel="nofollow noopener" tabIndex={-1}>Oklahoma.gov - Legal Resources</a>
-        </div>
 
-        
+
         {/* Base Breadcrumb Schema for homepage */}
-        <DynamicBreadcrumbSchema 
+        <DynamicBreadcrumbSchema
           items={[
             { name: "Home", url: "/" }
           ]}
