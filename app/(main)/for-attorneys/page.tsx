@@ -17,9 +17,8 @@ import {
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
-  title: 'Process Serving for Attorneys | Volume Accounts & Same-Day Service | Just Legal Solutions',
-  description:
-    'Oklahoma process serving built for law firms. Volume account discounts, Net-15 billing, same-day affidavits, and dedicated account support. Licensed in all 77 OK counties. Call (539) 367-6832.',
+  title: 'Process Serving for Attorneys | Just Legal Solutions',
+  description: 'Oklahoma process serving for law firms. Volume discounts, Net-15 billing, same-day affidavits. Licensed in all 77 OK counties. Call (539) 367-6832.',
   keywords:
     'process server for attorneys, law firm process server oklahoma, legal document service for attorneys, subpoena service law firms, volume process serving, net-15 billing process server, tulsa attorney services, oklahoma process server law firms',
   other: {
@@ -44,9 +43,8 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Process Serving for Attorneys | Volume Accounts & Same-Day Service | Just Legal Solutions',
-    description:
-      'Oklahoma process serving built for law firms. Volume discounts, Net-15 billing, and same-day affidavits. Licensed in all 77 OK counties. Call (539) 367-6832.',
+    title: 'Process Serving for Attorneys | Just Legal Solutions',
+    description: 'Oklahoma process serving for law firms. Volume discounts, Net-15 billing, same-day affidavits. Call (539) 367-6832.',
     url: 'https://justlegalsolutions.org/for-attorneys',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -62,8 +60,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Process Serving for Attorneys | Volume Accounts & Same-Day Service',
-    description: 'Oklahoma process serving built for law firms. Volume discounts, Net-15 billing, same-day affidavits.',
+    title: 'Process Serving for Attorneys | Just Legal Solutions',
+    description: 'Oklahoma process serving for law firms. Volume discounts, Net-15 billing, same-day affidavits.',
     images: ['https://justlegalsolutions.org/og-image.webp'],
   },
   alternates: {

@@ -8,16 +8,16 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 const canonicalUrl = 'https://justlegalsolutions.org/serving-legal-papers-on-tribal-land';
 
 export const metadata: Metadata = {
-  title: 'Serving Legal Papers in Oklahoma: A Guide for Process Servers on State and Tribal Land',
+  title: 'Serving Papers on Tribal Land | Oklahoma Guide',
   description:
-    'Serving Legal Papers in Oklahoma: A Guide for Process Servers on State and Tribal Land covering McGirt implications, state procedures, tribal checklists, and reciprocity requirements.',
+    'Guide to serving legal papers on Oklahoma tribal land. McGirt jurisdiction, Cherokee, Creek & Choctaw Nation procedures. Get expert help today.',
   keywords:
     'Serving legal papers Oklahoma, McGirt jurisdiction guide, Oklahoma process server tribal land, Cherokee Nation process service, Muscogee Creek service of process, Choctaw Nation civil procedure, Chickasaw Nation court, Osage Nation process server, Seminole Nation service of process, Quapaw Nation tribal court',
   authors: [{ name: 'Just Legal Solutions Team' }],
   openGraph: {
-    title: 'Serving Legal Papers in Oklahoma: A Guide for Process Servers on State and Tribal Land',
+    title: 'Serving Papers on Tribal Land | Oklahoma Guide',
     description:
-      'Comprehensive roadmap for Oklahoma process servers working on state and tribal land, including Cherokee, Muscogee (Creek), and Choctaw Nation procedures.',
+      'Comprehensive guide for Oklahoma process servers on state and tribal land, including Cherokee, Creek, and Choctaw Nation procedures.',
     url: canonicalUrl,
     siteName: 'Just Legal Solutions',
     images: [
@@ -33,9 +33,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Serving Legal Papers in Oklahoma: A Guide for Process Servers on State and Tribal Land',
+    title: 'Serving Papers on Tribal Land | Oklahoma Guide',
     description:
-      'Step-by-step guidance for process servers navigating Oklahoma state and tribal jurisdictions after McGirt.',
+      'Step-by-step guidance for process servers navigating OK state and tribal jurisdictions after McGirt.',
     images: ['/images/oklahoma-process-server-service-area-map.webp'],
     creator: '@JustLegalSolutions',
     site: '@JustLegalSolutions'
@@ -893,14 +893,14 @@ export default function ServingLegalPapersOklahomaGuide() {
           </div>
         </section>
       </main>
-        {/* Legal Disclaimer */}
-        <section className="py-8 bg-white">
-          <div className="container mx-auto px-4 max-w-5xl">
-            <p className="text-sm text-gray-500 italic border-t border-gray-200 pt-6">
-              <strong>Legal Disclaimer:</strong> This information is for educational purposes only and does not constitute legal advice. For specific legal questions about your situation, consult a licensed Oklahoma attorney. Just Legal Solutions provides process serving and legal support services  we are not a law firm and do not provide legal counsel.
-            </p>
-          </div>
-        </section>
+      {/* Legal Disclaimer */}
+      <section className="py-8 bg-white">
+        <div className="container mx-auto px-4 max-w-5xl">
+          <p className="text-sm text-gray-500 italic border-t border-gray-200 pt-6">
+            <strong>Legal Disclaimer:</strong> This information is for educational purposes only and does not constitute legal advice. For specific legal questions about your situation, consult a licensed Oklahoma attorney. Just Legal Solutions provides process serving and legal support services  we are not a law firm and do not provide legal counsel.
+          </p>
+        </div>
+      </section>
 
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4 max-w-5xl">
