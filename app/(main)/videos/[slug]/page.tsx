@@ -62,6 +62,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
         },
       ],
     },
+    twitter: {
+      card: 'summary_large_image',
+      title: video.title,
+      description: video.description,
+      images: [`https://img.youtube.com/vi/${video.videoId}/hqdefault.jpg`],
+    },
     alternates: { canonical: `https://justlegalsolutions.org/videos/${slug}` },
   };
 }
