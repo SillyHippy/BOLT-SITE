@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     images: [
       {
-        url: '/images/skip-tracing-investigation-services.png',
+        url: '/images/skip-tracing-investigation-services.webp',
         width: 1200,
         height: 630,
         alt: 'AI-Powered Skip Tracing Technology 2026'
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'AI-Powered Skip Tracing Guide for Oklahoma Process Servers 2026',
     description: 'Artificial Intelligence has revolutionized skip tracing for process servers, providing unprecedented accuracy and efficiency.',
-    images: ['/images/skip-tracing-investigation-services.png'],
+    images: ['/images/skip-tracing-investigation-services.webp'],
     creator: '@JustLegalSolutions',
     site: '@JustLegalSolutions',
   },
@@ -52,9 +52,9 @@ const articleSchema = {
   "headline": "Complete AI-Powered Skip Tracing Authority Guide for Oklahoma Process Servers 2026",
   "description": "This comprehensive guide examines cutting-edge AI technologies, advanced database integration, machine learning algorithms, and 2026 SEO optimization strategies that transform traditional skip tracing into a precise science, dramatically improving service success rates.",
   "image": [
-    "https://justlegalsolutions.org/images/skip-tracing-investigation-services.png",
-    "https://justlegalsolutions.org/images/oklahoma-licensed-bonded-process-server-badges.png",
-    "https://justlegalsolutions.org/images/Technology legal compliance flowchart.png"
+    "https://justlegalsolutions.org/images/skip-tracing-investigation-services.webp",
+    "https://justlegalsolutions.org/images/oklahoma-licensed-bonded-process-server-badges.webp",
+    "https://justlegalsolutions.org/images/Technology legal compliance flowchart.webp"
   ],
   "author": {
     "@type": "Organization",
@@ -125,7 +125,7 @@ export default function AISkipTracingGuideOklahoma() {
         </section>
 
         <Image 
-          src="/images/skip-tracing-investigation-services.png" 
+          src="/images/skip-tracing-investigation-services.webp" 
           alt="AI-Powered Skip Tracing Technology Illustration" 
           width={800} 
           height={400} 

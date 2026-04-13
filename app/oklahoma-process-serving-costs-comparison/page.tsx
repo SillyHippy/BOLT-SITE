@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     images: [
       {
-        url: '/images/process-server-vs-sheriff-comparison.png',
+        url: '/images/process-server-vs-sheriff-comparison.webp',
         width: 1200,
         height: 630,
         alt: 'Oklahoma Process Serving Cost Comparison 2026'
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Oklahoma Process Serving Costs by County 2026: Complete Pricing Analysis & Budget Guide',
     description: 'Understanding process serving costs across Oklahoma&rsquo;s 77 counties helps attorneys and law firms budget effectively.',
-    images: ['/images/process-server-vs-sheriff-comparison.png'],
+    images: ['/images/process-server-vs-sheriff-comparison.webp'],
     creator: '@JustLegalSolutions',
     site: '@JustLegalSolutions',
   },
@@ -54,8 +54,8 @@ const articleSchema = {
   "headline": "Oklahoma Process Serving Costs by County 2026: Complete Pricing Analysis & Budget Guide",
   "description": "Understanding process serving costs across Oklahoma's 77 counties helps attorneys and law firms budget effectively while ensuring quality service. This comprehensive analysis examines 2026 pricing structures, geographic variations, and hidden costs that impact your legal service budget.",
   "image": [
-    "https://justlegalsolutions.org/images/process-server-vs-sheriff-comparison.png",
-    "https://justlegalsolutions.org/images/oklahoma-process-server-service-area-map.png"
+    "https://justlegalsolutions.org/images/process-server-vs-sheriff-comparison.webp",
+    "https://justlegalsolutions.org/images/oklahoma-process-server-service-area-map.webp"
   ],
   "author": {
     "@type": "Organization",
@@ -86,7 +86,7 @@ export default function OklahomaProcessServingCostsComparison() {
         <div className="mb-6">
           <div className="flex items-center mb-4">
             <Image 
-              src="/images/oklahoma-licensed-bonded-process-server-badges.png" 
+              src="/images/oklahoma-licensed-bonded-process-server-badges.webp" 
               alt="Licensed & Bonded Oklahoma Process Server" 
               width={120} 
               height={40} 
@@ -107,7 +107,7 @@ export default function OklahomaProcessServingCostsComparison() {
         </p>
 
         <Image 
-          src="/images/process-server-vs-sheriff-comparison.png" 
+          src="/images/process-server-vs-sheriff-comparison.webp" 
           alt="Oklahoma Process Serving Cost Comparison Chart" 
           width={800} 
           height={400} 

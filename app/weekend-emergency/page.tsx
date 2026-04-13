@@ -17,7 +17,7 @@ export const metadata = {
     siteName: 'Just Legal Solutions',
     type: 'website',
     locale: 'en_US',
-    images: [{ url: 'https://justlegalsolutions.org/og-image.png', width: 1200, height: 630, alt: 'Just Legal Solutions - Professional Process Serving in Oklahoma' }],
+    images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630, alt: 'Just Legal Solutions - Professional Process Serving in Oklahoma' }],
   },
 };
 
@@ -72,13 +72,13 @@ export default function WeekendEmergency() {
             <a href="/about" className="inline-block bg-blue-700 text-white px-6 py-3 rounded-lg text-lg font-semibold shadow hover:bg-blue-900 transition mt-2">Why We’re Different: Read Our Story</a>
           </div>
           <div className="flex-1 flex flex-col gap-4 items-center min-w-0">
-            <Image src="/images/emergency-weekend-service-banner-complete.png" alt="Emergency Weekend Service Banner" width={480} height={320} className="rounded-xl shadow-xl" priority />
-            <Image src="/images/emergency-24hour-process-server-service.png" alt="24 Hour Process Server Service" width={480} height={320} className="rounded-xl shadow-lg" />
+            <Image src="/images/emergency-weekend-service-banner-complete.webp" alt="Emergency Weekend Service Banner" width={480} height={320} className="rounded-xl shadow-xl" priority />
+            <Image src="/images/emergency-24hour-process-server-service.webp" alt="24 Hour Process Server Service" width={480} height={320} className="rounded-xl shadow-lg" />
           </div>
         </section>
         <section className="grid md:grid-cols-2 gap-8 mb-12">
           <div>
-            <Image src="/images/oklahoma-licensed-bonded-process-server-badges.png" alt="Oklahoma Licensed Bonded Process Server Badges" width={400} height={120} className="mb-4" />
+            <Image src="/images/oklahoma-licensed-bonded-process-server-badges.webp" alt="Oklahoma Licensed Bonded Process Server Badges" width={400} height={120} className="mb-4" />
             <h2 className="text-2xl font-bold mb-2 text-red-800">Why Trust Just Legal Solutions?</h2>
             <ul className="list-disc ml-6 text-gray-700">
               <li>Trusted by attorneys, businesses, and individuals statewide</li>
@@ -88,23 +88,23 @@ export default function WeekendEmergency() {
             </ul>
           </div>
           <div>
-            <Image src="/images/tulsa-process-server-delivering-documents.png" alt="Tulsa Process Server Delivering Documents" width={400} height={260} className="mb-4" />
+            <Image src="/images/tulsa-process-server-delivering-documents.webp" alt="Tulsa Process Server Delivering Documents" width={400} height={260} className="mb-4" />
             <h2 className="text-2xl font-bold mb-2 text-red-800">What We Serve</h2>
             <ul className="list-disc ml-6 text-gray-700">
               <li>Summons, subpoenas, complaints, restraining orders</li>
               <li>Eviction notices, family law, and more</li>
-              <li>All document types—see <a href="/images/Legal-document-types-process-server.png" className="underline text-blue-700" target="_blank" rel="noopener">full list</a></li>
+              <li>All document types—see <a href="/images/Legal-document-types-process-server.webp" className="underline text-blue-700" target="_blank" rel="noopener">full list</a></li>
             </ul>
           </div>
         </section>
         <section className="flex flex-col md:flex-row items-center gap-8 mb-10">
           <div className="flex-1">
-            <Image src="/images/OklahomaFlag.jpg" alt="Oklahoma State Flag" width={320} height={200} className="rounded shadow-md mb-4" />
+            <Image src="/images/OklahomaFlag.webp" alt="Oklahoma State Flag" width={320} height={200} className="rounded shadow-md mb-4" />
             <h2 className="text-xl font-semibold text-gray-800 mb-2">Serving All Oklahoma Counties</h2>
             <p className="text-gray-700">No matter where you are in Oklahoma, our emergency process servers are ready to help—day or night, weekend or holiday.</p>
           </div>
           <div className="flex-1">
-            <Image src="/images/due-process-legal-concept.png" alt="Due Process Legal Concept" width={320} height={200} className="rounded shadow-md mb-4" />
+            <Image src="/images/due-process-legal-concept.webp" alt="Due Process Legal Concept" width={320} height={200} className="rounded shadow-md mb-4" />
             <h2 className="text-xl font-semibold text-gray-800 mb-2">AI-Enhanced Service</h2>
             <p className="text-gray-700">We use the latest AI tools for route optimization, instant notifications, and secure document handling—ensuring your legal needs are met with speed and accuracy.</p>
           </div>
@@ -147,7 +147,7 @@ export default function WeekendEmergency() {
           '@type': 'LegalService',
           name: 'Just Legal Solutions',
           url: 'https://justlegalsolutions.org/weekend-emergency',
-          image: 'https://justlegalsolutions.org/images/emergency-weekend-service-banner-complete.png',
+          image: 'https://justlegalsolutions.org/images/emergency-weekend-service-banner-complete.webp',
           telephone: '+1-539-367-6832',
           address: {
             '@type': 'PostalAddress',

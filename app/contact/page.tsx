@@ -29,7 +29,7 @@ export const metadata = {
     siteName: 'Just Legal Solutions',
     images: [
       {
-        url: 'https://justlegalsolutions.org/og-image.png',
+        url: 'https://justlegalsolutions.org/og-image.webp',
         width: 1200,
         height: 630,
         alt: 'Contact Just Legal Solutions - Oklahoma Process Server & Legal Support',
@@ -40,7 +40,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Contact Just Legal Solutions | Oklahoma Process Server (539) 367-6832',
     description: 'Get a free quote for process serving in Oklahoma. Standard from $60, rush $100, same-day $150. Call (539) 367-6832. Licensed & bonded. All 77 OK counties.',
-    images: ['https://justlegalsolutions.org/og-image.png'],
+    images: ['https://justlegalsolutions.org/og-image.webp'],
     site: '@JustLegalOK',
   }
 };

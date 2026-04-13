@@ -54,9 +54,9 @@ const articleSchema = {
   "description": "Avoid costly process serving errors in Oklahoma. Learn the top 10 mistakes that invalidate service and jeopardize your legal case in 2026.",
   "image": [
     "https://justlegalsolutions.org/images/Mistake prevention checklist infographic.webp",
-    "https://justlegalsolutions.org/images/Legal-document-types-process-server.png",
-    "https://justlegalsolutions.org/images/Enhanced documentation process standards.png",
-    "https://justlegalsolutions.org/images/process-server-workflow-steps.png"
+    "https://justlegalsolutions.org/images/Legal-document-types-process-server.webp",
+    "https://justlegalsolutions.org/images/Enhanced documentation process standards.webp",
+    "https://justlegalsolutions.org/images/process-server-workflow-steps.webp"
   ],
   "author": {
     "@type": "Organization",

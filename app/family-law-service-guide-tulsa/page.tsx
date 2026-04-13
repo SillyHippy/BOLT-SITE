@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     images: [
       {
-        url: '/images/tulsa-county-courthouse.jpeg',
+        url: '/images/tulsa-county-courthouse.webp',
         width: 1200,
         height: 630,
         alt: 'Family Law Service Guide Tulsa 2026'
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Family Law Service Guide Tulsa 2026',
     description: 'Expert guide to serving protective orders and divorce papers in Tulsa County. 2026 family law service requirements, safety protocols, and procedures.',
-    images: ['/images/tulsa-county-courthouse.jpeg'],
+    images: ['/images/tulsa-county-courthouse.webp'],
     creator: '@JustLegalSolutions',
     site: '@JustLegalSolutions',
   },
@@ -53,10 +53,10 @@ const articleSchema = {
   "headline": "Family Law Service: Serving Protective Orders & Divorce Papers in Tulsa County",
   "description": "Expert guide to serving protective orders and divorce papers in Tulsa County. 2026 family law service requirements, safety protocols, and procedures.",
   "image": [
-    "https://justlegalsolutions.org/images/tulsa-county-courthouse.jpeg",
-    "https://justlegalsolutions.org/images/Legal-document-types-process-server.png",
-    "https://justlegalsolutions.org/images/Professional process server business logo badge with scales of justice and Oklahoma outline for legal services.png",
-    "https://justlegalsolutions.org/images/due-process-legal-concept.png"
+    "https://justlegalsolutions.org/images/tulsa-county-courthouse.webp",
+    "https://justlegalsolutions.org/images/Legal-document-types-process-server.webp",
+    "https://justlegalsolutions.org/images/Professional process server business logo badge with scales of justice and Oklahoma outline for legal services.webp",
+    "https://justlegalsolutions.org/images/due-process-legal-concept.webp"
   ],
   "author": {
     "@type": "Organization",
@@ -86,7 +86,7 @@ export default function FamilyLawServiceGuideTulsa() {
       <main className="max-w-4xl mx-auto px-4 py-8 pt-24">
         <h1 className="text-4xl font-bold mb-4">Family Law Service: Serving Protective Orders &amp; Divorce Papers in Tulsa County</h1>
         <p className="italic mb-6">Serving documents in family law cases requires sensitivity, speed, and strict compliance with Oklahoma statutes. Tulsa County courts demand expedited service for protective orders and accurate service for divorce petitions to protect vulnerable parties and secure jurisdiction. This guide covers statutory requirements, safety protocols, documentation standards, and technology integration for family law service in Tulsa County as of 2026.</p>
-        <Image src="/images/tulsa-county-courthouse.jpeg" alt="Tulsa County Courthouse - Family Law Services" width={800} height={400} className="rounded shadow mb-4" />
+        <Image src="/images/tulsa-county-courthouse.webp" alt="Tulsa County Courthouse - Family Law Services" width={800} height={400} className="rounded shadow mb-4" />
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-2">1. Protective Order Service Requirements</h2>
           <h3 className="text-xl font-bold mb-2">Emergency Protective Orders (EPO)</h3>
@@ -97,7 +97,7 @@ export default function FamilyLawServiceGuideTulsa() {
             <li>Document service time, officer ID, and agency details.</li>
             <li>File proof of service promptly after law enforcement confirms completion.</li>
           </ul>
-          <Image src="/images/due-process-legal-concept.png" alt="Legal Due Process and Protective Order Service Protocols" width={800} height={400} className="rounded shadow mb-4" />
+          <Image src="/images/due-process-legal-concept.webp" alt="Legal Due Process and Protective Order Service Protocols" width={800} height={400} className="rounded shadow mb-4" />
           <p className="text-sm italic text-gray-600 mb-4">Note: Delays in EPO service can jeopardize an applicant&apos;s ex parte protections. Prompt coordination with law enforcement is critical.</p>
           <h3 className="text-xl font-bold mb-2">Temporary & Permanent Protective Orders</h3>
           <ul className="list-disc ml-6 mb-4">
@@ -127,7 +127,7 @@ export default function FamilyLawServiceGuideTulsa() {
             <li>Maintain a two-person team for high-risk service situations</li>
             <li>Use unmarked vehicles and plain clothes when appropriate for server safety</li>
           </ul>
-          <Image src="/images/Professional process server business logo badge with scales of justice and Oklahoma outline for legal services.png" alt="Professional Process Server Safety and Legal Services" width={800} height={400} className="rounded shadow mb-4" />
+          <Image src="/images/Professional process server business logo badge with scales of justice and Oklahoma outline for legal services.webp" alt="Professional Process Server Safety and Legal Services" width={800} height={400} className="rounded shadow mb-4" />
           <p><b>Resource:</b> Tulsa County DV Resource Center contact details should be included in served materials.</p>
         </section>
         <section className="mb-8">
@@ -139,7 +139,7 @@ export default function FamilyLawServiceGuideTulsa() {
             <li>Statements from witnesses (e.g., law enforcement) when applicable</li>
             <li>Use standardized affidavit forms to ensure courts accept them without objection</li>
           </ul>
-          <Image src="/images/Legal-document-types-process-server.png" alt="Family Law Documentation and Legal Document Examples" width={800} height={400} className="rounded shadow mb-4" />
+          <Image src="/images/Legal-document-types-process-server.webp" alt="Family Law Documentation and Legal Document Examples" width={800} height={400} className="rounded shadow mb-4" />
         </section>
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-2">5. Electronic Service & E-Filing</h2>

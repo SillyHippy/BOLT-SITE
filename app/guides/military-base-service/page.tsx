@@ -60,7 +60,7 @@ export default function MilitaryBaseServiceGuidePage() {
           author: 'Joseph Iannazzi',
           datePublished: '2026-04-03',
           dateModified: '2026-04-03',
-          image: 'https://justlegalsolutions.org/og-image.png',
+          image: 'https://justlegalsolutions.org/og-image.webp',
         }}
         keywords={['military base process serving', 'Fort Sill process server', 'Tinker AFB service of process', 'SCRA process serving']}
       />

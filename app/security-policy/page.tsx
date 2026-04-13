@@ -3,7 +3,10 @@ import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 
 export const metadata: Metadata = {
-  title: 'Security Policy',
+    alternates: {
+    canonical: 'https://justlegalsolutions.org/security-policy',
+  },
+title: 'Security Policy',
   description: 'Security policy and guidelines for Just Legal Solutions website and services.',
   robots: {
     index: false,

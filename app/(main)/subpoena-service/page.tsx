@@ -14,7 +14,7 @@ export const metadata: Metadata = {
         title: 'Subpoena Service Oklahoma | Witness & Document Subpoenas',
         description: 'Licensed process servers for subpoena delivery across all 77 Oklahoma counties. Same-day and emergency options available.',
         type: 'website', locale: 'en_US', url: 'https://justlegalsolutions.org/subpoena-service', siteName: 'Just Legal Solutions',
-        images: [{ url: 'https://justlegalsolutions.org/og-image.png', width: 1200, height: 630, alt: 'Subpoena Service Oklahoma' }],
+        images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630, alt: 'Subpoena Service Oklahoma' }],
     },
     alternates: { canonical: 'https://justlegalsolutions.org/subpoena-service' },
     other: {
@@ -145,7 +145,7 @@ export default function SubpoenaServicePage() {
                 </div>
             </div>
 
-            <UnifiedSchema pageType="service" title="Subpoena Service Oklahoma" description="Witness, document, and deposition subpoena service across Oklahoma. GPS-verified, from $30." url="https://justlegalsolutions.org/subpoena-service" image="https://justlegalsolutions.org/og-image.png" keywords={['subpoena service', 'witness subpoena oklahoma', 'subpoena duces tecum']} reviewCount={156} services={['Witness Subpoena Service', 'Document Subpoena Service', 'Deposition Subpoena Service']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'Subpoena Service', url: '/subpoena-service' }]} />
+            <UnifiedSchema pageType="service" title="Subpoena Service Oklahoma" description="Witness, document, and deposition subpoena service across Oklahoma. GPS-verified, from $30." url="https://justlegalsolutions.org/subpoena-service" image="https://justlegalsolutions.org/og-image.webp" keywords={['subpoena service', 'witness subpoena oklahoma', 'subpoena duces tecum']} reviewCount={156} services={['Witness Subpoena Service', 'Document Subpoena Service', 'Deposition Subpoena Service']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'Subpoena Service', url: '/subpoena-service' }]} />
         </>
     );
 }

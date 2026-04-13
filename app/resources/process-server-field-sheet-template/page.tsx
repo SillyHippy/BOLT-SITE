@@ -17,7 +17,10 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Free Process Server Field Sheet Template',
+    alternates: {
+    canonical: 'https://justlegalsolutions.org/resources/process-server-field-sheet-template',
+  },
+title: 'Free Process Server Field Sheet Template',
   description: 'Download our free Process Server Field Sheet Template. Track service attempts, document recipient information, and maintain legal compliance with professional field documentation.',
   keywords: [
     'process server field sheet',

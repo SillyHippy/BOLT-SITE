@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: 'https://justlegalsolutions.org/courier-services-tulsa',
     siteName: 'Just Legal Solutions',
-    images: [{ url: 'https://justlegalsolutions.org/og-image.png', width: 1200, height: 630, alt: 'Just Legal Solutions - Professional Process Serving in Oklahoma' }],
+    images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630, alt: 'Just Legal Solutions - Professional Process Serving in Oklahoma' }],
   },
   other: {
     'ai-content-type': 'service-guide',
@@ -110,7 +110,7 @@ export default function CourierServicesTulsaPage() {
             <h2 className="text-3xl md:text-4xl font-extrabold">Tulsa County Legal Courier &amp; Document Delivery</h2>
             <p className="mt-4 text-xl text-blue-200 max-w-3xl mx-auto">Same-day courthouse filing, file-stamped copy retrieval, and secure legal document transport &mdash; starting at $30 with 24/7 emergency service.</p>
             <div className="flex justify-center mt-8">
-              <Image src="/images/tulsa-courier-downtown.jpeg" width={600} height={350} alt="Legal courier services Tulsa County - professional document delivery" className="rounded-lg shadow-lg" />
+              <Image src="/images/tulsa-courier-downtown.webp" width={600} height={350} alt="Legal courier services Tulsa County - professional document delivery" className="rounded-lg shadow-lg" />
             </div>
             <p className="text-sm text-blue-100 mt-2">Serving Tulsa, Broken Arrow, Bixby, Jenks, Owasso, Sand Springs, Glenpool &amp; all 77 Oklahoma counties</p>
           </div>

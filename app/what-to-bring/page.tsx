@@ -34,7 +34,7 @@ export default function WhatToBringPage() {
           author: 'Joseph Iannazzi',
           datePublished: '2025-03-30',
           dateModified: '2026-04-03',
-          image: 'https://justlegalsolutions.org/og-image.png',
+          image: 'https://justlegalsolutions.org/og-image.webp',
         }}
         keywords={['notary appointment checklist', 'what to bring notary', 'valid ID for notary Oklahoma', 'notarization preparation']}
       />

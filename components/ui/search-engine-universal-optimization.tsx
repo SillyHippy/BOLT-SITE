@@ -51,7 +51,7 @@ export default function SearchEngineUniversalOptimization({
         "name": businessName,
         "url": "https://justlegalsolutions.org",
         "image": [
-          "https://justlegalsolutions.org/images/tulsa-process-server.jpg",
+          "https://justlegalsolutions.org/images/tulsa-process-server.webp",
           "https://justlegalsolutions.org/images/legal-documents.jpg"
         ],
         "telephone": "+15393676832",
@@ -102,7 +102,7 @@ export default function SearchEngineUniversalOptimization({
         },
         "telephone": "+15393676832",
         "priceRange": "$$",
-        "image": "https://justlegalsolutions.org/images/tulsa-process-server.jpg",
+        "image": "https://justlegalsolutions.org/images/tulsa-process-server.webp",
         "areaServed": [
           {
             "@type": "City",

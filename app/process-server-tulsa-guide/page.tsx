@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Complete Guide to Process Server Selection in Tulsa: 2025 Edition',
     description: 'Everything you need to know about hiring a process server in Tulsa, Oklahoma. Legal requirements, pricing, and expert tips for 2026.',
-    images: ['/imagesforblogpost/tulsa-county-courthouse-oklahoma-legal-system.png'],
+    images: ['/imagesforblogpost/tulsa-county-courthouse-oklahoma-legal-system.webp'],
     url: canonicalUrl,
     type: 'article',
     siteName: 'Just Legal Solutions',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Complete Guide to Process Server Selection in Tulsa: 2025 Edition',
     description: 'Your complete resource for selecting, hiring, and working with professional process servers in Tulsa County.',
-    images: ['/imagesforblogpost/tulsa-county-courthouse-oklahoma-legal-system.png'],
+    images: ['/imagesforblogpost/tulsa-county-courthouse-oklahoma-legal-system.webp'],
     site: '@JustLegalSolutions',
     creator: '@JustLegalSolutions'
   },
@@ -43,10 +43,10 @@ const articleSchema = {
   "headline": "Complete Guide to Process Server Selection in Tulsa: 2025 Edition",
   "description": "Your complete resource for selecting, hiring, and working with professional process servers in Tulsa County. Learn about Oklahoma laws, pricing, and best practices for 2026.",
   "image": [
-    "https://justlegalsolutions.org/imagesforblogpost/tulsa-county-courthouse-oklahoma-legal-system.png",
-    "https://justlegalsolutions.org/images/tulsa-process-server-delivering-documents.png",
+    "https://justlegalsolutions.org/imagesforblogpost/tulsa-county-courthouse-oklahoma-legal-system.webp",
+    "https://justlegalsolutions.org/images/tulsa-process-server-delivering-documents.webp",
     "https://justlegalsolutions.org/images/process-server-tulsa.webp",
-    "https://justlegalsolutions.org/images/oklahoma-licensed-bonded-process-server-badges.png"
+    "https://justlegalsolutions.org/images/oklahoma-licensed-bonded-process-server-badges.webp"
   ],
   "author": {
     "@type": "Organization",
@@ -97,14 +97,14 @@ export default function ProcessServerTulsaGuide() {
       <h1 className="text-4xl font-bold mb-4">Complete Guide to Process Server Selection in Tulsa: 2025 Edition</h1>
       <p className="italic mb-6">Your complete resource for selecting, hiring, and working with professional process servers in Tulsa County</p>
       <section className="mb-8">
-        <Image src="/imagesforblogpost/tulsa-county-courthouse-oklahoma-legal-system.png" alt="Tulsa County Courthouse" width={800} height={400} className="rounded shadow mb-4" />
+        <Image src="/imagesforblogpost/tulsa-county-courthouse-oklahoma-legal-system.webp" alt="Tulsa County Courthouse" width={800} height={400} className="rounded shadow mb-4" />
         <h2 className="text-2xl font-semibold mb-2">Introduction</h2>
   <p>When legal proceedings begin, proper service of process stands as one of the most critical steps that can determine the success or failure of your case. In Tulsa, Oklahoma, choosing the right process server isn&apos;t just about finding someone to deliver papers—it&apos;s about ensuring your legal documents are served correctly, efficiently, and in full compliance with Oklahoma&apos;s stringent legal requirements.</p>
   <p>With improper service potentially leading to case dismissals, significant delays, and costly legal complications, the stakes couldn&apos;t be higher. This comprehensive guide provides everything you need to know to make an informed decision when selecting a process server in Tulsa.</p>
       </section>
       <section className="mb-8">
   <h2 className="text-2xl font-semibold mb-2">Understanding Oklahoma&apos;s Process Server Legal Framework</h2>
-  <Image src="/imagesforblogpost/professional-process-server-tulsa-delivering-legal-documents.png" alt="Process Server Delivering Documents" width={800} height={400} className="rounded shadow mb-4" />
+  <Image src="/imagesforblogpost/professional-process-server-tulsa-delivering-legal-documents.webp" alt="Process Server Delivering Documents" width={800} height={400} className="rounded shadow mb-4" />
   <h3 className="text-xl font-bold mb-2">State Licensing Requirements</h3>
         <ul className="list-disc ml-6 mb-4">
           <li>Minimum age of 18 years</li>
@@ -143,7 +143,7 @@ export default function ProcessServerTulsaGuide() {
       </section>
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-2">Essential Qualities of Professional Tulsa Process Servers</h2>
-        <Image src="/imagesforblogpost/gps-tracking-technology-process-server-equipment.png" alt="GPS Tracking Technology" width={800} height={400} className="rounded shadow mb-4" />
+        <Image src="/imagesforblogpost/gps-tracking-technology-process-server-equipment.webp" alt="GPS Tracking Technology" width={800} height={400} className="rounded shadow mb-4" />
         <ul className="list-disc ml-6 mb-4">
           <li>Reliability and dependability</li>
           <li>Legal knowledge and compliance</li>
@@ -164,7 +164,7 @@ export default function ProcessServerTulsaGuide() {
       </section>
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-2">The Service Process: What to Expect</h2>
-        <Image src="/imagesforblogpost/affidavit-of-service-template-oklahoma-legal-document.png" alt="Affidavit of Service Template" width={800} height={400} className="rounded shadow mb-4" />
+        <Image src="/imagesforblogpost/affidavit-of-service-template-oklahoma-legal-document.webp" alt="Affidavit of Service Template" width={800} height={400} className="rounded shadow mb-4" />
         <ul className="list-disc ml-6 mb-4">
           <li>Initial consultation and document review</li>
           <li>Defendant research and preparation</li>
@@ -233,7 +233,7 @@ export default function ProcessServerTulsaGuide() {
         </ul>
       </section>
       <section className="mb-8">
-        <Image src="/imagesforblogpost/completed-affidavit-service-notarized-legal-proof.png" alt="Completed Affidavit of Service" width={800} height={400} className="rounded shadow mb-4" />
+        <Image src="/imagesforblogpost/completed-affidavit-service-notarized-legal-proof.webp" alt="Completed Affidavit of Service" width={800} height={400} className="rounded shadow mb-4" />
         <h2 className="text-2xl font-semibold mb-2">Conclusion: Making Your Process Server Selection</h2>
         <p>Selecting the right process server in Tulsa requires careful consideration of multiple factors: professional credentials, legal compliance, service capabilities, pricing structure, and reputation. The stakes are too high for your legal case to risk improper service due to an inadequate provider.</p>
         <ul className="list-disc ml-6 mb-4">

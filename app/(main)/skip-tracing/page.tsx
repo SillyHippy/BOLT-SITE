@@ -14,7 +14,7 @@ export const metadata: Metadata = {
         title: 'Skip Tracing Services | Locate People for Legal Proceedings in Oklahoma',
         description: 'Locate hard-to-find defendants and witnesses. Database searches, social media investigation, field surveillance. 95%+ success rate.',
         type: 'website', locale: 'en_US', url: 'https://justlegalsolutions.org/skip-tracing', siteName: 'Just Legal Solutions',
-        images: [{ url: 'https://justlegalsolutions.org/og-image.png', width: 1200, height: 630, alt: 'Skip Tracing Services Oklahoma' }],
+        images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630, alt: 'Skip Tracing Services Oklahoma' }],
     },
     alternates: { canonical: 'https://justlegalsolutions.org/skip-tracing' },
     other: {
@@ -145,7 +145,7 @@ export default function SkipTracingPage() {
                 </div>
             </div>
 
-            <UnifiedSchema pageType="service" title="Skip Tracing Services Oklahoma" description="Professional skip tracing to locate defendants and witnesses. 95%+ success rate from $50." url="https://justlegalsolutions.org/skip-tracing" image="https://justlegalsolutions.org/og-image.png" keywords={['skip tracing oklahoma', 'locate defendant', 'find person']} reviewCount={156} services={['Skip Tracing', 'Database Search', 'Social Media Investigation', 'Field Verification']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'Skip Tracing', url: '/skip-tracing' }]} />
+            <UnifiedSchema pageType="service" title="Skip Tracing Services Oklahoma" description="Professional skip tracing to locate defendants and witnesses. 95%+ success rate from $50." url="https://justlegalsolutions.org/skip-tracing" image="https://justlegalsolutions.org/og-image.webp" keywords={['skip tracing oklahoma', 'locate defendant', 'find person']} reviewCount={156} services={['Skip Tracing', 'Database Search', 'Social Media Investigation', 'Field Verification']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'Skip Tracing', url: '/skip-tracing' }]} />
         </>
     );
 }

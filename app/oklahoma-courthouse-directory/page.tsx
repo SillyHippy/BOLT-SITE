@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     description: 'Complete directory of all 77 Oklahoma county courthouses. Addresses, phone numbers, hours, and OSCN links.',
     url: 'https://justlegalsolutions.org/oklahoma-courthouse-directory',
     siteName: 'Just Legal Solutions',
-    images: [{ url: 'https://justlegalsolutions.org/og-image.png', width: 1200, height: 630 }],
+    images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630 }],
     locale: 'en_US',
     type: 'website',
   },

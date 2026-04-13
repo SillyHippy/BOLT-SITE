@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://justlegalsolutions.org/og-image.png',
+        url: 'https://justlegalsolutions.org/og-image.webp',
         width: 1200,
         height: 630,
         alt: 'Just Legal Solutions — Oklahoma Process Serving & Notary Videos',
@@ -48,7 +48,7 @@ const videoGraph = allVideos.map((v) => ({
   publisher: {
     '@type': 'Organization',
     name: 'Just Legal Solutions',
-    logo: { '@type': 'ImageObject', url: 'https://justlegalsolutions.org/jls-logo.png' },
+    logo: { '@type': 'ImageObject', url: 'https://justlegalsolutions.org/jls-logo.webp' },
   },
   author: {
     '@type': 'Person',

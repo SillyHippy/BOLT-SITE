@@ -12,7 +12,7 @@ export default function ClickOptimization({
   title = "🚀 Tulsa Process Server | Same-Day Service | Just Legal Solutions",
   description = "⚡ URGENT Process Serving in Tulsa OK | ✅ Same-Day Service | 💯 Professional & Reliable | 📞 Call Now for Instant Quote!",
   url = "https://justlegalsolutions.org",
-  image = "https://justlegalsolutions.org/jls-logo.png"
+  image = "https://justlegalsolutions.org/jls-logo.webp"
 }: ClickOptimizationProps) {
   const optimizedSchema = {
     "@context": "https://schema.org",

@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     images: [
       {
-        url: '/images/oklahoma-process-server-service-area-map.png',
+        url: '/images/oklahoma-process-server-service-area-map.webp',
         width: 1200,
         height: 630,
         alt: 'Oklahoma Process Server Service Areas and Pricing Zones'
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Oklahoma Process Server Pricing Guide (Updated 2026): Transparent Costs & Value-Added Services',
     description: 'Understanding process serving costs in Oklahoma helps attorneys, law firms, and individuals budget effectively while ensuring quality service.',
-    images: ['/images/oklahoma-process-server-service-area-map.png'],
+    images: ['/images/oklahoma-process-server-service-area-map.webp'],
     creator: '@JustLegalSolutions',
     site: '@JustLegalSolutions',
   },
@@ -94,7 +94,7 @@ export default function OklahomaProcessServerPricing2026() {
         url={canonicalUrl}
         title="Oklahoma Process Server Pricing Guide 2026: Transparent Costs & Value-Added Services"
         description="Understanding process serving costs in Oklahoma helps attorneys, law firms, and individuals budget effectively while ensuring quality service. This comprehensive 2026 pricing guide examines current rates, rush fees, volume discounts, and value-added options throughout Oklahoma."
-        image="https://justlegalsolutions.org/images/oklahoma-process-server-service-area-map.png"
+        image="https://justlegalsolutions.org/images/oklahoma-process-server-service-area-map.webp"
         datePublished="2025-08-14"
         dateModified="2026-01-25"
         breadcrumbs={[
@@ -188,7 +188,7 @@ export default function OklahomaProcessServerPricing2026() {
         <div className="mb-6">
           <div className="flex items-center mb-4">
             <Image 
-              src="/images/oklahoma-licensed-bonded-process-server-badges.png" 
+              src="/images/oklahoma-licensed-bonded-process-server-badges.webp" 
               alt="Licensed & Bonded Oklahoma Process Server" 
               width={120} 
               height={40} 
@@ -236,7 +236,7 @@ export default function OklahomaProcessServerPricing2026() {
         </p>
 
         <Image 
-          src="/images/oklahoma-process-server-service-area-map.png" 
+          src="/images/oklahoma-process-server-service-area-map.webp" 
           alt="Oklahoma Process Server Service Areas and Pricing Zones 2026" 
           width={800} 
           height={400} 

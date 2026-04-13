@@ -8,7 +8,10 @@ import UnifiedSchema from '@/components/UnifiedSchema';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata = {
-  title: 'Oklahoma Service by Publication Guide | 12 O.S. § 2004(C)(3) Requirements',
+    alternates: {
+    canonical: 'https://justlegalsolutions.org/blog/oklahoma-service-by-publication',
+  },
+title: 'Oklahoma Service by Publication Guide | 12 O.S. § 2004(C)(3) Requirements',
   description: 'Complete guide to service by publication in Oklahoma. Learn 12 O.S. § 2004(C)(3) requirements, due diligence standards, approved newspapers, costs, and the affidavit process from Just Legal Solutions.',
   keywords: 'service by publication oklahoma, 12 O.S. § 2004(C)(3), alternative service oklahoma, constructive service, affidavit of diligent search, oklahoma process server',
   aiSummary: 'Service by publication in Oklahoma is a legal method of notifying defendants when personal service is impossible after due diligence. Under 12 O.S. § 2004(C)(3), plaintiffs must demonstrate exhaustive efforts to locate the defendant, file an affidavit of diligent search, and publish notice in an approved newspaper for four consecutive weeks. Costs range from $200-$600 including court fees, publication charges, and affidavit preparation. This constructive service method allows legal proceedings to continue when defendants cannot be found through traditional means.',

@@ -8,7 +8,10 @@ import { ChevronRight, FileCheck, Shield, Clock, AlertTriangle, Scale, Gavel, Fi
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'What Is a Proof of Service and Why It Matters in Oklahoma',
+    alternates: {
+    canonical: 'https://justlegalsolutions.org/blog/proof-of-service-oklahoma-guide',
+  },
+title: 'What Is a Proof of Service and Why It Matters in Oklahoma',
   description: 'Learn what proof of service (affidavit of service) is, Oklahoma legal requirements, what must be included, types of service, and consequences of improper documentation.',
   keywords: 'proof of service oklahoma, affidavit of service oklahoma, what is proof of service, process server documentation, legal service requirements oklahoma',
   openGraph: {

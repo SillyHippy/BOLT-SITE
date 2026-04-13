@@ -3,7 +3,8 @@
     "allow": [
       "Bash(node *)",
       "Read(c:\\Users\\ianna\\.openclaw/**)",
-      "Bash(dir *)"
+      "Bash(dir *)",
+      "Bash(del *)"
     ]
   },
   "$version": 3

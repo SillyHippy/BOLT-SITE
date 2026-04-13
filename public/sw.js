@@ -160,8 +160,8 @@ self.addEventListener('push', (event) => {
     const data = event.data.json();
     const options = {
       body: data.body,
-      icon: '/Favicon/favicon-96x96.png',
-      badge: '/Favicon/favicon-96x96.png',
+      icon: '/Favicon/favicon-96x96.webp',
+      badge: '/Favicon/favicon-96x96.webp',
       data: data
     };
 

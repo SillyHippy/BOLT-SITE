@@ -14,7 +14,7 @@ export const metadata: Metadata = {
         title: 'Legal Courier Services Oklahoma | Document Delivery & Court Filing',
         description: 'Courthouse filing, document pickup, secure legal document transport across Oklahoma. Same-day service available.',
         type: 'website', locale: 'en_US', url: 'https://justlegalsolutions.org/courier-services', siteName: 'Just Legal Solutions',
-        images: [{ url: 'https://justlegalsolutions.org/og-image.png', width: 1200, height: 630, alt: 'Legal Courier Services Oklahoma' }],
+        images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630, alt: 'Legal Courier Services Oklahoma' }],
     },
     alternates: { canonical: 'https://justlegalsolutions.org/courier-services' },
     other: {
@@ -140,7 +140,7 @@ export default function CourierServicesPage() {
                 </div>
             </div>
 
-            <UnifiedSchema pageType="service" title="Legal Courier Services Oklahoma" description="Courthouse filing, document delivery, and secure legal transport across Oklahoma." url="https://justlegalsolutions.org/courier-services" image="https://justlegalsolutions.org/og-image.png" keywords={['legal courier', 'courthouse filing', 'document delivery oklahoma']} reviewCount={156} services={['Courthouse Filing', 'Document Pickup & Delivery', 'File-Stamped Copy Returns', 'Secure Document Transport']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Courier Services', url: '/courier-services' }]} />
+            <UnifiedSchema pageType="service" title="Legal Courier Services Oklahoma" description="Courthouse filing, document delivery, and secure legal transport across Oklahoma." url="https://justlegalsolutions.org/courier-services" image="https://justlegalsolutions.org/og-image.webp" keywords={['legal courier', 'courthouse filing', 'document delivery oklahoma']} reviewCount={156} services={['Courthouse Filing', 'Document Pickup & Delivery', 'File-Stamped Copy Returns', 'Secure Document Transport']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Courier Services', url: '/courier-services' }]} />
         </>
     );
 }

@@ -31,7 +31,10 @@ import {
 } from '@/components/ui/accordion';
 
 export const metadata: Metadata = {
-  title: 'Process Server Equipment Checklist | Complete Starter Kit Guide',
+    alternates: {
+    canonical: 'https://justlegalsolutions.org/process-server-equipment-checklist',
+  },
+title: 'Process Server Equipment Checklist | Complete Starter Kit Guide',
   description: 'Complete process server equipment checklist covering essential gear, vehicle setup, technology, safety equipment, and budget breakdown. Downloadable starter kit guide for Oklahoma process servers.',
   keywords: 'process server equipment, what do process servers need, process server starter kit, process server supplies, legal document delivery equipment',
   openGraph: {

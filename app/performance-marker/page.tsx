@@ -2,7 +2,10 @@ import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 
 export const metadata = {
-  title: 'Performance Marker - Just Legal Solutions',
+    alternates: {
+    canonical: 'https://justlegalsolutions.org/performance-marker',
+  },
+title: 'Performance Marker - Just Legal Solutions',
   description: 'This page marks performance optimization for Just Legal Solutions. Our site is fast, reliable, and optimized for all devices.',
   keywords: 'performance, site speed, optimization, just legal solutions',
   robots: {

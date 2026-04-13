@@ -9,7 +9,10 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Remote Online Notarization vs Mobile Notary in Oklahoma | Which Service to Use',
+    alternates: {
+    canonical: 'https://justlegalsolutions.org/blog/ron-vs-mobile-notary-oklahoma',
+  },
+title: 'Remote Online Notarization vs Mobile Notary in Oklahoma | Which Service to Use',
   description: 'Compare Remote Online Notarization (RON) vs Mobile Notary services in Oklahoma. Learn about Oklahoma RON laws (49 O.S. § 201), costs, document types, and which notary service is right for your needs.',
   keywords: 'remote online notarization vs mobile notary, RON oklahoma, which notary service to use, online notary Oklahoma, mobile notary Tulsa, virtual notary Oklahoma',
   openGraph: {

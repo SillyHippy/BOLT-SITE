@@ -386,7 +386,7 @@ function generatePageTSX(fm, body) {
   page += "    siteName: 'Just Legal Solutions',\n";
   page += "    locale: 'en_US',\n";
   page += "    type: 'article',\n";
-  page += "    images: [{ url: 'https://justlegalsolutions.org/og-image.png', width: 1200, height: 630, alt: '" + esc(shortTitle) + "' }],\n";
+  page += "    images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630, alt: '" + esc(shortTitle) + "' }],\n";
   page += "  },\n";
   page += "  alternates: { canonical: 'https://justlegalsolutions.org/blog/" + slug + "' },\n";
   page += "  other: {\n";
@@ -420,7 +420,7 @@ function generatePageTSX(fm, body) {
   page += '          author: "Joseph Iannazzi",\n';
   page += '          datePublished: "' + datePublished + '",\n';
   page += '          dateModified: "' + dateModified + '",\n';
-  page += '          image: "https://justlegalsolutions.org/og-image.png"\n';
+  page += '          image: "https://justlegalsolutions.org/og-image.webp"\n';
   page += '        }}\n';
   page += '        faqItems={faqs.map(f => ({ question: f.question, answer: f.answer }))}\n';
   page += '        keywords={[' + kwArr + ']}\n';

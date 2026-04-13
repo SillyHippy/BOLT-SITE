@@ -18,13 +18,13 @@ export const metadata: Metadata = {
         locale: 'en_US',
         url: 'https://justlegalsolutions.org/process-serving',
         siteName: 'Just Legal Solutions',
-        images: [{ url: 'https://justlegalsolutions.org/og-image.png', width: 1200, height: 630, alt: 'Just Legal Solutions - Professional Process Serving in Oklahoma' }],
+        images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630, alt: 'Just Legal Solutions - Professional Process Serving in Oklahoma' }],
     },
     twitter: {
         card: 'summary_large_image',
         title: 'Process Serving Services Oklahoma | From $30',
         description: 'Licensed Oklahoma process servers. Personal service, substitute service, service by publication. 24/7 availability across all 77 counties.',
-        images: ['https://justlegalsolutions.org/og-image.png'],
+        images: ['https://justlegalsolutions.org/og-image.webp'],
     },
     alternates: {
         canonical: 'https://justlegalsolutions.org/process-serving',
@@ -353,7 +353,7 @@ export default function ProcessServingPage() {
                 title="Process Serving Services Oklahoma | Licensed Servers from $30"
                 description="Professional process serving throughout Oklahoma. Personal service, substitute service, and service by publication. Starts at $30 for single attempt, $60 for standard service. Licensed, bonded, 24/7."
                 url="https://justlegalsolutions.org/process-serving"
-                image="https://justlegalsolutions.org/og-image.png"
+                image="https://justlegalsolutions.org/og-image.webp"
                 keywords={['process serving', 'process server oklahoma', 'serve legal papers', 'personal service', 'substitute service']}
                 reviewCount={156}
                 services={[

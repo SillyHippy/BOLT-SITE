@@ -14,7 +14,7 @@ export const metadata: Metadata = {
         title: 'Same-Day Process Server | Rush Legal Document Delivery in Oklahoma',
         description: 'Papers served TODAY for $150. Licensed Oklahoma process servers dispatched within hours. GPS-verified, court-ready affidavits.',
         type: 'website', locale: 'en_US', url: 'https://justlegalsolutions.org/same-day-process-server', siteName: 'Just Legal Solutions',
-        images: [{ url: 'https://justlegalsolutions.org/og-image.png', width: 1200, height: 630, alt: 'Same-Day Process Server Oklahoma' }],
+        images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630, alt: 'Same-Day Process Server Oklahoma' }],
     },
     alternates: { canonical: 'https://justlegalsolutions.org/same-day-process-server' },
     other: {
@@ -144,7 +144,7 @@ export default function SameDayProcessServerPage() {
                 </div>
             </div>
 
-            <UnifiedSchema pageType="service" title="Same-Day Process Server Oklahoma" description="Same-day rush process serving for $150. Served within 4-8 hours. GPS-verified." url="https://justlegalsolutions.org/same-day-process-server" image="https://justlegalsolutions.org/og-image.png" keywords={['same day process server', 'rush process serving', 'fast paper serving']} reviewCount={156} services={['Same-Day Rush Service', 'Standard Process Serving', '2-Hour Emergency Service']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'Same-Day Process Server', url: '/same-day-process-server' }]} />
+            <UnifiedSchema pageType="service" title="Same-Day Process Server Oklahoma" description="Same-day rush process serving for $150. Served within 4-8 hours. GPS-verified." url="https://justlegalsolutions.org/same-day-process-server" image="https://justlegalsolutions.org/og-image.webp" keywords={['same day process server', 'rush process serving', 'fast paper serving']} reviewCount={156} services={['Same-Day Rush Service', 'Standard Process Serving', '2-Hour Emergency Service']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'Same-Day Process Server', url: '/same-day-process-server' }]} />
         </>
     );
 }

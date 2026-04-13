@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     images: [
       {
-        url: '/images/oklahoma-process-server-service-area-map.png',
+        url: '/images/oklahoma-process-server-service-area-map.webp',
         width: 1200,
         height: 630,
         alt: 'Oklahoma state and tribal jurisdiction map'
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     title: 'Serving Legal Papers in Oklahoma: A Guide for Process Servers on State and Tribal Land',
     description:
       'Step-by-step guidance for process servers navigating Oklahoma state and tribal jurisdictions after McGirt.',
-    images: ['/images/oklahoma-process-server-service-area-map.png'],
+    images: ['/images/oklahoma-process-server-service-area-map.webp'],
     creator: '@JustLegalSolutions',
     site: '@JustLegalSolutions'
   },
@@ -139,7 +139,7 @@ export default function ServingLegalPapersOklahomaGuide() {
           author: "Joseph Iannazzi",
           datePublished: "2025-10-11",
           dateModified: "2026-04-07",
-          image: "https://justlegalsolutions.org/og-image.png"
+          image: "https://justlegalsolutions.org/og-image.webp"
         }}
         faqItems={faqs.map(f => ({ question: f.question, answer: f.answer }))}
         keywords={['Oklahoma process server', 'tribal land service', 'McGirt v Oklahoma', 'Cherokee Nation process service', 'Muscogee Creek service of process', 'Choctaw Nation civil procedure', 'Chickasaw Nation court', 'Osage Nation process server', 'Seminole Nation tribal court', 'Quapaw Nation service of process']}

@@ -9,7 +9,10 @@ import UnifiedSchema from '@/components/UnifiedSchema';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'How to Serve a Restraining Order in Oklahoma | TRO & VPO Service Guide',
+    alternates: {
+    canonical: 'https://justlegalsolutions.org/blog/how-to-serve-restraining-order-oklahoma',
+  },
+title: 'How to Serve a Restraining Order in Oklahoma | TRO & VPO Service Guide',
   description: 'Complete guide to serving restraining orders in Oklahoma. Learn about TRO service, VPO requirements, Oklahoma statutes 22 O.S. § 60.4, and professional process serving for protective orders.',
   keywords: 'serve restraining order oklahoma, TRO service tulsa, VPO service of process oklahoma, protective order service, victim protective order oklahoma, emergency protective order service',
   openGraph: {

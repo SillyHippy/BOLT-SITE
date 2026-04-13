@@ -194,20 +194,20 @@ const colorMap: Record<
   string,
   { bg: string; border: string; text: string; icon: string; hoverBg: string; ring: string }
 > = {
-  blue:    { bg: "bg-blue-50",    border: "border-blue-200",    text: "text-blue-700",    icon: "text-blue-600",    hoverBg: "hover:bg-blue-100",    ring: "ring-blue-300" },
-  green:   { bg: "bg-green-50",   border: "border-green-200",   text: "text-green-700",   icon: "text-green-600",   hoverBg: "hover:bg-green-100",   ring: "ring-green-300" },
-  purple:  { bg: "bg-purple-50",  border: "border-purple-200",  text: "text-purple-700",  icon: "text-purple-600",  hoverBg: "hover:bg-purple-100",  ring: "ring-purple-300" },
-  orange:  { bg: "bg-orange-50",  border: "border-orange-200",  text: "text-orange-700",  icon: "text-orange-600",  hoverBg: "hover:bg-orange-100",  ring: "ring-orange-300" },
-  red:     { bg: "bg-red-50",     border: "border-red-200",     text: "text-red-700",     icon: "text-red-600",     hoverBg: "hover:bg-red-100",     ring: "ring-red-300" },
-  teal:    { bg: "bg-teal-50",    border: "border-teal-200",    text: "text-teal-700",    icon: "text-teal-600",    hoverBg: "hover:bg-teal-100",    ring: "ring-teal-300" },
-  indigo:  { bg: "bg-indigo-50",  border: "border-indigo-200",  text: "text-indigo-700",  icon: "text-indigo-600",  hoverBg: "hover:bg-indigo-100",  ring: "ring-indigo-300" },
-  yellow:  { bg: "bg-yellow-50",  border: "border-yellow-200",  text: "text-yellow-700",  icon: "text-yellow-600",  hoverBg: "hover:bg-yellow-100",  ring: "ring-yellow-300" },
-  gray:    { bg: "bg-gray-50",    border: "border-gray-200",    text: "text-gray-700",    icon: "text-gray-600",    hoverBg: "hover:bg-gray-100",    ring: "ring-gray-300" },
-  pink:    { bg: "bg-pink-50",    border: "border-pink-200",    text: "text-pink-700",    icon: "text-pink-600",    hoverBg: "hover:bg-pink-100",    ring: "ring-pink-300" },
-  cyan:    { bg: "bg-cyan-50",    border: "border-cyan-200",    text: "text-cyan-700",    icon: "text-cyan-600",    hoverBg: "hover:bg-cyan-100",    ring: "ring-cyan-300" },
+  blue: { bg: "bg-blue-50", border: "border-blue-200", text: "text-blue-700", icon: "text-blue-600", hoverBg: "hover:bg-blue-100", ring: "ring-blue-300" },
+  green: { bg: "bg-green-50", border: "border-green-200", text: "text-green-700", icon: "text-green-600", hoverBg: "hover:bg-green-100", ring: "ring-green-300" },
+  purple: { bg: "bg-purple-50", border: "border-purple-200", text: "text-purple-700", icon: "text-purple-600", hoverBg: "hover:bg-purple-100", ring: "ring-purple-300" },
+  orange: { bg: "bg-orange-50", border: "border-orange-200", text: "text-orange-700", icon: "text-orange-600", hoverBg: "hover:bg-orange-100", ring: "ring-orange-300" },
+  red: { bg: "bg-red-50", border: "border-red-200", text: "text-red-700", icon: "text-red-600", hoverBg: "hover:bg-red-100", ring: "ring-red-300" },
+  teal: { bg: "bg-teal-50", border: "border-teal-200", text: "text-teal-700", icon: "text-teal-600", hoverBg: "hover:bg-teal-100", ring: "ring-teal-300" },
+  indigo: { bg: "bg-indigo-50", border: "border-indigo-200", text: "text-indigo-700", icon: "text-indigo-600", hoverBg: "hover:bg-indigo-100", ring: "ring-indigo-300" },
+  yellow: { bg: "bg-yellow-50", border: "border-yellow-200", text: "text-yellow-700", icon: "text-yellow-600", hoverBg: "hover:bg-yellow-100", ring: "ring-yellow-300" },
+  gray: { bg: "bg-gray-50", border: "border-gray-200", text: "text-gray-700", icon: "text-gray-600", hoverBg: "hover:bg-gray-100", ring: "ring-gray-300" },
+  pink: { bg: "bg-pink-50", border: "border-pink-200", text: "text-pink-700", icon: "text-pink-600", hoverBg: "hover:bg-pink-100", ring: "ring-pink-300" },
+  cyan: { bg: "bg-cyan-50", border: "border-cyan-200", text: "text-cyan-700", icon: "text-cyan-600", hoverBg: "hover:bg-cyan-100", ring: "ring-cyan-300" },
   emerald: { bg: "bg-emerald-50", border: "border-emerald-200", text: "text-emerald-700", icon: "text-emerald-600", hoverBg: "hover:bg-emerald-100", ring: "ring-emerald-300" },
-  violet:  { bg: "bg-violet-50",  border: "border-violet-200",  text: "text-violet-700",  icon: "text-violet-600",  hoverBg: "hover:bg-violet-100",  ring: "ring-violet-300" },
-  rose:    { bg: "bg-rose-50",    border: "border-rose-200",    text: "text-rose-700",    icon: "text-rose-600",    hoverBg: "hover:bg-rose-100",    ring: "ring-rose-300" },
+  violet: { bg: "bg-violet-50", border: "border-violet-200", text: "text-violet-700", icon: "text-violet-600", hoverBg: "hover:bg-violet-100", ring: "ring-violet-300" },
+  rose: { bg: "bg-rose-50", border: "border-rose-200", text: "text-rose-700", icon: "text-rose-600", hoverBg: "hover:bg-rose-100", ring: "ring-rose-300" },
 };
 
 /* Helper: build container ID from widget slug, e.g. "merge-pdf" → "mergePdfWidgetContainer" */
@@ -251,7 +251,7 @@ export default function PDFToolsPage() {
       window.pdf24.loadWidget(slug, {
         containerId,
         langCode: "en",
-        readyCallback: () => {},
+        readyCallback: () => { },
         widgetConfig: {
           theme: "lightTheme",
         },
@@ -316,22 +316,22 @@ export default function PDFToolsPage() {
         "description": "Learn how to use our suite of free online PDF tools to compress, merge, split, and convert legal documents securely.",
         "step": [
           {
-             "@type": "HowToStep",
-             "name": "Select a tool",
-             "text": "Choose the PDF tool you need from the quick-jump sticky nav or the tool cards grid (e.g., Compress PDF, Merge PDF).",
-             "position": 1
+            "@type": "HowToStep",
+            "name": "Select a tool",
+            "text": "Choose the PDF tool you need from the quick-jump sticky nav or the tool cards grid (e.g., Compress PDF, Merge PDF).",
+            "position": 1
           },
           {
-             "@type": "HowToStep",
-             "name": "Upload your file",
-             "text": "A secure PDF24 widget will load. Drag and drop your PDF file into the designated area or click to select files from your hard drive.",
-             "position": 2
+            "@type": "HowToStep",
+            "name": "Upload your file",
+            "text": "A secure PDF24 widget will load. Drag and drop your PDF file into the designated area or click to select files from your hard drive.",
+            "position": 2
           },
           {
-             "@type": "HowToStep",
-             "name": "Process and download",
-             "text": "Follow the on-screen prompts to apply your desired modifications, then click download or save to retrieve your updated PDF file securely.",
-             "position": 3
+            "@type": "HowToStep",
+            "name": "Process and download",
+            "text": "Follow the on-screen prompts to apply your desired modifications, then click download or save to retrieve your updated PDF file securely.",
+            "position": 3
           }
         ]
       }]} />
@@ -391,11 +391,10 @@ export default function PDFToolsPage() {
                 <button
                   key={tool.id}
                   onClick={() => handleSelectTool(tool.id)}
-                  className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium border transition-all ${
-                    activeTool === tool.id
-                      ? `${colors.bg} ${colors.border} ${colors.text}`
-                      : "bg-gray-50 border-gray-200 text-gray-600 hover:bg-gray-100"
-                  }`}
+                  className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium border transition-all ${activeTool === tool.id
+                    ? `${colors.bg} ${colors.border} ${colors.text}`
+                    : "bg-gray-50 border-gray-200 text-gray-600 hover:bg-gray-100"
+                    }`}
                 >
                   <Icon className="w-3.5 h-3.5" />
                   {tool.name}
@@ -414,21 +413,18 @@ export default function PDFToolsPage() {
               <div className="bg-white rounded-xl shadow-lg overflow-hidden border">
                 {/* Header bar */}
                 <div
-                  className={`flex items-center justify-between px-6 py-4 ${
-                    colorMap[activeToolData.color].bg
-                  } border-b ${colorMap[activeToolData.color].border}`}
+                  className={`flex items-center justify-between px-6 py-4 ${colorMap[activeToolData.color].bg
+                    } border-b ${colorMap[activeToolData.color].border}`}
                 >
                   <div className="flex items-center gap-3">
                     <activeToolData.icon
-                      className={`w-6 h-6 ${
-                        colorMap[activeToolData.color].icon
-                      }`}
+                      className={`w-6 h-6 ${colorMap[activeToolData.color].icon
+                        }`}
                     />
                     <div>
                       <h2
-                        className={`text-xl font-bold ${
-                          colorMap[activeToolData.color].text
-                        }`}
+                        className={`text-xl font-bold ${colorMap[activeToolData.color].text
+                          }`}
                       >
                         {activeToolData.name}
                       </h2>
@@ -475,9 +471,8 @@ export default function PDFToolsPage() {
 
                 {/* Pro tip footer */}
                 <div
-                  className={`px-6 py-3 ${
-                    colorMap[activeToolData.color].bg
-                  } border-t ${colorMap[activeToolData.color].border}`}
+                  className={`px-6 py-3 ${colorMap[activeToolData.color].bg
+                    } border-t ${colorMap[activeToolData.color].border}`}
                 >
                   <p className="text-sm text-gray-600">
                     <strong>Pro Tip:</strong> {activeToolData.useCase}
@@ -513,11 +508,10 @@ export default function PDFToolsPage() {
                 <button
                   key={tool.id}
                   onClick={() => handleSelectTool(tool.id)}
-                  className={`text-left rounded-xl border-2 p-6 transition-all ${
-                    isActive
-                      ? `${colors.bg} ${colors.border} ring-2 ring-offset-2 ${colors.ring}`
-                      : `bg-white border-gray-200 ${colors.hoverBg} hover:shadow-md`
-                  }`}
+                  className={`text-left rounded-xl border-2 p-6 transition-all ${isActive
+                    ? `${colors.bg} ${colors.border} ring-2 ring-offset-2 ${colors.ring}`
+                    : `bg-white border-gray-200 ${colors.hoverBg} hover:shadow-md`
+                    }`}
                 >
                   <div className="flex items-start gap-4">
                     <div

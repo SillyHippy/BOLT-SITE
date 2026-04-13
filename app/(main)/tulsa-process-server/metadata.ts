@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://raw.githubusercontent.com/SillyHippy/BOLT-SITE/main/public/images/tulsa-process-server.jpg', // Replace with a relevant OG image
+        url: 'https://raw.githubusercontent.com/SillyHippy/BOLT-SITE/main/public/images/tulsa-process-server.webp', // Replace with a relevant OG image
         width: 1200,
         height: 630,
         alt: 'Professional Process Server in Tulsa',
@@ -38,6 +38,6 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Tulsa Process Server | Process Server in Tulsa & Broken Arrow, OK',
     description: 'Your trusted partner for process serving in Tulsa and Broken Arrow. Licensed, insured, and available 24/7.',
-    images: ['https://raw.githubusercontent.com/SillyHippy/BOLT-SITE/main/public/images/tulsa-process-server.jpg'], // Replace with a relevant Twitter image
+    images: ['https://raw.githubusercontent.com/SillyHippy/BOLT-SITE/main/public/images/tulsa-process-server.webp'], // Replace with a relevant Twitter image
   },
 };

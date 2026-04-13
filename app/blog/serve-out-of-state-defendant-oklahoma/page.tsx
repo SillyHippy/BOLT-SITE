@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/og-image.png', width: 1200, height: 630, alt: 'How to Serve an Out-of-State Defendant in Oklahoma' }],
+    images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630, alt: 'How to Serve an Out-of-State Defendant in Oklahoma' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/serve-out-of-state-defendant-oklahoma' },
   other: {
@@ -91,7 +91,7 @@ export default function ServeOutOfStateDefendantOklahoma() {
           author: "Joseph Iannazzi",
           datePublished: "2026-04-08",
           dateModified: "2026-04-08",
-          image: "https://justlegalsolutions.org/og-image.png"
+          image: "https://justlegalsolutions.org/og-image.webp"
         }}
         faqItems={faqs.map(f => ({ question: f.question, answer: f.answer }))}
         keywords={['serve papers out of state oklahoma', 'oklahoma long arm statute service', 'serve defendant another state oklahoma', 'out of state service of process oklahoma']}

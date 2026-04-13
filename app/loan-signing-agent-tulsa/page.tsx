@@ -4,7 +4,10 @@ import { Footer } from '@/components/ui/footer';
 import JsonLd from '@/components/JsonLd';
 
 export const metadata: Metadata = {
-  title: 'Loan Signing Agent Tulsa | Mortgage & Refinance Closings',
+    alternates: {
+    canonical: 'https://justlegalsolutions.org/loan-signing-agent-tulsa',
+  },
+title: 'Loan Signing Agent Tulsa | Mortgage & Refinance Closings',
   description: 'Professional loan signing agent services in Tulsa, Oklahoma. NNA-certified notary signing agents for purchases, refinances, HELOCs & reverse mortgages. Call (539) 367-6832.',
   keywords: 'loan signing agent tulsa, notary signing agent oklahoma, mortgage closing notary tulsa, refinance closing notary, HELOC notary oklahoma, reverse mortgage notary, eClosing, hybrid closing',
   openGraph: {

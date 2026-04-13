@@ -2,7 +2,10 @@ import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 
 export const metadata = {
-  title: 'Multi-Search Marker - Just Legal Solutions',
+    alternates: {
+    canonical: 'https://justlegalsolutions.org/multi-search-marker',
+  },
+title: 'Multi-Search Marker - Just Legal Solutions',
   description: 'This page marks multi-search optimization for Just Legal Solutions. Our services are discoverable across all major search platforms and assistants.',
   keywords: 'multi-search, search engine, voice assistant, just legal solutions',
   robots: {

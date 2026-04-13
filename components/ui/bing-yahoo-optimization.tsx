@@ -21,7 +21,7 @@ export default function BingYahooOptimization({
     "alternateName": ["JLS Process Server", "Just Legal Solutions Oklahoma"],
     "description": "Oklahoma's premier process serving company providing professional legal document delivery with 24/7 emergency service throughout the state",
     "url": "https://justlegalsolutions.org",
-    "image": "https://justlegalsolutions.org/jls-logo.png",
+    "image": "https://justlegalsolutions.org/jls-logo.webp",
     "priceRange": "$30-$200",
     "telephone": "+15393676832",
     "email": "info@justlegalsolutions.org",

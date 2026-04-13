@@ -10,7 +10,10 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'How to Handle Evasive Defendants in Oklahoma | Process Serving Guide',
+    alternates: {
+    canonical: 'https://justlegalsolutions.org/blog/handling-evasive-defendants-oklahoma',
+  },
+title: 'How to Handle Evasive Defendants in Oklahoma | Process Serving Guide',
   description: 'Learn proven strategies for serving evasive defendants in Oklahoma. Discover skip tracing techniques, legal due diligence requirements under 12 O.S. § 2004, and when to pursue alternative service methods.',
   keywords: 'defendant avoiding service oklahoma, hard to serve defendant, skip tracing evasive defendant, Oklahoma process server, service by publication, alternative service methods',
   openGraph: {

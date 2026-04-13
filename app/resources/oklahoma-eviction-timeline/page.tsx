@@ -17,7 +17,10 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Oklahoma Eviction Timeline PDF | Free Download',
+    alternates: {
+    canonical: 'https://justlegalsolutions.org/resources/oklahoma-eviction-timeline',
+  },
+title: 'Oklahoma Eviction Timeline PDF | Free Download',
   description: 'Download our free Oklahoma eviction timeline PDF. Learn the exact timeframe for each stage of the eviction process, from notice to writ of execution. Professional process serving available.',
   keywords: 'Oklahoma eviction timeline, eviction process Oklahoma, landlord eviction steps, Oklahoma eviction timeframe, eviction notice service, writ of execution Oklahoma',
   authors: [{ name: 'Joseph Iannazzi' }],

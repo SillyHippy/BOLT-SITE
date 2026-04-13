@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     images: [
       {
-        url: 'https://justlegalsolutions.org/images/1Headshot.jpg',
+        url: 'https://justlegalsolutions.org/images/1Headshot.webp',
         width: 1200,
         height: 630,
         alt: 'Joseph William Iannazzi - Professional Notary Credentials'
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Joseph William Iannazzi | Professional Notary Credentials',
     description: 'Licensed Oklahoma Notary Public, RON certified, NNA member. View credentials and certifications.',
-    images: ['https://justlegalsolutions.org/images/1Headshot.jpg'],
+    images: ['https://justlegalsolutions.org/images/1Headshot.webp'],
   },
   robots: 'index, follow',
   alternates: {
@@ -54,7 +54,7 @@ const personSchema = {
   "familyName": "Iannazzi",
   "jobTitle": "Founder & CEO",
   "description": "Licensed Oklahoma Notary Public, Remote Online Notarization (RON) certified, and professional process server serving Tulsa County and all of Oklahoma.",
-  "image": "https://justlegalsolutions.org/images/1Headshot.jpg",
+  "image": "https://justlegalsolutions.org/images/1Headshot.webp",
   "telephone": "+1-539-367-6832",
   "email": "info@justlegalsolutions.org",
   "worksFor": {
@@ -287,7 +287,7 @@ const credentials = [
     icon: GraduationCap,
     description: "Notarize Network Platform Training - NST Certification. Trained and certified on the Proof platform for professional remote notarization services.",
     status: "Certified",
-    downloadUrl: "/notary-credentials/joseph/Joseph-Iannazzi-Proof-Academy-Certificate.png",
+    downloadUrl: "/notary-credentials/joseph/Joseph-Iannazzi-Proof-Academy-Certificate.webp",
     color: "purple"
   },
   {
@@ -600,7 +600,7 @@ export default function JosephCredentialsPage() {
             </div>
             <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-200">
               <Image
-                src="/notary-credentials/joseph/Joseph-Iannazzi-Proof-Academy-Certificate.png"
+                src="/notary-credentials/joseph/Joseph-Iannazzi-Proof-Academy-Certificate.webp"
                 alt="Joseph William Iannazzi - Proof Academy Certified - Notarize Network Platform Training NST Certification - Earned 03/30/2026"
                 width={800}
                 height={600}

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     description: 'Join the Just Legal Solutions process server network. Flexible income, established client base, statewide coverage. PSL license required.',
     url: 'https://justlegalsolutions.org/join-our-network',
     siteName: 'Just Legal Solutions',
-    images: [{ url: 'https://justlegalsolutions.org/og-image.png', width: 1200, height: 630 }],
+    images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630 }],
     locale: 'en_US',
     type: 'website',
   },

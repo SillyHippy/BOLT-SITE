@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     images: [
       {
-        url: 'https://justlegalsolutions.org/images/1Headshot.jpg',
+        url: 'https://justlegalsolutions.org/images/1Headshot.webp',
         width: 800,
         height: 800,
         alt: 'Joseph Iannazzi, Founder of Just Legal Solutions'
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'About Us - The Fight That Forged a Business',
     description: "Learn how a 5-year legal battle inspired Just Legal Solutions, Oklahoma's premier process serving company. Founded by Joseph Iannazzi after experiencing systemic failure in workers' compensation.",
-    images: ['https://justlegalsolutions.org/images/1Headshot.jpg']
+    images: ['https://justlegalsolutions.org/images/1Headshot.webp']
   }
 };
 
@@ -48,7 +48,7 @@ export default function AboutPage() {
           author: "Joseph Iannazzi",
           datePublished: "2023-05-18",
           dateModified: "2026-01-25",
-          image: "https://justlegalsolutions.org/images/1Headshot.jpg"
+          image: "https://justlegalsolutions.org/images/1Headshot.webp"
         }}
         aggregateRating={{
           ratingValue: 4.9,
@@ -66,7 +66,7 @@ export default function AboutPage() {
               <div className="flex-shrink-0">
                 <div className="w-48 h-48 lg:w-56 lg:h-56 rounded-lg overflow-hidden shadow-lg">
                   <Image
-                    src="/images/1Headshot.jpg"
+                    src="/images/1Headshot.webp"
                     alt="Joseph Iannazzi, Founder of Just Legal Solutions"
                     width={224}
                     height={224}
@@ -102,7 +102,7 @@ export default function AboutPage() {
 
             <div className="relative w-full h-64 my-8 rounded-lg overflow-hidden">
               <Image
-                src="/images/OklahomaFlag.jpg"
+                src="/images/OklahomaFlag.webp"
                 alt="Oklahoma Flag representing the state where Just Legal Solutions serves"
                 fill
                 className="object-cover"
@@ -125,7 +125,7 @@ export default function AboutPage() {
 
             <div className="relative w-full h-64 my-8 rounded-lg overflow-hidden">
               <Image
-                src="/images/tulsa-process-server.jpg"
+                src="/images/tulsa-process-server.webp"
                 alt="Tulsa County Courthouse where legal documents are filed"
                 fill
                 className="object-cover"

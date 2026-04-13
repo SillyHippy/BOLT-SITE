@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Latest Oklahoma Case Law on Service of Process: Essential 2026 Legal Updates',
     description: 'Essential 2026 Oklahoma service of process case law updates. Recent court decisions affecting process serving requirements and procedures.',
-    images: ['/images/Gavel with dismissed case documents.png'],
+    images: ['/images/Gavel with dismissed case documents.webp'],
     url: canonicalUrl,
     type: 'article',
     siteName: 'Just Legal Solutions',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Latest Oklahoma Case Law on Service of Process: Essential 2026 Legal Updates',
     description: 'Essential 2026 Oklahoma service of process case law updates. Recent court decisions affecting process serving requirements and procedures.',
-    images: ['/images/Gavel with dismissed case documents.png'],
+    images: ['/images/Gavel with dismissed case documents.webp'],
     site: '@JustLegalSolutions',
     creator: '@JustLegalSolutions'
   },
@@ -42,7 +42,7 @@ const articleSchema = {
   "headline": "Latest Oklahoma Case Law on Service of Process: Key Rulings Every Lawyer Should Know",
   "description": "Essential 2026 Oklahoma service of process case law updates. Recent court decisions affecting process serving requirements and procedures.",
   "image": [
-    "https://justlegalsolutions.org/images/Gavel with dismissed case documents.png"
+    "https://justlegalsolutions.org/images/Gavel with dismissed case documents.webp"
   ],
   "author": {
     "@type": "Organization",
@@ -85,7 +85,7 @@ export default function OklahomaCaseLawServiceProcess() {
         <p className="mb-6">
           Oklahoma case law on service of process clarifies how statutes like <a href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">12 O.S. § 2004</a> are applied in practice. Courts have addressed questions of due diligence, substituted service, service by publication, and the constitutional requirements of due process. Below are notable Oklahoma court decisions that directly affect process serving procedures. Each is tied to the statute it interprets and summarized without overstating the holding.
         </p>
-        <Image src="/images/Gavel with dismissed case documents.png" alt="Oklahoma Case Law Service Process" width={800} height={400} className="rounded shadow mb-4" />
+        <Image src="/images/Gavel with dismissed case documents.webp" alt="Oklahoma Case Law Service Process" width={800} height={400} className="rounded shadow mb-4" />
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">Why Oklahoma Service of Process Case Law Matters</h2>

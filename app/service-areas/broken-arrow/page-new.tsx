@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     images: [
       {
-        url: 'https://justlegalsolutions.org/og-image.png',
+        url: 'https://justlegalsolutions.org/og-image.webp',
         width: 1200,
         height: 630,
         alt: 'Just Legal Solutions - Professional Process Server Broken Arrow Oklahoma',
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Broken Arrow Process Server | Same-Day Court Document Service',
     description: 'Licensed Broken Arrow process server providing expert legal document delivery throughout Tulsa & Wagoner Counties. Emergency and same-day service available.',
-    images: ['https://justlegalsolutions.org/og-image.png'],
+    images: ['https://justlegalsolutions.org/og-image.webp'],
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/service-areas/broken-arrow',

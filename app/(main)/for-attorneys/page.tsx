@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://justlegalsolutions.org/og-image.png',
+        url: 'https://justlegalsolutions.org/og-image.webp',
         width: 1200,
         height: 630,
         alt: 'Just Legal Solutions - Process Serving for Attorneys in Oklahoma',
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Process Serving for Attorneys | Volume Accounts & Same-Day Service',
     description: 'Oklahoma process serving built for law firms. Volume discounts, Net-15 billing, same-day affidavits.',
-    images: ['https://justlegalsolutions.org/og-image.png'],
+    images: ['https://justlegalsolutions.org/og-image.webp'],
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/for-attorneys',

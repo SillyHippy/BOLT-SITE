@@ -14,7 +14,7 @@ export const metadata: Metadata = {
         title: 'Process Server License Oklahoma | Requirements & Application Guide',
         description: 'Complete guide to Oklahoma process server licensing. Requirements, application process, costs, and renewal info under 12 O.S. § 158.1.',
         type: 'website', locale: 'en_US', url: 'https://justlegalsolutions.org/process-server-license-oklahoma', siteName: 'Just Legal Solutions',
-        images: [{ url: 'https://justlegalsolutions.org/og-image.png', width: 1200, height: 630, alt: 'Process Server License Oklahoma' }],
+        images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630, alt: 'Process Server License Oklahoma' }],
     },
     alternates: { canonical: 'https://justlegalsolutions.org/process-server-license-oklahoma' },
     other: {
@@ -371,7 +371,7 @@ export default function ProcessServerLicenseOklahomaPage() {
                 </div>
             </div>
 
-            <UnifiedSchema pageType="service" title="Process Server License Oklahoma" description="Complete guide to Oklahoma process server licensing requirements, application process, and costs under 12 O.S. § 158.1." url="https://justlegalsolutions.org/process-server-license-oklahoma" image="https://justlegalsolutions.org/og-image.png" keywords={['process server license oklahoma', 'oklahoma process server license', 'licensed process server']} reviewCount={156} services={['Licensed Process Serving', 'Bonded Document Service', 'GPS-Verified Service']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'Process Server License', url: '/process-server-license-oklahoma' }]} />
+            <UnifiedSchema pageType="service" title="Process Server License Oklahoma" description="Complete guide to Oklahoma process server licensing requirements, application process, and costs under 12 O.S. § 158.1." url="https://justlegalsolutions.org/process-server-license-oklahoma" image="https://justlegalsolutions.org/og-image.webp" keywords={['process server license oklahoma', 'oklahoma process server license', 'licensed process server']} reviewCount={156} services={['Licensed Process Serving', 'Bonded Document Service', 'GPS-Verified Service']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'Process Server License', url: '/process-server-license-oklahoma' }]} />
         </>
     );
 }

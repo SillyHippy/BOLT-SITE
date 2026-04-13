@@ -55,7 +55,7 @@ export default function AttorneyGuidePage() {
           author: 'Joseph Iannazzi',
           datePublished: '2026-04-03',
           dateModified: '2026-04-03',
-          image: 'https://justlegalsolutions.org/og-image.png',
+          image: 'https://justlegalsolutions.org/og-image.webp',
         }}
         keywords={['process server for attorneys', 'Oklahoma attorney process serving guide', 'hire process server Oklahoma']}
       />

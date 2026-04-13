@@ -17,7 +17,10 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Process Server Safety Guide Oklahoma | Risk Management & Protection',
+    alternates: {
+    canonical: 'https://justlegalsolutions.org/process-server-safety-guide-oklahoma',
+  },
+title: 'Process Server Safety Guide Oklahoma | Risk Management & Protection',
   description: 'Comprehensive safety guide for Oklahoma process servers. Learn risk assessment, situational awareness, de-escalation techniques, and emergency procedures to stay safe while serving legal documents.',
   keywords: 'process server safety, is process serving dangerous, process server self defense, Oklahoma process server safety, legal document server protection',
   openGraph: {

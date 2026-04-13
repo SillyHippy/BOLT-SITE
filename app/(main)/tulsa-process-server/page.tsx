@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     images: [
       {
-        url: 'https://justlegalsolutions.org/og-image.png',
+        url: 'https://justlegalsolutions.org/og-image.webp',
         width: 1200,
         height: 630,
         alt: 'Just Legal Solutions - Professional Process Server Tulsa Oklahoma',
@@ -67,7 +67,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Tulsa Process Server & Broken Arrow | Premier Legal Document Service',
     description: 'Licensed process server in Tulsa, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability.',
-    images: ['https://justlegalsolutions.org/og-image.png'],
+    images: ['https://justlegalsolutions.org/og-image.webp'],
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/tulsa-process-server',
@@ -212,27 +212,27 @@ export default function TulsaProcessServerPage() {
 
   const images = [
     {
-      src: "https://raw.githubusercontent.com/SillyHippy/BOLT-SITE/main/public/images/tulsa-process-server.jpg",
+      src: "https://raw.githubusercontent.com/SillyHippy/BOLT-SITE/main/public/images/tulsa-process-server.webp",
       alt: "A professional Tulsa process server delivering documents with the Tulsa skyline in the background.",
       fileName: "tulsa-process-server-delivering-documents.jpg"
     },
     {
-      src: "https://raw.githubusercontent.com/SillyHippy/BOLT-SITE/main/public/images/Broken-Arrow-Municipal-Court.jpeg",
+      src: "https://raw.githubusercontent.com/SillyHippy/BOLT-SITE/main/public/images/Broken-Arrow-Municipal-Court.webp",
       alt: "The Broken Arrow Municipal Courthouse, a common location for a Broken Arrow process server.",
-      fileName: "Broken-Arrow-Municipal-Court.jpeg"
+      fileName: "Broken-Arrow-Municipal-Court.webp"
     },
     {
-      src: "https://raw.githubusercontent.com/SillyHippy/BOLT-SITE/main/public/images/tulsa-county-courthouse.jpeg",
+      src: "https://raw.githubusercontent.com/SillyHippy/BOLT-SITE/main/public/images/tulsa-county-courthouse.webp",
       alt: "The Tulsa County Courthouse where our Tulsa County process servers frequently file documents.",
       fileName: "tulsa-county-courthouse-process-server.jpeg"
     },
     {
-      src: "https://raw.githubusercontent.com/SillyHippy/BOLT-SITE/main/public/images/tulsa-process-server.jpg",
+      src: "https://raw.githubusercontent.com/SillyHippy/BOLT-SITE/main/public/images/tulsa-process-server.webp",
       alt: "Process server in Tulsa reviewing legal documents before service.",
       fileName: "tulsa-process-server-reviewing-documents.jpg"
     },
     {
-      src: "https://raw.githubusercontent.com/SillyHippy/BOLT-SITE/main/public/images/tulsa-county-process-server.png",
+      src: "https://raw.githubusercontent.com/SillyHippy/BOLT-SITE/main/public/images/tulsa-county-process-server.webp",
       alt: "A graphic representing a Tulsa County process server and legal document delivery.",
       fileName: "tulsa-county-process-server-graphic.png"
     },
@@ -796,7 +796,7 @@ export default function TulsaProcessServerPage() {
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Tulsa Process Server</h3>
                 <div className="relative h-48 mb-4">
                   <Image
-                    src="/images/tulsa-process-server.jpg"
+                    src="/images/tulsa-process-server.webp"
                     alt="Professional process server in Tulsa delivering legal documents"
                     fill
                     className="object-cover rounded-lg"
@@ -811,7 +811,7 @@ export default function TulsaProcessServerPage() {
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Tulsa County Courthouse</h3>
                 <div className="relative h-48 mb-4">
                   <Image
-                    src="/images/tulsa-county-courthouse.jpeg"
+                    src="/images/tulsa-county-courthouse.webp"
                     alt="Tulsa County Courthouse - legal document filing services"
                     fill
                     className="object-cover rounded-lg"
@@ -826,7 +826,7 @@ export default function TulsaProcessServerPage() {
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Downtown Tulsa Service</h3>
                 <div className="relative h-48 mb-4">
                   <Image
-                    src="/images/tulsa-courier-downtown.jpeg"
+                    src="/images/tulsa-courier-downtown.webp"
                     alt="Downtown Tulsa courier and process serving services"
                     fill
                     className="object-cover rounded-lg"

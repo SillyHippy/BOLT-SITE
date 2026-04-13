@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     images: [
       {
-        url: '/images/Technology legal compliance flowchart.png',
+        url: '/images/Technology legal compliance flowchart.webp',
         width: 1200,
         height: 630,
         alt: 'Process Server Technology Innovation 2026'
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Oklahoma Process Server Technology Trends 2026: Digital Innovation in Legal Service',
     description: 'Process serving technology continues revolutionizing legal document delivery in Oklahoma, providing enhanced accuracy, transparency, and efficiency.',
-    images: ['/images/Technology legal compliance flowchart.png'],
+    images: ['/images/Technology legal compliance flowchart.webp'],
     creator: '@JustLegalSolutions',
     site: '@JustLegalSolutions',
   },
@@ -54,9 +54,9 @@ const articleSchema = {
   "headline": "Oklahoma Process Server Technology Trends (Updated 2026): Digital Innovation in Legal Service",
   "description": "Process serving technology continues revolutionizing legal document delivery in Oklahoma, providing enhanced accuracy, transparency, and efficiency while maintaining constitutional due process protections. Our comprehensive analysis examines cutting-edge innovations transforming the industry.",
   "image": [
-    "https://justlegalsolutions.org/images/Technology legal compliance flowchart.png",
-    "https://justlegalsolutions.org/images/Process server with GPS tracking.png",
-    "https://justlegalsolutions.org/images/Digital signature process.png"
+    "https://justlegalsolutions.org/images/Technology legal compliance flowchart.webp",
+    "https://justlegalsolutions.org/images/Process server with GPS tracking.webp",
+    "https://justlegalsolutions.org/images/Digital signature process.webp"
   ],
   "author": {
     "@type": "Organization",
@@ -84,7 +84,7 @@ const technologySchema = {
   "name": "Process Server Technology Innovation",
   "headline": "Process Server Technology Innovation",
   "description": "Advanced technology solutions for process serving in Oklahoma",
-  "image": "https://justlegalsolutions.org/images/Technology legal compliance flowchart.png",
+  "image": "https://justlegalsolutions.org/images/Technology legal compliance flowchart.webp",
   "author": {
     "@type": "Organization",
     "name": "Just Legal Solutions",
@@ -107,7 +107,7 @@ export default function OklahomaProcessServerTechnology() {
         <div className="mb-6">
           <div className="flex items-center mb-4">
             <Image 
-              src="/images/oklahoma-licensed-bonded-process-server-badges.png" 
+              src="/images/oklahoma-licensed-bonded-process-server-badges.webp" 
               alt="Licensed & Bonded Oklahoma Process Server" 
               width={120} 
               height={40} 
@@ -128,7 +128,7 @@ export default function OklahomaProcessServerTechnology() {
         </p>
 
         <Image 
-          src="/images/Technology legal compliance flowchart.png" 
+          src="/images/Technology legal compliance flowchart.webp" 
           alt="Process Server Technology Innovation Flowchart 2026" 
           width={800} 
           height={400} 
@@ -172,7 +172,7 @@ export default function OklahomaProcessServerTechnology() {
           <h2 className="text-3xl font-semibold mb-4">Blockchain & Digital Security Innovations</h2>
           
           <Image 
-            src="/images/Digital signature process.png" 
+            src="/images/Digital signature process.webp" 
             alt="Blockchain Digital Security Process Serving" 
             width={600} 
             height={300} 
@@ -275,7 +275,7 @@ export default function OklahomaProcessServerTechnology() {
           <h2 className="text-3xl font-semibold mb-4">Data Analytics & Performance Optimization</h2>
           
           <Image 
-            src="/images/Process server with GPS tracking.png" 
+            src="/images/Process server with GPS tracking.webp" 
             alt="GPS Tracking Analytics Dashboard" 
             width={600} 
             height={300} 

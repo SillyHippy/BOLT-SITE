@@ -108,7 +108,7 @@ export default async function VideoPage({ params }: { params: Promise<{ slug: st
           '@type': 'Organization',
           '@id': 'https://justlegalsolutions.org/#organization',
           name: 'Just Legal Solutions',
-          logo: { '@type': 'ImageObject', url: 'https://justlegalsolutions.org/images/jls-logo.png' },
+          logo: { '@type': 'ImageObject', url: 'https://justlegalsolutions.org/images/jls-logo.webp' },
         },
         author: {
           '@type': 'Person',

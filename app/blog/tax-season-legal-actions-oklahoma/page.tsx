@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/og-image.png', width: 1200, height: 630, alt: 'Tax Season & Legal Actions: What Oklahoma Residents Should Know' }],
+    images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630, alt: 'Tax Season & Legal Actions: What Oklahoma Residents Should Know' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/tax-season-legal-actions-oklahoma' },
   other: {
@@ -91,7 +91,7 @@ export default function TaxSeasonLegalActionsOklahoma() {
           author: "Joseph Iannazzi",
           datePublished: "2026-04-08",
           dateModified: "2026-04-08",
-          image: "https://justlegalsolutions.org/og-image.png"
+          image: "https://justlegalsolutions.org/og-image.webp"
         }}
         faqItems={faqs.map(f => ({ question: f.question, answer: f.answer }))}
         keywords={['oklahoma tax lien process', 'IRS levy service oklahoma', 'state tax warrant oklahoma', 'OTC tax collection']}

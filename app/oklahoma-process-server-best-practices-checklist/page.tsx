@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Oklahoma Process Server Best Practices Checklist 2026',
     description: 'Complete 2026 Oklahoma process server checklist covering legal requirements, technology integration, and professional standards.',
-    images: ['/images/oklahoma-licensed-bonded-process-server-badges.png'],
+    images: ['/images/oklahoma-licensed-bonded-process-server-badges.webp'],
     url: canonicalUrl,
     type: 'article',
     siteName: 'Just Legal Solutions',
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Oklahoma Process Server Best Practices Checklist 2026',
     description: 'Complete professional guide for Oklahoma process serving in 2026.',
-    images: ['/images/oklahoma-licensed-bonded-process-server-badges.png'],
+    images: ['/images/oklahoma-licensed-bonded-process-server-badges.webp'],
     site: '@JustLegalSolutions',
     creator: '@JustLegalSolutions'
   },
@@ -44,7 +44,7 @@ const articleSchema = {
   "headline": "Oklahoma Process Server Best Practices Checklist 2026",
   "description": "Complete 2026 Oklahoma process server checklist covering 12 O.S. §12-2004 requirements, Tulsa County protocols, and professional standards.",
   "image": [
-    "https://justlegalsolutions.org/images/oklahoma-licensed-bonded-process-server-badges.png",
+    "https://justlegalsolutions.org/images/oklahoma-licensed-bonded-process-server-badges.webp",
     "https://justlegalsolutions.org/images/jls-logo.webp",
     "https://justlegalsolutions.org/images/process-server-tulsa.webp",
     "https://justlegalsolutions.org/images/oklahoma-process-server.webp"
@@ -557,7 +557,7 @@ export default function OklahomaProcessServerBestPracticesChecklist2026() {
           <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 mb-12">
             <div className="flex items-start gap-4">
               <Image
-                src="/images/oklahoma-licensed-bonded-process-server-badges.png"
+                src="/images/oklahoma-licensed-bonded-process-server-badges.webp"
                 alt="Oklahoma Licensed & Bonded Process Server"
                 width={100}
                 height={40}

@@ -4,7 +4,10 @@ import { Footer } from "@/components/ui/footer";
 import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Power of Attorney Notary Oklahoma | POA Notarization Tulsa",
+    alternates: {
+    canonical: 'https://justlegalsolutions.org/power-of-attorney-notary-oklahoma',
+  },
+title: "Power of Attorney Notary Oklahoma | POA Notarization Tulsa",
   description: "Professional power of attorney notary services in Oklahoma. Durable, medical, financial & springing POA notarization. 24/7 mobile notary available. Call (539) 367-6832.",
   keywords: "power of attorney notary oklahoma, POA notarization tulsa, durable power of attorney oklahoma, medical power of attorney oklahoma, springing POA, 58 O.S. § 3001",
   openGraph: {

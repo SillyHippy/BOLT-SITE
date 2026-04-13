@@ -272,7 +272,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
       props.image || organization.logo || 'https://justlegalsolutions.org/images/jls-logo.webp',
       'https://justlegalsolutions.org/images/jls-logo.webp',
       'https://justlegalsolutions.org/images/tulsa-process-server.webp',
-      'https://justlegalsolutions.org/og-image.png'
+      'https://justlegalsolutions.org/og-image.webp'
     ],
     priceRange: '$30-$265',
     paymentAccepted: ['Cash', 'Check', 'Credit Card', 'Venmo', 'PayPal', 'Zelle'],

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
         title: 'How to Serve Legal Papers in Oklahoma | Complete Guide (2026)',
         description: 'Everything you need to know about serving legal papers in Oklahoma. Methods, costs, who can serve, requirements, and common mistakes.',
         type: 'website', locale: 'en_US', url: 'https://justlegalsolutions.org/how-to-serve-legal-papers-oklahoma', siteName: 'Just Legal Solutions',
-        images: [{ url: 'https://justlegalsolutions.org/og-image.png', width: 1200, height: 630, alt: 'How to Serve Legal Papers in Oklahoma' }],
+        images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630, alt: 'How to Serve Legal Papers in Oklahoma' }],
     },
     alternates: { canonical: 'https://justlegalsolutions.org/how-to-serve-legal-papers-oklahoma' },
     other: {
@@ -547,7 +547,7 @@ export default function HowToServeLegalPapersOklahomaPage() {
                 </div>
             </div>
 
-            <UnifiedSchema pageType="service" title="How to Serve Legal Papers in Oklahoma" description="Complete guide to serving legal papers in Oklahoma. Personal service, substituted service, service by mail, and publication. Licensed process servers from $60." url="https://justlegalsolutions.org/how-to-serve-legal-papers-oklahoma" image="https://justlegalsolutions.org/og-image.png" keywords={['how to serve legal papers in oklahoma', 'serving court papers', 'oklahoma service of process']} reviewCount={156} services={['Personal Service', 'Document Service', 'Subpoena Service', 'Eviction Notice Service']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'How to Serve Legal Papers', url: '/how-to-serve-legal-papers-oklahoma' }]} />
+            <UnifiedSchema pageType="service" title="How to Serve Legal Papers in Oklahoma" description="Complete guide to serving legal papers in Oklahoma. Personal service, substituted service, service by mail, and publication. Licensed process servers from $60." url="https://justlegalsolutions.org/how-to-serve-legal-papers-oklahoma" image="https://justlegalsolutions.org/og-image.webp" keywords={['how to serve legal papers in oklahoma', 'serving court papers', 'oklahoma service of process']} reviewCount={156} services={['Personal Service', 'Document Service', 'Subpoena Service', 'Eviction Notice Service']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'How to Serve Legal Papers', url: '/how-to-serve-legal-papers-oklahoma' }]} />
         </>
     );
 }

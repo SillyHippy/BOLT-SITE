@@ -13,7 +13,7 @@ export function AuthorBox({
   name = "Joseph Iannazzi",
   role = "Founder & Lead Process Server",
   bio = "Joseph Iannazzi is a licensed Oklahoma process server with a deep understanding of civil process throughout all 77 counties. He founded Just Legal Solutions to bring transparency, speed, and professionalism to legal support services in Oklahoma. Joseph is a recognized expert in Oklahoma civil procedure and specialized service techniques.",
-  imageUrl = "/contactlogo.png",
+  imageUrl = "/contactlogo.webp",
   authorUrl = "/notary/joseph",
 }: AuthorBoxProps) {
   return (

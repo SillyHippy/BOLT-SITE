@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/og-image.png', width: 1200, height: 630, alt: 'Oklahoma Child Custody & Support: How Service of Process Works' }],
+    images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630, alt: 'Oklahoma Child Custody & Support: How Service of Process Works' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/oklahoma-child-custody-support-service' },
   other: {
@@ -91,7 +91,7 @@ export default function OklahomaChildCustodySupportService() {
           author: "Joseph Iannazzi",
           datePublished: "2026-04-08",
           dateModified: "2026-04-08",
-          image: "https://justlegalsolutions.org/og-image.png"
+          image: "https://justlegalsolutions.org/og-image.webp"
         }}
         faqItems={faqs.map(f => ({ question: f.question, answer: f.answer }))}
         keywords={['serve custody papers oklahoma', 'child support modification service oklahoma', 'paternity action service oklahoma', 'custody modification service']}

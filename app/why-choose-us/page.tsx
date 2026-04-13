@@ -19,7 +19,7 @@ export const metadata = {
     siteName: 'Just Legal Solutions',
     type: 'website',
     locale: 'en_US',
-    images: [{ url: 'https://justlegalsolutions.org/og-image.png', width: 1200, height: 630, alt: 'Just Legal Solutions - Professional Process Serving in Oklahoma' }],
+    images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630, alt: 'Just Legal Solutions - Professional Process Serving in Oklahoma' }],
   },
   other: {
     'ai-content-type': 'comparison',
@@ -118,7 +118,7 @@ export default function WhyChooseUs() {
                 '@type': 'LegalService',
                 name: 'Just Legal Solutions',
                 url: 'https://justlegalsolutions.org/why-choose-us',
-                image: 'https://justlegalsolutions.org/images/oklahoma-licensed-bonded-process-server-badges.png',
+                image: 'https://justlegalsolutions.org/images/oklahoma-licensed-bonded-process-server-badges.webp',
                 telephone: '+1-539-367-6832',
                 address: {
                   '@type': 'PostalAddress',
@@ -243,7 +243,7 @@ export default function WhyChooseUs() {
             <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <Image 
-                  src="/images/tulsa-process-server-delivering-documents.png" 
+                  src="/images/tulsa-process-server-delivering-documents.webp" 
                   alt="Tulsa Process Server Delivering Documents" 
                   width={500} 
                   height={350} 
@@ -305,7 +305,7 @@ export default function WhyChooseUs() {
             <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8">
               <div className="shrink-0">
                 <Image 
-                  src="/images/OklahomaFlag.jpg" 
+                  src="/images/OklahomaFlag.webp" 
                   alt="Oklahoma State Flag" 
                   width={180} 
                   height={120} 

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
         title: 'Can a Process Server Serve on Sunday in Oklahoma?',
         description: 'Yes — Oklahoma has no restrictions on the day or time legal papers can be served. Full guide to weekend and holiday service.',
         type: 'article', locale: 'en_US', url: 'https://justlegalsolutions.org/can-process-server-serve-on-sunday', siteName: 'Just Legal Solutions',
-        images: [{ url: 'https://justlegalsolutions.org/og-image.png', width: 1200, height: 630, alt: 'Weekend Process Serving Oklahoma' }],
+        images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630, alt: 'Weekend Process Serving Oklahoma' }],
     },
     alternates: { canonical: 'https://justlegalsolutions.org/can-process-server-serve-on-sunday' },
     other: {
@@ -164,7 +164,7 @@ export default function SundayServicePage() {
                 </div>
             </div>
 
-            <UnifiedSchema pageType="article" title="Can a Process Server Serve on Sunday?" description="Yes — Oklahoma has no day-of-week restrictions on service. Full weekend service guide." url="https://justlegalsolutions.org/can-process-server-serve-on-sunday" image="https://justlegalsolutions.org/og-image.png" keywords={['serve on sunday', 'weekend process serving', 'holiday service oklahoma']} reviewCount={156} services={['Weekend Process Serving', '24/7 Emergency Service', 'Holiday Service']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Can a Process Server Serve on Sunday?', url: '/can-process-server-serve-on-sunday' }]} />
+            <UnifiedSchema pageType="article" title="Can a Process Server Serve on Sunday?" description="Yes — Oklahoma has no day-of-week restrictions on service. Full weekend service guide." url="https://justlegalsolutions.org/can-process-server-serve-on-sunday" image="https://justlegalsolutions.org/og-image.webp" keywords={['serve on sunday', 'weekend process serving', 'holiday service oklahoma']} reviewCount={156} services={['Weekend Process Serving', '24/7 Emergency Service', 'Holiday Service']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Can a Process Server Serve on Sunday?', url: '/can-process-server-serve-on-sunday' }]} />
         </>
     );
 }

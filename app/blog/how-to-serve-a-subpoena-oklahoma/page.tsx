@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/og-image.png', width: 1200, height: 630, alt: 'How to Serve a Subpoena in Oklahoma' }],
+    images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630, alt: 'How to Serve a Subpoena in Oklahoma' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/how-to-serve-a-subpoena-oklahoma' },
   other: {
@@ -127,7 +127,7 @@ export default function HowToServeSubpoenaOklahoma() {
           author: "Joseph Iannazzi",
           datePublished: "2026-04-02",
           dateModified: "2026-04-02",
-          image: "https://justlegalsolutions.org/og-image.png"
+          image: "https://justlegalsolutions.org/og-image.webp"
         }}
         faqItems={faqs.map(f => ({ question: f.question, answer: f.answer }))}
         keywords={['how to serve subpoena Oklahoma', 'Oklahoma subpoena service', 'subpoena duces tecum', 'process serving subpoena Oklahoma']}

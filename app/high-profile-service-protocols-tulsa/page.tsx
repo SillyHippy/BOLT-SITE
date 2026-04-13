@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     images: [
       {
-        url: '/images/Process server at gated community entrance.png',
+        url: '/images/Process server at gated community entrance.webp',
         width: 1200,
         height: 630,
         alt: 'High-Profile Service Protocols'
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'High-Profile Service Protocols',
     description: 'Expert strategies for serving high-profile defendants in Tulsa with enhanced privacy protocols, security measures, and legal compliance in 2026.',
-    images: ['/images/Process server at gated community entrance.png'],
+    images: ['/images/Process server at gated community entrance.webp'],
     creator: '@JustLegalSolutions',
     site: '@JustLegalSolutions',
   },
@@ -54,7 +54,7 @@ const articleSchema = {
   "headline": "Serving High-Profile Defendants in Tulsa: Privacy & Security Protocols",
   "description": "Expert strategies for serving high-profile defendants in Tulsa with enhanced privacy protocols, security measures, and legal compliance in 2026.",
   "image": [
-    "https://justlegalsolutions.org/images/Process server at gated community entrance.png",
+    "https://justlegalsolutions.org/images/Process server at gated community entrance.webp",
     "https://justlegalsolutions.org/images/high-profile-process-server-tulsa.jpg",
     "https://justlegalsolutions.org/images/tulsa-legal-document-security.jpg",
     "https://justlegalsolutions.org/images/professional-process-server-oklahoma.jpg"
@@ -87,7 +87,7 @@ export default function HighProfileServiceProtocolsTulsa() {
       <main className="max-w-4xl mx-auto px-4 py-8 pt-24">
         <h1 className="text-4xl font-bold mb-4">Serving High-Profile Defendants in Tulsa: Privacy &amp; Security Protocols</h1>
   <p className="italic mb-6">Serving process on high-profile defendants requires specialized approaches balancing legal requirements with privacy considerations and security challenges. Tulsa&apos;s business district, exclusive neighborhoods, and entertainment venues host celebrities, executives, and public figures requiring discrete, professional service protocols. This comprehensive guide examines best practices, legal compliance, and risk management strategies for serving prominent individuals while maintaining service validity and professional standards.</p>
-        <Image src="/images/Process server at gated community entrance.png" alt="High-Profile Service Protocols Tulsa" width={800} height={400} className="rounded shadow mb-4" />
+        <Image src="/images/Process server at gated community entrance.webp" alt="High-Profile Service Protocols Tulsa" width={800} height={400} className="rounded shadow mb-4" />
 
         {/* Understanding High-Profile Service Challenges */}
         <section className="mb-8">

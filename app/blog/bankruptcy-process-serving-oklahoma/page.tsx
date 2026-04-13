@@ -9,7 +9,10 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Bankruptcy Process Serving in Oklahoma: Complete Guide',
+    alternates: {
+    canonical: 'https://justlegalsolutions.org/blog/bankruptcy-process-serving-oklahoma',
+  },
+title: 'Bankruptcy Process Serving in Oklahoma: Complete Guide',
   description: 'Expert guide to serving bankruptcy papers in Oklahoma. Learn FRBP 7004 requirements, Chapter 7/11/13 service rules, district court procedures, and avoid costly mistakes.',
   keywords: 'bankruptcy process serving Oklahoma, how to serve bankruptcy papers Oklahoma, bankruptcy process server, chapter 7 service requirements, FRBP 7004, adversary proceeding service, 341 meeting notice',
   openGraph: {

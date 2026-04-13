@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/og-image.png', width: 1200, height: 630, alt: 'What to Do When You Get Served Papers in Oklahoma' }],
+    images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630, alt: 'What to Do When You Get Served Papers in Oklahoma' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/what-to-do-when-served-papers-oklahoma' },
   other: {
@@ -95,7 +95,7 @@ export default function WhatToDoWhenServedPapersOklahoma() {
           author: "Joseph Iannazzi",
           datePublished: "2026-04-08",
           dateModified: "2026-04-08",
-          image: "https://justlegalsolutions.org/og-image.png"
+          image: "https://justlegalsolutions.org/og-image.webp"
         }}
         faqItems={faqs.map(f => ({ question: f.question, answer: f.answer }))}
         keywords={['got served papers oklahoma what now', 'someone served me papers', 'what to do when served lawsuit oklahoma', 'just got served papers']}

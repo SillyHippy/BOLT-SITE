@@ -14,7 +14,7 @@ export const metadata: Metadata = {
         title: 'Eviction Notice Service Oklahoma | Licensed Process Servers',
         description: 'Professional eviction notice delivery. 5-day, 15-day, and 30-day notices served by licensed Oklahoma process servers with GPS proof.',
         type: 'website', locale: 'en_US', url: 'https://justlegalsolutions.org/eviction-notice-service', siteName: 'Just Legal Solutions',
-        images: [{ url: 'https://justlegalsolutions.org/og-image.png', width: 1200, height: 630, alt: 'Eviction Notice Service Oklahoma' }],
+        images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630, alt: 'Eviction Notice Service Oklahoma' }],
     },
     alternates: { canonical: 'https://justlegalsolutions.org/eviction-notice-service' },
     other: {
@@ -148,7 +148,7 @@ export default function EvictionNoticeServicePage() {
                 </div>
             </div>
 
-            <UnifiedSchema pageType="service" title="Eviction Notice Service Oklahoma" description="5-day, 15-day, and 30-day eviction notices served by licensed process servers. GPS-verified, from $30." url="https://justlegalsolutions.org/eviction-notice-service" image="https://justlegalsolutions.org/og-image.png" keywords={['eviction notice service', 'serve eviction notice oklahoma', '5 day notice']} reviewCount={156} services={['5-Day Notice Service', '15-Day Notice Service', '30-Day Notice Service', '24-Hour Emergency Notice']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'Eviction Notice Service', url: '/eviction-notice-service' }]} />
+            <UnifiedSchema pageType="service" title="Eviction Notice Service Oklahoma" description="5-day, 15-day, and 30-day eviction notices served by licensed process servers. GPS-verified, from $30." url="https://justlegalsolutions.org/eviction-notice-service" image="https://justlegalsolutions.org/og-image.webp" keywords={['eviction notice service', 'serve eviction notice oklahoma', '5 day notice']} reviewCount={156} services={['5-Day Notice Service', '15-Day Notice Service', '30-Day Notice Service', '24-Hour Emergency Notice']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'Eviction Notice Service', url: '/eviction-notice-service' }]} />
         </>
     );
 }

@@ -26,7 +26,10 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
 
 export const metadata: Metadata = {
-  title: 'Process Server Business Startup Guide | Oklahoma 2025',
+    alternates: {
+    canonical: 'https://justlegalsolutions.org/process-server-business-startup-guide',
+  },
+title: 'Process Server Business Startup Guide | Oklahoma 2025',
   description: 'Complete guide to starting a process serving business in Oklahoma. Learn about business structures, licensing, startup costs, marketing strategies, and scaling your process server company.',
   keywords: 'start process serving business, process serving business plan, process server marketing, Oklahoma process server business, process server startup costs',
   authors: [{ name: 'Joseph Iannazzi' }],

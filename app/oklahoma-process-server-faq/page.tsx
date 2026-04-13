@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     images: [
       {
-        url: '/images/Legal-document-types-process-server.png',
+        url: '/images/Legal-document-types-process-server.webp',
         width: 1200,
         height: 630,
         alt: 'Oklahoma Process Server FAQ 2026'
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Oklahoma Process Server FAQ 2026: Complete Answers',
     description: 'Comprehensive answers to process serving questions in Oklahoma for 2026.',
-    images: ['/images/Legal-document-types-process-server.png'],
+    images: ['/images/Legal-document-types-process-server.webp'],
     creator: '@JustLegalSolutions',
     site: '@JustLegalSolutions',
   },
@@ -461,7 +461,7 @@ export default function OklahomaProcessServerFAQ2026() {
               <div className="bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20">
                 <div className="flex items-center gap-3 mb-4">
                   <Image 
-                    src="/images/oklahoma-licensed-bonded-process-server-badges.png" 
+                    src="/images/oklahoma-licensed-bonded-process-server-badges.webp" 
                     alt="Licensed & Bonded" 
                     width={80} 
                     height={30}

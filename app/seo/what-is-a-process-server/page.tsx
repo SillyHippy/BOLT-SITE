@@ -58,7 +58,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'article',
     images: [{
-      url: 'https://justlegalsolutions.org/images/due-process-legal-concept.png',
+      url: 'https://justlegalsolutions.org/images/due-process-legal-concept.webp',
       width: 1200,
       height: 630,
       alt: 'Due process legal concept - Professional process server in Oklahoma',
@@ -68,7 +68,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'What Is a Process Server? Professional Legal Document Delivery in Tulsa, Oklahoma',
     description: 'Professional process server in Tulsa, Oklahoma with 50+ years legal experience. Licensed & bonded. 24/7 emergency service available.',
-    images: ['https://justlegalsolutions.org/images/due-process-legal-concept.png'],
+    images: ['https://justlegalsolutions.org/images/due-process-legal-concept.webp'],
   }
 };
 
@@ -489,25 +489,25 @@ const articleSchema = {
   "image": [
     {
       "@type": "ImageObject",
-      "url": "https://justlegalsolutions.org/images/due-process-legal-concept.png",
+      "url": "https://justlegalsolutions.org/images/due-process-legal-concept.webp",
       "width": 1200,
       "height": 630
     },
     {
       "@type": "ImageObject",
-      "url": "https://justlegalsolutions.org/images/oklahoma-licensed-bonded-process-server-badges.png",
+      "url": "https://justlegalsolutions.org/images/oklahoma-licensed-bonded-process-server-badges.webp",
       "width": 1200,
       "height": 800
     },
     {
       "@type": "ImageObject",
-      "url": "https://justlegalsolutions.org/images/Legal-document-types-process-server.png",
+      "url": "https://justlegalsolutions.org/images/Legal-document-types-process-server.webp",
       "width": 1200,
       "height": 900
     },
     {
       "@type": "ImageObject",
-      "url": "https://justlegalsolutions.org/images/process-server-workflow-steps.png",
+      "url": "https://justlegalsolutions.org/images/process-server-workflow-steps.webp",
       "width": 1200,
       "height": 675
     }
@@ -584,7 +584,7 @@ const enhancedArticleSchema = {
   },
   "image": {
     "@type": "ImageObject",
-    "url": "https://justlegalsolutions.org/images/due-process-legal-concept.png",
+    "url": "https://justlegalsolutions.org/images/due-process-legal-concept.webp",
     "width": 1200,
     "height": 630
   },
@@ -656,7 +656,7 @@ export default function WhatIsAProcessServerPage() {
           <div className="relative bg-gradient-to-r from-blue-600 to-blue-800 text-white p-10 rounded-xl mb-12 overflow-hidden shadow-2xl">
             <div className="absolute inset-0 opacity-10">
               <Image
-                src="/images/jls-logo.png"
+                src="/images/jls-logo.webp"
                 alt="Just Legal Solutions professional header"
                 fill
                 style={{ objectFit: 'cover' }}
@@ -807,7 +807,7 @@ export default function WhatIsAProcessServerPage() {
             <section className="mb-12">
               <div className="text-center mb-8">
                 <Image
-                  src="/images/due-process-legal-concept.png"
+                  src="/images/due-process-legal-concept.webp"
                   alt="Due process legal concept - Foundation of justice"
                   width={800}
                   height={500}
@@ -895,7 +895,7 @@ export default function WhatIsAProcessServerPage() {
             {/* Professional Image */}
             <div className="text-center mb-8">
               <Image
-                src="/imagesforblogpost/professional-process-server-tulsa-delivering-legal-documents.png"
+                src="/imagesforblogpost/professional-process-server-tulsa-delivering-legal-documents.webp"
                 alt="Professional process server delivering legal documents in Tulsa, Oklahoma"
                 width={600}
                 height={400}
@@ -1007,7 +1007,7 @@ export default function WhatIsAProcessServerPage() {
 
               <div className="text-center mb-8">
                 <Image
-                  src="/images/process-server-workflow-steps.png"
+                  src="/images/process-server-workflow-steps.webp"
                   alt="Oklahoma process server workflow steps diagram"
                   width={1000}
                   height={600}
@@ -1075,7 +1075,7 @@ export default function WhatIsAProcessServerPage() {
               <div className="relative mb-6">
                 <div className="text-center">
                   <Image
-                    src="/images/OklahomaFlag.jpg"
+                    src="/images/OklahomaFlag.webp"
                     alt="Oklahoma state flag representing our statewide process server coverage"
                     width={800}
                     height={500}
@@ -1137,7 +1137,7 @@ export default function WhatIsAProcessServerPage() {
               {/* Tulsa County Courthouse Image */}
               <div className="text-center mt-8">
                 <Image
-                  src="/images/tulsa-county-courthouse.jpeg"
+                  src="/images/tulsa-county-courthouse.webp"
                   alt="Tulsa County Courthouse - Oklahoma legal system where we file affidavits"
                   width={600}
                   height={400}
@@ -1675,7 +1675,7 @@ export default function WhatIsAProcessServerPage() {
 
               <div className="text-center mb-8">
                 <Image
-                  src="/images/process-server-vs-sheriff-comparison.png"
+                  src="/images/process-server-vs-sheriff-comparison.webp"
                   alt="Process server vs sheriff department comparison chart"
                   width={1000}
                   height={600}
@@ -1838,7 +1838,7 @@ export default function WhatIsAProcessServerPage() {
 
               <div className="text-center mb-6">
                 <Image
-                  src="/images/process-server-client-testimonials-reviews.png"
+                  src="/images/process-server-client-testimonials-reviews.webp"
                   alt="Client testimonials and reviews for Just Legal Solutions process server"
                   width={800}
                   height={400}
@@ -1936,7 +1936,7 @@ export default function WhatIsAProcessServerPage() {
 
               <div className="text-center mb-8">
                 <Image
-                  src="/images/Professional process server business logo badge with scales of justice and Oklahoma outline for legal services.png"
+                  src="/images/Professional process server business logo badge with scales of justice and Oklahoma outline for legal services.webp"
                   alt="Professional process server credentials and qualifications Oklahoma"
                   width={1000}
                   height={600}
@@ -2024,7 +2024,7 @@ export default function WhatIsAProcessServerPage() {
 
               <div className="text-center mb-8">
                 <Image
-                  src="/images/oklahoma-process-server-service-area-map.png"
+                  src="/images/oklahoma-process-server-service-area-map.webp"
                   alt="Oklahoma counties process server coverage map"
                   width={1000}
                   height={600}
@@ -2269,7 +2269,7 @@ export default function WhatIsAProcessServerPage() {
 
               <div className="text-center mb-8">
                 <Image
-                  src="/images/oklahoma-process-server-service-area-map.png"
+                  src="/images/oklahoma-process-server-service-area-map.webp"
                   alt="Oklahoma process server licensing requirements and legal compliance"
                   width={900}
                   height={500}
@@ -2536,7 +2536,7 @@ export default function WhatIsAProcessServerPage() {
 
               <div className="text-center mb-8">
                 <Image
-                  src="/images/Technology legal compliance flowchart.png"
+                  src="/images/Technology legal compliance flowchart.webp"
                   alt="Modern technology in process serving - GPS tracking and digital communication"
                   width={1000}
                   height={600}

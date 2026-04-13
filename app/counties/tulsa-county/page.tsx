@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'website',
     images: [{
-      url: 'https://justlegalsolutions.org/og-image.png',
+      url: 'https://justlegalsolutions.org/og-image.webp',
       width: 1200,
       height: 630,
       alt: 'Just Legal Solutions - Professional Process Serving in Oklahoma',
@@ -383,7 +383,7 @@ export default function TulsaCountyProcessServer() {
                   <CarouselItem className="pl-6 md:basis-1/2 lg:basis-1/3">
                     <div className="w-full h-60 relative group">
                       <Image 
-                        src="/images/tulsa-county-courthouse.jpeg" 
+                        src="/images/tulsa-county-courthouse.webp" 
                         alt="Tulsa County Courthouse downtown Tulsa legal district process serving hub for court document delivery and legal services"
                         fill
                         className="object-cover rounded-xl shadow-lg group-hover:scale-105 transition-transform duration-300"
@@ -397,7 +397,7 @@ export default function TulsaCountyProcessServer() {
                   <CarouselItem className="pl-6 md:basis-1/2 lg:basis-1/3">
                     <div className="w-full h-60 relative group">
                       <Image 
-                        src="/images/tulsa-courier-downtown.jpeg" 
+                        src="/images/tulsa-courier-downtown.webp" 
                         alt="Downtown Tulsa business district skyscrapers and financial center where professional process servers deliver legal documents to corporate offices"
                         fill
                         className="object-cover rounded-xl shadow-lg group-hover:scale-105 transition-transform duration-300"
@@ -425,7 +425,7 @@ export default function TulsaCountyProcessServer() {
                   <CarouselItem className="pl-6 md:basis-1/2 lg:basis-1/3">
                     <div className="w-full h-60 relative group">
                       <Image 
-                        src="/images/tulsa-process-server-delivering-documents.png" 
+                        src="/images/tulsa-process-server-delivering-documents.webp" 
                         alt="Professional process server delivering legal documents in Tulsa residential neighborhood ensuring proper service of process throughout Tulsa County"
                         fill
                         className="object-cover rounded-xl shadow-lg group-hover:scale-105 transition-transform duration-300"
@@ -453,7 +453,7 @@ export default function TulsaCountyProcessServer() {
                   <CarouselItem className="pl-6 md:basis-1/2 lg:basis-1/3">
                     <div className="w-full h-60 relative group">
                       <Image 
-                        src="/images/Tulsa business district building.png" 
+                        src="/images/Tulsa business district building.webp" 
                         alt="Tulsa business district commercial buildings and office complexes where corporate process serving and legal document delivery services are provided"
                         fill
                         className="object-cover rounded-xl shadow-lg group-hover:scale-105 transition-transform duration-300"

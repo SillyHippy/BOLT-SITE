@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'article',
     images: [{
-      url: 'https://justlegalsolutions.org/og-image.png',
+      url: 'https://justlegalsolutions.org/og-image.webp',
       width: 1200,
       height: 630,
       alt: 'Oklahoma Affidavit of Service Guide - Just Legal Solutions',
@@ -103,7 +103,7 @@ export default function AffidavitGuide() {
           author: "Joseph Iannazzi",
           datePublished: "2025-06-01",
           dateModified: "2026-03-27",
-          image: "https://justlegalsolutions.org/og-image.png"
+          image: "https://justlegalsolutions.org/og-image.webp"
         }}
         faqItems={faqs.map(f => ({ question: f.question, answer: f.answer }))}
         keywords={['Affidavit of Service', 'proof of service', 'return of service', 'Oklahoma process server', '12 OS 2004', 'Oklahoma service of process']}

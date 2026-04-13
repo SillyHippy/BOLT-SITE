@@ -25,13 +25,13 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'website',
-    images: [{ url: 'https://justlegalsolutions.org/og-image.png', width: 1200, height: 630, alt: 'Process serving service tiers comparison' }],
+    images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630, alt: 'Process serving service tiers comparison' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Rush vs Standard vs Same-Day Process Serving',
     description: 'Compare our three process serving tiers.',
-    images: ['https://justlegalsolutions.org/og-image.png'],
+    images: ['https://justlegalsolutions.org/og-image.webp'],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/rush-vs-standard-vs-same-day-service' },
   other: {

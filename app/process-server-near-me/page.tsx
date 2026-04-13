@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: 'Find a licensed process server near you in Oklahoma. Same-day service from $60. GPS-tracked. Call (539) 367-6832.',
     url: 'https://justlegalsolutions.org/process-server-near-me',
     siteName: 'Just Legal Solutions',
-    images: [{ url: 'https://justlegalsolutions.org/og-image.png', width: 1200, height: 630 }],
+    images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630 }],
     locale: 'en_US',
     type: 'website',
   },
