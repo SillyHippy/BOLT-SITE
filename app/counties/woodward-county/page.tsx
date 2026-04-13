@@ -248,7 +248,8 @@ export default function WoodwardCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
+        pageType="location"
+        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/woodward-county"
         title="Process Server Woodward County, OK | Woodward"
         description="Licensed process server in Woodward County, Oklahoma. Serving Woodward, Mooreland, and all surrounding communities."

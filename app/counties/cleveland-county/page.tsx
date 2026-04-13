@@ -249,7 +249,8 @@ export default function ClevelandCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
+        pageType="location"
+        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/cleveland-county"
         title="Process Server Cleveland County, OK | Norman"
         description="Licensed process server in Cleveland County, Oklahoma. Serving Norman, Moore, and all surrounding communities."

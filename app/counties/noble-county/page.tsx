@@ -248,7 +248,8 @@ export default function NobleCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
+        pageType="location"
+        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/noble-county"
         title="Process Server Noble County, OK | Perry"
         description="Licensed process server in Noble County, Oklahoma. Serving Perry, Morrison, and all surrounding communities."

@@ -248,7 +248,8 @@ export default function BlaineCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
+        pageType="location"
+        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/blaine-county"
         title="Process Server Blaine County, OK | Watonga"
         description="Licensed process server in Blaine County, Oklahoma. Serving Watonga, Okeene, and all surrounding communities."

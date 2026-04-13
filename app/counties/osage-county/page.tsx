@@ -252,7 +252,8 @@ export default function OsageCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
+        pageType="location"
+        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/osage-county"
         title="Process Server Osage County, OK | Pawhuska"
         description="Licensed process server in Osage County, Oklahoma. Serving Pawhuska, Hominy, Fairfax, and all surrounding communities."

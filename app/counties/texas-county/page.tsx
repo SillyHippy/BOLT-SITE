@@ -249,7 +249,8 @@ export default function TexasCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
+        pageType="location"
+        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/texas-county"
         title="Process Server Texas County, OK | Guymon"
         description="Licensed process server in Texas County, Oklahoma. Serving Guymon, Hooker, and all surrounding communities."

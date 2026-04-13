@@ -248,7 +248,8 @@ export default function PushmatahaCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
+        pageType="location"
+        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/pushmataha-county"
         title="Process Server Pushmataha County, OK | Antlers"
         description="Licensed process server in Pushmataha County, Oklahoma. Serving Antlers, Rattan, and all surrounding communities."

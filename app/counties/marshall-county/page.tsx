@@ -248,7 +248,8 @@ export default function MarshallCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
+        pageType="location"
+        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/marshall-county"
         title="Process Server Marshall County, OK | Madill"
         description="Licensed process server in Marshall County, Oklahoma. Serving Madill, Kingston, and all surrounding communities."

@@ -249,7 +249,8 @@ export default function PittsburgCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
+        pageType="location"
+        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/pittsburg-county"
         title="Process Server Pittsburg County, OK | McAlester"
         description="Licensed process server in Pittsburg County, Oklahoma. Serving McAlester, Krebs, and all surrounding communities."

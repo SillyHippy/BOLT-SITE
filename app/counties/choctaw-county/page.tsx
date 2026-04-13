@@ -248,7 +248,8 @@ export default function ChoctawCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
+        pageType="location"
+        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/choctaw-county"
         title="Process Server Choctaw County, OK | Hugo"
         description="Licensed process server in Choctaw County, Oklahoma. Serving Hugo, Fort Towson, and all surrounding communities."

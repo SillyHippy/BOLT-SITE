@@ -249,7 +249,8 @@ export default function MccurtainCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
+        pageType="location"
+        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/mccurtain-county"
         title="Process Server McCurtain County, OK | Idabel"
         description="Licensed process server in McCurtain County, Oklahoma. Serving Idabel, Broken Bow, and all surrounding communities."

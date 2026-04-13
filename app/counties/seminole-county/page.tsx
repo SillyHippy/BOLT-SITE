@@ -252,7 +252,8 @@ export default function SeminoleCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
+        pageType="location"
+        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/seminole-county"
         title="Process Server Seminole County, OK | Wewoka"
         description="Licensed process server in Seminole County, Oklahoma. Serving Wewoka, Seminole, and all surrounding communities."

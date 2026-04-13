@@ -249,7 +249,8 @@ export default function CaddoCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
+        pageType="location"
+        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/caddo-county"
         title="Process Server Caddo County, OK | Anadarko"
         description="Licensed process server in Caddo County, Oklahoma. Serving Anadarko, Hinton, and all surrounding communities."

@@ -253,7 +253,8 @@ export default function OklahomaCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
+        pageType="location"
+        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/oklahoma-county"
         title="Process Server Oklahoma County, OK | Oklahoma City"
         description="Licensed process server in Oklahoma County. Serving Oklahoma City, Edmond, Midwest City, Bethany, and all surrounding communities."

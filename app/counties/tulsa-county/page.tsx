@@ -159,7 +159,8 @@ export default function TulsaCountyProcessServer() {
 <LocalPromoBanner zips={[]} />
       
       <UnifiedSchema
-        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
+        pageType="location"
+        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/tulsa-county"
         title="Tulsa County Process Server | All Cities & Towns"
         description="Tulsa County's process server—serving Tulsa, Broken Arrow, Owasso, Bixby, Jenks, Sand Springs, Glenpool, Collinsville, and all communities. Fast, local legal document delivery for every need."

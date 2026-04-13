@@ -251,7 +251,8 @@ export default function SequoyahCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
+        pageType="location"
+        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/sequoyah-county"
         title="Process Server Sequoyah County, OK | Sallisaw"
         description="Licensed process server in Sequoyah County, Oklahoma. Serving Sallisaw, Vian, Roland, and all surrounding communities."

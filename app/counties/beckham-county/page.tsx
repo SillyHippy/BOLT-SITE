@@ -248,7 +248,8 @@ export default function BeckhamCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
+        pageType="location"
+        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/beckham-county"
         title="Process Server Beckham County, OK | Elk City"
         description="Licensed process server in Beckham County, Oklahoma. Serving Elk City, Sayre, and all surrounding communities."

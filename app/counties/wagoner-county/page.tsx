@@ -251,7 +251,8 @@ export default function WagonerCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
+        pageType="location"
+        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/wagoner-county"
         title="Process Server Wagoner County, OK | Wagoner"
         description="Licensed process server in Wagoner County, Oklahoma. Serving Wagoner, Coweta, and all surrounding communities."

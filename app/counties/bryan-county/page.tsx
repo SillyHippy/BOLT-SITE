@@ -250,7 +250,8 @@ export default function BryanCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
+        pageType="location"
+        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/bryan-county"
         title="Process Server Bryan County, OK | Durant"
         description="Licensed process server in Bryan County, Oklahoma. Serving Durant, Calera, and all surrounding communities."

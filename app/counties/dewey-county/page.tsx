@@ -248,7 +248,8 @@ export default function DeweyCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
+        pageType="location"
+        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/dewey-county"
         title="Process Server Dewey County, OK | Taloga"
         description="Licensed process server in Dewey County, Oklahoma. Serving Taloga, Seiling, and all surrounding communities."

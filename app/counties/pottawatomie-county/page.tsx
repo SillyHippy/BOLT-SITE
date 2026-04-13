@@ -252,7 +252,8 @@ export default function PottawatomieCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
+        pageType="location"
+        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/pottawatomie-county"
         title="Process Server Pottawatomie County, OK | Shawnee"
         description="Licensed process server in Pottawatomie County, Oklahoma. Serving Shawnee, Tecumseh, and all surrounding communities."

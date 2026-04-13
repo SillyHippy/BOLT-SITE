@@ -253,7 +253,8 @@ export default function OkmulgeeCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
+        pageType="location"
+        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/okmulgee-county"
         title="Process Server Okmulgee County, OK | Okmulgee"
         description="Licensed process server in Okmulgee County, Oklahoma. Serving Okmulgee, Henryetta, and all surrounding communities."

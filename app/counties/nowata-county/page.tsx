@@ -248,7 +248,8 @@ export default function NowataCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
+        pageType="location"
+        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/nowata-county"
         title="Process Server Nowata County, OK | Nowata"
         description="Licensed process server in Nowata County, Oklahoma. Serving Nowata, South Coffeyville, and all surrounding communities."

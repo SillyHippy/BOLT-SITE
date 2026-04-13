@@ -249,7 +249,8 @@ export default function ComancheCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
+        pageType="location"
+        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/comanche-county"
         title="Process Server Comanche County, OK | Lawton"
         description="Licensed process server in Comanche County, Oklahoma. Serving Lawton, Fort Sill, and all surrounding communities."

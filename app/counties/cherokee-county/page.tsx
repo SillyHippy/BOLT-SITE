@@ -252,7 +252,8 @@ export default function CherokeeCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
+        pageType="location"
+        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/cherokee-county"
         title="Process Server Cherokee County, OK | Tahlequah"
         description="Licensed process server in Cherokee County, Oklahoma. Serving Tahlequah, Park Hill, and all surrounding communities."

@@ -248,7 +248,8 @@ export default function CraigCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
+        pageType="location"
+        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/craig-county"
         title="Process Server Craig County, OK | Vinita"
         description="Licensed process server in Craig County, Oklahoma. Serving Vinita, Big Cabin, and all surrounding communities."

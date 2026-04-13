@@ -75,7 +75,8 @@ export default async function CountyPage({ params }: { params: Promise<{ slug: s
   return (
     <>
       <UnifiedSchema
-        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
+        pageType="location"
+        image="https://justlegalsolutions.org/images/jls-logo.webp"
         pageTitle={title}
         pageDescription={description}
         pageUrl={`https://justlegalsolutions.org/counties/${slug}`}

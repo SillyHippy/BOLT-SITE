@@ -248,7 +248,8 @@ export default function MurrayCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
+        pageType="location"
+        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/murray-county"
         title="Process Server Murray County, OK | Sulphur"
         description="Licensed process server in Murray County, Oklahoma. Serving Sulphur, Davis, and all surrounding communities."

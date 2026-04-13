@@ -249,7 +249,8 @@ export default function CanadianCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
+        pageType="location"
+        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/canadian-county"
         title="Process Server Canadian County, OK | El Reno"
         description="Licensed process server in Canadian County, Oklahoma. Serving El Reno, Yukon, Mustang, and all surrounding communities."

@@ -248,7 +248,8 @@ export default function AtokaCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
+        pageType="location"
+        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/atoka-county"
         title="Process Server Atoka County, OK | Atoka"
         description="Licensed process server in Atoka County, Oklahoma. Serving Atoka, Stringtown, and all surrounding communities."

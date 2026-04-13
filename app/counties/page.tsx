@@ -119,7 +119,8 @@ export default function ServiceAreasHub() {
   return (
     <>
       <UnifiedSchema
-        pageType="service"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
+        pageType="service"
+        image="https://justlegalsolutions.org/images/jls-logo.webp"
         pageTitle="Process Server Service Areas Oklahoma | Statewide Coverage | Just Legal Solutions"
         pageDescription="Professional process server serving statewide throughout Oklahoma. Complete coverage of all 77 counties with same-day service available. Licensed, bonded, and insured statewide."
         pageUrl="https://justlegalsolutions.org/counties"
