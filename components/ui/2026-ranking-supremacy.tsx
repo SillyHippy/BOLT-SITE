@@ -7,7 +7,7 @@ interface RankingSupremacyProps {
   skipSchema?: boolean;
 }
 
-export default function RankingSupremacy2025({
+export default function RankingSupremacy2026({
   targetKeywords,
   location,
   businessName = 'Just Legal Solutions',
