@@ -237,7 +237,7 @@ export default function PricingPage() {
                 <div>
                   <p className="font-bold text-amber-900 text-base">Temporary Fuel Adjustment — Effective April 8, 2026</p>
                   <p className="text-amber-800 text-sm mt-1">
-                    Fuel costs in Oklahoma have risen ~40% since March 2026, increasing our delivery expenses. A temporary 17%
+                    Due to recent increases in fuel costs in Oklahoma, a temporary $10
                     fuel surcharge has been applied to all fuel-dependent services. We will reduce rates promptly if fuel prices
                     stabilize or drop.{' '}
                     <a href="/contact" className="font-semibold underline text-amber-900 hover:text-amber-700">
@@ -249,11 +249,11 @@ export default function PricingPage() {
               <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
                 {[
                   { label: 'Standard Service', old: '$60', new: '$70' },
-                  { label: 'Rush Service', old: '$100', new: '$117' },
-                  { label: 'Same-Day Rush', old: '$150', new: '$175' },
+                  { label: 'Rush Service', old: '$100', new: '$110' },
+                  { label: 'Same-Day Rush', old: '$150', new: '$160' },
                   { label: 'Standard Courier', old: '$60', new: '$70' },
-                  { label: 'Rush Courier', old: '$100', new: '$117' },
-                  { label: 'Stakeout', old: '$90/hr', new: '$105/hr' },
+                  { label: 'Rush Courier', old: '$100', new: '$110' },
+                  { label: 'Stakeout', old: '$90/hr', new: '$100/hr' },
                 ].map(({ label, old, new: newPrice }) => (
                   <div key={label} className="bg-amber-100/60 rounded-lg px-4 py-3">
                     <p className="text-xs font-semibold text-amber-900 mb-1">{label}</p>
