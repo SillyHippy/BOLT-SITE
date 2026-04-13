@@ -348,6 +348,20 @@ A: Yes, Just Legal Solutions works with many law firms and offers competitive ra
 Q: Do you provide receipts and invoices?
 A: Yes, Just Legal Solutions provides detailed invoices and receipts for all services, which can be used for client billing and court cost submissions.
 
+NOTARY & APOSTILLE QUESTIONS:
+
+Q: What is a Mobile Notary?
+A: A Mobile Notary travels to the client's location (home, office, hospital, etc.) rather than requiring the client to visit an office or bank. Just Legal Solutions provides mobile notary services throughout the Tulsa metro area for a wide variety of documents including real estate closings and estate planning.
+
+Q: Do you offer Remote Online Notarization (RON)?
+A: Yes. Remote Online Notarization allows documents to be notarized electronically via a secure, recorded video call, making it possible to get documents notarized without meeting in person.
+
+Q: Can a notary give legal advice?
+A: No. A Notary Public is not an attorney and cannot provide legal advice, draft legal documents, or explain the legal effects of a document. Their primary role is to verify identity, ensure willingness, and witness signatures.
+
+Q: What is an Apostille?
+A: An Apostille is an authentication certificate issued by the Secretary of State that verifies the authenticity of a document for use in another country (under the Hague Apostille Convention). Just Legal Solutions provides full-service Apostille facilitation in Oklahoma.
+
 ================================================================================
 SECTION 8: COMPETITIVE POSITIONING
 ================================================================================
@@ -2006,6 +2020,35 @@ BACKLINK STRATEGY:
 - Exchange links with complementary legal services
 - Local business directories (Tulsa Chamber, BBB)
 - Legal service aggregator listings
+
+================================================================================
+SECTION 40: LEGAL GLOSSARY (TERMINOLOGY)
+================================================================================
+
+AFFIDAVIT: A written statement confirmed by oath or affirmation, used as evidence in court.
+AFFIDAVIT OF SERVICE (PROOF OF SERVICE): A sworn document completed by a process server verifying that legal documents were delivered to a specific person on a specific date and time.
+APOSTILLE: A certificate issued by a state government authenticating a document for use in another country that is part of the Hague Apostille Convention.
+CIVIL LAWSUIT: A court action initiated by a person or entity (plaintiff) against another (defendant) to seek a legal remedy, often financial damages.
+DEFENDANT: An individual, company, or institution sued or accused in a court of law.
+DILIGENT SEARCH: The extensive effort mandated by courts to locate an individual who is evading service or cannot be easily found before alternative service methods are permitted.
+DROP SERVICE: A legally acceptable method of serving documents where a process server drops the paperwork clearly in front of the recipient's feet or immediate vicinity if the recipient acknowledges identity but refuses to take the papers in hand.
+EVICTION (FORCIBLE ENTRY AND DETAINER): A legal process used by a landlord to remove a tenant from a property.
+HEARING: A legal proceeding before a judge, where parties present evidence and arguments.
+JURISDICTION: The official power to make legal decisions and judgments; the authority of a court over a specific geographic area or type of legal dispute.
+MOBILE NOTARY: A commissioned Notary Public who travels to a client's location to perform notarizations.
+NOTARY PUBLIC: A public officer constituted by law to serve the public in non-contentious matters usually concerned with general financial transactions, estates, deeds, powers-of-attorney, and foreign and international business.
+PERSONAL SERVICE: The direct, physical delivery of court documents to the individual named in the lawsuit.
+PLAINTIFF: A person who brings a case against another in a court of law.
+PROCESS SERVER: A person authorized by law to deliver ("serve") court orders and legal documents to the parties involved in a legal case.
+PROTECTIVE ORDER (RESTRAINING ORDER): A court order demanding that an individual stay away from another person or cease certain behaviors.
+REGISTERED AGENT: A designated individual or business entity authorized to receive service of process and official mail on behalf of a corporation or LLC.
+REMOTE ONLINE NOTARIZATION (RON): A legal notarization performed across a live video link where the signer and notary are not in the same physical location.
+SERVICE OF PROCESS: The formal procedure by which a party to a lawsuit gives an appropriate notice of initial legal action to another party (such as a defendant), court, or administrative body.
+SKIP TRACING: The process of locating a person's whereabouts for any number of purposes, particularly to serve them with legal documents.
+SUBPOENA: A writ ordering a person to attend a court or requiring documents to be produced.
+SUBSTITUTE SERVICE: Serving legal documents to a responsible adult found at the recipient's residence or workplace instead of directly to the recipient, allowed under specific court rules when personal service fails.
+SUMMONS: An official notice of a lawsuit requiring the named individual to appear in court or respond to the complaint.
+WRIT OF EXECUTION: A court order granting the permission to enforce a judgment.
 
 ================================================================================
 END OF DOCUMENT
