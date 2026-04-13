@@ -9,7 +9,7 @@ interface SearchDominanceProps {
   skipSchema?: boolean;
 }
 
-export default function SearchDominance2025({
+export default function SearchDominance2026({
   pageTitle,
   primaryKeywords,
   location,
@@ -23,7 +23,7 @@ export default function SearchDominance2025({
     return null;
   }
   
-  // Enhanced schema for 2025 search dominance
+  // Enhanced schema for 2026 search dominance
   const dominanceSchema = {
     '@context': 'https://schema.org',
     '@graph': [
@@ -97,7 +97,7 @@ export default function SearchDominance2025({
         }
       },
       
-      // Professional service schema with 2025 enhancements
+      // Professional service schema with 2026 enhancements
       {
         '@type': 'Service',
         '@id': 'https://justlegalsolutions.org#service',
@@ -147,7 +147,7 @@ export default function SearchDominance2025({
 
   return (
     <Script
-      id="search-dominance-2025"
+      id="search-dominance-2026"
       type="application/ld+json" 
       dangerouslySetInnerHTML={{ __html: JSON.stringify(dominanceSchema) }}
     />

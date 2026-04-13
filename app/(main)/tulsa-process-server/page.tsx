@@ -16,9 +16,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import UnifiedSchema from '@/components/UnifiedSchema';
-import SearchDominance2025 from '@/components/ui/2025-search-dominance';
+import SearchDominance2026 from '@/components/ui/2026-search-dominance';
 import AIVoiceSupremacy from '@/components/ui/ai-voice-supremacy';
-import RankingSupremacy2025 from '@/components/ui/2025-ranking-supremacy';
+import RankingSupremacy2026 from '@/components/ui/2026-ranking-supremacy';
 import MobileVoiceOptimization from '@/components/ui/mobile-voice-optimization';
 import { Metadata } from 'next';
 import Script from 'next/script';
@@ -1129,8 +1129,8 @@ export default function TulsaProcessServerPage() {
         ]}
       />
 
-      {/* Enhanced 2025 SEO for Tulsa-specific searches */}
-      <SearchDominance2025
+      {/* Enhanced 2026 SEO for Tulsa-specific searches */}
+      <SearchDominance2026
         pageTitle="Tulsa Process Server | Best Process Server in Tulsa County"
         primaryKeywords={['tulsa process server', 'process server tulsa', 'broken arrow process server', 'owasso process server']}
         location="Tulsa County, Oklahoma"
@@ -1145,7 +1145,7 @@ export default function TulsaProcessServerPage() {
         skipSchema={true}
       />
 
-      <RankingSupremacy2025
+      <RankingSupremacy2026
         targetKeywords={['tulsa process server', 'process server tulsa', 'broken arrow process server', 'tulsa county process server']}
         location="Tulsa County, Oklahoma"
         businessName="Just Legal Solutions"

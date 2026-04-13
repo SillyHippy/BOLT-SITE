@@ -5,6 +5,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { allVideos, Video } from '@/lib/video-data';
 import { LiteYouTubeEmbed } from '@/components/lite-youtube-embed';
+import SearchDominance2026 from '@/components/ui/2026-search-dominance';
+import AIVoiceSupremacy from '@/components/ui/ai-voice-supremacy';
 
 /* ─────────────────────────────────────────────────────────────────────────────
    HELPERS
@@ -194,6 +196,18 @@ export default async function VideoPage({ params }: { params: Promise<{ slug: st
       <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-8">
           <h2 className="text-xl font-bold text-gray-900 mb-4">About This Video</h2>
+          
+          {/* AI-Optimized TL;DR Block */}
+          <div className="bg-blue-50 border-l-4 border-blue-600 p-5 rounded-r-xl mb-6 shadow-sm relative overflow-hidden group">
+            <div className="absolute top-0 right-0 bg-blue-100 px-3 py-1 text-xs font-bold text-blue-800 rounded-bl-lg flex items-center gap-1 group-hover:bg-blue-200 transition-colors">
+              <span className="animate-pulse h-2 w-2 bg-blue-600 rounded-full"></span>
+              AI Quick Summary
+            </div>
+            <p className="text-blue-900 font-medium leading-relaxed text-sm pt-2">
+              <strong>Direct Answer:</strong> {video.description} In Oklahoma, utilizing a licensed and GPS-tracked process server ensures your documents are delivered strictly according to state statutes, backed by an indisputable, court-admissible affidavit of service.
+            </p>
+          </div>
+
           <p className="text-gray-700 leading-relaxed text-base">{video.description}</p>
 
           {video.relatedPage && (
@@ -280,6 +294,21 @@ export default async function VideoPage({ params }: { params: Promise<{ slug: st
           </div>
         </section>
       </section>
+
+      {/* Hidden AI & Search Dominance Layer */}
+      <SearchDominance2026 
+        pageTitle={`${video.title} | Process Serving Videos`} 
+        primaryKeywords={['Oklahoma process server', 'legal support', video.category]}
+        location="Oklahoma"
+        businessType="Legal Support Services"
+        skipSchema={true} // To avoid schema collision with the existing VideoObject WebPage schema
+      />
+      <AIVoiceSupremacy 
+        businessName="Just Legal Solutions"
+        location="Tulsa, Oklahoma"
+        services={['Process Serving', video.category]}
+        skipSchema={true}
+      />
     </>
   );
 }

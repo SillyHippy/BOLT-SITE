@@ -1,6 +1,6 @@
-import SearchDominance2025 from '@/components/ui/2025-search-dominance';
+import SearchDominance2026 from '@/components/ui/2026-search-dominance';
 import AIVoiceSupremacy from '@/components/ui/ai-voice-supremacy';
-import RankingSupremacy2025 from '@/components/ui/2025-ranking-supremacy';
+import RankingSupremacy2026 from '@/components/ui/2026-ranking-supremacy';
 import MobileVoiceOptimization from '@/components/ui/mobile-voice-optimization';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 import { getPromoDescription } from '@/lib/promo-utils';
@@ -553,8 +553,8 @@ export default function Home() {
         ]}
       />
 
-      {/* 2025 SEO Dominance Components */}
-      <SearchDominance2025
+      {/* 2026 SEO Dominance Components */}
+      <SearchDominance2026
         pageTitle="Oklahoma's #1 Process Server | Just Legal Solutions"
         primaryKeywords={['process server tulsa', 'process server oklahoma', 'legal document delivery', 'same day process serving']}
         location="Tulsa, Oklahoma"
@@ -570,7 +570,7 @@ export default function Home() {
         skipSchema={true}
       />
 
-      <RankingSupremacy2025
+      <RankingSupremacy2026
         targetKeywords={['process server tulsa', 'process server oklahoma', 'tulsa process server', 'oklahoma process server']}
         location="Tulsa, Oklahoma"
         businessName="Just Legal Solutions"
