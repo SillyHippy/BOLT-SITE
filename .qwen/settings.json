@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "Bash(node *)",
-      "Read(c:\\Users\\ianna\\.openclaw/**)"
+      "Read(c:\\Users\\ianna\\.openclaw/**)",
+      "Bash(dir *)"
     ]
   },
   "$version": 3
