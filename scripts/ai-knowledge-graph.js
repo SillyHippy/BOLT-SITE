@@ -76,7 +76,7 @@ const knowledgeGraph = {
               "name": "Standard Process Serving",
               "description": "Professional legal document service within 5-7 business days"
             },
-            "price": "21.00",
+            "price": PRICING.standard,
             "priceCurrency": "USD",
             "priceValidUntil": "2026-12-31"
           },
@@ -87,7 +87,7 @@ const knowledgeGraph = {
               "name": "Rush Process Serving",
               "description": "Expedited legal document service within 1-3 business days"
             },
-            "price": "52.00",
+            "price": PRICING.rush,
             "priceCurrency": "USD"
           },
           {
@@ -97,7 +97,7 @@ const knowledgeGraph = {
               "name": "Same-Day Process Serving",
               "description": "Urgent legal document service within 24 hours"
             },
-            "price": "105.00",
+            "price": PRICING.sameDay,
             "priceCurrency": "USD"
           },
           {
@@ -107,7 +107,7 @@ const knowledgeGraph = {
               "name": "Skip Tracing",
               "description": "Locate difficult-to-find individuals using database searches"
             },
-            "price": "25.00",
+            "price": PRICING.skipTracing,
             "priceCurrency": "USD"
           }
         ]
