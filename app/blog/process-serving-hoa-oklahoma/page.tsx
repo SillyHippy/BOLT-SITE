@@ -9,8 +9,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Process Serving for HOA & Condo Associations in Oklahoma',
-  description: 'Expert process serving for Oklahoma HOA and condominium associations. Assessment collection lawsuits, covenant violations, foreclosure proceedings, and gated community access. Professional service statewide.',
+  title: 'Process Serving for HOA & Condo Associations Oklahoma',
+  description: 'Expert process serving for Oklahoma HOA and condo associations. Assessment collection, covenant violations, foreclosures, and gated community access.',
   keywords: 'serve HOA papers oklahoma, condo association process serving, HOA lawsuit service, homeowners association process server, condominium assessment collection, HOA foreclosure service',
   openGraph: {
     title: 'Process Serving for HOA & Condo Associations in Oklahoma',
@@ -133,7 +133,7 @@ export default function ProcessServingHOABlog() {
         {/* Main Content */}
         <article className="prose prose-lg prose-blue max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <h2>Understanding Process Serving for Oklahoma Community Associations</h2>
-          
+
           <p>
             <strong>Process serving for homeowners associations (HOAs) and condominium associations</strong> represents a specialized area of legal document delivery that requires knowledge of both Oklahoma civil procedure and the unique statutory framework governing community associations. When Oklahoma HOAs and condo associations need to pursue legal action against homeowners—whether for unpaid assessments, covenant violations, or foreclosure proceedings—proper service of process is the critical first step that can determine the success or failure of the entire legal action.
           </p>
@@ -358,7 +358,7 @@ export default function ProcessServingHOABlog() {
 
           {/* FAQ Section */}
           <h2 id="faq">Frequently Asked Questions About HOA Process Serving in Oklahoma</h2>
-          
+
           <div className="not-prose space-y-4 my-8">
             {faqData.map((faq, index) => (
               <details
@@ -418,9 +418,9 @@ export default function ProcessServingHOABlog() {
             <li><a href="/blog/foreclosure-process-serving-oklahoma/">Foreclosure Process Serving Guide</a></li>
           </ul>
         </article>
-          <div className="mt-12">
-            <AuthorBox />
-          </div>
+        <div className="mt-12">
+          <AuthorBox />
+        </div>
 
         {/* Service Areas Section */}
         <section className="bg-gray-50 py-12">
@@ -445,28 +445,28 @@ export default function ProcessServingHOABlog() {
         </section>
       </main>
 
-          {/* Related Guides */}
-          <section className="mt-12 mb-8 bg-white rounded-2xl shadow-lg border border-gray-100 p-8 md:p-10">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Guides &amp; Resources</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <Link href="/tulsa-process-server" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
-                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Tulsa Process Server — Same-Day from $60</span>
-                <p className="text-sm text-gray-600 mt-1">Licensed Tulsa process server for all document types. GPS-tracked, court-ready affidavits.</p>
-              </Link>
-              <Link href="/process-serving" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
-                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Professional Process Serving Services</span>
-                <p className="text-sm text-gray-600 mt-1">Complete overview of our service offerings and coverage areas across Oklahoma.</p>
-              </Link>
-              <Link href="/pricing" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
-                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Process Server Pricing in Oklahoma</span>
-                <p className="text-sm text-gray-600 mt-1">Transparent flat-rate pricing starting at $60 — no mileage fees, no hidden charges.</p>
-              </Link>
-              <Link href="/oklahoma-process-server-faq" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
-                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server FAQ</span>
-                <p className="text-sm text-gray-600 mt-1">Answers to the most common questions about process serving in Oklahoma.</p>
-              </Link>
-            </div>
-          </section>
+      {/* Related Guides */}
+      <section className="mt-12 mb-8 bg-white rounded-2xl shadow-lg border border-gray-100 p-8 md:p-10">
+        <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Guides &amp; Resources</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <Link href="/tulsa-process-server" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+            <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Tulsa Process Server — Same-Day from $60</span>
+            <p className="text-sm text-gray-600 mt-1">Licensed Tulsa process server for all document types. GPS-tracked, court-ready affidavits.</p>
+          </Link>
+          <Link href="/process-serving" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+            <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Professional Process Serving Services</span>
+            <p className="text-sm text-gray-600 mt-1">Complete overview of our service offerings and coverage areas across Oklahoma.</p>
+          </Link>
+          <Link href="/pricing" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+            <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Process Server Pricing in Oklahoma</span>
+            <p className="text-sm text-gray-600 mt-1">Transparent flat-rate pricing starting at $60 — no mileage fees, no hidden charges.</p>
+          </Link>
+          <Link href="/oklahoma-process-server-faq" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+            <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server FAQ</span>
+            <p className="text-sm text-gray-600 mt-1">Answers to the most common questions about process serving in Oklahoma.</p>
+          </Link>
+        </div>
+      </section>
 
       <Footer />
     </>

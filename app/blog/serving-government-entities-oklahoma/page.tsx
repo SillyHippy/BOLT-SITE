@@ -8,8 +8,8 @@ import UnifiedSchema from '@/components/UnifiedSchema';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata = {
-  title: 'Serving Government Entities in Oklahoma: Complete Legal Guide',
-  description: 'Expert guide to serving government agencies in Oklahoma. Learn the special rules for serving state agencies, cities, counties under the Governmental Tort Claims Act. Professional process serving (539) 367-6832.',
+  title: 'Serving Government Entities in Oklahoma — Complete Legal Guide',
+  description: 'Expert guide to serving government agencies in Oklahoma. Special rules for state agencies, cities, counties under the Governmental Tort Claims Act.',
   keywords: 'serve government agency oklahoma, sue the state of oklahoma service, serve city of tulsa, governmental tort claims act, oklahoma process server government',
   aiSummary: 'Serving government entities in Oklahoma requires following special procedures under the Governmental Tort Claims Act (51 O.S. §151 et seq.). Claims against the state must be filed with the Risk Management Administrator within one year. Cities are served through their City Clerk, counties through the County Clerk. Federal government claims require administrative exhaustion under the Federal Tort Claims Act within two years. Proper notice is jurisdictional and failure to comply bars the claim forever.',
   aiKeyFacts: 'Oklahoma Governmental Tort Claims Act requires written notice within 1 year; State agencies served through Risk Management Administrator; Cities served through City Clerk per 11 O.S. §9-112; Counties served through County Clerk per 19 O.S. §321; Federal claims require 2-year administrative claim period; Lawsuit must be filed within 180 days of claim denial; Damages capped at $175,000 for political subdivisions; Service on Secretary of State available per 12 O.S. §2004',
@@ -80,7 +80,7 @@ export default function ServingGovernmentEntitiesPage() {
         url="https://justlegalsolutions.org/blog/serving-government-entities-oklahoma/"
       />
       <Navbar />
-      
+
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 text-white py-16 md:py-24">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -94,7 +94,7 @@ export default function ServingGovernmentEntitiesPage() {
             Serving Government Entities in Oklahoma
           </h1>
           <p className="text-xl text-blue-100 max-w-3xl mb-8">
-            A comprehensive guide to the special rules and procedures for serving state agencies, 
+            A comprehensive guide to the special rules and procedures for serving state agencies,
             municipalities, counties, and federal entities under Oklahoma law.
           </p>
           <div className="flex flex-wrap items-center gap-6 text-sm text-blue-200">
@@ -169,37 +169,37 @@ export default function ServingGovernmentEntitiesPage() {
         </div>
 
         <p className="lead text-xl text-gray-600">
-          <strong>Serving government entities in Oklahoma</strong> requires understanding and complying 
-          with specialized procedures that differ significantly from serving private parties. The 
-          <strong> Oklahoma Governmental Tort Claims Act (OGTCA)</strong>, codified in Title 51 of the 
-          Oklahoma Statutes, establishes a comprehensive framework for bringing claims against state 
-          agencies, municipalities, counties, and other political subdivisions. These procedures are 
-          jurisdictional in nature, meaning strict compliance is mandatory—and failure to follow them 
+          <strong>Serving government entities in Oklahoma</strong> requires understanding and complying
+          with specialized procedures that differ significantly from serving private parties. The
+          <strong> Oklahoma Governmental Tort Claims Act (OGTCA)</strong>, codified in Title 51 of the
+          Oklahoma Statutes, establishes a comprehensive framework for bringing claims against state
+          agencies, municipalities, counties, and other political subdivisions. These procedures are
+          jurisdictional in nature, meaning strict compliance is mandatory—and failure to follow them
           precisely can result in permanent loss of your right to recover damages.
         </p>
 
         <p>
-          Whether you need to <strong>serve a government agency in Oklahoma</strong>, <strong>sue the State of Oklahoma</strong>, 
-          or <strong>serve the City of Tulsa</strong>, understanding the unique requirements is essential. 
-          This guide provides a detailed overview of the procedures, deadlines, and best practices for 
+          Whether you need to <strong>serve a government agency in Oklahoma</strong>, <strong>sue the State of Oklahoma</strong>,
+          or <strong>serve the City of Tulsa</strong>, understanding the unique requirements is essential.
+          This guide provides a detailed overview of the procedures, deadlines, and best practices for
           successfully navigating government service of process in Oklahoma.
         </p>
 
         <h2>Understanding the Oklahoma Governmental Tort Claims Act</h2>
 
         <p>
-          The Oklahoma Governmental Tort Claims Act (51 O.S. §151 et seq.) represents the state's waiver 
-          of sovereign immunity—the legal doctrine that historically prevented citizens from suing the 
-          government. Under the OGTCA, the state and its political subdivisions consent to be sued for 
-          torts committed by their employees acting within the scope of their employment, subject to 
+          The Oklahoma Governmental Tort Claims Act (51 O.S. §151 et seq.) represents the state's waiver
+          of sovereign immunity—the legal doctrine that historically prevented citizens from suing the
+          government. Under the OGTCA, the state and its political subdivisions consent to be sued for
+          torts committed by their employees acting within the scope of their employment, subject to
           specific limitations and procedural requirements.
         </p>
 
         <p>
-          <strong>Key principle:</strong> The OGTCA notice requirements are jurisdictional. This means 
-          courts lack authority to hear your case unless you have properly and timely presented your 
-          claim to the appropriate government entity. Unlike ordinary statute of limitations issues, 
-          which may be subject to equitable tolling or other exceptions, the OGTCA's notice requirements 
+          <strong>Key principle:</strong> The OGTCA notice requirements are jurisdictional. This means
+          courts lack authority to hear your case unless you have properly and timely presented your
+          claim to the appropriate government entity. Unlike ordinary statute of limitations issues,
+          which may be subject to equitable tolling or other exceptions, the OGTCA's notice requirements
           are strictly enforced.
         </p>
 
@@ -221,15 +221,15 @@ export default function ServingGovernmentEntitiesPage() {
         <h2>The One-Year Notice Requirement: A Strict Deadline</h2>
 
         <p>
-          Perhaps the most critical aspect of the OGTCA is the <strong>one-year notice requirement</strong> 
-          found in 51 O.S. §156. This statute provides that "a claim against the state or a political 
-          subdivision shall be forever barred unless notice thereof is presented within one (1) year after 
+          Perhaps the most critical aspect of the OGTCA is the <strong>one-year notice requirement</strong>
+          found in 51 O.S. §156. This statute provides that "a claim against the state or a political
+          subdivision shall be forever barred unless notice thereof is presented within one (1) year after
           the loss occurs."
         </p>
 
         <p>
-          This deadline contrasts sharply with Oklahoma's two-year statute of limitations for ordinary 
-          tort claims against private parties. The shorter timeframe reflects the government's interest 
+          This deadline contrasts sharply with Oklahoma's two-year statute of limitations for ordinary
+          tort claims against private parties. The shorter timeframe reflects the government's interest
           in prompt notice to investigate claims while evidence is fresh and memories are clear.
         </p>
 
@@ -248,9 +248,9 @@ export default function ServingGovernmentEntitiesPage() {
         </ul>
 
         <p>
-          Importantly, failure to state all required information does not automatically invalidate the 
-          notice unless the claimant "declines or refuses to furnish such information after demand by 
-          the state or political subdivision." This provides some flexibility, but best practice is to 
+          Importantly, failure to state all required information does not automatically invalidate the
+          notice unless the claimant "declines or refuses to furnish such information after demand by
+          the state or political subdivision." This provides some flexibility, but best practice is to
           include all required information in the initial filing.
         </p>
 
@@ -261,26 +261,26 @@ export default function ServingGovernmentEntitiesPage() {
         </p>
 
         <ul>
-          <li><strong>Incapacity extension:</strong> The time for giving notice does not include time 
-          during which the injured person is unable due to incapacitation from the injury, not exceeding 
-          90 days of incapacity.</li>
-          <li><strong>Wrongful death claims:</strong> When the claim is for death by wrongful act or 
-          omission, notice may be presented by the personal representative within one year after the 
-          alleged injury or loss resulting in such death.</li>
+          <li><strong>Incapacity extension:</strong> The time for giving notice does not include time
+            during which the injured person is unable due to incapacitation from the injury, not exceeding
+            90 days of incapacity.</li>
+          <li><strong>Wrongful death claims:</strong> When the claim is for death by wrongful act or
+            omission, notice may be presented by the personal representative within one year after the
+            alleged injury or loss resulting in such death.</li>
         </ul>
 
         <h2>Serving the State of Oklahoma</h2>
 
         <p>
-          When you need to <strong>sue the State of Oklahoma</strong>, proper service requires filing 
-          your claim with the correct state office. Under 51 O.S. §156(C), claims against the state 
+          When you need to <strong>sue the State of Oklahoma</strong>, proper service requires filing
+          your claim with the correct state office. Under 51 O.S. §156(C), claims against the state
           must be:
         </p>
 
         <ul>
           <li>In writing</li>
-          <li>Filed with the <strong>Office of the Risk Management Administrator</strong> of the 
-          Purchasing Division of the Office of Public Affairs</li>
+          <li>Filed with the <strong>Office of the Risk Management Administrator</strong> of the
+            Purchasing Division of the Office of Public Affairs</li>
         </ul>
 
         <p>
@@ -296,8 +296,8 @@ export default function ServingGovernmentEntitiesPage() {
         <h3>Alternative Service Methods</h3>
 
         <p>
-          Under 12 O.S. §2004, service of process on state agencies may also be made through the 
-          <strong>Oklahoma Secretary of State</strong> when direct service is not possible. This method 
+          Under 12 O.S. §2004, service of process on state agencies may also be made through the
+          <strong>Oklahoma Secretary of State</strong> when direct service is not possible. This method
           requires:
         </p>
 
@@ -308,15 +308,15 @@ export default function ServingGovernmentEntitiesPage() {
         </ul>
 
         <p>
-          The Secretary of State must then send notice by certified mail to the agency within three 
+          The Secretary of State must then send notice by certified mail to the agency within three
           working days. The agency has 40 days to respond after service on the Secretary of State.
         </p>
 
         <h2>Serving Cities and Municipalities</h2>
 
         <p>
-          When you need to <strong>serve a city in Oklahoma</strong>, such as the <strong>City of Tulsa</strong> 
-          or Oklahoma City, the procedure differs from serving the state. Under 51 O.S. §156(D), claims 
+          When you need to <strong>serve a city in Oklahoma</strong>, such as the <strong>City of Tulsa</strong>
+          or Oklahoma City, the procedure differs from serving the state. Under 51 O.S. §156(D), claims
           against political subdivisions (including cities) must be:
         </p>
 
@@ -328,7 +328,7 @@ export default function ServingGovernmentEntitiesPage() {
         <h3>The Role of the City Clerk</h3>
 
         <p>
-          Under 11 O.S. §9-112, the <strong>City Clerk</strong> serves as an officer of the city with 
+          Under 11 O.S. §9-112, the <strong>City Clerk</strong> serves as an officer of the city with
           specific duties related to legal document receipt and recordkeeping. The City Clerk:
         </p>
 
@@ -340,9 +340,9 @@ export default function ServingGovernmentEntitiesPage() {
         </ul>
 
         <p>
-          For the City of Tulsa specifically, the City Clerk's office is located at City Hall, 175 E. 2nd St. 
-          The office maintains custody of all official records, including ordinances, resolutions, contracts, 
-          and deeds. When serving the City of Tulsa, your claim should be directed to this office with 
+          For the City of Tulsa specifically, the City Clerk's office is located at City Hall, 175 E. 2nd St.
+          The office maintains custody of all official records, including ordinances, resolutions, contracts,
+          and deeds. When serving the City of Tulsa, your claim should be directed to this office with
           attention to the City Clerk.
         </p>
 
@@ -359,16 +359,16 @@ export default function ServingGovernmentEntitiesPage() {
         </ul>
 
         <p>
-          Once denied (actually or constructively), you have <strong>180 days</strong> to file a lawsuit. 
-          This deadline is strict and cannot be extended except through written agreement during active 
+          Once denied (actually or constructively), you have <strong>180 days</strong> to file a lawsuit.
+          This deadline is strict and cannot be extended except through written agreement during active
           settlement negotiations, and in no event may suit be filed more than two years from the date of loss.
         </p>
 
         <h2>Serving County Governments</h2>
 
         <p>
-          Oklahoma's 77 counties each have their own procedures for receiving legal claims, but all follow 
-          the framework established by the OGTCA. Under 19 O.S. §321, the <strong>County Clerk</strong> 
+          Oklahoma's 77 counties each have their own procedures for receiving legal claims, but all follow
+          the framework established by the OGTCA. Under 19 O.S. §321, the <strong>County Clerk</strong>
           serves as the official custodian of county records and the recipient of legal documents.
         </p>
 
@@ -387,70 +387,70 @@ export default function ServingGovernmentEntitiesPage() {
         </ul>
 
         <p>
-          When serving a county government, your claim should be filed with the County Clerk's office at 
-          the county courthouse. The same one-year notice requirement and 180-day lawsuit deadline apply 
+          When serving a county government, your claim should be filed with the County Clerk's office at
+          the county courthouse. The same one-year notice requirement and 180-day lawsuit deadline apply
           to county claims as to city claims.
         </p>
 
         <h2>Serving State Agencies and Departments</h2>
 
         <p>
-          Oklahoma's numerous state agencies and departments—from the Department of Transportation to 
-          the Department of Human Services—each have designated procedures for receiving legal claims. 
-          While the OGTCA requires filing with the Risk Management Administrator for state-level claims, 
+          Oklahoma's numerous state agencies and departments—from the Department of Transportation to
+          the Department of Human Services—each have designated procedures for receiving legal claims.
+          While the OGTCA requires filing with the Risk Management Administrator for state-level claims,
           understanding agency-specific procedures can help ensure your claim reaches the right people.
         </p>
 
         <h3>Common State Agencies Subject to Service</h3>
 
         <ul>
-          <li><strong>Oklahoma Department of Transportation (ODOT):</strong> Claims related to highway 
-          defects, road maintenance, and traffic incidents</li>
-          <li><strong>Oklahoma Department of Human Services (DHS):</strong> Claims related to foster care, 
-          child welfare, and social services</li>
-          <li><strong>Oklahoma Department of Corrections:</strong> Claims related to prison operations 
-          and inmate conditions</li>
-          <li><strong>Oklahoma Department of Public Safety:</strong> Claims related to law enforcement 
-          activities and highway patrol</li>
-          <li><strong>Oklahoma Department of Health:</strong> Claims related to public health facilities 
-          and services</li>
-          <li><strong>Oklahoma Department of Mental Health:</strong> Claims related to mental health 
-          facilities and services</li>
+          <li><strong>Oklahoma Department of Transportation (ODOT):</strong> Claims related to highway
+            defects, road maintenance, and traffic incidents</li>
+          <li><strong>Oklahoma Department of Human Services (DHS):</strong> Claims related to foster care,
+            child welfare, and social services</li>
+          <li><strong>Oklahoma Department of Corrections:</strong> Claims related to prison operations
+            and inmate conditions</li>
+          <li><strong>Oklahoma Department of Public Safety:</strong> Claims related to law enforcement
+            activities and highway patrol</li>
+          <li><strong>Oklahoma Department of Health:</strong> Claims related to public health facilities
+            and services</li>
+          <li><strong>Oklahoma Department of Mental Health:</strong> Claims related to mental health
+            facilities and services</li>
         </ul>
 
         <p>
-          When serving any state agency, always file your claim with the Risk Management Administrator 
-          and specify the agency involved in your notice. The Risk Management Administrator will ensure 
+          When serving any state agency, always file your claim with the Risk Management Administrator
+          and specify the agency involved in your notice. The Risk Management Administrator will ensure
           proper notification to the agency and the Attorney General's office.
         </p>
 
         <h2>Federal Government Service: The Federal Tort Claims Act</h2>
 
         <p>
-          Claims against the United States government are governed by the <strong>Federal Tort Claims Act 
-          (FTCA)</strong>, 28 U.S.C. §§ 1346(b), 2671-2680. The FTCA provides a limited waiver of the 
-          federal government's sovereign immunity, allowing private parties to sue for injuries caused 
+          Claims against the United States government are governed by the <strong>Federal Tort Claims Act
+            (FTCA)</strong>, 28 U.S.C. §§ 1346(b), 2671-2680. The FTCA provides a limited waiver of the
+          federal government's sovereign immunity, allowing private parties to sue for injuries caused
           by federal employees acting within the scope of their employment.
         </p>
 
         <h3>Administrative Exhaustion Requirement</h3>
 
         <p>
-          A critical feature of the FTCA is the requirement to exhaust administrative remedies before 
-          filing suit. This means you must first file a claim with the specific federal agency involved 
+          A critical feature of the FTCA is the requirement to exhaust administrative remedies before
+          filing suit. This means you must first file a claim with the specific federal agency involved
           and allow the agency an opportunity to resolve the matter administratively.
         </p>
 
         <h3>FTCA Claim Procedure</h3>
 
         <ol>
-          <li><strong>File administrative claim:</strong> Submit Standard Form 95 (SF-95) to the appropriate 
-          federal agency within <strong>two years</strong> of the injury</li>
+          <li><strong>File administrative claim:</strong> Submit Standard Form 95 (SF-95) to the appropriate
+            federal agency within <strong>two years</strong> of the injury</li>
           <li><strong>Agency review:</strong> The agency has six months to investigate and respond to your claim</li>
-          <li><strong>Final denial or inaction:</strong> If the agency denies your claim or fails to respond 
-          within six months, you may proceed to federal court</li>
-          <li><strong>File lawsuit:</strong> You have <strong>six months</strong> from the agency's final 
-          denial to file suit in federal court</li>
+          <li><strong>Final denial or inaction:</strong> If the agency denies your claim or fails to respond
+            within six months, you may proceed to federal court</li>
+          <li><strong>File lawsuit:</strong> You have <strong>six months</strong> from the agency's final
+            denial to file suit in federal court</li>
         </ol>
 
         <h3>Limitations on FTCA Claims</h3>
@@ -460,8 +460,8 @@ export default function ServingGovernmentEntitiesPage() {
         </p>
 
         <ul>
-          <li>Only negligence claims are permitted (not intentional torts, with limited exceptions for 
-          law enforcement officers)</li>
+          <li>Only negligence claims are permitted (not intentional torts, with limited exceptions for
+            law enforcement officers)</li>
           <li>Independent contractors are not covered—only federal employees</li>
           <li>Claims arising in foreign countries are excluded</li>
           <li>Claims arising from combatant activities of the military are excluded</li>
@@ -473,15 +473,15 @@ export default function ServingGovernmentEntitiesPage() {
         <h2>Damage Limitations Under the OGTCA</h2>
 
         <p>
-          In addition to procedural requirements, the OGTCA imposes caps on the amount of damages that 
+          In addition to procedural requirements, the OGTCA imposes caps on the amount of damages that
           can be recovered from governmental entities. Under 51 O.S. §154:
         </p>
 
         <ul>
-          <li><strong>Political subdivisions:</strong> Liability is capped at <strong>$175,000 per claimant</strong> 
-          and <strong>$500,000 per occurrence</strong></li>
-          <li><strong>State of Oklahoma:</strong> Liability is capped at <strong>$175,000 per claimant</strong> 
-          with no aggregate limit per occurrence</li>
+          <li><strong>Political subdivisions:</strong> Liability is capped at <strong>$175,000 per claimant</strong>
+            and <strong>$500,000 per occurrence</strong></li>
+          <li><strong>State of Oklahoma:</strong> Liability is capped at <strong>$175,000 per claimant</strong>
+            with no aggregate limit per occurrence</li>
         </ul>
 
         <p>
@@ -498,22 +498,22 @@ export default function ServingGovernmentEntitiesPage() {
         </ul>
 
         <p>
-          <strong>Important:</strong> Punitive damages are prohibited under the OGTCA. The Act provides 
-          that "no judgment against the state or a political subdivision shall include an award of 
+          <strong>Important:</strong> Punitive damages are prohibited under the OGTCA. The Act provides
+          that "no judgment against the state or a political subdivision shall include an award of
           punitive or exemplary damages."
         </p>
 
         <h2>Common Pitfalls and How to Avoid Them</h2>
 
         <p>
-          Serving government entities presents unique challenges. Here are the most common mistakes 
+          Serving government entities presents unique challenges. Here are the most common mistakes
           and how to avoid them:
         </p>
 
         <h3>1. Missing the One-Year Deadline</h3>
 
         <p>
-          The OGTCA's one-year notice requirement is unforgiving. Courts have consistently held that 
+          The OGTCA's one-year notice requirement is unforgiving. Courts have consistently held that
           failure to provide timely notice is jurisdictional and cannot be excused. To avoid this pitfall:
         </p>
 
@@ -527,7 +527,7 @@ export default function ServingGovernmentEntitiesPage() {
         <h3>2. Serving the Wrong Entity</h3>
 
         <p>
-          Governmental structures can be complex, and determining the correct entity to serve is critical. 
+          Governmental structures can be complex, and determining the correct entity to serve is critical.
           Common errors include:
         </p>
 
@@ -540,7 +540,7 @@ export default function ServingGovernmentEntitiesPage() {
         <h3>3. Inadequate Notice Content</h3>
 
         <p>
-          While the statute provides some flexibility, providing incomplete information can delay your 
+          While the statute provides some flexibility, providing incomplete information can delay your
           claim and create disputes. Always include:
         </p>
 
@@ -554,7 +554,7 @@ export default function ServingGovernmentEntitiesPage() {
         <h3>4. Missing the 180-Day Lawsuit Deadline</h3>
 
         <p>
-          After your claim is denied, you have only 180 days to file suit. This deadline passes quickly, 
+          After your claim is denied, you have only 180 days to file suit. This deadline passes quickly,
           especially if you're engaged in settlement negotiations. Best practices include:
         </p>
 
@@ -568,14 +568,14 @@ export default function ServingGovernmentEntitiesPage() {
         <h2>Best Practices for Serving Government Entities</h2>
 
         <p>
-          Based on our extensive experience serving governmental entities throughout Oklahoma, we recommend 
+          Based on our extensive experience serving governmental entities throughout Oklahoma, we recommend
           the following best practices:
         </p>
 
         <h3>Engage a Professional Process Server</h3>
 
         <p>
-          While Oklahoma law allows self-service, using a <strong>licensed professional process server</strong> 
+          While Oklahoma law allows self-service, using a <strong>licensed professional process server</strong>
           provides significant advantages when serving government entities:
         </p>
 
@@ -589,8 +589,8 @@ export default function ServingGovernmentEntitiesPage() {
         <h3>Verify Entity Status Before Filing</h3>
 
         <p>
-          Before filing your claim, verify that the defendant is indeed a governmental entity covered by 
-          the OGTCA. Some entities that appear governmental may actually be private organizations or 
+          Before filing your claim, verify that the defendant is indeed a governmental entity covered by
+          the OGTCA. Some entities that appear governmental may actually be private organizations or
           independent contractors not subject to the Act.
         </p>
 
@@ -610,7 +610,7 @@ export default function ServingGovernmentEntitiesPage() {
         <h3>Consider Early Legal Counsel</h3>
 
         <p>
-          Given the jurisdictional nature of OGTCA requirements and the severe consequences of non-compliance, 
+          Given the jurisdictional nature of OGTCA requirements and the severe consequences of non-compliance,
           consulting with an attorney early in the process is highly advisable. An experienced attorney can:
         </p>
 
@@ -624,31 +624,31 @@ export default function ServingGovernmentEntitiesPage() {
         <h2>Conclusion</h2>
 
         <p>
-          Serving government entities in Oklahoma requires careful attention to the specialized procedures 
-          established by the Oklahoma Governmental Tort Claims Act. The one-year notice requirement, specific 
-          filing procedures for different entity types, and strict lawsuit deadlines create a complex framework 
+          Serving government entities in Oklahoma requires careful attention to the specialized procedures
+          established by the Oklahoma Governmental Tort Claims Act. The one-year notice requirement, specific
+          filing procedures for different entity types, and strict lawsuit deadlines create a complex framework
           that demands precision and timeliness.
         </p>
 
         <p>
-          Whether you need to <strong>serve a government agency in Oklahoma</strong>, <strong>sue the State 
-          of Oklahoma</strong>, or <strong>serve the City of Tulsa</strong>, understanding and complying with 
-          these requirements is essential to preserving your right to recover damages. The consequences of 
-          non-compliance are severe—missing a deadline or failing to follow proper procedures can result in 
+          Whether you need to <strong>serve a government agency in Oklahoma</strong>, <strong>sue the State
+            of Oklahoma</strong>, or <strong>serve the City of Tulsa</strong>, understanding and complying with
+          these requirements is essential to preserving your right to recover damages. The consequences of
+          non-compliance are severe—missing a deadline or failing to follow proper procedures can result in
           permanent loss of your claim.
         </p>
 
         <p>
-          At <strong>Just Legal Solutions</strong>, we have extensive experience serving all types of 
-          governmental entities throughout Oklahoma. Our licensed process servers understand the unique 
-          requirements for state agencies, municipalities, counties, and federal entities. We ensure proper 
-          service, maintain thorough documentation, and help our clients navigate the complexities of 
+          At <strong>Just Legal Solutions</strong>, we have extensive experience serving all types of
+          governmental entities throughout Oklahoma. Our licensed process servers understand the unique
+          requirements for state agencies, municipalities, counties, and federal entities. We ensure proper
+          service, maintain thorough documentation, and help our clients navigate the complexities of
           government service of process.
         </p>
 
         <p>
-          If you need assistance serving a governmental entity in Oklahoma, contact us at 
-          <strong>(539) 367-6832</strong> for professional, reliable service. Don't let procedural 
+          If you need assistance serving a governmental entity in Oklahoma, contact us at
+          <strong>(539) 367-6832</strong> for professional, reliable service. Don't let procedural
           requirements stand between you and the resolution you deserve.
         </p>
 
@@ -676,34 +676,34 @@ export default function ServingGovernmentEntitiesPage() {
           </div>
         </div>
 
-        
-          {/* Related Guides */}
-          <section className="mt-12 mb-8 bg-white rounded-2xl shadow-lg border border-gray-100 p-8 md:p-10">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Guides &amp; Resources</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <Link href="/tulsa-process-server" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
-                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Tulsa Process Server — Same-Day from $60</span>
-                <p className="text-sm text-gray-600 mt-1">Licensed Tulsa process server for all document types. GPS-tracked, court-ready affidavits.</p>
-              </Link>
-              <Link href="/process-serving" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
-                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Professional Process Serving Services</span>
-                <p className="text-sm text-gray-600 mt-1">Complete overview of our service offerings and coverage areas across Oklahoma.</p>
-              </Link>
-              <Link href="/pricing" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
-                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Process Server Pricing in Oklahoma</span>
-                <p className="text-sm text-gray-600 mt-1">Transparent flat-rate pricing starting at $60 — no mileage fees, no hidden charges.</p>
-              </Link>
-              <Link href="/oklahoma-process-server-faq" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
-                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server FAQ</span>
-                <p className="text-sm text-gray-600 mt-1">Answers to the most common questions about process serving in Oklahoma.</p>
-              </Link>
-            </div>
-          </section>
-          {/* CTA Section */}
+
+        {/* Related Guides */}
+        <section className="mt-12 mb-8 bg-white rounded-2xl shadow-lg border border-gray-100 p-8 md:p-10">
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Guides &amp; Resources</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <Link href="/tulsa-process-server" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+              <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Tulsa Process Server — Same-Day from $60</span>
+              <p className="text-sm text-gray-600 mt-1">Licensed Tulsa process server for all document types. GPS-tracked, court-ready affidavits.</p>
+            </Link>
+            <Link href="/process-serving" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+              <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Professional Process Serving Services</span>
+              <p className="text-sm text-gray-600 mt-1">Complete overview of our service offerings and coverage areas across Oklahoma.</p>
+            </Link>
+            <Link href="/pricing" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+              <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Process Server Pricing in Oklahoma</span>
+              <p className="text-sm text-gray-600 mt-1">Transparent flat-rate pricing starting at $60 — no mileage fees, no hidden charges.</p>
+            </Link>
+            <Link href="/oklahoma-process-server-faq" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+              <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server FAQ</span>
+              <p className="text-sm text-gray-600 mt-1">Answers to the most common questions about process serving in Oklahoma.</p>
+            </Link>
+          </div>
+        </section>
+        {/* CTA Section */}
         <div className="not-prose bg-gradient-to-br from-blue-600 to-blue-800 rounded-xl p-8 text-white my-12">
           <h2 className="text-2xl font-bold mb-4">Need Professional Government Service?</h2>
           <p className="text-blue-100 mb-6">
-            Don't risk your claim with improper service. Our licensed process servers have extensive 
+            Don't risk your claim with improper service. Our licensed process servers have extensive
             experience serving state agencies, cities, counties, and federal entities throughout Oklahoma.
           </p>
           <div className="flex flex-wrap gap-4">
@@ -757,9 +757,9 @@ export default function ServingGovernmentEntitiesPage() {
           </ul>
         </div>
       </article>
-          <div className="mt-12">
-            <AuthorBox />
-          </div>
+      <div className="mt-12">
+        <AuthorBox />
+      </div>
 
       <LocalPromoBanner zips={[]} />
       <Footer />

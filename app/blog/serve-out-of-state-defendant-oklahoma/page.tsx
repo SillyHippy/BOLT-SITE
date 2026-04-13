@@ -8,8 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'How to Serve an Out-of-State Defendant in Oklahoma (2026)',
-  description: 'Learn how to serve papers on an out-of-state defendant in Oklahoma. Covers long-arm statute, interstate service, Hague Convention, and practical solutions.',
+  title: 'Serve an Out-of-State Defendant in Oklahoma (2026)',
+  description: 'Learn how to serve papers on an out-of-state defendant in Oklahoma. Long-arm statute, interstate service, Hague Convention, and solutions.',
   keywords: 'serve papers out of state oklahoma, oklahoma long arm statute service, serve defendant another state oklahoma, out of state service of process oklahoma, hague convention service oklahoma, interstate service of process, 12 O.S. 2004 service, long arm jurisdiction oklahoma',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',

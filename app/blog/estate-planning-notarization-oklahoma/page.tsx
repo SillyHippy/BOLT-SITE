@@ -8,8 +8,8 @@ import { ChevronRight, FileText, Shield, Clock, MapPin, Phone, CheckCircle, Aler
 import Link from "next/link";
 
 export const metadata = {
-  title: "Estate Planning Notarization in Oklahoma | Wills, Trusts & Powers of Attorney",
-  description: "Professional estate planning notarization services in Oklahoma. Mobile notary for wills, trusts, powers of attorney, and advance directives. Self-proving wills under 84 O.S. § 55. Call (539) 367-6832.",
+  title: 'Estate Planning Notarization Oklahoma — Wills, Trusts & POA',
+  description: 'Professional estate planning notarization in Oklahoma. Mobile notary for wills, trusts, POAs. Self-proving wills under 84 O.S. § 55. Call (539) 367-6832.',
   keywords: "estate planning notary oklahoma, will notarization oklahoma, trust notary tulsa, power of attorney notary, advance directive notarization, self-proving will oklahoma, mobile notary estate planning",
   aiSummary: "Estate planning documents in Oklahoma often require notarization to be legally valid and enforceable. Key documents include wills (with self-proving affidavits under 84 O.S. § 55), trusts, powers of attorney, advance directives, and beneficiary designations. Notarization provides authentication, prevents fraud, and facilitates probate. Mobile notary services are available for attorneys, hospitals, and homebound clients throughout Tulsa and Oklahoma.",
   aiKeyFacts: "84 O.S. § 55 governs self-proving wills in Oklahoma; notary fees are $5 per signature traditional, $25 for RON; powers of attorney require notarization under 58 O.S. § 1071; advance directives need two witnesses OR notarization; mobile notary available for estate planning attorneys and hospital situations",
@@ -86,7 +86,7 @@ export default function EstatePlanningNotarizationBlog() {
         description="Professional estate planning notarization services in Oklahoma. Mobile notary for wills, trusts, powers of attorney, and advance directives. Expert guidance on self-proving wills under 84 O.S. § 55."
       />
       <Navbar />
-      
+
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-indigo-900 text-white py-20">
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1920&q=80')] bg-cover bg-center opacity-10" />
@@ -390,7 +390,7 @@ export default function EstatePlanningNotarizationBlog() {
             </div>
           </section>
 
-          
+
           {/* Related Guides */}
           <section className="mt-12 mb-8 bg-white rounded-2xl shadow-lg border border-gray-100 p-8 md:p-10">
             <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Guides &amp; Resources</h2>

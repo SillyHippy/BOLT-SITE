@@ -8,8 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Can You Avoid Being Served? What Really Happens in Oklahoma (2026)',
-  description: 'Thinking about avoiding a process server in Oklahoma? Learn why it doesn\'t work, what evasion means, service by publication, and the real consequences.',
+  title: 'Can You Avoid Being Served in Oklahoma? (2026)',
+  description: 'Thinking about avoiding a process server in Oklahoma? Learn why it doesn\'t work, service by publication, and real consequences. Call (539) 367-6832.',
   keywords: 'can you avoid being served, what happens if you hide from process server, evasion of service oklahoma, avoiding process server consequences, service by publication oklahoma, hide from process server, avoid service oklahoma, process server evasion',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',

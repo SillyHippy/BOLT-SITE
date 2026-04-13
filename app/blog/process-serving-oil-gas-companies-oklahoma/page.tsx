@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Process Serving for Oklahoma Oil & Gas Companies (2026)',
-  description: 'Specialized process serving for Oklahoma oil and gas litigation. Lease disputes, mineral rights, royalty cases, and serving operators at drilling sites.',
+  description: 'Specialized process serving for Oklahoma oil and gas litigation. Lease disputes, mineral rights, royalty cases, and drilling sites.',
   keywords: 'oil and gas litigation oklahoma, serve papers drilling site, process server oil gas oklahoma, mineral rights lawsuit service, royalty dispute service, oil field process serving, oklahoma energy litigation, serve oil company oklahoma',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',

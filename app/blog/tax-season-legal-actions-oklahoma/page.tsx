@@ -8,7 +8,7 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Tax Season & Legal Actions: What Oklahoma Residents Should Know (2026)',
+  title: 'Tax Season & Legal Actions: Oklahoma Guide (2026)',
   description: 'Learn about Oklahoma tax liens, IRS levies, and state tax warrants. How tax-related legal actions are served and what you need to know.',
   keywords: 'oklahoma tax lien process, IRS levy service oklahoma, state tax warrant oklahoma, OTC tax collection, oklahoma tax commission service, federal tax lien oklahoma, tax collection service, respond to tax lien',
   authors: [{ name: 'Just Legal Solutions' }],

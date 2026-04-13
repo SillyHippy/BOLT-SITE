@@ -8,8 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'What Oklahoma Real Estate Agents Should Know About Process Serving (2026)',
-  description: 'Guide for Oklahoma real estate agents on process serving. Contract disputes, escrow issues, HOA enforcement, quiet title actions, and litigation service.',
+  title: 'Process Serving Guide for Oklahoma Real Estate Agents',
+  description: 'Guide for Oklahoma real estate agents on process serving. Contract disputes, escrow issues, HOA enforcement, and quiet title actions.',
   keywords: 'real estate lawsuit oklahoma, serve papers real estate dispute, real estate agent process server, oklahoma real estate litigation, HOA enforcement oklahoma, quiet title action oklahoma, escrow dispute service, property disclosure lawsuit',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',

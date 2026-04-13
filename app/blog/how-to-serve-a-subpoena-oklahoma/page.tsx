@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'How to Serve a Subpoena in Oklahoma (2026 Guide)',
-  description: 'Complete guide to serving subpoenas in Oklahoma. Learn subpoena types, service requirements under 12 O.S. § 2004, witness fees, contempt consequences, and more.',
+  description: 'Complete guide to serving subpoenas in Oklahoma. Subpoena types, 12 O.S. § 2004 service, witness fees, and contempt consequences.',
   keywords: 'how to serve subpoena Oklahoma, Oklahoma subpoena service, subpoena duces tecum Oklahoma, process serving subpoena, 12 O.S. 2004 subpoena, serve witness subpoena Oklahoma',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -94,21 +94,23 @@ const faqs = [
 export default function HowToServeSubpoenaOklahoma() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How to Serve a Subpoena in Oklahoma",
-        "description": "Complete guide to serving subpoenas in Oklahoma, including witness fees, contempt rules, and service methods under 12 O.S. � 2004.",
-        "totalTime": "PT48H",
-        "estimatedCost": { "@type": "MonetaryAmount", "currency": "USD", "value": "60" },
-        "step": [
-    {"@type":"HowToStep","name":"Obtain the Signed Subpoena","text":"An attorney or court clerk must sign the subpoena. Blank subpoena forms are available from the district court clerk or via OSCN."},
-    {"@type":"HowToStep","name":"Attach the Witness Fee","text":"Oklahoma law requires a /day witness fee plus .25/mile roundtrip mileage be tendered with the subpoena at time of service."},
-    {"@type":"HowToStep","name":"Hire a Licensed Process Server","text":"Subpoenas must be served by a licensed process server, sheriff, or attorney. Contact Just Legal Solutions at (539) 367-6832 for same-day service."},
-    {"@type":"HowToStep","name":"Serve the Witness","text":"Process server personally delivers the subpoena and witness fee to the witness. GPS-logged with exact time, date, and location."},
-    {"@type":"HowToStep","name":"Return the Affidavit to Counsel","text":"Server issues a notarized affidavit of service listing all details. File or send to your attorney for the case record."}
-        ]
-      }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "HowTo",
+          "name": "How to Serve a Subpoena in Oklahoma",
+          "description": "Complete guide to serving subpoenas in Oklahoma, including witness fees, contempt rules, and service methods under 12 O.S. � 2004.",
+          "totalTime": "PT48H",
+          "estimatedCost": { "@type": "MonetaryAmount", "currency": "USD", "value": "60" },
+          "step": [
+            { "@type": "HowToStep", "name": "Obtain the Signed Subpoena", "text": "An attorney or court clerk must sign the subpoena. Blank subpoena forms are available from the district court clerk or via OSCN." },
+            { "@type": "HowToStep", "name": "Attach the Witness Fee", "text": "Oklahoma law requires a /day witness fee plus .25/mile roundtrip mileage be tendered with the subpoena at time of service." },
+            { "@type": "HowToStep", "name": "Hire a Licensed Process Server", "text": "Subpoenas must be served by a licensed process server, sheriff, or attorney. Contact Just Legal Solutions at (539) 367-6832 for same-day service." },
+            { "@type": "HowToStep", "name": "Serve the Witness", "text": "Process server personally delivers the subpoena and witness fee to the witness. GPS-logged with exact time, date, and location." },
+            { "@type": "HowToStep", "name": "Return the Affidavit to Counsel", "text": "Server issues a notarized affidavit of service listing all details. File or send to your attorney for the case record." }
+          ]
+        })
+      }} />
       <UnifiedSchema
         pageType="article"
         pageTitle="How to Serve a Subpoena in Oklahoma (2026 Guide)"

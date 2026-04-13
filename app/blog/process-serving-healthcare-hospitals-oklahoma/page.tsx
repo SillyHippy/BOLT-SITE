@@ -8,8 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Process Serving for Oklahoma Healthcare & Hospital Systems (2026)',
-  description: 'Specialized process serving for Oklahoma healthcare. HIPAA considerations, medical malpractice service, hospital policies, and serving medical professionals.',
+  title: 'Process Serving for Oklahoma Healthcare & Hospitals (2026)',
+  description: 'Specialized process serving for Oklahoma healthcare. HIPAA, medical malpractice service, hospital policies, and serving medical professionals.',
   keywords: 'serve hospital oklahoma, medical malpractice service of process, serve doctor oklahoma, hospital process server, HIPAA process serving, serve medical professional oklahoma, healthcare litigation oklahoma, hospital administrator service',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',

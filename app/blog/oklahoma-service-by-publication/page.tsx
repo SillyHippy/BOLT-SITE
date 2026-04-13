@@ -8,11 +8,11 @@ import UnifiedSchema from '@/components/UnifiedSchema';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata = {
-    alternates: {
+  alternates: {
     canonical: 'https://justlegalsolutions.org/blog/oklahoma-service-by-publication',
   },
-title: 'Oklahoma Service by Publication Guide | 12 O.S. § 2004(C)(3) Requirements',
-  description: 'Complete guide to service by publication in Oklahoma. Learn 12 O.S. § 2004(C)(3) requirements, due diligence standards, approved newspapers, costs, and the affidavit process from Just Legal Solutions.',
+  title: 'Service by Publication Oklahoma — 12 O.S. § 2004 Guide',
+  description: 'Complete guide to service by publication in Oklahoma. Learn due diligence, costs, affidavits, and court requirements. Call (539) 367-6832.',
   keywords: 'service by publication oklahoma, 12 O.S. § 2004(C)(3), alternative service oklahoma, constructive service, affidavit of diligent search, oklahoma process server',
   aiSummary: 'Service by publication in Oklahoma is a legal method of notifying defendants when personal service is impossible after due diligence. Under 12 O.S. § 2004(C)(3), plaintiffs must demonstrate exhaustive efforts to locate the defendant, file an affidavit of diligent search, and publish notice in an approved newspaper for four consecutive weeks. Costs range from $200-$600 including court fees, publication charges, and affidavit preparation. This constructive service method allows legal proceedings to continue when defendants cannot be found through traditional means.',
   aiKeyFacts: '12 O.S. § 2004(C)(3) governs service by publication in Oklahoma; Due diligence requires multiple search attempts before court approval; Publication must run 4 consecutive weeks in court-approved newspaper; Affidavit of diligent search must detail all locator efforts; Costs typically $200-$600 total; Defendant has 41 days from first publication to respond; Skip tracing ($35) can help locate defendants before resorting to publication; Only available when defendant\'s whereabouts are unknown despite reasonable efforts',
@@ -72,7 +72,7 @@ const faqs = [
 export default function OklahomaServiceByPublicationGuide() {
   return (
     <>
-      <UnifiedSchema 
+      <UnifiedSchema
         pageType="article"
         title="Oklahoma Service by Publication Guide | 12 O.S. § 2004(C)(3) Requirements"
         description="Complete guide to service by publication in Oklahoma. Learn 12 O.S. § 2004(C)(3) requirements, due diligence standards, approved newspapers, costs, and the affidavit process."
@@ -88,7 +88,7 @@ export default function OklahomaServiceByPublicationGuide() {
         faqs={faqs}
       />
       <Navbar />
-      
+
       <main className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
         {/* Hero Section */}
         <div className="bg-gradient-to-r from-blue-900 via-blue-800 to-blue-900 text-white py-16">
@@ -119,7 +119,7 @@ export default function OklahomaServiceByPublicationGuide() {
 
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <article className="prose prose-lg prose-blue max-w-none">
-            
+
             {/* Quick Answer Box */}
             <div className="not-prose bg-blue-50 border border-blue-200 rounded-xl p-6 my-8">
               <h2 className="text-xl font-bold text-blue-900 mb-4 flex items-center gap-2">
@@ -150,7 +150,7 @@ export default function OklahomaServiceByPublicationGuide() {
             </p>
 
             <h2 id="what-is-service-by-publication">What Is Service by Publication and When Is It Used?</h2>
-            
+
             <p>
               Service by publication, also known as constructive service, is a legal procedure that allows plaintiffs to notify defendants of pending court actions through newspaper publication when personal delivery of process cannot be accomplished. This method serves as a constitutional safeguard ensuring that defendants receive adequate notice while protecting plaintiffs' rights to seek judicial remedies when traditional service proves impossible.
             </p>
@@ -321,8 +321,8 @@ export default function OklahomaServiceByPublicationGuide() {
               <p className="text-amber-800 mb-4">
                 Before committing to expensive publication costs, consider professional skip tracing services. At Just Legal Solutions, our comprehensive skip tracing service costs only <strong>$35</strong> and can often locate defendants who appear to have disappeared. Our advanced databases and investigative techniques have helped countless clients avoid the delays and expenses of service by publication.
               </p>
-              <a 
-                href="tel:539-367-6832" 
+              <a
+                href="tel:539-367-6832"
                 className="inline-flex items-center gap-2 bg-amber-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-amber-700 transition-colors"
               >
                 <Phone className="w-4 h-4" />
@@ -556,15 +556,15 @@ export default function OklahomaServiceByPublicationGuide() {
                 At Just Legal Solutions, our professional skip tracing service costs only <strong>$35</strong> and can often locate defendants who appear unreachable. Successfully locating the defendant through skip tracing eliminates the need for expensive publication costs and provides stronger service validity. Many clients save hundreds of dollars by attempting skip tracing before pursuing publication.
               </p>
               <div className="flex flex-wrap gap-4">
-                <a 
-                  href="tel:539-367-6832" 
+                <a
+                  href="tel:539-367-6832"
                   className="inline-flex items-center gap-2 bg-green-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-green-700 transition-colors"
                 >
                   <Phone className="w-4 h-4" />
                   Call (539) 367-6832
                 </a>
-                <a 
-                  href="/services/skip-tracing" 
+                <a
+                  href="/services/skip-tracing"
                   className="inline-flex items-center gap-2 bg-white text-green-700 border border-green-300 px-4 py-2 rounded-lg font-semibold hover:bg-green-50 transition-colors"
                 >
                   <Search className="w-4 h-4" />
@@ -723,8 +723,8 @@ export default function OklahomaServiceByPublicationGuide() {
 
             <div className="not-prose space-y-4 my-8">
               {faqs.map((faq, index) => (
-                <details 
-                  key={index} 
+                <details
+                  key={index}
                   className="group bg-white border border-gray-200 rounded-lg overflow-hidden"
                 >
                   <summary className="flex items-center justify-between p-4 cursor-pointer hover:bg-gray-50 transition-colors">
@@ -758,15 +758,15 @@ export default function OklahomaServiceByPublicationGuide() {
                 Just Legal Solutions provides comprehensive process serving and skip tracing services throughout Oklahoma. Our experienced team understands the complexities of service by publication and can guide you through every step of the process. From conducting due diligence searches to preparing court documentation, we're here to help.
               </p>
               <div className="flex flex-wrap gap-4">
-                <a 
-                  href="tel:539-367-6832" 
+                <a
+                  href="tel:539-367-6832"
                   className="inline-flex items-center gap-2 bg-white text-blue-900 px-6 py-3 rounded-lg font-bold hover:bg-blue-50 transition-colors"
                 >
                   <Phone className="w-5 h-5" />
                   Call (539) 367-6832
                 </a>
-                <a 
-                  href="/services/process-serving" 
+                <a
+                  href="/services/process-serving"
                   className="inline-flex items-center gap-2 bg-blue-800 text-white border border-blue-700 px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
                 >
                   <FileText className="w-5 h-5" />
@@ -804,28 +804,28 @@ export default function OklahomaServiceByPublicationGuide() {
         <LocalPromoBanner zips={[]} />
       </main>
 
-          {/* Related Guides */}
-          <section className="mt-12 mb-8 bg-white rounded-2xl shadow-lg border border-gray-100 p-8 md:p-10">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Guides &amp; Resources</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <Link href="/tulsa-process-server" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
-                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Tulsa Process Server — Same-Day from $60</span>
-                <p className="text-sm text-gray-600 mt-1">Licensed Tulsa process server for all document types. GPS-tracked, court-ready affidavits.</p>
-              </Link>
-              <Link href="/process-serving" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
-                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Professional Process Serving Services</span>
-                <p className="text-sm text-gray-600 mt-1">Complete overview of our service offerings and coverage areas across Oklahoma.</p>
-              </Link>
-              <Link href="/pricing" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
-                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Process Server Pricing in Oklahoma</span>
-                <p className="text-sm text-gray-600 mt-1">Transparent flat-rate pricing starting at $60 — no mileage fees, no hidden charges.</p>
-              </Link>
-              <Link href="/oklahoma-process-server-faq" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
-                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server FAQ</span>
-                <p className="text-sm text-gray-600 mt-1">Answers to the most common questions about process serving in Oklahoma.</p>
-              </Link>
-            </div>
-          </section>
+      {/* Related Guides */}
+      <section className="mt-12 mb-8 bg-white rounded-2xl shadow-lg border border-gray-100 p-8 md:p-10">
+        <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Guides &amp; Resources</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <Link href="/tulsa-process-server" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+            <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Tulsa Process Server — Same-Day from $60</span>
+            <p className="text-sm text-gray-600 mt-1">Licensed Tulsa process server for all document types. GPS-tracked, court-ready affidavits.</p>
+          </Link>
+          <Link href="/process-serving" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+            <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Professional Process Serving Services</span>
+            <p className="text-sm text-gray-600 mt-1">Complete overview of our service offerings and coverage areas across Oklahoma.</p>
+          </Link>
+          <Link href="/pricing" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+            <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Process Server Pricing in Oklahoma</span>
+            <p className="text-sm text-gray-600 mt-1">Transparent flat-rate pricing starting at $60 — no mileage fees, no hidden charges.</p>
+          </Link>
+          <Link href="/oklahoma-process-server-faq" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+            <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server FAQ</span>
+            <p className="text-sm text-gray-600 mt-1">Answers to the most common questions about process serving in Oklahoma.</p>
+          </Link>
+        </div>
+      </section>
 
 
       <Footer />

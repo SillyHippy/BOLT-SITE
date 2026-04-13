@@ -9,11 +9,11 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-    alternates: {
+  alternates: {
     canonical: 'https://justlegalsolutions.org/blog/bankruptcy-process-serving-oklahoma',
   },
-title: 'Bankruptcy Process Serving in Oklahoma: Complete Guide',
-  description: 'Expert guide to serving bankruptcy papers in Oklahoma. Learn FRBP 7004 requirements, Chapter 7/11/13 service rules, district court procedures, and avoid costly mistakes.',
+  title: 'Bankruptcy Process Serving Oklahoma — FRBP 7004 Guide',
+  description: 'Expert guide to serving bankruptcy papers in Oklahoma. Learn FRBP 7004, Chapter 7/11/13 rules, and deadlines. Service from $60. Call (539) 367-6832.',
   keywords: 'bankruptcy process serving Oklahoma, how to serve bankruptcy papers Oklahoma, bankruptcy process server, chapter 7 service requirements, FRBP 7004, adversary proceeding service, 341 meeting notice',
   openGraph: {
     title: 'Bankruptcy Process Serving in Oklahoma: Complete Guide',
@@ -84,7 +84,7 @@ export default function BankruptcyProcessServingGuide() {
         dateModified="2025-01-15"
       />
       <Navbar />
-      
+
       <main className="min-h-screen bg-white">
         {/* Hero Section */}
         <div className="bg-gradient-to-br from-blue-900 via-blue-800 to-indigo-900 text-white py-16 md:py-24">
@@ -133,7 +133,7 @@ export default function BankruptcyProcessServingGuide() {
 
         {/* Main Content */}
         <article className="prose prose-lg prose-blue max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          
+
           {/* Quick Answer Box */}
           <div className="not-prose bg-blue-50 border border-blue-200 rounded-xl p-6 my-8">
             <h2 className="text-xl font-bold text-blue-900 mb-4 flex items-center gap-2">
@@ -164,19 +164,19 @@ export default function BankruptcyProcessServingGuide() {
           </p>
 
           <h2>Understanding FRBP 7004: The Foundation of Bankruptcy Service</h2>
-          
+
           <p>
             <strong>Federal Rule of Bankruptcy Procedure 7004</strong> is the cornerstone of service of process in bankruptcy cases. This rule incorporates Rule 4 of the Federal Rules of Civil Procedure and establishes specific requirements for serving documents in bankruptcy proceedings. Understanding FRBP 7004 is essential for attorneys, trustees, and process servers handling bankruptcy matters in Oklahoma.
           </p>
 
           <h3>Nationwide Service Authorization</h3>
-          
+
           <p>
             One of the most significant differences between bankruptcy and state court service is that FRBP 7004(d) authorizes <strong>nationwide service of process</strong>. This means summons and complaints, as well as all other process except subpoenas, may be served anywhere in the United States. This provision recognizes the interstate nature of bankruptcy cases and eliminates the jurisdictional complications that often arise in state court litigation.
           </p>
 
           <h3>Service by First-Class Mail</h3>
-          
+
           <p>
             FRBP 7004(b) authorizes service by first-class mail postage prepaid as an alternative to personal delivery in many circumstances. This provision applies to:
           </p>
@@ -190,7 +190,7 @@ export default function BankruptcyProcessServingGuide() {
           </ul>
 
           <h3>The 10-Day Service Requirement</h3>
-          
+
           <p>
             FRBP 7004(f) establishes strict deadlines for completing service. If service is made by personal delivery under Rule 4(d)(1)-(6) F.R.Civ.P., it must be completed <strong>within 10 days following issuance of the summons</strong>. If service is made by mail, the summons and complaint must be <strong>deposited in the mail within 10 days</strong> following issuance. Failure to meet this deadline requires issuance of a new summons.
           </p>
@@ -208,13 +208,13 @@ export default function BankruptcyProcessServingGuide() {
           </div>
 
           <h2>Chapter-Specific Service Requirements</h2>
-          
+
           <p>
             Each chapter of the Bankruptcy Code has unique service requirements tied to the case timeline, parties involved, and procedural milestones. Understanding these differences ensures proper notice and compliance.
           </p>
 
           <h3>Chapter 7: Liquidation Cases</h3>
-          
+
           <p>
             <strong>Chapter 7 bankruptcy</strong>, often called "liquidation bankruptcy," is the most common form of bankruptcy filing. Cases typically last 3-4 months from filing to discharge. Key service requirements include:
           </p>
@@ -232,7 +232,7 @@ export default function BankruptcyProcessServingGuide() {
           </p>
 
           <h3>Chapter 11: Reorganization Cases</h3>
-          
+
           <p>
             <strong>Chapter 11 bankruptcy</strong> allows businesses and individuals to reorganize their finances while continuing operations. These cases are more complex and can last for years. Service requirements include:
           </p>
@@ -247,7 +247,7 @@ export default function BankruptcyProcessServingGuide() {
           </ul>
 
           <h3>Chapter 13: Wage Earner Plans</h3>
-          
+
           <p>
             <strong>Chapter 13 bankruptcy</strong> enables individuals with regular income to repay debts through a 3-5 year plan. Service requirements include:
           </p>
@@ -265,13 +265,13 @@ export default function BankruptcyProcessServingGuide() {
           </p>
 
           <h2>Adversary Proceedings vs. Contested Matters</h2>
-          
+
           <p>
             Understanding the distinction between adversary proceedings and contested matters is crucial for proper service, as both require FRBP 7004 compliance but involve different procedural frameworks.
           </p>
 
           <h3>Adversary Proceedings</h3>
-          
+
           <p>
             An <strong>adversary proceeding</strong> is a separate lawsuit within a bankruptcy case, commenced by filing a complaint and summons. It receives its own case number and is governed by Part VII of the Bankruptcy Rules. Common types include:
           </p>
@@ -289,7 +289,7 @@ export default function BankruptcyProcessServingGuide() {
           </p>
 
           <h3>Contested Matters</h3>
-          
+
           <p>
             A <strong>contested matter</strong> is any dispute in a bankruptcy case resolved by motion rather than a separate lawsuit. Under FRBP 9014, motions initiating contested matters must be served in the same manner as a summons and complaint under Rule 7004. Common contested matters include:
           </p>
@@ -307,13 +307,13 @@ export default function BankruptcyProcessServingGuide() {
           </p>
 
           <h2>341 Meeting of Creditors: Notice and Procedures</h2>
-          
+
           <p>
             The <strong>341 meeting of creditors</strong>, mandated by 11 U.S.C. § 341, is a critical milestone in every bankruptcy case. Despite its name, creditor attendance is rare, but proper notice and debtor attendance are mandatory.
           </p>
 
           <h3>Timing and Notice</h3>
-          
+
           <p>
             In Chapter 7, 12, and 13 cases, the 341 meeting must be held <strong>between 21 and 50 days</strong> after the filing of the petition. In Chapter 11 cases, the meeting is conducted by a representative of the U.S. Trustee rather than a case trustee. The bankruptcy court provides notice of the meeting to all creditors listed in the petition, including:
           </p>
@@ -326,7 +326,7 @@ export default function BankruptcyProcessServingGuide() {
           </ul>
 
           <h3>Oklahoma District Procedures</h3>
-          
+
           <p>
             All three Oklahoma bankruptcy districts have adopted video conferencing for 341 meetings using Zoom for Government. Debtors must:
           </p>
@@ -343,7 +343,7 @@ export default function BankruptcyProcessServingGuide() {
           </p>
 
           <h2>Oklahoma's Three Bankruptcy Districts: Local Procedures</h2>
-          
+
           <p>
             Oklahoma is divided into three federal judicial districts, each with its own bankruptcy court and local procedures. Understanding these distinctions ensures proper filing and service.
           </p>
@@ -382,7 +382,7 @@ export default function BankruptcyProcessServingGuide() {
           </div>
 
           <h3>Electronic Filing and Service</h3>
-          
+
           <p>
             All three Oklahoma districts require attorneys to file documents electronically through the Case Management/Electronic Case Filing (CM/ECF) system. When a document is filed electronically:
           </p>
@@ -396,7 +396,7 @@ export default function BankruptcyProcessServingGuide() {
           </ul>
 
           <h3>Certificate of Service Requirements</h3>
-          
+
           <p>
             Each Oklahoma district requires certificates of service to include specific information:
           </p>
@@ -414,13 +414,13 @@ export default function BankruptcyProcessServingGuide() {
           </p>
 
           <h2>Special Service Rules for Insured Depository Institutions</h2>
-          
+
           <p>
             FRBP 7004(h) establishes special requirements for serving <strong>insured depository institutions</strong> (banks, credit unions, and savings associations) in contested matters and adversary proceedings. These rules are stricter than general service requirements and must be followed precisely.
           </p>
 
           <h3>Certified Mail Requirement</h3>
-          
+
           <p>
             Service on an insured depository institution must be made by <strong>certified mail addressed to an officer of the institution</strong>, unless one of the following exceptions applies:
           </p>
@@ -444,7 +444,7 @@ export default function BankruptcyProcessServingGuide() {
           </div>
 
           <h2>Service on Attorneys Under Rule 9010</h2>
-          
+
           <p>
             FRBP 9010 governs attorney appearances and has significant implications for service of process. When an attorney has entered an appearance for a party in a bankruptcy case:
           </p>
@@ -460,7 +460,7 @@ export default function BankruptcyProcessServingGuide() {
           </p>
 
           <h2>Common Mistakes and How to Avoid Them</h2>
-          
+
           <p>
             Bankruptcy service errors can result in dismissal, delay, or the need to re-serve documents. Here are the most common mistakes and how to avoid them:
           </p>
@@ -506,7 +506,7 @@ export default function BankruptcyProcessServingGuide() {
           </p>
 
           <h2>Timeline Expectations for Bankruptcy Service</h2>
-          
+
           <p>
             Understanding typical timelines helps set realistic expectations for clients and ensures compliance with court deadlines.
           </p>
@@ -551,7 +551,7 @@ export default function BankruptcyProcessServingGuide() {
           </div>
 
           <h2>Why Hire a Professional Bankruptcy Process Server</h2>
-          
+
           <p>
             Bankruptcy service requires specialized knowledge of federal rules, district-specific procedures, and strict deadlines. A professional process server experienced in bankruptcy matters provides:
           </p>
@@ -615,7 +615,7 @@ export default function BankruptcyProcessServingGuide() {
           </div>
 
           <h2>Conclusion</h2>
-          
+
           <p>
             Bankruptcy process serving in Oklahoma requires a thorough understanding of FRBP 7004, chapter-specific requirements, and the procedures of all three federal districts. Whether you're serving an adversary proceeding complaint, a motion in a contested matter, or notices to creditors, compliance with federal rules is essential to avoid dismissal or delay.
           </p>
@@ -629,9 +629,9 @@ export default function BankruptcyProcessServingGuide() {
           </p>
 
         </article>
-          <div className="mt-12">
-            <AuthorBox />
-          </div>
+        <div className="mt-12">
+          <AuthorBox />
+        </div>
 
         {/* FAQ Section */}
         <section className="bg-gray-50 py-12">
@@ -658,30 +658,30 @@ export default function BankruptcyProcessServingGuide() {
           </div>
         </section>
 
-        
-          {/* Related Guides */}
-          <section className="mt-12 mb-8 bg-white rounded-2xl shadow-lg border border-gray-100 p-8 md:p-10">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Guides &amp; Resources</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <Link href="/tulsa-process-server" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
-                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Tulsa Process Server — Same-Day from $60</span>
-                <p className="text-sm text-gray-600 mt-1">Licensed Tulsa process server for all document types. GPS-tracked, court-ready affidavits.</p>
-              </Link>
-              <Link href="/process-serving" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
-                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Professional Process Serving Services</span>
-                <p className="text-sm text-gray-600 mt-1">Complete overview of our service offerings and coverage areas across Oklahoma.</p>
-              </Link>
-              <Link href="/pricing" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
-                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Process Server Pricing in Oklahoma</span>
-                <p className="text-sm text-gray-600 mt-1">Transparent flat-rate pricing starting at $60 — no mileage fees, no hidden charges.</p>
-              </Link>
-              <Link href="/oklahoma-process-server-faq" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
-                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server FAQ</span>
-                <p className="text-sm text-gray-600 mt-1">Answers to the most common questions about process serving in Oklahoma.</p>
-              </Link>
-            </div>
-          </section>
-          {/* CTA Section */}
+
+        {/* Related Guides */}
+        <section className="mt-12 mb-8 bg-white rounded-2xl shadow-lg border border-gray-100 p-8 md:p-10">
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Guides &amp; Resources</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <Link href="/tulsa-process-server" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+              <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Tulsa Process Server — Same-Day from $60</span>
+              <p className="text-sm text-gray-600 mt-1">Licensed Tulsa process server for all document types. GPS-tracked, court-ready affidavits.</p>
+            </Link>
+            <Link href="/process-serving" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+              <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Professional Process Serving Services</span>
+              <p className="text-sm text-gray-600 mt-1">Complete overview of our service offerings and coverage areas across Oklahoma.</p>
+            </Link>
+            <Link href="/pricing" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+              <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Process Server Pricing in Oklahoma</span>
+              <p className="text-sm text-gray-600 mt-1">Transparent flat-rate pricing starting at $60 — no mileage fees, no hidden charges.</p>
+            </Link>
+            <Link href="/oklahoma-process-server-faq" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+              <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server FAQ</span>
+              <p className="text-sm text-gray-600 mt-1">Answers to the most common questions about process serving in Oklahoma.</p>
+            </Link>
+          </div>
+        </section>
+        {/* CTA Section */}
         <section className="bg-blue-900 text-white py-12">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl font-bold mb-4">Need Bankruptcy Documents Served in Oklahoma?</h2>

@@ -8,8 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Oklahoma Default Judgment: What Happens When Someone Doesn\'t Respond (2026)',
-  description: 'What happens if you ignore a lawsuit in Oklahoma? Learn about default judgments, timelines, consequences, and how to set aside a default under Oklahoma law.',
+  title: 'Oklahoma Default Judgment Guide — What Happens If You Don\'t Respond',
+  description: 'What happens if you ignore a lawsuit in Oklahoma? Learn default judgments, timelines, consequences, and how to set one aside. Call (539) 367-6832.',
   keywords: 'oklahoma default judgment, what happens if you ignore a lawsuit oklahoma, default judgment oklahoma civil procedure, didn\'t respond to lawsuit oklahoma, set aside default judgment oklahoma, 20 days to respond oklahoma, default judgment consequences, oklahoma 12 O.S. 2012',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',

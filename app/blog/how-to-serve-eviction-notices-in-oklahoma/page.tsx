@@ -8,8 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'How to Serve Eviction Notices in Oklahoma: Rules & Deadlines',
-  description: 'Complete guide to Oklahoma eviction service rules. Learn the critical difference between Title 41 initial notices (age 12+) and Title 12 FED summonses (age 15+).',
+  title: 'How to Serve Eviction Notices in Oklahoma — Rules & Deadlines',
+  description: 'Complete guide to Oklahoma eviction service rules. Title 41 notices (age 12+) vs Title 12 FED summonses (age 15+). Call (539) 367-6832.',
   keywords: 'Oklahoma eviction notice, how to serve eviction Oklahoma, 5 day notice to quit Oklahoma, FED summons Oklahoma, Title 41 notice, Title 12 summons service',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -85,21 +85,23 @@ const faqs = [
 export default function EvictionNoticeGuide() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How to Serve Eviction Notices in Oklahoma",
-        "description": "Step-by-step guide to serving eviction notices and FED summonses in Oklahoma under Title 41 and Title 12.",
-        "totalTime": "PT72H",
-        "estimatedCost": { "@type": "MonetaryAmount", "currency": "USD", "value": "60" },
-        "step": [
-    {"@type":"HowToStep","name":"Determine the Correct Notice Type","text":"For nonpayment, serve a 5-Day Notice to Quit under Title 41. For lease violations, a 15-Day Notice. For FED lawsuits, use the court-issued FED Summons."},
-    {"@type":"HowToStep","name":"Prepare the Notice with Required Information","text":"Include the tenant's name, property address, reason for eviction, deadline to cure or vacate, and landlord signature."},
-    {"@type":"HowToStep","name":"Hire a Process Server for FED Summons","text":"Title 41 notices (ages 12+) can be served by the landlord. FED Summonses (Title 12) require a licensed process server (age 15+ for substituted service). Call (539) 367-6832."},
-    {"@type":"HowToStep","name":"Serve the Notice","text":"Attempt personal service first. If unavailable, leave with a resident 12+ (Title 41) or 15+ (FED), then mail a copy the same day."},
-    {"@type":"HowToStep","name":"Document and Return Proof of Service","text":"Your process server provides an affidavit of service. File it with the district court clerk to proceed with your FED case."}
-        ]
-      }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "HowTo",
+          "name": "How to Serve Eviction Notices in Oklahoma",
+          "description": "Step-by-step guide to serving eviction notices and FED summonses in Oklahoma under Title 41 and Title 12.",
+          "totalTime": "PT72H",
+          "estimatedCost": { "@type": "MonetaryAmount", "currency": "USD", "value": "60" },
+          "step": [
+            { "@type": "HowToStep", "name": "Determine the Correct Notice Type", "text": "For nonpayment, serve a 5-Day Notice to Quit under Title 41. For lease violations, a 15-Day Notice. For FED lawsuits, use the court-issued FED Summons." },
+            { "@type": "HowToStep", "name": "Prepare the Notice with Required Information", "text": "Include the tenant's name, property address, reason for eviction, deadline to cure or vacate, and landlord signature." },
+            { "@type": "HowToStep", "name": "Hire a Process Server for FED Summons", "text": "Title 41 notices (ages 12+) can be served by the landlord. FED Summonses (Title 12) require a licensed process server (age 15+ for substituted service). Call (539) 367-6832." },
+            { "@type": "HowToStep", "name": "Serve the Notice", "text": "Attempt personal service first. If unavailable, leave with a resident 12+ (Title 41) or 15+ (FED), then mail a copy the same day." },
+            { "@type": "HowToStep", "name": "Document and Return Proof of Service", "text": "Your process server provides an affidavit of service. File it with the district court clerk to proceed with your FED case." }
+          ]
+        })
+      }} />
       <UnifiedSchema
         pageType="article"
         pageTitle="How to Serve Eviction Notices in Oklahoma: Notice Rules, Summons Service, and FED Deadlines"
@@ -345,7 +347,7 @@ export default function EvictionNoticeGuide() {
             <p className="text-xs text-gray-500 mt-4">Reviewed against Oklahoma Statutes (Title 12 and Title 41) in March 2026. Last updated: March 27, 2026</p>
           </div>
 
-          
+
           {/* Related Guides */}
           <section className="mt-12 mb-8 bg-white rounded-2xl shadow-lg border border-gray-100 p-8 md:p-10">
             <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Guides &amp; Resources</h2>

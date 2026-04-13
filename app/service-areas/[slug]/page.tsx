@@ -236,7 +236,10 @@ export async function generateMetadata({
   const locationName = slugToLocationName(slug);
   const rawTitle = extractTitle(content);
   // CTR-optimized title — pricing in metadata, not in FAQs
-  const title = `Process Server ${locationName}, OK | From $60 | Same-Day Available`;
+  const fullTitle = `Process Server ${locationName}, OK | From $60 | Same-Day Available`;
+  const title = fullTitle.length > 60
+    ? `${locationName} Process Server OK | $60+`
+    : fullTitle;
   const description =
     `Licensed process server in ${locationName}, OK. Standard service from $60, rush & same-day available. GPS-tracked, court-ready affidavits. Call (539) 367-6832.`;
 
@@ -323,7 +326,7 @@ export default async function LocationPage({
           'Oklahoma process server',
         ]}
       />
-<main className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+      <main className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
         {/* ── Hero Section ── */}
         <section className="relative bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 text-white pt-28 pb-20 overflow-hidden">
           <div className="absolute top-20 right-10 w-72 h-72 bg-blue-500/20 rounded-full blur-3xl" />
@@ -866,6 +869,6 @@ export default async function LocationPage({
           </div>
         </section>
       </main>
-</>
+    </>
   );
 }

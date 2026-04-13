@@ -8,11 +8,11 @@ import { ChevronRight, FileCheck, Shield, Clock, AlertTriangle, Scale, Gavel, Fi
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-    alternates: {
+  alternates: {
     canonical: 'https://justlegalsolutions.org/blog/proof-of-service-oklahoma-guide',
   },
-title: 'What Is a Proof of Service and Why It Matters in Oklahoma',
-  description: 'Learn what proof of service (affidavit of service) is, Oklahoma legal requirements, what must be included, types of service, and consequences of improper documentation.',
+  title: 'Proof of Service Oklahoma — Complete Guide',
+  description: 'Learn what proof of service is in Oklahoma, legal requirements, and consequences of improper documentation. File with confidence.',
   keywords: 'proof of service oklahoma, affidavit of service oklahoma, what is proof of service, process server documentation, legal service requirements oklahoma',
   openGraph: {
     title: 'What Is a Proof of Service and Why It Matters in Oklahoma',
@@ -143,7 +143,7 @@ export default function ProofOfServiceGuidePage() {
     <>
       <UnifiedSchema pageType="article" pageUrl="/blog/proof-of-service-oklahoma-guide/" />
       <Navbar />
-      
+
       <main className="min-h-screen bg-white">
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 text-white py-16 md:py-24">
@@ -197,7 +197,7 @@ export default function ProofOfServiceGuidePage() {
         {/* Main Content */}
         <article className="prose prose-lg prose-blue max-w-4xl mx-auto px-4 py-12">
           <h2 id="definition">Understanding Proof of Service: The Foundation of Legal Due Process</h2>
-          
+
           <p>
             In the Oklahoma legal system, proper service of process is the cornerstone of due process rights guaranteed by both the United States Constitution and the Oklahoma Constitution. At the heart of this requirement lies the <strong>proof of service</strong> - a seemingly simple document that carries enormous legal weight and can make the difference between a valid judgment and a case dismissed for improper notice.
           </p>
@@ -559,17 +559,17 @@ export default function ProofOfServiceGuidePage() {
             </div>
           </div>
         </article>
-          <div className="mt-12">
-            <AuthorBox />
-          </div>
+        <div className="mt-12">
+          <AuthorBox />
+        </div>
 
         {/* Related Resources */}
         <section className="bg-gray-50 py-12">
           <div className="container mx-auto px-4 max-w-4xl">
             <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Resources</h2>
             <div className="grid md:grid-cols-2 gap-6">
-              <Link 
-                href="/gps-tracked-process-serving/" 
+              <Link
+                href="/gps-tracked-process-serving/"
                 className="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md hover:border-blue-300 transition-all"
               >
                 <div className="flex items-center gap-3 mb-3">
@@ -580,8 +580,8 @@ export default function ProofOfServiceGuidePage() {
                   Learn about our technology-enhanced service with timestamped GPS verification and electronic proof of service documentation.
                 </p>
               </Link>
-              <Link 
-                href="/blog/" 
+              <Link
+                href="/blog/"
                 className="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md hover:border-blue-300 transition-all"
               >
                 <div className="flex items-center gap-3 mb-3">
@@ -597,28 +597,28 @@ export default function ProofOfServiceGuidePage() {
         </section>
       </main>
 
-          {/* Related Guides */}
-          <section className="mt-12 mb-8 bg-white rounded-2xl shadow-lg border border-gray-100 p-8 md:p-10">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Guides &amp; Resources</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <Link href="/tulsa-process-server" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
-                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Tulsa Process Server — Same-Day from $60</span>
-                <p className="text-sm text-gray-600 mt-1">Licensed Tulsa process server for all document types. GPS-tracked, court-ready affidavits.</p>
-              </Link>
-              <Link href="/process-serving" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
-                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Professional Process Serving Services</span>
-                <p className="text-sm text-gray-600 mt-1">Complete overview of our service offerings and coverage areas across Oklahoma.</p>
-              </Link>
-              <Link href="/pricing" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
-                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Process Server Pricing in Oklahoma</span>
-                <p className="text-sm text-gray-600 mt-1">Transparent flat-rate pricing starting at $60 — no mileage fees, no hidden charges.</p>
-              </Link>
-              <Link href="/oklahoma-process-server-faq" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
-                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server FAQ</span>
-                <p className="text-sm text-gray-600 mt-1">Answers to the most common questions about process serving in Oklahoma.</p>
-              </Link>
-            </div>
-          </section>
+      {/* Related Guides */}
+      <section className="mt-12 mb-8 bg-white rounded-2xl shadow-lg border border-gray-100 p-8 md:p-10">
+        <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Guides &amp; Resources</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <Link href="/tulsa-process-server" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+            <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Tulsa Process Server — Same-Day from $60</span>
+            <p className="text-sm text-gray-600 mt-1">Licensed Tulsa process server for all document types. GPS-tracked, court-ready affidavits.</p>
+          </Link>
+          <Link href="/process-serving" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+            <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Professional Process Serving Services</span>
+            <p className="text-sm text-gray-600 mt-1">Complete overview of our service offerings and coverage areas across Oklahoma.</p>
+          </Link>
+          <Link href="/pricing" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+            <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Process Server Pricing in Oklahoma</span>
+            <p className="text-sm text-gray-600 mt-1">Transparent flat-rate pricing starting at $60 — no mileage fees, no hidden charges.</p>
+          </Link>
+          <Link href="/oklahoma-process-server-faq" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+            <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server FAQ</span>
+            <p className="text-sm text-gray-600 mt-1">Answers to the most common questions about process serving in Oklahoma.</p>
+          </Link>
+        </div>
+      </section>
 
 
       <Footer />

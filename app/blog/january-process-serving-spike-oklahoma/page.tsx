@@ -8,8 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Why Process Serving Spikes in January: New Year Divorce & Eviction Season',
-  description: 'Why do legal filings spike in January? Learn about post-holiday divorce filings, lease terminations, and how to prepare for Oklahoma\'s busiest legal season.',
+  title: 'Why Process Serving Spikes in January — Oklahoma',
+  description: 'Why do legal filings spike in January in Oklahoma? Post-holiday divorce filings, lease terminations, and how to prepare.',
   keywords: 'oklahoma divorce filings january, new year divorce statistics, january eviction filings oklahoma, new year legal filings, post holiday divorce, january process serving, new year separation, oklahoma legal season',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',

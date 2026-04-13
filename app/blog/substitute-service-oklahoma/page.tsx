@@ -8,8 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'What Is Substitute Service in Oklahoma and When Is It Allowed? (2026)',
-  description: 'Learn about substitute service in Oklahoma under 12 O.S. § 2004(c). Covers abode service, posting requirements, judicial approval, and documentation.',
+  title: 'What Is Substitute Service in Oklahoma? (2026 Guide)',
+  description: 'Learn about substitute service in Oklahoma under 12 O.S. § 2004(c). Abode service, posting requirements, judicial approval, and documentation.',
   keywords: 'substitute service oklahoma, posting service oklahoma law, abode service oklahoma, substituted service requirements oklahoma, 12 O.S. 2004c, nail and mail oklahoma, service by posting oklahoma, substitute service requirements',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',

@@ -8,8 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'How to Become a Process Server in Oklahoma (2026) | Complete Guide',
-  description: 'Want to become a process server in Oklahoma? Learn license requirements, CLEET certification, surety bonds, costs, training, and what the job is really like.',
+  title: 'How to Become a Process Server in Oklahoma (2026)',
+  description: 'Complete guide to becoming a process server in Oklahoma. License requirements, CLEET, bonds, costs, and training. Call (539) 367-6832.',
   keywords: 'how to become process server oklahoma, process server license oklahoma 2026, oklahoma process server requirements, CLEET process server, surety bond process server oklahoma, process server training oklahoma, become process server tulsa, oklahoma process server exam',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',

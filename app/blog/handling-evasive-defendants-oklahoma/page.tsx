@@ -10,11 +10,11 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-    alternates: {
+  alternates: {
     canonical: 'https://justlegalsolutions.org/blog/handling-evasive-defendants-oklahoma',
   },
-title: 'How to Handle Evasive Defendants in Oklahoma | Process Serving Guide',
-  description: 'Learn proven strategies for serving evasive defendants in Oklahoma. Discover skip tracing techniques, legal due diligence requirements under 12 O.S. § 2004, and when to pursue alternative service methods.',
+  title: 'Handle Evasive Defendants Oklahoma — Process Serving Guide',
+  description: 'Proven strategies for serving evasive defendants in Oklahoma. Skip tracing, due diligence under 12 O.S. § 2004, and alternative service. Call (539) 367-6832.',
   keywords: 'defendant avoiding service oklahoma, hard to serve defendant, skip tracing evasive defendant, Oklahoma process server, service by publication, alternative service methods',
   openGraph: {
     title: 'How to Handle Evasive Defendants in Oklahoma',
@@ -118,7 +118,7 @@ const jsonLd = {
         {
           '@type': 'Question',
           name: 'Should I hire a process server or use the sheriff for evasive defendants?',
-          acceptedAnswer:          {
+          acceptedAnswer: {
             '@type': 'Answer',
             text: 'Professional process servers typically have higher success rates with evasive defendants than sheriff\'s offices. Process servers offer specialized skip tracing, flexible scheduling, stakeout capabilities, and dedicated focus on your service. Sheriffs may have limited time and resources for difficult serves.',
           },
@@ -149,7 +149,7 @@ export default function EvasiveDefendantsPage() {
     <>
       <JsonLd data={jsonLd} />
       <Navbar />
-      
+
       <main className="min-h-screen bg-white">
         {/* Hero Section */}
         <div className="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 text-white py-16 md:py-24">
@@ -183,7 +183,7 @@ export default function EvasiveDefendantsPage() {
 
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <article className="prose prose-lg prose-blue max-w-none">
-            
+
             {/* Quick Answer Box */}
             <div className="not-prose bg-blue-50 border border-blue-200 rounded-xl p-6 my-8">
               <h2 className="text-xl font-bold text-blue-900 mb-4 flex items-center gap-2">
@@ -604,7 +604,7 @@ export default function EvasiveDefendantsPage() {
               <FileText className="w-6 h-6 text-blue-600" />
               Frequently Asked Questions About Evasive Defendants
             </h2>
-            
+
             <div className="space-y-4">
               {[
                 {
@@ -669,7 +669,7 @@ export default function EvasiveDefendantsPage() {
             </div>
           </div>
 
-          
+
           {/* Related Guides */}
           <section className="mt-12 mb-8 bg-white rounded-2xl shadow-lg border border-gray-100 p-8 md:p-10">
             <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Guides &amp; Resources</h2>
@@ -702,15 +702,15 @@ export default function EvasiveDefendantsPage() {
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
-                <a 
-                  href="tel:539-367-6832" 
+                <a
+                  href="tel:539-367-6832"
                   className="inline-flex items-center justify-center gap-2 bg-white text-blue-700 font-semibold px-6 py-3 rounded-lg hover:bg-blue-50 transition-colors"
                 >
                   <Phone className="w-5 h-5" />
                   (539) 367-6832
                 </a>
-                <a 
-                  href="/contact/" 
+                <a
+                  href="/contact/"
                   className="inline-flex items-center justify-center gap-2 bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-600 transition-colors border border-blue-500"
                 >
                   Request Service

@@ -8,8 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'How Oklahoma Bail Bondsmen Work With Process Servers (2026)',
-  description: 'Learn how bail bondsmen and process servers collaborate in Oklahoma. FTA warrants, bond forfeiture, skip tracing, and locating defendants who skip bail.',
+  title: 'Oklahoma Bail Bondsmen & Process Servers (2026)',
+  description: 'How bail bondsmen and process servers work together in Oklahoma. FTA warrants, bond forfeiture, and skip tracing. Call (539) 367-6832.',
   keywords: 'bail bond process serving oklahoma, FTA warrant service oklahoma, bond forfeiture process server, bail bondsman skip tracing, skip bail oklahoma, bail enforcement oklahoma, locate defendant skip bail, bond forfeiture hearing',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',

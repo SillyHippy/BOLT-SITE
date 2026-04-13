@@ -8,8 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Oklahoma Eviction Moratorium History & Current Rules (2026)',
-  description: 'Oklahoma eviction moratorium history and current rules. Learn what protections remain, ERA funds, and what landlords need to know in 2026.',
+  title: 'Oklahoma Eviction Moratorium History & Current Rules',
+  description: 'Oklahoma eviction moratorium history and current rules in 2026. ERA funds, tenant protections, and what landlords need to know.',
   keywords: 'oklahoma eviction rules 2026, oklahoma eviction moratorium, ERA funds oklahoma eviction, post covid eviction oklahoma, eviction protection oklahoma, rental assistance oklahoma, 41 O.S. eviction, oklahoma landlord 2026',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',

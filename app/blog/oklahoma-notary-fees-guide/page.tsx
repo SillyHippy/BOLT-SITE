@@ -8,8 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Oklahoma Notary Fees & Rules 2026 | Complete Guide',
-  description: 'Oklahoma notary fees 2026: $5 max per signature under 49 O.S. § 5. Mobile notary travel fees, RON rates, after-hours surcharges & more. Call (539) 367-6832.',
+  title: 'Oklahoma Notary Fees & Rules 2026 — Complete Guide',
+  description: 'Oklahoma notary fees 2026: $5 max per signature under 49 O.S. § 5. Mobile notary travel fees, RON rates, after-hours surcharges.',
   keywords: 'oklahoma notary fees, how much does notary cost oklahoma, oklahoma notary fee schedule, mobile notary fees tulsa, remote online notarization oklahoma, notary fees 2026, notary fee cap oklahoma, RON notary oklahoma, after hours notary fees',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',

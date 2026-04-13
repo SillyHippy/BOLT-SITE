@@ -9,11 +9,11 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-    alternates: {
+  alternates: {
     canonical: 'https://justlegalsolutions.org/blog/ron-vs-mobile-notary-oklahoma',
   },
-title: 'Remote Online Notarization vs Mobile Notary in Oklahoma | Which Service to Use',
-  description: 'Compare Remote Online Notarization (RON) vs Mobile Notary services in Oklahoma. Learn about Oklahoma RON laws (49 O.S. § 201), costs, document types, and which notary service is right for your needs.',
+  title: 'RON vs Mobile Notary Oklahoma — Which to Use',
+  description: 'Compare Remote Online Notarization vs Mobile Notary in Oklahoma. Learn costs, laws, and which service fits your needs. Call (539) 367-6832.',
   keywords: 'remote online notarization vs mobile notary, RON oklahoma, which notary service to use, online notary Oklahoma, mobile notary Tulsa, virtual notary Oklahoma',
   openGraph: {
     title: 'Remote Online Notarization vs Mobile Notary in Oklahoma',
@@ -98,7 +98,7 @@ export default function RonVsMobileNotaryPage() {
               Remote Online Notarization vs Mobile Notary in Oklahoma
             </h1>
             <p className="text-xl text-blue-100 mb-6 max-w-3xl">
-              A comprehensive guide to choosing between RON and mobile notary services. 
+              A comprehensive guide to choosing between RON and mobile notary services.
               Understand Oklahoma laws, costs, security features, and which option fits your needs.
             </p>
             <div className="flex flex-wrap items-center gap-4 text-sm text-blue-200">
@@ -154,19 +154,19 @@ export default function RonVsMobileNotaryPage() {
 
             {/* Introduction */}
             <p className="lead text-xl text-gray-700 leading-relaxed">
-              <strong>Remote Online Notarization (RON)</strong> and <strong>mobile notary services</strong> represent 
-              the two primary modern alternatives to traditional in-office notarization in Oklahoma. While both 
-              methods provide legally valid notarization under Oklahoma law, they differ significantly in process, 
-              cost, technology requirements, and ideal use cases. Understanding these differences helps you choose 
+              <strong>Remote Online Notarization (RON)</strong> and <strong>mobile notary services</strong> represent
+              the two primary modern alternatives to traditional in-office notarization in Oklahoma. While both
+              methods provide legally valid notarization under Oklahoma law, they differ significantly in process,
+              cost, technology requirements, and ideal use cases. Understanding these differences helps you choose
               the right service for your specific document and situation.
             </p>
 
             <p>
-              Oklahoma has been at the forefront of notarization modernization. The state's 
-              <a href="https://law.justia.com/codes/oklahoma/title-49/section-49-201/" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline"> Remote Online Notary Act (49 O.S. § 201-214)</a>, 
-              effective January 1, 2020, established RON as a permanent legal standard. Simultaneously, 
-              <a href="/mobile-notary/" className="text-blue-600 hover:underline"> mobile notary services</a> continue 
-              to serve clients who prefer or require in-person assistance. This guide examines both options in detail 
+              Oklahoma has been at the forefront of notarization modernization. The state's
+              <a href="https://law.justia.com/codes/oklahoma/title-49/section-49-201/" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline"> Remote Online Notary Act (49 O.S. § 201-214)</a>,
+              effective January 1, 2020, established RON as a permanent legal standard. Simultaneously,
+              <a href="/mobile-notary/" className="text-blue-600 hover:underline"> mobile notary services</a> continue
+              to serve clients who prefer or require in-person assistance. This guide examines both options in detail
               to help you make an informed decision.
             </p>
 
@@ -177,9 +177,9 @@ export default function RonVsMobileNotaryPage() {
             </h2>
 
             <p>
-              Remote Online Notarization (RON) is a process where a notary public and document signer meet 
-              in a real-time, secure audio-video session to complete notarial acts. Under 
-              <strong> 49 O.S. § 202</strong>, RON is defined as "a notarial act performed by means of communication 
+              Remote Online Notarization (RON) is a process where a notary public and document signer meet
+              in a real-time, secure audio-video session to complete notarial acts. Under
+              <strong> 49 O.S. § 202</strong>, RON is defined as "a notarial act performed by means of communication
               technology" where the signer and notary are not in the same physical location.
             </p>
 
@@ -189,27 +189,27 @@ export default function RonVsMobileNotaryPage() {
 
             <ul>
               <li>
-                <strong>Communication Technology:</strong> Under 49 O.S. § 202, this means "an electronic device 
-                or process that allows a notary public and a remotely located individual to communicate with 
+                <strong>Communication Technology:</strong> Under 49 O.S. § 202, this means "an electronic device
+                or process that allows a notary public and a remotely located individual to communicate with
                 each other by sight and sound." The platform must provide clear audio and video throughout the session.
               </li>
               <li>
-                <strong>Identity Verification:</strong> 49 O.S. § 208 requires multi-factor authentication including 
+                <strong>Identity Verification:</strong> 49 O.S. § 208 requires multi-factor authentication including
                 credential analysis of government-issued ID and identity proofing through knowledge-based questions.
               </li>
               <li>
-                <strong>Electronic Signature and Seal:</strong> The notary applies an electronic seal containing 
+                <strong>Electronic Signature and Seal:</strong> The notary applies an electronic seal containing
                 their name, commission number, and expiration date in a tamper-evident format per 49 O.S. § 207.
               </li>
               <li>
-                <strong>Session Recording:</strong> Complete audio-video recording of each notarial act must be 
+                <strong>Session Recording:</strong> Complete audio-video recording of each notarial act must be
                 maintained for 10 years under 49 O.S. § 206.
               </li>
             </ul>
 
             <p>
-              The RON session typically takes 10-15 minutes from start to finish. Signers receive their 
-              notarized documents immediately as tamper-evident PDF files, which can be emailed, uploaded 
+              The RON session typically takes 10-15 minutes from start to finish. Signers receive their
+              notarized documents immediately as tamper-evident PDF files, which can be emailed, uploaded
               to portals, or printed as needed.
             </p>
 
@@ -220,13 +220,13 @@ export default function RonVsMobileNotaryPage() {
             </h2>
 
             <p>
-              Oklahoma's Remote Online Notary Act (49 O.S. § 201-214) provides a comprehensive legal 
+              Oklahoma's Remote Online Notary Act (49 O.S. § 201-214) provides a comprehensive legal
               framework for online notarization. Key provisions include:
             </p>
 
             <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">Registration Requirements (49 O.S. § 204)</h3>
             <p>
-              Notaries must obtain separate RON authorization from the Oklahoma Secretary of State before 
+              Notaries must obtain separate RON authorization from the Oklahoma Secretary of State before
               performing online notarizations. The application requires:
             </p>
             <ul>
@@ -243,15 +243,15 @@ export default function RonVsMobileNotaryPage() {
             <ol>
               <li>Within Oklahoma state boundaries</li>
               <li>In another U.S. state (interstate recognition)</li>
-              <li>Outside the United States, provided the document relates to U.S. jurisdiction, courts, 
-              or property, and the act isn't prohibited by the foreign jurisdiction</li>
+              <li>Outside the United States, provided the document relates to U.S. jurisdiction, courts,
+                or property, and the act isn't prohibited by the foreign jurisdiction</li>
             </ol>
 
             <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">Legal Equivalency (49 O.S. § 211)</h3>
             <p>
-              Perhaps most importantly, 49 O.S. § 211 states that "a remote online notarization under this 
-              act satisfies any requirement of law of this state that a principal appear before, appear 
-              personally before, or be in the physical presence of a notary public." This means RON documents 
+              Perhaps most importantly, 49 O.S. § 211 states that "a remote online notarization under this
+              act satisfies any requirement of law of this state that a principal appear before, appear
+              personally before, or be in the physical presence of a notary public." This means RON documents
               have the same legal weight as traditionally notarized documents in Oklahoma.
             </p>
 
@@ -262,14 +262,14 @@ export default function RonVsMobileNotaryPage() {
             </h2>
 
             <p>
-              <strong>Mobile notary service</strong> involves a commissioned notary public traveling to a 
-              client's chosen location to perform notarial acts in person. Unlike RON, mobile notary maintains 
+              <strong>Mobile notary service</strong> involves a commissioned notary public traveling to a
+              client's chosen location to perform notarial acts in person. Unlike RON, mobile notary maintains
               the traditional face-to-face interaction while adding the convenience of location flexibility.
             </p>
 
             <p>
-              <a href="/mobile-notary/" className="text-blue-600 hover:underline">Just Legal Solutions' mobile notary service</a> 
-              brings professional notarization to homes, offices, hospitals, nursing facilities, coffee shops, 
+              <a href="/mobile-notary/" className="text-blue-600 hover:underline">Just Legal Solutions' mobile notary service</a>
+              brings professional notarization to homes, offices, hospitals, nursing facilities, coffee shops,
               or any location within our service area. This service is particularly valuable for:
             </p>
 
@@ -292,8 +292,8 @@ export default function RonVsMobileNotaryPage() {
             </ul>
 
             <p>
-              Mobile notaries perform the same notarial acts as office-based notaries—including acknowledgments, 
-              jurats, oaths, affirmations, and copy certifications—while providing personalized service and 
+              Mobile notaries perform the same notarial acts as office-based notaries—including acknowledgments,
+              jurats, oaths, affirmations, and copy certifications—while providing personalized service and
               immediate document return.
             </p>
 
@@ -448,7 +448,7 @@ export default function RonVsMobileNotaryPage() {
             </h2>
 
             <p>
-              Most documents can be notarized using either RON or mobile notary services. However, certain 
+              Most documents can be notarized using either RON or mobile notary services. However, certain
               document types and situations may make one method preferable:
             </p>
 
@@ -476,8 +476,8 @@ export default function RonVsMobileNotaryPage() {
 
             <div className="bg-amber-50 border-l-4 border-amber-500 p-4 my-6 not-prose">
               <p className="text-amber-800 text-sm">
-                <strong>Important:</strong> Always verify with your document recipient (county clerk, court, 
-                lender, etc.) that they accept RON-notarized documents before choosing this method. While 
+                <strong>Important:</strong> Always verify with your document recipient (county clerk, court,
+                lender, etc.) that they accept RON-notarized documents before choosing this method. While
                 legally valid under Oklahoma law, some recipients may have specific requirements.
               </p>
             </div>
@@ -489,26 +489,26 @@ export default function RonVsMobileNotaryPage() {
             </h2>
 
             <p>
-              Successful RON sessions require specific technology infrastructure. Under Oklahoma standards 
-              (49 O.S. § 203), RON platforms must meet security and functionality requirements. Here's what 
+              Successful RON sessions require specific technology infrastructure. Under Oklahoma standards
+              (49 O.S. § 203), RON platforms must meet security and functionality requirements. Here's what
               you need as a signer:
             </p>
 
             <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">Required Equipment</h3>
             <ul>
               <li>
-                <strong>Device with camera and microphone:</strong> Desktop computer, laptop, tablet, or 
+                <strong>Device with camera and microphone:</strong> Desktop computer, laptop, tablet, or
                 smartphone with a functioning camera and microphone
               </li>
               <li>
-                <strong>High-speed internet connection:</strong> Stable connection capable of supporting 
+                <strong>High-speed internet connection:</strong> Stable connection capable of supporting
                 real-time video streaming (minimum 1 Mbps upload/download recommended)
               </li>
               <li>
                 <strong>Updated web browser:</strong> Current version of Chrome, Firefox, Safari, or Edge
               </li>
               <li>
-                <strong>Valid government-issued photo ID:</strong> Driver's license, passport, or state ID 
+                <strong>Valid government-issued photo ID:</strong> Driver's license, passport, or state ID
                 for identity verification
               </li>
             </ul>
@@ -519,21 +519,21 @@ export default function RonVsMobileNotaryPage() {
             </p>
             <ol>
               <li>
-                <strong>Remote presentation:</strong> You'll hold your ID up to your camera for the notary 
+                <strong>Remote presentation:</strong> You'll hold your ID up to your camera for the notary
                 to examine
               </li>
               <li>
-                <strong>Credential analysis:</strong> The platform validates your ID against public and 
+                <strong>Credential analysis:</strong> The platform validates your ID against public and
                 private databases
               </li>
               <li>
-                <strong>Identity proofing (KBA):</strong> You'll answer knowledge-based questions drawn 
+                <strong>Identity proofing (KBA):</strong> You'll answer knowledge-based questions drawn
                 from your credit history and public records
               </li>
             </ol>
 
             <p>
-              This multi-layer verification often exceeds the security of traditional notarization, where 
+              This multi-layer verification often exceeds the security of traditional notarization, where
               identity is verified through physical ID examination alone.
             </p>
 
@@ -544,31 +544,31 @@ export default function RonVsMobileNotaryPage() {
             </h2>
 
             <p>
-              Both RON and mobile notary services incorporate security measures, but they differ in approach. 
-              Understanding these differences helps you evaluate which method provides the security level 
+              Both RON and mobile notary services incorporate security measures, but they differ in approach.
+              Understanding these differences helps you evaluate which method provides the security level
               your documents require.
             </p>
 
             <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">RON Security Features</h3>
             <ul>
               <li>
-                <strong>Tamper-evident technology:</strong> Under 49 O.S. § 207, electronic seals must be 
+                <strong>Tamper-evident technology:</strong> Under 49 O.S. § 207, electronic seals must be
                 applied in a format that shows any subsequent alterations
               </li>
               <li>
-                <strong>Complete session recordings:</strong> 10-year retention of audio-video recordings 
+                <strong>Complete session recordings:</strong> 10-year retention of audio-video recordings
                 creates an audit trail unmatched by traditional methods
               </li>
               <li>
-                <strong>Multi-factor identity verification:</strong> Credential analysis plus KBA provides 
+                <strong>Multi-factor identity verification:</strong> Credential analysis plus KBA provides
                 stronger identity assurance than physical ID examination alone
               </li>
               <li>
-                <strong>Electronic journal:</strong> Permanent, tamper-evident record of all notarial acts 
+                <strong>Electronic journal:</strong> Permanent, tamper-evident record of all notarial acts
                 per 49 O.S. § 206
               </li>
               <li>
-                <strong>Encrypted transmission:</strong> Secure communication technology prevents 
+                <strong>Encrypted transmission:</strong> Secure communication technology prevents
                 unauthorized interception
               </li>
             </ul>
@@ -576,22 +576,22 @@ export default function RonVsMobileNotaryPage() {
             <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">Mobile Notary Security Features</h3>
             <ul>
               <li>
-                <strong>Physical ID examination:</strong> Notary examines original government-issued ID 
+                <strong>Physical ID examination:</strong> Notary examines original government-issued ID
                 in person
               </li>
               <li>
-                <strong>Personal knowledge:</strong> Notary may rely on personal knowledge of the signer 
+                <strong>Personal knowledge:</strong> Notary may rely on personal knowledge of the signer
                 when applicable
               </li>
               <li>
                 <strong>Credible witnesses:</strong> Option to use witnesses who personally know the signer
               </li>
               <li>
-                <strong>Immediate document control:</strong> Client maintains physical possession of 
+                <strong>Immediate document control:</strong> Client maintains physical possession of
                 documents throughout
               </li>
               <li>
-                <strong>Traditional paper trail:</strong> Wet signatures and physical seals familiar to 
+                <strong>Traditional paper trail:</strong> Wet signatures and physical seals familiar to
                 all recipients
               </li>
             </ul>
@@ -603,14 +603,14 @@ export default function RonVsMobileNotaryPage() {
             </h2>
 
             <p>
-              Cost is often a deciding factor when choosing between RON and mobile notary services. 
+              Cost is often a deciding factor when choosing between RON and mobile notary services.
               Understanding the fee structures helps you budget appropriately.
             </p>
 
             <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">RON Fees in Oklahoma</h3>
             <p>
-              Under <strong>49 O.S. § 209</strong>, Oklahoma law caps RON fees at <strong>$25 per remote 
-              online notarial act</strong>. This means:
+              Under <strong>49 O.S. § 209</strong>, Oklahoma law caps RON fees at <strong>$25 per remote
+                online notarial act</strong>. This means:
             </p>
             <ul>
               <li>Single document notarization: $25</li>
@@ -618,8 +618,8 @@ export default function RonVsMobileNotaryPage() {
               <li>Each separate document: Additional $25 per document</li>
             </ul>
             <p>
-              At <a href="/notary/" className="text-blue-600 hover:underline">Just Legal Solutions</a>, 
-              we charge the statutory maximum of $25 per RON session, providing transparent, predictable 
+              At <a href="/notary/" className="text-blue-600 hover:underline">Just Legal Solutions</a>,
+              we charge the statutory maximum of $25 per RON session, providing transparent, predictable
               pricing with no hidden fees.
             </p>
 
@@ -636,9 +636,9 @@ export default function RonVsMobileNotaryPage() {
               </li>
             </ul>
             <p>
-              At Just Legal Solutions, our mobile notary service starts at $5 per signature plus a 
-              reasonable travel fee based on your location within the Tulsa metro area. 
-              <a href="/contact/" className="text-blue-600 hover:underline">Contact us</a> for a 
+              At Just Legal Solutions, our mobile notary service starts at $5 per signature plus a
+              reasonable travel fee based on your location within the Tulsa metro area.
+              <a href="/contact/" className="text-blue-600 hover:underline">Contact us</a> for a
               specific quote for your location.
             </p>
 
@@ -763,9 +763,9 @@ export default function RonVsMobileNotaryPage() {
             <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-6">Making Your Decision</h2>
 
             <p>
-              Choosing between RON and mobile notary services depends on your specific circumstances, 
-              document requirements, and personal preferences. Both methods provide legally valid 
-              notarization under Oklahoma law, so your decision should focus on convenience, cost, 
+              Choosing between RON and mobile notary services depends on your specific circumstances,
+              document requirements, and personal preferences. Both methods provide legally valid
+              notarization under Oklahoma law, so your decision should focus on convenience, cost,
               and recipient requirements.
             </p>
 
@@ -784,12 +784,12 @@ export default function RonVsMobileNotaryPage() {
             </ul>
 
             <p>
-              At <a href="/" className="text-blue-600 hover:underline">Just Legal Solutions</a>, we offer 
-              both <a href="/notary/" className="text-blue-600 hover:underline">Remote Online Notarization</a> 
-              and <a href="/mobile-notary/" className="text-blue-600 hover:underline">Mobile Notary services</a> 
-              throughout the Tulsa metropolitan area. Whether you need the convenience of RON from anywhere 
-              or the personalized service of a mobile notary at your location, we're here to help. 
-              <a href="tel:539-367-6832" className="text-blue-600 hover:underline">Call us at (539) 367-6832</a> 
+              At <a href="/" className="text-blue-600 hover:underline">Just Legal Solutions</a>, we offer
+              both <a href="/notary/" className="text-blue-600 hover:underline">Remote Online Notarization</a>
+              and <a href="/mobile-notary/" className="text-blue-600 hover:underline">Mobile Notary services</a>
+              throughout the Tulsa metropolitan area. Whether you need the convenience of RON from anywhere
+              or the personalized service of a mobile notary at your location, we're here to help.
+              <a href="tel:539-367-6832" className="text-blue-600 hover:underline">Call us at (539) 367-6832</a>
               to discuss your needs and get a quote for your specific situation.
             </p>
 
@@ -819,15 +819,15 @@ export default function RonVsMobileNotaryPage() {
             {/* Related Articles */}
             <h2 className="text-2xl font-bold text-gray-900 mt-16 mb-6">Related Articles</h2>
             <div className="not-prose grid md:grid-cols-2 gap-4">
-              <a 
-                href="/blog/oklahoma-notary-requirements/" 
+              <a
+                href="/blog/oklahoma-notary-requirements/"
                 className="block p-4 bg-gray-50 rounded-lg hover:bg-blue-50 transition-colors border border-gray-200 hover:border-blue-300"
               >
                 <h3 className="font-semibold text-blue-900 mb-2">Oklahoma Notary Requirements Guide</h3>
                 <p className="text-sm text-gray-600">Complete guide to Oklahoma notary laws and requirements</p>
               </a>
-              <a 
-                href="/blog/what-is-process-server/" 
+              <a
+                href="/blog/what-is-process-server/"
                 className="block p-4 bg-gray-50 rounded-lg hover:bg-blue-50 transition-colors border border-gray-200 hover:border-blue-300"
               >
                 <h3 className="font-semibold text-blue-900 mb-2">What is a Process Server?</h3>
@@ -844,28 +844,28 @@ export default function RonVsMobileNotaryPage() {
         <LocalPromoBanner zips={[]} />
       </main>
 
-          {/* Related Guides */}
-          <section className="mt-12 mb-8 bg-white rounded-2xl shadow-lg border border-gray-100 p-8 md:p-10">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Guides &amp; Resources</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <Link href="/tulsa-process-server" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
-                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Tulsa Process Server — Same-Day from $60</span>
-                <p className="text-sm text-gray-600 mt-1">Licensed Tulsa process server for all document types. GPS-tracked, court-ready affidavits.</p>
-              </Link>
-              <Link href="/process-serving" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
-                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Professional Process Serving Services</span>
-                <p className="text-sm text-gray-600 mt-1">Complete overview of our service offerings and coverage areas across Oklahoma.</p>
-              </Link>
-              <Link href="/pricing" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
-                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Process Server Pricing in Oklahoma</span>
-                <p className="text-sm text-gray-600 mt-1">Transparent flat-rate pricing starting at $60 — no mileage fees, no hidden charges.</p>
-              </Link>
-              <Link href="/oklahoma-process-server-faq" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
-                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server FAQ</span>
-                <p className="text-sm text-gray-600 mt-1">Answers to the most common questions about process serving in Oklahoma.</p>
-              </Link>
-            </div>
-          </section>
+      {/* Related Guides */}
+      <section className="mt-12 mb-8 bg-white rounded-2xl shadow-lg border border-gray-100 p-8 md:p-10">
+        <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Guides &amp; Resources</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <Link href="/tulsa-process-server" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+            <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Tulsa Process Server — Same-Day from $60</span>
+            <p className="text-sm text-gray-600 mt-1">Licensed Tulsa process server for all document types. GPS-tracked, court-ready affidavits.</p>
+          </Link>
+          <Link href="/process-serving" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+            <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Professional Process Serving Services</span>
+            <p className="text-sm text-gray-600 mt-1">Complete overview of our service offerings and coverage areas across Oklahoma.</p>
+          </Link>
+          <Link href="/pricing" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+            <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Process Server Pricing in Oklahoma</span>
+            <p className="text-sm text-gray-600 mt-1">Transparent flat-rate pricing starting at $60 — no mileage fees, no hidden charges.</p>
+          </Link>
+          <Link href="/oklahoma-process-server-faq" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+            <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server FAQ</span>
+            <p className="text-sm text-gray-600 mt-1">Answers to the most common questions about process serving in Oklahoma.</p>
+          </Link>
+        </div>
+      </section>
 
       <Footer />
     </>
