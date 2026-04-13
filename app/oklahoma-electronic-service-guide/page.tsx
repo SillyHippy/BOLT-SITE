@@ -6,15 +6,15 @@ import JsonLd from '../../components/JsonLd';
 const canonicalUrl = 'https://justlegalsolutions.org/oklahoma-electronic-service-guide';
 
 export const metadata: Metadata = {
-  title: 'Complete Guide to Electronic Service in Oklahoma: E-Filing and Email Service Requirements (2026)',
-  description: 'Complete guide to electronic service in Oklahoma for 2026 including email service requirements, e-filing protocols, and court acceptance procedures.',
+  title: 'Oklahoma Electronic Service Guide 2026 | E-Filing & Email',
+  description: 'Complete guide to electronic service in Oklahoma for 2026 including email service requirements, e-filing protocols, and court acceptance procedures. Get expert help.',
   keywords: 'Oklahoma electronic service, email service, e-filing, process server, legal technology,  2026',
   alternates: {
     canonical: canonicalUrl
   },
   openGraph: {
-    title: 'Complete Guide to Electronic Service in Oklahoma: 2026 E-Filing and Email Service Requirements',
-    description: 'Complete 2026 guide to electronic service in Oklahoma including email service requirements, e-filing protocols, and court acceptance procedures.',
+    title: 'Oklahoma Electronic Service Guide 2026',
+    description: 'Complete 2026 guide to electronic service in Oklahoma including email service requirements, e-filing protocols, and court acceptance.',
     url: canonicalUrl,
     type: 'article',
     siteName: 'Just Legal Solutions',
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Complete Guide to Electronic Service in Oklahoma: 2026 E-Filing and Email Service Requirements',
-    description: 'Complete 2026 guide to electronic service in Oklahoma including email service requirements, e-filing protocols, and court acceptance procedures.',
+    title: 'Oklahoma Electronic Service Guide 2026',
+    description: 'Complete 2026 guide to electronic service in OK including email service, e-filing protocols, and court acceptance.',
     site: '@JustLegalSolutions',
     creator: '@JustLegalSolutions'
   },
@@ -49,8 +49,8 @@ const articleSchema = {
   },
   "publisher": {
     "@type": "Organization",
-"foundingDate": "2025-03-01",
-"description": "Professional process serving with over 50 years combined industry experience",
+    "foundingDate": "2025-03-01",
+    "description": "Professional process serving with over 50 years combined industry experience",
     "name": "Just Legal Solutions",
     "logo": {
       "@type": "ImageObject",
@@ -81,7 +81,7 @@ export default function OklahomaElectronicServiceGuide() {
           <p className="mb-4">
             Electronic service transforms traditional legal document delivery by providing instant confirmation, reducing costs by up to 80%, and eliminating geographic barriers that delay traditional service. However, improper electronic service can result in case dismissals and due process violations. Understanding current Oklahoma requirements protects your cases while leveraging technology advantages.
           </p>
-          
+
           <h3 className="text-xl font-bold mb-2">Key Benefits of Electronic Service:</h3>
           <ul className="list-disc ml-6 mb-4">
             <li>Instant delivery confirmation with detailed tracking</li>
@@ -95,7 +95,7 @@ export default function OklahomaElectronicServiceGuide() {
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-2">Legal Framework for Electronic Service in Oklahoma</h2>
-          
+
           <h3 className="text-xl font-bold mb-2">Statutory Authorization Under 12 O.S. § 2004.5 and Court Rules</h3>
           <p className="mb-4">
             Oklahoma’s electronic service framework is governed primarily by <strong>12 O.S. § 2004.5</strong> and applicable Oklahoma Supreme Court rules. (Note: 12 O.S. § 158.1 governs <em>licensing and bonding</em> for private process servers—it is not the electronic service statute.) Electronic service is generally permitted for <strong>subsequent filings and consent-based service</strong>, not for initial service of a summons and petition unless a specific statute or court order allows it.
@@ -104,9 +104,9 @@ export default function OklahomaElectronicServiceGuide() {
           <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-6">
             <p className="text-sm text-yellow-800"><strong>Important Distinction:</strong> Initial service of process (the original summons and petition) is governed by <strong>12 O.S. § 2004</strong>, which generally requires personal delivery, substituted service, or another method specifically authorized in that statute. Electronic service under § 2004.5 applies primarily to subsequent filings, discovery, and situations where a court order or written consent permits it. Always verify with applicable court rules and the presiding judge’s preferences.</p>
           </div>
-          
+
           <h4 className="text-lg font-semibold mb-2">Core Statutory Requirements:</h4>
-          
+
           <div className="mb-4">
             <h5 className="font-semibold mb-2">Express Written Consent:</h5>
             <ul className="list-disc ml-6 mb-4">
@@ -143,7 +143,7 @@ export default function OklahomaElectronicServiceGuide() {
           <p className="mb-4">
             Supreme Court rules supplement statutory requirements with specific procedural guidelines that ensure uniformity across Oklahoma&apos;s judicial system.
           </p>
-          
+
           <h3 className="text-xl font-bold mb-2">Service Completion Standards:</h3>
           <ul className="list-disc ml-6 mb-4">
             <li>Electronic service complete upon successful transmission to designated address</li>
@@ -151,7 +151,7 @@ export default function OklahomaElectronicServiceGuide() {
             <li>Time calculation modifications account for electronic transmission timing</li>
             <li>Weekend and holiday transmission rules clarified for electronic service</li>
           </ul>
-          
+
           <h3 className="text-xl font-bold mb-2">Documentation and Record-Keeping Requirements:</h3>
           <ul className="list-disc ml-6 mb-4">
             <li>Complete electronic service documentation package required for court filing</li>
@@ -163,14 +163,14 @@ export default function OklahomaElectronicServiceGuide() {
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-2">Comprehensive Consent Procedures and Documentation</h2>
-          
+
           <h3 className="text-xl font-bold mb-2">Obtaining Valid Electronic Service Consent</h3>
           <p className="mb-4">
             Proper consent forms the foundation of valid electronic service. Oklahoma courts strictly enforce consent requirements, making comprehensive documentation essential for service validity.
           </p>
-          
+
           <h4 className="text-lg font-semibold mb-2">Essential Consent Form Elements:</h4>
-          
+
           <div className="mb-4">
             <h5 className="font-semibold mb-2">Specific Email Address Designation:</h5>
             <ul className="list-disc ml-6 mb-4">
@@ -202,7 +202,7 @@ export default function OklahomaElectronicServiceGuide() {
           </div>
 
           <h4 className="text-lg font-semibold mb-2">Court Filing Procedures for Consent:</h4>
-          
+
           <div className="mb-4">
             <h5 className="font-semibold mb-2">Electronic Filing System Integration:</h5>
             <ul className="list-disc ml-6 mb-4">
@@ -226,14 +226,14 @@ export default function OklahomaElectronicServiceGuide() {
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-2">Email Service Technical Requirements and Standards</h2>
-          
+
           <h3 className="text-xl font-bold mb-2">Acceptable Delivery Confirmation Methods</h3>
           <p className="mb-4">
             Oklahoma courts require reliable delivery confirmation that provides verifiable proof of electronic service completion.
           </p>
-          
+
           <h4 className="text-lg font-semibold mb-2">Primary Confirmation Systems:</h4>
-          
+
           <div className="mb-4">
             <h5 className="font-semibold mb-2">Read Receipts and Delivery Status Notifications (DSN):</h5>
             <ul className="list-disc ml-6 mb-4">
