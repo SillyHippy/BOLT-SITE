@@ -252,7 +252,7 @@ export default function MayesCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"
+        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/mayes-county"
         title="Process Server Mayes County, OK | Pryor"
         description="Licensed process server in Mayes County, Oklahoma. Serving Pryor, Chouteau, and all surrounding communities."
@@ -267,3 +267,4 @@ export default function MayesCountyCountyPage() {
     </div>
   );
 }
+

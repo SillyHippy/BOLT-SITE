@@ -249,7 +249,7 @@ export default function JacksonCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"
+        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/jackson-county"
         title="Process Server Jackson County, OK | Altus"
         description="Licensed process server in Jackson County, Oklahoma. Serving Altus, Blair, and all surrounding communities."
@@ -264,3 +264,4 @@ export default function JacksonCountyCountyPage() {
     </div>
   );
 }
+

@@ -252,7 +252,7 @@ export default function CusterCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"
+        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/custer-county"
         title="Process Server Custer County, OK | Clinton & Western Oklahoma"
         description="Licensed process server in Custer County, Oklahoma. Serving Clinton, Weatherford, and all surrounding communities in western Oklahoma."
@@ -267,3 +267,4 @@ export default function CusterCountyCountyPage() {
     </div>
   );
 }
+

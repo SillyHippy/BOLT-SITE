@@ -248,7 +248,7 @@ export default function LoganCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"
+        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/logan-county"
         title="Process Server Logan County, OK | Guthrie"
         description="Licensed process server in Logan County, Oklahoma. Serving Guthrie, Crescent, and all surrounding communities."
@@ -263,3 +263,4 @@ export default function LoganCountyCountyPage() {
     </div>
   );
 }
+

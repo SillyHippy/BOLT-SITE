@@ -248,7 +248,7 @@ export default function KayCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"
+        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/kay-county"
         title="Process Server Kay County, OK | Newkirk"
         description="Licensed process server in Kay County, Oklahoma. Serving Newkirk, Ponca City, and all surrounding communities."
@@ -263,3 +263,4 @@ export default function KayCountyCountyPage() {
     </div>
   );
 }
+

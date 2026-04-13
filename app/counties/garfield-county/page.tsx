@@ -249,7 +249,7 @@ export default function GarfieldCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"
+        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/garfield-county"
         title="Process Server Garfield County, OK | Enid"
         description="Licensed process server in Garfield County, Oklahoma. Serving Enid, North Enid, and all surrounding communities."
@@ -264,3 +264,4 @@ export default function GarfieldCountyCountyPage() {
     </div>
   );
 }
+

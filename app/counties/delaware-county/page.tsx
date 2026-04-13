@@ -252,7 +252,7 @@ export default function DelawareCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"
+        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/delaware-county"
         title="Process Server Delaware County, OK | Jay"
         description="Licensed process server in Delaware County, Oklahoma. Serving Jay, Grove, and all surrounding communities."
@@ -267,3 +267,4 @@ export default function DelawareCountyCountyPage() {
     </div>
   );
 }
+

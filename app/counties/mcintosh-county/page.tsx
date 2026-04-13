@@ -249,7 +249,7 @@ export default function McintoshCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"
+        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/mcintosh-county"
         title="Process Server McIntosh County, OK | Eufaula"
         description="Licensed process server in McIntosh County, Oklahoma. Serving Eufaula, Checotah, and all surrounding communities."
@@ -264,3 +264,4 @@ export default function McintoshCountyCountyPage() {
     </div>
   );
 }
+

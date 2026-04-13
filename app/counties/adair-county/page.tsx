@@ -251,7 +251,7 @@ export default function AdairCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"
+        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/adair-county"
         title="Process Server Adair County, OK | Stilwell"
         description="Licensed process server in Adair County, Oklahoma. Serving Stilwell, Westville, and all surrounding communities."
@@ -266,3 +266,4 @@ export default function AdairCountyCountyPage() {
     </div>
   );
 }
+

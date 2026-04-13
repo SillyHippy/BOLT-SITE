@@ -248,7 +248,7 @@ export default function CimarronCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"
+        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/cimarron-county"
         title="Process Server Cimarron County, OK | Boise City"
         description="Licensed process server in Cimarron County, Oklahoma. Serving Boise City, Keyes, and all surrounding communities."
@@ -263,3 +263,4 @@ export default function CimarronCountyCountyPage() {
     </div>
   );
 }
+

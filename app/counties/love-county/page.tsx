@@ -248,7 +248,7 @@ export default function LoveCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"
+        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/love-county"
         title="Process Server Love County, OK | Marietta"
         description="Licensed process server in Love County, Oklahoma. Serving Marietta, Thackerville, and all surrounding communities."
@@ -263,3 +263,4 @@ export default function LoveCountyCountyPage() {
     </div>
   );
 }
+

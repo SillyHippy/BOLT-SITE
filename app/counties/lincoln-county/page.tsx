@@ -248,7 +248,7 @@ export default function LincolnCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"
+        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/lincoln-county"
         title="Process Server Lincoln County, OK | Chandler"
         description="Licensed process server in Lincoln County, Oklahoma. Serving Chandler, Prague, Stroud, and all surrounding communities."
@@ -263,3 +263,4 @@ export default function LincolnCountyCountyPage() {
     </div>
   );
 }
+

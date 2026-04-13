@@ -252,7 +252,7 @@ export default function RogersCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"
+        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/rogers-county"
         title="Process Server Rogers County, OK | Claremore"
         description="Licensed process server in Rogers County, Oklahoma. Serving Claremore, Catoosa, and all surrounding communities."
@@ -267,3 +267,4 @@ export default function RogersCountyCountyPage() {
     </div>
   );
 }
+

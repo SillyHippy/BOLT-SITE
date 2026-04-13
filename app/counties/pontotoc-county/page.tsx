@@ -252,7 +252,7 @@ export default function PontotocCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"
+        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/pontotoc-county"
         title="Process Server Pontotoc County, OK | Ada"
         description="Licensed process server in Pontotoc County, Oklahoma. Serving Ada, Latta, and all surrounding communities."
@@ -267,3 +267,4 @@ export default function PontotocCountyCountyPage() {
     </div>
   );
 }
+

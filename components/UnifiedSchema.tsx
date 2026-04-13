@@ -1,5 +1,5 @@
 import React from 'react';
-import Script from 'next/script';
+// import Script from 'next/script';
 
 interface UnifiedSchemaProps {
   pageType: 'home' | 'service' | 'article' | 'faq' | 'location' | 'generic';
@@ -259,7 +259,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
   // Base Organization schema that will be included in all pages
   const organizationSchema: any = {
     '@type': (pageType === 'location' || pageType === 'home' || pageType === 'service') ?
-      ['Organization', 'LocalBusiness', 'ProfessionalService'] : ['Organization', 'LocalBusiness'],
+      ['Organization', 'LocalBusiness', 'LegalService'] : ['Organization', 'LocalBusiness', 'LegalService'],
     '@id': 'https://justlegalsolutions.org/#organization',
     name: organization.name,
     alternateName: [
@@ -720,10 +720,9 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
   };
 
   return (
-    <Script
+    <script
       id={`unified-schema-${pageType}`}
       type="application/ld+json"
-      strategy="beforeInteractive"
       dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
     />
   );

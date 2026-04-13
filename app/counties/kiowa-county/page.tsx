@@ -248,7 +248,7 @@ export default function KiowaCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"
+        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/kiowa-county"
         title="Process Server Kiowa County, OK | Hobart"
         description="Licensed process server in Kiowa County, Oklahoma. Serving Hobart, Snyder, and all surrounding communities."
@@ -263,3 +263,4 @@ export default function KiowaCountyCountyPage() {
     </div>
   );
 }
+

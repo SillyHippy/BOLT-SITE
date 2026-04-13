@@ -1,396 +1,1059 @@
 {
-  "TotalPagesChecked": 19,
-  "PagesWithIssues": 19,
+  "TotalPagesChecked": 56,
   "Results": [
     {
+      "Schemas": null,
+      "MissingFields": [],
+      "Duplicates": {},
+      "SchemaCount": 0,
+      "PagePath": "/app\\service-areas\\[slug]\\page.tsx"
+    },
+    {
+      "PagePath": "/app\\service-areas\\ada\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
       "Schemas": {
-        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\bartlesville\\page.tsx",
         "Type": "UnifiedSchema",
         "Properties": {
+          "pageType": "location",
+          "description": "Licensed process server in Ada, Oklahoma. Serving Pontotoc County District Court, East Central University, and the Chickasaw Nation.",
           "image": "MISSING",
-          "description": "Professional process serving in Bartlesville, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service",
-          "url": "https://justlegalsolutions.org/service-areas/bartlesville",
-          "title": "Just Legal Solutions - Bartlesville",
-          "pageType": "service"
-        }
-      },
+          "url": "https://justlegalsolutions.org/service-areas/ada",
+          "title": "Ada Process Server Service Area"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\ada\\page.tsx"
+      }
+    },
+    {
+      "PagePath": "/app\\service-areas\\altus\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "Schemas": {
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "pageType": "location",
+          "description": "Licensed process server in Altus, Oklahoma. Serving Jackson County District Court, Altus Air Force Base, and southwest Oklahoma.",
+          "image": "MISSING",
+          "url": "https://justlegalsolutions.org/service-areas/altus",
+          "title": "Altus Process Server Service Area"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\altus\\page.tsx"
+      }
+    },
+    {
+      "PagePath": "/app\\service-areas\\ardmore\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "Schemas": {
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "pageType": "location",
+          "description": "Licensed process server in Ardmore, Oklahoma. Serving Carter County District Court and the south-central Oklahoma corridor.",
+          "image": "MISSING",
+          "url": "https://justlegalsolutions.org/service-areas/ardmore",
+          "title": "Ardmore Process Server Service Area"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\ardmore\\page.tsx"
+      }
+    },
+    {
+      "PagePath": "/app\\service-areas\\atoka\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "Schemas": {
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "pageType": "location",
+          "description": "Licensed process server in Atoka, Oklahoma. Serving Atoka County District Court and southeast Oklahoma. Rush and same-day available.",
+          "image": "MISSING",
+          "url": "https://justlegalsolutions.org/service-areas/atoka",
+          "title": "Atoka Process Server Service Area"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\atoka\\page.tsx"
+      }
+    },
+    {
       "PagePath": "/app\\service-areas\\bartlesville\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
       "MissingFields": [
         "Image field missing in UnifiedSchema"
       ],
-      "SchemaCount": 3,
-      "Duplicates": {}
+      "Schemas": {
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "pageType": "location",
+          "description": "Licensed process server in Bartlesville, Oklahoma. GPS-tracked and court-ready. Call (539) 367-6832.",
+          "image": "MISSING",
+          "url": "https://justlegalsolutions.org/service-areas/bartlesville",
+          "title": "Bartlesville Process Server Service Area"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\bartlesville\\page.tsx"
+      }
     },
     {
-      "Schemas": [
-        {
-          "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\bixby\\page.tsx",
-          "Type": "UnifiedSchema",
-          "Properties": {
-            "image": "MISSING",
-            "description": "Professional process serving in Bixby, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service",
-            "url": "https://justlegalsolutions.org/service-areas/bixby",
-            "title": "Bixby Process Serving | Civil & Family Court Documents",
-            "pageType": "location"
-          }
-        },
-        {
-          "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\bixby\\page.tsx",
-          "Type": "FAQAccordion",
-          "Properties": {
-            "image": "MISSING"
-          }
-        }
+      "PagePath": "/app\\service-areas\\bethany\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
       ],
+      "Schemas": {
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "pageType": "location",
+          "description": "Licensed process server in Bethany, Oklahoma. Fast, reliable service of process for Oklahoma County District Court and Bethany Municipal Court.",
+          "image": "MISSING",
+          "url": "https://justlegalsolutions.org/service-areas/bethany",
+          "title": "Bethany Process Server Service Area"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\bethany\\page.tsx"
+      }
+    },
+    {
       "PagePath": "/app\\service-areas\\bixby\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
       "MissingFields": [
-        "Image field missing in UnifiedSchema",
-        "Image field missing in FAQAccordion"
+        "Image field missing in UnifiedSchema"
       ],
-      "SchemaCount": 2,
-      "Duplicates": {}
-    },
-    {
       "Schemas": {
-        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\bristow\\page.tsx",
         "Type": "UnifiedSchema",
         "Properties": {
+          "pageType": "location",
+          "description": "Licensed process server in Bixby, Oklahoma. GPS-tracked and court-ready. Call (539) 367-6832.",
           "image": "MISSING",
-          "description": "Professional process server in Bristow, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability and competitive rates.",
-          "url": "https://justlegalsolutions.org/service-areas/bristow",
-          "title": "Process Server Bristow | Legal Document Service",
-          "pageType": "location"
-        }
-      },
+          "url": "https://justlegalsolutions.org/service-areas/bixby",
+          "title": "Bixby Process Server Service Area"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\bixby\\page.tsx"
+      }
+    },
+    {
       "PagePath": "/app\\service-areas\\bristow\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
       "MissingFields": [
         "Image field missing in UnifiedSchema"
       ],
-      "SchemaCount": 3,
-      "Duplicates": {}
+      "Schemas": {
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "pageType": "location",
+          "description": "Licensed process server in Bristow, Oklahoma. GPS-tracked and court-ready. Call (539) 367-6832.",
+          "image": "MISSING",
+          "url": "https://justlegalsolutions.org/service-areas/bristow",
+          "title": "Bristow Process Server Service Area"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\bristow\\page.tsx"
+      }
     },
     {
-      "Schemas": [
-        {
-          "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\broken-arrow\\page.tsx",
-          "Type": "UnifiedSchema",
-          "Properties": {
-            "image": "https://justlegalsolutions.org/images/jls-logo.webp",
-            "description": "Professional Broken Arrow process server delivering legal documents, subpoenas, and court papers throughout Rose District, Forest Ridge, and all Broken Arrow neighborhoods.",
-            "url": "https://justlegalsolutions.org/service-areas/broken-arrow",
-            "title": "Broken Arrow Process Server | Legal Document Service 2025",
-            "pageType": "location"
-          }
-        },
-        {
-          "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\broken-arrow\\page.tsx",
-          "Type": "FAQAccordion",
-          "Properties": {
-            "image": "MISSING"
-          }
-        }
-      ],
       "PagePath": "/app\\service-areas\\broken-arrow\\page.tsx",
-      "MissingFields": [
-        "Image field missing in FAQAccordion"
-      ],
-      "SchemaCount": 2,
-      "Duplicates": {}
-    },
-    {
-      "Schemas": {
-        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\catoosa\\page.tsx",
-        "Type": "UnifiedSchema",
-        "Properties": {
-          "image": "MISSING",
-          "description": "Professional process serving in Catoosa, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service",
-          "url": "https://justlegalsolutions.org/service-areas/catoosa",
-          "title": "Just Legal Solutions - Catoosa",
-          "pageType": "service"
-        }
-      },
-      "PagePath": "/app\\service-areas\\catoosa\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
       "MissingFields": [
         "Image field missing in UnifiedSchema"
       ],
-      "SchemaCount": 3,
-      "Duplicates": {}
-    },
-    {
       "Schemas": {
-        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\claremore\\page.tsx",
         "Type": "UnifiedSchema",
         "Properties": {
+          "pageType": "location",
+          "description": "Licensed process server in Broken Arrow, Oklahoma. GPS-tracked and court-ready. Call (539) 367-6832.",
           "image": "MISSING",
-          "description": "Professional process serving in Claremore, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service",
-          "url": "https://justlegalsolutions.org/service-areas/claremore",
-          "title": "Just Legal Solutions - Claremore",
-          "pageType": "service"
-        }
-      },
-      "PagePath": "/app\\service-areas\\claremore\\page.tsx",
-      "MissingFields": [
-        "Image field missing in UnifiedSchema"
-      ],
-      "SchemaCount": 3,
-      "Duplicates": {}
-    },
-    {
-      "Schemas": {
-        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\collinsville\\page.tsx",
-        "Type": "UnifiedSchema",
-        "Properties": {
-          "image": "MISSING",
-          "description": "Professional process serving in Collinsville, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service",
-          "url": "https://justlegalsolutions.org/service-areas/collinsville",
-          "title": "Just Legal Solutions - Collinsville",
-          "pageType": "service"
-        }
-      },
-      "PagePath": "/app\\service-areas\\collinsville\\page.tsx",
-      "MissingFields": [
-        "Image field missing in UnifiedSchema"
-      ],
-      "SchemaCount": 3,
-      "Duplicates": {}
-    },
-    {
-      "Schemas": {
-        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\coweta\\page.tsx",
-        "Type": "UnifiedSchema",
-        "Properties": {
-          "image": "MISSING",
-          "description": "Professional process serving in Coweta, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service",
-          "url": "https://justlegalsolutions.org/service-areas/coweta",
-          "title": "Just Legal Solutions - Coweta",
-          "pageType": "service"
-        }
-      },
-      "PagePath": "/app\\service-areas\\coweta\\page.tsx",
-      "MissingFields": [
-        "Image field missing in UnifiedSchema"
-      ],
-      "SchemaCount": 3,
-      "Duplicates": {}
-    },
-    {
-      "Schemas": {
-        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\glenpool\\page.tsx",
-        "Type": "UnifiedSchema",
-        "Properties": {
-          "image": "MISSING",
-          "description": "Professional process serving in Glenpool, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service",
-          "url": "https://justlegalsolutions.org/service-areas/glenpool",
-          "title": "Just Legal Solutions - Glenpool",
-          "pageType": "service"
-        }
-      },
-      "PagePath": "/app\\service-areas\\glenpool\\page.tsx",
-      "MissingFields": [
-        "Image field missing in UnifiedSchema"
-      ],
-      "SchemaCount": 3,
-      "Duplicates": {}
-    },
-    {
-      "Schemas": [
-        {
-          "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\jenks\\page.tsx",
-          "Type": "UnifiedSchema",
-          "Properties": {
-            "image": "https://justlegalsolutions.org/images/jls-logo.webp",
-            "description": "Professional process serving in Jenks, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service",
-            "url": "https://justlegalsolutions.org/service-areas/jenks",
-            "title": "Just Legal Solutions - Jenks",
-            "pageType": "service"
-          }
+          "url": "https://justlegalsolutions.org/service-areas/broken-arrow",
+          "title": "Broken Arrow Process Server Service Area"
         },
-        {
-          "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\jenks\\page.tsx",
-          "Type": "FAQAccordion",
-          "Properties": {
-            "image": "MISSING"
-          }
-        }
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\broken-arrow\\page.tsx"
+      }
+    },
+    {
+      "PagePath": "/app\\service-areas\\broken-bow\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
       ],
+      "Schemas": {
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "pageType": "location",
+          "description": "Licensed process server in Broken Bow, Oklahoma. Serving McCurtain County District Court, Beavers Bend State Park, and the Choctaw Nation.",
+          "image": "MISSING",
+          "url": "https://justlegalsolutions.org/service-areas/broken-bow",
+          "title": "Broken Bow Process Server Service Area"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\broken-bow\\page.tsx"
+      }
+    },
+    {
+      "PagePath": "/app\\service-areas\\catoosa\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "Schemas": {
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "pageType": "service",
+          "description": "Professional process serving in Catoosa, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service",
+          "image": "MISSING",
+          "url": "https://justlegalsolutions.org/service-areas/catoosa",
+          "title": "Just Legal Solutions - Catoosa"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\catoosa\\page.tsx"
+      }
+    },
+    {
+      "PagePath": "/app\\service-areas\\chickasha\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "Schemas": {
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "pageType": "location",
+          "description": "Licensed process server in Chickasha, Oklahoma. Serving Grady County District Court, USAO, and surrounding communities. Rush and same-day available.",
+          "image": "MISSING",
+          "url": "https://justlegalsolutions.org/service-areas/chickasha",
+          "title": "Chickasha Process Server Service Area"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\chickasha\\page.tsx"
+      }
+    },
+    {
+      "PagePath": "/app\\service-areas\\choctaw\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "Schemas": {
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "pageType": "location",
+          "description": "Licensed process server in Choctaw, Oklahoma. Serving Oklahoma County and all Choctaw neighborhoods with rush and same-day service.",
+          "image": "MISSING",
+          "url": "https://justlegalsolutions.org/service-areas/choctaw",
+          "title": "Choctaw Process Server Service Area"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\choctaw\\page.tsx"
+      }
+    },
+    {
+      "PagePath": "/app\\service-areas\\claremore\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "Schemas": {
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "pageType": "location",
+          "description": "Licensed process server in Claremore, Oklahoma. Serving Rogers County District Court, RSU, and the Tulsa metro northeast corridor.",
+          "image": "MISSING",
+          "url": "https://justlegalsolutions.org/service-areas/claremore",
+          "title": "Claremore Process Server Service Area"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\claremore\\page.tsx"
+      }
+    },
+    {
+      "PagePath": "/app\\service-areas\\collinsville\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "Schemas": {
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "pageType": "location",
+          "description": "Licensed process server in Collinsville, Oklahoma. GPS-tracked and court-ready. Call (539) 367-6832.",
+          "image": "MISSING",
+          "url": "https://justlegalsolutions.org/service-areas/collinsville",
+          "title": "Collinsville Process Server Service Area"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\collinsville\\page.tsx"
+      }
+    },
+    {
+      "PagePath": "/app\\service-areas\\coweta\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "Schemas": {
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "pageType": "location",
+          "description": "Licensed process server in Coweta, Oklahoma. GPS-tracked and court-ready. Call (539) 367-6832.",
+          "image": "MISSING",
+          "url": "https://justlegalsolutions.org/service-areas/coweta",
+          "title": "Coweta Process Server Service Area"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\coweta\\page.tsx"
+      }
+    },
+    {
+      "PagePath": "/app\\service-areas\\durant\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "Schemas": {
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "pageType": "location",
+          "description": "Licensed process server in Durant, Oklahoma. Serving Bryan County District Court, SOSU, and the Texoma region. Rush and same-day available.",
+          "image": "MISSING",
+          "url": "https://justlegalsolutions.org/service-areas/durant",
+          "title": "Durant Process Server Service Area"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\durant\\page.tsx"
+      }
+    },
+    {
+      "PagePath": "/app\\service-areas\\edmond\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "Schemas": {
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "pageType": "location",
+          "description": "Licensed process server in Edmond, Oklahoma. UCO campus, gated communities, Arcadia Lake, and all Edmond ZIP codes. GPS-tracked service.",
+          "image": "MISSING",
+          "url": "https://justlegalsolutions.org/service-areas/edmond",
+          "title": "Edmond Process Server Service Area"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\edmond\\page.tsx"
+      }
+    },
+    {
+      "PagePath": "/app\\service-areas\\el-reno\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "Schemas": {
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "pageType": "location",
+          "description": "Licensed process server in El Reno, Oklahoma. Serving Canadian County District Court and the west OKC metro area. Rush and same-day available.",
+          "image": "MISSING",
+          "url": "https://justlegalsolutions.org/service-areas/el-reno",
+          "title": "El Reno Process Server Service Area"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\el-reno\\page.tsx"
+      }
+    },
+    {
+      "PagePath": "/app\\service-areas\\elk-city\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "Schemas": {
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "pageType": "location",
+          "description": "Licensed process server in Elk City, Oklahoma. Serving Beckham County District Court and western Oklahoma. Rush and same-day available.",
+          "image": "MISSING",
+          "url": "https://justlegalsolutions.org/service-areas/elk-city",
+          "title": "Elk City Process Server Service Area"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\elk-city\\page.tsx"
+      }
+    },
+    {
+      "PagePath": "/app\\service-areas\\enid\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "Schemas": {
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "pageType": "location",
+          "description": "Licensed process server in Enid, Oklahoma. Garfield County filings, Vance AFB coordination, Integris Bass, St. Mary Hospital, and rural Garfield County.",
+          "image": "MISSING",
+          "url": "https://justlegalsolutions.org/service-areas/enid",
+          "title": "Enid Process Server Service Area"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\enid\\page.tsx"
+      }
+    },
+    {
+      "PagePath": "/app\\service-areas\\glenpool\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "Schemas": {
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "pageType": "service",
+          "description": "Professional process serving in Glenpool, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service",
+          "image": "MISSING",
+          "url": "https://justlegalsolutions.org/service-areas/glenpool",
+          "title": "Just Legal Solutions - Glenpool"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\glenpool\\page.tsx"
+      }
+    },
+    {
+      "PagePath": "/app\\service-areas\\guthrie\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "Schemas": {
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "pageType": "location",
+          "description": "Licensed process server in Guthrie, Oklahoma. We serve Logan County court documents, municipal citations, and legal papers throughout the county seat and surrounding areas.",
+          "image": "MISSING",
+          "url": "https://justlegalsolutions.org/service-areas/guthrie",
+          "title": "Guthrie Process Server Service Area"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\guthrie\\page.tsx"
+      }
+    },
+    {
+      "PagePath": "/app\\service-areas\\guymon\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "Schemas": {
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "pageType": "location",
+          "description": "Licensed process server in Guymon, Oklahoma. Serving Texas County District Court and the Oklahoma Panhandle.",
+          "image": "MISSING",
+          "url": "https://justlegalsolutions.org/service-areas/guymon",
+          "title": "Guymon Process Server Service Area"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\guymon\\page.tsx"
+      }
+    },
+    {
       "PagePath": "/app\\service-areas\\jenks\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
       "MissingFields": [
-        "Image field missing in FAQAccordion"
+        "Image field missing in UnifiedSchema"
       ],
-      "SchemaCount": 2,
-      "Duplicates": {}
-    },
-    {
       "Schemas": {
-        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\kellyville\\page.tsx",
         "Type": "UnifiedSchema",
         "Properties": {
+          "pageType": "location",
+          "description": "Licensed process server in Jenks, Oklahoma. GPS-tracked and court-ready. Call (539) 367-6832.",
           "image": "MISSING",
-          "description": "Professional process serving in Kellyville, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service",
-          "url": "https://justlegalsolutions.org/service-areas/kellyville",
-          "title": "Just Legal Solutions - Kellyville",
-          "pageType": "service"
-        }
-      },
+          "url": "https://justlegalsolutions.org/service-areas/jenks",
+          "title": "Jenks Process Server Service Area"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\jenks\\page.tsx"
+      }
+    },
+    {
       "PagePath": "/app\\service-areas\\kellyville\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
       "MissingFields": [
         "Image field missing in UnifiedSchema"
       ],
-      "SchemaCount": 3,
-      "Duplicates": {}
-    },
-    {
       "Schemas": {
-        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\owasso\\page.tsx",
         "Type": "UnifiedSchema",
         "Properties": {
+          "pageType": "location",
+          "description": "Licensed process server in Kellyville, Oklahoma. GPS-tracked and court-ready. Call (539) 367-6832.",
           "image": "MISSING",
-          "description": "Professional process serving in Owasso, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service",
-          "url": "https://justlegalsolutions.org/service-areas/owasso",
-          "title": "Just Legal Solutions - Owasso",
-          "pageType": "service"
-        }
-      },
+          "url": "https://justlegalsolutions.org/service-areas/kellyville",
+          "title": "Kellyville Process Server Service Area"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\kellyville\\page.tsx"
+      }
+    },
+    {
+      "PagePath": "/app\\service-areas\\lawton\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "Schemas": {
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "pageType": "location",
+          "description": "Licensed process server in Lawton, Oklahoma. Experienced with Fort Sill military service, Cameron University, and Comanche County District Court filings. Same-day service available.",
+          "image": "MISSING",
+          "url": "https://justlegalsolutions.org/service-areas/lawton",
+          "title": "Process Server Lawton, OK | Fort Sill & Comanche County"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\lawton\\page.tsx"
+      }
+    },
+    {
+      "PagePath": "/app\\service-areas\\mcalester\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "Schemas": {
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "pageType": "location",
+          "description": "Licensed process server in McAlester, Oklahoma. Serving Pittsburg County District Court, Oklahoma State Penitentiary, and surrounding areas.",
+          "image": "MISSING",
+          "url": "https://justlegalsolutions.org/service-areas/mcalester",
+          "title": "Mcalester Process Server Service Area"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\mcalester\\page.tsx"
+      }
+    },
+    {
+      "PagePath": "/app\\service-areas\\miami\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "Schemas": {
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "pageType": "location",
+          "description": "Licensed process server in Miami, Oklahoma. Serving Ottawa County District Court, tribal jurisdictions, and the northeast Oklahoma corridor.",
+          "image": "MISSING",
+          "url": "https://justlegalsolutions.org/service-areas/miami",
+          "title": "Miami Process Server Service Area"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\miami\\page.tsx"
+      }
+    },
+    {
+      "PagePath": "/app\\service-areas\\midwest-city\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "Schemas": {
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "pageType": "location",
+          "description": "Licensed process server in Midwest City, Oklahoma. Serving Oklahoma County District Court, Tinker AFB, and the east OKC metro area.",
+          "image": "MISSING",
+          "url": "https://justlegalsolutions.org/service-areas/midwest-city",
+          "title": "Midwest City Process Server Service Area"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\midwest-city\\page.tsx"
+      }
+    },
+    {
+      "PagePath": "/app\\service-areas\\moore\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "Schemas": {
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "pageType": "location",
+          "description": "Licensed process server in Moore, Oklahoma. Serving Cleveland County District Court and the south OKC metro area. Rush and same-day available.",
+          "image": "MISSING",
+          "url": "https://justlegalsolutions.org/service-areas/moore",
+          "title": "Moore Process Server Service Area"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\moore\\page.tsx"
+      }
+    },
+    {
+      "PagePath": "/app\\service-areas\\muskogee\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "Schemas": {
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "pageType": "location",
+          "description": "Licensed process server in Muskogee, Oklahoma. Experienced with tribal jurisdiction, VA Medical Center service, and Muskogee County District Court filings. Rush and same-day available.",
+          "image": "MISSING",
+          "url": "https://justlegalsolutions.org/service-areas/muskogee",
+          "title": "Muskogee Process Server Service Area"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\muskogee\\page.tsx"
+      }
+    },
+    {
+      "PagePath": "/app\\service-areas\\mustang\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "Schemas": {
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "pageType": "location",
+          "description": "Licensed process server in Mustang, Oklahoma. Fast, reliable service of process for Canadian County District Court, Mustang Municipal Court, and OKC metro civil cases.",
+          "image": "MISSING",
+          "url": "https://justlegalsolutions.org/service-areas/mustang",
+          "title": "Mustang Process Server Service Area"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\mustang\\page.tsx"
+      }
+    },
+    {
+      "PagePath": "/app\\service-areas\\norman\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "Schemas": {
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "pageType": "location",
+          "description": "Licensed process server in Norman, Oklahoma. Cleveland County filings, OU campus, NOAA, Norman Regional Hospital. GPS-tracked service.",
+          "image": "MISSING",
+          "url": "https://justlegalsolutions.org/service-areas/norman",
+          "title": "Norman Process Server Service Area"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\norman\\page.tsx"
+      }
+    },
+    {
+      "PagePath": "/app\\service-areas\\nowata\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "Schemas": {
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "pageType": "service",
+          "description": "Professional process serving in Nowata, Oklahoma with reliable legal document delivery throughout Nowata County and 24/7 emergency service",
+          "image": "MISSING",
+          "url": "https://justlegalsolutions.org/service-areas/nowata",
+          "title": "Just Legal Solutions - Nowata"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\nowata\\page.tsx"
+      }
+    },
+    {
+      "PagePath": "/app\\service-areas\\oklahoma-city\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "Schemas": {
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "pageType": "location",
+          "description": "Licensed process server in Oklahoma City, Oklahoma. GPS-tracked and court-ready. Call (539) 367-6832.",
+          "image": "MISSING",
+          "url": "https://justlegalsolutions.org/service-areas/oklahoma-city",
+          "title": "Oklahoma City Process Server Service Area"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\oklahoma-city\\page.tsx"
+      }
+    },
+    {
+      "PagePath": "/app\\service-areas\\okmulgee\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "Schemas": {
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "pageType": "location",
+          "description": "Licensed process server in Okmulgee, Oklahoma. Serving Okmulgee County District Court, OSU Institute of Technology, and the Muscogee Nation.",
+          "image": "MISSING",
+          "url": "https://justlegalsolutions.org/service-areas/okmulgee",
+          "title": "Okmulgee Process Server Service Area"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\okmulgee\\page.tsx"
+      }
+    },
+    {
       "PagePath": "/app\\service-areas\\owasso\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
       "MissingFields": [
         "Image field missing in UnifiedSchema"
       ],
-      "SchemaCount": 3,
-      "Duplicates": {}
-    },
-    {
       "Schemas": {
-        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\pawhuska\\page.tsx",
         "Type": "UnifiedSchema",
         "Properties": {
+          "pageType": "service",
+          "description": "Professional process serving in Owasso, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service",
           "image": "MISSING",
-          "description": "Professional process serving in Pawhuska, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service",
-          "url": "https://justlegalsolutions.org/service-areas/pawhuska",
-          "title": "Just Legal Solutions - Pawhuska",
-          "pageType": "service"
-        }
-      },
+          "url": "https://justlegalsolutions.org/service-areas/owasso",
+          "title": "Just Legal Solutions - Owasso"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\owasso\\page.tsx"
+      }
+    },
+    {
+      "PagePath": "/app\\service-areas\\pauls-valley\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "Schemas": {
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "pageType": "location",
+          "description": "Licensed process server in Pauls Valley, Oklahoma. Serving Garvin County District Court and south-central Oklahoma.",
+          "image": "MISSING",
+          "url": "https://justlegalsolutions.org/service-areas/pauls-valley",
+          "title": "Pauls Valley Process Server Service Area"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\pauls-valley\\page.tsx"
+      }
+    },
+    {
       "PagePath": "/app\\service-areas\\pawhuska\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
       "MissingFields": [
         "Image field missing in UnifiedSchema"
       ],
-      "SchemaCount": 3,
-      "Duplicates": {}
-    },
-    {
       "Schemas": {
-        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\pryor\\page.tsx",
         "Type": "UnifiedSchema",
         "Properties": {
+          "pageType": "location",
+          "description": "Licensed process server in Pawhuska, Oklahoma. GPS-tracked and court-ready. Call (539) 367-6832.",
           "image": "MISSING",
-          "description": "Professional process serving in Pryor, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service",
-          "url": "https://justlegalsolutions.org/service-areas/pryor",
-          "title": "Just Legal Solutions - Pryor",
-          "pageType": "service"
-        }
-      },
+          "url": "https://justlegalsolutions.org/service-areas/pawhuska",
+          "title": "Pawhuska Process Server Service Area"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\pawhuska\\page.tsx"
+      }
+    },
+    {
+      "PagePath": "/app\\service-areas\\ponca-city\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "Schemas": {
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "pageType": "location",
+          "description": "Licensed process server in Ponca City, Oklahoma. Serving Kay County District Court and north-central Oklahoma. Rush and same-day available.",
+          "image": "MISSING",
+          "url": "https://justlegalsolutions.org/service-areas/ponca-city",
+          "title": "Ponca City Process Server Service Area"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\ponca-city\\page.tsx"
+      }
+    },
+    {
+      "PagePath": "/app\\service-areas\\poteau\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "Schemas": {
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "pageType": "location",
+          "description": "Licensed process server in Poteau, Oklahoma. Serving LeFlore County District Court and the Choctaw Nation. Rush and same-day available.",
+          "image": "MISSING",
+          "url": "https://justlegalsolutions.org/service-areas/poteau",
+          "title": "Poteau Process Server Service Area"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\poteau\\page.tsx"
+      }
+    },
+    {
       "PagePath": "/app\\service-areas\\pryor\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
       "MissingFields": [
         "Image field missing in UnifiedSchema"
       ],
-      "SchemaCount": 3,
-      "Duplicates": {}
-    },
-    {
       "Schemas": {
-        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\sand-springs\\page.tsx",
         "Type": "UnifiedSchema",
         "Properties": {
+          "pageType": "location",
+          "description": "Licensed process server in Pryor, Oklahoma. GPS-tracked and court-ready. Call (539) 367-6832.",
           "image": "MISSING",
-          "description": "Professional process serving in Sand Springs, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service",
-          "url": "https://justlegalsolutions.org/service-areas/sand-springs",
-          "title": "Just Legal Solutions - Sand Springs",
-          "pageType": "service"
-        }
-      },
+          "url": "https://justlegalsolutions.org/service-areas/pryor",
+          "title": "Pryor Process Server Service Area"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\pryor\\page.tsx"
+      }
+    },
+    {
+      "PagePath": "/app\\service-areas\\sallisaw\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "Schemas": {
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "pageType": "location",
+          "description": "Licensed process server in Sallisaw, Oklahoma. Serving Sequoyah County District Court and the Cherokee Nation. Rush and same-day available.",
+          "image": "MISSING",
+          "url": "https://justlegalsolutions.org/service-areas/sallisaw",
+          "title": "Sallisaw Process Server Service Area"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\sallisaw\\page.tsx"
+      }
+    },
+    {
       "PagePath": "/app\\service-areas\\sand-springs\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
       "MissingFields": [
         "Image field missing in UnifiedSchema"
       ],
-      "SchemaCount": 3,
-      "Duplicates": {}
-    },
-    {
       "Schemas": {
-        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\sapulpa\\page.tsx",
         "Type": "UnifiedSchema",
         "Properties": {
+          "pageType": "service",
+          "description": "Professional process serving in Sand Springs, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service",
           "image": "MISSING",
-          "description": "Professional process serving in Sapulpa, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service",
-          "url": "https://justlegalsolutions.org/service-areas/sapulpa",
-          "title": "Just Legal Solutions - Sapulpa",
-          "pageType": "service"
-        }
-      },
+          "url": "https://justlegalsolutions.org/service-areas/sand-springs",
+          "title": "Just Legal Solutions - Sand Springs"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\sand-springs\\page.tsx"
+      }
+    },
+    {
       "PagePath": "/app\\service-areas\\sapulpa\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
       "MissingFields": [
         "Image field missing in UnifiedSchema"
       ],
-      "SchemaCount": 3,
-      "Duplicates": {}
-    },
-    {
       "Schemas": {
-        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\skiatook\\page.tsx",
         "Type": "UnifiedSchema",
         "Properties": {
+          "pageType": "location",
+          "description": "Licensed process server in Sapulpa, Oklahoma. Serving Creek County District Court and the Tulsa metro southwest corridor.",
           "image": "MISSING",
-          "description": "Professional process serving in Skiatook, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service",
-          "url": "https://justlegalsolutions.org/service-areas/skiatook",
-          "title": "Just Legal Solutions - Skiatook",
-          "pageType": "service"
-        }
-      },
+          "url": "https://justlegalsolutions.org/service-areas/sapulpa",
+          "title": "Sapulpa Process Server Service Area"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\sapulpa\\page.tsx"
+      }
+    },
+    {
+      "PagePath": "/app\\service-areas\\shawnee\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "Schemas": {
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "pageType": "location",
+          "description": "Licensed process server in Shawnee, Oklahoma. Serving Pottawatomie County, Citizen Potawatomi Nation, OBU, and nearby areas. Rush and same-day available.",
+          "image": "MISSING",
+          "url": "https://justlegalsolutions.org/service-areas/shawnee",
+          "title": "Shawnee Process Server Service Area"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\shawnee\\page.tsx"
+      }
+    },
+    {
       "PagePath": "/app\\service-areas\\skiatook\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
       "MissingFields": [
         "Image field missing in UnifiedSchema"
       ],
-      "SchemaCount": 3,
-      "Duplicates": {}
-    },
-    {
       "Schemas": {
-        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\wagoner\\page.tsx",
         "Type": "UnifiedSchema",
         "Properties": {
+          "pageType": "location",
+          "description": "Licensed process server in Skiatook, Oklahoma. GPS-tracked and court-ready. Call (539) 367-6832.",
           "image": "MISSING",
-          "description": "Professional process serving in Wagoner, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service",
-          "url": "https://justlegalsolutions.org/service-areas/wagoner",
-          "title": "Just Legal Solutions - Wagoner",
-          "pageType": "service"
-        }
-      },
+          "url": "https://justlegalsolutions.org/service-areas/skiatook",
+          "title": "Skiatook Process Server Service Area"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\skiatook\\page.tsx"
+      }
+    },
+    {
+      "PagePath": "/app\\service-areas\\stillwater\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "Schemas": {
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "pageType": "location",
+          "description": "Licensed process server in Stillwater, Oklahoma. Payne County filings, OSU campus coordination, Stillwater Medical, and rural Payne County including Perkins, Cushing, and Yale.",
+          "image": "MISSING",
+          "url": "https://justlegalsolutions.org/service-areas/stillwater",
+          "title": "Stillwater Process Server Service Area"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\stillwater\\page.tsx"
+      }
+    },
+    {
+      "PagePath": "/app\\service-areas\\sulphur\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "Schemas": {
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "pageType": "location",
+          "description": "Licensed process server in Sulphur, Oklahoma. Serving Murray County District Court and the Chickasaw National Recreation Area.",
+          "image": "MISSING",
+          "url": "https://justlegalsolutions.org/service-areas/sulphur",
+          "title": "Sulphur Process Server Service Area"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\sulphur\\page.tsx"
+      }
+    },
+    {
+      "PagePath": "/app\\service-areas\\tahlequah\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "Schemas": {
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "pageType": "location",
+          "description": "Licensed process server in Tahlequah, Oklahoma. Serving Cherokee County District Court, Northeastern State University, and the Cherokee Nation.",
+          "image": "MISSING",
+          "url": "https://justlegalsolutions.org/service-areas/tahlequah",
+          "title": "Tahlequah Process Server Service Area"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\tahlequah\\page.tsx"
+      }
+    },
+    {
+      "PagePath": "/app\\service-areas\\vinita\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "Schemas": {
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "pageType": "location",
+          "description": "Licensed process server in Vinita, Oklahoma. GPS-tracked and court-ready. Call (539) 367-6832.",
+          "image": "MISSING",
+          "url": "https://justlegalsolutions.org/service-areas/vinita",
+          "title": "Vinita Process Server Service Area"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\vinita\\page.tsx"
+      }
+    },
+    {
       "PagePath": "/app\\service-areas\\wagoner\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
       "MissingFields": [
         "Image field missing in UnifiedSchema"
       ],
-      "SchemaCount": 3,
-      "Duplicates": {}
-    },
-    {
       "Schemas": {
-        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\page.tsx",
         "Type": "UnifiedSchema",
         "Properties": {
+          "pageType": "service",
+          "description": "Professional process serving in Wagoner, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service",
           "image": "MISSING",
-          "description": "Professional process server serving statewide throughout Oklahoma. Complete coverage of all 77 counties with same-day service available. Licensed, bonded, and insured statewide.",
-          "url": "https://justlegalsolutions.org/service-areas",
-          "title": "Process Server Service Areas Oklahoma | Statewide Coverage | Just Legal Solutions",
-          "pageType": "service"
-        }
-      },
-      "PagePath": "/app\\service-areas\\page.tsx",
+          "url": "https://justlegalsolutions.org/service-areas/wagoner",
+          "title": "Just Legal Solutions - Wagoner"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\wagoner\\page.tsx"
+      }
+    },
+    {
+      "PagePath": "/app\\service-areas\\yukon\\page.tsx",
+      "SchemaCount": 3,
+      "Duplicates": {},
       "MissingFields": [
         "Image field missing in UnifiedSchema"
       ],
+      "Schemas": {
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "pageType": "location",
+          "description": "Licensed process server in Yukon, Oklahoma. Serving Canadian County court documents, subpoenas, and legal papers throughout Yukon, the OKC metro, and surrounding areas.",
+          "image": "MISSING",
+          "url": "https://justlegalsolutions.org/service-areas/yukon",
+          "title": "Yukon Process Server Service Area"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\yukon\\page.tsx"
+      }
+    },
+    {
+      "PagePath": "/app\\service-areas\\page.tsx",
       "SchemaCount": 3,
-      "Duplicates": {}
+      "Duplicates": {},
+      "MissingFields": [
+        "Image field missing in UnifiedSchema"
+      ],
+      "Schemas": {
+        "Type": "UnifiedSchema",
+        "Properties": {
+          "pageType": "service",
+          "description": "Professional process server serving statewide throughout Oklahoma. Complete coverage of all 77 counties with same-day service available. Licensed, bonded, and insured statewide.",
+          "image": "MISSING",
+          "url": "https://justlegalsolutions.org/service-areas",
+          "title": "Process Server Service Areas Oklahoma | Statewide Coverage | Just Legal Solutions"
+        },
+        "Path": "C:\\Users\\ianna\\OneDrive\\Desktop\\GitHub\\BOLT-SITE\\app\\service-areas\\page.tsx"
+      }
     }
   ],
-  "GeneratedDate": "2025-09-05 19:15:01"
+  "PagesWithIssues": 55,
+  "GeneratedDate": "2026-04-12 23:34:07"
 }

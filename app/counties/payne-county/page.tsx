@@ -249,7 +249,7 @@ export default function PayneCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"
+        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/payne-county"
         title="Process Server Payne County, OK | Stillwater"
         description="Licensed process server in Payne County, Oklahoma. Serving Stillwater, Cushing, and all surrounding communities."
@@ -264,3 +264,4 @@ export default function PayneCountyCountyPage() {
     </div>
   );
 }
+

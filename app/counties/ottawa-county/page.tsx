@@ -249,7 +249,7 @@ export default function OttawaCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"
+        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/ottawa-county"
         title="Process Server Ottawa County, OK | Miami"
         description="Licensed process server in Ottawa County, Oklahoma. Serving Miami, Commerce, Afton, and all surrounding communities."
@@ -264,3 +264,4 @@ export default function OttawaCountyCountyPage() {
     </div>
   );
 }
+

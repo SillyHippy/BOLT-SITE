@@ -249,7 +249,7 @@ export default function LefloreCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"
+        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/leflore-county"
         title="Process Server LeFlore County, OK | Poteau"
         description="Licensed process server in LeFlore County, Oklahoma. Serving Poteau, Pocola, Spiro, and all surrounding communities."
@@ -264,3 +264,4 @@ export default function LefloreCountyCountyPage() {
     </div>
   );
 }
+

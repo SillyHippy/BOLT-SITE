@@ -70,7 +70,7 @@ export default function CreekCountyProcessServer() {
   return (
     <>
       <UnifiedSchema
-        pageType="service"
+        pageType="service"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
         pageTitle="Creek County Process Server - Just Legal Solutions"
         pageDescription="Licensed process server throughout Creek County, Oklahoma. Serving Sapulpa, Bristow, Kellyville. Same-day service available."
         pageUrl="https://justlegalsolutions.org/counties/creek-county"

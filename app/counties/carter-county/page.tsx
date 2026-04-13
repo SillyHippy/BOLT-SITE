@@ -249,7 +249,7 @@ export default function CarterCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"
+        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/carter-county"
         title="Process Server Carter County, OK | Ardmore"
         description="Licensed process server in Carter County, Oklahoma. Serving Ardmore, Lone Grove, and all surrounding communities."
@@ -264,3 +264,4 @@ export default function CarterCountyCountyPage() {
     </div>
   );
 }
+

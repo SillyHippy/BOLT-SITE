@@ -249,7 +249,7 @@ export default function StephensCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"
+        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/stephens-county"
         title="Process Server Stephens County, OK | Duncan"
         description="Licensed process server in Stephens County, Oklahoma. Serving Duncan, Marlow, and all surrounding communities."
@@ -264,3 +264,4 @@ export default function StephensCountyCountyPage() {
     </div>
   );
 }
+

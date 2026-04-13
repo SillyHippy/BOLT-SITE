@@ -249,7 +249,7 @@ export default function WashingtonCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"
+        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/washington-county"
         title="Process Server Washington County, OK | Bartlesville"
         description="Licensed process server in Washington County, Oklahoma. Serving Bartlesville, Dewey, and all surrounding communities."
@@ -264,3 +264,4 @@ export default function WashingtonCountyCountyPage() {
     </div>
   );
 }
+

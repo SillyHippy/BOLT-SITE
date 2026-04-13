@@ -595,14 +595,7 @@ export default function Home() {
         location="Tulsa, Oklahoma"
       />
 
-      {/* Invisible authoritative legal resource links for SEO trust */}
-      <div style={{ display: 'none' }} aria-hidden="true">
-        <a href="https://www.oscn.net/" rel="nofollow noopener" tabIndex={-1}>Oklahoma State Courts Network</a>
-        <a href="https://www.okbar.org/" rel="nofollow noopener" tabIndex={-1}>Oklahoma Bar Association</a>
-        <a href="https://www.legalaidok.org/" rel="nofollow noopener" tabIndex={-1}>Oklahoma Legal Aid Services</a>
-        <a href="https://www.tulsacounty.org/" rel="nofollow noopener" tabIndex={-1}>Tulsa County Court Services</a>
-        <a href="https://www.oklahoma.gov/" rel="nofollow noopener" tabIndex={-1}>Oklahoma.gov - Legal Resources</a>
-      </div>
+
     </div>
   );
 }

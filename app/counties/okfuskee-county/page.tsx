@@ -248,7 +248,7 @@ export default function OkfuskeeCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"
+        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/okfuskee-county"
         title="Process Server Okfuskee County, OK | Okemah"
         description="Licensed process server in Okfuskee County, Oklahoma. Serving Okemah, Boley, and all surrounding communities."
@@ -263,3 +263,4 @@ export default function OkfuskeeCountyCountyPage() {
     </div>
   );
 }
+

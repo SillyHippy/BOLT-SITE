@@ -252,7 +252,7 @@ export default function McclainCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"
+        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/mcclain-county"
         title="Process Server McClain County, OK | Purcell"
         description="Licensed process server in McClain County, Oklahoma. Serving Purcell, Newcastle, and all surrounding communities."
@@ -267,3 +267,4 @@ export default function McclainCountyCountyPage() {
     </div>
   );
 }
+

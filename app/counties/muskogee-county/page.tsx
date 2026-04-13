@@ -252,7 +252,7 @@ export default function MuskogeeCountyCountyPage() {
       </div>
 
       <UnifiedSchema
-        pageType="location"
+        pageType="location"`n        image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/muskogee-county"
         title="Process Server Muskogee County, OK | Muskogee"
         description="Licensed process server in Muskogee County, Oklahoma. Serving Muskogee, Fort Gibson, and all surrounding communities."
@@ -267,3 +267,4 @@ export default function MuskogeeCountyCountyPage() {
     </div>
   );
 }
+
