@@ -73,7 +73,7 @@ export function LiteYouTubeEmbed({
           activateVideo();
         }
       }}
-      aria-label={`Play video: ${title}`}
+      aria-label={`Play YouTube video: ${title}`}
     >
       {/* Thumbnail */}
       <picture>

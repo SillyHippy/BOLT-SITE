@@ -41,7 +41,7 @@ export default function StickyMobileCTA() {
         </Link>
       </div>
       <div className="bg-gray-900 text-center pb-safe">
-        <p className="text-gray-500 text-xs pb-1">(539) 367-6832 · From $60 · Same-Day Available</p>
+        <p className="text-gray-400 text-xs pb-1">(539) 367-6832 · From $60 · Same-Day Available</p>
       </div>
     </div>
   );
