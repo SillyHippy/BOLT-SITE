@@ -1,8 +1,6 @@
 import React from 'react';
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { Navbar } from '@/components/ui/navbar';
-import { Footer } from '@/components/ui/footer';
 import { MapPin, FileText, BookOpen, Scale, Phone, Briefcase, ClipboardList, ArrowRight, Stamp, Newspaper } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
@@ -47,7 +45,7 @@ const sections: SitemapSection[] = [
       { url: '/contact', label: 'Contact Us' },
       { url: '/payments', label: 'Make a Payment' },
       { url: '/why-choose-us', label: 'Why Choose Us' },
-      { url: '/videos', label: '▶ Video Guides (25 Videos)' },
+      { url: '/videos', label: '▶ Video Guides (48+ Videos)' },
       { url: '/ultimate-guide-process-serving-oklahoma', label: 'Frequently Asked Questions' },
       { url: '/join-our-network', label: 'Join Our Network' },
       { url: '/leave-review', label: 'Leave a Review' },
@@ -377,8 +375,6 @@ const SitemapPage = () => {
 
   return (
     <>
-      <Navbar />
-
       {/* Hero */}
       <div className="bg-gradient-to-b from-slate-900 to-slate-800 text-white py-14">
         <div className="container mx-auto px-4 text-center max-w-2xl">
