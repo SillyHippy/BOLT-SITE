@@ -12,6 +12,19 @@ const path = require('path');
 console.log('🧠 AI KNOWLEDGE GRAPH GENERATOR');
 console.log('================================');
 
+// ==========================================
+// CENTRALIZED PRICING CONFIG (Single Source of Truth)
+// Update here and it propagates to all AI files
+// ==========================================
+const PRICING = {
+  standard: "60.00",
+  rush: "100.00",
+  sameDay: "150.00",
+  afterHoursRush: "265.00",
+  skipTracing: "35.00",
+  courtRun: "25.00"
+};
+
 const knowledgeGraph = {
   "@context": {
     "@vocab": "https://schema.org/",
@@ -37,7 +50,7 @@ const knowledgeGraph = {
           "Oklahoma Process Server License PSL-2026-2",
           "Bachelor's Degree, Business Administration - Northeastern State University",
           "LexisNexis Certified",
-          "Westlaw Certified", 
+          "Westlaw Certified",
           "Clio Certified"
         ]
       },
@@ -45,11 +58,11 @@ const knowledgeGraph = {
         "@type": "State",
         "name": "Oklahoma",
         "containsPlace": [
-          {"@type": "AdministrativeArea", "name": "Tulsa County"},
-          {"@type": "AdministrativeArea", "name": "Creek County"},
-          {"@type": "AdministrativeArea", "name": "Rogers County"},
-          {"@type": "AdministrativeArea", "name": "Wagoner County"},
-          {"@type": "AdministrativeArea", "name": "Osage County"}
+          { "@type": "AdministrativeArea", "name": "Tulsa County" },
+          { "@type": "AdministrativeArea", "name": "Creek County" },
+          { "@type": "AdministrativeArea", "name": "Rogers County" },
+          { "@type": "AdministrativeArea", "name": "Wagoner County" },
+          { "@type": "AdministrativeArea", "name": "Osage County" }
         ]
       },
       "hasOfferCatalog": {
@@ -68,7 +81,7 @@ const knowledgeGraph = {
             "priceValidUntil": "2026-12-31"
           },
           {
-            "@type": "Offer", 
+            "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
               "name": "Rush Process Serving",
@@ -130,23 +143,23 @@ const knowledgeGraph = {
       "@type": "Service",
       "@id": "https://justlegalsolutions.org/services/process-serving",
       "name": "Process Serving",
-      "provider": {"@id": "https://justlegalsolutions.org/#organization"},
+      "provider": { "@id": "https://justlegalsolutions.org/#organization" },
       "serviceType": "Legal Document Service",
-      "areaServed": {"@type": "State", "name": "Oklahoma"},
+      "areaServed": { "@type": "State", "name": "Oklahoma" },
       "isRelatedTo": [
-        {"@type": "Thing", "name": "Divorce Papers"},
-        {"@type": "Thing", "name": "Eviction Notices"},
-        {"@type": "Thing", "name": "Subpoenas"},
-        {"@type": "Thing", "name": "Court Summons"},
-        {"@type": "Thing", "name": "Legal Complaints"}
+        { "@type": "Thing", "name": "Divorce Papers" },
+        { "@type": "Thing", "name": "Eviction Notices" },
+        { "@type": "Thing", "name": "Subpoenas" },
+        { "@type": "Thing", "name": "Court Summons" },
+        { "@type": "Thing", "name": "Legal Complaints" }
       ]
     },
     // Topical authority signals
     {
       "@type": "Article",
       "@id": "https://justlegalsolutions.org/oklahoma-process-server-laws",
-      "author": {"@id": "https://justlegalsolutions.org/#founder"},
-      "publisher": {"@id": "https://justlegalsolutions.org/#organization"},
+      "author": { "@id": "https://justlegalsolutions.org/#founder" },
+      "publisher": { "@id": "https://justlegalsolutions.org/#organization" },
       "about": "Oklahoma Process Server Regulations and Requirements",
       "citation": ["Oklahoma Statutes Title 12", "OSCN Court Rules"]
     }
