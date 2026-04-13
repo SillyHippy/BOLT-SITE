@@ -183,6 +183,42 @@ export default function PricingPage() {
 
       <LocalPromoBanner zips={["74008", "74033", "74037"]} />
 
+      {/* Temporary Fuel Adjustment Banner */}
+      <div className="bg-amber-50 border border-amber-200 rounded-xl max-w-5xl mx-auto mt-6 mb-2 px-6 py-5 shadow-sm">
+        <div className="flex items-start gap-3 mb-4">
+          <span className="text-2xl flex-shrink-0" aria-hidden="true">⛽</span>
+          <div>
+            <p className="font-bold text-amber-900 text-base">Temporary Fuel Adjustment — Effective April 8, 2026</p>
+            <p className="text-amber-800 text-sm mt-1">
+              Fuel costs in Oklahoma have risen ~40% since March 2026, increasing our delivery expenses. A temporary 17%
+              fuel surcharge has been applied to all fuel-dependent services. We will reduce rates promptly if fuel prices
+              stabilize or drop.{' '}
+              <a href="/contact" className="font-semibold underline text-amber-900 hover:text-amber-700">
+                Questions? Contact us.
+              </a>
+            </p>
+          </div>
+        </div>
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+          {[
+            { label: 'Standard Service', old: '$60', new: '$70' },
+            { label: 'Rush Service', old: '$100', new: '$117' },
+            { label: 'Same-Day Rush', old: '$150', new: '$175' },
+            { label: 'Standard Courier', old: '$60', new: '$70' },
+            { label: 'Rush Courier', old: '$100', new: '$117' },
+            { label: 'Stakeout', old: '$90/hr', new: '$105/hr' },
+          ].map(({ label, old, new: newPrice }) => (
+            <div key={label} className="bg-amber-100/60 rounded-lg px-4 py-3">
+              <p className="text-xs font-semibold text-amber-900 mb-1">{label}</p>
+              <p className="text-sm">
+                <span className="line-through text-amber-600 mr-1">{old}</span>
+                <span className="font-bold text-amber-900">{newPrice}</span>
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+
       <div className="min-h-screen bg-white font-sans">
         <section className="pt-24 pb-12 px-4 bg-gradient-to-br from-slate-50 via-blue-50 to-slate-100">
           <div className="max-w-7xl mx-auto text-center">
