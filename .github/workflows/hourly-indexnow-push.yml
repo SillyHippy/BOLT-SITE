@@ -1,9 +1,9 @@
 name: IndexNow Rotating Push
 
 on:
-  # Every 6 hours — rotates through 10 URLs at a time
+  # Daily at 9 AM UTC — rotates through 10 URLs at a time (full cycle every ~9 days)
   schedule:
-    - cron: '15 */6 * * *'
+    - cron: '0 9 * * *'
   # On deploy — sends ALL URLs (content actually changed)
   push:
     branches: [ main ]
@@ -157,11 +157,9 @@ jobs:
             echo "=== DEPLOY: Submitting all $TOTAL URLs ==="
             BATCH=("${ALL_URLS[@]}")
           else
-            # Rotation: use day-of-year + time slot to cycle groups
+            # Rotation: use day-of-year to cycle through groups of 10
             DAY=$(date -u +%j)
-            HOUR=$(date -u +%H)
-            TIME_SLOT=$(( HOUR / 6 ))
-            GROUP=$(( (DAY * 4 + TIME_SLOT) % NUM_GROUPS ))
+            GROUP=$(( DAY % NUM_GROUPS ))
             START=$(( GROUP * BATCH_SIZE ))
             BATCH=("${ALL_URLS[@]:$START:$BATCH_SIZE}")
             echo "=== SCHEDULED: Group $GROUP of $((NUM_GROUPS - 1)) — ${#BATCH[@]} URLs (starting at index $START) ==="
