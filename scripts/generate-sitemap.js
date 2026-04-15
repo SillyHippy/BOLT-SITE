@@ -344,6 +344,40 @@ function generateSitemap() {
     let changefreq = 'monthly';
     const urlPath = url.replace(DOMAIN, '');
 
+    // Use actual file modification date instead of today's date
+    // This gives Google accurate signals about what actually changed
+    let lastmod = today; // Default to today for safety
+    try {
+      // Map URL to actual file path
+      let filePath;
+      if (urlPath === '/') {
+        filePath = path.join(APP_DIR, '(main)', 'page.tsx');
+      } else if (urlPath.startsWith('/blog/')) {
+        const slug = urlPath.replace('/blog/', '');
+        filePath = path.join(APP_DIR, 'blog', slug, 'page.tsx');
+      } else if (urlPath.startsWith('/counties/')) {
+        const slug = urlPath.replace('/counties/', '');
+        filePath = path.join(APP_DIR, 'counties', slug === 'counties' ? '' : slug, 'page.tsx');
+      } else if (urlPath.startsWith('/service-areas/')) {
+        const slug = urlPath.replace('/service-areas/', '');
+        filePath = path.join(APP_DIR, 'service-areas', slug, 'page.tsx');
+      } else if (urlPath.startsWith('/videos/')) {
+        filePath = path.join(APP_DIR, '(main)', 'videos', '[slug]', 'page.tsx');
+      } else {
+        // For other pages, try to find them in app/(main)/
+        const pageName = urlPath.replace(/^\//, '').replace(/\/$/, '');
+        filePath = path.join(APP_DIR, '(main)', pageName, 'page.tsx');
+      }
+
+      if (filePath && fs.existsSync(filePath)) {
+        const stats = fs.statSync(filePath);
+        lastmod = stats.mtime.toISOString().split('T')[0];
+      }
+    } catch (err) {
+      // Fallback to today's date if file not found
+      lastmod = today;
+    }
+
     if (PRIORITY_1_0_PAGES.includes(urlPath)) {
       priority = '1.0';
       changefreq = 'weekly';
@@ -390,7 +424,7 @@ function generateSitemap() {
       changefreq = 'monthly';
     }
 
-    return `  <url>\n    <loc>${url}</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>${changefreq}</changefreq>\n    <priority>${priority}</priority>\n  </url>`;
+    return `  <url>\n    <loc>${url}</loc>\n    <lastmod>${lastmod}</lastmod>\n    <changefreq>${changefreq}</changefreq>\n    <priority>${priority}</priority>\n  </url>`;
   });
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urlEntries.join('\n')}\n</urlset>\n`;
