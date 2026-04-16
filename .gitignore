@@ -1,52 +1,64 @@
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+```
+# Dependencies
+node_modules/
 
-# testing
-/coverage
+# Build outputs
+dist/
+build/
+.next/
+out/
 
-# next.js
-/.next/
-/out/
+# Environment variables
+.env
+.env.local
+*.env.*
 
-# production
-/build
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
 
-# misc
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git/modules/
+*.tmproj
+*.sw?
 .DS_Store
-*.pem
+Thumbs.db
 
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
 
-# local env files
-.env*.local
-
-# vercel
-.vercel
-
-# typescript
-*.tsbuildinfo
-next-env.d.ts
-
-# IDE
-.idea
-.vscode
-
-# Installers
-*.msi
-
-# Log files (root level only - not public/)
-/contact-log.txt
-/seo-log.txt
-/seo-safe-log.txt
-/voice-search-log.txt
-/voice-search-status.txt
-/robots-last-update.txt
-/sitemap-status.txt
-/schema-validation-report.json
-/deployment-status.json
-/seo-metrics.json
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+```
