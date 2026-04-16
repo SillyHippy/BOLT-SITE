@@ -278,11 +278,11 @@ export default function AffidavitOfService() {
             <div style={{ display: 'flex', gap: showNotary ? 0 : 20 }}>
               <input type="text" defaultValue="Joseph Iannazzi" aria-label="Server name" style={{ ...baseInputStyle, fontWeight: 'bold', fontSize: 11, marginBottom: 2, width: showNotary ? '100%' : 'auto', borderBottom: 'none' }} />
               {!showNotary && (
-                <input type="text" defaultValue="PSL-2026-2" aria-label="License number" style={{ ...baseInputStyle, fontWeight: 'bold', fontSize: 11, width: 'auto', borderBottom: 'none' }} />
+                <input type="text" defaultValue="Licensed" aria-label="License number" style={{ ...baseInputStyle, fontWeight: 'bold', fontSize: 11, width: 'auto', borderBottom: 'none' }} />
               )}
             </div>
             {showNotary && (
-              <input type="text" defaultValue="PSL-2026-2" aria-label="License number" style={{ ...baseInputStyle, fontWeight: 'bold', fontSize: 11, width: '100%', borderBottom: 'none' }} />
+              <input type="text" defaultValue="Licensed" aria-label="License number" style={{ ...baseInputStyle, fontWeight: 'bold', fontSize: 11, width: '100%', borderBottom: 'none' }} />
             )}
 
             <AutoTextarea

@@ -497,7 +497,7 @@
 **Immediate Response** — Speak to a licensed process server immediately. No phone trees, no hold times.  
 **Expert Guidance** — Get answers about Oklahoma process serving requirements directly from experienced professionals.  
 **Same-Day Dispatch** — Call now, server dispatched today for Tulsa metro. Rush and emergency service available.  
-**Licensed & Verified** — Oklahoma Process Server License PSL-2026-2. Bonded and insured.
+**Licensed & Verified** — Oklahoma Process Server License Licensed. Bonded and insured.
 
 ---
 

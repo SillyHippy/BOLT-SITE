@@ -65,7 +65,7 @@ Just Legal Solutions has built an impressive content engine (266+ URLs, 54 count
 |--------------|--------------|----------|------------------|
 | **Case Studies** | No documented success stories | 8 | 3–5 case study pages |
 | **Attorney Testimonials** | Generic reviews, no attorney quotes | 7 | Testimonial page with firm names |
-| **License/Bond Display** | PSL-2026-2 not prominently displayed | 6 | Trust bar on all service pages |
+| **License/Bond Display** | Licensed not prominently displayed | 6 | Trust bar on all service pages |
 | **Photo Documentation** | No gallery of service examples | 5 | Photo gallery (privacy-compliant) |
 | **Court Recognition** | No judge/clerk testimonials | 6 | Authority page |
 | **Training/Certification** | Server qualification content missing | 5 | About process page |
@@ -221,7 +221,7 @@ Many city pages use generic "Downtown [City]" placeholders. Specific gaps:
 
 | Gap | Priority | Action |
 |-----|----------|--------|
-| License PSL-2026-2 not prominently displayed | 8 | Add trust bar to all pages |
+| License Licensed not prominently displayed | 8 | Add trust bar to all pages |
 | $5,000 bond information missing | 6 | Add to footer/trust bar |
 | NAPPS membership not highlighted | 7 | Add badge to site |
 | Oklahoma Bar Association connection missing | 6 | Pitch guest post for backlink |

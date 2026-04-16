@@ -158,7 +158,7 @@ Despite growth, Wagoner County maintains small-town dynamics:
 **Direct Line:** (539) 367-6832  
 **Email:** justlegalsolutions@justlegalsolutions.org
 
-*Licensed Oklahoma Process Server PSL-2026-2*  
+*Licensed Oklahoma Process Server Licensed*  
 *Serving Wagoner County's growing communities*
 
 ---

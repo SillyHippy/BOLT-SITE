@@ -87,7 +87,7 @@ export default function VideosPage() {
           </h1>
           <p className="text-xl text-blue-100 max-w-2xl mx-auto mb-6">
             Expert videos from Joseph Iannazzi — Oklahoma Licensed Process Server{' '}
-            <span className="font-semibold text-white">PSL-2026-2</span>
+            <span className="font-semibold text-white">Licensed</span>
           </p>
           <div className="flex flex-wrap justify-center gap-4 text-sm">
             <span className="bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full text-white">

@@ -1216,7 +1216,7 @@ export default function BecomeProcessServerGuide() {
               <p className="text-slate-500 text-sm mb-3">Licensed Process Server | NAPPS Member</p>
               <p className="text-slate-600 text-sm">
                 Joseph Iannazzi is the founder of Just Legal Solutions and a licensed process server 
-                in Oklahoma (License: PSL-2026-2). With over a decade of experience serving legal 
+                in Oklahoma (License: Licensed). With over a decade of experience serving legal 
                 documents throughout Oklahoma's 77 counties, he has helped hundreds of attorneys, 
                 businesses, and individuals with their process serving needs. Joseph is a member of 
                 the National Association of Professional Process Servers (NAPPS) and is committed 

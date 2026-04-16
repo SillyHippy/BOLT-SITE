@@ -463,5 +463,5 @@ Yes, same-day service is available for documents received before 10:00 AM, subje
 ---
 
 *Last Updated: January 2025*  
-*License: PSL-2026-2*  
+*License: Licensed Professional*  
 *Owner: Joseph Iannazzi*

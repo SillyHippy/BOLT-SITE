@@ -463,5 +463,5 @@ Faculty and staff can be served at their offices. Students in campus housing req
 ---
 
 *Last Updated: January 2025*  
-*License: PSL-2026-2*  
+*License: Licensed Professional*  
 *Owner: Joseph Iannazzi*

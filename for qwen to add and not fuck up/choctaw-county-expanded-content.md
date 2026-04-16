@@ -2,7 +2,7 @@
 
 **Professional Process Serving Throughout Choctaw County, OK**
 
-Phone: **(539) 367-6832** | License: **PSL-2026-2**
+Phone: **(539) 367-6832** | License: **Licensed**
 
 ---
 
@@ -206,7 +206,7 @@ We accept all major credit cards, checks, money orders, and cash for process ser
 
 ### Are your process servers licensed in Oklahoma?
 
-Yes, Just Legal Solutions operates under Oklahoma Process Server License **PSL-2026-2**. All our process servers meet Oklahoma's licensing requirements and carry appropriate credentials for legal document service throughout Choctaw County and the state.
+Yes, Just Legal Solutions operates under Oklahoma Process Server License **Licensed**. All our process servers meet Oklahoma's licensing requirements and carry appropriate credentials for legal document service throughout Choctaw County and the state.
 
 ---
 
@@ -216,7 +216,7 @@ Yes, Just Legal Solutions operates under Oklahoma Process Server License **PSL-2
 Our process servers know Choctaw County intimately. From the courthouse procedures at 300 E Duke St to the rural roads connecting Hugo, Fort Towson, Boswell, and Soper, we navigate this county efficiently and professionally.
 
 ### Licensed and Insured
-We operate under Oklahoma Process Server License **PSL-2026-2**, maintaining full compliance with state regulations and carrying appropriate insurance for your protection.
+We operate under Oklahoma Process Server License **Licensed**, maintaining full compliance with state regulations and carrying appropriate insurance for your protection.
 
 ### Professional Results
 Our detailed affidavits of service stand up in court. We understand what Choctaw County courts require and deliver returns of service that meet all legal standards.
@@ -234,7 +234,7 @@ Stay informed throughout the process. We provide regular updates on service atte
 Don't let distance or rural addressing delay your legal matters. Just Legal Solutions provides professional, reliable process serving throughout Choctaw County, Oklahoma.
 
 **Phone:** (539) 367-6832  
-**License:** PSL-2026-2  
+**License:** Licensed  
 **Coverage:** All of Choctaw County including Hugo, Fort Towson, Boswell, Soper, and all rural areas
 
 Whether you need standard service at the Choctaw County Courthouse, rush service to the Choctaw Casino Resort, or assistance locating a subject in rural Choctaw County, our experienced team is ready to help. Contact us today to discuss your process serving needs.

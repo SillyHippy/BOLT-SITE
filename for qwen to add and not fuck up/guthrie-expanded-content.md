@@ -2,7 +2,7 @@
 
 ## Professional Process Serving Throughout Logan County
 
-**Phone: (539) 367-6832** | **License: PSL-2026-2**
+**Phone: (539) 367-6832** | **License: Licensed**
 
 When you need reliable, professional process serving in Guthrie, Oklahoma, Just Legal Solutions delivers fast, compliant service throughout Logan County and beyond. Our licensed process servers understand the unique geography, legal landscape, and community dynamics of Oklahoma's territorial capital, ensuring your legal documents reach their destination efficiently and in full compliance with state law.
 
@@ -309,7 +309,7 @@ Skip tracing is quoted individually based on case complexity and information ava
 
 Yes. Just Legal Solutions maintains all required licensing and bonding:
 
-- **Oklahoma Process Server License**: PSL-2026-2
+- **Oklahoma Process Server License**: Licensed
 - **Bonded and Insured**: General liability and errors & omissions coverage
 - **Background Checked**: All servers undergo comprehensive background screening
 - **Continuing Education**: Regular training on legal updates and best practices
@@ -364,7 +364,7 @@ When you need reliable process serving in Guthrie, Oklahoma and throughout Logan
 
 **Phone: (539) 367-6832**
 
-**License: PSL-2026-2**
+**License: Licensed**
 
 **Service Area**: Guthrie, Logan County, and surrounding Oklahoma jurisdictions
 

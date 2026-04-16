@@ -63,7 +63,7 @@ export default function LawtonProcessServerPage() {
             Just Legal Solutions provides licensed, GPS-verified process serving throughout Lawton, Oklahoma. We serve subpoenas, summonses, divorce papers, eviction notices, protective orders, and civil litigation documents throughout the area. Our servers verify addresses through county assessor records and USPS data, and deliver notarized, court-ready affidavits after every serve.
           </p>
           <p className="text-gray-700 leading-relaxed">
-            We are licensed by the State of Oklahoma (PSL-2026-2), bonded, and have completed over 156 verified five-star serves across northeastern, central, and western Oklahoma.
+            We are licensed by the State of Oklahoma (Licensed), bonded, and have completed over 156 verified five-star serves across northeastern, central, and western Oklahoma.
           </p>
         </section>
 

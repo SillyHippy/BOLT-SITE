@@ -190,7 +190,7 @@ export default function ProcessServerBusinessStartupGuide() {
           <div className="flex flex-col md:flex-row gap-8 items-start">
             <div className="flex-1">
               <p className="text-lg text-slate-700 leading-relaxed mb-4">
-                Written by <strong>Joseph Iannazzi</strong>, Licensed Oklahoma Process Server (PSL-2026-2) 
+                Written by <strong>Joseph Iannazzi</strong>, Licensed Oklahoma Process Server (Licensed) 
                 and founder of Just Legal Solutions. With over 156 five-star reviews and a statewide 
                 network of professional servers, I have helped numerous individuals launch successful 
                 process serving careers across Oklahoma.
@@ -207,7 +207,7 @@ export default function ProcessServerBusinessStartupGuide() {
                 </div>
                 <p className="font-semibold text-slate-900">Joseph Iannazzi</p>
                 <p className="text-sm text-slate-500 mb-2">Licensed Process Server</p>
-                <p className="text-xs text-slate-400">License: PSL-2026-2</p>
+                <p className="text-xs text-slate-400">License: Licensed</p>
               </div>
             </div>
           </div>

@@ -147,7 +147,7 @@ Rural Rogers County roads can become impassable after heavy rain. We monitor con
 **Direct Line:** (539) 367-6832  
 **Email:** justlegalsolutions@justlegalsolutions.org
 
-*Licensed Oklahoma Process Server PSL-2026-2*  
+*Licensed Oklahoma Process Server Licensed*  
 *Serving Rogers County since 2023*
 
 ---

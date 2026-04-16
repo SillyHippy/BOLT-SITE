@@ -86,7 +86,7 @@ export default function AttorneysGuidePage() {
                 </div>
                 <div className="flex items-center gap-2">
                   <Award className="w-4 h-4" />
-                  <span>PSL-2026-2 Licensed</span>
+                  <span>Licensed Licensed</span>
                 </div>
               </div>
             </div>
@@ -340,7 +340,7 @@ export default function AttorneysGuidePage() {
                 <div>
                   <p className="font-bold text-slate-900">Joseph Iannazzi</p>
                   <p className="text-slate-600">Owner, Just Legal Solutions</p>
-                  <p className="text-sm text-slate-500">Licensed Process Server PSL-2026-2</p>
+                  <p className="text-sm text-slate-500">Licensed Process Server Licensed</p>
                 </div>
               </div>
             </div>
@@ -570,7 +570,7 @@ export default function AttorneysGuidePage() {
             <div className="mt-8 pt-8 border-t border-slate-700 flex flex-wrap items-center justify-center gap-6 text-slate-400 text-sm">
               <div className="flex items-center gap-2">
                 <Shield className="w-4 h-4" />
-                <span>License: PSL-2026-2</span>
+                <span>License: Licensed</span>
               </div>
               <div className="flex items-center gap-2">
                 <Star className="w-4 h-4" />

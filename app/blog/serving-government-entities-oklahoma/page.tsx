@@ -124,7 +124,7 @@ export default function ServingGovernmentEntitiesPage() {
               </div>
               <div>
                 <p className="font-medium text-gray-900">Joseph Iannazzi</p>
-                <p className="text-sm text-gray-500">Licensed Process Server #PSL-2026-2</p>
+                <p className="text-sm text-gray-500">Licensed Process Server #Licensed</p>
               </div>
             </div>
             <div className="text-sm text-gray-500">
@@ -723,7 +723,7 @@ export default function ServingGovernmentEntitiesPage() {
             </a>
           </div>
           <p className="text-sm text-blue-200 mt-4">
-            License #PSL-2026-2 | Serving all 77 Oklahoma counties
+            License #Licensed | Serving all 77 Oklahoma counties
           </p>
         </div>
 

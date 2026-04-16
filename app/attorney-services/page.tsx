@@ -231,7 +231,7 @@ const faqSchema = {
       name: 'Are your process servers licensed in Oklahoma?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes, all Just Legal Solutions process servers are properly licensed under Oklahoma law. Owner Joseph Iannazzi holds Oklahoma Process Server License PSL-2026-2. Our servers are bonded and insured, with comprehensive training in Oklahoma service of process requirements under Title 12 O.S. § 2004. We maintain strict compliance with all state and federal regulations governing process serving in Oklahoma.',
+        text: 'Yes, all Just Legal Solutions process servers are properly licensed under Oklahoma law. Owner Joseph Iannazzi holds Oklahoma Process Server License. Our servers are bonded and insured, with comprehensive training in Oklahoma service of process requirements under Title 12 O.S. § 2004. We maintain strict compliance with all state and federal regulations governing process serving in Oklahoma.',
       },
     },
     {
@@ -318,7 +318,7 @@ export default function AttorneyServicesPage() {
                 </p>
                 <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-lg">
                   <p className="text-gray-800 font-medium">
-                    Licensed Process Server: PSL-2026-2 | 156+ Five-Star Reviews | Statewide Coverage | 
+                    Licensed Process Server | 156+ Five-Star Reviews | Statewide Coverage | 
                     Monthly Billing Available
                   </p>
                 </div>
@@ -897,7 +897,7 @@ export default function AttorneyServicesPage() {
                 },
                 {
                   question: 'Are your process servers licensed in Oklahoma?',
-                  answer: 'Yes, all Just Legal Solutions process servers are properly licensed under Oklahoma law. Owner Joseph Iannazzi holds Oklahoma Process Server License PSL-2026-2. Our servers are bonded and insured, with comprehensive training in Oklahoma service of process requirements under Title 12 O.S. § 2004. We maintain strict compliance with all state and federal regulations governing process serving in Oklahoma.',
+                  answer: 'Yes, all Just Legal Solutions process servers are properly licensed under Oklahoma law. Owner Joseph Iannazzi holds Oklahoma Process Server License. Our servers are bonded and insured, with comprehensive training in Oklahoma service of process requirements under Title 12 O.S. § 2004. We maintain strict compliance with all state and federal regulations governing process serving in Oklahoma.',
                 },
                 {
                   question: 'How do I get started with attorney services?',
@@ -967,7 +967,7 @@ export default function AttorneyServicesPage() {
               </a>
             </div>
             <p className="mt-6 text-blue-200">
-              Licensed Process Server PSL-2026-2 | 156+ Five-Star Reviews | Statewide Coverage
+              Licensed Process Server | 156+ Five-Star Reviews | Statewide Coverage
             </p>
           </div>
         </section>

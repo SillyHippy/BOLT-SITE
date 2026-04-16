@@ -326,5 +326,5 @@ Yes, the District Court maintains specific dockets: Felony dockets are held each
 *Last Updated: 2024*  
 *Process Server Services for Payne County provided by Joseph Iannazzi, Licensed Private Process Server*  
 **Phone:** (539) 367-6832  
-**License:** PSL-2026-2  
+**License:** Licensed Professional  
 **Service Area:** All 77 Oklahoma Counties

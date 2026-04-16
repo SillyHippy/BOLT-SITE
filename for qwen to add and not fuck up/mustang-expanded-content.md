@@ -10,7 +10,7 @@ When you need reliable, professional process serving in Mustang, Oklahoma, Just 
 
 **Contact us today: (539) 367-6832**
 
-**License: PSL-2026-2**
+**License: Licensed**
 
 Our team provides comprehensive process serving services for attorneys, law firms, businesses, and individuals throughout Mustang and the surrounding areas. Whether you need routine service of process, rush deliveries, or assistance with difficult-to-locate defendants, we have the experience and local knowledge to get the job done right.
 
@@ -274,7 +274,7 @@ Yes, upon successful service (or completion of attempts), we provide a notarized
 
 ### Are you licensed and bonded?
 
-Yes. Just Legal Solutions is fully licensed in Oklahoma. Our license number is **PSL-2026-2**. We maintain all required bonding and insurance for your protection.
+Yes. Just Legal Solutions is fully licensed in Oklahoma. Our license number is **Licensed**. We maintain all required bonding and insurance for your protection.
 
 ### How do I get started?
 
@@ -307,7 +307,7 @@ Ready to get started? Need more information? We're here to help.
 
 **Phone:** (539) 367-6832
 
-**License:** PSL-2026-2
+**License:** Licensed
 
 **Service Area:** Mustang, Canadian County, and throughout Oklahoma
 

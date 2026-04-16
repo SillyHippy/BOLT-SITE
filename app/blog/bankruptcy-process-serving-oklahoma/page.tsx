@@ -68,7 +68,7 @@ const faqs = [
   },
   {
     question: 'How much does it cost to hire a bankruptcy process server in Oklahoma?',
-    answer: 'At Just Legal Solutions, our bankruptcy process serving rates are: Standard Service (first attempt within 3-5 business days) at $60, Rush Service (first attempt within 24-48 hours) at $150, and Same-Day Service (immediate attempt) at $265. These rates include up to three attempts at different times, notarized proof of service or affidavit, electronic status updates, and GPS-verified service documentation. Bankruptcy service often requires multiple recipients to be served, and we provide volume discounts for serving multiple parties in the same case. All services are performed by licensed process servers (PSL-2026-2) familiar with FRBP 7004 and Oklahoma\'s three bankruptcy district requirements.',
+    answer: 'At Just Legal Solutions, our bankruptcy process serving rates are: Standard Service (first attempt within 3-5 business days) at $60, Rush Service (first attempt within 24-48 hours) at $150, and Same-Day Service (immediate attempt) at $265. These rates include up to three attempts at different times, notarized proof of service or affidavit, electronic status updates, and GPS-verified service documentation. Bankruptcy service often requires multiple recipients to be served, and we provide volume discounts for serving multiple parties in the same case. All services are performed by licensed process servers (Licensed) familiar with FRBP 7004 and Oklahoma\'s three bankruptcy district requirements.',
   },
 ];
 
@@ -107,7 +107,7 @@ export default function BankruptcyProcessServingGuide() {
                 <CheckCircle className="w-4 h-4" /> All 3 OK Districts
               </span>
               <span className="flex items-center gap-1">
-                <CheckCircle className="w-4 h-4" /> Licensed PSL-2026-2
+                <CheckCircle className="w-4 h-4" /> Licensed Licensed
               </span>
             </div>
           </div>
@@ -566,7 +566,7 @@ export default function BankruptcyProcessServingGuide() {
           </ul>
 
           <p>
-            At <a href="/services/process-serving/">Just Legal Solutions</a>, our licensed process servers (PSL-2026-2) have extensive experience serving bankruptcy documents across all Oklahoma districts. We understand the nuances of FRBP 7004, the special requirements for financial institutions, and the importance of meeting critical deadlines.
+            At <a href="/services/process-serving/">Just Legal Solutions</a>, our licensed process servers (Licensed) have extensive experience serving bankruptcy documents across all Oklahoma districts. We understand the nuances of FRBP 7004, the special requirements for financial institutions, and the importance of meeting critical deadlines.
           </p>
 
           <div className="not-prose bg-green-50 border border-green-200 rounded-xl p-6 my-8">
@@ -711,7 +711,7 @@ export default function BankruptcyProcessServingGuide() {
               </span>
               <span className="flex items-center gap-1">
                 <Shield className="w-4 h-4" />
-                Licensed PSL-2026-2
+                Licensed Licensed
               </span>
               <span className="flex items-center gap-1">
                 <MapPin className="w-4 h-4" />

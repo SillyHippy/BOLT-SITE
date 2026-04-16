@@ -11,7 +11,7 @@
 | **Business Name** | Just Legal Solutions |
 | **Owner** | Joseph Iannazzi |
 | **Phone** | (539) 367-6832 |
-| **License** | PSL-2026-2 |
+| **License** | Licensed Professional |
 | **Service Area** | Mustang, Canadian County, and the western OKC metro |
 | **Standard Pricing** | $60 per service |
 | **Rush Service** | $150 |
