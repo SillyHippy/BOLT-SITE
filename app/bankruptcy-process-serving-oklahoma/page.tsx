@@ -303,7 +303,7 @@ export default function BankruptcyProcessServingPage() {
                 </p>
                 <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-lg">
                   <p className="text-gray-800 font-medium">
-                    Licensed Process Server: PSL-2026-2 | 156+ Five-Star Reviews | Statewide Coverage
+                    Licensed Process Server: Licensed | 156+ Five-Star Reviews | Statewide Coverage
                   </p>
                 </div>
               </div>
@@ -754,7 +754,7 @@ export default function BankruptcyProcessServingPage() {
                 },
                 {
                   title: 'Licensed & Bonded',
-                  description: 'Oklahoma license PSL-2026-2 with full insurance coverage.',
+                  description: 'Oklahoma license Licensed with full insurance coverage.',
                   icon: '🔒',
                 },
                 {
@@ -887,7 +887,7 @@ export default function BankruptcyProcessServingPage() {
               </a>
             </div>
             <p className="mt-6 text-blue-200">
-              Licensed Process Server PSL-2026-2 | 156+ Five-Star Reviews
+              Licensed Process Server Licensed | 156+ Five-Star Reviews
             </p>
           </div>
         </section>

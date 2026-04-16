@@ -105,7 +105,7 @@ export default function HowToServeDivorcePapersOklahoma() {
           "step": [
             { "@type": "HowToStep", "name": "File Your Divorce Petition", "text": "File your divorce petition with the county clerk at your local district court. Pay the filing fee (typically � in Oklahoma)." },
             { "@type": "HowToStep", "name": "Prepare the Summons", "text": "The clerk will issue a summons along with your filed petition. Make copies of all documents to be served." },
-            { "@type": "HowToStep", "name": "Hire a Licensed Process Server", "text": "Oklahoma requires service by a licensed process server (PSL), sheriff, or other authorized officer under 12 O.S. � 158.1. Contact Just Legal Solutions at (539) 367-6832." },
+            { "@type": "HowToStep", "name": "Hire a Licensed Process Server", "text": "Oklahoma requires service by a licensed process server (licensed), sheriff, or other authorized officer under 12 O.S. � 158.1. Contact Just Legal Solutions at (539) 367-6832." },
             { "@type": "HowToStep", "name": "Serve Your Spouse", "text": "The process server personally delivers the summons and petition to your spouse at home, work, or another location. GPS-logged and time-stamped." },
             { "@type": "HowToStep", "name": "File the Affidavit of Service", "text": "Your process server provides a court-ready affidavit of service. File it with the clerk as proof that service was completed." }
           ]

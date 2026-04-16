@@ -20,7 +20,7 @@ import {
 
 export const metadata: Metadata = {
   title: 'Oklahoma Process Server Forms & Templates | Free Downloads',
-  description: 'Download free Oklahoma process server forms and templates. Affidavit of service, proof of service, diligent search affidavit, invoice templates, client intake forms, and field sheets. Professional forms by Joseph Iannazzi, CLEET License PSL-2026-2.',
+  description: 'Download free Oklahoma process server forms and templates. Affidavit of service, proof of service, diligent search affidavit, invoice templates, client intake forms, and field sheets. Professional forms by Joseph Iannazzi, CLEET Licensed Professional.',
   keywords: 'affidavit of service template oklahoma, process server forms oklahoma, proof of service template, diligent search affidavit oklahoma, process server invoice template, client intake forms, field sheet template',
   authors: [{ name: 'Joseph Iannazzi' }],
   openGraph: {
@@ -131,7 +131,7 @@ const schemaData = {
       '@id': 'https://justlegalsolutions.org/#joseph-iannazzi',
       name: 'Joseph Iannazzi',
       jobTitle: 'Licensed Process Server',
-      description: 'Licensed Oklahoma Process Server with CLEET License PSL-2026-2',
+      description: 'Licensed Oklahoma Process Server with CLEET Licensed Professional',
       worksFor: {
         '@id': 'https://justlegalsolutions.org/#organization',
       },
@@ -888,7 +888,7 @@ export default function OklahomaProcessServerFormsPage() {
                   Licensed Oklahoma Process Server
                 </p>
                 <p className="text-sm text-gray-600">
-                  CLEET License: PSL-2026-2
+                  CLEET License: Licensed
                 </p>
               </div>
             </div>

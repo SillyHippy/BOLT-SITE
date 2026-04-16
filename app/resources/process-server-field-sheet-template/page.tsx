@@ -230,7 +230,7 @@ export default function ProcessServerFieldSheetTemplate() {
                 </div>
                 <div>
                   <p className="font-semibold text-gray-900">Joseph Iannazzi</p>
-                  <p className="text-sm text-gray-600">Licensed Process Server, PSL-2026-2</p>
+                  <p className="text-sm text-gray-600">Licensed Process Server, Licensed</p>
                 </div>
               </div>
             </div>
@@ -470,7 +470,7 @@ export default function ProcessServerFieldSheetTemplate() {
               <p className="text-sm text-gray-500 mb-1">Resource Created By</p>
               <h3 className="text-xl font-bold text-gray-900">Joseph Iannazzi</h3>
               <p className="text-gray-600">
-                Licensed Oklahoma Process Server (PSL-2026-2) | Owner, Just Legal Solutions
+                Licensed Oklahoma Process Server (Licensed) | Owner, Just Legal Solutions
               </p>
               <div className="flex flex-col sm:flex-row items-center gap-4 mt-3 text-sm text-gray-600">
                 <a href="tel:539-367-6832" className="flex items-center gap-2 hover:text-blue-600 transition-colors">

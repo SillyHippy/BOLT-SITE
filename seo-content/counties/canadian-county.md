@@ -473,5 +473,5 @@ The Canadian County Judicial Building is open Monday-Friday, 8:00 AM - 4:30 PM. 
 ---
 
 *Last Updated: January 2025*  
-*License: PSL-2026-2*  
+*License: Licensed Professional*  
 *Owner: Joseph Iannazzi*

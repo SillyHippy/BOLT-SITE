@@ -51,7 +51,7 @@ export default function BeckhamCountyCountyPage() {
             <span className="text-white font-medium">Beckham County</span>
           </nav>
           <div className="inline-block bg-yellow-400 text-blue-900 px-4 py-1 rounded-full text-sm font-bold mb-5 uppercase tracking-wide">
-            Licensed — PSL-2026-2
+            Licensed Professional
           </div>
           <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-5">
             Process Server<br className="hidden md:block" /> Beckham County, Oklahoma

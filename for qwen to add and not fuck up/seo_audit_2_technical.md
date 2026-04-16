@@ -345,7 +345,7 @@
 
 **Expertise:**
 - ✅ Detailed knowledge of Oklahoma statutes (12 O.S. § 158.1, etc.)
-- ✅ Professional licensing information (PSL-2026-2)
+- ✅ Professional licensing information (Licensed)
 - ✅ NNA Certification mentioned
 - ✅ Deep content on legal procedures
 
@@ -381,7 +381,7 @@
 ### Certification Displays: ✅ GOOD
 
 **Displayed:**
-- ✅ "Licensed — PSL-2026-2" on county pages
+- ✅ "Licensed — Licensed" on county pages
 - ✅ "$10,000 Surety Bond" (2026 requirement)
 - ✅ "Background Screened (SB 1028)"
 - ✅ "E&O Insured"

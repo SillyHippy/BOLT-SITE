@@ -429,5 +429,5 @@ The university population creates unique challenges including seasonal fluctuati
 ---
 
 *Last Updated: January 2025*  
-*License: PSL-2026-2*  
+*License: Licensed Professional*  
 *Owner: Joseph Iannazzi*

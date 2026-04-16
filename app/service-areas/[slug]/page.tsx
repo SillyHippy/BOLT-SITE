@@ -426,7 +426,7 @@ export default async function LocationPage({
                   <Shield className="w-7 h-7 text-blue-600" />
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Licensed &amp; Bonded</h3>
-                <p className="text-gray-600">PSL-2026-2 licensed through the state of Oklahoma. Full compliance with Title 12 O.S. rules of civil procedure.</p>
+                <p className="text-gray-600">Licensed licensed through the state of Oklahoma. Full compliance with Title 12 O.S. rules of civil procedure.</p>
               </div>
               <div className="text-center p-8 bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
                 <div className="w-14 h-14 bg-green-100 rounded-xl flex items-center justify-center mx-auto mb-4">

@@ -171,7 +171,7 @@ export default function ProofOfServiceGuidePage() {
               </div>
               <div className="flex items-center gap-2">
                 <Shield className="w-4 h-4" />
-                <span>License: PSL-2026-2</span>
+                <span>License: Licensed</span>
               </div>
             </div>
           </div>
@@ -485,7 +485,7 @@ export default function ProofOfServiceGuidePage() {
           <h3>Work with Licensed Professional Process Servers</h3>
 
           <p>
-            Oklahoma requires process servers to be licensed, and working with licensed professionals helps ensure compliance with legal requirements. Licensed servers understand the documentation standards and statutory requirements, reducing the risk of errors that could invalidate service. At Just Legal Solutions, our licensed process servers (License: PSL-2026-2) are trained in Oklahoma's specific requirements and provide comprehensive documentation for every service.
+            Oklahoma requires process servers to be licensed, and working with licensed professionals helps ensure compliance with legal requirements. Licensed servers understand the documentation standards and statutory requirements, reducing the risk of errors that could invalidate service. At Just Legal Solutions, our licensed process servers (License: Licensed) are trained in Oklahoma's specific requirements and provide comprehensive documentation for every service.
           </p>
 
           <h3>Verify Documentation Before Filing</h3>
@@ -553,7 +553,7 @@ export default function ProofOfServiceGuidePage() {
                   <strong>Joseph Iannazzi</strong> is a licensed Oklahoma process server and the founder of Just Legal Solutions. With extensive experience serving legal documents throughout Oklahoma, Joseph specializes in providing GPS-tracked service with comprehensive documentation that meets the state's strictest requirements.
                 </p>
                 <p className="text-sm text-gray-600">
-                  License: PSL-2026-2 | Contact: <a href="tel:539-367-6832" className="text-blue-600 hover:underline">(539) 367-6832</a>
+                  License: Licensed | Contact: <a href="tel:539-367-6832" className="text-blue-600 hover:underline">(539) 367-6832</a>
                 </p>
               </div>
             </div>

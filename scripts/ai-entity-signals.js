@@ -68,7 +68,7 @@ const entitySignals = {
         "@type": "EducationalOccupationalCredential",
         "credentialCategory": "license",
         "name": "Oklahoma Process Server License",
-        "identifier": "PSL-2026-2"
+        "identifier": "Licensed"
       }
     ]
   },

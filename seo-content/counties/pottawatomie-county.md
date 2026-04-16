@@ -402,5 +402,5 @@ The Citizen Potawatomi Nation is headquartered in Shawnee. For tribal jurisdicti
 *Last Updated: 2024*  
 *Process Server Services for Pottawatomie County provided by Joseph Iannazzi, Licensed Private Process Server*  
 **Phone:** (539) 367-6832  
-**License:** PSL-2026-2  
+**License:** Licensed Professional  
 **Service Area:** All 77 Oklahoma Counties

@@ -378,5 +378,5 @@ The Garfield County Fair in September increases activity at the Chisholm Trail E
 *Last Updated: 2024*  
 *Process Server Services for Garfield County provided by Joseph Iannazzi, Licensed Private Process Server*  
 **Phone:** (539) 367-6832  
-**License:** PSL-2026-2  
+**License:** Licensed Professional  
 **Service Area:** All 77 Oklahoma Counties

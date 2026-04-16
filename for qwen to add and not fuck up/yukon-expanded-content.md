@@ -4,7 +4,7 @@
 
 When legal documents need to be served in Yukon, Oklahoma, timing, accuracy, and local knowledge matter. Just Legal Solutions provides professional, licensed process serving services throughout Yukon and the greater Canadian County area. With our deep understanding of local courts, landmarks, neighborhoods, and legal dynamics, we ensure your documents are served correctly, efficiently, and in full compliance with Oklahoma law.
 
-**Licensed Process Server | PSL-2026-2**  
+**Licensed Process Server | Licensed**  
 **Phone: (539) 367-6832**  
 **Serving Yukon, El Reno, and All of Canadian County**
 
@@ -501,7 +501,7 @@ We stand behind our work. If service is not completed after our contracted attem
 Just Legal Solutions is more than a process serving company—we're part of the Yukon community. We understand the local culture, respect the community's values, and take pride in providing professional services that meet the highest standards.
 
 ### Licensed and Insured
-**License Number: PSL-2026-2**
+**License Number: Licensed**
 
 We maintain all required Oklahoma process server licenses and carry comprehensive liability insurance. Your documents are handled with the professionalism and care they deserve.
 
@@ -538,7 +538,7 @@ Ready to schedule service or have questions about your specific situation? We're
 
 **Just Legal Solutions**  
 **Phone:** (539) 367-6832  
-**License:** PSL-2026-2  
+**License:** Licensed  
 **Service Area:** Yukon, El Reno, and All of Canadian County, Oklahoma
 
 **Hours of Operation:**
@@ -581,7 +581,7 @@ Ready to schedule service or have questions about your specific situation? We're
 When your legal documents need to be served in Yukon, Oklahoma, choose the team that knows this community best. Choose Just Legal Solutions.
 
 **Call today: (539) 367-6832**  
-**Licensed Process Server | PSL-2026-2**
+**Licensed Process Server | Licensed**
 
 ---
 

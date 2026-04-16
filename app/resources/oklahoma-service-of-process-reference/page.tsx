@@ -252,7 +252,7 @@ export default function OklahomaServiceOfProcessReference() {
               </Button>
             </div>
             <p className="mt-6 text-sm text-muted-foreground">
-              Created by <Link href="/about" className="text-primary hover:underline">Joseph Iannazzi</Link>, Licensed Oklahoma Process Server (PSL-2026-2)
+              Created by <Link href="/about" className="text-primary hover:underline">Joseph Iannazzi</Link>, Licensed Oklahoma Process Server (Licensed)
             </p>
           </div>
         </div>
@@ -647,7 +647,7 @@ export default function OklahomaServiceOfProcessReference() {
                     </Button>
                   </div>
                   <div className="mt-6 text-sm text-muted-foreground">
-                    <p>Licensed Oklahoma Process Server: PSL-2026-2</p>
+                    <p>Licensed Oklahoma Process Server: Licensed</p>
                     <p>Call: <a href="tel:539-367-6832" className="text-primary hover:underline">(539) 367-6832</a></p>
                   </div>
                 </div>

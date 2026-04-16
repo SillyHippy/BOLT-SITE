@@ -3,12 +3,12 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Join Our Network — Oklahoma Process Server Opportunities',
-  description: 'Join the Just Legal Solutions process server network in Oklahoma. Earn flexible income serving documents statewide. PSL license required. Apply today.',
+  description: 'Join the Just Legal Solutions process server network in Oklahoma. Earn flexible income serving documents statewide. license required. Apply today.',
   keywords: 'join process server network oklahoma, process server jobs oklahoma, become process server tulsa, oklahoma psl license work, process server independent contractor oklahoma',
   alternates: { canonical: 'https://justlegalsolutions.org/join-our-network' },
   openGraph: {
     title: 'Join Our Network — Oklahoma Process Server Opportunities',
-    description: 'Join the Just Legal Solutions process server network. Flexible income, established client base, statewide coverage. PSL license required.',
+    description: 'Join the Just Legal Solutions process server network. Flexible income, established client base, statewide coverage. license required.',
     url: 'https://justlegalsolutions.org/join-our-network',
     siteName: 'Just Legal Solutions',
     images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630 }],
@@ -44,7 +44,7 @@ export default function JoinOurNetworkPage() {
             <span className="block text-blue-400 mt-2">Earn. Grow. Serve Oklahoma.</span>
           </h1>
           <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
-            Just Legal Solutions is expanding our network of licensed process servers across Oklahoma. If you hold an Oklahoma PSL license, we want to work with you — flexible schedule, no contracts, established client base.
+            Just Legal Solutions is expanding our network of licensed process servers across Oklahoma. If you hold an Oklahoma license, we want to work with you — flexible schedule, no contracts, established client base.
           </p>
           <a
             href="mailto:info@justlegalsolutions.org?subject=Network Application — Process Server"
@@ -90,7 +90,7 @@ export default function JoinOurNetworkPage() {
               <h3 className="text-xl font-bold text-green-700 mb-4 flex items-center gap-2">✅ Required</h3>
               <ul className="space-y-3">
                 {[
-                  'Active Oklahoma PSL (Process Server License) — no expired licenses',
+                  'Active Oklahoma Process Server License — no expired licenses',
                   'Reliable vehicle and valid driver\'s license',
                   'Smartphone with GPS capability and camera',
                   'Professional demeanor and appearance',
@@ -125,7 +125,7 @@ export default function JoinOurNetworkPage() {
           </div>
           <div className="mt-8 bg-blue-50 border border-blue-200 rounded-xl p-5">
             <p className="text-blue-800 text-sm">
-              <strong>Don't have your PSL yet?</strong> Read our complete guide:{' '}
+              <strong>Don't have your license yet?</strong> Read our complete guide:{' '}
               <Link href="/become-process-server-oklahoma-complete-guide" className="underline font-semibold hover:text-blue-900">
                 How to Become a Process Server in Oklahoma →
               </Link>
@@ -157,7 +157,7 @@ export default function JoinOurNetworkPage() {
           <h2 className="text-3xl font-bold mb-10 text-center">How Our Network Works</h2>
           <div className="space-y-6">
             {[
-              { step: '01', title: 'Apply via Email', desc: 'Email us your name, county you serve, PSL number, and a brief intro. We typically respond within 24 hours.' },
+              { step: '01', title: 'Apply via Email', desc: 'Email us your name, county you serve, license number, and a brief intro. We typically respond within 24 hours.' },
               { step: '02', title: 'Quick Onboarding Call', desc: 'A 15-minute call to go over our documentation standards, photo requirements, and payment process.' },
               { step: '03', title: 'Receive Your First Assignment', desc: 'We\'ll text or email you assignment details: name, address, document type, and service deadline.' },
               { step: '04', title: 'Serve & Document', desc: 'Make your attempts, GPS-stamp each one with photos, and submit your service notes via email or our submission form.' },
@@ -179,7 +179,7 @@ export default function JoinOurNetworkPage() {
       <section className="py-16 px-4 bg-blue-700 text-white text-center">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl font-bold mb-4">Ready to Join?</h2>
-          <p className="text-blue-200 text-lg mb-8">Send us a quick email with your name, PSL number, and county. We\'ll take it from there.</p>
+          <p className="text-blue-200 text-lg mb-8">Send us a quick email with your name, license number, and county. We\'ll take it from there.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="mailto:info@justlegalsolutions.org?subject=Network Application — Process Server"
@@ -195,7 +195,7 @@ export default function JoinOurNetworkPage() {
             </a>
           </div>
           <p className="text-blue-300 text-sm mt-6">
-            Questions about the PSL license process?{' '}
+            Questions about the license process?{' '}
             <Link href="/become-process-server-oklahoma-complete-guide" className="underline hover:text-white">
               Read our Oklahoma licensing guide →
             </Link>
