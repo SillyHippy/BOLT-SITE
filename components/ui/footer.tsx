@@ -718,16 +718,6 @@ export function Footer() {
                 title="24/7 Emergency Service"
               />
             </div>
-            <div className="w-28 h-28 md:w-32 md:h-32 flex items-center justify-center">
-              <Image 
-                src="/badges/ai-optimized-service-badge.svg" 
-                alt="AI-Optimized Process Server Service" 
-                width={112}
-                height={112}
-                className="object-contain hover:scale-105 transition-transform duration-200"
-                title="AI-Optimized Service"
-              />
-            </div>
             {/* NAPPS Member Logo */}
             <a
               href="https://napps.org/member-info.aspx?id=14801"
