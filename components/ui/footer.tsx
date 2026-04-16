@@ -745,6 +745,23 @@ export function Footer() {
                 priority={false}
               />
             </a>
+            {/* NPSN Directory Listing */}
+            <a
+              href="https://nationalprocessservernetwork.com/directory/just-legal-solutions/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-28 h-28 md:w-32 md:h-32 flex items-center justify-center bg-white rounded-lg p-2 hover:shadow-lg transition-shadow duration-200"
+              title="Listed on NPSN - National Process Server Network"
+            >
+              <Image
+                src="/NPSN-logo.jpeg"
+                alt="NPSN Directory Listing - National Process Server Network"
+                width={112}
+                height={112}
+                className="object-contain hover:scale-105 transition-transform duration-200"
+                priority={false}
+              />
+            </a>
           </div>
         </div>
 
