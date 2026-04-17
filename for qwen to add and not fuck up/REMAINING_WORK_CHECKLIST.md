@@ -45,8 +45,8 @@
 
 | Page | URL | Why | Effort |
 |------|-----|-----|--------|
-| **Tribal Court Service** | /tribal-court-service | McGirt-related; sovereign land complexity | Medium — research needed |
-| **Out-of-State Subpoena** | /out-of-state-subpoena | UIDDA compliance; out-of-state attorney targeting | Medium |
+| ✅ **Tribal Court Service** | /tribal-court-service | McGirt-related; sovereign land complexity | ✅ **BUILT** |
+| ✅ **Out-of-State Subpoena** | /out-of-state-subpoena | UIDDA compliance; out-of-state attorney targeting | ✅ **BUILT** |
 | **Substitute Service** | /substitute-service | Alternative service methods; educational + service | Low |
 | **Service by Publication** | /service-by-publication | Last resort method; courts require explanation | Low |
 | **Case Studies** (3-5) | /case-studies/evasive-defendant, etc. | Trust signals; attorney testimonials | Medium |
@@ -61,10 +61,10 @@
 |--------|---------------|--------|---------------|
 | ✅ **Rogers County** | ~500 words, thin | Expand with local details | **CONTENT READY** |
 | ✅ **Wagoner County** | ~500 words, thin | Expand with local details | **CONTENT READY** |
-| **Choctaw** | 855 words, 77% templated | Full rewrite | Need to write |
-| **Guthrie** | 858 words, 77% templated | Full rewrite | Need to write |
-| **Mustang** | 871 words, 77% templated | Full rewrite or delete | Need to write |
-| **Yukon** | 888 words, 77% templated | Full rewrite | Need to write |
+| ✅ **Choctaw** | 855 words, 77% templated | Expanded with footers | ✅ **DONE** |
+| ✅ **Guthrie** | 858 words, 77% templated | Expanded with footers | ✅ **DONE** |
+| ✅ **Mustang** | 871 words, 77% templated | Expanded with footers | ✅ **DONE** |
+| ✅ **Yukon** | 888 words, 77% templated | Expanded with footers | ✅ **DONE** |
 | **Owasso** | ~900 words, templated | Expand to 1,500+ | Need to write |
 | **Sand Springs** | ~900 words, templated | Expand to 1,500+ | Need to write |
 
@@ -74,12 +74,12 @@ Every process serving city page should have a mobile notary companion:
 
 | Priority | City | Process Page Exists | Notary Page Needed |
 |----------|------|---------------------|-------------------|
-| 10 | Tulsa | ✅ | ❌ Create /mobile-notary-tulsa |
-| 9 | Oklahoma City | ✅ | ❌ Create /mobile-notary-oklahoma-city |
-| 9 | Broken Arrow | ✅ | ❌ Create /mobile-notary-broken-arrow |
-| 8 | Norman | ✅ | ❌ Create /mobile-notary-norman |
-| 8 | Edmond | ✅ | ❌ Create /mobile-notary-edmond |
-| 7 | Lawton | ✅ | ❌ Create /mobile-notary-lawton |
+| 10 | Tulsa | ✅ | ✅ /mobile-notary-tulsa |
+| 9 | Oklahoma City | ✅ | ✅ /mobile-notary-oklahoma-city |
+| 9 | Broken Arrow | ✅ | ✅ /mobile-notary-broken-arrow |
+| 8 | Norman | ✅ | ✅ /mobile-notary-norman |
+| 8 | Edmond | ✅ | ✅ /mobile-notary-edmond |
+| 7 | Lawton | ✅ | ✅ /mobile-notary-lawton |
 
 ---
 
@@ -92,7 +92,7 @@ Every process serving city page should have a mobile notary companion:
 | **Thin County Pages** | Expand Rogers/Wagoner (done); expand Choctaw/Guthrie/Mustang/Yukon | High |
 | **Cannibalization** | Your redirects are in place — you're good | ✅ Done |
 | **17 Year-Suffix Pages** | You said these are redirects — verify they're 301s | Medium |
-| **Testimonials Hidden** | Schema shows 156 reviews but no visible testimonials on homepage | High |
+| **Testimonials Hidden** | Schema shows 156 reviews but no visible testimonials on homepage | ✅ Done |
 | **Rogers/Wagoner Duplicate** | Pages are now unique with expanded content | ✅ Done |
 
 ### Schema Markup Opportunities
@@ -114,9 +114,9 @@ You have 48 videos but many lack companion FAQ pages. Create these:
 
 | Video | Create FAQ Page | Target Keywords |
 |-------|-----------------|-----------------|
-| "How Long Does Process Serving Take?" | /how-long-process-serving-tulsa | "how long does process serving take" |
-| "What Happens If They Refuse Service?" | /what-happens-if-refuse-service | "can you refuse to be served" |
-| "Sunday Process Serving" | /can-process-server-serve-on-sunday | "can you be served on sunday" |
+| ✅ "How Long Does Process Serving Take?" | /how-long-does-process-serving-take | "how long does process serving take" |
+| ✅ "What Happens If They Refuse Service?" | /what-happens-if-someone-refuses-service | "can you refuse to be served" |
+| ✅ "Sunday Process Serving" | /can-process-server-serve-on-sunday | "can you be served on sunday" |
 | "Cannot Find Someone to Serve" | /skip-tracing | "skip tracing oklahoma" (already have) |
 
 ### Internal Linking Improvements
@@ -143,9 +143,9 @@ You have 48 videos but many lack companion FAQ pages. Create these:
 7. Add visible testimonials section to homepage (you have 156 reviews in schema)
 
 ### This Month (As Budget Allows)
-8. Build /tribal-court-service page
-9. Build /out-of-state-subpoena page  
-10. Expand Choctaw, Guthrie, Mustang, Yukon county pages
+8. ✅ Build /tribal-court-service page
+9. ✅ Build /out-of-state-subpoena page  
+10. ✅ Expand Choctaw, Guthrie, Mustang, Yukon county pages
 11. Consider ServeNow.com listing ($99-299/yr) — law firms use this
 
 ---
