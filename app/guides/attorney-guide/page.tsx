@@ -32,7 +32,7 @@ export const metadata: Metadata = {
 };
 
 export default function AttorneyGuidePage() {
-  const contentDir = join(process.cwd(), 'seo-content');
+  const contentDir = join(process.cwd(), 'content');
   const content = readFileSync(join(contentDir, 'attorney-guide.md'), 'utf-8');
 
   return (

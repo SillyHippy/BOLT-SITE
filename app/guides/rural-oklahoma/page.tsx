@@ -31,7 +31,7 @@ export const metadata: Metadata = {
 };
 
 export default function RuralOklahomaGuidePage() {
-  const contentDir = join(process.cwd(), 'seo-content');
+  const contentDir = join(process.cwd(), 'content');
   const content = readFileSync(
     join(contentDir, 'rural-oklahoma-guide.md'),
     'utf-8'

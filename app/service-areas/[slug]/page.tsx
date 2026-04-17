@@ -180,7 +180,7 @@ function parseLocationData(content: string, slug: string): LocationData {
   // Adjacent cities
   const adjSection = parseSection(content, 'Adjacent Cities');
   const adjacentCities: AdjacentCity[] = [];
-  const adjMatches = adjSection.matchAll(/\[(.+?)\]\(\/(?:seo-content\/locations|service-areas)\/(.+?)(?:\.md)?\)\s*-\s*(.+)/g);
+  const adjMatches = adjSection.matchAll(/\[(.+?)\]\(\/(?:content\/locations|service-areas)\/(.+?)(?:\.md)?\)\s*-\s*(.+)/g);
   for (const am of adjMatches) {
     adjacentCities.push({ name: am[1], slug: am[2], distance: am[3].trim() });
   }

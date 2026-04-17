@@ -34,7 +34,7 @@ export const metadata: Metadata = {
 };
 
 export default function MilitaryBaseServiceGuidePage() {
-  const contentDir = join(process.cwd(), 'seo-content', 'guides');
+  const contentDir = join(process.cwd(), 'content', 'guides');
   const content = readFileSync(
     join(contentDir, 'military-base-service-guide.md'),
     'utf-8'

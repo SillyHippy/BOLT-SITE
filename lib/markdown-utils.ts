@@ -1,7 +1,7 @@
 import { readFileSync, readdirSync } from 'fs';
 import { join } from 'path';
 
-const COUNTIES_DIR = join(process.cwd(), 'seo-content', 'counties');
+const COUNTIES_DIR = join(process.cwd(), 'content', 'counties');
 
 const EXISTING_COUNTY_PAGES = [
   'creek-county',
@@ -99,7 +99,7 @@ export function extractFAQs(content: string): Array<{ question: string; answer: 
 
 // ── Location page utilities ──
 
-const LOCATIONS_DIR = join(process.cwd(), 'seo-content', 'locations');
+const LOCATIONS_DIR = join(process.cwd(), 'content', 'locations');
 
 export function getLocationSlugs(): string[] {
   try {

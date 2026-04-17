@@ -31,7 +31,7 @@ export const metadata: Metadata = {
 };
 
 export default function McGirtGuidePage() {
-  const contentDir = join(process.cwd(), 'seo-content', 'guides');
+  const contentDir = join(process.cwd(), 'content', 'guides');
   const content = readFileSync(
     join(contentDir, 'mcgirt-v-oklahoma-guide.md'),
     'utf-8'
