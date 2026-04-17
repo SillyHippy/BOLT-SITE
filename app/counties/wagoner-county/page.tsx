@@ -5,14 +5,14 @@ import UnifiedSchema from '@/components/UnifiedSchema';
 import GoogleMapsEmbed from '@/components/ui/google-maps-embed';
 
 export const metadata: Metadata = {
-  title: 'Process Server Wagoner County, OK | Wagoner',
-  description: 'Licensed process server in Wagoner County, Oklahoma. Serving Wagoner, Coweta, and all surrounding communities.',
+  title: 'Process Server Wagoner County, OK | Coweta, Wagoner & Fort Gibson',
+  description: 'Licensed process server in Wagoner County, Oklahoma. Serving Coweta, Wagoner, Fort Gibson, Okay & all communities. GPS-tracked, court-ready. (539) 367-6832.',
   keywords: 'process server Wagoner County Oklahoma, Wagoner County process server, serve papers Wagoner County, legal document service Wagoner County',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   robots: { index: true, follow: true },
   openGraph: {
-    title: 'Process Server Wagoner County, OK | Wagoner',
-    description: 'Licensed process server in Wagoner County, Oklahoma. Serving Wagoner, Coweta, and all surrounding communities.',
+    title: 'Process Server Wagoner County, OK | Coweta, Wagoner & Fort Gibson',
+    description: 'Licensed process server in Wagoner County, Oklahoma. Serving Coweta, Wagoner, Fort Gibson, Okay & all communities. GPS-tracked, court-ready. (539) 367-6832.',
     url: 'https://justlegalsolutions.org/counties/wagoner-county',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -24,7 +24,12 @@ export const metadata: Metadata = {
 };
 
 const pageFAQs: { question: string; answer: string }[] = [
-
+  { question: 'How long does process service take in Wagoner County?', answer: 'Standard service includes a first attempt within 48 hours. Most Wagoner County assignments complete within 3-5 days. We understand many residents work in Tulsa, so we offer evening and weekend attempts when needed.' },
+  { question: 'Do you serve papers at Lake Fort Gibson properties?', answer: 'Yes. We serve at lake houses and properties around Fort Gibson Lake. Many lake properties are seasonal — occupied May through September but vacant in winter. We verify occupancy patterns when possible.' },
+  { question: 'What is the difference between Coweta and Wagoner for service?', answer: 'Coweta is larger, newer, and more suburban — most residents commute to Tulsa. Wagoner is the historic county seat with a mix of downtown, lake properties, and established neighborhoods. We adjust our approach based on which community we are serving.' },
+  { question: 'Do you file proof of service with the Wagoner County Clerk?', answer: 'Yes. We can file affidavits of service with the Wagoner County Clerk at 307 E Cherokee St in Wagoner. Note: the courthouse closes at 4:30 PM, earlier than surrounding counties.' },
+  { question: 'How much does it cost to serve someone in Wagoner County?', answer: 'Standard service starts at $100 for up to 3 attempts within Wagoner County. Rush service is $150. Same-day emergency service is $265. Travel to outlying areas like Hulbert or Porter may incur mileage fees.' },
+  { question: 'Can you handle rush service to Coweta for last-minute court filings?', answer: 'Yes. Coweta is our most frequent Wagoner County destination due to its growth and proximity to Tulsa. Rush and same-day service to Coweta is available daily.' },
 ];
 
 const employers: { name: string; address: string; industry: string; notes: string }[] = [
@@ -34,6 +39,9 @@ const employers: { name: string; address: string; industry: string; notes: strin
   { name: 'City of Wagoner', address: '200 S Casaver Ave, Wagoner, OK 74467', industry: 'Government', notes: 'Municipal court' },
   { name: 'Fort Gibson State Historic Site', address: '907 N Garrison Ave, Fort Gibson, OK 74434', industry: 'Tourism', notes: 'State-operated' },
   { name: 'Walmart Supercenter', address: '2815 E State Highway 51, Coweta, OK 74429', industry: 'Retail', notes: '200+ employees' },
+  { name: 'Coweta High School', address: '14699 S 305th E Ave, Coweta, OK 74429', industry: 'Education', notes: 'Large campus; school activities influence schedules' },
+  { name: 'Tulsa Tech - Coweta Campus', address: 'Industrial Park Area, Coweta, OK', industry: 'Education', notes: 'Technical training; varied schedules' },
+  { name: 'Battle Creek Golf Club', address: 'Coweta, OK 74429', industry: 'Recreation', notes: 'Club house open during business hours' },
 ];
 
 export default function WagonerCountyCountyPage() {
@@ -96,10 +104,10 @@ export default function WagonerCountyCountyPage() {
           <div className="p-8 space-y-4">
             <div className="bg-blue-50 border border-blue-200 rounded-xl p-5">
               <p className="font-semibold text-lg text-gray-900">Wagoner County Courthouse</p>
-              <p className="text-gray-700">Courthouse, Wagoner, OK 74467</p>
-              
+              <p className="text-gray-700">307 E Cherokee St, Wagoner, OK 74467</p>
+              <p className="text-gray-600 text-sm mt-1">📞 (918) 485-4508</p>
               <p className="text-gray-500 text-xs mt-1">🕐 Mon-Fri 8:00 AM - 4:30 PM</p>
-              <p className="text-gray-600 mt-2 text-sm">Serves: Coweta, Wagoner, Catoosa, Broken Arrow</p>
+              <p className="text-gray-600 mt-2 text-sm">Serves: Coweta, Wagoner, Fort Gibson, Okay, Porter, Hulbert</p>
             </div>
             
             <div className="bg-amber-50 border border-amber-300 rounded-xl p-4">
@@ -107,6 +115,39 @@ export default function WagonerCountyCountyPage() {
               <p className="text-amber-700 text-sm">McGirt v. Oklahoma ruling and tribal jurisdiction may apply to criminal matters in this area. We coordinate with tribal courts and recommend confirming venue with your attorney.</p>
             </div>
             
+          </div>
+        </section>
+
+        {/* Neighborhoods */}
+        <section className="bg-white rounded-2xl shadow-lg overflow-hidden">
+          <div className="p-6 bg-gradient-to-r from-indigo-600 to-indigo-700 text-white">
+            <h2 className="text-2xl font-bold mb-1">Where We Serve in Wagoner County</h2>
+            <p className="text-indigo-100">Local expertise across every community</p>
+          </div>
+          <div className="p-8">
+            <p className="text-gray-700 mb-6 max-w-3xl">Wagoner County blends small-town Oklahoma heritage with rapid suburban growth. From the booming bedroom community of Coweta to the lakeside neighborhoods of Fort Gibson, effective service requires understanding the county&apos;s unique commuter patterns and seasonal dynamics.</p>
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="bg-gray-50 p-5 rounded-lg">
+                <h3 className="font-semibold text-lg text-gray-900 mb-2">Coweta — The Growth Center</h3>
+                <p className="text-gray-700 text-sm">Once a quiet agricultural town, now one of the fastest-growing communities in eastern Oklahoma. New subdivisions like <strong>Woodlake</strong> and <strong>Summerfield</strong> spread south toward the Arkansas River. Most residents work in Tulsa (25-30 minute commute) — daytime residential service often fails.</p>
+              </div>
+              <div className="bg-gray-50 p-5 rounded-lg">
+                <h3 className="font-semibold text-lg text-gray-900 mb-2">Wagoner — Historic County Seat</h3>
+                <p className="text-gray-700 text-sm">Charming downtown, historic homes, and the <strong>Wagoner County Courthouse</strong> (307 E Cherokee St). <strong>Lake Fort Gibson</strong> borders the northern edge, bringing seasonal population fluctuations. Commercial strip along <strong>U.S. Highway 69</strong>.</p>
+              </div>
+              <div className="bg-gray-50 p-5 rounded-lg">
+                <h3 className="font-semibold text-lg text-gray-900 mb-2">Okay &amp; Fort Gibson — Lake Communities</h3>
+                <p className="text-gray-700 text-sm">Sitting on the shores of <strong>Fort Gibson Lake</strong>. Mix of year-round residents and seasonal lake house owners. Summer population surges May–September; some lake communities are nearly empty November–March.</p>
+              </div>
+              <div className="bg-gray-50 p-5 rounded-lg">
+                <h3 className="font-semibold text-lg text-gray-900 mb-2">Porter &amp; Hulbert — Rural Wagoner County</h3>
+                <p className="text-gray-700 text-sm">Porter sits near the Rogers County line with <strong>Route 66</strong> corridor frontage. Hulbert in eastern Wagoner County lies within <strong>Cherokee Nation</strong> jurisdiction. Both feature rural route addressing and agricultural schedules.</p>
+              </div>
+            </div>
+            <div className="mt-6 bg-amber-50 border border-amber-200 rounded-xl p-4">
+              <p className="font-semibold text-amber-800">Commuter Strategy</p>
+              <p className="text-amber-700 text-sm">Many Wagoner County residents work in Tulsa. Attempting service at 10 AM on a Tuesday often means an empty house. We adjust with evening attempts (after 6 PM), weekend service, and workplace service when residential fails.</p>
+            </div>
           </div>
         </section>
 
@@ -238,6 +279,42 @@ export default function WagonerCountyCountyPage() {
               <Link href="/contact" className="bg-blue-900 hover:bg-blue-950 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all flex items-center justify-center gap-2">
                 <FileText className="h-5 w-5" /> Get Free Quote
               </Link>
+            </div>
+          </div>
+        </section>
+
+        {/* Related Resources */}
+        <section className="bg-white rounded-2xl shadow-lg overflow-hidden">
+          <div className="p-6 bg-gradient-to-r from-purple-600 to-purple-700 text-white">
+            <h2 className="text-2xl font-bold mb-1">Nearby Counties & Resources</h2>
+            <p className="text-purple-100">Related coverage areas and helpful guides</p>
+          </div>
+          <div className="p-8 grid md:grid-cols-3 gap-6">
+            <div>
+              <h3 className="font-bold text-gray-900 mb-3">📍 Nearby Counties</h3>
+              <ul className="space-y-2">
+                <li><Link href="/counties/tulsa-county" className="text-blue-600 hover:underline">Tulsa County</Link></li>
+                <li><Link href="/counties/rogers-county" className="text-blue-600 hover:underline">Rogers County</Link></li>
+                <li><Link href="/counties/muskogee-county" className="text-blue-600 hover:underline">Muskogee County</Link></li>
+                <li><Link href="/service-areas/coweta" className="text-blue-600 hover:underline">Coweta</Link></li>
+                <li><Link href="/service-areas/broken-arrow" className="text-blue-600 hover:underline">Broken Arrow</Link></li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="font-bold text-gray-900 mb-3">📚 Helpful Guides</h3>
+              <ul className="space-y-2">
+                <li><Link href="/oklahoma-process-server-faq" className="text-blue-600 hover:underline">Process Serving FAQ</Link></li>
+                <li><Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma Process Server Laws</Link></li>
+                <li><Link href="/oklahoma-process-server-pricing" className="text-blue-600 hover:underline">Pricing Guide</Link></li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="font-bold text-gray-900 mb-3">🏢 Services</h3>
+              <ul className="space-y-2">
+                <li><Link href="/law-firm-services" className="text-blue-600 hover:underline">Law Firm Services</Link></li>
+                <li><Link href="/weekend-emergency" className="text-blue-600 hover:underline">Emergency Service</Link></li>
+                <li><Link href="/contact" className="text-blue-600 hover:underline">Contact Us</Link></li>
+              </ul>
             </div>
           </div>
         </section>

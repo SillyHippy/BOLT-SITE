@@ -6,13 +6,13 @@ import GoogleMapsEmbed from '@/components/ui/google-maps-embed';
 
 export const metadata: Metadata = {
   title: 'Process Server El Reno, OK | Canadian County Seat',
-  description: 'Licensed process server in El Reno, Oklahoma. Serving Canadian County District Court and the west OKC metro area. Rush and same-day available.',
-  keywords: 'process server El Reno OK, serve papers El Reno Oklahoma, legal document service El Reno, subpoena service El Reno',
+  description: 'Licensed process server in El Reno, Oklahoma. Canadian County seat with historic Route 66 heritage. GPS-tracked, court-ready. Call (539) 367-6832.',
+  keywords: 'process server El Reno OK, serve papers El Reno Oklahoma, legal document service El Reno, subpoena service El Reno, El Reno process server, Canadian County courthouse',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
   robots: { index: true, follow: true },
   openGraph: {
     title: 'Process Server El Reno, OK | Canadian County Seat',
-    description: 'Licensed process server in El Reno, Oklahoma. Serving Canadian County District Court and the west OKC metro area. Rush and same-day available.',
+    description: 'Licensed process server in El Reno, Oklahoma. Canadian County seat with historic Route 66 heritage. GPS-tracked, court-ready. Call (539) 367-6832.',
     url: 'https://justlegalsolutions.org/service-areas/el-reno',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -24,18 +24,24 @@ export const metadata: Metadata = {
 };
 
 const pageFAQs: { question: string; answer: string }[] = [
-  { question: 'Do El Reno residents file in El Reno?', answer: 'Yes. El Reno is the county seat of Canadian County. District cases file at the Canadian County Courthouse.' },
-  { question: 'Do all Canadian County cases file at the Canadian County Courthouse?', answer: 'Yes. All district-court civil, family, and felony cases for Canadian County residents file at the Canadian County Courthouse. Municipal cases are handled separately at the local municipal court.' },
-  { question: 'Is same-day process service available?', answer: 'Yes. Our same-day service can cover El-Reno and all surrounding areas. Call before noon for best scheduling.' },
-  { question: 'Do you notarize affidavits of service?', answer: 'Yes. Every completed service includes a signed, notarized Affidavit of Service prepared to Oklahoma Statutes §12-2004 standards.' },
+  { question: 'Do all Canadian County cases file in El Reno?', answer: 'Yes. El Reno is the county seat of Canadian County. All district court civil, family, and felony cases for Canadian County residents file at the Canadian County Courthouse at 301 N Choctaw Ave in downtown El Reno.' },
+  { question: 'Where is the Canadian County Courthouse located?', answer: 'The Canadian County Courthouse is located at 301 N Choctaw Ave, El Reno, OK 73036 — directly on historic Route 66 in downtown El Reno. The Clerk of Court\'s office is on the second floor.' },
+  { question: 'Is same-day process service available in El Reno?', answer: 'Yes. El Reno is approximately 25 miles west of Oklahoma City with quick access via I-40 and Route 66. Same-day service available with call before noon.' },
+  { question: 'What makes El Reno different for process serving?', answer: 'El Reno combines a historic Route 66 downtown with modern development along the I-40 corridor. The Canadian County Courthouse location means many legal professionals have offices in the downtown area. Fort Reno and the annual Fried Onion Burger Day Festival are local landmarks.' },
+  { question: 'Do you notarize affidavits of service?', answer: 'Yes. Every completed service includes a signed, notarized Affidavit of Service prepared to Oklahoma Statutes §12-2004 standards, ready for filing at Canadian County Courthouse.' },
 ];
 
 const employers: { name: string; address: string; industry: string; notes: string }[] = [
-  { name: 'Redlands Community College', address: '', industry: 'Higher Education', notes: 'Faculty and commuter students.' },
-  { name: 'El Reno Public Schools', address: '', industry: 'Education', notes: 'Local district.' },
-  { name: 'City of El Reno', address: '', industry: 'Government', notes: 'Municipal services.' },
-  { name: 'Canadian County Government', address: '', industry: 'Government', notes: 'Courthouse complex.' },
-  { name: 'Walmart Supercenter', address: '', industry: 'Retail', notes: 'Major retail employer.' },
+  { name: 'Canadian County Courthouse', address: '301 N Choctaw Ave, El Reno, OK 73036', industry: 'Government', notes: 'County seat courthouse. Second floor Clerk of Court. Limited parking on Choctaw Ave; additional parking on side streets.' },
+  { name: 'Canadian County Sheriff', address: '300 S Evans Ave, El Reno, OK 73036', industry: 'Government', notes: 'Law enforcement and corrections facility south of downtown.' },
+  { name: 'Redlands Community College', address: '1300 S Country Club Rd, El Reno, OK 73036', industry: 'Higher Education', notes: 'Community college campus. Faculty and student services available weekdays.' },
+  { name: 'El Reno Public Schools', address: '300 S Choctaw Ave, El Reno, OK 73036', industry: 'Education', notes: 'District administration in historic downtown building near courthouse.' },
+  { name: 'El Reno High School', address: '407 S Choctaw Ave, El Reno, OK 73036', industry: 'Education', notes: 'Historic high school campus one block south of downtown.' },
+  { name: 'City of El Reno', address: '203 N Choctaw Ave, El Reno, OK 73036', industry: 'Government', notes: 'Municipal offices in historic downtown. City clerk available for service.' },
+  { name: 'Walmart Supercenter', address: '2400 Country Club Rd, El Reno, OK 73036', industry: 'Retail', notes: 'Large-format retail off I-40 at Country Club Road exit.' },
+  { name: 'Fort Reno', address: '7107 W Cheyenne St, El Reno, OK 73036', industry: 'Historic/Tourism', notes: 'Historic U.S. Army cavalry post and POW camp. Administration offices on site.' },
+  { name: 'Lucky Star Casino', address: '7901 N U.S. 81, El Reno, OK 73036', industry: 'Gaming', notes: 'Cheyenne & Arapaho Tribes casino north of El Reno on Highway 81.' },
+  { name: 'Hilands Golf Course', address: '300 Country Club Rd, El Reno, OK 73036', industry: 'Recreation', notes: 'Municipal golf course and event venue near Country Club Road.' },
 ];
 
 export default function ElRenoProcessServerPage() {
@@ -59,14 +65,14 @@ export default function ElRenoProcessServerPage() {
             Process Server<br className="hidden md:block" /> El Reno, Oklahoma
           </h1>
           <div className="flex flex-wrap gap-4 mb-4 text-blue-200 text-sm">
-            <span className="flex items-center gap-1"><Users className="h-4 w-4" /> Population: 18,557</span>
-            
+            <span className="flex items-center gap-1"><Users className="h-4 w-4" /> Population: 16,831</span>
             <span>🚗 30 min from OKC</span>
-            <span>🚗 85 min from Tulsa</span>
+            <span>🚗 100 min from Tulsa</span>
           </div>
-          <p className="text-lg text-blue-100 mb-4 italic">The county seat of Canadian County and home to Redlands Community College..</p>
+          <p className="text-lg text-blue-100 mb-4 italic">The county seat of Canadian County, located on historic Route 66 with a rich western heritage.</p>
           <p className="text-xl text-blue-100 mb-8 max-w-3xl leading-relaxed">
-            Licensed process server in El Reno, Oklahoma. Serving Canadian County District Court and the west OKC metro area. Rush and same-day available.
+            Licensed process server in El Reno, Oklahoma. Serving Canadian County District Court at the historic downtown courthouse, 
+            with expertise in rural addressing west of OKC and Route 66 corridor service.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a href="tel:5393676832" className="bg-yellow-400 hover:bg-yellow-300 text-blue-900 font-bold py-4 px-8 rounded-xl text-center transition-all shadow-xl text-lg flex items-center justify-center gap-2">
@@ -92,27 +98,27 @@ export default function ElRenoProcessServerPage() {
         {/* Courthouse Info */}
         <section className="bg-white rounded-2xl shadow-lg overflow-hidden">
           <div className="p-6 bg-gradient-to-r from-slate-700 to-slate-800 text-white">
-            <h2 className="text-2xl font-bold mb-1">Courthouse &amp; Filing Information</h2>
-            <p className="text-slate-300">El Reno, Oklahoma</p>
+            <h2 className="text-2xl font-bold mb-1">Courthouse & Filing Information</h2>
+            <p className="text-slate-300">El Reno, Oklahoma — Canadian County Seat</p>
           </div>
           <div className="p-8 space-y-4">
             <div className="bg-blue-50 border border-blue-200 rounded-xl p-5">
               <p className="font-semibold text-lg text-gray-900">Canadian County Courthouse</p>
-              <p className="text-gray-700">201 N Choctaw Ave, El Reno, OK 73036</p>
+              <p className="text-gray-700">301 N Choctaw Ave, El Reno, OK 73036</p>
               <p className="text-gray-600 text-sm mt-1">📞 (405) 262-1070</p>
               <p className="text-gray-500 text-xs mt-1">🕐 Mon-Fri 8:00 AM - 4:30 PM</p>
-              
+              <p className="text-gray-600 text-sm mt-3">All Canadian County district court cases file here. Located on historic Route 66 in downtown El Reno. Clerk of Court on second floor.</p>
             </div>
-            <div className="bg-gray-50 border border-gray-200 rounded-xl p-5">
-              <p className="font-semibold text-gray-800">Municipal Court</p>
-              <p className="text-gray-700 text-sm">El Reno Municipal Court</p>
-              <p className="text-gray-600 text-sm">101 N Choctaw Ave, El Reno, OK 73036</p>
-              <p className="text-gray-600 text-sm">📞 (405) 262-4070</p>
+            <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5">
+              <p className="font-semibold text-lg text-gray-900">El Reno Municipal Court</p>
+              <p className="text-gray-700">203 N Choctaw Ave, El Reno, OK 73036</p>
+              <p className="text-gray-600 text-sm mt-1">📞 (405) 262-1472</p>
+              <p className="text-gray-500 text-xs mt-1">🕐 Mon-Fri 8:00 AM - 5:00 PM</p>
+              <p className="text-gray-600 text-sm mt-3">Municipal citations and city ordinance violations. Same building as City Hall.</p>
             </div>
-            
             <div className="bg-orange-50 border border-orange-200 rounded-xl p-4">
               <p className="font-semibold text-orange-800">Local Service Notes</p>
-              <p className="text-orange-700 text-sm">Canadian County OKC work-release and detention center near courthouse.</p>
+              <p className="text-orange-700 text-sm">Canadian County Courthouse has limited parking on Choctaw Avenue. Use side streets or the county parking lot south of the building. The downtown area can be busy during the annual Fried Onion Burger Day Festival.</p>
             </div>
           </div>
         </section>
@@ -121,33 +127,33 @@ export default function ElRenoProcessServerPage() {
         <section className="bg-white rounded-2xl shadow-lg overflow-hidden">
           <div className="p-6 bg-gradient-to-r from-indigo-600 to-indigo-700 text-white">
             <h2 className="text-2xl font-bold mb-1">Where We Serve Papers in El Reno</h2>
-            <p className="text-indigo-100">Local coverage across Canadian County</p>
+            <p className="text-indigo-100">Local coverage throughout Canadian County</p>
           </div>
           <div className="p-8 grid md:grid-cols-2 gap-6">
             <div className="bg-gray-50 p-5 rounded-xl">
-              <h3 className="font-semibold text-gray-900 mb-2">Downtown El Reno</h3>
-              <p className="text-gray-700 text-sm">Historic Rock Island District and Canadian County Courthouse.</p>
+              <h3 className="font-semibold text-gray-900 mb-2">Historic Downtown / Route 66</h3>
+              <p className="text-gray-700 text-sm">The original downtown along Choctaw Avenue (Route 66). Canadian County Courthouse, City Hall, historic businesses, and legal offices concentrated in this area.</p>
             </div>
             <div className="bg-gray-50 p-5 rounded-xl">
-              <h3 className="font-semibold text-gray-900 mb-2">RCC Area</h3>
-              <p className="text-gray-700 text-sm">Student housing near Redlands Community College.</p>
+              <h3 className="font-semibold text-gray-900 mb-2">I-40 Corridor</h3>
+              <p className="text-gray-700 text-sm">Modern commercial development along the Interstate 40 corridor. Walmart, hotels, and chain restaurants. Easy access from OKC metro.</p>
             </div>
             <div className="bg-gray-50 p-5 rounded-xl">
-              <h3 className="font-semibold text-gray-900 mb-2">North El Reno</h3>
-              <p className="text-gray-700 text-sm">Residential neighborhoods along Country Club Rd.</p>
+              <h3 className="font-semibold text-gray-900 mb-2">Redlands Community College Area</h3>
+              <p className="text-gray-700 text-sm">South side of El Reno near Country Club Road. College campus and residential areas south of the railroad tracks.</p>
             </div>
             <div className="bg-gray-50 p-5 rounded-xl">
-              <h3 className="font-semibold text-gray-900 mb-2">South El Reno</h3>
-              <p className="text-gray-700 text-sm">Industrial and warehouse district near the rail yards.</p>
+              <h3 className="font-semibold text-gray-900 mb-2">West El Reno / Rural Routes</h3>
+              <p className="text-gray-700 text-sm">Rural properties west of town toward Calumet and Geary. Farm and ranch properties with rural addressing. Fort Reno located southwest of town.</p>
             </div>
           </div>
         </section>
 
-        {employers.length > 0 && (
+        {/* Major Employers */}
         <section className="bg-white rounded-2xl shadow-lg overflow-hidden">
           <div className="p-6 bg-gradient-to-r from-emerald-600 to-emerald-700 text-white">
-            <h2 className="text-2xl font-bold mb-1">Major Employers &amp; Workplace Service</h2>
-            <p className="text-emerald-100">Serving businesses and employees in El Reno</p>
+            <h2 className="text-2xl font-bold mb-1">Major Employers & Workplace Service</h2>
+            <p className="text-emerald-100">Serving businesses and employees throughout El Reno</p>
           </div>
           <div className="p-8 overflow-x-auto">
             <table className="min-w-full text-sm">
@@ -172,7 +178,40 @@ export default function ElRenoProcessServerPage() {
             </table>
           </div>
         </section>
-        )}
+
+        {/* Internal Links */}
+        <section className="bg-white rounded-2xl shadow-lg overflow-hidden">
+          <div className="p-6 bg-gradient-to-r from-purple-600 to-purple-700 text-white">
+            <h2 className="text-2xl font-bold mb-1">Nearby Service Areas</h2>
+            <p className="text-purple-100">We also serve these surrounding communities</p>
+          </div>
+          <div className="p-8 grid md:grid-cols-3 gap-4">
+            <Link href="/service-areas/yukon" className="bg-gray-50 p-4 rounded-xl hover:bg-gray-100 transition-colors">
+              <h3 className="font-semibold text-blue-700">Yukon →</h3>
+              <p className="text-gray-600 text-sm mt-1">12 miles east. The other major Canadian County city.</p>
+            </Link>
+            <Link href="/service-areas/mustang" className="bg-gray-50 p-4 rounded-xl hover:bg-gray-100 transition-colors">
+              <h3 className="font-semibold text-blue-700">Mustang →</h3>
+              <p className="text-gray-600 text-sm mt-1">20 miles east. Fast-growing suburb in Canadian County.</p>
+            </Link>
+            <Link href="/service-areas/oklahoma-city" className="bg-gray-50 p-4 rounded-xl hover:bg-gray-100 transition-colors">
+              <h3 className="font-semibold text-blue-700">Oklahoma City →</h3>
+              <p className="text-gray-600 text-sm mt-1">25 miles east via I-40. State capital and Oklahoma County seat.</p>
+            </Link>
+            <Link href="/service-areas/calumet" className="bg-gray-50 p-4 rounded-xl hover:bg-gray-100 transition-colors">
+              <h3 className="font-semibold text-blue-700">Calumet →</h3>
+              <p className="text-gray-600 text-sm mt-1">15 miles west. Small Canadian County community.</p>
+            </Link>
+            <Link href="/service-areas/geary" className="bg-gray-50 p-4 rounded-xl hover:bg-gray-100 transition-colors">
+              <h3 className="font-semibold text-blue-700">Geary →</h3>
+              <p className="text-gray-600 text-sm mt-1">20 miles west. Rural community in Blaine County.</p>
+            </Link>
+            <Link href="/service-areas/union-city" className="bg-gray-50 p-4 rounded-xl hover:bg-gray-100 transition-colors">
+              <h3 className="font-semibold text-blue-700">Union City →</h3>
+              <p className="text-gray-600 text-sm mt-1">10 miles south. Small community on Highway 81.</p>
+            </Link>
+          </div>
+        </section>
 
         {/* Pricing */}
         <section className="bg-white rounded-2xl shadow-lg overflow-hidden">
@@ -200,18 +239,18 @@ export default function ElRenoProcessServerPage() {
             </div>
             <div className="text-center">
               <Link href="/pricing" className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-xl transition-colors shadow">
-                <DollarSign className="h-4 w-4" /> View Current Rates &amp; Full Pricing
+                <DollarSign className="h-4 w-4" /> View Current Rates & Full Pricing
               </Link>
               <p className="text-xs text-gray-500 mt-3">All rates are flat — no hidden mileage fees in Canadian County.</p>
             </div>
           </div>
         </section>
 
-        {pageFAQs.length > 0 && (
+        {/* FAQ */}
         <section className="bg-white rounded-2xl shadow-lg overflow-hidden">
           <div className="p-6 bg-gradient-to-r from-teal-600 to-teal-700 text-white">
-            <h2 className="text-2xl font-bold mb-1">El Reno FAQ</h2>
-            <p className="text-teal-100">Local process serving questions answered</p>
+            <h2 className="text-2xl font-bold mb-1">El Reno Process Serving FAQ</h2>
+            <p className="text-teal-100">Local questions answered</p>
           </div>
           <div className="p-8 space-y-6">
             {pageFAQs.map((faq, i) => (
@@ -222,14 +261,13 @@ export default function ElRenoProcessServerPage() {
             ))}
           </div>
         </section>
-        )}
 
         {/* Emergency CTA */}
         <section className="bg-gradient-to-r from-red-600 to-red-700 text-white rounded-2xl shadow-lg">
           <div className="p-8 text-center">
             <AlertCircle className="h-14 w-14 mx-auto mb-5 text-red-200" />
             <h2 className="text-3xl font-bold mb-3">Emergency Process Service in El Reno?</h2>
-            <p className="text-xl mb-6 text-red-100">Available 24/7 for urgent legal document service across Canadian County</p>
+            <p className="text-xl mb-6 text-red-100">Available 24/7 for urgent legal document service</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:5393676832" className="bg-white text-red-600 hover:bg-red-50 px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-lg flex items-center justify-center gap-2">
                 <Phone className="h-5 w-5" /> Emergency: (539) 367-6832
@@ -261,7 +299,7 @@ export default function ElRenoProcessServerPage() {
         <section className="bg-gradient-to-r from-blue-700 to-blue-800 text-white rounded-2xl shadow-lg">
           <div className="p-8 text-center">
             <h2 className="text-3xl font-bold mb-3">Ready to Serve Papers in El Reno?</h2>
-            <p className="text-xl mb-6 text-blue-100">GPS-tracked, notarized, court-ready — in Canadian County.</p>
+            <p className="text-xl mb-6 text-blue-100">GPS-tracked, notarized, court-ready — at the Canadian County Courthouse and beyond.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:5393676832" className="bg-white text-blue-700 hover:bg-blue-50 px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-lg flex items-center justify-center gap-2">
                 <Phone className="h-5 w-5" /> Call (539) 367-6832
@@ -285,7 +323,7 @@ export default function ElRenoProcessServerPage() {
         pageType="location"
         url="https://justlegalsolutions.org/service-areas/el-reno"
         title="Process Server El Reno, OK | Canadian County Seat"
-        description="Licensed process server in El Reno, Oklahoma. Serving Canadian County District Court and the west OKC metro area. Rush and same-day available."
+        description="Licensed process server in El Reno, Oklahoma. GPS-tracked and court-ready. Call (539) 367-6832."
         faqItems={pageFAQs.slice(0, 4)}
         aggregateRating={{ ratingValue: 4.9, reviewCount: 156 }}
         breadcrumbItems={[

@@ -111,6 +111,7 @@ function generateSitemap() {
     '/security-policy', // Low-value policy page
     '/competitor-analysis', // Redirects to /why-choose-us
     '/voice-search-marker', // Internal voice search marker
+    '/registered-agent', // Excluded from sitemap per user request, not ready for live service list
     // 301 redirect pages (year-versioned stubs)
     '/oklahoma-process-server-pricing-2025', // Redirects to /oklahoma-process-server-pricing
     '/oklahoma-process-server-pricing-2026', // Redirects to /oklahoma-process-server-pricing
