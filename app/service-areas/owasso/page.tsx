@@ -1,543 +1,422 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import { Phone, FileText, MapPin, DollarSign, AlertCircle, Calendar, Users, Building, Scale, Shield, Clock, Hospital } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
-import { Phone, MapPin, Clock, Award, DollarSign, Users, Building2, Shield, CheckCircle, Star, Calendar, FileText, Scale, AlertCircle } from 'lucide-react';
-
- 
-
+import LocalPromoBanner from '@/components/ui/local-promo-banner';
 import GoogleMapsEmbed from '@/components/ui/google-maps-embed';
+
 export const metadata: Metadata = {
-  title: 'Process Server Owasso, OK',
-  description:
-    'Licensed process server in Owasso, OK. Same-day service available. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
-  keywords: 'process server owasso, legal document service owasso, serve papers owasso, court documents owasso, subpoena service owasso, eviction notice owasso, emergency process server owasso, 24/7 process server oklahoma, licensed process server tulsa county, professional process server owasso',
+  title: 'Process Server Owasso, OK | Tulsa & Rogers County Limits',
+  description: 'Licensed professional process server for Owasso, Oklahoma. Specialized in same-day legal document delivery, summons, and subpoenas across the 74055 area, Bailey Medical, and Stone Canyon.',
+  keywords: 'process server Owasso OK, serve papers Owasso, Owasso process server, legal document serving 74055, same-day process server Owasso',
   authors: [{ name: 'Just Legal Solutions', url: 'https://justlegalsolutions.org' }],
-  creator: 'Just Legal Solutions',
-  publisher: 'Just Legal Solutions',
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
-    },
-  },
+  robots: { index: true, follow: true },
   openGraph: {
-    title: 'Process Server Owasso, OK',
-    description:
-    'Licensed process server in Owasso, OK. Same-day service available. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
+    title: 'Process Server Owasso, OK | Tulsa & Rogers County Limits',
+    description: 'Licensed professional process server for Owasso, Oklahoma. Specialized in same-day legal document delivery, summons, and subpoenas across the 74055 area, Bailey Medical, and Stone Canyon.',
     url: 'https://justlegalsolutions.org/service-areas/owasso',
     siteName: 'Just Legal Solutions',
-    images: [
-      {
-        url: 'https://justlegalsolutions.org/og-image.webp',
-        width: 1200,
-        height: 630,
-        alt: 'Just Legal Solutions - Professional Process Server Owasso Oklahoma',
-      },
-    ],
     locale: 'en_US',
     type: 'website',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Process Server Owasso, OK',
-    description:
-    'Licensed process server in Owasso, OK. Same-day service available. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
-    images: ['https://justlegalsolutions.org/og-image.webp'],
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/service-areas/owasso',
   },
 };
 
-const breadcrumbItems = [
-  { name: 'Home', url: '/' },
-  { name: 'Service Areas', url: '/service-areas' },
-  { name: 'Owasso', url: '/service-areas/owasso' },
+const pageFAQs: { question: string; answer: string }[] = [
+  { question: 'Do Owasso cases file in Tulsa County or Rogers County?', answer: 'It depends on the specific address. Most Owasso addresses file in Rogers County at the Claremore courthouse (219 South Missouri Avenue). However, some addresses on the southern and western edges of Owasso (particularly near the Tulsa city limits and along 129th East Avenue south of 86th Street) fall within Tulsa County jurisdiction and file at the Tulsa County Courthouse. We verify the correct courthouse for every serve.' },
+  { question: 'Can you serve papers inside gated communities like Stone Canyon or Bailey Ranch?', answer: 'Yes. We coordinate with HOA management offices for legal entry into Owasso\'s gated golf-course communities. Alternatively, we serve defendants at their workplaces, the Owasso Public Schools administration building, or other non-gated locations where they are known to appear.' },
+  { question: 'Will my Owasso service include a GPS-tracked affidavit?', answer: 'Yes. Every service attempt in Owasso includes GPS geocoding, embedded photographic evidence, and timestamped logs. Your final Affidavit of Service is court-ready and fully complies with Oklahoma Statutes.' },
+  { question: 'Do you serve businesses like Bailey Medical Center?', answer: 'Absolutely. We serve legal documents, writs, and subpoenas to healthcare hubs, corporate registered agents, retail centers, and medical administration offices along Highway 169.' },
+  { question: 'How do you handle rural addresses north of 116th Street in Owasso?', answer: 'Rural Owasso addresses often have long driveways and limited house-number visibility. We use GPS coordinates, Rogers County assessor data, and satellite imagery to pre-verify locations. We also utilize early morning delivery to catch evasive defendants before they leave their property.' },
 ];
 
-const owassoFAQs = [
-  {
-    question: "How much does a process server cost in Owasso?",
-    answer: "Our professional process serving offers competitive rates with transparent pricing. We provide detailed quotes based on your specific needs. Contact us at (539) 367-6832 for current rates and service options, or visit our pricing page for complete information."
-  },
-  {
-    question: "How long does it take to serve papers in Owasso?",
-    answer: "Standard service in Owasso typically takes 2-4 business days. We also offer expedited rush service (24-48 hours) and same-day emergency service for urgent situations."
-  },
-  {
-    question: "Where are court documents filed for Owasso?",
-    answer: "Court documents for Owasso are filed at the Tulsa County courthouse. We handle all filing requirements and provide detailed courthouse information with our service."
-  },
-  {
-    question: "Can you serve papers on weekends in Owasso?",
-    answer: "Yes, we offer weekend and evening service in Owasso for urgent situations. Our 24/7 emergency service is available 7 days a week, including holidays."
-  },
-  {
-    question: "What areas of Owasso do you serve?",
-    answer: "We serve all areas of Owasso including downtown Owasso, North Owasso, East Owasso, and all surrounding neighborhoods. Our coverage extends throughout Tulsa County."
-  },
-  {
-    question: "Are you licensed to serve process in Owasso?",
-    answer: "Yes, we are fully licensed, bonded, and insured process servers registered with Tulsa County. We maintain all required bonds and certifications for professional service throughout Oklahoma."
-  },
-  {
-    question: "What types of legal documents do you serve in Owasso?",
-    answer: "We serve all types of legal documents including divorce papers, child custody documents, eviction notices, small claims court papers, subpoenas, civil complaints, restraining orders, and all other court-ordered service of process."
-  },
-  {
-    question: "Do you provide skip tracing services in Owasso?",
-    answer: "Yes, we offer professional skip tracing services in Owasso. Our advanced skip tracing helps locate individuals when standard address information is outdated or insufficient."
-  }
+const employers: { name: string; address: string; industry: string; notes: string }[] = [
+  { name: 'Owasso Public Schools', address: '1101 North 129th East Avenue, Owasso, OK 74055', industry: 'Education', notes: '9,000+ students; admin building preferred for service.' },
+  { name: 'Bailey Medical Center', address: '10502 North 110th East Avenue, Owasso, OK 74055', industry: 'Healthcare', notes: '400+ employees; HR department open 8 AM – 5 PM.' },
+  { name: 'Rejoice Christian Schools', address: '10025 North 137th East Avenue, Owasso, OK 74055', industry: 'Private Education', notes: '1,800+ students; main campus and athletic facilities.' },
+  { name: 'Walmart Supercenter', address: '12101 East 96th Street North, Owasso, OK 74055', industry: 'Retail', notes: '300+ employees; management office at rear of store.' },
+  { name: 'City of Owasso Government', address: '111 North Main Street, Owasso, OK 74055', industry: 'Municipal', notes: 'Municipal complex; city clerk receiving desk.' },
 ];
 
-export default function OwassoProcessServer() {
+export default function OwassoServiceAreaPage() {
   return (
-    <div className="flex flex-col min-h-screen">
-<main className="pt-14 flex-grow">
-        <UnifiedSchema 
-          pageType="service"
-          title="Just Legal Solutions - Owasso"
-          description="Professional process serving in Owasso, Oklahoma with fast, reliable legal document delivery and 24/7 emergency service"
-          url="https://justlegalsolutions.org/service-areas/owasso"
-          breadcrumbItems={breadcrumbItems}
-          location={{
-            name: "Owasso",
-            state: "Oklahoma",
-            zipCode: "74055"
-          }}
-          services={["Process Serving", "Legal Document Delivery", "Court Filing Services", "Skip Tracing", "Emergency Rush Service", "GPS Tracked Delivery", "24/7 Emergency Service"]}
-          faqItems={owassoFAQs}
-        />
+    <div className="min-h-screen bg-gray-50">
 
-      <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-slate-100">
-        {/* Hero Section */}
-        <div className="bg-gradient-to-r from-blue-900 via-blue-800 to-slate-900 text-white relative">
-          <div className="absolute inset-0 bg-black/20"></div>
-          <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
-            <div className="text-center">
-              <div className="flex items-center justify-center mb-6">
-                <Scale className="h-16 w-16 text-blue-400 mr-4" />
-                <div>
-                  <h1 className="text-4xl md:text-6xl font-bold mb-2">
-                    Process Server Owasso
-                  </h1>
-                  <p className="text-xl md:text-2xl text-blue-200">Professional Legal Document Service</p>
-                </div>
-              </div>
-              
-              <p className="text-lg md:text-xl mb-8 max-w-3xl mx-auto leading-relaxed">
-                Licensed, bonded, and insured process server in Owasso, Oklahoma. 
-                Fast, reliable service with professional standards, competitive rates, and 24/7 emergency availability.
-              </p>
+      <LocalPromoBanner zips={['74055']} />
 
-              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-                <a 
-                  href="tel:5393676832" 
-                  className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center"
-                >
-                  <Phone className="h-5 w-5 mr-2" />
-                  Call Now: (539) 367-6832
-                </a>
-                <Link 
-                  href="/contact" 
-                  className="bg-white/10 hover:bg-white/20 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 border border-white/20 flex items-center"
-                >
-                  <FileText className="h-5 w-5 mr-2" />
-                  Get Quote Online
-                </Link>
-              </div>
-
-              {/* Quick Stats */}
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
-                  <div className="text-2xl md:text-3xl font-bold text-blue-300">24/7</div>
-                  <div className="text-sm text-blue-100">Emergency Service</div>
-                </div>
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
-                  <div className="text-2xl md:text-3xl font-bold text-blue-300">Same Day</div>
-                  <div className="text-sm text-blue-100">Rush Available</div>
-                </div>
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
-                  <div className="text-2xl md:text-3xl font-bold text-blue-300">99.7%</div>
-                  <div className="text-sm text-blue-100">Success Rate</div>
-                </div>
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
-                  <div className="text-2xl md:text-3xl font-bold text-blue-300">Licensed</div>
-                  <div className="text-sm text-blue-100">Bonded & Insured</div>
-                </div>
-              </div>
-            </div>
+      {/* Hero Section */}
+      <section className="bg-gradient-to-br from-teal-900 via-teal-800 to-teal-700 text-white py-16 md:py-24 relative overflow-hidden">
+        <div className="absolute inset-0 bg-[url('/img/oklahoma-pattern.png')] opacity-10 mix-blend-overlay pointer-events-none"></div>
+        <div className="container mx-auto px-4 md:px-6 max-w-5xl relative z-10">
+          <nav className="text-sm mb-6 text-teal-200" aria-label="Breadcrumb">
+            <Link href="/" className="hover:text-white transition-colors focus:ring-2 focus:ring-white rounded">Home</Link>
+            <span className="mx-2">/</span>
+            <Link href="/service-areas" className="hover:text-white transition-colors focus:ring-2 focus:ring-white rounded">Service Areas</Link>
+            <span className="mx-2">/</span>
+            <span className="text-white font-medium" aria-current="page">Owasso</span>
+          </nav>
+          
+          <div className="inline-flex items-center bg-yellow-400 text-teal-900 px-4 py-1.5 rounded-full text-sm font-bold mb-6 uppercase tracking-wider shadow-sm">
+            <Shield className="w-4 h-4 mr-2" /> Licensed Professional
           </div>
-        </div>
-
-        {/* Navigation Breadcrumbs */}
-        <nav className="bg-white border-b border-gray-200 py-4" aria-label="Breadcrumb">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <ol className="flex items-center space-x-2 text-sm">
-              {breadcrumbItems.map((item, index) => (
-                <li key={item.name}>
-                  <div className="flex items-center">
-                    {index > 0 && (
-                      <svg className="flex-shrink-0 h-5 w-5 text-gray-400 mr-4" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                        <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
-                      </svg>
-                    )}
-                    {index === breadcrumbItems.length - 1 ? (
-                      <span className="text-gray-500 font-medium">{item.name}</span>
-                    ) : (
-                      <Link href={item.url} className="text-blue-600 hover:text-blue-800 font-medium">
-                        {item.name}
-                      </Link>
-                    )}
-                  </div>
-                </li>
-              ))}
-            </ol>
+          
+          <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-6 tracking-tight">
+            Process Server in<br className="hidden md:block" /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-200 to-white">Owasso, Oklahoma</span>
+          </h1>
+          
+          <div className="flex flex-wrap gap-4 mb-6 text-teal-100 font-medium text-sm">
+            <span className="flex items-center gap-1.5 bg-teal-800/50 px-3 py-1 rounded-lg backdrop-blur-sm border border-teal-700"><Users className="h-4 w-4 text-teal-300" /> Servicing Zip: 74055</span>
+            <span className="flex items-center gap-1.5 bg-teal-800/50 px-3 py-1 rounded-lg backdrop-blur-sm border border-teal-700"><MapPin className="h-4 w-4 text-teal-300" /> Tulsa & Rogers County</span>
+            <span className="flex items-center gap-1.5 bg-teal-800/50 px-3 py-1 rounded-lg backdrop-blur-sm border border-teal-700"><Clock className="h-4 w-4 text-teal-300" /> Rush Service Available</span>
           </div>
-        </nav>
-
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          {/* Service Information */}
-          <section className="bg-white rounded-xl shadow-lg overflow-hidden mb-12">
-            <div className="p-6 bg-gradient-to-r from-blue-600 to-blue-700 text-white">
-              <h2 className="text-2xl font-bold mb-2">Professional Process Serving in Owasso</h2>
-              <p className="text-blue-100">Fast, reliable legal document service with transparent pricing</p>
-            </div>
-            <div className="p-8">
-              <div className="grid md:grid-cols-2 gap-8">
-                <div>
-                  <h3 className="text-xl font-bold mb-4 text-gray-800">Our Services Include:</h3>
-                  <ul className="space-y-3 text-gray-700">
-                    <li className="flex items-center"><CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />Divorce Papers & Family Law Documents</li>
-                    <li className="flex items-center"><CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />Child Custody & Support Documents</li>
-                    <li className="flex items-center"><CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />Eviction Notices & Landlord Tenant</li>
-                    <li className="flex items-center"><CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />Subpoenas & Court Summons</li>
-                    <li className="flex items-center"><CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />Civil Complaints & Lawsuits</li>
-                    <li className="flex items-center"><CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />Corporate & Business Documents</li>
-                  </ul>
-                </div>
-                <div>
-                  <h3 className="text-xl font-bold mb-4 text-gray-800">Why Choose Us:</h3>
-                  <ul className="space-y-3 text-gray-700">
-                    <li className="flex items-center"><Star className="h-5 w-5 text-yellow-500 mr-3 flex-shrink-0" />Licensed & Bonded in Oklahoma</li>
-                    <li className="flex items-center"><Star className="h-5 w-5 text-yellow-500 mr-3 flex-shrink-0" />Local Owasso Area Expertise</li>
-                    <li className="flex items-center"><Star className="h-5 w-5 text-yellow-500 mr-3 flex-shrink-0" />Professional Court Affidavits</li>
-                    <li className="flex items-center"><Star className="h-5 w-5 text-yellow-500 mr-3 flex-shrink-0" />Same-Day Service Available</li>
-                    <li className="flex items-center"><Star className="h-5 w-5 text-yellow-500 mr-3 flex-shrink-0" />GPS Tracking & Digital Proof</li>
-                    <li className="flex items-center"><Star className="h-5 w-5 text-yellow-500 mr-3 flex-shrink-0" />24/7 Emergency Service</li>
-                  </ul>
-                </div>
-              </div>
-              
-              <div className="mt-8 text-center">
-                <Link 
-                  href="/pricing" 
-                  className="inline-flex items-center bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-700 transition-colors shadow-lg"
-                >
-                  <DollarSign className="h-5 w-5 mr-2" />
-                  View Pricing & Service Options
-                </Link>
-              </div>
-            </div>
-          </section>
-
-          {/* FAQ Section */}
-          <section className="bg-white rounded-xl shadow-lg overflow-hidden mb-12">
-            <div className="p-6 bg-gradient-to-r from-teal-600 to-teal-700 text-white">
-              <h2 className="text-2xl font-bold mb-2">Frequently Asked Questions</h2>
-              <p className="text-teal-100">Common questions about process serving in Owasso</p>
-            </div>
-            <div className="p-8">
-              <div className="space-y-8">
-                {owassoFAQs.map((faq, index) => (
-                  <div key={index} className="border-b border-gray-200 pb-6 last:border-b-0">
-                    <h3 className="font-semibold text-lg mb-3 text-gray-800">{faq.question}</h3>
-                    <p className="text-gray-600 leading-relaxed">{faq.answer}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </section>
-
-          {/* Where We Serve Papers in Owasso */}
-          <section className="bg-white rounded-xl shadow-lg overflow-hidden mb-12">
-            <div className="p-6 bg-gradient-to-r from-indigo-600 to-indigo-700 text-white">
-              <h2 className="text-2xl font-bold mb-2">Where We Serve Papers in Owasso</h2>
-              <p className="text-indigo-100">Local expertise across every Owasso neighborhood</p>
-            </div>
-            <div className="p-8">
-              <p className="text-gray-700 mb-6 max-w-3xl">
-                Owasso spans both Rogers County and Tulsa County, with the majority of residential and commercial development concentrated along Highway 169 and North 129th East Avenue. Our servers know every neighborhood, from gated golf-course communities to rural acreage north of 116th Street.
-              </p>
-              <div className="grid md:grid-cols-2 gap-6">
-                <div className="bg-gray-50 p-5 rounded-lg">
-                  <h3 className="font-semibold text-lg text-gray-900 mb-2">Smith Farm &amp; Stone Canyon</h3>
-                  <p className="text-gray-700 text-sm">
-                    Large-lot subdivisions in northeast Owasso off 76th Street North and East 86th Street North.
-                    These are gated communities surrounding <strong>Stone Canyon Golf Club</strong> and <strong>Bailey Ranch Golf Club</strong>.
-                    We coordinate with HOA management for legal entry or serve defendants at their workplaces.
-                    Addresses here frequently use Owasso mailing addresses but file in Rogers County.
-                  </p>
-                </div>
-                <div className="bg-gray-50 p-5 rounded-lg">
-                  <h3 className="font-semibold text-lg text-gray-900 mb-2">Downtown Owasso / Redbud District</h3>
-                  <p className="text-gray-700 text-sm">
-                    The historic corridor along Main Street between 76th Street North and 96th Street North.
-                    Key landmarks: <strong>Owasso City Hall</strong> (111 North Main Street),
-                    <strong>Owasso Police Department</strong> (111 North Main Street), and <strong>Rejoice Christian Schools</strong> (10025 North 137th East Avenue).
-                    Older homes with open front porches make daytime residential service highly effective here.
-                  </p>
-                </div>
-                <div className="bg-gray-50 p-5 rounded-lg">
-                  <h3 className="font-semibold text-lg text-gray-900 mb-2">Elm Creek, Summit Ridge &amp; Preston Lakes</h3>
-                  <p className="text-gray-700 text-sm">
-                    Newer construction west of Highway 169. Houses are close-set with visible front doors,
-                    making evening residential service effective. Near <strong>Bailey Medical Center</strong> (10502 North 110th East Avenue) and the <strong>Owasso YMCA</strong>.
-                    These subdivisions have uniform addressing and minimal turnover.
-                  </p>
-                </div>
-                <div className="bg-gray-50 p-5 rounded-lg">
-                  <h3 className="font-semibold text-lg text-gray-900 mb-2">Rural Owasso (North of 116th Street North)</h3>
-                  <p className="text-gray-700 text-sm">
-                    Unincorporated Rogers County addresses that use &ldquo;Owasso&rdquo; mailing addresses.
-                    Long driveways and limited house-number visibility require GPS verification and sometimes multiple attempts.
-                    Properties near <strong>Oologah Lake</strong> and along County Line Road can be especially challenging
-                    without advance satellite mapping.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          {/* Major Employers & Workplace Service in Owasso */}
-          <section className="bg-white rounded-xl shadow-lg overflow-hidden mb-12">
-            <div className="p-6 bg-gradient-to-r from-emerald-600 to-emerald-700 text-white">
-              <h2 className="text-2xl font-bold mb-2">Major Employers &amp; Workplace Service in Owasso</h2>
-              <p className="text-emerald-100">We know Owasso&apos;s largest employers and serve with precision</p>
-            </div>
-            <div className="p-8">
-              <p className="text-gray-700 mb-6 max-w-3xl">
-                Workplace service requires knowing shift schedules, HR office locations, and the best times to reach management staff. We maintain current contact information for Owasso&apos;s largest employers.
-              </p>
-              <div className="overflow-x-auto">
-                <table className="min-w-full text-sm text-left">
-                  <thead className="bg-gray-100 text-gray-900 font-semibold">
-                    <tr>
-                      <th className="px-4 py-3">Employer</th>
-                      <th className="px-4 py-3">Address</th>
-                      <th className="px-4 py-3">Industry</th>
-                      <th className="px-4 py-3">Service Notes</th>
-                    </tr>
-                  </thead>
-                  <tbody className="divide-y divide-gray-200 bg-white">
-                    <tr>
-                      <td className="px-4 py-3 font-medium">Owasso Public Schools</td>
-                      <td className="px-4 py-3">1101 North 129th East Avenue, Owasso, OK 74055</td>
-                      <td className="px-4 py-3">Education</td>
-                      <td className="px-4 py-3">9,000+ students; admin building preferred for service</td>
-                    </tr>
-                    <tr>
-                      <td className="px-4 py-3 font-medium">Rejoice Christian Schools</td>
-                      <td className="px-4 py-3">10025 North 137th East Avenue, Owasso, OK 74055</td>
-                      <td className="px-4 py-3">Private Education</td>
-                      <td className="px-4 py-3">1,800+ students; main campus and athletic facilities</td>
-                    </tr>
-                    <tr>
-                      <td className="px-4 py-3 font-medium">Bailey Medical Center</td>
-                      <td className="px-4 py-3">10502 North 110th East Avenue, Owasso, OK 74055</td>
-                      <td className="px-4 py-3">Healthcare</td>
-                      <td className="px-4 py-3">400+ employees; HR department open 8 AM – 5 PM</td>
-                    </tr>
-                    <tr>
-                      <td className="px-4 py-3 font-medium">Walmart Supercenter</td>
-                      <td className="px-4 py-3">12101 East 96th Street North, Owasso, OK 74055</td>
-                      <td className="px-4 py-3">Retail</td>
-                      <td className="px-4 py-3">300+ employees; management office at rear of store</td>
-                    </tr>
-                    <tr>
-                      <td className="px-4 py-3 font-medium">City of Owasso</td>
-                      <td className="px-4 py-3">111 North Main Street, Owasso, OK 74055</td>
-                      <td className="px-4 py-3">Government</td>
-                      <td className="px-4 py-3">Municipal complex; city clerk receives service</td>
-                    </tr>
-                    <tr>
-                      <td className="px-4 py-3 font-medium">Home Depot</td>
-                      <td className="px-4 py-3">11615 East 96th Street North, Owasso, OK 74055</td>
-                      <td className="px-4 py-3">Retail/Home Improvement</td>
-                      <td className="px-4 py-3">100+ employees; management office at customer service</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          </section>
-
-          {/* Owasso-Specific FAQ */}
-          <section className="bg-white rounded-xl shadow-lg overflow-hidden mb-12">
-            <div className="p-6 bg-gradient-to-r from-amber-600 to-amber-700 text-white">
-              <h2 className="text-2xl font-bold mb-2">Owasso-Specific Questions</h2>
-              <p className="text-amber-100">Answers to frequently asked questions about Owasso service</p>
-            </div>
-            <div className="p-8">
-              <div className="space-y-6">
-                <div className="border-b border-gray-200 pb-5">
-                  <h3 className="font-semibold text-lg text-gray-800 mb-2">Q: Do Owasso cases file in Tulsa County or Rogers County?</h3>
-                  <p className="text-gray-600">
-                    It depends on the specific address. Most Owasso addresses file in <strong>Rogers County</strong> at the Claremore courthouse (219 South Missouri Avenue). However, some addresses on the southern and western edges of Owasso (particularly near the Tulsa city limits and along 129th East Avenue south of 86th Street) fall within <strong>Tulsa County</strong> jurisdiction and file at the Tulsa County Courthouse (500 South Denver Avenue). We verify the correct courthouse for every serve.
-                  </p>
-                </div>
-                <div className="border-b border-gray-200 pb-5">
-                  <h3 className="font-semibold text-lg text-gray-800 mb-2">Q: Can you serve papers inside gated communities like Stone Canyon or Bailey Ranch?</h3>
-                  <p className="text-gray-600">
-                    Yes. We coordinate with HOA management offices for legal entry into Owasso&apos;s gated golf-course communities. Alternatively, we serve defendants at their workplaces, the Owasso Public Schools administration building, or other non-gated locations where they are known to appear.
-                  </p>
-                </div>
-                <div className="border-b border-gray-200 pb-5">
-                  <h3 className="font-semibold text-lg text-gray-800 mb-2">Q: How do you handle rural addresses north of 116th Street in Owasso?</h3>
-                  <p className="text-gray-600">
-                    Rural Owasso addresses often have long driveways and limited house-number visibility. We use GPS coordinates, Rogers County assessor data, and satellite imagery to pre-verify locations. These unincorporated Rogers County addresses may also have different sheriff jurisdiction than city addresses.
-                  </p>
-                </div>
-                <div>
-                  <h3 className="font-semibold text-lg text-gray-800 mb-2">Q: Is same-day service available in Owasso?</h3>
-                  <p className="text-gray-600">
-                    Yes. Owasso is within our primary Tulsa metro service area. We provide standard, rush, and same-day service throughout all Owasso ZIP codes (74055, 74073, and surrounding rural routes).
-                  </p>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          {/* Emergency Contact Section */}
-          <section className="bg-gradient-to-r from-red-600 to-red-700 text-white rounded-xl shadow-lg overflow-hidden mb-12">
-            <div className="p-8 text-center">
-              <AlertCircle className="h-16 w-16 mx-auto mb-6 text-red-200" />
-              <h2 className="text-3xl font-bold mb-4">Need Emergency Process Service?</h2>
-              <p className="text-xl mb-6 text-red-100">
-                Available 24/7 for urgent legal document service in Owasso
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <a 
-                  href="tel:5393676832" 
-                  className="bg-white text-red-600 hover:bg-red-50 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center"
-                >
-                  <Phone className="h-5 w-5 mr-2" />
-                  Emergency: (539) 367-6832
-                </a>
-                <Link 
-                  href="/contact" 
-                  className="bg-red-800 hover:bg-red-900 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 flex items-center"
-                >
-                  <Calendar className="h-5 w-5 mr-2" />
-                  Schedule Service
-                </Link>
-              </div>
-            </div>
-          </section>
-
-          {/* Google Maps Section */}
-          <section className="bg-white rounded-xl shadow-lg overflow-hidden mb-12">
-            <div className="p-6 bg-gradient-to-r from-blue-600 to-blue-700 text-white">
-              <h2 className="text-2xl font-bold mb-2">Owasso Service Area Map</h2>
-              <p className="text-blue-100">Professional process serving throughout Owasso, Oklahoma</p>
-            </div>
-            <div className="p-8">
-              <GoogleMapsEmbed 
-                countyName="Tulsa County"
-                state="Oklahoma"
-                title="Owasso Process Server Service Area"
-              />
-            </div>
-          </section>
-
-          {/* Explore More Resources */}
-          <section className="bg-white rounded-xl shadow-lg overflow-hidden mb-12">
-            <div className="p-6 bg-gradient-to-r from-purple-600 to-purple-700 text-white">
-              <h2 className="text-2xl font-bold mb-2">Explore More Resources</h2>
-              <p className="text-purple-100">Learn more about our services and nearby coverage areas</p>
-            </div>
-            <div className="p-8">
-              <div className="grid md:grid-cols-3 gap-6">
-                <div>
-                  <h3 className="font-bold text-gray-900 mb-4 text-lg">📍 Nearby Service Areas</h3>
-                  <ul className="space-y-2">
-                    <li><Link href="/process-serving" className="text-blue-600 hover:text-blue-800 underline">process serving</Link>
-                  <Link href="/tulsa-process-server" className="text-blue-600 hover:underline">Tulsa Process Server</Link></li>
-                    <li><Link href="/service-areas/broken-arrow" className="text-blue-600 hover:underline">Broken Arrow Process Server</Link></li>
-                    <li><Link href="/service-areas/collinsville" className="text-blue-600 hover:underline">Collinsville Process Server</Link></li>
-                    <li><Link href="/service-areas/skiatook" className="text-blue-600 hover:underline">Skiatook Process Server</Link></li>
-                    <li><Link href="/counties/tulsa-county" className="text-blue-600 hover:underline">Tulsa County Process Server</Link></li>
-                    <li><Link href="/counties/rogers-county" className="text-blue-600 hover:underline">Rogers County Process Server</Link></li>
-                  </ul>
-                </div>
-                
-                <div>
-                  <h3 className="font-bold text-gray-900 mb-4 text-lg">📚 Helpful Guides</h3>
-                  <ul className="space-y-2">
-                    <li><Link href="/oklahoma-process-server-faq" className="text-blue-600 hover:underline">Process Serving FAQ 2026</Link></li>
-                    <li><Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma Process Server Laws</Link></li>
-                    <li><Link href="/oklahoma-process-server-pricing" className="text-blue-600 hover:underline">Pricing Guide</Link></li>
-                    <li><Link href="/family-law-service-guide-tulsa" className="text-blue-600 hover:underline">Family Law Service Guide</Link></li>
-                    <li><Link href="/ai-skip-tracing-guide-oklahoma" className="text-blue-600 hover:underline">Skip Tracing Guide</Link></li>
-                  </ul>
-                </div>
-                
-                <div>
-                  <h3 className="font-bold text-gray-900 mb-4 text-lg">🏢 Our Services</h3>
-                  <ul className="space-y-2">
-                    <li><Link href="/law-firm-services" className="text-blue-600 hover:underline">Law Firm Services</Link></li>
-                    <li><Link href="/weekend-emergency" className="text-blue-600 hover:underline">Emergency Process Service</Link></li>
-                    <li><Link href="/about" className="text-blue-600 hover:underline">About Just Legal Solutions</Link></li>
-                    <li><Link href="/contact" className="text-blue-600 hover:underline">Contact Us</Link></li>
-                    <li><Link href="/seo/what-is-a-process-server" className="text-blue-600 hover:underline">What is a Process Server?</Link></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          {/* Call to Action */}
-          <section className="bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-xl shadow-lg overflow-hidden">
-            <div className="p-8 text-center">
-              <h2 className="text-3xl font-bold mb-4">Ready to Get Started?</h2>
-              <p className="text-xl mb-6 text-blue-100">
-                Professional process serving in Owasso with competitive rates and 24/7 emergency service
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <a 
-                  href="tel:5393676832" 
-                  className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center"
-                >
-                  <Phone className="h-5 w-5 mr-2" />
-                  Call (539) 367-6832
-                </a>
-                <Link 
-                  href="/contact" 
-                  className="bg-blue-800 hover:bg-blue-900 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 flex items-center"
-                >
-                  <FileText className="h-5 w-5 mr-2" />
-                  Get Free Quote
-                </Link>
-              </div>
-            </div>
-          </section>
-          {/* Browse All Service Areas */}
-          <div className="text-center py-8">
-            <Link
-              href="/service-areas"
-              className="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold text-lg transition-colors"
-            >
-              ← Browse All Oklahoma Service Areas
+          
+          <p className="text-xl text-teal-50 mb-8 max-w-3xl leading-relaxed text-shadow-sm">
+            Fast, court-compliant legal document delivery across the entirety of Owasso. We specialize in serving elusive defendants with GPS-tracked precision and court-admissible affidavits, perfectly handling the municipal intersection of Tulsa and Rogers Counties.
+          </p>
+          
+          <div className="flex flex-col sm:flex-row gap-4 mb-8">
+            <a href="tel:5393676832" className="bg-yellow-400 hover:bg-yellow-300 text-teal-900 font-bold py-4 px-8 rounded-xl text-center transition-all shadow-xl text-lg flex items-center justify-center gap-2 hover:scale-105 active:scale-95 focus:ring-4 focus:ring-yellow-400/50 outline-none">
+              <Phone className="h-6 w-6" /> (539) 367-6832
+            </a>
+            <Link href="/contact" className="bg-white/10 hover:bg-white/20 border-2 border-white/30 text-white font-semibold py-4 px-8 rounded-xl text-center transition-all flex items-center justify-center gap-2 backdrop-blur-sm hover:border-white/50 focus:ring-4 focus:ring-white/20 outline-none">
+              <FileText className="h-6 w-6" /> Send Documents Now
             </Link>
           </div>
+          
+          <div className="flex flex-wrap gap-x-6 gap-y-3 text-teal-200 text-sm font-medium">
+            <span className="flex items-center gap-1.5">✓ Standard 3-Day Service</span>
+            <span className="flex items-center gap-1.5">✓ Next-Day Rush</span>
+            <span className="flex items-center gap-1.5">✓ Same-Day Emergency</span>
+            <span className="flex items-center gap-1.5 text-white bg-teal-600/30 px-2 py-0.5 rounded">✓ GPS & Photo Proof</span>
+            <Link href="/pricing" className="underline underline-offset-4 hover:text-white transition-colors">View All Rates →</Link>
+          </div>
         </div>
+      </section>
+
+      {/* Main Content Area */}
+      <div className="container mx-auto px-4 md:px-6 max-w-5xl py-16 space-y-16">
+
+        {/* Introduction / Authority Text */}
+        <section className="prose prose-lg prose-teal max-w-none text-gray-700">
+          <h2 className="text-3xl font-bold text-gray-900 mb-6 border-b pb-4">Professional Legal Document Service in Owasso, OK</h2>
+          <p>
+            When legal proceedings require swift, undeniable delivery in northeast Oklahoma's fastest-growing suburb, law firms, landlords, and private individuals trust Just Legal Solutions for process serving in <strong>Owasso, Oklahoma</strong>. Owasso spans a unique geographic intersection, straddling the dense northern suburbs of Tulsa County and stretching out into the rural expanse of Rogers County. The 74055 zip code requires a local intelligence that map applications simple cannot provide.
+          </p>
+          <p>
+            From civil summonses and family law petitions to eviction notices and urgent subpoenas, we execute every serve with meticulous adherence to <strong>Oklahoma Statutes Title 12, Section 2004</strong>. You receive more than just delivery; you receive comprehensive peace of mind backed by GPS-coded coordinates, time-stamped photographic evidence, and flawlessly prepared, court-ready affidavits of service. We eliminate the stress of tracking down evasive individuals whether they reside inside a gated HOA or out past 116th Street North.
+          </p>
+        </section>
+
+        <div className="grid md:grid-cols-2 gap-8">
+          {/* Courthouse Info */}
+          <section className="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 flex flex-col h-full hover:shadow-2xl transition-shadow duration-300">
+            <div className="p-6 bg-gradient-to-br from-slate-800 to-slate-900 text-white">
+              <div className="flex items-center gap-3 mb-2">
+                <Scale className="h-6 w-6 text-slate-300" />
+                <h2 className="text-2xl font-bold">Courthouse Jurisdiction</h2>
+              </div>
+              <p className="text-slate-300 text-sm font-medium">Bifurcated Filing Status</p>
+            </div>
+            <div className="p-8 flex-grow flex flex-col justify-between">
+              <div>
+                <p className="text-gray-700 mb-6 leading-relaxed">
+                  Due to Owasso's city limits lying in both Tulsa and Rogers Counties, court jurisdiction alters depending upon the defendant's precise street address. Certain subdivisions will demand Tulsa County filing, while the preponderance of the city requires filing in Claremore. 
+                </p>
+                <div className="grid grid-cols-1 gap-4">
+                  <div className="bg-teal-50 border border-teal-100 rounded-xl p-5 shadow-inner">
+                    <p className="font-bold text-gray-900 mb-1">Rogers County Courthouse</p>
+                    <div className="space-y-1">
+                      <p className="text-gray-700 text-sm">200 S Hope St</p>
+                      <p className="text-gray-700 text-sm">Claremore, OK 74017</p>
+                    </div>
+                  </div>
+                  <div className="bg-indigo-50 border border-indigo-100 rounded-xl p-5 shadow-inner">
+                    <p className="font-bold text-gray-900 mb-1">Tulsa County Courthouse</p>
+                    <div className="space-y-1">
+                      <p className="text-gray-700 text-sm">500 S Denver Ave</p>
+                      <p className="text-gray-700 text-sm">Tulsa, OK 74103</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="mt-4 pt-4 border-t border-gray-100">
+                <p className="text-sm text-gray-500 flex items-center gap-2">
+                  <AlertCircle className="h-4 w-4 text-amber-500" /> We verify the correct court jurisdiction prior to any service attempt.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          {/* Local Service Notes */}
+          <section className="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 flex flex-col h-full hover:shadow-2xl transition-shadow duration-300">
+            <div className="p-6 bg-gradient-to-br from-emerald-600 to-emerald-700 text-white">
+              <div className="flex items-center gap-3 mb-2">
+                <MapPin className="h-6 w-6 text-emerald-300" />
+                <h2 className="text-2xl font-bold">Owasso Coverage Areas</h2>
+              </div>
+              <p className="text-emerald-200 text-sm font-medium">Stone Canyon, City Limits & Bailey Ranch</p>
+            </div>
+            <div className="p-8 flex-grow">
+              <p className="text-gray-700 mb-6 leading-relaxed">
+                Navigating Owasso requires an understanding of dense suburban layout and HOAs. We efficiently execute service of process across all properties:
+              </p>
+              <ul className="space-y-4">
+                <li className="flex items-start gap-3">
+                  <div className="bg-emerald-100 p-2 rounded-lg shrink-0 mt-0.5">
+                    <MapPin className="h-4 w-4 text-emerald-700" />
+                  </div>
+                  <div>
+                    <strong className="text-gray-900 block">Downtown Owasso (Redbud District)</strong>
+                    <span className="text-gray-600 text-sm">Including the historic corridor along Main Street between 76th N and 96th N.</span>
+                  </div>
+                </li>
+                <li className="flex items-start gap-3">
+                  <div className="bg-emerald-100 p-2 rounded-lg shrink-0 mt-0.5">
+                    <Building className="h-4 w-4 text-emerald-700" />
+                  </div>
+                  <div>
+                    <strong className="text-gray-900 block">Gated Communities</strong>
+                    <span className="text-gray-600 text-sm">Proper protocol observed for Stone Canyon Golf Club and Bailey Ranch Golf Club subdivisions.</span>
+                  </div>
+                </li>
+                <li className="flex items-start gap-3">
+                  <div className="bg-emerald-100 p-2 rounded-lg shrink-0 mt-0.5">
+                    <Hospital className="h-4 w-4 text-emerald-700" />
+                  </div>
+                  <div>
+                    <strong className="text-gray-900 block">Elm Creek & Preston Lakes</strong>
+                    <span className="text-gray-600 text-sm">Close-set residential serving intersecting medical corridors near Bailey Medical.</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
         </div>
-      </main>
+
+        {/* Corporate & Employment Serving */}
+        <section className="bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden mt-12">
+          <div className="p-6 bg-gradient-to-r from-teal-800 to-cyan-900 text-white">
+            <h2 className="text-2xl font-bold mb-2 flex items-center gap-2"><Building className="h-6 w-6" /> Serving Employers in Owasso</h2>
+            <p className="text-cyan-200 font-medium">Wage garnishments, subpoenas, and corporate legal notices</p>
+          </div>
+          <div className="p-8">
+            <p className="text-gray-700 mb-6">
+              When serving a business or executing a wage garnishment against an employee, we utilize highly professional protocols designed to minimize workplace disruption while ensuring strict legal compliance. We routinely serve major employers and local corporations in the Owasso area.
+            </p>
+            <div className="overflow-x-auto rounded-xl border border-gray-200 shadow-sm">
+              <table className="min-w-full text-left bg-white">
+                <thead className="bg-gray-50 border-b border-gray-200">
+                  <tr>
+                    <th scope="col" className="px-6 py-4 text-sm font-bold text-gray-900 uppercase tracking-wider">Entity name</th>
+                    <th scope="col" className="px-6 py-4 text-sm font-bold text-gray-900 uppercase tracking-wider">Address / Area</th>
+                    <th scope="col" className="px-6 py-4 text-sm font-bold text-gray-900 uppercase tracking-wider">Service Type</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-gray-100">
+                  {employers.map((emp, i) => (
+                    <tr key={i} className="hover:bg-gray-50 transition-colors">
+                      <td className="px-6 py-4">
+                        <div className="font-semibold text-gray-900">{emp.name}</div>
+                        <div className="text-xs text-teal-600 font-medium mt-1 uppercase tracking-wide">{emp.industry}</div>
+                      </td>
+                      <td className="px-6 py-4 text-gray-600 text-sm">{emp.address}</td>
+                      <td className="px-6 py-4 text-gray-500 text-sm">{emp.notes}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        {/* Pricing Matrix */}
+        <section className="bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden relative">
+          <div className="absolute top-0 right-0 w-64 h-64 bg-teal-50 rounded-bl-full z-0 opacity-50"></div>
+          <div className="p-8 md:p-10 relative z-10">
+            <div className="text-center mb-10 border-b border-gray-100 pb-8">
+              <div className="inline-flex justify-center items-center bg-teal-100 text-teal-700 p-3 rounded-2xl mb-4">
+                <DollarSign className="h-8 w-8" />
+              </div>
+              <h2 className="text-3xl font-extrabold text-gray-900 mb-4">Transparent Pricing for Owasso</h2>
+              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+                No hidden mileage charges. No surprise fees. You receive flat-rate billing based exactly on how quickly you need your documents delivered in Owasso.
+              </p>
+            </div>
+            
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
+              {/* Standard */}
+              <div className="bg-white rounded-2xl p-8 border hover:-translate-y-1 hover:shadow-xl transition-all duration-300 relative">
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Standard Delivery</h3>
+                <div className="text-gray-500 font-medium h-12">First attempt within 2–3 days</div>
+                <ul className="space-y-3 mb-8 mt-6">
+                  <li className="flex items-center text-sm text-gray-700"><span className="text-green-500 mr-2 font-bold">✓</span> Up to 3 distinct attempts</li>
+                  <li className="flex items-center text-sm text-gray-700"><span className="text-green-500 mr-2 font-bold">✓</span> GPS coordinate logging</li>
+                  <li className="flex items-center text-sm text-gray-700"><span className="text-green-500 mr-2 font-bold">✓</span> Notarized Affidavit included</li>
+                </ul>
+              </div>
+              
+              {/* Rush */}
+              <div className="bg-gradient-to-b from-teal-50 to-white rounded-2xl p-8 border-2 border-teal-500 shadow-lg hover:-translate-y-1 hover:shadow-2xl transition-all duration-300 relative transform md:scale-105 z-10">
+                <div className="absolute top-0 right-0 bg-teal-500 text-white text-xs font-bold px-3 py-1 rounded-bl-lg rounded-tr-xl uppercase tracking-wider">Most Popular</div>
+                <h3 className="text-xl font-bold text-teal-900 mb-2">Priority Rush</h3>
+                <div className="text-teal-700 font-medium h-12">First attempt by next business day</div>
+                <ul className="space-y-3 mb-8 mt-6">
+                  <li className="flex items-center text-sm text-gray-800"><span className="text-teal-500 mr-2 font-bold">✓</span> Expedited routing to Owasso</li>
+                  <li className="flex items-center text-sm text-gray-800"><span className="text-teal-500 mr-2 font-bold">✓</span> Early morning / evening attempts</li>
+                  <li className="flex items-center text-sm text-gray-800"><span className="text-teal-500 mr-2 font-bold">✓</span> Priority notarization</li>
+                </ul>
+              </div>
+              
+              {/* Same Day */}
+              <div className="bg-white rounded-2xl p-8 border border-teal-200 hover:border-teal-400 hover:-translate-y-1 hover:shadow-xl transition-all duration-300">
+                <h3 className="text-xl font-bold text-teal-700 mb-2">Same-Day Service</h3>
+                <div className="text-teal-600 font-medium h-12">Immediate deployment<br/><span className="text-xs">(Call by 12:00 PM)</span></div>
+                <ul className="space-y-3 mb-8 mt-6">
+                  <li className="flex items-center text-sm text-gray-700"><span className="text-teal-500 mr-2 font-bold">✓</span> Same-day driving dispatch</li>
+                  <li className="flex items-center text-sm text-gray-700"><span className="text-teal-500 mr-2 font-bold">✓</span> High-priority communications</li>
+                  <li className="flex items-center text-sm text-gray-700"><span className="text-teal-500 mr-2 font-bold">✓</span> Guaranteed prompt action</li>
+                </ul>
+              </div>
+            </div>
+            
+            <div className="text-center">
+              <Link href="/pricing" className="inline-flex items-center justify-center gap-2 bg-slate-900 hover:bg-slate-800 text-white font-bold px-8 py-4 rounded-xl transition-colors shadow-lg hover:shadow-xl group">
+                Review Complete Pricing Guide <span className="group-hover:translate-x-1 transition-transform">→</span>
+              </Link>
+            </div>
+          </div>
+        </section>
+
+        {/* FAQs */}
+        {pageFAQs.length > 0 && (
+          <section className="bg-slate-50 rounded-3xl p-8 md:p-12 border border-slate-200">
+            <div className="text-center max-w-2xl mx-auto mb-10">
+              <h2 className="text-3xl font-bold text-slate-900 mb-4">Frequently Asked Questions</h2>
+              <p className="text-slate-600">Common inquiries about process serving in Owasso, Oklahoma.</p>
+            </div>
+            <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+              {pageFAQs.map((faq, i) => (
+                <div key={i} className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow">
+                  <h3 className="font-bold text-lg text-slate-800 mb-3 leading-snug">{faq.question}</h3>
+                  <p className="text-slate-600 leading-relaxed text-sm">{faq.answer}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* Map Integration */}
+        <section className="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100">
+          <div className="p-6 bg-slate-900 text-white flex items-center justify-between">
+            <div>
+              <h2 className="text-2xl font-bold mb-1 flex items-center gap-2"><MapPin className="h-6 w-6 text-teal-400" /> Owasso Service Area</h2>
+              <p className="text-slate-400 text-sm">Interactive GPS coverage map for Owasso.</p>
+            </div>
+          </div>
+          <div className="p-2 bg-slate-100">
+            <div className="rounded-xl overflow-hidden shadow-inner border border-slate-200 bg-white">
+              <GoogleMapsEmbed
+                countyName="Tulsa County"
+                cityName="Owasso"
+                state="Oklahoma"
+                title="Owasso Process Server GPS Area Maps"
+              />
+            </div>
+          </div>
+        </section>
+
+        {/* Action Bottom Bar */}
+        <section className="bg-gradient-to-br from-teal-900 via-teal-800 to-teal-900 rounded-3xl shadow-2xl overflow-hidden relative">
+          <div className="absolute inset-0 opacity-20 bg-[url('/img/hero-bg.jpg')] bg-cover bg-center mix-blend-overlay"></div>
+          <div className="relative z-10 p-10 md:p-16 text-center text-white">
+            <h2 className="text-4xl font-extrabold mb-6 tracking-tight">Need Papers Served Quickly in Owasso?</h2>
+            <p className="text-xl mb-10 text-teal-100 max-w-2xl mx-auto font-medium">
+              Delaying service can stall your case. Rely on the local expertise of our Owasso process servers for rapid, unassailable legal delivery.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-5 justify-center">
+              <a href="tel:5393676832" className="bg-yellow-400 text-teal-900 hover:bg-yellow-300 px-8 py-4 rounded-xl font-bold text-xl transition-all shadow-xl flex items-center justify-center gap-3 hover:-translate-y-1">
+                <Phone className="h-6 w-6" /> Talk to a Server: (539) 367-6832
+              </a>
+              <Link href="/contact" className="bg-teal-700/80 hover:bg-teal-600 text-white border border-teal-400 px-8 py-4 rounded-xl font-bold text-lg transition-all flex items-center justify-center gap-3 backdrop-blur-sm hover:-translate-y-1">
+                <FileText className="h-5 w-5" /> Submit Documents Form
+              </Link>
+            </div>
+          </div>
+        </section>
+
+      
+        {/* Explore More Resources */}
+        <section className="bg-white rounded-3xl shadow-xl overflow-hidden mb-12 border border-slate-200">
+          <div className="p-8 bg-gradient-to-r from-slate-800 to-slate-900 text-white">
+            <h2 className="text-2xl font-bold mb-2">Explore More Resources</h2>
+            <p className="text-slate-300">Learn more about our services and nearby coverage areas</p>
+          </div>
+          <div className="p-8">
+            <div className="grid md:grid-cols-3 gap-6">
+              <div>
+                <h3 className="font-bold text-gray-900 mb-4 text-lg">📍 Nearby Service Areas</h3>
+                <ul className="space-y-2">
+                  <li><Link href="/process-serving" className="text-blue-600 hover:text-blue-800 underline">process serving</Link></li>
+                  <li><Link href="/tulsa-process-server" className="text-blue-600 hover:underline">Tulsa Process Server</Link></li>
+                  <li><Link href="/service-areas/sapulpa" className="text-blue-600 hover:underline">Sapulpa Process Server</Link></li>
+                  <li><Link href="/service-areas/jenks" className="text-blue-600 hover:underline">Jenks Process Server</Link></li>
+                  <li><Link href="/service-areas/bixby" className="text-blue-600 hover:underline">Bixby Process Server</Link></li>
+                  <li><Link href="/counties/tulsa-county" className="text-blue-600 hover:underline">Tulsa County Process Server</Link></li>
+                  <li><Link href="/counties/creek-county" className="text-blue-600 hover:underline">Creek County Process Server</Link></li>
+                </ul>
+              </div>
+              
+              <div>
+                <h3 className="font-bold text-gray-900 mb-4 text-lg">📚 Helpful Guides</h3>
+                <ul className="space-y-2">
+                  <li><Link href="/oklahoma-process-server-faq" className="text-blue-600 hover:underline">Process Serving FAQ 2026</Link></li>
+                  <li><Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma Process Server Laws</Link></li>
+                  <li><Link href="/oklahoma-process-server-pricing" className="text-blue-600 hover:underline">Pricing Guide</Link></li>
+                  <li><Link href="/family-law-service-guide-tulsa" className="text-blue-600 hover:underline">Family Law Service Guide</Link></li>
+                  <li><Link href="/ai-skip-tracing-guide-oklahoma" className="text-blue-600 hover:underline">Skip Tracing Guide</Link></li>
+                </ul>
+              </div>
+              
+              <div>
+                <h3 className="font-bold text-gray-900 mb-4 text-lg">🏢 Our Services</h3>
+                <ul className="space-y-2">
+                  <li><Link href="/law-firm-services" className="text-blue-600 hover:underline">Law Firm Services</Link></li>
+                  <li><Link href="/weekend-emergency" className="text-blue-600 hover:underline">Emergency Process Service</Link></li>
+                  <li><Link href="/about" className="text-blue-600 hover:underline">About Just Legal Solutions</Link></li>
+                  <li><Link href="/contact" className="text-blue-600 hover:underline">Contact Us</Link></li>
+                  <li><Link href="/seo/what-is-a-process-server" className="text-blue-600 hover:underline">What is a Process Server?</Link></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Browse All Service Areas */}
+        <div className="text-center py-8">
+          <Link
+            href="/service-areas"
+            className="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold text-lg transition-colors"
+          >
+            ← Browse All Oklahoma Service Areas
+          </Link>
+        </div>
 </div>
+
+      <UnifiedSchema
+        pageType="location"
+        url="https://justlegalsolutions.org/service-areas/owasso"
+        title="Process Server Owasso, OK | Tulsa & Rogers County Limits"
+        description="Licensed professional process server for Owasso, Oklahoma. Specialized in same-day legal document delivery, summons, and subpoenas across the 74055 area, Bailey Medical, and Stone Canyon."
+        faqItems={pageFAQs.slice(0, 4)}
+        aggregateRating={{ ratingValue: 4.9, reviewCount: 156 }}
+        breadcrumbItems={[
+          { name: 'Home', item: 'https://justlegalsolutions.org' },
+          { name: 'Service Areas', item: 'https://justlegalsolutions.org/service-areas' },
+          { name: 'Owasso', item: 'https://justlegalsolutions.org/service-areas/owasso' },
+        ]}
+      />
+    </div>
   );
 }
