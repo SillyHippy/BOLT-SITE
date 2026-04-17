@@ -307,6 +307,9 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Customer Reviews Section */}
+      <ReviewWidget />
+
       {/* Service Areas - SEO Content Section - Hidden from users, visible to search engines */}
       <section className="sr-only" aria-label="Service areas and details">
         <div className="max-w-7xl mx-auto px-4">
@@ -510,8 +513,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Customer Reviews Section */}
-      <ReviewWidget />
+
 
       {/* Unified Schema Markup */}
       <UnifiedSchema
