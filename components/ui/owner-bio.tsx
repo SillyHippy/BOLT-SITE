@@ -8,7 +8,7 @@ export default function OwnerBio() {
         {/* Experience Trust Header */}
         <div className="text-center mb-8">
           <div className="inline-block bg-yellow-100 text-yellow-800 font-bold rounded-lg px-4 py-2 shadow-md text-lg border border-yellow-200 mb-4">
-            🏆 Trusted by Oklahoma&apos;s Legal Community for Over 50 Years
+            🏆 50+ Years&apos; Combined Experience Serving Oklahoma&apos;s Legal Community
           </div>
           <p className="text-base text-gray-600 max-w-2xl mx-auto">
             Our certified team and professional partners bring decades of combined experience in process serving, 

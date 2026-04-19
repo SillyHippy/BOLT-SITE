@@ -2,13 +2,14 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import dynamic from 'next/dynamic';
+import { LiteYouTubeEmbed } from '@/components/lite-youtube-embed';
 
 const ReviewWidget = dynamic(() => import('@/components/ui/review-widget'));
 
 export const metadata: Metadata = {
     title: 'Process Serving Services Oklahoma | Licensed Servers from $30',
-    description: 'Oklahoma process serving from $30. Personal, substitute, and publication service. Licensed under 12 O.S. § 158.1. Same-day and emergency options.',
-    keywords: ['process serving oklahoma', 'process server services', 'serve legal papers oklahoma', 'personal service of process', 'substitute service oklahoma', 'service by publication', 'licensed process server', 'professional process serving'],
+    description: 'Oklahoma process serving from $30. Personal, substitute, and publication service. Licensed under 12 O.S. § 158.1. Same-day and emergency options. GPS-verified proof. All 77 counties.',
+    keywords: ['process serving oklahoma', 'process server services', 'serve legal papers oklahoma', 'personal service of process', 'substitute service oklahoma', 'service by publication', 'licensed process server', 'professional process serving', 'process server vs sheriff oklahoma', 'evasive defendant service', 'skip tracing oklahoma', 'GPS process serving'],
     authors: [{ name: 'Just Legal Solutions' }],
     creator: 'Just Legal Solutions',
     publisher: 'Just Legal Solutions',
@@ -64,6 +65,22 @@ const serviceFaqs = [
         question: "What happens after papers are served?",
         answer: "After successful service, the process server prepares a notarized affidavit of service (also called a 'return of service') documenting exactly when, where, and how the documents were delivered. This affidavit is filed with the appropriate court as proof that due process requirements have been met. Just Legal Solutions provides GPS coordinates, timestamps, and photographs when applicable to create bulletproof documentation."
     },
+    {
+        question: "Can someone refuse to accept service in Oklahoma?",
+        answer: "No — in Oklahoma, a defendant cannot legally 'refuse' service. Under 12 O.S. § 2004, if a process server identifies the individual and makes a reasonable attempt to hand them the documents, service is considered complete even if the person refuses to physically take the papers. The server can leave the documents at the person's feet or nearest location. This is called 'drop service' and is legally valid. An affidavit documenting the refusal satisfies due process requirements."
+    },
+    {
+        question: "Can papers be served on Sundays and holidays in Oklahoma?",
+        answer: "Yes, Oklahoma law permits service of process on Sundays and holidays. There is no statutory restriction on the days of the week when service can occur. Process servers may serve documents any day, including weekends and federal holidays. Just Legal Solutions offers weekend and holiday service for urgent matters — call (539) 367-6832 for availability."
+    },
+    {
+        question: "What is the difference between a process server and the sheriff?",
+        answer: "Both can legally serve documents in Oklahoma, but there are major differences. The county sheriff often takes 2-4 weeks, only serves during business hours, and may deprioritize civil service. A private process server like Just Legal Solutions offers same-day service, evenings/weekends, GPS-verified proof, real-time status updates, and multiple attempts within your deadline. Private servers also specialize in difficult serves with skip tracing and surveillance capabilities."
+    },
+    {
+        question: "How long does process serving take in Oklahoma?",
+        answer: "Timeframes depend on the service tier you select. Standard service takes 5-7 business days (up to 3 attempts). Rush service is completed within 1-3 business days. Same-day rush means the documents are served within 4-8 hours. Our 2-hour emergency service dispatches immediately. Factors that can extend timelines include evasive defendants, incorrect addresses, or gated community access. We provide real-time updates throughout the process."
+    },
 ];
 
 export default function ProcessServingPage() {
@@ -81,17 +98,72 @@ export default function ProcessServingPage() {
                     </nav>
 
                     {/* Hero Section */}
-                    <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-lg mb-10">
+                    <div className="bg-gradient-to-r from-blue-50 to-indigo-50 border-l-4 border-blue-600 p-8 rounded-r-lg mb-10">
                         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
                             Professional Process Serving in Oklahoma
                         </h1>
                         <p className="text-lg text-gray-800 leading-relaxed mb-4">
                             <strong>A process server is a licensed individual authorized under Oklahoma law (12 O.S. § 158.1) to deliver legal documents — such as summons, subpoenas, and eviction notices — to parties in a lawsuit, ensuring constitutional due process is satisfied.</strong>
                         </p>
-                        <p className="text-lg text-gray-800 leading-relaxed">
+                        <p className="text-lg text-gray-800 leading-relaxed mb-6">
                             Just Legal Solutions provides licensed, bonded process serving across all 77 Oklahoma counties. Whether you need personal service, substitute service, or assistance with service by publication, our team delivers court-ready results starting at <strong>$30 for a single attempt</strong> and <strong>$60 for standard service</strong>. Every service attempt is GPS-verified with timestamped proof. Available 24/7 with same-day and 2-hour emergency options. Call <a href="tel:5393676832" className="text-blue-700 font-bold hover:underline">(539) 367-6832</a> to get started.
                         </p>
+                        {/* Quick-Action Buttons */}
+                        <div className="flex flex-col sm:flex-row gap-3">
+                            <a href="tel:5393676832" className="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg text-base transition-colors shadow-md">
+                                📞 Call Now — (539) 367-6832
+                            </a>
+                            <a href="/contact" className="inline-flex items-center justify-center bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg text-base transition-colors shadow-md">
+                                📝 Get a Free Quote in 15 Minutes
+                            </a>
+                        </div>
                     </div>
+
+                    {/* Trust Signal Stats Bar */}
+                    <section className="mb-12">
+                        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                            <div className="bg-blue-50 border border-blue-200 rounded-lg p-5 text-center">
+                                <div className="text-3xl font-bold text-blue-700">77</div>
+                                <div className="text-sm text-gray-700 font-medium">Counties Covered</div>
+                            </div>
+                            <div className="bg-green-50 border border-green-200 rounded-lg p-5 text-center">
+                                <div className="text-3xl font-bold text-green-700">4.9★</div>
+                                <div className="text-sm text-gray-700 font-medium">Google Rating</div>
+                            </div>
+                            <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-5 text-center">
+                                <div className="text-3xl font-bold text-yellow-700">50+</div>
+                                <div className="text-sm text-gray-700 font-medium">Years Combined Experience</div>
+                            </div>
+                            <div className="bg-purple-50 border border-purple-200 rounded-lg p-5 text-center">
+                                <div className="text-3xl font-bold text-purple-700">24/7</div>
+                                <div className="text-sm text-gray-700 font-medium">Emergency Availability</div>
+                            </div>
+                        </div>
+                    </section>
+
+                    {/* Video Section */}
+                    <section className="mb-12">
+                        <h2 className="text-3xl font-bold text-gray-900 mb-6">Watch: How Process Serving Works</h2>
+                        <div className="grid md:grid-cols-2 gap-6">
+                            <div>
+                                <div className="relative rounded-xl overflow-hidden shadow-lg border border-gray-200 bg-black aspect-video">
+                                    <LiteYouTubeEmbed videoid="NFAhglMUNqc" title="Best Process Server in Tulsa, Oklahoma" />
+                                </div>
+                                <p className="text-sm text-gray-600 mt-2 text-center">Why Attorneys Choose Just Legal Solutions</p>
+                            </div>
+                            <div>
+                                <div className="relative rounded-xl overflow-hidden shadow-lg border border-gray-200 bg-black aspect-video">
+                                    <LiteYouTubeEmbed videoid="IEKOF4TiEDY" title="Attorney's Guide to Hiring a Process Server in Oklahoma" />
+                                </div>
+                                <p className="text-sm text-gray-600 mt-2 text-center">Attorney&apos;s Guide to Hiring a Process Server</p>
+                            </div>
+                        </div>
+                        <div className="mt-4 text-center">
+                            <Link href="/videos" className="text-blue-600 hover:underline font-medium text-sm">
+                                Watch all 42+ educational videos →
+                            </Link>
+                        </div>
+                    </section>
 
                     {/* What Is Process Serving */}
                     <section className="mb-12">
@@ -135,6 +207,66 @@ export default function ProcessServingPage() {
                         </div>
                     </section>
 
+                    {/* Oklahoma Law Quick Reference */}
+                    <section className="mb-12">
+                        <h2 className="text-3xl font-bold text-gray-900 mb-6">Oklahoma Process Serving Laws — Quick Reference</h2>
+                        <div className="bg-slate-50 border border-slate-200 rounded-lg overflow-hidden">
+                            <div className="overflow-x-auto">
+                                <table className="w-full text-sm">
+                                    <thead>
+                                        <tr className="bg-slate-100">
+                                            <th className="text-left px-4 py-3 font-bold text-gray-900">Statute</th>
+                                            <th className="text-left px-4 py-3 font-bold text-gray-900">What It Covers</th>
+                                            <th className="text-left px-4 py-3 font-bold text-gray-900">Key Rule</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody className="divide-y divide-slate-200">
+                                        <tr>
+                                            <td className="px-4 py-3 font-medium text-blue-700">12 O.S. § 2004</td>
+                                            <td className="px-4 py-3 text-gray-700">Service of process methods</td>
+                                            <td className="px-4 py-3 text-gray-700">Personal service is preferred; substitute and publication allowed under specific conditions</td>
+                                        </tr>
+                                        <tr className="bg-white">
+                                            <td className="px-4 py-3 font-medium text-blue-700">12 O.S. § 158.1</td>
+                                            <td className="px-4 py-3 text-gray-700">Process server licensing</td>
+                                            <td className="px-4 py-3 text-gray-700">Requires $5,000 surety bond, 6+ months residency, district court registration</td>
+                                        </tr>
+                                        <tr>
+                                            <td className="px-4 py-3 font-medium text-blue-700">12 O.S. § 2004(C)(1)</td>
+                                            <td className="px-4 py-3 text-gray-700">Personal service rules</td>
+                                            <td className="px-4 py-3 text-gray-700">Deliver documents directly to named individual; document date, time, location</td>
+                                        </tr>
+                                        <tr className="bg-white">
+                                            <td className="px-4 py-3 font-medium text-blue-700">12 O.S. § 2004(C)(2)</td>
+                                            <td className="px-4 py-3 text-gray-700">Substitute service rules</td>
+                                            <td className="px-4 py-3 text-gray-700">Leave with resident 15+ years old at dwelling, then mail copy to same address</td>
+                                        </tr>
+                                        <tr>
+                                            <td className="px-4 py-3 font-medium text-blue-700">12 O.S. § 2004.3</td>
+                                            <td className="px-4 py-3 text-gray-700">Service by publication</td>
+                                            <td className="px-4 py-3 text-gray-700">3 consecutive weeks in newspaper; minimum 41 days; requires court approval</td>
+                                        </tr>
+                                        <tr className="bg-white">
+                                            <td className="px-4 py-3 font-medium text-blue-700">12 O.S. § 2004(J)</td>
+                                            <td className="px-4 py-3 text-gray-700">Who can serve</td>
+                                            <td className="px-4 py-3 text-gray-700">Any person 18+ who is not a party to the case</td>
+                                        </tr>
+                                        <tr>
+                                            <td className="px-4 py-3 font-medium text-blue-700">12 O.S. § 2005</td>
+                                            <td className="px-4 py-3 text-gray-700">Response deadlines</td>
+                                            <td className="px-4 py-3 text-gray-700">Defendant has 20 days to respond after personal/substitute service in Oklahoma</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div className="px-4 py-3 bg-blue-50 border-t border-slate-200">
+                                <p className="text-xs text-gray-600">
+                                    For the complete Oklahoma process serving legal guide, visit our <Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline font-medium">Oklahoma Process Server Laws</Link> page.
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+
                     {/* What We Serve */}
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-gray-900 mb-6">Documents We Serve</h2>
@@ -169,6 +301,80 @@ export default function ProcessServingPage() {
                                     <li>&#x2713; Small claims papers</li>
                                 </ul>
                             </div>
+                        </div>
+                    </section>
+
+                    {/* Who We Serve (Target Audiences) */}
+                    <section className="mb-12">
+                        <h2 className="text-3xl font-bold text-gray-900 mb-6">Who We Serve</h2>
+                        <div className="grid md:grid-cols-2 gap-6">
+                            <div className="bg-blue-50 border border-blue-200 p-6 rounded-lg">
+                                <h3 className="text-xl font-bold text-blue-900 mb-3">⚖️ Law Firms &amp; Attorneys</h3>
+                                <p className="text-gray-700 mb-3">Oklahoma&apos;s law firms trust us for reliable, court-compliant service with GPS-verified proof that holds up to motions to quash. We offer volume discounts, dedicated account management, and real-time case status updates.</p>
+                                <ul className="text-sm text-gray-600 space-y-1">
+                                    <li>&#x2713; Court-run transfers &amp; same-day filing</li>
+                                    <li>&#x2713; Bulletproof affidavits with GPS coordinates</li>
+                                    <li>&#x2713; Volume pricing for high-caseload firms</li>
+                                    <li>&#x2713; <Link href="/law-firm-services" className="text-blue-600 hover:underline">Learn about our law firm services →</Link></li>
+                                </ul>
+                            </div>
+                            <div className="bg-green-50 border border-green-200 p-6 rounded-lg">
+                                <h3 className="text-xl font-bold text-green-900 mb-3">🏠 Landlords &amp; Property Managers</h3>
+                                <p className="text-gray-700 mb-3">Eviction timelines are strict — the wrong service method can restart your clock. We know Oklahoma&apos;s FED (Forcible Entry &amp; Detainer) rules inside and out and serve 5-day, 15-day, and 30-day notices correctly the first time.</p>
+                                <ul className="text-sm text-gray-600 space-y-1">
+                                    <li>&#x2713; 5-day, 15-day &amp; 30-day eviction notices</li>
+                                    <li>&#x2713; FED summons &amp; complaints</li>
+                                    <li>&#x2713; Lease violation notices</li>
+                                    <li>&#x2713; <Link href="/eviction-notice-service" className="text-blue-600 hover:underline">Eviction service details →</Link></li>
+                                </ul>
+                            </div>
+                            <div className="bg-orange-50 border border-orange-200 p-6 rounded-lg">
+                                <h3 className="text-xl font-bold text-orange-900 mb-3">🏢 Corporations &amp; Businesses</h3>
+                                <p className="text-gray-700 mb-3">Serving a business entity requires knowing how to identify and serve the correct registered agent, officer, or authorized representative. Improper corporate service can invalidate your entire case.</p>
+                                <ul className="text-sm text-gray-600 space-y-1">
+                                    <li>&#x2713; Service on registered agents (LLC, Corp, LP)</li>
+                                    <li>&#x2713; Service on corporate officers &amp; directors</li>
+                                    <li>&#x2713; Secretary of State fallback service</li>
+                                    <li>&#x2713; <Link href="/serve-business-corporation-oklahoma" className="text-blue-600 hover:underline">Corporate service guide →</Link></li>
+                                </ul>
+                            </div>
+                            <div className="bg-purple-50 border border-purple-200 p-6 rounded-lg">
+                                <h3 className="text-xl font-bold text-purple-900 mb-3">👤 Individuals &amp; Self-Represented Parties</h3>
+                                <p className="text-gray-700 mb-3">Filing your own case? We make it easy. Whether it&apos;s a divorce, small claims suit, or protective order, we guide you through exactly what documents to bring and handle the service so you can focus on your case.</p>
+                                <ul className="text-sm text-gray-600 space-y-1">
+                                    <li>&#x2713; Simple process — call, drop off papers, we serve</li>
+                                    <li>&#x2713; Clear pricing with no hidden fees</li>
+                                    <li>&#x2713; Court-ready affidavit provided</li>
+                                    <li>&#x2713; <Link href="/contact" className="text-blue-600 hover:underline">Request service now →</Link></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    {/* Industries We Serve */}
+                    <section className="mb-12">
+                        <h2 className="text-3xl font-bold text-gray-900 mb-6">Industries We Serve</h2>
+                        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                            <Link href="/process-serving-for-insurance-companies" className="bg-gray-50 p-4 rounded-lg border border-gray-200 hover:border-blue-300 hover:shadow-md transition-all text-center group">
+                                <div className="text-2xl mb-2">🛡️</div>
+                                <h3 className="font-semibold text-gray-900 text-sm group-hover:text-blue-700">Insurance Companies</h3>
+                                <p className="text-xs text-gray-500 mt-1">Claims &amp; subrogation papers</p>
+                            </Link>
+                            <Link href="/process-serving-for-debt-collection" className="bg-gray-50 p-4 rounded-lg border border-gray-200 hover:border-blue-300 hover:shadow-md transition-all text-center group">
+                                <div className="text-2xl mb-2">💳</div>
+                                <h3 className="font-semibold text-gray-900 text-sm group-hover:text-blue-700">Debt Collectors</h3>
+                                <p className="text-xs text-gray-500 mt-1">Collection &amp; garnishment service</p>
+                            </Link>
+                            <Link href="/process-serving-for-property-managers" className="bg-gray-50 p-4 rounded-lg border border-gray-200 hover:border-blue-300 hover:shadow-md transition-all text-center group">
+                                <div className="text-2xl mb-2">🏘️</div>
+                                <h3 className="font-semibold text-gray-900 text-sm group-hover:text-blue-700">Property Managers</h3>
+                                <p className="text-xs text-gray-500 mt-1">Eviction &amp; lease notices</p>
+                            </Link>
+                            <Link href="/attorney-services" className="bg-gray-50 p-4 rounded-lg border border-gray-200 hover:border-blue-300 hover:shadow-md transition-all text-center group">
+                                <div className="text-2xl mb-2">🏛️</div>
+                                <h3 className="font-semibold text-gray-900 text-sm group-hover:text-blue-700">HR Departments</h3>
+                                <p className="text-xs text-gray-500 mt-1">Employment litigation papers</p>
+                            </Link>
                         </div>
                     </section>
 
@@ -214,6 +420,136 @@ export default function ProcessServingPage() {
                                     <li>&#x2713; After-hours &amp; weekend available</li>
                                 </ul>
                             </div>
+                        </div>
+                        <p className="text-sm text-gray-500 text-center">
+                            <Link href="/pricing" className="text-blue-600 hover:underline font-medium">View complete pricing details →</Link> &bull; All prices are starting rates &bull; No mileage fees within Tulsa County
+                        </p>
+                    </section>
+
+                    {/* Mid-Page CTA */}
+                    <section className="mb-12 bg-gradient-to-r from-blue-600 to-blue-800 p-8 rounded-xl text-white text-center shadow-xl">
+                        <h2 className="text-2xl md:text-3xl font-bold mb-3">Get a Quote in 15 Minutes</h2>
+                        <p className="text-blue-100 mb-6 max-w-2xl mx-auto">Tell us who needs to be served, the document type, and your deadline. We&apos;ll provide a guaranteed quote — no surprises, no hidden fees.</p>
+                        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                            <a href="tel:5393676832" className="bg-white text-blue-700 font-bold py-3 px-8 rounded-lg text-lg transition-colors hover:bg-blue-50 shadow-md">
+                                📞 Call (539) 367-6832
+                            </a>
+                            <a href="/contact" className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-3 px-8 rounded-lg text-lg transition-colors border border-blue-400">
+                                📝 Submit Online
+                            </a>
+                        </div>
+                    </section>
+
+                    {/* Process Server vs Sheriff Comparison */}
+                    <section className="mb-12">
+                        <h2 className="text-3xl font-bold text-gray-900 mb-4">Process Server vs. County Sheriff — Which Should You Choose?</h2>
+                        <p className="text-lg text-gray-700 mb-6">
+                            Oklahoma law allows both county sheriffs and private process servers to serve legal documents. Here&apos;s how they compare:
+                        </p>
+                        <div className="bg-gray-50 border border-gray-200 rounded-lg overflow-hidden">
+                            <div className="overflow-x-auto">
+                                <table className="w-full text-sm">
+                                    <thead>
+                                        <tr className="bg-gray-100">
+                                            <th className="text-left px-4 py-3 font-bold text-gray-900">Feature</th>
+                                            <th className="text-left px-4 py-3 font-bold text-blue-700">Just Legal Solutions</th>
+                                            <th className="text-left px-4 py-3 font-bold text-gray-600">County Sheriff</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody className="divide-y divide-gray-200">
+                                        <tr>
+                                            <td className="px-4 py-3 font-medium text-gray-900">Typical Timeframe</td>
+                                            <td className="px-4 py-3 text-green-700 font-semibold">1–3 days (standard)</td>
+                                            <td className="px-4 py-3 text-gray-600">2–4 weeks</td>
+                                        </tr>
+                                        <tr className="bg-white">
+                                            <td className="px-4 py-3 font-medium text-gray-900">Same-Day Available</td>
+                                            <td className="px-4 py-3 text-green-700 font-semibold">✅ Yes (4–8 hours)</td>
+                                            <td className="px-4 py-3 text-red-600">❌ No</td>
+                                        </tr>
+                                        <tr>
+                                            <td className="px-4 py-3 font-medium text-gray-900">Evening &amp; Weekend Service</td>
+                                            <td className="px-4 py-3 text-green-700 font-semibold">✅ Yes, 24/7</td>
+                                            <td className="px-4 py-3 text-red-600">❌ Business hours only</td>
+                                        </tr>
+                                        <tr className="bg-white">
+                                            <td className="px-4 py-3 font-medium text-gray-900">GPS-Verified Proof</td>
+                                            <td className="px-4 py-3 text-green-700 font-semibold">✅ Coordinates + timestamps</td>
+                                            <td className="px-4 py-3 text-red-600">❌ Paper affidavit only</td>
+                                        </tr>
+                                        <tr>
+                                            <td className="px-4 py-3 font-medium text-gray-900">Real-Time Updates</td>
+                                            <td className="px-4 py-3 text-green-700 font-semibold">✅ Text/call updates</td>
+                                            <td className="px-4 py-3 text-red-600">❌ No updates</td>
+                                        </tr>
+                                        <tr className="bg-white">
+                                            <td className="px-4 py-3 font-medium text-gray-900">Skip Tracing</td>
+                                            <td className="px-4 py-3 text-green-700 font-semibold">✅ Available ($50+)</td>
+                                            <td className="px-4 py-3 text-red-600">❌ Not available</td>
+                                        </tr>
+                                        <tr>
+                                            <td className="px-4 py-3 font-medium text-gray-900">Multiple Attempts</td>
+                                            <td className="px-4 py-3 text-green-700 font-semibold">✅ Up to 3 included</td>
+                                            <td className="px-4 py-3 text-yellow-600">⚠️ Usually 1 attempt</td>
+                                        </tr>
+                                        <tr className="bg-white">
+                                            <td className="px-4 py-3 font-medium text-gray-900">Difficult/Evasive Serves</td>
+                                            <td className="px-4 py-3 text-green-700 font-semibold">✅ Experienced handling</td>
+                                            <td className="px-4 py-3 text-red-600">❌ Low priority</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div className="mt-4">
+                            <div className="relative rounded-xl overflow-hidden shadow-lg border border-gray-200 bg-black aspect-video max-w-lg mx-auto">
+                                <LiteYouTubeEmbed videoid="RWmgeCJ502U" title="Process Server vs Sheriff in Oklahoma — Which Should You Choose?" />
+                            </div>
+                            <p className="text-sm text-gray-600 mt-2 text-center">Watch: Process Server vs. Sheriff — An Honest Comparison</p>
+                        </div>
+                    </section>
+
+                    {/* Difficult Serves & Evasive Defendants */}
+                    <section className="mb-12">
+                        <h2 className="text-3xl font-bold text-gray-900 mb-6">Difficult Serves &amp; Evasive Defendants</h2>
+                        <p className="text-lg text-gray-700 mb-6">
+                            Some defendants don&apos;t want to be found. That&apos;s where experience matters most. Our team has handled thousands of difficult serves across Oklahoma and has the tools, training, and persistence to get the job done.
+                        </p>
+                        <div className="grid md:grid-cols-2 gap-6">
+                            <div className="bg-red-50 border border-red-200 p-6 rounded-lg">
+                                <h3 className="text-xl font-bold text-red-900 mb-3">🔍 Skip Tracing &amp; Locate Services</h3>
+                                <p className="text-gray-700 mb-3">
+                                    When you don&apos;t have a current address, our skip tracing services can locate defendants using database searches, public records, social media analysis, and field investigation. Skip tracing starts at $50.
+                                </p>
+                                <Link href="/skip-tracing" className="text-blue-600 hover:underline font-medium text-sm">Learn about skip tracing →</Link>
+                            </div>
+                            <div className="bg-amber-50 border border-amber-200 p-6 rounded-lg">
+                                <h3 className="text-xl font-bold text-amber-900 mb-3">🕐 Odd-Hours &amp; Weekend Service</h3>
+                                <p className="text-gray-700 mb-3">
+                                    Defendants who dodge service during business hours can often be found early mornings, late evenings, or on weekends. We serve 24/7 — including holidays when necessary — to catch evasive individuals at home.
+                                </p>
+                                <Link href="/weekend-emergency" className="text-blue-600 hover:underline font-medium text-sm">Weekend &amp; emergency service →</Link>
+                            </div>
+                            <div className="bg-indigo-50 border border-indigo-200 p-6 rounded-lg">
+                                <h3 className="text-xl font-bold text-indigo-900 mb-3">📍 GPS &amp; Photographic Evidence</h3>
+                                <p className="text-gray-700 mb-3">
+                                    Every service attempt is GPS-verified with exact coordinates and timestamps. When appropriate, we capture photographic evidence of the serve location to create documentation that stands up to any court challenge.
+                                </p>
+                                <Link href="/gps-tracked-process-serving" className="text-blue-600 hover:underline font-medium text-sm">GPS-tracked service details →</Link>
+                            </div>
+                            <div className="bg-teal-50 border border-teal-200 p-6 rounded-lg">
+                                <h3 className="text-xl font-bold text-teal-900 mb-3">🚫 Drop Service for Refusals</h3>
+                                <p className="text-gray-700 mb-3">
+                                    Under Oklahoma law, a defendant cannot &ldquo;refuse&rdquo; service. If identified and the documents are offered, service is complete — even if they refuse to take the papers. We properly document refusals with GPS proof, timestamps, and detailed narratives.
+                                </p>
+                                <Link href="/what-happens-if-someone-refuses-service" className="text-blue-600 hover:underline font-medium text-sm">What happens if someone refuses? →</Link>
+                            </div>
+                        </div>
+                        <div className="mt-6">
+                            <div className="relative rounded-xl overflow-hidden shadow-lg border border-gray-200 bg-black aspect-video max-w-lg mx-auto">
+                                <LiteYouTubeEmbed videoid="bzlgKgUfEtI" title="What Happens If You Avoid Being Served in Oklahoma?" />
+                            </div>
+                            <p className="text-sm text-gray-600 mt-2 text-center">Watch: What Happens If You Avoid Being Served in Oklahoma?</p>
                         </div>
                     </section>
 
@@ -272,6 +608,9 @@ export default function ProcessServingPage() {
                                 <p className="text-sm text-gray-700">All 77 Oklahoma counties including Oklahoma City, Norman, Edmond, Lawton, and rural areas</p>
                             </div>
                         </div>
+                        <p className="text-sm text-gray-500 mt-4 text-center">
+                            <Link href="/service-areas" className="text-blue-600 hover:underline font-medium">Browse all service areas by city →</Link>
+                        </p>
                     </section>
 
                     {/* Reviews Section */}
@@ -287,6 +626,36 @@ export default function ProcessServingPage() {
                                     <p className="text-gray-700">{faq.answer}</p>
                                 </div>
                             ))}
+                        </div>
+                    </section>
+
+                    {/* More Videos */}
+                    <section className="mb-12">
+                        <h2 className="text-2xl font-bold text-gray-900 mb-6">More Process Serving Videos</h2>
+                        <div className="grid md:grid-cols-3 gap-6">
+                            <div>
+                                <div className="relative rounded-xl overflow-hidden shadow-lg border border-gray-200 bg-black aspect-video">
+                                    <LiteYouTubeEmbed videoid="iuSq5CGC07w" title="Divorce & Family Law Process Serving in Oklahoma" />
+                                </div>
+                                <p className="text-xs text-gray-600 mt-2 text-center">Divorce &amp; Family Law Process Serving</p>
+                            </div>
+                            <div>
+                                <div className="relative rounded-xl overflow-hidden shadow-lg border border-gray-200 bg-black aspect-video">
+                                    <LiteYouTubeEmbed videoid="tEASEYhCM1o" title="Substitute Service in Oklahoma" />
+                                </div>
+                                <p className="text-xs text-gray-600 mt-2 text-center">Substitute Service — When Personal Service Fails</p>
+                            </div>
+                            <div>
+                                <div className="relative rounded-xl overflow-hidden shadow-lg border border-gray-200 bg-black aspect-video">
+                                    <LiteYouTubeEmbed videoid="P8doTW8k3YU" title="Service by Publication in Oklahoma" />
+                                </div>
+                                <p className="text-xs text-gray-600 mt-2 text-center">Service by Publication — Last Resort Guide</p>
+                            </div>
+                        </div>
+                        <div className="mt-4 text-center">
+                            <Link href="/videos" className="text-blue-600 hover:underline font-medium text-sm">
+                                Watch all 42+ videos on our Video Page →
+                            </Link>
                         </div>
                     </section>
 
@@ -326,10 +695,14 @@ export default function ProcessServingPage() {
                                 <h3 className="font-semibold text-amber-800">Courthouse Filing Services</h3>
                                 <p className="text-sm text-gray-600 mt-1">Same-day courthouse document filing</p>
                             </Link>
+                            <Link href="/out-of-state-subpoena" className="block p-4 bg-cyan-50 rounded-lg hover:bg-cyan-100 transition-colors">
+                                <h3 className="font-semibold text-cyan-800">Out-of-State Subpoena (UIDDA)</h3>
+                                <p className="text-sm text-gray-600 mt-1">Interstate subpoena domestication &amp; service</p>
+                            </Link>
                         </div>
                     </section>
 
-                    {/* CTA */}
+                    {/* Final CTA */}
                     <section className="mb-12 bg-gradient-to-r from-blue-50 to-green-50 border-2 border-blue-200 p-8 rounded-lg text-center">
                         <h2 className="text-3xl font-bold text-gray-900 mb-4">Ready to Serve Papers?</h2>
                         <p className="text-lg text-gray-700 mb-6">Licensed Oklahoma process servers standing by. Single attempts starting at $30 and standard service at $60 with GPS-verified proof.</p>
@@ -349,7 +722,7 @@ export default function ProcessServingPage() {
                         <p className="text-sm text-gray-700">
                             All process serving is performed by licensed Oklahoma private process servers under <Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline font-medium">12 O.S. § 158.1</Link> and in compliance with <Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline font-medium">12 O.S. § 2004</Link>. Each server carries a $5,000 surety bond as required by state law.
                         </p>
-                        <p className="text-xs text-gray-500 mt-2">Last updated: March 2026</p>
+                        <p className="text-xs text-gray-500 mt-2">Last updated: April 2026</p>
                     </div>
                 </div>
             </div>
@@ -360,14 +733,16 @@ export default function ProcessServingPage() {
                 description="Professional process serving throughout Oklahoma. Personal service, substitute service, and service by publication. Starts at $30 for single attempt, $60 for standard service. Licensed, bonded, 24/7."
                 url="https://justlegalsolutions.org/process-serving"
                 image="https://justlegalsolutions.org/og-image.webp"
-                keywords={['process serving', 'process server oklahoma', 'serve legal papers', 'personal service', 'substitute service']}
+                keywords={['process serving', 'process server oklahoma', 'serve legal papers', 'personal service', 'substitute service', 'process server vs sheriff', 'evasive defendant service']}
                 reviewCount={156}
                 services={[
                     'Personal Service of Process',
                     'Substitute Service',
                     'Service by Publication Assistance',
                     'Same-Day Rush Service',
-                    '2-Hour Emergency Service'
+                    '2-Hour Emergency Service',
+                    'Skip Tracing',
+                    'GPS-Tracked Service'
                 ]}
                 breadcrumbs={[
                     { name: 'Home', url: '/' },
