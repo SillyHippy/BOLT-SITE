@@ -189,14 +189,14 @@ export default function WhyChooseUs() {
               <div className="flex flex-wrap justify-center gap-4">
                 <a 
                   href="#contact" 
-                  className="inline-flex items-center gap-2 bg-white text-blue-900 px-8 py-4 rounded-lg text-lg font-bold shadow-lg hover:bg-blue-50 hover:scale-105 transition-all duration-300"
+                  className="inline-flex items-center gap-2 rounded-lg bg-white px-8 py-4 text-lg font-bold text-blue-900 shadow-lg transition-all duration-300 hover:-translate-y-0.5 hover:bg-blue-50"
                 >
                   Get Started Today
                   <ArrowRight className="w-5 h-5" />
                 </a>
                 <a 
                   href="tel:+15393676832" 
-                  className="inline-flex items-center gap-2 bg-green-600 text-white px-8 py-4 rounded-lg text-lg font-bold shadow-lg hover:bg-green-700 hover:scale-105 transition-all duration-300"
+                  className="inline-flex items-center gap-2 rounded-lg bg-green-600 px-8 py-4 text-lg font-bold text-white shadow-lg transition-all duration-300 hover:-translate-y-0.5 hover:bg-green-700"
                 >
                   <Phone className="w-5 h-5" />
                   (539) 367-6832
@@ -220,7 +220,7 @@ export default function WhyChooseUs() {
               {benefits.map((benefit, index) => (
                 <div 
                   key={index}
-                  className="bg-white rounded-xl p-6 shadow-lg border border-gray-100 hover:shadow-xl hover:border-blue-200 hover:-translate-y-1 transition-all duration-300"
+                  className="ui-surface-card p-6 hover:shadow-lg hover:border-blue-200 hover:-translate-y-1 transition-all duration-300"
                 >
                   <div className="flex items-start gap-4">
                     <div className="bg-blue-100 p-3 rounded-lg shrink-0">
@@ -263,7 +263,7 @@ export default function WhyChooseUs() {
                 <div className="mt-8">
                   <a 
                     href="/weekend-emergency"
-                    className="inline-flex items-center gap-2 bg-red-600 text-white px-6 py-3 rounded-lg font-semibold shadow-lg hover:bg-red-700 hover:scale-105 transition-all duration-300"
+                    className="inline-flex items-center gap-2 rounded-lg bg-red-600 px-6 py-3 font-semibold text-white shadow-lg transition-all duration-300 hover:-translate-y-0.5 hover:bg-red-700"
                   >
                     Weekend Emergency Service
                     <ArrowRight className="w-5 h-5" />
@@ -286,7 +286,7 @@ export default function WhyChooseUs() {
               {clientTypes.map((client, index) => (
                 <div 
                   key={index}
-                  className="bg-white rounded-xl p-6 text-center shadow-lg border border-gray-100 hover:shadow-xl hover:border-blue-200 transition-all duration-300"
+                  className="ui-surface-card p-6 text-center hover:shadow-lg hover:border-blue-200 transition-all duration-300"
                 >
                   <div className="bg-blue-100 w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-4">
                     <Users className="w-7 h-7 text-blue-700" />
@@ -339,7 +339,7 @@ export default function WhyChooseUs() {
             
             <div className="max-w-3xl mx-auto space-y-6">
               {faqs.map((faq, index) => (
-                <div key={index} className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow">
+                <div key={index} className="ui-surface-card p-6 hover:shadow-md transition-shadow">
                   <h3 className="text-lg font-bold mb-3 text-blue-900">{faq.question}</h3>
                   <p className="text-gray-600 leading-relaxed">{faq.answer}</p>
                 </div>
@@ -359,14 +359,14 @@ export default function WhyChooseUs() {
               <div className="flex flex-wrap justify-center gap-4">
                 <a 
                   href="#contact" 
-                  className="inline-flex items-center gap-2 bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-bold shadow-lg hover:bg-blue-800 hover:scale-105 transition-all duration-300"
+                  className="ui-btn-primary px-8 py-4 text-lg font-bold"
                 >
                   Request a Free Quote
                   <ArrowRight className="w-5 h-5" />
                 </a>
                 <a 
                   href="/pricing"
-                  className="inline-flex items-center gap-2 bg-white text-blue-700 border-2 border-blue-700 px-8 py-4 rounded-lg text-lg font-bold shadow-lg hover:bg-blue-50 hover:scale-105 transition-all duration-300"
+                  className="ui-btn-secondary border-2 border-blue-700 px-8 py-4 text-lg font-bold text-blue-700"
                 >
                   View Pricing
                 </a>
@@ -380,27 +380,27 @@ export default function WhyChooseUs() {
           <div className="container mx-auto px-4 max-w-4xl">
             <h2 className="text-2xl font-bold text-center text-blue-900 mb-8">Explore Our Services</h2>
             <div className="grid md:grid-cols-3 gap-4">
-              <Link href="/tulsa-process-server" className="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
+              <Link href="/tulsa-process-server" className="ui-surface-card block p-4 bg-blue-50 hover:bg-blue-100 transition-colors">
                 <h3 className="font-semibold text-blue-800">Tulsa Process Server</h3>
                 <p className="text-sm text-gray-600 mt-1">Professional process serving in Tulsa County</p>
               </Link>
-              <Link href="/urgent-process-server" className="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
+              <Link href="/urgent-process-server" className="ui-surface-card block p-4 bg-blue-50 hover:bg-blue-100 transition-colors">
                 <h3 className="font-semibold text-blue-800">Urgent Process Server</h3>
                 <p className="text-sm text-gray-600 mt-1">Same-day and 2-hour emergency service</p>
               </Link>
-              <Link href="/courier-services-tulsa" className="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
+              <Link href="/courier-services-tulsa" className="ui-surface-card block p-4 bg-blue-50 hover:bg-blue-100 transition-colors">
                 <h3 className="font-semibold text-blue-800">Courier Services Tulsa</h3>
                 <p className="text-sm text-gray-600 mt-1">Legal document delivery and courier service</p>
               </Link>
-              <Link href="/service-areas" className="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
+              <Link href="/service-areas" className="ui-surface-card block p-4 bg-blue-50 hover:bg-blue-100 transition-colors">
                 <h3 className="font-semibold text-blue-800">Oklahoma Service Areas</h3>
                 <p className="text-sm text-gray-600 mt-1">All cities and counties we serve</p>
               </Link>
-              <Link href="/oklahoma-process-server-laws" className="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
+              <Link href="/oklahoma-process-server-laws" className="ui-surface-card block p-4 bg-blue-50 hover:bg-blue-100 transition-colors">
                 <h3 className="font-semibold text-blue-800">Oklahoma Process Server Laws</h3>
                 <p className="text-sm text-gray-600 mt-1">Legal requirements for serving process</p>
               </Link>
-              <Link href="/resources" className="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
+              <Link href="/resources" className="ui-surface-card block p-4 bg-blue-50 hover:bg-blue-100 transition-colors">
                 <h3 className="font-semibold text-blue-800">Resources &amp; Guides</h3>
                 <p className="text-sm text-gray-600 mt-1">Legal guides, tools, and educational resources</p>
               </Link>
