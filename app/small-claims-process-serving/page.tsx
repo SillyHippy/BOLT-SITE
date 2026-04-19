@@ -344,6 +344,22 @@ export default function SmallClaimsProcessServingPage() {
                 <h3 className="font-semibold text-emerald-800">Oklahoma Courthouse Directory</h3>
                 <p className="text-sm text-gray-600 mt-1">Where to file your affidavit</p>
               </Link>
+              <Link href="/tulsa-process-server-faq" prefetch={false} className="block p-4 bg-emerald-50 rounded-lg hover:bg-emerald-100 transition-colors">
+                <h3 className="font-semibold text-emerald-800">Tulsa Process Server FAQ</h3>
+                <p className="text-sm text-gray-600 mt-1">Common questions answered</p>
+              </Link>
+              <Link href="/process-server-vs-sheriff" prefetch={false} className="block p-4 bg-emerald-50 rounded-lg hover:bg-emerald-100 transition-colors">
+                <h3 className="font-semibold text-emerald-800">Process Server vs Sheriff</h3>
+                <p className="text-sm text-gray-600 mt-1">Why private servers beat the sheriff on speed</p>
+              </Link>
+              <Link href="/divorce-paper-service" prefetch={false} className="block p-4 bg-emerald-50 rounded-lg hover:bg-emerald-100 transition-colors">
+                <h3 className="font-semibold text-emerald-800">Divorce Paper Service</h3>
+                <p className="text-sm text-gray-600 mt-1">For separate family law matters</p>
+              </Link>
+              <Link href="/blog/tulsa-court-filing-guide" prefetch={false} className="block p-4 bg-emerald-50 rounded-lg hover:bg-emerald-100 transition-colors">
+                <h3 className="font-semibold text-emerald-800">Tulsa Court Filing Guide</h3>
+                <p className="text-sm text-gray-600 mt-1">eFile your small claims case</p>
+              </Link>
             </div>
           </div>
         </section>

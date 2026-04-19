@@ -347,6 +347,18 @@ export default function DivorcePaperServicePage() {
                 <h3 className="font-semibold text-rose-800">Mobile Notary</h3>
                 <p className="text-sm text-gray-600 mt-1">For verified pleadings, starts at $25</p>
               </Link>
+              <Link href="/protective-order-service" prefetch={false} className="block p-4 bg-rose-50 rounded-lg hover:bg-rose-100 transition-colors">
+                <h3 className="font-semibold text-rose-800">Protective Order Service</h3>
+                <p className="text-sm text-gray-600 mt-1">When divorce escalates</p>
+              </Link>
+              <Link href="/process-server-vs-sheriff" prefetch={false} className="block p-4 bg-rose-50 rounded-lg hover:bg-rose-100 transition-colors">
+                <h3 className="font-semibold text-rose-800">Process Server vs Sheriff</h3>
+                <p className="text-sm text-gray-600 mt-1">Why private is faster than the sheriff</p>
+              </Link>
+              <Link href="/tulsa-process-server-faq" prefetch={false} className="block p-4 bg-rose-50 rounded-lg hover:bg-rose-100 transition-colors">
+                <h3 className="font-semibold text-rose-800">Tulsa Process Server FAQ</h3>
+                <p className="text-sm text-gray-600 mt-1">Common questions answered</p>
+              </Link>
               <Link href="/pricing" prefetch={false} className="block p-4 bg-rose-50 rounded-lg hover:bg-rose-100 transition-colors">
                 <h3 className="font-semibold text-rose-800">Full Pricing</h3>
                 <p className="text-sm text-gray-600 mt-1">Every tier and add-on</p>

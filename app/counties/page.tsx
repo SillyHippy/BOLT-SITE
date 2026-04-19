@@ -93,6 +93,30 @@ const counties = [
   { name: "Stephens County", seat: "Duncan", cities: ["Duncan", "Marlow", "Comanche"], link: "/counties/stephens-county", description: "Halliburton birthplace, southern Oklahoma oil hub" },
   { name: "Texas County", seat: "Guymon", cities: ["Guymon", "Goodwell", "Hooker", "Hardesty"], link: "/counties/texas-county", description: "Oklahoma Panhandle, agriculture and meatpacking center" },
   { name: "Woodward County", seat: "Woodward", cities: ["Woodward", "Mooreland", "Fort Supply"], link: "/counties/woodward-county", description: "Northwestern Oklahoma hub, Plains Indians and Pioneers Museum" },
+  // Newly added counties (Apr 2026 expansion to complete 77-county coverage)
+  { name: "Alfalfa County", seat: "Cherokee", cities: ["Cherokee", "Helena", "Carmen", "Goltry"], link: "/counties/alfalfa-county", description: "Great Salt Plains, Cherokee Strip wheat country, Salt Plains National Wildlife Refuge" },
+  { name: "Atoka County", seat: "Atoka", cities: ["Atoka", "Stringtown", "Tushka", "Caney"], link: "/counties/atoka-county", description: "Choctaw Nation territory, Boggy Depot, US-69 corridor through SE Oklahoma" },
+  { name: "Beaver County", seat: "Beaver", cities: ["Beaver", "Forgan", "Turpin", "Knowles"], link: "/counties/beaver-county", description: "Oklahoma Panhandle, Beaver River, Cimarron Heritage Center" },
+  { name: "Coal County", seat: "Coalgate", cities: ["Coalgate", "Tupelo", "Phillips"], link: "/counties/coal-county", description: "Coal mining heritage, Choctaw Nation, smallest county by population" },
+  { name: "Cotton County", seat: "Walters", cities: ["Walters", "Temple", "Devol", "Randlett"], link: "/counties/cotton-county", description: "Red River border, southwestern Oklahoma agriculture" },
+  { name: "Ellis County", seat: "Arnett", cities: ["Arnett", "Shattuck", "Gage", "Fargo"], link: "/counties/ellis-county", description: "Northwestern ranching country, Antelope Hills" },
+  { name: "Garvin County", seat: "Pauls Valley", cities: ["Pauls Valley", "Wynnewood", "Lindsay", "Maysville"], link: "/counties/garvin-county", description: "Toy Museum, Washita River, Chickasaw Nation territory" },
+  { name: "Grant County", seat: "Medford", cities: ["Medford", "Pond Creek", "Wakita", "Nash"], link: "/counties/grant-county", description: "Cherokee Outlet Land Run history, wheat country, twister film locations" },
+  { name: "Greer County", seat: "Mangum", cities: ["Mangum", "Granite", "Willow"], link: "/counties/greer-county", description: "Quartz Mountain State Park, Old Greer County history" },
+  { name: "Harmon County", seat: "Hollis", cities: ["Hollis", "Gould"], link: "/counties/harmon-county", description: "Far southwestern Oklahoma, cotton country, Texas border" },
+  { name: "Harper County", seat: "Buffalo", cities: ["Buffalo", "Laverne", "May"], link: "/counties/harper-county", description: "Northwestern Oklahoma, Cimarron River, ranching and energy" },
+  { name: "Haskell County", seat: "Stigler", cities: ["Stigler", "Keota", "McCurtain", "Kinta"], link: "/counties/haskell-county", description: "Choctaw Nation, Robert S. Kerr Lake, eastern Oklahoma foothills" },
+  { name: "Jefferson County", seat: "Waurika", cities: ["Waurika", "Ringling", "Ryan", "Terral"], link: "/counties/jefferson-county", description: "Chisholm Trail Museum, Waurika Lake, southern border county" },
+  { name: "Johnston County", seat: "Tishomingo", cities: ["Tishomingo", "Milburn", "Mill Creek", "Ravia"], link: "/counties/johnston-county", description: "Chickasaw Nation capital, Murray State College, Blue River" },
+  { name: "Kingfisher County", seat: "Kingfisher", cities: ["Kingfisher", "Hennessey", "Cashion", "Dover"], link: "/counties/kingfisher-county", description: "Chisholm Trail heritage, agriculture and oil, Land Run country" },
+  { name: "Latimer County", seat: "Wilburton", cities: ["Wilburton", "Red Oak", "Panola"], link: "/counties/latimer-county", description: "Robbers Cave State Park, coal mining heritage, Eastern Oklahoma State College" },
+  { name: "Major County", seat: "Fairview", cities: ["Fairview", "Ringwood", "Meno", "Cleo Springs"], link: "/counties/major-county", description: "Glass Mountains, Mennonite heritage, wheat and energy" },
+  { name: "Pawnee County", seat: "Pawnee", cities: ["Pawnee", "Cleveland", "Hallett", "Jennings"], link: "/counties/pawnee-county", description: "Pawnee Nation headquarters, Pawnee Bill Ranch, Arkansas River" },
+  { name: "Pushmataha County", seat: "Antlers", cities: ["Antlers", "Clayton", "Rattan", "Tuskahoma"], link: "/counties/pushmataha-county", description: "Choctaw Nation Capitol at Tuskahoma, Sardis Lake, Kiamichi country" },
+  { name: "Roger Mills County", seat: "Cheyenne", cities: ["Cheyenne", "Reydon", "Hammon"], link: "/counties/roger-mills-county", description: "Washita Battlefield National Historic Site, Black Kettle National Grassland" },
+  { name: "Tillman County", seat: "Frederick", cities: ["Frederick", "Tipton", "Davidson", "Grandfield"], link: "/counties/tillman-county", description: "Hackberry Flat WMA, southwestern cotton country, Red River border" },
+  { name: "Washita County", seat: "New Cordell", cities: ["New Cordell", "Burns Flat", "Sentinel", "Canute"], link: "/counties/washita-county", description: "Washita Battlefield, Foss State Park, southwestern wheat belt" },
+  { name: "Woods County", seat: "Alva", cities: ["Alva", "Waynoka", "Freedom"], link: "/counties/woods-county", description: "Northwestern Oklahoma State University, Little Sahara State Park, Salt Plains" },
 ];
 
 const majorCities = [
@@ -131,7 +155,7 @@ export default function ServiceAreasHub() {
         serviceName="Oklahoma Process Server Service Areas"
         serviceDescription="Professional process server serving statewide throughout all of Oklahoma including all 77 counties with same-day service available."
         serviceArea="Oklahoma, Statewide"
-        priceRange="$30-$200"
+        priceRange="$30-$265"
         telephone="+1-539-367-6832"
         address={{
           streetAddress: "Statewide Service",

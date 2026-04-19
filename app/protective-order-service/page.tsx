@@ -301,6 +301,18 @@ export default function ProtectiveOrderServicePage() {
                 <h3 className="font-semibold text-purple-800">Contact</h3>
                 <p className="text-sm text-gray-600 mt-1">Start a PO serve today</p>
               </Link>
+              <Link href="/tulsa-process-server-faq" prefetch={false} className="block p-4 bg-white rounded-lg hover:bg-purple-50 transition-colors border border-gray-100 shadow-sm">
+                <h3 className="font-semibold text-purple-800">Tulsa Process Server FAQ</h3>
+                <p className="text-sm text-gray-600 mt-1">Common questions answered</p>
+              </Link>
+              <Link href="/divorce-paper-service" prefetch={false} className="block p-4 bg-white rounded-lg hover:bg-purple-50 transition-colors border border-gray-100 shadow-sm">
+                <h3 className="font-semibold text-purple-800">Divorce Paper Service</h3>
+                <p className="text-sm text-gray-600 mt-1">Often paired with VPOs</p>
+              </Link>
+              <Link href="/process-server-vs-sheriff" prefetch={false} className="block p-4 bg-white rounded-lg hover:bg-purple-50 transition-colors border border-gray-100 shadow-sm">
+                <h3 className="font-semibold text-purple-800">Process Server vs Sheriff</h3>
+                <p className="text-sm text-gray-600 mt-1">Why private is faster for VPOs</p>
+              </Link>
               <Link href="/service-areas" prefetch={false} className="block p-4 bg-white rounded-lg hover:bg-purple-50 transition-colors border border-gray-100 shadow-sm">
                 <h3 className="font-semibold text-purple-800">Service Areas</h3>
                 <p className="text-sm text-gray-600 mt-1">All 77 Oklahoma counties</p>

@@ -43,7 +43,7 @@ export function Navbar() {
           <Link href="/" className="flex items-center">
             <Image 
               src="/favicon1.svg" 
-              alt="JLS Logo" 
+              alt="Just Legal Solutions \u2014 Oklahoma process server and notary" 
               width={60} 
               height={60}
               className="object-contain"

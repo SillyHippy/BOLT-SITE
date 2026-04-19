@@ -1,6 +1,5 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import Script from 'next/script';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import Navbar from '@/components/ui/navbar';
 import Footer from '@/components/ui/footer';
@@ -76,24 +75,9 @@ export default function OklahomaProcessServerLaws() {
           faqItems={faqItems}
         />
 
-        {/* LocalBusiness Schema */}
-        <Script id="local-business-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "LegalService",
-          "name": "Just Legal Solutions",
-          "description": "Licensed Oklahoma process server and legal support handling service of process under Title 12 O.S. guidelines.",
-          "url": "https://justlegalsolutions.org",
-          "telephone": "(539) 367-6832",
-          "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Glenpool",
-            "addressRegion": "OK",
-            "postalCode": "74033",
-            "addressCountry": "US"
-          },
-          "areaServed": "Oklahoma",
-          "priceRange": "$$"
-        })}} />
+        {/* LegalService/LocalBusiness/Organization graph is centralized in UnifiedSchema above
+            (single canonical @id https://justlegalsolutions.org/#organization). The previous duplicate
+            LegalService Script block was removed to avoid double emission. */}
 
         {/* Hero Section */}
         <div className="bg-slate-900 text-white">

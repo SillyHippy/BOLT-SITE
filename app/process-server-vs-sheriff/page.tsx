@@ -350,7 +350,27 @@ export default function ProcessServerVsSheriffPage() {
               </Link>
               <Link href="/oklahoma-process-server-laws" prefetch={false} className="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
                 <h3 className="font-semibold text-blue-800">Oklahoma Process Server Laws</h3>
-                <p className="text-sm text-gray-600 mt-1">12 O.S. § 158.1 and § 2004</p>
+                <p className="text-sm text-gray-600 mt-1">12 O.S. \u00A7 158.1 and \u00A7 2004</p>
+              </Link>
+              <Link href="/tulsa-process-server-faq" prefetch={false} className="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
+                <h3 className="font-semibold text-blue-800">Tulsa Process Server FAQ</h3>
+                <p className="text-sm text-gray-600 mt-1">Quick answers to common questions</p>
+              </Link>
+              <Link href="/divorce-paper-service" prefetch={false} className="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
+                <h3 className="font-semibold text-blue-800">Divorce Paper Service</h3>
+                <p className="text-sm text-gray-600 mt-1">Service of summons and petition</p>
+              </Link>
+              <Link href="/small-claims-process-serving" prefetch={false} className="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
+                <h3 className="font-semibold text-blue-800">Small Claims Service</h3>
+                <p className="text-sm text-gray-600 mt-1">Under $10,000 case service</p>
+              </Link>
+              <Link href="/protective-order-service" prefetch={false} className="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
+                <h3 className="font-semibold text-blue-800">Protective Order Service</h3>
+                <p className="text-sm text-gray-600 mt-1">Same-day VPO service</p>
+              </Link>
+              <Link href="/blog/sheriff-vs-private-process-server-oklahoma" prefetch={false} className="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
+                <h3 className="font-semibold text-blue-800">Sheriff vs Private (Blog)</h3>
+                <p className="text-sm text-gray-600 mt-1">Deeper analysis with case examples</p>
               </Link>
             </div>
           </div>

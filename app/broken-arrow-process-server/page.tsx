@@ -312,17 +312,7 @@ export default function BrokenArrowProcessServerPage() {
           </div>
         </section>
       </div>
-
-      {/* FAQ Schema */}
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": faqs.map(f => ({
-          "@type": "Question",
-          "name": f.q,
-          "acceptedAnswer": { "@type": "Answer", "text": f.a },
-        })),
-      })}} />
+      {/* FAQPage schema is emitted by UnifiedSchema via the faqItems prop above; do not duplicate here. */}
     </>
   );
 }

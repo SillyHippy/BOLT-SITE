@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import { Metadata } from 'next';
-import Script from 'next/script';
 import Navbar from '../../components/ui/navbar';
 import Footer from '../../components/ui/footer';
 import UnifiedSchema from '../../components/UnifiedSchema';
@@ -115,56 +114,9 @@ export default function OklahomaProcessServerPricing2026() {
         author={{ name: 'Just Legal Solutions Team', url: 'https://justlegalsolutions.org' }}
       />
 
-      {/* LocalBusiness JSON-LD Schema */}
-      <Script
-        id="local-business-schema-pricing"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "LegalService",
-            "name": "Just Legal Solutions",
-            "url": "https://justlegalsolutions.org",
-            "telephone": "+15393676832",
-            "email": "info@justlegalsolutions.org",
-            "priceRange": "$30-$265",
-            "image": "https://justlegalsolutions.org/images/jls-logo.webp",
-            "address": {
-              "@type": "PostalAddress",
-              "streetAddress": "Glenpool",
-              "addressLocality": "Glenpool",
-              "addressRegion": "OK",
-              "postalCode": "74033",
-              "addressCountry": "US"
-            },
-            "geo": {
-              "@type": "GeoCoordinates",
-              "latitude": 35.9531,
-              "longitude": -96.0039
-            },
-            "openingHoursSpecification": {
-              "@type": "OpeningHoursSpecification",
-              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-              "opens": "00:00",
-              "closes": "23:59"
-            },
-            "areaServed": {
-              "@type": "State",
-              "name": "Oklahoma"
-            },
-            "hasOfferCatalog": {
-              "@type": "OfferCatalog",
-              "name": "Process Serving Services",
-              "itemListElement": [
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Single Attempt" }, "price": "30.00", "priceCurrency": "USD" },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Standard Process Serving" }, "price": "60.00", "priceCurrency": "USD" },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Same-Day Rush Service" }, "price": "150.00", "priceCurrency": "USD" },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "2-Hour Emergency Service" }, "price": "265.00", "priceCurrency": "USD" }
-              ]
-            }
-          })
-        }}
-      />
+      {/* LegalService/LocalBusiness/Organization graph is centralized in UnifiedSchema above
+          (single canonical @id https://justlegalsolutions.org/#organization). The previous duplicate
+          LegalService Script block was removed to avoid double emission and conflicting price catalogs. */}
 
       <main className="max-w-4xl mx-auto px-4 py-8 pt-24">
         {/* Breadcrumb Navigation */}

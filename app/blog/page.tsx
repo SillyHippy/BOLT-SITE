@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { ChevronRight, BookOpen, Scale, Briefcase, HelpCircle, Calendar, GitCompare, ArrowRight, Star, Shield, Clock } from 'lucide-react';
+import { ChevronRight, BookOpen, Scale, Briefcase, HelpCircle, Calendar, GitCompare, ArrowRight, Star, Shield, Clock, FileSignature, DollarSign } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
@@ -38,6 +38,8 @@ const categories = [
       { slug: 'how-to-serve-eviction-notices-in-oklahoma', title: 'How to Serve Eviction Notices in Oklahoma', description: 'Critical differences between Title 41 initial notices (age 12+) and Title 12 FED summonses (age 15+).', date: '2025-05-15' },
       { slug: 'how-to-serve-small-claims-oklahoma', title: 'How to Serve Small Claims Papers in Oklahoma', description: 'The $10,000 limit, service methods, timelines, return of service requirements, and tips for self-represented parties.', date: '2026-04-02' },
       { slug: 'how-to-file-protective-order-oklahoma', title: 'How to File a Protective Order in Oklahoma', description: 'Step-by-step guide covering emergency VPOs, permanent orders, court procedures, and service requirements.', date: '2026-04-08' },
+      { slug: 'tulsa-court-filing-guide', title: 'Tulsa County Court Filing Guide \u2014 eFiling, Costs & Timelines', description: 'OCIS eFiling walkthrough, document prep, court fees, common filing mistakes, and combining filing with service of process.', date: '2026-04-19' },
+      { slug: 'how-to-hire-a-process-server-oklahoma', title: 'How to Hire a Process Server in Oklahoma \u2014 2026 Checklist', description: 'License/bond verification, pricing transparency, GPS proof, court-ready affidavits, red flags, and what to ask before hiring.', date: '2026-04-19' },
       { slug: 'serve-out-of-state-defendant-oklahoma', title: 'How to Serve an Out-of-State Defendant in Oklahoma', description: 'Long-arm statute, interstate service methods, Hague Convention for international service, and practical solutions.', date: '2026-04-08' },
       { slug: 'serve-business-corporation-oklahoma', title: 'How to Serve a Business or Corporation in Oklahoma', description: 'Registered agents, Secretary of State service, CT Corporation, and handling evasive businesses.', date: '2026-04-08' },
       { slug: 'become-process-server-oklahoma', title: 'How to Become a Process Server in Oklahoma (2026)', description: 'License requirements, CLEET certification, surety bonds, costs, training, and what the job is really like.', date: '2026-04-08' },
@@ -71,6 +73,21 @@ const categories = [
       { slug: 'real-estate-agents-process-serving-oklahoma', title: 'What Real Estate Agents Should Know About Process Serving', description: 'Contract disputes, escrow issues, HOA enforcement, quiet title actions, and litigation service.', date: '2026-04-08' },
       { slug: 'process-serving-small-business-owners-oklahoma', title: 'Process Serving for Small Business Owners', description: "When to sue, when you get sued, breach of contract, mechanic's lien actions, and protecting your business.", date: '2026-04-08' },
       { slug: 'banks-lenders-process-serving-oklahoma', title: 'How Banks & Lenders Use Process Servers', description: 'Foreclosure service requirements, deficiency judgments, replevin, and commercial vs. residential processes.', date: '2026-04-08' },
+      { slug: 'skip-tracing-oklahoma-guide', title: 'Skip Tracing in Oklahoma \u2014 Find Hard-to-Locate Defendants', description: 'Legal limits (FCRA / GLBA / DPPA), sources used, success rates, integration with process serving, pricing starts at $50.', date: '2026-04-19' },
+    ],
+  },
+  {
+    name: 'Notary & Specialty Services',
+    icon: 'FileSignature',
+    color: 'teal',
+    description: 'Mobile notary, loan signing, and specialty notarial services in Oklahoma',
+    posts: [
+      { slug: 'mobile-notary-tulsa-guide', title: 'Mobile Notary in Tulsa \u2014 When, Why, and How Much', description: 'When mobile notary makes sense (hospital, jail, business, after-hours), Tulsa metro coverage, and pricing starting at $25 per act plus travel.', date: '2026-04-19' },
+      { slug: 'loan-signing-agent-oklahoma', title: 'Loan Signing Agents in Oklahoma \u2014 What You Need to Know', description: 'NNA certification, mortgage closing process, common LSA documents, package pricing, and how it differs from a regular notary.', date: '2026-04-19' },
+      { slug: 'oklahoma-notary-fees-guide', title: 'Oklahoma Notary Fees & Rules 2026 \u2014 Complete Guide', description: 'The $5 maximum per act under 49 O.S. \u00A7 5, RON pricing, mobile travel fees, after-hours surcharges, and how total cost is calculated.', date: '2026-04-07' },
+      { slug: 'ron-vs-mobile-notary-oklahoma', title: 'RON vs. Mobile Notary in Oklahoma', description: 'Remote Online Notarization vs. mobile notary \u2014 when to use each, identity verification, recording requirements, and pricing.', date: '2026-04-08' },
+      { slug: 'estate-planning-notarization-oklahoma', title: 'Estate Planning Notarization in Oklahoma', description: 'Wills, trusts, healthcare directives, and powers of attorney \u2014 what needs notarization and witnessing requirements.', date: '2026-04-08' },
+      { slug: 'power-of-attorney-guide-oklahoma', title: 'Oklahoma Power of Attorney Guide', description: 'Durable, medical, financial POAs in Oklahoma, statutory forms, witness/notary requirements, and revocation procedures.', date: '2026-04-08' },
     ],
   },
   {
@@ -105,6 +122,15 @@ const categories = [
       { slug: 'certified-mail-vs-personal-service-oklahoma', title: 'Certified Mail vs. Personal Service in Oklahoma', description: 'Which case types allow certified mail, when personal service is required, and strategic considerations.', date: '2026-04-08' },
     ],
   },
+  {
+    name: 'Pricing & Cost Guides',
+    icon: 'DollarSign',
+    color: 'green',
+    description: 'Transparent pricing, cost breakdowns, and hidden-fee guidance',
+    posts: [
+      { slug: 'process-serving-cost-guide-oklahoma', title: 'How Much Does a Process Server Cost in Oklahoma? 2026 Pricing Guide', description: 'Full cost breakdown by tier (starts at $30 single-attempt, $60 standard, $100 rush, $150 same-day, $200 triple-attempt, $265 after-hours), comparison with sheriff fees, and hidden costs to avoid.', date: '2026-04-19' },
+    ],
+  },
 ];
 
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
@@ -114,6 +140,8 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   HelpCircle,
   Calendar,
   GitCompare,
+  FileSignature,
+  DollarSign,
 };
 
 const colorMap: Record<string, { badge: string; iconBg: string; border: string; hover: string }> = {
@@ -123,6 +151,21 @@ const colorMap: Record<string, { badge: string; iconBg: string; border: string; 
   amber:   { badge: 'bg-amber-100 text-amber-700', iconBg: 'bg-amber-100', border: 'border-amber-200', hover: 'hover:border-amber-400 hover:shadow-[0_0_20px_rgba(245,158,11,0.15)]' },
   rose:    { badge: 'bg-rose-100 text-rose-700', iconBg: 'bg-rose-100', border: 'border-rose-200', hover: 'hover:border-rose-400 hover:shadow-[0_0_20px_rgba(244,63,94,0.15)]' },
   violet:  { badge: 'bg-violet-100 text-violet-700', iconBg: 'bg-violet-100', border: 'border-violet-200', hover: 'hover:border-violet-400 hover:shadow-[0_0_20px_rgba(139,92,246,0.15)]' },
+  teal:    { badge: 'bg-teal-100 text-teal-700', iconBg: 'bg-teal-100', border: 'border-teal-200', hover: 'hover:border-teal-400 hover:shadow-[0_0_20px_rgba(20,184,166,0.15)]' },
+  green:   { badge: 'bg-green-100 text-green-700', iconBg: 'bg-green-100', border: 'border-green-200', hover: 'hover:border-green-400 hover:shadow-[0_0_20px_rgba(34,197,94,0.15)]' },
+};
+
+// Map of category display name -> URL slug used by /blog/category/[slug]. Keep
+// in sync with lib/blog-categories.ts BLOG_CATEGORIES[*].slug.
+const categoryNameToSlug: Record<string, string> = {
+  'How-To Guides': 'how-to-guides',
+  'Oklahoma Legal Procedures': 'oklahoma-legal-procedures',
+  'Industry Guides': 'industry-guides',
+  'Notary & Specialty Services': 'notary-and-specialty-services',
+  'Practical Guides': 'practical-guides',
+  'Seasonal & Timely': 'seasonal-and-timely',
+  'Comparison Guides': 'comparison-guides',
+  'Pricing & Cost Guides': 'pricing-and-cost-guides',
 };
 
 export default function BlogIndex() {
@@ -189,16 +232,35 @@ export default function BlogIndex() {
           {categories.map((category, catIndex) => {
             const IconComponent = iconMap[category.icon];
             const colors = colorMap[category.color] || colorMap.blue;
+            const categorySlug = categoryNameToSlug[category.name];
             return (
               <section key={catIndex} className="mb-20">
-                <div className="flex items-center gap-4 mb-3">
-                  <div className={`p-3 rounded-xl ${colors.iconBg}`}>
-                    {IconComponent && <IconComponent className="w-6 h-6 text-gray-800" />}
+                <div className="flex items-center justify-between gap-4 mb-3 flex-wrap">
+                  <div className="flex items-center gap-4">
+                    <div className={`p-3 rounded-xl ${colors.iconBg}`}>
+                      {IconComponent && <IconComponent className="w-6 h-6 text-gray-800" />}
+                    </div>
+                    <div>
+                      <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
+                        {categorySlug ? (
+                          <Link href={`/blog/category/${categorySlug}`} className="hover:text-blue-700">
+                            {category.name}
+                          </Link>
+                        ) : (
+                          category.name
+                        )}
+                      </h2>
+                      <p className="text-gray-500 mt-0.5">{category.description}</p>
+                    </div>
                   </div>
-                  <div>
-                    <h2 className="text-2xl md:text-3xl font-bold text-gray-900">{category.name}</h2>
-                    <p className="text-gray-500 mt-0.5">{category.description}</p>
-                  </div>
+                  {categorySlug && (
+                    <Link
+                      href={`/blog/category/${categorySlug}`}
+                      className="inline-flex items-center gap-1 text-sm font-semibold text-blue-700 hover:underline"
+                    >
+                      View all {category.posts.length} <ArrowRight className="w-4 h-4" />
+                    </Link>
+                  )}
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-6">
                   {category.posts.map((post, postIndex) => (
