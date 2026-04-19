@@ -1,6 +1,9 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import UnifiedSchema from '@/components/UnifiedSchema';
+import dynamic from 'next/dynamic';
+
+const ReviewWidget = dynamic(() => import('@/components/ui/review-widget'));
 
 export const metadata: Metadata = {
     title: 'Process Serving Services Oklahoma | Licensed Servers from $30',
@@ -270,6 +273,9 @@ export default function ProcessServingPage() {
                             </div>
                         </div>
                     </section>
+
+                    {/* Reviews Section */}
+                    <ReviewWidget />
 
                     {/* FAQ Section */}
                     <section className="mb-12">

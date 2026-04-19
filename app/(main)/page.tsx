@@ -190,7 +190,7 @@ export default function Home() {
           <h2 className="sr-only">Our Services</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-10">
             {/* Service 1 */}
-            <div className="text-center flex flex-col group">
+            <a href="/process-serving" className="text-center flex flex-col group cursor-pointer">
               <div className="mb-4 relative h-48 sm:h-56 w-full rounded-lg overflow-hidden shadow-[0_0_20px_rgba(255,255,255,0.4)] group-hover:shadow-[0_0_30px_rgba(59,130,246,0.6)] transition-all duration-300 group-hover:-translate-y-2">
                 <ResponsiveImage
                   src="/images/secure-delivery.webp"
@@ -199,11 +199,11 @@ export default function Home() {
                   className="object-cover object-position-upper-center"
                 />
               </div>
-              <h3 className="text-lg md:text-xl font-bold mb-2">Secure Document Delivery</h3>
+              <h3 className="text-lg md:text-xl font-bold mb-2 group-hover:text-blue-400 transition-colors">Process Serving Services</h3>
               <p className="text-gray-300 text-sm md:text-base">
-                Our secure document delivery ensures your documents arrive safely and on time, handled with professional confidentiality.
+                Our core service. Click here to view our methods, pricing, and coverage map for professional process serving.
               </p>
-            </div>
+            </a>
             {/* Service 2 */}
             <div className="text-center flex flex-col group">
               <div className="mb-4 relative h-48 sm:h-56 w-full rounded-lg overflow-hidden shadow-[0_0_20px_rgba(255,255,255,0.4)] group-hover:shadow-[0_0_30px_rgba(59,130,246,0.6)] transition-all duration-300 group-hover:-translate-y-2">
@@ -449,6 +449,11 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-center mb-4 text-gray-900">Explore Our Resources</h2>
           <p className="text-center text-gray-600 mb-12 max-w-3xl mx-auto">Learn more about process serving in Oklahoma with our comprehensive guides and educational resources</p>
           <div className="grid md:grid-cols-4 gap-6">
+            <a href="/process-serving" className="bg-blue-50 border-2 border-blue-600 p-6 rounded-lg shadow-md hover:shadow-lg transition text-center block">
+              <div className="text-3xl mb-3">📄</div>
+              <h3 className="font-bold text-blue-900 mb-2">Process Serving Info</h3>
+              <p className="text-blue-800 text-sm">Full methods, pricing and service options</p>
+            </a>
             <a href="/oklahoma-process-server-faq" className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition text-center block">
               <div className="text-3xl mb-3">❓</div>
               <h3 className="font-bold text-gray-900 mb-2">FAQ</h3>
