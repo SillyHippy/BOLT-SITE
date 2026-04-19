@@ -23,8 +23,8 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const countyName = slugToCountyName(slug);
-  const title = `${countyName} Process Server OK | $60+`;
-  const description = `Licensed process server in ${countyName}, OK. Standard from $60, rush & same-day available. GPS-tracked, court-ready affidavits. (539) 367-6832`;
+  const title = `${countyName} Process Server OK | Starts at $30`;
+  const description = `Licensed process server in ${countyName}, OK. Service starts at $30 single-attempt, $60 standard; rush & same-day available. GPS-tracked, court-ready affidavits. (539) 367-6832`;
 
   return {
     title,

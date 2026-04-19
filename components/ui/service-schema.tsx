@@ -12,7 +12,7 @@ export default function ServiceSchema({
   serviceName,
   serviceDescription,
   serviceArea,
-  priceRange = "$30-$200",
+  priceRange = "$30-$265",
   serviceType = "Process Serving"
 }: ServiceSchemaProps) {
   const serviceSchema = {
@@ -53,43 +53,63 @@ export default function ServiceSchema({
       "name": "Process Serving Services",
       "itemListElement": [
         {
-          "@type": "Offer",         "url": "https://justlegalsolutions.org/services",
+          "@type": "Offer", "url": "https://justlegalsolutions.org/services",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Single-Attempt Posting",
+            "description": "Single-attempt posting/service for straightforward addresses. Includes notarized affidavit of attempt."
+          },
+          "price": "30",
+          "priceCurrency": "USD"
+        },
+        {
+          "@type": "Offer", "url": "https://justlegalsolutions.org/services",
           "itemOffered": {
             "@type": "Service",
             "name": "Standard Process Serving",
-            "description": "Professional legal document delivery within 5-7 business days. Starting at $30 with bulk pricing and discounts available."
+            "description": "Professional legal document delivery within 5-7 business days, up to 3 attempts. Includes notarized affidavit of service."
           },
-          "priceRange": "$30-$60",
+          "price": "60",
           "priceCurrency": "USD"
         },
         {
-          "@type": "Offer",         "url": "https://justlegalsolutions.org/services", 
+          "@type": "Offer", "url": "https://justlegalsolutions.org/services",
           "itemOffered": {
             "@type": "Service",
             "name": "Rush Process Serving",
-            "description": "Expedited legal document delivery within 24-48 hours. Discounts available for multiple orders."
+            "description": "Expedited legal document delivery within 1-3 business days."
           },
-          "priceRange": "$60-$100",
+          "price": "100",
           "priceCurrency": "USD"
         },
         {
-          "@type": "Offer",         "url": "https://justlegalsolutions.org/services",
+          "@type": "Offer", "url": "https://justlegalsolutions.org/services",
           "itemOffered": {
-            "@type": "Service", 
+            "@type": "Service",
             "name": "Same-Day Process Serving",
-            "description": "Emergency legal document delivery within same business day. Volume discounts available."
+            "description": "Same-business-day legal document delivery within 4-8 hours."
           },
-          "priceRange": "$80-$150",
+          "price": "150",
           "priceCurrency": "USD"
         },
         {
-          "@type": "Offer",         "url": "https://justlegalsolutions.org/services",
+          "@type": "Offer", "url": "https://justlegalsolutions.org/services",
           "itemOffered": {
-            "@type": "Service", 
-            "name": "Complex/Difficult Serves",
-            "description": "Specialized process serving for challenging cases or hard-to-locate individuals. Negotiable pricing based on complexity."
+            "@type": "Service",
+            "name": "Triple-Attempt Service",
+            "description": "Up to three documented attempts at multiple addresses or time windows."
           },
-          "priceRange": "$100-$200",
+          "price": "200",
+          "priceCurrency": "USD"
+        },
+        {
+          "@type": "Offer", "url": "https://justlegalsolutions.org/services",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "After-Hours Rush",
+            "description": "Critical legal document delivery outside business hours with 2-hour response."
+          },
+          "price": "265",
           "priceCurrency": "USD"
         }
       ]

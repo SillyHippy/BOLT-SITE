@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     canonical: 'https://justlegalsolutions.org/blog/bankruptcy-process-serving-oklahoma',
   },
   title: 'Bankruptcy Process Serving Oklahoma — FRBP 7004 Guide',
-  description: 'Expert guide to serving bankruptcy papers in Oklahoma. Learn FRBP 7004, Chapter 7/11/13 rules, and deadlines. Service from $60. Call (539) 367-6832.',
+  description: 'Expert guide to serving bankruptcy papers in Oklahoma. Learn FRBP 7004, Chapter 7/11/13 rules, and deadlines. Service starts at $30. Call (539) 367-6832.',
   keywords: 'bankruptcy process serving Oklahoma, how to serve bankruptcy papers Oklahoma, bankruptcy process server, chapter 7 service requirements, FRBP 7004, adversary proceeding service, 341 meeting notice',
   openGraph: {
     title: 'Bankruptcy Process Serving in Oklahoma: Complete Guide',
@@ -664,7 +664,7 @@ export default function BankruptcyProcessServingGuide() {
           <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Guides &amp; Resources</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <Link href="/tulsa-process-server" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
-              <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Tulsa Process Server — Same-Day from $60</span>
+              <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Tulsa Process Server — Same-Day, starts at $30</span>
               <p className="text-sm text-gray-600 mt-1">Licensed Tulsa process server for all document types. GPS-tracked, court-ready affidavits.</p>
             </Link>
             <Link href="/process-serving" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">

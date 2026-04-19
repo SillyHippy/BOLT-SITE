@@ -342,6 +342,17 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     }
   };
 
+  if (pageType === 'home') {
+    organizationSchema.founder = {
+      '@type': 'Person',
+      '@id': 'https://justlegalsolutions.org/#joseph-iannazzi',
+      name: 'Joseph Iannazzi',
+      jobTitle: 'Founder & Chief Executive Officer',
+      url: author?.url || 'https://www.linkedin.com/in/joseph-iannazzi',
+      sameAs: ['https://www.linkedin.com/in/joseph-iannazzi'],
+    };
+  }
+
   // Website schema
   const websiteSchema = {
     '@type': 'WebSite',

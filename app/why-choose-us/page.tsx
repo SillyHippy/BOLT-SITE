@@ -24,7 +24,7 @@ export const metadata = {
   other: {
     'ai-content-type': 'comparison',
     'ai-summary': 'Why choose Just Legal Solutions as your Oklahoma process server? Licensed, bonded, and insured with 50+ years combined experience. Faster than sheriff service with GPS tracking, same-day availability, and 24/7 emergency service across all 77 Oklahoma counties. Technology-driven with real-time updates. Transparent pricing starting at $30 per serve.',
-    'ai-key-facts': 'Licensed bonded insured Oklahoma process server, 50+ years combined experience, faster than sheriff service, GPS tracking, 24/7 emergency available, serves all 77 counties, pricing from $30, (539) 367-6832',
+    'ai-key-facts': 'Licensed bonded insured Oklahoma process server, 50+ years combined experience, faster than sheriff service, GPS tracking, 24/7 emergency available, serves all 77 counties, service starts at $30 (single-attempt) and $60 (standard), full pricing https://justlegalsolutions.org/pricing, (539) 367-6832',
   },
 };
 

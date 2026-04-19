@@ -22,7 +22,7 @@ export default function ClickOptimization({
     "url": url,
     "image": image,
     "telephone": "+15393676832",
-    "priceRange": "$30-$200",
+    "priceRange": "$30-$265",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "564 E 138th PL",
@@ -65,25 +65,42 @@ export default function ClickOptimization({
           },
           "itemOffered": {
             "@type": "Service",
-            "name": "Standard Process Serving",
-            "description": "Professional document delivery within 3-5 business days. Starting at $30."
+            "name": "Single-Attempt Posting",
+            "description": "Single-attempt posting/service for straightforward addresses with notarized affidavit of attempt."
           }
         },
         {
           "@type": "Offer",
           "url": "https://justlegalsolutions.org/services",
-          "price": "75.00",
+          "price": "60.00",
           "priceCurrency": "USD",
           "priceSpecification": {
             "@type": "PriceSpecification",
-            "price": "75.00",
+            "price": "60.00",
+            "priceCurrency": "USD",
+            "valueAddedTaxIncluded": false
+          },
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Standard Process Serving",
+            "description": "Professional document delivery within 5-7 business days, up to 3 attempts. Includes notarized affidavit of service."
+          }
+        },
+        {
+          "@type": "Offer",
+          "url": "https://justlegalsolutions.org/services",
+          "price": "100.00",
+          "priceCurrency": "USD",
+          "priceSpecification": {
+            "@type": "PriceSpecification",
+            "price": "100.00",
             "priceCurrency": "USD",
             "valueAddedTaxIncluded": false
           },
           "itemOffered": {
             "@type": "Service",
             "name": "Rush Process Serving",
-            "description": "Expedited document delivery within 1-2 business days. Starting at $75."
+            "description": "Expedited document delivery within 1-3 business days."
           }
         },
         {
@@ -100,7 +117,24 @@ export default function ClickOptimization({
           "itemOffered": {
             "@type": "Service",
             "name": "Same-Day Process Serving",
-            "description": "Urgent document delivery within 24 hours. Starting at $150."
+            "description": "Same-business-day legal document delivery within 4-8 hours."
+          }
+        },
+        {
+          "@type": "Offer",
+          "url": "https://justlegalsolutions.org/services",
+          "price": "265.00",
+          "priceCurrency": "USD",
+          "priceSpecification": {
+            "@type": "PriceSpecification",
+            "price": "265.00",
+            "priceCurrency": "USD",
+            "valueAddedTaxIncluded": false
+          },
+          "itemOffered": {
+            "@type": "Service",
+            "name": "After-Hours Rush",
+            "description": "Critical legal document delivery outside business hours with 2-hour response."
           }
         }
       ]

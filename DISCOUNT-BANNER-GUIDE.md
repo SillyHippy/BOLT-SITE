@@ -1,6 +1,6 @@
 # Discount Banner Management Guide
 
-## Quick Reference: How to Disable the 30% Off Promotion
+## Quick Reference: How to Disable the ZIP Promo Banner (25% off standard)
 
 ### Option 1: Turn Off Banner (RECOMMENDED - 2 minutes)
 
@@ -169,20 +169,15 @@ import Script from 'next/script';
 
 ---
 
-### 4. Revert Meta Descriptions (Remove "30% OFF")
+### 4. Revert Meta Descriptions (Remove promo discount language)
 
 Update these 6 files to remove the discount language:
 
-#### **Homepage**: `app/(main)/page.tsx` (line 24)
-**Change from:**
-```tsx
-description: '30% OFF LIMITED TIME! Expert process serving for Tulsa, Broken Arrow, Sapulpa, Glenpool & Oklahoma. 50+ years combined experience. Process serving starts at $30, with standard, rush and same-day options available',
-```
+#### **Homepage**: `app/(main)/page.tsx` (`metadata.description` uses `getPromoDescription`)
 
-**Change to:**
-```tsx
-description: 'Expert process serving for Tulsa, Broken Arrow, Sapulpa, Glenpool & Oklahoma. 50+ years combined experience. Process serving starts at $30, with standard, rush and same-day options available',
-```
+**Promo active:** first argument = base (no discount), second = promo string — keep **percent and prices aligned** with `components/ui/local-promo-banner.tsx` and Open Graph `description`.
+
+**After promo ends:** switch `getPromoDescription` in [`lib/promo-utils.ts`](lib/promo-utils.ts) to return the base string, or set both arguments to the same non-promo copy (standard from **$60**).
 
 ---
 
@@ -261,7 +256,7 @@ description: 'Glenpool's legal document service—serving families, businesses, 
 
 ### ⚠️ **Only Remove This If You Want**
 
-4. **Meta Descriptions** - The "30% OFF" in search results attracts clicks, but if the promotion ends and you forget to update them, it could mislead customers. **RECOMMENDATION:** Remove these when the promotion ends on January 30th.
+4. **Meta Descriptions** - Promo wording in search results must match the on-site banner (currently 25% OFF for select ZIPs). If the offer changes, update `getPromoDescription` call sites and Open Graph text together. **RECOMMENDATION:** Remove or swap promo strings when the promotion ends (see `lib/promo-utils.ts`).
 
 ---
 

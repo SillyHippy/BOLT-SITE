@@ -236,12 +236,12 @@ export async function generateMetadata({
   const locationName = slugToLocationName(slug);
   const rawTitle = extractTitle(content);
   // CTR-optimized title — pricing in metadata, not in FAQs
-  const fullTitle = `Process Server ${locationName}, OK | From $60 | Same-Day Available`;
+  const fullTitle = `Process Server ${locationName}, OK | Starts at $30 | Same-Day Available`;
   const title = fullTitle.length > 60
-    ? `${locationName} Process Server OK | $60+`
+    ? `${locationName} Process Server OK | Starts at $30`
     : fullTitle;
   const description =
-    `Licensed process server in ${locationName}, OK. Standard service from $60, rush & same-day available. GPS-tracked, court-ready affidavits. Call (539) 367-6832.`;
+    `Licensed process server in ${locationName}, OK. Service starts at $30 single-attempt and $60 standard; rush & same-day options available. GPS-tracked, court-ready affidavits. Call (539) 367-6832.`;
 
   return {
     title,
@@ -426,7 +426,7 @@ export default async function LocationPage({
                   <Shield className="w-7 h-7 text-blue-600" />
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Licensed &amp; Bonded</h3>
-                <p className="text-gray-600">Licensed licensed through the state of Oklahoma. Full compliance with Title 12 O.S. rules of civil procedure.</p>
+                <p className="text-gray-600">Licensed and bonded through the State of Oklahoma. Full compliance with Title 12 O.S. § 158.1 and § 2004 rules of civil procedure.</p>
               </div>
               <div className="text-center p-8 bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
                 <div className="w-14 h-14 bg-green-100 rounded-xl flex items-center justify-center mx-auto mb-4">
@@ -799,8 +799,8 @@ export default async function LocationPage({
                   <Link href="/process-serving" className="inline-flex items-center gap-1 bg-white text-blue-700 px-4 py-2 rounded-lg text-sm font-medium border border-blue-200 hover:bg-blue-100 transition">
                     <Shield className="w-3 h-3" /> Process Serving
                   </Link>
-                  <Link href="/process-serving" className="inline-flex items-center gap-1 bg-white text-blue-700 px-4 py-2 rounded-lg text-sm font-medium border border-blue-200 hover:bg-blue-100 transition">
-                    <Shield className="w-3 h-3" /> Process Serving
+                  <Link href="/oklahoma-process-server-faq" className="inline-flex items-center gap-1 bg-white text-blue-700 px-4 py-2 rounded-lg text-sm font-medium border border-blue-200 hover:bg-blue-100 transition">
+                    <HelpCircle className="w-3 h-3" /> Process Server FAQ
                   </Link>
                   <Link href="/how-long-does-process-serving-take" className="inline-flex items-center gap-1 bg-white text-blue-700 px-4 py-2 rounded-lg text-sm font-medium border border-blue-200 hover:bg-blue-100 transition">
                     <Clock className="w-3 h-3" /> How Long Does It Take?

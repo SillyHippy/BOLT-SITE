@@ -7,8 +7,8 @@ import { LiteYouTubeEmbed } from '@/components/lite-youtube-embed';
 const ReviewWidget = dynamic(() => import('@/components/ui/review-widget'));
 
 export const metadata: Metadata = {
-    title: 'Process Serving Services Oklahoma | Licensed Servers from $30',
-    description: 'Oklahoma process serving from $30. Personal, substitute, and publication service. Licensed under 12 O.S. § 158.1. Same-day and emergency options. GPS-verified proof. All 77 counties.',
+    title: 'Process Serving Oklahoma | Licensed Servers, Starts at $30',
+    description: 'Oklahoma process serving: starts at $30 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours. Personal, substitute, and publication service. Licensed under 12 O.S. § 158.1. All 77 counties. See full pricing online.',
     keywords: ['process serving oklahoma', 'process server services', 'serve legal papers oklahoma', 'personal service of process', 'substitute service oklahoma', 'service by publication', 'licensed process server', 'professional process serving', 'process server vs sheriff oklahoma', 'evasive defendant service', 'skip tracing oklahoma', 'GPS process serving'],
     authors: [{ name: 'Just Legal Solutions' }],
     creator: 'Just Legal Solutions',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Process Serving Services Oklahoma | From $30',
+        title: 'Process Serving Oklahoma | Starts at $30 Single-Attempt',
         description: 'Licensed Oklahoma process servers. Personal service, substitute service, service by publication. 24/7 availability across all 77 counties.',
         images: ['https://justlegalsolutions.org/og-image.webp'],
     },
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     other: {
         'ai-content-type': 'service-page',
         'ai-summary': 'Just Legal Solutions provides professional process serving across all 77 Oklahoma counties. Services include personal service, substitute service, and service by publication per Oklahoma 12 O.S. § 2004. Pricing starts at $30 for a single attempt, $60 for standard service, $100 for rush, $150 for same-day rush, and $265 for 2-hour emergency. All servers are licensed under 12 O.S. § 158.1 with $5,000 surety bonds.',
-        'ai-key-facts': 'Single attempts from $30, Standard service $60, licensed under 12 O.S. § 158.1, all 77 Oklahoma counties, personal and substitute service, GPS-verified, 24/7 availability, (539) 367-6832.',
+        'ai-key-facts': 'Service starts at $30 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours rush. Licensed under 12 O.S. § 158.1, all 77 Oklahoma counties, personal and substitute service, GPS-verified, 24/7 availability, full pricing https://justlegalsolutions.org/pricing, (539) 367-6832.',
     },
 };
 
@@ -714,7 +714,7 @@ export default function ProcessServingPage() {
                                 &#x1F4DD; Get Free Quote
                             </a>
                         </div>
-                        <p className="text-sm text-gray-600">Available 24/7 &bull; All 77 Oklahoma counties &bull; GPS-verified &bull; From $30 for a single attempt</p>
+                        <p className="text-sm text-gray-600">Available 24/7 &bull; All 77 Oklahoma counties &bull; GPS-verified &bull; Starts at $30 for a single attempt</p>
                     </section>
 
                     {/* Compliance */}
@@ -729,7 +729,7 @@ export default function ProcessServingPage() {
 
             <UnifiedSchema
                 pageType="service"
-                title="Process Serving Services Oklahoma | Licensed Servers from $30"
+                title="Process Serving Services Oklahoma | Licensed Servers, Starts at $30"
                 description="Professional process serving throughout Oklahoma. Personal service, substitute service, and service by publication. Starts at $30 for single attempt, $60 for standard service. Licensed, bonded, 24/7."
                 url="https://justlegalsolutions.org/process-serving"
                 image="https://justlegalsolutions.org/og-image.webp"

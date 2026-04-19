@@ -1,9 +1,9 @@
 # South Tulsa Process Serving Promotion
 
 ## Promotion Details
-- **Discount**: 30% off standard process serving
+- **Discount**: 25% off standard process serving (select ZIPs)
 - **Regular Price**: $60
-- **Promotional Price**: $42
+- **Promotional Price**: $45 (25% off $60)
 - **Eligible ZIP Codes**: 74008 (Bixby), 74033 (Glenpool), 74037 (Jenks)
 - **Duration**: October 6 - October 20, 2025 (2 weeks)
 
@@ -48,7 +48,7 @@ To see the promotion:
    - http://localhost:3000/service-areas/jenks
 
 The blue banner should appear at the top of each page with:
-- "Limited Time: 30% Off Process Serving"
+- "Limited Time: 25% Off Process Serving" (see live banner copy)
 - ZIP codes listed
 - Price information ($42 instead of $60)
 - End date (October 20, 2025)

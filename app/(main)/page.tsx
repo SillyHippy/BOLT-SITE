@@ -4,6 +4,7 @@ import RankingSupremacy2026 from '@/components/ui/2026-ranking-supremacy';
 import MobileVoiceOptimization from '@/components/ui/mobile-voice-optimization';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 import { getPromoDescription } from '@/lib/promo-utils';
+import { STARTING_PRICES, PRICE_RANGE_DISPLAY } from '@/lib/pricing';
 
 import React from 'react';
 import Image from 'next/image';
@@ -25,14 +26,14 @@ export const metadata: Metadata = {
     absolute: 'Just Legal Solutions | Oklahoma Process Server Since 2020'
   },
   description: getPromoDescription(
-    'Oklahoma process server from $30. Same-day service in Tulsa & all 77 counties. Licensed, bonded, GPS-tracked. 50+ years experience. Call now.',
-    '30% OFF select ZIPs! Oklahoma process server from $30. Same-day Tulsa service across all 77 counties. Licensed, bonded & GPS-tracked.'
+    'Oklahoma process server &mdash; service starts at $30 (single-attempt) and $60 standard. Same-day available in Tulsa & all 77 counties. Licensed, bonded, GPS-tracked. 50+ years experience.',
+    '25% OFF select ZIPs! Oklahoma process server &mdash; starts at $30 single-attempt, $60 standard. Same-day Tulsa service across all 77 counties. Licensed, bonded & GPS-tracked.'
   ),
   keywords: 'Oklahoma process server, process serving Oklahoma, legal document delivery, court papers served, divorce papers service, summons delivery, skip tracing Oklahoma, same day process serving, Broken Arrow process server, Sapulpa legal services, professional process serving, certified process server, legal courier Oklahoma, court document transfer',
   other: {
     'ai-content-type': 'homepage',
-    'ai-summary': 'Just Legal Solutions is a licensed, bonded Oklahoma process server based in Glenpool serving Tulsa County and all 77 Oklahoma counties. Services include standard process serving ($60), rush ($100), same-day ($150), legal document delivery, skip tracing ($35), court filing ($25), and courier services. 50+ years combined experience. Same-day and 24/7 emergency service available.',
-    'ai-key-facts': 'Just Legal Solutions, licensed bonded Oklahoma process server, Glenpool OK, serves all 77 counties, standard $60, rush $100, same-day $150, skip tracing $35, same-day service, 24/7 emergency, 50+ years experience, (539) 367-6832, info@justlegalsolutions.org',
+    'ai-summary': 'Just Legal Solutions is a licensed, bonded Oklahoma process server based in Glenpool serving Tulsa County and all 77 Oklahoma counties. Service tiers (starting prices): single-attempt posting starts at $30, standard process serving starts at $60, rush starts at $100, same-day starts at $150, after-hours rush starts at $265. Skip tracing starts at $50; court filing starts at $25; notary starts at $20; legal courier starts at $30. 50+ years combined experience. Same-day and 24/7 emergency service available. See full pricing at https://justlegalsolutions.org/pricing.',
+    'ai-key-facts': 'Just Legal Solutions, licensed bonded Oklahoma process server, Glenpool OK, serves all 77 counties, starts at $30 single-attempt, starts at $60 standard, starts at $100 rush, starts at $150 same-day, starts at $265 after-hours rush, same-day service, 24/7 emergency, 50+ years experience, (539) 367-6832, info@justlegalsolutions.org, full pricing https://justlegalsolutions.org/pricing',
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/'
@@ -50,7 +51,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Just Legal Solutions | Oklahoma Process Server Since 2020',
-    description: 'Expert process serving for Tulsa, Broken Arrow, Sapulpa, Glenpool & Oklahoma. 50+ years combined experience. Process serving starts at $30, with standard, rush and same-day options available',
+    description: 'Expert process serving for Tulsa, Broken Arrow, Sapulpa, Glenpool & Oklahoma. 50+ years combined experience. Service starts at $30; standard, rush, same-day & after-hours options. See pricing page for full breakdown.',
     url: 'https://justlegalsolutions.org/',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -66,6 +67,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
+    site: '@JustLegalOK',
+    creator: '@JustLegalOK',
     title: 'Professional Process Server Tulsa County - Just Legal Solutions Oklahoma',
     description: 'Expert process serving for Tulsa, Broken Arrow, Sapulpa, Glenpool & Oklahoma. 50+ years combined experience.',
     images: ['https://justlegalsolutions.org/images/hero.webp'],
@@ -172,7 +175,7 @@ export default function Home() {
           "@context": "https://schema.org",
           "@type": "VideoObject",
           "name": "Best Process Server in Tulsa, Oklahoma | Just Legal Solutions",
-          "description": "Learn why Just Legal Solutions is rated 4.9 stars by attorneys and landlords across Oklahoma. Licensed, GPS-tracked process serving starting at $60.",
+          "description": "Learn why Just Legal Solutions is rated 4.9 stars by attorneys and landlords across Oklahoma. Licensed, GPS-tracked process serving with service starting at $30.",
           "thumbnailUrl": "https://img.youtube.com/vi/NFAhglMUNqc/maxresdefault.jpg",
           "uploadDate": "2026-04-01T08:00:00-05:00",
           "duration": "PT4M30S",
@@ -187,7 +190,7 @@ export default function Home() {
       {/* Services Grid */}
       <section className="bg-black text-white py-16 md:py-24" aria-label="Our services">
         <div className="max-w-7xl mx-auto px-4">
-          <h2 className="sr-only">Our Services</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Our Core Legal Services</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-10">
             {/* Service 1 */}
             <a href="/process-serving" className="text-center flex flex-col group cursor-pointer">
@@ -310,91 +313,129 @@ export default function Home() {
       {/* Customer Reviews Section */}
       <ReviewWidget />
 
-      {/* Service Areas - SEO Content Section - Hidden from users, visible to search engines */}
-      <section className="sr-only" aria-label="Service areas and details">
+      {/* How It Works - 3-step process (visible) */}
+      <section className="bg-white py-16 md:py-20" aria-label="How our process serving works">
         <div className="max-w-7xl mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Comprehensive Process Serving Solutions Throughout Oklahoma</h2>
+          <div className="text-center mb-12">
+            <p className="text-xs font-semibold uppercase tracking-widest text-blue-600 mb-2">Simple Three-Step Process</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">How Process Serving Works in Oklahoma</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Just Legal Solutions provides professional process serving and courier services across Tulsa County and throughout Oklahoma. Our experienced team ensures timely, accurate, and compliant document delivery for law firms, businesses, and individuals. Process serving starts at $60, with standard ($60), rush ($100), and same-day ($150) options available.
+              From first call to court-ready affidavit, we make legal document service in Tulsa County and statewide simple, transparent, and fast.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="relative bg-blue-50 border border-blue-100 rounded-2xl p-8 text-center">
+              <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg shadow-md">1</div>
+              <Phone className="w-10 h-10 text-blue-600 mx-auto mb-4" aria-hidden="true" />
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Call or Submit Online</h3>
+              <p className="text-gray-700">Reach us at <a href="tel:5393676832" className="font-semibold text-blue-700 hover:underline">(539) 367-6832</a> or use our contact form. Tell us the type of document, the recipient, and the deadline. Standard, rush, same-day, and after-hours options are available.</p>
+            </div>
+            <div className="relative bg-yellow-50 border border-yellow-100 rounded-2xl p-8 text-center">
+              <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-yellow-500 text-black w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg shadow-md">2</div>
+              <FileText className="w-10 h-10 text-yellow-600 mx-auto mb-4" aria-hidden="true" />
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Send the Documents</h3>
+              <p className="text-gray-700">Email PDFs or drop off physical copies. We confirm the address, run skip tracing if needed, and dispatch a licensed, bonded process server to the recipient&rsquo;s home, office, or other lawful location.</p>
+            </div>
+            <div className="relative bg-green-50 border border-green-100 rounded-2xl p-8 text-center">
+              <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-green-600 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg shadow-md">3</div>
+              <Shield className="w-10 h-10 text-green-600 mx-auto mb-4" aria-hidden="true" />
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Receive Court-Ready Proof</h3>
+              <p className="text-gray-700">Every attempt is GPS-timestamped. You receive a notarized affidavit of service that meets Oklahoma Title 12 O.S. § 158.1 and § 2004 requirements &mdash; ready to file with the clerk.</p>
+            </div>
+          </div>
+          <div className="text-center mt-10">
+            <a href="/process-serving" className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-xl transition shadow">
+              See Full Process Serving Methods <ArrowRight className="w-4 h-4" />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Comprehensive Solutions Overview (visible) */}
+      <section className="bg-slate-50 py-16 md:py-20" aria-label="Service areas and details">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Comprehensive Process Serving Solutions Throughout Oklahoma</h2>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              Just Legal Solutions provides professional process serving and courier services across Tulsa County and all 77 Oklahoma counties. Our experienced team ensures timely, accurate, and compliant document delivery for law firms, businesses, and individuals. Service tiers <strong>start at $30</strong> for single-attempt postings, with standard, rush, same-day, and after-hours options available. <a href="/pricing" className="text-blue-700 font-semibold hover:underline">See all starting prices &rarr;</a>
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Process Serving Services</h3>
+            <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Process Serving Services</h3>
               <p className="text-gray-600 mb-4">
                 Our certified process servers handle all types of legal document service including summons, subpoenas, divorce papers, eviction notices, and court orders. We provide detailed affidavits of service and maintain strict compliance with Oklahoma state laws.
               </p>
-              <ul className="text-sm text-gray-500 space-y-1">
-                <li>• Divorce document service</li>
-                <li>• Summons and complaints</li>
-                <li>• Subpoena delivery</li>
-                <li>• Eviction notices</li>
-                <li>• Small claims service</li>
+              <ul className="text-sm text-gray-700 space-y-1 list-disc list-inside">
+                <li>Divorce document service</li>
+                <li>Summons and complaints</li>
+                <li>Subpoena delivery</li>
+                <li>Eviction notices</li>
+                <li>Small claims service</li>
               </ul>
             </div>
 
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Courier Solutions</h3>
+            <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Courier Solutions</h3>
               <p className="text-gray-600 mb-4">
                 Professional courier services for urgent document delivery, court filings, and business-to-business transfers. Our secure handling ensures confidential materials reach their destination safely and on time.
               </p>
-              <ul className="text-sm text-gray-500 space-y-1">
-                <li>• Same-day delivery available</li>
-                <li>• Secure chain of custody</li>
-                <li>• Electronic filing assistance</li>
-                <li>• Business document transfer</li>
-                <li>• Time-sensitive deliveries</li>
+              <ul className="text-sm text-gray-700 space-y-1 list-disc list-inside">
+                <li>Same-day delivery available</li>
+                <li>Secure chain of custody</li>
+                <li>Electronic filing assistance</li>
+                <li>Business document transfer</li>
+                <li>Time-sensitive deliveries</li>
               </ul>
             </div>
 
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Coverage Areas</h3>
+            <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Coverage Areas</h3>
               <p className="text-gray-600 mb-4">
-                Serving Tulsa County, Broken Arrow, Sapulpa, and surrounding areas with reliable process serving and courier services. We also provide statewide Oklahoma coverage for urgent legal document delivery needs.
+                Serving Tulsa County, Broken Arrow, Sapulpa, and surrounding areas with reliable process serving and courier services. We also provide statewide Oklahoma coverage across all 77 counties for urgent legal document delivery.
               </p>
-              <ul className="text-sm text-gray-500 space-y-1">
-                <li>• Tulsa County (primary)</li>
-                <li>• Broken Arrow</li>
-                <li>• Sapulpa</li>
-                <li>• Wagoner County</li>
-                <li>• Creek County</li>
-                <li>• Statewide Oklahoma</li>
+              <ul className="text-sm text-gray-700 space-y-1 list-disc list-inside">
+                <li>Tulsa County (primary)</li>
+                <li>Broken Arrow</li>
+                <li>Sapulpa</li>
+                <li>Wagoner County</li>
+                <li>Creek County</li>
+                <li>Statewide Oklahoma</li>
               </ul>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Why Choose Us - Additional Content - Hidden from users, visible to search engines */}
-      <section className="sr-only">
+      {/* Why Choose Us (visible) */}
+      <section className="bg-white py-16 md:py-20" aria-label="Why choose Just Legal Solutions">
         <div className="max-w-7xl mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-16">Why Choose Just Legal Solutions</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">Why Choose Just Legal Solutions</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
             <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Professional Legal Document Delivery You Can Trust</h3>
-              <p className="text-gray-600 mb-6">
-                With years of experience serving the Tulsa County legal community, Just Legal Solutions has built a reputation for reliable, professional process serving and courier services. Our team understands the critical importance of timely document delivery in legal proceedings.
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Professional Legal Document Delivery You Can Trust</h3>
+              <p className="text-gray-600 mb-4">
+                With 50+ years of combined experience serving the Tulsa County legal community, Just Legal Solutions has built a reputation for reliable, professional process serving and courier services. Our team understands the critical importance of timely document delivery in legal proceedings.
               </p>
               <p className="text-gray-600 mb-6">
                 We maintain detailed records, provide comprehensive affidavits of service, and ensure full compliance with Oklahoma state regulations. Whether you need routine document service or urgent same-day delivery, our professional team delivers results.
               </p>
               <div className="space-y-4">
                 <div className="flex items-start">
-                  <div className="bg-blue-100 rounded-full p-2 mr-4">
-                    <svg className="w-5 h-5 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
+                  <div className="bg-blue-100 rounded-full p-2 mr-4 flex-shrink-0">
+                    <svg className="w-5 h-5 text-blue-600" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900">Certified process servers</h4>
+                    <h4 className="font-semibold text-gray-900">Certified Process Servers</h4>
                     <p className="text-gray-600 text-sm">Licensed and bonded professionals ensuring legal compliance</p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <div className="bg-blue-100 rounded-full p-2 mr-4">
-                    <svg className="w-5 h-5 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
+                  <div className="bg-blue-100 rounded-full p-2 mr-4 flex-shrink-0">
+                    <svg className="w-5 h-5 text-blue-600" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
@@ -404,8 +445,8 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <div className="bg-blue-100 rounded-full p-2 mr-4">
-                    <svg className="w-5 h-5 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
+                  <div className="bg-blue-100 rounded-full p-2 mr-4 flex-shrink-0">
+                    <svg className="w-5 h-5 text-blue-600" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
@@ -416,25 +457,31 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="sr-only">
-              <h3 className="text-xl font-bold text-gray-900 mb-6">Service Pricing</h3>
-              <div className="space-y-4">
-                <div className="flex justify-between items-center py-3 border-b border-gray-200">
-                  <span className="font-medium text-gray-900">Standard Service</span>
-                  <span className="text-2xl font-bold text-blue-600">$60</span>
-                </div>
-                <div className="flex justify-between items-center py-3 border-b border-gray-200">
-                  <span className="font-medium text-gray-900">Rush Service</span>
-                  <span className="text-2xl font-bold text-blue-600">$100</span>
-                </div>
-                <div className="flex justify-between items-center py-3">
-                  <span className="font-medium text-gray-900">Same-Day Service</span>
-                  <span className="text-2xl font-bold text-blue-600">$150</span>
-                </div>
+            <div className="bg-gradient-to-br from-blue-50 to-slate-50 rounded-2xl border border-blue-100 p-8 shadow-sm">
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Transparent Starting Prices</h3>
+              <p className="text-sm text-gray-600 mb-6">Each tier below is a <strong>starting price</strong> &mdash; final cost depends on distance, attempts, and complexity. See the full breakdown on our pricing page.</p>
+              <div className="space-y-3">
+                {STARTING_PRICES.map((tier, idx) => (
+                  <div
+                    key={tier.id}
+                    className={`flex justify-between items-center py-3 ${
+                      idx < STARTING_PRICES.length - 1 ? 'border-b border-gray-200' : ''
+                    }`}
+                  >
+                    <span className="font-medium text-gray-900">{tier.label}</span>
+                    <span className="text-xl font-bold text-blue-600">starts at ${tier.startsAt}</span>
+                  </div>
+                ))}
               </div>
               <p className="text-sm text-gray-600 mt-6">
-                All services include detailed affidavit of service and professional handling. Additional fees may apply for multiple attempts or difficult serves.
+                All services include a notarized affidavit of service and GPS-timestamped attempt records.
               </p>
+              <a
+                href="/pricing"
+                className="mt-4 inline-flex items-center justify-center gap-2 w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold px-5 py-3 rounded-lg transition shadow-sm"
+              >
+                View Full Pricing &amp; Add-Ons <ArrowRight className="w-4 h-4" />
+              </a>
             </div>
           </div>
         </div>
@@ -525,13 +572,13 @@ export default function Home() {
         pageType="home"
         url="https://justlegalsolutions.org/"
         title="Professional Process Server Tulsa County - Just Legal Solutions Oklahoma"
-        description="Expert process serving for Tulsa, Broken Arrow, Sapulpa, Glenpool & Oklahoma. 50+ years combined experience. Standard from $60, rush $100, same-day $150. Call (539) 367-6832."
+        description="Expert process serving for Tulsa, Broken Arrow, Sapulpa, Glenpool & Oklahoma. 50+ years combined experience. Service starts at $30 (single-attempt) and $60 standard. Full pricing at https://justlegalsolutions.org/pricing. Call (539) 367-6832."
         image="https://justlegalsolutions.org/images/hero.webp"
-        priceRange="$60-$200"
+        priceRange={PRICE_RANGE_DISPLAY}
         serviceDetails={{
           name: "Process Serving Services",
-          description: "Professional process serving and legal document delivery services throughout Tulsa County and Oklahoma. Expert court document service, skip tracing, and courier solutions with 50+ years combined experience.",
-          price: "$60-$200",
+          description: "Professional process serving and legal document delivery services throughout Tulsa County and Oklahoma. Service starts at $30 for single-attempt postings and $60 for standard service. Expert court document service, skip tracing, and courier solutions with 50+ years combined experience.",
+          price: PRICE_RANGE_DISPLAY,
           areaServed: ["Tulsa", "Broken Arrow", "Sapulpa", "Glenpool", "Oklahoma"]
         }}
         aggregateRating={{
@@ -543,19 +590,19 @@ export default function Home() {
         faqItems={[
           {
             question: "How much does a process server cost in Tulsa County?",
-            answer: "Standard process serving in Tulsa County starts at $60 (up to 3 attempts). Rush service is $100 (within 72 hours) and same-day emergency service is $150. All pricing is flat-rate with no hidden fees."
+            answer: "Just Legal Solutions process serving starts at $30 for a single-attempt posting and $60 for standard service (up to 3 attempts). Rush service starts at $100, same-day starts at $150, and after-hours rush starts at $265. Final pricing depends on distance, attempts, and complexity \u2014 see https://justlegalsolutions.org/pricing for the full breakdown."
           },
           {
             question: "What areas do you serve?",
-            answer: "We provide process serving services throughout Tulsa County, including Tulsa, Broken Arrow, Sapulpa, Glenpool, Wagoner County, Creek County, and all of Oklahoma."
+            answer: "We provide process serving services throughout Tulsa County, including Tulsa, Broken Arrow, Sapulpa, Glenpool, Wagoner County, Creek County, and all 77 Oklahoma counties."
           },
           {
             question: "How fast can you serve documents?",
-            answer: "We offer standard service (3-5 business days), rush service (1-2 business days), and same-day emergency service options to meet your needs."
+            answer: "We offer standard service (5-7 business days), rush service (1-3 business days), same-day service (within 4-8 hours), and after-hours rush (2-hour response)."
           },
           {
             question: "What types of documents do you serve?",
-            answer: "We serve all types of legal documents including summons, subpoenas, divorce papers, eviction notices, small claims, and more."
+            answer: "We serve all types of legal documents including summons, subpoenas, divorce papers, eviction notices, protective orders, small-claims paperwork, and more."
           }
         ]}
       />

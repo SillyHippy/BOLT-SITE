@@ -14,13 +14,13 @@ import {
 const canonicalUrl = 'https://justlegalsolutions.org/notary';
 
 export const metadata: Metadata = {
-  title: 'Notary Near Me in Tulsa, OK | 24/7 Mobile & In-Office | $5/Notarization',
-  description: 'Need a notary now? Walk-in, mobile, or remote online notarization in Tulsa & Oklahoma. Notary from $20. Process serving from $60. Open 24/7. Call (539) 367-6832.',
+  title: 'Mobile Notary Tulsa OK | 24/7 In-Office & RON | Starts at $20',
+  description: 'Need a notary now? Walk-in, mobile, or remote online notarization in Tulsa & Oklahoma. Notary starts at $20; process serving starts at $30. Open 24/7. See full pricing online. Call (539) 367-6832.',
   keywords: 'notary Tulsa, mobile notary Oklahoma, notary public, remote notary, RON, notary near me, Tulsa County notary, 24/7 notary, Oklahoma notary services, mobile notary near me, notary public services Tulsa',
   authors: [{ name: 'Just Legal Solutions Team' }],
   openGraph: {
-    title: 'Notary Near Me in Tulsa, OK | 24/7 Mobile & In-Office | $5/Notarization',
-    description: 'Need a notary now? Walk-in, mobile, or remote online notarization in Tulsa & Oklahoma. Notary from $20. Process serving from $60. Open 24/7. Call (539) 367-6832.',
+    title: 'Mobile Notary Tulsa OK | 24/7 In-Office & RON | Starts at $20',
+    description: 'Need a notary now? Walk-in, mobile, or remote online notarization in Tulsa & Oklahoma. Notary starts at $20; process serving starts at $30. Open 24/7. Call (539) 367-6832.',
     url: canonicalUrl,
     siteName: 'Just Legal Solutions',
     images: [
@@ -36,8 +36,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Notary Near Me in Tulsa, OK | 24/7 Mobile & In-Office | $5/Notarization',
-    description: 'Need a notary now? Walk-in, mobile, or remote online notarization in Tulsa & Oklahoma. Notary from $20. Process serving from $60. Open 24/7. Call (539) 367-6832.',
+    title: 'Mobile Notary Tulsa OK | 24/7 In-Office & RON | Starts at $20',
+    description: 'Need a notary now? Walk-in, mobile, or remote online notarization in Tulsa & Oklahoma. Notary starts at $20; process serving starts at $30. Open 24/7. Call (539) 367-6832.',
     images: ['https://justlegalsolutions.org/images/hero.webp'],
     creator: '@JustLegalSolutions',
     site: '@JustLegalSolutions',
@@ -347,7 +347,7 @@ export default function NotaryPage() {
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">What Does a Notary Public Do?</h2>
             <p className="text-lg text-gray-700 mb-4 bg-blue-50 border-l-4 border-blue-500 p-4 rounded-r-lg">
-              <strong>Mobile notary services in Tulsa, Oklahoma start at $5 per notarization (set by Oklahoma law under 49 O.S. § 5). We offer walk-in, mobile (we travel to you), and remote online notarization (RON). Available 24/7 including weekends and holidays. Call (539) 367-6832.</strong>
+              <strong>Notary services in Tulsa, Oklahoma start at $20 in-office and $25+ for mobile or remote online notarization (RON). Oklahoma law (49 O.S. § 5) caps the per-act notary fee at $5; our service price covers travel, scheduling, technology platform (for RON), and on-call availability. We offer walk-in, mobile (we travel to you), and RON. Available 24/7 including weekends and holidays. Call (539) 367-6832.</strong>
             </p>
             <p className="text-lg text-gray-700 mb-4">
               A notary public is a state-commissioned official authorized under Oklahoma law (49 O.S. § 111 et seq.) to witness signatures, administer oaths, and verify the identity of document signers. Notarization deters fraud by confirming that the person signing a document is who they claim to be and is signing willingly.

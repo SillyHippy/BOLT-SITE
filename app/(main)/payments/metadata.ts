@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Payment Options - Just Legal Solutions | Secure Payment Methods',
-  description: 'Secure and convenient payment options for legal services. Accept cash, check, money orders, and electronic payments. New clients require payment in advance.',
+  title: 'Pay an Invoice | Just Legal Solutions',
+  description: 'Pay Just Legal Solutions by card, cash, check, Venmo, PayPal, or Zelle. New clients: payment in advance. Questions about your balance? Call (539) 367-6832.',
   keywords: ['legal services payment', 'process server payment', 'online payment', 'Oklahoma legal services payment'],
   alternates: {
     canonical: 'https://justlegalsolutions.org/payments'

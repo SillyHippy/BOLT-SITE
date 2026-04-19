@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Contact Just Legal Solutions | Oklahoma Process Server (539) 367-6832',
-  description: 'Get a free quote for process serving in Oklahoma. Standard from $60, rush $100, same-day $150. Call (539) 367-6832 or submit online. Licensed & bonded. All 77 OK counties.',
+  title: '(539) 367-6832 | Contact Just Legal Solutions',
+  description: 'Get a free quote for process serving in Oklahoma. Service starts at $30 single-attempt, $60 standard, $100 rush, $150 same-day. Call (539) 367-6832 or submit online. Licensed & bonded. All 77 OK counties.',
   keywords: [
     'contact process server',
     'oklahoma process server',
@@ -21,8 +21,8 @@ export const metadata = {
     canonical: 'https://justlegalsolutions.org/contact'
   },
   openGraph: {
-    title: 'Contact Just Legal Solutions | Oklahoma Process Server (539) 367-6832',
-    description: 'Get a free quote for process serving in Oklahoma. Standard from $60, rush $100, same-day $150. Call (539) 367-6832. Licensed & bonded. All 77 OK counties.',
+    title: '(539) 367-6832 | Contact Just Legal Solutions',
+    description: 'Get a free quote for process serving in Oklahoma. Service starts at $30 single-attempt, $60 standard, $100 rush, $150 same-day. Call (539) 367-6832. Licensed & bonded. All 77 OK counties.',
     type: 'website',
     locale: 'en_US',
     url: 'https://justlegalsolutions.org/contact',
@@ -38,8 +38,8 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Contact Just Legal Solutions | Oklahoma Process Server (539) 367-6832',
-    description: 'Get a free quote for process serving in Oklahoma. Standard from $60, rush $100, same-day $150. Call (539) 367-6832. Licensed & bonded. All 77 OK counties.',
+    title: '(539) 367-6832 | Contact Just Legal Solutions',
+    description: 'Get a free quote for process serving in Oklahoma. Service starts at $30 single-attempt, $60 standard, $100 rush. Call (539) 367-6832. Licensed & bonded. All 77 OK counties.',
     images: ['https://justlegalsolutions.org/og-image.webp'],
     site: '@JustLegalOK',
   }

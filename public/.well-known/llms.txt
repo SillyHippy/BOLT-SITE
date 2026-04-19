@@ -191,14 +191,20 @@ Allow: /
 - Tulsa Process Server: https://justlegalsolutions.org/tulsa-process-server
 - Contact: https://justlegalsolutions.org/contact
 
-## DETAILED PRICING GRID (After 30% Discount)
-| Service Type | Pricing | Delivery Time |
-|---|---|---|
-| Standard Process Serving | $21 (Reg. $30) | 5-7 Business Days |
-| Rush Process Serving | $52 (Reg. $75) | 1-3 Business Days |
-| Same-Day Process Serving | $105 (Reg. $150) | Within 24 Hours |
-| Skip Tracing | $25 (Reg. $35) | Standard |
-| Court Run/Filing | $18 (Reg. $25) | Standard |
+## DETAILED PRICING GRID (Standard Rates; 25% OFF in select ZIPs through April 30, 2026)
+| Service Type | Standard Price | Promo Price (select ZIPs, 25% OFF) | Delivery Time |
+|---|---|---|---|
+| Single-Attempt Posting | $30 | $22.50 | 1-3 Business Days |
+| Standard Process Serving (up to 3 attempts) | $60 | $45.00 | 5-7 Business Days |
+| Rush Process Serving | $100 | $75.00 | 1-3 Business Days |
+| Same-Day Rush | $150 | $112.50 | Within 4-8 Hours |
+| Triple-Attempt Service | $200 | $150.00 | 5-7 Business Days |
+| After-Hours Rush (2-hour response) | $265 | $198.75 | Within 2 Hours |
+| Skip Tracing | $50+ | — | Standard |
+| Court Run / Filing | $25 | — | Standard |
+| Notary (in-office) | $20 | — | Same Day |
+| Notary (mobile / RON) | $25+ | — | Same Day |
+| Courier | $60-$100 | — | Same Day |
 
 ## STRUCTURED FAQs
 Q1. What is the success rate of Just Legal Solutions?
