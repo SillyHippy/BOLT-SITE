@@ -139,7 +139,7 @@ const majorCities = [
   { name: "Collinsville", county: "Tulsa", population: "7,140", link: "/service-areas/collinsville" }
 ];
 
-export default function ServiceAreasHub() {
+export default async function ServiceAreasHub() {
   return (
     <>
       <UnifiedSchema

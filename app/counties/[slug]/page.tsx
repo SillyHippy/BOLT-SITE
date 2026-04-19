@@ -12,8 +12,9 @@ import {
   slugToCountyName,
 } from '@/lib/markdown-utils';
 
-export function generateStaticParams(): { slug: string }[] {
-  return getCountySlugs().map((slug) => ({ slug }));
+export async function generateStaticParams(): Promise<{ slug: string }[]> {
+  const slugs = await getCountySlugs();
+  return slugs.map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({
@@ -58,7 +59,8 @@ export async function generateMetadata({
 
 export default async function CountyPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const content = getCountyContent(slug);
+  // ⚡ Bolt: Awaiting asynchronous file read to avoid blocking main thread
+  const content = await getCountyContent(slug);
   const countyName = slugToCountyName(slug);
   const title = extractTitle(content) || `${countyName} Process Server`;
   const description =

@@ -5,7 +5,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import MarkdownContent from '@/components/MarkdownContent';
-import { readFileSync } from 'fs';
+import { readFile } from 'fs/promises';
 import { join } from 'path';
 
 export const metadata: Metadata = {
@@ -33,9 +33,10 @@ export const metadata: Metadata = {
   },
 };
 
-export default function MilitaryBaseServiceGuidePage() {
+export default async function MilitaryBaseServiceGuidePage() {
   const contentDir = join(process.cwd(), 'content', 'guides');
-  const content = readFileSync(
+  // ⚡ Bolt: Using async readFile to prevent blocking the event loop
+  const content = await readFile(
     join(contentDir, 'military-base-service-guide.md'),
     'utf-8'
   );

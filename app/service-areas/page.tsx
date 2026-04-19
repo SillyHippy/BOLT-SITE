@@ -318,7 +318,7 @@ const majorCities = [
   { name: "Stilwell", county: "Adair", population: "4,081", link: "/service-areas/stilwell" },
 ];
 
-export default function ServiceAreasHub() {
+export default async function ServiceAreasHub() {
   return (
     <>
       <UnifiedSchema
