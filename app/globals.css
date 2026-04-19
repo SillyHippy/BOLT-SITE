@@ -90,6 +90,30 @@
   .object-position-same-day {
     object-position: 50% 30%;
   }
+
+  .ui-glass-nav {
+    @apply border-b border-white/70 bg-white/80 backdrop-blur-md shadow-sm;
+  }
+
+  .ui-nav-link {
+    @apply rounded-lg px-2.5 py-1.5 text-[15px] font-medium text-slate-700 transition-all hover:bg-slate-100 hover:text-slate-900;
+  }
+
+  .ui-nav-link-active {
+    @apply bg-blue-50 text-blue-700 ring-1 ring-blue-100;
+  }
+
+  .ui-btn-primary {
+    @apply inline-flex items-center justify-center rounded-lg bg-blue-600 px-4 py-2 text-sm font-semibold text-white shadow-sm transition-all hover:-translate-y-0.5 hover:bg-blue-700 hover:shadow-md;
+  }
+
+  .ui-btn-secondary {
+    @apply inline-flex items-center justify-center rounded-lg border border-slate-200 bg-white px-4 py-2 text-sm font-semibold text-slate-700 transition-all hover:-translate-y-0.5 hover:bg-slate-50 hover:shadow-sm;
+  }
+
+  .ui-surface-card {
+    @apply rounded-xl border border-slate-200 bg-white shadow-sm;
+  }
 }
 
 /* Mobile Performance Optimizations */

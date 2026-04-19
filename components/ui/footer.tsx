@@ -309,16 +309,16 @@ export function Footer() {
   };
 
   return (
-    <footer className="bg-white" id="contact" aria-label="Contact information and service request form">
+    <footer className="bg-slate-50 border-t border-slate-200" id="contact" aria-label="Contact information and service request form">
       <div className="max-w-7xl mx-auto px-4 pt-8 pb-6">
         {/* Experience Trust Badge */}
         <div className="text-center mb-6">
-          <div className="inline-block bg-gradient-to-r from-blue-100 to-green-100 text-blue-800 font-bold rounded-lg px-6 py-3 shadow-md border border-blue-200">
+          <div className="inline-block rounded-full bg-gradient-to-r from-blue-100 to-emerald-100 text-blue-900 font-semibold px-6 py-2 shadow-sm border border-blue-200">
             🏆 50+ Years&apos; Combined Experience • Oklahoma&apos;s Trusted Legal Document Experts
           </div>
         </div>
         
-        <h2 className="text-3xl font-bold mb-6">GET IN TOUCH</h2>
+        <h2 className="text-3xl font-bold mb-4 tracking-tight text-slate-900">Get In Touch</h2>
         <p className="text-gray-600 mb-2">
           For any inquiries, please reach out via phone, text, or email. We&apos;re here to assist you.
         </p>
@@ -326,10 +326,10 @@ export function Footer() {
           For Courier Services or other business solutions, please call or text for urgent matters. For non-time-sensitive inquiries, feel free to email.
         </p>
 
-        <div className="flex flex-wrap gap-4 mb-8">
+        <div className="flex flex-wrap gap-3 mb-8">
           <button
             onClick={toggleForm}
-            className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
+            className="ui-btn-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
           >
             {showForm ? "Close Form" : "Serve Request Form"}
           </button>
@@ -337,7 +337,7 @@ export function Footer() {
             href="https://g.page/r/Cb81H1j9UTYxEBM/review"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-amber-700 hover:bg-amber-800 text-white font-bold py-2 px-4 rounded inline-flex items-center"
+            className="inline-flex items-center rounded-lg bg-amber-600 px-4 py-2 text-sm font-semibold text-white shadow-sm transition-all hover:-translate-y-0.5 hover:bg-amber-700 hover:shadow-md"
           >
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
               <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
@@ -347,7 +347,7 @@ export function Footer() {
         </div>
 
         {showForm && (
-          <div className="bg-gray-50 p-6 rounded-lg mb-8 border border-gray-200">
+          <div className="ui-surface-card p-6 mb-8">
             {submissionStatus === 'success' ? (
                 <div className="text-center py-10" role="alert">
                     <h3 className="text-2xl font-bold text-green-600 mb-2">Thank You!</h3>
@@ -675,10 +675,10 @@ export function Footer() {
         </div>
 
         {/* Trust & Credentials Section */}
-        <div className="mt-12 pt-8 border-t border-gray-200">
+        <div className="ui-surface-card mt-12 pt-8 p-6 border-gray-200">
           <h3 className="text-2xl font-bold text-center mb-6">Trust & Credentials</h3>
           <div className="flex flex-wrap justify-center items-center gap-6 max-w-5xl mx-auto">
-            <div className="w-28 h-28 md:w-32 md:h-32 flex items-center justify-center">
+            <div className="w-28 h-28 md:w-32 md:h-32 flex items-center justify-center rounded-xl bg-white ring-1 ring-slate-100 p-2">
               <Image 
                 src="/badges/same-day-service-available-badge.svg" 
                 alt="Same Day Service Available - Process Server Oklahoma" 
@@ -688,7 +688,7 @@ export function Footer() {
                 title="Same Day Service Available"
               />
             </div>
-            <div className="w-28 h-28 md:w-32 md:h-32 flex items-center justify-center">
+            <div className="w-28 h-28 md:w-32 md:h-32 flex items-center justify-center rounded-xl bg-white ring-1 ring-slate-100 p-2">
               <Image 
                 src="/badges/99-9-percent-success-rate-badge.svg" 
                 alt="99.9% Success Rate Process Server" 
@@ -698,7 +698,7 @@ export function Footer() {
                 title="99.9% Success Rate"
               />
             </div>
-            <div className="w-28 h-28 md:w-32 md:h-32 flex items-center justify-center">
+            <div className="w-28 h-28 md:w-32 md:h-32 flex items-center justify-center rounded-xl bg-white ring-1 ring-slate-100 p-2">
               <Image 
                 src="/badges/5-star-google-rating-badge.svg" 
                 alt="5 Star Google Rating Process Server" 
@@ -708,7 +708,7 @@ export function Footer() {
                 title="5 Star Google Rating"
               />
             </div>
-            <div className="w-28 h-28 md:w-32 md:h-32 flex items-center justify-center">
+            <div className="w-28 h-28 md:w-32 md:h-32 flex items-center justify-center rounded-xl bg-white ring-1 ring-slate-100 p-2">
               <Image 
                 src="/badges/24-7-emergency-service-badge.svg" 
                 alt="24/7 Emergency Service Process Server" 
@@ -723,7 +723,7 @@ export function Footer() {
               href="https://napps.org/member-info.aspx?id=14801"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-28 h-28 md:w-32 md:h-32 flex items-center justify-center bg-white rounded-lg p-2 hover:shadow-lg transition-shadow duration-200"
+              className="w-28 h-28 md:w-32 md:h-32 flex items-center justify-center bg-white rounded-xl p-2 ring-1 ring-slate-100 hover:shadow-lg transition-shadow duration-200"
               title="Proud Member of NAPPS - National Association of Professional Process Servers"
             >
               <Image
@@ -740,7 +740,7 @@ export function Footer() {
               href="https://nationalprocessservernetwork.com/directory/just-legal-solutions/"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-28 h-28 md:w-32 md:h-32 flex items-center justify-center bg-white rounded-lg p-2 hover:shadow-lg transition-shadow duration-200"
+              className="w-28 h-28 md:w-32 md:h-32 flex items-center justify-center bg-white rounded-xl p-2 ring-1 ring-slate-100 hover:shadow-lg transition-shadow duration-200"
               title="Listed on NPSN - National Process Server Network"
             >
               <Image
@@ -763,7 +763,7 @@ export function Footer() {
               <div className="flex flex-col md:flex-row gap-6 md:gap-8">
                 {/* Services Column */}
                 <div className="flex flex-col gap-2">
-                  <h4 className="font-bold text-gray-800 text-sm mb-1">Services</h4>
+                  <h4 className="font-bold text-gray-800 text-sm mb-1">Core Services</h4>
                   <Link href="/process-serving" className="text-blue-600 hover:text-blue-800 underline font-semibold text-sm">
                     Process Serving
                   </Link>
@@ -789,51 +789,57 @@ export function Footer() {
                 {/* Quick Links Column */}
                 <div className="flex flex-col gap-2">
                   <h4 className="font-bold text-gray-800 text-sm mb-1">Quick Links</h4>
-                  <a
+                  <Link
                     href="/sitemap"
                     className="text-blue-600 hover:text-blue-800 underline font-semibold text-sm"
                   >
                     Sitemap
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="/videos"
                     className="text-blue-600 hover:text-blue-800 underline font-semibold text-sm"
                   >
                     Video Hub
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="/service-checker"
                     className="text-blue-600 hover:text-blue-800 underline font-semibold text-sm"
                   >
-                    &quot;Can I Be Served?&quot; Checker
-                  </a>
-                  <a
+                    Service Eligibility Checker
+                  </Link>
+                  <Link
+                    href="/reviews/google"
+                    className="text-blue-600 hover:text-blue-800 underline font-semibold text-sm"
+                  >
+                    Google Review Hub
+                  </Link>
+                  <Link
                     href="/privacy-policy"
                     className="text-blue-600 hover:text-blue-800 underline font-semibold text-sm"
                   >
                     Privacy Policy
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="/terms-of-service"
                     className="text-blue-600 hover:text-blue-800 underline font-semibold text-sm"
                   >
                     Terms of Service
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
             {/* Disclaimer - center */}
             <div className="text-center order-2 md:order-2 w-full md:w-auto space-y-1">
-              <p className="text-sm font-semibold text-gray-600">🏠 Locally Owned &amp; Operated — Tulsa County, Oklahoma</p>
-              <p className="text-sm text-gray-500">Disclaimer: Just Legal Solutions is not a law firm. For legal questions, please consult a licensed attorney.</p>
+              <p className="text-sm font-semibold text-gray-600">🏠 Locally Owned in Tulsa County • Serving all 77 Oklahoma counties</p>
+              <p className="text-sm text-gray-500">Just Legal Solutions is not a law firm and does not provide legal advice. For legal guidance, consult a licensed attorney.</p>
             </div>
             {/* Social Media Links - right side */}
-            <div className="flex space-x-4 order-3 md:order-3">
+            <div className="flex space-x-3 order-3 md:order-3">
               <a
                 href="https://www.facebook.com/people/Just-Legal-Solutions/61574881736527/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-600 hover:text-blue-600 transition-colors"
+                className="rounded-full bg-white p-2 text-gray-600 ring-1 ring-slate-200 transition-colors hover:text-blue-600 hover:ring-blue-200"
                 aria-label="Facebook (opens in new tab)"
               >
                 <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -844,7 +850,7 @@ export function Footer() {
                 href="https://www.linkedin.com/company/justlegalsolutionsok/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-600 hover:text-blue-600 transition-colors"
+                className="rounded-full bg-white p-2 text-gray-600 ring-1 ring-slate-200 transition-colors hover:text-blue-600 hover:ring-blue-200"
                 aria-label="LinkedIn (opens in new tab)"
               >
                 <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -855,7 +861,7 @@ export function Footer() {
                 href="https://www.instagram.com/just_legal_solutions/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-600 hover:text-pink-600 transition-colors"
+                className="rounded-full bg-white p-2 text-gray-600 ring-1 ring-slate-200 transition-colors hover:text-pink-600 hover:ring-pink-200"
                 aria-label="Instagram (opens in new tab)"
               >
                 <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -868,7 +874,7 @@ export function Footer() {
                 href="https://www.google.com/maps/place/Just+Legal+Solutions/@35.3090496,-98.7167134,7z/data=!3m1!4b1!4m6!3m5!1s0x2d3a1c9aca7b5281:0x313651fd581f35bf!8m2!3d35.3090496!4d-98.7167134!16s%2Fg%2F11x0psycvf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-600 hover:text-blue-600 transition-colors"
+                className="rounded-full bg-white p-2 text-gray-600 ring-1 ring-slate-200 transition-colors hover:text-blue-600 hover:ring-blue-200"
                 aria-label="Google My Business (opens in new tab)"
               >
                 <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -880,7 +886,7 @@ export function Footer() {
               </a>
               <Link
                 href="/reviews"
-                className="text-gray-600 hover:text-blue-600 transition-colors"
+                className="rounded-full bg-white p-2 text-gray-600 ring-1 ring-slate-200 transition-colors hover:text-blue-600 hover:ring-blue-200"
                 aria-label="Verified client reviews"
                 title="Verified client reviews from phone, text, email, and survey channels"
               >

@@ -35,12 +35,15 @@ export function Navbar() {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
+  const navLinkClass = (active: boolean) =>
+    `ui-nav-link ${active ? 'ui-nav-link-active' : ''}`;
+
   return (
-    <nav className="fixed top-0 left-0 right-0 z-40 bg-white shadow-sm" aria-label="Main navigation">
+    <nav className="ui-glass-nav fixed left-0 right-0 top-0 z-40" aria-label="Main navigation">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center">
+          <Link href="/" className="flex items-center rounded-lg px-1 py-1 transition hover:bg-white/70">
             <Image 
               src="/favicon1.svg" 
               alt="Just Legal Solutions \u2014 Oklahoma process server and notary" 
@@ -53,35 +56,35 @@ export function Navbar() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <Link href="/" className="text-gray-700 hover:text-gray-900" aria-current={pathname === '/' ? 'page' : undefined} prefetch={false}>
+            <Link href="/" className={navLinkClass(pathname === '/')} aria-current={pathname === '/' ? 'page' : undefined} prefetch={false}>
               Home
             </Link>
-            <Link href="/process-serving" className="text-gray-700 hover:text-gray-900" aria-current={pathname === '/process-serving' ? 'page' : undefined} prefetch={false}>
+            <Link href="/process-serving" className={navLinkClass(pathname === '/process-serving')} aria-current={pathname === '/process-serving' ? 'page' : undefined} prefetch={false}>
               Process Serving
             </Link>
-            <Link href="/pricing" className="text-gray-700 hover:text-gray-900" aria-current={pathname === '/pricing' ? 'page' : undefined} prefetch={false}>
+            <Link href="/pricing" className={navLinkClass(pathname === '/pricing')} aria-current={pathname === '/pricing' ? 'page' : undefined} prefetch={false}>
               Pricing
             </Link>
-            <Link href="/notary" className="text-gray-700 hover:text-gray-900" aria-current={pathname?.startsWith('/notary') ? 'page' : undefined} prefetch={false}>
+            <Link href="/notary" className={navLinkClass(!!pathname?.startsWith('/notary'))} aria-current={pathname?.startsWith('/notary') ? 'page' : undefined} prefetch={false}>
               Notary Services
             </Link>
-            <Link href="/service-areas" className="text-gray-700 hover:text-gray-900" aria-current={pathname?.startsWith('/service-areas') ? 'page' : undefined} prefetch={false}>
+            <Link href="/service-areas" className={navLinkClass(!!pathname?.startsWith('/service-areas'))} aria-current={pathname?.startsWith('/service-areas') ? 'page' : undefined} prefetch={false}>
               Service Areas
             </Link>
-            <Link href="/virtual-assistant-services" className="text-gray-700 hover:text-gray-900" aria-current={pathname === '/virtual-assistant-services' ? 'page' : undefined} prefetch={false}>
+            <Link href="/virtual-assistant-services" className={navLinkClass(pathname === '/virtual-assistant-services')} aria-current={pathname === '/virtual-assistant-services' ? 'page' : undefined} prefetch={false}>
               VA Services
             </Link>
             <a 
               href="/#courier-services" 
-              className="text-gray-700 hover:text-gray-900 cursor-pointer"
+              className={navLinkClass(false) + ' cursor-pointer'}
               onClick={handleCourierServicesClick}
             >
               Courier Services
             </a>
-            <Link href="/law-firm-services" className="text-gray-700 hover:text-gray-900" aria-current={pathname === '/law-firm-services' ? 'page' : undefined} prefetch={false}>
+            <Link href="/law-firm-services" className={navLinkClass(pathname === '/law-firm-services')} aria-current={pathname === '/law-firm-services' ? 'page' : undefined} prefetch={false}>
               Law Firm Services
             </Link>
-            <Link href="/payments" className="text-gray-700 hover:text-gray-900" aria-current={pathname === '/payments' ? 'page' : undefined} prefetch={false}>
+            <Link href="/payments" className={navLinkClass(pathname === '/payments')} aria-current={pathname === '/payments' ? 'page' : undefined} prefetch={false}>
               Payments
             </Link>
           </div>
@@ -90,7 +93,7 @@ export function Navbar() {
           <div className="hidden md:block">
             <Button
               onClick={scrollToFooter}
-              className="bg-black text-white hover:bg-gray-800"
+              className="ui-btn-primary"
             >
               Contact Us
             </Button>
@@ -101,7 +104,7 @@ export function Navbar() {
             <button
               type="button"
               onClick={toggleMobileMenu}
-              className="text-gray-500 hover:text-gray-600 focus:outline-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-black focus-visible:ring-offset-2"
+              className="rounded-lg p-2 text-gray-600 transition hover:bg-slate-100 hover:text-gray-900 focus:outline-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-black focus-visible:ring-offset-2"
               aria-expanded={isMobileMenuOpen}
               aria-controls="mobile-menu"
               aria-label={isMobileMenuOpen ? 'Close main menu' : 'Open main menu'}
@@ -131,12 +134,12 @@ export function Navbar() {
           role="dialog"
           aria-modal="true"
           aria-label="Mobile navigation menu"
-          className={`fixed top-0 right-0 bottom-0 w-[250px] bg-white shadow-lg transform transition-transform duration-300 ease-in-out z-50 ${
+          className={`fixed top-0 right-0 bottom-0 w-[270px] bg-white/95 backdrop-blur-md border-l border-slate-200 shadow-xl transform transition-transform duration-300 ease-in-out z-50 ${
             isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'
           } md:hidden`}
         >
-          <div className="flex justify-between items-center p-4 border-b">
-            <div className="text-xl font-semibold">Menu</div>
+          <div className="flex justify-between items-center p-4 border-b border-slate-200">
+            <div className="text-lg font-semibold text-slate-900">Menu</div>
             <button
               onClick={toggleMobileMenu}
               className="p-2 hover:bg-gray-100 rounded-full focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-black focus-visible:ring-offset-2"
@@ -149,10 +152,10 @@ export function Navbar() {
               to prevent downloading all route payloads simultaneously when the
               menu opens. Expected impact: Reduces unnecessary background network
               requests on mobile devices when the menu is opened. */}
-          <div className="flex flex-col py-4">
+          <div className="flex flex-col gap-1 px-3 py-4">
             <Link
               href="/"
-              className="px-6 py-3 text-gray-700 hover:bg-gray-100"
+              className={navLinkClass(pathname === '/')}
               onClick={() => setIsMobileMenuOpen(false)}
               aria-current={pathname === '/' ? 'page' : undefined}
               prefetch={false}
@@ -161,7 +164,7 @@ export function Navbar() {
             </Link>
             <Link
               href="/process-serving"
-              className="px-6 py-3 text-gray-700 hover:bg-gray-100"
+              className={navLinkClass(pathname === '/process-serving')}
               onClick={() => setIsMobileMenuOpen(false)}
               aria-current={pathname === '/process-serving' ? 'page' : undefined}
               prefetch={false}
@@ -170,7 +173,7 @@ export function Navbar() {
             </Link>
             <Link
               href="/pricing"
-              className="px-6 py-3 text-gray-700 hover:bg-gray-100"
+              className={navLinkClass(pathname === '/pricing')}
               onClick={() => setIsMobileMenuOpen(false)}
               aria-current={pathname === '/pricing' ? 'page' : undefined}
               prefetch={false}
@@ -179,7 +182,7 @@ export function Navbar() {
             </Link>
             <Link
               href="/notary"
-              className="px-6 py-3 text-gray-700 hover:bg-gray-100"
+              className={navLinkClass(!!pathname?.startsWith('/notary'))}
               onClick={() => setIsMobileMenuOpen(false)}
               aria-current={pathname?.startsWith('/notary') ? 'page' : undefined}
               prefetch={false}
@@ -188,7 +191,7 @@ export function Navbar() {
             </Link>
             <Link
               href="/service-areas"
-              className="px-6 py-3 text-gray-700 hover:bg-gray-100"
+              className={navLinkClass(!!pathname?.startsWith('/service-areas'))}
               onClick={() => setIsMobileMenuOpen(false)}
               aria-current={pathname?.startsWith('/service-areas') ? 'page' : undefined}
               prefetch={false}
@@ -197,7 +200,7 @@ export function Navbar() {
             </Link>
             <Link
               href="/virtual-assistant-services"
-              className="px-6 py-3 text-gray-700 hover:bg-gray-100"
+              className={navLinkClass(pathname === '/virtual-assistant-services')}
               onClick={() => setIsMobileMenuOpen(false)}
               aria-current={pathname === '/virtual-assistant-services' ? 'page' : undefined}
               prefetch={false}
@@ -206,14 +209,14 @@ export function Navbar() {
             </Link>
             <a
               href="/#courier-services"
-              className="px-6 py-3 text-gray-700 hover:bg-gray-100 cursor-pointer"
+              className="ui-nav-link cursor-pointer"
               onClick={handleCourierServicesClick}
             >
               Courier Services
             </a>
             <Link
               href="/law-firm-services"
-              className="px-6 py-3 text-gray-700 hover:bg-gray-100"
+              className={navLinkClass(pathname === '/law-firm-services')}
               onClick={() => setIsMobileMenuOpen(false)}
               aria-current={pathname === '/law-firm-services' ? 'page' : undefined}
               prefetch={false}
@@ -222,7 +225,7 @@ export function Navbar() {
             </Link>
             <Link
               href="/payments"
-              className="px-6 py-3 text-gray-700 hover:bg-gray-100"
+              className={navLinkClass(pathname === '/payments')}
               onClick={() => setIsMobileMenuOpen(false)}
               aria-current={pathname === '/payments' ? 'page' : undefined}
               prefetch={false}
@@ -231,7 +234,7 @@ export function Navbar() {
             </Link>
             <button
               onClick={scrollToFooter}
-              className="px-6 py-3 text-gray-700 hover:bg-gray-100 text-left"
+              className="ui-btn-primary mt-2 w-full"
             >
               Contact Us
             </button>
@@ -241,7 +244,7 @@ export function Navbar() {
         {/* Overlay */}
         {isMobileMenuOpen && (
           <div
-            className="fixed inset-0 bg-black bg-opacity-50 z-45 md:hidden"
+            className="fixed inset-0 bg-slate-900/45 backdrop-blur-[1px] z-40 md:hidden"
             onClick={toggleMobileMenu}
             aria-hidden="true"
           />
