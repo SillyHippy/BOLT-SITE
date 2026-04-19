@@ -122,7 +122,8 @@ export default function ServiceTimeEstimatorPage() {
                       <button
                         key={c.id}
                         onClick={() => { setCountyType(c.id); setCalculated(false); }}
-                        className={`border-2 rounded-xl p-4 text-left transition-all ${
+                        aria-pressed={countyType === c.id}
+                        className={`border-2 rounded-xl p-4 text-left transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2 ${
                           countyType === c.id
                             ? 'border-indigo-500 bg-indigo-50 text-indigo-900'
                             : 'border-gray-200 bg-white hover:border-indigo-300 text-gray-700'
@@ -144,7 +145,8 @@ export default function ServiceTimeEstimatorPage() {
                       <button
                         key={u.id}
                         onClick={() => { setUrgency(u.id); setCalculated(false); }}
-                        className={`border-2 rounded-xl p-4 text-left transition-all ${
+                        aria-pressed={urgency === u.id}
+                        className={`border-2 rounded-xl p-4 text-left transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2 ${
                           urgency === u.id
                             ? 'border-indigo-500 bg-indigo-50 text-indigo-900'
                             : 'border-gray-200 bg-white hover:border-indigo-300 text-gray-700'
@@ -160,7 +162,7 @@ export default function ServiceTimeEstimatorPage() {
                 <button
                   disabled={!isReady}
                   onClick={() => setCalculated(true)}
-                  className={`w-full py-4 rounded-xl font-bold text-lg transition-all ${
+                  className={`w-full py-4 rounded-xl font-bold text-lg transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2 ${
                     isReady
                       ? 'bg-indigo-600 hover:bg-indigo-700 text-white shadow-lg hover:shadow-xl'
                       : 'bg-gray-200 text-gray-400 cursor-not-allowed'
