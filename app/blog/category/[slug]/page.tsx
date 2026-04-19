@@ -54,7 +54,7 @@ export async function generateMetadata({
     authors: [{ name: 'Just Legal Solutions' }],
     creator: 'Just Legal Solutions',
     publisher: 'Just Legal Solutions',
-    robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
+    robots: 'noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
     openGraph: {
       title,
       description,

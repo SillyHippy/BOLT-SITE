@@ -8,8 +8,8 @@ export const metadata: Metadata = {
   description: 'Verify Just Legal Solutions\' professional credentials and business listings. Trusted Oklahoma process server with established online presence across major business directories and legal platforms.',
   keywords: 'process server verification oklahoma, just legal solutions directory, business verification tulsa, professional process server credentials, oklahoma legal services verification',
   robots: {
-    index: true,   // Allow indexing so Google can discover our backlinks
-    follow: true,  // Allow following links
+    index: false,
+    follow: true,
     noarchive: true
   },
   alternates: {

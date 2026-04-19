@@ -26,7 +26,7 @@ export const metadata: Metadata = {
 
 const faqs = [
     { question: "What types of eviction notices are there in Oklahoma?", answer: "Oklahoma has three primary eviction notice types: (1) 5-Day Notice to Pay or Quit for nonpayment of rent under 41 O.S. § 131 — the tenant has 5 days to pay or vacate; (2) 15-Day Notice to Cure or Quit for lease violations — the tenant has 15 days to fix the violation or leave; (3) 30-Day Notice to Terminate for month-to-month tenancies under 41 O.S. § 111 — either party can end the tenancy with 30 days' written notice. In extreme cases involving illegal activity or damage, Oklahoma allows immediate termination with a 24-hour notice." },
-    { question: "How must an eviction notice be served in Oklahoma?", answer: "Under Oklahoma law (41 O.S. § 131), an eviction notice must be served by: (1) personal delivery to the tenant, (2) leaving a copy with a person over 15 at the tenant's residence, or (3) posting on the premises if the tenant cannot be found. Using a licensed process server provides GPS-verified proof of when and how the notice was delivered, which is critical if the eviction goes to court." },
+    { question: "How must an eviction notice be served in Oklahoma?", answer: "For the initial landlord notice stage under Oklahoma Title 41, service is typically completed by personal delivery to the tenant, delivery to a qualifying family member at the residence (age threshold differs from court-summons rules), or posting plus required mailing when personal service cannot be completed. The later FED court summons stage follows separate Title 12 service rules. Using a licensed process server helps document which stage was served, when it was served, and how service was completed." },
     { question: "When does the clock start on an eviction notice?", answer: "The notice period begins on the day after the notice is served, not the day of service. For a 5-day notice served on Monday, the tenant has until Saturday to pay or vacate. Weekends and holidays count toward the notice period in Oklahoma. This is why prompt service is critical — every day of delay pushes back when you can file the forcible entry and detainer (FED) action." },
     { question: "What happens after the notice period expires?", answer: "If the tenant does not comply within the notice period, the landlord can file a Forcible Entry and Detainer (FED) action in the appropriate Oklahoma district court. The court will schedule a hearing, and the tenant must be served with the FED summons. If the court rules in the landlord's favor, a writ of execution is issued giving the tenant 48 hours to vacate before the sheriff physically removes them." },
     { question: "Can I serve my own eviction notice?", answer: "Yes, Oklahoma law allows a landlord or their agent to deliver the notice. However, using a licensed process server provides documented proof of service with GPS verification, which is much stronger evidence in court than self-service. If the tenant disputes receiving the notice, a professional affidavit of service is significantly more credible than a landlord's own testimony." },
@@ -53,6 +53,26 @@ export default function EvictionNoticeServicePage() {
                             <strong>Need an eviction notice delivered?</strong> Just Legal Solutions serves 5-day, 15-day, and 30-day eviction notices across all 77 Oklahoma counties. Proper notice is the first step in the legal eviction process under Oklahoma Title 41. Every delivery is <strong>GPS-verified</strong> with a court-ready affidavit. Starting at <strong>$30</strong> with same-day rush available. Call <a href="tel:5393676832" className="text-orange-700 font-bold hover:underline">(539) 367-6832</a>.
                         </p>
                     </div>
+
+                    <section className="mb-12">
+                        <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
+                            <h2 className="text-2xl font-bold text-slate-900 mb-2">Choose the Right Eviction Resource</h2>
+                            <p className="text-slate-700 mb-4">
+                                This page is focused on <strong>statewide eviction notice delivery service</strong>. For legal education and procedural detail, use the supporting guides.
+                            </p>
+                            <div className="grid md:grid-cols-3 gap-3 text-sm">
+                                <Link href="/seo/eviction-notice-process-server" className="rounded-lg border border-slate-300 bg-white px-3 py-2 font-semibold text-slate-800 hover:bg-slate-100 transition">
+                                    Tulsa Service Page (same-day/rush delivery)
+                                </Link>
+                                <Link href="/blog/how-to-serve-eviction-notices-in-oklahoma" className="rounded-lg border border-slate-300 bg-white px-3 py-2 font-semibold text-slate-800 hover:bg-slate-100 transition">
+                                    How-To Guide (service method compliance)
+                                </Link>
+                                <Link href="/blog/oklahoma-landlord-tenant-eviction-timelines" className="rounded-lg border border-slate-300 bg-white px-3 py-2 font-semibold text-slate-800 hover:bg-slate-100 transition">
+                                    Timeline Guide (end-to-end eviction flow)
+                                </Link>
+                            </div>
+                        </div>
+                    </section>
 
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-gray-900 mb-6">Oklahoma Eviction Notice Types</h2>

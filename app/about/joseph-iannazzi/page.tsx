@@ -391,7 +391,7 @@ export default function JosephIannazziPage() {
                     <span>
                       5.0 Google rating ·{' '}
                       <Link href="/reviews" className="text-blue-700 underline">
-                        150+ verified reviews
+                        156+ verified reviews
                       </Link>
                     </span>
                   </div>
@@ -547,7 +547,7 @@ export default function JosephIannazziPage() {
               {
                 n: '01',
                 title: 'Founded Just Legal Solutions',
-                body: 'Built a disability-owned process serving and mobile notary firm from personal adversity — after a five-year workers&apos; compensation battle — into a 5.0-star-rated business serving all 77 Oklahoma counties with 150+ verified reviews across Google and internal client channels.',
+                body: 'Built a disability-owned process serving and mobile notary firm from personal adversity — after a five-year workers&apos; compensation battle — into a 5.0-star-rated business serving all 77 Oklahoma counties with 156+ verified reviews across Google and internal client channels.',
               },
               {
                 n: '02',
@@ -712,7 +712,7 @@ export default function JosephIannazziPage() {
               {
                 href: '/reviews',
                 title: 'Verified Reviews',
-                body: '5.0 Google rating plus 150+ verified reviews across Google and internal client channels.',
+                body: '5.0 Google rating plus 156+ verified reviews across Google and internal client channels.',
                 icon: Users,
               },
             ].map((card) => {

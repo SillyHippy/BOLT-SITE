@@ -324,6 +324,40 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Popular Service Areas - crawlable internal links for local SEO */}
+      <section className="bg-slate-50 py-10 px-4 border-y border-slate-200" aria-label="Popular service areas">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-6">
+            <h2 className="text-2xl md:text-3xl font-bold text-slate-900">Popular Service Areas</h2>
+            <p className="text-slate-600 mt-2">
+              Direct links to our highest-demand Oklahoma coverage pages.
+            </p>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-3">
+            {[
+              { href: '/service-areas/tulsa', label: 'Tulsa' },
+              { href: '/service-areas/broken-arrow', label: 'Broken Arrow' },
+              { href: '/service-areas/owasso', label: 'Owasso' },
+              { href: '/service-areas/bixby', label: 'Bixby' },
+              { href: '/service-areas/jenks', label: 'Jenks' },
+              { href: '/service-areas/sand-springs', label: 'Sand Springs' },
+              { href: '/service-areas/glenpool', label: 'Glenpool' },
+              { href: '/service-areas/sapulpa', label: 'Sapulpa' },
+              { href: '/counties/tulsa-county', label: 'Tulsa County' },
+              { href: '/service-areas', label: 'All Service Areas' },
+            ].map((area) => (
+              <a
+                key={area.href}
+                href={area.href}
+                className="ui-surface-card text-center py-3 px-3 text-sm font-semibold text-slate-800 hover:text-blue-700 transition-colors"
+              >
+                {area.label}
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* How It Works - 3-step process (visible) */}
       <section className="bg-white py-16 md:py-20" aria-label="How our process serving works">
         <div className="max-w-7xl mx-auto px-4">

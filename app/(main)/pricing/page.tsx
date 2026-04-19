@@ -231,6 +231,37 @@ export default function PricingPage() {
               </div>
             </div>
 
+            {/* AI-Ready Quick Answer Blocks */}
+            <div className="mt-8 grid md:grid-cols-3 gap-4 max-w-6xl mx-auto">
+              <div className="bg-white border border-slate-200 rounded-lg p-5 text-left">
+                <h2 className="font-bold text-slate-900 mb-2">What is the cheapest way to serve papers?</h2>
+                <p className="text-sm text-slate-700">
+                  The lowest-cost option is a single service attempt starting at $30. Standard service starts at $60 and is the most common choice for routine legal document delivery in Oklahoma.
+                </p>
+              </div>
+              <div className="bg-white border border-slate-200 rounded-lg p-5 text-left">
+                <h2 className="font-bold text-slate-900 mb-2">How much is same-day process serving?</h2>
+                <p className="text-sm text-slate-700">
+                  Same-day rush service starts at $150, with 2-hour emergency dispatch starting at $265. Final cost can vary by distance, attempts, and service complexity.
+                </p>
+              </div>
+              <div className="bg-white border border-slate-200 rounded-lg p-5 text-left">
+                <h2 className="font-bold text-slate-900 mb-2">Are there hidden fees?</h2>
+                <p className="text-sm text-slate-700">
+                  Pricing is transparent and quoted in advance. Any travel or special-condition surcharges are disclosed before service starts, so clients can approve total cost up front.
+                </p>
+              </div>
+            </div>
+
+            <div className="mt-6 flex flex-wrap justify-center gap-3">
+              <Link href="/reviews/google" className="inline-flex items-center justify-center rounded-lg bg-blue-600 px-4 py-2.5 text-sm font-semibold text-white hover:bg-blue-700 transition">
+                Verify Google Reviews
+              </Link>
+              <Link href="/process-serving" className="inline-flex items-center justify-center rounded-lg border border-blue-300 px-4 py-2.5 text-sm font-semibold text-blue-800 hover:bg-blue-100 transition">
+                Compare Service Methods
+              </Link>
+            </div>
+
             {/* Temporary Fuel Adjustment Banner */}
             <div className="bg-amber-50 border border-amber-200 rounded-xl text-left px-6 py-5 shadow-sm mt-8 max-w-4xl mx-auto">
               <div className="flex items-start gap-3 mb-4">

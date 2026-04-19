@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://justlegalsolutions.org/weekend-emergency</loc>
-    <lastmod>2026-04-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://justlegalsolutions.org/why-choose-us</loc>
-    <lastmod>2026-04-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://justlegalsolutions.org/service-areas</loc>
     <lastmod>2026-04-19</lastmod>
     <changefreq>monthly</changefreq>
@@ -247,6 +235,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://justlegalsolutions.org/why-choose-us</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://justlegalsolutions.org/law-firm-services</loc>
     <lastmod>2026-04-19</lastmod>
     <changefreq>monthly</changefreq>
@@ -331,6 +325,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://justlegalsolutions.org/weekend-emergency</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://justlegalsolutions.org/virtual-assistant-services</loc>
     <lastmod>2026-04-19</lastmod>
     <changefreq>monthly</changefreq>
@@ -338,37 +338,37 @@
   </url>
   <url>
     <loc>https://justlegalsolutions.org/courthouse-filing-services</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-04-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://justlegalsolutions.org/gps-tracked-process-serving</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-04-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://justlegalsolutions.org/process-serving-for-debt-collection</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-04-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://justlegalsolutions.org/process-serving-for-insurance-companies</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-04-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://justlegalsolutions.org/process-serving-for-property-managers</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-04-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://justlegalsolutions.org/rush-vs-standard-vs-same-day-service</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-04-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -476,7 +476,7 @@
   </url>
   <url>
     <loc>https://justlegalsolutions.org/oklahoma-process-server-authority</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-04-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -566,55 +566,55 @@
   </url>
   <url>
     <loc>https://justlegalsolutions.org/guides</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-04-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://justlegalsolutions.org/guides/attorney-guide</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-04-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://justlegalsolutions.org/guides/mcgirt-v-oklahoma</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-04-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://justlegalsolutions.org/guides/military-base-service</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-04-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://justlegalsolutions.org/guides/rural-oklahoma</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-04-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://justlegalsolutions.org/how-much-does-process-server-cost</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-04-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://justlegalsolutions.org/what-happens-if-someone-refuses-service</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-04-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://justlegalsolutions.org/how-long-does-process-serving-take</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-04-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://justlegalsolutions.org/can-process-server-serve-on-sunday</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-04-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -656,19 +656,19 @@
   </url>
   <url>
     <loc>https://justlegalsolutions.org/become-process-server-oklahoma-complete-guide</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-04-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://justlegalsolutions.org/process-server-equipment-checklist</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-04-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://justlegalsolutions.org/process-server-safety-guide-oklahoma</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-04-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -686,25 +686,25 @@
   </url>
   <url>
     <loc>https://justlegalsolutions.org/process-server-marketing-guide</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-04-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://justlegalsolutions.org/types-of-service-process-oklahoma</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-04-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://justlegalsolutions.org/serve-business-corporation-oklahoma</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-04-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://justlegalsolutions.org/legal-glossary</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-04-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -716,19 +716,19 @@
   </url>
   <url>
     <loc>https://justlegalsolutions.org/resources/oklahoma-service-of-process-reference</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-04-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://justlegalsolutions.org/resources/attorneys-guide-hiring-process-server</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-04-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://justlegalsolutions.org/resources/oklahoma-eviction-timeline</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-04-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -740,13 +740,13 @@
   </url>
   <url>
     <loc>https://justlegalsolutions.org/resources/oklahoma-notarization-requirements</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-04-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://justlegalsolutions.org/resources/what-to-do-when-served-oklahoma</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-04-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -1070,7 +1070,7 @@
   </url>
   <url>
     <loc>https://justlegalsolutions.org/pdf-tools</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-04-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1082,13 +1082,13 @@
   </url>
   <url>
     <loc>https://justlegalsolutions.org/service-checker</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-04-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://justlegalsolutions.org/service-time-estimator</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-04-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -1112,7 +1112,7 @@
   </url>
   <url>
     <loc>https://justlegalsolutions.org/oklahoma-courthouse-directory</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-04-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -1130,7 +1130,7 @@
   </url>
   <url>
     <loc>https://justlegalsolutions.org/videos/</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-04-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

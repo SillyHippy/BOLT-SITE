@@ -133,7 +133,7 @@ const reviews = [
 
 const stats = [
   { value: '4.9★', label: 'Average Rating', sub: 'across Google & direct reviews' },
-  { value: '150+', label: 'Verified Reviews', sub: 'Google + internal channels' },
+  { value: '156+', label: 'Verified Reviews', sub: 'Google + internal channels' },
   { value: '95%+', label: 'Success Rate', sub: 'on first or second attempt' },
   { value: '50+', label: 'Years Combined', sub: 'process server experience' },
 ];
@@ -166,7 +166,7 @@ const reviewPageSchema = {
     aggregateRating: {
       '@type': 'AggregateRating',
       ratingValue: 4.9,
-      reviewCount: 150,
+      reviewCount: 156,
       bestRating: 5,
       worstRating: 1,
     },
@@ -183,7 +183,7 @@ export default function ReviewsPage() {
         description="Read reviews from attorneys, law firms & clients. 5-star rated process server in Tulsa, OK."
         aggregateRating={{
           ratingValue: 4.9,
-          reviewCount: 150,
+          reviewCount: 156,
           bestRating: 5,
           worstRating: 1,
         }}
@@ -210,7 +210,7 @@ export default function ReviewsPage() {
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
               Just Legal Solutions Reviews
             </h1>
-            <p className="text-xl text-blue-200 mb-6">Rated 4.9 stars across 150+ verified reviews from Google and internal client channels across Oklahoma.</p>
+            <p className="text-xl text-blue-200 mb-6">Rated 4.9 stars across 156+ verified reviews from Google and internal client channels across Oklahoma.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="https://g.page/r/Cb81H1j9UTYxEBM/review"
@@ -313,7 +313,7 @@ export default function ReviewsPage() {
         <section className="py-16 px-4 bg-blue-900 text-white text-center">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-4">Ready to Experience 5-Star Service?</h2>
-            <p className="text-blue-200 text-lg mb-8">Join 150+ satisfied clients. Licensed, GPS-tracked, court-ready. Start at $60.</p>
+            <p className="text-blue-200 text-lg mb-8">Join 156+ satisfied clients. Licensed, GPS-tracked, court-ready. Start at $60.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:5393676832" className="inline-flex items-center justify-center gap-2 bg-yellow-400 hover:bg-yellow-300 text-blue-900 font-bold px-8 py-4 rounded-full text-lg shadow-lg transition-all">
                 📞 (539) 367-6832

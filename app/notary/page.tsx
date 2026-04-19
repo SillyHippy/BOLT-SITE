@@ -496,7 +496,7 @@ export default function NotaryPage() {
                 { icon: Lock, title: 'Secure & Compliant', desc: 'We follow all Oklahoma notary laws, maintain detailed journals, and handle documents with complete confidentiality.' },
                 { icon: Award, title: 'Experienced Team', desc: 'Trusted by Oklahoma\'s legal community since 2020 with 50+ years\' combined experience in legal document services.' },
                 { icon: DollarSign, title: 'Transparent Pricing', desc: 'Notary fees capped by state law. Travel fees quoted upfront. We confirm total price before you book.' },
-                { icon: Star, title: 'Proven Track Record', desc: '150+ verified reviews across Google and our internal client channels (phone, text, email, and survey) with a 5.0★ Google Business Profile average.' },
+                { icon: Star, title: 'Proven Track Record', desc: '156+ verified reviews across Google and our internal client channels (phone, text, email, and survey) with a 5.0★ Google Business Profile average.' },
                 { icon: Users, title: 'One-Stop Shop', desc: 'Need process serving, courier services, or skip tracing too? One call handles everything.' },
               ].map((item, idx) => {
                 const Icon = item.icon;

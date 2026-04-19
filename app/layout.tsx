@@ -98,7 +98,11 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: 'https://justlegalsolutions.org'
+    canonical: 'https://justlegalsolutions.org',
+    languages: {
+      'en-US': 'https://justlegalsolutions.org',
+      'x-default': 'https://justlegalsolutions.org',
+    },
   }
 };
 

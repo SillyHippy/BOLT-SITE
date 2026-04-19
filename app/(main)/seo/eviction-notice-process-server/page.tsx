@@ -242,6 +242,29 @@ export default function EvictionNoticeProcessServer() {
           </div>
         </section>
 
+        {/* Eviction Cluster Intent Router */}
+        <section className="bg-white border-y border-slate-200 py-8">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto bg-slate-50 border border-slate-200 rounded-xl p-6">
+              <h2 className="text-2xl font-bold text-slate-900 mb-2">Use the Right Eviction Page</h2>
+              <p className="text-slate-700 mb-4">
+                This page is the <strong>commercial service page</strong> for hiring eviction notice delivery. If you need legal-procedure education instead, use the guides below.
+              </p>
+              <div className="grid md:grid-cols-3 gap-3 text-sm">
+                <Link href="/eviction-notice-service" className="rounded-lg border border-slate-300 bg-white px-3 py-2 font-semibold text-slate-800 hover:bg-slate-100 transition">
+                  Eviction Notice Service (statewide service page)
+                </Link>
+                <Link href="/blog/how-to-serve-eviction-notices-in-oklahoma" className="rounded-lg border border-slate-300 bg-white px-3 py-2 font-semibold text-slate-800 hover:bg-slate-100 transition">
+                  How-To Guide (Title 41 vs Title 12 service rules)
+                </Link>
+                <Link href="/blog/oklahoma-landlord-tenant-eviction-timelines" className="rounded-lg border border-slate-300 bg-white px-3 py-2 font-semibold text-slate-800 hover:bg-slate-100 transition">
+                  Timeline Guide (notice periods, FED court flow)
+                </Link>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* ════════════════════════════════════════════════════════════════
             SECTION 2 — WHO WE SERVE
         ════════════════════════════════════════════════════════════════ */}

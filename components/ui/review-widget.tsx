@@ -135,7 +135,7 @@ export default function ReviewWidget() {
             What Our Clients Say
           </h2>
           <p className="text-base text-gray-600">
-            150+ verified reviews from satisfied clients across Oklahoma
+            156+ verified reviews from satisfied clients across Oklahoma
           </p>
           <div className="mt-3 flex flex-wrap justify-center gap-2 text-xs text-gray-600">
             <span className="bg-gray-100 px-2 py-1 rounded-full">

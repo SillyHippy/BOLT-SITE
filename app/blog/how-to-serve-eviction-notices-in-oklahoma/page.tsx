@@ -179,6 +179,24 @@ export default function EvictionNoticeGuide() {
               This guide is written for Oklahoma landlords, property managers, real estate investors, and legal staff who need a practical explanation of how eviction notices and FED summonses must be served under Oklahoma law.
             </p>
 
+            <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 my-8">
+              <h3 className="text-xl font-bold text-slate-900 mt-0 mb-2">Which Eviction Page Should You Use?</h3>
+              <p className="m-0 text-slate-700 mb-4">
+                This page is the <strong>procedural how-to guide</strong> for correct service methods. If you need direct service booking or a timeline overview, use the related pages below.
+              </p>
+              <div className="grid md:grid-cols-3 gap-3 text-sm">
+                <Link href="/eviction-notice-service" className="rounded-lg border border-slate-300 bg-white px-3 py-2 font-semibold text-slate-800 hover:bg-slate-100 transition">
+                  Book Eviction Notice Service
+                </Link>
+                <Link href="/seo/eviction-notice-process-server" className="rounded-lg border border-slate-300 bg-white px-3 py-2 font-semibold text-slate-800 hover:bg-slate-100 transition">
+                  Tulsa Same-Day Eviction Service
+                </Link>
+                <Link href="/blog/oklahoma-landlord-tenant-eviction-timelines" className="rounded-lg border border-slate-300 bg-white px-3 py-2 font-semibold text-slate-800 hover:bg-slate-100 transition">
+                  Full Oklahoma Eviction Timeline
+                </Link>
+              </div>
+            </div>
+
             <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-6">Oklahoma Has Two Different Service Rules in Eviction Cases</h2>
             <p>
               Oklahoma eviction cases involve two separate service stages, and each has its own rule. The landlord&apos;s initial notice to quit or notice to comply is governed by the Oklahoma Residential Landlord and Tenant Act in Title 41, while the court-issued Forcible Entry and Detainer (FED) summons is governed by Title 12.

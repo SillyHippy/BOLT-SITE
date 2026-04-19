@@ -1143,7 +1143,7 @@ export default function UltimateGuidePage() {
               <div className="bg-yellow-50 border border-yellow-200 p-4 rounded-lg">
                 <h4 className="font-bold text-yellow-800 mb-3">Better Business Bureau Rating</h4>
                 <p className="text-sm mb-3">
-                  Maintaining an A- rating with the Better Business Bureau and a 5.0-star Google Business Profile average, demonstrating consistent professional service and client satisfaction across our <strong>150+ verified reviews from Google and internal client feedback (email, phone, text, and survey)</strong>.
+                  Maintaining an A- rating with the Better Business Bureau and a 5.0-star Google Business Profile average, demonstrating consistent professional service and client satisfaction across our <strong>156+ verified reviews from Google and internal client feedback (email, phone, text, and survey)</strong>.
                 </p>
               </div>
             </div>

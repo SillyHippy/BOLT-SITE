@@ -132,6 +132,39 @@ const UrgentProcessServerPage = () => {
             </p>
           </div>
 
+          {/* AI-Ready Quick Answer Blocks */}
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">Quick Answers (Emergency Service)</h2>
+            <div className="grid md:grid-cols-3 gap-4">
+              <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
+                <h3 className="font-bold text-slate-900 mb-2">What is the fastest service option?</h3>
+                <p className="text-sm text-slate-700">
+                  The fastest option is 2-hour emergency dispatch starting at $265. Same-day rush starts at $150 and is usually completed within 4-8 hours depending on location, timing, and access conditions.
+                </p>
+              </div>
+              <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
+                <h3 className="font-bold text-slate-900 mb-2">When should I choose emergency service?</h3>
+                <p className="text-sm text-slate-700">
+                  Emergency service is best for next-day hearings, imminent filing deadlines, urgent subpoena timing, and eviction timelines where delay could materially impact case strategy.
+                </p>
+              </div>
+              <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
+                <h3 className="font-bold text-slate-900 mb-2">Is urgent service available outside Tulsa?</h3>
+                <p className="text-sm text-slate-700">
+                  Yes. Emergency and rush service can be coordinated across Oklahoma counties, though distance, access constraints, and deadline timing may affect dispatch windows and final pricing.
+                </p>
+              </div>
+            </div>
+            <div className="mt-4 flex flex-wrap gap-3">
+              <Link href="/pricing" className="inline-flex items-center justify-center rounded-lg bg-blue-600 px-4 py-2.5 text-sm font-semibold text-white hover:bg-blue-700 transition">
+                View Full Pricing
+              </Link>
+              <Link href="/reviews/google" className="inline-flex items-center justify-center rounded-lg border border-blue-300 px-4 py-2.5 text-sm font-semibold text-blue-800 hover:bg-blue-100 transition">
+                Verify Google Reviews
+              </Link>
+            </div>
+          </section>
+
           {/* What is Emergency Process Serving? */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">What Is Emergency Process Serving?</h2>

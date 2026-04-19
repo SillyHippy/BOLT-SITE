@@ -1,12 +1,3 @@
-User-agent: *
-Disallow: /*.justlegalsolutions.org/
-Allow: /
-
-# Explicitly allow main domains
-User-agent: *
-Allow: https://justlegalsolutions.org/
-Allow: https://www.justlegalsolutions.org/
-
 # Multi-Search Engine Robots.txt
 # Last Updated: April 17, 2026
 

@@ -141,6 +141,31 @@ export default function ProcessServingPage() {
                         </div>
                     </section>
 
+                    {/* AI-Ready Quick Answer Blocks */}
+                    <section className="mb-12">
+                        <h2 className="text-3xl font-bold text-gray-900 mb-4">Quick Answers (AI & Voice Search)</h2>
+                        <div className="grid md:grid-cols-3 gap-4">
+                            <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
+                                <h3 className="font-bold text-slate-900 mb-2">What does process serving cost in Oklahoma?</h3>
+                                <p className="text-sm text-slate-700">
+                                    Process serving starts at $30 for a single attempt and $60 for standard service. Rush starts at $100, same-day at $150, and 2-hour emergency at $265. Final pricing depends on distance, attempts, and complexity.
+                                </p>
+                            </div>
+                            <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
+                                <h3 className="font-bold text-slate-900 mb-2">How fast can papers be served?</h3>
+                                <p className="text-sm text-slate-700">
+                                    Standard service is typically 5-7 business days, rush is 1-3 business days, same-day is usually 4-8 hours, and emergency service can dispatch in about 2 hours depending on location and timing.
+                                </p>
+                            </div>
+                            <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
+                                <h3 className="font-bold text-slate-900 mb-2">Is private process serving better than sheriff service?</h3>
+                                <p className="text-sm text-slate-700">
+                                    Private servers are usually faster and more flexible for evening/weekend attempts, and provide detailed GPS-backed documentation. Sheriff service can be valid, but often runs slower and with less schedule flexibility.
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+
                     {/* Video Section */}
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-gray-900 mb-6">Watch: How Process Serving Works</h2>
@@ -615,6 +640,27 @@ export default function ProcessServingPage() {
 
                     {/* Reviews Section */}
                     <ReviewWidget />
+
+                    {/* Trust & Verification Links */}
+                    <section className="mb-12">
+                        <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+                            <h2 className="text-2xl font-bold text-blue-900 mb-3">Trust & Verification</h2>
+                            <p className="text-blue-900/80 mb-4">
+                                Review verified feedback and core company credentials before you hire.
+                            </p>
+                            <div className="flex flex-col sm:flex-row gap-3">
+                                <Link href="/reviews/google" className="inline-flex items-center justify-center rounded-lg bg-blue-600 px-4 py-2.5 text-sm font-semibold text-white hover:bg-blue-700 transition">
+                                    Google Review Hub
+                                </Link>
+                                <Link href="/reviews" className="inline-flex items-center justify-center rounded-lg border border-blue-300 px-4 py-2.5 text-sm font-semibold text-blue-800 hover:bg-blue-100 transition">
+                                    All Verified Reviews
+                                </Link>
+                                <Link href="/about/joseph-iannazzi" className="inline-flex items-center justify-center rounded-lg border border-blue-300 px-4 py-2.5 text-sm font-semibold text-blue-800 hover:bg-blue-100 transition">
+                                    Founder Credentials
+                                </Link>
+                            </div>
+                        </div>
+                    </section>
 
                     {/* FAQ Section */}
                     <section className="mb-12">

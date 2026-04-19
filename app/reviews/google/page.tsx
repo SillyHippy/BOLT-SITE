@@ -122,7 +122,7 @@ export default function GoogleReviewsPage() {
         description="Google Business Profile reviews for Just Legal Solutions."
         aggregateRating={{
           ratingValue: 4.9,
-          reviewCount: 150,
+          reviewCount: 156,
           bestRating: 5,
           worstRating: 1,
         }}

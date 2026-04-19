@@ -17,6 +17,8 @@ function discoverBlogUrls() {
   const entries = fs.readdirSync(blogDir, { withFileTypes: true });
   for (const entry of entries) {
     if (entry.isDirectory()) {
+      // Skip taxonomy and dynamic-route folders; only include concrete post dirs
+      if (entry.name === 'category' || entry.name.startsWith('[')) continue;
       const pagePath = path.join(blogDir, entry.name, 'page.tsx');
       if (fs.existsSync(pagePath)) {
         urls.push(`/blog/${entry.name}`);
@@ -338,6 +340,25 @@ function generateSitemap() {
   const allUrls = [...new Set([...fileUrls, ...processedAdditionalUrls])]
     .filter(url => !excludeUrls.some(excludeUrl => url.endsWith(excludeUrl)));
 
+  function resolveAppPagePath(urlPath) {
+    // Normalize path for candidate generation
+    const normalizedPath = urlPath.replace(/\/+$/, '');
+
+    const candidates = [
+      normalizedPath === '/' ? path.join(APP_DIR, '(main)', 'page.tsx') : null,
+      normalizedPath === '/' ? path.join(APP_DIR, 'page.tsx') : null,
+      normalizedPath === '' ? path.join(APP_DIR, '(main)', 'page.tsx') : null,
+      normalizedPath === '' ? path.join(APP_DIR, 'page.tsx') : null,
+      normalizedPath ? path.join(APP_DIR, '(main)', normalizedPath.replace(/^\//, ''), 'page.tsx') : null,
+      normalizedPath ? path.join(APP_DIR, normalizedPath.replace(/^\//, ''), 'page.tsx') : null,
+    ].filter(Boolean);
+
+    for (const candidate of candidates) {
+      if (fs.existsSync(candidate)) return candidate;
+    }
+    return null;
+  }
+
   // Priority tiers: only 3-4 pages should be 1.0, everything else tiered down
   // This prevents Google from ignoring priority signals when too many pages are at 1.0
   const PRIORITY_1_0_PAGES = ['/', '/tulsa-process-server', '/pricing', '/contact'];
@@ -354,29 +375,9 @@ function generateSitemap() {
     // This gives Google accurate signals about what actually changed
     let lastmod = today; // Default to today for safety
     try {
-      // Map URL to actual file path
-      let filePath;
-      if (urlPath === '/') {
-        filePath = path.join(APP_DIR, '(main)', 'page.tsx');
-      } else if (urlPath.startsWith('/blog/')) {
-        const slug = urlPath.replace('/blog/', '');
-        filePath = path.join(APP_DIR, 'blog', slug, 'page.tsx');
-      } else if (urlPath.startsWith('/counties/')) {
-        const slug = urlPath.replace('/counties/', '');
-        filePath = path.join(APP_DIR, 'counties', slug === 'counties' ? '' : slug, 'page.tsx');
-      } else if (urlPath.startsWith('/service-areas/')) {
-        const slug = urlPath.replace('/service-areas/', '');
-        filePath = path.join(APP_DIR, 'service-areas', slug, 'page.tsx');
-      } else if (urlPath.startsWith('/videos/')) {
-        filePath = path.join(APP_DIR, '(main)', 'videos', '[slug]', 'page.tsx');
-      } else {
-        // For other pages, try to find them in app/(main)/
-        const pageName = urlPath.replace(/^\//, '').replace(/\/$/, '');
-        filePath = path.join(APP_DIR, '(main)', pageName, 'page.tsx');
-      }
-
-      if (filePath && fs.existsSync(filePath)) {
-        const stats = fs.statSync(filePath);
+      const pagePath = resolveAppPagePath(urlPath);
+      if (pagePath) {
+        const stats = fs.statSync(pagePath);
         lastmod = stats.mtime.toISOString().split('T')[0];
       }
     } catch (err) {

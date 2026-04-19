@@ -139,6 +139,24 @@ export default function OklahomaLandlordTenantEvictionTimelines() {
             <p>Few situations create more stress for Oklahoma property owners than dealing with a tenant who won&apos;t pay rent or follow lease terms. Whether you manage a single rental home in Midtown Tulsa or a portfolio of properties across Creek and Osage counties, understanding the eviction process isn&apos;t just helpful&mdash;it&apos;s essential for protecting your investment and avoiding costly legal missteps.</p>
             <p>This guide breaks down Oklahoma&apos;s eviction procedures step by step, from the first notice to the final move-out. We&apos;ll cover the specific timelines landlords must follow, the different types of eviction notices required under state law, and the common mistakes that can derail an otherwise valid case. By the end, you&apos;ll know exactly what to expect and how to keep your eviction on track.</p>
 
+            <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 my-8">
+              <h2 className="text-2xl font-bold text-slate-900 mt-0 mb-2">Need Service vs. Need Procedure?</h2>
+              <p className="text-slate-700 mb-4">
+                This page focuses on <strong>eviction timelines and workflow</strong>. If you need direct document delivery or service-rule detail, use these pages:
+              </p>
+              <div className="grid md:grid-cols-3 gap-3 text-sm">
+                <Link href="/eviction-notice-service" className="rounded-lg border border-slate-300 bg-white px-3 py-2 font-semibold text-slate-800 hover:bg-slate-100 transition">
+                  Eviction Notice Service (book delivery)
+                </Link>
+                <Link href="/seo/eviction-notice-process-server" className="rounded-lg border border-slate-300 bg-white px-3 py-2 font-semibold text-slate-800 hover:bg-slate-100 transition">
+                  Tulsa Eviction Service (same-day/rush)
+                </Link>
+                <Link href="/blog/how-to-serve-eviction-notices-in-oklahoma" className="rounded-lg border border-slate-300 bg-white px-3 py-2 font-semibold text-slate-800 hover:bg-slate-100 transition">
+                  How-To Guide (Title 41 vs Title 12)
+                </Link>
+              </div>
+            </div>
+
             <h2>Overview of Oklahoma&apos;s Residential Landlord Tenant Act (41 O.S.)</h2>
             <p>Oklahoma&apos;s landlord-tenant relationship is governed primarily by the <strong>Oklahoma Residential Landlord and Tenant Act</strong>, found in Title 41 of the Oklahoma Statutes (41 O.S. § 101 et seq.). This comprehensive law establishes the rights and responsibilities of both parties, outlines the legal grounds for eviction, and sets strict procedural requirements that landlords must follow.</p>
             <p>The Act applies to most residential rental agreements in Oklahoma, though there are some exceptions. It does not cover transient occupancy in hotels or motels, occupancy by employees of landlords as part of their employment, or certain subsidized housing programs that operate under federal regulations.</p>
