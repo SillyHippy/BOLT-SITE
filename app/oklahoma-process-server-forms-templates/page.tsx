@@ -901,11 +901,11 @@ export default function OklahomaProcessServerFormsPage() {
                 (539) 367-6832
               </a>
               <a
-                href="mailto:info@justlegalsolutions.org"
+                href="mailto:info@JustLegalSolutions.org"
                 className="flex items-center gap-2 text-gray-600 hover:text-blue-600"
               >
                 <Mail className="w-4 h-4" />
-                info@justlegalsolutions.org
+                info@JustLegalSolutions.org
               </a>
             </div>
           </div>

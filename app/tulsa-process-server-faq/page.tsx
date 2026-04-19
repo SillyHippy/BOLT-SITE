@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    site: '@JustLegalOK',
+    site: '@ServeOK',
     title: 'Tulsa Process Server FAQ — 2026',
     description: 'Service starts at $30 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours rush. Get answers on coverage, GPS proof, and starter steps.',
     images: ['https://justlegalsolutions.org/og-image.webp'],

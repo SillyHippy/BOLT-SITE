@@ -161,7 +161,7 @@ export default function PricingPage() {
           logo: "https://justlegalsolutions.org/email%20signature%20logo.png",
           contactPoint: {
             telephone: "(539) 367-6832",
-            email: "info@justlegalsolutions.org"
+            email: "info@JustLegalSolutions.org"
           },
           address: {
             streetAddress: "564 E 138th PL",
@@ -637,7 +637,7 @@ export default function PricingPage() {
               </div>
               <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200 hover:border-blue-300 transition-colors">
                 <h3 className="text-lg font-bold mb-3 text-blue-900">How do I get a quote for areas outside Tulsa?</h3>
-                <p className="text-gray-600 leading-relaxed">Call us at (539) 367-6832 or email info@justlegalsolutions.org with the service address. We serve all 77 Oklahoma counties and provide upfront quotes with no surprises. Same-day quotes available for most locations.</p>
+                <p className="text-gray-600 leading-relaxed">Call us at (539) 367-6832 or email info@JustLegalSolutions.org with the service address. We serve all 77 Oklahoma counties and provide upfront quotes with no surprises. Same-day quotes available for most locations.</p>
               </div>
             </div>
           </div>
@@ -733,7 +733,7 @@ export default function PricingPage() {
                   "name": "How do I get a quote for process serving outside Tulsa?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Call us at (539) 367-6832 or email info@justlegalsolutions.org with the service address. We serve all 77 Oklahoma counties and provide upfront quotes."
+                    "text": "Call us at (539) 367-6832 or email info@JustLegalSolutions.org with the service address. We serve all 77 Oklahoma counties and provide upfront quotes."
                   }
                 }
               ]

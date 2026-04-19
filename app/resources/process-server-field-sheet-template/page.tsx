@@ -477,9 +477,9 @@ export default function ProcessServerFieldSheetTemplate() {
                   <Phone className="w-4 h-4" />
                   (539) 367-6832
                 </a>
-                <a href="mailto:info@justlegalsolutions.org" className="flex items-center gap-2 hover:text-blue-600 transition-colors">
+                <a href="mailto:info@JustLegalSolutions.org" className="flex items-center gap-2 hover:text-blue-600 transition-colors">
                   <Mail className="w-4 h-4" />
-                  info@justlegalsolutions.org
+                  info@JustLegalSolutions.org
                 </a>
               </div>
             </div>

@@ -56,7 +56,7 @@ const personSchema = {
   "description": "Licensed Oklahoma Notary Public, Remote Online Notarization (RON) certified, and professional process server serving Tulsa County and all of Oklahoma.",
   "image": "https://justlegalsolutions.org/images/1Headshot.webp",
   "telephone": "+1-539-367-6832",
-  "email": "info@justlegalsolutions.org",
+  "email": "info@JustLegalSolutions.org",
   "worksFor": {
     "@type": "LocalBusiness",
     "name": "Just Legal Solutions",
@@ -700,7 +700,7 @@ export default function JosephCredentialsPage() {
                 Call (539) 367-6832
               </a>
               <a
-                href="mailto:info@justlegalsolutions.org"
+                href="mailto:info@JustLegalSolutions.org"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-blue-500 text-white rounded-lg font-bold hover:bg-blue-400 transition-colors"
               >
                 <Mail className="w-5 h-5" />

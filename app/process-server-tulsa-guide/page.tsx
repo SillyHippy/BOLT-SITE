@@ -28,8 +28,8 @@ export const metadata: Metadata = {
     title: 'Complete Guide to Process Server Selection in Tulsa: 2025 Edition',
     description: 'Your complete resource for selecting, hiring, and working with professional process servers in Tulsa County.',
     images: ['/imagesforblogpost/tulsa-county-courthouse-oklahoma-legal-system.webp'],
-    site: '@JustLegalSolutions',
-    creator: '@JustLegalSolutions'
+    site: '@ServeOK',
+    creator: '@ServeOK'
   },
   alternates: {
     canonical: canonicalUrl

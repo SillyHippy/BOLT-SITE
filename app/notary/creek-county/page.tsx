@@ -144,7 +144,7 @@ const faqs = [
   {
     question: 'How do I confirm availability or request pricing?',
     answer:
-      'Call (539) 367-6832, email info@justlegalsolutions.org, or start at our main notary page at /notary. For published fee references visit /pricing.'
+      'Call (539) 367-6832, email info@JustLegalSolutions.org, or start at our main notary page at /notary. For published fee references visit /pricing.'
   },
   {
     question: 'Where can I review Joseph’s credentials?',
@@ -166,7 +166,7 @@ const localBusinessSchema = {
   name: 'Just Legal Solutions - Creek County Mobile Notary',
   url: canonicalUrl,
   telephone: '(539) 367-6832',
-  email: 'info@justlegalsolutions.org',
+  email: 'info@JustLegalSolutions.org',
   areaServed: cities.map((city) => ({ '@type': 'City', name: `${city.name}, OK` })),
   address: {
     '@type': 'PostalAddress',
@@ -200,7 +200,7 @@ const notaryServiceSchema = {
     { '@type': 'ServiceChannel', serviceUrl: 'https://justlegalsolutions.org/remote-online-notary', name: 'Remote Online Notary' }
   ],
   telephone: '(539) 367-6832',
-  email: 'info@justlegalsolutions.org'
+  email: 'info@JustLegalSolutions.org'
 };
 
 const breadcrumbSchema = {
@@ -260,11 +260,11 @@ export default function CreekCountyNotaryPage() {
                     (539) 367-6832
                   </a>
                   <a
-                    href="mailto:info@justlegalsolutions.org"
+                    href="mailto:info@JustLegalSolutions.org"
                     className="inline-flex items-center gap-2 border border-white/60 px-6 py-3 rounded-lg font-semibold hover:bg-white/10"
                   >
                     <Mail className="w-5 h-5" />
-                    info@justlegalsolutions.org
+                    info@JustLegalSolutions.org
                   </a>
                   <Link
                     href="/notary"
@@ -448,7 +448,7 @@ export default function CreekCountyNotaryPage() {
                 <Phone className="w-5 h-5" />
                 Call Now
               </a>
-              <a href="mailto:info@justlegalsolutions.org" className="inline-flex items-center gap-2 border border-white px-6 py-3 rounded-lg font-semibold">
+              <a href="mailto:info@JustLegalSolutions.org" className="inline-flex items-center gap-2 border border-white px-6 py-3 rounded-lg font-semibold">
                 <Mail className="w-5 h-5" />
                 Email Dispatch
               </a>

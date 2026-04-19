@@ -37,8 +37,8 @@ export const metadata: Metadata = {
     description:
       'Step-by-step guidance for process servers navigating OK state and tribal jurisdictions after McGirt.',
     images: ['/images/oklahoma-process-server-service-area-map.webp'],
-    creator: '@JustLegalSolutions',
-    site: '@JustLegalSolutions'
+    creator: '@ServeOK',
+    site: '@ServeOK'
   },
   robots: 'index, follow',
   alternates: {

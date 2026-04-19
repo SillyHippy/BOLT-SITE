@@ -61,7 +61,7 @@ export default function WebsiteSchema({
       "url": url,
       "image": "https://justlegalsolutions.org/images/jls-logo.webp",
       "telephone": "+15393676832",
-      "email": "info@justlegalsolutions.org",
+      "email": "info@JustLegalSolutions.org",
       "address": {
               "@type": "PostalAddress",
               "streetAddress": "564 E 138th PL",

@@ -61,7 +61,7 @@ const heroStats = [
 
 const contactMethods = [
   { label: 'Call', value: '(539) 367-6832', href: 'tel:5393676832', icon: Phone },
-  { label: 'Email', value: 'info@justlegalsolutions.org', href: 'mailto:info@justlegalsolutions.org', icon: Mail }
+  { label: 'Email', value: 'info@JustLegalSolutions.org', href: 'mailto:info@JustLegalSolutions.org', icon: Mail }
 ];
 
 const valueProps = [
@@ -191,7 +191,7 @@ const faqs = [
   {
     question: 'How do I get started?',
     answer:
-      'Call (539) 367-6832 or email info@justlegalsolutions.org with scans of your documents. We confirm eligibility, quote competitive rates, and send intake instructions the same day.'
+      'Call (539) 367-6832 or email info@JustLegalSolutions.org with scans of your documents. We confirm eligibility, quote competitive rates, and send intake instructions the same day.'
   },
   {
     question: 'Can I apostille a document notarized electronically in Oklahoma?',
@@ -423,7 +423,7 @@ const localBusinessSchema = {
   name: 'Just Legal Solutions',
   url: canonicalUrl,
   telephone: '(539) 367-6832',
-  email: 'info@justlegalsolutions.org',
+  email: 'info@JustLegalSolutions.org',
   description: 'Apostille and legalization specialists serving all 77 Oklahoma counties with secure nationwide shipping.',
   areaServed: [{ '@type': 'State', name: 'Oklahoma' }],
   sameAs: ['https://justlegalsolutions.org', 'https://www.facebook.com/justlegalsolutions'],
@@ -512,7 +512,7 @@ export default function ApostillePage() {
                   Call (539) 367-6832
                 </a>
                 <a
-                  href="mailto:info@justlegalsolutions.org"
+                  href="mailto:info@JustLegalSolutions.org"
                   className="inline-flex items-center gap-2 border border-white/60 px-6 py-3 rounded-xl font-semibold hover:bg-white/10 transition"
                 >
                   <Mail className="w-5 h-5" />
@@ -942,11 +942,11 @@ export default function ApostillePage() {
                 (539) 367-6832
               </a>
               <a
-                href="mailto:info@justlegalsolutions.org"
+                href="mailto:info@JustLegalSolutions.org"
                 className="inline-flex items-center gap-2 border border-white/60 px-6 py-3 rounded-2xl font-semibold hover:bg-white/10"
               >
                 <Mail className="w-5 h-5" />
-                info@justlegalsolutions.org
+                info@JustLegalSolutions.org
               </a>
             </div>
           </div>

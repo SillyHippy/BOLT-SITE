@@ -453,7 +453,7 @@ const SitemapPage = () => {
           logo: "https://justlegalsolutions.org/logo.png",
           contactPoint: {
             telephone: "+1-539-367-6832",
-            email: "info@justlegalsolutions.org"
+            email: "info@JustLegalSolutions.org"
           },
           address: {
             streetAddress: "564 E 138th PL",

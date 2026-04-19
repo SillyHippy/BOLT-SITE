@@ -25,7 +25,7 @@ const localBusinessSchema = {
   description: 'Professional loan signing agent and notary services in Tulsa, Oklahoma. NNA-certified notary signing agents for mortgage closings, refinances, HELOCs, and reverse mortgages.',
   url: 'https://justlegalsolutions.org/loan-signing-agent-tulsa/',
   telephone: '+1-539-367-6832',
-  email: 'info@justlegalsolutions.org',
+  email: 'info@JustLegalSolutions.org',
   address: {
     '@type': 'PostalAddress',
     streetAddress: '564 E 138th Pl',

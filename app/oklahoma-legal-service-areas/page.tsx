@@ -27,8 +27,8 @@ export const metadata: Metadata = {
     title: 'Oklahoma Legal Service Areas: Complete 2026 Coverage Guide for All 77 Counties',
     description: 'Discover comprehensive legal service coverage across all Oklahoma regions for 2026, including detailed analysis of urban centers, suburban communities, rural territories, and tribal lands.',
     images: ['/images/oklahoma-counties-coverage-map.png'],
-    site: '@JustLegalSolutions',
-    creator: '@JustLegalSolutions'
+    site: '@ServeOK',
+    creator: '@ServeOK'
   },
   authors: [{ name: 'JLS Legal Solutions' }],
   robots: 'index, follow'

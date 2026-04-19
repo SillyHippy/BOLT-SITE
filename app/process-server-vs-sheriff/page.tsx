@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    site: '@JustLegalOK',
+    site: '@ServeOK',
     title: 'Process Server vs Sheriff in Oklahoma',
     description: 'Private process serving starts at $30 single-attempt vs $40-50 sheriff fees with 2-4 week turnaround. Compare GPS proof, after-hours, and weekend service.',
     images: ['https://justlegalsolutions.org/og-image.webp'],

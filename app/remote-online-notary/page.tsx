@@ -59,8 +59,8 @@ export const metadata: Metadata = {
     description:
       'Licensed Oklahoma remote online notaries ready 24/7. Upload, verify, sign, and receive your documents with Title 49 compliant tech.',
     images: ['https://justlegalsolutions.org/images/ron-hero.webp'],
-    creator: '@JustLegalOK',
-    site: '@JustLegalSolutions'
+    creator: '@ServeOK',
+    site: '@ServeOK'
   },
   robots: 'index, follow',
   other: {
@@ -350,7 +350,7 @@ const serviceSchema = {
   name: 'Just Legal Solutions Remote Online Notary',
   url: canonicalUrl,
   telephone: '(539) 367-6832',
-  email: 'info@justlegalsolutions.org',
+  email: 'info@JustLegalSolutions.org',
   description: 'Secure remote online notarization (RON) for Oklahoma residents and businesses. Commissioned Oklahoma notaries available via live video 24/7. Signer anywhere in the world, notary physically in Oklahoma.',
   provider: {
     '@type': 'Organization',
@@ -445,7 +445,7 @@ const localBusinessSchema = {
   image: 'https://justlegalsolutions.org/images/ron-hero.webp',
   url: canonicalUrl,
   telephone: '(539) 367-6832',
-  email: 'info@justlegalsolutions.org',
+  email: 'info@JustLegalSolutions.org',
   areaServed: {
     '@type': 'State',
     name: 'Oklahoma',
@@ -591,7 +591,7 @@ const RemoteOnlineNotaryPage = () => {
                 <Phone className="h-5 w-5" /> Call (539) 367-6832
               </a>
               <a
-                href="mailto:info@justlegalsolutions.org"
+                href="mailto:info@JustLegalSolutions.org"
                 className="inline-flex items-center gap-2 rounded-full border-2 border-white/70 px-8 py-4 font-semibold text-white hover:bg-white/10 transition"
               >
                 <Mail className="h-5 w-5" /> Email Us
@@ -871,7 +871,7 @@ const RemoteOnlineNotaryPage = () => {
               <p className="text-sm uppercase tracking-wide text-slate-900">Ready in Minutes</p>
               <h2 className="text-3xl font-bold">Schedule Your Remote Online Notary Session</h2>
               <p className="mt-4 text-lg">
-                Call (539) 367-6832, email info@justlegalsolutions.org, or submit your documents through our secure intake to reserve today. We confirm eligibility, gather IDs, and coordinate any witnesses before you log in so the live signing feels effortless.
+                Call (539) 367-6832, email info@JustLegalSolutions.org, or submit your documents through our secure intake to reserve today. We confirm eligibility, gather IDs, and coordinate any witnesses before you log in so the live signing feels effortless.
               </p>
               <p className="mt-4 text-lg">
                 Need after-hours scheduling? Our team is available 24/7 for urgent notarizations—call anytime and we&apos;ll get you on the calendar.
@@ -880,7 +880,7 @@ const RemoteOnlineNotaryPage = () => {
                 <a href="tel:15393676832" className="inline-flex items-center gap-2 rounded-full bg-slate-950 px-5 py-3 font-semibold text-white">
                   <Phone className="h-5 w-5" /> Call (539) 367-6832
                 </a>
-                <a href="mailto:info@justlegalsolutions.org" className="inline-flex items-center gap-2 rounded-full border border-slate-900 px-5 py-3 font-semibold text-slate-900">
+                <a href="mailto:info@JustLegalSolutions.org" className="inline-flex items-center gap-2 rounded-full border border-slate-900 px-5 py-3 font-semibold text-slate-900">
                   <Mail className="h-5 w-5" /> Email Our Team
                 </a>
               </div>

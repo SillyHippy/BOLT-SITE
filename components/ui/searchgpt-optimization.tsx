@@ -136,7 +136,7 @@ export default function SearchGPTOptimization({
       },
       {
         "@type": "ContactPoint",
-        "email": "info@justlegalsolutions.org", 
+        "email": "info@JustLegalSolutions.org", 
         "contactType": "customer service",
         "description": "Email for non-urgent inquiries and scheduling"
       }

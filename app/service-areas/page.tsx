@@ -22,7 +22,7 @@ const localBusinessSchema = {
   "name": "Just Legal Solutions",
   "image": "https://justlegalsolutions.org/images/process-server-tulsa.webp",
   "telephone": "+1-539-367-6832",
-  "email": "contact@justlegalsolutions.org",
+  "email": "contact@JustLegalSolutions.org",
   "url": "https://justlegalsolutions.org",
   "address": {
     "@type": "PostalAddress",

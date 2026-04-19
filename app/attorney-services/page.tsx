@@ -25,7 +25,7 @@ const localBusinessSchema = {
   description: 'Professional process serving and legal support services for attorneys and law firms throughout Oklahoma. Volume pricing, monthly billing, and dedicated account management.',
   url: 'https://justlegalsolutions.org/attorney-services/',
   telephone: '+1-539-367-6832',
-  email: 'info@justlegalsolutions.org',
+  email: 'info@JustLegalSolutions.org',
   address: {
     '@type': 'PostalAddress',
     streetAddress: '564 E 138th Pl',
@@ -239,7 +239,7 @@ const faqSchema = {
       name: 'How do I get started with attorney services?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Getting started is simple. Call (539) 367-6832 or email info@justlegalsolutions.org to discuss your firm\'s needs. We\'ll set up your attorney account with preferred service protocols, provide access to our tracking portal, and establish billing arrangements (monthly invoicing available). For firms with immediate needs, we can begin service the same day your account is established. We also offer a complimentary consultation to review your current process serving workflow and identify optimization opportunities.',
+        text: 'Getting started is simple. Call (539) 367-6832 or email info@JustLegalSolutions.org to discuss your firm\'s needs. We\'ll set up your attorney account with preferred service protocols, provide access to our tracking portal, and establish billing arrangements (monthly invoicing available). For firms with immediate needs, we can begin service the same day your account is established. We also offer a complimentary consultation to review your current process serving workflow and identify optimization opportunities.',
       },
     },
   ],
@@ -901,7 +901,7 @@ export default function AttorneyServicesPage() {
                 },
                 {
                   question: 'How do I get started with attorney services?',
-                  answer: 'Getting started is simple. Call (539) 367-6832 or email info@justlegalsolutions.org to discuss your firm\'s needs. We\'ll set up your attorney account with preferred service protocols, provide access to our tracking portal, and establish billing arrangements (monthly invoicing available). For firms with immediate needs, we can begin service the same day your account is established. We also offer a complimentary consultation to review your current process serving workflow and identify optimization opportunities.',
+                  answer: 'Getting started is simple. Call (539) 367-6832 or email info@JustLegalSolutions.org to discuss your firm\'s needs. We\'ll set up your attorney account with preferred service protocols, provide access to our tracking portal, and establish billing arrangements (monthly invoicing available). For firms with immediate needs, we can begin service the same day your account is established. We also offer a complimentary consultation to review your current process serving workflow and identify optimization opportunities.',
                 },
               ].map((faq, index) => (
                 <div key={index} className="bg-gray-50 p-6 rounded-xl">

@@ -176,7 +176,7 @@ export default function VirtualAssistantServicesPage() {
     },
     {
       question: 'How do I get started with your virtual assistant services?',
-      answer: 'Getting started is easy! Call us at (539) 367-6832 or email contact@justlegalsolutions.org to schedule a free consultation. We\'ll discuss your needs, workflow, and provide a customized quote within 24 hours.',
+      answer: 'Getting started is easy! Call us at (539) 367-6832 or email contact@JustLegalSolutions.org to schedule a free consultation. We\'ll discuss your needs, workflow, and provide a customized quote within 24 hours.',
     },
     {
       question: 'Can you help with HR and payroll for my small business?',
@@ -198,7 +198,7 @@ export default function VirtualAssistantServicesPage() {
             "description": "Professional virtual assistant and executive support services in Oklahoma. Specializing in executive support, HR & payroll, event coordination, travel management, and administrative services.",
             "url": "https://justlegalsolutions.org/virtual-assistant-services",
             "telephone": "(539) 367-6832",
-            "email": "contact@justlegalsolutions.org",
+            "email": "contact@JustLegalSolutions.org",
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "Tulsa",
@@ -298,7 +298,7 @@ export default function VirtualAssistantServicesPage() {
                 Call (539) 367-6832
               </Link>
               <Link
-                href="mailto:contact@justlegalsolutions.org?subject=Virtual Assistant Services Inquiry"
+                href="mailto:contact@JustLegalSolutions.org?subject=Virtual Assistant Services Inquiry"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-blue-600 rounded-lg hover:bg-gray-100 transition-all text-lg font-semibold shadow-lg hover:shadow-xl"
               >
                 <Mail className="h-5 w-5" />
@@ -483,7 +483,7 @@ export default function VirtualAssistantServicesPage() {
           </div>
           
           <p className="text-center text-gray-500 mt-8">
-            Have specific requirements? <Link href="mailto:contact@justlegalsolutions.org" className="text-blue-600 hover:underline">Email us</Link> for a custom quote.
+            Have specific requirements? <Link href="mailto:contact@JustLegalSolutions.org" className="text-blue-600 hover:underline">Email us</Link> for a custom quote.
           </p>
         </section>
 
@@ -584,7 +584,7 @@ export default function VirtualAssistantServicesPage() {
                 (539) 367-6832
               </Link>
               <Link
-                href="mailto:contact@justlegalsolutions.org?subject=Virtual Assistant Services - Free Consultation"
+                href="mailto:contact@JustLegalSolutions.org?subject=Virtual Assistant Services - Free Consultation"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-blue-700 text-white rounded-lg hover:bg-blue-800 transition-all text-lg font-semibold shadow-lg border border-blue-500"
               >
                 <Mail className="h-5 w-5" />

@@ -41,7 +41,7 @@ const jsonLd = {
   description: 'Professional legal notice posting service for Tulsa County when personal service is not possible. Court-approved alternative service including conspicuous posting and certified mailing for evictions, foreclosures, and property notices with full Oklahoma law compliance.',
   url: 'https://justlegalsolutions.org/seo/legal-posting-process-server',
   telephone: '(539) 367-6832',
-  email: 'info@justlegalsolutions.org',
+  email: 'info@JustLegalSolutions.org',
   areaServed: [{ '@type': 'AdministrativeArea', name: 'Tulsa County' }],
   serviceType: ['Legal Notice Posting', 'Alternative Service of Process'],
 };

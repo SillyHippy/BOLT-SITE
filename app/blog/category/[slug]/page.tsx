@@ -136,6 +136,7 @@ export default async function BlogCategoryPage({
   return (
     <div className="min-h-screen bg-gray-50">
       <UnifiedSchema
+        pageType="generic"
         url={url}
         title={`${category.name} | Just Legal Solutions Blog`}
         description={category.description}
@@ -152,7 +153,7 @@ export default async function BlogCategoryPage({
       />
 
       <Navbar />
-      <LocalPromoBanner />
+      <LocalPromoBanner zips={[]} />
 
       <main>
         <section className={`${colors.bg} border-b ${colors.border}`}>
@@ -243,7 +244,7 @@ export default async function BlogCategoryPage({
             </p>
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {otherCategories.map((c) => {
-                const cIcon = iconMap[c.icon];
+                const CIcon = iconMap[c.icon];
                 const cColors = colorMap[c.color];
                 return (
                   <Link
@@ -254,7 +255,7 @@ export default async function BlogCategoryPage({
                     <div
                       className={`flex-shrink-0 w-10 h-10 rounded-lg ${cColors.accent} text-white flex items-center justify-center`}
                     >
-                      <cIcon className="w-5 h-5" />
+                      <CIcon className="w-5 h-5" />
                     </div>
                     <div>
                       <h3 className="font-semibold text-gray-900 group-hover:text-blue-700">

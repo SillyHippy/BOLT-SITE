@@ -68,7 +68,7 @@ export default function WeekendEmergency() {
             <a href="tel:5393676832" className="inline-block bg-red-600 text-white px-8 py-4 rounded-lg text-2xl font-bold shadow-lg hover:bg-red-700 transition mb-4">
               Call or Text (539) 367-6832 Now
             </a>
-            <div className="mt-2 text-gray-600 text-sm mb-4">Or email: <a href="mailto:info@justlegalsolutions.org" className="underline text-blue-700">info@justlegalsolutions.org</a></div>
+            <div className="mt-2 text-gray-600 text-sm mb-4">Or email: <a href="mailto:info@JustLegalSolutions.org" className="underline text-blue-700">info@JustLegalSolutions.org</a></div>
             <a href="/about" className="inline-block bg-blue-700 text-white px-6 py-3 rounded-lg text-lg font-semibold shadow hover:bg-blue-900 transition mt-2">Why We’re Different: Read Our Story</a>
           </div>
           <div className="flex-1 flex flex-col gap-4 items-center min-w-0">

@@ -30,7 +30,7 @@ export default function StaticSEO2025() {
       <meta property="og:type" content="website" />
       <meta property="og:site_name" content="Just Legal Solutions" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:site" content="@justlegalsol" />
+      <meta name="twitter:site" content="@ServeOK" />
     </>
   );
 }

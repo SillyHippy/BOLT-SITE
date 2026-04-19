@@ -32,8 +32,8 @@ export const metadata: Metadata = {
     title: 'Oklahoma Process Server Pricing Guide (Updated 2026): Transparent Costs & Value-Added Services',
     description: 'Understanding process serving costs in Oklahoma helps attorneys, law firms, and individuals budget effectively while ensuring quality service.',
     images: ['/images/oklahoma-process-server-service-area-map.webp'],
-    creator: '@JustLegalSolutions',
-    site: '@JustLegalSolutions',
+    creator: '@ServeOK',
+    site: '@ServeOK',
   },
   robots: 'index, follow',
   alternates: {

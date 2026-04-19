@@ -214,7 +214,7 @@ const localBusinessSchema = {
   description: 'Oklahoma real estate notary and loan signing services for mortgages, refinances, deeds, and escrow packets.',
   url: canonicalUrl,
   telephone: '(539) 367-6832',
-  email: 'info@justlegalsolutions.org',
+  email: 'info@JustLegalSolutions.org',
   image: 'https://justlegalsolutions.org/images/real-estate-notary-og.jpg',
   address: {
     '@type': 'PostalAddress',
@@ -310,11 +310,11 @@ export default function RealEstateNotaryPage() {
                     Call (539) 367-6832
                   </a>
                   <a
-                    href="mailto:info@justlegalsolutions.org"
+                    href="mailto:info@JustLegalSolutions.org"
                     className="inline-flex items-center gap-2 border border-white/70 text-white px-6 py-3 rounded-xl font-semibold"
                   >
                     <ArrowRight className="w-5 h-5" />
-                    info@justlegalsolutions.org
+                    info@JustLegalSolutions.org
                   </a>
                 </div>
                 <div className="flex flex-wrap gap-3 text-sm text-white/90">
@@ -511,7 +511,7 @@ export default function RealEstateNotaryPage() {
             <p className="text-sm font-semibold uppercase tracking-wide text-amber-700">Ready when you are</p>
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Book your Oklahoma loan signing today</h2>
             <p className="text-lg text-gray-600 mb-8">
-              Email your package to info@justlegalsolutions.org or call (539) 367-6832. We will confirm the schedule, witnesses, ID requirements, and delivery instructions so your closing stays on time.
+              Email your package to info@JustLegalSolutions.org or call (539) 367-6832. We will confirm the schedule, witnesses, ID requirements, and delivery instructions so your closing stays on time.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <a href="tel:5393676832" className="inline-flex items-center gap-2 bg-amber-600 text-white px-6 py-3 rounded-xl font-semibold shadow">

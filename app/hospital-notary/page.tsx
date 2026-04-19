@@ -200,7 +200,7 @@ const faqs = [
   },
   {
     question: 'How do we schedule an urgent visit?',
-    answer: 'Call (539) 367-6832 anytime or email info@justlegalsolutions.org. Provide patient or inmate details, location, required documents, and time sensitivity.'
+    answer: 'Call (539) 367-6832 anytime or email info@JustLegalSolutions.org. Provide patient or inmate details, location, required documents, and time sensitivity.'
   },
   {
     question: 'What if the patient cannot physically sign?',
@@ -296,7 +296,7 @@ const localBusinessSchema = {
   '@type': 'LocalBusiness',
   'name': 'Just Legal Solutions',
   'telephone': '(539) 367-6832',
-  'email': 'info@justlegalsolutions.org',
+  'email': 'info@JustLegalSolutions.org',
   'url': canonicalUrl,
   'areaServed': {
     '@type': 'State',
@@ -715,8 +715,8 @@ export default function HospitalNotaryPage() {
                   <a href="tel:5393676832" className="flex items-center gap-3 text-indigo-900 bg-gradient-to-r from-indigo-100 to-purple-100 font-semibold px-5 py-3 rounded-xl">
                     <Phone className="w-5 h-5" /> (539) 367-6832
                   </a>
-                  <a href="mailto:info@justlegalsolutions.org" className="flex items-center gap-3 text-indigo-700 px-5 py-3 border border-indigo-200 rounded-xl hover:bg-indigo-50">
-                    <Mail className="w-5 h-5" /> info@justlegalsolutions.org
+                  <a href="mailto:info@JustLegalSolutions.org" className="flex items-center gap-3 text-indigo-700 px-5 py-3 border border-indigo-200 rounded-xl hover:bg-indigo-50">
+                    <Mail className="w-5 h-5" /> info@JustLegalSolutions.org
                   </a>
                   <Link href="/notary" className="flex items-center gap-2 text-indigo-700 font-semibold hover:text-indigo-900">
                     Learn about all notary services <ArrowRight className="w-4 h-4" />
@@ -789,8 +789,8 @@ export default function HospitalNotaryPage() {
                 <a href="tel:5393676832" className="flex items-center gap-3 bg-white text-indigo-900 font-semibold px-5 py-3 rounded-xl">
                   <Phone className="w-5 h-5" /> (539) 367-6832
                 </a>
-                <a href="mailto:info@justlegalsolutions.org" className="flex items-center gap-3 text-white border border-white/50 px-5 py-3 rounded-xl">
-                  <Mail className="w-5 h-5" /> info@justlegalsolutions.org
+                <a href="mailto:info@JustLegalSolutions.org" className="flex items-center gap-3 text-white border border-white/50 px-5 py-3 rounded-xl">
+                  <Mail className="w-5 h-5" /> info@JustLegalSolutions.org
                 </a>
               </div>
             </div>

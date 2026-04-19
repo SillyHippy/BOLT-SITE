@@ -112,7 +112,7 @@ export default function ChatGPTOptimization({
     "contactPoint": {
       "@type": "ContactPoint",
       "telephone": "+15393676832",
-      "email": "info@justlegalsolutions.org",
+      "email": "info@JustLegalSolutions.org",
       "contactType": "customer service",
       "areaServed": "Oklahoma",
       "availableLanguage": "English",

@@ -65,7 +65,7 @@ export default function EntityRecognitionSchema({
       },
       {
         "@type": "EmailAction", 
-        "target": "mailto:info@justlegalsolutions.org"
+        "target": "mailto:info@JustLegalSolutions.org"
       }
     ],
     "mainEntityOfPage": {

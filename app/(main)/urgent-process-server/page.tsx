@@ -495,7 +495,7 @@ const UrgentProcessServerPage = () => {
                 </div>
                 <div>
                   <strong className="text-gray-900">Email:</strong>
-                  <p className="text-gray-600"><a href="mailto:info@justlegalsolutions.org" className="text-blue-600 hover:underline">info@justlegalsolutions.org</a></p>
+                  <p className="text-gray-600"><a href="mailto:info@JustLegalSolutions.org" className="text-blue-600 hover:underline">info@JustLegalSolutions.org</a></p>
                 </div>
                 <div>
                   <strong className="text-gray-900">Coverage:</strong>

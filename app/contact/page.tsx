@@ -41,7 +41,7 @@ export const metadata = {
     title: '(539) 367-6832 | Contact Just Legal Solutions',
     description: 'Get a free quote for process serving in Oklahoma. Service starts at $30 single-attempt, $60 standard, $100 rush. Call (539) 367-6832. Licensed & bonded. All 77 OK counties.',
     images: ['https://justlegalsolutions.org/og-image.webp'],
-    site: '@JustLegalOK',
+    site: '@ServeOK',
   }
 };
 
@@ -76,7 +76,7 @@ export default function ContactPage() {
               "name": "Just Legal Solutions",
               "url": "https://justlegalsolutions.org",
               "telephone": "+15393676832",
-              "email": "info@justlegalsolutions.org",
+              "email": "info@JustLegalSolutions.org",
               "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "564 E 138th PL",
@@ -174,10 +174,10 @@ export default function ContactPage() {
                   <h3 className="font-bold text-white mb-1">Call Us</h3>
                   <p className="text-blue-100 font-semibold">(539) 367-6832</p>
                 </a>
-                <a href="mailto:info@justlegalsolutions.org" className="bg-white/10 backdrop-blur-sm p-6 rounded-xl hover:bg-white/20 transition-all duration-300 hover:-translate-y-1 group">
+                <a href="mailto:info@JustLegalSolutions.org" className="bg-white/10 backdrop-blur-sm p-6 rounded-xl hover:bg-white/20 transition-all duration-300 hover:-translate-y-1 group">
                   <Mail className="h-8 w-8 text-white mx-auto mb-3 group-hover:scale-110 transition-transform" />
                   <h3 className="font-bold text-white mb-1">Email Us</h3>
-                  <p className="text-blue-100 font-semibold text-sm">info@justlegalsolutions.org</p>
+                  <p className="text-blue-100 font-semibold text-sm">info@JustLegalSolutions.org</p>
                 </a>
               </div>
             </div>
@@ -281,12 +281,12 @@ export default function ContactPage() {
             </div>
             <div className="mt-4 pt-4 border-t border-gray-100">
               <h3 className="font-semibold text-lg text-gray-800 mb-2">How to Submit Documents</h3>
-              <p className="text-gray-700 text-sm">You can submit documents for service by email at info@justlegalsolutions.org or through our secure online portal. We accept PDF, DOCX, and physical copies. Once received, our team will confirm receipt and provide an estimated service timeline, typically within one business hour during standard hours.</p>
+              <p className="text-gray-700 text-sm">You can submit documents for service by email at info@JustLegalSolutions.org or through our secure online portal. We accept PDF, DOCX, and physical copies. Once received, our team will confirm receipt and provide an estimated service timeline, typically within one business hour during standard hours.</p>
             </div>
           </section>
           {/* Accessibility Statement */}
           <section className="max-w-3xl mx-auto bg-gray-50 rounded-lg shadow-md p-4 mb-8 border border-gray-200">
-            <p className="text-xs text-gray-600">We are committed to accessibility. If you have trouble using this site or need assistance, please <a href="mailto:info@justlegalsolutions.org" className="text-blue-600 hover:underline">contact us</a> and we will help promptly.</p>
+            <p className="text-xs text-gray-600">We are committed to accessibility. If you have trouble using this site or need assistance, please <a href="mailto:info@JustLegalSolutions.org" className="text-blue-600 hover:underline">contact us</a> and we will help promptly.</p>
           </section>
           <div className="mb-4">
             <div className="rounded overflow-hidden shadow border border-gray-200">

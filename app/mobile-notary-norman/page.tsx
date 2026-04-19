@@ -71,7 +71,7 @@ const notaryServiceSchema = {
   url: canonicalUrl,
   image: 'https://justlegalsolutions.org/images/notary-mobile-og.jpg',
   telephone: '+1-539-367-6832',
-  email: 'info@justlegalsolutions.org',
+  email: 'info@JustLegalSolutions.org',
   description: 'Professional mobile notary services throughout Norman and Cleveland County. Licensed, bonded Oklahoma notaries come to your location.',
   areaServed: {
     '@type': 'City',

@@ -26,7 +26,7 @@ const localBusinessSchema = {
   description: 'Professional title company notary services for real estate closings, deeds, and mortgage documents in Tulsa, Oklahoma.',
   url: 'https://justlegalsolutions.org/title-company-notary-services/',
   telephone: '+1-539-367-6832',
-  email: 'joseph@justlegalsolutions.org',
+  email: 'joseph@JustLegalSolutions.org',
   address: {
     '@type': 'PostalAddress',
     streetAddress: '564 E 138th Pl',

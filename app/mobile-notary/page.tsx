@@ -179,7 +179,7 @@ const processSteps = [
   {
     title: '1. Connect 24/7',
     detail:
-      'Call (539) 367-6832, email info@justlegalsolutions.org, or submit our secure form any hour. A commissioned notary—not a call center—confirms the document type, signer capacity, witness needs, and any hospital or jail clearance requirements. We also gather docket or loan numbers so we can coordinate with your legal team.'
+      'Call (539) 367-6832, email info@JustLegalSolutions.org, or submit our secure form any hour. A commissioned notary—not a call center—confirms the document type, signer capacity, witness needs, and any hospital or jail clearance requirements. We also gather docket or loan numbers so we can coordinate with your legal team.'
   },
   {
     title: '2. Schedule & Prep',
@@ -357,7 +357,7 @@ const notaryServiceSchema = {
   url: canonicalUrl,
   image: 'https://justlegalsolutions.org/images/notary-mobile-og.jpg',
   telephone: '+1-539-367-6832',
-  email: 'info@justlegalsolutions.org',
+  email: 'info@JustLegalSolutions.org',
   description: 'Professional mobile notary services throughout Oklahoma and Tulsa County. Licensed, bonded Oklahoma notaries come to your location. Same-day appointments available.',
   slogan: '$10,000 Surety Bonded | Background Screened | E&O Insured | NNA Certified',
   provider: {
@@ -431,7 +431,7 @@ const localBusinessSchema = {
   url: 'https://justlegalsolutions.org',
   image: 'https://justlegalsolutions.org/images/logo.png',
   telephone: '+1-539-367-6832',
-  email: 'info@justlegalsolutions.org',
+  email: 'info@JustLegalSolutions.org',
   areaServed: {
     '@type': 'State',
     'name': 'Oklahoma'
@@ -457,7 +457,7 @@ const localBusinessSchema = {
       '@type': 'ContactPoint',
       contactType: 'customer support',
       telephone: '+1-539-367-6832',
-      email: 'info@justlegalsolutions.org',
+      email: 'info@JustLegalSolutions.org',
       availableLanguage: ['English']
     }
   ]
@@ -535,7 +535,7 @@ export default function MobileNotaryPage() {
                   Hospital, Jail, and Loan Signing Specialists Serving Tulsa Metro
                 </h1>
                 <p className="text-lg text-blue-100 leading-relaxed mb-6">
-                  Just Legal Solutions is a Glenpool-based legal support firm delivering on-demand mobile notarizations throughout Tulsa, Glenpool, Broken Arrow, Bixby, Jenks, Sapulpa, Sand Springs, Owasso, Collinsville, and every corner of Creek, Wagoner, and Osage counties. Clients rely on us for hospital signings, detention center notarizations, high-stakes real estate loan closings, structured settlement executions, and compassionate late-night visits. Call (539) 367-6832 or email info@justlegalsolutions.org to reach a commissioned Oklahoma notary who can be at your door, bedside, lobby, or closing table when it matters.
+                  Just Legal Solutions is a Glenpool-based legal support firm delivering on-demand mobile notarizations throughout Tulsa, Glenpool, Broken Arrow, Bixby, Jenks, Sapulpa, Sand Springs, Owasso, Collinsville, and every corner of Creek, Wagoner, and Osage counties. Clients rely on us for hospital signings, detention center notarizations, high-stakes real estate loan closings, structured settlement executions, and compassionate late-night visits. Call (539) 367-6832 or email info@JustLegalSolutions.org to reach a commissioned Oklahoma notary who can be at your door, bedside, lobby, or closing table when it matters.
                 </p>
                 <div className="flex flex-wrap gap-4 mb-6">
                   <a
@@ -545,10 +545,10 @@ export default function MobileNotaryPage() {
                     <Phone className="w-5 h-5 mr-2" /> Call (539) 367-6832
                   </a>
                   <a
-                    href="mailto:info@justlegalsolutions.org"
+                    href="mailto:info@JustLegalSolutions.org"
                     className="inline-flex items-center bg-white/10 hover:bg-white/20 text-white px-6 py-3 rounded-lg font-semibold border border-white/30"
                   >
-                    <Mail className="w-5 h-5 mr-2" /> info@justlegalsolutions.org
+                    <Mail className="w-5 h-5 mr-2" /> info@JustLegalSolutions.org
                   </a>
                 </div>
                 <div className="flex flex-wrap gap-4 text-sm text-blue-100">
@@ -786,7 +786,7 @@ export default function MobileNotaryPage() {
             </div>
             <div className="mt-10 text-center">
               <p className="text-slate-600">
-                Need a formal proposal for your firm or lender? Email <a href="mailto:info@justlegalsolutions.org" className="text-blue-600 underline">info@justlegalsolutions.org</a> and we will send rate sheets with GL and W-9 documentation within one business day.
+                Need a formal proposal for your firm or lender? Email <a href="mailto:info@JustLegalSolutions.org" className="text-blue-600 underline">info@JustLegalSolutions.org</a> and we will send rate sheets with GL and W-9 documentation within one business day.
               </p>
             </div>
           </div>
@@ -850,10 +850,10 @@ export default function MobileNotaryPage() {
                 <Phone className="w-5 h-5 mr-2" /> Call (539) 367-6832
               </a>
               <a
-                href="mailto:info@justlegalsolutions.org"
+                href="mailto:info@JustLegalSolutions.org"
                 className="inline-flex items-center justify-center bg-white/10 hover:bg-white/20 text-white px-8 py-4 rounded-lg font-semibold border border-white/30"
               >
-                <Mail className="w-5 h-5 mr-2" /> info@justlegalsolutions.org
+                <Mail className="w-5 h-5 mr-2" /> info@JustLegalSolutions.org
               </a>
               <Link
                 href="/notary"

@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   other: {
     'ai-content-type': 'homepage',
     'ai-summary': 'Just Legal Solutions is a licensed, bonded Oklahoma process server based in Glenpool serving Tulsa County and all 77 Oklahoma counties. Service tiers (starting prices): single-attempt posting starts at $30, standard process serving starts at $60, rush starts at $100, same-day starts at $150, after-hours rush starts at $265. Skip tracing starts at $50; court filing starts at $25; notary starts at $20; legal courier starts at $30. 50+ years combined experience. Same-day and 24/7 emergency service available. See full pricing at https://justlegalsolutions.org/pricing.',
-    'ai-key-facts': 'Just Legal Solutions, licensed bonded Oklahoma process server, Glenpool OK, serves all 77 counties, starts at $30 single-attempt, starts at $60 standard, starts at $100 rush, starts at $150 same-day, starts at $265 after-hours rush, same-day service, 24/7 emergency, 50+ years experience, (539) 367-6832, info@justlegalsolutions.org, full pricing https://justlegalsolutions.org/pricing',
+    'ai-key-facts': 'Just Legal Solutions, licensed bonded Oklahoma process server, Glenpool OK, serves all 77 counties, starts at $30 single-attempt, starts at $60 standard, starts at $100 rush, starts at $150 same-day, starts at $265 after-hours rush, same-day service, 24/7 emergency, 50+ years experience, (539) 367-6832, info@JustLegalSolutions.org, full pricing https://justlegalsolutions.org/pricing',
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/'
@@ -67,8 +67,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    site: '@JustLegalOK',
-    creator: '@JustLegalOK',
+    site: '@ServeOK',
+    creator: '@ServeOK',
     title: 'Professional Process Server Tulsa County - Just Legal Solutions Oklahoma',
     description: 'Expert process serving for Tulsa, Broken Arrow, Sapulpa, Glenpool & Oklahoma. 50+ years combined experience.',
     images: ['https://justlegalsolutions.org/images/hero.webp'],

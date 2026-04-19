@@ -33,8 +33,8 @@ export const metadata: Metadata = {
     title: 'High-Profile Service Protocols',
     description: 'Expert strategies for serving high-profile defendants in Tulsa with enhanced privacy protocols, security measures, and legal compliance in 2026.',
     images: ['/images/Process server at gated community entrance.webp'],
-    creator: '@JustLegalSolutions',
-    site: '@JustLegalSolutions',
+    creator: '@ServeOK',
+    site: '@ServeOK',
   },
   robots: 'index, follow',
   alternates: {

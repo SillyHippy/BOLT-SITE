@@ -29,7 +29,7 @@ export default function AIAssistantOptimization({
     "image": "https://justlegalsolutions.org/jls-logo.webp",
     "priceRange": "$30-$200",
     "telephone": "+15393676832",
-    "email": "info@justlegalsolutions.org",
+    "email": "info@JustLegalSolutions.org",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "7136 S Yale Ave Suite 322",

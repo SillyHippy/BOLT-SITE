@@ -11,7 +11,7 @@ export default function BusinessSchema() {
     "slogan": "Over 50 Years' Combined Experience Serving Oklahoma's Legal Community",
     "url": "https://justlegalsolutions.org",
     "telephone": "+15393676832",
-    "email": "info@justlegalsolutions.org",
+    "email": "info@JustLegalSolutions.org",
     "image": "https://justlegalsolutions.org/images/jls-logo.webp",
     "logo": {
       "@type": "ImageObject",

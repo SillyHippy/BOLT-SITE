@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    site: '@JustLegalOK',
+    site: '@ServeOK',
     title: 'Protective Order Service in Oklahoma — Confidential & Court-Ready',
     description: 'Service starts at $30 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours rush. Trauma-informed and GPS-verified.',
     images: ['https://justlegalsolutions.org/og-image.webp'],

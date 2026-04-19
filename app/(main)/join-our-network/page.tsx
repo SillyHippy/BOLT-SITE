@@ -47,7 +47,7 @@ export default function JoinOurNetworkPage() {
             Just Legal Solutions is expanding our network of licensed process servers across Oklahoma. If you hold an Oklahoma license, we want to work with you — flexible schedule, no contracts, established client base.
           </p>
           <a
-            href="mailto:info@justlegalsolutions.org?subject=Network Application — Process Server"
+            href="mailto:info@JustLegalSolutions.org?subject=Network Application — Process Server"
             className="inline-flex items-center justify-center gap-2 bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold px-8 py-4 rounded-full text-lg shadow-lg transition-all"
           >
             📧 Apply Now — Send Email
@@ -182,7 +182,7 @@ export default function JoinOurNetworkPage() {
           <p className="text-blue-200 text-lg mb-8">Send us a quick email with your name, license number, and county. We\'ll take it from there.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="mailto:info@justlegalsolutions.org?subject=Network Application — Process Server"
+              href="mailto:info@JustLegalSolutions.org?subject=Network Application — Process Server"
               className="inline-flex items-center justify-center gap-2 bg-yellow-400 hover:bg-yellow-300 text-blue-900 font-bold px-8 py-4 rounded-full text-lg shadow-lg transition-all"
             >
               📧 Email Your Application

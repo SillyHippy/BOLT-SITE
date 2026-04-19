@@ -29,7 +29,7 @@ export const organizationSchema: WithContext<Organization> = {
     "description": "Statewide process serving and legal document delivery throughout all 77 counties in Oklahoma"
   },
   "telephone": "+15393676832",
-  "email": "info@justlegalsolutions.org",
+  "email": "info@JustLegalSolutions.org",
   "founder": {
     "@type": "Person",
     "name": "Joseph Iannazzi",

@@ -22,7 +22,7 @@ export default function EnhancedServiceSchema({
   serviceType = "Process Serving",
   additionalServices = [],
   businessHours = "Mo-Su 00:00-23:59",
-  contactInfo = { phone: "(539) 367-6832", email: "info@justlegalsolutions.org" }
+  contactInfo = { phone: "(539) 367-6832", email: "info@JustLegalSolutions.org" }
 }: EnhancedServiceSchemaProps) {
   const serviceSchema = {
     "@context": "https://schema.org",

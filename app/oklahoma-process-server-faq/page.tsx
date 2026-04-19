@@ -35,8 +35,8 @@ export const metadata: Metadata = {
     title: 'Oklahoma Process Server FAQ 2026: Complete Answers',
     description: 'Comprehensive answers to process serving questions in Oklahoma for 2026.',
     images: ['/images/Legal-document-types-process-server.webp'],
-    creator: '@JustLegalSolutions',
-    site: '@JustLegalSolutions',
+    creator: '@ServeOK',
+    site: '@ServeOK',
   },
   robots: 'index, follow',
   alternates: {
@@ -138,7 +138,7 @@ const localBusinessSchema = {
   "description": "Licensed Oklahoma process server and Tulsa process server providing professional legal document delivery across all 77 Oklahoma counties.",
   "url": "https://justlegalsolutions.org",
   "telephone": "(539) 367-6832",
-  "email": "info@justlegalsolutions.org",
+  "email": "info@JustLegalSolutions.org",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "564 E 138th Pl",

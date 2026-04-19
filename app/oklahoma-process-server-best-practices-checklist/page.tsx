@@ -29,8 +29,8 @@ export const metadata: Metadata = {
     title: 'Oklahoma Process Server Best Practices Checklist 2026',
     description: 'Complete professional guide for Oklahoma process serving in 2026.',
     images: ['/images/oklahoma-licensed-bonded-process-server-badges.webp'],
-    site: '@JustLegalSolutions',
-    creator: '@JustLegalSolutions'
+    site: '@ServeOK',
+    creator: '@ServeOK'
   },
   authors: [{ name: 'Just Legal Solutions' }],
   robots: 'index, follow'
@@ -127,7 +127,7 @@ const localBusinessSchema = {
   "description": "Licensed Oklahoma process server and Tulsa process server providing professional legal document delivery across all 77 Oklahoma counties.",
   "url": "https://justlegalsolutions.org",
   "telephone": "(539) 367-6832",
-  "email": "info@justlegalsolutions.org",
+  "email": "info@JustLegalSolutions.org",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "564 E 138th Pl",

@@ -25,7 +25,7 @@ const localBusinessSchema = {
   description: 'Professional bankruptcy process serving throughout Oklahoma. Chapter 7, 11, and 13 bankruptcy filings, adversary proceedings, and 341 meeting notices.',
   url: 'https://justlegalsolutions.org/bankruptcy-process-serving-oklahoma/',
   telephone: '+1-539-367-6832',
-  email: 'info@justlegalsolutions.org',
+  email: 'info@JustLegalSolutions.org',
   address: {
     '@type': 'PostalAddress',
     streetAddress: '564 E 138th Pl',

@@ -28,7 +28,7 @@ export default function LocalBusinessSchema({
     postalCode: "74101"
   },
   phone = "+1-(539) 367-6832",
-  email = "info@justlegalsolutions.org",
+  email = "info@JustLegalSolutions.org",
   url = "https://justlegalsolutions.org",
   serviceArea = ["Tulsa", "Broken Arrow", "Owasso", "Bixby", "Jenks", "Sand Springs", "Sapulpa"],
   services = ["Process Serving", "Court Document Delivery", "Legal Courier Services", "Document Filing"]
@@ -177,7 +177,7 @@ export function LocalSEOSchema({ city, service }: { city?: string; service?: str
     "url": "https://justlegalsolutions.org",
     "image": "https://justlegalsolutions.org/images/jls-logo.webp",
     "telephone": "+15393676832",
-    "email": "info@justlegalsolutions.org",
+    "email": "info@JustLegalSolutions.org",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": city || "Tulsa",

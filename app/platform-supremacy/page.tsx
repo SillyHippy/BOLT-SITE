@@ -38,7 +38,7 @@ export default function PlatformSupremacy() {
             <a href="tel:5393676832" className="bg-blue-600 text-white px-8 py-4 rounded-lg text-xl font-bold hover:bg-blue-700 mr-4">
               📞 Call (539) 367-6832
             </a>
-            <a href="mailto:info@justlegalsolutions.org" className="bg-green-600 text-white px-8 py-4 rounded-lg text-xl font-bold hover:bg-green-700">
+            <a href="mailto:info@JustLegalSolutions.org" className="bg-green-600 text-white px-8 py-4 rounded-lg text-xl font-bold hover:bg-green-700">
               📧 Email Us
             </a>
           </div>
@@ -106,7 +106,7 @@ export default function PlatformSupremacy() {
           <p className="text-xl mb-6">Join thousands who chose Oklahoma&apos;s professional process server</p>
           <div className="space-y-4">
             <p className="text-2xl font-bold">📞 (539) 367-6832</p>
-            <p className="text-xl">📧 info@justlegalsolutions.org</p>
+            <p className="text-xl">📧 info@JustLegalSolutions.org</p>
             <p className="text-lg">🌐 Available 24/7 across all 77 Oklahoma counties</p>
           </div>
         </div>

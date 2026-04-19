@@ -198,7 +198,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
       sameAs: [
         'https://www.facebook.com/justlegalsolutions',
         'https://www.linkedin.com/company/justlegalsolutionsok/',
-        'https://twitter.com/justlegalsol'
+        'https://twitter.com/ServeOK'
       ]
     } : {
       name: 'Just Legal Solutions',
@@ -214,7 +214,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
       sameAs: [
         'https://www.facebook.com/justlegalsolutions',
         'https://www.linkedin.com/company/justlegalsolutionsok/',
-        'https://twitter.com/justlegalsol'
+        'https://twitter.com/ServeOK'
       ]
     },
     // Map legacy aggregate rating - ONLY include for location/home/service pages, NOT articles
@@ -293,12 +293,12 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
       longitude: location?.geo?.longitude || -95.9928
     },
     telephone: organization.telephone,
-    email: 'info@justlegalsolutions.org',
+    email: 'info@JustLegalSolutions.org',
     contactPoint: {
       '@type': 'ContactPoint',
       telephone: organization.telephone,
       contactType: 'customer service',
-      email: 'info@justlegalsolutions.org',
+      email: 'info@JustLegalSolutions.org',
       areaServed: 'Oklahoma',
       availableLanguage: 'English',
       hoursAvailable: {

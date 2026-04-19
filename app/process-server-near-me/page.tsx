@@ -80,7 +80,7 @@ export default function ProcessServerNearMePage() {
           name: 'Just Legal Solutions',
           url: 'https://justlegalsolutions.org',
           logo: 'https://justlegalsolutions.org/email%20signature%20logo.png',
-          contactPoint: { telephone: '(539) 367-6832', email: 'info@justlegalsolutions.org' },
+          contactPoint: { telephone: '(539) 367-6832', email: 'info@JustLegalSolutions.org' },
           address: { streetAddress: '564 E 138th PL', addressLocality: 'Glenpool', addressRegion: 'OK', postalCode: '74033', addressCountry: 'US' },
         }}
         aggregateRating={{ ratingValue: 4.9, reviewCount: 156, bestRating: 5, worstRating: 1 }}

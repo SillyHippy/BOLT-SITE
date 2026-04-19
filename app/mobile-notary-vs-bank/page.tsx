@@ -348,7 +348,7 @@ export default function MobileVsBankPage() {
             <a href="tel:+15393676832" className="bg-white text-blue-600 px-8 py-3 rounded font-bold hover:bg-gray-100">
               (539) 367-6832
             </a>
-            <a href="mailto:info@justlegalsolutions.org" className="bg-blue-700 text-white px-8 py-3 rounded font-bold hover:bg-blue-800">
+            <a href="mailto:info@JustLegalSolutions.org" className="bg-blue-700 text-white px-8 py-3 rounded font-bold hover:bg-blue-800">
               Email Us
             </a>
           </div>

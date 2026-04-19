@@ -24,7 +24,7 @@ export default function GoogleSpecificOptimization({
     "description": "Professional process serving and legal document delivery throughout Oklahoma with 24/7 emergency service availability",
     "url": "https://justlegalsolutions.org",
     "telephone": "+15393676832",
-    "email": "info@justlegalsolutions.org",
+    "email": "info@JustLegalSolutions.org",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "564 E 138th PL",

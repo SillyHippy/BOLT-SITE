@@ -27,8 +27,8 @@ export const metadata: Metadata = {
     title: 'Latest Oklahoma Case Law on Service of Process: Essential 2026 Legal Updates',
     description: 'Essential 2026 Oklahoma service of process case law updates. Recent court decisions affecting process serving requirements and procedures.',
     images: ['/images/Gavel with dismissed case documents.webp'],
-    site: '@JustLegalSolutions',
-    creator: '@JustLegalSolutions'
+    site: '@ServeOK',
+    creator: '@ServeOK'
   },
   authors: [{ name: 'JLS Legal Solutions' }],
   robots: 'index, follow'

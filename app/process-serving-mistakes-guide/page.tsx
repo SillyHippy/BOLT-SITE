@@ -32,8 +32,8 @@ export const metadata: Metadata = {
     title: 'Top 10 Process Serving Mistakes That Can Cost You Your Case',
     description: 'Avoid costly process serving errors in Oklahoma. Learn the top 10 mistakes that invalidate service and jeopardize your legal case in 2026.',
     images: ['/images/Mistake prevention checklist infographic.webp'],
-    creator: '@JustLegalSolutions',
-    site: '@JustLegalSolutions',
+    creator: '@ServeOK',
+    site: '@ServeOK',
   },
   robots: 'index, follow',
   alternates: {

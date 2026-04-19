@@ -2237,7 +2237,7 @@ export default function UltimateGuidePage() {
                 </p>
                 <div className="space-y-2">
                   <p><strong>📞 Phone:</strong> (539) 367-6832</p>
-                  <p><strong>📧 Email:</strong> info@justlegalsolutions.org</p>
+                  <p><strong>📧 Email:</strong> info@JustLegalSolutions.org</p>
                   <p><strong>🌐 Website:</strong> www.justlegalsolutions.org</p>
                 </div>
               </div>

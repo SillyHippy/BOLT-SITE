@@ -32,8 +32,8 @@ export const metadata: Metadata = {
     title: 'Oklahoma Process Server Technology 2026',
     description: 'Process serving technology in Oklahoma: GPS tracking, AI skip tracing, blockchain affidavits.',
     images: ['/images/Technology legal compliance flowchart.webp'],
-    creator: '@JustLegalSolutions',
-    site: '@JustLegalSolutions',
+    creator: '@ServeOK',
+    site: '@ServeOK',
   },
   robots: 'index, follow',
   alternates: {

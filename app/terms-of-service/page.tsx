@@ -116,7 +116,7 @@ export default function TermsOfServicePage() {
           <h2>11. Contact Us</h2>
           <p>Questions about these Terms? Contact us:</p>
           <ul>
-            <li><strong>Email:</strong> <a href="mailto:info@justlegalsolutions.org">info@justlegalsolutions.org</a></li>
+            <li><strong>Email:</strong> <a href="mailto:info@JustLegalSolutions.org">info@JustLegalSolutions.org</a></li>
             <li><strong>Phone:</strong> <a href="tel:5393676832">(539) 367-6832</a></li>
             <li><strong>Address:</strong> 564 E 138th PL, Glenpool, OK 74033</li>
           </ul>

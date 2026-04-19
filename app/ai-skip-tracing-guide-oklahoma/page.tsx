@@ -32,8 +32,8 @@ export const metadata: Metadata = {
     title: 'AI-Powered Skip Tracing Guide for Oklahoma Process Servers 2026',
     description: 'Artificial Intelligence has revolutionized skip tracing for process servers, providing unprecedented accuracy and efficiency.',
     images: ['/images/skip-tracing-investigation-services.webp'],
-    creator: '@JustLegalSolutions',
-    site: '@JustLegalSolutions',
+    creator: '@ServeOK',
+    site: '@ServeOK',
   },
   robots: 'index, follow',
   alternates: {
@@ -111,7 +111,7 @@ export default function AISkipTracingGuideOklahoma() {
         </p>
         
         <div className="text-sm mb-6">
-            <a href="tel:5393676832" className="text-blue-600 hover:underline">(539) 367-6832</a> | <a href="mailto:info@justlegalsolutions.org" className="text-blue-600 hover:underline">info@justlegalsolutions.org</a>
+            <a href="tel:5393676832" className="text-blue-600 hover:underline">(539) 367-6832</a> | <a href="mailto:info@JustLegalSolutions.org" className="text-blue-600 hover:underline">info@JustLegalSolutions.org</a>
         </div>
 
         <section id="executive-summary" className="mb-8 p-6 bg-gray-50 rounded-lg border">
@@ -427,7 +427,7 @@ export default function AISkipTracingGuideOklahoma() {
             <p className="font-bold text-lg">Just Legal Solutions Team</p>
             <ul className="list-none space-y-1">
                 <li><strong>Phone:</strong> <a href="tel:5393676832" className="text-blue-700 hover:underline">(539) 367-6832</a></li>
-                <li><strong>Email:</strong> <a href="mailto:info@justlegalsolutions.org" className="text-blue-700 hover:underline">info@justlegalsolutions.org</a></li>
+                <li><strong>Email:</strong> <a href="mailto:info@JustLegalSolutions.org" className="text-blue-700 hover:underline">info@JustLegalSolutions.org</a></li>
                 <li><strong>Website:</strong> <a href="https://justlegalsolutions.org" className="text-blue-700 hover:underline">justlegalsolutions.org</a></li>
                 <li><strong>Service Area:</strong> All 77 Oklahoma Counties</li>
             </ul>

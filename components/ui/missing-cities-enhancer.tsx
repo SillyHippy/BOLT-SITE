@@ -155,7 +155,7 @@ export default function MissingCityPage({
           <div className="grid md:grid-cols-2 gap-6">
             <div>
               <h3 className="text-xl font-bold text-green-800 mb-2">📞 (539) 367-6832</h3>
-              <p className="text-green-700">📧 info@justlegalsolutions.org</p>
+              <p className="text-green-700">📧 info@JustLegalSolutions.org</p>
               <p className="text-green-700">📍 Serving {city}, {county}, Oklahoma</p>
               <p className="text-green-700">🕒 24/7 Emergency Service Available</p>
             </div>

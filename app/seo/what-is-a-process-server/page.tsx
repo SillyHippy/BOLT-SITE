@@ -180,7 +180,7 @@ const localBusinessSchema = {
   "name": "Just Legal Solutions",
   "url": "https://justlegalsolutions.org",
   "telephone": "+15393676832",
-  "email": "info@justlegalsolutions.org",
+  "email": "info@JustLegalSolutions.org",
   "image": "https://justlegalsolutions.org/images/jls-logo.webp",
   "logo": {
     "@type": "ImageObject",
@@ -720,7 +720,7 @@ export default function WhatIsAProcessServerPage() {
                     </a>
                     <p className="text-sm text-gray-200 mb-3">Available 24/7 • Emergency & weekend service</p>
                     <div className="flex flex-col gap-2">
-                      <a href="mailto:info@justlegalsolutions.org" className="text-sm text-yellow-300 underline hover:no-underline">📧 info@justlegalsolutions.org</a>
+                      <a href="mailto:info@JustLegalSolutions.org" className="text-sm text-yellow-300 underline hover:no-underline">📧 info@JustLegalSolutions.org</a>
                       <a href="/contact" className="bg-yellow-500 text-black px-4 py-2 rounded font-semibold text-sm hover:bg-yellow-400 transition">📝 Get Instant Quote →</a>
                     </div>
                   </div>

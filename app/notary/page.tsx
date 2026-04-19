@@ -39,8 +39,8 @@ export const metadata: Metadata = {
     title: 'Mobile Notary Tulsa OK | 24/7 In-Office & RON | Starts at $20',
     description: 'Need a notary now? Walk-in, mobile, or remote online notarization in Tulsa & Oklahoma. Notary starts at $20; process serving starts at $30. Open 24/7. Call (539) 367-6832.',
     images: ['https://justlegalsolutions.org/images/hero.webp'],
-    creator: '@JustLegalSolutions',
-    site: '@JustLegalSolutions',
+    creator: '@ServeOK',
+    site: '@ServeOK',
   },
   robots: 'index, follow',
   alternates: {
@@ -62,7 +62,7 @@ const notaryServiceSchema = {
   "@id": "https://justlegalsolutions.org/notary#service",
   "name": "Just Legal Solutions - Notary Services",
   "telephone": "(539) 367-6832",
-  "email": "info@justlegalsolutions.org",
+  "email": "info@JustLegalSolutions.org",
   "url": "https://justlegalsolutions.org/notary",
   "image": "https://justlegalsolutions.org/images/hero.webp",
   "address": {
@@ -893,7 +893,7 @@ export default function NotaryPage() {
 
               <div className="mt-8 pt-6 border-t border-white/20">
                 <p className="text-sm text-blue-200 mb-2"><strong className="text-white">Payment Methods:</strong> Cash, Credit/Debit Cards, Business Checks, Wire Transfer</p>
-                <p className="text-sm text-blue-200"><strong className="text-white">Email:</strong> <a href="mailto:info@justlegalsolutions.org" className="underline hover:text-white">info@justlegalsolutions.org</a></p>
+                <p className="text-sm text-blue-200"><strong className="text-white">Email:</strong> <a href="mailto:info@JustLegalSolutions.org" className="underline hover:text-white">info@JustLegalSolutions.org</a></p>
               </div>
             </div>
           </div>

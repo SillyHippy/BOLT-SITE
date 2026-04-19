@@ -122,7 +122,7 @@ const formsWeNotarize = [
 ];
 
 const processSteps = [
-  { step: '1', title: 'Call or Email', desc: 'Contact us at (539) 367-6832 or info@justlegalsolutions.org with your document type.' },
+  { step: '1', title: 'Call or Email', desc: 'Contact us at (539) 367-6832 or info@JustLegalSolutions.org with your document type.' },
   { step: '2', title: 'Confirm Documents', desc: 'Let us know which forms and supporting documents need notarization.' },
   { step: '3', title: 'Schedule Appointment', desc: 'Choose an office visit or mobile notary service at your location.' },
   { step: '4', title: 'Bring Valid ID', desc: 'Government-issued photo ID required: driver\'s license, passport, or state ID.' },
@@ -172,7 +172,7 @@ const localBusinessSchema = {
   'description': 'Professional notary services for immigration documents including I-130, I-485, I-751, and I-864 notarization. Bilingual services available.',
   'url': canonicalUrl,
   'telephone': '+1-539-367-6832',
-  'email': 'info@justlegalsolutions.org',
+  'email': 'info@JustLegalSolutions.org',
   'address': {
     '@type': 'PostalAddress',
     'streetAddress': '564 E 138th Pl',
@@ -674,9 +674,9 @@ export default function ImmigrationDocumentNotaryPage() {
                   <Phone className="w-5 h-5" />
                   (539) 367-6832
                 </a>
-                <a href="mailto:info@justlegalsolutions.org" className="w-full inline-flex items-center justify-center gap-2 bg-white/10 text-white px-6 py-3 rounded-xl font-medium border border-white/30 hover:bg-white/20 transition-all">
+                <a href="mailto:info@JustLegalSolutions.org" className="w-full inline-flex items-center justify-center gap-2 bg-white/10 text-white px-6 py-3 rounded-xl font-medium border border-white/30 hover:bg-white/20 transition-all">
                   <Mail className="w-5 h-5" />
-                  info@justlegalsolutions.org
+                  info@JustLegalSolutions.org
                 </a>
               </div>
               <div className="mt-6 text-sm text-blue-200">

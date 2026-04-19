@@ -130,7 +130,7 @@ export default function LawFirmServicesPage() {
         "url": "https://justlegalsolutions.org/law-firm-services",
         "image": "https://justlegalsolutions.org/images/jls-logo.webp",
         "telephone": "+15393676832",
-        "email": "info@justlegalsolutions.org",
+        "email": "info@JustLegalSolutions.org",
         "priceRange": "$18-$105",
         "address": {
           "@type": "PostalAddress",
@@ -302,7 +302,7 @@ export default function LawFirmServicesPage() {
                 📞 (539) 367-6832
               </a>
               <a
-                href="mailto:info@justlegalsolutions.org?subject=Law%20Firm%20Partnership%20Inquiry"
+                href="mailto:info@JustLegalSolutions.org?subject=Law%20Firm%20Partnership%20Inquiry"
                 className="inline-flex items-center justify-center px-8 py-4 bg-green-500 text-white font-bold rounded-lg hover:bg-green-400 transition-colors text-lg border-2 border-white"
               >
                 ✉️ Email Partnership Inquiry

@@ -188,7 +188,7 @@ const faqs = [
   {
     question: 'How do I confirm availability or get a quote?',
     answer:
-      'Call (539) 367-6832 or email info@justlegalsolutions.org for an instant quote. You can also review service details on the main notary page or visit /pricing for published information.'
+      'Call (539) 367-6832 or email info@JustLegalSolutions.org for an instant quote. You can also review service details on the main notary page or visit /pricing for published information.'
   },
   {
     question: 'Where can I review Joseph&apos;s Tulsa County credentials?',
@@ -203,7 +203,7 @@ const localBusinessSchema = {
   name: 'Just Legal Solutions - Tulsa County Mobile Notary',
   url: canonicalUrl,
   telephone: '(539) 367-6832',
-  email: 'info@justlegalsolutions.org',
+  email: 'info@JustLegalSolutions.org',
   areaServed: cities.map((city) => ({ '@type': 'City', name: `${city.name}, OK` })),
   address: {
     '@type': 'PostalAddress',
@@ -237,7 +237,7 @@ const notaryServiceSchema = {
     { '@type': 'ServiceChannel', serviceUrl: 'https://justlegalsolutions.org/remote-online-notary', name: 'Remote Online Notary' }
   ],
   telephone: '(539) 367-6832',
-  email: 'info@justlegalsolutions.org'
+  email: 'info@JustLegalSolutions.org'
 };
 
 const breadcrumbSchema = {
@@ -304,11 +304,11 @@ export default function TulsaCountyNotaryPage() {
                     (539) 367-6832
                   </a>
                   <a
-                    href="mailto:info@justlegalsolutions.org"
+                    href="mailto:info@JustLegalSolutions.org"
                     className="inline-flex items-center gap-2 border border-white/60 px-6 py-3 rounded-lg font-semibold hover:bg-white/10"
                   >
                     <Mail className="w-5 h-5" />
-                    info@justlegalsolutions.org
+                    info@JustLegalSolutions.org
                   </a>
                   <Link
                     href="/notary"
@@ -522,7 +522,7 @@ export default function TulsaCountyNotaryPage() {
                 <Phone className="w-5 h-5" />
                 Call Now
               </a>
-              <a href="mailto:info@justlegalsolutions.org" className="inline-flex items-center gap-2 border border-white px-6 py-3 rounded-lg font-semibold">
+              <a href="mailto:info@JustLegalSolutions.org" className="inline-flex items-center gap-2 border border-white px-6 py-3 rounded-lg font-semibold">
                 <Mail className="w-5 h-5" />
                 Email Dispatch
               </a>

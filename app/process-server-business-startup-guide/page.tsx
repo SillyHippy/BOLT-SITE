@@ -1446,7 +1446,7 @@ export default function ProcessServerBusinessStartupGuide() {
                 </span>
                 <span className="flex items-center gap-2">
                   <Mail className="w-4 h-4" />
-                  joseph@justlegalsolutions.org
+                  joseph@JustLegalSolutions.org
                 </span>
               </div>
             </div>

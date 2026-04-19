@@ -24,7 +24,7 @@ export default function BingYahooOptimization({
     "image": "https://justlegalsolutions.org/jls-logo.webp",
     "priceRange": "$30-$200",
     "telephone": "+15393676832",
-    "email": "info@justlegalsolutions.org",
+    "email": "info@JustLegalSolutions.org",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "564 E 138th PL",

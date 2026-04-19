@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Oklahoma Electronic Service Guide 2026',
     description: 'Complete 2026 guide to electronic service in OK including email service, e-filing protocols, and court acceptance.',
-    site: '@JustLegalSolutions',
-    creator: '@JustLegalSolutions'
+    site: '@ServeOK',
+    creator: '@ServeOK'
   },
   authors: [{ name: 'JLS Legal Solutions' }],
   robots: 'index, follow'

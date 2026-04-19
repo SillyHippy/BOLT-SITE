@@ -32,8 +32,8 @@ export const metadata: Metadata = {
     title: 'Oklahoma Process Serving Costs by County 2026: Complete Pricing Analysis & Budget Guide',
     description: 'Understanding process serving costs across Oklahoma&rsquo;s 77 counties helps attorneys and law firms budget effectively.',
     images: ['/images/process-server-vs-sheriff-comparison.webp'],
-    creator: '@JustLegalSolutions',
-    site: '@JustLegalSolutions',
+    creator: '@ServeOK',
+    site: '@ServeOK',
   },
   robots: 'index, follow',
   alternates: {

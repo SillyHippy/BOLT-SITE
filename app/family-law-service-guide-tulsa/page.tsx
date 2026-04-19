@@ -32,8 +32,8 @@ export const metadata: Metadata = {
     title: 'Family Law Service Guide Tulsa 2026',
     description: 'Expert guide to serving protective orders and divorce papers in Tulsa County. 2026 family law service requirements, safety protocols, and procedures.',
     images: ['/images/tulsa-county-courthouse.webp'],
-    creator: '@JustLegalSolutions',
-    site: '@JustLegalSolutions',
+    creator: '@ServeOK',
+    site: '@ServeOK',
   },
   robots: 'index, follow',
   alternates: {

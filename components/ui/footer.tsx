@@ -204,7 +204,7 @@ export function Footer() {
     } catch (error) {
       console.error("Upload error:", error);
       setUploadStatus("error");
-      setUploadMessage("Upload failed. Please email files to info@justlegalsolutions.org");
+      setUploadMessage("Upload failed. Please email files to info@JustLegalSolutions.org");
       return { success: false, error: "Upload failed" };
     }
   };
@@ -268,7 +268,7 @@ export function Footer() {
       console.log("Submitting form data:", JSON.stringify(data, null, 2));
       
       // Use FormSubmit's AJAX endpoint with JSON data
-      const response = await fetch('https://formsubmit.co/ajax/info@justlegalsolutions.org', {
+      const response = await fetch('https://formsubmit.co/ajax/info@JustLegalSolutions.org', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -533,7 +533,7 @@ export function Footer() {
                     Accepted: PDF, DOC, DOCX, JPG, PNG • Max 40MB total upload
                   </p>
                   <p className="text-xs text-gray-500 mt-1">
-                    Or email documents to <a href="mailto:info@justlegalsolutions.org" className="text-blue-600 hover:underline font-medium">info@justlegalsolutions.org</a>
+                    Or email documents to <a href="mailto:info@JustLegalSolutions.org" className="text-blue-600 hover:underline font-medium">info@JustLegalSolutions.org</a>
                   </p>
                 </div>
                 <input
@@ -621,10 +621,10 @@ export function Footer() {
             <p className="text-gray-600">
               You can reach us at{" "}
               <a
-                href="mailto:info@justlegalsolutions.org"
+                href="mailto:info@JustLegalSolutions.org"
                 className="text-blue-600 hover:text-blue-800"
               >
-                info@justlegalsolutions.org
+                info@JustLegalSolutions.org
               </a>
               . We respond promptly to all inquiries.
             </p>

@@ -25,7 +25,7 @@ const localBusinessSchema = {
   "description": "Professional power of attorney notary services in Oklahoma. Durable, medical, financial and springing POA notarization with 24/7 mobile notary availability.",
   "url": "https://justlegalsolutions.org/power-of-attorney-notary-oklahoma/",
   "telephone": "+1-539-367-6832",
-  "email": "joseph@justlegalsolutions.org",
+  "email": "joseph@JustLegalSolutions.org",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "564 E 138th Pl",
@@ -683,7 +683,7 @@ export default function PowerOfAttorneyNotaryPage() {
               Call (539) 367-6832
             </a>
             <a 
-              href="mailto:joseph@justlegalsolutions.org" 
+              href="mailto:joseph@JustLegalSolutions.org" 
               className="bg-white hover:bg-gray-100 text-blue-900 font-bold py-4 px-8 rounded-lg text-lg transition-colors"
             >
               Email Us

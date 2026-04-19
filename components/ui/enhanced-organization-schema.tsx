@@ -15,7 +15,7 @@ export default function EnhancedOrganizationSchema({ countyName }: OrganizationS
     "logo": "https://justlegalsolutions.org/logo.png",
     "image": "https://justlegalsolutions.org/logo.png",
     "telephone": "+15393676832",
-    "email": "info@justlegalsolutions.org",
+    "email": "info@JustLegalSolutions.org",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Tulsa",
