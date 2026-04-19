@@ -34,8 +34,7 @@
 # ── 3. Exact-duplicate / thin merges ────────────────────────
 /oklahoma-process-server-pricing-2026 /pricing 301
 
-# ── 3b. Pricing page consolidation (5 pages → 1) ────────────
-/oklahoma-process-server-pricing /pricing 301
+# ── 3b. Pricing page consolidation (legacy duplicates) ───────
 /oklahoma-process-serving-costs-comparison /pricing 301
 
 # ── 4. Topic-cannibalizing pages ─────────────────────────────
