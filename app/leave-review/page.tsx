@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect } from 'react';
+import Link from 'next/link';
 import { Star, ExternalLink } from 'lucide-react';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
@@ -47,7 +48,7 @@ export default function LeaveReviewPage() {
       <UnifiedSchema
         pageType="generic"
         pageTitle="Leave a Review | Just Legal Solutions"
-        pageDescription="Share your experience with Just Legal Solutions. Leave a review on Google or Yelp."
+        pageDescription="Share your experience with Just Legal Solutions. Leave a review on Google or submit feedback directly through our verified client survey."
         pageUrl="https://justlegalsolutions.org/leave-review"
         siteName="Just Legal Solutions"
         reviewCount={156}
@@ -60,18 +61,18 @@ export default function LeaveReviewPage() {
         "@context": "https://schema.org",
         "@type": "HowTo",
         "name": "How to Leave a Review for Just Legal Solutions",
-        "description": "A quick guide on how to leave a review for our process serving services on Google or Yelp.",
+        "description": "A quick guide on how to leave a review for our process serving and notary services on Google or directly through our internal client survey.",
         "step": [
           {
             "@type": "HowToStep",
             "name": "Choose a platform",
-            "text": "Select either Google or Yelp from the options provided on the page to leave your review.",
+            "text": "Select Google Business Profile or our direct survey from the options provided on the page to leave your review.",
             "position": 1
           },
           {
             "@type": "HowToStep",
-            "name": "Sign in to your account",
-            "text": "You will be redirected to the platform. Ensure you are signed in to your Google or Yelp account.",
+            "name": "Sign in or open the survey",
+            "text": "For Google, ensure you are signed in to your Google account. For our direct survey, no account is required — just open the form.",
             "position": 2
           },
           {
@@ -166,36 +167,35 @@ export default function LeaveReviewPage() {
             <div className="h-1 bg-gradient-to-r from-blue-500 to-blue-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
           </a>
 
-          {/* Yelp Review Card */}
-          <a
-            href="https://www.yelp.com/biz/just-legal-solutions-glenpool"
-            target="_blank"
-            rel="nofollow noopener noreferrer"
+          {/* Internal Survey / Direct Review Card */}
+          <Link
+            href="/reviews/survey"
             className="group block bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-100 overflow-hidden"
           >
             <div className="p-6 sm:p-8">
               <div className="flex items-center justify-between mb-4">
                 <div className="flex items-center gap-3">
-                  <div className="w-12 h-12 sm:w-14 sm:h-14 bg-gradient-to-br from-red-500 to-red-600 rounded-xl flex items-center justify-center shadow-md">
-                    <svg className="w-7 h-7 sm:w-8 sm:h-8 text-white" viewBox="0 0 24 24" fill="currentColor">
-                      <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm4.5 13.5l-1.9-.6-.6 1.9c-.4 1.2-1.9 1.6-2.9.9l-1.1-.8-1.1.8c-1 .7-2.5.3-2.9-.9l-.6-1.9-1.9-.6c-1.2-.4-1.6-1.9-.9-2.9l.8-1.1-.8-1.1c-.7-1-.3-2.5.9-2.9l1.9-.6.6-1.9c.4-1.2 1.9-1.6 2.9-.9l1.1.8 1.1-.8c1-.7 2.5-.3 2.9.9l.6 1.9 1.9.6c1.2.4 1.6 1.9.9 2.9l-.8 1.1.8 1.1c.7 1 .3 2.5-.9 2.9z"/>
+                  <div className="w-12 h-12 sm:w-14 sm:h-14 bg-gradient-to-br from-emerald-500 to-emerald-600 rounded-xl flex items-center justify-center shadow-md">
+                    <svg className="w-7 h-7 sm:w-8 sm:h-8 text-white" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                      <path d="M9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm2-7h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"/>
                     </svg>
                   </div>
                   <div>
-                    <h3 className="text-lg sm:text-xl font-bold text-gray-900">Yelp</h3>
-                    <p className="text-xs sm:text-sm text-gray-500">Business Review</p>
+                    <h3 className="text-lg sm:text-xl font-bold text-gray-900">Direct Survey</h3>
+                    <p className="text-xs sm:text-sm text-gray-500">1-minute feedback form</p>
                   </div>
                 </div>
-                <ExternalLink className="w-5 h-5 text-gray-500 group-hover:text-red-600 transition-colors" />
+                <ExternalLink className="w-5 h-5 text-gray-500 group-hover:text-emerald-600 transition-colors" />
               </div>
-              
+
               <p className="text-sm sm:text-base text-gray-600 mb-4 leading-relaxed">
-                Write a review on Yelp to let others know about your experience with Just Legal Solutions.
+                Not a Google user? Leave your feedback directly with us — every survey response is counted
+                toward our verified review total.
               </p>
-              
+
               <div className="flex items-center justify-between pt-4 border-t border-gray-100">
-                <span className="text-xs sm:text-sm font-medium text-red-600 group-hover:text-red-700">
-                  Leave a Yelp Review
+                <span className="text-xs sm:text-sm font-medium text-emerald-600 group-hover:text-emerald-700">
+                  Open Survey
                 </span>
                 <div className="flex gap-1">
                   {[...Array(5)].map((_, i) => (
@@ -204,8 +204,8 @@ export default function LeaveReviewPage() {
                 </div>
               </div>
             </div>
-            <div className="h-1 bg-gradient-to-r from-red-500 to-red-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
-          </a>
+            <div className="h-1 bg-gradient-to-r from-emerald-500 to-emerald-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
+          </Link>
         </div>
 
         {/* Additional Information */}

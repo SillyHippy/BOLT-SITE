@@ -414,7 +414,7 @@ const notaryServiceSchema = {
     }
   ],
   termsOfService: 'Compliant with Oklahoma notary law 49 O.S. § 111 et seq. (Revised Uniform Law on Notarial Acts), SB 1028, and HB 2265',
-  sameAs: ['https://justlegalsolutions.org/notary', 'https://www.facebook.com/justlegalsolutions'],
+  sameAs: ['https://justlegalsolutions.org/notary', 'https://www.facebook.com/people/Just-Legal-Solutions/61574881736527/'],
   aggregateRating: {
     '@type': 'AggregateRating',
     ratingValue: '4.9',

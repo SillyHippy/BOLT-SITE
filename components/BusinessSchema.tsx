@@ -68,7 +68,7 @@ export default function BusinessSchema() {
       }
     ],
     "sameAs": [
-      "https://www.facebook.com/justlegalsolutions",
+      "https://www.facebook.com/people/Just-Legal-Solutions/61574881736527/",
       "https://www.linkedin.com/company/just-legal-solutions",
       "https://www.manta.com/c/m1x7pgf/just-legal-solutions",
       "https://www.showmelocal.com/38832951-just-legal-solutions-glenpool",

@@ -470,7 +470,7 @@ const localBusinessSchema = {
       closes: '23:59'
     }
   ],
-  sameAs: ['https://www.facebook.com/JustLegalSolutions', 'https://www.linkedin.com/company/just-legal-solutions'],
+  sameAs: ['https://www.facebook.com/people/Just-Legal-Solutions/61574881736527/', 'https://www.linkedin.com/company/justlegalsolutionsok/', 'https://twitter.com/ServeOK'],
   hasCredential: {
     '@type': 'EducationalOccupationalCredential',
     credentialCategory: 'RON Authorization',
@@ -572,6 +572,15 @@ const RemoteOnlineNotaryPage = () => {
                 <Globe className="h-5 w-5 text-emerald-200" />
                 <span>Encrypted Session Recording</span>
               </div>
+              <a
+                href="https://notary.snapdocs.com/notary-public/oklahoma/glenpool/joseph-iannazzi"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-white hover:text-emerald-200 underline underline-offset-2"
+              >
+                <CheckCircle className="h-5 w-5 text-emerald-200" />
+                <span>Snapdocs Verified (ID, Commission, E&amp;O, Background)</span>
+              </a>
             </div>
 
             {/* Geographic Flexibility Callout */}

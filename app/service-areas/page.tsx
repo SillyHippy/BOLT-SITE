@@ -84,7 +84,7 @@ const localBusinessSchema = {
     }
   ],
   "sameAs": [
-    "https://www.facebook.com/justlegalsolutions",
+    "https://www.facebook.com/people/Just-Legal-Solutions/61574881736527/",
     "https://www.google.com/maps/place/Just+Legal+Solutions"
   ]
 };

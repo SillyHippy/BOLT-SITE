@@ -196,9 +196,12 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
       },
       telephone: props.telephone || '+15393676832',
       sameAs: [
-        'https://www.facebook.com/justlegalsolutions',
+        'https://www.facebook.com/people/Just-Legal-Solutions/61574881736527/',
         'https://www.linkedin.com/company/justlegalsolutionsok/',
-        'https://twitter.com/ServeOK'
+        'https://twitter.com/ServeOK',
+        'https://www.instagram.com/just_legal_solutions/',
+        'https://napps.org/member-info.aspx?id=14801',
+        'https://nationalprocessservernetwork.com/directory/just-legal-solutions/'
       ]
     } : {
       name: 'Just Legal Solutions',
@@ -212,9 +215,12 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
       },
       telephone: '+15393676832',
       sameAs: [
-        'https://www.facebook.com/justlegalsolutions',
+        'https://www.facebook.com/people/Just-Legal-Solutions/61574881736527/',
         'https://www.linkedin.com/company/justlegalsolutionsok/',
-        'https://twitter.com/ServeOK'
+        'https://twitter.com/ServeOK',
+        'https://www.instagram.com/just_legal_solutions/',
+        'https://napps.org/member-info.aspx?id=14801',
+        'https://nationalprocessservernetwork.com/directory/just-legal-solutions/'
       ]
     },
     // Map legacy aggregate rating - ONLY include for location/home/service pages, NOT articles
@@ -325,9 +331,11 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
       }
     ],
     sameAs: organization.sameAs || [
-      'https://www.facebook.com/justlegalsolutions',
+      'https://www.facebook.com/people/Just-Legal-Solutions/61574881736527/',
       'https://www.linkedin.com/company/justlegalsolutionsok/',
-      'https://www.yelp.com/biz/just-legal-solutions-glenpool',
+      'https://www.instagram.com/just_legal_solutions/',
+      'https://napps.org/member-info.aspx?id=14801',
+      'https://nationalprocessservernetwork.com/directory/just-legal-solutions/',
       'https://www.yellowpages.com/glenpool-ok/mip/just-legal-solutions-606085805',
       'https://www.manta.com/c/m1x7pgf/just-legal-solutions',
       'https://www.crunchbase.com/organization/just-legal-solutions',

@@ -490,13 +490,13 @@ export default function NotaryPage() {
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               {[
-                { icon: Shield, title: 'Licensed & Bonded', desc: 'All notaries commissioned by the Oklahoma Secretary of State with $10,000 surety bonds as required by law (49 O.S. § 2).' },
+                { icon: Shield, title: 'Licensed, Bonded & Snapdocs-Verified', desc: 'Owner Joseph Iannazzi is commissioned by the Oklahoma Secretary of State with a $10,000 surety bond (49 O.S. § 2) and fully Snapdocs-verified (ID, Commission, E&O, Background Check).' },
                 { icon: Clock, title: '24/7 Availability', desc: 'Document emergencies don\'t keep business hours. Available nights, weekends, and holidays with transparent pricing.' },
                 { icon: MapPin, title: 'Statewide Coverage', desc: 'Based in Tulsa County, serving all 77 Oklahoma counties. From Tulsa to OKC, Bartlesville to Lawton — we\'ll come to you.' },
                 { icon: Lock, title: 'Secure & Compliant', desc: 'We follow all Oklahoma notary laws, maintain detailed journals, and handle documents with complete confidentiality.' },
                 { icon: Award, title: 'Experienced Team', desc: 'Trusted by Oklahoma\'s legal community since 2020 with 50+ years\' combined experience in legal document services.' },
                 { icon: DollarSign, title: 'Transparent Pricing', desc: 'Notary fees capped by state law. Travel fees quoted upfront. We confirm total price before you book.' },
-                { icon: Star, title: 'Proven Track Record', desc: '156+ verified reviews across Google, Yelp, and Facebook with a 4.9★ average rating.' },
+                { icon: Star, title: 'Proven Track Record', desc: '150+ verified reviews across Google and our internal client channels (phone, text, email, and survey) with a 5.0★ Google Business Profile average.' },
                 { icon: Users, title: 'One-Stop Shop', desc: 'Need process serving, courier services, or skip tracing too? One call handles everything.' },
               ].map((item, idx) => {
                 const Icon = item.icon;
@@ -508,6 +508,48 @@ export default function NotaryPage() {
                   </div>
                 );
               })}
+            </div>
+
+            {/* Third-Party Trust Signals */}
+            <div className="mt-10 bg-gradient-to-br from-blue-50 to-indigo-50 border border-blue-200 rounded-2xl p-6 md:p-8">
+              <div className="flex flex-col md:flex-row items-start md:items-center gap-5 md:gap-8">
+                <div className="flex-shrink-0">
+                  <div className="flex items-center gap-2 mb-1">
+                    <Shield className="w-5 h-5 text-blue-700" aria-hidden="true" />
+                    <span className="text-xs font-bold uppercase tracking-wider text-blue-700">
+                      Independently Verified
+                    </span>
+                  </div>
+                  <p className="text-lg md:text-xl font-bold text-gray-900">
+                    Snapdocs Verified Notary
+                  </p>
+                </div>
+                <div className="flex-1 text-sm text-gray-700">
+                  <p className="mb-3">
+                    Owner <strong>Joseph Iannazzi</strong> is Snapdocs-verified on all four
+                    compliance tiers — <strong>ID, Commission, E&amp;O Insurance, and
+                    Background Check</strong> — giving lenders, title companies, and law
+                    firms a single independent source for due diligence.
+                  </p>
+                  <a
+                    href="https://notary.snapdocs.com/notary-public/oklahoma/glenpool/joseph-iannazzi"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 font-semibold text-blue-700 hover:text-blue-800 hover:underline"
+                  >
+                    View Snapdocs verification profile
+                    <ChevronRight className="w-4 h-4" aria-hidden="true" />
+                  </a>
+                </div>
+                <div className="flex-shrink-0">
+                  <Link
+                    href="/about/joseph-iannazzi"
+                    className="inline-flex items-center gap-2 bg-white border border-blue-300 text-blue-700 font-semibold px-4 py-2.5 rounded-lg hover:bg-blue-50 hover:border-blue-400 transition"
+                  >
+                    Full Credentials
+                  </Link>
+                </div>
+              </div>
             </div>
           </div>
         </section>

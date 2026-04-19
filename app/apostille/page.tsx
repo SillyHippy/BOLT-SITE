@@ -426,7 +426,7 @@ const localBusinessSchema = {
   email: 'info@JustLegalSolutions.org',
   description: 'Apostille and legalization specialists serving all 77 Oklahoma counties with secure nationwide shipping.',
   areaServed: [{ '@type': 'State', name: 'Oklahoma' }],
-  sameAs: ['https://justlegalsolutions.org', 'https://www.facebook.com/justlegalsolutions'],
+  sameAs: ['https://justlegalsolutions.org', 'https://www.facebook.com/people/Just-Legal-Solutions/61574881736527/'],
   serviceType: 'Apostille Services'
 };
 

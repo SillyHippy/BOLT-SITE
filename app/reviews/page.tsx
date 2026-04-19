@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import UnifiedSchema from '@/components/UnifiedSchema';
+import JsonLd from '@/components/JsonLd';
 
 export const metadata: Metadata = {
   title: 'Just Legal Solutions Reviews — 5-Star Process Server | Tulsa, OK',
@@ -132,7 +133,7 @@ const reviews = [
 
 const stats = [
   { value: '4.9★', label: 'Average Rating', sub: 'across Google & direct reviews' },
-  { value: '156+', label: 'Verified Reviews', sub: 'from real clients' },
+  { value: '150+', label: 'Verified Reviews', sub: 'Google + internal channels' },
   { value: '95%+', label: 'Success Rate', sub: 'on first or second attempt' },
   { value: '50+', label: 'Years Combined', sub: 'process server experience' },
 ];
@@ -149,6 +150,29 @@ const schemaReviews = reviews.slice(0, 8).map(r => ({
   reviewBody: r.text,
 }));
 
+const reviewPageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  '@id': 'https://justlegalsolutions.org/reviews#collection',
+  name: 'Just Legal Solutions Verified Client Reviews',
+  url: 'https://justlegalsolutions.org/reviews',
+  description:
+    'Verified client reviews for Just Legal Solutions from Google Business Profile and internal client channels (phone, text, email, and survey).',
+  mainEntity: {
+    '@type': 'LocalBusiness',
+    '@id': 'https://justlegalsolutions.org/#organization',
+    name: 'Just Legal Solutions',
+    telephone: '+15393676832',
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: 4.9,
+      reviewCount: 150,
+      bestRating: 5,
+      worstRating: 1,
+    },
+  },
+};
+
 export default function ReviewsPage() {
   return (
     <>
@@ -159,7 +183,7 @@ export default function ReviewsPage() {
         description="Read reviews from attorneys, law firms & clients. 5-star rated process server in Tulsa, OK."
         aggregateRating={{
           ratingValue: 4.9,
-          reviewCount: 156,
+          reviewCount: 150,
           bestRating: 5,
           worstRating: 1,
         }}
@@ -176,6 +200,7 @@ export default function ReviewsPage() {
           },
         }}
       />
+      <JsonLd data={reviewPageSchema} />
 
       <div className="min-h-screen bg-white font-sans">
         {/* Hero */}
@@ -185,7 +210,7 @@ export default function ReviewsPage() {
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
               Just Legal Solutions Reviews
             </h1>
-            <p className="text-xl text-blue-200 mb-6">Rated 4.9 stars across 156+ verified reviews from attorneys, law firms, and clients across Oklahoma.</p>
+            <p className="text-xl text-blue-200 mb-6">Rated 4.9 stars across 150+ verified reviews from Google and internal client channels across Oklahoma.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="https://g.page/r/Cb81H1j9UTYxEBM/review"
@@ -201,7 +226,16 @@ export default function ReviewsPage() {
               >
                 📞 (539) 367-6832
               </a>
+              <Link
+                href="/reviews/google"
+                className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 border border-white/30 text-white font-semibold px-8 py-4 rounded-full text-lg transition-all"
+              >
+                View Google-Only Reviews
+              </Link>
             </div>
+            <p className="text-sm text-blue-100 mt-5">
+              Third-party profiles: <a href="https://www.google.com/maps/place/Just+Legal+Solutions/@35.3090496,-98.7167134,7z/data=!3m1!4b1!4m6!3m5!1s0x2d3a1c9aca7b5281:0x313651fd581f35bf!8m2!3d35.3090496!4d-98.7167134!16s%2Fg%2F11x0psycvf" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">Google Business Profile</a> · <a href="https://nationalprocessservernetwork.com/directory/just-legal-solutions/" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">National Process Server Network</a> · <a href="https://www.instagram.com/just_legal_solutions/" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">Instagram</a>
+            </p>
           </div>
         </section>
 
@@ -279,7 +313,7 @@ export default function ReviewsPage() {
         <section className="py-16 px-4 bg-blue-900 text-white text-center">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-4">Ready to Experience 5-Star Service?</h2>
-            <p className="text-blue-200 text-lg mb-8">Join 156+ satisfied clients. Licensed, GPS-tracked, court-ready. Start at $60.</p>
+            <p className="text-blue-200 text-lg mb-8">Join 150+ satisfied clients. Licensed, GPS-tracked, court-ready. Start at $60.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:5393676832" className="inline-flex items-center justify-center gap-2 bg-yellow-400 hover:bg-yellow-300 text-blue-900 font-bold px-8 py-4 rounded-full text-lg shadow-lg transition-all">
                 📞 (539) 367-6832

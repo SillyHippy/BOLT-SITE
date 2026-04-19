@@ -312,6 +312,17 @@ export default function Home() {
 
       {/* Customer Reviews Section */}
       <ReviewWidget />
+      <section className="bg-white pb-10 px-4">
+        <div className="max-w-4xl mx-auto text-center">
+          <p className="text-sm text-gray-600">
+            Need Google-specific proof?{' '}
+            <a href="/reviews/google" className="text-blue-700 font-semibold hover:underline">
+              View our Google-only review page
+            </a>
+            .
+          </p>
+        </div>
+      </section>
 
       {/* How It Works - 3-step process (visible) */}
       <section className="bg-white py-16 md:py-20" aria-label="How our process serving works">

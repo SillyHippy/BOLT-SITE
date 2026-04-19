@@ -160,6 +160,34 @@ The Kimi notary audit highlighted that notary searches are largely won in the ma
 
 ---
 
+## 7b. Dim 08 Citation Audit (from Kimi swarm research — off-repo)
+
+The Dim 08 citation audit identified specific gaps on third-party directories. Work through each one; they compound into domain authority and NAP consistency for the map pack.
+
+### Primary citation gaps (highest priority)
+- [ ] **Facebook Business Page** — claim/update with full NAP, hours, services, process server category, link to justlegalsolutions.org; post 1-2×/week
+- [ ] **LinkedIn Company Page** — claim/update; set Joseph Iannazzi as owner; add NAPPS member badge; cross-post blog articles
+- [ ] **ServeNow** — create/verify process server directory listing; align NAP with site; include NAPPS 14801 identifier
+- [ ] **Bing Places for Business** — claim, fully populate, add photos + services (same content as GBP)
+- [ ] **Apple Maps Connect** — claim place card; verify hours; add categories (Process Server, Notary Public); link to site
+- [ ] **Yelp** — review and **correct hours** (flagged as inconsistent with GBP in Dim 08); add all services; request photo refresh
+- [ ] **ChamberofCommerce.com** — update category from generic to **Process Server / Legal Services**; confirm phone + hours
+- [ ] **Yahoo Local / Yahoo Small Business** — claim listing; if unclaimed/abandoned, reclaim and update NAP
+
+### Secondary citation gaps
+- [ ] **NAPPS public directory** (napps.org/find-a-server) — verify Member ID 14801 profile is complete (photo, services, service area, phone, email)
+- [ ] **NPSN directory** (nationalprocessservernetwork.com) — verify listing is current; link back to /about/joseph-iannazzi
+- [ ] **Snapdocs notary public profile** — verify active, linked from /notary and /remote-online-notary
+- [ ] **Better Business Bureau** — consider upgrading from "listed" to **accredited** status once reviews + tenure justify the fee; current A- rating stays until accreditation
+- [ ] **Avvo / Justia** — claim lawyer-adjacent-services profiles where allowed for process servers
+- [ ] **Thumbtack / Bark** — verify pro profiles reflect current pricing + service area
+- [ ] **HomeAdvisor / Angi** — if relevant to notary / courier customers, confirm active listings
+
+### NAP consistency check (run quarterly)
+Run a Moz Local / Whitespark scan or manual check across the above sites to catch any NAP drift (address, phone, business name, hours). Dim 08 flagged Yelp hours and ChamberofCommerce category as the two most impactful corrections.
+
+---
+
 ## 8. Cadence Summary (do these on a schedule)
 
 | Frequency | Action |

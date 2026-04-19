@@ -84,7 +84,82 @@ export default function AboutPage() {
                 <p className="text-xl md:text-2xl text-gray-600 mb-6">
                   How a 5-Year Legal Battle Inspired a New Kind of Process Server in Oklahoma
                 </p>
+                <div className="flex flex-wrap gap-2 justify-center lg:justify-start">
+                  <Link
+                    href="/about/joseph-iannazzi"
+                    className="inline-flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-blue-700 transition"
+                  >
+                    Full Founder Profile &amp; Credentials →
+                  </Link>
+                </div>
               </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Credentials & Trust Signals */}
+        <div className="bg-white border-b border-gray-200">
+          <div className="container mx-auto px-4 py-10 max-w-6xl">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+              {[
+                {
+                  label: 'NAPPS Member',
+                  value: 'ID 14801',
+                  href: 'https://napps.org/member-info.aspx?id=14801',
+                  note: 'National Association of Professional Process Servers',
+                },
+                {
+                  label: 'NPSN Listed',
+                  value: 'Directory',
+                  href: 'https://nationalprocessservernetwork.com/directory/just-legal-solutions/',
+                  note: 'National Process Server Network directory',
+                },
+                {
+                  label: 'Snapdocs Verified',
+                  value: 'ID · Commission · E&O · BG',
+                  href: 'https://notary.snapdocs.com/notary-public/oklahoma/glenpool/joseph-iannazzi',
+                  note: 'Independent notary verification',
+                },
+                {
+                  label: 'Licensed &amp; Bonded',
+                  value: '12 O.S. § 158.1',
+                  href: '/about/joseph-iannazzi',
+                  note: '$5,000 process server bond',
+                },
+              ].map((c) => {
+                const external = c.href.startsWith('http');
+                return external ? (
+                  <a
+                    key={c.label}
+                    href={c.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block bg-gradient-to-br from-blue-50 to-indigo-50 border border-blue-200 rounded-xl p-4 hover:border-blue-400 hover:shadow-sm transition"
+                  >
+                    <p
+                      className="text-xs font-bold uppercase tracking-wider text-blue-700 mb-1"
+                      // eslint-disable-next-line react/no-danger
+                      dangerouslySetInnerHTML={{ __html: c.label }}
+                    />
+                    <p className="text-lg font-bold text-gray-900">{c.value}</p>
+                    <p className="text-xs text-gray-600 mt-1">{c.note}</p>
+                  </a>
+                ) : (
+                  <Link
+                    key={c.label}
+                    href={c.href}
+                    className="block bg-gradient-to-br from-blue-50 to-indigo-50 border border-blue-200 rounded-xl p-4 hover:border-blue-400 hover:shadow-sm transition"
+                  >
+                    <p
+                      className="text-xs font-bold uppercase tracking-wider text-blue-700 mb-1"
+                      // eslint-disable-next-line react/no-danger
+                      dangerouslySetInnerHTML={{ __html: c.label }}
+                    />
+                    <p className="text-lg font-bold text-gray-900">{c.value}</p>
+                    <p className="text-xs text-gray-600 mt-1">{c.note}</p>
+                  </Link>
+                );
+              })}
             </div>
           </div>
         </div>

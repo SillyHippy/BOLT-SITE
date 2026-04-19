@@ -184,10 +184,13 @@ function generateSitemap() {
 
     // Secondary Pages
     '/resources',
+    '/reviews',
+    '/reviews/google',
     '/payments',
     '/why-choose-us',
     '/law-firm-services',
     '/about',
+    '/about/joseph-iannazzi',
     '/affidavit-of-service',
 
     // Core Service Pages (priority 0.9)
@@ -196,6 +199,8 @@ function generateSitemap() {
     '/urgent-process-server',
     '/skip-tracing',
     '/subpoena-service',
+    '/subpoena-service-oklahoma',
+    '/bail-bondsmen-process-serving',
     '/eviction-notice-service',
     '/courier-services',
     '/courier-services-tulsa',

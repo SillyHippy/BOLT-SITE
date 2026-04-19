@@ -2731,7 +2731,7 @@ export default function WhatIsAProcessServerPage() {
                     </div>
                     <div className="flex items-center p-3 bg-white rounded border">
                       <span className="text-green-600 mr-3">✓</span>
-                      <span className="font-medium">Better Business Bureau A+ Rating</span>
+                      <span className="font-medium">Better Business Bureau A- Rating (listed, not accredited)</span>
                     </div>
                     <div className="flex items-center p-3 bg-white rounded border">
                       <span className="text-green-600 mr-3">✓</span>

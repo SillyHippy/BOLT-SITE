@@ -124,7 +124,7 @@ export default function LocalBusinessSchema({
     "paymentAccepted": "Cash, Credit Card, Check, Online Payment",
     "sameAs": [
       // Add your social media profiles here
-      // "https://www.facebook.com/justlegalsolutions",
+      // "https://www.facebook.com/people/Just-Legal-Solutions/61574881736527/",
       // "https://www.linkedin.com/company/justlegalsolutions"
     ],
     "potentialAction": {

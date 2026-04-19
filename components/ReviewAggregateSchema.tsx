@@ -30,7 +30,7 @@ export default function ReviewAggregateSchema() {
       "reviewCount": "156",
       "bestRating": "5",
       "worstRating": "1",
-      "description": "Reviews collected from Google Business Profile, Yelp, Facebook Business Page, phone consultations, and direct client testimonials."
+      "description": "Reviews collected from Google Business Profile, internal client surveys, phone consultations, text-message feedback, and email testimonials."
     },
     "reviewAspect": [
       "Service Quality",
@@ -75,17 +75,10 @@ export default function ReviewAggregateSchema() {
       },
       {
         "@type": "Organization",
-"foundingDate": "2025-03-01",
-"description": "Professional process serving with over 50 years combined industry experience", 
-        "name": "Yelp Business",
-        "url": "https://www.yelp.com/biz/just-legal-solutions"
-      },
-      {
-        "@type": "Organization",
         "foundingDate": "2025-03-01",
         "description": "Professional process serving with over 50 years combined industry experience",
         "name": "Facebook Business Page",
-        "url": "https://www.facebook.com/justlegalsolutions"
+        "url": "https://www.facebook.com/people/Just-Legal-Solutions/61574881736527/"
       },
       {
         "@type": "Organization",

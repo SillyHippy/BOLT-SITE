@@ -45,7 +45,7 @@ export default function ClickOptimization({
     "paymentAccepted": ["Cash", "Credit Card", "Check"],
     "openingHours": "Mo,Tu,We,Th,Fr,Sa,Su 00:00-23:59",
     "sameAs": [
-      "https://www.facebook.com/justlegalsolutions",
+      "https://www.facebook.com/people/Just-Legal-Solutions/61574881736527/",
       "https://www.linkedin.com/company/justlegalsolutions"
     ],
     "hasOfferCatalog": {
