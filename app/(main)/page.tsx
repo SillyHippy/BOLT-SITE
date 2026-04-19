@@ -355,7 +355,7 @@ export default function Home() {
             </div>
           </div>
           <div className="text-center mt-10">
-            <a href="/process-serving" className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-xl transition shadow">
+            <a href="/process-serving" className="ui-btn-primary rounded-xl px-6 py-3">
               See Full Process Serving Methods <ArrowRight className="w-4 h-4" />
             </a>
           </div>
@@ -373,7 +373,7 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+            <div className="ui-surface-card p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-3">Process Serving Services</h3>
               <p className="text-gray-600 mb-4">
                 Our certified process servers handle all types of legal document service including summons, subpoenas, divorce papers, eviction notices, and court orders. We provide detailed affidavits of service and maintain strict compliance with Oklahoma state laws.
@@ -387,7 +387,7 @@ export default function Home() {
               </ul>
             </div>
 
-            <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+            <div className="ui-surface-card p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-3">Courier Solutions</h3>
               <p className="text-gray-600 mb-4">
                 Professional courier services for urgent document delivery, court filings, and business-to-business transfers. Our secure handling ensures confidential materials reach their destination safely and on time.
@@ -401,7 +401,7 @@ export default function Home() {
               </ul>
             </div>
 
-            <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+            <div className="ui-surface-card p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-3">Coverage Areas</h3>
               <p className="text-gray-600 mb-4">
                 Serving Tulsa County, Broken Arrow, Sapulpa, and surrounding areas with reliable process serving and courier services. We also provide statewide Oklahoma coverage across all 77 counties for urgent legal document delivery.
@@ -507,67 +507,67 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-center mb-4 text-gray-900">Explore Our Resources</h2>
           <p className="text-center text-gray-600 mb-12 max-w-3xl mx-auto">Learn more about process serving in Oklahoma with our comprehensive guides and educational resources</p>
           <div className="grid md:grid-cols-4 gap-6">
-            <a href="/process-serving" className="bg-blue-50 border-2 border-blue-600 p-6 rounded-lg shadow-md hover:shadow-lg transition text-center block">
+            <a href="/process-serving" className="ui-surface-card bg-blue-50 border-2 border-blue-600 p-6 rounded-lg hover:shadow-md transition text-center block">
               <div className="text-3xl mb-3">📄</div>
               <h3 className="font-bold text-blue-900 mb-2">Process Serving Info</h3>
               <p className="text-blue-800 text-sm">Full methods, pricing and service options</p>
             </a>
-            <a href="/oklahoma-process-server-faq" className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition text-center block">
+            <a href="/oklahoma-process-server-faq" className="ui-surface-card p-6 rounded-lg hover:shadow-md transition text-center block">
               <div className="text-3xl mb-3">❓</div>
               <h3 className="font-bold text-gray-900 mb-2">FAQ</h3>
               <p className="text-gray-600 text-sm">Common questions about process serving answered</p>
             </a>
-            <a href="/oklahoma-process-server-laws" className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition text-center block">
+            <a href="/oklahoma-process-server-laws" className="ui-surface-card p-6 rounded-lg hover:shadow-md transition text-center block">
               <div className="text-3xl mb-3">📜</div>
               <h3 className="font-bold text-gray-900 mb-2">Oklahoma Laws</h3>
               <p className="text-gray-600 text-sm">Legal requirements for process serving</p>
             </a>
-            <a href="/pricing" className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition text-center block">
+            <a href="/pricing" className="ui-surface-card p-6 rounded-lg hover:shadow-md transition text-center block">
               <div className="text-3xl mb-3">💰</div>
               <h3 className="font-bold text-gray-900 mb-2">Pricing</h3>
               <p className="text-gray-600 text-sm">Transparent pricing for all services</p>
             </a>
-            <a href="/seo/what-is-a-process-server" className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition text-center block">
+            <a href="/seo/what-is-a-process-server" className="ui-surface-card p-6 rounded-lg hover:shadow-md transition text-center block">
               <div className="text-3xl mb-3">📖</div>
               <h3 className="font-bold text-gray-900 mb-2">What is a Process Server?</h3>
               <p className="text-gray-600 text-sm">Complete guide to process serving</p>
             </a>
-            <a href="/family-law-service-guide-tulsa" className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition text-center block">
+            <a href="/family-law-service-guide-tulsa" className="ui-surface-card p-6 rounded-lg hover:shadow-md transition text-center block">
               <div className="text-3xl mb-3">👨‍👩‍👧</div>
               <h3 className="font-bold text-gray-900 mb-2">Family Law Guide</h3>
               <p className="text-gray-600 text-sm">Specialized family law process serving</p>
             </a>
-            <a href="/weekend-emergency" className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition text-center block">
+            <a href="/weekend-emergency" className="ui-surface-card p-6 rounded-lg hover:shadow-md transition text-center block">
               <div className="text-3xl mb-3">🚨</div>
               <h3 className="font-bold text-gray-900 mb-2">Emergency Service</h3>
               <p className="text-gray-600 text-sm">24/7 weekend and emergency service</p>
             </a>
-            <a href="/law-firm-services" className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition text-center block">
+            <a href="/law-firm-services" className="ui-surface-card p-6 rounded-lg hover:shadow-md transition text-center block">
               <div className="text-3xl mb-3">⚖️</div>
               <h3 className="font-bold text-gray-900 mb-2">Law Firm Services</h3>
               <p className="text-gray-600 text-sm">Partner solutions for legal professionals</p>
             </a>
-            <a href="/tulsa-process-server" className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition text-center block">
+            <a href="/tulsa-process-server" className="ui-surface-card p-6 rounded-lg hover:shadow-md transition text-center block">
               <div className="text-3xl mb-3">📍</div>
               <h3 className="font-bold text-gray-900 mb-2">Tulsa Process Server</h3>
               <p className="text-gray-600 text-sm">Serving all of Tulsa County</p>
             </a>
-            <a href="/service-areas" className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition text-center block">
+            <a href="/service-areas" className="ui-surface-card p-6 rounded-lg hover:shadow-md transition text-center block">
               <div className="text-3xl mb-3">🗺️</div>
               <h3 className="font-bold text-gray-900 mb-2">Oklahoma Service Areas</h3>
               <p className="text-gray-600 text-sm">Browse all cities and counties we serve</p>
             </a>
-            <a href="/urgent-process-server" className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition text-center block">
+            <a href="/urgent-process-server" className="ui-surface-card p-6 rounded-lg hover:shadow-md transition text-center block">
               <div className="text-3xl mb-3">⚡</div>
               <h3 className="font-bold text-gray-900 mb-2">Urgent Process Server</h3>
               <p className="text-gray-600 text-sm">Same-day rush process serving</p>
             </a>
-            <a href="/courier-services-tulsa" className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition text-center block">
+            <a href="/courier-services-tulsa" className="ui-surface-card p-6 rounded-lg hover:shadow-md transition text-center block">
               <div className="text-3xl mb-3">🚗</div>
               <h3 className="font-bold text-gray-900 mb-2">Courier Services Tulsa</h3>
               <p className="text-gray-600 text-sm">Fast document delivery and courier service</p>
             </a>
-            <a href="/resources" className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition text-center block">
+            <a href="/resources" className="ui-surface-card p-6 rounded-lg hover:shadow-md transition text-center block">
               <div className="text-3xl mb-3">📚</div>
               <h3 className="font-bold text-gray-900 mb-2">Resources & Guides</h3>
               <p className="text-gray-600 text-sm">Legal guides, tools, and educational resources</p>
