@@ -53,9 +53,6 @@ export function Navbar() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <Link href="/process-serving" className="text-gray-700 hover:text-gray-900" aria-current={pathname === '/process-serving' ? 'page' : undefined} prefetch={false}>
-              Process Serving
-            </Link>
             <Link href="/" className="text-gray-700 hover:text-gray-900" aria-current={pathname === '/' ? 'page' : undefined} prefetch={false}>
               Home
             </Link>
@@ -150,15 +147,6 @@ export function Navbar() {
               menu opens. Expected impact: Reduces unnecessary background network
               requests on mobile devices when the menu is opened. */}
           <div className="flex flex-col py-4">
-            <Link
-              href="/process-serving"
-              className="px-6 py-3 text-gray-700 hover:bg-gray-100"
-              onClick={() => setIsMobileMenuOpen(false)}
-              aria-current={pathname === '/process-serving' ? 'page' : undefined}
-              prefetch={false}
-            >
-              Process Serving
-            </Link>
             <Link
               href="/"
               className="px-6 py-3 text-gray-700 hover:bg-gray-100"
