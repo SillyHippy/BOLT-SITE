@@ -1,4 +1,6 @@
 Contact: mailto:info@justlegalsolutions.org
-Expires: 2025-12-31T23:59:59.000Z
+Contact: tel:+15393676832
+Expires: 2027-04-19T23:59:59.000Z
 Preferred-Languages: en
+Canonical: https://justlegalsolutions.org/.well-known/security.txt
 Policy: https://justlegalsolutions.org/security-policy

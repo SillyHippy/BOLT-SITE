@@ -385,6 +385,21 @@ function generateSitemap() {
     } else if (PRIORITY_0_9_PATTERNS.some(p => urlPath === p)) {
       priority = '0.9';
       changefreq = 'weekly';
+    } else if (urlPath === '/ultimate-guide-process-serving-oklahoma') {
+      priority = '0.95';
+      changefreq = 'weekly';
+    } else if ([
+      '/process-server-vs-sheriff',
+      '/divorce-paper-service',
+      '/small-claims-process-serving',
+      '/protective-order-service',
+      '/tulsa-process-server-faq',
+      '/process-serving-for-debt-collection',
+      '/process-serving-for-insurance-companies',
+      '/process-serving-for-property-managers',
+    ].includes(urlPath)) {
+      priority = '0.9';
+      changefreq = 'weekly';
     } else if (urlPath.includes('/oklahoma-') || urlPath.includes('/seo/') || urlPath.includes('/process-server') || urlPath.includes('/ultimate-guide') || urlPath.includes('/process-serving-mistakes') || urlPath === '/notary-faqs' || urlPath === '/notary-laws') {
       priority = '0.85';
       changefreq = 'monthly';
