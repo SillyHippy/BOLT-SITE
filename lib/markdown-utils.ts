@@ -1,4 +1,4 @@
-import { readFileSync, readdirSync } from 'fs';
+import * as fs from 'fs';
 import { join } from 'path';
 
 const COUNTIES_DIR = join(process.cwd(), 'content', 'counties');
@@ -18,7 +18,7 @@ const EXISTING_COUNTY_PAGES = [
 const SKIP_FILES = ['tulsa-county-enhanced'];
 
 export function getCountySlugs(): string[] {
-  const files = readdirSync(COUNTIES_DIR).filter((f) => f.endsWith('.md'));
+  const files = fs.readdirSync(COUNTIES_DIR).filter((f) => f.endsWith('.md'));
   return files
     .map((f) => f.replace(/\.md$/, ''))
     .filter(
@@ -27,9 +27,9 @@ export function getCountySlugs(): string[] {
     );
 }
 
-export function getCountyContent(slug: string): string {
+export async function getCountyContent(slug: string): Promise<string> {
   const filePath = join(COUNTIES_DIR, `${slug}.md`);
-  return readFileSync(filePath, 'utf-8');
+  return await fs.promises.readFile(filePath, 'utf-8');
 }
 
 export function extractTitle(content: string): string {
@@ -103,16 +103,16 @@ const LOCATIONS_DIR = join(process.cwd(), 'content', 'locations');
 
 export function getLocationSlugs(): string[] {
   try {
-    const files = readdirSync(LOCATIONS_DIR).filter((f) => f.endsWith('.md'));
+    const files = fs.readdirSync(LOCATIONS_DIR).filter((f) => f.endsWith('.md'));
     return files.map((f) => f.replace(/\.md$/, ''));
   } catch {
     return [];
   }
 }
 
-export function getLocationContent(slug: string): string {
+export async function getLocationContent(slug: string): Promise<string> {
   const filePath = join(LOCATIONS_DIR, `${slug}.md`);
-  return readFileSync(filePath, 'utf-8');
+  return await fs.promises.readFile(filePath, 'utf-8');
 }
 
 export function slugToLocationName(slug: string): string {

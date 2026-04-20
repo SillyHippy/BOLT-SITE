@@ -232,7 +232,7 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
-  const content = getLocationContent(slug);
+  const content = await getLocationContent(slug);
   const locationName = slugToLocationName(slug);
   const rawTitle = extractTitle(content);
   // CTR-optimized title — pricing in metadata, not in FAQs
@@ -281,7 +281,7 @@ export default async function LocationPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const content = getLocationContent(slug);
+  const content = await getLocationContent(slug);
   const data = parseLocationData(content, slug);
   const {
     title, description, locationName, countyName, intro,

@@ -58,7 +58,7 @@ export async function generateMetadata({
 
 export default async function CountyPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const content = getCountyContent(slug);
+  const content = await getCountyContent(slug);
   const countyName = slugToCountyName(slug);
   const title = extractTitle(content) || `${countyName} Process Server`;
   const description =
