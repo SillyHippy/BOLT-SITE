@@ -1,0 +1,351 @@
+{
+  "domain": "ok_court_rules",
+  "agent": "Research_OK_Court_Rules",
+  "date": "2026-04-20",
+  "claims": [
+    {
+      "statement": "Oklahoma District Court Rule 2 requires that proof of service state the name of the person served and the date, place, and method of service",
+      "source_url": "https://govt.westlaw.com/okjc/Document/N5B021380C68E11DB8F04FB3E68C8F4C5?viewType=FullText",
+      "source_title": "Rule 2. Service and Proof of Service - Rules for District Courts of Oklahoma",
+      "date_accessed": "2026-04-20",
+      "quote": "a. The person serving the process shall state in his proof the name of the person served and the date, place and method of service. See 12 O.S. \u00a7 2004G.",
+      "category": "rule"
+    },
+    {
+      "statement": "Oklahoma District Court Rule 2 requires defendants to file responsive pleadings within 20 days after being served with process",
+      "source_url": "https://law.justia.com/cases/oklahoma/supreme-court/2013/2013-ok-68.html",
+      "source_title": "IN RE AMENDMENTS TO OKLAHOMA SUPREME COURT RULES, 2013 OK 68",
+      "date_accessed": "2026-04-20",
+      "quote": "b. (i) Defendants, third-party defendants and persons who are joined as parties to an action shall file their responsive pleading with the court clerk and serve copies on all opposing parties within 20 days after being served with process unless the time is extended by the service and filing of a motion or by the entry of an appearance",
+      "category": "rule"
+    },
+    {
+      "statement": "Oklahoma District Court Rule 2 allows service of pleadings and motions by any person 18 years or older, with proof by attorney certificate or affidavit",
+      "source_url": "https://law.justia.com/cases/oklahoma/supreme-court/2013/2013-ok-68.html",
+      "source_title": "IN RE AMENDMENTS TO OKLAHOMA SUPREME COURT RULES, 2013 OK 68",
+      "date_accessed": "2026-04-20",
+      "quote": "(iii) Where service of a pleading, motion or other instrument is made by delivery, the delivery shall be performed by any person who is 18 years of age or older. Proof of service, whether made by delivery or mail, shall be made by the certificate of an attorney of record, or if made by any other person, by the affidavit of such person.",
+      "category": "rule"
+    },
+    {
+      "statement": "Oklahoma District Court Rule 2.1 authorizes electronic filing and electronic service as authorized by the Rules for Electronic Filing in the Oklahoma Courts",
+      "source_url": "https://govt.westlaw.com/okjc/Document/N010C84E0F2BB11E287538FE6867B56CD?viewType=FullText",
+      "source_title": "Rule 2.1. Electronic Filing, Service, and Signature",
+      "date_accessed": "2026-04-20",
+      "quote": "a. Electronic Filing. Whenever these rules require a pleading, motion, document, or other instrument to be filed or delivered to the court clerk, such requirement may be satisfied by electronic filing as authorized by the Rules for Electronic Filing in the Oklahoma Courts, and any other applicable statute or court rule.",
+      "category": "rule"
+    },
+    {
+      "statement": "Oklahoma District Court Rule 2.1(b) provides that the term 'mail' includes transmission by electronic mail when authorized by the Rules for Electronic Filing",
+      "source_url": "https://govt.westlaw.com/okjc/Document/N010C84E0F2BB11E287538FE6867B56CD?viewType=FullText",
+      "source_title": "Rule 2.1. Electronic Filing, Service, and Signature",
+      "date_accessed": "2026-04-20",
+      "quote": "b. Electronic Service. Whenever these rules require a pleading, motion, document or other instrument to be served, mailed, transmitted, or issued, such requirement may be satisfied by electronic methods as authorized by the Rules for Electronic Filing in the Oklahoma Courts... As used in these rules, the term 'mail' 'mailing' or 'mailed' shall include transmission by electronic mail, when authorized by the Rules for Electronic Filing in the Oklahoma Courts",
+      "category": "rule"
+    },
+    {
+      "statement": "Oklahoma District Court Rule 2.1(c)(2) allows notarized documents and documents signed under penalty of perjury to be filed electronically, with the filer retaining the original",
+      "source_url": "https://govt.westlaw.com/okjc/Document/N010C84E0F2BB11E287538FE6867B56CD?viewType=FullText",
+      "source_title": "Rule 2.1. Electronic Filing, Service, and Signature",
+      "date_accessed": "2026-04-20",
+      "quote": "2. Pleadings, motions, affidavits, waivers, or other instruments which are signed under penalty of perjury, or notarized may be filed electronically, pursuant to the Rules for Electronic Filing in the Oklahoma Courts or other applicable court rule or statute... The filer shall retain the original document, or other evidence of the original signature(s), for future production.",
+      "category": "rule"
+    },
+    {
+      "statement": "Oklahoma District Court Rule 3 states that objections to jurisdiction over the person, issuance or service of summons, or venue are waived if a party asks for affirmative relief in a permissive counterclaim, cross-claim, or third-party petition",
+      "source_url": "https://www.choctawnation.com/wp-content/uploads/2022/04/code-of-civil-procedure.pdf",
+      "source_title": "Rule 3. Objections to Service and Venue - Choctaw Nation Code of Civil Procedure (mirroring state rule)",
+      "date_accessed": "2026-04-20",
+      "quote": "Objections to the jurisdiction of the court over the person, to the issuance or service of the summons or to the venue of the action are waived and a party submits himself to the jurisdiction of the court if he asks for affirmative relief on a claim which is asserted in a permissive counterclaim, in a cross-claim, or in a third-party petition. The assertion of a compulsory counterclaim against a plaintiff does not waive any of the above objections.",
+      "category": "rule"
+    },
+    {
+      "statement": "Oklahoma Supreme Court Rule 1.4(g) requires proof of service by certificate endorsed on the filing for all documents filed with the Supreme Court or Court of Civil Appeals",
+      "source_url": "https://govt.westlaw.com/okjc/Document/N890FC2D0E4D211EDB6E5C4E763E91E09?viewType=FullText",
+      "source_title": "Rule 1.4. Supreme Court Clerk, Guidelines for Filers, Filings",
+      "date_accessed": "2026-04-20",
+      "quote": "(1) By Parties. Service of all documents filed with the Supreme Court or Court of Civil Appeals shall be made in the manner provided in 12 O.S. \u00a7 2005(B), or as provided in the Rules for Electronic Filing in the Oklahoma Courts. Proof of service may be by a certificate of service endorsed on the filing. The Court, a Justice thereof, or a Referee of the Supreme Court may require other methods of service and proof of service.",
+      "category": "rule"
+    },
+    {
+      "statement": "Electronic Filing Rule 8(a) authorizes electronic service only for documents permitted to be served by first-class mail, express mail, overnight delivery, or facsimile - not for service of process or documents requiring personal service",
+      "source_url": "https://govt.westlaw.com/okjc/Document/N299D0E80B13011EF9416B070B743B835?viewType=FullText",
+      "source_title": "Rule 8. Electronic Service (E-Service) - Rules for Electronic Filing (Pilot Courts)",
+      "date_accessed": "2026-04-20",
+      "quote": "a. Authorization for Electronic Service. Where any statute or court rule requires service of a Document on another person, that requirement may be accomplished by Electronic Service. Electronic Service of Documents is limited to those Documents permitted to be served by first-class mail, express mail, overnight delivery, or facsimile transmission. Service of process and service of Documents that require personal service as a matter of law may not be accomplished electronically.",
+      "category": "rule"
+    },
+    {
+      "statement": "Electronic Filing Rule 8(b) states that e-service is effective upon transmission to the Designated Case-Specific Email Address, but automatic OUCMS notices do not constitute electronic service",
+      "source_url": "https://govt.westlaw.com/okjc/Document/N299D0E80B13011EF9416B070B743B835?viewType=FullText",
+      "source_title": "Rule 8. Electronic Service (E-Service) - Rules for Electronic Filing (Pilot Courts)",
+      "date_accessed": "2026-04-20",
+      "quote": "E-Service is effective upon the transmission of the Document by the Filer to the Designated Case-Specific Email Address of the person being served... Automatic notices generated by the OUCMS regarding docket activity or case filings shall not constitute Electronic Service upon any party.",
+      "category": "rule"
+    },
+    {
+      "statement": "12 O.S. \u00a7 2004(C)(1)(a) provides for personal service by delivering a copy of summons and petition personally, or by leaving copies at the dwelling house with a person 15+ years old residing therein (substituted service)",
+      "source_url": "https://law.justia.com/codes/oklahoma/title-12/section-12-2004/",
+      "source_title": "12 OK Stat \u00a7 2004 (2025) - Process",
+      "date_accessed": "2026-04-20",
+      "quote": "Service shall be made as follows: (1) upon an individual other than an infant who is less than fifteen (15) years of age or an incompetent person, by delivering a copy of the summons and of the petition personally or by leaving copies thereof at the person's dwelling house or usual place of abode with some person then residing therein who is fifteen (15) years of age or older, by delivering a copy of the summons and of the petition to an agent authorized by appointment or by law to receive service of process",
+      "category": "statute"
+    },
+    {
+      "statement": "12 O.S. \u00a7 2004(G)(1) requires proof of service to be made promptly and within the time during which the person served must respond",
+      "source_url": "https://law.justia.com/codes/oklahoma/title-12/section-12-2004/",
+      "source_title": "12 OK Stat \u00a7 2004 (2025) - Process",
+      "date_accessed": "2026-04-20",
+      "quote": "G. RETURN. 1. The person serving the process shall make proof of service thereof to the court promptly and in any event within the time during which the person served must respond to the process, but the failure to make proof of service does not affect the validity of the service.",
+      "category": "statute"
+    },
+    {
+      "statement": "12 O.S. \u00a7 2004(G)(2) requires licensed process servers to make affidavit of service, setting forth the county of issuance, name of person served, and date, place and method of service",
+      "source_url": "https://law.justia.com/codes/oklahoma/title-12/section-12-2004/",
+      "source_title": "12 OK Stat \u00a7 2004 (2025) - Process",
+      "date_accessed": "2026-04-20",
+      "quote": "If service is made by a person other than a sheriff or deputy sheriff, the licensed process server shall make affidavit thereof. The return shall set forth the county of issuance, the name of the person served and the date, place and method of service.",
+      "category": "statute"
+    },
+    {
+      "statement": "12 O.S. \u00a7 2004(I) establishes a 180-day deadline for service of process after filing the petition",
+      "source_url": "https://law.justia.com/codes/oklahoma/title-12/section-12-2004/",
+      "source_title": "12 OK Stat \u00a7 2004 (2025) - Process",
+      "date_accessed": "2026-04-20",
+      "quote": "I. SUMMONS: TIME LIMIT FOR SERVICE. If service of process is not made upon a defendant within one hundred eighty (180) days after the filing of the petition and the plaintiff has not shown good cause why such service was not made within that period, the action shall be deemed dismissed as to that defendant without prejudice",
+      "category": "statute"
+    },
+    {
+      "statement": "12 O.S. \u00a7 2005(B) requires service upon a party's attorney (not the party directly) unless the court orders otherwise, and permits service by electronic means with written consent",
+      "source_url": "https://law.justia.com/codes/oklahoma/title-12/section-12-2005/",
+      "source_title": "12 OK Stat \u00a7 2005 (2025) - Service and filing of pleadings and other papers",
+      "date_accessed": "2026-04-20",
+      "quote": "B. SERVICE: HOW MADE. Whenever pursuant to this act service is required or permitted to be made upon a party represented by an attorney the service shall be made upon the attorney unless service directly upon the party is ordered by the court... Service upon the attorney or upon a party shall be made by delivering a copy to the attorney or the party or by mailing it or sending it by third-party commercial carrier for delivery within three (3) calendar days... or by electronic means if the attorney or party consents in writing to receiving service in a particular case by electronic means",
+      "category": "statute"
+    },
+    {
+      "statement": "12 O.S. \u00a7 2005(B) defines electronic means as including facsimile or electronic mail (e-mail)",
+      "source_url": "https://law.justia.com/codes/oklahoma/title-12/section-12-2005/",
+      "source_title": "12 OK Stat \u00a7 2005 (2025) - Service and filing of pleadings and other papers",
+      "date_accessed": "2026-04-20",
+      "quote": "For purposes of this subsection, 'electronic means' includes communications by facsimile or electronic mail through the internet, commonly known as e-mail.",
+      "category": "statute"
+    },
+    {
+      "statement": "12 O.S. \u00a7 2005(D) requires all filed papers to include a statement of the names of persons served and the date, place, and method of service",
+      "source_url": "https://law.justia.com/codes/oklahoma/title-12/section-12-2005/",
+      "source_title": "12 OK Stat \u00a7 2005 (2025) - Service and filing of pleadings and other papers",
+      "date_accessed": "2026-04-20",
+      "quote": "D. FILING. All papers after the petition required to be served upon a party shall be filed with the court either before service or within a reasonable time thereafter... All papers filed with the court shall include a statement setting forth the names of the persons served and the date, place, and method of service.",
+      "category": "statute"
+    },
+    {
+      "statement": "12 O.S. \u00a7 158.1 establishes private process server licensing requirements: age 18+, good moral character, Oklahoma residency for 6 months, county residency for 30 days, and a $5,000 bond",
+      "source_url": "https://law.justia.com/codes/oklahoma/title-12/section-12-158-1/",
+      "source_title": "12 OK Stat \u00a7 158.1 (2025) - Private process servers - Licensing",
+      "date_accessed": "2026-04-20",
+      "quote": "B. Any person who is: 1. Eighteen (18) years of age or older; 2. Of good moral character; 3. Found ethically and mentally fit; 4. A resident of the State of Oklahoma for a period of not less than six (6) months; and 5. A resident of the county or judicial administrative district in which the application is submitted for a period of not less than thirty (30) days, may obtain a license by filing an application with the court clerk",
+      "category": "statute"
+    },
+    {
+      "statement": "12 O.S. \u00a7 158.1(C) provides for a statewide license at $150 fee with 3-year renewals, and the license grants authority to serve process in any county in Oklahoma",
+      "source_url": "https://law.justia.com/codes/oklahoma/title-12/section-12-158-1/",
+      "source_title": "12 OK Stat \u00a7 158.1 (2025) - Private process servers - Licensing",
+      "date_accessed": "2026-04-20",
+      "quote": "C. The applicant filing for a license to serve process anywhere in this state shall pay a license fee of One Hundred Fifty Dollars ($150.00)... The license shall state that the licensee is an officer of the court only for the purpose of service of process. The authority of the licensee shall be statewide.",
+      "category": "statute"
+    },
+    {
+      "statement": "12 O.S. \u00a7 158.1(K) requires the Administrative Office of the Courts to maintain a statewide registry of licensed private process servers",
+      "source_url": "https://law.justia.com/codes/oklahoma/title-12/section-12-158-1/",
+      "source_title": "12 OK Stat \u00a7 158.1 (2025) - Private process servers - Licensing",
+      "date_accessed": "2026-04-20",
+      "quote": "K. No later than January 1, 2013, the Administrative Office of the Courts shall establish and maintain a statewide registry which shall contain a list of licensed private process servers.",
+      "category": "statute"
+    },
+    {
+      "statement": "Tulsa County Local Court Rule 17 governs private process servers, including licensing procedures, $5,000 bond requirement, and rules of conduct",
+      "source_url": "https://www.tulsacountydistrictcourt.org/files/TCDC-LocalRulesGeneral-Current12072021.pdf",
+      "source_title": "Tulsa County District Court Rules - General Rules, Rule 17",
+      "date_accessed": "2026-04-20",
+      "quote": "RULE 17. Private Process Servers... A licensed process server is authorized to serve process issued by Tulsa County in civil cases anywhere within the State of Oklahoma... The initial fee for Tulsa County licenses is $150, or $265 for statewide licenses... Upon an annual filing of a certified copy of a license... and payment of a filing fee of ten (10) dollars... a licensed process server may serve process in that county",
+      "category": "rule"
+    },
+    {
+      "statement": "Tulsa County requires designation of the process server on the face of the summons or order, with the server's name and license number",
+      "source_url": "https://www.tulsacountydistrictcourt.org/files/TCDC-LocalRulesGeneral-Current12072021.pdf",
+      "source_title": "Tulsa County District Court Rules - Designation of Process Server",
+      "date_accessed": "2026-04-20",
+      "quote": "Any person using a licensed process server shall designate on the face of the summons or order the name and license number(s) of the process server or servers selected from the Court Clerk's approved list and shall sign the designation.",
+      "category": "rule"
+    },
+    {
+      "statement": "Cleveland County (21st Judicial District) Local Rule No. 8 requires a certificate of service on all filed motions and pleadings, and requires a Notice of Consent to Accept Service by Email for electronic service",
+      "source_url": "https://www.ccbaok.org/wp-content/uploads/Local-Rules-21st-Judicial-District.docx",
+      "source_title": "OFFICIAL COURT RULES OF THE TWENTY-FIRST JUDICIAL DISTRICT - Rule No. 8",
+      "date_accessed": "2026-04-20",
+      "quote": "B. Parties or attorneys filing motions, pleadings, orders or journal entries after the petition has been filed shall serve copies as provided in 12 O.S. \u00a72005, except as otherwise provided by law. A certificate of service shall be noted on the original instrument filed... C. If a party or attorney consents to service by email, that party or attorney shall file a Notice of Consent to Accept Service by Email.",
+      "category": "rule"
+    },
+    {
+      "statement": "Cleveland County Local Rule No. 19 requires a Servicemember's affidavit in accordance with the SCRA for all default judgments against individuals",
+      "source_url": "https://www.ccbaok.org/wp-content/uploads/Local-Rules-21st-Judicial-District.docx",
+      "source_title": "OFFICIAL COURT RULES OF THE TWENTY-FIRST JUDICIAL DISTRICT - Rule No. 19",
+      "date_accessed": "2026-04-20",
+      "quote": "When the defaulting party has not made an appearance... the Plaintiff may file a motion for default judgment reciting: 1. The method and date of service; 2. The date proof of service was filed; 3. The date by which the Defendant was required to respond; and 4. What notice of the default was given to the Defendant... Servicemember's affidavit in accordance with the Servicemember's Civil Relief Act of 2003 and Department of Defense Status Report in all civil cases involving individuals",
+      "category": "rule"
+    },
+    {
+      "statement": "Oklahoma County local rules (as of August 2023) include provisions for a private process server docket and related procedures",
+      "source_url": "https://oklacountyjudges.org/wp-content/uploads/2023/10/Local-Rules-Updated-August-24-2023-1.pdf",
+      "source_title": "Oklahoma County Local Rules Updated August 2023",
+      "date_accessed": "2026-04-20",
+      "quote": "Conducts or designates a judge to conduct the private process server docket ... document filed with the Court Clerk, unless otherwise ordered by the Court.",
+      "category": "rule"
+    },
+    {
+      "statement": "The Oklahoma E-Filing System allows attorneys, private process servers, and state agency representatives to electronically file court documents",
+      "source_url": "https://efile.oscn.net/docs/E-Filing%20Quick%20Start%20Guide%20-%20Filer%20Interface.pdf",
+      "source_title": "OSCN E-Filing Quick Start Guide",
+      "date_accessed": "2026-04-20",
+      "quote": "The Oklahoma Electronic Filing System allows Oklahoma attorneys, private process servers, and state agency representatives to efficiently upload and electronically file court documents into existing district court cases through the Internet using a standard web browser.",
+      "category": "procedure"
+    },
+    {
+      "statement": "All e-filed documents must be in text-based PDF format with a 2-inch top margin on the first page for the electronic file stamp",
+      "source_url": "https://efile.oscn.net/docs/E-Filing%20Quick%20Start%20Guide%20-%20Filer%20Interface.pdf",
+      "source_title": "OSCN E-Filing Quick Start Guide - Document Preparation",
+      "date_accessed": "2026-04-20",
+      "quote": "All E-Filed documents shall be filed in a text-based PDF format pursuant to the Rules For Electronic Filing in the Oklahoma Courts... The first page of an e-Document should have a top margin of at least two(2) inches to allow for insertion of an electronic file stamp and/or certification.",
+      "category": "procedure"
+    },
+    {
+      "statement": "Documents submitted outside business hours, weekends, or holidays are deemed submitted the next business day",
+      "source_url": "https://efile.oscn.net/docs/E-Filing%20Quick%20Start%20Guide%20-%20Filer%20Interface.pdf",
+      "source_title": "OSCN E-Filing Quick Start Guide - Filing Deadlines",
+      "date_accessed": "2026-04-20",
+      "quote": "Any document(s) submitted outside of the district court clerks regular business hours., on a weekend, on a holiday, or during office closures due to inclement weather, will be deemed submitted the next business day.",
+      "category": "procedure"
+    },
+    {
+      "statement": "The E-Filing Rules define Electronic Service (E-Service) as the electronic transmission of E-Documents by email to Registered Users in lieu of serving in traditional paper form",
+      "source_url": "https://law.justia.com/cases/oklahoma/supreme-court/2012/scad-2012-36.html",
+      "source_title": "OKLAHOMA RULES FOR E-FILING IN SELECTED PILOT COURTS, SCAD-2012-36",
+      "date_accessed": "2026-04-20",
+      "quote": "j. 'Electronic Service' ('E-Service') means the electronic transmission of E-Documents by email to one or more Registered Users in lieu of serving such Documents in traditional paper form.",
+      "category": "rule"
+    },
+    {
+      "statement": "The E-Filing Rules require a Designated Case-Specific Email Address that serves as the last known address for purposes of service once provided",
+      "source_url": "https://law.justia.com/cases/oklahoma/supreme-court/2012/scad-2012-36.html",
+      "source_title": "OKLAHOMA RULES FOR E-FILING IN SELECTED PILOT COURTS, SCAD-2012-36",
+      "date_accessed": "2026-04-20",
+      "quote": "1. 'Designated Case-Specific Email Address' is the primary email address provided by the Registered User in a specific case or matter for E-Service in that specific case or matter... Once a Registered User provides a Designated Case-Specific Email Address in a specific case, that address shall serve as the 'last known address' for purposes of service in that matter",
+      "category": "rule"
+    },
+    {
+      "statement": "The Oklahoma Supreme Court provides standard forms on OSCN including Entry of Appearance (Form 1), Entry of Appearance Pro Se (Form 2), Notice of Change of Address (Form 3), and In Forma Pauperis Affidavit (Form 4)",
+      "source_url": "https://oksc.oscn.net/forms/",
+      "source_title": "Forms - Oklahoma Supreme Court - OSCN.net",
+      "date_accessed": "2026-04-20",
+      "quote": "|1. Entry of Appearance.|Word|PDF| |2. Entry of Appearance - Pro se.|Word|PDF| |3. Notice of Change of Address.|Word|PDF| |4. In Forma Pauperis Affidavit.|Word|PDF|",
+      "category": "form"
+    },
+    {
+      "statement": "Military affidavits (Non-Military Affidavits) are required under the Servicemembers Civil Relief Act before default judgment can be entered, to certify a defendant is not on active military duty",
+      "source_url": "https://www.pdffiller.com/616414335--OK-Petition-for-Divorce-Complete-Legal-Document-Online-US-Legal-Forms-",
+      "source_title": "Oklahoma Non-Military Affidavit Information",
+      "date_accessed": "2026-04-20",
+      "quote": "The Oklahoma Non-Military Affidavit is a legal document used by petitioners to certify that the respondent in a divorce case is not on active duty in the armed services... This affidavit assures the court that the individual in question is not on active duty, thereby influencing the legal context of family law cases.",
+      "category": "form"
+    },
+    {
+      "statement": "The E-Filing Rules include a Form No. 1 for Notice of attachments not electronically filed",
+      "source_url": "https://law.justia.com/cases/oklahoma/supreme-court/2012/scad-2012-36.html",
+      "source_title": "OKLAHOMA RULES FOR E-FILING IN SELECTED PILOT COURTS, SCAD-2012-36 - Form No. 1",
+      "date_accessed": "2026-04-20",
+      "quote": "A notice regarding the inability to E-File any attachments shall be appended to the end of the principal E-Document and a copy of that notice shall also accompany all copies of the principal Document that are served on the parties and any court officials in the case. See Form No. 1.",
+      "category": "form"
+    },
+    {
+      "statement": "OSCN dockets show filing events including 'SUMMONS RETURNED / AFFIDAVIT OF SERVICE' as standard docket entries",
+      "source_url": "https://www.oscn.net/dockets/GetCaseInformation.aspx?db=Logan&cmid=153826",
+      "source_title": "OSCN Case Details - Sample Docket Entry",
+      "date_accessed": "2026-04-20",
+      "quote": "SUMMONS RETURNED / AFFIDAVIT OF SERVICE. Document Available (1062654963)",
+      "category": "procedure"
+    },
+    {
+      "statement": "Tulsa County process server rules prohibit carrying weapons while serving unless the server has an officer's commission or concealed carry certification",
+      "source_url": "https://www.tulsacountydistrictcourt.org/files/TCDC-LocalRulesGeneral-Current12072021.pdf",
+      "source_title": "Tulsa County District Court Rules - Rules Governing Private Process Servers",
+      "date_accessed": "2026-04-20",
+      "quote": "A process server will never carry any type of gun or weapon unless he or she has an officer's commission or has been certified as required by law to carry a concealed weapon.",
+      "category": "rule"
+    },
+    {
+      "statement": "Tulsa County process servers must show their licenses and advise the person they are process servers when serving; licenses must be carried at all times while on duty; badges are prohibited",
+      "source_url": "https://www.tulsacountydistrictcourt.org/files/TCDC-LocalRulesGeneral-Current12072021.pdf",
+      "source_title": "Tulsa County District Court Rules - Rules Governing Private Process Servers",
+      "date_accessed": "2026-04-20",
+      "quote": "When serving a person, process servers must show their licenses and advise the person they are process servers. Licenses shall be carried at all times while on duty. The use of any badge is prohibited.",
+      "category": "rule"
+    },
+    {
+      "statement": "Oklahoma Administrative Code \u00a7 340:25-5-190 requires 'diligent efforts' defined as at least three repeated attempts to serve at different times of day or on different days before declaring inability to serve",
+      "source_url": "https://www.law.cornell.edu/regulations/oklahoma/OAC-340-25-5-190",
+      "source_title": "Okla. Admin. Code \u00a7 340:25-5-190 - Service of process",
+      "date_accessed": "2026-04-20",
+      "quote": "Diligent efforts means at least three-repeated attempts to serve the individual at different times of day or on different days of the week, before declaring inability to serve.",
+      "category": "rule"
+    },
+    {
+      "statement": "12 O.S. \u00a7 2004(C)(5) provides that an acknowledgment on the back of the summons or voluntary appearance of a defendant is equivalent to service",
+      "source_url": "https://law.justia.com/codes/oklahoma/title-12/section-12-2004/",
+      "source_title": "12 OK Stat \u00a7 2004 (2025) - Process",
+      "date_accessed": "2026-04-20",
+      "quote": "5. SERVICE BY ACKNOWLEDGMENT. An acknowledgment on the back of the summons or the voluntary appearance of a defendant is equivalent to service.",
+      "category": "statute"
+    },
+    {
+      "statement": "12 O.S. \u00a7 2004(C)(6) allows court-ordered alternative service methods when service cannot be made by personal delivery or mail, upon filing an affidavit of due diligence",
+      "source_url": "https://law.justia.com/codes/oklahoma/title-12/section-12-2004/",
+      "source_title": "12 OK Stat \u00a7 2004 (2025) - Process",
+      "date_accessed": "2026-04-20",
+      "quote": "6. SERVICE BY OTHER METHODS. If service cannot be made by personal delivery or by mail, a defendant... may be served as provided by court order in a manner which is reasonably calculated to give the defendant actual notice of the proceedings and an opportunity to be heard and upon filing an affidavit by the plaintiff or plaintiff's attorney that with due diligence service cannot otherwise be made upon the defendant.",
+      "category": "statute"
+    },
+    {
+      "statement": "12 O.S. \u00a7 2004(C)(7) prohibits prisoners, parolees, or probationers from being appointed to serve process",
+      "source_url": "https://law.justia.com/codes/oklahoma/title-12/section-12-2004/",
+      "source_title": "12 OK Stat \u00a7 2004 (2025) - Process",
+      "date_accessed": "2026-04-20",
+      "quote": "7. NO SERVICE BY PRISONER. No prisoner in any jail, Department of Corrections facility, private prison, or parolee or probationer under supervision of the Department of Corrections shall be appointed by any court to serve process on any defendant, party or witness.",
+      "category": "statute"
+    },
+    {
+      "statement": "12 O.S. \u00a7 2004(C)(4) designates the Secretary of State as agent for service of process on corporations that cannot be served by other methods",
+      "source_url": "https://law.justia.com/codes/oklahoma/title-12/section-12-2004/",
+      "source_title": "12 OK Stat \u00a7 2004 (2025) - Process",
+      "date_accessed": "2026-04-20",
+      "quote": "Service may also be made upon a domestic or foreign corporation by serving the Secretary of State as its agent... Within three (3) working days after receiving the summons and petition, the Secretary of State shall send notice by letter, certified mail, return receipt requested, directed to the corporation at its registered office",
+      "category": "statute"
+    },
+    {
+      "statement": "12 O.S. \u00a7 2004(C)(3) provides for service by publication when due diligence cannot achieve service by other methods, requiring one day a week for three consecutive weeks in a newspaper authorized to publish legal notices",
+      "source_url": "https://law.justia.com/codes/oklahoma/title-12/section-12-2004/",
+      "source_title": "12 OK Stat \u00a7 2004 (2025) - Process",
+      "date_accessed": "2026-04-20",
+      "quote": "c. Service pursuant to this paragraph shall be made by publication of a notice, signed by the court clerk, one (1) day a week for three (3) consecutive weeks in a newspaper authorized by law to publish legal notices which is published in the county where the petition is filed.",
+      "category": "statute"
+    },
+    {
+      "statement": "12 O.S. \u00a7 2004(H) allows courts to amend process or proof of service at any time unless material prejudice would result",
+      "source_url": "https://law.justia.com/codes/oklahoma/title-12/section-12-2004/",
+      "source_title": "12 OK Stat \u00a7 2004 (2025) - Process",
+      "date_accessed": "2026-04-20",
+      "quote": "H. AMENDMENT. At any time in its discretion and upon such terms as it deems just, the court may allow any process or proof of service thereof to be amended, unless it clearly appears that material prejudice would result to the substantial rights of the party against whom the process issued.",
+      "category": "statute"
+    }
+  ]
+}

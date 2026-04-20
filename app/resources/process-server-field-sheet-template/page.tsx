@@ -62,15 +62,23 @@ export default function ProcessServerFieldSheetTemplate() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a 
-                  href="/downloads/process-server-field-sheet-template.pdf" 
+                  href="/downloads/JLS-Process-Server-Field-Sheet-v1.0.pdf" 
                   download
                   className="inline-flex items-center justify-center gap-2 bg-white text-blue-900 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
                 >
                   <Download className="w-5 h-5" />
-                  Download Free Template
+                  Download PDF
+                </a>
+                <a 
+                  href="/downloads/JLS-Process-Server-Field-Sheet-v1.0.docx" 
+                  download
+                  className="inline-flex items-center justify-center gap-2 bg-amber-400 text-slate-900 px-8 py-4 rounded-lg font-semibold hover:bg-amber-300 transition-colors"
+                >
+                  <Download className="w-5 h-5" />
+                  Download DOCX
                 </a>
                 <Link 
-                  href="/oklahoma-process-server-forms-templates/"
+                  href="/downloads"
                   className="inline-flex items-center justify-center gap-2 border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white/10 transition-colors"
                 >
                   View All Templates

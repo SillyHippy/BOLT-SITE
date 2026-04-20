@@ -104,6 +104,19 @@ const ToolsPage = () => {
             documents without paying for expensive software or monthly subscriptions.
           </p>
 
+          <div className="mt-10 max-w-3xl mx-auto rounded-xl border border-amber-200 bg-amber-50 p-6 text-left shadow-sm">
+            <h2 className="text-lg font-semibold text-gray-900 mb-2">Oklahoma procedure calculators &amp; guides</h2>
+            <p className="text-gray-700 text-sm mb-4">
+              Free deadline calculators, service-method wizard, publication timeline, witness-fee math, and citation-backed guides — separate from the PDF tools below.
+            </p>
+            <Link
+              href="/oklahoma-process-serving-hub"
+              className="inline-flex items-center gap-2 rounded-lg bg-[#1a2744] px-4 py-2 text-sm font-semibold text-white hover:bg-[#243656] transition-colors"
+            >
+              Open Oklahoma hub <ArrowRight className="h-4 w-4" />
+            </Link>
+          </div>
+
           {/* Quick Jump Navigation */}
           <div className="flex flex-wrap justify-center gap-3 mt-8">
             <a href="#form-generators" className="bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-medium hover:bg-blue-200 transition">

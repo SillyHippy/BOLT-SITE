@@ -254,6 +254,18 @@ const ResourcesPage = () => {
             <a href="#statutes" className="bg-red-100 text-red-700 px-4 py-2 rounded-full text-sm font-medium hover:bg-red-200 transition">Key Statutes</a>
             <a href="#external" className="bg-gray-200 text-gray-700 px-4 py-2 rounded-full text-sm font-medium hover:bg-gray-300 transition">External Resources</a>
           </div>
+          <div className="mt-10 max-w-3xl mx-auto rounded-xl border border-amber-200 bg-amber-50 p-6 text-left shadow-sm">
+            <h2 className="text-lg font-semibold text-gray-900 mb-2">Free Oklahoma calculators &amp; in-depth guides</h2>
+            <p className="text-gray-700 text-sm mb-4">
+              Service deadlines, publication timelines, witness fees, e-service rules, protective orders, UIDDA subpoenas, and more — with citations. Opens the dedicated process-serving resource hub.
+            </p>
+            <Link
+              href="/oklahoma-process-serving-hub"
+              className="inline-flex items-center gap-2 rounded-lg bg-[#1a2744] px-4 py-2 text-sm font-semibold text-white hover:bg-[#243656] transition-colors"
+            >
+              Browse calculators &amp; guides
+            </Link>
+          </div>
         </div>
 
         {/* Resource Sections */}

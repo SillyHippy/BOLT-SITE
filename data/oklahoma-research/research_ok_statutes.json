@@ -1,0 +1,311 @@
+{
+  "domain": "ok_statutes",
+  "agent": "Research_OK_Statutes",
+  "date": "2026-04-20",
+  "claims": [
+    {
+      "statement": "Title 12 \u00a7158.1 establishes the licensing requirements for private process servers in Oklahoma, including age 18+, Oklahoma residency for 6+ months, county residency for 30+ days, good moral character, a $5,000 bond, and a $150 statewide license fee.",
+      "source_url": "https://law.justia.com/codes/oklahoma/title-12/section-12-158-1/",
+      "source_title": "12 OK Stat \u00a7 158.1 - Private process servers - Licensing - Qualifications - Fees - Hearing - Notice - Protests - Proof of service - Revocation of license - List of licensees - Statewide registry",
+      "date_accessed": "2026-04-20",
+      "quote": "B. Any person who is: 1. Eighteen (18) years of age or older; 2. Of good moral character; 3. Found ethically and mentally fit; 4. A resident of the State of Oklahoma for a period of not less than six (6) months; and 5. A resident of the county or judicial administrative district in which the application is submitted for a period of not less than thirty (30) days, may obtain a license by filing an application with the court clerk on a verified form... C. The applicant filing for a license to serve process anywhere in this state shall pay a license fee of One Hundred Fifty Dollars ($150.00)... upon executing bond running to the State of Oklahoma in the amount of Five Thousand Dollars ($5,000.00) for faithful performance of his or her duties...",
+      "category": "statute"
+    },
+    {
+      "statement": "Title 12 \u00a7158.1 requires proof of service of process to be shown by affidavit as provided by subsection G of Section 2004.",
+      "source_url": "https://law.justia.com/codes/oklahoma/title-12/section-12-158-1/",
+      "source_title": "12 OK Stat \u00a7 158.1(G) - Proof of service of process",
+      "date_accessed": "2026-04-20",
+      "quote": "G. Proof of service of process shall be shown by affidavit as provided for by subsection G of Section 2004 of this title.",
+      "category": "statute"
+    },
+    {
+      "statement": "Title 12 \u00a7158.1 makes it a misdemeanor for any person to knowingly and willfully serve process in Oklahoma without a process server license issued by the State of Oklahoma.",
+      "source_url": "https://law.justia.com/codes/oklahoma/title-12/section-12-158-1/",
+      "source_title": "12 OK Stat \u00a7 158.1(I) - Unlicensed service misdemeanor",
+      "date_accessed": "2026-04-20",
+      "quote": "I. Any person who knowingly and willfully serves process in Oklahoma without a process server license issued by the State of Oklahoma or who holds himself or herself out to be a process server licensed by the State of Oklahoma when the person is not licensed as such shall, upon conviction, be guilty of a misdemeanor.",
+      "category": "statute"
+    },
+    {
+      "statement": "Title 12 \u00a72004(A) requires the clerk to forthwith issue a summons upon filing of the petition. Separate or additional summons shall issue against any defendants upon request of the plaintiff.",
+      "source_url": "https://law.justia.com/codes/oklahoma/title-12/section-12-2004/",
+      "source_title": "12 OK Stat \u00a7 2004(A) - Summons: Issuance",
+      "date_accessed": "2026-04-20",
+      "quote": "A. SUMMONS: ISSUANCE. Upon filing of the petition, the clerk shall forthwith issue a summons. Upon request of the plaintiff separate or additional summons shall issue against any defendants.",
+      "category": "statute"
+    },
+    {
+      "statement": "Title 12 \u00a72004(C)(1)(a) provides that process shall be served by a sheriff or deputy sheriff, a person licensed to make service of process in civil cases, or a person specially appointed for that purpose. The court shall freely make special appointments.",
+      "source_url": "https://law.justia.com/codes/oklahoma/title-12/section-12-2004/",
+      "source_title": "12 OK Stat \u00a7 2004(C)(1)(a) - By Whom Served: Personal Delivery",
+      "date_accessed": "2026-04-20",
+      "quote": "a. At the election of the plaintiff, process, other than a subpoena, shall be served by a sheriff or deputy sheriff, a person licensed to make service of process in civil cases or a person specially appointed for that purpose. The court shall freely make special appointments to serve all process, other than a subpoena, under this paragraph.",
+      "category": "statute"
+    },
+    {
+      "statement": "Title 12 \u00a72004(C)(1)(c)(1) provides that service on an individual is made by delivering a copy of the summons and petition personally, or by leaving copies at the person's dwelling house with someone age 15+ residing therein.",
+      "source_url": "https://law.justia.com/codes/oklahoma/title-12/section-12-2004/",
+      "source_title": "12 OK Stat \u00a7 2004(C)(1)(c)(1) - Service on individuals",
+      "date_accessed": "2026-04-20",
+      "quote": "(1) upon an individual other than an infant who is less than fifteen (15) years of age or an incompetent person, by delivering a copy of the summons and of the petition personally or by leaving copies thereof at the person's dwelling house or usual place of abode with some person then residing therein who is fifteen (15) years of age or older...",
+      "category": "statute"
+    },
+    {
+      "statement": "Title 12 \u00a72004(C)(2) provides that service by mail shall be accomplished by certified mail, return receipt requested and delivery restricted to the addressee. Service by mail is effective on the date of receipt or, if refused, on the date of refusal.",
+      "source_url": "https://law.justia.com/codes/oklahoma/title-12/section-12-2004/",
+      "source_title": "12 OK Stat \u00a7 2004(C)(2) - Service by mail",
+      "date_accessed": "2026-04-20",
+      "quote": "a. At the election of the plaintiff, a summons and petition may be served by mail... Service by mail shall be effective on the date of receipt or if refused, on the date of refusal... b. Service by mail shall be accomplished by mailing a copy of the summons and petition by certified mail, return receipt requested and delivery restricted to the addressee.",
+      "category": "statute"
+    },
+    {
+      "statement": "Title 12 \u00a72004(C)(3) provides that service of summons upon a named defendant may be made by publication when verified that with due diligence service cannot be made by any other method. Publication must run one day a week for three consecutive weeks.",
+      "source_url": "https://law.justia.com/codes/oklahoma/title-12/section-12-2004/",
+      "source_title": "12 OK Stat \u00a7 2004(C)(3) - Service by publication",
+      "date_accessed": "2026-04-20",
+      "quote": "a. Service of summons upon a named defendant may be made by publication when it is stated in the petition, verified by the plaintiff or the plaintiff's attorney or in a separate affidavit... that with due diligence service cannot be made upon the defendant by any other method. c. Service pursuant to this paragraph shall be made by publication of a notice, signed by the court clerk, one (1) day a week for three (3) consecutive weeks in a newspaper authorized by law to publish legal notices...",
+      "category": "statute"
+    },
+    {
+      "statement": "Title 12 \u00a72004(D) requires the summons and petition to be served together. If a summons and petition are served by personal delivery, the person serving shall state on the copy left with the person served the date that service is made.",
+      "source_url": "https://law.justia.com/codes/oklahoma/title-12/section-12-2004/",
+      "source_title": "12 OK Stat \u00a7 2004(D) - Summons and petition served together",
+      "date_accessed": "2026-04-20",
+      "quote": "D. SUMMONS AND PETITION. The summons and petition shall be served together. The plaintiff shall furnish the person making service with such copies as are necessary... If a summons and petition are served by personal delivery, the person serving the summons shall state on the copy that is left with the person served the date that service is made.",
+      "category": "statute"
+    },
+    {
+      "statement": "Title 12 \u00a72004(G)(2) requires the person serving process to make proof of service promptly. If service is made by a person other than a sheriff or deputy sheriff, the licensed process server shall make affidavit thereof. The return shall set forth the county of issuance, name of the person served, and date, place, and method of service.",
+      "source_url": "https://law.justia.com/codes/oklahoma/title-12/section-12-2004/",
+      "source_title": "12 OK Stat \u00a7 2004(G) - Return",
+      "date_accessed": "2026-04-20",
+      "quote": "2. When process has been served by a sheriff or deputy sheriff and return thereof is filed in the office of the court clerk, a copy of the return shall be sent by the court clerk to the plaintiff's attorney within three (3) days after the return is filed. If service is made by a person other than a sheriff or deputy sheriff, the licensed process server shall make affidavit thereof. The return shall set forth the county of issuance, the name of the person served and the date, place and method of service.",
+      "category": "statute"
+    },
+    {
+      "statement": "Title 12 \u00a72004(I) establishes a 180-day time limit for service of process. If service is not made within 180 days after filing and the plaintiff has not shown good cause, the action shall be deemed dismissed as to that defendant without prejudice.",
+      "source_url": "https://law.justia.com/codes/oklahoma/title-12/section-12-2004/",
+      "source_title": "12 OK Stat \u00a7 2004(I) - Summons: Time Limit for Service",
+      "date_accessed": "2026-04-20",
+      "quote": "I. SUMMONS: TIME LIMIT FOR SERVICE. If service of process is not made upon a defendant within one hundred eighty (180) days after the filing of the petition and the plaintiff has not shown good cause why such service was not made within that period, the action shall be deemed dismissed as to that defendant without prejudice... Upon application of a defendant not timely served, the court shall enter an order dismissing the action as to that defendant. The court shall enter a dismissal order of an action within two hundred (200) days after the filing of the action in which no service has been made on any defendant...",
+      "category": "statute"
+    },
+    {
+      "statement": "Title 12 \u00a72004.1(B)(1) provides that service of a subpoena may be accomplished by any person who is 18 years of age or older. Service by mail may be accomplished by certified mail with return receipt requested and delivery restricted.",
+      "source_url": "https://law.justia.com/codes/oklahoma/title-12/section-12-2004-1/",
+      "source_title": "12 OK Stat \u00a7 2004.1(B) - Service of subpoena",
+      "date_accessed": "2026-04-20",
+      "quote": "B. 1. SERVICE. Service of a subpoena upon a person named therein shall be made by delivering or mailing a copy thereof to such person and, if the person's attendance is demanded, by tendering to that person the fees for one (1) day's attendance and the mileage allowed by law. Service of a subpoena may be accomplished by any person who is eighteen (18) years of age or older... 2. Service of a subpoena by mail may be accomplished by mailing a copy thereof by certified mail with return receipt requested and delivery restricted to the person named in the subpoena.",
+      "category": "statute"
+    },
+    {
+      "statement": "Title 12 \u00a72004.3 allows alternate delivery methods using commercial courier service, overnight delivery service, or other reliable personal delivery service, evidenced by a written or electronic receipt signed by the addressee.",
+      "source_url": "https://law.justia.com/codes/oklahoma/title-12/section-12-2004-3/",
+      "source_title": "12 OK Stat \u00a7 2004.3 - Alternate delivery methods for copy of process, papers",
+      "date_accessed": "2026-04-20",
+      "quote": "A. In lieu of mailing a copy of process or other papers by certified mail, return receipt requested and delivery restricted to the addressee as required or allowed by this title, a party or attorney may send the same by commercial courier service, overnight delivery service, or other reliable personal delivery service to the party addressed, in each instance evidenced by a written or electronic receipt signed by the addressee showing to whom delivered, date of delivery, address where delivered, and person or entity effecting delivery.",
+      "category": "statute"
+    },
+    {
+      "statement": "Title 12 \u00a72005(A) requires service of every pleading subsequent to the original petition, every paper relating to discovery, every written motion other than ex parte, and every written notice upon each of the parties.",
+      "source_url": "https://law.justia.com/codes/oklahoma/title-12/section-12-2005/",
+      "source_title": "12 OK Stat \u00a7 2005(A) - Service: When Required",
+      "date_accessed": "2026-04-20",
+      "quote": "A. SERVICE: WHEN REQUIRED. Except as otherwise provided in this title, every order required by its terms to be served, every pleading subsequent to the original petition unless the court otherwise orders because of numerous defendants, every paper relating to discovery required to be served upon a party or any other person unless the court otherwise orders, every written motion other than one which may be heard ex parte, and every written notice, appearance, demand, offer of judgment, and similar paper shall be served upon each of the parties.",
+      "category": "statute"
+    },
+    {
+      "statement": "Title 12 \u00a72005(B) provides that service upon an attorney or party shall be made by delivering a copy, mailing it, sending by third-party commercial carrier, or by electronic means if written consent has been given. Delivery includes handing it to the attorney/party, leaving it at their office, or leaving it at their dwelling with someone age 15+.",
+      "source_url": "https://law.justia.com/codes/oklahoma/title-12/section-12-2005/",
+      "source_title": "12 OK Stat \u00a7 2005(B) - Service: How Made",
+      "date_accessed": "2026-04-20",
+      "quote": "B. SERVICE: HOW MADE. Whenever pursuant to this act service is required or permitted to be made upon a party represented by an attorney the service shall be made upon the attorney unless service directly upon the party is ordered by the court... Service upon the attorney or upon a party shall be made by delivering a copy to the attorney or the party or by mailing it or sending it by third-party commercial carrier for delivery within three (3) calendar days... or by electronic means if the attorney or party consents in writing... Delivery of a copy within this section means: 1. Handing it to the attorney or to the party; or 2. Leaving it at the office of the attorney or the party with the attorney's or party's clerk or other person in charge thereof; or 3. If there is no one in charge, leaving it in a conspicuous place therein; or 4. If the office is closed or the person to be served has no office, leaving it at his or her dwelling house or usual place of abode with some person residing therein who is fifteen (15) years of age or older.",
+      "category": "statute"
+    },
+    {
+      "statement": "Title 12 \u00a72005(D) requires all papers after the petition to be filed with the court either before service or within a reasonable time thereafter. All papers filed shall include a statement setting forth the names of persons served and the date, place, and method of service.",
+      "source_url": "https://law.justia.com/codes/oklahoma/title-12/section-12-2005/",
+      "source_title": "12 OK Stat \u00a7 2005(D) - Filing",
+      "date_accessed": "2026-04-20",
+      "quote": "D. FILING. All papers after the petition required to be served upon a party shall be filed with the court either before service or within a reasonable time thereafter... All papers filed with the court shall include a statement setting forth the names of the persons served and the date, place, and method of service.",
+      "category": "statute"
+    },
+    {
+      "statement": "Title 12 \u00a72005.1 requires all postjudgment motions pertaining to divorce proceedings to be served in accordance with subsection C of Section 2004 (service of summons methods).",
+      "source_url": "https://law.justia.com/codes/oklahoma/title-12/section-12-2005-1/",
+      "source_title": "12 OK Stat \u00a7 2005.1 - Service of postjudgment motions in divorce actions",
+      "date_accessed": "2026-04-20",
+      "quote": "SERVICE OF POSTJUDGMENT MOTIONS IN DIVORCE ACTIONS. All postjudgment motions pertaining to divorce proceedings shall be served in accordance with subsection C of Section 2004 of Title 12 of the Oklahoma Statutes.",
+      "category": "statute"
+    },
+    {
+      "statement": "Title 22 \u00a7711 provides that a peace officer must serve any subpoena delivered to him for service and make a written return, but a subpoena may be served by any other person.",
+      "source_url": "https://oksenate.gov/sites/default/files/2019-12/os22.pdf",
+      "source_title": "22 OK Stat \u00a7 711 - Service of subpoena by whom - Return",
+      "date_accessed": "2026-04-20",
+      "quote": "\u00a722-711. Service of subpoena by whom-Return. A peace officer must serve in his county, city, town or village, as the case may be, any subpoena delivered to him for service, either on the part of the state or of the defendant, and must make a written return of the service, subscribed by him, stating the time and place of service without delay. A subpoena may, however, be served by any other person.",
+      "category": "statute"
+    },
+    {
+      "statement": "Title 22 \u00a7712 provides that service of subpoenas for witnesses in criminal actions shall be made in the same manner as in civil actions pursuant to Section 2004.1 of Title 12. Service may be accomplished by any person age 18+, and by certified mail with return receipt requested.",
+      "source_url": "https://www.oklegislature.gov/cf_pdf/2025-26%20FLR/HFLR/HB1563%20HFLR.PDF",
+      "source_title": "22 OK Stat \u00a7 712 - Service, manner of - Cost (as amended by HB 1563, 2025)",
+      "date_accessed": "2026-04-20",
+      "quote": "Section 712. A. Service of subpoenas for witnesses in criminal actions in the district courts of this state a subpoena upon a person named therein shall be made in the same manner as in civil actions pursuant to Section 2004.1 of Title 12 of the Oklahoma Statutes by delivering or mailing a copy thereof to such person and, if the attendance of the person is demanded, by tendering to that person the fees for one (1) day of attendance and the mileage allowed by law. Service of a subpoena may be accomplished by any person who is eighteen (18) years of age or older. B. Service of a subpoena by mail may be accomplished by mailing a copy by certified mail with return receipt requested and delivery restricted to the person named in the subpoena.",
+      "category": "statute"
+    },
+    {
+      "statement": "Title 41 \u00a7111(E) specifies how written notice to terminate tenancy must be served: personally on the tenant; if tenant cannot be located, on any family member over age 12 residing with the tenant; if neither can be found, posted conspicuously plus mailed by certified mail.",
+      "source_url": "https://law.justia.com/codes/oklahoma/title-41/section-41-111/",
+      "source_title": "41 OK Stat \u00a7 111(E) - Termination of tenancy - Notice service",
+      "date_accessed": "2026-04-20",
+      "quote": "E. The written notice, required by the Oklahoma Residential Landlord and Tenant Act, to terminate any tenancy shall be served on the tenant or landlord personally unless otherwise specified by law. If the tenant cannot be located, service shall be made by delivering the notice to any family member of such tenant over the age of twelve (12) years residing with the tenant. If service cannot be made on the tenant personally or on such family member, notice shall be posted at a conspicuous place on the dwelling unit of the tenant. If the notice is posted, a copy of such notice shall be mailed to the tenant by certified mail or by mailing such notice through the Firm Mailing Book for Accountable Mail as provided by the United States Post Office.",
+      "category": "statute"
+    },
+    {
+      "statement": "Title 41 \u00a7132(C) and (D) allow immediate termination without advance notice for criminal activity threatening health/safety or drug-related criminal activity, permitting the landlord to immediately file a forcible entry and detainer action.",
+      "source_url": "https://law.justia.com/codes/oklahoma/title-41/section-41-132/",
+      "source_title": "41 OK Stat \u00a7 132(C)-(D) - Immediate termination for criminal activity",
+      "date_accessed": "2026-04-20",
+      "quote": "C. Notwithstanding other provisions of this section, if there is a noncompliance by the tenant with the rental agreement or with any of the provisions of Section 127 of this title, which noncompliance causes or threatens to cause imminent and irremediable harm to the premises or to any person... the landlord may terminate the rental agreement by immediately filing a forcible entry and detainer action. D. Any criminal activity that threatens the health, safety or right of peaceful enjoyment of the premises by other tenants... and any drug-related criminal activity on or near the premises... shall be grounds for immediate termination of the lease.",
+      "category": "statute"
+    },
+    {
+      "statement": "Title 12 \u00a71148.4 requires the summons in forcible entry and detainer actions to command the defendant to appear for trial not less than 5 days nor more than 10 days from the date the summons is issued (15 days for certain actions under 2025 amendments).",
+      "source_url": "https://law.justia.com/codes/oklahoma/title-12/section-12-1148-4/",
+      "source_title": "12 OK Stat \u00a7 1148.4 - FED Summons issuance and return",
+      "date_accessed": "2026-04-20",
+      "quote": "The summons shall be issued and returned as in other cases, except that it shall command the sheriff, or other person serving it, to summon the defendant to appear for trial at the time and place specified therein, which time shall be not less than five (5) days nor more than ten (10) days from the date that the summons is issued...",
+      "category": "statute"
+    },
+    {
+      "statement": "Title 12 \u00a71148.5 requires FED summons service at least 3 days before trial (7 days under 2025 SB 128 for non-emergency actions), by leaving a copy with someone over 15 residing on the premises, or by certified mail if personal service cannot be made.",
+      "source_url": "https://law.justia.com/codes/oklahoma/title-12/section-12-1148-5/",
+      "source_title": "12 OK Stat \u00a7 1148.5 - FED Service of summons",
+      "date_accessed": "2026-04-20",
+      "quote": "The summons may be served as in other cases except that such service shall be at least three (3) days before the day of trial... and it may also be served by leaving a copy thereof with some person over fifteen (15) years of age, residing on the premises, at least three (3) days before the day of trial; or, if service cannot be made by the exercise of reasonable diligence on the tenant or on any person over the age of fifteen (15) years residing on the premises, the same may be served by certified mail with return receipt postmarked at least three (3) days before the date of trial.",
+      "category": "statute"
+    },
+    {
+      "statement": "Title 12 \u00a71148.5A allows constructive service of FED summons by posting conspicuously on the building and mailing by certified mail to the last-known address if personal service cannot be made. Such service only confers jurisdiction for restoration of possession, not money judgment.",
+      "source_url": "https://law.justia.com/codes/oklahoma/title-12/section-12-1148-5a/",
+      "source_title": "12 OK Stat \u00a7 1148.5A - Constructive service of summons in FED",
+      "date_accessed": "2026-04-20",
+      "quote": "If, in the exercise of reasonable diligence, service cannot be made upon the defendant personally nor upon any person residing upon the premises over fifteen (15) years of age, then in lieu of service by certified mail, service may be obtained... by the sheriff's posting or by private process service posting of said the summons conspicuously on the building on the premises... Such service shall confer no jurisdiction upon the court to render any judgment against the defendant for the payment of money nor for any relief other than the restoration of possession of the premises to the claimant, unless the defendant appears at trial.",
+      "category": "statute"
+    },
+    {
+      "statement": "Title 43 \u00a7110 provides that upon filing of a petition for dissolution and upon personal service of the petition and summons on the respondent, or upon waiver and acceptance of service, an automatic temporary injunction shall be in effect against both parties.",
+      "source_url": "https://law.justia.com/codes/oklahoma/title-43/section-43-110/",
+      "source_title": "43 OK Stat \u00a7 110 - Automatic temporary injunction - Temporary orders",
+      "date_accessed": "2026-04-20",
+      "quote": "A. 1. Except as otherwise provided by this subsection, upon the filing of a petition for dissolution of marriage, annulment of a marriage or legal separation by the petitioner and upon personal service of the petition and summons on the respondent, or upon waiver and acceptance of service by the respondent, an automatic temporary injunction shall be in effect against both parties pursuant to the provisions of this section...",
+      "category": "statute"
+    },
+    {
+      "statement": "Title 43 \u00a7110(B)(1) provides that either party may request temporary orders. All applications for temporary orders shall be served on the other party in any manner provided for in the Rules of Civil Procedure, with at least 5 days' notice of hearing.",
+      "source_url": "https://law.justia.com/codes/oklahoma/title-43/section-43-110/",
+      "source_title": "43 OK Stat \u00a7 110(B) - Temporary orders service",
+      "date_accessed": "2026-04-20",
+      "quote": "B. After a petition has been filed in an action for dissolution of marriage or legal separation either party may request the court to issue: 1. A temporary order... All applications for temporary orders shall set forth the factual basis for the application and shall be verified by the party seeking relief. The application and a notice of hearing shall be served on the other party in any manner provided for in the Rules of Civil Procedure. The court shall not issue a temporary order until at least five (5) days' notice of hearing is given to the other party.",
+      "category": "statute"
+    },
+    {
+      "statement": "Title 12 \u00a71751 defines small claims as actions for recovery of money up to $10,000 based on contract or tort (excluding libel/slander), replevin actions for property valued up to $10,000, and interpleader actions.",
+      "source_url": "https://law.justia.com/codes/oklahoma/title-12/section-12-1751/",
+      "source_title": "12 OK Stat \u00a7 1751 - Suits authorized under small claims procedure",
+      "date_accessed": "2026-04-20",
+      "quote": "A. The following suits may be brought under the small claims procedure: 1. Actions for the recovery of money based on contract or tort, including subrogation claims, but excluding libel or slander, in which the amount sought to be recovered, exclusive of attorney fees and other court costs, does not exceed Ten Thousand Dollars ($10,000.00); 2. Actions to replevy personal property the value of which does not exceed Ten Thousand Dollars ($10,000.00)...",
+      "category": "statute"
+    },
+    {
+      "statement": "Title 12 \u00a71764 establishes small claims filing fees: $45 for actions of $5,000 or less; for actions over $5,000 the filing fees are the same as district court. Service by sheriff or licensed private process server has usual fees taxed as costs.",
+      "source_url": "https://law.justia.com/codes/oklahoma/title-12/section-12-1764/",
+      "source_title": "12 OK Stat \u00a7 1764 - Small Claims Procedure Act Fees",
+      "date_accessed": "2026-04-20",
+      "quote": "A fee of Forty-five Dollars ($45.00) shall be charged and collected for the filing of the affidavit for the commencement of any action for an amount of Five Thousand Dollars ($5,000.00) or less. Any action in excess of Five Thousand Dollars ($5,000.00) shall be subject to the filing fees provided in Title 28 of the Oklahoma Statutes for the same kind of action as filed in district court... If the affidavit and order are served by the sheriff or a licensed private process server, the court clerk shall collect the usual fee for the sheriff, which shall be taxed as costs in the case. The fee paid to a licensed private process server, as approved by the court, shall be taxed as additional costs in the case.",
+      "category": "fee"
+    },
+    {
+      "statement": "HB 1129 (2025 session) proposes to increase the small claims filing fee from $45 to $85 for cases involving $5,000 or less.",
+      "source_url": "https://www.billtrack50.com/billdetail/1781005",
+      "source_title": "OK HB1129 - Small claims filing fee increase (2025)",
+      "date_accessed": "2026-04-20",
+      "quote": "This bill amends Oklahoma law by increasing the filing fee for small claims court actions from $45 to $85 for cases involving $5,000 or less.",
+      "category": "fee"
+    },
+    {
+      "statement": "Service of process in small claims court can be achieved through personal service by sheriff ($50 in-county, $60 out-of-county), certified mail through clerk's office ($10), or private process server.",
+      "source_url": "https://www.creekcountyonline.com/small-claims",
+      "source_title": "Creek County Small Claims - Service methods and fees",
+      "date_accessed": "2026-04-20",
+      "quote": "The forms of service are sheriff, which is $50.00 in-county and $60.00 out of county; certified mail, which is $10.00, if done by the clerk's office; and private process server.",
+      "category": "fee"
+    },
+    {
+      "statement": "Oklahoma process server license application fee is $150 for statewide authority, plus a $5,000 bond. Annual renewal fee is $15 per three-year renewal period.",
+      "source_url": "https://mccurtain.okcounties.org/departments/court-clerk/private-process-server-licensing",
+      "source_title": "McCurtain County - Private Process Server Licensing Fees",
+      "date_accessed": "2026-04-20",
+      "quote": "New Process Server - Statewide $364.14 - Good for one (1) year... Renewal Process Server - Statewide $229.14 - Good for three (3) years. Statute Reference: 12 O.S. \u00a7158.1",
+      "category": "fee"
+    },
+    {
+      "statement": "The Administrative Office of the Courts provides process server licensing forms on OSCN.net including: Application, Public Notice, Proof of Posting, Order Granting Application, and the License itself.",
+      "source_url": "https://mccurtain.okcounties.org/departments/court-clerk/private-process-server-licensing",
+      "source_title": "OSCN Process Server Forms - AOC Forms",
+      "date_accessed": "2026-04-20",
+      "quote": "https://www.oscn.net/static/forms/aoc_forms/processserver.asp. Forms Needed: Application, Public Notice, Proof of Posting, Order Granting Application for Statewide Private Process Server License, Statewide Private Process Server License",
+      "category": "form"
+    },
+    {
+      "statement": "The Oklahoma Supreme Court Network (OSCN) provides court forms including Entry of Appearance, Notice of Change of Address, In Forma Pauperis Affidavit, and other civil practice forms at oksc.oscn.net/forms/.",
+      "source_url": "https://oksc.oscn.net/forms/",
+      "source_title": "Oklahoma Supreme Court Network - Court Forms",
+      "date_accessed": "2026-04-20",
+      "quote": "Forms: 1. Entry of Appearance. 2. Entry of Appearance - Pro se. 3. Notice of Change of Address. 4. In Forma Pauperis Affidavit. 4A. Affidavit of intent to remit cost deposit via credit or debit card...",
+      "category": "form"
+    },
+    {
+      "statement": "22 O.S. \u00a760.25 prohibits filing fees, service of process fees and attorney fee awards upon plaintiffs seeking protective orders unless the court finds the petition was filed frivolously.",
+      "source_url": "https://law.justia.com/codes/oklahoma/title-22/section-22-60-25/",
+      "source_title": "22 OK Stat \u00a7 60.25 - Fees not required for protective orders",
+      "date_accessed": "2026-04-20",
+      "quote": "In any action seeking a protective order, no filing fee, service of process fee or attorney fees shall be assessed to the plaintiff, unless the court finds that the petition was filed frivolously.",
+      "category": "fee"
+    },
+    {
+      "statement": "The Oklahoma Pleading Code (Title 12 \u00a7\u00a72001-2101) incorporates the Rules of Civil Procedure into statute, including provisions for service of process, subpoenas, pleadings, and time computation.",
+      "source_url": "https://law.justia.com/codes/oklahoma/title-12/section-12-2001/",
+      "source_title": "12 OK Stat \u00a7 2001 - Scope of the Oklahoma Pleading Code",
+      "date_accessed": "2026-04-20",
+      "quote": "\u00a7 2001. Scope of the Oklahoma Pleading Code... \u00a7 2004. Process... \u00a7 2004.1. Subpoena... \u00a7 2005. Service and Filing of Pleadings and Other Papers... \u00a7 2006. Time...",
+      "category": "rule"
+    },
+    {
+      "statement": "Service by mail for pleadings (other than summons and original petition) is complete upon mailing. Service by commercial carrier is complete upon delivery to the carrier. Service by electronic means is complete upon transmission.",
+      "source_url": "https://law.justia.com/codes/oklahoma/title-12/section-12-2005/",
+      "source_title": "12 OK Stat \u00a7 2005(B) - Service completion timing",
+      "date_accessed": "2026-04-20",
+      "quote": "Except for service of the summons and the original petition, service by mail is complete upon mailing, service by commercial carrier is complete upon delivery to the commercial carrier, and service by electronic means is complete upon transmission, unless the party making service is notified that the copy or paper served was not received by the party served.",
+      "category": "statute"
+    },
+    {
+      "statement": "No prisoner in any jail, Department of Corrections facility, private prison, or parolee or probationer shall be appointed by any court to serve process on any defendant, party or witness.",
+      "source_url": "https://law.justia.com/codes/oklahoma/title-12/section-12-2004/",
+      "source_title": "12 OK Stat \u00a7 2004(C)(7) - No service by prisoner",
+      "date_accessed": "2026-04-20",
+      "quote": "7. NO SERVICE BY PRISONER. No prisoner in any jail, Department of Corrections facility, private prison, or parolee or probationer under supervision of the Department of Corrections shall be appointed by any court to serve process on any defendant, party or witness.",
+      "category": "statute"
+    },
+    {
+      "statement": "The 2025 amendments to the FED statutes (SB 128) extend the trial date to 5-15 days after summons issuance, and extend service time to 7 days before trial (from 3 days), except for emergency/criminal actions which remain at 3 days/5-10 days.",
+      "source_url": "https://www.oklegislature.gov/cf_pdf/2025-26%20int/sb/SB128%20int.pdf",
+      "source_title": "SB 128 (2025) - Forcible Entry and Detainer summons amendments",
+      "date_accessed": "2026-04-20",
+      "quote": "Section 1148.4... which time shall be not less than five (5) days nor more than ten (10) days nor more than fifteen (15) days from the date that the summons is issued; provided, however, a trial for an action pursuant to subsection C or D of Section 132 of Title 41... shall be not less than five (5) days nor more than ten (10) days... Section 1148.5... such service shall be at least three (3) seven (7) days before the day of trial...",
+      "category": "statute"
+    }
+  ]
+}

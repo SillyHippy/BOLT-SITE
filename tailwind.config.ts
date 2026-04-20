@@ -60,6 +60,10 @@ const config: Config = {
           '4': 'hsl(var(--chart-4))',
           '5': 'hsl(var(--chart-5))',
         },
+        /** Oklahoma hub (process serving tools & guides) */
+        navy: '#1a2744',
+        gold: '#d4a017',
+        cream: '#f8f6f0',
       },
       keyframes: {
         'accordion-down': {

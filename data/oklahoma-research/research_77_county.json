@@ -1,0 +1,933 @@
+{
+  "domain": "ok_county_directory",
+  "agent": "Research_77_County",
+  "date": "2026-04-20",
+  "source_url": "https://www.oscn.net/courts/directory",
+  "note": "Court clerk information sourced from 2012 Oklahoma Judicial Directory (OSCN publication). Names and contact details may have changed. Users should verify current clerk information via the respective county OSCN court page.",
+  "counties": [
+    {
+      "name": "Adair",
+      "county_seat": "Stilwell",
+      "judicial_district": "15",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Adair&menuType=",
+      "clerk_info": {
+        "clerk_name": "Sam McCarter",
+        "address": "Adair County Courthouse, 220 West Division, P.O. Box 426, Stilwell, OK 74960-0426",
+        "phone": "918-696-7633",
+        "email": "sam.mccarter@oscn.net"
+      }
+    },
+    {
+      "name": "Alfalfa",
+      "county_seat": "Cherokee",
+      "judicial_district": "4",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Alfalfa&menuType=",
+      "clerk_info": {
+        "clerk_name": "Lori Irwin",
+        "address": "Alfalfa County Courthouse, 300 S. Grand, Cherokee, OK 73728-2548",
+        "phone": "580-596-3523",
+        "email": "lori.irwin@oscn.net"
+      }
+    },
+    {
+      "name": "Atoka",
+      "county_seat": "Atoka",
+      "judicial_district": "25",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Atoka&menuType=",
+      "clerk_info": {
+        "clerk_name": "Barbara Hunt",
+        "address": "Atoka County Courthouse, 200 E. Court Street, Suite 210E, Atoka, OK 74525-2045",
+        "phone": "580-889-3565",
+        "email": "barbara.hunt@oscn.net"
+      }
+    },
+    {
+      "name": "Beaver",
+      "county_seat": "Beaver",
+      "judicial_district": "1",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Beaver&menuType=",
+      "clerk_info": {
+        "clerk_name": "Sharon Raven",
+        "address": "Beaver County Courthouse, 111 W. 2nd, P.O. Box 237, Beaver, OK 73932-0237",
+        "phone": "580-625-3191",
+        "email": "sharon.raven@oscn.net"
+      }
+    },
+    {
+      "name": "Beckham",
+      "county_seat": "Sayre",
+      "judicial_district": "2",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Beckham&menuType=",
+      "clerk_info": {
+        "clerk_name": "Donna Howell",
+        "address": "Beckham County Courthouse, 302 E. Main Street, P.O. Box 520, Sayre, OK 73662-3002",
+        "phone": "580-928-3330",
+        "email": "donna.howell@oscn.net"
+      }
+    },
+    {
+      "name": "Blaine",
+      "county_seat": "Watonga",
+      "judicial_district": "4",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Blaine&menuType=",
+      "clerk_info": {
+        "clerk_name": "Cynthia Scheffler",
+        "address": "Blaine County Courthouse, 212 N. Wiegel Street, Watonga, OK 73772-1286",
+        "phone": "580-623-5970",
+        "email": "cynthia.scheffler@oscn.net"
+      }
+    },
+    {
+      "name": "Bryan",
+      "county_seat": "Durant",
+      "judicial_district": "19",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Bryan&menuType=",
+      "clerk_info": {
+        "clerk_name": "Sandy Stroud",
+        "address": "Bryan County Courthouse, 402 W. Evergreen Street, Durant, OK 74701-4703",
+        "phone": "580-924-1446",
+        "email": "sandy.stroud@oscn.net"
+      }
+    },
+    {
+      "name": "Caddo",
+      "county_seat": "Anadarko",
+      "judicial_district": "6",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Caddo&menuType=",
+      "clerk_info": {
+        "clerk_name": "Opal Carol Finch",
+        "address": "Caddo County Courthouse, 201 W. Oklahoma Ave., P.O. Box 10, Anadarko, OK 73005-0010",
+        "phone": "405-247-3393",
+        "email": "opal.finch@oscn.net"
+      }
+    },
+    {
+      "name": "Canadian",
+      "county_seat": "El Reno",
+      "judicial_district": "26",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Canadian&menuType=",
+      "clerk_info": {
+        "clerk_name": "Marie Ramsey",
+        "address": "Canadian County Courthouse, 301 N. Choctaw Street, P.O. Box 730, El Reno, OK 73036-0730",
+        "phone": "405-262-1070",
+        "email": "marie.ramsey@oscn.net"
+      }
+    },
+    {
+      "name": "Carter",
+      "county_seat": "Ardmore",
+      "judicial_district": "20",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Carter&menuType=",
+      "clerk_info": {
+        "clerk_name": "Karen Volino",
+        "address": "Carter County Courthouse, 20 'B' Southwest, P.O. Box 37, Ardmore, OK 73402-0037",
+        "phone": "580-223-5253",
+        "email": "karen.volino@oscn.net"
+      }
+    },
+    {
+      "name": "Cherokee",
+      "county_seat": "Tahlequah",
+      "judicial_district": "15",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Cherokee&menuType=",
+      "clerk_info": {
+        "clerk_name": "Shirley Glory",
+        "address": "Cherokee County Courthouse, 213 W. Delaware Street, Tahlequah, OK 74464-3639",
+        "phone": "918-456-0691",
+        "email": "shirley.glory@oscn.net"
+      }
+    },
+    {
+      "name": "Choctaw",
+      "county_seat": "Hugo",
+      "judicial_district": "17",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Choctaw&menuType=",
+      "clerk_info": {
+        "clerk_name": "Jimmy Walker",
+        "address": "Choctaw County Courthouse, 300 E. Duke Street, Hugo, OK 74743-4406",
+        "phone": "580-326-7554",
+        "email": "jimmy.walker@oscn.net"
+      }
+    },
+    {
+      "name": "Cimarron",
+      "county_seat": "Boise City",
+      "judicial_district": "1",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Cimarron&menuType=",
+      "clerk_info": {
+        "clerk_name": "Priscilla Johnson",
+        "address": "Cimarron County Courthouse, Courthouse Square -Main St., P.O. Box 788, Boise City, OK 73933-0788",
+        "phone": "580-544-2221",
+        "email": "priscilla.johnson@oscn.net"
+      }
+    },
+    {
+      "name": "Cleveland",
+      "county_seat": "Norman",
+      "judicial_district": "21",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Cleveland&menuType=",
+      "clerk_info": {
+        "clerk_name": "Rhonda Hall",
+        "address": "Cleveland County Courthouse, 200 S. Peters, Norman, OK 73069-6070",
+        "phone": "405-321-6402",
+        "email": "rhonda.hall@oscn.net"
+      }
+    },
+    {
+      "name": "Coal",
+      "county_seat": "Coalgate",
+      "judicial_district": "25",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Coal&menuType=",
+      "clerk_info": {
+        "clerk_name": "Rachel Fuller",
+        "address": "Coal County Courthouse, 4 North Main Street, Coalgate, OK 74538-2844",
+        "phone": "580-927-2281",
+        "email": "rachel.fuller@oscn.net"
+      }
+    },
+    {
+      "name": "Comanche",
+      "county_seat": "Lawton",
+      "judicial_district": "5",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Comanche&menuType=",
+      "clerk_info": {
+        "clerk_name": "Robert Morales",
+        "address": "Comanche County Courthouse, 315 S.W. 5th Street, Rm. 504, Lawton, OK 73501-4327",
+        "phone": "580-355-4017",
+        "email": "robert.morales@oscn.net"
+      }
+    },
+    {
+      "name": "Cotton",
+      "county_seat": "Walters",
+      "judicial_district": "5",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Cotton&menuType=",
+      "clerk_info": {
+        "clerk_name": "Debbie Hodnefield",
+        "address": "Cotton County Courthouse, 301 N. Broadway Street, Walters, OK 73572-1271",
+        "phone": "580-875-3029",
+        "email": "debbie.hodnefield@oscn.net"
+      }
+    },
+    {
+      "name": "Craig",
+      "county_seat": "Vinita",
+      "judicial_district": "12",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Craig&menuType=",
+      "clerk_info": {
+        "clerk_name": "Mary Denny",
+        "address": "Craig County Courthouse, 210 W. Delaware, Suite 201, Vinita, OK 74301",
+        "phone": "918-256-6451",
+        "email": "mary.denny@oscn.net"
+      }
+    },
+    {
+      "name": "Creek",
+      "county_seat": "Sapulpa",
+      "judicial_district": "24",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Creek&menuType=",
+      "clerk_info": {
+        "clerk_name": "Pat Creason",
+        "address": "Creek County Courthouse, 222 E. Dewey Avenue, Ste. 201, Sapulpa, OK 74066-4230",
+        "phone": "918-227-2525",
+        "email": "pat.creason@oscn.net"
+      }
+    },
+    {
+      "name": "Custer",
+      "county_seat": "Arapaho",
+      "judicial_district": "2",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Custer&menuType=",
+      "clerk_info": {
+        "clerk_name": "Connie Burden",
+        "address": "Custer County Courthouse, 603 B Street, P.O. Box D, Arapaho, OK 73620-0240",
+        "phone": "580-323-3233",
+        "email": "connie.burden@oscn.net"
+      }
+    },
+    {
+      "name": "Delaware",
+      "county_seat": "Jay",
+      "judicial_district": "13",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Delaware&menuType=",
+      "clerk_info": {
+        "clerk_name": "Caroline Weaver",
+        "address": "Delaware County Courthouse, Whitehead & Krause Street, P.O. Box 407, Jay, OK 74346-0407",
+        "phone": "918-253-4420",
+        "email": "caroline.weaver@oscn.net"
+      }
+    },
+    {
+      "name": "Dewey",
+      "county_seat": "Taloga",
+      "judicial_district": "4",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Dewey&menuType=",
+      "clerk_info": {
+        "clerk_name": "Nancy Louthan",
+        "address": "Dewey County Courthouse, Broadway & Ruble, P.O. Box 278, Taloga, OK 73667-0278",
+        "phone": "580-328-5521",
+        "email": "nancy.louthan@oscn.net"
+      }
+    },
+    {
+      "name": "Ellis",
+      "county_seat": "Arnett",
+      "judicial_district": "2",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Ellis&menuType=",
+      "clerk_info": {
+        "clerk_name": "Dona Folks",
+        "address": "Ellis County Courthouse, 100 S. Washington Street, P.O. Box 217, Arnett, OK 73832-0217",
+        "phone": "580-885-7255",
+        "email": "dona.folks@oscn.net"
+      }
+    },
+    {
+      "name": "Garfield",
+      "county_seat": "Enid",
+      "judicial_district": "4",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Garfield&menuType=",
+      "clerk_info": {
+        "clerk_name": "Margaret F. Jones",
+        "address": "Garfield County Courthouse, 114 W. Broadway Ave., Ste. 201, Enid, OK 73701-4023",
+        "phone": "580-237-0232",
+        "email": "margaret.jones@oscn.net"
+      }
+    },
+    {
+      "name": "Garvin",
+      "county_seat": "Pauls Valley",
+      "judicial_district": "21",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Garvin&menuType=",
+      "clerk_info": {
+        "clerk_name": "Kay Brewer",
+        "address": "Garvin County Courthouse, Grant & Willow, P.O. Box 239, Pauls Valley, OK 73075-0239",
+        "phone": "405-238-5596",
+        "email": "kay.brewer@oscn.net"
+      }
+    },
+    {
+      "name": "Grady",
+      "county_seat": "Chickasha",
+      "judicial_district": "6",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Grady&menuType=",
+      "clerk_info": {
+        "clerk_name": "Lois Foster",
+        "address": "Grady County Courthouse, Fourth St. & Choctaw Ave., P.O. Box 605, Chickasha, OK 73023-0605",
+        "phone": "405-224-7446",
+        "email": "lois.foster@oscn.net"
+      }
+    },
+    {
+      "name": "Grant",
+      "county_seat": "Medford",
+      "judicial_district": "4",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Grant&menuType=",
+      "clerk_info": {
+        "clerk_name": "Deana Kilian",
+        "address": "Grant County Courthouse, 112 E. Guthrie Street, Room 202, Medford, OK 73759-1224",
+        "phone": "580-395-2828",
+        "email": "deana.kilian@oscn.net"
+      }
+    },
+    {
+      "name": "Greer",
+      "county_seat": "Mangum",
+      "judicial_district": "3",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Greer&menuType=",
+      "clerk_info": {
+        "clerk_name": "Sandra Hopingardner",
+        "address": "Greer County Courthouse, Courthouse Square, Box 216, Mangum, OK 73554-0216",
+        "phone": "580-782-3665",
+        "email": "sandy.hopingardner@oscn.net"
+      }
+    },
+    {
+      "name": "Harmon",
+      "county_seat": "Hollis",
+      "judicial_district": "3",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Harmon&menuType=",
+      "clerk_info": {
+        "clerk_name": "Stacy Macias",
+        "address": "Harmon County Courthouse, 114 W. Hollis St., Hollis, OK 73550-3053",
+        "phone": "580-688-3617",
+        "email": "stacy.macias@oscn.net"
+      }
+    },
+    {
+      "name": "Harper",
+      "county_seat": "Buffalo",
+      "judicial_district": "1",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Harper&menuType=",
+      "clerk_info": {
+        "clerk_name": "Linda Smith",
+        "address": "Harper County Courthouse, 311 Southeast 1st Street, P.O. Box 347, Buffalo, OK 73834-0347",
+        "phone": "580-735-2010",
+        "email": "linda.smith@oscn.net"
+      }
+    },
+    {
+      "name": "Haskell",
+      "county_seat": "Stigler",
+      "judicial_district": "16",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Haskell&menuType=",
+      "clerk_info": {
+        "clerk_name": "Robin Rea",
+        "address": "Haskell County Courthouse, 202 E. Main Street, Stigler, OK 74462-2439",
+        "phone": "918-967-3323",
+        "email": "robin.rea@oscn.net"
+      }
+    },
+    {
+      "name": "Hughes",
+      "county_seat": "Holdenville",
+      "judicial_district": "22",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Hughes&menuType=",
+      "clerk_info": {
+        "clerk_name": "Patty Tilley",
+        "address": "Hughes County Courthouse, 200 N. Broadway, Suite 10, Holdenville, OK 74848-3457",
+        "phone": "405-379-3384",
+        "email": "patty.tilley@oscn.net"
+      }
+    },
+    {
+      "name": "Jackson",
+      "county_seat": "Altus",
+      "judicial_district": "3",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Jackson&menuType=",
+      "clerk_info": {
+        "clerk_name": "Rhonda Stepanovich",
+        "address": "Jackson County Courthouse, 101 N. Main Street, #303, P.O. Box 616, Altus, OK 73522-0616",
+        "phone": "580-482-0448",
+        "email": "rhonda.stepanovich@oscn.net"
+      }
+    },
+    {
+      "name": "Jefferson",
+      "county_seat": "Waurika",
+      "judicial_district": "5",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Jefferson&menuType=",
+      "clerk_info": {
+        "clerk_name": "Carolyn Watkins",
+        "address": "Jefferson County Courthouse, 220 N. Main Street, Waurika, OK 73573-2235",
+        "phone": "580-228-2961",
+        "email": "carolyn.watkins@oscn.net"
+      }
+    },
+    {
+      "name": "Johnston",
+      "county_seat": "Tishomingo",
+      "judicial_district": "20",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Johnston&menuType=",
+      "clerk_info": {
+        "clerk_name": "Cassandra Slover",
+        "address": "Johnston County Courthouse, 403 W. Main Street, Suite 201, Tishomingo, OK 73460-0218",
+        "phone": "580-371-3281",
+        "email": "cassandra.slover@oscn.net"
+      }
+    },
+    {
+      "name": "Kay",
+      "county_seat": "Newkirk",
+      "judicial_district": "8",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Kay&menuType=",
+      "clerk_info": {
+        "clerk_name": "Mary Ramey",
+        "address": "Kay County Courthouse, P.O. Box 428, Newkirk, OK 74647-0428",
+        "phone": "580-362-3350",
+        "email": "mary.ramey@oscn.net"
+      }
+    },
+    {
+      "name": "Kingfisher",
+      "county_seat": "Kingfisher",
+      "judicial_district": "4",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Kingfisher&menuType=",
+      "clerk_info": {
+        "clerk_name": "Yvonne Dow",
+        "address": "Kingfisher County Courthouse, 101 S. Main Street, P.O. Box 328, Kingfisher, OK 73750-0328",
+        "phone": "405-375-3813",
+        "email": "yvonne.dow@oscn.net"
+      }
+    },
+    {
+      "name": "Kiowa",
+      "county_seat": "Hobart",
+      "judicial_district": "3",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Kiowa&menuType=",
+      "clerk_info": {
+        "clerk_name": "Christina Sanders",
+        "address": "Kiowa County Courthouse, 316 S. Main St., P.O. Box 854, Hobart, OK 73651-0854",
+        "phone": "580-726-5125",
+        "email": "christina.sanders@oscn.net"
+      }
+    },
+    {
+      "name": "Latimer",
+      "county_seat": "Wilburton",
+      "judicial_district": "16",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Latimer&menuType=",
+      "clerk_info": {
+        "clerk_name": "Melody Littlejohn",
+        "address": "Latimer County Courthouse, 109 North Central Str., Rm. 200, Wilburton, OK 74578-2440",
+        "phone": "918-465-2011",
+        "email": "melody.littlejohn@oscn.net"
+      }
+    },
+    {
+      "name": "Le Flore",
+      "county_seat": "Poteau",
+      "judicial_district": "16",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=LeFlore&menuType=",
+      "clerk_info": {
+        "clerk_name": "Melba Hall",
+        "address": "LeFlore County Courthouse, 100 South Broadway, P.O. Box 688, Poteau, OK 74953-0688",
+        "phone": "918-647-3181",
+        "email": "melba.hall@oscn.net"
+      }
+    },
+    {
+      "name": "Lincoln",
+      "county_seat": "Chandler",
+      "judicial_district": "23",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Lincoln&menuType=",
+      "clerk_info": {
+        "clerk_name": "Cindy Kirby",
+        "address": "Lincoln County Courthouse, 811 Manvel Avenue, Suite 9, Chandler, OK 74834-3877",
+        "phone": "405-258-1309",
+        "email": "cindy.kirby@oscn.net"
+      }
+    },
+    {
+      "name": "Logan",
+      "county_seat": "Guthrie",
+      "judicial_district": "9",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Logan&menuType=",
+      "clerk_info": {
+        "clerk_name": "ReJeania Zmek",
+        "address": "Logan County Courthouse, 301 E. Harrison Street, Rm. 201, Guthrie, OK 73044-4939",
+        "phone": "405-282-0123",
+        "email": "rejeania.zmek@oscn.net"
+      }
+    },
+    {
+      "name": "Love",
+      "county_seat": "Marietta",
+      "judicial_district": "20",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Love&menuType=",
+      "clerk_info": {
+        "clerk_name": "Kim Jackson",
+        "address": "Love County Courthouse, 405 W. Main Street, Marietta, OK 73448-2848",
+        "phone": "580-276-2235",
+        "email": "kim.jackson@oscn.net"
+      }
+    },
+    {
+      "name": "Major",
+      "county_seat": "Fairview",
+      "judicial_district": "4",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Major&menuType=",
+      "clerk_info": {
+        "clerk_name": "Shauna Hoffman",
+        "address": "Major County Courthouse, 500 E. Broadway Street, Fairview, OK 73737-2243",
+        "phone": "580-227-4690",
+        "email": "shauna.hoffman@oscn.net"
+      }
+    },
+    {
+      "name": "Marshall",
+      "county_seat": "Madill",
+      "judicial_district": "20",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Marshall&menuType=",
+      "clerk_info": {
+        "clerk_name": "Wanda Pearce",
+        "address": "Marshall County Courthouse, P.O. Box 58, Madill, OK 73446-0058",
+        "phone": "580-795-3278",
+        "email": "wanda.pearce@oscn.net"
+      }
+    },
+    {
+      "name": "Mayes",
+      "county_seat": "Pryor",
+      "judicial_district": "12",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Mayes&menuType=",
+      "clerk_info": {
+        "clerk_name": "Lori Parsons",
+        "address": "Mayes County Courthouse, One Court Place, Suite 200, Pryor, OK 74361-2448",
+        "phone": "918-825-2185",
+        "email": "lori.parsons@oscn.net"
+      }
+    },
+    {
+      "name": "McClain",
+      "county_seat": "Purcell",
+      "judicial_district": "21",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=McClain&menuType=",
+      "clerk_info": {
+        "clerk_name": "Lynda Baker",
+        "address": "McClain County Courthouse, 121 N. 2nd Street, Ste. 231, Purcell, OK 73080-4241",
+        "phone": "405-527-3221",
+        "email": "lynda.baker@oscn.net"
+      }
+    },
+    {
+      "name": "McCurtain",
+      "county_seat": "Idabel",
+      "judicial_district": "17",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=McCurtain&menuType=",
+      "clerk_info": {
+        "clerk_name": "Vicki Justus",
+        "address": "McCurtain County Courthouse, 108 N. Central Avenue, P.O. Box 1378, Idabel, OK 74745-1378",
+        "phone": "580-286-3693",
+        "email": "vicki.justus@oscn.net"
+      }
+    },
+    {
+      "name": "McIntosh",
+      "county_seat": "Eufaula",
+      "judicial_district": "18",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=McIntosh&menuType=",
+      "clerk_info": {
+        "clerk_name": "Carrie Pittman",
+        "address": "McIntosh County Courthouse, 110 N. First Street, Eufaula, OK 74432-2449",
+        "phone": "918-689-2282",
+        "email": "carrie.pittman@oscn.net"
+      }
+    },
+    {
+      "name": "Murray",
+      "county_seat": "Sulphur",
+      "judicial_district": "20",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Murray&menuType=",
+      "clerk_info": {
+        "clerk_name": "Jo Freeman",
+        "address": "Murray County Courthouse, 10th & Wyandotte Street, P.O. Box 578, Sulphur, OK 73086-0578",
+        "phone": "580-622-3223",
+        "email": "jo.freeman@oscn.net"
+      }
+    },
+    {
+      "name": "Muskogee",
+      "county_seat": "Muskogee",
+      "judicial_district": "15",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Muskogee&menuType=",
+      "clerk_info": {
+        "clerk_name": "Paula Sexton",
+        "address": "Muskogee County Courthouse, P.O. Box 1350, Muskogee, OK 74402-1350",
+        "phone": "918-682-7873",
+        "email": "paula.sexton@oscn.net"
+      }
+    },
+    {
+      "name": "Noble",
+      "county_seat": "Perry",
+      "judicial_district": "8",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Noble&menuType=",
+      "clerk_info": {
+        "clerk_name": "Hillary Vondran",
+        "address": "Noble County Courthouse, 300 Courthouse Dr., #14, Perry, OK 73077-6649",
+        "phone": "580-336-5187",
+        "email": "hillary.vondran@oscn.net"
+      }
+    },
+    {
+      "name": "Nowata",
+      "county_seat": "Nowata",
+      "judicial_district": "11",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Nowata&menuType=",
+      "clerk_info": {
+        "clerk_name": "Shiloh Freeman",
+        "address": "Nowata County Courthouse, 220 N. Maple Street, Nowata, OK 74048-2654",
+        "phone": "918-273-0127",
+        "email": "shiloh.freeman@oscn.net"
+      }
+    },
+    {
+      "name": "Okfuskee",
+      "county_seat": "Okemah",
+      "judicial_district": "24",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Okfuskee&menuType=",
+      "clerk_info": {
+        "clerk_name": "Kay Adams",
+        "address": "Okfuskee County Courthouse, Third & Atlanta Street, P.O. Box 30, Okemah, OK 74859-0030",
+        "phone": "918-623-0525",
+        "email": "kay.adams@oscn.net"
+      }
+    },
+    {
+      "name": "Oklahoma",
+      "county_seat": "Oklahoma City",
+      "judicial_district": "7",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Oklahoma&menuType=",
+      "clerk_info": {
+        "clerk_name": "Patricia Presley",
+        "address": "Oklahoma County Courthouse, 320 Robert S. Kerr, Suite 409, Oklahoma City, OK 73102-3435",
+        "phone": "405-713-1748",
+        "email": "patricia.presley@oscn.net"
+      }
+    },
+    {
+      "name": "Okmulgee",
+      "county_seat": "Okmulgee",
+      "judicial_district": "24",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Okmulgee&menuType=",
+      "clerk_info": {
+        "clerk_name": "Linda Beaver",
+        "address": "Okmulgee County Courthouse, 314 W. 7th Street, Okmulgee, OK 74447-5012",
+        "phone": "918-756-3042",
+        "email": "linda.beaver@oscn.net"
+      }
+    },
+    {
+      "name": "Osage",
+      "county_seat": "Pawhuska",
+      "judicial_district": "10",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Osage&menuType=",
+      "clerk_info": {
+        "clerk_name": "Angie Bruce",
+        "address": "Osage County Courthouse, 600 Grandview Avenue, Pawhuska, OK 74056-4259",
+        "phone": "918-287-4104",
+        "email": "angie.bruce@oscn.net"
+      }
+    },
+    {
+      "name": "Ottawa",
+      "county_seat": "Miami",
+      "judicial_district": "13",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Ottawa&menuType=",
+      "clerk_info": {
+        "clerk_name": "Cassie Key",
+        "address": "Ottawa County Courthouse, 102 E. Central Avenue, Suite 203, Miami, OK 74354-7062",
+        "phone": "918-542-2801",
+        "email": "cassie.key@oscn.net"
+      }
+    },
+    {
+      "name": "Pawnee",
+      "county_seat": "Pawnee",
+      "judicial_district": "14",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Pawnee&menuType=",
+      "clerk_info": {
+        "clerk_name": "Janet Dallas",
+        "address": "Pawnee County Courthouse, 500 Harrison, #300, Pawnee, OK 74058-2567",
+        "phone": "918-762-2547",
+        "email": "janet.dallas@oscn.net"
+      }
+    },
+    {
+      "name": "Payne",
+      "county_seat": "Stillwater",
+      "judicial_district": "9",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Payne&menuType=",
+      "clerk_info": {
+        "clerk_name": "Lisa Lambert",
+        "address": "Payne County Courthouse, 606 S. Husband Street, Stillwater, OK 74074-4044",
+        "phone": "405-372-4774",
+        "email": "lisa.lambert@oscn.net"
+      }
+    },
+    {
+      "name": "Pittsburg",
+      "county_seat": "McAlester",
+      "judicial_district": "18",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Pittsburg&menuType=",
+      "clerk_info": {
+        "clerk_name": "Cindy Eller",
+        "address": "Pittsburg County Courthouse, 115 E. Carl Albert Parkway, #14, McAlester, OK 74501-5064",
+        "phone": "918-423-4859",
+        "email": "cindy.eller@oscn.net"
+      }
+    },
+    {
+      "name": "Pontotoc",
+      "county_seat": "Ada",
+      "judicial_district": "22",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Pontotoc&menuType=",
+      "clerk_info": {
+        "clerk_name": "Ernestine Eubank",
+        "address": "Pontotoc County Courthouse, 13th & Broadway, P.O. Box 427, Ada, OK 74821-0427",
+        "phone": "580-332-5763",
+        "email": "ernestine.eubank@oscn.net"
+      }
+    },
+    {
+      "name": "Pottawatomie",
+      "county_seat": "Shawnee",
+      "judicial_district": "23",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Pottawatomie&menuType=",
+      "clerk_info": {
+        "clerk_name": "Reta Head",
+        "address": "Pottawatomie County Courthouse, 325 N. Broadway Street, Shawnee, OK 74801-6938",
+        "phone": "405-273-3624",
+        "email": "reta.head@oscn.net"
+      }
+    },
+    {
+      "name": "Pushmataha",
+      "county_seat": "Antlers",
+      "judicial_district": "17",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Pushmataha&menuType=",
+      "clerk_info": {
+        "clerk_name": "Tina Freeman",
+        "address": "Pushmataha County Courthouse, 302 S.W. B Street, Antlers, OK 74523-3899",
+        "phone": "580-298-2274",
+        "email": "tina.freeman@oscn.net"
+      }
+    },
+    {
+      "name": "Roger Mills",
+      "county_seat": "Cheyenne",
+      "judicial_district": "2",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=RogerMills&menuType=",
+      "clerk_info": {
+        "clerk_name": "Jan Bailey",
+        "address": "Roger Mills County Courthouse, 500 East Broadway, Cheyenne, OK 73628-0409",
+        "phone": "580-497-3361",
+        "email": "jan.bailey@oscn.net"
+      }
+    },
+    {
+      "name": "Rogers",
+      "county_seat": "Claremore",
+      "judicial_district": "12",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Rogers&menuType=",
+      "clerk_info": {
+        "clerk_name": "Candi Czapansky",
+        "address": "Rogers County Courthouse, 219 S. Missouri Avenue, Claremore, OK 74017-7832",
+        "phone": "918-341-5711",
+        "email": "candi.czapansky@oscn.net"
+      }
+    },
+    {
+      "name": "Seminole",
+      "county_seat": "Wewoka",
+      "judicial_district": "22",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Seminole&menuType=",
+      "clerk_info": {
+        "clerk_name": "Janie Robinson",
+        "address": "Seminole County Courthouse, 120 S. Wewoka Avenue, Wewoka, OK 74884-2638",
+        "phone": "405-257-6236",
+        "email": "janie.robinson@oscn.net"
+      }
+    },
+    {
+      "name": "Sequoyah",
+      "county_seat": "Sallisaw",
+      "judicial_district": "15",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Sequoyah&menuType=",
+      "clerk_info": {
+        "clerk_name": "Vicki Beaty",
+        "address": "Sequoyah County Courthouse, 120 E. Chickasaw, Suite 205, Sallisaw, OK 74955-4651",
+        "phone": "918-775-4411",
+        "email": "vicki.beaty@oscn.net"
+      }
+    },
+    {
+      "name": "Stephens",
+      "county_seat": "Duncan",
+      "judicial_district": "5",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Stephens&menuType=",
+      "clerk_info": {
+        "clerk_name": "Connie Elam",
+        "address": "Stephens County Courthouse, 101 S.11th Street, Suite 301, Duncan, OK 73533-4797",
+        "phone": "580-470-2000",
+        "email": "connie.elam@oscn.net"
+      }
+    },
+    {
+      "name": "Texas",
+      "county_seat": "Guymon",
+      "judicial_district": "1",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Texas&menuType=",
+      "clerk_info": {
+        "clerk_name": "Karen Parish",
+        "address": "Texas County Courthouse, 319 N. Main Street, P.O. Box 1081, Guymon, OK 73942-1081",
+        "phone": "580-338-3003",
+        "email": "karen.parish@oscn.net"
+      }
+    },
+    {
+      "name": "Tillman",
+      "county_seat": "Frederick",
+      "judicial_district": "3",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Tillman&menuType=",
+      "clerk_info": {
+        "clerk_name": "Daralene Kidwell",
+        "address": "Tillman County Courthouse, 201 North Main, Frederick, OK 73542-0116",
+        "phone": "580-335-3023",
+        "email": "daralene.kidwell@oscn.net"
+      }
+    },
+    {
+      "name": "Tulsa",
+      "county_seat": "Tulsa",
+      "judicial_district": "14",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Tulsa&menuType=",
+      "clerk_info": {
+        "clerk_name": "Sally Howe Smith",
+        "address": "Tulsa County Courthouse, 500 S. Denver Avenue, Suite 200, Tulsa, OK 74103-3861",
+        "phone": "918-596-5420",
+        "email": "sally.smith@oscn.net"
+      }
+    },
+    {
+      "name": "Wagoner",
+      "county_seat": "Wagoner",
+      "judicial_district": "15",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Wagoner&menuType=",
+      "clerk_info": {
+        "clerk_name": "Rhonda Vincent",
+        "address": "Wagoner County Courthouse, 307 E. Cherokee Street, P.O. Box 249, Wagoner, OK 74477-0249",
+        "phone": "918-485-4508",
+        "email": "rhonda.vincent@oscn.net"
+      }
+    },
+    {
+      "name": "Washington",
+      "county_seat": "Bartlesville",
+      "judicial_district": "11",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Washington&menuType=",
+      "clerk_info": {
+        "clerk_name": "Martha Mersch",
+        "address": "Washington County Courthouse, 420 S. Johnstone Avenue, #100, Bartlesville, OK 74003-6602",
+        "phone": "918-337-2870",
+        "email": "martha.mersch@oscn.net"
+      }
+    },
+    {
+      "name": "Washita",
+      "county_seat": "New Cordell",
+      "judicial_district": "2",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Washita&menuType=",
+      "clerk_info": {
+        "clerk_name": "Carol Corbett",
+        "address": "Washita County Courthouse, 111 E. Main Street, 3rd Floor, P.O. Box 397, Cordell, OK 73632-0397",
+        "phone": "580-832-3836",
+        "email": "carol.corbett@oscn.net"
+      }
+    },
+    {
+      "name": "Woods",
+      "county_seat": "Alva",
+      "judicial_district": "4",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Woods&menuType=",
+      "clerk_info": {
+        "clerk_name": "Della Dunnigan",
+        "address": "Woods County Courthouse, 407 Government Street, P.O. Box 924, Alva, OK 73717-0924",
+        "phone": "580-327-3119",
+        "email": "staci.davey@oscn.net"
+      }
+    },
+    {
+      "name": "Woodward",
+      "county_seat": "Woodward",
+      "judicial_district": "4",
+      "court_url": "https://www.oscn.net/applications/oscn/start.asp?viewType=COURT&db=Woodward&menuType=",
+      "clerk_info": {
+        "clerk_name": "Jenny Hopkins",
+        "address": "Woodward County Courthouse, 1600 Main Street, Suite 4, Woodward, OK 73801-3049",
+        "phone": "580-256-3413",
+        "email": "jenny.hopkins@oscn.net"
+      }
+    }
+  ]
+}
