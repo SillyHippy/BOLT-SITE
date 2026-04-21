@@ -25,13 +25,13 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'website',
-    images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630, alt: 'Process Serving for Property Managers Oklahoma' }],
+    images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-075-process-serving-for-property-managers-card.png', width: 1200, height: 630, alt: 'Process Serving for Property Managers Oklahoma' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Process Serving for Property Managers Oklahoma',
     description: 'FED summons, eviction notices, and lease violation service for Oklahoma property management companies.',
-    images: ['https://justlegalsolutions.org/og-image.webp'],
+    images: ['https://justlegalsolutions.org/image-pack/images/image-075-process-serving-for-property-managers-card.png'],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/process-serving-for-property-managers' },
   other: {

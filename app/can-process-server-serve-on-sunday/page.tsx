@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
@@ -14,7 +15,18 @@ export const metadata: Metadata = {
         title: 'Can a Process Server Serve on Sunday in Oklahoma?',
         description: 'Yes — Oklahoma has no restrictions on the day or time legal papers can be served. Full guide to weekend and holiday service.',
         type: 'article', locale: 'en_US', url: 'https://justlegalsolutions.org/can-process-server-serve-on-sunday', siteName: 'Just Legal Solutions',
-        images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630, alt: 'Weekend Process Serving Oklahoma' }],
+        images: [{
+            url: 'https://justlegalsolutions.org/image-pack/images/image-056-can-process-server-serve-on-sunday-og.png',
+            width: 1200,
+            height: 630,
+            alt: 'Quiet Oklahoma residential neighborhood on a Sunday morning',
+        }],
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Can a Process Server Serve on Sunday in Oklahoma?',
+        description: 'Yes — Oklahoma has no restrictions on the day or time legal papers can be served. Full guide to weekend and holiday service.',
+        images: ['https://justlegalsolutions.org/image-pack/images/image-056-can-process-server-serve-on-sunday-og.png'],
     },
     alternates: { canonical: 'https://justlegalsolutions.org/can-process-server-serve-on-sunday' },
     other: {
@@ -45,6 +57,17 @@ export default function SundayServicePage() {
                             <li><span className="text-gray-700">Can a Process Server Serve on Sunday?</span></li>
                         </ol>
                     </nav>
+
+                    <div className="relative h-56 md:h-72 rounded-2xl overflow-hidden shadow-xl mb-8">
+                        <Image
+                            src="/image-pack/images/image-056-can-process-server-serve-on-sunday-og.png"
+                            alt="Quiet Oklahoma residential neighborhood on a Sunday morning"
+                            fill
+                            className="object-cover"
+                            priority
+                            sizes="(max-width: 1024px) 100vw, 72rem"
+                        />
+                    </div>
 
                     <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-lg mb-10">
                         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Can a Process Server Serve Papers on Sunday in Oklahoma?</h1>
@@ -164,7 +187,7 @@ export default function SundayServicePage() {
                 </div>
             </div>
 
-            <UnifiedSchema pageType="article" title="Can a Process Server Serve on Sunday?" description="Yes — Oklahoma has no day-of-week restrictions on service. Full weekend service guide." url="https://justlegalsolutions.org/can-process-server-serve-on-sunday" image="https://justlegalsolutions.org/og-image.webp" keywords={['serve on sunday', 'weekend process serving', 'holiday service oklahoma']} reviewCount={156} services={['Weekend Process Serving', '24/7 Emergency Service', 'Holiday Service']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Can a Process Server Serve on Sunday?', url: '/can-process-server-serve-on-sunday' }]} />
+            <UnifiedSchema pageType="article" title="Can a Process Server Serve on Sunday?" description="Yes — Oklahoma has no day-of-week restrictions on service. Full weekend service guide." url="https://justlegalsolutions.org/can-process-server-serve-on-sunday" image="https://justlegalsolutions.org/image-pack/images/image-056-can-process-server-serve-on-sunday-og.png" keywords={['serve on sunday', 'weekend process serving', 'holiday service oklahoma']} reviewCount={156} services={['Weekend Process Serving', '24/7 Emergency Service', 'Holiday Service']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Can a Process Server Serve on Sunday?', url: '/can-process-server-serve-on-sunday' }]} />
         </>
     );
 }

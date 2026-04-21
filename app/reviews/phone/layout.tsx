@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     url: 'https://justlegalsolutions.org/reviews/phone',
     siteName: 'Just Legal Solutions',
     type: 'website',
-    images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630 }],
+    images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-044-reviews-hero.png', width: 1200, height: 630 }],
     locale: 'en_US',
   },
   robots: { index: true, follow: true },

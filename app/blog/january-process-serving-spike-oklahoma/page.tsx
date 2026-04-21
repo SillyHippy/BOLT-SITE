@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630, alt: 'Why Process Serving Spikes in January: New Year Divorce & Eviction Season' }],
+    images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png', width: 1200, height: 630, alt: 'Why Process Serving Spikes in January: New Year Divorce & Eviction Season' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/january-process-serving-spike-oklahoma' },
   other: {
@@ -91,7 +91,7 @@ export default function JanuaryProcessServingSpikeOklahoma() {
           author: "Joseph Iannazzi",
           datePublished: "2026-04-08",
           dateModified: "2026-04-08",
-          image: "https://justlegalsolutions.org/og-image.webp"
+          image: "https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png"
         }}
         faqItems={faqs.map(f => ({ question: f.question, answer: f.answer }))}
         keywords={['oklahoma divorce filings january', 'new year divorce statistics', 'january eviction filings oklahoma', 'new year legal filings']}

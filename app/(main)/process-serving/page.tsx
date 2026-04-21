@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import dynamic from 'next/dynamic';
 import { LiteYouTubeEmbed } from '@/components/lite-youtube-embed';
@@ -26,13 +27,18 @@ export const metadata: Metadata = {
         locale: 'en_US',
         url: 'https://justlegalsolutions.org/process-serving',
         siteName: 'Just Legal Solutions',
-        images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630, alt: 'Just Legal Solutions - Professional Process Serving in Oklahoma' }],
+        images: [{
+            url: 'https://justlegalsolutions.org/image-pack/images/image-010-process-serving-og.png',
+            width: 1200,
+            height: 630,
+            alt: 'Legal envelope being delivered through a residential mail slot',
+        }],
     },
     twitter: {
         card: 'summary_large_image',
         title: 'Process Serving Oklahoma | Starts at $30 Single-Attempt',
         description: 'Licensed Oklahoma process servers. Personal service, substitute service, service by publication. 24/7 availability across all 77 counties.',
-        images: ['https://justlegalsolutions.org/og-image.webp'],
+        images: ['https://justlegalsolutions.org/image-pack/images/image-010-process-serving-og.png'],
     },
     alternates: {
         canonical: 'https://justlegalsolutions.org/process-serving',
@@ -100,6 +106,17 @@ export default function ProcessServingPage() {
                             <li><span className="text-gray-700">Process Serving Services</span></li>
                         </ol>
                     </nav>
+
+                    <div className="relative h-56 md:h-72 rounded-2xl overflow-hidden shadow-xl mb-8">
+                        <Image
+                            src="/image-pack/images/image-009-process-serving-hero.png"
+                            alt="Professional process server delivering legal documents at an Oklahoma residence"
+                            fill
+                            className="object-cover"
+                            priority
+                            sizes="(max-width: 1024px) 100vw, 72rem"
+                        />
+                    </div>
 
                     {/* Hero Section */}
                     <div className="bg-gradient-to-r from-blue-50 to-indigo-50 border-l-4 border-blue-600 p-8 rounded-r-lg mb-10">
@@ -790,7 +807,7 @@ export default function ProcessServingPage() {
                 title="Process Serving Services Oklahoma | Licensed Servers, Starts at $30"
                 description="Professional process serving throughout Oklahoma. Personal service, substitute service, and service by publication. Starts at $30 for single attempt, $60 for standard service. Licensed, bonded, 24/7."
                 url="https://justlegalsolutions.org/process-serving"
-                image="https://justlegalsolutions.org/og-image.webp"
+                image="https://justlegalsolutions.org/image-pack/images/image-010-process-serving-og.png"
                 keywords={['process serving', 'process server oklahoma', 'serve legal papers', 'personal service', 'substitute service', 'process server vs sheriff', 'evasive defendant service']}
                 reviewCount={156}
                 services={[

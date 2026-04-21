@@ -18,14 +18,14 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     type: 'website',
     locale: 'en_US',
-    images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630, alt: 'Process Server vs Sheriff Oklahoma comparison' }],
+    images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-070-process-server-vs-sheriff-og.png', width: 1200, height: 630, alt: 'Process Server vs Sheriff Oklahoma comparison' }],
   },
   twitter: {
     card: 'summary_large_image',
     site: '@ServeOK',
     title: 'Process Server vs Sheriff in Oklahoma',
     description: 'Private process serving starts at $30 single-attempt vs $40-50 sheriff fees with 2-4 week turnaround. Compare GPS proof, after-hours, and weekend service.',
-    images: ['https://justlegalsolutions.org/og-image.webp'],
+    images: ['https://justlegalsolutions.org/image-pack/images/image-070-process-server-vs-sheriff-og.png'],
   },
   other: {
     'ai-content-type': 'comparison',

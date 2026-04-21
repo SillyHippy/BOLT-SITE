@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630, alt: 'What Does a Process Server Actually Do? A Day in the Life' }],
+    images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png', width: 1200, height: 630, alt: 'What Does a Process Server Actually Do? A Day in the Life' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/what-does-process-server-do-day-in-life' },
   other: {
@@ -91,7 +91,7 @@ export default function WhatDoesProcessServerDoDayInLife() {
           author: "Joseph Iannazzi",
           datePublished: "2026-04-08",
           dateModified: "2026-04-08",
-          image: "https://justlegalsolutions.org/og-image.webp"
+          image: "https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png"
         }}
         faqItems={faqs.map(f => ({ question: f.question, answer: f.answer }))}
         keywords={['what does a process server do', 'how does process serving work', 'process server job description', 'day in the life process server']}

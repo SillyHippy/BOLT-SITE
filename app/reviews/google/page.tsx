@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     url,
     siteName: 'Just Legal Solutions',
     type: 'website',
-    images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630 }],
+    images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-086-reviews-google-card.png', width: 1200, height: 630 }],
   },
   robots: { index: true, follow: true },
 };

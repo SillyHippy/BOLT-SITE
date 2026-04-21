@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     type: 'website',
     locale: 'en_US',
-    images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630, alt: 'Just Legal Solutions' }],
+    images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-009-process-serving-hero.png', width: 1200, height: 630, alt: 'Just Legal Solutions' }],
   },
 };
 

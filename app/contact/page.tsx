@@ -29,10 +29,10 @@ export const metadata = {
     siteName: 'Just Legal Solutions',
     images: [
       {
-        url: 'https://justlegalsolutions.org/og-image.webp',
-        width: 1200,
-        height: 630,
-        alt: 'Contact Just Legal Solutions - Oklahoma Process Server & Legal Support',
+        url: 'https://justlegalsolutions.org/image-pack/images/image-041-contact-hero.png',
+        width: 1920,
+        height: 1080,
+        alt: 'Modern professional office reception area with Tulsa city view',
       }
     ],
   },
@@ -40,7 +40,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: '(539) 367-6832 | Contact Just Legal Solutions',
     description: 'Get a free quote for process serving in Oklahoma. Service starts at $30 single-attempt, $60 standard, $100 rush. Call (539) 367-6832. Licensed & bonded. All 77 OK counties.',
-    images: ['https://justlegalsolutions.org/og-image.webp'],
+    images: ['https://justlegalsolutions.org/image-pack/images/image-041-contact-hero.png'],
     site: '@ServeOK',
   }
 };
@@ -113,7 +113,7 @@ export default function ContactPage() {
                 "areaServed": "Oklahoma",
                 "availableLanguage": "English"
               },
-              "image": "https://justlegalsolutions.org/images/jls-logo.webp",
+              "image": "https://justlegalsolutions.org/image-pack/images/image-041-contact-hero.png",
               "logo": {
                 "@type": "ImageObject",
                 "url": "https://justlegalsolutions.org/images/jls-logo.webp",
@@ -147,6 +147,16 @@ export default function ContactPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 text-white pt-20 pb-16">
           <div className="container mx-auto px-4">
+            <div className="relative h-48 md:h-64 max-w-4xl mx-auto rounded-2xl overflow-hidden shadow-2xl mb-8 ring-1 ring-white/20">
+              <Image
+                src="/image-pack/images/image-041-contact-hero.png"
+                alt="Modern professional office reception area with Tulsa city view"
+                fill
+                className="object-cover"
+                priority
+                sizes="(max-width: 896px) 100vw, 896px"
+              />
+            </div>
             <div className="max-w-4xl mx-auto text-center">
               {/* Trust Badges */}
               <div className="flex flex-wrap justify-center gap-4 mb-8">

@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
@@ -12,9 +13,20 @@ export const metadata: Metadata = {
     description: 'Find a licensed process server near you in Oklahoma. Same-day service from $60. GPS-tracked. Call (539) 367-6832.',
     url: 'https://justlegalsolutions.org/process-server-near-me',
     siteName: 'Just Legal Solutions',
-    images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630 }],
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-089-process-server-near-me-hero.png',
+      width: 1920,
+      height: 1080,
+      alt: 'Map pin over stylized Oklahoma city map suggesting local process server coverage',
+    }],
     locale: 'en_US',
     type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Process Server Near Me — Tulsa, Broken Arrow & All 77 OK Counties',
+    description: 'Find a licensed process server near you in Oklahoma. Same-day service from $60. Tulsa, Broken Arrow, OKC & all 77 counties. GPS-tracked.',
+    images: ['https://justlegalsolutions.org/image-pack/images/image-089-process-server-near-me-hero.png'],
   },
   robots: { index: true, follow: true },
 };
@@ -85,6 +97,7 @@ export default function ProcessServerNearMePage() {
         }}
         aggregateRating={{ ratingValue: 4.9, reviewCount: 156, bestRating: 5, worstRating: 1 }}
         location={{ name: "Just Legal Solutions", geo: { latitude: 36.1540, longitude: -95.9928 } }}
+        image="https://justlegalsolutions.org/image-pack/images/image-089-process-server-near-me-hero.png"
         faqItems={[
           { question: 'How do I find a process server near me in Oklahoma?', answer: 'Just Legal Solutions serves all 77 Oklahoma counties. Call (539) 367-6832 for same-day service anywhere in the state.' },
           { question: 'What is the closest process server to Tulsa?', answer: 'Just Legal Solutions is based in the Tulsa metro (Glenpool, OK) and serves all Tulsa County cities including Broken Arrow, Bixby, Jenks, and Owasso.' },
@@ -111,6 +124,16 @@ export default function ProcessServerNearMePage() {
           <div className="max-w-5xl mx-auto text-center">
             <div className="inline-flex items-center gap-2 bg-blue-600/40 border border-blue-400/30 rounded-full px-4 py-2 mb-6 text-sm font-medium">
               📍 Serving All 77 Oklahoma Counties — Fast
+            </div>
+            <div className="relative h-48 md:h-64 max-w-4xl mx-auto rounded-2xl overflow-hidden border border-white/10 shadow-2xl mb-8">
+              <Image
+                src="/image-pack/images/image-089-process-server-near-me-hero.png"
+                alt="Map pin over stylized Oklahoma city map suggesting local process server coverage"
+                fill
+                className="object-cover"
+                priority
+                sizes="(max-width: 1024px) 100vw, 56rem"
+              />
             </div>
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
               Process Server<br />

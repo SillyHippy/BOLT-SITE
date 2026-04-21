@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     images: [
       {
-        url: 'https://justlegalsolutions.org/og-image.webp',
+        url: 'https://justlegalsolutions.org/image-pack/images/image-032-service-areas-card.png',
         width: 1200,
         height: 630,
         alt: 'Just Legal Solutions - Professional Process Server Catoosa Oklahoma',
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     title: 'Process Server Catoosa, OK',
     description:
     'Licensed process server in Catoosa, OK. Same-day service available. GPS-tracked, court-ready affidavits. Serving all 77 OK counties. (539) 367-6832.',
-    images: ['https://justlegalsolutions.org/og-image.webp'],
+    images: ['https://justlegalsolutions.org/image-pack/images/image-032-service-areas-card.png'],
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/service-areas/catoosa',

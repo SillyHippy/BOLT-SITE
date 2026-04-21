@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
@@ -18,14 +19,19 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     type: 'website',
     locale: 'en_US',
-    images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630, alt: 'Divorce paper service in Oklahoma' }],
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-038-divorce-paper-service-og.png',
+      width: 1200,
+      height: 630,
+      alt: 'Process server carefully handling a sealed envelope — discreet Oklahoma divorce paper service',
+    }],
   },
   twitter: {
     card: 'summary_large_image',
     site: '@ServeOK',
     title: 'Divorce Paper Service in Oklahoma — Discreet & Court-Ready',
     description: 'Service starts at $30 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours rush. GPS-verified affidavits.',
-    images: ['https://justlegalsolutions.org/og-image.webp'],
+    images: ['https://justlegalsolutions.org/image-pack/images/image-038-divorce-paper-service-og.png'],
   },
   other: {
     'ai-content-type': 'service-page',
@@ -84,6 +90,7 @@ export default function DivorcePaperServicePage() {
           { name: 'Home', url: '/' },
           { name: 'Divorce Paper Service', url: '/divorce-paper-service' },
         ]}
+        image="https://justlegalsolutions.org/image-pack/images/image-038-divorce-paper-service-og.png"
       />
       <main className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
         {/* Hero */}
@@ -96,6 +103,16 @@ export default function DivorcePaperServicePage() {
                 <li className="text-white">Divorce Paper Service</li>
               </ol>
             </nav>
+            <div className="relative h-52 md:h-64 max-w-4xl mx-auto rounded-2xl overflow-hidden border border-white/10 shadow-2xl mb-8">
+              <Image
+                src="/image-pack/images/image-037-divorce-paper-service-hero.png"
+                alt="Mediation setting with two parties and neutral professional at a table"
+                fill
+                className="object-cover"
+                priority
+                sizes="(max-width: 1024px) 100vw, 56rem"
+              />
+            </div>
             <div className="flex flex-wrap gap-3 mb-6">
               <span className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm px-3 py-1 rounded-full text-xs"><Shield className="w-4 h-4 text-green-300" />Discreet & Confidential</span>
               <span className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm px-3 py-1 rounded-full text-xs"><Clock className="w-4 h-4 text-rose-200" />Same-day available</span>

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     description: 'Licensed Broken Arrow process server. Standard from $60, rush $100, same-day $150. GPS-tracked. Call (539) 367-6832.',
     url: 'https://justlegalsolutions.org/broken-arrow-process-server',
     siteName: 'Just Legal Solutions',
-    images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630 }],
+    images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-059-broken-arrow-process-server-hero.png', width: 1200, height: 630 }],
     locale: 'en_US',
     type: 'website',
   },

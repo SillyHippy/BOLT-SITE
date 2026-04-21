@@ -14,7 +14,7 @@ export const metadata: Metadata = {
         title: 'How Much Does a Process Server Cost? (2026 Oklahoma Guide)',
         description: 'Process server costs: $30-$265 depending on speed. Sheriff: $25-$40. Full pricing comparison with what\'s included at each tier.',
         type: 'article', locale: 'en_US', url: 'https://justlegalsolutions.org/how-much-does-process-server-cost', siteName: 'Just Legal Solutions',
-        images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630, alt: 'Process Server Cost Guide' }],
+        images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-057-how-much-does-process-server-cost-og.png', width: 1200, height: 630, alt: 'Process Server Cost Guide' }],
     },
     alternates: { canonical: 'https://justlegalsolutions.org/how-much-does-process-server-cost' },
     other: {
@@ -158,7 +158,7 @@ export default function ProcessServerCostPage() {
                 </div>
             </div>
 
-            <UnifiedSchema pageType="article" title="How Much Does a Process Server Cost? (2026 Oklahoma Guide)" description="Process server costs: $30-$265. Full comparison with sheriff and DIY options." url="https://justlegalsolutions.org/how-much-does-process-server-cost" image="https://justlegalsolutions.org/og-image.webp" keywords={['process server cost', 'process serving fees', 'cost to serve papers oklahoma']} reviewCount={156} services={['Standard Service $60', 'Single Attempt $30', 'Same-Day Rush $150', '2-Hour Emergency $265']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'How Much Does a Process Server Cost?', url: '/how-much-does-process-server-cost' }]} />
+            <UnifiedSchema pageType="article" title="How Much Does a Process Server Cost? (2026 Oklahoma Guide)" description="Process server costs: $30-$265. Full comparison with sheriff and DIY options." url="https://justlegalsolutions.org/how-much-does-process-server-cost" image="https://justlegalsolutions.org/image-pack/images/image-057-how-much-does-process-server-cost-og.png" keywords={['process server cost', 'process serving fees', 'cost to serve papers oklahoma']} reviewCount={156} services={['Standard Service $60', 'Single Attempt $30', 'Same-Day Rush $150', '2-Hour Emergency $265']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'How Much Does a Process Server Cost?', url: '/how-much-does-process-server-cost' }]} />
         </>
     );
 }

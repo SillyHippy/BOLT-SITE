@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630, alt: 'Oklahoma Eviction Moratorium History & Current Rules' }],
+    images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png', width: 1200, height: 630, alt: 'Oklahoma Eviction Moratorium History & Current Rules' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/oklahoma-eviction-moratorium-history' },
   other: {
@@ -91,7 +91,7 @@ export default function OklahomaEvictionMoratoriumHistory2026() {
           author: "Joseph Iannazzi",
           datePublished: "2026-04-08",
           dateModified: "2026-04-08",
-          image: "https://justlegalsolutions.org/og-image.webp"
+          image: "https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png"
         }}
         faqItems={faqs.map(f => ({ question: f.question, answer: f.answer }))}
         keywords={['oklahoma eviction rules 2026', 'oklahoma eviction moratorium', 'ERA funds oklahoma eviction', 'post covid eviction oklahoma']}

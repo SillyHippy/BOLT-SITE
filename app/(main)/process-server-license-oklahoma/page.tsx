@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
@@ -14,7 +15,18 @@ export const metadata: Metadata = {
         title: 'Process Server License Oklahoma | Requirements & Application Guide',
         description: 'Complete guide to Oklahoma process server licensing. Requirements, application process, costs, and renewal info under 12 O.S. § 158.1.',
         type: 'website', locale: 'en_US', url: 'https://justlegalsolutions.org/process-server-license-oklahoma', siteName: 'Just Legal Solutions',
-        images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630, alt: 'Process Server License Oklahoma' }],
+        images: [{
+            url: 'https://justlegalsolutions.org/image-pack/images/image-081-process-server-license-oklahoma-card.png',
+            width: 1200,
+            height: 800,
+            alt: 'Oklahoma process server license badge and certificate on a desk with leather portfolio',
+        }],
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Process Server License Oklahoma | Requirements & Application Guide',
+        description: 'Complete guide to Oklahoma process server licensing. Requirements, application process, costs, and renewal info under 12 O.S. § 158.1.',
+        images: ['https://justlegalsolutions.org/image-pack/images/image-081-process-server-license-oklahoma-card.png'],
     },
     alternates: { canonical: 'https://justlegalsolutions.org/process-server-license-oklahoma' },
     other: {
@@ -49,6 +61,17 @@ export default function ProcessServerLicenseOklahomaPage() {
                             <li><span className="text-gray-700">Process Server License</span></li>
                         </ol>
                     </nav>
+
+                    <div className="relative h-56 md:h-72 rounded-2xl overflow-hidden shadow-xl mb-8">
+                        <Image
+                            src="/image-pack/images/image-081-process-server-license-oklahoma-card.png"
+                            alt="Oklahoma process server license badge and certificate on a desk with leather portfolio"
+                            fill
+                            className="object-cover"
+                            priority
+                            sizes="(max-width: 1024px) 100vw, 72rem"
+                        />
+                    </div>
 
                     <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-lg mb-10">
                         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Process Server License in Oklahoma</h1>
@@ -371,7 +394,7 @@ export default function ProcessServerLicenseOklahomaPage() {
                 </div>
             </div>
 
-            <UnifiedSchema pageType="service" title="Process Server License Oklahoma" description="Complete guide to Oklahoma process server licensing requirements, application process, and costs under 12 O.S. § 158.1." url="https://justlegalsolutions.org/process-server-license-oklahoma" image="https://justlegalsolutions.org/og-image.webp" keywords={['process server license oklahoma', 'oklahoma process server license', 'licensed process server']} reviewCount={156} services={['Licensed Process Serving', 'Bonded Document Service', 'GPS-Verified Service']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'Process Server License', url: '/process-server-license-oklahoma' }]} />
+            <UnifiedSchema pageType="service" title="Process Server License Oklahoma" description="Complete guide to Oklahoma process server licensing requirements, application process, and costs under 12 O.S. § 158.1." url="https://justlegalsolutions.org/process-server-license-oklahoma" image="https://justlegalsolutions.org/image-pack/images/image-081-process-server-license-oklahoma-card.png" keywords={['process server license oklahoma', 'oklahoma process server license', 'licensed process server']} reviewCount={156} services={['Licensed Process Serving', 'Bonded Document Service', 'GPS-Verified Service']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'Process Server License', url: '/process-server-license-oklahoma' }]} />
         </>
     );
 }

@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630, alt: 'How to File a Protective Order in Oklahoma' }],
+    images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png', width: 1200, height: 630, alt: 'How to File a Protective Order in Oklahoma' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/how-to-file-protective-order-oklahoma' },
   other: {
@@ -108,7 +108,7 @@ export default function HowToFileProtectiveOrderOklahoma() {
           author: "Joseph Iannazzi",
           datePublished: "2026-04-08",
           dateModified: "2026-04-08",
-          image: "https://justlegalsolutions.org/og-image.webp"
+          image: "https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png"
         }}
         faqItems={faqs.map(f => ({ question: f.question, answer: f.answer }))}
         keywords={['how to file protective order oklahoma', 'oklahoma VPO process', 'victim protective order oklahoma', 'emergency protective order oklahoma']}

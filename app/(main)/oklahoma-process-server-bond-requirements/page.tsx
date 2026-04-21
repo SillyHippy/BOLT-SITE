@@ -14,7 +14,18 @@ export const metadata: Metadata = {
         title: 'Oklahoma Process Server Bond Requirements | $5,000 Surety Bond Guide',
         description: 'Everything you need to know about Oklahoma process server bond requirements. $5,000 surety bond under 12 O.S. § 158.1, costs, how to get bonded, and why it matters.',
         type: 'website', locale: 'en_US', url: 'https://justlegalsolutions.org/oklahoma-process-server-bond-requirements', siteName: 'Just Legal Solutions',
-        images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630, alt: 'Oklahoma Process Server Bond Requirements' }],
+        images: [{
+            url: 'https://justlegalsolutions.org/image-pack/images/image-094-oklahoma-process-server-bond-requirements-og.png',
+            width: 1200,
+            height: 630,
+            alt: 'Surety bond certificate and official seal on a desk — Oklahoma process server bonding',
+        }],
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Oklahoma Process Server Bond Requirements | $5,000 Surety Bond Guide',
+        description: 'Everything you need to know about Oklahoma process server bond requirements. $5,000 surety bond under 12 O.S. § 158.1, costs, how to get bonded, and why it matters.',
+        images: ['https://justlegalsolutions.org/image-pack/images/image-094-oklahoma-process-server-bond-requirements-og.png'],
     },
     alternates: { canonical: 'https://justlegalsolutions.org/oklahoma-process-server-bond-requirements' },
     other: {
@@ -341,7 +352,7 @@ export default function OklahomaProcessServerBondRequirementsPage() {
                 </div>
             </div>
 
-            <UnifiedSchema pageType="service" title="Oklahoma Process Server Bond Requirements" description="Complete guide to Oklahoma process server bond requirements. $5,000 surety bond required under 12 O.S. § 158.1." url="https://justlegalsolutions.org/oklahoma-process-server-bond-requirements" image="https://justlegalsolutions.org/og-image.webp" keywords={['oklahoma process server bond', 'process server surety bond', 'bonded process servers']} reviewCount={156} services={['Bonded Process Serving', 'Licensed Document Service', 'GPS-Verified Service']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'Bond Requirements', url: '/oklahoma-process-server-bond-requirements' }]} />
+            <UnifiedSchema pageType="service" title="Oklahoma Process Server Bond Requirements" description="Complete guide to Oklahoma process server bond requirements. $5,000 surety bond required under 12 O.S. § 158.1." url="https://justlegalsolutions.org/oklahoma-process-server-bond-requirements" image="https://justlegalsolutions.org/image-pack/images/image-094-oklahoma-process-server-bond-requirements-og.png" keywords={['oklahoma process server bond', 'process server surety bond', 'bonded process servers']} reviewCount={156} services={['Bonded Process Serving', 'Licensed Document Service', 'GPS-Verified Service']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'Bond Requirements', url: '/oklahoma-process-server-bond-requirements' }]} />
         </>
     );
 }

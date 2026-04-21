@@ -15,7 +15,7 @@ export const metadata: Metadata = {
         title: 'What Happens If Someone Refuses to Accept Legal Papers?',
         description: 'Refusing papers does NOT prevent valid service in Oklahoma. Learn the legal facts about refused service and your options.',
         type: 'article', locale: 'en_US', url: 'https://justlegalsolutions.org/what-happens-if-someone-refuses-service', siteName: 'Just Legal Solutions',
-        images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630, alt: 'What Happens If Someone Refuses Legal Papers' }],
+        images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.png', width: 1200, height: 630, alt: 'What Happens If Someone Refuses Legal Papers' }],
     },
     alternates: { canonical: 'https://justlegalsolutions.org/what-happens-if-someone-refuses-service' },
     other: {
@@ -126,7 +126,7 @@ export default function RefusedServicePage() {
             </div>
 
             <Script id="faq-schema-refused" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": faqs.map(f => ({ "@type": "Question", "name": f.question, "acceptedAnswer": { "@type": "Answer", "text": f.answer } })) }) }} />
-            <UnifiedSchema pageType="article" title="What Happens If Someone Refuses Service?" description="Refusing papers does NOT prevent valid service in Oklahoma. Learn about drop service and alternatives." url="https://justlegalsolutions.org/what-happens-if-someone-refuses-service" image="https://justlegalsolutions.org/og-image.webp" keywords={['refuse to accept papers', 'can you refuse service', 'dodging process server']} reviewCount={156} services={['Process Serving', 'Skip Tracing', 'Same-Day Rush Service']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'What Happens If Someone Refuses Service?', url: '/what-happens-if-someone-refuses-service' }]} />
+            <UnifiedSchema pageType="article" title="What Happens If Someone Refuses Service?" description="Refusing papers does NOT prevent valid service in Oklahoma. Learn about drop service and alternatives." url="https://justlegalsolutions.org/what-happens-if-someone-refuses-service" image="https://justlegalsolutions.org/image-pack/images/image-002-home-og.png" keywords={['refuse to accept papers', 'can you refuse service', 'dodging process server']} reviewCount={156} services={['Process Serving', 'Skip Tracing', 'Same-Day Rush Service']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'What Happens If Someone Refuses Service?', url: '/what-happens-if-someone-refuses-service' }]} />
         </>
     );
 }

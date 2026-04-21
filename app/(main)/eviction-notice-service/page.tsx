@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
@@ -14,7 +15,18 @@ export const metadata: Metadata = {
         title: 'Eviction Notice Service Oklahoma | Licensed Process Servers',
         description: 'Professional eviction notice delivery. 5-day, 15-day, and 30-day notices served by licensed Oklahoma process servers with GPS proof.',
         type: 'website', locale: 'en_US', url: 'https://justlegalsolutions.org/eviction-notice-service', siteName: 'Just Legal Solutions',
-        images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630, alt: 'Eviction Notice Service Oklahoma' }],
+        images: [{
+            url: 'https://justlegalsolutions.org/image-pack/images/image-040-eviction-notice-service-og.png',
+            width: 1200,
+            height: 630,
+            alt: 'Eviction-related notice posted at a residential door in Oklahoma',
+        }],
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Eviction Notice Service Oklahoma | Licensed Process Servers',
+        description: 'Professional eviction notice delivery. 5-day, 15-day, and 30-day notices served by licensed Oklahoma process servers with GPS proof.',
+        images: ['https://justlegalsolutions.org/image-pack/images/image-040-eviction-notice-service-og.png'],
     },
     alternates: { canonical: 'https://justlegalsolutions.org/eviction-notice-service' },
     other: {
@@ -46,6 +58,17 @@ export default function EvictionNoticeServicePage() {
                             <li><span className="text-gray-700">Eviction Notice Service</span></li>
                         </ol>
                     </nav>
+
+                    <div className="relative h-56 md:h-72 rounded-2xl overflow-hidden shadow-xl mb-8">
+                        <Image
+                            src="/image-pack/images/image-039-eviction-notice-service-hero.png"
+                            alt="Professional process server at an Oklahoma apartment complex for eviction notice service"
+                            fill
+                            className="object-cover"
+                            priority
+                            sizes="(max-width: 1024px) 100vw, 72rem"
+                        />
+                    </div>
 
                     <div className="bg-orange-50 border-l-4 border-orange-600 p-6 rounded-r-lg mb-10">
                         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Eviction Notice Service in Oklahoma</h1>
@@ -168,7 +191,7 @@ export default function EvictionNoticeServicePage() {
                 </div>
             </div>
 
-            <UnifiedSchema pageType="service" title="Eviction Notice Service Oklahoma" description="5-day, 15-day, and 30-day eviction notices served by licensed process servers. GPS-verified, from $30." url="https://justlegalsolutions.org/eviction-notice-service" image="https://justlegalsolutions.org/og-image.webp" keywords={['eviction notice service', 'serve eviction notice oklahoma', '5 day notice']} reviewCount={156} services={['5-Day Notice Service', '15-Day Notice Service', '30-Day Notice Service', '24-Hour Emergency Notice']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'Eviction Notice Service', url: '/eviction-notice-service' }]} />
+            <UnifiedSchema pageType="service" title="Eviction Notice Service Oklahoma" description="5-day, 15-day, and 30-day eviction notices served by licensed process servers. GPS-verified, from $30." url="https://justlegalsolutions.org/eviction-notice-service" image="https://justlegalsolutions.org/image-pack/images/image-040-eviction-notice-service-og.png" keywords={['eviction notice service', 'serve eviction notice oklahoma', '5 day notice']} reviewCount={156} services={['5-Day Notice Service', '15-Day Notice Service', '30-Day Notice Service', '24-Hour Emergency Notice']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'Eviction Notice Service', url: '/eviction-notice-service' }]} />
         </>
     );
 }

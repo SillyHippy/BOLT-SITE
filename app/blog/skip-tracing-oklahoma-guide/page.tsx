@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630, alt: 'Skip Tracing in Oklahoma 2026 Guide' }],
+    images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-058-skip-tracing-oklahoma-guide-og.png', width: 1200, height: 630, alt: 'Skip Tracing in Oklahoma 2026 Guide' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/skip-tracing-oklahoma-guide' },
   other: {
@@ -91,7 +91,7 @@ export default function SkipTracingOklahomaGuide() {
           author: 'Joseph Iannazzi',
           datePublished: '2026-04-19',
           dateModified: '2026-04-19',
-          image: 'https://justlegalsolutions.org/og-image.webp'
+          image: 'https://justlegalsolutions.org/image-pack/images/image-058-skip-tracing-oklahoma-guide-og.png'
         }}
         faqItems={faqs.map(f => ({ question: f.question, answer: f.answer }))}
         keywords={['skip tracing oklahoma', 'skip trace tulsa', 'find defendant oklahoma', 'address verification oklahoma', 'ethical skip tracing']}

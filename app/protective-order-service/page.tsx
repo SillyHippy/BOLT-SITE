@@ -18,14 +18,14 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     type: 'website',
     locale: 'en_US',
-    images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630, alt: 'Protective order service in Oklahoma' }],
+    images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-061-protective-order-service-hero.png', width: 1200, height: 630, alt: 'Protective order service in Oklahoma' }],
   },
   twitter: {
     card: 'summary_large_image',
     site: '@ServeOK',
     title: 'Protective Order Service in Oklahoma — Confidential & Court-Ready',
     description: 'Service starts at $30 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours rush. Trauma-informed and GPS-verified.',
-    images: ['https://justlegalsolutions.org/og-image.webp'],
+    images: ['https://justlegalsolutions.org/image-pack/images/image-061-protective-order-service-hero.png'],
   },
   other: {
     'ai-content-type': 'service-page',

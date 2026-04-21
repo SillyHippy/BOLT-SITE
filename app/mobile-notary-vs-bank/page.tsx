@@ -33,7 +33,7 @@ export default function MobileVsBankPage() {
           author: 'Joseph Iannazzi',
           datePublished: '2025-03-30',
           dateModified: '2026-04-03',
-          image: 'https://justlegalsolutions.org/og-image.webp',
+          image: 'https://justlegalsolutions.org/image-pack/images/image-028-notary-card.png',
         }}
         keywords={['mobile notary vs bank notary', 'mobile notary comparison', 'bank notary services', 'notarization options Oklahoma']}
       />

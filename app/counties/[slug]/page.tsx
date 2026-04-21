@@ -40,10 +40,10 @@ export async function generateMetadata({
       type: 'website',
       images: [
         {
-          url: 'https://justlegalsolutions.org/og-image.webp',
-          width: 1200,
-          height: 630,
-          alt: 'Just Legal Solutions - Professional Process Serving in Oklahoma',
+          url: 'https://justlegalsolutions.org/image-pack/images/image-085-counties-hero.png',
+          width: 1920,
+          height: 1080,
+          alt: 'Oklahoma prairie landscape with red dirt roads and vast sky at golden hour',
         },
       ],
     },
@@ -51,6 +51,7 @@ export async function generateMetadata({
       card: 'summary_large_image',
       title,
       description,
+      images: ['https://justlegalsolutions.org/image-pack/images/image-085-counties-hero.png'],
     },
     alternates: {
       canonical: `https://justlegalsolutions.org/counties/${slug}`,

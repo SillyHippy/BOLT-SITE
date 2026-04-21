@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 import UnifiedSchema from '@/components/UnifiedSchema';
@@ -22,10 +23,10 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     images: [
       {
-        url: 'https://justlegalsolutions.org/images/urgent-process-server-og.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'Fastest Way to Serve Papers in Oklahoma - Emergency Process Server'
+        url: 'https://justlegalsolutions.org/image-pack/images/image-015-urgent-process-server-hero.png',
+        width: 1920,
+        height: 1080,
+        alt: 'Professional entering Tulsa County Courthouse at dawn for urgent process serving',
       }
     ]
   },
@@ -33,7 +34,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Fastest Way to Serve Papers | Same-Day & 2-Hour Emergency',
     description: 'The fastest way to serve papers is hiring a licensed process server. Just Legal Solutions offers 2-hour emergency service starting at $265.',
-    images: ['https://justlegalsolutions.org/images/urgent-process-server-og.jpg']
+    images: ['https://justlegalsolutions.org/image-pack/images/image-015-urgent-process-server-hero.png']
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/urgent-process-server'
@@ -121,6 +122,17 @@ const UrgentProcessServerPage = () => {
               <li><span className="text-gray-700">Fastest Way to Serve Papers</span></li>
             </ol>
           </nav>
+
+          <div className="relative h-56 md:h-72 rounded-2xl overflow-hidden shadow-xl mb-8">
+            <Image
+              src="/image-pack/images/image-015-urgent-process-server-hero.png"
+              alt="Professional entering Tulsa County Courthouse at dawn for urgent service"
+              fill
+              className="object-cover"
+              priority
+              sizes="(max-width: 1024px) 100vw, 72rem"
+            />
+          </div>
 
           {/* Direct Answer Block */}
           <div className="bg-green-50 border-l-4 border-green-600 p-6 rounded-r-lg mb-10">
@@ -584,7 +596,7 @@ const UrgentProcessServerPage = () => {
         title="Fastest Way to Serve Papers in Oklahoma | Same-Day & 2-Hour Emergency"
         description="The fastest way to serve papers in Oklahoma is hiring a licensed process server. 2-hour emergency service, same-day delivery, 24/7 availability. Standard service is $60, single attempts start at $30."
         url="https://justlegalsolutions.org/urgent-process-server"
-        image="https://justlegalsolutions.org/images/urgent-process-server-og.jpg"
+        image="https://justlegalsolutions.org/image-pack/images/image-015-urgent-process-server-hero.png"
         keywords={['fastest way to serve papers', 'urgent process server tulsa', 'same day process serving', 'emergency document delivery', 'fast process server oklahoma', '2 hour process serving']}
         reviewCount={156} services={['2-Hour Emergency Service', 'Same-Day Rush Service', 'Standard Process Serving']}
         breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Urgent Process Server', url: '/urgent-process-server' }]} />

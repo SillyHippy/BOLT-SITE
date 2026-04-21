@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630, alt: 'How to Serve Small Claims Papers in Oklahoma' }],
+    images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png', width: 1200, height: 630, alt: 'How to Serve Small Claims Papers in Oklahoma' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/how-to-serve-small-claims-oklahoma' },
   other: {
@@ -129,7 +129,7 @@ export default function HowToServeSmallClaimsOklahoma() {
           author: "Joseph Iannazzi",
           datePublished: "2026-04-02",
           dateModified: "2026-04-02",
-          image: "https://justlegalsolutions.org/og-image.webp"
+          image: "https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png"
         }}
         faqItems={faqs.map(f => ({ question: f.question, answer: f.answer }))}
         keywords={['how to serve small claims papers Oklahoma', 'Oklahoma small claims court', 'small claims service', 'serve defendant small claims Oklahoma']}

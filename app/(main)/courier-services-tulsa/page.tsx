@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: 'https://justlegalsolutions.org/courier-services-tulsa',
     siteName: 'Just Legal Solutions',
-    images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630, alt: 'Just Legal Solutions - Professional Process Serving in Oklahoma' }],
+    images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-030-courier-services-og.png', width: 1200, height: 630, alt: 'Just Legal Solutions - Professional Process Serving in Oklahoma' }],
   },
   other: {
     'ai-content-type': 'service-guide',

@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630, alt: 'Oklahoma Process Server Cost Guide 2026' }],
+    images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png', width: 1200, height: 630, alt: 'Oklahoma Process Server Cost Guide 2026' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/process-serving-cost-guide-oklahoma' },
   other: {
@@ -91,7 +91,7 @@ export default function ProcessServingCostGuideOklahoma() {
           author: 'Joseph Iannazzi',
           datePublished: '2026-04-19',
           dateModified: '2026-04-19',
-          image: 'https://justlegalsolutions.org/og-image.webp'
+          image: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'
         }}
         faqItems={faqs.map(f => ({ question: f.question, answer: f.answer }))}
         keywords={['oklahoma process server cost', 'process serving pricing tulsa', 'rush process server price', 'process server vs sheriff cost', 'same day process server']}

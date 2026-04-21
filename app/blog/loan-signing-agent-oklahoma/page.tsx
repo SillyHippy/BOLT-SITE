@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630, alt: 'Loan Signing Agents in Oklahoma 2026' }],
+    images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-063-loan-signing-agent-tulsa-hero.png', width: 1200, height: 630, alt: 'Loan Signing Agents in Oklahoma 2026' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/loan-signing-agent-oklahoma' },
   other: {
@@ -91,7 +91,7 @@ export default function LoanSigningAgentOklahoma() {
           author: 'Joseph Iannazzi',
           datePublished: '2026-04-19',
           dateModified: '2026-04-19',
-          image: 'https://justlegalsolutions.org/og-image.webp'
+          image: 'https://justlegalsolutions.org/image-pack/images/image-063-loan-signing-agent-tulsa-hero.png'
         }}
         faqItems={faqs.map(f => ({ question: f.question, answer: f.answer }))}
         keywords={['loan signing agent oklahoma', 'mortgage notary tulsa', 'NNA certified signing agent', 'loan closing notary', 'signing agent fees']}

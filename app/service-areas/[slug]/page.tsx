@@ -256,10 +256,10 @@ export async function generateMetadata({
       type: 'website',
       images: [
         {
-          url: 'https://justlegalsolutions.org/og-image.webp',
+          url: 'https://justlegalsolutions.org/image-pack/images/image-032-service-areas-card.png',
           width: 1200,
-          height: 630,
-          alt: `Just Legal Solutions - Process Server ${locationName} Oklahoma`,
+          height: 800,
+          alt: `Aerial view of a small Oklahoma town — licensed process server serving ${locationName}`,
         },
       ],
     },
@@ -267,7 +267,7 @@ export async function generateMetadata({
       card: 'summary_large_image',
       title,
       description,
-      images: ['https://justlegalsolutions.org/og-image.webp'],
+      images: ['https://justlegalsolutions.org/image-pack/images/image-032-service-areas-card.png'],
     },
     alternates: {
       canonical: `https://justlegalsolutions.org/service-areas/${slug}`,

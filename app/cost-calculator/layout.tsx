@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     description: 'Estimate your Oklahoma process serving cost instantly. Standard from $60. All 77 counties.',
     url: 'https://justlegalsolutions.org/cost-calculator',
     siteName: 'Just Legal Solutions',
-    images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630 }],
+    images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-079-cost-calculator-card.png', width: 1200, height: 630 }],
     locale: 'en_US',
     type: 'website',
   },

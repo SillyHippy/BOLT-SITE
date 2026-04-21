@@ -57,7 +57,7 @@ export default function McGirtGuidePage() {
           author: 'Joseph Iannazzi',
           datePublished: '2026-04-03',
           dateModified: '2026-04-03',
-          image: 'https://justlegalsolutions.org/og-image.webp',
+          image: 'https://justlegalsolutions.org/image-pack/images/image-077-guides-hero.png',
         }}
         keywords={['McGirt v Oklahoma process serving', 'tribal land service Oklahoma', 'tribal jurisdiction process server']}
       />

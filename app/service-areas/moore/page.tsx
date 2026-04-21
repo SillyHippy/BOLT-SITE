@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     images: [
       {
-        url: 'https://justlegalsolutions.org/og-image.webp',
+        url: 'https://justlegalsolutions.org/image-pack/images/image-032-service-areas-card.png',
         width: 1200,
         height: 630,
         alt: 'Just Legal Solutions - Professional Process Server Moore Oklahoma',
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Process Server Moore, OK | Licensed Cleveland County Legal Service',
     description: 'Licensed process server in Moore, Oklahoma. Cleveland County with GPS-tracked, court-ready document service. Call (539) 367-6832.',
-    images: ['https://justlegalsolutions.org/og-image.webp'],
+    images: ['https://justlegalsolutions.org/image-pack/images/image-032-service-areas-card.png'],
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/service-areas/moore',

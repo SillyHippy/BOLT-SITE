@@ -30,10 +30,10 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     images: [
       {
-        url: 'https://justlegalsolutions.org/images/seo/pricing-og.png',
+        url: 'https://justlegalsolutions.org/image-pack/images/image-047-oklahoma-process-server-pricing-og.png',
         width: 1200,
         height: 630,
-        alt: 'Transparent Oklahoma process serving pricing with professional legal service branding'
+        alt: 'Pricing chart and calculator representing transparent Oklahoma process serving costs'
       }
     ],
     locale: 'en_US',
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Process Server Pricing Oklahoma | Just Legal Solutions',
     description: 'Transparent process server pricing in Oklahoma. Starts at $30 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours.',
-    images: ['https://justlegalsolutions.org/images/seo/pricing-og.png'],
+    images: ['https://justlegalsolutions.org/image-pack/images/image-047-oklahoma-process-server-pricing-og.png'],
   },
   robots: {
     index: true,
@@ -193,8 +193,8 @@ export default function PricingPage() {
         <section className="relative pt-24 pb-12 px-4 overflow-hidden">
           <div className="absolute inset-0 -z-10">
             <Image
-              src="/images/seo/pricing-hero.png"
-              alt="Transparent legal pricing documents and professional office tools on a desk"
+              src="/image-pack/images/image-007-pricing-hero.png"
+              alt="Transparent pricing document on clipboard with coffee on a professional desk"
               fill
               className="object-cover"
               priority

@@ -25,13 +25,13 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'website',
-    images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630, alt: 'Process Serving for Debt Collection Agencies Oklahoma' }],
+    images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-073-process-serving-for-debt-collection-card.png', width: 1200, height: 630, alt: 'Process Serving for Debt Collection Agencies Oklahoma' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Process Serving for Debt Collection Agencies Oklahoma',
     description: 'High-volume collection lawsuit service with skip tracing and GPS-verified documentation for Oklahoma debt collection agencies.',
-    images: ['https://justlegalsolutions.org/og-image.webp'],
+    images: ['https://justlegalsolutions.org/image-pack/images/image-073-process-serving-for-debt-collection-card.png'],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/process-serving-for-debt-collection' },
   other: {

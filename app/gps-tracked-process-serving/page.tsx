@@ -25,13 +25,13 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'website',
-    images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630, alt: 'GPS Tracked Process Serving Oklahoma' }],
+    images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-053-gps-tracked-process-serving-hero.png', width: 1200, height: 630, alt: 'GPS Tracked Process Serving Oklahoma' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'GPS Tracked Process Serving Oklahoma',
     description: 'GPS-verified process serving with timestamped location data and photo documentation across Oklahoma.',
-    images: ['https://justlegalsolutions.org/og-image.webp'],
+    images: ['https://justlegalsolutions.org/image-pack/images/image-053-gps-tracked-process-serving-hero.png'],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/gps-tracked-process-serving' },
   other: {

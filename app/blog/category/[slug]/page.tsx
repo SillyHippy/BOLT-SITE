@@ -64,7 +64,7 @@ export async function generateMetadata({
       type: 'website',
       images: [
         {
-          url: 'https://justlegalsolutions.org/og-image.webp',
+          url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png',
           width: 1200,
           height: 630,
           alt: `${category.name} \u2014 Just Legal Solutions Blog`,
@@ -75,7 +75,7 @@ export async function generateMetadata({
       card: 'summary_large_image',
       title,
       description,
-      images: ['https://justlegalsolutions.org/og-image.webp'],
+      images: ['https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'],
     },
     alternates: { canonical: url },
   };

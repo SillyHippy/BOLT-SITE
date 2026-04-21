@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import {
   Phone,
   Mail,
@@ -51,10 +52,10 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://justlegalsolutions.org/og-image.webp',
+        url: 'https://justlegalsolutions.org/image-pack/images/image-026-for-attorneys-og.png',
         width: 1200,
         height: 630,
-        alt: 'Just Legal Solutions - Process Serving for Attorneys in Oklahoma',
+        alt: 'Leather briefcase with legal documents on a desk next to reading glasses and a fountain pen',
       },
     ],
   },
@@ -62,7 +63,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Process Serving for Attorneys | Just Legal Solutions',
     description: 'Oklahoma process serving for law firms. Volume discounts, Net-15 billing, same-day affidavits.',
-    images: ['https://justlegalsolutions.org/og-image.webp'],
+    images: ['https://justlegalsolutions.org/image-pack/images/image-026-for-attorneys-og.png'],
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/for-attorneys',
@@ -130,6 +131,7 @@ export default function ForAttorneysPage() {
           { name: 'Home', item: 'https://justlegalsolutions.org/' },
           { name: 'For Attorneys', item: 'https://justlegalsolutions.org/for-attorneys' },
         ]}
+        image="https://justlegalsolutions.org/image-pack/images/image-026-for-attorneys-og.png"
       />
       <script
         type="application/ld+json"
@@ -139,6 +141,16 @@ export default function ForAttorneysPage() {
       {/* Hero */}
       <section className="relative bg-gradient-to-br from-slate-900 to-slate-800 text-white py-20 px-6">
         <div className="max-w-5xl mx-auto text-center">
+          <div className="relative h-52 md:h-64 max-w-4xl mx-auto rounded-2xl overflow-hidden border border-white/10 shadow-2xl mb-10">
+            <Image
+              src="/image-pack/images/image-025-for-attorneys-hero.png"
+              alt="Attorney reviewing case files in a modern Oklahoma law office"
+              fill
+              className="object-cover"
+              priority
+              sizes="(max-width: 1024px) 100vw, 56rem"
+            />
+          </div>
           <div className="inline-block bg-blue-500/20 border border-blue-400/30 text-blue-300 px-4 py-1 rounded-full text-sm font-semibold mb-6 uppercase tracking-wide">
             Built for Oklahoma Law Firms
           </div>

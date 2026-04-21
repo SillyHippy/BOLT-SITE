@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
@@ -14,7 +15,18 @@ export const metadata: Metadata = {
         title: 'Same-Day Process Server | Rush Legal Document Delivery in Oklahoma',
         description: 'Papers served TODAY for $150. Licensed Oklahoma process servers dispatched within hours. GPS-verified, court-ready affidavits.',
         type: 'website', locale: 'en_US', url: 'https://justlegalsolutions.org/same-day-process-server', siteName: 'Just Legal Solutions',
-        images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630, alt: 'Same-Day Process Server Oklahoma' }],
+        images: [{
+            url: 'https://justlegalsolutions.org/image-pack/images/image-091-same-day-process-server-og.png',
+            width: 1200,
+            height: 630,
+            alt: 'Early morning clock next to sealed legal envelope for same-day Oklahoma process serving',
+        }],
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Same-Day Process Server | Rush Legal Document Delivery in Oklahoma',
+        description: 'Papers served TODAY for $150. Licensed Oklahoma process servers dispatched within hours. GPS-verified, court-ready affidavits.',
+        images: ['https://justlegalsolutions.org/image-pack/images/image-091-same-day-process-server-og.png'],
     },
     alternates: { canonical: 'https://justlegalsolutions.org/same-day-process-server' },
     other: {
@@ -46,6 +58,17 @@ export default function SameDayProcessServerPage() {
                             <li><span className="text-gray-700">Same-Day Process Server</span></li>
                         </ol>
                     </nav>
+
+                    <div className="relative h-56 md:h-72 rounded-2xl overflow-hidden shadow-xl mb-8">
+                        <Image
+                            src="/image-pack/images/image-012-same-day-process-server-hero.png"
+                            alt="Professional courier vehicle on an Oklahoma highway at sunrise for same-day service"
+                            fill
+                            className="object-cover"
+                            priority
+                            sizes="(max-width: 1024px) 100vw, 72rem"
+                        />
+                    </div>
 
                     <div className="bg-orange-50 border-l-4 border-orange-500 p-6 rounded-r-lg mb-10">
                         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Same-Day Process Server in Oklahoma</h1>
@@ -144,7 +167,7 @@ export default function SameDayProcessServerPage() {
                 </div>
             </div>
 
-            <UnifiedSchema pageType="service" title="Same-Day Process Server Oklahoma" description="Same-day rush process serving for $150. Served within 4-8 hours. GPS-verified." url="https://justlegalsolutions.org/same-day-process-server" image="https://justlegalsolutions.org/og-image.webp" keywords={['same day process server', 'rush process serving', 'fast paper serving']} reviewCount={156} services={['Same-Day Rush Service', 'Standard Process Serving', '2-Hour Emergency Service']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'Same-Day Process Server', url: '/same-day-process-server' }]} />
+            <UnifiedSchema pageType="service" title="Same-Day Process Server Oklahoma" description="Same-day rush process serving for $150. Served within 4-8 hours. GPS-verified." url="https://justlegalsolutions.org/same-day-process-server" image="https://justlegalsolutions.org/image-pack/images/image-091-same-day-process-server-og.png" keywords={['same day process server', 'rush process serving', 'fast paper serving']} reviewCount={156} services={['Same-Day Rush Service', 'Standard Process Serving', '2-Hour Emergency Service']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'Same-Day Process Server', url: '/same-day-process-server' }]} />
         </>
     );
 }

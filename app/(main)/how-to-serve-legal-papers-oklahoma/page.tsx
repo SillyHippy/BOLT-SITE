@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
@@ -14,7 +15,18 @@ export const metadata: Metadata = {
         title: 'How to Serve Legal Papers in Oklahoma | Complete Guide (2026)',
         description: 'Everything you need to know about serving legal papers in Oklahoma. Methods, costs, who can serve, requirements, and common mistakes.',
         type: 'website', locale: 'en_US', url: 'https://justlegalsolutions.org/how-to-serve-legal-papers-oklahoma', siteName: 'Just Legal Solutions',
-        images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630, alt: 'How to Serve Legal Papers in Oklahoma' }],
+        images: [{
+            url: 'https://justlegalsolutions.org/image-pack/images/image-082-how-to-serve-legal-papers-oklahoma-og.png',
+            width: 1200,
+            height: 630,
+            alt: 'Numbered legal document packets arranged in sequence on a desk — Oklahoma service of process guide',
+        }],
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'How to Serve Legal Papers in Oklahoma | Complete Guide (2026)',
+        description: 'Everything you need to know about serving legal papers in Oklahoma. Methods, costs, who can serve, requirements, and common mistakes.',
+        images: ['https://justlegalsolutions.org/image-pack/images/image-082-how-to-serve-legal-papers-oklahoma-og.png'],
     },
     alternates: { canonical: 'https://justlegalsolutions.org/how-to-serve-legal-papers-oklahoma' },
     other: {
@@ -49,6 +61,17 @@ export default function HowToServeLegalPapersOklahomaPage() {
                             <li><span className="text-gray-700">How to Serve Legal Papers</span></li>
                         </ol>
                     </nav>
+
+                    <div className="relative h-56 md:h-72 rounded-2xl overflow-hidden shadow-xl mb-8">
+                        <Image
+                            src="/image-pack/images/image-082-how-to-serve-legal-papers-oklahoma-og.png"
+                            alt="Numbered legal document packets arranged in sequence on a desk — Oklahoma service of process guide"
+                            fill
+                            className="object-cover"
+                            priority
+                            sizes="(max-width: 1024px) 100vw, 72rem"
+                        />
+                    </div>
 
                     <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-lg mb-10">
                         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">How to Serve Legal Papers in Oklahoma</h1>
@@ -547,7 +570,7 @@ export default function HowToServeLegalPapersOklahomaPage() {
                 </div>
             </div>
 
-            <UnifiedSchema pageType="service" title="How to Serve Legal Papers in Oklahoma" description="Complete guide to serving legal papers in Oklahoma. Personal service, substituted service, service by mail, and publication. Licensed process servers from $60." url="https://justlegalsolutions.org/how-to-serve-legal-papers-oklahoma" image="https://justlegalsolutions.org/og-image.webp" keywords={['how to serve legal papers in oklahoma', 'serving court papers', 'oklahoma service of process']} reviewCount={156} services={['Personal Service', 'Document Service', 'Subpoena Service', 'Eviction Notice Service']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'How to Serve Legal Papers', url: '/how-to-serve-legal-papers-oklahoma' }]} />
+            <UnifiedSchema pageType="service" title="How to Serve Legal Papers in Oklahoma" description="Complete guide to serving legal papers in Oklahoma. Personal service, substituted service, service by mail, and publication. Licensed process servers from $60." url="https://justlegalsolutions.org/how-to-serve-legal-papers-oklahoma" image="https://justlegalsolutions.org/image-pack/images/image-082-how-to-serve-legal-papers-oklahoma-og.png" keywords={['how to serve legal papers in oklahoma', 'serving court papers', 'oklahoma service of process']} reviewCount={156} services={['Personal Service', 'Document Service', 'Subpoena Service', 'Eviction Notice Service']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'How to Serve Legal Papers', url: '/how-to-serve-legal-papers-oklahoma' }]} />
         </>
     );
 }

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { Metadata } from 'next';
 import Navbar from '../../components/ui/navbar';
 import Footer from '../../components/ui/footer';
@@ -25,10 +26,10 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     images: [
       {
-        url: 'https://justlegalsolutions.org/images/hero.webp',
-        width: 1200,
-        height: 630,
-        alt: 'Mobile Notary Services Tulsa Oklahoma'
+        url: 'https://justlegalsolutions.org/image-pack/images/image-027-notary-hero.png',
+        width: 1920,
+        height: 1080,
+        alt: 'Notary public stamping a legal document with an embosser seal'
       }
     ],
     locale: 'en_US',
@@ -38,7 +39,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Mobile Notary Tulsa OK | 24/7 In-Office & RON | Starts at $20',
     description: 'Need a notary now? Walk-in, mobile, or remote online notarization in Tulsa & Oklahoma. Notary starts at $20; process serving starts at $30. Open 24/7. Call (539) 367-6832.',
-    images: ['https://justlegalsolutions.org/images/hero.webp'],
+    images: ['https://justlegalsolutions.org/image-pack/images/image-027-notary-hero.png'],
     creator: '@ServeOK',
     site: '@ServeOK',
   },
@@ -64,7 +65,7 @@ const notaryServiceSchema = {
   "telephone": "(539) 367-6832",
   "email": "info@JustLegalSolutions.org",
   "url": "https://justlegalsolutions.org/notary",
-  "image": "https://justlegalsolutions.org/images/hero.webp",
+  "image": "https://justlegalsolutions.org/image-pack/images/image-027-notary-hero.png",
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Glenpool",
@@ -298,7 +299,17 @@ export default function NotaryPage() {
               </div>
             </div>
 
-            <div className="flex-1 max-w-md">
+            <div className="flex-1 max-w-md w-full space-y-4">
+              <div className="relative w-full h-56 sm:h-64 rounded-2xl overflow-hidden border border-white/20 shadow-xl">
+                <Image
+                  src="/image-pack/images/image-027-notary-hero.png"
+                  alt="Notary public stamping a legal document with an embosser seal"
+                  fill
+                  className="object-cover"
+                  priority
+                  sizes="(max-width: 1024px) 100vw, 28rem"
+                />
+              </div>
               <div className="bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20">
                 <div className="grid grid-cols-2 gap-4">
                   <div className="bg-white/10 rounded-lg p-4 text-center">

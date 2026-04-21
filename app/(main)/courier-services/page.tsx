@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
@@ -14,7 +15,18 @@ export const metadata: Metadata = {
         title: 'Legal Courier Services Oklahoma | Document Delivery & Court Filing',
         description: 'Courthouse filing, document pickup, secure legal document transport across Oklahoma. Same-day service available.',
         type: 'website', locale: 'en_US', url: 'https://justlegalsolutions.org/courier-services', siteName: 'Just Legal Solutions',
-        images: [{ url: 'https://justlegalsolutions.org/og-image.webp', width: 1200, height: 630, alt: 'Legal Courier Services Oklahoma' }],
+        images: [{
+            url: 'https://justlegalsolutions.org/image-pack/images/image-030-courier-services-og.png',
+            width: 1200,
+            height: 630,
+            alt: 'Sealed legal courier envelope with tamper-evident packaging for secure Oklahoma document transport',
+        }],
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Legal Courier Services Oklahoma | Document Delivery & Court Filing',
+        description: 'Courthouse filing, document pickup, secure legal document transport across Oklahoma. Same-day service available.',
+        images: ['https://justlegalsolutions.org/image-pack/images/image-030-courier-services-og.png'],
     },
     alternates: { canonical: 'https://justlegalsolutions.org/courier-services' },
     other: {
@@ -43,6 +55,17 @@ export default function CourierServicesPage() {
                             <li><span className="text-gray-700">Legal Courier Services</span></li>
                         </ol>
                     </nav>
+
+                    <div className="relative h-56 md:h-72 rounded-2xl overflow-hidden shadow-xl mb-8">
+                        <Image
+                            src="/image-pack/images/image-029-courier-services-hero.png"
+                            alt="Professional courier delivering sealed documents at a Tulsa office lobby"
+                            fill
+                            className="object-cover"
+                            priority
+                            sizes="(max-width: 1024px) 100vw, 72rem"
+                        />
+                    </div>
 
                     <div className="bg-teal-50 border-l-4 border-teal-600 p-6 rounded-r-lg mb-10">
                         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Legal Courier Services in Oklahoma</h1>
@@ -140,7 +163,7 @@ export default function CourierServicesPage() {
                 </div>
             </div>
 
-            <UnifiedSchema pageType="service" title="Legal Courier Services Oklahoma" description="Courthouse filing, document delivery, and secure legal transport across Oklahoma." url="https://justlegalsolutions.org/courier-services" image="https://justlegalsolutions.org/og-image.webp" keywords={['legal courier', 'courthouse filing', 'document delivery oklahoma']} reviewCount={156} services={['Courthouse Filing', 'Document Pickup & Delivery', 'File-Stamped Copy Returns', 'Secure Document Transport']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Courier Services', url: '/courier-services' }]} />
+            <UnifiedSchema pageType="service" title="Legal Courier Services Oklahoma" description="Courthouse filing, document delivery, and secure legal transport across Oklahoma." url="https://justlegalsolutions.org/courier-services" image="https://justlegalsolutions.org/image-pack/images/image-030-courier-services-og.png" keywords={['legal courier', 'courthouse filing', 'document delivery oklahoma']} reviewCount={156} services={['Courthouse Filing', 'Document Pickup & Delivery', 'File-Stamped Copy Returns', 'Secure Document Transport']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Courier Services', url: '/courier-services' }]} />
         </>
     );
 }

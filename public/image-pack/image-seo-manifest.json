@@ -1,0 +1,2925 @@
+{
+  "project": "Just Legal Solutions - 100 Image SEO Pack",
+  "generated_at": "2026-04-22T03:17:19.865680",
+  "website": "https://justlegalsolutions.org",
+  "total_images": 100,
+  "slot_breakdown": {
+    "hero": 40,
+    "og": 30,
+    "card": 30
+  },
+  "images": [
+    {
+      "id": 1,
+      "filename": "image-001-home-hero.png",
+      "page": "/",
+      "slot": "hero",
+      "dimensions": "1920x1080",
+      "ratio": "16:9",
+      "alt_text": "Downtown Tulsa Oklahoma skyline at golden hour with the Arkansas River",
+      "decorative": false,
+      "tags": [
+        "tulsa",
+        "skyline",
+        "oklahoma",
+        "cityscape",
+        "golden-hour",
+        "professional"
+      ],
+      "palette": [
+        "#1a2744",
+        "#d4a76a",
+        "#8b9dc3",
+        "#f5f0e8"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-001",
+      "description": "Wide cinematic aerial view of downtown Tulsa Oklahoma skyline at golden hour, warm amber light reflecting off modern glass buildings and the Arkansas River, professional documentary photography style, subtle atmospheric haze, muted tones, no text",
+      "file_size_bytes": 1828303,
+      "file_path": "images/image-001-home-hero.png"
+    },
+    {
+      "id": 2,
+      "filename": "image-002-home-og.png",
+      "page": "/",
+      "slot": "og",
+      "dimensions": "1200x630",
+      "ratio": "16:9",
+      "alt_text": "Professional process server approaching an Oklahoma courthouse entrance",
+      "decorative": false,
+      "tags": [
+        "process-server",
+        "courthouse",
+        "oklahoma",
+        "professional",
+        "legal",
+        "document-delivery"
+      ],
+      "palette": [
+        "#2c3e60",
+        "#c9b99a",
+        "#5a7a96",
+        "#e8e4dc"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-002",
+      "description": "Professional process server walking toward a modern Oklahoma courthouse entrance on a clear morning, carrying a leather portfolio, captured from behind at medium distance, documentary photography style, natural daylight, muted professional tones, no faces visible, no text",
+      "file_size_bytes": 1823585,
+      "file_path": "images/image-002-home-og.png"
+    },
+    {
+      "id": 3,
+      "filename": "image-003-home-card.png",
+      "page": "/",
+      "slot": "card",
+      "dimensions": "1200x800",
+      "ratio": "3:2",
+      "alt_text": "Organized legal documents on a professional desk with Oklahoma detail",
+      "decorative": false,
+      "tags": [
+        "legal-documents",
+        "professional",
+        "office",
+        "oklahoma",
+        "desk",
+        "paperwork"
+      ],
+      "palette": [
+        "#3d2b1f",
+        "#8b7355",
+        "#d4c5b0",
+        "#f0ebe3"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-003",
+      "description": "Close-up of neatly organized legal documents on a dark walnut desk with a silver pen and a subtle Oklahoma-shaped desk accessory, shallow depth of field, warm window light from the left, professional still life photography, muted tones, no text",
+      "file_size_bytes": 1383868,
+      "file_path": "images/image-003-home-card.png"
+    },
+    {
+      "id": 4,
+      "filename": "image-004-home-card.png",
+      "page": "/",
+      "slot": "card",
+      "dimensions": "1200x800",
+      "ratio": "3:2",
+      "alt_text": "Modern Tulsa office interior with city views through floor-to-ceiling windows",
+      "decorative": false,
+      "tags": [
+        "tulsa-office",
+        "workspace",
+        "professional",
+        "modern",
+        "oklahoma",
+        "interior"
+      ],
+      "palette": [
+        "#1e2d42",
+        "#b8a88a",
+        "#7a8fa6",
+        "#f2eee8"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-004",
+      "description": "Wide-angle view of a modern Tulsa office interior with floor-to-ceiling windows overlooking the city, minimalist professional workspace with clean lines, warm afternoon light, architectural photography style, muted sophisticated palette, no text",
+      "file_size_bytes": 1723458,
+      "file_path": "images/image-004-home-card.png"
+    },
+    {
+      "id": 5,
+      "filename": "image-005-tools-hero.png",
+      "page": "/tools",
+      "slot": "hero",
+      "dimensions": "1920x1080",
+      "ratio": "16:9",
+      "alt_text": "Digital legal tools including tablet with map interface and GPS tracking technology",
+      "decorative": false,
+      "tags": [
+        "legal-tools",
+        "technology",
+        "GPS",
+        "digital",
+        "tablet",
+        "professional",
+        "modern"
+      ],
+      "palette": [
+        "#2d3748",
+        "#4a5568",
+        "#a0aec0",
+        "#e2e8f0",
+        "#4fd1c5"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-005",
+      "description": "Overhead flat-lay of modern digital tools for legal work, tablet showing a map interface, smartphone with GPS app, stylus pen, and legal documents arranged on a dark slate surface, clean minimalist composition, soft even lighting, no text",
+      "file_size_bytes": 1696213,
+      "file_path": "images/image-005-tools-hero.png"
+    },
+    {
+      "id": 6,
+      "filename": "image-006-tools-og.png",
+      "page": "/tools",
+      "slot": "og",
+      "dimensions": "1200x630",
+      "ratio": "16:9",
+      "alt_text": "",
+      "decorative": true,
+      "tags": [
+        "digital-tools",
+        "oklahoma-map",
+        "tablet",
+        "technology",
+        "legal",
+        "navigation"
+      ],
+      "palette": [
+        "#1a202c",
+        "#4299e1",
+        "#cbd5e0",
+        "#f7fafc"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-006",
+      "description": "Close-up of hands using a touchscreen tablet to navigate a digital map of Oklahoma counties, warm ambient office lighting, shallow depth of field focused on the screen, professional documentary style, no text",
+      "file_size_bytes": 1606701,
+      "file_path": "images/image-006-tools-og.png"
+    },
+    {
+      "id": 7,
+      "filename": "image-007-pricing-hero.png",
+      "page": "/pricing",
+      "slot": "hero",
+      "dimensions": "1920x1080",
+      "ratio": "16:9",
+      "alt_text": "Transparent pricing document on clipboard with coffee on professional desk",
+      "decorative": false,
+      "tags": [
+        "pricing",
+        "transparent",
+        "professional",
+        "clipboard",
+        "office",
+        "legal-services"
+      ],
+      "palette": [
+        "#f7fafc",
+        "#718096",
+        "#a0aec0",
+        "#2d3748",
+        "#d4a76a"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-007",
+      "description": "Clean minimalist composition of a transparent pricing sheet on a clipboard next to a coffee cup on a light oak desk, soft natural window light, shallow depth of field, warm professional tones, no readable text on the pricing sheet",
+      "file_size_bytes": 1473179,
+      "file_path": "images/image-007-pricing-hero.png"
+    },
+    {
+      "id": 8,
+      "filename": "image-008-pricing-card.png",
+      "page": "/pricing",
+      "slot": "card",
+      "dimensions": "1200x800",
+      "ratio": "3:2",
+      "alt_text": "",
+      "decorative": true,
+      "tags": [
+        "handshake",
+        "trust",
+        "agreement",
+        "professional",
+        "business",
+        "legal"
+      ],
+      "palette": [
+        "#4a5568",
+        "#c9a96e",
+        "#e2e8f0",
+        "#f7fafc"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-008",
+      "description": "Professional handshake between two business people over a clean desk with blurred legal documents in background, warm neutral tones, documentary photography style, natural lighting, conveying trust and agreement, no text",
+      "file_size_bytes": 1597910,
+      "file_path": "images/image-008-pricing-card.png"
+    },
+    {
+      "id": 9,
+      "filename": "image-009-process-serving-hero.png",
+      "page": "/process-serving",
+      "slot": "hero",
+      "dimensions": "1920x1080",
+      "ratio": "16:9",
+      "alt_text": "Professional process server delivering legal documents at an Oklahoma residence",
+      "decorative": false,
+      "tags": [
+        "process-serving",
+        "document-delivery",
+        "oklahoma",
+        "professional",
+        "residential",
+        "legal"
+      ],
+      "palette": [
+        "#3d5a80",
+        "#e0c9a6",
+        "#98c1d9",
+        "#f5f3ef"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-009",
+      "description": "Professional process server in business attire handing legal documents to a recipient at a residential doorstep in suburban Oklahoma, respectful professional demeanor, warm late-afternoon light, documentary photography style, muted tones, no text",
+      "file_size_bytes": 1923630,
+      "file_path": "images/image-009-process-serving-hero.png"
+    },
+    {
+      "id": 10,
+      "filename": "image-010-process-serving-og.png",
+      "page": "/process-serving",
+      "slot": "og",
+      "dimensions": "1200x630",
+      "ratio": "16:9",
+      "alt_text": "Legal envelope being delivered through a residential mail slot",
+      "decorative": false,
+      "tags": [
+        "document-delivery",
+        "process-serving",
+        "envelope",
+        "residential",
+        "professional",
+        "oklahoma"
+      ],
+      "palette": [
+        "#2b3a4e",
+        "#d4b896",
+        "#8fa8c8",
+        "#f0ece4"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-010",
+      "description": "Close-up of a legal envelope being placed through a residential mail slot, hand visible in professional attire, shallow depth of field, warm indoor lighting spilling from the doorway, documentary photography style, no text",
+      "file_size_bytes": 1456101,
+      "file_path": "images/image-010-process-serving-og.png"
+    },
+    {
+      "id": 11,
+      "filename": "image-011-process-serving-card.png",
+      "page": "/process-serving",
+      "slot": "card",
+      "dimensions": "1200x800",
+      "ratio": "3:2",
+      "alt_text": "",
+      "decorative": true,
+      "tags": [
+        "legal-documents",
+        "organization",
+        "professional",
+        "office",
+        "folders",
+        "filing"
+      ],
+      "palette": [
+        "#4a5568",
+        "#a0aec0",
+        "#d4c5b0",
+        "#e8e0d4"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-011",
+      "description": "Row of organized legal document folders in different colors on a shelf in a professional office, shallow depth of field, clean and orderly, warm ambient lighting, professional still life, muted tones, no text",
+      "file_size_bytes": 1463466,
+      "file_path": "images/image-011-process-serving-card.png"
+    },
+    {
+      "id": 12,
+      "filename": "image-012-same-day-process-server-hero.png",
+      "page": "/same-day-process-server",
+      "slot": "hero",
+      "dimensions": "1920x1080",
+      "ratio": "16:9",
+      "alt_text": "Professional courier vehicle on an Oklahoma highway at sunrise for same-day service",
+      "decorative": false,
+      "tags": [
+        "same-day",
+        "courier",
+        "oklahoma",
+        "highway",
+        "speed",
+        "urgent",
+        "professional"
+      ],
+      "palette": [
+        "#1a2744",
+        "#e8a948",
+        "#7a9cc6",
+        "#f0ebe0"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-012",
+      "description": "Professional courier vehicle driving on an Oklahoma highway at sunrise, motion blur suggesting speed and urgency, Tulsa skyline visible in the distance, documentary photography style, warm golden light, muted tones, no readable license plate or logos",
+      "file_size_bytes": 1571575,
+      "file_path": "images/image-012-same-day-process-server-hero.png"
+    },
+    {
+      "id": 13,
+      "filename": "image-013-same-day-process-server-og.png",
+      "page": "/same-day-process-server",
+      "slot": "og",
+      "dimensions": "1200x630",
+      "ratio": "16:9",
+      "alt_text": "",
+      "decorative": true,
+      "tags": [
+        "same-day",
+        "urgent",
+        "early-morning",
+        "smartphone",
+        "legal-envelope",
+        "timely"
+      ],
+      "palette": [
+        "#2d3748",
+        "#f6ad55",
+        "#718096",
+        "#fefcbf"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-013",
+      "description": "Close-up of a digital clock on a smartphone showing early morning hour next to a sealed legal envelope on a car dashboard, warm sunrise light through windshield, shallow depth of field, documentary style, no text",
+      "file_size_bytes": 1531131,
+      "file_path": "images/image-013-same-day-process-server-og.png"
+    },
+    {
+      "id": 14,
+      "filename": "image-014-same-day-process-server-card.png",
+      "page": "/same-day-process-server",
+      "slot": "card",
+      "dimensions": "1200x800",
+      "ratio": "3:2",
+      "alt_text": "Process server walking with purpose on a downtown Tulsa sidewalk",
+      "decorative": false,
+      "tags": [
+        "same-day",
+        "process-server",
+        "tulsa",
+        "downtown",
+        "urgent",
+        "professional"
+      ],
+      "palette": [
+        "#3d5a80",
+        "#e0c9a6",
+        "#98c1d9",
+        "#f5f3ef"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-014",
+      "description": "Process server walking quickly along a downtown Tulsa sidewalk carrying a leather portfolio, captured mid-stride with purpose, warm morning light, motion blur in background, documentary photography, muted professional tones, no text",
+      "file_size_bytes": 1610083,
+      "file_path": "images/image-014-same-day-process-server-card.png"
+    },
+    {
+      "id": 15,
+      "filename": "image-015-urgent-process-server-hero.png",
+      "page": "/urgent-process-server",
+      "slot": "hero",
+      "dimensions": "1920x1080",
+      "ratio": "16:9",
+      "alt_text": "Professional entering Tulsa County Courthouse at dawn for urgent service",
+      "decorative": false,
+      "tags": [
+        "urgent",
+        "courthouse",
+        "tulsa-county",
+        "dawn",
+        "professional",
+        "legal",
+        "oklahoma"
+      ],
+      "palette": [
+        "#1a2744",
+        "#d4a76a",
+        "#6b8299",
+        "#f0ece4"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-015",
+      "description": "Dramatic low-angle shot of a professional entering the Tulsa County Courthouse through tall columns at dawn, long shadows on the marble steps, warm sunrise light, architectural documentary style, muted tones, conveying urgency and professionalism, no text",
+      "file_size_bytes": 1793598,
+      "file_path": "images/image-015-urgent-process-server-hero.png"
+    },
+    {
+      "id": 16,
+      "filename": "image-016-urgent-process-server-card.png",
+      "page": "/urgent-process-server",
+      "slot": "card",
+      "dimensions": "1200x800",
+      "ratio": "3:2",
+      "alt_text": "",
+      "decorative": true,
+      "tags": [
+        "urgent",
+        "documents",
+        "stamps",
+        "legal",
+        "official",
+        "time-sensitive"
+      ],
+      "palette": [
+        "#742a2a",
+        "#2b3a4e",
+        "#d4b896",
+        "#f0ece4"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-016",
+      "description": "Close-up of urgent document stamps and seals on legal paperwork, red and blue ink impressions, shallow depth of field, professional document photography, warm neutral tones, no readable text, abstract composition",
+      "file_size_bytes": 1570482,
+      "file_path": "images/image-016-urgent-process-server-card.png"
+    },
+    {
+      "id": 17,
+      "filename": "image-017-skip-tracing-hero.png",
+      "page": "/skip-tracing",
+      "slot": "hero",
+      "dimensions": "1920x1080",
+      "ratio": "16:9",
+      "alt_text": "Aerial view of Oklahoma suburban neighborhood street network for skip tracing",
+      "decorative": false,
+      "tags": [
+        "skip-tracing",
+        "investigation",
+        "oklahoma",
+        "neighborhood",
+        "aerial",
+        "network"
+      ],
+      "palette": [
+        "#4a5568",
+        "#a0aec0",
+        "#c9a96e",
+        "#e2e8f0"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-017",
+      "description": "Abstract aerial view of an Oklahoma suburban neighborhood with interconnected streets forming a network pattern, warm late afternoon light, muted tones suggesting investigation and connection, documentary photography style, no text",
+      "file_size_bytes": 2413100,
+      "file_path": "images/image-017-skip-tracing-hero.png"
+    },
+    {
+      "id": 18,
+      "filename": "image-018-skip-tracing-og.png",
+      "page": "/skip-tracing",
+      "slot": "og",
+      "dimensions": "1200x630",
+      "ratio": "16:9",
+      "alt_text": "",
+      "decorative": true,
+      "tags": [
+        "skip-tracing",
+        "investigation",
+        "technology",
+        "monitors",
+        "data",
+        "professional"
+      ],
+      "palette": [
+        "#1a202c",
+        "#4299e1",
+        "#718096",
+        "#a0aec0"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-018",
+      "description": "Investigator desk with multiple computer monitors displaying maps and data searches, keyboard, and coffee cup, dark ambient lighting with monitor glow, documentary photography style, professional and serious tone, no readable screen text",
+      "file_size_bytes": 1618958,
+      "file_path": "images/image-018-skip-tracing-og.png"
+    },
+    {
+      "id": 19,
+      "filename": "image-019-skip-tracing-card.png",
+      "page": "/skip-tracing",
+      "slot": "card",
+      "dimensions": "1200x800",
+      "ratio": "3:2",
+      "alt_text": "",
+      "decorative": true,
+      "tags": [
+        "skip-tracing",
+        "investigation",
+        "map",
+        "oklahoma",
+        "magnifying-glass",
+        "location"
+      ],
+      "palette": [
+        "#3d2b1f",
+        "#8b7355",
+        "#d4c5b0",
+        "#f5deb3"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-019",
+      "description": "Magnifying glass held over an Oklahoma county map on a desk, warm desk lamp lighting, shallow depth of field, professional investigation aesthetic, muted warm tones, documentary photography style, no text",
+      "file_size_bytes": 1713957,
+      "file_path": "images/image-019-skip-tracing-card.png"
+    },
+    {
+      "id": 20,
+      "filename": "image-020-subpoena-service-hero.png",
+      "page": "/subpoena-service",
+      "slot": "hero",
+      "dimensions": "1920x1080",
+      "ratio": "16:9",
+      "alt_text": "Professional reviewing subpoena documents at a modern conference table in Oklahoma",
+      "decorative": false,
+      "tags": [
+        "subpoena",
+        "legal-documents",
+        "professional",
+        "conference-room",
+        "oklahoma",
+        "review"
+      ],
+      "palette": [
+        "#2c3e60",
+        "#b8a88a",
+        "#7a8fa6",
+        "#f2eee8"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-020",
+      "description": "Professional woman in business attire reviewing legal documents at a modern glass conference table, Oklahoma cityscape visible through floor-to-ceiling windows behind her, warm natural light, documentary photography style, muted professional tones, no text",
+      "file_size_bytes": 1569069,
+      "file_path": "images/image-020-subpoena-service-hero.png"
+    },
+    {
+      "id": 21,
+      "filename": "image-021-subpoena-service-card.png",
+      "page": "/subpoena-service",
+      "slot": "card",
+      "dimensions": "1200x800",
+      "ratio": "3:2",
+      "alt_text": "",
+      "decorative": true,
+      "tags": [
+        "subpoena",
+        "legal-documents",
+        "official",
+        "desk",
+        "professional",
+        "documents"
+      ],
+      "palette": [
+        "#2b3a4e",
+        "#7a8fa6",
+        "#c9a96e",
+        "#e8e0d4"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-021",
+      "description": "Stack of official legal documents with a blue ribbon binder on a dark mahogany desk, warm side lighting creating depth, shallow depth of field, professional still life photography, muted sophisticated tones, no text",
+      "file_size_bytes": 1543242,
+      "file_path": "images/image-021-subpoena-service-card.png"
+    },
+    {
+      "id": 22,
+      "filename": "image-022-tulsa-process-server-hero.png",
+      "page": "/tulsa-process-server",
+      "slot": "hero",
+      "dimensions": "1920x1080",
+      "ratio": "16:9",
+      "alt_text": "Tulsa Oklahoma downtown skyline with BOK Tower at sunset and Arkansas River",
+      "decorative": false,
+      "tags": [
+        "tulsa",
+        "skyline",
+        "oklahoma",
+        "BOK-tower",
+        "downtown",
+        "sunset",
+        "local"
+      ],
+      "palette": [
+        "#1a2744",
+        "#d4a76a",
+        "#7a8fa6",
+        "#e8e4dc"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-022",
+      "description": "Iconic view of the Tulsa Oklahoma downtown skyline featuring the BOK Tower and golden driller vicinity, warm sunset light reflecting off buildings, Arkansas River in foreground, documentary photography style, muted warm tones, no text",
+      "file_size_bytes": 1817154,
+      "file_path": "images/image-022-tulsa-process-server-hero.png"
+    },
+    {
+      "id": 23,
+      "filename": "image-023-tulsa-process-server-og.png",
+      "page": "/tulsa-process-server",
+      "slot": "og",
+      "dimensions": "1200x630",
+      "ratio": "16:9",
+      "alt_text": "Tulsa Arts District street scene with professional walking on the sidewalk",
+      "decorative": false,
+      "tags": [
+        "tulsa",
+        "arts-district",
+        "downtown",
+        "oklahoma",
+        "urban",
+        "professional"
+      ],
+      "palette": [
+        "#5a4a3a",
+        "#b8a88a",
+        "#7a8fa6",
+        "#e2d8c8"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-023",
+      "description": "Street-level view of the Tulsa Arts District with historic brick buildings and modern signage, professional walking on the sidewalk with a portfolio, warm afternoon light, documentary photography style, muted urban tones, no readable signs",
+      "file_size_bytes": 1901947,
+      "file_path": "images/image-023-tulsa-process-server-og.png"
+    },
+    {
+      "id": 24,
+      "filename": "image-024-tulsa-process-server-card.png",
+      "page": "/tulsa-process-server",
+      "slot": "card",
+      "dimensions": "1200x800",
+      "ratio": "3:2",
+      "alt_text": "Historic Tulsa County Courthouse exterior with classical architecture",
+      "decorative": false,
+      "tags": [
+        "tulsa-county",
+        "courthouse",
+        "historic",
+        "architecture",
+        "oklahoma",
+        "legal"
+      ],
+      "palette": [
+        "#4a5568",
+        "#a0aec0",
+        "#d4c5b0",
+        "#e8f0f8"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-024",
+      "description": "Historic Tulsa County Courthouse exterior with classic architecture and columns, warm morning light casting soft shadows, blue sky with wispy clouds, architectural documentary photography, muted professional tones, no text",
+      "file_size_bytes": 1947370,
+      "file_path": "images/image-024-tulsa-process-server-card.png"
+    },
+    {
+      "id": 25,
+      "filename": "image-025-for-attorneys-hero.png",
+      "page": "/for-attorneys",
+      "slot": "hero",
+      "dimensions": "1920x1080",
+      "ratio": "16:9",
+      "alt_text": "Attorney reviewing case files in a modern Oklahoma law office",
+      "decorative": false,
+      "tags": [
+        "attorney",
+        "law-office",
+        "oklahoma",
+        "legal-professional",
+        "case-files",
+        "law-firm"
+      ],
+      "palette": [
+        "#2c3e60",
+        "#b8a88a",
+        "#7a8fa6",
+        "#f2eee8"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-025",
+      "description": "Professional attorney in a modern Oklahoma law office reviewing case files at a large desk with multiple monitors showing legal software, warm ambient lighting, bookshelf with law volumes in background, documentary photography style, muted tones, no text",
+      "file_size_bytes": 1634873,
+      "file_path": "images/image-025-for-attorneys-hero.png"
+    },
+    {
+      "id": 26,
+      "filename": "image-026-for-attorneys-og.png",
+      "page": "/for-attorneys",
+      "slot": "og",
+      "dimensions": "1200x630",
+      "ratio": "3:2",
+      "alt_text": "",
+      "decorative": true,
+      "tags": [
+        "attorney",
+        "briefcase",
+        "legal-documents",
+        "professional",
+        "desk",
+        "accessories"
+      ],
+      "palette": [
+        "#3d2b1f",
+        "#8b7355",
+        "#c9a96e",
+        "#f0ebe3"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-026",
+      "description": "Close-up of a leather briefcase with legal documents visible inside, sitting on a polished desk next to reading glasses and a fountain pen, warm window light, shallow depth of field, professional still life, muted tones, no text",
+      "file_size_bytes": 1580199,
+      "file_path": "images/image-026-for-attorneys-og.png"
+    },
+    {
+      "id": 27,
+      "filename": "image-027-notary-hero.png",
+      "page": "/notary",
+      "slot": "hero",
+      "dimensions": "1920x1080",
+      "ratio": "16:9",
+      "alt_text": "Notary public stamping a legal document with an embosser seal",
+      "decorative": false,
+      "tags": [
+        "notary",
+        "notary-public",
+        "legal",
+        "document-stamping",
+        "professional",
+        "oklahoma"
+      ],
+      "palette": [
+        "#4a5568",
+        "#c9a96e",
+        "#e2e8f0",
+        "#f7fafc"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-027",
+      "description": "Professional notary public stamping a document at a clean modern desk, close-up of the hand pressing a notary seal embosser onto paper, warm natural lighting, shallow depth of field, documentary photography style, muted professional tones, no text",
+      "file_size_bytes": 1468960,
+      "file_path": "images/image-027-notary-hero.png"
+    },
+    {
+      "id": 28,
+      "filename": "image-028-notary-card.png",
+      "page": "/notary",
+      "slot": "card",
+      "dimensions": "1200x800",
+      "ratio": "3:2",
+      "alt_text": "",
+      "decorative": true,
+      "tags": [
+        "notary",
+        "journal",
+        "official-seal",
+        "desk",
+        "professional",
+        "record-keeping"
+      ],
+      "palette": [
+        "#3d2b1f",
+        "#8b7355",
+        "#d4c5b0",
+        "#f0ebe3"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-028",
+      "description": "Notary journal open on a desk with an official seal stamp beside it, warm desk lamp lighting, clean professional composition, shallow depth of field, muted warm tones, still life photography style, no readable text",
+      "file_size_bytes": 1623255,
+      "file_path": "images/image-028-notary-card.png"
+    },
+    {
+      "id": 29,
+      "filename": "image-029-courier-services-hero.png",
+      "page": "/courier-services",
+      "slot": "hero",
+      "dimensions": "1920x1080",
+      "ratio": "16:9",
+      "alt_text": "Professional courier delivering sealed documents at a Tulsa office lobby",
+      "decorative": false,
+      "tags": [
+        "courier",
+        "document-delivery",
+        "tulsa",
+        "office",
+        "professional",
+        "secure"
+      ],
+      "palette": [
+        "#2c3e60",
+        "#b8a88a",
+        "#7a8fa6",
+        "#f2eee8"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-029",
+      "description": "Professional courier handing a sealed document envelope to a business receptionist at a modern office lobby in Tulsa, warm natural light from large windows, documentary photography style, muted professional tones, no text",
+      "file_size_bytes": 1596982,
+      "file_path": "images/image-029-courier-services-hero.png"
+    },
+    {
+      "id": 30,
+      "filename": "image-030-courier-services-og.png",
+      "page": "/courier-services",
+      "slot": "og",
+      "dimensions": "1200x630",
+      "ratio": "16:9",
+      "alt_text": "",
+      "decorative": true,
+      "tags": [
+        "courier",
+        "secure-envelope",
+        "tamper-evident",
+        "professional",
+        "document-security",
+        "sealed"
+      ],
+      "palette": [
+        "#2d3748",
+        "#a0aec0",
+        "#e2e8f0",
+        "#718096"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-030",
+      "description": "Sealed tamper-evident envelope on a metallic courier tray, close-up macro shot, clean professional lighting, shallow depth of field, muted cool tones, professional product photography style, no text",
+      "file_size_bytes": 1475560,
+      "file_path": "images/image-030-courier-services-og.png"
+    },
+    {
+      "id": 31,
+      "filename": "image-031-service-areas-hero.png",
+      "page": "/service-areas",
+      "slot": "hero",
+      "dimensions": "1920x1080",
+      "ratio": "16:9",
+      "alt_text": "Map of Oklahoma counties with Tulsa County highlighted on a wooden table",
+      "decorative": false,
+      "tags": [
+        "oklahoma",
+        "map",
+        "counties",
+        "tulsa-county",
+        "service-areas",
+        "coverage"
+      ],
+      "palette": [
+        "#4a3f35",
+        "#c9a96e",
+        "#8fa8c8",
+        "#e2d8c8"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-031",
+      "description": "Map of Oklahoma with highlighted county boundaries spread on a wooden table with a hand pointing to Tulsa County, warm overhead lighting, shallow depth of field on the hand, documentary photography style, muted warm tones, no readable text on map",
+      "file_size_bytes": 1611699,
+      "file_path": "images/image-031-service-areas-hero.png"
+    },
+    {
+      "id": 32,
+      "filename": "image-032-service-areas-card.png",
+      "page": "/service-areas",
+      "slot": "card",
+      "dimensions": "1200x800",
+      "ratio": "3:2",
+      "alt_text": "Aerial view of a small Oklahoma town with main street and prairie landscape",
+      "decorative": false,
+      "tags": [
+        "oklahoma",
+        "small-town",
+        "aerial",
+        "main-street",
+        "statewide",
+        "coverage"
+      ],
+      "palette": [
+        "#5a4a3a",
+        "#b8a88a",
+        "#7a9a6a",
+        "#e8e0d4"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-032",
+      "description": "Aerial view of a small Oklahoma town with main street, historic buildings, and surrounding prairie landscape, warm golden hour light, documentary photography style, muted earthy tones, conveying statewide coverage, no text",
+      "file_size_bytes": 1974086,
+      "file_path": "images/image-032-service-areas-card.png"
+    },
+    {
+      "id": 33,
+      "filename": "image-033-mobile-notary-tulsa-hero.png",
+      "page": "/mobile-notary-tulsa",
+      "slot": "hero",
+      "dimensions": "1920x1080",
+      "ratio": "16:9",
+      "alt_text": "Mobile notary meeting with client at their home kitchen table reviewing documents",
+      "decorative": false,
+      "tags": [
+        "mobile-notary",
+        "home-visit",
+        "tulsa",
+        "client-meeting",
+        "professional",
+        "convenient"
+      ],
+      "palette": [
+        "#5a4a3a",
+        "#d4c5b0",
+        "#8fa8c8",
+        "#f5f0e8"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-033",
+      "description": "Professional mobile notary meeting with a client at their home, sitting at a kitchen table reviewing documents together, warm domestic lighting, friendly professional atmosphere, documentary photography style, muted warm tones, no text",
+      "file_size_bytes": 1743586,
+      "file_path": "images/image-033-mobile-notary-tulsa-hero.png"
+    },
+    {
+      "id": 34,
+      "filename": "image-034-mobile-notary-tulsa-og.png",
+      "page": "/mobile-notary-tulsa",
+      "slot": "og",
+      "dimensions": "1200x630",
+      "ratio": "3:2",
+      "alt_text": "Mobile notary professional entering vehicle for a client appointment in Tulsa",
+      "decorative": false,
+      "tags": [
+        "mobile-notary",
+        "travel",
+        "vehicle",
+        "tulsa",
+        "appointment",
+        "professional"
+      ],
+      "palette": [
+        "#4a5568",
+        "#a0aec0",
+        "#c9a96e",
+        "#e2e8f0"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-034",
+      "description": "Professional woman getting into a clean sedan vehicle with a leather portfolio, suburban Tulsa neighborhood in background, warm morning light, documentary photography style suggesting mobile service travel, muted tones, no text",
+      "file_size_bytes": 1761139,
+      "file_path": "images/image-034-mobile-notary-tulsa-og.png"
+    },
+    {
+      "id": 35,
+      "filename": "image-035-apostille-hero.png",
+      "page": "/apostille",
+      "slot": "hero",
+      "dimensions": "1920x1080",
+      "ratio": "16:9",
+      "alt_text": "Oklahoma government building exterior with American and Oklahoma state flags",
+      "decorative": false,
+      "tags": [
+        "apostille",
+        "government",
+        "oklahoma",
+        "official",
+        "flags",
+        "legalization"
+      ],
+      "palette": [
+        "#1a2744",
+        "#b22234",
+        "#f0f0f0",
+        "#7a8fa6"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-035",
+      "description": "Official government building exterior with American and Oklahoma state flags flying, warm morning light, classical architecture with columns, blue sky, documentary architectural photography, muted professional tones, no text",
+      "file_size_bytes": 1619385,
+      "file_path": "images/image-035-apostille-hero.png"
+    },
+    {
+      "id": 36,
+      "filename": "image-036-apostille-og.png",
+      "page": "/apostille",
+      "slot": "og",
+      "dimensions": "1200x630",
+      "ratio": "3:2",
+      "alt_text": "",
+      "decorative": true,
+      "tags": [
+        "apostille",
+        "certificate",
+        "gold-seal",
+        "official",
+        "document",
+        "authentication"
+      ],
+      "palette": [
+        "#c9a96e",
+        "#2b3a4e",
+        "#d4c5b0",
+        "#f0ece4"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-036",
+      "description": "Close-up of an apostille certificate attached to a legal document with gold seal and ribbon, warm side lighting, shallow depth of field, professional document photography, muted sophisticated tones, no readable text",
+      "file_size_bytes": 1550685,
+      "file_path": "images/image-036-apostille-og.png"
+    },
+    {
+      "id": 37,
+      "filename": "image-037-divorce-paper-service-hero.png",
+      "page": "/divorce-paper-service",
+      "slot": "hero",
+      "dimensions": "1920x1080",
+      "ratio": "16:9",
+      "alt_text": "Mediation setting with two parties and neutral professional at a table",
+      "decorative": false,
+      "tags": [
+        "divorce",
+        "mediation",
+        "sensitive",
+        "professional",
+        "family-law",
+        "respectful"
+      ],
+      "palette": [
+        "#5a5a5a",
+        "#d4c5b0",
+        "#8fa8c8",
+        "#f0ece4"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-037",
+      "description": "Two people sitting across from each other at a mediation table with a neutral professional in the middle, soft diffused lighting through frosted windows, conveying sensitive and respectful service, documentary photography style, muted warm tones, no text",
+      "file_size_bytes": 1553870,
+      "file_path": "images/image-037-divorce-paper-service-hero.png"
+    },
+    {
+      "id": 38,
+      "filename": "image-038-divorce-paper-service-og.png",
+      "page": "/divorce-paper-service",
+      "slot": "og",
+      "dimensions": "1200x630",
+      "ratio": "16:9",
+      "alt_text": "",
+      "decorative": true,
+      "tags": [
+        "divorce",
+        "process-server",
+        "sensitive-documents",
+        "professional",
+        "careful",
+        "discreet"
+      ],
+      "palette": [
+        "#4a5568",
+        "#b8a88a",
+        "#a0aec0",
+        "#f2eee8"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-038",
+      "description": "Professional process server handling a sealed envelope with care at a clean desk, close-up showing professional respect for sensitive documents, warm soft lighting, shallow depth of field, documentary style, muted tones, no text",
+      "file_size_bytes": 1462308,
+      "file_path": "images/image-038-divorce-paper-service-og.png"
+    },
+    {
+      "id": 39,
+      "filename": "image-039-eviction-notice-service-hero.png",
+      "page": "/eviction-notice-service",
+      "slot": "hero",
+      "dimensions": "1920x1080",
+      "ratio": "16:9",
+      "alt_text": "Professional process server at an Oklahoma apartment complex for eviction notice service",
+      "decorative": false,
+      "tags": [
+        "eviction",
+        "apartment-complex",
+        "oklahoma",
+        "residential",
+        "professional",
+        "notice"
+      ],
+      "palette": [
+        "#5a4a3a",
+        "#b8a88a",
+        "#7a9a6a",
+        "#e8e0d4"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-039",
+      "description": "Professional serving documents at an apartment complex in Oklahoma, modern residential building exterior with well-maintained landscaping, warm afternoon light, respectful professional demeanor, documentary photography style, muted tones, no text",
+      "file_size_bytes": 1879312,
+      "file_path": "images/image-039-eviction-notice-service-hero.png"
+    },
+    {
+      "id": 40,
+      "filename": "image-040-eviction-notice-service-og.png",
+      "page": "/eviction-notice-service",
+      "slot": "og",
+      "dimensions": "1200x630",
+      "ratio": "3:2",
+      "alt_text": "",
+      "decorative": true,
+      "tags": [
+        "eviction",
+        "notice",
+        "door-posting",
+        "residential",
+        "service-method",
+        "legal"
+      ],
+      "palette": [
+        "#4a3f35",
+        "#c9a96e",
+        "#a0aec0",
+        "#e2d8c8"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-040",
+      "description": "Close-up of a notice taped to a residential door, shallow depth of field with the door texture in focus, warm neutral tones, documentary photography style showing proper service method, no readable text on the notice",
+      "file_size_bytes": 1478131,
+      "file_path": "images/image-040-eviction-notice-service-og.png"
+    },
+    {
+      "id": 41,
+      "filename": "image-041-contact-hero.png",
+      "page": "/contact",
+      "slot": "hero",
+      "dimensions": "1920x1080",
+      "ratio": "16:9",
+      "alt_text": "Modern professional office reception area with Tulsa city view",
+      "decorative": false,
+      "tags": [
+        "contact",
+        "reception",
+        "office",
+        "tulsa",
+        "welcoming",
+        "professional",
+        "interior"
+      ],
+      "palette": [
+        "#4a5568",
+        "#c9a96e",
+        "#7a9a6a",
+        "#f7fafc"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-041",
+      "description": "Modern professional office reception area with comfortable seating, fresh plants, and warm lighting, Tulsa city view through large windows, welcoming atmosphere, interior documentary photography style, muted warm tones, no text",
+      "file_size_bytes": 1840487,
+      "file_path": "images/image-041-contact-hero.png"
+    },
+    {
+      "id": 42,
+      "filename": "image-042-about-hero.png",
+      "page": "/about",
+      "slot": "hero",
+      "dimensions": "1920x1080",
+      "ratio": "16:9",
+      "alt_text": "Professional team members in a modern Oklahoma office environment",
+      "decorative": false,
+      "tags": [
+        "team",
+        "about",
+        "professionals",
+        "oklahoma",
+        "office",
+        "diverse"
+      ],
+      "palette": [
+        "#2c3e60",
+        "#b8a88a",
+        "#7a8fa6",
+        "#f2eee8"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-042",
+      "description": "Group of diverse professional team members in business casual attire standing confidently in a modern Oklahoma office with city views, warm natural light, team portrait style but documentary and authentic, muted professional tones, no text",
+      "file_size_bytes": 1773696,
+      "file_path": "images/image-042-about-hero.png"
+    },
+    {
+      "id": 43,
+      "filename": "image-043-blog-hero.png",
+      "page": "/blog",
+      "slot": "hero",
+      "dimensions": "1920x1080",
+      "ratio": "16:9",
+      "alt_text": "Content workspace with laptop, notepad, and legal reference books for blog writing",
+      "decorative": false,
+      "tags": [
+        "blog",
+        "content",
+        "workspace",
+        "writing",
+        "legal",
+        "professional",
+        "creative"
+      ],
+      "palette": [
+        "#4a3f35",
+        "#d4c5b0",
+        "#7a8fa6",
+        "#f5f0e8"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-043",
+      "description": "Overhead view of a content creator workspace with laptop showing a blog editor, notepad with handwritten notes, coffee cup, and reference books on legal topics, warm natural lighting, clean composition, muted tones, no readable screen text",
+      "file_size_bytes": 1633276,
+      "file_path": "images/image-043-blog-hero.png"
+    },
+    {
+      "id": 44,
+      "filename": "image-044-reviews-hero.png",
+      "page": "/reviews",
+      "slot": "hero",
+      "dimensions": "1920x1080",
+      "ratio": "16:9",
+      "alt_text": "Satisfied client shaking hands with service provider in a bright modern office",
+      "decorative": false,
+      "tags": [
+        "reviews",
+        "client-satisfaction",
+        "handshake",
+        "trust",
+        "professional",
+        "testimonial"
+      ],
+      "palette": [
+        "#5a4a3a",
+        "#c9a96e",
+        "#7a9a6a",
+        "#f5f0e8"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-044",
+      "description": "Happy professional client shaking hands with a service provider in a bright modern office, both smiling warmly, natural daylight from large windows, documentary photography style conveying satisfaction and trust, muted warm tones, no text",
+      "file_size_bytes": 1600001,
+      "file_path": "images/image-044-reviews-hero.png"
+    },
+    {
+      "id": 45,
+      "filename": "image-045-oklahoma-process-server-faq-og.png",
+      "page": "/oklahoma-process-server-faq",
+      "slot": "og",
+      "dimensions": "1200x630",
+      "ratio": "3:2",
+      "alt_text": "",
+      "decorative": true,
+      "tags": [
+        "FAQ",
+        "questions",
+        "help",
+        "document",
+        "professional",
+        "information"
+      ],
+      "palette": [
+        "#4a5568",
+        "#a0aec0",
+        "#d4c5b0",
+        "#f7fafc"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-045",
+      "description": "Close-up of a FAQ document with question mark symbol, clean desk surface, warm natural lighting, professional document photography, shallow depth of field, muted warm tones, no readable text",
+      "file_size_bytes": 1412126,
+      "file_path": "images/image-045-oklahoma-process-server-faq-og.png"
+    },
+    {
+      "id": 46,
+      "filename": "image-046-oklahoma-process-server-laws-hero.png",
+      "page": "/oklahoma-process-server-laws",
+      "slot": "hero",
+      "dimensions": "1920x1080",
+      "ratio": "3:2",
+      "alt_text": "Oklahoma State Capitol building exterior with dome and columns",
+      "decorative": false,
+      "tags": [
+        "oklahoma",
+        "state-capitol",
+        "laws",
+        "legal",
+        "government",
+        "authority"
+      ],
+      "palette": [
+        "#1a2744",
+        "#c9a96e",
+        "#7a8fa6",
+        "#f0ece4"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-046",
+      "description": "Oklahoma State Capitol building exterior with dome and columns, warm afternoon light, blue sky, architectural documentary photography, muted professional tones, conveying legal authority, no text",
+      "file_size_bytes": 1856598,
+      "file_path": "images/image-046-oklahoma-process-server-laws-hero.png"
+    },
+    {
+      "id": 47,
+      "filename": "image-047-oklahoma-process-server-pricing-og.png",
+      "page": "/oklahoma-process-server-pricing",
+      "slot": "og",
+      "dimensions": "1200x630",
+      "ratio": "3:2",
+      "alt_text": "",
+      "decorative": true,
+      "tags": [
+        "pricing",
+        "calculator",
+        "chart",
+        "professional",
+        "transparent",
+        "cost"
+      ],
+      "palette": [
+        "#2d3748",
+        "#c9a96e",
+        "#a0aec0",
+        "#f7fafc"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-047",
+      "description": "Clean pricing chart printed on premium paper next to a calculator on a dark desk, warm side lighting, professional still life photography, shallow depth of field, muted sophisticated tones, no readable numbers",
+      "file_size_bytes": 1433825,
+      "file_path": "images/image-047-oklahoma-process-server-pricing-og.png"
+    },
+    {
+      "id": 48,
+      "filename": "image-048-law-firm-services-hero.png",
+      "page": "/law-firm-services",
+      "slot": "hero",
+      "dimensions": "1920x1080",
+      "ratio": "16:9",
+      "alt_text": "Modern law firm conference room with glass table and law book library",
+      "decorative": false,
+      "tags": [
+        "law-firm",
+        "conference-room",
+        "professional",
+        "legal",
+        "interior",
+        "bookshelves"
+      ],
+      "palette": [
+        "#3d2b1f",
+        "#8b7355",
+        "#c9a96e",
+        "#f0ebe3"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-048",
+      "description": "Modern law firm conference room with long glass table, leather chairs, and built-in bookshelves with law volumes, warm ambient lighting, city view through blinds, interior architectural photography, muted professional tones, no text",
+      "file_size_bytes": 1800975,
+      "file_path": "images/image-048-law-firm-services-hero.png"
+    },
+    {
+      "id": 49,
+      "filename": "image-049-virtual-assistant-services-og.png",
+      "page": "/virtual-assistant-services",
+      "slot": "og",
+      "dimensions": "1200x630",
+      "ratio": "3:2",
+      "alt_text": "Modern professional home office with dual monitors and headset for virtual assistance",
+      "decorative": false,
+      "tags": [
+        "virtual-assistant",
+        "remote-work",
+        "home-office",
+        "technology",
+        "professional",
+        "organized"
+      ],
+      "palette": [
+        "#4a5568",
+        "#7a9a6a",
+        "#c9a96e",
+        "#f0ece4"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-049",
+      "description": "Modern home office setup with dual monitors, professional headset, and organized desk in a bright room with plants, natural window light, remote work aesthetic, documentary photography style, muted warm tones, no text",
+      "file_size_bytes": 1747196,
+      "file_path": "images/image-049-virtual-assistant-services-og.png"
+    },
+    {
+      "id": 50,
+      "filename": "image-050-payments-og.png",
+      "page": "/payments",
+      "slot": "og",
+      "dimensions": "1200x630",
+      "ratio": "3:2",
+      "alt_text": "",
+      "decorative": true,
+      "tags": [
+        "payments",
+        "credit-card",
+        "checkbook",
+        "professional",
+        "secure",
+        "billing"
+      ],
+      "palette": [
+        "#f7fafc",
+        "#718096",
+        "#c9a96e",
+        "#e2e8f0"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-050",
+      "description": "Clean arrangement of payment method icons concept - credit card, digital wallet, and checkbook on a white desk surface, minimal professional styling, soft even lighting, muted tones, no readable card numbers",
+      "file_size_bytes": 1259301,
+      "file_path": "images/image-050-payments-og.png"
+    },
+    {
+      "id": 51,
+      "filename": "image-051-downloads-card.png",
+      "page": "/downloads",
+      "slot": "card",
+      "dimensions": "1200x800",
+      "ratio": "3:2",
+      "alt_text": "",
+      "decorative": true,
+      "tags": [
+        "downloads",
+        "forms",
+        "templates",
+        "PDF",
+        "documents",
+        "professional"
+      ],
+      "palette": [
+        "#4a5568",
+        "#a0aec0",
+        "#d4c5b0",
+        "#f7fafc"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-051",
+      "description": "Stack of printed PDF forms and document templates on a desk with a download arrow sticker visible, warm office lighting, professional document photography, muted warm tones, no readable text on forms",
+      "file_size_bytes": 1684721,
+      "file_path": "images/image-051-downloads-card.png"
+    },
+    {
+      "id": 52,
+      "filename": "image-052-glossary-og.png",
+      "page": "/glossary",
+      "slot": "og",
+      "dimensions": "1200x630",
+      "ratio": "3:2",
+      "alt_text": "",
+      "decorative": true,
+      "tags": [
+        "glossary",
+        "dictionary",
+        "legal-terms",
+        "definitions",
+        "reference",
+        "professional"
+      ],
+      "palette": [
+        "#3d2b1f",
+        "#8b7355",
+        "#d4c5b0",
+        "#f0ebe3"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-052",
+      "description": "Close-up of a legal dictionary page with terms and definitions, warm reading lamp light, shallow depth of field focused on a single term, professional still life photography, muted warm tones, no readable text",
+      "file_size_bytes": 1538700,
+      "file_path": "images/image-052-glossary-og.png"
+    },
+    {
+      "id": 53,
+      "filename": "image-053-gps-tracked-process-serving-hero.png",
+      "page": "/gps-tracked-process-serving",
+      "slot": "hero",
+      "dimensions": "1920x1080",
+      "ratio": "16:9",
+      "alt_text": "Smartphone showing GPS tracking route held in a vehicle in Tulsa",
+      "decorative": false,
+      "tags": [
+        "GPS",
+        "tracking",
+        "technology",
+        "tulsa",
+        "route",
+        "smartphone",
+        "verification"
+      ],
+      "palette": [
+        "#1a2744",
+        "#4fd1c5",
+        "#7a8fa6",
+        "#e8f0f0"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-053",
+      "description": "Smartphone displaying a GPS map with location pin markers along a route, held in a car with Tulsa city visible through the windshield, warm natural lighting, technology-meets-service aesthetic, documentary style, muted tones, no readable screen text",
+      "file_size_bytes": 1625408,
+      "file_path": "images/image-053-gps-tracked-process-serving-hero.png"
+    },
+    {
+      "id": 54,
+      "filename": "image-054-high-profile-service-protocols-tulsa-og.png",
+      "page": "/high-profile-service-protocols-tulsa",
+      "slot": "og",
+      "dimensions": "1200x630",
+      "ratio": "3:2",
+      "alt_text": "Discreet professional process server at a corporate office building entrance",
+      "decorative": false,
+      "tags": [
+        "high-profile",
+        "corporate",
+        "discreet",
+        "professional",
+        "tulsa",
+        "protocol"
+      ],
+      "palette": [
+        "#2c3e60",
+        "#b8a88a",
+        "#7a8fa6",
+        "#f2eee8"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-054",
+      "description": "Discreet professional service at a corporate office building entrance, well-dressed process server with leather portfolio, modern glass building facade, early morning light, documentary photography style, muted sophisticated tones, no text",
+      "file_size_bytes": 1661407,
+      "file_path": "images/image-054-high-profile-service-protocols-tulsa-og.png"
+    },
+    {
+      "id": 55,
+      "filename": "image-055-process-server-tulsa-guide-og.png",
+      "page": "/process-server-tulsa-guide",
+      "slot": "og",
+      "dimensions": "1200x630",
+      "ratio": "16:9",
+      "alt_text": "",
+      "decorative": true,
+      "tags": [
+        "guide",
+        "study",
+        "legal-documents",
+        "highlighter",
+        "professional",
+        "learning"
+      ],
+      "palette": [
+        "#f7fafc",
+        "#d4c5b0",
+        "#c9a96e",
+        "#4a5568"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-055",
+      "description": "Informative flat-lay of a guidebook with legal documents, highlighter pen, sticky notes, and reading glasses on a clean desk, warm natural lighting, organized study aesthetic, muted warm tones, no readable text",
+      "file_size_bytes": 1649002,
+      "file_path": "images/image-055-process-server-tulsa-guide-og.png"
+    },
+    {
+      "id": 56,
+      "filename": "image-056-can-process-server-serve-on-sunday-og.png",
+      "page": "/can-process-server-serve-on-sunday",
+      "slot": "og",
+      "dimensions": "1200x630",
+      "ratio": "3:2",
+      "alt_text": "Quiet Oklahoma residential neighborhood on a Sunday morning",
+      "decorative": false,
+      "tags": [
+        "sunday",
+        "residential",
+        "oklahoma",
+        "timing",
+        "neighborhood",
+        "peaceful"
+      ],
+      "palette": [
+        "#5a4a3a",
+        "#d4c5b0",
+        "#7a8fa6",
+        "#f5f0e8"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-056",
+      "description": "Quiet residential Oklahoma neighborhood on a Sunday morning, empty street with church visible in distance, warm peaceful early light, documentary photography style conveying timing considerations, muted warm tones, no text",
+      "file_size_bytes": 1932837,
+      "file_path": "images/image-056-can-process-server-serve-on-sunday-og.png"
+    },
+    {
+      "id": 57,
+      "filename": "image-057-how-much-does-process-server-cost-og.png",
+      "page": "/how-much-does-process-server-cost",
+      "slot": "og",
+      "dimensions": "1200x630",
+      "ratio": "16:9",
+      "alt_text": "",
+      "decorative": true,
+      "tags": [
+        "cost",
+        "pricing",
+        "invoice",
+        "clipboard",
+        "professional",
+        "transparent"
+      ],
+      "palette": [
+        "#f7fafc",
+        "#4a5568",
+        "#c9a96e",
+        "#a0aec0"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-057",
+      "description": "Clean composition of a service invoice on a clipboard with a pen and a small calculator, warm natural desk lighting, professional document photography, muted warm tones, no readable prices",
+      "file_size_bytes": 1629156,
+      "file_path": "images/image-057-how-much-does-process-server-cost-og.png"
+    },
+    {
+      "id": 58,
+      "filename": "image-058-skip-tracing-oklahoma-guide-og.png",
+      "page": "/skip-tracing-oklahoma-guide",
+      "slot": "og",
+      "dimensions": "1200x630",
+      "ratio": "16:9",
+      "alt_text": "",
+      "decorative": true,
+      "tags": [
+        "skip-tracing",
+        "investigation",
+        "oklahoma",
+        "research",
+        "map",
+        "database"
+      ],
+      "palette": [
+        "#3d2b1f",
+        "#c9a96e",
+        "#7a8fa6",
+        "#f0ebe3"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-058",
+      "description": "Investigator desk with Oklahoma state map, highlighters, sticky notes with markers, and a laptop showing database search, organized research aesthetic, warm desk lamp lighting, muted tones, no readable screen text",
+      "file_size_bytes": 1707989,
+      "file_path": "images/image-058-skip-tracing-oklahoma-guide-og.png"
+    },
+    {
+      "id": 59,
+      "filename": "image-059-broken-arrow-process-server-hero.png",
+      "page": "/broken-arrow-process-server",
+      "slot": "hero",
+      "dimensions": "1920x1080",
+      "ratio": "16:9",
+      "alt_text": "Broken Arrow Oklahoma Rose District with historic buildings and tree-lined street",
+      "decorative": false,
+      "tags": [
+        "broken-arrow",
+        "rose-district",
+        "oklahoma",
+        "downtown",
+        "local",
+        "historic"
+      ],
+      "palette": [
+        "#5a4a3a",
+        "#c9a96e",
+        "#7a9a6a",
+        "#f5f0e8"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-059",
+      "description": "Scenic view of Broken Arrow Oklahoma downtown area with Rose District shops and historic buildings, warm afternoon light, tree-lined street, documentary photography style showing local character, muted warm tones, no text",
+      "file_size_bytes": 2199108,
+      "file_path": "images/image-059-broken-arrow-process-server-hero.png"
+    },
+    {
+      "id": 60,
+      "filename": "image-060-affidavit-of-service-og.png",
+      "page": "/affidavit-of-service",
+      "slot": "og",
+      "dimensions": "1200x630",
+      "ratio": "3:2",
+      "alt_text": "",
+      "decorative": true,
+      "tags": [
+        "affidavit",
+        "notarized",
+        "seal",
+        "signature",
+        "official",
+        "document"
+      ],
+      "palette": [
+        "#3d2b1f",
+        "#8b7355",
+        "#c9a96e",
+        "#f0ebe3"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-060",
+      "description": "Close-up of a notarized affidavit document with official seal impression and signature, warm side lighting showing paper texture, shallow depth of field, professional document photography, muted tones, no readable text",
+      "file_size_bytes": 1539841,
+      "file_path": "images/image-060-affidavit-of-service-og.png"
+    },
+    {
+      "id": 61,
+      "filename": "image-061-protective-order-service-hero.png",
+      "page": "/protective-order-service",
+      "slot": "hero",
+      "dimensions": "1920x1080",
+      "ratio": "16:9",
+      "alt_text": "Supportive professional meeting in a private office for protective order service",
+      "decorative": false,
+      "tags": [
+        "protective-order",
+        "confidential",
+        "supportive",
+        "private",
+        "professional",
+        "safety"
+      ],
+      "palette": [
+        "#5a5a5a",
+        "#d4c5b0",
+        "#8fa8c8",
+        "#f0ece4"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-061",
+      "description": "Supportive professional meeting with a client in a private office setting, soft natural light through frosted glass, conveying safety and confidentiality, documentary photography style, muted warm compassionate tones, no text",
+      "file_size_bytes": 1511305,
+      "file_path": "images/image-061-protective-order-service-hero.png"
+    },
+    {
+      "id": 62,
+      "filename": "image-062-courthouse-filing-services-og.png",
+      "page": "/courthouse-filing-services",
+      "slot": "og",
+      "dimensions": "1200x630",
+      "ratio": "3:2",
+      "alt_text": "Professional ascending Oklahoma courthouse steps with leather portfolio",
+      "decorative": false,
+      "tags": [
+        "courthouse",
+        "filing",
+        "oklahoma",
+        "professional",
+        "legal",
+        "documents"
+      ],
+      "palette": [
+        "#4a5568",
+        "#a0aec0",
+        "#c9a96e",
+        "#e2e8f0"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-062",
+      "description": "Professional walking up the steps of an Oklahoma courthouse carrying a leather portfolio, shot from behind, warm morning light, documentary photography style, muted professional tones, no text",
+      "file_size_bytes": 1538598,
+      "file_path": "images/image-062-courthouse-filing-services-og.png"
+    },
+    {
+      "id": 63,
+      "filename": "image-063-loan-signing-agent-tulsa-hero.png",
+      "page": "/loan-signing-agent-tulsa",
+      "slot": "hero",
+      "dimensions": "1920x1080",
+      "ratio": "16:9",
+      "alt_text": "Loan signing agent reviewing mortgage documents with client at their home",
+      "decorative": false,
+      "tags": [
+        "loan-signing",
+        "mortgage",
+        "tulsa",
+        "agent",
+        "home",
+        "professional"
+      ],
+      "palette": [
+        "#5a4a3a",
+        "#d4c5b0",
+        "#7a8fa6",
+        "#f5f0e8"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-063",
+      "description": "Professional loan signing agent guiding a client through mortgage documents at a dining table in a home, warm domestic lighting, friendly professional atmosphere, clean organized document layout, documentary style, muted tones, no text",
+      "file_size_bytes": 1672810,
+      "file_path": "images/image-063-loan-signing-agent-tulsa-hero.png"
+    },
+    {
+      "id": 64,
+      "filename": "image-064-power-of-attorney-notary-oklahoma-og.png",
+      "page": "/power-of-attorney-notary-oklahoma",
+      "slot": "og",
+      "dimensions": "1200x630",
+      "ratio": "3:2",
+      "alt_text": "",
+      "decorative": true,
+      "tags": [
+        "power-of-attorney",
+        "signing",
+        "notary",
+        "oklahoma",
+        "fountain-pen",
+        "legal"
+      ],
+      "palette": [
+        "#4a5568",
+        "#c9a96e",
+        "#a0aec0",
+        "#f7fafc"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-064",
+      "description": "Close-up of a power of attorney document being signed with a fountain pen, hand in professional attire, warm natural lighting, shallow depth of field, professional document photography, muted warm tones, no text",
+      "file_size_bytes": 1522775,
+      "file_path": "images/image-064-power-of-attorney-notary-oklahoma-og.png"
+    },
+    {
+      "id": 65,
+      "filename": "image-065-hospital-notary-hero.png",
+      "page": "/hospital-notary",
+      "slot": "hero",
+      "dimensions": "1920x1080",
+      "ratio": "16:9",
+      "alt_text": "Mobile notary assisting a patient in a bright hospital room with family present",
+      "decorative": false,
+      "tags": [
+        "hospital-notary",
+        "mobile",
+        "patient",
+        "compassionate",
+        "medical",
+        "family"
+      ],
+      "palette": [
+        "#5a5a5a",
+        "#d4c5b0",
+        "#8fa8c8",
+        "#f5f0e8"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-065",
+      "description": "Professional notary meeting with a patient in a bright hospital room, family member present, warm and compassionate atmosphere, medical equipment softly blurred in background, documentary photography style, muted warm tones, no text",
+      "file_size_bytes": 1771134,
+      "file_path": "images/image-065-hospital-notary-hero.png"
+    },
+    {
+      "id": 66,
+      "filename": "image-066-jail-notary-card.png",
+      "page": "/jail-notary",
+      "slot": "card",
+      "dimensions": "1200x800",
+      "ratio": "3:2",
+      "alt_text": "Professional notary in conversation through glass at a correctional facility",
+      "decorative": false,
+      "tags": [
+        "jail-notary",
+        "correctional",
+        "mobile",
+        "professional",
+        "institutional",
+        "respectful"
+      ],
+      "palette": [
+        "#4a5568",
+        "#a0aec0",
+        "#c9a96e",
+        "#d4d4d4"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-066",
+      "description": "Professional notary in conversation through a glass partition at a correctional facility, respectful professional demeanor, institutional lighting softened by the glass, documentary photography style, muted neutral tones, no text",
+      "file_size_bytes": 1638608,
+      "file_path": "images/image-066-jail-notary-card.png"
+    },
+    {
+      "id": 67,
+      "filename": "image-067-real-estate-notary-hero.png",
+      "page": "/real-estate-notary",
+      "slot": "hero",
+      "dimensions": "1920x1080",
+      "ratio": "16:9",
+      "alt_text": "Real estate notary at closing with house model and keys on desk",
+      "decorative": false,
+      "tags": [
+        "real-estate",
+        "closing",
+        "notary",
+        "house-keys",
+        "professional",
+        "signing"
+      ],
+      "palette": [
+        "#5a4a3a",
+        "#c9a96e",
+        "#7a9a6a",
+        "#f0ece4"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-067",
+      "description": "Professional notary signing closing documents at a modern real estate office with house model on desk, keys visible, warm natural lighting, clean professional atmosphere, documentary photography style, muted warm tones, no text",
+      "file_size_bytes": 1653290,
+      "file_path": "images/image-067-real-estate-notary-hero.png"
+    },
+    {
+      "id": 68,
+      "filename": "image-068-remote-online-notary-hero.png",
+      "page": "/remote-online-notary",
+      "slot": "hero",
+      "dimensions": "1920x1080",
+      "ratio": "16:9",
+      "alt_text": "Online notarization session via laptop with remote client on video call",
+      "decorative": false,
+      "tags": [
+        "remote-notary",
+        "online",
+        "video-call",
+        "technology",
+        "laptop",
+        "modern"
+      ],
+      "palette": [
+        "#2d3748",
+        "#4fd1c5",
+        "#a0aec0",
+        "#e2e8f0"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-068",
+      "description": "Professional conducting an online notarization via laptop with client visible on screen, webcam setup, clean modern desk, warm natural lighting, technology-enabled service aesthetic, documentary style, muted tones, no readable screen content",
+      "file_size_bytes": 1533309,
+      "file_path": "images/image-068-remote-online-notary-hero.png"
+    },
+    {
+      "id": 69,
+      "filename": "image-069-out-of-state-subpoena-hero.png",
+      "page": "/out-of-state-subpoena",
+      "slot": "hero",
+      "dimensions": "1920x1080",
+      "ratio": "3:2",
+      "alt_text": "",
+      "decorative": true,
+      "tags": [
+        "out-of-state",
+        "subpoena",
+        "interstate",
+        "maps",
+        "legal",
+        "transfer"
+      ],
+      "palette": [
+        "#4a5568",
+        "#a0aec0",
+        "#c9a96e",
+        "#e2e8f0"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-069",
+      "description": "Two state maps side by side showing interstate legal document transfer concept, warm desk lighting, professional document photography with maps and connecting arrows, muted tones, no readable map labels",
+      "file_size_bytes": 1378834,
+      "file_path": "images/image-069-out-of-state-subpoena-hero.png"
+    },
+    {
+      "id": 70,
+      "filename": "image-070-process-server-vs-sheriff-og.png",
+      "page": "/process-server-vs-sheriff",
+      "slot": "og",
+      "dimensions": "1200x630",
+      "ratio": "16:9",
+      "alt_text": "Split composition comparing professional process server and sheriff deputy",
+      "decorative": false,
+      "tags": [
+        "comparison",
+        "process-server",
+        "sheriff",
+        "professional",
+        "oklahoma",
+        "choice"
+      ],
+      "palette": [
+        "#2c3e60",
+        "#b8a88a",
+        "#7a8fa6",
+        "#f2eee8"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-070",
+      "description": "Split composition showing a professional process server on the left and a sheriff deputy on the right, each in their respective professional attire, Oklahoma courthouse in background, documentary style comparison shot, muted tones, no text",
+      "file_size_bytes": 1757237,
+      "file_path": "images/image-070-process-server-vs-sheriff-og.png"
+    },
+    {
+      "id": 71,
+      "filename": "image-071-compare-process-server-vs-sheriff-card.png",
+      "page": "/compare/process-server-vs-sheriff",
+      "slot": "card",
+      "dimensions": "1200x800",
+      "ratio": "3:2",
+      "alt_text": "",
+      "decorative": true,
+      "tags": [
+        "comparison",
+        "chart",
+        "checkmarks",
+        "professional",
+        "evaluation",
+        "document"
+      ],
+      "palette": [
+        "#f7fafc",
+        "#4a5568",
+        "#c9a96e",
+        "#a0aec0"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-071",
+      "description": "Comparison chart layout on a desk with two columns and checkmarks, professional document styling, warm natural lighting, clean organized presentation, muted warm tones, no readable text",
+      "file_size_bytes": 1510850,
+      "file_path": "images/image-071-compare-process-server-vs-sheriff-card.png"
+    },
+    {
+      "id": 72,
+      "filename": "image-072-family-law-service-guide-tulsa-hero.png",
+      "page": "/family-law-service-guide-tulsa",
+      "slot": "hero",
+      "dimensions": "1920x1080",
+      "ratio": "16:9",
+      "alt_text": "Welcoming family law office with comfortable seating and personal touches",
+      "decorative": false,
+      "tags": [
+        "family-law",
+        "office",
+        "welcoming",
+        "tulsa",
+        "comfortable",
+        "professional"
+      ],
+      "palette": [
+        "#5a4a3a",
+        "#d4c5b0",
+        "#8fa8c8",
+        "#f5f0e8"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-072",
+      "description": "Warm family law office setting with comfortable seating area, family photos on shelf in background, professional but welcoming atmosphere, natural window light, documentary interior photography, muted warm tones, no text",
+      "file_size_bytes": 1804284,
+      "file_path": "images/image-072-family-law-service-guide-tulsa-hero.png"
+    },
+    {
+      "id": 73,
+      "filename": "image-073-process-serving-for-debt-collection-card.png",
+      "page": "/process-serving-for-debt-collection",
+      "slot": "card",
+      "dimensions": "1200x800",
+      "ratio": "3:2",
+      "alt_text": "Process server delivering documents at a commercial business reception",
+      "decorative": false,
+      "tags": [
+        "debt-collection",
+        "commercial",
+        "business",
+        "process-serving",
+        "corporate",
+        "professional"
+      ],
+      "palette": [
+        "#2c3e60",
+        "#b8a88a",
+        "#7a8fa6",
+        "#f2eee8"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-073",
+      "description": "Professional process server delivering documents at a commercial business reception desk, modern corporate interior, warm professional lighting, documentary photography style, muted corporate tones, no text",
+      "file_size_bytes": 1465462,
+      "file_path": "images/image-073-process-serving-for-debt-collection-card.png"
+    },
+    {
+      "id": 74,
+      "filename": "image-074-process-serving-for-insurance-companies-card.png",
+      "page": "/process-serving-for-insurance-companies",
+      "slot": "card",
+      "dimensions": "1200x800",
+      "ratio": "3:2",
+      "alt_text": "Process server at an insurance company office front desk",
+      "decorative": false,
+      "tags": [
+        "insurance",
+        "corporate",
+        "process-serving",
+        "office",
+        "professional",
+        "business"
+      ],
+      "palette": [
+        "#4a5568",
+        "#a0aec0",
+        "#c9a96e",
+        "#e2e8f0"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-074",
+      "description": "Insurance company office lobby with modern branding elements visible, professional process server at the front desk, corporate interior photography, warm ambient lighting, muted professional tones, no readable logos",
+      "file_size_bytes": 1506027,
+      "file_path": "images/image-074-process-serving-for-insurance-companies-card.png"
+    },
+    {
+      "id": 75,
+      "filename": "image-075-process-serving-for-property-managers-card.png",
+      "page": "/process-serving-for-property-managers",
+      "slot": "card",
+      "dimensions": "1200x800",
+      "ratio": "3:2",
+      "alt_text": "Professional entering an apartment complex leasing office exterior",
+      "decorative": false,
+      "tags": [
+        "property-management",
+        "apartment",
+        "leasing-office",
+        "real-estate",
+        "professional",
+        "service"
+      ],
+      "palette": [
+        "#5a4a3a",
+        "#7a9a6a",
+        "#c9a96e",
+        "#e8e0d4"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-075",
+      "description": "Apartment complex leasing office exterior with professional entering through glass doors, well-maintained landscaping, warm afternoon light, real estate documentary photography, muted tones, no text",
+      "file_size_bytes": 2195395,
+      "file_path": "images/image-075-process-serving-for-property-managers-card.png"
+    },
+    {
+      "id": 76,
+      "filename": "image-076-ai-skip-tracing-guide-oklahoma-og.png",
+      "page": "/ai-skip-tracing-guide-oklahoma",
+      "slot": "og",
+      "dimensions": "1200x630",
+      "ratio": "16:9",
+      "alt_text": "",
+      "decorative": true,
+      "tags": [
+        "AI",
+        "technology",
+        "skip-tracing",
+        "oklahoma",
+        "data",
+        "digital",
+        "modern"
+      ],
+      "palette": [
+        "#1a202c",
+        "#4299e1",
+        "#c9a96e",
+        "#a0aec0"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-076",
+      "description": "Futuristic AI technology concept with digital data streams and network connections overlaying an Oklahoma map, dark background with blue and amber data visualization elements, abstract tech aesthetic, muted sophisticated tones, no readable text",
+      "file_size_bytes": 1886515,
+      "file_path": "images/image-076-ai-skip-tracing-guide-oklahoma-og.png"
+    },
+    {
+      "id": 77,
+      "filename": "image-077-guides-hero.png",
+      "page": "/guides",
+      "slot": "hero",
+      "dimensions": "1920x1080",
+      "ratio": "16:9",
+      "alt_text": "Legal guidebooks and reference materials on library bookshelf with reading lamp",
+      "decorative": false,
+      "tags": [
+        "guides",
+        "library",
+        "legal",
+        "bookshelf",
+        "reference",
+        "professional",
+        "education"
+      ],
+      "palette": [
+        "#3d2b1f",
+        "#8b7355",
+        "#c9a96e",
+        "#f0ebe3"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-077",
+      "description": "Library bookshelf filled with legal guidebooks and reference materials, warm reading lamp light, leather-bound volumes alongside modern publications, inviting study atmosphere, documentary interior photography, muted warm tones, no readable titles",
+      "file_size_bytes": 1701278,
+      "file_path": "images/image-077-guides-hero.png"
+    },
+    {
+      "id": 78,
+      "filename": "image-078-resources-hero.png",
+      "page": "/resources",
+      "slot": "hero",
+      "dimensions": "1920x1080",
+      "ratio": "3:2",
+      "alt_text": "Organized resource center with filing cabinets and computer workstation",
+      "decorative": false,
+      "tags": [
+        "resources",
+        "filing",
+        "documents",
+        "office",
+        "organized",
+        "professional"
+      ],
+      "palette": [
+        "#4a5568",
+        "#a0aec0",
+        "#d4c5b0",
+        "#f7fafc"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-078",
+      "description": "Organized resource center with filing cabinets, document trays, and a computer workstation, clean professional office environment, warm ambient lighting, documentary interior photography, muted professional tones, no text",
+      "file_size_bytes": 1589544,
+      "file_path": "images/image-078-resources-hero.png"
+    },
+    {
+      "id": 79,
+      "filename": "image-079-cost-calculator-card.png",
+      "page": "/cost-calculator",
+      "slot": "card",
+      "dimensions": "1200x800",
+      "ratio": "3:2",
+      "alt_text": "",
+      "decorative": true,
+      "tags": [
+        "cost-calculator",
+        "tablet",
+        "technology",
+        "pricing-tool",
+        "professional",
+        "modern"
+      ],
+      "palette": [
+        "#f7fafc",
+        "#718096",
+        "#c9a96e",
+        "#e2e8f0"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-079",
+      "description": "Modern calculator app interface on a tablet device next to a coffee cup on a clean desk, warm natural lighting, professional technology aesthetic, shallow depth of field, muted warm tones, no readable screen text",
+      "file_size_bytes": 1483239,
+      "file_path": "images/image-079-cost-calculator-card.png"
+    },
+    {
+      "id": 80,
+      "filename": "image-080-oklahoma-tools-hero.png",
+      "page": "/oklahoma-tools",
+      "slot": "hero",
+      "dimensions": "1920x1080",
+      "ratio": "16:9",
+      "alt_text": "Legal tools arranged on workbench with magnifying glass, stamp, and Oklahoma forms",
+      "decorative": false,
+      "tags": [
+        "tools",
+        "legal-tools",
+        "oklahoma",
+        "workbench",
+        "professional",
+        "organized"
+      ],
+      "palette": [
+        "#2d3748",
+        "#c9a96e",
+        "#a0aec0",
+        "#e2e8f0"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-080",
+      "description": "Toolbox concept with legal tools arranged on a dark workbench, magnifying glass, stamp, documents, and a tablet showing Oklahoma legal forms, warm directional lighting, professional still life photography, muted tones, no text",
+      "file_size_bytes": 1611301,
+      "file_path": "images/image-080-oklahoma-tools-hero.png"
+    },
+    {
+      "id": 81,
+      "filename": "image-081-process-server-license-oklahoma-card.png",
+      "page": "/process-server-license-oklahoma",
+      "slot": "card",
+      "dimensions": "1200x800",
+      "ratio": "3:2",
+      "alt_text": "",
+      "decorative": true,
+      "tags": [
+        "license",
+        "badge",
+        "certificate",
+        "oklahoma",
+        "process-server",
+        "official"
+      ],
+      "palette": [
+        "#2c3e60",
+        "#c9a96e",
+        "#a0aec0",
+        "#f0ece4"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-081",
+      "description": "Oklahoma process server license badge and certificate displayed on a dark desk with a leather portfolio, warm side lighting, shallow depth of field, professional document photography, muted sophisticated tones, no readable text",
+      "file_size_bytes": 1493481,
+      "file_path": "images/image-081-process-server-license-oklahoma-card.png"
+    },
+    {
+      "id": 82,
+      "filename": "image-082-how-to-serve-legal-papers-oklahoma-og.png",
+      "page": "/how-to-serve-legal-papers-oklahoma",
+      "slot": "og",
+      "dimensions": "1200x630",
+      "ratio": "16:9",
+      "alt_text": "",
+      "decorative": true,
+      "tags": [
+        "how-to",
+        "instruction",
+        "legal-papers",
+        "step-by-step",
+        "organized",
+        "oklahoma"
+      ],
+      "palette": [
+        "#f7fafc",
+        "#4a5568",
+        "#c9a96e",
+        "#d4c5b0"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-082",
+      "description": "Step-by-step visual concept showing numbered document packets arranged in a sequence on a desk, warm natural lighting, organized instructional aesthetic, documentary still life photography, muted warm tones, no readable text",
+      "file_size_bytes": 1605982,
+      "file_path": "images/image-082-how-to-serve-legal-papers-oklahoma-og.png"
+    },
+    {
+      "id": 83,
+      "filename": "image-083-process-serving-mistakes-guide-card.png",
+      "page": "/process-serving-mistakes-guide",
+      "slot": "card",
+      "dimensions": "1200x800",
+      "ratio": "3:2",
+      "alt_text": "",
+      "decorative": true,
+      "tags": [
+        "mistakes",
+        "rejected",
+        "warning",
+        "document",
+        "corrections",
+        "guide"
+      ],
+      "palette": [
+        "#742a2a",
+        "#4a5568",
+        "#d4c5b0",
+        "#f7fafc"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-083",
+      "description": "Warning concept with a rejected document stamp and red pen marks on paperwork, warm desk lighting, professional caution aesthetic, shallow depth of field, muted warm tones with subtle red accent, no readable text",
+      "file_size_bytes": 1541325,
+      "file_path": "images/image-083-process-serving-mistakes-guide-card.png"
+    },
+    {
+      "id": 84,
+      "filename": "image-084-join-our-network-hero.png",
+      "page": "/join-our-network",
+      "slot": "hero",
+      "dimensions": "1920x1080",
+      "ratio": "16:9",
+      "alt_text": "Network of professional process servers in collaborative meeting",
+      "decorative": false,
+      "tags": [
+        "network",
+        "team",
+        "collaboration",
+        "process-servers",
+        "professional",
+        "community"
+      ],
+      "palette": [
+        "#2c3e60",
+        "#b8a88a",
+        "#7a8fa6",
+        "#f2eee8"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-084",
+      "description": "Group of professional process servers in a network meeting, standing in a circle having discussion in a modern office space, warm collaborative lighting, team documentary photography, muted professional tones, no text",
+      "file_size_bytes": 1758280,
+      "file_path": "images/image-084-join-our-network-hero.png"
+    },
+    {
+      "id": 85,
+      "filename": "image-085-counties-hero.png",
+      "page": "/counties",
+      "slot": "hero",
+      "dimensions": "1920x1080",
+      "ratio": "16:9",
+      "alt_text": "Oklahoma prairie landscape with red dirt roads and vast sky at golden hour",
+      "decorative": false,
+      "tags": [
+        "oklahoma",
+        "prairie",
+        "landscape",
+        "counties",
+        "red-dirt",
+        "golden-hour",
+        "statewide"
+      ],
+      "palette": [
+        "#5a4a3a",
+        "#b22234",
+        "#7a9a6a",
+        "#d4c5b0"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-085",
+      "description": "Panoramic view of the Oklahoma prairie landscape with red dirt roads stretching to the horizon, scattered trees, and a vast sky with scattered clouds, golden hour light, landscape documentary photography, muted earthy tones, no text",
+      "file_size_bytes": 1819946,
+      "file_path": "images/image-085-counties-hero.png"
+    },
+    {
+      "id": 86,
+      "filename": "image-086-reviews-google-card.png",
+      "page": "/reviews/google",
+      "slot": "card",
+      "dimensions": "1200x800",
+      "ratio": "3:2",
+      "alt_text": "",
+      "decorative": true,
+      "tags": [
+        "reviews",
+        "google",
+        "smartphone",
+        "feedback",
+        "satisfied",
+        "client"
+      ],
+      "palette": [
+        "#f7fafc",
+        "#4a5568",
+        "#c9a96e",
+        "#a0aec0"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-086",
+      "description": "Happy client looking at a smartphone showing a review interface, warm cafe lighting, satisfied expression, professional documentary style, shallow depth of field focused on the phone, muted warm tones, no readable screen text",
+      "file_size_bytes": 1682694,
+      "file_path": "images/image-086-reviews-google-card.png"
+    },
+    {
+      "id": 87,
+      "filename": "image-087-immigration-document-notary-oklahoma-card.png",
+      "page": "/immigration-document-notary-oklahoma",
+      "slot": "card",
+      "dimensions": "1200x800",
+      "ratio": "3:2",
+      "alt_text": "",
+      "decorative": true,
+      "tags": [
+        "immigration",
+        "notary",
+        "passport",
+        "documents",
+        "oklahoma",
+        "international"
+      ],
+      "palette": [
+        "#4a5568",
+        "#c9a96e",
+        "#a0aec0",
+        "#f7fafc"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-087",
+      "description": "Passport and immigration documents on a desk with a notary seal stamp nearby, warm natural lighting, professional document photography, shallow depth of field, muted warm tones, no readable personal information",
+      "file_size_bytes": 1571463,
+      "file_path": "images/image-087-immigration-document-notary-oklahoma-card.png"
+    },
+    {
+      "id": 88,
+      "filename": "image-088-notary-faqs-card.png",
+      "page": "/notary-faqs",
+      "slot": "card",
+      "dimensions": "1200x800",
+      "ratio": "3:2",
+      "alt_text": "",
+      "decorative": true,
+      "tags": [
+        "notary",
+        "FAQ",
+        "questions",
+        "common-questions",
+        "professional",
+        "help"
+      ],
+      "palette": [
+        "#f7fafc",
+        "#4a5568",
+        "#c9a96e",
+        "#d4c5b0"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-088",
+      "description": "Collection of commonly asked question cards spread on a desk with a notary stamp, warm desk lamp lighting, organized FAQ concept, professional still life photography, muted warm tones, no readable text",
+      "file_size_bytes": 1692184,
+      "file_path": "images/image-088-notary-faqs-card.png"
+    },
+    {
+      "id": 89,
+      "filename": "image-089-process-server-near-me-hero.png",
+      "page": "/process-server-near-me",
+      "slot": "hero",
+      "dimensions": "1920x1080",
+      "ratio": "16:9",
+      "alt_text": "",
+      "decorative": true,
+      "tags": [
+        "near-me",
+        "location",
+        "local",
+        "oklahoma",
+        "proximity",
+        "service-area"
+      ],
+      "palette": [
+        "#1a2744",
+        "#c9a96e",
+        "#4299e1",
+        "#e2e8f0"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-089",
+      "description": "Location pin marker hovering over a stylized Oklahoma city map, warm amber and blue tones, modern flat design meets photography aesthetic, suggesting local proximity and availability, muted professional tones, no readable text",
+      "file_size_bytes": 1674805,
+      "file_path": "images/image-089-process-server-near-me-hero.png"
+    },
+    {
+      "id": 90,
+      "filename": "image-090-field-sheet-card.png",
+      "page": "/field-sheet",
+      "slot": "card",
+      "dimensions": "1200x800",
+      "ratio": "3:2",
+      "alt_text": "",
+      "decorative": true,
+      "tags": [
+        "field-sheet",
+        "clipboard",
+        "GPS",
+        "form",
+        "process-server",
+        "field-work"
+      ],
+      "palette": [
+        "#4a5568",
+        "#a0aec0",
+        "#c9a96e",
+        "#e2e8f0"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-090",
+      "description": "Process server field sheet form on a clipboard with a pen and GPS device on a car dashboard, warm natural lighting through windshield, professional field work aesthetic, documentary photography, muted tones, no readable form text",
+      "file_size_bytes": 1620580,
+      "file_path": "images/image-090-field-sheet-card.png"
+    },
+    {
+      "id": 91,
+      "filename": "image-091-same-day-process-server-og.png",
+      "page": "/same-day-process-server",
+      "slot": "og",
+      "dimensions": "1200x630",
+      "ratio": "16:9",
+      "alt_text": "",
+      "decorative": true,
+      "tags": [
+        "same-day",
+        "urgent",
+        "watch",
+        "time",
+        "professional",
+        "punctuality"
+      ],
+      "palette": [
+        "#2c3e60",
+        "#c9a96e",
+        "#a0aec0",
+        "#f2eee8"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-091",
+      "description": "Close-up of a wristwatch showing business hours on a professional's wrist, holding legal documents in the other hand, shallow depth of field, conveying timeliness and punctuality, documentary photography, muted warm tones, no text",
+      "file_size_bytes": 1567094,
+      "file_path": "images/image-091-same-day-process-server-og.png"
+    },
+    {
+      "id": 92,
+      "filename": "image-092-attorney-services-hero.png",
+      "page": "/attorney-services",
+      "slot": "hero",
+      "dimensions": "1920x1080",
+      "ratio": "3:2",
+      "alt_text": "Attorney collaborating with process server across a modern desk",
+      "decorative": false,
+      "tags": [
+        "attorney",
+        "collaboration",
+        "process-server",
+        "meeting",
+        "professional",
+        "case-review"
+      ],
+      "palette": [
+        "#2c3e60",
+        "#b8a88a",
+        "#7a8fa6",
+        "#f2eee8"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-092",
+      "description": "Professional attorney reviewing case files with a process server across a modern desk, collaborative professional meeting, warm natural lighting from windows, documentary photography style, muted professional tones, no text",
+      "file_size_bytes": 1446868,
+      "file_path": "images/image-092-attorney-services-hero.png"
+    },
+    {
+      "id": 93,
+      "filename": "image-093-bail-bondsmen-process-serving-card.png",
+      "page": "/bail-bondsmen-process-serving",
+      "slot": "card",
+      "dimensions": "1200x800",
+      "ratio": "3:2",
+      "alt_text": "Professional process server at a bail bonds office exterior",
+      "decorative": false,
+      "tags": [
+        "bail-bonds",
+        "process-serving",
+        "urban",
+        "oklahoma",
+        "professional",
+        "service"
+      ],
+      "palette": [
+        "#5a4a3a",
+        "#a0aec0",
+        "#c9a96e",
+        "#e2d8c8"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-093",
+      "description": "Professional serving documents at a bail bonds office exterior, signage visible but not readable, urban Oklahoma setting, warm afternoon light, documentary photography style, muted urban tones, no text",
+      "file_size_bytes": 1621289,
+      "file_path": "images/image-093-bail-bondsmen-process-serving-card.png"
+    },
+    {
+      "id": 94,
+      "filename": "image-094-oklahoma-process-server-bond-requirements-og.png",
+      "page": "/oklahoma-process-server-bond-requirements",
+      "slot": "og",
+      "dimensions": "1200x630",
+      "ratio": "16:9",
+      "alt_text": "",
+      "decorative": true,
+      "tags": [
+        "bond",
+        "surety",
+        "certificate",
+        "oklahoma",
+        "requirements",
+        "security"
+      ],
+      "palette": [
+        "#2c3e60",
+        "#c9a96e",
+        "#a0aec0",
+        "#f0ece4"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-094",
+      "description": "Surety bond certificate and official seal on a desk with gold accent details, warm side lighting, shallow depth of field, professional document photography conveying security and trust, muted sophisticated tones, no readable text",
+      "file_size_bytes": 1670345,
+      "file_path": "images/image-094-oklahoma-process-server-bond-requirements-og.png"
+    },
+    {
+      "id": 95,
+      "filename": "image-095-oklahoma-process-server-technology-hero.png",
+      "page": "/oklahoma-process-server-technology",
+      "slot": "hero",
+      "dimensions": "1920x1080",
+      "ratio": "16:9",
+      "alt_text": "Modern legal technology workspace with GPS tracking and document management",
+      "decorative": false,
+      "tags": [
+        "technology",
+        "GPS",
+        "document-management",
+        "dual-monitors",
+        "modern",
+        "legal-tech"
+      ],
+      "palette": [
+        "#1a2744",
+        "#4fd1c5",
+        "#7a8fa6",
+        "#e8f0f0"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-095",
+      "description": "Modern technology workspace for legal services, dual monitors showing GPS tracking and document management, smartphone and tablet on clean desk, warm ambient lighting, tech-forward aesthetic, documentary style, muted tones, no readable screen text",
+      "file_size_bytes": 1576219,
+      "file_path": "images/image-095-oklahoma-process-server-technology-hero.png"
+    },
+    {
+      "id": 96,
+      "filename": "image-096-blog-how-to-serve-a-subpoena-oklahoma-card.png",
+      "page": "/blog/how-to-serve-a-subpoena-oklahoma",
+      "slot": "card",
+      "dimensions": "1200x800",
+      "ratio": "3:2",
+      "alt_text": "",
+      "decorative": true,
+      "tags": [
+        "subpoena",
+        "how-to",
+        "instruction",
+        "checklist",
+        "oklahoma",
+        "step-by-step"
+      ],
+      "palette": [
+        "#f7fafc",
+        "#4a5568",
+        "#c9a96e",
+        "#d4c5b0"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-096",
+      "description": "Step-by-step instructional flat-lay showing a subpoena document, highlighter, sticky notes with step numbers, and a checklist, warm natural lighting, organized educational aesthetic, muted warm tones, no readable text",
+      "file_size_bytes": 1594416,
+      "file_path": "images/image-096-blog-how-to-serve-a-subpoena-oklahoma-card.png"
+    },
+    {
+      "id": 97,
+      "filename": "image-097-blog-how-to-serve-divorce-papers-oklahoma-card.png",
+      "page": "/blog/how-to-serve-divorce-papers-oklahoma",
+      "slot": "card",
+      "dimensions": "1200x800",
+      "ratio": "3:2",
+      "alt_text": "",
+      "decorative": true,
+      "tags": [
+        "divorce",
+        "sensitive",
+        "documents",
+        "compassionate",
+        "professional",
+        "service"
+      ],
+      "palette": [
+        "#5a5a5a",
+        "#d4c5b0",
+        "#8fa8c8",
+        "#f0ece4"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-097",
+      "description": "Sensitive document handling scene, sealed envelope on a desk with a single flower in a vase nearby, warm soft lighting, compassionate professional atmosphere, documentary still life, muted warm tones, no text",
+      "file_size_bytes": 1476466,
+      "file_path": "images/image-097-blog-how-to-serve-divorce-papers-oklahoma-card.png"
+    },
+    {
+      "id": 98,
+      "filename": "image-098-blog-how-to-serve-eviction-notices-in-oklahoma-card.png",
+      "page": "/blog/how-to-serve-eviction-notices-in-oklahoma",
+      "slot": "card",
+      "dimensions": "1200x800",
+      "ratio": "3:2",
+      "alt_text": "Professional posting an eviction notice on an apartment door",
+      "decorative": false,
+      "tags": [
+        "eviction",
+        "notice",
+        "posting",
+        "apartment",
+        "procedure",
+        "oklahoma"
+      ],
+      "palette": [
+        "#4a3f35",
+        "#c9a96e",
+        "#a0aec0",
+        "#e2d8c8"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-098",
+      "description": "Eviction notice being posted on an apartment door, professional hand visible taping the notice, warm neutral lighting, documentary photography showing proper legal procedure, muted tones, no readable text on notice",
+      "file_size_bytes": 1498178,
+      "file_path": "images/image-098-blog-how-to-serve-eviction-notices-in-oklahoma-card.png"
+    },
+    {
+      "id": 99,
+      "filename": "image-099-blog-become-process-server-oklahoma-card.png",
+      "page": "/blog/become-process-server-oklahoma",
+      "slot": "card",
+      "dimensions": "1200x800",
+      "ratio": "3:2",
+      "alt_text": "",
+      "decorative": true,
+      "tags": [
+        "training",
+        "certification",
+        "study",
+        "oklahoma",
+        "career",
+        "education"
+      ],
+      "palette": [
+        "#3d2b1f",
+        "#8b7355",
+        "#c9a96e",
+        "#f0ebe3"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-099",
+      "description": "Training materials and study guides on a desk with a notebook, pen, and Oklahoma state outline, warm study lamp lighting, educational professional aesthetic, documentary still life, muted warm tones, no readable text",
+      "file_size_bytes": 1698286,
+      "file_path": "images/image-099-blog-become-process-server-oklahoma-card.png"
+    },
+    {
+      "id": 100,
+      "filename": "image-100-blog-oklahoma-landlord-tenant-eviction-timelines-card.png",
+      "page": "/blog/oklahoma-landlord-tenant-eviction-timelines",
+      "slot": "card",
+      "dimensions": "1200x800",
+      "ratio": "3:2",
+      "alt_text": "",
+      "decorative": true,
+      "tags": [
+        "timeline",
+        "calendar",
+        "eviction",
+        "schedule",
+        "landlord-tenant",
+        "oklahoma"
+      ],
+      "palette": [
+        "#4a5568",
+        "#a0aec0",
+        "#c9a96e",
+        "#f7fafc"
+      ],
+      "license_note": "AI-generated image via DALL-E style model for Just Legal Solutions website use",
+      "source_agent_id": "img-agent-100",
+      "description": "Timeline concept with a calendar, clock, and legal documents arranged to show scheduling, warm desk lighting, professional still life photography, muted warm tones conveying timeline importance, no readable dates",
+      "file_size_bytes": 1676084,
+      "file_path": "images/image-100-blog-oklahoma-landlord-tenant-eviction-timelines-card.png"
+    }
+  ]
+}
