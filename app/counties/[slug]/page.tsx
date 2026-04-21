@@ -9,8 +9,10 @@ import {
   extractTitle,
   extractDescription,
   extractFAQs,
+  generateCountyFAQs,
   slugToCountyName,
 } from '@/lib/markdown-utils';
+import { getCountyData } from '@/lib/county-data';
 
 export function generateStaticParams(): { slug: string }[] {
   return getCountySlugs().map((slug) => ({ slug }));
@@ -23,8 +25,8 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const countyName = slugToCountyName(slug);
-  const title = `${countyName} Process Server OK | Starts at $30`;
-  const description = `Licensed process server in ${countyName}, OK. Service starts at $30 single-attempt, $60 standard; rush & same-day available. GPS-tracked, court-ready affidavits. (539) 367-6832`;
+  const title = `${countyName} Process Server OK | Licensed & Bonded`;
+  const description = `Licensed and bonded process server in ${countyName}, Oklahoma. Standard, rush, and same-day service with GPS-tracked attempts and notarized affidavits. See current rates at /pricing. Call (539) 367-6832.`;
 
   return {
     title,
@@ -64,7 +66,22 @@ export default async function CountyPage({ params }: { params: Promise<{ slug: s
   const description =
     extractDescription(content) ||
     `Licensed process server throughout ${countyName}, Oklahoma. Same-day service available.`;
-  const faqs = extractFAQs(content);
+  const mdFaqs = extractFAQs(content);
+  const countyDatum = getCountyData(slug);
+  const generatedFaqs = countyDatum
+    ? generateCountyFAQs(
+        countyDatum.countyName,
+        countyDatum.countySeat,
+        countyDatum.courthouseAddress
+      )
+    : [];
+  const seenQuestions = new Set<string>();
+  const faqs = [...mdFaqs, ...generatedFaqs].filter((f) => {
+    const key = f.question.toLowerCase().trim();
+    if (seenQuestions.has(key)) return false;
+    seenQuestions.add(key);
+    return true;
+  });
 
   const breadcrumbItems = [
     { name: 'Home', url: '/' },

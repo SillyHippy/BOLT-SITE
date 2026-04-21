@@ -25,10 +25,10 @@ export const metadata: Metadata = {
 
 const pageFAQs: { question: string; answer: string }[] = [
   { question: 'How long does process service take in Wagoner County?', answer: 'Standard service includes a first attempt within 48 hours. Most Wagoner County assignments complete within 3-5 days. We understand many residents work in Tulsa, so we offer evening and weekend attempts when needed.' },
-  { question: 'Do you serve papers at Lake Fort Gibson properties?', answer: 'Yes. We serve at lake houses and properties around Fort Gibson Lake. Many lake properties are seasonal — occupied May through September but vacant in winter. We verify occupancy patterns when possible.' },
-  { question: 'What is the difference between Coweta and Wagoner for service?', answer: 'Coweta is larger, newer, and more suburban — most residents commute to Tulsa. Wagoner is the historic county seat with a mix of downtown, lake properties, and established neighborhoods. We adjust our approach based on which community we are serving.' },
+  { question: 'Do you serve papers at Lake Fort Gibson properties?', answer: 'Yes. We serve at lake houses and properties around Fort Gibson Lake. Many lake properties are seasonal, occupied May through September but often vacant in winter. We verify occupancy patterns when possible.' },
+  { question: 'What is the difference between Coweta and Wagoner for service?', answer: 'Coweta is larger, newer, and more suburban, with most residents commuting to Tulsa. Wagoner is the historic county seat with a mix of downtown, lake properties, and established neighborhoods. We adjust our approach based on which community we are serving.' },
   { question: 'Do you file proof of service with the Wagoner County Clerk?', answer: 'Yes. We can file affidavits of service with the Wagoner County Clerk at 307 E Cherokee St in Wagoner. Note: the courthouse closes at 4:30 PM, earlier than surrounding counties.' },
-  { question: 'How much does it cost to serve someone in Wagoner County?', answer: 'Standard service starts at $100 for up to 3 attempts within Wagoner County. Rush service is $150. Same-day emergency service is $265. Travel to outlying areas like Hulbert or Porter may incur mileage fees.' },
+  { question: 'How much does it cost to serve someone in Wagoner County?', answer: 'We use tiered pricing in Wagoner County: standard, rush, same-day, and 24/7 emergency service. See current rates on our pricing page at /pricing. Every tier includes GPS-tracked attempts and a notarized affidavit ready for filing with the Wagoner County Clerk at 307 E Cherokee St.' },
   { question: 'Can you handle rush service to Coweta for last-minute court filings?', answer: 'Yes. Coweta is our most frequent Wagoner County destination due to its growth and proximity to Tulsa. Rush and same-day service to Coweta is available daily.' },
 ];
 
@@ -99,7 +99,7 @@ export default function WagonerCountyCountyPage() {
         <section className="bg-white rounded-2xl shadow-lg overflow-hidden">
           <div className="p-6 bg-gradient-to-r from-slate-700 to-slate-800 text-white">
             <h2 className="text-2xl font-bold mb-1">Courthouse &amp; Filing Information</h2>
-            <p className="text-slate-300">Judicial District 15 — Wagoner County</p>
+            <p className="text-slate-300">Judicial District 15, Wagoner County</p>
           </div>
           <div className="p-8 space-y-4">
             <div className="bg-blue-50 border border-blue-200 rounded-xl p-5">
@@ -128,19 +128,19 @@ export default function WagonerCountyCountyPage() {
             <p className="text-gray-700 mb-6 max-w-3xl">Wagoner County blends small-town Oklahoma heritage with rapid suburban growth. From the booming bedroom community of Coweta to the lakeside neighborhoods of Fort Gibson, effective service requires understanding the county&apos;s unique commuter patterns and seasonal dynamics.</p>
             <div className="grid md:grid-cols-2 gap-6">
               <div className="bg-gray-50 p-5 rounded-lg">
-                <h3 className="font-semibold text-lg text-gray-900 mb-2">Coweta — The Growth Center</h3>
-                <p className="text-gray-700 text-sm">Once a quiet agricultural town, now one of the fastest-growing communities in eastern Oklahoma. New subdivisions like <strong>Woodlake</strong> and <strong>Summerfield</strong> spread south toward the Arkansas River. Most residents work in Tulsa (25-30 minute commute) — daytime residential service often fails.</p>
+                <h3 className="font-semibold text-lg text-gray-900 mb-2">Coweta, The Growth Center</h3>
+                <p className="text-gray-700 text-sm">Once a quiet agricultural town, now one of the fastest-growing communities in eastern Oklahoma. New subdivisions like <strong>Woodlake</strong> and <strong>Summerfield</strong> spread south toward the Arkansas River. Most residents work in Tulsa (25-30 minute commute), daytime residential service often fails.</p>
               </div>
               <div className="bg-gray-50 p-5 rounded-lg">
-                <h3 className="font-semibold text-lg text-gray-900 mb-2">Wagoner — Historic County Seat</h3>
+                <h3 className="font-semibold text-lg text-gray-900 mb-2">Wagoner, Historic County Seat</h3>
                 <p className="text-gray-700 text-sm">Charming downtown, historic homes, and the <strong>Wagoner County Courthouse</strong> (307 E Cherokee St). <strong>Lake Fort Gibson</strong> borders the northern edge, bringing seasonal population fluctuations. Commercial strip along <strong>U.S. Highway 69</strong>.</p>
               </div>
               <div className="bg-gray-50 p-5 rounded-lg">
-                <h3 className="font-semibold text-lg text-gray-900 mb-2">Okay &amp; Fort Gibson — Lake Communities</h3>
+                <h3 className="font-semibold text-lg text-gray-900 mb-2">Okay &amp; Fort Gibson, Lake Communities</h3>
                 <p className="text-gray-700 text-sm">Sitting on the shores of <strong>Fort Gibson Lake</strong>. Mix of year-round residents and seasonal lake house owners. Summer population surges May–September; some lake communities are nearly empty November–March.</p>
               </div>
               <div className="bg-gray-50 p-5 rounded-lg">
-                <h3 className="font-semibold text-lg text-gray-900 mb-2">Porter &amp; Hulbert — Rural Wagoner County</h3>
+                <h3 className="font-semibold text-lg text-gray-900 mb-2">Porter &amp; Hulbert, Rural Wagoner County</h3>
                 <p className="text-gray-700 text-sm">Porter sits near the Rogers County line with <strong>Route 66</strong> corridor frontage. Hulbert in eastern Wagoner County lies within <strong>Cherokee Nation</strong> jurisdiction. Both feature rural route addressing and agricultural schedules.</p>
               </div>
             </div>
@@ -188,7 +188,7 @@ export default function WagonerCountyCountyPage() {
         <section className="bg-white rounded-2xl shadow-lg overflow-hidden">
           <div className="p-6 bg-gradient-to-r from-blue-700 to-blue-800 text-white">
             <h2 className="text-2xl font-bold mb-1 flex items-center gap-2"><DollarSign className="h-6 w-6" /> Pricing for Wagoner County</h2>
-            <p className="text-blue-100">Flat rates — no hidden mileage fees in Wagoner County</p>
+            <p className="text-blue-100">Transparent tiered pricing for Wagoner County, full rates on our pricing page</p>
           </div>
           <div className="p-8">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
@@ -212,7 +212,7 @@ export default function WagonerCountyCountyPage() {
               <Link href="/pricing" className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-xl transition-colors shadow">
                 <DollarSign className="h-4 w-4" /> View Current Rates &amp; Full Pricing
               </Link>
-              <p className="text-xs text-gray-500 mt-3">All rates are flat — no hidden mileage fees in Wagoner County.</p>
+              <p className="text-xs text-gray-500 mt-3">Standard, rush, and same-day tiers available in Wagoner County. See current rates at /pricing.</p>
             </div>
           </div>
         </section>
@@ -271,7 +271,7 @@ export default function WagonerCountyCountyPage() {
         <section className="bg-gradient-to-r from-blue-700 to-blue-800 text-white rounded-2xl shadow-lg">
           <div className="p-8 text-center">
             <h2 className="text-3xl font-bold mb-3">Ready to Serve Papers in Wagoner County?</h2>
-            <p className="text-xl mb-6 text-blue-100">GPS-tracked, notarized, court-ready — in Wagoner County.</p>
+            <p className="text-xl mb-6 text-blue-100">GPS-tracked, notarized, and court-ready in Wagoner County.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:5393676832" className="bg-white text-blue-700 hover:bg-blue-50 px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-lg flex items-center justify-center gap-2">
                 <Phone className="h-5 w-5" /> Call (539) 367-6832

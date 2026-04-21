@@ -97,7 +97,49 @@ export function extractFAQs(content: string): Array<{ question: string; answer: 
   return faqs;
 }
 
-// ── Location page utilities ──
+/**
+ * Generate 6 county-specific FAQs for use on both static county pages and the
+ * dynamic [slug] route. No dollar amounts (routes cost questions to /pricing).
+ * No em-dashes. Each answer names the county or county seat to keep Google
+ * from deduplicating identical FAQ schema across pages.
+ */
+export function generateCountyFAQs(
+  countyName: string,
+  countySeat: string,
+  courthouseAddress?: string
+): Array<{ question: string; answer: string }> {
+  const addrClause = courthouseAddress
+    ? ` at ${courthouseAddress}`
+    : ` in ${countySeat}`;
+  return [
+    {
+      question: `How much does it cost to hire a process server in ${countyName}?`,
+      answer: `We use tiered pricing across ${countyName}: standard, rush, same-day, and 24/7 emergency service. See current rates on our pricing page at /pricing. Every tier includes GPS-tracked attempts, timestamped photo evidence, and a notarized affidavit of service ready for filing.`,
+    },
+    {
+      question: `How quickly can you serve papers in ${countyName}?`,
+      answer: `Standard service in ${countySeat} and the rest of ${countyName} typically begins within 48 hours and completes within 3 to 5 business days. Rush and same-day options are available throughout ${countyName} for tight court deadlines. Call (539) 367-6832 before noon for same-day dispatch.`,
+    },
+    {
+      question: `Where is the ${countyName} Courthouse and how do I file proof of service?`,
+      answer: `The ${countyName} Courthouse is located${addrClause}. Our servers return stamped, notarized affidavits of service ready for filing with the court clerk, typically within 48 to 72 hours of a successful service attempt. Electronic copies are delivered by email with physical returns following by mail.`,
+    },
+    {
+      question: `Can you serve papers in rural areas of ${countyName}?`,
+      answer: `Yes. Our servers are familiar with rural-route addressing, ranch and farm properties, gated communities, and remote residences across ${countyName}. We plan routing carefully for outlying towns and unincorporated areas, and we build appropriate drive time into every attempt. No location surcharges apply within ${countyName}.`,
+    },
+    {
+      question: `What if the person I need served in ${countyName} is avoiding service or hard to locate?`,
+      answer: `We offer skip tracing and stakeout service throughout ${countyName} when a defendant is evading service or the address is outdated. Our servers use database searches, neighbor interviews, and employment checks to locate subjects and complete service. Call (539) 367-6832 to discuss a difficult service in ${countySeat} or anywhere in the county.`,
+    },
+    {
+      question: `Are your ${countyName} process servers licensed and bonded?`,
+      answer: `Yes. Just Legal Solutions is licensed under 12 O.S. section 158.1 and carries the required $5,000 surety bond on every server we deploy in ${countyName}. Every assignment is GPS-verified, photographed, and returned with a notarized affidavit. Request service through our contact page or call (539) 367-6832.`,
+    },
+  ];
+}
+
+// Location page utilities
 
 const LOCATIONS_DIR = join(process.cwd(), 'content', 'locations');
 

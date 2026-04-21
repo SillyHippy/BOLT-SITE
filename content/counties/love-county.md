@@ -1,12 +1,12 @@
 ---
-title: "Process Server in Love County, Oklahoma | Okta Process Serving"
+title: "Process Server in Love County, Oklahoma | Just Legal Solutions"
 description: "Professional process serving in Love County, Oklahoma. Serving Marietta, Thackerville, WinStar Casino area, and all communities. Fast, reliable legal document delivery."
 h1: "Process Server in Love County, Oklahoma"
 ---
 
 ## Love County Process Serving Services
 
-Okta Process Serving provides professional, efficient, and legally compliant process serving throughout **Love County, Oklahoma**. Whether you need to serve legal documents in the county seat of **Marietta**, near the bustling **WinStar World Casino** in Thackerville, or in the rural communities along the Texas border, our experienced process servers ensure timely and accurate delivery.
+Just Legal Solutions provides professional, efficient, and legally compliant process serving throughout **Love County, Oklahoma**. Whether you need to serve legal documents in the county seat of **Marietta**, near the bustling **WinStar World Casino** in Thackerville, or in the rural communities along the Texas border, our experienced process servers ensure timely and accurate delivery.
 
 Situated on the **Red River border with Texas**, Love County combines small-town charm with world-class entertainment. The county has experienced steady growth, with the population reaching approximately **10,423 residents** as of 2024—reflecting its strategic position between Oklahoma City and Dallas-Fort Worth.
 

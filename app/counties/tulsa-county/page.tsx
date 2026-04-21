@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Tulsa County Process Server, OK | Same-Day Available',
-  description: 'Process serving in Tulsa County—covering all cities, suburbs, and rural areas with professional, prompt legal document delivery.',
+  description: 'Process serving in Tulsa County, covering all cities, suburbs, and rural areas with professional, prompt legal document delivery.',
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/counties/tulsa-county',
@@ -163,7 +163,7 @@ export default function TulsaCountyProcessServer() {
         image="https://justlegalsolutions.org/images/jls-logo.webp"
         url="https://justlegalsolutions.org/counties/tulsa-county"
         title="Tulsa County Process Server | All Cities & Towns"
-        description="Tulsa County's process server—serving Tulsa, Broken Arrow, Owasso, Bixby, Jenks, Sand Springs, Glenpool, Collinsville, and all communities. Fast, local legal document delivery for every need."
+        description="Tulsa County's process server, serving Tulsa, Broken Arrow, Owasso, Bixby, Jenks, Sand Springs, Glenpool, Collinsville, and all communities. Fast, local legal document delivery for every need."
         breadcrumbs={[
           { name: 'Home', item: 'https://justlegalsolutions.org/' },
           { name: 'Counties', item: 'https://justlegalsolutions.org/counties' },
@@ -680,7 +680,7 @@ export default function TulsaCountyProcessServer() {
               </div>
               <div className="text-center mt-12">
                 <p className="text-2xl text-gray-200 font-medium leading-relaxed">
-                  From downtown Tulsa&apos;s corporate towers to rural county borders — complete professional coverage
+                  From downtown Tulsa&apos;s corporate towers to rural county borders, with complete professional coverage
                 </p>
                 <div className="mt-6 flex justify-center gap-4">
                   <Link href="/contact" className="bg-yellow-500 hover:bg-yellow-400 text-black px-8 py-3 rounded-full font-bold transition-colors duration-300">
@@ -955,7 +955,7 @@ export default function TulsaCountyProcessServer() {
               <div className="text-center">
                 <Shield className="w-12 h-12 text-blue-600 mx-auto mb-4" />
                 <h3 className="font-bold text-gray-900 mb-2">Licensed & Bonded</h3>
-                <p className="text-gray-600">Fully licensed with Tulsa County Clerk, $2,000 bond, and comprehensive insurance coverage.</p>
+                <p className="text-gray-600">Fully licensed with the Tulsa County Clerk, a $5,000 statutory surety bond, and comprehensive E&amp;O insurance coverage.</p>
               </div>
               <div className="text-center">
                 <MapPin className="w-12 h-12 text-blue-600 mx-auto mb-4" />
@@ -1403,7 +1403,7 @@ export default function TulsaCountyProcessServer() {
                     Local Insights & Community Involvement
                   </h4>
                   <ul className="text-gray-700 space-y-2">
-                    <li>• Sponsor of Tulsa County Bar Association annual seminar—&ldquo;Process Serving Best Practices&rdquo;</li>
+                    <li>• Sponsor of Tulsa County Bar Association annual seminar, &ldquo;Process Serving Best Practices&rdquo;</li>
                     <li>• Volunteer process-serving clinic for pro bono family-law cases at Legal Aid Services Tulsa</li>
                     <li>• Host quarterly &ldquo;Meet Your Server&rdquo; webinars for Tulsa attorneys</li>
                   </ul>
@@ -1488,7 +1488,7 @@ export default function TulsaCountyProcessServer() {
                   Holiday Notice
                 </h4>
                 <p className="text-sm text-yellow-800">
-                  <strong>Thanksgiving & Christmas:</strong> Allow an extra 24 hours during major holidays—our 24/7 emergency line remains open.
+                  <strong>Thanksgiving & Christmas:</strong> Allow an extra 24 hours during major holidays; our 24/7 emergency line remains open.
                 </p>
               </div>
               

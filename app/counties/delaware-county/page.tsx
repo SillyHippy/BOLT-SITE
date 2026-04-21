@@ -3,6 +3,8 @@ import Link from 'next/link';
 import { Phone, FileText, MapPin, DollarSign, AlertCircle, Calendar, Users, Building } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import GoogleMapsEmbed from '@/components/ui/google-maps-embed';
+import { getCountyData } from '@/lib/county-data';
+import { generateCountyFAQs } from '@/lib/markdown-utils';
 
 export const metadata: Metadata = {
   title: 'Process Server Delaware County, OK | Jay',
@@ -23,9 +25,8 @@ export const metadata: Metadata = {
   },
 };
 
-const pageFAQs: { question: string; answer: string }[] = [
-
-];
+const COUNTY = getCountyData('delaware-county')!;
+const pageFAQs = generateCountyFAQs(COUNTY.countyName, COUNTY.countySeat, COUNTY.courthouseAddress);
 
 const employers: { name: string; address: string; industry: string; notes: string }[] = [
   { name: 'Delaware Tribe of Indians', address: '5100 Tannerway Dr, Bartlesville, OK 74006', industry: 'Tribal Government', notes: 'Tribal HR and legal compliance' },
@@ -65,7 +66,7 @@ export default function DelawareCountyCountyPage() {
           </div>
           
           <p className="text-xl text-blue-100 mb-8 max-w-3xl leading-relaxed">
-            Licensed process server in Delaware County, Oklahoma. Serving Jay, Grove, and all surrounding communities.
+            {COUNTY.heroLead}
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a href="tel:5393676832" className="bg-yellow-400 hover:bg-yellow-300 text-blue-900 font-bold py-4 px-8 rounded-xl text-center transition-all shadow-xl text-lg flex items-center justify-center gap-2">
@@ -92,7 +93,7 @@ export default function DelawareCountyCountyPage() {
         <section className="bg-white rounded-2xl shadow-lg overflow-hidden">
           <div className="p-6 bg-gradient-to-r from-slate-700 to-slate-800 text-white">
             <h2 className="text-2xl font-bold mb-1">Courthouse &amp; Filing Information</h2>
-            <p className="text-slate-300">Judicial District 13 — Delaware County</p>
+            <p className="text-slate-300">Judicial District 13, Delaware County</p>
           </div>
           <div className="p-8 space-y-4">
             <div className="bg-blue-50 border border-blue-200 rounded-xl p-5">
@@ -148,7 +149,7 @@ export default function DelawareCountyCountyPage() {
         <section className="bg-white rounded-2xl shadow-lg overflow-hidden">
           <div className="p-6 bg-gradient-to-r from-blue-700 to-blue-800 text-white">
             <h2 className="text-2xl font-bold mb-1 flex items-center gap-2"><DollarSign className="h-6 w-6" /> Pricing for Delaware County</h2>
-            <p className="text-blue-100">Flat rates — no hidden mileage fees in Delaware County</p>
+            <p className="text-blue-100">Transparent tiered pricing for Delaware County, full rates on our pricing page</p>
           </div>
           <div className="p-8">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
@@ -172,7 +173,7 @@ export default function DelawareCountyCountyPage() {
               <Link href="/pricing" className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-xl transition-colors shadow">
                 <DollarSign className="h-4 w-4" /> View Current Rates &amp; Full Pricing
               </Link>
-              <p className="text-xs text-gray-500 mt-3">All rates are flat — no hidden mileage fees in Delaware County.</p>
+              <p className="text-xs text-gray-500 mt-3">Standard, rush, and same-day tiers available in Delaware County. See current rates at /pricing.</p>
             </div>
           </div>
         </section>
@@ -231,7 +232,7 @@ export default function DelawareCountyCountyPage() {
         <section className="bg-gradient-to-r from-blue-700 to-blue-800 text-white rounded-2xl shadow-lg">
           <div className="p-8 text-center">
             <h2 className="text-3xl font-bold mb-3">Ready to Serve Papers in Delaware County?</h2>
-            <p className="text-xl mb-6 text-blue-100">GPS-tracked, notarized, court-ready — in Delaware County.</p>
+            <p className="text-xl mb-6 text-blue-100">GPS-tracked, notarized, and court-ready in Delaware County.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:5393676832" className="bg-white text-blue-700 hover:bg-blue-50 px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-lg flex items-center justify-center gap-2">
                 <Phone className="h-5 w-5" /> Call (539) 367-6832
@@ -257,7 +258,7 @@ export default function DelawareCountyCountyPage() {
         url="https://justlegalsolutions.org/counties/delaware-county"
         title="Process Server Delaware County, OK | Jay"
         description="Licensed process server in Delaware County, Oklahoma. Serving Jay, Grove, and all surrounding communities."
-        faqItems={pageFAQs.slice(0, 4)}
+        faqItems={pageFAQs.slice(0, 6)}
         aggregateRating={{ ratingValue: 4.9, reviewCount: 156 }}
         breadcrumbItems={[
           { name: 'Home', item: 'https://justlegalsolutions.org' },

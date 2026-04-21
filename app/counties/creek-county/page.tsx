@@ -104,7 +104,7 @@ export default function CreekCountyProcessServer() {
             state: "Oklahoma"
           }
         ]}
-        priceRange="$30-$200"
+        priceRange="Tiered"
         telephone="+1-539-367-6832"
         address={{
           streetAddress: "County-wide Service",
