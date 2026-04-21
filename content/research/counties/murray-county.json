@@ -1,0 +1,131 @@
+{
+  "slug": "murray-county",
+  "countyName": "Murray County",
+  "countySeat": "Sulphur",
+  "population": 13754,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "Murray County Courthouse",
+    "street": "1001 W. Wyandotte Ave",
+    "city": "Sulphur",
+    "state": "OK",
+    "zip": "73086",
+    "phone": "580-622-3223",
+    "hours": "Monday-Friday 8:00 AM - 4:30 PM, closed 12:00 PM - 1:00 PM for lunch",
+    "judicialDistrict": "20th Judicial District",
+    "oscnDbKey": "Murray"
+  },
+  "majorCities": [
+    "Sulphur",
+    "Davis",
+    "Dougherty",
+    "Hickory"
+  ],
+  "neighboringCounties": [
+    "pontotoc-county",
+    "johnston-county",
+    "carter-county",
+    "garvin-county"
+  ],
+  "tribalJurisdiction": [
+    "Chickasaw Nation"
+  ],
+  "majorEmployers": [
+    {
+      "name": "Chickasaw Nation (including Artesian Hotel, Casino & Spa, Bedre Fine Chocolate, Chickasaw Cultural Center, and Sulphur Area Office)",
+      "street": "1001 W. 1st St (Artesian Hotel); 4970 W. Highway 7 (Sulphur Area Office); 14 W. Muskogee Ave (Bedre Cafe)",
+      "city": "Sulphur",
+      "zip": "73086",
+      "employees": 600,
+      "industry": "Government / Tribal / Hospitality / Gaming / Manufacturing",
+      "notes": "Largest employer in Murray County with approximately 600 employees across multiple businesses including tourism, hospitality, retail, and government services"
+    },
+    {
+      "name": "Sulphur Public Schools",
+      "street": "1021 West 9th Street",
+      "city": "Sulphur",
+      "zip": "73086",
+      "employees": 150,
+      "industry": "Education",
+      "notes": "Public K-12 school district serving Sulphur area students"
+    },
+    {
+      "name": "Arbuckle Memorial Hospital",
+      "street": "2011 W. Broadway Ave",
+      "city": "Sulphur",
+      "zip": "73086",
+      "employees": 125,
+      "industry": "Healthcare",
+      "notes": "25-bed critical access hospital providing acute care, emergency, and outpatient services to Murray County residents"
+    },
+    {
+      "name": "Davis Public Schools",
+      "street": "400 East Atlanta Ave",
+      "city": "Davis",
+      "zip": "73030",
+      "employees": 100,
+      "industry": "Education",
+      "notes": "Public K-12 school district serving Davis area students, including students from Dougherty"
+    },
+    {
+      "name": "Oklahoma School for the Deaf",
+      "street": "1100 East Oklahoma Ave",
+      "city": "Sulphur",
+      "zip": "73086",
+      "employees": 80,
+      "industry": "Education / State Government",
+      "notes": "State-funded residential school serving deaf and hard-of-hearing students ages 2 through 18 from across Oklahoma since 1908"
+    },
+    {
+      "name": "Big Canyon / Dolese Bros. Co.",
+      "street": "Big Canyon",
+      "city": "Sulphur",
+      "zip": "73086",
+      "employees": 50,
+      "industry": "Mining / Limestone Quarry",
+      "notes": "Historic limestone quarry operation that has been a significant employer in Murray County since the 1890s"
+    }
+  ],
+  "uniqueFacts": [
+    "Murray County was originally part of the Chickasaw Nation's Pickens County before Oklahoma statehood in 1907, and the area was known as 'the Prairie of Eden' for its abundant grasslands and game",
+    "The county is home to the Chickasaw National Recreation Area (formerly Platt National Park, established 1906), which was Oklahoma's first national park and still offers free admission as guaranteed by the Chickasaw Nation's original agreement with the federal government",
+    "Turner Falls Park near Davis features Oklahoma's tallest waterfall at 77 feet, and the park is one of three geological windows into the planet's past along with the Grand Canyon and the Black Hills",
+    "On New Year's Eve 1947, the Flying L Ranch near Davis was the site of the marriage between Roy Rogers, 'King of the Cowboys,' and Dale Evans",
+    "The Oklahoma School for the Deaf has been located in Sulphur since 1908, making it one of the oldest continuously operating schools for the deaf in the region"
+  ],
+  "processServingNotes": [
+    "Murray County is in the 20th Judicial District of Oklahoma. Process servers must be licensed and can serve statewide, but authority is limited to serving process issued by the court of the county that granted the license. Courthouse hours are 8:00 AM to 4:30 PM Monday through Friday with a lunch closure from 12:00 PM to 1:00 PM.",
+    "The Chickasaw Nation has significant jurisdictional presence in Murray County, which may affect service of process on tribal members and tribal entities. Process servers should verify if recipients are enrolled Chickasaw Nation citizens, as this may impact service requirements.",
+    "Murray County has multiple Chickasaw Nation business locations including the Artesian Hotel, Chickasaw Cultural Center, and Sulphur Area Office that may require specialized service procedures. Always confirm current addresses as tribal operations may move between facilities."
+  ],
+  "heroLead": "Nestled in the Arbuckle Mountains of south-central Oklahoma, Murray County is a 425-square-mile gem named for 'Alfalfa Bill' Murray, featuring the mineral springs of Sulphur, the cascading waters of Turner Falls, and the Chickasaw National Recreation Area. With a population of approximately 13,754 residents, the county's economy thrives on tourism, Chickasaw Nation enterprises, education, and healthcare anchored by Arbuckle Memorial Hospital. Whether you need legal documents served at the courthouse in Sulphur, at a resort property, or anywhere across this historic Chickasaw Nation territory, our experienced team ensures timely and compliant delivery throughout Murray County. Contact us at (539) 367-6832 or visit /contact to get started.",
+  "faqs": [
+    {
+      "question": "Where is the Murray County Courthouse located and what are the filing hours?",
+      "answer": "The Murray County Courthouse is located at 1001 W. Wyandotte Ave in Sulphur, Oklahoma 73086. The Court Clerk's office is open Monday through Friday from 8:00 AM to 4:30 PM, but closes for lunch from 12:00 PM to 1:00 PM. The Court Clerk can be reached at 580-622-3223. For process serving assistance in Murray County, contact Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "Which tribal nation has jurisdiction in Murray County?",
+      "answer": "Murray County is located entirely within the Chickasaw Nation's tribal jurisdiction area. The Chickasaw Nation is headquartered in Ada, Oklahoma, and operates multiple businesses and government services in Murray County including the Artesian Hotel, Casino and Spa, the Chickasaw Cultural Center, Bedre Fine Chocolate, and the Sulphur Area Office. Process servers should be aware that service on tribal members or tribal entities may have specific requirements."
+    },
+    {
+      "question": "What is the population and geography of Murray County?",
+      "answer": "Murray County has a population of approximately 13,754 residents (2024 estimate) and covers 425 square miles, making it the third-smallest county in Oklahoma by land area. The county is located in south-central Oklahoma and features diverse geography including the Sandstone Hills in the northern section suitable for farming, and the Arbuckle Mountains in the southern portion with rolling hills and rock outcrops. Major water features include the Washita River and Lake of the Arbuckles within the Chickasaw National Recreation Area."
+    },
+    {
+      "question": "What are the major cities and towns in Murray County?",
+      "answer": "Murray County has four incorporated municipalities: Sulphur (the county seat with approximately 4,800 residents), Davis (approximately 2,800 residents), Dougherty (approximately 215 residents), and Hickory. Sulphur serves as the commercial and government center and is home to the Chickasaw National Recreation Area. Davis is known for Turner Falls Park featuring Oklahoma's tallest waterfall. For process serving needs in any of these communities, contact Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "What major employers drive the Murray County economy?",
+      "answer": "The Chickasaw Nation is the largest employer in Murray County with approximately 600 employees across its hospitality, gaming, retail, and government operations. Other major employers include Sulphur Public Schools, Davis Public Schools, Arbuckle Memorial Hospital (a 25-bed critical access hospital), the Oklahoma School for the Deaf, and limestone quarry operations at Big Canyon. Tourism is a significant economic driver due to the Chickasaw National Recreation Area and Turner Falls Park. The county has historically been known as the center of 'Hereford Heaven' for its cattle ranching heritage."
+    },
+    {
+      "question": "What makes Murray County unique in Oklahoma history?",
+      "answer": "Murray County was named for William H. 'Alfalfa Bill' Murray, president of the 1906 Oklahoma Constitutional Convention and later governor. The county's Sulphur area was originally called Sulphur Springs and became one of Oklahoma's earliest tourist destinations due to its mineral springs believed to have healing properties. In 1902, the Chickasaw and Choctaw Nations ceded 640 acres to the federal government to create the Sulphur Springs Reservation, which became Platt National Park in 1906 and is now the Chickasaw National Recreation Area. The area was the site of Roy Rogers and Dale Evans' 1947 wedding at the Flying L Ranch near Davis."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

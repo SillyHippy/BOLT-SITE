@@ -1,0 +1,138 @@
+{
+  "slug": "canadian-county",
+  "countyName": "Canadian County",
+  "countySeat": "El Reno",
+  "population": 175829,
+  "populationYear": 2023,
+  "courthouse": {
+    "name": "Canadian County Judicial Building",
+    "street": "301 N. Choctaw Avenue",
+    "city": "El Reno",
+    "state": "OK",
+    "zip": "73036",
+    "phone": "405-295-6100",
+    "hours": "Monday-Friday 8:00 a.m. to 5:00 p.m.",
+    "judicialDistrict": "26th Judicial District",
+    "oscnDbKey": "canadian"
+  },
+  "majorCities": [
+    "El Reno",
+    "Yukon",
+    "Mustang",
+    "Piedmont",
+    "Calumet",
+    "Union City",
+    "Okarche",
+    "Geary"
+  ],
+  "neighboringCounties": [
+    "kingfisher-county",
+    "logan-county",
+    "oklahoma-county",
+    "cleveland-county",
+    "grady-county",
+    "caddo-county",
+    "blaine-county"
+  ],
+  "tribalJurisdiction": [
+    "Cheyenne and Arapaho Tribes"
+  ],
+  "majorEmployers": [
+    {
+      "name": "INTEGRIS Canadian Valley Hospital",
+      "street": "1201 Health Center Parkway",
+      "city": "Yukon",
+      "zip": "73099",
+      "employees": 800,
+      "industry": "Healthcare",
+      "notes": "Full-service acute care hospital serving Canadian County and western Oklahoma City metro"
+    },
+    {
+      "name": "Yukon Public Schools",
+      "street": "600 Maple Street",
+      "city": "Yukon",
+      "zip": "73099",
+      "employees": 1200,
+      "industry": "Education",
+      "notes": "Serves approximately 9,500 students across 12 schools in Yukon and western Oklahoma City"
+    },
+    {
+      "name": "Mustang Public Schools",
+      "street": "909 S. Mustang Road",
+      "city": "Mustang",
+      "zip": "73064",
+      "employees": 1000,
+      "industry": "Education",
+      "notes": "Named a top workplace in Oklahoma; serves students in Mustang and surrounding areas"
+    },
+    {
+      "name": "Federal Correctional Institution El Reno",
+      "street": "4205 Highway 66 West",
+      "city": "El Reno",
+      "zip": "73036",
+      "employees": 350,
+      "industry": "Government",
+      "notes": "Medium-security federal prison with adjacent minimum-security camp; houses approximately 1,100 inmates"
+    },
+    {
+      "name": "Redlands Community College",
+      "street": "1300 South Country Club Road",
+      "city": "El Reno",
+      "zip": "73036",
+      "employees": 300,
+      "industry": "Education",
+      "notes": "Founded in 1938 as El Reno Junior College; approximately 2,200 students per semester"
+    },
+    {
+      "name": "El Reno Public Schools",
+      "street": "100 South Bickford Avenue",
+      "city": "El Reno",
+      "zip": "73036",
+      "employees": 500,
+      "industry": "Education",
+      "notes": "Serves the El Reno area with multiple school sites"
+    }
+  ],
+  "uniqueFacts": [
+    "The historic Chisholm Trail passed through Canadian County, carrying over 10 million cattle, 1 million horses, and 35,000 cowboys during the 1800s",
+    "Fort Reno operated as a military post from 1875 to 1948 and served as a German POW camp during World War II, where over 1,300 German soldiers were interned",
+    "The county experienced three land openings: the Land Run of 1889, the Cheyenne-Arapaho Reservation opening of 1892, and the 1901 land lottery",
+    "El Reno is famous for its onion burgers, which originated from laid-off railroad employees who created the dish during the Great Depression",
+    "The county grew from 7,158 residents in 1890 to over 175,000 today, making it Oklahoma's fastest-growing county"
+  ],
+  "processServingNotes": [
+    "The 26th Judicial District serves Canadian County; the Court Clerk's office is located at 301 N. Choctaw Avenue in the Judicial Building in El Reno",
+    "Cases involving members of the Cheyenne and Arapaho Tribes may fall under tribal jurisdiction rather than state court jurisdiction, particularly for matters occurring on trust land",
+    "The Federal Correctional Institution El Reno requires proper BOP clearance and authorization for service of legal process on inmates"
+  ],
+  "heroLead": "Canadian County, Oklahoma's fastest-growing county, blends rich frontier heritage—from the Chisholm Trail and Fort Reno to the famous El Reno onion burger—with booming suburban expansion along the Oklahoma City metro. Whether serving legal documents in Yukon, Mustang, El Reno, or surrounding communities, Just Legal Solutions provides reliable process serving throughout the 26th Judicial District. Contact us today at (539) 367-6832 or visit our /contact page.",
+  "faqs": [
+    {
+      "question": "Where is the Canadian County Courthouse located?",
+      "answer": "The Canadian County Judicial Building is located at 301 N. Choctaw Avenue in El Reno, Oklahoma 73036. This building houses the Court Clerk, District Attorney, and District Court judges for the 26th Judicial District. The county administrative offices are located nearby at 201 N. Choctaw Avenue. For process serving inquiries, contact Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "How do I look up court records for Canadian County?",
+      "answer": "Court records can be accessed online through the Oklahoma State Courts Network (OSCN) at www.oscn.net by selecting 'Canadian' from the county dropdown menu. The system allows searching by case number, party name, or citation number. Note that most cases filed prior to 1994 are not available on OSCN and must be requested in person at the Court Clerk's office at 301 N. Choctaw Avenue in El Reno."
+    },
+    {
+      "question": "What tribal jurisdiction applies in Canadian County?",
+      "answer": "The Cheyenne and Arapaho Tribes maintain jurisdiction within Canadian County, which was part of the historic Cheyenne and Arapaho Reservation. Tribal jurisdiction applies to enrolled tribal members and may affect civil and criminal matters occurring on trust land or involving tribal members. Process servers should verify tribal affiliation and land status when serving legal documents that may involve tribal parties. For assistance, contact Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "What are the courthouse hours for filing or serving documents?",
+      "answer": "The Canadian County Judicial Building is open Monday through Friday from 8:00 a.m. to 5:00 p.m. The Court Clerk's office, located at 301 N. Choctaw Avenue in El Reno, handles all filings for the 26th Judicial District. It is recommended to arrive before 4:30 p.m. to allow adequate time for document processing."
+    },
+    {
+      "question": "Which cities and towns are in Canadian County?",
+      "answer": "Canadian County includes the cities of El Reno (county seat), Yukon, Mustang, Piedmont, Calumet, Union City, Okarche, and Geary (partially, as it extends into Blaine County). Portions of Oklahoma City also lie within Canadian County's eastern boundary. Each municipality may have its own municipal court with separate procedures for serving citations and small claims."
+    },
+    {
+      "question": "What major highways run through Canadian County?",
+      "answer": "Interstate 40 runs east-west through the center of Canadian County, providing primary access to El Reno, Yukon, and Mustang. U.S. Highway 81 (Choctaw Avenue in El Reno) runs north-south, and historic Route 66 (State Highway 66) crosses the county. Interstate 35 and Interstate 44 are easily accessible just east of the county line in Oklahoma County. For efficient process serving anywhere in Canadian County, contact Just Legal Solutions at (539) 367-6832."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

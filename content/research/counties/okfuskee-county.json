@@ -1,0 +1,130 @@
+{
+  "slug": "okfuskee-county",
+  "countyName": "Okfuskee County",
+  "countySeat": "Okemah",
+  "population": 11364,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "Okfuskee County Courthouse",
+    "street": "209 N. 3rd Street",
+    "city": "Okemah",
+    "state": "OK",
+    "zip": "74859",
+    "phone": "(918) 623-0525",
+    "hours": "Monday - Friday: 8:30 am - 4:30 pm",
+    "judicialDistrict": "24th Judicial District",
+    "oscnDbKey": "okfuskee"
+  },
+  "majorCities": [
+    "Okemah",
+    "Bearden",
+    "Boley",
+    "Castle",
+    "Clearview",
+    "IXL",
+    "Paden",
+    "Weleetka"
+  ],
+  "neighboringCounties": [
+    "creek-county",
+    "okmulgee-county",
+    "mcintosh-county",
+    "hughes-county",
+    "seminole-county",
+    "pottawatomie-county",
+    "lincoln-county"
+  ],
+  "tribalJurisdiction": [
+    "Muscogee (Creek) Nation",
+    "Thlopthlocco Tribal Town"
+  ],
+  "majorEmployers": [
+    {
+      "name": "Muscogee (Creek) Nation",
+      "street": "1800 E. Coplin Rd.",
+      "city": "Okemah",
+      "zip": "74859",
+      "employees": 4000,
+      "industry": "Tribal Government / Healthcare",
+      "notes": "Operates Creek Nation Community Hospital and various tribal services across 11 counties; headquarters in Okmulgee"
+    },
+    {
+      "name": "Creek Nation Community Hospital",
+      "street": "1800 E. Coplin Rd.",
+      "city": "Okemah",
+      "zip": "74859",
+      "employees": 150,
+      "industry": "Healthcare",
+      "notes": "25-bed critical access hospital operated by Muscogee Nation Department of Health; formerly Okfuskee County Hospital"
+    },
+    {
+      "name": "John H. Lilley Correctional Center",
+      "street": "105150 N. 3670 Rd.",
+      "city": "Boley",
+      "zip": "74829",
+      "employees": 250,
+      "industry": "Corrections",
+      "notes": "Minimum-security facility housing approximately 800 male inmates; originally built in 1923 as a tuberculosis sanitarium"
+    },
+    {
+      "name": "Okemah Public Schools",
+      "street": "107 W. Date Street",
+      "city": "Okemah",
+      "zip": "74859",
+      "employees": 122,
+      "industry": "Education",
+      "notes": "Independent School District I-026 serving Okemah and surrounding areas"
+    },
+    {
+      "name": "Wrangler VF Corporation",
+      "street": "",
+      "city": "Okemah",
+      "zip": "74859",
+      "employees": 200,
+      "industry": "Manufacturing / Apparel",
+      "notes": "Western wear manufacturing facility"
+    }
+  ],
+  "uniqueFacts": [
+    "Okfuskee County is the birthplace of Woody Guthrie, America's most famous folk singer, born in Okemah in 1912. The annual Woody Guthrie Folk Festival (WoodyFest) draws thousands of music fans to Okemah each July.",
+    "Boley, founded in 1904 on land belonging to a Creek freedman, is one of the few remaining historically all-Black towns in the United States and was once the largest all-Black community in the country.",
+    "The Okfuskee County Courthouse, built in 1926, is listed on the National Register of Historic Places (NR 84003377).",
+    "The county was originally part of the Creek Nation, Indian Territory. Its name comes from a historic Creek (Muscogee) town located in present-day Cleburne County, Alabama.",
+    "The John H. Lilley Correctional Center in Boley was originally built in 1923 as a tuberculosis sanitarium for African Americans, later became the Boley State School for Negro Boys, and was converted to a prison in 1983."
+  ],
+  "processServingNotes": [
+    "The 24th Judicial District serves Okfuskee County. The Court Clerk (918-623-0525) handles all court filings, while the County Clerk (918-623-0739) manages land records.",
+    "All of Okfuskee County lies within the Muscogee (Creek) Nation reservation as affirmed by McGirt v. Oklahoma (2020). Process servers must be aware that tribal jurisdiction applies to tribal citizens and certain criminal and civil matters may fall under tribal court jurisdiction.",
+    "Municipal courts operate in Bearden, Boley, Castle, Clearview, IXL, Mason, Okemah, Paden, and Weleetka, which may require separate service procedures for municipal matters."
+  ],
+  "heroLead": "Nestled in the Sandstone Hills of east-central Oklahoma, Okfuskee County is a land of rich Creek heritage, home to the legendary Woody Guthrie's birthplace of Okemah, and one of America's last historically all-Black towns in Boley. From its oil boom past to its modern agricultural and tribal economy, the county reflects the diverse tapestry of Oklahoma history. For reliable process serving throughout Okfuskee County and its reservation lands, contact Just Legal Solutions at (539) 367-6832 or visit /contact.",
+  "faqs": [
+    {
+      "question": "Where is the Okfuskee County Courthouse located and what are its hours?",
+      "answer": "The Okfuskee County Courthouse is located at 209 N. 3rd Street in Okemah, Oklahoma 74859. The courthouse is open Monday through Friday from 8:30 am to 4:30 pm. The Court Clerk's office, which handles marriage, divorce, probate, and civil court records, can be reached at (918) 623-0525. The County Clerk's office, which manages land records, can be reached at (918) 623-0739. For process serving assistance in Okfuskee County, call Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "What judicial district is Okfuskee County in?",
+      "answer": "Okfuskee County is part of Oklahoma's 24th Judicial District. The district attorney's office for District 24 is located at the Okfuskee County Courthouse, 209 N. 3rd Street, Okemah, OK 74859, and can be contacted at (918) 623-1411. The district court handles all civil, criminal, probate, and family law matters for the county."
+    },
+    {
+      "question": "Does tribal jurisdiction affect process serving in Okfuskee County?",
+      "answer": "Yes. The entire county lies within the Muscogee (Creek) Nation reservation as affirmed by the U.S. Supreme Court in McGirt v. Oklahoma (2020). The Muscogee (Creek) Nation and Thlopthlocco Tribal Town both have jurisdictional interests. This means certain legal matters involving tribal citizens may fall under tribal court jurisdiction. Process servers should verify whether cases involve tribal parties, as service requirements may differ. For process serving questions in Okfuskee County, contact Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "What major cities and towns are in Okfuskee County?",
+      "answer": "The county seat is Okemah, which is also the largest city with approximately 3,100 residents. Other incorporated towns include Bearden, Boley, Castle, Clearview, IXL, Paden, and Weleetka. Interstate 40 runs through the county, making Okemah approximately 70 miles east of Oklahoma City and providing convenient access to the county seat."
+    },
+    {
+      "question": "What are some notable historical facts about Okfuskee County?",
+      "answer": "Okfuskee County was created at Oklahoma statehood in 1907 from former Creek Nation lands. It is the birthplace of legendary folk singer Woody Guthrie (1912), and Oklahoma Governor Leon Chase Phillips also hailed from Okemah. Boley, one of the few remaining historically all-Black towns in America, was founded here in 1904. The county's name originates from a historic Creek (Muscogee) town in Alabama, and the area was settled by Creek Indians removed from the Southeast in the 1830s."
+    },
+    {
+      "question": "What are the major employers in Okfuskee County?",
+      "answer": "Major employers include the Muscogee (Creek) Nation (which operates the Creek Nation Community Hospital in Okemah), the John H. Lilley Correctional Center in Boley (housing approximately 800 inmates), Okemah Public Schools, Wrangler western wear manufacturing, and various oil and gas production companies. Agriculture and ranching also remain significant to the local economy. For business and legal service needs in the area, Just Legal Solutions provides process serving support at (539) 367-6832."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

@@ -1,0 +1,141 @@
+{
+  "slug": "comanche-county",
+  "countyName": "Comanche County",
+  "countySeat": "Lawton",
+  "population": 121396,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "Comanche County Courthouse",
+    "street": "315 SW 5th Street",
+    "city": "Lawton",
+    "state": "OK",
+    "zip": "73501",
+    "phone": "580-355-5214",
+    "hours": "Monday through Friday, 8:00 AM - 5:00 PM",
+    "judicialDistrict": "5th Judicial District (Comanche, Cotton, Jefferson, and Stephens counties)",
+    "oscnDbKey": "comanche"
+  },
+  "majorCities": [
+    "Lawton",
+    "Cache",
+    "Elgin"
+  ],
+  "neighboringCounties": [
+    "caddo-county",
+    "cotton-county",
+    "grady-county",
+    "kiowa-county",
+    "stephens-county",
+    "tillman-county"
+  ],
+  "tribalJurisdiction": [
+    "Comanche Nation"
+  ],
+  "majorEmployers": [
+    {
+      "name": "Fort Sill Army Base",
+      "street": "B4700 Mow-Way Road",
+      "city": "Fort Sill",
+      "zip": "73503",
+      "employees": 17550,
+      "industry": "Military/Government",
+      "notes": "One of the largest military installations in the US; home to Army Field Artillery and Air Defense Artillery Schools. Over 90,000 acres adjacent to Lawton. Major economic driver for the region."
+    },
+    {
+      "name": "Goodyear Tire & Rubber Company",
+      "street": "1 SW Goodyear Blvd",
+      "city": "Lawton",
+      "zip": "73505",
+      "employees": 2400,
+      "industry": "Manufacturing",
+      "notes": "Major tire manufacturing plant serving as a significant private employer in Lawton."
+    },
+    {
+      "name": "Comanche County Memorial Hospital",
+      "street": "3401 W. Gore Blvd",
+      "city": "Lawton",
+      "zip": "73505",
+      "employees": 2000,
+      "industry": "Healthcare",
+      "notes": "Largest hospital in the county, serving as the primary healthcare facility for southwest Oklahoma. Part of Memorial Health System of Southwest Oklahoma."
+    },
+    {
+      "name": "Comanche Nation of Oklahoma",
+      "street": "584 NW Bingo Rd",
+      "city": "Lawton",
+      "zip": "73507",
+      "employees": 1500,
+      "industry": "Tribal Government",
+      "notes": "Tribal government employs members across five casinos, Comanche Nation College, and administrative operations."
+    },
+    {
+      "name": "Lawton Public Schools",
+      "street": "753 NW Fort Sill Blvd",
+      "city": "Lawton",
+      "zip": "73507",
+      "employees": 2500,
+      "industry": "Education",
+      "notes": "Serves approximately 13,912 students across 23 schools. Fort Sill dependent students attend Lawton Public Schools."
+    },
+    {
+      "name": "Cameron University",
+      "street": "2800 W. Gore Blvd",
+      "city": "Lawton",
+      "zip": "73505",
+      "employees": 860,
+      "industry": "Higher Education",
+      "notes": "State university enrolling approximately 4,500 students. Part of Oklahoma state higher education system."
+    },
+    {
+      "name": "Bar-S Foods",
+      "street": "802 SW Goodyear Blvd",
+      "city": "Lawton",
+      "zip": "73505",
+      "employees": 350,
+      "industry": "Food Processing",
+      "notes": "Meat processing facility manufacturing hot dogs, sausages, and deli meats. Located in the Oklahoma Southwest Rail Industrial Park."
+    }
+  ],
+  "uniqueFacts": [
+    "The Wichita Mountains Wildlife Refuge, established in 1901, was among the first national wildlife refuges in the United States and is home to one of the largest managed bison herds in the country, with approximately 650 bison roaming across 59,020 acres.",
+    "Comanche County was opened to non-Indian settlement by lottery on August 6, 1901, unlike earlier Oklahoma land openings that used land runs. The county and county seat of Lawton were both created on that same day.",
+    "Fort Sill, established in 1869, remains the only active Army installation of all the forts built on the Southern Plains during the Indian Wars and serves as the final resting place of Geronimo, the famous Apache leader.",
+    "The county's land area was reduced by more than half through multiple boundary changes. In 1907, parts were taken to create Tillman County; in 1910 the short-lived Swanson County was formed from western Comanche County; and in 1912 Cotton County was created from the southern portion.",
+    "Medicine Park, established in 1908 within Comanche County, was Oklahoma's first planned resort town and features unique cobblestone architecture using native granite stones from the Wichita Mountains."
+  ],
+  "processServingNotes": [
+    "Comanche County is part of Oklahoma's 5th Judicial District alongside Cotton, Jefferson, and Stephens counties. Process servers should be aware that cases filed in Comanche County must be served within the geographic boundaries of the county unless alternative arrangements are ordered by the court.",
+    "The Comanche Nation Tribal Court at 584 NW Bingo Rd in Lawton maintains jurisdiction over tribal members and tribal lands. Process serving on Comanche Nation tribal members may require coordination with the Comanche Nation Tribal Court at 580-492-3822, which handles civil, criminal, family, and probate matters under Comanche law.",
+    "Fort Sill is a closed military post requiring a valid military ID or visitor pass for entry. Process servers attempting service on Fort Sill must coordinate with the Visitor Welcome Center at 580-442-9602/9603 at least 24 hours in advance to obtain installation access. Service members residing on post are generally required to accept service only at designated locations."
+  ],
+  "heroLead": "Comanche County, anchored by Lawton and Fort Sill in southwestern Oklahoma, blends Great Plains prairie with the rugged granite peaks of the Wichita Mountains. Home to one of America's oldest wildlife refuges and named for the Comanche tribal nation whose headquarters remains here today, the county's economy thrives on military, healthcare, manufacturing, and tribal enterprise. When you need professional process serving in Comanche County, trust Just Legal Solutions at (539) 367-6832 or visit /contact.",
+  "faqs": [
+    {
+      "question": "Where is the Comanche County Courthouse located and what are its operating hours?",
+      "answer": "The Comanche County Courthouse is located at 315 SW 5th Street, Lawton, OK 73501. The courthouse is open Monday through Friday from 8:00 AM to 5:00 PM. The Court Clerk's Office, which handles civil filings in Room 207, criminal matters in Room 504, and small claims in Room 205, can be reached at 580-355-5214. For process serving questions, you can also contact Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "What judicial district is Comanche County in and which counties does it include?",
+      "answer": "Comanche County is part of Oklahoma's 5th Judicial District, which also includes Cotton County, Jefferson County, and Stephens County. Seven district judges serve the Comanche County courthouse, handling civil, criminal, family, and probate cases. The District Attorney's office is located in Room 502 of the courthouse and can be contacted at 580-585-4444."
+    },
+    {
+      "question": "What is the Comanche Nation Tribal Court and when might it affect process serving in Comanche County?",
+      "answer": "The Comanche Nation Tribal Court, located at 584 NW Bingo Rd in Lawton, has jurisdiction over enrolled Comanche tribal members and matters occurring on Comanche Nation trust land within Comanche County. If you need to serve an enrolled Comanche Nation member or a business operating under tribal authority, you may need to work with both the state district court and the Comanche Nation Tribal Court. The tribal court can be reached at 580-492-3822 and handles civil, criminal, family, and probate matters."
+    },
+    {
+      "question": "How do I access Fort Sill for process serving on military personnel?",
+      "answer": "Fort Sill is a closed military installation and requires advance coordination for entry. Process servers must contact the Visitor Welcome Center at 580-442-9602/9603 at least 24 hours in advance. All adults without a Department of Defense ID must complete a background check and obtain a visitor pass. Service on active-duty military personnel should generally be coordinated through the installation's legal office or through command channels. For assistance with military service, contact Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "What are the major cities and towns in Comanche County?",
+      "answer": "Comanche County has three incorporated cities: Lawton (the county seat and largest city), Cache, and Elgin. Additionally, the county includes seven towns: Chattanooga, Faxon, Fletcher, Geronimo, Indiahoma, Medicine Park, and Sterling. Fort Sill, a major Army installation, occupies approximately 90,000 acres within the county and functions as a significant population center."
+    },
+    {
+      "question": "What makes Comanche County unique in Oklahoma history?",
+      "answer": "Comanche County was created on August 6, 1901, when the Kiowa-Comanche-Apache lands were opened to settlement by lottery rather than a land run. The county is named for the Comanche tribal nation and is home to the Wichita Mountains Wildlife Refuge, one of America's oldest wildlife refuges established by President Theodore Roosevelt in 1905. Fort Sill, established in 1869, is the only remaining active fort from the Indian Wars era and serves as the final resting place of Geronimo. For any legal document service needs in this historically rich county, call Just Legal Solutions at (539) 367-6832."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

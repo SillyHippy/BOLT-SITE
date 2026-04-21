@@ -1,0 +1,178 @@
+{
+  "slug": "tulsa-county",
+  "countyName": "Tulsa County",
+  "countySeat": "Tulsa",
+  "population": 693514,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "Tulsa County Courthouse",
+    "street": "500 S. Denver Ave",
+    "city": "Tulsa",
+    "state": "OK",
+    "zip": "74103",
+    "phone": "(918) 596-5000",
+    "hours": "8:00am to 5:00pm, Monday through Friday",
+    "judicialDistrict": "14",
+    "oscnDbKey": "tulsa"
+  },
+  "majorCities": [
+    "Tulsa",
+    "Broken Arrow",
+    "Owasso",
+    "Bixby",
+    "Jenks",
+    "Sand Springs",
+    "Glenpool",
+    "Collinsville",
+    "Skiatook",
+    "Sperry",
+    "Lotsee"
+  ],
+  "neighboringCounties": [
+    "osage-county",
+    "washington-county",
+    "rogers-county",
+    "wagoner-county",
+    "okmulgee-county",
+    "creek-county",
+    "pawnee-county"
+  ],
+  "tribalJurisdiction": [
+    "Cherokee Nation",
+    "Muscogee (Creek) Nation"
+  ],
+  "majorEmployers": [
+    {
+      "name": "Saint Francis Health System",
+      "street": "6161 S Yale Ave",
+      "city": "Tulsa",
+      "zip": "74136",
+      "employees": 12000,
+      "industry": "Healthcare",
+      "notes": "Largest private employer in Tulsa County"
+    },
+    {
+      "name": "Tulsa Public Schools",
+      "street": "3027 S New Haven Ave",
+      "city": "Tulsa",
+      "zip": "74114",
+      "employees": 7000,
+      "industry": "Education",
+      "notes": "Second-largest school district in Oklahoma"
+    },
+    {
+      "name": "American Airlines Maintenance Base",
+      "street": "3900 N Mingo Rd",
+      "city": "Tulsa",
+      "zip": "74116",
+      "employees": 5500,
+      "industry": "Aerospace",
+      "notes": "One of the largest commercial aviation maintenance facilities in the world"
+    },
+    {
+      "name": "Ascension St. John",
+      "street": "1923 S Utica Ave",
+      "city": "Tulsa",
+      "zip": "74104",
+      "employees": 7000,
+      "industry": "Healthcare",
+      "notes": "Part of Ascension, one of the largest Catholic health systems in the US"
+    },
+    {
+      "name": "City of Tulsa",
+      "street": "175 E 2nd St",
+      "city": "Tulsa",
+      "zip": "74103",
+      "employees": 4000,
+      "industry": "Government",
+      "notes": "Municipal government for the City of Tulsa"
+    },
+    {
+      "name": "Hillcrest Healthcare System",
+      "street": "1265 S Utica Ave",
+      "city": "Tulsa",
+      "zip": "74104",
+      "employees": 3000,
+      "industry": "Healthcare",
+      "notes": "Part of Ardent Health Services"
+    },
+    {
+      "name": "QuikTrip Corporation",
+      "street": "4705 S 129th E Ave",
+      "city": "Tulsa",
+      "zip": "74134",
+      "employees": 13500,
+      "industry": "Retail / Convenience Stores",
+      "notes": "Headquartered in Tulsa with operations across multiple states"
+    },
+    {
+      "name": "Bank of Oklahoma",
+      "street": "PO Box 2300",
+      "city": "Tulsa",
+      "zip": "74102",
+      "employees": 4700,
+      "industry": "Financial Services",
+      "notes": "Largest bank in Oklahoma, headquartered in Tulsa"
+    },
+    {
+      "name": "River Spirit Casino Resort",
+      "street": "8330 Riverside Pkwy",
+      "city": "Tulsa",
+      "zip": "74137",
+      "employees": 3000,
+      "industry": "Gaming / Hospitality",
+      "notes": "Operated by the Muscogee (Creek) Nation"
+    },
+    {
+      "name": "Tulsa County Government",
+      "street": "218 W 6th St",
+      "city": "Tulsa",
+      "zip": "74119",
+      "employees": 2500,
+      "industry": "Government",
+      "notes": "County government including courts, jail, and administrative offices"
+    }
+  ],
+  "uniqueFacts": [
+    "Tulsa County was founded at Oklahoma statehood in 1907 and was named after the already established city of Tulsa, which derived its name from Tulsey Town, Alabama, an old Creek settlement.",
+    "The 1901 discovery of oil at Red Fork and the 1905 Glenn Pool discovery made Tulsa the 'Oil Capital of the World' and spurred rapid population growth in the county.",
+    "Tulsa County contains one of the highest concentrations of Art Deco architecture in the United States, built during the oil boom of the 1920s and 1930s.",
+    "The 1921 Tulsa Race Massacre in the Greenwood District, known as 'Black Wall Street,' resulted in the destruction of one of the wealthiest African American communities in the nation.",
+    "Following the 2020 McGirt v. Oklahoma Supreme Court decision, much of Tulsa County was affirmed as lying within the reservation boundaries of both the Muscogee (Creek) Nation and Cherokee Nation, creating complex jurisdictional considerations."
+  ],
+  "processServingNotes": [
+    "Tulsa County is in Judicial District 14 (shared with Pawnee County). The courthouse is located at 500 S. Denver Ave in downtown Tulsa. Process server licenses are issued by the Tulsa County Court Clerk.",
+    "Due to McGirt-related tribal jurisdiction issues, process servers working in Tulsa County must be aware that service involving tribal members on reservation land may require coordination with Cherokee Nation or Muscogee (Creek) Nation tribal courts.",
+    "Tulsa County Court Clerk's office also maintains a satellite office at 123 N Main Street in Broken Arrow for marriage licenses and limited court services, but all process server licensing is handled through the main downtown courthouse."
+  ],
+  "heroLead": "Tulsa County, Oklahoma's second-most populous county with nearly 700,000 residents, spans 587 square miles of northeastern Oklahoma encompassing the city of Tulsa, the 'Oil Capital of the World.' Founded at statehood in 1907, the county sits within the historic reservation boundaries of both the Cherokee Nation and Muscogee (Creek) Nation, creating a distinctive legal environment shaped by the landmark McGirt v. Oklahoma decision. From the Art Deco skyline of downtown Tulsa to the bustling suburbs of Broken Arrow and Owasso, our licensed process servers navigate this complex jurisdiction daily. Contact Just Legal Solutions at (539) 367-6832 or visit /contact for reliable service throughout Tulsa County.",
+  "faqs": [
+    {
+      "question": "Where is the Tulsa County Courthouse located and what are the office hours?",
+      "answer": "The Tulsa County Courthouse is located at 500 S. Denver Ave, Tulsa, OK 74103. The courthouse is open Monday through Friday from 8:00am to 5:00pm. The Court Clerk's office, where process server licenses are issued, can be reached at (918) 596-5000. For process serving assistance throughout Tulsa County, contact Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "What judicial district is Tulsa County in?",
+      "answer": "Tulsa County is in Oklahoma Judicial District 14, which it shares with Pawnee County. The district has multiple district judges, associate district judges, and special judges who handle civil, criminal, and family cases. All filings for cases in Tulsa County are made through the Court Clerk at the downtown courthouse."
+    },
+    {
+      "question": "How does the McGirt decision affect process serving in Tulsa County?",
+      "answer": "The 2020 McGirt v. Oklahoma Supreme Court decision affirmed that much of Tulsa County lies within the historic reservation boundaries of both the Muscogee (Creek) Nation and Cherokee Nation. This means that for certain legal matters involving tribal members, service of process may need to comply with tribal court requirements in addition to state court procedures. Our licensed process servers understand these jurisdictional complexities."
+    },
+    {
+      "question": "What cities and towns are in Tulsa County?",
+      "answer": "Tulsa County includes the city of Tulsa (county seat and Oklahoma's second-largest city), along with Broken Arrow, Owasso, Bixby, Jenks, Sand Springs, Glenpool, Collinsville, Skiatook, Sperry, and the small town of Lotsee. Each incorporated municipality maintains its own police department and municipal court system for local ordinance violations."
+    },
+    {
+      "question": "What are the licensing requirements for process servers in Tulsa County?",
+      "answer": "Process servers in Tulsa County must be licensed under Oklahoma state law (12 O.S. § 158.1). Applicants must be 18 or older, an Oklahoma resident for at least six months, of good moral character, post a $5,000 surety bond, and pay licensing fees. Licenses are issued by the Tulsa County Court Clerk and are valid statewide. Contact the Court Clerk at (918) 596-5000 for application details."
+    },
+    {
+      "question": "What makes Tulsa County unique in Oklahoma's legal landscape?",
+      "answer": "Tulsa County is Oklahoma's second-most populous county with approximately 693,500 residents as of 2024. It is the most densely populated county in the state and has the highest median household income. The county's history as the 'Oil Capital of the World,' its complex tribal jurisdiction post-McGirt involving both Cherokee Nation and Muscogee (Creek) Nation reservations, and its concentration of Art Deco architecture make it a unique jurisdiction for legal proceedings. For professional process serving anywhere in Tulsa County, call Just Legal Solutions at (539) 367-6832."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

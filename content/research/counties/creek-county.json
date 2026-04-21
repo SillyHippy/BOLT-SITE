@@ -1,0 +1,139 @@
+{
+  "slug": "creek-county",
+  "countyName": "Creek County",
+  "countySeat": "Sapulpa",
+  "population": 73971,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "Creek County Courthouse",
+    "street": "222 E. Dewey St.",
+    "city": "Sapulpa",
+    "state": "OK",
+    "zip": "74066",
+    "phone": "918-227-2525",
+    "hours": "Mon-Fri 8:00 AM - 5:00 PM",
+    "judicialDistrict": "24",
+    "oscnDbKey": "creek"
+  },
+  "majorCities": [
+    "Sapulpa",
+    "Bristow",
+    "Mannford",
+    "Drumright",
+    "Kiefer",
+    "Kellyville",
+    "Mounds",
+    "Oilton",
+    "Depew",
+    "Slick"
+  ],
+  "neighboringCounties": [
+    "pawnee-county",
+    "tulsa-county",
+    "okmulgee-county",
+    "okfuskee-county",
+    "lincoln-county",
+    "payne-county"
+  ],
+  "tribalJurisdiction": [
+    "Muscogee (Creek) Nation"
+  ],
+  "majorEmployers": [
+    {
+      "name": "City of Sapulpa",
+      "street": "425 E. Dewey Ave.",
+      "city": "Sapulpa",
+      "zip": "74066",
+      "employees": 300,
+      "industry": "Government",
+      "notes": "Municipal government services"
+    },
+    {
+      "name": "Muscogee (Creek) Nation",
+      "street": "PO Box 580",
+      "city": "Okmulgee",
+      "zip": "74447",
+      "employees": 2500,
+      "industry": "Tribal Government",
+      "notes": "Operates Creek Nation Casino Bristow and various tribal services within Creek County"
+    },
+    {
+      "name": "Ardagh Group",
+      "street": "1000 N. Mission St.",
+      "city": "Sapulpa",
+      "zip": "74066",
+      "employees": 400,
+      "industry": "Manufacturing",
+      "notes": "Glass container manufacturing plant"
+    },
+    {
+      "name": "SeneGence International",
+      "street": "301 S. Main St.",
+      "city": "Sapulpa",
+      "zip": "74066",
+      "employees": 200,
+      "industry": "Distribution",
+      "notes": "Midwest distribution center for cosmetics and skincare products"
+    },
+    {
+      "name": "Ascension St. John Sapulpa",
+      "street": "1015 E. Bryan Ave.",
+      "city": "Sapulpa",
+      "zip": "74066",
+      "employees": 350,
+      "industry": "Healthcare",
+      "notes": "Hospital and medical center serving Creek County"
+    },
+    {
+      "name": "Sapulpa Public Schools",
+      "street": "511 E. Lee Ave.",
+      "city": "Sapulpa",
+      "zip": "74066",
+      "employees": 500,
+      "industry": "Education",
+      "notes": "Largest school district in Creek County"
+    }
+  ],
+  "uniqueFacts": [
+    "Creek County was the site of the 1912 Cushing-Drumright Oil Field discovery, creating oil boom towns overnight and increasing county population by 138% between 1910 and 1920.",
+    "The county seat election between Sapulpa and Bristow in 1908 was so contentious it required an Oklahoma Supreme Court ruling in 1913 to finally establish Sapulpa as the permanent county seat.",
+    "Sapulpa was known as the 'Heart of Historic Route 66' and the county contains multiple Route 66 landmarks including the Waite Phillips Filling Station Museum.",
+    "Frankoma Pottery, Oklahoma's first commercial pottery, operated in Sapulpa from 1938 until 2010, using local clay from Sugar Loaf Hill and becoming internationally collectible.",
+    "The Creek County Courthouse, built in 1914, is listed on the National Register of Historic Places and remains in active use today."
+  ],
+  "processServingNotes": [
+    "Creek County District Court has two active locations: the main courthouse in Sapulpa (222 E. Dewey) and a branch in Bristow (110 W. 7th Ave.). Process servers should verify which location is handling the case before attempting service.",
+    "The Drumright court location closed in October 2015. Municipal court sessions continue at the city-owned Drumright courthouse but district court cases are handled in Sapulpa or Bristow.",
+    "Oklahoma requires process servers to be licensed and bonded. In Creek County, the Court Clerk maintains a list of licensed private process servers posted in the courthouse."
+  ],
+  "heroLead": "Creek County, established at Oklahoma statehood in 1907, blends rich oil boom heritage with modern manufacturing and tribal commerce along Historic Route 66. From the internationally collectible Frankoma Pottery legacy to the bustling glass plants and distribution centers of today, the county offers a unique mix of history and economic vitality. Whether you need process service in Sapulpa, Bristow, or anywhere across Creek County's 970 square miles, contact Just Legal Solutions at (539) 367-6832 or visit /contact.",
+  "faqs": [
+    {
+      "question": "What is the population of Creek County, Oklahoma?",
+      "answer": "As of the 2024 Census Bureau Population Estimates, Creek County has a population of approximately 73,971 residents, making it the 10th most populous county in Oklahoma. The county seat is Sapulpa, which accounts for roughly 23,200 of those residents."
+    },
+    {
+      "question": "When was Creek County founded and what is it named after?",
+      "answer": "Creek County was established in 1907 when Oklahoma achieved statehood. The county was named for the Creek tribe, also known as the Muscogee Nation, whose reservation covered this area prior to statehood. The county was formerly part of the Creek Nation, Indian Territory."
+    },
+    {
+      "question": "What major highways run through Creek County?",
+      "answer": "Creek County is served by Interstate 44, which runs east-west through the county, as well as multiple state highways including SH-16, SH-33, SH-48, SH-51, SH-66 (Historic Route 66), SH-99, and SH-117. The county's location in the Tulsa Metropolitan Area provides easy access to the region. For process serving inquiries in Creek County, contact Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "What is the judicial district for Creek County?",
+      "answer": "Creek County is part of Oklahoma's 24th Judicial District. The main courthouse is located at 222 E. Dewey St. in Sapulpa, with a branch court in Bristow at 110 W. 7th Ave. The District Court has jurisdiction over all civil, criminal, family, probate, and small claims matters filed in Creek County. Court records are accessible through the Oklahoma State Courts Network (OSCN)."
+    },
+    {
+      "question": "What tribal jurisdiction applies in Creek County?",
+      "answer": "Creek County lies within the jurisdictional boundaries of the Muscogee (Creek) Nation. Following the 2020 McGirt v. Oklahoma Supreme Court decision, the Muscogee Nation's reservation was affirmed, and the tribe shares jurisdiction with the state over criminal matters involving tribal citizens within the county. The Nation operates Creek Nation Casino Bristow and provides various tribal services to citizens."
+    },
+    {
+      "question": "What are the major industries and employers in Creek County?",
+      "answer": "Creek County's economy is driven by manufacturing, healthcare, retail trade, and government services. Major employers include the City of Sapulpa, Muscogee (Creek) Nation, Ardagh Group (glass manufacturing), SeneGence International (distribution), Ascension St. John Sapulpa (healthcare), and Sapulpa Public Schools. The county's proximity to Tulsa provides additional employment opportunities for residents. For legal document serving needs in Creek County, reach out to Just Legal Solutions at (539) 367-6832."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

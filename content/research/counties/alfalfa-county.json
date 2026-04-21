@@ -1,0 +1,137 @@
+{
+  "slug": "alfalfa-county",
+  "countyName": "Alfalfa County",
+  "countySeat": "Cherokee",
+  "population": 5696,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "Alfalfa County Courthouse",
+    "street": "300 S. Grand Ave, Suite 8",
+    "city": "Cherokee",
+    "state": "OK",
+    "zip": "73728",
+    "phone": "580-596-3523",
+    "hours": "Monday-Thursday 8:30 AM-4:30 PM; closed noon-1:00 PM for lunch",
+    "judicialDistrict": "4",
+    "oscnDbKey": "alfalfa"
+  },
+  "majorCities": [
+    "Cherokee",
+    "Aline",
+    "Amorita",
+    "Burlington",
+    "Byron",
+    "Carmen",
+    "Goltry",
+    "Helena",
+    "Jet",
+    "Lambert"
+  ],
+  "neighboringCounties": [
+    "barber-county-ks",
+    "harper-county-ks",
+    "grant-county",
+    "garfield-county",
+    "major-county",
+    "woods-county"
+  ],
+  "tribalJurisdiction": [],
+  "majorEmployers": [
+    {
+      "name": "James Crabtree Correctional Center",
+      "street": "216 N. Murray Street",
+      "city": "Helena",
+      "zip": "73741",
+      "employees": 250,
+      "industry": "Government/Corrections",
+      "notes": "Medium-security state prison housing approximately 1,000 inmates; major employer in Helena"
+    },
+    {
+      "name": "Alfalfa Electric Cooperative",
+      "street": "305 W. 12th Street",
+      "city": "Cherokee",
+      "zip": "73728",
+      "employees": 75,
+      "industry": "Utilities/Electric",
+      "notes": "Member-owned electric cooperative serving north-central Oklahoma and southern Kansas"
+    },
+    {
+      "name": "Timberlake Public Schools",
+      "street": "601 N. Main",
+      "city": "Helena",
+      "zip": "73741",
+      "employees": 60,
+      "industry": "Education",
+      "notes": "Consolidated school district with elementary in Jet and high school in Helena; serves students from Helena, Jet, Goltry and surrounding areas"
+    },
+    {
+      "name": "Great Salt Plains Health Center",
+      "street": "405 S. Oklahoma Ave",
+      "city": "Cherokee",
+      "zip": "73728",
+      "employees": 80,
+      "industry": "Healthcare",
+      "notes": "Federally Qualified Health Center providing medical, dental and behavioral health services to Alfalfa County residents"
+    },
+    {
+      "name": "Cherokee Public Schools",
+      "street": "300 S. Grand Ave",
+      "city": "Cherokee",
+      "zip": "73728",
+      "employees": 55,
+      "industry": "Education",
+      "notes": "Independent school district serving Cherokee and Lambert areas with elementary, middle and high school"
+    },
+    {
+      "name": "Burlington Public Schools",
+      "street": "210 E. Burlington St",
+      "city": "Burlington",
+      "zip": "73728",
+      "employees": 25,
+      "industry": "Education",
+      "notes": "School district serving Burlington, Byron and Amorita communities"
+    }
+  ],
+  "uniqueFacts": [
+    "Alfalfa County is home to the Great Salt Plains, the only place on earth where visitors can dig hourglass-shaped selenite crystals. The Salt Plains National Wildlife Refuge protects 32,197 acres and more than 300 bird species, including the endangered whooping crane.",
+    "The Sod House Museum near Aline contains the only remaining sod house in Oklahoma built by a homesteader during the Cherokee Strip Land Run era. Marshal McCully built the house in 1894, and it is listed on the National Register of Historic Places.",
+    "The county was named for William H. 'Alfalfa Bill' Murray, who served as president of the Oklahoma Constitutional Convention and later as Oklahoma's ninth governor. He played a key role in dividing Woods County into three counties, including Alfalfa County.",
+    "Alfalfa County is the second-largest producer of winter wheat in Oklahoma and was the state's fifth-largest producer of crude oil and second-largest producer of natural gas as of 2012.",
+    "The James Crabtree Correctional Center in Helena is housed on grounds originally established in 1904, which previously served as Cornell Agriculture College, an orphanage, and the Helena State School for Boys before becoming a state prison in 1982."
+  ],
+  "processServingNotes": [
+    "The Alfalfa County Courthouse is located at 300 S. Grand Ave in Cherokee and is open Monday through Thursday 8:30 AM to 4:30 PM; the court clerk's office closes for lunch from noon to 1:00 PM. Process servers should plan visits accordingly.",
+    "Alfalfa County is served by the 4th Judicial District of Oklahoma. District court records can be accessed online through the Oklahoma State Courts Network (OSCN) at oscn.net.",
+    "The county covers 881 square miles with ten incorporated towns. Major population centers include Cherokee (county seat), Helena (home to the state prison), and the smaller communities of Aline, Carmen, Goltry, Jet, Burlington, Byron, Amorita, and Lambert."
+  ],
+  "heroLead": "Nestled in north-central Oklahoma, Alfalfa County is a rural agricultural powerhouse and the second-largest producer of winter wheat in the state. From the crystal-digging salt flats near Jet to the historic Sod House Museum near Aline, the county offers a unique blend of natural wonders and frontier heritage. Whether you need process serving in Cherokee, Helena, or any of the county's ten communities, Just Legal Solutions delivers reliable legal support throughout Alfalfa County. Contact us at (539) 367-6832 or visit our website to get started.",
+  "faqs": [
+    {
+      "question": "Where is the Alfalfa County Courthouse located, and what are the court clerk's office hours?",
+      "answer": "The Alfalfa County Courthouse is located at 300 S. Grand Ave, Suite 8, Cherokee, OK 73728. The Court Clerk's office is open Monday through Thursday from 8:30 AM to 4:30 PM, with a lunch closure from noon to 1:00 PM. The office is closed on Fridays, weekends, and state holidays. For questions, you can reach the court clerk at 580-596-3523."
+    },
+    {
+      "question": "How do I access court records for Alfalfa County?",
+      "answer": "Court records for Alfalfa County can be accessed online through the Oklahoma State Courts Network (OSCN) at oscn.net, where you can search cases by party name or case number. For certified copies or older records, visit the Court Clerk's office at the courthouse in Cherokee during business hours. Just Legal Solutions provides professional process serving throughout Alfalfa County and can assist with document retrieval. Contact us at (539) 367-6832 for help."
+    },
+    {
+      "question": "What is the judicial district for Alfalfa County?",
+      "answer": "Alfalfa County is part of Oklahoma's 4th Judicial District, which also includes Blaine, Dewey, Garfield, Grant, Kingfisher, Major, Woods, and Woodward counties. District court cases in Alfalfa County are heard at the Alfalfa County Courthouse in Cherokee."
+    },
+    {
+      "question": "Which towns and cities are in Alfalfa County where legal documents may need to be served?",
+      "answer": "Alfalfa County has ten incorporated municipalities: Cherokee (the county seat), Helena (home to James Crabtree Correctional Center), Aline, Amorita, Burlington, Byron, Carmen, Goltry, Jet, and Lambert. Each has distinct addresses and postal codes. Rural residents may live on farms or ranches between these communities, requiring careful navigation for service of process."
+    },
+    {
+      "question": "What are the major employers in Alfalfa County?",
+      "answer": "Major employers include the James Crabtree Correctional Center in Helena (a state prison), Alfalfa Electric Cooperative in Cherokee, Timberlake Public Schools (with campuses in Helena and Jet), Great Salt Plains Health Center in Cherokee, and Cherokee Public Schools. The county's economy is also heavily based on agriculture (wheat and livestock) and oil and gas production."
+    },
+    {
+      "question": "Is Alfalfa County within any tribal jurisdiction?",
+      "answer": "Alfalfa County is not currently within the reservation boundaries of any federally recognized tribal nation. While the area was historically part of the Cherokee Outlet and Osage hunting grounds, it does not fall within the present-day jurisdictional areas of the Cherokee Nation or any other tribe. Legal matters here are handled through Oklahoma state courts. For process serving needs in Alfalfa County, contact Just Legal Solutions at (539) 367-6832."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

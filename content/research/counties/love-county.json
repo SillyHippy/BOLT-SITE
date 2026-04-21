@@ -1,0 +1,157 @@
+{
+  "slug": "love-county",
+  "countyName": "Love County",
+  "countySeat": "Marietta",
+  "population": 10423,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "Love County Courthouse",
+    "street": "405 W. Main",
+    "city": "Marietta",
+    "state": "OK",
+    "zip": "73448",
+    "phone": "580-276-2235",
+    "hours": "Monday-Friday 8:00 AM - 4:30 PM",
+    "judicialDistrict": "20th Judicial District",
+    "oscnDbKey": "love"
+  },
+  "majorCities": [
+    "Marietta",
+    "Thackerville",
+    "Leon",
+    "Burneyville",
+    "Greenville",
+    "Overbrook",
+    "Courtney",
+    "Enville",
+    "Jimtown",
+    "Orr",
+    "Rubottom"
+  ],
+  "neighboringCounties": [
+    "carter-county",
+    "marshall-county",
+    "jefferson-county",
+    "cooke-county-tx",
+    "montague-county-tx",
+    "grayson-county-tx"
+  ],
+  "tribalJurisdiction": [
+    "Chickasaw Nation"
+  ],
+  "majorEmployers": [
+    {
+      "name": "WinStar World Casino and Resort",
+      "street": "777 Casino Avenue",
+      "city": "Thackerville",
+      "zip": "73459",
+      "employees": 1500,
+      "industry": "Gaming and Hospitality",
+      "notes": "Operated by Chickasaw Nation; largest private employer in Love County. Located just south of Thackerville on Interstate 35 near the Oklahoma-Texas border."
+    },
+    {
+      "name": "Dollar Tree Distribution Center",
+      "street": "201 Dollar Tree Way",
+      "city": "Marietta",
+      "zip": "73448",
+      "employees": 400,
+      "industry": "Distribution and Warehousing",
+      "notes": "Regional distribution center serving approximately 700 Dollar Tree stores. Rebuilding after April 2024 tornado; expected fully operational spring 2027."
+    },
+    {
+      "name": "Mercy Health/Love County Hospital and Clinic",
+      "street": "300 Wanda",
+      "city": "Marietta",
+      "zip": "73448",
+      "employees": 200,
+      "industry": "Health Care",
+      "notes": "Critical access hospital serving Love County with emergency room, clinic, skilled nursing, and rehabilitation services. Phone: 580-276-3347."
+    },
+    {
+      "name": "Marietta Public Schools",
+      "street": "400 W. 3rd Street",
+      "city": "Marietta",
+      "zip": "73448",
+      "employees": 150,
+      "industry": "Education",
+      "notes": "Serves students in Marietta and surrounding communities."
+    },
+    {
+      "name": "Thackerville Public Schools",
+      "street": "300 Burson Street",
+      "city": "Thackerville",
+      "zip": "73459",
+      "employees": 100,
+      "industry": "Education",
+      "notes": "Serves students in Thackerville and southern Love County."
+    },
+    {
+      "name": "Turner Public Schools",
+      "street": "500 N. Main Street",
+      "city": "Burneyville",
+      "zip": "73430",
+      "employees": 100,
+      "industry": "Education",
+      "notes": "Serves students in western Love County including Burneyville, Leon, and Overbrook areas."
+    },
+    {
+      "name": "Love County Government",
+      "street": "405 W. Main, Suite 203",
+      "city": "Marietta",
+      "zip": "73448",
+      "employees": 75,
+      "industry": "Government",
+      "notes": "County government offices including court clerk, county clerk, treasurer, and sheriff's department."
+    },
+    {
+      "name": "Love County Sheriff's Office",
+      "street": "408 West Chickasaw",
+      "city": "Marietta",
+      "zip": "73448",
+      "employees": 25,
+      "industry": "Public Safety",
+      "notes": "Led by Sheriff Andy Cumberledge."
+    }
+  ],
+  "uniqueFacts": [
+    "Love County was named for Overton 'Sobe' Love, a prominent Chickasaw farmer, entrepreneur, and politician who settled in the area in 1843 at age 20, became one of the largest Chickasaw landowners with 8,000 acres of Red River bottomland, and served as a judge and member of the Dawes Commission in Washington, D.C.",
+    "The Love County Courthouse, built in 1910 for $65,000 and designed by architect Walter E. Taylor, is listed on the National Register of Historic Places. It was constructed by the Falls City Construction Company.",
+    "Prior to Oklahoma statehood in 1907, the area was known as Recording District Number 26, Pickens County, Chickasaw Nation, Indian Territory. The county was created at statehood and has been part of Chickasaw Nation territory since the Chickasaw removal in 1837-1838.",
+    "Thackerville is home to WinStar World Casino and Resort, one of the largest casino resorts in the world, operated by the Chickasaw Nation. The casino employs approximately 1,500 people and is located just north of the Red River on Interstate 35.",
+    "Lake Murray State Park, Oklahoma's oldest and largest state park, touches the northeastern boundary of Love County, while Lake Texoma touches the southern boundary. Both lakes provide significant recreational and economic value to the county."
+  ],
+  "processServingNotes": [
+    "Love County is entirely within the Chickasaw Nation tribal jurisdiction. When serving tribal members or entities on Chickasaw Nation trust land, process servers should be aware that tribal courts may have concurrent jurisdiction, and service requirements may differ from state court procedures.",
+    "The county's location on the Oklahoma-Texas border along Interstate 35 means that some individuals may reside in Texas (Cooke, Grayson, or Montague counties) while maintaining connections to Love County. Cross-border service may be required in such cases."
+  ],
+  "heroLead": "Nestled along Oklahoma's southern border with Texas, Love County combines rich Chickasaw heritage with modern economic growth driven by WinStar World Casino and a revitalized Dollar Tree distribution hub. Named for Overton Love, a prominent Chickasaw judge and entrepreneur who settled here in 1843, the county seat of Marietta anchors a community of rolling Red River Plains terrain, lakeside recreation at Lake Murray and Lake Texoma, and strategic Interstate 35 commerce. For reliable process serving throughout Love County, call Just Legal Solutions at (539) 367-6832 or visit us online at /contact.",
+  "faqs": [
+    {
+      "question": "Where is the Love County Courthouse located and what are the filing hours?",
+      "answer": "The Love County Courthouse is located at 405 W. Main in Marietta, Oklahoma 73448. The Court Clerk's office, which handles case filings, is open Monday through Friday from 8:00 AM to 4:30 PM. The courthouse serves as the seat of the 20th Judicial District. For process serving assistance in Love County, call Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "Which judicial district covers Love County?",
+      "answer": "Love County is part of Oklahoma's 20th Judicial District. The District Court handles civil, criminal, family, probate, juvenile, and small claims cases. Court records can be accessed online through the Oklahoma State Courts Network (OSCN) using the database key 'love' for Love County searches."
+    },
+    {
+      "question": "Does Chickasaw Nation jurisdiction affect process serving in Love County?",
+      "answer": "Yes, Love County is entirely within the Chickasaw Nation tribal jurisdiction area. When serving tribal members or entities located on trust land, special considerations may apply. The Chickasaw Nation operates its own court system, and service of process may need to comply with both state and tribal requirements depending on the nature of the case and the parties involved. For guidance on serving process in Love County's tribal jurisdiction, contact Just Legal Solutions."
+    },
+    {
+      "question": "What is the largest city and county seat of Love County?",
+      "answer": "Marietta is both the county seat and largest city in Love County, with approximately 2,900 residents as of 2024. Marietta was founded in 1887 when the Gulf, Colorado and Santa Fe Railway laid tracks through the area, and it was incorporated on June 2, 1898. The city is located at the intersection of Interstate 35 and State Highway 32, about 15 miles north of the Red River and Texas border. Need documents served in Marietta? Call (539) 367-6832."
+    },
+    {
+      "question": "What are the major industries and employers in Love County?",
+      "answer": "The largest employer in Love County is WinStar World Casino and Resort in Thackerville, operated by the Chickasaw Nation, which employs approximately 1,500 people. Other major employers include the Dollar Tree Distribution Center in Marietta (approximately 400 employees), Mercy Health/Love County Hospital, and the Marietta, Thackerville, and Turner public school districts. Agriculture, particularly cattle ranching and pecan production, also remains an important part of the local economy."
+    },
+    {
+      "question": "How do I access court records for Love County?",
+      "answer": "Love County court records can be accessed through the Oklahoma State Courts Network (OSCN) at www.oscn.net. The database key for Love County is 'love'. Records can also be obtained in person at the Court Clerk's office at the Love County Courthouse, 405 W. Main, Marietta, OK 73448, during business hours Monday through Friday. The Court Clerk can be reached at 580-276-2235 for questions about accessing records or filing procedures."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

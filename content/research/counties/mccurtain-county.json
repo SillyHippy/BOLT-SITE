@@ -1,0 +1,157 @@
+{
+  "slug": "mccurtain-county",
+  "countyName": "McCurtain County",
+  "countySeat": "Idabel",
+  "population": 30805,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "McCurtain County Courthouse",
+    "street": "108 N. Central Ave",
+    "city": "Idabel",
+    "state": "OK",
+    "zip": "74745",
+    "phone": "580-286-3693",
+    "hours": "8:00 AM - 4:00 PM, Monday through Friday, open during lunch hour",
+    "judicialDistrict": "17th Judicial District (Choctaw, McCurtain, and Pushmataha Counties)",
+    "oscnDbKey": "mccurtain"
+  },
+  "majorCities": [
+    "Idabel",
+    "Broken Bow",
+    "Valliant",
+    "Wright City",
+    "Haworth",
+    "Millerton",
+    "Garvin"
+  ],
+  "neighboringCounties": [
+    "le-flore-county",
+    "pushmataha-county",
+    "choctaw-county",
+    "polk-county-ar",
+    "sevier-county-ar",
+    "little-river-county-ar",
+    "bowie-county-tx",
+    "red-river-county-tx"
+  ],
+  "tribalJurisdiction": [
+    "Choctaw Nation of Oklahoma"
+  ],
+  "majorEmployers": [
+    {
+      "name": "Tyson Foods",
+      "street": "5230 S Park Dr",
+      "city": "Broken Bow",
+      "zip": "74728",
+      "employees": 1250,
+      "industry": "Food Processing",
+      "notes": "Chicken processing plant, operates 24 hours"
+    },
+    {
+      "name": "International Paper",
+      "street": "890 IP Lane",
+      "city": "Valliant",
+      "zip": "74764",
+      "employees": 700,
+      "industry": "Paper Manufacturing",
+      "notes": "Containerboard mill, one of the largest paper mills in the region"
+    },
+    {
+      "name": "JM Huber Engineered Woods",
+      "street": "1000 James T. Tucker Road",
+      "city": "Broken Bow",
+      "zip": "74728",
+      "employees": 500,
+      "industry": "Wood Products Manufacturing",
+      "notes": "Manufactures engineered wood products"
+    },
+    {
+      "name": "Weyerhaeuser",
+      "street": "5500 NW Texas St",
+      "city": "Idabel",
+      "zip": "74745",
+      "employees": 360,
+      "industry": "Forest Products",
+      "notes": "Lumber mill and timber operations"
+    },
+    {
+      "name": "McCurtain Memorial Hospital",
+      "street": "1301 E. Lincoln Road",
+      "city": "Idabel",
+      "zip": "74745",
+      "employees": 300,
+      "industry": "Healthcare",
+      "notes": "Critical access hospital serving southeastern Oklahoma since 1953"
+    },
+    {
+      "name": "Choctaw Nation of Oklahoma",
+      "street": "Multiple locations in county",
+      "city": "Various",
+      "zip": "Various",
+      "employees": 650,
+      "industry": "Government/Tribal Services",
+      "notes": "Tribal government services, healthcare, and economic development programs"
+    },
+    {
+      "name": "Broken Bow Public Schools",
+      "street": "610 N Park Dr",
+      "city": "Broken Bow",
+      "zip": "74728",
+      "employees": 200,
+      "industry": "Education",
+      "notes": "Serves students in the Broken Bow area"
+    },
+    {
+      "name": "Idabel Public Schools",
+      "street": "200 NE Avenue C",
+      "city": "Idabel",
+      "zip": "74745",
+      "employees": 180,
+      "industry": "Education",
+      "notes": "Serves approximately 1,258 students across 4 schools"
+    }
+  ],
+  "uniqueFacts": [
+    "McCurtain County is the third-largest county in Oklahoma by area at 1,902 square miles.",
+    "The county was part of the Choctaw Nation's Apukshunnubbee District before Oklahoma statehood.",
+    "Beavers Bend State Park and Broken Bow Lake attract over 2 million visitors annually, making tourism a major industry.",
+    "Smithville, located in McCurtain County, receives the highest average annual rainfall in Oklahoma at 55.71 inches.",
+    "McCurtain County is one of only two counties in Oklahoma (along with Choctaw County) where American alligators live within their natural range.",
+    "The lowest point in Oklahoma is on the Little River in McCurtain County where it flows into Arkansas."
+  ],
+  "processServingNotes": [
+    "The McCurtain County Court Clerk issues process server licenses and maintains a list of licensed private process servers. The Court Clerk's office is located at 108 N. Central Ave, Idabel, OK 74745 and can be reached at 580-286-3693.",
+    "All court records, excluding Juvenile, Adoption, and Mental Health records, are available for public inspection at the Court Clerk's office. Copies are $1.00 for the first page and $0.50 for each additional page.",
+    "Felony dockets are conducted on the first Monday of every month, and there are monthly Civil and Domestic motion dockets. Process servers should be aware of these schedules when planning service attempts."
+  ],
+  "heroLead": "McCurtain County, Oklahoma's third-largest county at 1,902 square miles, sits in the southeastern corner of the state where the Ouachita Mountains meet the Red River Valley. From the towering pines around Broken Bow Lake to the timber mills of Idabel and Valliant, the county's economy blends tourism, forestry, and manufacturing into a unique southeastern Oklahoma character. Whether you need legal documents served in Idabel, Broken Bow, or any rural community in between, Just Legal Solutions provides experienced process serving throughout McCurtain County. Call (539) 367-6832 or visit /contact.",
+  "faqs": [
+    {
+      "question": "Where is the McCurtain County Courthouse located?",
+      "answer": "The McCurtain County Courthouse is located at 108 N. Central Avenue in Idabel, Oklahoma 74745. The courthouse is home to the Court Clerk, District Court, and other county offices. For process serving inquiries, contact the Court Clerk at 580-286-3693. The courthouse is open Monday through Friday from 8:00 AM to 4:00 PM, including during the lunch hour."
+    },
+    {
+      "question": "What judicial district is McCurtain County in?",
+      "answer": "McCurtain County is part of Oklahoma's 17th Judicial District, which also includes Choctaw County and Pushmataha County. The District Court handles civil, criminal, probate, domestic relations, juvenile, and small claims matters. For case lookups, visit the Oklahoma State Courts Network (OSCN) and select McCurtain County from the district court list."
+    },
+    {
+      "question": "Is McCurtain County within any tribal jurisdiction?",
+      "answer": "Yes, McCurtain County is entirely within the Choctaw Nation of Oklahoma's reservation boundaries. The Choctaw Nation is the third-largest federally recognized tribe in the United States. This tribal jurisdiction may affect certain legal proceedings, and process servers should be aware that tribal lands have unique jurisdictional considerations. For tribal legal matters, contact the Choctaw Nation at 800-522-6170."
+    },
+    {
+      "question": "What are the largest employers in McCurtain County?",
+      "answer": "The largest employers in McCurtain County include Tyson Foods in Broken Bow (approximately 1,250 employees), International Paper in Valliant (approximately 700 employees), JM Huber Engineered Woods in Broken Bow (approximately 500 employees), Weyerhaeuser in Idabel (approximately 360 employees), and McCurtain Memorial Hospital in Idabel (approximately 300 employees). The timber and food processing industries are the backbone of the local economy. For professional process serving to any business in McCurtain County, call (539) 367-6832."
+    },
+    {
+      "question": "How do I become a licensed process server in McCurtain County?",
+      "answer": "Process servers in McCurtain County must be licensed through the District Court. The Court Clerk's office at 108 N. Central Ave, Idabel, OK 74745 handles process server licensing. Applicants must be 18 years or older, a state resident for at least 6 months, and a county resident for at least 30 days. The application fee for a statewide license is $364.14 (new) or $229.14 (renewal), which is valid for one year initially and then renewable for three-year periods. Applicants must also post a $5,000 bond and cannot have been convicted of violent crimes or crimes requiring sex offender registration."
+    },
+    {
+      "question": "What are the major cities and towns in McCurtain County?",
+      "answer": "McCurtain County includes seven incorporated towns: Idabel (the county seat), Broken Bow, Valliant, Wright City, Haworth, Millerton, and Garvin. Idabel and Broken Bow are the two largest communities. The county also includes the popular tourist destination of Hochatown near Beavers Bend State Park. When serving legal documents, it is important to note that some residents may live in rural areas with limited road access, particularly in the northern Ouachita Mountain foothills. For reliable service anywhere in McCurtain County, call (539) 367-6832."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

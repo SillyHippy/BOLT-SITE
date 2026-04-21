@@ -1,0 +1,123 @@
+{
+  "slug": "marshall-county",
+  "countyName": "Marshall County",
+  "countySeat": "Madill",
+  "population": 16147,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "Marshall County Courthouse",
+    "street": "100 Plaza",
+    "city": "Madill",
+    "state": "OK",
+    "zip": "73446",
+    "phone": "(580) 795-3278",
+    "hours": "Monday-Friday 8:30 AM - 5:00 PM (closed 12:00-12:30 PM for lunch)",
+    "judicialDistrict": "20",
+    "oscnDbKey": "marshall"
+  },
+  "majorCities": [
+    "Madill",
+    "Kingston",
+    "Oakland",
+    "New Woodville"
+  ],
+  "neighboringCounties": [
+    "johnston-county",
+    "bryan-county",
+    "grayson-county-tx",
+    "love-county",
+    "carter-county"
+  ],
+  "tribalJurisdiction": [
+    "Chickasaw Nation"
+  ],
+  "majorEmployers": [
+    {
+      "name": "AllianceHealth Madill",
+      "street": "901 S 5th Avenue",
+      "city": "Madill",
+      "zip": "73446",
+      "employees": 150,
+      "industry": "Healthcare",
+      "notes": "Critical access hospital serving Marshall County and surrounding areas. One of the largest employers in the county with payroll exceeding $11 million."
+    },
+    {
+      "name": "Madill Public Schools",
+      "street": "510 W McArthur St",
+      "city": "Madill",
+      "zip": "73446",
+      "employees": 260,
+      "industry": "Education",
+      "notes": "School district serving approximately 1,760 students with 215+ employees."
+    },
+    {
+      "name": "CM Trailers",
+      "street": "200 County Rd",
+      "city": "Madill",
+      "zip": "73446",
+      "employees": 125,
+      "industry": "Manufacturing",
+      "notes": "Major livestock trailer manufacturer located in Madill. Part of the county's significant trailer manufacturing sector."
+    },
+    {
+      "name": "West Bay Casino & Resort",
+      "street": "11840 State Park Road",
+      "city": "Kingston",
+      "zip": "73439",
+      "employees": 200,
+      "industry": "Hospitality/Gaming",
+      "notes": "Chickasaw Nation casino and resort on Lake Texoma, featuring gaming, lodging, dining and entertainment. Major tourism employer."
+    },
+    {
+      "name": "Marshall County Government",
+      "street": "100 Plaza",
+      "city": "Madill",
+      "zip": "73446",
+      "employees": 80,
+      "industry": "Government",
+      "notes": "County government offices including courthouse, sheriff, assessor, clerk and other administrative functions."
+    }
+  ],
+  "uniqueFacts": [
+    "Marshall County is the smallest county in Oklahoma by land area at 371 square miles, though 13% of its total 427 square miles is water from Lake Texoma.",
+    "The Marshall County Courthouse, built in 1913-1915 and designed by architect Jewell Hicks (who also contributed to the Oklahoma State Capitol design), is listed on the National Register of Historic Places.",
+    "Lake Texoma, created by Denison Dam in 1944, inundated a large portion of Marshall County land and now forms the county's southern and eastern borders. The lake attracts approximately 6 million visitors annually.",
+    "The National Sand Bass Festival has been held annually in Madill since 1963, drawing over 15,000 visitors each June with fishing tournaments, carnival rides, concerts and arts and crafts.",
+    "The area was originally part of Pickens County in the Chickasaw Nation before Oklahoma statehood in 1907, and the Haley's Point Archaeological Site contains evidence of human habitation dating back over 10,000 years."
+  ],
+  "processServingNotes": [
+    "The entire county falls within Chickasaw Nation tribal jurisdiction; process servers should be aware that tribal members may have jurisdictional considerations under federal Indian law.",
+    "Lake Texoma's extensive shoreline and recreational areas can create unique service challenges, particularly for seasonal residents and vacation rental properties in the Kingston and Cumberland areas.",
+    "The Marshall County Courthouse is located at 100 Plaza in Madill. Court Clerk's office hours are 8:30 AM to 5:00 PM Monday through Friday with a lunch closure from 12:00-12:30 PM."
+  ],
+  "heroLead": "Nestled along the shores of Lake Texoma, Marshall County is Oklahoma's smallest county by land area but packs rich history within its 427 square miles. From the historic 1913 courthouse in Madill to the Chickasaw Nation's West Bay Casino & Resort in Kingston, the county blends Native American heritage, lakeside recreation, and manufacturing strength. Whether you need process service at a lakeside property or in downtown Madill, Just Legal Solutions delivers county-wide coverage—call (539) 367-6832 or visit /contact.",
+  "faqs": [
+    {
+      "question": "What is the county seat of Marshall County and where is the courthouse located?",
+      "answer": "The county seat of Marshall County is Madill. The historic Marshall County Courthouse is located at 100 Plaza, Madill, OK 73446. The courthouse, built in 1913 and listed on the National Register of Historic Places, houses the Court Clerk's office which can be reached at (580) 795-3272. Hours are Monday through Friday, 8:30 AM to 5:00 PM. For process serving needs in Marshall County, call Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "Which tribal nation has jurisdiction in Marshall County?",
+      "answer": "The entire area of Marshall County falls within the jurisdictional territory of the Chickasaw Nation. The Chickasaw Nation's reservation spans approximately 7,648 square miles across 13 counties in south-central Oklahoma. This tribal jurisdiction may affect legal proceedings involving enrolled tribal members, as the state lacks jurisdiction to prosecute Native Americans for crimes committed within the Chickasaw Nation's historic boundaries per the McGirt and Bosse decisions."
+    },
+    {
+      "question": "What are the major economic drivers in Marshall County?",
+      "answer": "Marshall County's economy is driven by healthcare (AllianceHealth Madill), education (Madill Public Schools), manufacturing (CM Trailers and other trailer manufacturers), tourism and recreation around Lake Texoma, and Chickasaw Nation enterprises including West Bay Casino & Resort. The county's location on the Texas border and proximity to Lake Texoma makes tourism a significant contributor, with approximately 6 million visitors coming to the lake area each year."
+    },
+    {
+      "question": "How does Lake Texoma affect Marshall County's geography and legal service?",
+      "answer": "Lake Texoma, one of the largest reservoirs in the United States covering 89,000 acres, forms Marshall County's entire southern border and much of its eastern border. The lake was created in 1944 when Denison Dam inundated a large portion of the county's land area. For process serving, this creates unique challenges with seasonal residents, vacation rentals, and recreational areas around the lake. Many residences in the Kingston and Cumberland areas are lake-focused properties that may have transient populations, particularly during peak tourist seasons."
+    },
+    {
+      "question": "What cities and towns are in Marshall County?",
+      "answer": "Marshall County has three incorporated towns: Madill (the county seat with approximately 4,100 residents), Kingston (a lakeside community with approximately 1,600 residents), and Oakland (a small town in the northern part of the county). New Woodville is also an incorporated town. Additional unincorporated communities include Cumberland, Lebanon, Little City, McBride, McMillan, and Willis. The county's total population was estimated at 16,147 in 2024."
+    },
+    {
+      "question": "What should I know about serving legal documents in Marshall County?",
+      "answer": "Marshall County is Oklahoma's smallest county by land area at 371 square miles, making it relatively compact for process service. The county seat is Madill where the courthouse is located at 100 Plaza. The entire county is within Chickasaw Nation jurisdiction, which may affect cases involving tribal members. Lake Texoma brings seasonal residents to the Kingston area, which can present service challenges. For professional process serving throughout Marshall County, including same-day and rush service, contact Just Legal Solutions at (539) 367-6832."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

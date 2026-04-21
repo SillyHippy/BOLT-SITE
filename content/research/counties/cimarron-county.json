@@ -1,0 +1,104 @@
+{
+  "slug": "cimarron-county",
+  "countyName": "Cimarron County",
+  "countySeat": "Boise City",
+  "population": 2133,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "Cimarron County Courthouse",
+    "street": "1 Courthouse Square",
+    "city": "Boise City",
+    "state": "OK",
+    "zip": "73933",
+    "phone": "580-544-2221",
+    "hours": "Monday-Friday 9:00 AM - 5:00 PM, closed for lunch 12:00 PM - 1:00 PM",
+    "judicialDistrict": "1st Judicial District (Cimarron, Texas, Beaver, and Harper Counties)",
+    "oscnDbKey": "CIMARRON"
+  },
+  "majorCities": [
+    "Boise City",
+    "Keyes",
+    "Felt",
+    "Kenton"
+  ],
+  "neighboringCounties": [
+    "baca-county",
+    "morton-county",
+    "texas-county",
+    "dallam-county",
+    "sherman-county",
+    "union-county"
+  ],
+  "tribalJurisdiction": [],
+  "majorEmployers": [
+    {
+      "name": "Cimarron Memorial Hospital",
+      "street": "100 South Ellis Street",
+      "city": "Boise City",
+      "zip": "73933",
+      "employees": 25,
+      "industry": "Healthcare",
+      "notes": "25-bed critical access hospital serving Boise City and surrounding rural communities since 1951. Managed by Community Hospital Management."
+    },
+    {
+      "name": "Boise City Public Schools (Cimarron Public School District)",
+      "street": "P.O. Box 190",
+      "city": "Boise City",
+      "zip": "73933",
+      "employees": 77,
+      "industry": "Education",
+      "notes": "Serves Pre-K through 12th grade with approximately 264 students. Operates two campuses in Boise City."
+    },
+    {
+      "name": "Cimarron County Government",
+      "street": "1 Courthouse Square",
+      "city": "Boise City",
+      "zip": "73933",
+      "employees": 30,
+      "industry": "Government",
+      "notes": "County government operations including courthouse, clerk, sheriff, and county services."
+    }
+  ],
+  "uniqueFacts": [
+    "Cimarron County is the only county in the United States that borders four other states: Colorado, Kansas, New Mexico, and Texas (in addition to Oklahoma itself).",
+    "The county contains Black Mesa, the highest point in Oklahoma at 4,973 feet above sea level, a three-million-year-old basalt lava flow from a Colorado volcano.",
+    "The historic Santa Fe Trail's Cimarron Cutoff crossed through Cimarron County from 1822 to 1880, carrying approximately 75% of all trail traffic. Autograph Rock near Boise City still displays names carved by travelers.",
+    "The Cimarron County Courthouse, built in 1926 in Classical Revival style after the original wood-frame courthouse burned, sits on a unique traffic circle where seven highways converge (US-56, US-64, US-287, US-385, US-412, SH-3, and SH-325).",
+    "Kenton, in the far northwestern corner of Cimarron County, is the only community in Oklahoma that unofficially observes Mountain Time (the rest of the state is on Central Time)."
+  ],
+  "processServingNotes": [
+    "Process servers must account for the vast geography of Cimarron County (1,841 square miles) with very low population density. Boise City is the primary population center, but serves may be required in remote areas near Kenton, Keyes, or Felt.",
+    "The courthouse operates Monday through Friday, 9:00 AM to 5:00 PM with a lunch closure from 12:00 PM to 1:00 PM. All filings and record searches should be coordinated within these hours.",
+    "Cimarron County is part of the 1st Judicial District alongside Texas, Beaver, and Harper Counties. The District Judge rotates between all four counties, so scheduling matters may require coordination across the district."
+  ],
+  "heroLead": "Cimarron County, Oklahoma's westernmost county in the Oklahoma Panhandle, holds the unique distinction of being the only U.S. county to border four other states. From the 4,973-foot summit of Black Mesa (Oklahoma's highest point) to the historic Santa Fe Trail crossings, this frontier county of 2,133 residents spans 1,841 square miles of ranchlands and wheat fields anchored by the resilient community of Boise City. Call (539) 367-6832 or visit /contact for professional process serving throughout Cimarron County.",
+  "faqs": [
+    {
+      "question": "Why is Cimarron County called the only county in the U.S. to border four states?",
+      "answer": "Cimarron County is unique because it borders Colorado to the north, Kansas to the northeast, New Mexico to the west, and Texas to the south and southeast, while also being bordered by Texas County, Oklahoma to the east. This means it touches five states total (including Oklahoma), making it the only county in America with this geographic distinction. A point in the county is less than 27 miles from five different state borders."
+    },
+    {
+      "question": "What is the significance of Black Mesa State Park in Cimarron County?",
+      "answer": "Black Mesa State Park, located in northwestern Cimarron County, contains Black Mesa, which at 4,973 feet is the highest point in Oklahoma. The mesa is a three-million-year-old basalt lava flow from a volcano in Colorado, 65 miles away. The park also features Lake Carl Etling, created in 1959, and the Black Mesa Nature Preserve. The area has yielded significant dinosaur fossils including brontosaurus, stegosaurus, and allosaurus footprints along Carrizo Creek."
+    },
+    {
+      "question": "What was the Santa Fe Trail's connection to Cimarron County?",
+      "answer": "The Cimarron Cutoff of the Santa Fe Trail crossed through Cimarron County from 1822 to 1880, carrying approximately 75% of all trail traffic between Missouri and Santa Fe, New Mexico. The trail crossed the Cimarron River at Willowbar Crossing and continued to Cold Springs, where Autograph Rock still displays names carved by travelers. The most dangerous section, called the Jornada del Muerto, was the 50-60 mile waterless stretch travelers crossed in this region. For process serving questions in Cimarron County, call (539) 367-6832."
+    },
+    {
+      "question": "How did Cimarron County get its name?",
+      "answer": "Cimarron County takes its name from the Cimarron River, which flows through the northern portion of the county. The name comes from the Spanish 'Rio de los Carneros Cimarron,' meaning 'River of the Wild Sheep,' referring to bighorn sheep that once inhabited the region. Before statehood in 1907, the area was part of 'No Man's Land' or the 'Public Land Strip,' a 34.5-by-167-mile rectangle of federal land unattached to any state or territorial government from 1850 to 1890."
+    },
+    {
+      "question": "What is the time zone situation in Cimarron County?",
+      "answer": "While the entire state of Oklahoma officially observes Central Time, the community of Kenton in far northwestern Cimarron County unofficially follows Mountain Time because of its close proximity to New Mexico and Colorado, both Mountain Time states. Kenton is only about 7 miles from the Colorado border and 27 miles from New Mexico. The rest of Cimarron County, including the county seat Boise City, follows Central Time. Process servers should note this time difference when scheduling serves in the Kenton area."
+    },
+    {
+      "question": "What is the population and economy of Cimarron County like today?",
+      "answer": "Cimarron County is the least populous county in Oklahoma with approximately 2,133 residents as of 2024. The county has a population density of only about 1.2 people per square mile across its 1,841 square miles. Agriculture dominates the local economy, with wheat, corn, milo, and alfalfa as major crops, alongside cattle ranching. The county's major employers are Cimarron Memorial Hospital (25-bed critical access facility), Boise City Public Schools, and county government. The community maintains a strong frontier spirit rooted in self-sufficiency and neighborly cooperation. For legal process serving needs in Cimarron County, contact (539) 367-6832."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

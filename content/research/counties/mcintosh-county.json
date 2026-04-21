@@ -1,0 +1,136 @@
+{
+  "slug": "mcintosh-county",
+  "countyName": "McIntosh County",
+  "countySeat": "Eufaula",
+  "population": 19710,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "McIntosh County Courthouse",
+    "street": "110 N 1st St",
+    "city": "Eufaula",
+    "state": "OK",
+    "zip": "74432",
+    "phone": "918-689-2282",
+    "hours": "Mon-Fri 8:00am-4:00pm",
+    "judicialDistrict": "18th",
+    "oscnDbKey": "McIntosh"
+  },
+  "majorCities": [
+    "Checotah",
+    "Eufaula",
+    "Hanna",
+    "Hitchita",
+    "Rentiesville",
+    "Stidham"
+  ],
+  "neighboringCounties": [
+    "muskogee-county",
+    "haskell-county",
+    "pittsburg-county",
+    "hughes-county",
+    "okfuskee-county",
+    "okmulgee-county"
+  ],
+  "tribalJurisdiction": [
+    "Muscogee (Creek) Nation",
+    "Cherokee Nation"
+  ],
+  "majorEmployers": [
+    {
+      "name": "Eufaula Public Schools",
+      "street": "215 N 6th St",
+      "city": "Eufaula",
+      "zip": "74432",
+      "employees": 300,
+      "industry": "Education",
+      "notes": "Includes elementary, middle and high schools"
+    },
+    {
+      "name": "Checotah Public Schools",
+      "street": "320 W Jefferson Ave",
+      "city": "Checotah",
+      "zip": "74426",
+      "employees": 200,
+      "industry": "Education",
+      "notes": "Includes elementary, middle and high schools"
+    },
+    {
+      "name": "Muscogee Nation Gaming Enterprises",
+      "street": "806 Forest Ave",
+      "city": "Eufaula",
+      "zip": "74432",
+      "employees": 150,
+      "industry": "Gaming & Hospitality",
+      "notes": "Creek Nation Casino Eufaula; opened in 2025"
+    },
+    {
+      "name": "McIntosh County Government",
+      "street": "110 N 1st St",
+      "city": "Eufaula",
+      "zip": "74432",
+      "employees": 100,
+      "industry": "Government",
+      "notes": "Includes courthouse, sheriff and county offices"
+    },
+    {
+      "name": "McIntosh County Health Department",
+      "street": "29 Hospital Dr",
+      "city": "Eufaula",
+      "zip": "74432",
+      "employees": 50,
+      "industry": "Healthcare",
+      "notes": "State health department clinic"
+    },
+    {
+      "name": "Walmart Supercenter",
+      "street": "810 S George Nigh Expy",
+      "city": "Checotah",
+      "zip": "74426",
+      "employees": 150,
+      "industry": "Retail",
+      "notes": "Major retail employer"
+    }
+  ],
+  "uniqueFacts": [
+    "Lake Eufaula, covering 105,500 surface acres, is Oklahoma's largest reservoir and dominates McIntosh County's landscape, drawing about 2 million visitors annually.",
+    "The Battle of Honey Springs, fought near present-day Rentiesville on July 17, 1863, was the largest Civil War engagement in Indian Territory with over 9,000 troops participating.",
+    "The county is named for the influential Creek family of McIntosh, led by William McIntosh, who signed the 1825 Treaty of Indian Springs exchanging Creek lands in Georgia for territory in present-day Oklahoma.",
+    "Between 1907 and 1909, Checotah and Eufaula engaged in the 'McIntosh County Seat War,' an armed dispute over which town would serve as county seat, culminating in Eufaula's permanent designation.",
+    "Rentiesville was one of approximately 50 all-black towns established in Oklahoma and is one of only about 13 that still survive today."
+  ],
+  "processServingNotes": [
+    "McIntosh County is within the Muscogee (Creek) Nation reservation; process servers should verify if the defendant is a tribal citizen as tribal courts may have concurrent jurisdiction.",
+    "The county seat is Eufaula, but civil process may also need to be served in Checotah, Hanna, Hitchita, Rentiesville and Stidham depending on where the defendant resides.",
+    "The court clerk issues private process server licenses for McIntosh County; contact the clerk's office at 918-689-2282 for licensing requirements."
+  ],
+  "heroLead": "Named for an influential Muscogee Creek family, McIntosh County is home to Lake Eufaula, Oklahoma's largest reservoir, and the historic Honey Springs Battlefield. The county blends rich Native American heritage with agriculture, tourism and Lake Eufaula's recreational economy. For professional process serving throughout McIntosh County, contact us at (539) 367-6832 or visit /contact.",
+  "faqs": [
+    {
+      "question": "Where is the McIntosh County Courthouse located?",
+      "answer": "The McIntosh County Courthouse is located at 110 N 1st Street in Eufaula, Oklahoma 74432. The Court Clerk's office can be reached at 918-689-2282 and is open Monday through Friday from 8:00am to 4:00pm."
+    },
+    {
+      "question": "What judicial district is McIntosh County in?",
+      "answer": "McIntosh County is in Oklahoma's 18th Judicial District, which also includes Pittsburg County. The district court handles civil, criminal, probate, juvenile, domestic relations and small claims matters."
+    },
+    {
+      "question": "Is McIntosh County part of any tribal jurisdiction?",
+      "answer": "Yes, most of McIntosh County lies within the Muscogee (Creek) Nation reservation, and the far eastern portion is within the Cherokee Nation. This affects legal proceedings involving enrolled tribal citizens, as tribal courts may have concurrent jurisdiction in certain matters."
+    },
+    {
+      "question": "What is the largest city in McIntosh County?",
+      "answer": "Checotah is the largest city in McIntosh County with a population of approximately 3,335, while Eufaula serves as the county seat with a population of about 2,813. Other incorporated towns include Hanna, Hitchita, Rentiesville and Stidham."
+    },
+    {
+      "question": "What major attractions are in McIntosh County?",
+      "answer": "The county is home to Lake Eufaula, Oklahoma's largest lake at 105,500 surface acres, offering boating, fishing and recreation. The Honey Springs Battlefield near Rentiesville preserves the site of the largest Civil War battle in Indian Territory. For process serving assistance in McIntosh County, call (539) 367-6832."
+    },
+    {
+      "question": "How do I get licensed as a private process server in McIntosh County?",
+      "answer": "Private process server licenses in McIntosh County are issued by the Court Clerk's office. Contact Lisa Rodebush, Court Clerk, at 918-689-2282 or mcintoshclerk@oscn.net for application requirements, fees and licensing procedures."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

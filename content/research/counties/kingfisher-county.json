@@ -1,0 +1,125 @@
+{
+  "slug": "kingfisher-county",
+  "countyName": "Kingfisher County",
+  "countySeat": "Kingfisher",
+  "population": 15820,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "Kingfisher County Courthouse",
+    "street": "101 S Main St",
+    "city": "Kingfisher",
+    "state": "OK",
+    "zip": "73750",
+    "phone": "405-375-3813",
+    "hours": "Monday-Friday 8:00 AM - 4:30 PM",
+    "judicialDistrict": "4",
+    "oscnDbKey": "kingfisher"
+  },
+  "majorCities": [
+    "Kingfisher",
+    "Hennessey",
+    "Dover",
+    "Loyal",
+    "Cashion",
+    "Okarche"
+  ],
+  "neighboringCounties": [
+    "garfield-county",
+    "logan-county",
+    "canadian-county",
+    "blaine-county",
+    "major-county",
+    "oklahoma-county"
+  ],
+  "tribalJurisdiction": [
+    "Cheyenne and Arapaho Tribes"
+  ],
+  "majorEmployers": [
+    {
+      "name": "Mercy Hospital Kingfisher",
+      "street": "1000 Hospital Drive",
+      "city": "Kingfisher",
+      "zip": "73750",
+      "employees": 96,
+      "industry": "Healthcare",
+      "notes": "25-bed critical access hospital serving Kingfisher County and surrounding areas"
+    },
+    {
+      "name": "Kingfisher Public Schools",
+      "street": "602 W Chisholm Drive",
+      "city": "Kingfisher",
+      "zip": "73750",
+      "employees": 215,
+      "industry": "Education",
+      "notes": "School district serving approximately 1,332 students"
+    },
+    {
+      "name": "Chisholm Trail Technology Center",
+      "street": "283 State Highway 33",
+      "city": "Omega",
+      "zip": "73764",
+      "employees": 35,
+      "industry": "Education",
+      "notes": "Career and technical education center serving the region"
+    },
+    {
+      "name": "Seaboard Foods",
+      "street": "",
+      "city": "Hennessey",
+      "zip": "73742",
+      "employees": 200,
+      "industry": "Agriculture/Food Processing",
+      "notes": "Pork production and processing operations with feed mill and farm facilities"
+    },
+    {
+      "name": "Pioneer Telephone Cooperative",
+      "street": "108 E Robberts Ave",
+      "city": "Kingfisher",
+      "zip": "73750",
+      "employees": 150,
+      "industry": "Telecommunications",
+      "notes": "Third largest telephone cooperative in the nation, headquartered in Kingfisher"
+    }
+  ],
+  "uniqueFacts": [
+    "Kingfisher is the birthplace of Sam Walton, founder of Walmart, born March 29, 1918",
+    "The Chisholm Trail crossed through Kingfisher County, with millions of cattle driven through in the late 1800s",
+    "W.C. Coleman, inventor of the Coleman lantern, also originated from Kingfisher",
+    "The county was originally called County Five when created by the Organic Act of May 2, 1890, before being renamed Kingfisher by voter choice on August 5, 1890",
+    "German immigrants including Joseph Danne developed Early Triumph wheat here, which by 1954 produced more than half of America's wheat crop"
+  ],
+  "processServingNotes": [
+    "Private process server licenses are issued through the Court Clerk's office",
+    "The Cheyenne and Arapaho Tribes maintain jurisdiction in Kingfisher County; cases involving tribal members may require service through tribal court"
+  ],
+  "heroLead": "Located in central Oklahoma along the historic Chisholm Trail, Kingfisher County blends rich agricultural heritage with modern oil and gas production. From the birthplace of Walmart founder Sam Walton to the vibrant communities of Kingfisher and Hennessey, process serving throughout the county requires knowledge of both state and Cheyenne and Arapaho tribal jurisdictions. Contact us at (539) 367-6832 or visit /contact for professional process serving assistance.",
+  "faqs": [
+    {
+      "question": "Where is the Kingfisher County Courthouse located?",
+      "answer": "The Kingfisher County Courthouse is located at 101 S Main Street in Kingfisher, Oklahoma 73750. The courthouse houses the Court Clerk's office, County Clerk, and District Court. For process serving inquiries, call (539) 367-6832."
+    },
+    {
+      "question": "What are the courthouse hours for filing documents?",
+      "answer": "The Kingfisher County Courthouse is open Monday through Friday from 8:00 AM to 4:30 PM. The Court Clerk's office maintains all district court records and can assist with filing civil, criminal, probate, and small claims documents."
+    },
+    {
+      "question": "Which judicial district is Kingfisher County in?",
+      "answer": "Kingfisher County is in Oklahoma's 4th Judicial District, which also includes Alfalfa, Blaine, Dewey, Garfield, Grant, Major, Woods, and Woodward counties. The Associate District Judge presides over cases in Kingfisher County."
+    },
+    {
+      "question": "Does tribal jurisdiction affect process serving in Kingfisher County?",
+      "answer": "Yes, the Cheyenne and Arapaho Tribes maintain tribal jurisdiction within Kingfisher County. Service of process involving tribal members may need to be coordinated through tribal court. For assistance navigating tribal service requirements in Kingfisher County, contact (539) 367-6832."
+    },
+    {
+      "question": "How do I access court records for Kingfisher County?",
+      "answer": "Court records can be accessed online through the Oklahoma State Courts Network (OSCN) at oscn.net using the county database key 'kingfisher'. Records can also be obtained in person at the Court Clerk's office at the courthouse."
+    },
+    {
+      "question": "What cities and towns are in Kingfisher County?",
+      "answer": "Kingfisher County includes the cities and towns of Kingfisher (county seat), Hennessey, Dover, Loyal, Cashion (partially in Logan County), and Okarche (partially in Canadian County). Process serving is available throughout all communities in Kingfisher County."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

@@ -1,0 +1,162 @@
+{
+  "slug": "craig-county",
+  "countyName": "Craig County",
+  "countySeat": "Vinita",
+  "population": 14506,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "Craig County Courthouse",
+    "street": "210 W. Delaware Ave",
+    "city": "Vinita",
+    "state": "OK",
+    "zip": "74301",
+    "phone": "918-256-6451",
+    "hours": "Monday-Friday 8:30 AM - 4:30 PM",
+    "judicialDistrict": "12",
+    "oscnDbKey": "craig"
+  },
+  "majorCities": [
+    "Vinita",
+    "Bluejacket",
+    "Big Cabin",
+    "Ketchum",
+    "Welch"
+  ],
+  "neighboringCounties": [
+    "labette-county",
+    "cherokee-county-ks",
+    "ottawa-county",
+    "delaware-county",
+    "mayes-county",
+    "rogers-county",
+    "nowata-county"
+  ],
+  "tribalJurisdiction": [
+    "Cherokee Nation"
+  ],
+  "majorEmployers": [
+    {
+      "name": "Vinita Public Schools",
+      "city": "Vinita",
+      "zip": "74301",
+      "employees": 275,
+      "industry": "Education",
+      "notes": "Local public school system with multiple campuses serving Craig County students"
+    },
+    {
+      "name": "Saint Francis Hospital at Vinita",
+      "city": "Vinita",
+      "zip": "74301",
+      "employees": 200,
+      "industry": "Healthcare",
+      "notes": "Serves Craig County and surrounding area offering inpatient medical, geri-psych, and outpatient services"
+    },
+    {
+      "name": "Oklahoma Forensic Center",
+      "city": "Vinita",
+      "zip": "74301",
+      "employees": 200,
+      "industry": "Healthcare/Government",
+      "notes": "Largest inpatient behavioral health facility in Oklahoma Department of Mental Health system with 200-bed capacity"
+    },
+    {
+      "name": "Home of Hope, Inc.",
+      "city": "Vinita",
+      "zip": "74301",
+      "employees": 150,
+      "industry": "Social Services",
+      "notes": "Non-profit corporation serving people with developmental and other disabilities"
+    },
+    {
+      "name": "Cherokee Nation Vinita Health Center",
+      "city": "Vinita",
+      "zip": "74301",
+      "employees": 100,
+      "industry": "Healthcare",
+      "notes": "Community clinic, wellness center, and dental center serving the local area"
+    },
+    {
+      "name": "KAMO Power",
+      "city": "Vinita",
+      "zip": "74301",
+      "employees": 100,
+      "industry": "Utilities",
+      "notes": "Generation and transmission cooperative serving 17 member distribution co-ops in Northeast Oklahoma and Southwest Missouri, headquartered in Vinita"
+    },
+    {
+      "name": "Northeast Oklahoma Electric Cooperative",
+      "city": "Vinita",
+      "zip": "74301",
+      "employees": 100,
+      "industry": "Utilities",
+      "notes": "Electric cooperative serving the region"
+    },
+    {
+      "name": "Walmart Supercenter",
+      "city": "Vinita",
+      "zip": "74301",
+      "employees": 200,
+      "industry": "Retail",
+      "notes": "Retail supercenter serving Vinita and surrounding communities"
+    },
+    {
+      "name": "HyPro Incorporated",
+      "city": "Vinita",
+      "zip": "74301",
+      "employees": 75,
+      "industry": "Manufacturing",
+      "notes": "Industrial manufacturer of precision machined components (CNC); newest of five US manufacturing locations"
+    },
+    {
+      "name": "Welch State Bank",
+      "city": "Welch",
+      "zip": "74369",
+      "employees": 50,
+      "industry": "Finance",
+      "notes": "Community bank serving Craig County since 1923 merger"
+    }
+  ],
+  "uniqueFacts": [
+    "Craig County was named after Granville Craig, a prominent mixed-blood Cherokee farmer who lived in the Welch-Bluejacket area since 1873, recognized by the Oklahoma State Constitutional Convention in 1907",
+    "Vinita, the county seat, is Oklahoma's second-oldest town, established in 1871 by Elias Cornelius Boudinot, son of the first Cherokee Phoenix editor",
+    "The county encompasses 763 square miles on the western edge of the Ozark Plateau and eastern edge of the Prairie Plains, featuring unique geological formations like Blue Mound, Notch Mound, and Hayrick Mound",
+    "Coal mining began after the Civil War with major operations starting around 1900, and coal was still being produced in western parts of the county at the turn of the 21st century",
+    "An oil refinery operated west of Vinita as early as 1911, shipping 1,200 to 1,500 cars of oil monthly by 1917; Sinclair Oil Company bought and operated it until the mid-1920s",
+    "The area was part of the Delaware and Cooweescoowee districts of the Cherokee Nation, Indian Territory, and was traversed by the Texas Road and East Shawnee Cattle Trail used for cattle drives"
+  ],
+  "processServingNotes": [
+    "Craig County District Court is part of Judicial District 12, located at 210 W. Delaware Ave, Suite 201, Vinita, OK 74301; hours are Monday-Friday 8:30 AM - 4:30 PM",
+    "The county has both urban areas (Vinita) and extensive rural ranch lands, requiring process servers to be prepared for both in-town and rural service routes",
+    "Cherokee Nation tribal jurisdiction covers all of Craig County; process servers should be aware of potential tribal court considerations"
+  ],
+  "heroLead": "Craig County, nestled in northeastern Oklahoma's rolling prairies on the western edge of the Ozark Plateau, carries a rich Cherokee heritage dating back to the Trail of Tears and was named for Granville Craig, a respected mixed-blood Cherokee farmer. From the historic railroad town of Vinita, Oklahoma's second-oldest incorporated town, to the ranchlands that still drive the local economy, Craig County blends deep Native American history with modern healthcare, education, and manufacturing employers. For reliable process serving throughout Craig County's five incorporated towns and rural communities, call (539) 367-6832 or visit /contact.",
+  "faqs": [
+    {
+      "question": "Where is the Craig County Courthouse located and what are its hours?",
+      "answer": "The Craig County Courthouse is located at 210 W. Delaware Ave in Vinita, OK 74301. The courthouse is open Monday through Friday from 8:30 AM to 4:30 PM. The Court Clerk's office can be reached at 918-256-6451 for questions about filings or to confirm hours before visiting."
+    },
+    {
+      "question": "What judicial district is Craig County in and which judges preside there?",
+      "answer": "Craig County is part of Oklahoma's 12th Judicial District, which also includes Mayes and Rogers counties. The district court in Vinita has multiple courtrooms on the upper floor of the courthouse. For specific judge assignments and courtroom information, contact the court clerk at 918-256-6451."
+    },
+    {
+      "question": "What cities and towns are in Craig County where process service may be needed?",
+      "answer": "Craig County has five incorporated towns: Vinita (the county seat), Bluejacket, Big Cabin, Ketchum, and Welch. There are also unincorporated communities including White Oak. Each area has different access considerations, from Vinita's historic downtown to the rural ranch lands throughout the county. Call (539) 367-6832 to discuss service in any Craig County location."
+    },
+    {
+      "question": "Does tribal jurisdiction affect process serving in Craig County?",
+      "answer": "Yes, all of Craig County falls within the Cherokee Nation reservation boundaries. While state district court retains jurisdiction over most civil and criminal matters, process servers should be aware that certain cases involving tribal members may have tribal court considerations. The Cherokee Nation Vinita Health Center is a major presence in the county. For assistance navigating service in tribal jurisdiction areas, contact (539) 367-6832."
+    },
+    {
+      "question": "What major highways run through Craig County for process server access?",
+      "answer": "Craig County is well-connected by major highways including Interstate 44 (Will Rogers Turnpike), U.S. Highway 59, U.S. Highway 60, U.S. Highway 69, and State Highway 2. These routes provide good access to Vinita and surrounding communities. The county's rural roads can be challenging, so experienced local process servers familiar with both highway and ranch-road navigation are recommended."
+    },
+    {
+      "question": "What industries drive Craig County's economy and where are major employers located?",
+      "answer": "Craig County's economy is anchored by healthcare, education, utilities, and agriculture. Major employers include Saint Francis Hospital, Vinita Public Schools, Oklahoma Forensic Center, Home of Hope, KAMO Power, and Walmart. Many residents are employed in ranching and farming, with over 418,000 acres used for agriculture as of 2000. Call (539) 367-6832 for professional process serving at any Craig County business or residence."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

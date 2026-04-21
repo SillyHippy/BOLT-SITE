@@ -1,0 +1,129 @@
+{
+  "slug": "pittsburg-county",
+  "countyName": "Pittsburg County",
+  "countySeat": "McAlester",
+  "population": 43395,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "Pittsburg County Courthouse",
+    "street": "115 E Carl Albert Parkway",
+    "city": "McAlester",
+    "state": "OK",
+    "zip": "74501",
+    "phone": "918-423-4859",
+    "hours": "Monday - Friday 8:00 AM - 4:30 PM",
+    "judicialDistrict": "18th Judicial District",
+    "oscnDbKey": "Pittsburg"
+  },
+  "majorCities": [
+    "McAlester",
+    "Krebs",
+    "Hartshorne",
+    "Quinton",
+    "Haileyville",
+    "Savanna",
+    "Kiowa",
+    "Crowder"
+  ],
+  "neighboringCounties": [
+    "mcintosh-county",
+    "haskell-county",
+    "latimer-county",
+    "pushmataha-county",
+    "atoka-county",
+    "coal-county",
+    "hughes-county"
+  ],
+  "tribalJurisdiction": [
+    "Choctaw Nation of Oklahoma"
+  ],
+  "majorEmployers": [
+    {
+      "name": "McAlester Army Ammunition Plant",
+      "street": "1 C Tree Road",
+      "city": "McAlester",
+      "zip": "74501",
+      "employees": 2000,
+      "industry": "Defense/Ammunition Manufacturing",
+      "notes": "Major U.S. Army ammunition production and storage facility; one of the largest employers in southeast Oklahoma"
+    },
+    {
+      "name": "Oklahoma State Penitentiary",
+      "street": "1301 N West St",
+      "city": "McAlester",
+      "zip": "74501",
+      "employees": 750,
+      "industry": "Government/Corrections",
+      "notes": "Maximum security prison opened in 1908; Oklahoma's oldest prison and only execution site"
+    },
+    {
+      "name": "McAlester Regional Health Center",
+      "street": "One Clark Bass Boulevard",
+      "city": "McAlester",
+      "zip": "74501",
+      "employees": 800,
+      "industry": "Healthcare",
+      "notes": "Largest healthcare provider in the region; offers comprehensive medical services to Pittsburg County residents"
+    },
+    {
+      "name": "Choctaw Nation of Oklahoma",
+      "street": "1127 S George Nigh Expwy",
+      "city": "McAlester",
+      "zip": "74501",
+      "employees": 500,
+      "industry": "Tribal Government/Services",
+      "notes": "Operates health clinic, judicial center, and various tribal services in McAlester; part of reservation covering Pittsburg County"
+    },
+    {
+      "name": "Walmart Supercenter",
+      "street": "432 S George Nigh Expy",
+      "city": "McAlester",
+      "zip": "74501",
+      "employees": 300,
+      "industry": "Retail",
+      "notes": "Major retail employer serving Pittsburg County and surrounding areas"
+    }
+  ],
+  "uniqueFacts": [
+    "Pittsburg County was named for Pittsburgh, Pennsylvania because county leaders believed its coal production compared favorably with the famous steel city at Oklahoma statehood in 1907",
+    "The town of Krebs in Pittsburg County is known as 'Oklahoma's Little Italy' due to its large Italian-American population descended from coal miners recruited from Italy in the late 1800s",
+    "Lake Eufaula, Oklahoma's largest-capacity lake with 102,200 surface acres and 600 miles of shoreline, forms the northern boundary of Pittsburg County",
+    "The Oklahoma State Penitentiary in McAlester opened in 1908 and is the site of all Oklahoma executions; it was the location of one of the nation's worst prison riots in 1973",
+    "Carl Albert, Speaker of the U.S. House of Representatives from 1971 to 1977, was from Pittsburg County; the McAlester courthouse is located on Carl Albert Parkway named in his honor"
+  ],
+  "processServingNotes": [
+    "The Pittsburg County Courthouse is located at 115 E Carl Albert Parkway in McAlester, with Court Clerk hours Monday-Friday 8:00 AM to 4:30 PM; filings and service-related matters should be directed to the Court Clerk at 918-423-4859",
+    "Choctaw Nation tribal court operates a Judicial Center in McAlester that handles cases from Pittsburg County; tribal jurisdiction overlaps with state jurisdiction for enrolled tribal members",
+    "Pittsburg County includes the Oklahoma State Penitentiary at 1301 N West St in McAlester; serving inmates requires compliance with Oklahoma Department of Corrections procedures and coordination with facility staff"
+  ],
+  "heroLead": "Pittsburg County, anchored by McAlester in the heart of the Choctaw Nation reservation, blends rich coal mining heritage with modern defense manufacturing and healthcare industries. Named for Pittsburgh, Pennsylvania at Oklahoma statehood in 1907, the county spans 1,378 square miles from the shores of Lake Eufaula to the Ouachita Mountains. Whether you need process serving at the courthouse, the McAlester Army Ammunition Plant, or anywhere in Pittsburg County, call (539) 367-6832 or visit /contact.",
+  "faqs": [
+    {
+      "question": "Where is the Pittsburg County Courthouse located and what are the Court Clerk's hours?",
+      "answer": "The Pittsburg County Courthouse is located at 115 E Carl Albert Parkway in McAlester, Oklahoma. The Court Clerk's office is open Monday through Friday from 8:00 AM to 4:30 PM and can be reached at 918-423-4859. The courthouse handles all district court filings for the 18th Judicial District, including civil, criminal, and family law matters. For process serving assistance in Pittsburg County, contact Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "Does Choctaw Nation jurisdiction affect process serving in Pittsburg County?",
+      "answer": "Yes, Pittsburg County falls within the Choctaw Nation reservation boundaries. The Choctaw Nation opened a Judicial Center in McAlester in 2026 that handles cases originating from Pittsburg County, including guardianship, divorce, and juvenile matters. When serving tribal members, it is important to consider both state district court requirements and tribal court procedures. The Choctaw Nation maintains significant governmental presence in McAlester, including health services and judicial operations."
+    },
+    {
+      "question": "What major industries drive the economy in Pittsburg County?",
+      "answer": "Pittsburg County's economy has historically been anchored by coal mining, which gave the county its name. Today, major employers include the McAlester Army Ammunition Plant, Oklahoma State Penitentiary, McAlester Regional Health Center, and Choctaw Nation services. The county also benefits from Lake Eufaula tourism, which draws an estimated two million visitors annually to northern Pittsburg County. For reliable process serving that understands the local economic landscape, contact Just Legal Solutions."
+    },
+    {
+      "question": "What is the significance of Krebs, Oklahoma being called 'Little Italy'?",
+      "answer": "Krebs, located in Pittsburg County, earned the nickname 'Oklahoma's Little Italy' because nearly half of its population at statehood in 1907 was Italian-American. Italian immigrants were recruited to work in the area's coal mines during the late 1800s, bringing their culinary traditions with them. Today, Krebs remains famous for its Italian restaurants including Pete's Place (established 1925) and Roseanna's Italian Food. The town celebrates its heritage each May at the Italian Festival in McAlester."
+    },
+    {
+      "question": "How does the Oklahoma State Penitentiary affect legal proceedings in Pittsburg County?",
+      "answer": "The Oklahoma State Penitentiary, nicknamed 'Big Mac,' is located at 1301 N West St in McAlester and is the state's only maximum security prison and execution site. Opened in 1908, it houses more than 750 male offenders, including death row inmates. Serving legal documents to inmates requires compliance with Oklahoma Department of Corrections procedures, including specific mailing and visitation protocols. The facility's presence makes Pittsburg County a hub for criminal justice proceedings in Oklahoma. For professional process serving assistance, call (539) 367-6832."
+    },
+    {
+      "question": "What recreational attractions are available in Pittsburg County?",
+      "answer": "Pittsburg County offers numerous recreational opportunities centered around Lake Eufaula, Oklahoma's largest lake, which forms the county's northern boundary with 102,200 surface acres and 600 miles of shoreline. Popular activities include fishing, boating, camping, and hunting at the Lake Eufaula State Park area. The county is also home to the Southeast Expo Center in McAlester, which hosts events throughout the year. Outdoor enthusiasts enjoy the Ouachita Mountains in the southeastern portion of the county."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

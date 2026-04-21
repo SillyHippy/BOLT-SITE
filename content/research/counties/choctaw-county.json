@@ -1,0 +1,136 @@
+{
+  "slug": "choctaw-county",
+  "countyName": "Choctaw County",
+  "countySeat": "Hugo",
+  "population": 14174,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "Choctaw County Courthouse",
+    "street": "300 E. Duke",
+    "city": "Hugo",
+    "state": "OK",
+    "zip": "74743",
+    "phone": "(580) 326-7554",
+    "hours": "Monday-Friday 8:00am - 4:30pm",
+    "judicialDistrict": "17 (Choctaw, McCurtain, Pushmataha counties)",
+    "oscnDbKey": "choctaw"
+  },
+  "majorCities": [
+    "Hugo",
+    "Boswell",
+    "Fort Towson",
+    "Sawyer",
+    "Soper",
+    "Grant",
+    "Swink"
+  ],
+  "neighboringCounties": [
+    "pushmataha-county",
+    "mccurtain-county",
+    "bryan-county",
+    "atoka-county",
+    "red-river-county-tx",
+    "lamar-county-tx"
+  ],
+  "tribalJurisdiction": [
+    "Choctaw Nation of Oklahoma"
+  ],
+  "majorEmployers": [
+    {
+      "name": "Choctaw Nation Finishing",
+      "street": "203 Choctaw Industrial Dr",
+      "city": "Hugo",
+      "zip": "74743",
+      "employees": 175,
+      "industry": "Manufacturing/Metal Finishing",
+      "notes": "Tribally-owned manufacturing facility serving defense and commercial clients"
+    },
+    {
+      "name": "Little Dixie Community Action Agency (LIFT CA)",
+      "street": "209 N 4th St",
+      "city": "Hugo",
+      "zip": "74743",
+      "employees": 375,
+      "industry": "Social Services/Nonprofit",
+      "notes": "Head Start, emergency assistance, housing, and community services for southeast Oklahoma"
+    },
+    {
+      "name": "Choctaw Memorial Hospital",
+      "street": "1405 E Kirk St",
+      "city": "Hugo",
+      "zip": "74743",
+      "employees": 150,
+      "industry": "Healthcare/Hospital",
+      "notes": "Short-term acute care hospital serving Choctaw County and surrounding areas since 1950"
+    },
+    {
+      "name": "Hugo Public Schools",
+      "street": "1603 E. Kirk Street",
+      "city": "Hugo",
+      "zip": "74743",
+      "employees": 200,
+      "industry": "Education",
+      "notes": "School district serving approximately 1,350 students in the Hugo area"
+    },
+    {
+      "name": "Choctaw Nation Health Clinic - Hugo",
+      "street": "410 N M St",
+      "city": "Hugo",
+      "zip": "74743",
+      "employees": 34,
+      "industry": "Healthcare/Outpatient Clinic",
+      "notes": "Joint Commission accredited ambulatory health center operated by Choctaw Nation, serves approximately 1,800 patients per month"
+    },
+    {
+      "name": "Choctaw Defense Manufacturing Group",
+      "street": "Multiple locations including Hugo",
+      "city": "Hugo",
+      "zip": "74743",
+      "employees": 50,
+      "industry": "Manufacturing/Defense",
+      "notes": "Tribally-owned 8(a) and HUBZone manufacturer of tactical trailers, vehicle armoring, and military components"
+    }
+  ],
+  "uniqueFacts": [
+    "Hugo, the county seat, is known as 'Circus City, U.S.A.' and has been the winter quarters for approximately twenty circuses since 1941, including Carson and Barnes, Kelly Miller, and Culpepper & Merriweather circuses",
+    "Fort Towson, established in 1824, was the second oldest fort in Indian Territory and served as Confederate headquarters where General Stand Watie surrendered in 1865, becoming the last Confederate general to lay down arms",
+    "Choctaw County and McCurtain County are the only documented parts of Oklahoma located within the natural range of the American alligator",
+    "The county contains the Choctaw Chief's House (Old Chiefs House), built in 1832 under the Treaty of Dancing Rabbit Creek, which is the oldest surviving structure still on its original site in Oklahoma",
+    "Showmen's Rest in Mount Olivet Cemetery in Hugo is a dedicated section for circus performers, with graves marked by elephant etchings and circus-themed statuary"
+  ],
+  "processServingNotes": [
+    "Choctaw County is within the Choctaw Nation reservation; process servers should be aware that tribal members may be subject to tribal court jurisdiction for certain matters under post-McGirt rulings",
+    "The Choctaw County Courthouse is located at 300 E. Duke in Hugo and houses the District Court Clerk's office for the 17th Judicial District; courthouse hours are 8:00am to 4:30pm Monday through Friday",
+    "Choctaw County has multiple municipal courts in addition to the district courthouse, including courts in Hugo, Boswell, Fort Towson, Sawyer, Soper, and Swink"
+  ],
+  "heroLead": "Choctaw County sits in the southeastern corner of Oklahoma along the Texas border, encompassing 800 square miles of rolling hills, timberlands, and river valleys drained by the Kiamichi River. From its circus heritage in Hugo to the historic Fort Towson where the last Confederate general surrendered, the county blends unique cultural traditions with deep Choctaw tribal history. When you need reliable process service anywhere in Choctaw County, call Just Legal Solutions at (539) 367-6832 or visit our /contact page.",
+  "faqs": [
+    {
+      "question": "What is Choctaw County named after?",
+      "answer": "Choctaw County derives its name from 'Chahta,' the mythical founder of the Choctaw tribe according to the tribe's oral tradition, as documented in the Encyclopedia of Oklahoma History and Culture. The county was created at Oklahoma statehood in 1907 and is entirely within the Choctaw Nation reservation boundaries."
+    },
+    {
+      "question": "What is the population of Choctaw County?",
+      "answer": "According to the U.S. Census Bureau Population Estimates Program, Choctaw County had an estimated population of 14,174 as of July 1, 2024. The county has experienced gradual population decline since peaking at over 32,000 in the 1920 census, with the 2020 census recording 14,204 residents."
+    },
+    {
+      "question": "What major court serves Choctaw County?",
+      "answer": "The Choctaw County District Court is part of Oklahoma's 17th Judicial District, which also includes McCurtain and Pushmataha counties. The courthouse is located at 300 E. Duke in Hugo, Oklahoma. For court records and docket searches, the county's OSCN database key is 'choctaw'. Court records can be accessed online at OSCN.net or in person at the Court Clerk's office during business hours."
+    },
+    {
+      "question": "What tribal jurisdiction applies in Choctaw County?",
+      "answer": "Choctaw County is located entirely within the Choctaw Nation of Oklahoma reservation. Following the U.S. Supreme Court's McGirt v. Oklahoma decision and subsequent rulings, the Choctaw Nation reservation was affirmed as never having been disestablished. This means tribal members committing certain crimes within the county may be subject to federal or tribal court jurisdiction rather than state prosecution. The Choctaw Nation operates its own judicial system with a District Court, Constitutional Court, and Appellate Court."
+    },
+    {
+      "question": "What are the major industries and employers in Choctaw County?",
+      "answer": "Historically, Choctaw County's economy was based on agriculture (especially cotton), timber, and ranching. Today, the largest employment sectors are health care and social assistance, manufacturing, and retail trade. Major employers include Choctaw Nation Finishing (175 employees), Little Dixie Community Action Agency (375 employees), Choctaw Memorial Hospital, Hugo Public Schools, and the Choctaw Nation Health Clinic in Hugo. The Choctaw Nation is also a significant economic presence in the county. For process serving assistance throughout Choctaw County, contact Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "What is Hugo, Oklahoma known for?",
+      "answer": "Hugo, the county seat of Choctaw County, is famously known as 'Circus City, U.S.A.' because it has served as winter quarters for approximately twenty circuses since 1941. Three traditional tent circuses still operate from Hugo today: Carson and Barnes, Kelly Miller, and Culpepper & Merriweather. The city is also home to Showmen's Rest, a dedicated section of Mount Olivet Cemetery for circus performers. Hugo was founded in 1901 and named for French novelist Victor Hugo. For process serving needs in the Hugo area, call Just Legal Solutions at (539) 367-6832."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

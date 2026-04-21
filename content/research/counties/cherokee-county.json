@@ -1,0 +1,124 @@
+{
+  "slug": "cherokee-county",
+  "countyName": "Cherokee County",
+  "countySeat": "Tahlequah",
+  "population": 48700,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "Cherokee County Courthouse",
+    "street": "213 W. Delaware St.",
+    "city": "Tahlequah",
+    "state": "OK",
+    "zip": "74464",
+    "phone": "918-456-0691",
+    "hours": "Monday-Friday 8:00 AM - 4:30 PM",
+    "judicialDistrict": "15th Judicial District",
+    "oscnDbKey": "Cherokee"
+  },
+  "majorCities": [
+    "Tahlequah",
+    "Fort Gibson",
+    "Hulbert",
+    "Oaks"
+  ],
+  "neighboringCounties": [
+    "delaware-county",
+    "adair-county",
+    "sequoyah-county",
+    "muskogee-county",
+    "wagoner-county",
+    "mayes-county"
+  ],
+  "tribalJurisdiction": [
+    "Cherokee Nation"
+  ],
+  "majorEmployers": [
+    {
+      "name": "Cherokee Nation",
+      "street": "17675 S. Muskogee Ave.",
+      "city": "Tahlequah",
+      "zip": "74464",
+      "employees": 11000,
+      "industry": "Tribal Government",
+      "notes": "Largest tribal government in the U.S. with approximately 11,000 employees total; headquartered in Tahlequah"
+    },
+    {
+      "name": "Northeastern State University",
+      "street": "600 N. Grand Ave.",
+      "city": "Tahlequah",
+      "zip": "74464",
+      "employees": 1400,
+      "industry": "Higher Education",
+      "notes": "One of Oklahoma's oldest universities, evolved from Cherokee Female Seminary; approximately 8,000 students across three campuses"
+    },
+    {
+      "name": "Northeastern Health System",
+      "street": "1400 E. Downing St.",
+      "city": "Tahlequah",
+      "zip": "74464",
+      "employees": 302,
+      "industry": "Healthcare",
+      "notes": "Community hospital serving Tahlequah and surrounding areas"
+    },
+    {
+      "name": "Cherokee Nation W.W. Hastings Hospital",
+      "street": "100 S. Bliss Ave.",
+      "city": "Tahlequah",
+      "zip": "74464",
+      "employees": 400,
+      "industry": "Healthcare",
+      "notes": "Tribally operated hospital providing healthcare to Cherokee citizens and community; 56-bed facility with 24-hour emergency department"
+    },
+    {
+      "name": "Tahlequah Public Schools",
+      "street": "225 N. Seminole Ave.",
+      "city": "Tahlequah",
+      "zip": "74464",
+      "employees": 350,
+      "industry": "Education",
+      "notes": "Largest school district in the county serving approximately 3,500 students"
+    }
+  ],
+  "uniqueFacts": [
+    "Tahlequah is the capital of both the Cherokee Nation and the United Keetoowah Band of Cherokee Indians, making it unique as a dual-tribal capital city",
+    "The Cherokee Female Seminary, now Seminary Hall at Northeastern State University, was the first higher education institution for women west of the Mississippi River when it opened in 1851",
+    "Cherokee County is home to Lake Tenkiller, which reaches 132.7 feet deep and is the second deepest lake in Oklahoma, attracting over 10 million guest visits annually to the area",
+    "The historic Cherokee National Capitol Building in Tahlequah, completed in 1869, served as the Cherokee Nation capitol from 1869 to 1907 and is listed on the National Register of Historic Places",
+    "Wilson Rawls, author of the classic novel 'Where the Red Fern Grows,' was from Cherokee County, and the annual Red Fern Festival in Tahlequah celebrates his legacy with over 25,000 attendees"
+  ],
+  "processServingNotes": [
+    "Cherokee County is entirely within the Cherokee Nation Reservation, so process servers must be aware of tribal jurisdiction considerations when serving on tribal land or tribal members",
+    "The presence of Northeastern State University in Tahlequah means process servers frequently encounter student housing and campus buildings that may have restricted access or require coordination with campus security",
+    "The mix of urban Tahlequah areas and rural Ozark foothill communities, along with recreational areas around Lake Tenkiller and the Illinois River, creates diverse service environments throughout the county"
+  ],
+  "heroLead": "Nestled in the Ozark foothills of northeastern Oklahoma, Cherokee County blends rich Cherokee Nation heritage with world-class outdoor recreation at Lake Tenkiller and the Illinois River. As home to the Cherokee Nation capital in Tahlequah and Northeastern State University, the county's economy is anchored by tribal government, education, and tourism. Contact Just Legal Solutions at (539) 367-6832 or visit /contact for experienced process serving throughout Cherokee County.",
+  "faqs": [
+    {
+      "question": "Where is the Cherokee County Courthouse located and what are its hours?",
+      "answer": "The Cherokee County Courthouse is located at 213 W. Delaware St. in Tahlequah, OK 74464. The courthouse is open Monday through Friday from 8:00 AM to 4:30 PM. The Court Clerk's office can be reached at 918-456-0691. Cherokee County is part of Oklahoma's 15th Judicial District. For process serving assistance in Cherokee County, contact Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "What tribal jurisdiction applies in Cherokee County?",
+      "answer": "Cherokee County is entirely within the Cherokee Nation Reservation, which spans 14 counties in northeastern Oklahoma. The Cherokee Nation has tribal jurisdiction throughout the county, and the Cherokee Nation court system operates separately from state courts. Process servers should be aware that service involving tribal members or tribal land may require coordination with Cherokee Nation authorities."
+    },
+    {
+      "question": "What are the major cities and towns in Cherokee County?",
+      "answer": "Cherokee County has one city, Tahlequah, which serves as both the county seat and the capital of the Cherokee Nation, with a population of approximately 16,935 (2024). The county also includes three incorporated towns: Fort Gibson, Hulbert, and Oaks. Numerous unincorporated communities such as Park Hill, Peggs, and Welling are also located throughout the county. Call Just Legal Solutions at (539) 367-6832 for service anywhere in Cherokee County."
+    },
+    {
+      "question": "What major employers are in Cherokee County?",
+      "answer": "The Cherokee Nation is the largest employer in the region with approximately 11,000 employees, followed by Northeastern State University with about 1,400 employees. Northeastern Health System (Tahlequah City Hospital) and the Cherokee Nation's W.W. Hastings Hospital are major healthcare employers. The county also has significant employment in public education and government sectors."
+    },
+    {
+      "question": "When was Cherokee County founded and what is its history?",
+      "answer": "Cherokee County was established in 1907 at Oklahoma statehood, though some sources note it was created from the Tahlequah District of the Cherokee Nation in 1906. The county is named for the Cherokee Nation. Tahlequah has been the Cherokee Nation capital since 1839 following the Trail of Tears. For assistance with legal document service anywhere in Cherokee County, contact Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "What makes Cherokee County unique among Oklahoma counties?",
+      "answer": "Cherokee County is unique as home to both the Cherokee Nation and United Keetoowah Band of Cherokee Indians capitals, with over 33% of residents identifying as American Indian. The county features the second-deepest lake in Oklahoma (Tenkiller Lake), Northeastern State University which evolved from the Cherokee Female Seminary, and the historic Cherokee National Capitol Building. The area blends rich Cherokee cultural heritage with outdoor recreation and higher education."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

@@ -1,0 +1,134 @@
+{
+  "slug": "ellis-county",
+  "countyName": "Ellis County",
+  "countySeat": "Arnett",
+  "population": 3749,
+  "populationYear": 2020,
+  "courthouse": {
+    "name": "Ellis County Courthouse",
+    "street": "100 S Washington St",
+    "city": "Arnett",
+    "state": "OK",
+    "zip": "73832",
+    "phone": "(580) 885-7301",
+    "hours": "8:30am - 4:30pm, Monday-Friday",
+    "judicialDistrict": "2nd Judicial District",
+    "oscnDbKey": "ELLIS"
+  },
+  "majorCities": [
+    "Arnett",
+    "Shattuck",
+    "Gage",
+    "Fargo"
+  ],
+  "neighboringCounties": [
+    "harper-county",
+    "woodward-county",
+    "dewey-county",
+    "roger-mills-county",
+    "hemphill-county-tx",
+    "lipscomb-county-tx",
+    "beaver-county"
+  ],
+  "tribalJurisdiction": [
+    "Cheyenne and Arapaho Tribes"
+  ],
+  "majorEmployers": [
+    {
+      "name": "Newman Memorial Hospital",
+      "street": "905 S Main St",
+      "city": "Shattuck",
+      "zip": "73858",
+      "employees": 150,
+      "industry": "Healthcare",
+      "notes": "Critical access hospital serving Ellis County and northwest Oklahoma. Major employer in the region."
+    },
+    {
+      "name": "Gage Public Schools",
+      "street": "202 W Hwy 15",
+      "city": "Gage",
+      "zip": "73843",
+      "employees": 50,
+      "industry": "Education",
+      "notes": "Combined elementary and high school serving northern Ellis County."
+    },
+    {
+      "name": "Shattuck Public Schools",
+      "street": "PO Box 159",
+      "city": "Shattuck",
+      "zip": "73858",
+      "employees": 75,
+      "industry": "Education",
+      "notes": "School district in the largest town in Ellis County."
+    },
+    {
+      "name": "Fargo Public Schools",
+      "street": "PO Box 200",
+      "city": "Fargo",
+      "zip": "73840",
+      "employees": 25,
+      "industry": "Education",
+      "notes": "Small school district serving eastern Ellis County."
+    },
+    {
+      "name": "Enel Green Power - 25 Mile Creek Wind Farm",
+      "street": "",
+      "city": "Arnett",
+      "zip": "73832",
+      "employees": 15,
+      "industry": "Renewable Energy",
+      "notes": "250MW wind farm commenced operations in 2022. Major renewable energy employer in the county."
+    },
+    {
+      "name": "EDF Renewable Energy - Great Western Wind Project",
+      "street": "",
+      "city": "Arnett",
+      "zip": "73832",
+      "employees": 10,
+      "industry": "Renewable Energy",
+      "notes": "225MW wind project in Ellis and Woodward counties. Power sold to Google data center."
+    }
+  ],
+  "uniqueFacts": [
+    "Named for Albert H. Ellis, vice president of the 1906 Oklahoma Constitutional Convention, the county was created at statehood in 1907 from parts of Day County and Woodward County.",
+    "In 1907, Shattuck shipped more broomcorn than any other shipping point in the nation, earning it the nickname 'Broomcorn Capital of the World' during Oklahoma's broomcorn heyday.",
+    "On April 9, 1947, an F5 tornado tore through Ellis County, killing six people. It was the sixth deadliest tornado ever recorded in the United States at the time.",
+    "The Battle of Little Robe Creek (also called Battle of Antelope Hills) was fought in present-day Ellis County in May 1858, resulting in the death of Comanche chief Iron Jacket.",
+    "Ellis County is home to two major wind energy projects: the 250MW 25 Mile Creek Wind Farm and the 225MW Great Western Wind Project, which supply power to Google's Oklahoma data center."
+  ],
+  "processServingNotes": [
+    "Ellis County is sparsely populated (3,749 residents across 1,232 square miles), meaning rural route addresses and large ranches are common. Process servers should expect significant drive times between attempts and plan routes carefully.",
+    "Cheyenne and Arapaho Tribal jurisdiction overlaps with Ellis County. Service of process involving tribal members on trust land may require coordination with tribal courts under cross-deputization agreements.",
+    "The Ellis County Courthouse in Arnett is open 8:30 AM to 4:30 PM Monday through Friday for filing returns of service. All district court cases for the county are handled at this single location."
+  ],
+  "heroLead": "Ellis County stretches across 1,232 square miles of northwest Oklahoma prairie, from the wheat fields and ranches surrounding Arnett to the historic broomcorn town of Shattuck and the towering wind turbines of the 25 Mile Creek Wind Farm. Once part of the Cheyenne-Arapaho Reservation, today the county blends agricultural heritage with renewable energy innovation. Call (539) 367-6832 or visit /contact to discuss your Ellis County process serving needs.",
+  "faqs": [
+    {
+      "question": "How long does process serving take in Ellis County?",
+      "answer": "Standard service in Ellis County is typically completed within 4 to 7 business days. Rush service is available for urgent matters. Because Ellis County covers over 1,200 square miles with a sparse population, rural addresses may require additional travel time. Just Legal Solutions plans attempts around local farming and ranching schedules to maximize successful service. Call (539) 367-6832 for a timeline estimate on your specific case."
+    },
+    {
+      "question": "Do you serve rural ranch addresses in Ellis County?",
+      "answer": "Yes. The vast majority of Ellis County is rural, and our servers regularly serve documents at ranch and farm properties throughout the county. We use GPS coordinates, aerial imagery, and skip-trace data to confirm property ownership and resident identity before attempting service. We are experienced with the gravel roads and section-line addresses common in Ellis County."
+    },
+    {
+      "question": "Which courthouse handles Ellis County cases?",
+      "answer": "All Ellis County District Court cases are handled at the Ellis County Courthouse located at 100 S Washington St in Arnett, OK 73832. The courthouse is open Monday through Friday from 8:30 AM to 4:30 PM. The Court Clerk can be reached at (580) 885-7301 for questions about case filings and returns of service."
+    },
+    {
+      "question": "Does tribal jurisdiction affect process serving in Ellis County?",
+      "answer": "Ellis County is within the Cheyenne and Arapaho Tribes' jurisdictional area. Service involving tribal members on trust land may require coordination with tribal courts. Our process servers understand the jurisdictional complexities and can assist with service in both state and tribal court matters. Contact our office at (539) 367-6832 if your case involves tribal members or trust land."
+    },
+    {
+      "question": "What are the largest towns in Ellis County for process serving?",
+      "answer": "The four incorporated towns in Ellis County are Arnett (county seat), Shattuck (the largest town), Gage, and Fargo. Newman Memorial Hospital is located in Shattuck at 905 S Main St. We provide regular service to all four towns and surrounding rural areas."
+    },
+    {
+      "question": "How much does process serving cost in Ellis County?",
+      "answer": "Service starts at $60 for standard service (up to 3 attempts). Rush service starts at $100, same-day rush at $150, and after-hours rush at $265. Because Ellis County is a significant distance from Tulsa, travel costs factor into the final quote. Contact Just Legal Solutions at (539) 367-6832 for an exact quote based on your specific service location and urgency."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

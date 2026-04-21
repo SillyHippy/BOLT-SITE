@@ -1,0 +1,158 @@
+{
+  "slug": "rogers-county",
+  "countyName": "Rogers County",
+  "countySeat": "Claremore",
+  "population": 101371,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "Rogers County Courthouse",
+    "street": "200 S. Lynn Riggs Blvd",
+    "city": "Claremore",
+    "state": "OK",
+    "zip": "74017",
+    "phone": "918-923-4400",
+    "hours": "Monday-Friday, 8:00 AM - 5:00 PM",
+    "judicialDistrict": "12th Judicial District (serving Craig, Mayes, and Rogers Counties)",
+    "oscnDbKey": "rogers"
+  },
+  "majorCities": [
+    "Claremore",
+    "Catoosa",
+    "Owasso",
+    "Chelsea",
+    "Foyil",
+    "Inola",
+    "Oologah",
+    "Talala",
+    "Valley Park",
+    "Verdigris"
+  ],
+  "neighboringCounties": [
+    "nowata-county",
+    "craig-county",
+    "mayes-county",
+    "wagoner-county",
+    "tulsa-county",
+    "washington-county"
+  ],
+  "tribalJurisdiction": [
+    "Cherokee Nation"
+  ],
+  "majorEmployers": [
+    {
+      "name": "Baker Hughes (Claremore Facility)",
+      "street": "200 W. Stuart Roosa Dr",
+      "city": "Claremore",
+      "zip": "74017",
+      "employees": 500,
+      "industry": "Energy Technology / Manufacturing",
+      "notes": "Major oilfield services and energy technology company with manufacturing operations in Claremore."
+    },
+    {
+      "name": "AXH Air Coolers",
+      "street": "401 E. Lowry Rd",
+      "city": "Claremore",
+      "zip": "74017",
+      "employees": 800,
+      "industry": "Advanced Manufacturing",
+      "notes": "Manufacturer of air-cooled heat exchangers; 750,000 sq ft facility on 93 acres. One of the largest private employers in Rogers County."
+    },
+    {
+      "name": "Hillcrest Hospital Claremore",
+      "street": "1202 N. Muskogee Pl",
+      "city": "Claremore",
+      "zip": "74017",
+      "employees": 400,
+      "industry": "Healthcare",
+      "notes": "Full-service hospital providing acute care, emergency, surgical, and maternity services to Rogers County residents."
+    },
+    {
+      "name": "Claremore Indian Hospital",
+      "street": "101 S. Moore Ave",
+      "city": "Claremore",
+      "zip": "74017",
+      "employees": 300,
+      "industry": "Healthcare / Federal (IHS)",
+      "notes": "Indian Health Service facility providing healthcare services to Native Americans and Alaska Natives."
+    },
+    {
+      "name": "Rogers State University",
+      "street": "1701 W. Will Rogers Blvd",
+      "city": "Claremore",
+      "zip": "74017",
+      "employees": 600,
+      "industry": "Higher Education",
+      "notes": "Regional public four-year university serving northeastern Oklahoma; only public residential university in the Tulsa metro area."
+    },
+    {
+      "name": "Cherokee Casino Will Rogers Downs",
+      "street": "20900 S. 4200 Rd",
+      "city": "Claremore",
+      "zip": "74019",
+      "employees": 300,
+      "industry": "Gaming / Entertainment / Horse Racing",
+      "notes": "Cherokee Nation Entertainment facility combining casino gaming with live horse racing; significant tourism and employment driver."
+    },
+    {
+      "name": "Claremore Public Schools",
+      "street": "101 W. 11th St",
+      "city": "Claremore",
+      "zip": "74017",
+      "employees": 700,
+      "industry": "Education",
+      "notes": "Largest school district in Rogers County, serving approximately 4,500 students across six schools."
+    },
+    {
+      "name": "Tulsa Port of Catoosa",
+      "street": "5350 Cimarron Rd",
+      "city": "Catoosa",
+      "zip": "74015",
+      "employees": 4000,
+      "industry": "Transportation / Logistics / Port Operations",
+      "notes": "One of the largest inland river ports in the United States, located on the McClellan-Kerr Arkansas River Navigation System; 2,500-acre industrial park houses 70+ businesses."
+    }
+  ],
+  "uniqueFacts": [
+    "Rogers County was originally named Cooweescoowee County at Oklahoma statehood in 1907, but residents successfully petitioned to rename it after Clement Vann Rogers, father of Will Rogers.",
+    "Will Rogers, world-famous humorist, actor, and philosopher, was born in Rogers County near Oologah in 1879. His birthplace, Dog Iron Ranch, is now a living history museum.",
+    "The Will Rogers Memorial Museum in Claremore houses the world's largest collection of Will Rogers memorabilia, including artifacts, photographs, and manuscripts.",
+    "Ed Galloway's Totem Pole Park in Chelsea features the world's largest concrete totem pole, standing 90 feet tall, and is listed on the National Register of Historic Places.",
+    "Rogers County has consistently ranked among the fastest-growing counties in Oklahoma, with population increasing from 95,240 in 2020 to an estimated 101,371 in 2024.",
+    "The Tulsa Port of Catoosa, located in Rogers County, is one of the nation's largest inland river ports, handling over 2.7 million tons of cargo annually and serving as a critical hub for agriculture, manufacturing, and energy industries."
+  ],
+  "processServingNotes": [
+    "Rogers County Courthouse is located at 200 S. Lynn Riggs Blvd in Claremore. The Court Clerk's office (Room 200) handles all filings and is open Monday-Friday, 8:00 AM - 5:00 PM at 918-923-4961.",
+    "Rogers County lies within the Cherokee Nation reservation. Process servers must be aware of Cherokee Nation tribal court jurisdiction for matters involving tribal citizens or land within the reservation boundaries, particularly for family law and ICWA cases.",
+    "The 12th Judicial District serves Rogers County along with Craig and Mayes Counties. District court arraignments are held on Thursdays at 9:30 AM on the 4th floor of the courthouse."
+  ],
+  "heroLead": "Rogers County, Oklahoma, birthplace of Will Rogers and one of the fastest-growing counties in the state, combines rich Cherokee heritage with a thriving economy driven by manufacturing, healthcare, education, and the Tulsa Port of Catoosa. From the historic courthouse in Claremore to the shores of 29,500-acre Oologah Lake, Rogers County demands process servers who understand both state and Cherokee Nation tribal jurisdiction. Call Just Legal Solutions at (539) 367-6832 or visit /contact.",
+  "faqs": [
+    {
+      "question": "Where is the Rogers County Courthouse located and what are the Court Clerk's hours?",
+      "answer": "The Rogers County Courthouse is located at 200 S. Lynn Riggs Blvd, Claremore, OK 74017. The Court Clerk's office is on the main floor and is open Monday through Friday from 8:00 AM to 5:00 PM. You can reach the Court Clerk at 918-923-4961 for questions about filings, dockets, or case information. For reliable process serving throughout Rogers County, call Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "Does Cherokee Nation tribal jurisdiction affect process serving in Rogers County?",
+      "answer": "Yes. Rogers County is entirely within the Cherokee Nation reservation boundaries. Under McGirt v. Oklahoma (2020) and subsequent rulings, Cherokee Nation courts have jurisdiction over cases involving tribal citizens, particularly in family law, ICWA matters, and certain criminal cases. Process servers must ensure service is coordinated appropriately between state and tribal courts depending on the parties involved. For professional assistance navigating tribal jurisdiction, contact Just Legal Solutions."
+    },
+    {
+      "question": "What cities and towns are in Rogers County?",
+      "answer": "Rogers County includes the cities of Claremore (county seat), Catoosa, Owasso (partially), and Collinsville (partially), as well as the towns of Chelsea, Foyil, Inola, Oologah, Talala, Valley Park, and Verdigris. The county is part of the Tulsa metropolitan area and has experienced significant population growth in recent years."
+    },
+    {
+      "question": "What is the judicial district for Rogers County?",
+      "answer": "Rogers County is in Oklahoma's 12th Judicial District, which also includes Craig County and Mayes County. The District Attorney's office is located on the 2nd floor of the Rogers County Courthouse at 200 S. Lynn Riggs Blvd in Claremore and can be reached at 918-923-4960."
+    },
+    {
+      "question": "Who was Rogers County named after?",
+      "answer": "Rogers County was named after Clement Vann Rogers (1839-1911), a prominent Cherokee rancher, businessman, judge, and tribal legislator. He was the father of Will Rogers, the legendary American humorist and entertainer. The county was originally named Cooweescoowee County at statehood in 1907, but residents petitioned to rename it in honor of Clem Rogers."
+    },
+    {
+      "question": "What are the major industries and employers in Rogers County?",
+      "answer": "Rogers County's economy is driven by advanced manufacturing (AXH Air Coolers, Baker Hughes), healthcare (Hillcrest Hospital Claremore, Claremore Indian Hospital), education (Rogers State University, Claremore Public Schools), transportation and logistics (Tulsa Port of Catoosa), and gaming/entertainment (Cherokee Casino Will Rogers Downs). The county is one of Oklahoma's fastest-growing, with a 2024 population of approximately 101,371. For process serving to any business or individual in Rogers County, call Just Legal Solutions at (539) 367-6832."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

@@ -1,0 +1,137 @@
+{
+  "slug": "washita-county",
+  "countyName": "Washita County",
+  "countySeat": "New Cordell",
+  "population": 10924,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "Washita County Courthouse",
+    "street": "111 E Main St",
+    "city": "Cordell",
+    "state": "OK",
+    "zip": "73632",
+    "phone": "(580) 832-3836",
+    "hours": "Monday-Friday 8:00 AM - 4:00 PM",
+    "judicialDistrict": "2nd Judicial District",
+    "oscnDbKey": "washita"
+  },
+  "majorCities": [
+    "New Cordell",
+    "Burns Flat",
+    "Sentinel",
+    "Canute",
+    "Corn",
+    "Dill City",
+    "Bessie",
+    "Foss",
+    "Rocky",
+    "Colony"
+  ],
+  "neighboringCounties": [
+    "custer-county",
+    "caddo-county",
+    "kiowa-county",
+    "beckham-county"
+  ],
+  "tribalJurisdiction": [
+    "Cheyenne and Arapaho Tribes"
+  ],
+  "majorEmployers": [
+    {
+      "name": "Cordell Memorial Hospital",
+      "street": "1220 N Glenn L English St",
+      "city": "Cordell",
+      "zip": "73632",
+      "employees": 100,
+      "industry": "Healthcare",
+      "notes": "14-bed critical access hospital serving Washita County"
+    },
+    {
+      "name": "Cordell Public Schools",
+      "street": "606 E 3rd St",
+      "city": "Cordell",
+      "zip": "73632",
+      "employees": 80,
+      "industry": "Education",
+      "notes": "PK-12 school district with approximately 700 students"
+    },
+    {
+      "name": "Burns Flat-Dill City Public Schools",
+      "street": "306 Highway 44",
+      "city": "Burns Flat",
+      "zip": "73624",
+      "employees": 55,
+      "industry": "Education",
+      "notes": "PK-12 district with approximately 482 students"
+    },
+    {
+      "name": "Western Technology Center",
+      "street": "621 Sooner Dr",
+      "city": "Burns Flat",
+      "zip": "73624",
+      "employees": 40,
+      "industry": "Education",
+      "notes": "Career and technology education center"
+    },
+    {
+      "name": "Canute Public Schools",
+      "street": "216 E Walk St",
+      "city": "Canute",
+      "zip": "73626",
+      "employees": 35,
+      "industry": "Education",
+      "notes": "PK-12 school district with approximately 408 students"
+    },
+    {
+      "name": "Sentinel Public Schools",
+      "street": "708 E Washington St",
+      "city": "Sentinel",
+      "zip": "73664",
+      "employees": 30,
+      "industry": "Education",
+      "notes": "PK-12 school district"
+    }
+  ],
+  "uniqueFacts": [
+    "Washita County was originally designated as County H during the Cheyenne-Arapaho Opening land run on April 19, 1892, and was renamed for the Washita River shortly after settlement",
+    "The Washita County Courthouse, built in 1910 with a distinctive copper dome, was designed by Solomon Andrew Layton who also designed the Oklahoma State Capitol",
+    "The original county seat was Cloud Chief (originally called Tacola), which had 3,000-4,000 residents the day after the 1892 land run before losing the county seat to Cordell in 1900",
+    "Seger Colony was established in 1886 when John Seger convinced 120 Cheyenne and Arapaho to settle on Cobb Creek, later becoming the town of Colony and site of the Seger Indian Industrial School listed on the National Register of Historic Places",
+    "Foss State Park, located in the northern part of the county, surrounds Foss Lake which is the largest lake in western Oklahoma and offers fishing, boating, camping, and equestrian trails"
+  ],
+  "processServingNotes": [
+    "Interstate 40 runs through the northwestern corner of Washita County, making Burns Flat and Foss accessible but requiring awareness of seasonal lake-area traffic",
+    "The county has ten incorporated towns spread across rolling prairie; rural serves often require GPS verification due to limited road signage and RR addresses",
+    "Foss Lake area contains seasonal homes and recreational properties where serves may require multiple attempts due to intermittent occupancy"
+  ],
+  "heroLead": "Washita County sits in western Oklahoma where wheat fields, cotton ground, and cattle pasture meet the recreational draw of Foss State Park and the wide Foss Reservoir at its center. The county is anchored by New Cordell, with its distinctive copper-domed courthouse on the town square, and stretches across ten incorporated communities that have long depended on agriculture, oil and gas, and the steady traffic of Interstate 40. Whether your serve is on the courthouse square or at a lakeside cabin, Just Legal Solutions knows the territory and delivers fast, documented service. Call (539) 367-6832 or visit /contact to get started.",
+  "faqs": [
+    {
+      "question": "How fast can you serve papers in Washita County?",
+      "answer": "Standard service in New Cordell, Burns Flat, and surrounding communities is typically completed within three to five business days from receipt of documents. Rush and same-day rush options are available when deadlines are tight. Call Just Legal Solutions at (539) 367-6832 to discuss your timeline."
+    },
+    {
+      "question": "What courthouse handles Washita County cases?",
+      "answer": "All Washita County District Court filings, including returns of service, are handled at the Washita County Courthouse at 111 E Main St in Cordell. The Court Clerk can be reached at (580) 832-3836. Some court offices have relocated to 1502 N Market St, but filings are still processed through the main courthouse."
+    },
+    {
+      "question": "Do you serve rural addresses in Washita County?",
+      "answer": "Yes, a significant portion of our Washita County work is rural, including farms, ranches, oil and gas locations, and homes around Foss State Park. Every attempt is GPS-verified so the file reflects accurate documentation even when addresses are hard to locate."
+    },
+    {
+      "question": "Which judicial district is Washita County in?",
+      "answer": "Washita County is part of Oklahoma's 2nd Judicial District, which also includes Beckham, Custer, Ellis, and Roger Mills Counties. District court cases are heard at the Washita County Courthouse in New Cordell."
+    },
+    {
+      "question": "Are there tribal jurisdictions in Washita County?",
+      "answer": "Yes, the Cheyenne and Arapaho Tribes have jurisdictional authority in Washita County. This may affect service of process requirements in certain circumstances, particularly involving tribal members or trust land. Contact us to discuss any tribal-related service considerations."
+    },
+    {
+      "question": "How much does it cost to serve papers in Washita County?",
+      "answer": "Pricing starts at $60 for standard service with up to three attempts. Rush service begins at $100, same-day rush at $150. Final cost depends on distance from Tulsa, number of attempts needed, and any added complexity such as skip tracing or lake-area access. Call (539) 367-6832 for a custom quote."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

@@ -1,0 +1,151 @@
+{
+  "slug": "grady-county",
+  "countyName": "Grady County",
+  "countySeat": "Chickasha",
+  "population": 58353,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "Grady County Courthouse",
+    "street": "326 W Choctaw Ave",
+    "city": "Chickasha",
+    "state": "OK",
+    "zip": "73018",
+    "phone": "(405) 224-7446",
+    "hours": "Monday-Friday, 8:00 AM - 4:30 PM",
+    "judicialDistrict": "6th Judicial District",
+    "oscnDbKey": "grady"
+  },
+  "majorCities": [
+    "Chickasha",
+    "Tuttle",
+    "Blanchard",
+    "Minco",
+    "Rush Springs",
+    "Alex",
+    "Amber",
+    "Bradley",
+    "Bridge Creek",
+    "Ninnekah",
+    "Norge",
+    "Pocasset",
+    "Verden"
+  ],
+  "neighboringCounties": [
+    "canadian-county",
+    "mcclain-county",
+    "garvin-county",
+    "stephens-county",
+    "comanche-county",
+    "caddo-county"
+  ],
+  "tribalJurisdiction": [
+    "Chickasaw Nation"
+  ],
+  "majorEmployers": [
+    {
+      "name": "Grady Memorial Hospital",
+      "street": "2220 W Iowa Ave",
+      "city": "Chickasha",
+      "zip": "73018",
+      "employees": 483,
+      "industry": "Healthcare",
+      "notes": "Major hospital serving Grady County and surrounding areas"
+    },
+    {
+      "name": "Chickasha Public Schools",
+      "street": "900 W Choctaw Ave",
+      "city": "Chickasha",
+      "zip": "73018",
+      "employees": 385,
+      "industry": "Education",
+      "notes": "Public school district serving Chickasha area"
+    },
+    {
+      "name": "Gabriel Ride Control",
+      "street": "",
+      "city": "Chickasha",
+      "zip": "73018",
+      "employees": 380,
+      "industry": "Manufacturing",
+      "notes": "Automotive parts manufacturer"
+    },
+    {
+      "name": "University of Science and Arts of Oklahoma",
+      "street": "1727 W Alabama Ave",
+      "city": "Chickasha",
+      "zip": "73018",
+      "employees": 155,
+      "industry": "Education",
+      "notes": "Oklahoma's only public liberal arts university, founded in 1908"
+    },
+    {
+      "name": "HSI Sensing",
+      "street": "",
+      "city": "Chickasha",
+      "zip": "73018",
+      "employees": 300,
+      "industry": "Manufacturing",
+      "notes": "Sensor and electronic component manufacturer"
+    },
+    {
+      "name": "Braum's Dairy",
+      "street": "491 County St 2880",
+      "city": "Tuttle",
+      "zip": "73089",
+      "employees": 200,
+      "industry": "Agriculture/Food Processing",
+      "notes": "Major dairy farm with over 10,000 Holstein cows, processing plant and distribution center"
+    },
+    {
+      "name": "Cimarron Trailers",
+      "street": "1442 Highway 62 East",
+      "city": "Chickasha",
+      "zip": "73018",
+      "employees": 120,
+      "industry": "Manufacturing",
+      "notes": "Horse trailer and livestock trailer manufacturer"
+    }
+  ],
+  "uniqueFacts": [
+    "Named for Henry W. Grady, editor of the Atlanta Constitution and prominent southern orator who advocated for the 'New South'",
+    "Home to the annual Rush Springs Watermelon Festival, celebrating Rush Springs as the 'Watermelon Capital of the World' with over 20,000 visitors each August",
+    "The Chickasha Festival of Light features over 3.5 million twinkling lights and a 172-foot Christmas tree, recognized as one of the top ten holiday light shows in the nation",
+    "The Washita River runs through the middle of the county and the Canadian River forms its northern border, contributing to the county's agricultural prosperity",
+    "The county was originally part of the Chickasaw Nation's Pickens County before Oklahoma statehood in 1907"
+  ],
+  "processServingNotes": [
+    "Grady County is part of Oklahoma's 6th Judicial District, which also includes Caddo, Jefferson, and Stephens counties",
+    "The Grady County Courthouse is located at 326 W Choctaw Ave in Chickasha, with court clerk hours Monday through Friday 8:00 AM to 4:30 PM",
+    "Process servers must be licensed by the district court clerk and may operate with either a county license (valid only in Grady County) or a statewide license valid throughout Oklahoma"
+  ],
+  "heroLead": "Located in south-central Oklahoma, Grady County blends rural charm with suburban growth as part of the Oklahoma City metropolitan area, anchored by the county seat of Chickasha and home to the University of Science and Arts of Oklahoma. From the rolling Red Bed Plains crossed by the Washita River to the world-famous Festival of Light, Grady County offers a unique mix of agricultural heritage and modern development. Contact us at (539) 367-6832 or visit /contact for process serving assistance.",
+  "faqs": [
+    {
+      "question": "Where is the Grady County Courthouse located?",
+      "answer": "The Grady County Courthouse is located at 326 W Choctaw Avenue in Chickasha, Oklahoma 73018. The court clerk's office can be reached at (405) 224-7446. For process serving services in Grady County, contact Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "What judicial district is Grady County in?",
+      "answer": "Grady County is part of Oklahoma's 6th Judicial District, which also includes Caddo, Jefferson, and Stephens counties. The district court handles felony and misdemeanor criminal cases, civil matters, family law, probate, juvenile cases, and small claims."
+    },
+    {
+      "question": "What is the population of Grady County?",
+      "answer": "According to the U.S. Census Bureau, Grady County had an estimated population of 58,353 in 2024. The county has experienced steady growth as part of the Oklahoma City metropolitan area, with Chickasha being the largest city and county seat."
+    },
+    {
+      "question": "Which Native American tribe has jurisdiction in Grady County?",
+      "answer": "The Chickasaw Nation has tribal jurisdiction in Grady County. The Chickasaw Nation's treaty territory encompasses 7,648 square miles of south-central Oklahoma across 13 counties, including all of Grady County. For professional process serving in areas with tribal jurisdiction, call Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "What are the major industries in Grady County?",
+      "answer": "Grady County's economy thrives in agribusiness, energy, manufacturing, and education. Major employers include Grady Memorial Hospital, Chickasha Public Schools, Gabriel Ride Control, and the University of Science and Arts of Oklahoma. Agriculture remains important with wheat, cattle, and Braum's Dairy operation being significant contributors."
+    },
+    {
+      "question": "When was Grady County founded?",
+      "answer": "Grady County was created on July 16, 1907, at Oklahoma statehood from portions of the former Chickasaw Nation. The county was named for Henry W. Grady, a prominent Georgia journalist and orator. The county seat was established in Chickasha, which was named for the Chickasaw Indians."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

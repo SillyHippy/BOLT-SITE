@@ -1,0 +1,135 @@
+{
+  "slug": "payne-county",
+  "countyName": "Payne County",
+  "countySeat": "Stillwater",
+  "population": 84199,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "Payne County Courthouse",
+    "street": "606 S. Husband Street",
+    "city": "Stillwater",
+    "state": "OK",
+    "zip": "74074",
+    "phone": "(405) 372-4774",
+    "hours": "Monday-Friday: 8:00 AM - 5:00 PM",
+    "judicialDistrict": "Ninth Judicial District",
+    "oscnDbKey": ""
+  },
+  "majorCities": [
+    "Stillwater",
+    "Cushing",
+    "Perkins",
+    "Yale",
+    "Glencoe",
+    "Ripley"
+  ],
+  "neighboringCounties": [
+    "noble-county",
+    "pawnee-county",
+    "creek-county",
+    "lincoln-county",
+    "logan-county"
+  ],
+  "tribalJurisdiction": [
+    "Iowa Tribe of Oklahoma",
+    "Sac and Fox Nation"
+  ],
+  "majorEmployers": [
+    {
+      "name": "Oklahoma State University",
+      "street": "101 Whitehurst Hall",
+      "city": "Stillwater",
+      "zip": "74078",
+      "employees": 6000,
+      "industry": "Higher Education",
+      "notes": "Land-grant research university with enrollment over 33,000 students. Largest employer in Payne County."
+    },
+    {
+      "name": "Stillwater Medical Center",
+      "street": "1323 W. 6th Ave",
+      "city": "Stillwater",
+      "zip": "74074",
+      "employees": 1700,
+      "industry": "Healthcare",
+      "notes": "117-bed not-for-profit acute care hospital serving a six-county area of north-central Oklahoma."
+    },
+    {
+      "name": "Stillwater Public Schools",
+      "street": "314 S. Lewis St",
+      "city": "Stillwater",
+      "zip": "74074",
+      "employees": 894,
+      "industry": "Education K-12",
+      "notes": "6A school district serving approximately 5,800 students across 10 school sites."
+    },
+    {
+      "name": "City of Stillwater",
+      "street": "723 S. Lewis St",
+      "city": "Stillwater",
+      "zip": "74074",
+      "employees": 585,
+      "industry": "Local Government",
+      "notes": "Municipal government for Stillwater, the county seat and largest city in Payne County."
+    },
+    {
+      "name": "Iowa Tribe of Oklahoma / Cimarron Casino",
+      "street": "821 W. Freeman Ave",
+      "city": "Perkins",
+      "zip": "74059",
+      "employees": 160,
+      "industry": "Tribal Government / Gaming",
+      "notes": "Headquartered in Perkins with Cimarron Casino featuring 600+ gaming machines. Jurisdiction covers parts of Payne, Lincoln, Logan, and Oklahoma counties."
+    },
+    {
+      "name": "Walmart",
+      "street": "111 N. Perkins Rd",
+      "city": "Stillwater",
+      "zip": "74075",
+      "employees": 402,
+      "industry": "Retail",
+      "notes": "Major retail employer in Stillwater serving the Payne County community."
+    }
+  ],
+  "uniqueFacts": [
+    "Cushing, located in eastern Payne County, is known as the Pipeline Crossroads of the World and serves as the delivery point for West Texas Intermediate crude oil futures traded on the New York Mercantile Exchange.",
+    "Payne County is named for Captain David L. Payne, a leader of the Boomer movement who advocated for opening Oklahoma's Unassigned Lands to settlement. He is often called the Father of Oklahoma.",
+    "The National Wrestling Hall of Fame and Museum, America's shrine to amateur wrestling, is located in Stillwater and houses the world's largest collection of wrestling artifacts and memorabilia.",
+    "Legendary athlete Jim Thorpe, a Sac and Fox Indian widely considered the greatest athlete of the first half of the 20th century, lived in Yale, Oklahoma in Payne County from 1917 to 1923.",
+    "Stillwater is home to Oklahoma State University, a land-grant institution founded in 1890 as Oklahoma Agricultural and Mechanical College, with a current enrollment exceeding 33,000 students."
+  ],
+  "processServingNotes": [
+    "Payne County is part of Oklahoma's Ninth Judicial District, sharing the district with Logan County. Process server licenses are issued through the Payne County Court Clerk's office at the courthouse.",
+    "The county includes multiple municipal courts (Stillwater, Cushing, Yale, and Perkins) in addition to the District Court, each with separate jurisdictional boundaries for service of process.",
+    "Tribal lands belonging to the Iowa Tribe of Oklahoma and Sac and Fox Nation within Payne County may require special considerations for service of process due to tribal sovereignty and jurisdictional complexities."
+  ],
+  "heroLead": "Home to Oklahoma State University and the Pipeline Crossroads of the World in Cushing, Payne County sits at the heart of north-central Oklahoma, where education, energy, and agriculture converge in a vibrant community of over 84,000 residents. From the historic courthouse in Stillwater to the oil tank farms of Cushing, Just Legal Solutions delivers reliable process serving across every corner of Payne County. Contact us at (539) 367-6832 or visit our website to get started.",
+  "faqs": [
+    {
+      "question": "Where is the Payne County Courthouse located and what are the court clerk's office hours?",
+      "answer": "The Payne County Courthouse is located at 606 S. Husband Street in Stillwater, Oklahoma 74074. The Court Clerk's office, which handles all court filings and process server licensing, is open Monday through Friday from 8:00 AM to 5:00 PM and is open during the lunch hour. The office is closed on weekends and holidays. For questions about process serving or court records, call the Court Clerk at (405) 372-4774."
+    },
+    {
+      "question": "What judicial district is Payne County in and who are the judges?",
+      "answer": "Payne County is part of Oklahoma's Ninth Judicial District, which it shares with Logan County. The District Judge serving both counties is Phillip Corley. Stephen R. Kistler serves as Associate District Judge. Special Judges include Katherine E. Thomas and R.L. Hert. Felony dockets are conducted each Friday, with domestic, probate, and small claims dockets held weekly. For process serving inquiries in Payne County, contact Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "What tribal jurisdictions exist within Payne County?",
+      "answer": "Two federally recognized tribes have jurisdictional areas covering all or parts of Payne County: the Iowa Tribe of Oklahoma, headquartered in Perkins, and the Sac and Fox Nation, headquartered in Stroud. The Iowa Tribe operates the Cimarron Casino in Perkins and has over 800 enrolled members. The Sac and Fox Nation has approximately 3,000 enrolled members. Both tribes maintain tribal police departments that work cooperatively with Payne County law enforcement."
+    },
+    {
+      "question": "What are the largest employers in Payne County?",
+      "answer": "Oklahoma State University in Stillwater is the largest employer with approximately 6,000 faculty and staff, followed by Stillwater Medical Center with around 1,700 employees, and Stillwater Public Schools with approximately 894 employees. Other significant employers include the City of Stillwater, Walmart, and the Iowa Tribe of Oklahoma. The county's economy is driven by education, healthcare, agriculture, and oil pipeline operations centered in Cushing. For assistance serving legal documents to any of these employers, contact Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "What cities and towns are in Payne County besides Stillwater?",
+      "answer": "Major communities in Payne County include Cushing, known as the Pipeline Crossroads of the World; Perkins, home to the Iowa Tribe headquarters and Cimarron Casino; Yale, former home of Jim Thorpe; Glencoe; and Ripley. Each municipality has its own municipal court with separate jurisdictional boundaries. Process servers should note that municipal court jurisdictions are limited to city limits, while Payne County District Court has countywide jurisdiction."
+    },
+    {
+      "question": "How do I get licensed as a private process server in Payne County?",
+      "answer": "Private process server licenses are issued through the Payne County Court Clerk's office. The application fee for a new statewide license is $335.70 and is valid for one year. Renewals cost $200.70 and are valid for three years. Applicants must be at least 18 years old, an Oklahoma resident for at least six months, and a resident of the county or judicial district for at least 30 days. A $5,000 bond is required. The Court Clerk requires applicants to complete specific forms including an application, public notice, proof of posting, and order. Contact the Payne County Court Clerk at (405) 372-4774 for current application procedures. For professional process serving services throughout Payne County, contact Just Legal Solutions at (539) 367-6832."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

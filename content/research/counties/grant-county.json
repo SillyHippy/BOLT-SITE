@@ -1,0 +1,156 @@
+{
+  "slug": "grant-county",
+  "countyName": "Grant County",
+  "countySeat": "Medford",
+  "population": 4123,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "Grant County Courthouse",
+    "street": "112 E Guthrie St",
+    "city": "Medford",
+    "state": "OK",
+    "zip": "73759",
+    "phone": "580-395-2828",
+    "hours": "8:00a.m.-4:00p.m. Mon-Fri",
+    "judicialDistrict": "4",
+    "oscnDbKey": ""
+  },
+  "majorCities": [
+    "Medford",
+    "Pond Creek",
+    "Lamont",
+    "Wakita",
+    "Nash",
+    "Deer Creek",
+    "Manchester",
+    "Renfrow",
+    "Jefferson"
+  ],
+  "neighboringCounties": [
+    "alfalfa-county",
+    "garfield-county",
+    "kay-county",
+    "noble-county",
+    "harper-county-ks",
+    "sumner-county-ks"
+  ],
+  "tribalJurisdiction": [],
+  "majorEmployers": [
+    {
+      "name": "Medford Public Schools",
+      "street": "301 N Main St",
+      "city": "Medford",
+      "zip": "73759",
+      "employees": 50,
+      "industry": "Education",
+      "notes": "Serves approximately 320 students across two school sites."
+    },
+    {
+      "name": "Pond Creek-Hunter Public Schools",
+      "street": "200 E Broadway",
+      "city": "Pond Creek",
+      "zip": "73766",
+      "employees": 40,
+      "industry": "Education",
+      "notes": "Serves approximately 313 students across three school sites."
+    },
+    {
+      "name": "Deer Creek-Lamont Public Schools",
+      "street": "1192 Harrison Ave",
+      "city": "Lamont",
+      "zip": "74643",
+      "employees": 25,
+      "industry": "Education",
+      "notes": "Serves approximately 125 students across two school sites."
+    },
+    {
+      "name": "Great Salt Plains Health Center",
+      "street": "619 N Front St",
+      "city": "Medford",
+      "zip": "73759",
+      "employees": 35,
+      "industry": "Healthcare",
+      "notes": "Federally qualified health center offering primary care, dental, behavioral health, and pharmacy services."
+    },
+    {
+      "name": "INTEGRIS Health Medical Group Medford",
+      "street": "158 E Sunset Dr, Suite B",
+      "city": "Medford",
+      "zip": "73759",
+      "employees": 15,
+      "industry": "Healthcare",
+      "notes": "Primary care clinic providing family medicine services."
+    },
+    {
+      "name": "Grant County Health Department",
+      "street": "103 S 2nd",
+      "city": "Medford",
+      "zip": "73759",
+      "employees": 12,
+      "industry": "Public Health",
+      "notes": "Offers family planning, WIC, immunizations, and walk-in clinic services."
+    },
+    {
+      "name": "Bramlett Corporation",
+      "street": "Medford",
+      "city": "Medford",
+      "zip": "73759",
+      "employees": 10,
+      "industry": "Oil & Gas",
+      "notes": "Local oil and gas operator based in Grant County."
+    },
+    {
+      "name": "Altex Energy Corporation",
+      "street": "4801 Gaillardia Pkwy Ste 325",
+      "city": "Oklahoma City",
+      "zip": "73142",
+      "employees": 20,
+      "industry": "Oil & Gas",
+      "notes": "Major oil and gas producer with operations in Grant County."
+    }
+  ],
+  "uniqueFacts": [
+    "Grant County was originally part of the Cherokee Nation's Cherokee Outlet, opened to non-Indian settlers on September 16, 1893 during the largest of Oklahoma's land runs with an estimated 100,000 participants.",
+    "The county was originally designated as County L in Oklahoma Territory before being renamed for President Ulysses S. Grant on November 6, 1894.",
+    "Medford became the county seat on May 27, 1908, replacing Pond Creek which had been the original county seat since 1893.",
+    "The Grant County Courthouse, built in 1909, is listed on the National Register of Historic Places and features Classical Revival architecture.",
+    "The Chisholm Trail, used by Texas cattlemen from 1867 to 1884, passed through Grant County along what is now U.S. Highway 81.",
+    "The first oil well in Grant County, the Swaggart Number One, was drilled near Deer Creek on April 24, 1921.",
+    "The Salt Fork of the Arkansas River and its tributaries drain most of the county, which lies in both the Red Bed Plains and Great Salt Plains regions."
+  ],
+  "processServingNotes": [
+    "The Grant County Courthouse at 112 E Guthrie St in Medford handles all district court matters. Court Clerk Adrienne Hembree can be reached at 580-395-2828 for case-specific questions.",
+    "Rural addresses in Grant County are common, with wheat farms, cattle operations, and rural-route homes throughout the county. Process servers should be equipped for gravel roads and section-line driveways.",
+    "The courthouse is open Monday through Friday, 8:00 AM to 4:00 PM for filing returns of service. Process servers should coordinate with the court clerk for proper filing procedures."
+  ],
+  "heroLead": "Grant County, Oklahoma, sits on the state's northern border in the heart of wheat country, where agriculture, oil production, and small-town life define the landscape. From the historic courthouse in Medford to the wide-open plains along the Chisholm Trail, our process servers know every road in this 1,004-square-mile county. Call (539) 367-6832 today for dependable service.",
+  "faqs": [
+    {
+      "question": "What is the Grant County Courthouse address and phone number?",
+      "answer": "The Grant County Courthouse is located at 112 E Guthrie St, Medford, OK 73759. The Court Clerk's office can be reached at 580-395-2828. Hours are Monday through Friday, 8:00 a.m. to 4:00 p.m."
+    },
+    {
+      "question": "Which judicial district is Grant County in?",
+      "answer": "Grant County is in the 4th Judicial District of Oklahoma, which also includes Alfalfa, Blaine, Dewey, Garfield, Kingfisher, Major, Woods, and Woodward counties. The District Judge is Hon. Paul K. Woodward, based in Enid."
+    },
+    {
+      "question": "What is the population and county seat of Grant County?",
+      "answer": "As of the 2024 Census Bureau estimate, Grant County has a population of 4,123. The county seat is Medford, which has approximately 915 residents."
+    },
+    {
+      "question": "Was Grant County ever part of tribal territory?",
+      "answer": "Yes. Grant County was originally part of the Cherokee Nation's Cherokee Outlet, but it is not within the current Cherokee Nation reservation boundaries. The land was opened to non-Indian settlement during the 1893 Land Run."
+    },
+    {
+      "question": "What are the major industries in Grant County?",
+      "answer": "Agriculture dominates Grant County's economy, with wheat farming being the primary crop. According to the 2022 Census of Agriculture, the county had 208,432 acres of wheat for grain. Oil and gas production, healthcare, and education are also significant employers."
+    },
+    {
+      "question": "What towns are served by process servers in Grant County?",
+      "answer": "Process servers in Grant County serve all incorporated communities including Medford, Pond Creek, Lamont, Wakita, Nash, Deer Creek, Manchester, Renfrow, and Jefferson. For fast, reliable service anywhere in Grant County, call Just Legal Solutions at (539) 367-6832."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

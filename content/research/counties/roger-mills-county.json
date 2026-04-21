@@ -1,0 +1,106 @@
+{
+  "slug": "roger-mills-county",
+  "countyName": "Roger Mills County",
+  "countySeat": "Cheyenne",
+  "population": 3304,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "Roger Mills County Courthouse",
+    "street": "500 East Broadway",
+    "city": "Cheyenne",
+    "state": "OK",
+    "zip": "73628",
+    "phone": "580-303-6053",
+    "hours": "8:00 AM - 4:30 PM Monday-Friday",
+    "judicialDistrict": "2",
+    "oscnDbKey": "roger"
+  },
+  "majorCities": [
+    "Cheyenne",
+    "Hammon",
+    "Reydon",
+    "Strong City"
+  ],
+  "neighboringCounties": [
+    "ellis-county",
+    "dewey-county",
+    "custer-county",
+    "beckham-county",
+    "wheeler-county-tx",
+    "hemphill-county-tx"
+  ],
+  "tribalJurisdiction": [
+    "Cheyenne and Arapaho Tribes"
+  ],
+  "majorEmployers": [
+    {
+      "name": "Roger Mills Memorial Hospital",
+      "street": "501 South L.L. Males Avenue",
+      "city": "Cheyenne",
+      "zip": "73628",
+      "employees": 95,
+      "industry": "Healthcare",
+      "notes": "15-bed Critical Access Hospital serving Roger Mills County and surrounding areas"
+    },
+    {
+      "name": "Cheyenne Public Schools",
+      "street": "500 E Broadway",
+      "city": "Cheyenne",
+      "zip": "73628",
+      "employees": 65,
+      "industry": "Education",
+      "notes": "Public school district serving PK-12 with approximately 308 students"
+    },
+    {
+      "name": "Mewbourne Oil Company",
+      "street": "",
+      "city": "Cheyenne",
+      "zip": "73628",
+      "employees": 50,
+      "industry": "Oil and Gas",
+      "notes": "One of the most active private drillers in the western Anadarko region, including Roger Mills County"
+    }
+  ],
+  "uniqueFacts": [
+    "Roger Mills County sits atop the Panhandle-Hugoton Field, one of the largest-volume gas fields in the United States and the world's largest known source of helium",
+    "The county was originally part of the Cheyenne and Arapaho Reservation before being opened to non-Indian settlers on April 19, 1892",
+    "The Battle of the Washita took place in what is now Roger Mills County on November 27, 1868, when Lt. Col. George A. Custer attacked Chief Black Kettle's Cheyenne village",
+    "Spanish explorer Coronado camped near the Antelope Hills in the county in 1541, making it one of the earliest European exploration sites in Oklahoma",
+    "The county's western boundary was moved eastward 3,800 feet in 1930 after the U.S. Supreme Court ruled that the 100th Meridian was farther east than originally thought"
+  ],
+  "processServingNotes": [
+    "Process servers must follow Oklahoma statewide rules under Title 12 O.S. 2004; licensing is handled through the district court clerk's office in Cheyenne",
+    "Roger Mills County covers 1,146 square miles with a sparse rural population of approximately 3,300, so process servers should plan for significant travel distances between serves",
+    "Substituted service is permitted at a dwelling house with a person 15 years of age or older residing therein"
+  ],
+  "heroLead": "Roger Mills County sits atop the Panhandle-Hugoton Field, one of the largest-volume gas fields in the United States, in the vast prairies of western Oklahoma where agriculture and energy production drive the local economy. From the county seat of Cheyenne to the historic Washita Battlefield, our process servers cover every corner of this 1,146-square-mile county. Contact Just Legal Solutions at (539) 367-6832 or visit /contact for professional process serving in Roger Mills County.",
+  "faqs": [
+    {
+      "question": "Where is the Roger Mills County Courthouse located and what are its hours?",
+      "answer": "The Roger Mills County Courthouse is located at 500 East Broadway in Cheyenne, Oklahoma 73628. The courthouse is open Monday through Friday from 8:00 AM to 4:30 PM. The Court Clerk can be reached at 580-303-6053 for questions about case filings and records. Roger Mills County is part of Oklahoma's 2nd Judicial District."
+    },
+    {
+      "question": "What towns and communities are in Roger Mills County?",
+      "answer": "The incorporated towns in Roger Mills County include Cheyenne (the county seat), Hammon, Reydon, and Strong City. Sweetwater is partially in Roger Mills County and partially in Beckham County. The county also has unincorporated communities including Berlin, Crawford, Durham, Grimes, and Roll. Roger Mills County has a sparse rural population of approximately 3,300 residents spread across 1,146 square miles."
+    },
+    {
+      "question": "What tribal jurisdiction applies in Roger Mills County?",
+      "answer": "Roger Mills County falls within the tribal jurisdictional area of the Cheyenne and Arapaho Tribes. The tribal headquarters is located in Concho, Oklahoma. The Cheyenne and Arapaho Tribes operate several enterprises within their jurisdiction, including the Lucky Star Casino in Hammon. Process servers should be aware that tribal lands may have specific jurisdictional considerations. For process serving assistance in Roger Mills County, call (539) 367-6832."
+    },
+    {
+      "question": "What is the history of Roger Mills County?",
+      "answer": "Roger Mills County was created in 1891 from Cheyenne-Arapaho Lands and named for Roger Q. Mills, a U.S. Senator from Texas. The area was originally part of the Cheyenne and Arapaho Reservation before being opened to non-Indian settlers by land run on April 19, 1892. The county seat is Cheyenne, named for the Cheyenne tribe. The county is perhaps best known as the site of the 1868 Battle of the Washita, where Lt. Col. George A. Custer attacked Chief Black Kettle's village."
+    },
+    {
+      "question": "What are the major industries and employers in Roger Mills County?",
+      "answer": "The economy of Roger Mills County is driven by agriculture (particularly wheat and cattle ranching), oil and gas production from the Panhandle-Hugoton Field, and healthcare. Major employers include Roger Mills Memorial Hospital in Cheyenne, Cheyenne Public Schools, and various oil and gas operators including Mewbourne Oil Company. The county also benefits from gross production tax revenue from natural gas drilling."
+    },
+    {
+      "question": "What are the rules for serving process in Roger Mills County?",
+      "answer": "Process serving in Roger Mills County follows Oklahoma statewide statutes under Title 12 O.S. 2004. Personal service can be made by delivering a copy of the summons and petition to the defendant personally. Substituted service is permitted by leaving copies at the defendant's dwelling house with a person 15 years or older residing therein. Roger Mills County is a rural county covering 1,146 square miles, so process servers should plan for significant travel distances. For professional process serving assistance in Roger Mills County, contact Just Legal Solutions at (539) 367-6832."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

@@ -1,0 +1,146 @@
+{
+  "slug": "jackson-county",
+  "countyName": "Jackson County",
+  "countySeat": "Altus",
+  "population": 24678,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "Jackson County Courthouse",
+    "street": "101 N Main St",
+    "city": "Altus",
+    "state": "OK",
+    "zip": "73521",
+    "phone": "(580) 482-4420",
+    "hours": "Monday-Friday 8:00 AM - 4:00 PM",
+    "judicialDistrict": "3rd Judicial District",
+    "oscnDbKey": "jackson"
+  },
+  "majorCities": [
+    "Altus",
+    "Blair",
+    "Duke",
+    "Eldorado",
+    "Elmer",
+    "Headrick",
+    "Martha",
+    "Olustee"
+  ],
+  "neighboringCounties": [
+    "greer-county",
+    "kiowa-county",
+    "tillman-county",
+    "harmon-county",
+    "hardeman-county-tx",
+    "wilbarger-county-tx"
+  ],
+  "tribalJurisdiction": [
+    "Comanche Nation"
+  ],
+  "majorEmployers": [
+    {
+      "name": "Altus Air Force Base",
+      "street": "100 Inez Blvd",
+      "city": "Altus",
+      "zip": "73521",
+      "employees": 3500,
+      "industry": "Military/Defense",
+      "notes": "Home of the 97th Air Mobility Wing. Largest employer in the county with military and civilian personnel. Provides C-17, KC-135, and KC-46 aircrew training."
+    },
+    {
+      "name": "Jackson County Memorial Hospital",
+      "street": "1200 E Pecan St",
+      "city": "Altus",
+      "zip": "73521",
+      "employees": 800,
+      "industry": "Healthcare",
+      "notes": "49-bed non-profit hospital serving southwest Oklahoma and north Texas since 1949. Second largest employer in the county."
+    },
+    {
+      "name": "Altus Public Schools",
+      "street": "219 N Lee St",
+      "city": "Altus",
+      "zip": "73521",
+      "employees": 482,
+      "industry": "Education",
+      "notes": "Serves over 4,000 students across nine schools."
+    },
+    {
+      "name": "Bar-S Foods Company",
+      "street": "500 S Bar S Blvd",
+      "city": "Altus",
+      "zip": "73521",
+      "employees": 400,
+      "industry": "Food Processing/Manufacturing",
+      "notes": "Major meat processing plant producing hot dogs, sausage, and bacon products."
+    },
+    {
+      "name": "Western Oklahoma State College",
+      "street": "2801 N Main St",
+      "city": "Altus",
+      "zip": "73521",
+      "employees": 200,
+      "industry": "Higher Education",
+      "notes": "Public community college founded in 1926, serves approximately 1,150 students."
+    },
+    {
+      "name": "American Gypsum (formerly Republic Gypsum)",
+      "street": "Plant located near Duke",
+      "city": "Duke",
+      "zip": "73532",
+      "employees": 200,
+      "industry": "Manufacturing",
+      "notes": "Gypsum wallboard manufacturing plant. One of Oklahoma's largest gypsum producers."
+    },
+    {
+      "name": "City of Altus",
+      "street": "509 N Main St",
+      "city": "Altus",
+      "zip": "73521",
+      "employees": 250,
+      "industry": "Government",
+      "notes": "Municipal government providing city services."
+    }
+  ],
+  "uniqueFacts": [
+    "The Great Western Cattle Trail passed through Jackson County in the 1870s-1890s, with over 6 million cattle driven through the area",
+    "The Jackson County Courthouse, completed in 1910-1911, is listed on the National Register of Historic Places (NR 84003064) and was designed by C.E. Hair and Company in Classical Revival style",
+    "Altus Air Force Base is home to the 97th Air Mobility Wing, the Air Force's only formal training unit for C-17 Globemaster III, KC-135 Stratotanker, and KC-46 Pegasus aircraft, training up to 3,000 students annually",
+    "The Lugert-Altus Irrigation District, completed in 1947-48, delivers water via approximately 300 miles of canals and ditches to about 47,000 acres of farmland",
+    "The Museum of the Western Prairie in Altus chronicles the history of southwest Oklahoma from ancient seas and Wichita Mountains through frontier soldiers, cowboys, and homesteaders"
+  ],
+  "processServingNotes": [
+    "Jackson County is served by the 3rd Judicial District Court in Altus. Process servers should coordinate with the Court Clerk at (580) 482-0448 for filings and license verification",
+    "Altus Air Force Base occupies federal property; serving military personnel on base requires coordination with base security and may require base access clearance",
+    "The county covers 804 square miles of southwestern Oklahoma including rural agricultural areas and small towns, requiring travel for service in outlying communities"
+  ],
+  "heroLead": "Jackson County, Oklahoma, situated in the southwestern corner of the state, blends rich agricultural heritage with a proud military tradition at Altus Air Force Base, where the 97th Air Mobility Wing trains aircrew on C-17, KC-135, and KC-46 aircraft. From the historic 1910 courthouse on the National Register of Historic Places to the Lugert-Altus Irrigation District supporting 47,000 acres of farmland, the county reflects the enduring spirit of western Oklahoma. For reliable process serving throughout Jackson County's 804 square miles, contact Just Legal Solutions at (539) 367-6832 or visit our website.",
+  "faqs": [
+    {
+      "question": "Where is the Jackson County Courthouse located?",
+      "answer": "The Jackson County Courthouse is located at 101 N Main St in Altus, Oklahoma 73521. The County Clerk's office is in Room 101 and can be reached at (580) 482-4420. The District Court is located at 311 E Cypress, Room 17, Altus, OK 73521. For questions about filing or case status, call the Court Clerk at (580) 482-0448 or contact Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "What is the population of Jackson County?",
+      "answer": "As of 2024, Jackson County has an estimated population of approximately 24,678 residents, down slightly from 24,785 recorded in the 2020 Census. The county seat of Altus accounts for roughly 18,600 of those residents. The county has experienced gradual population decline over the past two decades due to economic shifts in agriculture and military staffing changes."
+    },
+    {
+      "question": "Which Native American tribes have jurisdiction in Jackson County?",
+      "answer": "The Comanche Nation has tribal jurisdiction in Jackson County, as the county falls within the Comanche Nation's tribal jurisdictional area. Historically, the area was also home to Apache, Kiowa, Cheyenne, and Arapaho peoples. Process servers should be aware that tribal members may be subject to tribal court jurisdiction for certain matters."
+    },
+    {
+      "question": "What are the major industries and employers in Jackson County?",
+      "answer": "Jackson County's economy is anchored by Altus Air Force Base (the largest employer with approximately 3,500 military and civilian personnel), agriculture (cotton, wheat, and grain sorghum), healthcare (Jackson County Memorial Hospital with 800+ employees), food processing (Bar-S Foods), and education (Altus Public Schools and Western Oklahoma State College). The Lugert-Altus Irrigation District supports approximately 47,000 acres of irrigated farmland. For service of process on any of these employers, contact Just Legal Solutions."
+    },
+    {
+      "question": "When was Jackson County founded and what is its history?",
+      "answer": "Jackson County was organized in 1907 at Oklahoma statehood, formed from part of Old Greer County after a U.S. Supreme Court decision resolved a territorial dispute between Texas and Oklahoma. The county seat, Altus, was designated at statehood and confirmed after Olustee unsuccessfully challenged it in a 1908 election. The county was named for President Andrew Jackson and Confederate General Stonewall Jackson. The Western Trail cattle drives passed through the county in the late 1800s, and railroads arrived in the early 1900s spurring agricultural development. For more historical context, call (539) 367-6832."
+    },
+    {
+      "question": "What recreational attractions are in Jackson County?",
+      "answer": "Jackson County offers several attractions including the Museum of the Western Prairie in Altus, which chronicles southwest Oklahoma history from ancient times to the present. Nearby Quartz Mountain State Park (in Greer and Kiowa counties, 17 miles north of Altus) offers boating, fishing, hiking, and rock climbing on Lake Altus-Lugert. Lake Altus-Lugert itself provides water recreation opportunities. The Altus City Reservoir offers camping and picnicking. The county also hosts the annual Altus Air Force Base Air Show. For directions to any location for service purposes, call Just Legal Solutions at (539) 367-6832."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

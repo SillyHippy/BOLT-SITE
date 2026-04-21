@@ -1,0 +1,162 @@
+{
+  "slug": "bryan-county",
+  "countyName": "Bryan County",
+  "countySeat": "Durant",
+  "population": 50305,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "Bryan County Courthouse",
+    "street": "402 W. Evergreen St",
+    "city": "Durant",
+    "state": "OK",
+    "zip": "74701",
+    "phone": "(580) 924-1446",
+    "hours": "Monday-Friday 8:00 AM - 4:30 PM",
+    "judicialDistrict": "26th Judicial District",
+    "oscnDbKey": "bryan"
+  },
+  "majorCities": [
+    "Durant",
+    "Calera",
+    "Colbert",
+    "Caddo",
+    "Bokchito",
+    "Achille",
+    "Silo",
+    "Bennington",
+    "Mead",
+    "Kenefic",
+    "Hendrix",
+    "Kemp",
+    "Armstrong"
+  ],
+  "neighboringCounties": [
+    "atoka-county",
+    "choctaw-county",
+    "johnston-county",
+    "marshall-county",
+    "love-county",
+    "lamar-county-tx",
+    "fannin-county-tx",
+    "grayson-county-tx"
+  ],
+  "tribalJurisdiction": [
+    "Choctaw Nation of Oklahoma"
+  ],
+  "majorEmployers": [
+    {
+      "name": "Choctaw Nation of Oklahoma",
+      "street": "1802 Chukka Hina",
+      "city": "Durant",
+      "zip": "74701",
+      "employees": 10000,
+      "industry": "Tribal Government",
+      "notes": "Largest employer in the region. Headquarters campus in Durant with tribal services, healthcare, and casino operations."
+    },
+    {
+      "name": "Southeastern Oklahoma State University",
+      "street": "425 W. University Blvd",
+      "city": "Durant",
+      "zip": "74701",
+      "employees": 500,
+      "industry": "Education",
+      "notes": "Public university with approximately 5,600 students. Founded in 1909."
+    },
+    {
+      "name": "AllianceHealth Durant",
+      "street": "1800 University Blvd",
+      "city": "Durant",
+      "zip": "74701",
+      "employees": 500,
+      "industry": "Healthcare",
+      "notes": "138-bed hospital serving Bryan, Choctaw, Atoka, Johnston and Marshall Counties."
+    },
+    {
+      "name": "Cardinal Glass FG (Float Glass Division)",
+      "street": "515 Cardinal Parkway",
+      "city": "Durant",
+      "zip": "74701",
+      "employees": 265,
+      "industry": "Manufacturing",
+      "notes": "Float glass manufacturing plant. Part of Cardinal Glass Industries. Expanded in 2016-2017 to over 500,000 sq ft."
+    },
+    {
+      "name": "BrucePac",
+      "street": "",
+      "city": "Durant",
+      "zip": "74701",
+      "employees": 150,
+      "industry": "Food Processing",
+      "notes": "Protein processing facility. Family-owned company founded in 1949. Opened Durant plant in 2015."
+    },
+    {
+      "name": "Indian Nation Wholesale Distribution",
+      "street": "",
+      "city": "Durant",
+      "zip": "74701",
+      "employees": 265,
+      "industry": "Wholesale Distribution",
+      "notes": "19th-largest convenience store distributor in the nation. Handles over 7,000 products."
+    },
+    {
+      "name": "First United Bank",
+      "street": "1400 W. Main St",
+      "city": "Durant",
+      "zip": "74701",
+      "employees": 200,
+      "industry": "Banking/Financial Services",
+      "notes": "7th-largest bank in Oklahoma. Founded as Durant National Bank in 1902. Over 85 locations in Oklahoma and Texas."
+    },
+    {
+      "name": "Commercial Metals Company (CMC)",
+      "street": "",
+      "city": "Durant",
+      "zip": "74701",
+      "employees": 200,
+      "industry": "Manufacturing",
+      "notes": "High-tech micro-mill opened in 2017. Manufactures high-strength steel, rebar, and fence posts. Fortune 500 company."
+    }
+  ],
+  "uniqueFacts": [
+    "Bryan County is the only county in the United States named for Democratic politician William Jennings Bryan.",
+    "The county is home to Lake Texoma, one of the largest reservoirs in the U.S. and the most popular lake in the USACE Tulsa District, attracting approximately 6 million visitors annually.",
+    "Durant is known as the 'Magnolia Capital of Oklahoma' due to the numerous magnolia trees throughout the city.",
+    "The Choctaw Nation of Oklahoma, the third largest federally recognized tribe in the United States, maintains its tribal headquarters in Durant.",
+    "The 1931 Red River Bridge War was a peaceful boundary dispute between Oklahoma and Texas over a toll bridge crossing the Red River at the Bryan County border."
+  ],
+  "processServingNotes": [
+    "Bryan County is served exclusively by the 26th Judicial District. The District Court is located at 402 W. Evergreen St in Durant.",
+    "The Bryan County Sheriff's Office provides civil process service for $50 per document (both in-state and out-of-state). Contact (580) 924-3000.",
+    "Process servers should be aware that Bryan County includes rural areas and Lake Texoma shoreline communities that may require additional travel time."
+  ],
+  "heroLead": "Located in southeastern Oklahoma's Choctaw Country, Bryan County is home to Durant, the 'Magnolia Capital of Oklahoma,' and serves as the headquarters for the Choctaw Nation of Oklahoma. With Lake Texoma drawing 6 million visitors annually and a growing population of over 50,000, the county combines rich Native American heritage with thriving tourism, manufacturing, and education sectors. For professional process serving throughout Bryan County, contact Just Legal Solutions at (539) 367-6832 or visit us at /contact.",
+  "faqs": [
+    {
+      "question": "Where is the Bryan County Courthouse located and what are its hours?",
+      "answer": "The Bryan County Courthouse is located at 402 W. Evergreen St, Durant, OK 74701. The Court Clerk's office is open Monday through Friday from 8:00 AM to 4:30 PM. The courthouse houses the 26th Judicial District Court. For process serving inquiries, you can reach the Court Clerk at (580) 924-1446."
+    },
+    {
+      "question": "What is the population of Bryan County and what is its county seat?",
+      "answer": "As of the 2024 Census Bureau estimate, Bryan County has a population of 50,305. The county seat is Durant, which is also the largest city in the county. Bryan County was founded in 1907 at Oklahoma statehood."
+    },
+    {
+      "question": "What tribal jurisdiction covers Bryan County?",
+      "answer": "Bryan County is located within the Choctaw Nation of Oklahoma reservation. The Choctaw Nation is the third largest federally recognized tribe in the United States with over 10,000 employees and its tribal headquarters in Durant at 1802 Chukka Hina. For legal matters involving tribal members or tribal lands, Choctaw Nation jurisdiction may apply. Contact Just Legal Solutions at (539) 367-6832 for assistance navigating tribal-related service requirements."
+    },
+    {
+      "question": "What are the major industries and employers in Bryan County?",
+      "answer": "The major industries in Bryan County include tribal government (Choctaw Nation), education (Southeastern Oklahoma State University), healthcare (AllianceHealth Durant), manufacturing (Cardinal Glass, CMC Metals), and tourism (Lake Texoma and Choctaw Casino Resort). The Choctaw Nation is the largest employer with over 10,000 employees."
+    },
+    {
+      "question": "What cities and towns are in Bryan County besides Durant?",
+      "answer": "In addition to Durant (the county seat), Bryan County includes 12 incorporated towns: Achille, Armstrong, Bennington, Bokchito, Caddo, Calera, Colbert, Hendrix, Kemp, Kenefic, Mead, and Silo. The county also includes several census-designated places and unincorporated communities."
+    },
+    {
+      "question": "Does Bryan County have any unique geographic features?",
+      "answer": "Bryan County is located in the Coastal Plains region of southeastern Oklahoma and covers 944 square miles. The county's southern boundary is formed by the Red River and Lake Texoma, one of the largest reservoirs in the United States. The Blue River is the major drainage system. The county is part of the Texoma region, which includes parts of both Oklahoma and Texas."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

@@ -1,0 +1,141 @@
+{
+  "slug": "adair-county",
+  "countyName": "Adair County",
+  "countySeat": "Stilwell",
+  "population": 19575,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "Adair County Courthouse",
+    "street": "220 W. Division St.",
+    "city": "Stilwell",
+    "state": "OK",
+    "zip": "74960",
+    "phone": "(918) 696-7633",
+    "hours": "Monday through Friday, 8:00 AM to 4:30 PM",
+    "judicialDistrict": "15th Judicial District",
+    "oscnDbKey": "adair"
+  },
+  "majorCities": [
+    "Stilwell",
+    "Westville",
+    "Watts"
+  ],
+  "neighboringCounties": [
+    "delaware-county",
+    "benton-county-ar",
+    "washington-county-ar",
+    "crawford-county-ar",
+    "sequoyah-county",
+    "cherokee-county"
+  ],
+  "tribalJurisdiction": [
+    "Cherokee Nation"
+  ],
+  "majorEmployers": [
+    {
+      "name": "Stilwell Public Schools",
+      "street": "1801 W. Locust St.",
+      "city": "Stilwell",
+      "zip": "74960",
+      "employees": 207,
+      "industry": "Education",
+      "notes": "Largest school district in the county serving approximately 1,381 students PK-12"
+    },
+    {
+      "name": "Cherokee Nation Industries (CNI)",
+      "street": "470739 Highway 51",
+      "city": "Stilwell",
+      "zip": "74960",
+      "employees": 300,
+      "industry": "Manufacturing / Aerospace",
+      "notes": "Tribally-owned aerospace and manufacturing company, major employer in Stilwell"
+    },
+    {
+      "name": "Wilma P. Mankiller Health Center",
+      "street": "471688 Highway 51",
+      "city": "Stilwell",
+      "zip": "74960",
+      "employees": 250,
+      "industry": "Healthcare",
+      "notes": "Cherokee Nation-operated outpatient health center, expanded to 110,000 square feet in 2022"
+    },
+    {
+      "name": "Tyson Foods",
+      "street": "Highway 59",
+      "city": "Stilwell",
+      "zip": "74960",
+      "employees": 200,
+      "industry": "Poultry Processing",
+      "notes": "Poultry processing plant, major agricultural employer in the county"
+    },
+    {
+      "name": "Facet Manufacturing",
+      "street": "470555 East 868 Road",
+      "city": "Stilwell",
+      "zip": "74960",
+      "employees": 150,
+      "industry": "Manufacturing",
+      "notes": "Global filtration manufacturing company serving industrial markets"
+    },
+    {
+      "name": "Adair County Health Center",
+      "street": "600 W. Hickory",
+      "city": "Stilwell",
+      "zip": "74960",
+      "employees": 100,
+      "industry": "Healthcare",
+      "notes": "County health department providing medical services and public health programs"
+    },
+    {
+      "name": "Schwan's Company (Mrs. Smith's Pies)",
+      "street": "Stilwell",
+      "city": "Stilwell",
+      "zip": "74960",
+      "employees": 150,
+      "industry": "Food Manufacturing",
+      "notes": "Frozen dessert manufacturing, successor to Stilwell Foods canning company established in 1942"
+    }
+  ],
+  "uniqueFacts": [
+    "Stilwell has been designated the 'Strawberry Capital of the World' since 1949 by the Oklahoma Governor and Legislature, with an annual Strawberry Festival held every May since 1948 that once drew 40,000 attendees.",
+    "Adair County is the only county in Oklahoma where Native Americans make up the largest racial group (approximately 40% of the population), giving it one of the highest percentages of Native American residents of any U.S. county.",
+    "The county was a notorious hideout for outlaws including Belle Starr, Ned Christie, the James brothers, and Pretty Boy Floyd during the late 19th and early 20th centuries.",
+    "The Wilma P. Mankiller Health Center in Stilwell, named after the first female Principal Chief of the Cherokee Nation, is the second-largest tribally operated outpatient clinic in the Cherokee Nation.",
+    "Adair County sits entirely within the Cherokee Nation reservation and was created in 1906 from the historic Going Snake and Flint Districts of the Cherokee Nation."
+  ],
+  "processServingNotes": [
+    "Much of Adair County consists of tribal trust land under Cherokee Nation jurisdiction. Process servers must determine whether service involves state or tribal court authority, as Cherokee Nation may have separate service-of-process rules for tribal members on trust land.",
+    "The Adair County Sheriff retains countywide authority for service of process, but coordination with Cherokee Nation Marshals Service may be required for serves involving tribal members on restricted Indian land.",
+    "Stilwell, Westville, and Watts are the primary incorporated areas where residential and business serves occur. Rural addresses may use non-standard rural route designations that can complicate locating defendants."
+  ],
+  "heroLead": "Adair County, nestled in the Ozark Plateau foothills of northeastern Oklahoma, is home to the Strawberry Capital of the World and the heart of the Cherokee Nation, where historic Flint and Going Snake Districts blend rich Native American heritage with agricultural and manufacturing economies. Whether serving process in Stilwell, Westville, or on tribal trust land throughout the county, Just Legal Solutions delivers experienced, knowledgeable service across Oklahoma's most uniquely jurisdictional county. Call (539) 367-6832 or visit /contact to get started.",
+  "faqs": [
+    {
+      "question": "What is the county seat of Adair County and where is the courthouse located?",
+      "answer": "The county seat of Adair County is Stilwell. The Adair County Courthouse is located at 220 W. Division St., Stilwell, OK 74960. The Court Clerk's office can be reached at (918) 696-7633 and is open Monday through Friday from 8:00 AM to 4:30 PM. For professional process serving throughout Adair County, contact Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "Which judicial district is Adair County in and what counties does it include?",
+      "answer": "Adair County is part of Oklahoma's 15th Judicial District, which also includes Cherokee, Muskogee, Sequoyah, and Wagoner counties. District Judge J. Jeffrey Payton and Associate District Judge L. Elizabeth Brown both preside at the Adair County Courthouse in Stilwell."
+    },
+    {
+      "question": "Does Cherokee Nation jurisdiction affect process serving in Adair County?",
+      "answer": "Yes, Adair County lies entirely within the Cherokee Nation reservation. Much of the land is tribal trust land, which means service of process may involve tribal court jurisdiction depending on the parties involved and the land status. The Cherokee Nation maintains its own marshals and court system. Our team at Just Legal Solutions understands these jurisdictional complexities and can coordinate proper service."
+    },
+    {
+      "question": "What are the major towns and communities in Adair County?",
+      "answer": "The primary incorporated communities in Adair County are Stilwell (the county seat), Westville, and Watts. Additional unincorporated communities include Bell, Chewey, Christie, Fairfield, Greasy, Lyons Switch, Maryetta, Peavine, Proctor, Rocky Mountain, Salem, and Zion. Stilwell is the largest community with approximately 3,700 residents."
+    },
+    {
+      "question": "What are the main industries and employers in Adair County?",
+      "answer": "Major employers include Stilwell Public Schools, Cherokee Nation Industries (aerospace manufacturing), the Wilma P. Mankiller Health Center, Tyson Foods (poultry processing), Facet Manufacturing, and Schwan's Company (food manufacturing). Agriculture, particularly cattle ranching and poultry, remains important to the local economy. Strawberries were historically a major crop, earning Stilwell the title 'Strawberry Capital of the World.' For business-related service of process, contact Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "How can I search court records for Adair County?",
+      "answer": "Adair County court records are searchable through the Oklahoma State Courts Network (OSCN) at oscn.net using the county database key 'adair.' The Adair County Court Clerk, Nichole Cooper, maintains all civil, criminal, family, probate, and traffic records at the courthouse. Records are also available in person at 220 W. Division St., Stilwell, OK 74960. For assistance with court record research or document retrieval in Adair County, call Just Legal Solutions at (539) 367-6832."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

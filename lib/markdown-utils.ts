@@ -1,5 +1,7 @@
 import { readFileSync, readdirSync } from 'fs';
 import { join } from 'path';
+import { COUNTIES } from './county-data';
+import { COUNTY_FAQ_OVERRIDES } from './county-faq-overrides';
 
 const COUNTIES_DIR = join(process.cwd(), 'content', 'counties');
 
@@ -108,6 +110,24 @@ export function generateCountyFAQs(
   countySeat: string,
   courthouseAddress?: string
 ): Array<{ question: string; answer: string }> {
+  const normalizeName = (value: string): string =>
+    value
+      .toLowerCase()
+      .replace(/[^a-z0-9 ]+/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim();
+
+  const countySlug = Object.values(COUNTIES).find(
+    (c) => normalizeName(c.countyName) === normalizeName(countyName)
+  )?.slug;
+  const overridden = countySlug ? COUNTY_FAQ_OVERRIDES[countySlug] : undefined;
+  if (overridden && overridden.length > 0) {
+    return overridden.slice(0, 6).map((faq) => ({
+      question: faq.question.trim(),
+      answer: faq.answer.trim(),
+    }));
+  }
+
   const addrClause = courthouseAddress
     ? ` at ${courthouseAddress}`
     : ` in ${countySeat}`;

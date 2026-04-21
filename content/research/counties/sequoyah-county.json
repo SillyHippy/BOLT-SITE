@@ -1,0 +1,146 @@
+{
+  "slug": "sequoyah-county",
+  "countyName": "Sequoyah County",
+  "countySeat": "Sallisaw",
+  "population": 40555,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "Sequoyah County Courthouse",
+    "street": "120 E. Chickasaw Ave",
+    "city": "Sallisaw",
+    "state": "OK",
+    "zip": "74955",
+    "phone": "918-775-4411",
+    "hours": "Monday - Friday: 8:00am to 4:00pm",
+    "judicialDistrict": "15th Judicial District (serving Adair, Cherokee, Muskogee, Sequoyah, and Wagoner counties)",
+    "oscnDbKey": "sequoyah"
+  },
+  "majorCities": [
+    "Sallisaw",
+    "Roland",
+    "Muldrow",
+    "Vian",
+    "Gore",
+    "Gans",
+    "Marble City",
+    "Paradise Hill",
+    "Moffett"
+  ],
+  "neighboringCounties": [
+    "adair-county",
+    "cherokee-county",
+    "haskell-county",
+    "le-flore-county",
+    "muskogee-county"
+  ],
+  "tribalJurisdiction": [
+    "Cherokee Nation"
+  ],
+  "majorEmployers": [
+    {
+      "name": "Northeastern Health System Sequoyah (formerly Sequoyah Memorial Hospital)",
+      "street": "213 East Redwood Street",
+      "city": "Sallisaw",
+      "zip": "74955",
+      "employees": 170,
+      "industry": "Healthcare",
+      "notes": "County's largest healthcare provider. A public trust supported by both city and county. General medical and surgical hospital serving all persons in the region. About 65% of employees are low- to moderate-income workers."
+    },
+    {
+      "name": "Sallisaw Public Schools",
+      "street": "",
+      "city": "Sallisaw",
+      "zip": "74955",
+      "employees": 200,
+      "industry": "Education",
+      "notes": "Operates Liberty Elementary, Eastside Elementary, Sallisaw Middle School, and Sallisaw High School. One of the largest employers in the county."
+    },
+    {
+      "name": "Cherokee Casino & Hotel Roland",
+      "street": "Interstate 40 & U.S. Highway 64",
+      "city": "Roland",
+      "zip": "74954",
+      "employees": 300,
+      "industry": "Gaming and Hospitality",
+      "notes": "First casino opened by Cherokee Nation in 1990, located at the eastern edge of Sequoyah County near the Arkansas border. Cross-deputization agreements in place between Cherokee Nation Marshal Service and Sequoyah County Sheriff."
+    },
+    {
+      "name": "People Inc. of Sequoyah County",
+      "street": "",
+      "city": "Sallisaw",
+      "zip": "74955",
+      "employees": 150,
+      "industry": "Vocational Rehabilitation Services",
+      "notes": "Non-profit organization providing vocational rehabilitation services. One of the largest employers in Sequoyah County."
+    },
+    {
+      "name": "Wal-Mart Supercenter",
+      "street": "",
+      "city": "Sallisaw",
+      "zip": "74955",
+      "employees": 200,
+      "industry": "Retail",
+      "notes": "Major retail employer serving Sequoyah County residents along Interstate 40."
+    },
+    {
+      "name": "BorgWarner Morse Tech",
+      "street": "",
+      "city": "Sallisaw",
+      "zip": "74955",
+      "employees": 200,
+      "industry": "Manufacturing",
+      "notes": "Manufacturer of automotive air and oil pumps. Part of the county's manufacturing base."
+    },
+    {
+      "name": "Sequoyah County Sheriff's Office",
+      "street": "120 S. Oak Street",
+      "city": "Sallisaw",
+      "zip": "74955",
+      "employees": 50,
+      "industry": "Law Enforcement/Government",
+      "notes": "Civil process service, law enforcement, and jail operations. Fees for civil process service: $50.00 in-state and out-of-state."
+    }
+  ],
+  "uniqueFacts": [
+    "Sequoyah County was named after Sequoyah, the Cherokee scholar who created the Cherokee syllabary in 1821, and the county was part of the Sequoyah District of the Cherokee Nation before Oklahoma statehood.",
+    "The first capital of the Western Cherokee Nation, Tahlonteeskee, was located near present-day Gore in Sequoyah County and served as the Cherokee capital from 1829 to 1839. The site is on the National Register of Historic Places.",
+    "The area was part of the proposed State of Sequoyah in 1905, a Native American-governed state that would have included eastern Oklahoma. The Sequoyah Convention drafted a constitution that was approved by voters 56,279 to 9,073, but Congress never acknowledged it.",
+    "Lake Tenkiller, one of Oklahoma's premier recreation destinations with 130 miles of shoreline, is located in Sequoyah County. The lake is known for crystal-clear water visibility from 8-28 feet and a unique underwater scuba park with sunken vehicles, planes, and boats.",
+    "Sequoyah's Cabin, built in 1829 and a National Historic Landmark, is located north of Sallisaw. It preserves the home of the Cherokee scholar who created the written Cherokee language."
+  ],
+  "processServingNotes": [
+    "The Sequoyah County Sheriff's Office provides civil process service with fees of $50.00 for both in-state and out-of-state service. The office is located at 120 S. Oak Street, Sallisaw, OK and can be reached at (918) 775-9155, hours 8:30 AM - 4:30 PM, Monday through Friday.",
+    "Sequoyah County is part of the Cherokee Nation reservation, recognized following the McGirt v. Oklahoma (2020) Supreme Court decision. Cross-deputization agreements exist between Cherokee Nation Marshal Service and Sequoyah County Sheriff's Department to address jurisdictional matters.",
+    "Licensed private process servers authorized by the 15th Judicial District can serve process throughout Oklahoma statewide. The court clerk maintains a list of licensed process servers at the courthouse."
+  ],
+  "heroLead": "Sequoyah County sits at Oklahoma's eastern edge, where the Ozark Plateau meets the Ouachita Mountains, encompassing 714 square miles of diverse terrain including the crystal-clear waters of Lake Tenkiller and the historic grounds where the Cherokee Nation established its first capital, Tahlonteeskee, in 1829. The county, named for Sequoyah who brought literacy to the Cherokee people through his syllabary, remains deeply connected to Cherokee heritage while its economy thrives on healthcare, manufacturing, education, and tourism serving a population of over 40,000 residents. For professional process serving throughout Sequoyah County and beyond, call (539) 367-6832 or visit /contact.",
+  "faqs": [
+    {
+      "question": "What is the Sequoyah County Courthouse address and hours?",
+      "answer": "The Sequoyah County Courthouse is located at 120 E. Chickasaw Avenue, Sallisaw, OK 74955. The courthouse is open Monday through Friday from 8:00 AM to 4:00 PM. The court clerk's office can be reached at (918) 775-4411. Sequoyah County is part of the 15th Judicial District which also serves Adair, Cherokee, Muskogee, and Wagoner counties. For process serving assistance in Sequoyah County, contact Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "How do I get civil process served in Sequoyah County?",
+      "answer": "Civil process in Sequoyah County can be served by the Sequoyah County Sheriff's Office, a licensed private process server, or a person specially appointed by the court. The Sheriff's Office charges $50.00 for service and is located at 120 S. Oak Street, Sallisaw, OK. Alternatively, you can hire a licensed private process server who has statewide authority to serve process anywhere in Oklahoma. The court clerk at the Sequoyah County Courthouse maintains a list of licensed process servers."
+    },
+    {
+      "question": "Is Sequoyah County part of the Cherokee Nation reservation?",
+      "answer": "Yes, Sequoyah County is within the Cherokee Nation's 7,000 square-mile reservation in northeastern Oklahoma. Following the McGirt v. Oklahoma Supreme Court decision in 2020, Cherokee Nation's reservation was affirmed as never having been disestablished. This means Cherokee Nation has jurisdiction within the county, and cross-deputization agreements are in place between Cherokee Nation Marshal Service and the Sequoyah County Sheriff's Department to coordinate law enforcement activities."
+    },
+    {
+      "question": "What is the population of Sequoyah County?",
+      "answer": "According to U.S. Census Bureau estimates, Sequoyah County had a population of approximately 40,555 in 2024. The county has experienced moderate population growth since the 2020 Census which recorded 39,281 residents. The largest city is Sallisaw, the county seat, with approximately 8,708 residents. Sequoyah County is the 26th most populous county in Oklahoma."
+    },
+    {
+      "question": "What major highways run through Sequoyah County?",
+      "answer": "Sequoyah County is traversed by Interstate 40 running east-west, U.S. Highway 59 running north-south, and U.S. Highway 64 paralleling I-40. The county is located in extreme eastern Oklahoma bordering Arkansas. Major cities include Sallisaw, Roland, Muldrow, Vian, and Gore. For process serving assistance anywhere in Sequoyah County, call Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "What are the largest employers in Sequoyah County?",
+      "answer": "Major employers in Sequoyah County include Northeastern Health System Sequoyah (the county hospital), Sallisaw Public Schools, Cherokee Casino & Hotel Roland, People Inc. of Sequoyah County, Wal-Mart Supercenter, and BorgWarner Morse Tech. The economy is supported by healthcare, education, manufacturing, retail, and tourism related to Lake Tenkiller and the Illinois River. Agriculture, particularly cattle and grain production, has historically been a mainstay of the local economy."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

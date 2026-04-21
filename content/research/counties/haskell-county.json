@@ -1,0 +1,126 @@
+{
+  "slug": "haskell-county",
+  "countyName": "Haskell County",
+  "countySeat": "Stigler",
+  "population": 11811,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "Haskell County Courthouse",
+    "street": "202 East Main Street",
+    "city": "Stigler",
+    "state": "OK",
+    "zip": "74462",
+    "phone": "918-967-3323",
+    "hours": "Monday-Friday 8:00am-4:30pm",
+    "judicialDistrict": "16",
+    "oscnDbKey": "haskell"
+  },
+  "majorCities": [
+    "Stigler",
+    "Keota",
+    "Kinta",
+    "McCurtain",
+    "Tamaha",
+    "Whitefield"
+  ],
+  "neighboringCounties": [
+    "muskogee-county",
+    "sequoyah-county",
+    "le-flore-county",
+    "latimer-county",
+    "pittsburg-county",
+    "mcintosh-county"
+  ],
+  "tribalJurisdiction": [
+    "Choctaw Nation"
+  ],
+  "majorEmployers": [
+    {
+      "name": "Haskell Regional Hospital",
+      "street": "401 NW H Street",
+      "city": "Stigler",
+      "zip": "74462",
+      "employees": 75,
+      "industry": "Healthcare",
+      "notes": "Critical access hospital serving southeastern Oklahoma."
+    },
+    {
+      "name": "Choctaw Nation Health Clinic",
+      "street": "2204 E Main St",
+      "city": "Stigler",
+      "zip": "74462",
+      "employees": 50,
+      "industry": "Healthcare / Tribal Government",
+      "notes": "Provides family practice, dental, lab, pharmacy, optometry, behavioral health, and community health nursing."
+    },
+    {
+      "name": "Stigler Public Schools",
+      "street": "309 NW E Street",
+      "city": "Stigler",
+      "zip": "74462",
+      "employees": 237,
+      "industry": "Education",
+      "notes": "Largest school district in the county."
+    },
+    {
+      "name": "Kiamichi Technology Center - Stigler",
+      "street": "1410 Old Military Road",
+      "city": "Stigler",
+      "zip": "74462",
+      "employees": 30,
+      "industry": "Career & Technical Education",
+      "notes": "Serves high school and adult students in southeast Oklahoma."
+    },
+    {
+      "name": "Haskell County Government",
+      "street": "202 East Main Street",
+      "city": "Stigler",
+      "zip": "74462",
+      "employees": 50,
+      "industry": "Government",
+      "notes": "Includes courthouse, county clerk, court clerk, treasurer, assessor, and sheriff."
+    }
+  ],
+  "uniqueFacts": [
+    "Haskell County was named after Charles N. Haskell, Oklahoma's first governor and a member of the Oklahoma Constitutional Convention.",
+    "Before statehood, the area that became Haskell County was part of Sans Bois County in the Choctaw Nation.",
+    "In 1912, a coal mine explosion in McCurtain killed 73 miners and bankrupted the San Bois Coal Company, ending underground mining in the county.",
+    "The Haskell County Courthouse, built in 1931, is listed on the National Register of Historic Places.",
+    "Between 1950 and 1980, Haskell County produced 20% of Oklahoma's coal."
+  ],
+  "processServingNotes": [
+    "Process servers should check in with the Court Clerk's office at the Haskell County Courthouse, located at 202 East Main Street in Stigler.",
+    "The county includes six incorporated towns and rural areas; service may require travel to remote locations.",
+    "Because Haskell County lies within the Choctaw Nation, tribal jurisdiction may affect service of process for tribal members; consult Choctaw Nation guidelines."
+  ],
+  "heroLead": "Haskell County sits in the Sans Bois Mountains of southeastern Oklahoma, where Lake Eufaula and the Robert S. Kerr Reservoir shape a landscape rooted in Choctaw heritage and coal mining history. Today, ranching, healthcare, and tribal enterprises drive a resilient rural economy. For process serving throughout Haskell County, call (539) 367-6832 or visit /contact.",
+  "faqs": [
+    {
+      "question": "What is the county seat of Haskell County?",
+      "answer": "The county seat of Haskell County is Stigler. Stigler is the largest city in the county and has been the seat of government since 1908."
+    },
+    {
+      "question": "How do I look up court records for Haskell County?",
+      "answer": "You can search Haskell County court records online through the Oklahoma State Courts Network (OSCN) at oscn.net using the county database key 'haskell'. For certified copies or in-person assistance, visit the Court Clerk's office at the courthouse."
+    },
+    {
+      "question": "What are the hours of the Haskell County Courthouse?",
+      "answer": "The courthouse is open Monday through Friday from 8:00 a.m. to 4:30 p.m. It is closed on weekends and state holidays."
+    },
+    {
+      "question": "Does tribal jurisdiction affect process serving in Haskell County?",
+      "answer": "Yes. Haskell County is within the Choctaw Nation reservation. If the defendant is a tribal member or the incident occurred on tribal trust land, special rules may apply; contact the Choctaw Nation for guidance."
+    },
+    {
+      "question": "What major highways run through Haskell County?",
+      "answer": "State Highways 2, 9, 31, 71, and 82 serve the county, connecting Stigler to surrounding towns and to Interstate 40."
+    },
+    {
+      "question": "How can I hire a process server in Haskell County?",
+      "answer": "Just Legal Solutions serves all of Haskell County, including Stigler, Keota, McCurtain, and the surrounding rural areas. Call (539) 367-6832 to schedule service or ask about our same-day options."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

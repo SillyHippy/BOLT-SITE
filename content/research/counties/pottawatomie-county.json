@@ -1,0 +1,156 @@
+{
+  "slug": "pottawatomie-county",
+  "countyName": "Pottawatomie County",
+  "countySeat": "Shawnee",
+  "population": 74446,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "Pottawatomie County Courthouse",
+    "street": "325 N Broadway Ave",
+    "city": "Shawnee",
+    "state": "OK",
+    "zip": "74801",
+    "phone": "405-273-3624",
+    "hours": "Mon-Fri 8:30 AM - 5:00 PM",
+    "judicialDistrict": "23",
+    "oscnDbKey": "pottawatomie"
+  },
+  "majorCities": [
+    "Shawnee",
+    "Tecumseh",
+    "McLoud",
+    "Bethel Acres",
+    "Pink",
+    "Earlsboro",
+    "Maud",
+    "Johnson",
+    "Asher",
+    "Tribbey",
+    "Wanette",
+    "Macomb",
+    "Brooksville",
+    "St. Louis"
+  ],
+  "neighboringCounties": [
+    "lincoln-county",
+    "okfuskee-county",
+    "seminole-county",
+    "pontotoc-county",
+    "mcclain-county",
+    "cleveland-county",
+    "oklahoma-county"
+  ],
+  "tribalJurisdiction": [
+    "Citizen Potawatomi Nation",
+    "Absentee Shawnee Tribe",
+    "Kickapoo Tribe of Oklahoma",
+    "Sac and Fox Nation"
+  ],
+  "majorEmployers": [
+    {
+      "name": "Citizen Potawatomi Nation",
+      "street": "1601 S Gordon Cooper Dr",
+      "city": "Shawnee",
+      "zip": "74801",
+      "employees": 2200,
+      "industry": "Tribal Government",
+      "notes": "Largest employer in Pottawatomie County. Operates Grand Casino, FireLake Discount Foods, First National Bank, healthcare clinics, and tribal government services."
+    },
+    {
+      "name": "SSM Health St. Anthony Hospital - Shawnee",
+      "street": "1102 W MacArthur St",
+      "city": "Shawnee",
+      "zip": "74804",
+      "employees": 450,
+      "industry": "Healthcare",
+      "notes": "Regional hospital serving Pottawatomie County and surrounding areas for more than 50 years."
+    },
+    {
+      "name": "Shawnee Public Schools",
+      "street": "326 N Union Ave",
+      "city": "Shawnee",
+      "zip": "74801",
+      "employees": 800,
+      "industry": "Education",
+      "notes": "Largest school district in the county serving students across multiple school sites."
+    },
+    {
+      "name": "Oklahoma Baptist University",
+      "street": "500 W University St",
+      "city": "Shawnee",
+      "zip": "74804",
+      "employees": 972,
+      "industry": "Higher Education",
+      "notes": "Private Baptist university founded in 1910. Enrollment approximately 1,514 students."
+    },
+    {
+      "name": "Shawnee Milling Company",
+      "street": "201 S Broadway Ave",
+      "city": "Shawnee",
+      "zip": "74801",
+      "employees": 350,
+      "industry": "Food Manufacturing",
+      "notes": "Family-owned milling operation since 1906. Produces flour, cornmeal, and food products distributed nationally."
+    },
+    {
+      "name": "TDK Ferrites Corporation",
+      "street": "",
+      "city": "Shawnee",
+      "zip": "74804",
+      "employees": 300,
+      "industry": "Manufacturing",
+      "notes": "Electronics manufacturer producing ferrite components for global markets."
+    },
+    {
+      "name": "Eaton Corporation",
+      "street": "",
+      "city": "Shawnee",
+      "zip": "74804",
+      "employees": 250,
+      "industry": "Manufacturing",
+      "notes": "Fortune 500 manufacturer of power management equipment."
+    }
+  ],
+  "uniqueFacts": [
+    "Pottawatomie County was originally organized as County 'B' during the Land Run of September 22, 1891, with Tecumseh as the original county seat before Shawnee took over in 1930.",
+    "The county is named after the Potawatomi tribe, and four federally recognized tribes maintain headquarters or jurisdictional areas here: Citizen Potawatomi Nation, Absentee Shawnee Tribe, Kickapoo Tribe, and Sac and Fox Nation.",
+    "Shawnee is the hometown of both Mercury Astronaut Gordon Cooper and actor Brad Pitt.",
+    "The Pottawatomie County Courthouse was built in 1934 by the Public Works Administration during the Great Depression.",
+    "The county was the site of the last land run in Oklahoma in 1895 when the Kickapoo tribe gave up their remaining land rights."
+  ],
+  "processServingNotes": [
+    "The Pottawatomie County Courthouse is located at 325 N Broadway Ave in Shawnee, with court clerk hours Monday through Friday 8:30 AM to 5:00 PM. Process servers should note that tribal lands within the county may have separate jurisdictional requirements through the Citizen Potawatomi Nation, Absentee Shawnee Tribe, Kickapoo Tribe, or Sac and Fox Nation.",
+    "Multiple municipal courts operate throughout the county including Shawnee, Tecumseh, McLoud, and smaller town courts. Each maintains separate filing systems and hours of operation.",
+    "Pottawatomie County is part of Oklahoma Judicial District 23. District court records can be accessed online through the Oklahoma State Courts Network (OSCN) using the county database key 'pottawatomie'."
+  ],
+  "heroLead": "Pottawatomie County sits at the crossroads of east-central Oklahoma, where the North Canadian River winds through 793 square miles of rolling Sandstone Hills. Home to Shawnee and four federally recognized tribal nations, the county blends rich Native American heritage with modern manufacturing and healthcare economies. Whether you need process served at the courthouse on Broadway, one of the 70-plus manufacturing plants, or anywhere across the county, Just Legal Solutions delivers statewide coverage with local expertise. Call (539) 367-6832 or visit /contact to get started.",
+  "faqs": [
+    {
+      "question": "What is the county seat of Pottawatomie County and where is the courthouse located?",
+      "answer": "The county seat of Pottawatomie County is Shawnee, Oklahoma. The Pottawatomie County Courthouse is located at 325 N Broadway Ave, Shawnee, OK 74801. The courthouse houses the District Court Clerk's office, which maintains all court records for the county. For questions about court filings or to access case records, contact the court clerk at 405-273-3622."
+    },
+    {
+      "question": "Which Native American tribes have jurisdiction in Pottawatomie County?",
+      "answer": "Four federally recognized tribes maintain jurisdictional areas in Pottawatomie County: the Citizen Potawatomi Nation (headquartered in Shawnee), the Absentee Shawnee Tribe (also headquartered in Shawnee), the Kickapoo Tribe of Oklahoma (headquartered in McLoud), and the Sac and Fox Nation (headquartered in Stroud with jurisdiction in portions of the county). Process servers should be aware that tribal lands may have separate jurisdictional requirements, and service of process on tribal members within tribal jurisdiction may require compliance with tribal court procedures. Contact Just Legal Solutions at (539) 367-6832 for assistance with tribal jurisdiction matters."
+    },
+    {
+      "question": "What is the population and geographic size of Pottawatomie County?",
+      "answer": "As of the 2024 U.S. Census Bureau estimate, Pottawatomie County has a population of 74,446 residents, making it the ninth-most populous county in Oklahoma. The county covers a total area of 793 square miles, of which 788 square miles is land and 5.7 square miles is water. The county is located in east-central Oklahoma and is part of the Oklahoma City-Shawnee Combined Statistical Area."
+    },
+    {
+      "question": "What are the major cities and towns in Pottawatomie County?",
+      "answer": "The largest city and county seat is Shawnee with approximately 32,100 residents. Other incorporated communities include Tecumseh, McLoud, Bethel Acres, Pink, Earlsboro, Maud, Johnson, Asher, Tribbey, Wanette, Macomb, Brooksville, and St. Louis. Shawnee serves as the primary commercial, educational, and governmental center for the county and hosts Oklahoma Baptist University and Gordon Cooper Technology Center."
+    },
+    {
+      "question": "How do I access court records for Pottawatomie County?",
+      "answer": "Pottawatomie County District Court records can be accessed online through the Oklahoma State Courts Network (OSCN) at oscn.net using the county database key 'pottawatomie'. The court clerk's office at the courthouse, open Monday through Friday from 8:30 AM to 5:00 PM, can provide certified copies of court documents. Pottawatomie County is in Oklahoma Judicial District 23. For assistance locating court records or filing documents, call 405-273-3624."
+    },
+    {
+      "question": "Who are the largest employers in Pottawatomie County?",
+      "answer": "The Citizen Potawatomi Nation is the largest employer in Pottawatomie County with more than 2,200 employees, operating the Grand Casino Hotel & Resort, FireLake Discount Foods, First National Bank, and various tribal government services. Other major employers include SSM Health St. Anthony Hospital, Shawnee Public Schools, Oklahoma Baptist University, Shawnee Milling Company, TDK Ferrites Corporation, and Eaton Corporation. The county's economy is driven by manufacturing, healthcare, education, and tribal enterprises. For professional process serving needs anywhere in Pottawatomie County, contact Just Legal Solutions at (539) 367-6832."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

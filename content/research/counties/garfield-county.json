@@ -1,0 +1,141 @@
+{
+  "slug": "garfield-county",
+  "countyName": "Garfield County",
+  "countySeat": "Enid",
+  "population": 62007,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "Garfield County Courthouse",
+    "street": "114 W. Broadway Ave",
+    "city": "Enid",
+    "state": "OK",
+    "zip": "73701",
+    "phone": "(580) 237-0232",
+    "hours": "Monday-Friday 8:00 a.m. - 4:30 p.m.",
+    "judicialDistrict": "4",
+    "oscnDbKey": "garfield"
+  },
+  "majorCities": [
+    "Enid",
+    "Garber",
+    "Waukomis",
+    "Lahoma",
+    "Drummond",
+    "Fairmont",
+    "Covington",
+    "Kremlin",
+    "Hunter",
+    "Breckinridge",
+    "Carrier",
+    "Douglas",
+    "Hillsdale",
+    "North Enid"
+  ],
+  "neighboringCounties": [
+    "grant-county",
+    "noble-county",
+    "logan-county",
+    "kingfisher-county",
+    "major-county",
+    "alfalfa-county"
+  ],
+  "tribalJurisdiction": [],
+  "majorEmployers": [
+    {
+      "name": "Vance Air Force Base",
+      "street": "Vance AFB",
+      "city": "Enid",
+      "zip": "73705",
+      "employees": 3000,
+      "industry": "Military/Government",
+      "notes": "Home of the 71st Flying Training Wing; includes military personnel and civilian contractors"
+    },
+    {
+      "name": "Tyson Foods/AdvancePierre Foods",
+      "street": "Pine Street facility",
+      "city": "Enid",
+      "zip": "73701",
+      "employees": 1451,
+      "industry": "Food Processing",
+      "notes": "Multiple meat processing plants in Enid"
+    },
+    {
+      "name": "INTEGRIS Health Enid Hospital (Bass Baptist)",
+      "street": "600 S. Monroe St",
+      "city": "Enid",
+      "zip": "73701",
+      "employees": 800,
+      "industry": "Healthcare",
+      "notes": "Oldest hospital in Enid; main campus at 600 S. Monroe since 1914"
+    },
+    {
+      "name": "St. Mary's Regional Medical Center",
+      "street": "305 S. 5th St",
+      "city": "Enid",
+      "zip": "73701",
+      "employees": 600,
+      "industry": "Healthcare",
+      "notes": "Founded in 1915; acute-care hospital owned by Universal Health Services"
+    },
+    {
+      "name": "Enid Public Schools",
+      "street": "500 S. Independence St",
+      "city": "Enid",
+      "zip": "73701",
+      "employees": 1000,
+      "industry": "Education",
+      "notes": "Serves approximately 7,600 students across 15 schools"
+    },
+    {
+      "name": "Koch Fertilizer Enid, LLC",
+      "street": "1619 S. 78th St",
+      "city": "Enid",
+      "zip": "73701",
+      "employees": 300,
+      "industry": "Agriculture/Manufacturing",
+      "notes": "Nitrogen fertilizer production facility"
+    }
+  ],
+  "uniqueFacts": [
+    "Enid, the county seat, has the largest grain storage capacity in the United States and the third largest in the world, earning it the nickname 'Wheat Capital of Oklahoma'.",
+    "The current Garfield County Courthouse is an Art Deco building constructed in 1934 after the original 1907 courthouse was destroyed by fire. It features murals by WPA artist Ruth Augur and is listed on the National Register of Historic Places.",
+    "Garfield County was originally designated as 'O County' by Congress before being renamed in honor of President James A. Garfield during a general election on November 6, 1894.",
+    "Vance Air Force Base in Enid has trained pilots since 1941 and is home to the 71st Flying Training Wing, training over 400 U.S. Air Force and allied international student pilots annually.",
+    "The Enid Terminal Grain Elevators Historic District, listed on the National Register of Historic Places since 2009, includes concrete grain elevators built between 1925 and 1954 that dominate the Enid skyline."
+  ],
+  "processServingNotes": [
+    "The Garfield County Court Clerk licenses private process servers for the county. Contact the court clerk at (580) 237-0232 for licensing information or to verify a process server's credentials.",
+    "Oklahoma Rules of Civil Procedure allow process to be served by sheriff/deputy sheriff, licensed private process servers, or persons specially appointed by the court for that purpose.",
+    "Process servers licensed in Garfield County can serve civil process throughout the county. Statewide licenses are also available through the district court clerk."
+  ],
+  "heroLead": "Located in north-central Oklahoma, Garfield County is the Wheat Capital of Oklahoma with Enid as its county seat, home to the largest grain storage capacity in the United States, Vance Air Force Base, and a thriving agricultural and food processing economy. Just Legal Solutions provides professional process serving throughout Garfield County — call (539) 367-6832 or visit our /contact page to get started.",
+  "faqs": [
+    {
+      "question": "Where is the Garfield County Courthouse located?",
+      "answer": "The Garfield County Courthouse is located at 114 W. Broadway Ave, Enid, Oklahoma 73701. The courthouse is open Monday through Friday from 8:00 a.m. to 4:30 p.m., including during the lunch hour. For questions about court records, you can contact the Court Clerk's office at (580) 237-0232 or reach Just Legal Solutions at (539) 367-6832 for process serving assistance."
+    },
+    {
+      "question": "What is the population of Garfield County?",
+      "answer": "According to the U.S. Census Bureau's 2024 population estimates, Garfield County has approximately 62,007 residents, making it the 12th most populous county in Oklahoma. The county seat, Enid, is home to the majority of the population with approximately 50,500 residents."
+    },
+    {
+      "question": "Does Garfield County fall within any tribal jurisdiction?",
+      "answer": "No, Garfield County is not located within any federally recognized tribal reservation boundaries. While the county was originally part of the Cherokee Outlet, it was opened to non-Indian settlement during the Land Run of 1893 and is not within the Cherokee Nation's 14-county reservation or any other tribal jurisdictional area."
+    },
+    {
+      "question": "Who are the major employers in Garfield County?",
+      "answer": "The largest employer in Garfield County is Vance Air Force Base, which employs approximately 3,000 military personnel and civilian contractors. Other major employers include Tyson Foods/AdvancePierre Foods (approximately 1,451 employees), INTEGRIS Health Enid Hospital (Bass Baptist), St. Mary's Regional Medical Center, Enid Public Schools, and Koch Fertilizer. The county's economy is anchored by agriculture, military, food processing, and healthcare sectors. For process serving needs related to any employer in Garfield County, call (539) 367-6832."
+    },
+    {
+      "question": "What towns and communities are in Garfield County?",
+      "answer": "Garfield County includes the cities of Enid (county seat) and Garber, as well as the towns of Breckinridge, Carrier, Covington, Douglas, Drummond, Fairmont, Hillsdale, Hunter, Kremlin, Lahoma, North Enid, and Waukomis. The county also includes the census-designated place of Bison."
+    },
+    {
+      "question": "When was Garfield County founded and how did it get its name?",
+      "answer": "Garfield County was created in 1893 when the Cherokee Outlet was opened to settlement on September 16, 1893. Congress originally designated it as 'O County' with Enid as the county seat. During a general election on November 6, 1894, residents voted to rename it Garfield County in honor of President James A. Garfield, who was assassinated in 1881. The county encompasses 1,060 square miles in north-central Oklahoma."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

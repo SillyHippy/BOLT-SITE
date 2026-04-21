@@ -1,0 +1,147 @@
+{
+  "slug": "major-county",
+  "countyName": "Major County",
+  "countySeat": "Fairview",
+  "population": 7569,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "Major County Courthouse",
+    "street": "500 E. Broadway",
+    "city": "Fairview",
+    "state": "OK",
+    "zip": "73737",
+    "phone": "580-227-4690",
+    "hours": "Monday - Friday: 8:30am to 4:30pm",
+    "judicialDistrict": "4",
+    "oscnDbKey": "Major"
+  },
+  "majorCities": [
+    "Fairview",
+    "Ringwood",
+    "Cleo Springs",
+    "Meno",
+    "Ames",
+    "Chester",
+    "Isabella"
+  ],
+  "neighboringCounties": [
+    "woodward-county",
+    "woods-county",
+    "alfalfa-county",
+    "garfield-county",
+    "kingfisher-county",
+    "blaine-county",
+    "dewey-county"
+  ],
+  "tribalJurisdiction": [
+    "Cheyenne and Arapaho Tribes"
+  ],
+  "majorEmployers": [
+    {
+      "name": "Fairview Regional Medical Center",
+      "street": "523 E State Road",
+      "city": "Fairview",
+      "zip": "73737",
+      "employees": 150,
+      "industry": "Healthcare",
+      "notes": "25-bed critical access hospital serving northwest Oklahoma"
+    },
+    {
+      "name": "Fairview Public Schools",
+      "street": "408 E. Broadway",
+      "city": "Fairview",
+      "zip": "73737",
+      "employees": 120,
+      "industry": "Education",
+      "notes": "Public school district serving Pre-K through 12th grade"
+    },
+    {
+      "name": "USG Corporation",
+      "street": "Fairview Plant",
+      "city": "Fairview",
+      "zip": "73737",
+      "employees": 100,
+      "industry": "Manufacturing",
+      "notes": "Leading manufacturer of gypsum wallboard and related building products"
+    },
+    {
+      "name": "Arcosa Specialty Materials",
+      "street": "Diamond Gypsum Quarry",
+      "city": "Fairview",
+      "zip": "73737",
+      "employees": 80,
+      "industry": "Mining and Manufacturing",
+      "notes": "Mining and processing gypsum products for construction, agriculture, and industrial applications"
+    },
+    {
+      "name": "Major County Government",
+      "street": "500 E. Broadway",
+      "city": "Fairview",
+      "zip": "73737",
+      "employees": 75,
+      "industry": "Government",
+      "notes": "County administration including court, clerk, assessor, and treasurer offices"
+    },
+    {
+      "name": "City of Fairview",
+      "street": "City Hall",
+      "city": "Fairview",
+      "zip": "73737",
+      "employees": 40,
+      "industry": "Government",
+      "notes": "Municipal government for the county seat"
+    },
+    {
+      "name": "Northwest Technology Center",
+      "street": "801 Vo-Tech Drive",
+      "city": "Fairview",
+      "zip": "73737",
+      "employees": 35,
+      "industry": "Education",
+      "notes": "Career and technology education center serving high school students and adults"
+    }
+  ],
+  "uniqueFacts": [
+    "Major County is home to the Ames Astrobleme, a 470-million-year-old meteorite impact crater buried under 9,000 feet of sediment. Discovered in 1991, it has produced over 17.5 million barrels of oil and 80 billion cubic feet of natural gas.",
+    "The town of Meno is named after Menno Simons, a 16th-century Dutch Anabaptist leader, reflecting the county's large Mennonite settler population from Kansas.",
+    "Gloss Mountain State Park features the Glass Mountains (also called Gloss Mountains), buttes with shimmering selenite crystals that appear glass-like when sunlight hits them.",
+    "The county experienced the infamous 'Black Sunday' dust storm on April 14, 1935, one of the worst dust storms during the Dust Bowl era.",
+    "The Ringwood Watermelon Festival celebrates the town's long-standing reputation for producing top-quality watermelons.",
+    "Fairview was named for its scenic location in the Cimarron River valley east of the Glass Mountains, offering beautiful views in both directions."
+  ],
+  "processServingNotes": [
+    "The Major County Courthouse is located at 500 E. Broadway in Fairview. The Court Clerk's office (Suite 5) handles all court filings and is open Monday through Friday from 8:30am to 4:30pm.",
+    "The Major County Sheriff's Office provides civil process service including subpoenas, summonses, protective orders, tax warrants, and evictions. Contact them at (580) 227-4471.",
+    "Fairview is situated at the junction of State Highway 8 and State Highway 58/U.S. Highway 60, making it accessible from multiple directions for process serving."
+  ],
+  "heroLead": "Nestled in northwestern Oklahoma, Major County blends rich agricultural heritage with remarkable geological wonders, from the shimmering Glass Mountains to the ancient Ames Astrobleme meteorite crater that has produced millions of barrels of oil. The county seat of Fairview serves as a hub for the region's wheat farming, cattle ranching, and gypsum manufacturing industries. Whether you're serving legal documents at the courthouse on 500 E. Broadway or at one of the county's major employers, Just Legal Solutions has the local knowledge to get the job done right—call (539) 367-6832 or visit /contact.",
+  "faqs": [
+    {
+      "question": "What is the Ames Astrobleme and why is it significant?",
+      "answer": "The Ames Astrobleme is a meteorite impact crater located near the town of Ames in Major County, Oklahoma. Formed approximately 470 million years ago during the Ordovician period, the crater is buried under 9,000 feet of sediment and was not discovered until 1991. It has since become one of the most productive oil-producing impact craters in the United States, generating over 17.5 million barrels of oil. The Ames Astrobleme Museum in downtown Ames features exhibits explaining this unique geological formation. For more information about visiting Major County, call (539) 367-6832."
+    },
+    {
+      "question": "What is the history behind the Glass Mountains?",
+      "answer": "The Glass Mountains, also known as Gloss Mountains, are a series of buttes located in Major County, Oklahoma, near Fairview. They get their name from the high selenite gypsum content that creates a glass-like shimmer on the surface when sunlight hits it. The mountains rise 50 to 175 feet above the valley floor and are part of the Blaine Escarpment. Gloss Mountain State Park offers hiking trails, including the Cathedral Mountain Mesa Trail, and picnic areas open year-round from sunrise to sunset."
+    },
+    {
+      "question": "Why is there a Mennonite connection in Major County?",
+      "answer": "Major County was originally settled by large numbers of Mennonite Brethren from Kansas following the Cherokee Outlet Land Run of 1893. These settlers established organized churches and communities throughout the county. The town of Meno received its name from Dutch Anabaptist leader Menno Simons (1496-1561), an early leader of the Mennonite movement. To this day, the Mennonite heritage remains an important part of Major County's cultural identity."
+    },
+    {
+      "question": "What major industries drive the economy in Major County?",
+      "answer": "Major County's economy is driven by agriculture, oil and gas production, manufacturing, and healthcare. The county is a significant producer of wheat, cattle, and poultry. Oil and gas production, particularly around the Ames Structure and Ringwood oil field, has significantly boosted the local economy. Major employers include Fairview Regional Medical Center, Fairview Public Schools, USG Corporation, and Arcosa Specialty Materials. For process serving needs in Major County's business community, contact Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "What outdoor recreational opportunities are available in Major County?",
+      "answer": "Major County offers several outdoor recreation opportunities. Gloss Mountain State Park features hiking trails and picnic areas with stunning views of the buttes and valley. Canton Lake, located nearby, offers fishing for walleye and other species. Little Sahara State Park is within driving distance for ATV enthusiasts. The county's rural landscape also provides opportunities for hunting, bird watching, and exploring the Great Plains Trail. The Ames Astrobleme Museum offers educational exhibits about the meteorite impact crater."
+    },
+    {
+      "question": "How do I access court records in Major County?",
+      "answer": "Court records for Major County can be accessed through the Oklahoma State Courts Network (OSCN) online at www.oscn.net. The Major County Courthouse is located at 500 E. Broadway in Fairview, with the Court Clerk's office in Suite 5. Office hours are Monday through Friday from 8:30am to 4:30pm, and the phone number is (580) 227-4690. The courthouse is part of Oklahoma's 4th Judicial District. For professional process serving assistance in Major County, contact Just Legal Solutions at (539) 367-6832."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

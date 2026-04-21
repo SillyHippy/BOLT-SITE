@@ -1,0 +1,174 @@
+{
+  "slug": "kay-county",
+  "countyName": "Kay County",
+  "countySeat": "Newkirk",
+  "population": 43700,
+  "populationYear": 2020,
+  "courthouse": {
+    "name": "Kay County Courthouse",
+    "street": "201 S. Main St.",
+    "city": "Newkirk",
+    "state": "OK",
+    "zip": "74647",
+    "phone": "580-362-3350",
+    "hours": "Monday-Friday 8:00 a.m. - 4:30 p.m., open through lunch",
+    "judicialDistrict": "8th Judicial District (serving Kay and Noble counties)",
+    "oscnDbKey": "kay"
+  },
+  "majorCities": [
+    "Ponca City",
+    "Blackwell",
+    "Tonkawa",
+    "Newkirk",
+    "Kaw City",
+    "Braman",
+    "Kildare"
+  ],
+  "neighboringCounties": [
+    "cowley-county-ks",
+    "sumner-county-ks",
+    "osage-county",
+    "noble-county",
+    "grant-county",
+    "garfield-county"
+  ],
+  "tribalJurisdiction": [
+    "Kaw Nation (Kanza people) - headquartered in Kaw City with jurisdictional area covering approximately 95% of Kay County",
+    "Ponca Nation (Ponca Tribe of Indians of Oklahoma) - headquartered in White Eagle near Ponca City with jurisdictional area covering parts of Kay and Noble counties",
+    "Tonkawa Tribe - headquartered at Fort Oakland complex near Tonkawa with jurisdictional area within Kay County"
+  ],
+  "majorEmployers": [
+    {
+      "name": "Phillips 66 Ponca City Refinery",
+      "street": "1000 S Pine St",
+      "city": "Ponca City",
+      "zip": "74601",
+      "employees": 594,
+      "industry": "Oil Refining",
+      "notes": "Built in 1918; one of the largest refineries in the Phillips 66 network with 2,500-acre facility and 230 MBD throughput capacity"
+    },
+    {
+      "name": "Ponca City Public Schools",
+      "street": "613 E Grand Ave",
+      "city": "Ponca City",
+      "zip": "74601",
+      "employees": 755,
+      "industry": "Education",
+      "notes": "Largest school district in Kay County serving approximately 5,000 students"
+    },
+    {
+      "name": "INTEGRIS Health Ponca City Hospital",
+      "street": "1900 N 14th St",
+      "city": "Ponca City",
+      "zip": "74601",
+      "employees": 453,
+      "industry": "Healthcare",
+      "notes": "47-bed acute care hospital serving north-central Oklahoma"
+    },
+    {
+      "name": "Northern Oklahoma College - Tonkawa Campus",
+      "street": "1220 E Grand Ave",
+      "city": "Tonkawa",
+      "zip": "74653",
+      "employees": 300,
+      "industry": "Higher Education",
+      "notes": "Public community college founded in 1901; one of three campuses with total enrollment of approximately 3,500 students"
+    },
+    {
+      "name": "Kaw Nation Enterprises",
+      "street": "698 Grandview Dr",
+      "city": "Kaw City",
+      "zip": "74641",
+      "employees": 250,
+      "industry": "Tribal Government/Casino/Gaming",
+      "notes": "Operates SouthWind Casino, Kanza Travel Plaza, Kanza Health Clinic, and other enterprises; significant economic driver for the county"
+    },
+    {
+      "name": "Tonkawa Tribe Enterprises",
+      "street": "1 Rush Buffalo Road",
+      "city": "Tonkawa",
+      "zip": "74653",
+      "employees": 200,
+      "industry": "Tribal Government/Casino/Gaming",
+      "notes": "Operates Tonkawa Indian Casino, Native Lights Casino in Newkirk, and other business enterprises"
+    },
+    {
+      "name": "Tyson Foods",
+      "street": "",
+      "city": "Ponca City",
+      "zip": "74601",
+      "employees": 700,
+      "industry": "Food Processing/Manufacturing",
+      "notes": "Major food processing facility; previously reported as one of the largest manufacturing employers in the region"
+    },
+    {
+      "name": "Smith Technologies",
+      "street": "",
+      "city": "Ponca City",
+      "zip": "74601",
+      "employees": 440,
+      "industry": "Manufacturing",
+      "notes": "Technology and manufacturing company serving oil and gas industry"
+    },
+    {
+      "name": "City of Ponca City",
+      "street": "516 E Grand Ave",
+      "city": "Ponca City",
+      "zip": "74601",
+      "employees": 384,
+      "industry": "Municipal Government",
+      "notes": "Largest city government in Kay County"
+    },
+    {
+      "name": "Ponca Nation Enterprises",
+      "street": "",
+      "city": "Ponca City",
+      "zip": "74601",
+      "employees": 150,
+      "industry": "Tribal Government",
+      "notes": "Operates tribal government services and the Ponca Casino (formerly known as Firelake Casino)"
+    }
+  ],
+  "uniqueFacts": [
+    "Kay County is the only Oklahoma county to retain its original territorial name ('K County') from the 1893 Cherokee Strip Land Run, making it the only county in the state whose name is simply a letter designation that carried forward.",
+    "The 22-foot bronze Standing Bear statue in Ponca City commemorates Chief Standing Bear's landmark 1879 court case Standing Bear v. Crook, which established that Native Americans are persons under U.S. law with the right of habeas corpus. The park features seals of six area tribes: Kaw, Osage, Otoe-Missouria, Pawnee, Ponca, and Tonkawa.",
+    "The historic Chilocco Indian Agricultural School operated in Kay County from 1884 to 1980, serving nearly 18,000 students from 126 different Native American tribes. The school's land is now jointly managed by five tribes under the Council of Confederate Chilocco Tribes.",
+    "Kay County was home to the legendary Miller Brothers 101 Ranch, one of the largest ranching operations in American history, which at its peak covered over 110,000 acres and hosted the famous 101 Ranch Wild West Show.",
+    "The county encompasses three federally recognized tribal nations - the Kaw Nation, Ponca Nation, and Tonkawa Tribe - making it one of Oklahoma's most significant areas for tribal sovereignty and governance, with a combined tribal enrollment exceeding 7,900 citizens."
+  ],
+  "processServingNotes": [
+    "Kay County's district court (8th Judicial District) is located at the Kay County Courthouse, 201 S. Main St. in Newkirk, with Court Clerk Marilee Thornton. The court clerk's office handles civil, criminal, probate, and family law filings. Process servers must coordinate with the court clerk for service-related matters.",
+    "With three tribal nations maintaining jurisdictional areas within Kay County (Kaw Nation, Ponca Nation, and Tonkawa Tribe), process servers must be aware of tribal sovereignty issues. Service on tribal lands or tribal members may require compliance with tribal court procedures. The Kaw Nation's jurisdictional area covers approximately 95% of the county east of Interstate 35.",
+    "Kay County has multiple municipal courts in addition to the district courthouse, including Ponca City Municipal Court (516 E. Grand Ave) and Blackwell Municipal Court (221 W. Padon St). Process servers should verify the correct court for municipal ordinance violations and ensure service is made within proper jurisdictional boundaries."
+  ],
+  "heroLead": "Kay County, Oklahoma - stretching across 945 square miles of rolling Red Bed Plains in north-central Oklahoma - is the only county in the state to retain its original territorial name 'K County' from the historic 1893 Cherokee Strip Land Run. Home to three sovereign tribal nations, the legendary Miller Brothers 101 Ranch, and the towering Standing Bear monument honoring the landmark Native American civil rights case, Kay County blends deep frontier heritage with modern agricultural, manufacturing, and energy economies. Whether serving legal process at the historic Newkirk courthouse, the Phillips 66 refinery in Ponca City, or anywhere across this Cherokee Outlet landscape, Just Legal Solutions delivers professional process serving throughout Kay County - reach us at (539) 367-6832 or through our contact page.",
+  "faqs": [
+    {
+      "question": "What is the county seat of Kay County, and where is the courthouse located?",
+      "answer": "The county seat of Kay County is Newkirk, located in north-central Oklahoma near the Kansas border. The historic Kay County Courthouse is situated at 201 S. Main Street in downtown Newkirk, adjacent to the town square. The courthouse was constructed in 1925-1926 in Classical Revival style with distinctive Ionic columns and is listed on the National Register of Historic Places. The Court Clerk's Office, led by Marilee Thornton, handles all district court filings and records, and can be reached at 580-362-3350."
+    },
+    {
+      "question": "Which tribal nations have jurisdictional areas within Kay County?",
+      "answer": "Three federally recognized tribal nations maintain jurisdictional areas within Kay County. The Kaw Nation (Kanza people) is headquartered in Kaw City with a jurisdictional area covering approximately 95% of the county east of Interstate 35. The Ponca Nation's jurisdictional area includes parts of Kay and Noble counties, with tribal headquarters at White Eagle near Ponca City. The Tonkawa Tribe maintains its jurisdictional area within Kay County, headquartered at the Fort Oakland complex near Tonkawa. These three tribes collectively represent over 7,900 enrolled citizens and operate casinos, health clinics, and various governmental services throughout the county."
+    },
+    {
+      "question": "What are the largest cities and communities in Kay County?",
+      "answer": "Ponca City is the largest city in Kay County with approximately 24,200 residents, serving as the county's primary economic and commercial hub. Other significant communities include Blackwell (approximately 6,700 residents), Tonkawa (approximately 3,200 residents), Newkirk (approximately 2,300 residents, county seat), Kaw City (approximately 320 residents), Braman, and Kildare. The county has a total population of approximately 43,700 based on the 2020 Census, with residents distributed across 945 square miles of north-central Oklahoma."
+    },
+    {
+      "question": "What are the major industries and employers in Kay County?",
+      "answer": "Kay County's economy is historically rooted in oil and gas, agriculture (wheat, corn, soybeans, cattle), and manufacturing. Major employers include the Phillips 66 Ponca City Refinery (approximately 594 employees), Ponca City Public Schools (approximately 755 employees), INTEGRIS Health Ponca City Hospital (approximately 453 employees), Northern Oklahoma College (approximately 300 employees across its campuses), and tribal enterprises including the Kaw Nation and Tonkawa Tribe casino operations. The county has a strong manufacturing base, with food processing, fabricated metal products, and machinery manufacturing representing significant employment sectors. For professional process serving assistance in Kay County, contact Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "What is the significance of the Standing Bear statue and park in Ponca City?",
+      "answer": "Standing Bear Park, Museum & Education Center in Ponca City features a striking 22-foot bronze statue of Ponca Chief Standing Bear, created by Cowboy Artist of America Oreland C. Joe. The statue commemorates Standing Bear's landmark 1879 court victory in Standing Bear v. Crook, which established for the first time that Native Americans are persons under the Fourteenth Amendment with the right to sue for their rights. The park includes a 60-foot diameter circular viewing court with bronze medallions of six area tribes - Kaw, Osage, Otoe-Missouria, Pawnee, Ponca, and Tonkawa. The museum is open Monday-Friday 9am-4pm and Saturday 10am-2pm, located at 601 Standing Bear Parkway."
+    },
+    {
+      "question": "What judicial district serves Kay County, and what types of cases does the district court handle?",
+      "answer": "Kay County is served by the 8th Judicial District of Oklahoma, which also includes Noble County. The Kay County District Court is located at the Kay County Courthouse, 201 S. Main St. in Newkirk, with office hours Monday-Friday from 8:00 a.m. to 4:30 p.m. The district court has general jurisdiction over civil cases, criminal matters, family law (divorce, custody, child support), probate, guardianship, juvenile proceedings, and small claims up to $10,000. The Court Clerk's Office maintains all court records and can be reached at 580-362-3350. Kay County also has municipal courts in Ponca City and Blackwell for ordinance violations and traffic matters."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

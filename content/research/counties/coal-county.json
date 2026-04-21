@@ -1,0 +1,118 @@
+{
+  "slug": "coal-county",
+  "countyName": "Coal County",
+  "countySeat": "Coalgate",
+  "population": 5414,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "Coal County Courthouse",
+    "street": "4 N. Main St",
+    "city": "Coalgate",
+    "state": "OK",
+    "zip": "74538",
+    "phone": "580-927-2281",
+    "hours": "Monday-Friday 8:00 AM - 4:00 PM",
+    "judicialDistrict": "25th Judicial District (Atoka and Coal Counties)",
+    "oscnDbKey": "coal"
+  },
+  "majorCities": [
+    "Coalgate",
+    "Tupelo",
+    "Lehigh",
+    "Phillips",
+    "Centrahoma",
+    "Bromide",
+    "Clarita"
+  ],
+  "neighboringCounties": [
+    "hughes-county",
+    "pittsburg-county",
+    "atoka-county",
+    "johnston-county",
+    "pontotoc-county"
+  ],
+  "tribalJurisdiction": [
+    "Choctaw Nation of Oklahoma",
+    "Chickasaw Nation"
+  ],
+  "majorEmployers": [
+    {
+      "name": "Coal County General Hospital",
+      "street": "6 N Covington St",
+      "city": "Coalgate",
+      "zip": "74538",
+      "employees": 152,
+      "industry": "Healthcare",
+      "notes": "Critical access hospital serving Coal County since 1948"
+    },
+    {
+      "name": "Coalgate Public Schools",
+      "street": "2 W Cedar Ave",
+      "city": "Coalgate",
+      "zip": "74538",
+      "employees": 100,
+      "industry": "Education",
+      "notes": "Independent school district, largest employer in education sector"
+    },
+    {
+      "name": "Choctaw Nation of Oklahoma",
+      "street": "103 E California Ave",
+      "city": "Coalgate",
+      "zip": "74538",
+      "employees": 0,
+      "industry": "Tribal Government",
+      "notes": "Operates field office, recycling, and various tribal services in Coal County"
+    },
+    {
+      "name": "First National Bank of Coalgate",
+      "street": "",
+      "city": "Coalgate",
+      "zip": "74538",
+      "employees": 16,
+      "industry": "Financial Services",
+      "notes": "Community bank serving Coal County"
+    }
+  ],
+  "uniqueFacts": [
+    "Coal County was originally called 'Tobucksy,' the Choctaw word for coal, because of vast coal deposits beneath the area.",
+    "The county seat was initially Lehigh when Oklahoma became a state in 1907, but a disputed special election in 1908 moved it to Coalgate, with more votes cast than registered voters.",
+    "The first commercial coal mine opened in 1875 on land owned by Choctaw Chief Allen Wright, and mining peaked between 1910 and 1916 with thousands of workers daily.",
+    "In 1978, Amish families from Ohio, Iowa, Missouri, Montana, and Canada moved into the Clarita-Bromide area, establishing dairy farms and buggy shops without electricity.",
+    "A boll weevil infestation in 1921-1923 destroyed the cotton crop, causing all five banks in the county to fail."
+  ],
+  "processServingNotes": [
+    "Coal County is served by the 25th Judicial District along with Atoka County; the District Judge is Paula Inge and Associate District Judge is D. Clay Mowdy.",
+    "Because Coal County falls within both Choctaw Nation and Chickasaw Nation reservation boundaries, process serving on tribal members or tribal land requires compliance with tribal court procedures.",
+    "The courthouse is located at 4 N. Main St in Coalgate; Court Clerk LaDonna Flowers can be reached at 580-927-2281 for filing questions."
+  ],
+  "heroLead": "Coal County, nestled in southeastern Oklahoma's Choctaw Country, carries a rich heritage shaped by coal mining since the 1870s and a resilient agricultural economy. From the historic courthouse in Coalgate to the Amish communities of Clarita-Bromide, the county blends industrial history with rural charm. Whether you need legal documents served at the courthouse, a business in Coalgate, or a rural residence in Lehigh, Just Legal Solutions has you covered. Call (539) 367-6832 or visit /contact to get started.",
+  "faqs": [
+    {
+      "question": "Where is the Coal County Courthouse located and what are its hours?",
+      "answer": "The Coal County Courthouse is located at 4 N. Main St, Coalgate, OK 74538. The courthouse is open Monday through Friday from 8:00 AM to 4:00 PM. The Court Clerk's office can be reached at 580-927-2281. For process serving assistance in Coal County, call Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "What judicial district is Coal County in and who are the judges?",
+      "answer": "Coal County is part of Oklahoma's 25th Judicial District, which it shares with Atoka County. The District Judge is Paula Inge, and the Associate District Judge for Coal County is D. Clay Mowdy, who owns a ranch in Coalgate. The district court handles civil, criminal, probate, juvenile, domestic relations, and small claims matters."
+    },
+    {
+      "question": "Does tribal jurisdiction affect process serving in Coal County?",
+      "answer": "Yes. Most of Coal County lies within the Choctaw Nation reservation, and a western 3.5-mile strip is within Chickasaw Nation territory. Under the McGirt v. Oklahoma ruling, serving process on tribal members within these reservation boundaries may require coordination with tribal courts. The Choctaw Nation maintains a field office at 103 E California Ave in Coalgate. Call (539) 367-6832 for help navigating tribal jurisdiction issues."
+    },
+    {
+      "question": "What is the history behind Coal County's name?",
+      "answer": "Coal County was named for the extensive coal deposits found throughout the area. The Choctaw word for coal was 'tobucksy,' which was the area's original name. Commercial coal mining began in 1875, and by 1901, thirty-nine companies employed over 4,000 workers in the region. Mining remained the dominant industry until the 1920s."
+    },
+    {
+      "question": "What are the major towns and communities in Coal County?",
+      "answer": "Coal County has seven incorporated communities: Coalgate (the county seat), Tupelo, Lehigh, Phillips, Centrahoma, Bromide, and Clarita. Coalgate is the largest with approximately 1,700 residents. The county also has several ghost towns including Cairo, Cottonwood, Globe, Hardwood, Midway, Olney, and Parker, remnants of the coal mining era."
+    },
+    {
+      "question": "Who are the largest employers in Coal County?",
+      "answer": "The largest employers in Coal County are Coal County General Hospital (6 N Covington St, Coalgate) with approximately 152 employees, Coalgate Public Schools (2 W Cedar Ave) with about 100 employees, the Choctaw Nation of Oklahoma which operates a field office and services in the county, and First National Bank of Coalgate. Agriculture, particularly cattle ranching, also remains an important part of the local economy. For business-related process serving, contact Just Legal Solutions at (539) 367-6832."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

@@ -1,0 +1,127 @@
+{
+  "slug": "delaware-county",
+  "countyName": "Delaware County",
+  "countySeat": "Jay",
+  "population": 41017,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "Delaware County Courthouse",
+    "street": "327 S 5th St",
+    "city": "Jay",
+    "state": "OK",
+    "zip": "74346",
+    "phone": "918-253-4420",
+    "hours": "Monday-Friday 8:00 AM - 4:30 PM",
+    "judicialDistrict": "13",
+    "oscnDbKey": "delaware"
+  },
+  "majorCities": [
+    "Grove",
+    "Jay",
+    "West Siloam Springs",
+    "Colcord",
+    "Kansas",
+    "Bernice",
+    "Oaks"
+  ],
+  "neighboringCounties": [
+    "ottawa-county",
+    "adair-county",
+    "cherokee-county",
+    "mayes-county",
+    "craig-county"
+  ],
+  "tribalJurisdiction": [
+    "Cherokee Nation",
+    "Delaware Tribe of Indians"
+  ],
+  "majorEmployers": [
+    {
+      "name": "INTEGRIS Grove Hospital",
+      "street": "1001 E. 18th St",
+      "city": "Grove",
+      "zip": "74344",
+      "employees": 200,
+      "industry": "Healthcare",
+      "notes": "Level IV trauma center. Part of Oklahoma's largest not-for-profit health care system."
+    },
+    {
+      "name": "Cherokee Casino Grove",
+      "street": "24979 US-59",
+      "city": "Grove",
+      "zip": "74344",
+      "employees": 175,
+      "industry": "Gaming and Hospitality",
+      "notes": "Cherokee Nation's 10th gaming facility, opened in 2017."
+    },
+    {
+      "name": "Grove Public Schools",
+      "street": "310 S Broadway",
+      "city": "Grove",
+      "zip": "74344",
+      "employees": 250,
+      "industry": "Education",
+      "notes": "Pre-K through 12th grade district serving the largest city in the county."
+    },
+    {
+      "name": "Jay Public Schools",
+      "street": "821 N Main St",
+      "city": "Jay",
+      "zip": "74346",
+      "employees": 269,
+      "industry": "Education",
+      "notes": "Pre-K through 12th grade district serving the county seat."
+    },
+    {
+      "name": "Northeast Technology Center - Grand Lake",
+      "street": "8705 US Hwy 59 N",
+      "city": "Grove",
+      "zip": "74344",
+      "employees": 50,
+      "industry": "Career and Technical Education",
+      "notes": "Business and Industry Services office opened in 2024. Part of a five-campus district serving northeastern Oklahoma."
+    }
+  ],
+  "uniqueFacts": [
+    "Delaware County was originally designated as the Delaware District of the Cherokee Nation, and the Cherokee Nation still recognizes it as the Delaware District today.",
+    "The county seat was the subject of a bitter dispute at statehood. Grove was initially named the seat as the only incorporated town, but residents founded the town of Jay in a more central location. After an election, court battle, and even a mysterious courthouse fire, Jay became the permanent county seat in 1912.",
+    "Grand Lake o' the Cherokees, which sprawls across northern Delaware County, was created in 1940 by the completion of Pensacola Dam, the longest multiple-arch dam in the world. The lake has 46,500 surface acres and 1,300 miles of shoreline.",
+    "Delaware County sits on the western slopes of the Ozark Plateau and has no major oil, gas, or mineral resources, but its abundant water supplies and lakes have made tourism and retirement a major economic driver.",
+    "Together with Ottawa County, Delaware County forms the third-largest tourism destination in Oklahoma, behind only the Oklahoma City and Tulsa metropolitan areas."
+  ],
+  "processServingNotes": [
+    "Delaware County is part of the 13th Judicial District, which also includes Ottawa County. Process served in this district must follow Oklahoma District Court rules.",
+    "A significant portion of the county falls within Cherokee Nation tribal jurisdiction. When serving process on tribal members or tribal trust lands, special rules regarding tribal court jurisdiction may apply.",
+    "The county's large number of lake communities and seasonal residents around Grand Lake o' the Cherokees can present challenges for service of process, particularly during off-peak seasons when properties may be vacant."
+  ],
+  "heroLead": "Nestled in the Ozark foothills of northeastern Oklahoma, Delaware County is home to Grand Lake o' the Cherokees, one of the state's premier recreation destinations, and the historic county seat of Jay, where the Delaware County Courthouse anchors a community rich in Cherokee and Delaware tribal heritage. For reliable process serving throughout Delaware County's lake communities and towns, contact Just Legal Solutions at (539) 367-6832 or visit /contact.",
+  "faqs": [
+    {
+      "question": "Where is the Delaware County Courthouse located?",
+      "answer": "The Delaware County Courthouse is located at 327 S 5th Street in Jay, Oklahoma 74346. The Court Clerk's office can be reached at 918-253-4420 and is open Monday through Friday from 8:00 AM to 4:30 PM. For process serving needs in Delaware County, contact Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "What judicial district is Delaware County in?",
+      "answer": "Delaware County is part of Oklahoma's 13th Judicial District, which also includes Ottawa County. The district court handles civil, criminal, probate, juvenile, domestic relations, and small claims matters."
+    },
+    {
+      "question": "Does Cherokee Nation jurisdiction affect legal proceedings in Delaware County?",
+      "answer": "Yes. Delaware County was historically the Delaware District of the Cherokee Nation, and today the entire county falls within the Cherokee Nation reservation. When serving process on tribal members or on tribal trust lands, special rules regarding tribal court jurisdiction may apply. It is important to verify whether a party is a tribal member or whether land is held in trust before proceeding."
+    },
+    {
+      "question": "What are the major cities and towns in Delaware County?",
+      "answer": "The largest city in Delaware County is Grove, which sits on the shores of Grand Lake o' the Cherokees and has approximately 7,300 residents. The county seat is Jay with about 2,450 residents. Other incorporated towns include West Siloam Springs, Colcord, Kansas, Bernice, and Oaks."
+    },
+    {
+      "question": "Are there special considerations for serving process at Grand Lake?",
+      "answer": "Grand Lake o' the Cherokees draws many seasonal residents and vacation property owners. Serving process at lake properties can be challenging during off-peak seasons when homes may be vacant. Process servers should verify occupancy before attempting service and may need to make multiple attempts during peak visitation periods. For assistance with process serving at Grand Lake or anywhere in Delaware County, call (539) 367-6832."
+    },
+    {
+      "question": "When was Delaware County founded and why is it named Delaware?",
+      "answer": "Delaware County was created at Oklahoma statehood in November 1907. It is named for the Delaware Indians (Lenape people), who established Delaware Town in the area around 1820 after allying with the Cherokee against the Osage. The area was known as the Delaware District of the Cherokee Nation prior to statehood. The Cherokee Nation still recognizes this area as the Delaware District today."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

@@ -1,0 +1,185 @@
+{
+  "slug": "leflore-county",
+  "countyName": "LeFlore County",
+  "countySeat": "Poteau",
+  "population": 49854,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "LeFlore County Courthouse",
+    "street": "100 S. Broadway",
+    "city": "Poteau",
+    "state": "OK",
+    "zip": "74953",
+    "phone": "(918) 647-3181",
+    "hours": "Monday - Friday 8:00 a.m. to 4:30 p.m.",
+    "judicialDistrict": "16th Judicial District",
+    "oscnDbKey": "leflore"
+  },
+  "majorCities": [
+    "Poteau",
+    "Heavener",
+    "Spiro",
+    "Wister",
+    "Pocola",
+    "Talihina",
+    "Panama",
+    "Howe",
+    "Arkoma",
+    "Bokoshe",
+    "Cameron",
+    "Fanshawe",
+    "Fort Coffee",
+    "Hodgen",
+    "Leflore",
+    "Monroe",
+    "Shady Point",
+    "Whitesboro"
+  ],
+  "neighboringCounties": [
+    "sequoyah-county",
+    "haskell-county",
+    "latimer-county",
+    "pushmataha-county",
+    "mccurtain-county",
+    "sebastian-county-ar",
+    "scott-county-ar",
+    "polk-county-ar"
+  ],
+  "tribalJurisdiction": [
+    "Choctaw Nation of Oklahoma"
+  ],
+  "majorEmployers": [
+    {
+      "name": "Eastern Oklahoma Medical Center",
+      "street": "105 S Wall St",
+      "city": "Poteau",
+      "zip": "74953",
+      "employees": 300,
+      "industry": "Healthcare",
+      "notes": "County hospital serving LeFlore County since 1950"
+    },
+    {
+      "name": "Choctaw Nation of Oklahoma",
+      "street": "4105 N Broadway",
+      "city": "Poteau",
+      "zip": "74953",
+      "employees": 500,
+      "industry": "Government/Tribal/Gaming",
+      "notes": "Tribal government operates Casino Too location, travel plaza, and various services in Poteau"
+    },
+    {
+      "name": "Carl Albert State College",
+      "street": "1507 S McKenna",
+      "city": "Poteau",
+      "zip": "74953",
+      "employees": 250,
+      "industry": "Education",
+      "notes": "Two-year public college with approximately 1,900 students enrolled"
+    },
+    {
+      "name": "OK Foods (Bachoco)",
+      "street": "1010 S Highway 59",
+      "city": "Heavener",
+      "zip": "74937",
+      "employees": 700,
+      "industry": "Food Processing",
+      "notes": "Poultry processing plant subsidiary of Industrias Bachoco; one of largest employers in the county"
+    },
+    {
+      "name": "Poteau Public Schools",
+      "street": "200 S McKenna",
+      "city": "Poteau",
+      "zip": "74953",
+      "employees": 261,
+      "industry": "Education",
+      "notes": "School district serving Poteau area with multiple school sites"
+    },
+    {
+      "name": "LeFlore County Government",
+      "street": "100 S Broadway",
+      "city": "Poteau",
+      "zip": "74953",
+      "employees": 200,
+      "industry": "Government",
+      "notes": "County government offices including courthouse, sheriff, and county clerk"
+    },
+    {
+      "name": "Rheem Manufacturing",
+      "street": "2100 Rheem Blvd",
+      "city": "Poteau",
+      "zip": "74953",
+      "employees": 400,
+      "industry": "Manufacturing",
+      "notes": "HVAC and water heating equipment manufacturer"
+    },
+    {
+      "name": "Baldor Electric Company",
+      "street": "100 N Broadway",
+      "city": "Poteau",
+      "zip": "74953",
+      "employees": 300,
+      "industry": "Manufacturing",
+      "notes": "Electric motor manufacturer and subsidiary of ABB"
+    },
+    {
+      "name": "Walmart Supercenter",
+      "street": "4501 N Broadway",
+      "city": "Poteau",
+      "zip": "74953",
+      "employees": 200,
+      "industry": "Retail",
+      "notes": "Major retail employer in Poteau"
+    },
+    {
+      "name": "LeFlore County Youth Services",
+      "street": "",
+      "city": "Poteau",
+      "zip": "74953",
+      "employees": 50,
+      "industry": "Social Services",
+      "notes": "Youth services organization receiving state HHS funding"
+    }
+  ],
+  "uniqueFacts": [
+    "LeFlore County is home to Cavanal Hill, known as the 'World's Highest Hill' at 1,999 feet — just one foot short of official mountain status",
+    "The Spiro Mounds Archaeological State Park, located near Spiro, is one of the most important Mississippian Culture sites in the United States and is listed on the National Register of Historic Places",
+    "The county contains the Talimena Scenic Byway (Oklahoma State Highway 1), which was designated a scenic byway in 1989 and showcases stunning fall foliage in the Ouachita Mountains",
+    "Heavener Runestone State Park features a large stone with mysterious carvings that some believe may be evidence of pre-Columbian European exploration",
+    "The Ouachita National Forest covers much of the southern portion of the county, providing extensive outdoor recreation opportunities including hiking, camping, and wildlife observation"
+  ],
+  "processServingNotes": [
+    "LeFlore County is within the Choctaw Nation reservation boundaries; process servers should be aware of potential tribal jurisdiction considerations when serving papers involving tribal members or on tribal trust land",
+    "The county courthouse is located at 100 S. Broadway in Poteau, with Court Clerk office hours Monday through Friday from 8:00 a.m. to 4:30 p.m.",
+    "LeFlore County is part of the 16th Judicial District alongside Haskell and Latimer counties; district court filings may be processed at the Poteau courthouse"
+  ],
+  "heroLead": "LeFlore County sits in southeastern Oklahoma where the Ouachita Mountains meet the Arkansas River, encompassing 1,609 square miles of scenic terrain including the Talimena Scenic Byway and Cavanal Hill, the 'World's Highest Hill.' The county honors the LeFlore family of the Choctaw Nation and serves as a hub for outdoor recreation, poultry processing, and education anchored by Carl Albert State College in Poteau. For professional process serving throughout LeFlore County, contact Just Legal Solutions at (539) 367-6832 or visit our website to /contact.",
+  "faqs": [
+    {
+      "question": "Where is the LeFlore County Courthouse located and what are its hours?",
+      "answer": "The LeFlore County Courthouse is located at 100 S. Broadway in Poteau, Oklahoma 74953. The Court Clerk's office is open Monday through Friday from 8:00 a.m. to 4:30 p.m. and can be reached at (918) 647-3181. For process serving assistance in LeFlore County, contact Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "What tribal jurisdiction covers LeFlore County?",
+      "answer": "LeFlore County is located within the boundaries of the Choctaw Nation of Oklahoma reservation. The Choctaw Nation is the third-largest federally recognized tribe in the United States with over 208,000 tribal members. The Nation operates casinos, businesses, and government services throughout the county, particularly in Poteau and Heavener."
+    },
+    {
+      "question": "What are the major industries in LeFlore County?",
+      "answer": "The major industries in LeFlore County include healthcare (Eastern Oklahoma Medical Center), education (Carl Albert State College and Poteau Public Schools), poultry processing (OK Foods/Bachoco in Heavener), manufacturing (Rheem and Baldor Electric), and tribal government operations through the Choctaw Nation. Tourism also contributes significantly through the Ouachita National Forest, Talimena Scenic Byway, and Lake Wister. Contact Just Legal Solutions at (539) 367-6832 for business-related process serving needs."
+    },
+    {
+      "question": "What cities and towns are in LeFlore County?",
+      "answer": "LeFlore County has 18 incorporated communities including Poteau (county seat), Heavener, Spiro, Wister, Pocola, Talihina, Panama, Howe, Arkoma, Bokoshe, Cameron, Fanshawe, Fort Coffee, Hodgen, Leflore, Monroe, Shady Point, and Whitesboro. The county covers 1,609 square miles in southeastern Oklahoma along the Arkansas border."
+    },
+    {
+      "question": "How do I access court records in LeFlore County?",
+      "answer": "Court records for LeFlore County can be accessed through the Oklahoma State Courts Network (OSCN) online at oscn.net, which provides free case searches by party name or case number. For certified copies or in-person record inspection, visit the Court Clerk's office at the LeFlore County Courthouse, 100 S. Broadway, Poteau, OK 74953. The office is open Monday-Friday, 8:00 a.m. to 4:30 p.m. For assistance with court-related process serving, contact Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "What is the population and history of LeFlore County?",
+      "answer": "LeFlore County had a population of 48,129 at the 2020 census and an estimated 49,854 in 2024. The county was organized in 1907 at Oklahoma statehood and is named for the prominent LeFlore family of the Choctaw Nation. Before statehood, the area was part of the Choctaw Nation's Moshulatubbee and Apukshunnubbee districts. The county encompasses 1,609 square miles of mountainous terrain in the Ouachita Mountains region."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

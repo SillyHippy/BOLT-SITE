@@ -40,28 +40,28 @@ const breadcrumbItems = [
 
 const creekCountyFAQs = [
   {
-    question: "How much does a process server cost in Creek County?",
-    answer: "We offer competitive rates for Creek County process serving with standard, rush, and same-day emergency service available throughout all cities including Sapulpa, Bristow, Kellyville. Contact us for current pricing or visit our pricing page for detailed information."
+    question: 'How much does it cost to serve papers in Creek County?',
+    answer: 'Standard, rush, and same-day tiers are available for Creek County service. We do not post fixed rates here because distance from Glenpool and the number of required attempts affect the final quote. See current rates on our pricing page, or call (539) 367-6832 for a fast estimate that includes travel to Sapulpa, Bristow, or Drumright.'
   },
   {
-    question: "Which cities in Creek County do you serve?",
-    answer: "We serve all cities and towns in Creek County including Sapulpa, Bristow, Kellyville, plus all unincorporated areas within the county boundaries."
+    question: 'How fast can you serve papers in Creek County?',
+    answer: 'Standard service in Creek County typically completes within 3 to 5 business days. Rush service narrows that to 1 to 2 business days. Same-day service is usually 4 to 8 hours depending on whether the target is in Sapulpa proper or in outlying areas like Mannford or Kellyville. We account for the fact that many Creek County residents work in Tulsa, so evening and weekend attempts are standard.'
   },
   {
-    question: "Where do you file court documents in Creek County?",
-    answer: "Court documents are filed at the Creek County Courthouse located at 222 E. Dewey St., Sapulpa, OK 74066. Phone: (918) 227-2525."
+    question: 'Where do I file proof of service in Creek County?',
+    answer: 'District court cases are filed at the Creek County Courthouse, 222 E Dewey St in Sapulpa, open Monday through Friday from 8:00 AM to 5:00 PM. The Court Clerk also maintains a branch office in Bristow at 110 W 7th St for cases filed there. We can file your affidavit of service at either location and provide GPS-stamped proof for every attempt.'
   },
   {
-    question: "How long does service take in Creek County?",
-    answer: "Standard service takes 3-5 business days anywhere in Creek County. Rush service is completed within 24 hours, and same-day emergency service is available for urgent situations."
+    question: 'What makes process serving difficult in rural Creek County?',
+    answer: 'The western half of Creek County, from Oilton through Drumright to the Lincoln County line, is sparsely populated ranch and oil field land. Rural addressing can be inconsistent, and some roads near Heyburn Lake or the Cimarron River bottom are unpaved. We use GIS mapping and local landmarks to locate defendants in these areas, and we plan routes to handle the distance between Bristow and Drumright efficiently.'
   },
   {
-    question: "Are you licensed to serve process throughout Creek County?",
-    answer: "Yes, we are fully licensed, bonded, and insured process servers registered with the Creek County Clerk. We maintain all required bonds and certifications for county-wide service."
+    question: 'How is Creek County different from Tulsa County for process serving?',
+    answer: 'Tulsa County is dense and urban, with most serves concentrated in Tulsa, Broken Arrow, and Bixby. Creek County is more spread out across 970 square miles, covering everything from Sapulpa suburban neighborhoods to the ranchland west of Bristow. Service in Creek County often requires more driving between attempts, and we factor in the commute patterns of residents who work east in Tulsa but live as far west as Mannford or Kiefer.'
   },
   {
-    question: "Can you serve papers in rural areas of Creek County?",
-    answer: "Yes, we serve legal documents in all areas of Creek County including rural and unincorporated areas outside city limits with the same professional standards and pricing."
+    question: 'Are you licensed to serve papers in Creek County?',
+    answer: 'Yes. Just Legal Solutions is licensed and bonded under 12 O.S. section 158.1 to serve legal documents anywhere in Oklahoma, including all of Creek County. Every service attempt is GPS-tracked, photographed, and backed by a notarized affidavit. To schedule service in Sapulpa, Bristow, or anywhere in Creek County, call (539) 367-6832 or submit documents through our contact page.'
   }
 ];
 

@@ -1,0 +1,128 @@
+{
+  "slug": "beckham-county",
+  "countyName": "Beckham County",
+  "countySeat": "Sayre",
+  "population": 22186,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "Beckham County Courthouse",
+    "street": "104 S 3rd St",
+    "city": "Sayre",
+    "state": "OK",
+    "zip": "73662",
+    "phone": "580-928-3330",
+    "hours": "Mon-Fri 8:00 AM - 4:00 PM",
+    "judicialDistrict": "2nd Judicial District",
+    "oscnDbKey": "BECKHAM"
+  },
+  "majorCities": [
+    "Elk City",
+    "Sayre",
+    "Erick",
+    "Carter",
+    "Texola",
+    "Sweetwater"
+  ],
+  "neighboringCounties": [
+    "roger-mills-county",
+    "custer-county",
+    "washita-county",
+    "kiowa-county",
+    "greer-county",
+    "harmon-county",
+    "collingsworth-county-tx",
+    "wheeler-county-tx"
+  ],
+  "tribalJurisdiction": [
+    "Cheyenne and Arapaho Tribes"
+  ],
+  "majorEmployers": [
+    {
+      "name": "Great Plains Regional Medical Center",
+      "street": "1801 W 3rd St",
+      "city": "Elk City",
+      "zip": "73644",
+      "employees": 410,
+      "industry": "Healthcare",
+      "notes": "Largest employer in Elk City and Beckham County; 62-bed full-service hospital"
+    },
+    {
+      "name": "Elk City Public Schools",
+      "street": "300 N Boone Ave",
+      "city": "Elk City",
+      "zip": "73644",
+      "employees": 221,
+      "industry": "Education",
+      "notes": "Serves pre-kindergarten through high school"
+    },
+    {
+      "name": "Beckham County Government",
+      "street": "104 S 3rd St",
+      "city": "Sayre",
+      "zip": "73662",
+      "employees": 150,
+      "industry": "Government",
+      "notes": "County seat operations including court clerk, assessor, treasurer"
+    },
+    {
+      "name": "City of Elk City",
+      "street": "",
+      "city": "Elk City",
+      "zip": "73644",
+      "employees": 130,
+      "industry": "Government",
+      "notes": "Municipal government operations"
+    },
+    {
+      "name": "Walmart Supercenter",
+      "street": "210 Regional Dr",
+      "city": "Elk City",
+      "zip": "73644",
+      "employees": 200,
+      "industry": "Retail",
+      "notes": "Major retail employer in the county"
+    }
+  ],
+  "uniqueFacts": [
+    "The Beckham County Courthouse was featured in the 1940 film The Grapes of Wrath starring Henry Fonda; it stood in as the Oklahoma State Capitol because the real capitol did not have a dome at the time",
+    "The courthouse is one of only a few Oklahoma county courthouses with a large dome, topped by a smaller replica dome supported by twelve Doric columns each",
+    "Added to the National Register of Historic Places on August 23, 1984, the courthouse was built in 1911 and is the tallest building in Sayre",
+    "Beckham County was created on July 16, 1907 from the northern portion of Greer County and the southern portion of Roger Mills County when Oklahoma achieved statehood",
+    "The county sits on the historic U.S. Route 66 corridor, and Sayre was viewed by Dust Bowl-era travelers as the beginning of the American West"
+  ],
+  "processServingNotes": [
+    "Beckham County is within the 2nd Judicial District which also covers Custer, Ellis, Roger Mills, and Washita counties; process servers should be familiar with district-wide procedures",
+    "The Cheyenne and Arapaho Tribes maintain tribal jurisdiction throughout Beckham County; service of process involving tribal members on trust land may require coordination with tribal court",
+    "The courthouse maintains office hours Monday through Friday 8:00 AM to 4:00 PM with the court clerk's office open through lunch; filings and service returns should be coordinated during these hours"
+  ],
+  "heroLead": "Located in southwestern Oklahoma along the Texas border and historic Route 66, Beckham County blends rich Western heritage with a diversified economy anchored by healthcare, energy, and agriculture. Its stunning domed courthouse in Sayre, featured in The Grapes of Wrath, serves as the legal heart of a county where the Cheyenne and Arapaho Tribes share jurisdictional authority. For reliable process serving throughout Beckham County, call (539) 367-6832 or visit our Contact page.",
+  "faqs": [
+    {
+      "question": "Where is the Beckham County Courthouse located and what are its hours?",
+      "answer": "The Beckham County Courthouse is located at 104 S 3rd St in Sayre, Oklahoma 73662. The courthouse is open Monday through Friday from 8:00 AM to 4:00 PM, including through the lunch hour. The court clerk's office can be reached at 580-928-3330 for questions about filings and service of process."
+    },
+    {
+      "question": "What judicial district is Beckham County in and which counties does it include?",
+      "answer": "Beckham County is in Oklahoma's 2nd Judicial District. The district encompasses Beckham, Custer, Ellis, Roger Mills, and Washita counties. For process serving assistance throughout this district, call Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "Does tribal jurisdiction affect process serving in Beckham County?",
+      "answer": "Yes, the Cheyenne and Arapaho Tribes maintain tribal jurisdiction throughout Beckham County. The tribe's jurisdictional area includes Beckham and ten other western Oklahoma counties. Service of process involving tribal members on trust land may require coordination with the Cheyenne and Arapaho Tribal Court headquartered in Concho, Oklahoma. The tribe maintains cross-jurisdictional agreements with county and state authorities."
+    },
+    {
+      "question": "What are the largest cities in Beckham County where service of process is commonly needed?",
+      "answer": "The largest city is Elk City with approximately 11,400 residents, followed by Sayre with about 5,200 residents (the county seat), Erick with roughly 1,000 residents, Carter, Texola, and Sweetwater. The majority of service requests in Beckham County originate in Elk City and Sayre due to their larger populations and concentration of businesses."
+    },
+    {
+      "question": "What industries drive the economy in Beckham County?",
+      "answer": "Historically agriculture and livestock formed the backbone of Beckham County's economy, with cotton, wheat, and cattle production leading the way. Today the economy is diversified with healthcare (Great Plains Regional Medical Center is the largest employer), oil and gas extraction, retail trade, and education as the largest employment sectors. The county has experienced oil and gas booms since the 1920s, and energy production remains significant."
+    },
+    {
+      "question": "Is the Beckham County Courthouse historically significant?",
+      "answer": "Absolutely. The courthouse was built in 1911 and added to the National Register of Historic Places in 1984. It is famous for its distinctive domed architecture and its appearance in John Steinbeck's The Grapes of Wrath film. The courthouse stands as a landmark along historic Route 66 and remains a fully operational center of legal activity. Its unique double-dome design makes it one of Oklahoma's most architecturally significant courthouses. For service of process in this historic jurisdiction, contact Just Legal Solutions at (539) 367-6832."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

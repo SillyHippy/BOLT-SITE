@@ -1,0 +1,149 @@
+{
+  "slug": "carter-county",
+  "countyName": "Carter County",
+  "countySeat": "Ardmore",
+  "population": 49135,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "Carter County Courthouse",
+    "street": "20 \"B\" St SW",
+    "city": "Ardmore",
+    "state": "OK",
+    "zip": "73401",
+    "phone": "(580) 223-5253",
+    "hours": "8:30am - 4:30pm Monday-Friday",
+    "judicialDistrict": "20th Judicial District",
+    "oscnDbKey": "carter"
+  },
+  "majorCities": [
+    "Ardmore",
+    "Healdton",
+    "Lone Grove",
+    "Wilson",
+    "Dickson",
+    "Gene Autry",
+    "Ratliff City",
+    "Springer",
+    "Tatums",
+    "Fox"
+  ],
+  "neighboringCounties": [
+    "garvin-county",
+    "murray-county",
+    "johnston-county",
+    "marshall-county",
+    "love-county",
+    "jefferson-county",
+    "stephens-county"
+  ],
+  "tribalJurisdiction": [
+    "Chickasaw Nation"
+  ],
+  "majorEmployers": [
+    {
+      "name": "Mercy Hospital Ardmore",
+      "street": "1011 14th Avenue NW",
+      "city": "Ardmore",
+      "zip": "73401",
+      "employees": 1100,
+      "industry": "Healthcare",
+      "notes": "Largest employer in the region, full-service tertiary hospital with 190 licensed beds"
+    },
+    {
+      "name": "Michelin North America",
+      "street": "",
+      "city": "Ardmore",
+      "zip": "73401",
+      "employees": 1400,
+      "industry": "Manufacturing",
+      "notes": "Tire manufacturing plant; winding down tire production operations through 2025, rubber-mixing operations to continue"
+    },
+    {
+      "name": "Valero Energy Corporation",
+      "street": "",
+      "city": "Ardmore",
+      "zip": "73401",
+      "employees": 270,
+      "industry": "Energy/Oil Refining",
+      "notes": "Refinery processing 90,000 barrels per day of sweet and sour crude oil"
+    },
+    {
+      "name": "Samuel Roberts Noble Foundation",
+      "street": "2510 Sam Noble Parkway",
+      "city": "Ardmore",
+      "zip": "73401",
+      "employees": 160,
+      "industry": "Agricultural Research",
+      "notes": "Private foundation engaged in agricultural and plant biology research, among the nation's 50 largest private foundations"
+    },
+    {
+      "name": "Southern Oklahoma Technology Center",
+      "street": "2610 Sam Noble Parkway",
+      "city": "Ardmore",
+      "zip": "73401",
+      "employees": 150,
+      "industry": "Education/Technical Training",
+      "notes": "Career and technical education center serving high school and adult students"
+    },
+    {
+      "name": "Chickasaw Nation",
+      "street": "",
+      "city": "Ardmore",
+      "zip": "73401",
+      "employees": 500,
+      "industry": "Tribal Government/Gaming",
+      "notes": "Operates Black Gold Casino, Lakecrest Hotel and Casino, and various healthcare and community services in the area"
+    },
+    {
+      "name": "City of Ardmore",
+      "street": "23 S Washington St",
+      "city": "Ardmore",
+      "zip": "73401",
+      "employees": 270,
+      "industry": "Municipal Government",
+      "notes": "City administration and public services"
+    }
+  ],
+  "uniqueFacts": [
+    "Carter County was named for Captain Ben W. Carter, a Cherokee who lived among the Chickasaw, and was created at 1907 statehood from lands of the Chickasaw Nation's Pickens County.",
+    "The discovery of the Healdton Oil Field in 1913 made Carter County the largest oil-producing county in Oklahoma, a status it has maintained for over a century.",
+    "Lake Murray State Park, straddling the Carter-Love county line, is Oklahoma's oldest and largest state park at over 12,500 acres, and was the first Oklahoma state park listed on the National Register of Historic Places.",
+    "On September 27, 1915, a railroad tank car containing natural gasoline exploded in Ardmore, killing 43 people and destroying much of downtown Ardmore, leading to the creation of the city's first fire department.",
+    "The county seat of Ardmore is located almost exactly halfway between Oklahoma City and Dallas-Fort Worth on Interstate 35, serving as the regional hub for a 13-county area."
+  ],
+  "processServingNotes": [
+    "The Carter County Courthouse Court Clerk's office is located on the 3rd Floor, Room 304. Public counter hours are 8:30am to 4:30pm Monday through Friday.",
+    "Carter County is part of Oklahoma's 20th Judicial District. District court records can be accessed online through the Oklahoma State Courts Network (OSCN) at oscn.net using the county database key 'carter'.",
+    "The county includes multiple municipal courts (Ardmore, Healdton, Lone Grove, Wilson, Dickson, Gene Autry, Ratliff City, Springer, and Tatums) which operate independently from the District Court."
+  ],
+  "heroLead": "Carter County sits at the crossroads of south-central Oklahoma, where the historic Healdton Oil Field made it the state's top oil-producing county and the vibrant city of Ardmore serves as a regional hub for a 13-county area. With Lake Murray State Park drawing visitors from across the region and the Chickasaw Nation maintaining a strong cultural and economic presence, Carter County blends rich energy heritage with modern healthcare, manufacturing, and tribal enterprise. For professional process serving throughout Carter County, contact Just Legal Solutions at (539) 367-6832 or visit /contact.",
+  "faqs": [
+    {
+      "question": "Where do I file court documents for Carter County?",
+      "answer": "Court documents for Carter County District Court should be filed with the Court Clerk at the Carter County Courthouse, located at 20 'B' St SW, Ardmore, OK 73401. The Court Clerk's office is on the 3rd Floor, Room 304. Office hours are 8:30am to 4:30pm Monday through Friday. The phone number is (580) 223-5253. For professional process serving assistance in Carter County, contact Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "What is the deadline for serving process in Carter County, Oklahoma?",
+      "answer": "Under Oklahoma law, service of process must generally be completed within 180 days of filing the complaint. Carter County is in Oklahoma's 20th Judicial District, and the District Court at the Carter County Courthouse in Ardmore handles all civil process matters. It is recommended to work with a local process server familiar with the county's geography, as Carter County spans 834 square miles with communities ranging from Ardmore to smaller towns like Healdton, Lone Grove, and Tatums. For reliable process serving throughout Carter County, contact Just Legal Solutions."
+    },
+    {
+      "question": "How do I look up case information for Carter County online?",
+      "answer": "Carter County District Court case information is available through the Oklahoma State Courts Network (OSCN) at www.oscn.net. Select 'Court Dockets' and choose Carter County from the dropdown menu. The OSCN database key for Carter County is 'carter'. You can search by party name, case number, or attorney name. Note that while docket information is generally available, some document images may require a subscription or in-person access through the Court Clerk's office at (580) 223-5253. For help obtaining court documents or certified copies, call Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "What are the largest employers in Carter County where I might need to serve process?",
+      "answer": "Carter County's largest employers include Mercy Hospital Ardmore (approximately 1,100 employees), Michelin North America (approximately 1,400 employees, though winding down tire production through 2025), Valero Energy Corporation's Ardmore Refinery (approximately 270 employees), and the Samuel Roberts Noble Foundation (approximately 160 employees). Other significant employers include the Chickasaw Nation (operating casinos and healthcare facilities), Southern Oklahoma Technology Center, and various retail distribution centers. Many of these employers have security protocols for process service, so it is advisable to contact Just Legal Solutions for professional assistance navigating service at these locations."
+    },
+    {
+      "question": "Does Chickasaw Nation tribal jurisdiction affect process serving in Carter County?",
+      "answer": "Yes, Carter County lies entirely within the Chickasaw Nation's tribal jurisdiction. The Chickasaw Nation is a federally recognized tribe with its own court system that handles certain civil matters involving tribal members and Indian-owned businesses operating on trust land. When serving process on tribal members or within Chickasaw Nation trust property in Carter County, it is important to understand the interplay between state and tribal jurisdiction. The Chickasaw Nation Lighthorse Police Department and tribal courts in Ada may be involved depending on the nature of the case. For assistance with process serving in Carter County involving tribal considerations, contact Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "What cities and towns are included in Carter County for process serving?",
+      "answer": "Carter County includes the cities of Ardmore (county seat), Healdton, Lone Grove, and Wilson. Incorporated towns include Dickson, Gene Autry, Ratliff City, Springer, and Tatums. The census-designated place of Fox and numerous unincorporated communities such as Milo, Graham, Tussy, and Woodford are also within the county. The county covers 834 square miles in south-central Oklahoma, bordered by Garvin County to the north, Love County to the south, Johnston and Marshall Counties to the east, and Jefferson and Stephens Counties to the west. For process serving anywhere in Carter County, call Just Legal Solutions at (539) 367-6832."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

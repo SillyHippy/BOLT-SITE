@@ -1,0 +1,124 @@
+{
+  "slug": "woodward-county",
+  "countyName": "Woodward County",
+  "countySeat": "Woodward",
+  "population": 19991,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "Woodward County Courthouse",
+    "street": "1600 Main Street, Suite 4",
+    "city": "Woodward",
+    "state": "OK",
+    "zip": "73801",
+    "phone": "580-256-3413",
+    "hours": "Monday-Friday 9:00 AM - 5:00 PM",
+    "judicialDistrict": "4",
+    "oscnDbKey": "woodward"
+  },
+  "majorCities": [
+    "Woodward",
+    "Mooreland",
+    "Fort Supply",
+    "Sharon",
+    "Mutual"
+  ],
+  "neighboringCounties": [
+    "dewey-county",
+    "ellis-county",
+    "harper-county",
+    "major-county",
+    "woods-county"
+  ],
+  "tribalJurisdiction": [
+    "Cheyenne and Arapaho Tribes"
+  ],
+  "majorEmployers": [
+    {
+      "name": "INTEGRIS Health Woodward Hospital",
+      "street": "900 17th Street",
+      "city": "Woodward",
+      "zip": "73801",
+      "employees": 200,
+      "industry": "Healthcare",
+      "notes": "Only hospital in Woodward County; acquired by INTEGRIS Health in 2023"
+    },
+    {
+      "name": "Woodward Public Schools",
+      "street": "1026 12th Street",
+      "city": "Woodward",
+      "zip": "73801",
+      "employees": 350,
+      "industry": "Education",
+      "notes": "Largest school district in northwest Oklahoma"
+    },
+    {
+      "name": "Siemens Energy",
+      "street": "1123 Airpark Road",
+      "city": "Woodward",
+      "zip": "73801",
+      "employees": 40,
+      "industry": "Wind Energy",
+      "notes": "Wind service distribution center opened 2012; serves southwest region"
+    },
+    {
+      "name": "NextEra Energy (Gypsum Wind)",
+      "street": null,
+      "city": "Woodward",
+      "zip": "73801",
+      "employees": 20,
+      "industry": "Wind Energy",
+      "notes": "203 MW wind project with up to 72 turbines; scheduled operations by December 2028"
+    },
+    {
+      "name": "Walmart Supercenter",
+      "street": "4601 Oklahoma Avenue",
+      "city": "Woodward",
+      "zip": "73801",
+      "employees": 200,
+      "industry": "Retail",
+      "notes": "Major retail employer for Woodward County"
+    }
+  ],
+  "uniqueFacts": [
+    "Alabaster Caverns State Park in Woodward County contains the largest natural gypsum cave in the world open to the public and is the only gypsum show cave in the United States, featuring rare black alabaster found in only three veins worldwide.",
+    "Fort Supply Historic Site marks where Camp Supply was established in November 1868; from this post, Lt. Col. George Armstrong Custer led the 7th Cavalry to the Battle of the Washita. The site is listed on the National Register of Historic Places.",
+    "On April 9, 1947, a devastating tornado with a nearly two-mile-wide base struck Woodward, killing more than 100 people and obliterating over 100 city blocks. The 1936-37 courthouse sustained damage but still stands today.",
+    "The county was originally designated 'N County' when created from the Cherokee Outlet in September 1893, and citizens voted to rename it Woodward County on November 6, 1894. Statehood in 1907 reduced it to its present boundaries.",
+    "Woodward County sits within the wind belt corridor of Oklahoma and hosts multiple wind farms, including the Gypsum Wind project and Siemens Energy distribution center, making wind energy a key economic driver alongside oil, gas, and agriculture."
+  ],
+  "processServingNotes": [
+    "Woodward County is served by the 4th Judicial District. Process servers must be licensed and can obtain either county-specific or statewide licenses through the court clerk's office at the Woodward County Courthouse.",
+    "The county covers 1,242 square miles with rural ranch and agricultural lands, meaning personal service may require long travel distances between residences. Substituted service at a dwelling house with a person aged 15 or older residing therein is permitted under 12 O.S. 2004.",
+    "Woodward County falls within the Cheyenne and Arapaho Tribes' jurisdictional area. Process serving on tribal lands may involve additional considerations regarding tribal jurisdiction and should be coordinated with the appropriate tribal authorities when applicable."
+  ],
+  "heroLead": "Located in northwestern Oklahoma's Osage Plains, Woodward County spans 1,242 square miles of rolling prairie and gypsum hills, home to 19,991 residents, the world-famous Alabaster Caverns State Park, and historic Fort Supply where George Custer launched the Battle of the Washita. The county seat of Woodward anchors a regional energy hub powered by oil, gas, and wind farms, with service of process throughout the county handled efficiently by Just Legal Solutions at (539) 367-6832 or via /contact.",
+  "faqs": [
+    {
+      "question": "What is the geographic extent of Woodward County, Oklahoma?",
+      "answer": "Woodward County encompasses 1,242 square miles of northwestern Oklahoma, bordering Ellis County to the west, Harper County to the northwest, Woods County to the northeast, Major County to the east, and Dewey County to the south. The terrain is part of the Osage Plains and Western Red Prairies, featuring gypsum hills in the eastern and northwestern portions. The Cimarron River forms part of the northern boundary, while the North Canadian River flows through the county from northwest to southeast. For process serving across this rural county, call Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "When was Woodward County formed and how did it get its name?",
+      "answer": "Woodward County was created in September 1893 as County N during the opening of the Cherokee Outlet to non-Indian settlement. Citizens voted to rename it Woodward County on November 6, 1894. The exact origin of the name remains a mystery, though the two leading candidates are Brinton W. Woodward, a Santa Fe railway director, or Richard 'Uncle Dick' Woodward, a buffalo hunter and local saddle maker. Statehood in 1907 reduced the county to its present boundaries from its original much larger size."
+    },
+    {
+      "question": "What are the hours of the Woodward County Courthouse and Court Clerk?",
+      "answer": "The Woodward County Courthouse, located at 1600 Main Street in Woodward, Oklahoma, operates Monday through Friday from 9:00 AM to 5:00 PM. The Court Clerk's office, located in Suite 4, can be reached at 580-256-3413. The District Judge's office hours are 8:30 AM to 5:00 PM. For process serving needs in Woodward County, contact Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "What major industries drive the economy of Woodward County?",
+      "answer": "Woodward County's economy is anchored by oil and gas production, wind energy, agriculture (wheat and cattle), and healthcare. The county hosts one of the world's largest iodine deposits and significant salt plains. Wind energy is a rapidly growing sector, with the Siemens Energy distribution center and NextEra Energy's Gypsum Wind project contributing to the region's status as a wind energy hub. The county's location on the Great Western Trail made it historically important for cattle drives. For business-related process serving in Woodward County, call (539) 367-6832."
+    },
+    {
+      "question": "Does tribal jurisdiction affect legal matters in Woodward County?",
+      "answer": "Yes, Woodward County falls within the jurisdictional area of the Cheyenne and Arapaho Tribes. Under federal law, certain lands within the county may be subject to tribal jurisdiction, particularly tribal trust lands, dependent Indian communities, and restricted Indian allotments as defined by 18 U.S.C. Section 1151. Legal matters involving tribal members or tribal lands may involve coordination with tribal courts. For assistance navigating process serving in areas with tribal jurisdiction, contact Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "What natural attractions make Woodward County unique?",
+      "answer": "Woodward County is home to Alabaster Caverns State Park, featuring the largest natural gypsum cave in the world open to the public with rare black alabaster found only here, Italy, and China. Boiling Springs State Park, located six miles northwest of Woodward, offers 820 acres surrounding natural springs. The county also contains parts of the Great Salt Plains, known for selenite crystal digging. Fort Supply Lake provides fishing, boating, and camping opportunities. These attractions draw visitors from across the region."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

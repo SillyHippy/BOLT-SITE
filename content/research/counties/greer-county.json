@@ -1,0 +1,132 @@
+{
+  "slug": "greer-county",
+  "countyName": "Greer County",
+  "countySeat": "Mangum",
+  "population": 5491,
+  "populationYear": 2020,
+  "courthouse": {
+    "name": "Greer County Courthouse",
+    "street": "106 E. Jefferson",
+    "city": "Mangum",
+    "state": "OK",
+    "zip": "73554",
+    "phone": "580-782-3665",
+    "hours": "Monday-Friday 8:00 AM - 4:00 PM",
+    "judicialDistrict": "3rd District (Greer, Harmon, Jackson, Kiowa, Tillman)",
+    "oscnDbKey": "greer"
+  },
+  "majorCities": [
+    "Mangum",
+    "Granite",
+    "Willow",
+    "Brinkman",
+    "Reed"
+  ],
+  "neighboringCounties": [
+    "beckham-county",
+    "kiowa-county",
+    "jackson-county",
+    "harmon-county"
+  ],
+  "tribalJurisdiction": [
+    "Comanche Nation"
+  ],
+  "majorEmployers": [
+    {
+      "name": "Mangum Public Schools",
+      "street": "601 W. Prophet Ave.",
+      "city": "Mangum",
+      "zip": "73554",
+      "employees": 85,
+      "industry": "Education",
+      "notes": "Approximately 640 students PK-12; one of the largest employers in the county"
+    },
+    {
+      "name": "Mangum Regional Medical Center",
+      "street": "1 Wickersham Dr.",
+      "city": "Mangum",
+      "zip": "73554",
+      "employees": 75,
+      "industry": "Healthcare",
+      "notes": "18-bed critical access hospital established 1967; serves Greer, Jackson, Kiowa, Beckham, Harmon and Washita counties"
+    },
+    {
+      "name": "Oklahoma State Reformatory",
+      "street": "901 E. Illinois Ave.",
+      "city": "Granite",
+      "zip": "73547",
+      "employees": 200,
+      "industry": "Corrections",
+      "notes": "Medium-security prison opened 1910; one of southwest Oklahoma's largest employers"
+    },
+    {
+      "name": "Mangum Brick Company",
+      "street": "1 mile N of Mangum on Hwy 6",
+      "city": "Mangum",
+      "zip": "73554",
+      "employees": 50,
+      "industry": "Manufacturing",
+      "notes": "Oldest continuously operated brick plant west of the Mississippi since 1902; Greer County's largest private employer"
+    },
+    {
+      "name": "Greer County Government",
+      "street": "106 E. Jefferson",
+      "city": "Mangum",
+      "zip": "73554",
+      "employees": 45,
+      "industry": "Government",
+      "notes": "County government operations including courthouse, sheriff, and county offices"
+    },
+    {
+      "name": "Greer County Sheriff's Office",
+      "street": "105 S. Pennsylvania Ave.",
+      "city": "Mangum",
+      "zip": "73554",
+      "employees": 8,
+      "industry": "Law Enforcement",
+      "notes": "Handles civil process service for the county; fee is $50.00 per service"
+    }
+  ],
+  "uniqueFacts": [
+    "From 1860 to 1896, Greer County was claimed by Texas as Greer County, Texas until the U.S. Supreme Court case United States v. Texas (1896) decided it was part of Oklahoma Territory",
+    "Greer County was a sundown county from its establishment until at least 1903, prohibiting African Americans from living in the county",
+    "Quartz Mountain State Park, located near Lone Wolf, was one of the original seven Oklahoma State Parks designated in 1935 and built by Civilian Conservation Corps workers",
+    "The Old Greer County Museum in Mangum features 252 pink granite monuments honoring pre-statehood pioneers, along with a replica half-dugout like those used by early settlers",
+    "Mangum Brick Company, founded in 1903, is the oldest continuously operated brick manufacturing plant west of the Mississippi River and remains Greer County's largest private employer"
+  ],
+  "processServingNotes": [
+    "Civil process service in Greer County is handled by the Greer County Sheriff's Office at 105 S. Pennsylvania Ave, Mangum, OK. The civil process service fee is $50.00 per service.",
+    "The Greer County District Court is part of Oklahoma's 3rd Judicial District, which also includes Harmon, Jackson, Kiowa, and Tillman counties. Court records can be accessed through the Court Clerk at the Greer County Courthouse.",
+    "The Greer County Courthouse is located at 106 E. Jefferson in Mangum and is open Monday through Friday from 8:00 AM to 4:00 PM. The courthouse was built in 1906 and is listed on the National Register of Historic Places."
+  ],
+  "heroLead": "Nestled in southwestern Oklahoma's Gypsum Hills and Red Bed Plains, Greer County carries a unique legacy as the former Greer County, Texas, before a landmark 1896 U.S. Supreme Court decision made it part of Oklahoma Territory. Today, this rural county of 5,491 residents is anchored by Mangum, home to the historic 1906 courthouse, the Mangum Brick Company (oldest continuously operated brick plant west of the Mississippi), and Quartz Mountain State Park — one of Oklahoma's original seven state parks built by the Civilian Conservation Corps in 1935. Whether you need legal documents served at the courthouse, the Oklahoma State Reformatory in Granite, or anywhere across this ranching and agricultural community, call Just Legal Solutions at (539) 367-6832.",
+  "faqs": [
+    {
+      "question": "Where is Greer County and what is its county seat?",
+      "answer": "Greer County is located in southwestern Oklahoma, bordered by Texas to the south and west. Its county seat is Mangum, which has served as the county seat since 1886 when the area was still claimed by Texas. Mangum is the largest city in the county with approximately 2,700 residents and serves as the center for government, healthcare, and commerce in the region."
+    },
+    {
+      "question": "What is the history behind Greer County's founding?",
+      "answer": "Greer County has a unique history as it was claimed by Texas from 1860 to 1896 as Greer County, Texas, named after former Texas Lieutenant Governor John A. Greer. Following the landmark U.S. Supreme Court case United States v. Texas in 1896, the 1.5 million acre territory was assigned to Oklahoma Territory. When Oklahoma achieved statehood in 1907, Greer County was divided, with portions forming what are now Greer, Harmon, Jackson, and part of Beckham counties. The county was organized from Old Greer County at Oklahoma statehood and has been part of the state ever since."
+    },
+    {
+      "question": "What major attractions and landmarks are in Greer County?",
+      "answer": "Greer County is home to several notable attractions. Quartz Mountain State Park, one of Oklahoma's original seven state parks established in 1935, sits at the western end of the Wichita Mountains along Lake Altus-Lugert and offers camping, hiking, rock climbing, and water recreation. The Old Greer County Museum and Hall of Fame in Mangum preserves pioneer history with 252 pink granite monuments and a replica half-dugout. The Oklahoma State Reformatory in Granite, opened in 1910, is a historic medium-security prison built using granite quarried from nearby Headquarters Mountain."
+    },
+    {
+      "question": "What is the tribal jurisdiction in Greer County?",
+      "answer": "Greer County falls within the tribal jurisdictional area of the Comanche Nation. The Comanche Nation is headquartered in Lawton, Oklahoma, and its jurisdiction covers Caddo, Comanche, Cotton, Grady, Greer, Harmon, Jackson, Jefferson, Kiowa, Stephens, and Tillman counties. For process serving matters that may involve tribal members or tribal trust lands within Greer County, the Comanche Nation's jurisdiction should be considered. For assistance with process serving anywhere in Greer County, call Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "Who are the major employers in Greer County?",
+      "answer": "The major employers in Greer County include Mangum Public Schools (approximately 640 students, 85+ staff), Mangum Regional Medical Center (an 18-bed critical access hospital with 75+ employees), the Oklahoma State Reformatory in Granite (one of southwest Oklahoma's largest employers with approximately 200 staff), Mangum Brick Company (the oldest continuously operated brick plant west of the Mississippi since 1902), and Greer County Government. Agriculture, particularly cotton farming and cattle ranching, also remains significant to the local economy."
+    },
+    {
+      "question": "How do I get court records or file legal documents in Greer County?",
+      "answer": "Court records and legal filings in Greer County are handled through the Greer County District Court, located at 106 E. Jefferson in Mangum, Oklahoma 73554. The Court Clerk's office is open Monday through Friday from 8:00 AM to 4:00 PM and can be reached at (580) 782-3665. Greer County is part of Oklahoma's 3rd Judicial District. Court records can also be searched online through the Oklahoma State Courts Network (OSCN) using the county database key 'greer'. For professional process serving services in Greer County, contact Just Legal Solutions at (539) 367-6832 to ensure proper service of your legal documents."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

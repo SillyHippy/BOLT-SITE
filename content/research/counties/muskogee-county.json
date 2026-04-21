@@ -1,0 +1,143 @@
+{
+  "slug": "muskogee-county",
+  "countyName": "Muskogee County",
+  "countySeat": "Muskogee",
+  "population": 66752,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "Muskogee County Courthouse",
+    "street": "220 State Street",
+    "city": "Muskogee",
+    "state": "OK",
+    "zip": "74401",
+    "phone": "918-682-7873",
+    "hours": "Monday - Friday, 8:00 a.m. - 4:30 p.m.",
+    "judicialDistrict": "15th Judicial District",
+    "oscnDbKey": "muskogee"
+  },
+  "majorCities": [
+    "Muskogee",
+    "Fort Gibson",
+    "Haskell",
+    "Boynton",
+    "Braggs",
+    "Council Hill",
+    "Oktaha",
+    "Porum",
+    "Summit",
+    "Taft",
+    "Wainwright",
+    "Warner",
+    "Webbers Falls"
+  ],
+  "neighboringCounties": [
+    "wagoner-county",
+    "cherokee-county",
+    "sequoyah-county",
+    "haskell-county",
+    "mcintosh-county",
+    "okmulgee-county"
+  ],
+  "tribalJurisdiction": [
+    "Muscogee (Creek) Nation",
+    "Cherokee Nation"
+  ],
+  "majorEmployers": [
+    {
+      "name": "Georgia-Pacific Muskogee LLC",
+      "street": "4901 Chandler Road",
+      "city": "Muskogee",
+      "zip": "74403",
+      "employees": 1580,
+      "industry": "Paper and building products manufacturing",
+      "notes": "One of Muskogee's largest employers. Produces tissue, paper products, and building materials at a 450-acre facility."
+    },
+    {
+      "name": "Saint Francis Hospital Muskogee",
+      "street": "300 Rockefeller Drive",
+      "city": "Muskogee",
+      "zip": "74401",
+      "employees": 1000,
+      "industry": "Healthcare",
+      "notes": "320-bed community hospital serving a seven-county area. Part of Saint Francis Health System. Level III Trauma Center."
+    },
+    {
+      "name": "Muskogee Public Schools",
+      "street": "202 West Broadway Street",
+      "city": "Muskogee",
+      "zip": "74401",
+      "employees": 526,
+      "industry": "Education",
+      "notes": "Largest school district in the county serving approximately 5,500 students across 14 campuses."
+    },
+    {
+      "name": "Dal-Tile Corporation",
+      "street": "3801 Dal-Tile Road",
+      "city": "Muskogee",
+      "zip": "74401",
+      "employees": 270,
+      "industry": "Ceramic tile manufacturing",
+      "notes": "Largest U.S. manufacturer of ceramic tile. Located at Port of Muskogee. Produces 25% of U.S. porcelain tile."
+    },
+    {
+      "name": "Acme Engineering & Manufacturing",
+      "street": "1820 North York Street",
+      "city": "Muskogee",
+      "zip": "74403",
+      "employees": 150,
+      "industry": "Industrial ventilation equipment manufacturing",
+      "notes": "Founded in 1938. Produces fans, blowers, and ventilation equipment for industrial, institutional, and commercial buildings."
+    },
+    {
+      "name": "Griffin Foods Company",
+      "street": "111 South Cherokee Street",
+      "city": "Muskogee",
+      "zip": "74403",
+      "employees": 50,
+      "industry": "Food processing",
+      "notes": "Family-owned since 1902. Manufactures syrups, mustard, and other food products. One of Oklahoma's oldest food companies."
+    }
+  ],
+  "uniqueFacts": [
+    "The county and city were named for the Muscogee (Creek) Nation, but the post office changed the official spelling to 'Muskogee' in 1900.",
+    "Three major rivers - the Arkansas, Verdigris, and Neosho (Grand) - converge in Muskogee County at a location known as 'Three Forks.'",
+    "Fort Gibson, established in 1824, was the first military post in what is now Oklahoma and the town claims to be the oldest in the state.",
+    "The Five Civilized Tribes Museum is housed in the historic Union Indian Agency Building (c. 1870s) in Muskogee, which originally served as the consolidated agency for the Cherokee, Choctaw, Chickasaw, Creek, and Seminole tribes.",
+    "The USS Batfish, a World War II submarine with a distinguished combat record, is permanently moored at the Port of Muskogee as a museum ship."
+  ],
+  "processServingNotes": [
+    "The Muskogee County District Court Clerk issues Process Server Licenses and maintains records of all licensed process servers in the county. Contact the Court Clerk at 918-682-7873 for licensing requirements.",
+    "Following the McGirt v. Oklahoma Supreme Court decision (2020), the Muscogee (Creek) Nation reservation boundaries encompass all of Muskogee County. Process servers must be aware that tribal jurisdiction may affect service requirements for Native American individuals and matters on tribal lands.",
+    "The courthouse is located at 220 State Street in Muskogee with office hours Monday through Friday, 8:00 a.m. to 4:30 p.m. The Court Clerk's office is on the second floor."
+  ],
+  "heroLead": "Muskogee County sits at the confluence of the Arkansas, Verdigris, and Grand Rivers in eastern Oklahoma, where the historic Muscogee (Creek) Nation's reservation boundaries were reaffirmed by the landmark McGirt decision. From the manufacturing corridor anchored by Georgia-Pacific and Dal-Tile to the healthcare hub at Saint Francis Hospital, our process servers navigate the county's diverse landscape daily to deliver reliable legal service. Contact Just Legal Solutions at (539) 367-6832 or visit our website to schedule service anywhere in Muskogee County.",
+  "faqs": [
+    {
+      "question": "Where is the Muskogee County Courthouse located and what are the court clerk's office hours?",
+      "answer": "The Muskogee County Courthouse is located at 220 State Street, Muskogee, OK 74401. The Court Clerk's office is on the second floor and is open Monday through Friday from 8:00 a.m. to 4:30 p.m., including the lunch hour. The mailing address is P.O. Box 1350, Muskogee, OK 74402. You can reach the Court Clerk at 918-682-7873 for questions about filing or process server licensing."
+    },
+    {
+      "question": "What judicial district is Muskogee County in and which judges preside there?",
+      "answer": "Muskogee County is part of Oklahoma's 15th Judicial District, which also includes Adair, Cherokee, Sequoyah, and Wagoner counties. District Judges Timothy King and Bret Smith preside over Muskogee County, along with Associate District Judge Norman Thygesen. For process serving matters, contact the District Court Clerk's office at 918-682-7873."
+    },
+    {
+      "question": "How does the Muscogee (Creek) Nation tribal jurisdiction affect process serving in Muskogee County?",
+      "answer": "The 2020 McGirt v. Oklahoma Supreme Court decision affirmed that the entire county lies within the historic Muscogee (Creek) Nation reservation. This means tribal courts share jurisdiction with state courts for matters involving tribal citizens. Process servers should verify whether a case falls under state or tribal jurisdiction before attempting service. For assistance navigating tribal jurisdiction questions in Muskogee County, contact Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "What cities and towns are located in Muskogee County?",
+      "answer": "Muskogee County includes two cities - Muskogee (the county seat) and Haskell - plus eleven incorporated towns: Boynton, Braggs, Council Hill, Fort Gibson, Oktaha, Porum, Summit, Taft, Wainwright, Warner, and Webbers Falls. Several unincorporated communities and census-designated places are also located in the county. Process serving is required throughout all these communities."
+    },
+    {
+      "question": "Who are the major employers in Muskogee County?",
+      "answer": "Major employers include Georgia-Pacific (approximately 1,580 employees), Saint Francis Hospital Muskogee (approximately 1,000 employees), Muskogee Public Schools (approximately 526 employees), Dal-Tile (approximately 270 employees), Acme Engineering & Manufacturing (approximately 150 employees), and the Muscogee (Creek) Nation government. These employers represent manufacturing, healthcare, education, and government sectors."
+    },
+    {
+      "question": "What is the fastest way to file court papers or serve process in Muskogee County?",
+      "answer": "The most efficient approach is to work with a licensed process server familiar with Muskogee County's court system. The District Court Clerk's office at 220 State Street handles all filings and can provide information about licensed process servers. For professional process serving throughout Muskogee County, including rush and same-day service, contact Just Legal Solutions at (539) 367-6832. Our team knows the local courts, the county's geography from the Arkansas River valley to the Cookson Hills, and the unique tribal jurisdiction considerations that apply throughout the county."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

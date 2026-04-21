@@ -1,0 +1,110 @@
+{
+  "slug": "kiowa-county",
+  "countyName": "Kiowa County",
+  "countySeat": "Hobart",
+  "population": 8257,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "Kiowa County Courthouse",
+    "street": "316 S. Main",
+    "city": "Hobart",
+    "state": "OK",
+    "zip": "73651",
+    "phone": "580-726-5125",
+    "hours": "Monday - Friday: 8:00am to 4:00pm",
+    "judicialDistrict": "District 3",
+    "oscnDbKey": "Kiowa"
+  },
+  "majorCities": [
+    "Hobart",
+    "Snyder",
+    "Cooperton",
+    "Gotebo",
+    "Lone Wolf",
+    "Mountain Park",
+    "Mountain View",
+    "Roosevelt"
+  ],
+  "neighboringCounties": [
+    "washita-county",
+    "caddo-county",
+    "comanche-county",
+    "tillman-county",
+    "jackson-county",
+    "greer-county"
+  ],
+  "tribalJurisdiction": [
+    "Kiowa Tribe of Oklahoma"
+  ],
+  "majorEmployers": [
+    {
+      "name": "Elkview General Hospital",
+      "street": "429 West Elm",
+      "city": "Hobart",
+      "zip": "73651",
+      "employees": 53,
+      "industry": "Healthcare",
+      "notes": "Kiowa County's primary hospital and largest healthcare provider."
+    },
+    {
+      "name": "Hobart Public Schools",
+      "street": "PO Box 129",
+      "city": "Hobart",
+      "zip": "73651",
+      "employees": 102,
+      "industry": "Education",
+      "notes": "Largest school district in Kiowa County."
+    },
+    {
+      "name": "Kiowa County Government",
+      "street": "316 S. Main",
+      "city": "Hobart",
+      "zip": "73651",
+      "employees": 65,
+      "industry": "Government",
+      "notes": "County government operations including courthouse, sheriff, and county services."
+    }
+  ],
+  "uniqueFacts": [
+    "Kiowa County was created in 1901 from former Kiowa-Comanche-Apache reservation lands opened via land lottery.",
+    "Pulitzer Prize-winning author N. Scott Momaday spent his early years near Rainy Mountain in Kiowa County and wrote 'The Way to Rainy Mountain' about the area.",
+    "The Rainy Mountain Boarding School operated from 1893 to 1920 south of Gotebo to educate Kiowa children.",
+    "Legend says the remains of Sequoyah, inventor of the Cherokee syllabary, may have been found in Kiowa County, though this has never been confirmed.",
+    "The county was named for the Kiowa people, whose tribal headquarters are in nearby Carnegie, Oklahoma."
+  ],
+  "processServingNotes": [
+    "Kiowa County Courthouse is located at 316 S. Main in Hobart with court clerk reachable at 580-726-5125.",
+    "The county is part of Oklahoma Judicial District 3, which also includes Greer, Harmon, Jackson, and Tillman counties.",
+    "Rural towns in Kiowa County may require additional travel time for process serving."
+  ],
+  "heroLead": "Kiowa County, nestled in southwestern Oklahoma, encompasses 1,031 square miles of prairie and plains named for the Kiowa people. From the historic Rainy Mountain to the wheat fields that define its economy, the county's rich Native American heritage and agricultural roots create a unique landscape for process serving. Contact Just Legal Solutions at (539) 367-6832 or visit /contact.",
+  "faqs": [
+    {
+      "question": "What is the county seat of Kiowa County?",
+      "answer": "The county seat of Kiowa County is Hobart, located in southwestern Oklahoma. The Kiowa County Courthouse is at 316 S. Main. For process serving needs in Kiowa County, contact Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "When was Kiowa County founded?",
+      "answer": "Kiowa County was created in 1901 from former Kiowa-Comanche-Apache reservation lands that were opened to settlement via land lottery. The county was named for the Kiowa people and Hobart was designated as the county seat."
+    },
+    {
+      "question": "What is the population of Kiowa County?",
+      "answer": "According to the U.S. Census Bureau, Kiowa County had a population of approximately 8,257 as of 2024. The county has experienced gradual population decline from its peak of nearly 30,000 in 1930."
+    },
+    {
+      "question": "What tribal nation has jurisdiction in Kiowa County?",
+      "answer": "The Kiowa Tribe of Oklahoma has tribal jurisdiction in Kiowa County. The Kiowa Tribe is headquartered in Carnegie, Oklahoma, and its jurisdictional area includes Caddo, Comanche, Cotton, Jackson, Kiowa, Tillman, Greer, and Harmon counties."
+    },
+    {
+      "question": "Who was N. Scott Momaday and what is his connection to Kiowa County?",
+      "answer": "N. Scott Momaday was a Pulitzer Prize-winning Kiowa author who spent his early childhood near Rainy Mountain in Kiowa County. His novel 'House Made of Dawn' won the Pulitzer Prize in 1969, and he wrote 'The Way to Rainy Mountain' about his ancestral homeland in the county. For process serving in Kiowa County, call (539) 367-6832."
+    },
+    {
+      "question": "What are the major industries in Kiowa County?",
+      "answer": "Agriculture, particularly wheat, cotton, and cattle production, remains central to Kiowa County's economy. Healthcare (Elkview General Hospital), education, and oil and gas production are also significant employers. The county's rural character requires specialized process serving knowledge. Contact Just Legal Solutions at (539) 367-6832 for assistance."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

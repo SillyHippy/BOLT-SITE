@@ -1,0 +1,139 @@
+{
+  "slug": "oklahoma-county",
+  "countyName": "Oklahoma County",
+  "countySeat": "Oklahoma City",
+  "population": 816490,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "Oklahoma County Courthouse",
+    "street": "321 Park Avenue",
+    "city": "Oklahoma City",
+    "state": "OK",
+    "zip": "73102",
+    "phone": "(405) 713-1705",
+    "hours": "Monday-Friday: 8am - 5pm; Saturday-Sunday: Closed",
+    "judicialDistrict": "7th Judicial District",
+    "oscnDbKey": ""
+  },
+  "majorCities": [
+    "Oklahoma City",
+    "Edmond",
+    "Midwest City",
+    "Del City",
+    "Bethany",
+    "Choctaw",
+    "Warr Acres",
+    "The Village",
+    "Harrah",
+    "Spencer",
+    "Nichols Hills",
+    "Nicoma Park"
+  ],
+  "neighboringCounties": [
+    "logan-county",
+    "lincoln-county",
+    "pottawatomie-county",
+    "cleveland-county",
+    "canadian-county",
+    "kingfisher-county"
+  ],
+  "tribalJurisdiction": [],
+  "majorEmployers": [
+    {
+      "name": "Tinker Air Force Base",
+      "street": "6001 Arnold Street",
+      "city": "Oklahoma City",
+      "zip": "73145",
+      "employees": 26000,
+      "industry": "Military",
+      "notes": "Largest single-site employer in Oklahoma, located in Oklahoma County"
+    },
+    {
+      "name": "State of Oklahoma",
+      "street": "2300 N Lincoln Blvd",
+      "city": "Oklahoma City",
+      "zip": "73105",
+      "employees": 32500,
+      "industry": "Government",
+      "notes": "State government offices including capitol complex in Oklahoma County"
+    },
+    {
+      "name": "INTEGRIS Health",
+      "street": "3300 NW Expressway",
+      "city": "Oklahoma City",
+      "zip": "73112",
+      "employees": 10000,
+      "industry": "Health Care",
+      "notes": "Largest health system in Oklahoma with Baptist Medical Center in Oklahoma County"
+    },
+    {
+      "name": "Mercy Hospital Oklahoma City",
+      "street": "4300 W Memorial Rd",
+      "city": "Oklahoma City",
+      "zip": "73134",
+      "employees": 6000,
+      "industry": "Health Care",
+      "notes": "Major hospital serving Oklahoma County and surrounding areas"
+    },
+    {
+      "name": "University of Oklahoma Health Sciences Center",
+      "street": "1100 N Lindsay Ave",
+      "city": "Oklahoma City",
+      "zip": "73104",
+      "employees": 5000,
+      "industry": "Higher Education",
+      "notes": "OU Health Sciences campus located in Oklahoma County"
+    },
+    {
+      "name": "FAA Mike Monroney Aeronautical Center",
+      "street": "6500 S MacArthur Blvd",
+      "city": "Oklahoma City",
+      "zip": "73169",
+      "employees": 5150,
+      "industry": "Aerospace/Federal Government",
+      "notes": "Major FAA training and support facility in Oklahoma County"
+    }
+  ],
+  "uniqueFacts": [
+    "Oklahoma County is one of only seven counties in the United States that shares the same name as the state it is located in, and the only one of those seven to contain the state capital.",
+    "The county was originally designated as 'County Two' when the Organic Act of 1890 established the seven original counties of Oklahoma Territory.",
+    "Oklahoma County was the site of the Land Run of 1889, when approximately 50,000 settlers claimed land in the Unassigned Lands in a single day.",
+    "The Oklahoma County Courthouse at 321 Park Avenue was built in 1937 with Public Works Administration funding and is listed on the National Register of Historic Places.",
+    "The Oklahoma State Capitol, located within Oklahoma County, is the only capitol building in the nation with a working oil well on its grounds."
+  ],
+  "processServingNotes": [
+    "Oklahoma County Courthouse operates Monday through Friday from 8am to 5pm; all process serving filings should be coordinated within these hours.",
+    "As the largest county in Oklahoma with over 816,000 residents, Oklahoma County includes multiple municipal jurisdictions; process servers must verify the correct court for service.",
+    "The Oklahoma County Jail is located at 201 N Shartel Ave in Oklahoma City; inmate service requires coordination with jail administration."
+  ],
+  "heroLead": "Oklahoma County, home to the state capital Oklahoma City and over 816,000 residents, serves as the economic and political heart of Oklahoma. Founded during the 1889 Land Run, the county spans 718 square miles and hosts major employers including Tinker Air Force Base, the State of Oklahoma, and INTEGRIS Health. For process serving throughout Oklahoma County, contact (539) 367-6832 or visit /contact.",
+  "faqs": [
+    {
+      "question": "Where do I file court papers in Oklahoma County?",
+      "answer": "Court papers for Oklahoma County District Court are filed at the Oklahoma County Courthouse located at 321 Park Avenue, Oklahoma City, OK 73102. The Court Clerk's office is on the main floor and can be reached at (405) 713-1705. For questions about filing procedures in Oklahoma County, contact Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "What are the courthouse hours in Oklahoma County?",
+      "answer": "The Oklahoma County Courthouse is open Monday through Friday from 8:00 am to 5:00 pm. The courthouse is closed on weekends and state holidays. It is recommended to arrive early to allow time for security screening. Filing deadlines for Oklahoma County District Court are typically 5:00 pm on business days."
+    },
+    {
+      "question": "Which judicial district covers Oklahoma County?",
+      "answer": "Oklahoma County is part of the Seventh Judicial District of Oklahoma. The district court has general jurisdiction over all civil and criminal matters arising within Oklahoma County. For process serving inquiries in the 7th Judicial District, call (539) 367-6832."
+    },
+    {
+      "question": "How do I find case records for Oklahoma County?",
+      "answer": "Case records for Oklahoma County District Court can be searched through the Oklahoma State Courts Network (OSCN) at www.oscn.net. The online docket search allows you to search by case number, party name, or date range. For records that are not available online, contact the Oklahoma County Court Clerk's office at (405) 713-1705. Most cases prior to 1994 are not available on OSCN."
+    },
+    {
+      "question": "What is the population of Oklahoma County?",
+      "answer": "According to the U.S. Census Bureau, Oklahoma County had a population of approximately 816,490 residents as of 2024, making it the most populous county in Oklahoma. The county has experienced steady growth of about 0.5% annually. Process serving needs in Oklahoma County reflect this large and diverse population."
+    },
+    {
+      "question": "What cities are included in Oklahoma County?",
+      "answer": "Oklahoma County includes 12 cities and 8 incorporated towns. The largest cities are Oklahoma City (county seat and state capital), Edmond, Midwest City, Del City, Bethany, Choctaw, Warr Acres, The Village, Harrah, Spencer, Nichols Hills, and Nicoma Park. Incorporated towns include Arcadia, Forest Park, Jones, Lake Aluma, Luther, Smith Village, Valley Brook, and Woodlawn Park."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

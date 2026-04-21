@@ -1,0 +1,143 @@
+{
+  "slug": "cleveland-county",
+  "countyName": "Cleveland County",
+  "countySeat": "Norman",
+  "population": 300047,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "Cleveland County Courthouse",
+    "street": "201 S Jones Ave",
+    "city": "Norman",
+    "state": "OK",
+    "zip": "73069",
+    "phone": "(405) 321-6402",
+    "hours": "Monday-Friday 8:00 AM - 5:00 PM",
+    "judicialDistrict": "21st Judicial District",
+    "oscnDbKey": "cleveland"
+  },
+  "majorCities": [
+    "Norman",
+    "Moore",
+    "Noble",
+    "Slaughterville",
+    "Lexington",
+    "Etowah"
+  ],
+  "neighboringCounties": [
+    "oklahoma-county",
+    "pottawatomie-county",
+    "mcclain-county",
+    "canadian-county"
+  ],
+  "tribalJurisdiction": [
+    "Absentee Shawnee Tribe of Indians of Oklahoma",
+    "Citizen Potawatomi Nation"
+  ],
+  "majorEmployers": [
+    {
+      "name": "University of Oklahoma",
+      "street": "660 Parrington Oval",
+      "city": "Norman",
+      "zip": "73019",
+      "employees": 11085,
+      "industry": "Higher Education",
+      "notes": "State's largest comprehensive university, flagship campus in Norman"
+    },
+    {
+      "name": "Norman Regional Health System",
+      "street": "3300 HealthPlex Parkway",
+      "city": "Norman",
+      "zip": "73072",
+      "employees": 3040,
+      "industry": "Healthcare",
+      "notes": "324-bed hospital system, second-largest employer in Norman"
+    },
+    {
+      "name": "Norman Public Schools",
+      "street": "131 W Gray St",
+      "city": "Norman",
+      "zip": "73070",
+      "employees": 1923,
+      "industry": "K-12 Education",
+      "notes": "Largest school district in the county"
+    },
+    {
+      "name": "Johnson Controls",
+      "street": "5005 York Dr",
+      "city": "Norman",
+      "zip": "73069",
+      "employees": 1030,
+      "industry": "Manufacturing",
+      "notes": "Heating and air conditioning equipment manufacturer"
+    },
+    {
+      "name": "City of Norman",
+      "street": "201 W Gray St",
+      "city": "Norman",
+      "zip": "73069",
+      "employees": 896,
+      "industry": "Municipal Government",
+      "notes": "Local city government services"
+    },
+    {
+      "name": "National Oceanic and Atmospheric Administration",
+      "street": "120 David L Boren Blvd",
+      "city": "Norman",
+      "zip": "73072",
+      "employees": 400,
+      "industry": "Federal Government/Research",
+      "notes": "National Weather Center and severe storms research laboratory"
+    },
+    {
+      "name": "Hitachi Computer Products",
+      "street": "1000 N Portland Ave",
+      "city": "Norman",
+      "zip": "73071",
+      "employees": 400,
+      "industry": "Technology/Manufacturing",
+      "notes": "Computer products manufacturing"
+    }
+  ],
+  "uniqueFacts": [
+    "Cleveland County was one of the original seven counties organized when Oklahoma Territory was established in 1890, and was originally designated as County Three.",
+    "The county was briefly known as Little River County before voters chose the name Cleveland in honor of President Grover Cleveland over Lincoln in an August 5, 1890 election.",
+    "The county is home to the University of Oklahoma, the state's largest comprehensive university, which was established in Norman through skillful legislative maneuvering by the city's first mayor.",
+    "Lake Thunderbird, a 5,349-acre reservoir constructed between 1962 and 1965, flooded the former settlement of Denver which once existed in the county.",
+    "Author Washington Irving killed a buffalo near present-day Moore in 1832 and wrote about the experience in his book A Tour on the Prairies."
+  ],
+  "processServingNotes": [
+    "The Cleveland County Courthouse is located at 201 S Jones Ave in Norman. The District Court Clerk's office for record requests is at 200 S Peters Ave, Suite 13. Both locations have Monday-Friday 8:00 AM - 5:00 PM hours.",
+    "Cleveland County is part of the 21st Judicial District, which also includes Garvin and McClain counties. Cases may be filed in any of these three counties within the district.",
+    "The Absentee Shawnee Tribe and Citizen Potawatomi Nation maintain tribal jurisdiction within portions of Cleveland County. Process servers should verify whether service involves tribal members or tribal lands as special rules may apply."
+  ],
+  "heroLead": "Cleveland County, Oklahoma's third-most populous county, blends world-class higher education at the University of Oklahoma with a rapidly growing economy spanning healthcare, manufacturing, and research sectors. From its 1889 Land Run origins to its current status as an Oklahoma City metropolitan hub encompassing Norman and Moore, the county offers diverse communities and steady growth. For professional process serving throughout Cleveland County, contact Just Legal Solutions at (539) 367-6832 or visit /contact.",
+  "faqs": [
+    {
+      "question": "What is the county seat of Cleveland County, Oklahoma?",
+      "answer": "The county seat of Cleveland County is Norman, Oklahoma. The Cleveland County Courthouse is located at 201 S Jones Ave in Norman, and the District Court Clerk's office is at 200 S Peters Ave, Suite 13. For questions about court records, you can contact the Court Clerk at (405) 321-6402."
+    },
+    {
+      "question": "How do I search Cleveland County court records online?",
+      "answer": "Cleveland County court records can be searched online through the Oklahoma State Courts Network (OSCN) at www.oscn.net. Select Cleveland County from the dropdown menu and search by case number, party name, or attorney. The service is free to use. For certified copies or documents not available online, contact the Cleveland County Court Clerk at (405) 321-6402."
+    },
+    {
+      "question": "Which Native American tribes have jurisdiction in Cleveland County?",
+      "answer": "Two federally recognized tribes have jurisdictional areas within Cleveland County: the Absentee Shawnee Tribe of Indians of Oklahoma and the Citizen Potawatomi Nation. The Absentee Shawnee Tribe has a significant presence in the Little Axe area east of Norman. Process serving on tribal members or tribal lands may be subject to tribal court jurisdiction and specific requirements."
+    },
+    {
+      "question": "What major cities are in Cleveland County?",
+      "answer": "The largest city in Cleveland County is Norman, the county seat, followed by Moore. Other incorporated communities include Noble (known as the Rose Rock Capital of the World), Slaughterville, Lexington, and Etowah. A southern portion of Oklahoma City also extends into Cleveland County. For process serving in Cleveland County, call (539) 367-6832."
+    },
+    {
+      "question": "When was Cleveland County founded and how did it get its name?",
+      "answer": "Cleveland County was organized on May 2, 1890 as one of the original seven counties of Oklahoma Territory. It was originally called County Three and briefly known as Little River County. In an August 5, 1890 election, voters chose the name Cleveland to honor President Grover Cleveland over the alternative name Lincoln. The county was opened to settlement during the Land Run of April 22, 1889."
+    },
+    {
+      "question": "What is the population and geographic size of Cleveland County?",
+      "answer": "Cleveland County has a population of approximately 300,047 (2024 estimate), making it the third-most populous county in Oklahoma. The county covers 558 square miles (539 square miles of land and 19 square miles of water), making it the eighth-smallest county in the state by area. Despite its small size, it is the third-fastest growing county in the Oklahoma City metropolitan area."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

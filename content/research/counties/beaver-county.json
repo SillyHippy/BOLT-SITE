@@ -1,0 +1,157 @@
+{
+  "slug": "beaver-county",
+  "countyName": "Beaver County",
+  "countySeat": "Beaver",
+  "population": 5025,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "Beaver County Courthouse",
+    "street": "111 Second St",
+    "city": "Beaver",
+    "state": "OK",
+    "zip": "73932",
+    "phone": "580-625-3191",
+    "hours": "8:00 a.m. to 5:00 p.m., Monday through Friday (open during noon hour)",
+    "judicialDistrict": "1st Judicial District (Cimarron, Texas, Beaver and Harper Counties)",
+    "oscnDbKey": "beaver"
+  },
+  "majorCities": [
+    "Beaver",
+    "Forgan",
+    "Gate",
+    "Knowles",
+    "Balko",
+    "Turpin",
+    "Elmwood",
+    "Slapout"
+  ],
+  "neighboringCounties": [
+    "meade-county",
+    "clark-county",
+    "harper-county",
+    "ellis-county",
+    "lipscomb-county",
+    "ochiltree-county",
+    "texas-county",
+    "seward-county"
+  ],
+  "tribalJurisdiction": [
+    "Cheyenne and Arapaho Tribes"
+  ],
+  "majorEmployers": [
+    {
+      "name": "Beaver County Memorial Hospital",
+      "street": "212 E 8th St",
+      "city": "Beaver",
+      "zip": "73932",
+      "employees": 50,
+      "industry": "Healthcare",
+      "notes": "General medical and surgical facility; 24 staffed beds; includes community pharmacy"
+    },
+    {
+      "name": "Beaver County Nursing Home",
+      "street": "200 E 8th St",
+      "city": "Beaver",
+      "zip": "73932",
+      "employees": 30,
+      "industry": "Healthcare",
+      "notes": "Skilled nursing facility"
+    },
+    {
+      "name": "Beaver Independent School District",
+      "street": "807 Avenue G",
+      "city": "Beaver",
+      "zip": "73932",
+      "employees": 21,
+      "industry": "Education",
+      "notes": "Public school district serving PK-12 with approximately 242 students"
+    },
+    {
+      "name": "Balko Public Schools",
+      "street": "110 Bison Lane",
+      "city": "Balko",
+      "zip": "73931",
+      "employees": 15,
+      "industry": "Education",
+      "notes": "Rural public school district"
+    },
+    {
+      "name": "Forgan Public Schools",
+      "street": "504 West Main",
+      "city": "Forgan",
+      "zip": "73938",
+      "employees": 15,
+      "industry": "Education",
+      "notes": "Rural public school district"
+    },
+    {
+      "name": "Turpin Public Schools",
+      "street": "316 S Lee",
+      "city": "Turpin",
+      "zip": "73950",
+      "employees": 15,
+      "industry": "Education",
+      "notes": "Rural public school district"
+    },
+    {
+      "name": "Beaver County Government",
+      "street": "111 Second St",
+      "city": "Beaver",
+      "zip": "73932",
+      "employees": 25,
+      "industry": "Government",
+      "notes": "County government offices including courthouse, sheriff, assessor, clerk, treasurer"
+    },
+    {
+      "name": "Agriculture and Ranching Operations",
+      "street": "Various locations",
+      "city": "Beaver",
+      "zip": "73932",
+      "employees": 200,
+      "industry": "Agriculture",
+      "notes": "Cattle ranching and wheat farming dominate the local economy across the county"
+    }
+  ],
+  "uniqueFacts": [
+    "Beaver County was originally part of the entire Oklahoma Panhandle and was known as No Man's Land from 1850 to 1890 because it belonged to no state or territorial government.",
+    "The World Championship Cow Chip Throwing Contest has been held annually in Beaver since 1969, earning the town the title Cow Chip Throwing Capital of the World.",
+    "From 1886 to 1890, the area was an unsanctioned provisional government called Cimarron Territory with Beaver City as its capital before becoming part of Oklahoma Territory.",
+    "Beaver County is the fifth-largest county in Oklahoma by area with 1,818 square miles but has a population of only about 5,000 people.",
+    "The Jones and Plummer Trail, established in 1874 for shipping hides and freighting supplies from Tascosa to Dodge City, ran through what is now Beaver County."
+  ],
+  "processServingNotes": [
+    "Beaver County is in Oklahoma's 1st Judicial District along with Cimarron, Texas, and Harper Counties; the Associate District Judge is Ryan D. Reddick. Motion dockets are held on the second and fourth Tuesday of each month at 10:00 a.m.",
+    "Process servers should note that Beaver County is a large rural county (1,818 sq mi) with small dispersed communities; addresses may be remote and GPS navigation may be unreliable in some areas.",
+    "The Court Clerk's office is open 8:00 a.m. to 5:00 p.m. Monday through Friday and can be reached at 580-625-3191 for filing questions."
+  ],
+  "heroLead": "Beaver County sits in the eastern Oklahoma Panhandle, a vast rural landscape of 1,818 square miles that was once known as No Man's Land. Today the county thrives on agriculture, with cattle ranching and wheat farming as its economic backbone, while the town of Beaver proudly hosts the annual World Championship Cow Chip Throwing Contest. For reliable process serving across this expansive county, call (539) 367-6832 or visit our contact page.",
+  "faqs": [
+    {
+      "question": "What is the best way to get to the Beaver County Courthouse?",
+      "answer": "The Beaver County Courthouse is located at 111 Second St in Beaver, Oklahoma, the county seat. Beaver is situated along U.S. Highway 270/State Highway 23, approximately 14 miles north of State Highway 3. The nearest major cities are Guymon to the west and Woodward to the east. For directions or assistance, call Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "When are court filings accepted at the Beaver County Courthouse?",
+      "answer": "The Court Clerk's office at the Beaver County Courthouse is open from 8:00 a.m. to 5:00 p.m., Monday through Friday, including the noon hour. Motion dockets in Beaver County are held on the second and fourth Tuesday of each month at 10:00 a.m. For urgent filings, it is best to contact the Court Clerk at 580-625-3191 to confirm availability."
+    },
+    {
+      "question": "Which judicial district is Beaver County in?",
+      "answer": "Beaver County is part of Oklahoma's 1st Judicial District, which also includes Cimarron, Texas, and Harper Counties. The Associate District Judge for Beaver County is Ryan D. Reddick. The district court handles civil, criminal, probate, family, and juvenile matters for the county."
+    },
+    {
+      "question": "Does tribal jurisdiction affect process serving in Beaver County?",
+      "answer": "Yes, portions of Beaver County fall within the tribal jurisdictional area of the Cheyenne and Arapaho Tribes. Process servers should be aware that Indian Country parcels subject to federal and tribal jurisdiction may exist within the county. If serving documents on tribal members or within tribal trust lands, special procedures may apply. Contact Just Legal Solutions at (539) 367-6832 for guidance on serving process in tribal jurisdiction areas."
+    },
+    {
+      "question": "What are the main towns in Beaver County where service may be needed?",
+      "answer": "The largest town and county seat is Beaver. Other incorporated towns and communities include Forgan, Gate, Knowles, Balko, Turpin, Elmwood, and Slapout. The county is sparsely populated with approximately 5,000 residents spread across 1,818 square miles, so addresses may be rural and distances between locations can be significant."
+    },
+    {
+      "question": "What is the history behind Beaver County's name?",
+      "answer": "Beaver County was named for the Beaver River, which flows through the area. The river was named for the many beaver dams found along its course. The county was originally created in 1890 as part of the Oklahoma Territory and encompassed the entire Oklahoma Panhandle. At statehood in 1907, the original county was divided into three counties: Beaver, Texas, and Cimarron. For assistance with process serving in this historic region, call Just Legal Solutions at (539) 367-6832."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

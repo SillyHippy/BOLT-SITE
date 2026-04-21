@@ -1,0 +1,129 @@
+{
+  "slug": "tillman-county",
+  "countyName": "Tillman County",
+  "countySeat": "Frederick",
+  "population": 6736,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "Tillman County Courthouse",
+    "street": "201 N Main St",
+    "city": "Frederick",
+    "state": "OK",
+    "zip": "73542",
+    "phone": "580-335-3023",
+    "hours": "8:00 AM - 4:00 PM Monday-Friday",
+    "judicialDistrict": "3rd Judicial District",
+    "oscnDbKey": "tillman"
+  },
+  "majorCities": [
+    "Frederick",
+    "Grandfield",
+    "Tipton",
+    "Davidson",
+    "Hollister",
+    "Loveland",
+    "Manitou",
+    "Chattanooga"
+  ],
+  "neighboringCounties": [
+    "kiowa-county",
+    "comanche-county",
+    "cotton-county",
+    "jackson-county",
+    "wichita-county-tx",
+    "wilbarger-county-tx"
+  ],
+  "tribalJurisdiction": [
+    "Apache Tribe of Oklahoma",
+    "Fort Sill Apache Tribe"
+  ],
+  "majorEmployers": [
+    {
+      "name": "Henniges Automotive Profile Systems",
+      "street": "1801 Flying Fortress",
+      "city": "Frederick",
+      "zip": "73542",
+      "employees": 350,
+      "industry": "Automotive Manufacturing",
+      "notes": "Major expansion underway in 2025; manufactures sealing systems for GM, Ford, BMW"
+    },
+    {
+      "name": "Frederick Public Schools",
+      "street": "817 N 15th St",
+      "city": "Frederick",
+      "zip": "73542",
+      "employees": 120,
+      "industry": "Education",
+      "notes": "Serves Pre-K through 12th grade"
+    },
+    {
+      "name": "City of Frederick",
+      "street": "200 W Grand",
+      "city": "Frederick",
+      "zip": "73542",
+      "employees": 75,
+      "industry": "Municipal Government",
+      "notes": "Includes police, fire, and public works departments"
+    },
+    {
+      "name": "Great Plains Technology Center - Tillman Kiowa Campus",
+      "street": "2001 E Gladstone",
+      "city": "Frederick",
+      "zip": "73542",
+      "employees": 30,
+      "industry": "Education and Workforce Training",
+      "notes": "Career and technical education for southwestern Oklahoma"
+    },
+    {
+      "name": "Memorial Health of Tillman County",
+      "street": "319 E Josephine Ave",
+      "city": "Frederick",
+      "zip": "73542",
+      "employees": 50,
+      "industry": "Healthcare",
+      "notes": "Critical Access Hospital under construction; expected to open Q4 2026 with approximately 115 jobs"
+    }
+  ],
+  "uniqueFacts": [
+    "In April 1905, President Theodore Roosevelt participated in a wolf hunt at Panther Springs in what is now Tillman County, accompanied by John R. Abernathy",
+    "The county was among the last areas of Oklahoma opened to settlement, with the Kiowa-Comanche-Apache lands allotted in 1901 and the Big Pasture area not opened until 1906",
+    "During World War II, Frederick Army Air Field trained B-25 bomber pilots; the facility is now Frederick Regional Airport used as an auxiliary airfield by Sheppard Air Force Base",
+    "The Tillman County Courthouse, built in 1921, is listed on the National Register of Historic Places and was designed by the architectural firm Tonini and Bramblett",
+    "Tillman County has been described as 'where cotton and wheat meet' and is a major producer of both crops, along with cattle ranching"
+  ],
+  "processServingNotes": [
+    "Tillman County is rural with a declining population; process servers should expect longer travel distances between residences, particularly in outlying towns like Tipton, Grandfield, and Davidson",
+    "Tribal jurisdiction areas exist within the county due to Apache Tribe historical lands; verify if defendant resides on tribal trust land before serving, as this may affect court jurisdiction",
+    "The courthouse maintains standard hours 8:00 AM to 4:00 PM; after-hours filings are not accepted. Process servers should plan accordingly for same-day service attempts"
+  ],
+  "heroLead": "Nestled in southwestern Oklahoma along the Red River, Tillman County is where cotton and wheat meet across 879 square miles of rolling prairie. From the historic 1921 courthouse in Frederick to the World War II airfield legacy, the county blends agricultural tradition with growing manufacturing. Whether you need process serving in Frederick, Grandfield, or Tipton, Just Legal Solutions covers all of Tillman County efficiently. Call (539) 367-6832 or visit /contact to get started.",
+  "faqs": [
+    {
+      "question": "What is the best way to serve process in rural Tillman County?",
+      "answer": "Due to Tillman County's rural nature with scattered population across 879 square miles, process serving requires careful planning. Frederick is the county seat and largest city, but defendants may reside in outlying towns like Grandfield, Tipton, or Davidson. We recommend coordinating service attempts during standard daylight hours and allowing extra time for travel between locations. Our team at Just Legal Solutions is familiar with the road network and can efficiently navigate the county. Call us at (539) 367-6832 to discuss your specific service needs."
+    },
+    {
+      "question": "Does tribal jurisdiction affect process serving in Tillman County?",
+      "answer": "Yes, portions of Tillman County fall within the tribal jurisdiction of the Apache Tribe of Oklahoma and the Fort Sill Apache Tribe. If the defendant resides on tribal trust land or restricted Indian allotment, state court jurisdiction may be limited. Our process servers research property status before attempting service in Tillman County to ensure proper jurisdiction. Contact Just Legal Solutions to verify whether your case involves tribal lands."
+    },
+    {
+      "question": "What are the courthouse hours and filing procedures in Tillman County?",
+      "answer": "The Tillman County Courthouse is located at 201 N Main Street in Frederick, Oklahoma, and is open Monday through Friday from 8:00 AM to 4:00 PM. The Court Clerk's office can be reached at 580-335-3023 for questions about filing requirements. All process serving returns must be filed with the Court Clerk at this location. For assistance with court filings in Tillman County, reach Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "How do I find someone in Tillman County for service of process?",
+      "answer": "Tillman County has a population of approximately 6,700 residents, with about half living in Frederick. For locating defendants, we recommend checking property records through the County Clerk at 580-335-3421, voter registration through the Election Board at 580-335-2287, or utility records. Our experienced process servers use skip-tracing techniques and local knowledge to locate individuals throughout Tillman County, including in smaller communities like Hollister, Loveland, and Manitou. Call (539) 367-6832 for locate services."
+    },
+    {
+      "question": "What should I know about serving businesses in Tillman County?",
+      "answer": "Tillman County's largest employer is Henniges Automotive in Frederick with approximately 350 employees, followed by Frederick Public Schools and the City of Frederick. When serving businesses, our process servers identify the registered agent on file with the Oklahoma Secretary of State and attempt service at the principal place of business during operating hours. For businesses in Tillman County's industrial park near Frederick Regional Airport, we coordinate service attempts accordingly. Contact Just Legal Solutions at (539) 367-6832 for business service in Tillman County."
+    },
+    {
+      "question": "Are there any special considerations for process serving near the Texas border?",
+      "answer": "Tillman County shares its southern border with Wichita County and Wilbarger County, Texas. Process servers must be careful not to cross into Texas when attempting service, as Oklahoma court jurisdiction ends at the state line. If the defendant has moved to Texas, service may need to be coordinated through Texas courts or a Texas-registered process server. Our team at Just Legal Solutions can determine the proper jurisdiction and coordinate interstate service when needed. Reach us at (539) 367-6832 for cross-border situations."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

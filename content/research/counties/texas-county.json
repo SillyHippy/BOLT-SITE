@@ -1,0 +1,127 @@
+{
+  "slug": "texas-county",
+  "countyName": "Texas County",
+  "countySeat": "Guymon",
+  "population": 20577,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "Texas County Courthouse",
+    "street": "319 N Main St",
+    "city": "Guymon",
+    "state": "OK",
+    "zip": "73942",
+    "phone": "(580) 338-3003",
+    "hours": "8:00am - 5:00pm, open during noon hour with limited staff",
+    "judicialDistrict": "1st Judicial District",
+    "oscnDbKey": "texas"
+  },
+  "majorCities": [
+    "Guymon",
+    "Hooker",
+    "Goodwell",
+    "Hardesty",
+    "Optima",
+    "Texhoma",
+    "Tyrone"
+  ],
+  "neighboringCounties": [
+    "cimarron-county",
+    "beaver-county",
+    "stevens-county-ks",
+    "seward-county-ks",
+    "morton-county-ks",
+    "ochiltree-county-tx",
+    "hansford-county-tx",
+    "sherman-county-tx"
+  ],
+  "tribalJurisdiction": [],
+  "majorEmployers": [
+    {
+      "name": "Seaboard Foods",
+      "street": "P.O. Box 148",
+      "city": "Guymon",
+      "zip": "73942",
+      "employees": 2400,
+      "industry": "Pork processing and hog production",
+      "notes": "Largest employer in Texas County and the Oklahoma Panhandle. Operates a million-square-foot pork processing plant in Guymon employing over 2,400 workers. Nation's third-largest pork producer."
+    },
+    {
+      "name": "Memorial Hospital of Texas County",
+      "street": "520 Medical Drive",
+      "city": "Guymon",
+      "zip": "73942",
+      "employees": 200,
+      "industry": "Healthcare",
+      "notes": "Critical access hospital serving Texas County and the surrounding Panhandle region."
+    },
+    {
+      "name": "Guymon Public Schools",
+      "street": "501 N. Academy St.",
+      "city": "Guymon",
+      "zip": "73942",
+      "employees": 400,
+      "industry": "Education",
+      "notes": "Largest school district in the Oklahoma Panhandle, serving a diverse student population."
+    },
+    {
+      "name": "Oklahoma Panhandle State University",
+      "street": "P.O. Box 430",
+      "city": "Goodwell",
+      "zip": "73939",
+      "employees": 150,
+      "industry": "Higher education",
+      "notes": "Public university founded in 1909. Offers associate and bachelor's degrees with strong agriculture and nursing programs."
+    },
+    {
+      "name": "Wind Farm Operations",
+      "street": "",
+      "city": "Guymon",
+      "zip": "73942",
+      "employees": 100,
+      "industry": "Renewable energy",
+      "notes": "Multiple wind farm operators in Texas County employing technicians and maintenance staff. Oklahoma ranks third nationally in wind energy capacity."
+    }
+  ],
+  "uniqueFacts": [
+    "Texas County is the second-largest county in Oklahoma by total area at 2,049 square miles, surpassed only by Osage County.",
+    "The county was part of the legendary 'No Man's Land' or 'Public Land Strip' from 1850 to 1890 - a 34-mile wide strip of land that belonged to no state or territory.",
+    "Texas County leads the nation in natural gas production from the Hugoton-Panhandle Field, one of the world's largest natural gas fields.",
+    "Guymon is the only city or town in Oklahoma with a Hispanic majority population, reflecting the diverse workforce drawn to agricultural and food processing industries.",
+    "The county is one of only four counties in the United States that borders the state it is named after - Texas County borders Texas to the south."
+  ],
+  "processServingNotes": [
+    "Texas County covers an enormous geographic area (2,049 sq mi) with widely dispersed population. Process servers should expect significant drive times between serves, particularly in rural areas with unmarked county roads.",
+    "The county has a large Hispanic population (54%). Process servers may encounter Spanish-speaking households and should be prepared with bilingual capabilities or translation services when needed.",
+    "Major industries include 24/7 agricultural operations and pork processing. Serves at industrial facilities like Seaboard Foods may require coordination with security and should be attempted during shift changes for best results."
+  ],
+  "heroLead": "Texas County anchors the Oklahoma Panhandle with Guymon as its county seat, spanning 2,049 square miles of High Plains agriculture and energy production. From the massive Seaboard Foods pork processing plant to the historic 1927 Texas County Courthouse on Main Street, this county blends industrial scale with frontier heritage. Contact Just Legal Solutions at (539) 367-6832 for experienced process serving across Texas County's vast landscape.",
+  "faqs": [
+    {
+      "question": "What is the best time to attempt service at the Seaboard Foods plant in Guymon?",
+      "answer": "Seaboard Foods operates a million-square-foot pork processing facility with multiple shifts. The most successful service attempts typically occur during shift changes (6:00-7:00 AM, 2:00-3:00 PM, and 10:00-11:00 PM) when employees are entering or exiting the facility. Contact the security office at the plant entrance on Highway 54 for coordination. For assistance with industrial serves in Texas County, call Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "Does Texas County have any tribal jurisdiction considerations for process serving?",
+      "answer": "No. Texas County is located in the Oklahoma Panhandle and is not within the jurisdictional boundaries of any federally recognized tribal nation. Unlike many eastern Oklahoma counties, process serving in Texas County falls entirely under state court jurisdiction. All civil process may be served according to standard Oklahoma state procedures under Title 12 O.S. without tribal coordination requirements."
+    },
+    {
+      "question": "How do I serve papers in the rural areas of Texas County with limited road signage?",
+      "answer": "Texas County's vast rural areas (over 2,000 square miles) often have unmarked county roads and rural route addresses. GPS may be unreliable in remote locations. Process servers should obtain detailed landmark directions from the client, verify addresses with the Texas County Assessor's Office at (580) 338-3060, and allow extra travel time. Contact Just Legal Solutions at (539) 367-6832 for experienced rural process serving throughout the Panhandle."
+    },
+    {
+      "question": "Where do I file court documents for Texas County cases?",
+      "answer": "The Texas County Courthouse is located at 319 N Main Street in Guymon, Oklahoma 73942. The Court Clerk's office is on the third floor (Suite 301) and handles filings for the District Court. Office hours are 8:00 AM to 5:00 PM Monday through Friday, with limited staff available during the noon hour. The Court Clerk can be reached at (580) 338-3003. Online case lookup is available through the Oklahoma State Courts Network at oscn.net."
+    },
+    {
+      "question": "What is the proper venue for serving subpoenas on Oklahoma Panhandle State University?",
+      "answer": "Oklahoma Panhandle State University is located in Goodwell, Texas County, at P.O. Box 430, Goodwell, OK 73939. For service on university personnel, attempts should be made at their primary campus office during regular business hours (8:00 AM - 4:30 PM). The university's main number is (580) 349-2611. Contact Just Legal Solutions for professional service of subpoenas and legal documents throughout Texas County."
+    },
+    {
+      "question": "Are there special considerations for serving the large immigrant population in Texas County?",
+      "answer": "Texas County has a significant immigrant population, with 23% of residents foreign-born and 45% speaking a language other than English at home. When serving these households, process servers should carry identification, speak clearly, and consider using Spanish-language documents when available. The Guymon community is tight-knit; professional courtesy and respectful communication are essential. For bilingual process serving assistance in Texas County, call Just Legal Solutions at (539) 367-6832."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

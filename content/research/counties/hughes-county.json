@@ -1,0 +1,124 @@
+{
+  "slug": "hughes-county",
+  "countyName": "Hughes County",
+  "countySeat": "Holdenville",
+  "population": 13371,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "Hughes County Courthouse",
+    "street": "200 N. Broadway",
+    "city": "Holdenville",
+    "state": "OK",
+    "zip": "74848",
+    "phone": "(405) 379-3384",
+    "hours": "Monday-Friday: 8:00 AM - 4:30 PM",
+    "judicialDistrict": "22nd District (Hughes and Seminole Counties)",
+    "oscnDbKey": "hughes"
+  },
+  "majorCities": [
+    "Holdenville",
+    "Wetumka",
+    "Dustin",
+    "Calvin",
+    "Stuart",
+    "Spaulding",
+    "Lamar",
+    "Gerty",
+    "Horntown",
+    "Atwood",
+    "Yeager",
+    "Allen"
+  ],
+  "neighboringCounties": [
+    "okfuskee-county",
+    "mcintosh-county",
+    "pittsburg-county",
+    "coal-county",
+    "pontotoc-county",
+    "seminole-county"
+  ],
+  "tribalJurisdiction": [
+    "Choctaw Nation of Oklahoma (southern half of county, south of Canadian River)",
+    "Muscogee (Creek) Nation (northern portion of county)"
+  ],
+  "majorEmployers": [
+    {
+      "name": "Allen Gamble Correctional Center (formerly Davis Correctional Facility)",
+      "street": "6888 E. 133rd Road",
+      "city": "Holdenville",
+      "zip": "74848",
+      "employees": 400,
+      "industry": "Corrections / Public Safety",
+      "notes": "1,723-bed medium/maximum security prison for men, operated by Oklahoma Department of Corrections. Formerly privately operated by CoreCivic, transitioned to state control in 2023. Named after fallen officer Sgt. Joe Allen Gamble Jr."
+    },
+    {
+      "name": "Tyson Foods (Oklahoma Swine Division / The Pork Group)",
+      "street": "201 Kingsberry Road",
+      "city": "Holdenville",
+      "zip": "74848",
+      "employees": 300,
+      "industry": "Agriculture / Food Processing",
+      "notes": "Hog farm and feed mill operations. One of the largest agricultural employers in Hughes County."
+    },
+    {
+      "name": "Holdenville General Hospital",
+      "street": "100 McDougal Drive",
+      "city": "Holdenville",
+      "zip": "74848",
+      "employees": 150,
+      "industry": "Healthcare",
+      "notes": "25-bed Critical Access Hospital, city-owned public trust. Opened in 1969, rebuilt after 2002 fire. Tier 1 Affiliate with St. Anthony Hospital since 2011."
+    },
+    {
+      "name": "Wes Watkins Technology Center",
+      "street": "7892 Highway 9",
+      "city": "Wetumka",
+      "zip": "74883",
+      "employees": 80,
+      "industry": "Education / Vocational Training",
+      "notes": "Career and technology education center serving Hughes County and surrounding area. Opened in 1992."
+    }
+  ],
+  "uniqueFacts": [
+    "Hughes County was the birthplace of legendary oilman T. Boone Pickens, born in Holdenville in 1928. The Grace M. Pickens Public Library in Holdenville is named for his mother.",
+    "Wetumka is home to the annual Sucker Days festival, held the last Saturday in September. It commemorates August 1950 when a traveling salesman sold promotional tickets for a circus that never came to town.",
+    "The county was originally part of both the Creek Nation (northern portion, within the Wewoka District) and the Choctaw Nation (southern portion, within Atoka and Tobucksy counties) before Oklahoma statehood in 1907.",
+    "Hughes County sits in the Sandstone Hills physiographic region, and is drained by three rivers: the North Canadian River, Canadian River, and Little River. The county contains Holdenville Lake and Wetumka Lake.",
+    "Camp Holmes, established in June 1834 near present-day Holdenville, served as a base for the Dodge-Leavenworth Expedition and was one of the earliest military installations in the region."
+  ],
+  "processServingNotes": [
+    "The Hughes County Courthouse is located at 200 N. Broadway in Holdenville, with the District Court Clerk's office on the first floor. Court hours are Monday through Friday, 8:00 AM to 4:30 PM. The courthouse is part of Oklahoma Judicial District 22, which also includes Seminole County.",
+    "Hughes County has significant tribal jurisdiction complexity due to the McGirt v. Oklahoma ruling. The northern portion falls within Muscogee (Creek) Nation reservation boundaries, while the southern half (south of the Canadian River) is within Choctaw Nation jurisdiction. Process servers should verify whether parties are tribal citizens, as this affects which court system has jurisdiction.",
+    "The Allen Gamble Correctional Center (formerly Davis Correctional Facility) at 6888 E. 133rd Road is a major employer and facility in Hughes County. Process serving at correctional facilities requires coordination with facility security and compliance with Oklahoma Department of Corrections procedures."
+  ],
+  "heroLead": "Hughes County, nestled in Oklahoma's south-central Sandstone Hills, blends rich Native American heritage with agricultural tradition and modern industry. From the historic streets of Holdenville, birthplace of oil legend T. Boone Pickens, to the winding Canadian River that divides Choctaw and Muscogee (Creek) tribal jurisdictions, this 815-square-mile county presents unique legal landscapes for process serving. Whether your case involves the Allen Gamble Correctional Center, Tyson Foods operations, or a residence along the shores of Holdenville Lake, Just Legal Solutions navigates Hughes County's complex jurisdictional terrain with local expertise. Contact us today at (539) 367-6832 or visit /contact to discuss your process serving needs.",
+  "faqs": [
+    {
+      "question": "Where is the Hughes County Courthouse located, and what are the court clerk's office hours?",
+      "answer": "The Hughes County Courthouse is located at 200 N. Broadway, Holdenville, OK 74848. The District Court Clerk's office, currently staffed by Sandy Moss, is open Monday through Friday from 8:00 AM to 4:30 PM. The courthouse has been at this location since 1965, when the current building replaced the original 1921 structure. For process serving inquiries, you can reach the court clerk at (405) 379-3384. If you need professional process serving assistance in Hughes County, call Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "What judicial district is Hughes County in, and what does that mean for my case?",
+      "answer": "Hughes County is part of Oklahoma's 22nd Judicial District, which also includes Seminole County. District Judge Trisha D. Smith presides in Hughes County. The district court has unlimited original jurisdiction over all justiciable matters including civil, criminal, family, and probate cases. Cases filed in Hughes County will be heard at the courthouse in Holdenville."
+    },
+    {
+      "question": "How does tribal jurisdiction affect process serving in Hughes County?",
+      "answer": "Hughes County has complex tribal jurisdictional boundaries. The northern portion of the county falls within the Muscogee (Creek) Nation reservation (Tukvpvtce District), while the southern half south of the Canadian River is within the Choctaw Nation's jurisdiction. Under the McGirt v. Oklahoma ruling, major crimes involving tribal citizens within these reservation boundaries fall under tribal or federal jurisdiction rather than state court. Process servers must verify whether parties are enrolled tribal citizens and determine the appropriate court system for service."
+    },
+    {
+      "question": "What are the largest employers in Hughes County?",
+      "answer": "The largest employers in Hughes County include the Allen Gamble Correctional Center (approximately 400 employees), a 1,723-bed medium/maximum security prison operated by the Oklahoma Department of Corrections; Tyson Foods (approximately 300 employees), which operates hog farm and feed mill operations in Holdenville; Holdenville General Hospital (approximately 150 employees), a 25-bed Critical Access Hospital; and Wes Watkins Technology Center in Wetumka, which provides vocational education. Agriculture, particularly cattle ranching and crop farming, also remains a significant part of the local economy."
+    },
+    {
+      "question": "What cities and towns are in Hughes County?",
+      "answer": "Hughes County includes two cities and ten towns. The cities are Holdenville (the county seat, population approximately 5,900) and Wetumka (population approximately 1,280). Incorporated towns include Calvin, Dustin, Stuart, Spaulding, Lamar, Gerty, Horntown, Atwood, Yeager, and Allen (the majority of which is in Pontotoc County). The total county population was estimated at 13,371 in 2024 by the U.S. Census Bureau."
+    },
+    {
+      "question": "How can I access court records for Hughes County online?",
+      "answer": "Hughes County court records are available through the Oklahoma State Courts Network (OSCN) at www.oscn.net. The database key for Hughes County is 'hughes'. You can search by case number, party name, or lower court case number. OSCN provides free public access to docket information, case filings, and court orders. For copies of filed documents or certified records, you may need to visit the court clerk's office in person or contact them at (405) 379-3384. For professional help navigating Hughes County court records and process serving, contact Just Legal Solutions at (539) 367-6832."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

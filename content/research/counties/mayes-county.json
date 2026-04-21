@@ -1,0 +1,131 @@
+{
+  "slug": "mayes-county",
+  "countyName": "Mayes County",
+  "countySeat": "Pryor Creek",
+  "population": 40144,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "Mayes County Courthouse",
+    "street": "One Court Place",
+    "city": "Pryor",
+    "state": "OK",
+    "zip": "74361",
+    "phone": "918-825-2185",
+    "hours": "Monday-Friday 9:00 AM - 5:00 PM (open at noon)",
+    "judicialDistrict": "12",
+    "oscnDbKey": "mayes"
+  },
+  "majorCities": [
+    "Pryor Creek",
+    "Chouteau",
+    "Locust Grove",
+    "Salina",
+    "Adair",
+    "Langley",
+    "Spavinaw",
+    "Disney",
+    "Sportsmen Acres",
+    "Strang",
+    "Pensacola",
+    "Grand Lake Towne"
+  ],
+  "neighboringCounties": [
+    "craig-county",
+    "delaware-county",
+    "cherokee-county",
+    "wagoner-county",
+    "rogers-county"
+  ],
+  "tribalJurisdiction": [
+    "Cherokee Nation"
+  ],
+  "majorEmployers": [
+    {
+      "name": "Google",
+      "street": "4581 Webb St",
+      "city": "Pryor",
+      "zip": "74361",
+      "employees": 500,
+      "industry": "Technology/Data Center",
+      "notes": "Google's second-largest data center in the world, located at MidAmerica Industrial Park"
+    },
+    {
+      "name": "MidAmerica Industrial Park",
+      "street": "900 MidAmerica Dr",
+      "city": "Pryor",
+      "zip": "74361",
+      "employees": 4500,
+      "industry": "Industrial Park",
+      "notes": "Oklahoma's largest industrial park, 9,000 acres, home to 80+ companies including five Fortune 500 firms"
+    },
+    {
+      "name": "Grand River Dam Authority (GRDA)",
+      "street": "8624 Hwy 412B",
+      "city": "Chouteau",
+      "zip": "74337",
+      "employees": 600,
+      "industry": "Public Power Utility",
+      "notes": "Oklahoma's largest public power electric utility, operates Pensacola Dam and Grand Lake o' the Cherokees"
+    },
+    {
+      "name": "Pryor Public Schools",
+      "street": "405 SW 1st St",
+      "city": "Pryor",
+      "zip": "74361",
+      "employees": 510,
+      "industry": "Education",
+      "notes": "Largest school district in the county serving approximately 2,936 students"
+    },
+    {
+      "name": "INTEGRIS Mayes County Medical Center",
+      "street": "111 N Bailey St",
+      "city": "Pryor",
+      "zip": "74361",
+      "employees": 300,
+      "industry": "Healthcare",
+      "notes": "Primary healthcare facility for Mayes County and surrounding region"
+    }
+  ],
+  "uniqueFacts": [
+    "Mayes County contains the site of the first white settlement in Oklahoma, established in 1796 when Major Jean Pierre Chouteau built a trading post near present-day Salina",
+    "The county was the location of two Civil War battles: the First and Second Battles of Cabin Creek, where Confederate General Stand Watie attempted to capture Union supply trains",
+    "Pensacola Dam, located between Disney and Langley, was Oklahoma's first hydroelectric power plant and is recognized as the longest multiple-arch dam in the world, spanning 4,284 feet",
+    "Union Mission, established near present-day Chouteau in 1820, was home to the first school (1821), first printing press (1835), and first book published in Oklahoma",
+    "The county is home to MidAmerica Industrial Park, the largest industrial park in Oklahoma and eighth-largest in the world, which was originally the Oklahoma Ordnance Works munitions plant during World War II"
+  ],
+  "processServingNotes": [
+    "The Mayes County Sheriff's Office Civil Department handles all civil process serving within the county. Civil documents must be filed with the Mayes County Court Clerk at 1 Court Place, Suite 200, Pryor, OK 74361",
+    "For civil paper service, the Sheriff's Civil Department requires an original and a service copy of paperwork, and the service fee is $50.00 per paper as of current rates",
+    "The county is part of the Cherokee Nation reservation, so tribal court jurisdiction may apply for matters involving tribal members or incidents on tribal trust land"
+  ],
+  "heroLead": "Nestled in the lake country of northeastern Oklahoma, Mayes County blends rich Cherokee heritage with modern industry, from the historic Pensacola Dam creating Grand Lake o' the Cherokees to Google's second-largest global data center at MidAmerica Industrial Park. Whether navigating civil process near the county seat of Pryor Creek or serving papers near the shores of Lake Hudson, local expertise matters. Call (539) 367-6832 or visit /contact to get started.",
+  "faqs": [
+    {
+      "question": "How do I get civil papers served in Mayes County?",
+      "answer": "All civil documents must first be filed with the Mayes County Court Clerk at One Court Place, Suite 200, Pryor, OK 74361. After filing, you may arrange service through the Mayes County Sheriff's Office Civil Division at 918-825-3535 or email civil@mayessheriff.org. You will need to provide an original and a service copy of your paperwork, along with a $50.00 service fee per paper. For professional process serving assistance, contact Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "What is the Cherokee Nation jurisdiction in Mayes County?",
+      "answer": "Mayes County is located entirely within the Cherokee Nation's 7,000 square-mile reservation in northeastern Oklahoma. This means Cherokee Nation tribal courts have jurisdiction over certain matters involving enrolled tribal members, including family law cases, juvenile matters, and some criminal offenses. Process servers should be aware that tribal court orders may require separate service procedures through Cherokee Nation courts."
+    },
+    {
+      "question": "Where is the Mayes County Courthouse located and what are the hours?",
+      "answer": "The Mayes County Courthouse is located at One Court Place, Pryor, OK 74361. The Court Clerk's office hours are Monday through Friday, 9:00 AM to 5:00 PM, open at noon. The courthouse houses District Court for the 12th Judicial District. You can reach the Court Clerk at 918-825-2185 for questions about filing documents or court procedures. For process serving needs in Mayes County, call Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "What are the major employers in Mayes County?",
+      "answer": "The largest employers include the MidAmerica Industrial Park with over 4,500 employees at 80+ companies, Google which operates its second-largest global data center with 500+ employees, the Grand River Dam Authority with approximately 600 employees, Pryor Public Schools with 510 employees, and INTEGRIS Mayes County Medical Center with around 300 employees. These employers span technology, manufacturing, education, healthcare, and public utilities."
+    },
+    {
+      "question": "How was Mayes County named and when was it founded?",
+      "answer": "Mayes County was formed at Oklahoma statehood on November 16, 1907, from parts of the Cherokee Nation and a small area of the Creek Nation. It was named in honor of Samuel Houston Mayes, who served as Principal Chief of the Cherokee Nation from 1895 to 1899. The county seat is Pryor Creek, named for Nathaniel Pryor, a member of the Lewis and Clark Expedition who established a trading post in the area. For process serving anywhere in Mayes County, contact Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "What is Pensacola Dam and why is it significant?",
+      "answer": "Pensacola Dam, located between Disney and Langley on State Highway 28 in Mayes County, was Oklahoma's first hydroelectric power plant when completed in 1940. The multiple-arch dam spans 4,284 feet across the Grand River and creates Grand Lake o' the Cherokees. It was constructed during the Great Depression with funding from the Public Works Administration and was listed on the National Register of Historic Places in 2003. The dam is operated by the Grand River Dam Authority (GRDA) and remains an important source of hydroelectric power for northeastern Oklahoma."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

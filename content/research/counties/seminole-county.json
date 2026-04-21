@@ -1,0 +1,127 @@
+{
+  "slug": "seminole-county",
+  "countyName": "Seminole County",
+  "countySeat": "Wewoka",
+  "population": 23351,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "Seminole County Courthouse",
+    "street": "120 S. Wewoka Ave.",
+    "city": "Wewoka",
+    "state": "OK",
+    "zip": "74884",
+    "phone": "(405) 257-6236",
+    "hours": "Monday through Friday, 8:00 AM to 4:00 PM",
+    "judicialDistrict": "22nd Judicial District (Seminole and Hughes Counties)",
+    "oscnDbKey": "seminole"
+  },
+  "majorCities": [
+    "Seminole",
+    "Wewoka",
+    "Konawa",
+    "Bowlegs",
+    "Maud",
+    "Cromwell",
+    "Lima",
+    "Sasakwa"
+  ],
+  "neighboringCounties": [
+    "okfuskee-county",
+    "hughes-county",
+    "pontotoc-county",
+    "pottawatomie-county"
+  ],
+  "tribalJurisdiction": [
+    "Seminole Nation of Oklahoma",
+    "Muscogee (Creek) Nation (eastern portion of county)"
+  ],
+  "majorEmployers": [
+    {
+      "name": "Latham Pool Products, Inc.",
+      "street": "Manufacturing facility in Seminole",
+      "city": "Seminole",
+      "zip": "74868",
+      "employees": 200,
+      "industry": "Manufacturing (fiberglass swimming pools)",
+      "notes": "Opened fiberglass manufacturing facility in 2023; largest designer, manufacturer, and marketer of in-ground residential swimming pools in North America"
+    },
+    {
+      "name": "Seminole State College",
+      "street": "2701 Boren Blvd",
+      "city": "Seminole",
+      "zip": "74868",
+      "employees": 150,
+      "industry": "Higher Education",
+      "notes": "Public community college with approximately 1,471 enrolled students as of 2023; part of Oklahoma State Regents for Higher Education system"
+    },
+    {
+      "name": "Seminole Nation of Oklahoma",
+      "street": "36645 US-270",
+      "city": "Wewoka",
+      "zip": "74884",
+      "employees": 200,
+      "industry": "Tribal Government/Gaming",
+      "notes": "Operates three casino locations (Seminole Nation Casino, Rivermist Casino, Wewoka Trading Post Casino); approximately 17,000 enrolled tribal citizens; employs staff in health services, education, housing, and law enforcement"
+    },
+    {
+      "name": "Seminole Public Schools",
+      "street": "",
+      "city": "Seminole",
+      "zip": "74868",
+      "employees": 200,
+      "industry": "Education (K-12)",
+      "notes": "Largest school district in the county serving students in Seminole and surrounding areas"
+    },
+    {
+      "name": "Wewoka Indian Health Center",
+      "street": "36640 US-270",
+      "city": "Wewoka",
+      "zip": "74884",
+      "employees": 80,
+      "industry": "Healthcare",
+      "notes": "Federally operated clinic providing outpatient services including general medicine, dental, pharmacy, optometry, and behavioral health to Native Americans and eligible patients"
+    }
+  ],
+  "uniqueFacts": [
+    "The Greater Seminole Field, discovered in 1923-1926, was once the largest oil-producing region in the world, containing an estimated 822 million barrels of oil and producing 18% of all Oklahoma oil between 1926 and 1936",
+    "The Maud oil field, discovered in 1927, was the first oil discovery in the world using reflection seismology, marking the beginning of modern geophysical oil exploration methods",
+    "The county's footprint is nearly identical to the pre-statehood Seminole Nation reservation boundaries, making it one of the few Oklahoma counties that directly corresponds to historic tribal territory",
+    "Wewoka, the county seat, was named for the Creek word meaning 'Barking Water' after the sound of nearby waterfalls; it served as the Seminole Nation capital after the Civil War",
+    "The Seminole County Courthouse, built in 1927 and expanded in 1939 with a Works Progress Administration project, is listed on the National Register of Historic Places"
+  ],
+  "processServingNotes": [
+    "Seminole County is within Oklahoma's 22nd Judicial District; process servers should be aware that cases may involve parties in both Seminole and Hughes counties",
+    "Much of Seminole County consists of tribal trust property, Indian allotments, and restricted Indian lands under Seminole Nation jurisdiction; service of process on tribal members or within restricted lands may require coordination with Seminole Nation authorities",
+    "The county seat is Wewoka, but the largest city Seminole is approximately 12 miles southwest; process servers should verify the correct municipal court for city-level service"
+  ],
+  "heroLead": "Located in east-central Oklahoma between the North Canadian and Canadian Rivers, Seminole County encompasses 640 square miles of historic Seminole Nation territory. From the world-famous Greater Seminole Oil Field that transformed global petroleum production in the 1920s to today's diverse economy of manufacturing, education, and agriculture, the county blends deep Native American heritage with modern industry. Let Just Legal Solutions handle your process serving needs throughout Seminole County. Call (539) 367-6832 or visit /contact.",
+  "faqs": [
+    {
+      "question": "What is the difference between the county seat Wewoka and the city of Seminole?",
+      "answer": "Wewoka is the county seat of Seminole County and was historically the capital of the Seminole Nation after the Civil War. The name means 'Barking Water' in Creek. Seminole is the largest city in the county, located about 12 miles southwest of Wewoka. For process serving in Seminole County, the district courthouse is located in Wewoka at 120 S. Wewoka Ave, while the city of Seminole has its own municipal court at 401 N Main St."
+    },
+    {
+      "question": "How does tribal jurisdiction affect process serving in Seminole County?",
+      "answer": "Seminole County was historically the Seminole Nation reservation, and today much of the land remains tribal trust property, restricted Indian lands, or dependent Indian communities. The Seminole Nation of Oklahoma retains jurisdiction over these areas. Process servers should be aware that service involving tribal members or within restricted lands may require coordination with Seminole Nation legal authorities. For questions about service requirements in Seminole County, contact Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "What is the Greater Seminole Field and why is it significant?",
+      "answer": "The Greater Seminole Field, discovered in 1923-1926, was one of the most important oil fields ever found and was briefly the world's largest oil-producing region. It contained an estimated 822 million barrels of oil across 39 separate pools. During the peak, the county's population tripled as 20,000 oil workers flooded in. The field is still producing today, and oil remains part of the local economy alongside agriculture and manufacturing."
+    },
+    {
+      "question": "Which judicial district handles Seminole County court cases?",
+      "answer": "Seminole County is part of Oklahoma's 22nd Judicial District, which also includes Hughes County. The district court is located in the historic Seminole County Courthouse at 120 S. Wewoka Ave in Wewoka. The court clerk's office handles civil, criminal, probate, juvenile, domestic relations, and small claims cases. Hours are Monday through Friday from 8:00 AM to 4:00 PM, and the phone number is (405) 257-6236."
+    },
+    {
+      "question": "What are the major industries and employers in Seminole County today?",
+      "answer": "While oil was historically dominant, today's economy includes manufacturing (Latham Pool Products operates a fiberglass pool manufacturing facility), education (Seminole State College), healthcare (Wewoka Indian Health Center and East Central Oklahoma Family Health Center), tribal gaming operations, agriculture, and retail. The county's median household income is approximately $48,000. For process serving to any of these employers, call Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "What should I know about the historic Seminole County Courthouse?",
+      "answer": "The Seminole County Courthouse at 120 S. Wewoka Ave was originally built in 1927 and expanded in 1939 with a Works Progress Administration project. It is listed on the National Register of Historic Places. The courthouse houses the offices of the court clerk, county clerk, and district court for the 22nd Judicial District. It serves as the primary location for filing and serving legal documents in Seminole County. For professional process serving assistance in Seminole County, contact Just Legal Solutions."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

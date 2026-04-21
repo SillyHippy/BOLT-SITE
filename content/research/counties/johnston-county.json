@@ -1,0 +1,155 @@
+{
+  "slug": "johnston-county",
+  "countyName": "Johnston County",
+  "countySeat": "Tishomingo",
+  "population": 10272,
+  "populationYear": 2020,
+  "courthouse": {
+    "name": "Johnston County Courthouse",
+    "street": "403 W. Main",
+    "city": "Tishomingo",
+    "state": "OK",
+    "zip": "73460",
+    "phone": "(580) 371-3281",
+    "hours": "Monday-Friday 8:30 AM - 4:30 PM",
+    "judicialDistrict": "20th Judicial District",
+    "oscnDbKey": "johnston"
+  },
+  "majorCities": [
+    "Tishomingo",
+    "Bromide",
+    "Mannsville",
+    "Milburn",
+    "Mill Creek",
+    "Ravia",
+    "Wapanucka"
+  ],
+  "neighboringCounties": [
+    "pontotoc-county",
+    "coal-county",
+    "atoka-county",
+    "bryan-county",
+    "marshall-county",
+    "carter-county",
+    "murray-county"
+  ],
+  "tribalJurisdiction": [
+    "Chickasaw Nation"
+  ],
+  "majorEmployers": [
+    {
+      "name": "Murray State College",
+      "street": "1 Murray Campus St",
+      "city": "Tishomingo",
+      "zip": "73460",
+      "employees": 2400,
+      "industry": "Education",
+      "notes": "Public community college founded in 1908, approximately 2,400 students"
+    },
+    {
+      "name": "Mercy Hospital Tishomingo",
+      "street": "1000 S. Byrd St",
+      "city": "Tishomingo",
+      "zip": "73460",
+      "employees": 100,
+      "industry": "Health Care",
+      "notes": "Formerly Johnston Memorial Hospital, 25-bed critical access hospital"
+    },
+    {
+      "name": "Sundowner Trailers",
+      "street": "9805 OK Hwy 48 South",
+      "city": "Coleman",
+      "zip": "73432",
+      "employees": 450,
+      "industry": "Manufacturing",
+      "notes": "Horse and livestock trailer manufacturer"
+    },
+    {
+      "name": "Tape-Matics",
+      "street": "1539 Industrial Ln",
+      "city": "Tishomingo",
+      "zip": "73460",
+      "employees": 20,
+      "industry": "Precision Machining",
+      "notes": "Supplier of precision machined components for aircraft and heavy industry since 1975"
+    },
+    {
+      "name": "Martin Marietta Materials",
+      "street": "",
+      "city": "Tishomingo",
+      "zip": "73460",
+      "employees": 50,
+      "industry": "Mining/Materials",
+      "notes": "Granite quarry operations, part of Meridian Aggregates"
+    },
+    {
+      "name": "Vulcan Materials Company",
+      "street": "",
+      "city": "Tishomingo",
+      "zip": "73460",
+      "employees": 40,
+      "industry": "Mining/Materials",
+      "notes": "Construction aggregates and materials"
+    },
+    {
+      "name": "U.S. Silica",
+      "street": "",
+      "city": "Tishomingo",
+      "zip": "73460",
+      "employees": 35,
+      "industry": "Mining/Materials",
+      "notes": "Glass sand and silica production"
+    },
+    {
+      "name": "Mill Creek Dolomite",
+      "street": "",
+      "city": "Mill Creek",
+      "zip": "73460",
+      "employees": 30,
+      "industry": "Mining/Materials",
+      "notes": "Dolomite and limestone mining"
+    }
+  ],
+  "uniqueFacts": [
+    "The Chickasaw National Capitol Building, constructed in 1898 from red granite quarried locally, served as the seat of Chickasaw government until Oklahoma statehood in 1907, then became the Johnston County Courthouse in 1910. The Chickasaw Nation repurchased it in 1992 and it now operates as a museum.",
+    "Johnston County is the birthplace of the Oklahoma 4-H program, which began as the Boys Corn Club in Tishomingo in 1909 with 50 boys enrolled under the direction of W.D. Bentley.",
+    "The county produced the only father-son governors in Oklahoma history: William H. 'Alfalfa Bill' Murray (1931-1935), known as the father of the Oklahoma Constitution, and his son Johnston Murray (1951-1955), the only recorded Native American to serve as governor of Oklahoma. Both are buried in Tishomingo City Cemetery.",
+    "Entertainer Gene Autry was raised in Ravia, Johnston County, and Chickasaw storyteller Te Ata (Mary Frances Fisher) was born in Emet in the county.",
+    "The Tishomingo National Wildlife Refuge, established in 1946, encompasses 16,464 acres in southern Johnston County and provides habitat for more than 284 bird species, including nearly 100,000 ducks and 45,000 geese that migrate to the refuge annually."
+  ],
+  "processServingNotes": [
+    "The 20th Judicial District serves Johnston County along with Carter, Love, Marshall, and Murray counties. Process servers should be aware that cases may involve cross-county filings within this district.",
+    "Chickasaw Nation tribal jurisdiction covers all of Johnston County. Process servers must be aware of tribal sovereignty considerations and potential concurrent jurisdiction issues when serving legal documents involving tribal members or Chickasaw Nation businesses.",
+    "The Johnston County Courthouse is located at 403 W. Main in Tishomingo and is open Monday through Friday from 8:30 AM to 4:30 PM. Court filings and record requests should be directed to the Court Clerk's office at (580) 371-3281."
+  ],
+  "heroLead": "Nestled in the heart of south-central Oklahoma, Johnston County is a land of deep Chickasaw heritage, where the historic Tishomingo National Capitol stands as testament to a proud tribal legacy. From the 4-H program that began here in 1909 to the precision manufacturing and mining operations that drive today's economy, Johnston County blends rich history with modern industry. Whether you're navigating legal matters at the courthouse on 403 W. Main or serving process across the county's 658 square miles, Just Legal Solutions has you covered. Call (539) 367-6832 or visit /contact.",
+  "faqs": [
+    {
+      "question": "What is the history behind the Johnston County Courthouse?",
+      "answer": "The Johnston County Courthouse has a unique history. The current courthouse at 403 W. Main in Tishomingo was originally built in 1898 as the Chickasaw National Capitol Building, constructed from red granite quarried from Governor R.M. Harris's Pennington Creek quarry. It served as the seat of Chickasaw government until Oklahoma statehood in 1907, when the Chickasaw Nation was forced to vacate. In 1910, the building was sold to Johnston County for use as a courthouse. The Chickasaw Nation repurchased the historic building in 1992 and now operates it as a museum, while Johnston County courthouse operations continue at the same location. The building is listed on the National Register of Historic Places."
+    },
+    {
+      "question": "How does Chickasaw Nation jurisdiction affect legal matters in Johnston County?",
+      "answer": "The entire area of Johnston County falls within the Chickasaw Nation's tribal jurisdiction. This means that legal matters involving tribal members, tribal land, or Chickasaw Nation businesses may involve tribal courts or concurrent jurisdiction between tribal and state courts. Process servers working in Johnston County should be aware that service of process on tribal members may require coordination with Chickasaw Nation court authorities, and certain legal matters may be subject to tribal law rather than state law. For assistance navigating tribal jurisdiction issues, call (539) 367-6832."
+    },
+    {
+      "question": "What are the main industries driving Johnston County's economy?",
+      "answer": "Johnston County's economy is driven by a mix of education, health care, manufacturing, and mining. Murray State College in Tishomingo serves approximately 2,400 students and is a major employer. Mercy Hospital Tishomingo provides health care services to the region. Manufacturing includes Sundowner Trailers in Coleman, which employs around 450 people, and Tape-Matics in Tishomingo, a precision machining company. The county is also a leading producer of sand, gravel, granite, and limestone in Oklahoma, with operations from Martin Marietta, Vulcan Materials, U.S. Silica, and Mill Creek Dolomite. Agriculture and cattle operations also remain significant economic contributors."
+    },
+    {
+      "question": "What major recreational attractions are available in Johnston County?",
+      "answer": "Johnston County offers several notable recreational attractions. The Tishomingo National Wildlife Refuge, established in 1946, covers 16,464 acres in the southern part of the county and provides excellent wildlife viewing, fishing, hunting, and hiking opportunities. The Blue River Public Hunting and Fishing Area is popular with anglers, stocked with trout each fall. Lake Texoma extends into southern Johnston County, offering boating and fishing. The Chickasaw National Capitol Museum in Tishomingo preserves Chickasaw history and culture. Murray State College also provides educational and cultural events open to the community."
+    },
+    {
+      "question": "Who were some notable people from Johnston County?",
+      "answer": "Johnston County has produced several notable figures. William H. 'Alfalfa Bill' Murray, who served as Oklahoma governor from 1931-1935 and is considered the father of the Oklahoma Constitution, lived in Tishomingo. His son Johnston Murray, Oklahoma's governor from 1951-1955, was the only recorded Native American to serve in that office. Entertainment legend Gene Autry was raised in Ravia. Te Ata Fisher, a renowned Chickasaw storyteller and actress, was born in Emet. Bill Anoatubby, current governor of the Chickasaw Nation, spent much of his youth in Tishomingo and graduated from Tishomingo High School in 1964. For more information about Johnston County, call (539) 367-6832."
+    },
+    {
+      "question": "How do I file court documents or access court records in Johnston County?",
+      "answer": "Court documents in Johnston County are filed at the Johnston County Courthouse located at 403 W. Main, Tishomingo, OK 73460. The Court Clerk's office can be reached at (580) 371-3281 and is open Monday through Friday from 8:30 AM to 4:30 PM. Court records can also be accessed online through the Oklahoma State Courts Network (OSCN) at www.oscn.net using the county database key 'johnston'. The Johnston County District Court is part of the 20th Judicial District, which also serves Carter, Love, Marshall, and Murray counties. For professional process serving assistance in Johnston County, contact (539) 367-6832."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

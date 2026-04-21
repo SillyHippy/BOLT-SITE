@@ -1,0 +1,117 @@
+{
+  "slug": "noble-county",
+  "countyName": "Noble County",
+  "countySeat": "Perry",
+  "population": 10896,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "Noble County Courthouse",
+    "street": "300 Courthouse Drive",
+    "city": "Perry",
+    "state": "OK",
+    "zip": "73077",
+    "phone": "580-336-2141",
+    "hours": "Monday-Friday 8:00 AM-4:30 PM",
+    "judicialDistrict": "8th Judicial District",
+    "oscnDbKey": "noble"
+  },
+  "majorCities": [
+    "Perry",
+    "Morrison",
+    "Billings",
+    "Marland",
+    "Red Rock",
+    "Lucien"
+  ],
+  "neighboringCounties": [
+    "garfield-county",
+    "logan-county",
+    "payne-county",
+    "pawnee-county",
+    "kay-county"
+  ],
+  "tribalJurisdiction": [
+    "Otoe-Missouria Tribe",
+    "Ponca Tribe of Indians of Oklahoma"
+  ],
+  "majorEmployers": [
+    {
+      "name": "Charles Machine Works (Ditch Witch)",
+      "street": "1959 W. Fir St.",
+      "city": "Perry",
+      "zip": "73077",
+      "employees": 1700,
+      "industry": "Manufacturing (underground construction equipment)",
+      "notes": "World headquarters for Ditch Witch brand trenchers and underground construction equipment. Largest employer in Noble County."
+    },
+    {
+      "name": "Stillwater Medical Perry",
+      "street": "501 E. Fir Ave.",
+      "city": "Perry",
+      "zip": "73077",
+      "employees": 150,
+      "industry": "Healthcare",
+      "notes": "Critical access hospital providing emergency, inpatient, and outpatient services."
+    },
+    {
+      "name": "Perry Public Schools",
+      "street": "900 Fir St.",
+      "city": "Perry",
+      "zip": "73077",
+      "employees": 208,
+      "industry": "Education",
+      "notes": "Serves approximately 1,200 students across 4 schools."
+    },
+    {
+      "name": "RL Hudson & Company",
+      "street": "3200 N. 7th St.",
+      "city": "Perry",
+      "zip": "73077",
+      "employees": 100,
+      "industry": "Manufacturing (plastic molding)",
+      "notes": "Injection-molded plastic parts manufacturer for automotive and industrial applications."
+    }
+  ],
+  "uniqueFacts": [
+    "Noble County was named for John Willock Noble, U.S. Secretary of the Interior who served under President Benjamin Harrison and oversaw the opening of the Unassigned Lands and Cherokee Outlet.",
+    "The county seat, Perry, was named after James A. Perry, a railroad official. The town grew rapidly after the Cherokee Outlet Land Run of 1893.",
+    "Ditch Witch, the world's leading manufacturer of underground construction equipment, has its global headquarters in Perry since the company was founded in 1949.",
+    "Noble County was part of the Cherokee Outlet and was opened to settlement by the Cherokee Outlet Land Run on September 16, 1893.",
+    "The county is home to both the Otoe-Missouria Tribe and the Ponca Tribe of Indians of Oklahoma, both of which have tribal jurisdictional presence."
+  ],
+  "processServingNotes": [
+    "Noble County Courthouse is located at 300 Courthouse Drive in Perry, OK 73077, open Monday-Friday 8:00 AM to 4:30 PM. Process servers should check in with Court Clerk at 580-336-2141.",
+    "The Otoe-Missouria Tribe and Ponca Tribe have jurisdictional presence in Noble County. Process servers should verify whether service involves tribal members or tribal lands, as this may require coordination with tribal court systems.",
+    "Noble County is part of the 8th Judicial District. District court records can be accessed through OSCN.net."
+  ],
+  "heroLead": "Noble County, located in north-central Oklahoma, is a rural agricultural community known as the home of Ditch Witch, the world's leading manufacturer of underground construction equipment. From the rolling prairie wheat fields surrounding Perry to the historic Cherokee Outlet lands, the county blends manufacturing innovation with agricultural heritage. For reliable process serving throughout Noble County, call Just Legal Solutions at (539) 367-6832 or visit /contact.",
+  "faqs": [
+    {
+      "question": "Where is the Noble County Courthouse located and what are the court clerk's hours?",
+      "answer": "The Noble County Courthouse is located at 300 Courthouse Drive, Perry, OK 73077. The Court Clerk's office is open Monday through Friday from 8:00 AM to 4:30 PM and can be reached at 580-336-2141. The courthouse houses the 8th Judicial District Court. For process serving assistance in Noble County, call Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "Does tribal jurisdiction affect process serving in Noble County?",
+      "answer": "Yes, Noble County has tribal jurisdictional presence from both the Otoe-Missouria Tribe and the Ponca Tribe of Indians of Oklahoma. When serving tribal members or on tribal trust land, process servers may need to coordinate with tribal court systems. It is important to verify if the defendant is an enrolled tribal member or if the property is tribal trust land, as service requirements may differ. Contact Just Legal Solutions for guidance on tribal jurisdiction issues."
+    },
+    {
+      "question": "What are the major employers in Noble County?",
+      "answer": "The largest employer by far is Charles Machine Works (Ditch Witch), headquartered in Perry with approximately 1,700 employees. Other significant employers include Stillwater Medical Perry (150 employees), Perry Public Schools (208 employees), and RL Hudson & Company (100 employees). The county's economy is anchored in manufacturing and healthcare. For business-related process serving, call Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "When was Noble County founded and what is its history?",
+      "answer": "Noble County was founded in 1893 when the Cherokee Outlet was opened to settlement by land run on September 16. The county was named for John Willock Noble, who served as U.S. Secretary of the Interior from 1889 to 1893 under President Benjamin Harrison. The county seat, Perry, was named after railroad official James A. Perry. For process serving anywhere in Noble County, contact Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "What cities and towns are in Noble County?",
+      "answer": "Noble County includes the city of Perry (county seat) and the towns of Morrison, Billings, Marland, Red Rock, and Lucien. The county also contains unincorporated communities including Del City and Sumner. Perry is the largest community with approximately 5,000 residents and serves as the commercial and governmental hub."
+    },
+    {
+      "question": "What is the population and geography of Noble County?",
+      "answer": "Noble County has a population of approximately 10,896 residents (2024 estimate) and covers 743 square miles in north-central Oklahoma. The terrain is primarily rolling prairie, part of the Red Bed Plains, and is largely agricultural with wheat and cattle as the primary products. The county is approximately 60 miles north of Oklahoma City. For process serving throughout Noble County, contact Just Legal Solutions at (539) 367-6832."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

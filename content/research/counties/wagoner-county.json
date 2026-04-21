@@ -1,0 +1,147 @@
+{
+  "slug": "wagoner-county",
+  "countyName": "Wagoner County",
+  "countySeat": "Wagoner",
+  "population": 91257,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "Wagoner County Courthouse",
+    "street": "307 E. Cherokee Street",
+    "city": "Wagoner",
+    "state": "OK",
+    "zip": "74467",
+    "phone": "918-485-2216",
+    "hours": "Monday through Friday, 8 am to 4:30 pm",
+    "judicialDistrict": "15th Judicial District",
+    "oscnDbKey": "wagoner"
+  },
+  "majorCities": [
+    "Coweta",
+    "Wagoner",
+    "Broken Arrow",
+    "Okay",
+    "Porter",
+    "Tullahassee",
+    "Redbird",
+    "Bixby",
+    "Catoosa"
+  ],
+  "neighboringCounties": [
+    "rogers-county",
+    "mayes-county",
+    "cherokee-county",
+    "muskogee-county",
+    "tulsa-county"
+  ],
+  "tribalJurisdiction": [
+    "Cherokee Nation",
+    "Muscogee (Creek) Nation"
+  ],
+  "majorEmployers": [
+    {
+      "name": "Unarco Industries LLC",
+      "street": "400 SE 15th Street",
+      "city": "Wagoner",
+      "zip": "74467",
+      "employees": 300,
+      "industry": "Shopping cart manufacturing",
+      "notes": "One of the largest shopping cart manufacturers in North America, producing approximately one million carts annually."
+    },
+    {
+      "name": "Zeeco Inc",
+      "street": "22151 E 91st St S",
+      "city": "Broken Arrow",
+      "zip": "74014",
+      "employees": 249,
+      "industry": "Energy/combustion equipment manufacturing",
+      "notes": "Headquarters for combustion and environmental equipment manufacturer."
+    },
+    {
+      "name": "Blue Bell Creameries",
+      "street": "8201 E Highway 51",
+      "city": "Broken Arrow",
+      "zip": "74014",
+      "employees": 200,
+      "industry": "Food processing/ice cream manufacturing",
+      "notes": "One of three Blue Bell manufacturing plants."
+    },
+    {
+      "name": "Wagoner Community Hospital",
+      "street": "1200 West Cherokee Street",
+      "city": "Wagoner",
+      "zip": "74467",
+      "employees": 150,
+      "industry": "Healthcare",
+      "notes": "Critical access hospital serving Wagoner County."
+    },
+    {
+      "name": "Broken Arrow Public Schools",
+      "street": "701 S. Main Street",
+      "city": "Broken Arrow",
+      "zip": "74012",
+      "employees": 2400,
+      "industry": "Education",
+      "notes": "Largest employer in Wagoner County area."
+    },
+    {
+      "name": "Coweta Public Schools",
+      "street": "14540 S. 302nd E. Ave",
+      "city": "Coweta",
+      "zip": "74429",
+      "employees": 400,
+      "industry": "Education",
+      "notes": "Serves students in the Coweta area."
+    },
+    {
+      "name": "Walmart",
+      "street": "410 S Dewey Ave",
+      "city": "Wagoner",
+      "zip": "74467",
+      "employees": 200,
+      "industry": "Retail",
+      "notes": "Major retail employer in the county seat."
+    }
+  ],
+  "uniqueFacts": [
+    "Wagoner County was named for Henry 'Bigfoot' Wagoner, a Katy Railroad dispatcher who requested a rail switch be built at the site that would become the city of Wagoner.",
+    "The Battle of Flat Rock (also called Hay Camp Action) was fought in the county in September 1864 and is considered the last Confederate victory of the Civil War.",
+    "Wagoner was the first incorporated town in Indian Territory, receiving its charter on January 4, 1896.",
+    "Unarco Industries in Wagoner produces approximately one million shopping carts each year, supplying about 50% of all shopping carts in use in North America.",
+    "Fort Gibson Lake, impounded in 1953 on the Grand River, covers 19,900 surface acres with 225 miles of shoreline and is a major recreation destination."
+  ],
+  "processServingNotes": [
+    "Wagoner County Courthouse is open Monday through Friday from 8 am to 4:30 pm and remains open through the lunch hour. The Court Clerk can be reached at 918-485-4508 for court-related filings.",
+    "The Wagoner County Sheriff's Office Civil Process Division handles service of process; their office can be reached at 918-485-3124. Eviction-related Writs of Assistance must be coordinated through both the Court Clerk and Sheriff's Office.",
+    "The county has two tribal jurisdictions to consider: Cherokee Nation covers the eastern portion and Muscogee (Creek) Nation covers the western portion. Process servers should be aware that tribal lands may have different service requirements."
+  ],
+  "heroLead": "Nestled in northeastern Oklahoma's Ozark Highlands, Wagoner County spans 591 square miles where the Arkansas, Verdigris, and Grand rivers converge, creating the fertile Three Forks region that has drawn settlers since prehistoric times. From the Civil War's Battle of Flat Rock to the rail hub founded by Henry 'Bigfoot' Wagoner, this rapidly growing county blends rich Native American heritage with modern manufacturing and lake recreation centered on 19,900-acre Fort Gibson Lake. For trusted legal document service throughout Wagoner County, call (539) 367-6832 or visit /contact.",
+  "faqs": [
+    {
+      "question": "Where is the Wagoner County Courthouse located and what are its hours?",
+      "answer": "The Wagoner County Courthouse is located at 307 E. Cherokee Street, Wagoner, OK 74467. The courthouse is open Monday through Friday from 8 am to 4:30 pm and remains open through the lunch hour. For court clerk services, call 918-485-4508. The county clerk's office can be reached at 918-485-2216 for general county matters."
+    },
+    {
+      "question": "What judicial district is Wagoner County in?",
+      "answer": "Wagoner County is part of Oklahoma's 15th Judicial District, which also includes Adair, Cherokee, Muskogee, and Sequoyah counties. Cases filed in Wagoner County District Court are managed through this multi-county judicial district. Court records can be searched online through the Oklahoma State Courts Network (OSCN) by selecting 'Wagoner' from the county dropdown menu. For professional process serving assistance, call (539) 367-6832."
+    },
+    {
+      "question": "Which tribal nations have jurisdiction in Wagoner County?",
+      "answer": "Wagoner County falls within the jurisdiction of two federally recognized tribal nations: the Cherokee Nation and the Muscogee (Creek) Nation. The eastern portion of the county is within Cherokee Nation reservation boundaries, while the western portion falls under Muscogee (Creek) Nation jurisdiction. Both nations' lands were affirmed as reservation status in 2020 under the McGirt v. Oklahoma precedent. Process servers should be aware that tribal jurisdiction may affect criminal cases and certain civil matters on tribal lands."
+    },
+    {
+      "question": "What are the major cities and towns in Wagoner County?",
+      "answer": "Wagoner County includes the cities of Coweta, Wagoner (county seat), Broken Arrow (partial), Bixby (partial), Catoosa (partial), and Tulsa (partial). Incorporated towns include Okay, Porter, Tullahassee, Redbird, and Fair Oaks (partial). Census-designated places include Clarksville, Mallard Bay, Rocky Point, Taylor Ferry, Toppers, and Whitehorn Cove. Each municipality has its own municipal court for local ordinance violations."
+    },
+    {
+      "question": "How do I file a Writ of Assistance for eviction in Wagoner County?",
+      "answer": "To file a Writ of Assistance in Wagoner County, first obtain a valid court order or judgment. File an application with the Wagoner County Court Clerk's office requesting the Sheriff's assistance. Pay applicable filing fees and present the application to a judge for approval. Once approved, file the writ with the Court Clerk, then deliver it to the Wagoner County Sheriff's Office at 918-485-3124. In eviction cases, the deputy will post up to a 72-hour lockout notice before removing tenants. For professional process serving help, contact (539) 367-6832."
+    },
+    {
+      "question": "What are the largest employers in Wagoner County?",
+      "answer": "Wagoner County's economy is diverse, with major employers including Unarco Industries (shopping cart manufacturing), Zeeco Inc (energy equipment), Blue Bell Creameries (ice cream production), Wagoner Community Hospital, Broken Arrow Public Schools, Coweta Public Schools, and Walmart. Manufacturing is a significant sector, with companies producing shopping carts, energy combustion equipment, and food products. Agriculture remains important, particularly soybean and sod farming. The county is the 7th most populous in Oklahoma and has experienced rapid growth as part of the Tulsa metropolitan area. For process serving to any of these employers, call (539) 367-6832."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

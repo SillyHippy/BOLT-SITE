@@ -1,0 +1,140 @@
+{
+  "slug": "harper-county",
+  "countyName": "Harper County",
+  "countySeat": "Buffalo",
+  "population": 3190,
+  "populationYear": 2023,
+  "courthouse": {
+    "name": "Harper County Courthouse",
+    "street": "311 SE 1st St.",
+    "city": "Buffalo",
+    "state": "OK",
+    "zip": "73834",
+    "phone": "(580) 735-2010",
+    "hours": "8:00 AM - 4:00 PM, Monday - Friday",
+    "judicialDistrict": "1st District",
+    "oscnDbKey": "harper"
+  },
+  "majorCities": [
+    "Buffalo",
+    "Laverne",
+    "May",
+    "Rosston"
+  ],
+  "neighboringCounties": [
+    "comanche-county-ks",
+    "woods-county",
+    "woodward-county",
+    "ellis-county",
+    "beaver-county",
+    "clark-county-ks"
+  ],
+  "tribalJurisdiction": [],
+  "majorEmployers": [
+    {
+      "name": "Oklahoma Department of Transportation Division 6",
+      "street": "US-64 west of Buffalo",
+      "city": "Buffalo",
+      "zip": "73834",
+      "employees": 156,
+      "industry": "Government/Transportation",
+      "notes": "74 employees based in Buffalo; maintains highways across northwest Oklahoma"
+    },
+    {
+      "name": "Buffalo Feeders",
+      "street": "Outside Buffalo",
+      "city": "Buffalo",
+      "zip": "73834",
+      "employees": 37,
+      "industry": "Agriculture/Cattle Feedlot",
+      "notes": "30,000-head cattle feed yard; largest non-governmental employer in Harper County"
+    },
+    {
+      "name": "Harper County Community Hospital",
+      "street": "1003 US Highway 64 North",
+      "city": "Buffalo",
+      "zip": "73834",
+      "employees": 25,
+      "industry": "Healthcare",
+      "notes": "25-bed Critical Access Hospital; only hospital in Harper County"
+    },
+    {
+      "name": "Northwestern Electric Cooperative",
+      "street": "District Office in Buffalo",
+      "city": "Buffalo",
+      "zip": "73834",
+      "employees": 15,
+      "industry": "Utilities/Electric",
+      "notes": "Serves Harper, Woodward, Ellis, Beaver, Major, Woods, and Dewey Counties"
+    },
+    {
+      "name": "OK Calf Feeders",
+      "street": "Buffalo",
+      "city": "Buffalo",
+      "zip": "73834",
+      "employees": 20,
+      "industry": "Agriculture/Cattle Feedlot",
+      "notes": "Cattle feeding operation in Harper County"
+    },
+    {
+      "name": "Buffalo Public Schools",
+      "street": "605 SE 2nd",
+      "city": "Buffalo",
+      "zip": "73834",
+      "employees": 30,
+      "industry": "Education",
+      "notes": "District I-004 serving K-12 with approximately 249 students"
+    },
+    {
+      "name": "Laverne Public Schools",
+      "street": "605 W Jane Jayroe Blvd",
+      "city": "Laverne",
+      "zip": "73848",
+      "employees": 35,
+      "industry": "Education",
+      "notes": "District serving PK-12 with approximately 460 students"
+    }
+  ],
+  "uniqueFacts": [
+    "Charles Lindbergh and his wife Anne Morrow Lindbergh made an emergency landing on the Homer Aitken farm in Harper County in September 1934, drawing national attention to the area",
+    "The Cooper Bison Kill Site in northwestern Harper County is one of the most significant archaeological sites in North America, providing invaluable information about Folsom culture and ancient bison",
+    "The oldest painted object discovered in North America, a more than 10,000-year-old bison skull painted with a zigzag pattern, was uncovered at the Cooper Bison Kill Site",
+    "Harper County was once part of the Cherokee Outlet, reserved for the Cherokee Nation by treaties in 1828 and 1835, and opened for non-Indian settlement in the Cherokee Outlet Land Run of 1893",
+    "Notable Harper Countians include 1967 Miss America Jane Jayroe and songwriter Jimmy Webb, who wrote hits including MacArthur Park, Up Up and Away, and By the Time I Get to Phoenix"
+  ],
+  "processServingNotes": [
+    "Harper County is a rural county with a sparse population of approximately 3.2 residents per square mile, requiring process servers to travel long distances between serves",
+    "The county has four incorporated towns (Buffalo, Laverne, May, and Rosston) and several unincorporated communities including Selman and Dunlap; physical addresses may use rural route or PO Box designations",
+    "Many residents in Harper County work in agriculture (cattle, wheat, hay) or for government employers (ODOT, schools, courthouse); timing serves around work schedules may require early morning or evening attempts"
+  ],
+  "heroLead": "Harper County spans 1,041 square miles of northwest Oklahoma ranchland, home to Buffalo, Laverne, May, and Rosston. Once part of the historic Cherokee Outlet opened in the 1893 Land Run, the county is named for Oscar Green Harper, a teacher and clerk of the Oklahoma Constitutional Convention. For reliable process serving across Harper County's wide-open spaces, call (539) 367-6832 or visit /contact.",
+  "faqs": [
+    {
+      "question": "What courthouse do I file in for Harper County cases?",
+      "answer": "All district court cases for Harper County are filed at the Harper County Courthouse located at 311 SE 1st Street in Buffalo, Oklahoma. The court is part of the 1st Judicial District of Oklahoma. The court clerk's office is open Monday through Friday from 8:00 AM to 4:00 PM and can be reached at (580) 735-2010. For process serving in Harper County, call Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "How long does service of process take in Harper County?",
+      "answer": "Due to the rural nature of Harper County, service of process typically takes 3-7 business days depending on the location. The county covers 1,041 square miles with a population density of only about 3 people per square mile. Residents may live on farms or ranches far from the main highways. Attempts are usually made in Buffalo and Laverne first, followed by attempts in May, Rosston, and rural areas. Contact us to discuss expedited options if needed."
+    },
+    {
+      "question": "Does Harper County have any tribal jurisdiction that affects service of process?",
+      "answer": "Harper County does not currently fall within any tribal nation's jurisdiction boundaries. While the land was historically part of the Cherokee Outlet (set aside by treaties in 1828 and 1835), it was opened to non-Indian settlement in 1893 and is now entirely within state court jurisdiction. All service of process in Harper County follows Oklahoma state law procedures."
+    },
+    {
+      "question": "What are the main industries and employers in Harper County?",
+      "answer": "Harper County's economy is based primarily on agriculture (cattle, wheat, hay), oil and gas production, and government services. Major employers include the Oklahoma Department of Transportation Division 6, Buffalo Feeders (a 30,000-head cattle feedlot), Harper County Community Hospital, Northwestern Electric Cooperative, Buffalo Public Schools, and Laverne Public Schools. Understanding the local economy helps with timing service attempts, as many residents work during standard business hours in the fields, feedlots, or government offices."
+    },
+    {
+      "question": "Are there any special considerations for serving process in rural Harper County?",
+      "answer": "Yes, several factors make service in rural Harper County unique. Many residents live on farms or ranches with long driveways that may not be clearly marked. GPS directions can be unreliable in remote areas. Some residents use PO Boxes rather than physical addresses. Weather conditions including winter storms and muddy roads can affect accessibility. Our process servers are familiar with the county's layout and can navigate these challenges effectively. Call Just Legal Solutions at (539) 367-6832 for reliable service."
+    },
+    {
+      "question": "Can you serve process at the Harper County Courthouse or other government offices?",
+      "answer": "Yes, we can serve process at the Harper County Courthouse at 311 SE 1st Street in Buffalo, as well as at other government offices including the ODOT Division 6 headquarters and local school districts. We also serve individuals at Harper County Community Hospital, Buffalo Feeders, and other workplaces throughout the county. Our servers are experienced with serving defendants at their place of employment when residential service is not successful."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

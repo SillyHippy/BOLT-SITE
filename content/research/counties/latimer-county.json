@@ -1,0 +1,140 @@
+{
+  "slug": "latimer-county",
+  "countyName": "Latimer County",
+  "countySeat": "Wilburton",
+  "population": 9509,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "Latimer County Courthouse",
+    "street": "109 N Central, Room 200",
+    "city": "Wilburton",
+    "state": "OK",
+    "zip": "74578",
+    "phone": "918-465-2011",
+    "hours": "8:00am - 4:30pm (Open Noon)",
+    "judicialDistrict": "16th Judicial District",
+    "oscnDbKey": "latimer"
+  },
+  "majorCities": [
+    "Wilburton",
+    "Red Oak",
+    "Gowen",
+    "Panola"
+  ],
+  "neighboringCounties": [
+    "haskell-county",
+    "le-flore-county",
+    "pushmataha-county",
+    "pittsburg-county"
+  ],
+  "tribalJurisdiction": [
+    "Choctaw Nation of Oklahoma"
+  ],
+  "majorEmployers": [
+    {
+      "name": "Eastern Oklahoma State College",
+      "street": "1301 West Main",
+      "city": "Wilburton",
+      "zip": "74578",
+      "employees": 175,
+      "industry": "Education",
+      "notes": "Public community college, enrollment approximately 1,292 students"
+    },
+    {
+      "name": "Franklin Electric Co., Inc.",
+      "street": "1301 W Stovall Rd",
+      "city": "Wilburton",
+      "zip": "74578",
+      "employees": 250,
+      "industry": "Manufacturing",
+      "notes": "Manufactures electric motors and fueling systems; global company headquartered in Indiana with Wilburton manufacturing facility"
+    },
+    {
+      "name": "Wilburton Public Schools",
+      "street": "1201 West Blair",
+      "city": "Wilburton",
+      "zip": "74578",
+      "employees": 120,
+      "industry": "Education",
+      "notes": "Serves approximately 892 students across 3 schools"
+    },
+    {
+      "name": "Booth Environmental",
+      "street": "",
+      "city": "Red Oak",
+      "zip": "74563",
+      "employees": 175,
+      "industry": "Construction/Environmental",
+      "notes": "Environmental and construction services in southeastern Oklahoma"
+    },
+    {
+      "name": "A&A Tank Truck Company",
+      "street": "",
+      "city": "Wilburton",
+      "zip": "74578",
+      "employees": 175,
+      "industry": "Transportation/Logistics",
+      "notes": "Oil and gas logistics and transportation services"
+    },
+    {
+      "name": "Unit Drilling Company",
+      "street": "",
+      "city": "Wilburton",
+      "zip": "74578",
+      "employees": 115,
+      "industry": "Energy/Oil & Gas",
+      "notes": "Oil and gas drilling operations in Latimer County"
+    },
+    {
+      "name": "Latimer County Government",
+      "street": "109 N Central",
+      "city": "Wilburton",
+      "zip": "74578",
+      "employees": 75,
+      "industry": "Government",
+      "notes": "County government operations including courthouse, sheriff, and county services"
+    }
+  ],
+  "uniqueFacts": [
+    "Latimer County was originally part of the Choctaw Nation and was organized at Oklahoma statehood in 1907, named after James L. Latimer, a delegate from Wilburton to the 1906 Constitutional Convention.",
+    "Robbers Cave State Park, covering more than 8,000 acres in the Sans Bois Mountains, was a legendary hideout for outlaws including Jesse James and Belle Starr before becoming one of Oklahoma's original state parks in 1935.",
+    "Archaeologists have identified 124 prehistoric sites in Latimer County, including the McCutchan-McLaughlin Site (Alford Mound) near Red Oak, which is listed on the National Register of Historic Places.",
+    "The county encompasses 729 square miles of hilly, forested terrain in the Ouachita Mountains region, with rich coal deposits that drove the local economy from the late 1800s through the mid-20th century.",
+    "Eastern Oklahoma State College, founded in 1908 as the Oklahoma School of Mines and Metallurgy, was originally established to train miners for the region's coal industry and continues to serve as a key educational institution in Wilburton."
+  ],
+  "processServingNotes": [
+    "The Latimer County Courthouse is located at 109 N Central in Wilburton with Court Clerk Melinda Brinlee. Office hours are 8:00am to 4:30pm with lunch hour open. The courthouse handles district court cases for the 16th Judicial District.",
+    "Choctaw Nation jurisdiction covers Latimer County, which may impact service of process involving tribal members or matters within Choctaw Nation boundaries. Process servers should verify if tribal court filing is required.",
+    "Latimer County is rural with limited incorporated areas (only Wilburton and Red Oak are incorporated). Many addresses are in unincorporated communities like Gowen and Panola, requiring familiarity with rural routes and postal addresses."
+  ],
+  "heroLead": "Nestled in the scenic Sans Bois Mountains of southeastern Oklahoma, Latimer County encompasses 729 square miles of hilly, forested terrain that was once a legendary hideout for Old West outlaws and is now home to Robbers Cave State Park, Eastern Oklahoma State College, and the historic coal town of Wilburton. Whether you need process served at the Latimer County Courthouse, a rural homestead outside Red Oak, or anywhere across this Choctaw Nation reservation county, contact Just Legal Solutions at (539) 367-6832 or visit our /contact page.",
+  "faqs": [
+    {
+      "question": "Where is the Latimer County Courthouse located and what are the filing hours?",
+      "answer": "The Latimer County Courthouse is located at 109 N Central, Room 200, Wilburton, OK 74578. The Court Clerk's office, headed by Melinda Brinlee, is open Monday through Friday from 8:00am to 4:30pm, including during the lunch hour. For questions about filings, you can reach the clerk's office at 918-465-2011."
+    },
+    {
+      "question": "What judicial district is Latimer County in and what does that mean for my case?",
+      "answer": "Latimer County is part of Oklahoma's 16th Judicial District. This means district court cases filed in Latimer County are heard at the Latimer County Courthouse in Wilburton. The district court handles civil, criminal, probate, juvenile, and domestic relations matters. For process serving in Latimer County, all district court filings and case records are managed through the court clerk's office."
+    },
+    {
+      "question": "How does Choctaw Nation tribal jurisdiction affect process serving in Latimer County?",
+      "answer": "Latimer County lies entirely within the Choctaw Nation of Oklahoma's reservation boundaries. This means that if you are serving process on a tribal member or a matter involving tribal interests, you may need to comply with both state and tribal requirements. The Choctaw Nation has its own court system, and in some cases, service may need to be coordinated through tribal authorities. For assistance with process serving in Latimer County that may involve tribal members, contact Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "What are the main communities in Latimer County where service may be needed?",
+      "answer": "Latimer County has two incorporated municipalities: Wilburton (the county seat) and Red Oak. Additionally, there are several unincorporated census-designated places including Gowen and Panola. Many residents live in rural areas outside of town limits. When serving papers in Latimer County, it is important to have accurate directions or GPS coordinates for rural addresses, as many locations are not on traditional street grids."
+    },
+    {
+      "question": "What is the population and economic base of Latimer County?",
+      "answer": "Latimer County has a population of approximately 9,509 residents (2024 estimate), with Wilburton being the largest community. Historically a coal mining region, the county's economy now relies on education (Eastern Oklahoma State College), manufacturing (Franklin Electric), oil and gas operations, tourism at Robbers Cave State Park, and Choctaw Nation enterprises. The county spans 729 square miles of mountainous, forested terrain in southeastern Oklahoma."
+    },
+    {
+      "question": "Are there any special considerations for serving legal papers at Robbers Cave State Park or other recreational areas?",
+      "answer": "Robbers Cave State Park is located five miles north of Wilburton on State Highway 2 and covers more than 8,000 acres. If you need to serve papers on individuals at the park, lodge, or campground, be aware that park staffing varies by season. The park is a popular destination, so individuals may be seasonal visitors or park employees. For reliable process serving anywhere in Latimer County, including rural and recreational areas, contact Just Legal Solutions at (539) 367-6832 to ensure proper service."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

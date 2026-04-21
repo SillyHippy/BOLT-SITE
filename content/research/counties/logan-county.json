@@ -1,0 +1,140 @@
+{
+  "slug": "logan-county",
+  "countyName": "Logan County",
+  "countySeat": "Guthrie",
+  "population": 53860,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "Logan County Courthouse",
+    "street": "301 E Harrison Ave",
+    "city": "Guthrie",
+    "state": "OK",
+    "zip": "73044",
+    "phone": "(405) 282-0123",
+    "hours": "Monday-Friday 8:00 AM - 4:30 PM",
+    "judicialDistrict": "9th Judicial District (shared with Payne County)",
+    "oscnDbKey": "logan"
+  },
+  "majorCities": [
+    "Guthrie",
+    "Langston",
+    "Crescent",
+    "Cedar Valley",
+    "Coyle",
+    "Cashion",
+    "Mulhall",
+    "Marshall",
+    "Cimarron City",
+    "Orlando",
+    "Meridian"
+  ],
+  "neighboringCounties": [
+    "garfield-county",
+    "noble-county",
+    "payne-county",
+    "lincoln-county",
+    "oklahoma-county",
+    "kingfisher-county"
+  ],
+  "tribalJurisdiction": [
+    "Iowa Tribe of Oklahoma"
+  ],
+  "majorEmployers": [
+    {
+      "name": "Mercy Hospital Logan County",
+      "street": "200 S Academy Rd",
+      "city": "Guthrie",
+      "zip": "73044",
+      "employees": 300,
+      "industry": "Healthcare",
+      "notes": "Full-service hospital facility serving Logan County and surrounding areas"
+    },
+    {
+      "name": "Langston University",
+      "street": "PO Box 1550",
+      "city": "Langston",
+      "zip": "73050",
+      "employees": 350,
+      "industry": "Higher Education",
+      "notes": "Oklahoma's only historically black college and university (HBCU), founded in 1897"
+    },
+    {
+      "name": "Guthrie Public Schools",
+      "street": "802 E Vilas Ave",
+      "city": "Guthrie",
+      "zip": "73044",
+      "employees": 437,
+      "industry": "Education",
+      "notes": "Seven campuses serving Pre-K through 12 with approximately 3,500 students"
+    },
+    {
+      "name": "Autoquip Corporation",
+      "street": "1058 W Industrial Rd",
+      "city": "Guthrie",
+      "zip": "73044",
+      "employees": 120,
+      "industry": "Manufacturing",
+      "notes": "Material handling equipment manufacturer, largest manufacturing employer in the county"
+    },
+    {
+      "name": "Walmart Supercenter",
+      "street": "1608 S Division St",
+      "city": "Guthrie",
+      "zip": "73044",
+      "employees": 200,
+      "industry": "Retail",
+      "notes": "Major retail employer serving the Guthrie and Logan County community"
+    },
+    {
+      "name": "Guthrie Job Corps Center",
+      "street": "3106 W University Ave",
+      "city": "Guthrie",
+      "zip": "73044",
+      "employees": 100,
+      "industry": "Employment Training",
+      "notes": "Federal vocational training center for young adults aged 16-24"
+    }
+  ],
+  "uniqueFacts": [
+    "Guthrie served as the capital of Oklahoma Territory from 1890 to 1907 and as Oklahoma's first state capital from 1907 to 1910 before the capital moved to Oklahoma City",
+    "Logan County was designated 'County No. 1' when Oklahoma Territory was organized in 1890, making it one of the original six counties created from the Unassigned Lands",
+    "The Logan County Courthouse, built in 1907 by Manhattan Construction Company, is listed on the National Register of Historic Places and is one of Oklahoma's oldest and largest public buildings",
+    "In 1891, Cora Victoria Diehl became the first woman elected to public office in Oklahoma Territory when she won election as Logan County register of deeds",
+    "The land that became Logan County was originally settled by Creek and Seminole tribes in the 1820s and 1830s after forced removal from their southeastern homelands"
+  ],
+  "processServingNotes": [
+    "Logan County District Court records are accessible online through OSCN.net, with most civil, criminal, and family domestic cases from 2003 forward available for public viewing",
+    "The Court Clerk's office is located at Room 201 in the courthouse and can be reached at (405) 282-0123 for questions about record searches and certified copies",
+    "Process servers should note that the Iowa Tribe of Oklahoma maintains jurisdiction over portions of eastern Logan County, particularly in District 2 between Indian Meridian and Pottawatomie"
+  ],
+  "heroLead": "Logan County, located in north-central Oklahoma just 30 miles north of Oklahoma City, blends rich territorial history with modern suburban growth. From its Victorian-era county seat of Guthrie, Oklahoma's first capital, to the rolling Red Bed Plains and Cimarron River valley, the county offers a unique mix of historic preservation and economic development. Whether serving legal documents at the 1907 courthouse or along the interstate corridor, trust Just Legal Solutions for reliable process serving throughout Logan County, call (539) 367-6832 or visit our contact page.",
+  "faqs": [
+    {
+      "question": "What is the history behind Logan County's name?",
+      "answer": "Logan County was named on August 5, 1890, in honor of U.S. Senator John A. Logan from Illinois. Logan was a prominent Civil War general who later served as a U.S. Senator and was the commander-in-chief of the Grand Army of the Republic. He proposed that May 30th be designated as Decoration Day, which later became Memorial Day. The county was originally designated as 'County No. 1' when Oklahoma Territory was organized in 1890."
+    },
+    {
+      "question": "Was Guthrie always the county seat of Logan County?",
+      "answer": "Yes, Guthrie was designated as the county seat when Logan County was created in 1890. Guthrie also served as the capital of Oklahoma Territory from 1890 to 1907 and as Oklahoma's first state capital from 1907 to 1910. The city is known for its well-preserved Victorian architecture and the downtown Guthrie Historic District is listed on the National Register of Historic Places. For process serving needs in Logan County, contact Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "What tribal jurisdiction exists in Logan County?",
+      "answer": "The Iowa Tribe of Oklahoma maintains jurisdiction over portions of Logan County, particularly in the eastern part of the county. According to the tribe's official website, their jurisdictional area covers all or parts of Payne, Oklahoma, Lincoln, and Logan counties. Approximately one-third of District 2 in Logan County falls within the Iowa Reservation, including areas between Indian Meridian to Pottawatomie and Waterloo north to the Cimarron River."
+    },
+    {
+      "question": "How do I access court records for Logan County?",
+      "answer": "Logan County District Court records are available online through the Oklahoma State Courts Network (OSCN) at www.oscn.net. Most civil, criminal, and family domestic cases from 2003 forward are accessible. For older records or certified copies, contact the Logan County Court Clerk's office at (405) 282-0123. The office is located in Room 201 of the courthouse at 301 E Harrison Ave in Guthrie and is open Monday through Friday from 8:00 AM to 4:30 PM."
+    },
+    {
+      "question": "What are the major industries in Logan County?",
+      "answer": "Logan County has a diverse economy that includes healthcare, education, manufacturing, retail, and agriculture. Major employers include Mercy Hospital Logan County, Langston University, Guthrie Public Schools, and Autoquip Corporation. The county is part of the Oklahoma City metropolitan area and benefits from its proximity to the state capital while maintaining its rural character. For professional process serving throughout Logan County, call Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "What cities and towns are in Logan County?",
+      "answer": "Logan County includes the cities of Guthrie (county seat), Langston, and Crescent, as well as the towns of Cedar Valley, Cimarron City, Coyle, Marshall, Meridian, Mulhall, and Orlando. Portions of Cashion and Mulhall extend into neighboring counties. Guthrie is the largest city with approximately 11,700 residents, followed by Langston, which is home to Oklahoma's only historically black college and university."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

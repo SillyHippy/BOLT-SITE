@@ -1,0 +1,128 @@
+{
+  "slug": "blaine-county",
+  "countyName": "Blaine County",
+  "countySeat": "Watonga",
+  "population": 8573,
+  "populationYear": 2024,
+  "courthouse": {
+    "name": "Blaine County Courthouse",
+    "street": "212 N. Weigle Ave",
+    "city": "Watonga",
+    "state": "OK",
+    "zip": "73772",
+    "phone": "(580) 623-5970",
+    "hours": "Monday-Friday 8:00 AM - 4:00 PM",
+    "judicialDistrict": "4",
+    "oscnDbKey": "blaine"
+  },
+  "majorCities": [
+    "Watonga",
+    "Okeene",
+    "Geary",
+    "Canton",
+    "Hitchcock",
+    "Longdale",
+    "Greenfield",
+    "Hydro"
+  ],
+  "neighboringCounties": [
+    "major-county",
+    "kingfisher-county",
+    "canadian-county",
+    "caddo-county",
+    "custer-county",
+    "dewey-county"
+  ],
+  "tribalJurisdiction": [
+    "Cheyenne and Arapaho Tribes"
+  ],
+  "majorEmployers": [
+    {
+      "name": "U.S. Gypsum Company",
+      "street": "66081 N 2541 Rd",
+      "city": "Southard",
+      "zip": "73770",
+      "employees": 150,
+      "industry": "Gypsum Mining and Manufacturing",
+      "notes": "Largest industrial plant in Blaine County, located in Southard; one of the purest gypsum deposits in the United States"
+    },
+    {
+      "name": "Lucky Star Casino (Watonga)",
+      "street": "1407 S Clarence Nash Blvd",
+      "city": "Watonga",
+      "zip": "73772",
+      "employees": 120,
+      "industry": "Gaming and Hospitality",
+      "notes": "Operated by the Cheyenne and Arapaho Tribes; includes hotel and convention center opened in 2021"
+    },
+    {
+      "name": "Okeene Milling Company",
+      "street": "302 W Oklahoma Ave",
+      "city": "Okeene",
+      "zip": "73763",
+      "employees": 80,
+      "industry": "Flour and Feed Milling",
+      "notes": "Major wheat processing facility serving northwest Oklahoma"
+    },
+    {
+      "name": "Watonga Public Schools",
+      "street": "P.O. Box 310 - 1020 N. Noble",
+      "city": "Watonga",
+      "zip": "73772",
+      "employees": 85,
+      "industry": "Education",
+      "notes": "Serves 731 students in 3 schools; largest school district in the county"
+    },
+    {
+      "name": "Okeene Municipal Hospital and Clinic",
+      "street": "",
+      "city": "Okeene",
+      "zip": "73763",
+      "employees": 75,
+      "industry": "Healthcare",
+      "notes": "Primary medical center serving northwest Oklahoma"
+    }
+  ],
+  "uniqueFacts": [
+    "Blaine County was created during the Cheyenne-Arapaho Land Run of April 19, 1892, originally designated as County 'C' before being named for James G. Blaine.",
+    "Clarence Nash, the original voice of Walt Disney's Donald Duck, was born in Blaine County in 1904.",
+    "The Blaine County Courthouse was built in 1906, predating Oklahoma statehood by one year, and is listed on the National Register of Historic Places.",
+    "Southard, in central Blaine County, contains one of the purest gypsum deposits in the United States and has been mined by U.S. Gypsum since 1905.",
+    "Between 2010 and 2020, Blaine County experienced a 26.9% population decline, the largest percentage decrease of any Oklahoma county, largely attributed to the closure of a prison that was the county's largest employer."
+  ],
+  "processServingNotes": [
+    "Blaine County has significant Cheyenne and Arapaho tribal jurisdiction; process servers must be aware that tribal lands operate under separate legal authority and certain documents may need to be served through tribal court procedures.",
+    "The county covers 939 square miles of predominantly rural terrain with limited public transportation; process servers should plan for extensive travel between widely dispersed communities including Watonga, Okeene, Geary, and Canton.",
+    "All Proof of Service Affidavits filed in Blaine County District Court must be notarized; the Court Clerk's office requires original notarized documents for filing."
+  ],
+  "heroLead": "Located in west-central Oklahoma, Blaine County encompasses 939 square miles of rolling plains and Gypsum Hills, where agriculture, tribal gaming, and gypsum mining drive the local economy. From the historic 1906 Watonga courthouse to the Cheyenne and Arapaho tribal lands, process serving here requires knowledge of both state and tribal jurisdictions. For reliable service throughout Blaine County, call Just Legal Solutions at (539) 367-6832 or visit us at /contact.",
+  "faqs": [
+    {
+      "question": "What judicial district is Blaine County in and where is the courthouse located?",
+      "answer": "Blaine County is in Oklahoma Judicial District 4, which also includes Alfalfa, Dewey, Garfield, Grant, Kingfisher, Major, Woods, and Woodward counties. The Blaine County Courthouse is located at 212 N. Weigle Avenue in Watonga, Oklahoma 73772, and can be reached at (580) 623-5970. The courthouse is open Monday through Friday from 8:00 AM to 4:00 PM. Built in 1906, it is one of the few courthouses in Oklahoma that predates statehood."
+    },
+    {
+      "question": "How do I serve legal papers on someone who lives on Cheyenne and Arapaho tribal land in Blaine County?",
+      "answer": "Service of process on tribal land within Blaine County requires careful attention to jurisdictional boundaries. The Cheyenne and Arapaho Tribes maintain sovereign jurisdiction over their trust lands and members. Non-tribal process servers may need coordination with tribal authorities, and some documents must be served through the Cheyenne and Arapaho Tribal Court in Concho, Oklahoma. For assistance navigating tribal service requirements in Blaine County, call Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "What is the population and geography of Blaine County?",
+      "answer": "As of the 2024 Census estimate, Blaine County has a population of approximately 8,573 residents, making it the 61st most populous county in Oklahoma. The county spans approximately 939 square miles in west-central Oklahoma, encompassing parts of the Red Bed Plains and Gypsum Hills. The North Canadian River bisects the county from northwest to southeast. Major communities include Watonga (county seat), Okeene, Geary, and Canton."
+    },
+    {
+      "question": "What are the major industries and employers in Blaine County?",
+      "answer": "Blaine County's economy is anchored in agriculture, particularly wheat farming, cattle ranching, and poultry production. Major employers include the U.S. Gypsum Company in Southard (gypsum mining), the Lucky Star Casino in Watonga (tribal gaming), Okeene Milling Company (flour milling), Watonga Public Schools, and Okeene Municipal Hospital. Roman Nose State Park also provides tourism-related employment. The Cheyenne and Arapaho Tribes are a significant economic presence in the county."
+    },
+    {
+      "question": "What should process servers know about Blaine County's rural layout?",
+      "answer": "Blaine County covers nearly 1,000 square miles of predominantly rural terrain with a population density of only about 9 people per square mile. Process servers should plan for significant travel distances between towns. Watonga is the largest community at about 2,600 residents, followed by Okeene at approximately 1,000. Many residents live on farms or in unincorporated areas. GPS navigation can be unreliable in remote sections, so having detailed local maps is recommended. For professional process serving throughout Blaine County's rural communities, contact Just Legal Solutions."
+    },
+    {
+      "question": "When was Blaine County founded and what is its historical significance?",
+      "answer": "Blaine County was established on April 19, 1892, during the Cheyenne-Arapaho Land Run, when approximately 25,000 settlers raced to claim homesteads. The county was originally designated as County 'C' and later named for James G. Blaine, who served as Speaker of the U.S. House and Secretary of State. The Blaine County Courthouse, built in 1906, predates Oklahoma's 1907 statehood. The area was originally part of the Cheyenne and Arapaho reservation before being opened to non-Indian settlement. For process serving assistance in this historically significant county, call Just Legal Solutions at (539) 367-6832."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}

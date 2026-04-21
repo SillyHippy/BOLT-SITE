@@ -1,0 +1,144 @@
+{
+  "slug": "ottawa-county",
+  "countyName": "Ottawa County",
+  "countySeat": "Miami",
+  "population": 30285,
+  "populationYear": 2020,
+  "courthouse": {
+    "name": "Ottawa County Courthouse",
+    "street": "102 E. Central Avenue",
+    "city": "Miami",
+    "state": "OK",
+    "zip": "74354",
+    "phone": "918-542-3121",
+    "hours": "Monday-Friday 9:00 AM - 5:00 PM",
+    "judicialDistrict": "13",
+    "oscnDbKey": "ottawa"
+  },
+  "majorCities": [
+    "Miami",
+    "Commerce",
+    "Afton",
+    "Fairland",
+    "Quapaw",
+    "Wyandotte",
+    "North Miami",
+    "Peoria"
+  ],
+  "neighboringCounties": [
+    "cherokee-county-ks",
+    "newton-county-mo",
+    "mcdonald-county-mo",
+    "delaware-county",
+    "craig-county"
+  ],
+  "tribalJurisdiction": [
+    "Ottawa Tribe of Oklahoma",
+    "Quapaw Nation",
+    "Wyandotte Nation",
+    "Miami Tribe of Oklahoma",
+    "Peoria Tribe of Indians",
+    "Modoc Nation",
+    "Seneca-Cayuga Tribe",
+    "Eastern Shawnee Tribe",
+    "Shawnee Tribe"
+  ],
+  "majorEmployers": [
+    {
+      "name": "Downstream Casino Resort",
+      "street": "69300 E. Nee Road",
+      "city": "Quapaw",
+      "zip": "74363",
+      "employees": 1200,
+      "industry": "Gaming/Hospitality",
+      "notes": "Largest employer in Ottawa County; operated by Quapaw Nation"
+    },
+    {
+      "name": "INTEGRIS Health Miami Hospital",
+      "street": "200 Second Avenue SW",
+      "city": "Miami",
+      "zip": "74354",
+      "employees": 400,
+      "industry": "Healthcare",
+      "notes": "97-bed hospital, one of largest employers in county"
+    },
+    {
+      "name": "Northeastern Oklahoma A&M College",
+      "street": "200 I Street NE",
+      "city": "Miami",
+      "zip": "74354",
+      "employees": 275,
+      "industry": "Education",
+      "notes": "Public two-year college in Miami"
+    },
+    {
+      "name": "Miami Public Schools",
+      "street": "601 16th Ave. NW",
+      "city": "Miami",
+      "zip": "74354",
+      "employees": 375,
+      "industry": "Education",
+      "notes": "Largest school district in county"
+    },
+    {
+      "name": "Buffalo Run Casino",
+      "street": "1366 N HWY 69A",
+      "city": "Miami",
+      "zip": "74354",
+      "employees": 250,
+      "industry": "Gaming/Hospitality",
+      "notes": "Casino and resort operated by Peoria Tribe"
+    },
+    {
+      "name": "High Winds Casino",
+      "street": "61475 E. 100 Road",
+      "city": "Miami",
+      "zip": "74354",
+      "employees": 150,
+      "industry": "Gaming/Hospitality",
+      "notes": "Casino operated by Ottawa Tribe"
+    }
+  ],
+  "uniqueFacts": [
+    "Ottawa County is home to nine federally recognized Native American tribes, more than any other county in the United States",
+    "In 1926, Ottawa County was the largest source of lead and zinc in the world, producing over $222 million in zinc and $88 million in lead",
+    "Baseball Hall of Famer Mickey Mantle was born in Spavinaw but grew up in Commerce, Ottawa County, and graduated from Commerce High School",
+    "Heisman Trophy winner Steve Owens graduated from Miami High School in Ottawa County",
+    "The ghost town of Picher in Ottawa County was part of the Tar Creek Superfund Site and was closed as a city due to lead contamination from mining waste"
+  ],
+  "processServingNotes": [
+    "Ottawa County Courthouse requires visitors to pass through security screening; no weapons, pocket knives, or cell phones are permitted in courtrooms",
+    "Process servers must navigate both state court jurisdiction and nine separate tribal jurisdictions within Ottawa County, each with independent court systems",
+    "The county borders both Kansas and Missouri, requiring familiarity with interstate service of process rules when serving defendants across state lines"
+  ],
+  "heroLead": "Nestled in Oklahoma's northeastern corner where the Sooner State meets Kansas and Missouri, Ottawa County is a land of deep Native American heritage, home to nine federally recognized tribes, and the historic heart of the Tri-State Lead and Zinc District that once supplied the world. From the vibrant county seat of Miami to the rolling hills of the Ozark Plateau, the county blends tribal sovereignty with frontier history. Whether you need legal documents served at the courthouse, a casino, or anywhere across this unique county, trust Just Legal Solutions at (539) 367-6832.",
+  "faqs": [
+    {
+      "question": "Where is the Ottawa County Courthouse located and what are its hours?",
+      "answer": "The Ottawa County Courthouse is located at 102 E. Central Avenue in Miami, Oklahoma 74354. The courthouse is open Monday through Friday from 9:00 AM to 5:00 PM. The Court Clerk handles marriage records, civil, criminal, probate, juvenile, domestic relations, and small claims cases. For process serving questions, call Just Legal Solutions at (539) 367-6832."
+    },
+    {
+      "question": "What judicial district is Ottawa County in?",
+      "answer": "Ottawa County is part of Oklahoma Judicial District 13, which also includes Delaware County. The district has one District Judge (Jennifer McAffery), one Associate District Judge for Ottawa County (Matt Whalen), and Special District Judges. Cases can be searched online through OSCN using the county database key."
+    },
+    {
+      "question": "Which Native American tribes have jurisdiction in Ottawa County?",
+      "answer": "Ottawa County is unique in having nine federally recognized tribes with reservation lands: Ottawa Tribe of Oklahoma, Quapaw Nation, Wyandotte Nation, Miami Tribe, Peoria Tribe, Modoc Nation, Seneca-Cayuga Tribe, Eastern Shawnee Tribe, and Shawnee Tribe. Each tribe maintains sovereign jurisdiction and its own court system, which process servers must respect when serving tribal members on trust lands."
+    },
+    {
+      "question": "What are the largest employers in Ottawa County?",
+      "answer": "The largest employers include Downstream Casino Resort (operated by Quapaw Nation with approximately 1,200 employees), INTEGRIS Health Miami Hospital (approximately 400 employees), Northeastern Oklahoma A&M College (approximately 275 employees), Miami Public Schools (approximately 375 employees), and several tribal gaming operations including Buffalo Run Casino and High Winds Casino. For professional process serving assistance throughout Ottawa County, contact Just Legal Solutions."
+    },
+    {
+      "question": "What major cities and towns are in Ottawa County?",
+      "answer": "Ottawa County has eight incorporated communities: Miami (the county seat), Commerce, Afton, Fairland, Quapaw, Wyandotte, North Miami, and Peoria. The county also includes unincorporated communities and former mining ghost towns including Picher, Cardin, and Douthat."
+    },
+    {
+      "question": "What is the history of Ottawa County and why is it named Ottawa?",
+      "answer": "Ottawa County was created in 1907 at Oklahoma statehood and named for the Ottawa Tribe of Oklahoma. The area served as a relocation destination for multiple tribes removed from the Midwest under the Indian Removal program, including Ottawa, Miami, Quapaw, Peoria, Wyandotte, Seneca, Shawnee, and Modoc peoples. In the early 1900s, the county became the center of the Tri-State Lead and Zinc District, with Picher becoming a major mining boomtown before environmental contamination led to its abandonment. Call (539) 367-6832 for process serving anywhere in Ottawa County."
+    }
+  ],
+  "verificationSources": null,
+  "schemaVersion": 1,
+  "receivedAt": "2026-04-21"
+}
