@@ -110,6 +110,37 @@ export function generateCountyFAQs(
   countySeat: string,
   courthouseAddress?: string
 ): Array<{ question: string; answer: string }> {
+  const sanitizeFAQ = (
+    question: string,
+    answer: string
+  ): { question: string; answer: string } => {
+    const cleanedQuestion = question.replace(/\s+/g, ' ').trim();
+
+    const rawSentences = answer
+      .replace(/\s+/g, ' ')
+      .trim()
+      .split(/(?<=[.!?])\s+/)
+      .map((s) => s.trim())
+      .filter(Boolean);
+
+    const promoSentence =
+      /(call\s*\(?539\)?|visit\s*\/contact|contact\s+just\s+legal\s+solutions|reach\s+out\s+to\s+just\s+legal\s+solutions|for\s+process\s+serving|for\s+legal\s+document\s+serving|to\s+get\s+started)/i;
+    const filtered = rawSentences.filter((s) => !promoSentence.test(s));
+
+    const kept = (filtered.length ? filtered : rawSentences).slice(0, 3);
+    let cleanedAnswer = kept.join(' ').replace(/\s+/g, ' ').trim();
+    cleanedAnswer = cleanedAnswer.replace(
+      /\$\s*\d[\d,]*(?:\.\d+)?/g,
+      'the required statutory amount'
+    );
+
+    if (cleanedAnswer.length > 460) {
+      cleanedAnswer = `${cleanedAnswer.slice(0, 457).trimEnd()}...`;
+    }
+
+    return { question: cleanedQuestion, answer: cleanedAnswer };
+  };
+
   const normalizeName = (value: string): string =>
     value
       .toLowerCase()
@@ -122,10 +153,19 @@ export function generateCountyFAQs(
   )?.slug;
   const overridden = countySlug ? COUNTY_FAQ_OVERRIDES[countySlug] : undefined;
   if (overridden && overridden.length > 0) {
-    return overridden.slice(0, 6).map((faq) => ({
-      question: faq.question.trim(),
-      answer: faq.answer.trim(),
-    }));
+    const seenQuestions = new Set<string>();
+    const polished = overridden
+      .map((faq) => sanitizeFAQ(faq.question, faq.answer))
+      .filter((faq) => faq.question.length >= 18 && faq.answer.length >= 60)
+      .filter((faq) => {
+        const key = faq.question.toLowerCase();
+        if (seenQuestions.has(key)) return false;
+        seenQuestions.add(key);
+        return true;
+      })
+      .slice(0, 6);
+
+    if (polished.length >= 4) return polished;
   }
 
   const addrClause = courthouseAddress

@@ -156,6 +156,31 @@ function mergeRecord(existing, incoming) {
 }
 
 function generateFaqOverridesFile() {
+  const sanitizeFAQ = (question, answer) => {
+    const cleanedQuestion = String(question || '')
+      .replace(/\s+/g, ' ')
+      .trim();
+    const sentences = String(answer || '')
+      .replace(/\s+/g, ' ')
+      .trim()
+      .split(/(?<=[.!?])\s+/)
+      .map((s) => s.trim())
+      .filter(Boolean);
+    const promoSentence =
+      /(call\s*\(?539\)?|visit\s*\/contact|contact\s+just\s+legal\s+solutions|reach\s+out\s+to\s+just\s+legal\s+solutions|for\s+process\s+serving|for\s+legal\s+document\s+serving|to\s+get\s+started)/i;
+    const filtered = sentences.filter((s) => !promoSentence.test(s));
+    const kept = (filtered.length ? filtered : sentences).slice(0, 3);
+    let cleanedAnswer = kept.join(' ').replace(/\s+/g, ' ').trim();
+    cleanedAnswer = cleanedAnswer.replace(
+      /\$\s*\d[\d,]*(?:\.\d+)?/g,
+      'the required statutory amount'
+    );
+    if (cleanedAnswer.length > 460) {
+      cleanedAnswer = `${cleanedAnswer.slice(0, 457).trimEnd()}...`;
+    }
+    return { question: cleanedQuestion, answer: cleanedAnswer };
+  };
+
   const files = fs
     .readdirSync(RESEARCH_DIR)
     .filter((name) => name.endsWith('-county.json'))
@@ -171,6 +196,7 @@ function generateFaqOverridesFile() {
       continue;
     }
     if (!data?.slug || !Array.isArray(data?.faqs)) continue;
+    const seenQuestions = new Set();
     const rows = data.faqs
       .filter(
         (f) =>
@@ -180,8 +206,16 @@ function generateFaqOverridesFile() {
           f.question.trim().length > 10 &&
           f.answer.trim().length > 20
       )
+      .map((f) => sanitizeFAQ(f.question, f.answer))
+      .filter((f) => f.question.length >= 18 && f.answer.length >= 60)
+      .filter((f) => {
+        const key = f.question.toLowerCase();
+        if (seenQuestions.has(key)) return false;
+        seenQuestions.add(key);
+        return true;
+      })
       .slice(0, 6)
-      .map((f) => ({ question: f.question.trim(), answer: f.answer.trim() }));
+      .map((f) => ({ question: f.question, answer: f.answer }));
     if (rows.length) {
       overrides[data.slug] = rows;
     }
