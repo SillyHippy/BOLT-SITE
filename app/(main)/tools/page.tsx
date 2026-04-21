@@ -3,6 +3,10 @@ import Link from 'next/link';
 import { FileText, FileCheck, Wrench, Printer, Shield, ClipboardList, ExternalLink, ArrowRight } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import { Metadata } from 'next';
+import {
+  CorePageCountyLinksPanel,
+  LegalTrustSignalsPanel,
+} from '@/components/seo/internal-link-trust-panels';
 
 export const metadata: Metadata = {
   title: 'Free Process Server Tools & Forms | Affidavits, Field Sheets, PDF Tools',
@@ -340,6 +344,14 @@ const ToolsPage = () => {
               No account, no credit card, no catch.
             </p>
           </div>
+        </section>
+
+        <section className="mb-10">
+          <CorePageCountyLinksPanel />
+        </section>
+
+        <section className="mb-16">
+          <LegalTrustSignalsPanel />
         </section>
 
         {/* CTA */}

@@ -3,6 +3,10 @@ import Link from 'next/link';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import dynamic from 'next/dynamic';
 import { LiteYouTubeEmbed } from '@/components/lite-youtube-embed';
+import {
+    CorePageCountyLinksPanel,
+    LegalTrustSignalsPanel,
+} from '@/components/seo/internal-link-trust-panels';
 
 const ReviewWidget = dynamic(() => import('@/components/ui/review-widget'));
 
@@ -636,6 +640,14 @@ export default function ProcessServingPage() {
                         <p className="text-sm text-gray-500 mt-4 text-center">
                             <Link href="/service-areas" className="text-blue-600 hover:underline font-medium">Browse all service areas by city →</Link>
                         </p>
+                    </section>
+
+                    <section className="mb-12">
+                        <CorePageCountyLinksPanel />
+                    </section>
+
+                    <section className="mb-12">
+                        <LegalTrustSignalsPanel />
                     </section>
 
                     {/* Reviews Section */}

@@ -5,6 +5,10 @@ import Link from 'next/link';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import AIVoiceSupremacy from '@/components/ui/ai-voice-supremacy';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
+import {
+  CorePageCountyLinksPanel,
+  LegalTrustSignalsPanel,
+} from '@/components/seo/internal-link-trust-panels';
 import { getPromoDescription } from '@/lib/promo-utils';
 import { getStartingPrice, PRICE_RANGE_DISPLAY } from '@/lib/pricing';
 
@@ -716,6 +720,18 @@ export default function PricingPage() {
                 <p className="text-sm text-gray-600 mt-1">Complete guide to Oklahoma notary requirements and regulations</p>
               </Link>
             </div>
+          </div>
+        </section>
+
+        <section className="py-8 bg-white">
+          <div className="max-w-6xl mx-auto px-4">
+            <CorePageCountyLinksPanel />
+          </div>
+        </section>
+
+        <section className="py-8 bg-white">
+          <div className="max-w-6xl mx-auto px-4">
+            <LegalTrustSignalsPanel />
           </div>
         </section>
 
