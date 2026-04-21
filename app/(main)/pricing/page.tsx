@@ -1,5 +1,6 @@
 import React from 'react';
 import { Metadata } from 'next';
+import Image from 'next/image';
 import { CheckCircle, Truck, Clock, Zap, Flame, Target, Shield, Star, Phone, ArrowRight, Building2, Car, Monitor, FileText, Scale } from 'lucide-react';
 import Link from 'next/link';
 import UnifiedSchema from '@/components/UnifiedSchema';
@@ -29,10 +30,10 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     images: [
       {
-        url: 'https://justlegalsolutions.org/images/hero.webp',
+        url: 'https://justlegalsolutions.org/images/seo/pricing-og.png',
         width: 1200,
         height: 630,
-        alt: 'Process Server Pricing Oklahoma'
+        alt: 'Transparent Oklahoma process serving pricing with professional legal service branding'
       }
     ],
     locale: 'en_US',
@@ -42,7 +43,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Process Server Pricing Oklahoma | Just Legal Solutions',
     description: 'Transparent process server pricing in Oklahoma. Starts at $30 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours.',
-    images: ['https://justlegalsolutions.org/images/hero.webp'],
+    images: ['https://justlegalsolutions.org/images/seo/pricing-og.png'],
   },
   robots: {
     index: true,
@@ -189,7 +190,18 @@ export default function PricingPage() {
       <LocalPromoBanner zips={["74008", "74033", "74037"]} />
 
       <div className="min-h-screen bg-white font-sans">
-        <section className="pt-24 pb-12 px-4 bg-gradient-to-br from-slate-50 via-blue-50 to-slate-100">
+        <section className="relative pt-24 pb-12 px-4 overflow-hidden">
+          <div className="absolute inset-0 -z-10">
+            <Image
+              src="/images/seo/pricing-hero.png"
+              alt="Transparent legal pricing documents and professional office tools on a desk"
+              fill
+              className="object-cover"
+              priority
+              sizes="100vw"
+            />
+            <div className="absolute inset-0 bg-gradient-to-br from-slate-50/90 via-blue-50/85 to-slate-100/90" />
+          </div>
           <div className="max-w-7xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-blue-900 mb-4">Process Server Pricing</h1>
             <p className="text-lg text-gray-700 mb-2"><strong>Process server costs in Oklahoma range from $30 for a single attempt to $265 for 2-hour emergency service.</strong> Standard service (up to 3 attempts) starts at $60. All pricing below is transparent — no hidden fees.</p>

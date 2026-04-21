@@ -58,10 +58,10 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://justlegalsolutions.org/images/hero.webp',
+        url: 'https://justlegalsolutions.org/images/seo/homepage-og.png',
         width: 1200,
         height: 630,
-        alt: 'Professional Process Server Services in Tulsa County Oklahoma'
+        alt: 'Professional Oklahoma process server consulting with legal clients in a Tulsa office'
       }
     ]
   },
@@ -71,7 +71,7 @@ export const metadata: Metadata = {
     creator: '@ServeOK',
     title: 'Professional Process Server Tulsa County - Just Legal Solutions Oklahoma',
     description: 'Expert process serving for Tulsa, Broken Arrow, Sapulpa, Glenpool & Oklahoma. 50+ years combined experience.',
-    images: ['https://justlegalsolutions.org/images/hero.webp'],
+    images: ['https://justlegalsolutions.org/images/seo/homepage-og.png'],
   }
 };
 
@@ -84,8 +84,8 @@ export default function Home() {
       <section className="relative h-[calc(100vh-4rem)] md:h-[calc(100vh-4rem)]" aria-label="Hero section">
         <div className="absolute inset-0">
           <Image
-            src="/images/hero.webp"
-            alt="Professional legal services office with modern workspace and legal documents"
+            src="/images/seo/homepage-hero.png"
+            alt="Professional process server holding legal documents in a modern Tulsa office"
             fill
             className="object-cover"
             priority
@@ -618,7 +618,7 @@ export default function Home() {
         url="https://justlegalsolutions.org/"
         title="Professional Process Server Tulsa County - Just Legal Solutions Oklahoma"
         description="Expert process serving for Tulsa, Broken Arrow, Sapulpa, Glenpool & Oklahoma. 50+ years combined experience. Service starts at $30 (single-attempt) and $60 standard. Full pricing at https://justlegalsolutions.org/pricing. Call (539) 367-6832."
-        image="https://justlegalsolutions.org/images/hero.webp"
+        image="https://justlegalsolutions.org/images/seo/homepage-og.png"
         priceRange={PRICE_RANGE_DISPLAY}
         serviceDetails={{
           name: "Process Serving Services",

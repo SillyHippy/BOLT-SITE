@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { FileText, FileCheck, Wrench, Printer, Shield, ClipboardList, ExternalLink, ArrowRight } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import { Metadata } from 'next';
@@ -37,10 +38,10 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     images: [
       {
-        url: 'https://justlegalsolutions.org/images/tools-og.jpg',
+        url: 'https://justlegalsolutions.org/images/seo/tools-og.png',
         width: 1200,
         height: 630,
-        alt: 'Free Process Server Tools and Legal Forms'
+        alt: 'Legal tools dashboard for Oklahoma process server forms and workflows'
       }
     ]
   },
@@ -57,7 +58,9 @@ const ToolsPage = () => {
       icon: FileCheck,
       description: 'Create professional Affidavit of Service or Non-Service forms ready for court filing. Includes case details, manner of service, attempt tracking, and an optional notary section. Fill it out, print it, or save as PDF.',
       tags: ['Free', 'No Sign-Up', 'Print / PDF'],
-      color: 'blue'
+      color: 'blue',
+      imageSrc: '/images/seo/affidavit-tool-card.png',
+      imageAlt: 'Signed affidavit form with pen and notary-ready layout for legal filing'
     },
     {
       title: 'Field Sheet Generator',
@@ -65,7 +68,9 @@ const ToolsPage = () => {
       icon: ClipboardList,
       description: 'Generate process server field sheets for documenting service attempts in the field. Enter case info, service locations, and field notes—then print or save as PDF. Perfect for staying organized on the road.',
       tags: ['Free', 'No Sign-Up', 'Print / PDF'],
-      color: 'green'
+      color: 'green',
+      imageSrc: '/images/seo/field-sheet-tool-card.png',
+      imageAlt: 'Field service worksheet with GPS tracking context for process server documentation'
     }
   ];
 
@@ -92,6 +97,17 @@ const ToolsPage = () => {
       <div className="container mx-auto px-4 py-16 pt-24">
         {/* Hero Section */}
         <div className="text-center mb-16">
+          <div className="relative h-56 md:h-72 rounded-2xl overflow-hidden shadow-xl mb-8">
+            <Image
+              src="/images/seo/tools-hero.png"
+              alt="Professional legal tools workspace with digital forms and case documents"
+              fill
+              className="object-cover"
+              priority
+              sizes="100vw"
+            />
+            <div className="absolute inset-0 bg-black/35" />
+          </div>
           <div className="inline-flex items-center gap-2 bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-medium mb-6">
             <Wrench className="w-4 h-4" />
             100% Free — No Subscriptions, No Sign-Ups
@@ -152,6 +168,16 @@ const ToolsPage = () => {
                 href={tool.url}
                 className="group block bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100 hover:border-blue-200"
               >
+                <div className="relative h-44 w-full">
+                  <Image
+                    src={tool.imageSrc}
+                    alt={tool.imageAlt}
+                    fill
+                    className="object-cover"
+                    loading="lazy"
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                  />
+                </div>
                 <div className="p-8">
                   <div className={`inline-flex items-center justify-center w-14 h-14 rounded-xl mb-5 ${
                     tool.color === 'blue' ? 'bg-blue-100 text-blue-600' : 'bg-green-100 text-green-600'
