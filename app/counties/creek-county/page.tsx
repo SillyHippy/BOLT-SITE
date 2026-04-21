@@ -433,7 +433,7 @@ export default function CreekCountyProcessServer() {
                 <h3 className="text-2xl font-bold text-blue-900 mb-6">Oklahoma Legal Requirements</h3>
                 <div className="space-y-4 text-sm">
                   <div>
-                    <strong>Process Server Licensing:</strong> All process servers must be licensed with the county clerk and maintain a $2,000 bond.
+                    <strong>Process Server Licensing:</strong> All Oklahoma process servers must be licensed under 12 O.S. section 158.1 and maintain a $5,000 surety bond on file with the county clerk.
                   </div>
                   <div>
                     <strong>Service Standards:</strong> Service must comply with Oklahoma Rules of Civil Procedure Title 12. Proper service includes personal delivery or approved substitute methods.
