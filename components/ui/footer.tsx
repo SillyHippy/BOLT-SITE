@@ -677,7 +677,7 @@ export function Footer() {
         {/* Trust & Credentials Section */}
         <div className="ui-surface-card mt-12 pt-8 p-6 border-gray-200">
           <h3 className="text-2xl font-bold text-center mb-6">Trust & Credentials</h3>
-          <div className="flex flex-wrap justify-center items-center gap-6 max-w-5xl mx-auto">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-3 md:gap-4 justify-items-center items-center max-w-5xl mx-auto">
             <div className="w-28 h-28 md:w-32 md:h-32 flex items-center justify-center rounded-xl bg-white ring-1 ring-slate-100 p-2">
               <Image 
                 src="/badges/same-day-service-available-badge.svg" 
@@ -733,6 +733,25 @@ export function Footer() {
                 height={112}
                 className="object-contain hover:scale-105 transition-transform duration-200"
                 priority={false}
+              />
+            </a>
+            {/* Chamber of Commerce member badge */}
+            <a
+              href="https://www.chamberofcommerce.com/business-directory/oklahoma/glenpool/local-medical-services/2033827532-just-legal-solutions?source=memberwebsite"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-28 h-28 md:w-32 md:h-32 flex items-center justify-center bg-white rounded-xl p-2 ring-1 ring-slate-100 hover:shadow-lg transition-shadow duration-200"
+              title="Just Legal Solutions — Chamber of Commerce business directory listing"
+            >
+              {/* eslint-disable-next-line @next/next/no-img-element -- external badge URL; avoids remotePatterns for coc.codes */}
+              <img
+                src="https://coc.codes/images/badge/2033827532"
+                alt="Chamber of Commerce verified business — Just Legal Solutions, Glenpool, Oklahoma"
+                width={112}
+                height={112}
+                className="max-h-full w-auto max-w-full object-contain hover:scale-105 transition-transform duration-200"
+                loading="lazy"
+                decoding="async"
               />
             </a>
             {/* NPSN Directory Listing */}
