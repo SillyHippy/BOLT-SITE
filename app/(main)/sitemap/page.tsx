@@ -31,6 +31,33 @@ interface SitemapSection {
   links: { url: string; label: string }[];
 }
 
+const routeLabelOverrides: Record<string, string> = {
+  '/': 'Home',
+  '/seo-dashboard': 'SEO Dashboard',
+  '/oklahoma-tools': 'Oklahoma Tools Hub',
+};
+
+const humanizeRoute = (url: string): string => {
+  if (routeLabelOverrides[url]) return routeLabelOverrides[url];
+
+  const clean = url.replace(/^\/+|\/+$/g, '');
+  if (!clean) return 'Home';
+
+  return clean
+    .split('/')
+    .map((segment) =>
+      segment
+        .split('-')
+        .map((word) => {
+          const upper = word.toUpperCase();
+          if (['SEO', 'GPS', 'HB', 'UIDDA'].includes(upper)) return upper;
+          return word.charAt(0).toUpperCase() + word.slice(1);
+        })
+        .join(' ')
+    )
+    .join(' - ');
+};
+
 /* ── Data ────────────────────────────────────────────────── */
 const sections: SitemapSection[] = [
   {
@@ -360,6 +387,77 @@ const sections: SitemapSection[] = [
       { url: '/blog/serving-government-entities-oklahoma', label: 'Serving Government Entities in Oklahoma' },
       { url: '/blog/bankruptcy-process-serving-oklahoma', label: 'Bankruptcy Process Serving in Oklahoma' },
     ],
+  },
+  {
+    title: 'Current Main Routes',
+    description: 'Complete index of routes currently present under app/(main) in this workspace.',
+    icon: <FileText className="w-5 h-5" />,
+    color: 'blue',
+    links: [
+      '/',
+      '/about',
+      '/affidavit-of-service',
+      '/backlinks',
+      '/compare',
+      '/compare/process-server-vs-sheriff',
+      '/courier-services',
+      '/courier-services-tulsa',
+      '/downloads',
+      '/eviction-notice-service',
+      '/faq',
+      '/field-sheet',
+      '/for-attorneys',
+      '/glossary',
+      '/how-to-serve-legal-papers-oklahoma',
+      '/join-our-network',
+      '/learn',
+      '/learn/attorney-hiring-process-server',
+      '/learn/electronic-filing-service',
+      '/learn/eviction-service-guide',
+      '/learn/gps-electronic-proof-of-service',
+      '/learn/hb1162-safety-compliance',
+      '/learn/service-by-publication',
+      '/learn/special-population-service',
+      '/learn/uidda-subpoena-domestication',
+      '/learn/vpo-protective-order-service',
+      '/oklahoma-process-serving-hub',
+      '/oklahoma-process-server-bond-requirements',
+      '/oklahoma-tools',
+      '/oklahoma-tools/can-i-serve-my-own-papers',
+      '/oklahoma-tools/e-service-validity-checker',
+      '/oklahoma-tools/process-serving-cost-estimator',
+      '/oklahoma-tools/publication-timeline-calculator',
+      '/oklahoma-tools/rush-emergency-cost-calculator',
+      '/oklahoma-tools/service-deadline-calculator',
+      '/oklahoma-tools/service-method-wizard',
+      '/oklahoma-tools/subpoena-witness-fee-calculator',
+      '/payments',
+      '/pricing',
+      '/process-server-license-oklahoma',
+      '/process-serving',
+      '/resources',
+      '/resources/chain-of-custody-form',
+      '/resources/client-intake-form',
+      '/resources/gps-service-log',
+      '/resources/skip-trace-checklist',
+      '/resources/tools-and-guides',
+      '/same-day-process-server',
+      '/seo-dashboard',
+      '/seo/eviction-notice-process-server',
+      '/seo/legal-posting-process-server',
+      '/seo/process-server-nowata',
+      '/seo/process-server-vinita',
+      '/services',
+      '/sitemap',
+      '/skip-tracing',
+      '/subpoena-service',
+      '/tools',
+      '/tulsa-county-divorce-process-serving',
+      '/tulsa-process-server',
+      '/ultimate-guide-process-serving-oklahoma',
+      '/urgent-process-server',
+      '/videos',
+    ].map((url) => ({ url, label: humanizeRoute(url) })),
   },
 ];
 
