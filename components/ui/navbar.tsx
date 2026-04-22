@@ -1,7 +1,7 @@
 
 "use client";
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
@@ -10,8 +10,19 @@ import { useRouter, usePathname } from 'next/navigation';
 
 export function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [hasScrolled, setHasScrolled] = useState(false);
   const router = useRouter();
   const pathname = usePathname();
+
+  useEffect(() => {
+    const updateScrolledState = () => {
+      setHasScrolled(window.scrollY > 8);
+    };
+
+    updateScrolledState();
+    window.addEventListener('scroll', updateScrolledState, { passive: true });
+    return () => window.removeEventListener('scroll', updateScrolledState);
+  }, []);
 
   const scrollToFooter = () => {
     const footer = document.querySelector('footer');
@@ -37,9 +48,14 @@ export function Navbar() {
 
   const navLinkClass = (active: boolean) =>
     `ui-nav-link ${active ? 'ui-nav-link-active' : ''}`;
+  const mobileNavLinkClass = (active: boolean) =>
+    `ui-nav-link ui-mobile-nav-link ${active ? 'ui-nav-link-active ui-mobile-nav-link-active' : ''}`;
 
   return (
-    <nav className="ui-glass-nav fixed left-0 right-0 top-0 z-40" aria-label="Main navigation">
+    <nav
+      className={`ui-glass-nav ui-mobile-safe-top fixed left-0 right-0 top-0 z-40 ${hasScrolled ? 'ui-glass-nav-scrolled' : ''}`}
+      aria-label="Main navigation"
+    >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
@@ -134,7 +150,7 @@ export function Navbar() {
           role="dialog"
           aria-modal="true"
           aria-label="Mobile navigation menu"
-          className={`fixed top-0 right-0 bottom-0 w-[270px] bg-white/95 backdrop-blur-md border-l border-slate-200 shadow-xl transform transition-transform duration-300 ease-in-out z-50 ${
+          className={`ui-mobile-safe-panel fixed top-0 right-0 bottom-0 w-[270px] bg-white border-l border-slate-300 shadow-xl transform transition-all duration-300 ease-in-out z-50 ${
             isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'
           } md:hidden`}
         >
@@ -155,7 +171,7 @@ export function Navbar() {
           <div className="flex flex-col gap-1 px-3 py-4">
             <Link
               href="/"
-              className={navLinkClass(pathname === '/')}
+              className={mobileNavLinkClass(pathname === '/')}
               onClick={() => setIsMobileMenuOpen(false)}
               aria-current={pathname === '/' ? 'page' : undefined}
               prefetch={false}
@@ -164,7 +180,7 @@ export function Navbar() {
             </Link>
             <Link
               href="/process-serving"
-              className={navLinkClass(pathname === '/process-serving')}
+              className={mobileNavLinkClass(pathname === '/process-serving')}
               onClick={() => setIsMobileMenuOpen(false)}
               aria-current={pathname === '/process-serving' ? 'page' : undefined}
               prefetch={false}
@@ -173,7 +189,7 @@ export function Navbar() {
             </Link>
             <Link
               href="/pricing"
-              className={navLinkClass(pathname === '/pricing')}
+              className={mobileNavLinkClass(pathname === '/pricing')}
               onClick={() => setIsMobileMenuOpen(false)}
               aria-current={pathname === '/pricing' ? 'page' : undefined}
               prefetch={false}
@@ -182,7 +198,7 @@ export function Navbar() {
             </Link>
             <Link
               href="/notary"
-              className={navLinkClass(!!pathname?.startsWith('/notary'))}
+              className={mobileNavLinkClass(!!pathname?.startsWith('/notary'))}
               onClick={() => setIsMobileMenuOpen(false)}
               aria-current={pathname?.startsWith('/notary') ? 'page' : undefined}
               prefetch={false}
@@ -191,7 +207,7 @@ export function Navbar() {
             </Link>
             <Link
               href="/service-areas"
-              className={navLinkClass(!!pathname?.startsWith('/service-areas'))}
+              className={mobileNavLinkClass(!!pathname?.startsWith('/service-areas'))}
               onClick={() => setIsMobileMenuOpen(false)}
               aria-current={pathname?.startsWith('/service-areas') ? 'page' : undefined}
               prefetch={false}
@@ -200,7 +216,7 @@ export function Navbar() {
             </Link>
             <Link
               href="/virtual-assistant-services"
-              className={navLinkClass(pathname === '/virtual-assistant-services')}
+              className={mobileNavLinkClass(pathname === '/virtual-assistant-services')}
               onClick={() => setIsMobileMenuOpen(false)}
               aria-current={pathname === '/virtual-assistant-services' ? 'page' : undefined}
               prefetch={false}
@@ -209,14 +225,14 @@ export function Navbar() {
             </Link>
             <a
               href="/#courier-services"
-              className="ui-nav-link cursor-pointer"
+              className="ui-nav-link ui-mobile-nav-link cursor-pointer"
               onClick={handleCourierServicesClick}
             >
               Courier Services
             </a>
             <Link
               href="/law-firm-services"
-              className={navLinkClass(pathname === '/law-firm-services')}
+              className={mobileNavLinkClass(pathname === '/law-firm-services')}
               onClick={() => setIsMobileMenuOpen(false)}
               aria-current={pathname === '/law-firm-services' ? 'page' : undefined}
               prefetch={false}
@@ -225,7 +241,7 @@ export function Navbar() {
             </Link>
             <Link
               href="/payments"
-              className={navLinkClass(pathname === '/payments')}
+              className={mobileNavLinkClass(pathname === '/payments')}
               onClick={() => setIsMobileMenuOpen(false)}
               aria-current={pathname === '/payments' ? 'page' : undefined}
               prefetch={false}
