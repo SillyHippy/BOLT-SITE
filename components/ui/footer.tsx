@@ -330,6 +330,8 @@ export function Footer() {
           <button
             onClick={toggleForm}
             className="ui-btn-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
+            aria-expanded={showForm}
+            aria-controls="serve-request-form-container"
           >
             {showForm ? "Close Form" : "Serve Request Form"}
           </button>
@@ -347,7 +349,7 @@ export function Footer() {
         </div>
 
         {showForm && (
-          <div className="ui-surface-card p-6 mb-8">
+          <div id="serve-request-form-container" className="ui-surface-card p-6 mb-8">
             {submissionStatus === 'success' ? (
                 <div className="text-center py-10" role="alert">
                     <h3 className="text-2xl font-bold text-green-600 mb-2">Thank You!</h3>
@@ -606,7 +608,15 @@ export function Footer() {
                   disabled={submissionStatus === 'submitting'}
                   className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-md transition duration-300 disabled:bg-gray-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
                 >
-                  {submissionStatus === 'submitting' ? 'Submitting...' : 'Submit Your Job'}
+                  {submissionStatus === 'submitting' ? (
+                    <span className="flex items-center justify-center gap-2">
+                      <svg className="animate-spin -ml-1 mr-2 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                        <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                        <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                      </svg>
+                      Submitting...
+                    </span>
+                  ) : 'Submit Your Job'}
                 </button>
               </form>
             </>
