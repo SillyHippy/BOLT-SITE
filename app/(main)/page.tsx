@@ -106,7 +106,7 @@ export default function Home() {
 
           {/* Description - visible and SEO-friendly */}
           <p className="speakable-summary text-lg md:text-xl max-w-3xl drop-shadow-md mb-6">
-            Professional process serving throughout Oklahoma. From routine legal papers to urgent same-day service in Tulsa, Broken Arrow, Sapulpa &amp; all 77 counties.
+            Professional process serving throughout Oklahoma. Through our trusted network of process servers, we cover all 77 counties in Oklahoma.
           </p>
 
           {/* Trust Badges */}

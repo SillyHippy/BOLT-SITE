@@ -393,7 +393,7 @@ export default function ServiceAreasHub() {
               
               {/* SEO intro paragraph */}
               <p className="text-lg text-slate-300 max-w-3xl mx-auto mb-10">
-                Statewide Oklahoma process server coverage across all 77 counties, including <Link href="/tulsa-process-server" className="text-yellow-400 hover:text-yellow-300 underline">Tulsa</Link>, Oklahoma City, Lawton, Norman, and Enid, with same-day service available in the Tulsa–Glenpool metro.
+                Through our trusted network of process servers, we cover all 77 counties in Oklahoma, including <Link href="/tulsa-process-server" className="text-yellow-400 hover:text-yellow-300 underline">Tulsa</Link>, Oklahoma City, Lawton, Norman, and Enid, with same-day service available in the Tulsa–Glenpool metro.
               </p>
               
               {/* CTA buttons */}

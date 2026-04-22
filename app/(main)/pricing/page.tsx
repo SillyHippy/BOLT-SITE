@@ -325,7 +325,7 @@ export default function PricingPage() {
               </p>
               <div className="max-w-3xl mx-auto bg-blue-50/50 border border-blue-200 rounded-lg p-3 mb-12">
                 <p className="text-sm text-blue-800">
-                  <span className="font-semibold">Note on Service Area:</span> Standard rates apply to most of <strong>Tulsa County</strong> and select parts of <strong>Creek County (Sapulpa)</strong> & <strong>Wagoner County (Broken Arrow)</strong>. A surcharge applies to all other areas. Please contact us for a precise quote.
+                  <span className="font-semibold">Note on Service Area:</span> Standard rates apply to most of <strong>Tulsa County</strong> and select parts of <strong>Creek County (Sapulpa)</strong> & <strong>Wagoner County (Broken Arrow)</strong>. Through our trusted network of process servers, we cover all 77 counties in Oklahoma. A surcharge applies to areas outside the standard-rate zones. Please contact us for a precise quote.
                 </p>
               </div>
             </div>
