@@ -51,6 +51,11 @@ interface UnifiedSchemaProps {
     question: string;
     answer: string;
   }>;
+  howToSteps?: Array<{
+    name: string;
+    text: string;
+    url?: string;
+  }>;
   faqs?: Array<{
     question: string;
     answer: string;
@@ -95,6 +100,8 @@ interface UnifiedSchemaProps {
     zipCode?: string;
     address?: string;
     region?: string;
+    countySeat?: string;
+    courthouseAddress?: string;
     geo?: {
       latitude: number;
       longitude: number;
@@ -235,6 +242,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     datePublished,
     dateModified,
     faqItems = [],
+    howToSteps = [],
     author = {
       name: 'Joseph Iannazzi',
       url: 'https://www.linkedin.com/in/joseph-iannazzi'
@@ -399,6 +407,22 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     }))
   } : null;
 
+  // HowTo schema (only when explicit, visible steps are provided)
+  const howToSchema = howToSteps.length > 0 ? {
+    '@type': 'HowTo',
+    '@id': `${url}#howto`,
+    name: `How process serving works${location?.name ? ` in ${location.name}` : ''}`,
+    description: `Step-by-step process for requesting and completing professional process service${location?.name ? ` in ${location.name}` : ''}.`,
+    totalTime: 'P3D',
+    step: howToSteps.map((step, index) => ({
+      '@type': 'HowToStep',
+      position: index + 1,
+      name: step.name,
+      text: step.text,
+      ...(step.url ? { url: step.url.startsWith('http') ? step.url : `https://justlegalsolutions.org${step.url}` } : {}),
+    })),
+  } : null;
+
   // Service schema
   const serviceSchema = serviceDetails ? {
     '@type': 'Service',
@@ -423,7 +447,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     }),
     ...(serviceDetails.areaServed && {
       areaServed: serviceDetails.areaServed.map(area => ({
-        '@type': 'City',
+        '@type': area.toLowerCase().includes('county') ? 'AdministrativeArea' : 'City',
         name: area
       }))
     })
@@ -490,7 +514,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     (organizationSchema as any).foundingDate = '2025-03-01';
     (organizationSchema as any).slogan = 'Oklahoma\'s #1 Process Server - Professional, Fast, Reliable';
     (organizationSchema as any).description = 'Licensed and bonded Oklahoma process server providing postings ($30+), standard process serving ($60+), rush ($100+), same-day rush ($150+), and after-hours rush ($265+) document delivery across all 77 counties with GPS tracking and digital affidavits.';
-    (organizationSchema as any).areaServed = [
+    const statewideCoverage = [
       {
         '@type': 'State',
         'name': 'Oklahoma',
@@ -512,6 +536,33 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
         ]
       }
     ];
+
+    const countyCoverage =
+      pageType === 'location' && location?.name
+        ? [
+            {
+              '@type': 'AdministrativeArea',
+              name: location.name,
+              ...(location.state ? { containedInPlace: { '@type': 'State', name: location.state } } : {}),
+              ...(location.courthouseAddress
+                ? {
+                    serviceLocation: {
+                      '@type': 'Place',
+                      name: `${location.name} Courthouse`,
+                      address: {
+                        '@type': 'PostalAddress',
+                        streetAddress: location.courthouseAddress,
+                        addressRegion: location.state || 'OK',
+                        addressCountry: 'US',
+                      },
+                    },
+                  }
+                : {}),
+            },
+          ]
+        : null;
+
+    (organizationSchema as any).areaServed = countyCoverage || statewideCoverage;
 
     // Professional credentials for authority
     (organizationSchema as any).hasCredential = [
@@ -729,6 +780,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
   // Add conditional schemas
   if (breadcrumbSchema) (schemaGraph as any[]).push(breadcrumbSchema);
   if (faqSchema) (schemaGraph as any[]).push(faqSchema);
+  if (howToSchema) (schemaGraph as any[]).push(howToSchema);
   if (serviceSchema) (schemaGraph as any[]).push(serviceSchema);
   if (articleSchema) (schemaGraph as any[]).push(articleSchema);
 

@@ -90,6 +90,24 @@ export default async function CountyPage({ params }: { params: Promise<{ slug: s
     { name: countyName, url: `/counties/${slug}` },
   ];
 
+  const howToSteps = [
+    {
+      name: 'Share your case details',
+      text: `Send your documents, target details, and deadline for service in ${countyName}.`,
+      url: '/contact',
+    },
+    {
+      name: 'We attempt service and document everything',
+      text: `Our server completes legally compliant service attempts in ${countyName} with GPS-backed notes and timestamps.`,
+      url: '/services',
+    },
+    {
+      name: 'Receive your affidavit for filing',
+      text: 'After service is completed, we provide a notarized affidavit so you can file proof with the court.',
+      url: '/pricing',
+    },
+  ];
+
   return (
     <>
       <UnifiedSchema
@@ -103,10 +121,19 @@ export default async function CountyPage({ params }: { params: Promise<{ slug: s
         services={['Process Serving', 'Legal Document Delivery', 'Skip Tracing', 'Courthouse Filing']}
         breadcrumbs={breadcrumbItems}
         faqItems={faqs}
+        howToSteps={howToSteps}
+        serviceDetails={{
+          name: `Process Serving in ${countyName}`,
+          description: `Licensed and bonded process service coverage throughout ${countyName}, Oklahoma with standard, rush, and same-day options.`,
+          areaServed: [countyName],
+          serviceType: ['Process Serving', 'Legal Document Delivery'],
+        }}
         location={{
           name: countyName,
           state: 'Oklahoma',
           region: countyName,
+          countySeat: countyDatum?.countySeat,
+          courthouseAddress: countyDatum?.courthouseAddress,
         }}
         keywords={[
           `process server ${countyName}`,
@@ -148,6 +175,40 @@ export default async function CountyPage({ params }: { params: Promise<{ slug: s
         <article className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <MarkdownContent content={content} />
         </article>
+
+        {/* HowTo section (visible HTML should mirror HowTo schema steps) */}
+        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">
+            How Process Service Works in {countyName}
+          </h2>
+          <ol className="space-y-4">
+            {howToSteps.map((step, idx) => (
+              <li key={step.name} className="rounded-lg border border-gray-200 p-4">
+                <h3 className="font-semibold text-gray-900">
+                  {idx + 1}. {step.name}
+                </h3>
+                <p className="mt-1 text-gray-700">{step.text}</p>
+              </li>
+            ))}
+          </ol>
+        </section>
+
+        {/* FAQ section (visible content aligned with FAQ schema) */}
+        {faqs.length > 0 && (
+          <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">
+              {countyName} Process Server FAQ
+            </h2>
+            <div className="space-y-3">
+              {faqs.map((faq) => (
+                <details key={faq.question} className="rounded-lg border border-gray-200 p-4">
+                  <summary className="cursor-pointer font-semibold text-gray-900">{faq.question}</summary>
+                  <p className="mt-2 text-gray-700">{faq.answer}</p>
+                </details>
+              ))}
+            </div>
+          </section>
+        )}
 
         {/* CTA Section */}
         <section className="bg-blue-900 text-white py-16">
