@@ -124,45 +124,50 @@ export default async function VideoPage({ params }: { params: Promise<{ slug: st
     .replace('S', 's')
     .trim();
 
+  const videoFaqItems = [
+    {
+      question: `What is ${video.title}?`,
+      answer: `${video.description} This video explains the process serving requirements and best practices in Oklahoma.`,
+    },
+    {
+      question: 'How does same-day process serving work in Tulsa?',
+      answer: 'When you contact us before noon, we can dispatch a licensed process server the same day in most Tulsa-metro cases. Same-day rush service starts at $150 and includes GPS-tracked attempts and expedited affidavits.',
+    },
+    {
+      question: 'What is the fastest way to serve papers in Oklahoma?',
+      answer: 'The fastest option is emergency 2-hour dispatch in qualifying Tulsa-metro matters. Same-day rush is generally the fastest statewide practical option depending on county distance and access conditions.',
+    },
+    {
+      question: 'How much does process serving cost in Oklahoma?',
+      answer: 'Standard process serving starts at $60. Rush service starts at $100, same-day service starts at $150, and emergency 2-hour service starts at $265. Final pricing depends on location and complexity.',
+    },
+    {
+      question: 'Is weekend process serving available in Oklahoma?',
+      answer: 'Yes. We offer weekend and holiday process serving where legally permitted, with availability based on county and dispatch conditions. After-hours and holiday surcharges may apply.',
+    },
+    {
+      question: 'What documents can be served with rush or same-day service?',
+      answer: 'Most civil legal documents can be served on rush or same-day timelines, including summons, complaints, subpoenas, eviction notices, and many family-law pleadings.',
+    },
+    {
+      question: 'What counties do you serve in Oklahoma?',
+      answer: 'Just Legal Solutions serves all 77 Oklahoma counties, including Tulsa, Oklahoma, Cleveland, Canadian, Rogers, Wagoner, Osage, and Creek counties, with statewide partner coverage for rural areas.',
+    },
+  ];
+
   // Enhanced FAQ schema for video page - AI & voice search optimized
   const faqSchema = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
     '@id': `${canonicalUrl}#faq`,
-    mainEntity: [
-      {
-        '@type': 'Question',
-        name: `What is ${video.title}?`,
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: `${video.description} This video explains the process serving requirements and best practices in Oklahoma.`,
-        },
+    mainEntity: videoFaqItems.map((faq) => ({
+      '@type': 'Question',
+      name: faq.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.answer,
       },
-      {
-        '@type': 'Question',
-        name: 'How much does process serving cost in Oklahoma?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Process serving in Oklahoma starts at $60 for standard delivery. Emergency same-day service and specialized skip tracing may have different rates. Contact Just Legal Solutions at (539) 367-6832 for a free quote.',
-        },
-      },
-      {
-        '@type': 'Question',
-        name: 'How fast can you serve legal papers in Tulsa?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Just Legal Solutions offers same-day process serving throughout Tulsa and all 77 Oklahoma counties. Emergency 2-hour service is available for urgent legal documents. Call (539) 367-6832 to schedule immediate service.',
-        },
-      },
-      {
-        '@type': 'Question',
-        name: 'What counties do you serve in Oklahoma?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Just Legal Solutions provides process serving in all 77 Oklahoma counties including Tulsa, Oklahoma, Cleveland, Canadian, Rogers, Wagoner, Osage, Creek, and Payne counties. Statewide coverage with GPS tracking.',
-        },
-      },
-    ],
+    })),
   };
 
   // Enhanced VideoObject schema with maximum SEO signals
@@ -432,6 +437,18 @@ export default async function VideoPage({ params }: { params: Promise<{ slug: st
                 Contact Us
               </Link>
             </div>
+          </div>
+        </div>
+
+        <div className="mt-8 bg-white rounded-2xl shadow-sm border border-gray-100 p-8">
+          <h2 className="text-xl font-bold text-gray-900 mb-4">Video FAQ</h2>
+          <div className="space-y-3">
+            {videoFaqItems.map((faq) => (
+              <details key={faq.question} className="rounded-lg border border-gray-200 p-4">
+                <summary className="cursor-pointer font-semibold text-gray-900">{faq.question}</summary>
+                <p className="mt-2 text-gray-700 text-sm leading-relaxed">{faq.answer}</p>
+              </details>
+            ))}
           </div>
         </div>
 

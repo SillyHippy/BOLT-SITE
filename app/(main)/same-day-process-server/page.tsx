@@ -44,6 +44,29 @@ const faqs = [
     { question: "Is same-day service available on weekends?", answer: "Yes. Oklahoma law places no restriction on what day or time papers can be served. We offer same-day service 7 days a week, including weekends and holidays. Weekend and holiday service may include a surcharge." },
 ];
 
+const howToSteps = [
+    {
+        name: 'Call or Submit by Noon',
+        text: 'Contact us with the document type, service address, and any info about the person. Upload documents via secure portal, email, or arrange office pickup.',
+        url: '/contact',
+    },
+    {
+        name: 'Immediate Assignment',
+        text: "We assign the licensed process server closest to the service address. You receive a confirmation with the server's estimated arrival window.",
+        url: '/process-serving',
+    },
+    {
+        name: 'Service Attempt (4-8 Hours)',
+        text: 'The server attempts personal service within 4-8 hours. Every attempt is GPS-verified with exact timestamps. You receive live phone updates.',
+        url: '/gps-tracked-process-serving',
+    },
+    {
+        name: 'Affidavit and Filing',
+        text: 'Upon success, we prepare an expedited notarized affidavit of service and file it with the court. If documents are received before noon, court filing is included same day.',
+        url: '/pricing',
+    },
+];
+
 export default function SameDayProcessServerPage() {
     return (
         <>
@@ -80,15 +103,10 @@ export default function SameDayProcessServerPage() {
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-gray-900 mb-6">How Same-Day Service Works</h2>
                         <div className="space-y-6">
-                            {[
-                                { step: '1', title: 'Call or Submit by Noon', desc: 'Contact us with the document type, service address, and any info about the person. Upload documents via secure portal, email, or arrange office pickup.', color: 'bg-orange-500' },
-                                { step: '2', title: 'Immediate Assignment', desc: 'We assign the licensed process server closest to the service address. You receive a confirmation with the server\'s estimated arrival window.', color: 'bg-orange-500' },
-                                { step: '3', title: 'Service Attempt (4-8 Hours)', desc: 'The server attempts personal service within 4-8 hours. Every attempt is GPS-verified with exact timestamps. You receive live phone updates.', color: 'bg-orange-500' },
-                                { step: '4', title: 'Affidavit & Filing', desc: 'Upon success, we prepare an expedited notarized affidavit of service and file it with the court. If documents are received before noon, court filing is included same day.', color: 'bg-orange-500' },
-                            ].map((item) => (
-                                <div key={item.step} className="flex items-start gap-4">
-                                    <div className={`flex-shrink-0 w-10 h-10 ${item.color} rounded-full flex items-center justify-center text-white font-bold`}>{item.step}</div>
-                                    <div><h3 className="font-bold text-lg text-gray-900">{item.title}</h3><p className="text-gray-700">{item.desc}</p></div>
+                            {howToSteps.map((item, idx) => (
+                                <div key={item.name} className="flex items-start gap-4">
+                                    <div className="flex-shrink-0 w-10 h-10 bg-orange-500 rounded-full flex items-center justify-center text-white font-bold">{idx + 1}</div>
+                                    <div><h3 className="font-bold text-lg text-gray-900">{item.name}</h3><p className="text-gray-700">{item.text}</p></div>
                                 </div>
                             ))}
                         </div>
@@ -166,7 +184,7 @@ export default function SameDayProcessServerPage() {
                     </div>
                 </div>
             </div>
-            <UnifiedSchema pageType="service" title="Same-Day Process Server Oklahoma" description="Same-day rush process serving for $150. Served within 4-8 hours. GPS-verified." url="https://justlegalsolutions.org/same-day-process-server" image="https://justlegalsolutions.org/image-pack/images/image-091-same-day-process-server-og.png" keywords={['same day process server', 'rush process serving', 'fast paper serving']} reviewCount={156} services={['Same-Day Rush Service', 'Standard Process Serving', '2-Hour Emergency Service']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'Same-Day Process Server', url: '/same-day-process-server' }]} />
+            <UnifiedSchema pageType="service" title="Same-Day Process Server Oklahoma" description="Same-day rush process serving for $150. Served within 4-8 hours. GPS-verified." url="https://justlegalsolutions.org/same-day-process-server" image="https://justlegalsolutions.org/image-pack/images/image-091-same-day-process-server-og.png" keywords={['same day process server', 'rush process serving', 'fast paper serving']} reviewCount={156} services={['Same-Day Rush Service', 'Standard Process Serving', '2-Hour Emergency Service']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'Same-Day Process Server', url: '/same-day-process-server' }]} faqItems={faqs} howToSteps={howToSteps} />
         </>
     );
 }

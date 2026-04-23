@@ -14,6 +14,7 @@ import {
 } from '@/lib/markdown-utils';
 import { getCountyData } from '@/lib/county-data';
 import { getCountyGeoData } from '@/lib/county-geo';
+import { getCitiesByCounty } from '@/lib/city-geo';
 
 export function generateStaticParams(): { slug: string }[] {
   return getCountySlugs().map((slug) => ({ slug }));
@@ -71,6 +72,9 @@ export default async function CountyPage({ params }: { params: Promise<{ slug: s
   const mdFaqs = extractFAQs(content);
   const countyDatum = getCountyData(slug);
   const countyGeo = getCountyGeoData(slug);
+  const countyCities = getCitiesByCounty(countyName)
+    .slice(0, 15)
+    .map((city) => city.cityName);
   const generatedFaqs = countyDatum
     ? generateCountyFAQs(
         countyDatum.countyName,
@@ -127,7 +131,7 @@ export default async function CountyPage({ params }: { params: Promise<{ slug: s
         serviceDetails={{
           name: `Process Serving in ${countyName}`,
           description: `Licensed and bonded process service coverage throughout ${countyName}, Oklahoma with standard, rush, and same-day options.`,
-          areaServed: [countyName],
+          areaServed: [countyName, ...countyCities],
           serviceType: ['Process Serving', 'Legal Document Delivery'],
         }}
         location={{

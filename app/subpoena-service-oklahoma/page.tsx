@@ -191,7 +191,7 @@ export default function SubpoenaServiceOklahomaPage() {
           { name: 'Home', url: 'https://justlegalsolutions.org/' },
           { name: 'Subpoena Service Oklahoma', url },
         ]}
-        faqs={faqs}
+        faqItems={faqs}
         serviceDetails={{
           name: 'Oklahoma Subpoena Service',
           description:

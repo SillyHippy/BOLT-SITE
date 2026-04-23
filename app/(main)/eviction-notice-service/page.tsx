@@ -44,6 +44,39 @@ const faqs = [
     { question: "Can I serve my own eviction notice?", answer: "Yes, Oklahoma law allows a landlord or their agent to deliver the notice. However, using a licensed process server provides documented proof of service with GPS verification, which is much stronger evidence in court than self-service. If the tenant disputes receiving the notice, a professional affidavit of service is significantly more credible than a landlord's own testimony." },
 ];
 
+const howToSteps = [
+    {
+        name: 'Serve Notice',
+        text: 'Deliver the appropriate notice (5, 15, or 30-day) to the tenant. The clock starts the day after service.',
+        url: '/eviction-notice-service',
+    },
+    {
+        name: 'Wait for Notice Period',
+        text: 'The tenant has the full notice period to pay, cure, or vacate. If they comply, no further action is needed.',
+        url: '/eviction-notice-service',
+    },
+    {
+        name: 'File FED Action',
+        text: 'If the tenant does not comply, file a Forcible Entry and Detainer action at the district court.',
+        url: '/seo/eviction-notice-process-server',
+    },
+    {
+        name: 'Serve FED Summons',
+        text: 'The tenant must be served with the court summons at least 3 days before the hearing date.',
+        url: '/process-serving',
+    },
+    {
+        name: 'Court Hearing',
+        text: "Both parties appear before a judge. If ruled in landlord's favor, a writ of execution is issued.",
+        url: '/oklahoma-process-server-laws',
+    },
+    {
+        name: 'Writ of Execution',
+        text: 'The tenant has 48 hours to vacate after the writ is posted. If they remain, the sheriff physically removes them.',
+        url: '/oklahoma-process-server-laws',
+    },
+];
+
 export default function EvictionNoticeServicePage() {
     return (
         <>
@@ -190,7 +223,7 @@ export default function EvictionNoticeServicePage() {
                     </div>
                 </div>
             </div>
-            <UnifiedSchema pageType="service" title="Eviction Notice Service Oklahoma" description="5-day, 15-day, and 30-day eviction notices served by licensed process servers. GPS-verified, from $30." url="https://justlegalsolutions.org/eviction-notice-service" image="https://justlegalsolutions.org/image-pack/images/image-040-eviction-notice-service-og.png" keywords={['eviction notice service', 'serve eviction notice oklahoma', '5 day notice']} reviewCount={156} services={['5-Day Notice Service', '15-Day Notice Service', '30-Day Notice Service', '24-Hour Emergency Notice']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'Eviction Notice Service', url: '/eviction-notice-service' }]} />
+            <UnifiedSchema pageType="service" title="Eviction Notice Service Oklahoma" description="5-day, 15-day, and 30-day eviction notices served by licensed process servers. GPS-verified, from $30." url="https://justlegalsolutions.org/eviction-notice-service" image="https://justlegalsolutions.org/image-pack/images/image-040-eviction-notice-service-og.png" keywords={['eviction notice service', 'serve eviction notice oklahoma', '5 day notice']} reviewCount={156} services={['5-Day Notice Service', '15-Day Notice Service', '30-Day Notice Service', '24-Hour Emergency Notice']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'Eviction Notice Service', url: '/eviction-notice-service' }]} faqItems={faqs} howToSteps={howToSteps} />
         </>
     );
 }

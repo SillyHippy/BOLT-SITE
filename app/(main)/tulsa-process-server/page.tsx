@@ -1084,36 +1084,10 @@ export default function TulsaProcessServerPage() {
           ratingValue: 4.9,
           reviewCount: 156
         }}
-        faqs={[
-          {
-            question: "How quickly can your Tulsa process server deliver legal documents?",
-            answer: "Our standard delivery for a Tulsa process server is typically within 3-5 business days, well within the 180-day statutory deadline for service under 12 O.S. § 2004. However, we understand some legal matters are time-sensitive. We offer rush and same-day service for urgent deliveries throughout Tulsa and Tulsa County. Our process servers in Tulsa are committed to providing the fastest and most reliable service possible."
-          },
-          {
-            question: "Are you a licensed and bonded process server in Tulsa County?",
-            answer: "Yes, absolutely. All of our process servers are fully licensed under 12 O.S. § 158.1 by Oklahoma district courts and bonded with a $5,000 surety bond as required by state law. We are an authorized Tulsa County process server serving the entire Tulsa metro area. You can trust our professional team to handle your legal documents with the utmost care and compliance throughout Tulsa County."
-          },
-          {
-            question: "What areas and neighborhoods do your Tulsa process servers cover?",
-            answer: "Our process servers cover all of Tulsa County extensively. This includes downtown Tulsa, Midtown, South Tulsa, Brookside, Cherry Street, Brady Arts District, and all major residential and business areas throughout Tulsa. We also serve surrounding communities like Jenks, Bixby, Owasso, and Sand Springs. If you need a process server anywhere in the Tulsa metro area, we have you covered."
-          },
-          {
-            question: "What legal documents can you deliver as a Tulsa process server?",
-            answer: "As a leading Tulsa process server, we are experienced in serving all types of legal documents. This includes summons, complaints, subpoenas, writs, eviction notices, and family court documents like divorce papers and child support petitions. For specialized eviction notice delivery, visit our <Link href=\"/seo/eviction-notice-process-server\" className=\"text-red-600 hover:text-red-800 underline\">dedicated eviction process server page</Link>. Our Tulsa Process Server team ensures that every document is served correctly according to Oklahoma law and Tulsa County court requirements."
-          },
-          {
-            question: "How do you handle urgent or after-hours jobs in Tulsa?",
-            answer: "We specialize in handling difficult, urgent, and after-hours service requests throughout Tulsa and Tulsa County. Our Tulsa process server team is available 24/7 to meet your needs. We understand that some serves require persistence and flexibility, and our process servers in Tulsa are trained to handle these situations professionally and effectively."
-          },
-          {
-            question: "How much does a Tulsa process server cost?",
-            answer: "Our pricing is competitive and transparent. The cost for a Tulsa process server depends on the type of service (standard, rush, same-day) and the location of the serve within Tulsa County. Please visit our pricing page or contact us for a specific quote. We offer affordable rates for reliable service throughout the Tulsa metro area."
-          },
-          {
-            question: "Where can I find more information about process serving laws and procedures?",
-            answer: "For comprehensive guides on Oklahoma process serving laws, document types, and legal procedures, visit our <Link href=\"/resources\" className=\"text-blue-600 hover:text-blue-800 underline\">legal resources page</Link>. You'll find expert guidance, FAQs, and educational materials about process serving throughout Oklahoma. We also have a detailed <Link href=\"/process-server-tulsa-guide\" className=\"text-blue-600 hover:text-blue-800 underline\">Tulsa Process Server Guide</Link> with everything you need to know about selecting and working with process servers."
-          }
-        ]}
+        faqItems={faqData.mainEntity.map((item) => ({
+          question: item.name,
+          answer: item.acceptedAnswer.text,
+        }))}
         breadcrumbs={[
           { name: 'Home', url: '/' },
           { name: 'Tulsa Process Server', url: '/tulsa-process-server' }

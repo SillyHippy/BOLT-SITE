@@ -93,6 +93,29 @@ const serviceFaqs = [
     },
 ];
 
+const howToSteps = [
+    {
+        name: 'Submit Your Documents',
+        text: 'Call (539) 367-6832, email, or use our web form. Tell us the document type, deadline, and any known information about the person to be served.',
+        url: '/contact',
+    },
+    {
+        name: 'Assignment and Dispatch',
+        text: 'We assign the licensed process server nearest to the service address. All servers are licensed under 12 O.S. § 158.1 and carry a $5,000 surety bond.',
+        url: '/process-server-license-oklahoma',
+    },
+    {
+        name: 'Service Attempt',
+        text: 'The server locates the individual and serves the documents according to Oklahoma law. Every attempt is GPS-verified with date, time, and location stamps.',
+        url: '/gps-tracked-process-serving',
+    },
+    {
+        name: 'Affidavit and Court Filing',
+        text: 'Upon successful service, we prepare a notarized affidavit of service and file it with the appropriate Oklahoma district court. You receive a copy for your records.',
+        url: '/courthouse-filing-services',
+    },
+];
+
 export default function ProcessServingPage() {
     return (
         <>
@@ -603,34 +626,15 @@ export default function ProcessServingPage() {
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-gray-900 mb-6">How Process Serving Works</h2>
                         <div className="space-y-6">
-                            <div className="flex items-start gap-4">
-                                <div className="flex-shrink-0 w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold">1</div>
-                                <div>
-                                    <h3 className="font-bold text-lg text-gray-900">Submit Your Documents</h3>
-                                    <p className="text-gray-700">Call <a href="tel:5393676832" className="text-blue-600 hover:underline font-medium">(539) 367-6832</a>, email, or use our <Link href="/contact" className="text-blue-600 hover:underline font-medium">web form</Link>. Tell us the document type, deadline, and any known information about the person to be served.</p>
+                            {howToSteps.map((step, idx) => (
+                                <div key={step.name} className="flex items-start gap-4">
+                                    <div className="flex-shrink-0 w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold">{idx + 1}</div>
+                                    <div>
+                                        <h3 className="font-bold text-lg text-gray-900">{step.name}</h3>
+                                        <p className="text-gray-700">{step.text}</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div className="flex items-start gap-4">
-                                <div className="flex-shrink-0 w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold">2</div>
-                                <div>
-                                    <h3 className="font-bold text-lg text-gray-900">Assignment &amp; Dispatch</h3>
-                                    <p className="text-gray-700">We assign the licensed process server nearest to the service address. All servers are licensed under 12 O.S. § 158.1 and carry a $5,000 surety bond as required by Oklahoma law.</p>
-                                </div>
-                            </div>
-                            <div className="flex items-start gap-4">
-                                <div className="flex-shrink-0 w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold">3</div>
-                                <div>
-                                    <h3 className="font-bold text-lg text-gray-900">Service Attempt</h3>
-                                    <p className="text-gray-700">The server locates the individual and serves the documents according to Oklahoma law. Every attempt is GPS-verified with date, time, and location stamps. You receive real-time updates.</p>
-                                </div>
-                            </div>
-                            <div className="flex items-start gap-4">
-                                <div className="flex-shrink-0 w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold">4</div>
-                                <div>
-                                    <h3 className="font-bold text-lg text-gray-900">Affidavit &amp; Court Filing</h3>
-                                    <p className="text-gray-700">Upon successful service, we prepare a notarized affidavit of service and file it with the appropriate Oklahoma district court. You receive a copy for your records.</p>
-                                </div>
-                            </div>
+                            ))}
                         </div>
                     </section>
 
@@ -822,6 +826,8 @@ export default function ProcessServingPage() {
                     { name: 'Home', url: '/' },
                     { name: 'Process Serving', url: '/process-serving' }
                 ]}
+                faqItems={serviceFaqs}
+                howToSteps={howToSteps}
             />
         </>
     );

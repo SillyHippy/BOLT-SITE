@@ -85,7 +85,7 @@ export default function OklahomaServiceByPublicationGuide() {
           { name: 'Blog', url: 'https://justlegalsolutions.org/blog' },
           { name: 'Oklahoma Service by Publication Guide', url: 'https://justlegalsolutions.org/blog/oklahoma-service-by-publication' }
         ]}
-        faqs={faqs}
+        faqItems={faqs}
       />
       <Navbar />
       <main className="min-h-screen bg-gradient-to-b from-gray-50 to-white">

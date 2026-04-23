@@ -244,8 +244,29 @@ const faqSchema = {
         text: 'Getting started is simple. Call (539) 367-6832 or email info@JustLegalSolutions.org to discuss your firm\'s needs. We\'ll set up your attorney account with preferred service protocols, provide access to our tracking portal, and establish billing arrangements (monthly invoicing available). For firms with immediate needs, we can begin service the same day your account is established. We also offer a complimentary consultation to review your current process serving workflow and identify optimization opportunities.',
       },
     },
+    {
+      '@type': 'Question',
+      name: 'Do you serve federal subpoenas in Oklahoma?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Yes. We serve federal subpoenas issued under FRCP 45 throughout all three Oklahoma federal districts: Northern District (Tulsa), Western District (Oklahoma City), and Eastern District (Muskogee). This includes deposition, trial, and bankruptcy subpoenas.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Do you provide status updates for active attorney matters?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Yes. You receive real-time portal updates, optional text/email notifications after each attempt, and direct support for urgent case escalations so your team always knows current service status.',
+      },
+    },
   ],
 };
+
+const attorneyFaqItems = faqSchema.mainEntity.map((entity) => ({
+  question: entity.name,
+  answer: entity.acceptedAnswer.text,
+}));
 
 export default function AttorneyServicesPage() {
   return (
@@ -855,56 +876,7 @@ export default function AttorneyServicesPage() {
             </h2>
             
             <div className="space-y-6">
-              {[
-                {
-                  question: 'What process serving services do you offer for law firms in Oklahoma?',
-                  answer: 'Just Legal Solutions offers comprehensive process serving services for Oklahoma law firms including summons and complaint service, subpoena delivery, eviction notices, family court documents, civil litigation papers, and bankruptcy filings. We provide standard (3-5 day), rush (24-48 hour), and same-day emergency service options with volume discounts for high-volume firms. All services include real-time tracking, GPS verification, photo documentation, and electronic proof of service.',
-                },
-                {
-                  question: 'Do you offer volume pricing and monthly billing for attorneys?',
-                  answer: 'Yes, we offer specialized volume pricing and monthly billing arrangements for law firms with regular process serving needs. Volume discounts are available for firms processing 10+ serves per month. Monthly billing consolidates all services into a single invoice with detailed reporting, eliminating the need for individual transaction processing. Contact us at (539) 367-6832 to discuss customized pricing for your firm.',
-                },
-                {
-                  question: 'How does private process serving compare to sheriff service in Oklahoma?',
-                  answer: 'Private process serving offers significant advantages over sheriff service in Oklahoma. Private servers typically complete service 2-3 times faster than sheriff departments, with success rates of 95%+ compared to 60-70% for sheriff service. Private servers provide real-time updates, GPS tracking, and dedicated customer service. While sheriff service may appear less expensive initially, the higher success rate and faster completion of private service often result in lower overall costs. Additionally, private servers can attempt service at optimal times, including evenings and weekends.',
-                },
-                {
-                  question: 'What is your real-time tracking portal for attorneys?',
-                  answer: 'Our attorney tracking portal provides 24/7 access to real-time case status updates. Attorneys can view GPS-verified service attempts with timestamps, access photo documentation of service locations, download completed proofs of service, and receive automatic email notifications at each milestone. The portal maintains a complete history of all serves for your firm, making it easy to track patterns and manage multiple cases simultaneously.',
-                },
-                {
-                  question: 'Do you provide electronic proof of service for Oklahoma courts?',
-                  answer: 'Yes, we provide electronic proof of service that is accepted by all Oklahoma state and federal courts. Our affidavits of service include all required elements under Oklahoma law: server identification and license number, date, time, and location of service, description of the person served, GPS coordinates, and photographic documentation when applicable. Electronic proofs are delivered via email within 24 hours of completed service and are digitally signed for court acceptance.',
-                },
-                {
-                  question: 'What court filing assistance services do you offer for attorneys?',
-                  answer: 'We offer comprehensive court filing assistance for Oklahoma attorneys including document delivery to all state and federal courts, e-filing support where available, filing deadline management, and confirmation of filing with stamped copies. Our court filing service is available for $25 per filing and includes same-day filing for documents received before 2:00 PM. We serve all Oklahoma district courts, appellate courts, and federal courts in Tulsa, Oklahoma City, and Muskogee.',
-                },
-                {
-                  question: 'Do you offer dedicated account management for law firms?',
-                  answer: 'Yes, law firms with regular process serving needs receive dedicated account management from Joseph Iannazzi, owner of Just Legal Solutions. This includes personalized service protocols tailored to your practice areas, priority scheduling for time-sensitive matters, direct phone and email access for urgent requests, monthly usage reports and analytics, and quarterly business reviews to optimize service delivery. Dedicated account management ensures consistent, reliable service aligned with your firm\'s specific needs.',
-                },
-                {
-                  question: 'What areas of Oklahoma do you cover for attorney process serving?',
-                  answer: 'Just Legal Solutions provides statewide coverage for attorney process serving across all 77 Oklahoma counties. Our network includes licensed process servers in Tulsa County, Oklahoma County, Cleveland County, Canadian County, Rogers County, Wagoner County, Creek County, and all other counties. We maintain servers in major metropolitan areas including Tulsa, Oklahoma City, Norman, Lawton, Enid, and Muskogee, with coverage extending to rural and remote areas throughout the state.',
-                },
-                {
-                  question: 'How quickly can you serve legal documents for attorneys?',
-                  answer: 'We offer three service levels to meet attorney deadlines: Standard service completes within 3-5 business days, Rush service provides 24-48 hour delivery for urgent matters, and Same-Day service handles emergency situations with immediate dispatch. For critical court deadlines, we recommend Rush or Same-Day service to ensure adequate time for filing proof of service. Our success rate exceeds 95% on first attempts for routine service.',
-                },
-                {
-                  question: 'What types of legal documents do you serve for law firms?',
-                  answer: 'We serve all types of legal documents for Oklahoma law firms including summons and complaints, subpoenas (witness, deposition, and records), eviction notices and unlawful detainer actions, family court documents (divorce papers, custody orders, child support), probate notices and estate documents, civil litigation papers, small claims documents, restraining orders and protective orders, bankruptcy filings and notices, and corporate service of process. If you have a specialized document type, contact us to discuss your specific requirements.',
-                },
-                {
-                  question: 'Are your process servers licensed in Oklahoma?',
-                  answer: 'Yes, all Just Legal Solutions process servers are properly licensed under Oklahoma law. Owner Joseph Iannazzi holds Oklahoma Process Server License. Our servers are bonded and insured, with comprehensive training in Oklahoma service of process requirements under Title 12 O.S. § 2004. We maintain strict compliance with all state and federal regulations governing process serving in Oklahoma.',
-                },
-                {
-                  question: 'How do I get started with attorney services?',
-                  answer: 'Getting started is simple. Call (539) 367-6832 or email info@JustLegalSolutions.org to discuss your firm\'s needs. We\'ll set up your attorney account with preferred service protocols, provide access to our tracking portal, and establish billing arrangements (monthly invoicing available). For firms with immediate needs, we can begin service the same day your account is established. We also offer a complimentary consultation to review your current process serving workflow and identify optimization opportunities.',
-                },
-              ].map((faq, index) => (
+              {attorneyFaqItems.map((faq, index) => (
                 <div key={index} className="bg-gray-50 p-6 rounded-xl">
                   <h3 className="text-lg font-bold text-gray-900 mb-3">{faq.question}</h3>
                   <p className="text-gray-700 leading-relaxed">{faq.answer}</p>

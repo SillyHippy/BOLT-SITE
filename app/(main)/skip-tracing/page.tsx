@@ -45,6 +45,34 @@ const faqs = [
     { question: "Is skip tracing legal in Oklahoma?", answer: "Yes. Skip tracing for legitimate legal purposes—locating individuals for service of process, debt collection, or legal proceedings—is legal in Oklahoma. We conduct all investigations within federal and Oklahoma state law." },
 ];
 
+const howToSteps = [
+    {
+        name: 'Information Gathering',
+        text: 'You provide whatever you have: name, last known address, DOB, phone numbers, employer, vehicle info, or social media handles.',
+        url: '/contact',
+    },
+    {
+        name: 'Database and Public Records Search',
+        text: 'We search professional databases including address history, phone records, property records, court records, motor vehicle registrations, and voter data.',
+        url: '/skip-tracing',
+    },
+    {
+        name: 'Social Media and Digital Investigation',
+        text: 'When databases are insufficient, we analyze social media profiles, online activity, and digital footprints to identify current locations.',
+        url: '/skip-tracing',
+    },
+    {
+        name: 'Field Verification',
+        text: 'Our licensed servers physically verify the identified address before attempting service, ensuring we serve the right person.',
+        url: '/process-serving',
+    },
+    {
+        name: 'Service or Report',
+        text: 'If bundled with process serving, we proceed directly to service. Otherwise, we provide a detailed report of verified addresses and contact info.',
+        url: '/process-serving',
+    },
+];
+
 export default function SkipTracingPage() {
     return (
         <>
@@ -81,16 +109,10 @@ export default function SkipTracingPage() {
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-gray-900 mb-6">How Our Skip Tracing Works</h2>
                         <div className="space-y-6">
-                            {[
-                                { step: '1', title: 'Information Gathering', desc: 'You provide whatever you have: name, last known address, DOB, phone numbers, employer, vehicle info, or social media handles.' },
-                                { step: '2', title: 'Database & Public Records Search', desc: 'We search professional databases including address history, phone records, property records, court records, motor vehicle registrations, and voter data.' },
-                                { step: '3', title: 'Social Media & Digital Investigation', desc: 'When databases are insufficient, we analyze social media profiles, online activity, and digital footprints to identify current locations.' },
-                                { step: '4', title: 'Field Verification', desc: 'Our licensed servers physically verify the identified address before attempting service, ensuring we serve the right person.' },
-                                { step: '5', title: 'Service or Report', desc: 'If bundled with process serving, we proceed directly to service. Otherwise, we provide a detailed report of verified addresses and contact info.' },
-                            ].map((item) => (
-                                <div key={item.step} className="flex items-start gap-4">
-                                    <div className="flex-shrink-0 w-10 h-10 bg-purple-600 rounded-full flex items-center justify-center text-white font-bold">{item.step}</div>
-                                    <div><h3 className="font-bold text-lg text-gray-900">{item.title}</h3><p className="text-gray-700">{item.desc}</p></div>
+                            {howToSteps.map((item, idx) => (
+                                <div key={item.name} className="flex items-start gap-4">
+                                    <div className="flex-shrink-0 w-10 h-10 bg-purple-600 rounded-full flex items-center justify-center text-white font-bold">{idx + 1}</div>
+                                    <div><h3 className="font-bold text-lg text-gray-900">{item.name}</h3><p className="text-gray-700">{item.text}</p></div>
                                 </div>
                             ))}
                         </div>
@@ -167,7 +189,7 @@ export default function SkipTracingPage() {
                     </div>
                 </div>
             </div>
-            <UnifiedSchema pageType="service" title="Skip Tracing Services Oklahoma" description="Professional skip tracing to locate defendants and witnesses. 95%+ success rate from $50." url="https://justlegalsolutions.org/skip-tracing" image="https://justlegalsolutions.org/image-pack/images/image-018-skip-tracing-og.png" keywords={['skip tracing oklahoma', 'locate defendant', 'find person']} reviewCount={156} services={['Skip Tracing', 'Database Search', 'Social Media Investigation', 'Field Verification']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'Skip Tracing', url: '/skip-tracing' }]} />
+            <UnifiedSchema pageType="service" title="Skip Tracing Services Oklahoma" description="Professional skip tracing to locate defendants and witnesses. 95%+ success rate from $50." url="https://justlegalsolutions.org/skip-tracing" image="https://justlegalsolutions.org/image-pack/images/image-018-skip-tracing-og.png" keywords={['skip tracing oklahoma', 'locate defendant', 'find person']} reviewCount={156} services={['Skip Tracing', 'Database Search', 'Social Media Investigation', 'Field Verification']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'Skip Tracing', url: '/skip-tracing' }]} faqItems={faqs} howToSteps={howToSteps} />
         </>
     );
 }

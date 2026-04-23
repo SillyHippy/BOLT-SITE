@@ -57,7 +57,7 @@ const urgentFaqs = [
   },
   {
     question: "Can I serve papers on someone the same day?",
-    answer: "Usually not. Standard service is $60, and single attempts start at $30. Same-day rush service is $150. Emergency 2-hour service is $265. Wait times apply unless rush is selected."
+    answer: "Yes. Same-day rush service is $150 with service within 4-8 hours, and 2-hour emergency service is $265. Standard service at $60 takes 1-3 business days. The key is selecting the right tier for your deadline. Call (539) 367-6832 for immediate dispatch."
   },
   {
     question: "Is it faster to use a process server or the sheriff?",
@@ -95,6 +95,34 @@ const urgentFaqs = [
     question: "Do you guarantee successful service?",
     answer: "We guarantee a diligent service attempt within the time window you select (2 hours or same-day). However, no process server can guarantee that the defendant will be physically present and locatable at the time of the attempt. If the first attempt is unsuccessful, we coordinate with you on next steps—additional attempts, skip tracing, or alternative service methods. Our first-attempt success rate in the Tulsa metro exceeds 85%."
   }
+];
+
+const howToSteps = [
+  {
+    name: 'Intake',
+    text: 'Call (539) 367-6832, text, or submit through our web form. Tell us the deadline, document type, and any known information about the individual to be served.',
+    url: '/contact',
+  },
+  {
+    name: 'Document Submission',
+    text: 'Upload your documents through our secure client portal or send via encrypted email. We accept PDF, scanned originals, or hard copies available for pickup at your office.',
+    url: '/contact',
+  },
+  {
+    name: 'Assignment to Nearest Licensed Server',
+    text: 'We dispatch the licensed process server closest to the service address. All servers are licensed under 12 O.S. § 158.1 and carry a $5,000 surety bond.',
+    url: '/oklahoma-process-server-laws',
+  },
+  {
+    name: 'Service Attempt',
+    text: 'The server attempts service within your chosen window (2 hours or same-day). Every attempt is GPS-verified with date, time, and location stamps.',
+    url: '/gps-tracked-process-serving',
+  },
+  {
+    name: 'Return of Service and Filing',
+    text: 'Upon successful service, we prepare a notarized affidavit of service and file it with the appropriate court. If service is completed after court hours, filing is submitted on the next business day.',
+    url: '/process-serving',
+  },
 ];
 
 const UrgentProcessServerPage = () => {
@@ -598,7 +626,10 @@ const UrgentProcessServerPage = () => {
         image="https://justlegalsolutions.org/image-pack/images/image-015-urgent-process-server-hero.png"
         keywords={['fastest way to serve papers', 'urgent process server tulsa', 'same day process serving', 'emergency document delivery', 'fast process server oklahoma', '2 hour process serving']}
         reviewCount={156} services={['2-Hour Emergency Service', 'Same-Day Rush Service', 'Standard Process Serving']}
-        breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Urgent Process Server', url: '/urgent-process-server' }]} />
+        breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Urgent Process Server', url: '/urgent-process-server' }]}
+        faqItems={urgentFaqs}
+        howToSteps={howToSteps}
+      />
       <Footer />
     </>
   );

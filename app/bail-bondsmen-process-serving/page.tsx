@@ -201,7 +201,7 @@ export default function BailBondsmenProcessServingPage() {
           { name: 'Home', url: 'https://justlegalsolutions.org/' },
           { name: 'Bail Bondsmen Process Serving', url },
         ]}
-        faqs={faqs}
+        faqItems={faqs}
         serviceDetails={{
           name: 'Bail Bondsmen Process Serving & Skip Tracing',
           description:

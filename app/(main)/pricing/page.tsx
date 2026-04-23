@@ -100,6 +100,29 @@ const serviceCategories = [
   },
 ];
 
+const pricingFaqItems = [
+  {
+    question: "What is the cheapest process server option in Oklahoma?",
+    answer: "Our Standard Service starts at just $60 for Tulsa County and nearby areas. For budget-conscious clients, we also offer a Single Serve Attempt option starting as low as $30."
+  },
+  {
+    question: "Are there any hidden fees for process serving?",
+    answer: "No hidden fees. Our pricing is transparent and upfront. Surcharges for areas outside Tulsa County are quoted before service begins."
+  },
+  {
+    question: "Do you offer volume discounts for process serving?",
+    answer: "Yes! We offer automatic monthly discounts based on your service volume. Law firms and businesses with regular process serving needs receive preferential rates."
+  },
+  {
+    question: "What is included in the base process serving price?",
+    answer: "Our standard pricing includes up to 3 service attempts, GPS-tracked delivery, real-time status updates, a court-ready affidavit of service, and 10 free printed pages."
+  },
+  {
+    question: "How do I get a quote for process serving outside Tulsa?",
+    answer: "Call us at (539) 367-6832 or email info@JustLegalSolutions.org with the service address. We serve all 77 Oklahoma counties and provide upfront quotes."
+  }
+];
+
 export default function PricingPage() {
   return (
     <>
@@ -185,6 +208,7 @@ export default function PricingPage() {
           bestRating: 5,
           worstRating: 1
         }}
+        faqItems={pricingFaqItems}
       />
       <LocalPromoBanner zips={["74008", "74033", "74037"]} />
       <div className="min-h-screen bg-white font-sans">
@@ -744,59 +768,6 @@ export default function PricingPage() {
             <LegalTrustSignalsPanel />
           </div>
         </section>
-
-        {/* FAQ Schema */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "FAQPage",
-              "mainEntity": [
-                {
-                  "@type": "Question",
-                  "name": "What is the cheapest process server option in Oklahoma?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Our Standard Service starts at just $60 for Tulsa County and nearby areas. For budget-conscious clients, we also offer a Single Serve Attempt option starting as low as $30."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Are there any hidden fees for process serving?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "No hidden fees. Our pricing is transparent and upfront. Surcharges for areas outside Tulsa County are quoted before service begins."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Do you offer volume discounts for process serving?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes! We offer automatic monthly discounts based on your service volume. Law firms and businesses with regular process serving needs receive preferential rates."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "What is included in the base process serving price?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Our standard pricing includes up to 3 service attempts, GPS-tracked delivery, real-time status updates, a court-ready affidavit of service, and 10 free printed pages."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "How do I get a quote for process serving outside Tulsa?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Call us at (539) 367-6832 or email info@JustLegalSolutions.org with the service address. We serve all 77 Oklahoma counties and provide upfront quotes."
-                  }
-                }
-              ]
-            })
-          }}
-        />
 
         {/* VideoObject Schema - moved to bottom to keep pricing page focused */}
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

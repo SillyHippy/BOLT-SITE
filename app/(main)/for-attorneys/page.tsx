@@ -103,19 +103,6 @@ const faqs = [
   },
 ];
 
-const faqSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: faqs.map((f) => ({
-    '@type': 'Question',
-    name: f.question,
-    acceptedAnswer: {
-      '@type': 'Answer',
-      text: f.answer,
-    },
-  })),
-};
-
 export default function ForAttorneysPage() {
   return (
     <main className="min-h-screen bg-white">
@@ -132,10 +119,7 @@ export default function ForAttorneysPage() {
           { name: 'For Attorneys', item: 'https://justlegalsolutions.org/for-attorneys' },
         ]}
         image="https://justlegalsolutions.org/image-pack/images/image-026-for-attorneys-og.png"
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        faqItems={faqs}
       />
       {/* Hero */}
       <section className="relative bg-gradient-to-br from-slate-900 to-slate-800 text-white py-20 px-6">
