@@ -4,6 +4,8 @@ import Navbar from '../../components/ui/navbar';
 import Footer from '../../components/ui/footer';
 import JsonLd from '../../components/JsonLd';
 
+import Link from 'next/link';
+
 const canonicalUrl = 'https://justlegalsolutions.org/oklahoma-case-law-service-process';
 
 export const metadata: Metadata = {
@@ -83,14 +85,14 @@ export default function OklahomaCaseLawServiceProcess() {
         </div>
 
         <p className="mb-6">
-          Oklahoma case law on service of process clarifies how statutes like <a href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">12 O.S. § 2004</a> are applied in practice. Courts have addressed questions of due diligence, substituted service, service by publication, and the constitutional requirements of due process. Below are notable Oklahoma court decisions that directly affect process serving procedures. Each is tied to the statute it interprets and summarized without overstating the holding.
+          Oklahoma case law on service of process clarifies how statutes like <Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">12 O.S. § 2004</Link> are applied in practice. Courts have addressed questions of due diligence, substituted service, service by publication, and the constitutional requirements of due process. Below are notable Oklahoma court decisions that directly affect process serving procedures. Each is tied to the statute it interprets and summarized without overstating the holding.
         </p>
         <Image src="/images/Gavel with dismissed case documents.webp" alt="Oklahoma Case Law Service Process" width={800} height={400} className="rounded shadow mb-4" />
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">Why Oklahoma Service of Process Case Law Matters</h2>
           <p className="mb-4">
-            Oklahoma statutes set the baseline rules for service of process, but appellate court decisions interpret how those rules apply to real-world situations. When a party challenges the validity of service, it is the case law—not just the statute—that determines whether service was adequate. Attorneys and process servers benefit from understanding these holdings to reduce the risk of service-related dismissals and to document their diligence effectively. For the full statutory framework, see our <a href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma Process Server Laws</a> guide.
+            Oklahoma statutes set the baseline rules for service of process, but appellate court decisions interpret how those rules apply to real-world situations. When a party challenges the validity of service, it is the case law—not just the statute—that determines whether service was adequate. Attorneys and process servers benefit from understanding these holdings to reduce the risk of service-related dismissals and to document their diligence effectively. For the full statutory framework, see our <Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma Process Server Laws</Link> guide.
           </p>
         </section>
 
@@ -135,7 +137,7 @@ export default function OklahomaCaseLawServiceProcess() {
               <em>Frasier</em> is an older but still-cited decision emphasizing that proper service of process is a jurisdictional prerequisite. The court held that without valid service, a court lacks personal jurisdiction over the defendant, and any resulting judgment is void. This case underscores why even small procedural defects in service matter—they can void an entire judgment.
             </p>
             <p className="text-sm text-gray-600">
-              <strong>Practical takeaway:</strong> Never treat service as a formality. Defective service can render a judgment void and unenforceable, even after years of litigation. For common errors to avoid, see our <a href="/process-serving-mistakes-guide" className="text-blue-600 hover:underline">Process Serving Mistakes Guide</a>.
+              <strong>Practical takeaway:</strong> Never treat service as a formality. Defective service can render a judgment void and unenforceable, even after years of litigation. For common errors to avoid, see our <Link href="/process-serving-mistakes-guide" className="text-blue-600 hover:underline">Process Serving Mistakes Guide</Link>.
             </p>
           </div>
 
@@ -192,7 +194,7 @@ export default function OklahomaCaseLawServiceProcess() {
             </div>
           </div>
           <p className="italic text-sm mt-6">
-            <em>This analysis is provided for educational purposes by Just Legal Solutions, licensed Oklahoma process servers. Consult with legal counsel for specific case applications. For a comprehensive overview of the statutory framework, visit our <a href="/ultimate-guide-process-serving-oklahoma" className="text-blue-600 hover:underline">Ultimate Guide to Process Serving in Oklahoma</a>.</em>
+            <em>This analysis is provided for educational purposes by Just Legal Solutions, licensed Oklahoma process servers. Consult with legal counsel for specific case applications. For a comprehensive overview of the statutory framework, visit our <Link href="/ultimate-guide-process-serving-oklahoma" className="text-blue-600 hover:underline">Ultimate Guide to Process Serving in Oklahoma</Link>.</em>
           </p>
         </section>
 
@@ -200,22 +202,22 @@ export default function OklahomaCaseLawServiceProcess() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">Related Resources</h2>
           <div className="grid md:grid-cols-2 gap-4">
-            <a href="/oklahoma-process-server-laws" className="block bg-white border border-gray-200 p-5 rounded-lg hover:shadow-md transition-shadow">
+            <Link href="/oklahoma-process-server-laws" className="block bg-white border border-gray-200 p-5 rounded-lg hover:shadow-md transition-shadow">
               <h3 className="font-bold text-blue-800 mb-1">Oklahoma Process Server Laws</h3>
               <p className="text-sm text-gray-600">Complete guide to 12 O.S. § 2004, § 158.1, and the statutory framework for service of process.</p>
-            </a>
-            <a href="/process-serving-mistakes-guide" className="block bg-white border border-gray-200 p-5 rounded-lg hover:shadow-md transition-shadow">
+            </Link>
+            <Link href="/process-serving-mistakes-guide" className="block bg-white border border-gray-200 p-5 rounded-lg hover:shadow-md transition-shadow">
               <h3 className="font-bold text-blue-800 mb-1">Common Process Serving Mistakes</h3>
               <p className="text-sm text-gray-600">The most frequent errors that lead to case dismissal—and how to avoid them.</p>
-            </a>
-            <a href="/ultimate-guide-process-serving-oklahoma" className="block bg-white border border-gray-200 p-5 rounded-lg hover:shadow-md transition-shadow">
+            </Link>
+            <Link href="/ultimate-guide-process-serving-oklahoma" className="block bg-white border border-gray-200 p-5 rounded-lg hover:shadow-md transition-shadow">
               <h3 className="font-bold text-blue-800 mb-1">Ultimate Guide to Process Serving in Oklahoma</h3>
               <p className="text-sm text-gray-600">Comprehensive 2026 resource covering laws, procedures, costs, and best practices.</p>
-            </a>
-            <a href="/oklahoma-process-server-best-practices-checklist" className="block bg-white border border-gray-200 p-5 rounded-lg hover:shadow-md transition-shadow">
+            </Link>
+            <Link href="/oklahoma-process-server-best-practices-checklist" className="block bg-white border border-gray-200 p-5 rounded-lg hover:shadow-md transition-shadow">
               <h3 className="font-bold text-blue-800 mb-1">Best Practices Checklist 2026</h3>
               <p className="text-sm text-gray-600">Professional checklist for documentation, service methods, and compliance standards.</p>
-            </a>
+            </Link>
           </div>
         </section>
       </main>

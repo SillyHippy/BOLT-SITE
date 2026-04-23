@@ -38,7 +38,7 @@ export default function ProcessServerCostPage() {
                 <div className="max-w-6xl mx-auto px-4 py-16">
                     <nav aria-label="Breadcrumb" className="mb-6 text-sm">
                         <ol className="flex items-center space-x-2">
-                            <li><a href="/" className="text-blue-600 hover:underline">Home</a></li>
+                            <li><Link href="/" className="text-blue-600 hover:underline">Home</Link></li>
                             <li className="text-gray-500">/</li>
                             <li><span className="text-gray-700">How Much Does a Process Server Cost?</span></li>
                         </ol>
@@ -157,7 +157,6 @@ export default function ProcessServerCostPage() {
                     </div>
                 </div>
             </div>
-
             <UnifiedSchema pageType="article" title="How Much Does a Process Server Cost? (2026 Oklahoma Guide)" description="Process server costs: $30-$265. Full comparison with sheriff and DIY options." url="https://justlegalsolutions.org/how-much-does-process-server-cost" image="https://justlegalsolutions.org/image-pack/images/image-057-how-much-does-process-server-cost-og.png" keywords={['process server cost', 'process serving fees', 'cost to serve papers oklahoma']} reviewCount={156} services={['Standard Service $60', 'Single Attempt $30', 'Same-Day Rush $150', '2-Hour Emergency $265']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'How Much Does a Process Server Cost?', url: '/how-much-does-process-server-cost' }]} />
         </>
     );

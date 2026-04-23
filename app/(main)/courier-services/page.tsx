@@ -50,7 +50,7 @@ export default function CourierServicesPage() {
                 <div className="max-w-6xl mx-auto px-4 py-16">
                     <nav aria-label="Breadcrumb" className="mb-6 text-sm">
                         <ol className="flex items-center space-x-2">
-                            <li><a href="/" className="text-blue-600 hover:underline">Home</a></li>
+                            <li><Link href="/" className="text-blue-600 hover:underline">Home</Link></li>
                             <li className="text-gray-500">/</li>
                             <li><span className="text-gray-700">Legal Courier Services</span></li>
                         </ol>
@@ -152,7 +152,7 @@ export default function CourierServicesPage() {
                         <p className="text-lg text-gray-700 mb-6">Courthouse filings, document pickups, and secure transport. From $30.</p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-4">
                             <a href="tel:5393676832" className="bg-teal-600 hover:bg-teal-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors shadow-lg">&#x1F4DE; Call (539) 367-6832</a>
-                            <a href="/contact" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">&#x1F4DD; Get Quote</a>
+                            <Link href="/contact" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">&#x1F4DD; Get Quote</Link>
                         </div>
                     </section>
 
@@ -162,7 +162,6 @@ export default function CourierServicesPage() {
                     </div>
                 </div>
             </div>
-
             <UnifiedSchema pageType="service" title="Legal Courier Services Oklahoma" description="Courthouse filing, document delivery, and secure legal transport across Oklahoma." url="https://justlegalsolutions.org/courier-services" image="https://justlegalsolutions.org/image-pack/images/image-030-courier-services-og.png" keywords={['legal courier', 'courthouse filing', 'document delivery oklahoma']} reviewCount={156} services={['Courthouse Filing', 'Document Pickup & Delivery', 'File-Stamped Copy Returns', 'Secure Document Transport']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Courier Services', url: '/courier-services' }]} />
         </>
     );

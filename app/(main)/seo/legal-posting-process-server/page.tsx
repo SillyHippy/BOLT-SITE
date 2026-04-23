@@ -34,6 +34,8 @@ export const metadata: Metadata = {
 
 import UnifiedSchema from '@/components/UnifiedSchema';
 
+import Link from 'next/link';
+
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'LegalService',
@@ -64,7 +66,7 @@ const postingData = {
             a: (
                 <>
                   For a comprehensive overview of process serving requirements, legal tips, and updates across the state, visit our{' '}
-                  <a href="/ultimate-guide-process-serving-oklahoma" className="text-blue-700 underline">Ultimate Guide to Process Serving in Oklahoma</a>.
+                  <Link href="/ultimate-guide-process-serving-oklahoma" className="text-blue-700 underline">Ultimate Guide to Process Serving in Oklahoma</Link>.
                 </>
             )
         },
@@ -191,12 +193,12 @@ export default function LegalPostingProcessServer() {
             <section className="bg-indigo-50 p-8 rounded-lg shadow-md mb-12">
               <h3 className="text-2xl font-bold text-indigo-800 mb-6">Related Services</h3>
               <ul className="list-disc list-inside text-indigo-700 space-y-2">
-                <li><a href="/seo/eviction-notice-process-server" className="underline">Eviction Notice Process Server</a> &mdash; Same-day eviction notice delivery in Tulsa County</li>
-                <li><a href="/oklahoma-process-server-laws" className="underline">Oklahoma Process Server Laws</a> &mdash; Complete guide to 12 O.S. &sect; 2004 service requirements</li>
-                <li><a href="/service-areas/broken-arrow" className="underline">Broken Arrow Process Server</a></li>
-                <li><a href="/service-areas/glenpool" className="underline">Glenpool Process Server</a></li>
-                <li><a href="/service-areas/owasso" className="underline">Owasso Process Server</a></li>
-                <li><a href="/pricing" className="underline">Posting &amp; Mailing Service Pricing</a> &mdash; Transparent flat-rate pricing for legal posting</li>
+                <li><Link href="/seo/eviction-notice-process-server" className="underline">Eviction Notice Process Server</Link> &mdash; Same-day eviction notice delivery in Tulsa County</li>
+                <li><Link href="/oklahoma-process-server-laws" className="underline">Oklahoma Process Server Laws</Link> &mdash; Complete guide to 12 O.S. &sect; 2004 service requirements</li>
+                <li><Link href="/service-areas/broken-arrow" className="underline">Broken Arrow Process Server</Link></li>
+                <li><Link href="/service-areas/glenpool" className="underline">Glenpool Process Server</Link></li>
+                <li><Link href="/service-areas/owasso" className="underline">Owasso Process Server</Link></li>
+                <li><Link href="/pricing" className="underline">Posting &amp; Mailing Service Pricing</Link> &mdash; Transparent flat-rate pricing for legal posting</li>
               </ul>
             </section>
           </div>

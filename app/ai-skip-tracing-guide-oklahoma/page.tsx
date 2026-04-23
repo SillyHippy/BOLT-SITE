@@ -4,6 +4,8 @@ import Navbar from '../../components/ui/navbar';
 import Footer from '../../components/ui/footer';
 import JsonLd from '../../components/JsonLd';
 
+import Link from 'next/link';
+
 const canonicalUrl = 'https://justlegalsolutions.org/ai-skip-tracing-guide-oklahoma';
 
 export const metadata: Metadata = {
@@ -99,11 +101,11 @@ const articleSchema = {
 
 export default function AISkipTracingGuideOklahoma() {
   return (
-    <>
-      <Navbar />
-      <JsonLd data={articleSchema} />
-      <JsonLd data={skipTracingSchema} />
-      <main className="max-w-4xl mx-auto px-4 py-8 pt-24">
+    <>
+      <Navbar />
+      <JsonLd data={articleSchema} />
+      <JsonLd data={skipTracingSchema} />
+      <main className="max-w-4xl mx-auto px-4 py-8 pt-24">
         <h1 className="text-4xl font-bold mb-4">Complete AI-Powered Skip Tracing Authority Guide for Oklahoma Process Servers 2026</h1>
         
         <p className="text-lg text-gray-700 mb-2">
@@ -439,19 +441,19 @@ export default function AISkipTracingGuideOklahoma() {
             <div className="bg-white border border-gray-200 p-6 rounded-lg">
               <h3 className="font-bold text-lg mb-3">Process Serving Guides</h3>
               <ul className="space-y-2">
-                <li><a href="/oklahoma-process-server-faq" className="text-blue-600 hover:underline">→ Oklahoma Process Server FAQ 2026</a></li>
-                <li><a href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">→ Oklahoma Process Server Laws Guide</a></li>
-                <li><a href="/oklahoma-process-server-best-practices-checklist" className="text-blue-600 hover:underline">→ Best Practices Checklist 2026</a></li>
-                <li><a href="/process-serving-mistakes-guide" className="text-blue-600 hover:underline">→ Top 10 Mistakes to Avoid</a></li>
+                <li><Link href="/oklahoma-process-server-faq" className="text-blue-600 hover:underline">→ Oklahoma Process Server FAQ 2026</Link></li>
+                <li><Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">→ Oklahoma Process Server Laws Guide</Link></li>
+                <li><Link href="/oklahoma-process-server-best-practices-checklist" className="text-blue-600 hover:underline">→ Best Practices Checklist 2026</Link></li>
+                <li><Link href="/process-serving-mistakes-guide" className="text-blue-600 hover:underline">→ Top 10 Mistakes to Avoid</Link></li>
               </ul>
             </div>
             <div className="bg-white border border-gray-200 p-6 rounded-lg">
               <h3 className="font-bold text-lg mb-3">Specialized Services</h3>
               <ul className="space-y-2">
-                <li><a href="/family-law-service-guide-tulsa" className="text-blue-600 hover:underline">→ Family Law Service Guide</a></li>
-                <li><a href="/weekend-emergency" className="text-blue-600 hover:underline">→ Weekend & Emergency Service</a></li>
-                <li><a href="/law-firm-services" className="text-blue-600 hover:underline">→ Law Firm Partnership Services</a></li>
-                <li><a href="/pricing" className="text-blue-600 hover:underline">→ View Our Pricing</a></li>
+                <li><Link href="/family-law-service-guide-tulsa" className="text-blue-600 hover:underline">→ Family Law Service Guide</Link></li>
+                <li><Link href="/weekend-emergency" className="text-blue-600 hover:underline">→ Weekend & Emergency Service</Link></li>
+                <li><Link href="/law-firm-services" className="text-blue-600 hover:underline">→ Law Firm Partnership Services</Link></li>
+                <li><Link href="/pricing" className="text-blue-600 hover:underline">→ View Our Pricing</Link></li>
               </ul>
             </div>
           </div>

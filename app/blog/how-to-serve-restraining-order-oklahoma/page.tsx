@@ -373,9 +373,9 @@ export default function BlogPost() {
           </ul>
 
           <p>
-            <a href="/services/process-serving/" className="text-blue-600 hover:text-blue-800 underline">
+            <Link href="/services/process-serving/" className="text-blue-600 hover:text-blue-800 underline">
               Just Legal Solutions offers professional protective order service
-            </a>{' '}
+            </Link>{' '}
             with rush and same-day options, GPS tracking, and comprehensive documentation for court filing.
           </p>
 
@@ -512,9 +512,9 @@ export default function BlogPost() {
             <h4 className="font-semibold text-blue-900 mb-2">Rush Service Options</h4>
             <p className="text-blue-800">
               For urgent protective order service,{' '}
-              <a href="/services/same-day-process-serving/" className="underline font-medium">
+              <Link href="/services/same-day-process-serving/" className="underline font-medium">
                 Just Legal Solutions offers rush service
-              </a>{' '}
+              </Link>{' '}
               with 24-48 hour completion times and same-day options for emergency situations. Our GPS-tracked service
               provides real-time updates so you know exactly when service is completed.
             </p>
@@ -832,9 +832,9 @@ export default function BlogPost() {
 
           <p>
             At{' '}
-            <a href="/" className="text-blue-600 hover:text-blue-800 underline">
+            <Link href="/" className="text-blue-600 hover:text-blue-800 underline">
               Just Legal Solutions
-            </a>,
+            </Link>,
             we understand the critical importance of protective order service. Our licensed process servers provide
             rush and same-day service options, GPS tracking, and comprehensive documentation to ensure your protective
             order is served properly and becomes enforceable as quickly as possible. When your safety is at stake,
@@ -845,19 +845,19 @@ export default function BlogPost() {
             <h3 className="text-lg font-bold text-gray-900 mb-4">Related Articles</h3>
             <ul className="space-y-2">
               <li>
-                <a href="/blog/oklahoma-process-server-requirements/" className="text-blue-600 hover:text-blue-800 underline">
+                <Link href="/blog/oklahoma-process-server-requirements/" className="text-blue-600 hover:text-blue-800 underline">
                   Oklahoma Process Server Requirements and Licensing
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/blog/how-to-serve-divorce-papers-oklahoma/" className="text-blue-600 hover:text-blue-800 underline">
+                <Link href="/blog/how-to-serve-divorce-papers-oklahoma/" className="text-blue-600 hover:text-blue-800 underline">
                   How to Serve Divorce Papers in Oklahoma
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/blog/same-day-process-serving-oklahoma/" className="text-blue-600 hover:text-blue-800 underline">
+                <Link href="/blog/same-day-process-serving-oklahoma/" className="text-blue-600 hover:text-blue-800 underline">
                   Same-Day Process Serving in Oklahoma: What You Need to Know
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

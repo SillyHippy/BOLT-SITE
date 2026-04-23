@@ -39,7 +39,7 @@ export default function HowLongPage() {
                 <div className="max-w-6xl mx-auto px-4 py-16">
                     <nav aria-label="Breadcrumb" className="mb-6 text-sm">
                         <ol className="flex items-center space-x-2">
-                            <li><a href="/" className="text-blue-600 hover:underline">Home</a></li>
+                            <li><Link href="/" className="text-blue-600 hover:underline">Home</Link></li>
                             <li className="text-gray-500">/</li>
                             <li><span className="text-gray-700">How Long Does Process Serving Take?</span></li>
                         </ol>
@@ -152,7 +152,6 @@ export default function HowLongPage() {
                     </div>
                 </div>
             </div>
-
             <UnifiedSchema pageType="article" title="How Long Does Process Serving Take?" description="Timeline guide: 2 hours to 6 weeks depending on method. Full comparison." url="https://justlegalsolutions.org/how-long-does-process-serving-take" image="https://justlegalsolutions.org/image-pack/images/image-057-how-much-does-process-server-cost-og.png" keywords={['how long process serving takes', 'process serving timeline', 'fast paper serving']} reviewCount={156} services={['Standard Service', 'Same-Day Rush', '2-Hour Emergency']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'How Long Does Process Serving Take?', url: '/how-long-does-process-serving-take' }]} />
         </>
     );

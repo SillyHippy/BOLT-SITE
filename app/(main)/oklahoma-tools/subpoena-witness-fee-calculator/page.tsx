@@ -1,7 +1,8 @@
-'use client';
-
+'use client';;
 import { useState, useMemo } from 'react';
 import HubPageLayout from '@/components/oklahoma-hub/HubPageLayout';
+
+import Link from 'next/link';
 
 interface CalculationResult {
   dailyFeeTotal: number;
@@ -264,7 +265,7 @@ export default function SubpoenaWitnessFeeCalculator() {
               <p className="text-sm text-gray-700 leading-relaxed mt-2 pl-4 border-l-2 border-gray-200">
                 If you are a party to the case, you generally cannot serve your own subpoena. Oklahoma law 
                 requires service by a disinterested person over the age of 18. Use our{' '}
-                <a href="/oklahoma-tools/can-i-serve-my-own-papers" className="text-blue-600 hover:underline">decision tool</a>{' '}
+                <Link href="/oklahoma-tools/can-i-serve-my-own-papers" className="text-blue-600 hover:underline">decision tool</Link>{' '}
                 for a personalized answer.
               </p>
             </details>

@@ -80,7 +80,6 @@ export default function ServingGovernmentEntitiesPage() {
         url="https://justlegalsolutions.org/blog/serving-government-entities-oklahoma/"
       />
       <Navbar />
-
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 text-white py-16 md:py-24">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -113,7 +112,6 @@ export default function ServingGovernmentEntitiesPage() {
           </div>
         </div>
       </section>
-
       {/* Author Bar */}
       <div className="border-b border-gray-200 bg-gray-50">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
@@ -135,7 +133,6 @@ export default function ServingGovernmentEntitiesPage() {
           </div>
         </div>
       </div>
-
       {/* Main Content */}
       <article className="prose prose-lg prose-blue max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Quick Answer Box */}
@@ -714,13 +711,13 @@ export default function ServingGovernmentEntitiesPage() {
               <Phone className="w-5 h-5" />
               (539) 367-6832
             </a>
-            <a
+            <Link
               href="/contact"
               className="inline-flex items-center gap-2 bg-blue-700 text-white border border-blue-500 px-6 py-3 rounded-lg font-semibold hover:bg-blue-600 transition-colors"
             >
               Request Service Online
               <ChevronRight className="w-5 h-5" />
-            </a>
+            </Link>
           </div>
           <p className="text-sm text-blue-200 mt-4">
             License #Licensed | Serving all 77 Oklahoma counties
@@ -731,14 +728,14 @@ export default function ServingGovernmentEntitiesPage() {
         <div className="not-prose my-12">
           <h2 className="text-xl font-bold text-gray-900 mb-4">Related Articles</h2>
           <div className="grid md:grid-cols-2 gap-4">
-            <a href="/blog/oklahoma-process-server-laws/" className="block p-4 border border-gray-200 rounded-lg hover:border-blue-300 hover:shadow-md transition-all">
+            <Link href="/blog/oklahoma-process-server-laws/" className="block p-4 border border-gray-200 rounded-lg hover:border-blue-300 hover:shadow-md transition-all">
               <h3 className="font-semibold text-blue-700 mb-2">Oklahoma Process Server Laws 2026</h3>
               <p className="text-sm text-gray-600">Complete guide to Oklahoma's process serving statutes and requirements.</p>
-            </a>
-            <a href="/blog/serving-business-entities-oklahoma/" className="block p-4 border border-gray-200 rounded-lg hover:border-blue-300 hover:shadow-md transition-all">
+            </Link>
+            <Link href="/blog/serving-business-entities-oklahoma/" className="block p-4 border border-gray-200 rounded-lg hover:border-blue-300 hover:shadow-md transition-all">
               <h3 className="font-semibold text-blue-700 mb-2">Serving Business Entities in Oklahoma</h3>
               <p className="text-sm text-gray-600">Learn how to properly serve corporations, LLCs, and other business entities.</p>
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -760,7 +757,6 @@ export default function ServingGovernmentEntitiesPage() {
       <div className="mt-12">
         <AuthorBox />
       </div>
-
       <LocalPromoBanner zips={[]} />
       <Footer />
     </main>

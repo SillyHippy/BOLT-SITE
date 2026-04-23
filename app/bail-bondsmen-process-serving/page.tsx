@@ -337,7 +337,7 @@ export default function BailBondsmenProcessServingPage() {
                     </h3>
                     <p
                       className="text-sm text-gray-700"
-                      // eslint-disable-next-line react/no-danger
+                       
                       dangerouslySetInnerHTML={{ __html: step.body }}
                     />
                   </div>
@@ -476,12 +476,12 @@ export default function BailBondsmenProcessServingPage() {
                   </div>
                   <h3
                     className="text-lg font-semibold text-gray-900 mb-2"
-                    // eslint-disable-next-line react/no-danger
+                     
                     dangerouslySetInnerHTML={{ __html: svc.title }}
                   />
                   <p
                     className="text-sm text-gray-700"
-                    // eslint-disable-next-line react/no-danger
+                     
                     dangerouslySetInnerHTML={{ __html: svc.body }}
                   />
                 </div>

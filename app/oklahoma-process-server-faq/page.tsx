@@ -411,7 +411,6 @@ export default function OklahomaProcessServerFAQ2026() {
       <Navbar />
       <JsonLd data={faqSchema} />
       <JsonLd data={localBusinessSchema} />
-      
       {/* Modern Hero Section */}
       <section className="relative bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 pt-24 pb-16 overflow-hidden">
         <div className="absolute inset-0 bg-[url('/images/grid-pattern.svg')] opacity-10"></div>
@@ -450,10 +449,10 @@ export default function OklahomaProcessServerFAQ2026() {
                   <HelpCircle className="w-5 h-5" />
                   Browse FAQs
                 </a>
-                <a href="/contact" className="inline-flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-500 transition border border-blue-500">
+                <Link href="/contact" className="inline-flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-500 transition border border-blue-500">
                   <Phone className="w-5 h-5" />
                   Ask an Expert
-                </a>
+                </Link>
               </div>
             </div>
             
@@ -495,7 +494,6 @@ export default function OklahomaProcessServerFAQ2026() {
           </div>
         </div>
       </section>
-
       {/* Quick Navigation */}
       <section className="bg-white border-b sticky top-16 z-40 shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -517,7 +515,6 @@ export default function OklahomaProcessServerFAQ2026() {
           </div>
         </div>
       </section>
-
       {/* FAQ Sections */}
       <main id="faqs" className="bg-gray-50 py-16">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -780,7 +777,6 @@ export default function OklahomaProcessServerFAQ2026() {
           </div>
         </div>
       </main>
-      
       <AIVoiceSupremacy
         businessName="Just Legal Solutions"
         location="Oklahoma"

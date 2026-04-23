@@ -52,9 +52,9 @@ export default function SkipTracingPage() {
                 <div className="max-w-6xl mx-auto px-4 py-16">
                     <nav aria-label="Breadcrumb" className="mb-6 text-sm">
                         <ol className="flex items-center space-x-2">
-                            <li><a href="/" className="text-blue-600 hover:underline">Home</a></li>
+                            <li><Link href="/" className="text-blue-600 hover:underline">Home</Link></li>
                             <li className="text-gray-500">/</li>
-                            <li><a href="/process-serving" className="text-blue-600 hover:underline">Process Serving</a></li>
+                            <li><Link href="/process-serving" className="text-blue-600 hover:underline">Process Serving</Link></li>
                             <li className="text-gray-500">/</li>
                             <li><span className="text-gray-700">Skip Tracing</span></li>
                         </ol>
@@ -157,7 +157,7 @@ export default function SkipTracingPage() {
                         <p className="text-lg text-gray-700 mb-6">95%+ success rate. Get started with a basic search for just $50.</p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-4">
                             <a href="tel:5393676832" className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors shadow-lg">&#x1F4DE; Call (539) 367-6832</a>
-                            <a href="/contact" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">&#x1F4DD; Request Skip Trace</a>
+                            <Link href="/contact" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">&#x1F4DD; Request Skip Trace</Link>
                         </div>
                     </section>
 
@@ -167,7 +167,6 @@ export default function SkipTracingPage() {
                     </div>
                 </div>
             </div>
-
             <UnifiedSchema pageType="service" title="Skip Tracing Services Oklahoma" description="Professional skip tracing to locate defendants and witnesses. 95%+ success rate from $50." url="https://justlegalsolutions.org/skip-tracing" image="https://justlegalsolutions.org/image-pack/images/image-018-skip-tracing-og.png" keywords={['skip tracing oklahoma', 'locate defendant', 'find person']} reviewCount={156} services={['Skip Tracing', 'Database Search', 'Social Media Investigation', 'Field Verification']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'Skip Tracing', url: '/skip-tracing' }]} />
         </>
     );

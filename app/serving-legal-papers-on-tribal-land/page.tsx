@@ -887,8 +887,8 @@ export default function ServingLegalPapersOklahomaGuide() {
             <h3 className="font-bold text-lg text-blue-800 mb-3">Need Help With Tribal Land Service?</h3>
             <p className="text-gray-700 mb-4">Our experienced Oklahoma process servers understand the complexities of tribal jurisdiction and can help navigate your specific situation. We offer GPS-tracked service, affidavits of service, skip tracing, and courthouse filing to complete the entire process for you.</p>
             <div className="flex flex-wrap gap-4">
-              <a href="/contact" className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700">Contact Us</a>
-              <a href="/pricing" className="bg-white text-blue-600 border border-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50">View Pricing</a>
+              <Link href="/contact" className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700">Contact Us</Link>
+              <Link href="/pricing" className="bg-white text-blue-600 border border-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50">View Pricing</Link>
             </div>
           </div>
         </section>
@@ -901,7 +901,6 @@ export default function ServingLegalPapersOklahomaGuide() {
           </p>
         </div>
       </section>
-
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4 max-w-5xl">
           <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Frequently Asked Questions</h2>

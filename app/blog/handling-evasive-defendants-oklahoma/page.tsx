@@ -149,7 +149,6 @@ export default function EvasiveDefendantsPage() {
     <>
       <JsonLd data={jsonLd} />
       <Navbar />
-
       <main className="min-h-screen bg-white">
         {/* Hero Section */}
         <div className="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 text-white py-16 md:py-24">
@@ -293,7 +292,7 @@ export default function EvasiveDefendantsPage() {
             <h2>Skip Tracing Techniques and Tools</h2>
 
             <p>
-              When routine service attempts fail, <a href="/skip-tracing/" className="text-blue-600 hover:underline font-medium">professional skip tracing</a> becomes essential. Skip tracing is the process of locating individuals who are difficult to find using databases, public records, and investigative techniques. For evasive defendants, skip tracing often uncovers current whereabouts that routine methods miss.
+              When routine service attempts fail, <Link href="/skip-tracing/" className="text-blue-600 hover:underline font-medium">professional skip tracing</Link> becomes essential. Skip tracing is the process of locating individuals who are difficult to find using databases, public records, and investigative techniques. For evasive defendants, skip tracing often uncovers current whereabouts that routine methods miss.
             </p>
 
             <h3>Traditional Skip Tracing Methods</h3>
@@ -314,7 +313,7 @@ export default function EvasiveDefendantsPage() {
             <h3>AI-Powered Skip Tracing</h3>
 
             <p>
-              Modern skip tracing has evolved significantly with artificial intelligence and machine learning. <a href="/ai-skip-tracing-guide-oklahoma/" className="text-blue-600 hover:underline font-medium">AI-powered skip tracing</a> offers enhanced capabilities for locating evasive defendants:
+              Modern skip tracing has evolved significantly with artificial intelligence and machine learning. <Link href="/ai-skip-tracing-guide-oklahoma/" className="text-blue-600 hover:underline font-medium">AI-powered skip tracing</Link> offers enhanced capabilities for locating evasive defendants:
             </p>
 
             <ul>
@@ -709,12 +708,12 @@ export default function EvasiveDefendantsPage() {
                   <Phone className="w-5 h-5" />
                   (539) 367-6832
                 </a>
-                <a
+                <Link
                   href="/contact/"
                   className="inline-flex items-center justify-center gap-2 bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-600 transition-colors border border-blue-500"
                 >
                   Request Service
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -723,26 +722,25 @@ export default function EvasiveDefendantsPage() {
           <div className="mt-16">
             <h3 className="text-xl font-bold text-gray-900 mb-6">Related Resources</h3>
             <div className="grid md:grid-cols-2 gap-4">
-              <a href="/skip-tracing/" className="flex items-start gap-4 p-4 bg-gray-50 rounded-lg hover:bg-blue-50 transition-colors group">
+              <Link href="/skip-tracing/" className="flex items-start gap-4 p-4 bg-gray-50 rounded-lg hover:bg-blue-50 transition-colors group">
                 <Search className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
                 <div>
                   <h4 className="font-semibold text-gray-900 group-hover:text-blue-700">Skip Tracing Services</h4>
                   <p className="text-sm text-gray-600">Professional location services starting at $35</p>
                 </div>
-              </a>
-              <a href="/ai-skip-tracing-guide-oklahoma/" className="flex items-start gap-4 p-4 bg-gray-50 rounded-lg hover:bg-blue-50 transition-colors group">
+              </Link>
+              <Link href="/ai-skip-tracing-guide-oklahoma/" className="flex items-start gap-4 p-4 bg-gray-50 rounded-lg hover:bg-blue-50 transition-colors group">
                 <MapPin className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
                 <div>
                   <h4 className="font-semibold text-gray-900 group-hover:text-blue-700">AI Skip Tracing Guide</h4>
                   <p className="text-sm text-gray-600">How AI technology improves defendant location</p>
                 </div>
-              </a>
+              </Link>
             </div>
           </div>
 
         </div>
       </main>
-
       <LocalPromoBanner zips={[]} />
       <Footer />
     </>

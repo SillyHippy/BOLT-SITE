@@ -659,9 +659,9 @@ export function Footer() {
               , cash, checks, or money orders. Payments should be made payable
               to Just Legal Solutions and mailed to: 564 E 138th Pl, Glenpool, OK
               74033. Past-due invoices are subject to our{' '}
-              <a href="/pricing#policies" className="text-blue-600 hover:text-blue-800 underline">
+              <Link href="/pricing#policies" className="text-blue-600 hover:text-blue-800 underline">
                 Payment & Late Fee Policy
-              </a>. Existing customers can access the{' '}
+              </Link>. Existing customers can access the{' '}
               <a
                 href="https://just-legal-solutions.helcim.app/dashboard/main"
                 target="_blank"

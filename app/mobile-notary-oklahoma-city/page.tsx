@@ -109,12 +109,12 @@ export default function OklahomaCityMobileNotaryPage() {
                   >
                     <Phone className="w-5 h-5 mr-2" /> Call (539) 367-6832
                   </a>
-                  <a
+                  <Link
                     href="/contact"
                     className="inline-flex items-center bg-white/10 hover:bg-white/20 text-white px-6 py-3 rounded-lg font-semibold border border-white/30"
                   >
                     <MapPin className="w-5 h-5 mr-2" /> Book in Oklahoma City
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="bg-white/10 backdrop-blur rounded-2xl p-8 border border-white/20">

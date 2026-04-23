@@ -3,6 +3,8 @@ import Image from 'next/image';
 import { CreditCard, DollarSign, ArrowRight } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
 
+import Link from 'next/link';
+
 export { metadata } from './metadata';
 
 export default function PaymentsPage() {
@@ -17,9 +19,9 @@ export default function PaymentsPage() {
           {/* --- EDITED --- Reduced bottom margin (mb-16 to mb-12) */}
           <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
             We offer several convenient ways to pay your invoice. Please note that payment is due on the date specified on the invoice. For our full payment terms, please see our{' '}
-            <a href="/pricing#policies" className="text-blue-600 hover:underline font-medium">
+            <Link href="/pricing#policies" className="text-blue-600 hover:underline font-medium">
               Payment & Late Fee Policy
-            </a>.
+            </Link>.
             <br/><br/>
             For new clients, we require payment in advance. If you have any questions about your balance, please contact us.
           </p>

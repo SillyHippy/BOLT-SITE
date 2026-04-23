@@ -90,13 +90,13 @@ export function Navbar() {
             <Link href="/virtual-assistant-services" className={navLinkClass(pathname === '/virtual-assistant-services')} aria-current={pathname === '/virtual-assistant-services' ? 'page' : undefined} prefetch={false}>
               VA Services
             </Link>
-            <a 
+            <Link 
               href="/#courier-services" 
               className={navLinkClass(false) + ' cursor-pointer'}
               onClick={handleCourierServicesClick}
             >
               Courier Services
-            </a>
+            </Link>
             <Link href="/law-firm-services" className={navLinkClass(pathname === '/law-firm-services')} aria-current={pathname === '/law-firm-services' ? 'page' : undefined} prefetch={false}>
               Law Firm Services
             </Link>
@@ -223,13 +223,13 @@ export function Navbar() {
             >
               VA Services
             </Link>
-            <a
+            <Link
               href="/#courier-services"
               className="ui-nav-link ui-mobile-nav-link cursor-pointer"
               onClick={handleCourierServicesClick}
             >
               Courier Services
-            </a>
+            </Link>
             <Link
               href="/law-firm-services"
               className={mobileNavLinkClass(pathname === '/law-firm-services')}

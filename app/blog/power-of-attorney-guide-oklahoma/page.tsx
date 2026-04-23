@@ -134,7 +134,6 @@ export default function PowerOfAttorneyGuideOklahoma() {
     <main className="min-h-screen bg-white">
       <JsonLd data={jsonLd} />
       <Navbar />
-
       <article className="prose prose-lg prose-blue max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Header Section */}
         <header className="mb-10 not-prose">
@@ -570,9 +569,9 @@ export default function PowerOfAttorneyGuideOklahoma() {
           <p>
             For professional notarization services throughout Oklahoma, including mobile and
             remote online options, visit our{' '}
-            <a href="/power-of-attorney-notary-oklahoma/" className="text-blue-600 hover:underline font-medium">
+            <Link href="/power-of-attorney-notary-oklahoma/" className="text-blue-600 hover:underline font-medium">
               Power of Attorney Notary Oklahoma
-            </a>{' '}
+            </Link>{' '}
             service page.
           </p>
         </section>
@@ -892,9 +891,7 @@ export default function PowerOfAttorneyGuideOklahoma() {
       <div className="mt-12">
         <AuthorBox />
       </div>
-
       <LocalPromoBanner zips={[]} />
-
       {/* Related Guides */}
       <section className="mt-12 mb-8 bg-white rounded-2xl shadow-lg border border-gray-100 p-8 md:p-10">
         <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Guides &amp; Resources</h2>
@@ -917,7 +914,6 @@ export default function PowerOfAttorneyGuideOklahoma() {
           </Link>
         </div>
       </section>
-
       <Footer />
     </main>
   );

@@ -4,6 +4,8 @@ import Navbar from '../../components/ui/navbar';
 import Footer from '../../components/ui/footer';
 import JsonLd from '../../components/JsonLd';
 
+import Link from 'next/link';
+
 const canonicalUrl = 'https://justlegalsolutions.org/family-law-service-guide-tulsa';
 
 export const metadata: Metadata = {
@@ -157,19 +159,19 @@ export default function FamilyLawServiceGuideTulsa() {
             <div>
               <h3 className="font-semibold mb-2">Legal Guides</h3>
               <ul className="list-disc ml-6 space-y-1">
-                <li><a href="/oklahoma-process-server-laws" className="text-blue-700 underline">Oklahoma Process Server Laws</a></li>
-                <li><a href="/oklahoma-process-server-best-practices-checklist" className="text-blue-700 underline">Best Practices Checklist 2026</a></li>
-                <li><a href="/oklahoma-electronic-service-guide" className="text-blue-700 underline">Oklahoma Electronic Service Guide</a></li>
-                <li><a href="/oklahoma-case-law-service-process" className="text-blue-700 underline">Oklahoma Case Law on Service</a></li>
+                <li><Link href="/oklahoma-process-server-laws" className="text-blue-700 underline">Oklahoma Process Server Laws</Link></li>
+                <li><Link href="/oklahoma-process-server-best-practices-checklist" className="text-blue-700 underline">Best Practices Checklist 2026</Link></li>
+                <li><Link href="/oklahoma-electronic-service-guide" className="text-blue-700 underline">Oklahoma Electronic Service Guide</Link></li>
+                <li><Link href="/oklahoma-case-law-service-process" className="text-blue-700 underline">Oklahoma Case Law on Service</Link></li>
               </ul>
             </div>
             <div>
               <h3 className="font-semibold mb-2">Service Areas</h3>
               <ul className="list-disc ml-6 space-y-1">
-                <li><a href="/tulsa-process-server" className="text-blue-700 underline">Tulsa Process Server</a></li>
-                <li><a href="/service-areas/broken-arrow" className="text-blue-700 underline">Broken Arrow Process Server</a></li>
-                <li><a href="/counties/tulsa-county" className="text-blue-700 underline">Tulsa County Service</a></li>
-                <li><a href="/service-areas" className="text-blue-700 underline">All Service Areas</a></li>
+                <li><Link href="/tulsa-process-server" className="text-blue-700 underline">Tulsa Process Server</Link></li>
+                <li><Link href="/service-areas/broken-arrow" className="text-blue-700 underline">Broken Arrow Process Server</Link></li>
+                <li><Link href="/counties/tulsa-county" className="text-blue-700 underline">Tulsa County Service</Link></li>
+                <li><Link href="/service-areas" className="text-blue-700 underline">All Service Areas</Link></li>
               </ul>
             </div>
           </div>
@@ -178,9 +180,9 @@ export default function FamilyLawServiceGuideTulsa() {
             <h3 className="text-xl font-semibold mb-3 text-green-800">Need Family Law Process Serving in Tulsa?</h3>
             <p className="mb-4 text-gray-700">Our experienced team handles sensitive family law cases with professionalism and discretion.</p>
             <div className="flex flex-wrap gap-4">
-              <a href="/contact" className="bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700">Contact Us Today</a>
-              <a href="/pricing" className="bg-white text-green-600 border border-green-600 px-6 py-3 rounded-lg font-semibold hover:bg-green-50">View Pricing</a>
-              <a href="/weekend-emergency" className="bg-red-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-red-700">🚨 Emergency</a>
+              <Link href="/contact" className="bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700">Contact Us Today</Link>
+              <Link href="/pricing" className="bg-white text-green-600 border border-green-600 px-6 py-3 rounded-lg font-semibold hover:bg-green-50">View Pricing</Link>
+              <Link href="/weekend-emergency" className="bg-red-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-red-700">🚨 Emergency</Link>
             </div>
           </div>
         </section>

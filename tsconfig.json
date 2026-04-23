@@ -43,6 +43,7 @@
     "out",
     "dist",
     "functions",
-    "_kimi_import"
+    "_kimi_import",
+    "scripts/codemods"
   ]
 }

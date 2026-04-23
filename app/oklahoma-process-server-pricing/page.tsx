@@ -4,6 +4,8 @@ import Navbar from '../../components/ui/navbar';
 import Footer from '../../components/ui/footer';
 import UnifiedSchema from '../../components/UnifiedSchema';
 
+import Link from 'next/link';
+
 const canonicalUrl = 'https://justlegalsolutions.org/oklahoma-process-server-pricing';
 
 export const metadata: Metadata = {
@@ -86,7 +88,6 @@ export default function OklahomaProcessServerPricing2026() {
   return (
     <>
       <Navbar />
-
       {/* Single UnifiedSchema - handles Article, Breadcrumb, FAQ, Service, and Speakable */}
       <UnifiedSchema
         pageType="article"
@@ -113,21 +114,19 @@ export default function OklahomaProcessServerPricing2026() {
         priceRange="$30-$265"
         author={{ name: 'Just Legal Solutions Team', url: 'https://justlegalsolutions.org' }}
       />
-
       {/* LegalService/LocalBusiness/Organization graph is centralized in UnifiedSchema above
           (single canonical @id https://justlegalsolutions.org/#organization). The previous duplicate
           LegalService Script block was removed to avoid double emission and conflicting price catalogs. */}
-
       <main className="max-w-4xl mx-auto px-4 py-8 pt-24">
         {/* Breadcrumb Navigation */}
         <nav aria-label="Breadcrumb" className="mb-6 text-sm">
           <ol className="flex items-center space-x-2">
             <li>
-              <a href="/" className="text-blue-600 hover:underline">Home</a>
+              <Link href="/" className="text-blue-600 hover:underline">Home</Link>
             </li>
             <li className="text-gray-500">/</li>
             <li>
-              <a href="/pricing" className="text-blue-600 hover:underline">Services</a>
+              <Link href="/pricing" className="text-blue-600 hover:underline">Services</Link>
             </li>
             <li className="text-gray-500">/</li>
             <li>
@@ -401,7 +400,7 @@ export default function OklahomaProcessServerPricing2026() {
               <li>Advanced technology integration</li>
               <li>Transparent, competitive pricing</li>
             </ul>
-            <p><strong>Contact Just Legal Solutions for a custom quote tailored to your specific needs.</strong> <a href="/contact" className="underline text-blue-700">Get Your Quote Today</a></p>
+            <p><strong>Contact Just Legal Solutions for a custom quote tailored to your specific needs.</strong> <Link href="/contact" className="underline text-blue-700">Get Your Quote Today</Link></p>
           </div>
         </section>
 
@@ -413,9 +412,9 @@ export default function OklahomaProcessServerPricing2026() {
             <a href="tel:5393676832" className="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg text-lg transition-colors">
               📱 Call (539) 367-6832
             </a>
-            <a href="/contact" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg text-lg transition-colors">
+            <Link href="/contact" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg text-lg transition-colors">
               📝 Request Online Quote
-            </a>
+            </Link>
           </div>
           <p className="text-center text-sm text-gray-600 mt-4">⚡ Same-day service available • 🏆 98% first-attempt success rate</p>
         </section>
@@ -423,10 +422,10 @@ export default function OklahomaProcessServerPricing2026() {
         <section className="mb-8" aria-labelledby="related-heading">
           <h2 id="related-heading" className="text-3xl font-semibold mb-4">Related Resources</h2>
           <ul className="list-disc ml-6 mb-4">
-            <li><a href="/oklahoma-process-serving-costs-comparison" className="text-blue-700 underline">Oklahoma Process Serving Costs by County Comparison</a></li>
-            <li><a href="/oklahoma-process-server-faq" className="text-blue-700 underline">Oklahoma Process Server FAQ 2026</a></li>
-            <li><a href="/oklahoma-process-server-technology" className="text-blue-700 underline">Process Server Technology Trends</a></li>
-            <li><a href="/service-areas" className="text-blue-700 underline">View All Oklahoma Service Areas</a></li>
+            <li><Link href="/oklahoma-process-serving-costs-comparison" className="text-blue-700 underline">Oklahoma Process Serving Costs by County Comparison</Link></li>
+            <li><Link href="/oklahoma-process-server-faq" className="text-blue-700 underline">Oklahoma Process Server FAQ 2026</Link></li>
+            <li><Link href="/oklahoma-process-server-technology" className="text-blue-700 underline">Process Server Technology Trends</Link></li>
+            <li><Link href="/service-areas" className="text-blue-700 underline">View All Oklahoma Service Areas</Link></li>
           </ul>
         </section>
 

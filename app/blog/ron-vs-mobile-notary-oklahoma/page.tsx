@@ -90,7 +90,7 @@ export default function RonVsMobileNotaryPage() {
         <div className="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 text-white py-16 md:py-24">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex items-center gap-2 text-blue-200 text-sm mb-4">
-              <a href="/blog/" className="hover:text-white transition-colors">Blog</a>
+              <Link href="/blog/" className="hover:text-white transition-colors">Blog</Link>
               <ChevronRight className="w-4 h-4" />
               <span>Notary Services</span>
             </div>
@@ -165,7 +165,7 @@ export default function RonVsMobileNotaryPage() {
               Oklahoma has been at the forefront of notarization modernization. The state's
               <a href="https://law.justia.com/codes/oklahoma/title-49/section-49-201/" target="_blank" rel="noopener noreferrer nofollow" className="text-blue-600 hover:underline"> Remote Online Notary Act (49 O.S. § 201-214)</a>,
               effective January 1, 2020, established RON as a permanent legal standard. Simultaneously,
-              <a href="/mobile-notary/" className="text-blue-600 hover:underline"> mobile notary services</a> continue
+              <Link href="/mobile-notary/" className="text-blue-600 hover:underline"> mobile notary services</Link> continue
               to serve clients who prefer or require in-person assistance. This guide examines both options in detail
               to help you make an informed decision.
             </p>
@@ -268,7 +268,7 @@ export default function RonVsMobileNotaryPage() {
             </p>
 
             <p>
-              <a href="/mobile-notary/" className="text-blue-600 hover:underline">Just Legal Solutions' mobile notary service</a>
+              <Link href="/mobile-notary/" className="text-blue-600 hover:underline">Just Legal Solutions' mobile notary service</Link>
               brings professional notarization to homes, offices, hospitals, nursing facilities, coffee shops,
               or any location within our service area. This service is particularly valuable for:
             </p>
@@ -618,7 +618,7 @@ export default function RonVsMobileNotaryPage() {
               <li>Each separate document: Additional $25 per document</li>
             </ul>
             <p>
-              At <a href="/notary/" className="text-blue-600 hover:underline">Just Legal Solutions</a>,
+              At <Link href="/notary/" className="text-blue-600 hover:underline">Just Legal Solutions</Link>,
               we charge the statutory maximum of $25 per RON session, providing transparent, predictable
               pricing with no hidden fees.
             </p>
@@ -638,7 +638,7 @@ export default function RonVsMobileNotaryPage() {
             <p>
               At Just Legal Solutions, our mobile notary service starts at $5 per signature plus a
               reasonable travel fee based on your location within the Tulsa metro area.
-              <a href="/contact/" className="text-blue-600 hover:underline">Contact us</a> for a
+              <Link href="/contact/" className="text-blue-600 hover:underline">Contact us</Link> for a
               specific quote for your location.
             </p>
 
@@ -784,9 +784,9 @@ export default function RonVsMobileNotaryPage() {
             </ul>
 
             <p>
-              At <a href="/" className="text-blue-600 hover:underline">Just Legal Solutions</a>, we offer
-              both <a href="/notary/" className="text-blue-600 hover:underline">Remote Online Notarization</a>
-              and <a href="/mobile-notary/" className="text-blue-600 hover:underline">Mobile Notary services</a>
+              At <Link href="/" className="text-blue-600 hover:underline">Just Legal Solutions</Link>, we offer
+              both <Link href="/notary/" className="text-blue-600 hover:underline">Remote Online Notarization</Link>
+              and <Link href="/mobile-notary/" className="text-blue-600 hover:underline">Mobile Notary services</Link>
               throughout the Tulsa metropolitan area. Whether you need the convenience of RON from anywhere
               or the personalized service of a mobile notary at your location, we're here to help.
               <a href="tel:539-367-6832" className="text-blue-600 hover:underline">Call us at (539) 367-6832</a>
@@ -819,20 +819,20 @@ export default function RonVsMobileNotaryPage() {
             {/* Related Articles */}
             <h2 className="text-2xl font-bold text-gray-900 mt-16 mb-6">Related Articles</h2>
             <div className="not-prose grid md:grid-cols-2 gap-4">
-              <a
+              <Link
                 href="/blog/oklahoma-notary-requirements/"
                 className="block p-4 bg-gray-50 rounded-lg hover:bg-blue-50 transition-colors border border-gray-200 hover:border-blue-300"
               >
                 <h3 className="font-semibold text-blue-900 mb-2">Oklahoma Notary Requirements Guide</h3>
                 <p className="text-sm text-gray-600">Complete guide to Oklahoma notary laws and requirements</p>
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/blog/what-is-process-server/"
                 className="block p-4 bg-gray-50 rounded-lg hover:bg-blue-50 transition-colors border border-gray-200 hover:border-blue-300"
               >
                 <h3 className="font-semibold text-blue-900 mb-2">What is a Process Server?</h3>
                 <p className="text-sm text-gray-600">Understanding the role of process servers in Oklahoma</p>
-              </a>
+              </Link>
             </div>
           </article>
           <div className="mt-12">
@@ -843,7 +843,6 @@ export default function RonVsMobileNotaryPage() {
         {/* Local Promo Banner */}
         <LocalPromoBanner zips={[]} />
       </main>
-
       {/* Related Guides */}
       <section className="mt-12 mb-8 bg-white rounded-2xl shadow-lg border border-gray-100 p-8 md:p-10">
         <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Guides &amp; Resources</h2>
@@ -866,7 +865,6 @@ export default function RonVsMobileNotaryPage() {
           </Link>
         </div>
       </section>
-
       <Footer />
     </>
   );

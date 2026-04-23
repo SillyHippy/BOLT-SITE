@@ -84,7 +84,6 @@ export default function BankruptcyProcessServingGuide() {
         dateModified="2025-01-15"
       />
       <Navbar />
-
       <main className="min-h-screen bg-white">
         {/* Hero Section */}
         <div className="bg-gradient-to-br from-blue-900 via-blue-800 to-indigo-900 text-white py-16 md:py-24">
@@ -566,7 +565,7 @@ export default function BankruptcyProcessServingGuide() {
           </ul>
 
           <p>
-            At <a href="/services/process-serving/">Just Legal Solutions</a>, our licensed process servers (Licensed) have extensive experience serving bankruptcy documents across all Oklahoma districts. We understand the nuances of FRBP 7004, the special requirements for financial institutions, and the importance of meeting critical deadlines.
+            At <Link href="/services/process-serving/">Just Legal Solutions</Link>, our licensed process servers (Licensed) have extensive experience serving bankruptcy documents across all Oklahoma districts. We understand the nuances of FRBP 7004, the special requirements for financial institutions, and the importance of meeting critical deadlines.
           </p>
 
           <div className="not-prose bg-green-50 border border-green-200 rounded-xl p-6 my-8">
@@ -625,7 +624,7 @@ export default function BankruptcyProcessServingGuide() {
           </p>
 
           <p>
-            For assistance with bankruptcy process serving in Oklahoma, <a href="/contact/">contact Just Legal Solutions</a> at <strong>(539) 367-6832</strong>. Our licensed process servers are ready to handle your bankruptcy service needs across all Oklahoma districts.
+            For assistance with bankruptcy process serving in Oklahoma, <Link href="/contact/">contact Just Legal Solutions</Link> at <strong>(539) 367-6832</strong>. Our licensed process servers are ready to handle your bankruptcy service needs across all Oklahoma districts.
           </p>
 
         </article>
@@ -696,13 +695,13 @@ export default function BankruptcyProcessServingGuide() {
                 <Phone className="w-5 h-5" />
                 (539) 367-6832
               </a>
-              <a
+              <Link
                 href="/services/process-serving/"
                 className="inline-flex items-center justify-center gap-2 bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-600 transition-colors"
               >
                 View Process Serving Services
                 <ChevronRight className="w-5 h-5" />
-              </a>
+              </Link>
             </div>
             <div className="mt-8 flex flex-wrap justify-center gap-6 text-sm text-blue-200">
               <span className="flex items-center gap-1">
@@ -724,7 +723,6 @@ export default function BankruptcyProcessServingGuide() {
         {/* Local Promo Banner */}
         <LocalPromoBanner zips={[]} />
       </main>
-
       <Footer />
     </>
   );

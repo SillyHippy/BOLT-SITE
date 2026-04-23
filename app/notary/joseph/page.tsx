@@ -392,7 +392,6 @@ export default function JosephCredentialsPage() {
       <JsonLd data={breadcrumbSchema} />
       <JsonLd data={reviewSchema} />
       <JsonLd data={faqSchema} />
-
       <main className="bg-gray-50">
         {/* Breadcrumb Navigation */}
         <nav aria-label="Breadcrumb" className="bg-white border-b border-gray-200">
@@ -573,7 +572,7 @@ export default function JosephCredentialsPage() {
                   <Download className="w-5 h-5" />
                   Download Full Package
                 </a>
-                <a
+                <Link
                   href="/notary-credentials/joseph/Joseph-Iannazzi-Notary-Information-Package.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -581,7 +580,7 @@ export default function JosephCredentialsPage() {
                 >
                   <ExternalLink className="w-5 h-5" />
                   View Document
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -758,7 +757,6 @@ export default function JosephCredentialsPage() {
           </div>
         </section>
       </main>
-
       <Footer />
     </>
   );

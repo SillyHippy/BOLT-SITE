@@ -186,9 +186,7 @@ export default function PricingPage() {
           worstRating: 1
         }}
       />
-
       <LocalPromoBanner zips={["74008", "74033", "74037"]} />
-
       <div className="min-h-screen bg-white font-sans">
         <section className="relative pt-24 pb-12 px-4 overflow-hidden">
           <div className="absolute inset-0 -z-10">
@@ -288,9 +286,9 @@ export default function PricingPage() {
                     Due to recent increases in fuel costs in Oklahoma, a temporary $10
                     fuel surcharge has been applied to all fuel-dependent services. We will reduce rates promptly if fuel prices
                     stabilize or drop.{' '}
-                    <a href="/contact" className="font-semibold underline text-amber-900 hover:text-amber-700">
+                    <Link href="/contact" className="font-semibold underline text-amber-900 hover:text-amber-700">
                       Questions? Contact us.
-                    </a>
+                    </Link>
                   </p>
                 </div>
               </div>

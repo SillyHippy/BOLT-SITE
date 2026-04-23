@@ -399,23 +399,23 @@ export default function ProcessServingHOABlog() {
                 <Phone className="w-5 h-5" />
                 (539) 367-6832
               </a>
-              <a
+              <Link
                 href="/contact/"
                 className="inline-flex items-center gap-2 bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-600 transition-colors"
               >
                 <FileText className="w-5 h-5" />
                 Request Service Online
-              </a>
+              </Link>
             </div>
           </div>
 
           <h2>Related Resources</h2>
           <ul>
-            <li><a href="/services/process-serving/">Professional Process Serving Services</a></li>
-            <li><a href="/services/court-filing/">Court Document Filing Services</a></li>
-            <li><a href="/blog/oklahoma-process-server-requirements/">Oklahoma Process Server Requirements</a></li>
-            <li><a href="/blog/eviction-notice-service-oklahoma/">Eviction Notice Service in Oklahoma</a></li>
-            <li><a href="/blog/foreclosure-process-serving-oklahoma/">Foreclosure Process Serving Guide</a></li>
+            <li><Link href="/services/process-serving/">Professional Process Serving Services</Link></li>
+            <li><Link href="/services/court-filing/">Court Document Filing Services</Link></li>
+            <li><Link href="/blog/oklahoma-process-server-requirements/">Oklahoma Process Server Requirements</Link></li>
+            <li><Link href="/blog/eviction-notice-service-oklahoma/">Eviction Notice Service in Oklahoma</Link></li>
+            <li><Link href="/blog/foreclosure-process-serving-oklahoma/">Foreclosure Process Serving Guide</Link></li>
           </ul>
         </article>
         <div className="mt-12">
@@ -444,7 +444,6 @@ export default function ProcessServingHOABlog() {
           </div>
         </section>
       </main>
-
       {/* Related Guides */}
       <section className="mt-12 mb-8 bg-white rounded-2xl shadow-lg border border-gray-100 p-8 md:p-10">
         <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Guides &amp; Resources</h2>
@@ -467,7 +466,6 @@ export default function ProcessServingHOABlog() {
           </Link>
         </div>
       </section>
-
       <Footer />
     </>
   );

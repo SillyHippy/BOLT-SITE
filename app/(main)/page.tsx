@@ -21,6 +21,8 @@ const ReviewWidget = dynamic(() => import('@/components/ui/review-widget'));
 
 import { LiteYouTubeEmbed } from '@/components/lite-youtube-embed';
 
+import Link from 'next/link';
+
 export const metadata: Metadata = {
   title: {
     absolute: 'Just Legal Solutions | Oklahoma Process Server Since 2020'
@@ -79,7 +81,6 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white font-sans">
       <LocalPromoBanner zips={["74008", "74033", "74037"]} />
-
       {/* Hero Section - Mobile Optimized */}
       <section className="relative h-[calc(100vh-4rem)] md:h-[calc(100vh-4rem)]" aria-label="Hero section">
         <div className="absolute inset-0">
@@ -151,7 +152,6 @@ export default function Home() {
 
         </div>
       </section>
-
       {/* Speakable JSON-LD Schema for Voice Search */}
       <Script
         type="application/ld+json"
@@ -168,7 +168,6 @@ export default function Home() {
           })
         }}
       />
-
       {/* VideoObject Schema */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{
         __html: JSON.stringify({
@@ -184,16 +183,13 @@ export default function Home() {
           "publisher": { "@type": "Organization", "name": "Just Legal Solutions", "logo": { "@type": "ImageObject", "url": "https://justlegalsolutions.org/email%20signature%20logo.png" } }
         })
       }} />
-
-
-
       {/* Services Grid */}
       <section className="bg-black text-white py-16 md:py-24" aria-label="Our services">
         <div className="max-w-7xl mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Our Core Legal Services</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-10">
             {/* Service 1 */}
-            <a href="/process-serving" className="text-center flex flex-col group cursor-pointer">
+            <Link href="/process-serving" className="text-center flex flex-col group cursor-pointer">
               <div className="mb-4 relative h-48 sm:h-56 w-full rounded-lg overflow-hidden shadow-[0_0_20px_rgba(255,255,255,0.4)] group-hover:shadow-[0_0_30px_rgba(59,130,246,0.6)] transition-all duration-300 group-hover:-translate-y-2">
                 <ResponsiveImage
                   src="/images/secure-delivery.webp"
@@ -206,7 +202,7 @@ export default function Home() {
               <p className="text-gray-300 text-sm md:text-base">
                 Our core service. Click here to view our methods, pricing, and coverage map for professional process serving.
               </p>
-            </a>
+            </Link>
             {/* Service 2 */}
             <div className="text-center flex flex-col group">
               <div className="mb-4 relative h-48 sm:h-56 w-full rounded-lg overflow-hidden shadow-[0_0_20px_rgba(255,255,255,0.4)] group-hover:shadow-[0_0_30px_rgba(59,130,246,0.6)] transition-all duration-300 group-hover:-translate-y-2">
@@ -255,7 +251,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       {/* Secure Courier Services */}
       <section id="courier-services" className="relative py-24">
         <div className="absolute inset-0">
@@ -297,7 +292,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       {/* Compact YouTube Feature Video */}
       <section className="bg-slate-50 py-10 px-4 border-y border-gray-200" aria-label="About Just Legal Solutions Video">
         <div className="max-w-sm mx-auto text-center">
@@ -309,21 +303,19 @@ export default function Home() {
           <p className="text-gray-500 mt-3 text-xs">4.9 ⭐ rated by attorneys &amp; landlords across Oklahoma</p>
         </div>
       </section>
-
       {/* Customer Reviews Section */}
       <ReviewWidget />
       <section className="bg-white pb-10 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-sm text-gray-600">
             Need Google-specific proof?{' '}
-            <a href="/reviews/google" className="text-blue-700 font-semibold hover:underline">
+            <Link href="/reviews/google" className="text-blue-700 font-semibold hover:underline">
               View our Google-only review page
-            </a>
+            </Link>
             .
           </p>
         </div>
       </section>
-
       {/* Popular Service Areas - crawlable internal links for local SEO */}
       <section className="bg-slate-50 py-10 px-4 border-y border-slate-200" aria-label="Popular service areas">
         <div className="max-w-7xl mx-auto">
@@ -357,7 +349,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       {/* How It Works - 3-step process (visible) */}
       <section className="bg-white py-16 md:py-20" aria-label="How our process serving works">
         <div className="max-w-7xl mx-auto px-4">
@@ -389,20 +380,19 @@ export default function Home() {
             </div>
           </div>
           <div className="text-center mt-10">
-            <a href="/process-serving" className="ui-btn-primary rounded-xl px-6 py-3">
+            <Link href="/process-serving" className="ui-btn-primary rounded-xl px-6 py-3">
               See Full Process Serving Methods <ArrowRight className="w-4 h-4" />
-            </a>
+            </Link>
           </div>
         </div>
       </section>
-
       {/* Comprehensive Solutions Overview (visible) */}
       <section className="bg-slate-50 py-16 md:py-20" aria-label="Service areas and details">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Comprehensive Process Serving Solutions Throughout Oklahoma</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Just Legal Solutions provides professional process serving and courier services across Tulsa County and all 77 Oklahoma counties. Our experienced team ensures timely, accurate, and compliant document delivery for law firms, businesses, and individuals. Service tiers <strong>start at $30</strong> for single-attempt postings, with standard, rush, same-day, and after-hours options available. <a href="/pricing" className="text-blue-700 font-semibold hover:underline">See all starting prices &rarr;</a>
+              Just Legal Solutions provides professional process serving and courier services across Tulsa County and all 77 Oklahoma counties. Our experienced team ensures timely, accurate, and compliant document delivery for law firms, businesses, and individuals. Service tiers <strong>start at $30</strong> for single-attempt postings, with standard, rush, same-day, and after-hours options available. <Link href="/pricing" className="text-blue-700 font-semibold hover:underline">See all starting prices &rarr;</Link>
             </p>
           </div>
 
@@ -452,7 +442,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       {/* Why Choose Us (visible) */}
       <section className="bg-white py-16 md:py-20" aria-label="Why choose Just Legal Solutions">
         <div className="max-w-7xl mx-auto px-4">
@@ -521,97 +510,92 @@ export default function Home() {
               <p className="text-sm text-gray-600 mt-6">
                 All services include a notarized affidavit of service and GPS-timestamped attempt records.
               </p>
-              <a
+              <Link
                 href="/pricing"
                 className="mt-4 inline-flex items-center justify-center gap-2 w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold px-5 py-3 rounded-lg transition shadow-sm"
               >
                 View Full Pricing &amp; Add-Ons <ArrowRight className="w-4 h-4" />
-              </a>
+              </Link>
             </div>
           </div>
         </div>
       </section>
-
       {/* Owner Bio Section */}
       <OwnerBio />
-
       {/* Explore Resources Section */}
       <section className="py-16 bg-gray-50" aria-label="Resources and guides">
         <div className="max-w-7xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-4 text-gray-900">Explore Our Resources</h2>
           <p className="text-center text-gray-600 mb-12 max-w-3xl mx-auto">Learn more about process serving in Oklahoma with our comprehensive guides and educational resources</p>
           <div className="grid md:grid-cols-4 gap-6">
-            <a href="/process-serving" className="ui-surface-card bg-blue-50 border-2 border-blue-600 p-6 rounded-lg hover:shadow-md transition text-center block">
+            <Link href="/process-serving" className="ui-surface-card bg-blue-50 border-2 border-blue-600 p-6 rounded-lg hover:shadow-md transition text-center block">
               <div className="text-3xl mb-3">📄</div>
               <h3 className="font-bold text-blue-900 mb-2">Process Serving Info</h3>
               <p className="text-blue-800 text-sm">Full methods, pricing and service options</p>
-            </a>
-            <a href="/oklahoma-process-server-faq" className="ui-surface-card p-6 rounded-lg hover:shadow-md transition text-center block">
+            </Link>
+            <Link href="/oklahoma-process-server-faq" className="ui-surface-card p-6 rounded-lg hover:shadow-md transition text-center block">
               <div className="text-3xl mb-3">❓</div>
               <h3 className="font-bold text-gray-900 mb-2">FAQ</h3>
               <p className="text-gray-600 text-sm">Common questions about process serving answered</p>
-            </a>
-            <a href="/oklahoma-process-server-laws" className="ui-surface-card p-6 rounded-lg hover:shadow-md transition text-center block">
+            </Link>
+            <Link href="/oklahoma-process-server-laws" className="ui-surface-card p-6 rounded-lg hover:shadow-md transition text-center block">
               <div className="text-3xl mb-3">📜</div>
               <h3 className="font-bold text-gray-900 mb-2">Oklahoma Laws</h3>
               <p className="text-gray-600 text-sm">Legal requirements for process serving</p>
-            </a>
-            <a href="/pricing" className="ui-surface-card p-6 rounded-lg hover:shadow-md transition text-center block">
+            </Link>
+            <Link href="/pricing" className="ui-surface-card p-6 rounded-lg hover:shadow-md transition text-center block">
               <div className="text-3xl mb-3">💰</div>
               <h3 className="font-bold text-gray-900 mb-2">Pricing</h3>
               <p className="text-gray-600 text-sm">Transparent pricing for all services</p>
-            </a>
-            <a href="/seo/what-is-a-process-server" className="ui-surface-card p-6 rounded-lg hover:shadow-md transition text-center block">
+            </Link>
+            <Link href="/seo/what-is-a-process-server" className="ui-surface-card p-6 rounded-lg hover:shadow-md transition text-center block">
               <div className="text-3xl mb-3">📖</div>
               <h3 className="font-bold text-gray-900 mb-2">What is a Process Server?</h3>
               <p className="text-gray-600 text-sm">Complete guide to process serving</p>
-            </a>
-            <a href="/family-law-service-guide-tulsa" className="ui-surface-card p-6 rounded-lg hover:shadow-md transition text-center block">
+            </Link>
+            <Link href="/family-law-service-guide-tulsa" className="ui-surface-card p-6 rounded-lg hover:shadow-md transition text-center block">
               <div className="text-3xl mb-3">👨‍👩‍👧</div>
               <h3 className="font-bold text-gray-900 mb-2">Family Law Guide</h3>
               <p className="text-gray-600 text-sm">Specialized family law process serving</p>
-            </a>
-            <a href="/weekend-emergency" className="ui-surface-card p-6 rounded-lg hover:shadow-md transition text-center block">
+            </Link>
+            <Link href="/weekend-emergency" className="ui-surface-card p-6 rounded-lg hover:shadow-md transition text-center block">
               <div className="text-3xl mb-3">🚨</div>
               <h3 className="font-bold text-gray-900 mb-2">Emergency Service</h3>
               <p className="text-gray-600 text-sm">24/7 weekend and emergency service</p>
-            </a>
-            <a href="/law-firm-services" className="ui-surface-card p-6 rounded-lg hover:shadow-md transition text-center block">
+            </Link>
+            <Link href="/law-firm-services" className="ui-surface-card p-6 rounded-lg hover:shadow-md transition text-center block">
               <div className="text-3xl mb-3">⚖️</div>
               <h3 className="font-bold text-gray-900 mb-2">Law Firm Services</h3>
               <p className="text-gray-600 text-sm">Partner solutions for legal professionals</p>
-            </a>
-            <a href="/tulsa-process-server" className="ui-surface-card p-6 rounded-lg hover:shadow-md transition text-center block">
+            </Link>
+            <Link href="/tulsa-process-server" className="ui-surface-card p-6 rounded-lg hover:shadow-md transition text-center block">
               <div className="text-3xl mb-3">📍</div>
               <h3 className="font-bold text-gray-900 mb-2">Tulsa Process Server</h3>
               <p className="text-gray-600 text-sm">Serving all of Tulsa County</p>
-            </a>
-            <a href="/service-areas" className="ui-surface-card p-6 rounded-lg hover:shadow-md transition text-center block">
+            </Link>
+            <Link href="/service-areas" className="ui-surface-card p-6 rounded-lg hover:shadow-md transition text-center block">
               <div className="text-3xl mb-3">🗺️</div>
               <h3 className="font-bold text-gray-900 mb-2">Oklahoma Service Areas</h3>
               <p className="text-gray-600 text-sm">Browse all cities and counties we serve</p>
-            </a>
-            <a href="/urgent-process-server" className="ui-surface-card p-6 rounded-lg hover:shadow-md transition text-center block">
+            </Link>
+            <Link href="/urgent-process-server" className="ui-surface-card p-6 rounded-lg hover:shadow-md transition text-center block">
               <div className="text-3xl mb-3">⚡</div>
               <h3 className="font-bold text-gray-900 mb-2">Urgent Process Server</h3>
               <p className="text-gray-600 text-sm">Same-day rush process serving</p>
-            </a>
-            <a href="/courier-services-tulsa" className="ui-surface-card p-6 rounded-lg hover:shadow-md transition text-center block">
+            </Link>
+            <Link href="/courier-services-tulsa" className="ui-surface-card p-6 rounded-lg hover:shadow-md transition text-center block">
               <div className="text-3xl mb-3">🚗</div>
               <h3 className="font-bold text-gray-900 mb-2">Courier Services Tulsa</h3>
               <p className="text-gray-600 text-sm">Fast document delivery and courier service</p>
-            </a>
-            <a href="/resources" className="ui-surface-card p-6 rounded-lg hover:shadow-md transition text-center block">
+            </Link>
+            <Link href="/resources" className="ui-surface-card p-6 rounded-lg hover:shadow-md transition text-center block">
               <div className="text-3xl mb-3">📚</div>
               <h3 className="font-bold text-gray-900 mb-2">Resources & Guides</h3>
               <p className="text-gray-600 text-sm">Legal guides, tools, and educational resources</p>
-            </a>
+            </Link>
           </div>
         </div>
       </section>
-
-
-
       {/* Unified Schema Markup */}
       <UnifiedSchema
         pageType="home"
@@ -651,7 +635,6 @@ export default function Home() {
           }
         ]}
       />
-
       {/* 2026 SEO Dominance Components */}
       <SearchDominance2026
         pageTitle="Oklahoma's #1 Process Server | Just Legal Solutions"
@@ -660,7 +643,6 @@ export default function Home() {
         businessType="Process Server"
         skipSchema={true}
       />
-
       <AIVoiceSupremacy
         businessName="Just Legal Solutions"
         location="Tulsa, Oklahoma"
@@ -668,22 +650,18 @@ export default function Home() {
         phone="(539) 367-6832"
         skipSchema={true}
       />
-
       <RankingSupremacy2026
         targetKeywords={['process server tulsa', 'process server oklahoma', 'tulsa process server', 'oklahoma process server']}
         location="Tulsa, Oklahoma"
         businessName="Just Legal Solutions"
         skipSchema={true}
       />
-
       <MobileVoiceOptimization
         businessName="Just Legal Solutions"
         phone="(539) 367-6832"
         primaryService="process serving"
         location="Tulsa, Oklahoma"
       />
-
-
     </div>
   );
 }

@@ -3,6 +3,8 @@ import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 import JsonLd from '@/components/JsonLd';
 
+import Link from 'next/link';
+
 export const metadata: Metadata = {
   title: 'Bankruptcy Process Serving Oklahoma | Chapter 7, 11, 13 Service',
   description: 'Professional bankruptcy process serving in Oklahoma. Chapter 7, 11, 13 filings, adversary proceedings, 341 meeting notices. FRBP Rule 7004 compliant. Call (539) 367-6832.',
@@ -233,7 +235,6 @@ export default function BankruptcyProcessServingPage() {
       <JsonLd data={breadcrumbSchema} />
       <JsonLd data={faqSchema} />
       <Navbar />
-      
       <main className="min-h-screen bg-white">
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 text-white py-16 md:py-24">
@@ -241,9 +242,9 @@ export default function BankruptcyProcessServingPage() {
             <div className="max-w-4xl">
               <nav className="text-sm mb-6" aria-label="Breadcrumb">
                 <ol className="flex items-center space-x-2 text-blue-200">
-                  <li><a href="/" className="hover:text-white transition-colors">Home</a></li>
+                  <li><Link href="/" className="hover:text-white transition-colors">Home</Link></li>
                   <li><span className="text-blue-400">/</span></li>
-                  <li><a href="/process-serving/" className="hover:text-white transition-colors">Process Serving</a></li>
+                  <li><Link href="/process-serving/" className="hover:text-white transition-colors">Process Serving</Link></li>
                   <li><span className="text-blue-400">/</span></li>
                   <li className="text-white font-medium">Bankruptcy Process Serving</li>
                 </ol>
@@ -289,7 +290,7 @@ export default function BankruptcyProcessServingPage() {
                 <p className="text-lg text-gray-700 mb-6 leading-relaxed">
                   Bankruptcy proceedings require precise, timely service of process to ensure compliance 
                   with federal regulations and protect the rights of all parties involved. At 
-                  <a href="/" className="text-blue-600 hover:underline"> Just Legal Solutions</a>, 
+                  <Link href="/" className="text-blue-600 hover:underline"> Just Legal Solutions</Link>, 
                   we specialize in bankruptcy process serving across all 77 Oklahoma counties, 
                   providing attorneys, trustees, and creditors with reliable service for Chapter 7, 
                   Chapter 11, and Chapter 13 bankruptcy cases.
@@ -707,9 +708,9 @@ export default function BankruptcyProcessServingPage() {
             </div>
             
             <p className="text-center text-gray-600 mt-8">
-              <a href="/how-much-does-process-server-cost/" className="text-blue-600 hover:underline">
+              <Link href="/how-much-does-process-server-cost/" className="text-blue-600 hover:underline">
                 View detailed pricing information →
-              </a>
+              </Link>
             </p>
           </div>
         </section>
@@ -839,27 +840,27 @@ export default function BankruptcyProcessServingPage() {
               Related Services
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
-              <a href="/process-serving/" className="bg-blue-50 p-8 rounded-xl hover:bg-blue-100 transition-colors">
+              <Link href="/process-serving/" className="bg-blue-50 p-8 rounded-xl hover:bg-blue-100 transition-colors">
                 <h3 className="text-xl font-bold text-blue-900 mb-3">General Process Serving</h3>
                 <p className="text-gray-700">
                   Comprehensive process serving for all types of legal documents throughout Oklahoma. 
                   Subpoenas, summons, complaints, and more.
                 </p>
-              </a>
-              <a href="/tulsa-process-server/" className="bg-blue-50 p-8 rounded-xl hover:bg-blue-100 transition-colors">
+              </Link>
+              <Link href="/tulsa-process-server/" className="bg-blue-50 p-8 rounded-xl hover:bg-blue-100 transition-colors">
                 <h3 className="text-xl font-bold text-blue-900 mb-3">Tulsa Process Server</h3>
                 <p className="text-gray-700">
                   Local process serving in Tulsa and surrounding areas. Fast, reliable service 
                   for Tulsa County and Northern District cases.
                 </p>
-              </a>
-              <a href="/how-much-does-process-server-cost/" className="bg-blue-50 p-8 rounded-xl hover:bg-blue-100 transition-colors">
+              </Link>
+              <Link href="/how-much-does-process-server-cost/" className="bg-blue-50 p-8 rounded-xl hover:bg-blue-100 transition-colors">
                 <h3 className="text-xl font-bold text-blue-900 mb-3">Process Server Pricing</h3>
                 <p className="text-gray-700">
                   Detailed information about our pricing structure, additional fees, and what 
                   to expect when hiring a process server in Oklahoma.
                 </p>
-              </a>
+              </Link>
             </div>
           </div>
         </section>
@@ -905,7 +906,6 @@ export default function BankruptcyProcessServingPage() {
           </div>
         </section>
       </main>
-      
       <Footer />
     </>
   );

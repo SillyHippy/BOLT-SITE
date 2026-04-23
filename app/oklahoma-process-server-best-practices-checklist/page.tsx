@@ -456,7 +456,6 @@ export default function OklahomaProcessServerBestPracticesChecklist2026() {
       <JsonLd data={articleSchema} />
       <JsonLd data={howToSchema} />
       <JsonLd data={localBusinessSchema} />
-      
       {/* Modern Hero Section */}
       <section className="relative bg-gradient-to-br from-slate-900 via-purple-900 to-slate-800 pt-24 pb-20 overflow-hidden">
         <div className="absolute inset-0 bg-[url('/images/grid-pattern.svg')] opacity-10"></div>
@@ -487,10 +486,10 @@ export default function OklahomaProcessServerBestPracticesChecklist2026() {
                 <ClipboardCheck className="w-5 h-5" />
                 View Checklist
               </a>
-              <a href="/contact" className="inline-flex items-center gap-2 bg-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-500 transition border border-purple-500">
+              <Link href="/contact" className="inline-flex items-center gap-2 bg-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-500 transition border border-purple-500">
                 <Phone className="w-5 h-5" />
                 Get Expert Help
-              </a>
+              </Link>
             </div>
             
             {/* Quick Stats */}
@@ -517,16 +516,15 @@ export default function OklahomaProcessServerBestPracticesChecklist2026() {
             <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 max-w-2xl mx-auto border border-purple-400/30">
               <p className="text-purple-100 mb-4 text-center">Need a licensed Oklahoma process server who follows every best practice?</p>
               <div className="flex flex-wrap gap-4 justify-center">
-                <a href="/contact" className="inline-flex items-center gap-2 bg-green-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-400 transition shadow-lg">
+                <Link href="/contact" className="inline-flex items-center gap-2 bg-green-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-400 transition shadow-lg">
                   <Phone className="w-5 h-5" />
                   Hire an Oklahoma Process Server Today
-                </a>
+                </Link>
               </div>
             </div>
           </div>
         </div>
       </section>
-
       {/* Progress Navigation */}
       <section className="bg-white border-b sticky top-16 z-40 shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -549,7 +547,6 @@ export default function OklahomaProcessServerBestPracticesChecklist2026() {
           </div>
         </div>
       </section>
-
       {/* Checklist Content */}
       <main id="checklist" className="bg-gray-50 py-16">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -786,7 +783,6 @@ export default function OklahomaProcessServerBestPracticesChecklist2026() {
           </div>
         </div>
       </main>
-      
       <Footer />
     </>
   );

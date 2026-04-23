@@ -115,9 +115,9 @@ const UrgentProcessServerPage = () => {
           {/* Breadcrumb */}
           <nav aria-label="Breadcrumb" className="mb-6 text-sm">
             <ol className="flex items-center space-x-2">
-              <li><a href="/" className="text-blue-600 hover:underline">Home</a></li>
+              <li><Link href="/" className="text-blue-600 hover:underline">Home</Link></li>
               <li className="text-gray-500">/</li>
-              <li><a href="/process-serving" className="text-blue-600 hover:underline">Process Serving</a></li>
+              <li><Link href="/process-serving" className="text-blue-600 hover:underline">Process Serving</Link></li>
               <li className="text-gray-500">/</li>
               <li><span className="text-gray-700">Fastest Way to Serve Papers</span></li>
             </ol>
@@ -505,9 +505,9 @@ const UrgentProcessServerPage = () => {
               <a href="tel:5393676832" className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors shadow-lg">
                 &#x1F4DE; Call (539) 367-6832
               </a>
-              <a href="/contact" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">
+              <Link href="/contact" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">
                 &#x1F4DD; Get Instant Quote
-              </a>
+              </Link>
             </div>
             <p className="text-sm text-gray-600">Available 24/7 &bull; All 77 Oklahoma counties &bull; GPS-verified service &bull; $60 standard service</p>
           </section>
@@ -590,7 +590,6 @@ const UrgentProcessServerPage = () => {
           </div>
         </div>
       </div>
-
       <UnifiedSchema
         pageType="service"
         title="Fastest Way to Serve Papers in Oklahoma | Same-Day & 2-Hour Emergency"

@@ -5,6 +5,8 @@ import Navbar from '../../components/ui/navbar';
 import Footer from '../../components/ui/footer';
 import JsonLd from '../../components/JsonLd';
 
+import Link from 'next/link';
+
 const canonicalUrl = 'https://justlegalsolutions.org/high-profile-service-protocols-tulsa';
 
 export const metadata: Metadata = {
@@ -309,9 +311,9 @@ export default function HighProfileServiceProtocolsTulsa() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-2">Related Resources</h2>
           <ul className="list-disc ml-6 mb-4">
-            <li><a href="/oklahoma-process-server-best-practices-checklist" className="text-blue-700 underline">Process Server Best Practices Checklist 2026</a></li>
-            <li><a href="/oklahoma-process-serving-costs-comparison" className="text-blue-700 underline">Process Serving Costs Comparison</a></li>
-            <li><a href="/oklahoma-case-law-service-process" className="text-blue-700 underline">Oklahoma Case Law on Service of Process</a></li>
+            <li><Link href="/oklahoma-process-server-best-practices-checklist" className="text-blue-700 underline">Process Server Best Practices Checklist 2026</Link></li>
+            <li><Link href="/oklahoma-process-serving-costs-comparison" className="text-blue-700 underline">Process Serving Costs Comparison</Link></li>
+            <li><Link href="/oklahoma-case-law-service-process" className="text-blue-700 underline">Oklahoma Case Law on Service of Process</Link></li>
           </ul>
         </section>
 

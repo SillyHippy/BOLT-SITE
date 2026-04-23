@@ -137,7 +137,6 @@ export default function ForAttorneysPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
-
       {/* Hero */}
       <section className="relative bg-gradient-to-br from-slate-900 to-slate-800 text-white py-20 px-6">
         <div className="max-w-5xl mx-auto text-center">
@@ -191,7 +190,6 @@ export default function ForAttorneysPage() {
           </div>
         </div>
       </section>
-
       {/* Trust Bar */}
       <section className="py-10 bg-slate-50 border-b border-slate-200">
         <div className="max-w-6xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
@@ -213,7 +211,6 @@ export default function ForAttorneysPage() {
           </div>
         </div>
       </section>
-
       {/* Volume Pricing — no dollar amounts, routes to /pricing */}
       <section className="py-16 px-6 max-w-6xl mx-auto">
         <div className="text-center mb-12">
@@ -284,7 +281,6 @@ export default function ForAttorneysPage() {
           </Link>
         </div>
       </section>
-
       {/* Services Grid */}
       <section className="py-16 px-6 bg-slate-50">
         <div className="max-w-6xl mx-auto">
@@ -335,7 +331,6 @@ export default function ForAttorneysPage() {
           </div>
         </div>
       </section>
-
       {/* Billing & Resources */}
       <section className="py-16 px-6 max-w-5xl mx-auto">
         <div className="md:flex gap-10 items-start">
@@ -363,7 +358,7 @@ export default function ForAttorneysPage() {
                 <Phone className="w-4 h-4" />
                 Call to Set Up Billing
               </a>
-              <a
+              <Link
                 href="/JudicialDirectory.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -371,7 +366,7 @@ export default function ForAttorneysPage() {
               >
                 <Download className="w-4 h-4" />
                 Download Judicial Directory
-              </a>
+              </Link>
             </div>
           </div>
           <div className="md:w-1/2 bg-slate-900 text-white rounded-2xl p-8">
@@ -385,7 +380,6 @@ export default function ForAttorneysPage() {
           </div>
         </div>
       </section>
-
       {/* FAQ */}
       <section className="py-16 px-6 bg-slate-50">
         <div className="max-w-3xl mx-auto">
@@ -403,7 +397,6 @@ export default function ForAttorneysPage() {
           </div>
         </div>
       </section>
-
       {/* Final CTA */}
       <section className="py-16 px-6 bg-gradient-to-br from-blue-700 to-slate-900 text-white text-center">
         <div className="max-w-3xl mx-auto">

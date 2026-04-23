@@ -1,6 +1,8 @@
 
 import Script from 'next/script';
 
+import Link from 'next/link';
+
 interface LocationFAQProps {
   city: string;
   county: string;
@@ -66,7 +68,6 @@ export default function EnhancedLocationFAQ({ city, county, isNewLocation = fals
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
-      
       <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mt-8">
         <h2 className="text-2xl font-bold text-blue-800 mb-6">
           Frequently Asked Questions - {city} Process Server
@@ -85,12 +86,12 @@ export default function EnhancedLocationFAQ({ city, county, isNewLocation = fals
         </div>
         
         <div className="mt-6 text-center">
-          <a 
+          <Link 
             href="/pricing" 
             className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg inline-block font-semibold transition-colors"
           >
             View Complete Pricing Guide
-          </a>
+          </Link>
         </div>
       </div>
     </>

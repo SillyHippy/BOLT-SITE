@@ -52,7 +52,7 @@ export default function SundayServicePage() {
                 <div className="max-w-6xl mx-auto px-4 py-16">
                     <nav aria-label="Breadcrumb" className="mb-6 text-sm">
                         <ol className="flex items-center space-x-2">
-                            <li><a href="/" className="text-blue-600 hover:underline">Home</a></li>
+                            <li><Link href="/" className="text-blue-600 hover:underline">Home</Link></li>
                             <li className="text-gray-500">/</li>
                             <li><span className="text-gray-700">Can a Process Server Serve on Sunday?</span></li>
                         </ol>
@@ -186,7 +186,6 @@ export default function SundayServicePage() {
                     </div>
                 </div>
             </div>
-
             <UnifiedSchema pageType="article" title="Can a Process Server Serve on Sunday?" description="Yes — Oklahoma has no day-of-week restrictions on service. Full weekend service guide." url="https://justlegalsolutions.org/can-process-server-serve-on-sunday" image="https://justlegalsolutions.org/image-pack/images/image-056-can-process-server-serve-on-sunday-og.png" keywords={['serve on sunday', 'weekend process serving', 'holiday service oklahoma']} reviewCount={156} services={['Weekend Process Serving', '24/7 Emergency Service', 'Holiday Service']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Can a Process Server Serve on Sunday?', url: '/can-process-server-serve-on-sunday' }]} />
         </>
     );

@@ -138,7 +138,7 @@ export default function AboutPage() {
                   >
                     <p
                       className="text-xs font-bold uppercase tracking-wider text-blue-700 mb-1"
-                      // eslint-disable-next-line react/no-danger
+                       
                       dangerouslySetInnerHTML={{ __html: c.label }}
                     />
                     <p className="text-lg font-bold text-gray-900">{c.value}</p>
@@ -152,7 +152,7 @@ export default function AboutPage() {
                   >
                     <p
                       className="text-xs font-bold uppercase tracking-wider text-blue-700 mb-1"
-                      // eslint-disable-next-line react/no-danger
+                       
                       dangerouslySetInnerHTML={{ __html: c.label }}
                     />
                     <p className="text-lg font-bold text-gray-900">{c.value}</p>

@@ -42,11 +42,11 @@ export default function TulsaCountyDivorceProcessServingPage() {
                 <div className="max-w-6xl mx-auto px-4 py-16">
                     <nav aria-label="Breadcrumb" className="mb-6 text-sm">
                         <ol className="flex items-center space-x-2">
-                            <li><a href="/" className="text-blue-600 hover:underline">Home</a></li>
+                            <li><Link href="/" className="text-blue-600 hover:underline">Home</Link></li>
                             <li className="text-gray-500">/</li>
-                            <li><a href="/process-serving" className="text-blue-600 hover:underline">Process Serving</a></li>
+                            <li><Link href="/process-serving" className="text-blue-600 hover:underline">Process Serving</Link></li>
                             <li className="text-gray-500">/</li>
-                            <li><a href="/counties/tulsa-county" className="text-blue-600 hover:underline">Tulsa County</a></li>
+                            <li><Link href="/counties/tulsa-county" className="text-blue-600 hover:underline">Tulsa County</Link></li>
                             <li className="text-gray-500">/</li>
                             <li><span className="text-gray-700">Divorce Process Serving</span></li>
                         </ol>
@@ -388,7 +388,7 @@ export default function TulsaCountyDivorceProcessServingPage() {
                         <p className="text-lg text-gray-700 mb-6">Licensed, discreet, GPS-verified divorce process serving. Most papers served within 1–3 days.</p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-4">
                             <a href="tel:5393676832" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors shadow-lg">&#x1F4DE; Call (539) 367-6832</a>
-                            <a href="/contact" className="bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">&#x1F4DD; Get Quote</a>
+                            <Link href="/contact" className="bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">&#x1F4DD; Get Quote</Link>
                         </div>
                     </section>
 
@@ -398,7 +398,6 @@ export default function TulsaCountyDivorceProcessServingPage() {
                     </div>
                 </div>
             </div>
-
             <UnifiedSchema pageType="service" title="Tulsa County Divorce Process Serving" description="Professional divorce paper serving in Tulsa County, Oklahoma. GPS-verified service with court-ready affidavit." url="https://justlegalsolutions.org/tulsa-county-divorce-process-serving" image="https://justlegalsolutions.org/image-pack/images/image-037-divorce-paper-service-hero.png" keywords={['tulsa county divorce process', 'divorce tulsa county', 'serve divorce papers tulsa']} reviewCount={156} services={['Divorce Paper Service', 'Family Law Document Serving', 'Protective Order Service']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'Tulsa County', url: '/counties/tulsa-county' }, { name: 'Divorce Process Serving', url: '/tulsa-county-divorce-process-serving' }]} />
         </>
     );

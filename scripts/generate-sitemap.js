@@ -247,8 +247,6 @@ function generateSitemap() {
     '/oklahoma-process-server-pricing',
     '/oklahoma-process-server-technology',
     '/oklahoma-process-serving-costs-comparison',
-    '/oklahoma-process-server-best-practices-checklist-2026',
-    '/oklahoma-process-server-faq-2026',
     '/process-server-tulsa-guide',
     '/process-serving-mistakes-guide',
     '/ai-skip-tracing-guide-oklahoma',
@@ -289,7 +287,6 @@ function generateSitemap() {
     '/legal-glossary',
 
     // Phase 2 — Resource Landing Pages
-    '/resources/oklahoma-process-server-licensing-checklist',
     '/resources/oklahoma-service-of-process-reference',
     '/resources/attorneys-guide-hiring-process-server',
     '/resources/oklahoma-eviction-timeline',

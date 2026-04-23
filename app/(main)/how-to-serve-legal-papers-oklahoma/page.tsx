@@ -54,9 +54,9 @@ export default function HowToServeLegalPapersOklahomaPage() {
                 <div className="max-w-6xl mx-auto px-4 py-16">
                     <nav aria-label="Breadcrumb" className="mb-6 text-sm">
                         <ol className="flex items-center space-x-2">
-                            <li><a href="/" className="text-blue-600 hover:underline">Home</a></li>
+                            <li><Link href="/" className="text-blue-600 hover:underline">Home</Link></li>
                             <li className="text-gray-500">/</li>
-                            <li><a href="/process-serving" className="text-blue-600 hover:underline">Process Serving</a></li>
+                            <li><Link href="/process-serving" className="text-blue-600 hover:underline">Process Serving</Link></li>
                             <li className="text-gray-500">/</li>
                             <li><span className="text-gray-700">How to Serve Legal Papers</span></li>
                         </ol>
@@ -559,7 +559,7 @@ export default function HowToServeLegalPapersOklahomaPage() {
                         <p className="text-lg text-gray-700 mb-6">Licensed process servers ready to serve any legal document across all 77 Oklahoma counties. From $60.</p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-4">
                             <a href="tel:5393676832" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors shadow-lg">&#x1F4DE; Call (539) 367-6832</a>
-                            <a href="/contact" className="bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">&#x1F4DD; Get Quote</a>
+                            <Link href="/contact" className="bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">&#x1F4DD; Get Quote</Link>
                         </div>
                     </section>
 
@@ -569,7 +569,6 @@ export default function HowToServeLegalPapersOklahomaPage() {
                     </div>
                 </div>
             </div>
-
             <UnifiedSchema pageType="service" title="How to Serve Legal Papers in Oklahoma" description="Complete guide to serving legal papers in Oklahoma. Personal service, substituted service, service by mail, and publication. Licensed process servers from $60." url="https://justlegalsolutions.org/how-to-serve-legal-papers-oklahoma" image="https://justlegalsolutions.org/image-pack/images/image-082-how-to-serve-legal-papers-oklahoma-og.png" keywords={['how to serve legal papers in oklahoma', 'serving court papers', 'oklahoma service of process']} reviewCount={156} services={['Personal Service', 'Document Service', 'Subpoena Service', 'Eviction Notice Service']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'How to Serve Legal Papers', url: '/how-to-serve-legal-papers-oklahoma' }]} />
         </>
     );

@@ -40,7 +40,7 @@ export default function RefusedServicePage() {
                 <div className="max-w-6xl mx-auto px-4 py-16">
                     <nav aria-label="Breadcrumb" className="mb-6 text-sm">
                         <ol className="flex items-center space-x-2">
-                            <li><a href="/" className="text-blue-600 hover:underline">Home</a></li>
+                            <li><Link href="/" className="text-blue-600 hover:underline">Home</Link></li>
                             <li className="text-gray-500">/</li>
                             <li><span className="text-gray-700">What Happens If Someone Refuses Service?</span></li>
                         </ol>
@@ -114,7 +114,7 @@ export default function RefusedServicePage() {
                         <p className="text-lg text-gray-700 mb-6">Our licensed process servers handle difficult serves daily. <Link href="/skip-tracing" className="text-blue-600 hover:underline font-medium">Skip tracing</Link> and multiple-attempt strategies available.</p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-4">
                             <a href="tel:5393676832" className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors shadow-lg">&#x1F4DE; Call (539) 367-6832</a>
-                            <a href="/contact" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">&#x1F4DD; Get Help</a>
+                            <Link href="/contact" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">&#x1F4DD; Get Help</Link>
                         </div>
                     </section>
 
@@ -124,7 +124,6 @@ export default function RefusedServicePage() {
                     </div>
                 </div>
             </div>
-
             <Script id="faq-schema-refused" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": faqs.map(f => ({ "@type": "Question", "name": f.question, "acceptedAnswer": { "@type": "Answer", "text": f.answer } })) }) }} />
             <UnifiedSchema pageType="article" title="What Happens If Someone Refuses Service?" description="Refusing papers does NOT prevent valid service in Oklahoma. Learn about drop service and alternatives." url="https://justlegalsolutions.org/what-happens-if-someone-refuses-service" image="https://justlegalsolutions.org/image-pack/images/image-002-home-og.png" keywords={['refuse to accept papers', 'can you refuse service', 'dodging process server']} reviewCount={156} services={['Process Serving', 'Skip Tracing', 'Same-Day Rush Service']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'What Happens If Someone Refuses Service?', url: '/what-happens-if-someone-refuses-service' }]} />
         </>

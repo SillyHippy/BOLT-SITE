@@ -1,6 +1,8 @@
 import React from 'react';
 import { Shield, Award, Clock, Users, MapPin, Star, CheckCircle, Phone } from 'lucide-react';
 
+import Link from 'next/link';
+
 export default function TrustSignals() {
   return (
     <section className="bg-white py-16">
@@ -155,12 +157,12 @@ export default function TrustSignals() {
               <Phone className="h-5 w-5 mr-2" />
               Call (539) 367-6832
             </a>
-            <a 
+            <Link 
               href="/contact" 
               className="border-2 border-white text-white font-bold py-3 px-8 rounded-lg hover:bg-white hover:text-blue-900 transition-colors"
             >
               Get Free Quote
-            </a>
+            </Link>
           </div>
         </div>
       </div>

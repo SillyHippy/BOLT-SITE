@@ -300,7 +300,7 @@ export default function JosephIannazziPage() {
       />
       <script
         type="application/ld+json"
-        // eslint-disable-next-line react/no-danger
+         
         dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
       />
 
@@ -586,7 +586,7 @@ export default function JosephIannazziPage() {
                   </h3>
                   <p
                     className="text-gray-700"
-                    // eslint-disable-next-line react/no-danger
+                     
                     dangerouslySetInnerHTML={{ __html: item.body }}
                   />
                 </div>
@@ -731,7 +731,7 @@ export default function JosephIannazziPage() {
                   </h3>
                   <p
                     className="text-sm text-gray-700"
-                    // eslint-disable-next-line react/no-danger
+                     
                     dangerouslySetInnerHTML={{ __html: card.body }}
                   />
                 </Link>

@@ -4,6 +4,8 @@ import Navbar from '../../components/ui/navbar';
 import Footer from '../../components/ui/footer';
 import JsonLd from '../../components/JsonLd';
 
+import Link from 'next/link';
+
 const canonicalUrl = 'https://justlegalsolutions.org/oklahoma-process-server-technology';
 
 export const metadata: Metadata = {
@@ -379,16 +381,16 @@ export default function OklahomaProcessServerTechnology() {
               <li><strong>Cost Savings:</strong> Reduced manual processing and errors</li>
               <li><strong>Legal Compliance:</strong> Automated compliance checking and reporting</li>
             </ul>
-            <p><strong>Experience the future of process serving technology with Just Legal Solutions.</strong> <a href="/contact" className="underline text-blue-700">Schedule Your Technology Demo</a></p>
+            <p><strong>Experience the future of process serving technology with Just Legal Solutions.</strong> <Link href="/contact" className="underline text-blue-700">Schedule Your Technology Demo</Link></p>
           </div>
         </section>
 
         <section className="mb-8">
           <h2 className="text-3xl font-semibold mb-4">Related Resources</h2>
           <ul className="list-disc ml-6 mb-4">
-            <li><a href="/ai-skip-tracing-guide-oklahoma" className="text-blue-700 underline">AI-Powered Skip Tracing Guide</a></li>
-            <li><a href="/oklahoma-electronic-service-guide" className="text-blue-700 underline">Electronic Service Guide for Oklahoma</a></li>
-            <li><a href="/oklahoma-process-server-pricing" className="text-blue-700 underline">Technology-Enhanced Service Pricing</a></li>
+            <li><Link href="/ai-skip-tracing-guide-oklahoma" className="text-blue-700 underline">AI-Powered Skip Tracing Guide</Link></li>
+            <li><Link href="/oklahoma-electronic-service-guide" className="text-blue-700 underline">Electronic Service Guide for Oklahoma</Link></li>
+            <li><Link href="/oklahoma-process-server-pricing" className="text-blue-700 underline">Technology-Enhanced Service Pricing</Link></li>
           </ul>
         </section>
 

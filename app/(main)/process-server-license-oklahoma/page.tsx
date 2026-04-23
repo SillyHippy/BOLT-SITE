@@ -54,9 +54,9 @@ export default function ProcessServerLicenseOklahomaPage() {
                 <div className="max-w-6xl mx-auto px-4 py-16">
                     <nav aria-label="Breadcrumb" className="mb-6 text-sm">
                         <ol className="flex items-center space-x-2">
-                            <li><a href="/" className="text-blue-600 hover:underline">Home</a></li>
+                            <li><Link href="/" className="text-blue-600 hover:underline">Home</Link></li>
                             <li className="text-gray-500">/</li>
-                            <li><a href="/process-serving" className="text-blue-600 hover:underline">Process Serving</a></li>
+                            <li><Link href="/process-serving" className="text-blue-600 hover:underline">Process Serving</Link></li>
                             <li className="text-gray-500">/</li>
                             <li><span className="text-gray-700">Process Server License</span></li>
                         </ol>
@@ -383,7 +383,7 @@ export default function ProcessServerLicenseOklahomaPage() {
                         <p className="text-lg text-gray-700 mb-6">Fully licensed, bonded, and insured process servers ready to serve across all 77 Oklahoma counties.</p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-4">
                             <a href="tel:5393676832" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors shadow-lg">&#x1F4DE; Call (539) 367-6832</a>
-                            <a href="/contact" className="bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">&#x1F4DD; Get Quote</a>
+                            <Link href="/contact" className="bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">&#x1F4DD; Get Quote</Link>
                         </div>
                     </section>
 
@@ -393,7 +393,6 @@ export default function ProcessServerLicenseOklahomaPage() {
                     </div>
                 </div>
             </div>
-
             <UnifiedSchema pageType="service" title="Process Server License Oklahoma" description="Complete guide to Oklahoma process server licensing requirements, application process, and costs under 12 O.S. § 158.1." url="https://justlegalsolutions.org/process-server-license-oklahoma" image="https://justlegalsolutions.org/image-pack/images/image-081-process-server-license-oklahoma-card.png" keywords={['process server license oklahoma', 'oklahoma process server license', 'licensed process server']} reviewCount={156} services={['Licensed Process Serving', 'Bonded Document Service', 'GPS-Verified Service']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'Process Server License', url: '/process-server-license-oklahoma' }]} />
         </>
     );

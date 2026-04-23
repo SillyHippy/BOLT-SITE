@@ -60,7 +60,6 @@ export default function ContactPage() {
   return (
     <>
       <Navbar />
-      
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -134,15 +133,12 @@ export default function ContactPage() {
           })
         }}
       />
-
-
       <EnhancedBreadcrumbSchema 
         items={[
           { name: "Home", url: "https://justlegalsolutions.org" },
           { name: "Contact", url: "https://justlegalsolutions.org/contact" }
         ]} 
       />
-
       <main className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 text-white pt-20 pb-16">
@@ -206,11 +202,11 @@ export default function ContactPage() {
           
           {/* Quick Links */}
           <nav className="mb-8 flex flex-wrap justify-center gap-3 md:gap-6">
-            <a href="/pricing" className="text-blue-600 hover:text-blue-800 font-medium transition-colors">Our Services</a>
-            <a href="/pricing" className="text-blue-600 hover:text-blue-800 font-medium transition-colors">Pricing</a>
-            <a href="/ultimate-guide-process-serving-oklahoma" className="text-blue-600 hover:text-blue-800 font-medium transition-colors">FAQ</a>
-            <a href="/about" className="text-blue-600 hover:text-blue-800 font-medium transition-colors">About Us</a>
-            <a href="/service-areas" className="text-blue-600 hover:text-blue-800 font-medium transition-colors">Service Areas</a>
+            <Link href="/pricing" className="text-blue-600 hover:text-blue-800 font-medium transition-colors">Our Services</Link>
+            <Link href="/pricing" className="text-blue-600 hover:text-blue-800 font-medium transition-colors">Pricing</Link>
+            <Link href="/ultimate-guide-process-serving-oklahoma" className="text-blue-600 hover:text-blue-800 font-medium transition-colors">FAQ</Link>
+            <Link href="/about" className="text-blue-600 hover:text-blue-800 font-medium transition-colors">About Us</Link>
+            <Link href="/service-areas" className="text-blue-600 hover:text-blue-800 font-medium transition-colors">Service Areas</Link>
           </nav>
           
           {/* Featured Testimonial */}
@@ -226,12 +222,12 @@ export default function ContactPage() {
             <p className="text-center text-sm text-gray-500">— Sarah T., Tulsa</p>
           </div>
           <div className="mb-6 flex flex-wrap justify-center gap-3">
-            <a href="/pricing" className="inline-flex items-center gap-2 bg-blue-700 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-blue-800 hover:scale-105 transition-all duration-300 font-semibold">
+            <Link href="/pricing" className="inline-flex items-center gap-2 bg-blue-700 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-blue-800 hover:scale-105 transition-all duration-300 font-semibold">
               <ArrowRight className="w-4 h-4" />
               Request Service
-            </a>
-            <a href="/urgent-process-server" className="inline-flex items-center gap-2 bg-red-600 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-red-700 hover:scale-105 transition-all duration-300 font-semibold">Urgent Service</a>
-            <a href="/weekend-emergency" className="inline-flex items-center gap-2 bg-yellow-500 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-yellow-600 hover:scale-105 transition-all duration-300 font-semibold">Weekend Service</a>
+            </Link>
+            <Link href="/urgent-process-server" className="inline-flex items-center gap-2 bg-red-600 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-red-700 hover:scale-105 transition-all duration-300 font-semibold">Urgent Service</Link>
+            <Link href="/weekend-emergency" className="inline-flex items-center gap-2 bg-yellow-500 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-yellow-600 hover:scale-105 transition-all duration-300 font-semibold">Weekend Service</Link>
             <a href="/contact-details.vcf" download className="inline-flex items-center gap-2 bg-gray-700 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-gray-800 hover:scale-105 transition-all duration-300 font-semibold">Download vCard</a>
           </div>
           {/* Unique Selling Points Section */}
@@ -315,14 +311,14 @@ export default function ContactPage() {
           <div className="text-xs text-gray-500 mt-2">
             <span>
               Serving
-              {' '}<a href="/tulsa-process-server" className="text-blue-600 hover:underline">Tulsa</a>,
-              {' '}<a href="/service-areas/broken-arrow" className="text-blue-600 hover:underline">Broken Arrow</a>,
-              {' '}<a href="/service-areas/bixby" className="text-blue-600 hover:underline">Bixby</a>,
-              {' '}<a href="/service-areas/jenks" className="text-blue-600 hover:underline">Jenks</a>,
-              {' '}<a href="/service-areas/owasso" className="text-blue-600 hover:underline">Owasso</a>,
-              {' '}<a href="/service-areas/sand-springs" className="text-blue-600 hover:underline">Sand Springs</a>,
-              {' '}<a href="/service-areas/sapulpa" className="text-blue-600 hover:underline">Sapulpa</a>,
-              and <a href="/ultimate-guide-process-serving-oklahoma" className="text-blue-600 hover:underline">all of Oklahoma</a>.
+              {' '}<Link href="/tulsa-process-server" className="text-blue-600 hover:underline">Tulsa</Link>,
+              {' '}<Link href="/service-areas/broken-arrow" className="text-blue-600 hover:underline">Broken Arrow</Link>,
+              {' '}<Link href="/service-areas/bixby" className="text-blue-600 hover:underline">Bixby</Link>,
+              {' '}<Link href="/service-areas/jenks" className="text-blue-600 hover:underline">Jenks</Link>,
+              {' '}<Link href="/service-areas/owasso" className="text-blue-600 hover:underline">Owasso</Link>,
+              {' '}<Link href="/service-areas/sand-springs" className="text-blue-600 hover:underline">Sand Springs</Link>,
+              {' '}<Link href="/service-areas/sapulpa" className="text-blue-600 hover:underline">Sapulpa</Link>,
+              and <Link href="/ultimate-guide-process-serving-oklahoma" className="text-blue-600 hover:underline">all of Oklahoma</Link>.
             </span>
           </div>
         </section>
@@ -332,28 +328,27 @@ export default function ContactPage() {
           <div className="space-y-6">
             <div className="bg-slate-50 rounded-lg p-4">
               <h3 className="font-semibold text-blue-800 mb-2">How quickly will I get a response?</h3>
-              <p className="text-gray-700">We respond to most inquiries within 1 business hour during normal operating times. For urgent matters, please call for fastest service or visit our <a href="/urgent-process-server" className="text-blue-600 hover:underline font-medium">urgent service page</a>.</p>
+              <p className="text-gray-700">We respond to most inquiries within 1 business hour during normal operating times. For urgent matters, please call for fastest service or visit our <Link href="/urgent-process-server" className="text-blue-600 hover:underline font-medium">urgent service page</Link>.</p>
             </div>
             <div className="bg-slate-50 rounded-lg p-4">
               <h3 className="font-semibold text-blue-800 mb-2">What areas do you serve?</h3>
-              <p className="text-gray-700">We serve all of Tulsa County and surrounding areas, including <a href="/service-areas/broken-arrow" className="text-blue-600 hover:underline">Broken Arrow</a>, <a href="/service-areas/bixby" className="text-blue-600 hover:underline">Bixby</a>, <a href="/service-areas/jenks" className="text-blue-600 hover:underline">Jenks</a>, <a href="/service-areas/owasso" className="text-blue-600 hover:underline">Owasso</a>, <a href="/service-areas/sand-springs" className="text-blue-600 hover:underline">Sand Springs</a>, <a href="/service-areas/sapulpa" className="text-blue-600 hover:underline">Sapulpa</a>, and more. See our <a href="/service-areas" className="text-blue-600 hover:underline font-medium">full service area list</a>.</p>
+              <p className="text-gray-700">We serve all of Tulsa County and surrounding areas, including <Link href="/service-areas/broken-arrow" className="text-blue-600 hover:underline">Broken Arrow</Link>, <Link href="/service-areas/bixby" className="text-blue-600 hover:underline">Bixby</Link>, <Link href="/service-areas/jenks" className="text-blue-600 hover:underline">Jenks</Link>, <Link href="/service-areas/owasso" className="text-blue-600 hover:underline">Owasso</Link>, <Link href="/service-areas/sand-springs" className="text-blue-600 hover:underline">Sand Springs</Link>, <Link href="/service-areas/sapulpa" className="text-blue-600 hover:underline">Sapulpa</Link>, and more. See our <Link href="/service-areas" className="text-blue-600 hover:underline font-medium">full service area list</Link>.</p>
             </div>
             <div className="bg-slate-50 rounded-lg p-4">
               <h3 className="font-semibold text-blue-800 mb-2">Are you licensed and bonded?</h3>
-              <p className="text-gray-700">Yes, we are fully licensed, bonded, and court-certified for process serving in Oklahoma. Learn more on our <a href="/why-choose-us" className="text-blue-600 hover:underline font-medium">Why Choose Us</a> page.</p>
+              <p className="text-gray-700">Yes, we are fully licensed, bonded, and court-certified for process serving in Oklahoma. Learn more on our <Link href="/why-choose-us" className="text-blue-600 hover:underline font-medium">Why Choose Us</Link> page.</p>
             </div>
             <div className="bg-slate-50 rounded-lg p-4">
               <h3 className="font-semibold text-blue-800 mb-2">How much does process serving cost?</h3>
-              <p className="text-gray-700">Standard service starts at $60 with all-inclusive flat-rate pricing — no mileage, no per-attempt fees, no hidden charges. View our complete <a href="/pricing" className="text-blue-600 hover:underline font-medium">pricing page</a> for all service options including same-day, rush, and statewide rates.</p>
+              <p className="text-gray-700">Standard service starts at $60 with all-inclusive flat-rate pricing — no mileage, no per-attempt fees, no hidden charges. View our complete <Link href="/pricing" className="text-blue-600 hover:underline font-medium">pricing page</Link> for all service options including same-day, rush, and statewide rates.</p>
             </div>
             <div className="bg-slate-50 rounded-lg p-4">
               <h3 className="font-semibold text-blue-800 mb-2">Do you offer weekend or emergency service?</h3>
-              <p className="text-gray-700">Yes! We offer <a href="/weekend-emergency" className="text-blue-600 hover:underline font-medium">weekend and emergency service</a> for urgent legal matters. Contact us anytime for time-sensitive documents.</p>
+              <p className="text-gray-700">Yes! We offer <Link href="/weekend-emergency" className="text-blue-600 hover:underline font-medium">weekend and emergency service</Link> for urgent legal matters. Contact us anytime for time-sensitive documents.</p>
             </div>
           </div>
         </section>
       </main>
-      
       {/* FAQ Schema for Contact Page */}
       <script
         type="application/ld+json"
@@ -406,7 +401,6 @@ export default function ContactPage() {
           })
         }}
       />
-      
       <Footer />
     </>
   );

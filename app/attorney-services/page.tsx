@@ -3,6 +3,8 @@ import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 import JsonLd from '@/components/JsonLd';
 
+import Link from 'next/link';
+
 export const metadata: Metadata = {
   title: 'Process Serving for Attorneys & Law Firms | Oklahoma Legal Support',
   description: 'Dedicated process serving for Oklahoma attorneys and law firms. Volume pricing, monthly billing, real-time tracking portal, and dedicated account management. Call (539) 367-6832.',
@@ -253,7 +255,6 @@ export default function AttorneyServicesPage() {
       <JsonLd data={breadcrumbSchema} />
       <JsonLd data={faqSchema} />
       <Navbar />
-      
       <main className="min-h-screen bg-white">
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 text-white py-16 md:py-24">
@@ -261,7 +262,7 @@ export default function AttorneyServicesPage() {
             <div className="max-w-4xl">
               <nav className="text-sm mb-6" aria-label="Breadcrumb">
                 <ol className="flex items-center space-x-2 text-blue-200">
-                  <li><a href="/" className="hover:text-white transition-colors">Home</a></li>
+                  <li><Link href="/" className="hover:text-white transition-colors">Home</Link></li>
                   <li><span className="text-blue-400">/</span></li>
                   <li className="text-white font-medium">Attorney Services</li>
                 </ol>
@@ -304,7 +305,7 @@ export default function AttorneyServicesPage() {
                   Your Trusted Legal Support Partner in Oklahoma
                 </h2>
                 <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                  At <a href="/" className="text-blue-600 hover:underline">Just Legal Solutions</a>, 
+                  At <Link href="/" className="text-blue-600 hover:underline">Just Legal Solutions</Link>, 
                   we understand the unique demands facing Oklahoma attorneys and law firms. Court deadlines 
                   are non-negotiable, clients expect results, and your reputation depends on reliable service. 
                   That is why we have built our attorney services around the specific needs of legal professionals.
@@ -312,8 +313,8 @@ export default function AttorneyServicesPage() {
                 <p className="text-lg text-gray-700 mb-6 leading-relaxed">
                   Whether you are a solo practitioner handling occasional service needs or a large firm 
                   processing hundreds of serves monthly, our scalable solutions adapt to your workflow. 
-                  With <a href="/law-firm-services/" className="text-blue-600 hover:underline">dedicated 
-                  law firm partnerships</a>, volume pricing, and comprehensive support services, we function 
+                  With <Link href="/law-firm-services/" className="text-blue-600 hover:underline">dedicated 
+                  law firm partnerships</Link>, volume pricing, and comprehensive support services, we function 
                   as an extension of your practice.
                 </p>
                 <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-lg">
@@ -656,8 +657,8 @@ export default function AttorneyServicesPage() {
                   Court Filing Assistance
                 </h2>
                 <p className="text-lg text-gray-700 mb-6">
-                  Streamline your practice with our professional <a href="/courthouse-filing-services/" 
-                  className="text-blue-600 hover:underline">court filing services</a>. We handle 
+                  Streamline your practice with our professional <Link href="/courthouse-filing-services/" 
+                  className="text-blue-600 hover:underline">court filing services</Link>. We handle 
                   document delivery to all Oklahoma state and federal courts, ensuring your filings 
                   are submitted correctly and on time.
                 </p>
@@ -920,27 +921,27 @@ export default function AttorneyServicesPage() {
               Related Services for Law Firms
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
-              <a href="/law-firm-services/" className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow">
+              <Link href="/law-firm-services/" className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow">
                 <h3 className="text-xl font-bold text-blue-900 mb-3">Law Firm Partnerships</h3>
                 <p className="text-gray-700">
                   Comprehensive partnership programs for Oklahoma law firms. Customized service 
                   agreements, priority scheduling, and dedicated support for your practice.
                 </p>
-              </a>
-              <a href="/process-serving/" className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow">
+              </Link>
+              <Link href="/process-serving/" className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow">
                 <h3 className="text-xl font-bold text-blue-900 mb-3">Process Serving</h3>
                 <p className="text-gray-700">
                   Professional process serving for all document types throughout Oklahoma. 
                   Learn more about our comprehensive service offerings.
                 </p>
-              </a>
-              <a href="/courthouse-filing-services/" className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow">
+              </Link>
+              <Link href="/courthouse-filing-services/" className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-shadow">
                 <h3 className="text-xl font-bold text-blue-900 mb-3">Court Filing Services</h3>
                 <p className="text-gray-700">
                   Professional document filing at all Oklahoma state and federal courts. 
                   Same-day filing available for time-sensitive matters.
                 </p>
-              </a>
+              </Link>
             </div>
           </div>
         </section>
@@ -985,7 +986,6 @@ export default function AttorneyServicesPage() {
           </div>
         </section>
       </main>
-      
       <Footer />
     </>
   );

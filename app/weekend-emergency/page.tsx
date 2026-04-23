@@ -3,6 +3,8 @@ import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 import Image from 'next/image';
 
+import Link from 'next/link';
+
 export const metadata = {
   title: '24/7 Weekend Emergency Process Server | Tulsa & Oklahoma',
   description: 'Fast, reliable, and AI-powered weekend emergency process serving in Tulsa and all Oklahoma counties. Licensed, bonded, and available 24/7. Call now for immediate legal document delivery.',
@@ -24,25 +26,25 @@ export const metadata = {
 export default function WeekendEmergency() {
   return (
     <>
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html: JSON.stringify({
-                '@context': 'https://schema.org',
-                '@type': 'WebPage',
-                name: 'Weekend & Emergency Process Server | Oklahoma',
-                description: 'Need urgent legal documents served on weekends or after hours? Our Oklahoma process servers are available 24/7 for emergency service of process.',
-                url: 'https://justlegalsolutions.org/weekend-emergency'
-              })
-            }}
-          />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'WebPage',
+            name: 'Weekend & Emergency Process Server | Oklahoma',
+            description: 'Need urgent legal documents served on weekends or after hours? Our Oklahoma process servers are available 24/7 for emergency service of process.',
+            url: 'https://justlegalsolutions.org/weekend-emergency'
+          })
+        }}
+      />
       <Navbar />
       <main className="container mx-auto px-4 py-8 mt-12">
         <section className="flex flex-col md:flex-row items-start gap-8 mb-10">
           <div className="flex-1 min-w-0">
             <h1 className="text-5xl font-extrabold mb-4 text-red-700 drop-shadow-lg">Weekend & 24/7 Emergency Process Serving in Tulsa and Oklahoma</h1>
             <p className="text-xl text-gray-800 mb-6">
-              Legal emergencies don&apos;t wait for business hours—and neither do we. Just Legal Solutions provides true 24/7 emergency process service, including nights, early mornings, weekends, and holidays throughout Tulsa, Oklahoma City, and every county statewide. Need an <a href="/urgent-process-server" className="text-blue-700 underline font-semibold">urgent process server</a>? We&apos;re ready.
+              Legal emergencies don&apos;t wait for business hours—and neither do we. Just Legal Solutions provides true 24/7 emergency process service, including nights, early mornings, weekends, and holidays throughout Tulsa, Oklahoma City, and every county statewide. Need an <Link href="/urgent-process-server" className="text-blue-700 underline font-semibold">urgent process server</Link>? We&apos;re ready.
             </p>
             <h2 className="text-2xl font-bold mb-2 text-red-800">Why Use Our Weekend Emergency Service?</h2>
             <ul className="list-disc ml-6 text-lg text-gray-700 mb-6">
@@ -69,7 +71,7 @@ export default function WeekendEmergency() {
               Call or Text (539) 367-6832 Now
             </a>
             <div className="mt-2 text-gray-600 text-sm mb-4">Or email: <a href="mailto:info@JustLegalSolutions.org" className="underline text-blue-700">info@JustLegalSolutions.org</a></div>
-            <a href="/about" className="inline-block bg-blue-700 text-white px-6 py-3 rounded-lg text-lg font-semibold shadow hover:bg-blue-900 transition mt-2">Why We’re Different: Read Our Story</a>
+            <Link href="/about" className="inline-block bg-blue-700 text-white px-6 py-3 rounded-lg text-lg font-semibold shadow hover:bg-blue-900 transition mt-2">Why We’re Different: Read Our Story</Link>
           </div>
           <div className="flex-1 flex flex-col gap-4 items-center min-w-0">
             <Image src="/images/emergency-weekend-service-banner-complete.webp" alt="Emergency Weekend Service Banner" width={480} height={320} className="rounded-xl shadow-xl" priority />
@@ -93,7 +95,7 @@ export default function WeekendEmergency() {
             <ul className="list-disc ml-6 text-gray-700">
               <li>Summons, subpoenas, complaints, restraining orders</li>
               <li>Eviction notices, family law, and more</li>
-              <li>All document types—see <a href="/images/Legal-document-types-process-server.webp" className="underline text-blue-700" target="_blank" rel="noopener">full list</a></li>
+              <li>All document types—see <Link href="/images/Legal-document-types-process-server.webp" className="underline text-blue-700" target="_blank" rel="noopener">full list</Link></li>
             </ul>
           </div>
         </section>
@@ -117,26 +119,26 @@ export default function WeekendEmergency() {
             <div>
               <h3 className="font-semibold text-red-700 mb-3">Emergency & Urgent Service</h3>
               <ul className="space-y-2 text-sm">
-                <li><a href="/family-law-service-guide-tulsa" className="text-blue-600 hover:underline">→ Family Law & Protective Orders</a></li>
-                <li><a href="/law-firm-services" className="text-blue-600 hover:underline">→ Law Firm Partnership Services</a></li>
-                <li><a href="/pricing" className="text-blue-600 hover:underline">→ View Our Pricing</a></li>
+                <li><Link href="/family-law-service-guide-tulsa" className="text-blue-600 hover:underline">→ Family Law & Protective Orders</Link></li>
+                <li><Link href="/law-firm-services" className="text-blue-600 hover:underline">→ Law Firm Partnership Services</Link></li>
+                <li><Link href="/pricing" className="text-blue-600 hover:underline">→ View Our Pricing</Link></li>
               </ul>
             </div>
             <div>
               <h3 className="font-semibold text-blue-700 mb-3">Service Areas</h3>
               <ul className="space-y-2 text-sm">
-                <li><a href="/tulsa-process-server" className="text-blue-600 hover:underline">→ Tulsa Process Server</a></li>
-                <li><a href="/service-areas/broken-arrow" className="text-blue-600 hover:underline">→ Broken Arrow Service</a></li>
-                <li><a href="/counties/tulsa-county" className="text-blue-600 hover:underline">→ Tulsa County Services</a></li>
-                <li><a href="/service-areas" className="text-blue-600 hover:underline">→ All Service Areas</a></li>
+                <li><Link href="/tulsa-process-server" className="text-blue-600 hover:underline">→ Tulsa Process Server</Link></li>
+                <li><Link href="/service-areas/broken-arrow" className="text-blue-600 hover:underline">→ Broken Arrow Service</Link></li>
+                <li><Link href="/counties/tulsa-county" className="text-blue-600 hover:underline">→ Tulsa County Services</Link></li>
+                <li><Link href="/service-areas" className="text-blue-600 hover:underline">→ All Service Areas</Link></li>
               </ul>
             </div>
             <div>
               <h3 className="font-semibold text-green-700 mb-3">Helpful Guides</h3>
               <ul className="space-y-2 text-sm">
-                <li><a href="/oklahoma-process-server-faq" className="text-blue-600 hover:underline">→ Oklahoma Process Server FAQ 2026</a></li>
-                <li><a href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">→ Oklahoma Process Server Laws</a></li>
-                <li><a href="/ai-skip-tracing-guide-oklahoma" className="text-blue-600 hover:underline">→ Skip Tracing Services</a></li>
+                <li><Link href="/oklahoma-process-server-faq" className="text-blue-600 hover:underline">→ Oklahoma Process Server FAQ 2026</Link></li>
+                <li><Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">→ Oklahoma Process Server Laws</Link></li>
+                <li><Link href="/ai-skip-tracing-guide-oklahoma" className="text-blue-600 hover:underline">→ Skip Tracing Services</Link></li>
               </ul>
             </div>
           </div>

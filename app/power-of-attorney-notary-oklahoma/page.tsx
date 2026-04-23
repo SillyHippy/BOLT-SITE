@@ -3,6 +3,8 @@ import { Navbar } from "@/components/ui/navbar";
 import { Footer } from "@/components/ui/footer";
 import JsonLd from "@/components/JsonLd";
 
+import Link from 'next/link';
+
 export const metadata: Metadata = {
     alternates: {
     canonical: 'https://justlegalsolutions.org/power-of-attorney-notary-oklahoma',
@@ -200,7 +202,6 @@ export default function PowerOfAttorneyNotaryPage() {
       <JsonLd data={breadcrumbSchema} />
       <JsonLd data={faqSchema} />
       <Navbar />
-      
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-16 md:py-24">
         <div className="container mx-auto px-4 max-w-5xl">
@@ -218,17 +219,16 @@ export default function PowerOfAttorneyNotaryPage() {
               >
                 Call (539) 367-6832
               </a>
-              <a 
+              <Link 
                 href="/mobile-notary/" 
                 className="bg-white hover:bg-gray-100 text-blue-900 font-bold py-4 px-8 rounded-lg text-lg transition-colors"
               >
                 Request Mobile Notary
-              </a>
+              </Link>
             </div>
           </div>
         </div>
       </section>
-
       {/* Introduction Section */}
       <section className="py-12 md:py-16 bg-white">
         <div className="container mx-auto px-4 max-w-4xl">
@@ -242,7 +242,6 @@ export default function PowerOfAttorneyNotaryPage() {
           </div>
         </div>
       </section>
-
       {/* Types of POA Section */}
       <section className="py-12 md:py-16 bg-gray-50">
         <div className="container mx-auto px-4 max-w-5xl">
@@ -369,7 +368,6 @@ export default function PowerOfAttorneyNotaryPage() {
           </div>
         </div>
       </section>
-
       {/* Oklahoma Law Section */}
       <section className="py-12 md:py-16 bg-white">
         <div className="container mx-auto px-4 max-w-4xl">
@@ -432,7 +430,6 @@ export default function PowerOfAttorneyNotaryPage() {
           </div>
         </div>
       </section>
-
       {/* Notarization Importance Section */}
       <section className="py-12 md:py-16 bg-gray-50">
         <div className="container mx-auto px-4 max-w-4xl">
@@ -472,7 +469,6 @@ export default function PowerOfAttorneyNotaryPage() {
           </div>
         </div>
       </section>
-
       {/* Hospital/Bedside Section */}
       <section className="py-12 md:py-16 bg-white">
         <div className="container mx-auto px-4 max-w-4xl">
@@ -518,12 +514,11 @@ export default function PowerOfAttorneyNotaryPage() {
             </ul>
 
             <p>
-              We serve all major hospitals in the Tulsa and Oklahoma City areas, including Saint Francis Hospital, Hillcrest Medical Center, OU Medical Center, Integris Baptist Medical Center, and many more. <a href="/hospital-notary/" className="text-blue-600 hover:underline font-medium">Learn more about our hospital notary services</a>.
+              We serve all major hospitals in the Tulsa and Oklahoma City areas, including Saint Francis Hospital, Hillcrest Medical Center, OU Medical Center, Integris Baptist Medical Center, and many more. <Link href="/hospital-notary/" className="text-blue-600 hover:underline font-medium">Learn more about our hospital notary services</Link>.
             </p>
           </div>
         </div>
       </section>
-
       {/* Mobile Notary Section */}
       <section className="py-12 md:py-16 bg-blue-900 text-white">
         <div className="container mx-auto px-4 max-w-4xl text-center">
@@ -540,16 +535,15 @@ export default function PowerOfAttorneyNotaryPage() {
             >
               Call (539) 367-6832
             </a>
-            <a 
+            <Link 
               href="/mobile-notary/" 
               className="bg-white hover:bg-gray-100 text-blue-900 font-bold py-4 px-8 rounded-lg text-lg transition-colors"
             >
               Learn About Mobile Notary
-            </a>
+            </Link>
           </div>
         </div>
       </section>
-
       {/* Related Services Section */}
       <section className="py-12 md:py-16 bg-gray-50">
         <div className="container mx-auto px-4 max-w-5xl">
@@ -558,33 +552,32 @@ export default function PowerOfAttorneyNotaryPage() {
           </h2>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <a href="/mobile-notary/" className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow text-center group">
+            <Link href="/mobile-notary/" className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow text-center group">
               <div className="text-4xl mb-4">🚗</div>
               <h3 className="font-bold text-gray-900 mb-2 group-hover:text-blue-600">Mobile Notary</h3>
               <p className="text-sm text-gray-600">We come to your location anywhere in Oklahoma</p>
-            </a>
+            </Link>
             
-            <a href="/hospital-notary/" className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow text-center group">
+            <Link href="/hospital-notary/" className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow text-center group">
               <div className="text-4xl mb-4">🏥</div>
               <h3 className="font-bold text-gray-900 mb-2 group-hover:text-blue-600">Hospital Notary</h3>
               <p className="text-sm text-gray-600">24/7 bedside notarization for medical emergencies</p>
-            </a>
+            </Link>
             
-            <a href="/notary/" className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow text-center group">
+            <Link href="/notary/" className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow text-center group">
               <div className="text-4xl mb-4">📋</div>
               <h3 className="font-bold text-gray-900 mb-2 group-hover:text-blue-600">General Notary</h3>
               <p className="text-sm text-gray-600">Full range of notarization services</p>
-            </a>
+            </Link>
             
-            <a href="/immigration-document-notary-oklahoma/" className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow text-center group">
+            <Link href="/immigration-document-notary-oklahoma/" className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow text-center group">
               <div className="text-4xl mb-4">🌍</div>
               <h3 className="font-bold text-gray-900 mb-2 group-hover:text-blue-600">Immigration Documents</h3>
               <p className="text-sm text-gray-600">Notarization for USCIS and immigration matters</p>
-            </a>
+            </Link>
           </div>
         </div>
       </section>
-
       {/* FAQ Section */}
       <section className="py-12 md:py-16 bg-white">
         <div className="container mx-auto px-4 max-w-4xl">
@@ -652,7 +645,7 @@ export default function PowerOfAttorneyNotaryPage() {
             <div className="bg-gray-50 rounded-lg p-6">
               <h3 className="text-lg font-bold text-gray-900 mb-3">Can a power of attorney be used for immigration documents in Oklahoma?</h3>
               <p className="text-gray-700">
-                Yes, a power of attorney can be used for certain immigration-related matters in Oklahoma, though specific USCIS forms have their own requirements. A properly executed POA can authorize an agent to communicate with immigration authorities, submit documents, and handle administrative matters on behalf of the principal. However, for representation before USCIS or immigration court, a Form G-28 (Notice of Entry of Appearance as Attorney or Accredited Representative) is typically required instead of or in addition to a general POA. At Just Legal Solutions, we provide notarization services for both general powers of attorney and immigration-specific documents. <a href="/immigration-document-notary-oklahoma/" className="text-blue-600 hover:underline">Visit our immigration document notary page</a> for more information.
+                Yes, a power of attorney can be used for certain immigration-related matters in Oklahoma, though specific USCIS forms have their own requirements. A properly executed POA can authorize an agent to communicate with immigration authorities, submit documents, and handle administrative matters on behalf of the principal. However, for representation before USCIS or immigration court, a Form G-28 (Notice of Entry of Appearance as Attorney or Accredited Representative) is typically required instead of or in addition to a general POA. At Just Legal Solutions, we provide notarization services for both general powers of attorney and immigration-specific documents. <Link href="/immigration-document-notary-oklahoma/" className="text-blue-600 hover:underline">Visit our immigration document notary page</Link> for more information.
               </p>
             </div>
 
@@ -665,7 +658,6 @@ export default function PowerOfAttorneyNotaryPage() {
           </div>
         </div>
       </section>
-
       {/* CTA Section */}
       <section className="py-12 md:py-16 bg-gradient-to-r from-blue-900 to-blue-700 text-white">
         <div className="container mx-auto px-4 max-w-4xl text-center">
@@ -691,7 +683,6 @@ export default function PowerOfAttorneyNotaryPage() {
           </div>
         </div>
       </section>
-
       {/* Disclaimer */}
       <section className="py-8 bg-gray-100">
         <div className="container mx-auto px-4 max-w-4xl">
@@ -703,7 +694,6 @@ export default function PowerOfAttorneyNotaryPage() {
           </p>
         </div>
       </section>
-
       <Footer />
     </main>
   );

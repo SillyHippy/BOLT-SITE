@@ -3,6 +3,8 @@ import EnhancedLocationFAQ from './enhanced-location-faq';
 import AIOptimizedContentSchema from './ai-optimized-content-schema';
 import VoiceSearchOptimization from './voice-search-optimization';
 
+import Link from 'next/link';
+
 interface MissingCityPageProps {
   city: string;
   county: string;
@@ -47,13 +49,11 @@ export default function MissingCityPage({
         ]}
         topicalAuthority="Oklahoma Licensed Process Server with Statewide Coverage"
       />
-      
       <VoiceSearchOptimization
         primaryQuestions={voiceQuestions}
         conversationalAnswers={voiceAnswers}
         localIntent={true}
       />
-
       <div className="max-w-4xl mx-auto px-4 py-16">
         <header className="mb-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-4 voice-optimized">
@@ -160,19 +160,19 @@ export default function MissingCityPage({
               <p className="text-green-700">🕒 24/7 Emergency Service Available</p>
             </div>
             <div className="text-center md:text-right">
-              <a 
+              <Link 
                 href="/pricing" 
                 className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-lg inline-block font-semibold mb-3 transition-colors"
               >
                 View Pricing & Get Quote
-              </a>
+              </Link>
               <div>
-                <a 
+                <Link 
                   href="/pricing" 
                   className="text-green-600 hover:text-green-700 underline font-medium"
                 >
                   View All Services
-                </a>
+                </Link>
               </div>
             </div>
           </div>

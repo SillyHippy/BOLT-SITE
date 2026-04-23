@@ -51,9 +51,9 @@ export default function SameDayProcessServerPage() {
                 <div className="max-w-6xl mx-auto px-4 py-16">
                     <nav aria-label="Breadcrumb" className="mb-6 text-sm">
                         <ol className="flex items-center space-x-2">
-                            <li><a href="/" className="text-blue-600 hover:underline">Home</a></li>
+                            <li><Link href="/" className="text-blue-600 hover:underline">Home</Link></li>
                             <li className="text-gray-500">/</li>
-                            <li><a href="/process-serving" className="text-blue-600 hover:underline">Process Serving</a></li>
+                            <li><Link href="/process-serving" className="text-blue-600 hover:underline">Process Serving</Link></li>
                             <li className="text-gray-500">/</li>
                             <li><span className="text-gray-700">Same-Day Process Server</span></li>
                         </ol>
@@ -156,7 +156,7 @@ export default function SameDayProcessServerPage() {
                         <p className="text-lg text-gray-700 mb-6">Call now for same-day dispatch. Papers served within 4&ndash;8 hours for $150.</p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-4">
                             <a href="tel:5393676832" className="bg-orange-600 hover:bg-orange-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors shadow-lg">&#x1F4DE; Call (539) 367-6832</a>
-                            <a href="/contact" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">&#x1F4DD; Get Quote</a>
+                            <Link href="/contact" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">&#x1F4DD; Get Quote</Link>
                         </div>
                     </section>
 
@@ -166,7 +166,6 @@ export default function SameDayProcessServerPage() {
                     </div>
                 </div>
             </div>
-
             <UnifiedSchema pageType="service" title="Same-Day Process Server Oklahoma" description="Same-day rush process serving for $150. Served within 4-8 hours. GPS-verified." url="https://justlegalsolutions.org/same-day-process-server" image="https://justlegalsolutions.org/image-pack/images/image-091-same-day-process-server-og.png" keywords={['same day process server', 'rush process serving', 'fast paper serving']} reviewCount={156} services={['Same-Day Rush Service', 'Standard Process Serving', '2-Hour Emergency Service']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'Same-Day Process Server', url: '/same-day-process-server' }]} />
         </>
     );

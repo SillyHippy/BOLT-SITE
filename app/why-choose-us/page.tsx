@@ -261,13 +261,13 @@ export default function WhyChooseUs() {
                   ))}
                 </div>
                 <div className="mt-8">
-                  <a 
+                  <Link 
                     href="/weekend-emergency"
                     className="inline-flex items-center gap-2 rounded-lg bg-red-600 px-6 py-3 font-semibold text-white shadow-lg transition-all duration-300 hover:-translate-y-0.5 hover:bg-red-700"
                   >
                     Weekend Emergency Service
                     <ArrowRight className="w-5 h-5" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -317,13 +317,13 @@ export default function WhyChooseUs() {
                 <p className="text-blue-100 mb-4">
                   From Tulsa to every corner of Oklahoma, our team is ready to deliver—day or night, weekend or holiday. Deep local roots with statewide coverage.
                 </p>
-                <a 
+                <Link 
                   href="/service-areas"
                   className="inline-flex items-center gap-2 text-white underline hover:text-blue-200 transition-colors"
                 >
                   View All Service Areas
                   <ArrowRight className="w-4 h-4" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -364,12 +364,12 @@ export default function WhyChooseUs() {
                   Request a Free Quote
                   <ArrowRight className="w-5 h-5" />
                 </a>
-                <a 
+                <Link 
                   href="/pricing"
                   className="ui-btn-secondary border-2 border-blue-700 px-8 py-4 text-lg font-bold text-blue-700"
                 >
                   View Pricing
-                </a>
+                </Link>
               </div>
             </div>
           </div>

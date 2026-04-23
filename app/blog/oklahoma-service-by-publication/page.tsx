@@ -88,7 +88,6 @@ export default function OklahomaServiceByPublicationGuide() {
         faqs={faqs}
       />
       <Navbar />
-
       <main className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
         {/* Hero Section */}
         <div className="bg-gradient-to-r from-blue-900 via-blue-800 to-blue-900 text-white py-16">
@@ -563,13 +562,13 @@ export default function OklahomaServiceByPublicationGuide() {
                   <Phone className="w-4 h-4" />
                   Call (539) 367-6832
                 </a>
-                <a
+                <Link
                   href="/services/skip-tracing"
                   className="inline-flex items-center gap-2 bg-white text-green-700 border border-green-300 px-4 py-2 rounded-lg font-semibold hover:bg-green-50 transition-colors"
                 >
                   <Search className="w-4 h-4" />
                   Learn About Skip Tracing
-                </a>
+                </Link>
               </div>
             </div>
 
@@ -765,13 +764,13 @@ export default function OklahomaServiceByPublicationGuide() {
                   <Phone className="w-5 h-5" />
                   Call (539) 367-6832
                 </a>
-                <a
+                <Link
                   href="/services/process-serving"
                   className="inline-flex items-center gap-2 bg-blue-800 text-white border border-blue-700 px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
                 >
                   <FileText className="w-5 h-5" />
                   Our Process Serving Services
-                </a>
+                </Link>
               </div>
             </div>
 
@@ -803,7 +802,6 @@ export default function OklahomaServiceByPublicationGuide() {
 
         <LocalPromoBanner zips={[]} />
       </main>
-
       {/* Related Guides */}
       <section className="mt-12 mb-8 bg-white rounded-2xl shadow-lg border border-gray-100 p-8 md:p-10">
         <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Guides &amp; Resources</h2>
@@ -826,8 +824,6 @@ export default function OklahomaServiceByPublicationGuide() {
           </Link>
         </div>
       </section>
-
-
       <Footer />
     </>
   );

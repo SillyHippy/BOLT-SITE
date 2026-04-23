@@ -101,7 +101,7 @@ export default function ProcessServingPage() {
                     {/* Breadcrumb */}
                     <nav aria-label="Breadcrumb" className="mb-6 text-sm">
                         <ol className="flex items-center space-x-2">
-                            <li><a href="/" className="text-blue-600 hover:underline">Home</a></li>
+                            <li><Link href="/" className="text-blue-600 hover:underline">Home</Link></li>
                             <li className="text-gray-500">/</li>
                             <li><span className="text-gray-700">Process Serving Services</span></li>
                         </ol>
@@ -134,9 +134,9 @@ export default function ProcessServingPage() {
                             <a href="tel:5393676832" className="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg text-base transition-colors shadow-md">
                                 📞 Call Now — (539) 367-6832
                             </a>
-                            <a href="/contact" className="inline-flex items-center justify-center bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg text-base transition-colors shadow-md">
+                            <Link href="/contact" className="inline-flex items-center justify-center bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg text-base transition-colors shadow-md">
                                 📝 Get a Free Quote in 15 Minutes
-                            </a>
+                            </Link>
                         </div>
                     </div>
 
@@ -215,10 +215,10 @@ export default function ProcessServingPage() {
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold text-gray-900 mb-6">What Is Process Serving in Oklahoma?</h2>
                         <p className="text-lg text-gray-700 mb-4">
-                            Process serving is the legal procedure of delivering court documents — such as summons, complaints, subpoenas, and eviction notices — to an individual or business involved in a lawsuit. Under Oklahoma law (<a href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">12 O.S. § 2004</a>), proper service of process is a constitutional requirement that ensures every party receives notice of legal action against them.
+                            Process serving is the legal procedure of delivering court documents — such as summons, complaints, subpoenas, and eviction notices — to an individual or business involved in a lawsuit. Under Oklahoma law (<Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">12 O.S. § 2004</Link>), proper service of process is a constitutional requirement that ensures every party receives notice of legal action against them.
                         </p>
                         <p className="text-lg text-gray-700 mb-4">
-                            In Oklahoma, process servers must be licensed under <a href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">12 O.S. § 158.1</a>, which requires a $5,000 surety bond, at least 6 months of Oklahoma residency, and registration with the district court. Without properly completed service, a court cannot proceed with a case — making professional process serving essential to every lawsuit.
+                            In Oklahoma, process servers must be licensed under <Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">12 O.S. § 158.1</Link>, which requires a $5,000 surety bond, at least 6 months of Oklahoma residency, and registration with the district court. Without properly completed service, a court cannot proceed with a case — making professional process serving essential to every lawsuit.
                         </p>
                     </section>
 
@@ -480,9 +480,9 @@ export default function ProcessServingPage() {
                             <a href="tel:5393676832" className="bg-white text-blue-700 font-bold py-3 px-8 rounded-lg text-lg transition-colors hover:bg-blue-50 shadow-md">
                                 📞 Call (539) 367-6832
                             </a>
-                            <a href="/contact" className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-3 px-8 rounded-lg text-lg transition-colors border border-blue-400">
+                            <Link href="/contact" className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-3 px-8 rounded-lg text-lg transition-colors border border-blue-400">
                                 📝 Submit Online
-                            </a>
+                            </Link>
                         </div>
                     </section>
 
@@ -785,9 +785,9 @@ export default function ProcessServingPage() {
                             <a href="tel:5393676832" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors shadow-lg">
                                 &#x1F4DE; Call (539) 367-6832
                             </a>
-                            <a href="/contact" className="bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">
+                            <Link href="/contact" className="bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">
                                 &#x1F4DD; Get Free Quote
-                            </a>
+                            </Link>
                         </div>
                         <p className="text-sm text-gray-600">Available 24/7 &bull; All 77 Oklahoma counties &bull; GPS-verified &bull; Starts at $30 for a single attempt</p>
                     </section>
@@ -801,7 +801,6 @@ export default function ProcessServingPage() {
                     </div>
                 </div>
             </div>
-
             <UnifiedSchema
                 pageType="service"
                 title="Process Serving Services Oklahoma | Licensed Servers, Starts at $30"

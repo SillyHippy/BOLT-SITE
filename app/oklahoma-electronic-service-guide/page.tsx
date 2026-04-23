@@ -3,6 +3,8 @@ import Navbar from '../../components/ui/navbar';
 import Footer from '../../components/ui/footer';
 import JsonLd from '../../components/JsonLd';
 
+import Link from 'next/link';
+
 const canonicalUrl = 'https://justlegalsolutions.org/oklahoma-electronic-service-guide';
 
 export const metadata: Metadata = {
@@ -278,20 +280,20 @@ export default function OklahomaElectronicServiceGuide() {
             <div className="bg-white border border-gray-200 p-6 rounded-lg">
               <h3 className="font-bold text-lg mb-3">Process Serving Guides</h3>
               <ul className="space-y-2">
-                <li><a href="/oklahoma-process-server-laws" className="text-blue-700 underline">→ Oklahoma Process Server Laws</a></li>
-                <li><a href="/oklahoma-process-server-best-practices-checklist" className="text-blue-700 underline">→ Best Practices Checklist 2026</a></li>
-                <li><a href="/oklahoma-process-server-faq" className="text-blue-700 underline">→ Process Server FAQ 2026</a></li>
-                <li><a href="/process-serving-mistakes-guide" className="text-blue-700 underline">→ Common Mistakes to Avoid</a></li>
-                <li><a href="/tulsa-process-server" className="text-blue-700 underline">→ Tulsa Process Server</a></li>
+                <li><Link href="/oklahoma-process-server-laws" className="text-blue-700 underline">→ Oklahoma Process Server Laws</Link></li>
+                <li><Link href="/oklahoma-process-server-best-practices-checklist" className="text-blue-700 underline">→ Best Practices Checklist 2026</Link></li>
+                <li><Link href="/oklahoma-process-server-faq" className="text-blue-700 underline">→ Process Server FAQ 2026</Link></li>
+                <li><Link href="/process-serving-mistakes-guide" className="text-blue-700 underline">→ Common Mistakes to Avoid</Link></li>
+                <li><Link href="/tulsa-process-server" className="text-blue-700 underline">→ Tulsa Process Server</Link></li>
               </ul>
             </div>
             <div className="bg-white border border-gray-200 p-6 rounded-lg">
               <h3 className="font-bold text-lg mb-3">Specialized Services</h3>
               <ul className="space-y-2">
-                <li><a href="/family-law-service-guide-tulsa" className="text-blue-700 underline">→ Family Law Service Guide</a></li>
-                <li><a href="/serving-legal-papers-on-tribal-land" className="text-blue-700 underline">→ Tribal Land Service Guide</a></li>
-                <li><a href="/ai-skip-tracing-guide-oklahoma" className="text-blue-700 underline">→ Skip Tracing Services</a></li>
-                <li><a href="/law-firm-services" className="text-blue-700 underline">→ Law Firm Partnership</a></li>
+                <li><Link href="/family-law-service-guide-tulsa" className="text-blue-700 underline">→ Family Law Service Guide</Link></li>
+                <li><Link href="/serving-legal-papers-on-tribal-land" className="text-blue-700 underline">→ Tribal Land Service Guide</Link></li>
+                <li><Link href="/ai-skip-tracing-guide-oklahoma" className="text-blue-700 underline">→ Skip Tracing Services</Link></li>
+                <li><Link href="/law-firm-services" className="text-blue-700 underline">→ Law Firm Partnership</Link></li>
               </ul>
             </div>
           </div>
@@ -300,8 +302,8 @@ export default function OklahomaElectronicServiceGuide() {
             <h3 className="font-bold text-lg text-blue-800 mb-3">Need Help With Electronic or Traditional Service?</h3>
             <p className="text-gray-700 mb-4">Our licensed Oklahoma process servers handle both electronic and traditional service methods with full compliance.</p>
             <div className="flex flex-wrap gap-4">
-              <a href="/contact" className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700">Contact Us</a>
-              <a href="/pricing" className="bg-white text-blue-600 border border-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50">View Pricing</a>
+              <Link href="/contact" className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700">Contact Us</Link>
+              <Link href="/pricing" className="bg-white text-blue-600 border border-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50">View Pricing</Link>
             </div>
           </div>
         </section>

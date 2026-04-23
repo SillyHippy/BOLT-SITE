@@ -3,6 +3,8 @@ import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 import JsonLd from '@/components/JsonLd';
 
+import Link from 'next/link';
+
 export const metadata: Metadata = {
     alternates: {
     canonical: 'https://justlegalsolutions.org/loan-signing-agent-tulsa',
@@ -211,7 +213,7 @@ export default function LoanSigningAgentTulsa() {
             <div className="max-w-3xl">
               <nav className="text-sm mb-4" aria-label="Breadcrumb">
                 <ol className="flex items-center space-x-2 text-blue-200">
-                  <li><a href="/" className="hover:text-white transition-colors">Home</a></li>
+                  <li><Link href="/" className="hover:text-white transition-colors">Home</Link></li>
                   <li><span className="text-blue-300">/</span></li>
                   <li className="text-white">Loan Signing Agent Tulsa</li>
                 </ol>
@@ -232,12 +234,12 @@ export default function LoanSigningAgentTulsa() {
                   </svg>
                   Call (539) 367-6832
                 </a>
-                <a
+                <Link
                   href="/contact/"
                   className="inline-flex items-center justify-center px-8 py-4 border-2 border-white text-white font-bold rounded-lg hover:bg-white hover:text-blue-900 transition-colors text-lg"
                 >
                   Schedule a Signing
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -596,7 +598,7 @@ export default function LoanSigningAgentTulsa() {
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Schedule</h3>
                 <p className="text-gray-600">
                   Contact us at <a href="tel:539-367-6832" className="text-blue-600 hover:underline">(539) 367-6832</a> or 
-                  <a href="/contact/" className="text-blue-600 hover:underline"> online</a> to schedule your signing. 
+                  <Link href="/contact/" className="text-blue-600 hover:underline"> online</Link> to schedule your signing. 
                   We offer flexible appointment times including evenings and weekends.
                 </p>
               </div>
@@ -855,24 +857,24 @@ export default function LoanSigningAgentTulsa() {
               </p>
             </div>
             <div className="grid md:grid-cols-3 gap-8">
-              <a href="/title-company-notary-services/" className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow block">
+              <Link href="/title-company-notary-services/" className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow block">
                 <h3 className="text-xl font-bold text-blue-600 mb-2">Title Company Notary Services</h3>
                 <p className="text-gray-600">
                   Specialized notary services for title companies, including deed signings, affidavits, and closing document notarization.
                 </p>
-              </a>
-              <a href="/mobile-notary/" className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow block">
+              </Link>
+              <Link href="/mobile-notary/" className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow block">
                 <h3 className="text-xl font-bold text-blue-600 mb-2">Mobile Notary Services</h3>
                 <p className="text-gray-600">
                   Convenient mobile notary services that come to your location throughout Tulsa and surrounding areas.
                 </p>
-              </a>
-              <a href="/notary/" className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow block">
+              </Link>
+              <Link href="/notary/" className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow block">
                 <h3 className="text-xl font-bold text-blue-600 mb-2">General Notary Services</h3>
                 <p className="text-gray-600">
                   Full-service notary for all your document notarization needs, including acknowledgments, jurats, and oaths.
                 </p>
-              </a>
+              </Link>
             </div>
           </div>
         </section>
@@ -1050,12 +1052,12 @@ export default function LoanSigningAgentTulsa() {
                 </svg>
                 Call (539) 367-6832
               </a>
-              <a
+              <Link
                 href="/contact/"
                 className="inline-flex items-center justify-center px-8 py-4 border-2 border-white text-white font-bold rounded-lg hover:bg-white hover:text-blue-900 transition-colors text-lg"
               >
                 Request Appointment
-              </a>
+              </Link>
             </div>
           </div>
         </section>

@@ -11,7 +11,7 @@
     "audit:kimi": "node scripts/audit-pages-with-kimi.cjs",
     "export": "next export",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "eslint .",
     "ai-optimize": "node scripts/run-ai-optimization.js",
     "prebuild": "node scripts/run-ai-optimization.js",
     "postbuild": "node scripts/generate-sitemap.js && node scripts/generate-video-sitemap.js && node scripts/generate-ai-sitemap.js",
@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
+    "@next/eslint-plugin-next": "^15.5.15",
     "@next/third-parties": "^16.2.3",
     "@radix-ui/react-accordion": "^1.2.12",
     "@radix-ui/react-alert-dialog": "^1.1.1",
@@ -58,8 +59,7 @@
     "critters": "^0.0.23",
     "date-fns": "^3.6.0",
     "embla-carousel-react": "^8.6.0",
-    "eslint": "8.49.0",
-    "eslint-config-next": "14.2.29",
+    "eslint-config-next": "^15.5.15",
     "lucide-react": "^0.446.0",
     "next": "^15.5.7",
     "next-themes": "^0.3.0",
@@ -80,7 +80,9 @@
     "zod": "^3.23.8"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3.3.5",
     "esbuild": "^0.25.7",
+    "eslint": "^9.39.4",
     "glob": "^11.0.3",
     "lovable-tagger": "^1.1.8",
     "pdf-lib": "^1.17.1"

@@ -80,7 +80,6 @@ export default function CourierServicesTulsaPage() {
         }))}
         speakable={['h1', 'h2', '.direct-answer']}
       />
-
       <div className="min-h-screen pt-12 bg-white">
 
         {/* Direct Answer Block */}
@@ -88,7 +87,7 @@ export default function CourierServicesTulsaPage() {
           <div className="container mx-auto px-4 max-w-4xl">
             <nav aria-label="Breadcrumb" className="mb-4 text-sm">
               <ol className="flex items-center space-x-2">
-                <li><a href="/" className="text-blue-600 hover:underline">Home</a></li>
+                <li><Link href="/" className="text-blue-600 hover:underline">Home</Link></li>
                 <li className="text-gray-500">/</li>
                 <li><span className="text-gray-700">Legal Courier Services Tulsa</span></li>
               </ol>
@@ -419,7 +418,6 @@ export default function CourierServicesTulsaPage() {
           </div>
         </section>
       </div>
-
     </>
   );
 }

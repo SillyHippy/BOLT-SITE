@@ -4,6 +4,8 @@ import Navbar from '../../components/ui/navbar';
 import Footer from '../../components/ui/footer';
 import JsonLd from '../../components/JsonLd';
 
+import Link from 'next/link';
+
 const canonicalUrl = 'https://justlegalsolutions.org/oklahoma-legal-service-areas';
 
 export const metadata: Metadata = {
@@ -413,7 +415,7 @@ export default function OklahomaLegalServiceAreas() {
           <h2 className="text-2xl font-semibold mb-2">Call to Action</h2>
           <div className="bg-yellow-100 border-l-4 border-yellow-500 text-yellow-900 p-6 rounded mb-4">
             <h3 className="text-xl font-bold mb-2">Need Service Anywhere in Oklahoma?</h3>
-            <p>Contact Just Legal Solutions for comprehensive process serving across all Oklahoma regions. <a href="/contact" className="underline text-yellow-700">Request Coverage</a></p>
+            <p>Contact Just Legal Solutions for comprehensive process serving across all Oklahoma regions. <Link href="/contact" className="underline text-yellow-700">Request Coverage</Link></p>
           </div>
           <p className="italic text-sm mt-4">
             <em>Just Legal Solutions provides professional process serving throughout Oklahoma with over 50 years combined experience. Contact us for coverage verification and service scheduling in your specific area.</em>

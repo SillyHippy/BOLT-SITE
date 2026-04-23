@@ -378,12 +378,12 @@ export default function SubpoenaServiceOklahomaPage() {
                   <div>
                     <h3
                       className="text-lg font-semibold text-gray-900 mb-1"
-                      // eslint-disable-next-line react/no-danger
+                       
                       dangerouslySetInnerHTML={{ __html: step.title }}
                     />
                     <p
                       className="text-gray-700"
-                      // eslint-disable-next-line react/no-danger
+                       
                       dangerouslySetInnerHTML={{ __html: step.body }}
                     />
                   </div>

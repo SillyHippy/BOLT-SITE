@@ -4,6 +4,8 @@ import Footer from '../../components/ui/footer';
 import JsonLd from '../../components/JsonLd';
 import Image from 'next/image';
 
+import Link from 'next/link';
+
 const canonicalUrl = 'https://justlegalsolutions.org/oklahoma-process-serving-costs-comparison';
 
 export const metadata: Metadata = {
@@ -270,15 +272,15 @@ export default function OklahomaProcessServingCostsComparison() {
         <div className="bg-blue-100 border-l-4 border-blue-500 text-blue-900 p-6 rounded mb-4">
           <h3 className="text-xl font-bold mb-2">📞 Get Accurate Pricing for Your Cases</h3>
           <p className="mb-4">Every case is unique. Contact Just Legal Solutions for transparent, competitive pricing tailored to your specific needs and geographic requirements.</p>
-          <p><strong>Serving all 77 Oklahoma counties with transparent, competitive pricing.</strong> <a href="/contact" className="underline text-blue-700">Request Your Custom Quote</a></p>
+          <p><strong>Serving all 77 Oklahoma counties with transparent, competitive pricing.</strong> <Link href="/contact" className="underline text-blue-700">Request Your Custom Quote</Link></p>
         </div>
 
         <section className="mb-8">
           <h2 className="text-3xl font-semibold mb-4">Related Resources</h2>
           <ul className="list-disc ml-6 mb-4">
-            <li><a href="/oklahoma-process-server-pricing" className="text-blue-700 underline">Oklahoma Process Server Pricing Guide</a></li>
-            <li><a href="/oklahoma-legal-service-areas" className="text-blue-700 underline">Oklahoma Legal Service Areas Coverage</a></li>
-            <li><a href="/oklahoma-process-server-faq" className="text-blue-700 underline">Process Server FAQ</a></li>
+            <li><Link href="/oklahoma-process-server-pricing" className="text-blue-700 underline">Oklahoma Process Server Pricing Guide</Link></li>
+            <li><Link href="/oklahoma-legal-service-areas" className="text-blue-700 underline">Oklahoma Legal Service Areas Coverage</Link></li>
+            <li><Link href="/oklahoma-process-server-faq" className="text-blue-700 underline">Process Server FAQ</Link></li>
           </ul>
         </section>
 

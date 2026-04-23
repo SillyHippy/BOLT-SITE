@@ -52,9 +52,9 @@ export default function OklahomaProcessServerBondRequirementsPage() {
                 <div className="max-w-6xl mx-auto px-4 py-16">
                     <nav aria-label="Breadcrumb" className="mb-6 text-sm">
                         <ol className="flex items-center space-x-2">
-                            <li><a href="/" className="text-blue-600 hover:underline">Home</a></li>
+                            <li><Link href="/" className="text-blue-600 hover:underline">Home</Link></li>
                             <li className="text-gray-500">/</li>
-                            <li><a href="/process-serving" className="text-blue-600 hover:underline">Process Serving</a></li>
+                            <li><Link href="/process-serving" className="text-blue-600 hover:underline">Process Serving</Link></li>
                             <li className="text-gray-500">/</li>
                             <li><span className="text-gray-700">Bond Requirements</span></li>
                         </ol>
@@ -341,7 +341,7 @@ export default function OklahomaProcessServerBondRequirementsPage() {
                         <p className="text-lg text-gray-700 mb-6">Just Legal Solutions is fully bonded and licensed. Professional service across all 77 Oklahoma counties.</p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-4">
                             <a href="tel:5393676832" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors shadow-lg">&#x1F4DE; Call (539) 367-6832</a>
-                            <a href="/contact" className="bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">&#x1F4DD; Get Quote</a>
+                            <Link href="/contact" className="bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">&#x1F4DD; Get Quote</Link>
                         </div>
                     </section>
 
@@ -351,7 +351,6 @@ export default function OklahomaProcessServerBondRequirementsPage() {
                     </div>
                 </div>
             </div>
-
             <UnifiedSchema pageType="service" title="Oklahoma Process Server Bond Requirements" description="Complete guide to Oklahoma process server bond requirements. $5,000 surety bond required under 12 O.S. § 158.1." url="https://justlegalsolutions.org/oklahoma-process-server-bond-requirements" image="https://justlegalsolutions.org/image-pack/images/image-094-oklahoma-process-server-bond-requirements-og.png" keywords={['oklahoma process server bond', 'process server surety bond', 'bonded process servers']} reviewCount={156} services={['Bonded Process Serving', 'Licensed Document Service', 'GPS-Verified Service']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'Bond Requirements', url: '/oklahoma-process-server-bond-requirements' }]} />
         </>
     );

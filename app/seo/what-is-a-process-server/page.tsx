@@ -609,7 +609,6 @@ export default function WhatIsAProcessServerPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(enhancedArticleSchema) }}
       />
-
       <EnhancedBreadcrumbSchema items={breadcrumbItems} />
       <VoiceSearchOptimization
         primaryQuestions={[
@@ -645,9 +644,7 @@ export default function WhatIsAProcessServerPage() {
         loadTime={2.0}
         mobileOptimized={true}
       />
-
       <Navbar />
-
       <main className="min-h-screen bg-white text-gray-900 font-sans pt-16">
         <div className="max-w-6xl mx-auto px-4 py-8">
           <VisualBreadcrumbs items={breadcrumbItems} />
@@ -721,7 +718,7 @@ export default function WhatIsAProcessServerPage() {
                     <p className="text-sm text-gray-200 mb-3">Available 24/7 • Emergency & weekend service</p>
                     <div className="flex flex-col gap-2">
                       <a href="mailto:info@JustLegalSolutions.org" className="text-sm text-yellow-300 underline hover:no-underline">📧 info@JustLegalSolutions.org</a>
-                      <a href="/contact" className="bg-yellow-500 text-black px-4 py-2 rounded font-semibold text-sm hover:bg-yellow-400 transition">📝 Get Instant Quote →</a>
+                      <Link href="/contact" className="bg-yellow-500 text-black px-4 py-2 rounded font-semibold text-sm hover:bg-yellow-400 transition">📝 Get Instant Quote →</Link>
                     </div>
                   </div>
                 </div>
@@ -798,7 +795,7 @@ export default function WhatIsAProcessServerPage() {
                   <li><a href="#pricing" className="text-blue-700 hover:underline font-medium">→ Transparent Pricing</a></li>
                   <li><a href="#success-stories" className="text-blue-700 hover:underline font-medium">→ Client Success Stories</a></li>
                   <li><a href="#professional-credentials" className="text-blue-700 hover:underline font-medium">→ Professional Credentials</a></li>
-                  <li><a href="/contact" className="text-blue-700 hover:underline font-medium">→ Get a Quote</a></li>
+                  <li><Link href="/contact" className="text-blue-700 hover:underline font-medium">→ Get a Quote</Link></li>
                 </ul>
               </div>
             </nav>
@@ -985,9 +982,9 @@ export default function WhatIsAProcessServerPage() {
                   <a href="tel:5393676832" className="bg-blue-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-700 transition">
                     Call Now: (539) 367-6832
                   </a>
-                  <a href="/contact" className="bg-gray-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-gray-700 transition">
+                  <Link href="/contact" className="bg-gray-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-gray-700 transition">
                     Get Online Quote
-                  </a>
+                  </Link>
                 </div>
                 <p className="text-sm text-gray-600 mt-3">Emergency & after-hours service available</p>
               </div>
@@ -1096,20 +1093,20 @@ export default function WhatIsAProcessServerPage() {
                   <h3 className="font-bold text-green-800 mb-4 text-xl">🚀 Same-Day Service Area (50-Mile Radius)</h3>
                   <p className="text-gray-700 mb-3">Emergency and same-day service available within 50 miles of Tulsa/Glenpool metro area:</p>
                   <ul className="text-gray-700 space-y-2 grid grid-cols-2 gap-x-4">
-                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/tulsa-process-server" className="text-blue-600 hover:underline font-medium">Tulsa</a></li>
-                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/service-areas/glenpool" className="text-blue-600 hover:underline font-medium">Glenpool</a></li>
-                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/service-areas/broken-arrow" className="text-blue-600 hover:underline font-medium">Broken Arrow</a></li>
-                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/service-areas/owasso" className="text-blue-600 hover:underline font-medium">Owasso</a></li>
-                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/service-areas/jenks" className="text-blue-600 hover:underline font-medium">Jenks</a></li>
-                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/service-areas/bixby" className="text-blue-600 hover:underline font-medium">Bixby</a></li>
-                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/service-areas/sand-springs" className="text-blue-600 hover:underline font-medium">Sand Springs</a></li>
-                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/service-areas/sapulpa" className="text-blue-600 hover:underline font-medium">Sapulpa</a></li>
-                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/service-areas/bartlesville" className="text-blue-600 hover:underline font-medium">Bartlesville</a></li>
-                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/service-areas/catoosa" className="text-blue-600 hover:underline font-medium">Catoosa</a></li>
-                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/service-areas/bristow" className="text-blue-600 hover:underline font-medium">Bristow</a></li>
-                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/service-areas/claremore" className="text-blue-600 hover:underline font-medium">Claremore</a></li>
-                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/service-areas/collinsville" className="text-blue-600 hover:underline font-medium">Collinsville</a></li>
-                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><a href="/service-areas/pryor" className="text-blue-600 hover:underline font-medium">Pryor</a></li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><Link href="/tulsa-process-server" className="text-blue-600 hover:underline font-medium">Tulsa</Link></li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><Link href="/service-areas/glenpool" className="text-blue-600 hover:underline font-medium">Glenpool</Link></li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><Link href="/service-areas/broken-arrow" className="text-blue-600 hover:underline font-medium">Broken Arrow</Link></li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><Link href="/service-areas/owasso" className="text-blue-600 hover:underline font-medium">Owasso</Link></li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><Link href="/service-areas/jenks" className="text-blue-600 hover:underline font-medium">Jenks</Link></li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><Link href="/service-areas/bixby" className="text-blue-600 hover:underline font-medium">Bixby</Link></li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><Link href="/service-areas/sand-springs" className="text-blue-600 hover:underline font-medium">Sand Springs</Link></li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><Link href="/service-areas/sapulpa" className="text-blue-600 hover:underline font-medium">Sapulpa</Link></li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><Link href="/service-areas/bartlesville" className="text-blue-600 hover:underline font-medium">Bartlesville</Link></li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><Link href="/service-areas/catoosa" className="text-blue-600 hover:underline font-medium">Catoosa</Link></li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><Link href="/service-areas/bristow" className="text-blue-600 hover:underline font-medium">Bristow</Link></li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><Link href="/service-areas/claremore" className="text-blue-600 hover:underline font-medium">Claremore</Link></li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><Link href="/service-areas/collinsville" className="text-blue-600 hover:underline font-medium">Collinsville</Link></li>
+                    <li className="flex items-center"><span className="text-green-600 mr-2">•</span><Link href="/service-areas/pryor" className="text-blue-600 hover:underline font-medium">Pryor</Link></li>
                   </ul>
                 </div>
 
@@ -1117,12 +1114,12 @@ export default function WhatIsAProcessServerPage() {
                   <h3 className="font-bold text-blue-800 mb-4 text-xl">🗺️ Statewide Oklahoma Coverage</h3>
                   <p className="text-gray-700 mb-3">Professional process serving throughout all of Oklahoma:</p>
                   <ul className="text-gray-700 space-y-2">
-                    <li className="flex items-center"><span className="text-blue-600 mr-2">•</span><strong><a href="/counties/tulsa-county" className="text-blue-600 hover:underline">All 77 Oklahoma Counties</a></strong></li>
-                    <li className="flex items-center"><span className="text-blue-600 mr-2">•</span><a href="/service-areas/wagoner" className="text-blue-600 hover:underline font-medium">Wagoner & Creek County</a></li>
-                    <li className="flex items-center"><span className="text-blue-600 mr-2">•</span><a href="/service-areas/skiatook" className="text-blue-600 hover:underline font-medium">Skiatook & Osage County</a></li>
-                    <li className="flex items-center"><span className="text-blue-600 mr-2">•</span><a href="/service-areas/pawhuska" className="text-blue-600 hover:underline font-medium">Pawhuska & Osage County</a></li>
-                    <li className="flex items-center"><span className="text-blue-600 mr-2">•</span><a href="/service-areas/kellyville" className="text-blue-600 hover:underline font-medium">Kellyville & Creek County</a></li>
-                    <li className="flex items-center"><span className="text-blue-600 mr-2">•</span><a href="/service-areas/coweta" className="text-blue-600 hover:underline font-medium">Coweta & Wagoner County</a></li>
+                    <li className="flex items-center"><span className="text-blue-600 mr-2">•</span><strong><Link href="/counties/tulsa-county" className="text-blue-600 hover:underline">All 77 Oklahoma Counties</Link></strong></li>
+                    <li className="flex items-center"><span className="text-blue-600 mr-2">•</span><Link href="/service-areas/wagoner" className="text-blue-600 hover:underline font-medium">Wagoner & Creek County</Link></li>
+                    <li className="flex items-center"><span className="text-blue-600 mr-2">•</span><Link href="/service-areas/skiatook" className="text-blue-600 hover:underline font-medium">Skiatook & Osage County</Link></li>
+                    <li className="flex items-center"><span className="text-blue-600 mr-2">•</span><Link href="/service-areas/pawhuska" className="text-blue-600 hover:underline font-medium">Pawhuska & Osage County</Link></li>
+                    <li className="flex items-center"><span className="text-blue-600 mr-2">•</span><Link href="/service-areas/kellyville" className="text-blue-600 hover:underline font-medium">Kellyville & Creek County</Link></li>
+                    <li className="flex items-center"><span className="text-blue-600 mr-2">•</span><Link href="/service-areas/coweta" className="text-blue-600 hover:underline font-medium">Coweta & Wagoner County</Link></li>
                     <li className="flex items-center"><span className="text-blue-600 mr-2">•</span>Rural & Remote Communities</li>
                     <li className="flex items-center"><span className="text-blue-600 mr-2">•</span>Small Towns & Counties</li>
                   </ul>
@@ -2256,9 +2253,9 @@ export default function WhatIsAProcessServerPage() {
                   <a href="tel:5393676832" className="bg-blue-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-700 transition inline-flex items-center justify-center">
                     📞 Call Expert: (539) 367-6832
                   </a>
-                  <a href="/contact" className="bg-white text-blue-600 border-2 border-blue-600 px-8 py-3 rounded-lg font-bold hover:bg-blue-50 transition inline-flex items-center justify-center">
+                  <Link href="/contact" className="bg-white text-blue-600 border-2 border-blue-600 px-8 py-3 rounded-lg font-bold hover:bg-blue-50 transition inline-flex items-center justify-center">
                     💬 Get Instant Quote
-                  </a>
+                  </Link>
                 </div>
               </div>
             </section>
@@ -2892,30 +2889,30 @@ export default function WhatIsAProcessServerPage() {
                 <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm hover:shadow-md transition">
                   <h3 className="font-bold text-gray-900 mb-3">📚 Process Serving Guides</h3>
                   <ul className="space-y-2 text-sm">
-                    <li><a href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma Process Server Laws & Requirements</a></li>
-                    <li><a href="/oklahoma-process-server-faq" className="text-blue-600 hover:underline">Frequently Asked Questions 2026</a></li>
-                    <li><a href="/oklahoma-process-server-best-practices-checklist" className="text-blue-600 hover:underline">Best Practices Checklist 2026</a></li>
-                    <li><a href="/process-serving-mistakes-guide" className="text-blue-600 hover:underline">Common Process Serving Mistakes</a></li>
+                    <li><Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma Process Server Laws & Requirements</Link></li>
+                    <li><Link href="/oklahoma-process-server-faq" className="text-blue-600 hover:underline">Frequently Asked Questions 2026</Link></li>
+                    <li><Link href="/oklahoma-process-server-best-practices-checklist" className="text-blue-600 hover:underline">Best Practices Checklist 2026</Link></li>
+                    <li><Link href="/process-serving-mistakes-guide" className="text-blue-600 hover:underline">Common Process Serving Mistakes</Link></li>
                   </ul>
                 </div>
 
                 <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm hover:shadow-md transition">
                   <h3 className="font-bold text-gray-900 mb-3">⚖️ Specialized Services</h3>
                   <ul className="space-y-2 text-sm">
-                    <li><a href="/family-law-service-guide-tulsa" className="text-blue-600 hover:underline">Family Law Service Guide</a></li>
-                    <li><a href="/oklahoma-electronic-service-guide" className="text-blue-600 hover:underline">Electronic Service Guide</a></li>
-                    <li><a href="/serving-legal-papers-on-tribal-land" className="text-blue-600 hover:underline">Serving on Tribal Land</a></li>
-                    <li><a href="/ai-skip-tracing-guide-oklahoma" className="text-blue-600 hover:underline">Skip Tracing Guide</a></li>
+                    <li><Link href="/family-law-service-guide-tulsa" className="text-blue-600 hover:underline">Family Law Service Guide</Link></li>
+                    <li><Link href="/oklahoma-electronic-service-guide" className="text-blue-600 hover:underline">Electronic Service Guide</Link></li>
+                    <li><Link href="/serving-legal-papers-on-tribal-land" className="text-blue-600 hover:underline">Serving on Tribal Land</Link></li>
+                    <li><Link href="/ai-skip-tracing-guide-oklahoma" className="text-blue-600 hover:underline">Skip Tracing Guide</Link></li>
                   </ul>
                 </div>
 
                 <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm hover:shadow-md transition">
                   <h3 className="font-bold text-gray-900 mb-3">📍 Service Areas</h3>
                   <ul className="space-y-2 text-sm">
-                    <li><a href="/tulsa-process-server" className="text-blue-600 hover:underline">Tulsa Process Server</a></li>
-                    <li><a href="/service-areas/broken-arrow" className="text-blue-600 hover:underline">Broken Arrow Process Server</a></li>
-                    <li><a href="/service-areas/owasso" className="text-blue-600 hover:underline">Owasso Process Server</a></li>
-                    <li><a href="/counties/tulsa-county" className="text-blue-600 hover:underline">Tulsa County Process Server</a></li>
+                    <li><Link href="/tulsa-process-server" className="text-blue-600 hover:underline">Tulsa Process Server</Link></li>
+                    <li><Link href="/service-areas/broken-arrow" className="text-blue-600 hover:underline">Broken Arrow Process Server</Link></li>
+                    <li><Link href="/service-areas/owasso" className="text-blue-600 hover:underline">Owasso Process Server</Link></li>
+                    <li><Link href="/counties/tulsa-county" className="text-blue-600 hover:underline">Tulsa County Process Server</Link></li>
                   </ul>
                 </div>
               </div>
@@ -2933,9 +2930,9 @@ export default function WhatIsAProcessServerPage() {
                   <a href="tel:5393676832" className="bg-white text-blue-800 px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition">
                     📞 Call (539) 367-6832
                   </a>
-                  <a href="/contact" className="bg-blue-700 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-blue-600 transition border-2 border-white">
+                  <Link href="/contact" className="bg-blue-700 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-blue-600 transition border-2 border-white">
                     📝 Get Online Quote
-                  </a>
+                  </Link>
                 </div>
 
                 <div className="grid md:grid-cols-3 gap-4 text-sm">

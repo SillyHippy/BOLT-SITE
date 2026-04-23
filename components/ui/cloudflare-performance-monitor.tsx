@@ -1,7 +1,8 @@
 
-'use client';
-
+'use client';;
 import { useEffect, useState } from 'react';
+
+import Link from 'next/link';
 
 interface PerformanceMetrics {
   loadTime: number;
@@ -139,7 +140,6 @@ export default function CloudflarePerformanceMonitor() {
         <h3 className="font-semibold text-gray-800">⚡ CF Performance</h3>
         <div className={`w-3 h-3 rounded-full ${isOptimized ? 'bg-green-500' : 'bg-yellow-500'}`}></div>
       </div>
-      
       {metrics && (
         <div className="space-y-1 text-gray-600">
           <div>FCP: {Math.round(metrics.firstContentfulPaint)}ms</div>
@@ -150,10 +150,9 @@ export default function CloudflarePerformanceMonitor() {
           <div className="text-xs text-blue-600 mt-1">{metrics.buildOptimization}</div>
         </div>
       )}
-      
       <div className="mt-2 text-xs">
-        <a href="/pricing" className="text-blue-600 hover:underline">View Pricing</a> |{' '}
-        <a href="/pricing" className="text-blue-600 hover:underline">Services</a>
+        <Link href="/pricing" className="text-blue-600 hover:underline">View Pricing</Link> |{' '}
+        <Link href="/pricing" className="text-blue-600 hover:underline">Services</Link>
       </div>
     </div>
   );
