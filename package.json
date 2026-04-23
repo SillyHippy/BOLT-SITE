@@ -8,6 +8,7 @@
     "build": "next build",
     "typecheck": "tsc --noEmit -p tsconfig.json",
     "typecheck:drafts": "tsc --noEmit -p tsconfig.kimi-import.json",
+    "validate:county-geo": "node scripts/validate-county-geo.js",
     "audit:kimi": "node scripts/audit-pages-with-kimi.cjs",
     "export": "next export",
     "start": "next start",

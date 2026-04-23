@@ -13,6 +13,7 @@ import {
   slugToCountyName,
 } from '@/lib/markdown-utils';
 import { getCountyData } from '@/lib/county-data';
+import { getCountyGeoData } from '@/lib/county-geo';
 
 export function generateStaticParams(): { slug: string }[] {
   return getCountySlugs().map((slug) => ({ slug }));
@@ -69,6 +70,7 @@ export default async function CountyPage({ params }: { params: Promise<{ slug: s
     `Licensed process server throughout ${countyName}, Oklahoma. Same-day service available.`;
   const mdFaqs = extractFAQs(content);
   const countyDatum = getCountyData(slug);
+  const countyGeo = getCountyGeoData(slug);
   const generatedFaqs = countyDatum
     ? generateCountyFAQs(
         countyDatum.countyName,
@@ -134,6 +136,14 @@ export default async function CountyPage({ params }: { params: Promise<{ slug: s
           region: countyName,
           countySeat: countyDatum?.countySeat,
           courthouseAddress: countyDatum?.courthouseAddress,
+          ...(countyGeo
+            ? {
+                geo: {
+                  latitude: countyGeo.latitude,
+                  longitude: countyGeo.longitude,
+                },
+              }
+            : {}),
         }}
         keywords={[
           `process server ${countyName}`,
