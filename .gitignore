@@ -1,4 +1,3 @@
-```
 # Dependencies
 node_modules/
 
@@ -18,6 +17,14 @@ out/
 .idea/
 *.swp
 *.swo
+
+# AI assistant config/scratch dirs (may contain prompts or tokens)
+.bolt/
+.qwen/
+.cursor/
+.claude/
+.aider*
+.copilot/
 
 # Logs
 *.log
@@ -82,4 +89,3 @@ target/
 # Internal swarm drafts (C# DOCX generators kept locally for regeneration)
 _swarm_drafts/
 _kimi_import/
-```

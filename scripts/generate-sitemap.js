@@ -114,6 +114,11 @@ function generateSitemap() {
     '/competitor-analysis', // Redirects to /why-choose-us
     '/voice-search-marker', // Internal voice search marker
     '/registered-agent', // Excluded from sitemap per user request, not ready for live service list
+    // Invalid entries (should never appear in sitemap)
+    '/videos/*', // Literal wildcard - individual videos are in video-sitemap.xml
+    '/videos/', // Trailing-slash duplicate of /videos
+    '/sitemap-index', // Sitemap files should not list themselves
+    '/video-sitemap', // Sitemap files should not list themselves
     // 301 redirect pages (year-versioned stubs)
     '/oklahoma-process-server-pricing-2025', // Redirects to /oklahoma-process-server-pricing
     '/oklahoma-process-server-pricing-2026', // Redirects to /oklahoma-process-server-pricing
@@ -350,13 +355,6 @@ function generateSitemap() {
     '/oklahoma-courthouse-directory',
     '/join-our-network',
 
-    // Video pages — individual URLs are in video-sitemap.xml, exclude from main sitemap
-    '/videos/*', // Individual video pages covered by video-sitemap.xml
-    '/videos/', // Trailing slash variant
-
-    // Sitemap files (don't list sitemap files inside sitemap)
-    '/sitemap-index',
-    '/video-sitemap',
   ];
 
   // Get URLs from existing files
