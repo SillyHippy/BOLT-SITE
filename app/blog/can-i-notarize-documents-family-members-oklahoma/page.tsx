@@ -93,7 +93,13 @@ export default function BlogPost() {
     <div className="min-h-screen bg-white">
       <Navbar />
 
-      <UnifiedSchema type="article" data={articleSchema} faqs={faqs} />
+      <UnifiedSchema
+        pageType="article"
+        url="https://justlegalsolutions.org/blog/can-i-notarize-documents-family-members-oklahoma"
+        title="Can I Notarize Documents for Family Members in Oklahoma? What the Law Says"
+        description="Learn Oklahoma's rules on notarizing for family members. Understand conflict of interest laws, when it's allowed, best practices & alternatives."
+        faqs={faqs}
+      />
 
       {/* Hero */}
       <header className="bg-gradient-to-r from-[#1E2D78] to-[#4A3C7D] text-white py-16 px-4">
