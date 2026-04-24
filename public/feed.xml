@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Just Legal Solutions Feed</title>
   <link href="https://justlegalsolutions.org/feed.xml"/>
-  <updated>2026-04-21T15:30:51.731Z</updated>
+  <updated>2026-04-24T05:26:40.885Z</updated>
   <author>
     <name>Just Legal Solutions</name>
   </author>
@@ -10,13 +10,13 @@
   <entry>
     <title>Process Serving for Oklahoma Attorneys: What You Need to Know</title>
     <link href="https://justlegalsolutions.org/attorney-guide"/>
-    <updated>2026-04-21T15:30:51.724Z</updated>
+    <updated>2026-04-24T05:26:40.792Z</updated>
     <id>https://justlegalsolutions.org/attorney-guide</id>
   </entry>
   <entry>
     <title>The Complete Guide to Process Serving in Rural Oklahoma</title>
     <link href="https://justlegalsolutions.org/rural-oklahoma-guide"/>
-    <updated>2026-04-21T15:30:51.731Z</updated>
+    <updated>2026-04-24T05:26:40.885Z</updated>
     <id>https://justlegalsolutions.org/rural-oklahoma-guide</id>
   </entry>
 </feed>
