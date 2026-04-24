@@ -313,7 +313,7 @@ export default function BlogPost() {
             court proceedings.
           </p>
 
-          <LocalPromoBanner />
+          <LocalPromoBanner zips={[]} />
 
           <h2 className="text-2xl font-bold text-[#1E2D78] mt-12 mb-4">
             What the Oklahoma Secretary of State Recommends

@@ -564,7 +564,7 @@ export default function BlogPost() {
           <AuthorBox />
         </article>
       </main>
-      <LocalPromoBanner />
+      <LocalPromoBanner zips={[]} />
       <Footer />
       <UnifiedSchema
         pageType="blog"

@@ -301,7 +301,7 @@ export default function BlogPost() {
           <p className="font-semibold">Call <a href="tel:539-367-6832" className="text-blue-600">(539) 367-6832</a> or <Link href="/" className="text-blue-600">request service online</Link>. Single-attempt posting starts at our base rate.</p>
         </section>
       </main>
-      <LocalPromoBanner />
+      <LocalPromoBanner zips={[]} />
       <AuthorBox />
       <Footer />
       <UnifiedSchema
