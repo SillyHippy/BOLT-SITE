@@ -46,7 +46,7 @@ const faqs = [
   },
   {
     question: 'Can a process server serve me in front of my coworkers?',
-    answer: 'While a process server can technically serve you anywhere you're legally present, including in front of coworkers, professional process servers exercise discretion to minimize embarrassment. At Just Legal Solutions, our servers prefer to request a private moment with the recipient when serving at workplaces. We might ask reception to have you come to the lobby, approach you during a break, or catch you as you're entering or leaving the building. Professional servers understand that workplace service is sensitive and handle it with tact. However, if you refuse to step aside or the server cannot find a private moment, service may occur in a more visible area.',
+    answer: "While a process server can technically serve you anywhere you're legally present, including in front of coworkers, professional process servers exercise discretion to minimize embarrassment. At Just Legal Solutions, our servers prefer to request a private moment with the recipient when serving at workplaces. We might ask reception to have you come to the lobby, approach you during a break, or catch you as you're entering or leaving the building. Professional servers understand that workplace service is sensitive and handle it with tact. However, if you refuse to step aside or the server cannot find a private moment, service may occur in a more visible area.",
   },
   {
     question: 'Will my employer be notified about the service?',
