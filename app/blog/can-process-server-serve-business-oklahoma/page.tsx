@@ -567,7 +567,7 @@ export default function BlogPost() {
       <LocalPromoBanner zips={[]} />
       <Footer />
       <UnifiedSchema
-        pageType="blog"
+        pageType="article"
         pageUrl="https://justlegalsolutions.org/blog/can-process-server-serve-business-oklahoma"
         title="Can a Process Server Serve a Business Instead of an Individual in Oklahoma?"
         description="Learn how process servers serve businesses in Oklahoma. Discover registered agent rules, corporate service requirements, and how to serve LLCs, corporations, and partnerships."

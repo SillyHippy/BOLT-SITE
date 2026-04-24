@@ -241,7 +241,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     image = 'https://justlegalsolutions.org/images/jls-logo.webp',
     datePublished,
     dateModified,
-    faqItems = [],
+    faqItems = props.faqItems && props.faqItems.length > 0 ? props.faqItems : (props.faqs || []),
     howToSteps = [],
     author = {
       name: 'Joseph Iannazzi',

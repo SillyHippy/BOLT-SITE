@@ -43,6 +43,7 @@
     "out",
     "dist",
     "functions",
+    "content/blog-queue",
     "_kimi_import",
     "scripts/codemods"
   ]
