@@ -57,15 +57,15 @@ export function Navbar() {
       aria-label="Main navigation"
     >
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-14">
           {/* Logo */}
           <Link href="/" className="flex items-center rounded-lg px-1 py-1 transition hover:bg-white/70">
             <Image 
               src="/favicon1.svg" 
               alt="Just Legal Solutions \u2014 Oklahoma process server and notary" 
-              width={60} 
-              height={60}
-              className="object-contain"
+              width={48}
+              height={48}
+              className="h-12 w-12 object-contain"
               priority
             />
           </Link>

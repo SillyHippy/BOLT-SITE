@@ -65,7 +65,7 @@ export default function MilitaryBaseServiceGuidePage() {
         keywords={['military base process serving', 'Fort Sill process server', 'Tinker AFB service of process', 'SCRA process serving']}
       />
       <Navbar />
-      <main className="pt-20 pb-16">
+      <main className="pt-14 pb-16">
         <div className="max-w-4xl mx-auto px-4">
           <nav
             className="flex items-center space-x-2 text-sm text-gray-500 mb-8"

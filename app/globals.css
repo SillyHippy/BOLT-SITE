@@ -101,11 +101,11 @@
 
   @media (min-width: 768px) {
     .ui-glass-nav {
-      @apply border-white/70 bg-white/80 backdrop-blur-md;
+      @apply border-slate-200 bg-white;
     }
 
     .ui-glass-nav-scrolled {
-      @apply bg-white/90;
+      @apply bg-white;
     }
   }
 

@@ -94,7 +94,7 @@ export default function LegalPostingProcessServer() {
 
   return (
     <>
-      <div className="min-h-screen bg-gray-50 pt-16">
+      <div className="min-h-screen bg-gray-50">
         <div className="bg-indigo-900 text-white">
           <div className="container mx-auto px-4 py-20 pt-12 text-center">
             <h1 className="text-4xl md:text-5xl font-extrabold">Legal Notice Posting Service</h1>

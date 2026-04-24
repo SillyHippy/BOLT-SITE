@@ -645,7 +645,7 @@ export default function WhatIsAProcessServerPage() {
         mobileOptimized={true}
       />
       <Navbar />
-      <main className="min-h-screen bg-white text-gray-900 font-sans pt-16">
+      <main className="min-h-screen bg-white text-gray-900 font-sans pt-14">
         <div className="max-w-6xl mx-auto px-4 py-8">
           <VisualBreadcrumbs items={breadcrumbItems} />
 

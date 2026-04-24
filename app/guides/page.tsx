@@ -82,7 +82,7 @@ export default function GuidesIndexPage() {
         keywords={['process serving guides Oklahoma', 'attorney guide process server', 'Oklahoma legal guides']}
       />
       <Navbar />
-      <main className="pt-20 pb-16">
+      <main className="pt-14 pb-16">
         {/* Hero */}
         <section className="bg-gradient-to-br from-blue-600 to-blue-800 text-white py-16">
           <div className="max-w-5xl mx-auto px-4 text-center">
