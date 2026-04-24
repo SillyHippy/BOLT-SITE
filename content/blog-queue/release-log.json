@@ -1,0 +1,56 @@
+{
+  "releases": [
+    {
+      "slug": "can-i-notarize-documents-family-members-oklahoma",
+      "title": "Can I Notarize Documents Family Members Oklahoma",
+      "category": "Notary Services",
+      "releasedAt": "2026-04-24T05:00:48.850Z",
+      "quality": {
+        "words": 2299,
+        "headings": 19,
+        "paragraphs": 30
+      }
+    },
+    {
+      "slug": "can-process-server-serve-business-oklahoma",
+      "title": "Can Process Server Serve Business Oklahoma",
+      "category": "Process Serving",
+      "releasedAt": "2026-04-24T05:04:35.212Z",
+      "quality": {
+        "words": 2625,
+        "headings": 29,
+        "paragraphs": 34
+      }
+    },
+    {
+      "slug": "can-notary-notarize-electronic-documents-oklahoma",
+      "title": "Can Notary Notarize Electronic Documents Oklahoma",
+      "category": "Notary Services",
+      "releasedAt": "2026-04-24T05:13:38.314Z",
+      "quality": {
+        "words": 3419,
+        "headings": 26,
+        "paragraphs": 46
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      }
+    },
+    {
+      "slug": "can-process-server-serve-documents-at-work-oklahoma",
+      "title": "Can Process Server Serve Documents At Work Oklahoma",
+      "category": "Process Serving",
+      "releasedAt": "2026-04-24T05:16:02.585Z",
+      "quality": {
+        "words": 3407,
+        "headings": 33,
+        "paragraphs": 44
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 1
+      }
+    }
+  ]
+}

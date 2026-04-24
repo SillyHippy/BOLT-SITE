@@ -305,17 +305,6 @@ export default function Home() {
       </section>
       {/* Customer Reviews Section */}
       <ReviewWidget />
-      <section className="bg-white pb-10 px-4">
-        <div className="max-w-4xl mx-auto text-center">
-          <p className="text-sm text-gray-600">
-            Need Google-specific proof?{' '}
-            <Link href="/reviews/google" className="text-blue-700 font-semibold hover:underline">
-              View our Google-only review page
-            </Link>
-            .
-          </p>
-        </div>
-      </section>
       {/* Popular Service Areas - crawlable internal links for local SEO */}
       <section className="bg-slate-50 py-10 px-4 border-y border-slate-200" aria-label="Popular service areas">
         <div className="max-w-7xl mx-auto">

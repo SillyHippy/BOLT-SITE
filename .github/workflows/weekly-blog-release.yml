@@ -1,0 +1,43 @@
+name: Weekly Blog Release
+
+on:
+  schedule:
+    - cron: '0 15 * * 2'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release-post:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Release one queued post
+        run: npm run blog:release-weekly
+
+      - name: Regenerate sitemaps
+        run: node scripts/generate-sitemap.js && node scripts/generate-video-sitemap.js && node scripts/generate-ai-sitemap.js
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add app/blog content/blog-queue public/blog/images public/sitemap.xml public/video-sitemap.xml public/ai-sitemap.xml
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "chore(blog): publish weekly queued post"
+          git push

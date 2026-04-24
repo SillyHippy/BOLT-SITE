@@ -1,6 +1,8 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { ChevronRight, BookOpen, Scale, Briefcase, HelpCircle, Calendar, GitCompare, ArrowRight, Star, Shield, Clock, FileSignature, DollarSign } from 'lucide-react';
+import fs from 'fs';
+import path from 'path';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
@@ -168,8 +170,38 @@ const categoryNameToSlug: Record<string, string> = {
   'Pricing & Cost Guides': 'pricing-and-cost-guides',
 };
 
+type ReleasedPost = {
+  slug: string;
+  title: string;
+  category: string;
+  releasedAt: string;
+  quality?: {
+    words?: number;
+  };
+};
+
+function getLatestReleasedPosts(limit = 6): ReleasedPost[] {
+  try {
+    const releaseLogPath = path.join(process.cwd(), 'content', 'blog-queue', 'release-log.json');
+    if (!fs.existsSync(releaseLogPath)) {
+      return [];
+    }
+
+    const parsed = JSON.parse(fs.readFileSync(releaseLogPath, 'utf8')) as { releases?: ReleasedPost[] };
+    const releases = parsed.releases || [];
+
+    return releases
+      .slice()
+      .sort((a, b) => new Date(b.releasedAt).getTime() - new Date(a.releasedAt).getTime())
+      .slice(0, limit);
+  } catch {
+    return [];
+  }
+}
+
 export default function BlogIndex() {
   const totalArticles = categories.reduce((total, cat) => total + cat.posts.length, 0);
+  const latestReleasedPosts = getLatestReleasedPosts();
 
   return (
     <>
@@ -228,6 +260,52 @@ export default function BlogIndex() {
       {/* Category Sections */}
       <div className="bg-gradient-to-b from-slate-50 to-white min-h-screen">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20">
+
+          {latestReleasedPosts.length > 0 && (
+            <section className="mb-20">
+              <div className="flex items-center justify-between gap-4 mb-3 flex-wrap">
+                <div>
+                  <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
+                    Newly Released Articles
+                  </h2>
+                  <p className="text-gray-500 mt-0.5">
+                    Automatically published from the weekly content pipeline.
+                  </p>
+                </div>
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-6">
+                {latestReleasedPosts.map((post) => (
+                  <Link
+                    key={post.slug}
+                    href={`/blog/${post.slug}`}
+                    className="group block bg-white rounded-xl p-6 border border-slate-200 hover:border-blue-400 hover:shadow-[0_0_20px_rgba(59,130,246,0.15)] transition-all duration-300 hover:-translate-y-0.5"
+                  >
+                    <div className="flex items-start justify-between gap-4">
+                      <div className="flex-1 min-w-0">
+                        <span className="inline-block text-xs font-semibold px-2.5 py-1 rounded-full mb-3 bg-blue-100 text-blue-700">
+                          {post.category}
+                        </span>
+                        <h3 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors leading-snug">
+                          {post.title}
+                        </h3>
+                        <p className="text-gray-500 text-sm leading-relaxed">
+                          Freshly published from your weekly automated queue.
+                        </p>
+                        <div className="flex items-center gap-3 mt-4">
+                          <Clock className="w-3.5 h-3.5 text-gray-400" />
+                          <span className="text-xs text-gray-400">
+                            {new Date(post.releasedAt).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
+                            {typeof post.quality?.words === 'number' ? ` • ${post.quality.words.toLocaleString()} words` : ''}
+                          </span>
+                        </div>
+                      </div>
+                      <ArrowRight className="w-5 h-5 text-gray-300 group-hover:text-blue-500 group-hover:translate-x-1 transition-all duration-300 mt-8 flex-shrink-0" />
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </section>
+          )}
 
           {categories.map((category, catIndex) => {
             const IconComponent = iconMap[category.icon];
