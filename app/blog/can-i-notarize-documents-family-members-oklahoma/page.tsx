@@ -135,9 +135,7 @@ export default function BlogPost() {
       <main className="max-w-4xl mx-auto px-4 py-12">
         <AuthorBox
           name="Just Legal Solutions"
-          title="Oklahoma Licensed Notary & Process Server"
-          date="April 10, 2025"
-          readTime="9 min read"
+          role="Oklahoma Licensed Notary & Process Server"
         />
 
         <article className="prose prose-lg max-w-none">
