@@ -8,9 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'How to Become a Licensed Process Server in Oklahoma',
-  description:
-    'Career guide to becoming a licensed process server in Oklahoma. Covers requirements, licensing steps, costs, and income expectations.',
+  title: "How to Become a Licensed Process Server in Oklahoma",
+  description: "Career guide to becoming a licensed process server in Oklahoma. Covers requirements, licensing steps, costs, and income expectations. Serving all 77 Oklahoma co",
   keywords:
     'how to become a process server Oklahoma, Oklahoma process server license, process server career, Oklahoma process server requirements, process server training Oklahoma, process server bond Oklahoma, process server income Oklahoma',
   authors: [{ name: 'Just Legal Solutions' }],
@@ -30,7 +29,7 @@ export const metadata: Metadata = {
         url: 'https://justlegalsolutions.org/images/jls-logo.webp',
         width: 1200,
         height: 630,
-        alt: 'Guide to becoming a licensed process server in Oklahoma',
+        alt: 'How to Become a Licensed Process Server in Oklahoma',
       },
     ],
   },
@@ -42,10 +41,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary':
-      'Career guide to becoming a licensed Oklahoma process server covering requirements, licensing steps, surety bond, fees, and business building strategies.',
-    'ai-key-facts':
-      'Must be 18+ and Oklahoma resident for 6+ months; $5,000 surety bond required; state licensing fee is $35-$150; background check mandatory; statewide license available; renewal required periodically',
+    'ai-summary': 'Career guide to becoming a licensed process server in Oklahoma. Covers requirements, licensing steps, costs, and income expectations. Serving all 77 Oklahoma co Includes Oklahoma service-of-process compliance context and practical filing guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
+  
   },
 };
 
@@ -109,6 +108,7 @@ export default function BlogPost() {
           you through the requirements, licensing steps, costs, and strategies
           for building a thriving process serving business in Oklahoma.
         </p>
+        <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every recommendation with 12 O.S. 2004 and Title 49 O.S. where applicable.</p>
 
         {/* Section 1: Requirements */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
@@ -656,6 +656,16 @@ export default function BlogPost() {
                 Oklahoma Process Server Laws
               </Link>
             </li>
+          </ul>
+        </section>
+
+        
+        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related Oklahoma Resources</h2>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li><Link href="/blog/how-to-hire-a-process-server-oklahoma" className="text-blue-600 hover:underline">How to Hire a Process Server in Oklahoma</Link></li>
+            <li><Link href="/blog/how-to-serve-a-subpoena-oklahoma" className="text-blue-600 hover:underline">How to Serve a Subpoena in Oklahoma</Link></li>
+            <li><Link href="/blog/serve-out-of-state-defendant-oklahoma" className="text-blue-600 hover:underline">Serving Out-of-State Defendants in Oklahoma Cases</Link></li>
           </ul>
         </section>
 

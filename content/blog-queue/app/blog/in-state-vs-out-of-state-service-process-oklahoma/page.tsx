@@ -8,8 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'In-State vs Out-of-State Service of Process: Oklahoma Attorney Guide',
-  description: 'Oklahoma attorney\'s guide to out-of-state service of process. Covers interstate methods, UIDDA, and finding reliable process servers in other states.',
+  title: "In-State vs Out-of-State Service of Process: Oklahoma Att...",
+  description: "Oklahoma attorney\ Serving all 77 Oklahoma counties with licensed, bonded legal support. Serving all 77 Oklahoma counties with licensed, bonded legal support."s guide to out-of-state service of process. Covers interstate methods, UIDDA, and finding reliable process servers in other states.',
   keywords: 'out of state service of process, serve papers out of state, interstate process service, UIDDA Oklahoma, out of state defendant Oklahoma, interstate process server, uniform interstate depositions and discovery act',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'In-state versus out-of-state service of process guide for Oklahoma attorneys' }],
+    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'In-State vs Out-of-State Service of Process: Oklahoma Att...' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/in-state-vs-out-of-state-service-process-oklahoma' },
   other: {
@@ -30,8 +30,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Guide for Oklahoma attorneys on out-of-state service of process covering interstate methods, UIDDA, finding reliable servers, and timeline expectations.',
-    'ai-key-facts': 'Out-of-state service requires specific procedures; UIDDA simplifies interstate discovery; hiring local servers in target state is often best; communication challenges exist across state lines; timelines are typically longer than in-state service',
+    'ai-summary': 'Oklahoma attorney Serving all 77 Oklahoma counties with licensed, bonded legal support. Serving all 77 Oklahoma counties with licensed, bonded legal support. Includes Oklahoma notary compliance context and practical document guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
+  
   },
 };
 
@@ -40,7 +42,7 @@ const faqs = [
   { question: 'What is UIDDA and how does it affect interstate service?', answer: 'The Uniform Interstate Depositions and Discovery Act (UIDDA) is a framework adopted by most U.S. states, including Oklahoma, that simplifies the process of obtaining depositions and discovery across state lines. Under UIDDA, an Oklahoma attorney can issue a subpoena in their home state and have it domesticated in the target state without needing to file a separate action or hire local counsel. While UIDDA primarily addresses discovery, it reflects a broader legislative trend toward streamlining interstate legal procedures.' },
   { question: 'How long does out-of-state service of process take?', answer: 'Out-of-state service typically takes longer than in-state service due to the additional coordination required, distance, and the need to work with process servers in different time zones. In general, you should expect out-of-state service to take anywhere from 5 to 14 business days under standard conditions, and potentially longer if the recipient is evasive or located in a rural area. Rush and same-day service may be available in the target state depending on local server availability.' },
   { question: 'Can I hire Just Legal Solutions to serve papers outside Oklahoma?', answer: 'Just Legal Solutions is licensed and bonded to serve documents throughout all 77 Oklahoma counties. For out-of-state service, we coordinate with our network of vetted process servers across the country. We handle the logistics, communication, and affidavit compliance on your behalf, so you deal with a single point of contact while your papers are being served in the target state. Contact us at (539) 367-6832 to discuss your interstate service needs.' },
-  { question: 'What are common mistakes in out-of-state service?', answer: 'The most common mistakes include failing to follow the target state\'s specific service rules, using an unlicensed process server in states that require licensing, not allowing enough time for interstate service, and submitting affidavits that do not meet the target state\'s notarization or formatting requirements. Another frequent error is assuming that Oklahoma service rules apply everywhere, which can lead to service being challenged and invalidated.' },
+  { question: 'What are common mistakes in out-of-state service?', answer: 'The most common mistakes include failing to follow the target state\ This guidance helps avoid delays, improves compliance, and supports stronger court-ready documentation in Oklahoma matters.'s specific service rules, using an unlicensed process server in states that require licensing, not allowing enough time for interstate service, and submitting affidavits that do not meet the target state\'s notarization or formatting requirements. Another frequent error is assuming that Oklahoma service rules apply everywhere, which can lead to service being challenged and invalidated.' },
   { question: 'Is it better to hire a local process server in the target state or coordinate through my Oklahoma server?', answer: 'In most cases, coordinating through your trusted Oklahoma process server who maintains a national network is the most efficient approach. You maintain your existing relationship, deal with a single point of contact, and benefit from your Oklahoma server\'s accountability and familiarity with your firm\'s preferences. However, if you have an established relationship with a process server in the target state, that can also be an effective path. The key is ensuring the server is licensed, experienced, and knowledgeable about local rules.' },
 ];
 
@@ -54,6 +56,7 @@ export default function BlogPost() {
         </nav>
         <h1 className="text-3xl md:text-4xl font-bold mb-6">In-State vs Out-of-State Service of Process: Oklahoma Attorney Guide</h1>
         <p className="text-gray-600 mb-8 text-lg">When a defendant resides outside Oklahoma, service of process becomes significantly more complex. Oklahoma attorneys must navigate interstate procedures, varying state laws, and communication barriers that do not exist with in-state service. With over 50 years of combined experience and a nationwide network of vetted process servers, the <strong>Just Legal Solutions Team</strong> helps law firms across Oklahoma serve defendants in any U.S. state efficiently and in full compliance with applicable law. This guide covers everything you need to know about out-of-state service.</p>
+        <p className="mb-6 text-gray-700">At Just Legal Solutions, we pair 50+ years of combined experience with licensed, bonded operations under Oklahoma Title 12 O.S. 158.1. Our team has served thousands of documents in all 77 Oklahoma counties, with procedure guidance grounded in 12 O.S. 2004 and Title 49 O.S.</p>
 
         {/* Section 1: Oklahoma Rules for Out-of-State Service */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
@@ -168,6 +171,16 @@ export default function BlogPost() {
             <li><Link href="/blog/process-serving-all-77-oklahoma-counties" className="text-blue-600 hover:underline">Process Serving Across All 77 Oklahoma Counties</Link></li>
             <li><Link href="/blog/how-to-serve-legal-papers-oklahoma-step-by-step" className="text-blue-600 hover:underline">How to Serve Legal Papers in Oklahoma: Step-by-Step Guide</Link></li>
             <li><Link href="/blog/oklahoma-180-day-rule-service-process" className="text-blue-600 hover:underline">Understanding Oklahoma's 180-Day Rule for Service of Process</Link></li>
+          </ul>
+        </section>
+
+        
+        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related Oklahoma Resources</h2>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li><Link href="/blog/mobile-notary-tulsa-guide" className="text-blue-600 hover:underline">Mobile Notary Guide for Tulsa and Oklahoma</Link></li>
+            <li><Link href="/blog/ron-vs-mobile-notary-oklahoma" className="text-blue-600 hover:underline">RON vs Mobile Notary in Oklahoma</Link></li>
+            <li><Link href="/blog/how-to-apostille-document-oklahoma" className="text-blue-600 hover:underline">How to Apostille a Document in Oklahoma</Link></li>
           </ul>
         </section>
 

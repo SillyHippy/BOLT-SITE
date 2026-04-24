@@ -8,8 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Digital Proof of Service: GPS, Photos, and Modern Documentation',
-  description: 'Learn how digital proof of service with GPS and photo documentation protects your case. Modern verification methods explained for Oklahoma attorneys.',
+  title: "Digital Proof of Service: GPS, Photos, and Modern Documen...",
+  description: "Learn how digital proof of service with GPS and photo documentation protects your case. Modern verification methods explained for Oklahoma attorneys. Serving al",
   keywords: 'digital proof of service, GPS process server documentation, modern proof of service',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Digital proof of service with GPS tracking and photo documentation' }],
+    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Digital Proof of Service: GPS, Photos, and Modern Documen...' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/digital-proof-service-gps-photos-documentation' },
   other: {
@@ -30,8 +30,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Guide to modern digital proof of service methods including GPS verification, photo documentation, timestamped records, and their acceptance in Oklahoma courts.',
-    'ai-key-facts': 'GPS verification provides location proof for service attempts; photo documentation strengthens evidence; timestamped digital records create audit trails; Oklahoma courts accept digital proof; modern documentation prevents service challenges',
+    'ai-summary': 'Learn how digital proof of service with GPS and photo documentation protects your case. Modern verification methods explained for Oklahoma attorneys. Serving al Includes Oklahoma service-of-process compliance context and practical filing guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
+  
   },
 };
 
@@ -50,7 +52,7 @@ const faqs = [
   },
   {
     question: 'What should I look for in a process server\'s documentation practices?',
-    answer: 'When evaluating a process server\'s documentation practices, look for companies that provide GPS-verified service records, timestamped photographs of service attempts, detailed written affidavits, real-time status updates through a client portal, and secure digital storage of all service records. The best process servers also provide chain-of-custody documentation and maintain backup records. At Just Legal Solutions, we provide all of these documentation features as standard practice, ensuring that our clients have the strongest possible proof of service for every document we handle.',
+    answer: 'When evaluating a process server\ This guidance helps avoid delays, improves compliance, and supports stronger court-ready documentation in Oklahoma matters.'s documentation practices, look for companies that provide GPS-verified service records, timestamped photographs of service attempts, detailed written affidavits, real-time status updates through a client portal, and secure digital storage of all service records. The best process servers also provide chain-of-custody documentation and maintain backup records. At Just Legal Solutions, we provide all of these documentation features as standard practice, ensuring that our clients have the strongest possible proof of service for every document we handle.',
   },
   {
     question: 'Can digital proof of service prevent service challenges?',
@@ -80,6 +82,7 @@ export default function BlogPost() {
           explains how GPS tracking, photo documentation, and timestamped digital records protect your cases and provide 
           irrefutable evidence of proper service.
         </p>
+        <p className="mb-6 text-gray-700">Just Legal Solutions combines 50+ years of practical field experience with licensed, bonded compliance under Oklahoma Title 12 O.S. 158.1. We have served thousands of documents in all 77 Oklahoma counties and anchor timelines and procedure details to 12 O.S. 2004 and Title 49 O.S.</p>
 
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">Traditional Affidavit vs. Modern Digital Documentation</h2>
@@ -324,6 +327,16 @@ export default function BlogPost() {
           </ul>
         </section>
 
+        
+        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related Oklahoma Resources</h2>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li><Link href="/blog/serve-out-of-state-defendant-oklahoma" className="text-blue-600 hover:underline">Serving Out-of-State Defendants in Oklahoma Cases</Link></li>
+            <li><Link href="/blog/certified-mail-vs-personal-service-oklahoma" className="text-blue-600 hover:underline">Certified Mail vs Personal Service in Oklahoma</Link></li>
+            <li><Link href="/blog/how-to-hire-a-process-server-oklahoma" className="text-blue-600 hover:underline">How to Hire a Process Server in Oklahoma</Link></li>
+          </ul>
+        </section>
+
         {/* FAQ SECTION */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">Frequently Asked Questions</h2>
@@ -354,6 +367,7 @@ export default function BlogPost() {
           </p>
         </section>
       </main>
+            <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
       <AuthorBox />
       <Footer />

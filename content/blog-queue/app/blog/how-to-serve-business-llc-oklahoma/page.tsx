@@ -8,16 +8,14 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'How to Serve a Business or LLC in Oklahoma: Corporate Guide',
-  description:
-    'Learn how to serve a corporation or LLC in Oklahoma. Covers registered agents, Secretary of State service, and proof requirements.',
+  title: "How to Serve a Business or LLC in Oklahoma: Corporate Guide",
+  description: "Learn how to serve a corporation or LLC in Oklahoma. Covers registered agents, Secretary of State service, and proof requirements. Serving all 77 Oklahoma count",
   keywords:
     'serve a corporation Oklahoma, how to serve a business, LLC service of process Oklahoma, registered agent service',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
   publisher: 'Just Legal Solutions',
-  robots:
-    'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
+  robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'How to Serve a Business or LLC in Oklahoma: Corporate Guide',
     description:
@@ -31,7 +29,7 @@ export const metadata: Metadata = {
         url: 'https://justlegalsolutions.org/images/jls-logo.webp',
         width: 1200,
         height: 630,
-        alt: 'Serving a business or LLC in Oklahoma',
+        alt: 'How to Serve a Business or LLC in Oklahoma: Corporate Guide',
       },
     ],
   },
@@ -44,10 +42,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary':
-      'Guide to serving corporations and LLCs in Oklahoma including finding registered agents, Secretary of State service, and proof requirements.',
-    'ai-key-facts':
-      'Serve the registered agent listed with OK Secretary of State; Secretary of State can accept service if agent unavailable; out-of-state corporations must maintain Oklahoma registered agent; corporate service requires specific proof documentation',
+    'ai-summary': 'Learn how to serve a corporation or LLC in Oklahoma. Covers registered agents, Secretary of State service, and proof requirements. Serving all 77 Oklahoma count Includes Oklahoma service-of-process compliance context and practical filing guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
+  
   },
 };
 
@@ -61,8 +59,7 @@ const faqs = [
   {
     question:
       'How do I find a business\'s registered agent in Oklahoma?',
-    answer:
-      'You can search the Oklahoma Secretary of State\'s business entity database online at sos.ok.gov. Enter the business name to retrieve the registered agent\'s name and address. This information is public record and is the first place our process servers check when preparing to serve a business entity. Keeping a copy of this search result also helps document your due diligence if alternative service becomes necessary.',
+    answer: 'You can search the Oklahoma Secretary of State\ This guidance helps avoid delays, improves compliance, and supports stronger court-ready documentation in Oklahoma matters.'s business entity database online at sos.ok.gov. Enter the business name to retrieve the registered agent\'s name and address. This information is public record and is the first place our process servers check when preparing to serve a business entity. Keeping a copy of this search result also helps document your due diligence if alternative service becomes necessary.',
   },
   {
     question:
@@ -121,6 +118,7 @@ export default function BlogPost() {
           we break down exactly how to serve a business in Oklahoma, from
           finding the registered agent to filing your proof of service.
         </p>
+        <p className="mb-6 text-gray-700">With 50+ years of combined experience, Just Legal Solutions is licensed and bonded under Oklahoma Title 12 O.S. 158.1 and has completed thousands of successful services across all 77 Oklahoma counties. Our guidance reflects Oklahoma statutes including 12 O.S. 2004 and relevant Title 49 O.S. requirements.</p>
 
         {/* Section 1 */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
@@ -505,6 +503,16 @@ export default function BlogPost() {
           </ul>
         </section>
 
+        
+        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related Oklahoma Resources</h2>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li><Link href="/blog/how-to-serve-a-subpoena-oklahoma" className="text-blue-600 hover:underline">How to Serve a Subpoena in Oklahoma</Link></li>
+            <li><Link href="/blog/serve-out-of-state-defendant-oklahoma" className="text-blue-600 hover:underline">Serving Out-of-State Defendants in Oklahoma Cases</Link></li>
+            <li><Link href="/blog/certified-mail-vs-personal-service-oklahoma" className="text-blue-600 hover:underline">Certified Mail vs Personal Service in Oklahoma</Link></li>
+          </ul>
+        </section>
+
         {/* FAQ SECTION */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">
@@ -551,6 +559,7 @@ export default function BlogPost() {
           </p>
         </section>
       </main>
+            <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
       <AuthorBox />
       <Footer />

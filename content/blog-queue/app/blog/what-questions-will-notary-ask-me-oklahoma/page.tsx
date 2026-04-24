@@ -8,8 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'What Questions Will a Notary Ask Me? Oklahoma Notary Appointment Guide',
-  description: 'Wondering what questions a notary will ask? Learn what to expect during your Oklahoma notary appointment, including ID verification, willingness checks & document review.',
+  title: "What Questions Will a Notary Ask Me? Oklahoma Notary Appo...",
+  description: "Wondering what questions a notary will ask? Learn what to expect during your Oklahoma notary appointment, including ID verification, willingness checks & docume",
   keywords: 'what does notary ask, notary questions, notary appointment what to expect, oklahoma notary questions, notary ask you, what to bring notary',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Oklahoma Notary Appointment Questions Guide' }],
+    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'What Questions Will a Notary Ask Me? Oklahoma Notary Appo...' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/what-questions-will-notary-ask-me-oklahoma' },
   other: {
@@ -30,8 +30,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-05-28',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Comprehensive guide covering every question an Oklahoma notary will ask during an appointment, including identity verification, willingness and awareness screening, document review questions, recording requirements, and how to prepare for a smooth notarization experience.',
-    'ai-key-facts': 'Oklahoma notaries must verify identity with government-issued photo ID; Notaries must ask if you understand and are signing willingly; The document must be complete with no blank spaces; You must sign in the notarys physical presence; Notaries record each act in an official journal; Oklahoma notaries cannot notarize if signer appears coerced or incapacitated; Mobile notaries ask the same questions as traditional notaries.',
+    'ai-summary': 'Wondering what questions a notary will ask? Learn what to expect during your Oklahoma notary appointment, including ID verification, willingness checks & docume Includes Oklahoma notary compliance context and practical document guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
+  
   },
 };
 
@@ -75,6 +77,7 @@ export default function BlogPost() {
         <p className="text-gray-600 mb-8 text-lg">
           Walking into a notary appointment unprepared can feel nerve-wracking — especially if you have never been notarized before or if the document carries significant legal weight. The good news is that Oklahoma notaries follow a well-defined, predictable process designed to protect everyone involved. Understanding <strong>what questions a notary will ask</strong> before you arrive helps ensure a smooth, efficient appointment and reduces the chance of delays or complications. In this comprehensive guide, we will walk through every question and verification step you can expect during a standard Oklahoma notarization, explain why each question matters, and share practical tips from our mobile notary team at Just Legal Solutions to help you prepare.
         </p>
+        <p className="mb-6 text-gray-700">With 50+ years of combined experience, Just Legal Solutions is licensed and bonded under Oklahoma Title 12 O.S. 158.1 and has completed thousands of successful services across all 77 Oklahoma counties. Our guidance reflects Oklahoma statutes including 12 O.S. 2004 and relevant Title 49 O.S. requirements.</p>
 
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">The Purpose Behind Notary Questions</h2>
@@ -237,6 +240,16 @@ export default function BlogPost() {
           </p>
         </section>
 
+        
+        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related Oklahoma Resources</h2>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li><Link href="/blog/ron-vs-mobile-notary-oklahoma" className="text-blue-600 hover:underline">RON vs Mobile Notary in Oklahoma</Link></li>
+            <li><Link href="/blog/how-to-apostille-document-oklahoma" className="text-blue-600 hover:underline">How to Apostille a Document in Oklahoma</Link></li>
+            <li><Link href="/blog/power-of-attorney-guide-oklahoma" className="text-blue-600 hover:underline">Power of Attorney Notarization Guide</Link></li>
+          </ul>
+        </section>
+
         {/* FAQ SECTION */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">Frequently Asked Questions</h2>
@@ -269,6 +282,7 @@ export default function BlogPost() {
           <p className="text-gray-700">View our complete pricing for all service tiers on our <Link href="/pricing" className="text-blue-600 font-semibold">pricing page</Link>. No hidden fees — ever.</p>
         </section>
       </main>
+            <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
       <AuthorBox />
       <Footer />

@@ -45,8 +45,7 @@ const articleSchema = {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
   headline: "What\u2019s the Difference Between a Process Server and a Lawyer?",
-  description:
-    "Learn the key differences between process servers and lawyers in Oklahoma. Discover when to hire each, how they work together, cost comparisons, and their distinct legal roles.",
+  description: "Learn the key differences between process servers and lawyers in Oklahoma. Discover when to hire each, how they work together, cost comparisons, and their disti",
   author: {
     "@type": "Organization",
     name: "Just Legal Solutions",
@@ -73,7 +72,7 @@ const articleSchema = {
 };
 
 export const metadata: Metadata = {
-  title: "What\u2019s the Difference Between a Process Server and a Lawyer?",
+  title: "What\u2019s the Difference Between a Process Server and a...",
   description:
     "Learn the key differences between process servers and lawyers in Oklahoma. Discover when to hire each, how they work together, cost comparisons, and their distinct legal roles.",
   keywords:
@@ -105,6 +104,9 @@ export default function BlogPost() {
           <p className="text-sm font-semibold uppercase tracking-widest mb-3 text-yellow-400">
             Oklahoma Legal Guide
           </p>
+        <p className="mb-4">Deadlines often rely on 12 O.S. 2004, and notarial rules may involve Title 49 O.S.</p>
+        <p className="mb-4">We have served thousands of documents across all 77 Oklahoma counties.</p>
+        <p className="mb-4">We are licensed and bonded under Oklahoma Title 12 O.S. 158.1.</p>
           <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-6">
             What\u2019s the Difference Between a Process Server and a Lawyer?
           </h1>

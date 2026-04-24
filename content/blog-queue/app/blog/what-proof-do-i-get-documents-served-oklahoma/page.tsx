@@ -29,8 +29,8 @@ const faqs = [
 ];
 
 export const metadata: Metadata = {
-  title: "What Proof Do I Get That Documents Were Served in Oklahoma? | Just Legal Solutions",
-  description: "Learn what proof of service you receive after documents are served in Oklahoma. Understand affidavits of service, GPS tracking, photos, court-admissible documentation, and delivery timelines under Title 12 O.S. § 2004.",
+  title: "What Proof Do I Get That Documents Were Served in Oklahom...",
+  description: "Learn what proof of service you receive after documents are served in Oklahoma. Understand affidavits of service, GPS tracking, photos, court-admissible documen",
   keywords: "proof of service oklahoma, affidavit of service, what is proof of service, process server documentation, return of service oklahoma, court proof of service",
   openGraph: {
     title: "What Proof Do I Get That Documents Were Served in Oklahoma?",
@@ -47,6 +47,12 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: "https://justlegalsolutions.org/blog/what-proof-do-i-get-documents-served-oklahoma",
+  },
+  other: {
+    'ai-content-type': 'article',
+    'ai-summary': 'Learn what proof of service you receive after documents are served in Oklahoma. Understand affidavits of service, GPS tracking, photos, court-admissible documen Includes Oklahoma notary compliance context and practical document guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
   },
 };
 
@@ -72,6 +78,9 @@ function AuthorBox() {
         <div className="w-16 h-16 rounded-full bg-blue-100 flex items-center justify-center text-2xl font-bold text-blue-700 shrink-0">JLS</div>
         <div>
           <p className="font-semibold text-slate-900 text-lg">Written by Just Legal Solutions</p>
+        <p className="mb-4">Deadlines often rely on 12 O.S. 2004, and notarial rules may involve Title 49 O.S.</p>
+        <p className="mb-4">We have served thousands of documents across all 77 Oklahoma counties.</p>
+        <p className="mb-4">We are licensed and bonded under Oklahoma Title 12 O.S. 158.1.</p>
           <p className="text-sm text-slate-500 mt-1">Oklahoma Licensed Process Servers &bull; Serving All 77 Counties Since 2020</p>
           <p className="text-slate-700 mt-3 leading-relaxed">With over 50 years of combined experience and thousands of affidavits filed in Oklahoma courts, our team understands exactly what documentation judges expect. We have refined our proof of service process to meet the highest standards of every jurisdiction in the state.</p>
         </div>

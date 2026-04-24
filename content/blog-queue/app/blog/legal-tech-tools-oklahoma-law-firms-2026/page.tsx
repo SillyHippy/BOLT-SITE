@@ -8,16 +8,14 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Legal Tech Tools Every Oklahoma Law Firm Needs in 2026',
-  description:
-    'Essential legal tech tools for Oklahoma law firms in 2026. Covers case management, eFiling, process serving platforms, and AI legal research.',
+  title: "Legal Tech Tools Every Oklahoma Law Firm Needs in 2026",
+  description: "Essential legal tech tools for Oklahoma law firms in 2026. Covers case management, eFiling, process serving platforms, and AI legal research. Serving all 77 Okl",
   keywords:
     'legal tech tools law firms, legal technology Oklahoma, law firm software',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
   publisher: 'Just Legal Solutions',
-  robots:
-    'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
+  robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Legal Tech Tools Every Oklahoma Law Firm Needs in 2026',
     description:
@@ -31,7 +29,7 @@ export const metadata: Metadata = {
         url: 'https://justlegalsolutions.org/images/jls-logo.webp',
         width: 1200,
         height: 630,
-        alt: 'Essential legal technology tools for Oklahoma law firms in 2026',
+        alt: 'Legal Tech Tools Every Oklahoma Law Firm Needs in 2026',
       },
     ],
   },
@@ -44,10 +42,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary':
-      'Guide to essential legal technology tools for Oklahoma law firms covering case management, eFiling, AI research, and integration strategies for 2026.',
-    'ai-key-facts':
-      'Case management software streamlines firm operations; eFiling required in many Oklahoma courts; AI legal research tools save significant time; integration between tools maximizes ROI; process serving technology provides real-time updates',
+    'ai-summary': 'Essential legal tech tools for Oklahoma law firms in 2026. Covers case management, eFiling, process serving platforms, and AI legal research. Serving all 77 Okl Includes Oklahoma service-of-process compliance context and practical filing guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
+  
   },
 };
 
@@ -118,6 +116,7 @@ export default function BlogPost() {
           Oklahoma law firm should consider implementing in 2026 to improve
           efficiency, client service, and profitability.
         </p>
+        <p className="mb-6 text-gray-700">Clients trust Just Legal Solutions for 50+ years of combined experience, licensed and bonded service under Oklahoma Title 12 O.S. 158.1, and statewide execution across all 77 Oklahoma counties. We reference 12 O.S. 2004 and Title 49 O.S. standards to keep filings and service defensible.</p>
 
         {/* SECTION 1 */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
@@ -552,6 +551,16 @@ export default function BlogPost() {
           </ul>
         </section>
 
+        
+        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related Oklahoma Resources</h2>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li><Link href="/blog/certified-mail-vs-personal-service-oklahoma" className="text-blue-600 hover:underline">Certified Mail vs Personal Service in Oklahoma</Link></li>
+            <li><Link href="/blog/how-to-hire-a-process-server-oklahoma" className="text-blue-600 hover:underline">How to Hire a Process Server in Oklahoma</Link></li>
+            <li><Link href="/blog/how-to-serve-a-subpoena-oklahoma" className="text-blue-600 hover:underline">How to Serve a Subpoena in Oklahoma</Link></li>
+          </ul>
+        </section>
+
         {/* FAQ SECTION */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">
@@ -600,6 +609,7 @@ export default function BlogPost() {
           </p>
         </section>
       </main>
+            <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
       <AuthorBox />
       <Footer />

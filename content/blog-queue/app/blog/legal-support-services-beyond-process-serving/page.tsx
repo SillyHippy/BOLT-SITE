@@ -8,16 +8,14 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Legal Support Services Beyond Process Serving: Full-Service Guide',
-  description:
-    'Discover the full range of legal support services beyond process serving. Court filing, notary, skip tracing, courier, and more for Oklahoma law firms.',
+  title: "Legal Support Services Beyond Process Serving: Full-Servi...",
+  description: "Discover the full range of legal support services beyond process serving. Court filing, notary, skip tracing, courier, and more for Oklahoma law firms.",
   keywords:
     'legal support services, full service legal support, legal document services Oklahoma, court filing Oklahoma, skip tracing services, mobile notary Tulsa, legal courier services, document retrieval Oklahoma',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
   publisher: 'Just Legal Solutions',
-  robots:
-    'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
+  robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Legal Support Services Beyond Process Serving: Full-Service Guide',
     description:
@@ -31,7 +29,7 @@ export const metadata: Metadata = {
         url: 'https://justlegalsolutions.org/images/jls-logo.webp',
         width: 1200,
         height: 630,
-        alt: 'Just Legal Solutions legal support services for Oklahoma law firms',
+        alt: 'Legal Support Services Beyond Process Serving: Full-Servi...',
       },
     ],
   },
@@ -44,10 +42,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary':
-      'Comprehensive guide to legal support services beyond process serving including court filing, notary, skip tracing, document retrieval, and courier services.',
-    'ai-key-facts':
-      'Legal support encompasses multiple complementary services; single-provider approach improves efficiency; court filing integrates with process serving; mobile notary adds convenience; document retrieval saves attorney time',
+    'ai-summary': 'Discover the full range of legal support services beyond process serving. Court filing, notary, skip tracing, courier, and more for Oklahoma law firms. Includes Oklahoma notary compliance context and practical document guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
+  
   },
 };
 
@@ -123,6 +121,7 @@ export default function BlogPost() {
           process serving and shows how a single full-service provider can save
           your firm significant time and money.
         </p>
+        <p className="mb-6 text-gray-700">Just Legal Solutions combines 50+ years of practical field experience with licensed, bonded compliance under Oklahoma Title 12 O.S. 158.1. We have served thousands of documents in all 77 Oklahoma counties and anchor timelines and procedure details to 12 O.S. 2004 and Title 49 O.S.</p>
 
         {/* SECTION 1: OVERVIEW OF ECOSYSTEM */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
@@ -517,6 +516,16 @@ export default function BlogPost() {
           </ul>
         </section>
 
+        
+        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related Oklahoma Resources</h2>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li><Link href="/blog/how-to-apostille-document-oklahoma" className="text-blue-600 hover:underline">How to Apostille a Document in Oklahoma</Link></li>
+            <li><Link href="/blog/power-of-attorney-guide-oklahoma" className="text-blue-600 hover:underline">Power of Attorney Notarization Guide</Link></li>
+            <li><Link href="/blog/mobile-notary-tulsa-guide" className="text-blue-600 hover:underline">Mobile Notary Guide for Tulsa and Oklahoma</Link></li>
+          </ul>
+        </section>
+
         {/* FAQ SECTION */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">
@@ -563,6 +572,7 @@ export default function BlogPost() {
           </p>
         </section>
       </main>
+            <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
       <AuthorBox />
       <Footer />

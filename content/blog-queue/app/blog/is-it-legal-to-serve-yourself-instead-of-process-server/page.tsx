@@ -43,15 +43,19 @@ const faqs = [
 ];
 
 export const metadata: Metadata = {
-  title:
-    "Is It Legal to Serve Someone Yourself Instead of Hiring a Professional in Oklahoma? | Just Legal Solutions",
-  description:
-    "Learn about Oklahoma's self-service rules for legal documents. Discover the risks of DIY process serving, when professionals are required, and the true cost comparison.",
+  title: "Is It Legal to Serve Someone Yourself Instead of Hiring a...",
+  description: "Learn about Oklahoma\ Serving all 77 Oklahoma counties with licensed, bonded legal support."s self-service rules for legal documents. Discover the risks of DIY process serving, when professionals are required, and the true cost com',
   keywords:
     "can I serve papers myself oklahoma, self service legal documents, DIY process serving",
   alternates: {
     canonical:
       "https://justlegalsolutions.org/blog/is-it-legal-to-serve-yourself-instead-of-process-server",
+  },
+  other: {
+    'ai-content-type': 'article',
+    'ai-summary': 'Learn about Oklahoma Serving all 77 Oklahoma counties with licensed, bonded legal support. Includes Oklahoma notary compliance context and practical document guidance.',s self-service rules for legal documents. Discover the risks of DIY process serving, when professionals are required, and the true cost com Is It Legal to Serve Someone Yourself Instead of Hiring a... helps Oklahoma clients understand requirements quickly.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
   },
   openGraph: {
     title:
@@ -469,6 +473,7 @@ export default function BlogPost() {
           <AuthorBox />
         </article>
       </main>
+            <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
       <Footer />
       <UnifiedSchema

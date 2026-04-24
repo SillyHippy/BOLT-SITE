@@ -8,8 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Electronic Service of Process in Oklahoma: eService Guide',
-  description: 'Guide to electronic service of process in Oklahoma. Learn about 12 O.S. 2004.5, consent requirements, and the future of eService.',
+  title: "Electronic Service of Process in Oklahoma: eService Guide",
+  description: "Guide to electronic service of process in Oklahoma. Learn about 12 O.S. 2004.5, consent requirements, and the future of eService. Serving all 77 Oklahoma counti",
   keywords: 'electronic service of process, eService Oklahoma legal, Oklahoma eService laws',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Electronic service of process guide for Oklahoma' }],
+    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Electronic Service of Process in Oklahoma: eService Guide' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/electronic-service-process-oklahoma-eservice' },
   other: {
@@ -30,8 +30,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Guide to Oklahoma electronic service of process under 12 O.S. 2004.5 covering consent requirements, process steps, advantages, and limitations.',
-    'ai-key-facts': 'Electronic service requires party consent under 12 O.S. 2004.5; eService differs from eFiling; offers speed and tracking advantages; cannot replace all traditional service methods; security authentication is required',
+    'ai-summary': 'Guide to electronic service of process in Oklahoma. Learn about 12 O.S. 2004.5, consent requirements, and the future of eService. Serving all 77 Oklahoma counti Includes Oklahoma service-of-process compliance context and practical filing guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
+  
   },
 };
 
@@ -80,6 +82,7 @@ export default function BlogPost() {
           navigating the legal system, understanding how eService works under Oklahoma law is essential for efficient 
           case management.
         </p>
+        <p className="mb-6 text-gray-700">With 50+ years of combined experience, Just Legal Solutions is licensed and bonded under Oklahoma Title 12 O.S. 158.1 and has completed thousands of successful services across all 77 Oklahoma counties. Our guidance reflects Oklahoma statutes including 12 O.S. 2004 and relevant Title 49 O.S. requirements.</p>
 
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">Understanding Oklahoma eService Laws (Title 12 O.S. 2004.5)</h2>
@@ -300,6 +303,16 @@ export default function BlogPost() {
           </ul>
         </section>
 
+        
+        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related Oklahoma Resources</h2>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li><Link href="/blog/how-to-serve-a-subpoena-oklahoma" className="text-blue-600 hover:underline">How to Serve a Subpoena in Oklahoma</Link></li>
+            <li><Link href="/blog/serve-out-of-state-defendant-oklahoma" className="text-blue-600 hover:underline">Serving Out-of-State Defendants in Oklahoma Cases</Link></li>
+            <li><Link href="/blog/certified-mail-vs-personal-service-oklahoma" className="text-blue-600 hover:underline">Certified Mail vs Personal Service in Oklahoma</Link></li>
+          </ul>
+        </section>
+
         {/* FAQ SECTION */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">Frequently Asked Questions</h2>
@@ -330,6 +343,7 @@ export default function BlogPost() {
           </p>
         </section>
       </main>
+            <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
       <AuthorBox />
       <Footer />

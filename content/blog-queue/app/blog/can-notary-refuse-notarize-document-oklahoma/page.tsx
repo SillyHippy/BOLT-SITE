@@ -10,15 +10,19 @@ import {
 } from "../components";
 
 export const metadata: Metadata = {
-  title:
-    "Can a Notary Refuse to Notarize a Document in Oklahoma? | Just Legal Solutions",
-  description:
-    "Learn when an Oklahoma notary can legally refuse to notarize, including incomplete documents, lack of ID, coercion, conflicts of interest, and other valid grounds for refusal.",
+  title: "Can a Notary Refuse to Notarize a Document in Oklahoma? |...",
+  description: "Learn when an Oklahoma notary can legally refuse to notarize, including incomplete documents, lack of ID, coercion, conflicts of interest, and other valid groun",
   keywords:
     "can a notary refuse service, when can notary decline, notary refusal reasons, Oklahoma notary refusal, notary cannot notarize",
   alternates: {
     canonical:
       "https://justlegalsolutions.org/blog/can-notary-refuse-notarize-document-oklahoma",
+  },
+  other: {
+    'ai-content-type': 'article',
+    'ai-summary': 'Learn when an Oklahoma notary can legally refuse to notarize, including incomplete documents, lack of ID, coercion, conflicts of interest, and other valid groun Includes Oklahoma notary compliance context and practical document guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
   },
 };
 
@@ -570,6 +574,7 @@ export default function NotaryRefusalPage() {
         </section>
       </main>
 
+            <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
       <Footer />
     </div>

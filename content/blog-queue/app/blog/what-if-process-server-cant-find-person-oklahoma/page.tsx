@@ -48,15 +48,19 @@ const faqs = [
 ];
 
 export const metadata: Metadata = {
-  title:
-    "What If the Process Server Can't Find the Person in Oklahoma? | Just Legal Solutions",
-  description:
-    "Learn what happens when a process server can't locate a defendant in Oklahoma. Discover alternative service methods, substitute service requirements, and next steps.",
+  title: "What If the Process Server Can\"t Find the Person in Oklah...',
+  description: "Learn what happens when a process server can\ Serving all 77 Oklahoma counties with licensed, bonded legal support."t locate a defendant in Oklahoma. Discover alternative service methods, substitute service requirements, and next s',
   keywords:
     "what if process server can't find defendant, failed service oklahoma, substitute service requirements",
   alternates: {
     canonical:
       "https://justlegalsolutions.org/blog/what-if-process-server-cant-find-person-oklahoma",
+  },
+  other: {
+    'ai-content-type': 'article',
+    'ai-summary': 'Learn what happens when a process server can Serving all 77 Oklahoma counties with licensed, bonded legal support. Includes Oklahoma service-of-process compliance context and practical filing guidance.',t locate a defendant in Oklahoma. Discover alternative service methods, substitute service requirements, and next s What If the Process Server Can't Find the Person in Oklah... helps Oklahoma clients understand requirements quickly.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
   },
   openGraph: {
     title:
@@ -506,6 +510,7 @@ export default function BlogPost() {
           <AuthorBox />
         </article>
       </main>
+            <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
       <Footer />
       <UnifiedSchema

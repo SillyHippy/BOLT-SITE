@@ -8,8 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Oklahoma Document Retrieval Services: Get the Records You Need',
-  description: 'Professional document retrieval services in Oklahoma. Learn how to get court records, county records, and certified copies quickly and efficiently.',
+  title: "Oklahoma Document Retrieval Services: Get the Records You...",
+  description: "Professional document retrieval services in Oklahoma. Learn how to get court records, county records, and certified copies quickly and efficiently. Serving all",
   keywords: 'document retrieval Oklahoma, court records retrieval, legal document copy services',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Professional Oklahoma document retrieval services by Just Legal Solutions' }],
+    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Oklahoma Document Retrieval Services: Get the Records You...' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/oklahoma-document-retrieval-services' },
   other: {
@@ -30,8 +30,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Overview of Oklahoma document retrieval services for court and county records covering types, turnaround times, certified copies, and process serving integration.',
-    'ai-key-facts': 'Document retrieval covers court, county, and state records; certified copies available for legal use; turnaround varies by record type and location; integrates with case preparation; statewide retrieval available',
+    'ai-summary': 'Professional document retrieval services in Oklahoma. Learn how to get court records, county records, and certified copies quickly and efficiently. Serving all Includes Oklahoma service-of-process compliance context and practical filing guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
+  
   },
 };
 
@@ -76,6 +78,7 @@ export default function BlogPost() {
         <p className="text-gray-600 mb-8 text-lg">
           Law firms and legal professionals across Oklahoma regularly need access to court records, county documents, and certified copies to build strong cases and serve their clients effectively. At Just Legal Solutions, our team brings over 50 years of combined experience retrieving documents from every corner of the state. We have served thousands of documents across all 77 Oklahoma counties and developed the systems and relationships necessary to get records quickly and accurately. Whether you need a certified copy of a divorce decree, a property deed from a rural county, or a complete court case file, professional document retrieval services save your firm time and ensure you receive the correct documents the first time. Licensed and bonded under Oklahoma Title 12 O.S. 158.1, we handle every request with the professionalism and confidentiality your cases demand.
         </p>
+        <p className="mb-6 text-gray-700">Just Legal Solutions combines 50+ years of practical field experience with licensed, bonded compliance under Oklahoma Title 12 O.S. 158.1. We have served thousands of documents in all 77 Oklahoma counties and anchor timelines and procedure details to 12 O.S. 2004 and Title 49 O.S.</p>
 
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">What Document Retrieval Is and Why Law Firms Need It</h2>
@@ -197,6 +200,16 @@ export default function BlogPost() {
           </ul>
         </section>
 
+        
+        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related Oklahoma Resources</h2>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li><Link href="/blog/serve-out-of-state-defendant-oklahoma" className="text-blue-600 hover:underline">Serving Out-of-State Defendants in Oklahoma Cases</Link></li>
+            <li><Link href="/blog/certified-mail-vs-personal-service-oklahoma" className="text-blue-600 hover:underline">Certified Mail vs Personal Service in Oklahoma</Link></li>
+            <li><Link href="/blog/how-to-hire-a-process-server-oklahoma" className="text-blue-600 hover:underline">How to Hire a Process Server in Oklahoma</Link></li>
+          </ul>
+        </section>
+
         {/* FAQ SECTION */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">Frequently Asked Questions</h2>
@@ -223,6 +236,7 @@ export default function BlogPost() {
         </section>
       </main>
 
+            <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
       <AuthorBox />
       <Footer />

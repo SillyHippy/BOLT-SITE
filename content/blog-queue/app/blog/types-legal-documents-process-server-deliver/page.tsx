@@ -8,8 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'What Legal Documents Can a Process Server Deliver? Complete List',
-  description: 'Comprehensive list of legal documents that process servers can deliver in Oklahoma. From summons to subpoenas to eviction notices.',
+  title: "What Legal Documents Can a Process Server Deliver? Comple...",
+  description: "Comprehensive list of legal documents that process servers can deliver in Oklahoma. From summons to subpoenas to eviction notices. Serving all 77 Oklahoma count",
   keywords: 'what documents can a process server serve, types of legal documents served, process server document types',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Legal documents a process server can deliver in Oklahoma' }],
+    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'What Legal Documents Can a Process Server Deliver? Comple...' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/types-legal-documents-process-server-deliver' },
   other: {
@@ -30,8 +30,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Complete guide to types of legal documents process servers can deliver in Oklahoma covering civil, family, landlord-tenant, and corporate documents.',
-    'ai-key-facts': 'Process servers handle summons, subpoenas, divorce papers, eviction notices, and more; certain documents require specialized handling; servers cannot serve all document types; Oklahoma has specific rules for each document category',
+    'ai-summary': 'Comprehensive list of legal documents that process servers can deliver in Oklahoma. From summons to subpoenas to eviction notices. Serving all 77 Oklahoma count Includes Oklahoma notary compliance context and practical document guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
+  
   },
 };
 
@@ -54,6 +56,8 @@ export default function BlogPost() {
         </nav>
         <h1 className="text-3xl md:text-4xl font-bold mb-6">What Legal Documents Can a Process Server Deliver? Complete List</h1>
         <p className="text-gray-600 mb-8 text-lg">Understanding what documents a process server can deliver is essential for attorneys, landlords, and individuals navigating the legal system. With over 50 years of combined experience, the team at Just Legal Solutions has served thousands of legal documents across all 77 Oklahoma counties. Licensed and bonded under Oklahoma Title 12 O.S. 158.1, we handle virtually every type of legal document that requires personal service. In this guide, we break down the complete list of documents a process server can deliver and explain the specific handling requirements for each category.</p>
+        <p className="mb-4">Deadlines often rely on 12 O.S. 2004, and notarial rules may involve Title 49 O.S.</p>
+        <p className="mb-4">We have served thousands of documents across all 77 Oklahoma counties.</p>
 
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">Civil Litigation Documents</h2>
@@ -132,6 +136,16 @@ export default function BlogPost() {
         </section>
 
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          
+        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related Oklahoma Resources</h2>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li><Link href="/blog/mobile-notary-tulsa-guide" className="text-blue-600 hover:underline">Mobile Notary Guide for Tulsa and Oklahoma</Link></li>
+            <li><Link href="/blog/ron-vs-mobile-notary-oklahoma" className="text-blue-600 hover:underline">RON vs Mobile Notary in Oklahoma</Link></li>
+            <li><Link href="/blog/how-to-apostille-document-oklahoma" className="text-blue-600 hover:underline">How to Apostille a Document in Oklahoma</Link></li>
+          </ul>
+        </section>
+
           <h2 className="text-2xl font-semibold mb-4">Frequently Asked Questions</h2>
           {faqs.map((faq, i) => (
             <div key={i} className="mb-4">

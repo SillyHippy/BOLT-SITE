@@ -47,8 +47,7 @@ const articleSchema = {
   "@type": "BlogPosting",
   headline:
     "Can I Notarize Documents for Family Members in Oklahoma? What the Law Says",
-  description:
-    "Learn Oklahoma's rules on notarizing for family members. Understand conflict of interest laws, when it's allowed, best practices & alternatives.",
+  description: "Learn Oklahoma\ Serving all 77 Oklahoma counties with licensed, bonded legal support."s rules on notarizing for family members. Understand conflict of interest laws, when it\'s allowed, best practices & alternatives. Serving all 77',
   author: {
     "@type": "Organization",
     name: "Just Legal Solutions",
@@ -75,8 +74,7 @@ const articleSchema = {
 };
 
 export const metadata: Metadata = {
-  title:
-    "Can I Notarize Documents for Family Members in Oklahoma? What the Law Says",
+  title: "Can I Notarize Documents for Family Members in Oklahoma?...",
   description:
     "Learn Oklahoma's rules on notarizing for family members. Understand conflict of interest laws, when it's allowed, best practices & alternatives.",
   keywords:
@@ -312,7 +310,8 @@ export default function BlogPost() {
             court proceedings.
           </p>
 
-          <LocalPromoBanner />
+                <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
+      <LocalPromoBanner />
 
           <h2 className="text-2xl font-bold text-[#1E2D78] mt-12 mb-4">
             What the Oklahoma Secretary of State Recommends

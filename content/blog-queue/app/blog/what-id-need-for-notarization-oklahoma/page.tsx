@@ -47,8 +47,7 @@ const articleSchema = {
   "@type": "BlogPosting",
   headline:
     "What ID Do I Need for Notarization in Oklahoma? Requirements Guide",
-  description:
-    "Complete guide to Oklahoma notary ID requirements. Learn acceptable ID types, expired ID rules, alternatives for those without ID & foreign passport policies.",
+  description: "Complete guide to Oklahoma notary ID requirements. Learn acceptable ID types, expired ID rules, alternatives for those without ID & foreign passport policies.",
   author: {
     "@type": "Organization",
     name: "Just Legal Solutions",
@@ -75,8 +74,7 @@ const articleSchema = {
 };
 
 export const metadata: Metadata = {
-  title:
-    "What ID Do I Need for Notarization in Oklahoma? Requirements Guide",
+  title: "What ID Do I Need for Notarization in Oklahoma? Requireme...",
   description:
     "Complete guide to Oklahoma notary ID requirements. Learn acceptable ID types, expired ID rules, alternatives for those without ID & foreign passport policies.",
   keywords:
@@ -303,7 +301,8 @@ export default function BlogPost() {
             work with you to ensure proper verification.
           </p>
 
-          <LocalPromoBanner />
+                <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
+      <LocalPromoBanner />
 
           <h2 className="text-2xl font-bold text-[#1E2D78] mt-12 mb-4">
             Summary Table: Accepted ID Types for Oklahoma Notarization
@@ -370,6 +369,7 @@ export default function BlogPost() {
           <p className="text-gray-600 text-sm mb-6 italic">
             *Foreign passports must be stamped by U.S. Customs and Immigration.
           </p>
+        <p className="mb-6 text-gray-700">With 50+ years of combined experience, Just Legal Solutions is licensed and bonded under Oklahoma Title 12 O.S. 158.1 and has completed thousands of successful services across all 77 Oklahoma counties. Our guidance reflects Oklahoma statutes including 12 O.S. 2004 and relevant Title 49 O.S. requirements.</p>
 
           <h2 className="text-2xl font-bold text-[#1E2D78] mt-12 mb-4">
             What If My ID Is Expired? Options and Solutions

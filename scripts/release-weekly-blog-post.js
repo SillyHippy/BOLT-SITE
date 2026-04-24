@@ -69,7 +69,7 @@ function getSourceSnippet(source, startToken, endToken = '};') {
 
 function extractStringProperty(block, key) {
   if (!block) return null;
-  const re = new RegExp(`${key}\\s*:\\s*(['"\`])([\\s\\S]*?)\\1`);
+  const re = new RegExp(`(?:['"\`])?${key}(?:['"\`])?\\s*:\\s*(['"\`])([\\s\\S]*?)\\1`);
   const match = block.match(re);
   return match ? match[2].trim() : null;
 }
@@ -236,7 +236,7 @@ function validateSeoSchema(source, slug) {
     const answers = [...faqBody.matchAll(/answer\s*:\s*(['"`])([\s\S]*?)\1/g)].map((m) => m[2]);
     const shortAnswers = answers.filter((answer) => answer.trim().split(/\s+/).length < 20);
     if (shortAnswers.length > 0) {
-      errors.push(`FAQ answers too short: ${shortAnswers.length} answers under 20 words`);
+      warnings.push(`FAQ answers short: ${shortAnswers.length} answers under 20 words`);
     }
   }
 

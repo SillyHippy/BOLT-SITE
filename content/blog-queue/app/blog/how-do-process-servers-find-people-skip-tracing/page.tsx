@@ -29,8 +29,8 @@ const faqs = [
 ];
 
 export const metadata: Metadata = {
-  title: "How Do Process Servers Find People? Skip Tracing Explained | Just Legal Solutions",
-  description: "Learn how Oklahoma process servers locate hard-to-find defendants. Discover skip tracing techniques, databases, surveillance methods, social media research, and when skip tracing is needed under Oklahoma law.",
+  title: "How Do Process Servers Find People? Skip Tracing Explaine...",
+  description: "Learn how Oklahoma process servers locate hard-to-find defendants. Discover skip tracing techniques, databases, surveillance methods, social media research, and",
   keywords: "how do process servers find people, skip tracing process serving, locate defendant oklahoma, skip tracing databases, find someone for service of process",
   openGraph: {
     title: "How Do Process Servers Find People? Skip Tracing Explained",
@@ -47,6 +47,12 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: "https://justlegalsolutions.org/blog/how-do-process-servers-find-people-skip-tracing",
+  },
+  other: {
+    'ai-content-type': 'article',
+    'ai-summary': 'Learn how Oklahoma process servers locate hard-to-find defendants. Discover skip tracing techniques, databases, surveillance methods, social media research, and Includes Oklahoma notary compliance context and practical document guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
   },
 };
 
@@ -320,7 +326,8 @@ export default function BlogPost() {
 
           <p className="leading-relaxed mb-6">These numbers reflect our experience across thousands of cases in Oklahoma. Every skip trace is different, and we provide an honest assessment of the likelihood of success during our initial consultation.</p>
 
-          <LocalPromoBanner />
+                <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
+      <LocalPromoBanner />
 
           <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mt-10 mb-4">Frequently Asked Questions</h2>
           <div className="space-y-6">

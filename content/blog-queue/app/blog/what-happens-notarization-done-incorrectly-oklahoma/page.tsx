@@ -8,8 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'What Happens If My Notarization Is Done Incorrectly in Oklahoma?',
-  description: 'An improper notarization can derail your legal matter. Learn the consequences of incorrect notarization in Oklahoma, how to fix errors, and how to prevent them.',
+  title: "What Happens If My Notarization Is Done Incorrectly in Ok...",
+  description: "An improper notarization can derail your legal matter. Learn the consequences of incorrect notarization in Oklahoma, how to fix errors, and how to prevent them.",
   keywords: 'incorrect notarization consequences, invalid notarization, notary mistakes, fix notary error oklahoma, what happens if notary does something wrong',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Consequences of Incorrect Notarization in Oklahoma' }],
+    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'What Happens If My Notarization Is Done Incorrectly in Ok...' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/what-happens-notarization-done-incorrectly-oklahoma' },
   other: {
@@ -30,8 +30,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-05-28',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Comprehensive guide covering the consequences of improper notarization in Oklahoma, including document rejection, legal liability, how to identify and correct errors, the notary complaint process, prevention strategies, and when to seek a new notarization.',
-    'ai-key-facts': 'An incorrect notarization can result in document rejection by courts and agencies; Oklahoma notaries face liability for errors including civil damages and commission revocation; Common errors include missing seals wrong dates improper ID verification and blank spaces; Documents with notary errors generally must be re-notarized with a fresh signature; There is no statute of limitations for challenging a fraudulent notarization; Professional notaries carry errors and omissions insurance for protection.',
+    'ai-summary': 'An improper notarization can derail your legal matter. Learn the consequences of incorrect notarization in Oklahoma, how to fix errors, and how to prevent them. Includes Oklahoma notary compliance context and practical document guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
+  
   },
 };
 
@@ -75,6 +77,7 @@ export default function BlogPost() {
         <p className="text-gray-600 mb-8 text-lg">
           A notarization seems like a simple formality — until it is done wrong. An incorrect notarization can derail a real estate closing, delay a court case, void a power of attorney, or create legal liability for everyone involved. Whether the error is a missing seal, a wrong date, a failure to verify identification, or a more serious procedural violation, the consequences can range from minor inconvenience to catastrophic legal exposure. At <Link href="/" className="text-blue-600">Just Legal Solutions</Link>, we have seen the aftermath of improper notarizations and helped countless Oklahoma clients fix errors and get their documents properly executed. This guide explains what can go wrong, what happens when it does, and how to protect yourself from notarization mistakes.
         </p>
+        <p className="mb-6 text-gray-700">Just Legal Solutions combines 50+ years of practical field experience with licensed, bonded compliance under Oklahoma Title 12 O.S. 158.1. We have served thousands of documents in all 77 Oklahoma counties and anchor timelines and procedure details to 12 O.S. 2004 and Title 49 O.S.</p>
 
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">Why Notarization Accuracy Matters Under Oklahoma Law</h2>
@@ -240,6 +243,16 @@ export default function BlogPost() {
           </p>
         </section>
 
+        
+        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related Oklahoma Resources</h2>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li><Link href="/blog/how-to-apostille-document-oklahoma" className="text-blue-600 hover:underline">How to Apostille a Document in Oklahoma</Link></li>
+            <li><Link href="/blog/power-of-attorney-guide-oklahoma" className="text-blue-600 hover:underline">Power of Attorney Notarization Guide</Link></li>
+            <li><Link href="/blog/mobile-notary-tulsa-guide" className="text-blue-600 hover:underline">Mobile Notary Guide for Tulsa and Oklahoma</Link></li>
+          </ul>
+        </section>
+
         {/* FAQ SECTION */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">Frequently Asked Questions</h2>
@@ -271,6 +284,7 @@ export default function BlogPost() {
           <p className="text-gray-700">View our complete pricing for all service tiers on our <Link href="/pricing" className="text-blue-600 font-semibold">pricing page</Link>. No hidden fees — ever.</p>
         </section>
       </main>
+            <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
       <AuthorBox />
       <Footer />

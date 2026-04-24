@@ -8,16 +8,14 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'What Does a Process Server Do? A Day in the Life',
-  description:
-    "Ever wonder what a process server does all day? Follow along for a day in the life of an Oklahoma process server from dawn to dusk.",
+  title: "What Does a Process Server Do? A Day in the Life",
+  description: "Ever wonder what a process server does all day? Follow along for a day in the life of an Oklahoma process server from dawn to dusk. Serving all 77 Oklahoma coun",
   keywords:
     'what does a process server do, process server job description, day in life process server, Oklahoma process server workday, process server responsibilities',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
   publisher: 'Just Legal Solutions',
-  robots:
-    'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
+  robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'What Does a Process Server Do? A Day in the Life',
     description:
@@ -44,10 +42,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary':
-      'Day in the life of an Oklahoma process server covering morning planning, service attempts, documentation, client communication, and the challenges of the profession.',
-    'ai-key-facts':
-      'Process servers start with route planning and research; each service attempt requires GPS and photo documentation; client communication is ongoing throughout the day; skip tracing may be needed for difficult cases; the job requires resilience and professionalism',
+    'ai-summary': 'Ever wonder what a process server does all day? Follow along for a day in the life of an Oklahoma process server from dawn to dusk. Serving all 77 Oklahoma coun Includes Oklahoma service-of-process compliance context and practical filing guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
+  
   },
 };
 
@@ -114,6 +112,7 @@ export default function BlogPost() {
           Oklahoma counties</strong>. Follow along as we walk you through a
           typical day in the life of an Oklahoma process server.
         </p>
+        <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every recommendation with 12 O.S. 2004 and Title 49 O.S. where applicable.</p>
 
         {/* MORNING ROUTINE */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
@@ -453,6 +452,16 @@ export default function BlogPost() {
                 Skip Tracing Technology in Modern Process Serving
               </Link>
             </li>
+          </ul>
+        </section>
+
+        
+        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related Oklahoma Resources</h2>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li><Link href="/blog/how-to-hire-a-process-server-oklahoma" className="text-blue-600 hover:underline">How to Hire a Process Server in Oklahoma</Link></li>
+            <li><Link href="/blog/how-to-serve-a-subpoena-oklahoma" className="text-blue-600 hover:underline">How to Serve a Subpoena in Oklahoma</Link></li>
+            <li><Link href="/blog/serve-out-of-state-defendant-oklahoma" className="text-blue-600 hover:underline">Serving Out-of-State Defendants in Oklahoma Cases</Link></li>
           </ul>
         </section>
 

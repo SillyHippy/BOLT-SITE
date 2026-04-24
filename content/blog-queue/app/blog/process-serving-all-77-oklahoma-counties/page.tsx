@@ -8,8 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Process Serving in All 77 Oklahoma Counties: Complete Guide',
-  description: 'Just Legal Solutions serves all 77 Oklahoma counties. Learn how statewide process serving works, rural challenges, and interstate considerations.',
+  title: "Process Serving in All 77 Oklahoma Counties: Complete Guide",
+  description: "Just Legal Solutions serves all 77 Oklahoma counties. Learn how statewide process serving works, rural challenges, and interstate considerations. Serving all 77",
   keywords: 'Oklahoma process server statewide, process serving all Oklahoma counties, statewide process serving',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Map of Oklahoma showing all 77 counties served by Just Legal Solutions' }],
+    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Process Serving in All 77 Oklahoma Counties: Complete Guide' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/process-serving-all-77-oklahoma-counties' },
   other: {
@@ -30,8 +30,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Comprehensive guide to statewide process serving across all 77 Oklahoma counties covering urban, suburban, and rural service challenges and solutions.',
-    'ai-key-facts': 'Oklahoma licensing allows statewide service; major counties include Tulsa and Oklahoma County; rural service presents unique challenges; technology enables efficient statewide coverage; law firms benefit from single statewide provider',
+    'ai-summary': 'Just Legal Solutions serves all 77 Oklahoma counties. Learn how statewide process serving works, rural challenges, and interstate considerations. Serving all 77 Includes Oklahoma service-of-process compliance context and practical filing guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
+  
   },
 };
 
@@ -42,7 +44,7 @@ const faqs = [
   },
   {
     question: 'How long does process serving take in rural Oklahoma counties?',
-    answer: 'Rural service timelines vary significantly depending on the county, the respondent\'s location, and road conditions. While service in Tulsa or Oklahoma City might be completed within 24 to 72 hours, rural counties like Beaver, Harper, or Ellis can require additional time due to travel distance, unmarked roads, and limited local server availability. Rush and same-day options remain available statewide, though travel time must be factored into realistic expectations for the most remote areas.',
+    answer: 'Rural service timelines vary significantly depending on the county, the respondent\ This guidance helps avoid delays, improves compliance, and supports stronger court-ready documentation in Oklahoma matters.'s location, and road conditions. While service in Tulsa or Oklahoma City might be completed within 24 to 72 hours, rural counties like Beaver, Harper, or Ellis can require additional time due to travel distance, unmarked roads, and limited local server availability. Rush and same-day options remain available statewide, though travel time must be factored into realistic expectations for the most remote areas.',
   },
   {
     question: 'What counties in Oklahoma have the highest volume of process serving?',
@@ -86,6 +88,7 @@ export default function BlogPost() {
           brings over 50 years of combined experience to every serve, covering all
           77 Oklahoma counties with consistent quality and accountability.
         </p>
+        <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every recommendation with 12 O.S. 2004 and Title 49 O.S. where applicable.</p>
 
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">
@@ -505,6 +508,16 @@ export default function BlogPost() {
                 Oklahoma&apos;s 180-Day Rule for Service of Process Explained
               </Link>
             </li>
+          </ul>
+        </section>
+
+        
+        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related Oklahoma Resources</h2>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li><Link href="/blog/how-to-hire-a-process-server-oklahoma" className="text-blue-600 hover:underline">How to Hire a Process Server in Oklahoma</Link></li>
+            <li><Link href="/blog/how-to-serve-a-subpoena-oklahoma" className="text-blue-600 hover:underline">How to Serve a Subpoena in Oklahoma</Link></li>
+            <li><Link href="/blog/serve-out-of-state-defendant-oklahoma" className="text-blue-600 hover:underline">Serving Out-of-State Defendants in Oklahoma Cases</Link></li>
           </ul>
         </section>
 

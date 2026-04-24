@@ -8,8 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: '10 Common Process Serving Mistakes That Can Ruin Your Case',
-  description: 'Avoid these 10 common process serving mistakes in Oklahoma. Learn what can jeopardize your case and how to ensure proper service.',
+  title: "10 Common Process Serving Mistakes That Can Ruin Your Case",
+  description: "Avoid these 10 common process serving mistakes in Oklahoma. Learn what can jeopardize your case and how to ensure proper service. Serving all 77 Oklahoma counti",
   keywords: 'process serving mistakes, common service of process errors, Oklahoma process server errors',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Common process serving mistakes to avoid in Oklahoma' }],
+    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: '10 Common Process Serving Mistakes That Can Ruin Your Case' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/common-process-serving-mistakes-oklahoma' },
   other: {
@@ -30,8 +30,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Ten common process serving mistakes that can jeopardize Oklahoma legal cases, including missing deadlines, using unlicensed servers, and inadequate documentation.',
-    'ai-key-facts': 'Missing the 180-day deadline risks dismissal; unlicensed servers compromise case validity; inadequate documentation leads to challenges; DIY service by parties is prohibited; price should not override credentials',
+    'ai-summary': 'Avoid these 10 common process serving mistakes in Oklahoma. Learn what can jeopardize your case and how to ensure proper service. Serving all 77 Oklahoma counti Includes Oklahoma service-of-process compliance context and practical filing guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
+  
   },
 };
 
@@ -78,6 +80,7 @@ export default function BlogPost() {
         <p className="text-gray-600 mb-8 text-lg">
           Service of process is the foundation of due process in the American legal system. When service is done incorrectly, everything that follows in your case can be called into question, from court jurisdiction to the validity of a final judgment. At Just Legal Solutions, our team brings over 50 years of combined experience serving legal documents across all 77 Oklahoma counties. Licensed and bonded under Oklahoma Title 12 O.S. 158.1, we have seen firsthand how simple mistakes can derail otherwise strong cases. This guide covers the ten most common process serving mistakes in Oklahoma and explains how to avoid each one.
         </p>
+        <p className="mb-6 text-gray-700">Clients trust Just Legal Solutions for 50+ years of combined experience, licensed and bonded service under Oklahoma Title 12 O.S. 158.1, and statewide execution across all 77 Oklahoma counties. We reference 12 O.S. 2004 and Title 49 O.S. standards to keep filings and service defensible.</p>
 
         {/* MISTAKE 1 */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
@@ -244,6 +247,16 @@ export default function BlogPost() {
           </ul>
         </section>
 
+        
+        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related Oklahoma Resources</h2>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li><Link href="/blog/certified-mail-vs-personal-service-oklahoma" className="text-blue-600 hover:underline">Certified Mail vs Personal Service in Oklahoma</Link></li>
+            <li><Link href="/blog/how-to-hire-a-process-server-oklahoma" className="text-blue-600 hover:underline">How to Hire a Process Server in Oklahoma</Link></li>
+            <li><Link href="/blog/how-to-serve-a-subpoena-oklahoma" className="text-blue-600 hover:underline">How to Serve a Subpoena in Oklahoma</Link></li>
+          </ul>
+        </section>
+
         {/* FAQ SECTION */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">Frequently Asked Questions</h2>
@@ -265,6 +278,7 @@ export default function BlogPost() {
           <p className="font-semibold">Call <a href="tel:539-367-6832" className="text-blue-600">(539) 367-6832</a> or <Link href="/" className="text-blue-600">request service online</Link>. We serve all 77 Oklahoma counties.</p>
         </section>
       </main>
+            <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
       <AuthorBox />
       <Footer />

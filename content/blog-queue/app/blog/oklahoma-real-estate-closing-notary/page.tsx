@@ -8,8 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Oklahoma Real Estate Closing Notary: What to Expect at Closing',
-  description: 'What to expect from your notary at an Oklahoma real estate closing. Documents notarized, ID requirements, and the closing process explained.',
+  title: "Oklahoma Real Estate Closing Notary: What to Expect at Cl...",
+  description: "What to expect from your notary at an Oklahoma real estate closing. Documents notarized, ID requirements, and the closing process explained. Serving all 77 Okla",
   keywords: 'real estate closing notary Oklahoma, mortgage signing, closing notary Tulsa, deed notarization Oklahoma, refinance notary, home closing documents',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Oklahoma real estate closing notary services by Just Legal Solutions' }],
+    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Oklahoma Real Estate Closing Notary: What to Expect at Cl...' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/oklahoma-real-estate-closing-notary' },
   other: {
@@ -30,15 +30,17 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Guide to Oklahoma real estate closing notary services covering required documents, ID requirements, the closing process, and mobile notary options.',
-    'ai-key-facts': 'Notary verifies identity and witnesses signature on closing documents; multiple documents require notarization; valid government ID required; mobile closing notary adds convenience; scheduling should coordinate with all parties',
+    'ai-summary': 'What to expect from your notary at an Oklahoma real estate closing. Documents notarized, ID requirements, and the closing process explained. Serving all 77 Okla Includes Oklahoma notary compliance context and practical document guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
+  
   },
 };
 
 const faqs = [
   { question: 'What does a notary do at a real estate closing in Oklahoma?', answer: 'At a real estate closing, the notary serves as an impartial witness who verifies the identity of all signers, ensures they are signing voluntarily and with understanding, and officially notarizes the required documents. The notary checks valid government-issued photo IDs, administers oaths or affirmations when required, witnesses each signature, and applies their official notary seal and signature to the documents. The notary does not explain the legal terms of the mortgage or deed — that is the role of the title company, lender, or your attorney — but ensures the execution process is legally valid.' },
   { question: 'What documents are notarized at a real estate closing?', answer: 'Multiple documents require notarization at a typical Oklahoma real estate closing. These commonly include the deed (warranty deed, quitclaim deed, or special warranty deed), the mortgage or deed of trust, the promissory note, the closing disclosure, occupancy affidavits, identity affidavits, the Patriot Act disclosure, and various lender-specific documents. In a refinance closing, you may sign fewer documents than in a purchase closing, but the mortgage, note, and deed of trust still require notarization. A purchase closing typically involves the most extensive document package.' },
-  { question: 'What identification do I need to bring to a real estate closing?', answer: 'All signers must present a valid, unexpired government-issued photo ID with a signature. Acceptable forms include a state-issued driver\'s license, state ID card, U.S. passport, or military ID. The name on your ID must exactly match the name on the closing documents — any discrepancies can delay or prevent the closing from proceeding. Some title companies and lenders also require a secondary form of ID, so it is wise to bring two forms of identification just in case. If your ID has expired recently, contact your title company or lender in advance to confirm acceptance.' },
+  { question: 'What identification do I need to bring to a real estate closing?', answer: 'All signers must present a valid, unexpired government-issued photo ID with a signature. Acceptable forms include a state-issued driver\ This guidance helps avoid delays, improves compliance, and supports stronger court-ready documentation in Oklahoma matters.'s license, state ID card, U.S. passport, or military ID. The name on your ID must exactly match the name on the closing documents — any discrepancies can delay or prevent the closing from proceeding. Some title companies and lenders also require a secondary form of ID, so it is wise to bring two forms of identification just in case. If your ID has expired recently, contact your title company or lender in advance to confirm acceptance.' },
   { question: 'How long does a real estate closing notarization take?', answer: 'The notarization portion of a real estate closing typically takes 30 to 60 minutes depending on the number of documents, the number of signers, and whether any questions arise during the signing. A refinance closing may take 30 to 45 minutes, while a purchase closing with two buyers can take 45 to 90 minutes. The notary will guide you through each document, indicate where to sign, and ensure every notarial certificate is properly completed. Mobile notary closings add travel time on either end, but the signing process itself follows the same timeline.' },
   { question: 'Can a mobile notary come to my home or office for a closing?', answer: 'Yes, mobile notary closing services are widely used and accepted by title companies and lenders across Oklahoma. A mobile closing notary travels to your preferred location — your home, office, a title company office, or even a coffee shop — bringing all necessary supplies and documents. This is especially convenient for busy professionals, families with children, out-of-town buyers or sellers, and anyone who prefers the privacy and comfort of their own space. Just Legal Solutions provides mobile closing notary services across all 77 Oklahoma counties, including evenings and weekends to accommodate your schedule.' },
   { question: 'What happens if there is a mistake in the notarized closing documents?', answer: 'Accuracy is critical in real estate closings, and even a small notarization error can cause funding delays or require documents to be re-signed. Common mistakes include missed signatures, initials in the wrong places, incorrect dates, or notarial certificates that are incomplete. If an error is discovered, the documents may need to be corrected and re-notarized, which can delay funding and possession. Working with an experienced real estate closing notary significantly reduces the risk of these costly mistakes. At Just Legal Solutions, our notaries review every page carefully and use GPS-verified proof of service to maintain a complete record of each closing.' },
@@ -54,6 +56,8 @@ export default function BlogPost() {
         </nav>
         <h1 className="text-3xl md:text-4xl font-bold mb-6">Oklahoma Real Estate Closing Notary: What to Expect at Closing</h1>
         <p className="text-gray-600 mb-8 text-lg">A real estate closing is one of the most significant financial transactions most people will ever make — and the notary plays a critical role in ensuring everything is executed properly. At Just Legal Solutions, our team brings over 50 years of combined experience in legal document services and has facilitated thousands of successful closings across all 77 Oklahoma counties. Licensed and bonded under Oklahoma Title 12 O.S. 158.1, we work with buyers, sellers, refinancers, and real estate professionals to make the closing process smooth, accurate, and stress-free. Whether you are purchasing your first home, refinancing your mortgage, or handling a complex commercial property transaction, this guide explains exactly what to expect from your closing notary.</p>
+        <p className="mb-4">Deadlines often rely on 12 O.S. 2004, and notarial rules may involve Title 49 O.S.</p>
+        <p className="mb-4">We have served thousands of documents across all 77 Oklahoma counties.</p>
 
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">The Role of the Notary at a Real Estate Closing</h2>
@@ -141,6 +145,16 @@ export default function BlogPost() {
             <li><Link href="/blog/oklahoma-power-of-attorney-notarization" className="text-blue-600 hover:underline">Oklahoma Power of Attorney Notarization: Requirements and Process</Link></li>
             <li><Link href="/blog/oklahoma-apostille-services-guide" className="text-blue-600 hover:underline">Oklahoma Apostille Services Guide: Authentication for International Use</Link></li>
             <li><Link href="/blog/oklahoma-notary-public-act-explained" className="text-blue-600 hover:underline">Oklahoma Notary Public Act Explained: A Complete Guide</Link></li>
+          </ul>
+        </section>
+
+        
+        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related Oklahoma Resources</h2>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li><Link href="/blog/how-to-apostille-document-oklahoma" className="text-blue-600 hover:underline">How to Apostille a Document in Oklahoma</Link></li>
+            <li><Link href="/blog/power-of-attorney-guide-oklahoma" className="text-blue-600 hover:underline">Power of Attorney Notarization Guide</Link></li>
+            <li><Link href="/blog/mobile-notary-tulsa-guide" className="text-blue-600 hover:underline">Mobile Notary Guide for Tulsa and Oklahoma</Link></li>
           </ul>
         </section>
 

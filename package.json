@@ -18,6 +18,8 @@
     "blog:import-kimi-queue": "node scripts/import-kimi-blog-queue.js",
     "blog:release-weekly": "node scripts/release-weekly-blog-post.js",
     "blog:release-dry-run": "node -e \"process.env.BLOG_DRY_RUN='1'; require('./scripts/release-weekly-blog-post.js')\"",
+    "blog:normalize-queue": "node scripts/normalize-kimi-queue-posts.js",
+    "blog:enhance-queue-seo-ai": "node scripts/enhance-queue-editorial-seo.js",
     "prebuild": "node scripts/run-ai-optimization.js",
     "postbuild": "node scripts/generate-sitemap.js && node scripts/generate-video-sitemap.js && node scripts/generate-ai-sitemap.js",
     "postexport": "node scripts/verify-contact-info.js"

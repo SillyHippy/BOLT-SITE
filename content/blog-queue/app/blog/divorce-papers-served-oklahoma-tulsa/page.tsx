@@ -8,8 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Getting Divorced in Tulsa? How Divorce Papers Are Served',
-  description: 'Learn how divorce papers are served in Oklahoma. Covers the 20-day response window, 90-day waiting period, and service methods for divorce cases.',
+  title: "Getting Divorced in Tulsa? How Divorce Papers Are Served",
+  description: "Learn how divorce papers are served in Oklahoma. Covers the 20-day response window, 90-day waiting period, and service methods for divorce cases. Serving all 77",
   keywords: 'how are divorce papers served in Oklahoma, divorce process Tulsa, serving divorce papers, Oklahoma divorce service, Tulsa divorce papers, 20 day response divorce Oklahoma, 90 day waiting period divorce',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'How Divorce Papers Are Served in Oklahoma - Just Legal Solutions' }],
+    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Getting Divorced in Tulsa? How Divorce Papers Are Served' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/divorce-papers-served-oklahoma-tulsa' },
   other: {
@@ -30,8 +30,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Guide to serving divorce papers in Oklahoma covering the 20-day response window, 90-day waiting period with children, service methods, and handling evasive spouses.',
-    'ai-key-facts': 'Personal service is the preferred method for divorce papers; respondent has 20 days to respond; 90-day waiting period applies when children are involved; service by publication available for missing spouses; professional service reduces emotional complications',
+    'ai-summary': 'Learn how divorce papers are served in Oklahoma. Covers the 20-day response window, 90-day waiting period, and service methods for divorce cases. Serving all 77 Includes Oklahoma notary compliance context and practical document guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
+  
   },
 };
 
@@ -83,6 +85,7 @@ export default function BlogPost() {
         <p className="text-gray-600 mb-8 text-lg">
           Divorce is one of the most challenging experiences anyone can go through — and the legal process of serving divorce papers can add stress to an already emotional situation. With over 50 years of combined experience handling family law document service across all 77 Oklahoma counties, the Just Legal Solutions Team understands the sensitivity and urgency involved in serving divorce papers. This guide explains everything you need to know about how divorce papers are served in Oklahoma, including the 20-day response window, the 90-day waiting period for cases involving children, and what to do if your spouse avoids service.
         </p>
+        <p className="mb-6 text-gray-700">With 50+ years of combined experience, Just Legal Solutions is licensed and bonded under Oklahoma Title 12 O.S. 158.1 and has completed thousands of successful services across all 77 Oklahoma counties. Our guidance reflects Oklahoma statutes including 12 O.S. 2004 and relevant Title 49 O.S. requirements.</p>
 
         {/* Section 1: Oklahoma Divorce Process Overview */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
@@ -249,6 +252,16 @@ export default function BlogPost() {
           </ul>
         </section>
 
+        
+        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related Oklahoma Resources</h2>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li><Link href="/blog/ron-vs-mobile-notary-oklahoma" className="text-blue-600 hover:underline">RON vs Mobile Notary in Oklahoma</Link></li>
+            <li><Link href="/blog/how-to-apostille-document-oklahoma" className="text-blue-600 hover:underline">How to Apostille a Document in Oklahoma</Link></li>
+            <li><Link href="/blog/power-of-attorney-guide-oklahoma" className="text-blue-600 hover:underline">Power of Attorney Notarization Guide</Link></li>
+          </ul>
+        </section>
+
         {/* FAQ SECTION */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">Frequently Asked Questions</h2>
@@ -274,6 +287,7 @@ export default function BlogPost() {
           </p>
         </section>
       </main>
+            <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
       <AuthorBox />
       <Footer />

@@ -8,16 +8,14 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Can You Serve Legal Papers Yourself in Oklahoma? DIY vs Pro',
-  description:
-    'Wondering if you can serve your own papers in Oklahoma? Learn the rules on DIY service, party restrictions, and why professionals are recommended.',
+  title: "Can You Serve Legal Papers Yourself in Oklahoma? DIY vs Pro",
+  description: "Wondering if you can serve your own papers in Oklahoma? Learn the rules on DIY service, party restrictions, and why professionals are recommended. Serving all 7",
   keywords:
     'can I serve my own papers Oklahoma, DIY process serving, self service legal documents Oklahoma',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
   publisher: 'Just Legal Solutions',
-  robots:
-    'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
+  robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Can You Serve Legal Papers Yourself in Oklahoma? DIY vs Pro',
     description:
@@ -31,7 +29,7 @@ export const metadata: Metadata = {
         url: 'https://justlegalsolutions.org/images/jls-logo.webp',
         width: 1200,
         height: 630,
-        alt: 'DIY process serving versus professional service in Oklahoma',
+        alt: 'Can You Serve Legal Papers Yourself in Oklahoma? DIY vs Pro',
       },
     ],
   },
@@ -44,10 +42,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary':
-      'Guide to Oklahoma rules on DIY process serving, explaining why parties cannot serve their own papers and the advantages of professional service.',
-    'ai-key-facts':
-      'Parties to a case cannot serve their own papers in Oklahoma; non-party adults 18+ can serve papers; DIY service carries significant risks; professional servers provide stronger proof of service; cost vs value favors professional handling',
+    'ai-summary': 'Wondering if you can serve your own papers in Oklahoma? Learn the rules on DIY service, party restrictions, and why professionals are recommended. Serving all 7 Includes Oklahoma service-of-process compliance context and practical filing guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
+  
   },
 };
 
@@ -124,6 +122,7 @@ export default function BlogPost() {
           </Link>{' '}
           is almost always the better choice.
         </p>
+        <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every recommendation with 12 O.S. 2004 and Title 49 O.S. where applicable.</p>
 
         {/* Section 1 */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
@@ -531,6 +530,16 @@ export default function BlogPost() {
                 Oklahoma&apos;s 180-Day Rule for Service of Process
               </Link>
             </li>
+          </ul>
+        </section>
+
+        
+        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related Oklahoma Resources</h2>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li><Link href="/blog/how-to-hire-a-process-server-oklahoma" className="text-blue-600 hover:underline">How to Hire a Process Server in Oklahoma</Link></li>
+            <li><Link href="/blog/how-to-serve-a-subpoena-oklahoma" className="text-blue-600 hover:underline">How to Serve a Subpoena in Oklahoma</Link></li>
+            <li><Link href="/blog/serve-out-of-state-defendant-oklahoma" className="text-blue-600 hover:underline">Serving Out-of-State Defendants in Oklahoma Cases</Link></li>
           </ul>
         </section>
 

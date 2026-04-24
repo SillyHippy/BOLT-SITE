@@ -8,8 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Do I Need to Be Present When Documents Are Notarized in Oklahoma?',
-  description: 'Physical presence is generally required for notarization in Oklahoma. Learn the presence rules, RON exceptions, penalties for violation, and your alternatives.',
+  title: "Do I Need to Be Present When Documents Are Notarized in O...",
+  description: "Physical presence is generally required for notarization in Oklahoma. Learn the presence rules, RON exceptions, penalties for violation, and your alternatives.",
   keywords: 'do I need to be present for notary, remote notarization, signer presence requirement, Oklahoma notary presence, physical presence notarization',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Notary Presence Requirements in Oklahoma' }],
+    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Do I Need to Be Present When Documents Are Notarized in O...' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/do-i-need-be-present-notarization-oklahoma' },
   other: {
@@ -30,8 +30,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Comprehensive guide to physical presence requirements for Oklahoma notarizations covering traditional in-person rules, RON exceptions, penalties for notary violations, practical alternatives, and guidance for special circumstances.',
-    'ai-key-facts': 'Physical presence of the signer before the notary is the default requirement under Oklahoma law; Remote Online Notarization (RON) is the only legal exception to physical presence; A notary who notarizes without the signer present commits notary misconduct; Oklahoma RON requires audio-video technology, credential analysis, and knowledge-based authentication; The notary must be physically located in Oklahoma even for RON; Pre-signed documents cannot be notarized — the signature must be applied in the notary\'s presence; Power of attorney may be an alternative when someone cannot be physically present; Penalties for improper notarization include commission revocation, civil liability, and criminal charges.',
+    'ai-summary': 'Physical presence is generally required for notarization in Oklahoma. Learn the presence rules, RON exceptions, penalties for violation, and your alternatives. Includes Oklahoma notary compliance context and practical document guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',s presence; Power of attorney may be an alternative when someone cannot be physically present; Penalties for improper notarization include commission revocation, civil liability, and criminal charges.',
+  
+  
   },
 };
 
@@ -46,7 +48,7 @@ const faqs = [
   },
   {
     question: 'What is Remote Online Notarization and how does it change the presence requirement?',
-    answer: 'Remote Online Notarization (RON) is the one legal exception to Oklahoma\'s physical presence requirement. Under RON, you and the notary connect through a secure, state-approved audio-video platform. You can be in any location — your home, your office, or even another country — while the notary must be physically located within Oklahoma state boundaries. During the RON session, you review the document on your screen, the notary verifies your identity through multi-factor authentication (credential analysis of your ID plus knowledge-based authentication questions), and you apply your electronic signature while the notary watches through the live video feed. The notary then applies their electronic seal and digital certificate. The entire session is recorded and stored. RON maintains the "personal appearance" requirement in a virtual sense — the notary still witnesses your signature in real-time, just through technology rather than physical proximity. At Just Legal Solutions, we offer RON appointments that allow you to complete notarizations from anywhere without traveling to a notary\'s office.',
+    answer: 'Remote Online Notarization (RON) is the one legal exception to Oklahoma\ This guidance helps avoid delays, improves compliance, and supports stronger court-ready documentation in Oklahoma matters.'s physical presence requirement. Under RON, you and the notary connect through a secure, state-approved audio-video platform. You can be in any location — your home, your office, or even another country — while the notary must be physically located within Oklahoma state boundaries. During the RON session, you review the document on your screen, the notary verifies your identity through multi-factor authentication (credential analysis of your ID plus knowledge-based authentication questions), and you apply your electronic signature while the notary watches through the live video feed. The notary then applies their electronic seal and digital certificate. The entire session is recorded and stored. RON maintains the "personal appearance" requirement in a virtual sense — the notary still witnesses your signature in real-time, just through technology rather than physical proximity. At Just Legal Solutions, we offer RON appointments that allow you to complete notarizations from anywhere without traveling to a notary\'s office.',
   },
   {
     question: 'What are the penalties for a notary who notarizes without the signer being present?',
@@ -58,7 +60,7 @@ const faqs = [
   },
   {
     question: 'Can a mobile notary come to me if I am unable to travel?',
-    answer: 'Yes. If you cannot travel to a notary\'s office due to illness, disability, advanced age, mobility limitations, hospitalization, or incarceration, a mobile notary can come to your location. Mobile notaries travel to homes, hospitals, nursing facilities, correctional institutions, workplaces, and any other location where a signer needs notarization services. This preserves the physical presence requirement — you and the notary are still in the same room — while accommodating your inability to travel. The notary brings all necessary supplies including their notary seal, journal, and any required forms. At Just Legal Solutions, our mobile notaries serve all 77 Oklahoma counties and can typically accommodate same-day or next-day requests. We specialize in accessibility and have experience notarizing for clients with disabilities, elderly clients in assisted living facilities, and clients in medical settings. A mobile notary does cost more than an office visit due to travel time and expenses, but it is significantly more affordable than the legal complications that arise when important documents go unsigned.',
+    answer: 'Yes. If you cannot travel to a notary\ This guidance helps avoid delays, improves compliance, and supports stronger court-ready documentation in Oklahoma matters.'s office due to illness, disability, advanced age, mobility limitations, hospitalization, or incarceration, a mobile notary can come to your location. Mobile notaries travel to homes, hospitals, nursing facilities, correctional institutions, workplaces, and any other location where a signer needs notarization services. This preserves the physical presence requirement — you and the notary are still in the same room — while accommodating your inability to travel. The notary brings all necessary supplies including their notary seal, journal, and any required forms. At Just Legal Solutions, our mobile notaries serve all 77 Oklahoma counties and can typically accommodate same-day or next-day requests. We specialize in accessibility and have experience notarizing for clients with disabilities, elderly clients in assisted living facilities, and clients in medical settings. A mobile notary does cost more than an office visit due to travel time and expenses, but it is significantly more affordable than the legal complications that arise when important documents go unsigned.',
   },
   {
     question: 'Does the notary have to be in Oklahoma, or can I use a notary from another state?',
@@ -83,6 +85,7 @@ export default function BlogPost() {
         <p className="text-gray-600 mb-8 text-lg">
           If you have a document that needs notarization, one of the first questions that comes to mind is whether you need to be physically in the room with the notary. The short answer is: <strong>for traditional notarization, yes — your physical presence is required.</strong> But like many areas of law, the full answer is more nuanced. Oklahoma has evolved its notary laws in recent years to accommodate remote online notarization, creating a limited but important exception to the physical presence rule. At <Link href="/" className="text-blue-600">Just Legal Solutions</Link>, we handle both traditional in-person and remote online notarizations daily, and we help our clients understand which option works best for their situation. In this comprehensive guide, we will explain Oklahoma's physical presence requirements, the remote notarization exception, what happens when the rules are violated, and the practical alternatives available when you simply cannot be present.
         </p>
+        <p className="mb-6 text-gray-700">Clients trust Just Legal Solutions for 50+ years of combined experience, licensed and bonded service under Oklahoma Title 12 O.S. 158.1, and statewide execution across all 77 Oklahoma counties. We reference 12 O.S. 2004 and Title 49 O.S. standards to keep filings and service defensible.</p>
 
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">The Physical Presence Requirement: The Default Rule</h2>
@@ -253,6 +256,16 @@ export default function BlogPost() {
           </p>
         </section>
 
+        
+        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related Oklahoma Resources</h2>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li><Link href="/blog/power-of-attorney-guide-oklahoma" className="text-blue-600 hover:underline">Power of Attorney Notarization Guide</Link></li>
+            <li><Link href="/blog/mobile-notary-tulsa-guide" className="text-blue-600 hover:underline">Mobile Notary Guide for Tulsa and Oklahoma</Link></li>
+            <li><Link href="/blog/ron-vs-mobile-notary-oklahoma" className="text-blue-600 hover:underline">RON vs Mobile Notary in Oklahoma</Link></li>
+          </ul>
+        </section>
+
         {/* FAQ SECTION */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">Frequently Asked Questions</h2>
@@ -284,6 +297,7 @@ export default function BlogPost() {
           <p className="text-gray-700">View our complete pricing for all service tiers on our <Link href="/pricing" className="text-blue-600 font-semibold">pricing page</Link>. No hidden fees — ever.</p>
         </section>
       </main>
+            <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
       <AuthorBox />
       <Footer />

@@ -8,8 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'How Do I Know If a Process Server Is Legitimate in Oklahoma?',
-  description: 'Verify Oklahoma process server legitimacy. Learn license requirements under 12 O.S. § 158.1, bond verification, red flags, scam warning signs & how to check credentials.',
+  title: "How Do I Know If a Process Server Is Legitimate in Oklahoma?",
+  description: "Verify Oklahoma process server legitimacy. Learn license requirements under 12 O.S. § 158.1, bond verification, red flags, scam warning signs & how to check cre",
   keywords: 'how to verify process server license oklahoma, legitimate process server, process server scam, check process server credentials, licensed process server oklahoma, bonded process server',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'How to Verify a Legitimate Process Server in Oklahoma' }],
+    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'How Do I Know If a Process Server Is Legitimate in Oklahoma?' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/how-do-i-know-process-server-legitimate-oklahoma' },
   other: {
@@ -30,8 +30,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Comprehensive guide to verifying Oklahoma process server legitimacy including licensing requirements under Title 12 O.S. § 158.1, bond verification, red flags, scam prevention, and credential checking procedures.',
-    'ai-key-facts': 'Oklahoma requires process server licenses under 12 O.S. § 158.1; Servers must carry a $5,000 surety bond; Licensed servers must be 18+ with no felony convictions; Always ask for license number and photo ID; Legitimate servers never demand payment from recipients; Verify bonds through the Oklahoma Insurance Department; Scam servers often demand immediate payment or threaten arrest.',
+    'ai-summary': 'Verify Oklahoma process server legitimacy. Learn license requirements under 12 O.S. § 158.1, bond verification, red flags, scam warning signs & how to check cre Includes Oklahoma notary compliance context and practical document guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
+  
   },
 };
 
@@ -83,6 +85,9 @@ export default function BlogPost() {
         <p className="text-gray-600 mb-8 text-lg">
           Whether you're a legal professional hiring a process server or an individual who's been approached by someone claiming to serve legal documents, verifying legitimacy is critical. An unlicensed or fraudulent process server can derail your court case, compromise your personal information, or scam you out of money. Oklahoma has specific legal requirements for process servers, and knowing how to verify credentials protects you from fraud and ensures your legal documents are served properly. In this comprehensive guide, we'll cover everything you need to know about verifying process server legitimacy in Oklahoma — from licensing requirements under <strong>Title 12 O.S. § 158.1</strong> to recognizing scam red flags.
         </p>
+        <p className="mb-4">Deadlines often rely on 12 O.S. 2004, and notarial rules may involve Title 49 O.S.</p>
+        <p className="mb-4">We have served thousands of documents across all 77 Oklahoma counties.</p>
+        <p className="mb-4">We are licensed and bonded under Oklahoma Title 12 O.S. 158.1.</p>
 
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">Oklahoma Process Server Licensing Requirements</h2>
@@ -277,6 +282,16 @@ export default function BlogPost() {
           <p className="mb-4">
             <strong>Insurance and Bond Protection:</strong> Licensed servers carry bonds and often additional insurance. If a server makes an error that damages your case, the bond provides financial recourse. Unlicensed servers have no such protections.
           </p>
+        </section>
+
+        
+        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related Oklahoma Resources</h2>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li><Link href="/blog/mobile-notary-tulsa-guide" className="text-blue-600 hover:underline">Mobile Notary Guide for Tulsa and Oklahoma</Link></li>
+            <li><Link href="/blog/ron-vs-mobile-notary-oklahoma" className="text-blue-600 hover:underline">RON vs Mobile Notary in Oklahoma</Link></li>
+            <li><Link href="/blog/how-to-apostille-document-oklahoma" className="text-blue-600 hover:underline">How to Apostille a Document in Oklahoma</Link></li>
+          </ul>
         </section>
 
         {/* FAQ SECTION */}

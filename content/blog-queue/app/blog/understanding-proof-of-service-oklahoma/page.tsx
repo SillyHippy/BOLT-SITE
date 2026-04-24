@@ -8,8 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Understanding Proof of Service: Why Your Case Depends On It',
-  description: 'Learn what proof of service is, what information it must include, and why proper documentation is essential for your Oklahoma case.',
+  title: "Understanding Proof of Service: Why Your Case Depends On It",
+  description: "Learn what proof of service is, what information it must include, and why proper documentation is essential for your Oklahoma case. Serving all 77 Oklahoma coun",
   keywords: 'proof of service, affidavit of service Oklahoma, what is proof of service',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Understanding proof of service documentation in Oklahoma courts' }],
+    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Understanding Proof of Service: Why Your Case Depends On It' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/understanding-proof-of-service-oklahoma' },
   other: {
@@ -30,8 +30,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Comprehensive guide to proof of service in Oklahoma covering required elements, documentation types, GPS verification, and common errors to avoid.',
-    'ai-key-facts': 'Proof of service is legally required for case progression; must include specific case and service details; GPS verification strengthens documentation; filing errors can invalidate service; digital proof is accepted in Oklahoma courts',
+    'ai-summary': 'Learn what proof of service is, what information it must include, and why proper documentation is essential for your Oklahoma case. Serving all 77 Oklahoma coun Includes Oklahoma notary compliance context and practical document guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
+  
   },
 };
 
@@ -54,7 +56,7 @@ const faqs = [
   },
   {
     question: 'What common errors can invalidate a proof of service in Oklahoma?',
-    answer: 'The most common errors include incorrect or incomplete case captions; misspelling the recipient\'s name; failing to record the exact date and time of service; serving the wrong person without noting a physical description; using a legally invalid service method; missing or incomplete server signatures; and failing to file the proof of service with the court within the required timeframe. Any of these mistakes can provide grounds for a motion to quash service or dismiss the action.'
+    answer: 'The most common errors include incorrect or incomplete case captions; misspelling the recipient\ This guidance helps avoid delays, improves compliance, and supports stronger court-ready documentation in Oklahoma matters.'s name; failing to record the exact date and time of service; serving the wrong person without noting a physical description; using a legally invalid service method; missing or incomplete server signatures; and failing to file the proof of service with the court within the required timeframe. Any of these mistakes can provide grounds for a motion to quash service or dismiss the action.'
   },
   {
     question: 'Is digital proof of service accepted in Oklahoma courts?',
@@ -74,6 +76,7 @@ export default function BlogPost() {
         <p className="text-gray-600 mb-8 text-lg">
           Every legal case in Oklahoma hinges on one foundational requirement: proof that the opposing party was properly notified. With over 50 years of combined experience serving thousands of documents across all 77 Oklahoma counties, the Just Legal Solutions Team has seen firsthand how a well-documented proof of service can secure a case, and how a flawed one can unravel months of preparation. This guide explains what proof of service is, what it must include, and how to ensure yours holds up in any Oklahoma courtroom.
         </p>
+        <p className="mb-6 text-gray-700">With 50+ years of combined experience, Just Legal Solutions is licensed and bonded under Oklahoma Title 12 O.S. 158.1 and has completed thousands of successful services across all 77 Oklahoma counties. Our guidance reflects Oklahoma statutes including 12 O.S. 2004 and relevant Title 49 O.S. requirements.</p>
 
         {/* Section 1: What Proof of Service Is */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
@@ -181,6 +184,16 @@ export default function BlogPost() {
             <li><Link href="/blog/how-to-serve-legal-papers-oklahoma-step-by-step" className="text-blue-600 hover:underline">How to Serve Legal Papers in Oklahoma: Step-by-Step</Link></li>
             <li><Link href="/blog/common-process-serving-mistakes-oklahoma" className="text-blue-600 hover:underline">Common Process Serving Mistakes in Oklahoma and How to Avoid Them</Link></li>
             <li><Link href="/blog/subpoena-service-oklahoma-rules" className="text-blue-600 hover:underline">Subpoena Service in Oklahoma: Rules and Best Practices</Link></li>
+          </ul>
+        </section>
+
+        
+        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related Oklahoma Resources</h2>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li><Link href="/blog/ron-vs-mobile-notary-oklahoma" className="text-blue-600 hover:underline">RON vs Mobile Notary in Oklahoma</Link></li>
+            <li><Link href="/blog/how-to-apostille-document-oklahoma" className="text-blue-600 hover:underline">How to Apostille a Document in Oklahoma</Link></li>
+            <li><Link href="/blog/power-of-attorney-guide-oklahoma" className="text-blue-600 hover:underline">Power of Attorney Notarization Guide</Link></li>
           </ul>
         </section>
 

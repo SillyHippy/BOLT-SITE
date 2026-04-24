@@ -10,15 +10,19 @@ import {
 } from "../components";
 
 export const metadata: Metadata = {
-  title:
-    "How to Hire a Notary for Loan Signing in Oklahoma | Just Legal Solutions",
-  description:
-    "Learn how to hire a certified loan signing agent in Oklahoma. Understand NSA certification, what to expect during a loan signing, scheduling tips, and how to choose the right professional.",
+  title: "How to Hire a Notary for Loan Signing in Oklahoma | Just...",
+  description: "Learn how to hire a certified loan signing agent in Oklahoma. Understand NSA certification, what to expect during a loan signing, scheduling tips, and how to ch",
   keywords:
     "loan signing agent, mortgage notary, loan document notarization, signing agent hire, Oklahoma loan signing, hire notary closing",
   alternates: {
     canonical:
       "https://justlegalsolutions.org/blog/how-to-hire-notary-loan-signing-oklahoma",
+  },
+  other: {
+    'ai-content-type': 'article',
+    'ai-summary': 'Learn how to hire a certified loan signing agent in Oklahoma. Understand NSA certification, what to expect during a loan signing, scheduling tips, and how to ch Includes Oklahoma notary compliance context and practical document guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
   },
 };
 
@@ -600,6 +604,7 @@ export default function HireLoanSigningNotaryPage() {
         </section>
       </main>
 
+            <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
       <Footer />
     </div>

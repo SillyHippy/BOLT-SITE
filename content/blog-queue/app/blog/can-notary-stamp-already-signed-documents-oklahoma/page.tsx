@@ -8,8 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Can a Notary Stamp Documents That Are Already Signed in Oklahoma?',
-  description: 'Signed your document before seeing the notary? Learn Oklahoma rules about pre-signed documents, witnessing requirements & what options you have to fix the issue.',
+  title: "Can a Notary Stamp Documents That Are Already Signed in O...",
+  description: "Signed your document before seeing the notary? Learn Oklahoma rules about pre-signed documents, witnessing requirements & what options you have to fix the issue",
   keywords: 'notary already signed document, can notary notarize signed document, signature requirement, pre-signed document notary oklahoma, can I sign before notary',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Oklahoma Notary Rules on Pre-Signed Documents' }],
+    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Can a Notary Stamp Documents That Are Already Signed in O...' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/can-notary-stamp-already-signed-documents-oklahoma' },
   other: {
@@ -31,7 +31,10 @@ export const metadata: Metadata = {
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
     'oi-summary': 'Comprehensive guide explaining Oklahoma rules on notarizing pre-signed documents, covering the personal appearance requirement, types of notarial acts, solutions for already-signed documents, prevention strategies, and frequently asked questions.',
-    'ai-key-facts': 'Oklahoma law requires most documents to be signed in the notarys physical presence; A notary cannot simply stamp a pre-signed document for an acknowledgment; Some states allow proof of prior signature but Oklahoma requires personal appearance; Documents signed before the notary arrives generally cannot be notarized; Re-execution with a fresh signature is the most common solution; Mobile notaries can prevent this issue by witnessing the signature in person.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
+    'ai-summary': 'Signed your document before seeing the notary? Learn Oklahoma rules about pre-signed documents, witnessing requirements & what options you have to fix the issue Includes Oklahoma notary compliance context and practical document guidance.',
+  
   },
 };
 
@@ -75,6 +78,7 @@ export default function BlogPost() {
         <p className="text-gray-600 mb-8 text-lg">
           It happens more often than you might think. A person receives an important document, reads through it, fills in the blanks, signs their name — and only then realizes the signature needs to be notarized. Panic sets in. The document is already signed. Can the notary still help? The answer, under Oklahoma law, is <strong>usually no</strong> — with important nuances depending on the type of notarization needed. Understanding why notaries cannot simply stamp pre-signed documents, and knowing your options when this situation arises, can save you time, money, and significant frustration. In this guide, the mobile notary team at <Link href="/" className="text-blue-600">Just Legal Solutions</Link> explains Oklahoma's signature witnessing rules, the difference between acknowledgments and jurats, and exactly what to do if you have already signed your document.
         </p>
+        <p className="mb-6 text-gray-700">Just Legal Solutions combines 50+ years of practical field experience with licensed, bonded compliance under Oklahoma Title 12 O.S. 158.1. We have served thousands of documents in all 77 Oklahoma counties and anchor timelines and procedure details to 12 O.S. 2004 and Title 49 O.S.</p>
 
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">The Core Rule: Personal Appearance and Signature Verification</h2>
@@ -213,6 +217,16 @@ export default function BlogPost() {
           </p>
         </section>
 
+        
+        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related Oklahoma Resources</h2>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li><Link href="/blog/how-to-apostille-document-oklahoma" className="text-blue-600 hover:underline">How to Apostille a Document in Oklahoma</Link></li>
+            <li><Link href="/blog/power-of-attorney-guide-oklahoma" className="text-blue-600 hover:underline">Power of Attorney Notarization Guide</Link></li>
+            <li><Link href="/blog/mobile-notary-tulsa-guide" className="text-blue-600 hover:underline">Mobile Notary Guide for Tulsa and Oklahoma</Link></li>
+          </ul>
+        </section>
+
         {/* FAQ SECTION */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">Frequently Asked Questions</h2>
@@ -244,6 +258,7 @@ export default function BlogPost() {
           <p className="text-gray-700">View our complete pricing for all service tiers on our <Link href="/pricing" className="text-blue-600 font-semibold">pricing page</Link>. No hidden fees — ever.</p>
         </section>
       </main>
+            <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
       <AuthorBox />
       <Footer />

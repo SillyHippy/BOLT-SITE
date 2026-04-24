@@ -9,7 +9,8 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: "Oklahoma's 180-Day Rule for Service of Process Explained",
-  description: "Understand Oklahoma's 180-day service rule under 12 O.S. 2004. Learn what happens if you miss the deadline and how to protect your case.",
+  description:
+    "Understand Oklahoma's 180-day service rule under 12 O.S. 2004, deadline risks, and practical filing steps to protect your case in all 77 Oklahoma counties.",
   keywords: 'Oklahoma 180 day rule service, how long do I have to serve papers Oklahoma, service deadline Oklahoma',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -22,7 +23,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Oklahoma legal documents with calendar showing 180 day service deadline' }],
+    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Oklahoma\'s 180-Day Rule for Service of Process Explained's 180-Day Rule for Service of Process Explained' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/oklahoma-180-day-rule-service-process' },
   other: {
@@ -30,8 +31,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Explanation of Oklahoma\'s 180-day service of process rule under Title 12 O.S. 2004 covering deadlines, consequences of missing them, and strategies for timely service.',
-    'ai-key-facts': '180-day rule under Title 12 O.S. 2004 governs service deadlines; missing the deadline risks dismissal without prejudice; good cause extensions are possible but not guaranteed; rush service can save cases near deadline; calculating the deadline correctly is essential',
+    'ai-summary': 'Understand Oklahoma\'s 180-day service rule under 12 O.S. 2004, deadline risks, and practical filing steps to protect your case in all 77 Oklahoma counties. Includes Oklahoma service-of-process compliance context and practical filing guidance.'s 180-day service rule under 12 O.S. 2004, deadline risks, and practical filing steps to protect your case in all 77 Oklahoma counties. Includes Oklahoma service-of-process compliance context and practical filing guidance.',s 180-day service rule under 12 O.S. 2004. Learn what happens if you miss the deadline and how to protect your case. Serving all 77 Oklahoma Oklahoma's 180-Day Rule for Service of Process Explained helps Oklahoma clients understand requirements quickly.',s 180-day service of process rule under Title 12 O.S. 2004 covering deadlines, consequences of missing them, and strategies for timely service.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
+  
   },
 };
 
@@ -87,6 +90,7 @@ export default function BlogPost() {
           documents across all 77 Oklahoma counties, and we understand how to
           protect your cases from procedural dismissal.
         </p>
+        <p className="mb-6 text-gray-700">Clients trust Just Legal Solutions for 50+ years of combined experience, licensed and bonded service under Oklahoma Title 12 O.S. 158.1, and statewide execution across all 77 Oklahoma counties. We reference 12 O.S. 2004 and Title 49 O.S. standards to keep filings and service defensible.</p>
 
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">
@@ -397,6 +401,16 @@ export default function BlogPost() {
                 How to Serve Legal Papers in Oklahoma: Step-by-Step Guide
               </Link>
             </li>
+          </ul>
+        </section>
+
+        
+        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related Oklahoma Resources</h2>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li><Link href="/blog/certified-mail-vs-personal-service-oklahoma" className="text-blue-600 hover:underline">Certified Mail vs Personal Service in Oklahoma</Link></li>
+            <li><Link href="/blog/how-to-hire-a-process-server-oklahoma" className="text-blue-600 hover:underline">How to Hire a Process Server in Oklahoma</Link></li>
+            <li><Link href="/blog/how-to-serve-a-subpoena-oklahoma" className="text-blue-600 hover:underline">How to Serve a Subpoena in Oklahoma</Link></li>
           </ul>
         </section>
 

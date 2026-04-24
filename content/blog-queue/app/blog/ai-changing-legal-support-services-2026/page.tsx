@@ -8,16 +8,14 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'How AI Is Changing Legal Support Services in 2026',
-  description:
-    'Discover how AI is transforming legal support services in 2026. From document automation to skip tracing, learn what AI means for your law firm.',
+  title: "How AI Is Changing Legal Support Services in 2026",
+  description: "Discover how AI is transforming legal support services in 2026. From document automation to skip tracing, learn what AI means for your law firm. Serving all 77",
   keywords:
     'AI legal support services, artificial intelligence legal industry, legal tech AI',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
   publisher: 'Just Legal Solutions',
-  robots:
-    'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
+  robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'How AI Is Changing Legal Support Services in 2026',
     description:
@@ -31,7 +29,7 @@ export const metadata: Metadata = {
         url: 'https://justlegalsolutions.org/images/jls-logo.webp',
         width: 1200,
         height: 630,
-        alt: 'AI technology transforming legal support services at Just Legal Solutions',
+        alt: 'How AI Is Changing Legal Support Services in 2026',
       },
     ],
   },
@@ -44,10 +42,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary':
-      'Overview of how artificial intelligence is transforming legal support services in 2026, from document automation to process serving technology and skip tracing.',
-    'ai-key-facts':
-      'AI enables document automation and faster legal research; skip tracing benefits from AI-powered database analysis; GPS route optimization improves efficiency; human oversight remains essential; ethical considerations guide AI adoption',
+    'ai-summary': 'Discover how AI is transforming legal support services in 2026. From document automation to skip tracing, learn what AI means for your law firm. Serving all 77 Includes Oklahoma service-of-process compliance context and practical filing guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
+  
   },
 };
 
@@ -117,6 +115,7 @@ export default function BlogPost() {
           comprehensive guide explores how AI is changing the landscape in 2026
           and what it means for Oklahoma law firms.
         </p>
+        <p className="mb-6 text-gray-700">With 50+ years of combined experience, Just Legal Solutions is licensed and bonded under Oklahoma Title 12 O.S. 158.1 and has completed thousands of successful services across all 77 Oklahoma counties. Our guidance reflects Oklahoma statutes including 12 O.S. 2004 and relevant Title 49 O.S. requirements.</p>
 
         {/* SECTION 1 */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
@@ -520,6 +519,16 @@ export default function BlogPost() {
           </ul>
         </section>
 
+        
+        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related Oklahoma Resources</h2>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li><Link href="/blog/how-to-serve-a-subpoena-oklahoma" className="text-blue-600 hover:underline">How to Serve a Subpoena in Oklahoma</Link></li>
+            <li><Link href="/blog/serve-out-of-state-defendant-oklahoma" className="text-blue-600 hover:underline">Serving Out-of-State Defendants in Oklahoma Cases</Link></li>
+            <li><Link href="/blog/certified-mail-vs-personal-service-oklahoma" className="text-blue-600 hover:underline">Certified Mail vs Personal Service in Oklahoma</Link></li>
+          </ul>
+        </section>
+
         {/* FAQ SECTION */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">
@@ -567,6 +576,7 @@ export default function BlogPost() {
           </p>
         </section>
       </main>
+            <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
       <AuthorBox />
       <Footer />

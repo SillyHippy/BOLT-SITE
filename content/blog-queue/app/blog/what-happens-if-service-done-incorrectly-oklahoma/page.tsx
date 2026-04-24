@@ -10,15 +10,19 @@ import {
 } from "../components";
 
 export const metadata: Metadata = {
-  title:
-    "What Happens If Service Is Done Incorrectly in Oklahoma? | Just Legal Solutions",
-  description:
-    "Understand the legal consequences of improper service in Oklahoma, including case dismissal risks, how to fix invalid service, and how to prevent service mistakes.",
+  title: "What Happens If Service Is Done Incorrectly in Oklahoma?...",
+  description: "Understand the legal consequences of improper service in Oklahoma, including case dismissal risks, how to fix invalid service, and how to prevent service mistak",
   keywords:
     "improper service consequences, invalid service oklahoma, what happens if service is wrong, Oklahoma <Link href="/process-serving" className="text-blue-600">process serving</Link> mistakes, service of process errors",
   alternates: {
     canonical:
       "https://justlegalsolutions.org/blog/what-happens-if-service-done-incorrectly-oklahoma",
+  },
+  other: {
+    'ai-content-type': 'article',
+    'ai-summary': 'Understand the legal consequences of improper service in Oklahoma, including case dismissal risks, how to fix invalid service, and how to prevent service mistak Includes Oklahoma service-of-process compliance context and practical filing guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
   },
 };
 
@@ -598,6 +602,7 @@ export default function ImproperServicePage() {
         </section>
       </main>
 
+            <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
       <Footer />
     </div>

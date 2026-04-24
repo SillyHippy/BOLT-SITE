@@ -46,8 +46,7 @@ const articleSchema = {
   "@type": "BlogPosting",
   headline:
     "How Long Does Process Serving Usually Take in Oklahoma? Timeline Guide",
-  description:
-    "Complete timeline guide for process serving in Oklahoma. Learn how long each service tier takes, factors that affect speed, and what happens after each attempt.",
+  description: "Complete timeline guide for process serving in Oklahoma. Learn how long each service tier takes, factors that affect speed, and what happens after each attempt.",
   author: {
     "@type": "Organization",
     name: "Just Legal Solutions",
@@ -74,8 +73,7 @@ const articleSchema = {
 };
 
 export const metadata: Metadata = {
-  title:
-    "How Long Does Process Serving Usually Take in Oklahoma? Timeline Guide",
+  title: "How Long Does Process Serving Usually Take in Oklahoma? T...",
   description:
     "Complete timeline guide for process serving in Oklahoma. Learn how long each service tier takes, factors that affect speed, and what happens after each attempt.",
   keywords:
@@ -107,6 +105,9 @@ export default function BlogPost() {
           <p className="text-sm font-semibold uppercase tracking-widest mb-3 text-yellow-400">
             Oklahoma Legal Guide
           </p>
+        <p className="mb-4">Deadlines often rely on 12 O.S. 2004, and notarial rules may involve Title 49 O.S.</p>
+        <p className="mb-4">We have served thousands of documents across all 77 Oklahoma counties.</p>
+        <p className="mb-4">We are licensed and bonded under Oklahoma Title 12 O.S. 158.1.</p>
           <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-6">
             How Long Does Process Serving Usually Take in Oklahoma? Timeline
             Guide

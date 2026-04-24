@@ -8,9 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Do Process Servers Call Before Serving? What to Expect',
-  description:
-    'Wondering if process servers call before serving papers? Learn when they might call, warning signs of scams, and what to expect in Oklahoma.',
+  title: "Do Process Servers Call Before Serving? What to Expect",
+  description: "Wondering if process servers call before serving papers? Learn when they might call, warning signs of scams, and what to expect in Oklahoma. Serving all 77 Okla",
   keywords:
     'do process servers call you, will a process server call me, process server phone call, process server scam, verify process server Oklahoma, process serving phone call, legitimate process server call',
   authors: [{ name: 'Just Legal Solutions' }],
@@ -30,7 +29,7 @@ export const metadata: Metadata = {
         url: 'https://justlegalsolutions.org/images/jls-logo.webp',
         width: 1200,
         height: 630,
-        alt: 'Process server phone call guidance for Oklahoma residents',
+        alt: 'Do Process Servers Call Before Serving? What to Expect',
       },
     ],
   },
@@ -42,10 +41,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary':
-      'Guide to whether process servers call before serving papers, covering legitimate reasons for calls, scam warning signs, and verification methods in Oklahoma.',
-    'ai-key-facts':
-      'Process servers may call but are not required to; legitimate servers confirm address or arrange timing; never give SSN or payment over phone; verify license through Oklahoma authorities; scam calls are increasingly common',
+    'ai-summary': 'Wondering if process servers call before serving papers? Learn when they might call, warning signs of scams, and what to expect in Oklahoma. Serving all 77 Okla Includes Oklahoma service-of-process compliance context and practical filing guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
+  
   },
 };
 
@@ -77,8 +76,7 @@ const faqs = [
   },
   {
     question: 'How do I verify a process server is licensed in Oklahoma?',
-    answer:
-      'You can verify a process server\'s license by contacting the court clerk in the county where the server is licensed, checking with the Oklahoma Secretary of State\'s office, or asking the server to provide their bond and license documentation. At Just Legal Solutions, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and happy to provide verification to anyone who asks.',
+    answer: 'You can verify a process server\ This guidance helps avoid delays, improves compliance, and supports stronger court-ready documentation in Oklahoma matters.'s license by contacting the court clerk in the county where the server is licensed, checking with the Oklahoma Secretary of State\'s office, or asking the server to provide their bond and license documentation. At Just Legal Solutions, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and happy to provide verification to anyone who asks.',
   },
 ];
 
@@ -110,6 +108,7 @@ export default function BlogPost() {
           contact you by phone, what questions they might ask, how to spot a
           scam, and what your rights are under Oklahoma law.
         </p>
+        <p className="mb-6 text-gray-700">Clients trust Just Legal Solutions for 50+ years of combined experience, licensed and bonded service under Oklahoma Title 12 O.S. 158.1, and statewide execution across all 77 Oklahoma counties. We reference 12 O.S. 2004 and Title 49 O.S. standards to keep filings and service defensible.</p>
 
         {/* Section 1 */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
@@ -477,6 +476,16 @@ export default function BlogPost() {
                 How to Become a Licensed Process Server in Oklahoma
               </Link>
             </li>
+          </ul>
+        </section>
+
+        
+        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related Oklahoma Resources</h2>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li><Link href="/blog/certified-mail-vs-personal-service-oklahoma" className="text-blue-600 hover:underline">Certified Mail vs Personal Service in Oklahoma</Link></li>
+            <li><Link href="/blog/how-to-hire-a-process-server-oklahoma" className="text-blue-600 hover:underline">How to Hire a Process Server in Oklahoma</Link></li>
+            <li><Link href="/blog/how-to-serve-a-subpoena-oklahoma" className="text-blue-600 hover:underline">How to Serve a Subpoena in Oklahoma</Link></li>
           </ul>
         </section>
 

@@ -8,16 +8,14 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: '25 FAQ About Process Serving in Oklahoma — Answered',
-  description:
-    'Get answers to 25 frequently asked questions about process serving in Oklahoma. Licensing, costs, methods, timelines, and more covered.',
+  title: "25 FAQ About Process Serving in Oklahoma — Answered",
+  description: "Get answers to 25 frequently asked questions about process serving in Oklahoma. Licensing, costs, methods, timelines, and more covered. Serving all 77 Oklahoma",
   keywords:
     'process serving FAQ Oklahoma, process server questions, Oklahoma process server FAQ, how process serving works, serve legal papers Oklahoma',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
   publisher: 'Just Legal Solutions',
-  robots:
-    'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
+  robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: '25 FAQ About Process Serving in Oklahoma — Answered',
     description:
@@ -44,10 +42,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary':
-      'Comprehensive FAQ with 25 answers about Oklahoma process serving covering licensing, service methods, costs, timelines, and state-specific requirements.',
-    'ai-key-facts':
-      '25 common questions answered; licensing required under Title 12 O.S. 158.1; multiple service methods available; 180-day rule governs deadlines; statewide coverage available; costs vary by service tier',
+    'ai-summary': 'Get answers to 25 frequently asked questions about process serving in Oklahoma. Licensing, costs, methods, timelines, and more covered. Serving all 77 Oklahoma Includes Oklahoma service-of-process compliance context and practical filing guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
+  
   },
 };
 
@@ -115,6 +113,7 @@ export default function BlogPost() {
           common questions we hear about process serving in Oklahoma, drawing on
           Oklahoma statutes and our hands-on expertise.
         </p>
+        <p className="mb-6 text-gray-700">With 50+ years of combined experience, Just Legal Solutions is licensed and bonded under Oklahoma Title 12 O.S. 158.1 and has completed thousands of successful services across all 77 Oklahoma counties. Our guidance reflects Oklahoma statutes including 12 O.S. 2004 and relevant Title 49 O.S. requirements.</p>
 
         {/* GENERAL QUESTIONS */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
@@ -644,6 +643,16 @@ export default function BlogPost() {
                 How to Become a Licensed Process Server in Oklahoma
               </Link>
             </li>
+          </ul>
+        </section>
+
+        
+        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related Oklahoma Resources</h2>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li><Link href="/blog/how-to-serve-a-subpoena-oklahoma" className="text-blue-600 hover:underline">How to Serve a Subpoena in Oklahoma</Link></li>
+            <li><Link href="/blog/serve-out-of-state-defendant-oklahoma" className="text-blue-600 hover:underline">Serving Out-of-State Defendants in Oklahoma Cases</Link></li>
+            <li><Link href="/blog/certified-mail-vs-personal-service-oklahoma" className="text-blue-600 hover:underline">Certified Mail vs Personal Service in Oklahoma</Link></li>
           </ul>
         </section>
 

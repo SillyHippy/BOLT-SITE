@@ -47,8 +47,7 @@ const articleSchema = {
   "@type": "BlogPosting",
   headline:
     "What Documents Can a Process Server Deliver in Oklahoma? Complete List",
-  description:
-    "Comprehensive guide to documents a process server can deliver in Oklahoma. Learn about summons, subpoenas, divorce papers, eviction notices & more under Title 12 O.S.",
+  description: "Comprehensive guide to documents a process server can deliver in Oklahoma. Learn about summons, subpoenas, divorce papers, eviction notices & more under Title 1",
   author: {
     "@type": "Organization",
     name: "Just Legal Solutions",
@@ -75,8 +74,7 @@ const articleSchema = {
 };
 
 export const metadata: Metadata = {
-  title:
-    "What Documents Can a Process Server Deliver in Oklahoma? Complete List",
+  title: "What Documents Can a Process Server Deliver in Oklahoma?...",
   description:
     "Comprehensive guide to documents a process server can deliver in Oklahoma. Learn about summons, subpoenas, divorce papers, eviction notices & more under Title 12 O.S.",
   keywords:
@@ -353,7 +351,8 @@ export default function BlogPost() {
             from domestication through service and affidavit filing.
           </p>
 
-          <LocalPromoBanner />
+                <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
+      <LocalPromoBanner />
 
           <h2 className="text-2xl font-bold text-[#1E2D78] mt-12 mb-4">
             Documents That Process Servers Generally CANNOT Serve

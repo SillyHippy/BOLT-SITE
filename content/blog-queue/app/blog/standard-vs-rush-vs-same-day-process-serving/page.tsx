@@ -8,8 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Standard vs Rush vs Same-Day Process Serving: Which Do You Need?',
-  description: 'Compare standard, rush, and same-day process serving tiers. Learn how to choose the right service level for your Oklahoma case timeline and court deadlines.',
+  title: "Standard vs Rush vs Same-Day Process Serving: Which Do Yo...",
+  description: "Compare standard, rush, and same-day process serving tiers. Learn how to choose the right service level for your Oklahoma case timeline and court deadlines.",
   keywords: 'standard vs rush process serving, same day process server, process service tiers, process serving Oklahoma, rush process service, same-day process serving, after-hours process server',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Standard vs Rush vs Same-Day Process Serving comparison' }],
+    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Standard vs Rush vs Same-Day Process Serving: Which Do Yo...' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/standard-vs-rush-vs-same-day-process-serving' },
   other: {
@@ -30,8 +30,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Comparison of standard, rush, same-day, and after-hours process serving tiers with guidance on selecting the right service level for your case.',
-    'ai-key-facts': 'Four service tiers available; standard suits routine cases; rush handles moderate deadlines; same-day addresses urgent needs; after-hours reaches difficult recipients; upgrading is possible mid-assignment',
+    'ai-summary': 'Compare standard, rush, and same-day process serving tiers. Learn how to choose the right service level for your Oklahoma case timeline and court deadlines. Includes Oklahoma service-of-process compliance context and practical filing guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
+  
   },
 };
 
@@ -54,6 +56,7 @@ export default function BlogPost() {
         </nav>
         <h1 className="text-3xl md:text-4xl font-bold mb-6">Standard vs Rush vs Same-Day Process Serving: Which Do You Need?</h1>
         <p className="text-gray-600 mb-8 text-lg">When your case depends on timely service of process, choosing the right service tier can mean the difference between meeting a critical deadline and facing a costly continuance. With over 50 years of combined experience and thousands of documents served across all 77 Oklahoma counties, the <strong>Just Legal Solutions Team</strong> has developed a four-tier service system designed to match every case timeline. This guide breaks down each tier so you can make the right choice for your legal matter.</p>
+        <p className="mb-6 text-gray-700">At Just Legal Solutions, we pair 50+ years of combined experience with licensed, bonded operations under Oklahoma Title 12 O.S. 158.1. Our team has served thousands of documents in all 77 Oklahoma counties, with procedure guidance grounded in 12 O.S. 2004 and Title 49 O.S.</p>
 
         {/* Section 1: Defining Each Service Tier */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
@@ -197,6 +200,16 @@ export default function BlogPost() {
           </ul>
         </section>
 
+        
+        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related Oklahoma Resources</h2>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li><Link href="/blog/how-to-hire-a-process-server-oklahoma" className="text-blue-600 hover:underline">How to Hire a Process Server in Oklahoma</Link></li>
+            <li><Link href="/blog/how-to-serve-a-subpoena-oklahoma" className="text-blue-600 hover:underline">How to Serve a Subpoena in Oklahoma</Link></li>
+            <li><Link href="/blog/serve-out-of-state-defendant-oklahoma" className="text-blue-600 hover:underline">Serving Out-of-State Defendants in Oklahoma Cases</Link></li>
+          </ul>
+        </section>
+
         {/* FAQ SECTION */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">Frequently Asked Questions</h2>
@@ -216,6 +229,7 @@ export default function BlogPost() {
           <p className="font-semibold">Call <a href="tel:539-367-6832" className="text-blue-600">(539) 367-6832</a> or <Link href="/" className="text-blue-600">request service online</Link>. We serve all 77 Oklahoma counties.</p>
         </section>
       </main>
+            <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
       <AuthorBox />
       <Footer />

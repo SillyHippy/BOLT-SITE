@@ -8,8 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Subpoena Service in Oklahoma: Rules and Best Practices',
-  description: 'Learn how subpoena service works in Oklahoma. Covers types of subpoenas, service methods, timelines, and proof requirements for attorneys.',
+  title: "Subpoena Service in Oklahoma: Rules and Best Practices",
+  description: "Learn how subpoena service works in Oklahoma. Covers types of subpoenas, service methods, timelines, and proof requirements for attorneys. Serving all 77 Oklaho",
   keywords: 'subpoena service Oklahoma, how to serve a subpoena, subpoena ad testificandum, subpoena duces tecum',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Subpoena service in Oklahoma rules and best practices guide' }],
+    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Subpoena Service in Oklahoma: Rules and Best Practices' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/subpoena-service-oklahoma-rules' },
   other: {
@@ -30,8 +30,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Oklahoma guide to subpoena service covering types, methods, timelines, and proof requirements under state rules of civil procedure.',
-    'ai-key-facts': 'Two main subpoena types with different purposes; licensed process servers can serve subpoenas statewide; out-of-state witnesses require additional procedures; contempt of court for non-compliance; proof of service must be filed with court',
+    'ai-summary': 'Learn how subpoena service works in Oklahoma. Covers types of subpoenas, service methods, timelines, and proof requirements for attorneys. Serving all 77 Oklaho Includes Oklahoma service-of-process compliance context and practical filing guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
+  
   },
 };
 
@@ -74,6 +76,7 @@ export default function BlogPost() {
         <p className="text-gray-600 mb-8 text-lg">
           Serving a subpoena correctly is one of the most critical steps in building your case. With over 50 years of combined experience and thousands of documents served across all 77 Oklahoma counties, the Just Legal Solutions Team knows that even a minor error in subpoena service can derail your timeline, exclude vital evidence, or prevent a key witness from appearing. This guide explains the types of subpoenas, who can serve them, the methods available under Oklahoma law, and how to ensure your subpoena holds up in court.
         </p>
+        <p className="mb-6 text-gray-700">Just Legal Solutions combines 50+ years of practical field experience with licensed, bonded compliance under Oklahoma Title 12 O.S. 158.1. We have served thousands of documents in all 77 Oklahoma counties and anchor timelines and procedure details to 12 O.S. 2004 and Title 49 O.S.</p>
 
         {/* Section 1: Types of Subpoenas */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
@@ -179,6 +182,16 @@ export default function BlogPost() {
           </ul>
         </section>
 
+        
+        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related Oklahoma Resources</h2>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li><Link href="/blog/serve-out-of-state-defendant-oklahoma" className="text-blue-600 hover:underline">Serving Out-of-State Defendants in Oklahoma Cases</Link></li>
+            <li><Link href="/blog/certified-mail-vs-personal-service-oklahoma" className="text-blue-600 hover:underline">Certified Mail vs Personal Service in Oklahoma</Link></li>
+            <li><Link href="/blog/how-to-hire-a-process-server-oklahoma" className="text-blue-600 hover:underline">How to Hire a Process Server in Oklahoma</Link></li>
+          </ul>
+        </section>
+
         {/* FAQ SECTION */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">Frequently Asked Questions</h2>
@@ -200,6 +213,7 @@ export default function BlogPost() {
           <p className="font-semibold">Call <a href="tel:539-367-6832" className="text-blue-600">(539) 367-6832</a> or <Link href="/" className="text-blue-600">request service online</Link>. We serve all 77 Oklahoma counties.</p>
         </section>
       </main>
+            <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
       <AuthorBox />
       <Footer />

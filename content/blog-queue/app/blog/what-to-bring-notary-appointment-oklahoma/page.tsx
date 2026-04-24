@@ -47,8 +47,7 @@ const articleSchema = {
   "@type": "BlogPosting",
   headline:
     "What Should I Bring When Getting Documents Notarized in Oklahoma?",
-  description:
-    "Complete guide to preparing for your Oklahoma notary appointment. Learn ID requirements, document prep, witness rules & common mistakes to avoid.",
+  description: "Complete guide to preparing for your Oklahoma notary appointment. Learn ID requirements, document prep, witness rules & common mistakes to avoid. Serving all 77",
   author: {
     "@type": "Organization",
     name: "Just Legal Solutions",
@@ -75,8 +74,7 @@ const articleSchema = {
 };
 
 export const metadata: Metadata = {
-  title:
-    "What Should I Bring When Getting Documents Notarized in Oklahoma?",
+  title: "What Should I Bring When Getting Documents Notarized in O...",
   description:
     "Complete guide to preparing for your Oklahoma notary appointment. Learn ID requirements, document prep, witness rules & common mistakes to avoid.",
   keywords:
@@ -305,7 +303,8 @@ export default function BlogPost() {
             Confirm your notary's accepted payment methods in advance.
           </p>
 
-          <LocalPromoBanner />
+                <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
+      <LocalPromoBanner />
 
           <h2 className="text-2xl font-bold text-[#1E2D78] mt-12 mb-4">
             Common Mistakes to Avoid at Your Notary Appointment

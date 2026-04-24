@@ -8,8 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Tulsa County Court Filing Guide: Navigate the Filing Process',
-  description: 'Navigate Tulsa County court filing with our step-by-step guide. Covers case types, forms, fees, eFiling options, and process serving timelines.',
+  title: "Tulsa County Court Filing Guide: Navigate the Filing Process",
+  description: "Navigate Tulsa County court filing with our step-by-step guide. Covers case types, forms, fees, eFiling options, and process serving timelines. Serving all 77 O",
   keywords: 'Tulsa County court filing, how to file court papers Tulsa, Tulsa County District Court, Oklahoma court filing, eFiling Tulsa, OSCN Tulsa',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Tulsa County Court Filing Guide from Just Legal Solutions' }],
+    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Tulsa County Court Filing Guide: Navigate the Filing Process' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/tulsa-county-court-filing-guide' },
   other: {
@@ -30,8 +30,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Step-by-step guide to filing court documents in Tulsa County covering case types, required forms, eFiling through OSCN, and how process serving integrates with filing timelines.',
-    'ai-key-facts': 'Tulsa County District Court handles multiple case types; eFiling available through OSCN system; specific local rules apply; process serving typically follows filing; proper forms are essential for acceptance',
+    'ai-summary': 'Navigate Tulsa County court filing with our step-by-step guide. Covers case types, forms, fees, eFiling options, and process serving timelines. Serving all 77 O Includes Oklahoma notary compliance context and practical document guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
+  
   },
 };
 
@@ -83,6 +85,7 @@ export default function BlogPost() {
         <p className="text-gray-600 mb-8 text-lg">
           Filing court documents in Tulsa County can feel overwhelming — especially if you are navigating the legal system for the first time. With over 50 years of combined experience handling court filings and <Link href="/process-serving" className="text-blue-600 hover:underline">process serving</Link> across Oklahoma, the Just Legal Solutions Team has helped thousands of clients successfully file and serve legal documents in Tulsa County District Court. Whether you are initiating a lawsuit, responding to a petition, or filing post-judgment motions, this guide walks you through everything you need to know about the Tulsa County court filing process — from courthouse logistics to eFiling and beyond.
         </p>
+        <p className="mb-6 text-gray-700">Just Legal Solutions combines 50+ years of practical field experience with licensed, bonded compliance under Oklahoma Title 12 O.S. 158.1. We have served thousands of documents in all 77 Oklahoma counties and anchor timelines and procedure details to 12 O.S. 2004 and Title 49 O.S.</p>
 
         {/* Section 1: Courthouse Info */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
@@ -255,6 +258,16 @@ export default function BlogPost() {
           </ul>
         </section>
 
+        
+        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related Oklahoma Resources</h2>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li><Link href="/blog/how-to-apostille-document-oklahoma" className="text-blue-600 hover:underline">How to Apostille a Document in Oklahoma</Link></li>
+            <li><Link href="/blog/power-of-attorney-guide-oklahoma" className="text-blue-600 hover:underline">Power of Attorney Notarization Guide</Link></li>
+            <li><Link href="/blog/mobile-notary-tulsa-guide" className="text-blue-600 hover:underline">Mobile Notary Guide for Tulsa and Oklahoma</Link></li>
+          </ul>
+        </section>
+
         {/* FAQ SECTION */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">Frequently Asked Questions</h2>
@@ -280,6 +293,7 @@ export default function BlogPost() {
           </p>
         </section>
       </main>
+            <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
       <AuthorBox />
       <Footer />

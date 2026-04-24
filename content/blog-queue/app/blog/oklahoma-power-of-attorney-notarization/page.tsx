@@ -8,8 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Oklahoma Power of Attorney Notarization: Requirements and Process',
-  description: 'Learn how to notarize a power of attorney in Oklahoma. Covers types of POA, notarization requirements, witness rules, and common mistakes.',
+  title: "Oklahoma Power of Attorney Notarization: Requirements and...",
+  description: "Learn how to notarize a power of attorney in Oklahoma. Covers types of POA, notarization requirements, witness rules, and common mistakes. Serving all 77 Oklaho",
   keywords: 'power of attorney notary Oklahoma, POA notarization, notarize power of attorney, durable POA Oklahoma, medical power of attorney notary, financial POA notary Tulsa',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Oklahoma power of attorney notarization guide by Just Legal Solutions' }],
+    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Oklahoma Power of Attorney Notarization: Requirements and...' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/oklahoma-power-of-attorney-notarization' },
   other: {
@@ -30,18 +30,20 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Guide to Oklahoma power of attorney notarization covering POA types, notarization and witness requirements, and common mistakes to avoid.',
-    'ai-key-facts': 'Multiple POA types have different notarization requirements; witnesses may be required in addition to notary; proper ID essential; mobile notary available for convenience; costs vary by service type',
+    'ai-summary': 'Learn how to notarize a power of attorney in Oklahoma. Covers types of POA, notarization requirements, witness rules, and common mistakes. Serving all 77 Oklaho Includes Oklahoma notary compliance context and practical document guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
+  
   },
 };
 
 const faqs = [
   { question: 'Does a power of attorney in Oklahoma have to be notarized?', answer: 'Yes, under Oklahoma law most types of power of attorney must be notarized to be legally valid and enforceable. A durable power of attorney, in particular, must be notarized to ensure the document holds up in court and is accepted by financial institutions and healthcare providers. Notarization provides the verification that the signer acted willingly and with sound mind at the time of signing.' },
   { question: 'What types of power of attorney require witnesses in addition to a notary?', answer: 'Certain types of POA, especially healthcare powers of attorney, often require witnesses in addition to notarization under Oklahoma law. A medical or healthcare POA typically requires two adult witnesses who are not related to the principal, not entitled to any portion of the estate, and not the attending physician. Financial and durable POAs generally require only notarization, though some institutions may request witnesses as an extra layer of protection.' },
-  { question: 'What identification do I need to bring to notarize a power of attorney?', answer: 'You must present a valid, government-issued photo ID such as a driver\'s license, state-issued ID card, U.S. passport, or military ID. The ID must be current or have expired within the past three years in most cases. The name on your ID must match the name on the power of attorney document exactly. If you do not have proper ID, two credible witnesses who personally know you and have their own valid IDs may vouch for your identity in Oklahoma.' },
+  { question: 'What identification do I need to bring to notarize a power of attorney?', answer: 'You must present a valid, government-issued photo ID such as a driver\ This guidance helps avoid delays, improves compliance, and supports stronger court-ready documentation in Oklahoma matters.'s license, state-issued ID card, U.S. passport, or military ID. The ID must be current or have expired within the past three years in most cases. The name on your ID must match the name on the power of attorney document exactly. If you do not have proper ID, two credible witnesses who personally know you and have their own valid IDs may vouch for your identity in Oklahoma.' },
   { question: 'Can a mobile notary notarize a power of attorney at my home or hospital?', answer: 'Absolutely. Mobile notaries are specifically designed to travel to your location, whether that is your home, a hospital, an assisted living facility, or your office. This is especially valuable when the principal is elderly, hospitalized, or has limited mobility. Just Legal Solutions offers mobile notary services across all 77 Oklahoma counties, including same-day and rush appointments for urgent POA notarization needs.' },
   { question: 'What happens if a power of attorney is not properly notarized?', answer: 'If a power of attorney is not properly notarized, financial institutions, healthcare providers, and courts may refuse to recognize or honor the document. This can cause serious delays in managing financial affairs, making healthcare decisions, or handling legal matters on behalf of the principal. An improperly notarized POA may also be challenged in court, creating costly legal complications for the family. Proper notarization protects all parties involved.' },
-  { question: 'How much does it cost to notarize a power of attorney in Oklahoma?', answer: 'The cost to notarize a power of attorney depends on several factors including whether you visit a notary\'s office or request mobile service, the number of signatures requiring notarization, and how quickly you need the service completed. For current pricing on all our notary services, visit our <a href="/pricing">pricing page</a>. Just Legal Solutions offers transparent, upfront pricing with no hidden fees.' },
+  { question: 'How much does it cost to notarize a power of attorney in Oklahoma?', answer: 'The cost to notarize a power of attorney depends on several factors including whether you visit a notary\ This guidance helps avoid delays, improves compliance, and supports stronger court-ready documentation in Oklahoma matters.'s office or request mobile service, the number of signatures requiring notarization, and how quickly you need the service completed. For current pricing on all our notary services, visit our <a href="/pricing">pricing page</a>. Just Legal Solutions offers transparent, upfront pricing with no hidden fees.' },
 ];
 
 export default function BlogPost() {
@@ -54,6 +56,7 @@ export default function BlogPost() {
         </nav>
         <h1 className="text-3xl md:text-4xl font-bold mb-6">Oklahoma Power of Attorney Notarization: Requirements and Process</h1>
         <p className="text-gray-600 mb-8 text-lg">A power of attorney is one of the most important legal documents you can create — but only if it is properly executed and notarized. At Just Legal Solutions, our team brings 50+ years of combined experience in legal document services and has served thousands of documents across all 77 Oklahoma counties. Licensed and bonded under Oklahoma Title 12 O.S. 158.1, we help individuals and families navigate the notarization process with confidence. Whether you need a durable, medical, financial, or limited power of attorney notarized, this guide covers everything you need to know to ensure your document is legally valid in the State of Oklahoma.</p>
+        <p className="mb-4">Deadlines often rely on 12 O.S. 2004, and notarial rules may involve Title 49 O.S.</p>
 
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">Understanding the Types of Power of Attorney in Oklahoma</h2>
@@ -134,6 +137,16 @@ export default function BlogPost() {
             <li><Link href="/blog/oklahoma-notary-public-act-explained" className="text-blue-600 hover:underline">Oklahoma Notary Public Act Explained: A Complete Guide</Link></li>
             <li><Link href="/blog/oklahoma-real-estate-closing-notary" className="text-blue-600 hover:underline">Oklahoma Real Estate Closing Notary: What to Expect at Closing</Link></li>
             <li><Link href="/blog/oklahoma-notary-vs-attorney-whats-difference" className="text-blue-600 hover:underline">Oklahoma Notary vs. Attorney: Understanding the Difference</Link></li>
+          </ul>
+        </section>
+
+        
+        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related Oklahoma Resources</h2>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li><Link href="/blog/mobile-notary-tulsa-guide" className="text-blue-600 hover:underline">Mobile Notary Guide for Tulsa and Oklahoma</Link></li>
+            <li><Link href="/blog/ron-vs-mobile-notary-oklahoma" className="text-blue-600 hover:underline">RON vs Mobile Notary in Oklahoma</Link></li>
+            <li><Link href="/blog/how-to-apostille-document-oklahoma" className="text-blue-600 hover:underline">How to Apostille a Document in Oklahoma</Link></li>
           </ul>
         </section>
 

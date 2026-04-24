@@ -10,15 +10,19 @@ import {
 } from "../components";
 
 export const metadata: Metadata = {
-  title:
-    "What's the Difference Between a Notary and a Lawyer? | Just Legal Solutions",
-  description:
-    "Learn the key differences between notaries and lawyers, what notaries can and cannot do, when you need an attorney, and rules against the unauthorized practice of law in Oklahoma.",
+  title: "What\"s the Difference Between a Notary and a Lawyer? | Ju...',
+  description: "Learn the key differences between notaries and lawyers, what notaries can and cannot do, when you need an attorney, and rules against the unauthorized practice",
   keywords:
     "notary vs lawyer, difference between attorney and notary, notary legal advice, unauthorized practice of law Oklahoma, what can notaries do",
   alternates: {
     canonical:
       "https://justlegalsolutions.org/blog/difference-between-notary-and-lawyer",
+  },
+  other: {
+    'ai-content-type': 'article',
+    'ai-summary': 'Learn the key differences between notaries and lawyers, what notaries can and cannot do, when you need an attorney, and rules against the unauthorized practice Includes Oklahoma notary compliance context and practical document guidance.',s the Difference Between a Notary and a Lawyer? | Ju... helps Oklahoma clients understand requirements quickly.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
   },
 };
 
@@ -632,6 +636,7 @@ export default function NotaryVsLawyerPage() {
         </section>
       </main>
 
+            <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
       <Footer />
     </div>

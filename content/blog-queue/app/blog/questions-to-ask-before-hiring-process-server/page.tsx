@@ -10,15 +10,19 @@ import {
 } from "../components";
 
 export const metadata: Metadata = {
-  title:
-    "25 Questions to Ask Before Hiring a Process Server | Just Legal Solutions",
-  description:
-    "The complete checklist of 25 essential questions to ask before hiring a process server. Covering licensing, pricing, methods, proof of service, and timelines for Oklahoma.",
+  title: "25 Questions to Ask Before Hiring a Process Server | Just...",
+  description: "The complete checklist of 25 essential questions to ask before hiring a process server. Covering licensing, pricing, methods, proof of service, and timelines fo",
   keywords:
     "questions to ask process server, interview process server, hire process server checklist, Oklahoma process server hiring, process server qualifications",
   alternates: {
     canonical:
       "https://justlegalsolutions.org/blog/questions-to-ask-before-hiring-process-server",
+  },
+  other: {
+    'ai-content-type': 'article',
+    'ai-summary': 'The complete checklist of 25 essential questions to ask before hiring a process server. Covering licensing, pricing, methods, proof of service, and timelines fo Includes Oklahoma service-of-process compliance context and practical filing guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
   },
 };
 
@@ -688,6 +692,7 @@ export default function QuestionsToAskProcessServerPage() {
         </article>
       </main>
 
+            <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
       <Footer />
     </div>

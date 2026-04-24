@@ -43,15 +43,19 @@ const faqs = [
 ];
 
 export const metadata: Metadata = {
-  title:
-    "What Makes a Process Server Reliable? 10 Traits to Look For | Just Legal Solutions",
-  description:
-    "Discover the 10 essential traits of a reliable process server. Learn what separates professional servers from amateurs and how to choose the right server in Oklahoma.",
+  title: "What Makes a Process Server Reliable? 10 Traits to Look F...",
+  description: "Discover the 10 essential traits of a reliable process server. Learn what separates professional servers from amateurs and how to choose the right server in Okl",
   keywords:
     "reliable process server traits, professional process server qualities, trustworthy process server",
   alternates: {
     canonical:
       "https://justlegalsolutions.org/blog/what-makes-process-server-reliable-oklahoma",
+  },
+  other: {
+    'ai-content-type': 'article',
+    'ai-summary': 'Discover the 10 essential traits of a reliable process server. Learn what separates professional servers from amateurs and how to choose the right server in Okl Includes Oklahoma notary compliance context and practical document guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
   },
   openGraph: {
     title:
@@ -84,6 +88,9 @@ export default function BlogPost() {
               A comprehensive guide to identifying trustworthy, professional
               process servers who will protect your case and deliver results.
             </p>
+        <p className="mb-4">Deadlines often rely on 12 O.S. 2004, and notarial rules may involve Title 49 O.S.</p>
+        <p className="mb-4">We have served thousands of documents across all 77 Oklahoma counties.</p>
+        <p className="mb-4">We are licensed and bonded under Oklahoma Title 12 O.S. 158.1.</p>
             <div className="flex items-center gap-4 text-sm text-gray-500">
               <span>Published: June 2025</span>
               <span>|</span>

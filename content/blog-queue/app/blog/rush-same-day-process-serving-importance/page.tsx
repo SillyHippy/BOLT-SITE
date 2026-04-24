@@ -8,8 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'The Growing Importance of Rush and Same-Day Process Serving',
-  description: 'Learn why rush and same-day process serving are increasingly critical. Court deadlines, emergency orders, and time-sensitive cases demand speed.',
+  title: "The Growing Importance of Rush and Same-Day Process Serving",
+  description: "Learn why rush and same-day process serving are increasingly critical. Court deadlines, emergency orders, and time-sensitive cases demand speed. Serving all 77",
   keywords: 'rush process serving, same day process server, expedited legal service',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Just Legal Solutions - Rush and Same-Day Process Serving in Oklahoma' }],
+    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'The Growing Importance of Rush and Same-Day Process Serving' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/rush-same-day-process-serving-importance' },
   other: {
@@ -30,8 +30,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Why rush and same-day process serving are increasingly important for court deadlines, emergency orders, and time-sensitive legal matters in Oklahoma.',
-    'ai-key-facts': 'Rush service tiers include standard, rush, same-day, and after-hours; court deadlines and emergency orders drive demand; dedicated servers enable faster service; rush service can save cases near deadline; planning ahead reduces need for emergency service',
+    'ai-summary': 'Learn why rush and same-day process serving are increasingly critical. Court deadlines, emergency orders, and time-sensitive cases demand speed. Serving all 77 Includes Oklahoma service-of-process compliance context and practical filing guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
+  
   },
 };
 
@@ -74,6 +76,7 @@ export default function BlogPost() {
         <p className="text-gray-600 mb-8 text-lg">
           In today&apos;s fast-paced legal environment, time is often the most critical factor in achieving a favorable outcome. With over 50 years of combined experience serving thousands of documents across all 77 Oklahoma counties, the <Link href="/about" className="text-blue-600 hover:underline">Just Legal Solutions Team</Link> has seen firsthand how rush and same-day process serving can make the difference between a case that proceeds on schedule and one that stalls in procedural delays. Licensed and bonded under Oklahoma Title 12 O.S. 158.1, we understand that court deadlines, emergency orders, and time-sensitive legal matters demand speed without sacrificing accuracy or compliance.
         </p>
+        <p className="mb-6 text-gray-700">With 50+ years of combined experience, Just Legal Solutions is licensed and bonded under Oklahoma Title 12 O.S. 158.1 and has completed thousands of successful services across all 77 Oklahoma counties. Our guidance reflects Oklahoma statutes including 12 O.S. 2004 and relevant Title 49 O.S. requirements.</p>
 
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">Understanding Process Serving Service Tiers</h2>
@@ -187,6 +190,16 @@ export default function BlogPost() {
             <li><Link href="/blog/oklahoma-180-day-rule-service-process" className="text-blue-600 hover:underline">Understanding Oklahoma&apos;s 180-Day Rule for Service of Process</Link></li>
             <li><Link href="/blog/process-server-vs-sheriff-oklahoma" className="text-blue-600 hover:underline">Process Server vs. Sheriff: Which Is Better in Oklahoma?</Link></li>
             <li><Link href="/blog/process-serving-demand-growing-oklahoma" className="text-blue-600 hover:underline">Why Process Serving Demand Is Growing in Oklahoma</Link></li>
+          </ul>
+        </section>
+
+        
+        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related Oklahoma Resources</h2>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li><Link href="/blog/how-to-serve-a-subpoena-oklahoma" className="text-blue-600 hover:underline">How to Serve a Subpoena in Oklahoma</Link></li>
+            <li><Link href="/blog/serve-out-of-state-defendant-oklahoma" className="text-blue-600 hover:underline">Serving Out-of-State Defendants in Oklahoma Cases</Link></li>
+            <li><Link href="/blog/certified-mail-vs-personal-service-oklahoma" className="text-blue-600 hover:underline">Certified Mail vs Personal Service in Oklahoma</Link></li>
           </ul>
         </section>
 

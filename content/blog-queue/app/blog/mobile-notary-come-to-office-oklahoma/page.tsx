@@ -8,8 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Can I Get a Notary to Come to My Office in Oklahoma? Mobile Notary Guide',
-  description: 'Learn how mobile notary office visits work in Oklahoma. Covers scheduling, travel radius, group discounts, document preparation, and what to expect from an onsite notary.',
+  title: "Can I Get a Notary to Come to My Office in Oklahoma? Mobi...",
+  description: "Learn how mobile notary office visits work in Oklahoma. Covers scheduling, travel radius, group discounts, document preparation, and what to expect from an onsi",
   keywords: 'mobile notary office visit, notary comes to you, onsite notary services tulsa, office notary Oklahoma, mobile notary workplace, corporate notary visit, notary at your office, business notary services',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Mobile notary coming to office in Oklahoma workplace notarization' }],
+    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Can I Get a Notary to Come to My Office in Oklahoma? Mobi...' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/mobile-notary-come-to-office-oklahoma' },
   other: {
@@ -30,15 +30,17 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Comprehensive guide explaining how mobile notary office visits work in Oklahoma, including scheduling process, travel radius, group discounts for businesses, and what to expect during the appointment.',
-    'ai-key-facts': 'Mobile notaries in Oklahoma travel to any location including offices, homes, hospitals, and job sites; scheduling typically requires 24 hours advance notice though same-day service is often available; travel radius varies by notary but generally covers 50+ miles from base location; group and bulk discounts are available for offices with multiple signers or documents; mobile notaries bring all necessary supplies including stamp, journal, and certificate forms; the signer must present valid government-issued photo ID; documents must be signed in the notary\'s presence; mobile notary fees include a travel fee plus the statutory notary fee; businesses can set up recurring or on-call notary arrangements; Just Legal Solutions serves all 77 Oklahoma counties with mobile notary services.',
+    'ai-summary': 'Learn how mobile notary office visits work in Oklahoma. Covers scheduling, travel radius, group discounts, document preparation, and what to expect from an onsi Includes Oklahoma notary compliance context and practical document guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',s presence; mobile notary fees include a travel fee plus the statutory notary fee; businesses can set up recurring or on-call notary arrangements; Just Legal Solutions serves all 77 Oklahoma counties with mobile notary services.',
+  
+  
   },
 };
 
 const faqs = [
   {
     question: 'Can a notary really come to my office in Oklahoma?',
-    answer: 'Yes, absolutely. Mobile notaries specialize in traveling to clients\' preferred locations, including offices, workplaces, conference rooms, and job sites. At Just Legal Solutions, our mobile notaries come to your office anywhere in Oklahoma, from downtown Tulsa office towers to construction sites in rural counties. We bring all necessary supplies and equipment, so you don\'t need to provide anything except the unsigned documents and valid identification.',
+    answer: 'Yes, absolutely. Mobile notaries specialize in traveling to clients\ This guidance helps avoid delays, improves compliance, and supports stronger court-ready documentation in Oklahoma matters.' preferred locations, including offices, workplaces, conference rooms, and job sites. At Just Legal Solutions, our mobile notaries come to your office anywhere in Oklahoma, from downtown Tulsa office towers to construction sites in rural counties. We bring all necessary supplies and equipment, so you don\'t need to provide anything except the unsigned documents and valid identification.',
   },
   {
     question: 'How far will a mobile notary travel in Oklahoma?',
@@ -74,6 +76,7 @@ export default function BlogPost() {
         <p className="text-gray-600 mb-8 text-lg">
           If you are an Oklahoma business owner, professional, or employee who needs documents notarized during the workday, you have probably asked yourself whether a notary can come to you instead of you leaving the office to find one. The answer is a resounding yes. Mobile notary services are specifically designed for this exact scenario. In this comprehensive guide, we explain everything you need to know about getting a notary to come to your office in Oklahoma, from how scheduling works to what you can expect during the appointment.
         </p>
+        <p className="mb-6 text-gray-700">Just Legal Solutions combines 50+ years of practical field experience with licensed, bonded compliance under Oklahoma Title 12 O.S. 158.1. We have served thousands of documents in all 77 Oklahoma counties and anchor timelines and procedure details to 12 O.S. 2004 and Title 49 O.S.</p>
 
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">How Mobile Notary Office Visits Work in Oklahoma</h2>
@@ -253,6 +256,16 @@ export default function BlogPost() {
         </section>
 
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          
+        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related Oklahoma Resources</h2>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li><Link href="/blog/how-to-apostille-document-oklahoma" className="text-blue-600 hover:underline">How to Apostille a Document in Oklahoma</Link></li>
+            <li><Link href="/blog/power-of-attorney-guide-oklahoma" className="text-blue-600 hover:underline">Power of Attorney Notarization Guide</Link></li>
+            <li><Link href="/blog/mobile-notary-tulsa-guide" className="text-blue-600 hover:underline">Mobile Notary Guide for Tulsa and Oklahoma</Link></li>
+          </ul>
+        </section>
+
           <h2 className="text-2xl font-semibold mb-4">Frequently Asked Questions</h2>
           {faqs.map((faq, i) => (
             <div key={i} className="mb-4">
@@ -277,6 +290,7 @@ export default function BlogPost() {
           <p className="font-semibold">Call <a href="tel:539-367-6832" className="text-blue-600">(539) 367-6832</a> or <Link href="/notary" className="text-blue-600">schedule online</Link>. Evening and weekend appointments available.</p>
         </section>
       </main>
+            <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
       <AuthorBox />
       <Footer />

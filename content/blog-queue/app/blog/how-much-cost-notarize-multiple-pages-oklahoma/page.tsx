@@ -10,15 +10,19 @@ import {
 } from "../components";
 
 export const metadata: Metadata = {
-  title:
-    "How Much Does It Cost to Notarize Multiple Pages in Oklahoma? | Just Legal Solutions",
-  description:
-    "Understanding Oklahoma notary pricing for multi-page documents, bulk notarization discounts, travel fees, mobile notary premiums, and per-signature vs per-document pricing.",
+  title: "How Much Does It Cost to Notarize Multiple Pages in Oklah...",
+  description: "Understanding Oklahoma notary pricing for multi-page documents, bulk notarization discounts, travel fees, mobile notary premiums, and per-signature vs per-docum",
   keywords:
     "notary cost per page, multiple document notarization, bulk notary fees, Oklahoma notary pricing, mobile notary cost",
   alternates: {
     canonical:
       "https://justlegalsolutions.org/blog/how-much-cost-notarize-multiple-pages-oklahoma",
+  },
+  other: {
+    'ai-content-type': 'article',
+    'ai-summary': 'Understanding Oklahoma notary pricing for multi-page documents, bulk notarization discounts, travel fees, mobile notary premiums, and per-signature vs per-docum Includes Oklahoma notary compliance context and practical document guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
   },
 };
 
@@ -592,6 +596,7 @@ export default function MultiplePagesNotaryCostPage() {
         </section>
       </main>
 
+            <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
       <Footer />
     </div>

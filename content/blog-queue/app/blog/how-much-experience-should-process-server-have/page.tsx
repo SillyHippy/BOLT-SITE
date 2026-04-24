@@ -43,15 +43,19 @@ const faqs = [
 ];
 
 export const metadata: Metadata = {
-  title:
-    "How Much Experience Should a Process Server Have? | Just Legal Solutions",
-  description:
-    "Learn about process server experience requirements, why experience matters, and what qualifications to look for when hiring a process server in Oklahoma.",
+  title: "How Much Experience Should a Process Server Have? | Just...",
+  description: "Learn about process server experience requirements, why experience matters, and what qualifications to look for when hiring a process server in Oklahoma.",
   keywords:
     "process server experience requirements, qualified process server, experienced process server oklahoma",
   alternates: {
     canonical:
       "https://justlegalsolutions.org/blog/how-much-experience-should-process-server-have",
+  },
+  other: {
+    'ai-content-type': 'article',
+    'ai-summary': 'Learn about process server experience requirements, why experience matters, and what qualifications to look for when hiring a process server in Oklahoma. Includes Oklahoma service-of-process compliance context and practical filing guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
   },
   openGraph: {
     title:
@@ -569,6 +573,7 @@ export default function BlogPost() {
           <AuthorBox />
         </article>
       </main>
+            <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
       <Footer />
       <UnifiedSchema

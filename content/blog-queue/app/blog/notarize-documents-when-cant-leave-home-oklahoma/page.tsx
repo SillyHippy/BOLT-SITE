@@ -8,8 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'How to Notarize Documents When You Cannot Leave Your Home in Oklahoma',
-  description: 'Homebound, in a hospital, or caring for an elderly loved one? Learn how mobile <Link href="/notary" className="text-blue-600">notary services</Link> bring document authentication to your doorstep across Oklahoma.',
+  title: "How to Notarize Documents When You Cannot Leave Your Home...",
+  description: "Homebound, in a hospital, or caring for an elderly loved one? Learn how mobile <Link href=\"/notary\" className=\"text-blue-600\">notary services</Link> bring docum",
   keywords: 'homebound notary, mobile notary house call, notary for elderly, hospital notary, nursing home notary oklahoma, hospice notary, notary comes to you',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Mobile Notary Homebound Hospital Nursing Home Oklahoma' }],
+    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'How to Notarize Documents When You Cannot Leave Your Home...' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/notarize-documents-when-cant-leave-home-oklahoma' },
   other: {
@@ -30,8 +30,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-05-28',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Comprehensive guide to mobile notary options for homebound individuals in Oklahoma, covering hospital notarization, nursing home services, hospice care situations, accessibility accommodations, how to prepare, and what to expect during an in-home notary appointment.',
-    'ai-key-facts': 'Mobile notaries travel to homes hospitals nursing homes and hospice facilities across Oklahoma; Oklahoma law allows notarization anywhere the signer and notary can meet; Credible witnesses can substitute for photo ID when signers lack identification; Notaries must assess signer competency and voluntariness in all settings; Mobile notary fees in Oklahoma include reasonable travel charges; Same-day mobile notary service is available in all 77 Oklahoma counties.',
+    'ai-summary': 'Homebound, in a hospital, or caring for an elderly loved one? Learn how mobile <Link href= Includes Oklahoma notary compliance context and practical document guidance.',/notary" className="text-blue-600">notary services</Link> bring docum How to Notarize Documents When You Cannot Leave Your Home... helps Oklahoma clients understand requirements quickly.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
+  
   },
 };
 
@@ -75,6 +77,7 @@ export default function BlogPost() {
         <p className="text-gray-600 mb-8 text-lg">
           Life does not always allow a trip to the notary's office. Whether you are recovering from surgery at home, caring for an aging parent in a nursing home, sitting bedside with a loved one in hospice, or managing a chronic condition that makes travel difficult — your legal documents still need to be notarized. The good news is that <strong>Oklahoma law fully supports mobile notarization</strong>, and professional mobile notaries can come to you wherever you are. At <Link href="/" className="text-blue-600">Just Legal Solutions</Link>, we specialize in bringing notary services to homes, hospitals, nursing facilities, and hospice centers across all 77 Oklahoma counties. This guide explains everything you need to know about getting documents notarized when you cannot leave home.
         </p>
+        <p className="mb-6 text-gray-700">At Just Legal Solutions, we pair 50+ years of combined experience with licensed, bonded operations under Oklahoma Title 12 O.S. 158.1. Our team has served thousands of documents in all 77 Oklahoma counties, with procedure guidance grounded in 12 O.S. 2004 and Title 49 O.S.</p>
 
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">Why You Might Need a Mobile Notary at Home</h2>
@@ -247,6 +250,16 @@ export default function BlogPost() {
           </p>
         </section>
 
+        
+        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related Oklahoma Resources</h2>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li><Link href="/blog/mobile-notary-tulsa-guide" className="text-blue-600 hover:underline">Mobile Notary Guide for Tulsa and Oklahoma</Link></li>
+            <li><Link href="/blog/ron-vs-mobile-notary-oklahoma" className="text-blue-600 hover:underline">RON vs Mobile Notary in Oklahoma</Link></li>
+            <li><Link href="/blog/how-to-apostille-document-oklahoma" className="text-blue-600 hover:underline">How to Apostille a Document in Oklahoma</Link></li>
+          </ul>
+        </section>
+
         {/* FAQ SECTION */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">Frequently Asked Questions</h2>
@@ -275,6 +288,7 @@ export default function BlogPost() {
           <p className="font-semibold">Call <a href="tel:539-367-6832" className="text-blue-600">(539) 367-6832</a> or <Link href="/" className="text-blue-600">request service online</Link>. We come to you — wherever you are.</p>
         </section>
       </main>
+            <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
       <AuthorBox />
       <Footer />

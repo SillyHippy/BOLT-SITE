@@ -8,8 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'What Documents Cannot Be Notarized in Oklahoma?',
-  description: 'Not all documents can be notarized in Oklahoma. Learn the complete list of prohibited documents, incomplete forms, blank documents, ID issues, and conflicts that prevent notarization.',
+  title: "What Documents Cannot Be Notarized in Oklahoma?",
+  description: "Not all documents can be notarized in Oklahoma. Learn the complete list of prohibited documents, incomplete forms, blank documents, ID issues, and conflicts tha",
   keywords: 'documents that cannot be notarized, notary limitations, what notary can\'t notarize, Oklahoma notary restrictions, prohibited notarization documents',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Documents That Cannot Be Notarized in Oklahoma' }],
+    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'What Documents Cannot Be Notarized in Oklahoma?' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/what-documents-cannot-be-notarized-oklahoma' },
   other: {
@@ -30,8 +30,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Comprehensive guide to documents and situations that cannot be notarized in Oklahoma, covering incomplete documents, blank documents, identification failures, conflicts of interest, incapacity, and documents not requiring notarization.',
-    'ai-key-facts': 'Oklahoma notaries cannot notarize incomplete documents or documents with blank spaces; A notary cannot notarize without satisfactory evidence of the signer\'s identity; Documents requiring the signer to be present cannot be notarized remotely without RON; Notaries cannot notarize their own signatures or documents in which they have a financial interest; Wills and certain estate documents may have special witnessing requirements; Documents in a language the signer does not understand cannot be notarized; A notary cannot notarize if the signer appears mentally incapacitated or under duress.',
+    'ai-summary': 'Not all documents can be notarized in Oklahoma. Learn the complete list of prohibited documents, incomplete forms, blank documents, ID issues, and conflicts tha Includes Oklahoma notary compliance context and practical document guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',s identity; Documents requiring the signer to be present cannot be notarized remotely without RON; Notaries cannot notarize their own signatures or documents in which they have a financial interest; Wills and certain estate documents may have special witnessing requirements; Documents in a language the signer does not understand cannot be notarized; A notary cannot notarize if the signer appears mentally incapacitated or under duress.',
+  
+  
   },
 };
 
@@ -42,7 +44,7 @@ const faqs = [
   },
   {
     question: 'Can a notary notarize a document if the signer does not have valid ID?',
-    answer: 'No. Oklahoma law requires a notary to have satisfactory evidence of the signer's identity before performing a notarization. "Satisfactory evidence" typically means a current government-issued photo ID — such as a driver\'s license, state ID card, passport, or military ID. If you do not have acceptable ID, there are limited alternatives. You may be able to use credible identifying witnesses — individuals who personally know you and are willing to swear to your identity under oath. The witness must have their own valid ID and cannot have a financial interest in the document. However, not all notaries are comfortable with this method, and some transactions specifically require government-issued photo ID. If your ID has expired, most notaries will not accept it, though there is a narrow exception if the ID was issued within the past five years and you have additional supporting documents. At Just Legal Solutions, we recommend bringing a current, unexpired government-issued photo ID to every notarization appointment.',
+    answer: 'No. Oklahoma law requires a notary to have satisfactory evidence of the signer This guidance helps avoid delays, improves compliance, and supports stronger court-ready documentation in Oklahoma matters.'s identity before performing a notarization. "Satisfactory evidence" typically means a current government-issued photo ID — such as a driver\'s license, state ID card, passport, or military ID. If you do not have acceptable ID, there are limited alternatives. You may be able to use credible identifying witnesses — individuals who personally know you and are willing to swear to your identity under oath. The witness must have their own valid ID and cannot have a financial interest in the document. However, not all notaries are comfortable with this method, and some transactions specifically require government-issued photo ID. If your ID has expired, most notaries will not accept it, though there is a narrow exception if the ID was issued within the past five years and you have additional supporting documents. At Just Legal Solutions, we recommend bringing a current, unexpired government-issued photo ID to every notarization appointment.',
   },
   {
     question: 'Can a notary notarize their own signature or a document they are party to?',
@@ -83,6 +85,7 @@ export default function BlogPost() {
         <p className="text-gray-600 mb-8 text-lg">
           Not every document can or should be notarized. While notaries public serve an essential function in authenticating signatures and preventing fraud, there are clear legal boundaries around what a notary can and cannot do. Understanding these limitations protects everyone involved — the signer, the notary, and the parties relying on the notarized document. At <Link href="/" className="text-blue-600">Just Legal Solutions</Link>, our commissioned Oklahoma notaries encounter requests that must be declined on a regular basis, and explaining these boundaries to our clients is part of our professional responsibility. In this comprehensive guide, we will walk you through the complete list of documents and situations that cannot be notarized under Oklahoma law, explain the reasoning behind each restriction, and offer guidance on how to handle these situations properly.
         </p>
+        <p className="mb-6 text-gray-700">Clients trust Just Legal Solutions for 50+ years of combined experience, licensed and bonded service under Oklahoma Title 12 O.S. 158.1, and statewide execution across all 77 Oklahoma counties. We reference 12 O.S. 2004 and Title 49 O.S. standards to keep filings and service defensible.</p>
 
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">Understanding a Notary's Core Duties and Limitations</h2>
@@ -227,6 +230,16 @@ export default function BlogPost() {
           </p>
         </section>
 
+        
+        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related Oklahoma Resources</h2>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li><Link href="/blog/power-of-attorney-guide-oklahoma" className="text-blue-600 hover:underline">Power of Attorney Notarization Guide</Link></li>
+            <li><Link href="/blog/mobile-notary-tulsa-guide" className="text-blue-600 hover:underline">Mobile Notary Guide for Tulsa and Oklahoma</Link></li>
+            <li><Link href="/blog/ron-vs-mobile-notary-oklahoma" className="text-blue-600 hover:underline">RON vs Mobile Notary in Oklahoma</Link></li>
+          </ul>
+        </section>
+
         {/* FAQ SECTION */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">Frequently Asked Questions</h2>
@@ -255,6 +268,7 @@ export default function BlogPost() {
           <p className="font-semibold">Call <a href="tel:539-367-6832" className="text-blue-600">(539) 367-6832</a> or <Link href="/" className="text-blue-600">request service online</Link>. Same-day appointments available.</p>
         </section>
       </main>
+            <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
       <AuthorBox />
       <Footer />

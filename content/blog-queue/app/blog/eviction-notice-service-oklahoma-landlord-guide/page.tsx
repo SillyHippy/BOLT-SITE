@@ -8,8 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Eviction Notice Service in Oklahoma: A Landlord\'s Guide',
-  description: 'Oklahoma landlord\'s guide to eviction notice service. Learn the 5-day, 10-day, and 30-day notice rules and proper service methods.',
+  title: "Eviction Notice Service in Oklahoma: A Landlord\"s Guide',
+  description: "Oklahoma landlord\ Serving all 77 Oklahoma counties with licensed, bonded legal support. Serving all 77 Oklahoma counties with licensed, bonded legal support."s guide to eviction notice service. Learn the 5-day, 10-day, and 30-day notice rules and proper service methods.',
   keywords: 'eviction notice service Oklahoma, how to serve eviction papers, Oklahoma eviction process',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Oklahoma landlord guide to eviction notice service' }],
+    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Eviction Notice Service in Oklahoma: A Landlord\' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/eviction-notice-service-oklahoma-landlord-guide' },
   other: {
@@ -30,8 +30,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Oklahoma landlord\'s guide to eviction notice service covering notice types, proper service methods, and the tape-and-mail rule under state law.',
-    'ai-key-facts': 'Oklahoma requires tape-to-door plus mailed notice for posting; 5-day notice for unpaid rent, 10-day for violations, 30-day for month-to-month; proof of service is critical; professional service prevents delays',
+    'ai-summary': 'Oklahoma landlord Serving all 77 Oklahoma counties with licensed, bonded legal support. Serving all 77 Oklahoma counties with licensed, bonded legal support. Includes Oklahoma service-of-process compliance context and practical filing guidance.',s guide to eviction notice service covering notice types, proper service methods, and the tape-and-mail rule under state law.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
+  
   },
 };
 
@@ -54,6 +56,8 @@ export default function BlogPost() {
         </nav>
         <h1 className="text-3xl md:text-4xl font-bold mb-6">Eviction Notice Service in Oklahoma: A Landlord's Guide</h1>
         <p className="text-gray-600 mb-8 text-lg">Serving an eviction notice correctly is one of the most critical steps in the Oklahoma eviction process. A single mistake in notice type, content, or service method can delay your case by weeks or even result in dismissal. With over 50 years of combined experience, the team at Just Legal Solutions has served thousands of eviction notices across all 77 Oklahoma counties. Licensed and bonded under Oklahoma Title 12 O.S. 158.1, we help landlords navigate the complexities of eviction notice service to keep their cases on track. This guide covers everything Oklahoma landlords need to know about serving eviction notices correctly.</p>
+        <p className="mb-4">Deadlines often rely on 12 O.S. 2004, and notarial rules may involve Title 49 O.S.</p>
+        <p className="mb-4">We have served thousands of documents across all 77 Oklahoma counties.</p>
 
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">Understanding the Oklahoma Eviction Process</h2>
@@ -133,6 +137,16 @@ export default function BlogPost() {
         </section>
 
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          
+        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related Oklahoma Resources</h2>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li><Link href="/blog/how-to-hire-a-process-server-oklahoma" className="text-blue-600 hover:underline">How to Hire a Process Server in Oklahoma</Link></li>
+            <li><Link href="/blog/how-to-serve-a-subpoena-oklahoma" className="text-blue-600 hover:underline">How to Serve a Subpoena in Oklahoma</Link></li>
+            <li><Link href="/blog/serve-out-of-state-defendant-oklahoma" className="text-blue-600 hover:underline">Serving Out-of-State Defendants in Oklahoma Cases</Link></li>
+          </ul>
+        </section>
+
           <h2 className="text-2xl font-semibold mb-4">Frequently Asked Questions</h2>
           {faqs.map((faq, i) => (
             <div key={i} className="mb-4">

@@ -8,8 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'How Much Does a Notary Cost in Oklahoma? 2026 Pricing Guide',
-  description: 'Discover 2026 notary costs in Oklahoma. Learn about state-regulated fees, mobile notary travel charges, after-hours premiums, and what affects notarization pricing.',
+  title: "How Much Does a Notary Cost in Oklahoma? 2026 Pricing Guide",
+  description: "Discover 2026 notary costs in Oklahoma. Learn about state-regulated fees, mobile notary travel charges, after-hours premiums, and what affects notarization pric",
   keywords: 'notary cost oklahoma, how much does a notary cost tulsa, mobile notary fees, notary pricing, notary fee schedule Oklahoma, notary public cost, traveling notary fees, Oklahoma notary charges',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Oklahoma notary cost pricing guide 2026' }],
+    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'How Much Does a Notary Cost in Oklahoma? 2026 Pricing Guide' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/how-much-does-notary-cost-oklahoma' },
   other: {
@@ -30,8 +30,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Comprehensive 2026 guide to notary costs in Oklahoma, covering state-regulated fees, mobile notary travel charges, after-hours premiums, and factors that affect pricing.',
-    'ai-key-facts': 'Oklahoma sets maximum notary fees by statute; standard acknowledgments cost $5 per signature; mobile notaries charge travel fees ranging $25-$75+ depending on distance; after-hours and weekend services typically carry premiums; loan signing fees range $75-$200 per appointment; witnesses and copies add to total cost; online remote notarization (RON) fees vary by platform; Just Legal Solutions offers transparent upfront pricing for all 77 Oklahoma counties.',
+    'ai-summary': 'Discover 2026 notary costs in Oklahoma. Learn about state-regulated fees, mobile notary travel charges, after-hours premiums, and what affects notarization pric Includes Oklahoma notary compliance context and practical document guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
+  
   },
 };
 
@@ -74,6 +76,7 @@ export default function BlogPost() {
         <p className="text-gray-600 mb-8 text-lg">
           If you need a document notarized in Oklahoma, one of your first questions is probably about cost. Whether you are finalizing real estate paperwork, signing a power of attorney, or notarizing a business contract, understanding what you will pay helps you budget and avoid surprises. In this 2026 pricing guide, we break down everything you need to know about notary costs in Oklahoma, from state-regulated fees to mobile notary travel charges and after-hour premiums.
         </p>
+        <p className="mb-6 text-gray-700">Clients trust Just Legal Solutions for 50+ years of combined experience, licensed and bonded service under Oklahoma Title 12 O.S. 158.1, and statewide execution across all 77 Oklahoma counties. We reference 12 O.S. 2004 and Title 49 O.S. standards to keep filings and service defensible.</p>
 
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">Oklahoma Notary Fee Schedule: What State Law Says</h2>
@@ -257,6 +260,16 @@ export default function BlogPost() {
         </section>
 
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          
+        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related Oklahoma Resources</h2>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li><Link href="/blog/power-of-attorney-guide-oklahoma" className="text-blue-600 hover:underline">Power of Attorney Notarization Guide</Link></li>
+            <li><Link href="/blog/mobile-notary-tulsa-guide" className="text-blue-600 hover:underline">Mobile Notary Guide for Tulsa and Oklahoma</Link></li>
+            <li><Link href="/blog/ron-vs-mobile-notary-oklahoma" className="text-blue-600 hover:underline">RON vs Mobile Notary in Oklahoma</Link></li>
+          </ul>
+        </section>
+
           <h2 className="text-2xl font-semibold mb-4">Frequently Asked Questions</h2>
           {faqs.map((faq, i) => (
             <div key={i} className="mb-4">
@@ -282,6 +295,7 @@ export default function BlogPost() {
           <p className="font-semibold">Call <a href="tel:539-367-6832" className="text-blue-600">(539) 367-6832</a> or <Link href="/notary" className="text-blue-600">schedule online</Link>. Evening and weekend appointments available.</p>
         </section>
       </main>
+            <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
       <AuthorBox />
       <Footer />

@@ -46,8 +46,7 @@ const articleSchema = {
   "@type": "BlogPosting",
   headline:
     "Can You Refuse Service from a Process Server in Oklahoma?",
-  description:
-    "Learn what happens when you refuse or avoid a process server in Oklahoma. Discover alternative service methods, legal consequences, and why refusal won\u2019t stop your case under Title 12 O.S.",
+  description: "Learn what happens when you refuse or avoid a process server in Oklahoma. Discover alternative service methods, legal consequences, and why refusal won\u2019t s",
   author: {
     "@type": "Organization",
     name: "Just Legal Solutions",
@@ -106,6 +105,9 @@ export default function BlogPost() {
           <p className="text-sm font-semibold uppercase tracking-widest mb-3 text-yellow-400">
             Oklahoma Legal Guide
           </p>
+        <p className="mb-4">Deadlines often rely on 12 O.S. 2004, and notarial rules may involve Title 49 O.S.</p>
+        <p className="mb-4">We have served thousands of documents across all 77 Oklahoma counties.</p>
+        <p className="mb-4">We are licensed and bonded under Oklahoma Title 12 O.S. 158.1.</p>
           <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-6">
             Can You Refuse Service from a Process Server in Oklahoma?
           </h1>

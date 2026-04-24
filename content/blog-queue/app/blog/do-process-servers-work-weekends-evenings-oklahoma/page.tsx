@@ -29,8 +29,8 @@ const faqs = [
 ];
 
 export const metadata: Metadata = {
-  title: "Do Process Servers Work Weekends and Evenings in Oklahoma? | Just Legal Solutions",
-  description: "Learn when Oklahoma process servers work, including weekends and evenings. Understand the law (Title 12 O.S. § 2004), after-hours availability, rush service options, and 24/7 serving across all 77 Oklahoma counties.",
+  title: "Do Process Servers Work Weekends and Evenings in Oklahoma...",
+  description: "Learn when Oklahoma process servers work, including weekends and evenings. Understand the law (Title 12 O.S. § 2004), after-hours availability, rush service opt",
   keywords: "do process servers work weekends, after hours process server tulsa, weekend process serving oklahoma, process server availability, same day process serving, 24/7 process server",
   openGraph: {
     title: "Do Process Servers Work Weekends and Evenings in Oklahoma?",
@@ -47,6 +47,12 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: "https://justlegalsolutions.org/blog/do-process-servers-work-weekends-evenings-oklahoma",
+  },
+  other: {
+    'ai-content-type': 'article',
+    'ai-summary': 'Learn when Oklahoma process servers work, including weekends and evenings. Understand the law (Title 12 O.S. § 2004), after-hours availability, rush service opt Includes Oklahoma notary compliance context and practical document guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
   },
 };
 
@@ -72,6 +78,9 @@ function AuthorBox() {
         <div className="w-16 h-16 rounded-full bg-blue-100 flex items-center justify-center text-2xl font-bold text-blue-700 shrink-0">JLS</div>
         <div>
           <p className="font-semibold text-slate-900 text-lg">Written by Just Legal Solutions</p>
+        <p className="mb-4">Deadlines often rely on 12 O.S. 2004, and notarial rules may involve Title 49 O.S.</p>
+        <p className="mb-4">We have served thousands of documents across all 77 Oklahoma counties.</p>
+        <p className="mb-4">We are licensed and bonded under Oklahoma Title 12 O.S. 158.1.</p>
           <p className="text-sm text-slate-500 mt-1">Oklahoma Licensed Process Servers &bull; Serving All 77 Counties Since 2020</p>
           <p className="text-slate-700 mt-3 leading-relaxed">With over 50 years of combined experience, our team has handled thousands of serves across Oklahoma — from routine residential deliveries to complex evasion cases requiring after-hours and weekend work. We bring real-world process serving expertise to every article we publish.</p>
         </div>

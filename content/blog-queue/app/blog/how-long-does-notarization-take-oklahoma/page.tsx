@@ -47,8 +47,7 @@ const articleSchema = {
   "@type": "BlogPosting",
   headline:
     "How Long Does Notarization Take in Oklahoma? Timing Guide",
-  description:
-    "Learn how long notarization takes in Oklahoma — per document, real estate closings, bulk notarization & mobile notary travel times.",
+  description: "Learn how long notarization takes in Oklahoma — per document, real estate closings, bulk notarization & mobile notary travel times. Serving all 77 Oklahoma coun",
   author: {
     "@type": "Organization",
     name: "Just Legal Solutions",
@@ -75,8 +74,7 @@ const articleSchema = {
 };
 
 export const metadata: Metadata = {
-  title:
-    "How Long Does Notarization Take in Oklahoma? Timing Guide",
+  title: "How Long Does Notarization Take in Oklahoma? Timing Guide",
   description:
     "Learn how long notarization takes in Oklahoma — per document, real estate closings, bulk notarization & mobile notary travel times.",
   keywords:
@@ -341,7 +339,8 @@ export default function BlogPost() {
             shorter wait times and lower travel fees.
           </p>
 
-          <LocalPromoBanner />
+                <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
+      <LocalPromoBanner />
 
           <h2 className="text-2xl font-bold text-[#1E2D78] mt-12 mb-4">
             Factors That Speed Up Your Notarization

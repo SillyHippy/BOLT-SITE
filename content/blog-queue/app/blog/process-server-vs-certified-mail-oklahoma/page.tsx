@@ -8,16 +8,14 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Process Server vs Certified Mail: Which Is Best in OK?',
-  description:
-    'Compare process servers vs certified mail for serving legal papers in Oklahoma. Learn which method offers better proof, speed, and legal defensibility.',
+  title: "Process Server vs Certified Mail: Which Is Best in OK?",
+  description: "Compare process servers vs certified mail for serving legal papers in Oklahoma. Learn which method offers better proof, speed, and legal defensibility.",
   keywords:
     'process server vs certified mail, certified mail vs process server, service method comparison, Oklahoma process server, certified mail service, legal document service Oklahoma',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
   publisher: 'Just Legal Solutions',
-  robots:
-    'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
+  robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Process Server vs Certified Mail: Which Is Best in OK?',
     description:
@@ -31,7 +29,7 @@ export const metadata: Metadata = {
         url: 'https://justlegalsolutions.org/images/jls-logo.webp',
         width: 1200,
         height: 630,
-        alt: 'Process server versus certified mail comparison for Oklahoma legal service',
+        alt: 'Process Server vs Certified Mail: Which Is Best in OK?',
       },
     ],
   },
@@ -44,10 +42,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary':
-      'Side-by-side comparison of process servers versus certified mail for Oklahoma service of process covering cost, proof strength, speed, and legal defensibility.',
-    'ai-key-facts':
-      'Personal service provides stronger legal proof than certified mail; certified mail may be acceptable for certain document types; process servers offer higher success rates; cost difference varies by case complexity; Oklahoma law specifies when each method is acceptable',
+    'ai-summary': 'Compare process servers vs certified mail for serving legal papers in Oklahoma. Learn which method offers better proof, speed, and legal defensibility. Includes Oklahoma service-of-process compliance context and practical filing guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
+  
   },
 };
 
@@ -115,6 +113,7 @@ export default function BlogPost() {
           and certified mail — covering cost, proof strength, speed, and legal
           defensibility.
         </p>
+        <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every recommendation with 12 O.S. 2004 and Title 49 O.S. where applicable.</p>
 
         {/* SECTION 1: How Certified Mail Works */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
@@ -348,6 +347,16 @@ export default function BlogPost() {
                 The Complete Guide to Hiring a Process Server in Oklahoma
               </Link>
             </li>
+          </ul>
+        </section>
+
+        
+        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related Oklahoma Resources</h2>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li><Link href="/blog/how-to-hire-a-process-server-oklahoma" className="text-blue-600 hover:underline">How to Hire a Process Server in Oklahoma</Link></li>
+            <li><Link href="/blog/how-to-serve-a-subpoena-oklahoma" className="text-blue-600 hover:underline">How to Serve a Subpoena in Oklahoma</Link></li>
+            <li><Link href="/blog/serve-out-of-state-defendant-oklahoma" className="text-blue-600 hover:underline">Serving Out-of-State Defendants in Oklahoma Cases</Link></li>
           </ul>
         </section>
 

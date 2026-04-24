@@ -10,15 +10,19 @@ import {
 } from "../components";
 
 export const metadata: Metadata = {
-  title:
-    "Can a Process Server Serve a Restraining Order in Oklahoma? | Just Legal Solutions",
-  description:
-    "Learn about protective order service requirements in Oklahoma, emergency procedures, safety considerations, and timeline requirements for process servers.",
+  title: "Can a Process Server Serve a Restraining Order in Oklahom...",
+  description: "Learn about protective order service requirements in Oklahoma, emergency procedures, safety considerations, and timeline requirements for process servers.",
   keywords:
     "process server restraining order, serve protective order oklahoma, emergency <Link href="/process-serving" className="text-blue-600">process serving</Link>, Oklahoma protective order service, VPO service",
   alternates: {
     canonical:
       "https://justlegalsolutions.org/blog/can-process-server-serve-restraining-order-oklahoma",
+  },
+  other: {
+    'ai-content-type': 'article',
+    'ai-summary': 'Learn about protective order service requirements in Oklahoma, emergency procedures, safety considerations, and timeline requirements for process servers. Includes Oklahoma service-of-process compliance context and practical filing guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
   },
 };
 
@@ -640,6 +644,7 @@ export default function RestrainingOrderServicePage() {
         </article>
       </main>
 
+            <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
       <Footer />
     </div>

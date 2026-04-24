@@ -8,8 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'The Future of Electronic Filing and Service in Oklahoma Courts',
-  description: 'Explore Oklahoma\'s digital court transformation. Learn about eFiling, electronic service, and upcoming technology upgrades for 2026 and beyond.',
+  title: "The Future of Electronic Filing and Service in Oklahoma C...",
+  description: "Explore Oklahoma\ Serving all 77 Oklahoma counties with licensed, bonded legal support. Serving all 77 Oklahoma counties with licensed, bonded legal support."s digital court transformation. Learn about eFiling, electronic service, and upcoming technology upgrades for 2026 and beyond.',
   keywords: 'Oklahoma electronic filing, eFiling Oklahoma courts, electronic court service',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Electronic filing and digital court technology in Oklahoma' }],
+    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'The Future of Electronic Filing and Service in Oklahoma C...' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/electronic-filing-service-oklahoma-courts' },
   other: {
@@ -30,8 +30,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Overview of Oklahoma\'s court digitalization journey covering current eFiling status, upcoming technology upgrades, and the evolving role of process servers.',
-    'ai-key-facts': 'Oklahoma courts are progressively adopting eFiling; OSCN serves as the primary court technology platform; not all courts accept electronic filing yet; process servers remain essential even in digital systems; upcoming upgrades will expand digital capabilities',
+    'ai-summary': 'Explore Oklahoma Serving all 77 Oklahoma counties with licensed, bonded legal support. Serving all 77 Oklahoma counties with licensed, bonded legal support. Includes Oklahoma service-of-process compliance context and practical filing guidance.',s court digitalization journey covering current eFiling status, upcoming technology upgrades, and the evolving role of process servers.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
+  
   },
 };
 
@@ -54,7 +56,7 @@ const faqs = [
   },
   {
     question: 'What technology upgrades are planned for Oklahoma courts in 2026?',
-    answer: 'Oklahoma court officials have announced plans to modernize the state\'s court technology infrastructure, including upgrades to the OSCN platform, expanded eFiling capabilities for additional case types, improved electronic service options, and enhanced integration between court systems. These upgrades aim to reduce paper processing, improve access to justice for self-represented litigants, and streamline case management for attorneys and court staff across all 77 counties.',
+    answer: 'Oklahoma court officials have announced plans to modernize the state\ This guidance helps avoid delays, improves compliance, and supports stronger court-ready documentation in Oklahoma matters.'s court technology infrastructure, including upgrades to the OSCN platform, expanded eFiling capabilities for additional case types, improved electronic service options, and enhanced integration between court systems. These upgrades aim to reduce paper processing, improve access to justice for self-represented litigants, and streamline case management for attorneys and court staff across all 77 counties.',
   },
   {
     question: 'Can self-represented litigants use eFiling in Oklahoma courts?',
@@ -85,6 +87,7 @@ export default function BlogPost() {
           Oklahoma stands today, what changes are on the horizon for 2026 and beyond, and what
           these developments mean for attorneys, process servers, and litigants.
         </p>
+        <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every recommendation with 12 O.S. 2004 and Title 49 O.S. where applicable.</p>
 
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">
@@ -325,6 +328,16 @@ export default function BlogPost() {
                 Tulsa County Court Filing Guide for Attorneys
               </Link>
             </li>
+          </ul>
+        </section>
+
+        
+        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related Oklahoma Resources</h2>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li><Link href="/blog/how-to-hire-a-process-server-oklahoma" className="text-blue-600 hover:underline">How to Hire a Process Server in Oklahoma</Link></li>
+            <li><Link href="/blog/how-to-serve-a-subpoena-oklahoma" className="text-blue-600 hover:underline">How to Serve a Subpoena in Oklahoma</Link></li>
+            <li><Link href="/blog/serve-out-of-state-defendant-oklahoma" className="text-blue-600 hover:underline">Serving Out-of-State Defendants in Oklahoma Cases</Link></li>
           </ul>
         </section>
 

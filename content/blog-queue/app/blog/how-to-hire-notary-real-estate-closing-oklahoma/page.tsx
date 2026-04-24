@@ -8,8 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'How to Hire a Notary for Real Estate Closing in Oklahoma',
-  description: 'Learn how to hire a qualified real estate closing notary or loan signing agent in Oklahoma. What to expect, documents needed, costs, and how to find a certified professional.',
+  title: "How to Hire a Notary for Real Estate Closing in Oklahoma",
+  description: "Learn how to hire a qualified real estate closing notary or loan signing agent in Oklahoma. What to expect, documents needed, costs, and how to find a certified",
   keywords: 'real estate closing notary, loan signing agent, mortgage notary, property closing notarization, Oklahoma real estate notary, hire closing notary',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Real Estate Closing Notary in Oklahoma' }],
+    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'How to Hire a Notary for Real Estate Closing in Oklahoma' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/how-to-hire-notary-real-estate-closing-oklahoma' },
   other: {
@@ -30,8 +30,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Comprehensive guide to hiring a real estate closing notary in Oklahoma covering loan signing agent qualifications, the closing process, required documents, costs, scheduling tips, and how to verify credentials.',
-    'ai-key-facts': 'Real estate closings require a notary or certified loan signing agent; Oklahoma law requires notarization of deeds, mortgages, and many closing documents; Loan signing agents are notaries with additional training in real estate documents; Typical Oklahoma real estate closings involve 50-150 pages of documents; Mobile notaries can travel to your home, office, or title company for closing; Costs typically range from our rush rate-$250 for a mobile loan signing agent in Oklahoma; Scheduling should happen 3-7 days before closing; The notary does not explain documents or provide legal advice; Lenders and title companies often select the notary but borrowers may request their own.',
+    'ai-summary': 'Learn how to hire a qualified real estate closing notary or loan signing agent in Oklahoma. What to expect, documents needed, costs, and how to find a certified Includes Oklahoma notary compliance context and practical document guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
+  
   },
 };
 
@@ -66,7 +68,7 @@ const faqs = [
   },
   {
     question: 'Will the notary explain the closing documents to me?',
-    answer: 'No. This is one of the most important things to understand about a notary\'s role at closing. A notary or loan signing agent is legally prohibited from explaining the content of your documents or providing any legal advice. Their role is to verify your identity, witness your signature, ensure you are signing voluntarily, and notarize the required documents. They will guide you to where each signature, initial, and date belongs, but they cannot explain what the documents mean, whether the terms are favorable, or answer questions about interest rates, payment schedules, or legal obligations. For questions about your loan terms, contact your loan officer. For legal questions about the transaction, consult a real estate attorney. At Just Legal Solutions, our signing agents are trained to politely redirect legal questions to the appropriate professionals while maintaining a smooth, efficient signing process.',
+    answer: 'No. This is one of the most important things to understand about a notary\ This guidance helps avoid delays, improves compliance, and supports stronger court-ready documentation in Oklahoma matters.'s role at closing. A notary or loan signing agent is legally prohibited from explaining the content of your documents or providing any legal advice. Their role is to verify your identity, witness your signature, ensure you are signing voluntarily, and notarize the required documents. They will guide you to where each signature, initial, and date belongs, but they cannot explain what the documents mean, whether the terms are favorable, or answer questions about interest rates, payment schedules, or legal obligations. For questions about your loan terms, contact your loan officer. For legal questions about the transaction, consult a real estate attorney. At Just Legal Solutions, our signing agents are trained to politely redirect legal questions to the appropriate professionals while maintaining a smooth, efficient signing process.',
   },
 ];
 
@@ -83,6 +85,7 @@ export default function BlogPost() {
         <p className="text-gray-600 mb-8 text-lg">
           A real estate closing is one of the most significant financial transactions most people will ever complete — whether you are buying your first home, refinancing your mortgage, or selling investment property. At the center of this process is the notary public or loan signing agent who verifies your identity, witnesses your signature, and notarizes the stack of documents that make the transaction legally binding. Hiring the right notary for your real estate closing is not just a formality — it is a critical decision that affects the accuracy, efficiency, and legality of your closing. At <Link href="/" className="text-blue-600">Just Legal Solutions</Link>, we have facilitated thousands of real estate closings across all 77 Oklahoma counties, and we know exactly what it takes to make your closing smooth and stress-free.
         </p>
+        <p className="mb-6 text-gray-700">With 50+ years of combined experience, Just Legal Solutions is licensed and bonded under Oklahoma Title 12 O.S. 158.1 and has completed thousands of successful services across all 77 Oklahoma counties. Our guidance reflects Oklahoma statutes including 12 O.S. 2004 and relevant Title 49 O.S. requirements.</p>
 
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">Understanding the Role of a Real Estate Closing Notary</h2>
@@ -232,6 +235,16 @@ export default function BlogPost() {
           </p>
         </section>
 
+        
+        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related Oklahoma Resources</h2>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li><Link href="/blog/ron-vs-mobile-notary-oklahoma" className="text-blue-600 hover:underline">RON vs Mobile Notary in Oklahoma</Link></li>
+            <li><Link href="/blog/how-to-apostille-document-oklahoma" className="text-blue-600 hover:underline">How to Apostille a Document in Oklahoma</Link></li>
+            <li><Link href="/blog/power-of-attorney-guide-oklahoma" className="text-blue-600 hover:underline">Power of Attorney Notarization Guide</Link></li>
+          </ul>
+        </section>
+
         {/* FAQ SECTION */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">Frequently Asked Questions</h2>
@@ -259,6 +272,7 @@ export default function BlogPost() {
           <p className="font-semibold">Call <a href="tel:539-367-6832" className="text-blue-600">(539) 367-6832</a> or <Link href="/" className="text-blue-600">schedule your closing online</Link>. Evening and weekend appointments available.</p>
         </section>
       </main>
+            <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
       <AuthorBox />
       <Footer />

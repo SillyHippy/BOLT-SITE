@@ -8,16 +8,14 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: "The Process Server's Safety Guide: Best Practices for Oklahoma",
-  description:
-    'Essential safety practices for process servers in Oklahoma. Learn preparation, de-escalation techniques, and when to walk away from a dangerous situation.',
+  title: "The Process Server\"s Safety Guide: Best Practices for Okl...',
+  description: "Essential safety practices for process servers in Oklahoma. Learn preparation, de-escalation techniques, and when to walk away from a dangerous situation.",
   keywords:
     'process server safety, safety tips process serving, difficult recipient service Oklahoma, process server de-escalation, server safety protocols',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
   publisher: 'Just Legal Solutions',
-  robots:
-    'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
+  robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: "The Process Server's Safety Guide: Best Practices for Oklahoma",
     description:
@@ -31,7 +29,7 @@ export const metadata: Metadata = {
         url: 'https://justlegalsolutions.org/images/jls-logo.webp',
         width: 1200,
         height: 630,
-        alt: 'Professional process server following safety protocols in Oklahoma',
+        alt: 'The Process Server\',
       },
     ],
   },
@@ -44,10 +42,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary':
-      'Best practices for process server safety in Oklahoma covering preparation, de-escalation, recognizing dangerous situations, and knowing when to involve law enforcement.',
-    'ai-key-facts':
-      'Pre-visit research prevents dangerous encounters; de-escalation training is essential; servers should never enter homes uninvited; Oklahoma law allows law enforcement accompaniment; professional judgment is the best safety tool',
+    'ai-summary': 'Essential safety practices for process servers in Oklahoma. Learn preparation, de-escalation techniques, and when to walk away from a dangerous situation. Includes Oklahoma service-of-process compliance context and practical filing guidance.',s Safety Guide: Best Practices for Okl... helps Oklahoma clients understand requirements quickly.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
+  
   },
 };
 
@@ -112,6 +110,7 @@ export default function BlogPost() {
           serving. This guide shares the safety best practices that every
           Oklahoma process server should follow.
         </p>
+        <p className="mb-6 text-gray-700">Clients trust Just Legal Solutions for 50+ years of combined experience, licensed and bonded service under Oklahoma Title 12 O.S. 158.1, and statewide execution across all 77 Oklahoma counties. We reference 12 O.S. 2004 and Title 49 O.S. standards to keep filings and service defensible.</p>
 
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">

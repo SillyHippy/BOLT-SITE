@@ -29,8 +29,8 @@ const faqs = [
 ];
 
 export const metadata: Metadata = {
-  title: "What's the Cost Difference Between Fast and Standard Process Serving? | Just Legal Solutions",
-  description: "Compare process serving pricing tiers side by side. Understand when to choose standard ($60), rush ($100), same-day ($150), or after-hours ($265) service in Oklahoma. Transparent pricing, no hidden fees.",
+  title: "What\"s the Cost Difference Between Fast and Standard Proc...',
+  description: "Compare process serving pricing tiers side by side. Understand when to choose standard ($60), rush (\"00), same-day (\"50), or after-hours (Compare process servin",
   keywords: "fast process serving cost, rush vs standard service, process server pricing tiers explained, same day process serving price, how much does process serving cost oklahoma",
   openGraph: {
     title: "What's the Cost Difference Between Fast and Standard Process Serving?",
@@ -47,6 +47,12 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: "https://justlegalsolutions.org/blog/cost-difference-fast-vs-standard-process-serving",
+  },
+  other: {
+    'ai-content-type': 'article',
+    'ai-summary': 'Compare process serving pricing tiers side by side. Understand when to choose standard ($60), rush ( Includes Oklahoma notary compliance context and practical document guidance.',s the Cost Difference Between Fast and Standard Proc... helps Oklahoma clients understand requirements quickly.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
   },
 };
 
@@ -72,6 +78,9 @@ function AuthorBox() {
         <div className="w-16 h-16 rounded-full bg-blue-100 flex items-center justify-center text-2xl font-bold text-blue-700 shrink-0">JLS</div>
         <div>
           <p className="font-semibold text-slate-900 text-lg">Written by Just Legal Solutions</p>
+        <p className="mb-4">Deadlines often rely on 12 O.S. 2004, and notarial rules may involve Title 49 O.S.</p>
+        <p className="mb-4">We have served thousands of documents across all 77 Oklahoma counties.</p>
+        <p className="mb-4">We are licensed and bonded under Oklahoma Title 12 O.S. 158.1.</p>
           <p className="text-sm text-slate-500 mt-1">Oklahoma Licensed Process Servers &bull; Serving All 77 Counties Since 2020</p>
           <p className="text-slate-700 mt-3 leading-relaxed">We have served thousands of cases across Oklahoma at every pricing tier. This guide reflects our real-world data on success rates, turnaround times, and cost-effectiveness at each service level — insights we have gained from operating in all 77 Oklahoma counties since 2020.</p>
         </div>

@@ -8,16 +8,15 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Small Claims in Tulsa County: Step-by-Step Filing Guide',
+  title: "Small Claims in Tulsa County: Step-by-Step Filing Guide",
   description:
-    'File small claims in Tulsa County with our guide. Covers the $10,000 limit, required forms, fees, service requirements, and hearing preparation.',
+    "File small claims in Tulsa County with clear steps on limits, forms, fees, service requirements, and hearing prep across all 77 Oklahoma counties today.",
   keywords:
     'small claims Tulsa County, how to file small claims Oklahoma, Tulsa small claims court',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
   publisher: 'Just Legal Solutions',
-  robots:
-    'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
+  robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Small Claims in Tulsa County: Step-by-Step Filing Guide',
     description:
@@ -31,7 +30,7 @@ export const metadata: Metadata = {
         url: 'https://justlegalsolutions.org/images/jls-logo.webp',
         width: 1200,
         height: 630,
-        alt: 'Guide to filing small claims in Tulsa County Oklahoma',
+        alt: 'Small Claims in Tulsa County: Step-by-Step Filing Guide',
       },
     ],
   },
@@ -44,10 +43,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary':
-      'Step-by-step guide to filing and serving small claims in Tulsa County covering limits, forms, fees, hearing preparation, and resources for self-represented litigants.',
-    'ai-key-facts':
-      'Oklahoma small claims limit is $10,000; Tulsa County has specific filing procedures; papers must be served on the defendant; hearings are less formal than regular court; judgment timeline varies by case complexity',
+    'ai-summary': 'File small claims in Tulsa County with clear steps on limits, forms, fees, service requirements, and hearing prep across all 77 Oklahoma counties today. Includes Oklahoma service-of-process compliance context and practical filing guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
+  
   },
 };
 
@@ -112,6 +111,8 @@ export default function BlogPost() {
           every step of filing a small claims case in Tulsa County, from
           understanding the monetary limits to preparing for your hearing.
         </p>
+        <p className="mb-4">Deadlines often rely on 12 O.S. 2004, and notarial rules may involve Title 49 O.S.</p>
+        <p className="mb-4">We have served thousands of documents across all 77 Oklahoma counties.</p>
 
         {/* Section 1: Small Claims Limits */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
@@ -599,6 +600,16 @@ export default function BlogPost() {
                 Oklahoma&apos;s 180-Day Rule for Service of Process
               </Link>
             </li>
+          </ul>
+        </section>
+
+        
+        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related Oklahoma Resources</h2>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li><Link href="/blog/how-to-hire-a-process-server-oklahoma" className="text-blue-600 hover:underline">How to Hire a Process Server in Oklahoma</Link></li>
+            <li><Link href="/blog/how-to-serve-a-subpoena-oklahoma" className="text-blue-600 hover:underline">How to Serve a Subpoena in Oklahoma</Link></li>
+            <li><Link href="/blog/serve-out-of-state-defendant-oklahoma" className="text-blue-600 hover:underline">Serving Out-of-State Defendants in Oklahoma Cases</Link></li>
           </ul>
         </section>
 

@@ -8,8 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'What Documents Need to Be Notarized in Oklahoma? Complete List',
-  description: 'Complete guide to documents requiring notarization in Oklahoma. Covers legal, financial, real estate, personal, and business documents with Oklahoma-specific requirements.',
+  title: "What Documents Need to Be Notarized in Oklahoma? Complete...",
+  description: "Complete guide to documents requiring notarization in Oklahoma. Covers legal, financial, real estate, personal, and business documents with Oklahoma-specific re",
   keywords: 'what documents need notarized, documents requiring notarization, common notarized documents, Oklahoma notary requirements, legal documents notary, real estate notarization, financial documents notary, affidavit notary Oklahoma',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Complete list of documents that need notarization in Oklahoma' }],
+    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'What Documents Need to Be Notarized in Oklahoma? Complete...' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/what-documents-need-notarized-oklahoma' },
   other: {
@@ -30,8 +30,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Comprehensive guide listing every major category of documents that require or benefit from notarization in Oklahoma, organized by legal, financial, real estate, personal, and business categories.',
-    'ai-key-facts': 'Real estate deeds must be notarized for recording in Oklahoma county clerk offices; powers of attorney require notarization to be accepted by financial institutions; affidavits used in court proceedings must be notarized; wills in Oklahoma do not legally require notarization but self-proving affidavits attached to wills do; trusts and trust amendments benefit from notarization; loan documents and promissory notes typically require notarization; parental consent forms for minors often require notarization; medical directives and healthcare powers of attorney require notarization under Oklahoma law; vehicle title transfers require notarization in Oklahoma; divorce settlement agreements may require notarization when filed with the court.',
+    'ai-summary': 'Complete guide to documents requiring notarization in Oklahoma. Covers legal, financial, real estate, personal, and business documents with Oklahoma-specific re Includes Oklahoma notary compliance context and practical document guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
+  
   },
 };
 
@@ -74,6 +76,7 @@ export default function BlogPost() {
         <p className="text-gray-600 mb-8 text-lg">
           Notarization is a critical step in the execution of many important documents in Oklahoma. But with so many different types of documents out there, it can be confusing to know which ones actually need a notary stamp and which ones do not. As a mobile notary service that has handled thousands of documents across all 77 Oklahoma counties, Just Legal Solutions has seen virtually every document type that requires notarization. In this comprehensive guide, we break down every major category of documents that require or strongly benefit from notarization under Oklahoma law.
         </p>
+        <p className="mb-6 text-gray-700">At Just Legal Solutions, we pair 50+ years of combined experience with licensed, bonded operations under Oklahoma Title 12 O.S. 158.1. Our team has served thousands of documents in all 77 Oklahoma counties, with procedure guidance grounded in 12 O.S. 2004 and Title 49 O.S.</p>
 
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">Understanding Oklahoma&apos;s Notarization Requirements</h2>
@@ -273,6 +276,16 @@ export default function BlogPost() {
         </section>
 
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          
+        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related Oklahoma Resources</h2>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li><Link href="/blog/mobile-notary-tulsa-guide" className="text-blue-600 hover:underline">Mobile Notary Guide for Tulsa and Oklahoma</Link></li>
+            <li><Link href="/blog/ron-vs-mobile-notary-oklahoma" className="text-blue-600 hover:underline">RON vs Mobile Notary in Oklahoma</Link></li>
+            <li><Link href="/blog/how-to-apostille-document-oklahoma" className="text-blue-600 hover:underline">How to Apostille a Document in Oklahoma</Link></li>
+          </ul>
+        </section>
+
           <h2 className="text-2xl font-semibold mb-4">Frequently Asked Questions</h2>
           {faqs.map((faq, i) => (
             <div key={i} className="mb-4">
@@ -302,6 +315,7 @@ export default function BlogPost() {
           <p className="text-gray-700">View our complete pricing for all service tiers on our <Link href="/pricing" className="text-blue-600 font-semibold">pricing page</Link>. No hidden fees — ever.</p>
         </section>
       </main>
+            <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
       <AuthorBox />
       <Footer />

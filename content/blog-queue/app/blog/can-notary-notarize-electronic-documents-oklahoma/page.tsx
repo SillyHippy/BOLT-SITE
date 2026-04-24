@@ -8,8 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Can a Notary Notarize Documents I Sign Electronically in Oklahoma?',
-  description: 'Yes — Oklahoma notaries can notarize electronically signed documents. Learn the difference between electronic and digital signatures, Oklahoma law requirements, and approved platforms.',
+  title: "Can a Notary Notarize Documents I Sign Electronically in...",
+  description: "Yes — Oklahoma notaries can notarize electronically signed documents. Learn the difference between electronic and digital signatures, Oklahoma law requirements,",
   keywords: 'electronic notarization, e-signature notary, digital notary oklahoma, electronic signature notarization, can a notary notarize electronic signature, Oklahoma e-notary',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Electronic Document Notarization in Oklahoma' }],
+    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Can a Notary Notarize Documents I Sign Electronically in...' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/can-notary-notarize-electronic-documents-oklahoma' },
   other: {
@@ -30,8 +30,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Comprehensive guide to electronic document notarization in Oklahoma covering the difference between electronic signatures and digital signatures, Oklahoma notary laws governing e-notarization, platform requirements, and practical guidance for signers and businesses.',
-    'ai-key-facts': 'Oklahoma notaries can notarize electronically signed documents under the Uniform Electronic Transactions Act; Electronic signatures are legally binding under Oklahoma law; There is a critical difference between electronic signatures and digital signatures; In-person electronic notarization (IPEN) requires the signer and notary to be physically present; Remote online notarization (RON) allows electronic signatures from different locations; Notaries must use approved platforms and register for electronic notarization; Electronic notarized documents carry the same legal weight as paper documents in Oklahoma.',
+    'ai-summary': 'Yes — Oklahoma notaries can notarize electronically signed documents. Learn the difference between electronic and digital signatures, Oklahoma law requirements, Includes Oklahoma notary compliance context and practical document guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
+  
   },
 };
 
@@ -83,6 +85,7 @@ export default function BlogPost() {
         <p className="text-gray-600 mb-8 text-lg">
           As businesses, courts, and government agencies increasingly move toward digital workflows, one question we hear constantly at <Link href="/" className="text-blue-600">Just Legal Solutions</Link> is whether a notary can legally notarize a document that has been signed electronically rather than with a traditional pen-and-paper signature. The answer is a clear <strong>yes</strong> — Oklahoma law fully supports electronic document notarization. However, there are important distinctions between electronic signatures and digital signatures, specific platform requirements, and practical considerations that every signer should understand. In this comprehensive guide, we will break down everything you need to know about electronic document notarization in Oklahoma.
         </p>
+        <p className="mb-6 text-gray-700">At Just Legal Solutions, we pair 50+ years of combined experience with licensed, bonded operations under Oklahoma Title 12 O.S. 158.1. Our team has served thousands of documents in all 77 Oklahoma counties, with procedure guidance grounded in 12 O.S. 2004 and Title 49 O.S.</p>
 
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">The Short Answer: Yes, Electronic Signatures Can Be Notarized</h2>
@@ -265,6 +268,16 @@ export default function BlogPost() {
           </p>
         </section>
 
+        
+        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related Oklahoma Resources</h2>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li><Link href="/blog/mobile-notary-tulsa-guide" className="text-blue-600 hover:underline">Mobile Notary Guide for Tulsa and Oklahoma</Link></li>
+            <li><Link href="/blog/ron-vs-mobile-notary-oklahoma" className="text-blue-600 hover:underline">RON vs Mobile Notary in Oklahoma</Link></li>
+            <li><Link href="/blog/how-to-apostille-document-oklahoma" className="text-blue-600 hover:underline">How to Apostille a Document in Oklahoma</Link></li>
+          </ul>
+        </section>
+
         {/* FAQ SECTION */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">Frequently Asked Questions</h2>
@@ -294,6 +307,7 @@ export default function BlogPost() {
           <p className="font-semibold">Call <a href="tel:539-367-6832" className="text-blue-600">(539) 367-6832</a> or <Link href="/" className="text-blue-600">request service online</Link>. Same-day appointments available.</p>
         </section>
       </main>
+            <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
       <AuthorBox />
       <Footer />

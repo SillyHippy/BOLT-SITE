@@ -10,15 +10,19 @@ import {
 } from "../components";
 
 export const metadata: Metadata = {
-  title:
-    "Can I Get Documents Notarized on Weekends or After Hours in Oklahoma? | Just Legal Solutions",
-  description:
-    "Find weekend notary, after-hours notary, and 24-hour notary services in Oklahoma. Learn about mobile notary availability, scheduling tips, emergency notarization, and premium pricing.",
+  title: "Can I Get Documents Notarized on Weekends or After Hours...",
+  description: "Find weekend notary, after-hours notary, and 24-hour notary services in Oklahoma. Learn about mobile notary availability, scheduling tips, emergency notarizatio",
   keywords:
     "weekend notary, after hours notary, 24 hour notary, emergency notary, Oklahoma notary weekend, mobile notary after hours",
   alternates: {
     canonical:
       "https://justlegalsolutions.org/blog/documents-notarized-weekends-after-hours-oklahoma",
+  },
+  other: {
+    'ai-content-type': 'article',
+    'ai-summary': 'Find weekend notary, after-hours notary, and 24-hour notary services in Oklahoma. Learn about mobile notary availability, scheduling tips, emergency notarizatio Includes Oklahoma notary compliance context and practical document guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
   },
 };
 
@@ -633,6 +637,7 @@ export default function WeekendAfterHoursNotaryPage() {
         </article>
       </main>
 
+            <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
       <Footer />
     </div>

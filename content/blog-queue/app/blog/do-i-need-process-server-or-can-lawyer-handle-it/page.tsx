@@ -10,15 +10,19 @@ import {
 } from "../components";
 
 export const metadata: Metadata = {
-  title:
-    "Do I Need a Process Server or Can My Lawyer Handle It? | Just Legal Solutions",
-  description:
-    "Learn when attorneys can serve legal papers directly in Oklahoma, why professional process servers are often preferred, and cost considerations for your case.",
+  title: "Do I Need a Process Server or Can My Lawyer Handle It? |...",
+  description: "Learn when attorneys can serve legal papers directly in Oklahoma, why professional process servers are often preferred, and cost considerations for your case.",
   keywords:
     "do I need a process server, can my lawyer serve papers, attorney vs process server service, Oklahoma <Link href="/process-serving" className="text-blue-600">process serving</Link>, lawyer serve legal documents",
   alternates: {
     canonical:
       "https://justlegalsolutions.org/blog/do-i-need-process-server-or-can-lawyer-handle-it",
+  },
+  other: {
+    'ai-content-type': 'article',
+    'ai-summary': 'Learn when attorneys can serve legal papers directly in Oklahoma, why professional process servers are often preferred, and cost considerations for your case. Includes Oklahoma service-of-process compliance context and practical filing guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
   },
 };
 
@@ -553,6 +557,7 @@ export default function DoINeedProcessServerPage() {
         </article>
       </main>
 
+            <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
       <Footer />
     </div>

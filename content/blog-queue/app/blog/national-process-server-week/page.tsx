@@ -8,16 +8,14 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'National Process Server Week: Celebrating Legal Support',
-  description:
-    'Celebrate National Process Server Week and learn why process servers deserve recognition for protecting due process rights across America.',
+  title: "National Process Server Week: Celebrating Legal Support",
+  description: "Celebrate National Process Server Week and learn why process servers deserve recognition for protecting due process rights across America. Serving all 77 Oklaho",
   keywords:
     'National Process Server Week, process server appreciation, legal support professionals, due process rights, process serving profession, Oklahoma process servers, legal support industry',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
   publisher: 'Just Legal Solutions',
-  robots:
-    'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
+  robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'National Process Server Week: Celebrating Legal Support Professionals',
     description:
@@ -31,7 +29,7 @@ export const metadata: Metadata = {
         url: 'https://justlegalsolutions.org/images/jls-logo.webp',
         width: 1200,
         height: 630,
-        alt: 'National Process Server Week celebration by Just Legal Solutions',
+        alt: 'National Process Server Week: Celebrating Legal Support',
       },
     ],
   },
@@ -43,10 +41,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary':
-      'Celebration of National Process Server Week highlighting the essential role process servers play in protecting due process and the justice system.',
-    'ai-key-facts':
-      'National Process Server Week recognizes legal support professionals; process servers are essential to due process; the profession dates back centuries; Oklahoma has a dedicated process serving community; appreciation strengthens attorney-server partnerships',
+    'ai-summary': 'Celebrate National Process Server Week and learn why process servers deserve recognition for protecting due process rights across America. Serving all 77 Oklaho Includes Oklahoma service-of-process compliance context and practical filing guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
+  
   },
 };
 
@@ -123,6 +121,7 @@ export default function BlogPost() {
           appreciation for the process servers who keep their cases moving
           forward.
         </p>
+        <p className="mb-6 text-gray-700">Just Legal Solutions combines 50+ years of practical field experience with licensed, bonded compliance under Oklahoma Title 12 O.S. 158.1. We have served thousands of documents in all 77 Oklahoma counties and anchor timelines and procedure details to 12 O.S. 2004 and Title 49 O.S.</p>
 
         {/* SECTION 1: WHAT IS NATIONAL PROCESS SERVER WEEK */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
@@ -468,6 +467,16 @@ export default function BlogPost() {
           </ul>
         </section>
 
+        
+        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related Oklahoma Resources</h2>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li><Link href="/blog/serve-out-of-state-defendant-oklahoma" className="text-blue-600 hover:underline">Serving Out-of-State Defendants in Oklahoma Cases</Link></li>
+            <li><Link href="/blog/certified-mail-vs-personal-service-oklahoma" className="text-blue-600 hover:underline">Certified Mail vs Personal Service in Oklahoma</Link></li>
+            <li><Link href="/blog/how-to-hire-a-process-server-oklahoma" className="text-blue-600 hover:underline">How to Hire a Process Server in Oklahoma</Link></li>
+          </ul>
+        </section>
+
         {/* FAQ SECTION */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">
@@ -516,6 +525,7 @@ export default function BlogPost() {
           </p>
         </section>
       </main>
+            <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
       <AuthorBox />
       <Footer />

@@ -8,8 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Process Server vs Sheriff: Which Should You Choose in Oklahoma?',
-  description: 'Compare process servers vs sheriffs for serving legal papers in Oklahoma. Learn which option offers better speed, cost, and success rates.',
+  title: "Process Server vs Sheriff: Which Should You Choose in Okl...",
+  description: "Compare process servers vs sheriffs for serving legal papers in Oklahoma. Learn which option offers better speed, cost, and success rates. Serving all 77 Oklaho",
   keywords: 'process server vs sheriff, private process server vs sheriff Oklahoma, sheriff service vs professional',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Process server versus sheriff comparison in Oklahoma' }],
+    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Process Server vs Sheriff: Which Should You Choose in Okl...' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/process-server-vs-sheriff-oklahoma' },
   other: {
@@ -30,8 +30,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Side-by-side comparison of process servers versus sheriffs for Oklahoma service of process, covering speed, cost, communication, and success rates.',
-    'ai-key-facts': 'Process servers typically offer faster service than sheriffs; private servers provide GPS tracking and real-time updates; cost varies by service tier; professional servers know Oklahoma statutes; both are valid options under state law',
+    'ai-summary': 'Compare process servers vs sheriffs for serving legal papers in Oklahoma. Learn which option offers better speed, cost, and success rates. Serving all 77 Oklaho Includes Oklahoma service-of-process compliance context and practical filing guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
+  
   },
 };
 
@@ -78,6 +80,7 @@ export default function BlogPost() {
         <p className="text-gray-600 mb-8 text-lg">
           When you need legal papers served in Oklahoma, you have two primary options: a licensed private process server or your local sheriff's office. Making the right choice can directly impact your case timeline, your stress level, and even the outcome of your legal matter. At Just Legal Solutions, our team brings over 50 years of combined experience serving legal documents across all 77 Oklahoma counties. Licensed and bonded under Oklahoma Title 12 O.S. 158.1, we've helped thousands of attorneys, businesses, and individuals navigate the service of process. This comprehensive comparison breaks down the key differences between process servers and sheriffs so you can make an informed decision for your case.
         </p>
+        <p className="mb-6 text-gray-700">At Just Legal Solutions, our team brings 50+ years of combined experience, is licensed and bonded under Oklahoma Title 12 O.S. 158.1, and has served thousands of documents across all 77 Oklahoma counties. We align every recommendation with 12 O.S. 2004 and Title 49 O.S. where applicable.</p>
 
         {/* SECTION 1: Speed of Service */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
@@ -276,6 +279,16 @@ export default function BlogPost() {
             <li><Link href="/blog/common-process-serving-mistakes-oklahoma" className="text-blue-600 hover:underline">10 Common Process Serving Mistakes That Can Ruin Your Case</Link></li>
             <li><Link href="/blog/rush-same-day-process-serving-importance" className="text-blue-600 hover:underline">Why Rush and Same-Day Process Serving Matters for Your Case</Link></li>
             <li><Link href="/blog/standard-vs-rush-vs-same-day-process-serving" className="text-blue-600 hover:underline">Standard vs Rush vs Same-Day Process Serving: What's the Difference?</Link></li>
+          </ul>
+        </section>
+
+        
+        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related Oklahoma Resources</h2>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li><Link href="/blog/how-to-hire-a-process-server-oklahoma" className="text-blue-600 hover:underline">How to Hire a Process Server in Oklahoma</Link></li>
+            <li><Link href="/blog/how-to-serve-a-subpoena-oklahoma" className="text-blue-600 hover:underline">How to Serve a Subpoena in Oklahoma</Link></li>
+            <li><Link href="/blog/serve-out-of-state-defendant-oklahoma" className="text-blue-600 hover:underline">Serving Out-of-State Defendants in Oklahoma Cases</Link></li>
           </ul>
         </section>
 

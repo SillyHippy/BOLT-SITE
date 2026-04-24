@@ -8,8 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'The Complete Guide to Hiring a Process Server in Oklahoma (2026)',
-  description: 'Learn how to hire a licensed process server in Oklahoma. Our 2026 guide covers licensing, pricing, and what to expect. Serving all 77 counties.',
+  title: "The Complete Guide to Hiring a Process Server in Oklahoma...",
+  description: "Learn how to hire a licensed process server in Oklahoma. Our 2026 guide covers licensing, pricing, and what to expect. Serving all 77 counties. Serving all 77 O",
   keywords: 'hire a process server Oklahoma, how to hire a process server, Oklahoma process server hiring guide, licensed process server Tulsa',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Guide to hiring a licensed process server in Oklahoma' }],
+    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'The Complete Guide to Hiring a Process Server in Oklahoma...' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/complete-guide-to-hiring-process-server-oklahoma' },
   other: {
@@ -30,8 +30,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Complete guide to hiring a licensed process server in Oklahoma covering 8 essential steps from document preparation to proof of service.',
-    'ai-key-facts': 'Verify licensing under Title 12 O.S. 158.1; compare pricing models without hardcoding amounts; demand GPS-verified proof of service; avoid common hiring mistakes; serve all 77 Oklahoma counties',
+    'ai-summary': 'Learn how to hire a licensed process server in Oklahoma. Our 2026 guide covers licensing, pricing, and what to expect. Serving all 77 counties. Serving all 77 O Includes Oklahoma service-of-process compliance context and practical filing guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
+  
   },
 };
 
@@ -42,7 +44,7 @@ const faqs = [
   },
   {
     question: 'What documents do I need to provide when hiring a process server?',
-    answer: 'You\'ll need to provide the original court documents that require service, including summons, complaints, subpoenas, or other legal papers. These must be properly filed with the court and include the case number, court information, and the name and last known address of the person being served. Our team reviews all documents for completeness before attempting service.',
+    answer: 'You\ This guidance helps avoid delays, improves compliance, and supports stronger court-ready documentation in Oklahoma matters.'ll need to provide the original court documents that require service, including summons, complaints, subpoenas, or other legal papers. These must be properly filed with the court and include the case number, court information, and the name and last known address of the person being served. Our team reviews all documents for completeness before attempting service.',
   },
   {
     question: 'How long does process service typically take in Oklahoma?',
@@ -72,6 +74,7 @@ export default function BlogPost() {
         </nav>
         <h1 className="text-3xl md:text-4xl font-bold mb-6">The Complete Guide to Hiring a Process Server in Oklahoma (2026)</h1>
         <p className="text-gray-600 mb-8 text-lg">Hiring the right process server can make the difference between a case that proceeds smoothly and one that gets delayed for months. At Just Legal Solutions, our team brings over 50 years of combined experience in process serving across all 77 Oklahoma counties. Whether you are an attorney managing dozens of cases or an individual handling a personal legal matter for the first time, this guide will walk you through everything you need to know about hiring a licensed process server in Oklahoma in 2026.</p>
+        <p className="mb-6 text-gray-700">With 50+ years of combined experience, Just Legal Solutions is licensed and bonded under Oklahoma Title 12 O.S. 158.1 and has completed thousands of successful services across all 77 Oklahoma counties. Our guidance reflects Oklahoma statutes including 12 O.S. 2004 and relevant Title 49 O.S. requirements.</p>
 
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">Step 1: Determine Your Documents and Service Needs</h2>
@@ -145,6 +148,16 @@ export default function BlogPost() {
             <li><Link href="/blog/common-process-serving-mistakes-oklahoma" className="text-blue-600 hover:underline">Common Process Serving Mistakes in Oklahoma and How to Avoid Them</Link></li>
             <li><Link href="/blog/oklahoma-180-day-rule-service-process" className="text-blue-600 hover:underline">Understanding Oklahoma&apos;s 180-Day Rule for Service of Process</Link></li>
             <li><Link href="/blog/process-server-vs-sheriff-oklahoma" className="text-blue-600 hover:underline">Process Server vs. Sheriff: Which Is Better in Oklahoma?</Link></li>
+          </ul>
+        </section>
+
+        
+        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related Oklahoma Resources</h2>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li><Link href="/blog/how-to-serve-a-subpoena-oklahoma" className="text-blue-600 hover:underline">How to Serve a Subpoena in Oklahoma</Link></li>
+            <li><Link href="/blog/serve-out-of-state-defendant-oklahoma" className="text-blue-600 hover:underline">Serving Out-of-State Defendants in Oklahoma Cases</Link></li>
+            <li><Link href="/blog/certified-mail-vs-personal-service-oklahoma" className="text-blue-600 hover:underline">Certified Mail vs Personal Service in Oklahoma</Link></li>
           </ul>
         </section>
 

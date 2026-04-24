@@ -10,15 +10,19 @@ import {
 } from "../components";
 
 export const metadata: Metadata = {
-  title:
-    "How Do Process Servers Handle Difficult or Evasive Defendants? | Just Legal Solutions",
-  description:
-    "Learn the professional techniques process servers use to serve evasive defendants in Oklahoma, including stakeouts, surveillance, skip tracing, and technology.",
+  title: "How Do Process Servers Handle Difficult or Evasive Defend...",
+  description: "Learn the professional techniques process servers use to serve evasive defendants in Oklahoma, including stakeouts, surveillance, skip tracing, and technology.",
   keywords:
     "evasive defendant process server, difficult serve <Link href="/process-serving" className="text-blue-600">process serving</Link>, stakeout process server, Oklahoma process server tactics, skip tracing legal",
   alternates: {
     canonical:
       "https://justlegalsolutions.org/blog/how-process-servers-handle-difficult-evasive-defendants",
+  },
+  other: {
+    'ai-content-type': 'article',
+    'ai-summary': 'Learn the professional techniques process servers use to serve evasive defendants in Oklahoma, including stakeouts, surveillance, skip tracing, and technology. Includes Oklahoma service-of-process compliance context and practical filing guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
   },
 };
 
@@ -618,6 +622,7 @@ export default function DifficultDefendantsPage() {
         </article>
       </main>
 
+            <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
       <LocalPromoBanner />
       <Footer />
     </div>
