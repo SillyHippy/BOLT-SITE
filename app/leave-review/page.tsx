@@ -1,7 +1,6 @@
 'use client';
 
 import { useEffect } from 'react';
-import Link from 'next/link';
 import { Star, ExternalLink } from 'lucide-react';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
@@ -48,7 +47,7 @@ export default function LeaveReviewPage() {
       <UnifiedSchema
         pageType="generic"
         pageTitle="Leave a Review | Just Legal Solutions"
-        pageDescription="Share your experience with Just Legal Solutions. Leave a review on Google or submit feedback directly through our verified client survey."
+        pageDescription="Share your experience with Just Legal Solutions. Leave a review on our Google Business Profile or Yelp listing."
         pageUrl="https://justlegalsolutions.org/leave-review"
         siteName="Just Legal Solutions"
         reviewCount={156}
@@ -61,18 +60,18 @@ export default function LeaveReviewPage() {
         "@context": "https://schema.org",
         "@type": "HowTo",
         "name": "How to Leave a Review for Just Legal Solutions",
-        "description": "A quick guide on how to leave a review for our process serving and notary services on Google or directly through our internal client survey.",
+        "description": "A quick guide on how to leave a review for our process serving and notary services on Google or Yelp.",
         "step": [
           {
             "@type": "HowToStep",
             "name": "Choose a platform",
-            "text": "Select Google Business Profile or our direct survey from the options provided on the page to leave your review.",
+            "text": "Select Google Business Profile or Yelp from the options provided on the page to leave your review.",
             "position": 1
           },
           {
             "@type": "HowToStep",
-            "name": "Sign in or open the survey",
-            "text": "For Google, ensure you are signed in to your Google account. For our direct survey, no account is required — just open the form.",
+            "name": "Open your preferred review site",
+            "text": "For Google, ensure you are signed in to your Google account. For Yelp, sign in to your Yelp account before posting.",
             "position": 2
           },
           {
@@ -167,9 +166,11 @@ export default function LeaveReviewPage() {
             <div className="h-1 bg-gradient-to-r from-blue-500 to-blue-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
           </a>
 
-          {/* Internal Survey / Direct Review Card */}
-          <Link
-            href="/reviews/survey"
+          {/* Yelp Review Card */}
+          <a
+            href="https://www.yelp.com/biz/just-legal-solutions-tulsa"
+            target="_blank"
+            rel="nofollow noopener noreferrer"
             className="group block bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-100 overflow-hidden"
           >
             <div className="p-6 sm:p-8">
@@ -181,21 +182,20 @@ export default function LeaveReviewPage() {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="text-lg sm:text-xl font-bold text-gray-900">Direct Survey</h3>
-                    <p className="text-xs sm:text-sm text-gray-500">1-minute feedback form</p>
+                    <h3 className="text-lg sm:text-xl font-bold text-gray-900">Yelp</h3>
+                    <p className="text-xs sm:text-sm text-gray-500">Public Review</p>
                   </div>
                 </div>
                 <ExternalLink className="w-5 h-5 text-gray-500 group-hover:text-emerald-600 transition-colors" />
               </div>
 
               <p className="text-sm sm:text-base text-gray-600 mb-4 leading-relaxed">
-                Not a Google user? Leave your feedback directly with us — every survey response is counted
-                toward our verified review total.
+                Prefer Yelp? Share your experience on our Yelp business profile to help local clients find trusted process serving.
               </p>
 
               <div className="flex items-center justify-between pt-4 border-t border-gray-100">
                 <span className="text-xs sm:text-sm font-medium text-emerald-600 group-hover:text-emerald-700">
-                  Open Survey
+                  Leave a Yelp Review
                 </span>
                 <div className="flex gap-1">
                   {[...Array(5)].map((_, i) => (
@@ -205,7 +205,7 @@ export default function LeaveReviewPage() {
               </div>
             </div>
             <div className="h-1 bg-gradient-to-r from-emerald-500 to-emerald-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
-          </Link>
+          </a>
         </div>
 
         {/* Additional Information */}
