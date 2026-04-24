@@ -11,6 +11,9 @@ permissions:
 jobs:
   release-post:
     runs-on: ubuntu-latest
+    env:
+      BLOG_TARGET_DATE: '2027-02-28'
+      BLOG_MAX_RELEASES_PER_RUN: '5'
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -24,7 +27,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Release one queued post
+      - name: Release queued posts (adaptive cadence)
         run: npm run blog:release-weekly
 
       - name: Regenerate sitemaps
@@ -39,5 +42,6 @@ jobs:
             echo "No changes to commit."
             exit 0
           fi
-          git commit -m "chore(blog): publish weekly queued post"
+          published_count=$(git diff --cached --name-only | awk '/^app\/blog\/[^/]+\/page\.tsx$/{count++} END{print count+0}')
+          git commit -m "chore(blog): publish ${published_count} queued post(s)"
           git push

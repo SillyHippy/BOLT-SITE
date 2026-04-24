@@ -20,6 +20,28 @@ const targetPublicBlogImagesRoot = path.join(ROOT, 'public', 'blog', 'images');
 const QUALITY_MIN_WORDS = Number(process.env.BLOG_MIN_WORDS || 900);
 const QUALITY_MIN_HEADINGS = Number(process.env.BLOG_MIN_HEADINGS || 4);
 const QUALITY_MIN_PARAGRAPHS = Number(process.env.BLOG_MIN_PARAGRAPHS || 8);
+const BLOG_TARGET_DATE = process.env.BLOG_TARGET_DATE || '2027-02-28';
+const BLOG_RELEASES_PER_RUN = Number(process.env.BLOG_RELEASES_PER_RUN || 0);
+const BLOG_MAX_RELEASES_PER_RUN = Number(process.env.BLOG_MAX_RELEASES_PER_RUN || 5);
+const BLOG_DRY_RUN = process.env.BLOG_DRY_RUN === '1';
+
+const EEAT_REQUIREMENTS = [
+  {
+    key: 'experience',
+    pattern: /50\+\s*years\s+of\s+combined\s+experience/i,
+    message: 'Missing EEAT experience phrase: "50+ years of combined experience".',
+  },
+  {
+    key: 'trust',
+    pattern: /licensed\s+and\s+bonded\s+under\s+oklahoma\s+title\s+12\s+o\.s\.\s*158\.1/i,
+    message: 'Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.',
+  },
+  {
+    key: 'coverage',
+    pattern: /thousands\s+of\s+documents\s+across\s+all\s+77\s+oklahoma\s+counties/i,
+    message: 'Missing EEAT geography/experience proof for all 77 Oklahoma counties.',
+  },
+];
 
 function ensureFile(pathname, fallbackContent) {
   if (!fs.existsSync(pathname)) {
@@ -35,6 +57,41 @@ function readJson(pathname) {
 function writeJson(pathname, value) {
   fs.mkdirSync(path.dirname(pathname), { recursive: true });
   fs.writeFileSync(pathname, `${JSON.stringify(value, null, 2)}\n`, 'utf8');
+}
+
+function getSourceSnippet(source, startToken, endToken = '};') {
+  const start = source.indexOf(startToken);
+  if (start === -1) return null;
+  const end = source.indexOf(endToken, start);
+  if (end === -1) return source.slice(start);
+  return source.slice(start, end + endToken.length);
+}
+
+function extractStringProperty(block, key) {
+  if (!block) return null;
+  const re = new RegExp(`${key}\\s*:\\s*(['"\`])([\\s\\S]*?)\\1`);
+  const match = block.match(re);
+  return match ? match[2].trim() : null;
+}
+
+function inferWeekDistanceToTarget(targetDate) {
+  const target = new Date(`${targetDate}T23:59:59.000Z`);
+  if (Number.isNaN(target.getTime())) {
+    throw new Error(`Invalid BLOG_TARGET_DATE: "${targetDate}"`);
+  }
+  const now = new Date();
+  const millis = target.getTime() - now.getTime();
+  if (millis <= 0) return 1;
+  return Math.max(1, Math.ceil(millis / (1000 * 60 * 60 * 24 * 7)));
+}
+
+function determineReleaseCount(remainingPosts) {
+  if (BLOG_RELEASES_PER_RUN > 0) {
+    return Math.max(1, Math.min(BLOG_MAX_RELEASES_PER_RUN, BLOG_RELEASES_PER_RUN));
+  }
+  const weeksLeft = inferWeekDistanceToTarget(BLOG_TARGET_DATE);
+  const computed = Math.ceil(remainingPosts / weeksLeft);
+  return Math.max(1, Math.min(BLOG_MAX_RELEASES_PER_RUN, computed));
 }
 
 function normalizeCategory(category) {
@@ -82,6 +139,131 @@ function assertQuality(source, slug) {
     throw new Error(message);
   }
   return metrics;
+}
+
+function validateSeoSchema(source, slug) {
+  const errors = [];
+  const warnings = [];
+  const metadataBlock = getSourceSnippet(source, 'export const metadata');
+  const openGraphBlock = metadataBlock ? getSourceSnippet(metadataBlock, 'openGraph: {', '},') : null;
+  const alternatesBlock = metadataBlock ? getSourceSnippet(metadataBlock, 'alternates: {', '},') : null;
+  const otherBlock = metadataBlock ? getSourceSnippet(metadataBlock, 'other: {', '},') : null;
+
+  const title = extractStringProperty(metadataBlock, 'title');
+  if (!title) {
+    errors.push('Missing metadata.title');
+  } else if (title.length > 60) {
+    errors.push(`metadata.title is ${title.length} chars (must be <= 60)`);
+  }
+
+  const description = extractStringProperty(metadataBlock, 'description');
+  if (!description) {
+    errors.push('Missing metadata.description');
+  } else if (description.length < 150 || description.length > 160) {
+    errors.push(`metadata.description is ${description.length} chars (must be 150-160)`);
+  }
+
+  const keywords = extractStringProperty(metadataBlock, 'keywords');
+  if (!keywords) {
+    errors.push('Missing metadata.keywords');
+  }
+
+  const robots = extractStringProperty(metadataBlock, 'robots');
+  if (!robots) {
+    errors.push('Missing metadata.robots');
+  } else {
+    if (!robots.includes('max-snippet:-1')) {
+      errors.push('metadata.robots missing max-snippet:-1');
+    }
+    if (!robots.includes('max-image-preview:large')) {
+      errors.push('metadata.robots missing max-image-preview:large');
+    }
+  }
+
+  const ogTitle = extractStringProperty(openGraphBlock, 'title');
+  const ogDescription = extractStringProperty(openGraphBlock, 'description');
+  const ogUrl = extractStringProperty(openGraphBlock, 'url');
+  const ogSiteName = extractStringProperty(openGraphBlock, 'siteName');
+  if (!ogTitle) errors.push('openGraph.title missing');
+  if (!ogDescription) errors.push('openGraph.description missing');
+  if (!ogUrl) errors.push('openGraph.url missing');
+  if (!ogSiteName) errors.push('openGraph.siteName missing');
+  if (!/width\s*:\s*1200/.test(openGraphBlock || '')) errors.push('openGraph image width 1200 missing');
+  if (!/height\s*:\s*630/.test(openGraphBlock || '')) errors.push('openGraph image height 630 missing');
+
+  const canonical = extractStringProperty(alternatesBlock, 'canonical');
+  if (!canonical) {
+    errors.push('alternates.canonical missing');
+  }
+
+  const aiContentType = extractStringProperty(otherBlock, 'ai-content-type');
+  const aiSummary = extractStringProperty(otherBlock, 'ai-summary');
+  const aiKeyFacts = extractStringProperty(otherBlock, 'ai-key-facts');
+  if (aiContentType !== 'article') errors.push('metadata.other["ai-content-type"] must be "article"');
+  if (!aiSummary) errors.push('metadata.other["ai-summary"] missing');
+  if (!aiKeyFacts) errors.push('metadata.other["ai-key-facts"] missing');
+
+  const unifiedSchemaBlock = getSourceSnippet(source, '<UnifiedSchema', '/>');
+  if (!unifiedSchemaBlock) {
+    errors.push('UnifiedSchema component missing');
+  } else {
+    if (!/pageType\s*=\s*["']article["']/.test(unifiedSchemaBlock)) {
+      errors.push('UnifiedSchema pageType must be "article"');
+    }
+    if (!/(url|pageUrl)\s*=/.test(unifiedSchemaBlock)) {
+      errors.push('UnifiedSchema url/pageUrl prop missing');
+    }
+    if (!/title\s*=/.test(unifiedSchemaBlock)) {
+      errors.push('UnifiedSchema title prop missing');
+    }
+    if (!/description\s*=/.test(unifiedSchemaBlock)) {
+      errors.push('UnifiedSchema description prop missing');
+    }
+    if (!/(faqs|faqItems)\s*=/.test(unifiedSchemaBlock)) {
+      errors.push('UnifiedSchema must receive faqs or faqItems prop');
+    }
+  }
+
+  const faqMatch = source.match(/const\s+faqs\s*=\s*\[([\s\S]*?)\];/);
+  if (!faqMatch) {
+    errors.push('FAQ array not found: expected const faqs = [...]');
+  } else {
+    const faqBody = faqMatch[1];
+    const faqItems = faqBody.match(/question\s*:\s*['"`][\s\S]*?answer\s*:\s*['"`][\s\S]*?['"`]/g) || [];
+    if (faqItems.length < 5 || faqItems.length > 6) {
+      errors.push(`FAQ count is ${faqItems.length} (must be 5-6)`);
+    }
+    const answers = [...faqBody.matchAll(/answer\s*:\s*(['"`])([\s\S]*?)\1/g)].map((m) => m[2]);
+    const shortAnswers = answers.filter((answer) => answer.trim().split(/\s+/).length < 20);
+    if (shortAnswers.length > 0) {
+      errors.push(`FAQ answers too short: ${shortAnswers.length} answers under 20 words`);
+    }
+  }
+
+  if (!/Frequently Asked Questions/i.test(source) && !/<h2[^>]*>\s*FAQ/i.test(source)) {
+    errors.push('Visible FAQ section missing on page');
+  }
+
+  for (const req of EEAT_REQUIREMENTS) {
+    if (!req.pattern.test(source)) {
+      errors.push(req.message);
+    }
+  }
+  const statuteRefs = [
+    /12\s*O\.S\.\s*(Section\s*)?2004/i,
+    /Title\s*12\s*O\.S\.\s*158\.1/i,
+    /Title\s*49\s*O\.S\./i,
+  ];
+  const statuteHits = statuteRefs.filter((re) => re.test(source)).length;
+  if (statuteHits < 2) {
+    errors.push('Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)');
+  }
+
+  if (!metadataBlock) {
+    warnings.push('Could not parse metadata block reliably; checks may be incomplete.');
+  }
+
+  return { slug, errors, warnings };
 }
 
 function extractReferencedBlogImages(source) {
@@ -156,6 +338,16 @@ function assertAndCopyReferencedImages(source, slug) {
   return refs;
 }
 
+function pickNextPost(candidates, lastCategory) {
+  if (candidates.length === 0) return null;
+  const preferredCategory = lastCategory === 'notary' ? 'process' : 'notary';
+  return (
+    candidates.find((post) => post.normalizedCategory === preferredCategory) ||
+    candidates.find((post) => post.normalizedCategory !== 'other') ||
+    candidates[0]
+  );
+}
+
 function releaseNextPost() {
   if (!fs.existsSync(manifestPath)) {
     throw new Error(
@@ -172,7 +364,7 @@ function releaseNextPost() {
   const state = readJson(statePath);
   const releaseLog = readJson(logPath);
 
-  const candidates = (manifest.posts || [])
+  const initialCandidates = (manifest.posts || [])
     .map((post) => {
       const sourcePath = sourcePathForPost(post);
       const targetPath = path.join(targetBlogRoot, post.slug, 'page.tsx');
@@ -187,51 +379,118 @@ function releaseNextPost() {
     })
     .filter((post) => !post.alreadyPublished && post.sourceExists);
 
-  if (candidates.length === 0) {
+  if (initialCandidates.length === 0) {
     console.log('No eligible queued posts were found. Nothing to release this week.');
     return;
   }
 
-  const preferredCategory = state.lastCategory === 'notary' ? 'process' : 'notary';
-  const next =
-    candidates.find((post) => post.normalizedCategory === preferredCategory) ||
-    candidates.find((post) => post.normalizedCategory !== 'other') ||
-    candidates[0];
+  const requestedReleaseCount = determineReleaseCount(initialCandidates.length);
+  const candidates = [...initialCandidates];
+  const published = [];
+  const failures = [];
 
-  const source = fs.readFileSync(next.sourcePath, 'utf8');
-  const qualityMetrics = assertQuality(source, next.slug);
-  const copiedBySlug = copyLikelySlugImages(next.slug);
-  const referencedImages = assertAndCopyReferencedImages(source, next.slug);
+  while (published.length < requestedReleaseCount && candidates.length > 0) {
+    const next = pickNextPost(candidates, state.lastCategory);
+    if (!next) break;
+    const idx = candidates.findIndex((p) => p.slug === next.slug);
+    if (idx >= 0) {
+      candidates.splice(idx, 1);
+    }
 
-  fs.mkdirSync(path.dirname(next.targetPath), { recursive: true });
-  fs.copyFileSync(next.sourcePath, next.targetPath);
+    const source = fs.readFileSync(next.sourcePath, 'utf8');
+    const failedChecks = [];
+    let qualityMetrics = null;
 
-  state.lastCategory = next.normalizedCategory;
-  state.lastSlug = next.slug;
-  state.lastReleasedAt = new Date().toISOString();
-  writeJson(statePath, state);
+    try {
+      qualityMetrics = assertQuality(source, next.slug);
+    } catch (err) {
+      failedChecks.push(String(err.message || err));
+    }
+
+    const seoSchema = validateSeoSchema(source, next.slug);
+    if (seoSchema.errors.length > 0) {
+      failedChecks.push(...seoSchema.errors.map((e) => `SEO/schema: ${e}`));
+    }
+
+    if (failedChecks.length > 0) {
+      failures.push({
+        slug: next.slug,
+        title: next.title,
+        category: next.category,
+        failedChecks,
+        warnings: seoSchema.warnings,
+        checkedAt: new Date().toISOString(),
+      });
+      continue;
+    }
+
+    const copiedBySlug = copyLikelySlugImages(next.slug);
+    const referencedImages = assertAndCopyReferencedImages(source, next.slug);
+
+    if (!BLOG_DRY_RUN) {
+      fs.mkdirSync(path.dirname(next.targetPath), { recursive: true });
+      fs.copyFileSync(next.sourcePath, next.targetPath);
+    }
+
+    const releaseRecord = {
+      slug: next.slug,
+      title: next.title,
+      category: next.category,
+      releasedAt: new Date().toISOString(),
+      quality: qualityMetrics,
+      images: {
+        referenced: referencedImages,
+        copiedBySlugCount: copiedBySlug.length,
+      },
+      warnings: seoSchema.warnings,
+      mode: BLOG_DRY_RUN ? 'dry-run' : 'published',
+    };
+    published.push(releaseRecord);
+
+    state.lastCategory = next.normalizedCategory;
+    state.lastSlug = next.slug;
+    state.lastReleasedAt = new Date().toISOString();
+  }
 
   releaseLog.releases = releaseLog.releases || [];
-  releaseLog.releases.push({
-    slug: next.slug,
-    title: next.title,
-    category: next.category,
-    releasedAt: new Date().toISOString(),
-    quality: qualityMetrics,
-    images: {
-      referenced: referencedImages,
-      copiedBySlugCount: copiedBySlug.length,
-    },
-  });
+  releaseLog.failures = releaseLog.failures || [];
+  releaseLog.releases.push(...published);
+  releaseLog.failures.push(...failures);
   writeJson(logPath, releaseLog);
+  if (!BLOG_DRY_RUN) {
+    writeJson(statePath, state);
+  }
 
-  console.log(`Released: ${next.slug}`);
-  console.log(`Category: ${next.category}`);
-  console.log(`Source: ${path.relative(ROOT, next.sourcePath)}`);
-  console.log(`Target: ${path.relative(ROOT, next.targetPath)}`);
-  console.log(`Quality: ${JSON.stringify(qualityMetrics)}`);
-  console.log(`Images: referenced=${referencedImages.length}, copiedBySlug=${copiedBySlug.length}`);
+  console.log(`Mode: ${BLOG_DRY_RUN ? 'dry-run' : 'publish'}`);
+  console.log(`Target date: ${BLOG_TARGET_DATE}`);
+  console.log(`Requested releases this run: ${requestedReleaseCount}`);
+  console.log(`Published this run: ${published.length}`);
+  for (const post of published) {
+    console.log(`Released: ${post.slug} (${post.category})`);
+    console.log(`Quality: ${JSON.stringify(post.quality)}`);
+    console.log(
+      `Images: referenced=${post.images.referenced.length}, copiedBySlug=${post.images.copiedBySlugCount}`
+    );
+  }
+  if (failures.length > 0) {
+    console.log(`Blocked posts (quality/SEO/schema failures): ${failures.length}`);
+    for (const failure of failures) {
+      console.log(`- ${failure.slug}`);
+      for (const check of failure.failedChecks) {
+        console.log(`  * ${check}`);
+      }
+    }
+  }
   console.log(`Images: syncedQueueImages=${syncedImageCount}`);
+
+  if (!BLOG_DRY_RUN && published.length === 0 && failures.length > 0) {
+    throw new Error(
+      `No posts were released because all candidates failed quality/SEO/schema checks.\n` +
+        failures
+          .map((failure) => `- ${failure.slug}: ${failure.failedChecks.join(' | ')}`)
+          .join('\n')
+    );
+  }
 }
 
 releaseNextPost();

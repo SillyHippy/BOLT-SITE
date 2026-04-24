@@ -52,5 +52,1539 @@
         "copiedBySlugCount": 1
       }
     }
+  ],
+  "failures": [
+    {
+      "slug": "digital-proof-service-modern-documentation",
+      "title": "Digital Proof of Service: How Technology Protects Your Case",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 141 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:04:29.689Z"
+    },
+    {
+      "slug": "divorce-papers-served-oklahoma-tulsa",
+      "title": "Getting Divorced in Tulsa? How Divorce Papers Are Served",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 145 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:04:29.701Z"
+    },
+    {
+      "slug": "in-state-vs-out-of-state-service-process-oklahoma",
+      "title": "In-State vs Out-of-State Service of Process: Oklahoma Attorney Guide",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.title is 68 chars (must be <= 60)",
+        "SEO/schema: metadata.description is 18 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: FAQ answers too short: 1 answers under 20 words",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:04:29.714Z"
+    },
+    {
+      "slug": "legal-support-services-beyond-process-serving",
+      "title": "Legal Support Services Beyond Process Serving: Full-Service Guide",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.title is 65 chars (must be <= 60)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\"."
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:04:29.725Z"
+    },
+    {
+      "slug": "oklahoma-apostille-services-guide",
+      "title": "Oklahoma Apostille Services: Authenticate Documents for International Use",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.title is 73 chars (must be <= 60)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:04:29.737Z"
+    },
+    {
+      "slug": "oklahoma-court-filing-services",
+      "title": "Oklahoma Court Filing Services: Save Time and Money",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:04:29.748Z"
+    },
+    {
+      "slug": "oklahoma-mobile-notary-guide",
+      "title": "Oklahoma Mobile Notary Guide: What to Know Before You Book",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 143 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: FAQ answers too short: 1 answers under 20 words",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:04:29.759Z"
+    },
+    {
+      "slug": "oklahoma-notary-public-act-explained",
+      "title": "The Oklahoma Notary Public Act Explained: Rules and Requirements",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.title is 64 chars (must be <= 60)",
+        "SEO/schema: metadata.description is 137 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: FAQ answers too short: 1 answers under 20 words",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties."
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:04:29.769Z"
+    },
+    {
+      "slug": "oklahoma-notary-vs-attorney-whats-difference",
+      "title": "Oklahoma Notary vs Attorney: What\\",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:04:29.781Z"
+    },
+    {
+      "slug": "oklahoma-power-of-attorney-notarization",
+      "title": "Oklahoma Power of Attorney Notarization: Requirements and Process",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.title is 65 chars (must be <= 60)",
+        "SEO/schema: metadata.description is 138 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: FAQ answers too short: 2 answers under 20 words",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:04:29.793Z"
+    },
+    {
+      "slug": "oklahoma-real-estate-closing-notary",
+      "title": "Oklahoma Real Estate Closing Notary: What to Expect at Closing",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.title is 62 chars (must be <= 60)",
+        "SEO/schema: metadata.description is 140 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: FAQ answers too short: 1 answers under 20 words",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:04:29.804Z"
+    },
+    {
+      "slug": "tulsa-county-court-filing-guide",
+      "title": "Tulsa County Court Filing Guide: Navigate the Filing Process",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 143 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:04:29.845Z"
+    },
+    {
+      "slug": "types-legal-documents-process-server-deliver",
+      "title": "What Legal Documents Can a Process Server Deliver? Complete List",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.title is 64 chars (must be <= 60)",
+        "SEO/schema: metadata.description is 130 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:04:29.879Z"
+    },
+    {
+      "slug": "understanding-proof-of-service-oklahoma",
+      "title": "Understanding Proof of Service: Why Your Case Depends On It",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 131 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: FAQ answers too short: 1 answers under 20 words",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:04:29.908Z"
+    },
+    {
+      "slug": "25-faq-process-serving-oklahoma",
+      "title": "25 FAQ About Process Serving in Oklahoma — Answered",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 135 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:04:29.921Z"
+    },
+    {
+      "slug": "ai-changing-legal-support-services-2026",
+      "title": "How AI Is Changing Legal Support Services in 2026",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 144 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:04:29.932Z"
+    },
+    {
+      "slug": "become-licensed-process-server-oklahoma",
+      "title": "How to Become a Licensed Process Server in Oklahoma",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 133 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:04:29.943Z"
+    },
+    {
+      "slug": "common-process-serving-mistakes-oklahoma",
+      "title": "10 Common Process Serving Mistakes That Can Ruin Your Case",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 129 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties."
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:04:29.954Z"
+    },
+    {
+      "slug": "complete-guide-to-hiring-process-server-oklahoma",
+      "title": "The Complete Guide to Hiring a Process Server in Oklahoma (2026)",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.title is 64 chars (must be <= 60)",
+        "SEO/schema: metadata.description is 143 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: FAQ answers too short: 1 answers under 20 words",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\"."
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:04:29.964Z"
+    },
+    {
+      "slug": "digital-proof-service-gps-photos-documentation",
+      "title": "Digital Proof of Service: GPS, Photos, and Modern Documentation",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.title is 63 chars (must be <= 60)",
+        "SEO/schema: metadata.description is 149 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: FAQ answers too short: 1 answers under 20 words",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:04:29.976Z"
+    },
+    {
+      "slug": "do-process-servers-call-before-serving",
+      "title": "Do Process Servers Call Before Serving? What to Expect",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 140 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: FAQ answers too short: 1 answers under 20 words",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:04:29.987Z"
+    },
+    {
+      "slug": "electronic-filing-service-oklahoma-courts",
+      "title": "The Future of Electronic Filing and Service in Oklahoma Courts",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.title is 62 chars (must be <= 60)",
+        "SEO/schema: metadata.description is 17 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: FAQ answers too short: 1 answers under 20 words",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:04:29.999Z"
+    },
+    {
+      "slug": "electronic-service-process-oklahoma-eservice",
+      "title": "Electronic Service of Process in Oklahoma: eService Guide",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 129 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties."
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:04:30.010Z"
+    },
+    {
+      "slug": "eviction-notice-service-oklahoma-landlord-guide",
+      "title": "Eviction Notice Service in Oklahoma: A Landlord\\",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 18 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:04:30.022Z"
+    },
+    {
+      "slug": "how-to-serve-business-llc-oklahoma",
+      "title": "How to Serve a Business or LLC in Oklahoma: Corporate Guide",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 130 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: FAQ answers too short: 1 answers under 20 words",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:04:30.032Z"
+    },
+    {
+      "slug": "how-to-serve-legal-papers-oklahoma-step-by-step",
+      "title": "How to Serve Legal Papers: A Step-by-Step Guide for Oklahoma",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 132 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1."
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:04:30.044Z"
+    },
+    {
+      "slug": "how-to-serve-legal-papers-yourself-oklahoma",
+      "title": "Can You Serve Legal Papers Yourself in Oklahoma? DIY vs Pro",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 146 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:04:30.055Z"
+    },
+    {
+      "slug": "legal-tech-tools-oklahoma-law-firms-2026",
+      "title": "Legal Tech Tools Every Oklahoma Law Firm Needs in 2026",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 141 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:04:30.066Z"
+    },
+    {
+      "slug": "national-process-server-week",
+      "title": "National Process Server Week: Celebrating Legal Support",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 138 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:04:30.076Z"
+    },
+    {
+      "slug": "oklahoma-180-day-rule-service-process",
+      "title": "Oklahoma's 180-Day Rule for Service of Process Explained",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 136 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\"."
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:04:30.085Z"
+    },
+    {
+      "slug": "oklahoma-courier-services-legal-documents",
+      "title": "Oklahoma Legal Courier Services: Secure Document Delivery",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:04:30.097Z"
+    },
+    {
+      "slug": "oklahoma-document-retrieval-services",
+      "title": "Oklahoma Document Retrieval Services: Get the Records You Need",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.title is 62 chars (must be <= 60)",
+        "SEO/schema: metadata.description is 147 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:04:30.107Z"
+    },
+    {
+      "slug": "oklahoma-virtual-assistant-legal-services",
+      "title": "Oklahoma Virtual Assistant Services for Law Firms: Complete Guide",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.title is 65 chars (must be <= 60)",
+        "SEO/schema: metadata.description is 145 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: FAQ answers too short: 1 answers under 20 words",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:04:30.118Z"
+    },
+    {
+      "slug": "oklahoma-witness-locate-services",
+      "title": "Oklahoma Witness Locate Services: Find People for Legal Proceedings",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.title is 67 chars (must be <= 60)",
+        "SEO/schema: metadata.description is 140 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:04:30.130Z"
+    },
+    {
+      "slug": "process-server-safety-guide-oklahoma",
+      "title": "The Process Server's Safety Guide: Best Practices for Oklahoma",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.title is 62 chars (must be <= 60)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:04:30.141Z"
+    },
+    {
+      "slug": "process-server-vs-certified-mail-oklahoma",
+      "title": "Process Server vs Certified Mail: Which Is Best in OK?",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:04:30.150Z"
+    },
+    {
+      "slug": "process-server-vs-sheriff-oklahoma",
+      "title": "Process Server vs Sheriff: Which Should You Choose in Oklahoma?",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.title is 63 chars (must be <= 60)",
+        "SEO/schema: metadata.description is 138 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\"."
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:04:30.162Z"
+    },
+    {
+      "slug": "process-serving-all-77-oklahoma-counties",
+      "title": "Process Serving in All 77 Oklahoma Counties: Complete Guide",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 145 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: FAQ answers too short: 1 answers under 20 words",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:04:30.172Z"
+    },
+    {
+      "slug": "process-serving-demand-growing-oklahoma",
+      "title": "Why Process Serving Demand Is Growing in Oklahoma",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: FAQ answers too short: 1 answers under 20 words",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:04:30.185Z"
+    },
+    {
+      "slug": "process-serving-industry-trends-2026",
+      "title": "Process Serving Industry Trends to Watch in 2026",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 116 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:04:30.196Z"
+    },
+    {
+      "slug": "rush-same-day-process-serving-importance",
+      "title": "The Growing Importance of Rush and Same-Day Process Serving",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 144 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:04:30.208Z"
+    },
+    {
+      "slug": "same-day-divorce-service-tulsa-case-study",
+      "title": "Same-Day Divorce Paper Service in Tulsa: Case Study",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 134 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: FAQ answers too short: 1 answers under 20 words",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:04:30.218Z"
+    },
+    {
+      "slug": "serving-papers-rural-oklahoma",
+      "title": "Serving Papers in Rural Oklahoma: Challenges and Solutions",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 136 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:04:30.229Z"
+    },
+    {
+      "slug": "skip-tracing-success-story-tulsa-case-study",
+      "title": "Skip Tracing Success: Tulsa Evasive Defendant Case Study",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: FAQ answers too short: 1 answers under 20 words",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:04:30.239Z"
+    },
+    {
+      "slug": "skip-tracing-technology-process-serving",
+      "title": "How Skip Tracing Technology Revolutionizes Process Serving",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 136 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:04:30.273Z"
+    },
+    {
+      "slug": "small-claims-tulsa-county-filing-guide",
+      "title": "Small Claims in Tulsa County: Step-by-Step Filing Guide",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 144 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:04:30.314Z"
+    },
+    {
+      "slug": "someone-avoids-being-served-oklahoma-options",
+      "title": "What Happens If Someone Avoids Being Served in Oklahoma?",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 166 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:04:30.343Z"
+    },
+    {
+      "slug": "standard-vs-rush-vs-same-day-process-serving",
+      "title": "Standard vs Rush vs Same-Day Process Serving: Which Do You Need?",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.title is 64 chars (must be <= 60)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:04:30.369Z"
+    },
+    {
+      "slug": "subpoena-service-oklahoma-rules",
+      "title": "Subpoena Service in Oklahoma: Rules and Best Practices",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 138 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:04:30.401Z"
+    },
+    {
+      "slug": "digital-proof-service-modern-documentation",
+      "title": "Digital Proof of Service: How Technology Protects Your Case",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 141 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:05:02.547Z"
+    },
+    {
+      "slug": "divorce-papers-served-oklahoma-tulsa",
+      "title": "Getting Divorced in Tulsa? How Divorce Papers Are Served",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 145 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:05:02.549Z"
+    },
+    {
+      "slug": "in-state-vs-out-of-state-service-process-oklahoma",
+      "title": "In-State vs Out-of-State Service of Process: Oklahoma Attorney Guide",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.title is 68 chars (must be <= 60)",
+        "SEO/schema: metadata.description is 18 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: FAQ answers too short: 1 answers under 20 words",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:05:02.550Z"
+    },
+    {
+      "slug": "legal-support-services-beyond-process-serving",
+      "title": "Legal Support Services Beyond Process Serving: Full-Service Guide",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.title is 65 chars (must be <= 60)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\"."
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:05:02.551Z"
+    },
+    {
+      "slug": "oklahoma-apostille-services-guide",
+      "title": "Oklahoma Apostille Services: Authenticate Documents for International Use",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.title is 73 chars (must be <= 60)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:05:02.552Z"
+    },
+    {
+      "slug": "oklahoma-court-filing-services",
+      "title": "Oklahoma Court Filing Services: Save Time and Money",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:05:02.553Z"
+    },
+    {
+      "slug": "oklahoma-mobile-notary-guide",
+      "title": "Oklahoma Mobile Notary Guide: What to Know Before You Book",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 143 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: FAQ answers too short: 1 answers under 20 words",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:05:02.554Z"
+    },
+    {
+      "slug": "oklahoma-notary-public-act-explained",
+      "title": "The Oklahoma Notary Public Act Explained: Rules and Requirements",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.title is 64 chars (must be <= 60)",
+        "SEO/schema: metadata.description is 137 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: FAQ answers too short: 1 answers under 20 words",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties."
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:05:02.554Z"
+    },
+    {
+      "slug": "oklahoma-notary-vs-attorney-whats-difference",
+      "title": "Oklahoma Notary vs Attorney: What\\",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:05:02.555Z"
+    },
+    {
+      "slug": "oklahoma-power-of-attorney-notarization",
+      "title": "Oklahoma Power of Attorney Notarization: Requirements and Process",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.title is 65 chars (must be <= 60)",
+        "SEO/schema: metadata.description is 138 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: FAQ answers too short: 2 answers under 20 words",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:05:02.556Z"
+    },
+    {
+      "slug": "oklahoma-real-estate-closing-notary",
+      "title": "Oklahoma Real Estate Closing Notary: What to Expect at Closing",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.title is 62 chars (must be <= 60)",
+        "SEO/schema: metadata.description is 140 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: FAQ answers too short: 1 answers under 20 words",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:05:02.556Z"
+    },
+    {
+      "slug": "tulsa-county-court-filing-guide",
+      "title": "Tulsa County Court Filing Guide: Navigate the Filing Process",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 143 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:05:02.557Z"
+    },
+    {
+      "slug": "types-legal-documents-process-server-deliver",
+      "title": "What Legal Documents Can a Process Server Deliver? Complete List",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.title is 64 chars (must be <= 60)",
+        "SEO/schema: metadata.description is 130 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:05:02.558Z"
+    },
+    {
+      "slug": "understanding-proof-of-service-oklahoma",
+      "title": "Understanding Proof of Service: Why Your Case Depends On It",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 131 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: FAQ answers too short: 1 answers under 20 words",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:05:02.558Z"
+    },
+    {
+      "slug": "25-faq-process-serving-oklahoma",
+      "title": "25 FAQ About Process Serving in Oklahoma — Answered",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 135 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:05:02.559Z"
+    },
+    {
+      "slug": "ai-changing-legal-support-services-2026",
+      "title": "How AI Is Changing Legal Support Services in 2026",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 144 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:05:02.560Z"
+    },
+    {
+      "slug": "become-licensed-process-server-oklahoma",
+      "title": "How to Become a Licensed Process Server in Oklahoma",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 133 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:05:02.561Z"
+    },
+    {
+      "slug": "common-process-serving-mistakes-oklahoma",
+      "title": "10 Common Process Serving Mistakes That Can Ruin Your Case",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 129 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties."
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:05:02.562Z"
+    },
+    {
+      "slug": "complete-guide-to-hiring-process-server-oklahoma",
+      "title": "The Complete Guide to Hiring a Process Server in Oklahoma (2026)",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.title is 64 chars (must be <= 60)",
+        "SEO/schema: metadata.description is 143 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: FAQ answers too short: 1 answers under 20 words",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\"."
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:05:02.562Z"
+    },
+    {
+      "slug": "digital-proof-service-gps-photos-documentation",
+      "title": "Digital Proof of Service: GPS, Photos, and Modern Documentation",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.title is 63 chars (must be <= 60)",
+        "SEO/schema: metadata.description is 149 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: FAQ answers too short: 1 answers under 20 words",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:05:02.563Z"
+    },
+    {
+      "slug": "do-process-servers-call-before-serving",
+      "title": "Do Process Servers Call Before Serving? What to Expect",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 140 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: FAQ answers too short: 1 answers under 20 words",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:05:02.563Z"
+    },
+    {
+      "slug": "electronic-filing-service-oklahoma-courts",
+      "title": "The Future of Electronic Filing and Service in Oklahoma Courts",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.title is 62 chars (must be <= 60)",
+        "SEO/schema: metadata.description is 17 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: FAQ answers too short: 1 answers under 20 words",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:05:02.564Z"
+    },
+    {
+      "slug": "electronic-service-process-oklahoma-eservice",
+      "title": "Electronic Service of Process in Oklahoma: eService Guide",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 129 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties."
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:05:02.564Z"
+    },
+    {
+      "slug": "eviction-notice-service-oklahoma-landlord-guide",
+      "title": "Eviction Notice Service in Oklahoma: A Landlord\\",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 18 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:05:02.565Z"
+    },
+    {
+      "slug": "how-to-serve-business-llc-oklahoma",
+      "title": "How to Serve a Business or LLC in Oklahoma: Corporate Guide",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 130 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: FAQ answers too short: 1 answers under 20 words",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:05:02.566Z"
+    },
+    {
+      "slug": "how-to-serve-legal-papers-oklahoma-step-by-step",
+      "title": "How to Serve Legal Papers: A Step-by-Step Guide for Oklahoma",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 132 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1."
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:05:02.566Z"
+    },
+    {
+      "slug": "how-to-serve-legal-papers-yourself-oklahoma",
+      "title": "Can You Serve Legal Papers Yourself in Oklahoma? DIY vs Pro",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 146 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:05:02.567Z"
+    },
+    {
+      "slug": "legal-tech-tools-oklahoma-law-firms-2026",
+      "title": "Legal Tech Tools Every Oklahoma Law Firm Needs in 2026",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 141 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:05:02.568Z"
+    },
+    {
+      "slug": "national-process-server-week",
+      "title": "National Process Server Week: Celebrating Legal Support",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 138 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:05:02.568Z"
+    },
+    {
+      "slug": "oklahoma-180-day-rule-service-process",
+      "title": "Oklahoma's 180-Day Rule for Service of Process Explained",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 136 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\"."
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:05:02.569Z"
+    },
+    {
+      "slug": "oklahoma-courier-services-legal-documents",
+      "title": "Oklahoma Legal Courier Services: Secure Document Delivery",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:05:02.570Z"
+    },
+    {
+      "slug": "oklahoma-document-retrieval-services",
+      "title": "Oklahoma Document Retrieval Services: Get the Records You Need",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.title is 62 chars (must be <= 60)",
+        "SEO/schema: metadata.description is 147 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:05:02.570Z"
+    },
+    {
+      "slug": "oklahoma-virtual-assistant-legal-services",
+      "title": "Oklahoma Virtual Assistant Services for Law Firms: Complete Guide",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.title is 65 chars (must be <= 60)",
+        "SEO/schema: metadata.description is 145 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: FAQ answers too short: 1 answers under 20 words",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:05:02.571Z"
+    },
+    {
+      "slug": "oklahoma-witness-locate-services",
+      "title": "Oklahoma Witness Locate Services: Find People for Legal Proceedings",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.title is 67 chars (must be <= 60)",
+        "SEO/schema: metadata.description is 140 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:05:02.572Z"
+    },
+    {
+      "slug": "process-server-safety-guide-oklahoma",
+      "title": "The Process Server's Safety Guide: Best Practices for Oklahoma",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.title is 62 chars (must be <= 60)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:05:02.572Z"
+    },
+    {
+      "slug": "process-server-vs-certified-mail-oklahoma",
+      "title": "Process Server vs Certified Mail: Which Is Best in OK?",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:05:02.573Z"
+    },
+    {
+      "slug": "process-server-vs-sheriff-oklahoma",
+      "title": "Process Server vs Sheriff: Which Should You Choose in Oklahoma?",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.title is 63 chars (must be <= 60)",
+        "SEO/schema: metadata.description is 138 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\"."
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:05:02.573Z"
+    },
+    {
+      "slug": "process-serving-all-77-oklahoma-counties",
+      "title": "Process Serving in All 77 Oklahoma Counties: Complete Guide",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 145 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: FAQ answers too short: 1 answers under 20 words",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:05:02.574Z"
+    },
+    {
+      "slug": "process-serving-demand-growing-oklahoma",
+      "title": "Why Process Serving Demand Is Growing in Oklahoma",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: FAQ answers too short: 1 answers under 20 words",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:05:02.574Z"
+    },
+    {
+      "slug": "process-serving-industry-trends-2026",
+      "title": "Process Serving Industry Trends to Watch in 2026",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 116 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:05:02.575Z"
+    },
+    {
+      "slug": "rush-same-day-process-serving-importance",
+      "title": "The Growing Importance of Rush and Same-Day Process Serving",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 144 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:05:02.576Z"
+    },
+    {
+      "slug": "same-day-divorce-service-tulsa-case-study",
+      "title": "Same-Day Divorce Paper Service in Tulsa: Case Study",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 134 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: FAQ answers too short: 1 answers under 20 words",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:05:02.576Z"
+    },
+    {
+      "slug": "serving-papers-rural-oklahoma",
+      "title": "Serving Papers in Rural Oklahoma: Challenges and Solutions",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 136 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:05:02.577Z"
+    },
+    {
+      "slug": "skip-tracing-success-story-tulsa-case-study",
+      "title": "Skip Tracing Success: Tulsa Evasive Defendant Case Study",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: FAQ answers too short: 1 answers under 20 words",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:05:02.578Z"
+    },
+    {
+      "slug": "skip-tracing-technology-process-serving",
+      "title": "How Skip Tracing Technology Revolutionizes Process Serving",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 136 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:05:02.579Z"
+    },
+    {
+      "slug": "small-claims-tulsa-county-filing-guide",
+      "title": "Small Claims in Tulsa County: Step-by-Step Filing Guide",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 144 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:05:02.579Z"
+    },
+    {
+      "slug": "someone-avoids-being-served-oklahoma-options",
+      "title": "What Happens If Someone Avoids Being Served in Oklahoma?",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 166 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:05:02.580Z"
+    },
+    {
+      "slug": "standard-vs-rush-vs-same-day-process-serving",
+      "title": "Standard vs Rush vs Same-Day Process Serving: Which Do You Need?",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.title is 64 chars (must be <= 60)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:05:02.581Z"
+    },
+    {
+      "slug": "subpoena-service-oklahoma-rules",
+      "title": "Subpoena Service in Oklahoma: Rules and Best Practices",
+      "category": "Process Serving",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 138 chars (must be 150-160)",
+        "SEO/schema: metadata.other[\"ai-content-type\"] must be \"article\"",
+        "SEO/schema: metadata.other[\"ai-summary\"] missing",
+        "SEO/schema: metadata.other[\"ai-key-facts\"] missing",
+        "SEO/schema: Missing EEAT experience phrase: \"50+ years of combined experience\".",
+        "SEO/schema: Missing EEAT trust phrase about Oklahoma Title 12 O.S. 158.1.",
+        "SEO/schema: Missing EEAT geography/experience proof for all 77 Oklahoma counties.",
+        "SEO/schema: Need at least two Oklahoma statute citations (12 O.S. 2004 / Title 12 O.S. 158.1 / Title 49 O.S.)"
+      ],
+      "warnings": [],
+      "checkedAt": "2026-04-24T06:05:02.581Z"
+    }
   ]
 }
