@@ -168,7 +168,7 @@ export default function LeaveReviewPage() {
 
           {/* Yelp Review Card */}
           <a
-            href="https://www.yelp.com/biz/just-legal-solutions-tulsa"
+            href="https://www.yelp.com/biz/just-legal-solutions-glenpool?osq=Just+Legal+Solutions&override_cta=Request+a+consultation"
             target="_blank"
             rel="nofollow noopener noreferrer"
             className="group block bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-100 overflow-hidden"

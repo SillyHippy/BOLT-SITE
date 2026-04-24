@@ -305,7 +305,7 @@ function generateLocalCitations() {
   const citations = [
     {
       platform: 'Yelp',
-      url: 'https://www.yelp.com/biz/just-legal-solutions-tulsa',
+      url: 'https://www.yelp.com/biz/just-legal-solutions-glenpool',
       category: 'Process Servers',
       description: 'Professional process server in Tulsa, Oklahoma'
     },
