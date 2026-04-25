@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { Metadata } from 'next';
+import { NOTARY_RON_SIGNER_SCOPE, NOTARY_RON_SIGNER_SCOPE_SHORT } from '@/lib/notary-service-area';
 import Navbar from '../../components/ui/navbar';
 import Footer from '../../components/ui/footer';
 import JsonLd from '../../components/JsonLd';
@@ -52,8 +53,10 @@ export const metadata: Metadata = {
     'article:published_time': '2026-03-22',
     'article:modified_time': '2026-03-22',
     'ai-content-type': 'service-page',
-    'ai-summary': 'Oklahoma notary services: In-office starting at $20, mobile notary with travel to any location in Oklahoma, and Remote Online Notarization (RON) for signing from anywhere. Licensed & bonded Oklahoma notaries, 24/7 availability, all 77 counties served. Notary fees set by Oklahoma law at $5/act traditional, $25/act RON. Call (539) 367-6832.',
-    'ai-key-facts': 'In-office notary starts at $20, mobile notary anywhere in Oklahoma, RON available worldwide, licensed & bonded, 24/7 emergency service, 50+ years combined experience, all 77 Oklahoma counties, (539) 367-6832',
+    'ai-summary':
+      'Oklahoma notary: in-office from $20; mobile notary within ~50 miles of Glenpool (Tulsa County and surrounding counties — Creek, Wagoner, Rogers, Osage, Okmulgee, etc.). Remote Online Notarization (RON): signers anywhere in the United States or worldwide where law and document rules allow; the commissioned notary is physically in Oklahoma during each RON session. Licensed & bonded, 24/7. Fees: $5/act traditional max, $25/act RON (state caps). (539) 367-6832.',
+    'ai-key-facts':
+      'Mobile notary ~50 mi Glenpool/Tulsa metro; RON signers US + worldwide where allowed, notary in OK; in-office from $20; 24/7; 50+ yrs experience; (539) 367-6832',
   },
 };
 
@@ -471,7 +474,9 @@ export default function NotaryPage() {
                   <p className="mt-2 text-purple-100">Simple flat-rate pricing</p>
                 </div>
                 <div className="p-6 flex flex-col flex-1">
-                  <p className="text-gray-600 mb-4">100% online via secure video. Sign from anywhere in the world.</p>
+                  <p className="text-gray-600 mb-4">
+                    100% online via secure video. {NOTARY_RON_SIGNER_SCOPE_SHORT}
+                  </p>
                   <ul className="space-y-2 mb-6 flex-1">
                     {['Secure, encrypted video platform', 'Multi-factor identity verification', 'Electronic signature and seal', 'Recorded session (stored 10 years)', 'Instant download of notarized document', 'Works on any device — no download needed'].map((item, i) => (
                       <li key={i} className="flex items-start gap-2 text-sm text-gray-700">
@@ -664,12 +669,11 @@ export default function NotaryPage() {
                   <Monitor className="w-6 h-6 text-purple-600" />
                   <h3 className="text-xl font-bold text-purple-900">RON — Anywhere</h3>
                 </div>
-                <p className="text-sm text-purple-700 mb-3">With Remote Online Notarization, you can sign from anywhere in the world. The notary must be physically in Oklahoma, but you can be located:</p>
+                <p className="text-sm text-purple-700 mb-3">{NOTARY_RON_SIGNER_SCOPE}</p>
                 <ul className="space-y-1.5 text-sm text-purple-700">
-                  <li>• Any U.S. state</li>
-                  <li>• Any country internationally</li>
-                  <li>• Military bases overseas</li>
-                  <li>• Ships, remote locations, etc.</li>
+                  <li>• Any U.S. state or territory (where your document and platform rules allow)</li>
+                  <li>• Any country internationally (same caveats)</li>
+                  <li>• Military bases overseas, ships, and other remote locations when ID/KBA can be completed</li>
                 </ul>
               </div>
             </div>
@@ -788,7 +792,9 @@ export default function NotaryPage() {
                   <Monitor className="w-6 h-6 text-purple-600" />
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-purple-600 transition">Remote Online Notarization</h3>
-                <p className="text-gray-600 text-sm mb-4">Sign from anywhere in the world via secure video conference. Oklahoma RON-certified and available 24/7.</p>
+                <p className="text-gray-600 text-sm mb-4">
+                  {NOTARY_RON_SIGNER_SCOPE_SHORT} Oklahoma RON-certified, secure video, available 24/7.
+                </p>
                 <div className="flex items-center text-purple-600 font-medium text-sm">
                   Learn More <ChevronRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition" />
                 </div>

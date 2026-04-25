@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { Metadata } from 'next';
+import { NOTARY_RON_SIGNER_SCOPE, NOTARY_RON_SIGNER_SCOPE_SHORT } from '@/lib/notary-service-area';
 import Navbar from '../../components/ui/navbar';
 import Footer from '../../components/ui/footer';
 import JsonLd from '../../components/JsonLd';
@@ -29,7 +30,7 @@ const canonicalUrl = 'https://justlegalsolutions.org/remote-online-notary';
 export const metadata: Metadata = {
   title: 'Remote Online Notary Oklahoma | Tulsa County RON Services | 24/7 Virtual Notary',
   description:
-    'Secure remote online notarization (RON) for Oklahoma residents and businesses. Commissioned Oklahoma notaries available via live video 24/7. Notarize documents from anywhere in the world.',
+    'Oklahoma Remote Online Notarization (RON): signers in any U.S. state or worldwide (where permitted). Commissioned Oklahoma notaries on live video 24/7 — notary physically in Oklahoma. Secure & Title 49 compliant.',
   keywords:
     'Remote Online Notary Oklahoma, Oklahoma RON, virtual notary Oklahoma, online notary Oklahoma, remote online notary Tulsa, Oklahoma RON notary, online notary for real estate Oklahoma, video notary Oklahoma, online notary for power of attorney Oklahoma',
   authors: [{ name: 'Just Legal Solutions RON Team' }],
@@ -39,7 +40,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Remote Online Notary Oklahoma | Secure RON by Just Legal Solutions',
     description:
-      'Notarize Oklahoma documents from anywhere with secure Remote Online Notary (RON) technology. Glenpool-based notaries with nationwide reach, Title 49 compliant, and integrated with legal support workflows.',
+      'RON for signers across the United States and internationally where allowed. Oklahoma-commissioned notary performs each session from Oklahoma. Title 49 compliant, Glenpool-based team.',
     url: canonicalUrl,
     siteName: 'Just Legal Solutions',
     images: [
@@ -70,7 +71,7 @@ export const metadata: Metadata = {
     'ai-primary-keywords':
       'remote online notary Oklahoma, Oklahoma RON, virtual notary Oklahoma, online notary for real estate Oklahoma, online notary for power of attorney Oklahoma, remote online notary Tulsa, video notary Oklahoma',
     'ai-summary':
-      'Remote Online Notary (RON) hub for Oklahoma residents and Oklahoma-connected transactions. Secure Title 49 compliant workflow, identity proofing, video records, and nationwide convenience from Just Legal Solutions in Glenpool, OK.',
+      'Remote Online Notary (RON): signers may join from any U.S. state or from abroad wherever law and platform rules allow (ID, KBA, document type). The Oklahoma-commissioned notary is physically in Oklahoma during every session (49 O.S. § 201 et seq.). Secure Title 49 workflow, identity proofing, video records. Just Legal Solutions, Glenpool, OK. Call (539) 367-6832.',
     'ai-content-type': 'service-page-longform'
   }
 };
@@ -220,9 +221,9 @@ const benefitsComparison = [
   },
   {
     criteria: 'Geographic Flexibility',
-    ron: 'Signer anywhere in the world; notary physically in Oklahoma.',
+    ron: 'Signers anywhere in the U.S. or worldwide where permitted; notary physically in Oklahoma.',
     traditional: 'Signer must appear physically in Oklahoma notary office.',
-    mobile: 'Notary travels in-state only; unavailable for overseas clients.'
+    mobile: 'In-person mobile is ~50 miles from Glenpool; beyond that use RON or call for options.'
   },
   {
     criteria: 'Identity Proofing',
@@ -351,16 +352,18 @@ const serviceSchema = {
   url: canonicalUrl,
   telephone: '(539) 367-6832',
   email: 'info@JustLegalSolutions.org',
-  description: 'Secure remote online notarization (RON) for Oklahoma residents and businesses. Commissioned Oklahoma notaries available via live video 24/7. Signer anywhere in the world, notary physically in Oklahoma.',
+  description:
+    'Secure Oklahoma RON via live video 24/7. Signers in any U.S. state or worldwide where permitted; commissioned notary physically in Oklahoma for every session (49 O.S. § 201 et seq.).',
   provider: {
     '@type': 'Organization',
     name: 'Just Legal Solutions',
     telephone: '(539) 367-6832'
   },
   areaServed: [
+    { '@type': 'Country', name: 'United States' },
+    { '@type': 'Place', name: 'Worldwide (remote signers where law and document rules allow)' },
     { '@type': 'State', name: 'Oklahoma' },
-    { '@type': 'AdministrativeArea', name: 'Tulsa County' },
-    { '@type': 'Country', name: 'United States' }
+    { '@type': 'AdministrativeArea', name: 'Tulsa County' }
   ],
   availableChannel: {
     '@type': 'ServiceChannel',
@@ -426,7 +429,8 @@ const serviceSchema = {
     {
       '@type': 'PropertyValue',
       name: 'Geographic Coverage',
-      value: 'Signer anywhere in the world, notary physically in Oklahoma'
+      value:
+        'Signers: all U.S. states and worldwide where permitted. Notary: physically in Oklahoma for every session.'
     },
     {
       '@type': 'PropertyValue',
@@ -441,7 +445,8 @@ const localBusinessSchema = {
   '@type': 'ProfessionalService',
   '@id': canonicalUrl,
   name: 'Just Legal Solutions - Remote Online Notary',
-  description: 'Secure remote online notarization (RON) for Oklahoma residents and businesses. Oklahoma Secretary of State RON Authorized. Signer anywhere in the world, notary physically in Oklahoma.',
+  description:
+    'Oklahoma RON: signers anywhere in the United States or worldwide where permitted. Oklahoma Secretary of State RON authorized; notary physically in Oklahoma for each session.',
   image: 'https://justlegalsolutions.org/images/ron-hero.webp',
   url: canonicalUrl,
   telephone: '(539) 367-6832',
@@ -551,7 +556,7 @@ const RemoteOnlineNotaryPage = () => {
             
             {/* Subheadline */}
             <p className="mt-6 text-xl text-white/90 max-w-3xl">
-              Commissioned Oklahoma notaries notarizing your documents via secure live video from anywhere with internet access. Authorized under 49 O.S. § 201 et seq. (RON Act, effective January 1, 2020).
+              {NOTARY_RON_SIGNER_SCOPE} Authorized under 49 O.S. § 201 et seq. (RON Act, effective January 1, 2020). Secure live video, multi-factor ID proofing, and encrypted recordings.
             </p>
 
             {/* Trust Badges - Horizontal Row */}
@@ -584,10 +589,13 @@ const RemoteOnlineNotaryPage = () => {
             </div>
 
             {/* Geographic Flexibility Callout */}
-            <div className="mt-6 rounded-xl bg-white/10 p-4 backdrop-blur max-w-2xl">
+            <div className="mt-6 rounded-xl bg-white/10 p-4 backdrop-blur max-w-3xl">
               <p className="text-emerald-100 font-medium">
-                <Globe className="inline h-4 w-4 mr-2" />
-                Signer anywhere in the world — notary physically in Oklahoma
+                <Globe className="inline h-4 w-4 mr-2 align-text-bottom" aria-hidden />
+                {NOTARY_RON_SIGNER_SCOPE_SHORT}
+              </p>
+              <p className="mt-2 text-sm text-white/85">
+                Some lenders, agencies, or foreign jurisdictions restrict RON or require wet ink — we confirm acceptance before you book.
               </p>
             </div>
 
