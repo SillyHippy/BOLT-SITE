@@ -453,7 +453,7 @@ export default function ProcessServingPage() {
                         <div className="grid md:grid-cols-3 gap-6 mb-6">
                             <div className="bg-white border-2 border-gray-200 p-6 rounded-lg text-center">
                                 <h3 className="text-lg font-bold text-gray-900 mb-2">Standard Service</h3>
-                                <div className="text-4xl font-bold text-green-600 mb-2">$60</div>
+                                <div className="text-4xl font-bold text-green-600 mb-2">Starting at $60</div>
                                 <div className="text-sm text-gray-500 mb-4">Starting rate &bull; 5&ndash;7 business days</div>
                                 <ul className="text-sm text-gray-600 space-y-1 text-left">
                                     <li>&#x2713; Up to 3 service attempts</li>
@@ -466,8 +466,8 @@ export default function ProcessServingPage() {
                             <div className="bg-white border-2 border-orange-300 p-6 rounded-lg text-center shadow-lg">
                                 <div className="bg-orange-500 text-white text-xs font-bold px-3 py-1 rounded-full inline-block mb-2">POPULAR</div>
                                 <h3 className="text-lg font-bold text-gray-900 mb-2"><Link href="/same-day-process-server" className="hover:text-orange-600">Same-Day Rush</Link></h3>
-                                <div className="text-4xl font-bold text-orange-600 mb-2">$150</div>
-                                <div className="text-sm text-gray-500 mb-4">Served today &bull; 4&ndash;8 hours</div>
+                                <div className="text-4xl font-bold text-orange-600 mb-2">Starting at $150</div>
+                                <div className="text-sm text-gray-500 mb-4">Same-day availability &bull; 4&ndash;8 hours</div>
                                 <ul className="text-sm text-gray-600 space-y-1 text-left">
                                     <li>&#x2713; 1 priority attempt within 4&ndash;8 hours</li>
                                     <li>&#x2713; GPS-verified with timestamps</li>
@@ -479,7 +479,7 @@ export default function ProcessServingPage() {
                             <div className="bg-white border-2 border-red-300 p-6 rounded-lg text-center shadow-lg">
                                 <div className="bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-full inline-block mb-2">EMERGENCY</div>
                                 <h3 className="text-lg font-bold text-gray-900 mb-2"><Link href="/urgent-process-server" className="hover:text-red-600">2-Hour Emergency</Link></h3>
-                                <div className="text-4xl font-bold text-red-600 mb-2">$265</div>
+                                <div className="text-4xl font-bold text-red-600 mb-2">Starting at $265</div>
                                 <div className="text-sm text-gray-500 mb-4">Immediate dispatch &bull; 2 hours</div>
                                 <ul className="text-sm text-gray-600 space-y-1 text-left">
                                     <li>&#x2713; Immediate dispatch</li>
@@ -491,7 +491,7 @@ export default function ProcessServingPage() {
                             </div>
                         </div>
                         <p className="text-sm text-gray-500 text-center">
-                            <Link href="/pricing" className="text-blue-600 hover:underline font-medium">View complete pricing details →</Link> &bull; All prices are starting rates &bull; No mileage fees within Tulsa County
+                            <Link href="/pricing" className="text-blue-600 hover:underline font-medium">View complete pricing details →</Link> &bull; All prices are starting rates &bull; Same-day and emergency dispatch depend on location and server availability &bull; No mileage fees within Tulsa County
                         </p>
                     </section>
 

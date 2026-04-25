@@ -229,7 +229,14 @@ const cannotNotarize = [
 
 const serviceAreas = {
   primary: ['Tulsa', 'Broken Arrow', 'Owasso', 'Bixby', 'Jenks', 'Sand Springs', 'Sapulpa', 'Catoosa', 'Collinsville', 'Glenpool', 'Skiatook', 'Inola', 'Coweta', 'Kiefer'],
-  extended: ['Oklahoma City metro (OKC, Edmond, Norman, Moore)', 'Stillwater', 'Bartlesville', 'Muskogee', 'Enid', 'Lawton', 'Ardmore', 'Ponca City', 'Shawnee', 'McAlester']
+  extended: [
+    'Creek County (Sapulpa, Kellyville, Bristow)',
+    'Wagoner County (Coweta, Wagoner, Porter, Okay)',
+    'Rogers County (Claremore, Catoosa, Verdigris)',
+    'Osage County (Skiatook area communities)',
+    'Okmulgee County (Okmulgee, Henryetta, Beggs)',
+    'Other communities within ~50 miles of Glenpool'
+  ]
 };
 
 const previewFaqs = [
@@ -654,14 +661,14 @@ export default function NotaryPage() {
               <div className="bg-green-50 rounded-xl p-6 border border-green-200">
                 <div className="flex items-center gap-3 mb-4">
                   <Globe className="w-6 h-6 text-green-600" />
-                  <h3 className="text-xl font-bold text-green-900">Extended — All 77 Counties</h3>
+                  <h3 className="text-xl font-bold text-green-900">Surrounding Counties — ~50 Miles from Glenpool</h3>
                 </div>
                 <div className="flex flex-wrap gap-2 mb-3">
                   {serviceAreas.extended.map((city, i) => (
                     <span key={i} className="bg-white text-sm text-green-700 px-3 py-1 rounded-full border border-green-200">{city}</span>
                   ))}
                 </div>
-                <p className="text-sm text-green-700 mt-3">Travel fees apply. <a href="tel:5393676832" className="font-semibold underline">Call for a quote</a>.</p>
+                <p className="text-sm text-green-700 mt-3">Travel fees may apply based on distance. <a href="tel:5393676832" className="font-semibold underline">Call for a quote</a>.</p>
               </div>
 
               <div className="bg-purple-50 rounded-xl p-6 border border-purple-200">
@@ -685,7 +692,10 @@ export default function NotaryPage() {
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Transparent, State-Compliant Pricing</h2>
-              <p className="text-lg text-gray-600">Oklahoma law sets maximum notary fees. We charge fairly within these limits.</p>
+              <p className="text-lg text-gray-600">
+                Oklahoma law caps the notarial act fee itself. Total appointment pricing can also include separate, disclosed service fees
+                (travel, after-hours dispatch, document handling, and RON platform/compliance costs when applicable).
+              </p>
             </div>
 
             <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden mb-8">
@@ -725,6 +735,9 @@ export default function NotaryPage() {
             <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-8">
               <p className="text-sm text-blue-800">
                 <strong>What&apos;s a &quot;notarial act&quot;?</strong> Each signature that requires notarization counts as one act. A document with 3 signatures = 3 notarial acts. Volume discounts are available for law firms, title companies, and businesses with recurring needs.
+              </p>
+              <p className="text-sm text-blue-800 mt-3">
+                <strong>Why can total pricing be higher than the state per-act cap?</strong> The statutory cap applies to the notarization act. Separate service fees are legal when disclosed in advance, such as mobile travel time/mileage, urgent or after-hours scheduling, witness coordination, scan-backs, and secure RON platform verification/recording costs.
               </p>
             </div>
 
