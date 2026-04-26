@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { ChevronRight, BookOpen, Scale, Briefcase, HelpCircle, Calendar, GitCompare, ArrowRight, Star, Shield, Clock, FileSignature, DollarSign } from 'lucide-react';
-import fs from 'fs';
+import { promises as fs } from 'fs';
 import path from 'path';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import { Navbar } from '@/components/ui/navbar';
@@ -180,14 +180,13 @@ type ReleasedPost = {
   };
 };
 
-function getLatestReleasedPosts(limit = 6): ReleasedPost[] {
+async function getLatestReleasedPosts(limit = 6): Promise<ReleasedPost[]> {
   try {
     const releaseLogPath = path.join(process.cwd(), 'content', 'blog-queue', 'release-log.json');
-    if (!fs.existsSync(releaseLogPath)) {
-      return [];
-    }
 
-    const parsed = JSON.parse(fs.readFileSync(releaseLogPath, 'utf8')) as { releases?: ReleasedPost[] };
+
+    const fileContent = await fs.readFile(releaseLogPath, 'utf8');
+    const parsed = JSON.parse(fileContent) as { releases?: ReleasedPost[] };
     const releases = parsed.releases || [];
 
     return releases
@@ -199,9 +198,9 @@ function getLatestReleasedPosts(limit = 6): ReleasedPost[] {
   }
 }
 
-export default function BlogIndex() {
+export default async function BlogIndex() {
   const totalArticles = categories.reduce((total, cat) => total + cat.posts.length, 0);
-  const latestReleasedPosts = getLatestReleasedPosts();
+  const latestReleasedPosts = await getLatestReleasedPosts();
 
   return (
     <>
