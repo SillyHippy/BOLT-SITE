@@ -123,7 +123,7 @@ const faqSchema = {
 
 export const metadata: Metadata = {
   title: 'Oklahoma Process Server | All 77 Counties',
-  description: 'Professional process server serving all 77 Oklahoma counties. Statewide coverage with same-day service available. Licensed, bonded, insured. Call (539) 367-6832.',
+  description: 'Process server for all 77 Oklahoma counties. Same-day service available statewide by licensed, bonded, insured professionals. Call (539) 367-6832.',
   keywords: 'process server Oklahoma, statewide process serving, Oklahoma process serving, legal document service Oklahoma, court papers Oklahoma counties, skip tracing Oklahoma',
   openGraph: {
     title: 'Process Server Service Areas Oklahoma | Statewide Coverage',
@@ -168,7 +168,7 @@ const counties = [
     name: "Oklahoma County",
     seat: "Oklahoma City",
     cities: ["Oklahoma City", "Edmond", "Midwest City", "Del City", "The Village", "Nichols Hills"],
-    link: "/counties/tulsa-county",
+    link: "/counties/oklahoma-county",
     region: "Metro",
     description: "The state capital and largest county by population. We coordinate regular service runs to the Oklahoma County Courthouse for civil litigation, corporate service, and family law matters. Dense metro areas require familiarity with high-security buildings, office complexes, and military installations."
   },
@@ -176,7 +176,7 @@ const counties = [
     name: "Cleveland County",
     seat: "Norman",
     cities: ["Norman", "Moore", "Noble", "Lexington", "Slaughterville"],
-    link: "/counties/tulsa-county",
+    link: "/counties/cleveland-county",
     region: "Metro",
     description: "Home to the University of Oklahoma in Norman, Cleveland County sees steady demand for civil, family, and landlord-tenant service. Suburban growth areas and student housing add complexity to locating defendants."
   },
@@ -184,7 +184,7 @@ const counties = [
     name: "Canadian County",
     seat: "El Reno",
     cities: ["Mustang", "Yukon", "El Reno", "Piedmont", "Union City"],
-    link: "/counties/tulsa-county",
+    link: "/counties/canadian-county",
     region: "Metro",
     description: "One of the fastest-growing counties in Oklahoma, Canadian County blends suburban OKC metro communities with rural western stretches. Service here often involves new subdivisions and rapidly changing addresses."
   },

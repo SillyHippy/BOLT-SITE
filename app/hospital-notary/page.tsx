@@ -30,8 +30,8 @@ import {
 const canonicalUrl = 'https://justlegalsolutions.org/hospital-notary';
 
 export const metadata: Metadata = {
-  title: 'Hospital & Jail Notary Services Oklahoma | 24/7 Medical Notary Tulsa',
-  description: 'HIPAA-aware hospital and jail notary services across Oklahoma. Bedside notarization at Saint Francis Hospital, Hillcrest Medical Center, and OSU Medical Center. Advance directives, healthcare proxies, and powers of attorney under 49 O.S. § 111 et seq. (Revised Uniform Law on Notarial Acts). Call (539) 367-6832.',
+  title: 'Hospital & Jail Notary Oklahoma | 24/7 Medical Notary',
+  description: '24/7 HIPAA-aware hospital and jail notary services across Oklahoma for advance directives, healthcare proxies, and POAs. Call (539) 367-6832.',
   keywords: [
     'hospital notary Tulsa',
     'jail notary Oklahoma',
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: '24/7 Medical & Jail Notary | Oklahoma',
+    title: '24/7 Hospital & Jail Notary | Oklahoma',
     description: 'On-call notaries for hospitals, nursing homes, hospices, and correctional facilities statewide.',
   },
   other: {
