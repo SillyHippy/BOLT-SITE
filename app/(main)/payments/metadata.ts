@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Pay an Invoice | Just Legal Solutions',
+  title: 'Pay an Invoice',
   description: 'Pay Just Legal Solutions by card, cash, check, Venmo, PayPal, or Zelle. New clients: payment in advance. Questions about your balance? Call (539) 367-6832.',
   keywords: ['legal services payment', 'process server payment', 'online payment', 'Oklahoma legal services payment'],
   alternates: {
