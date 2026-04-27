@@ -22,14 +22,22 @@ try {
   const content = fs.readFileSync(VIDEOS_PAGE_PATH, 'utf8');
 
   // Regex to extract video objects from the arrays in lib/video-data.ts
-  const videoObjectRegex = /\{[\s\S]*?videoId:\s*'([^']+)'[\s\S]*?title:\s*'((?:[^'\\]|\\.)*)'[\s\S]*?description:\s*'((?:[^'\\]|\\.)*)'[\s\S]*?datePublished:\s*'([^']+)'[\s\S]*?duration:\s*'([^']+)'[\s\S]*?\}/g;
+  const videoObjectRegex = /\{[\s\S]*?videoId:\s*'([^']+)'[\s\S]*?title:\s*'((?:[^'\\]|\\.)*)'[\s\S]*?description:\s*'((?:[^'\\]|\\.)*)'[\s\S]*?datePublished:\s*'([^']+)'[\s\S]*?duration:\s*'([^']+)'[\s\S]*?isShort:\s*(true|false)[\s\S]*?\}/g;
   
   let match;
   while ((match = videoObjectRegex.exec(content)) !== null) {
-    const [_, videoId, rawTitleEscaped, rawDescEscaped, datePublished, duration] = match;
+    const [_, videoId, rawTitleEscaped, rawDescEscaped, datePublished, duration, isShortRaw] = match;
     
     let rawTitle = rawTitleEscaped.replace(/\\'/g, "'");
     let rawDesc = rawDescEscaped.replace(/\\'/g, "'");
+    const isShort = isShortRaw === 'true';
+
+    if (isShort && !/\boklahoma\b/i.test(rawTitle)) {
+      rawTitle = `${rawTitle} | Oklahoma`;
+    }
+    if (isShort && !/\boklahoma\b/i.test(rawDesc)) {
+      rawDesc = `${rawDesc} Oklahoma process serving and notary guidance from Just Legal Solutions.`;
+    }
 
     // XML-escape special characters
     let xmlTitle = rawTitle.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;');

@@ -9,6 +9,26 @@ export interface Video {
   isShort: boolean;
 }
 
+export function normalizeShortSeo(video: Video): Video {
+  if (!video.isShort) return video;
+
+  let title = video.title.trim();
+  if (!/\boklahoma\b/i.test(title)) {
+    title = `${title} | Oklahoma`;
+  }
+
+  let description = video.description.trim();
+  if (!/\boklahoma\b/i.test(description)) {
+    description = `${description} Oklahoma process serving and notary guidance from Just Legal Solutions.`;
+  }
+
+  return {
+    ...video,
+    title,
+    description,
+  };
+}
+
 export const featuredVideos: Video[] = [
   {
     videoId: 'ApPeLMDA5wU',
@@ -954,4 +974,5 @@ export const shorts: Video[] = [
   },
 ];
 
-export const allVideos = [...featuredVideos, ...fullVideos, ...shorts];
+export const seoShorts: Video[] = shorts.map(normalizeShortSeo);
+export const allVideos = [...featuredVideos, ...fullVideos, ...seoShorts];

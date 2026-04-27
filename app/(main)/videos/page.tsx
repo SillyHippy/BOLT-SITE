@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import Script from 'next/script';
 import Link from 'next/link';
 import UnifiedSchema from '@/components/UnifiedSchema';
-import { allVideos, featuredVideos, fullVideos, shorts, Video } from '@/lib/video-data';
+import { allVideos, featuredVideos, fullVideos, seoShorts, Video } from '@/lib/video-data';
 import { LiteYouTubeEmbed } from '@/components/lite-youtube-embed';
 
 export const metadata: Metadata = {
@@ -97,7 +97,7 @@ export default function VideosPage() {
               🎬 {fullVideos.length} Full Guides
             </span>
             <span className="bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full text-white">
-              ⚡ {shorts.length} Quick Shorts
+              ⚡ {seoShorts.length} Quick Shorts
             </span>
             <span className="bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full text-white">
               📍 Tulsa, Oklahoma
@@ -168,13 +168,13 @@ export default function VideosPage() {
               <div className="w-1 h-8 bg-red-500 rounded-full" />
               <h2 className="text-2xl font-bold text-gray-900">Quick Shorts</h2>
               <span className="text-sm bg-red-100 text-red-600 px-3 py-1 rounded-full font-medium">
-                {shorts.length} shorts · under 60 seconds
+                {seoShorts.length} shorts · under 60 seconds
               </span>
             </div>
 
             {/* Shorts grid — 9:16 portrait layout */}
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
-              {shorts.map((video) => (
+              {seoShorts.map((video) => (
                 <ShortCard key={video.videoId} video={video} />
               ))}
             </div>

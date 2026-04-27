@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 import Script from 'next/script';
 import Link from 'next/link';
 import Image from 'next/image';
-import { allVideos, Video } from '@/lib/video-data';
+import { allVideos, normalizeShortSeo, Video } from '@/lib/video-data';
 import { LiteYouTubeEmbed } from '@/components/lite-youtube-embed';
 import SearchDominance2026 from '@/components/ui/2026-search-dominance';
 import AIVoiceSupremacy from '@/components/ui/ai-voice-supremacy';
@@ -31,7 +31,8 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
-  const video = findVideo(slug);
+  const originalVideo = findVideo(slug);
+  const video = originalVideo ? normalizeShortSeo(originalVideo) : undefined;
   if (!video) return { title: 'Video Not Found' };
 
   // Dynamic keywords based on video category
@@ -109,7 +110,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 export default async function VideoPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const video = findVideo(slug);
+  const originalVideo = findVideo(slug);
+  const video = originalVideo ? normalizeShortSeo(originalVideo) : undefined;
   if (!video) notFound();
 
   const canonicalUrl = `https://justlegalsolutions.org/videos/${slug}`;
