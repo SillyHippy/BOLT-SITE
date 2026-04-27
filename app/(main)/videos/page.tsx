@@ -8,7 +8,7 @@ import { LiteYouTubeEmbed } from '@/components/lite-youtube-embed';
 export const metadata: Metadata = {
   title: 'Process Serving & Notary Videos — Oklahoma Legal Guides',
   description:
-    "Watch 42 free educational videos on Oklahoma process serving, notary services, skip tracing, pricing, and more from Joseph Iannazzi — Tulsa's #1 rated process server.",
+    "Watch free educational videos on Oklahoma process serving, notary services, skip tracing, pricing, and more from Joseph Iannazzi — Tulsa's #1 rated process server.",
   keywords:
     'Oklahoma process serving videos, process server tutorial, legal document delivery guide, skip tracing explained, Tulsa notary videos, Oklahoma notary 2026',
   authors: [{ name: 'Joseph Iannazzi' }],
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Free Oklahoma Process Serving & Notary Video Guides',
     description:
-      'Watch 42 step-by-step videos covering process serving, notary services, skip tracing, and pricing in Oklahoma.',
+      'Watch step-by-step videos covering process serving, notary services, skip tracing, and pricing in Oklahoma.',
     url: 'https://justlegalsolutions.org/videos',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -65,7 +65,7 @@ export default function VideosPage() {
 
   return (
     <>
-      {/* VideoObject schema for all 42 videos */}
+      {/* VideoObject schema for all videos */}
       <Script
         id="video-object-schema"
         type="application/ld+json"
