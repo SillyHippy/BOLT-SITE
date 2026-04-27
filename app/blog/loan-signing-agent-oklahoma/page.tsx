@@ -93,7 +93,6 @@ export default function LoanSigningAgentOklahoma() {
           dateModified: '2026-04-19',
           image: 'https://justlegalsolutions.org/image-pack/images/image-063-loan-signing-agent-tulsa-hero.png'
         }}
-        faqItems={faqs.map(f => ({ question: f.question, answer: f.answer }))}
         keywords={['loan signing agent oklahoma', 'mortgage notary tulsa', 'NNA certified signing agent', 'loan closing notary', 'signing agent fees']}
       />
 

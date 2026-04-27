@@ -563,7 +563,7 @@ export default function OklahomaServiceByPublicationGuide() {
                   Call (539) 367-6832
                 </a>
                 <Link
-                  href="/services/skip-tracing"
+                  href="/skip-tracing"
                   className="inline-flex items-center gap-2 bg-white text-green-700 border border-green-300 px-4 py-2 rounded-lg font-semibold hover:bg-green-50 transition-colors"
                 >
                   <Search className="w-4 h-4" />
@@ -765,7 +765,7 @@ export default function OklahomaServiceByPublicationGuide() {
                   Call (539) 367-6832
                 </a>
                 <Link
-                  href="/services/process-serving"
+                  href="/process-serving"
                   className="inline-flex items-center gap-2 bg-blue-800 text-white border border-blue-700 px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
                 >
                   <FileText className="w-5 h-5" />

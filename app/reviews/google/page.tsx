@@ -120,12 +120,6 @@ export default function GoogleReviewsPage() {
         url={url}
         title="Google Reviews | Just Legal Solutions Process Server Tulsa"
         description="Google Business Profile reviews for Just Legal Solutions."
-        aggregateRating={{
-          ratingValue: 4.9,
-          reviewCount: 156,
-          bestRating: 5,
-          worstRating: 1,
-        }}
       />
       <JsonLd data={itemListSchema} />
 

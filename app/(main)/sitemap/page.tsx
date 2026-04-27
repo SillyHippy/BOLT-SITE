@@ -330,7 +330,7 @@ const sections: SitemapSection[] = [
       { url: '/process-server-business-startup-guide', label: 'Process Server Business Startup Guide' },
       { url: '/process-server-marketing-guide', label: 'Process Server Marketing Guide' },
       { url: '/oklahoma-process-server-forms-templates', label: 'Oklahoma Process Server Forms & Templates' },
-      { url: '/resources/oklahoma-process-server-licensing-checklist', label: 'Licensing Checklist (PDF)' },
+      { url: '/process-server-license-oklahoma', label: 'Licensing Checklist (Guide)' },
       { url: '/resources/oklahoma-service-of-process-reference', label: 'Service of Process Quick Reference' },
       { url: '/resources/attorneys-guide-hiring-process-server', label: "Attorney's Guide to Hiring a Process Server" },
       { url: '/resources/oklahoma-eviction-timeline', label: 'Oklahoma Eviction Timeline' },

@@ -104,3 +104,12 @@
 # ── 8. App-level redirects (server-side for speed) ──────────
 /faq /ultimate-guide-process-serving-oklahoma 301
 /services /pricing 301
+/same-day-service /same-day-process-server 301
+/year / 301
+/oklahoma-coverage /service-areas 301
+/emergency-process-server /urgent-process-server 301
+/services/skip-tracing /skip-tracing 301
+/tribal-court-service /serving-legal-papers-on-tribal-land 301
+/resources/oklahoma-process-server-licensing-checklist /process-server-license-oklahoma 301
+/blog/skip-tracing-success-story-tulsa-case-study /blog/skip-tracing-oklahoma-guide 301
+/videos/best-process-server-in-tulsa-oklahoma-just-legal-solutions /videos/best-process-server-in-tulsa-oklahoma 301

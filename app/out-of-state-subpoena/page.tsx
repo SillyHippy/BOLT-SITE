@@ -284,7 +284,7 @@ export default function OutOfStateSubpoenaPage() {
                   <li><Link href="/courthouse-filing-services" className="text-blue-600 hover:underline">Courthouse Document Filing</Link></li>
                   <li><Link href="/ai-skip-tracing-guide-oklahoma" className="text-blue-600 hover:underline">Skip Tracing</Link></li>
                   <li><Link href="/registered-agent" className="text-blue-600 hover:underline">Registered Agent Services</Link></li>
-                  <li><Link href="/tribal-court-service" className="text-blue-600 hover:underline">Tribal Court Services</Link></li>
+                  <li><Link href="/serving-legal-papers-on-tribal-land" className="text-blue-600 hover:underline">Tribal Court Services</Link></li>
                 </ul>
               </div>
               

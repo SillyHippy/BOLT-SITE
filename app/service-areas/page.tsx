@@ -4,15 +4,6 @@ import { Phone, MapPin, Clock, Search, Star, CheckCircle, Shield, Building2, Hel
 import UnifiedSchema from '@/components/UnifiedSchema';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 import JsonLd from '@/components/JsonLd';
-// BreadcrumbList schema
-const breadcrumbSchema = {
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://justlegalsolutions.org" },
-    { "@type": "ListItem", "position": 2, "name": "Service Areas", "item": "https://justlegalsolutions.org/service-areas" }
-  ]
-};
 
 // LocalBusiness schema with explicit ServiceArea
 const localBusinessSchema = {
@@ -89,37 +80,6 @@ const localBusinessSchema = {
   ]
 };
 
-// FAQ Schema for Service Area questions
-const faqSchema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do you serve papers in all 77 Oklahoma counties?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, Just Legal Solutions provides professional process serving throughout all 77 Oklahoma counties—from the Panhandle to the southeastern corner. Whether you need service in major metros like Tulsa and Oklahoma City or rural communities, we have you covered with licensed, bonded, and insured service."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is there an extra fee for rural serves?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We offer transparent, competitive pricing statewide. While standard service rates apply to most locations, serves requiring significant travel outside the Tulsa metro area may include a mileage component. We always provide upfront quotes before accepting any serve so there are no surprises."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can you coordinate multiple serves across different counties on the same day?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Absolutely. We specialize in route-optimized multi-serve runs that save you time and money. If you have multiple defendants across different counties, we can often coordinate same-day or next-day service runs that reduce per-serve costs."
-      }
-    }
-  ]
-};
 
 export const metadata: Metadata = {
   title: 'Oklahoma Process Server | All 77 Counties',
@@ -343,11 +303,8 @@ export default function ServiceAreasHub() {
           addressCountry: "US"
         }}
         breadcrumbItems={breadcrumbItems}
-        reviewCount={156}
       />
       <JsonLd data={localBusinessSchema} />
-      <JsonLd data={faqSchema} />
-      <JsonLd data={breadcrumbSchema} />
 <LocalPromoBanner zips={[]} />
 
       <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">

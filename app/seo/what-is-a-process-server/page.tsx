@@ -744,7 +744,7 @@ export default function WhatIsAProcessServerPage() {
             "name": "How Process Serving Works in Oklahoma",
             "description": "60-second visual walkthrough explaining what a process server does and how service of process works in Oklahoma under 12 O.S. § 2004.",
             "thumbnailUrl": "https://img.youtube.com/vi/cbHsAUozxnc/maxresdefault.jpg",
-            "uploadDate": "2026-04-01",
+            "uploadDate": "2026-04-01T08:00:00-05:00",
             "duration": "PT1M00S",
             "contentUrl": "https://www.youtube.com/watch?v=cbHsAUozxnc",
             "embedUrl": "https://www.youtube.com/embed/cbHsAUozxnc",
