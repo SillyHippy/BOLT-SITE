@@ -4219,6 +4219,40 @@
       },
       "warnings": [],
       "mode": "dry-run"
+    },
+    {
+      "slug": "digital-proof-service-modern-documentation",
+      "title": "Digital Proof of Service: How Technology Protects Your Case",
+      "category": "Notary Services",
+      "releasedAt": "2026-04-28T16:47:11.051Z",
+      "quality": {
+        "words": 2508,
+        "headings": 15,
+        "paragraphs": 36
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 1
+      },
+      "warnings": [],
+      "mode": "published"
+    },
+    {
+      "slug": "25-faq-process-serving-oklahoma",
+      "title": "25 FAQ About Process Serving in Oklahoma — Answered",
+      "category": "Process Serving",
+      "releasedAt": "2026-04-28T16:47:11.053Z",
+      "quality": {
+        "words": 3351,
+        "headings": 34,
+        "paragraphs": 31
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 1
+      },
+      "warnings": [],
+      "mode": "published"
     }
   ],
   "failures": [
