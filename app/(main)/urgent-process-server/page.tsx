@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     images: [
       {
-        url: 'https://justlegalsolutions.org/image-pack/images/image-015-urgent-process-server-hero.png',
+        url: 'https://justlegalsolutions.org/image-pack/images/image-015-urgent-process-server-hero.webp',
         width: 1920,
         height: 1080,
         alt: 'Professional entering Tulsa County Courthouse at dawn for urgent process serving',
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Fastest Way to Serve Papers | Same-Day & 2-Hour Emergency',
     description: 'The fastest way to serve papers is hiring a licensed process server. Just Legal Solutions offers 2-hour emergency service starting at $265.',
-    images: ['https://justlegalsolutions.org/image-pack/images/image-015-urgent-process-server-hero.png']
+    images: ['https://justlegalsolutions.org/image-pack/images/image-015-urgent-process-server-hero.webp']
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/urgent-process-server'
@@ -153,7 +153,7 @@ const UrgentProcessServerPage = () => {
 
           <div className="relative h-56 md:h-72 rounded-2xl overflow-hidden shadow-xl mb-8">
             <Image
-              src="/image-pack/images/image-015-urgent-process-server-hero.png"
+              src="/image-pack/images/image-015-urgent-process-server-hero.webp"
               alt="Professional entering Tulsa County Courthouse at dawn for urgent service"
               fill
               className="object-cover"
@@ -623,7 +623,7 @@ const UrgentProcessServerPage = () => {
         title="Fastest Way to Serve Papers in Oklahoma | Same-Day & 2-Hour Emergency"
         description="The fastest way to serve papers in Oklahoma is hiring a licensed process server. 2-hour emergency service, same-day delivery, 24/7 availability. Standard service is $60, single attempts start at $30."
         url="https://justlegalsolutions.org/urgent-process-server"
-        image="https://justlegalsolutions.org/image-pack/images/image-015-urgent-process-server-hero.png"
+        image="https://justlegalsolutions.org/image-pack/images/image-015-urgent-process-server-hero.webp"
         keywords={['fastest way to serve papers', 'urgent process server tulsa', 'same day process serving', 'emergency document delivery', 'fast process server oklahoma', '2 hour process serving']}
         reviewCount={156} services={['2-Hour Emergency Service', 'Same-Day Rush Service', 'Standard Process Serving']}
         breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Urgent Process Server', url: '/urgent-process-server' }]}

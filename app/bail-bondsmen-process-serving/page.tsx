@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://justlegalsolutions.org/image-pack/images/image-093-bail-bondsmen-process-serving-card.png',
+        url: 'https://justlegalsolutions.org/image-pack/images/image-093-bail-bondsmen-process-serving-card.webp',
         width: 1200,
         height: 630,
         alt: 'Bail bondsmen process serving across Oklahoma',
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     creator: '@ServeOK',
     title,
     description,
-    images: ['https://justlegalsolutions.org/image-pack/images/image-093-bail-bondsmen-process-serving-card.png'],
+    images: ['https://justlegalsolutions.org/image-pack/images/image-093-bail-bondsmen-process-serving-card.webp'],
   },
   alternates: { canonical: url },
   other: {

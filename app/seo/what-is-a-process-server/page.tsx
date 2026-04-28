@@ -748,7 +748,7 @@ export default function WhatIsAProcessServerPage() {
             "duration": "PT1M00S",
             "contentUrl": "https://www.youtube.com/watch?v=cbHsAUozxnc",
             "embedUrl": "https://www.youtube.com/embed/cbHsAUozxnc",
-            "publisher": { "@type": "Organization", "name": "Just Legal Solutions", "logo": { "@type": "ImageObject", "url": "https://justlegalsolutions.org/email%20signature%20logo.png" } }
+            "publisher": { "@type": "Organization", "name": "Just Legal Solutions", "logo": { "@type": "ImageObject", "url": "https://justlegalsolutions.org/images/jls-logo.webp" } }
           })}} />
 
           {/* Video Overview Link */}

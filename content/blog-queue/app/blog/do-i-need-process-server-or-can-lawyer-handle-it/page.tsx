@@ -111,7 +111,7 @@ export default function DoINeedProcessServerPage() {
             description="Understanding when attorneys can serve papers directly, why professional process servers are usually the better choice, and the real cost differences for Oklahoma litigants."
             url="https://justlegalsolutions.org/blog/do-i-need-process-server-or-can-lawyer-handle-it"
             datePublished="2025-06-01"
-            image="https://justlegalsolutions.org/images/lawyer-vs-process-server.png"
+            image="https://justlegalsolutions.org/images/lawyer-vs-process-server.webp"
           />
 
           <AuthorBox />

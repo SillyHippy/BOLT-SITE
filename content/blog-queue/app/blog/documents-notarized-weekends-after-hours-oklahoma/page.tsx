@@ -112,7 +112,7 @@ export default function WeekendAfterHoursNotaryPage() {
             description="Your complete guide to weekend, after-hours, and emergency notary services in Oklahoma — including availability, pricing, scheduling tips, and what to expect."
             url="https://justlegalsolutions.org/blog/documents-notarized-weekends-after-hours-oklahoma"
             datePublished="2025-06-01"
-            image="https://justlegalsolutions.org/images/weekend-notary-oklahoma.png"
+            image="https://justlegalsolutions.org/images/weekend-notary-oklahoma.webp"
           />
 
           <AuthorBox />

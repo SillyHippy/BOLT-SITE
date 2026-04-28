@@ -16,7 +16,7 @@ export const metadata: Metadata = {
         description: 'Yes — Oklahoma has no restrictions on the day or time legal papers can be served. Full guide to weekend and holiday service.',
         type: 'article', locale: 'en_US', url: 'https://justlegalsolutions.org/can-process-server-serve-on-sunday', siteName: 'Just Legal Solutions',
         images: [{
-            url: 'https://justlegalsolutions.org/image-pack/images/image-056-can-process-server-serve-on-sunday-og.png',
+            url: 'https://justlegalsolutions.org/image-pack/images/image-056-can-process-server-serve-on-sunday-og.webp',
             width: 1200,
             height: 630,
             alt: 'Quiet Oklahoma residential neighborhood on a Sunday morning',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
         card: 'summary_large_image',
         title: 'Can a Process Server Serve on Sunday in Oklahoma?',
         description: 'Yes — Oklahoma has no restrictions on the day or time legal papers can be served. Full guide to weekend and holiday service.',
-        images: ['https://justlegalsolutions.org/image-pack/images/image-056-can-process-server-serve-on-sunday-og.png'],
+        images: ['https://justlegalsolutions.org/image-pack/images/image-056-can-process-server-serve-on-sunday-og.webp'],
     },
     alternates: { canonical: 'https://justlegalsolutions.org/can-process-server-serve-on-sunday' },
     other: {
@@ -60,7 +60,7 @@ export default function SundayServicePage() {
 
                     <div className="relative h-56 md:h-72 rounded-2xl overflow-hidden shadow-xl mb-8">
                         <Image
-                            src="/image-pack/images/image-056-can-process-server-serve-on-sunday-og.png"
+                            src="/image-pack/images/image-056-can-process-server-serve-on-sunday-og.webp"
                             alt="Quiet Oklahoma residential neighborhood on a Sunday morning"
                             fill
                             className="object-cover"
@@ -186,7 +186,7 @@ export default function SundayServicePage() {
                     </div>
                 </div>
             </div>
-            <UnifiedSchema pageType="article" title="Can a Process Server Serve on Sunday?" description="Yes — Oklahoma has no day-of-week restrictions on service. Full weekend service guide." url="https://justlegalsolutions.org/can-process-server-serve-on-sunday" image="https://justlegalsolutions.org/image-pack/images/image-056-can-process-server-serve-on-sunday-og.png" keywords={['serve on sunday', 'weekend process serving', 'holiday service oklahoma']} reviewCount={156} services={['Weekend Process Serving', '24/7 Emergency Service', 'Holiday Service']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Can a Process Server Serve on Sunday?', url: '/can-process-server-serve-on-sunday' }]} />
+            <UnifiedSchema pageType="article" title="Can a Process Server Serve on Sunday?" description="Yes — Oklahoma has no day-of-week restrictions on service. Full weekend service guide." url="https://justlegalsolutions.org/can-process-server-serve-on-sunday" image="https://justlegalsolutions.org/image-pack/images/image-056-can-process-server-serve-on-sunday-og.webp" keywords={['serve on sunday', 'weekend process serving', 'holiday service oklahoma']} reviewCount={156} services={['Weekend Process Serving', '24/7 Emergency Service', 'Holiday Service']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Can a Process Server Serve on Sunday?', url: '/can-process-server-serve-on-sunday' }]} />
         </>
     );
 }

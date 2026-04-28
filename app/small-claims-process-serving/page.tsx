@@ -18,14 +18,14 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     type: 'website',
     locale: 'en_US',
-    images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-072-family-law-service-guide-tulsa-hero.png', width: 1200, height: 630, alt: 'Small claims process serving Oklahoma' }],
+    images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-072-family-law-service-guide-tulsa-hero.webp', width: 1200, height: 630, alt: 'Small claims process serving Oklahoma' }],
   },
   twitter: {
     card: 'summary_large_image',
     site: '@ServeOK',
     title: 'Small Claims Process Serving in Oklahoma',
     description: 'Service starts at $30 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours rush. Notarized affidavit included.',
-    images: ['https://justlegalsolutions.org/image-pack/images/image-072-family-law-service-guide-tulsa-hero.png'],
+    images: ['https://justlegalsolutions.org/image-pack/images/image-072-family-law-service-guide-tulsa-hero.webp'],
   },
   other: {
     'ai-content-type': 'service-page',

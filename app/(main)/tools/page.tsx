@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     images: [
       {
-        url: 'https://justlegalsolutions.org/image-pack/images/image-006-tools-og.png',
+        url: 'https://justlegalsolutions.org/image-pack/images/image-006-tools-og.webp',
         width: 1200,
         height: 630,
         alt: 'Hands using a tablet with an Oklahoma county map for legal service workflows'
@@ -59,7 +59,7 @@ const ToolsPage = () => {
       description: 'Create professional Affidavit of Service or Non-Service forms ready for court filing. Includes case details, manner of service, attempt tracking, and an optional notary section. Fill it out, print it, or save as PDF.',
       tags: ['Free', 'No Sign-Up', 'Print / PDF'],
       color: 'blue',
-      imageSrc: '/image-pack/images/image-060-affidavit-of-service-og.png',
+      imageSrc: '/image-pack/images/image-060-affidavit-of-service-og.webp',
       imageAlt: 'Notarized affidavit document with official seal and signature for court filing'
     },
     {
@@ -69,7 +69,7 @@ const ToolsPage = () => {
       description: 'Generate process server field sheets for documenting service attempts in the field. Enter case info, service locations, and field notes—then print or save as PDF. Perfect for staying organized on the road.',
       tags: ['Free', 'No Sign-Up', 'Print / PDF'],
       color: 'green',
-      imageSrc: '/image-pack/images/image-090-field-sheet-card.png',
+      imageSrc: '/image-pack/images/image-090-field-sheet-card.webp',
       imageAlt: 'Process server field sheet on a clipboard with pen and GPS device for attempt tracking'
     }
   ];
@@ -99,7 +99,7 @@ const ToolsPage = () => {
         <div className="text-center mb-16">
           <div className="relative h-56 md:h-72 rounded-2xl overflow-hidden shadow-xl mb-8">
             <Image
-              src="/image-pack/images/image-005-tools-hero.png"
+              src="/image-pack/images/image-005-tools-hero.webp"
               alt="Digital legal tools with map interface and GPS tracking for process serving workflows"
               fill
               className="object-cover"

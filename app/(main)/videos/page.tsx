@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.png',
+        url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
         width: 1200,
         height: 630,
         alt: 'Just Legal Solutions — Oklahoma Process Serving & Notary Videos',

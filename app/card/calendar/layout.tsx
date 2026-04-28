@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     url: 'https://justlegalsolutions.org/card/calendar',
     siteName: 'Just Legal Solutions',
     type: 'website',
-    images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-080-oklahoma-tools-hero.png', width: 1200, height: 630 }],
+    images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-080-oklahoma-tools-hero.webp', width: 1200, height: 630 }],
     locale: 'en_US',
   },
   robots: { index: false, follow: false },

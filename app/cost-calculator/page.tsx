@@ -41,7 +41,6 @@ const serviceTypes = [
 ];
 
 const addOns = [
-  { id: 'additional_person', label: 'Additional person at same address', cost: 30 },
   { id: 'stakeout', label: 'Stakeout (per hour, 2hr min)', cost: 105 },
   { id: 'skip_trace', label: 'Skip Tracing', cost: 75 },
   { id: 'court_filing', label: 'In-person court filing (Tulsa Co.)', cost: 35 },

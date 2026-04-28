@@ -56,7 +56,7 @@ const jsonLd = {
     name: 'Just Legal Solutions',
     logo: {
       '@type': 'ImageObject',
-      url: 'https://justlegalsolutions.org/logo.png',
+      url: 'https://justlegalsolutions.org/images/jls-logo.webp',
     },
   },
   datePublished: '2025-01-15',

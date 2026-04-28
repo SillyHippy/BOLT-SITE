@@ -111,7 +111,7 @@ export default function HireLoanSigningNotaryPage() {
             description="Everything you need to know about finding, vetting, and hiring a certified loan signing agent in Oklahoma — from NSA certification to scheduling and what to expect."
             url="https://justlegalsolutions.org/blog/how-to-hire-notary-loan-signing-oklahoma"
             datePublished="2025-06-01"
-            image="https://justlegalsolutions.org/images/loan-signing-notary-oklahoma.png"
+            image="https://justlegalsolutions.org/images/loan-signing-notary-oklahoma.webp"
           />
 
           <AuthorBox />

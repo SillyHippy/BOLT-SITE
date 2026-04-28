@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png', width: 1200, height: 630, alt: 'Oklahoma Notary Fees 2026 Guide' }],
+    images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.webp', width: 1200, height: 630, alt: 'Oklahoma Notary Fees 2026 Guide' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/oklahoma-notary-fees-guide' },
   other: {
@@ -91,7 +91,7 @@ export default function OklahomaNotaryFeesGuide() {
           author: 'Joseph Iannazzi',
           datePublished: '2026-04-07',
           dateModified: '2026-04-07',
-          image: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png'
+          image: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.webp'
         }}
         faqItems={faqs.map(f => ({ question: f.question, answer: f.answer }))}
         keywords={['oklahoma notary fees', 'notary fee schedule oklahoma', 'mobile notary fees tulsa', 'RON notary oklahoma']}

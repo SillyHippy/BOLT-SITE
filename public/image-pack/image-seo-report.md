@@ -64,15 +64,15 @@ The following 11 priority pages were covered first:
 
 | # | Filename | Page | Slot | Dimensions | Decorative | Alt Text |
 |---|----------|------|------|------------|------------|----------|
-| 1 | `image-001-home-hero.png` | / | hero | 1920x1080 | No | Downtown Tulsa Oklahoma skyline at golden hour wit... |
-| 2 | `image-002-home-og.png` | / | og | 1200x630 | No | Professional process server approaching an Oklahom... |
+| 1 | `image-001-home-hero.webp` | / | hero | 1920x1080 | No | Downtown Tulsa Oklahoma skyline at golden hour wit... |
+| 2 | `image-002-home-og.webp` | / | og | 1200x630 | No | Professional process server approaching an Oklahom... |
 | 3 | `image-003-home-card.png` | / | card | 1200x800 | No | Organized legal documents on a professional desk w... |
 | 4 | `image-004-home-card.png` | / | card | 1200x800 | No | Modern Tulsa office interior with city views throu... |
 | 5 | `image-005-tools-hero.png` | /tools | hero | 1920x1080 | No | Digital legal tools including tablet with map inte... |
 | 6 | `image-006-tools-og.png` | /tools | og | 1200x630 | Yes | (decorative - empty) |
 | 7 | `image-007-pricing-hero.png` | /pricing | hero | 1920x1080 | No | Transparent pricing document on clipboard with cof... |
 | 8 | `image-008-pricing-card.png` | /pricing | card | 1200x800 | Yes | (decorative - empty) |
-| 9 | `image-009-process-serving-hero.png` | /process-serving | hero | 1920x1080 | No | Professional process server delivering legal docum... |
+| 9 | `image-009-process-serving-hero.webp` | /process-serving | hero | 1920x1080 | No | Professional process server delivering legal docum... |
 | 10 | `image-010-process-serving-og.png` | /process-serving | og | 1200x630 | No | Legal envelope being delivered through a residenti... |
 | 11 | `image-011-process-serving-card.png` | /process-serving | card | 1200x800 | Yes | (decorative - empty) |
 | 12 | `image-012-same-day-process-server-hero.png` | /same-day-process-server | hero | 1920x1080 | No | Professional courier vehicle on an Oklahoma highwa... |
@@ -85,8 +85,8 @@ The following 11 priority pages were covered first:
 | 19 | `image-019-skip-tracing-card.png` | /skip-tracing | card | 1200x800 | Yes | (decorative - empty) |
 | 20 | `image-020-subpoena-service-hero.png` | /subpoena-service | hero | 1920x1080 | No | Professional reviewing subpoena documents at a mod... |
 | 21 | `image-021-subpoena-service-card.png` | /subpoena-service | card | 1200x800 | Yes | (decorative - empty) |
-| 22 | `image-022-tulsa-process-server-hero.png` | /tulsa-process-server | hero | 1920x1080 | No | Tulsa Oklahoma downtown skyline with BOK Tower at ... |
-| 23 | `image-023-tulsa-process-server-og.png` | /tulsa-process-server | og | 1200x630 | No | Tulsa Arts District street scene with professional... |
+| 22 | `image-022-tulsa-process-server-hero.webp` | /tulsa-process-server | hero | 1920x1080 | No | Tulsa Oklahoma downtown skyline with BOK Tower at ... |
+| 23 | `image-023-tulsa-process-server-og.webp` | /tulsa-process-server | og | 1200x630 | No | Tulsa Arts District street scene with professional... |
 | 24 | `image-024-tulsa-process-server-card.png` | /tulsa-process-server | card | 1200x800 | No | Historic Tulsa County Courthouse exterior with cla... |
 | 25 | `image-025-for-attorneys-hero.png` | /for-attorneys | hero | 1920x1080 | No | Attorney reviewing case files in a modern Oklahoma... |
 | 26 | `image-026-for-attorneys-og.png` | /for-attorneys | og | 1200x630 | Yes | (decorative - empty) |
@@ -95,7 +95,7 @@ The following 11 priority pages were covered first:
 | 29 | `image-029-courier-services-hero.png` | /courier-services | hero | 1920x1080 | No | Professional courier delivering sealed documents a... |
 | 30 | `image-030-courier-services-og.png` | /courier-services | og | 1200x630 | Yes | (decorative - empty) |
 | 31 | `image-031-service-areas-hero.png` | /service-areas | hero | 1920x1080 | No | Map of Oklahoma counties with Tulsa County highlig... |
-| 32 | `image-032-service-areas-card.png` | /service-areas | card | 1200x800 | No | Aerial view of a small Oklahoma town with main str... |
+| 32 | `image-032-service-areas-card.webp` | /service-areas | card | 1200x800 | No | Aerial view of a small Oklahoma town with main str... |
 | 33 | `image-033-mobile-notary-tulsa-hero.png` | /mobile-notary-tulsa | hero | 1920x1080 | No | Mobile notary meeting with client at their home ki... |
 | 34 | `image-034-mobile-notary-tulsa-og.png` | /mobile-notary-tulsa | og | 1200x630 | No | Mobile notary professional entering vehicle for a ... |
 | 35 | `image-035-apostille-hero.png` | /apostille | hero | 1920x1080 | No | Oklahoma government building exterior with America... |
@@ -148,7 +148,7 @@ The following 11 priority pages were covered first:
 | 82 | `image-082-how-to-serve-legal-papers-oklahoma-og.png` | /how-to-serve-legal-papers-oklahoma | og | 1200x630 | Yes | (decorative - empty) |
 | 83 | `image-083-process-serving-mistakes-guide-card.png` | /process-serving-mistakes-guide | card | 1200x800 | Yes | (decorative - empty) |
 | 84 | `image-084-join-our-network-hero.png` | /join-our-network | hero | 1920x1080 | No | Network of professional process servers in collabo... |
-| 85 | `image-085-counties-hero.png` | /counties | hero | 1920x1080 | No | Oklahoma prairie landscape with red dirt roads and... |
+| 85 | `image-085-counties-hero.webp` | /counties | hero | 1920x1080 | No | Oklahoma prairie landscape with red dirt roads and... |
 | 86 | `image-086-reviews-google-card.png` | /reviews/google | card | 1200x800 | Yes | (decorative - empty) |
 | 87 | `image-087-immigration-document-notary-oklahoma-card.png` | /immigration-document-notary-oklahoma | card | 1200x800 | Yes | (decorative - empty) |
 | 88 | `image-088-notary-faqs-card.png` | /notary-faqs | card | 1200x800 | Yes | (decorative - empty) |

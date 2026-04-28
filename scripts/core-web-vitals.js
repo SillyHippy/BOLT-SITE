@@ -17,8 +17,8 @@ const performanceOptimizations = {
   lcp: {
     preloadCriticalResources: [
       'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap',
-      '/images/logo.png',
-      '/images/hero-bg.jpg'
+      '/images/jls-logo.webp',
+      '/images/hero.webp'
     ],
     optimizeImages: true,
     lazyLoadBelowFold: true,
@@ -57,7 +57,7 @@ const performanceOptimizations = {
 const criticalCSS = `
 /* Critical CSS for Core Web Vitals */
 .hero-section {
-  background-image: url('/images/hero-bg.jpg');
+  background-image: url('/images/hero.webp');
   background-size: cover;
   background-position: center;
   min-height: 70vh;

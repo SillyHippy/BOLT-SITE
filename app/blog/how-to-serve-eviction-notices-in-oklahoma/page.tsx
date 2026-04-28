@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'article',
     images: [{
-      url: 'https://justlegalsolutions.org/image-pack/images/image-098-blog-how-to-serve-eviction-notices-in-oklahoma-card.png',
+      url: 'https://justlegalsolutions.org/image-pack/images/image-098-blog-how-to-serve-eviction-notices-in-oklahoma-card.webp',
       width: 1200,
       height: 630,
       alt: 'Eviction Notice Service Rules Oklahoma - Just Legal Solutions',
@@ -120,7 +120,7 @@ export default function EvictionNoticeGuide() {
           author: "Joseph Iannazzi",
           datePublished: "2025-05-15",
           dateModified: "2026-03-27",
-          image: "https://justlegalsolutions.org/image-pack/images/image-098-blog-how-to-serve-eviction-notices-in-oklahoma-card.png"
+          image: "https://justlegalsolutions.org/image-pack/images/image-098-blog-how-to-serve-eviction-notices-in-oklahoma-card.webp"
         }}
         faqItems={faqs.map(f => ({ question: f.question, answer: f.answer }))}
         keywords={['Oklahoma eviction notice', 'how to serve eviction Oklahoma', '5 day notice to quit', 'FED summons', 'Title 41 notice', '12 OS 1148.5']}

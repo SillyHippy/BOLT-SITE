@@ -1,15 +1,15 @@
 # Just Legal Solutions - 100 Image SEO Pack - File List
 # Generated: 2026-04-22T03:17:19.868979
 #
-images/image-001-home-hero.png
-images/image-002-home-og.png
+images/image-001-home-hero.webp
+images/image-002-home-og.webp
 images/image-003-home-card.png
 images/image-004-home-card.png
 images/image-005-tools-hero.png
 images/image-006-tools-og.png
 images/image-007-pricing-hero.png
 images/image-008-pricing-card.png
-images/image-009-process-serving-hero.png
+images/image-009-process-serving-hero.webp
 images/image-010-process-serving-og.png
 images/image-011-process-serving-card.png
 images/image-012-same-day-process-server-hero.png
@@ -22,8 +22,8 @@ images/image-018-skip-tracing-og.png
 images/image-019-skip-tracing-card.png
 images/image-020-subpoena-service-hero.png
 images/image-021-subpoena-service-card.png
-images/image-022-tulsa-process-server-hero.png
-images/image-023-tulsa-process-server-og.png
+images/image-022-tulsa-process-server-hero.webp
+images/image-023-tulsa-process-server-og.webp
 images/image-024-tulsa-process-server-card.png
 images/image-025-for-attorneys-hero.png
 images/image-026-for-attorneys-og.png
@@ -32,7 +32,7 @@ images/image-028-notary-card.png
 images/image-029-courier-services-hero.png
 images/image-030-courier-services-og.png
 images/image-031-service-areas-hero.png
-images/image-032-service-areas-card.png
+images/image-032-service-areas-card.webp
 images/image-033-mobile-notary-tulsa-hero.png
 images/image-034-mobile-notary-tulsa-og.png
 images/image-035-apostille-hero.png
@@ -85,7 +85,7 @@ images/image-081-process-server-license-oklahoma-card.png
 images/image-082-how-to-serve-legal-papers-oklahoma-og.png
 images/image-083-process-serving-mistakes-guide-card.png
 images/image-084-join-our-network-hero.png
-images/image-085-counties-hero.png
+images/image-085-counties-hero.webp
 images/image-086-reviews-google-card.png
 images/image-087-immigration-document-notary-oklahoma-card.png
 images/image-088-notary-faqs-card.png

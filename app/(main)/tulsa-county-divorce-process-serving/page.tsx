@@ -14,7 +14,7 @@ export const metadata: Metadata = {
         title: 'Tulsa County Divorce Process Serving | Serve Divorce Papers Tulsa',
         description: 'Professional divorce paper serving in Tulsa County. Licensed process servers for divorce petitions, summons, and family law documents. From $60.',
         type: 'website', locale: 'en_US', url: 'https://justlegalsolutions.org/tulsa-county-divorce-process-serving', siteName: 'Just Legal Solutions',
-        images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-037-divorce-paper-service-hero.png', width: 1200, height: 630, alt: 'Tulsa County Divorce Process Serving' }],
+        images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-037-divorce-paper-service-hero.webp', width: 1200, height: 630, alt: 'Tulsa County Divorce Process Serving' }],
     },
     alternates: { canonical: 'https://justlegalsolutions.org/tulsa-county-divorce-process-serving' },
     other: {
@@ -398,7 +398,7 @@ export default function TulsaCountyDivorceProcessServingPage() {
                     </div>
                 </div>
             </div>
-            <UnifiedSchema pageType="service" title="Tulsa County Divorce Process Serving" description="Professional divorce paper serving in Tulsa County, Oklahoma. GPS-verified service with court-ready affidavit." url="https://justlegalsolutions.org/tulsa-county-divorce-process-serving" image="https://justlegalsolutions.org/image-pack/images/image-037-divorce-paper-service-hero.png" keywords={['tulsa county divorce process', 'divorce tulsa county', 'serve divorce papers tulsa']} reviewCount={156} services={['Divorce Paper Service', 'Family Law Document Serving', 'Protective Order Service']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'Tulsa County', url: '/counties/tulsa-county' }, { name: 'Divorce Process Serving', url: '/tulsa-county-divorce-process-serving' }]} />
+            <UnifiedSchema pageType="service" title="Tulsa County Divorce Process Serving" description="Professional divorce paper serving in Tulsa County, Oklahoma. GPS-verified service with court-ready affidavit." url="https://justlegalsolutions.org/tulsa-county-divorce-process-serving" image="https://justlegalsolutions.org/image-pack/images/image-037-divorce-paper-service-hero.webp" keywords={['tulsa county divorce process', 'divorce tulsa county', 'serve divorce papers tulsa']} reviewCount={156} services={['Divorce Paper Service', 'Family Law Document Serving', 'Protective Order Service']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'Tulsa County', url: '/counties/tulsa-county' }, { name: 'Divorce Process Serving', url: '/tulsa-county-divorce-process-serving' }]} />
         </>
     );
 }

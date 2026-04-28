@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     description: 'Licensed Broken Arrow process server. Standard from $60, rush $100, same-day $150. GPS-tracked. Call (539) 367-6832.',
     url: 'https://justlegalsolutions.org/broken-arrow-process-server',
     siteName: 'Just Legal Solutions',
-    images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-059-broken-arrow-process-server-hero.png', width: 1200, height: 630 }],
+    images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-059-broken-arrow-process-server-hero.webp', width: 1200, height: 630 }],
     locale: 'en_US',
     type: 'website',
   },
@@ -76,7 +76,7 @@ export default function BrokenArrowProcessServerPage() {
         organizationDetails={{
           name: 'Just Legal Solutions',
           url: 'https://justlegalsolutions.org',
-          logo: 'https://justlegalsolutions.org/email%20signature%20logo.png',
+          logo: 'https://justlegalsolutions.org/images/jls-logo.webp',
           contactPoint: { telephone: '(539) 367-6832', email: 'info@JustLegalSolutions.org' },
           address: { streetAddress: '564 E 138th PL', addressLocality: 'Glenpool', addressRegion: 'OK', postalCode: '74033', addressCountry: 'US' },
         }}

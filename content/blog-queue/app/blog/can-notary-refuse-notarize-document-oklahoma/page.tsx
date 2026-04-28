@@ -111,7 +111,7 @@ export default function NotaryRefusalPage() {
             description="Understanding when an Oklahoma notary can legally refuse service, including incomplete documents, lack of ID, coercion, conflicts of interest, and other valid grounds."
             url="https://justlegalsolutions.org/blog/can-notary-refuse-notarize-document-oklahoma"
             datePublished="2025-06-01"
-            image="https://justlegalsolutions.org/images/notary-refusal-oklahoma.png"
+            image="https://justlegalsolutions.org/images/notary-refusal-oklahoma.webp"
           />
 
           <AuthorBox />

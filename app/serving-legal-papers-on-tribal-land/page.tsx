@@ -139,7 +139,7 @@ export default function ServingLegalPapersOklahomaGuide() {
           author: "Joseph Iannazzi",
           datePublished: "2025-10-11",
           dateModified: "2026-04-07",
-          image: "https://justlegalsolutions.org/image-pack/images/image-085-counties-hero.png"
+          image: "https://justlegalsolutions.org/image-pack/images/image-085-counties-hero.webp"
         }}
         faqItems={faqs.map(f => ({ question: f.question, answer: f.answer }))}
         keywords={['Oklahoma process server', 'tribal land service', 'McGirt v Oklahoma', 'Cherokee Nation process service', 'Muscogee Creek service of process', 'Choctaw Nation civil procedure', 'Chickasaw Nation court', 'Osage Nation process server', 'Seminole Nation tribal court', 'Quapaw Nation service of process']}

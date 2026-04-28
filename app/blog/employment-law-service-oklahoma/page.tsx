@@ -54,7 +54,7 @@ export default function EmploymentLawServiceOklahomaPage() {
           author: 'Joseph Iannazzi',
           datePublished: '2026-04-27',
           dateModified: '2026-04-27',
-          image: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.png',
+          image: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
         }}
         breadcrumbs={[
           { name: 'Home', url: '/' },

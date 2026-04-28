@@ -16,7 +16,7 @@ export const metadata: Metadata = {
         description: 'Locate hard-to-find defendants and witnesses. Database searches, social media investigation, field surveillance. 95%+ success rate.',
         type: 'website', locale: 'en_US', url: 'https://justlegalsolutions.org/skip-tracing', siteName: 'Just Legal Solutions',
         images: [{
-            url: 'https://justlegalsolutions.org/image-pack/images/image-018-skip-tracing-og.png',
+            url: 'https://justlegalsolutions.org/image-pack/images/image-018-skip-tracing-og.webp',
             width: 1200,
             height: 630,
             alt: 'Investigator desk with monitors showing maps and data searches for Oklahoma skip tracing',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
         card: 'summary_large_image',
         title: 'Skip Tracing Services Oklahoma | Locate Hard-to-Find People',
         description: 'Professional skip tracing in Oklahoma to locate defendants, witnesses, and missing persons. Database searches, social media investigation, field work. Starting at $50.',
-        images: ['https://justlegalsolutions.org/image-pack/images/image-018-skip-tracing-og.png'],
+        images: ['https://justlegalsolutions.org/image-pack/images/image-018-skip-tracing-og.webp'],
     },
     alternates: { canonical: 'https://justlegalsolutions.org/skip-tracing' },
     other: {
@@ -90,7 +90,7 @@ export default function SkipTracingPage() {
 
                     <div className="relative h-56 md:h-72 rounded-2xl overflow-hidden shadow-xl mb-8">
                         <Image
-                            src="/image-pack/images/image-017-skip-tracing-hero.png"
+                            src="/image-pack/images/image-017-skip-tracing-hero.webp"
                             alt="Aerial view of Oklahoma suburban neighborhood street network for skip tracing"
                             fill
                             className="object-cover"
@@ -189,7 +189,7 @@ export default function SkipTracingPage() {
                     </div>
                 </div>
             </div>
-            <UnifiedSchema pageType="service" title="Skip Tracing Services Oklahoma" description="Professional skip tracing to locate defendants and witnesses. 95%+ success rate from $50." url="https://justlegalsolutions.org/skip-tracing" image="https://justlegalsolutions.org/image-pack/images/image-018-skip-tracing-og.png" keywords={['skip tracing oklahoma', 'locate defendant', 'find person']} reviewCount={156} services={['Skip Tracing', 'Database Search', 'Social Media Investigation', 'Field Verification']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'Skip Tracing', url: '/skip-tracing' }]} faqItems={faqs} howToSteps={howToSteps} />
+            <UnifiedSchema pageType="service" title="Skip Tracing Services Oklahoma" description="Professional skip tracing to locate defendants and witnesses. 95%+ success rate from $50." url="https://justlegalsolutions.org/skip-tracing" image="https://justlegalsolutions.org/image-pack/images/image-018-skip-tracing-og.webp" keywords={['skip tracing oklahoma', 'locate defendant', 'find person']} reviewCount={156} services={['Skip Tracing', 'Database Search', 'Social Media Investigation', 'Field Verification']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'Skip Tracing', url: '/skip-tracing' }]} faqItems={faqs} howToSteps={howToSteps} />
         </>
     );
 }

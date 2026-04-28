@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png', width: 1200, height: 630, alt: 'How to Serve a Business or Corporation in Oklahoma' }],
+    images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.webp', width: 1200, height: 630, alt: 'How to Serve a Business or Corporation in Oklahoma' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/serve-business-corporation-oklahoma' },
   other: {
@@ -91,7 +91,7 @@ export default function ServeBusinessCorporationOklahoma() {
           author: "Joseph Iannazzi",
           datePublished: "2026-04-08",
           dateModified: "2026-04-08",
-          image: "https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png"
+          image: "https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.webp"
         }}
         faqItems={faqs.map(f => ({ question: f.question, answer: f.answer }))}
         keywords={['serve papers on business oklahoma', 'serve LLC oklahoma', 'serve corporation oklahoma', 'registered agent service oklahoma']}

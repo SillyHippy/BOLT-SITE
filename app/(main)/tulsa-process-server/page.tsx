@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     images: [
       {
-        url: 'https://justlegalsolutions.org/image-pack/images/image-023-tulsa-process-server-og.png',
+        url: 'https://justlegalsolutions.org/image-pack/images/image-023-tulsa-process-server-og.webp',
         width: 1200,
         height: 630,
         alt: 'Tulsa Arts District street scene with professional walking on the sidewalk',
@@ -67,7 +67,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Tulsa Process Server & Broken Arrow | Premier Legal Document Service',
     description: 'Licensed process server in Tulsa, Oklahoma. Fast, reliable legal document service with 24/7 emergency availability.',
-    images: ['https://justlegalsolutions.org/image-pack/images/image-023-tulsa-process-server-og.png'],
+    images: ['https://justlegalsolutions.org/image-pack/images/image-023-tulsa-process-server-og.webp'],
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/tulsa-process-server',
@@ -212,19 +212,19 @@ export default function TulsaProcessServerPage() {
 
   const images = [
     {
-      src: "/image-pack/images/image-022-tulsa-process-server-hero.png",
+      src: "/image-pack/images/image-022-tulsa-process-server-hero.webp",
       alt: "Tulsa Oklahoma downtown skyline with BOK Tower at sunset and Arkansas River",
-      fileName: "image-022-tulsa-process-server-hero.png"
+      fileName: "image-022-tulsa-process-server-hero.webp"
     },
     {
-      src: "/image-pack/images/image-024-tulsa-process-server-card.png",
+      src: "/image-pack/images/image-024-tulsa-process-server-card.webp",
       alt: "Historic Tulsa County Courthouse exterior with classical architecture",
-      fileName: "image-024-tulsa-process-server-card.png"
+      fileName: "image-024-tulsa-process-server-card.webp"
     },
     {
-      src: "/image-pack/images/image-023-tulsa-process-server-og.png",
+      src: "/image-pack/images/image-023-tulsa-process-server-og.webp",
       alt: "Tulsa Arts District street scene with professional walking on the sidewalk",
-      fileName: "image-023-tulsa-process-server-og.png"
+      fileName: "image-023-tulsa-process-server-og.webp"
     },
     {
       src: "/images/Tulsa_skyline_aerial,_April_2023.webp",
@@ -786,7 +786,7 @@ export default function TulsaProcessServerPage() {
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Tulsa Process Server</h3>
                 <div className="relative h-48 mb-4">
                   <Image
-                    src="/image-pack/images/image-022-tulsa-process-server-hero.png"
+                    src="/image-pack/images/image-022-tulsa-process-server-hero.webp"
                     alt="Tulsa Oklahoma downtown skyline with BOK Tower at sunset and Arkansas River"
                     fill
                     className="object-cover rounded-lg"
@@ -801,7 +801,7 @@ export default function TulsaProcessServerPage() {
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Tulsa County Courthouse</h3>
                 <div className="relative h-48 mb-4">
                   <Image
-                    src="/image-pack/images/image-024-tulsa-process-server-card.png"
+                    src="/image-pack/images/image-024-tulsa-process-server-card.webp"
                     alt="Historic Tulsa County Courthouse exterior with classical architecture"
                     fill
                     className="object-cover rounded-lg"
@@ -816,7 +816,7 @@ export default function TulsaProcessServerPage() {
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Downtown Tulsa Service</h3>
                 <div className="relative h-48 mb-4">
                   <Image
-                    src="/image-pack/images/image-023-tulsa-process-server-og.png"
+                    src="/image-pack/images/image-023-tulsa-process-server-og.webp"
                     alt="Tulsa Arts District street scene with professional walking on the sidewalk"
                     fill
                     className="object-cover rounded-lg"
@@ -1065,7 +1065,7 @@ export default function TulsaProcessServerPage() {
         title="Professional Process Server in Tulsa, Oklahoma"
         description="Expert legal document delivery throughout Tulsa County. Licensed, bonded, and available 24/7 for all your process serving needs."
         url="https://justlegalsolutions.org/tulsa-process-server"
-        image="https://justlegalsolutions.org/image-pack/images/image-023-tulsa-process-server-og.png"
+        image="https://justlegalsolutions.org/image-pack/images/image-023-tulsa-process-server-og.webp"
         reviewCount={156}
         location={{
           name: 'Tulsa County',

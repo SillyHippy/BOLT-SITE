@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.png',
+        url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',
         width: 1200,
         height: 630,
         alt: 'Professional process server approaching an Oklahoma courthouse entrance'
@@ -73,7 +73,7 @@ export const metadata: Metadata = {
     creator: '@ServeOK',
     title: 'Professional Process Server Tulsa County - Just Legal Solutions Oklahoma',
     description: 'Expert process serving for Tulsa, Broken Arrow, Sapulpa, Glenpool & Oklahoma. 50+ years combined experience.',
-    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.png'],
+    images: ['https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'],
   }
 };
 
@@ -85,7 +85,7 @@ export default function Home() {
       <section className="relative h-[calc(100vh-4rem)] md:h-[calc(100vh-4rem)]" aria-label="Hero section">
         <div className="absolute inset-0">
           <Image
-            src="/image-pack/images/image-001-home-hero.png"
+            src="/image-pack/images/image-001-home-hero.webp"
             alt="Downtown Tulsa Oklahoma skyline at golden hour with the Arkansas River"
             fill
             className="object-cover"
@@ -180,7 +180,7 @@ export default function Home() {
           "duration": "PT4M30S",
           "contentUrl": "https://www.youtube.com/watch?v=NFAhglMUNqc",
           "embedUrl": "https://www.youtube.com/embed/NFAhglMUNqc",
-          "publisher": { "@type": "Organization", "name": "Just Legal Solutions", "logo": { "@type": "ImageObject", "url": "https://justlegalsolutions.org/email%20signature%20logo.png" } }
+          "publisher": { "@type": "Organization", "name": "Just Legal Solutions", "logo": { "@type": "ImageObject", "url": "https://justlegalsolutions.org/images/jls-logo.webp" } }
         })
       }} />
       {/* Services Grid */}
@@ -224,7 +224,7 @@ export default function Home() {
                 <ResponsiveImage
                   src="/images/skip-trace.webp"
                   mobileSrc="/images/mobile/skip-trace.webp"
-                  alt="Professional skip tracing and investigation services for locating individuals in Oklahoma"
+                  alt="Professional skip tracing investigator"
                   className="object-cover object-center"
                 />
               </div>
@@ -591,7 +591,7 @@ export default function Home() {
         url="https://justlegalsolutions.org/"
         title="Professional Process Server Tulsa County - Just Legal Solutions Oklahoma"
         description="Expert process serving for Tulsa, Broken Arrow, Sapulpa, Glenpool & Oklahoma. 50+ years combined experience. Service starts at $30 (single-attempt) and $60 standard. Full pricing at https://justlegalsolutions.org/pricing. Call (539) 367-6832."
-        image="https://justlegalsolutions.org/image-pack/images/image-002-home-og.png"
+        image="https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp"
         priceRange={PRICE_RANGE_DISPLAY}
         serviceDetails={{
           name: "Process Serving Services",

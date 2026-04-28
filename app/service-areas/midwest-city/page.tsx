@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     images: [
       {
-        url: 'https://justlegalsolutions.org/image-pack/images/image-032-service-areas-card.png',
+        url: 'https://justlegalsolutions.org/image-pack/images/image-032-service-areas-card.webp',
         width: 1200,
         height: 630,
         alt: 'Just Legal Solutions - Professional Process Server Midwest City Oklahoma',
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Process Server Midwest City, OK | Licensed Oklahoma County Legal Service',
     description: 'Licensed process server in Midwest City, Oklahoma. Home to Tinker Air Force Base with GPS-tracked, court-ready document service. Call (539) 367-6832.',
-    images: ['https://justlegalsolutions.org/image-pack/images/image-032-service-areas-card.png'],
+    images: ['https://justlegalsolutions.org/image-pack/images/image-032-service-areas-card.webp'],
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/service-areas/midwest-city',

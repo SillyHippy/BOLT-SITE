@@ -14,7 +14,7 @@ export const metadata: Metadata = {
         title: 'How Long Does Process Serving Take in Oklahoma?',
         description: 'From 2 hours (emergency) to 6 weeks (sheriff). Full timeline comparison for process serving in Oklahoma.',
         type: 'article', locale: 'en_US', url: 'https://justlegalsolutions.org/how-long-does-process-serving-take', siteName: 'Just Legal Solutions',
-        images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-057-how-much-does-process-server-cost-og.png', width: 1200, height: 630, alt: 'Process Serving Timeline Guide' }],
+        images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-057-how-much-does-process-server-cost-og.webp', width: 1200, height: 630, alt: 'Process Serving Timeline Guide' }],
     },
     alternates: { canonical: 'https://justlegalsolutions.org/how-long-does-process-serving-take' },
     other: {
@@ -152,7 +152,7 @@ export default function HowLongPage() {
                     </div>
                 </div>
             </div>
-            <UnifiedSchema pageType="article" title="How Long Does Process Serving Take?" description="Timeline guide: 2 hours to 6 weeks depending on method. Full comparison." url="https://justlegalsolutions.org/how-long-does-process-serving-take" image="https://justlegalsolutions.org/image-pack/images/image-057-how-much-does-process-server-cost-og.png" keywords={['how long process serving takes', 'process serving timeline', 'fast paper serving']} reviewCount={156} services={['Standard Service', 'Same-Day Rush', '2-Hour Emergency']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'How Long Does Process Serving Take?', url: '/how-long-does-process-serving-take' }]} />
+            <UnifiedSchema pageType="article" title="How Long Does Process Serving Take?" description="Timeline guide: 2 hours to 6 weeks depending on method. Full comparison." url="https://justlegalsolutions.org/how-long-does-process-serving-take" image="https://justlegalsolutions.org/image-pack/images/image-057-how-much-does-process-server-cost-og.webp" keywords={['how long process serving takes', 'process serving timeline', 'fast paper serving']} reviewCount={156} services={['Standard Service', 'Same-Day Rush', '2-Hour Emergency']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'How Long Does Process Serving Take?', url: '/how-long-does-process-serving-take' }]} />
         </>
     );
 }

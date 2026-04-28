@@ -111,7 +111,7 @@ export default function ImproperServicePage() {
             description="Understanding the legal consequences of improper service, the risks to your case, and how to prevent costly mistakes under Oklahoma law."
             url="https://justlegalsolutions.org/blog/what-happens-if-service-done-incorrectly-oklahoma"
             datePublished="2025-06-01"
-            image="https://justlegalsolutions.org/images/improper-service-consequences.png"
+            image="https://justlegalsolutions.org/images/improper-service-consequences.webp"
           />
 
           <AuthorBox />

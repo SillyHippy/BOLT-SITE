@@ -159,7 +159,7 @@ const howToSchema = {
   "@type": "HowTo",
   "name": "How to Hire a Process Server in Tulsa",
   "description": "Comprehensive guide to selecting and working with a qualified process server in Tulsa County.",
-  "image": "https://justlegalsolutions.org/images/process-serving-guide.jpg",
+  "image": "https://justlegalsolutions.org/images/process-serving-guide.webp",
   "totalTime": "PT30M",
   "estimatedCost": {
     "@type": "MonetaryAmount",
@@ -181,25 +181,25 @@ const howToSchema = {
       "@type": "HowToStep",
       "name": "Contact Just Legal Solutions",
       "text": "Call (539) 367-6832 or visit justlegalsolutions.org to discuss your process serving needs",
-      "image": "https://justlegalsolutions.org/images/contact-step.jpg"
+      "image": "https://justlegalsolutions.org/images/contact-step.webp"
     },
     {
       "@type": "HowToStep",
       "name": "Provide Document Details",
       "text": "Share information about the legal documents that need to be served and the defendant's location",
-      "image": "https://justlegalsolutions.org/images/documents-step.jpg"
+      "image": "https://justlegalsolutions.org/images/documents-step.webp"
     },
     {
       "@type": "HowToStep",
       "name": "Choose Service Type",
       "text": "Select from same-day, rush, or standard process serving options based on your timeline",
-      "image": "https://justlegalsolutions.org/images/service-options.jpg"
+      "image": "https://justlegalsolutions.org/images/service-options.webp"
     },
     {
       "@type": "HowToStep",
       "name": "Receive Proof of Service",
       "text": "Get notarized affidavit of service as legal proof that documents were properly delivered",
-      "image": "https://justlegalsolutions.org/images/proof-of-service.jpg"
+      "image": "https://justlegalsolutions.org/images/proof-of-service.webp"
     }
   ]
 };

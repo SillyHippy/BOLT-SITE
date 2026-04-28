@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     images: [
       {
-        url: 'https://justlegalsolutions.org/image-pack/images/image-080-oklahoma-tools-hero.png',
+        url: 'https://justlegalsolutions.org/image-pack/images/image-080-oklahoma-tools-hero.webp',
         width: 1200,
         height: 630,
         alt: 'Free PDF Tools - Just Legal Solutions',

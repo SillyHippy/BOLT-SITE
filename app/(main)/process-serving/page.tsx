@@ -28,7 +28,7 @@ export const metadata: Metadata = {
         url: 'https://justlegalsolutions.org/process-serving',
         siteName: 'Just Legal Solutions',
         images: [{
-            url: 'https://justlegalsolutions.org/image-pack/images/image-010-process-serving-og.png',
+            url: 'https://justlegalsolutions.org/image-pack/images/image-010-process-serving-og.webp',
             width: 1200,
             height: 630,
             alt: 'Legal envelope being delivered through a residential mail slot',
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
         card: 'summary_large_image',
         title: 'Process Serving Oklahoma | Starts at $30 Single-Attempt',
         description: 'Licensed Oklahoma process servers. Personal service, substitute service, service by publication. 24/7 availability across all 77 counties.',
-        images: ['https://justlegalsolutions.org/image-pack/images/image-010-process-serving-og.png'],
+        images: ['https://justlegalsolutions.org/image-pack/images/image-010-process-serving-og.webp'],
     },
     alternates: {
         canonical: 'https://justlegalsolutions.org/process-serving',
@@ -132,7 +132,7 @@ export default function ProcessServingPage() {
 
                     <div className="relative h-56 md:h-72 rounded-2xl overflow-hidden shadow-xl mb-8">
                         <Image
-                            src="/image-pack/images/image-009-process-serving-hero.png"
+                            src="/image-pack/images/image-009-process-serving-hero.webp"
                             alt="Professional process server delivering legal documents at an Oklahoma residence"
                             fill
                             className="object-cover"
@@ -810,7 +810,7 @@ export default function ProcessServingPage() {
                 title="Process Serving Services Oklahoma | Licensed Servers, Starts at $30"
                 description="Professional process serving throughout Oklahoma. Personal service, substitute service, and service by publication. Starts at $30 for single attempt, $60 for standard service. Licensed, bonded, 24/7."
                 url="https://justlegalsolutions.org/process-serving"
-                image="https://justlegalsolutions.org/image-pack/images/image-010-process-serving-og.png"
+                image="https://justlegalsolutions.org/image-pack/images/image-010-process-serving-og.webp"
                 keywords={['process serving', 'process server oklahoma', 'serve legal papers', 'personal service', 'substitute service', 'process server vs sheriff', 'evasive defendant service']}
                 reviewCount={156}
                 services={[

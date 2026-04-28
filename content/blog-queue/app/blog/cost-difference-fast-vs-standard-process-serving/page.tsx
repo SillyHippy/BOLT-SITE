@@ -148,7 +148,7 @@ function UnifiedSchema() {
         datePublished: "2024-02-05T08:00:00Z",
         dateModified: "2024-02-05T08:00:00Z",
         author: { "@type": "Organization", name: "Just Legal Solutions", url: "https://justlegalsolutions.org" },
-        publisher: { "@type": "Organization", name: "Just Legal Solutions", logo: { "@type": "ImageObject", url: "https://justlegalsolutions.org/logo.png" } },
+        publisher: { "@type": "Organization", name: "Just Legal Solutions", logo: { "@type": "ImageObject", url: "https://justlegalsolutions.org/images/jls-logo.webp" } },
         mainEntityOfPage: { "@type": "WebPage", "@id": "https://justlegalsolutions.org/blog/cost-difference-fast-vs-standard-process-serving" },
       },
       {

@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://justlegalsolutions.org/image-pack/images/image-020-subpoena-service-hero.png',
+        url: 'https://justlegalsolutions.org/image-pack/images/image-020-subpoena-service-hero.webp',
         width: 1200,
         height: 630,
         alt: 'Subpoena service across Oklahoma by Just Legal Solutions',
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     creator: '@ServeOK',
     title,
     description,
-    images: ['https://justlegalsolutions.org/image-pack/images/image-020-subpoena-service-hero.png'],
+    images: ['https://justlegalsolutions.org/image-pack/images/image-020-subpoena-service-hero.webp'],
   },
   alternates: { canonical: url },
   other: {

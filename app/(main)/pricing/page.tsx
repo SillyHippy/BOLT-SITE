@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     images: [
       {
-        url: 'https://justlegalsolutions.org/image-pack/images/image-047-oklahoma-process-server-pricing-og.png',
+        url: 'https://justlegalsolutions.org/image-pack/images/image-047-oklahoma-process-server-pricing-og.webp',
         width: 1200,
         height: 630,
         alt: 'Pricing chart and calculator representing transparent Oklahoma process serving costs'
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Process Server Pricing Oklahoma | Just Legal Solutions',
     description: 'Transparent process server pricing in Oklahoma. Starts at $30 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours.',
-    images: ['https://justlegalsolutions.org/image-pack/images/image-047-oklahoma-process-server-pricing-og.png'],
+    images: ['https://justlegalsolutions.org/image-pack/images/image-047-oklahoma-process-server-pricing-og.webp'],
   },
   robots: {
     index: true,
@@ -93,7 +93,6 @@ const serviceCategories = [
   {
     category: 'Special Pricing & Court',
     services: [
-      { title: 'Multiple Services at Same Address', description: 'When serving multiple individuals at the same location, each additional person is only <strong>$30</strong>.' },
       { title: 'Single Serve Attempt', description: 'Reduced Rate for only a single serve attempt, the fee starts as low as <strong>$30</strong>.' },
       { title: 'Court Appearance Fees', description: 'Tulsa County appearances: <strong>Up to $500/hour</strong>, billed in full-hour increments (contact us for negotiated rates). Appearances outside Tulsa County: Additional fees based on travel/time will be negotiated beforehand. This fee is separate from standard document service charges and covers time spent attending court and testifying. Rescheduling/cancellation fees may apply.' },
     ]
@@ -186,7 +185,7 @@ export default function PricingPage() {
         organizationDetails={{
           name: "Just Legal Solutions",
           url: "https://justlegalsolutions.org",
-          logo: "https://justlegalsolutions.org/email%20signature%20logo.png",
+          logo: "https://justlegalsolutions.org/images/jls-logo.webp",
           contactPoint: {
             telephone: "(539) 367-6832",
             email: "info@JustLegalSolutions.org"
@@ -215,7 +214,7 @@ export default function PricingPage() {
         <section className="relative pt-24 pb-12 px-4 overflow-hidden">
           <div className="absolute inset-0 -z-10">
             <Image
-              src="/image-pack/images/image-007-pricing-hero.png"
+              src="/image-pack/images/image-007-pricing-hero.webp"
               alt="Transparent pricing document on clipboard with coffee on a professional desk"
               fill
               className="object-cover"
@@ -780,7 +779,7 @@ export default function PricingPage() {
           "duration": "PT5M00S",
           "contentUrl": "https://www.youtube.com/watch?v=zTuTJiO71Gk",
           "embedUrl": "https://www.youtube.com/embed/zTuTJiO71Gk",
-          "publisher": { "@type": "Organization", "name": "Just Legal Solutions", "logo": { "@type": "ImageObject", "url": "https://justlegalsolutions.org/email%20signature%20logo.png" } }
+          "publisher": { "@type": "Organization", "name": "Just Legal Solutions", "logo": { "@type": "ImageObject", "url": "https://justlegalsolutions.org/images/jls-logo.webp" } }
         })}} />
 
         {/* 2025 AI Voice Supremacy */}

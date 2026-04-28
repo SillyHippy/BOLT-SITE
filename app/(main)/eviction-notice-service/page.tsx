@@ -16,7 +16,7 @@ export const metadata: Metadata = {
         description: 'Professional eviction notice delivery. 5-day, 15-day, and 30-day notices served by licensed Oklahoma process servers with GPS proof.',
         type: 'website', locale: 'en_US', url: 'https://justlegalsolutions.org/eviction-notice-service', siteName: 'Just Legal Solutions',
         images: [{
-            url: 'https://justlegalsolutions.org/image-pack/images/image-040-eviction-notice-service-og.png',
+            url: 'https://justlegalsolutions.org/image-pack/images/image-040-eviction-notice-service-og.webp',
             width: 1200,
             height: 630,
             alt: 'Eviction-related notice posted at a residential door in Oklahoma',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
         card: 'summary_large_image',
         title: 'Eviction Notice Service Oklahoma | Licensed Process Servers',
         description: 'Professional eviction notice delivery. 5-day, 15-day, and 30-day notices served by licensed Oklahoma process servers with GPS proof.',
-        images: ['https://justlegalsolutions.org/image-pack/images/image-040-eviction-notice-service-og.png'],
+        images: ['https://justlegalsolutions.org/image-pack/images/image-040-eviction-notice-service-og.webp'],
     },
     alternates: { canonical: 'https://justlegalsolutions.org/eviction-notice-service' },
     other: {
@@ -94,7 +94,7 @@ export default function EvictionNoticeServicePage() {
 
                     <div className="relative h-56 md:h-72 rounded-2xl overflow-hidden shadow-xl mb-8">
                         <Image
-                            src="/image-pack/images/image-039-eviction-notice-service-hero.png"
+                            src="/image-pack/images/image-039-eviction-notice-service-hero.webp"
                             alt="Professional process server at an Oklahoma apartment complex for eviction notice service"
                             fill
                             className="object-cover"
@@ -223,7 +223,7 @@ export default function EvictionNoticeServicePage() {
                     </div>
                 </div>
             </div>
-            <UnifiedSchema pageType="service" title="Eviction Notice Service Oklahoma" description="5-day, 15-day, and 30-day eviction notices served by licensed process servers. GPS-verified, from $30." url="https://justlegalsolutions.org/eviction-notice-service" image="https://justlegalsolutions.org/image-pack/images/image-040-eviction-notice-service-og.png" keywords={['eviction notice service', 'serve eviction notice oklahoma', '5 day notice']} reviewCount={156} services={['5-Day Notice Service', '15-Day Notice Service', '30-Day Notice Service', '24-Hour Emergency Notice']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'Eviction Notice Service', url: '/eviction-notice-service' }]} faqItems={faqs} howToSteps={howToSteps} />
+            <UnifiedSchema pageType="service" title="Eviction Notice Service Oklahoma" description="5-day, 15-day, and 30-day eviction notices served by licensed process servers. GPS-verified, from $30." url="https://justlegalsolutions.org/eviction-notice-service" image="https://justlegalsolutions.org/image-pack/images/image-040-eviction-notice-service-og.webp" keywords={['eviction notice service', 'serve eviction notice oklahoma', '5 day notice']} reviewCount={156} services={['5-Day Notice Service', '15-Day Notice Service', '30-Day Notice Service', '24-Hour Emergency Notice']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'Eviction Notice Service', url: '/eviction-notice-service' }]} faqItems={faqs} howToSteps={howToSteps} />
         </>
     );
 }

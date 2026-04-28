@@ -42,7 +42,7 @@ export async function generateMetadata({
       type: 'website',
       images: [
         {
-          url: 'https://justlegalsolutions.org/image-pack/images/image-085-counties-hero.png',
+          url: 'https://justlegalsolutions.org/image-pack/images/image-085-counties-hero.webp',
           width: 1920,
           height: 1080,
           alt: 'Oklahoma prairie landscape with red dirt roads and vast sky at golden hour',
@@ -53,7 +53,7 @@ export async function generateMetadata({
       card: 'summary_large_image',
       title,
       description,
-      images: ['https://justlegalsolutions.org/image-pack/images/image-085-counties-hero.png'],
+      images: ['https://justlegalsolutions.org/image-pack/images/image-085-counties-hero.webp'],
     },
     alternates: {
       canonical: `https://justlegalsolutions.org/counties/${slug}`,

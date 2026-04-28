@@ -16,7 +16,7 @@ export const metadata: Metadata = {
         description: 'Licensed process servers for subpoena delivery across all 77 Oklahoma counties. Same-day and emergency options available.',
         type: 'website', locale: 'en_US', url: 'https://justlegalsolutions.org/subpoena-service', siteName: 'Just Legal Solutions',
         images: [{
-            url: 'https://justlegalsolutions.org/image-pack/images/image-020-subpoena-service-hero.png',
+            url: 'https://justlegalsolutions.org/image-pack/images/image-020-subpoena-service-hero.webp',
             width: 1920,
             height: 1080,
             alt: 'Professional reviewing subpoena documents at a modern conference table in Oklahoma',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
         card: 'summary_large_image',
         title: 'Subpoena Service Oklahoma | Witness & Document Subpoenas',
         description: 'Licensed process servers for subpoena delivery across all 77 Oklahoma counties. Same-day and emergency options available.',
-        images: ['https://justlegalsolutions.org/image-pack/images/image-020-subpoena-service-hero.png'],
+        images: ['https://justlegalsolutions.org/image-pack/images/image-020-subpoena-service-hero.webp'],
     },
     alternates: { canonical: 'https://justlegalsolutions.org/subpoena-service' },
     other: {
@@ -61,7 +61,7 @@ export default function SubpoenaServicePage() {
 
                     <div className="relative h-56 md:h-72 rounded-2xl overflow-hidden shadow-xl mb-8">
                         <Image
-                            src="/image-pack/images/image-020-subpoena-service-hero.png"
+                            src="/image-pack/images/image-020-subpoena-service-hero.webp"
                             alt="Professional reviewing subpoena documents at a modern conference table in Oklahoma"
                             fill
                             className="object-cover"
@@ -167,7 +167,7 @@ export default function SubpoenaServicePage() {
                     </div>
                 </div>
             </div>
-            <UnifiedSchema pageType="service" title="Subpoena Service Oklahoma" description="Witness, document, and deposition subpoena service across Oklahoma. GPS-verified, from $30." url="https://justlegalsolutions.org/subpoena-service" image="https://justlegalsolutions.org/image-pack/images/image-020-subpoena-service-hero.png" keywords={['subpoena service', 'witness subpoena oklahoma', 'subpoena duces tecum']} reviewCount={156} services={['Witness Subpoena Service', 'Document Subpoena Service', 'Deposition Subpoena Service']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'Subpoena Service', url: '/subpoena-service' }]} />
+            <UnifiedSchema pageType="service" title="Subpoena Service Oklahoma" description="Witness, document, and deposition subpoena service across Oklahoma. GPS-verified, from $30." url="https://justlegalsolutions.org/subpoena-service" image="https://justlegalsolutions.org/image-pack/images/image-020-subpoena-service-hero.webp" keywords={['subpoena service', 'witness subpoena oklahoma', 'subpoena duces tecum']} reviewCount={156} services={['Witness Subpoena Service', 'Document Subpoena Service', 'Deposition Subpoena Service']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'Subpoena Service', url: '/subpoena-service' }]} />
         </>
     );
 }

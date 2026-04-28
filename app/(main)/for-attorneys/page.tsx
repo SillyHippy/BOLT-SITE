@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://justlegalsolutions.org/image-pack/images/image-026-for-attorneys-og.png',
+        url: 'https://justlegalsolutions.org/image-pack/images/image-026-for-attorneys-og.webp',
         width: 1200,
         height: 630,
         alt: 'Leather briefcase with legal documents on a desk next to reading glasses and a fountain pen',
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Process Serving for Attorneys | Just Legal Solutions',
     description: 'Oklahoma process serving for law firms. Volume discounts, Net-15 billing, same-day affidavits.',
-    images: ['https://justlegalsolutions.org/image-pack/images/image-026-for-attorneys-og.png'],
+    images: ['https://justlegalsolutions.org/image-pack/images/image-026-for-attorneys-og.webp'],
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/for-attorneys',
@@ -118,7 +118,7 @@ export default function ForAttorneysPage() {
           { name: 'Home', item: 'https://justlegalsolutions.org/' },
           { name: 'For Attorneys', item: 'https://justlegalsolutions.org/for-attorneys' },
         ]}
-        image="https://justlegalsolutions.org/image-pack/images/image-026-for-attorneys-og.png"
+        image="https://justlegalsolutions.org/image-pack/images/image-026-for-attorneys-og.webp"
         faqItems={faqs}
       />
       {/* Hero */}
@@ -126,7 +126,7 @@ export default function ForAttorneysPage() {
         <div className="max-w-5xl mx-auto text-center">
           <div className="relative h-52 md:h-64 max-w-4xl mx-auto rounded-2xl overflow-hidden border border-white/10 shadow-2xl mb-10">
             <Image
-              src="/image-pack/images/image-025-for-attorneys-hero.png"
+              src="/image-pack/images/image-025-for-attorneys-hero.webp"
               alt="Attorney reviewing case files in a modern Oklahoma law office"
               fill
               className="object-cover"

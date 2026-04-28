@@ -113,7 +113,7 @@ export default function QuestionsToAskProcessServerPage() {
             description="The essential hiring checklist covering licensing, pricing, methods, proof, and timelines — so you choose the right Oklahoma process server the first time."
             url="https://justlegalsolutions.org/blog/questions-to-ask-before-hiring-process-server"
             datePublished="2025-06-01"
-            image="https://justlegalsolutions.org/images/questions-to-ask-process-server.png"
+            image="https://justlegalsolutions.org/images/questions-to-ask-process-server.webp"
           />
 
           <AuthorBox />

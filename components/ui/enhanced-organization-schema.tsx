@@ -12,8 +12,8 @@ export default function EnhancedOrganizationSchema({ countyName }: OrganizationS
     "@type": "LegalService",
     "name": `Just Legal Solutions${countyName ? ` - ${countyName}` : ''}`,
     "url": "https://justlegalsolutions.org",
-    "logo": "https://justlegalsolutions.org/logo.png",
-    "image": "https://justlegalsolutions.org/logo.png",
+    "logo": "https://justlegalsolutions.org/images/jls-logo.webp",
+    "image": "https://justlegalsolutions.org/images/jls-logo.webp",
     "telephone": "+15393676832",
     "email": "info@JustLegalSolutions.org",
     "address": {

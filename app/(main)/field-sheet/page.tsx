@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     images: [
       {
-        url: 'https://justlegalsolutions.org/image-pack/images/image-090-field-sheet-card.png',
+        url: 'https://justlegalsolutions.org/image-pack/images/image-090-field-sheet-card.webp',
         width: 1200,
         height: 800,
         alt: 'Process server field sheet on a clipboard with pen and GPS device on a car dashboard',
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     title: 'Field Sheet Generator',
     description:
       'Professional field sheet generator for Oklahoma process servers. Fill, print, or save to PDF.',
-    images: ['https://justlegalsolutions.org/image-pack/images/image-090-field-sheet-card.png'],
+    images: ['https://justlegalsolutions.org/image-pack/images/image-090-field-sheet-card.webp'],
   },
 };
 
@@ -53,7 +53,7 @@ export default function FieldSheetPage() {
         url="https://justlegalsolutions.org/field-sheet"
         title="Field Sheet Generator | Just Legal Solutions"
         description="Generate and print professional process server field sheets for Oklahoma service of process."
-        image="https://justlegalsolutions.org/image-pack/images/image-090-field-sheet-card.png"
+        image="https://justlegalsolutions.org/image-pack/images/image-090-field-sheet-card.webp"
         breadcrumbItems={[
           { name: 'Home', item: 'https://justlegalsolutions.org' },
           { name: 'Field Sheet', item: 'https://justlegalsolutions.org/field-sheet' }

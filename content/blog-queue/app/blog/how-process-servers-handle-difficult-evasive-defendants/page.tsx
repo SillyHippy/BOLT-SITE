@@ -111,7 +111,7 @@ export default function DifficultDefendantsPage() {
             description="Professional techniques for serving evasive defendants in Oklahoma: stakeouts, surveillance, skip tracing, technology, and proven strategies that get results."
             url="https://justlegalsolutions.org/blog/how-process-servers-handle-difficult-evasive-defendants"
             datePublished="2025-06-01"
-            image="https://justlegalsolutions.org/images/difficult-defendants.png"
+            image="https://justlegalsolutions.org/images/difficult-defendants.webp"
           />
 
           <AuthorBox />

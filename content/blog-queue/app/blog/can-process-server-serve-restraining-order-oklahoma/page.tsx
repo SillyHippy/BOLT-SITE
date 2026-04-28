@@ -111,7 +111,7 @@ export default function RestrainingOrderServicePage() {
             description="Understanding protective order service requirements, emergency procedures, safety considerations, and timeline requirements for process servers in Oklahoma."
             url="https://justlegalsolutions.org/blog/can-process-server-serve-restraining-order-oklahoma"
             datePublished="2025-06-01"
-            image="https://justlegalsolutions.org/images/restraining-order-service.png"
+            image="https://justlegalsolutions.org/images/restraining-order-service.webp"
           />
 
           <AuthorBox />

@@ -429,7 +429,7 @@ const localBusinessSchema = {
   '@type': 'LocalBusiness',
   name: 'Just Legal Solutions',
   url: 'https://justlegalsolutions.org',
-  image: 'https://justlegalsolutions.org/images/logo.png',
+  image: 'https://justlegalsolutions.org/images/jls-logo.webp',
   telephone: '+1-539-367-6832',
   email: 'info@JustLegalSolutions.org',
   areaServed: {

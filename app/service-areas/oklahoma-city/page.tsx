@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     images: [
       {
-        url: 'https://justlegalsolutions.org/image-pack/images/image-032-service-areas-card.png',
+        url: 'https://justlegalsolutions.org/image-pack/images/image-032-service-areas-card.webp',
         width: 1200,
         height: 630,
         alt: 'Just Legal Solutions - Professional Process Server Oklahoma City',
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Process Server Oklahoma City, OK | Licensed Legal Document Service',
     description: 'Licensed process server in Oklahoma City, Oklahoma. GPS-tracked and court-ready. Serving Oklahoma County and OKC metro with 24/7 emergency availability. (539) 367-6832.',
-    images: ['https://justlegalsolutions.org/image-pack/images/image-032-service-areas-card.png'],
+    images: ['https://justlegalsolutions.org/image-pack/images/image-032-service-areas-card.webp'],
   },
   alternates: {
     canonical: 'https://justlegalsolutions.org/service-areas/oklahoma-city',

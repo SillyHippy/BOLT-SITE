@@ -59,7 +59,7 @@ export default function ProcessServerScamsOklahomaPage() {
           author: 'Joseph Iannazzi',
           datePublished: '2026-04-27',
           dateModified: '2026-04-27',
-          image: 'https://justlegalsolutions.org/image-pack/images/image-044-reviews-hero.png',
+          image: 'https://justlegalsolutions.org/image-pack/images/image-044-reviews-hero.webp',
         }}
         breadcrumbs={[
           { name: 'Home', url: '/' },

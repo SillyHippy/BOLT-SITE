@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png', width: 1200, height: 630, alt: 'Sheriff vs. Private Process Server in Oklahoma: Which Should You Choose?' }],
+    images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.webp', width: 1200, height: 630, alt: 'Sheriff vs. Private Process Server in Oklahoma: Which Should You Choose?' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/sheriff-vs-private-process-server-oklahoma' },
   other: {
@@ -91,7 +91,7 @@ export default function SheriffVsPrivateProcessServerOklahoma() {
           author: "Joseph Iannazzi",
           datePublished: "2026-04-08",
           dateModified: "2026-04-08",
-          image: "https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png"
+          image: "https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.webp"
         }}
         faqItems={faqs.map(f => ({ question: f.question, answer: f.answer }))}
         keywords={['sheriff vs process server oklahoma', 'private process server vs sheriff', 'oklahoma sheriff service of process', 'hire private process server oklahoma']}

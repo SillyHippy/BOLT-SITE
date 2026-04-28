@@ -16,7 +16,7 @@ export const metadata: Metadata = {
         description: 'Complete guide to Oklahoma process server licensing. Requirements, application process, costs, and renewal info under 12 O.S. § 158.1.',
         type: 'website', locale: 'en_US', url: 'https://justlegalsolutions.org/process-server-license-oklahoma', siteName: 'Just Legal Solutions',
         images: [{
-            url: 'https://justlegalsolutions.org/image-pack/images/image-081-process-server-license-oklahoma-card.png',
+            url: 'https://justlegalsolutions.org/image-pack/images/image-081-process-server-license-oklahoma-card.webp',
             width: 1200,
             height: 800,
             alt: 'Oklahoma process server license badge and certificate on a desk with leather portfolio',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
         card: 'summary_large_image',
         title: 'Process Server License Oklahoma | Requirements & Application Guide',
         description: 'Complete guide to Oklahoma process server licensing. Requirements, application process, costs, and renewal info under 12 O.S. § 158.1.',
-        images: ['https://justlegalsolutions.org/image-pack/images/image-081-process-server-license-oklahoma-card.png'],
+        images: ['https://justlegalsolutions.org/image-pack/images/image-081-process-server-license-oklahoma-card.webp'],
     },
     alternates: { canonical: 'https://justlegalsolutions.org/process-server-license-oklahoma' },
     other: {
@@ -64,7 +64,7 @@ export default function ProcessServerLicenseOklahomaPage() {
 
                     <div className="relative h-56 md:h-72 rounded-2xl overflow-hidden shadow-xl mb-8">
                         <Image
-                            src="/image-pack/images/image-081-process-server-license-oklahoma-card.png"
+                            src="/image-pack/images/image-081-process-server-license-oklahoma-card.webp"
                             alt="Oklahoma process server license badge and certificate on a desk with leather portfolio"
                             fill
                             className="object-cover"
@@ -393,7 +393,7 @@ export default function ProcessServerLicenseOklahomaPage() {
                     </div>
                 </div>
             </div>
-            <UnifiedSchema pageType="service" title="Process Server License Oklahoma" description="Complete guide to Oklahoma process server licensing requirements, application process, and costs under 12 O.S. § 158.1." url="https://justlegalsolutions.org/process-server-license-oklahoma" image="https://justlegalsolutions.org/image-pack/images/image-081-process-server-license-oklahoma-card.png" keywords={['process server license oklahoma', 'oklahoma process server license', 'licensed process server']} reviewCount={156} services={['Licensed Process Serving', 'Bonded Document Service', 'GPS-Verified Service']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'Process Server License', url: '/process-server-license-oklahoma' }]} />
+            <UnifiedSchema pageType="service" title="Process Server License Oklahoma" description="Complete guide to Oklahoma process server licensing requirements, application process, and costs under 12 O.S. § 158.1." url="https://justlegalsolutions.org/process-server-license-oklahoma" image="https://justlegalsolutions.org/image-pack/images/image-081-process-server-license-oklahoma-card.webp" keywords={['process server license oklahoma', 'oklahoma process server license', 'licensed process server']} reviewCount={156} services={['Licensed Process Serving', 'Bonded Document Service', 'GPS-Verified Service']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'Process Server License', url: '/process-server-license-oklahoma' }]} />
         </>
     );
 }

@@ -23,7 +23,7 @@ foreach ($p in $paths) {
     $c = $c.Replace('/tools/', '/oklahoma-tools/')
     $c = $c.Replace('href="/tools"', 'href="/oklahoma-tools"')
     $c = $c.Replace("href='/tools'", "href='/oklahoma-tools'")
-    $c = $c.Replace('src="/logo.png"', 'src="/favicon1.svg"')
+    $c = $c.Replace('src="/logo.png"', 'src="/images/jls-logo.webp"')
     if ($c -ne $orig) {
       [System.IO.File]::WriteAllText($_.FullName, $c, [System.Text.UTF8Encoding]::new($false))
       Write-Host "Updated $($_.FullName)"

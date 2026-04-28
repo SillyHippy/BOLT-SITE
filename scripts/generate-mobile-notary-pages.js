@@ -111,7 +111,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     images: [
       {
-        url: 'https://justlegalsolutions.org/images/notary-mobile-og.jpg',
+        url: 'https://justlegalsolutions.org/images/notary-mobile-og.webp',
         width: 1200,
         height: 630,
         alt: '${city.name} Mobile Notary Team'
@@ -135,7 +135,7 @@ const notaryServiceSchema = {
   '@type': 'ProfessionalService',
   name: '${city.name} Mobile Notary - Just Legal Solutions',
   url: canonicalUrl,
-  image: 'https://justlegalsolutions.org/images/notary-mobile-og.jpg',
+  image: 'https://justlegalsolutions.org/images/notary-mobile-og.webp',
   telephone: '+1-539-367-6832',
   email: 'info@justlegalsolutions.org',
   description: 'Professional mobile notary services throughout ${city.name} and ${city.county} County. Licensed, bonded Oklahoma notaries come to your location.',

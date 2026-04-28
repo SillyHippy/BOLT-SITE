@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     description: 'Read reviews from attorneys, law firms & clients. 5-star rated process server in Tulsa, OK.',
     url: 'https://justlegalsolutions.org/reviews',
     siteName: 'Just Legal Solutions',
-    images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-044-reviews-hero.png', width: 1200, height: 630 }],
+    images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-044-reviews-hero.webp', width: 1200, height: 630 }],
     locale: 'en_US',
     type: 'website',
   },

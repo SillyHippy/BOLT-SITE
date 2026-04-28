@@ -29,7 +29,7 @@ export default function SearchEngineUniversalOptimization({
         ],
         "logo": {
           "@type": "ImageObject",
-          "url": "https://justlegalsolutions.org/images/logo.png",
+          "url": "https://justlegalsolutions.org/images/jls-logo.webp",
           "width": 200,
           "height": 60
         }

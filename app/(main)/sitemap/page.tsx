@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     type: 'website',
     locale: 'en_US',
-    images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.png', width: 1200, height: 630, alt: 'Just Legal Solutions - Professional Process Serving in Oklahoma' }],
+    images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp', width: 1200, height: 630, alt: 'Just Legal Solutions - Professional Process Serving in Oklahoma' }],
   },
 };
 
@@ -552,7 +552,7 @@ const SitemapPage = () => {
         organizationDetails={{
           name: "Just Legal Solutions",
           url: "https://justlegalsolutions.org",
-          logo: "https://justlegalsolutions.org/logo.png",
+          logo: "https://justlegalsolutions.org/images/jls-logo.webp",
           contactPoint: {
             telephone: "+1-539-367-6832",
             email: "info@JustLegalSolutions.org"

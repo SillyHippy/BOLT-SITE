@@ -275,10 +275,10 @@ function generateGoogleMyBusinessOptimization() {
       'Free consultation'
     ],
     photos: [
-      'business-exterior.jpg',
-      'office-interior.jpg',
-      'team-photo.jpg',
-      'service-area-map.jpg'
+      'business-exterior.webp',
+      'office-interior.webp',
+      'team-photo.webp',
+      'service-area-map.webp'
     ],
     posts: [
       {

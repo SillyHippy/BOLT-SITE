@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     images: [{
-      url: 'https://justlegalsolutions.org/image-pack/images/image-038-divorce-paper-service-og.png',
+      url: 'https://justlegalsolutions.org/image-pack/images/image-038-divorce-paper-service-og.webp',
       width: 1200,
       height: 630,
       alt: 'Process server carefully handling a sealed envelope — discreet Oklahoma divorce paper service',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     site: '@ServeOK',
     title: 'Divorce Paper Service in Oklahoma — Discreet & Court-Ready',
     description: 'Service starts at $30 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours rush. GPS-verified affidavits.',
-    images: ['https://justlegalsolutions.org/image-pack/images/image-038-divorce-paper-service-og.png'],
+    images: ['https://justlegalsolutions.org/image-pack/images/image-038-divorce-paper-service-og.webp'],
   },
   other: {
     'ai-content-type': 'service-page',
@@ -90,7 +90,7 @@ export default function DivorcePaperServicePage() {
           { name: 'Home', url: '/' },
           { name: 'Divorce Paper Service', url: '/divorce-paper-service' },
         ]}
-        image="https://justlegalsolutions.org/image-pack/images/image-038-divorce-paper-service-og.png"
+        image="https://justlegalsolutions.org/image-pack/images/image-038-divorce-paper-service-og.webp"
       />
       <main className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
         {/* Hero */}
@@ -105,7 +105,7 @@ export default function DivorcePaperServicePage() {
             </nav>
             <div className="relative h-52 md:h-64 max-w-4xl mx-auto rounded-2xl overflow-hidden border border-white/10 shadow-2xl mb-8">
               <Image
-                src="/image-pack/images/image-037-divorce-paper-service-hero.png"
+                src="/image-pack/images/image-037-divorce-paper-service-hero.webp"
                 alt="Mediation setting with two parties and neutral professional at a table"
                 fill
                 className="object-cover"

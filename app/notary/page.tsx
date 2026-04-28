@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     images: [
       {
-        url: 'https://justlegalsolutions.org/image-pack/images/image-027-notary-hero.png',
+        url: 'https://justlegalsolutions.org/image-pack/images/image-027-notary-hero.webp',
         width: 1920,
         height: 1080,
         alt: 'Notary public stamping a legal document with an embosser seal'
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Mobile Notary Tulsa OK | 24/7 In-Office & RON | Starts at $20',
     description: 'Need a notary now? Walk-in, mobile, or remote online notarization in Tulsa & Oklahoma. Notary starts at $20; process serving starts at $30. Open 24/7. Call (539) 367-6832.',
-    images: ['https://justlegalsolutions.org/image-pack/images/image-027-notary-hero.png'],
+    images: ['https://justlegalsolutions.org/image-pack/images/image-027-notary-hero.webp'],
     creator: '@ServeOK',
     site: '@ServeOK',
   },
@@ -68,7 +68,7 @@ const notaryServiceSchema = {
   "telephone": "(539) 367-6832",
   "email": "info@JustLegalSolutions.org",
   "url": "https://justlegalsolutions.org/notary",
-  "image": "https://justlegalsolutions.org/image-pack/images/image-027-notary-hero.png",
+  "image": "https://justlegalsolutions.org/image-pack/images/image-027-notary-hero.webp",
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Glenpool",
@@ -312,7 +312,7 @@ export default function NotaryPage() {
             <div className="flex-1 max-w-md w-full space-y-4">
               <div className="relative w-full h-56 sm:h-64 rounded-2xl overflow-hidden border border-white/20 shadow-xl">
                 <Image
-                  src="/image-pack/images/image-027-notary-hero.png"
+                  src="/image-pack/images/image-027-notary-hero.webp"
                   alt="Notary public stamping a legal document with an embosser seal"
                   fill
                   className="object-cover"

@@ -11,7 +11,7 @@
   "images": [
     {
       "id": 1,
-      "filename": "image-001-home-hero.png",
+      "filename": "image-001-home-hero.webp",
       "page": "/",
       "slot": "hero",
       "dimensions": "1920x1080",
@@ -36,11 +36,11 @@
       "source_agent_id": "img-agent-001",
       "description": "Wide cinematic aerial view of downtown Tulsa Oklahoma skyline at golden hour, warm amber light reflecting off modern glass buildings and the Arkansas River, professional documentary photography style, subtle atmospheric haze, muted tones, no text",
       "file_size_bytes": 1828303,
-      "file_path": "images/image-001-home-hero.png"
+      "file_path": "images/image-001-home-hero.webp"
     },
     {
       "id": 2,
-      "filename": "image-002-home-og.png",
+      "filename": "image-002-home-og.webp",
       "page": "/",
       "slot": "og",
       "dimensions": "1200x630",
@@ -65,7 +65,7 @@
       "source_agent_id": "img-agent-002",
       "description": "Professional process server walking toward a modern Oklahoma courthouse entrance on a clear morning, carrying a leather portfolio, captured from behind at medium distance, documentary photography style, natural daylight, muted professional tones, no faces visible, no text",
       "file_size_bytes": 1823585,
-      "file_path": "images/image-002-home-og.png"
+      "file_path": "images/image-002-home-og.webp"
     },
     {
       "id": 3,
@@ -246,7 +246,7 @@
     },
     {
       "id": 9,
-      "filename": "image-009-process-serving-hero.png",
+      "filename": "image-009-process-serving-hero.webp",
       "page": "/process-serving",
       "slot": "hero",
       "dimensions": "1920x1080",
@@ -271,7 +271,7 @@
       "source_agent_id": "img-agent-009",
       "description": "Professional process server in business attire handing legal documents to a recipient at a residential doorstep in suburban Oklahoma, respectful professional demeanor, warm late-afternoon light, documentary photography style, muted tones, no text",
       "file_size_bytes": 1923630,
-      "file_path": "images/image-009-process-serving-hero.png"
+      "file_path": "images/image-009-process-serving-hero.webp"
     },
     {
       "id": 10,
@@ -625,7 +625,7 @@
     },
     {
       "id": 22,
-      "filename": "image-022-tulsa-process-server-hero.png",
+      "filename": "image-022-tulsa-process-server-hero.webp",
       "page": "/tulsa-process-server",
       "slot": "hero",
       "dimensions": "1920x1080",
@@ -651,11 +651,11 @@
       "source_agent_id": "img-agent-022",
       "description": "Iconic view of the Tulsa Oklahoma downtown skyline featuring the BOK Tower and golden driller vicinity, warm sunset light reflecting off buildings, Arkansas River in foreground, documentary photography style, muted warm tones, no text",
       "file_size_bytes": 1817154,
-      "file_path": "images/image-022-tulsa-process-server-hero.png"
+      "file_path": "images/image-022-tulsa-process-server-hero.webp"
     },
     {
       "id": 23,
-      "filename": "image-023-tulsa-process-server-og.png",
+      "filename": "image-023-tulsa-process-server-og.webp",
       "page": "/tulsa-process-server",
       "slot": "og",
       "dimensions": "1200x630",
@@ -680,7 +680,7 @@
       "source_agent_id": "img-agent-023",
       "description": "Street-level view of the Tulsa Arts District with historic brick buildings and modern signage, professional walking on the sidewalk with a portfolio, warm afternoon light, documentary photography style, muted urban tones, no readable signs",
       "file_size_bytes": 1901947,
-      "file_path": "images/image-023-tulsa-process-server-og.png"
+      "file_path": "images/image-023-tulsa-process-server-og.webp"
     },
     {
       "id": 24,
@@ -916,7 +916,7 @@
     },
     {
       "id": 32,
-      "filename": "image-032-service-areas-card.png",
+      "filename": "image-032-service-areas-card.webp",
       "page": "/service-areas",
       "slot": "card",
       "dimensions": "1200x800",
@@ -941,7 +941,7 @@
       "source_agent_id": "img-agent-032",
       "description": "Aerial view of a small Oklahoma town with main street, historic buildings, and surrounding prairie landscape, warm golden hour light, documentary photography style, muted earthy tones, conveying statewide coverage, no text",
       "file_size_bytes": 1974086,
-      "file_path": "images/image-032-service-areas-card.png"
+      "file_path": "images/image-032-service-areas-card.webp"
     },
     {
       "id": 33,
@@ -2458,7 +2458,7 @@
     },
     {
       "id": 85,
-      "filename": "image-085-counties-hero.png",
+      "filename": "image-085-counties-hero.webp",
       "page": "/counties",
       "slot": "hero",
       "dimensions": "1920x1080",
@@ -2484,7 +2484,7 @@
       "source_agent_id": "img-agent-085",
       "description": "Panoramic view of the Oklahoma prairie landscape with red dirt roads stretching to the horizon, scattered trees, and a vast sky with scattered clouds, golden hour light, landscape documentary photography, muted earthy tones, no text",
       "file_size_bytes": 1819946,
-      "file_path": "images/image-085-counties-hero.png"
+      "file_path": "images/image-085-counties-hero.webp"
     },
     {
       "id": 86,

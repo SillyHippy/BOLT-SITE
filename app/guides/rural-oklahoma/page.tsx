@@ -57,7 +57,7 @@ export default function RuralOklahomaGuidePage() {
           author: 'Joseph Iannazzi',
           datePublished: '2026-04-03',
           dateModified: '2026-04-03',
-          image: 'https://justlegalsolutions.org/image-pack/images/image-077-guides-hero.png',
+          image: 'https://justlegalsolutions.org/image-pack/images/image-077-guides-hero.webp',
         }}
         keywords={['rural process serving Oklahoma', 'Oklahoma 77 counties process server', 'GPS tracked rural service']}
       />

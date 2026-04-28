@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png', width: 1200, height: 630, alt: 'What Oklahoma Real Estate Agents Should Know About Process Serving' }],
+    images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.webp', width: 1200, height: 630, alt: 'What Oklahoma Real Estate Agents Should Know About Process Serving' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/real-estate-agents-process-serving-oklahoma' },
   other: {
@@ -91,7 +91,7 @@ export default function RealEstateAgentsProcessServingOklahoma() {
           author: "Joseph Iannazzi",
           datePublished: "2026-04-08",
           dateModified: "2026-04-08",
-          image: "https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.png"
+          image: "https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.webp"
         }}
         faqItems={faqs.map(f => ({ question: f.question, answer: f.answer }))}
         keywords={['real estate lawsuit oklahoma', 'serve papers real estate dispute', 'real estate agent process server', 'oklahoma real estate litigation']}
