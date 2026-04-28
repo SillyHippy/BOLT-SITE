@@ -395,6 +395,18 @@ export default function HowToServeSubpoenaOklahoma() {
               In criminal proceedings, grand jury subpoenas compel witness testimony or document production before a grand jury conducting an investigation. These differ fundamentally from civil subpoenas — they are issued in the criminal context, carry strict confidentiality obligations, and offer the recipient fewer procedural options to object. Anyone who receives a grand jury subpoena should consult a criminal defense attorney immediately before responding or complying.
             </p>
 
+            <h3>Workers&apos; Compensation Subpoena Differences</h3>
+            <p>
+              Workers&apos; compensation subpoenas in Oklahoma follow a related but distinct administrative path through the Workers&apos;
+              Compensation Commission. Service mechanics often mirror civil practice, but issuance workflows, hearing calendars, and
+              compliance expectations are tied to Commission procedures rather than district court dockets. If your matter involves
+              medical record custodians, payroll records, or witness attendance for a workers&apos; comp hearing, review our dedicated{' '}
+              <Link href="/blog/workers-comp-subpoena-service" className="text-blue-600 hover:underline">
+                workers&apos; compensation subpoena service guide
+              </Link>{' '}
+              before service.
+            </p>
+
             <h2>Objecting to or Quashing a Subpoena in Oklahoma</h2>
             <p>
               Receiving a subpoena does not mean you are without recourse. Under <strong>12 O.S. § 2004.1</strong>, the recipient may file a motion to quash or modify the subpoena before the compliance deadline. Common grounds for quashing include:

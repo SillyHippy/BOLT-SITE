@@ -717,6 +717,22 @@ export default function OklahomaServiceByPublicationGuide() {
               Plaintiffs who have maintained comprehensive documentation and followed all statutory requirements are better positioned to defend against such challenges and preserve their judgments.
             </p>
 
+            <h2 id="publication-scam-warnings">Publication Scam Warnings and Verification</h2>
+
+            <p>
+              Service-by-publication cases can attract scam activity because recipients are already anxious about legal notices.
+              If you receive calls demanding payment to prevent publication or threatening immediate arrest, treat those calls as
+              suspicious and verify independently through the court or counsel. Legitimate process service does not rely on
+              pressure-call payment demands.
+            </p>
+            <p>
+              For a practical checklist on identifying fraudulent process-server behavior, see our{' '}
+              <Link href="/blog/process-server-scams-oklahoma" className="text-blue-600 hover:underline">
+                fake process server scam guide
+              </Link>
+              . It covers common scripts, credential checks, and reporting steps if you are targeted.
+            </p>
+
             {/* FAQ Section */}
             <h2 id="faq">Frequently Asked Questions About Oklahoma Service by Publication</h2>
 

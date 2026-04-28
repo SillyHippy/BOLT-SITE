@@ -386,6 +386,10 @@ const sections: SitemapSection[] = [
       { url: '/blog/ron-vs-mobile-notary-oklahoma', label: 'RON vs Mobile Notary in Oklahoma' },
       { url: '/blog/serving-government-entities-oklahoma', label: 'Serving Government Entities in Oklahoma' },
       { url: '/blog/bankruptcy-process-serving-oklahoma', label: 'Bankruptcy Process Serving in Oklahoma' },
+      { url: '/blog/employment-law-service-oklahoma', label: 'Employment Law Process Serving in Oklahoma' },
+      { url: '/blog/workers-comp-subpoena-service', label: "Workers' Compensation Subpoena Service in Oklahoma" },
+      { url: '/blog/do-process-servers-call-ahead', label: 'Do Process Servers Call Ahead? Oklahoma Guide' },
+      { url: '/blog/process-server-scams-oklahoma', label: 'Fake Process Server Scams in Oklahoma' },
     ],
   },
   {

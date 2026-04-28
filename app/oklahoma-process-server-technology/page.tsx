@@ -271,6 +271,19 @@ export default function OklahomaProcessServerTechnology() {
               </ul>
             </div>
           </div>
+
+          <div className="bg-white border border-gray-200 p-6 rounded shadow mb-6">
+            <h3 className="text-xl font-semibold mb-3">OSCN / ODCR Workflow Impact</h3>
+            <p className="mb-3">
+              Practical technology gains in Oklahoma often come from disciplined OSCN and ODCR use before and after
+              service: confirming case data pre-attempt, reducing mismatch errors, and filing court-ready returns faster
+              in counties with mature e-filing.
+            </p>
+            <p>
+              In time-sensitive litigation, this can materially reduce affidavit lag and protect cases from preventable
+              service-delay exposure.
+            </p>
+          </div>
         </section>
 
         <section className="mb-8">
@@ -313,6 +326,21 @@ export default function OklahomaProcessServerTechnology() {
               <p className="text-2xl font-bold text-orange-600">&lt;15 Min</p>
               <p className="text-sm">Affidavit Generation</p>
             </div>
+          </div>
+        </section>
+
+        <section className="mb-8">
+          <h2 className="text-3xl font-semibold mb-4">180-Day Deadline and Tech Controls</h2>
+          <div className="bg-amber-50 border-l-4 border-amber-500 p-6 rounded">
+            <p className="mb-3">
+              Oklahoma&apos;s 180-day service window under 12 O.S. 2004(I) makes operational latency a legal risk.
+              Technology is most valuable when it shortens real bottlenecks: route planning, same-day status updates,
+              and rapid return-of-service completion.
+            </p>
+            <p>
+              Teams that treat these tools as compliance controls—not just convenience features—typically avoid
+              dismissal-triggering delays.
+            </p>
           </div>
         </section>
 

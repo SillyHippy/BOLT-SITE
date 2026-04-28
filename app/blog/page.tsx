@@ -76,6 +76,8 @@ const categories = [
       { slug: 'process-serving-small-business-owners-oklahoma', title: 'Process Serving for Small Business Owners', description: "When to sue, when you get sued, breach of contract, mechanic's lien actions, and protecting your business.", date: '2026-04-08' },
       { slug: 'banks-lenders-process-serving-oklahoma', title: 'How Banks & Lenders Use Process Servers', description: 'Foreclosure service requirements, deficiency judgments, replevin, and commercial vs. residential processes.', date: '2026-04-08' },
       { slug: 'skip-tracing-oklahoma-guide', title: 'Skip Tracing in Oklahoma \u2014 Find Hard-to-Locate Defendants', description: 'Legal limits (FCRA / GLBA / DPPA), sources used, success rates, integration with process serving, pricing starts at $50.', date: '2026-04-19' },
+      { slug: 'employment-law-service-oklahoma', title: 'Employment Law Process Serving in Oklahoma', description: 'Service strategy for wrongful termination, discrimination, wage claims, and sensitive workplace litigation timelines.', date: '2026-04-27' },
+      { slug: 'workers-comp-subpoena-service', title: "Workers' Compensation Subpoena Service in Oklahoma", description: 'How to serve workers’ comp subpoenas for records and witness compliance while staying on hearing deadlines.', date: '2026-04-27' },
     ],
   },
   {
@@ -101,6 +103,8 @@ const categories = [
       { slug: 'what-to-do-when-served-papers-oklahoma', title: 'What to Do When You Get Served Papers', description: "Calm, step-by-step guide: read the papers, count your days, find a lawyer, and don't ignore them.", date: '2026-04-08' },
       { slug: 'can-you-avoid-being-served-oklahoma', title: 'Can You Avoid Being Served in Oklahoma?', description: 'Myths vs. reality about evading service, service by publication, and what happens when the court loses patience.', date: '2026-04-08' },
       { slug: 'what-does-process-server-do-day-in-life', title: 'What Does a Process Server Actually Do?', description: 'Behind the scenes: GPS tracking, multiple attempts, skip tracing, nights and weekends\u2014the real work of legal service.', date: '2026-04-08' },
+      { slug: 'do-process-servers-call-ahead', title: 'Do Process Servers Call Ahead? Oklahoma Guide', description: 'Why advance calls are uncommon, what proper service attempts look like, and how to spot fake service calls.', date: '2026-04-27' },
+      { slug: 'process-server-scams-oklahoma', title: 'Fake Process Server Scams in Oklahoma', description: 'Red flags, verification steps, and what to do if someone demands payment while posing as a process server.', date: '2026-04-27' },
     ],
   },
   {
