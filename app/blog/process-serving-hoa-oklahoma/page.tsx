@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     modifiedTime: '2025-01-15',
   },
   alternates: {
-    canonical: 'https://justlegalsolutions.org/blog/process-serving-hoa-oklahoma/',
+    canonical: 'https://justlegalsolutions.org/blog/process-serving-hoa-oklahoma',
   },
   other: {
     'ai-summary': 'Professional process serving for Oklahoma HOA and condominium associations covering assessment collection lawsuits, covenant violation notices, foreclosure proceedings, and gated community access challenges. Services include serving individual homeowners, HOA boards, and management companies with GPS-tracked documentation and compliance with Title 60 statutes.',

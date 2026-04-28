@@ -16,7 +16,7 @@ title: 'Loan Signing Agent Tulsa | Mortgage & Refinance Closings',
     title: 'Loan Signing Agent Tulsa | Mortgage & Refinance Closings',
     description: 'Professional loan signing agent services in Tulsa, Oklahoma. NNA-certified notary signing agents for purchases, refinances, HELOCs & reverse mortgages.',
     type: 'website',
-    url: 'https://justlegalsolutions.org/loan-signing-agent-tulsa/',
+    url: 'https://justlegalsolutions.org/loan-signing-agent-tulsa',
   },
 };
 

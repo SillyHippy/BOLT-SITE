@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     images: [
       {
-        url: '/images/tulsa-county-courthouse.webp',
+        url: 'https://justlegalsolutions.org/images/tulsa-county-courthouse.webp',
         width: 1200,
         height: 630,
         alt: 'Family Law Service Guide Tulsa 2026'
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Family Law Service Guide Tulsa 2026',
     description: 'Expert guide to serving protective orders and divorce papers in Tulsa County. 2026 family law service requirements, safety protocols, and procedures.',
-    images: ['/images/tulsa-county-courthouse.webp'],
+    images: ['https://justlegalsolutions.org/images/tulsa-county-courthouse.webp'],
     creator: '@ServeOK',
     site: '@ServeOK',
   },

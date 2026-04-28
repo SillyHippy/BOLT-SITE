@@ -15,12 +15,12 @@ export const metadata = {
   'ai-summary': 'This comprehensive guide explains Power of Attorney in Oklahoma under the Uniform Power of Attorney Act (58 O.S. § 3001 et seq.). It covers five main POA types: Durable, Medical, Financial, Springing, and Limited, with detailed notarization requirements, creation steps, revocation procedures, and common mistakes to avoid. Oklahoma requires notarization for all POA documents, with specific witnessing requirements for medical POAs.',
   'ai-key-facts': 'Oklahoma adopted the Uniform Power of Attorney Act in 2021 (58 O.S. § 3001-58 O.S. § 3046); Notarization is mandatory for all POA documents in Oklahoma; Durable POA remains effective after incapacity; Medical POA requires either notarization OR two witnesses; Springing POA activates only upon specified conditions; Revocation must be in writing and delivered to all agents; Traditional notary fees are $5 per signature; Mobile notary services available 24/7; POA does NOT allow agents to make or change a will; Agent duties include fiduciary responsibility and record-keeping',
   alternates: {
-    canonical: 'https://justlegalsolutions.org/blog/power-of-attorney-guide-oklahoma/'
+    canonical: 'https://justlegalsolutions.org/blog/power-of-attorney-guide-oklahoma'
   },
   openGraph: {
     title: 'Power of Attorney Guide Oklahoma | Complete 2025 POA Resource',
     description: 'Complete guide to Power of Attorney in Oklahoma. Learn about durable, medical, financial, springing & limited POA types, 58 O.S. § 3001 requirements, notarization & more.',
-    url: 'https://justlegalsolutions.org/blog/power-of-attorney-guide-oklahoma/',
+    url: 'https://justlegalsolutions.org/blog/power-of-attorney-guide-oklahoma',
     type: 'article',
     publishedTime: '2025-01-15T00:00:00Z',
     modifiedTime: '2025-01-15T00:00:00Z',

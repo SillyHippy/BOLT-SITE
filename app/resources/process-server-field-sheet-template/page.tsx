@@ -37,7 +37,7 @@ title: 'Free Process Server Field Sheet Template',
     title: 'Free Process Server Field Sheet Template',
     description: 'Professional field documentation template for process servers. Track attempts, document recipients, and maintain legal compliance.',
     type: 'website',
-    url: 'https://justlegalsolutions.org/resources/process-server-field-sheet-template/',
+    url: 'https://justlegalsolutions.org/resources/process-server-field-sheet-template',
   },
 };
 

@@ -13,10 +13,10 @@ export const metadata: Metadata = {
     title: 'Process Serving for Attorneys & Law Firms | Oklahoma Legal Support',
     description: 'Dedicated process serving for Oklahoma attorneys and law firms. Volume pricing, monthly billing, real-time tracking portal, and dedicated account management.',
     type: 'website',
-    url: 'https://justlegalsolutions.org/attorney-services/',
+    url: 'https://justlegalsolutions.org/attorney-services',
   },
   alternates: {
-    canonical: 'https://justlegalsolutions.org/attorney-services/',
+    canonical: 'https://justlegalsolutions.org/attorney-services',
   },
 };
 

@@ -15,7 +15,7 @@ title: "Power of Attorney Notary Oklahoma | POA Notarization Tulsa",
   openGraph: {
     title: "Power of Attorney Notary Oklahoma | POA Notarization Tulsa",
     description: "Professional power of attorney notary services in Oklahoma. Durable, medical, financial & springing POA notarization. 24/7 mobile notary available.",
-    url: "https://justlegalsolutions.org/power-of-attorney-notary-oklahoma/",
+    url: "https://justlegalsolutions.org/power-of-attorney-notary-oklahoma",
     type: "website",
   },
 };

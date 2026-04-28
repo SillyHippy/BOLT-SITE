@@ -681,7 +681,7 @@ export function Footer() {
             <div className="w-28 h-28 md:w-32 md:h-32 flex items-center justify-center rounded-xl bg-white ring-1 ring-slate-100 p-2">
               <Image 
                 src="/badges/same-day-service-available-badge.svg" 
-                alt="Same Day Service Available - Process Server Oklahoma" 
+                alt="Same day service available badge" 
                 width={112}
                 height={112}
                 className="object-contain hover:scale-105 transition-transform duration-200"
@@ -691,7 +691,7 @@ export function Footer() {
             <div className="w-28 h-28 md:w-32 md:h-32 flex items-center justify-center rounded-xl bg-white ring-1 ring-slate-100 p-2">
               <Image 
                 src="/badges/99-9-percent-success-rate-badge.svg" 
-                alt="99.9% Success Rate Process Server" 
+                alt="99.9% success rate badge" 
                 width={112}
                 height={112}
                 className="object-contain hover:scale-105 transition-transform duration-200"
@@ -701,7 +701,7 @@ export function Footer() {
             <div className="w-28 h-28 md:w-32 md:h-32 flex items-center justify-center rounded-xl bg-white ring-1 ring-slate-100 p-2">
               <Image 
                 src="/badges/5-star-google-rating-badge.svg" 
-                alt="5 Star Google Rating Process Server" 
+                alt="5 star Google rating badge" 
                 width={112}
                 height={112}
                 className="object-contain hover:scale-105 transition-transform duration-200"
@@ -711,7 +711,7 @@ export function Footer() {
             <div className="w-28 h-28 md:w-32 md:h-32 flex items-center justify-center rounded-xl bg-white ring-1 ring-slate-100 p-2">
               <Image 
                 src="/badges/24-7-emergency-service-badge.svg" 
-                alt="24/7 Emergency Service Process Server" 
+                alt="24/7 emergency service badge" 
                 width={112}
                 height={112}
                 className="object-contain hover:scale-105 transition-transform duration-200"
@@ -728,7 +728,7 @@ export function Footer() {
             >
               <Image
                 src="https://napps.org/images/NAPPS4.png"
-                alt="NAPPS Member - National Association of Professional Process Servers"
+                alt="NAPPS member logo"
                 width={112}
                 height={112}
                 className="object-contain hover:scale-105 transition-transform duration-200"
@@ -746,7 +746,7 @@ export function Footer() {
               {/* eslint-disable-next-line @next/next/no-img-element -- external badge URL; avoids remotePatterns for coc.codes */}
               <img
                 src="https://coc.codes/images/badge/2033827532"
-                alt="Chamber of Commerce verified business — Just Legal Solutions, Glenpool, Oklahoma"
+                alt="Chamber of Commerce verified business badge"
                 width={112}
                 height={112}
                 className="max-h-full w-auto max-w-full object-contain hover:scale-105 transition-transform duration-200"
@@ -764,7 +764,7 @@ export function Footer() {
             >
               <Image
                 src="/NPSN-logo.jpeg"
-                alt="NPSN Directory Listing - National Process Server Network"
+                alt="NPSN directory listing badge"
                 width={112}
                 height={112}
                 className="object-contain hover:scale-105 transition-transform duration-200"

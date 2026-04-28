@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     url: 'https://justlegalsolutions.org/services',
     images: [
       {
-        url: '/images/jls-logo.webp',
+        url: 'https://justlegalsolutions.org/images/jls-logo.webp',
         width: 1200,
         height: 630,
         alt: 'Just Legal Solutions Process Serving Services'
@@ -33,9 +33,9 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Process Serving Services in Oklahoma | Just Legal Solutions',
     description: 'Professional legal document delivery throughout Oklahoma with same-day service available in Tulsa metro area.',
-    images: ['/images/jls-logo.webp']
+    images: ['https://justlegalsolutions.org/images/jls-logo.webp']
   },
   alternates: {
-    canonical: 'https://justlegalsolutions.org/services/'
+    canonical: 'https://justlegalsolutions.org/services'
   }
 };

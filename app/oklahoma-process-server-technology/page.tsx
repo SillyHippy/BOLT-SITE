@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     images: [
       {
-        url: '/images/Technology legal compliance flowchart.webp',
+        url: 'https://justlegalsolutions.org/images/Technology legal compliance flowchart.webp',
         width: 1200,
         height: 630,
         alt: 'Process Server Technology Innovation 2026'
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Oklahoma Process Server Technology 2026',
     description: 'Process serving technology in Oklahoma: GPS tracking, AI skip tracing, blockchain affidavits.',
-    images: ['/images/Technology legal compliance flowchart.webp'],
+    images: ['https://justlegalsolutions.org/images/Technology legal compliance flowchart.webp'],
     creator: '@ServeOK',
     site: '@ServeOK',
   },
@@ -110,7 +110,7 @@ export default function OklahomaProcessServerTechnology() {
           <div className="flex items-center mb-4">
             <Image
               src="/images/oklahoma-licensed-bonded-process-server-badges.webp"
-              alt="Licensed & Bonded Oklahoma Process Server"
+              alt="Licensed and bonded process server badge"
               width={120}
               height={40}
               className="mr-4"

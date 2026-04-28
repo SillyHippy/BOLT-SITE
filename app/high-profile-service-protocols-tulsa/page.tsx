@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     images: [
       {
-        url: '/images/Process server at gated community entrance.webp',
+        url: 'https://justlegalsolutions.org/images/Process server at gated community entrance.webp',
         width: 1200,
         height: 630,
         alt: 'High-Profile Service Protocols'
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'High-Profile Service Protocols',
     description: 'Expert strategies for serving high-profile defendants in Tulsa with enhanced privacy protocols, security measures, and legal compliance in 2026.',
-    images: ['/images/Process server at gated community entrance.webp'],
+    images: ['https://justlegalsolutions.org/images/Process server at gated community entrance.webp'],
     creator: '@ServeOK',
     site: '@ServeOK',
   },

@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Oklahoma Legal Service Areas: Complete 2026 Coverage Guide for All 77 Counties',
     description: 'Discover comprehensive legal service coverage across all Oklahoma regions for 2026, including detailed analysis of urban centers, suburban communities, rural territories, and tribal lands.',
-    images: ['/images/oklahoma-counties-coverage-map.png'],
+    images: ['https://justlegalsolutions.org/images/oklahoma-counties-coverage-map.png'],
     url: canonicalUrl,
     type: 'article',
     siteName: 'Just Legal Solutions',
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Oklahoma Legal Service Areas: Complete 2026 Coverage Guide for All 77 Counties',
     description: 'Discover comprehensive legal service coverage across all Oklahoma regions for 2026, including detailed analysis of urban centers, suburban communities, rural territories, and tribal lands.',
-    images: ['/images/oklahoma-counties-coverage-map.png'],
+    images: ['https://justlegalsolutions.org/images/oklahoma-counties-coverage-map.png'],
     site: '@ServeOK',
     creator: '@ServeOK'
   },

@@ -600,7 +600,7 @@ export default function JosephCredentialsPage() {
             <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-200">
               <Image
                 src="/notary-credentials/joseph/Joseph-Iannazzi-Proof-Academy-Certificate.webp"
-                alt="Joseph William Iannazzi - Proof Academy Certified - Notarize Network Platform Training NST Certification - Earned 03/30/2026"
+                alt="Joseph Iannazzi Proof Academy certification"
                 width={800}
                 height={600}
                 className="w-full h-auto"

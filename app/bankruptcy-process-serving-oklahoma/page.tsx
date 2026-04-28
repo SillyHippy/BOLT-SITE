@@ -13,10 +13,10 @@ export const metadata: Metadata = {
     title: 'Bankruptcy Process Serving Oklahoma | Chapter 7, 11, 13 Service',
     description: 'Professional bankruptcy process serving in Oklahoma. Chapter 7, 11, 13 filings, adversary proceedings, 341 meeting notices. FRBP Rule 7004 compliant.',
     type: 'website',
-    url: 'https://justlegalsolutions.org/bankruptcy-process-serving-oklahoma/',
+    url: 'https://justlegalsolutions.org/bankruptcy-process-serving-oklahoma',
   },
   alternates: {
-    canonical: 'https://justlegalsolutions.org/bankruptcy-process-serving-oklahoma/',
+    canonical: 'https://justlegalsolutions.org/bankruptcy-process-serving-oklahoma',
   },
 };
 

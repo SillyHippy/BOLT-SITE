@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     images: [
       {
-        url: '/images/oklahoma-process-server-service-area-map.webp',
+        url: 'https://justlegalsolutions.org/images/oklahoma-process-server-service-area-map.webp',
         width: 1200,
         height: 630,
         alt: 'Oklahoma state and tribal jurisdiction map'
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     title: 'Serving Papers on Tribal Land | Oklahoma Guide',
     description:
       'Step-by-step guidance for process servers navigating OK state and tribal jurisdictions after McGirt.',
-    images: ['/images/oklahoma-process-server-service-area-map.webp'],
+    images: ['https://justlegalsolutions.org/images/oklahoma-process-server-service-area-map.webp'],
     creator: '@ServeOK',
     site: '@ServeOK'
   },

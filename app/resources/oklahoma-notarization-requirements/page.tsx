@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     title: 'Oklahoma Notarization Requirements Cheat Sheet (Free PDF)',
     description: 'Complete guide to Oklahoma notary requirements, ID verification, fees, and RON rules. Download your free cheat sheet today.',
     type: 'website',
-    url: 'https://justlegalsolutions.org/resources/oklahoma-notarization-requirements/',
+    url: 'https://justlegalsolutions.org/resources/oklahoma-notarization-requirements',
   },
   twitter: {
     card: 'summary_large_image',
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     description: 'Free PDF guide covering all Oklahoma notary requirements, fees, and procedures.',
   },
   alternates: {
-    canonical: 'https://justlegalsolutions.org/resources/oklahoma-notarization-requirements/',
+    canonical: 'https://justlegalsolutions.org/resources/oklahoma-notarization-requirements',
   },
   authors: [{ name: 'Joseph Iannazzi' }],
   creator: 'Joseph Iannazzi',

@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     images: [
       {
-        url: '/images/skip-tracing-investigation-services.webp',
+        url: 'https://justlegalsolutions.org/images/skip-tracing-investigation-services.webp',
         width: 1200,
         height: 630,
         alt: 'AI-Powered Skip Tracing Technology 2026'
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'AI-Powered Skip Tracing Guide for Oklahoma Process Servers 2026',
     description: 'Artificial Intelligence has revolutionized skip tracing for process servers, providing unprecedented accuracy and efficiency.',
-    images: ['/images/skip-tracing-investigation-services.webp'],
+    images: ['https://justlegalsolutions.org/images/skip-tracing-investigation-services.webp'],
     creator: '@ServeOK',
     site: '@ServeOK',
   },

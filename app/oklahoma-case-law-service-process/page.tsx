@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Latest Oklahoma Case Law on Service of Process: Essential 2026 Legal Updates',
     description: 'Essential 2026 Oklahoma service of process case law updates. Recent court decisions affecting process serving requirements and procedures.',
-    images: ['/images/Gavel with dismissed case documents.webp'],
+    images: ['https://justlegalsolutions.org/images/Gavel with dismissed case documents.webp'],
     url: canonicalUrl,
     type: 'article',
     siteName: 'Just Legal Solutions',
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Latest Oklahoma Case Law on Service of Process: Essential 2026 Legal Updates',
     description: 'Essential 2026 Oklahoma service of process case law updates. Recent court decisions affecting process serving requirements and procedures.',
-    images: ['/images/Gavel with dismissed case documents.webp'],
+    images: ['https://justlegalsolutions.org/images/Gavel with dismissed case documents.webp'],
     site: '@ServeOK',
     creator: '@ServeOK'
   },

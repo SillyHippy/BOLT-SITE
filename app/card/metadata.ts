@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   description: 'Connect with Joseph Iannazzi at Just Legal Solutions. Download contact details, schedule reminders, and get in touch easily. Process serving and legal support services in Oklahoma.',
   keywords: ['Joseph Iannazzi contact', 'digital business card', 'Just Legal Solutions contact', 'process server contact Oklahoma'],
   alternates: {
-    canonical: 'https://justlegalsolutions.org/card/'
+    canonical: 'https://justlegalsolutions.org/card'
   },
   openGraph: {
     title: 'Digital Business Card | Just Legal Solutions',
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     url: 'https://justlegalsolutions.org/card',
     images: [
       {
-        url: '/images/jls-logo.webp',
+        url: 'https://justlegalsolutions.org/images/jls-logo.webp',
         width: 1200,
         height: 630,
         alt: 'Joseph Iannazzi Digital Business Card'
@@ -24,6 +24,6 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Digital Business Card | Just Legal Solutions',
     description: 'Connect with Joseph Iannazzi at Just Legal Solutions.',
-    images: ['/images/jls-logo.webp']
+    images: ['https://justlegalsolutions.org/images/jls-logo.webp']
   }
 };

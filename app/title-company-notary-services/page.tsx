@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   description: 'Professional title company notary services in Tulsa, Oklahoma. Expert real estate closing notary for deeds, mortgages, title transfers. Volume pricing for title companies. Call (539) 367-6832.',
   keywords: 'title company notary tulsa, closing notary oklahoma, real estate notary tulsa, title closing notary services, deed notarization oklahoma, mortgage notary, escrow notary, property transfer notary',
   alternates: {
-    canonical: 'https://justlegalsolutions.org/title-company-notary-services/',
+    canonical: 'https://justlegalsolutions.org/title-company-notary-services',
   },
   openGraph: {
     title: 'Title Company Notary Services Tulsa | Real Estate Closing Notary',
     description: 'Professional title company notary services for real estate closings, deeds, and mortgage documents in Tulsa, Oklahoma. Volume pricing available.',
-    url: 'https://justlegalsolutions.org/title-company-notary-services/',
+    url: 'https://justlegalsolutions.org/title-company-notary-services',
     type: 'website',
   },
 };

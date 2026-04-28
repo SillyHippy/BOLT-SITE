@@ -384,7 +384,7 @@ export default function TulsaCountyProcessServer() {
                     <div className="w-full h-60 relative group">
                       <Image 
                         src="/images/tulsa-county-courthouse.webp" 
-                        alt="Tulsa County Courthouse downtown Tulsa legal district process serving hub for court document delivery and legal services"
+                        alt="Tulsa County Courthouse"
                         fill
                         className="object-cover rounded-xl shadow-lg group-hover:scale-105 transition-transform duration-300"
                       />
@@ -398,7 +398,7 @@ export default function TulsaCountyProcessServer() {
                     <div className="w-full h-60 relative group">
                       <Image 
                         src="/images/tulsa-courier-downtown.webp" 
-                        alt="Downtown Tulsa business district skyscrapers and financial center where professional process servers deliver legal documents to corporate offices"
+                        alt="Downtown Tulsa business district"
                         fill
                         className="object-cover rounded-xl shadow-lg group-hover:scale-105 transition-transform duration-300"
                       />
@@ -412,7 +412,7 @@ export default function TulsaCountyProcessServer() {
                     <div className="w-full h-60 relative group">
                       <Image 
                         src="/images/Tulsa_skyline_aerial,_April_2023.webp" 
-                        alt="Aerial view Tulsa skyline showing comprehensive coverage area for process serving across all Tulsa neighborhoods and districts"
+                        alt="Aerial view of Tulsa skyline"
                         fill
                         className="object-cover rounded-xl shadow-lg group-hover:scale-105 transition-transform duration-300"
                       />
@@ -426,7 +426,7 @@ export default function TulsaCountyProcessServer() {
                     <div className="w-full h-60 relative group">
                       <Image 
                         src="/images/tulsa-process-server-delivering-documents.webp" 
-                        alt="Professional process server delivering legal documents in Tulsa residential neighborhood ensuring proper service of process throughout Tulsa County"
+                        alt="Process server delivering documents in a Tulsa neighborhood"
                         fill
                         className="object-cover rounded-xl shadow-lg group-hover:scale-105 transition-transform duration-300"
                       />
@@ -440,7 +440,7 @@ export default function TulsaCountyProcessServer() {
                     <div className="w-full h-60 relative group">
                       <Image 
                         src="/images/Tulsa_11.webp" 
-                        alt="Tulsa County suburban neighborhoods and residential areas served by professional process servers for legal document delivery and court papers"
+                        alt="Tulsa County suburban neighborhood"
                         fill
                         className="object-cover rounded-xl shadow-lg group-hover:scale-105 transition-transform duration-300"
                       />
@@ -454,7 +454,7 @@ export default function TulsaCountyProcessServer() {
                     <div className="w-full h-60 relative group">
                       <Image 
                         src="/images/Tulsa business district building.webp" 
-                        alt="Tulsa business district commercial buildings and office complexes where corporate process serving and legal document delivery services are provided"
+                        alt="Tulsa business district commercial buildings"
                         fill
                         className="object-cover rounded-xl shadow-lg group-hover:scale-105 transition-transform duration-300"
                       />
@@ -476,7 +476,7 @@ export default function TulsaCountyProcessServer() {
                 <div className="flex justify-center">
                   <Image 
                     src="/badges/licensed-bonded-badge.svg" 
-                    alt="Oklahoma licensed and bonded process server certification badge ensuring legal compliance and professional service standards"
+                    alt="Licensed and bonded process server badge"
                     width={120} 
                     height={120}
                     className="hover:scale-110 transition-transform duration-300"
@@ -485,7 +485,7 @@ export default function TulsaCountyProcessServer() {
                 <div className="flex justify-center">
                   <Image 
                     src="/badges/fastest-process-server-oklahoma-badge.svg" 
-                    alt="Fastest process server in Oklahoma badge guaranteeing same-day and rush legal document delivery services"
+                    alt="Fastest process server in Oklahoma badge"
                     width={120} 
                     height={120}
                     className="hover:scale-110 transition-transform duration-300"
@@ -494,7 +494,7 @@ export default function TulsaCountyProcessServer() {
                 <div className="flex justify-center">
                   <Image 
                     src="/badges/99-9-percent-success-rate-badge.svg" 
-                    alt="99.9% success rate badge demonstrating exceptional process serving performance and legal document delivery effectiveness"
+                    alt="99.9% success rate badge"
                     width={120} 
                     height={120}
                     className="hover:scale-110 transition-transform duration-300"
@@ -503,7 +503,7 @@ export default function TulsaCountyProcessServer() {
                 <div className="flex justify-center">
                   <Image 
                     src="/badges/24-7-emergency-service-badge.svg" 
-                    alt="24/7 emergency process serving service badge available for urgent legal document delivery throughout Tulsa County"
+                    alt="24/7 emergency service badge"
                     width={120} 
                     height={120}
                     className="hover:scale-110 transition-transform duration-300"
@@ -512,7 +512,7 @@ export default function TulsaCountyProcessServer() {
                 <div className="flex justify-center">
                   <Image 
                     src="/badges/Trusted-by-Tulsa-Law-Firms-Badge.svg" 
-                    alt="Trusted by Tulsa law firms badge showing attorney and legal professional endorsements for reliable process serving"
+                    alt="Trusted by Tulsa law firms badge"
                     width={120} 
                     height={120}
                     className="hover:scale-110 transition-transform duration-300"
@@ -521,7 +521,7 @@ export default function TulsaCountyProcessServer() {
                 <div className="flex justify-center">
                   <Image 
                     src="/badges/oklahoma-statewide-coverage-badge.svg" 
-                    alt="Oklahoma statewide coverage badge indicating complete process serving availability across all 77 Oklahoma counties"
+                    alt="Oklahoma statewide coverage badge"
                     width={120} 
                     height={120}
                     className="hover:scale-110 transition-transform duration-300"

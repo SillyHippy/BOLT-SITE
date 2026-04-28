@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     images: [
       {
-        url: '/images/Mistake prevention checklist infographic.webp',
+        url: 'https://justlegalsolutions.org/images/Mistake prevention checklist infographic.webp',
         width: 1200,
         height: 630,
         alt: 'Process Serving Mistakes Prevention Checklist'
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Top 10 Process Serving Mistakes That Can Cost You Your Case',
     description: 'Avoid costly process serving errors in Oklahoma. Learn the top 10 mistakes that invalidate service and jeopardize your legal case in 2026.',
-    images: ['/images/Mistake prevention checklist infographic.webp'],
+    images: ['https://justlegalsolutions.org/images/Mistake prevention checklist infographic.webp'],
     creator: '@ServeOK',
     site: '@ServeOK',
   },

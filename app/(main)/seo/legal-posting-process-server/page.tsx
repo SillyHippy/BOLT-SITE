@@ -104,28 +104,28 @@ export default function LegalPostingProcessServer() {
             <div className="flex flex-wrap justify-center gap-4 mt-8">
               <Image 
                 src="/badges/court-certified-professional-badge.svg" 
-                alt="Court Certified Legal Posting Service Professional" 
+                alt="Court certified professional badge" 
                 width={100}
                 height={64}
                 className="h-16 w-auto"
               />
               <Image 
                 src="/badges/privacy-guaranteed-badge.svg" 
-                alt="Privacy Guaranteed Legal Notice Posting Service" 
+                alt="Privacy guaranteed badge" 
                 width={100}
                 height={64}
                 className="h-16 w-auto"
               />
               <Image 
                 src="/badges/oklahoma-statewide-coverage-badge.svg" 
-                alt="Oklahoma Statewide Legal Posting Coverage" 
+                alt="Oklahoma statewide coverage badge" 
                 width={100}
                 height={64}
                 className="h-16 w-auto"
               />
               <Image 
                 src="/badges/trusted-by-law-firms-badge.svg" 
-                alt="Trusted by Law Firms Legal Notice Posting" 
+                alt="Trusted by law firms badge" 
                 width={100}
                 height={64}
                 className="h-16 w-auto"

@@ -14,12 +14,12 @@ export const metadata = {
   aiSummary: 'Serving government entities in Oklahoma requires following special procedures under the Governmental Tort Claims Act (51 O.S. §151 et seq.). Claims against the state must be filed with the Risk Management Administrator within one year. Cities are served through their City Clerk, counties through the County Clerk. Federal government claims require administrative exhaustion under the Federal Tort Claims Act within two years. Proper notice is jurisdictional and failure to comply bars the claim forever.',
   aiKeyFacts: 'Oklahoma Governmental Tort Claims Act requires written notice within 1 year; State agencies served through Risk Management Administrator; Cities served through City Clerk per 11 O.S. §9-112; Counties served through County Clerk per 19 O.S. §321; Federal claims require 2-year administrative claim period; Lawsuit must be filed within 180 days of claim denial; Damages capped at $175,000 for political subdivisions; Service on Secretary of State available per 12 O.S. §2004',
   alternates: {
-    canonical: 'https://justlegalsolutions.org/blog/serving-government-entities-oklahoma/'
+    canonical: 'https://justlegalsolutions.org/blog/serving-government-entities-oklahoma'
   },
   openGraph: {
     title: 'Serving Government Entities in Oklahoma: Complete Legal Guide',
     description: 'Expert guide to serving government agencies in Oklahoma. Learn special rules for state, city, county, and federal entities.',
-    url: 'https://justlegalsolutions.org/blog/serving-government-entities-oklahoma/',
+    url: 'https://justlegalsolutions.org/blog/serving-government-entities-oklahoma',
     type: 'article',
     publishedTime: '2025-01-15T00:00:00Z',
     modifiedTime: '2025-01-15T00:00:00Z',

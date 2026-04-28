@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     images: [
       {
-        url: '/images/Legal-document-types-process-server.webp',
+        url: 'https://justlegalsolutions.org/images/Legal-document-types-process-server.webp',
         width: 1200,
         height: 630,
         alt: 'Oklahoma Process Server FAQ 2026'
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Oklahoma Process Server FAQ 2026: Complete Answers',
     description: 'Comprehensive answers to process serving questions in Oklahoma for 2026.',
-    images: ['/images/Legal-document-types-process-server.webp'],
+    images: ['https://justlegalsolutions.org/images/Legal-document-types-process-server.webp'],
     creator: '@ServeOK',
     site: '@ServeOK',
   },

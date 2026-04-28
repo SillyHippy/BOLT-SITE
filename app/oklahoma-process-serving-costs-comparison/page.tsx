@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     images: [
       {
-        url: '/images/process-server-vs-sheriff-comparison.webp',
+        url: 'https://justlegalsolutions.org/images/process-server-vs-sheriff-comparison.webp',
         width: 1200,
         height: 630,
         alt: 'Oklahoma Process Serving Cost Comparison 2026'
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Oklahoma Process Serving Costs by County 2026: Complete Pricing Analysis & Budget Guide',
     description: 'Understanding process serving costs across Oklahoma&rsquo;s 77 counties helps attorneys and law firms budget effectively.',
-    images: ['/images/process-server-vs-sheriff-comparison.webp'],
+    images: ['https://justlegalsolutions.org/images/process-server-vs-sheriff-comparison.webp'],
     creator: '@ServeOK',
     site: '@ServeOK',
   },
@@ -89,7 +89,7 @@ export default function OklahomaProcessServingCostsComparison() {
           <div className="flex items-center mb-4">
             <Image 
               src="/images/oklahoma-licensed-bonded-process-server-badges.webp" 
-              alt="Licensed & Bonded Oklahoma Process Server" 
+              alt="Licensed and bonded process server badge" 
               width={120} 
               height={40} 
               className="mr-4"

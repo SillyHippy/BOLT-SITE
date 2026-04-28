@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Oklahoma Process Server Best Practices Checklist 2026',
     description: 'Complete 2026 Oklahoma process server checklist covering legal requirements, technology integration, and professional standards.',
-    images: ['/images/oklahoma-licensed-bonded-process-server-badges.webp'],
+    images: ['https://justlegalsolutions.org/images/oklahoma-licensed-bonded-process-server-badges.webp'],
     url: canonicalUrl,
     type: 'article',
     siteName: 'Just Legal Solutions',
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Oklahoma Process Server Best Practices Checklist 2026',
     description: 'Complete professional guide for Oklahoma process serving in 2026.',
-    images: ['/images/oklahoma-licensed-bonded-process-server-badges.webp'],
+    images: ['https://justlegalsolutions.org/images/oklahoma-licensed-bonded-process-server-badges.webp'],
     site: '@ServeOK',
     creator: '@ServeOK'
   },
@@ -555,7 +555,7 @@ export default function OklahomaProcessServerBestPracticesChecklist2026() {
             <div className="flex items-start gap-4">
               <Image
                 src="/images/oklahoma-licensed-bonded-process-server-badges.webp"
-                alt="Oklahoma Licensed & Bonded Process Server"
+                alt="Licensed and bonded process server badge"
                 width={100}
                 height={40}
                 className="flex-shrink-0"

@@ -31,7 +31,7 @@ export default function PaymentsPage() {
             <div className="flex flex-col items-center">
               <Image 
                 src="/badges/privacy-guaranteed-badge.svg" 
-                alt="Privacy Guaranteed - Your Information is Protected" 
+                alt="Privacy guaranteed badge" 
                 width={96}
                 height={96}
                 className="w-20 h-20 md:w-24 md:h-24 object-contain"
@@ -41,7 +41,7 @@ export default function PaymentsPage() {
             <div className="flex flex-col items-center">
               <Image 
                 src="/badges/licensed-bonded-badge.svg" 
-                alt="Licensed & Bonded Professional Service" 
+                alt="Licensed and bonded badge" 
                 width={96}
                 height={96}
                 className="w-20 h-20 md:w-24 md:h-24 object-contain"
@@ -51,7 +51,7 @@ export default function PaymentsPage() {
             <div className="flex flex-col items-center">
               <Image 
                 src="/badges/5-star-google-rating-badge.svg" 
-                alt="5 Star Google Rating - Trusted Service" 
+                alt="5 star Google rating badge" 
                 width={96}
                 height={96}
                 className="w-20 h-20 md:w-24 md:h-24 object-contain"
@@ -61,7 +61,7 @@ export default function PaymentsPage() {
             <div className="flex flex-col items-center">
               <Image 
                 src="/badges/secure-payment-processing-badge.svg" 
-                alt="Secure Payment Processing with Bank-Level Encryption" 
+                alt="Secure payment processing badge" 
                 width={96}
                 height={96}
                 className="w-20 h-20 md:w-24 md:h-24 object-contain"
