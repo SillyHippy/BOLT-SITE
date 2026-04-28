@@ -763,7 +763,7 @@ export function Footer() {
               title="Listed on NPSN - National Process Server Network"
             >
               <Image
-                src="/NPSN-logo.jpeg"
+                src="/NPSN-logo.webp"
                 alt="NPSN directory listing badge"
                 width={112}
                 height={112}
