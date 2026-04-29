@@ -265,6 +265,37 @@ export function Footer() {
         await uploadFilesToDrive(clientName, caseNumber, email, notes);
       }
 
+      // Fire-and-forget: ask the Apps Script backend to create a Helcim invoice
+      // for this submission. The backend stores it in the Helcim Invoices sheet
+      // and emails admin a Pay-Now link to forward manually. Failures here must
+      // never block the form UX — admin still gets the FormSubmit email below.
+      try {
+        const invoicePayload = {
+          action: 'createInvoice',
+          serviceType: data['service_type'] || data['service_type_other_details'] || 'Other',
+          clientName: data['firm_or_company_name'] || '',
+          email: data['your_email_address'] || '',
+          phone: data['your_phone_number'] || '',
+          street: data['your_address_street'] || '',
+          city: data['your_address_city'] || '',
+          state: data['your_address_state'] || '',
+          zip: data['your_address_zip'] || '',
+          caseNumber: data['case_number'] || '',
+          plaintiff: data['plaintiff_petitioner'] || '',
+          defendant: data['defendant_respondent'] || '',
+        };
+        void fetch(GOOGLE_APPS_SCRIPT_URL, {
+          method: 'POST',
+          redirect: 'follow',
+          headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+          body: JSON.stringify(invoicePayload),
+        }).catch((err) => {
+          console.warn('Helcim invoice create request failed (non-blocking):', err);
+        });
+      } catch (invErr) {
+        console.warn('Helcim invoice payload build failed (non-blocking):', invErr);
+      }
+
       console.log("Submitting form data:", JSON.stringify(data, null, 2));
       
       // Use FormSubmit's AJAX endpoint with JSON data
