@@ -577,6 +577,11 @@ function appendInvoiceRow_(inv, data, amount) {
 
 /**
  * Marks an existing invoice row PAID. Looks up the row by invoiceNumber (column B).
+ *
+ * Returns an object so the webhook handler can be idempotent:
+ *   - { found:false }                      no matching invoice row
+ *   - { found:true,  changed:true  }       row was just updated to PAID
+ *   - { found:true,  duplicate:true }      already PAID with same transactionId (retry)
  */
 function markInvoicePaid_(invoiceNumber, tx) {
   try {
@@ -585,20 +590,30 @@ function markInvoicePaid_(invoiceNumber, tx) {
     const cell = finder.findNext();
     if (!cell) {
       console.warn('markInvoicePaid_: no row found for invoiceNumber', invoiceNumber);
-      return false;
+      return { found: false, changed: false, duplicate: false };
     }
     const row = cell.getRow();
     const headers = INVOICE_SHEET_HEADERS;
     const statusCol     = headers.indexOf('status') + 1;
     const datePaidCol   = headers.indexOf('datePaid') + 1;
     const txCol         = headers.indexOf('transactionId') + 1;
+
+    const existingStatus = String(sheet.getRange(row, statusCol).getValue() || '').toUpperCase();
+    const existingTxId   = String(sheet.getRange(row, txCol).getValue() || '').trim();
+    const incomingTxId   = String((tx && (tx.transactionId || tx.id)) || '').trim();
+
+    // Idempotency guard: same transaction already recorded as PAID -> treat as retry.
+    if (existingStatus === 'PAID' && existingTxId && incomingTxId && existingTxId === incomingTxId) {
+      return { found: true, changed: false, duplicate: true };
+    }
+
     sheet.getRange(row, statusCol).setValue('PAID');
     sheet.getRange(row, datePaidCol).setValue(new Date());
-    sheet.getRange(row, txCol).setValue((tx && (tx.transactionId || tx.id)) || '');
-    return true;
+    sheet.getRange(row, txCol).setValue(incomingTxId);
+    return { found: true, changed: true, duplicate: false };
   } catch (e) {
     console.error('markInvoicePaid_ failed:', e);
-    return false;
+    return { found: false, changed: false, duplicate: false };
   }
 }
 
@@ -864,6 +879,10 @@ function emailAdminPaid_(tx) {
  * of trust here, since Apps Script doPost(e) does not expose request headers
  * reliably enough to verify the HMAC signature). A forged webhook cannot fake
  * a real Helcim transaction id, so the API re-fetch is what keeps this safe.
+ *
+ * Helcim retries delivery on slow/failed acknowledgments, so we dedupe at the
+ * spreadsheet level: emailAdminPaid_ only runs when markInvoicePaid_ actually
+ * flips the row. Retries with the same transactionId become silent no-ops.
  */
 function handleHelcimWebhook_(e, rawBody) {
   try {
@@ -896,8 +915,12 @@ function handleHelcimWebhook_(e, rawBody) {
     const tx = JSON.parse(text || '{}');
 
     if (tx.invoiceNumber && (tx.status === 'APPROVED' || tx.approved === true || tx.approvalCode)) {
-      markInvoicePaid_(tx.invoiceNumber, tx);
-      emailAdminPaid_(tx);
+      const result = markInvoicePaid_(tx.invoiceNumber, tx);
+      if (result.changed) {
+        emailAdminPaid_(tx);
+      } else if (result.duplicate) {
+        console.log('Duplicate paid webhook ignored for tx:', tx.transactionId || tx.id || '');
+      }
     } else {
       console.log('Webhook received but no actionable invoice match:', JSON.stringify({
         invoiceNumber: tx.invoiceNumber, status: tx.status, approved: tx.approved
