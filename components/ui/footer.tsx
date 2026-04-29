@@ -7,7 +7,7 @@ import Link from "next/link";
 
 // ============ CONFIGURATION ============
 // Replace with your deployed Google Apps Script web app URL after deployment
-const GOOGLE_APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwvMkTnzeLQkrOlaj_7XfReziRye3wOSApqNG_xKdmkY91Z7wYJ00VZQgTBgfE1EfzeXg/exec";
+const GOOGLE_APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwPEE6_nG90kgW3J9C6NaRrUDyy2SBvxPy2-12-qlBRxPJVWquQHd22EwroCpYkCFexHw/exec";
 // ========================================
 
 const MAX_FILE_SIZE = 40 * 1024 * 1024; // 40MB (API limit is 50MB)

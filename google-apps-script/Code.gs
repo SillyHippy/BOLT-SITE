@@ -629,6 +629,8 @@ function handleCreateInvoice_(data) {
     const notesParts = [];
     if (caseNumber) notesParts.push('Case #' + caseNumber);
     if (data.plaintiff && data.defendant) notesParts.push(data.plaintiff + ' v. ' + data.defendant);
+    const billingStreet = ((data.street || data.serviceAddressStreet || '').toString().trim()) || 'Address not provided';
+    const billingPostal = ((data.zip || data.serviceAddressZip || '').toString().trim()) || '00000';
 
     const body = {
       currency: 'USD',
@@ -641,7 +643,9 @@ function handleCreateInvoice_(data) {
       }],
       billingAddress: {
         name: (data.clientName || '').toString(),
-        email: (data.email || '').toString()
+        email: (data.email || '').toString(),
+        street1: billingStreet,
+        postalCode: billingPostal
       }
     };
 
