@@ -612,6 +612,91 @@ function jsonOut_(obj) {
 }
 
 /**
+ * Parses common Helcim list response shapes.
+ */
+function extractCustomers_(payload) {
+  if (Array.isArray(payload)) return payload;
+  if (payload && Array.isArray(payload.customers)) return payload.customers;
+  if (payload && Array.isArray(payload.data)) return payload.data;
+  return [];
+}
+
+/**
+ * Look up a Helcim customer by email and return customerId if found.
+ */
+function findCustomerIdByEmail_(apiToken, email) {
+  const cleanEmail = String(email || '').trim();
+  if (!cleanEmail) return null;
+
+  const url = HELCIM_API_BASE + '/customers/?search=' + encodeURIComponent(cleanEmail) + '&limit=100';
+  const res = UrlFetchApp.fetch(url, {
+    method: 'get',
+    headers: { 'api-token': apiToken, 'accept': 'application/json' },
+    muteHttpExceptions: true
+  });
+  if (res.getResponseCode() < 200 || res.getResponseCode() >= 300) {
+    console.warn('findCustomerIdByEmail_ search failed', res.getResponseCode(), res.getContentText());
+    return null;
+  }
+
+  let payload = {};
+  try { payload = JSON.parse(res.getContentText() || '{}'); } catch (_) { payload = {}; }
+  const customers = extractCustomers_(payload);
+  if (!customers.length) return null;
+
+  const emailLc = cleanEmail.toLowerCase();
+  for (const c of customers) {
+    const cEmail = (((c || {}).billingAddress || {}).email || '').toString().toLowerCase();
+    if (cEmail === emailLc) return c.customerId || c.id || null;
+  }
+  return customers[0].customerId || customers[0].id || null;
+}
+
+/**
+ * Create a Helcim customer and return customerId.
+ */
+function createCustomer_(apiToken, data, billingStreet, billingPostal) {
+  const customerBody = {
+    contactName: (data.clientName || '').toString(),
+    cellPhone: (data.phone || '').toString(),
+    billingAddress: {
+      name: (data.clientName || '').toString(),
+      email: (data.email || '').toString(),
+      street1: billingStreet,
+      city: (data.city || '').toString(),
+      province: normalizeProvince_(data.state),
+      country: 'USA',
+      postalCode: billingPostal
+    }
+  };
+
+  const res = UrlFetchApp.fetch(HELCIM_API_BASE + '/customers/', {
+    method: 'post',
+    contentType: 'application/json',
+    headers: { 'api-token': apiToken, 'accept': 'application/json' },
+    payload: JSON.stringify(customerBody),
+    muteHttpExceptions: true
+  });
+  const code = res.getResponseCode();
+  const text = res.getContentText() || '';
+  if (code < 200 || code >= 300) {
+    throw new Error('Create customer failed (' + code + '): ' + text);
+  }
+  let created = {};
+  try { created = JSON.parse(text); } catch (_) { created = {}; }
+  return created.customerId || created.id || null;
+}
+
+/**
+ * Find existing customer by email, else create one, and return customerId.
+ */
+function ensureCustomerId_(apiToken, data, billingStreet, billingPostal) {
+  const existingId = findCustomerIdByEmail_(apiToken, data.email);
+  if (existingId) return existingId;
+  return createCustomer_(apiToken, data, billingStreet, billingPostal);
+}
+
+/**
  * Calls Helcim Create Invoice and persists/notifies on success.
  * Triggered by the website form submission with action: 'createInvoice'.
  */
@@ -631,10 +716,12 @@ function handleCreateInvoice_(data) {
     if (data.plaintiff && data.defendant) notesParts.push(data.plaintiff + ' v. ' + data.defendant);
     const billingStreet = ((data.street || data.serviceAddressStreet || '').toString().trim()) || 'Address not provided';
     const billingPostal = ((data.zip || data.serviceAddressZip || '').toString().trim()) || '00000';
+    const customerId = ensureCustomerId_(apiToken, data, billingStreet, billingPostal);
 
     const body = {
       currency: 'USD',
       notes: notesParts.join(' - '),
+      customerId: customerId || 0,
       lineItems: [{
         sku: 'PROCESS-SERVICE',
         description: description,
