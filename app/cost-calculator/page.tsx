@@ -158,7 +158,8 @@ export default function CostCalculatorPage() {
                     <button
                       key={s.id}
                       onClick={() => { setServiceType(s.id); setCalculated(false); }}
-                      className={`border-2 rounded-xl p-4 text-left transition-all ${
+                      aria-pressed={serviceType === s.id}
+                      className={`border-2 rounded-xl p-4 text-left transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 ${
                         serviceType === s.id
                           ? 'border-blue-500 bg-blue-50'
                           : 'border-gray-200 bg-white hover:border-blue-300'
@@ -218,7 +219,7 @@ export default function CostCalculatorPage() {
               <button
                 disabled={!isReady}
                 onClick={() => setCalculated(true)}
-                className={`w-full py-4 rounded-xl font-bold text-lg transition-all ${
+                className={`w-full py-4 rounded-xl font-bold text-lg transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 ${
                   isReady
                     ? 'bg-blue-600 hover:bg-blue-700 text-white shadow-lg hover:shadow-xl'
                     : 'bg-gray-200 text-gray-400 cursor-not-allowed'

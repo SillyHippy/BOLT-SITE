@@ -127,13 +127,13 @@ export default function ServiceCheckerPage() {
                   <div className="grid grid-cols-2 gap-4">
                     <button
                       onClick={() => handleAnswer(true)}
-                      className="py-6 rounded-xl font-bold text-lg border-2 border-emerald-500 text-emerald-700 hover:bg-emerald-50 transition-colors"
+                      className="py-6 rounded-xl font-bold text-lg border-2 border-emerald-500 text-emerald-700 hover:bg-emerald-50 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500 focus-visible:ring-offset-2"
                     >
                       Yes
                     </button>
                     <button
                       onClick={() => handleAnswer(false)}
-                      className="py-6 rounded-xl font-bold text-lg border-2 border-slate-300 text-slate-700 hover:bg-slate-50 transition-colors"
+                      className="py-6 rounded-xl font-bold text-lg border-2 border-slate-300 text-slate-700 hover:bg-slate-50 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-500 focus-visible:ring-offset-2"
                     >
                       No
                     </button>
@@ -169,7 +169,7 @@ export default function ServiceCheckerPage() {
                     <div className="flex flex-col sm:flex-row gap-3">
                       <button
                         onClick={reset}
-                        className="flex-1 py-3 rounded-xl font-bold text-slate-700 bg-slate-100 hover:bg-slate-200 transition-colors"
+                        className="flex-1 py-3 rounded-xl font-bold text-slate-700 bg-slate-100 hover:bg-slate-200 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-500 focus-visible:ring-offset-2"
                       >
                         Start Over
                       </button>
