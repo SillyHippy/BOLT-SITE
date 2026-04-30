@@ -1,4 +1,4 @@
-import { readFileSync, readdirSync } from 'fs';
+import { readFile, readdir } from 'fs/promises';
 import { join } from 'path';
 import { COUNTIES } from './county-data';
 import { COUNTY_FAQ_OVERRIDES } from './county-faq-overrides';
@@ -19,8 +19,10 @@ const EXISTING_COUNTY_PAGES = [
 
 const SKIP_FILES = ['tulsa-county-enhanced'];
 
-export function getCountySlugs(): string[] {
-  const files = readdirSync(COUNTIES_DIR).filter((f) => f.endsWith('.md'));
+// ⚡ Bolt: Using asynchronous fs/promises to prevent blocking the Node.js event loop during I/O operations
+export async function getCountySlugs(): Promise<string[]> {
+  const filesDir = await readdir(COUNTIES_DIR);
+  const files = filesDir.filter((f) => f.endsWith('.md'));
   return files
     .map((f) => f.replace(/\.md$/, ''))
     .filter(
@@ -29,9 +31,9 @@ export function getCountySlugs(): string[] {
     );
 }
 
-export function getCountyContent(slug: string): string {
+export async function getCountyContent(slug: string): Promise<string> {
   const filePath = join(COUNTIES_DIR, `${slug}.md`);
-  return readFileSync(filePath, 'utf-8');
+  return await readFile(filePath, 'utf-8');
 }
 
 export function extractTitle(content: string): string {
@@ -203,18 +205,20 @@ export function generateCountyFAQs(
 
 const LOCATIONS_DIR = join(process.cwd(), 'content', 'locations');
 
-export function getLocationSlugs(): string[] {
+// ⚡ Bolt: Using asynchronous fs/promises for better concurrency in Server Components
+export async function getLocationSlugs(): Promise<string[]> {
   try {
-    const files = readdirSync(LOCATIONS_DIR).filter((f) => f.endsWith('.md'));
+    const filesDir = await readdir(LOCATIONS_DIR);
+    const files = filesDir.filter((f) => f.endsWith('.md'));
     return files.map((f) => f.replace(/\.md$/, ''));
   } catch {
     return [];
   }
 }
 
-export function getLocationContent(slug: string): string {
+export async function getLocationContent(slug: string): Promise<string> {
   const filePath = join(LOCATIONS_DIR, `${slug}.md`);
-  return readFileSync(filePath, 'utf-8');
+  return await readFile(filePath, 'utf-8');
 }
 
 export function slugToLocationName(slug: string): string {

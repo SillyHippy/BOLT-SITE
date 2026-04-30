@@ -5,7 +5,7 @@ import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import MarkdownContent from '@/components/MarkdownContent';
-import { readFileSync } from 'fs';
+import { readFile } from 'fs/promises';
 import { join } from 'path';
 
 export const metadata: Metadata = {
@@ -30,9 +30,10 @@ export const metadata: Metadata = {
   },
 };
 
-export default function McGirtGuidePage() {
+export default async function McGirtGuidePage() {
   const contentDir = join(process.cwd(), 'content', 'guides');
-  const content = readFileSync(
+  // ⚡ Bolt: Using async readFile to prevent blocking the event loop
+  const content = await readFile(
     join(contentDir, 'mcgirt-v-oklahoma-guide.md'),
     'utf-8'
   );
