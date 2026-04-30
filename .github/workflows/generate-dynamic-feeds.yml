@@ -4,6 +4,10 @@ on:
     paths:
       - 'content/**'
   workflow_dispatch:
+
+permissions:
+  contents: write
+
 jobs:
   generate-feeds:
     runs-on: ubuntu-latest

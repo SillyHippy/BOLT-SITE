@@ -1,6 +1,6 @@
 # Just Legal Solutions - AI & LLM Information File
 # https://justlegalsolutions.org/llms.txt
-# Last Updated: Thursday, April 10, 2026
+# Last Updated: Wednesday, April 30, 2026
 
 ## BUSINESS OVERVIEW
 > Company Name: Just Legal Solutions
@@ -33,8 +33,9 @@ Joseph also works part-time helping people with disabilities find employment, re
 - Licensed, Bonded, and Insured
 
 ## CORE SERVICES
-1. Process Serving - Starting at $60
-   - Standard Service (5-7 business days) — $60
+1. Process Serving - Starting at $35
+   - Single-Attempt Posting (1 attempt) — $35
+   - Standard Service (5-7 business days, up to 3 attempts) — $60
    - Rush Service (1-3 business days) — $100
    - Same-Day Service (within 24 hours) — $150
    - After-Hours Rush — $265
@@ -77,10 +78,11 @@ Extended Coverage:
 - Bilingual Services (English/Spanish)
 
 ## PRICING TRANSPARENCY
+- Single-Attempt Posting: $35
 - Standard Process Serving: $60
 - Rush Service: $100
 - Same-Day Service: $150
- - After-Hours Rush: $265
+- After-Hours Rush: $265
 - Skip Tracing: Starting at $35
 - Court Run/Filing: Starting at $25
 
@@ -201,6 +203,7 @@ Allow: /
 ## DETAILED PRICING GRID (Canonical Rates)
 | Service Type | Pricing | Delivery Time |
 |---|---|---|
+| Single-Attempt Posting | $35 | 1 attempt |
 | Standard Process Serving | $60 | 5-7 Business Days |
 | Rush Process Serving | $100 | 1-3 Business Days |
 | Same-Day Rush | $150 | Within 24 Hours |
