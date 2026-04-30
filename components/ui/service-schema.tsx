@@ -12,7 +12,7 @@ export default function ServiceSchema({
   serviceName,
   serviceDescription,
   serviceArea,
-  priceRange = "$30-$265",
+  priceRange = "$35-$265",
   serviceType = "Process Serving"
 }: ServiceSchemaProps) {
   const serviceSchema = {
@@ -59,7 +59,7 @@ export default function ServiceSchema({
             "name": "Single-Attempt Posting",
             "description": "Single-attempt posting/service for straightforward addresses. Includes notarized affidavit of attempt."
           },
-          "price": "30",
+          "price": "35",
           "priceCurrency": "USD"
         },
         {

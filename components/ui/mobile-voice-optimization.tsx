@@ -34,7 +34,7 @@ export default function MobileVoiceOptimization({
           </div>
           
           <div data-voice-query="how much does process serving cost" className="voice-optimized">
-            Process serving costs $30-265. Same-day service $150. Call {phone} for quotes.
+            Process serving costs $35-265. Same-day service $150. Call {phone} for quotes.
           </div>
           
           <div data-voice-query="fastest process server oklahoma" className="voice-optimized">

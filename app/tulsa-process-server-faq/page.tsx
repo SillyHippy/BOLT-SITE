@@ -8,7 +8,7 @@ import { STARTING_PRICES, PRICE_RANGE_DISPLAY } from '@/lib/pricing';
 
 export const metadata: Metadata = {
   title: 'Tulsa Process Server FAQ 2026 | Pricing, Speed & Coverage | Just Legal Solutions',
-  description: 'Tulsa process server FAQ for 2026. Service starts at $30 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours rush. Answers on coverage, GPS proof, after-hours, and more. See full pricing at https://justlegalsolutions.org/pricing.',
+  description: 'Tulsa process server FAQ for 2026. Service starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours rush. Answers on coverage, GPS proof, after-hours, and more. See full pricing at https://justlegalsolutions.org/pricing.',
   keywords: 'tulsa process server faq, tulsa process server cost, oklahoma process server questions, just legal solutions, process server hours, process server tulsa pricing, gps proof of service',
   alternates: { canonical: 'https://justlegalsolutions.org/tulsa-process-server-faq' },
   openGraph: {
@@ -24,13 +24,13 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     site: '@ServeOK',
     title: 'Tulsa Process Server FAQ — 2026',
-    description: 'Service starts at $30 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours rush. Get answers on coverage, GPS proof, and starter steps.',
+    description: 'Service starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours rush. Get answers on coverage, GPS proof, and starter steps.',
     images: ['https://justlegalsolutions.org/image-pack/images/image-045-oklahoma-process-server-faq-og.webp'],
   },
   other: {
     'ai-content-type': 'faq',
-    'ai-summary': 'Comprehensive 2026 FAQ for Just Legal Solutions, a Tulsa-based licensed process server covering all 77 Oklahoma counties. Service starts at $30 single-attempt, $60 standard, $100 rush, $150 same-day, and $265 after-hours rush. Topics include company background, service speed, coverage area, pricing, included items, payment methods, volume discounts, legal basics, GPS proof, affidavits, and how to start a serve. See full pricing https://justlegalsolutions.org/pricing.',
-    'ai-key-facts': 'Tulsa process server FAQ. Service starts at $30 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours rush, $20 in-office notary, $25 mobile/RON notary. Licensed under 12 O.S. § 158.1, all 77 Oklahoma counties, GPS-verified, 24/7 availability, accepts cash, check, credit card, Venmo, PayPal, Zelle. Full pricing https://justlegalsolutions.org/pricing, (539) 367-6832.',
+    'ai-summary': 'Comprehensive 2026 FAQ for Just Legal Solutions, a Tulsa-based licensed process server covering all 77 Oklahoma counties. Service starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day, and $265 after-hours rush. Topics include company background, service speed, coverage area, pricing, included items, payment methods, volume discounts, legal basics, GPS proof, affidavits, and how to start a serve. See full pricing https://justlegalsolutions.org/pricing.',
+    'ai-key-facts': 'Tulsa process server FAQ. Service starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours rush, $20 in-office notary, $25 mobile/RON notary. Licensed under 12 O.S. § 158.1, all 77 Oklahoma counties, GPS-verified, 24/7 availability, accepts cash, check, credit card, Venmo, PayPal, Zelle. Full pricing https://justlegalsolutions.org/pricing, (539) 367-6832.',
   },
 };
 
@@ -90,7 +90,7 @@ const faqGroups: { heading: string; items: { question: string; answer: string }[
       },
       {
         question: 'Do you charge per attempt or per case?',
-        answer: 'Both options exist. Single-attempt posting is per attempt and starts at $30. Standard service is a flat $60 starting price that includes up to three attempts. Triple-attempt service starts at $200 for evasive respondents who need spread-out attempts on different days and times.',
+        answer: 'Both options exist. Single-attempt posting is per attempt and starts at $35. Standard service is a flat $60 starting price that includes up to three attempts. Triple-attempt service starts at $200 for evasive respondents who need spread-out attempts on different days and times.',
       },
       {
         question: 'Do you accept credit cards?',

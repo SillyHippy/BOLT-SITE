@@ -288,7 +288,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
       'https://justlegalsolutions.org/images/tulsa-process-server.webp',
       'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp'
     ],
-    priceRange: '$30-$265',
+    priceRange: '$35-$265',
     paymentAccepted: ['Cash', 'Check', 'Credit Card', 'Venmo', 'PayPal', 'Zelle'],
     currenciesAccepted: 'USD',
     logo: {
@@ -513,7 +513,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
     // 2025 SEO Dominance Features (Enhanced for AI)
     (organizationSchema as any).foundingDate = '2025-03-01';
     (organizationSchema as any).slogan = 'Oklahoma\'s #1 Process Server - Professional, Fast, Reliable';
-    (organizationSchema as any).description = 'Licensed and bonded Oklahoma process server providing postings ($30+), standard process serving ($60+), rush ($100+), same-day rush ($150+), and after-hours rush ($265+) document delivery across all 77 counties with GPS tracking and digital affidavits.';
+    (organizationSchema as any).description = 'Licensed and bonded Oklahoma process server providing postings ($35+), standard process serving ($60+), rush ($100+), same-day rush ($150+), and after-hours rush ($265+) document delivery across all 77 counties with GPS tracking and digital affidavits.';
     const statewideCoverage = [
       {
         '@type': 'State',
@@ -666,7 +666,7 @@ const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
           '@type': 'Offer',
           'name': 'Legal Document Posting',
           'description': 'Professional posting services for legal documents at courthouses',
-          'price': '30',
+          'price': '35',
           'priceCurrency': 'USD',
           'image': 'https://justlegalsolutions.org/images/jls-logo.webp',
           'availability': 'https://schema.org/InStock',

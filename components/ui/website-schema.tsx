@@ -88,7 +88,7 @@ export default function WebsiteSchema({
           "name": "Sapulpa"
         }
       ],
-      "priceRange": "$30-$200",
+      "priceRange": "$35-$200",
       "geo": {
         "@type": "GeoCoordinates",
         "latitude": "36.154",

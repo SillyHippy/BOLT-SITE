@@ -57,7 +57,7 @@ export default function LocalBusinessSchema({
       "latitude": "36.1540",
       "longitude": "-95.9928"
     },
-    "priceRange": "$30-$200",
+    "priceRange": "$35-$200",
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "4.9",
@@ -105,11 +105,11 @@ export default function LocalBusinessSchema({
       "itemListElement": services.map((service, index) => ({
         "@type": "Offer",
         "url": "https://justlegalsolutions.org/services",
-        "price": "30.00",
+        "price": "35.00",
         "priceCurrency": "USD",
         "priceSpecification": {
           "@type": "PriceSpecification",
-          "price": "30.00",
+          "price": "35.00",
           "priceCurrency": "USD",
           "valueAddedTaxIncluded": false
         },
@@ -192,7 +192,7 @@ export function LocalSEOSchema({ city, service }: { city?: string; service?: str
     "openingHours": [
       "Mo-Su 00:00-23:59"
     ],
-    "priceRange": "$30-$200",
+    "priceRange": "$35-$200",
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "4.9",
