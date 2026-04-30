@@ -19,7 +19,7 @@ export type StartingPrice = {
 };
 
 export const STARTING_PRICES: readonly StartingPrice[] = [
-  { id: 'single-attempt', label: 'Single-Attempt Posting', startsAt: 30, note: '1-3 business days' },
+  { id: 'single-attempt', label: 'Single-Attempt Posting', startsAt: 35, note: '1-3 business days' },
   { id: 'standard', label: 'Standard Service', startsAt: 60, note: 'up to 3 attempts, 5-10 business days' },
   { id: 'rush', label: 'Rush Service', startsAt: 100, note: '1-3 business days' },
   { id: 'same-day', label: 'Same-Day Service', startsAt: 150, note: 'within 4-8 hours' },
@@ -48,4 +48,4 @@ export function formatStartsAt(price: number): string {
 }
 
 /** The widest range used in schema priceRange properties. */
-export const PRICE_RANGE_DISPLAY = '$30-$265';
+export const PRICE_RANGE_DISPLAY = '$35-$265';
