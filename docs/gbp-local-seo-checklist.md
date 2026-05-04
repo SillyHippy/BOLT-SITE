@@ -18,7 +18,7 @@ Use this in Google Business Profile (web or app). The April 2026 verified audit 
 - [ ] Business-to-Business Service
 
 ### Custom services (add every paid service line; align names with site)
-- [ ] Single-Attempt Posting (starts at $30)
+- [ ] Single-Attempt Posting (starts at $35)
 - [ ] Standard Process Service (starts at $60)
 - [ ] Rush Process Service (starts at $100)
 - [ ] Same-Day Rush (starts at $150)
@@ -50,7 +50,7 @@ Use this in Google Business Profile (web or app). The April 2026 verified audit 
 
 ### Business description (750-char field — front-load priority terms)
 > Lead sentence template:
-> > "Just Legal Solutions is a licensed, bonded Oklahoma process server and mobile notary based in Glenpool, serving Tulsa County and all 77 Oklahoma counties — service starts at $30 (single-attempt) and $60 (standard), with same-day, after-hours, and 24/7 emergency tiers. Mobile notary and Remote Online Notarization (RON) starting at $20."
+> > "Just Legal Solutions is a licensed, bonded Oklahoma process server and mobile notary based in Glenpool, serving Tulsa County and all 77 Oklahoma counties — service starts at $35 (single-attempt) and $60 (standard), with same-day, after-hours, and 24/7 emergency tiers. Mobile notary and Remote Online Notarization (RON) starting at $20."
 
 - [ ] Description includes: starts-at pricing, 24/7, licensed/bonded, counties served, notary + RON in the first 2 sentences.
 - [ ] Description ends with a phone-CTA sentence: "Call (539) 367-6832 for a free quote."

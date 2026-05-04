@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     alternates: { canonical: 'https://justlegalsolutions.org/same-day-process-server' },
     other: {
         'ai-content-type': 'service-page',
-        'ai-summary': 'Same-day process serving for $150 across Oklahoma. Papers served within 4-8 hours. Also offers 2-hour emergency for $265, standard for $60, and single attempts from $30. Licensed under 12 O.S. § 158.1.',
+        'ai-summary': 'Same-day process serving for $150 across Oklahoma. Papers served within 4-8 hours. Also offers 2-hour emergency for $265, standard for $60, and single attempts from $35. Licensed under 12 O.S. § 158.1.',
         'ai-key-facts': 'Same-day service $150, 4-8 hour delivery, GPS-verified, all 77 Oklahoma counties, licensed process servers, (539) 367-6832.',
     },
 };

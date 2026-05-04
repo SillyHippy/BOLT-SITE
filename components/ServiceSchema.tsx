@@ -81,7 +81,7 @@ export default function ServiceSchema() {
         }
       ]
     },
-    "priceRange": "$30-$200",
+    "priceRange": "$35-$200",
     "image": "https://justlegalsolutions.org/images/jls-logo.webp",
     "geo": {
       "@type": "GeoCoordinates",

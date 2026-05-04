@@ -581,7 +581,7 @@ export default function NotaryLawsPage() {
                       ['Application fee', '$50'],
                       ['Background check', '$50'],
                       ['Surety bond (4 years)', '~$50'],
-                      ['Notary seal', '~$30'],
+                      ['Notary seal', '~$35'],
                       ['Bond filing fee', '$25'],
                       ['Optional: E&O insurance', '~$50-100'],
                       ['Optional: Journal', '~$20-40'],

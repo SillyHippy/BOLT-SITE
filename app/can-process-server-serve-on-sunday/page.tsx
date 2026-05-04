@@ -173,7 +173,7 @@ export default function SundayServicePage() {
 
                     <section className="mb-12 bg-gradient-to-r from-blue-50 to-purple-50 border-2 border-blue-200 p-8 rounded-lg text-center">
                         <h2 className="text-3xl font-bold text-gray-900 mb-4">Need Weekend or Sunday Service?</h2>
-                        <p className="text-lg text-gray-700 mb-6">We serve papers 7 days a week, 365 days a year. Service from $30.</p>
+                        <p className="text-lg text-gray-700 mb-6">We serve papers 7 days a week, 365 days a year. Service from $35.</p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-4">
                             <a href="tel:5393676832" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors shadow-lg">&#x1F4DE; Call (539) 367-6832</a>
                             <Link href="/weekend-emergency" className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">&#x1F4C5; Weekend Service Info</Link>

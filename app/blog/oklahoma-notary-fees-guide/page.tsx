@@ -42,7 +42,7 @@ const faqs: { question: string; answer: string }[] = [
   },
   {
     question: 'How much does a mobile notary cost in Oklahoma?',
-    answer: 'A mobile notary visit typically costs $5 per signature (the notary fee) plus a travel fee ranging from $25-$75 depending on distance. After-hours and weekend appointments may add $25-$50. Total cost for a standard mobile notary visit with one signature is typically $30-$80.'
+    answer: 'A mobile notary visit typically costs $5 per signature (the notary fee) plus a travel fee ranging from $25-$75 depending on distance. After-hours and weekend appointments may add $25-$50. Total cost for a standard mobile notary visit with one signature is typically $35-$80.'
   },
   {
     question: 'What is the RON fee in Oklahoma?',
@@ -253,7 +253,7 @@ export default function OklahomaNotaryFeesGuide() {
                 </thead>
                 <tbody>
                   {[
-                    ['0–10 miles', '$25 – $35', '$30 – $40'],
+                    ['0–10 miles', '$25 – $35', '$35 – $40'],
                     ['10–20 miles', '$35 – $50', '$40 – $55'],
                     ['20–30 miles', '$50 – $75', '$55 – $80'],
                     ['30+ miles', '$75+', '$80+'],
@@ -308,13 +308,13 @@ export default function OklahomaNotaryFeesGuide() {
                 </thead>
                 <tbody>
                   {[
-                    ['Single affidavit', '1', '$5', '$30 – $55'],
-                    ['Power of attorney', '1–2', '$5 – $10', '$30 – $60'],
+                    ['Single affidavit', '1', '$5', '$35 – $55'],
+                    ['Power of attorney', '1–2', '$5 – $10', '$35 – $60'],
                     ['Real estate deed', '2–4', '$10 – $20', '$35 – $70'],
                     ['Loan closing package', '5–15', '$25 – $75', '$50 – $125'],
-                    ['Immigration I-864', '1–3', '$5 – $15', '$30 – $65'],
-                    ['Advance directive', '1–2', '$5 – $10', '$30 – $60'],
-                    ['Vehicle title transfer', '1–2', '$5 – $10', '$30 – $60'],
+                    ['Immigration I-864', '1–3', '$5 – $15', '$35 – $65'],
+                    ['Advance directive', '1–2', '$5 – $10', '$35 – $60'],
+                    ['Vehicle title transfer', '1–2', '$5 – $10', '$35 – $60'],
                   ].map(([doc, sigs, fee, total]) => (
                     <tr key={doc} className="hover:bg-gray-50">
                       <td className="border border-gray-200 px-4 py-2 text-gray-700">{doc}</td>
@@ -371,7 +371,7 @@ export default function OklahomaNotaryFeesGuide() {
             <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Guides</h2>
             <div className="grid sm:grid-cols-2 gap-4">
               <Link href="/tulsa-process-server" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
-                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Tulsa Process Server — Same-Day, starts at $30</span>
+                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Tulsa Process Server — Same-Day, starts at $35</span>
                 <p className="text-sm text-gray-600 mt-1">Licensed Tulsa process server for all document types. GPS-tracked, court-ready affidavits.</p>
               </Link>
               <Link href="/mobile-notary" className="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:border-blue-200 hover:shadow-md transition-all group">

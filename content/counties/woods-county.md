@@ -55,7 +55,7 @@ Each attempt is GPS-verified so the court file reflects exactly where and when o
 
 ## Pricing for Woods County Process Serving
 
-Just Legal Solutions keeps pricing simple and predictable for Woods County clients, with the understanding that distance from Tulsa is a real factor in this part of the state. Service starts at $30 for a single attempt, ideal when the address is confirmed and the recipient is expected. Standard service starts at $60 (up to 3 attempts), which fits most civil, family, and small claims work. Rush service starts at $100 when a file needs to jump to the front of the route. Same-day rush starts at $150 for tight hearing windows and emergency filings. After-hours rush starts at $265 for evening, weekend, and holiday attempts when a recipient is only catchable outside normal hours. These are starting prices; final cost depends on distance from Tulsa, attempts, and complexity. See our [full pricing page](/pricing) for the complete breakdown.
+Just Legal Solutions keeps pricing simple and predictable for Woods County clients, with the understanding that distance from Tulsa is a real factor in this part of the state. Service starts at $35 for a single attempt, ideal when the address is confirmed and the recipient is expected. Standard service starts at $60 (up to 3 attempts), which fits most civil, family, and small claims work. Rush service starts at $100 when a file needs to jump to the front of the route. Same-day rush starts at $150 for tight hearing windows and emergency filings. After-hours rush starts at $265 for evening, weekend, and holiday attempts when a recipient is only catchable outside normal hours. These are starting prices; final cost depends on distance from Tulsa, attempts, and complexity. See our [full pricing page](/pricing) for the complete breakdown.
 
 ---
 
@@ -75,7 +75,7 @@ Just Legal Solutions keeps pricing simple and predictable for Woods County clien
 Standard service in Alva and the surrounding communities is typically completed within three to five business days, given the distance from Tulsa to northwest Oklahoma. When a hearing or filing deadline is right on top of you, our rush and same-day rush options can compress that timeline significantly, especially for addresses inside Alva, on the NWOSU campus area, or along the main highways.
 
 ### What does it cost to serve papers in Woods County?
-Pricing starts at $30 for a single attempt and $60 for standard service with up to three attempts. Rush service begins at $100, same-day rush at $150, and after-hours rush at $265. The final invoice depends on distance from Tulsa, the number of attempts needed, and any added complexity such as skip tracing, gated ranch access, or off-hours work.
+Pricing starts at $35 for a single attempt and $60 for standard service with up to three attempts. Rush service begins at $100, same-day rush at $150, and after-hours rush at $265. The final invoice depends on distance from Tulsa, the number of attempts needed, and any added complexity such as skip tracing, gated ranch access, or off-hours work.
 
 ### Do you serve rural addresses in Woods County?
 Yes. A significant portion of our Woods County work is rural — working ranches, oil and gas locations, gypsum-country properties near Alabaster Caverns, and homes along the Cimarron River corridor. Every attempt is GPS-verified so the file reflects accurate, defensible documentation even when the address is hard to find.

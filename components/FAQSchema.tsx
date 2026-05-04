@@ -21,7 +21,7 @@ export default function FAQSchema() {
         "answerCount": 1,
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Process serving in Tulsa typically costs $30-$200 depending on urgency and complexity. Rates start at $30 for bulk orders and single attempts, with standard service from $60, rush service $100, and same-day service $150.",
+          "text": "Process serving in Tulsa typically costs $35-$200 depending on urgency and complexity. Rates start at $35 for bulk orders and single attempts, with standard service from $60, rush service $100, and same-day service $150.",
           "url": "https://justlegalsolutions.org/pricing"
         }
       },

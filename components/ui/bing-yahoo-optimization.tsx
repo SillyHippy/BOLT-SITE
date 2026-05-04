@@ -22,7 +22,7 @@ export default function BingYahooOptimization({
     "description": "Oklahoma's premier process serving company providing professional legal document delivery with 24/7 emergency service throughout the state",
     "url": "https://justlegalsolutions.org",
     "image": "https://justlegalsolutions.org/jls-logo.webp",
-    "priceRange": "$30-$200",
+    "priceRange": "$35-$200",
     "telephone": "+15393676832",
     "email": "info@JustLegalSolutions.org",
     "address": {

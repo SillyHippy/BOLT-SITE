@@ -216,7 +216,7 @@ export default function LegalPostingProcessServer() {
         serviceName="Legal Posting Process Server"
         serviceDescription="Professional legal posting and public notice services throughout Oklahoma with expert process server support."
         serviceArea="Oklahoma"
-        priceRange="$30-$200"
+        priceRange="$35-$200"
         telephone="+1-539-367-6832"
         address={{
           streetAddress: "Statewide Service",

@@ -197,12 +197,12 @@ description: 'Contact Just Legal Solutions—reach our team for 24/7 process ser
 #### **Pricing Page**: `app/(main)/pricing/page.tsx` (line 10)
 **Change from:**
 ```tsx
-description: '30% OFF LIMITED TIME for ZIP 74008, 74033, 74037! Transparent process server pricing in Oklahoma starting at $30. Same-day, rush, and standard service options. No hidden fees. Licensed and bonded.',
+description: '30% OFF LIMITED TIME for ZIP 74008, 74033, 74037! Transparent process server pricing in Oklahoma starting at $35. Same-day, rush, and standard service options. No hidden fees. Licensed and bonded.',
 ```
 
 **Change to:**
 ```tsx
-description: 'Transparent process server pricing in Oklahoma starting at $30. Same-day, rush, and standard service options. No hidden fees. Licensed and bonded professionals.',
+description: 'Transparent process server pricing in Oklahoma starting at $35. Same-day, rush, and standard service options. No hidden fees. Licensed and bonded professionals.',
 ```
 
 ---

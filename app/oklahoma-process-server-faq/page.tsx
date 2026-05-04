@@ -47,8 +47,8 @@ export const metadata: Metadata = {
     'article:published_time': '2026-01-01',
     'article:modified_time': '2026-02-17',
     'ai-content-type': 'faq',
-    'ai-summary': 'Oklahoma process server FAQ for 2026: Process serving costs $30-$265 in Oklahoma depending on complexity. Servers must be 18+, licensed, and bonded ($5,000). Service includes personal delivery or substituted service on residents 15+. Just Legal Solutions serves all 77 Oklahoma counties.',
-    'ai-key-facts': 'Process serving costs $30-$265 in Oklahoma, must be 18+ and posted $5,000 bond, substituted service requires resident 15+, 1-5 business day completion, Just Legal Solutions licensed statewide, (539) 367-6832',
+    'ai-summary': 'Oklahoma process server FAQ for 2026: Process serving costs $35-$265 in Oklahoma depending on complexity. Servers must be 18+, licensed, and bonded ($5,000). Service includes personal delivery or substituted service on residents 15+. Just Legal Solutions serves all 77 Oklahoma counties.',
+    'ai-key-facts': 'Process serving costs $35-$265 in Oklahoma, must be 18+ and posted $5,000 bond, substituted service requires resident 15+, 1-5 business day completion, Just Legal Solutions licensed statewide, (539) 367-6832',
   },
 };
 
@@ -440,7 +440,7 @@ export default function OklahomaProcessServerFAQ2026() {
               <div className="bg-white/10 backdrop-blur-md p-5 rounded-xl border border-white/20 mb-8 max-w-2xl text-left">
                 <h2 className="text-lg font-bold text-white mb-2 flex items-center"><span className="mr-2">⚡</span> Quick Answer summary</h2>
                 <p className="text-blue-50 text-base">
-                  <strong>Process serving in Oklahoma in 2026 costs $30 to $265</strong> depending on urgency. Standard service takes 5-7 business days, while rush options take 2-8 hours. All process servers must be licensed and bonded.
+                  <strong>Process serving in Oklahoma in 2026 costs $35 to $265</strong> depending on urgency. Standard service takes 5-7 business days, while rush options take 2-8 hours. All process servers must be licensed and bonded.
                 </p>
               </div>
               

@@ -55,7 +55,7 @@ Each attempt is GPS-verified so the court file reflects exactly where and when o
 
 ## Pricing for Roger Mills County Process Serving
 
-Just Legal Solutions keeps pricing simple and transparent for Roger Mills County clients, with the understanding that distance from Tulsa is a real factor here. Service starts at $30 for a single attempt, ideal when the address is confirmed and the recipient is expected. Standard service starts at $60 (up to 3 attempts), which fits most civil, family, and small claims work. Rush service starts at $100 when a file needs to jump to the front of the route. Same-day rush starts at $150 for tight hearing windows and emergency filings. After-hours rush starts at $265 for evening, weekend, and holiday attempts when a recipient is only catchable outside normal hours. These are starting prices; final cost depends on distance from Tulsa, attempts, and complexity. See our [full pricing page](/pricing) for the complete breakdown.
+Just Legal Solutions keeps pricing simple and transparent for Roger Mills County clients, with the understanding that distance from Tulsa is a real factor here. Service starts at $35 for a single attempt, ideal when the address is confirmed and the recipient is expected. Standard service starts at $60 (up to 3 attempts), which fits most civil, family, and small claims work. Rush service starts at $100 when a file needs to jump to the front of the route. Same-day rush starts at $150 for tight hearing windows and emergency filings. After-hours rush starts at $265 for evening, weekend, and holiday attempts when a recipient is only catchable outside normal hours. These are starting prices; final cost depends on distance from Tulsa, attempts, and complexity. See our [full pricing page](/pricing) for the complete breakdown.
 
 ---
 
@@ -75,7 +75,7 @@ Just Legal Solutions keeps pricing simple and transparent for Roger Mills County
 Because Roger Mills County is one of the more remote counties we cover, standard service typically takes three to five business days from receipt of the documents. When a hearing or deadline is right on top of you, our rush and same-day rush options can compress that timeline significantly, especially for addresses in or near Cheyenne.
 
 ### What does it cost to serve papers in Roger Mills County?
-Pricing starts at $30 for a single attempt and $60 for standard service with up to three attempts. Rush service begins at $100, same-day rush at $150, and after-hours rush at $265. Final cost depends on the distance from Tulsa, the number of attempts required, and any added complexity like skip tracing, gated ranch access, or grassland-area travel.
+Pricing starts at $35 for a single attempt and $60 for standard service with up to three attempts. Rush service begins at $100, same-day rush at $150, and after-hours rush at $265. Final cost depends on the distance from Tulsa, the number of attempts required, and any added complexity like skip tracing, gated ranch access, or grassland-area travel.
 
 ### Do you serve rural addresses in Roger Mills County?
 Yes — and the majority of our work in this county is rural. We regularly serve at working cattle ranches, oil and gas locations, hunting leases, and rural-route residences across the county, including properties near the Black Kettle National Grassland. Every attempt is GPS-verified so the file reflects accurate, defensible documentation.

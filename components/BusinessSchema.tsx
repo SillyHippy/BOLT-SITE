@@ -57,7 +57,7 @@ export default function BusinessSchema() {
       "Courier Services",
       "Skip Tracing"
     ],
-    "priceRange": "$30-$200",
+    "priceRange": "$35-$200",
     "openingHours": ["Mo-Su 00:00-24:00"],
     "openingHoursSpecification": [
       {

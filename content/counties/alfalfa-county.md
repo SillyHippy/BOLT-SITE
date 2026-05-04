@@ -48,7 +48,7 @@ Alfalfa County is small in population but spread across roughly 880 square miles
 
 ## Pricing for Alfalfa County Process Serving
 
-Service starts at $30 for a single attempt, which works well when an attorney already has a confirmed address and wants one focused try at the door. Standard service starts at $60 (up to 3 attempts) and is the most popular option for typical civil, family, and small claims work in Alfalfa County. Rush service starts at $100 when the case is moving quickly and you need attempts within a tight window. Same-day rush starts at $150 for documents that absolutely have to be served before close of business, and after-hours rush starts at $265 for evenings, weekends, and time-sensitive emergency orders. These are starting prices; final cost depends on distance from Tulsa, attempts, and complexity. See our [full pricing page](/pricing) for the complete breakdown.
+Service starts at $35 for a single attempt, which works well when an attorney already has a confirmed address and wants one focused try at the door. Standard service starts at $60 (up to 3 attempts) and is the most popular option for typical civil, family, and small claims work in Alfalfa County. Rush service starts at $100 when the case is moving quickly and you need attempts within a tight window. Same-day rush starts at $150 for documents that absolutely have to be served before close of business, and after-hours rush starts at $265 for evenings, weekends, and time-sensitive emergency orders. These are starting prices; final cost depends on distance from Tulsa, attempts, and complexity. See our [full pricing page](/pricing) for the complete breakdown.
 
 ---
 

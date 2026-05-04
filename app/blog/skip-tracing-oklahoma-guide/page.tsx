@@ -30,8 +30,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-19',
     'article:author': 'Joseph Iannazzi',
     'ai-content-type': 'article',
-    'ai-summary': 'Complete 2026 guide to skip tracing in Oklahoma. Skip tracing locates hard-to-find defendants using public records, utilities, social media, and proprietary databases. Pricing starts at $50, with success rates of 75–90% on standard cases. Pairs directly with process serving (starts at $30) and helps avoid costly service by publication.',
-    'ai-key-facts': 'Oklahoma skip tracing pricing starts at $50; success rates 75–90% typical; integrates with process serving (starts at $30); legal limits include FCRA, GLBA, DPPA; can prevent service by publication under 12 O.S. § 2004; Oklahoma process server licensing under 12 O.S. § 158.1.',
+    'ai-summary': 'Complete 2026 guide to skip tracing in Oklahoma. Skip tracing locates hard-to-find defendants using public records, utilities, social media, and proprietary databases. Pricing starts at $50, with success rates of 75–90% on standard cases. Pairs directly with process serving (starts at $35) and helps avoid costly service by publication.',
+    'ai-key-facts': 'Oklahoma skip tracing pricing starts at $50; success rates 75–90% typical; integrates with process serving (starts at $35); legal limits include FCRA, GLBA, DPPA; can prevent service by publication under 12 O.S. § 2004; Oklahoma process server licensing under 12 O.S. § 158.1.',
   },
 };
 
@@ -149,7 +149,7 @@ export default function SkipTracingOklahomaGuide() {
                 <li>📅 <strong>Turnaround:</strong> 24–72 hours typical, rush available</li>
                 <li>🎯 <strong>Success rate:</strong> 75–90% on standard Oklahoma traces</li>
                 <li>⚖️ <strong>Legal framework:</strong> FCRA, GLBA, DPPA + Oklahoma privacy law</li>
-                <li>🔗 <strong>Pairs with:</strong> process serving (starts at $30)</li>
+                <li>🔗 <strong>Pairs with:</strong> process serving (starts at $35)</li>
               </ul>
               <p className="text-blue-700 text-sm mt-3">See full pricing at <Link href="/pricing" className="underline">/pricing</Link>.</p>
             </div>
@@ -245,7 +245,7 @@ export default function SkipTracingOklahomaGuide() {
             <p>You do not need all of this — name plus DOB plus a stale address is usually enough to get started.</p>
 
             <h2>Pricing &amp; Turnaround</h2>
-            <p>Our skip tracing service starts at $50 for a standard 24–72 hour turnaround. Same-day rush traces are available; international or extra-deep investigations are quoted individually. Skip tracing is most cost-effective when bundled with process serving (starts at $30) — see the full <Link href="/blog/process-serving-cost-guide-oklahoma">2026 process serving cost guide</Link> for the complete breakdown.</p>
+            <p>Our skip tracing service starts at $50 for a standard 24–72 hour turnaround. Same-day rush traces are available; international or extra-deep investigations are quoted individually. Skip tracing is most cost-effective when bundled with process serving (starts at $35) — see the full <Link href="/blog/process-serving-cost-guide-oklahoma">2026 process serving cost guide</Link> for the complete breakdown.</p>
 
             <h2>What a Trace Report Looks Like</h2>
             <p>You receive a clean PDF report containing:</p>

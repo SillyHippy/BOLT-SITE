@@ -55,7 +55,7 @@ Each attempt is GPS-verified so the return reflects exactly where and when our s
 
 ## Pricing for Pushmataha County Process Serving
 
-Just Legal Solutions keeps pricing simple and predictable for Pushmataha County clients. Service starts at $30 for a single attempt, ideal when the address is confirmed and the recipient is expected. Standard service starts at $60 (up to 3 attempts), which fits most civil, family, and small claims work. Rush service starts at $100 when the file needs to jump to the front of the route. Same-day rush starts at $150 for tight hearing windows and emergency filings. After-hours rush starts at $265 for evening, weekend, and holiday attempts when a recipient is only catchable outside normal hours. These are starting prices; final cost depends on distance from Tulsa, attempts, and complexity. See our [full pricing page](/pricing) for the complete breakdown.
+Just Legal Solutions keeps pricing simple and predictable for Pushmataha County clients. Service starts at $35 for a single attempt, ideal when the address is confirmed and the recipient is expected. Standard service starts at $60 (up to 3 attempts), which fits most civil, family, and small claims work. Rush service starts at $100 when the file needs to jump to the front of the route. Same-day rush starts at $150 for tight hearing windows and emergency filings. After-hours rush starts at $265 for evening, weekend, and holiday attempts when a recipient is only catchable outside normal hours. These are starting prices; final cost depends on distance from Tulsa, attempts, and complexity. See our [full pricing page](/pricing) for the complete breakdown.
 
 ---
 
@@ -75,7 +75,7 @@ Just Legal Solutions keeps pricing simple and predictable for Pushmataha County 
 Because Pushmataha County is one of the more rural counties we cover, standard service typically takes three to five business days from receipt of the documents. When a hearing or deadline is right on top of you, our rush and same-day rush options can compress that timeline significantly, especially for addresses inside Antlers or along the main highways.
 
 ### What does it cost to serve papers in Pushmataha County?
-Pricing starts at $30 for a single attempt and $60 for standard service with up to three attempts. Rush service begins at $100, same-day rush at $150, and after-hours rush at $265. Final cost depends on the distance from Tulsa, the number of attempts required, and any added complexity such as mountain access, skip tracing, or gated property entry.
+Pricing starts at $35 for a single attempt and $60 for standard service with up to three attempts. Rush service begins at $100, same-day rush at $150, and after-hours rush at $265. Final cost depends on the distance from Tulsa, the number of attempts required, and any added complexity such as mountain access, skip tracing, or gated property entry.
 
 ### Do you serve rural addresses in Pushmataha County?
 Yes — and frankly, that is most of what we do here. We regularly serve mountain residences in the Kiamichi range, cabins around Sardis Lake, timber-tract homes, and rural-route addresses throughout the county. Every attempt is GPS-verified so the file reflects accurate, defensible documentation no matter how remote the address.

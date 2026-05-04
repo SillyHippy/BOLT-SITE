@@ -56,7 +56,7 @@ Each attempt is GPS-verified so the court file reflects exactly where and when o
 
 ## Pricing for Washita County Process Serving
 
-Just Legal Solutions keeps pricing simple and predictable for Washita County clients. Service starts at $30 for a single attempt, ideal when the address is confirmed and the recipient is expected. Standard service starts at $60 (up to 3 attempts), which fits most civil, family, and small claims work. Rush service starts at $100 when a file needs to jump to the front of the route. Same-day rush starts at $150 for tight hearing windows and emergency filings. After-hours rush starts at $265 for evening, weekend, and holiday attempts when a recipient is only catchable outside normal hours. These are starting prices; final cost depends on distance from Tulsa, attempts, and complexity. See our [full pricing page](/pricing) for the complete breakdown.
+Just Legal Solutions keeps pricing simple and predictable for Washita County clients. Service starts at $35 for a single attempt, ideal when the address is confirmed and the recipient is expected. Standard service starts at $60 (up to 3 attempts), which fits most civil, family, and small claims work. Rush service starts at $100 when a file needs to jump to the front of the route. Same-day rush starts at $150 for tight hearing windows and emergency filings. After-hours rush starts at $265 for evening, weekend, and holiday attempts when a recipient is only catchable outside normal hours. These are starting prices; final cost depends on distance from Tulsa, attempts, and complexity. See our [full pricing page](/pricing) for the complete breakdown.
 
 ---
 
@@ -76,7 +76,7 @@ Just Legal Solutions keeps pricing simple and predictable for Washita County cli
 Standard service in New Cordell, Burns Flat, and the surrounding communities is typically completed within three to five business days from receipt of the documents. When a hearing or deadline is right on top of you, our rush and same-day rush options can compress that timeline significantly, especially for addresses along Interstate 40 or inside Cordell city limits.
 
 ### What does it cost to serve papers in Washita County?
-Pricing starts at $30 for a single attempt and $60 for standard service with up to three attempts. Rush service begins at $100, same-day rush at $150, and after-hours rush at $265. The final invoice depends on distance from Tulsa, the number of attempts needed, and any added complexity such as skip tracing or lake-area access.
+Pricing starts at $35 for a single attempt and $60 for standard service with up to three attempts. Rush service begins at $100, same-day rush at $150, and after-hours rush at $265. The final invoice depends on distance from Tulsa, the number of attempts needed, and any added complexity such as skip tracing or lake-area access.
 
 ### Do you serve rural addresses in Washita County?
 Yes. A significant portion of our Washita County work is rural — farms, ranches, oil and gas locations, and homes around Foss State Park and the Foss Reservoir area. Every attempt is GPS-verified so the file reflects accurate, defensible documentation even when the address is hard to find.

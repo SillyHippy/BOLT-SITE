@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'How Much Does a Process Server Cost in Oklahoma? 2026 Pricing Guide',
-    description: 'Full 2026 process serving cost breakdown: starts at $30 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours.',
+    description: 'Full 2026 process serving cost breakdown: starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours.',
     url: 'https://justlegalsolutions.org/blog/process-serving-cost-guide-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -30,8 +30,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-19',
     'article:author': 'Joseph Iannazzi',
     'ai-content-type': 'article',
-    'ai-summary': 'Complete 2026 cost guide for Oklahoma process servers. Pricing starts at $30 single-attempt, $60 standard, $100 rush, $150 same-day, $200 triple-attempt, $265 after-hours rush. Compares sheriff service, breaks down what affects price, and exposes hidden fees to avoid.',
-    'ai-key-facts': 'Oklahoma process server pricing tiers (starts at): $30 single-attempt, $60 standard (3 attempts), $100 rush, $150 same-day, $200 triple-attempt evasive, $265 after-hours rush. Sheriff service typically $50–$75 + mileage but slow. Skip tracing starts at $50; court filing starts at $25 plus court costs.',
+    'ai-summary': 'Complete 2026 cost guide for Oklahoma process servers. Pricing starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day, $200 triple-attempt, $265 after-hours rush. Compares sheriff service, breaks down what affects price, and exposes hidden fees to avoid.',
+    'ai-key-facts': 'Oklahoma process server pricing tiers (starts at): $35 single-attempt, $60 standard (3 attempts), $100 rush, $150 same-day, $200 triple-attempt evasive, $265 after-hours rush. Sheriff service typically $50–$75 + mileage but slow. Skip tracing starts at $50; court filing starts at $25 plus court costs.',
   },
 };
 
@@ -145,7 +145,7 @@ export default function ProcessServingCostGuideOklahoma() {
             <div className="not-prose bg-blue-50 border border-blue-200 rounded-xl p-6 my-8">
               <h2 className="text-lg font-bold text-blue-900 mb-3">Quick Answer: Just Legal Solutions Process Serving Pricing</h2>
               <div className="space-y-2 text-blue-800">
-                <div className="flex justify-between border-b border-blue-100 pb-2"><span>Single-Attempt Posting</span><span className="font-bold">starts at $30</span></div>
+                <div className="flex justify-between border-b border-blue-100 pb-2"><span>Single-Attempt Posting</span><span className="font-bold">starts at $35</span></div>
                 <div className="flex justify-between border-b border-blue-100 pb-2"><span>Standard Service (up to 3 attempts)</span><span className="font-bold">starts at $60</span></div>
                 <div className="flex justify-between border-b border-blue-100 pb-2"><span>Rush (1–3 business days)</span><span className="font-bold">starts at $100</span></div>
                 <div className="flex justify-between border-b border-blue-100 pb-2"><span>Same-Day (4–8 hours)</span><span className="font-bold">starts at $150</span></div>
@@ -170,7 +170,7 @@ export default function ProcessServingCostGuideOklahoma() {
                 </thead>
                 <tbody>
                   {[
-                    ['Single-Attempt Posting', '$30', '1–3 business days', 'Eviction notices, simple postings'],
+                    ['Single-Attempt Posting', '$35', '1–3 business days', 'Eviction notices, simple postings'],
                     ['Standard Service', '$60', '5–10 business days', 'Most civil filings, divorces, small claims'],
                     ['Rush', '$100', '1–3 business days', 'Approaching statute of limitations'],
                     ['Same-Day', '$150', '4–8 hours', 'Last-minute filings, hearing-day service'],
@@ -216,7 +216,7 @@ export default function ProcessServingCostGuideOklahoma() {
                 </thead>
                 <tbody>
                   {[
-                    ['Base Fee', '$50–$75 + mileage', 'Starts at $30 (single-attempt)'],
+                    ['Base Fee', '$50–$75 + mileage', 'Starts at $35 (single-attempt)'],
                     ['Turnaround', '2–6 weeks typical', '5–10 days standard, 4–8 hours same-day'],
                     ['Attempts', 'Usually 1–2', 'Up to 3 standard, 3+ on triple-attempt'],
                     ['After-Hours / Weekend', 'Generally not available', 'Available — starts at $265'],
@@ -329,7 +329,7 @@ export default function ProcessServingCostGuideOklahoma() {
           <section className="mt-12">
             <div className="bg-gradient-to-r from-blue-600 to-blue-800 rounded-2xl p-8 md:p-12 text-center text-white">
               <h2 className="text-2xl md:text-3xl font-bold mb-4">Need a Written Process Serving Quote?</h2>
-              <p className="text-blue-100 mb-6 max-w-xl mx-auto">Flat-rate, written pricing in minutes. Single-attempt service starts at $30. Same-day, after-hours, and statewide coverage available.</p>
+              <p className="text-blue-100 mb-6 max-w-xl mx-auto">Flat-rate, written pricing in minutes. Single-attempt service starts at $35. Same-day, after-hours, and statewide coverage available.</p>
               <a href="tel:+15393676832" className="inline-flex items-center gap-2 bg-white text-blue-700 px-8 py-4 rounded-xl font-bold text-lg hover:bg-blue-50 transition-colors shadow-lg">
                 📞 Call (539) 367-6832
               </a>

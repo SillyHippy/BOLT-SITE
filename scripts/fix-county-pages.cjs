@@ -9,8 +9,8 @@
  *     - Bumps UnifiedSchema faqItems from .slice(0, 4) to .slice(0, 6).
  *  2. Fixes wrong courthouse addresses in Love, Kay, Kiowa, McIntosh.
  *  3. Fixes pricing violations:
- *     - app/counties/page.tsx priceRange ($30-$265 -> removed)
- *     - app/counties/[slug]/page.tsx $30 metadata drift
+ *     - app/counties/page.tsx priceRange ($35-$265 -> removed)
+ *     - app/counties/[slug]/page.tsx $35 metadata drift
  *     - app/counties/creek-county/page.tsx priceRange
  *     - app/counties/wagoner-county/page.tsx FAQ with $100/$150/$265
  *  4. Fixes "Okta Process Serving" branding bug in love-county.md + mcclain-county.md.
@@ -145,24 +145,24 @@ function fixPricingViolations() {
     const p = path.join(APP_COUNTIES, 'page.tsx');
     let src = fs.readFileSync(p, 'utf8');
     const before = src;
-    src = src.replace(/priceRange="\$30-\$265"/g, 'priceRange="Tiered"');
+    src = src.replace(/priceRange="\$35-\$265"/g, 'priceRange="Tiered"');
     if (src !== before) {
       fs.writeFileSync(p, src, 'utf8');
       results.push({ file: 'app/counties/page.tsx', status: 'updated' });
     }
   }
 
-  // 2. app/counties/[slug]/page.tsx $30 metadata drift
+  // 2. app/counties/[slug]/page.tsx $35 metadata drift
   {
     const p = path.join(APP_COUNTIES, '[slug]', 'page.tsx');
     let src = fs.readFileSync(p, 'utf8');
     const before = src;
     src = src.replace(
-      /const title = `\$\{countyName\} Process Server OK \| Starts at \$30`;/,
+      /const title = `\$\{countyName\} Process Server OK \| Starts at \$35`;/,
       'const title = `${countyName} Process Server OK | Licensed & Bonded`;'
     );
     src = src.replace(
-      /const description = `Licensed process server in \$\{countyName\}, OK\. Service starts at \$30 single-attempt, \$60 standard; rush & same-day available\. GPS-tracked, court-ready affidavits\. \(539\) 367-6832`;/,
+      /const description = `Licensed process server in \$\{countyName\}, OK\. Service starts at \$35 single-attempt, \$60 standard; rush & same-day available\. GPS-tracked, court-ready affidavits\. \(539\) 367-6832`;/,
       'const description = `Licensed and bonded process server in ${countyName}, Oklahoma. Standard, rush, and same-day service with GPS-tracked attempts and notarized affidavits. See current rates at /pricing. Call (539) 367-6832.`;'
     );
     if (src !== before) {
@@ -176,7 +176,7 @@ function fixPricingViolations() {
     const p = path.join(APP_COUNTIES, 'creek-county', 'page.tsx');
     let src = fs.readFileSync(p, 'utf8');
     const before = src;
-    src = src.replace(/priceRange="\$30-\$200"/g, 'priceRange="Tiered"');
+    src = src.replace(/priceRange="\$35-\$200"/g, 'priceRange="Tiered"');
     if (src !== before) {
       fs.writeFileSync(p, src, 'utf8');
       results.push({ file: 'app/counties/creek-county/page.tsx', status: 'updated' });

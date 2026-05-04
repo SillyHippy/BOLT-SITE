@@ -52,7 +52,7 @@ A large share of Latimer County is rural — wooded hills, working timber, forme
 
 ## Pricing for Latimer County Process Serving
 
-Latimer County is within reasonable driving distance of our Tulsa base, but rural attempts in the foothills still require careful routing. Service starts at $30 for a single attempt when you have a confirmed address. Standard service starts at $60 (up to 3 attempts) and is the most common option for civil, family, and small claims work. Rush service starts at $100 when timeline pressure builds. Same-day rush starts at $150 for hearings or filings already on the docket. After-hours rush starts at $265 for evening, weekend, or holiday service. These are starting prices; final cost depends on distance from Tulsa, attempts, and complexity. See our [full pricing page](/pricing) for the complete breakdown.
+Latimer County is within reasonable driving distance of our Tulsa base, but rural attempts in the foothills still require careful routing. Service starts at $35 for a single attempt when you have a confirmed address. Standard service starts at $60 (up to 3 attempts) and is the most common option for civil, family, and small claims work. Rush service starts at $100 when timeline pressure builds. Same-day rush starts at $150 for hearings or filings already on the docket. After-hours rush starts at $265 for evening, weekend, or holiday service. These are starting prices; final cost depends on distance from Tulsa, attempts, and complexity. See our [full pricing page](/pricing) for the complete breakdown.
 
 ---
 
@@ -75,7 +75,7 @@ Standard turnaround in and around Wilburton is typically two to four business da
 
 ### What does it cost to serve papers in Latimer County?
 
-Pricing starts at $30 for a single attempt and $60 for standard service up to three attempts, scaling up to $100, $150, and $265 for rush, same-day, and after-hours work. Distance from Tulsa is included in the final quote, with Wilburton being a reasonable route. Our [pricing page](/pricing) breaks down each tier.
+Pricing starts at $35 for a single attempt and $60 for standard service up to three attempts, scaling up to $100, $150, and $265 for rush, same-day, and after-hours work. Distance from Tulsa is included in the final quote, with Wilburton being a reasonable route. Our [pricing page](/pricing) breaks down each tier.
 
 ### Do you serve rural addresses in Latimer County?
 

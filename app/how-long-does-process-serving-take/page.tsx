@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     alternates: { canonical: 'https://justlegalsolutions.org/how-long-does-process-serving-take' },
     other: {
         'ai-content-type': 'article',
-        'ai-summary': 'Process serving timelines: 2-hour emergency ($265), same-day rush 4-8 hours ($150), standard 1-7 business days ($60+), single attempts ($30+), sheriff 2-6 weeks ($25-$40). Factors: defendant availability, location, evasion, multiple attempts. Oklahoma has 180-day deadline to complete service after filing (12 O.S. § 2004).',
+        'ai-summary': 'Process serving timelines: 2-hour emergency ($265), same-day rush 4-8 hours ($150), standard 1-7 business days ($60+), single attempts ($35+), sheriff 2-6 weeks ($25-$40). Factors: defendant availability, location, evasion, multiple attempts. Oklahoma has 180-day deadline to complete service after filing (12 O.S. § 2004).',
         'ai-key-facts': 'Oklahoma process serving timelines: 2-hour emergency $265, same-day rush $150 (4-8 hrs), standard $60 (1-7 days), sheriff $25-$40 (2-6 weeks). 180-day service deadline (12 O.S. § 2004). Licensed under 12 O.S. § 158.1. GPS-verified proof. Call (539) 367-6832.',
     },
 };
@@ -83,7 +83,7 @@ export default function HowLongPage() {
                                     <tr className="bg-green-50">
                                         <td className="border border-gray-300 px-4 py-3 font-semibold">Standard Process Server</td>
                                         <td className="border border-gray-300 px-4 py-3 font-bold text-green-600">1&ndash;7 business days</td>
-                                        <td className="border border-gray-300 px-4 py-3">$30&ndash;$125</td>
+                                        <td className="border border-gray-300 px-4 py-3">$35&ndash;$125</td>
                                         <td className="border border-gray-300 px-4 py-3 text-sm">No urgent deadline, routine cases</td>
                                     </tr>
                                     <tr>

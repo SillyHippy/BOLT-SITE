@@ -1,6 +1,6 @@
 export const metadata = {
   title: '(539) 367-6832 | Contact Just Legal Solutions',
-  description: 'Get a free quote for process serving in Oklahoma. Service starts at $30 single-attempt, $60 standard, $100 rush, $150 same-day. Call (539) 367-6832 or submit online. Licensed & bonded. All 77 OK counties.',
+  description: 'Get a free quote for process serving in Oklahoma. Service starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day. Call (539) 367-6832 or submit online. Licensed & bonded. All 77 OK counties.',
   keywords: [
     'contact process server',
     'oklahoma process server',
@@ -22,7 +22,7 @@ export const metadata = {
   },
   openGraph: {
     title: '(539) 367-6832 | Contact Just Legal Solutions',
-    description: 'Get a free quote for process serving in Oklahoma. Service starts at $30 single-attempt, $60 standard, $100 rush, $150 same-day. Call (539) 367-6832. Licensed & bonded. All 77 OK counties.',
+    description: 'Get a free quote for process serving in Oklahoma. Service starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day. Call (539) 367-6832. Licensed & bonded. All 77 OK counties.',
     type: 'website',
     locale: 'en_US',
     url: 'https://justlegalsolutions.org/contact',
@@ -39,7 +39,7 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     title: '(539) 367-6832 | Contact Just Legal Solutions',
-    description: 'Get a free quote for process serving in Oklahoma. Service starts at $30 single-attempt, $60 standard, $100 rush. Call (539) 367-6832. Licensed & bonded. All 77 OK counties.',
+    description: 'Get a free quote for process serving in Oklahoma. Service starts at $35 single-attempt, $60 standard, $100 rush. Call (539) 367-6832. Licensed & bonded. All 77 OK counties.',
     images: ['https://justlegalsolutions.org/image-pack/images/image-041-contact-hero.webp'],
     site: '@ServeOK',
   }
@@ -89,7 +89,7 @@ export default function ContactPage() {
                 "latitude": "36.154",
                 "longitude": "-95.9928"
               },
-              "priceRange": "$30-$200",
+              "priceRange": "$35-$200",
               "openingHours": ["Mo-Su 00:00-23:59"],
               "openingHoursSpecification": [{
                 "@type": "OpeningHoursSpecification",

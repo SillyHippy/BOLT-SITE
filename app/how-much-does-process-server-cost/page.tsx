@@ -4,7 +4,7 @@ import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
     title: 'How Much Does a Process Server Cost? (2026 Oklahoma Pricing Guide)',
-    description: 'Process server costs in Oklahoma range from $30-$265 depending on speed. Compare pricing: process server vs sheriff vs DIY. Detailed breakdown of fees, mileage, and what\'s included.',
+    description: 'Process server costs in Oklahoma range from $35-$265 depending on speed. Compare pricing: process server vs sheriff vs DIY. Detailed breakdown of fees, mileage, and what\'s included.',
     keywords: ['how much does a process server cost', 'process server cost oklahoma', 'process serving fees', 'cost to serve papers', 'process server pricing comparison'],
     authors: [{ name: 'Just Legal Solutions' }],
     creator: 'Just Legal Solutions',
@@ -12,23 +12,23 @@ export const metadata: Metadata = {
     robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
     openGraph: {
         title: 'How Much Does a Process Server Cost? (2026 Oklahoma Guide)',
-        description: 'Process server costs: $30-$265 depending on speed. Sheriff: $25-$40. Full pricing comparison with what\'s included at each tier.',
+        description: 'Process server costs: $35-$265 depending on speed. Sheriff: $25-$40. Full pricing comparison with what\'s included at each tier.',
         type: 'article', locale: 'en_US', url: 'https://justlegalsolutions.org/how-much-does-process-server-cost', siteName: 'Just Legal Solutions',
         images: [{ url: 'https://justlegalsolutions.org/image-pack/images/image-057-how-much-does-process-server-cost-og.webp', width: 1200, height: 630, alt: 'Process Server Cost Guide' }],
     },
     alternates: { canonical: 'https://justlegalsolutions.org/how-much-does-process-server-cost' },
     other: {
         'ai-content-type': 'article',
-        'ai-summary': 'Process server costs in Oklahoma: Standard $60-$125 (5-7 days), same-day rush $150, 2-hour emergency $265, single attempts from $30. Sheriff costs $25-$40 but takes 2-6 weeks. Additional fees: skip tracing $50+, mileage outside Tulsa County, multiple attempts. Most cost-effective option depends on urgency.',
+        'ai-summary': 'Process server costs in Oklahoma: Standard $60-$125 (5-7 days), same-day rush $150, 2-hour emergency $265, single attempts from $35. Sheriff costs $25-$40 but takes 2-6 weeks. Additional fees: skip tracing $50+, mileage outside Tulsa County, multiple attempts. Most cost-effective option depends on urgency.',
         'ai-key-facts': 'Standard $60, single attempts $30, rush $150, emergency $265, sheriff $25-$40 but 2-6 weeks, skip tracing extra $50+, mileage included Tulsa County.',
     },
 };
 
 const faqs = [
-    { question: "How much does a process server cost in Oklahoma?", answer: "Process server costs in Oklahoma range from $30 to $265 depending on speed. Standard service is $60 (5-7 business days, up to 3 attempts), with single attempts starting at $30. Same-day rush service is $150 (served within 4-8 hours). 2-hour emergency service is $265 (immediate dispatch). These rates include GPS-verified proof of service, a notarized affidavit, and mileage within Tulsa County." },
-    { question: "Is a process server cheaper than the sheriff?", answer: "The sheriff charges $25-$40 per serve, which is similar to a private process server's starting rate of $30 for a single attempt. However, the sheriff typically takes 2-6 weeks to complete service and offers no tracking or status updates. When you factor in the potential cost of delayed litigation — rescheduled hearings, extended court timelines, and additional attorney fees — a private process server is often the more cost-effective choice." },
+    { question: "How much does a process server cost in Oklahoma?", answer: "Process server costs in Oklahoma range from $35 to $265 depending on speed. Standard service is $60 (5-7 business days, up to 3 attempts), with single attempts starting at $35. Same-day rush service is $150 (served within 4-8 hours). 2-hour emergency service is $265 (immediate dispatch). These rates include GPS-verified proof of service, a notarized affidavit, and mileage within Tulsa County." },
+    { question: "Is a process server cheaper than the sheriff?", answer: "The sheriff charges $25-$40 per serve, which is similar to a private process server's starting rate of $35 for a single attempt. However, the sheriff typically takes 2-6 weeks to complete service and offers no tracking or status updates. When you factor in the potential cost of delayed litigation — rescheduled hearings, extended court timelines, and additional attorney fees — a private process server is often the more cost-effective choice." },
     { question: "Are there additional fees beyond the base price?", answer: "Potential additional fees include: travel/mileage for addresses outside Tulsa County ($0.50-$1.00 per mile), skip tracing ($50+ if the person's address is unknown), rushed affidavit preparation for after-hours service, weekend/holiday surcharge, and additional attempts beyond the standard 3 included with standard service ($15-$25 per additional attempt)." },
-    { question: "Can I serve papers myself for free?", answer: "Oklahoma law (12 O.S. § 2004) allows any person over 18 who is not a party to the case to serve papers. So technically, a friend or family member could serve for free. However, this carries significant risks: improper service can result in case dismissal, self-interested testimony is easily challenged, and there's no GPS or professional documentation. For important legal matters, the starting cost of $30 for a licensed process server is well worth the peace of mind." },
+    { question: "Can I serve papers myself for free?", answer: "Oklahoma law (12 O.S. § 2004) allows any person over 18 who is not a party to the case to serve papers. So technically, a friend or family member could serve for free. However, this carries significant risks: improper service can result in case dismissal, self-interested testimony is easily challenged, and there's no GPS or professional documentation. For important legal matters, the starting cost of $35 for a licensed process server is well worth the peace of mind." },
 ];
 
 export default function ProcessServerCostPage() {
@@ -49,7 +49,7 @@ export default function ProcessServerCostPage() {
                         <div className="bg-white p-4 rounded border border-green-200 shadow-sm mb-4">
                             <h2 className="text-lg font-bold text-green-800 mb-2 flex items-center"><span className="mr-2">⚡</span> Quick Answer</h2>
                             <p className="text-lg text-gray-800 leading-relaxed">
-                                <strong>Process server costs in Oklahoma range from $30 to $265</strong>, depending on how quickly you need papers served. Standard service is $60 with 5-7 day delivery and single attempts start at $30. Same-day rush is $150. Emergency 2-hour service is $265. The county sheriff charges $25-$40 but takes 2-6 weeks. Below is a full comparison of costs, what&apos;s included, and which option makes the most sense for your situation.
+                                <strong>Process server costs in Oklahoma range from $35 to $265</strong>, depending on how quickly you need papers served. Standard service is $60 with 5-7 day delivery and single attempts start at $35. Same-day rush is $150. Emergency 2-hour service is $265. The county sheriff charges $25-$40 but takes 2-6 weeks. Below is a full comparison of costs, what&apos;s included, and which option makes the most sense for your situation.
                             </p>
                         </div>
                     </div>
@@ -144,7 +144,7 @@ export default function ProcessServerCostPage() {
 
                     <section className="mb-12 bg-gradient-to-r from-green-50 to-blue-50 border-2 border-green-200 p-8 rounded-lg text-center">
                         <h2 className="text-3xl font-bold text-gray-900 mb-4">Get a Free Quote</h2>
-                        <p className="text-lg text-gray-700 mb-6">Standard service is $60 and single attempts start at $30. No hidden fees. Call for an exact quote on your serve.</p>
+                        <p className="text-lg text-gray-700 mb-6">Standard service is $60 and single attempts start at $35. No hidden fees. Call for an exact quote on your serve.</p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-4">
                             <a href="tel:5393676832" className="bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors shadow-lg">&#x1F4DE; Call (539) 367-6832</a>
                             <Link href="/pricing" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">&#x1F4B0; See Full Pricing</Link>
@@ -157,7 +157,7 @@ export default function ProcessServerCostPage() {
                     </div>
                 </div>
             </div>
-            <UnifiedSchema pageType="article" title="How Much Does a Process Server Cost? (2026 Oklahoma Guide)" description="Process server costs: $30-$265. Full comparison with sheriff and DIY options." url="https://justlegalsolutions.org/how-much-does-process-server-cost" image="https://justlegalsolutions.org/image-pack/images/image-057-how-much-does-process-server-cost-og.webp" keywords={['process server cost', 'process serving fees', 'cost to serve papers oklahoma']} reviewCount={156} services={['Standard Service $60', 'Single Attempt $30', 'Same-Day Rush $150', '2-Hour Emergency $265']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'How Much Does a Process Server Cost?', url: '/how-much-does-process-server-cost' }]} />
+            <UnifiedSchema pageType="article" title="How Much Does a Process Server Cost? (2026 Oklahoma Guide)" description="Process server costs: $35-$265. Full comparison with sheriff and DIY options." url="https://justlegalsolutions.org/how-much-does-process-server-cost" image="https://justlegalsolutions.org/image-pack/images/image-057-how-much-does-process-server-cost-og.webp" keywords={['process server cost', 'process serving fees', 'cost to serve papers oklahoma']} reviewCount={156} services={['Standard Service $60', 'Single Attempt $35', 'Same-Day Rush $150', '2-Hour Emergency $265']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'How Much Does a Process Server Cost?', url: '/how-much-does-process-server-cost' }]} />
         </>
     );
 }

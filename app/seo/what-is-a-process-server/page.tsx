@@ -86,7 +86,7 @@ const faqSchema = {
       "name": "What is a civil process server?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A civil process server is a licensed professional who delivers legal documents—such as lawsuits, subpoenas, divorce papers, and eviction notices—in civil (non-criminal) cases. In Oklahoma, civil process servers must be at least 18 years old, appointed by the county court clerk, and carry a $5,000 surety bond. They ensure defendants receive proper legal notice as required by the U.S. Constitution and Oklahoma Title 12. Just Legal Solutions provides civil process service starting at $30 per serve across all 77 Oklahoma counties."
+        "text": "A civil process server is a licensed professional who delivers legal documents—such as lawsuits, subpoenas, divorce papers, and eviction notices—in civil (non-criminal) cases. In Oklahoma, civil process servers must be at least 18 years old, appointed by the county court clerk, and carry a $5,000 surety bond. They ensure defendants receive proper legal notice as required by the U.S. Constitution and Oklahoma Title 12. Just Legal Solutions provides civil process service starting at $35 per serve across all 77 Oklahoma counties."
       }
     },
     {
@@ -102,7 +102,7 @@ const faqSchema = {
       "name": "How much does a process server cost in Oklahoma?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Process serving costs in Oklahoma start at $30 per serve for a single attempt, with prices ranging up to $265 depending on urgency and location. Standard service in Tulsa is $60, same-day service costs $100 to $150, and 2-hour emergency service is $265. Just Legal Solutions offers the most competitive process serving rates in Oklahoma."
+        "text": "Process serving costs in Oklahoma start at $35 per serve for a single attempt, with prices ranging up to $265 depending on urgency and location. Standard service in Tulsa is $60, same-day service costs $100 to $150, and 2-hour emergency service is $265. Just Legal Solutions offers the most competitive process serving rates in Oklahoma."
       }
     },
     {
@@ -312,7 +312,7 @@ const localBusinessSchema = {
       "closes": "23:59"
     }
   ],
-  "priceRange": "$30-$200",
+  "priceRange": "$35-$200",
   "foundingDate": "2025-03-01",
   "slogan": "Professional Process Serving Throughout Oklahoma - Licensed, Bonded, Available 24/7",
   "hasOfferCatalog": {
@@ -708,7 +708,7 @@ export default function WhatIsAProcessServerPage() {
                   <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-6 rounded-lg border border-blue-300 mb-4 shadow-2xl text-white">
                     <h3 className="text-xl font-bold mb-3 text-white">Need Process Service Today?</h3>
                     <div className="mb-4">
-                      <div className="text-3xl font-bold text-yellow-300">$30</div>
+                      <div className="text-3xl font-bold text-yellow-300">$35</div>
                       <div className="text-sm text-gray-100">Starting Rate • Tulsa Metro</div>
                       <div className="text-xs text-gray-200">Same-day available • All document types</div>
                     </div>
@@ -733,7 +733,7 @@ export default function WhatIsAProcessServerPage() {
               A <strong>civil process server</strong> is a licensed professional who personally delivers legal documents—such as lawsuits, subpoenas, divorce papers, eviction notices, and restraining orders—in civil (non-criminal) court cases. Under the U.S. Constitution&apos;s 5th and 14th Amendments, every person named in a civil action has the right to <em>notice</em> before a court can rule against them. The civil process server fulfills that requirement.
             </p>
             <p className="text-lg text-gray-800 leading-relaxed mb-3">
-              In Oklahoma, civil process servers must be at least 18 years old, appointed by the district court clerk in each county they serve, and bonded for $5,000 under Title 12 § 158.1. Just Legal Solutions provides licensed civil process service <strong>starting at $30 per serve</strong>, with 24/7 emergency availability across all 77 Oklahoma counties. Call <a href="tel:5393676832" className="text-green-700 font-bold hover:underline">(539) 367-6832</a> for same-day service.
+              In Oklahoma, civil process servers must be at least 18 years old, appointed by the district court clerk in each county they serve, and bonded for $5,000 under Title 12 § 158.1. Just Legal Solutions provides licensed civil process service <strong>starting at $35 per serve</strong>, with 24/7 emergency availability across all 77 Oklahoma counties. Call <a href="tel:5393676832" className="text-green-700 font-bold hover:underline">(539) 367-6832</a> for same-day service.
             </p>
           </div>
 

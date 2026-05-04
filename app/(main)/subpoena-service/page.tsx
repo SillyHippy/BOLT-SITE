@@ -5,7 +5,7 @@ import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
     title: 'Subpoena Service Oklahoma | Witness & Document Subpoenas',
-    description: 'Professional subpoena service in Oklahoma. Witness subpoenas, document subpoenas (subpoena duces tecum), and deposition subpoenas served statewide. Licensed process servers, GPS-verified, from $30.',
+    description: 'Professional subpoena service in Oklahoma. Witness subpoenas, document subpoenas (subpoena duces tecum), and deposition subpoenas served statewide. Licensed process servers, GPS-verified, from $35.',
     keywords: ['subpoena service oklahoma', 'serve subpoena tulsa', 'witness subpoena delivery', 'subpoena duces tecum', 'deposition subpoena service'],
     authors: [{ name: 'Just Legal Solutions' }],
     creator: 'Just Legal Solutions',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     alternates: { canonical: 'https://justlegalsolutions.org/subpoena-service' },
     other: {
         'ai-content-type': 'service-page',
-        'ai-summary': 'Subpoena service across Oklahoma. Witness subpoenas, document subpoenas (duces tecum), and deposition subpoenas. Must be served with reasonable time before proceedings. From $30. Licensed under 12 O.S. § 158.1.',
+        'ai-summary': 'Subpoena service across Oklahoma. Witness subpoenas, document subpoenas (duces tecum), and deposition subpoenas. Must be served with reasonable time before proceedings. From $35. Licensed under 12 O.S. § 158.1.',
         'ai-key-facts': 'Subpoena service from $30, witness + document + deposition subpoenas, all 77 OK counties, GPS-verified, (539) 367-6832.',
     },
 };
@@ -124,7 +124,7 @@ export default function SubpoenaServicePage() {
                         <div className="grid md:grid-cols-3 gap-6 mb-6">
                             <div className="bg-white border-2 border-gray-200 p-6 rounded-lg text-center">
                                 <h3 className="text-lg font-bold mb-2">Standard</h3>
-                                <div className="text-4xl font-bold text-green-600 mb-2">$30</div>
+                                <div className="text-4xl font-bold text-green-600 mb-2">$35</div>
                                 <div className="text-sm text-gray-500 mb-4">5&ndash;7 business days</div>
                                 <p className="text-sm text-gray-600">Up to 3 attempts, GPS-verified, notarized affidavit, Tulsa County mileage included.</p>
                             </div>
@@ -154,7 +154,7 @@ export default function SubpoenaServicePage() {
 
                     <section className="mb-12 bg-gradient-to-r from-blue-50 to-green-50 border-2 border-blue-200 p-8 rounded-lg text-center">
                         <h2 className="text-3xl font-bold text-gray-900 mb-4">Need a Subpoena Served?</h2>
-                        <p className="text-lg text-gray-700 mb-6">Licensed Oklahoma process servers ready to deliver subpoenas across all 77 counties. From $30.</p>
+                        <p className="text-lg text-gray-700 mb-6">Licensed Oklahoma process servers ready to deliver subpoenas across all 77 counties. From $35.</p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-4">
                             <a href="tel:5393676832" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors shadow-lg">&#x1F4DE; Call (539) 367-6832</a>
                             <Link href="/contact" className="bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors">&#x1F4DD; Get Quote</Link>
@@ -167,7 +167,7 @@ export default function SubpoenaServicePage() {
                     </div>
                 </div>
             </div>
-            <UnifiedSchema pageType="service" title="Subpoena Service Oklahoma" description="Witness, document, and deposition subpoena service across Oklahoma. GPS-verified, from $30." url="https://justlegalsolutions.org/subpoena-service" image="https://justlegalsolutions.org/image-pack/images/image-020-subpoena-service-hero.webp" keywords={['subpoena service', 'witness subpoena oklahoma', 'subpoena duces tecum']} reviewCount={156} services={['Witness Subpoena Service', 'Document Subpoena Service', 'Deposition Subpoena Service']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'Subpoena Service', url: '/subpoena-service' }]} />
+            <UnifiedSchema pageType="service" title="Subpoena Service Oklahoma" description="Witness, document, and deposition subpoena service across Oklahoma. GPS-verified, from $35." url="https://justlegalsolutions.org/subpoena-service" image="https://justlegalsolutions.org/image-pack/images/image-020-subpoena-service-hero.webp" keywords={['subpoena service', 'witness subpoena oklahoma', 'subpoena duces tecum']} reviewCount={156} services={['Witness Subpoena Service', 'Document Subpoena Service', 'Deposition Subpoena Service']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'Subpoena Service', url: '/subpoena-service' }]} />
         </>
     );
 }

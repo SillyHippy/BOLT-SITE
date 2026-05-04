@@ -16,8 +16,8 @@ import { getStartingPrice, PRICE_RANGE_DISPLAY } from '@/lib/pricing';
 export const metadata: Metadata = {
   title: 'Pricing | Process Server & Notary Services Oklahoma',
   description: getPromoDescription(
-    'Process server & notary pricing in Oklahoma. Service starts at $30 single-attempt, $60 standard; notary starts at $20. Same-day available. No hidden fees. Licensed & bonded.',
-    '25% OFF select ZIPs! Process server & notary pricing in Oklahoma. Starts at $30 single-attempt, $60 standard; notary starts at $20. Same-day available. No hidden fees.'
+    'Process server & notary pricing in Oklahoma. Service starts at $35 single-attempt, $60 standard; notary starts at $20. Same-day available. No hidden fees. Licensed & bonded.',
+    '25% OFF select ZIPs! Process server & notary pricing in Oklahoma. Starts at $35 single-attempt, $60 standard; notary starts at $20. Same-day available. No hidden fees.'
   ),
   keywords: 'process server pricing Oklahoma, notary fees Oklahoma, legal document service costs, process serving rates Tulsa, Oklahoma court service fees, affordable process server, transparent pricing legal services, mobile notary cost, RON notary Oklahoma',
   alternates: {
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Process Server Pricing Oklahoma | Just Legal Solutions',
-    description: 'Transparent process server pricing in Oklahoma. Service starts at $30 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours. No hidden fees.',
+    description: 'Transparent process server pricing in Oklahoma. Service starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours. No hidden fees.',
     url: 'https://justlegalsolutions.org/pricing',
     siteName: 'Just Legal Solutions',
     images: [
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Process Server Pricing Oklahoma | Just Legal Solutions',
-    description: 'Transparent process server pricing in Oklahoma. Starts at $30 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours.',
+    description: 'Transparent process server pricing in Oklahoma. Starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours.',
     images: ['https://justlegalsolutions.org/image-pack/images/image-047-oklahoma-process-server-pricing-og.webp'],
   },
   robots: {
@@ -57,8 +57,8 @@ export const metadata: Metadata = {
     },
   },
   other: {
-    'ai-summary': 'Just Legal Solutions transparent pricing for process serving and notary services in Oklahoma. Starts at: single-attempt $30, standard $60, rush $100, same-day $150, triple-attempt $200, after-hours rush $265. Notary starts at $20 in-office, $25 mobile/RON. Courier starts at $60. All 77 Oklahoma counties served. These are starting prices; final cost depends on distance, attempts, and complexity.',
-    'ai-key-facts': 'Single attempt $30, Standard $60, Rush $100, Same-Day $150, Triple-Attempt $200, Standard Courier $60, Rush Courier $100, In-Office Notary $20, Mobile Notary $25/act, RON $25/act, Skip Tracing $50+, Stakeout $105/hr, eFiling free, Tulsa County primary service area, (539) 367-6832',
+    'ai-summary': 'Just Legal Solutions transparent pricing for process serving and notary services in Oklahoma. Starts at: single-attempt $35, standard $60, rush $100, same-day $150, triple-attempt $200, after-hours rush $265. Notary starts at $20 in-office, $25 mobile/RON. Courier starts at $60. All 77 Oklahoma counties served. These are starting prices; final cost depends on distance, attempts, and complexity.',
+    'ai-key-facts': 'Single attempt $35, Standard $60, Rush $100, Same-Day $150, Triple-Attempt $200, Standard Courier $60, Rush Courier $100, In-Office Notary $20, Mobile Notary $25/act, RON $25/act, Skip Tracing $50+, Stakeout $105/hr, eFiling free, Tulsa County primary service area, (539) 367-6832',
     'datePublished': '2025-03-01',
     'dateModified': new Date().toISOString().split('T')[0],
   }
@@ -102,7 +102,7 @@ const serviceCategories = [
 const pricingFaqItems = [
   {
     question: "What is the cheapest process server option in Oklahoma?",
-    answer: "Our Standard Service starts at just $60 for Tulsa County and nearby areas. For budget-conscious clients, we also offer a Single Serve Attempt option starting as low as $30."
+    answer: "Our Standard Service starts at just $60 for Tulsa County and nearby areas. For budget-conscious clients, we also offer a Single Serve Attempt option starting as low as $35."
   },
   {
     question: "Are there any hidden fees for process serving?",
@@ -129,10 +129,10 @@ export default function PricingPage() {
         pageType="service"
         url="https://justlegalsolutions.org/pricing"
         title="Process Server Pricing Oklahoma - Just Legal Solutions"
-        description="Professional process serving and legal document delivery in Oklahoma with transparent starting prices. Service starts at $30 single-attempt, $60 standard."
+        description="Professional process serving and legal document delivery in Oklahoma with transparent starting prices. Service starts at $35 single-attempt, $60 standard."
         serviceDetails={{
           name: "Process Server Services Oklahoma",
-          description: "Professional process serving and legal document delivery in Oklahoma with transparent starting prices. Service starts at $30 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours.",
+          description: "Professional process serving and legal document delivery in Oklahoma with transparent starting prices. Service starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours.",
           price: "$60-$265",
           areaServed: ["Tulsa", "Broken Arrow", "Bixby", "Jenks", "Owasso", "Sand Springs", "Glenpool", "Sapulpa"],
           serviceType: ["Process Serving", "Legal Document Delivery", "Court Filing", "Skip Tracing"]
@@ -225,7 +225,7 @@ export default function PricingPage() {
           </div>
           <div className="max-w-7xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-blue-900 mb-4">Process Server Pricing</h1>
-            <p className="text-lg text-gray-700 mb-2"><strong>Process server costs in Oklahoma range from $30 for a single attempt to $265 for 2-hour emergency service.</strong> Standard service (up to 3 attempts) starts at $60. All pricing below is transparent — no hidden fees.</p>
+            <p className="text-lg text-gray-700 mb-2"><strong>Process server costs in Oklahoma range from $35 for a single attempt to $265 for 2-hour emergency service.</strong> Standard service (up to 3 attempts) starts at $60. All pricing below is transparent — no hidden fees.</p>
             <p className="text-xl text-gray-600 mb-8">Transparent, competitive rates for Oklahoma legal services</p>
 
             {/* Trust Badges */}
@@ -265,28 +265,6 @@ export default function PricingPage() {
                     <p className="text-sm text-gray-600">Priority scheduling, custom billing, and preferential rates for established clients.</p>
                   </div>
                 </div>
-              </div>
-            </div>
-
-            {/* AI-Ready Quick Answer Blocks */}
-            <div className="mt-8 grid md:grid-cols-3 gap-4 max-w-6xl mx-auto">
-              <div className="bg-white border border-slate-200 rounded-lg p-5 text-left">
-                <h2 className="font-bold text-slate-900 mb-2">What is the cheapest way to serve papers?</h2>
-                <p className="text-sm text-slate-700">
-                  The lowest-cost option is a single service attempt starting at $30. Standard service starts at $60 and is the most common choice for routine legal document delivery in Oklahoma.
-                </p>
-              </div>
-              <div className="bg-white border border-slate-200 rounded-lg p-5 text-left">
-                <h2 className="font-bold text-slate-900 mb-2">How much is same-day process serving?</h2>
-                <p className="text-sm text-slate-700">
-                  Same-day rush service starts at $150, with 2-hour emergency dispatch starting at $265. Final cost can vary by distance, attempts, and service complexity.
-                </p>
-              </div>
-              <div className="bg-white border border-slate-200 rounded-lg p-5 text-left">
-                <h2 className="font-bold text-slate-900 mb-2">Are there hidden fees?</h2>
-                <p className="text-sm text-slate-700">
-                  Pricing is transparent and quoted in advance. Any travel or special-condition surcharges are disclosed before service starts, so clients can approve total cost up front.
-                </p>
               </div>
             </div>
 
@@ -696,6 +674,33 @@ export default function PricingPage() {
 
         {/* Schema removed and consolidated with the one at the top of the page */}
 
+        {/* AI-Ready Quick Answer Blocks */}
+        <section className="py-12 px-4 bg-gray-50 border-b border-gray-200">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-2xl font-bold text-center mb-8 text-blue-900">Quick Pricing Answers</h2>
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="bg-white border border-slate-200 shadow-sm rounded-xl p-6 text-left hover:border-blue-300 transition-colors">
+                <h3 className="font-bold text-slate-900 mb-3 text-lg">What is the cheapest way to serve papers?</h3>
+                <p className="text-slate-700 leading-relaxed">
+                  The lowest-cost option is a single service attempt starting at $35. Standard service starts at $60 and is the most common choice for routine legal document delivery in Oklahoma.
+                </p>
+              </div>
+              <div className="bg-white border border-slate-200 shadow-sm rounded-xl p-6 text-left hover:border-blue-300 transition-colors">
+                <h3 className="font-bold text-slate-900 mb-3 text-lg">How much is same-day process serving?</h3>
+                <p className="text-slate-700 leading-relaxed">
+                  Same-day rush service starts at $150, with 2-hour emergency dispatch starting at $265. Final cost can vary by distance, attempts, and service complexity.
+                </p>
+              </div>
+              <div className="bg-white border border-slate-200 shadow-sm rounded-xl p-6 text-left hover:border-blue-300 transition-colors">
+                <h3 className="font-bold text-slate-900 mb-3 text-lg">Are there hidden fees?</h3>
+                <p className="text-slate-700 leading-relaxed">
+                  Pricing is transparent and quoted in advance. Any travel or special-condition surcharges are disclosed before service starts, so clients can approve total cost up front.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Pricing FAQ Section */}
         <section className="py-16 px-4 bg-gray-50">
           <div className="max-w-4xl mx-auto">
@@ -705,7 +710,7 @@ export default function PricingPage() {
             <div className="space-y-6">
               <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200 hover:border-blue-300 transition-colors">
                 <h3 className="text-lg font-bold mb-3 text-blue-900">What is the cheapest process server option in Oklahoma?</h3>
-                <p className="text-gray-600 leading-relaxed">Our Standard Service starts at just $60 for Tulsa County and nearby areas. For budget-conscious clients, we also offer a Single Serve Attempt option starting as low as $30. Contact us to discuss your specific needs and find the most cost-effective solution.</p>
+                <p className="text-gray-600 leading-relaxed">Our Standard Service starts at just $60 for Tulsa County and nearby areas. For budget-conscious clients, we also offer a Single Serve Attempt option starting as low as $35. Contact us to discuss your specific needs and find the most cost-effective solution.</p>
               </div>
               <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200 hover:border-blue-300 transition-colors">
                 <h3 className="text-lg font-bold mb-3 text-blue-900">Are there any hidden fees?</h3>
@@ -789,7 +794,7 @@ export default function PricingPage() {
           "@context": "https://schema.org",
           "@type": "VideoObject",
           "name": "How Much Does a Process Server Cost in Oklahoma? — Full 2026 Pricing Breakdown",
-          "description": "Complete 2026 breakdown of Oklahoma process server pricing. Service starts at $30 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours. Learn what affects your final cost.",
+          "description": "Complete 2026 breakdown of Oklahoma process server pricing. Service starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours. Learn what affects your final cost.",
           "thumbnailUrl": "https://img.youtube.com/vi/zTuTJiO71Gk/maxresdefault.jpg",
           "uploadDate": "2026-04-01T08:00:00-05:00",
           "duration": "PT5M00S",

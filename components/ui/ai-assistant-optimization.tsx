@@ -27,7 +27,7 @@ export default function AIAssistantOptimization({
     "slogan": "Oklahoma's Most Trusted Process Server - Available 24/7",
     "url": "https://justlegalsolutions.org",
     "image": "https://justlegalsolutions.org/jls-logo.webp",
-    "priceRange": "$30-$200",
+    "priceRange": "$35-$200",
     "telephone": "+15393676832",
     "email": "info@JustLegalSolutions.org",
     "address": {

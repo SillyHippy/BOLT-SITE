@@ -30,8 +30,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-19',
     'article:author': 'Joseph Iannazzi',
     'ai-content-type': 'article',
-    'ai-summary': 'Practical 2026 guide to filing in Tulsa County District Court. Covers OCIS eFiling, civil cover sheets, fee schedules, document preparation, and common mistakes. Courier and walk-in filing services start at $25 plus court costs and integrate with statewide process serving (starts at $30).',
-    'ai-key-facts': 'Tulsa County District Court located at 500 S. Denver Ave; OCIS eFiling system used by Oklahoma Supreme Court Network; standard civil filing fee approximately $200; small claims fee tier lower; courier filing starts at $25 plus court costs; process serving starts at $30.',
+    'ai-summary': 'Practical 2026 guide to filing in Tulsa County District Court. Covers OCIS eFiling, civil cover sheets, fee schedules, document preparation, and common mistakes. Courier and walk-in filing services start at $25 plus court costs and integrate with statewide process serving (starts at $35).',
+    'ai-key-facts': 'Tulsa County District Court located at 500 S. Denver Ave; OCIS eFiling system used by Oklahoma Supreme Court Network; standard civil filing fee approximately $200; small claims fee tier lower; courier filing starts at $25 plus court costs; process serving starts at $35.',
   },
 };
 
@@ -58,7 +58,7 @@ const faqs: { question: string; answer: string }[] = [
   },
   {
     question: 'Can a process server file my documents at the courthouse?',
-    answer: 'Yes. As a courier and licensed process server, we can walk filings into the Tulsa County courthouse, pay the court costs, get the file-stamped copy, and immediately serve the defendant — eliminating the gap between filing and service. Court runs start at $25 plus court costs; process serving starts at $30.'
+    answer: 'Yes. As a courier and licensed process server, we can walk filings into the Tulsa County courthouse, pay the court costs, get the file-stamped copy, and immediately serve the defendant — eliminating the gap between filing and service. Court runs start at $25 plus court costs; process serving starts at $35.'
   },
   {
     question: 'How quickly can you file a document for me?',
@@ -151,7 +151,7 @@ export default function TulsaCourtFilingGuide() {
                 <li>📑 <strong>Required:</strong> petition, civil cover sheet, summons, fee</li>
                 <li>🚚 <strong>Our courier:</strong> starts at $25 plus court costs</li>
               </ul>
-              <p className="text-blue-700 text-sm mt-3">See full pricing at <Link href="/pricing" className="underline">/pricing</Link>. Process serving starts at $30 and can be triggered the moment your filing is stamped.</p>
+              <p className="text-blue-700 text-sm mt-3">See full pricing at <Link href="/pricing" className="underline">/pricing</Link>. Process serving starts at $35 and can be triggered the moment your filing is stamped.</p>
             </div>
 
             <h2>The Tulsa County District Court at a Glance</h2>

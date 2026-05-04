@@ -54,7 +54,7 @@ Each attempt is GPS-verified so the court file reflects exactly where and when o
 
 ## Pricing for Pawnee County Process Serving
 
-Pawnee County pricing through Just Legal Solutions is transparent and easy to plan around. Service starts at $30 for a single attempt, ideal when the address is confirmed and the recipient is expected. Standard service starts at $60 (up to 3 attempts), which is the typical choice for routine civil, family, and small claims work. Rush service starts at $100 when the file needs to be moved to the front of the route. Same-day rush starts at $150 for tight hearing windows and emergency filings. After-hours rush starts at $265 for evening, weekend, or holiday attempts when the recipient is only catchable outside normal hours. These are starting prices; final cost depends on distance from Tulsa, attempts, and complexity. See our [full pricing page](/pricing) for the complete breakdown.
+Pawnee County pricing through Just Legal Solutions is transparent and easy to plan around. Service starts at $35 for a single attempt, ideal when the address is confirmed and the recipient is expected. Standard service starts at $60 (up to 3 attempts), which is the typical choice for routine civil, family, and small claims work. Rush service starts at $100 when the file needs to be moved to the front of the route. Same-day rush starts at $150 for tight hearing windows and emergency filings. After-hours rush starts at $265 for evening, weekend, or holiday attempts when the recipient is only catchable outside normal hours. These are starting prices; final cost depends on distance from Tulsa, attempts, and complexity. See our [full pricing page](/pricing) for the complete breakdown.
 
 ---
 
@@ -74,7 +74,7 @@ Pawnee County pricing through Just Legal Solutions is transparent and easy to pl
 Standard service in Pawnee, Cleveland, and the smaller communities around them is typically completed within two to four business days. When a hearing or deadline is right around the corner, our rush and same-day rush options can usually compress that to 24 hours or less, depending on the address and the recipient's pattern.
 
 ### What does it cost to serve papers in Pawnee County?
-Pricing starts at $30 for a single attempt and $60 for standard service with up to three attempts. Rush service begins at $100, same-day rush at $150, and after-hours rush at $265. Final cost depends on the distance from Tulsa, the number of attempts needed, and any added complexity like skip tracing or gated rural access.
+Pricing starts at $35 for a single attempt and $60 for standard service with up to three attempts. Rush service begins at $100, same-day rush at $150, and after-hours rush at $265. Final cost depends on the distance from Tulsa, the number of attempts needed, and any added complexity like skip tracing or gated rural access.
 
 ### Do you serve rural addresses in Pawnee County?
 Yes. We regularly serve documents at rural homes, working ranches, oil and gas locations, and recreational properties throughout Pawnee County. Our servers GPS-verify each attempt so the file reflects accurate, defensible documentation even on hard-to-find rural routes.

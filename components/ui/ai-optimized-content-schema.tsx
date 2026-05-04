@@ -79,7 +79,7 @@ export default function AIOptimizedContentSchema({
         "addressCountry": "US"
       },
       "telephone": "+15393676832",
-      "priceRange": "$30-$200",
+      "priceRange": "$35-$200",
       "geo": {
         "@type": "GeoCoordinates",
         "latitude": "36.154",

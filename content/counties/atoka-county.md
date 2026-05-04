@@ -48,7 +48,7 @@ Atoka County covers around 990 square miles, much of it rural pasture and timber
 
 ## Pricing for Atoka County Process Serving
 
-Service starts at $30 for a single attempt, which is a clean fit when the address is verified and you only need one focused try. Standard service starts at $60 (up to 3 attempts) and is the default for most civil, family, eviction, and small claims work in Atoka County. Rush service starts at $100 when you need attempts started immediately on a tighter calendar. Same-day rush starts at $150 for urgent matters that have to be served before the courthouse closes, and after-hours rush starts at $265 for evening, weekend, and emergency-order service. These are starting prices; final cost depends on distance from Tulsa, attempts, and complexity. See our [full pricing page](/pricing) for the complete breakdown.
+Service starts at $35 for a single attempt, which is a clean fit when the address is verified and you only need one focused try. Standard service starts at $60 (up to 3 attempts) and is the default for most civil, family, eviction, and small claims work in Atoka County. Rush service starts at $100 when you need attempts started immediately on a tighter calendar. Same-day rush starts at $150 for urgent matters that have to be served before the courthouse closes, and after-hours rush starts at $265 for evening, weekend, and emergency-order service. These are starting prices; final cost depends on distance from Tulsa, attempts, and complexity. See our [full pricing page](/pricing) for the complete breakdown.
 
 ---
 

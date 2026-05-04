@@ -342,7 +342,7 @@ export default function ServingLegalPapersOklahomaGuide() {
               <ul className="list-disc ml-6 space-y-2">
                 <li>Civil Case Filing Fee: $84.00</li>
                 <li>Issuance of Summons: $5.00 (for each name)</li>
-                <li>Service by Lighthorse: $30.00</li>
+                <li>Service by Lighthorse: $35.00</li>
                 <li>Service by Certified Mail: $10.00</li>
                 <li>Process Server License: $10.00</li>
               </ul>
@@ -414,7 +414,7 @@ export default function ServingLegalPapersOklahomaGuide() {
                   <tr>
                     <td className="border border-gray-300 px-4 py-2">Service by Tribal Police</td>
                     <td className="border border-gray-300 px-4 py-2">Contact Court Clerk</td>
-                    <td className="border border-gray-300 px-4 py-2">$30.00 (Lighthorse)</td>
+                    <td className="border border-gray-300 px-4 py-2">$35.00 (Lighthorse)</td>
                     <td className="border border-gray-300 px-4 py-2">Contact Court Clerk</td>
                   </tr>
                   <tr className="bg-gray-50">

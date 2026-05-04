@@ -22,7 +22,7 @@ export default function ClickOptimization({
     "url": url,
     "image": image,
     "telephone": "+15393676832",
-    "priceRange": "$30-$265",
+    "priceRange": "$35-$265",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "564 E 138th PL",

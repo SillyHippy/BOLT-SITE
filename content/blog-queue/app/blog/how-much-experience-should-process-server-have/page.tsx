@@ -506,7 +506,7 @@ export default function BlogPost() {
                 href="/pricing"
                 className="text-blue-600 hover:underline"
               >
-                $30 single-attempt service
+                $35 single-attempt service
               </Link>{" "}
               for straightforward assignments to{" "}
               <Link

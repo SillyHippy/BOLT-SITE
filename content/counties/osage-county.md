@@ -31,7 +31,7 @@ To understand process serving in Osage County requires understanding the **Reign
 
 ### The Wealth That Spawned Conspiracy
 
-In the early 1920s, the Osage Nation became the **wealthiest people per capita in the world** after massive oil deposits were discovered beneath their reservation land. The tribe had astutely negotiated mineral rights retention when purchasing their reservation in 1872—a foresight that generated over $30 million annually by 1923 (equivalent to over $400 million today).
+In the early 1920s, the Osage Nation became the **wealthiest people per capita in the world** after massive oil deposits were discovered beneath their reservation land. The tribe had astutely negotiated mineral rights retention when purchasing their reservation in 1872—a foresight that generated over $35 million annually by 1923 (equivalent to over $400 million today).
 
 This wealth attracted predators. William K. Hale, known as the "King of the Osage Hills," orchestrated a conspiracy involving marriage fraud, insurance schemes, and outright murder to steal Osage oil headrights. The investigation, led by former Texas Ranger Tom White and a team of undercover agents including Native American operatives, became one of the **first major cases of the newly formed FBI** under J. Edgar Hoover.
 

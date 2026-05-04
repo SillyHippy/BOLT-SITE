@@ -65,7 +65,7 @@ const localBusinessSchema = {
     "geoRadius": "300 mi",
     "description": "All 77 Oklahoma counties"
   },
-  "priceRange": "$30-$200",
+  "priceRange": "$35-$200",
   "openingHoursSpecification": [
     {
       "@type": "OpeningHoursSpecification",
@@ -293,7 +293,7 @@ export default async function ServiceAreasHub() {
         serviceName="Oklahoma Process Server Service Areas"
         serviceDescription="Professional process server serving statewide throughout all of Oklahoma including all 77 counties with same-day service available."
         serviceArea="Oklahoma, Statewide"
-        priceRange="$30-$200"
+        priceRange="$35-$200"
         telephone="+1-539-367-6832"
         address={{
           streetAddress: "Statewide Service",

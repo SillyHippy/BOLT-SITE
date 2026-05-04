@@ -1,11 +1,11 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Process Server Rates Tulsa County | Pricing Starting $30',
-  description: 'Transparent process serving rates for Tulsa County, Broken Arrow, Sapulpa. Starting $30 with standard service $60, rush $100, same-day $150. Statewide Oklahoma coverage with competitive pricing and professional service.',
+  title: 'Process Server Rates Tulsa County | Pricing Starting $35',
+  description: 'Transparent process serving rates for Tulsa County, Broken Arrow, Sapulpa. Starting $35 with standard service $60, rush $100, same-day $150. Statewide Oklahoma coverage with competitive pricing and professional service.',
   keywords: ['Tulsa process server rates', 'process server pricing Tulsa County', 'Broken Arrow process server cost', 'Sapulpa document delivery rates', 'Wagoner County process serving', 'Creek County legal services', 'Oklahoma process server pricing', 'legal document delivery rates'],
   openGraph: {
-    title: 'Process Server Rates Tulsa County | Starting $30 | Just Legal Solutions',
+    title: 'Process Server Rates Tulsa County | Starting $35 | Just Legal Solutions',
     description: 'Professional process serving rates for Tulsa County, Broken Arrow, Sapulpa. Starting $30, Standard $60, Rush $100, Same-day $150. Statewide Oklahoma coverage.',
     url: 'https://justlegalsolutions.org/pricing',
     images: [
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Process Server Rates Tulsa County | Starting $30',
+    title: 'Process Server Rates Tulsa County | Starting $35',
     description: 'Professional process serving rates in Tulsa County, Broken Arrow, Sapulpa. Starting $30, Standard $60, Rush $100, Same-day $150.',
     images: ['https://justlegalsolutions.org/images/jls-logo.webp']
   },

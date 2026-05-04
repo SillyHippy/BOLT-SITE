@@ -262,7 +262,7 @@ export default function AISkipTracingGuideOklahoma() {
             <h2 className="text-3xl font-semibold mb-4 border-b pb-2">Cost-Benefit Analysis & ROI Metrics</h2>
             <h3 className="text-2xl font-semibold mb-3">💰 Implementation Cost Breakdown</h3>
             <ul className="list-disc ml-6 space-y-2 mb-4">
-              <li><strong>Initial Setup:</strong> $25k-$50k for licensing, $15k-$30k for hardware, plus costs for training, integration, and legal review.</li>
+              <li><strong>Initial Setup:</strong> $25k-$50k for licensing, $15k-$35k for hardware, plus costs for training, integration, and legal review.</li>
               <li><strong>Ongoing Costs:</strong> $8-$20 per search, plus annual platform maintenance, training, and insurance.</li>
             </ul>
             <h3 className="text-2xl font-semibold mb-3">📈 Return on Investment & Productivity</h3>

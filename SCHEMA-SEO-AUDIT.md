@@ -133,7 +133,7 @@ Add a visually distinct summary box at the top of long-form articles with the ke
 
 ```
 <div class="quick-answer">
-  <strong>Quick Answer:</strong> A process server in Oklahoma costs $30-$265 depending on speed...
+  <strong>Quick Answer:</strong> A process server in Oklahoma costs $35-$265 depending on speed...
 </div>
 ```
 

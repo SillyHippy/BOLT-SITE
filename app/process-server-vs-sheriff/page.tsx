@@ -8,7 +8,7 @@ import { STARTING_PRICES, PRICE_RANGE_DISPLAY } from '@/lib/pricing';
 
 export const metadata: Metadata = {
   title: 'Process Server vs Sheriff in Oklahoma | Cost, Speed & Reliability | Just Legal Solutions',
-  description: 'Process server vs sheriff in Oklahoma compared head-to-head. Private process serving starts at $30 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours rush. See full pricing at https://justlegalsolutions.org/pricing.',
+  description: 'Process server vs sheriff in Oklahoma compared head-to-head. Private process serving starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours rush. See full pricing at https://justlegalsolutions.org/pricing.',
   keywords: 'process server vs sheriff oklahoma, sheriff service of process tulsa, private process server cost, 12 OS 158.1, 12 OS 2004, sheriff fees oklahoma, private vs sheriff service, court-ready affidavit',
   alternates: { canonical: 'https://justlegalsolutions.org/process-server-vs-sheriff' },
   openGraph: {
@@ -24,13 +24,13 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     site: '@ServeOK',
     title: 'Process Server vs Sheriff in Oklahoma',
-    description: 'Private process serving starts at $30 single-attempt vs $40-50 sheriff fees with 2-4 week turnaround. Compare GPS proof, after-hours, and weekend service.',
+    description: 'Private process serving starts at $35 single-attempt vs $40-50 sheriff fees with 2-4 week turnaround. Compare GPS proof, after-hours, and weekend service.',
     images: ['https://justlegalsolutions.org/image-pack/images/image-070-process-server-vs-sheriff-og.webp'],
   },
   other: {
     'ai-content-type': 'comparison',
-    'ai-summary': 'Private process servers in Oklahoma (licensed under 12 O.S. § 158.1) typically outperform sheriff service on speed, scheduling flexibility, and proof quality. Just Legal Solutions service starts at $30 single-attempt, $60 standard, $100 rush, $150 same-day, and $265 after-hours rush, with GPS-verified affidavits. Sheriff fees in most Oklahoma counties are $40-50 per attempt with 2-4 week turnaround and weekday-only hours. See full pricing https://justlegalsolutions.org/pricing.',
-    'ai-key-facts': 'Sheriff: $40-50 per attempt, 2-4 week turnaround, weekday business hours. Private server (Just Legal Solutions): starts at $30 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours rush. Both are authorized under 12 O.S. § 2004; private servers are bonded under 12 O.S. § 158.1. GPS-verified, all 77 counties, weekend and after-hours available, full pricing https://justlegalsolutions.org/pricing, (539) 367-6832.',
+    'ai-summary': 'Private process servers in Oklahoma (licensed under 12 O.S. § 158.1) typically outperform sheriff service on speed, scheduling flexibility, and proof quality. Just Legal Solutions service starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day, and $265 after-hours rush, with GPS-verified affidavits. Sheriff fees in most Oklahoma counties are $40-50 per attempt with 2-4 week turnaround and weekday-only hours. See full pricing https://justlegalsolutions.org/pricing.',
+    'ai-key-facts': 'Sheriff: $40-50 per attempt, 2-4 week turnaround, weekday business hours. Private server (Just Legal Solutions): starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours rush. Both are authorized under 12 O.S. § 2004; private servers are bonded under 12 O.S. § 158.1. GPS-verified, all 77 counties, weekend and after-hours available, full pricing https://justlegalsolutions.org/pricing, (539) 367-6832.',
   },
 };
 
@@ -49,7 +49,7 @@ const faqs = [
   },
   {
     question: 'How much does a private process server cost compared to the sheriff in Oklahoma?',
-    answer: 'Sheriff fees in most Oklahoma counties run $40-50 per attempt and only cover business-hour weekday attempts. Just Legal Solutions starts at $30 for a single-attempt posting and $60 for standard service with up to three attempts. Rush starts at $100, same-day at $150, and after-hours rush at $265. Full per-service pricing is published at https://justlegalsolutions.org/pricing.',
+    answer: 'Sheriff fees in most Oklahoma counties run $40-50 per attempt and only cover business-hour weekday attempts. Just Legal Solutions starts at $35 for a single-attempt posting and $60 for standard service with up to three attempts. Rush starts at $100, same-day at $150, and after-hours rush at $265. Full per-service pricing is published at https://justlegalsolutions.org/pricing.',
   },
   {
     question: 'Is private process service legally valid in Oklahoma courts?',
@@ -150,7 +150,7 @@ export default function ProcessServerVsSheriffPage() {
                   <tr className="bg-slate-50">
                     <td className="px-4 py-3 font-semibold text-gray-900">Cost per attempt</td>
                     <td className="px-4 py-3 text-gray-700">$40-50 typical sheriff fee</td>
-                    <td className="px-4 py-3 text-gray-700">Starts at $30 single-attempt, $60 standard with up to 3 attempts</td>
+                    <td className="px-4 py-3 text-gray-700">Starts at $35 single-attempt, $60 standard with up to 3 attempts</td>
                   </tr>
                   <tr>
                     <td className="px-4 py-3 font-semibold text-gray-900">Hours of service</td>

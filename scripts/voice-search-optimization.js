@@ -21,7 +21,7 @@ const voiceSearchSchema = {
       "name": "Who provides professional process serving in Tulsa?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Just Legal Solutions provides professional process serving in Tulsa County, offering legal document delivery starting at $30. Licensed, bonded, and insured with same-day service available."
+        "text": "Just Legal Solutions provides professional process serving in Tulsa County, offering legal document delivery starting at $35. Licensed, bonded, and insured with same-day service available."
       }
     },
     {
@@ -45,7 +45,7 @@ const voiceSearchSchema = {
       "name": "How much does professional process serving cost in Tulsa?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Professional process serving in Tulsa starts at $30 with Just Legal Solutions. No hidden fees, transparent pricing with GPS tracking and detailed affidavits included."
+        "text": "Professional process serving in Tulsa starts at $35 with Just Legal Solutions. No hidden fees, transparent pricing with GPS tracking and detailed affidavits included."
       }
     },
     {
@@ -69,7 +69,7 @@ const voiceSearchSchema = {
       "name": "How do I hire a professional process server in Tulsa?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Contact Just Legal Solutions at (539) 367-6832 for professional process serving in Tulsa. Licensed service with fast delivery times at competitive rates starting at $30."
+        "text": "Contact Just Legal Solutions at (539) 367-6832 for professional process serving in Tulsa. Licensed service with fast delivery times at competitive rates starting at $35."
       }
     },
     {
@@ -93,7 +93,7 @@ const voiceSearchSchema = {
       "name": "Who provides affordable divorce paper service?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Just Legal Solutions offers professional divorce paper service in Tulsa County with sensitive, confidential handling at competitive rates starting at $30."
+        "text": "Just Legal Solutions offers professional divorce paper service in Tulsa County with sensitive, confidential handling at competitive rates starting at $35."
       }
     }
   ]

@@ -5,7 +5,7 @@ import UnifiedSchema from '@/components/UnifiedSchema';
 
 export const metadata: Metadata = {
     title: 'Eviction Notice Service Oklahoma | 5-Day, 15-Day & 30-Day Notices',
-    description: 'Professional eviction notice delivery in Oklahoma. 5-day, 15-day, and 30-day notice to quit served by licensed process servers. GPS-verified proof. Starting at $30. Same-day available.',
+    description: 'Professional eviction notice delivery in Oklahoma. 5-day, 15-day, and 30-day notice to quit served by licensed process servers. GPS-verified proof. Starting at $35. Same-day available.',
     keywords: ['eviction notice service oklahoma', 'serve eviction notice tulsa', '5 day notice to quit oklahoma', 'eviction process server', 'landlord eviction notice delivery'],
     authors: [{ name: 'Just Legal Solutions' }],
     creator: 'Just Legal Solutions',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     alternates: { canonical: 'https://justlegalsolutions.org/eviction-notice-service' },
     other: {
         'ai-content-type': 'service-page',
-        'ai-summary': 'Eviction notice delivery service across Oklahoma. Covers 5-day notice for nonpayment (41 O.S. § 131), 15-day notice for lease violations, and 30-day notice for month-to-month termination (41 O.S. § 111). GPS-verified, from $30.',
+        'ai-summary': 'Eviction notice delivery service across Oklahoma. Covers 5-day notice for nonpayment (41 O.S. § 131), 15-day notice for lease violations, and 30-day notice for month-to-month termination (41 O.S. § 111). GPS-verified, from $35.',
         'ai-key-facts': 'Eviction notice service from $30, 5/15/30-day notices, 41 O.S. § 131-132, GPS-verified, same-day available, (539) 367-6832.',
     },
 };
@@ -106,7 +106,7 @@ export default function EvictionNoticeServicePage() {
                     <div className="bg-orange-50 border-l-4 border-orange-600 p-6 rounded-r-lg mb-10">
                         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Eviction Notice Service in Oklahoma</h1>
                         <p className="text-lg text-gray-800 leading-relaxed">
-                            <strong>Need an eviction notice delivered?</strong> Just Legal Solutions serves 5-day, 15-day, and 30-day eviction notices across all 77 Oklahoma counties. Proper notice is the first step in the legal eviction process under Oklahoma Title 41. Every delivery is <strong>GPS-verified</strong> with a court-ready affidavit. Starting at <strong>$30</strong> with same-day rush available. Call <a href="tel:5393676832" className="text-orange-700 font-bold hover:underline">(539) 367-6832</a>.
+                            <strong>Need an eviction notice delivered?</strong> Just Legal Solutions serves 5-day, 15-day, and 30-day eviction notices across all 77 Oklahoma counties. Proper notice is the first step in the legal eviction process under Oklahoma Title 41. Every delivery is <strong>GPS-verified</strong> with a court-ready affidavit. Starting at <strong>$35</strong> with same-day rush available. Call <a href="tel:5393676832" className="text-orange-700 font-bold hover:underline">(539) 367-6832</a>.
                         </p>
                     </div>
 
@@ -223,7 +223,7 @@ export default function EvictionNoticeServicePage() {
                     </div>
                 </div>
             </div>
-            <UnifiedSchema pageType="service" title="Eviction Notice Service Oklahoma" description="5-day, 15-day, and 30-day eviction notices served by licensed process servers. GPS-verified, from $30." url="https://justlegalsolutions.org/eviction-notice-service" image="https://justlegalsolutions.org/image-pack/images/image-040-eviction-notice-service-og.webp" keywords={['eviction notice service', 'serve eviction notice oklahoma', '5 day notice']} reviewCount={156} services={['5-Day Notice Service', '15-Day Notice Service', '30-Day Notice Service', '24-Hour Emergency Notice']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'Eviction Notice Service', url: '/eviction-notice-service' }]} faqItems={faqs} howToSteps={howToSteps} />
+            <UnifiedSchema pageType="service" title="Eviction Notice Service Oklahoma" description="5-day, 15-day, and 30-day eviction notices served by licensed process servers. GPS-verified, from $35." url="https://justlegalsolutions.org/eviction-notice-service" image="https://justlegalsolutions.org/image-pack/images/image-040-eviction-notice-service-og.webp" keywords={['eviction notice service', 'serve eviction notice oklahoma', '5 day notice']} reviewCount={156} services={['5-Day Notice Service', '15-Day Notice Service', '30-Day Notice Service', '24-Hour Emergency Notice']} breadcrumbs={[{ name: 'Home', url: '/' }, { name: 'Process Serving', url: '/process-serving' }, { name: 'Eviction Notice Service', url: '/eviction-notice-service' }]} faqItems={faqs} howToSteps={howToSteps} />
         </>
     );
 }

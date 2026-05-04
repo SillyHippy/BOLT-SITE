@@ -52,7 +52,7 @@ Most of Kingfisher County outside the towns is open wheat country, oilfield, and
 
 ## Pricing for Kingfisher County Process Serving
 
-Kingfisher County is a manageable drive from our Tulsa base, but rural attempts still require thoughtful routing. Service starts at $30 for a single attempt when you have a confirmed address. Standard service starts at $60 (up to 3 attempts) and is the most common option for civil, family, and small claims work. Rush service starts at $100 when timeline pressure builds. Same-day rush starts at $150 for hearings or filings already on the docket. After-hours rush starts at $265 for evening, weekend, or holiday service. These are starting prices; final cost depends on distance from Tulsa, attempts, and complexity. See our [full pricing page](/pricing) for the complete breakdown.
+Kingfisher County is a manageable drive from our Tulsa base, but rural attempts still require thoughtful routing. Service starts at $35 for a single attempt when you have a confirmed address. Standard service starts at $60 (up to 3 attempts) and is the most common option for civil, family, and small claims work. Rush service starts at $100 when timeline pressure builds. Same-day rush starts at $150 for hearings or filings already on the docket. After-hours rush starts at $265 for evening, weekend, or holiday service. These are starting prices; final cost depends on distance from Tulsa, attempts, and complexity. See our [full pricing page](/pricing) for the complete breakdown.
 
 ---
 
@@ -75,7 +75,7 @@ Standard turnaround in and around Kingfisher is typically two to four business d
 
 ### What does it cost to serve papers in Kingfisher County?
 
-Pricing starts at $30 for a single attempt and $60 for standard service up to three attempts, scaling up to $100, $150, and $265 for rush, same-day, and after-hours work. Distance from Tulsa is included in the final quote. Our [pricing page](/pricing) breaks down each tier.
+Pricing starts at $35 for a single attempt and $60 for standard service up to three attempts, scaling up to $100, $150, and $265 for rush, same-day, and after-hours work. Distance from Tulsa is included in the final quote. Our [pricing page](/pricing) breaks down each tier.
 
 ### Do you serve rural addresses in Kingfisher County?
 

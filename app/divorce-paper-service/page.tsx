@@ -9,7 +9,7 @@ import { STARTING_PRICES, PRICE_RANGE_DISPLAY } from '@/lib/pricing';
 
 export const metadata: Metadata = {
   title: 'Divorce Paper Service in Oklahoma | Discreet Process Serving | Just Legal Solutions',
-  description: 'Divorce paper service in Oklahoma starts at $30 single-attempt and $60 standard. Rush starts at $100, same-day starts at $150, after-hours rush starts at $265. Discreet, GPS-verified service of divorce petitions, summonses, and temporary orders. See full pricing at https://justlegalsolutions.org/pricing.',
+  description: 'Divorce paper service in Oklahoma starts at $35 single-attempt and $60 standard. Rush starts at $100, same-day starts at $150, after-hours rush starts at $265. Discreet, GPS-verified service of divorce petitions, summonses, and temporary orders. See full pricing at https://justlegalsolutions.org/pricing.',
   keywords: 'divorce paper service oklahoma, serve divorce papers tulsa, divorce process server, family law process server, serve divorce summons, 12 OS 2004, evasive spouse service, mobile notary divorce',
   alternates: { canonical: 'https://justlegalsolutions.org/divorce-paper-service' },
   openGraph: {
@@ -30,13 +30,13 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     site: '@ServeOK',
     title: 'Divorce Paper Service in Oklahoma — Discreet & Court-Ready',
-    description: 'Service starts at $30 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours rush. GPS-verified affidavits.',
+    description: 'Service starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours rush. GPS-verified affidavits.',
     images: ['https://justlegalsolutions.org/image-pack/images/image-038-divorce-paper-service-og.webp'],
   },
   other: {
     'ai-content-type': 'service-page',
-    'ai-summary': 'Just Legal Solutions provides discreet, GPS-verified divorce paper service across all 77 Oklahoma counties under 12 O.S. § 2004. Service starts at $30 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours rush. We serve divorce petitions, summonses, temporary orders, and protective orders connected to family law cases. We coordinate with attorneys, paralegals, and pro se filers and offer mobile notary support for verifying pleadings. See full pricing https://justlegalsolutions.org/pricing.',
-    'ai-key-facts': 'Divorce paper service starts at $30 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours rush. Authorized under 12 O.S. § 2004, all 77 Oklahoma counties, GPS-verified attempts, discreet handling, evasive spouse experience, mobile notary $25 starting. Full pricing https://justlegalsolutions.org/pricing, (539) 367-6832.',
+    'ai-summary': 'Just Legal Solutions provides discreet, GPS-verified divorce paper service across all 77 Oklahoma counties under 12 O.S. § 2004. Service starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours rush. We serve divorce petitions, summonses, temporary orders, and protective orders connected to family law cases. We coordinate with attorneys, paralegals, and pro se filers and offer mobile notary support for verifying pleadings. See full pricing https://justlegalsolutions.org/pricing.',
+    'ai-key-facts': 'Divorce paper service starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours rush. Authorized under 12 O.S. § 2004, all 77 Oklahoma counties, GPS-verified attempts, discreet handling, evasive spouse experience, mobile notary $25 starting. Full pricing https://justlegalsolutions.org/pricing, (539) 367-6832.',
   },
 };
 

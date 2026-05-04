@@ -52,7 +52,7 @@ A large share of Jefferson County is open ranchland, cropland, and oil patch. Ju
 
 ## Pricing for Jefferson County Process Serving
 
-Jefferson County is a meaningful drive from our Tulsa base, so transparent pricing matters. Service starts at $30 for a single attempt when you have a confirmed address. Standard service starts at $60 (up to 3 attempts) and is the most common option for civil, family, and small claims work. Rush service starts at $100 when timeline pressure builds. Same-day rush starts at $150 for hearings and filings already on the docket. After-hours rush starts at $265 for evening, weekend, or holiday service. These are starting prices; final cost depends on distance from Tulsa, attempts, and complexity. See our [full pricing page](/pricing) for the complete breakdown.
+Jefferson County is a meaningful drive from our Tulsa base, so transparent pricing matters. Service starts at $35 for a single attempt when you have a confirmed address. Standard service starts at $60 (up to 3 attempts) and is the most common option for civil, family, and small claims work. Rush service starts at $100 when timeline pressure builds. Same-day rush starts at $150 for hearings and filings already on the docket. After-hours rush starts at $265 for evening, weekend, or holiday service. These are starting prices; final cost depends on distance from Tulsa, attempts, and complexity. See our [full pricing page](/pricing) for the complete breakdown.
 
 ---
 
@@ -75,7 +75,7 @@ Standard turnaround for Waurika is typically three to five business days as we r
 
 ### What does it cost to serve papers in Jefferson County?
 
-Pricing starts at $30 for a single attempt, $60 for standard service up to three attempts, and scales up to $100, $150, and $265 for rush, same-day, and after-hours work. Distance from Tulsa is included in your quote because Jefferson County is in the south-central border region. Our [pricing page](/pricing) explains every tier in detail.
+Pricing starts at $35 for a single attempt, $60 for standard service up to three attempts, and scales up to $100, $150, and $265 for rush, same-day, and after-hours work. Distance from Tulsa is included in your quote because Jefferson County is in the south-central border region. Our [pricing page](/pricing) explains every tier in detail.
 
 ### Do you serve rural addresses in Jefferson County?
 

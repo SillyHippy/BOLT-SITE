@@ -140,7 +140,7 @@ export default function EvictionNoticeProcessServer() {
             'Forcible Entry and Detainer Service',
           ],
         }}
-        priceRange="$30-$200"
+        priceRange="$35-$200"
         aggregateRating={{ ratingValue: 4.9, reviewCount: 156 }}
         faqItems={faqItems}
         breadcrumbs={[

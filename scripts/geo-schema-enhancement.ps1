@@ -13,7 +13,7 @@ $enhancedLocationSchema = @"
   "@type": "LocalBusiness",
   "name": "Just Legal Solutions",
   "alternateName": "Tulsa Process Server",
-  "description": "Professional process serving in $city. Starting $30.",
+  "description": "Professional process serving in $city. Starting $35.",
   "telephone": "+15393676832",
   "email": "info@justlegalsolutions.org",
   "url": "https://justlegalsolutions.org",

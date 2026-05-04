@@ -54,7 +54,7 @@ Our servers use GPS-verified attempts so that even when an address is "the secon
 
 ## Pricing for Major County Process Serving
 
-Just Legal Solutions keeps pricing straightforward and predictable for Major County clients. Service starts at $30 for a single attempt, which is a good fit for confirmation work or a known-good address. Standard service starts at $60 (up to 3 attempts) and is the most common option for routine civil, family, and small claims matters. Rush service starts at $100 when you need attempts pushed to the front of the route. Same-day rush starts at $150 for time-sensitive filings, hearings, or temporary order situations. After-hours rush starts at $265 for evenings, weekends, and holidays when a recipient is only reachable outside normal hours. These are starting prices; final cost depends on distance from Tulsa, attempts, and complexity. See our [full pricing page](/pricing) for the complete breakdown.
+Just Legal Solutions keeps pricing straightforward and predictable for Major County clients. Service starts at $35 for a single attempt, which is a good fit for confirmation work or a known-good address. Standard service starts at $60 (up to 3 attempts) and is the most common option for routine civil, family, and small claims matters. Rush service starts at $100 when you need attempts pushed to the front of the route. Same-day rush starts at $150 for time-sensitive filings, hearings, or temporary order situations. After-hours rush starts at $265 for evenings, weekends, and holidays when a recipient is only reachable outside normal hours. These are starting prices; final cost depends on distance from Tulsa, attempts, and complexity. See our [full pricing page](/pricing) for the complete breakdown.
 
 ---
 
@@ -74,7 +74,7 @@ Just Legal Solutions keeps pricing straightforward and predictable for Major Cou
 Standard service in Fairview, Ringwood, and surrounding towns is typically completed in two to four business days from the time we receive the documents. Rush and same-day options are available when a hearing date or filing deadline is closing in, and we will tell you up front whether the rush window is realistic for the address we are given.
 
 ### What does it cost to serve papers in Major County?
-Pricing starts at $30 for a single attempt and $60 for standard service with up to three attempts. Rush service begins at $100, same-day rush at $150, and after-hours rush at $265. The final invoice depends on distance from Tulsa, the number of attempts required, and any added complexity such as skip tracing.
+Pricing starts at $35 for a single attempt and $60 for standard service with up to three attempts. Rush service begins at $100, same-day rush at $150, and after-hours rush at $265. The final invoice depends on distance from Tulsa, the number of attempts required, and any added complexity such as skip tracing.
 
 ### Do you serve rural addresses in Major County?
 Yes. A significant portion of our Major County work is on rural routes, working farms, oil and gas lease sites, and properties around the Glass Mountains area. We use GPS-verified attempts and local route knowledge so that even hard-to-find addresses are documented accurately.

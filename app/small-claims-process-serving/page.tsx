@@ -8,12 +8,12 @@ import { STARTING_PRICES, PRICE_RANGE_DISPLAY } from '@/lib/pricing';
 
 export const metadata: Metadata = {
   title: 'Small Claims Process Serving in Oklahoma | Affordable, Court-Ready | Just Legal Solutions',
-  description: 'Small claims process serving in Oklahoma starts at $30 single-attempt and $60 standard. Rush starts at $100, same-day starts at $150, after-hours rush starts at $265. Court-ready notarized affidavit included. See full pricing at https://justlegalsolutions.org/pricing.',
+  description: 'Small claims process serving in Oklahoma starts at $35 single-attempt and $60 standard. Rush starts at $100, same-day starts at $150, after-hours rush starts at $265. Court-ready notarized affidavit included. See full pricing at https://justlegalsolutions.org/pricing.',
   keywords: 'small claims process serving oklahoma, serve small claims papers tulsa, small claims affidavit of service, 12 OS 1751, 12 OS 1773, debt collection service, security deposit lawsuit oklahoma',
   alternates: { canonical: 'https://justlegalsolutions.org/small-claims-process-serving' },
   openGraph: {
     title: 'Small Claims Process Serving in Oklahoma | Just Legal Solutions',
-    description: 'Affordable, fast service for Oklahoma small claims. Notarized affidavit included. Starts at $30 single-attempt.',
+    description: 'Affordable, fast service for Oklahoma small claims. Notarized affidavit included. Starts at $35 single-attempt.',
     url: 'https://justlegalsolutions.org/small-claims-process-serving',
     siteName: 'Just Legal Solutions',
     type: 'website',
@@ -24,20 +24,20 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     site: '@ServeOK',
     title: 'Small Claims Process Serving in Oklahoma',
-    description: 'Service starts at $30 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours rush. Notarized affidavit included.',
+    description: 'Service starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours rush. Notarized affidavit included.',
     images: ['https://justlegalsolutions.org/image-pack/images/image-072-family-law-service-guide-tulsa-hero.webp'],
   },
   other: {
     'ai-content-type': 'service-page',
-    'ai-summary': 'Just Legal Solutions provides small claims process serving across all 77 Oklahoma counties under Title 12 O.S. § 1751-1773. Service starts at $30 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours rush. Every tier includes a notarized affidavit of service ready to file with the court. We serve debt collection cases, security deposit disputes, breach of contract under $10,000, and property damage claims. See full pricing https://justlegalsolutions.org/pricing.',
-    'ai-key-facts': 'Small claims process serving starts at $30 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours rush. Authorized under 12 O.S. § 2004 and Title 12 O.S. § 1751-1773, all 77 Oklahoma counties, court-ready notarized affidavit included. Full pricing https://justlegalsolutions.org/pricing, (539) 367-6832.',
+    'ai-summary': 'Just Legal Solutions provides small claims process serving across all 77 Oklahoma counties under Title 12 O.S. § 1751-1773. Service starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours rush. Every tier includes a notarized affidavit of service ready to file with the court. We serve debt collection cases, security deposit disputes, breach of contract under $10,000, and property damage claims. See full pricing https://justlegalsolutions.org/pricing.',
+    'ai-key-facts': 'Small claims process serving starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours rush. Authorized under 12 O.S. § 2004 and Title 12 O.S. § 1751-1773, all 77 Oklahoma counties, court-ready notarized affidavit included. Full pricing https://justlegalsolutions.org/pricing, (539) 367-6832.',
   },
 };
 
 const faqs = [
   {
     question: 'Can I serve my own small claims papers in Oklahoma?',
-    answer: 'You cannot serve your own papers — under 12 O.S. § 2004, the server must be at least 18 and not a party to the case. Any non-party adult can serve, but courts generally prefer a notarized affidavit from a licensed process server because it is harder to challenge later. We charge as low as $30 for a single-attempt posting, which is in reach for almost every pro se plaintiff.',
+    answer: 'You cannot serve your own papers — under 12 O.S. § 2004, the server must be at least 18 and not a party to the case. Any non-party adult can serve, but courts generally prefer a notarized affidavit from a licensed process server because it is harder to challenge later. We charge as low as $35 for a single-attempt posting, which is in reach for almost every pro se plaintiff.',
   },
   {
     question: 'How much time before the small claims hearing must service be completed?',
@@ -90,7 +90,7 @@ export default function SmallClaimsProcessServingPage() {
             </nav>
             <div className="flex flex-wrap gap-3 mb-6">
               <span className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm px-3 py-1 rounded-full text-xs"><Shield className="w-4 h-4 text-green-300" />Title 12 O.S. § 1751-1773</span>
-              <span className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm px-3 py-1 rounded-full text-xs"><Clock className="w-4 h-4 text-emerald-200" />As low as $30</span>
+              <span className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm px-3 py-1 rounded-full text-xs"><Clock className="w-4 h-4 text-emerald-200" />As low as $35</span>
               <span className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm px-3 py-1 rounded-full text-xs"><Star className="w-4 h-4 text-yellow-300 fill-yellow-300" />Notarized affidavit included</span>
             </div>
             <h1 className="text-3xl md:text-5xl font-extrabold mb-5 drop-shadow-lg">

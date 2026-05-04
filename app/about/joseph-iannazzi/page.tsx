@@ -748,7 +748,7 @@ export default function JosephIannazziPage() {
               Work directly with Oklahoma&apos;s most transparent process server
             </h2>
             <p className="text-blue-100 mb-6 max-w-2xl mx-auto">
-              Licensed, bonded, and NAPPS-listed. Service starts at $30 single-attempt and
+              Licensed, bonded, and NAPPS-listed. Service starts at $35 single-attempt and
               $60 standard, with same-day, triple-attempt, and after-hours rush options
               available statewide.
             </p>

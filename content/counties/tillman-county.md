@@ -55,7 +55,7 @@ Each attempt is GPS-verified so the court file reflects exactly where and when o
 
 ## Pricing for Tillman County Process Serving
 
-Just Legal Solutions keeps pricing simple and predictable for Tillman County clients. Service starts at $30 for a single attempt, ideal when the address is confirmed and the recipient is expected. Standard service starts at $60 (up to 3 attempts), which fits most civil, family, and small claims work. Rush service starts at $100 when a file needs to jump to the front of the route. Same-day rush starts at $150 for tight hearing windows and emergency filings. After-hours rush starts at $265 for evening, weekend, and holiday attempts when a recipient is only catchable outside normal hours. These are starting prices; final cost depends on distance from Tulsa, attempts, and complexity. See our [full pricing page](/pricing) for the complete breakdown.
+Just Legal Solutions keeps pricing simple and predictable for Tillman County clients. Service starts at $35 for a single attempt, ideal when the address is confirmed and the recipient is expected. Standard service starts at $60 (up to 3 attempts), which fits most civil, family, and small claims work. Rush service starts at $100 when a file needs to jump to the front of the route. Same-day rush starts at $150 for tight hearing windows and emergency filings. After-hours rush starts at $265 for evening, weekend, and holiday attempts when a recipient is only catchable outside normal hours. These are starting prices; final cost depends on distance from Tulsa, attempts, and complexity. See our [full pricing page](/pricing) for the complete breakdown.
 
 ---
 
@@ -75,7 +75,7 @@ Just Legal Solutions keeps pricing simple and predictable for Tillman County cli
 Standard service in Frederick and the surrounding communities is typically completed within three to five business days, given the distance from Tulsa. When a hearing or filing deadline is right on top of you, our rush and same-day rush options can compress that timeline significantly, especially for addresses inside Frederick or along the main highways through the county.
 
 ### What does it cost to serve papers in Tillman County?
-Pricing starts at $30 for a single attempt and $60 for standard service with up to three attempts. Rush service begins at $100, same-day rush at $150, and after-hours rush at $265. The final invoice depends on distance from Tulsa, the number of attempts needed, and any added complexity such as skip tracing, gated farm access, or off-hours work.
+Pricing starts at $35 for a single attempt and $60 for standard service with up to three attempts. Rush service begins at $100, same-day rush at $150, and after-hours rush at $265. The final invoice depends on distance from Tulsa, the number of attempts needed, and any added complexity such as skip tracing, gated farm access, or off-hours work.
 
 ### Do you serve rural addresses in Tillman County?
 Yes. A significant portion of our Tillman County work is rural — farms, cotton operations, ranches, and properties near the Hackberry Flat Wildlife Management Area. Every attempt is GPS-verified, so even when the address is best described by landmark, the file reflects accurate, defensible documentation.

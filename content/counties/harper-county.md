@@ -51,7 +51,7 @@ Most of Harper County is open ranchland, gypsum hills, and short-grass prairie. 
 
 ## Pricing for Harper County Process Serving
 
-Harper County is a long haul from our Tulsa base, so transparent pricing matters. Service starts at $30 for a single attempt when you have a confirmed address and timing flexibility. Standard service starts at $60 (up to 3 attempts) and is the most common option for civil, family, and collection matters. Rush service starts at $100 when your case needs prioritized handling. Same-day rush starts at $150 for hearings or filings already on the docket. After-hours rush starts at $265 for evening, weekend, or holiday service. These are starting prices; final cost depends on distance from Tulsa, attempts, and complexity. See our [full pricing page](/pricing) for the complete breakdown.
+Harper County is a long haul from our Tulsa base, so transparent pricing matters. Service starts at $35 for a single attempt when you have a confirmed address and timing flexibility. Standard service starts at $60 (up to 3 attempts) and is the most common option for civil, family, and collection matters. Rush service starts at $100 when your case needs prioritized handling. Same-day rush starts at $150 for hearings or filings already on the docket. After-hours rush starts at $265 for evening, weekend, or holiday service. These are starting prices; final cost depends on distance from Tulsa, attempts, and complexity. See our [full pricing page](/pricing) for the complete breakdown.
 
 ---
 
@@ -74,7 +74,7 @@ Because Buffalo is several hours from Tulsa, standard turnaround in Harper Count
 
 ### What does it cost to serve papers in Harper County?
 
-Pricing starts at $30 for a single attempt, $60 for standard service up to three attempts, and scales up to $100, $150, and $265 for rush, same-day, and after-hours work. Distance from Tulsa is built into your final quote because Harper County is in the far northwest. Our [pricing page](/pricing) explains every tier.
+Pricing starts at $35 for a single attempt, $60 for standard service up to three attempts, and scales up to $100, $150, and $265 for rush, same-day, and after-hours work. Distance from Tulsa is built into your final quote because Harper County is in the far northwest. Our [pricing page](/pricing) explains every tier.
 
 ### Do you serve rural addresses in Harper County?
 

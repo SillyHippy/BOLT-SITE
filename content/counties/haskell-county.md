@@ -52,7 +52,7 @@ A large share of Haskell County is rural — wooded hills, working timber, river
 
 ## Pricing for Haskell County Process Serving
 
-Haskell County is within reasonable driving distance of our Tulsa base, but rural attempts still require thoughtful routing. Service starts at $30 for a single attempt when you have a confirmed address. Standard service starts at $60 (up to 3 attempts) and is the most common option for civil, family, and small claims matters. Rush service starts at $100 for prioritized handling. Same-day rush starts at $150 for urgent hearings or filings already on the docket. After-hours rush starts at $265 for evening, weekend, or holiday service. These are starting prices; final cost depends on distance from Tulsa, attempts, and complexity. See our [full pricing page](/pricing) for the complete breakdown.
+Haskell County is within reasonable driving distance of our Tulsa base, but rural attempts still require thoughtful routing. Service starts at $35 for a single attempt when you have a confirmed address. Standard service starts at $60 (up to 3 attempts) and is the most common option for civil, family, and small claims matters. Rush service starts at $100 for prioritized handling. Same-day rush starts at $150 for urgent hearings or filings already on the docket. After-hours rush starts at $265 for evening, weekend, or holiday service. These are starting prices; final cost depends on distance from Tulsa, attempts, and complexity. See our [full pricing page](/pricing) for the complete breakdown.
 
 ---
 
@@ -75,7 +75,7 @@ Standard turnaround in and around Stigler is typically two to four business days
 
 ### What does it cost to serve papers in Haskell County?
 
-Pricing starts at $30 for a single attempt and $60 for standard service up to three attempts, scaling up to $100, $150, and $265 for rush, same-day, and after-hours work. Distance from Tulsa is included in the final quote, with Stigler being a reasonably efficient route. Our [pricing page](/pricing) breaks down each tier.
+Pricing starts at $35 for a single attempt and $60 for standard service up to three attempts, scaling up to $100, $150, and $265 for rush, same-day, and after-hours work. Distance from Tulsa is included in the final quote, with Stigler being a reasonably efficient route. Our [pricing page](/pricing) breaks down each tier.
 
 ### Do you serve rural addresses in Haskell County?
 

@@ -49,7 +49,7 @@ Most of Greer County is open agricultural land, so a large share of our work hap
 
 ## Pricing for Greer County Process Serving
 
-Because Greer County sits roughly four hours from our Tulsa base, transparent pricing matters. Service starts at $30 for a single attempt, which works well when you have a confirmed address and a flexible defendant. Standard service starts at $60 (up to 3 attempts) and is the most common option for civil matters, divorces, and small claims. Rush service starts at $100 when your case needs faster turnaround, while same-day rush starts at $150 for urgent filings or hearings already on the docket. After-hours rush starts at $265 for evening, weekend, or holiday service when a defendant is only reachable outside normal business hours. These are starting prices; final cost depends on distance from Tulsa, attempts, and complexity. See our [full pricing page](/pricing) for the complete breakdown.
+Because Greer County sits roughly four hours from our Tulsa base, transparent pricing matters. Service starts at $35 for a single attempt, which works well when you have a confirmed address and a flexible defendant. Standard service starts at $60 (up to 3 attempts) and is the most common option for civil matters, divorces, and small claims. Rush service starts at $100 when your case needs faster turnaround, while same-day rush starts at $150 for urgent filings or hearings already on the docket. After-hours rush starts at $265 for evening, weekend, or holiday service when a defendant is only reachable outside normal business hours. These are starting prices; final cost depends on distance from Tulsa, attempts, and complexity. See our [full pricing page](/pricing) for the complete breakdown.
 
 ---
 
@@ -72,7 +72,7 @@ Standard turnaround in and around Mangum is typically two to four business days 
 
 ### What does it cost to serve papers in Greer County?
 
-Pricing starts at $30 for a single attempt, $60 for standard service (up to three attempts), and increases for rush, same-day, and after-hours work. Because Greer County is on the western edge of the state, distance from Tulsa is part of the final quote. Our [pricing page](/pricing) breaks down each tier in detail.
+Pricing starts at $35 for a single attempt, $60 for standard service (up to three attempts), and increases for rush, same-day, and after-hours work. Because Greer County is on the western edge of the state, distance from Tulsa is part of the final quote. Our [pricing page](/pricing) breaks down each tier in detail.
 
 ### Do you serve rural addresses in Greer County?
 

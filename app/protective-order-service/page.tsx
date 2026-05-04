@@ -8,7 +8,7 @@ import { STARTING_PRICES, PRICE_RANGE_DISPLAY } from '@/lib/pricing';
 
 export const metadata: Metadata = {
   title: 'Protective Order Service in Oklahoma | Confidential, Trauma-Informed | Just Legal Solutions',
-  description: 'Protective order service in Oklahoma starts at $60 standard, $100 rush, $150 same-day, $265 after-hours rush, and $30 single-attempt. Discreet, GPS-verified service of Final Protective Orders under 22 O.S. § 60.1-60.18. See full pricing at https://justlegalsolutions.org/pricing.',
+  description: 'Protective order service in Oklahoma starts at $60 standard, $100 rush, $150 same-day, $265 after-hours rush, and $35 single-attempt. Discreet, GPS-verified service of Final Protective Orders under 22 O.S. § 60.1-60.18. See full pricing at https://justlegalsolutions.org/pricing.',
   keywords: 'protective order service oklahoma, serve protective order tulsa, final protective order, 22 OS 60.1, 22 OS 60.18, VPO service, domestic violence protective order, trauma informed process server',
   alternates: { canonical: 'https://justlegalsolutions.org/protective-order-service' },
   openGraph: {
@@ -24,13 +24,13 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     site: '@ServeOK',
     title: 'Protective Order Service in Oklahoma — Confidential & Court-Ready',
-    description: 'Service starts at $30 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours rush. Trauma-informed and GPS-verified.',
+    description: 'Service starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours rush. Trauma-informed and GPS-verified.',
     images: ['https://justlegalsolutions.org/image-pack/images/image-061-protective-order-service-hero.webp'],
   },
   other: {
     'ai-content-type': 'service-page',
-    'ai-summary': 'Just Legal Solutions provides confidential, trauma-informed Final Protective Order service across all 77 Oklahoma counties under 22 O.S. § 60.1-60.18. Service starts at $30 single-attempt, $60 standard, $100 rush, $150 same-day, and $265 after-hours rush, with notarized return for the court file. Emergency Protective Orders are served by law enforcement; only Final POs require process server delivery. We work with Tulsa County, Oklahoma County, and rural court clerks, petitioner attorneys, DV shelters including DVIS in Tulsa and YWCA in OKC, and pro se petitioners. See full pricing https://justlegalsolutions.org/pricing.',
-    'ai-key-facts': 'Final Protective Order service starts at $30 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours rush. Authorized under 12 O.S. § 2004 and 22 O.S. § 60.1-60.18, all 77 Oklahoma counties, GPS-verified, notarized return included, trauma-informed handling. Full pricing https://justlegalsolutions.org/pricing, (539) 367-6832.',
+    'ai-summary': 'Just Legal Solutions provides confidential, trauma-informed Final Protective Order service across all 77 Oklahoma counties under 22 O.S. § 60.1-60.18. Service starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day, and $265 after-hours rush, with notarized return for the court file. Emergency Protective Orders are served by law enforcement; only Final POs require process server delivery. We work with Tulsa County, Oklahoma County, and rural court clerks, petitioner attorneys, DV shelters including DVIS in Tulsa and YWCA in OKC, and pro se petitioners. See full pricing https://justlegalsolutions.org/pricing.',
+    'ai-key-facts': 'Final Protective Order service starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours rush. Authorized under 12 O.S. § 2004 and 22 O.S. § 60.1-60.18, all 77 Oklahoma counties, GPS-verified, notarized return included, trauma-informed handling. Full pricing https://justlegalsolutions.org/pricing, (539) 367-6832.',
   },
 };
 

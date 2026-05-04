@@ -46,7 +46,7 @@ Coal County is roughly 520 square miles in size, smaller than most Oklahoma coun
 
 ## Pricing for Coal County Process Serving
 
-Service starts at $30 for a single attempt, which works when the address is verified and you only need one focused try. Standard service starts at $60 (up to 3 attempts) and is the most common option for civil, family, eviction, and small claims work in Coal County. Rush service starts at $100 when the case calls for an immediate first attempt and a tighter overall window. Same-day rush starts at $150 for documents that have to be served before the courthouse closes, and after-hours rush starts at $265 for evening, weekend, and emergency-order service. These are starting prices; final cost depends on distance from Tulsa, attempts, and complexity. See our [full pricing page](/pricing) for the complete breakdown.
+Service starts at $35 for a single attempt, which works when the address is verified and you only need one focused try. Standard service starts at $60 (up to 3 attempts) and is the most common option for civil, family, eviction, and small claims work in Coal County. Rush service starts at $100 when the case calls for an immediate first attempt and a tighter overall window. Same-day rush starts at $150 for documents that have to be served before the courthouse closes, and after-hours rush starts at $265 for evening, weekend, and emergency-order service. These are starting prices; final cost depends on distance from Tulsa, attempts, and complexity. See our [full pricing page](/pricing) for the complete breakdown.
 
 ---
 

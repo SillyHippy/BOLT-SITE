@@ -49,7 +49,7 @@ A large share of Harmon County is open cotton, wheat, and ranch country. Just Le
 
 ## Pricing for Harmon County Process Serving
 
-Harmon County is one of the longest drives in Oklahoma from our Tulsa base, so pricing transparency is essential. Service starts at $30 for a single attempt when you have a confirmed address and timing flexibility. Standard service starts at $60 (up to 3 attempts) and is the right fit for most civil, family, and small claims matters. Rush service starts at $100 when timeline pressure builds. Same-day rush starts at $150 for urgent filings, and after-hours rush starts at $265 when service has to happen evenings, weekends, or holidays. These are starting prices; final cost depends on distance from Tulsa, attempts, and complexity. See our [full pricing page](/pricing) for the complete breakdown.
+Harmon County is one of the longest drives in Oklahoma from our Tulsa base, so pricing transparency is essential. Service starts at $35 for a single attempt when you have a confirmed address and timing flexibility. Standard service starts at $60 (up to 3 attempts) and is the right fit for most civil, family, and small claims matters. Rush service starts at $100 when timeline pressure builds. Same-day rush starts at $150 for urgent filings, and after-hours rush starts at $265 when service has to happen evenings, weekends, or holidays. These are starting prices; final cost depends on distance from Tulsa, attempts, and complexity. See our [full pricing page](/pricing) for the complete breakdown.
 
 ---
 
@@ -72,7 +72,7 @@ Because Harmon County is a long drive from Tulsa, standard turnaround typically 
 
 ### What does it cost to serve papers in Harmon County?
 
-Pricing starts at $30 for a single attempt, $60 for standard service up to three attempts, and scales up to $100, $150, and $265 for rush, same-day, and after-hours work. Distance from Tulsa is included in your quote because Harmon County is in the far southwest corner of the state. Our [pricing page](/pricing) walks through every tier.
+Pricing starts at $35 for a single attempt, $60 for standard service up to three attempts, and scales up to $100, $150, and $265 for rush, same-day, and after-hours work. Distance from Tulsa is included in your quote because Harmon County is in the far southwest corner of the state. Our [pricing page](/pricing) walks through every tier.
 
 ### Do you serve rural addresses in Harmon County?
 

@@ -12,8 +12,8 @@ import {
 const ReviewWidget = dynamic(() => import('@/components/ui/review-widget'));
 
 export const metadata: Metadata = {
-    title: 'Process Serving Oklahoma | Licensed Servers, Starts at $30',
-    description: 'Oklahoma process serving: starts at $30 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours. Personal, substitute, and publication service. Licensed under 12 O.S. § 158.1. All 77 counties. See full pricing online.',
+    title: 'Process Serving Oklahoma | Licensed Servers, Starts at $35',
+    description: 'Oklahoma process serving: starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours. Personal, substitute, and publication service. Licensed under 12 O.S. § 158.1. All 77 counties. See full pricing online.',
     keywords: ['process serving oklahoma', 'process server services', 'serve legal papers oklahoma', 'personal service of process', 'substitute service oklahoma', 'service by publication', 'licensed process server', 'professional process serving', 'process server vs sheriff oklahoma', 'evasive defendant service', 'skip tracing oklahoma', 'GPS process serving'],
     authors: [{ name: 'Just Legal Solutions' }],
     creator: 'Just Legal Solutions',
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Process Serving Oklahoma | Starts at $30 Single-Attempt',
+        title: 'Process Serving Oklahoma | Starts at $35 Single-Attempt',
         description: 'Licensed Oklahoma process servers. Personal service, substitute service, service by publication. 24/7 availability across all 77 counties.',
         images: ['https://justlegalsolutions.org/image-pack/images/image-010-process-serving-og.webp'],
     },
@@ -45,8 +45,8 @@ export const metadata: Metadata = {
     },
     other: {
         'ai-content-type': 'service-page',
-        'ai-summary': 'Just Legal Solutions provides professional process serving across all 77 Oklahoma counties. Services include personal service, substitute service, and service by publication per Oklahoma 12 O.S. § 2004. Pricing starts at $30 for a single attempt, $60 for standard service, $100 for rush, $150 for same-day rush, and $265 for 2-hour emergency. All servers are licensed under 12 O.S. § 158.1 with $5,000 surety bonds.',
-        'ai-key-facts': 'Service starts at $30 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours rush. Licensed under 12 O.S. § 158.1, all 77 Oklahoma counties, personal and substitute service, GPS-verified, 24/7 availability, full pricing https://justlegalsolutions.org/pricing, (539) 367-6832.',
+        'ai-summary': 'Just Legal Solutions provides professional process serving across all 77 Oklahoma counties. Services include personal service, substitute service, and service by publication per Oklahoma 12 O.S. § 2004. Pricing starts at $35 for a single attempt, $60 for standard service, $100 for rush, $150 for same-day rush, and $265 for 2-hour emergency. All servers are licensed under 12 O.S. § 158.1 with $5,000 surety bonds.',
+        'ai-key-facts': 'Service starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day, $265 after-hours rush. Licensed under 12 O.S. § 158.1, all 77 Oklahoma counties, personal and substitute service, GPS-verified, 24/7 availability, full pricing https://justlegalsolutions.org/pricing, (539) 367-6832.',
     },
 };
 
@@ -150,7 +150,7 @@ export default function ProcessServingPage() {
                             <strong>A process server is a licensed individual authorized under Oklahoma law (12 O.S. § 158.1) to deliver legal documents — such as summons, subpoenas, and eviction notices — to parties in a lawsuit, ensuring constitutional due process is satisfied.</strong>
                         </p>
                         <p className="text-lg text-gray-800 leading-relaxed mb-6">
-                            Just Legal Solutions provides licensed, bonded process serving across all 77 Oklahoma counties. Whether you need personal service, substitute service, or assistance with service by publication, our team delivers court-ready results starting at <strong>$30 for a single attempt</strong> and <strong>$60 for standard service</strong>. Every service attempt is GPS-verified with timestamped proof. Available 24/7 with same-day and 2-hour emergency options. Call <a href="tel:5393676832" className="text-blue-700 font-bold hover:underline">(539) 367-6832</a> to get started.
+                            Just Legal Solutions provides licensed, bonded process serving across all 77 Oklahoma counties. Whether you need personal service, substitute service, or assistance with service by publication, our team delivers court-ready results starting at <strong>$35 for a single attempt</strong> and <strong>$60 for standard service</strong>. Every service attempt is GPS-verified with timestamped proof. Available 24/7 with same-day and 2-hour emergency options. Call <a href="tel:5393676832" className="text-blue-700 font-bold hover:underline">(539) 367-6832</a> to get started.
                         </p>
                         {/* Quick-Action Buttons */}
                         <div className="flex flex-col sm:flex-row gap-3">
@@ -192,7 +192,7 @@ export default function ProcessServingPage() {
                             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
                                 <h3 className="font-bold text-slate-900 mb-2">What does process serving cost in Oklahoma?</h3>
                                 <p className="text-sm text-slate-700">
-                                    Process serving starts at $30 for a single attempt and $60 for standard service. Rush starts at $100, same-day at $150, and 2-hour emergency at $265. Final pricing depends on distance, attempts, and complexity.
+                                    Process serving starts at $35 for a single attempt and $60 for standard service. Rush starts at $100, same-day at $150, and 2-hour emergency at $265. Final pricing depends on distance, attempts, and complexity.
                                 </p>
                             </div>
                             <div className="bg-slate-50 border border-slate-200 rounded-lg p-5">
@@ -784,7 +784,7 @@ export default function ProcessServingPage() {
                     {/* Final CTA */}
                     <section className="mb-12 bg-gradient-to-r from-blue-50 to-green-50 border-2 border-blue-200 p-8 rounded-lg text-center">
                         <h2 className="text-3xl font-bold text-gray-900 mb-4">Ready to Serve Papers?</h2>
-                        <p className="text-lg text-gray-700 mb-6">Licensed Oklahoma process servers standing by. Single attempts starting at $30 and standard service at $60 with GPS-verified proof.</p>
+                        <p className="text-lg text-gray-700 mb-6">Licensed Oklahoma process servers standing by. Single attempts starting at $35 and standard service at $60 with GPS-verified proof.</p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-4">
                             <a href="tel:5393676832" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg text-xl transition-colors shadow-lg">
                                 &#x1F4DE; Call (539) 367-6832
@@ -793,7 +793,7 @@ export default function ProcessServingPage() {
                                 &#x1F4DD; Get Free Quote
                             </Link>
                         </div>
-                        <p className="text-sm text-gray-600">Available 24/7 &bull; All 77 Oklahoma counties &bull; GPS-verified &bull; Starts at $30 for a single attempt</p>
+                        <p className="text-sm text-gray-600">Available 24/7 &bull; All 77 Oklahoma counties &bull; GPS-verified &bull; Starts at $35 for a single attempt</p>
                     </section>
 
                     {/* Compliance */}
@@ -807,8 +807,8 @@ export default function ProcessServingPage() {
             </div>
             <UnifiedSchema
                 pageType="service"
-                title="Process Serving Services Oklahoma | Licensed Servers, Starts at $30"
-                description="Professional process serving throughout Oklahoma. Personal service, substitute service, and service by publication. Starts at $30 for single attempt, $60 for standard service. Licensed, bonded, 24/7."
+                title="Process Serving Services Oklahoma | Licensed Servers, Starts at $35"
+                description="Professional process serving throughout Oklahoma. Personal service, substitute service, and service by publication. Starts at $35 for single attempt, $60 for standard service. Licensed, bonded, 24/7."
                 url="https://justlegalsolutions.org/process-serving"
                 image="https://justlegalsolutions.org/image-pack/images/image-010-process-serving-og.webp"
                 keywords={['process serving', 'process server oklahoma', 'serve legal papers', 'personal service', 'substitute service', 'process server vs sheriff', 'evasive defendant service']}

@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'How to Hire a Process Server in Oklahoma — 2026 Checklist',
-  description: 'Step-by-step 2026 checklist for hiring a licensed Oklahoma process server: license/bond verification, GPS proof, court-ready affidavits, transparent pricing starts at $30.',
+  description: 'Step-by-step 2026 checklist for hiring a licensed Oklahoma process server: license/bond verification, GPS proof, court-ready affidavits, transparent pricing starts at $35.',
   keywords: 'how to hire a process server oklahoma, hire process server tulsa, oklahoma process server checklist, licensed process server oklahoma, process server bond verification, court ready affidavit oklahoma, process serving questions to ask',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'How to Hire a Process Server in Oklahoma — 2026 Checklist',
-    description: 'Verify license & bond, demand GPS proof, get a court-ready affidavit. Transparent process serving starts at $30.',
+    description: 'Verify license & bond, demand GPS proof, get a court-ready affidavit. Transparent process serving starts at $35.',
     url: 'https://justlegalsolutions.org/blog/how-to-hire-a-process-server-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -30,8 +30,8 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-19',
     'article:author': 'Joseph Iannazzi',
     'ai-content-type': 'article',
-    'ai-summary': 'Complete 2026 checklist for hiring an Oklahoma process server. Verify licensing under 12 O.S. § 158.1, confirm $5,000 bond, demand GPS-tagged proof of service, and require a court-ready affidavit. Single-attempt service starts at $30; rush service starts at $100.',
-    'ai-key-facts': 'Oklahoma process servers must be licensed under 12 O.S. § 158.1; service rules in 12 O.S. § 2004; single-attempt starts at $30; standard service starts at $60; rush starts at $100; same-day starts at $150; after-hours rush starts at $265.',
+    'ai-summary': 'Complete 2026 checklist for hiring an Oklahoma process server. Verify licensing under 12 O.S. § 158.1, confirm $5,000 bond, demand GPS-tagged proof of service, and require a court-ready affidavit. Single-attempt service starts at $35; rush service starts at $100.',
+    'ai-key-facts': 'Oklahoma process servers must be licensed under 12 O.S. § 158.1; service rules in 12 O.S. § 2004; single-attempt starts at $35; standard service starts at $60; rush starts at $100; same-day starts at $150; after-hours rush starts at $265.',
   },
 };
 
@@ -76,7 +76,7 @@ export default function HowToHireProcessServerOklahoma() {
       <UnifiedSchema
         pageType="article"
         pageTitle="How to Hire a Process Server in Oklahoma — 2026 Checklist"
-        pageDescription="Step-by-step 2026 checklist for hiring a licensed Oklahoma process server: license/bond verification, GPS proof, court-ready affidavits, transparent pricing starts at $30."
+        pageDescription="Step-by-step 2026 checklist for hiring a licensed Oklahoma process server: license/bond verification, GPS proof, court-ready affidavits, transparent pricing starts at $35."
         pageUrl="https://justlegalsolutions.org/blog/how-to-hire-a-process-server-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={156}
@@ -153,7 +153,7 @@ export default function HowToHireProcessServerOklahoma() {
                 <li>✅ Skip tracing available if the address is bad</li>
                 <li>✅ Willingness to testify if service is challenged</li>
               </ul>
-              <p className="text-blue-700 text-sm mt-3">Process serving with Just Legal Solutions starts at $30 single-attempt. See <Link href="/pricing" className="underline">/pricing</Link> for the full menu.</p>
+              <p className="text-blue-700 text-sm mt-3">Process serving with Just Legal Solutions starts at $35 single-attempt. See <Link href="/pricing" className="underline">/pricing</Link> for the full menu.</p>
             </div>
 
             <h2>Step 1: Confirm the Server Is Licensed and Bonded</h2>
@@ -180,7 +180,7 @@ export default function HowToHireProcessServerOklahoma() {
                 </thead>
                 <tbody>
                   {[
-                    ['Single-Attempt Posting', '$30', 'Eviction posting, simple notice'],
+                    ['Single-Attempt Posting', '$35', 'Eviction posting, simple notice'],
                     ['Standard Service (up to 3 attempts)', '$60', 'Most civil filings'],
                     ['Rush (1–3 business days)', '$100', 'Tight statute deadlines'],
                     ['Same-Day (4–8 hours)', '$150', 'Last-minute filings'],
@@ -283,7 +283,7 @@ export default function HowToHireProcessServerOklahoma() {
             <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Guides</h2>
             <div className="grid sm:grid-cols-2 gap-4">
               <Link href="/pricing" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
-                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Full Pricing — Process Serving Starts at $30</span>
+                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Full Pricing — Process Serving Starts at $35</span>
                 <p className="text-sm text-gray-600 mt-1">Complete pricing menu for service tiers, courier, notary, and skip tracing.</p>
               </Link>
               <Link href="/tulsa-process-server" className="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:border-blue-200 hover:shadow-md transition-all group">
@@ -327,7 +327,7 @@ export default function HowToHireProcessServerOklahoma() {
           <section className="mt-12">
             <div className="bg-gradient-to-r from-blue-600 to-blue-800 rounded-2xl p-8 md:p-12 text-center text-white">
               <h2 className="text-2xl md:text-3xl font-bold mb-4">Ready to Hire a Process Server You Can Trust?</h2>
-              <p className="text-blue-100 mb-6 max-w-xl mx-auto">Licensed, bonded, GPS-tracked, court-ready. Single-attempt service starts at $30. Same-business-day intake, statewide.</p>
+              <p className="text-blue-100 mb-6 max-w-xl mx-auto">Licensed, bonded, GPS-tracked, court-ready. Single-attempt service starts at $35. Same-business-day intake, statewide.</p>
               <a href="tel:+15393676832" className="inline-flex items-center gap-2 bg-white text-blue-700 px-8 py-4 rounded-xl font-bold text-lg hover:bg-blue-50 transition-colors shadow-lg">
                 📞 Call (539) 367-6832
               </a>

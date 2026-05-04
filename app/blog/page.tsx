@@ -135,7 +135,7 @@ const categories = [
     color: 'green',
     description: 'Transparent pricing, cost breakdowns, and hidden-fee guidance',
     posts: [
-      { slug: 'process-serving-cost-guide-oklahoma', title: 'How Much Does a Process Server Cost in Oklahoma? 2026 Pricing Guide', description: 'Full cost breakdown by tier (starts at $30 single-attempt, $60 standard, $100 rush, $150 same-day, $200 triple-attempt, $265 after-hours), comparison with sheriff fees, and hidden costs to avoid.', date: '2026-04-19' },
+      { slug: 'process-serving-cost-guide-oklahoma', title: 'How Much Does a Process Server Cost in Oklahoma? 2026 Pricing Guide', description: 'Full cost breakdown by tier (starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day, $200 triple-attempt, $265 after-hours), comparison with sheriff fees, and hidden costs to avoid.', date: '2026-04-19' },
     ],
   },
 ];

@@ -68,8 +68,8 @@ export const metadata: Metadata = {
   },
   other: {
     'ai-content-type': 'comprehensive-guide',
-    'ai-summary': 'Complete 2026 guide to process serving in Oklahoma. Covers 12 O.S. §2004 requirements, server qualifications (18+, non-party, bonded), service methods (personal, substituted, electronic), costs ($30-$265), timelines (1-5 days), and affidavit requirements. Just Legal Solutions is a licensed, bonded process server serving all 77 Oklahoma counties with 50+ years combined experience.',
-    'ai-key-facts': 'Oklahoma process serving governed by 12 O.S. §2004, servers must be 18+ bonded non-party, personal substituted and electronic service methods, costs $30-$265, 1-5 day completion, affidavit required, Just Legal Solutions serves all 77 counties, (539) 367-6832',
+    'ai-summary': 'Complete 2026 guide to process serving in Oklahoma. Covers 12 O.S. §2004 requirements, server qualifications (18+, non-party, bonded), service methods (personal, substituted, electronic), costs ($35-$265), timelines (1-5 days), and affidavit requirements. Just Legal Solutions is a licensed, bonded process server serving all 77 Oklahoma counties with 50+ years combined experience.',
+    'ai-key-facts': 'Oklahoma process serving governed by 12 O.S. §2004, servers must be 18+ bonded non-party, personal substituted and electronic service methods, costs $35-$265, 1-5 day completion, affidavit required, Just Legal Solutions serves all 77 counties, (539) 367-6832',
     'article:published_time': '2024-01-01',
     'article:modified_time': new Date().toISOString(),
     'article:author': 'Just Legal Solutions',
@@ -86,7 +86,7 @@ const pageFaqs = [
   },
   {
     "question": "Who can legally serve process in Oklahoma?",
-    "answer": "Only licensed process servers, Oklahoma attorneys, court clerks, and sheriff&apos;s deputies can legally serve process in Oklahoma. Private individuals must be at least 18 years old, licensed by the district court, maintain a $5,000 surety bond, and meet residency requirements under Title 12 § 158.1. <strong>Bond sources:</strong> Local insurance agents or online providers like SuretyBonds.com (typically <strong>$50</strong>). <strong>CRITICAL RULE:</strong> Your surety bond must go into effect the <em>exact same day</em> as your court date. If your bond is dated before or after your court date, it will be rejected and you will have to call your provider to get it amended. Call your local courthouse first to confirm the exact docket date. License renewal costs approximately $235.39 every three years including court fees and publication (typically around $30), though exact amounts vary by county."
+    "answer": "Only licensed process servers, Oklahoma attorneys, court clerks, and sheriff&apos;s deputies can legally serve process in Oklahoma. Private individuals must be at least 18 years old, licensed by the district court, maintain a $5,000 surety bond, and meet residency requirements under Title 12 § 158.1. <strong>Bond sources:</strong> Local insurance agents or online providers like SuretyBonds.com (typically <strong>$50</strong>). <strong>CRITICAL RULE:</strong> Your surety bond must go into effect the <em>exact same day</em> as your court date. If your bond is dated before or after your court date, it will be rejected and you will have to call your provider to get it amended. Call your local courthouse first to confirm the exact docket date. License renewal costs approximately $235.39 every three years including court fees and publication (typically around $35), though exact amounts vary by county."
   },
   {
     "question": "Where can I find the official Oklahoma process server application form?",
@@ -229,7 +229,7 @@ export default function UltimateGuidePage() {
                   <tbody>
                     <tr className="border-b border-gray-200">
                       <td className="py-3 px-4 font-medium">License Renewal Cost</td>
-                      <td className="py-3 px-4">~$235.39 (plus ~$15 photos & ~$30 publication)</td>
+                      <td className="py-3 px-4">~$235.39 (plus ~$15 photos & ~$35 publication)</td>
                     </tr>
                     <tr className="border-b border-gray-200">
                       <td className="py-3 px-4 font-medium">Bond Amount</td>
@@ -245,7 +245,7 @@ export default function UltimateGuidePage() {
                     </tr>
                     <tr className="border-b border-gray-200">
                       <td className="py-3 px-4 font-medium">Publication Cost</td>
-                      <td className="py-3 px-4">Typically ~$30 (depends on selected legal journal)</td>
+                      <td className="py-3 px-4">Typically ~$35 (depends on selected legal journal)</td>
                     </tr>
                     <tr className="border-b border-gray-200">
                       <td className="py-3 px-4 font-medium">Official Form</td>
@@ -435,7 +435,7 @@ export default function UltimateGuidePage() {
                     <li>• Initial statewide license fee: $150 (paid to district court at application)</li>
                     <li>• <strong>Three-year renewal cost: approximately $235.39</strong> (includes $15 statutory fee + county court fees)</li>
                     <li>• Secure $5,000 surety bond (typically <strong>$50</strong>)</li>
-                    <li>• Publication fee (typically around <strong>$30</strong> depending on the paper)</li>
+                    <li>• Publication fee (typically around <strong>$35</strong> depending on the paper)</li>
                     <li>• Maintain professional liability insurance</li>
                   </ul>
                 </div>
@@ -447,14 +447,14 @@ export default function UltimateGuidePage() {
                 <ol className="list-decimal pl-5 space-y-2 text-sm">
                   <li><strong>Application Submission:</strong> Complete verified application form prescribed by Administrative Office of Courts</li>
                   <li><strong>Documentation Requirements:</strong> Provide two recent passport-style photographs and proof of residency</li>
-                  <li><strong>Publication Requirements:</strong> Publish notice of application in legal journal or newspaper. The notice must run no less than <strong>20 days before your court date</strong>. Budget ~$30. The courthouse clerk will tell you which publication to use.</li>
+                  <li><strong>Publication Requirements:</strong> Publish notice of application in legal journal or newspaper. The notice must run no less than <strong>20 days before your court date</strong>. Budget ~$35. The courthouse clerk will tell you which publication to use.</li>
                   <li><strong>Court Date & Bond Timing:</strong> Call your local courthouse to get the exact docket date. <strong>You must ensure your $50 surety bond goes into effect on that EXACT date.</strong> If the bond dates mismatch, you must get the bond amended.</li>
                   <li><strong>License Issuance:</strong> Judge reviews qualifications and approves or denies license</li>
                 </ol>
                 
                 <div className="mt-4 pt-4 border-t border-yellow-300">
                   <h5 className="font-semibold text-yellow-900 mb-2">2026 Renewal Process:</h5>
-                  <p className="text-sm">Renewals require re-filing in the issuing court with updated bond. The renewal fee is approximately <strong>$235.39</strong> (plus ~$15 passport photos and ~$30 publication; exact amounts vary by county). <strong>Begin renewal 30-60 days before expiration to avoid lapse.</strong></p>
+                  <p className="text-sm">Renewals require re-filing in the issuing court with updated bond. The renewal fee is approximately <strong>$235.39</strong> (plus ~$15 passport photos and ~$35 publication; exact amounts vary by county). <strong>Begin renewal 30-60 days before expiration to avoid lapse.</strong></p>
                 </div>
               </div>
             </CardContent>
@@ -525,7 +525,7 @@ export default function UltimateGuidePage() {
                       <div className="bg-white p-4 rounded-lg shadow-md border-l-4 border-purple-500">
                         <h4 className="font-bold text-purple-800">Step 4: Publish Legal Notice</h4>
                         <p className="text-sm text-gray-600 mt-2">Publish an application notice in a local legal journal or newspaper. <strong>The notice must run no less than 20 days before your court date.</strong> The courthouse clerk will tell you which publication to use.</p>
-                        <p className="text-xs text-purple-600 mt-1 font-medium">Timeline: Must run 20+ days before court • Cost: Typically ~$30</p>
+                        <p className="text-xs text-purple-600 mt-1 font-medium">Timeline: Must run 20+ days before court • Cost: Typically ~$35</p>
                       </div>
                     </div>
                   </div>
