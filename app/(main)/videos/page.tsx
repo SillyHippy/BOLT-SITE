@@ -80,7 +80,7 @@ export default function VideosPage() {
         <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="inline-flex items-center gap-2 bg-red-500/20 border border-red-400/30 backdrop-blur-sm px-5 py-2 rounded-full mb-6">
             <span className="text-red-400 text-xl">▶</span>
-            <span className="text-white text-sm font-semibold">{allVideos.length} Free Videos — Updated April 2026</span>
+            <span className="text-white text-sm font-semibold">{allVideos.length} Free Videos — Updated May 2026</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">
             Oklahoma Process Serving &amp; Notary<br className="hidden md:block" /> Video Guides
@@ -130,7 +130,7 @@ export default function VideosPage() {
               <div className="w-1 h-8 bg-yellow-500 rounded-full" />
               <h2 className="text-2xl font-bold text-gray-900">Featured Videos</h2>
               <span className="text-sm bg-yellow-100 text-yellow-700 px-3 py-1 rounded-full font-medium">
-                ⭐ {featuredVideos.length} videos · New April 2026
+                ⭐ {featuredVideos.length} videos · New May 2026
               </span>
             </div>
 

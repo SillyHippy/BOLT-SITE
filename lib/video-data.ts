@@ -30,6 +30,58 @@ export function normalizeShortSeo(video: Video): Video {
 }
 
 export const featuredVideos: Video[] = [
+  /* ── Animated Story-Driven Shorts (Noir Illustrations + Voiceover) ── */
+  {
+    videoId: 'Vgt5i9tDD0M',
+    title: 'What Is a Drop Serve? — Oklahoma Process Serving Explained',
+    description: 'Animated explainer on what a drop serve is and when Oklahoma process servers can legally use it. Noir-style illustrations with professional voiceover.',
+    datePublished: '2026-05-04',
+    duration: 'PT50S',
+    relatedPage: '/process-serving',
+    category: 'Featured',
+    isShort: false,
+  },
+  {
+    videoId: '9GYj9Bg4Pz8',
+    title: 'What Happens If You Dodge a Process Server? — Oklahoma Law',
+    description: 'Animated short explaining what really happens when someone tries to avoid being served in Oklahoma — from alternative service to default judgment.',
+    datePublished: '2026-05-04',
+    duration: 'PT45S',
+    relatedPage: '/what-happens-if-someone-refuses-service',
+    category: 'Featured',
+    isShort: false,
+  },
+  {
+    videoId: 'LAtxl-D9PjY',
+    title: 'Can You Be Served at Work? — Oklahoma Process Serving Rules',
+    description: 'Animated explainer covering whether process servers can legally serve you at your workplace in Oklahoma, and what the rules are.',
+    datePublished: '2026-05-04',
+    duration: 'PT45S',
+    relatedPage: '/process-serving',
+    category: 'Featured',
+    isShort: false,
+  },
+  {
+    videoId: '-XE-5ZgMhuw',
+    title: 'Default Judgment Explained — What Happens When You Ignore a Lawsuit in Oklahoma',
+    description: 'Animated story-driven short explaining how default judgments work in Oklahoma when defendants fail to respond after being properly served.',
+    datePublished: '2026-05-04',
+    duration: 'PT50S',
+    relatedPage: '/blog/oklahoma-default-judgment-guide',
+    category: 'Featured',
+    isShort: false,
+  },
+  {
+    videoId: 'Ht_y4O-CESo',
+    title: 'Skip Tracing: How Process Servers Find You — Oklahoma',
+    description: 'Animated noir-style short showing how professional process servers use skip tracing to locate hard-to-find defendants in Oklahoma.',
+    datePublished: '2026-05-04',
+    duration: 'PT50S',
+    relatedPage: '/ai-skip-tracing-guide-oklahoma',
+    category: 'Featured',
+    isShort: false,
+  },
+  /* ── Full-Length Featured Videos ── */
   {
     videoId: 'ApPeLMDA5wU',
     title: 'Oklahoma Eviction Process — Landlord\'s Complete Step-by-Step Guide',
