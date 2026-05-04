@@ -140,13 +140,7 @@ export function generateCountyWithCitiesAreaServed(
   if (!citiesInCounty || citiesInCounty.length === 0) return results;
 
   const citySlugs = citiesInCounty
-    .map((city) => {
-      // Reverse-lookup slug from CITY_GEO by matching the datum
-      const entry = Object.entries(CITY_GEO).find(
-        ([, datum]) => datum.cityName === city.cityName && datum.countyName.toLowerCase().replace(/\s+county$/, "") === normalizedCountySlug.replace(/-county$/, "")
-      );
-      return entry?.[0];
-    })
+    .map((city) => city.slug)
     .filter((slug): slug is string => !!slug);
 
   const cityEntries = generateCityAreaServed(citySlugs);
