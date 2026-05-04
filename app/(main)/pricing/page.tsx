@@ -449,7 +449,8 @@ export default function PricingPage() {
               </div>
             </div>
             <p className="text-center text-sm text-gray-500 mt-8">
-              Courier pricing applies to Tulsa County, Broken Arrow, & the Sapulpa area. A surcharge applies to other locations.
+              Courier pricing applies to Tulsa County, Broken Arrow, &amp; the Sapulpa area. A surcharge applies to other locations.<br />
+              <span className="text-gray-600 font-medium">Note: Rates assume documents are complete and court-ready. Additional fees apply for wait time or return trips due to deficient documentation.</span>
             </p>
           </div>
         </section>
@@ -582,9 +583,24 @@ export default function PricingPage() {
         <section className="py-10 bg-gray-50">
           <div className="max-w-6xl mx-auto px-4">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-gray-900">Additional & Optional Services</h2>
+              <h2 className="text-3xl font-bold text-gray-900">Additional &amp; Optional Services</h2>
               <p className="text-lg text-gray-600 mt-2">Customize your service with these available add-ons.</p>
             </div>
+
+            <div className="max-w-4xl mx-auto mb-10 bg-amber-50 border border-amber-200 rounded-xl px-6 py-5 shadow-sm">
+              <div className="flex items-start gap-4">
+                <div className="bg-amber-100 p-2 rounded-full flex-shrink-0 mt-0.5">
+                  <Clock className="h-5 w-5 text-amber-700" />
+                </div>
+                <div>
+                  <h3 className="font-bold text-amber-900 text-base mb-1">Wait Time &amp; Deficient Documents</h3>
+                  <p className="text-sm text-amber-800 leading-relaxed">
+                    Filing and courier rates assume documents are <strong>complete and court-ready</strong>. If documents are missing signatures, improperly executed, or rejected—requiring our agent to wait for corrections or make an additional return trip—an <strong>additional wait-time or return-trip fee will apply</strong>. Clients are responsible for ensuring all paperwork is properly prepared prior to submission.
+                  </p>
+                </div>
+              </div>
+            </div>
+
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {serviceCategories.map((category, catIndex) => (
                 <div key={catIndex} className="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
