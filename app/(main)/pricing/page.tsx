@@ -118,7 +118,7 @@ const pricingFaqItems = [
   },
   {
     question: "How do I get a quote for process serving outside Tulsa?",
-    answer: "Call us at (539) 367-6832 or email info@JustLegalSolutions.org with the service address. We serve all 77 Oklahoma counties and provide upfront quotes."
+    answer: "Call or text us at (539) 367-6832 or email info@JustLegalSolutions.org with the service address. We serve all 77 Oklahoma counties and provide upfront quotes."
   }
 ];
 
@@ -634,6 +634,9 @@ export default function PricingPage() {
                   <p className="text-gray-700">
                     We execute a minimum of three service attempts at different times of the day and on different days of the week, or until the address(es) are drawn to a conclusive determination. <strong>This minimum effort is included in our standard service pricing.</strong>
                   </p>
+                  <p className="text-gray-700 mt-4 text-sm bg-blue-50/50 p-3 rounded-lg border border-blue-100">
+                    <span className="font-semibold text-blue-800">Note on Same-Day Attempts:</span> Occasionally, you may see multiple attempts logged on the same day (e.g., if a respondent communicates they will be home at a specific time but fails to appear). Regardless of same-day follow-ups, we guarantee that your attempts will be spread across at least two distinct days to ensure thorough diligence.
+                  </p>
                   <p className="text-gray-700 mt-4">
                     Any request for additional service attempts beyond this standard protocol must be negotiated and approved prior to execution, and will be subject to an additional fee.
                   </p>
@@ -674,59 +677,42 @@ export default function PricingPage() {
 
         {/* Schema removed and consolidated with the one at the top of the page */}
 
-        {/* AI-Ready Quick Answer Blocks */}
-        <section className="py-12 px-4 bg-gray-50 border-b border-gray-200">
-          <div className="max-w-6xl mx-auto">
-            <h2 className="text-2xl font-bold text-center mb-8 text-blue-900">Quick Pricing Answers</h2>
-            <div className="grid md:grid-cols-3 gap-6">
-              <div className="bg-white border border-slate-200 shadow-sm rounded-xl p-6 text-left hover:border-blue-300 transition-colors">
-                <h3 className="font-bold text-slate-900 mb-3 text-lg">What is the cheapest way to serve papers?</h3>
-                <p className="text-slate-700 leading-relaxed">
-                  The lowest-cost option is a single service attempt starting at $35. Standard service starts at $60 and is the most common choice for routine legal document delivery in Oklahoma.
-                </p>
-              </div>
-              <div className="bg-white border border-slate-200 shadow-sm rounded-xl p-6 text-left hover:border-blue-300 transition-colors">
-                <h3 className="font-bold text-slate-900 mb-3 text-lg">How much is same-day process serving?</h3>
-                <p className="text-slate-700 leading-relaxed">
-                  Same-day rush service starts at $150, with 2-hour emergency dispatch starting at $265. Final cost can vary by distance, attempts, and service complexity.
-                </p>
-              </div>
-              <div className="bg-white border border-slate-200 shadow-sm rounded-xl p-6 text-left hover:border-blue-300 transition-colors">
-                <h3 className="font-bold text-slate-900 mb-3 text-lg">Are there hidden fees?</h3>
-                <p className="text-slate-700 leading-relaxed">
-                  Pricing is transparent and quoted in advance. Any travel or special-condition surcharges are disclosed before service starts, so clients can approve total cost up front.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Pricing FAQ Section */}
-        <section className="py-16 px-4 bg-gray-50">
+        {/* AI-Ready Pricing FAQ Section */}
+        <section className="py-16 px-4 bg-gray-50" itemScope itemType="https://schema.org/FAQPage">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-center mb-4 text-blue-900">Process Server Pricing FAQ</h2>
             <p className="text-center text-gray-600 mb-12">Answers to common questions about our Oklahoma process serving rates</p>
 
             <div className="space-y-6">
-              <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200 hover:border-blue-300 transition-colors">
-                <h3 className="text-lg font-bold mb-3 text-blue-900">What is the cheapest process server option in Oklahoma?</h3>
-                <p className="text-gray-600 leading-relaxed">Our Standard Service starts at just $60 for Tulsa County and nearby areas. For budget-conscious clients, we also offer a Single Serve Attempt option starting as low as $35. Contact us to discuss your specific needs and find the most cost-effective solution.</p>
+              <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200 hover:border-blue-300 transition-colors" itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
+                <h3 className="text-lg font-bold mb-3 text-blue-900" itemProp="name">What is the cheapest process server option in Oklahoma?</h3>
+                <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
+                  <p className="text-gray-600 leading-relaxed" itemProp="text">Our Standard Service starts at just $60 for Tulsa County and nearby areas. For budget-conscious clients, we also offer a Single Serve Attempt option starting as low as $35. Contact us to discuss your specific needs and find the most cost-effective solution.</p>
+                </div>
               </div>
-              <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200 hover:border-blue-300 transition-colors">
-                <h3 className="text-lg font-bold mb-3 text-blue-900">Are there any hidden fees?</h3>
-                <p className="text-gray-600 leading-relaxed">No hidden fees. Our pricing is transparent and upfront. Surcharges for areas outside Tulsa County are quoted before service begins. We clearly communicate all costs including any rush fees, filing fees, or printing charges before you commit.</p>
+              <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200 hover:border-blue-300 transition-colors" itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
+                <h3 className="text-lg font-bold mb-3 text-blue-900" itemProp="name">Are there any hidden fees?</h3>
+                <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
+                  <p className="text-gray-600 leading-relaxed" itemProp="text">No hidden fees. Our pricing is transparent and upfront. Surcharges for areas outside Tulsa County are quoted before service begins. We clearly communicate all costs including any rush fees, filing fees, or printing charges before you commit.</p>
+                </div>
               </div>
-              <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200 hover:border-blue-300 transition-colors">
-                <h3 className="text-lg font-bold mb-3 text-blue-900">Do you offer volume discounts?</h3>
-                <p className="text-gray-600 leading-relaxed">Yes! We offer automatic monthly discounts based on your service volume. Law firms and businesses with regular process serving needs receive preferential rates, priority scheduling, and consolidated monthly invoicing. No long-term contracts required.</p>
+              <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200 hover:border-blue-300 transition-colors" itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
+                <h3 className="text-lg font-bold mb-3 text-blue-900" itemProp="name">Do you offer volume discounts?</h3>
+                <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
+                  <p className="text-gray-600 leading-relaxed" itemProp="text">Yes! We offer automatic monthly discounts based on your service volume. Law firms and businesses with regular process serving needs receive preferential rates, priority scheduling, and consolidated monthly invoicing. No long-term contracts required.</p>
+                </div>
               </div>
-              <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200 hover:border-blue-300 transition-colors">
-                <h3 className="text-lg font-bold mb-3 text-blue-900">What&apos;s included in the base price?</h3>
-                <p className="text-gray-600 leading-relaxed">Our standard pricing includes up to 3 service attempts at varied times, GPS-tracked delivery, real-time status updates, a court-ready affidavit of service, and 10 free printed pages. Rush services include expedited scheduling and priority handling.</p>
+              <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200 hover:border-blue-300 transition-colors" itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
+                <h3 className="text-lg font-bold mb-3 text-blue-900" itemProp="name">What&apos;s included in the base price?</h3>
+                <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
+                  <p className="text-gray-600 leading-relaxed" itemProp="text">Our standard pricing includes up to 3 service attempts at varied times, GPS-tracked delivery, real-time status updates, a court-ready affidavit of service, and 10 free printed pages. Rush services include expedited scheduling and priority handling.</p>
+                </div>
               </div>
-              <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200 hover:border-blue-300 transition-colors">
-                <h3 className="text-lg font-bold mb-3 text-blue-900">How do I get a quote for areas outside Tulsa?</h3>
-                <p className="text-gray-600 leading-relaxed">Call us at (539) 367-6832 or email info@JustLegalSolutions.org with the service address. We serve all 77 Oklahoma counties and provide upfront quotes with no surprises. Same-day quotes available for most locations.</p>
+              <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200 hover:border-blue-300 transition-colors" itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
+                <h3 className="text-lg font-bold mb-3 text-blue-900" itemProp="name">How do I get a quote for areas outside Tulsa?</h3>
+                <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
+                  <p className="text-gray-600 leading-relaxed" itemProp="text">Call or text us at (539) 367-6832 or email info@JustLegalSolutions.org with the service address. We serve all 77 Oklahoma counties and provide upfront quotes with no surprises. Same-day quotes available for most locations.</p>
+                </div>
               </div>
             </div>
           </div>
