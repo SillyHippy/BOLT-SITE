@@ -2,6 +2,81 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
+    <loc>https://justlegalsolutions.org/videos/what-is-a-drop-serve-oklahoma-process-serving-explained</loc>
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/Vgt5i9tDD0M/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>What Is a Drop Serve? — Oklahoma Process Serving Explained</video:title>
+      <video:description>Animated explainer on what a drop serve is and when Oklahoma process servers can legally use it. Noir-style illustrations with professional voiceover.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/Vgt5i9tDD0M</video:player_loc>
+      <video:publication_date>2026-05-04T00:00:00+00:00</video:publication_date>
+      <video:uploader>Just Legal Solutions</video:uploader>
+      <video:duration>50</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://justlegalsolutions.org/videos/what-happens-if-you-dodge-a-process-server-oklahoma-law</loc>
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/9GYj9Bg4Pz8/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>What Happens If You Dodge a Process Server? — Oklahoma Law</video:title>
+      <video:description>Animated short explaining what really happens when someone tries to avoid being served in Oklahoma — from alternative service to default judgment.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/9GYj9Bg4Pz8</video:player_loc>
+      <video:publication_date>2026-05-04T00:00:00+00:00</video:publication_date>
+      <video:uploader>Just Legal Solutions</video:uploader>
+      <video:duration>45</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://justlegalsolutions.org/videos/can-you-be-served-at-work-oklahoma-process-serving-rules</loc>
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/LAtxl-D9PjY/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Can You Be Served at Work? — Oklahoma Process Serving Rules</video:title>
+      <video:description>Animated explainer covering whether process servers can legally serve you at your workplace in Oklahoma, and what the rules are.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/LAtxl-D9PjY</video:player_loc>
+      <video:publication_date>2026-05-04T00:00:00+00:00</video:publication_date>
+      <video:uploader>Just Legal Solutions</video:uploader>
+      <video:duration>45</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://justlegalsolutions.org/videos/default-judgment-explained-what-happens-when-you-ignore-a-lawsuit-in-oklahoma</loc>
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/-XE-5ZgMhuw/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Default Judgment Explained — What Happens When You Ignore a Lawsuit in Oklahoma</video:title>
+      <video:description>Animated story-driven short explaining how default judgments work in Oklahoma when defendants fail to respond after being properly served.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/-XE-5ZgMhuw</video:player_loc>
+      <video:publication_date>2026-05-04T00:00:00+00:00</video:publication_date>
+      <video:uploader>Just Legal Solutions</video:uploader>
+      <video:duration>50</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://justlegalsolutions.org/videos/skip-tracing-how-process-servers-find-you-oklahoma</loc>
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/Ht_y4O-CESo/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Skip Tracing: How Process Servers Find You — Oklahoma</video:title>
+      <video:description>Animated noir-style short showing how professional process servers use skip tracing to locate hard-to-find defendants in Oklahoma.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/Ht_y4O-CESo</video:player_loc>
+      <video:publication_date>2026-05-04T00:00:00+00:00</video:publication_date>
+      <video:uploader>Just Legal Solutions</video:uploader>
+      <video:duration>50</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+  <url>
     <loc>https://justlegalsolutions.org/videos/oklahoma-eviction-process-landlord-s-complete-step-by-step-guide</loc>
     <video:video>
       <video:thumbnail_loc>https://img.youtube.com/vi/ApPeLMDA5wU/hqdefault.jpg</video:thumbnail_loc>

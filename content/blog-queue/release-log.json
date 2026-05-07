@@ -4253,6 +4253,40 @@
       },
       "warnings": [],
       "mode": "published"
+    },
+    {
+      "slug": "divorce-papers-served-oklahoma-tulsa",
+      "title": "Getting Divorced in Tulsa? How Divorce Papers Are Served",
+      "category": "Notary Services",
+      "releasedAt": "2026-05-05T16:18:57.407Z",
+      "quality": {
+        "words": 3322,
+        "headings": 20,
+        "paragraphs": 39
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 1
+      },
+      "warnings": [],
+      "mode": "published"
+    },
+    {
+      "slug": "ai-changing-legal-support-services-2026",
+      "title": "How AI Is Changing Legal Support Services in 2026",
+      "category": "Process Serving",
+      "releasedAt": "2026-05-05T16:18:57.410Z",
+      "quality": {
+        "words": 3000,
+        "headings": 18,
+        "paragraphs": 35
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 1
+      },
+      "warnings": [],
+      "mode": "published"
     }
   ],
   "failures": [
