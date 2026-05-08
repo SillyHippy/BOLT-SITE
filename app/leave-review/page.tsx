@@ -1,13 +1,28 @@
 'use client';
 
-import { useEffect } from 'react';
-import { Star, ExternalLink } from 'lucide-react';
+import { useEffect, useMemo } from 'react';
+import { useSearchParams } from 'next/navigation';
+import { Star, ExternalLink, Heart, CheckCircle } from 'lucide-react';
 import { Navbar } from '@/components/ui/navbar';
 import { Footer } from '@/components/ui/footer';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import JsonLd from '@/components/JsonLd';
+import { Suspense } from 'react';
 
-export default function LeaveReviewPage() {
+function LeaveReviewContent() {
+  const searchParams = useSearchParams();
+  const name = searchParams.get('name');
+  const isThankYou = !!name;
+
+  const greeting = useMemo(() => {
+    if (!name) return null;
+    // Capitalize first letter of each word
+    return name
+      .split(' ')
+      .map((w) => w.charAt(0).toUpperCase() + w.slice(1).toLowerCase())
+      .join(' ');
+  }, [name]);
+
   useEffect(() => {
     // Fetch visitor info and send to Google Apps Script
     const trackVisitor = async () => {
@@ -88,37 +103,89 @@ export default function LeaveReviewPage() {
       <header className="bg-white shadow-sm border-b border-gray-200">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 text-center">
-            Share Your Experience
+            {isThankYou ? 'Thank You for Choosing Us!' : 'Share Your Experience'}
           </h1>
           <p className="mt-2 text-sm sm:text-base text-gray-600 text-center">
-            Your feedback helps us serve you better
+            {isThankYou
+              ? 'We truly appreciate your business'
+              : 'Your feedback helps us serve you better'}
           </p>
         </div>
       </header>
 
       {/* Main Content */}
       <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
-        {/* Introduction */}
-        <div className="text-center mb-8 sm:mb-12">
-          <div className="flex justify-center mb-4">
+
+        {/* Personalized Thank You Section */}
+        {isThankYou && (
+          <div className="mb-10 text-center">
+            <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-br from-emerald-400 to-emerald-600 mb-4 shadow-lg">
+              <Heart className="w-8 h-8 text-white fill-white" />
+            </div>
+            <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3">
+              Thank you, {greeting}!
+            </h2>
+            <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed mb-4">
+              We&apos;re grateful you trusted Just Legal Solutions with your legal document needs. 
+              Your satisfaction is our top priority, and we hope we exceeded your expectations.
+            </p>
+
+            <div className="inline-flex items-center gap-3 bg-emerald-50 border border-emerald-200 rounded-xl px-5 py-3 mb-6">
+              <CheckCircle className="w-5 h-5 text-emerald-600 flex-shrink-0" />
+              <p className="text-sm text-emerald-800 font-medium">
+                Your service has been completed — thank you for your business!
+              </p>
+            </div>
+
+            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl border border-blue-100 p-6 sm:p-8 max-w-2xl mx-auto">
+              <p className="text-gray-700 text-base sm:text-lg leading-relaxed">
+                If you have a moment, we&apos;d truly appreciate a quick review. It takes less than 
+                30 seconds and helps other Oklahomans find reliable legal support services. 
+                <span className="font-semibold text-blue-700"> Your voice makes a real difference!</span>
+              </p>
+            </div>
+          </div>
+        )}
+
+        {/* Introduction - shown when NOT a thank-you */}
+        {!isThankYou && (
+          <div className="text-center mb-8 sm:mb-12">
+            <div className="flex justify-center mb-4">
+              <div className="flex gap-1">
+                {[...Array(5)].map((_, i) => (
+                  <Star
+                    key={i}
+                    className="w-8 h-8 sm:w-10 sm:h-10 fill-yellow-400 text-yellow-400"
+                    aria-hidden="true"
+                  />
+                ))}
+              </div>
+            </div>
+            <h2 className="text-xl sm:text-2xl font-semibold text-gray-900 mb-3">
+              We Value Your Feedback
+            </h2>
+            <p className="text-sm sm:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
+              Thank you for choosing Just Legal Solutions. Your review helps others in our community 
+              make informed decisions and helps us continue to improve our services.
+            </p>
+          </div>
+        )}
+
+        {/* Stars divider for thank-you flow */}
+        {isThankYou && (
+          <div className="flex justify-center mb-8">
             <div className="flex gap-1">
               {[...Array(5)].map((_, i) => (
                 <Star
                   key={i}
-                  className="w-8 h-8 sm:w-10 sm:h-10 fill-yellow-400 text-yellow-400"
+                  className="w-7 h-7 sm:w-9 sm:h-9 fill-yellow-400 text-yellow-400 animate-pulse"
+                  style={{ animationDelay: `${i * 100}ms` }}
                   aria-hidden="true"
                 />
               ))}
             </div>
           </div>
-          <h2 className="text-xl sm:text-2xl font-semibold text-gray-900 mb-3">
-            We Value Your Feedback
-          </h2>
-          <p className="text-sm sm:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
-            Thank you for choosing Just Legal Solutions. Your review helps others in our community 
-            make informed decisions and helps us continue to improve our services.
-          </p>
-        </div>
+        )}
 
         {/* Review Platform Cards */}
         <div className="grid gap-6 sm:gap-8 md:grid-cols-2 mb-8">
@@ -149,7 +216,9 @@ export default function LeaveReviewPage() {
               </div>
               
               <p className="text-sm sm:text-base text-gray-600 mb-4 leading-relaxed">
-                Share your experience with our process serving services on Google to help others in the community.
+                {isThankYou
+                  ? 'A quick Google review is the #1 way to support our small business. It takes less than 30 seconds!'
+                  : 'Share your experience with our process serving services on Google to help others in the community.'}
               </p>
               
               <div className="flex items-center justify-between pt-4 border-t border-gray-100">
@@ -190,7 +259,9 @@ export default function LeaveReviewPage() {
               </div>
 
               <p className="text-sm sm:text-base text-gray-600 mb-4 leading-relaxed">
-                Prefer Yelp? Share your experience on our Yelp business profile to help local clients find trusted process serving.
+                {isThankYou
+                  ? 'Prefer Yelp? Your review there helps local clients find trusted process serving in Oklahoma.'
+                  : 'Prefer Yelp? Share your experience on our Yelp business profile to help local clients find trusted process serving.'}
               </p>
 
               <div className="flex items-center justify-between pt-4 border-t border-gray-100">
@@ -237,7 +308,7 @@ export default function LeaveReviewPage() {
 
         {/* Contact Info */}
         <div className="text-center mt-8 sm:mt-12 text-sm text-gray-500">
-          <p>Thank you for your business and taking the time to share your experience!</p>
+          <p>{isThankYou ? 'We look forward to serving you again in the future!' : 'Thank you for your business and taking the time to share your experience!'}</p>
           <p className="mt-2">
             <strong className="text-gray-700">Just Legal Solutions</strong> | Process Serving Excellence in Oklahoma
           </p>
@@ -246,5 +317,17 @@ export default function LeaveReviewPage() {
     </div>
     <Footer />
     </>
+  );
+}
+
+export default function LeaveReviewPage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600" />
+      </div>
+    }>
+      <LeaveReviewContent />
+    </Suspense>
   );
 }
