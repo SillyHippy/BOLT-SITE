@@ -215,6 +215,23 @@ export default function FieldSheet() {
           </FieldGroup>
         </div>
 
+        {/* Servee Contact Information */}
+        <SectionTitle>Contact Information</SectionTitle>
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr 1fr', gap: 10 }}>
+          <FieldGroup label="Phone">
+            <input type="text" placeholder="(555) 555-5555" style={inputStyle} />
+          </FieldGroup>
+          <FieldGroup label="Secondary Phone">
+            <input type="text" placeholder="(555) 555-5555" style={inputStyle} />
+          </FieldGroup>
+          <FieldGroup label="Email">
+            <input type="text" placeholder="email@example.com" style={inputStyle} />
+          </FieldGroup>
+          <FieldGroup label="Other">
+            <input type="text" placeholder="" style={inputStyle} />
+          </FieldGroup>
+        </div>
+
         {/* Service Locations */}
         <SectionTitle>Service Locations</SectionTitle>
         <FieldGroup label="Address 1 (Home/Last Known)">

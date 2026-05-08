@@ -386,7 +386,7 @@ export function Footer() {
             {submissionStatus === 'success' ? (
                 <div className="text-center py-10" role="alert">
                     <h3 className="text-2xl font-bold text-green-600 mb-2">Thank You!</h3>
-                    <p className="text-gray-700">Your service request has been submitted successfully.</p>
+                    <p className="text-gray-700">Your service request was submitted successfully. <strong className="text-blue-700 font-medium block mt-2">Please check your email for a confirmation receipt and a list of your uploaded documents.</strong></p>
                 </div>
             ) : submissionStatus === 'error' ? (
                 <div className="text-center py-10" role="alert">
