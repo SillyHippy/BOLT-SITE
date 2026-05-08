@@ -74,19 +74,27 @@ export default function StaticPerformanceOptimizer() {
       })
     }
 
+    // Cache links to avoid redundant DOM traversals
+    const internalLinks = document.querySelectorAll('a[href^="/"]');
+
+    // Named event handler to allow proper cleanup
+    const handleMouseEnter = (e: Event) => {
+      const link = e.currentTarget as HTMLAnchorElement;
+      const href = link.getAttribute('href');
+      if (href && !document.querySelector(`link[href="${href}"]`)) {
+        const prefetch = document.createElement('link');
+        prefetch.rel = 'prefetch';
+        prefetch.href = href;
+        document.head.appendChild(prefetch);
+      }
+      // Replicate the { once: true } behavior
+      link.removeEventListener('mouseenter', handleMouseEnter);
+    };
+
     // Prefetch next page resources on hover
     const prefetchOnHover = () => {
-      const links = document.querySelectorAll('a[href^="/"]')
-      links.forEach(link => {
-        link.addEventListener('mouseenter', () => {
-          const href = link.getAttribute('href')
-          if (href && !document.querySelector(`link[href="${href}"]`)) {
-            const prefetch = document.createElement('link')
-            prefetch.rel = 'prefetch'
-            prefetch.href = href
-            document.head.appendChild(prefetch)
-          }
-        }, { once: true })
+      internalLinks.forEach(link => {
+        link.addEventListener('mouseenter', handleMouseEnter);
       })
     }
 
@@ -120,9 +128,8 @@ export default function StaticPerformanceOptimizer() {
 
     // Clean up event listeners on unmount
     return () => {
-      const links = document.querySelectorAll('a[href^="/"]')
-      links.forEach(link => {
-        link.removeEventListener('mouseenter', () => {})
+      internalLinks.forEach(link => {
+        link.removeEventListener('mouseenter', handleMouseEnter);
       })
     }
   }, [])
