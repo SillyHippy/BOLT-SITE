@@ -5802,10 +5802,20 @@ export function getCityGeoData(slug: string): CityGeoDatum | undefined {
   return CITY_GEO[slug];
 }
 
+// ⚡ Bolt: Pre-compute county-to-cities map for O(1) lookups instead of O(N) array filtering.
+// CITY_GEO contains ~5800 entries, and getCitiesByCounty is called frequently during SSG.
+// This prevents O(N*M) performance degradation.
+const CITIES_BY_COUNTY_CACHE: Record<string, CityGeoDatum[]> = {};
+for (const city of Object.values(CITY_GEO)) {
+  const normalizedCounty = city.countyName.toLowerCase();
+  if (!CITIES_BY_COUNTY_CACHE[normalizedCounty]) {
+    CITIES_BY_COUNTY_CACHE[normalizedCounty] = [];
+  }
+  CITIES_BY_COUNTY_CACHE[normalizedCounty].push(city);
+}
+
 export function getCitiesByCounty(countyName: string): CityGeoDatum[] {
-  return Object.values(CITY_GEO).filter(
-    (c) => c.countyName.toLowerCase() === countyName.toLowerCase()
-  );
+  return CITIES_BY_COUNTY_CACHE[countyName.toLowerCase()] || [];
 }
 
 export function getAllCitySlugs(): string[] {
