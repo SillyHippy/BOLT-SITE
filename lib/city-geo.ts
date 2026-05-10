@@ -5802,10 +5802,21 @@ export function getCityGeoData(slug: string): CityGeoDatum | undefined {
   return CITY_GEO[slug];
 }
 
+// ⚡ Bolt: Pre-compute county-to-cities mapping for O(1) lookups
+const _citiesByCountyCache = new Map<string, CityGeoDatum[]>();
+for (const city of Object.values(CITY_GEO)) {
+  const countyKey = city.countyName.toLowerCase();
+  let list = _citiesByCountyCache.get(countyKey);
+  if (!list) {
+    list = [];
+    _citiesByCountyCache.set(countyKey, list);
+  }
+  list.push(city);
+}
+
+// ⚡ Bolt: Use the pre-computed O(1) mapping instead of an O(N) array filter
 export function getCitiesByCounty(countyName: string): CityGeoDatum[] {
-  return Object.values(CITY_GEO).filter(
-    (c) => c.countyName.toLowerCase() === countyName.toLowerCase()
-  );
+  return _citiesByCountyCache.get(countyName.toLowerCase()) || [];
 }
 
 export function getAllCitySlugs(): string[] {
