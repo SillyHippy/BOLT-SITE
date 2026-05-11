@@ -539,7 +539,7 @@ export function Footer() {
                   tabIndex={0}
                   aria-label="Upload documents - drag and drop files here or click to browse"
                   onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); fileInputRef.current?.click(); } }}
-                  className={`border-3 border-dashed rounded-xl p-6 text-center cursor-pointer transition-all duration-300 ${
+                  className={`border-3 border-dashed rounded-xl p-6 text-center cursor-pointer transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 ${
                     isDragging
                       ? "border-blue-500 bg-blue-100 scale-[1.01]"
                       : "border-gray-300 bg-blue-50 hover:border-blue-400 hover:bg-blue-100"
@@ -608,7 +608,7 @@ export function Footer() {
                         <button
                           type="button"
                           onClick={(e) => { e.stopPropagation(); removeUploadFile(fileItem.id); }}
-                          className="p-1 text-gray-400 hover:text-red-500 hover:bg-red-50 rounded-lg transition-colors"
+                          className="p-1 text-gray-400 hover:text-red-500 hover:bg-red-50 rounded-lg transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-500"
                           aria-label={`Remove file ${fileItem.file.name}`}
                         >
                           <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
