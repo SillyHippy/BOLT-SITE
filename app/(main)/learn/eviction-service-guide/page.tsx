@@ -339,10 +339,11 @@ export default function EvictionServiceGuidePage() {
           <div className="space-y-4 mb-6">
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-1">Notice Type</label>
-              <div className="flex gap-4">
+              <div className="flex gap-4" role="group" aria-label="Notice Type Selection">
                 <button
                   onClick={() => { setNoticeType('five-day'); setTimelineCalculated(false); }}
-                  className={`px-4 py-2 rounded border text-sm font-medium transition-colors ${
+                  aria-pressed={noticeType === 'five-day'}
+                  className={`px-4 py-2 rounded border text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy focus-visible:ring-offset-2 ${
                     noticeType === 'five-day'
                       ? 'bg-navy text-white border-navy'
                       : 'bg-white text-gray-700 border-gray-300 hover:border-navy'
@@ -352,7 +353,8 @@ export default function EvictionServiceGuidePage() {
                 </button>
                 <button
                   onClick={() => { setNoticeType('ten-day'); setTimelineCalculated(false); }}
-                  className={`px-4 py-2 rounded border text-sm font-medium transition-colors ${
+                  aria-pressed={noticeType === 'ten-day'}
+                  className={`px-4 py-2 rounded border text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy focus-visible:ring-offset-2 ${
                     noticeType === 'ten-day'
                       ? 'bg-navy text-white border-navy'
                       : 'bg-white text-gray-700 border-gray-300 hover:border-navy'
