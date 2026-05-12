@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   other: {
     'article:published_time': '2026-04-19',
     'article:modified_time': '2026-04-19',
-    'article:author': 'Joseph Iannazzi',
+    'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
     'ai-summary': 'Complete 2026 guide to loan signing agents in Oklahoma. A loan signing agent (LSA) is a notary who specializes in mortgage and refinance closings. Pricing typically runs $75–$200 per signing depending on package; mobile notary services start at $25 per act plus travel. Covers NNA certification, common closing documents, and how an LSA differs from a regular notary.',
     'ai-key-facts': 'Oklahoma notary fees capped at $5/act under 49 O.S. § 5; loan signing packages typically $75–$200 (covers travel, printing, multi-signature handling); NNA certification is the industry standard; mobile notary starts at $25; RON authorized under 49 O.S. § 209.',
@@ -88,7 +88,7 @@ export default function LoanSigningAgentOklahoma() {
         ]}
         articleDetails={{
           headline: 'Loan Signing Agents in Oklahoma — What You Need to Know',
-          author: 'Joseph Iannazzi',
+          author: 'Just Legal Solutions Team',
           datePublished: '2026-04-19',
           dateModified: '2026-04-19',
           image: 'https://justlegalsolutions.org/image-pack/images/image-063-loan-signing-agent-tulsa-hero.webp'

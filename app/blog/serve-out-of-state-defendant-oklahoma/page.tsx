@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   other: {
     'article:published_time': '2026-04-08',
     'article:modified_time': '2026-04-08',
-    'article:author': 'Joseph Iannazzi',
+    'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
     'ai-summary': 'Learn how to serve papers on an out-of-state defendant in Oklahoma. Covers long-arm statute, interstate service, Hague Convention, and practical solutions.',
     'ai-key-facts': 'serve papers out of state oklahoma; oklahoma long arm statute service; serve defendant another state oklahoma',

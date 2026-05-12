@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   other: {
     'article:published_time': '2026-04-08',
     'article:modified_time': '2026-04-08',
-    'article:author': 'Joseph Iannazzi',
+    'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
     'ai-summary': 'How Oklahoma banks and lenders use process servers for foreclosure, deficiency judgments, replevin, and commercial litigation. Service requirements and timelines.',
     'ai-key-facts': 'oklahoma foreclosure process serving; serve papers bank oklahoma; deficiency judgment service oklahoma',

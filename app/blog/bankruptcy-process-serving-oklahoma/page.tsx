@@ -79,7 +79,7 @@ export default function BankruptcyProcessServingGuide() {
         pageType="article"
         pageName="Bankruptcy Process Serving Guide Oklahoma"
         description="Comprehensive guide to serving bankruptcy documents in Oklahoma. Learn FRBP 7004 requirements, Chapter 7/11/13 service rules, adversary proceedings, and district court procedures."
-        author={{ name: 'Joseph Iannazzi', url: 'https://justlegalsolutions.org' }}
+        author={{ name: 'Just Legal Solutions Team', url: 'https://justlegalsolutions.org' }}
         datePublished="2025-01-15"
         dateModified="2025-01-15"
       />

@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   other: {
     'article:published_time': '2026-04-08',
     'article:modified_time': '2026-04-08',
-    'article:author': 'Joseph Iannazzi',
+    'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
     'ai-summary': 'Learn when certified mail service is allowed in Oklahoma vs. when personal service is required. 12 O.S. § 2004 rules, return receipts, and strategic considerations.',
     'ai-key-facts': 'certified mail service of process oklahoma; oklahoma serve papers by mail; personal service vs certified mail',

@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   other: {
     'article:published_time': '2026-04-07',
     'article:modified_time': '2026-04-07',
-    'article:author': 'Joseph Iannazzi',
+    'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
     'ai-summary': 'Step-by-step guide to apostilling documents in Oklahoma. Covers process, $25 fee, Secretary of State requirements, common mistakes, and which documents qualify under the Hague Convention.',
     'ai-key-facts': 'Oklahoma apostille fee $25 per document; Secretary of State at 421 NW 13th St Suite 210 OKC; 1-2 business day processing; 120+ Hague Convention countries; Just Legal Solutions offers apostille assistance at (539) 367-6832',
@@ -107,7 +107,7 @@ export default function HowToApostilleDocumentOklahoma() {
         ]}
         articleDetails={{
           headline: 'How to Apostille a Document in Oklahoma | Step-by-Step 2026',
-          author: 'Joseph Iannazzi',
+          author: 'Just Legal Solutions Team',
           datePublished: '2026-04-07',
           dateModified: '2026-04-07',
           image: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.webp'

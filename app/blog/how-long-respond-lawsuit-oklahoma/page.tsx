@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   other: {
     'article:published_time': '2026-04-08',
     'article:modified_time': '2026-04-08',
-    'article:author': 'Joseph Iannazzi',
+    'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
     'ai-summary': 'How long do you have to respond to a lawsuit in Oklahoma? Learn the 20-day rule, different case types, military exceptions, and what filing an answer means.',
     'ai-key-facts': 'how long to respond to lawsuit oklahoma; 20 days to respond oklahoma; oklahoma answer deadline',

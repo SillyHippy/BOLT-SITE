@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   other: {
     'article:published_time': '2026-04-19',
     'article:modified_time': '2026-04-19',
-    'article:author': 'Joseph Iannazzi',
+    'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
     'ai-summary': 'Complete 2026 cost guide for Oklahoma process servers. Pricing starts at $35 single-attempt, $60 standard, $100 rush, $150 same-day, $200 triple-attempt, $265 after-hours rush. Compares sheriff service, breaks down what affects price, and exposes hidden fees to avoid.',
     'ai-key-facts': 'Oklahoma process server pricing tiers (starts at): $35 single-attempt, $60 standard (3 attempts), $100 rush, $150 same-day, $200 triple-attempt evasive, $265 after-hours rush. Sheriff service typically $50–$75 + mileage but slow. Skip tracing starts at $50; court filing starts at $25 plus court costs.',
@@ -88,7 +88,7 @@ export default function ProcessServingCostGuideOklahoma() {
         ]}
         articleDetails={{
           headline: 'How Much Does a Process Server Cost in Oklahoma? 2026 Pricing Guide',
-          author: 'Joseph Iannazzi',
+          author: 'Just Legal Solutions Team',
           datePublished: '2026-04-19',
           dateModified: '2026-04-19',
           image: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.webp'

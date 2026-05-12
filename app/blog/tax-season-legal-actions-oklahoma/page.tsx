@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   other: {
     'article:published_time': '2026-04-08',
     'article:modified_time': '2026-04-08',
-    'article:author': 'Joseph Iannazzi',
+    'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
     'ai-summary': 'Learn about Oklahoma tax liens, IRS levies, and state tax warrants. How tax-related legal actions are served and what you need to know.',
     'ai-key-facts': 'oklahoma tax lien process; IRS levy service oklahoma; state tax warrant oklahoma',

@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   other: {
     'article:published_time': '2026-04-08',
     'article:modified_time': '2026-04-08',
-    'article:author': 'Joseph Iannazzi',
+    'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
     'ai-summary': 'Ever wonder what process servers actually do? Go behind the scenes: GPS tracking, multiple attempts, skip tracing, and the real work of legal service in Oklahoma.',
     'ai-key-facts': 'what does a process server do; how does process serving work; process server job description',

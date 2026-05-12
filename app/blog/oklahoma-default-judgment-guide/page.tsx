@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   other: {
     'article:published_time': '2026-04-08',
     'article:modified_time': '2026-04-08',
-    'article:author': 'Joseph Iannazzi',
+    'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
     'ai-summary': 'What happens if you ignore a lawsuit in Oklahoma? Learn about default judgments, timelines, consequences, and how to set aside a default under Oklahoma law.',
     'ai-key-facts': 'oklahoma default judgment; what happens if you ignore a lawsuit oklahoma; default judgment oklahoma civil procedure',

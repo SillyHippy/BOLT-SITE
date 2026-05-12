@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   other: {
     'article:published_time': '2026-04-07',
     'article:modified_time': '2026-04-07',
-    'article:author': 'Joseph Iannazzi',
+    'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
     'ai-summary': 'Complete guide to Oklahoma notary fees in 2026. Maximum $5 per notarial act (49 O.S. § 5), $25 max for RON (49 O.S. § 209). Covers mobile travel fees, after-hours surcharges, acknowledgment vs jurat, and how total costs are calculated.',
     'ai-key-facts': 'Oklahoma notary max fee: $5/act (49 O.S. § 5); RON max: $25/act (49 O.S. § 209); mobile travel fees $25-$75 (not regulated); $10,000 surety bond required; after-hours surcharge $25-$50 typical',
@@ -88,7 +88,7 @@ export default function OklahomaNotaryFeesGuide() {
         ]}
         articleDetails={{
           headline: 'Oklahoma Notary Fees & Rules 2026 | Complete Guide',
-          author: 'Joseph Iannazzi',
+          author: 'Just Legal Solutions Team',
           datePublished: '2026-04-07',
           dateModified: '2026-04-07',
           image: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.webp'

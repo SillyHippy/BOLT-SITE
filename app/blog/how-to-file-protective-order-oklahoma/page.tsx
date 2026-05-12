@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   other: {
     'article:published_time': '2026-04-08',
     'article:modified_time': '2026-04-08',
-    'article:author': 'Joseph Iannazzi',
+    'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
     'ai-summary': 'Learn how to file a protective order in Oklahoma. Step-by-step guide covering emergency VPOs, permanent orders, court procedures, and service requirements.',
     'ai-key-facts': 'how to file protective order oklahoma; oklahoma VPO process; victim protective order oklahoma',

@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   other: {
     'article:published_time': '2026-04-08',
     'article:modified_time': '2026-04-08',
-    'article:author': 'Joseph Iannazzi',
+    'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
     'ai-summary': 'Can you serve papers yourself in Oklahoma? Learn when DIY service is allowed, who qualifies, risks of improper service, and why professionals matter.',
     'ai-key-facts': 'serve papers yourself oklahoma; do I need a process server oklahoma; self service of process oklahoma',

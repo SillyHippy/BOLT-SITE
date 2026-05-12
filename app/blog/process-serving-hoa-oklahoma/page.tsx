@@ -81,7 +81,7 @@ export default function ProcessServingHOABlog() {
         title="Process Serving for HOA & Condo Associations in Oklahoma"
         description="Comprehensive guide to process serving for Oklahoma homeowners associations and condominium associations, including assessment collection, covenant enforcement, and foreclosure proceedings."
         author={{
-          name: 'Joseph Iannazzi',
+          name: 'Just Legal Solutions Team',
           url: 'https://justlegalsolutions.org/about/',
         }}
         datePublished="2025-01-15"

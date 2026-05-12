@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   other: {
     'article:published_time': '2026-04-08',
     'article:modified_time': '2026-04-08',
-    'article:author': 'Joseph Iannazzi',
+    'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
     'ai-summary': 'Learn how to serve legal papers on businesses and corporations in Oklahoma. Covers registered agents, Secretary of State service, and handling evasive businesses.',
     'ai-key-facts': 'serve papers on business oklahoma; serve LLC oklahoma; serve corporation oklahoma',

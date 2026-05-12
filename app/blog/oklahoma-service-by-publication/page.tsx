@@ -79,7 +79,7 @@ export default function OklahomaServiceByPublicationGuide() {
         url="https://justlegalsolutions.org/blog/oklahoma-service-by-publication"
         datePublished="2024-01-15"
         dateModified="2024-01-15"
-        author={{ name: 'Joseph Iannazzi', url: 'https://justlegalsolutions.org' }}
+        author={{ name: 'Just Legal Solutions Team', url: 'https://justlegalsolutions.org' }}
         breadcrumbs={[
           { name: 'Home', url: 'https://justlegalsolutions.org/' },
           { name: 'Blog', url: 'https://justlegalsolutions.org/blog' },

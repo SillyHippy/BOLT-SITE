@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   other: {
     'article:published_time': '2026-04-08',
     'article:modified_time': '2026-04-08',
-    'article:author': 'Joseph Iannazzi',
+    'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
     'ai-summary': 'Learn how to contest improper service of process in Oklahoma. Covers motions to quash, due process challenges, common defects, and case law examples.',
     'ai-key-facts': 'contest service of process oklahoma; motion to quash service oklahoma; improper service defense oklahoma',

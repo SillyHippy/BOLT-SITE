@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   other: {
     'article:published_time': '2026-04-08',
     'article:modified_time': '2026-04-08',
-    'article:author': 'Joseph Iannazzi',
+    'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
     'ai-summary': 'Just got served papers in Oklahoma? Here\'s exactly what to do: read carefully, count your days, find a lawyer, and protect your rights. Step-by-step guide.',
     'ai-key-facts': 'got served papers oklahoma what now; someone served me papers; what to do when served lawsuit oklahoma',

@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   other: {
     'article:published_time': '2026-04-08',
     'article:modified_time': '2026-04-08',
-    'article:author': 'Joseph Iannazzi',
+    'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
     'ai-summary': 'Complete guide to Oklahoma eviction timelines and notice requirements. Learn notice periods, FED procedures, court timelines, and common landlord mistakes.',
     'ai-key-facts': 'oklahoma eviction timeline; oklahoma landlord tenant law 2026; oklahoma eviction notice requirements',

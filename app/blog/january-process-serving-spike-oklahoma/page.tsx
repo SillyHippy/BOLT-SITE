@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   other: {
     'article:published_time': '2026-04-08',
     'article:modified_time': '2026-04-08',
-    'article:author': 'Joseph Iannazzi',
+    'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
     'ai-summary': 'Why do legal filings spike in January? Learn about post-holiday divorce filings, lease terminations, and how to prepare for Oklahoma\'s busiest legal season.',
     'ai-key-facts': 'oklahoma divorce filings january; new year divorce statistics; january eviction filings oklahoma',

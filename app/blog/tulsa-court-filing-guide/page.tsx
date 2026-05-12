@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   other: {
     'article:published_time': '2026-04-19',
     'article:modified_time': '2026-04-19',
-    'article:author': 'Joseph Iannazzi',
+    'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
     'ai-summary': 'Practical 2026 guide to filing in Tulsa County District Court. Covers OCIS eFiling, civil cover sheets, fee schedules, document preparation, and common mistakes. Courier and walk-in filing services start at $25 plus court costs and integrate with statewide process serving (starts at $35).',
     'ai-key-facts': 'Tulsa County District Court located at 500 S. Denver Ave; OCIS eFiling system used by Oklahoma Supreme Court Network; standard civil filing fee approximately $200; small claims fee tier lower; courier filing starts at $25 plus court costs; process serving starts at $35.',
@@ -88,7 +88,7 @@ export default function TulsaCourtFilingGuide() {
         ]}
         articleDetails={{
           headline: 'Tulsa County Court Filing Guide — eFiling, Costs & Timelines',
-          author: 'Joseph Iannazzi',
+          author: 'Just Legal Solutions Team',
           datePublished: '2026-04-19',
           dateModified: '2026-04-19',
           image: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.webp'

@@ -56,7 +56,7 @@ export default function ProcessServerScamsOklahomaPage() {
         pageUrl="https://justlegalsolutions.org/blog/process-server-scams-oklahoma"
         articleDetails={{
           headline: 'Fake Process Server Scams in Oklahoma: How to Spot Them',
-          author: 'Joseph Iannazzi',
+          author: 'Just Legal Solutions Team',
           datePublished: '2026-04-27',
           dateModified: '2026-04-27',
           image: 'https://justlegalsolutions.org/image-pack/images/image-044-reviews-hero.webp',

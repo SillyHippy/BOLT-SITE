@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-24T06:04:29.052Z",
+  "generated_at": "2026-05-12T12:04:17.416Z",
   "source": "generated-from-app-blog",
   "posts": [
     {
@@ -301,6 +301,546 @@
       "title": "What Does a Process Server Do? A Day in the Life",
       "category": "Process Serving",
       "file_path": "app/blog/what-does-process-server-do-day-in-life/page.tsx"
+    },
+    {
+      "slug": "adoptions-termination-parental-rights-service-requirements-oklahoma",
+      "title": "Adoption & TPR Service Requirements in Oklahoma",
+      "category": "Process Serving",
+      "file_path": "app/blog/adoptions-termination-parental-rights-service-requirements-oklahoma/page.tsx"
+    },
+    {
+      "slug": "ai-continue-changing-legal-support-2027-oklahoma",
+      "title": "How AI Will Continue Changing Legal Support in 2027",
+      "category": "Trends",
+      "file_path": "app/blog/ai-continue-changing-legal-support-2027-oklahoma/page.tsx"
+    },
+    {
+      "slug": "apostille-document-authentication-services-oklahoma",
+      "title": "Apostille & Document Authentication in Oklahoma",
+      "category": "Notary Services",
+      "file_path": "app/blog/apostille-document-authentication-services-oklahoma/page.tsx"
+    },
+    {
+      "slug": "chain-custody-legal-document-handling-importance-oklahoma",
+      "title": "Chain of Custody in Legal Documents: Oklahoma Guide",
+      "category": "Process Serving",
+      "file_path": "app/blog/chain-custody-legal-document-handling-importance-oklahoma/page.tsx"
+    },
+    {
+      "slug": "choose-right-legal-support-partner-oklahoma",
+      "title": "How to Choose the Right Legal Support Partner in Oklahoma",
+      "category": "Practical Guides",
+      "file_path": "app/blog/choose-right-legal-support-partner-oklahoma/page.tsx"
+    },
+    {
+      "slug": "construction-litigation-process-serving-mechanics-liens-oklahoma",
+      "title": "Construction Process Serving in Oklahoma: Liens & Bond Claims",
+      "category": "Process Serving",
+      "file_path": "app/blog/construction-litigation-process-serving-mechanics-liens-oklahoma/page.tsx"
+    },
+    {
+      "slug": "corporate-notary-services-bulk-notarization-businesses-oklahoma",
+      "title": "Corporate Notary: Bulk Notarization for Oklahoma Businesses",
+      "category": "Notary Services",
+      "file_path": "app/blog/corporate-notary-services-bulk-notarization-businesses-oklahoma/page.tsx"
+    },
+    {
+      "slug": "corporate-resolution-notarization-board-meetings-shareholder-votes-oklahoma",
+      "title": "Corporate Resolution Notarization in Oklahoma Guide",
+      "category": "Notary",
+      "file_path": "app/blog/corporate-resolution-notarization-board-meetings-shareholder-votes-oklahoma/page.tsx"
+    },
+    {
+      "slug": "divorce-separation-serving-papers-sensitivity-discretion-oklahoma",
+      "title": "Serve Divorce Papers in Oklahoma with Discretion",
+      "category": "Process Serving",
+      "file_path": "app/blog/divorce-separation-serving-papers-sensitivity-discretion-oklahoma/page.tsx"
+    },
+    {
+      "slug": "document-preparation-virtual-assistants-legal-drafting-oklahoma",
+      "title": "Virtual Assistants for Legal Document Drafting in Oklahoma",
+      "category": "VA Services",
+      "file_path": "app/blog/document-preparation-virtual-assistants-legal-drafting-oklahoma/page.tsx"
+    },
+    {
+      "slug": "document-retrieval-services-court-records-oklahoma",
+      "title": "Oklahoma Court Records: Document Retrieval Guide",
+      "category": "Courier",
+      "file_path": "app/blog/document-retrieval-services-court-records-oklahoma/page.tsx"
+    },
+    {
+      "slug": "document-service-attempts-best-practices-affidavits-oklahoma",
+      "title": "How to Document Service Attempts: Affidavit Best Practices",
+      "category": "Process Serving",
+      "file_path": "app/blog/document-service-attempts-best-practices-affidavits-oklahoma/page.tsx"
+    },
+    {
+      "slug": "domestic-violence-protective-order-service-oklahoma",
+      "title": "Serving Protective Orders in Oklahoma DV Cases",
+      "category": "Process Serving",
+      "file_path": "app/blog/domestic-violence-protective-order-service-oklahoma/page.tsx"
+    },
+    {
+      "slug": "electronic-proof-service-digital-signatures-court-acceptance-oklahoma",
+      "title": "Digital Proof of Service: Signatures Oklahoma Courts Accept",
+      "category": "Technology",
+      "file_path": "app/blog/electronic-proof-service-digital-signatures-court-acceptance-oklahoma/page.tsx"
+    },
+    {
+      "slug": "email-communication-management-attorneys-oklahoma",
+      "title": "Email Management for Oklahoma Attorneys: A Complete Guide",
+      "category": "VA Services",
+      "file_path": "app/blog/email-communication-management-attorneys-oklahoma/page.tsx"
+    },
+    {
+      "slug": "enforcing-out-of-state-custody-orders-service-process-oklahoma",
+      "title": "Enforcing Out-of-State Custody Orders in Oklahoma",
+      "category": "Process Serving",
+      "file_path": "app/blog/enforcing-out-of-state-custody-orders-service-process-oklahoma/page.tsx"
+    },
+    {
+      "slug": "environmental-law-process-serving-epa-compliance-oklahoma",
+      "title": "Environmental Law Process Serving: EPA & DEQ Compliance in Oklahoma",
+      "category": "Process Serving",
+      "file_path": "app/blog/environmental-law-process-serving-epa-compliance-oklahoma/page.tsx"
+    },
+    {
+      "slug": "gps-tracking-revolutionizes-process-serving-accountability-oklahoma",
+      "title": "GPS Tracking Revolutionizes Process Serving Accountability in Oklahoma",
+      "category": "Technology",
+      "file_path": "app/blog/gps-tracking-revolutionizes-process-serving-accountability-oklahoma/page.tsx"
+    },
+    {
+      "slug": "guardianship-conservatorship-process-serving-oklahoma",
+      "title": "Guardianship & Conservatorship Process Serving Oklahoma",
+      "category": "Process Serving",
+      "file_path": "app/blog/guardianship-conservatorship-process-serving-oklahoma/page.tsx"
+    },
+    {
+      "slug": "hoa-property-management-process-serving-oklahoma",
+      "title": "HOA & Property Management Process Serving in Oklahoma",
+      "category": "Process Serving",
+      "file_path": "app/blog/hoa-property-management-process-serving-oklahoma/page.tsx"
+    },
+    {
+      "slug": "i9-verification-services-notary-employment-eligibility-oklahoma",
+      "title": "I-9 Verification by Notaries: What Oklahoma Employers Must Know",
+      "category": "Notary Services",
+      "file_path": "app/blog/i9-verification-services-notary-employment-eligibility-oklahoma/page.tsx"
+    },
+    {
+      "slug": "in-house-paralegal-vs-virtual-legal-assistant-cost-oklahoma",
+      "title": "In-House Paralegal vs. Virtual Legal Assistant: Cost Guide",
+      "category": "VA Services",
+      "file_path": "app/blog/in-house-paralegal-vs-virtual-legal-assistant-cost-oklahoma/page.tsx"
+    },
+    {
+      "slug": "insurance-adjusters-use-process-servers-claims-subpoenas-oklahoma",
+      "title": "How Adjusters Use Process Servers: Claims & Subpoenas OK",
+      "category": "Process Serving",
+      "file_path": "app/blog/insurance-adjusters-use-process-servers-claims-subpoenas-oklahoma/page.tsx"
+    },
+    {
+      "slug": "international-document-notarization-apostille-oklahoma",
+      "title": "International Document Notarization and Apostille in Oklahoma",
+      "category": "Notary Services",
+      "file_path": "app/blog/international-document-notarization-apostille-oklahoma/page.tsx"
+    },
+    {
+      "slug": "law-firm-back-office-support-streamlining-operations-oklahoma",
+      "title": "Law Firm Back Office Support: Streamline Operations",
+      "category": "VA Services",
+      "file_path": "app/blog/law-firm-back-office-support-streamlining-operations-oklahoma/page.tsx"
+    },
+    {
+      "slug": "law-firms-cut-costs-without-cutting-corners-oklahoma",
+      "title": "How Oklahoma Law Firms Can Cut Costs Without Cutting Corners",
+      "category": "VA Services",
+      "file_path": "app/blog/law-firms-cut-costs-without-cutting-corners-oklahoma/page.tsx"
+    },
+    {
+      "slug": "legal-document-courier-services-speed-security-chain-custody-oklahoma",
+      "title": "Legal Document Courier Services in Oklahoma",
+      "category": "Courier",
+      "file_path": "app/blog/legal-document-courier-services-speed-security-chain-custody-oklahoma/page.tsx"
+    },
+    {
+      "slug": "legal-document-retention-requirements-oklahoma",
+      "title": "Legal Document Retention Requirements in Oklahoma Guide",
+      "category": "Legal Procedures",
+      "file_path": "app/blog/legal-document-retention-requirements-oklahoma/page.tsx"
+    },
+    {
+      "slug": "legal-industry-changed-2026-year-review",
+      "title": "Legal Industry Changed in 2026: Year in Review",
+      "category": "Trends",
+      "file_path": "app/blog/legal-industry-changed-2026-year-review/page.tsx"
+    },
+    {
+      "slug": "legal-transcription-services-accuracy-turnaround-oklahoma",
+      "title": "Legal Transcription: Accuracy & Turnaround in Oklahoma",
+      "category": "VA Services",
+      "file_path": "app/blog/legal-transcription-services-accuracy-turnaround-oklahoma/page.tsx"
+    },
+    {
+      "slug": "mobile-apps-legal-professionals-field-service-technology-oklahoma",
+      "title": "Mobile Apps for Legal Professionals: Field Service Tech",
+      "category": "Technology",
+      "file_path": "app/blog/mobile-apps-legal-professionals-field-service-technology-oklahoma/page.tsx"
+    },
+    {
+      "slug": "mobile-notary-jails-correctional-facilities-oklahoma",
+      "title": "Jail & Prison Notary in Oklahoma: Complete Guide",
+      "category": "Notary Services",
+      "file_path": "app/blog/mobile-notary-jails-correctional-facilities-oklahoma/page.tsx"
+    },
+    {
+      "slug": "notaries-support-bankruptcy-filings-oklahoma",
+      "title": "How Notaries Support Bankruptcy Filings in Oklahoma",
+      "category": "Notary Services",
+      "file_path": "app/blog/notaries-support-bankruptcy-filings-oklahoma/page.tsx"
+    },
+    {
+      "slug": "notarizing-documents-incapacitated-individuals-oklahoma",
+      "title": "Notarizing for Incapacitated Signers: An Oklahoma Guide",
+      "category": "Notary Services",
+      "file_path": "app/blog/notarizing-documents-incapacitated-individuals-oklahoma/page.tsx"
+    },
+    {
+      "slug": "notary-errors-omissions-insurance-every-notary-needs-oklahoma",
+      "title": "Notary E&O Insurance: Why Every Oklahoma Notary Needs It",
+      "category": "Notary Services",
+      "file_path": "app/blog/notary-errors-omissions-insurance-every-notary-needs-oklahoma/page.tsx"
+    },
+    {
+      "slug": "notary-healthcare-directives-medical-documents-oklahoma",
+      "title": "Notary for Healthcare Directives & Medical Docs in Oklahoma",
+      "category": "Notary Services",
+      "file_path": "app/blog/notary-healthcare-directives-medical-documents-oklahoma/page.tsx"
+    },
+    {
+      "slug": "notary-intellectual-property-filings-patent-documents-oklahoma",
+      "title": "Notary for Patent & IP Documents in Oklahoma",
+      "category": "Notary Services",
+      "file_path": "app/blog/notary-intellectual-property-filings-patent-documents-oklahoma/page.tsx"
+    },
+    {
+      "slug": "notary-journal-requirements-best-practices-record-keeping-oklahoma",
+      "title": "Oklahoma Notary Journal Requirements: Best Practices Guide",
+      "category": "Notary Services",
+      "file_path": "app/blog/notary-journal-requirements-best-practices-record-keeping-oklahoma/page.tsx"
+    },
+    {
+      "slug": "notary-military-families-deployment-power-attorney-oklahoma",
+      "title": "Military Power of Attorney & Notary Services in Oklahoma",
+      "category": "Notary Services",
+      "file_path": "app/blog/notary-military-families-deployment-power-attorney-oklahoma/page.tsx"
+    },
+    {
+      "slug": "notary-services-construction-companies-lien-waivers-affidavits-oklahoma",
+      "title": "Oklahoma Construction Notary: Lien Waivers & Affidavits",
+      "category": "Notary Services",
+      "file_path": "app/blog/notary-services-construction-companies-lien-waivers-affidavits-oklahoma/page.tsx"
+    },
+    {
+      "slug": "notary-services-immigration-documents-i9-affidavits-oklahoma",
+      "title": "Notary Immigration Documents Oklahoma | I-9 & Affidavits",
+      "category": "Notary Services",
+      "file_path": "app/blog/notary-services-immigration-documents-i9-affidavits-oklahoma/page.tsx"
+    },
+    {
+      "slug": "oklahoma-180-day-rule-service-process-explained",
+      "title": "Oklahoma 180-Day Rule for Service of Process Explained",
+      "category": "Legal Procedures",
+      "file_path": "app/blog/oklahoma-180-day-rule-service-process-explained/page.tsx"
+    },
+    {
+      "slug": "onboard-virtual-assistant-legal-practice-oklahoma",
+      "title": "How to Onboard a Virtual Assistant for Your Law Firm",
+      "category": "VA Services",
+      "file_path": "app/blog/onboard-virtual-assistant-legal-practice-oklahoma/page.tsx"
+    },
+    {
+      "slug": "outsourcing-document-review-virtual-assistant-best-practices-oklahoma",
+      "title": "Outsource Document Review to Virtual Assistants | Oklahoma",
+      "category": "VA Services",
+      "file_path": "app/blog/outsourcing-document-review-virtual-assistant-best-practices-oklahoma/page.tsx"
+    },
+    {
+      "slug": "private-investigators-collaborate-process-servers-oklahoma",
+      "title": "How Private Investigators Help Process Servers in Oklahoma",
+      "category": "Process Serving",
+      "file_path": "app/blog/private-investigators-collaborate-process-servers-oklahoma/page.tsx"
+    },
+    {
+      "slug": "process-server-safety-guide-protecting-field-oklahoma",
+      "title": "Process Server Safety Guide: Protecting Yourself in the Field",
+      "category": "Process Serving",
+      "file_path": "app/blog/process-server-safety-guide-protecting-field-oklahoma/page.tsx"
+    },
+    {
+      "slug": "process-servers-handle-emotionally-charged-situations-oklahoma",
+      "title": "Process Servers & Emotional Situations in Oklahoma",
+      "category": "Process Serving",
+      "file_path": "app/blog/process-servers-handle-emotionally-charged-situations-oklahoma/page.tsx"
+    },
+    {
+      "slug": "process-serving-child-support-enforcement-oklahoma",
+      "title": "Process Serving for Child Support Enforcement in Oklahoma",
+      "category": "Process Serving",
+      "file_path": "app/blog/process-serving-child-support-enforcement-oklahoma/page.tsx"
+    },
+    {
+      "slug": "process-serving-class-action-lawsuits-mass-notification-oklahoma",
+      "title": "Class Action Process Serving & Mass Notification in Oklahoma",
+      "category": "Process Serving",
+      "file_path": "app/blog/process-serving-class-action-lawsuits-mass-notification-oklahoma/page.tsx"
+    },
+    {
+      "slug": "process-serving-debt-collection-agencies-oklahoma",
+      "title": "Process Serving for Debt Collection Agencies in Oklahoma",
+      "category": "Process Serving",
+      "file_path": "app/blog/process-serving-debt-collection-agencies-oklahoma/page.tsx"
+    },
+    {
+      "slug": "process-serving-ethics-professionals-oklahoma",
+      "title": "Process Serving Ethics: What Sets Oklahoma Pros Apart",
+      "category": "Process Serving",
+      "file_path": "app/blog/process-serving-ethics-professionals-oklahoma/page.tsx"
+    },
+    {
+      "slug": "process-serving-family-law-paternity-adoption-custody-oklahoma",
+      "title": "Serving Family Law Papers in Oklahoma: A Server\\",
+      "category": "Process Serving",
+      "file_path": "app/blog/process-serving-family-law-paternity-adoption-custody-oklahoma/page.tsx"
+    },
+    {
+      "slug": "process-serving-federal-courts-oklahoma",
+      "title": "Oklahoma Federal Court Process Serving: N.D., W.D., E.D.",
+      "category": "Process Serving",
+      "file_path": "app/blog/process-serving-federal-courts-oklahoma/page.tsx"
+    },
+    {
+      "slug": "process-serving-government-contractors-federal-compliance-oklahoma",
+      "title": "Process Serving Government Contractors: Federal Compliance",
+      "category": "Process Serving",
+      "file_path": "app/blog/process-serving-government-contractors-federal-compliance-oklahoma/page.tsx"
+    },
+    {
+      "slug": "process-serving-insurance-companies-claims-litigation-oklahoma",
+      "title": "Process Serving Insurance Companies in Oklahoma Explained",
+      "category": "Process Serving",
+      "file_path": "app/blog/process-serving-insurance-companies-claims-litigation-oklahoma/page.tsx"
+    },
+    {
+      "slug": "process-serving-juvenile-court-confidentiality-oklahoma",
+      "title": "Process Serving in Juvenile Court: Oklahoma Guide",
+      "category": "Process Serving",
+      "file_path": "app/blog/process-serving-juvenile-court-confidentiality-oklahoma/page.tsx"
+    },
+    {
+      "slug": "process-serving-non-profits-advocacy-organizations-oklahoma",
+      "title": "Process Serving for Oklahoma Nonprofits: Complete Guide",
+      "category": "Process Serving",
+      "file_path": "app/blog/process-serving-non-profits-advocacy-organizations-oklahoma/page.tsx"
+    },
+    {
+      "slug": "process-serving-predictions-2027-oklahoma",
+      "title": "Process Serving Predictions for 2027: What Oklahoma Servers Must Know",
+      "category": "Trends",
+      "file_path": "app/blog/process-serving-predictions-2027-oklahoma/page.tsx"
+    },
+    {
+      "slug": "process-serving-rural-oklahoma-challenges-solutions",
+      "title": "Rural Oklahoma Process Serving: Challenges & Solutions",
+      "category": "Process Serving",
+      "file_path": "app/blog/process-serving-rural-oklahoma-challenges-solutions/page.tsx"
+    },
+    {
+      "slug": "process-serving-title-companies-escrow-closing-documents-oklahoma",
+      "title": "Process Serving for Oklahoma Title Companies: Full Guide",
+      "category": "Process Serving",
+      "file_path": "app/blog/process-serving-title-companies-escrow-closing-documents-oklahoma/page.tsx"
+    },
+    {
+      "slug": "process-serving-tribal-land-mcgirt-jurisdiction-oklahoma",
+      "title": "McGirt & Post-McGirt Process Serving: A 2026 Guide",
+      "category": "Process Serving",
+      "file_path": "app/blog/process-serving-tribal-land-mcgirt-jurisdiction-oklahoma/page.tsx"
+    },
+    {
+      "slug": "rush-document-delivery-emergency-filing-court-deadlines-oklahoma",
+      "title": "Rush Court Filing in Oklahoma: Emergency Delivery Guide",
+      "category": "Courier",
+      "file_path": "app/blog/rush-document-delivery-emergency-filing-court-deadlines-oklahoma/page.tsx"
+    },
+    {
+      "slug": "rush-vs-standard-vs-same-day-service-level-case-needs-oklahoma",
+      "title": "Rush vs. Standard vs. Same-Day Process Serving in Oklahoma",
+      "category": "Process Serving",
+      "file_path": "app/blog/rush-vs-standard-vs-same-day-service-level-case-needs-oklahoma/page.tsx"
+    },
+    {
+      "slug": "same-day-document-delivery-law-firms-oklahoma",
+      "title": "Same-Day Document Delivery for Law Firms in Oklahoma",
+      "category": "Courier",
+      "file_path": "app/blog/same-day-document-delivery-law-firms-oklahoma/page.tsx"
+    },
+    {
+      "slug": "scale-solo-practice-virtual-support-oklahoma",
+      "title": "How to Scale a Solo Practice with Virtual Support",
+      "category": "VA Services",
+      "file_path": "app/blog/scale-solo-practice-virtual-support-oklahoma/page.tsx"
+    },
+    {
+      "slug": "secure-document-handling-hipaa-attorney-client-privilege-oklahoma",
+      "title": "HIPAA-Compliant Document Delivery for Oklahoma Law Firms",
+      "category": "Courier",
+      "file_path": "app/blog/secure-document-handling-hipaa-attorney-client-privilege-oklahoma/page.tsx"
+    },
+    {
+      "slug": "serving-active-duty-military-personnel-scra-compliance-oklahoma",
+      "title": "Serving Active-Duty Military in Oklahoma: SCRA Guide",
+      "category": "Process Serving",
+      "file_path": "app/blog/serving-active-duty-military-personnel-scra-compliance-oklahoma/page.tsx"
+    },
+    {
+      "slug": "serving-subpoenas-social-media-companies-tech-platforms-oklahoma",
+      "title": "Serve Subpoenas on Social Media & Tech in Oklahoma",
+      "category": "Process Serving",
+      "file_path": "app/blog/serving-subpoenas-social-media-companies-tech-platforms-oklahoma/page.tsx"
+    },
+    {
+      "slug": "special-process-server-appointment-authority-oklahoma",
+      "title": "Special Process Server in Oklahoma: Appointment & Authority",
+      "category": "Process Serving",
+      "file_path": "app/blog/special-process-server-appointment-authority-oklahoma/page.tsx"
+    },
+    {
+      "slug": "start-mobile-notary-business-oklahoma",
+      "title": "How to Start a Mobile Notary Business in Oklahoma (2026)",
+      "category": "Notary Services",
+      "file_path": "app/blog/start-mobile-notary-business-oklahoma/page.tsx"
+    },
+    {
+      "slug": "technology-reduces-process-serving-errors-oklahoma",
+      "title": "How Technology Reduces Process Serving Errors in Oklahoma",
+      "category": "Technology",
+      "file_path": "app/blog/technology-reduces-process-serving-errors-oklahoma/page.tsx"
+    },
+    {
+      "slug": "track-legal-documents-transit-gps-proof-delivery-oklahoma",
+      "title": "GPS Legal Document Tracking & Proof of Delivery | Oklahoma",
+      "category": "Courier",
+      "file_path": "app/blog/track-legal-documents-transit-gps-proof-delivery-oklahoma/page.tsx"
+    },
+    {
+      "slug": "vehicle-title-transfer-notarization-oklahoma",
+      "title": "Oklahoma Vehicle Title Notarization: What Sellers Must Know",
+      "category": "Notary Services",
+      "file_path": "app/blog/vehicle-title-transfer-notarization-oklahoma/page.tsx"
+    },
+    {
+      "slug": "verify-service-process-completed-correctly-oklahoma",
+      "title": "Verify Service of Process Was Completed Correctly Oklahoma",
+      "category": "Process Serving",
+      "file_path": "app/blog/verify-service-process-completed-correctly-oklahoma/page.tsx"
+    },
+    {
+      "slug": "virtual-assistant-case-management-help-oklahoma",
+      "title": "How a Virtual Assistant Can Help with Case Management",
+      "category": "VA Services",
+      "file_path": "app/blog/virtual-assistant-case-management-help-oklahoma/page.tsx"
+    },
+    {
+      "slug": "virtual-assistant-client-intake-law-firms-oklahoma",
+      "title": "Virtual Assistants for Law Firm Client Intake in Oklahoma",
+      "category": "VA Services",
+      "file_path": "app/blog/virtual-assistant-client-intake-law-firms-oklahoma/page.tsx"
+    },
+    {
+      "slug": "virtual-assistant-services-2027-trends-predictions-oklahoma",
+      "title": "Virtual Assistant Services: 2027 Trends and Predictions",
+      "category": "VA Services",
+      "file_path": "app/blog/virtual-assistant-services-2027-trends-predictions-oklahoma/page.tsx"
+    },
+    {
+      "slug": "virtual-assistant-solo-practitioners-practice-without-staff-oklahoma",
+      "title": "Virtual Assistant for Solo Practitioners in Oklahoma",
+      "category": "VA Services",
+      "file_path": "app/blog/virtual-assistant-solo-practitioners-practice-without-staff-oklahoma/page.tsx"
+    },
+    {
+      "slug": "virtual-assistant-transform-law-firm-efficiency-oklahoma",
+      "title": "How a VA Can Transform Your Law Firm\\",
+      "category": "VA Services",
+      "file_path": "app/blog/virtual-assistant-transform-law-firm-efficiency-oklahoma/page.tsx"
+    },
+    {
+      "slug": "virtual-assistant-vs-in-house-staff-pros-cons-roi-oklahoma",
+      "title": "Virtual Assistant vs. In-House Staff: A Law Firm\\",
+      "category": "VA Services",
+      "file_path": "app/blog/virtual-assistant-vs-in-house-staff-pros-cons-roi-oklahoma/page.tsx"
+    },
+    {
+      "slug": "virtual-assistants-billing-invoicing-help-oklahoma",
+      "title": "How Virtual Assistants Help Law Firms With Billing",
+      "category": "VA Services",
+      "file_path": "app/blog/virtual-assistants-billing-invoicing-help-oklahoma/page.tsx"
+    },
+    {
+      "slug": "virtual-assistants-court-filing-efiling-support-oklahoma",
+      "title": "Virtual Assistants for Court Filing & eFiling in Oklahoma",
+      "category": "VA Services",
+      "file_path": "app/blog/virtual-assistants-court-filing-efiling-support-oklahoma/page.tsx"
+    },
+    {
+      "slug": "virtual-assistants-legal-research-discovery-oklahoma",
+      "title": "How VAs Help With Legal Research & Discovery in OK",
+      "category": "VA Services",
+      "file_path": "app/blog/virtual-assistants-legal-research-discovery-oklahoma/page.tsx"
+    },
+    {
+      "slug": "virtual-assistants-trial-preparation-support-oklahoma",
+      "title": "How Virtual Assistants Help Prepare for Trial in Oklahoma",
+      "category": "VA Services",
+      "file_path": "app/blog/virtual-assistants-trial-preparation-support-oklahoma/page.tsx"
+    },
+    {
+      "slug": "virtual-paralegal-services-delegated-tasks-oklahoma",
+      "title": "Virtual Paralegal Services Oklahoma: Delegated Tasks",
+      "category": "VA Services",
+      "file_path": "app/blog/virtual-paralegal-services-delegated-tasks-oklahoma/page.tsx"
+    },
+    {
+      "slug": "virtual-receptionist-phone-answering-attorneys-oklahoma",
+      "title": "Virtual Receptionist for Oklahoma Attorneys",
+      "category": "VA Services",
+      "file_path": "app/blog/virtual-receptionist-phone-answering-attorneys-oklahoma/page.tsx"
+    },
+    {
+      "slug": "virtual-scheduling-appointment-management-law-firms-oklahoma",
+      "title": "Virtual Appointment Management for Oklahoma Law Firms",
+      "category": "VA Services",
+      "file_path": "app/blog/virtual-scheduling-appointment-management-law-firms-oklahoma/page.tsx"
+    },
+    {
+      "slug": "weather-seasonal-events-affect-process-serving-oklahoma",
+      "title": "Weather & Seasonal Effects on Oklahoma Process Serving",
+      "category": "Process Serving",
+      "file_path": "app/blog/weather-seasonal-events-affect-process-serving-oklahoma/page.tsx"
+    },
+    {
+      "slug": "what-to-expect-hiring-process-server-client-faq-oklahoma",
+      "title": "What to Expect When Hiring a Process Server in Oklahoma",
+      "category": "Process Serving",
+      "file_path": "app/blog/what-to-expect-hiring-process-server-client-faq-oklahoma/page.tsx"
+    },
+    {
+      "slug": "year-end-legal-deadlines-oklahoma-attorneys",
+      "title": "Year-End Legal Deadlines Every Oklahoma Attorney Must Track",
+      "category": "Legal Procedures",
+      "file_path": "app/blog/year-end-legal-deadlines-oklahoma-attorneys/page.tsx"
     }
   ]
 }

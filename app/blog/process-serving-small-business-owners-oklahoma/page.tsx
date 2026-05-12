@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   other: {
     'article:published_time': '2026-04-08',
     'article:modified_time': '2026-04-08',
-    'article:author': 'Joseph Iannazzi',
+    'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
     'ai-summary': 'Guide for Oklahoma small business owners on process serving. When to sue, when you get sued, breach of contract, mechanic\'s liens, and protecting your business.',
     'ai-key-facts': 'small business lawsuit oklahoma; sue business oklahoma; business dispute service oklahoma',

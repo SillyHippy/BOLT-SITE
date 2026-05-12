@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   other: {
     'article:published_time': '2026-04-08',
     'article:modified_time': '2026-04-08',
-    'article:author': 'Joseph Iannazzi',
+    'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
     'ai-summary': 'Guide for Oklahoma real estate agents on process serving. Contract disputes, escrow issues, HOA enforcement, quiet title actions, and litigation service.',
     'ai-key-facts': 'real estate lawsuit oklahoma; serve papers real estate dispute; real estate agent process server',

@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   other: {
     'article:published_time': '2026-04-08',
     'article:modified_time': '2026-04-08',
-    'article:author': 'Joseph Iannazzi',
+    'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
     'ai-summary': 'Learn how bail bondsmen and process servers collaborate in Oklahoma. FTA warrants, bond forfeiture, skip tracing, and locating defendants who skip bail.',
     'ai-key-facts': 'bail bond process serving oklahoma; FTA warrant service oklahoma; bond forfeiture process server',

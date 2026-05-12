@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   other: {
     'article:published_time': '2026-04-19',
     'article:modified_time': '2026-04-19',
-    'article:author': 'Joseph Iannazzi',
+    'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
     'ai-summary': 'Complete 2026 guide to skip tracing in Oklahoma. Skip tracing locates hard-to-find defendants using public records, utilities, social media, and proprietary databases. Pricing starts at $50, with success rates of 75–90% on standard cases. Pairs directly with process serving (starts at $35) and helps avoid costly service by publication.',
     'ai-key-facts': 'Oklahoma skip tracing pricing starts at $50; success rates 75–90% typical; integrates with process serving (starts at $35); legal limits include FCRA, GLBA, DPPA; can prevent service by publication under 12 O.S. § 2004; Oklahoma process server licensing under 12 O.S. § 158.1.',
@@ -88,7 +88,7 @@ export default function SkipTracingOklahomaGuide() {
         ]}
         articleDetails={{
           headline: 'Skip Tracing in Oklahoma — Find Hard-to-Locate Defendants',
-          author: 'Joseph Iannazzi',
+          author: 'Just Legal Solutions Team',
           datePublished: '2026-04-19',
           dateModified: '2026-04-19',
           image: 'https://justlegalsolutions.org/image-pack/images/image-058-skip-tracing-oklahoma-guide-og.webp'

@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   other: {
     'article:published_time': '2026-04-08',
     'article:modified_time': '2026-04-08',
-    'article:author': 'Joseph Iannazzi',
+    'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
     'ai-summary': 'Specialized process serving for Oklahoma oil and gas litigation. Lease disputes, mineral rights, royalty cases, and serving operators at drilling sites.',
     'ai-key-facts': 'oil and gas litigation oklahoma; serve papers drilling site; process server oil gas oklahoma',

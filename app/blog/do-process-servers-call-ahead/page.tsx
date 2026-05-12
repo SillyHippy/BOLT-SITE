@@ -51,7 +51,7 @@ export default function DoProcessServersCallAheadPage() {
         pageUrl="https://justlegalsolutions.org/blog/do-process-servers-call-ahead"
         articleDetails={{
           headline: 'Do Process Servers Call Ahead? Oklahoma Guide',
-          author: 'Joseph Iannazzi',
+          author: 'Just Legal Solutions Team',
           datePublished: '2026-04-27',
           dateModified: '2026-04-27',
           image: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',

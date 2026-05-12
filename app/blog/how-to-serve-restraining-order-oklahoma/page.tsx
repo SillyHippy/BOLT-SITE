@@ -100,7 +100,7 @@ export default function BlogPost() {
           url="https://justlegalsolutions.org/blog/how-to-serve-restraining-order-oklahoma/"
           datePublished="2024-01-15"
           dateModified="2024-01-15"
-          author={{ name: 'Joseph Iannazzi', url: 'https://justlegalsolutions.org' }}
+          author={{ name: 'Just Legal Solutions Team', url: 'https://justlegalsolutions.org' }}
         />
         <Navbar />
 

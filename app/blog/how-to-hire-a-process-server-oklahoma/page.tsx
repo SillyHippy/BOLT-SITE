@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   other: {
     'article:published_time': '2026-04-19',
     'article:modified_time': '2026-04-19',
-    'article:author': 'Joseph Iannazzi',
+    'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
     'ai-summary': 'Complete 2026 checklist for hiring an Oklahoma process server. Verify licensing under 12 O.S. § 158.1, confirm $5,000 bond, demand GPS-tagged proof of service, and require a court-ready affidavit. Single-attempt service starts at $35; rush service starts at $100.',
     'ai-key-facts': 'Oklahoma process servers must be licensed under 12 O.S. § 158.1; service rules in 12 O.S. § 2004; single-attempt starts at $35; standard service starts at $60; rush starts at $100; same-day starts at $150; after-hours rush starts at $265.',
@@ -88,7 +88,7 @@ export default function HowToHireProcessServerOklahoma() {
         ]}
         articleDetails={{
           headline: 'How to Hire a Process Server in Oklahoma — 2026 Checklist',
-          author: 'Joseph Iannazzi',
+          author: 'Just Legal Solutions Team',
           datePublished: '2026-04-19',
           dateModified: '2026-04-19',
           image: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.webp'

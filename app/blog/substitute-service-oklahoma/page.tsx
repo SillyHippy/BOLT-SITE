@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   other: {
     'article:published_time': '2026-04-08',
     'article:modified_time': '2026-04-08',
-    'article:author': 'Joseph Iannazzi',
+    'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
     'ai-summary': 'Learn about substitute service in Oklahoma under 12 O.S. § 2004(c). Covers abode service, posting requirements, judicial approval, and documentation.',
     'ai-key-facts': 'substitute service oklahoma; posting service oklahoma law; abode service oklahoma',

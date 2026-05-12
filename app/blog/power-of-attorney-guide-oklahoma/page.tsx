@@ -41,7 +41,7 @@ const jsonLd = {
       dateModified: '2025-01-15T00:00:00Z',
       author: {
         '@type': 'Person',
-        name: 'Joseph Iannazzi'
+        name: 'Just Legal Solutions Team'
       },
       publisher: {
         '@type': 'Organization',

@@ -37,7 +37,7 @@ const jsonLd = {
       description: 'Complete guide to proof of service requirements, legal standards, and documentation in Oklahoma courts.',
       author: {
         '@type': 'Person',
-        name: 'Joseph Iannazzi',
+        name: 'Just Legal Solutions Team',
         url: 'https://justlegalsolutions.org/about',
       },
       publisher: {

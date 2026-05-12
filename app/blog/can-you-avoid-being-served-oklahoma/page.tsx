@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   other: {
     'article:published_time': '2026-04-08',
     'article:modified_time': '2026-04-08',
-    'article:author': 'Joseph Iannazzi',
+    'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
     'ai-summary': 'Thinking about avoiding a process server in Oklahoma? Learn why it doesn\'t work, what evasion means, service by publication, and the real consequences.',
     'ai-key-facts': 'can you avoid being served; what happens if you hide from process server; evasion of service oklahoma',

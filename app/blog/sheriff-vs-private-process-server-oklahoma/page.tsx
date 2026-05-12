@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   other: {
     'article:published_time': '2026-04-08',
     'article:modified_time': '2026-04-08',
-    'article:author': 'Joseph Iannazzi',
+    'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
     'ai-summary': 'Compare sheriff vs. private process servers in Oklahoma. Cost, speed, success rates, flexibility, and which option is right for your legal needs.',
     'ai-key-facts': 'sheriff vs process server oklahoma; private process server vs sheriff; oklahoma sheriff service of process',

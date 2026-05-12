@@ -39,7 +39,7 @@ const jsonLd = {
       description: 'Comprehensive guide to serving evasive defendants in Oklahoma, covering legal requirements, skip tracing techniques, and alternative service methods.',
       author: {
         '@type': 'Person',
-        name: 'Joseph Iannazzi',
+        name: 'Just Legal Solutions Team',
       },
       publisher: {
         '@type': 'Organization',

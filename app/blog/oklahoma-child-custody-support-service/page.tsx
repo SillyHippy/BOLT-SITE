@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   other: {
     'article:published_time': '2026-04-08',
     'article:modified_time': '2026-04-08',
-    'article:author': 'Joseph Iannazzi',
+    'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
     'ai-summary': 'Learn how service of process works for child custody and support cases in Oklahoma. Covers modifications, paternity, DHS cases, and tribal court issues.',
     'ai-key-facts': 'serve custody papers oklahoma; child support modification service oklahoma; paternity action service oklahoma',

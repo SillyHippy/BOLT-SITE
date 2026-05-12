@@ -51,7 +51,7 @@ export default function WorkersCompSubpoenaServicePage() {
         pageUrl="https://justlegalsolutions.org/blog/workers-comp-subpoena-service"
         articleDetails={{
           headline: "Workers' Compensation Subpoena Service in Oklahoma",
-          author: 'Joseph Iannazzi',
+          author: 'Just Legal Solutions Team',
           datePublished: '2026-04-27',
           dateModified: '2026-04-27',
           image: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',

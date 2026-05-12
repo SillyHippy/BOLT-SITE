@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   other: {
     'article:published_time': '2026-04-08',
     'article:modified_time': '2026-04-08',
-    'article:author': 'Joseph Iannazzi',
+    'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
     'ai-summary': 'Oklahoma eviction moratorium history and current rules. Learn what protections remain, ERA funds, and what landlords need to know in 2026.',
     'ai-key-facts': 'oklahoma eviction rules 2026; oklahoma eviction moratorium; ERA funds oklahoma eviction',

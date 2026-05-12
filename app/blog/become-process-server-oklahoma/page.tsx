@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   other: {
     'article:published_time': '2026-04-08',
     'article:modified_time': '2026-04-08',
-    'article:author': 'Joseph Iannazzi',
+    'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
     'ai-summary': 'Want to become a process server in Oklahoma? Learn license requirements, CLEET certification, surety bonds, costs, training, and what the job is really like.',
     'ai-key-facts': 'how to become process server oklahoma; process server license oklahoma 2026; oklahoma process server requirements',

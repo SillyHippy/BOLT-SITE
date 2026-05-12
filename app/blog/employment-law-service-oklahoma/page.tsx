@@ -51,7 +51,7 @@ export default function EmploymentLawServiceOklahomaPage() {
         pageUrl="https://justlegalsolutions.org/blog/employment-law-service-oklahoma"
         articleDetails={{
           headline: 'Employment Law Process Serving in Oklahoma',
-          author: 'Joseph Iannazzi',
+          author: 'Just Legal Solutions Team',
           datePublished: '2026-04-27',
           dateModified: '2026-04-27',
           image: 'https://justlegalsolutions.org/image-pack/images/image-002-home-og.webp',

@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   other: {
     'article:published_time': '2026-04-19',
     'article:modified_time': '2026-04-19',
-    'article:author': 'Joseph Iannazzi',
+    'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
     'ai-summary': 'Complete 2026 guide to mobile notary services in Tulsa. Mobile notary covers hospital, jail, nursing home, business, and after-hours visits. Pricing starts at $25 per act plus travel. Notary fees capped at $5/act under 49 O.S. § 5; RON is authorized under 49 O.S. § 209 with a $25 cap. Same-day appointments and 24/7 emergency coverage available.',
     'ai-key-facts': 'Mobile notary in Tulsa starts at $25/act + travel; in-office notary starts at $20; statutory cap $5/act under 49 O.S. § 5; RON authorized under 49 O.S. § 209 with $25 cap; $10,000 surety bond required (49 O.S. § 2); same-day and after-hours availability.',
@@ -88,7 +88,7 @@ export default function MobileNotaryTulsaGuide() {
         ]}
         articleDetails={{
           headline: 'Mobile Notary in Tulsa — When, Why, and How Much',
-          author: 'Joseph Iannazzi',
+          author: 'Just Legal Solutions Team',
           datePublished: '2026-04-19',
           dateModified: '2026-04-19',
           image: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.webp'
