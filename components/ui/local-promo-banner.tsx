@@ -1,7 +1,7 @@
 'use client';
 
 interface LocalPromoBannerProps {
-  zips: string[];
+  zips?: string[];
   endDate?: string;
 }
 
