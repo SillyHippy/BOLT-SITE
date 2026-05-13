@@ -107,6 +107,18 @@ export function extractFAQs(content: string): Array<{ question: string; answer: 
  * No em-dashes. Each answer names the county or county seat to keep Google
  * from deduplicating identical FAQ schema across pages.
  */
+const normalizeCountyName = (value: string): string =>
+  value
+    .toLowerCase()
+    .replace(/[^a-z0-9 ]+/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+
+const countySlugByNormalizedName = new Map<string, string>();
+for (const county of Object.values(COUNTIES)) {
+  countySlugByNormalizedName.set(normalizeCountyName(county.countyName), county.slug);
+}
+
 export function generateCountyFAQs(
   countyName: string,
   countySeat: string,
@@ -143,16 +155,7 @@ export function generateCountyFAQs(
     return { question: cleanedQuestion, answer: cleanedAnswer };
   };
 
-  const normalizeName = (value: string): string =>
-    value
-      .toLowerCase()
-      .replace(/[^a-z0-9 ]+/g, ' ')
-      .replace(/\s+/g, ' ')
-      .trim();
-
-  const countySlug = Object.values(COUNTIES).find(
-    (c) => normalizeName(c.countyName) === normalizeName(countyName)
-  )?.slug;
+  const countySlug = countySlugByNormalizedName.get(normalizeCountyName(countyName));
   const overridden = countySlug ? COUNTY_FAQ_OVERRIDES[countySlug] : undefined;
   if (overridden && overridden.length > 0) {
     const seenQuestions = new Set<string>();
