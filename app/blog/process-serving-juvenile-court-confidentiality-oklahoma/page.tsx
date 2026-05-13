@@ -85,6 +85,16 @@ const faqs: { question: string; answer: string }[] = [
   },
 ];
 
+const tocLinks = [
+  { href: '#why-different', label: 'Why juvenile court service is different' },
+  { href: '#who-must-be-served', label: 'Who must be served' },
+  { href: '#methods-of-service', label: 'Methods of service' },
+  { href: '#confidentiality-obligations', label: 'Confidentiality obligations' },
+  { href: '#distinct-search', label: 'When parents cannot be found' },
+  { href: '#records-expungement', label: 'Records, expungement, and skip tracing' },
+  { href: '#best-practices', label: 'Best practices' },
+];
+
 export default function BlogPost() {
   return (
     <>

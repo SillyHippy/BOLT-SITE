@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { ChevronRight, Calendar, Clock, MapPin, Scale, Shield, BookOpen } from 'lucide-react';
+import { ChevronRight, Calendar, Clock, MapPin, Scale, Shield, BookOpen, AlertTriangle, CheckCircle, DollarSign, ShieldCheck, FileText } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';

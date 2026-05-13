@@ -4,6 +4,9 @@ import Link from 'next/link';
 interface AuthorBoxProps {
   name?: string;
   role?: string;
+  title?: string;
+  date?: string;
+  readTime?: string;
   bio?: string;
   imageUrl?: string;
   authorUrl?: string;
@@ -11,11 +14,16 @@ interface AuthorBoxProps {
 
 export function AuthorBox({
   name = "Joseph Iannazzi",
-  role = "Founder & Lead Process Server",
+  role,
+  title,
+  date,
+  readTime,
   bio = "Joseph Iannazzi is a licensed Oklahoma process server with a deep understanding of civil process throughout all 77 counties. He founded Just Legal Solutions to bring transparency, speed, and professionalism to legal support services in Oklahoma. Joseph is a recognized expert in Oklahoma civil procedure and specialized service techniques.",
   imageUrl = "/contactlogo.webp",
   authorUrl = "/notary/joseph",
 }: AuthorBoxProps) {
+  const displayRole = role || title || "Founder & Lead Process Server";
+
   return (
     <div className="mt-12 p-6 md:p-8 bg-gradient-to-br from-blue-50 to-white border border-blue-100 rounded-2xl flex flex-col md:flex-row gap-6 items-center md:items-start shadow-sm hover:shadow-md transition-shadow">
       <div className="w-24 h-24 md:w-32 md:h-32 flex-shrink-0 rounded-full overflow-hidden border-4 border-white shadow-md bg-white flex items-center justify-center p-2">
@@ -26,7 +34,12 @@ export function AuthorBox({
           <span className="bg-blue-100 text-blue-800 text-xs font-bold px-2 py-1 rounded uppercase tracking-wider">Author</span>
         </div>
         <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-1">{name}</h3>
-        <p className="text-sm md:text-base text-blue-600 font-semibold mb-3">{role}</p>
+        <p className="text-sm md:text-base text-blue-600 font-semibold mb-3">{displayRole}</p>
+        {(date || readTime) && (
+          <p className="text-xs md:text-sm text-gray-500 mb-3">
+            {[date, readTime].filter(Boolean).join(' | ')}
+          </p>
+        )}
         <p className="text-gray-700 leading-relaxed mb-5 text-sm md:text-base">
           {bio}
         </p>

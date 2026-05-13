@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { ChevronRight, Calendar, Clock, MapPin, Scale, Shield, BookOpen } from 'lucide-react';
+import { ChevronRight, Calendar, Clock, MapPin, Scale, Shield, BookOpen, BarChart3, TrendingUp } from 'lucide-react';
 import UnifiedSchema from '@/components/UnifiedSchema';
 import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
@@ -93,6 +93,19 @@ const faqs: { question: string; answer: string }[] = [
     answer:
       'Yes, when properly implemented. Reputable VA services require strict NDAs, use encrypted communication channels, and train staff in legal ethics and client confidentiality. Under OBA Rule 5.5, attorneys must ensure VAs do not engage in unauthorized practice of law. Virtual practice is permitted in Oklahoma, but the attorney remains responsible for supervising VA work product and ensuring compliance with all applicable rules. Data security protocols including secure file transfer, HIPAA-level safeguards where applicable, and documented workflows are essential.',
   },
+];
+
+const marketData = [
+  { segment: 'Global VA services', current: '$6.5B', projected: '$8-10B', cagr: '9-12%' },
+  { segment: 'U.S. VA services', current: '$4.7B', projected: '$5.7B', cagr: '9.1%' },
+  { segment: 'Legal technology', current: '$37B', projected: '$50B', cagr: '10-13%' },
+  { segment: 'Legal process outsourcing', current: '$18-22B', projected: '$30-38B', cagr: '22-27%' },
+];
+
+const trendTimeline = [
+  { year: '2027', prediction: 'Hybrid human-AI legal VA models become the standard', source: 'Gartner' },
+  { year: '2027', prediction: 'Specialized legal VAs continue replacing generalist support', source: 'VA industry reports' },
+  { year: '2028', prediction: 'Agentic AI enters more enterprise software but remains supervised in legal work', source: 'Gartner' },
 ];
 
 export default function BlogPost() {

@@ -2,10 +2,13 @@ import React from 'react';
 // import Script from 'next/script';
 
 interface UnifiedSchemaProps {
-  pageType: 'home' | 'service' | 'article' | 'faq' | 'location' | 'generic';
+  pageType?: 'home' | 'service' | 'article' | 'faq' | 'location' | 'generic' | 'blog';
+  type?: 'home' | 'service' | 'article' | 'faq' | 'location' | 'generic' | 'blog' | string;
+  data?: Record<string, unknown>;
   // New format properties
   url?: string;
   title?: string;
+  name?: string;
   description?: string;
   // Legacy format properties (for backward compatibility)
   pageUrl?: string;
@@ -170,12 +173,16 @@ interface UnifiedSchemaProps {
 }
 
 const UnifiedSchema: React.FC<UnifiedSchemaProps> = (props) => {
+  const schemaPageType = (props.pageType || props.type || 'generic') === 'blog'
+    ? 'article'
+    : (props.pageType || props.type || 'generic');
+
   // Handle backward compatibility by mapping old properties to new format
   const {
-    pageType,
+    pageType = schemaPageType as Exclude<UnifiedSchemaProps['pageType'], 'blog'>,
     // Map legacy properties to new format
     url = props.pageUrl,
-    title = props.pageTitle || props.pageName || props.headline,
+    title = props.pageTitle || props.pageName || props.headline || props.name,
     description = props.pageDescription,
     // Handle legacy breadcrumbs - support both 'item' and 'url' properties
     breadcrumbs = (props.breadcrumbs || props.breadcrumbItems || []).map(item => ({
