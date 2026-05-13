@@ -56,11 +56,11 @@ const faqs = [
   },
   {
     question: 'What is substituted service and when is it allowed in Oklahoma?',
-    answer: 'Substituted service, governed by Oklahoma 12 O.S. 2004.1, allows service to be completed by leaving copies of the process at the defendant's dwelling house or usual place of abode with some person of suitable age and discretion residing there, or by delivering a copy to an agent authorized to receive service. This method is only permitted after the server has demonstrated due diligence in attempting personal service. Attempting substituted service too early or without proper documentation of personal service attempts is a common mistake that can invalidate your service.',
+    answer: 'Substituted service, governed by Oklahoma 12 O.S. 2004.1, allows service to be completed by leaving copies of the process at the defendant\'s dwelling house or usual place of abode with some person of suitable age and discretion residing there, or by delivering a copy to an agent authorized to receive service. This method is only permitted after the server has demonstrated due diligence in attempting personal service. Attempting substituted service too early or without proper documentation of personal service attempts is a common mistake that can invalidate your service.',
   },
   {
     question: 'Why is GPS-verified proof of service important in Oklahoma?',
-    answer: 'GPS-verified proof of service provides indisputable evidence of the exact time, date, and location of each service attempt. This documentation is invaluable if service is challenged in court, if the defendant claims they were not served, or if you need to demonstrate due diligence for substituted service. At Just Legal Solutions, we provide GPS verification on all attempts, giving our clients peace of mind and a stronger legal position if service is questioned. Without this level of documentation, it becomes your word against the defendant's.',
+    answer: 'GPS-verified proof of service provides indisputable evidence of the exact time, date, and location of each service attempt. This documentation is invaluable if service is challenged in court, if the defendant claims they were not served, or if you need to demonstrate due diligence for substituted service. At Just Legal Solutions, we provide GPS verification on all attempts, giving our clients peace of mind and a stronger legal position if service is questioned. Without this level of documentation, it becomes your word against the defendant\'s.',
   },
 ];
 
