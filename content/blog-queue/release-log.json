@@ -4287,6 +4287,74 @@
       },
       "warnings": [],
       "mode": "published"
+    },
+    {
+      "slug": "in-state-vs-out-of-state-service-process-oklahoma",
+      "title": "In-State vs Out-of-State Service of Process: Oklahoma Attorney Guide",
+      "category": "Notary Services",
+      "releasedAt": "2026-05-12T17:02:56.317Z",
+      "quality": {
+        "words": 3120,
+        "headings": 23,
+        "paragraphs": 41
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 1
+      },
+      "warnings": [],
+      "mode": "published"
+    },
+    {
+      "slug": "become-licensed-process-server-oklahoma",
+      "title": "How to Become a Licensed Process Server in Oklahoma",
+      "category": "Process Serving",
+      "releasedAt": "2026-05-12T17:02:56.319Z",
+      "quality": {
+        "words": 2935,
+        "headings": 31,
+        "paragraphs": 36
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 1
+      },
+      "warnings": [],
+      "mode": "published"
+    },
+    {
+      "slug": "legal-support-services-beyond-process-serving",
+      "title": "Legal Support Services Beyond Process Serving: Full-Service Guide",
+      "category": "Notary Services",
+      "releasedAt": "2026-05-12T17:02:56.322Z",
+      "quality": {
+        "words": 2873,
+        "headings": 17,
+        "paragraphs": 36
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 1
+      },
+      "warnings": [],
+      "mode": "published"
+    },
+    {
+      "slug": "common-process-serving-mistakes-oklahoma",
+      "title": "10 Common Process Serving Mistakes That Can Ruin Your Case",
+      "category": "Process Serving",
+      "releasedAt": "2026-05-12T17:02:56.323Z",
+      "quality": {
+        "words": 3370,
+        "headings": 17,
+        "paragraphs": 40
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 1
+      },
+      "warnings": [],
+      "mode": "published"
     }
   ],
   "failures": [
