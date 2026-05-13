@@ -577,7 +577,7 @@ export default function BlogPost() {
         </section>
       </main>
             <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
-      <LocalPromoBanner zips={["74008", "74033", "74037"]} />
+      <LocalPromoBanner />
       <AuthorBox />
       <Footer />
       <UnifiedSchema

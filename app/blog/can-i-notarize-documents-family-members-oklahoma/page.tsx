@@ -1,10 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import UnifiedSchema from "@/components/UnifiedSchema";
-import { Navbar } from "@/components/ui/navbar";
-import { AuthorBox } from "@/components/ui/author-box";
-import { Footer } from "@/components/ui/footer";
-import LocalPromoBanner from "@/components/ui/local-promo-banner";
+import {
+  Navbar,
+  AuthorBox,
+  Footer,
+  LocalPromoBanner,
+  UnifiedSchema,
+} from "../../components";
+import { notary } from "../../lib/structured-data";
 
 const faqs = [
   {
@@ -44,8 +47,7 @@ const articleSchema = {
   "@type": "BlogPosting",
   headline:
     "Can I Notarize Documents for Family Members in Oklahoma? What the Law Says",
-  description:
-    "Learn Oklahoma's rules on notarizing for family members. Understand conflict of interest laws, when it's allowed, best practices & alternatives.",
+  description: "Learn Oklahoma\ Serving all 77 Oklahoma counties with licensed, bonded legal support."s rules on notarizing for family members. Understand conflict of interest laws, when it\'s allowed, best practices & alternatives. Serving all 77',
   author: {
     "@type": "Organization",
     name: "Just Legal Solutions",
@@ -72,8 +74,7 @@ const articleSchema = {
 };
 
 export const metadata: Metadata = {
-  title:
-    "Can I Notarize Documents for Family Members in Oklahoma? What the Law Says",
+  title: "Can I Notarize Documents for Family Members in Oklahoma?...",
   description:
     "Learn Oklahoma's rules on notarizing for family members. Understand conflict of interest laws, when it's allowed, best practices & alternatives.",
   keywords:
@@ -93,13 +94,7 @@ export default function BlogPost() {
     <div className="min-h-screen bg-white">
       <Navbar />
 
-      <UnifiedSchema
-        pageType="article"
-        url="https://justlegalsolutions.org/blog/can-i-notarize-documents-family-members-oklahoma"
-        title="Can I Notarize Documents for Family Members in Oklahoma? What the Law Says"
-        description="Learn Oklahoma's rules on notarizing for family members. Understand conflict of interest laws, when it's allowed, best practices & alternatives."
-        faqs={faqs}
-      />
+      <UnifiedSchema type="article" data={articleSchema} faqs={faqs} />
 
       {/* Hero */}
       <header className="bg-gradient-to-r from-[#1E2D78] to-[#4A3C7D] text-white py-16 px-4">
@@ -135,7 +130,9 @@ export default function BlogPost() {
       <main className="max-w-4xl mx-auto px-4 py-12">
         <AuthorBox
           name="Just Legal Solutions"
-          role="Oklahoma Licensed Notary & Process Server"
+          title="Oklahoma Licensed Notary & Process Server"
+          date="April 10, 2025"
+          readTime="9 min read"
         />
 
         <article className="prose prose-lg max-w-none">
@@ -313,7 +310,8 @@ export default function BlogPost() {
             court proceedings.
           </p>
 
-          <LocalPromoBanner zips={[]} />
+                <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
+      <LocalPromoBanner />
 
           <h2 className="text-2xl font-bold text-[#1E2D78] mt-12 mb-4">
             What the Oklahoma Secretary of State Recommends

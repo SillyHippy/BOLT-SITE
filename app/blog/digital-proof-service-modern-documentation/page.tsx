@@ -148,7 +148,7 @@ export default function BlogPost() {
           <p className="font-semibold">Call <a href="tel:539-367-6832" className="text-blue-600">(539) 367-6832</a> or <Link href="/" className="text-blue-600">request service online</Link>. We serve all 77 Oklahoma counties.</p>
         </section>
       </main>
-      <LocalPromoBanner zips={[]} />
+      <LocalPromoBanner />
       <AuthorBox />
       <Footer />
       <UnifiedSchema

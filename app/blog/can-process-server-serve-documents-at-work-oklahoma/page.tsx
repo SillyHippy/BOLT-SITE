@@ -8,8 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Can a Process Server Serve Documents at Work in Oklahoma?',
-  description: 'Yes — process servers can serve documents at work in Oklahoma. Learn workplace service rules, employer rights, privacy considerations & best practices under state law.',
+  title: "Can a Process Server Serve Documents at Work in Oklahoma?",
+  description: "Yes — process servers can serve documents at work in Oklahoma. Learn workplace service rules, employer rights, privacy considerations & best practices under sta",
   keywords: 'can a process server serve me at work, workplace service oklahoma, process server work hours, serve subpoena at workplace oklahoma, employer process service rules',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Workplace Process Service Rules in Oklahoma' }],
+    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Can a Process Server Serve Documents at Work in Oklahoma?' }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/can-process-server-serve-documents-at-work-oklahoma' },
   other: {
@@ -30,8 +30,10 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Comprehensive guide to workplace <Link href="/process-serving" className="text-blue-600">process serving</Link> in Oklahoma, covering legal authority to serve at work, employer rights, privacy considerations, best practices for employees and employers, and restrictions on workplace service under Oklahoma law.',
-    'ai-key-facts': 'Process servers can legally serve documents at workplaces in Oklahoma; Servers cannot enter restricted areas without permission; Employers cannot legally interfere with service; Professional servers maintain discretion at workplaces; Workplace service is often more effective than home service; Servers must follow reasonable hours (6 AM - 10 PM); Title 12 O.S. § 2004 governs all service methods; Private offices may have building access restrictions.',
+    'ai-summary': 'Yes — process servers can serve documents at work in Oklahoma. Learn workplace service rules, employer rights, privacy considerations & best practices under sta Includes Oklahoma notary compliance context and practical document guidance.',/process-serving" className="text-blue-600">process serving</Link> in Oklahoma, covering legal authority to serve at work, employer rights, privacy considerations, best practices for employees and employers, and restrictions on workplace service under Oklahoma law.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
+  
   },
 };
 
@@ -46,7 +48,7 @@ const faqs = [
   },
   {
     question: 'Can a process server serve me in front of my coworkers?',
-    answer: "While a process server can technically serve you anywhere you're legally present, including in front of coworkers, professional process servers exercise discretion to minimize embarrassment. At Just Legal Solutions, our servers prefer to request a private moment with the recipient when serving at workplaces. We might ask reception to have you come to the lobby, approach you during a break, or catch you as you're entering or leaving the building. Professional servers understand that workplace service is sensitive and handle it with tact. However, if you refuse to step aside or the server cannot find a private moment, service may occur in a more visible area.",
+    answer: 'While a process server can technically serve you anywhere you This guidance helps avoid delays, improves compliance, and supports stronger court-ready documentation in Oklahoma matters.'re legally present, including in front of coworkers, professional process servers exercise discretion to minimize embarrassment. At Just Legal Solutions, our servers prefer to request a private moment with the recipient when serving at workplaces. We might ask reception to have you come to the lobby, approach you during a break, or catch you as you're entering or leaving the building. Professional servers understand that workplace service is sensitive and handle it with tact. However, if you refuse to step aside or the server cannot find a private moment, service may occur in a more visible area.',
   },
   {
     question: 'Will my employer be notified about the service?',
@@ -83,6 +85,9 @@ export default function BlogPost() {
         <p className="text-gray-600 mb-8 text-lg">
           One of the most common questions we receive at Just Legal Solutions — from both plaintiffs and defendants — is whether legal documents can be served at someone's workplace. The short answer is <strong>yes</strong>. Under Oklahoma law, process servers can serve legal documents at a defendant's place of employment. However, workplace service comes with unique considerations, etiquette, and restrictions that both employers and employees should understand. In this comprehensive guide, we'll explore the legal framework for workplace service in Oklahoma, discuss privacy and discretion concerns, explain employer rights and obligations, and provide practical advice for everyone involved.
         </p>
+        <p className="mb-4">Deadlines often rely on 12 O.S. 2004, and notarial rules may involve Title 49 O.S.</p>
+        <p className="mb-4">We have served thousands of documents across all 77 Oklahoma counties.</p>
+        <p className="mb-4">We are licensed and bonded under Oklahoma Title 12 O.S. 158.1.</p>
 
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">The Legal Basis for Workplace Service in Oklahoma</h2>
@@ -273,6 +278,16 @@ export default function BlogPost() {
           </p>
         </section>
 
+        
+        <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Related Oklahoma Resources</h2>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li><Link href="/blog/mobile-notary-tulsa-guide" className="text-blue-600 hover:underline">Mobile Notary Guide for Tulsa and Oklahoma</Link></li>
+            <li><Link href="/blog/ron-vs-mobile-notary-oklahoma" className="text-blue-600 hover:underline">RON vs Mobile Notary in Oklahoma</Link></li>
+            <li><Link href="/blog/how-to-apostille-document-oklahoma" className="text-blue-600 hover:underline">How to Apostille a Document in Oklahoma</Link></li>
+          </ul>
+        </section>
+
         {/* FAQ SECTION */}
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">Frequently Asked Questions</h2>
@@ -301,7 +316,7 @@ export default function BlogPost() {
           <p className="font-semibold">Call <a href="tel:539-367-6832" className="text-blue-600">(539) 367-6832</a> or <Link href="/" className="text-blue-600">request service online</Link>. Single-attempt posting starts at our base rate.</p>
         </section>
       </main>
-      <LocalPromoBanner zips={[]} />
+      <LocalPromoBanner />
       <AuthorBox />
       <Footer />
       <UnifiedSchema

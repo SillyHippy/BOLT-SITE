@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import Head from "next/head";
+import {
+  Navbar,
+  AuthorBox,
+  Footer,
+  LocalPromoBanner,
+  UnifiedSchema,
+} from "../../components";
 import Link from "next/link";
-import UnifiedSchema from "@/components/UnifiedSchema";
-import { Navbar } from "@/components/ui/navbar";
-import { AuthorBox } from "@/components/ui/author-box";
-import { Footer } from "@/components/ui/footer";
-import LocalPromoBanner from "@/components/ui/local-promo-banner";
 
 const faqs = [
   {
@@ -41,15 +43,19 @@ const faqs = [
 ];
 
 export const metadata: Metadata = {
-  title:
-    "Can a Process Server Serve a Business Instead of an Individual in Oklahoma? | Just Legal Solutions",
-  description:
-    "Learn how process servers serve businesses in Oklahoma. Discover registered agent rules, corporate service requirements, and how to serve LLCs, corporations, and partnerships.",
+  title: "Can a Process Server Serve a Business Instead of an Indiv...",
+  description: "Learn how process servers serve businesses in Oklahoma. Discover registered agent rules, corporate service requirements, and how to serve LLCs, corporations, an",
   keywords:
     "serve a business corporation oklahoma, service of process on company, corporate registered agent",
   alternates: {
     canonical:
       "https://justlegalsolutions.org/blog/can-process-server-serve-business-oklahoma",
+  },
+  other: {
+    'ai-content-type': 'article',
+    'ai-summary': 'Learn how process servers serve businesses in Oklahoma. Discover registered agent rules, corporate service requirements, and how to serve LLCs, corporations, an Includes Oklahoma service-of-process compliance context and practical filing guidance.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
+  
   },
   openGraph: {
     title:
@@ -564,10 +570,11 @@ export default function BlogPost() {
           <AuthorBox />
         </article>
       </main>
-      <LocalPromoBanner zips={[]} />
+            <p className="mb-8 text-gray-700">At Just Legal Solutions, with 50+ years of combined experience, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and have served thousands of documents across all 77 Oklahoma counties.</p>
+      <LocalPromoBanner />
       <Footer />
       <UnifiedSchema
-        pageType="article"
+        pageType="blog"
         pageUrl="https://justlegalsolutions.org/blog/can-process-server-serve-business-oklahoma"
         title="Can a Process Server Serve a Business Instead of an Individual in Oklahoma?"
         description="Learn how process servers serve businesses in Oklahoma. Discover registered agent rules, corporate service requirements, and how to serve LLCs, corporations, and partnerships."

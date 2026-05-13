@@ -703,7 +703,7 @@ export default function BlogPost() {
           </p>
         </section>
       </main>
-      <LocalPromoBanner zips={[]} />
+      <LocalPromoBanner />
       <AuthorBox />
       <Footer />
       <UnifiedSchema
