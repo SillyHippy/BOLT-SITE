@@ -67,16 +67,16 @@ const faqs = [
   {
     question: 'Can a process server leave papers with someone else?',
     answer:
-      'Yes. Under Oklahoma law, if personal service cannot be completed after diligent attempts, a process server may leave the documents with a person of suitable age and discretion who resides at the same dwelling. This is known as substituted service. The server must also mail a copy to the defendant\'s address. Our team at <Link href="/process-serving" className="text-blue-600 hover:underline">Just Legal Solutions</Link> follows all Oklahoma statutes precisely when executing substituted service.',
+      'Yes. Under Oklahoma law, if personal service cannot be completed after diligent attempts, a process server may leave the documents with a person of suitable age and discretion who resides at the same dwelling. This is known as substituted service. The server must also mail a copy to the defendant\'s address. Our team at Just Legal Solutions follows all Oklahoma statutes precisely when executing substituted service.',
   },
   {
     question: 'What information will a legitimate process server ask for?',
     answer:
-      'A legitimate process server may ask you to confirm your name, verify your current address, or suggest a convenient time and location for service. They should provide their name, company, and license information upon request. They will never ask for your Social Security number, bank account details, credit card information, or demand payment of any kind. If you have doubts, <Link href="/contact" className="text-blue-600 hover:underline">contact our team</Link> for guidance.',
+      'A legitimate process server may ask you to confirm your name, verify your current address, or suggest a convenient time and location for service. They should provide their name, company, and license information upon request. They will never ask for your Social Security number, bank account details, credit card information, or demand payment of any kind. If you have doubts, contact our team for guidance.',
   },
   {
     question: 'How do I verify a process server is licensed in Oklahoma?',
-    answer: 'You can verify a process server\ This guidance helps avoid delays, improves compliance, and supports stronger court-ready documentation in Oklahoma matters.'s license by contacting the court clerk in the county where the server is licensed, checking with the Oklahoma Secretary of State\'s office, or asking the server to provide their bond and license documentation. At Just Legal Solutions, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and happy to provide verification to anyone who asks.',
+    answer: 'You can verify a process server\'s license by contacting the court clerk in the county where the server is licensed, checking with the Oklahoma Secretary of State\'s office, or asking the server to provide their bond and license documentation. At Just Legal Solutions, we are licensed and bonded under Oklahoma Title 12 O.S. 158.1 and happy to provide verification to anyone who asks.',
   },
 ];
 

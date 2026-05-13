@@ -189,7 +189,7 @@ export default function BlogPost() {
           <h3>The Process Server&apos;s Role and Legal Authority</h3>
           <p>
             A process server, by contrast, is a licensed legal professional with specific statutory authority. 
-            Under <Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">12 O.S. § 158.1</Link>, 
+            Under 12 O.S. § 158.1, 
             a private process server in Oklahoma must be at least 18 years old, a resident of Oklahoma, of good 
             moral character, and must post a $5,000 bond. Licensed servers carry statewide authority to serve 
             process throughout all 77 Oklahoma counties.
@@ -263,7 +263,7 @@ export default function BlogPost() {
 
           <h3>12 O.S. § 2004 and § 2004(I) — The 180-Day Deadline Framework</h3>
           <p>
-            Under <Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">12 O.S. § 2004</Link>, 
+            Under 12 O.S. § 2004, 
             service of process must be completed within 180 days after the petition is filed. Section 2004(I) 
             adds critical teeth to this deadline: if service is not completed within 180 days, the court may 
             dismiss the action without prejudice unless the plaintiff can show good cause for the delay.
@@ -711,7 +711,7 @@ export default function BlogPost() {
             </Link>{' '}
             for professional, licensed support across all 77 Oklahoma counties. Call or text{' '}
             <a href="tel:5393676832" className="text-blue-600 hover:underline">(539) 367-6832</a>.
-            Visit our <Link href="/pricing" className="text-blue-600 hover:underline">pricing page</Link> for 
+            Visit our pricing page for 
             current service rates.
           </p>
           </article>

@@ -166,7 +166,7 @@ export default function BlogPost() {
             In the process serving context, GPS tracking means the server uses a GPS-enabled mobile device or application to automatically record the precise coordinates, date, and time of each service attempt. This is not about tracking defendants — that is a critical distinction we will explore in detail later. It is about documenting the server&apos;s own location at the moment of service, creating a verifiable digital record that supplements the traditional affidavit.
           </p>
           <p>
-            The shift is not just about convenience. In an era of contested services, heightened court scrutiny, and increasing demands for transparency, GPS documentation is becoming a practical necessity. We have written before about the <Link href="/learn/gps-electronic-proof-of-service" className="text-blue-600 hover:underline">basics of GPS proof of service</Link>, but the technology has evolved significantly — and Oklahoma&apos;s legal framework has evolved with it.
+            The shift is not just about convenience. In an era of contested services, heightened court scrutiny, and increasing demands for transparency, GPS documentation is becoming a practical necessity. We have written before about the basics of GPS proof of service, but the technology has evolved significantly — and Oklahoma&apos;s legal framework has evolved with it.
           </p>
           <p>
             Think about it: when a defendant claims they were never served, or when a default judgment is challenged months after the fact, a paper affidavit signed by the server is valuable — but it is essentially one person&apos;s word. Add GPS coordinates, a timestamp, and a photograph, and suddenly you have an objective, third-party-verified record that supports the server&apos;s testimony. That difference can mean the difference between a judgment that stands and one that gets set aside.
@@ -269,7 +269,7 @@ export default function BlogPost() {
           </div>
 
           <p>
-            The line is bright and unambiguous: document your own location, never track someone else&apos;s. Process servers who understand this distinction protect themselves from criminal liability while still leveraging the full power of GPS technology for their professional documentation. If you have any uncertainty about what technology use is appropriate, consult a licensed Oklahoma attorney or reach out to <Link href="/contact" className="text-blue-600 hover:underline">our team</Link> for guidance.
+            The line is bright and unambiguous: document your own location, never track someone else&apos;s. Process servers who understand this distinction protect themselves from criminal liability while still leveraging the full power of GPS technology for their professional documentation. If you have any uncertainty about what technology use is appropriate, consult a licensed Oklahoma attorney or reach out to our team for guidance.
           </p>
 
           <h3>Oklahoma Courts&apos; Growing Familiarity with GPS Technology</h3>
@@ -318,7 +318,7 @@ export default function BlogPost() {
             <strong>5. How long are GPS records retained?</strong> Oklahoma requires process servers to retain records for three years. Your server&apos;s GPS platform should support this retention requirement.
           </p>
           <p>
-            Professional GPS-tracked process serving does not require paying premium prices. <Link href="/pricing" className="text-blue-600 hover:underline">See our transparent pricing</Link> to learn how we include GPS documentation as a standard feature of every service attempt.
+            Professional GPS-tracked process serving does not require paying premium prices. See our transparent pricing to learn how we include GPS documentation as a standard feature of every service attempt.
           </p>
 
           {/* Mid-article CTA */}
@@ -349,7 +349,7 @@ export default function BlogPost() {
 
           <h3>How GPS Documentation Supports HB 1162 Protections</h3>
           <p>
-            Under <Link href="/blog/process-server-safety-guide-protecting-field-oklahoma" className="text-blue-600 hover:underline">HB 1162</Link>, Oklahoma process servers work with enhanced legal protections. GPS documentation dovetails with these protections by providing both physical safety monitoring and an evidence trail in case of incidents. If a server is threatened, assaulted, or falsely accused of misconduct during a service attempt, their GPS data provides an objective record of where they were and when — corroborating their account and protecting them from baseless allegations.
+            Under HB 1162, Oklahoma process servers work with enhanced legal protections. GPS documentation dovetails with these protections by providing both physical safety monitoring and an evidence trail in case of incidents. If a server is threatened, assaulted, or falsely accused of misconduct during a service attempt, their GPS data provides an objective record of where they were and when — corroborating their account and protecting them from baseless allegations.
           </p>
           <p>
             We covered Oklahoma process server safety protections in detail in our companion post, but the short version is this: HB 1162 strengthened penalties for assaulting or interfering with a process server, and GPS documentation helps prosecutors build stronger cases when those protections are violated. The GPS record is not just about proving service — it is about protecting the people who perform this essential constitutional function.
@@ -447,7 +447,7 @@ export default function BlogPost() {
             GPS tracking has fundamentally changed what process serving accountability looks like in Oklahoma. Under the Oklahoma Electronic Transactions Act, GPS data is court-admissible evidence. Under HB 3260, the boundary between professional documentation and criminal stalking is clear: track your own location, never someone else&apos;s. The five-element GPS metadata checklist — timestamp, coordinates, accuracy radius, device identifier, and map visualization — gives attorneys and process servers a practical standard for court-ready documentation.
           </p>
           <p>
-            Perhaps most importantly, GPS technology serves a dual purpose that few other legal technologies can match: it protects process servers physically while creating the evidentiary foundation that makes their work defensible in court. In a profession where servers routinely knock on strangers&apos; doors and deliver unwelcome news, that protection matters. For a complete guide to affidavit documentation best practices, <Link href="/blog/document-service-attempts-best-practices-affidavits-oklahoma" className="text-blue-600 hover:underline">see our companion post on documentation standards</Link>.
+            Perhaps most importantly, GPS technology serves a dual purpose that few other legal technologies can match: it protects process servers physically while creating the evidentiary foundation that makes their work defensible in court. In a profession where servers routinely knock on strangers&apos; doors and deliver unwelcome news, that protection matters. For a complete guide to affidavit documentation best practices, see our companion post on documentation standards.
           </p>
 
           <p className="text-gray-700 italic mt-8">

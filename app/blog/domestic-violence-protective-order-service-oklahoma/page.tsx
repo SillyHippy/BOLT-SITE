@@ -179,7 +179,7 @@ export default function BlogPost() {
             Here is how the urgency chain works in practice. A victim petitions the court for an emergency protective order. The judge reviews the evidence and signs an emergency ex parte order. That order is immediately forwarded to the sheriff for service. But if the respondent cannot be located, avoids service, or the sheriff&apos;s office is backlogged with other priorities, the order remains unenforceable. The victim goes home without legal protection. The hearing date approaches. If service still has not occurred, the court must issue a new emergency order and reschedule — forcing the victim to relive the trauma repeatedly.
           </p>
           <p>
-            Every hour of delay is an hour the victim lacks enforceable legal protection. Personal service is not a bureaucratic formality — it is the legal gateway to enforcement. Until the respondent has actual notice, penalties for violation do not apply. That is why the 24-hour priority service requirement exists in Oklahoma law, and why experienced <Link href="/process-serving" className="text-blue-600 hover:underline">process serving professionals</Link> treat protective order service with the urgency it deserves.
+            Every hour of delay is an hour the victim lacks enforceable legal protection. Personal service is not a bureaucratic formality — it is the legal gateway to enforcement. Until the respondent has actual notice, penalties for violation do not apply. That is why the 24-hour priority service requirement exists in Oklahoma law, and why experienced process serving professionals treat protective order service with the urgency it deserves.
           </p>
 
           <h2>Oklahoma&apos;s Legal Framework for Protective Order Service</h2>
@@ -208,7 +208,7 @@ export default function BlogPost() {
             Oklahoma protective orders do not stop at the county line. Under <strong>22 O.S. § 60.7</strong>, all orders issued under the Protection from Domestic Abuse Act have full faith and credit across jurisdictions — statewide and nationwide. A protective order issued in Oklahoma County can be enforced in Tulsa County, or in Texas, or in New York. This matters enormously for service because it means the order may be transferred to any law enforcement jurisdiction for service, and the sheriff may transmit documents by electronic means for cross-county coordination.
           </p>
           <p>
-            For attorneys and process servers working across <Link href="/" className="text-blue-600 hover:underline">Oklahoma&apos;s 77 counties</Link>, this electronic transmission authority is a practical lifeline. It means a protective order issued in one county can be forwarded electronically to a process server in another county where the respondent has fled or relocated. The order retains its full legal force regardless of geography.
+            For attorneys and process servers working across Oklahoma&apos;s 77 counties, this electronic transmission authority is a practical lifeline. It means a protective order issued in one county can be forwarded electronically to a process server in another county where the respondent has fled or relocated. The order retains its full legal force regardless of geography.
           </p>
 
           <h2>When the Sheriff Can&apos;t Serve: The Private Process Server&apos;s Role</h2>
@@ -221,7 +221,7 @@ export default function BlogPost() {
             This authority is reinforced by <strong>12 O.S. § 2004</strong>, Oklahoma&apos;s general service of process statute, which provides that service may be made by "any person who is at least eighteen (18) years of age and is not a party." This umbrella statute makes both sheriff&apos;s deputies and private process servers legally equivalent for service purposes. Additionally, <strong>12 O.S. § 158.1</strong> establishes the licensing and <strong>$5,000 bonding requirement</strong> for private process servers serving for compensation — a consumer protection measure that ensures professionalism and accountability.
           </p>
           <p>
-            We have covered the <Link href="/process-server-vs-sheriff" className="text-blue-600 hover:underline">differences between process servers and sheriff&apos;s deputies</Link> in detail elsewhere on our site. In the protective order context, what matters most is that both are legally empowered to serve, and both must meet the same bench warrant standard. A licensed private process server is not doing "lesser" service — they are performing the same statutory function under the same legal requirements.
+            We have covered the differences between process servers and sheriff&apos;s deputies in detail elsewhere on our site. In the protective order context, what matters most is that both are legally empowered to serve, and both must meet the same bench warrant standard. A licensed private process server is not doing "lesser" service — they are performing the same statutory function under the same legal requirements.
           </p>
 
           <h3>Why Private Servers Are Called In</h3>

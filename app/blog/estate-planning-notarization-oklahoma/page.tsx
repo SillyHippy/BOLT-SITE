@@ -209,7 +209,7 @@ export default function EstatePlanningNotarizationBlog() {
               For comprehensive estate planning, most Oklahoma attorneys recommend executing both a <strong>financial power of attorney</strong> and a <strong>medical power of attorney</strong> (also called a healthcare proxy). While the financial power of attorney must be notarized, the medical power of attorney can be either notarized or witnessed by two adults under <strong>63 O.S. § 3111</strong>. However, notarization is strongly recommended for medical powers of attorney to ensure universal acceptance by healthcare providers.
             </p>
             <p>
-              Learn more about power of attorney notarization requirements on our dedicated <Link href="/power-of-attorney-notary-oklahoma/" className="text-blue-600 hover:underline font-medium">Power of Attorney Notarization page</Link>.
+              Learn more about power of attorney notarization requirements on our dedicated Power of Attorney Notarization page.
             </p>
 
             <h3>Advance Directives and Living Wills (63 O.S. § 3101.4)</h3>
@@ -325,7 +325,7 @@ export default function EstatePlanningNotarizationBlog() {
               <strong>For homebound clients:</strong> Elderly or disabled individuals who cannot travel to a notary's office benefit from mobile services that come to them, ensuring equal access to essential estate planning services.
             </p>
             <p>
-              Learn more about our <Link href="/hospital-notary/" className="text-blue-600 hover:underline font-medium">hospital and bedside notary services</Link> for urgent estate planning situations.
+              Learn more about our hospital and bedside notary services for urgent estate planning situations.
             </p>
 
             <h2>What to Expect During Your Estate Planning Notarization</h2>

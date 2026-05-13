@@ -56,7 +56,7 @@ const faqs = [
   },
   {
     question: 'How does document retrieval work with process serving?',
-    answer: 'Document retrieval and process serving are complementary services that support the litigation lifecycle. Retrieved court records often contain essential information for preparing service documents, including proper party names, addresses, and case numbers. Our <Link href="/process-serving" className="text-blue-600 hover:underline">process serving team</Link> uses retrieved records to verify recipient information and ensure accurate service. Combining both services with a single provider creates operational efficiency and reduces coordination delays.',
+    answer: 'Document retrieval and process serving are complementary services that support the litigation lifecycle. Retrieved court records often contain essential information for preparing service documents, including proper party names, addresses, and case numbers. Our process serving team uses retrieved records to verify recipient information and ensure accurate service. Combining both services with a single provider creates operational efficiency and reduces coordination delays.',
   },
   {
     question: 'How are confidentiality and privacy handled during document retrieval?',
@@ -86,7 +86,7 @@ export default function BlogPost() {
             Document retrieval is the professional service of obtaining official records and copies from courts, county offices, state agencies, and other record custodians on behalf of attorneys and legal professionals. Unlike simple public records searches, professional document retrieval involves navigating complex filing systems, understanding custodian requirements, knowing which office holds which records, and following proper procedures to obtain certified copies when needed.
           </p>
           <p className="mb-4">
-            Law firms need document retrieval services for case preparation, due diligence, discovery support, appellate work, and client counseling. Retrieved documents may include prior court orders that affect current litigation, property records essential to real estate disputes, corporate filings relevant to business litigation, and vital records needed for family law matters. Attempting to retrieve these documents without professional assistance often results in wasted time, incomplete records, and delays that can affect case outcomes. Our <Link href="/service-areas" className="text-blue-600 hover:underline">statewide coverage</Link> ensures consistent service regardless of where the records are located.
+            Law firms need document retrieval services for case preparation, due diligence, discovery support, appellate work, and client counseling. Retrieved documents may include prior court orders that affect current litigation, property records essential to real estate disputes, corporate filings relevant to business litigation, and vital records needed for family law matters. Attempting to retrieve these documents without professional assistance often results in wasted time, incomplete records, and delays that can affect case outcomes. Our statewide coverage ensures consistent service regardless of where the records are located.
           </p>
         </section>
 
@@ -115,7 +115,7 @@ export default function BlogPost() {
             Turnaround times for document retrieval vary based on the type of record, the custodial office, and whether the record is digitized or stored in physical archives. Online records available through OSCN or county portals can often be retrieved within hours. Court records requiring clerk assistance typically take one to three business days. County records such as deeds and liens generally take two to four business days, though complex title searches may take longer. State agency records vary widely, with Secretary of State business filings often available same-day while vital records requests may take five to ten business days.
           </p>
           <p className="mb-4">
-            Several factors can extend turnaround times. Records stored in off-site archives require additional processing time. Older records, particularly those predating digitization, may need manual location and reproduction. Rural counties with smaller staff may have longer processing queues. Rush and same-day retrieval services are available for urgent requests at our premium rate. For current pricing on standard, rush, and same-day retrieval services, <Link href="/pricing" className="text-blue-600 hover:underline">view our pricing page</Link>.
+            Several factors can extend turnaround times. Records stored in off-site archives require additional processing time. Older records, particularly those predating digitization, may need manual location and reproduction. Rural counties with smaller staff may have longer processing queues. Rush and same-day retrieval services are available for urgent requests at our premium rate. For current pricing on standard, rush, and same-day retrieval services, view our pricing page.
           </p>
         </section>
 
@@ -142,7 +142,7 @@ export default function BlogPost() {
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">How Document Retrieval Works with Process Serving</h2>
           <p className="mb-4">
-            Document retrieval and process serving are complementary services that support the full litigation lifecycle. Retrieved records often contain critical information needed to complete effective service of process. For example, prior court filings may contain current addresses for defendants, corporate records may identify registered agents for service, and property records may confirm locations where defendants can be found. This information directly supports our <Link href="/process-serving" className="text-blue-600 hover:underline">process serving services</Link> by ensuring service attempts are directed at accurate, current addresses.
+            Document retrieval and process serving are complementary services that support the full litigation lifecycle. Retrieved records often contain critical information needed to complete effective service of process. For example, prior court filings may contain current addresses for defendants, corporate records may identify registered agents for service, and property records may confirm locations where defendants can be found. This information directly supports our process serving services by ensuring service attempts are directed at accurate, current addresses.
           </p>
           <p className="mb-4">
             Conversely, our process servers frequently observe or obtain information during service attempts that leads to additional document retrieval needs. When a defendant has moved, when property ownership is disputed, or when business entities change their registration, the connection between serving documents and retrieving records becomes clear. Working with a single provider for both services creates operational efficiency, reduces coordination delays, and ensures that information flows seamlessly between retrieval and service activities.
@@ -165,7 +165,7 @@ export default function BlogPost() {
             The cost of document retrieval services depends on several factors including the type and number of records requested, the custodial office&apos;s copy fees, whether certification is required, the location of the records, and the urgency of the request. Some custodial offices charge per page, others charge flat fees per document or case file, and some charge search fees for locating records in archived or uncatalogued collections. Certification adds an additional fee set by each custodial office. Remote retrieval through online portals typically costs less than in-person retrieval due to eliminated travel time.
           </p>
           <p className="mb-4">
-            At Just Legal Solutions, we maintain transparent pricing with no hidden fees. Our standard rate covers routine retrieval requests with typical turnaround times. Rush requests that require expedited processing are available at our rush rate. Same-day retrieval for urgent matters is available at our same-day rate. Volume discounts apply to firms with regular ongoing retrieval needs. For the most current pricing information, <Link href="/pricing" className="text-blue-600 hover:underline">view our pricing page</Link>.
+            At Just Legal Solutions, we maintain transparent pricing with no hidden fees. Our standard rate covers routine retrieval requests with typical turnaround times. Rush requests that require expedited processing are available at our rush rate. Same-day retrieval for urgent matters is available at our same-day rate. Volume discounts apply to firms with regular ongoing retrieval needs. For the most current pricing information, view our pricing page.
           </p>
         </section>
 
@@ -228,10 +228,10 @@ export default function BlogPost() {
             Just Legal Solutions provides professional document retrieval services across all 77 Oklahoma counties. With over 50 years of combined experience and licensed, bonded status under Oklahoma Title 12 O.S. 158.1, we deliver the records you need quickly, accurately, and confidentially.
           </p>
           <p className="mb-4">
-            For current pricing on all our services, <Link href="/pricing" className="text-blue-600 font-semibold">view our pricing page</Link>.
+            For current pricing on all our services, view our pricing page.
           </p>
           <p className="font-semibold">
-            Call <a href="tel:539-367-6832" className="text-blue-600">(539) 367-6832</a> or <Link href="/" className="text-blue-600">request service online</Link>. We serve all 77 Oklahoma counties.
+            Call <a href="tel:539-367-6832" className="text-blue-600">(539) 367-6832</a> or request service online. We serve all 77 Oklahoma counties.
           </p>
         </section>
       </main>

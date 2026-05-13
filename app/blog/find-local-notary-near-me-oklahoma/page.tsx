@@ -1,13 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import {
-  Navbar,
-  AuthorBox,
-  Footer,
-  LocalPromoBanner,
-  UnifiedSchema,
-} from "../../components";
-import { notary } from "../../lib/structured-data";
+import UnifiedSchema from "@/components/UnifiedSchema";
+import { Navbar } from "@/components/ui/navbar";
+import { AuthorBox } from "@/components/ui/author-box";
+import { Footer } from "@/components/ui/footer";
+import LocalPromoBanner from "@/components/ui/local-promo-banner";
 
 const faqs = [
   {
@@ -18,7 +15,7 @@ const faqs = [
   {
     question: "How much does a notary cost at a UPS Store in Oklahoma?",
     answer:
-      "UPS Store notary fees typically range from $5 to $15 per signature in Oklahoma, depending on the document type and location. However, this does not include the cost of parking, travel time, or waiting in line. Mobile notary services like Just Legal Solutions offer competitive flat-rate <Link href="/pricing" className="text-blue-600">pricing</Link> that includes travel to your location, often saving you both time and money when you factor in all associated costs.",
+      "UPS Store notary fees typically range from $5 to $15 per signature in Oklahoma, depending on the document type and location. However, this does not include the cost of parking, travel time, or waiting in line. Mobile notary services like Just Legal Solutions offer competitive flat-rate pricing that includes travel to your location, often saving you both time and money when you factor in all associated costs.",
   },
   {
     question: "Can I get documents notarized at a bank in Oklahoma?",
@@ -315,7 +312,7 @@ export default function BlogPost() {
           <p className="text-gray-700 leading-relaxed mb-4">
             Many law firms in Oklahoma have notaries on staff for client
             documents. At <strong>Just Legal Solutions</strong>, we combine our
-            notary services with our <Link href="/process-serving" className="text-blue-600">process serving</Link> and legal support
+            notary services with our process serving and legal support
             expertise, making us uniquely equipped to handle documents that
             require both notarization and legal knowledge.
           </p>

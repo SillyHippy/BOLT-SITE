@@ -79,7 +79,7 @@ const faqs = [
   {
     question: 'What happens after you locate the witness?',
     answer:
-      'Once the witness is located, we provide you with verified contact information. If needed, we can then proceed to <Link href="/process-serving" className="text-blue-600 hover:underline">serve a subpoena or other legal documents</Link> through our <Link href="/process-serving" className="text-blue-600 hover:underline">process serving division</Link>. This seamless locate-and-serve workflow saves time and ensures continuity in your case preparation.',
+      'Once the witness is located, we provide you with verified contact information. If needed, we can then proceed to serve a subpoena or other legal documents through our process serving division. This seamless locate-and-serve workflow saves time and ensures continuity in your case preparation.',
   },
 ];
 

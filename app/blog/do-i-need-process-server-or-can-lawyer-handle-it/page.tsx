@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: "Do I Need a Process Server or Can My Lawyer Handle It? |...",
   description: "Learn when attorneys can serve legal papers directly in Oklahoma, why professional process servers are often preferred, and cost considerations for your case.",
   keywords:
-    "do I need a process server, can my lawyer serve papers, attorney vs process server service, Oklahoma <Link href="/process-serving" className="text-blue-600">process serving</Link>, lawyer serve legal documents",
+    "do I need a process server, can my lawyer serve papers, attorney vs process server service, Oklahoma process serving, lawyer serve legal documents",
   alternates: {
     canonical:
       "https://justlegalsolutions.org/blog/do-i-need-process-server-or-can-lawyer-handle-it",

@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: "Process Serving Industry Trends to Watch in 2026",
-  description: "Top process serving industry trends for 2026. From technology integration to regulatory changes, stay ahead of what\ Serving all 77 Oklahoma counties with licen"s shaping the industry.',
+  description: "Top process serving industry trends for 2026. From technology integration to regulatory changes, stay ahead of what's shaping the industry.",
   keywords: 'process serving industry trends, legal support industry trends, process serving 2026',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
     'ai-summary': 'Top process serving industry trends for 2026. From technology integration to regulatory changes, stay ahead of what Serving all 77 Oklahoma counties with licen Includes Oklahoma service-of-process compliance context and practical filing guidance.',
-    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',s legal market mirrors national trends',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Practical compliance steps',
   
   
   },

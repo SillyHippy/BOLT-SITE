@@ -618,7 +618,7 @@ export default function RonVsMobileNotaryPage() {
               <li>Each separate document: Additional $25 per document</li>
             </ul>
             <p>
-              At <Link href="/notary/" className="text-blue-600 hover:underline">Just Legal Solutions</Link>,
+              At Just Legal Solutions,
               we charge the statutory maximum of $25 per RON session, providing transparent, predictable
               pricing with no hidden fees.
             </p>
@@ -784,9 +784,9 @@ export default function RonVsMobileNotaryPage() {
             </ul>
 
             <p>
-              At <Link href="/" className="text-blue-600 hover:underline">Just Legal Solutions</Link>, we offer
-              both <Link href="/notary/" className="text-blue-600 hover:underline">Remote Online Notarization</Link>
-              and <Link href="/mobile-notary/" className="text-blue-600 hover:underline">Mobile Notary services</Link>
+              At Just Legal Solutions, we offer
+              both Remote Online Notarization
+              and Mobile Notary services
               throughout the Tulsa metropolitan area. Whether you need the convenience of RON from anywhere
               or the personalized service of a mobile notary at your location, we're here to help.
               <a href="tel:539-367-6832" className="text-blue-600 hover:underline">Call us at (539) 367-6832</a>

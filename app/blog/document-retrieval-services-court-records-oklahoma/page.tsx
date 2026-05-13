@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Oklahoma Court Records: Document Retrieval Guide',
-  description: 'Learn how to retrieve court records across Oklahoma\',
+  description: 'Learn how to retrieve court records across Oklahoma',
   keywords: 'legal courier Oklahoma, document delivery law firms, court filing courier, same day legal delivery, Oklahoma legal courier service',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Oklahoma Court Records: Document Retrieval Guide',
-    description: 'Learn how to retrieve court records across Oklahoma\',
+    description: 'Learn how to retrieve court records across Oklahoma',
     url: 'https://justlegalsolutions.org/blog/document-retrieval-services-court-records-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -91,7 +91,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Oklahoma Court Records: Document Retrieval Guide"
-        pageDescription="Learn how to retrieve court records across Oklahoma\"
+        pageDescription="Learn how to retrieve court records across Oklahoma"
         pageUrl="https://justlegalsolutions.org/blog/document-retrieval-services-court-records-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -177,7 +177,7 @@ export default function BlogPost() {
             On the other end of the spectrum, rural counties like Pushmataha, McCurtain, or Cimarron may have a single clerk handling all record requests alongside their other duties. Older cases may be stored in file cabinets in the courthouse basement or at an off-site records facility. In these counties, planning ahead is critical. A records request that takes 20 minutes in Oklahoma City might take two business days in a rural county where the clerk needs to retrieve files from storage.
           </p>
           <p>
-            The travel distances between counties only amplify these challenges. Oklahoma is a large state — roughly 69,000 square miles — and driving from Tulsa to Boise City (in the Oklahoma Panhandle) can take more than six hours one way. For law firms handling multi-county litigation or judgment enforcement, this geographic reality makes in-house courthouse runs impractical. <Link href="/courier-services-tulsa" className="text-blue-600 hover:underline">Our Tulsa-based courier team regularly travels to courthouses throughout Northeast Oklahoma</Link> and across all 77 counties, giving firms the reach they need without the windshield time.
+            The travel distances between counties only amplify these challenges. Oklahoma is a large state — roughly 69,000 square miles — and driving from Tulsa to Boise City (in the Oklahoma Panhandle) can take more than six hours one way. For law firms handling multi-county litigation or judgment enforcement, this geographic reality makes in-house courthouse runs impractical. Our Tulsa-based courier team regularly travels to courthouses throughout Northeast Oklahoma and across all 77 counties, giving firms the reach they need without the windshield time.
           </p>
 
           <h2>OSCN vs. ODCR: Navigating Oklahoma&apos;s Dual Court Record Systems</h2>
@@ -249,7 +249,7 @@ export default function BlogPost() {
           </table>
 
           <p>
-            The practical workflow most Oklahoma legal professionals use looks like this: start with OSCN to confirm the case exists and gather the case number, then check ODCR if you need to preview the actual documents, and finally contact the Court Clerk for certified copies. For more legal resource links, visit <Link href="/resources" className="text-blue-600 hover:underline">our Resources page</Link>.
+            The practical workflow most Oklahoma legal professionals use looks like this: start with OSCN to confirm the case exists and gather the case number, then check ODCR if you need to preview the actual documents, and finally contact the Court Clerk for certified copies. For more legal resource links, visit our Resources page.
           </p>
 
           <h2>How to Request Court Records: Step-by-Step Process</h2>
@@ -284,7 +284,7 @@ export default function BlogPost() {
             Oklahoma law sets the fee structure for court records, which keeps costs predictable across counties. Under 28 O.S. § 31, the statutory fees are $1.00 for the first page of any copy and $0.50 for each additional page. Certification adds $0.50 per document. Authentication for apostille costs $5.00 per certificate. Some counties charge a $5.00 search fee if you do not have the case number. Payment methods vary by county — cash and check are universally accepted, while credit cards and money orders are accepted at some but not all clerk offices.
           </p>
           <p>
-            Need certified copies from an Oklahoma courthouse? <Link href="/contact" className="text-blue-600 hover:underline">Our document retrieval team handles requests across all 77 counties</Link>. <Link href="/notary-services" className="text-blue-600 hover:underline">Certified copies often require notarization or apostille — learn about our notary services</Link> as well.
+            Need certified copies from an Oklahoma courthouse? Our document retrieval team handles requests across all 77 counties. Certified copies often require notarization or apostille — learn about our notary services as well.
           </p>
 
           <h2>Certified Copies, Authentication, and Apostille</h2>
@@ -305,7 +305,7 @@ export default function BlogPost() {
             An apostille is a certificate issued by the <a href="https://www.sos.ok.gov/" target="_blank" rel="noopener noreferrer">Oklahoma Secretary of State</a> that authenticates the signature and seal on your certified copy, making it valid in any country that is a member of the Hague Apostille Convention. The process is straightforward: first obtain a certified copy from the Court Clerk, then submit it to the Secretary of State with the $5.00 per document fee. The Secretary of State verifies the clerk&apos;s signature and attaches the apostille certificate.
           </p>
           <p>
-            For documents heading out of state or abroad, <Link href="/apostille-services-oklahoma" className="text-blue-600 hover:underline">our apostille services handle authentication through the Secretary of State</Link>, saving you an extra trip to the capitol.
+            For documents heading out of state or abroad, our apostille services handle authentication through the Secretary of State, saving you an extra trip to the capitol.
           </p>
 
           <h3>The Complete Document Retrieval Pipeline</h3>
@@ -336,7 +336,7 @@ export default function BlogPost() {
             If you have searched OSCN and come up empty, there are several possibilities to consider. First, verify you have the correct county — cases filed in the wrong county on your end will never show up where you are looking. Second, check whether the case was filed under a different name, a variation of the party&apos;s name, or a maiden name. Third, consider whether the record may have been expunged or sealed. Fourth, for older cases, the records may simply not be digitized yet. Finally, contact the Court Clerk directly — they can often tell you whether a record exists and where to find it, even when online searches fail.
           </p>
           <p>
-            The Oklahoma Open Records Act includes a balancing test: courts may seal records only when &quot;a compelling privacy interest exists which outweighs the public&apos;s interest in the record.&quot; This high bar means most court records remain public, but when privacy concerns are genuinely compelling, sealing is available and enforceable. Our team can help navigate restricted records requests — <Link href="/" className="text-blue-600 hover:underline">contact us to discuss your situation</Link>.
+            The Oklahoma Open Records Act includes a balancing test: courts may seal records only when &quot;a compelling privacy interest exists which outweighs the public&apos;s interest in the record.&quot; This high bar means most court records remain public, but when privacy concerns are genuinely compelling, sealing is available and enforceable. Our team can help navigate restricted records requests — contact us to discuss your situation.
           </p>
 
           <h2>Why Law Firms Use Professional Document Retrieval Services</h2>
@@ -362,7 +362,7 @@ export default function BlogPost() {
             Professional couriers also build relationships with clerk offices over time. They know which counties prefer email requests, which still want paper forms, which close early on Fridays, and which have off-site storage that requires advance notice. This institutional knowledge saves time and prevents the kinds of surprises that derail in-house courthouse runs.
           </p>
           <p>
-            Stop sending billable staff to the courthouse. <Link href="/pricing" className="text-blue-600 hover:underline">View our transparent pricing for document retrieval and courier services</Link> and schedule your first retrieval today.
+            Stop sending billable staff to the courthouse. View our transparent pricing for document retrieval and courier services and schedule your first retrieval today.
           </p>
           </article>
           

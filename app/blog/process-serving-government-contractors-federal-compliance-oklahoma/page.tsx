@@ -350,7 +350,7 @@ export default function BlogPost() {
             </Link>{' '}
             for professional, licensed support across all 77 Oklahoma counties. Our team understands FRCP 4(i), military base coordination, and the dual compliance requirements that federal contractor cases demand. Call or text{' '}
             <a href="tel:5393676832" className="text-blue-600 hover:underline">(539) 367-6832</a>.{' '}
-            Visit our <Link href="/pricing" className="text-blue-600 hover:underline">pricing page</Link> for current service rates.
+            Visit our pricing page for current service rates.
           </p>
           </article>
 

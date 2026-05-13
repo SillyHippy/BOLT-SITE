@@ -148,7 +148,7 @@ export default function BlogPost() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 -mt-8 relative z-10 pb-16">
           <article className="prose prose-lg prose-blue max-w-none bg-white p-8 md:p-12 rounded-2xl shadow-lg border border-gray-100">
             <p className="lead text-xl text-gray-600 mb-8">
-            If you run a business in Oklahoma and hire employees, you already know that verifying employment eligibility is non-negotiable. But here is something most employers get wrong: when a notary helps you complete Form I-9, they are not performing a notarization. That single misunderstanding creates compliance risk, costs businesses thousands in ICE penalties, and leads notaries to make mistakes that expose your company to liability. At Just Legal Solutions, we provide <Link href="/services" className="text-blue-600 hover:underline">I-9 authorized representative services</Link> across all 77 Oklahoma counties, and we believe every employer deserves to understand exactly how this process works before they delegate it.
+            If you run a business in Oklahoma and hire employees, you already know that verifying employment eligibility is non-negotiable. But here is something most employers get wrong: when a notary helps you complete Form I-9, they are not performing a notarization. That single misunderstanding creates compliance risk, costs businesses thousands in ICE penalties, and leads notaries to make mistakes that expose your company to liability. At Just Legal Solutions, we provide I-9 authorized representative services across all 77 Oklahoma counties, and we believe every employer deserves to understand exactly how this process works before they delegate it.
           </p>
 
           <h2>I-9 Verification Is NOT a Notarization: The Critical Distinction Every Oklahoma Employer Must Understand</h2>
@@ -250,7 +250,7 @@ export default function BlogPost() {
             <strong>Section 2 must be completed within three business days of the employee\'s first day of work for pay.</strong> This is a hard deadline with no exceptions. If the employee works fewer than three business days, both Sections 1 and 2 must be completed by their first day. Missing this deadline is itself a substantive violation, regardless of whether the documents presented were genuine and the employee was fully authorized to work.
           </p>
           <p>
-            This deadline is why many Oklahoma employers use <Link href="/contact" className="text-blue-600 hover:underline">mobile notary services</Link> for I-9 completion. When your new hire starts on Monday and you need Section 2 completed by Wednesday, waiting for an in-office appointment may not be practical. A mobile notary can meet the employee at your office, at a coffee shop, or at their home \u2014 wherever works best \u2014 and ensure the three-day deadline is met.
+            This deadline is why many Oklahoma employers use mobile notary services for I-9 completion. When your new hire starts on Monday and you need Section 2 completed by Wednesday, waiting for an in-office appointment may not be practical. A mobile notary can meet the employee at your office, at a coffee shop, or at their home \u2014 wherever works best \u2014 and ensure the three-day deadline is met.
           </p>
 
           <h2>E-Verify vs. Non-E-Verify: The Remote I-9 Reality Check for Oklahoma Employers</h2>
@@ -279,7 +279,7 @@ export default function BlogPost() {
             For the vast majority of Oklahoma employers who need in-person I-9 verification, mobile notary services are the most compliant and convenient solution. Here is how the workflow typically functions: you designate a mobile notary as your authorized representative via email or written letter. The notary travels to your location or the employee\'s location anywhere in Oklahoma. They meet the employee in person, physically examine the original documents, complete Section 2 accurately, and return the form to you.
           </p>
           <p>
-            At Just Legal Solutions, we provide <Link href="/service-areas" className="text-blue-600 hover:underline">mobile I-9 verification services across all 77 Oklahoma counties</Link>, including Oklahoma City, Tulsa, Norman, Edmond, and every community in between. Whether your new hire is in downtown OKC or rural Pushmataha County, we can meet the three-business-day deadline and ensure your I-9 is completed with the precision ICE now demands.
+            At Just Legal Solutions, we provide mobile I-9 verification services across all 77 Oklahoma counties, including Oklahoma City, Tulsa, Norman, Edmond, and every community in between. Whether your new hire is in downtown OKC or rural Pushmataha County, we can meet the three-business-day deadline and ensure your I-9 is completed with the precision ICE now demands.
           </p>
           <p className="bg-blue-50 p-4 rounded-lg my-6">
             <strong>Not enrolled in E-Verify? You still need in-person I-9 verification.</strong> Our mobile notaries come to you \u2014 anywhere in Oklahoma. Schedule your I-9 verification today and rest easy knowing your compliance is handled by trained professionals. <Link href="/contact" className="text-blue-600 hover:underline font-medium">Get in touch</Link> to book your appointment.
@@ -312,7 +312,7 @@ export default function BlogPost() {
 
           <h3>The Compliance-First Approach: What to Look for in an I-9 Authorized Representative</h3>
           <p>
-            When evaluating who should handle your I-9 verifications, look for these qualities: experience with Form I-9 specifically (not just general notarization), familiarity with the Lists of Acceptable Documents, a written process including quality assurance checklists, willingness to communicate with you about any issues that arise during verification, and clear documentation protocols for their work. At <Link href="/about" className="text-blue-600 hover:underline">Just Legal Solutions</Link>, we bring all of these elements to every I-9 engagement, because we understand that our precision directly protects your business from liability.
+            When evaluating who should handle your I-9 verifications, look for these qualities: experience with Form I-9 specifically (not just general notarization), familiarity with the Lists of Acceptable Documents, a written process including quality assurance checklists, willingness to communicate with you about any issues that arise during verification, and clear documentation protocols for their work. At Just Legal Solutions, we bring all of these elements to every I-9 engagement, because we understand that our precision directly protects your business from liability.
           </p>
           <p>
             The danger of using an untrained friend, colleague, or random notary from a directory is real. They may mean well. They may be perfectly competent in other areas. But I-9 compliance has become a specialty skill in 2026, and the margin for error has effectively disappeared. A single forgotten field can now cost thousands. Choosing your authorized representative is no longer an afterthought \u2014 it is a risk management decision.
@@ -338,13 +338,13 @@ export default function BlogPost() {
 
           <h3>Factors That Affect the Total Cost of I-9 Verification Services</h3>
           <p>
-            Several factors influence what you will pay: <strong>travel distance</strong> (mobile notaries serving rural Oklahoma counties naturally charge more than those meeting you at their downtown OKC office), <strong>timing</strong> (after-hours, weekend, or rush appointments typically carry premium fees), <strong>preparer services</strong> (if the notary also assists the employee with Section 1 completion or preparer/translator certification), and <strong>volume</strong> (businesses with regular hiring needs may qualify for reduced per-form rates). For businesses with ongoing I-9 volume, <Link href="/blog/corporate-notary-services-bulk-notarization-businesses-oklahoma" className="text-blue-600 hover:underline">corporate notary service arrangements</Link> can provide both cost savings and consistency.
+            Several factors influence what you will pay: <strong>travel distance</strong> (mobile notaries serving rural Oklahoma counties naturally charge more than those meeting you at their downtown OKC office), <strong>timing</strong> (after-hours, weekend, or rush appointments typically carry premium fees), <strong>preparer services</strong> (if the notary also assists the employee with Section 1 completion or preparer/translator certification), and <strong>volume</strong> (businesses with regular hiring needs may qualify for reduced per-form rates). For businesses with ongoing I-9 volume, corporate notary service arrangements can provide both cost savings and consistency.
           </p>
           <p>
             Here is the bottom line: the true cost of I-9 verification is not the service fee you pay the notary. <strong>The true cost is the cost of non-compliance</strong> \u2014 $288 to $2,861 per violation, multiplied across every employee with an error on their form. A $50 I-9 verification fee that prevents a $2,861 penalty has an ROI of 5,622%. That is the math that matters.
           </p>
           <p>
-            For current I-9 verification service rates from Just Legal Solutions, please visit our <Link href="/pricing" className="text-blue-600 hover:underline">pricing page</Link>. We offer transparent, competitive pricing for businesses of all sizes across Oklahoma.
+            For current I-9 verification service rates from Just Legal Solutions, please visit our pricing page. We offer transparent, competitive pricing for businesses of all sizes across Oklahoma.
           </p>
           </article>
           

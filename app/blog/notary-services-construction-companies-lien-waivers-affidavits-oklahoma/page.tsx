@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Oklahoma Construction Notary: Lien Waivers & Affidavits',
-  description: 'Construction notary services in Oklahoma: which documents must be notarized, from mechanic\',
+  description: 'Construction notary services in Oklahoma: which documents must be notarized, from mechanic',
   keywords: 'notary public Oklahoma, mobile notary, notarization services, Oklahoma notary near me, document notarization',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Oklahoma Construction Notary: Lien Waivers & Affidavits',
-    description: 'Construction notary services in Oklahoma: which documents must be notarized, from mechanic\',
+    description: 'Construction notary services in Oklahoma: which documents must be notarized, from mechanic',
     url: 'https://justlegalsolutions.org/blog/notary-services-construction-companies-lien-waivers-affidavits-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -91,7 +91,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Oklahoma Construction Notary: Lien Waivers & Affidavits"
-        pageDescription="Construction notary services in Oklahoma: which documents must be notarized, from mechanic\"
+        pageDescription="Construction notary services in Oklahoma: which documents must be notarized, from mechanic"
         pageUrl="https://justlegalsolutions.org/blog/notary-services-construction-companies-lien-waivers-affidavits-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -200,13 +200,13 @@ export default function BlogPost() {
           </p>
 
           <p>
-            At <Link href="/services/notary" className="text-blue-600 hover:underline">Just Legal Solutions</Link>, 
+            At Just Legal Solutions, 
             we work with contractors, subcontractors, and suppliers across all 77 Oklahoma counties who need 
             construction documents notarized correctly the first time. Whether you're filing a lien in 
             Comanche County from your Tulsa office, or you need a same-day notarization before the county 
             clerk closes, our mobile notary team understands the urgency and the statutory requirements 
             that come with construction paperwork. And if your matter has already escalated to litigation, 
-            our <Link href="/blog/construction-litigation-process-serving-mechanics-liens-oklahoma" className="text-blue-600 hover:underline">process serving team</Link> can 
+            our process serving team can 
             handle service of process for lien enforcement actions across Oklahoma.
           </p>
 
@@ -377,9 +377,9 @@ export default function BlogPost() {
             These are statutory mandates — not suggestions. A mechanic's lien statement without a notarized 
             affidavit will be rejected by the county clerk, and missing the deadline while fixing a 
             notarization error can cost a contractor their entire lien claim. If you need help navigating 
-            these requirements, our <Link href="/services/notary" className="text-blue-600 hover:underline">notary services team</Link> works 
+            these requirements, our notary services team works 
             with construction documents across Oklahoma every day. And when a notarized lien turns into a 
-            contested enforcement action, our <Link href="/blog/construction-litigation-process-serving-mechanics-liens-oklahoma" className="text-blue-600 hover:underline">construction litigation process serving</Link> team 
+            contested enforcement action, our construction litigation process serving team 
             can handle service of process statewide.
           </p>
 
@@ -434,7 +434,7 @@ export default function BlogPost() {
             sign to release a lien claim) do NOT require notarization under Oklahoma law unless your contract 
             says otherwise. Many contractors assume these two documents have the same notarization requirements 
             because they both involve liens — they don't. If you're unsure about a specific document on your 
-            project, our <Link href="/services/notary" className="text-blue-600 hover:underline">notary team</Link> can 
+            project, our notary team can 
             review it and confirm exactly what type of notarization, if any, is required.
           </p>
 
@@ -498,7 +498,7 @@ export default function BlogPost() {
             alternative notice methods. And once the lien is filed, remember that you have <strong>1 year</strong> to 
             file a foreclosure lawsuit or the lien becomes void. At every stage of this timeline, having 
             a notary who understands construction documents and Oklahoma's statutory requirements saves 
-            time, reduces errors, and protects your rights. Visit our <Link href="/pricing" className="text-blue-600 hover:underline">pricing page</Link> for 
+            time, reduces errors, and protects your rights. Visit our pricing page for 
             current rates on recurring notarization support for public project contractors.
           </p>
 
@@ -591,10 +591,10 @@ export default function BlogPost() {
           </p>
 
           <p>
-            If you're not sure which option fits your current need, <Link href="/contact" className="text-blue-600 hover:underline">contact us</Link> to 
+            If you're not sure which option fits your current need, contact us to 
             discuss your project. We offer both mobile notary and RON services across all 77 Oklahoma 
             counties, and we can help you choose the right approach for each document in your workflow. 
-            Check our <Link href="/pricing" className="text-blue-600 hover:underline">pricing page</Link> for 
+            Check our pricing page for 
             current rates on both mobile and RON notarization.
           </p>
 
@@ -670,10 +670,10 @@ export default function BlogPost() {
 
           <p>
             Our best advice: build a relationship with a notary service <em>before</em> you need one. The worst 
-            time to find a qualified construction notary is 48 hours before a lien deadline. At <Link href="/services/notary" className="text-blue-600 hover:underline">Just Legal Solutions</Link>, 
+            time to find a qualified construction notary is 48 hours before a lien deadline. At Just Legal Solutions, 
             we work with contractors across Oklahoma's construction industry to provide reliable, construction-experienced 
             notarization — both mobile and RON — for everything from monthly public project affidavits to 
-            emergency lien filings. <Link href="/contact" className="text-blue-600 hover:underline">Schedule a notary appointment</Link> today 
+            emergency lien filings. Schedule a notary appointment today 
             and get a partner who understands the build as well as the paperwork.
           </p>
           </article>

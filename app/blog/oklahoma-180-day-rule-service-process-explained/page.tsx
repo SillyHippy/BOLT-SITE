@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Oklahoma 180-Day Rule for Service of Process Explained',
-  description: 'Understand Oklahoma\',
+  description: 'Understand Oklahoma',
   keywords: 'Oklahoma legal procedures, court deadlines Oklahoma, legal document requirements, Oklahoma court rules, legal compliance',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Oklahoma 180-Day Rule for Service of Process Explained',
-    description: 'Understand Oklahoma\',
+    description: 'Understand Oklahoma',
     url: 'https://justlegalsolutions.org/blog/oklahoma-180-day-rule-service-process-explained',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -91,7 +91,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Oklahoma 180-Day Rule for Service of Process Explained"
-        pageDescription="Understand Oklahoma\"
+        pageDescription="Understand Oklahoma"
         pageUrl="https://justlegalsolutions.org/blog/oklahoma-180-day-rule-service-process-explained"
         siteName="Just Legal Solutions"
         reviewCount={112}
@@ -178,7 +178,7 @@ export default function BlogPost() {
             Self-represented litigants often discover the 180-day rule exists only after it's already too late. They file their petition, assume the court will somehow "notify" the other party, and learn months later that they needed to arrange service themselves. By then, the window may have closed. If you're helping a self-represented friend or family member, make sure they understand this rule before they file anything.
           </p>
           <p>
-            Process servers are your critical partners in beating the deadline. An experienced, responsive process server is the difference between a successfully served case and a dismissed one. When you hire a <Link href="/services/process-serving" className="text-blue-600 hover:underline">professional process server</Link>, you're not just paying for delivery — you're investing in timely execution, detailed documentation, and peace of mind. NAPPS-certified servers follow rigorous professional standards that ensure your service is completed correctly and documented thoroughly.
+            Process servers are your critical partners in beating the deadline. An experienced, responsive process server is the difference between a successfully served case and a dismissed one. When you hire a professional process server, you're not just paying for delivery — you're investing in timely execution, detailed documentation, and peace of mind. NAPPS-certified servers follow rigorous professional standards that ensure your service is completed correctly and documented thoroughly.
           </p>
           <p>
             Paralegals and legal assistants are often responsible for tracking service status, and they need to treat the 180-day calendar as a live countdown — not a back-burner administrative task. The defendant, meanwhile, gets a free dismissal. They don't need to file a motion, hire an attorney, or even respond to the lawsuit. The statute does all the work for them. If you're representing a plaintiff, remember: the defendant has every incentive to make themselves hard to find.
@@ -187,7 +187,7 @@ export default function BlogPost() {
           <div className="my-8 p-6 bg-blue-50 rounded-lg border border-blue-200">
             <p className="text-blue-900 font-medium mb-2">Cases approaching the 180-day deadline need immediate action.</p>
             <p className="text-blue-800 mb-3">
-              Just Legal Solutions provides <Link href="/services/process-serving" className="underline">process serving</Link> across all 77 Oklahoma counties with same-day and rush options. Contact us to discuss your timeline.
+              Just Legal Solutions provides process serving across all 77 Oklahoma counties with same-day and rush options. Contact us to discuss your timeline.
             </p>
           </div>
 
@@ -224,7 +224,7 @@ export default function BlogPost() {
             Second: The savings statute (12 O.S. § 100) now explicitly applies to these dismissals. This means a plaintiff whose case is dismissed under 2004(I) has one year from the dismissal order to refile — but only if the statute of limitations hasn't already run. The explicit linkage provides clarity, but it doesn't solve the underlying problem: if you're facing a limitations deadline, every day that passes between filing and dismissal is a day you can't get back.
           </p>
           <p>
-            As Evan Humphreys detailed in the <em>Oklahoma Bar Journal</em> (October 2022), these amendments represent the legislature's continued tightening of Oklahoma's service requirements. The message is clear: serve early, serve diligently, or lose your case. Understanding <Link href="/blog/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma's process server laws</Link> is essential for navigating these requirements successfully.
+            As Evan Humphreys detailed in the <em>Oklahoma Bar Journal</em> (October 2022), these amendments represent the legislature's continued tightening of Oklahoma's service requirements. The message is clear: serve early, serve diligently, or lose your case. Understanding Oklahoma's process server laws is essential for navigating these requirements successfully.
           </p>
 
           <h2>Landmark Oklahoma Case Law: What the Courts Have Said</h2>
@@ -265,7 +265,7 @@ export default function BlogPost() {
 
           <h3><em>Brown v. K-MAC Enterprises</em> (897 F.Supp.2d 1098, N.D. Okla. 2012) — Federal Court on Good Cause</h3>
           <p>
-            While <em>Brown</em> is a federal district court case, it provides one of the clearest discussions of the good cause burden under Oklahoma law. The Northern District of Oklahoma applied 12 O.S. § 2004(I) and analyzed what evidence is sufficient — and insufficient — to meet the good cause standard. For practitioners handling cases in both state and <Link href="/blog/process-serving-federal-courts-oklahoma" className="text-blue-600 hover:underline">federal court service deadlines in Oklahoma</Link>, this case provides valuable guidance on how Oklahoma's standard is interpreted across jurisdictions.
+            While <em>Brown</em> is a federal district court case, it provides one of the clearest discussions of the good cause burden under Oklahoma law. The Northern District of Oklahoma applied 12 O.S. § 2004(I) and analyzed what evidence is sufficient — and insufficient — to meet the good cause standard. For practitioners handling cases in both state and federal court service deadlines in Oklahoma, this case provides valuable guidance on how Oklahoma's standard is interpreted across jurisdictions.
           </p>
 
           <h2>What Qualifies as "Good Cause"? The Evidence Standard You Must Meet</h2>
@@ -295,7 +295,7 @@ export default function BlogPost() {
 
           <h3>How Process Server Documentation Builds Your Good Cause Defense</h3>
           <p>
-            This is where your process server becomes your most valuable litigation partner. A professional process server's detailed affidavits of attempted service — complete with dates, times, addresses, photographs, <Link href="/blog/gps-tracking-revolutionizes-process-serving-accountability-oklahoma" className="text-blue-600 hover:underline">GPS logs</Link>, and detailed notes — become the evidentiary foundation for a good cause showing.
+            This is where your process server becomes your most valuable litigation partner. A professional process server's detailed affidavits of attempted service — complete with dates, times, addresses, photographs, GPS logs, and detailed notes — become the evidentiary foundation for a good cause showing.
           </p>
           <p>
             Every documented attempt proves the plaintiff was actively trying to serve, not simply letting time pass. Courts look for a pattern of diligence: regular attempts at different times of day, skip tracing efforts to locate current addresses, multiple addresses checked, witness interviews to confirm the defendant's whereabouts. Without this documentation, even a genuine, good-faith effort to serve may fail the good cause test.
@@ -307,7 +307,7 @@ export default function BlogPost() {
           <div className="my-8 p-6 bg-blue-50 rounded-lg border border-blue-200">
             <p className="text-blue-900 font-medium mb-2">Building a good cause defense starts with documentation.</p>
             <p className="text-blue-800 mb-3">
-              Our process servers provide detailed affidavits, GPS logs, and photo evidence for every service attempt. <Link href="/services/process-serving" className="underline">Learn more about our process serving services</Link>.
+              Our process servers provide detailed affidavits, GPS logs, and photo evidence for every service attempt. Learn more about our process serving services.
             </p>
           </div>
 
@@ -364,7 +364,7 @@ export default function BlogPost() {
             If you've passed the 180-day mark without service and without a good cause ruling, here's your action plan. First, confirm the dismissal date per <em>Thibault</em> — the dismissal occurred on day 181, regardless of when the court enters its order. Second, determine when the dismissal order was entered per <em>Cole</em> — this is when your savings statute clock starts. Third, calculate the savings statute deadline: one year from the day after the appealable dismissal order. Fourth, if the statute of limitations hasn't run, refile immediately — don't wait, don't hesitate, don't hope for another extension. If the statute of limitations has run, consult counsel immediately about your options. In some circumstances, equitable tolling or other doctrines may apply, but these are narrow exceptions, not reliable strategies.
           </p>
           <p>
-            Just Legal Solutions provides milestone tracking and proactive status updates at 30, 60, and 90 days for every serve. We understand the 180-day rule because we live with it on every case. When you work with us, you're not hiring someone to drop off papers — you're hiring a partner who understands that your case depends on timely, documented, provable service. Visit our <Link href="/pricing" className="text-blue-600 hover:underline">pricing page</Link> for current service rates, or <Link href="/contact" className="text-blue-600 hover:underline">contact us</Link> to discuss your case timeline.
+            Just Legal Solutions provides milestone tracking and proactive status updates at 30, 60, and 90 days for every serve. We understand the 180-day rule because we live with it on every case. When you work with us, you're not hiring someone to drop off papers — you're hiring a partner who understands that your case depends on timely, documented, provable service. Visit our pricing page for current service rates, or contact us to discuss your case timeline.
           </p>
           </article>
           

@@ -74,7 +74,7 @@ export default function BlogPost() {
         </nav>
         <h1 className="text-3xl md:text-4xl font-bold mb-6">The Growing Importance of Rush and Same-Day Process Serving</h1>
         <p className="text-gray-600 mb-8 text-lg">
-          In today&apos;s fast-paced legal environment, time is often the most critical factor in achieving a favorable outcome. With over 50 years of combined experience serving thousands of documents across all 77 Oklahoma counties, the <Link href="/about" className="text-blue-600 hover:underline">Just Legal Solutions Team</Link> has seen firsthand how rush and same-day process serving can make the difference between a case that proceeds on schedule and one that stalls in procedural delays. Licensed and bonded under Oklahoma Title 12 O.S. 158.1, we understand that court deadlines, emergency orders, and time-sensitive legal matters demand speed without sacrificing accuracy or compliance.
+          In today&apos;s fast-paced legal environment, time is often the most critical factor in achieving a favorable outcome. With over 50 years of combined experience serving thousands of documents across all 77 Oklahoma counties, the Just Legal Solutions Team has seen firsthand how rush and same-day process serving can make the difference between a case that proceeds on schedule and one that stalls in procedural delays. Licensed and bonded under Oklahoma Title 12 O.S. 158.1, we understand that court deadlines, emergency orders, and time-sensitive legal matters demand speed without sacrificing accuracy or compliance.
         </p>
         <p className="mb-6 text-gray-700">With 50+ years of combined experience, Just Legal Solutions is licensed and bonded under Oklahoma Title 12 O.S. 158.1 and has completed thousands of successful services across all 77 Oklahoma counties. Our guidance reflects Oklahoma statutes including 12 O.S. 2004 and relevant Title 49 O.S. requirements.</p>
 
@@ -126,7 +126,7 @@ export default function BlogPost() {
             For attorneys, a missed service deadline can mean additional hours of billable work, rescheduled court appearances, disappointed clients, and potential malpractice exposure. For individuals representing themselves, a delay can mean prolonged legal uncertainty and additional filing fees. In virtually every case, the investment in rush service is modest compared to the consequences of delay.
           </p>
           <p className="mb-4">
-            At Just Legal Solutions, we believe in transparent pricing with no hidden fees or surprise charges. <Link href="/pricing" className="text-blue-600 font-semibold">Visit our pricing page</Link> to see our standard rate, rush rate, same-day rate, and after-hours rate. We encourage all clients to plan ahead when possible, but we understand that emergencies happen and we are always ready to respond when time is critical.
+            At Just Legal Solutions, we believe in transparent pricing with no hidden fees or surprise charges. Visit our pricing page to see our standard rate, rush rate, same-day rate, and after-hours rate. We encourage all clients to plan ahead when possible, but we understand that emergencies happen and we are always ready to respond when time is critical.
           </p>
         </section>
 
@@ -165,7 +165,7 @@ export default function BlogPost() {
             That said, legal practice is unpredictable, and last-minute needs are an unavoidable reality. Court schedules change, opposing parties file unexpected motions, and emergencies arise without warning. Having an established relationship with a process serving company that offers reliable rush and same-day service gives you the confidence to handle whatever surprises your cases throw at you.
           </p>
           <p className="mb-4">
-            We recommend that attorneys and legal professionals identify their process serving partner before an emergency arises. <Link href="/contact" className="text-blue-600 hover:underline">Contact our team</Link> to discuss your typical needs and learn how we can support your practice with both standard and expedited service options across all 77 Oklahoma counties.
+            We recommend that attorneys and legal professionals identify their process serving partner before an emergency arises. Contact our team to discuss your typical needs and learn how we can support your practice with both standard and expedited service options across all 77 Oklahoma counties.
           </p>
         </section>
 

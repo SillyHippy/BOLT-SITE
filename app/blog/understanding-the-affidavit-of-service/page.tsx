@@ -294,7 +294,7 @@ export default function AffidavitGuide() {
                 <div>
                   <h3 className="text-lg font-bold text-red-900 mt-0 mb-2">Service Deadline in Oklahoma</h3>
                   <p className="m-0 text-red-800">
-                    Under <strong>12 O.S. § 2004(I)</strong>, service generally must be made within <strong>180 days</strong> after the petition is filed. If service is not made within that period and good cause is not shown, the action may be dismissed without prejudice as to that defendant. Don&apos;t wait — contact a <Link href="/contact" className="text-red-700 font-bold hover:underline">licensed process server</Link> as soon as your case is filed.
+                    Under <strong>12 O.S. § 2004(I)</strong>, service generally must be made within <strong>180 days</strong> after the petition is filed. If service is not made within that period and good cause is not shown, the action may be dismissed without prejudice as to that defendant. Don&apos;t wait — contact a licensed process server as soon as your case is filed.
                   </p>
                 </div>
               </div>

@@ -8,8 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: "Eviction Notice Service in Oklahoma: A Landlord\"s Guide',
-  description: "Oklahoma landlord\ Serving all 77 Oklahoma counties with licensed, bonded legal support. Serving all 77 Oklahoma counties with licensed, bonded legal support."s guide to eviction notice service. Learn the 5-day, 10-day, and 30-day notice rules and proper service methods.',
+  title: "Eviction Notice Service in Oklahoma: A Landlord's Guide",
+  description: "Oklahoma landlord's guide to eviction notice service. Learn the 5-day, 10-day, and 30-day notice rules and proper service methods.",
   keywords: 'eviction notice service Oklahoma, how to serve eviction papers, Oklahoma eviction process',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Eviction Notice Service in Oklahoma: A Landlord\' }],
+    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: "Blog article" }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/eviction-notice-service-oklahoma-landlord-guide' },
   other: {
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Oklahoma landlord Serving all 77 Oklahoma counties with licensed, bonded legal support. Serving all 77 Oklahoma counties with licensed, bonded legal support. Includes Oklahoma service-of-process compliance context and practical filing guidance.',s guide to eviction notice service covering notice types, proper service methods, and the tape-and-mail rule under state law.',
+    'ai-summary': 'Oklahoma legal support guidance from Just Legal Solutions for process serving, notary, and court document needs.',
     'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
   
   

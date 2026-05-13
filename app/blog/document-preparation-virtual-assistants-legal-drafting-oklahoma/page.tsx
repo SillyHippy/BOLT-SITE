@@ -171,7 +171,7 @@ export default function BlogPost() {
 
           <h3>Why Oklahoma Firms Are Outsourcing Document Support</h3>
           <p>
-            The question is not whether your firm needs document support — it is whether that support should sit in the office next to you or work remotely from anywhere. <Link href="/services/virtual-assistant" className="text-blue-600 hover:underline">Just Legal Solutions offers virtual assistant services tailored for Oklahoma law firms</Link>, and we have seen firsthand how the right VA integration transforms a firm's workflow. The firms that make the switch typically report the same thing: their attorneys spend more time on billable work, their documents get turned around faster, and their overhead stays manageable.
+            The question is not whether your firm needs document support — it is whether that support should sit in the office next to you or work remotely from anywhere. Just Legal Solutions offers virtual assistant services tailored for Oklahoma law firms, and we have seen firsthand how the right VA integration transforms a firm's workflow. The firms that make the switch typically report the same thing: their attorneys spend more time on billable work, their documents get turned around faster, and their overhead stays manageable.
           </p>
 
           <h2>What Document Preparation Tasks Can a Virtual Assistant Handle?</h2>
@@ -189,7 +189,7 @@ export default function BlogPost() {
             Here is where the line gets important — and where Oklahoma's ethical rules come into focus. A virtual assistant can draft documents from templates that you, the attorney, have created. They can populate pleading shells with case-specific information, fill in contract templates with names, dates, and terms you have already determined, and draft demand letters that follow your preferred format and tone. What they cannot do is independently decide what legal document a client needs, select which legal form applies to a situation, or exercise legal judgment about what the document should say.
           </p>
           <p>
-            Think of it this way: you are the architect, and your VA is the builder working from your blueprints. They can frame the walls, install the fixtures, and paint the rooms exactly to your specifications. But they are not designing the house — and under Oklahoma law, they cannot. <Link href="/services/document-preparation" className="text-blue-600 hover:underline">Learn more about our document preparation services for Oklahoma attorneys</Link> and how we structure VA support around this principle.
+            Think of it this way: you are the architect, and your VA is the builder working from your blueprints. They can frame the walls, install the fixtures, and paint the rooms exactly to your specifications. But they are not designing the house — and under Oklahoma law, they cannot. Learn more about our document preparation services for Oklahoma attorneys and how we structure VA support around this principle.
           </p>
 
           <h3>Court-Ready Document Formatting and e-Filing Prep</h3>
@@ -293,7 +293,7 @@ export default function BlogPost() {
           </div>
 
           <p>
-            The bottom line is this: with proper supervision, virtual assistants are a compliant and powerful asset for Oklahoma law firms. The attorney must review, approve, and take professional responsibility for all VA work product. When that supervision is in place, you are not just staying within the ethical boundaries — you are operating exactly as the Oklahoma Rules of Professional Conduct intend. <Link href="/blog" className="text-blue-600 hover:underline">Explore our other articles on Oklahoma legal procedures</Link> for more compliance-focused guidance.
+            The bottom line is this: with proper supervision, virtual assistants are a compliant and powerful asset for Oklahoma law firms. The attorney must review, approve, and take professional responsibility for all VA work product. When that supervision is in place, you are not just staying within the ethical boundaries — you are operating exactly as the Oklahoma Rules of Professional Conduct intend. Explore our other articles on Oklahoma legal procedures for more compliance-focused guidance.
           </p>
 
           <h2>How Oklahoma District Court Rule 33 Enables Limited-Scope Document Drafting</h2>
@@ -316,7 +316,7 @@ export default function BlogPost() {
 
           <h3>Practical Workflow: How VAs Support Limited-Scope Drafting</h3>
           <p>
-            Here is what a typical limited-scope workflow looks like with VA support: First, the attorney meets with the pro se client, determines the legal strategy, and identifies the documents needed. Second, the attorney drafts the substantive legal content — the facts, arguments, and legal analysis. Third, the VA takes that content and formats it per the applicable court rules, organizes any exhibits or attachments, and prepares the e-filing package. Fourth, the attorney reviews the final document, makes any necessary revisions, and approves it. Finally, the document is delivered to the pro se client for filing. <Link href="/services" className="text-blue-600 hover:underline">Just Legal Solutions supports Oklahoma attorneys with document preparation and process serving services</Link> designed to fit seamlessly into workflows like this one.
+            Here is what a typical limited-scope workflow looks like with VA support: First, the attorney meets with the pro se client, determines the legal strategy, and identifies the documents needed. Second, the attorney drafts the substantive legal content — the facts, arguments, and legal analysis. Third, the VA takes that content and formats it per the applicable court rules, organizes any exhibits or attachments, and prepares the e-filing package. Fourth, the attorney reviews the final document, makes any necessary revisions, and approves it. Finally, the document is delivered to the pro se client for filing. Just Legal Solutions supports Oklahoma attorneys with document preparation and process serving services designed to fit seamlessly into workflows like this one.
           </p>
 
           <h2>The Cost Advantage — Why Oklahoma Firms Are Switching to Virtual Support</h2>
@@ -336,7 +336,7 @@ export default function BlogPost() {
 
           <h3>Beyond Cost Savings: Productivity and Revenue Gains</h3>
           <p>
-            Here is the revenue angle that often gets overlooked. If an attorney billing $250 per hour gains just two extra billable hours per day by offloading document preparation to a VA, that translates to <strong>$120,000+ in additional annual revenue</strong>. The VA does not just save you money — they make you money by returning your time to you. For Oklahoma firms in Tulsa and Oklahoma City competing against larger markets, that revenue boost can be the difference between staying small and growing strategically. <Link href="/pricing" className="text-blue-600 hover:underline">See our competitive pricing for virtual assistant and document preparation services</Link> and run the numbers for your own practice.
+            Here is the revenue angle that often gets overlooked. If an attorney billing $250 per hour gains just two extra billable hours per day by offloading document preparation to a VA, that translates to <strong>$120,000+ in additional annual revenue</strong>. The VA does not just save you money — they make you money by returning your time to you. For Oklahoma firms in Tulsa and Oklahoma City competing against larger markets, that revenue boost can be the difference between staying small and growing strategically. See our competitive pricing for virtual assistant and document preparation services and run the numbers for your own practice.
           </p>
 
           <h2>Best Practices for Hiring and Managing a Legal Virtual Assistant</h2>
@@ -351,7 +351,7 @@ export default function BlogPost() {
             ORPC Rule 5.3 requires attorneys to supervise nonlawyer assistants, and that supervision needs to be documented and deliberate. Start with lower-risk tasks — formatting, routine correspondence, and exhibit organization — and gradually expand the VA's responsibilities as trust and competence are demonstrated. Document the scope of work in writing, spelling out exactly what the VA handles and what remains with the attorney. This written scope is not just good management — it is your evidence of compliance if anyone ever questions your supervision.
           </p>
           <p>
-            Confidentiality protocols are non-negotiable. Require a signed NDA before any work begins. Use secure communication channels and encrypted file transfer for all document sharing. Implement VPNs and multi-factor authentication for any system the VA accesses. Follow the minimum-necessary access standard: your VA should only see the case files essential to their assigned tasks, nothing more. Conduct regular audits of access logs, and establish a clear rule that VAs never store client files on personal devices. <Link href="/services/virtual-assistant" className="text-blue-600 hover:underline">Just Legal Solutions provides trained virtual assistants experienced in Oklahoma legal document preparation</Link> who understand these confidentiality requirements from day one.
+            Confidentiality protocols are non-negotiable. Require a signed NDA before any work begins. Use secure communication channels and encrypted file transfer for all document sharing. Implement VPNs and multi-factor authentication for any system the VA accesses. Follow the minimum-necessary access standard: your VA should only see the case files essential to their assigned tasks, nothing more. Conduct regular audits of access logs, and establish a clear rule that VAs never store client files on personal devices. Just Legal Solutions provides trained virtual assistants experienced in Oklahoma legal document preparation who understand these confidentiality requirements from day one.
           </p>
 
           <h3>Technology and Security Considerations</h3>

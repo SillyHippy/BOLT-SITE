@@ -130,7 +130,7 @@ export default function EmploymentLawServiceOklahomaPage() {
 
             <h2>Get Service Started</h2>
             <p>
-              Call <a href="tel:5393676832">(539) 367-6832</a> or submit details through our{' '}
+              Call (539) 367-6832 or submit details through our{' '}
               <Link href="/contact">contact page</Link>. You can review service options on{' '}
               <Link href="/pricing">pricing</Link>.
             </p>

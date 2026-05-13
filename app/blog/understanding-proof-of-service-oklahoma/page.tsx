@@ -56,7 +56,7 @@ const faqs = [
   },
   {
     question: 'What common errors can invalidate a proof of service in Oklahoma?',
-    answer: 'The most common errors include incorrect or incomplete case captions; misspelling the recipient\ This guidance helps avoid delays, improves compliance, and supports stronger court-ready documentation in Oklahoma matters.'s name; failing to record the exact date and time of service; serving the wrong person without noting a physical description; using a legally invalid service method; missing or incomplete server signatures; and failing to file the proof of service with the court within the required timeframe. Any of these mistakes can provide grounds for a motion to quash service or dismiss the action.'
+    answer: 'The most common errors include incorrect or incomplete case captions; misspelling the recipient\'s name; failing to record the exact date and time of service; serving the wrong person without noting a physical description; using a legally invalid service method; missing or incomplete server signatures; and failing to file the proof of service with the court within the required timeframe. Any of these mistakes can provide grounds for a motion to quash service or dismiss the action.'
   },
   {
     question: 'Is digital proof of service accepted in Oklahoma courts?',
@@ -88,7 +88,7 @@ export default function BlogPost() {
             Under the Oklahoma Rules of Civil Procedure, proof of service is not optional. It is a mandatory filing that establishes jurisdiction over the parties and allows the court to proceed with hearings, rulings, and judgments. A missing or defective proof of service is one of the most common reasons cases are delayed or dismissed. When you work with a professional process server, you eliminate this risk because they understand exactly what the courts require and ensure every detail is documented correctly.
           </p>
           <p className="mb-4">
-            Licensed under Oklahoma Title 12 O.S. 158.1, our team has provided sworn proof of service for <Link href="/process-serving" className="text-blue-600 hover:underline">thousands of process serving assignments</Link> statewide. We know what Oklahoma judges and court clerks expect, and we build our documentation to exceed those expectations.
+            Licensed under Oklahoma Title 12 O.S. 158.1, our team has provided sworn proof of service for thousands of process serving assignments statewide. We know what Oklahoma judges and court clerks expect, and we build our documentation to exceed those expectations.
           </p>
         </section>
 
@@ -158,7 +158,7 @@ export default function BlogPost() {
             Even experienced attorneys can make mistakes with proof of service. The most common errors include incomplete case captions that do not match the court file; serving the wrong person without noting a physical description; failing to record the precise date and time; using an invalid service method not authorized by Oklahoma law; missing or illegible server signatures; and filing the proof of service past the deadline. Any one of these errors can give the opposing party grounds to file a motion to quash service, which will delay your case and may require you to start the service process all over again.
           </p>
           <p className="mb-4">
-            Working with a licensed, bonded process server virtually eliminates these risks. Our team reviews every proof of service for accuracy and completeness before it is filed, ensuring that your case can proceed without procedural hiccups. <Link href="/pricing" className="text-blue-600 hover:underline">View our pricing page</Link> to learn more about the value of professional service.
+            Working with a licensed, bonded process server virtually eliminates these risks. Our team reviews every proof of service for accuracy and completeness before it is filed, ensuring that your case can proceed without procedural hiccups. View our pricing page to learn more about the value of professional service.
           </p>
         </section>
 

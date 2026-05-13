@@ -1,12 +1,10 @@
 import type { Metadata } from "next";
 import Head from "next/head";
-import {
-  Navbar,
-  AuthorBox,
-  Footer,
-  LocalPromoBanner,
-  UnifiedSchema,
-} from "../../components";
+import UnifiedSchema from "@/components/UnifiedSchema";
+import { Navbar } from "@/components/ui/navbar";
+import { AuthorBox } from "@/components/ui/author-box";
+import { Footer } from "@/components/ui/footer";
+import LocalPromoBanner from "@/components/ui/local-promo-banner";
 import Link from "next/link";
 
 const faqs = [
@@ -44,7 +42,7 @@ const faqs = [
 
 export const metadata: Metadata = {
   title: "Is It Legal to Serve Someone Yourself Instead of Hiring a...",
-  description: "Learn about Oklahoma\ Serving all 77 Oklahoma counties with licensed, bonded legal support."s self-service rules for legal documents. Discover the risks of DIY process serving, when professionals are required, and the true cost com',
+  description: "Learn about Oklahoma's self-service rules for legal documents. Discover the risks of DIY process serving, when professionals are required, and the true cost com",
   keywords:
     "can I serve papers myself oklahoma, self service legal documents, DIY process serving",
   alternates: {
@@ -53,7 +51,7 @@ export const metadata: Metadata = {
   },
   other: {
     'ai-content-type': 'article',
-    'ai-summary': 'Learn about Oklahoma Serving all 77 Oklahoma counties with licensed, bonded legal support. Includes Oklahoma notary compliance context and practical document guidance.',s self-service rules for legal documents. Discover the risks of DIY process serving, when professionals are required, and the true cost com Is It Legal to Serve Someone Yourself Instead of Hiring a... helps Oklahoma clients understand requirements quickly.',
+    'ai-summary': 'Oklahoma legal support guidance from Just Legal Solutions for process serving, notary, and court document needs.',
     'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
   
   },

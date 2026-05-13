@@ -8,7 +8,7 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Virtual Assistant vs. In-House Staff: A Law Firm\',
+  title: 'Virtual Assistant vs. In-House Staff: A Law Firm',
   description: 'Compare virtual assistants vs in-house staff for Oklahoma law firms. See real cost data, ROI calculations, and the hybrid staffing model that works in 2026.',
   keywords: 'virtual assistant law firm Oklahoma, legal virtual assistant, law firm efficiency, legal support services, Oklahoma attorney support',
   authors: [{ name: 'Just Legal Solutions Team' }],
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   publisher: 'Just Legal Solutions',
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
-    title: 'Virtual Assistant vs. In-House Staff: A Law Firm\',
+    title: 'Virtual Assistant vs. In-House Staff: A Law Firm',
     description: 'Compare virtual assistants vs in-house staff for Oklahoma law firms. See real cost data, ROI calculations, and the hybrid staffing model that works in 2026.',
     url: 'https://justlegalsolutions.org/blog/virtual-assistant-vs-in-house-staff-pros-cons-roi-oklahoma',
     siteName: 'Just Legal Solutions',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
         url: 'https://justlegalsolutions.org/images/jls-logo.webp',
         width: 1200,
         height: 630,
-        alt: 'Virtual Assistant vs. In-House Staff: A Law Firm\',
+        alt: 'Virtual Assistant vs. In-House Staff: A Law Firm',
       },
     ],
   },
@@ -90,7 +90,7 @@ export default function BlogPost() {
     <>
       <UnifiedSchema
         pageType="article"
-        pageTitle="Virtual Assistant vs. In-House Staff: A Law Firm\"
+        pageTitle="Virtual Assistant vs. In-House Staff: A Law Firm"
         pageDescription="Compare virtual assistants vs in-house staff for Oklahoma law firms. See real cost data, ROI calculations, and the hybrid staffing model that works in 2026."
         pageUrl="https://justlegalsolutions.org/blog/virtual-assistant-vs-in-house-staff-pros-cons-roi-oklahoma"
         siteName="Just Legal Solutions"
@@ -99,10 +99,10 @@ export default function BlogPost() {
         breadcrumbs={[
           { name: 'Home', item: 'https://justlegalsolutions.org' },
           { name: 'Blog', item: 'https://justlegalsolutions.org/blog' },
-          { name: 'Virtual Assistant vs. In-House Staff: A Law Firm\', item: 'https://justlegalsolutions.org/blog/virtual-assistant-vs-in-house-staff-pros-cons-roi-oklahoma' }
+          { name: 'Virtual Assistant vs. In-House Staff: A Law Firm', item: 'https://justlegalsolutions.org/blog/virtual-assistant-vs-in-house-staff-pros-cons-roi-oklahoma' }
         ]}
         articleDetails={{
-          headline: 'Virtual Assistant vs. In-House Staff: A Law Firm\',
+          headline: 'Virtual Assistant vs. In-House Staff: A Law Firm',
           datePublished: '2026-03-12',
           dateModified: '2026-03-12',
           author: 'Just Legal Solutions Team',

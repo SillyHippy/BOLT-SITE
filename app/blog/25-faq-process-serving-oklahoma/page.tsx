@@ -132,7 +132,7 @@ export default function BlogPost() {
               in a legal proceeding. The process server&apos;s primary role is to
               ensure that due process is upheld by providing legal notice to all
               parties, giving them the opportunity to respond or appear in court.
-              At Just Legal Solutions, our <Link href="/process-serving" className="text-blue-600 hover:underline">process serving services</Link> are built around speed, accuracy,
+              At Just Legal Solutions, our process serving services are built around speed, accuracy,
               and professionalism — ensuring every document is served in full
               compliance with Oklahoma law.
             </p>

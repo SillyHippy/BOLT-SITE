@@ -10,7 +10,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 export const metadata: Metadata = {
   title: "What is Remote Online Notarization and How Does It Work i...",
   description: "Remote online notarization (RON) is now legal in Oklahoma. Learn how RON works step-by-step, technology requirements, Oklahoma law, and how it compares to tradi",
-  keywords: 'remote online notarization oklahoma, RON notary, online <Link href="/notary" className="text-blue-600">notary services</Link>, virtual notarization, Oklahoma remote notary, how does online notarization work',
+  keywords: 'remote online notarization oklahoma, RON notary, online notary services, virtual notarization, Oklahoma remote notary, how does online notarization work',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
   publisher: 'Just Legal Solutions',
@@ -52,7 +52,7 @@ const faqs = [
   },
   {
     question: 'How much does remote online notarization cost in Oklahoma?',
-    answer: 'Remote online notarization costs in Oklahoma typically range from $25 to $50 per notarized document, depending on the RON platform and notary provider. This fee is in addition to the standard Oklahoma notary fee of $5 per notarial act. The total cost may be higher for complex transactions like loan signings, which can range from our rush rate to $250. Some RON platforms charge a platform or technology fee on top of the notary fee. At Just Legal Solutions, we offer competitive RON <Link href="/pricing" className="text-blue-600">pricing</Link> and can quote you a flat rate for your specific documents. Call us at (539) 367-6832 for current pricing.',
+    answer: 'Remote online notarization costs in Oklahoma typically range from $25 to $50 per notarized document, depending on the RON platform and notary provider. This fee is in addition to the standard Oklahoma notary fee of $5 per notarial act. The total cost may be higher for complex transactions like loan signings, which can range from our rush rate to $250. Some RON platforms charge a platform or technology fee on top of the notary fee. At Just Legal Solutions, we offer competitive RON pricing and can quote you a flat rate for your specific documents. Call us at (539) 367-6832 for current pricing.',
   },
   {
     question: 'Can any Oklahoma notary perform remote online notarization?',
@@ -83,7 +83,7 @@ export default function BlogPost() {
 
         <h1 className="text-3xl md:text-4xl font-bold mb-6">What is Remote Online Notarization and How Does It Work in Oklahoma?</h1>
         <p className="text-gray-600 mb-8 text-lg">
-          Remote online notarization — commonly called RON — has transformed how documents get notarized in Oklahoma and across the country. If you have ever struggled to find time to meet a notary in person, driven across town only to realize you forgot your ID, or needed a document notarized while traveling out of state, RON offers a convenient, secure alternative. In this comprehensive guide, we will explain exactly what remote online notarization is, how it works under Oklahoma law, the technology you need, how it compares to traditional in-person notarization, and what you should know before choosing this option. At <Link href="/" className="text-blue-600">Just Legal Solutions</Link>, we have helped hundreds of Oklahoma clients complete remote notarizations efficiently and securely.
+          Remote online notarization — commonly called RON — has transformed how documents get notarized in Oklahoma and across the country. If you have ever struggled to find time to meet a notary in person, driven across town only to realize you forgot your ID, or needed a document notarized while traveling out of state, RON offers a convenient, secure alternative. In this comprehensive guide, we will explain exactly what remote online notarization is, how it works under Oklahoma law, the technology you need, how it compares to traditional in-person notarization, and what you should know before choosing this option. At Just Legal Solutions, we have helped hundreds of Oklahoma clients complete remote notarizations efficiently and securely.
         </p>
         <p className="mb-4">Deadlines often rely on 12 O.S. 2004, and notarial rules may involve Title 49 O.S.</p>
         <p className="mb-4">We have served thousands of documents across all 77 Oklahoma counties.</p>
@@ -137,7 +137,7 @@ export default function BlogPost() {
 
           <h3 className="text-xl font-semibold mb-3 mt-6">Step 1: Schedule Your Appointment</h3>
           <p className="mb-4">
-            Contact Just Legal Solutions at <a href="tel:539-367-6832" className="text-blue-600">(539) 367-6832</a> or through our <Link href="/" className="text-blue-600">website</Link> to schedule your remote notarization. We will discuss your documents, confirm that RON is appropriate for your situation, and provide you with a link to our secure RON platform. Most appointments can be scheduled same-day or next-day.
+            Contact Just Legal Solutions at <a href="tel:539-367-6832" className="text-blue-600">(539) 367-6832</a> or through our website to schedule your remote notarization. We will discuss your documents, confirm that RON is appropriate for your situation, and provide you with a link to our secure RON platform. Most appointments can be scheduled same-day or next-day.
           </p>
 
           <h3 className="text-xl font-semibold mb-3 mt-6">Step 2: Upload Your Documents</h3>
@@ -250,7 +250,7 @@ export default function BlogPost() {
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">Why Choose Just Legal Solutions for Remote Online Notarization</h2>
           <p className="mb-4">
-            At <Link href="/" className="text-blue-600">Just Legal Solutions</Link>, we have invested in the technology and training to provide professional remote online notarization services that meet the highest standards. Our commissioned Oklahoma notaries are registered with the Secretary of State to perform RON, and we use approved platforms with bank-level security. With 50+ years of combined experience across our team, we handle everything from simple affidavits to complex loan signings.
+            At Just Legal Solutions, we have invested in the technology and training to provide professional remote online notarization services that meet the highest standards. Our commissioned Oklahoma notaries are registered with the Secretary of State to perform RON, and we use approved platforms with bank-level security. With 50+ years of combined experience across our team, we handle everything from simple affidavits to complex loan signings.
           </p>
           <p className="mb-4">
             We serve clients across all <strong>77 Oklahoma counties</strong> and can perform RON for signers located anywhere in the world. Our <strong>4.9-star rating</strong> reflects our commitment to professionalism, accuracy, and customer service. Whether you need a single document notarized remotely or are coordinating a complex multi-document transaction, we have the expertise to handle it efficiently.

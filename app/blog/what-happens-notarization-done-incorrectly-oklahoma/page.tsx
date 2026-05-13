@@ -75,7 +75,7 @@ export default function BlogPost() {
 
         <h1 className="text-3xl md:text-4xl font-bold mb-6">What Happens If My Notarization Is Done Incorrectly in Oklahoma?</h1>
         <p className="text-gray-600 mb-8 text-lg">
-          A notarization seems like a simple formality — until it is done wrong. An incorrect notarization can derail a real estate closing, delay a court case, void a power of attorney, or create legal liability for everyone involved. Whether the error is a missing seal, a wrong date, a failure to verify identification, or a more serious procedural violation, the consequences can range from minor inconvenience to catastrophic legal exposure. At <Link href="/" className="text-blue-600">Just Legal Solutions</Link>, we have seen the aftermath of improper notarizations and helped countless Oklahoma clients fix errors and get their documents properly executed. This guide explains what can go wrong, what happens when it does, and how to protect yourself from notarization mistakes.
+          A notarization seems like a simple formality — until it is done wrong. An incorrect notarization can derail a real estate closing, delay a court case, void a power of attorney, or create legal liability for everyone involved. Whether the error is a missing seal, a wrong date, a failure to verify identification, or a more serious procedural violation, the consequences can range from minor inconvenience to catastrophic legal exposure. At Just Legal Solutions, we have seen the aftermath of improper notarizations and helped countless Oklahoma clients fix errors and get their documents properly executed. This guide explains what can go wrong, what happens when it does, and how to protect yourself from notarization mistakes.
         </p>
         <p className="mb-6 text-gray-700">Just Legal Solutions combines 50+ years of practical field experience with licensed, bonded compliance under Oklahoma Title 12 O.S. 158.1. We have served thousands of documents in all 77 Oklahoma counties and anchor timelines and procedure details to 12 O.S. 2004 and Title 49 O.S.</p>
 
@@ -163,7 +163,7 @@ export default function BlogPost() {
             <li><strong>Is the commission still active?</strong> — The notary's commission should not be expired</li>
           </ul>
           <p className="mb-4">
-            If you spot any of these issues, contact the notary immediately for correction. At <Link href="/notary-services" className="text-blue-600">Just Legal Solutions</Link>, we encourage every client to review their completed notarization before we leave the appointment. Catching errors immediately is always easier than fixing them later.
+            If you spot any of these issues, contact the notary immediately for correction. At Just Legal Solutions, we encourage every client to review their completed notarization before we leave the appointment. Catching errors immediately is always easier than fixing them later.
           </p>
         </section>
 
@@ -239,7 +239,7 @@ export default function BlogPost() {
 
           <h3 className="text-xl font-semibold mb-3 mt-6">Work with a Reputable Service</h3>
           <p className="mb-4">
-            Individual notaries working as a side gig may not have the systems, training, and accountability of a professional notary service. At <Link href="/" className="text-blue-600">Just Legal Solutions</Link>, every notarization is backed by our 4.9-star reputation, $1,000 surety bond, professional E&O insurance, and 50+ years of combined team experience. If an error ever occurs, we have the resources and integrity to make it right.
+            Individual notaries working as a side gig may not have the systems, training, and accountability of a professional notary service. At Just Legal Solutions, every notarization is backed by our 4.9-star reputation, $1,000 surety bond, professional E&O insurance, and 50+ years of combined team experience. If an error ever occurs, we have the resources and integrity to make it right.
           </p>
         </section>
 

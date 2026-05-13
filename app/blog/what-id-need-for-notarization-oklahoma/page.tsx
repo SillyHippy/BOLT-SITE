@@ -1,13 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import {
-  Navbar,
-  AuthorBox,
-  Footer,
-  LocalPromoBanner,
-  UnifiedSchema,
-} from "../../components";
-import { notary } from "../../lib/structured-data";
+import UnifiedSchema from "@/components/UnifiedSchema";
+import { Navbar } from "@/components/ui/navbar";
+import { AuthorBox } from "@/components/ui/author-box";
+import { Footer } from "@/components/ui/footer";
+import LocalPromoBanner from "@/components/ui/local-promo-banner";
 
 const faqs = [
   {

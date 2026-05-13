@@ -165,7 +165,7 @@ export default function BlogPost() {
             Oklahoma landlords filed more than 48,200 eviction cases in 2023 alone, and Oklahoma City ranked 20th worst nationally for evictions while Tulsa ranked 11th worst. When nonprofits step in to help tenants, they become part of a legal system that demands precise compliance with service of process rules. Whether your nonprofit is a plaintiff or a defendant, proper process serving is non-negotiable. A missed deadline or defective service can derail a case that vulnerable Oklahomans are depending on.
           </p>
           <p>
-            If your organization assists tenants, understanding <Link href="/blog/oklahoma-eviction-process-service-rules" className="text-blue-600 hover:underline">Oklahoma&apos;s specific eviction service rules</Link> is essential for protecting the people you serve.
+            If your organization assists tenants, understanding Oklahoma&apos;s specific eviction service rules is essential for protecting the people you serve.
           </p>
 
           <h2>How Nonprofits Are Served With Lawsuits in Oklahoma</h2>
@@ -190,7 +190,7 @@ export default function BlogPost() {
             If your registered agent resigns, moves, passes away, or simply cannot be located, anyone suing your organization can serve the Oklahoma Secretary of State instead. The Secretary of State will then mail notice to your organization's last-known address on file. Here is the critical part: once service is made on the Secretary of State, your organization has just 40 days to respond. If you miss that window because the notice got lost or went to an old address, you risk a default judgment — a ruling against your nonprofit without you ever having your day in court.
           </p>
           <p>
-            Our practical advice: check your registered agent status at sos.ok.gov at least once a year. Update your registered agent information within 30 days of any change. Make sure your organization's address on file with the Secretary of State is current. These simple steps take ten minutes and can prevent a crisis. <Link href="/services/process-serving" className="text-blue-600 hover:underline">A licensed Oklahoma process server</Link> can also help verify your nonprofit&apos;s current registered agent status before a crisis hits.
+            Our practical advice: check your registered agent status at sos.ok.gov at least once a year. Update your registered agent information within 30 days of any change. Make sure your organization's address on file with the Secretary of State is current. These simple steps take ten minutes and can prevent a crisis. A licensed Oklahoma process server can also help verify your nonprofit&apos;s current registered agent status before a crisis hits.
           </p>
 
           <h2>Nonprofits as Plaintiffs — The Overlooked Service Challenge</h2>
@@ -250,7 +250,7 @@ export default function BlogPost() {
             Here is the key takeaway for process serving: under the legal doctrine of respondeat superior, the nonprofit organization itself remains liable for the conduct of its volunteers and employees, even when those individuals are personally immune. This means that if someone is injured or harmed by your organization's activities, the lawsuit will almost always name the nonprofit entity — and that is who must be properly served. If service is defective, incomplete, or goes unnoticed because your registered agent was not doing their job, your organization could end up with a default judgment. The volunteer is protected, but the organization (and its assets, its insurance, and its ability to continue serving the community) is not.
           </p>
           <p>
-            Our practical advice: train your staff and board members on what to do if they receive legal papers. Have a written protocol in place. Designate one person (ideally your executive director or a designated legal liaison) who receives all legal documents and immediately forwards them to your attorney. Make sure your front desk staff knows that legal papers are not junk mail — they are time-sensitive documents that require immediate action. <Link href="/about" className="text-blue-600 hover:underline">Just Legal Solutions has deep experience serving Oklahoma&apos;s legal community</Link>, including nonprofits and advocacy organizations, and we understand the unique pressures you face.
+            Our practical advice: train your staff and board members on what to do if they receive legal papers. Have a written protocol in place. Designate one person (ideally your executive director or a designated legal liaison) who receives all legal documents and immediately forwards them to your attorney. Make sure your front desk staff knows that legal papers are not junk mail — they are time-sensitive documents that require immediate action. Just Legal Solutions has deep experience serving Oklahoma&apos;s legal community, including nonprofits and advocacy organizations, and we understand the unique pressures you face.
           </p>
           </article>
           

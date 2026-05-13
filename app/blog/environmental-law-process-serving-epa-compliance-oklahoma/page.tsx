@@ -156,7 +156,7 @@ export default function BlogPost() {
           <h3>The Multi-Layered Service Challenge in Environmental Cases</h3>
 
           <p>
-            Environmental litigation is not your standard serve-and-file scenario. Unlike a straightforward breach of contract where you serve a single defendant under <Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">12 O.S. § 2004</Link>, an environmental citizen suit can require simultaneous service on multiple entities across overlapping jurisdictions — the EPA in Washington, D.C., the Oklahoma DEQ in Oklahoma City, the alleged violator who might be operating a disposal facility in a rural county, and adjacent landowners affected by contamination. Each of these parties has different service requirements, different deadlines, and different consequences if service fails.
+            Environmental litigation is not your standard serve-and-file scenario. Unlike a straightforward breach of contract where you serve a single defendant under 12 O.S. § 2004, an environmental citizen suit can require simultaneous service on multiple entities across overlapping jurisdictions — the EPA in Washington, D.C., the Oklahoma DEQ in Oklahoma City, the alleged violator who might be operating a disposal facility in a rural county, and adjacent landowners affected by contamination. Each of these parties has different service requirements, different deadlines, and different consequences if service fails.
           </p>
 
           <p>
@@ -164,7 +164,7 @@ export default function BlogPost() {
           </p>
 
           <p>
-            Oklahoma's environmental litigation landscape is uniquely complex due to the state's dominant oil and gas industry, extensive agricultural operations, and significant tribal land holdings. Contamination cases frequently arise in remote areas — from produced water spills in western Oklahoma to agricultural runoff in the northeast quadrant. Service in these locations often requires process servers who are comfortable navigating rural terrain, locating defendants at well sites or temporary drilling camps, and handling the physical and logistical challenges that come with <Link href="/service-areas" className="text-blue-600 hover:underline">serving documents across all 77 Oklahoma counties</Link>.
+            Oklahoma's environmental litigation landscape is uniquely complex due to the state's dominant oil and gas industry, extensive agricultural operations, and significant tribal land holdings. Contamination cases frequently arise in remote areas — from produced water spills in western Oklahoma to agricultural runoff in the northeast quadrant. Service in these locations often requires process servers who are comfortable navigating rural terrain, locating defendants at well sites or temporary drilling camps, and handling the physical and logistical challenges that come with serving documents across all 77 Oklahoma counties.
           </p>
 
           <h3>High-Stakes Consequences of Defective Service</h3>
@@ -290,7 +290,7 @@ export default function BlogPost() {
           </p>
 
           <p>
-            Here is what has not changed: <strong>process servers in Oklahoma will still be needed</strong> for serving the alleged violator, state agencies like the DEQ, and any co-defendants. The proposed rule only changes service <em>on EPA</em>, not the entire service chain. For Oklahoma attorneys, this means your process serving strategy should account for both the new electronic EPA requirement and the continuing need for professional, documented personal service on every other party. If you are handling a complex multi-defendant environmental case, <Link href="/pricing" className="text-blue-600 hover:underline">contact us for a custom quote</Link> that accounts for the full service chain.
+            Here is what has not changed: <strong>process servers in Oklahoma will still be needed</strong> for serving the alleged violator, state agencies like the DEQ, and any co-defendants. The proposed rule only changes service <em>on EPA</em>, not the entire service chain. For Oklahoma attorneys, this means your process serving strategy should account for both the new electronic EPA requirement and the continuing need for professional, documented personal service on every other party. If you are handling a complex multi-defendant environmental case, contact us for a custom quote that accounts for the full service chain.
           </p>
 
           <p>
@@ -306,7 +306,7 @@ export default function BlogPost() {
           </p>
 
           <p>
-            Environmental contamination cases frequently arise in rural Oklahoma counties with active oil and gas operations, where defendants may be found at well sites, disposal facilities, or temporary drilling camps. Service in these locations requires process servers who are comfortable with rural Oklahoma terrain, who understand the rhythm of oil field operations, and who can locate defendants who may not maintain regular business hours at a fixed address. <Link href="/service-areas" className="text-blue-600 hover:underline">We serve all 77 Oklahoma counties</Link>, and we understand that environmental service often means driving gravel roads, navigating lease access, and finding people who are not always easy to find.
+            Environmental contamination cases frequently arise in rural Oklahoma counties with active oil and gas operations, where defendants may be found at well sites, disposal facilities, or temporary drilling camps. Service in these locations requires process servers who are comfortable with rural Oklahoma terrain, who understand the rhythm of oil field operations, and who can locate defendants who may not maintain regular business hours at a fixed address. We serve all 77 Oklahoma counties, and we understand that environmental service often means driving gravel roads, navigating lease access, and finding people who are not always easy to find.
           </p>
 
           <p>
@@ -324,11 +324,11 @@ export default function BlogPost() {
           </p>
 
           <p>
-            If your practice involves oil and gas environmental litigation specifically, you may also want to review <Link href="/blog/process-serving-oil-gas-companies-oklahoma" className="text-blue-600 hover:underline">our guide to oil and gas process serving</Link>, which covers related topics including service on drilling operators, multi-well environmental class actions, and parallel DEQ proceedings in the energy sector. The two guides complement each other — this article focuses on EPA compliance and DEQ procedures broadly, while the oil and gas guide dives deeper into energy-sector-specific scenarios.
+            If your practice involves oil and gas environmental litigation specifically, you may also want to review our guide to oil and gas process serving, which covers related topics including service on drilling operators, multi-well environmental class actions, and parallel DEQ proceedings in the energy sector. The two guides complement each other — this article focuses on EPA compliance and DEQ procedures broadly, while the oil and gas guide dives deeper into energy-sector-specific scenarios.
           </p>
 
           <p>
-            Environmental cases do not wait. Whether you are serving a DEQ compliance order in Oklahoma City, a citizen suit NOI on EPA in Washington, or a complaint on a well operator in a rural county, proper service is non-negotiable. Just Legal Solutions serves all 77 Oklahoma counties with licensed process servers who understand the complexities of environmental litigation. <Link href="/contact" className="text-blue-600 hover:underline">Contact us today</Link> to discuss your case requirements.
+            Environmental cases do not wait. Whether you are serving a DEQ compliance order in Oklahoma City, a citizen suit NOI on EPA in Washington, or a complaint on a well operator in a rural county, proper service is non-negotiable. Just Legal Solutions serves all 77 Oklahoma counties with licensed process servers who understand the complexities of environmental litigation. Contact us today to discuss your case requirements.
           </p>
           </article>
           

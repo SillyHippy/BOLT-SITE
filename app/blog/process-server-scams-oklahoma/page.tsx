@@ -129,7 +129,7 @@ export default function ProcessServerScamsOklahomaPage() {
             <h2>Need Real Process Serving Help?</h2>
             <p>
               Just Legal Solutions serves all 77 Oklahoma counties and can help you distinguish legitimate service
-              from fraud. Call <a href="tel:5393676832">(539) 367-6832</a> or use our{' '}
+              from fraud. Call (539) 367-6832 or use our{' '}
               <Link href="/contact">contact form</Link>. For service options, visit <Link href="/pricing">pricing</Link>.
             </p>
 

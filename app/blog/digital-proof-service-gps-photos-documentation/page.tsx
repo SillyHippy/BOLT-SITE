@@ -52,7 +52,7 @@ const faqs = [
   },
   {
     question: 'What should I look for in a process server\'s documentation practices?',
-    answer: 'When evaluating a process server\ This guidance helps avoid delays, improves compliance, and supports stronger court-ready documentation in Oklahoma matters.'s documentation practices, look for companies that provide GPS-verified service records, timestamped photographs of service attempts, detailed written affidavits, real-time status updates through a client portal, and secure digital storage of all service records. The best process servers also provide chain-of-custody documentation and maintain backup records. At Just Legal Solutions, we provide all of these documentation features as standard practice, ensuring that our clients have the strongest possible proof of service for every document we handle.',
+    answer: 'When evaluating a process server\'s documentation practices, look for companies that provide GPS-verified service records, timestamped photographs of service attempts, detailed written affidavits, real-time status updates through a client portal, and secure digital storage of all service records. The best process servers also provide chain-of-custody documentation and maintain backup records. At Just Legal Solutions, we provide all of these documentation features as standard practice, ensuring that our clients have the strongest possible proof of service for every document we handle.',
   },
   {
     question: 'Can digital proof of service prevent service challenges?',
@@ -184,7 +184,7 @@ export default function BlogPost() {
           </p>
           <p className="mb-4">
             Oklahoma courts have accepted digital documentation packages that include GPS data, timestamps, and 
-            photographs as substantial evidence of valid service. While <Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma law</Link> still 
+            photographs as substantial evidence of valid service. While Oklahoma law still 
             requires a sworn affidavit as the primary proof of service, digital records serve as powerful supporting 
             exhibits that can be presented alongside the affidavit. In contested service hearings, this additional 
             evidence often proves decisive in establishing valid service.
@@ -226,7 +226,7 @@ export default function BlogPost() {
           <p className="mb-4">
             Oklahoma courts have specific requirements for what constitutes valid proof of service, and understanding 
             these requirements is essential for ensuring that your documentation will hold up under judicial scrutiny. 
-            Under <Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma law</Link>, 
+            Under Oklahoma law, 
             the primary document required for proof of service is a sworn affidavit executed by the process server who 
             performed the service.
           </p>
@@ -359,7 +359,7 @@ export default function BlogPost() {
             the documentation quality that modern litigation demands. Licensed and bonded under Oklahoma Title 12 O.S. 158.1.
           </p>
           <p className="mb-4">
-            For current pricing on all our services, <Link href="/pricing" className="text-blue-600 font-semibold">view our pricing page</Link>.
+            For current pricing on all our services, view our pricing page.
           </p>
           <p className="font-semibold">
             Call <a href="tel:539-367-6832" className="text-blue-600">(539) 367-6832</a> or{' '}

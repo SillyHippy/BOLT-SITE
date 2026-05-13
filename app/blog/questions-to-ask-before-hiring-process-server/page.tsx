@@ -34,7 +34,7 @@ const faqs = [
   },
   {
     question:
-      "How much should I expect to pay for <Link href="/process-serving" className="text-blue-600">process serving</Link> in Oklahoma?",
+      "How much should I expect to pay for process serving in Oklahoma?",
     answer:
       "Pricing varies based on urgency and complexity. At Just Legal Solutions, our transparent pricing starts at our base rate for a single attempt, our standard rate for standard service, our rush rate for rush service, our same-day rate for same-day service, our triple-attempt rate for triple-attempt service, and our after-hours rate for after-hours service. Always ask for a detailed quote upfront to avoid hidden fees.",
   },

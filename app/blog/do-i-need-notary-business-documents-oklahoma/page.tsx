@@ -230,7 +230,7 @@ export default function BlogPost() {
             For busy business owners and corporate officers, finding time to visit a bank or courthouse during limited business hours is often impractical. Mobile notary services solve this problem by bringing the notary to your office at a time that works for your schedule.
           </p>
           <p className="mb-4">
-            At Just Legal Solutions, we specialize in <Link href="/notary" className="text-blue-600">corporate and business notary services</Link> throughout Oklahoma. Our mobile notaries come to your office, conference room, or job site, allowing your team to focus on running the business instead of chasing down a notary. We offer group appointments for businesses with multiple documents or multiple signers, and we accommodate after-hours and weekend requests.
+            At Just Legal Solutions, we specialize in corporate and business notary services throughout Oklahoma. Our mobile notaries come to your office, conference room, or job site, allowing your team to focus on running the business instead of chasing down a notary. We offer group appointments for businesses with multiple documents or multiple signers, and we accommodate after-hours and weekend requests.
           </p>
           <p className="mb-4">
             We have worked with law firms, real estate agencies, title companies, construction firms, medical practices, financial advisors, manufacturing companies, and nonprofit organizations across all 77 Oklahoma counties. Our notaries understand the unique needs of business clients and handle sensitive corporate documents with professionalism and discretion.

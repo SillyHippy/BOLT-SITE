@@ -148,7 +148,7 @@ export default function BlogPost() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 -mt-8 relative z-10 pb-16">
           <article className="prose prose-lg prose-blue max-w-none bg-white p-8 md:p-12 rounded-2xl shadow-lg border border-gray-100">
             <p className="lead text-xl text-gray-600 mb-8">
-            Process serving ethics Oklahoma — it's a phrase that gets thrown around a lot, but what does it actually mean for your case? Picture this: you're an attorney who just received notice that service in your case is being challenged. The opposing party claims they were never served, and the affidavit attached to your return looks questionable. Suddenly, months of legal work are at risk because of a process server's integrity. At <Link href="/process-serving" className="text-blue-600 hover:underline">Just Legal Solutions</Link>, we believe ethical process serving isn't optional — it's the foundation of every case we touch.
+            Process serving ethics Oklahoma — it's a phrase that gets thrown around a lot, but what does it actually mean for your case? Picture this: you're an attorney who just received notice that service in your case is being challenged. The opposing party claims they were never served, and the affidavit attached to your return looks questionable. Suddenly, months of legal work are at risk because of a process server's integrity. At Just Legal Solutions, we believe ethical process serving isn't optional — it's the foundation of every case we touch.
           </p>
 
           <h2>Why Process Serving Ethics Should Matter to Your Case</h2>

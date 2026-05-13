@@ -176,7 +176,7 @@ export default function HowToServeSmallClaimsOklahoma() {
           <article className="prose prose-lg prose-blue max-w-none bg-white p-8 md:p-12 rounded-2xl shadow-lg border border-gray-100">
 
             <p className="text-xl text-gray-700 leading-relaxed">
-              Small claims court exists to give ordinary Oklahomans an affordable, accessible way to resolve disputes without hiring an attorney. But &ldquo;small claims&rdquo; does not mean &ldquo;no rules.&rdquo; You still have to properly serve the defendant — and if service is defective, your case can be delayed or dismissed regardless of the merits of your claim. This guide covers everything you need to know about serving small claims papers in Oklahoma, from filing your petition to getting your case called on the hearing date. For a broader overview of process serving requirements in Oklahoma, see our <Link href="/ultimate-guide-process-serving-oklahoma" className="text-blue-600 hover:underline">Ultimate Guide to Process Serving in Oklahoma</Link>.
+              Small claims court exists to give ordinary Oklahomans an affordable, accessible way to resolve disputes without hiring an attorney. But &ldquo;small claims&rdquo; does not mean &ldquo;no rules.&rdquo; You still have to properly serve the defendant — and if service is defective, your case can be delayed or dismissed regardless of the merits of your claim. This guide covers everything you need to know about serving small claims papers in Oklahoma, from filing your petition to getting your case called on the hearing date. For a broader overview of process serving requirements in Oklahoma, see our Ultimate Guide to Process Serving in Oklahoma.
             </p>
 
             <div className="bg-blue-50 border-l-4 border-blue-600 p-6 my-8 rounded-r-lg not-prose">
@@ -226,7 +226,7 @@ export default function HowToServeSmallClaimsOklahoma() {
               Filing in the wrong county can result in the case being transferred or dismissed on a motion by the defendant. Take time before filing to confirm the proper venue. When in doubt, contact the <a href="https://www.courts.ok.gov/" target="_blank" rel="noopener noreferrer">district court clerk&apos;s office</a> for guidance — clerks can tell you whether a case is properly filed in their court without providing legal advice.
             </p>
             <p>
-              When you file, the court clerk will collect your filing fee (which varies by county and claim amount) and issue a summons and notice of the hearing date. This summons, along with a copy of your petition, is what must be served on the defendant. Keep copies of everything you file — you will need them for the hearing. Our <Link href="/courthouse-filing-services" className="text-blue-600 hover:underline">courthouse filing services</Link> can assist with court filings at the <a href="https://www.tulsacounty.org/Tulsa/County/Departments/Court+Clerk/" target="_blank" rel="noopener noreferrer">Tulsa County Court Clerk</a> and other Oklahoma district courts.
+              When you file, the court clerk will collect your filing fee (which varies by county and claim amount) and issue a summons and notice of the hearing date. This summons, along with a copy of your petition, is what must be served on the defendant. Keep copies of everything you file — you will need them for the hearing. Our courthouse filing services can assist with court filings at the <a href="https://www.tulsacounty.org/Tulsa/County/Departments/Court+Clerk/" target="_blank" rel="noopener noreferrer">Tulsa County Court Clerk</a> and other Oklahoma district courts.
             </p>
 
             <h2>Service Methods Allowed for Small Claims in Oklahoma</h2>
@@ -250,7 +250,7 @@ export default function HowToServeSmallClaimsOklahoma() {
               For small claims cases where the defendant is known to be avoiding certified mail, has moved without a forwarding address, or where you anticipate a dispute about whether service occurred, personal service through a licensed process server is strongly recommended. The cost is modest relative to the amount at stake, and the documentation a professional server provides is invaluable if service is challenged.
             </p>
             <p>
-              Just Legal Solutions provides <Link href="/process-serving" className="text-blue-600 hover:underline">personal process serving</Link> for small claims cases across all Oklahoma counties. Visit our <Link href="/pricing" className="text-blue-600 hover:underline">pricing page</Link> for current service rates.
+              Just Legal Solutions provides personal process serving for small claims cases across all Oklahoma counties. Visit our pricing page for current service rates.
             </p>
 
             <h3>Sheriff Service</h3>
@@ -297,7 +297,7 @@ export default function HowToServeSmallClaimsOklahoma() {
               <li><strong>Day of hearing:</strong> Present your evidence; judge issues ruling, often the same day</li>
             </ul>
             <p>
-              In rural Oklahoma counties with less busy court dockets, the timeline from service to hearing may be faster. In larger metro courts like Tulsa County and Oklahoma County, dockets can be more congested, and your hearing may be scheduled further out. Ask the court clerk for realistic timelines in your specific county. If speed is essential, explore our <Link href="/rush-vs-standard-vs-same-day-service" className="text-blue-600 hover:underline">rush vs. standard vs. same-day service options</Link>.
+              In rural Oklahoma counties with less busy court dockets, the timeline from service to hearing may be faster. In larger metro courts like Tulsa County and Oklahoma County, dockets can be more congested, and your hearing may be scheduled further out. Ask the court clerk for realistic timelines in your specific county. If speed is essential, explore our rush vs. standard vs. same-day service options.
             </p>
             <p>
               From a service standpoint, getting the defendant served quickly is in your best interest. The clock on their response period — and your path to the hearing — does not begin until service is confirmed and filed with the court.
@@ -374,7 +374,7 @@ export default function HowToServeSmallClaimsOklahoma() {
               <strong>Service is not optional.</strong> No matter how strong your case is on the merits, if service is defective or cannot be confirmed, the judge cannot hear your case. Treat proper service as a prerequisite — not an afterthought.
             </p>
             <p>
-              For small claims cases where you need reliable, professionally documented personal service, Just Legal Solutions serves all Oklahoma counties. Our licensed process servers under 12 O.S. § 158.1 provide GPS-stamped affidavits and can coordinate with our skip tracing team if locating the defendant is a challenge. Visit our <Link href="/service-areas" className="text-blue-600 hover:underline">service areas page</Link> to confirm coverage in your county, or see our <Link href="/pricing" className="text-blue-600 hover:underline">pricing page</Link> for current service rates.
+              For small claims cases where you need reliable, professionally documented personal service, Just Legal Solutions serves all Oklahoma counties. Our licensed process servers under 12 O.S. § 158.1 provide GPS-stamped affidavits and can coordinate with our skip tracing team if locating the defendant is a challenge. Visit our service areas page to confirm coverage in your county, or see our pricing page for current service rates.
             </p>
             <p>
               We serve small claims cases throughout northeastern Oklahoma, including Tulsa County, Creek County, Rogers County, Wagoner County, Osage County, Mayes County, and all surrounding jurisdictions. For defendants who cannot be located, our skip tracing team can identify a current, servable address before a service attempt is dispatched — saving time and re-service fees. Contact Just Legal Solutions before your hearing date to ensure service is confirmed and documented well in advance.
@@ -450,7 +450,7 @@ export default function HowToServeSmallClaimsOklahoma() {
               <li><strong>State the amount owed:</strong> Be prepared to clearly state the exact amount you are seeking, plus any applicable costs and interest. Judges will not award more than what you request.</li>
             </ul>
             <p>
-              After a default judgment is entered, the defendant retains the right to file a motion to set aside the default within a limited time period, if they can show good cause — such as not receiving notice due to an incorrect address. This is why proper service documentation matters so much: a defendant who claims they never received notice can potentially get a default overturned if your service documentation is weak. A <Link href="/gps-tracked-process-serving" className="text-blue-600 hover:underline">GPS-stamped affidavit</Link> from a licensed process server eliminates this vulnerability.
+              After a default judgment is entered, the defendant retains the right to file a motion to set aside the default within a limited time period, if they can show good cause — such as not receiving notice due to an incorrect address. This is why proper service documentation matters so much: a defendant who claims they never received notice can potentially get a default overturned if your service documentation is weak. A GPS-stamped affidavit from a licensed process server eliminates this vulnerability.
             </p>
 
             <h2>Responding to a Small Claims Case as a Defendant in Oklahoma</h2>

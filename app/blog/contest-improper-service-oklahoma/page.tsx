@@ -58,7 +58,7 @@ const faqs: { question: string; answer: string }[] = [
   },
   {
     question: "Can I challenge service if I actually received notice of the lawsuit?",
-    answer: "Yes, but your challenge may be less likely to succeed. While constitutional due process requires adequate notice, Oklahoma courts apply a \"substantial compliance\" standard. If you actually received the summons and petition and had a fair opportunity to respond, a court may find that any technical defects didn't prejudice your rights."
+    answer: "Yes, but your challenge may be less likely to succeed. While constitutional due process requires adequate notice, Oklahoma courts apply a 'substantial compliance\" standard. If you actually received the summons and petition and had a fair opportunity to respond, a court may find that any technical defects didn't prejudice your rights."
   },
   {
     question: "What is the difference between a motion to quash and a motion to dismiss for insufficient service?",

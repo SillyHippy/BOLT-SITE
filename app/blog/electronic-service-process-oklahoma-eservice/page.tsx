@@ -52,7 +52,7 @@ const faqs = [
   },
   {
     question: 'What types of cases can use electronic service in Oklahoma?',
-    answer: 'Electronic service is available in most civil cases in Oklahoma, including family law, contract disputes, personal injury cases, and probate matters. However, certain case types and documents may be excluded from eService by local court rules or judicial discretion. Criminal cases, protective order proceedings, and certain emergency filings may still require traditional in-person service. Always verify with local court rules or consult a professional <Link href="/process-serving" className="text-blue-600 hover:underline">process serving</Link> provider for case-specific guidance.',
+    answer: 'Electronic service is available in most civil cases in Oklahoma, including family law, contract disputes, personal injury cases, and probate matters. However, certain case types and documents may be excluded from eService by local court rules or judicial discretion. Criminal cases, protective order proceedings, and certain emergency filings may still require traditional in-person service. Always verify with local court rules or consult a professional process serving provider for case-specific guidance.',
   },
   {
     question: 'What are the security requirements for electronic service?',
@@ -60,7 +60,7 @@ const faqs = [
   },
   {
     question: 'Can electronic service replace a process server entirely?',
-    answer: 'No, electronic service cannot completely replace traditional process servers. While eService is efficient for document exchange between consenting parties, there remain many situations where physical service by a licensed process server is required. These include service on unrepresented parties, individuals without reliable internet access, cases where consent has not been obtained, and situations requiring personal delivery under statute. At Just Legal Solutions, we offer both traditional <Link href="/process-serving" className="text-blue-600 hover:underline">process serving</Link> and electronic service support to meet every need.',
+    answer: 'No, electronic service cannot completely replace traditional process servers. While eService is efficient for document exchange between consenting parties, there remain many situations where physical service by a licensed process server is required. These include service on unrepresented parties, individuals without reliable internet access, cases where consent has not been obtained, and situations requiring personal delivery under statute. At Just Legal Solutions, we offer both traditional process serving and electronic service support to meet every need.',
   },
 ];
 
@@ -177,7 +177,7 @@ export default function BlogPost() {
           <p className="mb-4">
             Before attempting electronic service, confirm that the receiving party has consented to eService. Check the 
             court\'s eFiling system for a consent form or written agreement. If consent is not documented, you must use 
-            traditional personal service methods through a <Link href="/process-serving" className="text-blue-600 hover:underline">licensed process server</Link>.
+            traditional personal service methods through a licensed process server.
           </p>
           <h3 className="text-xl font-semibold mb-3 mt-6">Step 2: Prepare Documents</h3>
           <p className="mb-4">
@@ -255,7 +255,7 @@ export default function BlogPost() {
           <p className="mb-4">
             Documents served electronically must maintain the same security standards as paper filings. This includes 
             redaction of sensitive personal information such as Social Security numbers, financial account numbers, and 
-            minor children\'s full names as required by <Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma court rules</Link>. 
+            minor children\'s full names as required by Oklahoma court rules. 
             Failure to properly redact electronically served documents can result in sanctions and compromise client 
             confidentiality.
           </p>
@@ -286,7 +286,7 @@ export default function BlogPost() {
           <p className="mb-4">
             For Oklahoma attorneys, staying current with eService developments is essential for efficient practice 
             management. The team at Just Legal Solutions monitors legislative and regulatory changes affecting service 
-            of process, and we regularly update our <Link href="/blog" className="text-blue-600 hover:underline">blog</Link> with the 
+            of process, and we regularly update our blog with the 
             latest information. Whether you need traditional process serving, electronic service support, or guidance 
             navigating Oklahoma\'s evolving civil procedure landscape, our licensed and bonded team is here to help.
           </p>
@@ -335,7 +335,7 @@ export default function BlogPost() {
             Oklahoma Title 12 O.S. 158.1.
           </p>
           <p className="mb-4">
-            For current pricing on all our services, <Link href="/pricing" className="text-blue-600 font-semibold">view our pricing page</Link>.
+            For current pricing on all our services, view our pricing page.
           </p>
           <p className="font-semibold">
             Call <a href="tel:539-367-6832" className="text-blue-600">(539) 367-6832</a> or{' '}

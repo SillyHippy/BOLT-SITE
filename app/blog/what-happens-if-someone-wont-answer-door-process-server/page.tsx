@@ -8,9 +8,9 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: "What Happens If Someone Won\"t Answer the Door for a Proce...',
+  title: "What Happens If Someone Won't Answer the Door for a Proce...",
   description: "What happens when defendants avoid process servers in Oklahoma. Learn about substitute service, nail & mail, stakeouts & legal alternatives under 12 O.S. § 2004",
-  keywords: 'what happens if someone avoids process server, evasive defendant <Link href="/process-serving" className="text-blue-600">process serving</Link>, substitute service oklahoma, nail and mail oklahoma, process server alternatives, what if someone wont answer door process server',
+  keywords: 'what happens if someone avoids process server, evasive defendant process serving, substitute service oklahoma, nail and mail oklahoma, process server alternatives, what if someone wont answer door process server',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
   publisher: 'Just Legal Solutions',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'What Happens If Someone Won\' }],
+    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: "Blog article" }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/what-happens-if-someone-wont-answer-door-process-server' },
   other: {
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'What happens when defendants avoid process servers in Oklahoma. Learn about substitute service, nail & mail, stakeouts & legal alternatives under 12 O.S. § 2004 Includes Oklahoma notary compliance context and practical document guidance.',t Answer the Door for a Proce... helps Oklahoma clients understand requirements quickly.',
+    'ai-summary': 'Oklahoma legal support guidance from Just Legal Solutions for process serving, notary, and court document needs.',
     'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
   
   
@@ -92,7 +92,7 @@ export default function BlogPost() {
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">Why Defendants Avoid Answering the Door</h2>
           <p className="mb-4">
-            Before diving into the legal mechanics, it's helpful to understand why people avoid process servers. At <Link href="/" className="text-blue-600">Just Legal Solutions</Link>, we've encountered virtually every evasion tactic during our thousands of serves across Oklahoma's 77 counties. Common reasons defendants don't answer the door include:
+            Before diving into the legal mechanics, it's helpful to understand why people avoid process servers. At Just Legal Solutions, we've encountered virtually every evasion tactic during our thousands of serves across Oklahoma's 77 counties. Common reasons defendants don't answer the door include:
           </p>
           <p className="mb-4">
             <strong>Fear and Anxiety:</strong> Many people associate being served with bad news — divorce papers, lawsuits, debt collection, or eviction. The natural human response is avoidance. They believe that if they don't physically accept the documents, the legal process can't move forward.
@@ -121,7 +121,7 @@ export default function BlogPost() {
 
           <h3 className="text-xl font-semibold mb-3 mt-6">Multiple Attempts at Different Times</h3>
           <p className="mb-4">
-            The single most effective strategy for catching evasive defendants is varying the timing of delivery attempts. At Just Legal Solutions, our <Link href="/pricing" className="text-blue-600">Triple-Attempt Package</Link> at our triple-attempt rate includes three separate attempts at strategically different times — typically a morning attempt (8:00-10:00 AM), an afternoon attempt (2:00-4:00 PM), and an evening attempt (6:00-8:00 PM). We've found that approximately 40% of defendants who avoid the first attempt are successfully served on the second or third try with different timing.
+            The single most effective strategy for catching evasive defendants is varying the timing of delivery attempts. At Just Legal Solutions, our Triple-Attempt Package at our triple-attempt rate includes three separate attempts at strategically different times — typically a morning attempt (8:00-10:00 AM), an afternoon attempt (2:00-4:00 PM), and an evening attempt (6:00-8:00 PM). We've found that approximately 40% of defendants who avoid the first attempt are successfully served on the second or third try with different timing.
           </p>
           <p className="mb-4">
             Different days of the week also matter. Someone who consistently avoids service on weekdays may be caught on a Saturday morning when they're home doing chores. Conversely, someone who avoids weekend service may be caught during a Tuesday afternoon when they weren't expecting a visitor.
@@ -211,7 +211,7 @@ export default function BlogPost() {
 
           <h3 className="text-xl font-semibold mb-3 mt-6">Workplace Service</h3>
           <p className="mb-4">
-            When home service fails, serving the defendant at their workplace is often highly effective. Most people cannot simply refuse to come to the front desk when a process server arrives at their employment. Oklahoma law permits workplace service, and employers cannot legally prevent service from occurring on their premises, though they may have policies about where on the property service can take place. Learn more about <Link href="/blog/can-process-server-serve-documents-at-work-oklahoma" className="text-blue-600">workplace service rules in Oklahoma</Link>.
+            When home service fails, serving the defendant at their workplace is often highly effective. Most people cannot simply refuse to come to the front desk when a process server arrives at their employment. Oklahoma law permits workplace service, and employers cannot legally prevent service from occurring on their premises, though they may have policies about where on the property service can take place. Learn more about workplace service rules in Oklahoma.
           </p>
 
           <h3 className="text-xl font-semibold mb-3 mt-6">Service at Public Locations</h3>

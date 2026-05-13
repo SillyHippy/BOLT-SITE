@@ -93,7 +93,7 @@ export default function BlogPost() {
             It is important to understand that the $5 per signature cap applies only to the notarial act itself. Notaries are permitted to charge additional fees for related services such as travel, administrative work, and convenience, provided these charges are disclosed to the client in advance.
           </p>
           <p className="mb-4">
-            At Just Legal Solutions, we believe in complete pricing transparency. When you <Link href="/notary" className="text-blue-600">schedule a mobile notary appointment</Link> with us, we provide a clear, itemized quote so you know exactly what you will pay before we arrive.
+            At Just Legal Solutions, we believe in complete pricing transparency. When you schedule a mobile notary appointment with us, we provide a clear, itemized quote so you know exactly what you will pay before we arrive.
           </p>
         </section>
 
@@ -126,7 +126,7 @@ export default function BlogPost() {
             Mobile notaries who offer evening, weekend, or holiday appointments typically charge a premium for these non-standard hours. After-hours fees can range from $15 to $50, and weekend appointments may carry a similar surcharge. If you need a notary at 8 PM on a Saturday or on a holiday, expect to pay more than you would for a Tuesday afternoon appointment.
           </p>
           <p className="mb-4">
-            At Just Legal Solutions, we offer <Link href="/pricing" className="text-blue-600">flexible scheduling</Link> including evenings and weekends. We clearly communicate any premiums when you book, so there are no surprises.
+            At Just Legal Solutions, we offer flexible scheduling including evenings and weekends. We clearly communicate any premiums when you book, so there are no surprises.
           </p>
         </section>
 
@@ -138,7 +138,7 @@ export default function BlogPost() {
 
           <h3 className="text-xl font-semibold mt-6 mb-3">Location and Travel Distance</h3>
           <p className="mb-4">
-            The single biggest factor affecting mobile notary fees is location. Appointments in downtown Tulsa or Oklahoma City typically cost less than appointments in rural areas of eastern or western Oklahoma. Notaries must account for drive time, fuel costs, and the opportunity cost of traveling long distances for a single appointment. Just Legal Solutions proudly serves <Link href="/service-areas" className="text-blue-600">all 77 Oklahoma counties</Link>, and we provide upfront quotes based on your specific location.
+            The single biggest factor affecting mobile notary fees is location. Appointments in downtown Tulsa or Oklahoma City typically cost less than appointments in rural areas of eastern or western Oklahoma. Notaries must account for drive time, fuel costs, and the opportunity cost of traveling long distances for a single appointment. Just Legal Solutions proudly serves all 77 Oklahoma counties, and we provide upfront quotes based on your specific location.
           </p>
 
           <h3 className="text-xl font-semibold mt-6 mb-3">Type of Documents</h3>
@@ -153,7 +153,7 @@ export default function BlogPost() {
 
           <h3 className="text-xl font-semibold mt-6 mb-3">Urgency and Turnaround Time</h3>
           <p className="mb-4">
-            Same-day, rush, or emergency notary services typically cost more than appointments scheduled days in advance. If you call at 10 AM and need a notary by 2 PM, expect to pay a rush fee. At Just Legal Solutions, we offer <Link href="/notary" className="text-blue-600">same-day mobile notary service</Link> across Oklahoma when available, with rush pricing clearly communicated upfront.
+            Same-day, rush, or emergency notary services typically cost more than appointments scheduled days in advance. If you call at 10 AM and need a notary by 2 PM, expect to pay a rush fee. At Just Legal Solutions, we offer same-day mobile notary service across Oklahoma when available, with rush pricing clearly communicated upfront.
           </p>
 
           <h3 className="text-xl font-semibold mt-6 mb-3">Witness Requirements</h3>
@@ -255,7 +255,7 @@ export default function BlogPost() {
             <li><strong>Verify the fee upfront.</strong> A reputable notary service will give you a clear, itemized quote before the appointment.</li>
           </ul>
           <p className="mb-4">
-            At Just Legal Solutions, we are committed to fair, transparent pricing. When you call us at <a href="tel:539-367-6832" className="text-blue-600">(539) 367-6832</a> or <Link href="/notary" className="text-blue-600">book online</Link>, we will provide a complete quote with no hidden fees.
+            At Just Legal Solutions, we are committed to fair, transparent pricing. When you call us at <a href="tel:539-367-6832" className="text-blue-600">(539) 367-6832</a> or book online, we will provide a complete quote with no hidden fees.
           </p>
         </section>
 

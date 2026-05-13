@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: "How to Notarize Documents When You Cannot Leave Your Home...",
-  description: "Homebound, in a hospital, or caring for an elderly loved one? Learn how mobile <Link href=\"/notary\" className=\"text-blue-600\">notary services</Link> bring docum",
+  description: "Homebound, in a hospital, or caring for an elderly loved one? Learn how mobile <Link href=\"/notary\" className='text-blue-600\">notary services</Link> bring docum",
   keywords: 'homebound notary, mobile notary house call, notary for elderly, hospital notary, nursing home notary oklahoma, hospice notary, notary comes to you',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-05-28',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Homebound, in a hospital, or caring for an elderly loved one? Learn how mobile <Link href= Includes Oklahoma notary compliance context and practical document guidance.',/notary" className="text-blue-600">notary services</Link> bring docum How to Notarize Documents When You Cannot Leave Your Home... helps Oklahoma clients understand requirements quickly.',
+    'ai-summary': 'Oklahoma legal support guidance from Just Legal Solutions for process serving, notary, and court document needs.',
     'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
   
   
@@ -75,7 +75,7 @@ export default function BlogPost() {
 
         <h1 className="text-3xl md:text-4xl font-bold mb-6">How to Notarize Documents When You Cannot Leave Your Home in Oklahoma</h1>
         <p className="text-gray-600 mb-8 text-lg">
-          Life does not always allow a trip to the notary's office. Whether you are recovering from surgery at home, caring for an aging parent in a nursing home, sitting bedside with a loved one in hospice, or managing a chronic condition that makes travel difficult — your legal documents still need to be notarized. The good news is that <strong>Oklahoma law fully supports mobile notarization</strong>, and professional mobile notaries can come to you wherever you are. At <Link href="/" className="text-blue-600">Just Legal Solutions</Link>, we specialize in bringing notary services to homes, hospitals, nursing facilities, and hospice centers across all 77 Oklahoma counties. This guide explains everything you need to know about getting documents notarized when you cannot leave home.
+          Life does not always allow a trip to the notary's office. Whether you are recovering from surgery at home, caring for an aging parent in a nursing home, sitting bedside with a loved one in hospice, or managing a chronic condition that makes travel difficult — your legal documents still need to be notarized. The good news is that <strong>Oklahoma law fully supports mobile notarization</strong>, and professional mobile notaries can come to you wherever you are. At Just Legal Solutions, we specialize in bringing notary services to homes, hospitals, nursing facilities, and hospice centers across all 77 Oklahoma counties. This guide explains everything you need to know about getting documents notarized when you cannot leave home.
         </p>
         <p className="mb-6 text-gray-700">At Just Legal Solutions, we pair 50+ years of combined experience with licensed, bonded operations under Oklahoma Title 12 O.S. 158.1. Our team has served thousands of documents in all 77 Oklahoma counties, with procedure guidance grounded in 12 O.S. 2004 and Title 49 O.S.</p>
 
@@ -131,7 +131,7 @@ export default function BlogPost() {
 
           <h3 className="text-xl font-semibold mb-3 mt-6">Step 6: Document Delivery</h3>
           <p className="mb-4">
-            You keep the notarized document. The notary does not retain a copy unless required by law or requested by you. If the document needs to be mailed to an attorney, title company, or court, you can handle that yourself or arrange courier service through <Link href="/courier-services" className="text-blue-600">Just Legal Solutions</Link>.
+            You keep the notarized document. The notary does not retain a copy unless required by law or requested by you. If the document needs to be mailed to an attorney, title company, or court, you can handle that yourself or arrange courier service through Just Legal Solutions.
           </p>
         </section>
 

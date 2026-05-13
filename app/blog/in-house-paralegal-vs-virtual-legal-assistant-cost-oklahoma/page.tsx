@@ -169,7 +169,7 @@ export default function BlogPost() {
             Oklahoma actually presents a unique case here. The Bureau of Labor Statistics reports that Oklahoma ranks 9th lowest nationally for paralegal pay, with a mean annual wage of $54,950. On the surface, that sounds like a bargain. But as we will show you in the next section, the salary is just the starting point. By the time you add taxes, benefits, office space, equipment, and downtime, that $55,000 employee is costing your firm closer to $75,000 to $90,000 per year. The question you should be asking is not whether you can afford a paralegal. It is whether an in-house paralegal is worth $75,000 to $90,000 when a virtual legal assistant delivers similar support for a fraction of the cost.
           </p>
           <p>
-            At <Link href="/services" className="text-blue-600 hover:underline">Just Legal Solutions</Link>, we work with Oklahoma law firms every day that have made this switch, and the results speak for themselves. But do not take our word for it. Let us look at the actual numbers.
+            At Just Legal Solutions, we work with Oklahoma law firms every day that have made this switch, and the results speak for themselves. But do not take our word for it. Let us look at the actual numbers.
           </p>
 
           <h2>The True Cost of an In-House Paralegal in Oklahoma</h2>
@@ -216,7 +216,7 @@ export default function BlogPost() {
             <strong>Training and Onboarding.</strong> A new paralegal needs time to learn your systems, your practice areas, and your preferences. Between your time and any formal training, expect to invest $1,500 or more in their first 90 days. And if they leave after a year or two, you start the entire cycle over.
           </p>
           <p>
-            For a detailed breakdown of how professional legal support services are priced, <Link href="/pricing" className="text-blue-600 hover:underline">see our pricing guide</Link>.
+            For a detailed breakdown of how professional legal support services are priced, see our pricing guide.
           </p>
 
           <h2>What a Virtual Legal Assistant Costs in 2026</h2>
@@ -240,7 +240,7 @@ export default function BlogPost() {
             For a typical workload, the annual cost of a virtual legal assistant providing comparable support to an in-house paralegal ranges from $20,000 to $35,000. That is not a typo. You are getting similar output for less than half the cost, and in many cases, for less than one-third.
           </p>
           <p>
-            The scalability is another major advantage. Need more help during trial prep? Ramp up the hours. Slow season in August? Scale back. Your staffing costs flex with your actual workload instead of remaining a fixed burden regardless of how many matters you are handling. <Link href="/about" className="text-blue-600 hover:underline">Learn about our Oklahoma-based team</Link> and how we provide flexible support for law firms across all 77 counties.
+            The scalability is another major advantage. Need more help during trial prep? Ramp up the hours. Slow season in August? Scale back. Your staffing costs flex with your actual workload instead of remaining a fixed burden regardless of how many matters you are handling. Learn about our Oklahoma-based team and how we provide flexible support for law firms across all 77 counties.
           </p>
 
           <h2>Side-by-Side Oklahoma Cost Comparison</h2>
@@ -330,7 +330,7 @@ export default function BlogPost() {
             There is another way to think about the break-even point. If you bill at $250 per hour, the average Oklahoma attorney rate according to Clio, and your virtual legal assistant costs $25 to $35 per hour, you only need to reclaim one to two billable hours per day to break even. Since virtual assistants typically free up 15 to 25 hours per week of attorney time, even redirecting half of that to billable work generates $7,500 to $15,000 in additional monthly revenue. That is a 5 to 10 times return on your VA investment.
           </p>
           <p>
-            Ready to see what your firm could save? <Link href="/contact" className="text-blue-600 hover:underline">Contact Just Legal Solutions</Link> for a customized cost comparison based on your practice area and workload. We work with Oklahoma law firms every day, from solo practitioners in Tulsa to multi-attorney practices in Oklahoma City.
+            Ready to see what your firm could save? Contact Just Legal Solutions for a customized cost comparison based on your practice area and workload. We work with Oklahoma law firms every day, from solo practitioners in Tulsa to multi-attorney practices in Oklahoma City.
           </p>
 
           <h2>Beyond the Dollars: Other Factors Oklahoma Firms Should Weigh</h2>
@@ -451,7 +451,7 @@ export default function BlogPost() {
             For Oklahoma law firms, the decision is not just about cutting costs. It is about redirecting resources from overhead into growth. Every dollar you save on staffing is a dollar you can invest in marketing, technology, or additional billable hours. In a competitive legal market, that advantage matters.
           </p>
           <p>
-            If you are ready to explore whether a virtual legal assistant is right for your firm, we are here to help. <Link href="/contact" className="text-blue-600 hover:underline">Contact Just Legal Solutions</Link> for a customized cost comparison based on your specific practice area, workload, and goals. We provide Oklahoma-based virtual legal assistant services that understand your local courts, your practice, and your budget. Let us talk about how we can reduce your overhead while keeping your firm running smoothly across all 77 Oklahoma counties. Call or text <a href="tel:5393676832" className="text-blue-600 hover:underline">(539) 367-6832</a>.
+            If you are ready to explore whether a virtual legal assistant is right for your firm, we are here to help. Contact Just Legal Solutions for a customized cost comparison based on your specific practice area, workload, and goals. We provide Oklahoma-based virtual legal assistant services that understand your local courts, your practice, and your budget. Let us talk about how we can reduce your overhead while keeping your firm running smoothly across all 77 Oklahoma counties. Call or text <a href="tel:5393676832" className="text-blue-600 hover:underline">(539) 367-6832</a>.
           </p>
           </article>
 

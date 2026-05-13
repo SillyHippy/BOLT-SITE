@@ -128,7 +128,7 @@ export default function DoProcessServersCallAheadPage() {
 
             <h2>Need Verified Oklahoma Process Service?</h2>
             <p>
-              Contact Just Legal Solutions at <a href="tel:5393676832">(539) 367-6832</a> or submit a request on{' '}
+              Contact Just Legal Solutions at (539) 367-6832 or submit a request on{' '}
               <Link href="/contact">contact</Link>. Service options are listed on <Link href="/pricing">pricing</Link>.
             </p>
 

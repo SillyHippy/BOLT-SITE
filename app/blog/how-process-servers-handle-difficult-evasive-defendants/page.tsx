@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: "How Do Process Servers Handle Difficult or Evasive Defend...",
   description: "Learn the professional techniques process servers use to serve evasive defendants in Oklahoma, including stakeouts, surveillance, skip tracing, and technology.",
   keywords:
-    "evasive defendant process server, difficult serve <Link href="/process-serving" className="text-blue-600">process serving</Link>, stakeout process server, Oklahoma process server tactics, skip tracing legal",
+    "evasive defendant process server, difficult serve process serving, stakeout process server, Oklahoma process server tactics, skip tracing legal",
   alternates: {
     canonical:
       "https://justlegalsolutions.org/blog/how-process-servers-handle-difficult-evasive-defendants",

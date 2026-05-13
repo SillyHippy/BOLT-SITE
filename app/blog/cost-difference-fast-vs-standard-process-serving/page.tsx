@@ -29,7 +29,7 @@ const faqs = [
 ];
 
 export const metadata: Metadata = {
-  title: "What\"s the Cost Difference Between Fast and Standard Proc...',
+  title: "What's the Cost Difference Between Fast and Standard Proc...",
   description: "Compare process serving pricing tiers side by side. Understand when to choose standard ($60), rush (\"00), same-day (\"50), or after-hours (Compare process servin",
   keywords: "fast process serving cost, rush vs standard service, process server pricing tiers explained, same day process serving price, how much does process serving cost oklahoma",
   openGraph: {
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
   },
   other: {
     'ai-content-type': 'article',
-    'ai-summary': 'Compare process serving pricing tiers side by side. Understand when to choose standard ($60), rush ( Includes Oklahoma notary compliance context and practical document guidance.',s the Cost Difference Between Fast and Standard Proc... helps Oklahoma clients understand requirements quickly.',
+    'ai-summary': 'Oklahoma legal support guidance from Just Legal Solutions for process serving, notary, and court document needs.',
     'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
   
   },

@@ -162,7 +162,7 @@ export default function BlogPost() {
           </p>
 
           <p>
-            At <Link href="/services/process-serving" className="text-blue-600 hover:underline">Just Legal Solutions</Link>, our licensed Oklahoma process servers handle these situations daily across all 77 counties. We believe that empathy, preparation, and professionalism aren&apos;t just nice-to-haves — they&apos;re the foundation of safe, effective service of process. In this guide, we&apos;re pulling back the curtain on how experienced process servers manage emotionally charged encounters, from reading emotions before they escalate to protecting their own wellbeing after the door closes.
+            At Just Legal Solutions, our licensed Oklahoma process servers handle these situations daily across all 77 counties. We believe that empathy, preparation, and professionalism aren&apos;t just nice-to-haves — they&apos;re the foundation of safe, effective service of process. In this guide, we&apos;re pulling back the curtain on how experienced process servers manage emotionally charged encounters, from reading emotions before they escalate to protecting their own wellbeing after the door closes.
           </p>
 
           <h2>The Reality Process Servers Face Every Day</h2>
@@ -248,7 +248,7 @@ export default function BlogPost() {
           </p>
 
           <p>
-            At <Link href="/about" className="text-blue-600 hover:underline">Just Legal Solutions</Link>, our team is trained in empathetic, professional service of process. We do not believe that compassion and efficiency are opposites — we believe they work together to produce better outcomes for everyone involved.
+            At Just Legal Solutions, our team is trained in empathetic, professional service of process. We do not believe that compassion and efficiency are opposites — we believe they work together to produce better outcomes for everyone involved.
           </p>
 
           <h2>Practical De-Escalation Techniques Oklahoma Process Servers Use</h2>
@@ -316,7 +316,7 @@ export default function BlogPost() {
           </p>
 
           <p>
-            If you need a process server who knows how to handle emotionally charged situations with professionalism and care, <Link href="/contact" className="text-blue-600 hover:underline">contact Just Legal Solutions</Link> today. Our team combines legal expertise with genuine empathy to deliver results safely across Oklahoma.
+            If you need a process server who knows how to handle emotionally charged situations with professionalism and care, contact Just Legal Solutions today. Our team combines legal expertise with genuine empathy to deliver results safely across Oklahoma.
           </p>
 
           <h2>Before the Knock — Pre-Service Preparation and Safety Protocols</h2>

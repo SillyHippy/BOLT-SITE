@@ -158,7 +158,7 @@ export default function BlogPost() {
             Here's a scenario that plays out in Oklahoma courthouses more often than you'd think. An attorney files a petition in Oklahoma County District Court, marks the hearing date on the calendar, and figures they'll get around to service in a week or two. Weeks turn into months. Suddenly, it's day 165 and service hasn't even been initiated. The case is now one bad weekend away from dismissal.
           </p>
           <p>
-            Under <Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma's 180-day service rule</Link>, specifically 12 O.S. § 2004(I), service of summons and petition must be completed within 180 days of filing. If you miss that window, the court must dismiss the action without prejudice. In plain English, "without prejudice" means you can refile the case from scratch — but you'll lose your filing fees, your place in line, and potentially months of preparation time. The strategic advantage you had when you first filed? That evaporates.
+            Under Oklahoma's 180-day service rule, specifically 12 O.S. § 2004(I), service of summons and petition must be completed within 180 days of filing. If you miss that window, the court must dismiss the action without prejudice. In plain English, "without prejudice" means you can refile the case from scratch — but you'll lose your filing fees, your place in line, and potentially months of preparation time. The strategic advantage you had when you first filed? That evaporates.
           </p>
           <p>
             There is a safety valve. Courts may grant an extension if you can demonstrate "good cause" for the delay. But here's the critical point: they are not required to grant it. "Good cause" is a discretionary standard, and Oklahoma judges have wide latitude in deciding what qualifies. Hoping for a judicial lifeline is not a strategy. It's a gamble, and the stakes are your entire case. Working with a licensed process server who understands Oklahoma's procedural landscape — and maintains professional standards through organizations like the National Association of Professional Process Servers (NAPPS) — gives you the best chance of avoiding these situations altogether.
@@ -179,7 +179,7 @@ export default function BlogPost() {
             Standard service is exactly what it sounds like: the baseline, no-frills approach that works perfectly well when time is on your side. With most Oklahoma process servers, standard service means your first attempt happens within 3 to 10 business days of receiving the documents. At Just Legal Solutions, our standard service targets a first attempt within 10 business days and includes up to 3 attempts at varied times — morning, evening, and weekend — to maximize the chance of catching the defendant at home.
           </p>
           <p>
-            Standard service uses what we call "reasonable diligence" pacing. Your server makes multiple personal attempts before considering substituted service under <Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">12 O.S. § 2004(C)(1)</Link>. That statute requires reasonable diligence before leaving documents with a person 15 years or older at the defendant's dwelling. Standard service gives your server the breathing room to build that attempt record properly.
+            Standard service uses what we call "reasonable diligence" pacing. Your server makes multiple personal attempts before considering substituted service under 12 O.S. § 2004(C)(1). That statute requires reasonable diligence before leaving documents with a person 15 years or older at the defendant's dwelling. Standard service gives your server the breathing room to build that attempt record properly.
           </p>
           <p>
             Here's something important that many attorneys overlook: standard service produces the exact same legally valid service as rush or same-day. The affidavit of service under 12 O.S. § 2004(G) looks identical regardless of speed. The court doesn't care how fast the server moved. It cares that service was completed lawfully. Speed affects your timeline and your invoice — not the legal validity of the service itself.
@@ -204,7 +204,7 @@ export default function BlogPost() {
             There's another risk that's easy to underestimate: defendants who evade or relocate. The longer you wait to initiate service, the more time an evasive defendant has to disappear, move to a new address, or take steps to avoid detection. We've seen cases where a defendant was at a known address on day 30 but had vanished by day 140. Time is not your friend when someone doesn't want to be found.
           </p>
           <p>
-            If your case timeline allows, <Link href="/pricing" className="text-blue-600 hover:underline">explore our standard service options</Link> and get your documents moving early.
+            If your case timeline allows, explore our standard service options and get your documents moving early.
           </p>
 
           <h2>Rush Service — The Strategic Middle Ground</h2>
@@ -239,7 +239,7 @@ export default function BlogPost() {
             One practical note: weekends and holidays affect rush timelines just like they affect everything else. If you submit documents on a Friday afternoon for Monday rush service, your 72-hour clock may include a weekend. Talk to your server about weekend availability if your deadline is tight. Not all rush services operate on weekends, and at Just Legal Solutions, we're transparent about weekend and holiday scheduling so you can plan accordingly.
           </p>
           <p>
-            Need service within 72 hours? <Link href="/pricing" className="text-blue-600 hover:underline">Learn about our rush service options</Link> and get your documents prioritized today.
+            Need service within 72 hours? Learn about our rush service options and get your documents prioritized today.
           </p>
 
           <h2>Same-Day Service — Emergency Response for Critical Deadlines</h2>
@@ -268,7 +268,7 @@ export default function BlogPost() {
 
           <h3>The Same-Day Premium: When It's Worth It</h3>
           <p>
-            Let's talk about cost without quoting exact numbers — <Link href="/pricing" className="text-blue-600 hover:underline">see our pricing page for current rates</Link>. Same-day service carries the highest per-attempt cost of any tier except emergency service. But framing it as an "expense" misses the point. Same-day service is insurance against case disruption. The premium you pay is almost always less than the cost of a missed deadline.
+            Let's talk about cost without quoting exact numbers — see our pricing page for current rates. Same-day service carries the highest per-attempt cost of any tier except emergency service. But framing it as an "expense" misses the point. Same-day service is insurance against case disruption. The premium you pay is almost always less than the cost of a missed deadline.
           </p>
           <p>
             Consider what happens if you miss the 180-day deadline and your case is dismissed. You'll pay new filing fees — $100 to $400 or more depending on the case type and county. You'll lose all the attorney time invested in the original filing — hours that could have been billed to other matters. Your case gets delayed by weeks or months, which means witnesses become unavailable, evidence spoils, and your client's frustration compounds. And then there's the strategic disadvantage of starting over while the other side has had months to prepare.
@@ -277,7 +277,7 @@ export default function BlogPost() {
             From a cost-per-day-saved perspective, same-day service has the highest per-day cost but potentially the highest value. When you have less than 48 hours and no other option will work, same-day service isn't expensive — it's essential. The alternative isn't saving money. It's losing your case timeline entirely.
           </p>
           <p>
-            Facing a deadline today? <Link href="/contact" className="text-blue-600 hover:underline">Contact us for same-day service</Link> across all 77 Oklahoma counties.
+            Facing a deadline today? Contact us for same-day service across all 77 Oklahoma counties.
           </p>
 
           <h2>2-Hour Emergency Service — The Nuclear Option</h2>
@@ -399,7 +399,7 @@ export default function BlogPost() {
             <strong>Tip 5: Ask about GPS-verified documentation and real-time status updates.</strong> Regardless of which speed you choose, you should know exactly when attempts are made and where. GPS-verified affidavits and real-time status updates give you the documentation you need for court and the peace of mind you need to focus on the rest of your case.
           </p>
           <p>
-            Unsure which service level fits your case? <Link href="/contact" className="text-blue-600 hover:underline">Contact us for a free consultation</Link> and we'll walk you through the right choice for your specific timeline.
+            Unsure which service level fits your case? Contact us for a free consultation and we'll walk you through the right choice for your specific timeline.
           </p>
 
           <h2>What Happens If You Miss the Deadline (and How to Avoid It)</h2>
@@ -426,7 +426,7 @@ export default function BlogPost() {
             The attorneys who never miss deadlines are the ones who build process server selection into their case management workflow from the moment they file. They don't treat service as an afterthought. They treat it as a critical path item that can make or break the entire case. Because it can.
           </p>
           <p>
-            Track your deadline. If you're within 30 days of the 180-day limit, <Link href="/contact" className="text-blue-600 hover:underline">upgrade to rush or same-day service now</Link>.
+            Track your deadline. If you're within 30 days of the 180-day limit, upgrade to rush or same-day service now.
           </p>
           </article>
           

@@ -174,7 +174,7 @@ export default function BlogPost() {
             For Oklahoma attorneys, this surge means more cases requiring proper service on defendants <em>and</em> court-directed notice to large classes of affected individuals. A class action is fundamentally different from standard civil litigation because it involves two distinct service events: first, service of process on the defendant to establish jurisdiction, and second, court-ordered notice to class members to protect their due process rights. The complexity of class actions creates unique process serving challenges that standard individual service does not prepare you for.
           </p>
           <p>
-            If your firm is entering or expanding class action work, understanding how these two phases interact — and where a <Link href="/services/process-serving" className="text-blue-600 hover:underline">licensed Oklahoma process server</Link> fits into each phase — is essential to avoiding costly procedural delays or notice deficiencies that could jeopardize a settlement.
+            If your firm is entering or expanding class action work, understanding how these two phases interact — and where a licensed Oklahoma process server fits into each phase — is essential to avoiding costly procedural delays or notice deficiencies that could jeopardize a settlement.
           </p>
 
           <h2>The Two-Phase Notification System: Defendant Service vs. Class Member Notice</h2>
@@ -185,7 +185,7 @@ export default function BlogPost() {
 
           <h3>Phase One — Service of Process on the Defendant</h3>
           <p>
-            Phase one is traditional process serving, and it works exactly the same way in a class action as it does in any other civil lawsuit. A licensed Oklahoma process server under 12 O.S. § 158.1 or a sheriff's deputy delivers the summons and complaint to the defendant or defendants to establish the court's jurisdiction. In Oklahoma, service must be completed within 180 days of filing the petition under <Link href="/blog/oklahoma-180-day-rule-service-process-explained" className="text-blue-600 hover:underline">12 O.S. § 2004(I)</Link>. For corporate defendants, service is typically made on the registered agent designated with the Oklahoma Secretary of State.
+            Phase one is traditional process serving, and it works exactly the same way in a class action as it does in any other civil lawsuit. A licensed Oklahoma process server under 12 O.S. § 158.1 or a sheriff's deputy delivers the summons and complaint to the defendant or defendants to establish the court's jurisdiction. In Oklahoma, service must be completed within 180 days of filing the petition under 12 O.S. § 2004(I). For corporate defendants, service is typically made on the registered agent designated with the Oklahoma Secretary of State.
           </p>
           <p>
             This phase is governed by the Oklahoma Rules of Civil Procedure, specifically 12 O.S. § 2004, which governs all service of process in the state. The process server provides a sworn affidavit documenting the service, which becomes part of the court record. Without proper defendant service, the court never acquires jurisdiction over the case, and nothing that happens afterward — including class certification or notice — is valid.
@@ -204,7 +204,7 @@ export default function BlogPost() {
             The critical difference is this: Phase one establishes jurisdiction over the defendant. Phase two protects the due process rights of class members. Mixing up these two concepts can lead to real procedural errors — such as assuming that because the defendant was properly served, the class members have somehow been adequately notified. They have not. The two phases are legally distinct, procedurally separate, and both must be executed correctly for the class action to proceed validly.
           </p>
           <p>
-            A professional process server's role spans <em>both</em> phases. We serve defendants initially to get the case moving, and we support the notice process through verified address research, documented delivery, and sworn affidavits that protect the record if notice adequacy is ever challenged on appeal. When you work with a <Link href="/services/process-serving" className="text-blue-600 hover:underline">licensed Oklahoma process server</Link> who understands both phases, you get continuity across the entire lifecycle of the case.
+            A professional process server's role spans <em>both</em> phases. We serve defendants initially to get the case moving, and we support the notice process through verified address research, documented delivery, and sworn affidavits that protect the record if notice adequacy is ever challenged on appeal. When you work with a licensed Oklahoma process server who understands both phases, you get continuity across the entire lifecycle of the case.
           </p>
 
           <h2>"Best Notice Practicable": Understanding Rule 23 and Oklahoma's 12 O.S. § 2023</h2>
@@ -324,7 +324,7 @@ export default function BlogPost() {
             Failure to comply with this requirement can delay final approval significantly. If your notice to the state attorneys general is defective, late, or incomplete, the 90-day clock may not start — or may need to restart — pushing back your settlement timeline by months. For clients who are counting on settlement funds, this is a serious problem.
           </p>
           <p>
-            For Oklahoma-filed class actions, serving the Oklahoma Attorney General is mandatory. For multi-state class actions with Oklahoma members, Oklahoma must be included in the state AG service list. A <Link href="/services/legal-courier" className="text-blue-600 hover:underline">licensed Oklahoma process server</Link> can ensure timely, documented service on the Oklahoma Attorney General's office as part of the CAFA compliance workflow, giving you a clear chain of custody and a sworn affidavit to file with the court.
+            For Oklahoma-filed class actions, serving the Oklahoma Attorney General is mandatory. For multi-state class actions with Oklahoma members, Oklahoma must be included in the state AG service list. A licensed Oklahoma process server can ensure timely, documented service on the Oklahoma Attorney General's office as part of the CAFA compliance workflow, giving you a clear chain of custody and a sworn affidavit to file with the court.
           </p>
 
           <h3>Oklahoma's 2011 Class Action Reforms and Practical Workflow Effects</h3>

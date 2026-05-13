@@ -8,8 +8,8 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: "Oklahoma Notary vs Attorney: What\"s the Difference?',
-  description: "Learn the key differences between Oklahoma notaries and attorneys. Understand what notaries can and cannot do and when each professional is needed in Oklahoma."
+  title: "Oklahoma Notary vs Attorney: What's the Difference?",
+  description: "Learn the key differences between Oklahoma notaries and attorneys. Understand what notaries can and cannot do and when each professional is needed in Oklahoma.",
   keywords: 'notary vs attorney Oklahoma, difference between notary and lawyer, when to use notary vs attorney, Oklahoma notary services, notary public limitations',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -17,12 +17,12 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Oklahoma Notary vs Attorney: What\'s the Difference?',
-    description: 'Learn the key differences between Oklahoma notaries and attorneys. Understand what notaries can and cannot do and when each professional is needed in Oklahoma.'
+    description: 'Learn the key differences between Oklahoma notaries and attorneys. Understand what notaries can and cannot do and when each professional is needed in Oklahoma.',
     url: 'https://justlegalsolutions.org/blog/oklahoma-notary-vs-attorney-whats-difference',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Oklahoma Notary vs Attorney: What\' }],
+    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: "Blog article" }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/oklahoma-notary-vs-attorney-whats-difference' },
   other: {
@@ -129,7 +129,7 @@ export default function BlogPost() {
             Violating these restrictions can result in serious consequences for the notary, including criminal charges for the unauthorized practice of law. For document-related questions that go beyond signature verification, you should consult a qualified attorney.
           </p>
           <p className="mb-4">
-            If you need assistance serving legal documents after they are prepared, <Link href="/process-serving" className="text-blue-600 hover:underline">our process serving team</Link> is licensed to handle service of process throughout Oklahoma.
+            If you need assistance serving legal documents after they are prepared, our process serving team is licensed to handle service of process throughout Oklahoma.
           </p>
         </section>
 
@@ -173,7 +173,7 @@ export default function BlogPost() {
             <li>You are negotiating a settlement and want to protect your rights.</li>
           </ul>
           <p className="mb-4">
-            Still unsure? <Link href="/faq" className="text-blue-600 hover:underline">Visit our FAQ page</Link> for answers to common questions about notary and legal support services, or give us a call — we are happy to help you determine the right next step.
+            Still unsure? Visit our FAQ page for answers to common questions about notary and legal support services, or give us a call — we are happy to help you determine the right next step.
           </p>
         </section>
 
@@ -187,7 +187,7 @@ export default function BlogPost() {
             Attorney fees, by contrast, reflect the specialized education, training, and liability involved in practicing law. Attorneys typically bill by the hour, though some offer flat-fee arrangements for specific services like drafting a simple will or reviewing a basic contract. Complex litigation or ongoing representation can represent a significant investment.
           </p>
           <p className="mb-4">
-            At Just Legal Solutions, we believe in transparent pricing. For current pricing on all our notary and support services, <Link href="/pricing" className="text-blue-600 hover:underline">view our pricing page</Link>. We offer competitive rates with no hidden fees, and our clients appreciate knowing exactly what they will pay before any work begins.
+            At Just Legal Solutions, we believe in transparent pricing. For current pricing on all our notary and support services, view our pricing page. We offer competitive rates with no hidden fees, and our clients appreciate knowing exactly what they will pay before any work begins.
           </p>
         </section>
 

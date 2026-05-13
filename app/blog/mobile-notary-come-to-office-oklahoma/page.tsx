@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
     'ai-summary': 'Learn how mobile notary office visits work in Oklahoma. Covers scheduling, travel radius, group discounts, document preparation, and what to expect from an onsi Includes Oklahoma notary compliance context and practical document guidance.',
-    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',s presence; mobile notary fees include a travel fee plus the statutory notary fee; businesses can set up recurring or on-call notary arrangements; Just Legal Solutions serves all 77 Oklahoma counties with mobile notary services.',
+    'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Practical compliance steps',
   
   
   },
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'Can a notary really come to my office in Oklahoma?',
-    answer: 'Yes, absolutely. Mobile notaries specialize in traveling to clients\ This guidance helps avoid delays, improves compliance, and supports stronger court-ready documentation in Oklahoma matters.' preferred locations, including offices, workplaces, conference rooms, and job sites. At Just Legal Solutions, our mobile notaries come to your office anywhere in Oklahoma, from downtown Tulsa office towers to construction sites in rural counties. We bring all necessary supplies and equipment, so you don\'t need to provide anything except the unsigned documents and valid identification.',
+    answer: 'Yes, absolutely. Mobile notaries specialize in traveling to clients\' preferred locations, including offices, workplaces, conference rooms, and job sites. At Just Legal Solutions, our mobile notaries come to your office anywhere in Oklahoma, from downtown Tulsa office towers to construction sites in rural counties. We bring all necessary supplies and equipment, so you don\'t need to provide anything except the unsigned documents and valid identification.',
   },
   {
     question: 'How far will a mobile notary travel in Oklahoma?',
@@ -169,7 +169,7 @@ export default function BlogPost() {
 
           <h3 className="text-xl font-semibold mt-6 mb-3">Corporate and Commercial Clients</h3>
           <p className="mb-4">
-            We offer specialized corporate notary services for Oklahoma businesses of all sizes. Our commercial clients include law firms, title companies, mortgage brokers, insurance agencies, construction companies, healthcare providers, and nonprofit organizations. Corporate accounts receive dedicated service, streamlined invoicing, and competitive pricing. <Link href="/pricing" className="text-blue-600">Contact us</Link> to discuss a corporate account for your business.
+            We offer specialized corporate notary services for Oklahoma businesses of all sizes. Our commercial clients include law firms, title companies, mortgage brokers, insurance agencies, construction companies, healthcare providers, and nonprofit organizations. Corporate accounts receive dedicated service, streamlined invoicing, and competitive pricing. Contact us to discuss a corporate account for your business.
           </p>
         </section>
 

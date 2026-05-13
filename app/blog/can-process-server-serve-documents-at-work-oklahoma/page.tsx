@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Yes — process servers can serve documents at work in Oklahoma. Learn workplace service rules, employer rights, privacy considerations & best practices under sta Includes Oklahoma notary compliance context and practical document guidance.',/process-serving" className="text-blue-600">process serving</Link> in Oklahoma, covering legal authority to serve at work, employer rights, privacy considerations, best practices for employees and employers, and restrictions on workplace service under Oklahoma law.',
+    'ai-summary': 'Oklahoma legal support guidance from Just Legal Solutions for process serving, notary, and court document needs.',
     'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
   
   
@@ -48,7 +48,7 @@ const faqs = [
   },
   {
     question: 'Can a process server serve me in front of my coworkers?',
-    answer: 'While a process server can technically serve you anywhere you This guidance helps avoid delays, improves compliance, and supports stronger court-ready documentation in Oklahoma matters.'re legally present, including in front of coworkers, professional process servers exercise discretion to minimize embarrassment. At Just Legal Solutions, our servers prefer to request a private moment with the recipient when serving at workplaces. We might ask reception to have you come to the lobby, approach you during a break, or catch you as you're entering or leaving the building. Professional servers understand that workplace service is sensitive and handle it with tact. However, if you refuse to step aside or the server cannot find a private moment, service may occur in a more visible area.',
+    answer: 'While a process server can technically serve you anywhere you\'re legally present, including in front of coworkers, professional process servers exercise discretion to minimize embarrassment. At Just Legal Solutions, our servers prefer to request a private moment with the recipient when serving at workplaces. We might ask reception to have you come to the lobby, approach you during a break, or catch you as you\'re entering or leaving the building. Professional servers understand that workplace service is sensitive and handle it with tact. However, if you refuse to step aside or the server cannot find a private moment, service may occur in a more visible area.',
   },
   {
     question: 'Will my employer be notified about the service?',
@@ -98,7 +98,7 @@ export default function BlogPost() {
             This makes practical sense from a legal standpoint. If service were restricted to home addresses, evasive defendants could simply never answer their door and effectively block the legal process. The law recognizes that people spend a significant portion of their day at work, and serving them at their place of employment is often the most reliable way to ensure they receive notice of legal proceedings.
           </p>
           <p className="mb-4">
-            At <Link href="/" className="text-blue-600">Just Legal Solutions</Link>, workplace service is one of our most effective strategies — particularly for defendants who have proven evasive at their home address. We've successfully served thousands of documents at workplaces across all 77 Oklahoma counties, from Tulsa office buildings to Oklahoma City construction sites to rural agricultural operations.
+            At Just Legal Solutions, workplace service is one of our most effective strategies — particularly for defendants who have proven evasive at their home address. We've successfully served thousands of documents at workplaces across all 77 Oklahoma counties, from Tulsa office buildings to Oklahoma City construction sites to rural agricultural operations.
           </p>
         </section>
 

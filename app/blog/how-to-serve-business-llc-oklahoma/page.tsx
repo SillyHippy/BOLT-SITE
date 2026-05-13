@@ -59,7 +59,7 @@ const faqs = [
   {
     question:
       'How do I find a business\'s registered agent in Oklahoma?',
-    answer: 'You can search the Oklahoma Secretary of State\ This guidance helps avoid delays, improves compliance, and supports stronger court-ready documentation in Oklahoma matters.'s business entity database online at sos.ok.gov. Enter the business name to retrieve the registered agent\'s name and address. This information is public record and is the first place our process servers check when preparing to serve a business entity. Keeping a copy of this search result also helps document your due diligence if alternative service becomes necessary.',
+    answer: 'You can search the Oklahoma Secretary of State\'s business entity database online at sos.ok.gov. Enter the business name to retrieve the registered agent\'s name and address. This information is public record and is the first place our process servers check when preparing to serve a business entity. Keeping a copy of this search result also helps document your due diligence if alternative service becomes necessary.',
   },
   {
     question:

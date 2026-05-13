@@ -236,7 +236,7 @@ export default function EvictionNoticeGuide() {
             </p>
 
             <p>
-              Because service of the initial notice is often challenged in court, landlords should keep a copy of the notice, note the exact date and time of service, preserve mailing receipts, and photograph any posted notice before filing an eviction case. (If you need a professional to serve your final hearing documents, learn more about <Link href="/blog/understanding-the-affidavit-of-service" className="text-blue-600 hover:underline">what an Affidavit of Service proves in court</Link>.)
+              Because service of the initial notice is often challenged in court, landlords should keep a copy of the notice, note the exact date and time of service, preserve mailing receipts, and photograph any posted notice before filing an eviction case. (If you need a professional to serve your final hearing documents, learn more about what an Affidavit of Service proves in court.)
             </p>
 
             <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-6">Step 2: Serve the FED Summons and Petition</h2>

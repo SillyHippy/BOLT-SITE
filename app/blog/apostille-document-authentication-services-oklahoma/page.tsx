@@ -173,7 +173,7 @@ export default function BlogPost() {
             <li><strong>Foreign property transactions</strong> — buying or selling real estate outside the United States</li>
           </ul>
           <p>
-            One important thing to remember: <strong>Oklahoma documents need an Oklahoma apostille</strong>. The Oklahoma Secretary of State is the only authority that can issue apostilles for documents that originated or were notarized in Oklahoma. Federal documents — like FBI background checks, IRS forms, Social Security records, and federal court documents — must go through the U.S. Department of State in Washington, D.C. instead. If your document hasn&apos;t been notarized yet, you may want to read our guide on <Link href="/blog/international-document-notarization-apostille-oklahoma" className="text-blue-600 hover:underline">international document notarization</Link> first.
+            One important thing to remember: <strong>Oklahoma documents need an Oklahoma apostille</strong>. The Oklahoma Secretary of State is the only authority that can issue apostilles for documents that originated or were notarized in Oklahoma. Federal documents — like FBI background checks, IRS forms, Social Security records, and federal court documents — must go through the U.S. Department of State in Washington, D.C. instead. If your document hasn&apos;t been notarized yet, you may want to read our guide on international document notarization first.
           </p>
 
           <h2>Apostille vs. Authentication vs. Legalization — What&apos;s the Difference?</h2>
@@ -235,7 +235,7 @@ export default function BlogPost() {
             </tbody>
           </table>
           <p>
-            Before any apostille or authentication can happen, your document must first be properly notarized by a commissioned Oklahoma notary. If you need <Link href="/services/notary-services" className="text-blue-600 hover:underline">professional notarization services</Link>, our team can handle that for you as well.
+            Before any apostille or authentication can happen, your document must first be properly notarized by a commissioned Oklahoma notary. If you need professional notarization services, our team can handle that for you as well.
           </p>
 
           <h2>How to Get an Apostille in Oklahoma — The Step-by-Step Process</h2>
@@ -284,7 +284,7 @@ export default function BlogPost() {
             <strong>Mail-in service</strong> takes approximately 3 business days of processing time plus mailing transit, for a total of typically 5-7 business days. Send your original document, the request form, and a check or money order payable to &quot;Oklahoma Secretary of State&quot; to the address above. Be sure to include a pre-paid return envelope if you want your documents mailed back to you.
           </p>
           <p>
-            Documents notarized remotely online in Oklahoma are eligible for apostille just like in-person notarized documents. If you are interested in the convenience of <Link href="/services/notary-services" className="text-blue-600 hover:underline">Remote Online Notarization</Link>, we offer that service as part of our full apostille support.
+            Documents notarized remotely online in Oklahoma are eligible for apostille just like in-person notarized documents. If you are interested in the convenience of Remote Online Notarization, we offer that service as part of our full apostille support.
           </p>
 
           <h3>Step 5 — Receive Your Apostilled Document</h3>
@@ -306,7 +306,7 @@ export default function BlogPost() {
             <li><strong>Requesting apostille for a non-Hague country without understanding embassy legalization is needed</strong> — If your destination country is not a Hague member, an apostille alone will not be sufficient. You need the full authentication and legalization pathway.</li>
           </ul>
           <p>
-            Our best advice? Have a second set of eyes review your documents before submission. At Just Legal Solutions, we offer a free pre-submission document review to catch these issues before they cost you time. <Link href="/contact" className="text-blue-600 hover:underline">Contact us</Link> if you are not sure whether your document is ready — we are happy to take a look.
+            Our best advice? Have a second set of eyes review your documents before submission. At Just Legal Solutions, we offer a free pre-submission document review to catch these issues before they cost you time. Contact us if you are not sure whether your document is ready — we are happy to take a look.
           </p>
 
           <h2>The Remote Online Notarization + Apostille Digital Pipeline</h2>
@@ -323,7 +323,7 @@ export default function BlogPost() {
             One important legal detail: the notary must be physically located in Oklahoma during the RON session, even if the signer is out of state or abroad. This is a requirement under Oklahoma law, and it is what makes the resulting document eligible for Oklahoma apostille. So if you are living in California, Texas, or even overseas, and you need an Oklahoma apostille, RON is your most convenient option.
           </p>
           <p>
-            At Just Legal Solutions, we offer both RON and apostille facilitation as a bundled service. You can complete your notarization and apostille request in a single streamlined workflow. <Link href="/services/notary-services" className="text-blue-600 hover:underline">Learn more about our Remote Online Notarization services</Link> and how they connect to our apostille support.
+            At Just Legal Solutions, we offer both RON and apostille facilitation as a bundled service. You can complete your notarization and apostille request in a single streamlined workflow. Learn more about our Remote Online Notarization services and how they connect to our apostille support.
           </p>
 
           <h2>Why Just Legal Solutions Is Oklahoma&apos;s Trusted Apostille Partner</h2>
@@ -343,7 +343,7 @@ export default function BlogPost() {
             <strong>We are fast, personal, and local.</strong> You are not a case number to us. Every apostille request gets personal attention from someone who understands Oklahoma&apos;s specific rules — from the 12-month recency requirement to the exact wording your notarial certificate needs. We are a licensed and bonded Oklahoma process server and notary service, and we take that responsibility seriously.
           </p>
           <p>
-            Ready to get your documents apostilled? <Link href="/contact" className="text-blue-600 hover:underline">Contact Just Legal Solutions</Link> for a free consultation — we handle everything from document retrieval to final delivery, across all 77 Oklahoma counties. You can also <Link href="/pricing" className="text-blue-600 hover:underline">view our transparent pricing</Link> for apostille and authentication services.
+            Ready to get your documents apostilled? Contact Just Legal Solutions for a free consultation — we handle everything from document retrieval to final delivery, across all 77 Oklahoma counties. You can also view our transparent pricing for apostille and authentication services.
           </p>
           </article>
           

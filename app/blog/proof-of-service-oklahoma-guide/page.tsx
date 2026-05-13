@@ -333,7 +333,7 @@ export default function ProofOfServiceGuidePage() {
           <h3>GPS-Tracked Service Documentation</h3>
 
           <p>
-            Modern process serving increasingly incorporates GPS tracking technology that automatically records the exact location where service was attempted or accomplished. This technology provides objective verification of the service location and timestamp, strengthening the proof of service against challenges. <Link href="/gps-tracked-process-serving/" className="text-blue-600 hover:text-blue-800 underline">GPS-tracked process serving</Link> creates an electronic trail that supplements traditional affidavit documentation.
+            Modern process serving increasingly incorporates GPS tracking technology that automatically records the exact location where service was attempted or accomplished. This technology provides objective verification of the service location and timestamp, strengthening the proof of service against challenges. GPS-tracked process serving creates an electronic trail that supplements traditional affidavit documentation.
           </p>
 
           <p>
@@ -538,7 +538,7 @@ export default function ProofOfServiceGuidePage() {
           </p>
 
           <p>
-            At Just Legal Solutions, we understand the critical importance of proper proof of service documentation. Our <Link href="/gps-tracked-process-serving/" className="text-blue-600 hover:text-blue-800 underline">GPS-tracked process serving</Link> provides comprehensive documentation that meets Oklahoma's strict requirements, protecting your case and giving you confidence in the validity of service. Contact us at <a href="tel:539-367-6832" className="text-blue-600 hover:text-blue-800 underline">(539) 367-6832</a> to learn how our professional service can support your legal needs.
+            At Just Legal Solutions, we understand the critical importance of proper proof of service documentation. Our GPS-tracked process serving provides comprehensive documentation that meets Oklahoma's strict requirements, protecting your case and giving you confidence in the validity of service. Contact us at <a href="tel:539-367-6832" className="text-blue-600 hover:text-blue-800 underline">(539) 367-6832</a> to learn how our professional service can support your legal needs.
           </p>
 
           {/* Author Box */}

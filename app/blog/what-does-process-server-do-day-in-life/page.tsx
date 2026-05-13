@@ -136,7 +136,7 @@ export default function BlogPost() {
             They map out the most efficient route, grouping serves by
             geographical area to minimize drive time and maximize the number of
             attempts they can make in a day. This is especially important in
-            Oklahoma, where our <Link href="/service-areas" className="text-blue-600 hover:underline">statewide coverage</Link> means a server might be
+            Oklahoma, where our statewide coverage means a server might be
             traveling from urban Tulsa to rural Creek County or beyond. GPS
             routing, traffic apps, and good old-fashioned local knowledge all
             play a role.
@@ -289,7 +289,7 @@ export default function BlogPost() {
             voice, and never engages in a physical confrontation. They explain
             their role calmly, deliver the papers if possible, and retreat
             safely if the situation becomes threatening. Every interaction is
-            documented thoroughly. At Just Legal Solutions, <Link href="/process-serving" className="text-blue-600 hover:underline">our process serving team</Link> is trained in conflict de-escalation and safety protocols to handle
+            documented thoroughly. At Just Legal Solutions, our process serving team is trained in conflict de-escalation and safety protocols to handle
             these situations professionally.
           </p>
 

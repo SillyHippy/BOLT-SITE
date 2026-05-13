@@ -10,7 +10,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 export const metadata: Metadata = {
   title: "How Fast Can a Process Server Deliver Documents in Oklahoma?",
   description: "Learn how fast process servers deliver in Oklahoma. Same-day, rush (24-48hr), standard (3-5 days) & more. Tulsa-based serving all 77 counties. Call (539) 367-68",
-  keywords: 'how fast process server oklahoma, same day process server tulsa, rush <Link href="/process-serving" className="text-blue-600">process serving</Link>, process server turnaround time, process server delivery speed oklahoma',
+  keywords: 'how fast process server oklahoma, same day process server tulsa, rush process serving, process server turnaround time, process server delivery speed oklahoma',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
   publisher: 'Just Legal Solutions',
@@ -60,7 +60,7 @@ const faqs = [
   },
   {
     question: 'Can a process server speed up delivery for emergency cases?',
-    answer: 'Absolutely. At Just Legal Solutions, we specialize in emergency process serving across Oklahoma. For true emergencies — such as temporary restraining orders with imminent hearings, emergency protective orders, or time-critical subpoenas — we can deploy our team immediately upon receiving documents. Our Same-Day Service (our same-day rate) and After-Hours Service (our after-hours rate) are designed specifically for these situations. In Tulsa metro cases, we've completed emergency serves within 2-4 hours of receiving documents.',
+    answer: 'Absolutely. At Just Legal Solutions, we specialize in emergency process serving across Oklahoma. For true emergencies — such as temporary restraining orders with imminent hearings, emergency protective orders, or time-critical subpoenas — we can deploy our team immediately upon receiving documents. Our Same-Day Service (our same-day rate) and After-Hours Service (our after-hours rate) are designed specifically for these situations. In Tulsa metro cases, we\'ve completed emergency serves within 2-4 hours of receiving documents.',
   },
   {
     question: 'Does Oklahoma law require process serving to happen within a specific timeframe?',
@@ -91,7 +91,7 @@ export default function BlogPost() {
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">Oklahoma Process Server Speed Tiers Explained</h2>
           <p className="mb-4">
-            At <Link href="/" className="text-blue-600">Just Legal Solutions</Link>, we've structured our service tiers to match the full spectrum of timing needs — from routine matters to absolute emergencies. After serving thousands of documents across all 77 Oklahoma counties since 2020, we understand that every case has its own timeline. Here's our complete breakdown of speed options:
+            At Just Legal Solutions, we've structured our service tiers to match the full spectrum of timing needs — from routine matters to absolute emergencies. After serving thousands of documents across all 77 Oklahoma counties since 2020, we understand that every case has its own timeline. Here's our complete breakdown of speed options:
           </p>
 
           <h3 className="text-xl font-semibold mb-3 mt-6">Same-Day Service — Delivered Today (our same-day rate)</h3>

@@ -335,7 +335,7 @@ export default function BlogPost() {
             </Link>{' '}
             for licensed, bonded support across all 77 Oklahoma counties. We specialize in foreclosure notices, subpoena service, quiet title document delivery, registered agent service, and emergency closing document courier with integrated mobile notary services. Call or text{' '}
             <a href="tel:5393676832" className="text-blue-600 hover:underline">(539) 367-6832</a>.{' '}
-            Visit our <Link href="/pricing" className="text-blue-600 hover:underline">pricing page</Link> to learn more about service levels and volume options for title companies.
+            Visit our pricing page to learn more about service levels and volume options for title companies.
           </p>
           </article>
 

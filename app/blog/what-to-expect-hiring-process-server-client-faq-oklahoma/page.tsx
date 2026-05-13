@@ -161,7 +161,7 @@ export default function BlogPost() {
             Here is something many people do not realize: under Oklahoma law, you cannot serve papers yourself if you are a party to the case. That means plaintiffs, petitioners, and their attorneys (when the attorney is a party) are legally prohibited from performing service of process on their own cases. You must use a licensed private process server, the county sheriff, or a court-appointed person. Attempting to serve your own papers can invalidate the service and jeopardize your entire case — so don't take that risk.
           </p>
           <p>
-            The consequences of improper service are serious. If service is done incorrectly, the defendant can challenge it in court, which may lead to case delays, additional legal fees, or even dismissal. That is why it is absolutely worth hiring a licensed professional who understands <Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma's process server licensing laws</Link> and follows them to the letter.
+            The consequences of improper service are serious. If service is done incorrectly, the defendant can challenge it in court, which may lead to case delays, additional legal fees, or even dismissal. That is why it is absolutely worth hiring a licensed professional who understands Oklahoma's process server licensing laws and follows them to the letter.
           </p>
 
           <h3>Oklahoma Licensing Requirements You Should Verify</h3>
@@ -204,7 +204,7 @@ export default function BlogPost() {
             Upon successful service, your process server prepares a sworn affidavit of service — also called a return of service. This is the official legal document that proves to the court that service was completed properly. At Just Legal Solutions, we deliver completed, notarized affidavits within 24 hours of successful service. The affidavit is then filed with the court as proof that service was completed in compliance with Oklahoma law.
           </p>
           <p>
-            From intake to affidavit, the entire process is designed to be transparent, efficient, and legally bulletproof. You should never have to chase your process server for updates or documents. If you want to learn more about how the full timeline typically unfolds, read our detailed guide on <Link href="/how-long-does-process-serving-take" className="text-blue-600 hover:underline">how long process serving takes in Oklahoma</Link>.
+            From intake to affidavit, the entire process is designed to be transparent, efficient, and legally bulletproof. You should never have to chase your process server for updates or documents. If you want to learn more about how the full timeline typically unfolds, read our detailed guide on how long process serving takes in Oklahoma.
           </p>
 
           <h2>How Much Does a Process Server Cost in Oklahoma?</h2>
@@ -227,7 +227,7 @@ export default function BlogPost() {
 
           <h3>Getting a Written Quote</h3>
           <p>
-            Always insist on flat-rate pricing in writing before service begins. A professional server will provide a quote that lists every potential charge with no hidden fees. Ask specifically what is included: how many attempts, mileage coverage, rush fees, affidavit preparation, and notarization. If a server is vague about pricing or reluctant to put it in writing, that is a red flag. For our current Oklahoma pricing on all service tiers, visit our <Link href="/pricing" className="text-blue-600 hover:underline">pricing page</Link>.
+            Always insist on flat-rate pricing in writing before service begins. A professional server will provide a quote that lists every potential charge with no hidden fees. Ask specifically what is included: how many attempts, mileage coverage, rush fees, affidavit preparation, and notarization. If a server is vague about pricing or reluctant to put it in writing, that is a red flag. For our current Oklahoma pricing on all service tiers, visit our pricing page.
           </p>
 
           <h2>How Long Does Process Serving Take in Oklahoma?</h2>
@@ -253,7 +253,7 @@ export default function BlogPost() {
             Several variables influence how quickly service is completed. The defendant's availability and daily routine are the biggest factors — a person who works from home is easier to serve than someone with an unpredictable schedule. Address accuracy is critical: a bad address requires skip tracing, which adds time. Defendants who are actively avoiding service make the process more challenging, though not impossible. Distance to the service location matters too, especially in Oklahoma's rural counties where homes may be miles apart. Weather and time of year can also play a role — ice storms and spring tornadoes are realities in Oklahoma that can affect travel and timing.
           </p>
           <p>
-            The good news is that you can help your server work faster. Providing alternate addresses, employer information, photos, and detailed schedules upfront dramatically reduces the number of attempts needed. The more you share during intake, the faster your case moves. Need papers served fast? <Link href="/contact" className="text-blue-600 hover:underline">Contact us</Link> for same-business-day intake and rapid turnaround.
+            The good news is that you can help your server work faster. Providing alternate addresses, employer information, photos, and detailed schedules upfront dramatically reduces the number of attempts needed. The more you share during intake, the faster your case moves. Need papers served fast? Contact us for same-business-day intake and rapid turnaround.
           </p>
 
           <h2>What Happens If the Person Refuses Service or Cannot Be Found?</h2>
@@ -266,7 +266,7 @@ export default function BlogPost() {
             Here is how it works in practice. The server approaches the defendant, identifies them by name, and states that they have legal documents. If the defendant refuses to take the papers, the server performs what is called "drop service" — placing the documents at the person's feet or on a nearby surface while the defendant is present. The server then documents every detail of the interaction in the sworn affidavit: the date, time, exact location, physical description of the defendant, the fact that the documents were tendered, and the defendant's refusal.
           </p>
           <p>
-            Oklahoma courts consistently uphold drop service as valid personal service. So if you are worried that a stubborn defendant will derail your case by refusing papers, you can relax. Refusal does not stop your case from moving forward. Your server has handled this situation many times before and knows exactly how to execute proper drop service and document it for court. For more details, read our guide on <Link href="/what-happens-if-someone-refuses-service" className="text-blue-600 hover:underline">what happens when someone refuses service in Oklahoma</Link>.
+            Oklahoma courts consistently uphold drop service as valid personal service. So if you are worried that a stubborn defendant will derail your case by refusing papers, you can relax. Refusal does not stop your case from moving forward. Your server has handled this situation many times before and knows exactly how to execute proper drop service and document it for court. For more details, read our guide on what happens when someone refuses service in Oklahoma.
           </p>
 
           <h3>When the Defendant Cannot Be Located</h3>

@@ -194,7 +194,7 @@ export default function BlogPost() {
           </p>
 
           <p>
-            When you choose to track legal documents in transit with <Link href="/blog/track-legal-documents-transit-gps-proof-delivery-oklahoma" className="text-blue-600 hover:underline">GPS tracking and proof of delivery</Link>, 
+            When you choose to track legal documents in transit with GPS tracking and proof of delivery, 
             you eliminate the uncertainty that keeps attorneys awake at night. But before we explore 
             the solution, let&apos;s talk about the cost — because the &quot;cheap&quot; option is not nearly as 
             affordable as it looks.
@@ -293,7 +293,7 @@ export default function BlogPost() {
           <p>
             For a firm sending 500 certified mailings annually, the true cost ranges from $9,000 
             to $15,000 or more — before you factor in a single missed deadline or lost document. 
-            You can <Link href="/pricing" className="text-blue-600 hover:underline">see our transparent pricing</Link> to 
+            You can see our transparent pricing to 
             compare what a professional courier service would cost for the same volume. Spoiler 
             alert: the courier often costs less when you account for the hidden expenses certified 
             mail creates.
@@ -349,7 +349,7 @@ export default function BlogPost() {
 
           <p>
             It is important to note the distinction between legal couriers and process servers. 
-            A process server is licensed under <Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma process server licensing requirements</Link> (12 O.S. § 158.1) 
+            A process server is licensed under Oklahoma process server licensing requirements (12 O.S. § 158.1) 
             and must carry a $5,000 surety bond to serve parties in litigation. A legal courier 
             transports documents between courts, law firms, and offices for filings, retrievals, 
             and deliveries — but does not serve parties. Both roles are essential, but they are 
@@ -391,8 +391,8 @@ export default function BlogPost() {
             delivery to any of Oklahoma&apos;s 77 counties. Whether you need a filing at the Tulsa 
             County Courthouse, the Oklahoma County District Court, the Cleveland County 
             Courthouse in Norman, or a rural district court in a town most people have never 
-            heard of, a professional legal courier can get it there. <Link href="/blog/same-day-document-delivery-law-firms-oklahoma" className="text-blue-600 hover:underline">When same-day delivery saves the case</Link>, 
-            the geographic advantage becomes crystal clear. And when you need <Link href="/urgent-process-server" className="text-blue-600 hover:underline">urgent process serving in Oklahoma</Link>, 
+            heard of, a professional legal courier can get it there. When same-day delivery saves the case, 
+            the geographic advantage becomes crystal clear. And when you need urgent process serving in Oklahoma, 
             professional process servers complete service 70% faster than county sheriffs — 
             averaging 24-48 hours versus 2-6 weeks. Courier-speed delivery of documents to 
             process servers can mean the difference between timely service and case dismissal.
@@ -435,8 +435,8 @@ export default function BlogPost() {
             documented. This direct handoff with no intermediate stops creates a custody record 
             that holds up in court. For documents protected by attorney-client privilege, the 
             security difference matters enormously. Commingled mail creates exposure. A sealed 
-            pouch hand-delivered by a vetted professional does not. You can learn more about <Link href="/blog/legal-document-courier-services-speed-security-chain-custody-oklahoma" className="text-blue-600 hover:underline">chain of custody best practices</Link> and 
-            how to protect <Link href="/blog/secure-document-handling-hipaa-attorney-client-privilege-oklahoma" className="text-blue-600 hover:underline">attorney-client privilege during document transport</Link> on our blog.
+            pouch hand-delivered by a vetted professional does not. You can learn more about chain of custody best practices and 
+            how to protect attorney-client privilege during document transport on our blog.
           </p>
 
           <h2>When to Use a Courier vs. When Certified Mail Still Works</h2>
@@ -480,8 +480,8 @@ export default function BlogPost() {
             daily or weekly courthouse routes, adds even more efficiency and predictability to 
             your practice. Seasoned Oklahoma attorneys develop instincts for which delivery 
             method fits which situation — and those instincts protect their clients and their 
-            practices. If you are looking for <Link href="/courier-services-tulsa" className="text-blue-600 hover:underline">our Tulsa courier services</Link>, we offer scheduled 
-            routes, rush delivery, and <Link href="/blog/rush-document-delivery-emergency-filing-court-deadlines-oklahoma" className="text-blue-600 hover:underline">emergency document delivery options</Link> for when the 
+            practices. If you are looking for our Tulsa courier services, we offer scheduled 
+            routes, rush delivery, and emergency document delivery options for when the 
             courthouse clock is your biggest enemy.
           </p>
 

@@ -176,7 +176,7 @@ export default function HowToServeDivorcePapersOklahoma() {
           <article className="prose prose-lg prose-blue max-w-none bg-white p-8 md:p-12 rounded-2xl shadow-lg border border-gray-100">
 
             <p className="text-xl text-gray-700 leading-relaxed">
-              Filing for divorce in Oklahoma is only the first step. Before your case can proceed, your spouse must be formally notified through a legally recognized process called <strong>service of process</strong>. Improperly served divorce papers can delay your case for months, get your case dismissed, or allow a future appeal on procedural grounds. This guide walks you through every requirement under Oklahoma law so you can proceed with confidence. For a broader overview of process serving in Oklahoma, see our <Link href="/ultimate-guide-process-serving-oklahoma" className="text-blue-600 hover:underline">Ultimate Guide to Process Serving in Oklahoma</Link>.
+              Filing for divorce in Oklahoma is only the first step. Before your case can proceed, your spouse must be formally notified through a legally recognized process called <strong>service of process</strong>. Improperly served divorce papers can delay your case for months, get your case dismissed, or allow a future appeal on procedural grounds. This guide walks you through every requirement under Oklahoma law so you can proceed with confidence. For a broader overview of process serving in Oklahoma, see our Ultimate Guide to Process Serving in Oklahoma.
             </p>
 
             <div className="bg-blue-50 border-l-4 border-blue-600 p-6 my-8 rounded-r-lg not-prose">
@@ -200,7 +200,7 @@ export default function HowToServeDivorcePapersOklahoma() {
 
             <h2>Service Methods Under 12 O.S. § 2004</h2>
             <p>
-              Oklahoma Statutes Title 12, Section 2004 (<a href="https://www.oscn.net/applications/oscn/index.asp?ftdb=STOKST12" target="_blank" rel="noopener noreferrer">view full statute on OSCN</a>) governs the methods by which civil process — including divorce papers — may be served. The statute provides several recognized methods, each with specific rules and appropriate circumstances. For a complete breakdown of Oklahoma&apos;s service rules, see our <Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma Process Server Laws guide</Link>.
+              Oklahoma Statutes Title 12, Section 2004 (<a href="https://www.oscn.net/applications/oscn/index.asp?ftdb=STOKST12" target="_blank" rel="noopener noreferrer">view full statute on OSCN</a>) governs the methods by which civil process — including divorce papers — may be served. The statute provides several recognized methods, each with specific rules and appropriate circumstances. For a complete breakdown of Oklahoma&apos;s service rules, see our Oklahoma Process Server Laws guide.
             </p>
 
             <h3>Personal Service (Preferred Method)</h3>
@@ -249,7 +249,7 @@ export default function HowToServeDivorcePapersOklahoma() {
               The critical point: <strong>you cannot serve your own divorce papers</strong>. As a party to the case, you are legally prohibited from making service. Attempting to do so will render the service void. This prohibition exists to ensure objectivity and prevent coercion in the delivery of legal documents.
             </p>
             <p>
-              Licensed private process servers under 12 O.S. § 158.1 must meet state licensing requirements and carry professional liability. When you hire a licensed process server through a reputable firm like <Link href="/process-serving" className="text-blue-600 hover:underline">Just Legal Solutions</Link>, you get documented service attempts, GPS-stamped affidavits, and professional testimony if service is ever challenged in court.
+              Licensed private process servers under 12 O.S. § 158.1 must meet state licensing requirements and carry professional liability. When you hire a licensed process server through a reputable firm like Just Legal Solutions, you get documented service attempts, GPS-stamped affidavits, and professional testimony if service is ever challenged in court.
             </p>
             <p>
               Unlicensed individuals who attempt process serving — even with good intentions — create significant legal risk. Courts can disqualify service accomplished by an unlicensed server, requiring the entire service process to start over at the plaintiff&apos;s expense and delay.
@@ -284,15 +284,15 @@ export default function HowToServeDivorcePapersOklahoma() {
               If your spouse lives outside Oklahoma, service may still be accomplished under 12 O.S. § 2004(D). Oklahoma&apos;s long-arm statute allows courts to exercise jurisdiction over out-of-state parties in cases where the marital relationship was formed or primarily existed in Oklahoma. Out-of-state service typically requires the assistance of a process server licensed or authorized in the state where your spouse resides, or may be accomplished through that state&apos;s specific rules for accepting out-of-state service.
             </p>
             <p>
-              Visit our <Link href="/service-areas" className="text-blue-600 hover:underline">Service Areas page</Link> to learn more about how Just Legal Solutions coordinates multi-state service across Oklahoma and neighboring states.
+              Visit our Service Areas page to learn more about how Just Legal Solutions coordinates multi-state service across Oklahoma and neighboring states.
             </p>
 
             <h3>When a Spouse Is Actively Avoiding Service</h3>
             <p>
-              Some spouses, anticipating a divorce filing, will deliberately avoid being served. This is commonly called &ldquo;evading service.&rdquo; Oklahoma courts take evasion seriously. A licensed process server who makes multiple documented attempts and submits a detailed affidavit of diligent search provides the foundation for a court motion to permit substituted service or publication. Read our guide on <Link href="/what-happens-if-someone-refuses-service" className="text-blue-600 hover:underline">what happens if someone refuses service</Link> for more on how Oklahoma handles refusal and evasion.
+              Some spouses, anticipating a divorce filing, will deliberately avoid being served. This is commonly called &ldquo;evading service.&rdquo; Oklahoma courts take evasion seriously. A licensed process server who makes multiple documented attempts and submits a detailed affidavit of diligent search provides the foundation for a court motion to permit substituted service or publication. Read our guide on what happens if someone refuses service for more on how Oklahoma handles refusal and evasion.
             </p>
             <p>
-              In particularly difficult cases, <Link href="/skip-tracing" className="text-blue-600 hover:underline">skip tracing</Link> services can help locate a spouse who has moved without leaving a forwarding address. Skip tracing uses public records, database searches, and investigative techniques to determine a current address or location.
+              In particularly difficult cases, skip tracing services can help locate a spouse who has moved without leaving a forwarding address. Skip tracing uses public records, database searches, and investigative techniques to determine a current address or location.
             </p>
 
             <h3>Military Service and the SCRA</h3>
@@ -315,10 +315,10 @@ export default function HowToServeDivorcePapersOklahoma() {
               <li>The server&apos;s signature under oath</li>
             </ul>
             <p>
-              Without a properly completed and filed affidavit of service, the court cannot proceed with your case. Our <Link href="/courthouse-filing-services" className="text-blue-600 hover:underline">courthouse filing services</Link> can handle filing your proof of service with the <a href="https://www.tulsacounty.org/Tulsa/County/Departments/Court+Clerk/" target="_blank" rel="noopener noreferrer">Tulsa County Court Clerk</a> and other Oklahoma district courts. This document is so critical that many courts will strike a motion for default or set aside a default judgment if the affidavit is missing, incomplete, or contains errors.
+              Without a properly completed and filed affidavit of service, the court cannot proceed with your case. Our courthouse filing services can handle filing your proof of service with the <a href="https://www.tulsacounty.org/Tulsa/County/Departments/Court+Clerk/" target="_blank" rel="noopener noreferrer">Tulsa County Court Clerk</a> and other Oklahoma district courts. This document is so critical that many courts will strike a motion for default or set aside a default judgment if the affidavit is missing, incomplete, or contains errors.
             </p>
             <p>
-              A professionally prepared affidavit typically includes a physical description of the person served, the exact address and circumstances of service, notes on any obstacles encountered, and <Link href="/gps-tracked-process-serving" className="text-blue-600 hover:underline">GPS-validated timestamps</Link> confirming the server&apos;s presence at the service location. This level of detail makes the document virtually unassailable if challenged.
+              A professionally prepared affidavit typically includes a physical description of the person served, the exact address and circumstances of service, notes on any obstacles encountered, and GPS-validated timestamps confirming the server&apos;s presence at the service location. This level of detail makes the document virtually unassailable if challenged.
             </p>
 
             <div className="bg-green-50 border border-green-200 p-6 rounded-xl my-8 not-prose">
@@ -348,13 +348,13 @@ export default function HowToServeDivorcePapersOklahoma() {
               Publication service — when required — involves additional costs beyond the process server fee, including newspaper advertising charges for three consecutive weekly publications. Court filing fees are a separate cost assessed by the district court and vary by county and claim type.
             </p>
             <p>
-              For specific pricing on professional process serving, including same-day service options, visit our <Link href="/pricing" className="text-blue-600 hover:underline">pricing page</Link>. Skip tracing fees, when needed to locate a spouse whose address is unknown, are separate from service fees.
+              For specific pricing on professional process serving, including same-day service options, visit our pricing page. Skip tracing fees, when needed to locate a spouse whose address is unknown, are separate from service fees.
             </p>
             <p>
               When comparing service cost options, keep in mind that the goal is not the lowest per-attempt fee — it is the lowest total cost for confirmed, legally valid service. A less expensive option that requires multiple re-service attempts because of missed addresses or inadequate documentation can end up costing significantly more in total than professional first-attempt service, once attorney time and re-filing fees are factored in.
             </p>
             <p>
-              For <Link href="/rush-vs-standard-vs-same-day-service" className="text-blue-600 hover:underline">rush or emergency divorce service</Link> — such as when you are approaching the 180-day filing deadline or when a temporary restraining order must be served simultaneously with the petition — priority service options are available. Contact Just Legal Solutions through our <Link href="/process-serving" className="text-blue-600 hover:underline">process serving page</Link> for same-day availability details.
+              For rush or emergency divorce service — such as when you are approaching the 180-day filing deadline or when a temporary restraining order must be served simultaneously with the petition — priority service options are available. Contact Just Legal Solutions through our process serving page for same-day availability details.
             </p>
 
             <h2>Service on Special Parties</h2>
@@ -452,10 +452,10 @@ export default function HowToServeDivorcePapersOklahoma() {
               Oklahoma divorce cases can become complex quickly, especially when children, significant assets, or contested property are involved. A procedural mistake in service — even an unintentional one — gives the opposing party grounds to challenge the entire proceeding. Professional process servers employed by licensed firms understand Oklahoma&apos;s civil procedure rules, document every attempt meticulously, and provide affidavits that hold up to court scrutiny.
             </p>
             <p>
-              Just Legal Solutions offers <Link href="/process-serving" className="text-blue-600 hover:underline">professional process serving</Link> across Oklahoma, including Tulsa, Oklahoma City, and all surrounding counties. Our servers are licensed under 12 O.S. § 158.1, carry GPS-documented service records, and provide same-day service attempts in most areas. For information on service options and availability, visit our <Link href="/pricing" className="text-blue-600 hover:underline">pricing page</Link>.
+              Just Legal Solutions offers professional process serving across Oklahoma, including Tulsa, Oklahoma City, and all surrounding counties. Our servers are licensed under 12 O.S. § 158.1, carry GPS-documented service records, and provide same-day service attempts in most areas. For information on service options and availability, visit our pricing page.
             </p>
             <p>
-              For divorce cases involving difficult-to-locate spouses, our <Link href="/skip-tracing" className="text-blue-600 hover:underline">skip tracing services</Link> can locate current addresses using professional databases and investigative techniques before service is attempted, maximizing first-attempt success rates.
+              For divorce cases involving difficult-to-locate spouses, our skip tracing services can locate current addresses using professional databases and investigative techniques before service is attempted, maximizing first-attempt success rates.
             </p>
 
             <h2>What to Do During the 20-Day Response Period</h2>
@@ -492,7 +492,7 @@ export default function HowToServeDivorcePapersOklahoma() {
               <strong>Important limitation:</strong> Voluntary acceptance only works when the respondent genuinely cooperates. If your spouse refuses to sign, is difficult to reach, or you suspect they will become uncooperative once divorce proceedings begin, formal service through a licensed process server is the appropriate path. Never delay formal service waiting for a voluntary acceptance that may not come — the 180-day deadline continues to run.
             </p>
             <p>
-              For cases where voluntary acceptance is appropriate, an Oklahoma family law attorney can prepare the required documentation. For cases where personal service is needed, Just Legal Solutions is ready to serve — contact us through our <Link href="/process-serving" className="text-blue-600 hover:underline">process serving page</Link> for same-day availability in most Tulsa area and statewide locations.
+              For cases where voluntary acceptance is appropriate, an Oklahoma family law attorney can prepare the required documentation. For cases where personal service is needed, Just Legal Solutions is ready to serve — contact us through our process serving page for same-day availability in most Tulsa area and statewide locations.
             </p>
 
             <h2>Researching Your Spouse&apos;s Address Before Filing</h2>
@@ -509,7 +509,7 @@ export default function HowToServeDivorcePapersOklahoma() {
               <li><strong>Professional skip tracing:</strong> If routine research does not yield a current address, professional skip tracing through a service like Just Legal Solutions uses specialized databases to locate current addresses with a much higher success rate than public record searches alone.</li>
             </ul>
             <p>
-              Investing in address verification before filing or before dispatching a server maximizes first-attempt success and protects your case timeline. Our <Link href="/skip-tracing" className="text-blue-600 hover:underline">skip tracing services</Link> are available as a standalone service and can be ordered before or alongside your process serving request.</p>
+              Investing in address verification before filing or before dispatching a server maximizes first-attempt success and protects your case timeline. Our skip tracing services are available as a standalone service and can be ordered before or alongside your process serving request.</p>
 
             <h2>Safety Considerations When Serving an Abusive or Dangerous Spouse</h2>
             <p>
@@ -542,7 +542,7 @@ export default function HowToServeDivorcePapersOklahoma() {
               When filing for divorce in a county other than where your spouse currently resides — for example, filing in Tulsa County while your spouse has relocated to Wagoner, Creek, or Okmulgee County — service must be accomplished in the county where your spouse actually lives or can be found. Just Legal Solutions coordinates multi-county service across a single case, so geographic complications do not create additional barriers for clients.
             </p>
             <p>
-              For clients in the Tulsa metropolitan area, Glenpool, Broken Arrow, Jenks, Owasso, and surrounding communities, same-day and next-day service attempts are available in most situations. Review our <Link href="/service-areas" className="text-blue-600 hover:underline">service areas page</Link> for county-specific coverage details.
+              For clients in the Tulsa metropolitan area, Glenpool, Broken Arrow, Jenks, Owasso, and surrounding communities, same-day and next-day service attempts are available in most situations. Review our service areas page for county-specific coverage details.
             </p>
 
             <div className="bg-blue-50 border-l-4 border-blue-600 p-6 my-8 rounded-r-lg not-prose">

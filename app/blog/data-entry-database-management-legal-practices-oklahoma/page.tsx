@@ -174,7 +174,7 @@ export default function BlogPost() {
           </p>
 
           <p>
-            The good news is that you do not have to keep doing this yourself. <Link href="/services/virtual-assistant-services" className="text-blue-600 hover:underline">Just Legal Solutions provides virtual assistant services</Link> specifically trained for Oklahoma law firms, handling your data entry and database management so you can get back to practicing law. Our team understands the unique demands of Oklahoma\'s court system and the accuracy standards your practice demands.
+            The good news is that you do not have to keep doing this yourself. Just Legal Solutions provides virtual assistant services specifically trained for Oklahoma law firms, handling your data entry and database management so you can get back to practicing law. Our team understands the unique demands of Oklahoma\'s court system and the accuracy standards your practice demands.
           </p>
 
           <h2>What Legal Data Entry and Database Management Tasks Can a Virtual Assistant Handle?</h2>
@@ -196,7 +196,7 @@ export default function BlogPost() {
           </p>
 
           <p>
-            Picture this scenario: your VA is pulling OSCN records for a Tulsa County case while you are in the next room preparing for a deposition. By the time you are ready to review the file, all the case history is organized, all relevant documents are indexed, and your case management system is fully updated. That is the power of proper delegation. For attorneys who want to learn more about our electronic filing support, <Link href="/learn/electronic-filing-service" className="text-blue-600 hover:underline">visit our dedicated e-filing service page</Link>.
+            Picture this scenario: your VA is pulling OSCN records for a Tulsa County case while you are in the next room preparing for a deposition. By the time you are ready to review the file, all the case history is organized, all relevant documents are indexed, and your case management system is fully updated. That is the power of proper delegation. For attorneys who want to learn more about our electronic filing support, visit our dedicated e-filing service page.
           </p>
 
           <h3>Database Maintenance and Cleanup</h3>
@@ -206,7 +206,7 @@ export default function BlogPost() {
           </p>
 
           <p className="text-gray-700 italic">
-            Ready to reclaim hours of billable time every week? <Link href="/contact" className="text-blue-600 hover:underline">Contact Just Legal Solutions</Link> to discuss how our legal virtual assistants can handle your data entry and database management needs, freeing you to focus on what you do best.
+            Ready to reclaim hours of billable time every week? Contact Just Legal Solutions to discuss how our legal virtual assistants can handle your data entry and database management needs, freeing you to focus on what you do best.
           </p>
 
           <h2>Oklahoma Ethics Rules: What Attorneys Must Know Before Outsourcing Data Entry</h2>
@@ -304,7 +304,7 @@ export default function BlogPost() {
           </p>
 
           <p className="text-gray-700 italic">
-            See how affordable legal VA services can be for your practice. <Link href="/pricing" className="text-blue-600 hover:underline">View our transparent pricing</Link> and find a package that works for your firm.
+            See how affordable legal VA services can be for your practice. View our transparent pricing and find a package that works for your firm.
           </p>
 
           <h2>Database Cleanup and Data Migration Best Practices for Oklahoma Firms</h2>
@@ -332,7 +332,7 @@ export default function BlogPost() {
           </p>
 
           <p>
-            A professional legal VA can manage the entire cleanup and migration support process, giving you confidence that your firm\'s most valuable asset, its data, is in good hands. <Link href="/services" className="text-blue-600 hover:underline">Learn more about our comprehensive VA services</Link> for database cleanup and migration support tailored to Oklahoma law firms.
+            A professional legal VA can manage the entire cleanup and migration support process, giving you confidence that your firm\'s most valuable asset, its data, is in good hands. Learn more about our comprehensive VA services for database cleanup and migration support tailored to Oklahoma law firms.
           </p>
           </article>
           

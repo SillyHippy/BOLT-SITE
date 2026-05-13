@@ -228,8 +228,8 @@ export default function BlogPost() {
             the proof, and the personnel rules are federal, period. That is why attorneys who are 
             brilliant in state court sometimes find themselves scrambling when a federal case gets 
             dismissed for defective service. If you want to brush up on the state side as a 
-            comparison, check out our guide to <Link href="/blog/oklahoma-180-day-rule-service-process-explained" className="text-blue-600 hover:underline">Oklahoma&apos;s 180-day state rule</Link>. 
-            And if you are looking for professional support, our <Link href="/services/process-serving" className="text-blue-600 hover:underline">process serving team</Link> handles 
+            comparison, check out our guide to Oklahoma&apos;s 180-day state rule. 
+            And if you are looking for professional support, our process serving team handles 
             both state and federal matters across all 77 Oklahoma counties.
           </p>
 
@@ -265,7 +265,7 @@ export default function BlogPost() {
             <li><strong>Phone:</strong> 918-699-4700</li>
           </ul>
           <p>
-            Need <Link href="/services/process-serving" className="text-blue-600 hover:underline">process serving in Tulsa</Link> or the surrounding northern counties? We cover the full 
+            Need process serving in Tulsa or the surrounding northern counties? We cover the full 
             Northern District with licensed, bonded process servers who know the local federal 
             procedures.
           </p>
@@ -283,7 +283,7 @@ export default function BlogPost() {
             <li><strong>Phone:</strong> 405-609-5000</li>
           </ul>
           <p>
-            Looking for <Link href="/services/process-serving" className="text-blue-600 hover:underline">process serving in Oklahoma City</Link> or anywhere across western Oklahoma? 
+            Looking for process serving in Oklahoma City or anywhere across western Oklahoma? 
             We maintain coverage throughout all 40 counties of the Western District.
           </p>
 
@@ -302,7 +302,7 @@ export default function BlogPost() {
           <p>
             All three districts fall within the <strong>Tenth Circuit Court of Appeals</strong>, 
             headquartered in Denver. So whether you are appealing from Tulsa, Oklahoma City, or 
-            Muskogee, your appeal goes to the same court. For <Link href="/services/courier" className="text-blue-600 hover:underline">document delivery between courthouses</Link> 
+            Muskogee, your appeal goes to the same court. For document delivery between courthouses 
             or any district office, we provide secure legal document courier service statewide.
           </p>
 
@@ -319,7 +319,7 @@ export default function BlogPost() {
           </div>
 
           <p>
-            Need process serving in your federal district? <Link href="/contact" className="text-blue-600 hover:underline">Contact Just Legal Solutions</Link> for licensed, 
+            Need process serving in your federal district? Contact Just Legal Solutions for licensed, 
             bonded process servers across all 77 Oklahoma counties. Every member of our team 
             understands the federal requirements and carries the credentials to support your case.
           </p>
@@ -377,10 +377,10 @@ export default function BlogPost() {
             <li><strong>Week 8 (day 56):</strong> If service is still not completed, file your motion for extension immediately. Do not wait until week 12. Give the court time to rule on your motion before day 90 arrives.</li>
           </ul>
           <p>
-            Do not let the 90-day deadline catch you off guard. Our <Link href="/services/process-serving" className="text-blue-600 hover:underline">rush process serving team</Link> can 
+            Do not let the 90-day deadline catch you off guard. Our rush process serving team can 
             serve anywhere in Oklahoma within 24-48 hours. We understand the urgency of federal 
             deadlines and prioritize federal court service accordingly. For a refresher on how 
-            different the state timeline is, read our guide to <Link href="/blog/oklahoma-180-day-rule-service-process-explained" className="text-blue-600 hover:underline">understanding Oklahoma&apos;s state deadline</Link>.
+            different the state timeline is, read our guide to understanding Oklahoma&apos;s state deadline.
           </p>
 
           <h2>Who Can Serve Process in Federal Court? (Hint: No Oklahoma License Required)</h2>
@@ -432,9 +432,9 @@ export default function BlogPost() {
             service is automatic once the complaint is filed.
           </p>
           <p>
-            Our <Link href="/services/process-serving" className="text-blue-600 hover:underline">licensed Oklahoma process servers</Link> work on federal matters regularly and 
+            Our licensed Oklahoma process servers work on federal matters regularly and 
             understand both the federal flexibility and the practical advantages of maintaining 
-            state licensure. If your case involves <Link href="/blog/special-process-server-appointment-authority-oklahoma" className="text-blue-600 hover:underline">special process server appointments</Link>, 
+            state licensure. If your case involves special process server appointments, 
             we can also assist with court-ordered appointments for specific service needs.
           </p>
 
@@ -494,7 +494,7 @@ export default function BlogPost() {
           <p>
             Skip step two, and your service is defective. Use regular mail instead of certified, 
             and your service is defective. This is one area where there is absolutely no room 
-            for improvisation. We recommend using <Link href="/services/courier" className="text-blue-600 hover:underline">legal document delivery</Link> services to ensure the 
+            for improvisation. We recommend using legal document delivery services to ensure the 
             U.S. Attorney&apos;s office copy is hand-delivered properly and documented.
           </p>
 
@@ -519,7 +519,7 @@ export default function BlogPost() {
             result in the court setting aside the service. Get the affidavit right the first time.
           </p>
           <p>
-            For help ensuring your <Link href="/services/process-serving" className="text-blue-600 hover:underline">proof of service documentation</Link> is bulletproof, our team 
+            For help ensuring your proof of service documentation is bulletproof, our team 
             provides detailed, court-ready affidavits on every federal service we complete.
           </p>
 
@@ -585,7 +585,7 @@ export default function BlogPost() {
           </ul>
           <p>
             If you need help navigating CM/ECF or managing filings across multiple districts, 
-            our <Link href="/services/virtual-assistant" className="text-blue-600 hover:underline">virtual support services</Link> can assist with court filing and eFiling support.
+            our virtual support services can assist with court filing and eFiling support.
           </p>
           </article>
           
@@ -682,11 +682,11 @@ export default function BlogPost() {
             that gets dismissed.
           </p>
           <p>
-            Need federal court process serving anywhere in Oklahoma? <Link href="/contact" className="text-blue-600 hover:underline">Contact Just Legal Solutions</Link> for 
+            Need federal court process serving anywhere in Oklahoma? Contact Just Legal Solutions for 
             experienced, licensed process serving across all three federal districts. Every 
             server on our team carries a $5,000 bond, understands FRCP 4 requirements inside 
             and out, and has experience serving in the Northern, Western, and Eastern Districts 
-            of Oklahoma. Call or text <a href="tel:5393676832" className="text-blue-600 hover:underline">(539) 367-6832</a> or visit our <Link href="/pricing" className="text-blue-600 hover:underline">pricing page</Link> to learn 
+            of Oklahoma. Call or text <a href="tel:5393676832" className="text-blue-600 hover:underline">(539) 367-6832</a> or visit our pricing page to learn 
             about our service levels.
           </p>
           </article>

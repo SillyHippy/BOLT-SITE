@@ -8,7 +8,7 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: 'Serving Family Law Papers in Oklahoma: A Server\',
+  title: 'Serving Family Law Papers in Oklahoma: A Server',
   description: 'Learn how Oklahoma process servers handle paternity, adoption, and custody cases. Covers the 15-day rule, pre-birth service, UCCJEA, and more.',
   keywords: 'process server Oklahoma, process serving, serve legal papers, Oklahoma process server, court document delivery',
   authors: [{ name: 'Just Legal Solutions Team' }],
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   publisher: 'Just Legal Solutions',
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
-    title: 'Serving Family Law Papers in Oklahoma: A Server\',
+    title: 'Serving Family Law Papers in Oklahoma: A Server',
     description: 'Learn how Oklahoma process servers handle paternity, adoption, and custody cases. Covers the 15-day rule, pre-birth service, UCCJEA, and more.',
     url: 'https://justlegalsolutions.org/blog/process-serving-family-law-paternity-adoption-custody-oklahoma',
     siteName: 'Just Legal Solutions',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
         url: 'https://justlegalsolutions.org/images/jls-logo.webp',
         width: 1200,
         height: 630,
-        alt: 'Serving Family Law Papers in Oklahoma: A Server\',
+        alt: 'Serving Family Law Papers in Oklahoma: A Server',
       },
     ],
   },
@@ -90,7 +90,7 @@ export default function BlogPost() {
     <>
       <UnifiedSchema
         pageType="article"
-        pageTitle="Serving Family Law Papers in Oklahoma: A Server\"
+        pageTitle="Serving Family Law Papers in Oklahoma: A Server"
         pageDescription="Learn how Oklahoma process servers handle paternity, adoption, and custody cases. Covers the 15-day rule, pre-birth service, UCCJEA, and more."
         pageUrl="https://justlegalsolutions.org/blog/process-serving-family-law-paternity-adoption-custody-oklahoma"
         siteName="Just Legal Solutions"
@@ -99,10 +99,10 @@ export default function BlogPost() {
         breadcrumbs={[
           { name: 'Home', item: 'https://justlegalsolutions.org' },
           { name: 'Blog', item: 'https://justlegalsolutions.org/blog' },
-          { name: 'Serving Family Law Papers in Oklahoma: A Server\', item: 'https://justlegalsolutions.org/blog/process-serving-family-law-paternity-adoption-custody-oklahoma' }
+          { name: 'Serving Family Law Papers in Oklahoma: A Server', item: 'https://justlegalsolutions.org/blog/process-serving-family-law-paternity-adoption-custody-oklahoma' }
         ]}
         articleDetails={{
-          headline: 'Serving Family Law Papers in Oklahoma: A Server\',
+          headline: 'Serving Family Law Papers in Oklahoma: A Server',
           datePublished: '2026-11-05',
           dateModified: '2026-11-05',
           author: 'Just Legal Solutions Team',
@@ -176,7 +176,7 @@ export default function BlogPost() {
             understand the legal implications of what he is holding. The emotional landscape of family law 
             service demands more than legal competence — it demands discretion, sensitivity, and the ability to 
             maintain professional composure in situations where tempers flare and hearts break. We have written 
-            separately about <Link href="/blog/process-servers-handle-emotionally-charged-situations-oklahoma" className="text-blue-600 hover:underline">handling emotionally charged situations</Link> as 
+            separately about handling emotionally charged situations as 
             a process server, and the skills described there are especially critical in family law work.
           </p>
           <p>
@@ -250,7 +250,7 @@ export default function BlogPost() {
             the deadline shifts. Build in buffer time. Attempt service as early as possible. And document 
             everything. The affidavit you prepare may be the evidence that saves the adoption from a due 
             process challenge. For a deeper dive into termination of parental rights service requirements, 
-            see our related article on <Link href="/blog/adoptions-termination-parental-rights-service-requirements-oklahoma" className="text-blue-600 hover:underline">adoption and termination of parental rights service requirements</Link>.
+            see our related article on adoption and termination of parental rights service requirements.
           </p>
 
           {/* Primary CTA */}
@@ -337,7 +337,7 @@ export default function BlogPost() {
             method to challenge on appeal. When you personally hand a paternity summons to the respondent, 
             you eliminate the &quot;I never got it&quot; defense. Your affidavit of service, supported by GPS 
             documentation and electronic proof of service, creates a record that withstands scrutiny. At Just 
-            Legal Solutions, we integrate <Link href="/learn/gps-electronic-proof-of-service" className="text-blue-600 hover:underline">GPS tracking and electronic proof of service</Link> into 
+            Legal Solutions, we integrate GPS tracking and electronic proof of service into 
             every attempt to give attorneys the documentation they need.
           </p>
           <p>
@@ -362,7 +362,7 @@ export default function BlogPost() {
             closely than standard civil courts. Document every attempt with date, time, location, and outcome. 
             Note whether anyone answered the door, what vehicle was in the driveway, whether lights were on 
             inside. These details matter when an affidavit of due diligence is challenged. For related 
-            reading, see our guide to <Link href="/blog/process-serving-child-support-enforcement-oklahoma" className="text-blue-600 hover:underline">child support enforcement process serving</Link>.
+            reading, see our guide to child support enforcement process serving.
           </p>
 
           {/* Secondary CTA */}
@@ -429,7 +429,7 @@ export default function BlogPost() {
             attorneys need when they are asking a court to approve service by publication. If you are an 
             attorney handling interstate custody matters, you need a process server who understands UCCJEA 
             requirements and can navigate the cross-border complexity. For more on this topic, see our article 
-            on <Link href="/blog/enforcing-out-of-state-custody-orders-service-process-oklahoma" className="text-blue-600 hover:underline">enforcing out-of-state custody orders</Link>.
+            on enforcing out-of-state custody orders.
           </p>
           </article>
           
@@ -526,7 +526,7 @@ export default function BlogPost() {
             </Link>{' '}
             for professional, licensed support across all 77 Oklahoma counties. Call or text{' '}
             <a href="tel:5393676832" className="text-blue-600 hover:underline">(539) 367-6832</a>.
-            Visit our <Link href="/pricing" className="text-blue-600 hover:underline">pricing page</Link> for 
+            Visit our pricing page for 
             current service rates.
           </p>
           </article>

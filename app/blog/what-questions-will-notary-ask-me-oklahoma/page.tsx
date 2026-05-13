@@ -88,7 +88,7 @@ export default function BlogPost() {
             Under <strong>49 O.S. § 118</strong> and related Oklahoma notary statutes, notaries must follow strict procedures for every notarial act. Failure to perform these duties can result in the notarization being challenged, the notary facing liability, and potentially the underlying document being rejected by a court, title company, or government agency. The questions a notary asks are not personal or optional — they are mandated by law and professional standards.
           </p>
           <p className="mb-4">
-            At <Link href="/" className="text-blue-600">Just Legal Solutions</Link>, our licensed Oklahoma notaries perform thousands of notarizations annually across all 77 counties. Whether we are meeting you at your home in Tulsa, your office in Oklahoma City, or a hospital room in Lawton, we follow the same rigorous protocol every time. Here is exactly what you can expect.
+            At Just Legal Solutions, our licensed Oklahoma notaries perform thousands of notarizations annually across all 77 counties. Whether we are meeting you at your home in Tulsa, your office in Oklahoma City, or a hospital room in Lawton, we follow the same rigorous protocol every time. Here is exactly what you can expect.
           </p>
         </section>
 
@@ -236,7 +236,7 @@ export default function BlogPost() {
             <li><strong>Be prepared to sign the notary journal</strong></li>
           </ul>
           <p className="mb-4">
-            At <Link href="/notary-services" className="text-blue-600">Just Legal Solutions</Link>, our mobile notaries make the process even easier by coming to your location. We will walk you through every step, answer any questions you have about the process, and ensure your notarization is performed correctly under Oklahoma law.
+            At Just Legal Solutions, our mobile notaries make the process even easier by coming to your location. We will walk you through every step, answer any questions you have about the process, and ensure your notarization is performed correctly under Oklahoma law.
           </p>
         </section>
 

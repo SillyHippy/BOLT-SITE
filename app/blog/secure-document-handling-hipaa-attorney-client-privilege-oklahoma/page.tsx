@@ -77,7 +77,7 @@ const faqs: { question: string; answer: string }[] = [
   },
   {
     question: 'How should HIPAA and attorney-client privilege concerns be handled when serving process in a hospital or medical facility in Oklahoma?',
-    answer: 'Process servers must balance the constitutional requirement of due process with patient privacy protections under HIPAA. Best practices include: coordinating service through hospital administration or security rather than approaching patients directly in treatment areas; never entering examination rooms, operating areas, or intensive care units; respecting all federal privacy laws and hospital policies; requesting that hospital staff verify whether patient visitation is appropriate before attempting service; and rescheduling service if the defendant is under sedation, in surgery, or in a critical care situation. Process servers should never attempt to access or read medical records during service attempts. For attorneys, choosing a <Link href="/services/process-serving" className="text-blue-600 hover:underline">process serving team</Link> that understands these boundaries is essential for protecting both your case timeline and patient privacy rights.',
+    answer: 'Process servers must balance the constitutional requirement of due process with patient privacy protections under HIPAA. Best practices include: coordinating service through hospital administration or security rather than approaching patients directly in treatment areas; never entering examination rooms, operating areas, or intensive care units; respecting all federal privacy laws and hospital policies; requesting that hospital staff verify whether patient visitation is appropriate before attempting service; and rescheduling service if the defendant is under sedation, in surgery, or in a critical care situation. Process servers should never attempt to access or read medical records during service attempts. For attorneys, choosing a process serving team that understands these boundaries is essential for protecting both your case timeline and patient privacy rights.',
   },
   {
     question: 'What should I look for when choosing a secure legal document courier in Oklahoma?',
@@ -165,7 +165,7 @@ export default function BlogPost() {
             Oklahoma-specific developments have made this even more urgent. The state's updated Security Breach Notification Act, effective January 1, 2026, expanded the definition of "personal information" to include biometric data and unique electronic identifiers. That fingerprint card from your criminal defense client, the driver license scan from your personal injury plaintiff, the medical imaging files with embedded patient identifiers — all of this now falls under Oklahoma's strengthened breach notification requirements. The statute now defines "reasonable safeguards" and ties security protocols directly to liability, meaning courts will examine whether your firm and your courier took adequate protective measures.
           </p>
           <p>
-            So the question this article answers is practical and pressing: How can Oklahoma law firms and their courier partners build a "dual shield" that protects both HIPAA-covered health information AND attorney-client privileged materials simultaneously? The answer requires understanding both federal health privacy law and Oklahoma's unique privilege protections, then implementing courier protocols that satisfy both at every touchpoint. If your firm relies on <Link href="/services/courier" className="text-blue-600 hover:underline">professional courier services</Link> for sensitive legal documents, the protocols you demand from that courier matter more than ever.
+            So the question this article answers is practical and pressing: How can Oklahoma law firms and their courier partners build a "dual shield" that protects both HIPAA-covered health information AND attorney-client privileged materials simultaneously? The answer requires understanding both federal health privacy law and Oklahoma's unique privilege protections, then implementing courier protocols that satisfy both at every touchpoint. If your firm relies on professional courier services for sensitive legal documents, the protocols you demand from that courier matter more than ever.
           </p>
 
           <h2>Are Law Firms and Couriers "Covered Entities" Under HIPAA? It Depends.</h2>
@@ -197,7 +197,7 @@ export default function BlogPost() {
             The practical reality is this: when in doubt, the safest approach is using a courier that will sign a BAA and follows documented secure handling protocols. Even if the courier technically qualifies as a mere conduit, a willingness to sign a BAA demonstrates professionalism and provides your firm with additional contractual protection. For firms handling medical-legal documents across Oklahoma's 77 counties, from the Oklahoma County Courthouse to rural district courts in Cimarron and Pushmataha counties, having a courier relationship built on documented compliance gives you confidence that every delivery meets both federal and state standards.
           </p>
           <p>
-            If your firm also needs <Link href="/services/process-serving" className="text-blue-600 hover:underline">process serving for legal documents</Link>, the same HIPAA and privilege considerations apply when serving defendants in hospitals, clinics, or other healthcare settings.
+            If your firm also needs process serving for legal documents, the same HIPAA and privilege considerations apply when serving defendants in hospitals, clinics, or other healthcare settings.
           </p>
 
           <h2>The 12 O.S. § 2502(E) Safe Harbor — How Oklahoma Protects Your Privilege During Document Transport</h2>
@@ -232,7 +232,7 @@ export default function BlogPost() {
             <strong>Personnel protocols</strong> provide the human layer of protection. Confidentiality agreements signed by all courier personnel create contractual obligations. Background-checked drivers with training on legal document handling ensure trustworthy personnel. Incident response plans for lost or compromised documents provide a protocol when things go wrong. These measures, taken together, create a documented security posture that Oklahoma courts would recognize as "reasonable steps" under § 2502(E).
           </p>
           <p>
-            For Oklahoma law firms seeking <Link href="/services" className="text-blue-600 hover:underline">comprehensive legal support services</Link>, working with a courier who understands these dual requirements is not a luxury — it is a professional necessity.
+            For Oklahoma law firms seeking comprehensive legal support services, working with a courier who understands these dual requirements is not a luxury — it is a professional necessity.
           </p>
 
           <h2>Oklahoma's Updated Security Breach Notification Act — New Compliance Rules for 2026</h2>
@@ -264,7 +264,7 @@ export default function BlogPost() {
             Oklahoma RPC 1.6 requires lawyers to "make reasonable efforts to prevent the inadvertent or unauthorized disclosure of, or unauthorized access to, information relating to the representation of a client." The Comments to RPC 1.6 specify that lawyers must consider the sensitivity of the information, the likelihood of disclosure if additional safeguards are not employed, and the cost and difficulty of implementing safeguards. When transporting documents containing both PHI and privileged communications, the sensitivity is at the highest level — and the cost of adequate safeguards is far less than the cost of a breach.
           </p>
           <p>
-            Oklahoma law firms should also document their own due diligence in selecting and supervising couriers. Courts examining a breach will consider whether the firm took reasonable steps in choosing its vendors. Working with a courier who has a documented security program, trained personnel, and Oklahoma-specific knowledge demonstrates that due diligence. You can learn more about <Link href="/about" className="text-blue-600 hover:underline">Just Legal Solutions' experience with Oklahoma-specific requirements</Link> across all 77 counties.
+            Oklahoma law firms should also document their own due diligence in selecting and supervising couriers. Courts examining a breach will consider whether the firm took reasonable steps in choosing its vendors. Working with a courier who has a documented security program, trained personnel, and Oklahoma-specific knowledge demonstrates that due diligence. You can learn more about Just Legal Solutions' experience with Oklahoma-specific requirements across all 77 counties.
           </p>
 
           {/* Mid-Article CTA Banner */}
@@ -315,7 +315,7 @@ export default function BlogPost() {
             Digital logging creates an audit trail that proves reasonable care was taken — evidence that becomes critical if work product protection is ever challenged. Using a courier service experienced with litigation documents ensures they understand the heightened sensitivity and can implement protocols that preserve all three layers of protection: HIPAA compliance, attorney-client privilege, and work product doctrine.
           </p>
           <p>
-            For secure <Link href="/services/courier" className="text-blue-600 hover:underline">legal document courier services</Link> that understand these layered protections, Oklahoma law firms need partners who go beyond simple transport.
+            For secure legal document courier services that understand these layered protections, Oklahoma law firms need partners who go beyond simple transport.
           </p>
 
           <h2>The "Dual Shield" Protocol — Best Practices for Couriers Handling Medical-Legal Documents</h2>
@@ -343,7 +343,7 @@ export default function BlogPost() {
             The documentation layer is what transforms good practices into legally defensible practices. Digital timestamp logging at pickup, in-transit checkpoints, and delivery creates a complete timeline. Signature capture with recipient identity verification proves who received the documents. GPS tracking records document the route taken. Incident reports for any anomaly — even minor delays or routing changes — create a record of transparency. Annual security protocol audits ensure that standards remain current as regulations evolve.
           </p>
           <p>
-            This documentation becomes the proof of "reasonable steps" if privilege, HIPAA compliance, or work product protection is ever questioned. When an Oklahoma court asks whether your firm took reasonable steps under 12 O.S. § 2502(E), or when a HIPAA auditor asks about your safeguards, or when opposing counsel challenges your work product protection, the documentation your courier provides can be the evidence that preserves your position. For Oklahoma law firms that need this level of protection, visit our <Link href="/services/courier" className="text-blue-600 hover:underline">courier services page</Link> to learn more about dual-shield document delivery. You can also visit our <Link href="/pricing" className="text-blue-600 hover:underline">pricing page</Link> for current service rates.
+            This documentation becomes the proof of "reasonable steps" if privilege, HIPAA compliance, or work product protection is ever questioned. When an Oklahoma court asks whether your firm took reasonable steps under 12 O.S. § 2502(E), or when a HIPAA auditor asks about your safeguards, or when opposing counsel challenges your work product protection, the documentation your courier provides can be the evidence that preserves your position. For Oklahoma law firms that need this level of protection, visit our courier services page to learn more about dual-shield document delivery. You can also visit our pricing page for current service rates.
           </p>
           </article>
           

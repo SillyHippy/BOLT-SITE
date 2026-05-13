@@ -174,7 +174,7 @@ export default function BlogPost() {
             There are good reasons why the POA slides down the priority list. Base JAG offices have limited walk-in hours — many offer only a few hours per day, weekdays only — which creates bottcks during deployment cycles. Service members often find themselves scrambling between training schedules, family farewells, and the overwhelming emotional weight of an upcoming separation. Paperwork feels like one more box to check rather than the foundation of your family's financial and legal protection.
           </p>
           <p>
-            That is where mobile notary services can make a real difference. At <Link href="/notary-services" className="text-blue-600 hover:underline">Just Legal Solutions</Link>, we understand that military schedules do not fit neatly into 9-to-5 windows. We come to you — whether that is base housing near Tinker AFB, a coffee shop in Lawton before you head to Fort Sill, or your family's home in Enid before you ship out from Vance. We work around your timeline because we know deployment waits for no one.
+            That is where mobile notary services can make a real difference. At Just Legal Solutions, we understand that military schedules do not fit neatly into 9-to-5 windows. We come to you — whether that is base housing near Tinker AFB, a coffee shop in Lawton before you head to Fort Sill, or your family's home in Enid before you ship out from Vance. We work around your timeline because we know deployment waits for no one.
           </p>
 
           <h2>Types of Power of Attorney Every Deploying Service Member Needs</h2>
@@ -211,7 +211,7 @@ export default function BlogPost() {
             If your children will be staying with grandparents, an aunt and uncle, or another trusted caregiver during deployment, a Power of Attorney for Care of a Minor Child is absolutely essential. Schools require it to enroll a child. Doctors require it to provide non-emergency medical care. Daycares, sports leagues, and even summer camps may ask to see it. Without this document, a well-meaning caregiver can find themselves unable to make basic decisions about your child's welfare.
           </p>
           <p>
-            Oklahoma's Uniform Power of Attorney Act specifically includes provisions for delegating authority related to minors. The document should include consent for medical treatment, authorization to make educational decisions, and permission for the caregiver to act in loco parentis. Many JAG offices have standard forms for this, and a <Link href="/notary-services" className="text-blue-600 hover:underline">private Oklahoma notary</Link> can notarize it just as effectively.
+            Oklahoma's Uniform Power of Attorney Act specifically includes provisions for delegating authority related to minors. The document should include consent for medical treatment, authorization to make educational decisions, and permission for the caregiver to act in loco parentis. Many JAG offices have standard forms for this, and a private Oklahoma notary can notarize it just as effectively.
           </p>
 
           <h3>Which POA Does Your Family Actually Need?</h3>
@@ -262,7 +262,7 @@ export default function BlogPost() {
             <strong>Convenience of mobile notary services.</strong> When you are juggling kids, packing, and goodbyes, the last thing you need is another errand. A mobile notary who comes to your base housing or a nearby meeting spot saves precious hours.
           </p>
           <p>
-            We want to be crystal clear: JAG offices are not our competition. They are the primary resource for military legal document preparation, and we encourage every service member to start there. But when timing, logistics, or specific needs make JAG access difficult, Just Legal Solutions is here to fill the gap. Our <Link href="/notary-services" className="text-blue-600 hover:underline">mobile notary services</Link> come to military families across all of Oklahoma's 77 counties, and we work around your schedule — not the other way around. Visit our <Link href="/pricing" className="text-blue-600 hover:underline">pricing page</Link> for current rates.
+            We want to be crystal clear: JAG offices are not our competition. They are the primary resource for military legal document preparation, and we encourage every service member to start there. But when timing, logistics, or specific needs make JAG access difficult, Just Legal Solutions is here to fill the gap. Our mobile notary services come to military families across all of Oklahoma's 77 counties, and we work around your schedule — not the other way around. Visit our pricing page for current rates.
           </p>
 
           <h3>How Military and State Notarizations Differ</h3>
@@ -346,7 +346,7 @@ export default function BlogPost() {
             The common thread through all SCRA protections is documentation. Your POA holder will need to present both the POA itself and a copy of your military orders to whoever they are dealing with — a landlord, a creditor, or a court. The POA should be original or a certified copy. The military orders should be the official orders showing the deployment or activation dates. And the POA should explicitly grant the authority to handle the type of matter at hand.
           </p>
           <p>
-            The bottom line is simple: a properly notarized POA is the key that unlocks every SCRA protection your family may need. Without it, your loved ones are knocking on a locked door. With it, they have the legal standing to act decisively on your behalf. If you need help getting your POA notarized before deployment, <Link href="/notary-services" className="text-blue-600 hover:underline">contact Just Legal Solutions</Link> — we understand the urgency and we work on your timeline.
+            The bottom line is simple: a properly notarized POA is the key that unlocks every SCRA protection your family may need. Without it, your loved ones are knocking on a locked door. With it, they have the legal standing to act decisively on your behalf. If you need help getting your POA notarized before deployment, contact Just Legal Solutions — we understand the urgency and we work on your timeline.
           </p>
           </article>
           

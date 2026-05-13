@@ -164,7 +164,7 @@ export default function BlogPost() {
             Let us put a dollar figure on it. At an average billing rate of $313 per hour, losing 12 hours weekly to non-billable work costs roughly <strong>$195,000 per attorney, per year</strong> in lost revenue. For a two-attorney firm, that is nearly $400,000 walking out the door annually — not because the lawyers are not skilled or hardworking, but because the systems around them are failing.
           </p>
           <p>
-            This is not about working harder. It is about building a back-office system that actually supports the attorneys doing the billable work. If you are ready to explore what that looks like for your firm, feel free to <Link href="/contact" className="text-blue-600 hover:underline">reach out to our team</Link> for a conversation about your specific needs.
+            This is not about working harder. It is about building a back-office system that actually supports the attorneys doing the billable work. If you are ready to explore what that looks like for your firm, feel free to reach out to our team for a conversation about your specific needs.
           </p>
 
           <h3>Why Traditional Staffing Models Fall Short</h3>
@@ -175,7 +175,7 @@ export default function BlogPost() {
             This creates what we call the "all-or-nothing" staffing trap: either you drown alone in administrative work, or you overcommit to payroll that strains your cash flow. Add in seasonal workload fluctuations — trial prep cycles, year-end closings, tax season spikes — and fixed staffing becomes even less efficient. A full-time employee still gets paid during slow weeks, and during busy weeks, they are often overwhelmed.
           </p>
           <p>
-            For a deeper comparison of staffing options, check out our guide on <Link href="/blog/virtual-assistant-vs-in-house-staff-pros-cons-roi-oklahoma" className="text-blue-600 hover:underline">virtual assistants versus in-house staff</Link>. The bottom line is this: traditional hiring models were designed for large firms with steady caseloads and overhead budgets. They were never built for the reality of a modern Oklahoma law practice.
+            For a deeper comparison of staffing options, check out our guide on virtual assistants versus in-house staff. The bottom line is this: traditional hiring models were designed for large firms with steady caseloads and overhead budgets. They were never built for the reality of a modern Oklahoma law practice.
           </p>
 
           <h2>What Law Firm Back-Office Support Actually Covers</h2>
@@ -211,13 +211,13 @@ export default function BlogPost() {
             Not all back-office support is the same. Understanding the three-tier model helps you match the right resource to the right task. Tier one is <strong>administrative support</strong> — this is what virtual legal assistants handle: scheduling, intake, billing, email management, and document formatting. These tasks require organizational skills and familiarity with legal workflows but not legal training.
           </p>
           <p>
-            Tier two is <strong>paralegal support</strong> — substantive legal work conducted under attorney supervision. This includes legal research, drafting pleadings and motions, discovery preparation, case analysis, and client interviews. The Supreme Court recognized in <em>Missouri v. Jenkins</em> (1989) that paralegals provide "cost-effective delivery of legal services." Paralegals typically have formal training and may hold certification. For more on paralegal delegation, see our article on <Link href="/blog/virtual-paralegal-services-delegated-tasks-oklahoma" className="text-blue-600 hover:underline">virtual paralegal services in Oklahoma</Link>.
+            Tier two is <strong>paralegal support</strong> — substantive legal work conducted under attorney supervision. This includes legal research, drafting pleadings and motions, discovery preparation, case analysis, and client interviews. The Supreme Court recognized in <em>Missouri v. Jenkins</em> (1989) that paralegals provide "cost-effective delivery of legal services." Paralegals typically have formal training and may hold certification. For more on paralegal delegation, see our article on virtual paralegal services in Oklahoma.
           </p>
           <p>
             Tier three is <strong>strategic support</strong> — practice management consulting, workflow design, technology integration, and growth planning. This tier becomes valuable when firms reach 5 or more attorneys and need someone thinking about the business of law, not just the practice of it.
           </p>
           <p>
-            Most small Oklahoma firms need tiers one and two. A virtual legal assistant ($15–$30/hour range) handles administrative work efficiently, while a paralegal ($35–$75+/hour) tackles substantive legal tasks. Together, they create a complete back-office team at a fraction of in-house staffing costs. For more on how virtual assistants can transform your firm's efficiency, read our overview of <Link href="/blog/virtual-assistant-transform-law-firm-efficiency-oklahoma" className="text-blue-600 hover:underline">virtual assistant services for Oklahoma law firms</Link>.
+            Most small Oklahoma firms need tiers one and two. A virtual legal assistant ($15–$30/hour range) handles administrative work efficiently, while a paralegal ($35–$75+/hour) tackles substantive legal tasks. Together, they create a complete back-office team at a fraction of in-house staffing costs. For more on how virtual assistants can transform your firm's efficiency, read our overview of virtual assistant services for Oklahoma law firms.
           </p>
 
           <h3>Back-Office vs. Front-Office: Drawing the Line</h3>
@@ -237,7 +237,7 @@ export default function BlogPost() {
 
           <h3>One Partner, One Workflow</h3>
           <p>
-            Just Legal Solutions already provides <Link href="/services" className="text-blue-600 hover:underline">process serving across all 77 Oklahoma counties</Link>, notary services, and legal courier delivery. Adding back-office VA support creates something no competitor can offer: a seamless continuum of services where your process server, your notary, your courier, and your administrative team all operate under one relationship.
+            Just Legal Solutions already provides process serving across all 77 Oklahoma counties, notary services, and legal courier delivery. Adding back-office VA support creates something no competitor can offer: a seamless continuum of services where your process server, your notary, your courier, and your administrative team all operate under one relationship.
           </p>
           <p>
             Here is what that looks like in practice. A divorce filing comes in. JLS serves the papers in Okmulgee County, notarizes the affidavit of service, couriers the originals to the courthouse, and updates your case management system — all coordinated as one workflow with a single point of contact. No calling four different vendors. No wondering whether the notary knows what the process server filed. No chasing down invoices from multiple providers.
@@ -254,7 +254,7 @@ export default function BlogPost() {
             Oklahoma's 77 counties present unique challenges that out-of-state providers simply do not understand. Rural counties like Osage, Cimarron, and Pushmataha have different court procedures, filing requirements, and logistical constraints than Tulsa or Oklahoma County. A national VA provider does not know the difference between filing in Payne County versus Pottawatomie County. They have never driven the back roads of western Oklahoma to serve papers on a ranch. They do not understand why a court deadline in a rural county might require different planning than one in downtown Oklahoma City.
           </p>
           <p>
-            JLS's existing statewide presence means back-office support is informed by actual field experience across all 77 counties. We know which courthouses close early on Fridays. We know which counties require specific formatting for filed documents. We know the practical realities of practicing law in rural Oklahoma because we have been serving attorneys there for years. For more on the unique challenges of rural practice, see our article on <Link href="/blog/process-serving-rural-oklahoma-challenges-solutions" className="text-blue-600 hover:underline">process serving in rural Oklahoma</Link>.
+            JLS's existing statewide presence means back-office support is informed by actual field experience across all 77 counties. We know which courthouses close early on Fridays. We know which counties require specific formatting for filed documents. We know the practical realities of practicing law in rural Oklahoma because we have been serving attorneys there for years. For more on the unique challenges of rural practice, see our article on process serving in rural Oklahoma.
           </p>
 
           <h2>Staying Compliant — Oklahoma Rules of Professional Conduct</h2>
@@ -289,7 +289,7 @@ export default function BlogPost() {
             Technical safeguards are essential: encrypted communications, secure file-sharing platforms, role-based access controls, and password-protected systems. But technology alone is not enough. All JLS support staff sign NDAs and operate under documented confidentiality protocols. We provide training on confidentiality obligations and conduct periodic compliance reviews to ensure standards are maintained.
           </p>
           <p>
-            The bottom line: if your support provider is not talking about confidentiality proactively, that is a red flag. At Just Legal Solutions, confidentiality is not an afterthought — it is built into every workflow, every system, and every relationship. For more on compliance considerations, see our comparison of <Link href="/blog/virtual-assistant-vs-in-house-staff-pros-cons-roi-oklahoma" className="text-blue-600 hover:underline">virtual assistants versus in-house staff</Link>.
+            The bottom line: if your support provider is not talking about confidentiality proactively, that is a red flag. At Just Legal Solutions, confidentiality is not an afterthought — it is built into every workflow, every system, and every relationship. For more on compliance considerations, see our comparison of virtual assistants versus in-house staff.
           </p>
 
           <h2>Building Your Back-Office Support System — A Practical Roadmap</h2>
@@ -313,7 +313,7 @@ export default function BlogPost() {
             Schedule daily 10-minute check-ins during the first two weeks. These quick touchpoints prevent small problems from becoming big ones and build trust on both sides. Most firms recover 5 to 10 hours in the first week just from offloading scheduling, email triage, and document formatting. That is 5 to 10 hours you can redirect to billable work.
           </p>
           <p>
-            For detailed guidance on bringing a VA into your practice, see our guide on <Link href="/blog/onboard-virtual-assistant-legal-practice-oklahoma" className="text-blue-600 hover:underline">onboarding a virtual assistant in an Oklahoma legal practice</Link>. If you are a solo practitioner, our article on <Link href="/blog/virtual-assistant-solo-practitioners-practice-without-staff-oklahoma" className="text-blue-600 hover:underline">virtual assistants for solo practitioners</Link> offers tailored advice.
+            For detailed guidance on bringing a VA into your practice, see our guide on onboarding a virtual assistant in an Oklahoma legal practice. If you are a solo practitioner, our article on virtual assistants for solo practitioners offers tailored advice.
           </p>
 
           <h3>Phase 3 — Scale (Month 2+)</h3>
@@ -324,7 +324,7 @@ export default function BlogPost() {
             Schedule monthly review meetings to assess what is working and what needs adjustment. Your needs will evolve as your practice grows, and your support system should evolve with them. The target? An overhead ratio of 20% or less, with 5 to 10 additional billable hours recovered per week. At a conservative $250 per hour, that is an additional $65,000 to $130,000 in annual billable capacity per attorney.
           </p>
           <p>
-            For solo practitioners ready to scale, our guide on <Link href="/blog/scale-solo-practice-virtual-support-oklahoma" className="text-blue-600 hover:underline">scaling a solo practice with virtual support</Link> offers a detailed growth roadmap. Ready to discuss your specific back-office needs? <Link href="/contact" className="text-blue-600 hover:underline">Contact Just Legal Solutions</Link> to explore a customized support plan for your practice.
+            For solo practitioners ready to scale, our guide on scaling a solo practice with virtual support offers a detailed growth roadmap. Ready to discuss your specific back-office needs? Contact Just Legal Solutions to explore a customized support plan for your practice.
           </p>
           </article>
           

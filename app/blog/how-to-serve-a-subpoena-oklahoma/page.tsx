@@ -176,7 +176,7 @@ export default function HowToServeSubpoenaOklahoma() {
           <article className="prose prose-lg prose-blue max-w-none bg-white p-8 md:p-12 rounded-2xl shadow-lg border border-gray-100">
 
             <p className="text-xl text-gray-700 leading-relaxed">
-              A subpoena is one of the most powerful tools in civil and criminal litigation — it compels a person to appear, testify, or produce documents regardless of their personal preference. But a subpoena is only as strong as its service. An improperly served subpoena is unenforceable, which means the testimony or evidence you need could be unavailable when you need it most. This guide explains exactly how to serve a subpoena in Oklahoma, from the moment it is issued to the day compliance is required. For a broader overview, see our <Link href="/ultimate-guide-process-serving-oklahoma" className="text-blue-600 hover:underline">Ultimate Guide to Process Serving in Oklahoma</Link>.
+              A subpoena is one of the most powerful tools in civil and criminal litigation — it compels a person to appear, testify, or produce documents regardless of their personal preference. But a subpoena is only as strong as its service. An improperly served subpoena is unenforceable, which means the testimony or evidence you need could be unavailable when you need it most. This guide explains exactly how to serve a subpoena in Oklahoma, from the moment it is issued to the day compliance is required. For a broader overview, see our Ultimate Guide to Process Serving in Oklahoma.
             </p>
 
             <div className="bg-blue-50 border-l-4 border-blue-600 p-6 my-8 rounded-r-lg not-prose">
@@ -208,7 +208,7 @@ export default function HowToServeSubpoenaOklahoma() {
               A <em>subpoena duces tecum</em> commands the recipient to produce specific documents, records, electronically stored information (ESI), or other tangible items. This type of subpoena is frequently used to obtain medical records, financial statements, business records, phone records, or other documentary evidence in civil litigation.
             </p>
             <p>
-              A subpoena duces tecum may be directed to a party in the lawsuit or to a third party, such as a bank, hospital, or employer. Third-party subpoenas are common in litigation and require the same procedural care as witness subpoenas. For complex document production matters, Just Legal Solutions offers dedicated <Link href="/subpoena-service" className="text-blue-600 hover:underline">subpoena service</Link> throughout Oklahoma.
+              A subpoena duces tecum may be directed to a party in the lawsuit or to a third party, such as a bank, hospital, or employer. Third-party subpoenas are common in litigation and require the same procedural care as witness subpoenas. For complex document production matters, Just Legal Solutions offers dedicated subpoena service throughout Oklahoma.
             </p>
             <p>
               Sometimes a subpoena will require both document production and personal appearance — this is known as a subpoena for production and attendance, and combines elements of both types. When serving a combined subpoena, both the witness fee (for the attendance component) and a reasonable compliance period for document production must be provided simultaneously.
@@ -283,7 +283,7 @@ export default function HowToServeSubpoenaOklahoma() {
               When calculating service timelines, work backward from the compliance date: identify the date by which service must be accomplished, then schedule the service attempt to allow a buffer for any first-attempt failures. Building in a buffer of at least 3 to 5 days beyond the minimum notice period is prudent practice and reduces the risk that a single unsuccessful service attempt creates a compliance crisis.
             </p>
             <p>
-              Emergency or last-minute subpoenas are possible in some circumstances, but they face greater risk of being quashed by the court on grounds that the recipient did not have adequate time to comply or obtain legal counsel to advise them on compliance. Plan your service timeline early and work with a professional process server who can execute quickly when needed. View our <Link href="/pricing" className="text-blue-600 hover:underline">pricing page</Link> for details, or compare <Link href="/rush-vs-standard-vs-same-day-service" className="text-blue-600 hover:underline">rush vs. standard vs. same-day service options</Link>.
+              Emergency or last-minute subpoenas are possible in some circumstances, but they face greater risk of being quashed by the court on grounds that the recipient did not have adequate time to comply or obtain legal counsel to advise them on compliance. Plan your service timeline early and work with a professional process server who can execute quickly when needed. View our pricing page for details, or compare rush vs. standard vs. same-day service options.
             </p>
             <p>
               For trial subpoenas, serving the witness at least one full week before the trial date is a reliable minimum. Courts with active dockets often have busy service windows in the days leading up to trial — do not rely on last-minute service for critical witnesses whose testimony is central to your case.
@@ -294,7 +294,7 @@ export default function HowToServeSubpoenaOklahoma() {
               An Oklahoma state court subpoena has geographic limitations. Under the Oklahoma Rules of Civil Procedure, a subpoena requiring personal attendance at a deposition or hearing generally may only compel attendance of a person within a certain distance from where they reside, are employed, or regularly transact business within Oklahoma. Specific mileage limits apply and may vary by proceeding type.
             </p>
             <p>
-              For parties and witnesses located in different Oklahoma counties, a subpoena may still be issued by the originating court but served by a process server in the county where the witness is located. Just Legal Solutions serves all Oklahoma counties and can coordinate statewide subpoena service. Review our <Link href="/service-areas" className="text-blue-600 hover:underline">service areas</Link> to confirm coverage in your county.
+              For parties and witnesses located in different Oklahoma counties, a subpoena may still be issued by the originating court but served by a process server in the county where the witness is located. Just Legal Solutions serves all Oklahoma counties and can coordinate statewide subpoena service. Review our service areas to confirm coverage in your county.
             </p>
             <p>
               Many Oklahoma practitioners overlook the geographic limitation rules when serving deposition subpoenas. Under the Oklahoma Rules of Civil Procedure, a subpoena requiring personal attendance at a deposition generally may not require a person to travel more than a reasonable distance from their residence, employment, or regular place of business. Witnesses near state borders or in distant portions of Oklahoma may have grounds for a motion to quash if the attendance requirement imposes unreasonable travel. Verify geographic compliance before serving — a quashed subpoena that must be reissued and re-served wastes time and increases litigation costs significantly.
@@ -364,10 +364,10 @@ export default function HowToServeSubpoenaOklahoma() {
               <li>Court costs and attorney fees imposed on the non-compliant party</li>
             </ul>
             <p>
-              Courts take subpoena compliance seriously because the entire system of civil and criminal justice depends on witnesses and evidence being available when needed. For information about how Oklahoma handles refusal to accept legal process, see our guide on <Link href="/what-happens-if-someone-refuses-service" className="text-blue-600 hover:underline">what happens if someone refuses service</Link>. If you have received a subpoena and have concerns about compliance, consult an <a href="https://www.okbar.org/" target="_blank" rel="noopener noreferrer">Oklahoma attorney</a> immediately — do not simply ignore it.
+              Courts take subpoena compliance seriously because the entire system of civil and criminal justice depends on witnesses and evidence being available when needed. For information about how Oklahoma handles refusal to accept legal process, see our guide on what happens if someone refuses service. If you have received a subpoena and have concerns about compliance, consult an <a href="https://www.okbar.org/" target="_blank" rel="noopener noreferrer">Oklahoma attorney</a> immediately — do not simply ignore it.
             </p>
             <p>
-              For professional, documented subpoena service across Oklahoma, contact <Link href="/subpoena-service" className="text-blue-600 hover:underline">Just Legal Solutions&apos; subpoena service team</Link> or visit our <Link href="/process-serving" className="text-blue-600 hover:underline">process serving page</Link> to learn more about our capabilities.
+              For professional, documented subpoena service across Oklahoma, contact Just Legal Solutions&apos; subpoena service team or visit our process serving page to learn more about our capabilities.
             </p>
 
             <h2>Types of Subpoenas in Oklahoma: A Detailed Overview</h2>
@@ -449,7 +449,7 @@ export default function HowToServeSubpoenaOklahoma() {
               <li>For unregistered entities or sole proprietors operating under a trade name, serve the individual owner directly</li>
             </ul>
             <p>
-              Just Legal Solutions is experienced in business entity service throughout Oklahoma, including serving corporate officers, registered agents, and operating businesses at their principal places of business. Visit our <Link href="/process-serving" className="text-blue-600 hover:underline">process serving page</Link> for more information.
+              Just Legal Solutions is experienced in business entity service throughout Oklahoma, including serving corporate officers, registered agents, and operating businesses at their principal places of business. Visit our process serving page for more information.
             </p>
 
             <h2>Out-of-State Subpoena Service Under the UIDDA</h2>
@@ -463,7 +463,7 @@ export default function HowToServeSubpoenaOklahoma() {
               <strong>Receiving an out-of-state subpoena in Oklahoma:</strong> When an attorney from another state needs to subpoena a witness in Oklahoma, they follow the same UIDDA process in reverse — submitting their foreign subpoena to an Oklahoma district court clerk, who issues a conforming Oklahoma subpoena. A licensed Oklahoma process server like Just Legal Solutions can then handle service and provide compliant affidavit documentation.
             </p>
             <p>
-              Interstate subpoena matters are complex and almost always benefit from coordination with attorneys in both jurisdictions. For process serving support in multi-state matters, contact <Link href="/process-serving" className="text-blue-600 hover:underline">Just Legal Solutions</Link>.
+              Interstate subpoena matters are complex and almost always benefit from coordination with attorneys in both jurisdictions. For process serving support in multi-state matters, contact Just Legal Solutions.
             </p>
 
             <h2>Why Professional Subpoena Service Documentation Matters</h2>
@@ -480,7 +480,7 @@ export default function HowToServeSubpoenaOklahoma() {
               <li><strong>Server qualification documentation:</strong> Evidence that the server is licensed under 12 O.S. § 158.1, establishing that service was performed by an authorized individual</li>
             </ul>
             <p>
-              This comprehensive documentation approach makes it far harder for subpoena recipients to succeed on motions to quash based on alleged procedural defects. Courts that review well-documented service affidavits are much more likely to uphold compliance requirements and enforce the subpoena. Our <Link href="/courthouse-filing-services" className="text-blue-600 hover:underline">courthouse filing services</Link> can handle filing your proof of service with the court after service is accomplished. For the full legal framework governing process servers in Oklahoma, see our <Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma Process Server Laws guide</Link>.
+              This comprehensive documentation approach makes it far harder for subpoena recipients to succeed on motions to quash based on alleged procedural defects. Courts that review well-documented service affidavits are much more likely to uphold compliance requirements and enforce the subpoena. Our courthouse filing services can handle filing your proof of service with the court after service is accomplished. For the full legal framework governing process servers in Oklahoma, see our Oklahoma Process Server Laws guide.
             </p>
 
             <h2>Electronically Stored Information (ESI) Subpoenas in Oklahoma</h2>
@@ -515,7 +515,7 @@ export default function HowToServeSubpoenaOklahoma() {
               <li><strong>Service address verification:</strong> Always serve the subpoena at the healthcare provider&apos;s current principal place of business or on their registered agent — not at a physician&apos;s private practice address if records are held at a hospital system.</li>
             </ul>
             <p>
-              Just Legal Solutions is experienced in serving subpoenas on medical providers, hospital systems, and other healthcare entities throughout Oklahoma. We also provide specialized <Link href="/process-serving-for-insurance-companies" className="text-blue-600 hover:underline">process serving for insurance companies</Link> handling medical records requests and insurance-related litigation. Our process servers identify the correct authorized recipient and provide properly documented affidavits that satisfy court requirements. For more information on our subpoena service capabilities, visit our <Link href="/subpoena-service" className="text-blue-600 hover:underline">subpoena service page</Link>.
+              Just Legal Solutions is experienced in serving subpoenas on medical providers, hospital systems, and other healthcare entities throughout Oklahoma. We also provide specialized process serving for insurance companies handling medical records requests and insurance-related litigation. Our process servers identify the correct authorized recipient and provide properly documented affidavits that satisfy court requirements. For more information on our subpoena service capabilities, visit our subpoena service page.
             </p>
 
             <div className="bg-red-50 border-l-4 border-red-500 p-6 my-8 rounded-r-lg not-prose">
@@ -546,7 +546,7 @@ export default function HowToServeSubpoenaOklahoma() {
               <li>You need a single provider to coordinate service of multiple subpoenas across different Oklahoma counties in the same case</li>
             </ul>
             <p>
-              Just Legal Solutions handles subpoena service across all Oklahoma counties for attorneys, law firms, and self-represented parties. Our servers understand the specific documentation requirements for subpoena service and provide court-ready affidavits for every successful service. Visit our <Link href="/subpoena-service" className="text-blue-600 hover:underline">subpoena service page</Link> or our <Link href="/pricing" className="text-blue-600 hover:underline">pricing page</Link> for more information.
+              Just Legal Solutions handles subpoena service across all Oklahoma counties for attorneys, law firms, and self-represented parties. Our servers understand the specific documentation requirements for subpoena service and provide court-ready affidavits for every successful service. Visit our subpoena service page or our pricing page for more information.
             </p>
 
             <h2>Coordinating Subpoena Service With Deposition Scheduling</h2>
@@ -563,7 +563,7 @@ export default function HowToServeSubpoenaOklahoma() {
               <li><strong>Communicate with the court reporter:</strong> Deposition cancellations due to service failures are expensive. Keeping the court reporter informed of service status allows for timely cancellation or rescheduling if necessary.</li>
             </ul>
             <p>
-              Just Legal Solutions offers priority service options for time-sensitive deposition subpoenas, including same-day attempts in most Tulsa area and statewide locations. Our team coordinates directly with counsel to confirm service timelines and can provide real-time status updates on service attempts. Contact us through our <Link href="/process-serving" className="text-blue-600 hover:underline">process serving page</Link> to discuss your service timeline needs.
+              Just Legal Solutions offers priority service options for time-sensitive deposition subpoenas, including same-day attempts in most Tulsa area and statewide locations. Our team coordinates directly with counsel to confirm service timelines and can provide real-time status updates on service attempts. Contact us through our process serving page to discuss your service timeline needs.
             </p>
             <p>
               When multiple witnesses must be served across different counties or cities in connection with a single deposition series, Just Legal Solutions can coordinate all service attempts centrally, providing a single point of contact and consolidated documentation for all served witnesses. This coordination reduces the administrative burden on counsel and ensures consistent documentation standards across every service in the case.

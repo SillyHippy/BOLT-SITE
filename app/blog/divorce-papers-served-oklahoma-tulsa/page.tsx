@@ -125,7 +125,7 @@ export default function BlogPost() {
             Under Oklahoma Title 12 O.S. § 158.1, process servers must be licensed and bonded to serve legal documents. This requirement exists to protect the integrity of the legal process and to ensure that service is conducted professionally and lawfully. At Just Legal Solutions, we are licensed and bonded under this statute, and we have served thousands of family law documents across Oklahoma. We provide GPS-verified proof of service, ensuring that every service attempt is documented with precision.
           </p>
           <p className="mb-4">
-            Personal service is typically accomplished at the respondent's home, workplace, or another location where they can be found. Our experienced process servers use professional techniques to locate respondents and complete service efficiently while maintaining discretion — an important consideration in sensitive family law matters. <Link href="/process-serving" className="text-blue-600 hover:underline">Learn more about our professional process serving services</Link>.
+            Personal service is typically accomplished at the respondent's home, workplace, or another location where they can be found. Our experienced process servers use professional techniques to locate respondents and complete service efficiently while maintaining discretion — an important consideration in sensitive family law matters. Learn more about our professional process serving services.
           </p>
         </section>
 
@@ -223,7 +223,7 @@ export default function BlogPost() {
             Standard service typically covers one to three attempts at a single known address. If the respondent has moved or is evading service, additional attempts or skip tracing may be necessary, which can increase costs. Rush and same-day service options are available for situations where time is critical — for example, when the 20-day response window is about to expire or when temporary orders are urgently needed.
           </p>
           <p className="mb-4">
-            At Just Legal Solutions, we believe in transparent pricing with no hidden fees. We offer our standard rate for routine service, our rush rate for expedited matters, and our same-day rate for emergency situations. <Link href="/pricing" className="text-blue-600 hover:underline">Visit our pricing page</Link> for detailed information about our rates. Remember: investing in professional service from the start can save you money by preventing delays, failed service attempts, and court complications down the road.
+            At Just Legal Solutions, we believe in transparent pricing with no hidden fees. We offer our standard rate for routine service, our rush rate for expedited matters, and our same-day rate for emergency situations. Visit our pricing page for detailed information about our rates. Remember: investing in professional service from the start can save you money by preventing delays, failed service attempts, and court complications down the road.
           </p>
         </section>
 
@@ -237,7 +237,7 @@ export default function BlogPost() {
             A professional process server brings neutrality to an emotionally charged situation. Rather than a friend, family member, or — worse — yourself attempting service, a licensed server provides an objective third party who handles the interaction professionally and courteously. This neutrality protects both parties and ensures that service is conducted in a manner that the court will recognize as valid.
           </p>
           <p className="mb-4">
-            At Just Legal Solutions, we approach every divorce service with professionalism, discretion, and compassion. We understand that this is a difficult time, and we work to complete service as smoothly and efficiently as possible. Our team provides real-time updates, GPS-verified proof of service, and detailed documentation that gives you confidence your case can proceed without service-related complications. We also offer <Link href="/notary" className="text-blue-600 hover:underline">mobile notary services</Link> for any divorce documents requiring notarization, saving you an additional trip.
+            At Just Legal Solutions, we approach every divorce service with professionalism, discretion, and compassion. We understand that this is a difficult time, and we work to complete service as smoothly and efficiently as possible. Our team provides real-time updates, GPS-verified proof of service, and detailed documentation that gives you confidence your case can proceed without service-related complications. We also offer mobile notary services for any divorce documents requiring notarization, saving you an additional trip.
           </p>
         </section>
 
@@ -280,10 +280,10 @@ export default function BlogPost() {
             Serving divorce papers is a critical step that can affect the entire outcome of your case. With over 50 years of combined experience and thousands of successful services across all 77 Oklahoma counties, Just Legal Solutions provides the professional, discreet, and reliable process serving you need during this difficult time. We are licensed and bonded under Oklahoma Title 12 O.S. § 158.1, and we offer GPS-verified proof of service, same-day and rush options, and transparent pricing.
           </p>
           <p className="mb-4">
-            For current pricing on all our services, <Link href="/pricing" className="text-blue-600 font-semibold">view our pricing page</Link>.
+            For current pricing on all our services, view our pricing page.
           </p>
           <p className="font-semibold">
-            Call <a href="tel:539-367-6832" className="text-blue-600">(539) 367-6832</a> or <Link href="/" className="text-blue-600">request service online</Link>. We serve all 77 Oklahoma counties — from Tulsa to Oklahoma City and everywhere in between.
+            Call <a href="tel:539-367-6832" className="text-blue-600">(539) 367-6832</a> or request service online. We serve all 77 Oklahoma counties — from Tulsa to Oklahoma City and everywhere in between.
           </p>
         </section>
       </main>

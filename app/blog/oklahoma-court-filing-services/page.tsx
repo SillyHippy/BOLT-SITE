@@ -52,11 +52,11 @@ const faqs = [
   },
   {
     question: 'How does court filing integrate with process serving?',
-    answer: 'Court filing and process serving are two critical steps in litigation that must work together seamlessly. Once a petition is filed and case number assigned, summons documents must be prepared and served to all defendants. Our <Link href="/process-serving" className="text-blue-600 hover:underline">process serving services</Link> coordinate directly with filing completion to ensure there are no gaps between filing and service. This integration prevents timeline disruptions and keeps your case moving forward efficiently.',
+    answer: 'Court filing and process serving are two critical steps in litigation that must work together seamlessly. Once a petition is filed and case number assigned, summons documents must be prepared and served to all defendants. Our process serving services coordinate directly with filing completion to ensure there are no gaps between filing and service. This integration prevents timeline disruptions and keeps your case moving forward efficiently.',
   },
   {
     question: 'How quickly can court filings be completed in Oklahoma?',
-    answer: 'Standard court filings are typically completed within one to two business days from document receipt. Rush filing services can be completed same-day when documents are received before the court\'s cutoff time. Same-day filings require early morning submission and may incur premium service rates. For current pricing on standard, rush, and same-day filing services, please <Link href="/pricing" className="text-blue-600 hover:underline">view our pricing page</Link>.',
+    answer: 'Standard court filings are typically completed within one to two business days from document receipt. Rush filing services can be completed same-day when documents are received before the court\'s cutoff time. Same-day filings require early morning submission and may incur premium service rates. For current pricing on standard, rush, and same-day filing services, please view our pricing page.',
   },
   {
     question: 'What documents can Just Legal Solutions file on behalf of attorneys?',
@@ -101,7 +101,7 @@ export default function BlogPost() {
           </p>
           <h3 className="text-xl font-semibold mb-3 mt-6">When Physical Filing Is Necessary</h3>
           <p className="mb-4">
-            Physical filing remains necessary for courts that have not yet adopted eFiling systems, for certain document types that require original signatures or notarization, when filing fees must be paid by check or cash, and for exhibits or oversized documents that do not upload properly through electronic portals. Some rural Oklahoma district courts still operate primarily with physical filing systems. Our statewide coverage through our <Link href="/service-areas" className="text-blue-600 hover:underline">service areas</Link> ensures we can handle physical filings in any courthouse across all 77 counties.
+            Physical filing remains necessary for courts that have not yet adopted eFiling systems, for certain document types that require original signatures or notarization, when filing fees must be paid by check or cash, and for exhibits or oversized documents that do not upload properly through electronic portals. Some rural Oklahoma district courts still operate primarily with physical filing systems. Our statewide coverage through our service areas ensures we can handle physical filings in any courthouse across all 77 counties.
           </p>
         </section>
 
@@ -131,7 +131,7 @@ export default function BlogPost() {
             Timing is everything in litigation. Statutes of limitations, response deadlines, and discovery cutoff dates create hard boundaries that cannot be missed. When planning your court filing timeline, consider the court&apos;s business hours, cutoff times for same-day processing, potential delays for complex filings requiring clerk review, and the time needed to obtain stamped copies or file-stamped versions of submitted documents. Rush filings and emergency motions require even more precise timing coordination.
           </p>
           <p className="mb-4">
-            We recommend building in at least a one-day buffer for standard filings and discussing rush timelines with your filing service for time-sensitive submissions. Our team at Just Legal Solutions provides clear turnaround commitments for standard, rush, and same-day filings. <Link href="/pricing" className="text-blue-600 hover:underline">View our pricing page</Link> to see our current rates for each service tier and choose the option that matches your timeline needs.
+            We recommend building in at least a one-day buffer for standard filings and discussing rush timelines with your filing service for time-sensitive submissions. Our team at Just Legal Solutions provides clear turnaround commitments for standard, rush, and same-day filings. View our pricing page to see our current rates for each service tier and choose the option that matches your timeline needs.
           </p>
         </section>
 
@@ -141,7 +141,7 @@ export default function BlogPost() {
             Court filing and process serving are two interconnected steps in the litigation process. Once a petition is filed and a case number is assigned, the summons and petition must be served on each defendant according to Oklahoma law. Delays in filing directly translate to delays in service, which can push back your entire case schedule. Conversely, efficient filing gets your case into the system quickly so service can proceed without delay.
           </p>
           <p className="mb-4">
-            At Just Legal Solutions, we offer integrated <Link href="/process-serving" className="text-blue-600 hover:underline">process serving services</Link> that work hand-in-hand with our court filing services. Once we complete your filing and obtain the necessary summons documents, our licensed process servers can immediately begin service attempts. This coordination eliminates the lag time that often occurs when filing and serving are handled by separate providers. With GPS-verified proof of service and real-time status updates, you always know exactly where your case stands.
+            At Just Legal Solutions, we offer integrated process serving services that work hand-in-hand with our court filing services. Once we complete your filing and obtain the necessary summons documents, our licensed process servers can immediately begin service attempts. This coordination eliminates the lag time that often occurs when filing and serving are handled by separate providers. With GPS-verified proof of service and real-time status updates, you always know exactly where your case stands.
           </p>
         </section>
 
@@ -151,7 +151,7 @@ export default function BlogPost() {
             The cost of professional court filing services depends on several factors including the court location, filing method (eFiling versus physical), urgency level (standard versus rush versus same-day), number of documents being filed, and whether additional services such as certified copy retrieval or service of process are needed. Filing in remote counties may involve travel time and mileage, while eFiling typically costs less because it eliminates the need for in-person delivery.
           </p>
           <p className="mb-4">
-            Rather than publishing outdated rate charts, we maintain transparent, current pricing on our website. <Link href="/pricing" className="text-blue-600 hover:underline">View our pricing page</Link> for the most up-to-date information on our court filing service rates. We offer our base rate for standard filings, our rush rate for expedited next-business-day service, and our same-day rate for filings that must be completed within hours. Volume discounts are available for firms with regular filing needs across multiple cases.
+            Rather than publishing outdated rate charts, we maintain transparent, current pricing on our website. View our pricing page for the most up-to-date information on our court filing service rates. We offer our base rate for standard filings, our rush rate for expedited next-business-day service, and our same-day rate for filings that must be completed within hours. Volume discounts are available for firms with regular filing needs across multiple cases.
           </p>
         </section>
 
@@ -181,7 +181,7 @@ export default function BlogPost() {
             Starting with Just Legal Solutions court filing services is simple. Contact our team by phone at (539) 367-6832 or request service through our website. We will discuss your filing needs, confirm the target court&apos;s requirements, and provide a clear timeline and quote. For firms with ongoing filing needs, we can set up streamlined workflows that make submitting new filings as easy as sending an email with your documents.
           </p>
           <p className="mb-4">
-            We recommend having your documents prepared according to Oklahoma court formatting rules, including proper caption format, page numbering, and signature blocks. If you are unsure about any formatting requirements, our team can review your documents and advise on any adjustments needed before filing. For current pricing information, <Link href="/pricing" className="text-blue-600 hover:underline">view our pricing page</Link> or call us to discuss your specific needs. We serve all 77 Oklahoma counties and look forward to helping your firm operate more efficiently.
+            We recommend having your documents prepared according to Oklahoma court formatting rules, including proper caption format, page numbering, and signature blocks. If you are unsure about any formatting requirements, our team can review your documents and advise on any adjustments needed before filing. For current pricing information, view our pricing page or call us to discuss your specific needs. We serve all 77 Oklahoma counties and look forward to helping your firm operate more efficiently.
           </p>
         </section>
 
@@ -224,10 +224,10 @@ export default function BlogPost() {
             Let Just Legal Solutions handle your court filings so you can focus on winning cases. With over 50 years of combined experience, licensed and bonded status under Oklahoma Title 12 O.S. 158.1, and coverage of all 77 Oklahoma counties, we are the trusted partner for law firms statewide.
           </p>
           <p className="mb-4">
-            For current pricing on all our services, <Link href="/pricing" className="text-blue-600 font-semibold">view our pricing page</Link>.
+            For current pricing on all our services, view our pricing page.
           </p>
           <p className="font-semibold">
-            Call <a href="tel:539-367-6832" className="text-blue-600">(539) 367-6832</a> or <Link href="/" className="text-blue-600">request service online</Link>. We serve all 77 Oklahoma counties.
+            Call <a href="tel:539-367-6832" className="text-blue-600">(539) 367-6832</a> or request service online. We serve all 77 Oklahoma counties.
           </p>
         </section>
       </main>

@@ -76,7 +76,7 @@ export default function BlogPost() {
 
         <h1 className="text-3xl md:text-4xl font-bold mb-6">Can a Notary Stamp Documents That Are Already Signed in Oklahoma?</h1>
         <p className="text-gray-600 mb-8 text-lg">
-          It happens more often than you might think. A person receives an important document, reads through it, fills in the blanks, signs their name — and only then realizes the signature needs to be notarized. Panic sets in. The document is already signed. Can the notary still help? The answer, under Oklahoma law, is <strong>usually no</strong> — with important nuances depending on the type of notarization needed. Understanding why notaries cannot simply stamp pre-signed documents, and knowing your options when this situation arises, can save you time, money, and significant frustration. In this guide, the mobile notary team at <Link href="/" className="text-blue-600">Just Legal Solutions</Link> explains Oklahoma's signature witnessing rules, the difference between acknowledgments and jurats, and exactly what to do if you have already signed your document.
+          It happens more often than you might think. A person receives an important document, reads through it, fills in the blanks, signs their name — and only then realizes the signature needs to be notarized. Panic sets in. The document is already signed. Can the notary still help? The answer, under Oklahoma law, is <strong>usually no</strong> — with important nuances depending on the type of notarization needed. Understanding why notaries cannot simply stamp pre-signed documents, and knowing your options when this situation arises, can save you time, money, and significant frustration. In this guide, the mobile notary team at Just Legal Solutions explains Oklahoma's signature witnessing rules, the difference between acknowledgments and jurats, and exactly what to do if you have already signed your document.
         </p>
         <p className="mb-6 text-gray-700">Just Legal Solutions combines 50+ years of practical field experience with licensed, bonded compliance under Oklahoma Title 12 O.S. 158.1. We have served thousands of documents in all 77 Oklahoma counties and anchor timelines and procedure details to 12 O.S. 2004 and Title 49 O.S.</p>
 
@@ -148,7 +148,7 @@ export default function BlogPost() {
 
           <h3 className="text-xl font-semibold mb-3 mt-6">Option 1: Re-Execute the Document (Best)</h3>
           <p className="mb-4">
-            The cleanest solution is to print a fresh copy of the document and sign it in the notary's presence. This creates a perfect paper trail with no questions about when or where the signature was made. For electronic documents, print a new copy. For paper documents, request another original from the preparer. Complete all blanks in the new copy. Sign only when the notary instructs you to. This approach is appropriate for virtually all document types and is the standard recommendation from <Link href="/notary-services" className="text-blue-600">Just Legal Solutions</Link>.
+            The cleanest solution is to print a fresh copy of the document and sign it in the notary's presence. This creates a perfect paper trail with no questions about when or where the signature was made. For electronic documents, print a new copy. For paper documents, request another original from the preparer. Complete all blanks in the new copy. Sign only when the notary instructs you to. This approach is appropriate for virtually all document types and is the standard recommendation from Just Legal Solutions.
           </p>
 
           <h3 className="text-xl font-semibold mb-3 mt-6">Option 2: In-Person Acknowledgment (Acceptable for Acknowledgments Only)</h3>
@@ -200,7 +200,7 @@ export default function BlogPost() {
             <li><strong>Educate family members</strong> — If an elderly parent or relative needs a notary, make sure they know not to sign in advance.</li>
           </ul>
           <p className="mb-4">
-            At <Link href="/notary-services" className="text-blue-600">Just Legal Solutions</Link>, our mobile notaries call every client before the appointment to confirm that documents are completed but unsigned. This simple step prevents the vast majority of pre-signature problems.
+            At Just Legal Solutions, our mobile notaries call every client before the appointment to confirm that documents are completed but unsigned. This simple step prevents the vast majority of pre-signature problems.
           </p>
         </section>
 

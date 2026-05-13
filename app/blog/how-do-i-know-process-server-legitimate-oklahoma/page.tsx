@@ -44,7 +44,7 @@ const faqs = [
   },
   {
     question: 'Does Oklahoma require process servers to be licensed?',
-    answer: "Yes. Under Oklahoma's Title 12 O.S. § 158.1, process servers who serve more than ten documents per year must be licensed by the Oklahoma Supreme Court Network or operate under specific court authorization. Licensed servers must meet several requirements: be at least 18 years old, have no felony convictions, complete any required training, and maintain a $5,000 surety bond. This licensing requirement exists to protect the public and ensure that <Link href="/process-serving" className="text-blue-600">process serving</Link> is conducted by qualified, accountable professionals."
+    answer: "Yes. Under Oklahoma's Title 12 O.S. § 158.1, process servers who serve more than ten documents per year must be licensed by the Oklahoma Supreme Court Network or operate under specific court authorization. Licensed servers must meet several requirements: be at least 18 years old, have no felony convictions, complete any required training, and maintain a $5,000 surety bond. This licensing requirement exists to protect the public and ensure that process serving is conducted by qualified, accountable professionals."
   },
   {
     question: 'What is a process server bond and why does it matter?',
@@ -56,7 +56,7 @@ const faqs = [
   },
   {
     question: 'Can a process server demand payment from the person being served?',
-    answer: 'Absolutely not. Legitimate process servers never demand or accept payment from the person receiving documents. The plaintiff or their attorney pays all process serving fees. Any "server" who demands money from you — whether claiming it's a "service fee," "processing charge," or penalty — is running a scam. This is one of the most common process server fraud tactics. If someone claims to be a process server and asks for money, refuse, document the interaction, and report it to local authorities immediately.',
+    answer: 'Absolutely not. Legitimate process servers never demand or accept payment from the person receiving documents. The plaintiff or their attorney pays all process serving fees. Any "server" who demands money from you — whether claiming it\'s a "service fee," "processing charge," or penalty — is running a scam. This is one of the most common process server fraud tactics. If someone claims to be a process server and asks for money, refuse, document the interaction, and report it to local authorities immediately.',
   },
   {
     question: 'What credentials should a legitimate process server show me?',
@@ -159,7 +159,7 @@ export default function BlogPost() {
 
           <h3 className="text-xl font-semibold mb-3 mt-6">Step 4: Research the Company</h3>
           <p className="mb-4">
-            Look up the process server's company online. A legitimate operation should have a professional website, business registration with the Oklahoma Secretary of State, positive reviews or testimonials, a physical business address (not just a PO box), and clear contact information. At Just Legal Solutions, our website at justlegalsolutions.org provides comprehensive information about our <Link href="/service-areas" className="text-blue-600">service areas</Link>, <Link href="/pricing" className="text-blue-600">pricing</Link>, and credentials.
+            Look up the process server's company online. A legitimate operation should have a professional website, business registration with the Oklahoma Secretary of State, positive reviews or testimonials, a physical business address (not just a PO box), and clear contact information. At Just Legal Solutions, our website at justlegalsolutions.org provides comprehensive information about our service areas, pricing, and credentials.
           </p>
 
           <h3 className="text-xl font-semibold mb-3 mt-6">Step 5: Check for Complaints</h3>

@@ -44,7 +44,7 @@ const faqs = [
   },
   {
     question: 'How long does process serving take in rural Oklahoma counties?',
-    answer: 'Rural service timelines vary significantly depending on the county, the respondent\ This guidance helps avoid delays, improves compliance, and supports stronger court-ready documentation in Oklahoma matters.'s location, and road conditions. While service in Tulsa or Oklahoma City might be completed within 24 to 72 hours, rural counties like Beaver, Harper, or Ellis can require additional time due to travel distance, unmarked roads, and limited local server availability. Rush and same-day options remain available statewide, though travel time must be factored into realistic expectations for the most remote areas.',
+    answer: 'Rural service timelines vary significantly depending on the county, the respondent\'s location, and road conditions. While service in Tulsa or Oklahoma City might be completed within 24 to 72 hours, rural counties like Beaver, Harper, or Ellis can require additional time due to travel distance, unmarked roads, and limited local server availability. Rush and same-day options remain available statewide, though travel time must be factored into realistic expectations for the most remote areas.',
   },
   {
     question: 'What counties in Oklahoma have the highest volume of process serving?',

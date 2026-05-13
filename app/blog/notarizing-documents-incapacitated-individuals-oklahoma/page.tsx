@@ -165,7 +165,7 @@ export default function BlogPost() {
             Here is what this means in practical terms: a diagnosis of dementia, Alzheimer's, or any other cognitive condition does <strong>not</strong> automatically disqualify someone from having a document notarized in Oklahoma. What matters is the signer's state of mind at the precise moment of the notarial act. If your mother with dementia is having a good day, understands that she is signing a power of attorney, and can explain in her own words what that means, the notary may legally proceed. If she is disoriented, cannot identify the document, or seems unaware of why she is signing, the notary must refuse — regardless of how much the family needs the document completed.
           </p>
           <p>
-            It is also important to remember that notaries are not medical professionals. We do not conduct clinical assessments, review medical records, or diagnose conditions. We use reasonable judgment to evaluate whether the signer demonstrates awareness and voluntary intent. That is our legal duty under Oklahoma's Uniform Law on Notarial Acts, and it protects both the signer and the integrity of the documents we notarize. Our <Link href="/notary-services" className="text-blue-600 hover:underline">mobile notaries are experienced in handling sensitive healthcare facility signings across Oklahoma</Link>, and we approach each situation with both professionalism and compassion.
+            It is also important to remember that notaries are not medical professionals. We do not conduct clinical assessments, review medical records, or diagnose conditions. We use reasonable judgment to evaluate whether the signer demonstrates awareness and voluntary intent. That is our legal duty under Oklahoma's Uniform Law on Notarial Acts, and it protects both the signer and the integrity of the documents we notarize. Our mobile notaries are experienced in handling sensitive healthcare facility signings across Oklahoma, and we approach each situation with both professionalism and compassion.
           </p>
 
           <h2>How Oklahoma Notaries Should Assess a Signer's Mental Capacity</h2>
@@ -217,7 +217,7 @@ export default function BlogPost() {
           </p>
           <p>
             Under Oklahoma law and the broader legal principles governing notarial acts, capacity is assessed at the time of signing, not as a general condition. This is the key legal principle that makes lucid interval notarizations possible. A signer with dementia who has a lucid interval and can demonstrate understanding and voluntary intent may have documents notarized during that period of clarity. The notary's responsibility is to recognize when a lucid interval is occurring and to document it thoroughly.
-          </h3>
+          </p>
           <h3>Best Practices for Recognizing and Documenting Lucid Interval Signings</h3>
           <p>
             Recognizing a lucid interval requires careful observation. Here are the signs that suggest a signer is experiencing a period of clarity:
@@ -243,7 +243,7 @@ export default function BlogPost() {
             Communicate clearly with family members and caregivers about why rescheduling is necessary. Frame it as a protective measure, not a rejection. Explain that attempting a notarization when the signer lacks capacity could result in the document being challenged later, potentially causing more problems than the delay. A professional notary who prioritizes the signer's protection builds trust and demonstrates integrity.
           </p>
           <p>
-            Documentation is critical for lucid interval signings. In your notary journal, record: the date and time, the signer's demeanor, a summary of their responses to capacity questions, who was present, any concerns you noted, and your conclusion that the signer demonstrated adequate understanding. While Oklahoma does not require a journal by statute (49 O.S.), maintaining one is strongly recommended by the Secretary of State and provides invaluable protection if the notarization is ever questioned. <Link href="/pricing" className="text-blue-600 hover:underline">Mobile notary fees for healthcare facility visits are available on our pricing page</Link>.
+            Documentation is critical for lucid interval signings. In your notary journal, record: the date and time, the signer's demeanor, a summary of their responses to capacity questions, who was present, any concerns you noted, and your conclusion that the signer demonstrated adequate understanding. While Oklahoma does not require a journal by statute (49 O.S.), maintaining one is strongly recommended by the Secretary of State and provides invaluable protection if the notarization is ever questioned. Mobile notary fees for healthcare facility visits are available on our pricing page.
           </p>
 
           <h2>Recognizing and Responding to Undue Influence and Coercion</h2>
@@ -278,7 +278,7 @@ export default function BlogPost() {
             Family members may push back when you ask for a private conversation or refuse a notarization. Stand firm. Explain that Oklahoma notaries have a legal duty to ensure that signers understand and voluntarily execute documents. If coercion is suspected, refuse the notarization and document everything in your journal — the circumstances, the behavior you observed, and the specific reasons for your refusal.
           </p>
           <p>
-            Under <strong>43A O.S. § 10-104</strong>, Oklahoma's Protective Services for Vulnerable Adults Act, you may also have a mandatory reporting obligation if you suspect exploitation. We will cover this in detail in the next section. <Link href="/about" className="text-blue-600 hover:underline">Just Legal Solutions trains notaries to handle sensitive situations with professionalism</Link> and integrity across all 77 Oklahoma counties.
+            Under <strong>43A O.S. § 10-104</strong>, Oklahoma's Protective Services for Vulnerable Adults Act, you may also have a mandatory reporting obligation if you suspect exploitation. We will cover this in detail in the next section. Just Legal Solutions trains notaries to handle sensitive situations with professionalism and integrity across all 77 Oklahoma counties.
           </p>
 
           <h2>Oklahoma's Vulnerable Adult Reporting Law: A Notary's Legal Duty</h2>
@@ -308,7 +308,7 @@ export default function BlogPost() {
             One of the most important protections in the law is good faith immunity. Reporters who make a report based on a reasonable, good faith belief that a vulnerable adult is being abused, neglected, or exploited are protected from both civil and criminal liability. This means you cannot be sued or prosecuted for making a report, even if the investigation ultimately finds no wrongdoing. The law encourages reporting by removing the fear of retaliation.
           </p>
           <p>
-            This is an Oklahoma-specific legal angle that virtually no competitor content addresses. As a notary working with incapacitated individuals, understanding your reporting obligations under 43A O.S. § 10-104 is not optional — it is a legal duty that carries real consequences for non-compliance. Document your concerns in your journal as evidence of your good faith, and do not hesitate to make the call when you have reasonable cause to believe something is wrong. <Link href="/contact" className="text-blue-600 hover:underline">Contact us if you need a trained mobile notary who understands Oklahoma's vulnerable adult protections</Link>.
+            This is an Oklahoma-specific legal angle that virtually no competitor content addresses. As a notary working with incapacitated individuals, understanding your reporting obligations under 43A O.S. § 10-104 is not optional — it is a legal duty that carries real consequences for non-compliance. Document your concerns in your journal as evidence of your good faith, and do not hesitate to make the call when you have reasonable cause to believe something is wrong. Contact us if you need a trained mobile notary who understands Oklahoma's vulnerable adult protections.
           </p>
           </article>
           
@@ -392,7 +392,7 @@ export default function BlogPost() {
             Whether you are a family member arranging a notarization for a loved one, or a notary seeking to handle these sensitive situations with confidence and professionalism, the key principles remain the same: assess capacity at the moment of signing, protect the signer's free will, document everything thoroughly, and never hesitate to refuse or report when something feels wrong. When in doubt, consult a licensed Oklahoma attorney or contact the Oklahoma Secretary of State's office for guidance.
           </p>
           <p>
-            Notarizing documents for incapacitated individuals requires skill, sensitivity, and a thorough understanding of Oklahoma law. Whether you need a power of attorney notarized at a Tulsa hospital or a trust document signed at an Oklahoma City care facility, Just Legal Solutions has trained mobile notaries ready to help. <Link href="/contact" className="text-blue-600 hover:underline">Schedule a Mobile Notary</Link> today for professional service across all 77 Oklahoma counties. Call or text <a href="tel:5393676832" className="text-blue-600 hover:underline">(539) 367-6832</a>.
+            Notarizing documents for incapacitated individuals requires skill, sensitivity, and a thorough understanding of Oklahoma law. Whether you need a power of attorney notarized at a Tulsa hospital or a trust document signed at an Oklahoma City care facility, Just Legal Solutions has trained mobile notaries ready to help. Schedule a Mobile Notary today for professional service across all 77 Oklahoma counties. Call or text <a href="tel:5393676832" className="text-blue-600 hover:underline">(539) 367-6832</a>.
           </p>
 
           <p className="text-gray-700 italic mt-8">

@@ -148,7 +148,7 @@ export default function BlogPost() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 -mt-8 relative z-10 pb-16">
           <article className="prose prose-lg prose-blue max-w-none bg-white p-8 md:p-12 rounded-2xl shadow-lg border border-gray-100">
             <p className="lead text-xl text-gray-600 mb-8">
-            If you manage property for a homeowners association in Oklahoma — or you serve on an HOA board yourself — you already know that legal disputes are an unavoidable part of community living. What you might not realize is how uniquely complicated the process serving side of those disputes can get. Unlike a straightforward delivery to a single homeowner, HOA process serving operates in a dual-sided world: sometimes the association is doing the serving, and sometimes the association is the one being served. Add gated communities, out-of-state investors, and Oklahoma's judicial foreclosure system into the mix, and you have a service environment that demands real expertise. At Just Legal Solutions, we specialize in <Link href="/process-serving" className="text-blue-600 hover:underline">professional process serving across all 77 Oklahoma counties</Link>, and we work with HOAs, condominium associations, and property management companies every single week.
+            If you manage property for a homeowners association in Oklahoma — or you serve on an HOA board yourself — you already know that legal disputes are an unavoidable part of community living. What you might not realize is how uniquely complicated the process serving side of those disputes can get. Unlike a straightforward delivery to a single homeowner, HOA process serving operates in a dual-sided world: sometimes the association is doing the serving, and sometimes the association is the one being served. Add gated communities, out-of-state investors, and Oklahoma's judicial foreclosure system into the mix, and you have a service environment that demands real expertise. At Just Legal Solutions, we specialize in professional process serving across all 77 Oklahoma counties, and we work with HOAs, condominium associations, and property management companies every single week.
           </p>
 
           <h2>Why HOA and Property Management Process Serving Is Different</h2>
@@ -171,13 +171,13 @@ export default function BlogPost() {
 
           <h3>The Numbers: Oklahoma's HOA Landscape</h3>
           <p>
-            When we say Oklahoma has a significant HOA market, we mean it. Between Tulsa, Oklahoma City, Norman, Edmond, and the growing suburban corridors around each metro area, community associations represent a steady stream of legal service needs. Covenant enforcement actions, assessment collection suits, foreclosure proceedings, and injunction requests all require proper service under Oklahoma law. For property managers juggling multiple associations across multiple counties, having a reliable process server who understands the nuances of community association work — and who can handle <Link href="/service-areas" className="text-blue-600 hover:underline">service anywhere in Oklahoma's 77 counties</Link> — is not a luxury. It's a necessity.
+            When we say Oklahoma has a significant HOA market, we mean it. Between Tulsa, Oklahoma City, Norman, Edmond, and the growing suburban corridors around each metro area, community associations represent a steady stream of legal service needs. Covenant enforcement actions, assessment collection suits, foreclosure proceedings, and injunction requests all require proper service under Oklahoma law. For property managers juggling multiple associations across multiple counties, having a reliable process server who understands the nuances of community association work — and who can handle service anywhere in Oklahoma's 77 counties — is not a luxury. It's a necessity.
           </p>
 
           <h2>The Dual-Sided Service Challenge — When the HOA Needs to Be Served</h2>
 
           <p>
-            Most content about HOA process serving focuses on one direction: the association serving its homeowners. But here's the reality that gets overlooked — HOAs get sued too. Homeowners sue their associations. Contractors sue for unpaid work. Neighbors sue over covenant disputes. And when that happens, someone has to serve the HOA itself. That's where things get complicated in ways most people don't expect. For a foundational overview of HOA process serving from the association's perspective, you can also <Link href="/blog/process-serving-hoa-oklahoma" className="text-blue-600 hover:underline">see our complete guide to HOA process serving in Oklahoma</Link>.
+            Most content about HOA process serving focuses on one direction: the association serving its homeowners. But here's the reality that gets overlooked — HOAs get sued too. Homeowners sue their associations. Contractors sue for unpaid work. Neighbors sue over covenant disputes. And when that happens, someone has to serve the HOA itself. That's where things get complicated in ways most people don't expect. For a foundational overview of HOA process serving from the association's perspective, you can also see our complete guide to HOA process serving in Oklahoma.
           </p>
 
           <h3>Serving an Incorporated HOA: Registered Agent Requirements</h3>
@@ -193,7 +193,7 @@ export default function BlogPost() {
 
           <h3>Serving Property Management Companies at Their Principal Place of Business</h3>
           <p>
-            When a property management company is named in a lawsuit — perhaps for negligence in maintaining common areas, or for mishandling association funds — service is typically made at the company's principal place of business. Under <Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">12 O.S. §2004 and the licensing requirements of 12 O.S. §158.1</Link>, our licensed process servers deliver documents directly to a managing agent, officer, or other authorized person at the management company's office.
+            When a property management company is named in a lawsuit — perhaps for negligence in maintaining common areas, or for mishandling association funds — service is typically made at the company's principal place of business. Under 12 O.S. §2004 and the licensing requirements of 12 O.S. §158.1, our licensed process servers deliver documents directly to a managing agent, officer, or other authorized person at the management company's office.
           </p>
           <p>
             Management companies often have specific internal procedures for accepting service. Some have a designated legal department. Others route everything through a specific executive. Understanding these workflows — and working within them while still meeting statutory requirements — is a key skill for process servers who regularly serve the property management industry.
@@ -210,7 +210,7 @@ export default function BlogPost() {
           <h2>From Demand Letter to Sheriff's Sale — The Complete Service Timeline</h2>
 
           <p>
-            No competitor covers the full timeline of documents requiring service in HOA legal actions. That's a gap we're going to fill right now, because understanding the complete journey — from the first demand letter all the way through the sheriff's sale — is essential for property managers, board members, and association attorneys. Improper service at any stage can derail the entire action and force the association to start over, costing months of time and thousands in additional legal fees. For more details on the document types involved at each stage, <Link href="/blog/process-serving-hoa-oklahoma" className="text-blue-600 hover:underline">see our complete HOA process serving guide</Link>.
+            No competitor covers the full timeline of documents requiring service in HOA legal actions. That's a gap we're going to fill right now, because understanding the complete journey — from the first demand letter all the way through the sheriff's sale — is essential for property managers, board members, and association attorneys. Improper service at any stage can derail the entire action and force the association to start over, costing months of time and thousands in additional legal fees. For more details on the document types involved at each stage, see our complete HOA process serving guide.
           </p>
 
           <h3>Stage 1: Pre-Lawsuit Demand Letters and Covenant Violation Notices</h3>
@@ -298,7 +298,7 @@ export default function BlogPost() {
           <h2>Oklahoma's Gated Community Reality — No Automatic Access, Creative Solutions Required</h2>
 
           <p>
-            If you've ever tried to serve documents inside a gated community in Oklahoma, you know the frustration. Unlike California, which has Civil Code §415.21 specifically granting process servers the right to enter gated communities, Oklahoma has no comparable statute. There is no law on our books that says a process server gets automatic entry past a security gate. That creates real challenges — and it demands real solutions. Our <Link href="/process-serving" className="text-blue-600 hover:underline">licensed process servers have experience navigating gated communities across Oklahoma</Link>, from Tulsa's southern suburbs to Oklahoma City's master-planned developments.
+            If you've ever tried to serve documents inside a gated community in Oklahoma, you know the frustration. Unlike California, which has Civil Code §415.21 specifically granting process servers the right to enter gated communities, Oklahoma has no comparable statute. There is no law on our books that says a process server gets automatic entry past a security gate. That creates real challenges — and it demands real solutions. Our licensed process servers have experience navigating gated communities across Oklahoma, from Tulsa's southern suburbs to Oklahoma City's master-planned developments.
           </p>
 
           <h3>What Oklahoma Law Says (and Doesn't Say) About Gated Community Access</h3>
@@ -317,7 +317,7 @@ export default function BlogPost() {
             Second, we build relationships with security personnel. The same guards work the same gates week after week. When we show up professionally, explain what we're doing and why, and treat them with respect, most security personnel become cooperative over time. We've had guards call us directly when a resident we're looking for comes through the gate. That kind of relationship doesn't happen overnight — it comes from consistent, professional conduct.
           </p>
           <p>
-            Third, we time our attempts strategically. Early mornings and late afternoons, when residents are leaving for work or returning home, offer natural opportunities to enter the community alongside lawful residents. We also coordinate with management companies for scheduled access when possible. And when all else fails, we're prepared to use the alternative service methods that <Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">12 O.S. §2004 provides for substitute service</Link>.
+            Third, we time our attempts strategically. Early mornings and late afternoons, when residents are leaving for work or returning home, offer natural opportunities to enter the community alongside lawful residents. We also coordinate with management companies for scheduled access when possible. And when all else fails, we're prepared to use the alternative service methods that 12 O.S. §2004 provides for substitute service.
           </p>
 
           <h3>When Access Is Denied: Alternative Service Methods Under 12 O.S. §2004</h3>
@@ -340,7 +340,7 @@ export default function BlogPost() {
           <h2>Condominium vs. Traditional HOA — What Property Managers Need to Know About Service Differences</h2>
 
           <p>
-            Not all community associations are created equal under Oklahoma law, and the differences between traditional HOAs and condominiums matter significantly when it comes to process serving. If you're a property manager who handles both types of associations — or an attorney representing both — understanding these distinctions is essential for proper service. We <Link href="/service-areas" className="text-blue-600 hover:underline">coordinate service across all 77 Oklahoma counties</Link> for both HOA and condominium associations, and we've seen firsthand how mixing up the rules can create costly problems.
+            Not all community associations are created equal under Oklahoma law, and the differences between traditional HOAs and condominiums matter significantly when it comes to process serving. If you're a property manager who handles both types of associations — or an attorney representing both — understanding these distinctions is essential for proper service. We coordinate service across all 77 Oklahoma counties for both HOA and condominium associations, and we've seen firsthand how mixing up the rules can create costly problems.
           </p>
 
           <h3>How the Unit Ownership Estate Act Changes Service Requirements</h3>
@@ -364,7 +364,7 @@ export default function BlogPost() {
             Oklahoma's condominium and rental markets attract plenty of out-of-state investors — people who buy a unit in Tulsa or Oklahoma City as an investment property and never set foot in the state. When those owners fall behind on assessments, serving them creates unique challenges.
           </p>
           <p>
-            Under 12 O.S. §2004, service outside Oklahoma is permitted when jurisdiction is authorized. That means we can serve an out-of-state owner by certified mail with return receipt, by personal service through a process server in the owner's new state, or by serving a designated agent if the HOA governing documents appointed one. When the owner's whereabouts are unknown after diligent search, we coordinate skip tracing to locate the correct service address. Visit our <Link href="/law-firm-services" className="text-blue-600 hover:underline">legal support services page to learn more about skip tracing for hard-to-locate property owners</Link>.
+            Under 12 O.S. §2004, service outside Oklahoma is permitted when jurisdiction is authorized. That means we can serve an out-of-state owner by certified mail with return receipt, by personal service through a process server in the owner's new state, or by serving a designated agent if the HOA governing documents appointed one. When the owner's whereabouts are unknown after diligent search, we coordinate skip tracing to locate the correct service address. Visit our legal support services page to learn more about skip tracing for hard-to-locate property owners.
           </p>
           <p>
             For property managers, here's a practical tip that will save you enormous headaches: maintain accurate alternate addresses for all owners, especially non-resident investors. Ask for a mailing address at closing. Update it annually. When you hire a process server, give them every address you have — the unit address, the mailing address, the property manager's address if the owner uses one. The more information we have, the faster we can effect service and the less likely we are to hit a dead end.

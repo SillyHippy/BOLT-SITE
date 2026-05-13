@@ -82,7 +82,7 @@ export default function BlogPost() {
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">Types of Subpoenas in Oklahoma</h2>
           <p className="mb-4">
-            Oklahoma law recognizes two primary types of subpoenas, each serving a distinct purpose in litigation. Understanding the difference is essential before you initiate <Link href="/process-serving" className="text-blue-600 hover:underline">process serving</Link>.
+            Oklahoma law recognizes two primary types of subpoenas, each serving a distinct purpose in litigation. Understanding the difference is essential before you initiate process serving.
           </p>
           <h3 className="text-xl font-semibold mb-3 mt-6">Subpoena Ad Testificandum</h3>
           <p className="mb-4">
@@ -98,7 +98,7 @@ export default function BlogPost() {
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">Who Can Serve a Subpoena in Oklahoma</h2>
           <p className="mb-4">
-            Under the <Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma process server laws</Link>, any person who is at least 18 years old and not a party to the action may serve a subpoena. While this broad rule means that a colleague, assistant, or friend could technically perform service, there are compelling reasons to use a licensed professional process server.
+            Under the Oklahoma process server laws, any person who is at least 18 years old and not a party to the action may serve a subpoena. While this broad rule means that a colleague, assistant, or friend could technically perform service, there are compelling reasons to use a licensed professional process server.
           </p>
           <p className="mb-4">
             Licensed process servers in Oklahoma are bonded under Oklahoma Title 12 O.S. 158.1, which provides accountability and a layer of trust that self-service cannot match. They understand the procedural nuances of the Oklahoma Rules of Civil Procedure, know how to handle evasive recipients, and can provide a detailed affidavit of service that will hold up under court scrutiny. When you hire a professional, you reduce the risk of a motion to quash based on defective service.
@@ -138,7 +138,7 @@ export default function BlogPost() {
             Timeline requirements are equally important. Under the Oklahoma Rules of Civil Procedure, subpoenas must be served with reasonable advance notice. While there is no single statutory deadline, best practice dictates allowing at least five to ten business days for in-state witnesses and significantly more time for out-of-state service. Last-minute subpoena service is possible through our rush and same-day options, but planning ahead reduces costs and ensures compliance.
           </p>
           <p className="mb-4">
-            We serve subpoenas in all 77 Oklahoma counties and can coordinate out-of-state service through our network. <Link href="/service-areas" className="text-blue-600 hover:underline">View our complete service area coverage</Link> to see the counties and regions we cover.
+            We serve subpoenas in all 77 Oklahoma counties and can coordinate out-of-state service through our network. View our complete service area coverage to see the counties and regions we cover.
           </p>
         </section>
 
@@ -167,7 +167,7 @@ export default function BlogPost() {
             We offer flexible service options including same-day, rush, and after-hours service for urgent matters. Our transparent pricing means you always know what to expect, and our GPS-verified proof of service gives you the confidence to proceed knowing your service will withstand any challenge. With a 4.9-star rating from over 156 client reviews, our track record speaks for itself.
           </p>
           <p className="mb-4">
-            Whether you need a single witness subpoenaed for a Tulsa County hearing or a complex multi-defendant document production across the state, we have the expertise and coverage to get it done right. <Link href="/process-serving" className="text-blue-600 hover:underline">Learn more about our full range of process serving services</Link>.
+            Whether you need a single witness subpoenaed for a Tulsa County hearing or a complex multi-defendant document production across the state, we have the expertise and coverage to get it done right. Learn more about our full range of process serving services.
           </p>
         </section>
 

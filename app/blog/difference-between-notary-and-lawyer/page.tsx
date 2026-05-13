@@ -10,7 +10,7 @@ import {
 } from "../components";
 
 export const metadata: Metadata = {
-  title: "What\"s the Difference Between a Notary and a Lawyer? | Ju...',
+  title: "What's the Difference Between a Notary and a Lawyer? | Ju...",
   description: "Learn the key differences between notaries and lawyers, what notaries can and cannot do, when you need an attorney, and rules against the unauthorized practice",
   keywords:
     "notary vs lawyer, difference between attorney and notary, notary legal advice, unauthorized practice of law Oklahoma, what can notaries do",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   },
   other: {
     'ai-content-type': 'article',
-    'ai-summary': 'Learn the key differences between notaries and lawyers, what notaries can and cannot do, when you need an attorney, and rules against the unauthorized practice Includes Oklahoma notary compliance context and practical document guidance.',s the Difference Between a Notary and a Lawyer? | Ju... helps Oklahoma clients understand requirements quickly.',
+    'ai-summary': 'Oklahoma legal support guidance from Just Legal Solutions for process serving, notary, and court document needs.',
     'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
   
   },
@@ -642,6 +642,3 @@ export default function NotaryVsLawyerPage() {
     </div>
   );
 }
-
-
-=== FILE: documents-notarized-weekends-after-hours-oklahoma ===

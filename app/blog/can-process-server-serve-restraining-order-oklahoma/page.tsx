@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: "Can a Process Server Serve a Restraining Order in Oklahom...",
   description: "Learn about protective order service requirements in Oklahoma, emergency procedures, safety considerations, and timeline requirements for process servers.",
   keywords:
-    "process server restraining order, serve protective order oklahoma, emergency <Link href="/process-serving" className="text-blue-600">process serving</Link>, Oklahoma protective order service, VPO service",
+    "process server restraining order, serve protective order oklahoma, emergency process serving, Oklahoma protective order service, VPO service",
   alternates: {
     canonical:
       "https://justlegalsolutions.org/blog/can-process-server-serve-restraining-order-oklahoma",

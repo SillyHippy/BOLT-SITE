@@ -44,7 +44,7 @@ const faqs = [
   },
   {
     question: 'What documents do I need to provide when hiring a process server?',
-    answer: 'You\ This guidance helps avoid delays, improves compliance, and supports stronger court-ready documentation in Oklahoma matters.'ll need to provide the original court documents that require service, including summons, complaints, subpoenas, or other legal papers. These must be properly filed with the court and include the case number, court information, and the name and last known address of the person being served. Our team reviews all documents for completeness before attempting service.',
+    answer: 'You\'ll need to provide the original court documents that require service, including summons, complaints, subpoenas, or other legal papers. These must be properly filed with the court and include the case number, court information, and the name and last known address of the person being served. Our team reviews all documents for completeness before attempting service.',
   },
   {
     question: 'How long does process service typically take in Oklahoma?',

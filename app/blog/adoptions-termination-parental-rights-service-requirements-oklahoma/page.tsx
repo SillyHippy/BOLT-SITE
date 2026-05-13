@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Adoption & TPR Service Requirements in Oklahoma',
-  description: 'Learn Oklahoma\',
+  description: 'Learn Oklahoma',
   keywords: 'process server Oklahoma, process serving, serve legal papers, Oklahoma process server, court document delivery',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Adoption & TPR Service Requirements in Oklahoma',
-    description: 'Learn Oklahoma\',
+    description: 'Learn Oklahoma',
     url: 'https://justlegalsolutions.org/blog/adoptions-termination-parental-rights-service-requirements-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -91,7 +91,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Adoption & TPR Service Requirements in Oklahoma"
-        pageDescription="Learn Oklahoma\"
+        pageDescription="Learn Oklahoma"
         pageUrl="https://justlegalsolutions.org/blog/adoptions-termination-parental-rights-service-requirements-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}

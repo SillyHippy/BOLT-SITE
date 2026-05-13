@@ -213,7 +213,7 @@ export default function BlogPost() {
             of law firm inquiries never receive a response at all. The firm that never responds to 
             an inquiry obviously cannot convert it. But even firms that do respond often fail to 
             confirm appointments proactively, leaving the door wide open for no-shows. This is 
-            where <Link href="/services/virtual-assistant-services" className="text-blue-600 hover:underline">virtual scheduling support</Link>, as part of a broader 
+            where virtual scheduling support, as part of a broader 
             virtual assistant solution, makes an immediate and measurable impact.
           </p>
 
@@ -341,7 +341,7 @@ export default function BlogPost() {
             support, integrated with your website and case management system, closes this gap 
             permanently. To learn more about how comprehensive support works, explore our{' '}
             <Link href="/services/virtual-assistant-services" className="text-blue-600 hover:underline">comprehensive virtual assistant services including intake and scheduling</Link>. 
-            You can also <Link href="/pricing" className="text-blue-600 hover:underline">explore flexible pricing for virtual scheduling support</Link>.
+            You can also explore flexible pricing for virtual scheduling support.
           </p>
 
           <h2>Oklahoma-Specific Scheduling Considerations</h2>
@@ -386,7 +386,7 @@ export default function BlogPost() {
             complications of hybrid paper-electronic filing environments. An attorney who 
             discovers at 4:45 PM that an e-filing failed needs time to resolve the issue — 
             and that time must be protected in the schedule. For firms navigating this complex 
-            landscape, our <Link href="/services/electronic-filing" className="text-blue-600 hover:underline">OSCN e-filing support</Link> from a team that knows Oklahoma courts 
+            landscape, our OSCN e-filing support from a team that knows Oklahoma courts 
             can provide valuable backup.
           </p>
 
@@ -409,7 +409,7 @@ export default function BlogPost() {
             rescheduling; and maintaining active supervision by having attorneys review calendar 
             entries periodically. Appointment reminders and scheduling confirmations are 
             administrative, not legal advice, and are well within the scope of what Rule 5.3 
-            permits when properly supervised. Our <Link href="/services" className="text-blue-600 hover:underline">legal support services for Oklahoma firms</Link> are designed 
+            permits when properly supervised. Our legal support services for Oklahoma firms are designed 
             with these ethical requirements in mind.
           </p>
 
@@ -480,7 +480,7 @@ export default function BlogPost() {
             appointment booking; week two adds reminder sequences and rescheduling; week 
             three incorporates intake follow-up and conversion tracking; and by week four, 
             the VA is managing the full appointment lifecycle with minimal attorney oversight. 
-            Working with a <Link href="/about" className="text-blue-600 hover:underline">locally knowledgeable team that understands Oklahoma courts</Link> makes this 
+            Working with a locally knowledgeable team that understands Oklahoma courts makes this 
             transition even smoother.
           </p>
 

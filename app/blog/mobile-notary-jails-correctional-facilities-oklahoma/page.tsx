@@ -152,7 +152,7 @@ export default function BlogPost() {
           </p>
 
           <p>
-            At Just Legal Solutions, our <Link href="/services/notary" className="text-blue-600 hover:underline">mobile notary team</Link> has spent years navigating Oklahoma correctional facilities to help families and attorneys get documents notarized for incarcerated individuals. This guide exists because we have seen firsthand how stressful this process can be — and how much confusion surrounds what is actually allowed, what it costs, and how to make it happen. We are going to walk you through everything you need to know about jail and prison notarization in Oklahoma, from the statutes that make it legal to the facility-specific procedures that determine whether your visit succeeds or gets turned away at the gate.
+            At Just Legal Solutions, our mobile notary team has spent years navigating Oklahoma correctional facilities to help families and attorneys get documents notarized for incarcerated individuals. This guide exists because we have seen firsthand how stressful this process can be — and how much confusion surrounds what is actually allowed, what it costs, and how to make it happen. We are going to walk you through everything you need to know about jail and prison notarization in Oklahoma, from the statutes that make it legal to the facility-specific procedures that determine whether your visit succeeds or gets turned away at the gate.
           </p>
 
           <h2>Why Oklahoma Families Need Jail Notary Services More Than Ever</h2>
@@ -230,7 +230,7 @@ export default function BlogPost() {
           <h3>Why Inmates Cannot Use Remote Online Notarization (RON)</h3>
 
           <p>
-            Families often ask us: "Can we just do this online?" We understand the instinct — a video call sounds so much simpler than driving to a prison and going through security. Unfortunately, <strong>Remote Online Notarization (RON) under 49 O.S. § 208 is not an option for incarcerated individuals.</strong> RON requires the signer to have access to a computer, webcam, stable internet connection, and either credential analysis of a government-issued ID or a credible witness who can appear on camera. Oklahoma inmates do not have access to these technologies. Facility computers, where available, are closely monitored, do not have webcams suitable for notarization, and are not configured for RON platforms. This is why <Link href="/services/notary" className="text-blue-600 hover:underline">in-person mobile notary services</Link> remain the only viable option for incarcerated individuals in Oklahoma.
+            Families often ask us: "Can we just do this online?" We understand the instinct — a video call sounds so much simpler than driving to a prison and going through security. Unfortunately, <strong>Remote Online Notarization (RON) under 49 O.S. § 208 is not an option for incarcerated individuals.</strong> RON requires the signer to have access to a computer, webcam, stable internet connection, and either credential analysis of a government-issued ID or a credible witness who can appear on camera. Oklahoma inmates do not have access to these technologies. Facility computers, where available, are closely monitored, do not have webcams suitable for notarization, and are not configured for RON platforms. This is why in-person mobile notary services remain the only viable option for incarcerated individuals in Oklahoma.
           </p>
 
           <h2>Inmate ID Verification — The Biggest Challenge and How to Solve It</h2>
@@ -252,7 +252,7 @@ export default function BlogPost() {
           </p>
 
           <p>
-            If an inmate's ID card has been lost or damaged, replacement cards can be issued for a $5 fee. We always recommend confirming that your loved one has their current ODOC photo ID before scheduling a notary visit — it is the smoothest path to a successful notarization. When our <Link href="/jail-notary" className="text-blue-600 hover:underline">mobile notary team</Link> schedules a DOC facility visit, the inmate's ODOC number and current ID status are the first things we verify.
+            If an inmate's ID card has been lost or damaged, replacement cards can be issued for a $5 fee. We always recommend confirming that your loved one has their current ODOC photo ID before scheduling a notary visit — it is the smoothest path to a successful notarization. When our mobile notary team schedules a DOC facility visit, the inmate's ODOC number and current ID status are the first things we verify.
           </p>
 
           <h3>County Jail ID Verification: Booking Photos and Wristbands</h3>
@@ -306,7 +306,7 @@ export default function BlogPost() {
           <h3>Court-Related vs. Personal Documents: What's Covered</h3>
 
           <p>
-            The free notarization policy covers documents directly related to the inmate's court case — motions, affidavits, sworn statements, and other litigation-related materials. Personal documents like power of attorney, real estate transactions, and financial matters typically require payment, either through the facility's notary service or through a <Link href="/services/notary" className="text-blue-600 hover:underline">private mobile notary</Link>. Here is a simple comparison:
+            The free notarization policy covers documents directly related to the inmate's court case — motions, affidavits, sworn statements, and other litigation-related materials. Personal documents like power of attorney, real estate transactions, and financial matters typically require payment, either through the facility's notary service or through a private mobile notary. Here is a simple comparison:
           </p>
 
           <div className="overflow-x-auto my-6">

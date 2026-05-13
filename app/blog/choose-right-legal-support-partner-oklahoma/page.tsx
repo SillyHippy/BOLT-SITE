@@ -175,7 +175,7 @@ export default function BlogPost() {
             Small firms in particular lack the margin for error that larger practices enjoy. You do not have a team of paralegals to chase down status updates. You do not have a compliance department to verify credentials. You need a partner who acts as an extension of your practice — one who communicates proactively, meets deadlines without prompting, and treats your cases with the same urgency you do. That is why the selection process matters so much, and why we built this guide to help you get it right the first time.
           </p>
           <p>
-            If you are looking for a comprehensive overview of what professional legal support looks like, visit our <Link href="/services" className="text-blue-600 hover:underline">comprehensive legal support services</Link> page to see how an integrated approach works in practice.
+            If you are looking for a comprehensive overview of what professional legal support looks like, visit our comprehensive legal support services page to see how an integrated approach works in practice.
           </p>
 
           <h2>Verify Licenses, Bonds, and Insurance — Non-Negotiable Credentials</h2>
@@ -185,7 +185,7 @@ export default function BlogPost() {
             Let us start with the foundation. Under <strong>12 O.S. § 158.1</strong>, all private process servers in Oklahoma must be licensed. The statute sets clear qualifications: applicants must be at least 18 years old, an Oklahoma resident for six or more months, of good moral character, free of violent felony convictions or sex offender registration, and must post a $5,000 surety bond. The statewide license costs $150 and renews every three years for $15. You can verify any license through the court clerk in the server&apos;s licensing county.
           </p>
           <p>
-            Here is a critical detail many firms overlook: Oklahoma offers a statewide license that authorizes service in all 77 counties. Some servers may still hold older county-specific licenses, but the statewide license is the current standard. If your practice handles cases across multiple counties — or if you want the flexibility to take cases anywhere in Oklahoma without switching vendors — a statewide-licensed partner is essential. For a deeper dive into these requirements, see our guide to <Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma process server licensing requirements</Link>.
+            Here is a critical detail many firms overlook: Oklahoma offers a statewide license that authorizes service in all 77 counties. Some servers may still hold older county-specific licenses, but the statewide license is the current standard. If your practice handles cases across multiple counties — or if you want the flexibility to take cases anywhere in Oklahoma without switching vendors — a statewide-licensed partner is essential. For a deeper dive into these requirements, see our guide to Oklahoma process server licensing requirements.
           </p>
 
           <h3>Notary Commissions and Bond Requirements</h3>
@@ -193,7 +193,7 @@ export default function BlogPost() {
             If your legal support partner provides notary services — and they should — verify their commission under <strong>Title 49 O.S. § 1</strong>. Notaries must be at least 18, a U.S. citizen, an Oklahoma resident or employed in Oklahoma, able to read and write English, and free of felony convictions. They must also maintain a surety bond — currently $1,000 but increasing to $10,000 on January 1, 2026 per SB 1028 under <strong>49 O.S. § 2</strong> — and file with the Secretary of State within 60 days of commission issuance.
           </p>
           <p>
-            For Remote Online Notarization, Oklahoma law under <strong>49 O.S. § 204-209</strong> allows notaries to perform online notarizations with a maximum fee of $25 per remote notarial act. If your firm handles out-of-state clients or needs after-hours notarization, RON capabilities are a significant advantage. Learn more about our <Link href="/services/notary" className="text-blue-600 hover:underline">notary services</Link> and how RON can streamline your practice.
+            For Remote Online Notarization, Oklahoma law under <strong>49 O.S. § 204-209</strong> allows notaries to perform online notarizations with a maximum fee of $25 per remote notarial act. If your firm handles out-of-state clients or needs after-hours notarization, RON capabilities are a significant advantage. Learn more about our notary services and how RON can streamline your practice.
           </p>
 
           <h3>Insurance Coverage You Should Demand</h3>
@@ -238,7 +238,7 @@ export default function BlogPost() {
             <li>Do they maintain consistent documentation standards across all service categories?</li>
           </ul>
           <p>
-            A word of caution: a provider claiming to do &quot;everything&quot; may lack depth in any one area. Verify credentials for each service line individually. A company that is excellent at process serving but subcontracts notary work to untrained freelancers is not a true integrated partner — they are a process server with add-ons. At Just Legal Solutions, we maintain dedicated, trained staff for each of our <Link href="/services/process-serving" className="text-blue-600 hover:underline">process serving</Link>, <Link href="/services/notary" className="text-blue-600 hover:underline">notary</Link>, <Link href="/services/virtual-assistant" className="text-blue-600 hover:underline">virtual assistant</Link>, and <Link href="/services/courier" className="text-blue-600 hover:underline">courier services</Link> — ensuring quality and accountability across the board.
+            A word of caution: a provider claiming to do &quot;everything&quot; may lack depth in any one area. Verify credentials for each service line individually. A company that is excellent at process serving but subcontracts notary work to untrained freelancers is not a true integrated partner — they are a process server with add-ons. At Just Legal Solutions, we maintain dedicated, trained staff for each of our process serving, notary, virtual assistant, and courier services — ensuring quality and accountability across the board.
           </p>
           <p>
             Oklahoma-specific knowledge matters here too. An integrated provider familiar with Oklahoma&apos;s e-filing system, local court rules, and county-specific procedures offers significant advantages over a generic national provider. When you need a document filed in Caddo County by close of business, you want a partner who knows the clerk&apos;s office hours and preferences — not one who is looking up the address for the first time.
@@ -315,7 +315,7 @@ export default function BlogPost() {
             </table>
           </div>
           <p>
-            Oklahoma also allows service by authorized commercial couriers with signed receipts under <strong>12 O.S. § 2004.3</strong> as an alternative to certified mail in certain cases. A provider who understands these nuances — and can recommend the right service method for your specific situation — adds value beyond simple task execution. For urgent matters, explore our <Link href="/urgent-process-server" className="text-blue-600 hover:underline">urgent and same-day process serving</Link> options, and learn more about <Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">service methods under Oklahoma law</Link>.
+            Oklahoma also allows service by authorized commercial couriers with signed receipts under <strong>12 O.S. § 2004.3</strong> as an alternative to certified mail in certain cases. A provider who understands these nuances — and can recommend the right service method for your specific situation — adds value beyond simple task execution. For urgent matters, explore our urgent and same-day process serving options, and learn more about service methods under Oklahoma law.
           </p>
 
           <h2>Technology and Compliance — A Modern Provider Checklist</h2>
@@ -352,7 +352,7 @@ export default function BlogPost() {
             Remote Online Notarization has been available in Oklahoma since January 1, 2020, and it has transformed how firms handle out-of-state clients, after-hours emergencies, and documents requiring notarization under tight deadlines. A provider with RON capabilities can notarize documents remotely using secure video conferencing and identity verification — all compliant with Oklahoma&apos;s <strong>49 O.S. § 204-209</strong>. Integration with Oklahoma&apos;s e-filing system is equally valuable, allowing documents to move seamlessly from notarization to filing without the delays of physical delivery.
           </p>
           <p>
-            Data security deserves special attention that many firms overlook until it is too late. Legal documents often contain sensitive personal information, medical records, financial data, and privileged attorney-client communications. Your provider should use encrypted transmission, secure storage with regular backups, and access controls that limit who can view your documents. If your practice handles HIPAA-regulated medical records or documents subject to attorney-client privilege protections, confirm your provider understands and complies with those requirements. Ask about their data retention policies, their breach notification procedures, and whether they train their staff on confidentiality obligations. A provider who treats data security as an afterthought is a provider who puts your clients and your practice at risk. Learn more about how <Link href="/blog/gps-tracking-revolutionizes-process-serving-accountability-oklahoma" className="text-blue-600 hover:underline">GPS tracking revolutionizes process serving accountability</Link> and how <Link href="/blog/technology-reduces-process-serving-errors-oklahoma" className="text-blue-600 hover:underline">technology reduces process serving errors</Link> in Oklahoma.
+            Data security deserves special attention that many firms overlook until it is too late. Legal documents often contain sensitive personal information, medical records, financial data, and privileged attorney-client communications. Your provider should use encrypted transmission, secure storage with regular backups, and access controls that limit who can view your documents. If your practice handles HIPAA-regulated medical records or documents subject to attorney-client privilege protections, confirm your provider understands and complies with those requirements. Ask about their data retention policies, their breach notification procedures, and whether they train their staff on confidentiality obligations. A provider who treats data security as an afterthought is a provider who puts your clients and your practice at risk. Learn more about how GPS tracking revolutionizes process serving accountability and how technology reduces process serving errors in Oklahoma.
           </p>
 
           <h2>Red Flags and Warning Signs — When to Walk Away</h2>
@@ -375,7 +375,7 @@ export default function BlogPost() {
             Hidden fees, vague pricing structures, and pressure to sign long-term contracts without a trial period are all warning signs. A professional provider offers transparent pricing that you can review before committing. They explain what is included and what costs extra. They do not require you to lock into a year-long contract before you have experienced their service quality. And they have a clear refund policy for services that fail to deliver.
           </p>
           <p>
-            Perhaps the most important red flag is pricing that seems too good to be true. Well below-market rates often signal corners being cut on insurance, licensing, training, or technology. A provider charging half the market rate may be unlicensed, uninsured, or relying on untrained subcontractors. Quality legal support is an investment in your cases and your reputation — not a place to cut costs to the bone. For transparent rate information, visit our <Link href="/pricing" className="text-blue-600 hover:underline">pricing page</Link>.
+            Perhaps the most important red flag is pricing that seems too good to be true. Well below-market rates often signal corners being cut on insurance, licensing, training, or technology. A provider charging half the market rate may be unlicensed, uninsured, or relying on untrained subcontractors. Quality legal support is an investment in your cases and your reputation — not a place to cut costs to the bone. For transparent rate information, visit our pricing page.
           </p>
 
           <h3>Reference-Check Questions</h3>
@@ -386,13 +386,13 @@ export default function BlogPost() {
             <li><strong>&quot;Would you recommend them for a firm our size and case type?&quot;</strong> — A provider great for large corporate firms may not be right for a solo practice handling family law.</li>
           </ol>
           <p>
-            Think of this vetting process as arming yourself with knowledge. The goal is not to find a vendor who meets minimum standards — it is to find a partner who elevates your practice. If you would like to discuss your firm&apos;s specific needs, <Link href="/contact" className="text-blue-600 hover:underline">schedule a consultation</Link> with our team.
+            Think of this vetting process as arming yourself with knowledge. The goal is not to find a vendor who meets minimum standards — it is to find a partner who elevates your practice. If you would like to discuss your firm&apos;s specific needs, schedule a consultation with our team.
           </p>
 
           {/* Secondary CTA */}
           <div className="my-8 p-4 bg-gray-50 rounded-lg border-l-4 border-blue-500">
             <p className="text-gray-700 mb-0">
-              Want to compare our services and pricing? Visit our <Link href="/pricing" className="text-blue-600 hover:underline font-medium">pricing page</Link> to see transparent rates for all Oklahoma legal support services.
+              Want to compare our services and pricing? Visit our pricing page to see transparent rates for all Oklahoma legal support services.
             </p>
           </div>
           </article>

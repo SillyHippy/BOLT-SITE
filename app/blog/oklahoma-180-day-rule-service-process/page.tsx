@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
     type: 'article',
-    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: 'Oklahoma\'s 180-Day Rule for Service of Process Explained's 180-Day Rule for Service of Process Explained' }],
+    images: [{ url: 'https://justlegalsolutions.org/images/jls-logo.webp', width: 1200, height: 630, alt: "Oklahoma's 180-Day Rule for Service of Process Explained" }],
   },
   alternates: { canonical: 'https://justlegalsolutions.org/blog/oklahoma-180-day-rule-service-process' },
   other: {
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Understand Oklahoma\'s 180-day service rule under 12 O.S. 2004, deadline risks, and practical filing steps to protect your case in all 77 Oklahoma counties. Includes Oklahoma service-of-process compliance context and practical filing guidance.'s 180-day service rule under 12 O.S. 2004, deadline risks, and practical filing steps to protect your case in all 77 Oklahoma counties. Includes Oklahoma service-of-process compliance context and practical filing guidance.',s 180-day service rule under 12 O.S. 2004. Learn what happens if you miss the deadline and how to protect your case. Serving all 77 Oklahoma Oklahoma's 180-Day Rule for Service of Process Explained helps Oklahoma clients understand requirements quickly.',s 180-day service of process rule under Title 12 O.S. 2004 covering deadlines, consequences of missing them, and strategies for timely service.',
+    'ai-summary': 'Oklahoma legal support guidance from Just Legal Solutions for process serving, notary, and court document needs.',
     'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
   
   

@@ -65,7 +65,7 @@ const faqs = [
   {
     question:
       'How do I verify that a notary is properly commissioned in Oklahoma?',
-    answer: 'You can verify a notary\ This guidance helps avoid delays, improves compliance, and supports stronger court-ready documentation in Oklahoma matters.'s commission status through the Oklahoma Secretary of State\'s office. The Secretary of State maintains a public database of all active notary commissions in the state. You will need the notary\'s name or commission number to perform the search. This verification step is especially important for documents involving significant financial or legal transactions.',
+    answer: 'You can verify a notary\'s commission status through the Oklahoma Secretary of State\'s office. The Secretary of State maintains a public database of all active notary commissions in the state. You will need the notary\'s name or commission number to perform the search. This verification step is especially important for documents involving significant financial or legal transactions.',
   },
   {
     question:
@@ -83,7 +83,7 @@ const faqs = [
     question:
       'Does Just Legal Solutions offer notary services?',
     answer:
-      'Yes. Just Legal Solutions provides professional notary services compliant with all requirements of the Oklahoma Notary Public Act. Our notaries are properly commissioned, bonded, and trained to handle acknowledgments, jurats, oaths, affirmations, and electronic notarizations. We offer mobile notary services across all 77 Oklahoma counties. Visit our <Link href="/notary" className="text-blue-600 hover:underline">notary services page</Link> for more information.',
+      'Yes. Just Legal Solutions provides professional notary services compliant with all requirements of the Oklahoma Notary Public Act. Our notaries are properly commissioned, bonded, and trained to handle acknowledgments, jurats, oaths, affirmations, and electronic notarizations. We offer mobile notary services across all 77 Oklahoma counties. Visit our notary services page for more information.',
   },
 ];
 

@@ -204,7 +204,7 @@ export default function BlogPost() {
             Think of it as a simple framework: if the task requires your law license, it stays with you. Everything else — from scheduling to formatting to client communication — is fair game. The Oklahoma Bar Association's 2023 data shows that <strong>14 UPL complaints were filed</strong>, with 29% involving litigation matters. Most involved paralegal document preparation that overstepped into legal judgment. Know the line, document your protocols, and you will stay on the right side of the ethics rules.
           </p>
           <p>
-            Want to learn more about how virtual support fits into your practice? Check out our <Link href="/virtual-assistant-services" className="text-blue-600 hover:underline">virtual assistant services for Oklahoma attorneys</Link> to see what tasks we can take off your plate.
+            Want to learn more about how virtual support fits into your practice? Check out our virtual assistant services for Oklahoma attorneys to see what tasks we can take off your plate.
           </p>
 
           <h2>Playing by the Rules — Oklahoma Ethics for Delegating to Virtual Assistants</h2>
@@ -269,7 +269,7 @@ export default function BlogPost() {
             Solo practitioners with dedicated virtual assistants report recovering <strong>500 or more billable hours annually</strong>. Firms that strategically integrate VA services see productivity increases of 30-40%. At $242 per hour, those 500 recovered hours represent over $120,000 in additional annual revenue potential. Even if you only capture half of that, the ROI speaks for itself.
           </p>
           <p>
-            The bottom line: solo firms typically reduce support staff expenses by <strong>40-60%</strong> using virtual assistants. When you factor in eliminated overhead — no extra office, no equipment, no benefits — total savings often reach 50-70%. Curious what virtual assistant support would cost for your practice? Visit our <Link href="/pricing" className="text-blue-600 hover:underline">pricing page</Link> to explore flexible plans for Oklahoma solo practitioners.
+            The bottom line: solo firms typically reduce support staff expenses by <strong>40-60%</strong> using virtual assistants. When you factor in eliminated overhead — no extra office, no equipment, no benefits — total savings often reach 50-70%. Curious what virtual assistant support would cost for your practice? Visit our pricing page to explore flexible plans for Oklahoma solo practitioners.
           </p>
 
           <h2>Your Complete Virtual Back Office — One Oklahoma Partner</h2>
@@ -279,7 +279,7 @@ export default function BlogPost() {
 
           <h3>Beyond the Desk — Integrated Legal Support Services</h3>
           <p>
-            What if you could get it all from one Oklahoma partner? At Just Legal Solutions, we do not just provide virtual assistants. We offer an integrated suite of services designed specifically for Oklahoma solo practitioners: <Link href="/virtual-assistant-services" className="text-blue-600 hover:underline">virtual assistant support</Link>, <Link href="/process-serving" className="text-blue-600 hover:underline">process serving across all 77 counties</Link>, <Link href="/notary-services" className="text-blue-600 hover:underline">mobile notary services anywhere in Oklahoma</Link>, and <Link href="/courier-services" className="text-blue-600 hover:underline">secure legal courier and document delivery</Link>. One point of contact. One relationship. One invoice.
+            What if you could get it all from one Oklahoma partner? At Just Legal Solutions, we do not just provide virtual assistants. We offer an integrated suite of services designed specifically for Oklahoma solo practitioners: virtual assistant support, process serving across all 77 counties, mobile notary services anywhere in Oklahoma, and secure legal courier and document delivery. One point of contact. One relationship. One invoice.
           </p>
           <p>
             What does this mean practically for your practice? Your virtual assistant can coordinate a process serve in Caddo County, arrange a mobile notary in Lawton, and schedule a courier pickup in Tulsa — all without you making a single phone call. Your VA knows your preferences, your deadlines, and your clients. When you need field work done anywhere in Oklahoma, it gets handled through the same trusted partner who already knows your practice.

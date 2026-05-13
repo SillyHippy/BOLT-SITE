@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: "The Future of Electronic Filing and Service in Oklahoma C...",
-  description: "Explore Oklahoma\ Serving all 77 Oklahoma counties with licensed, bonded legal support. Serving all 77 Oklahoma counties with licensed, bonded legal support."s digital court transformation. Learn about eFiling, electronic service, and upcoming technology upgrades for 2026 and beyond.',
+  description: "Explore Oklahoma's digital court transformation. Learn about eFiling, electronic service, and upcoming technology upgrades for 2026 and beyond.",
   keywords: 'Oklahoma electronic filing, eFiling Oklahoma courts, electronic court service',
   authors: [{ name: 'Just Legal Solutions' }],
   creator: 'Just Legal Solutions',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Explore Oklahoma Serving all 77 Oklahoma counties with licensed, bonded legal support. Serving all 77 Oklahoma counties with licensed, bonded legal support. Includes Oklahoma service-of-process compliance context and practical filing guidance.',s court digitalization journey covering current eFiling status, upcoming technology upgrades, and the evolving role of process servers.',
+    'ai-summary': 'Oklahoma legal support guidance from Just Legal Solutions for process serving, notary, and court document needs.',
     'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
   
   
@@ -56,7 +56,7 @@ const faqs = [
   },
   {
     question: 'What technology upgrades are planned for Oklahoma courts in 2026?',
-    answer: 'Oklahoma court officials have announced plans to modernize the state\ This guidance helps avoid delays, improves compliance, and supports stronger court-ready documentation in Oklahoma matters.'s court technology infrastructure, including upgrades to the OSCN platform, expanded eFiling capabilities for additional case types, improved electronic service options, and enhanced integration between court systems. These upgrades aim to reduce paper processing, improve access to justice for self-represented litigants, and streamline case management for attorneys and court staff across all 77 counties.',
+    answer: 'Oklahoma court officials have announced plans to modernize the state\'s court technology infrastructure, including upgrades to the OSCN platform, expanded eFiling capabilities for additional case types, improved electronic service options, and enhanced integration between court systems. These upgrades aim to reduce paper processing, improve access to justice for self-represented litigants, and streamline case management for attorneys and court staff across all 77 counties.',
   },
   {
     question: 'Can self-represented litigants use eFiling in Oklahoma courts?',

@@ -9,7 +9,7 @@ import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
   title: 'Notary Immigration Documents Oklahoma | I-9 & Affidavits',
-  description: 'Need immigration documents notarized in Oklahoma? Learn which forms require notarization and how Oklahoma\',
+  description: 'Need immigration documents notarized in Oklahoma? Learn which forms require notarization and how Oklahoma',
   keywords: 'notary public Oklahoma, mobile notary, notarization services, Oklahoma notary near me, document notarization',
   authors: [{ name: 'Just Legal Solutions Team' }],
   creator: 'Just Legal Solutions Team',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'Notary Immigration Documents Oklahoma | I-9 & Affidavits',
-    description: 'Need immigration documents notarized in Oklahoma? Learn which forms require notarization and how Oklahoma\',
+    description: 'Need immigration documents notarized in Oklahoma? Learn which forms require notarization and how Oklahoma',
     url: 'https://justlegalsolutions.org/blog/notary-services-immigration-documents-i9-affidavits-oklahoma',
     siteName: 'Just Legal Solutions',
     locale: 'en_US',
@@ -91,7 +91,7 @@ export default function BlogPost() {
       <UnifiedSchema
         pageType="article"
         pageTitle="Notary Immigration Documents Oklahoma | I-9 & Affidavits"
-        pageDescription="Need immigration documents notarized in Oklahoma? Learn which forms require notarization and how Oklahoma\"
+        pageDescription="Need immigration documents notarized in Oklahoma? Learn which forms require notarization and how Oklahoma"
         pageUrl="https://justlegalsolutions.org/blog/notary-services-immigration-documents-i9-affidavits-oklahoma"
         siteName="Just Legal Solutions"
         reviewCount={112}

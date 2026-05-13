@@ -161,7 +161,7 @@ export default function BlogPost() {
             Individual notarization \u2014 the kind you get at a bank, shipping store, or courthouse \u2014 works fine when you have one document and plenty of time. But when your business is processing ten, twenty, or a hundred documents each month, that approach falls apart fast. You are paying in staff hours, travel time, scheduling headaches, and missed deadlines. A corporate notary service flips that model. Instead of you chasing down notaries, the notary comes to you \u2014 on your schedule, at your location, with the capacity to handle dozens of signatures in a single appointment.
           </p>
           <p>
-            At <Link href="/notary-services" className="text-blue-600 hover:underline">Just Legal Solutions</Link>, our notary services are built specifically for Oklahoma businesses that need more than one-off notarizations. We handle everything from corporate resolutions and operating agreements to loan packages and employee onboarding documents, with the flexibility to scale as your volume grows.
+            At Just Legal Solutions, our notary services are built specifically for Oklahoma businesses that need more than one-off notarizations. We handle everything from corporate resolutions and operating agreements to loan packages and employee onboarding documents, with the flexibility to scale as your volume grows.
           </p>
 
           <h3>The Hidden Cost of One-Off Notary Appointments for Businesses</h3>
@@ -209,7 +209,7 @@ export default function BlogPost() {
             When you process documents one at a time, you pay those ancillary fees over and over \u2014 a travel charge here, a scheduling fee there, another trip across town next week. But when you bundle your notarization into a corporate package, those service fees get consolidated. Instead of paying ten separate travel charges for ten documents, you pay one travel fee for a single bulk appointment where all ten get done at once. The savings multiply quickly.
           </p>
           <p>
-            Volume discount pricing models are completely legal in Oklahoma, as long as the per-act fee does not exceed the statutory cap. A provider can waive travel fees, discount scheduling charges, or offer flat-rate appointment blocks \u2014 all while keeping the notary fee itself at that $5 ceiling. For a deeper dive into how Oklahoma notary fees work, check out our <Link href="/blog/oklahoma-notary-fees-guide" className="text-blue-600 hover:underline">Oklahoma notary fees guide</Link>.
+            Volume discount pricing models are completely legal in Oklahoma, as long as the per-act fee does not exceed the statutory cap. A provider can waive travel fees, discount scheduling charges, or offer flat-rate appointment blocks \u2014 all while keeping the notary fee itself at that $5 ceiling. For a deeper dive into how Oklahoma notary fees work, check out our Oklahoma notary fees guide.
           </p>
 
           <h3>How Service Fees Work Separately From the Notary Fee</h3>
@@ -246,7 +246,7 @@ export default function BlogPost() {
             Think about how your business works with other professional services. Your attorney may be on retainer. Your IT provider probably has a service agreement. Your accountant bills on a predictable schedule. Why should your notary service be any different? A retainer eliminates the friction of scheduling individual appointments, guarantees availability when you need it, and provides dedicated account management so your notary understands your business.
           </p>
           <p>
-            Retainers typically reduce overall notarization costs by 20-40% for businesses with recurring needs. Law firms, title companies, medical practices, and HR departments are ideal candidates. If your business processes documents monthly rather than sporadically, a retainer is almost certainly your best financial option. Visit our <Link href="/pricing" className="text-blue-600 hover:underline">pricing page</Link> to learn more about our current business packages \u2014 we\'d be happy to structure a retainer that fits your volume.
+            Retainers typically reduce overall notarization costs by 20-40% for businesses with recurring needs. Law firms, title companies, medical practices, and HR departments are ideal candidates. If your business processes documents monthly rather than sporadically, a retainer is almost certainly your best financial option. Visit our pricing page to learn more about our current business packages \u2014 we\'d be happy to structure a retainer that fits your volume.
           </p>
 
           <h2>Remote Online Notarization (RON): Scaling Corporate Notarization Without Boundaries</h2>
@@ -267,7 +267,7 @@ export default function BlogPost() {
             Traditional in-person notarization remains the better choice when original documents are required, when complex multi-party signings benefit from everyone being in the same room, or when industry regulations mandate physical presence. Some title insurers, for example, still require wet-ink signatures on certain loan documents. A good corporate notary service will help you determine which approach fits each document type in your workflow.
           </p>
           <p>
-            Here is the exciting part: with over 76% of Oklahoma zip codes having used RON services, adoption is now mainstream. Businesses that hesitated in 2020 are now embracing RON as a standard operational tool. If your business has not explored <Link href="/remote-online-notarization" className="text-blue-600 hover:underline">Remote Online Notarization</Link> yet, the learning curve is shorter than you think, and the efficiency gains are immediate.
+            Here is the exciting part: with over 76% of Oklahoma zip codes having used RON services, adoption is now mainstream. Businesses that hesitated in 2020 are now embracing RON as a standard operational tool. If your business has not explored Remote Online Notarization yet, the learning curve is shorter than you think, and the efficiency gains are immediate.
           </p>
 
           <h3>The RON Process for Corporate Clients: What to Expect</h3>
@@ -293,7 +293,7 @@ export default function BlogPost() {
             This is where a hybrid approach becomes powerful. Remote Online Notarization handles your signers who are remote, out-of-state, or working from home. Mobile notary services cover locations where in-person presence is required or preferred. Together, they create a statewide notarization network that reaches every corner of Oklahoma without your staff ever leaving the office.
           </p>
           <p>
-            At Just Legal Solutions, our <Link href="/service-areas" className="text-blue-600 hover:underline">mobile notary coverage spans all 77 Oklahoma counties</Link>. We bring all necessary supplies \u2014 stamps, journals, backup equipment \u2014 and can process dozens of signatures in a single appointment. For businesses with multi-location needs, we coordinate appointments across counties so your documents move forward on your timeline, not the notary\'s.
+            At Just Legal Solutions, our mobile notary coverage spans all 77 Oklahoma counties. We bring all necessary supplies \u2014 stamps, journals, backup equipment \u2014 and can process dozens of signatures in a single appointment. For businesses with multi-location needs, we coordinate appointments across counties so your documents move forward on your timeline, not the notary\'s.
           </p>
 
           <h3>Coordinating Bulk Appointments Across Multiple Locations</h3>
@@ -329,7 +329,7 @@ export default function BlogPost() {
 
           <h3>Questions to Ask During Your Initial Consultation</h3>
           <p>
-            When you <Link href="/contact" className="text-blue-600 hover:underline">schedule a consultation</Link> with a potential corporate notary partner, come prepared with questions. What volume discounts do you offer? Can you handle multi-county appointments? Do you provide after-hours or weekend service? What is your average turnaround time from scheduling to completion? Can you provide references from businesses similar to mine? Do you offer retainer agreements for recurring work? How do you handle RON sessions for out-of-state signers?
+            When you schedule a consultation with a potential corporate notary partner, come prepared with questions. What volume discounts do you offer? Can you handle multi-county appointments? Do you provide after-hours or weekend service? What is your average turnaround time from scheduling to completion? Can you provide references from businesses similar to mine? Do you offer retainer agreements for recurring work? How do you handle RON sessions for out-of-state signers?
           </p>
           <p>
             Always request an itemized written quote before scheduling bulk appointments. A professional provider will have no problem giving you a clear breakdown. Best-practice notaries serving corporate clients also maintain meticulous records for audit trails \u2014 because businesses need documentation that their notarization process was handled correctly, especially in regulated industries.

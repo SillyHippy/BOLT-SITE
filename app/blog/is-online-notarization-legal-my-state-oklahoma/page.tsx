@@ -60,7 +60,7 @@ const faqs = [
   },
   {
     question: 'Can I get a document notarized online for use in another state?',
-    answer: 'Whether an Oklahoma online notarization will be accepted in another state depends on that state\ This guidance helps avoid delays, improves compliance, and supports stronger court-ready documentation in Oklahoma matters.'s recognition laws. Under the Full Faith and Credit Clause and the Revised Uniform Law on Notarial Acts (RULONA), most states recognize notarial acts performed in compliance with the laws of the commissioning state. However, some states have not yet adopted RULONA or have specific restrictions on recognizing out-of-state online notarizations. If your document will be used in another state, confirm acceptance with the receiving agency, court, or title company before proceeding with online notarization.',
+    answer: 'Whether an Oklahoma online notarization will be accepted in another state depends on that state\'s recognition laws. Under the Full Faith and Credit Clause and the Revised Uniform Law on Notarial Acts (RULONA), most states recognize notarial acts performed in compliance with the laws of the commissioning state. However, some states have not yet adopted RULONA or have specific restrictions on recognizing out-of-state online notarizations. If your document will be used in another state, confirm acceptance with the receiving agency, court, or title company before proceeding with online notarization.',
   },
 ];
 
@@ -88,7 +88,7 @@ export default function BlogPost() {
             Prior to 2020, every notarization in Oklahoma required the signer to physically appear before the notary. This created significant barriers for rural residents, elderly and disabled individuals, people in hospitals and nursing homes, out-of-state property owners with Oklahoma real estate, and busy professionals who could not visit a notary during business hours. RON has eliminated many of these barriers.
           </p>
           <p className="mb-4">
-            At <Link href="/" className="text-blue-600">Just Legal Solutions</Link>, we recognized the transformative potential of RON early and invested in the technology and training necessary to offer both online and mobile in-person notarization services. Our clients now have the flexibility to choose the method that best fits their needs — whether that is a fully remote online session from their laptop or a face-to-face meeting at their kitchen table.
+            At Just Legal Solutions, we recognized the transformative potential of RON early and invested in the technology and training necessary to offer both online and mobile in-person notarization services. Our clients now have the flexibility to choose the method that best fits their needs — whether that is a fully remote online session from their laptop or a face-to-face meeting at their kitchen table.
           </p>
         </section>
 
@@ -197,7 +197,7 @@ export default function BlogPost() {
 
           <h3 className="text-xl font-semibold mb-3 mt-6">Availability</h3>
           <p className="mb-4">
-            RON offers the broadest availability — many platforms operate 24/7, connecting you with a notary within minutes. Mobile notaries like <Link href="/notary-services" className="text-blue-600">Just Legal Solutions</Link> offer same-day and scheduled appointments across all 77 Oklahoma counties. Traditional notary availability is limited to business hours at banks, shipping centers, and offices.
+            RON offers the broadest availability — many platforms operate 24/7, connecting you with a notary within minutes. Mobile notaries like Just Legal Solutions offer same-day and scheduled appointments across all 77 Oklahoma counties. Traditional notary availability is limited to business hours at banks, shipping centers, and offices.
           </p>
 
           <h3 className="text-xl font-semibold mb-3 mt-6">Universal Acceptance</h3>

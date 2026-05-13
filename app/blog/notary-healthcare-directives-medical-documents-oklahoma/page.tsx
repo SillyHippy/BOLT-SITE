@@ -365,7 +365,7 @@ export default function BlogPost() {
             </Link>{' '}
             for professional, licensed support across all 77 Oklahoma counties. Whether you need a medical power of attorney notarized, an advance directive properly witnessed, or guidance on which documents your family needs, our commissioned notaries are here to help with compassion and expertise. Call or text{' '}
             <a href="tel:5393676832" className="text-blue-600 hover:underline">(539) 367-6832</a>.{' '}
-            Visit our <Link href="/pricing" className="text-blue-600 hover:underline">pricing page</Link> for current service rates.
+            Visit our pricing page for current service rates.
           </p>
           </article>
 

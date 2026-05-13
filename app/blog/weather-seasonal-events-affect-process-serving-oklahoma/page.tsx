@@ -162,7 +162,7 @@ export default function BlogPost() {
             If you are an Oklahoma attorney, you already feel the tension. You know that your 180-day clock starts ticking the moment you file, and every day lost to weather is a day you will never get back. This article is your field guide to understanding how Oklahoma's seasons affect process serving, how to protect your deadline when storms hit, and why choosing the right process server matters more here than almost anywhere else in the country.
           </p>
           <p>
-            We will walk through each season's specific threats, break down the 180-day deadline trap, explore how rural Oklahoma geography amplifies every weather event, and give you practical strategies to stay ahead of the forecast. We serve all 77 Oklahoma counties at <Link href="/service-areas" className="text-blue-600 hover:underline">Just Legal Solutions</Link>, so we have navigated red dirt roads after thunderstorms, rerouted around tornado damage, and trudged through ice storms to complete service — and we are sharing everything we have learned.
+            We will walk through each season's specific threats, break down the 180-day deadline trap, explore how rural Oklahoma geography amplifies every weather event, and give you practical strategies to stay ahead of the forecast. We serve all 77 Oklahoma counties at Just Legal Solutions, so we have navigated red dirt roads after thunderstorms, rerouted around tornado damage, and trudged through ice storms to complete service — and we are sharing everything we have learned.
           </p>
 
           <h2>Oklahoma's Year-Round Weather Threats — A Seasonal Breakdown</h2>
@@ -296,7 +296,7 @@ export default function BlogPost() {
           <p className="bg-blue-50 border-l-4 border-blue-500 p-4 my-6">
             <strong>Need a process server who documents every attempt?</strong>{' '}
             <Link href="/contact" className="text-blue-600 hover:underline">Contact Just Legal Solutions</Link>{' '}
-            — we serve all 77 Oklahoma counties, rain or shine, and we build the documentation that protects your case. Visit our <Link href="/pricing" className="text-blue-600 hover:underline">pricing page</Link> to learn more about our professional process serving options.
+            — we serve all 77 Oklahoma counties, rain or shine, and we build the documentation that protects your case. Visit our pricing page to learn more about our professional process serving options.
           </p>
 
           <h2>Rural Oklahoma — Where Geography Amplifies Every Weather Event</h2>
@@ -317,7 +317,7 @@ export default function BlogPost() {
             Weather in Oklahoma is not uniform. Ice storms tend to hit eastern Oklahoma harder. Tornadoes favor central Oklahoma — the traditional Tornado Alley corridor. Flash flooding is statewide but especially dangerous in low-lying southeastern counties. The Panhandle faces blizzard conditions that rarely affect the rest of the state. A process server working out of Tulsa may find themselves unable to reach a serve in McAlester due to an ice storm — while conditions in Oklahoma City are perfectly clear.
           </p>
           <p>
-            This is why <Link href="/service-areas" className="text-blue-600 hover:underline">statewide coverage</Link> matters so much. A firm with servers positioned across all 77 counties can route attempts around weather events. If eastern Oklahoma is under an ice storm warning, a server in Lawton can cover southwestern serves while waiting for roads to clear in the east. Regional firms that only serve a handful of counties have no such flexibility. When their territory gets hit, they simply stop working — and your deadline keeps shrinking.
+            This is why statewide coverage matters so much. A firm with servers positioned across all 77 counties can route attempts around weather events. If eastern Oklahoma is under an ice storm warning, a server in Lawton can cover southwestern serves while waiting for roads to clear in the east. Regional firms that only serve a handful of counties have no such flexibility. When their territory gets hit, they simply stop working — and your deadline keeps shrinking.
           </p>
 
           <h3>Why Statewide-Coverage Firms Have a Weather Advantage</h3>
@@ -354,7 +354,7 @@ export default function BlogPost() {
             Not all process servers are equal when it comes to weather preparedness. Look for a server with experience serving in all 77 Oklahoma counties across all four seasons. Ask whether they proactively communicate about weather delays and adjusted timelines. Verify that they understand Oklahoma-specific statutes: the 180-day deadline, the "good cause" standard, and the court closure rules. Ask about their contingency planning — backup routes, flexible scheduling, and documentation protocols.
           </p>
           <p>
-            The right process server is not just a delivery person — they are a strategic partner in protecting your case timeline. They should be thinking about weather before you do, adjusting routes before you ask, and documenting everything without being reminded. At <Link href="/about" className="text-blue-600 hover:underline">Just Legal Solutions</Link>, we have navigated Oklahoma's weather extremes for years, and we build documentation protocols specifically designed to support attorneys if weather ever threatens their deadlines.
+            The right process server is not just a delivery person — they are a strategic partner in protecting your case timeline. They should be thinking about weather before you do, adjusting routes before you ask, and documenting everything without being reminded. At Just Legal Solutions, we have navigated Oklahoma's weather extremes for years, and we build documentation protocols specifically designed to support attorneys if weather ever threatens their deadlines.
           </p>
 
           <p className="bg-blue-50 border-l-4 border-blue-500 p-4 my-6">

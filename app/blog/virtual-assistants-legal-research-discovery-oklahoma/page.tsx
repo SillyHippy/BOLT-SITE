@@ -148,7 +148,7 @@ export default function BlogPost() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 -mt-8 relative z-10 pb-16">
           <article className="prose prose-lg prose-blue max-w-none bg-white p-8 md:p-12 rounded-2xl shadow-lg border border-gray-100">
             <p className="lead text-xl text-gray-600 mb-8">
-            If you are an Oklahoma attorney, here is a number that should keep you up at night: attorneys spend approximately 40 percent of their time on non-billable work. That is nearly half your week consumed by research admin, document organization, deadline tracking, and discovery preparation — tasks that do not require a law license but devour your billable hours. The good news? A trained virtual assistant can reclaim 10 to 15 billable hours per week by handling legal research support and discovery organization under your direct supervision. In this guide, we will show you exactly how virtual assistants help with legal research and discovery in Oklahoma, including practical OSCN.net workflows, Discovery Code compliance under 12 O.S. §§ 3224–3237, and the ethics framework you need to delegate with confidence under ORPC Rule 5.3. Whether you practice in Oklahoma City, Tulsa, or serve clients across all 77 counties, this is the Oklahoma-specific guidance you will not find anywhere else. Ready to reclaim those lost hours? <Link href="/contact" className="text-blue-600 hover:underline">Contact Just Legal Solutions</Link> to learn how our Oklahoma-trained virtual assistants can support your legal research and discovery workflow.
+            If you are an Oklahoma attorney, here is a number that should keep you up at night: attorneys spend approximately 40 percent of their time on non-billable work. That is nearly half your week consumed by research admin, document organization, deadline tracking, and discovery preparation — tasks that do not require a law license but devour your billable hours. The good news? A trained virtual assistant can reclaim 10 to 15 billable hours per week by handling legal research support and discovery organization under your direct supervision. In this guide, we will show you exactly how virtual assistants help with legal research and discovery in Oklahoma, including practical OSCN.net workflows, Discovery Code compliance under 12 O.S. §§ 3224–3237, and the ethics framework you need to delegate with confidence under ORPC Rule 5.3. Whether you practice in Oklahoma City, Tulsa, or serve clients across all 77 counties, this is the Oklahoma-specific guidance you will not find anywhere else. Ready to reclaim those lost hours? Contact Just Legal Solutions to learn how our Oklahoma-trained virtual assistants can support your legal research and discovery workflow.
           </p>
 
           <h2>What Legal Research and Discovery Tasks Can a VA Actually Handle?</h2>
@@ -168,7 +168,7 @@ export default function BlogPost() {
             Consider a typical week in a small Oklahoma litigation practice. You have three active cases in different district courts — one in Tulsa County, one in Cleveland County, and one in Comanche County. Each case is in a different phase of discovery. Without dedicated support, you are context-switching between researching case law, checking dockets, organizing documents, and tracking deadlines. With a VA handling the research prep and discovery logistics, you show up to each case with organized materials, deadline alerts already calendared, and research memos waiting for your review. That is the difference between working in your practice and working on your practice.
           </p>
           <p>
-            For a broader look at what tasks can be delegated beyond research and discovery, see our guide on <Link href="/blog/virtual-paralegal-services-delegated-tasks-oklahoma" className="text-blue-600 hover:underline">virtual paralegal services and delegated tasks in Oklahoma</Link>.
+            For a broader look at what tasks can be delegated beyond research and discovery, see our guide on virtual paralegal services and delegated tasks in Oklahoma.
           </p>
 
           <h2>The Oklahoma Discovery Code: How VAs Keep You Compliant (12 O.S. §§ 3224–3237)</h2>
@@ -194,7 +194,7 @@ export default function BlogPost() {
             The stakes get even higher with motions to compel. Under <strong>12 O.S. § 3237</strong>, an attorney must certify that they made a good-faith effort to confer with the opposing party before filing. Your VA can document this entire process: drafting the meet-and-confer letter, logging correspondence dates, organizing the disputed discovery requests and responses, and preparing a timeline showing your compliance efforts. If the court questions your good-faith certification, you have a complete paper trail ready to present.
           </p>
           <p>
-            To explore how our virtual assistants can support your discovery workflow, visit our <Link href="/services/virtual-assistant-services" className="text-blue-600 hover:underline">virtual assistant services</Link> page for detailed capabilities.
+            To explore how our virtual assistants can support your discovery workflow, visit our virtual assistant services page for detailed capabilities.
           </p>
 
           <h2>OSCN.net for Virtual Assistants: A Practical Oklahoma Research Workflow</h2>
@@ -223,7 +223,7 @@ export default function BlogPost() {
             The practical value of this workflow compounds over time. A VA who regularly researches Oklahoma law builds institutional knowledge about your practice area — they start recognizing recurring statutory references, know which judges tend to issue specific types of orders, and can flag emerging case law that might affect your active matters. They become a true research partner, not just a document fetcher. And because OSCN.net is free and publicly accessible, your VA can begin work immediately without waiting for expensive database subscriptions or firm IT setup.
           </p>
           <p>
-            To learn more about our Oklahoma-focused expertise and how we support attorneys across all 77 counties, visit our <Link href="/about" className="text-blue-600 hover:underline">About page</Link>.
+            To learn more about our Oklahoma-focused expertise and how we support attorneys across all 77 counties, visit our About page.
           </p>
 
           <h2>E-Discovery Support: Document Management and Review Platforms</h2>
@@ -249,7 +249,7 @@ export default function BlogPost() {
             The real strategic advantage comes from consistency. A dedicated VA learns your firm's privilege standards, knows your preferred formatting, and applies the same rigor to every production. This consistency reduces the risk of inadvertent disclosure — the kind of mistake that can waive privilege and expose sensitive client communications. In high-stakes litigation, that risk reduction alone justifies the investment in trained VA support.
           </p>
           <p>
-            For more on best practices for VA-supported document review, watch for our upcoming guide on <Link href="/blog/outsourcing-document-review-virtual-assistant-best-practices-oklahoma" className="text-blue-600 hover:underline">outsourcing document review to virtual assistants</Link>.
+            For more on best practices for VA-supported document review, watch for our upcoming guide on outsourcing document review to virtual assistants.
           </p>
 
           <h2>Ethics and Compliance: ORPC Rule 5.3 and Attorney Supervision</h2>
@@ -278,11 +278,11 @@ export default function BlogPost() {
             On the technology side, implement <strong>role-based access controls</strong> that limit your VA to only the matters and documents they need. Use encrypted communication channels — never send confidential client information through unsecured email. And choose secure file sharing platforms with access logging and expiration features. Under ORPC Rule 1.6 and Rule 5.3, you remain responsible for ensuring your nonlawyer assistants protect client confidentiality, so your technical safeguards must be as robust as your supervision protocols.
           </p>
           <p>
-            For practical guidance on onboarding a VA with these compliance frameworks built in, see our guide on <Link href="/blog/onboard-virtual-assistant-legal-practice-oklahoma" className="text-blue-600 hover:underline">how to onboard a virtual assistant for your Oklahoma legal practice</Link>.
+            For practical guidance on onboarding a VA with these compliance frameworks built in, see our guide on how to onboard a virtual assistant for your Oklahoma legal practice.
           </p>
 
           <p className="text-gray-700 italic mt-8 mb-8">
-            Ready to reclaim 10–15 billable hours per week? <Link href="/contact" className="text-blue-600 hover:underline">Contact Just Legal Solutions</Link> to learn how our Oklahoma-trained virtual assistants can support your legal research and discovery workflow.
+            Ready to reclaim 10–15 billable hours per week? Contact Just Legal Solutions to learn how our Oklahoma-trained virtual assistants can support your legal research and discovery workflow.
           </p>
           </article>
           
@@ -363,7 +363,7 @@ export default function BlogPost() {
             Legal research and discovery are not going away — but the way Oklahoma attorneys approach them is evolving. A trained virtual assistant, working under proper supervision and equipped with Oklahoma-specific expertise, can reclaim 10 to 15 billable hours per week while ensuring compliance with the Oklahoma Discovery Code, OSCN.net research workflows, and ORPC Rule 5.3 ethics requirements. The firms that embrace this model will operate leaner, bill more hours, and deliver better client outcomes. The firms that do not will continue losing nearly half their week to non-billable administrative work.
           </p>
           <p>
-            Every day your attorneys spend on non-billable research is revenue left on the table. Let Just Legal Solutions provide the trained, Oklahoma-savvy virtual support your firm needs. We understand the unique demands of Oklahoma practice — from OSCN.net navigation to Discovery Code compliance across all 77 counties — and we are ready to help you delegate with confidence. <Link href="/contact" className="text-blue-600 hover:underline">Get in touch today</Link> and discover how a virtual assistant can transform your research and discovery workflow.
+            Every day your attorneys spend on non-billable research is revenue left on the table. Let Just Legal Solutions provide the trained, Oklahoma-savvy virtual support your firm needs. We understand the unique demands of Oklahoma practice — from OSCN.net navigation to Discovery Code compliance across all 77 counties — and we are ready to help you delegate with confidence. Get in touch today and discover how a virtual assistant can transform your research and discovery workflow.
           </p>
 
           <p className="text-gray-700 italic mt-8">

@@ -61,7 +61,7 @@ const faqs = [
   },
   {
     question: 'What forms of ID are accepted for notarization in Oklahoma?',
-    answer: 'Under Oklahoma notary law, acceptable forms of identification for notarization include a current Oklahoma driver\ This guidance helps avoid delays, improves compliance, and supports stronger court-ready documentation in Oklahoma matters.'s license, a current state-issued identification card from any U.S. state, a U.S. passport, a U.S. military ID, or a federally recognized tribal identification card. The ID must be current (not expired) and display a photograph and physical description of the signer. If you do not have acceptable ID, some notarizations may still proceed using credible identifying witnesses — contact us to discuss your specific situation.',
+    answer: 'Under Oklahoma notary law, acceptable forms of identification for notarization include a current Oklahoma driver\'s license, a current state-issued identification card from any U.S. state, a U.S. passport, a U.S. military ID, or a federally recognized tribal identification card. The ID must be current (not expired) and display a photograph and physical description of the signer. If you do not have acceptable ID, some notarizations may still proceed using credible identifying witnesses — contact us to discuss your specific situation.',
   },
   {
     question: 'Can I get a mobile notary after hours or on weekends?',
@@ -71,12 +71,12 @@ const faqs = [
   {
     question: 'What types of documents can a mobile notary notarize?',
     answer:
-      'A mobile notary in Oklahoma can notarize a wide variety of documents, including powers of attorney, affidavits, real estate deeds and mortgage documents, wills and trust documents, contracts and agreements, consent forms, medical directives, and financial documents. Any document requiring a notarized signature can generally be handled by a mobile notary. For specialized documents like real estate closings, our <Link href="/notary" className="text-blue-600 hover:underline">notary services team</Link> has the expertise to ensure everything is executed properly.',
+      'A mobile notary in Oklahoma can notarize a wide variety of documents, including powers of attorney, affidavits, real estate deeds and mortgage documents, wills and trust documents, contracts and agreements, consent forms, medical directives, and financial documents. Any document requiring a notarized signature can generally be handled by a mobile notary. For specialized documents like real estate closings, our notary services team has the expertise to ensure everything is executed properly.',
   },
   {
     question: 'How far will a mobile notary travel, and is there a travel fee?',
     answer:
-      'Travel radius and fees vary by provider. At Just Legal Solutions, we serve clients across all 77 Oklahoma counties, from Tulsa to the most rural parts of the state. Travel fees depend on the distance from our nearest notary to your location. For current pricing on mobile notary services, <Link href="/pricing" className="text-blue-600 hover:underline">view our pricing page</Link>. We strive to keep our travel fees transparent and competitive while ensuring you receive convenient, professional service wherever you are in Oklahoma.',
+      'Travel radius and fees vary by provider. At Just Legal Solutions, we serve clients across all 77 Oklahoma counties, from Tulsa to the most rural parts of the state. Travel fees depend on the distance from our nearest notary to your location. For current pricing on mobile notary services, view our pricing page. We strive to keep our travel fees transparent and competitive while ensuring you receive convenient, professional service wherever you are in Oklahoma.',
   },
 ];
 
@@ -149,7 +149,7 @@ export default function BlogPost() {
             Oklahoma Notary Public Act. This means the notarizations you receive
             from a mobile notary carry the same legal weight as those performed
             in a traditional office setting. For more about our capabilities,
-            visit our <Link href="/notary" className="text-blue-600 hover:underline">notary services</Link> page.
+            visit our notary services page.
           </p>
         </section>
 
@@ -190,7 +190,7 @@ export default function BlogPost() {
             we can arrange for a qualified notary to meet you. Travel fees vary
             based on distance from our nearest available notary, and we are
             always transparent about costs before you book. For detailed pricing,
-            see our <Link href="/pricing" className="text-blue-600 hover:underline">pricing page</Link>.
+            see our pricing page.
           </p>
         </section>
 
@@ -342,7 +342,7 @@ export default function BlogPost() {
           <p className="mb-4">
             At Just Legal Solutions, we believe in transparent pricing with no
             hidden fees. For current rates on all our mobile notary services,
-            please <Link href="/pricing" className="text-blue-600 hover:underline">visit our pricing page</Link>.
+            please visit our pricing page.
             We will always provide a clear quote before confirming your
             appointment.
           </p>

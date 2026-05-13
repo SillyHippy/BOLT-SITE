@@ -184,7 +184,7 @@ export default function BlogPost() {
           </p>
 
           <p>
-            Defective service can delay a guardianship for weeks or months, during which time a vulnerable individual may suffer financial exploitation, medical neglect, or physical danger. Working with an experienced licensed process server who understands guardianship proceedings is not a luxury; it is a necessity. Our <Link href="/process-serving" className="text-blue-600 hover:underline">licensed Oklahoma process serving services</Link> are designed for complex proceedings like guardianships across all 77 counties.
+            Defective service can delay a guardianship for weeks or months, during which time a vulnerable individual may suffer financial exploitation, medical neglect, or physical danger. Working with an experienced licensed process server who understands guardianship proceedings is not a luxury; it is a necessity. Our licensed Oklahoma process serving services are designed for complex proceedings like guardianships across all 77 counties.
           </p>
 
           <h2>Who Can Serve Guardianship Papers on the Ward in Oklahoma</h2>
@@ -216,7 +216,7 @@ export default function BlogPost() {
           </p>
 
           <p>
-            A <strong>licensed Oklahoma process server</strong>, by contrast, offers speed, neutrality, and specialized expertise. Licensed process servers have statewide authority under <strong>12 O.S. §158.1</strong>, must be at least 18 years old, must be Oklahoma residents, and must carry a $5,000 bond. A licensed server can be at the nursing home at 8 a.m. tomorrow morning, serve the ward professionally, and have the notarized affidavit back to you by the end of the day. That is the kind of efficiency that guardianship timelines demand. You can learn more about <Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline">Oklahoma process server licensing requirements</Link> on our dedicated page.
+            A <strong>licensed Oklahoma process server</strong>, by contrast, offers speed, neutrality, and specialized expertise. Licensed process servers have statewide authority under <strong>12 O.S. §158.1</strong>, must be at least 18 years old, must be Oklahoma residents, and must carry a $5,000 bond. A licensed server can be at the nursing home at 8 a.m. tomorrow morning, serve the ward professionally, and have the notarized affidavit back to you by the end of the day. That is the kind of efficiency that guardianship timelines demand. You can learn more about Oklahoma process server licensing requirements on our dedicated page.
           </p>
 
           <p>
@@ -293,7 +293,7 @@ export default function BlogPost() {
           </div>
 
           <p>
-            Our team handles all four guardianship notice timelines with precision across Oklahoma's 77 counties. Whether you need a 10-day general guardianship service or a same-day emergency filing, we understand the statutory requirements and can help ensure your notice is served correctly the first time. Learn more about our <Link href="/process-serving" className="text-blue-600 hover:underline">statewide process serving coverage</Link>.
+            Our team handles all four guardianship notice timelines with precision across Oklahoma's 77 counties. Whether you need a 10-day general guardianship service or a same-day emergency filing, we understand the statutory requirements and can help ensure your notice is served correctly the first time. Learn more about our statewide process serving coverage.
           </p>
 
           <h2>The 11 Categories of Interested Parties Who Must Receive Notice</h2>
@@ -369,7 +369,7 @@ export default function BlogPost() {
           </p>
 
           <p>
-            At Just Legal Solutions, our <Link href="/process-serving" className="text-blue-600 hover:underline">process servers are experienced in serving papers at care facilities</Link> across Oklahoma with professionalism and discretion. We know how to navigate facility policies, work with staff respectfully, and complete personal service even in the most challenging circumstances.
+            At Just Legal Solutions, our process servers are experienced in serving papers at care facilities across Oklahoma with professionalism and discretion. We know how to navigate facility policies, work with staff respectfully, and complete personal service even in the most challenging circumstances.
           </p>
 
           <h2>The Ongoing Service Obligation: Annual Reports and Post-Appointment Proceedings</h2>
@@ -403,7 +403,7 @@ export default function BlogPost() {
           </p>
 
           <p>
-            Working with the same licensed process server year after year means they already know your case, the interested parties, and the facility. They can handle recurring service needs efficiently and accurately. Contact Just Legal Solutions to discuss ongoing guardianship support packages tailored to your caseload. Visit our <Link href="/pricing" className="text-blue-600 hover:underline">pricing page</Link> for information about service options, and learn more about our <Link href="/process-serving" className="text-blue-600 hover:underline">statewide coverage for recurring guardianship service needs</Link>.
+            Working with the same licensed process server year after year means they already know your case, the interested parties, and the facility. They can handle recurring service needs efficiently and accurately. Contact Just Legal Solutions to discuss ongoing guardianship support packages tailored to your caseload. Visit our pricing page for information about service options, and learn more about our statewide coverage for recurring guardianship service needs.
           </p>
           </article>
           

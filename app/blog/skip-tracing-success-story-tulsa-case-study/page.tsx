@@ -52,7 +52,7 @@ const faqs = [
   },
   {
     question: 'What information do you need to start skip tracing?',
-    answer: 'To begin a skip trace, we typically need the subject\ This guidance helps avoid delays, improves compliance, and supports stronger court-ready documentation in Oklahoma matters.'s full name, last known address, date of birth or approximate age, and any known phone numbers or email addresses. Additional details such as known associates, former employers, vehicle information, or social media handles can significantly speed up the process. Even minimal information can often yield results with professional database tools.',
+    answer: 'To begin a skip trace, we typically need the subject\'s full name, last known address, date of birth or approximate age, and any known phone numbers or email addresses. Additional details such as known associates, former employers, vehicle information, or social media handles can significantly speed up the process. Even minimal information can often yield results with professional database tools.',
   },
   {
     question: 'What happens if skip tracing still cannot locate the defendant?',
@@ -112,7 +112,7 @@ export default function BlogPost() {
         <section className="bg-white rounded-lg shadow-sm p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">The Skip Tracing Process Deployed</h2>
           <p className="mb-4">
-            When the attorney transferred the case to Just Legal Solutions, we immediately shifted from standard process serving to our comprehensive <Link href="/skip-tracing" className="text-blue-600 hover:underline">skip tracing protocol</Link>. Our approach combines multiple investigative techniques to maximize the probability of a successful locate.
+            When the attorney transferred the case to Just Legal Solutions, we immediately shifted from standard process serving to our comprehensive skip tracing protocol. Our approach combines multiple investigative techniques to maximize the probability of a successful locate.
           </p>
 
           <h3 className="text-xl font-semibold mb-3 mt-6">Database Searches and Public Records</h3>
@@ -206,7 +206,7 @@ export default function BlogPost() {
             <li>Cases involving debtors, former tenants, or estranged family members with motive to hide.</li>
           </ul>
           <p className="mb-4">
-            If you are facing a difficult service situation, do not wait for the problem to resolve itself. Every day of delay is a day your case cannot move forward. <Link href="/service-areas" className="text-blue-600 hover:underline">We serve all 77 Oklahoma counties</Link> and have the specialized tools and experience to locate even the most evasive defendants.
+            If you are facing a difficult service situation, do not wait for the problem to resolve itself. Every day of delay is a day your case cannot move forward. We serve all 77 Oklahoma counties and have the specialized tools and experience to locate even the most evasive defendants.
           </p>
         </section>
 

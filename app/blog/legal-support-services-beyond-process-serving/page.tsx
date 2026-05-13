@@ -112,7 +112,7 @@ export default function BlogPost() {
         <p className="text-gray-600 mb-8 text-lg">
           At Just Legal Solutions, our licensed team brings over 50 years of
           combined experience supporting Oklahoma law firms with comprehensive
-          legal support services. While <Link href="/process-serving" className="text-blue-600 hover:underline">process serving</Link> remains the
+          legal support services. While process serving remains the
           cornerstone of what we do, the modern legal practice demands a broader
           ecosystem of support services. From court filing and skip tracing to
           mobile notary services and secure document delivery, understanding the
@@ -183,7 +183,7 @@ export default function BlogPost() {
           </p>
           <p className="mb-4">
             For a deeper understanding of our process serving capabilities,
-            visit our <Link href="/process-serving" className="text-blue-600 hover:underline">process serving page</Link> or explore how{' '}
+            visit our process serving page or explore how{' '}
             <Link href="/service-areas" className="text-blue-600 hover:underline">we serve all 77 Oklahoma counties</Link>.
           </p>
         </section>
@@ -284,7 +284,7 @@ export default function BlogPost() {
             copies, protests, and depositions. We maintain proper notary
             journals and follow all Oklahoma statutory requirements to ensure
             every notarization holds up under legal scrutiny. Learn more about
-            our <Link href="/notary" className="text-blue-600 hover:underline">mobile notary services</Link>.
+            our mobile notary services.
           </p>
         </section>
 

@@ -164,7 +164,7 @@ export default function BlogPost() {
             The financial impact is staggering. Email overload costs exceed $21,000 per employee per year in lost productivity. For a solo practitioner in Oklahoma City or a small firm in Tulsa, that is real money walking out the door. When you factor in the opportunity cost of billable hours never captured — motions not drafted, consultations not held, cases not developed — the true cost climbs into six figures annually.
           </p>
           <p>
-            The direct impact is unmistakable: less time for billable work, client development, and case strategy. You did not go to law school to become an email manager. And yet, for too many Oklahoma attorneys, that is precisely what the practice has become. Combined with <Link href="/blog/law-firm-back-office-support-streamlining-operations-oklahoma" className="text-blue-600 hover:underline">back-office inefficiencies that compound the email burden</Link>, the modern attorney is drowning in digital correspondence while their practice suffers.
+            The direct impact is unmistakable: less time for billable work, client development, and case strategy. You did not go to law school to become an email manager. And yet, for too many Oklahoma attorneys, that is precisely what the practice has become. Combined with back-office inefficiencies that compound the email burden, the modern attorney is drowning in digital correspondence while their practice suffers.
           </p>
 
           <h3>The Cost of Inbox Chaos — Beyond Lost Hours</h3>
@@ -175,7 +175,7 @@ export default function BlogPost() {
             Slow response times directly correlate with client attrition. A potential client facing a custody battle in Canadian County or a contract dispute in Oklahoma County sends three emails to different firms. The firm that responds within two hours gets the consultation. The firm that responds in three days — or never — loses that client permanently. In a competitive legal market, your inbox response time is often your first impression, and you rarely get a second chance.
           </p>
           <p>
-            For Oklahoma attorneys, the challenge is compounded by geography. Practicing across Oklahoma&apos;s 77 counties means managing communications from multiple court systems — district courts, tribal courts, and federal courts across the Northern, Western, and Eastern Districts. An attorney handling matters in both Custer County and Tulsa County faces uniquely dispersed communication demands. <Link href="/blog/client-relationship-management-oklahoma-law-firms" className="text-blue-600 hover:underline">Client communication expectations are evolving</Link>, and Oklahoma attorneys must evolve with them or risk being left behind.
+            For Oklahoma attorneys, the challenge is compounded by geography. Practicing across Oklahoma&apos;s 77 counties means managing communications from multiple court systems — district courts, tribal courts, and federal courts across the Northern, Western, and Eastern Districts. An attorney handling matters in both Custer County and Tulsa County faces uniquely dispersed communication demands. Client communication expectations are evolving, and Oklahoma attorneys must evolve with them or risk being left behind.
           </p>
 
           <h2>Oklahoma&apos;s Ethical Framework for Attorney Email Management</h2>
@@ -210,7 +210,7 @@ export default function BlogPost() {
             Even when you delegate email management, the buck stops with you. ORPC Rules 5.1 and 5.3 require attorneys to supervise subordinate lawyers and non-lawyer assistants. When a VA handles your email, you remain responsible for ensuring their work complies with all ethical obligations.
           </p>
           <p>
-            This supervision duty translates into practical protocols: documented procedures for what your VA can and cannot do, regular review of VA communications (especially in the early stages), clear scope boundaries that prevent the unauthorized practice of law, and open lines of communication for questions or concerns. A VA can sort, prioritize, draft routine responses, and flag urgent items. They cannot provide legal advice, interpret documents, or make strategic decisions about cases. <Link href="/blog/virtual-paralegal-services-delegated-tasks-oklahoma" className="text-blue-600 hover:underline">Understanding task delegation boundaries is critical</Link> to maintaining ethical compliance.
+            This supervision duty translates into practical protocols: documented procedures for what your VA can and cannot do, regular review of VA communications (especially in the early stages), clear scope boundaries that prevent the unauthorized practice of law, and open lines of communication for questions or concerns. A VA can sort, prioritize, draft routine responses, and flag urgent items. They cannot provide legal advice, interpret documents, or make strategic decisions about cases. Understanding task delegation boundaries is critical to maintaining ethical compliance.
           </p>
           <p>
             The key is proportionality. Your supervision should match the complexity and risk of the tasks delegated. Inbox triage and spam filtering require less oversight than drafting client-facing responses. Build trust gradually — start with a triage-only model where your VA sorts but does not respond, then expand the scope as confidence grows.
@@ -234,7 +234,7 @@ export default function BlogPost() {
             With all that a VA can do, it is equally important to understand where the line is drawn. A VA cannot provide legal advice or interpret legal documents. They cannot make strategic decisions about cases or communicate legal opinions to clients. All client-facing communications drafted by a VA must be reviewed by the attorney before sending.
           </p>
           <p>
-            The unauthorized practice of law prohibition applies equally to VA-drafted communications. A response that interprets a statute, analyzes case law, or advises a client on their legal rights crosses the line. Your VA should be trained to recognize these boundaries and to escalate any email that touches on substantive legal issues. <Link href="/blog/virtual-assistant-transform-law-firm-efficiency-oklahoma" className="text-blue-600 hover:underline">Efficiency gains must never compromise ethics compliance</Link> — and with proper protocols, they do not have to.
+            The unauthorized practice of law prohibition applies equally to VA-drafted communications. A response that interprets a statute, analyzes case law, or advises a client on their legal rights crosses the line. Your VA should be trained to recognize these boundaries and to escalate any email that touches on substantive legal issues. Efficiency gains must never compromise ethics compliance — and with proper protocols, they do not have to.
           </p>
 
           <h2>Building a Secure Email Delegation System</h2>
@@ -292,7 +292,7 @@ export default function BlogPost() {
             Here is the math that should change how you think about your inbox. Delegating email management to a VA can recover 2 to 4 billable hours daily. At $349 per hour, recovering just 2 hours equals $698 per day. Over a 5-day workweek, that is $3,490. Over 48 working weeks per year, that is $167,520 in additional billable capacity — from a single delegation decision.
           </p>
           <p>
-            Even if you bill at Oklahoma&apos;s more modest average rates, the numbers are compelling. An attorney billing $225 per hour who recovers 2 billable hours daily gains $108,000 in annual capacity. The cost of VA support pales in comparison to the revenue recovered. <Link href="/pricing" className="text-blue-600 hover:underline">Visit our pricing page</Link> to explore flexible VA support plans that fit your firm&apos;s needs.
+            Even if you bill at Oklahoma&apos;s more modest average rates, the numbers are compelling. An attorney billing $225 per hour who recovers 2 billable hours daily gains $108,000 in annual capacity. The cost of VA support pales in comparison to the revenue recovered. Visit our pricing page to explore flexible VA support plans that fit your firm&apos;s needs.
           </p>
           <p>
             The cost of inaction is equally stark. Attorney burnout costs firms between $200,000 and $500,000 per lawyer lost — recruitment, training, lost billable hours during transition, and client departures. Law firms leveraging virtual assistants increase billable hours by 40% on average while reducing operational costs by up to 70%. The question is not whether you can afford to delegate your email. The question is whether you can afford not to.
@@ -306,7 +306,7 @@ export default function BlogPost() {
             A VA changes the equation by filtering interruptions, handling routine responses, and ensuring nothing falls through the cracks. You get focused blocks of time for substantive legal work while your VA manages the digital noise. Firms using automated client portals report a 45% reduction in status inquiry calls and a 40-50% reduction in overall email volume — compounding the benefits of VA support.
           </p>
           <p>
-            The compound effect is transformative: better client response times (because your VA is monitoring), reduced burnout (because you are not chained to your inbox), and more billable hours (because you are actually doing legal work). <Link href="/blog/virtual-assistant-solo-practitioners-practice-without-staff-oklahoma" className="text-blue-600 hover:underline">Solo practitioners see disproportionate gains from email delegation</Link> — when you are the only attorney in the office, every hour recovered is an hour you can bill.
+            The compound effect is transformative: better client response times (because your VA is monitoring), reduced burnout (because you are not chained to your inbox), and more billable hours (because you are actually doing legal work). Solo practitioners see disproportionate gains from email delegation — when you are the only attorney in the office, every hour recovered is an hour you can bill.
           </p>
 
           {/* Primary CTA */}

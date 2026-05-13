@@ -169,7 +169,7 @@ export default function BlogPost() {
             Oklahoma solo and small firms feel this pain most acutely. When you do not have a large support staff, disorganization falls directly on the attorney. There is no paralegal to hunt down the file. There is no document clerk to maintain the retention calendar. You are the one stopping billable work to find a misplaced certificate of service or recreate a motion that disappeared into a digital black hole. The good news is that systematic filing can reclaim those hours, speed up your client response times, and reduce your malpractice exposure all at once.
           </p>
           <p>
-            If your filing system is costing you billable hours, <Link href="/contact" className="text-blue-600 hover:underline">contact Just Legal Solutions</Link> to learn how our <Link href="/blog/virtual-assistant-transform-law-firm-efficiency-oklahoma" className="text-blue-600 hover:underline">virtual assistant services</Link> can help you reclaim that time and put your practice back on track.
+            If your filing system is costing you billable hours, contact Just Legal Solutions to learn how our virtual assistant services can help you reclaim that time and put your practice back on track.
           </p>
 
           <h2>Oklahoma Legal Requirements Every Filing System Must Account For</h2>
@@ -192,7 +192,7 @@ export default function BlogPost() {
             For your broader business records, 67 O.S. § 252 provides that business records may be destroyed after three years unless a specific preservation period is designated by law. Reproductions made in the regular course of business — including digital reproductions — satisfy legal retention requirements. Complementing this, 67 O.S. § 301 provides that photographs, microfilm, and digital reproductions are deemed original records for all purposes, including introduction as evidence in Oklahoma courts.
           </p>
           <p>
-            The practical takeaway is clear: your filing system must track retention periods by case type and flag files approaching destruction eligibility. A general matter opened in January 2020 may be eligible for destruction in January 2026 under a six-year policy. But a guardianship matter or a minor's case from the same year likely is not. If you want to dig deeper into retention rules, our guide on <Link href="/blog/legal-document-retention-requirements-oklahoma" className="text-blue-600 hover:underline">legal document retention requirements in Oklahoma</Link> covers this topic in full detail.
+            The practical takeaway is clear: your filing system must track retention periods by case type and flag files approaching destruction eligibility. A general matter opened in January 2020 may be eligible for destruction in January 2026 under a six-year policy. But a guardianship matter or a minor's case from the same year likely is not. If you want to dig deeper into retention rules, our guide on legal document retention requirements in Oklahoma covers this topic in full detail.
           </p>
 
           <h2>Choosing the Right Filing System for Your Oklahoma Law Firm</h2>
@@ -215,7 +215,7 @@ export default function BlogPost() {
             Beyond the numbering scheme, consider these practical enhancements. Color-code by practice area — blue for family law, green for criminal, red for estate planning — so anyone in the office can identify a file type at a glance. Use consistent file naming conventions in your digital system that mirror your physical system. And maintain a master index or cross-reference system so that even if a staff member is out sick, someone else can locate any file in the office within minutes.
           </p>
           <p>
-            For more on building efficient back-office systems, see our article on <Link href="/blog/law-firm-back-office-support-streamlining-operations-oklahoma" className="text-blue-600 hover:underline">law firm back-office support for streamlining operations in Oklahoma</Link>.
+            For more on building efficient back-office systems, see our article on law firm back-office support for streamlining operations in Oklahoma.
           </p>
 
           <h2>Oklahoma E-Filing Compliance: Document Formatting and Preparation Rules</h2>
@@ -238,7 +238,7 @@ export default function BlogPost() {
             Even in the e-filing era, physical documents still matter. Paper documents filed in Oklahoma district courts must be single-sided on 8.5" x 11" paper, double-spaced if typewritten, in a minimum 12-point font, with at least 1-inch margins on all sides. Continuous pagination must run throughout the document including exhibits. The print style must be clearly legible. Documents must include the party's or attorney's signature, typed name, business address, phone number, email, and Oklahoma Bar Association number.
           </p>
           <p>
-            Under 12 O.S. § 2005(F), filing with the court includes electronic transmission as authorized by court rule, which provides the statutory foundation for Oklahoma's e-filing system. The adoption numbers are telling: 91% of law firms had e-filing capability in 2023, and 34% saved one to two hours each week, while 26% saved five or more hours weekly. If your firm is still in the 9% without e-filing capability, that should be your next priority. Learn more about how our team supports e-filing in our article on <Link href="/blog/virtual-assistants-court-filing-efiling-support-oklahoma" className="text-blue-600 hover:underline">virtual assistant e-filing support in Oklahoma</Link>.
+            Under 12 O.S. § 2005(F), filing with the court includes electronic transmission as authorized by court rule, which provides the statutory foundation for Oklahoma's e-filing system. The adoption numbers are telling: 91% of law firms had e-filing capability in 2023, and 34% saved one to two hours each week, while 26% saved five or more hours weekly. If your firm is still in the 9% without e-filing capability, that should be your next priority. Learn more about how our team supports e-filing in our article on virtual assistant e-filing support in Oklahoma.
           </p>
 
           <h2>The "Paper-Lite" Transition: A Practical Hybrid Approach for Oklahoma Firms</h2>
@@ -264,10 +264,10 @@ export default function BlogPost() {
             We recommend a phased approach. Phase one covers incoming documents: scan and index everything that comes in the door starting today. Phase two addresses active case files: move your current cases into the digital system one at a time as you work on them. Phase three tackles closed files: digitize and schedule retention for closed matters based on your destruction policy. This gradual approach spreads the workload over time and avoids the disruption of a sudden, office-wide conversion.
           </p>
           <p>
-            The benefits are significant: reduced storage costs, faster document retrieval, built-in disaster recovery, and full compliance with Oklahoma's electronic document validity statutes. For more on automating your document workflows, read our article on <Link href="/blog/automation-streamlines-legal-document-workflow-oklahoma" className="text-blue-600 hover:underline">how automation streamlines legal document workflow in Oklahoma</Link>.
+            The benefits are significant: reduced storage costs, faster document retrieval, built-in disaster recovery, and full compliance with Oklahoma's electronic document validity statutes. For more on automating your document workflows, read our article on how automation streamlines legal document workflow in Oklahoma.
           </p>
           <p>
-            Ready to transition to a paper-lite practice? <Link href="/services" className="text-blue-600 hover:underline">Our team understands Oklahoma's e-filing requirements</Link> and can help you build a system that works.
+            Ready to transition to a paper-lite practice? Our team understands Oklahoma's e-filing requirements and can help you build a system that works.
           </p>
 
           <h2>How a Virtual Assistant Can Build and Maintain Your Filing System</h2>
@@ -290,10 +290,10 @@ export default function BlogPost() {
             Monthly file audits are another critical VA function. A good audit ensures every open file has recent activity, identifies stagnant cases that need attention, and verifies retention dates on closed files. This regular checkup prevents the "file drift" that turns a clean system into a disorganized mess over time. Your VA can also handle client communication around file returns, sending original documents back to clients at case closure with clear closing letters that document what was returned and when.
           </p>
           <p>
-            Compared to hiring an in-house paralegal for filing work, virtual assistant services offer significant cost advantages: no payroll taxes, no benefits, no office space required. You get professional document management support scaled to your actual needs. Just Legal Solutions is a proud member of the National Association of Professional Process Servers (NAPPS), which reflects our commitment to professional standards and ethical service delivery across the legal support industry. If you are curious about the cost comparison, our article on <Link href="/blog/in-house-paralegal-vs-virtual-legal-assistant-cost-oklahoma" className="text-blue-600 hover:underline">in-house paralegal versus virtual legal assistant costs in Oklahoma</Link> breaks down the numbers in detail. You can also learn about the range of <Link href="/blog/virtual-paralegal-services-delegated-tasks-oklahoma" className="text-blue-600 hover:underline">delegated tasks our virtual paralegal services</Link> can handle for your practice.
+            Compared to hiring an in-house paralegal for filing work, virtual assistant services offer significant cost advantages: no payroll taxes, no benefits, no office space required. You get professional document management support scaled to your actual needs. Just Legal Solutions is a proud member of the National Association of Professional Process Servers (NAPPS), which reflects our commitment to professional standards and ethical service delivery across the legal support industry. If you are curious about the cost comparison, our article on in-house paralegal versus virtual legal assistant costs in Oklahoma breaks down the numbers in detail. You can also learn about the range of delegated tasks our virtual paralegal services can handle for your practice.
           </p>
           <p>
-            Stop losing hours to file management. Just Legal Solutions provides virtual assistant services designed specifically for Oklahoma law firms — from document organization to e-filing prep to retention scheduling. <Link href="/services" className="text-blue-600 hover:underline">Learn more about our virtual assistant services</Link> or visit our <Link href="/pricing" className="text-blue-600 hover:underline">pricing page</Link> for current service rates.
+            Stop losing hours to file management. Just Legal Solutions provides virtual assistant services designed specifically for Oklahoma law firms — from document organization to e-filing prep to retention scheduling. Learn more about our virtual assistant services or visit our pricing page for current service rates.
           </p>
           </article>
           

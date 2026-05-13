@@ -292,7 +292,7 @@ export default function EvasiveDefendantsPage() {
             <h2>Skip Tracing Techniques and Tools</h2>
 
             <p>
-              When routine service attempts fail, <Link href="/skip-tracing/" className="text-blue-600 hover:underline font-medium">professional skip tracing</Link> becomes essential. Skip tracing is the process of locating individuals who are difficult to find using databases, public records, and investigative techniques. For evasive defendants, skip tracing often uncovers current whereabouts that routine methods miss.
+              When routine service attempts fail, professional skip tracing becomes essential. Skip tracing is the process of locating individuals who are difficult to find using databases, public records, and investigative techniques. For evasive defendants, skip tracing often uncovers current whereabouts that routine methods miss.
             </p>
 
             <h3>Traditional Skip Tracing Methods</h3>
@@ -313,7 +313,7 @@ export default function EvasiveDefendantsPage() {
             <h3>AI-Powered Skip Tracing</h3>
 
             <p>
-              Modern skip tracing has evolved significantly with artificial intelligence and machine learning. <Link href="/ai-skip-tracing-guide-oklahoma/" className="text-blue-600 hover:underline font-medium">AI-powered skip tracing</Link> offers enhanced capabilities for locating evasive defendants:
+              Modern skip tracing has evolved significantly with artificial intelligence and machine learning. AI-powered skip tracing offers enhanced capabilities for locating evasive defendants:
             </p>
 
             <ul>

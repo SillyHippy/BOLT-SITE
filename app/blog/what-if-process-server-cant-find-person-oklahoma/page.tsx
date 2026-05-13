@@ -1,12 +1,10 @@
 import type { Metadata } from "next";
 import Head from "next/head";
-import {
-  Navbar,
-  AuthorBox,
-  Footer,
-  LocalPromoBanner,
-  UnifiedSchema,
-} from "../../components";
+import UnifiedSchema from "@/components/UnifiedSchema";
+import { Navbar } from "@/components/ui/navbar";
+import { AuthorBox } from "@/components/ui/author-box";
+import { Footer } from "@/components/ui/footer";
+import LocalPromoBanner from "@/components/ui/local-promo-banner";
 import Link from "next/link";
 
 const faqs = [
@@ -48,8 +46,8 @@ const faqs = [
 ];
 
 export const metadata: Metadata = {
-  title: "What If the Process Server Can\"t Find the Person in Oklah...',
-  description: "Learn what happens when a process server can\ Serving all 77 Oklahoma counties with licensed, bonded legal support."t locate a defendant in Oklahoma. Discover alternative service methods, substitute service requirements, and next s',
+  title: "What If the Process Server Can't Find the Person in Oklah...",
+  description: "Learn what happens when a process server can't locate a defendant in Oklahoma. Discover alternative service methods, substitute service requirements, and next s",
   keywords:
     "what if process server can't find defendant, failed service oklahoma, substitute service requirements",
   alternates: {
@@ -58,7 +56,7 @@ export const metadata: Metadata = {
   },
   other: {
     'ai-content-type': 'article',
-    'ai-summary': 'Learn what happens when a process server can Serving all 77 Oklahoma counties with licensed, bonded legal support. Includes Oklahoma service-of-process compliance context and practical filing guidance.',t locate a defendant in Oklahoma. Discover alternative service methods, substitute service requirements, and next s What If the Process Server Can't Find the Person in Oklah... helps Oklahoma clients understand requirements quickly.',
+    'ai-summary': 'Oklahoma legal support guidance from Just Legal Solutions for process serving, notary, and court document needs.',
     'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
   
   },

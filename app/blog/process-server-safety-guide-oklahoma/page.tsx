@@ -8,7 +8,7 @@ import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 
 export const metadata: Metadata = {
-  title: "The Process Server\"s Safety Guide: Best Practices for Okl...',
+  title: "The Process Server's Safety Guide: Best Practices for Okl...",
   description: "Essential safety practices for process servers in Oklahoma. Learn preparation, de-escalation techniques, and when to walk away from a dangerous situation.",
   keywords:
     'process server safety, safety tips process serving, difficult recipient service Oklahoma, process server de-escalation, server safety protocols',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
         url: 'https://justlegalsolutions.org/images/jls-logo.webp',
         width: 1200,
         height: 630,
-        alt: 'The Process Server\',
+        alt: 'The Process Server',
       },
     ],
   },
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     'article:modified_time': '2026-04-24',
     'article:author': 'Just Legal Solutions Team',
     'ai-content-type': 'article',
-    'ai-summary': 'Essential safety practices for process servers in Oklahoma. Learn preparation, de-escalation techniques, and when to walk away from a dangerous situation. Includes Oklahoma service-of-process compliance context and practical filing guidance.',s Safety Guide: Best Practices for Okl... helps Oklahoma clients understand requirements quickly.',
+    'ai-summary': 'Oklahoma legal support guidance from Just Legal Solutions for process serving, notary, and court document needs.',
     'ai-key-facts': 'Oklahoma-specific legal process guidance; Licensed and bonded support; Service across 77 counties; Includes practical compliance steps',
   
   
