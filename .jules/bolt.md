@@ -9,3 +9,7 @@
 ## 2025-05-19 - O(1) Lookups in Large Data Sets
 **Learning:** Performing a reverse-lookup using `Object.entries(DATASET).find(...)` inside an array map over a large dataset (like `CITY_GEO` with 5800+ entries) causes significant O(N * M) performance degradation during static site generation.
 **Action:** Always prefer direct property access (O(1)) when the required property (e.g., `slug`) is already available on the target object, or construct a `Map` / `Set` for O(1) lookups before iterating if a reverse-lookup is truly necessary.
+
+## 2025-10-26 - Large Dataset Array Memory Allocation
+**Learning:** Repeated calls to `Object.values()` or `Object.keys()` on large data objects (like `CITY_GEO` with ~5800 entries) cause measurable memory pressure and GC overhead. These operations allocate a new array on every call, which is especially noticeable during Static Site Generation (SSG) when functions are called hundreds of times.
+**Action:** When working with large static lookup objects, pre-compute and cache the array representations (e.g. `const _allValuesCache = Object.values(DATASET)`) at the module level and return the cached arrays from accessor functions instead of allocating new arrays dynamically.
