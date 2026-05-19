@@ -4355,6 +4355,74 @@
       },
       "warnings": [],
       "mode": "published"
+    },
+    {
+      "slug": "digital-proof-service-modern-documentation",
+      "title": "Digital Proof of Service: How Technology Protects Your Case",
+      "category": "Notary Services",
+      "releasedAt": "2026-05-19T17:34:46.232Z",
+      "quality": {
+        "words": 2508,
+        "headings": 15,
+        "paragraphs": 36
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [],
+      "mode": "published"
+    },
+    {
+      "slug": "25-faq-process-serving-oklahoma",
+      "title": "25 FAQ About Process Serving in Oklahoma — Answered",
+      "category": "Process Serving",
+      "releasedAt": "2026-05-19T17:34:46.234Z",
+      "quality": {
+        "words": 3351,
+        "headings": 34,
+        "paragraphs": 31
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [],
+      "mode": "published"
+    },
+    {
+      "slug": "divorce-papers-served-oklahoma-tulsa",
+      "title": "Getting Divorced in Tulsa? How Divorce Papers Are Served",
+      "category": "Notary Services",
+      "releasedAt": "2026-05-19T17:34:46.235Z",
+      "quality": {
+        "words": 3319,
+        "headings": 20,
+        "paragraphs": 39
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [],
+      "mode": "published"
+    },
+    {
+      "slug": "ai-changing-legal-support-services-2026",
+      "title": "How AI Is Changing Legal Support Services in 2026",
+      "category": "Process Serving",
+      "releasedAt": "2026-05-19T17:34:46.238Z",
+      "quality": {
+        "words": 3000,
+        "headings": 18,
+        "paragraphs": 35
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [],
+      "mode": "published"
     }
   ],
   "failures": [
