@@ -78,6 +78,7 @@ export default function ProcessServerVsSheriffPage() {
         ]}
       />
       <main className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+        <h1 className="sr-only">Process Server vs Sheriff in Oklahoma</h1>
         {/* Hero */}
         <section className="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 text-white pt-24 pb-16">
           <div className="container mx-auto px-4 max-w-5xl">
