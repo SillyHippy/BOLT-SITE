@@ -2,29 +2,24 @@
 
 # Redirect HTTP verification (Layer 2)
 
-- **When:** 2026-05-22T23:08:36.555Z
+- **When:** 2026-05-22T23:18:15.298Z
 - **Base:** https://justlegalsolutions.org
-- **Rules tested:** 10 (2 malformed + 8 county sample of 77)
-- **Failed:** 2
+- **Rules tested:** 10 (2 malformed + 8 county sample of 78)
+- **Failed:** 0
 
-## Failures
-
-| Source | Expected | First | Final | Pass |
-|--------|----------|-------|-------|------|
-| /service-areas/ada%29%2A%2A | /service-areas/ada | 404 | 404 | no |
-| /service-areas/lawton%29%2A%2A | /service-areas/lawton | 404 | 404 | no |
+All tested redirect sources returned **3xx** without follow, then **2xx** at canonical destination.
 
 ## All tested
 
 | Source | Dest | First | Final URL | Pass |
 |--------|------|-------|-------------|------|
-| /service-areas/ada%29%2A%2A | /service-areas/ada | 404 | /service-areas/ada%29%2A%2A | no |
-| /service-areas/lawton%29%2A%2A | /service-areas/lawton | 404 | /service-areas/lawton%29%2A%2A | no |
+| /service-areas/ada%29%2A%2A | /service-areas/ada | 301 | /service-areas/ada | yes |
+| /service-areas/lawton%29%2A%2A | /service-areas/lawton | 301 | /service-areas/lawton | yes |
 | /counties/atoka | /counties/atoka-county | 301 | /counties/atoka-county | yes |
-| /counties/cherokee | /counties/cherokee-county | 301 | /counties/cherokee-county | yes |
-| /counties/delaware | /counties/delaware-county | 301 | /counties/delaware-county | yes |
-| /counties/haskell | /counties/haskell-county | 301 | /counties/haskell-county | yes |
-| /counties/lincoln | /counties/lincoln-county | 301 | /counties/lincoln-county | yes |
-| /counties/muskogee | /counties/muskogee-county | 301 | /counties/muskogee-county | yes |
-| /counties/pittsburg | /counties/pittsburg-county | 301 | /counties/pittsburg-county | yes |
-| /counties/tillman | /counties/tillman-county | 301 | /counties/tillman-county | yes |
+| /counties/carter | /counties/carter-county | 301 | /counties/carter-county | yes |
+| /counties/custer | /counties/custer-county | 301 | /counties/custer-county | yes |
+| /counties/harper | /counties/harper-county | 301 | /counties/harper-county | yes |
+| /counties/leflore | /counties/leflore-county | 301 | /counties/leflore-county | yes |
+| /counties/murray | /counties/murray-county | 301 | /counties/murray-county | yes |
+| /counties/payne | /counties/payne-county | 301 | /counties/payne-county | yes |
+| /counties/texas | /counties/texas-county | 301 | /counties/texas-county | yes |

@@ -2,7 +2,7 @@
 
 # Sitemap HTTP verification
 
-- **When:** 2026-05-22T23:05:32.621Z
+- **When:** 2026-05-22T23:18:12.066Z
 - **Base:** https://justlegalsolutions.org
 - **URLs in <loc> (deduped):** 538
 - **Non-success (outside 200–399):** 0
