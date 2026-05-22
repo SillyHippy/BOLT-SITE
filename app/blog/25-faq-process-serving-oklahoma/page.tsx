@@ -613,15 +613,15 @@ export default function BlogPost() {
           <ul className="list-disc pl-6 space-y-2 text-gray-700">
             <li>
               <Link
-                href="/blog/what-does-process-server-do-day-in-life"
+                href="/become-process-server-oklahoma-complete-guide"
                 className="text-blue-600 hover:underline"
               >
-                What Does a Process Server Do? A Day in the Life
+                How to Become a Process Server in Oklahoma — Complete Guide
               </Link>
             </li>
             <li>
               <Link
-                href="/blog/complete-guide-to-hiring-process-server-oklahoma"
+                href="/resources/attorneys-guide-hiring-process-server"
                 className="text-blue-600 hover:underline"
               >
                 The Complete Guide to Hiring a Process Server in Oklahoma
@@ -629,7 +629,7 @@ export default function BlogPost() {
             </li>
             <li>
               <Link
-                href="/blog/oklahoma-180-day-rule-service-process"
+                href="/oklahoma-process-server-faq"
                 className="text-blue-600 hover:underline"
               >
                 Understanding Oklahoma&apos;s 180-Day Rule for Service of Process
@@ -637,7 +637,7 @@ export default function BlogPost() {
             </li>
             <li>
               <Link
-                href="/blog/become-licensed-process-server-oklahoma"
+                href="/blog/become-process-server-oklahoma"
                 className="text-blue-600 hover:underline"
               >
                 How to Become a Licensed Process Server in Oklahoma

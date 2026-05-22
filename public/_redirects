@@ -97,6 +97,17 @@
 /process-server-porter /tulsa-process-server 301
 /process-server-porter/ /tulsa-process-server 301
 /tulsa-county /counties/tulsa-county 301
+/counties/atoka /counties/atoka-county 301
+/privacy /privacy-policy 301
+/process-server-safety-guide /process-server-safety-guide-oklahoma 301
+/process-server-safety-guide/ /process-server-safety-guide-oklahoma 301
+/services/virtual-assistant-services /virtual-assistant-services 301
+/seo/process-server-owasso /service-areas/owasso 301
+/seo/process-server-owasso/ /service-areas/owasso 301
+/sitemap-index /sitemap-index.xml 301
+/service-areas/hugo /counties/choctaw-county 301
+/blog/oklahoma-180-day-rule-service-process /oklahoma-process-server-faq 301
+/blog/oklahoma-180-day-rule-service-process-explained /oklahoma-process-server-faq 301
 
 # ── 7. Content page redirects ─────────────────────────────
 /serving-legal-papers-in-oklahoma-guide /ultimate-guide-process-serving-oklahoma 301
@@ -164,7 +175,6 @@
 /mcalester-process-server /service-areas/mcalester 301
 /medical-malpractice-service-oklahoma /process-serving-for-insurance-companies 301
 /miami-process-server /service-areas/miami 301
-/mobile-notary-tulsa /mobile-notary-tulsa 301
 /moore-process-server /service-areas/moore 301
 /muskogee-process-server /service-areas/muskogee 301
 /norman-process-server /service-areas/norman 301

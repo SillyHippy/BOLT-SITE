@@ -666,7 +666,7 @@ export default function OklahomaServiceOfProcessReference() {
             </p>
             <p>
               This reference card is provided as a free educational resource. 
-              <Link href="/privacy" className="text-primary hover:underline ml-1">Privacy Policy</Link> | 
+              <Link href="/privacy-policy" className="text-primary hover:underline ml-1">Privacy Policy</Link> | 
               <Link href="/terms" className="text-primary hover:underline ml-1">Terms of Use</Link>
             </p>
           </div>

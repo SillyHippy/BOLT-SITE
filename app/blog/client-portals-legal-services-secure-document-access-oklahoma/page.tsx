@@ -390,7 +390,7 @@ export default function BlogPost() {
             requirements. The message from Oklahoma\'s own bar association is clear: this is not a
             distant, theoretical concern. It is the current standard of care.{' '}
             <Link
-              href="/blog/oklahoma-180-day-rule-service-process-explained"
+              href="/oklahoma-process-server-faq"
               className="text-blue-600 hover:underline"
             >
               Just as Oklahoma\'s 180-day rule creates strict deadlines for service of process

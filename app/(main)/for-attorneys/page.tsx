@@ -343,7 +343,7 @@ export default function ForAttorneysPage() {
                 Call to Set Up Billing
               </a>
               <Link
-                href="/JudicialDirectory.pdf"
+                href="/downloads/JLS-OK-77-County-Court-Directory-v1.0.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-slate-100 hover:bg-slate-200 text-slate-800 font-semibold px-6 py-3 rounded-lg transition-colors"

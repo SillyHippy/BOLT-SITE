@@ -1482,7 +1482,7 @@ export default function ProcessServerBusinessStartupGuide() {
                   </CardContent>
                 </Card>
               </Link>
-              <Link href="/process-server-safety-guide/" className="group">
+              <Link href="/process-server-safety-guide-oklahoma" className="group">
                 <Card className="h-full transition-shadow hover:shadow-lg">
                   <CardContent className="pt-6">
                     <Shield className="w-8 h-8 text-blue-600 mb-4" />

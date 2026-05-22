@@ -112,6 +112,21 @@ function generateSitemap() {
     '/reviews/text', // Internal review intake
     '/security-policy', // Low-value policy page
     '/competitor-analysis', // Redirects to /why-choose-us
+    '/oklahoma-process-serving-costs-comparison', // Redirects to /pricing
+    '/privacy', // Redirects to /privacy-policy
+    '/privacy/', // Trailing slash variant
+    '/counties/atoka', // Redirects to /counties/atoka-county
+    '/process-server-safety-guide', // Redirects to /process-server-safety-guide-oklahoma
+    '/process-server-safety-guide/', // Trailing slash variant
+    '/process-server-safety-tips', // Redirects to /process-server-safety-guide-oklahoma
+    '/services/virtual-assistant-services', // Redirects to /virtual-assistant-services
+    '/services/virtual-assistant-services/', // Trailing slash variant
+    '/virtual-assistant-law-firms', // Redirects to /virtual-assistant-services
+    '/seo/process-server-owasso', // Redirects to /service-areas/owasso
+    '/service-areas/hugo', // Redirects to /counties/choctaw-county
+    '/blog/oklahoma-180-day-rule-service-process', // Redirects to /oklahoma-process-server-faq
+    '/blog/oklahoma-180-day-rule-service-process-explained', // Redirects to /oklahoma-process-server-faq
+    '/180-day-service-deadline', // Redirects to /oklahoma-tools/service-deadline-calculator
     '/voice-search-marker', // Internal voice search marker
     '/registered-agent', // Excluded from sitemap per user request, not ready for live service list
     // Invalid entries (should never appear in sitemap)
@@ -127,7 +142,7 @@ function generateSitemap() {
     '/oklahoma-electronic-service-guide-2025', // Redirects to /oklahoma-electronic-service-guide
     '/oklahoma-case-law-service-process-2025', // Redirects to /oklahoma-case-law-service-process
     '/oklahoma-legal-service-areas-2025', // Redirects to /oklahoma-legal-service-areas
-    '/oklahoma-process-serving-costs-comparison-2025', // Redirects to /oklahoma-process-serving-costs-comparison
+    '/oklahoma-process-serving-costs-comparison-2025', // Redirects to /pricing
     '/ai-skip-tracing-guide-oklahoma-2025', // Redirects to /ai-skip-tracing-guide-oklahoma
     '/family-law-service-guide-tulsa-2025', // Redirects to /family-law-service-guide-tulsa
     '/process-serving-mistakes-guide-2025', // Redirects to /process-serving-mistakes-guide
@@ -246,7 +261,6 @@ function generateSitemap() {
     '/oklahoma-legal-service-areas',
     '/oklahoma-process-server-pricing',
     '/oklahoma-process-server-technology',
-    '/oklahoma-process-serving-costs-comparison',
     '/process-server-tulsa-guide',
     '/process-serving-mistakes-guide',
     '/ai-skip-tracing-guide-oklahoma',
