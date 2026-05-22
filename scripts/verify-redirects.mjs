@@ -74,13 +74,20 @@ async function parseRedirectRules() {
 async function main() {
   const allRules = await parseRedirectRules();
   const malformed = allRules.filter(
-    (r) => r.src.includes('%29%2A%2A') || r.src.includes(')**')
+    (r) =>
+      r.src.includes('%29%2A%2A') ||
+      r.src.includes(')**') ||
+      (r.src.endsWith('*') && /\/service-areas\/(ada|lawton)\*$/.test(r.src))
   );
+  const literalMalformed = [
+    { src: '/service-areas/ada)**', dest: '/service-areas/ada' },
+    { src: '/service-areas/lawton)**', dest: '/service-areas/lawton' },
+  ];
   const countyShort = allRules.filter(
     (r) => r.src.startsWith('/counties/') && !r.src.endsWith('-county') && !r.src.includes(')**')
   );
   const sampleCounty = countyShort.filter((_, i) => i % 10 === 0);
-  const toTest = [...malformed, ...sampleCounty];
+  const toTest = [...malformed, ...literalMalformed, ...sampleCounty];
 
   const results = [];
   for (const { src, dest } of toTest) {

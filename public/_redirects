@@ -237,9 +237,12 @@
 /yukon-process-server /service-areas/yukon 301
 
 # ── 10a. Malformed scraper paths (markdown **…]** URL artifacts) ──
-# Literal paths with `*` break Cloudflare splat parsing — use encoded sources only.
+# Encoded form (Bing/curl percent-encode): ) = %29, * = %2A
 /service-areas/ada%29%2A%2A /service-areas/ada 301
 /service-areas/lawton%29%2A%2A /service-areas/lawton 301
+# Literal form from audit export (browser address bar): splat catches ada)** etc.
+/service-areas/ada* /service-areas/ada 301
+/service-areas/lawton* /service-areas/lawton 301
 
 # ── 10c. Legacy audit export paths → canonical (2026-05-22) ───────
 /blog/oklahoma-process-server-faq /oklahoma-process-server-faq 301
