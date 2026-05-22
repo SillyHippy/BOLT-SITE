@@ -4,95 +4,45 @@ import { Navbar } from '@/components/ui/navbar';
 import { AuthorBox } from '@/components/ui/author-box';
 import { Footer } from '@/components/ui/footer';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
-import { ChevronRight, FileCheck, Shield, Clock, AlertTriangle, Scale, Gavel, FileText } from 'lucide-react';
+import { ChevronRight, FileCheck, Shield, Clock, AlertTriangle, Gavel, FileText } from 'lucide-react';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  alternates: {
-    canonical: 'https://justlegalsolutions.org/blog/proof-of-service-oklahoma-guide',
-  },
   title: 'Proof of Service Oklahoma — Complete Guide',
-  description: 'Learn what proof of service is in Oklahoma, legal requirements, and consequences of improper documentation. File with confidence.',
+  description: 'A complete Oklahoma guide to proof of service and affidavits under 12 O.S. § 2004 — service methods, filing deadlines, common mistakes, and court review standards.',
   keywords: 'proof of service oklahoma, affidavit of service oklahoma, what is proof of service, process server documentation, legal service requirements oklahoma',
+  authors: [{ name: 'Joseph Iannazzi' }],
+  creator: 'Just Legal Solutions',
+  publisher: 'Just Legal Solutions',
+  robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
   openGraph: {
     title: 'What Is a Proof of Service and Why It Matters in Oklahoma',
     description: 'Complete guide to proof of service requirements, legal standards, and documentation in Oklahoma courts.',
+    url: 'https://justlegalsolutions.org/blog/proof-of-service-oklahoma-guide',
+    siteName: 'Just Legal Solutions',
+    locale: 'en_US',
     type: 'article',
     authors: ['Joseph Iannazzi'],
     publishedTime: '2025-01-15',
-    modifiedTime: '2025-01-15',
+    modifiedTime: '2026-05-22',
+    images: [{
+      url: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Oklahoma Proof of Service Guide - Just Legal Solutions',
+    }],
+  },
+  alternates: {
+    canonical: 'https://justlegalsolutions.org/blog/proof-of-service-oklahoma-guide',
   },
   other: {
+    'article:published_time': '2025-01-15',
+    'article:modified_time': '2026-05-22',
+    'article:author': 'Joseph Iannazzi',
+    'ai-content-type': 'article',
     'ai-summary': 'A proof of service, also called an affidavit of service, is a legal document that proves court papers were properly delivered to the intended recipient. In Oklahoma, it must include who served the papers, what was served, when and where service occurred, and how it was accomplished. Oklahoma law under 12 O.S. § 2004 requires specific documentation for different service types including personal service, substituted service, and nail-and-mail service. Improper proof of service can result in case dismissal, default judgments being set aside, and significant delays in legal proceedings.',
     'ai-key-facts': 'Proof of service must be filed within statutory timeframes; Oklahoma requires detailed affidavits for substituted service; Electronic proof of service is increasingly accepted; Common mistakes include incomplete information and missing signatures; Courts strictly evaluate proof of service for compliance with due process requirements.',
   },
-};
-
-const jsonLd = {
-  '@context': 'https://schema.org',
-  '@graph': [
-    {
-      '@type': 'BlogPosting',
-      headline: 'What Is a Proof of Service and Why It Matters in Oklahoma',
-      description: 'Complete guide to proof of service requirements, legal standards, and documentation in Oklahoma courts.',
-      author: {
-        '@type': 'Person',
-        name: 'Just Legal Solutions Team',
-        url: 'https://justlegalsolutions.org/about',
-      },
-      publisher: {
-        '@type': 'Organization',
-        name: 'Just Legal Solutions',
-        logo: {
-          '@type': 'ImageObject',
-          url: 'https://justlegalsolutions.org/images/jls-logo.webp',
-        },
-      },
-      datePublished: '2025-01-15',
-      dateModified: '2025-01-15',
-      mainEntityOfPage: {
-        '@type': 'WebPage',
-        '@id': 'https://justlegalsolutions.org/blog/proof-of-service-oklahoma-guide/',
-      },
-    },
-    {
-      '@type': 'FAQPage',
-      mainEntity: [
-        {
-          '@type': 'Question',
-          name: 'What is a proof of service in Oklahoma?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'A proof of service, also called an affidavit of service, is a sworn legal document that certifies court papers were properly delivered to the intended recipient according to Oklahoma law. It serves as official evidence that due process requirements have been met.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What information must be included in an Oklahoma proof of service?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'An Oklahoma proof of service must include: who served the papers (server name and credentials), what documents were served, when service occurred (date and time), where service took place (complete address), how service was accomplished (personal, substituted, or nail-and-mail), and the server\'s signature under oath.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'How long does a process server have to file proof of service in Oklahoma?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Under Oklahoma law, proof of service should be filed promptly after service is completed. While there is no strict statutory deadline for filing the affidavit itself, the proof must be available for court review when needed, and delays can affect case timelines and validity.',
-          },
-        },
-        {
-          '@type': 'Question',
-          name: 'What happens if proof of service is improper or missing?',
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: 'Improper or missing proof of service can result in: service being declared invalid, motions to quash service being granted, default judgments being set aside, case dismissal, significant delays in proceedings, and the need to re-serve documents at additional cost.',
-          },
-        },
-      ],
-    },
-  ],
 };
 
 const faqs = [
@@ -114,7 +64,11 @@ const faqs = [
   },
   {
     question: 'What happens if proof of service is improper or missing?',
-    answer: 'Improper or missing proof of service can have serious consequences including: service being declared invalid by the court; motions to quash service being granted; default judgments being set aside or vacated; case dismissal for failure to prosecute; significant delays in legal proceedings; the need to re-serve documents at additional cost; and potential malpractice claims against attorneys who fail to ensure proper documentation.',
+    answer: 'Improper proof of service can have serious consequences including service being declared invalid, motions to quash being granted, default judgments being set aside, case dismissal, and the need to re-serve documents. However, under 12 O.S. § 2004(G)(1), failure to file proof of service does not automatically invalidate otherwise proper service — though courts still require valid proof on file before entering defaults or advancing certain proceedings.',
+  },
+  {
+    question: 'Does a missing return of service automatically make service invalid in Oklahoma?',
+    answer: 'No. Under 12 O.S. § 2004(G)(1), failure to make proof of service does not affect the validity of the service itself. However, the court still requires proper proof before entering default judgments or moving certain matters forward, so a late or missing affidavit creates procedural barriers even when the underlying service was done correctly.',
   },
   {
     question: 'Is electronic proof of service accepted in Oklahoma courts?',
@@ -141,37 +95,69 @@ const faqs = [
 export default function ProofOfServiceGuidePage() {
   return (
     <>
-      <UnifiedSchema pageType="article" pageUrl="/blog/proof-of-service-oklahoma-guide/" />
+      <UnifiedSchema
+        pageType="article"
+        pageTitle="What Is a Proof of Service and Why It Matters in Oklahoma"
+        pageDescription="Complete guide to proof of service requirements, legal standards, and documentation in Oklahoma courts."
+        pageUrl="https://justlegalsolutions.org/blog/proof-of-service-oklahoma-guide"
+        siteName="Just Legal Solutions"
+        reviewCount={156}
+        services={['Process Serving', 'Affidavit of Service', 'GPS-Tracked Service', 'Legal Document Delivery']}
+        breadcrumbs={[
+          { name: 'Home', url: '/' },
+          { name: 'Blog', url: '/blog' },
+          { name: 'Proof of Service Oklahoma Guide', url: '/blog/proof-of-service-oklahoma-guide' },
+        ]}
+        articleDetails={{
+          headline: 'What Is a Proof of Service and Why It Matters in Oklahoma',
+          author: 'Joseph Iannazzi',
+          datePublished: '2025-01-15',
+          dateModified: '2026-05-22',
+          image: 'https://justlegalsolutions.org/image-pack/images/image-043-blog-hero.webp',
+        }}
+        faqItems={faqs.map((faq) => ({ question: faq.question, answer: faq.answer }))}
+        keywords={['proof of service oklahoma', 'affidavit of service oklahoma', 'return of service', '12 OS 2004', 'Oklahoma process server documentation']}
+      />
       <Navbar />
+      <LocalPromoBanner zips={[]} />
 
       <main className="min-h-screen bg-white">
         {/* Hero Section */}
-        <section className="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 text-white py-16 md:py-24">
-          <div className="container mx-auto px-4 max-w-5xl">
+        <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 pt-28 pb-16 overflow-hidden">
+          <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] opacity-10" />
+          <div className="relative container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl">
+            <nav aria-label="Breadcrumb" className="flex items-center space-x-2 text-sm text-blue-200 mb-8">
+              <Link href="/" className="hover:text-white transition-colors">Home</Link>
+              <ChevronRight className="w-4 h-4" />
+              <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
+              <ChevronRight className="w-4 h-4" />
+              <span className="text-white font-medium">Proof of Service Oklahoma Guide</span>
+            </nav>
+
             <div className="flex items-center gap-2 mb-6">
               <span className="bg-blue-700 text-blue-100 px-3 py-1 rounded-full text-sm font-medium">
                 Legal Guide
               </span>
               <span className="text-blue-200 text-sm">Oklahoma Process Serving</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-white drop-shadow-lg">
               What Is a Proof of Service and Why It Matters in Oklahoma
             </h1>
             <p className="text-xl text-blue-100 max-w-3xl mb-8">
               A comprehensive guide to understanding affidavits of service, legal requirements, and documentation standards that protect your case.
             </p>
-            <div className="flex flex-wrap items-center gap-6 text-sm text-blue-200">
-              <div className="flex items-center gap-2">
-                <FileCheck className="w-4 h-4" />
-                <span>By Joseph Iannazzi</span>
+            <div className="flex flex-wrap items-center gap-4">
+              <div className="bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full flex items-center gap-2">
+                <FileCheck className="w-4 h-4 text-blue-200" />
+                <span className="text-white font-semibold text-sm">Joseph Iannazzi</span>
               </div>
-              <div className="flex items-center gap-2">
-                <Clock className="w-4 h-4" />
-                <span>Published: January 15, 2025</span>
+              <div className="bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full flex items-center gap-2">
+                <Clock className="w-4 h-4 text-blue-200" />
+                <span className="text-white font-semibold text-sm">Updated May 22, 2026</span>
               </div>
-              <div className="flex items-center gap-2">
-                <Shield className="w-4 h-4" />
-                <span>License: Licensed</span>
+              <div className="bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full flex items-center gap-2">
+                <Shield className="w-4 h-4 text-blue-200" />
+                <span className="text-white font-semibold text-sm">~18 min read</span>
               </div>
             </div>
           </div>
@@ -241,6 +227,20 @@ export default function ProofOfServiceGuidePage() {
             <li><strong>Identity of Person Served:</strong> Name and physical description of the individual who received the documents</li>
             <li><strong>Server's Signature:</strong> Signed under oath, typically with notarization</li>
           </ul>
+
+          <div className="not-prose bg-amber-50 border-l-4 border-amber-500 p-6 my-8 rounded-r-lg">
+            <div className="flex items-start">
+              <AlertTriangle className="w-6 h-6 text-amber-600 mr-3 flex-shrink-0 mt-1" />
+              <div>
+                <p className="m-0 text-amber-900 font-medium mb-2">
+                  <strong>Important Clarification:</strong> Under <strong>12 O.S. § 2004(G)(1)</strong>, failure to make proof of service does <strong>not</strong> automatically affect the validity of the service itself.
+                </p>
+                <p className="m-0 text-amber-800 text-sm">
+                  However, courts still require proper proof on file before entering default judgments or moving certain matters forward. A late or missing affidavit does not by itself undo otherwise proper service, but it will create procedural barriers that can delay your case.
+                </p>
+              </div>
+            </div>
+          </div>
 
           <h2 id="what-must-be-included">The Five W's of Proof of Service Documentation</h2>
 
@@ -485,7 +485,7 @@ export default function ProofOfServiceGuidePage() {
           <h3>Work with Licensed Professional Process Servers</h3>
 
           <p>
-            Oklahoma requires process servers to be licensed, and working with licensed professionals helps ensure compliance with legal requirements. Licensed servers understand the documentation standards and statutory requirements, reducing the risk of errors that could invalidate service. At Just Legal Solutions, our licensed process servers (License: Licensed) are trained in Oklahoma's specific requirements and provide comprehensive documentation for every service.
+            Oklahoma requires process servers to be licensed in the county where they are bonded under 12 O.S. § 158.1, and working with licensed professionals helps ensure compliance with legal requirements. Licensed servers understand the documentation standards and statutory requirements, reducing the risk of errors that could invalidate service. At Just Legal Solutions, our process servers are licensed in their respective service areas and trained in Oklahoma&apos;s specific requirements, providing comprehensive documentation for every service.
           </p>
 
           <h3>Verify Documentation Before Filing</h3>
@@ -505,8 +505,6 @@ export default function ProofOfServiceGuidePage() {
           <p>
             If service is challenged, respond promptly and thoroughly. Gather all available evidence supporting the validity of service, including any supplementary documentation. Consider whether the server can provide additional testimony or affidavits to address specific concerns raised in the challenge.
           </p>
-
-          <LocalPromoBanner zips={[]} />
 
           <h2 id="faq">Frequently Asked Questions About Proof of Service in Oklahoma</h2>
 
@@ -538,94 +536,60 @@ export default function ProofOfServiceGuidePage() {
           </p>
 
           <p>
-            At Just Legal Solutions, we understand the critical importance of proper proof of service documentation. Our GPS-tracked process serving provides comprehensive documentation that meets Oklahoma's strict requirements, protecting your case and giving you confidence in the validity of service. Contact us at <a href="tel:539-367-6832" className="text-blue-600 hover:text-blue-800 underline">(539) 367-6832</a> to learn how our professional service can support your legal needs.
+            At Just Legal Solutions, we understand the critical importance of proper proof of service documentation. Our GPS-tracked process serving provides comprehensive documentation that meets Oklahoma&apos;s strict requirements, protecting your case and giving you confidence in the validity of service. Contact us at <a href="tel:539-367-6832" className="text-blue-600 hover:text-blue-800 underline">(539) 367-6832</a> to learn how our professional service can support your legal needs.
           </p>
-
-          {/* Author Box */}
-          <div className="not-prose bg-gradient-to-r from-blue-50 to-gray-50 border border-blue-200 rounded-xl p-6 mt-12">
-            <div className="flex items-start gap-4">
-              <div className="bg-blue-600 text-white p-3 rounded-full flex-shrink-0">
-                <Scale className="w-6 h-6" />
-              </div>
-              <div>
-                <h3 className="font-bold text-gray-900 mb-2">About the Author</h3>
-                <p className="text-gray-700 mb-2">
-                  <strong>Joseph Iannazzi</strong> is a licensed Oklahoma process server and the founder of Just Legal Solutions. With extensive experience serving legal documents throughout Oklahoma, Joseph specializes in providing GPS-tracked service with comprehensive documentation that meets the state's strictest requirements.
-                </p>
-                <p className="text-sm text-gray-600">
-                  License: Licensed | Contact: <a href="tel:539-367-6832" className="text-blue-600 hover:underline">(539) 367-6832</a>
-                </p>
-              </div>
-            </div>
-          </div>
         </article>
-        <div className="mt-12">
+
+        <div className="max-w-4xl mx-auto px-4">
           <AuthorBox />
         </div>
 
-        {/* Related Resources */}
         <section className="bg-gray-50 py-12">
           <div className="container mx-auto px-4 max-w-4xl">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Resources</h2>
-            <div className="grid md:grid-cols-2 gap-6">
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Guides &amp; Resources</h2>
+            <div className="grid sm:grid-cols-2 gap-4">
               <Link
-                href="/gps-tracked-process-serving/"
-                className="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md hover:border-blue-300 transition-all"
+                href="/blog/understanding-the-affidavit-of-service"
+                className="group block p-5 bg-white rounded-xl border border-gray-200 hover:border-blue-300 hover:shadow-md transition-all"
               >
-                <div className="flex items-center gap-3 mb-3">
-                  <Gavel className="w-5 h-5 text-blue-600" />
-                  <h3 className="font-semibold text-gray-900">GPS-Tracked Process Serving</h3>
+                <div className="flex items-center gap-3 mb-2">
+                  <FileText className="w-5 h-5 text-blue-600" />
+                  <span className="font-semibold text-gray-900 group-hover:text-blue-700 transition-colors">Affidavit of Service Statutory Guide</span>
                 </div>
-                <p className="text-gray-600 text-sm">
-                  Learn about our technology-enhanced service with timestamped GPS verification and electronic proof of service documentation.
-                </p>
+                <p className="text-sm text-gray-600">Deep dive into Oklahoma affidavit requirements under 12 O.S. § 2004(G).</p>
               </Link>
               <Link
-                href="/blog/"
-                className="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md hover:border-blue-300 transition-all"
+                href="/gps-tracked-process-serving/"
+                className="group block p-5 bg-white rounded-xl border border-gray-200 hover:border-blue-300 hover:shadow-md transition-all"
               >
-                <div className="flex items-center gap-3 mb-3">
-                  <FileText className="w-5 h-5 text-blue-600" />
-                  <h3 className="font-semibold text-gray-900">Legal Blog</h3>
+                <div className="flex items-center gap-3 mb-2">
+                  <Gavel className="w-5 h-5 text-blue-600" />
+                  <span className="font-semibold text-gray-900 group-hover:text-blue-700 transition-colors">GPS-Tracked Process Serving</span>
                 </div>
-                <p className="text-gray-600 text-sm">
-                  Explore more articles about Oklahoma process serving, legal procedures, and documentation requirements.
-                </p>
+                <p className="text-sm text-gray-600">Timestamped GPS verification and electronic proof of service documentation.</p>
+              </Link>
+              <Link href="/tulsa-process-server" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Tulsa Process Server — Same-Day, starts at $35</span>
+                <p className="text-sm text-gray-600 mt-1">Licensed Tulsa process server for all document types. GPS-tracked, court-ready affidavits.</p>
+              </Link>
+              <Link href="/process-serving" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Professional Process Serving Services</span>
+                <p className="text-sm text-gray-600 mt-1">Complete overview of our service offerings and coverage areas across Oklahoma.</p>
+              </Link>
+              <Link href="/pricing" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Process Server Pricing in Oklahoma</span>
+                <p className="text-sm text-gray-600 mt-1">Transparent flat-rate pricing starting at $60 — no mileage fees, no hidden charges.</p>
+              </Link>
+              <Link href="/oklahoma-process-server-faq" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
+                <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server FAQ</span>
+                <p className="text-sm text-gray-600 mt-1">Answers to the most common questions about process serving in Oklahoma.</p>
               </Link>
             </div>
           </div>
         </section>
       </main>
 
-      {/* Related Guides */}
-      <section className="mt-12 mb-8 bg-white rounded-2xl shadow-lg border border-gray-100 p-8 md:p-10">
-        <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Guides &amp; Resources</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          <Link href="/tulsa-process-server" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
-            <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Tulsa Process Server — Same-Day, starts at $35</span>
-            <p className="text-sm text-gray-600 mt-1">Licensed Tulsa process server for all document types. GPS-tracked, court-ready affidavits.</p>
-          </Link>
-          <Link href="/process-serving" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
-            <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Professional Process Serving Services</span>
-            <p className="text-sm text-gray-600 mt-1">Complete overview of our service offerings and coverage areas across Oklahoma.</p>
-          </Link>
-          <Link href="/pricing" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
-            <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Process Server Pricing in Oklahoma</span>
-            <p className="text-sm text-gray-600 mt-1">Transparent flat-rate pricing starting at $60 — no mileage fees, no hidden charges.</p>
-          </Link>
-          <Link href="/oklahoma-process-server-faq" className="group block p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100 hover:border-blue-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.15)] transition-all duration-300">
-            <span className="font-semibold text-blue-900 group-hover:text-blue-700 transition-colors">Oklahoma Process Server FAQ</span>
-            <p className="text-sm text-gray-600 mt-1">Answers to the most common questions about process serving in Oklahoma.</p>
-          </Link>
-        </div>
-      </section>
-
-
       <Footer />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
     </>
   );
 }
