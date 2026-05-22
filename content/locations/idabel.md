@@ -127,9 +127,9 @@ Following the McGirt v. Oklahoma decision, Idabel falls within tribal reservatio
 
 Just Legal Solutions also provides service in:
 
-- **[Broken Bow, OK](/service-areas/broken-bow) - 25 minutes north (McCurtain County)
-- **[Hugo, OK](/service-areas/hugo) - 1 hour west (Choctaw County)
-- **[De Queen, AR](/service-areas) - 45 minutes east (across state line)
+- [Broken Bow, OK](/service-areas/broken-bow) — 25 minutes north (McCurtain County)
+- [Hugo, OK](/service-areas/hugo) — 1 hour west (Choctaw County)
+- [De Queen, AR](/service-areas) — 45 minutes east (across state line)
 
 ---
 

@@ -134,10 +134,10 @@ Yes, we serve all types of eviction notices including 5-day, 15-day, and 30-day 
 
 Just Legal Solutions also provides service in:
 
-- **[Okmulgee, OK](/service-areas/okmulgee) - 20 minutes north (Okmulgee County)
-- **[Tulsa, OK](/tulsa-process-server) - 1 hour 15 minutes northeast
-- **[McAlester, OK](/service-areas/mcalester) - 1 hour south (Pittsburg County)
-- **[Checotah, OK](/service-areas/checotah) - 45 minutes southeast (McIntosh County)
+- [Okmulgee, OK](/service-areas/okmulgee) — 20 minutes north (Okmulgee County)
+- [Tulsa, OK](/tulsa-process-server) — 1 hour 15 minutes northeast
+- [McAlester, OK](/service-areas/mcalester) — 1 hour south (Pittsburg County)
+- [Checotah, OK](/service-areas/checotah) — 45 minutes southeast (McIntosh County)
 
 ---
 

@@ -122,9 +122,9 @@ We serve all types of legal documents including civil summons, subpoenas, divorc
 
 Just Legal Solutions also provides service in:
 
-- **[Mustang, OK](/service-areas/mustang) - 30 minutes north (Canadian County)
-- **[Oklahoma City, OK](/service-areas/oklahoma-city) - 45 minutes north
-- **[Lawton, OK](/service-areas/lawton) - 1 hour southwest (Comanche County)
+- [Mustang, OK](/service-areas/mustang) — 30 minutes north (Canadian County)
+- [Oklahoma City, OK](/service-areas/oklahoma-city) — 45 minutes north
+- [Lawton, OK](/service-areas/lawton) — 1 hour southwest (Comanche County)
 
 ---
 

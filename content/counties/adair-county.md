@@ -169,11 +169,11 @@ The city was founded in 1897 and named after **Arthur Edward Stilwell**, founder
 
 Process servers operating in Adair County often require knowledge of adjacent jurisdictions:
 
-- **[Cherokee County](/counties/cherokee-county)** (west)
-- **[Delaware County](/counties/delaware-county)** (north)
-- **[Sequoyah County](/counties/sequoyah-county)** (southwest)
-- **[Ottawa County](/counties/ottawa-county)** (northwest)
-- **[Crawford County, Arkansas](/counties/crawford-county-ar)** (east)
+- [Cherokee County](/counties/cherokee-county) (west)
+- [Delaware County](/counties/delaware-county) (north)
+- [Sequoyah County](/counties/sequoyah-county) (southwest)
+- [Ottawa County](/counties/ottawa-county) (northwest)
+- [Crawford County, Arkansas](/counties/crawford-county-ar) (east)
 
 ---
 

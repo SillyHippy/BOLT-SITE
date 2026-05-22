@@ -127,9 +127,9 @@ Following the McGirt v. Oklahoma decision, Okmulgee falls within tribal reservat
 
 Just Legal Solutions also provides service in:
 
-- **[Henryetta, OK](/service-areas/henryetta) - 20 minutes south (Okmulgee County)
-- **[Tulsa, OK](/tulsa-process-server) - 45 minutes north
-- **[Checotah, OK](/service-areas/checotah) - 45 minutes southeast (McIntosh County)
+- [Henryetta, OK](/service-areas/henryetta) — 20 minutes south (Okmulgee County)
+- [Tulsa, OK](/tulsa-process-server) — 45 minutes north
+- [Checotah, OK](/service-areas/checotah) — 45 minutes southeast (McIntosh County)
 
 ---
 

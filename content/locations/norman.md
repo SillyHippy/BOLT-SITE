@@ -235,10 +235,10 @@ Documents can be emailed, mailed to our Tulsa office, or uploaded through our se
 
 Just Legal Solutions also provides service in:
 
-- **[Oklahoma City, OK](/service-areas/oklahoma-city)** - 25 minutes north
-- **[Moore, OK](/service-areas/moore)** - 15 minutes north
-- **[Noble, OK](/service-areas/noble)** - 15 minutes south
-- **[Purcell, OK](/service-areas/purcell)** - 30 minutes south
+- [Oklahoma City, OK](/service-areas/oklahoma-city) — 25 minutes north
+- [Moore, OK](/service-areas/moore) — 15 minutes north
+- [Noble, OK](/service-areas/noble) — 15 minutes south
+- [Purcell, OK](/service-areas/purcell) — 30 minutes south
 
 ---
 

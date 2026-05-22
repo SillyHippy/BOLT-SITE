@@ -117,10 +117,10 @@ We serve all types of legal documents including civil summons, subpoenas, divorc
 
 Just Legal Solutions also provides service in:
 
-- **[Yukon, OK](/service-areas/yukon) - 10 minutes north (Canadian County)
-- **[Oklahoma City, OK](/service-areas/oklahoma-city) - 15 minutes east
-- **[El Reno, OK](/service-areas/el-reno) - 25 minutes west (Canadian County seat)
-- **[Chickasha, OK](/service-areas/chickasha) - 45 minutes south (Grady County)
+- [Yukon, OK](/service-areas/yukon) — 10 minutes north (Canadian County)
+- [Oklahoma City, OK](/service-areas/oklahoma-city) — 15 minutes east
+- [El Reno, OK](/service-areas/el-reno) — 25 minutes west (Canadian County seat)
+- [Chickasha, OK](/service-areas/chickasha) — 45 minutes south (Grady County)
 
 ---
 

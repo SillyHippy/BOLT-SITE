@@ -226,10 +226,10 @@ Documents can be emailed, mailed to our Tulsa office, or uploaded through our se
 
 Just Legal Solutions also provides service in:
 
-- **[Tulsa, OK](/service-areas/tulsa)** - 50 minutes north
-- **[Fort Gibson, OK](/service-areas/fort-gibson)** - 15 minutes east
-- **[Okmulgee, OK](/service-areas/okmulgee)** - 35 minutes north
-- **[Wagoner, OK](/service-areas/wagoner)** - 35 minutes north
+- [Tulsa, OK](/service-areas/tulsa) — 50 minutes north
+- [Fort Gibson, OK](/service-areas/fort-gibson) — 15 minutes east
+- [Okmulgee, OK](/service-areas/okmulgee) — 35 minutes north
+- [Wagoner, OK](/service-areas/wagoner) — 35 minutes north
 
 ---
 

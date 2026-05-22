@@ -117,9 +117,9 @@ We serve all types of legal documents including civil summons, subpoenas, divorc
 
 Just Legal Solutions also provides service in:
 
-- **[Altus, OK](/service-areas/altus) - 1 hour 30 minutes south (Jackson County)
-- **[Oklahoma City, OK](/service-areas/oklahoma-city) - 2 hours east
-- **[Guymon, OK](/service-areas/guymon) - 3 hours northwest (Texas County)
+- [Altus, OK](/service-areas/altus) — 1 hour 30 minutes south (Jackson County)
+- [Oklahoma City, OK](/service-areas/oklahoma-city) — 2 hours east
+- [Guymon, OK](/service-areas/guymon) — 3 hours northwest (Texas County)
 
 ---
 

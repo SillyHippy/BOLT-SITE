@@ -118,9 +118,9 @@ We serve all types of legal documents including civil summons, subpoenas, divorc
 
 Just Legal Solutions also provides service in:
 
-- **[Sulphur, OK](/service-areas/sulphur) - 20 minutes southeast (Murray County)
-- **[Chickasha, OK](/service-areas/chickasha) - 45 minutes northwest (Grady County)
-- **[Ada, OK](/service-areas/ada) - 45 minutes east (Pontotoc County)
+- [Sulphur, OK](/service-areas/sulphur) — 20 minutes southeast (Murray County)
+- [Chickasha, OK](/service-areas/chickasha) — 45 minutes northwest (Grady County)
+- [Ada, OK](/service-areas/ada) — 45 minutes east (Pontotoc County)
 
 ---
 

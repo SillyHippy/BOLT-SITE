@@ -220,10 +220,10 @@ Documents can be emailed, mailed to our Tulsa office, or uploaded through our se
 
 Just Legal Solutions also provides service in:
 
-- **[Stillwater, OK](/service-areas/stillwater)** - 1 hour east (Payne County)
-- **[Woodward, OK](/service-areas/woodward)** - 1 hour 15 minutes west (Woodward County)
-- **[Ponca City, OK](/service-areas/ponca-city)** - 45 minutes east (Kay County)
-- **[Alva, OK](/service-areas/alva)** - 45 minutes northwest (Woods County)
+- [Stillwater, OK](/service-areas/stillwater) — 1 hour east (Payne County)
+- [Woodward, OK](/service-areas/woodward) — 1 hour 15 minutes west (Woodward County)
+- [Ponca City, OK](/service-areas/ponca-city) — 45 minutes east (Kay County)
+- [Alva, OK](/service-areas/alva) — 45 minutes northwest (Woods County)
 
 ---
 

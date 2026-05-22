@@ -131,9 +131,9 @@ Following the McGirt v. Oklahoma decision, Poteau falls within tribal reservatio
 
 Just Legal Solutions also provides service in:
 
-- **[McAlester, OK](/service-areas/mcalester) - 1 hour west (Pittsburg County)
-- **[Fort Smith, AR](/service-areas) - 30 minutes east (across state line)
-- **[Tahlequah, OK](/service-areas/tahlequah) - 1 hour north (Cherokee County)
+- [McAlester, OK](/service-areas/mcalester) — 1 hour west (Pittsburg County)
+- [Fort Smith, AR](/service-areas) — 30 minutes east (across state line)
+- [Tahlequah, OK](/service-areas/tahlequah) — 1 hour north (Cherokee County)
 
 ---
 

@@ -222,10 +222,10 @@ Documents can be emailed, mailed to our Tulsa office, or uploaded through our se
 
 Just Legal Solutions also provides service in:
 
-- **[Oklahoma City, OK](/service-areas/oklahoma-city)** - 15 minutes west
-- **[Moore, OK](/service-areas/moore)** - 20 minutes south
-- **[Norman, OK](/service-areas/norman)** - 25 minutes south
-- **[Edmond, OK](/service-areas/edmond)** - 30 minutes north
+- [Oklahoma City, OK](/service-areas/oklahoma-city) — 15 minutes west
+- [Moore, OK](/service-areas/moore) — 20 minutes south
+- [Norman, OK](/service-areas/norman) — 25 minutes south
+- [Edmond, OK](/service-areas/edmond) — 30 minutes north
 
 ---
 

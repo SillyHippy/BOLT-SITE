@@ -131,9 +131,9 @@ Following the McGirt v. Oklahoma decision, Durant falls within tribal reservatio
 
 Just Legal Solutions also provides service in:
 
-- **[Atoka, OK](/service-areas/atoka) - 45 minutes north (Atoka County)
-- **[Idabel, OK](/service-areas/idabel) - 2 hours east (McCurtain County)
-- **[Ada, OK](/service-areas/ada) - 1 hour 15 minutes northwest (Pontotoc County)
+- [Atoka, OK](/service-areas/atoka) — 45 minutes north (Atoka County)
+- [Idabel, OK](/service-areas/idabel) — 2 hours east (McCurtain County)
+- [Ada, OK](/service-areas/ada) — 1 hour 15 minutes northwest (Pontotoc County)
 
 ---
 

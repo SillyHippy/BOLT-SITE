@@ -131,9 +131,9 @@ Following the McGirt v. Oklahoma decision, Ada falls within tribal reservation b
 
 Just Legal Solutions also provides service in:
 
-- **[Sulphur, OK](/service-areas/sulphur) - 30 minutes west (Murray County)
-- **[McAlester, OK](/service-areas/mcalester) - 1 hour east (Pittsburg County)
-- **[Durant, OK](/service-areas/durant) - 1 hour 15 minutes south (Bryan County)
+- [Sulphur, OK](/service-areas/sulphur) — 30 minutes west (Murray County)
+- [McAlester, OK](/service-areas/mcalester) — 1 hour east (Pittsburg County)
+- [Durant, OK](/service-areas/durant) — 1 hour 15 minutes south (Bryan County)
 
 ---
 

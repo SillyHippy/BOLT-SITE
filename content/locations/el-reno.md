@@ -123,10 +123,10 @@ We serve all types of legal documents including civil summons, subpoenas, divorc
 
 Just Legal Solutions also provides service in:
 
-- **[Yukon, OK](/service-areas/yukon) - 10 minutes east (Canadian County)
-- **[Mustang, OK](/service-areas/mustang) - 15 minutes southeast
-- **[Oklahoma City, OK](/service-areas/oklahoma-city) - 25 minutes east
-- **[Guthrie, OK](/service-areas/guthrie) - 45 minutes north (Logan County)
+- [Yukon, OK](/service-areas/yukon) — 10 minutes east (Canadian County)
+- [Mustang, OK](/service-areas/mustang) — 15 minutes southeast
+- [Oklahoma City, OK](/service-areas/oklahoma-city) — 25 minutes east
+- [Guthrie, OK](/service-areas/guthrie) — 45 minutes north (Logan County)
 
 ---
 

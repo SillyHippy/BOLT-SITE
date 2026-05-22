@@ -127,9 +127,9 @@ Following the McGirt v. Oklahoma decision, Stilwell falls within tribal reservat
 
 Just Legal Solutions also provides service in:
 
-- **[Tahlequah, OK](/service-areas/tahlequah) - 30 minutes northwest (Cherokee County)
-- **[Poteau, OK](/service-areas/poteau) - 1 hour south (Le Flore County)
-- **[Fayetteville, AR](/service-areas) - 45 minutes east (across state line)
+- [Tahlequah, OK](/service-areas/tahlequah) — 30 minutes northwest (Cherokee County)
+- [Poteau, OK](/service-areas/poteau) — 1 hour south (Le Flore County)
+- [Fayetteville, AR](/service-areas) — 45 minutes east (across state line)
 
 ---
 

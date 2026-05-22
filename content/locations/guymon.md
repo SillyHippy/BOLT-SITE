@@ -118,9 +118,9 @@ We serve all types of legal documents including civil summons, subpoenas, divorc
 
 Just Legal Solutions also provides service in:
 
-- **[Elk City, OK](/service-areas/elk-city) - 3 hours southeast (Beckham County)
-- **[Amarillo, TX](/service-areas) - 2 hours southwest (across state line)
-- **[Liberal, KS](/service-areas) - 45 minutes north (across state line)
+- [Elk City, OK](/service-areas/elk-city) — 3 hours southeast (Beckham County)
+- [Amarillo, TX](/service-areas) — 2 hours southwest (across state line)
+- [Liberal, KS](/service-areas) — 45 minutes north (across state line)
 
 ---
 

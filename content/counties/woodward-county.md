@@ -135,13 +135,13 @@ After service, proof must be filed with the court including a notarized Return o
 
 ## External Resources
 
-- **[Woodward County Government](https://woodwardcounty.org/)** – Official county website
-- **[OSCN Woodward County](https://www.oscn.net/dockets/GetCourtInfo.aspx?db=woodward)** – Online court records
-- **[Boiling Springs State Park](https://www.travelok.com/boiling-springs-state-park)** – Oklahoma Tourism information
-- **[Oklahoma State Courts Network](https://www.oscn.net/)** – Statewide court records search
-- **[Oklahoma Bar Association](https://www.okbar.com/)** – Legal resources directory
-- **[Fort Supply Historic Site](https://www.okhistory.org/sites/fortsupply)** – Oklahoma Historical Society
-- **[Woodward News](https://www.woodwardnews.net/)** – Local newspaper for publication notices
+- [Woodward County Government](https://woodwardcounty.org/) — Official county website
+- [OSCN Woodward County](https://www.oscn.net/dockets/GetCourtInfo.aspx?db=woodward) — Online court records
+- [Boiling Springs State Park](https://www.travelok.com/boiling-springs-state-park) — Oklahoma Tourism information
+- [Oklahoma State Courts Network](https://www.oscn.net/) — Statewide court records search
+- [Oklahoma Bar Association](https://www.okbar.com/) — Legal resources directory
+- [Fort Supply Historic Site](https://www.okhistory.org/sites/fortsupply) — Oklahoma Historical Society
+- [Woodward News](https://www.woodwardnews.net/) — Local newspaper for publication notices
 
 ## Conclusion
 

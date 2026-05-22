@@ -229,12 +229,12 @@ Documents can be emailed, mailed to our Tulsa office, or uploaded through our se
 
 Just Legal Solutions also provides service in:
 
-- **[Edmond, OK](/service-areas/edmond)** - 20 minutes north
-- **[Norman, OK](/service-areas/norman)** - 25 minutes south
-- **[Moore, OK](/service-areas/moore)** - 15 minutes south
-- **[Midwest City, OK](/service-areas/midwest-city)** - 15 minutes east
-- **[Yukon, OK](/service-areas/yukon)** - 20 minutes west
-- **[Mustang, OK](/service-areas/mustang)** - 25 minutes southwest
+- [Edmond, OK](/service-areas/edmond) — 20 minutes north
+- [Norman, OK](/service-areas/norman) — 25 minutes south
+- [Moore, OK](/service-areas/moore) — 15 minutes south
+- [Midwest City, OK](/service-areas/midwest-city) — 15 minutes east
+- [Yukon, OK](/service-areas/yukon) — 20 minutes west
+- [Mustang, OK](/service-areas/mustang) — 25 minutes southwest
 
 ---
 

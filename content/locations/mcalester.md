@@ -128,9 +128,9 @@ Following the McGirt v. Oklahoma decision, McAlester falls within tribal reserva
 
 Just Legal Solutions also provides service in:
 
-- **[Henryetta, OK](/service-areas/henryetta) - 1 hour north (Okmulgee County)
-- **[Atoka, OK](/service-areas/atoka) - 30 minutes south (Atoka County)
-- **[Poteau, OK](/service-areas/poteau) - 1 hour east (Le Flore County)
+- [Henryetta, OK](/service-areas/henryetta) — 1 hour north (Okmulgee County)
+- [Atoka, OK](/service-areas/atoka) — 30 minutes south (Atoka County)
+- [Poteau, OK](/service-areas/poteau) — 1 hour east (Le Flore County)
 
 ---
 

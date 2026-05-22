@@ -254,10 +254,10 @@ Documents can be emailed, mailed to our Tulsa office, or uploaded through our se
 
 Just Legal Solutions also provides service in:
 
-- **[Ardmore, OK](/service-areas/ardmore)** - 1 hour 15 minutes east (Carter County)
-- **[Altus, OK](/service-areas/altus)** - 1 hour west (Jackson County)
-- **[Anadarko, OK](/service-areas/anadarko)** - 45 minutes north (Caddo County)
-- **[Wichita Falls, TX](/service-areas/wichita-falls-tx)** - 50 minutes south (Texas)
+- [Ardmore, OK](/service-areas/ardmore) — 1 hour 15 minutes east (Carter County)
+- [Altus, OK](/service-areas/altus) — 1 hour west (Jackson County)
+- [Anadarko, OK](/service-areas/anadarko) — 45 minutes north (Caddo County)
+- [Wichita Falls, TX](/service-areas/wichita-falls-tx) — 50 minutes south (Texas)
 
 ---
 

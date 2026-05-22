@@ -127,9 +127,9 @@ We serve all types of legal documents including civil summons, subpoenas, divorc
 
 Just Legal Solutions also provides service in:
 
-- **[Elk City, OK](/service-areas/elk-city) - 1 hour 30 minutes north (Beckham County)
-- **[Lawton, OK](/service-areas/lawton) - 1 hour east (Comanche County)
-- **[Fort Sill, OK](/service-areas/fort-sill) - 1 hour east
+- [Elk City, OK](/service-areas/elk-city) — 1 hour 30 minutes north (Beckham County)
+- [Lawton, OK](/service-areas/lawton) — 1 hour east (Comanche County)
+- [Fort Sill, OK](/service-areas/fort-sill) — 1 hour east
 
 ---
 

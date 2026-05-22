@@ -240,10 +240,10 @@ Documents can be emailed, mailed to our Tulsa office, or uploaded through our se
 
 Just Legal Solutions also provides service in:
 
-- **[Perry, OK](/service-areas/perry)** - 30 minutes north (Noble County)
-- **[Cushing, OK](/service-areas/cushing)** - 25 minutes east
-- **[Guthrie, OK](/service-areas/guthrie)** - 35 minutes south (Logan County)
-- **[Enid, OK](/service-areas/enid)** - 1 hour northwest (Garfield County)
+- [Perry, OK](/service-areas/perry) — 30 minutes north (Noble County)
+- [Cushing, OK](/service-areas/cushing) — 25 minutes east
+- [Guthrie, OK](/service-areas/guthrie) — 35 minutes south (Logan County)
+- [Enid, OK](/service-areas/enid) — 1 hour northwest (Garfield County)
 
 ---
 

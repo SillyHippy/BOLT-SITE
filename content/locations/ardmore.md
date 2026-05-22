@@ -200,10 +200,10 @@ Documents can be emailed, mailed to our Tulsa office, or uploaded through our se
 
 Just Legal Solutions also provides service in:
 
-- **[Lawton, OK](/service-areas/lawton)** - 45 minutes west (Comanche County)
-- **[Durant, OK](/service-areas/durant)** - 45 minutes east (Bryan County)
-- **[Ada, OK](/service-areas/ada)** - 30 minutes north (Pontotoc County)
-- **[Marietta, OK](/service-areas/marietta)** - 20 minutes south (Love County)
+- [Lawton, OK](/service-areas/lawton) — 45 minutes west (Comanche County)
+- [Durant, OK](/service-areas/durant) — 45 minutes east (Bryan County)
+- [Ada, OK](/service-areas/ada) — 30 minutes north (Pontotoc County)
+- [Marietta, OK](/service-areas/marietta) — 20 minutes south (Love County)
 
 ---
 

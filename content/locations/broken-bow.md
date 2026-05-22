@@ -127,9 +127,9 @@ Following the McGirt v. Oklahoma decision, Broken Bow falls within tribal reserv
 
 Just Legal Solutions also provides service in:
 
-- **[Idabel, OK](/service-areas/idabel) - 25 minutes south (McCurtain County seat)
-- **[Poteau, OK](/service-areas/poteau) - 2 hours north (Le Flore County)
-- **[Durant, OK](/service-areas/durant) - 2 hours 30 minutes west (Bryan County)
+- [Idabel, OK](/service-areas/idabel) — 25 minutes south (McCurtain County seat)
+- [Poteau, OK](/service-areas/poteau) — 2 hours north (Le Flore County)
+- [Durant, OK](/service-areas/durant) — 2 hours 30 minutes west (Bryan County)
 
 ---
 

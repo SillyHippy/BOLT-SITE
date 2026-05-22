@@ -132,10 +132,10 @@ Following the McGirt v. Oklahoma decision, Tahlequah falls within tribal reserva
 
 Just Legal Solutions also provides service in:
 
-- **[Claremore, OK](/service-areas/claremore) - 45 minutes west (Rogers County)
-- **[Stilwell, OK](/service-areas/stilwell) - 30 minutes southeast (Adair County)
-- **[Checotah, OK](/service-areas/checotah) - 1 hour south (McIntosh County)
-- **[Tulsa, OK](/tulsa-process-server) - 1 hour 30 minutes west
+- [Claremore, OK](/service-areas/claremore) — 45 minutes west (Rogers County)
+- [Stilwell, OK](/service-areas/stilwell) — 30 minutes southeast (Adair County)
+- [Checotah, OK](/service-areas/checotah) — 1 hour south (McIntosh County)
+- [Tulsa, OK](/tulsa-process-server) — 1 hour 30 minutes west
 
 ---
 

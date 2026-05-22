@@ -118,9 +118,9 @@ We serve all types of legal documents including civil summons, subpoenas, divorc
 
 Just Legal Solutions also provides service in:
 
-- **[Ada, OK](/service-areas/ada) - 30 minutes east (Pontotoc County)
-- **[Pauls Valley, OK](/service-areas/pauls-valley) - 30 minutes west (Garvin County)
-- **[Chickasha, OK](/service-areas/chickasha) - 45 minutes northwest (Grady County)
+- [Ada, OK](/service-areas/ada) — 30 minutes east (Pontotoc County)
+- [Pauls Valley, OK](/service-areas/pauls-valley) — 30 minutes west (Garvin County)
+- [Chickasha, OK](/service-areas/chickasha) — 45 minutes northwest (Grady County)
 
 ---
 

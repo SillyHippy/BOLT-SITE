@@ -118,9 +118,9 @@ We serve all types of legal documents including civil summons, subpoenas, divorc
 
 Just Legal Solutions also provides service in:
 
-- **[Bartlesville, OK](/service-areas/bartlesville) - 1 hour east (Washington County)
-- **[Stillwater, OK](/service-areas/stillwater) - 1 hour south (Payne County)
-- **[Enid, OK](/service-areas/enid) - 1 hour west (Garfield County)
+- [Bartlesville, OK](/service-areas/bartlesville) — 1 hour east (Washington County)
+- [Stillwater, OK](/service-areas/stillwater) — 1 hour south (Payne County)
+- [Enid, OK](/service-areas/enid) — 1 hour west (Garfield County)
 
 ---
 

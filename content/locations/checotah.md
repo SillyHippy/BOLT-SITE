@@ -126,9 +126,9 @@ Following the McGirt v. Oklahoma decision, Checotah falls within tribal reservat
 
 Just Legal Solutions also provides service in:
 
-- **[Okmulgee, OK](/service-areas/okmulgee) - 30 minutes northwest (Okmulgee County)
-- **[McAlester, OK](/service-areas/mcalester) - 45 minutes south (Pittsburg County)
-- **[Tulsa, OK](/tulsa-process-server) - 1 hour 30 minutes north
+- [Okmulgee, OK](/service-areas/okmulgee) — 30 minutes northwest (Okmulgee County)
+- [McAlester, OK](/service-areas/mcalester) — 45 minutes south (Pittsburg County)
+- [Tulsa, OK](/tulsa-process-server) — 1 hour 30 minutes north
 
 ---
 

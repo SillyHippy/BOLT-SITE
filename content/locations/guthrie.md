@@ -118,9 +118,9 @@ We serve all types of legal documents including civil summons, subpoenas, divorc
 
 Just Legal Solutions also provides service in:
 
-- **[Oklahoma City, OK](/service-areas/oklahoma-city) - 30 minutes south
-- **[Stillwater, OK](/service-areas/stillwater) - 35 minutes east (Payne County)
-- **[Edmond, OK](/service-areas/edmond) - 20 minutes south
+- [Oklahoma City, OK](/service-areas/oklahoma-city) — 30 minutes south
+- [Stillwater, OK](/service-areas/stillwater) — 35 minutes east (Payne County)
+- [Edmond, OK](/service-areas/edmond) — 20 minutes south
 
 ---
 

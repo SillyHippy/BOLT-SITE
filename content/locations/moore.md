@@ -194,10 +194,10 @@ Documents can be emailed, mailed to our Tulsa office, or uploaded through our se
 
 Just Legal Solutions also provides service in:
 
-- **[Norman, OK](/service-areas/norman)** - 15 minutes south
-- **[Oklahoma City, OK](/service-areas/oklahoma-city)** - 15 minutes north
-- **[Midwest City, OK](/service-areas/midwest-city)** - 20 minutes northeast
-- **[Newcastle, OK](/service-areas/newcastle)** - 20 minutes west
+- [Norman, OK](/service-areas/norman) — 15 minutes south
+- [Oklahoma City, OK](/service-areas/oklahoma-city) — 15 minutes north
+- [Midwest City, OK](/service-areas/midwest-city) — 20 minutes northeast
+- [Newcastle, OK](/service-areas/newcastle) — 20 minutes west
 
 ---
 

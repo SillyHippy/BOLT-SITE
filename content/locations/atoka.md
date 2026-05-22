@@ -126,9 +126,9 @@ Following the McGirt v. Oklahoma decision, Atoka falls within tribal reservation
 
 Just Legal Solutions also provides service in:
 
-- **[McAlester, OK](/service-areas/mcalester) - 30 minutes north (Pittsburg County)
-- **[Durant, OK](/service-areas/durant) - 1 hour south (Bryan County)
-- **[Ada, OK](/service-areas/ada) - 1 hour west (Pontotoc County)
+- [McAlester, OK](/service-areas/mcalester) — 30 minutes north (Pittsburg County)
+- [Durant, OK](/service-areas/durant) — 1 hour south (Bryan County)
+- [Ada, OK](/service-areas/ada) — 1 hour west (Pontotoc County)
 
 ---
 

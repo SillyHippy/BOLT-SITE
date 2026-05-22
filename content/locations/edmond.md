@@ -206,10 +206,10 @@ Documents can be emailed, uploaded to our client portal, or delivered to our off
 
 Just Legal Solutions also provides service in:
 
-- **[Oklahoma City, OK](/service-areas/oklahoma-city)** - 20 minutes south
-- **[Norman, OK](/service-areas/norman)** - 35 minutes south
-- **[Guthrie, OK](/service-areas/guthrie)** - 25 minutes north (Logan County)
-- **[Moore, OK](/service-areas/moore)** - 30 minutes south
+- [Oklahoma City, OK](/service-areas/oklahoma-city) — 20 minutes south
+- [Norman, OK](/service-areas/norman) — 35 minutes south
+- [Guthrie, OK](/service-areas/guthrie) — 25 minutes north (Logan County)
+- [Moore, OK](/service-areas/moore) — 30 minutes south
 
 ---
 

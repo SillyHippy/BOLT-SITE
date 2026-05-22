@@ -228,10 +228,10 @@ Documents can be emailed, mailed to our Tulsa office, or uploaded through our se
 
 Just Legal Solutions also provides service in:
 
-- **[Oklahoma City, OK](/service-areas/oklahoma-city)** - 45 minutes west
-- **[Tecumseh, OK](/service-areas/tecumseh)** - 10 minutes south
-- **[Seminole, OK](/service-areas/seminole)** - 30 minutes east
-- **[Prague, OK](/service-areas/prague)** - 25 minutes northeast
+- [Oklahoma City, OK](/service-areas/oklahoma-city) — 45 minutes west
+- [Tecumseh, OK](/service-areas/tecumseh) — 10 minutes south
+- [Seminole, OK](/service-areas/seminole) — 30 minutes east
+- [Prague, OK](/service-areas/prague) — 25 minutes northeast
 
 ---
 

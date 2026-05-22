@@ -118,10 +118,10 @@ We serve all types of legal documents including civil summons, subpoenas, divorc
 
 Just Legal Solutions also provides service in:
 
-- **[Mustang, OK](/service-areas/mustang) - 10 minutes south (Canadian County)
-- **[El Reno, OK](/service-areas/el-reno) - 10 minutes west (Canadian County seat)
-- **[Bethany, OK](/service-areas/bethany) - 10 minutes east (Oklahoma County)
-- **[Oklahoma City, OK](/service-areas/oklahoma-city) - 15 minutes east
+- [Mustang, OK](/service-areas/mustang) — 10 minutes south (Canadian County)
+- [El Reno, OK](/service-areas/el-reno) — 10 minutes west (Canadian County seat)
+- [Bethany, OK](/service-areas/bethany) — 10 minutes east (Oklahoma County)
+- [Oklahoma City, OK](/service-areas/oklahoma-city) — 15 minutes east
 
 ---
 

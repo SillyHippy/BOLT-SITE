@@ -117,9 +117,9 @@ We serve all types of legal documents including civil summons, subpoenas, divorc
 
 Just Legal Solutions also provides service in:
 
-- **[Midwest City, OK](/service-areas/midwest-city) - 10 minutes west
-- **[Oklahoma City, OK](/service-areas/oklahoma-city) - 20 minutes west
-- **[Shawnee, OK](/service-areas/shawnee) - 30 minutes east (Pottawatomie County)
+- [Midwest City, OK](/service-areas/midwest-city) — 10 minutes west
+- [Oklahoma City, OK](/service-areas/oklahoma-city) — 20 minutes west
+- [Shawnee, OK](/service-areas/shawnee) — 30 minutes east (Pottawatomie County)
 
 ---
 
