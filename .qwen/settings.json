@@ -8,7 +8,8 @@
       "Bash(f *)",
       "Bash(@git *)",
       "Bash(git diff *)",
-      "Bash(findstr *)"
+      "Bash(findstr *)",
+      "WebFetch(justlegalsolutions.org)"
     ]
   },
   "$version": 4

@@ -22,7 +22,7 @@
     "blog:enhance-queue-seo-ai": "node scripts/enhance-queue-editorial-seo.js",
     "blog:audit-monthly": "node scripts/monthly-seo-audit.js",
     "prebuild": "node scripts/run-ai-optimization.js",
-    "postbuild": "node scripts/generate-sitemap.js && node scripts/generate-video-sitemap.js && node scripts/generate-ai-sitemap.js",
+    "postbuild": "node scripts/generate-sitemap.js && node scripts/generate-video-sitemap.js && node scripts/generate-ai-sitemap.js && node scripts/generate-image-sitemap.js",
     "postexport": "node scripts/verify-contact-info.js"
   },
   "dependencies": {
