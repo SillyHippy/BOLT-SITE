@@ -4423,6 +4423,23 @@
       },
       "warnings": [],
       "mode": "published"
+    },
+    {
+      "slug": "legal-support-services-beyond-process-serving",
+      "title": "Legal Support Services Beyond Process Serving: Full-Service Guide",
+      "category": "Notary Services",
+      "releasedAt": "2026-05-22T02:10:20.426Z",
+      "quality": {
+        "words": 2872,
+        "headings": 17,
+        "paragraphs": 36
+      },
+      "images": {
+        "referenced": [],
+        "copiedBySlugCount": 0
+      },
+      "warnings": [],
+      "mode": "published"
     }
   ],
   "failures": [
@@ -6635,6 +6652,18 @@
       ],
       "warnings": [],
       "checkedAt": "2026-04-24T06:19:26.194Z"
+    },
+    {
+      "slug": "in-state-vs-out-of-state-service-process-oklahoma",
+      "title": "In-State vs Out-of-State Service of Process: Oklahoma Attorney Guide",
+      "category": "Notary Services",
+      "failedChecks": [
+        "SEO/schema: metadata.description is 219 chars (must be 150-160)"
+      ],
+      "warnings": [
+        "FAQ answers short: 1 answers under 20 words"
+      ],
+      "checkedAt": "2026-05-22T02:10:20.421Z"
     }
   ]
 }

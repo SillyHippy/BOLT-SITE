@@ -820,7 +820,7 @@ export default function RonVsMobileNotaryPage() {
             <h2 className="text-2xl font-bold text-gray-900 mt-16 mb-6">Related Articles</h2>
             <div className="not-prose grid md:grid-cols-2 gap-4">
               <Link
-                href="/blog/oklahoma-notary-requirements/"
+                href="/blog/oklahoma-notary-fees-guide"
                 className="block p-4 bg-gray-50 rounded-lg hover:bg-blue-50 transition-colors border border-gray-200 hover:border-blue-300"
               >
                 <h3 className="font-semibold text-blue-900 mb-2">Oklahoma Notary Requirements Guide</h3>

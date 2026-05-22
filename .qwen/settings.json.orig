@@ -1,7 +1,15 @@
 {
   "permissions": {
     "allow": [
-      "Bash(node *)"
+      "Bash(node *)",
+      "Read(c:\\Users\\ianna\\.openclaw/**)",
+      "Bash(dir *)",
+      "Bash(del *)",
+      "Bash(f *)",
+      "Bash(@git *)",
+      "Bash(git diff *)",
+      "Bash(findstr *)"
     ]
-  }
+  },
+  "$version": 3
 }

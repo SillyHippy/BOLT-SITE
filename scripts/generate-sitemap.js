@@ -124,8 +124,7 @@ function generateSitemap() {
     '/virtual-assistant-law-firms', // Redirects to /virtual-assistant-services
     '/seo/process-server-owasso', // Redirects to /service-areas/owasso
     '/service-areas/hugo', // Redirects to /counties/choctaw-county
-    '/blog/oklahoma-180-day-rule-service-process', // Redirects to /oklahoma-process-server-faq
-    '/blog/oklahoma-180-day-rule-service-process-explained', // Redirects to /oklahoma-process-server-faq
+    '/blog/oklahoma-180-day-rule-service-process-explained', // Redirects to /blog/oklahoma-180-day-rule-service-process
     '/180-day-service-deadline', // Redirects to /oklahoma-tools/service-deadline-calculator
     '/voice-search-marker', // Internal voice search marker
     '/registered-agent', // Excluded from sitemap per user request, not ready for live service list

@@ -415,7 +415,7 @@ export default function ProcessServingHOABlog() {
             <li><Link href="/services/court-filing/">Court Document Filing Services</Link></li>
             <li><Link href="/blog/oklahoma-process-server-requirements/">Oklahoma Process Server Requirements</Link></li>
             <li><Link href="/blog/eviction-notice-service-oklahoma/">Eviction Notice Service in Oklahoma</Link></li>
-            <li><Link href="/blog/foreclosure-process-serving-oklahoma/">Foreclosure Process Serving Guide</Link></li>
+            <li><Link href="/blog/oklahoma-landlord-tenant-eviction-timelines">Landlord-Tenant eviction timelines</Link></li>
           </ul>
         </article>
         <div className="mt-12">

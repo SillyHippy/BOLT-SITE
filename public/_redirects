@@ -106,8 +106,13 @@
 /seo/process-server-owasso/ /service-areas/owasso 301
 /sitemap-index /sitemap-index.xml 301
 /service-areas/hugo /counties/choctaw-county 301
-/blog/oklahoma-180-day-rule-service-process /oklahoma-process-server-faq 301
-/blog/oklahoma-180-day-rule-service-process-explained /oklahoma-process-server-faq 301
+/blog/oklahoma-180-day-rule-service-process-explained /blog/oklahoma-180-day-rule-service-process 301
+/JudicialDirectory.pdf /downloads/JLS-OK-77-County-Court-Directory-v1.0.pdf 301
+/blog/oklahoma-notary-requirements /blog/oklahoma-notary-fees-guide 301
+/blog/oklahoma-notary-requirements/ /blog/oklahoma-notary-fees-guide 301
+/blog/foreclosure-process-serving-oklahoma /blog/process-serving-hoa-oklahoma 301
+/blog/foreclosure-process-serving-oklahoma/ /blog/process-serving-hoa-oklahoma 301
+/blog/what-to-do-after-youve-been-served /blog/what-to-do-when-served-papers-oklahoma 301
 
 # ── 7. Content page redirects ─────────────────────────────
 /serving-legal-papers-in-oklahoma-guide /ultimate-guide-process-serving-oklahoma 301
