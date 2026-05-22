@@ -5802,9 +5802,13 @@ export function getCityGeoData(slug: string): CityGeoDatum | undefined {
   return CITY_GEO[slug];
 }
 
+// ⚡ Bolt: Cache Object.keys and Object.values to avoid O(N) allocations on every call
+const _allCitySlugsCache = Object.keys(CITY_GEO);
+const _allCityGeoDataCache = Object.values(CITY_GEO);
+
 // ⚡ Bolt: Pre-compute county-to-cities mapping for O(1) lookups
 const _citiesByCountyCache = new Map<string, CityGeoDatum[]>();
-for (const city of Object.values(CITY_GEO)) {
+for (const city of _allCityGeoDataCache) {
   const countyKey = city.countyName.toLowerCase();
   let list = _citiesByCountyCache.get(countyKey);
   if (!list) {
@@ -5820,11 +5824,11 @@ export function getCitiesByCounty(countyName: string): CityGeoDatum[] {
 }
 
 export function getAllCitySlugs(): string[] {
-  return Object.keys(CITY_GEO);
+  return [..._allCitySlugsCache];
 }
 
 export function getAllCityGeoData(): CityGeoDatum[] {
-  return Object.values(CITY_GEO);
+  return [..._allCityGeoDataCache];
 }
 
 export function getCitiesInBounds(
@@ -5833,7 +5837,7 @@ export function getCitiesInBounds(
   lonMin: number,
   lonMax: number
 ): CityGeoDatum[] {
-  return Object.values(CITY_GEO).filter(
+  return _allCityGeoDataCache.filter(
     (c) =>
       c.latitude >= latMin &&
       c.latitude <= latMax &&
