@@ -237,8 +237,52 @@
 /yukon-process-server /service-areas/yukon 301
 
 # ── 10a. Malformed scraper paths (markdown **…]** URL artifacts) ──
-/service-areas/ada)** /service-areas/ada 301
-/service-areas/lawton)** /service-areas/lawton 301
+# Literal paths with `*` break Cloudflare splat parsing — use encoded sources only.
+/service-areas/ada%29%2A%2A /service-areas/ada 301
+/service-areas/lawton%29%2A%2A /service-areas/lawton 301
+
+# ── 10c. Legacy audit export paths → canonical (2026-05-22) ───────
+/blog/oklahoma-process-server-faq /oklahoma-process-server-faq 301
+/blog/oklahoma-process-server-best-practices-checklist /oklahoma-process-server-best-practices-checklist 301
+/blog/oklahoma-process-server-requirements /oklahoma-process-server-best-practices-checklist 301
+/blog/oklahoma-process-server-laws /oklahoma-process-server-laws 301
+/blog/eviction-notice-service-oklahoma /blog/how-to-serve-eviction-notices-in-oklahoma 301
+/blog/same-day-process-serving-oklahoma /same-day-process-server 301
+/blog/common-process-serving-mistakes-oklahoma /process-serving-mistakes-guide 301
+/blog/serving-business-entities-oklahoma /blog/serve-business-corporation-oklahoma 301
+/blog/what-is-process-server /seo/what-is-a-process-server 301
+/blog/become-a-process-server-oklahoma /blog/become-process-server-oklahoma 301
+/blog/how-long-to-respond-lawsuit-oklahoma /blog/how-long-respond-lawsuit-oklahoma 301
+/blog/what-does-process-server-do-day-in-life /seo/what-is-a-process-server 301
+/blog/what-happens-if-someone-refuses-service /what-happens-if-someone-refuses-service 301
+/process-server-equipment-guide /process-server-equipment-checklist 301
+/how-to-become-a-process-server-in-oklahoma /blog/become-process-server-oklahoma 301
+/how-to-become-a-process-server-oklahoma /blog/become-process-server-oklahoma 301
+/counties/crawford-county-ar /counties/adair-county 301
+/oklahoma-process-server-training /process-server-license-oklahoma 301
+/process-server-training-oklahoma /process-server-license-oklahoma 301
+/oklahoma-process-server-requirements /oklahoma-process-server-best-practices-checklist 301
+/oklahoma-process-server-licensing /process-server-license-oklahoma 301
+/family-law-service-guide-oklahoma /family-law-service-guide-tulsa 301
+/substitute-service-oklahoma /blog/substitute-service-oklahoma 301
+/terms /terms-of-service 301
+/request-service /contact 301
+/services/court-filing /courthouse-filing-services 301
+/services/same-day-process-serving /same-day-process-server 301
+/services/process-serving /process-serving 301
+/resources/process-server-safety-guide-oklahoma /process-server-safety-guide-oklahoma 301
+/resources/process-server-forms-oklahoma /oklahoma-process-server-forms-templates 301
+/resources/oklahoma-process-server-forms-templates /oklahoma-process-server-forms-templates 301
+/resources/process-server-equipment-checklist /process-server-equipment-checklist 301
+/resources/become-process-server-oklahoma-complete-guide /become-process-server-oklahoma-complete-guide 301
+/service-areas/warr-acres /service-areas/oklahoma-city 301
+/service-areas/the-village /service-areas/oklahoma-city 301
+/service-areas/union-city /service-areas/oklahoma-city 301
+/service-areas/geary /service-areas/oklahoma-city 301
+/service-areas/beggs /service-areas/okmulgee 301
+/service-areas/calumet /service-areas/oklahoma-city 301
+/service-areas/duncan /service-areas/lawton 301
+/careers /contact 301
 
 # ── 10b. County short slug → canonical (regen: npm run generate:county-short-redirects) ──
 /counties/adair /counties/adair-county 301

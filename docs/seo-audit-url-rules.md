@@ -16,7 +16,7 @@ Companion to the 4xx triage plan: classify tool output before chasing “broken 
 
 ## Normalize URL lists before asserting 4xx
 
-1. **Strip markdown junk** — bogus paths like `/service-areas/ada)**` usually come from tools reading **Markdown source** adjacent to `- **[city](href)**` patterns (addressed sitewide by `npm run normalize:adjacent-city-md`). After deployment, malformed paths **301** to canonical (see `_redirects` section `10a`).
+1. **Strip markdown junk** — bogus paths like `/service-areas/ada)**` usually come from tools reading **Markdown source** adjacent to `- **[city](href)**` patterns (addressed sitewide by `npm run normalize:adjacent-city-md`). After deployment, encoded malformed paths **301** to canonical (`/service-areas/ada%29%2A%2A` → `/service-areas/ada` in `_redirects` section `10a`; do not use literal `*` in `_redirects` sources — Cloudflare treats `*` as splat wildcards).
 
 2. **County slug shape** — Live county pages use **`/counties/{name}-county`** (mirrors [`content/counties/*.md`](/content/counties)); bare `/counties/harper` is not canonical. **`301` rules:** section `10b` in [`public/_redirects`](/public/_redirects). Regenerate the block with `npm run generate:county-short-redirects` and merge if new counties ship (skips conflicting sources already in file).
 
@@ -26,9 +26,14 @@ Companion to the 4xx triage plan: classify tool output before chasing “broken 
 
 ```bash
 npm run verify:sitemap
+npm run verify:redirects
+npm run verify:audit-export
+npm run verify:http
 npm run generate:county-short-redirects
 npm run normalize:adjacent-city-md
 ```
+
+Post-deploy checklist: [post-deploy-verification-summary.md](post-deploy-verification-summary.md)
 
 `normalize:adjacent-city-md` is idempotent; run after bulk content edits touching “Adjacent cities” style bullets.
 
