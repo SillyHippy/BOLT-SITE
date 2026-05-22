@@ -29,6 +29,23 @@ function discoverBlogUrls() {
   return urls;
 }
 
+// Auto-discover blog category pages from lib/blog-categories.ts
+function discoverBlogCategoryUrls() {
+  const categoriesFile = path.join(process.cwd(), 'lib', 'blog-categories.ts');
+  const urls = [];
+  if (!fs.existsSync(categoriesFile)) return urls;
+
+  const content = fs.readFileSync(categoriesFile, 'utf8');
+  const categorySlugRegex = /slug:\s*'([^']+)',\s*\n\s*name:/g;
+  let match;
+  while ((match = categorySlugRegex.exec(content)) !== null) {
+    urls.push(`/blog/category/${match[1]}`);
+  }
+
+  console.log(`📂 Auto-discovered ${urls.length} blog category URLs`);
+  return urls;
+}
+
 // Recursively get all .html files in a directory
 function getHtmlFiles(dir) {
   let results = [];
@@ -343,6 +360,7 @@ function generateSitemap() {
 
     // Blog Posts (auto-discovered below, these are the static info pages)
     ...discoverBlogUrls(),
+    ...discoverBlogCategoryUrls(),
 
     // SEO Landing Pages
     '/seo/eviction-notice-process-server',

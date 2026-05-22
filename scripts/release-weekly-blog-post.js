@@ -172,6 +172,12 @@ function validateSeoSchema(source, slug) {
   if (!robots) {
     errors.push('Missing metadata.robots');
   } else {
+    if (robots.includes('noindex')) {
+      errors.push('metadata.robots must be index,follow (found noindex)');
+    }
+    if (!robots.includes('index')) {
+      errors.push('metadata.robots missing index');
+    }
     if (!robots.includes('max-snippet:-1')) {
       errors.push('metadata.robots missing max-snippet:-1');
     }
