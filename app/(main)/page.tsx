@@ -23,6 +23,7 @@ import { LiteYouTubeEmbed } from '@/components/lite-youtube-embed';
 
 import Link from 'next/link';
 import { buildFreshnessMetadata, getPageFreshness } from '@/lib/content-freshness';
+import LastUpdated from '@/components/ui/last-updated';
 
 const homeFreshness = getPageFreshness('/')!;
 
@@ -590,6 +591,7 @@ export default function Home() {
               <p className="text-gray-600 text-sm">Legal guides, tools, and educational resources</p>
             </Link>
           </div>
+          <LastUpdated pathname="/" className="text-center text-sm text-gray-500 mt-8" />
         </div>
       </section>
       {/* Unified Schema Markup */}

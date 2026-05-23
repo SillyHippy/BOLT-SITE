@@ -3,6 +3,8 @@ import { Metadata } from 'next';
 import Navbar from '../../components/ui/navbar';
 import Footer from '../../components/ui/footer';
 import JsonLd from '../../components/ui/json-ld';
+import { buildFreshnessMetadata, formatSchemaDate, getPageFreshness } from '@/lib/content-freshness';
+import LastUpdated from '@/components/ui/last-updated';
 import {
   Globe,
   FileCheck,
@@ -26,6 +28,7 @@ import {
 } from 'lucide-react';
 
 const canonicalUrl = 'https://justlegalsolutions.org/apostille';
+const apostilleFreshness = getPageFreshness('/apostille')!;
 
 export const metadata: Metadata = {
   title: 'Apostille Services Oklahoma | Document Authentication Tulsa | International Notary',
@@ -49,6 +52,10 @@ export const metadata: Metadata = {
     'ai-content-type': 'service',
     'ai-summary': 'Apostille and document authentication services in Oklahoma for international use under the Hague Convention of 1961. Accepted in 120+ member countries. Oklahoma Secretary of State issues apostilles. Remote Online Notarization (RON) available under 49 O.S. § 201 et seq. Notary fee cap: $5/act traditional (49 O.S. § 5), $25/act RON (49 O.S. § 209). Call (539) 367-6832.',
     'ai-key-facts': 'Oklahoma apostille: Issued by Oklahoma Secretary of State. Hague Convention of 1961 applies. 120+ member countries. RON authorized (49 O.S. § 201 et seq.). Notary fee $5/act max (49 O.S. § 5). Documents must be notarized before apostille.',
+    ...buildFreshnessMetadata({
+      datePublished: apostilleFreshness.datePublished,
+      dateModified: apostilleFreshness.dateModified,
+    }).other,
   }
 };
 
@@ -476,10 +483,25 @@ const howToSchema = {
   }))
 };
 
+const webPageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  '@id': `${canonicalUrl}#webpage`,
+  url: canonicalUrl,
+  name: 'Apostille Services Oklahoma | Document Authentication Tulsa',
+  description: 'Professional apostille and document authentication services in Oklahoma for international use under the Hague Convention.',
+  datePublished: formatSchemaDate(apostilleFreshness.datePublished),
+  dateModified: formatSchemaDate(apostilleFreshness.dateModified),
+  isPartOf: {
+    '@id': 'https://justlegalsolutions.org/#website',
+  },
+};
+
 export default function ApostillePage() {
   return (
     <>
       <Navbar />
+      <JsonLd data={webPageSchema} />
       <JsonLd data={localBusinessSchema} />
       <JsonLd data={serviceSchema} />
       <JsonLd data={breadcrumbSchema} />
@@ -992,6 +1014,9 @@ export default function ApostillePage() {
         </section>
       </main>
 
+      <div className="max-w-7xl mx-auto px-4 pb-6">
+        <LastUpdated pathname="/apostille" className="text-center text-sm text-gray-500" />
+      </div>
       <Footer />
     </>
   );

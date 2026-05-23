@@ -237,6 +237,7 @@ Google and AI audit tools (e.g. Framer) reward regularly updated content with in
 - **Sitemap:** `scripts/generate-sitemap.js` sets `<lastmod>` from page file mtime on postbuild.
 - **Human signal:** Keep visible "Last updated: [date]" on key hub pages; update quarterly when pricing/statutes change.
 - **Verify:** `npm run verify:freshness` probes priority URLs for JSON-LD, meta, and sitemap freshness (6-month window).
+- **Auto dates:** `npm run generate:freshness` (also runs on `dev`, `prebuild`, and `postbuild`) writes `lib/page-freshness.generated.json` from each `page.tsx` file mtime. Optional manual bumps: `lib/page-freshness.overrides.json`.
 
 ---
 

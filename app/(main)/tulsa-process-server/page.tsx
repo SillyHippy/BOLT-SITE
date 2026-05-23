@@ -22,7 +22,7 @@ import RankingSupremacy2026 from '@/components/ui/2026-ranking-supremacy';
 import MobileVoiceOptimization from '@/components/ui/mobile-voice-optimization';
 import { Metadata } from 'next';
 import Script from 'next/script';
-import { buildFreshnessMetadata, getPageFreshness } from '@/lib/content-freshness';
+import { buildFreshnessMetadata, formatLastUpdatedLabel, getPageFreshness } from '@/lib/content-freshness';
 
 const tulsaFreshness = getPageFreshness('/tulsa-process-server')!;
 
@@ -301,7 +301,7 @@ export default function TulsaProcessServerPage() {
             <div className="text-center">
               <div className="text-3xl mb-2">📅</div>
               <p className="font-semibold text-gray-900">Current &amp; Verified</p>
-              <p className="text-sm text-gray-600">Page last updated: February 2026</p>
+              <p className="text-sm text-gray-600">Page last updated: {formatLastUpdatedLabel(tulsaFreshness.dateModified)}</p>
             </div>
           </div>
         </section>

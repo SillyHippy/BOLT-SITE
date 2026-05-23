@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "node scripts/generate-page-freshness.mjs && next dev",
     "build:dev": "vite build --mode development",
     "build": "next build",
     "typecheck": "tsc --noEmit -p tsconfig.json",
@@ -13,6 +13,8 @@
     "verify:redirects": "node scripts/verify-redirects.mjs",
     "verify:audit-export": "node scripts/verify-audit-export.mjs",
     "verify:freshness": "node scripts/verify-freshness-signals.mjs",
+    "sync:ai-dates": "node scripts/generate-page-freshness.mjs && node scripts/sync-ai-freshness-dates.mjs",
+    "generate:freshness": "node scripts/generate-page-freshness.mjs",
     "verify:http": "node scripts/verify-sitemap-urls.mjs && node scripts/verify-redirects.mjs && node scripts/verify-audit-export.mjs",
     "generate:county-short-redirects": "node scripts/generate-county-short-redirects.mjs",
     "normalize:adjacent-city-md": "node scripts/normalize-adjacent-city-markdown.mjs",
@@ -28,8 +30,8 @@
     "blog:normalize-queue": "node scripts/normalize-kimi-queue-posts.js",
     "blog:enhance-queue-seo-ai": "node scripts/enhance-queue-editorial-seo.js",
     "blog:audit-monthly": "node scripts/monthly-seo-audit.js",
-    "prebuild": "node scripts/run-ai-optimization.js",
-    "postbuild": "node scripts/generate-sitemap.js && node scripts/generate-video-sitemap.js && node scripts/generate-ai-sitemap.js && node scripts/generate-image-sitemap.js",
+    "prebuild": "node scripts/generate-page-freshness.mjs && node scripts/run-ai-optimization.js",
+    "postbuild": "node scripts/generate-page-freshness.mjs && node scripts/generate-sitemap.js && node scripts/generate-video-sitemap.js && node scripts/generate-ai-sitemap.js && node scripts/generate-image-sitemap.js && node scripts/sync-ai-freshness-dates.mjs",
     "postexport": "node scripts/verify-contact-info.js"
   },
   "dependencies": {

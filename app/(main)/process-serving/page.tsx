@@ -8,7 +8,8 @@ import {
     CorePageCountyLinksPanel,
     LegalTrustSignalsPanel,
 } from '@/components/seo/internal-link-trust-panels';
-import { buildFreshnessMetadata, formatLastUpdatedLabel, getPageFreshness } from '@/lib/content-freshness';
+import { buildFreshnessMetadata, getPageFreshness } from '@/lib/content-freshness';
+import LastUpdated from '@/components/ui/last-updated';
 
 const processServingFreshness = getPageFreshness('/process-serving')!;
 
@@ -808,7 +809,7 @@ export default function ProcessServingPage() {
                         <p className="text-sm text-gray-700">
                             All process serving is performed by licensed Oklahoma private process servers under <Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline font-medium">12 O.S. § 158.1</Link> and in compliance with <Link href="/oklahoma-process-server-laws" className="text-blue-600 hover:underline font-medium">12 O.S. § 2004</Link>. Each server carries a $5,000 surety bond as required by state law.
                         </p>
-                        <p className="text-xs text-gray-500 mt-2">Last updated: {formatLastUpdatedLabel(processServingFreshness.dateModified)}</p>
+                        <LastUpdated pathname="/process-serving" className="text-xs text-gray-500 mt-2" />
                     </div>
                 </div>
             </div>

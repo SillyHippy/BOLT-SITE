@@ -8,6 +8,7 @@ import EnhancedBreadcrumbSchema from '@/components/ui/enhanced-breadcrumb-schema
 import AIVoiceSupremacy from '@/components/ui/ai-voice-supremacy';
 import LocalPromoBanner from '@/components/ui/local-promo-banner';
 import { buildFreshnessMetadata, formatSchemaDate, getPageFreshness } from '@/lib/content-freshness';
+import LastUpdated from '@/components/ui/last-updated';
 
 const contactFreshness = getPageFreshness('/contact')!;
 
@@ -409,6 +410,9 @@ export default function ContactPage() {
           })
         }}
       />
+      <div className="max-w-4xl mx-auto px-4 pb-6">
+        <LastUpdated pathname="/contact" className="text-center text-sm text-gray-500" />
+      </div>
       <Footer />
     </>
   );

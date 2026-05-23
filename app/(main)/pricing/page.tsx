@@ -13,6 +13,7 @@ import {
 import { getPromoDescription } from '@/lib/promo-utils';
 import { getStartingPrice, PRICE_RANGE_DISPLAY } from '@/lib/pricing';
 import { buildFreshnessMetadata, getPageFreshness } from '@/lib/content-freshness';
+import LastUpdated from '@/components/ui/last-updated';
 
 const pricingFreshness = getPageFreshness('/pricing')!;
 
@@ -794,6 +795,7 @@ export default function PricingPage() {
           phone="(539) 367-6832"
           skipSchema={true}
         />
+        <LastUpdated pathname="/pricing" className="text-center text-sm text-gray-500 pb-8" />
       </div>
     </>
   );

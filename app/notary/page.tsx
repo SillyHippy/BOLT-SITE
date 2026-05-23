@@ -7,6 +7,7 @@ import Footer from '../../components/ui/footer';
 import JsonLd from '../../components/JsonLd';
 import AIVoiceSupremacy from '../../components/ui/ai-voice-supremacy';
 import { buildFreshnessMetadata, formatSchemaDate, getPageFreshness } from '@/lib/content-freshness';
+import LastUpdated from '@/components/ui/last-updated';
 import {
   Phone, Mail, Clock, Shield, MapPin, FileText, Scale, Users,
   CheckCircle, HelpCircle, DollarSign, Award, Star, Briefcase,
@@ -998,6 +999,9 @@ export default function NotaryPage() {
         phone="(539) 367-6832"
         skipSchema={true}
       />
+      <div className="max-w-7xl mx-auto px-4 pb-6">
+        <LastUpdated pathname="/notary" className="text-center text-sm text-gray-500" />
+      </div>
       <Footer />
     </>
   );

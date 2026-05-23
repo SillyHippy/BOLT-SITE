@@ -5,6 +5,7 @@ import Navbar from '../../components/ui/navbar';
 import Footer from '../../components/ui/footer';
 import JsonLd from '../../components/JsonLd';
 import { buildFreshnessMetadata, formatSchemaDate, getPageFreshness } from '@/lib/content-freshness';
+import LastUpdated from '@/components/ui/last-updated';
 import {
   Phone,
   Mail,
@@ -907,6 +908,9 @@ export default function MobileNotaryPage() {
           </div>
         </section>
       </main>
+      <div className="max-w-7xl mx-auto px-4 pb-6">
+        <LastUpdated pathname="/mobile-notary" className="text-center text-sm text-gray-500" />
+      </div>
       <Footer />
     </div>
   );
