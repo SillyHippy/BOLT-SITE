@@ -9,6 +9,14 @@ export interface Video {
   isShort: boolean;
 }
 
+
+export function slugifyVideoTitle(title: string): string {
+  return title
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/(^-|-$)/g, '');
+}
+
 export function normalizeShortSeo(video: Video): Video {
   if (!video.isShort) return video;
 
@@ -1108,3 +1116,14 @@ export const shorts: Video[] = [
 
 export const seoShorts: Video[] = shorts.map(normalizeShortSeo);
 export const allVideos = [...featuredVideos, ...fullVideos, ...seoShorts];
+
+
+// Pre-computed O(1) Map caches for efficient lookups
+export const videoIdMap = new Map<string, Video>();
+export const videoSlugMap = new Map<string, Video>();
+
+// Initialize maps
+for (const video of allVideos) {
+  videoIdMap.set(video.videoId, video);
+  videoSlugMap.set(slugifyVideoTitle(video.title), video);
+}
